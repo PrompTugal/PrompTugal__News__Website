@@ -215,7 +215,7 @@
     {
       "url": "https://24noticias.sapo.pt/local/faro/monchique",
       "host": "24noticias.sapo.pt",
-      "captured_at": "2026-11-16T12:23:43Z",
+      "captured_at": "2026-11-16T13:27:16Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -224,15 +224,15 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/24noticias.sapo.pt/290485181f34.jpg",
-        "sha256": "ca27b41f57b10660090ab37ec67289910aaf2789400f7164471957cd1ef576e1",
-        "bytes": 19279,
+        "sha256": "603657550f86e17093ea2fbaa3f5eaafbe9eebc2fbb863bb16c212ba03896680",
+        "bytes": 22079,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/24noticias.sapo.pt/290485181f34.txt",
-        "sha256": "fe5c81a36382c12216aa76402903436a399f57c355d8a589f96420a82b0c0a2e",
-        "chars": 58
+        "sha256": "448e5fe829747f9f1d4792d0389cf8cb273494f2d485c5a4d73cf2cd9e8cc4a9",
+        "chars": 100
       },
       "cited_by": [
         {
@@ -246,7 +246,7 @@
     {
       "url": "https://24noticias.sapo.pt/local/faro/vila-real-de-santo-antonio",
       "host": "24noticias.sapo.pt",
-      "captured_at": "2026-11-16T12:22:29Z",
+      "captured_at": "2026-11-16T13:26:03Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -255,8 +255,8 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/24noticias.sapo.pt/8e5c33486b67.jpg",
-        "sha256": "ca27b41f57b10660090ab37ec67289910aaf2789400f7164471957cd1ef576e1",
-        "bytes": 19279,
+        "sha256": "3311bcf71b10506997663c7e64643a776ab1cfcd7c79897eaae35b8317862239",
+        "bytes": 19278,
         "width": 1280,
         "height": 1600
       },
@@ -744,7 +744,7 @@
     {
       "url": "https://algarvedailynews.com",
       "host": "algarvedailynews.com",
-      "captured_at": "2026-11-16T12:19:58Z",
+      "captured_at": "2026-11-16T13:23:33Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -775,7 +775,7 @@
     {
       "url": "https://algarveevolution.pt",
       "host": "algarveevolution.pt",
-      "captured_at": "2026-11-16T12:24:14Z",
+      "captured_at": "2026-11-16T13:27:46Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -868,24 +868,24 @@
     {
       "url": "https://algoritmi.uminho.pt",
       "host": "algoritmi.uminho.pt",
-      "captured_at": "2026-11-16T12:29:44Z",
+      "captured_at": "2026-11-16T13:31:04Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": 502,
+      "ok": true,
+      "status": 200,
       "final_url": "https://algoritmi.uminho.pt/",
-      "title": "",
-      "note": "the server answered 502",
+      "title": "Home - Centro ALGORITMI",
+      "note": null,
       "image": {
         "path": "captures/2026-11-16/algoritmi.uminho.pt/d6eccd54de84.jpg",
-        "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
-        "bytes": 14263,
+        "sha256": "48a9f06a634a5aa3a1b95797e76fb507c1300f8a37490489473f93d7a51fe29a",
+        "bytes": 203041,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/algoritmi.uminho.pt/d6eccd54de84.txt",
-        "sha256": "ed177fc03ad82e4b5ce644510c6b0f138e3d78f94b56c804d1ddf21d5edb1f42",
-        "chars": 23
+        "sha256": "ae9907c626b0f433df3f76c358c6791706c40a667dd44d568db270ee459ef1e0",
+        "chars": 60000
       },
       "cited_by": [
         {
@@ -899,7 +899,7 @@
     {
       "url": "https://anacom.pt/render.jsp?contentId=1828354",
       "host": "anacom.pt",
-      "captured_at": "2026-11-16T12:24:32Z",
+      "captured_at": "2026-11-16T13:28:05Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -1559,7 +1559,7 @@
     {
       "url": "https://brigantia-ecopark.pt",
       "host": "brigantia-ecopark.pt",
-      "captured_at": "2026-11-16T12:29:25Z",
+      "captured_at": "2026-11-16T13:30:46Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -2046,7 +2046,7 @@
     {
       "url": "https://cm-aljezur.pt/pt/menu/105/aljezur-para-investir.aspx",
       "host": "cm-aljezur.pt",
-      "captured_at": "2026-11-16T12:24:24Z",
+      "captured_at": "2026-11-16T13:27:57Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -2304,7 +2304,7 @@
     {
       "url": "https://cms.cm-vrsa.pt/upload_files/client_id_1/website_id_1/Atividade%20Municipal/Atividades%20economicas/Gabinete%20do%20empreendorismo/Brochura_Gabinete%20do%20Empreendedorismo.pdf",
       "host": "cms.cm-vrsa.pt",
-      "captured_at": "2026-11-16T12:22:40Z",
+      "captured_at": "2026-11-16T13:26:13Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -2556,6 +2556,37 @@
       ]
     },
     {
+      "url": "https://coimbrasupernova.com/",
+      "host": "coimbrasupernova.com",
+      "captured_at": "2026-11-16T13:31:29Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://coimbrasupernova.com/",
+      "title": "Coimbra Supernova — Aliança para o cluster do Espaço de Coimbra",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/coimbrasupernova.com/b35862473d81.jpg",
+        "sha256": "33c4fe37c2b65459b959d8b2dc8562b36ddb966c5a11300319a7a19862d691fc",
+        "bytes": 153353,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/coimbrasupernova.com/b35862473d81.txt",
+        "sha256": "d7a859e5e4d44d12d36f309553757365697c2c0a576187cc82ae3e5824838878",
+        "chars": 3037
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 15,
+          "label": "Coimbra Supernova"
+        }
+      ]
+    },
+    {
       "url": "https://commission.europa.eu/document/0575d59f-554f-4a9e-b54b-e6b717175809_en",
       "host": "commission.europa.eu",
       "captured_at": "2026-11-15T23:56:54Z",
@@ -2681,7 +2712,7 @@
     {
       "url": "https://dealroom.co/news",
       "host": "dealroom.co",
-      "captured_at": "2026-11-16T12:26:53Z",
+      "captured_at": "2026-11-16T13:30:26Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -2712,7 +2743,7 @@
     {
       "url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
       "host": "dealroom.co",
-      "captured_at": "2026-11-16T12:19:52Z",
+      "captured_at": "2026-11-16T13:23:27Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -2761,7 +2792,7 @@
     {
       "url": "https://dealroom.co/news/135231-coalex-ai-raises-angel-round-from-angels-way-to-build-its-ai-trust-layer/",
       "host": "dealroom.co",
-      "captured_at": "2026-11-16T12:19:50Z",
+      "captured_at": "2026-11-16T13:23:25Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -2866,7 +2897,7 @@
     {
       "url": "https://diariodarepublica.pt/dr/detalhe/anuncio-procedimento/33066-2025-992176457",
       "host": "diariodarepublica.pt",
-      "captured_at": "2026-11-16T12:29:18Z",
+      "captured_at": "2026-11-16T13:30:39Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -4262,6 +4293,43 @@
       ]
     },
     {
+      "url": "https://eco.sapo.pt/2025/09/30/politecnico-da-guarda-desenvolve-drones-e-projetos-ia-com-universidade-ucraniana/",
+      "host": "eco.sapo.pt",
+      "captured_at": "2026-11-16T13:33:29Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://eco.sapo.pt/2025/09/30/politecnico-da-guarda-desenvolve-drones-e-projetos-ia-com-universidade-ucraniana/",
+      "title": "Politécnico da Guarda desenvolve drones e projetos IA com universidade ucraniana – ECO",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/eco.sapo.pt/7f394c62da87.jpg",
+        "sha256": "921e102ad8ebd578d265cf2bae2b696387e6b041989bd0c5d134e2878a0810d5",
+        "bytes": 159860,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/eco.sapo.pt/7f394c62da87.txt",
+        "sha256": "bb4e8da9af8627def47d76f2ca0393685e0f046464771d3ddca75d1ac9746b46",
+        "chars": 7079
+      },
+      "cited_by": [
+        {
+          "place": "guarda",
+          "kind": "news",
+          "n": 3,
+          "label": "Guarda polytechnic signs a drones and AI logistics agreement with a Ukrainian university"
+        },
+        {
+          "place": "guarda",
+          "kind": "gravity",
+          "n": 2,
+          "label": "Politécnico da Guarda desenvolve drones e projetos IA com universidade ucraniana (ECO, Lusa, 30 September 2025)"
+        }
+      ]
+    },
+    {
       "url": "https://eco.sapo.pt/2026/07/01/investimento-no-amalia-sobe-para-sete-milhoes-de-euros-montenegro-diz-que-o-governo-nao-esta-a-festejar-nada/",
       "host": "eco.sapo.pt",
       "captured_at": "2026-11-16T05:16:56Z",
@@ -4609,7 +4677,7 @@
     {
       "url": "https://elevateddesign.pt/",
       "host": "elevateddesign.pt",
-      "captured_at": "2026-11-16T12:22:42Z",
+      "captured_at": "2026-11-16T13:26:16Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -10660,6 +10728,43 @@
       ]
     },
     {
+      "url": "https://jnation.pt/",
+      "host": "jnation.pt",
+      "captured_at": "2026-11-16T13:31:57Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://jnation.pt/",
+      "title": "JNation Conference",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/jnation.pt/e1fd17d29bc3.jpg",
+        "sha256": "17e2e66db82543cf4d1949d520c7ed0dd7149c767be757f6d2e2e29f9938f80d",
+        "bytes": 113107,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/jnation.pt/e1fd17d29bc3.txt",
+        "sha256": "cb9099facbee8b5a45730e92033e112981ad68eb72d7e2f1d88d14c846544e11",
+        "chars": 804
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "event",
+          "n": 3,
+          "label": "JNation 2027, developer conference with machine learning and AI among its topics (Convento São Francisco, Coimbra)"
+        },
+        {
+          "place": "coimbra",
+          "kind": "source",
+          "n": 12,
+          "label": "JNation developer conference"
+        }
+      ]
+    },
+    {
       "url": "https://jobs.generalcatalyst.com/companies/discord-2/jobs/96245323-it-ops-engineer-lisbon",
       "host": "jobs.generalcatalyst.com",
       "captured_at": "2026-11-15T23:56:59Z",
@@ -10693,7 +10798,7 @@
     {
       "url": "https://jornaldoalgarve.pt",
       "host": "jornaldoalgarve.pt",
-      "captured_at": "2026-11-16T12:19:56Z",
+      "captured_at": "2026-11-16T13:23:31Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -10702,14 +10807,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/4911303f8afc.jpg",
-        "sha256": "c68403417a387995313cb415db672274e26840dcb69cf2e1c525e389d59d422e",
-        "bytes": 39245,
+        "sha256": "d85f5853d96d031ef2a3d2bebb2fa3132a8f3734746718ae9e45139a399f49e1",
+        "bytes": 39239,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/4911303f8afc.txt",
-        "sha256": "e146a7406eb05d56075a7dc8f281650279702142b12cf0460c8791f9ff1a790c",
+        "sha256": "33ad683f54385078fe6c060bc0ef0ee04cda10c87a32fc12dbc3f9c9b74a2bd2",
         "chars": 279
       },
       "cited_by": [
@@ -10724,7 +10829,7 @@
     {
       "url": "https://jornaldoalgarve.pt/",
       "host": "jornaldoalgarve.pt",
-      "captured_at": "2026-11-16T12:24:30Z",
+      "captured_at": "2026-11-16T13:28:02Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -10733,14 +10838,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/941e71abacc1.jpg",
-        "sha256": "0e8bd88ca3926d4b77abb25c364b2505876287b9393b2e6ff26ce7aab858b909",
-        "bytes": 39262,
+        "sha256": "03538ff651f808bddff02e1db53e25068253a530e71a3266caba0519fcac1ed9",
+        "bytes": 39282,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/941e71abacc1.txt",
-        "sha256": "f28b77ff888f8c7b4242bcd1f6835301bcc77667c72ed901c4eb31d067d987f5",
+        "sha256": "095ee8ff7ca6529523e446acbc564f9f666b0f2584b94ac8f75c8f550d3e4a6b",
         "chars": 279
       },
       "cited_by": [
@@ -11120,7 +11225,7 @@
     {
       "url": "https://lisboaaberta.cm-lisboa.pt",
       "host": "lisboaaberta.cm-lisboa.pt",
-      "captured_at": "2026-11-16T12:26:51Z",
+      "captured_at": "2026-11-16T13:30:24Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -11129,14 +11234,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/e88e0f52bdde.jpg",
-        "sha256": "67c5726081e007bbc38f79ea16c113efef9d52c4a7922dd7ba325e275fa9a63e",
-        "bytes": 40178,
+        "sha256": "0195d6429d58edee8c83dafc0e374eeabe671ebd5b7abaa6a4234fb4dae6df43",
+        "bytes": 40153,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/e88e0f52bdde.txt",
-        "sha256": "ef6c4f8397fb19519a521fe64b8dd6fadb0f60e09a137c8398e4a6fd22a85225",
+        "sha256": "423a5d4387f2392b2681af988fe84dacc6a6a02224226263d3b2a721130413c4",
         "chars": 286
       },
       "cited_by": [
@@ -11157,7 +11262,7 @@
     {
       "url": "https://lisboaaberta.cm-lisboa.pt/index.php/pt/lx-data-lab/desafios",
       "host": "lisboaaberta.cm-lisboa.pt",
-      "captured_at": "2026-11-16T12:26:48Z",
+      "captured_at": "2026-11-16T13:30:21Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -11166,14 +11271,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/896372b8cfac.jpg",
-        "sha256": "2af27aadf0ab152fa75cc0b9900fba093431c8c87db21db4ed5fdaf14bb7b9d1",
-        "bytes": 40179,
+        "sha256": "a69f976b0fe8fe0d67e0f96d4a1ecd9e0333759c1e6b0339fe3e79482f599bee",
+        "bytes": 40198,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/896372b8cfac.txt",
-        "sha256": "f9e9b14667f3dbf5c445f0cc225dc979709e4651875cbb8a94a98eae4a4f3ea6",
+        "sha256": "713aa04857198b49f44fb00edc150247c1846eb150ae5bc9610fa54041807a31",
         "chars": 286
       },
       "cited_by": [
@@ -11755,6 +11860,99 @@
       ]
     },
     {
+      "url": "https://mun-guarda.pt/agenda-de-eventos/",
+      "host": "mun-guarda.pt",
+      "captured_at": "2026-11-16T13:34:27Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 429,
+      "final_url": "https://mun-guarda.pt/agenda-de-eventos/",
+      "title": "",
+      "note": "the server answered 429",
+      "image": {
+        "path": "captures/2026-11-16/mun-guarda.pt/6fa4bbee5a55.jpg",
+        "sha256": "d9858aa7b13eb035aa20ae564b2ccb3ba26f9011db6c767fcd90bacaa8168b56",
+        "bytes": 12757,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/mun-guarda.pt/6fa4bbee5a55.txt",
+        "sha256": "5fd52ef0366750f46a784194aadfc11c94a74958d1e329cba106ba340aa8db18",
+        "chars": 0
+      },
+      "cited_by": [
+        {
+          "place": "guarda",
+          "kind": "source",
+          "n": 8,
+          "label": "Município da Guarda: agenda of events"
+        }
+      ]
+    },
+    {
+      "url": "https://mun-guarda.pt/agenda-de-eventos/entrega-de-premio-e-seminario-entrega-do-premio-cei-iit-investigacao-inovacao-e-territorio-2026/",
+      "host": "mun-guarda.pt",
+      "captured_at": "2026-11-16T13:34:20Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://mun-guarda.pt/agenda-de-eventos/entrega-de-premio-e-seminario-entrega-do-premio-cei-iit-investigacao-inovacao-e-territorio-2026/",
+      "title": "Entrega de Prémio e Seminário | Entrega do Prémio CEI-IIT Investigação, Inovação e Território 2026 - Portal Municipal da Guarda",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/mun-guarda.pt/376e2519a71e.jpg",
+        "sha256": "8bea92c3003b834968a8a1d5baa7c61e08690322136a8a900f39490add310e53",
+        "bytes": 49961,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/mun-guarda.pt/376e2519a71e.txt",
+        "sha256": "1fb7c15b6b95dc82dc192ba3ed5b7c874f293f91d302663b58411d2df527ea08",
+        "chars": 2067
+      },
+      "cited_by": [
+        {
+          "place": "guarda",
+          "kind": "event",
+          "n": 1,
+          "label": "CEI-IIT Research, Innovation and Territory Prize 2026: award ceremony and seminar"
+        }
+      ]
+    },
+    {
+      "url": "https://mun-guarda.pt/noticias/",
+      "host": "mun-guarda.pt",
+      "captured_at": "2026-11-16T13:34:25Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 429,
+      "final_url": "https://mun-guarda.pt/noticias/",
+      "title": "",
+      "note": "the server answered 429",
+      "image": {
+        "path": "captures/2026-11-16/mun-guarda.pt/56901e7f429b.jpg",
+        "sha256": "d9858aa7b13eb035aa20ae564b2ccb3ba26f9011db6c767fcd90bacaa8168b56",
+        "bytes": 12757,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/mun-guarda.pt/56901e7f429b.txt",
+        "sha256": "1b235d6a32c559ad1fefbcfb210b0f2c4165f59a2bcae994d6ae50e62e4b3687",
+        "chars": 0
+      },
+      "cited_by": [
+        {
+          "place": "guarda",
+          "kind": "source",
+          "n": 7,
+          "label": "Município da Guarda: news"
+        }
+      ]
+    },
+    {
       "url": "https://navan.com/blog/web-summit-guide",
       "host": "navan.com",
       "captured_at": "2026-11-16T00:10:41Z",
@@ -12157,7 +12355,7 @@
     {
       "url": "https://noticias.uc.pt/en/",
       "host": "noticias.uc.pt",
-      "captured_at": "2026-11-16T10:27:49Z",
+      "captured_at": "2026-11-16T13:32:18Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -12166,14 +12364,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/noticias.uc.pt/749a372bb363.jpg",
-        "sha256": "04d736990533e2b4b2be346e1deb1a50a16a7a2219cda9c390c2288d56d69b6c",
-        "bytes": 36263,
+        "sha256": "bd2af3855b81555817004adc14a3f314bade49f7d71d4b91f189cacec5936928",
+        "bytes": 36352,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/noticias.uc.pt/749a372bb363.txt",
-        "sha256": "9b69a11f794da01b12c4471a737c2e56c1e0c950980f476cd619232290e6b6b4",
+        "sha256": "b1f2121e1945b5743108ee8fe51d4621962f9c812187c382d21877a499ec7598",
         "chars": 58
       },
       "cited_by": [
@@ -12188,7 +12386,7 @@
     {
       "url": "https://noticias.uc.pt/en/articles/the-centre-for-informatics-and-systems-of-the-university-of-coimbra-joins-the-largest-global-artificial-intelligence-consortium/",
       "host": "noticias.uc.pt",
-      "captured_at": "2026-11-16T12:30:13Z",
+      "captured_at": "2026-11-16T13:31:11Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -12197,14 +12395,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/noticias.uc.pt/6bbf9d9b114e.jpg",
-        "sha256": "ed0f348498dfe8eba253f184e598fa0ccf7f622174004f79f759047d85cba312",
-        "bytes": 36363,
+        "sha256": "c5772785248174b83bea5e2b77bc0c01a4503813a466babb4250d1700105524f",
+        "bytes": 36318,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/noticias.uc.pt/6bbf9d9b114e.txt",
-        "sha256": "41a53caabc3139c691129aa0811cde69c1baf73afa2eb9484c1ca9bf97017d83",
+        "sha256": "92f00822a37ad4bc8a26f66ae4555e30fb9879ec6b392c59ceccda74c7acfdff",
         "chars": 58
       },
       "cited_by": [
@@ -13304,6 +13502,49 @@
       ]
     },
     {
+      "url": "https://observador.pt/2025/06/23/politecnico-da-guarda-desenvolve-plataforma-com-recurso-a-ia-que-simplifica-planos-diretores-municipais/",
+      "host": "observador.pt",
+      "captured_at": "2026-11-16T13:33:35Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://observador.pt/2025/06/23/politecnico-da-guarda-desenvolve-plataforma-com-recurso-a-ia-que-simplifica-planos-diretores-municipais/",
+      "title": "Guarda. Politécnico usa IA para simplificar PDM – Observador",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/observador.pt/1e6d3aaea980.jpg",
+        "sha256": "f8992a50fbe54c46b5372c3c570f45cabeaeb6a7b060042de680dfbcac434790",
+        "bytes": 123793,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/observador.pt/1e6d3aaea980.txt",
+        "sha256": "f1e315a13d28685651cc1ae383e5903268a76b1c4dd46ebbbe7fb825918c9e9d",
+        "chars": 7262
+      },
+      "cited_by": [
+        {
+          "place": "guarda",
+          "kind": "news",
+          "n": 4,
+          "label": "Guarda students build Imo Harmonia, an AI tool that reads municipal master plans"
+        },
+        {
+          "place": "guarda",
+          "kind": "map",
+          "n": 6,
+          "label": "Imo Harmonia (student project)"
+        },
+        {
+          "place": "guarda",
+          "kind": "source",
+          "n": 6,
+          "label": "Observador (Lusa copy)"
+        }
+      ]
+    },
+    {
       "url": "https://observador.pt/2025/11/04/algarve-tech-hub-summit-em-lagos-vai-apoiar-talento-e-investimento-na-regiao/",
       "host": "observador.pt",
       "captured_at": "2026-11-15T23:41:52Z",
@@ -13832,6 +14073,247 @@
           "article": "women-learning-and-building-ai-in-portugal",
           "kind": "article",
           "label": "women-learning-and-building-ai-in-portugal"
+        }
+      ]
+    },
+    {
+      "url": "https://politecnicoguarda.pt",
+      "host": "politecnicoguarda.pt",
+      "captured_at": "2026-11-16T13:33:51Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://politecnicoguarda.pt/",
+      "title": "Universidade Politécnica da Guarda — O potencial do nosso interior.",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/politecnicoguarda.pt/98665faa25a5.jpg",
+        "sha256": "fac965e2e1cf7421a31282f0ff854fbbecc6ea867d24123947c85130cc7bc63c",
+        "bytes": 161934,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/politecnicoguarda.pt/98665faa25a5.txt",
+        "sha256": "5366311b0c51cf1667f7cac9219179ad46c199bfeeda286c06ec80b0fedf6c2c",
+        "chars": 1367
+      },
+      "cited_by": [
+        {
+          "place": "guarda",
+          "kind": "map-site",
+          "n": 1,
+          "label": "Universidade Politécnica da Guarda (UPG, formerly IPG)"
+        },
+        {
+          "place": "guarda",
+          "kind": "gravity",
+          "n": 4,
+          "label": "Politécnico da Guarda: news page, with the September 2026 vote to apply to become a university"
+        },
+        {
+          "place": "guarda",
+          "kind": "source",
+          "n": 2,
+          "label": "Politécnico da Guarda: news"
+        }
+      ]
+    },
+    {
+      "url": "https://politecnicoguarda.pt/conselho-geral-da-upg-decide-por-unanimidade-candidatura-para-a-conversao-em-universidade/",
+      "host": "politecnicoguarda.pt",
+      "captured_at": "2026-11-16T13:33:42Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://politecnicoguarda.pt/conselho-geral-da-upg-decide-por-unanimidade-candidatura-para-a-conversao-em-universidade/",
+      "title": "Conselho Geral da UPG decide, por unanimidade, candidatura para a conversão em “universidade” — Universidade Politécnica da Guarda",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/politecnicoguarda.pt/7eb863eb06c8.jpg",
+        "sha256": "cdc306d8f35fa28bf4c55127fb009b8d8622d9f5088ec67d6b919d1dce0a506b",
+        "bytes": 310145,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/politecnicoguarda.pt/7eb863eb06c8.txt",
+        "sha256": "82ced51f99696fa34c4f9f8ca77be8e7834b02049397747dee76a9b9b5a20fec",
+        "chars": 5474
+      },
+      "cited_by": [
+        {
+          "place": "guarda",
+          "kind": "map",
+          "n": 1,
+          "label": "Universidade Politécnica da Guarda (UPG, formerly IPG)"
+        }
+      ]
+    },
+    {
+      "url": "https://politecnicoguarda.pt/ensino/licenciaturas/candidaturas/",
+      "host": "politecnicoguarda.pt",
+      "captured_at": "2026-11-16T13:33:55Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://politecnicoguarda.pt/ensino/licenciaturas/candidaturas/",
+      "title": "Candidaturas às Licenciaturas do Instituto Politécnico da Guarda",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/politecnicoguarda.pt/e9c68cbebd68.jpg",
+        "sha256": "f37d5212472ea50eeb691725a685af2898f25c48f8ee6304b215d7322ace9bc2",
+        "bytes": 165218,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/politecnicoguarda.pt/e9c68cbebd68.txt",
+        "sha256": "1b7334c4a9e0627b6f3e3f3070a2fd4ddbc4a6edd65e403251ddb84a41663f57",
+        "chars": 10162
+      },
+      "cited_by": [
+        {
+          "place": "guarda",
+          "kind": "map",
+          "n": 2,
+          "label": "Licenciatura em Ciência de Dados e Inteligência Artificial (ESTG, Politécnico da Guarda)"
+        },
+        {
+          "place": "guarda",
+          "kind": "source",
+          "n": 3,
+          "label": "Politécnico da Guarda: degree applications"
+        }
+      ]
+    },
+    {
+      "url": "https://politecnicoguarda.pt/noticias/",
+      "host": "politecnicoguarda.pt",
+      "captured_at": "2026-11-16T13:34:34Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://politecnicoguarda.pt/noticias-eventos/noticias/",
+      "title": "Notícias — Universidade Politécnica da Guarda",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/politecnicoguarda.pt/dbf526247656.jpg",
+        "sha256": "209e8d77c17d636ca62273c4f4e02352adc93ccfeb2574b93205d87518d016c0",
+        "bytes": 288305,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/politecnicoguarda.pt/dbf526247656.txt",
+        "sha256": "53fa1ca9e675e1c6347f961c13b8028aa7568f7e6c74c8334fbc857c0ed95545",
+        "chars": 5685
+      },
+      "cited_by": [
+        {
+          "place": "guarda",
+          "kind": "source",
+          "n": 9,
+          "label": "Universidade Politécnica da Guarda: news"
+        }
+      ]
+    },
+    {
+      "url": "https://politecnicoguarda.pt/politecnico-da-guarda-cria-licenciatura-que-une-ciencia-de-dados-a-inteligencia-artificial/",
+      "host": "politecnicoguarda.pt",
+      "captured_at": "2026-11-16T13:33:58Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://politecnicoguarda.pt/politecnico-da-guarda-cria-licenciatura-que-une-ciencia-de-dados-a-inteligencia-artificial/",
+      "title": "Politécnico da Guarda cria licenciatura que une ciência de dados à inteligência artificial — Universidade Politécnica da Guarda",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/politecnicoguarda.pt/1ecc4f37a87b.jpg",
+        "sha256": "ecbbeec66e41ae943988b5966e69484f3e10181495699f38a9ff6ac3a2c19bf7",
+        "bytes": 265011,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/politecnicoguarda.pt/1ecc4f37a87b.txt",
+        "sha256": "7136b9f9fa12284ce34d865c1ad1c326b66fd8aa5b3647446a4c11f4ac9d2ba6",
+        "chars": 5187
+      },
+      "cited_by": [
+        {
+          "place": "guarda",
+          "kind": "map-site",
+          "n": 2,
+          "label": "Licenciatura em Ciência de Dados e Inteligência Artificial (ESTG, Politécnico da Guarda)"
+        },
+        {
+          "place": "guarda",
+          "kind": "gravity",
+          "n": 3,
+          "label": "Politécnico da Guarda cria licenciatura que une ciência de dados à inteligência artificial (Politécnico da Guarda, 8 June 2022)"
+        }
+      ]
+    },
+    {
+      "url": "https://politecnicoguarda.pt/sessao-de-capacitacao-promove-transformacao-digital-com-foco-em-ia-e-competencias-avancadas/",
+      "host": "politecnicoguarda.pt",
+      "captured_at": "2026-11-16T13:33:13Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://politecnicoguarda.pt/sessao-de-capacitacao-promove-transformacao-digital-com-foco-em-ia-e-competencias-avancadas/",
+      "title": "Sessão de Capacitação promove transformação digital com foco em IA e competências avançadas — Universidade Politécnica da Guarda",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/politecnicoguarda.pt/6f23d635f8c6.jpg",
+        "sha256": "f22682a691c06bf07bed6ba558d0d1ba11e2abdca2af4e6c3f8c7eabe469fc44",
+        "bytes": 232296,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/politecnicoguarda.pt/6f23d635f8c6.txt",
+        "sha256": "0489485c3f6b01fbe9bc789e9ba321e6389b5fd14969b11644fad554e26512dc",
+        "chars": 3836
+      },
+      "cited_by": [
+        {
+          "place": "guarda",
+          "kind": "news",
+          "n": 1,
+          "label": "Politécnico da Guarda hosts a free AI and digital skills demo session for regional firms"
+        }
+      ]
+    },
+    {
+      "url": "https://politecnicoguarda.pt/universidade-politecnica-da-guarda-lanca-em-trancoso-cursos-de-ciberseguranca-reparacao-automovel-e-cozinha/",
+      "host": "politecnicoguarda.pt",
+      "captured_at": "2026-11-16T13:34:23Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://politecnicoguarda.pt/universidade-politecnica-da-guarda-lanca-em-trancoso-cursos-de-ciberseguranca-reparacao-automovel-e-cozinha/",
+      "title": "Universidade Politécnica da Guarda lança em Trancoso cursos de cibersegurança, reparação automóvel e cozinha — Universidade Politécnica da Guarda",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/politecnicoguarda.pt/f1b67a303349.jpg",
+        "sha256": "a438843ceeeb241c9dedc21e9fee66db2de1a3252f7a48e67fb703d198efdaa7",
+        "bytes": 249125,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/politecnicoguarda.pt/f1b67a303349.txt",
+        "sha256": "5c09b7a2f28084b016894e05c908d43b899eab1468d53803c0bed625862fd009",
+        "chars": 5308
+      },
+      "cited_by": [
+        {
+          "place": "guarda",
+          "kind": "gravity",
+          "n": 5,
+          "label": "UPG launches cybersecurity courses in Trancoso and describes its creation on 1 August 2026 (Politécnico da Guarda)"
         }
       ]
     },
@@ -17869,7 +18351,7 @@
     {
       "url": "https://regiao-sul.pt",
       "host": "regiao-sul.pt",
-      "captured_at": "2026-11-16T12:20:42Z",
+      "captured_at": "2026-11-16T13:24:16Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -17878,14 +18360,14 @@
       "note": "a bot challenge or an access page was served; recorded as such, not got round",
       "image": {
         "path": "captures/2026-11-16/regiao-sul.pt/6c20a464b928.jpg",
-        "sha256": "9815e129fc21c01ec4fa9c887d7ae33387b4c720305beba46895023ed0410ece",
-        "bytes": 72859,
+        "sha256": "73164e40456018694f482334e963d4f366ca1f8c1f75b00b630d17a4d1c4f0a9",
+        "bytes": 72838,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/regiao-sul.pt/6c20a464b928.txt",
-        "sha256": "fa775be29de78b09eb477c11a43321270fd5ed26ea181dea8dcd7df8ef0955d8",
+        "sha256": "be7452312d395c0ef27bc9d25f6061a4b7701fc552ef467fcc8c1851c67cc122",
         "chars": 690
       },
       "cited_by": [
@@ -18555,6 +19037,43 @@
           "kind": "source",
           "n": 3,
           "label": "Smart City Lagoa portal"
+        }
+      ]
+    },
+    {
+      "url": "https://space.ipn.pt/",
+      "host": "space.ipn.pt",
+      "captured_at": "2026-11-16T13:31:34Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://space.ipn.pt/",
+      "title": "ESA BIC Centro – Instituto Pedro Nunes",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/space.ipn.pt/d55f5db74a54.jpg",
+        "sha256": "5413c78501523ba637f4427a362686aa5cfa68381e702a0624587dcec73b70ea",
+        "bytes": 124370,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/space.ipn.pt/d55f5db74a54.txt",
+        "sha256": "fe3bb546c8f777e077120c6009d15d949fc2bf9c2c170382cc0b1811ce6464d7",
+        "chars": 1833
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 16,
+          "label": "ESA BIC Centro (IPN)"
+        },
+        {
+          "place": "coimbra",
+          "kind": "source",
+          "n": 11,
+          "label": "ESA BIC Centro (IPN)"
         }
       ]
     },
@@ -19928,7 +20447,7 @@
     {
       "url": "https://uhu.es/sites/otc/files/proyectos_europeos/kttseadrones.pdf",
       "host": "uhu.es",
-      "captured_at": "2026-11-16T12:24:27Z",
+      "captured_at": "2026-11-16T13:28:00Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19990,7 +20509,7 @@
     {
       "url": "https://unipb.pt",
       "host": "unipb.pt",
-      "captured_at": "2026-11-16T12:29:22Z",
+      "captured_at": "2026-11-16T13:30:43Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -19999,8 +20518,8 @@
       "note": "the page showed almost no text",
       "image": {
         "path": "captures/2026-11-16/unipb.pt/9ae9ec2c9055.jpg",
-        "sha256": "f61f84136eda186cac50f95a962997a5d38b5e6b75df8ddcd6e600dab1d43faf",
-        "bytes": 14141,
+        "sha256": "f5439fa865476abba1b42b1c65f4bbcfac332b22451909ad1ff8833d8d4f1872",
+        "bytes": 14137,
         "width": 1280,
         "height": 1600
       },
@@ -22130,7 +22649,7 @@
     {
       "url": "https://websig.cm-vrsa.pt/geoportal",
       "host": "websig.cm-vrsa.pt",
-      "captured_at": "2026-11-16T12:22:13Z",
+      "captured_at": "2026-11-16T13:25:48Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -22254,7 +22773,7 @@
     {
       "url": "https://www.agroportal.pt/",
       "host": "agroportal.pt",
-      "captured_at": "2026-11-16T09:27:42Z",
+      "captured_at": "2026-11-16T13:32:43Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -22263,14 +22782,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/agroportal.pt/f95662923861.jpg",
-        "sha256": "58bb9d312ef5a8cb60da1500089fdca1b4f73f29b646f9387fc66ae58620363a",
-        "bytes": 36035,
+        "sha256": "30b8d0e6c74ff21837428b4624fa0fc66c97ba465621833072236a264589990f",
+        "bytes": 35957,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/agroportal.pt/f95662923861.txt",
-        "sha256": "c9ec231db813eca2d9be88023d9f03fa8998a0b2eb5e3bd5d92e8db1faffbd04",
+        "sha256": "221db08d783d44fe6cee27e10125ad91490d8c756dc5f5127933793944fe0b0f",
         "chars": 278
       },
       "cited_by": [
@@ -23315,7 +23834,7 @@
     {
       "url": "https://www.aman-alliance.org/Home/ContentDetail/103391",
       "host": "aman-alliance.org",
-      "captured_at": "2026-11-16T12:29:09Z",
+      "captured_at": "2026-11-16T13:30:29Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -27838,6 +28357,37 @@
       ]
     },
     {
+      "url": "https://www.cisuc.uc.pt/en",
+      "host": "cisuc.uc.pt",
+      "captured_at": "2026-11-16T13:32:39Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cisuc.uc.pt/en",
+      "title": "CISUC",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cisuc.uc.pt/ba03e58a58b7.jpg",
+        "sha256": "5a86c394f091bf399612a1f3de92729a49e739c3c820e4c70787ecc64bfab5e8",
+        "bytes": 146397,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cisuc.uc.pt/ba03e58a58b7.txt",
+        "sha256": "1453b61b3a30dc545837165350c109767e4fb59f89235982e160edaf1efc1494",
+        "chars": 2407
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "source",
+          "n": 13,
+          "label": "CISUC: news"
+        }
+      ]
+    },
+    {
       "url": "https://www.cisuc.uc.pt/en/history",
       "host": "cisuc.uc.pt",
       "captured_at": "2026-11-16T09:25:48Z",
@@ -28007,7 +28557,7 @@
     {
       "url": "https://www.cm-aljezur.pt",
       "host": "cm-aljezur.pt",
-      "captured_at": "2026-11-16T12:24:04Z",
+      "captured_at": "2026-11-16T13:27:36Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28351,6 +28901,37 @@
       ]
     },
     {
+      "url": "https://www.cm-castelobranco.pt/investcb/",
+      "host": "cm-castelobranco.pt",
+      "captured_at": "2026-11-16T13:32:55Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-castelobranco.pt/investcb/",
+      "title": "INVESTCB",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-castelobranco.pt/63a2fefbb6ae.jpg",
+        "sha256": "677e9b756d1b9efb3951fc2c8eb4a5445af317b1b0d31939a7992c9e91abdae8",
+        "bytes": 189537,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-castelobranco.pt/63a2fefbb6ae.txt",
+        "sha256": "4a12feed2f3985752a84871419ecb27af4b5fc7a5268585c1541af1363c53baf",
+        "chars": 887
+      },
+      "cited_by": [
+        {
+          "place": "castelo-branco",
+          "kind": "source",
+          "n": 7,
+          "label": "InvestCB, the council's investor and business section (CEi, Balcão do Empreendedor, Smart City network)"
+        }
+      ]
+    },
+    {
       "url": "https://www.cm-castelobranco.pt/investcb/centro-empresas-inovadoras/",
       "host": "cm-castelobranco.pt",
       "captured_at": "2026-11-16T10:28:22Z",
@@ -28378,6 +28959,37 @@
           "kind": "map-site",
           "n": 12,
           "label": "Centro de Empresas Inovadoras (CEi), Castelo Branco"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cm-castelobranco.pt/municipe/noticias/",
+      "host": "cm-castelobranco.pt",
+      "captured_at": "2026-11-16T13:32:51Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-castelobranco.pt/municipe/noticias/",
+      "title": "Notícias",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-castelobranco.pt/df3b85d1a034.jpg",
+        "sha256": "3b7cd09f3643fe205dcf6edb0a2ba894d8d64561effe0976feaa669c7bd753fc",
+        "bytes": 331780,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-castelobranco.pt/df3b85d1a034.txt",
+        "sha256": "8088d93c5649a6409a72856035d992157772a76f6276a7d982f72f41c5ebfb6f",
+        "chars": 5268
+      },
+      "cited_by": [
+        {
+          "place": "castelo-branco",
+          "kind": "source",
+          "n": 6,
+          "label": "Câmara Municipal de Castelo Branco, news page (page 1 of about 60, no feed)"
         }
       ]
     },
@@ -28530,9 +29142,40 @@
       ]
     },
     {
+      "url": "https://www.cm-coimbra.pt/areas/investir/investir/apoios-e-incentivos-municipais",
+      "host": "cm-coimbra.pt",
+      "captured_at": "2026-11-16T13:32:29Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-coimbra.pt/areas/investir/investir/apoios-e-incentivos-municipais",
+      "title": "Apoios e Incentivos Municipais — Câmara Municipal de Coimbra",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-coimbra.pt/e0d27f2eca41.jpg",
+        "sha256": "4919a3ea7c667e39ad8250f9f8a0ee9ac7db265b57e36626918ccb5e4c85293d",
+        "bytes": 210459,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-coimbra.pt/e0d27f2eca41.txt",
+        "sha256": "4c0d38871764ff5cbc8b5651e66bf13c1048c0d40e046f51830cdef2ca5fdcf6",
+        "chars": 10524
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "source",
+          "n": 8,
+          "label": "Câmara Municipal de Coimbra: investor and incentives pages"
+        }
+      ]
+    },
+    {
       "url": "https://www.cm-faro.pt",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T12:20:18Z",
+      "captured_at": "2026-11-16T13:23:53Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28569,7 +29212,7 @@
     {
       "url": "https://www.cm-faro.pt/pt/agenda/91707/novembro-digital.aspx",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T12:20:28Z",
+      "captured_at": "2026-11-16T13:24:03Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28600,7 +29243,7 @@
     {
       "url": "https://www.cm-faro.pt/pt/agenda/91716/mentes-artificiais-ola-futuro.aspx",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T12:20:08Z",
+      "captured_at": "2026-11-16T13:23:43Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28637,7 +29280,7 @@
     {
       "url": "https://www.cm-lagoa.pt/comunicacao/eventos",
       "host": "cm-lagoa.pt",
-      "captured_at": "2026-11-16T12:22:49Z",
+      "captured_at": "2026-11-16T13:26:23Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 404,
@@ -28885,7 +29528,7 @@
     {
       "url": "https://www.cm-loule.pt",
       "host": "cm-loule.pt",
-      "captured_at": "2026-11-16T12:20:39Z",
+      "captured_at": "2026-11-16T13:24:13Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28922,7 +29565,7 @@
     {
       "url": "https://www.cm-loule.pt/",
       "host": "cm-loule.pt",
-      "captured_at": "2026-11-16T12:20:52Z",
+      "captured_at": "2026-11-16T13:24:26Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28959,7 +29602,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T12:23:10Z",
+      "captured_at": "2026-11-16T13:26:43Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28990,7 +29633,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/151/protecao-civil.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T12:23:31Z",
+      "captured_at": "2026-11-16T13:27:03Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29021,7 +29664,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/2495/incubadora-de-empresas.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T12:23:41Z",
+      "captured_at": "2026-11-16T13:27:13Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29052,7 +29695,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/260/gabinete-de-empreendedorismo.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T12:23:53Z",
+      "captured_at": "2026-11-16T13:27:26Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29083,7 +29726,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/2796/ficha-de-projeto-vale-incubadoras-e-aceleradoras.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T12:22:59Z",
+      "captured_at": "2026-11-16T13:26:33Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29120,7 +29763,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/noticias-listagem.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T12:23:20Z",
+      "captured_at": "2026-11-16T13:26:53Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29256,7 +29899,7 @@
     {
       "url": "https://www.cm-sbras.pt",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T12:24:52Z",
+      "captured_at": "2026-11-16T13:28:25Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29293,7 +29936,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/24008/gobal-fire.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T12:25:54Z",
+      "captured_at": "2026-11-16T13:29:26Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29324,7 +29967,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/agenda.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T12:26:24Z",
+      "captured_at": "2026-11-16T13:29:57Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29355,7 +29998,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/agenda/38214/sabados-no-mercado.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T12:25:44Z",
+      "captured_at": "2026-11-16T13:29:16Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29386,7 +30029,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1038/gabinete-do-empreendedor.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T12:26:34Z",
+      "captured_at": "2026-11-16T13:30:07Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29417,7 +30060,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T12:25:03Z",
+      "captured_at": "2026-11-16T13:28:35Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29460,7 +30103,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T12:25:23Z",
+      "captured_at": "2026-11-16T13:28:56Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29497,7 +30140,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=3",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T12:25:13Z",
+      "captured_at": "2026-11-16T13:28:46Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29534,7 +30177,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=4",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T12:25:33Z",
+      "captured_at": "2026-11-16T13:29:06Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29565,7 +30208,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1710/sao-bras-on---rede-empresarial.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T12:26:44Z",
+      "captured_at": "2026-11-16T13:30:17Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29596,7 +30239,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias-listagem.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T12:26:14Z",
+      "captured_at": "2026-11-16T13:29:47Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29627,7 +30270,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T12:24:42Z",
+      "captured_at": "2026-11-16T13:28:15Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29676,7 +30319,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias/38244/praca-1914-integra-rede-portuguesa-de-turismo-industrial.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T12:26:04Z",
+      "captured_at": "2026-11-16T13:29:36Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29707,7 +30350,7 @@
     {
       "url": "https://www.cm-silves.pt",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T12:21:12Z",
+      "captured_at": "2026-11-16T13:24:46Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29744,7 +30387,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/agenda.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T12:21:32Z",
+      "captured_at": "2026-11-16T13:25:06Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29775,7 +30418,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/menu/67/gel---gabinete-de-empreendedorismo-local.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T12:21:42Z",
+      "captured_at": "2026-11-16T13:25:16Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29806,7 +30449,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/noticias/32862/silves-acolhe-acoes-de-formacao-do-programa-formacao---proxima.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T12:21:02Z",
+      "captured_at": "2026-11-16T13:24:36Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29843,7 +30486,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/pt/noticias/32055/silves-tem-tudo-e-tem-notavel-obra-realizada.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T12:21:22Z",
+      "captured_at": "2026-11-16T13:24:56Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30335,7 +30978,7 @@
     {
       "url": "https://www.cm-vrsa.pt",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T12:21:53Z",
+      "captured_at": "2026-11-16T13:25:27Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30378,7 +31021,7 @@
     {
       "url": "https://www.cm-vrsa.pt/pt/menu/956/atividades-economicas.aspx",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T12:22:26Z",
+      "captured_at": "2026-11-16T13:26:00Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30409,7 +31052,7 @@
     {
       "url": "https://www.cm-vrsa.pt/pt/noticias/47651/eurocidade-do-guadiana-e-comunidade-europeia-do-desporto-2026.aspx",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T12:22:03Z",
+      "captured_at": "2026-11-16T13:25:37Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30434,6 +31077,37 @@
           "kind": "map",
           "n": 2,
           "label": "Eurocidade do Guadiana"
+        }
+      ]
+    },
+    {
+      "url": "https://www.coimbra.pt/",
+      "host": "coimbra.pt",
+      "captured_at": "2026-11-16T13:32:14Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.coimbra.pt/",
+      "title": "coimbra.pt — Boletim Municipal online",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/coimbra.pt/dbb958c29e0a.jpg",
+        "sha256": "84c0f8dfc245b2dfefa30e5b61c86df2d10c3696d69439bb4164c71920b0730f",
+        "bytes": 167915,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/coimbra.pt/dbb958c29e0a.txt",
+        "sha256": "2015b924d46947b721e5d24a6c3f0aa97b4067710fba0ff5b3af444190443d59",
+        "chars": 2516
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "source",
+          "n": 1,
+          "label": "Câmara Municipal de Coimbra: news (coimbra.pt)"
         }
       ]
     },
@@ -31279,7 +31953,7 @@
     {
       "url": "https://www.eurociudadguadiana.eu",
       "host": "eurociudadguadiana.eu",
-      "captured_at": "2026-11-16T12:22:16Z",
+      "captured_at": "2026-11-16T13:25:50Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -31869,6 +32543,37 @@
       ]
     },
     {
+      "url": "https://www.forbespt.com/?p=168719",
+      "host": "forbespt.com",
+      "captured_at": "2026-11-16T13:34:11Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.forbespt.com/guarda-reforca-apoio-a-startups-locais-atraves-de-novos-polos-do-instituto-politecnico/",
+      "title": "Guarda reforça apoio a startups locais através de novos polos do Instituto Politécnico",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/forbespt.com/198de8574521.jpg",
+        "sha256": "8e14affd2ec586c860b6124d15f17d9d03b0f1f6dee615e227829e08322f1afa",
+        "bytes": 126336,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/forbespt.com/198de8574521.txt",
+        "sha256": "3e4927265a1fe4f6926ac08feea9172c67fa5362499ab21b412a63f46bd6d5cd",
+        "chars": 7411
+      },
+      "cited_by": [
+        {
+          "place": "guarda",
+          "kind": "map",
+          "n": 5,
+          "label": "Incubadora Desnuclearizada do IPG (Guarda pole)"
+        }
+      ]
+    },
+    {
       "url": "https://www.forbespt.com/?p=178259",
       "host": "forbespt.com",
       "captured_at": "2026-11-15T23:32:22Z",
@@ -31896,6 +32601,43 @@
           "kind": "news",
           "n": 20,
           "label": "Government earmarks about 25 million euros to adopt AI in public administration"
+        }
+      ]
+    },
+    {
+      "url": "https://www.forbespt.com/?p=183777",
+      "host": "forbespt.com",
+      "captured_at": "2026-11-16T13:34:05Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.forbespt.com/politecnico-da-guarda-quer-modernizar-empresas-da-regiao-centro-com-programa-digital-pme/",
+      "title": "Politécnico da Guarda quer modernizar empresas da região Centro com programa Digital PME - Forbes Portugal",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/forbespt.com/ab55dc9affb8.jpg",
+        "sha256": "f3640ab59a31a2d3c5b5e9163721188b1793e99bfb17775d8dc08df30d196d50",
+        "bytes": 130324,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/forbespt.com/ab55dc9affb8.txt",
+        "sha256": "44188419808cfa3f9a424b22e596b8414164c7aad1000eb2bfb9b5246a29eace",
+        "chars": 5093
+      },
+      "cited_by": [
+        {
+          "place": "guarda",
+          "kind": "map-site",
+          "n": 3,
+          "label": "Digital PME (IPG with ADSI, NERGA and Capital Douro)"
+        },
+        {
+          "place": "guarda",
+          "kind": "source",
+          "n": 5,
+          "label": "Forbes Portugal (Lusa copy, Guarda startups)"
         }
       ]
     },
@@ -32513,6 +33255,37 @@
       ]
     },
     {
+      "url": "https://www.ipcb.pt/conhecer/comunicacao/noticias/",
+      "host": "ipcb.pt",
+      "captured_at": "2026-11-16T13:33:01Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ipcb.pt/conhecer/comunicacao/noticias/",
+      "title": "Notícias",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ipcb.pt/eed64e5d60ce.jpg",
+        "sha256": "b693a4332b203b1fc788d7090c93576f0aa6bcc146c71b1088865807d8306b34",
+        "bytes": 188828,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ipcb.pt/eed64e5d60ce.txt",
+        "sha256": "5974a6d714c3601dff154e2424a26a0049ae692e7e7c4d6250b87188ec266e99",
+        "chars": 3108
+      },
+      "cited_by": [
+        {
+          "place": "castelo-branco",
+          "kind": "source",
+          "n": 8,
+          "label": "UPCB news page, including the I9TEC'26 report (no feed found)"
+        }
+      ]
+    },
+    {
       "url": "https://www.ipcb.pt/conhecer/comunicacao/noticias/i9tec-26-reforca-cooperacao-regional-e-lanca-bases-para-uma-agenda-comum-de-inovacao-na-beira-baixa/",
       "host": "ipcb.pt",
       "captured_at": "2026-11-16T10:28:25Z",
@@ -32540,6 +33313,37 @@
           "kind": "event",
           "n": 4,
           "label": "I9TEC'26 regional forum on science and innovation, UPCB (three days, dinner with stakeholders on 29 October 2026, report dated 2 November 2026)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ipcb.pt/investigar-e-inovar/",
+      "host": "ipcb.pt",
+      "captured_at": "2026-11-16T13:33:03Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ipcb.pt/investigar-e-inovar/",
+      "title": "Investigar e Inovar",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ipcb.pt/946d730219c3.jpg",
+        "sha256": "9df451dd68d19ec70f2cb5982b2acc4bab91a947dd971e68a6989bc61e7e941e",
+        "bytes": 100498,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ipcb.pt/946d730219c3.txt",
+        "sha256": "98b7bb562193fa19392e6bab26a578a9477839c80f1dd73ea0b0d136a8cee41e",
+        "chars": 819
+      },
+      "cited_by": [
+        {
+          "place": "castelo-branco",
+          "kind": "source",
+          "n": 9,
+          "label": "UPCB innovation pages: I9@IPCB technology transfer, StartUp.CB incubator, spin-offs, Poliempreende"
         }
       ]
     },
@@ -32779,6 +33583,37 @@
       ]
     },
     {
+      "url": "https://www.ipn.pt/en/",
+      "host": "ipn.pt",
+      "captured_at": "2026-11-16T13:32:23Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ipn.pt/en/",
+      "title": "Instituto Pedro Nunes",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ipn.pt/7990c7673de9.jpg",
+        "sha256": "5420269e92ce7aa11016ae9343fce248c254bd773a404bf1487bd77200852c3f",
+        "bytes": 94154,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ipn.pt/7990c7673de9.txt",
+        "sha256": "ecf8b2bba6fc3af53b87f7c0488ae2506ce64b5b6925b5c8be848a09198dd223",
+        "chars": 2585
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "source",
+          "n": 3,
+          "label": "Instituto Pedro Nunes: news"
+        }
+      ]
+    },
+    {
       "url": "https://www.ipn.pt/en/?p=7498",
       "host": "ipn.pt",
       "captured_at": "2026-11-16T09:26:00Z",
@@ -32810,9 +33645,285 @@
       ]
     },
     {
+      "url": "https://www.ipn.pt/en/diana-portugal/",
+      "host": "ipn.pt",
+      "captured_at": "2026-11-16T13:31:26Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ipn.pt/en/diana-portugal/",
+      "title": "Acelerador NATO DIANA | Instituto Pedro Nunes",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ipn.pt/113a1115c9b0.jpg",
+        "sha256": "137309956f28c8bacc29ac7eca8a4b46fd4a04ec74597f08487bdfb95b933e0c",
+        "bytes": 170901,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ipn.pt/113a1115c9b0.txt",
+        "sha256": "142aa39e942d5723ae340254fd681fff31cceafc526a7fedc1529396f2c5154b",
+        "chars": 3977
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 14,
+          "label": "NATO DIANA accelerator at IPN"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ipn.pt/en/evento/coimbra-we-have-it-all/",
+      "host": "ipn.pt",
+      "captured_at": "2026-11-16T13:32:07Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ipn.pt/en/evento/coimbra-we-have-it-all/",
+      "title": "Coimbra, We Have It All | Instituto Pedro Nunes",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ipn.pt/aae942599451.jpg",
+        "sha256": "0f187339770010f45857a67a79c9176c4ff3bf5f0df3544ac52344340a455ad3",
+        "bytes": 108124,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ipn.pt/aae942599451.txt",
+        "sha256": "d4b546e5ad9d2ee941076b10f49f4ff06f698d3e9ce11164d09468260a7d98c7",
+        "chars": 1577
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "event",
+          "n": 5,
+          "label": "Coimbra, We Have It All, showcase of the 12 startups representing Coimbra at Web Summit (IPN, already held)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ipn.pt/en/evento/sessao-final-de-demonstracao-do-projeto-digital-cork-focada-na-digitalizacao-e-inteligencia-artificial-no-controlo-de-qualidade-de-rolhas/",
+      "host": "ipn.pt",
+      "captured_at": "2026-11-16T13:32:03Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ipn.pt/en/evento/sessao-final-de-demonstracao-do-projeto-digital-cork-focada-na-digitalizacao-e-inteligencia-artificial-no-controlo-de-qualidade-de-rolhas/",
+      "title": "Sessão Final de Demonstração do projeto Digital Cork focada na \"Digitalização e Inteligência Artificial no controlo de qualidade de rolhas\" | Instituto Pedro Nunes",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ipn.pt/2e276479571b.jpg",
+        "sha256": "7cf2222fe958a316a37e95a82aaec31aa7c7e65cf77f8404706829375ec76387",
+        "bytes": 122352,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ipn.pt/2e276479571b.txt",
+        "sha256": "026b4399b630b9692f87e98a3ceaa686ce245638906bfd72ad4d2ecec871475b",
+        "chars": 988
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "event",
+          "n": 4,
+          "label": "Digital Cork final demonstration, on digitalisation and AI in cork quality control (IPN, Coimbra, already held)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ipn.pt/en/eventos/",
+      "host": "ipn.pt",
+      "captured_at": "2026-11-16T13:32:33Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ipn.pt/en/eventos/",
+      "title": "Events from 22 May 2019 – 5 February 2020 | Instituto Pedro Nunes",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ipn.pt/985452a966fb.jpg",
+        "sha256": "5880b37526f87620399e69ffd99faf36066d914b515de68b590d8c1f4ddd7f2e",
+        "bytes": 79990,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ipn.pt/985452a966fb.txt",
+        "sha256": "eba301e060c4e6906a387d1b6d8e33168d160b0734059b4adcc0dd3ad2bda079",
+        "chars": 752
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "source",
+          "n": 10,
+          "label": "Instituto Pedro Nunes: events (calendar export only)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ipn.pt/en/incubadora-empresas/",
+      "host": "ipn.pt",
+      "captured_at": "2026-11-16T13:31:50Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ipn.pt/en/incubadora-empresas/",
+      "title": "Incubadora - empresas | Instituto Pedro Nunes",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ipn.pt/1c24818a1f6e.jpg",
+        "sha256": "df9b5f6dab8be3be9c9d46e3af2659aceaa234f774e60cb53597594bf47c271c",
+        "bytes": 76421,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ipn.pt/1c24818a1f6e.txt",
+        "sha256": "a0d2508c443139a8d1832c6a79534765ceac98347fed075895895323b9f52d5f",
+        "chars": 745
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 18,
+          "label": "coalex.ai"
+        },
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 19,
+          "label": "Granter.ai"
+        },
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 20,
+          "label": "EDNU.AI"
+        },
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 21,
+          "label": "Sentinel.AI"
+        },
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 22,
+          "label": "Complear"
+        },
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 23,
+          "label": "AirSafe.ai"
+        },
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 24,
+          "label": "EvoWorkforce"
+        },
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 25,
+          "label": "Eryvo"
+        },
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 26,
+          "label": "BreastScreening-AI"
+        },
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 27,
+          "label": "LusoScan AI"
+        },
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 28,
+          "label": "Medgical"
+        },
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 29,
+          "label": "Neuroreviver"
+        },
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 30,
+          "label": "Abtrace"
+        },
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 31,
+          "label": "Pahilabs"
+        },
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 32,
+          "label": "Labtech - IconsAI"
+        },
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 33,
+          "label": "Future Dynamics Systems"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ipn.pt/en/servico/inteligencia-artificial-2/",
+      "host": "ipn.pt",
+      "captured_at": "2026-11-16T13:31:22Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.ipn.pt/en/servico/inteligencia-artificial-2/",
+      "title": "Inteligência Artificial | Instituto Pedro Nunes",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ipn.pt/1067703a258a.jpg",
+        "sha256": "608508acff80eaec09a5e65c477a8ffcfdb18a914705620b852af20eba89b699",
+        "bytes": 100788,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ipn.pt/1067703a258a.txt",
+        "sha256": "575475c6677e058cc473439f8bc39f98f3db12258d7ac80b61bbeb8fa13e4d08",
+        "chars": 1502
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 13,
+          "label": "IPN Informatics and Systems Lab (LIS)"
+        }
+      ]
+    },
+    {
       "url": "https://www.ipvc.pt",
       "host": "ipvc.pt",
-      "captured_at": "2026-11-16T12:29:27Z",
+      "captured_at": "2026-11-16T13:30:48Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -33041,7 +34152,7 @@
     {
       "url": "https://www.ismt.pt/en/news/presenca-do-ismt-no-ciclo-de-conferencias-tertulias-2026-sobre-aplicacoes-da-inteligencia-artificial",
       "host": "ismt.pt",
-      "captured_at": "2026-11-16T10:27:47Z",
+      "captured_at": "2026-11-16T13:31:14Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 404,
@@ -33314,6 +34425,43 @@
           "article": "rio-ten-startups-to-lisbon",
           "kind": "article",
           "label": "rio-ten-startups-to-lisbon"
+        }
+      ]
+    },
+    {
+      "url": "https://www.mun-guarda.pt",
+      "host": "mun-guarda.pt",
+      "captured_at": "2026-11-16T13:34:14Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 429,
+      "final_url": "https://www.mun-guarda.pt/",
+      "title": "",
+      "note": "the server answered 429",
+      "image": {
+        "path": "captures/2026-11-16/mun-guarda.pt/912cd4c214d8.jpg",
+        "sha256": "d9858aa7b13eb035aa20ae564b2ccb3ba26f9011db6c767fcd90bacaa8168b56",
+        "bytes": 12757,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/mun-guarda.pt/912cd4c214d8.txt",
+        "sha256": "e24bf0559b8e30aa3478309bf29eb932302f214253d9d4ebc74fb39f43f5a697",
+        "chars": 0
+      },
+      "cited_by": [
+        {
+          "place": "guarda",
+          "kind": "map",
+          "n": 8,
+          "label": "Município da Guarda"
+        },
+        {
+          "place": "guarda",
+          "kind": "source",
+          "n": 1,
+          "label": "Município da Guarda"
         }
       ]
     },
@@ -34166,7 +35314,7 @@
     {
       "url": "https://www.regiadouro.com/",
       "host": "regiadouro.com",
-      "captured_at": "2026-11-16T12:29:16Z",
+      "captured_at": "2026-11-16T13:30:36Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 503,
@@ -34324,6 +35472,61 @@
       ]
     },
     {
+      "url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
+      "host": "rtp.pt",
+      "captured_at": "2026-11-16T13:33:19Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
+      "title": "Politécnico da Guarda lidera projeto de digitalização de empresas na região Centro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/rtp.pt/ae3efe9088f7.jpg",
+        "sha256": "a3182654927d00c6127b9ba31ce19b5ea888feb3c71459e878d2b49902c49e4c",
+        "bytes": 212760,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/rtp.pt/ae3efe9088f7.txt",
+        "sha256": "f50ac9009a06a1be43c2021fb896cd8f4eea5eef035f4a49a5a4721677663681",
+        "chars": 7877
+      },
+      "cited_by": [
+        {
+          "place": "guarda",
+          "kind": "news",
+          "n": 2,
+          "label": "Guarda polytechnic leads a one million euro Digital PME project to bring AI to firms"
+        },
+        {
+          "place": "guarda",
+          "kind": "map",
+          "n": 3,
+          "label": "Digital PME (IPG with ADSI, NERGA and Capital Douro)"
+        },
+        {
+          "place": "guarda",
+          "kind": "map",
+          "n": 4,
+          "label": "NERGA (Associação Empresarial da Região da Guarda)"
+        },
+        {
+          "place": "guarda",
+          "kind": "gravity",
+          "n": 1,
+          "label": "Politécnico da Guarda lidera projeto de digitalização de empresas na região Centro (RTP)"
+        },
+        {
+          "place": "guarda",
+          "kind": "source",
+          "n": 4,
+          "label": "RTP Notícias (Lusa copy on the polytechnic)"
+        }
+      ]
+    },
+    {
       "url": "https://www.rtp.pt/noticias/economia/sistema-europeu-de-misseis-vai-ter-tecnologia-portuguesa-de-inteligencia-artificial_n1662145",
       "host": "rtp.pt",
       "captured_at": "2026-11-16T12:30:05Z",
@@ -34388,6 +35591,37 @@
           "kind": "news",
           "n": 1,
           "label": "Go Coimbra, the new municipal agency, names AI as a priority sector"
+        }
+      ]
+    },
+    {
+      "url": "https://www.rtp.pt/noticias/pais/modelo-de-ia-do-instituto-superior-miguel-torga-potencia-medicina-de-diagnostico_n1649141",
+      "host": "rtp.pt",
+      "captured_at": "2026-11-16T13:31:41Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.rtp.pt/noticias/pais/modelo-de-ia-do-instituto-superior-miguel-torga-potencia-medicina-de-diagnostico_n1649141",
+      "title": "Modelo de IA do Instituto Superior Miguel Torga potencia medicina de diagnóstico",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/rtp.pt/4ca703d591d7.jpg",
+        "sha256": "63d1802a9517125b51d52f87d314070a1b3a2ed4f329aa570a262a8b7c3b7423",
+        "bytes": 211424,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/rtp.pt/4ca703d591d7.txt",
+        "sha256": "d38694c52eb6aa6ef10b970a90502fbfa68204648e003b4fae32e6ac38876a9a",
+        "chars": 8978
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 17,
+          "label": "Instituto Superior Miguel Torga (ISMT)"
         }
       ]
     },
@@ -34751,7 +35985,7 @@
     {
       "url": "https://www.sulinformacao.pt/en/",
       "host": "sulinformacao.pt",
-      "captured_at": "2026-11-16T12:22:45Z",
+      "captured_at": "2026-11-16T13:26:19Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -34760,14 +35994,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/sulinformacao.pt/175bb1b8dfd9.jpg",
-        "sha256": "641161858e6df2b1325975f155f8ff975b8b35780adfa96c68431b57fc8bc012",
-        "bytes": 40056,
+        "sha256": "bdaad1934e1e7cb243f8f77632d1c4f46963e9e12acd05e34576cc998d623947",
+        "bytes": 40049,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/sulinformacao.pt/175bb1b8dfd9.txt",
-        "sha256": "f5a2d85663c54c27e50d56c8024d9ad31531ac3e3ce9c5ae38193a03c4a7dd83",
+        "sha256": "9fdb8b82df379d4873b45bd91b0740f66f372bb152ecbb0dd1a7e32de4ac03e4",
         "chars": 281
       },
       "cited_by": [
@@ -35308,7 +36542,7 @@
     {
       "url": "https://www.uc.pt",
       "host": "uc.pt",
-      "captured_at": "2026-11-16T12:30:09Z",
+      "captured_at": "2026-11-16T13:31:08Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -35317,14 +36551,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/uc.pt/5071ce44772a.jpg",
-        "sha256": "931c2786af0772d6bfdf54848f3e3a4866db726a7298115fdf1928ac555eebdd",
-        "bytes": 36367,
+        "sha256": "6dcab52c79df7d0e694c9196983800b4fcdfe2a4028053c1aa034eb9367e2c6b",
+        "bytes": 36387,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/uc.pt/5071ce44772a.txt",
-        "sha256": "5a1016feadbfb510445a8f7b1ac8544278a6b08144c2bea78adbd7c34bdba3c5",
+        "sha256": "0a79571750dab36403b0f115a90d5c84fb229e69a1b19a9b1319e167b717fce5",
         "chars": 58
       },
       "cited_by": [
@@ -35811,5 +37045,5 @@
       ]
     }
   ],
-  "updated": "2026-11-16T12:30:18Z"
+  "updated": "2026-11-16T13:34:35Z"
 }
