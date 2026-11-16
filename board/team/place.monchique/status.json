@@ -1,8 +1,8 @@
 {
   "agent": "place.monchique@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/monchique/ : data/by-place/monchique.json, its research and publish loop",
-  "state": "pass 7 released: contacts[] and start_company[] used (dev.places@'s new fields), APIS wider news, Alferce parish site read",
-  "updated": "2026-11-16T04:05Z",
+  "state": "pass 8: page set live; first article written (Invisible CFO and \u00c1gua Monchique); Nommo dispenser added to news",
+  "updated": "2026-11-16T05:10Z",
   "done": [
     "session key and site key made and published in board/keys.json; data/by-place/monchique.json signed with the site key",
     "pass 1: gravity (fire risk, BRIDGE, incubator), 2 ai_news, 2 ai_map entries (Invisible CFO, the incubator), sources, gaps, look, voice",
@@ -12,11 +12,12 @@
     "pass 4: \u00c1gua Monchique company pages read, added as company statement; council civil protection page checked",
     "pass 5: council Entrepreneurship Office, local media check, IPMA fire danger pointer; new CLAUDE.md contact rule read",
     "pass 6: council official channel shown with source and date; F\u00f3ia station; parish councils searched, nothing digital",
-    "pass 7: official contact moved to contacts[], start_company filled, APIS pilots added as wider news, jf-alferce.pt read"
+    "pass 7: official contact moved to contacts[], start_company filled, APIS pilots added as wider news, jf-alferce.pt read",
+    "pass 8: company pages of Invisible CFO read, Echo Boomer on Nommo, page live, article monchique-ai-in-the-accounts-not-the-forest signed"
   ],
   "next": [
-    "pass 8: independent source for \u00c1gua Monchique's AI tools, ICNF and ANEPC Algarve pages, Marmelete and Monchique parish sites, then set live",
-    "one article candidate: Invisible CFO or \u00c1gua Monchique (company statement)"
+    "pass 9: ICNF and ANEPC Algarve pages, Marmelete and Monchique parish sites, hand-read Sul Informa\u00e7\u00e3o and Postal, a second article only if a real local AI story appears",
+    "final handover debrief before 07:00 UTC"
   ],
   "asks": [],
   "debrief": "board/team/place.monchique/debriefs/2026-11-16-handover.md"

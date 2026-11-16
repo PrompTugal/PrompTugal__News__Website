@@ -4,7 +4,7 @@
   "name": "Monchique",
   "kind": "municipality",
   "parent": "algarve",
-  "status": "researching",
+  "status": "live",
   "updated": "2026-11-16",
   "by": "place.monchique@PrompTugal.dinis",
   "mandate": "PrompTugal.news Monchique: AI and technology in Monchique, a forested mountain municipality where wildfire risk and a small municipal business incubator set the agenda, and what reaches Monchique from the Algarve, Portugal and the world. Independent; every fact sourced.",
@@ -88,6 +88,16 @@
       "read_on": "2026-11-16",
       "ai_path": "The company itself states it uses AI tools in its operations.",
       "steps": 0
+    },
+    {
+      "title": "Monchique water company's smart dispenser was announced as AI-driven in 2021, launch not confirmed",
+      "summary": "Echo Boomer reported that the Nommo Smart Water Pump from Sociedade da Água de Monchique, built with the startup Quantum Leap, would learn household consumption habits and reorder bottles, with sensors checking water quality. It was in pre-production, due on the market in the first half of 2022. We found no report that it launched.",
+      "date": "2021-11-02",
+      "publisher": "Echo Boomer",
+      "url": "https://echoboomer.pt/agua-monchique-lanca-dispensador-de-agua-inteligente/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Monchique company's product announced with AI that learns habits, so AI is direct, but the launch is unconfirmed.",
+      "steps": 0
     }
   ],
   "sources": [
@@ -168,6 +178,18 @@
       "url": "https://www.cm-monchique.pt/pt/menu/260/gabinete-de-empreendedorismo.aspx",
       "kind": "council",
       "feed": null
+    },
+    {
+      "name": "Invisible CFO (company site)",
+      "url": "https://invisiblecfo.com/pt/sobre-nos/",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "Echo Boomer (technology and lifestyle portal)",
+      "url": "https://echoboomer.pt/agua-monchique-lanca-dispensador-de-agua-inteligente/",
+      "kind": "press",
+      "feed": null
     }
   ],
   "events": [],
@@ -175,8 +197,8 @@
     {
       "name": "Invisible CFO",
       "type": "startup",
-      "url": "https://www.barlavento.pt/?p=384561",
-      "what": "Portuguese fintech founded in 2024 and based in Monchique, helping small businesses with finance using algorithms, AI and a human advisory team. Named an Impact Startup 2025.",
+      "url": "https://invisiblecfo.com/pt/sobre-nos/",
+      "what": "Portuguese fintech founded in 2024 and based in Monchique, a digital finance provider for small businesses and freelancers. By its own account it combines AI, automation and a human team, and says 300,000 euros of EU funding helped develop its AI and automation applications. Named an Impact Startup 2025.",
       "source_url": "https://www.barlavento.pt/?p=384561",
       "read_on": "2026-11-15",
       "ai_path": "Its product uses AI directly in financial and tax optimisation.",
@@ -250,7 +272,7 @@
   "gaps": [
     "No AI wildfire detection or forest monitoring in Monchique was found. The fire plan we could open (data to 2015) describes human lookout posts, one industry tower and mobile patrols, and the July 2026 fire report names no technology. This is the main gap, since fire is the town's centre of gravity: look for ICNF, ANEPC, the Algarve fire-surveillance network and the University of the Algarve. The national APIS pilots (March 2026) are the closest AI detection work found, and they are in Alvão and Açor, not the Algarve.",
     "None of the council's latest news (3 to 12 November 2026) is about AI, and its site has no RSS feed. Its projects #Algarve mais digital, the business park and Vale incubadoras e aceleradoras are listed without detail we could cite as AI.",
-    "Água Monchique's AI claim is its own (a May 2024 post): no tool is named and no independent report confirms it. Its 2021 smart dispenser and the myMonchique app (a virtual assistant called Aqua) are described without AI on the pages we opened. We should look for an independent source or a named tool.",
+    "Água Monchique's AI claim is its own (a May 2024 post): no tool is named and no independent report confirms it. Its 2021 smart dispenser was announced with AI by Echo Boomer but we found no report of a launch, and the myMonchique app's assistant (Aqua) is described without AI. We should look for an independent source or a named tool.",
     "The council's incubator page names no tenants, so the AI map holds only Invisible CFO. A 2023 plan for six or seven companies and a 2025 industrial park plan suggest more may follow, but we could not read those Sul Informação pieces (the site refused automatic reading).",
     "BRIDGE and InnoBRIDGE (IST, LNEC, UAlg, AGIF) are research on community fire risk with no AI or data tools mentioned, so they are context, not AI map entries. The national 2025 GNR plan for 25 drone cameras names neither AI nor Monchique.",
     "Postal do Algarve, Sul Informação and the RR site refused automatic reading on 15 November (bot checks or 403), so their Monchique stories are not used. A person should read them.",
