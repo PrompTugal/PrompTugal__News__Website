@@ -126,6 +126,12 @@
       "url": "https://cms.cm-vrsa.pt/upload_files/client_id_1/website_id_1/Atividade%20Municipal/Atividades%20economicas/Gabinete%20do%20empreendorismo/Brochura_Gabinete%20do%20Empreendedorismo.pdf",
       "kind": "council",
       "feed": null
+    },
+    {
+      "name": "CIMA, Universidade do Algarve: SIMPATICO and data products",
+      "url": "https://cima.ualg.pt/en/info/data-products",
+      "kind": "university",
+      "feed": null
     }
   ],
   "events": [],
@@ -169,6 +175,16 @@
       "read_on": "2026-11-15",
       "ai_path": "It builds the platform on which robotics and unmanned vehicles, a common home for AI, are tested at sea. The article mentions no AI.",
       "steps": 2
+    },
+    {
+      "name": "CIMA, Universidade do Algarve (SIMPATICO monitoring buoy)",
+      "type": "institution",
+      "url": "https://cima.ualg.pt/en/info/simpatico",
+      "what": "The University of the Algarve's marine and environmental research centre runs SIMPATICO, an autonomous buoy at the mouth of the Guadiana estuary on the Portugal and Spain border. It has recorded currents, water level and water quality every hour and every 15 minutes since March 2008, and the data are open on PANGAEA. The centre is based at the university, not in the municipality.",
+      "source_url": "https://cima.ualg.pt/en/info/simpatico",
+      "read_on": "2026-11-16",
+      "ai_path": "A long, open, high-frequency sensor series at the town's river mouth is the kind of dataset used to train and test forecasting models. The page mentions no AI.",
+      "steps": 2
     }
   ],
   "extras": [
@@ -204,7 +220,7 @@
   "gaps": [
     "We found no AI company, startup, lab or community based in Vila Real de Santo António. A town with no AI map is a finding. Search results point to a few small IT service and software firms in the town and in Monte Gordo, listed in business directories, but the directory pages would not open for us (a 503 and a 403), so none is on the map and none is known to offer AI. Where to look next: the Algarve business registry by municipality, Algarve Evolution's member list, NERA and the council's economic development pages.",
     "No local news about AI itself. The two items we carry are about the data groundwork and a Spanish neighbour. We should watch Barlavento, Sul Informação and the council's news page for the first one.",
-    "The Ayamonte innovation node comes from a March 2024 interview. We could not confirm whether it launched or whether VRSA companies take part. Ask the Eurocidade and Ayamonte's council.",
+    "The Ayamonte innovation node and AI assistant come from a March 2024 interview. A new search found no later source confirming either, and the EU project database page for Ayamonte's Smart City project would not open for us. Ask the Eurocidade and Ayamonte's council whether the node launched and whether VRSA companies take part.",
     "The council's news page loaded only partly, and the Eurocidade site returned an error. Postal do Algarve and the PRR project pages for VRSA Digital were behind a bot check or a login, so we did not read them.",
     "No upcoming events with an AI link found. The Eurocidade's November events are cultural and sporting.",
     "We found no AI course or programme at the municipality's schools or its hospitality and tourism school. The nearest AI-adjacent teaching we saw is in Faro, at the Universidade do Algarve. Ask the school cluster and the Escola de Hotelaria e Turismo for their 2026/2027 offer.",
@@ -212,7 +228,8 @@
     "NERA runs digital projects across the Algarve (we saw DIBEST for microenterprises and a farm digitalisation survey in search results) but we have not opened a source or found one that names the municipality, so none is on the page.",
     "Local media: we found regional outlets that cover the town (Barlavento, Sul Informação, Postal do Algarve, 24notícias) but no local radio, blog or newsletter based in the municipality. Ask the council and the Eurocidade which exist. Only Sul Informação gave us an RSS feed.",
     "Investors, startups, local talent and cooperatives: we found none in public sources so far. The Entrepreneurship Office's workshops and the Eurocidade's women entrepreneurs network (seen in search results, not opened) are where to look next.",
-    "Official contact channels: the guidance now lets us link a public body's own published channel with its source page, but our policy has not caught up yet, so we show none. The council's site is linked above."
+    "Official contact channels: the guidance now lets us link a public body's own published channel with its source page, but our policy has not caught up yet, so we show none. The council's site is linked above.",
+    "Algarve Evolution and the regional tech network (Algarve Tech Hub, Digital Innovators) publish no member list by municipality that we could read, so we cannot say whether any member is based in Vila Real de Santo António. The Algarve file of this publication covers the regional level."
   ],
   "voice": {
     "lede": "Ó pá, a whole town drawn with a ruler in two years, and now it counts its pedestrians like a careful sardine merchant.",
