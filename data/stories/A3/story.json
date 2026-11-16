@@ -5,7 +5,7 @@
   "title": "Analysis: Portugal has 60 MW of computing power and wants 1,000",
   "beat": "Analysis",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [],
   "desk_files": [
     "desks/analyst-vicky/drafts/a3-sixty-megawatts.md"
@@ -13,7 +13,9 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/analyst-vicky/drafts/a3-sixty-megawatts.md"
+      "desks/analyst-vicky/drafts/a3-sixty-megawatts.md",
+      "desks/reviewer-vicky/reviews/A3.md",
+      "content/articles/portugal-60-mw-computing-capacity.md"
     ]
   },
   "assignee": "analyst@PrompTugal.vicky",
@@ -21,15 +23,38 @@
   "held": null,
   "draft": "desks/analyst-vicky/drafts/a3-sixty-megawatts.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/A3.md",
+      "verdict": "Ready, published at Vicky's word (standing answer 92; moved to 16 November)",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-16"
+    }
+  ],
+  "article": {
+    "path": "content/articles/portugal-60-mw-computing-capacity.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "draft",
       "at": "2026-11-16",
       "by": "analyst@PrompTugal.vicky",
       "file": "desks/analyst-vicky/drafts/a3-sixty-megawatts.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-16",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/A3.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-16",
+      "by": "analyst@PrompTugal.vicky",
+      "file": "content/articles/portugal-60-mw-computing-capacity.md"
     }
   ]
 }
