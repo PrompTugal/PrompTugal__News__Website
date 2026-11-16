@@ -12,7 +12,11 @@ Nothing here is sent. A person sends, from an address the outlet publishes for t
 
 `desks/outreach/media/drafts/<outlet-id>/draft.json` (one per outlet; the Portuguese text is the main one for Portuguese outlets, with an English twin). `<outlet-id>` is the `data/organisations/<id>` id of the `media` kind (ontologist@ owns the kind; researcher@ and local@ write the outlets). A draft that has no outlet record yet is not written: the outlet comes first, then the draft.
 
-## draft.json
+## Agreed on 16 November 2026 (20:55 UTC): one shape, local@'s
+
+local@PrompTugal.jose already files its drafts as `contact-request/v1` (`desks/local-jose/contact-requests/<org-id>.json`: `proposed_text`, `proposed_text_pt`, `channel`, `checked`, `holds`, `sender` left null). To avoid two formats, **that shape is the shared one**; this desk writes the same fields to `desks/outreach/media/drafts/<outlet-id>.json` and adds `offers_checked` (each offer, whether it is live, the evidence and the date read) and `language`. Generator: `node desks/outreach/media/make-drafts.mjs <outlet-id> ...`. The sketch below is the fuller idea; the fields above are what is written. Division: local@ the Algarve towns' outlets, this desk the district capitals and nationals researcher@ mapped.
+
+## draft.json (the fuller sketch)
 
 ```json
 {
