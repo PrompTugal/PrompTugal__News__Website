@@ -67,6 +67,11 @@
         "url": "https://www.jornaldocentro.pt/contactos/",
         "read_at": "2026-11-16",
         "how": "contacts, emails protected"
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 124008 for 'Jornal do Centro'. Outlet email column deliberately not recorded here."
       }
     ]
   },
@@ -81,6 +86,12 @@
       "url": "https://www.jornaldocentro.pt/contactos/",
       "read_at": "2026-11-16",
       "how": "contacts, emails protected",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 124008 for 'Jornal do Centro'. Outlet email column deliberately not recorded here.",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]

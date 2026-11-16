@@ -7,7 +7,7 @@
   "names_as_listed": [
     "Observador"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Public editorial address not extracted from contacts page. Lisbon AI Week listed in the site menu, not investigated.",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Public editorial address not extracted from contacts page. Lisbon AI Week listed in the site menu, not investigated. Observador Tech desk editor not named on any page read; bylines only.",
   "media": {
     "outlet_kind": "online",
     "places_covered": [
@@ -90,6 +90,26 @@
           "read_at": "2026-11-16",
           "how": "named by the outlet itself on this page"
         }
+      },
+      {
+        "name": "João Paulo Godinho",
+        "role": "Journalist (Observador)",
+        "source": {
+          "url": "https://observador.pt/2026/11/16/trump-apoia-regresso-de-jensen-huang-a-lideranca-da-nvidia-nao-e-ma-ideia/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "technology and US tech business"
+      },
+      {
+        "name": "Cátia Rocha",
+        "role": "Journalist (Observador)",
+        "source": {
+          "url": "https://observador.pt/2026/11/15/caso-nvidia-tecnologica-megaspeed-diz-que-executiva-alice-huang-deixou-a-empresa-em-2025/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "technology (Nvidia/Megaspeed, Microsoft outage coverage)"
       }
     ],
     "sources": [
@@ -102,6 +122,16 @@
         "url": "https://observador.pt/contactos",
         "read_at": "2026-11-16",
         "how": "fetched; generic address not extracted"
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126302 for 'Observador'. Outlet email column deliberately not recorded here."
+      },
+      {
+        "url": "https://observador.pt/seccao/tecnologia/",
+        "read_at": "2026-11-16",
+        "how": "Tecnologia section: article bylines read from article metadata."
       }
     ]
   },
@@ -116,6 +146,18 @@
       "url": "https://observador.pt/contactos",
       "read_at": "2026-11-16",
       "how": "fetched; generic address not extracted",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126302 for 'Observador'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://observador.pt/seccao/tecnologia/",
+      "read_at": "2026-11-16",
+      "how": "Tecnologia section: article bylines read from article metadata.",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]

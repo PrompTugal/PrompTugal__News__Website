@@ -63,6 +63,11 @@
         "url": "https://www.tsf.pt/contactos",
         "read_at": "2026-11-16",
         "how": "contacts read"
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 423238 for 'TSF - Rádio Jornal Lisboa, Lda (TSF 89.5; a second licence 423315 covers 101.6)'. Outlet email column deliberately not recorded here."
       }
     ]
   },
@@ -77,6 +82,12 @@
       "url": "https://www.tsf.pt/contactos",
       "read_at": "2026-11-16",
       "how": "contacts read",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 423238 for 'TSF - Rádio Jornal Lisboa, Lda (TSF 89.5; a second licence 423315 covers 101.6)'. Outlet email column deliberately not recorded here.",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]

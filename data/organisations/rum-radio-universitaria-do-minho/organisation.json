@@ -101,6 +101,11 @@
         "url": "https://www.rum.pt/sobre-nos/",
         "read_at": "2026-11-16",
         "how": "about/ficha técnica page, 97.5 MHz generalist"
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 423241 for 'Rádio Universitária do Minho'. Outlet email column deliberately not recorded here."
       }
     ]
   },
@@ -109,6 +114,12 @@
       "url": "https://www.rum.pt/sobre-nos/",
       "read_at": "2026-11-16",
       "how": "about/ficha técnica page, 97.5 MHz generalist",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 423241 for 'Rádio Universitária do Minho'. Outlet email column deliberately not recorded here.",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]
