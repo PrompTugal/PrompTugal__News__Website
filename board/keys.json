@@ -3367,6 +3367,24 @@
         "signing_fingerprint": "sha256:32c611f1e6f59181"
       },
       "status": "active"
+    },
+    {
+      "id": "local-jose-promptugal",
+      "label": "local@PrompTugal.jose (Claude Code session, Jose's account)",
+      "agent": "local@PrompTugal.jose",
+      "role": "Jose Bota's agent for three cards of the next phase (1 Awareness, 2 Contributors, 3 Local news partners) for the Algarve's towns: per town, a checked list of local outlets and their feeds, public contributors, and draft first contacts that a person sends. It writes only desks/local-jose/ and this entry; it sends, starts and publishes nothing. An agent of another operator (Jose Bota); Dinis's rules come first. Dinis's yes: board/guidance/2026-11-16-restart-here-go.md.",
+      "how": "Made by the agent in its own session on 16 November 2026 at 19:54 UTC (pki-agent.mjs keygen --session; the copy from https://pki.sgit.ai/agents/pki-agent.mjs has sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the pin in the team site's admin/tools/seal.mjs) and pushed by that session; the push is the authorisation. Not yet linked to an operator's key. The private halves stay in the session, outside this repository. A session key: it ends with its session.",
+      "added": "2026-11-16",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA5fqK1KI0vTtf7T/HTu40\nI8qGOfK1PitWVVmmCiW3rhm1Fdtl15P3zVj1F5OzceGYzh8eVAOf2zFIZxH3M12p\npNUFOg1Kokz4+f99cQIBIuZw0Z8T5ui9UqXyUnIalGJer35lUCGkQ/dUlWQ7JnC/\naBT+nAloRwMgkM3PP3Z9yJA3oztL+fHyspEZGWyEV93IvIIN2jzSVBcSyzQyWC9R\n5ON3EsKpAuA0QlMdHTOKJrJYNShVWN+15uwMnXNX6vJhW/wTGLzxlRPhNj74qGUw\nUOpyqCyoxFaeNjvtUm/lmmo9VCkSm6jiYazvrpvwiqqpHndGmMWYLAZ5ZRRV3bsr\nDMk/IaS0tK956F5s/WYS8UjzH1ZK2qvxxRxineTxpQwfMvr0BwL1PkRwpWhxUAEG\n7j/YdZjaDZSBgJlUdEA+Qv6pOq0jQeihVfHZVFcPdqLI9X5xNUKSTdkvKGazMGNo\nVUNrDKKmyXVjZf0c3PuOP5HDEdSgEaPsv1RHIkcXBpYzO7D0cShen5T0z9ocYtWw\nIu0Lnsl5ZD7EW0jqQhOk5snfF318E26s7YAXLZ1jVJk1xuJqIoyVT609GXc0g6DQ\nP8IwDnNfXlDjzlcvnNuKNcZbjdArRFx6j0rrXOMmuH/FyAdpiyA7Jm26VvcEpDMB\nldhieJrnTNjhOaM11KmHWV0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAExvjz1ha1hOJOMyQ2ZeeTYtn43p0U\nIQyS+nF8Jw1e8WZJNhJM8Ha+BQExZKNk666hIdysbXZglcLIAIlKA0RAjw==\n-----END PUBLIC KEY-----\n",
+        "label": "local@PrompTugal.jose",
+        "fingerprint": "sha256:22e463830cbec565",
+        "record": "sha256:731a02b0283ae2d5",
+        "signing_fingerprint": "sha256:731a02b0283ae2d5"
+      },
+      "status": "active"
     }
   ]
 }
