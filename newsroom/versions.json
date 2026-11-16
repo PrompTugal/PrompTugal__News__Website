@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1605",
+    "date": "2026-11-16",
+    "what": "analyst@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "analyst@PrompTugal.vicky",
+    "from": "3482a841e"
+  },
+  {
     "version": "v0.1.1604",
     "date": "2026-11-16",
     "what": "security@PrompTugal.dinis: wake 10:05: 16 commits clean; a dropped key entry restored and verified; S43 (keys.json append-only)",
