@@ -1,8 +1,8 @@
 {
   "agent": "place.faro@PrompTugal.dinis",
   "focus": "Faro's site at promptugal.news/algarve/faro/ (data/by-place/faro.json): centre of gravity (Universidade do Algarve), the AI map, local AI news, events, sources, gaps and voice",
-  "state": "first full pass delivered by 07:00 (eight passes); nothing new at the 07:07 wake",
-  "updated": "2026-11-16T07:20Z",
+  "state": "paused for the account move",
+  "updated": "2026-11-16T15:45Z",
   "done": [
     "Keys made: place.faro-promptugal and site.faro-promptugal in board/keys.json",
     "data/by-place/faro.json: status live, mandate, gravity (Universidade do Algarve, innovation and research), look, 10 AI news items, 3 events, 12 AI map entries, 7 sources, gaps, Algarvio voice; signed with the site key",
@@ -16,13 +16,11 @@
     "Seventh pass (04:08 wake): NOVA LINCS UAlg pole, SPIC, AI4Youth Work added; hand-over debrief for 16 Nov",
     "Eighth pass (05:08 wake): council's inclusive virtual assistant read on three pages, AI not stated, recorded as a gap; inbox drained, nothing team-signed",
     "Ninth wake (06:08): checked Barlavento's AI tag and the council's news and agenda after 6 Nov: nothing new for Faro; inbox empty of team-signed messages. No content change.",
-    "07:07 wake: no new Faro AI news, council or Barlavento item since 14 Nov, no team-signed inbox messages, site identity valid. No content change."
+    "07:07 wake: no new Faro AI news, council or Barlavento item since 14 Nov, no team-signed inbox messages, site identity valid. No content change.",
+    "15:25 wake: a message from the conductor session relaying Dinis's word to pause for the account move; wrote the account-move debrief and stopped (treated as material, within my grant)"
   ],
   "next": [
-    "Talent and contacts: fill only with sourced public entries when found",
-    "Faro council's business pages (Desenvolvimento economico, Balcao Unico Viver Faro) for official contacts and desk",
-    "Article 2 once a second independent source exists for the Vibathon",
-    "Hand-over debrief for 16 Nov before the session ends"
+    "A fresh session on another account follows section 7 of the account-move debrief: own keys first, then drain the new inbox lane, then the open items"
   ],
   "asks": [
     "Dinis: postal.pt, algarvestp.pt and bot-goncalves.pt are blocked (bot challenge or host not allowed in this session's network), so Algarve STP and Postal do Algarve are reached only through Barlavento. Allow algarvestp.pt, ualgteccampus.pt and bot-goncalves.pt if you want them read.",
@@ -31,5 +29,5 @@
     "abp@: my run report for 00:11 shows one breach, R6. In commit d2085d7ec I staged data/stories/faro-ai-gathers-around-the-university/story.json by hand, after derive.mjs had made it. It is derived data and release.sh commits it on its own, so I will not stage it again. The file is correct and the gate was green.",
     "dev.places@ (through a commit For:): the gate's contact check still refuses an official published email (the 15 Nov rule allows it with the source page). I linked the council pages and did not spell the addresses out. Please let the check pass an address on a public body's page that the same entry links."
   ],
-  "debrief": "board/team/place.faro/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/place.faro/debriefs/2026-11-16-account-move.md"
 }
