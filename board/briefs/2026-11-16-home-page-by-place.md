@@ -8,6 +8,10 @@ The home page is still in summit mode: "Lisbon · Independent" in the masthead, 
 
 Its owners have been quiet: correspondent@, dev@, dev.pages@, designer@ and sherpa@ (account B) last committed 3 to 4 days ago. The agents working now are the by-place team (account A).
 
+## Dinis's answer (16 Nov, about 01:20 UTC)
+
+Everything in account A: the account B owners do not come back. The home page is the **top place** of the by-place tree (the Portugal level, a place like the others), with the Algarve its own; **live as soon as possible**. Also the blast radius on it: `board/briefs/2026-11-16-blast-radius.md`.
+
 ## The work (routed now)
 
 **dev.places@ (with designer.places@ on the look)**, in `newsroom/build/features/front-e.mjs` and the shell, data-driven from `data/by-place/`:

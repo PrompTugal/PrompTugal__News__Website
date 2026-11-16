@@ -1,0 +1,437 @@
+{
+ "about": "Draft adjacency and distances between the 17 Algarve places, for the blast radius (Dinis, 16 Nov 2026). Distances: straight line between the centres in data/by-place/places.json ('at'). Adjacency (shared land border): from the conductor's knowledge, NOT yet checked; to be checked against DGT's official boundaries (CAOP, https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop). Quarteira is a city inside Loule: its neighbours are its own municipality and Albufeira.",
+ "by": "conductor@PrompTugal.dinis",
+ "made": "2026-11-16",
+ "places": {
+  "albufeira": {
+   "adjacent": [
+    "silves",
+    "loule"
+   ],
+   "km": {
+    "quarteira": 13,
+    "lagoa": 19,
+    "silves": 20,
+    "loule": 21,
+    "portimao": 26,
+    "faro": 29,
+    "sao-bras-de-alportel": 33,
+    "monchique": 37,
+    "olhao": 37,
+    "lagos": 38,
+    "tavira": 53,
+    "aljezur": 55,
+    "vila-do-bispo": 59,
+    "castro-marim": 73,
+    "vila-real-de-santo-antonio": 75,
+    "alcoutim": 81
+   }
+  },
+  "alcoutim": {
+   "adjacent": [
+    "loule",
+    "tavira",
+    "castro-marim"
+   ],
+   "km": {
+    "castro-marim": 28,
+    "vila-real-de-santo-antonio": 31,
+    "tavira": 41,
+    "sao-bras-de-alportel": 51,
+    "olhao": 59,
+    "loule": 61,
+    "faro": 65,
+    "quarteira": 72,
+    "albufeira": 81,
+    "silves": 91,
+    "lagoa": 95,
+    "monchique": 97,
+    "portimao": 101,
+    "lagos": 114,
+    "aljezur": 119,
+    "vila-do-bispo": 135
+   }
+  },
+  "aljezur": {
+   "adjacent": [
+    "vila-do-bispo",
+    "lagos",
+    "monchique"
+   ],
+   "km": {
+    "monchique": 22,
+    "lagos": 27,
+    "vila-do-bispo": 28,
+    "portimao": 31,
+    "silves": 35,
+    "lagoa": 37,
+    "albufeira": 55,
+    "quarteira": 68,
+    "loule": 72,
+    "sao-bras-de-alportel": 83,
+    "faro": 84,
+    "olhao": 91,
+    "tavira": 104,
+    "alcoutim": 119,
+    "castro-marim": 121,
+    "vila-real-de-santo-antonio": 123
+   }
+  },
+  "castro-marim": {
+   "adjacent": [
+    "tavira",
+    "alcoutim",
+    "vila-real-de-santo-antonio"
+   ],
+   "km": {
+    "vila-real-de-santo-antonio": 3,
+    "tavira": 21,
+    "alcoutim": 28,
+    "sao-bras-de-alportel": 40,
+    "olhao": 41,
+    "faro": 49,
+    "loule": 52,
+    "quarteira": 61,
+    "albufeira": 73,
+    "silves": 88,
+    "lagoa": 90,
+    "portimao": 97,
+    "monchique": 99,
+    "lagos": 110,
+    "aljezur": 121,
+    "vila-do-bispo": 131
+   }
+  },
+  "faro": {
+   "adjacent": [
+    "loule",
+    "sao-bras-de-alportel",
+    "olhao"
+   ],
+   "km": {
+    "olhao": 8,
+    "loule": 15,
+    "sao-bras-de-alportel": 15,
+    "quarteira": 16,
+    "tavira": 28,
+    "albufeira": 29,
+    "lagoa": 48,
+    "castro-marim": 49,
+    "silves": 49,
+    "vila-real-de-santo-antonio": 50,
+    "portimao": 55,
+    "monchique": 64,
+    "alcoutim": 65,
+    "lagos": 66,
+    "aljezur": 84,
+    "vila-do-bispo": 87
+   }
+  },
+  "lagoa": {
+   "adjacent": [
+    "portimao",
+    "silves"
+   ],
+   "km": {
+    "silves": 6,
+    "portimao": 7,
+    "albufeira": 19,
+    "lagos": 20,
+    "monchique": 22,
+    "quarteira": 32,
+    "aljezur": 37,
+    "loule": 38,
+    "vila-do-bispo": 41,
+    "faro": 48,
+    "sao-bras-de-alportel": 50,
+    "olhao": 56,
+    "tavira": 71,
+    "castro-marim": 90,
+    "vila-real-de-santo-antonio": 92,
+    "alcoutim": 95
+   }
+  },
+  "lagos": {
+   "adjacent": [
+    "vila-do-bispo",
+    "aljezur",
+    "monchique",
+    "portimao"
+   ],
+   "km": {
+    "portimao": 13,
+    "lagoa": 20,
+    "vila-do-bispo": 21,
+    "silves": 23,
+    "monchique": 26,
+    "aljezur": 27,
+    "albufeira": 38,
+    "quarteira": 51,
+    "loule": 58,
+    "faro": 66,
+    "sao-bras-de-alportel": 70,
+    "olhao": 74,
+    "tavira": 91,
+    "castro-marim": 110,
+    "vila-real-de-santo-antonio": 112,
+    "alcoutim": 114
+   }
+  },
+  "loule": {
+   "adjacent": [
+    "albufeira",
+    "silves",
+    "sao-bras-de-alportel",
+    "faro",
+    "tavira",
+    "alcoutim"
+   ],
+   "km": {
+    "quarteira": 10,
+    "sao-bras-de-alportel": 12,
+    "faro": 15,
+    "olhao": 20,
+    "albufeira": 21,
+    "tavira": 33,
+    "silves": 37,
+    "lagoa": 38,
+    "portimao": 46,
+    "monchique": 51,
+    "castro-marim": 52,
+    "vila-real-de-santo-antonio": 54,
+    "lagos": 58,
+    "alcoutim": 61,
+    "aljezur": 72,
+    "vila-do-bispo": 79
+   }
+  },
+  "monchique": {
+   "adjacent": [
+    "aljezur",
+    "lagos",
+    "portimao",
+    "silves"
+   ],
+   "km": {
+    "silves": 17,
+    "portimao": 20,
+    "aljezur": 22,
+    "lagoa": 22,
+    "lagos": 26,
+    "albufeira": 37,
+    "vila-do-bispo": 41,
+    "quarteira": 49,
+    "loule": 51,
+    "sao-bras-de-alportel": 62,
+    "faro": 64,
+    "olhao": 71,
+    "tavira": 83,
+    "alcoutim": 97,
+    "castro-marim": 99,
+    "vila-real-de-santo-antonio": 102
+   }
+  },
+  "olhao": {
+   "adjacent": [
+    "faro",
+    "sao-bras-de-alportel",
+    "tavira"
+   ],
+   "km": {
+    "faro": 8,
+    "sao-bras-de-alportel": 15,
+    "loule": 20,
+    "tavira": 20,
+    "quarteira": 24,
+    "albufeira": 37,
+    "castro-marim": 41,
+    "vila-real-de-santo-antonio": 42,
+    "lagoa": 56,
+    "silves": 56,
+    "alcoutim": 59,
+    "portimao": 63,
+    "monchique": 71,
+    "lagos": 74,
+    "aljezur": 91,
+    "vila-do-bispo": 95
+   }
+  },
+  "portimao": {
+   "adjacent": [
+    "lagos",
+    "monchique",
+    "silves",
+    "lagoa"
+   ],
+   "km": {
+    "lagoa": 7,
+    "silves": 10,
+    "lagos": 13,
+    "monchique": 20,
+    "albufeira": 26,
+    "aljezur": 31,
+    "vila-do-bispo": 34,
+    "quarteira": 39,
+    "loule": 46,
+    "faro": 55,
+    "sao-bras-de-alportel": 58,
+    "olhao": 63,
+    "tavira": 79,
+    "castro-marim": 97,
+    "vila-real-de-santo-antonio": 99,
+    "alcoutim": 101
+   }
+  },
+  "quarteira": {
+   "adjacent": [
+    "loule",
+    "albufeira"
+   ],
+   "km": {
+    "loule": 10,
+    "albufeira": 13,
+    "faro": 16,
+    "sao-bras-de-alportel": 21,
+    "olhao": 24,
+    "lagoa": 32,
+    "silves": 33,
+    "portimao": 39,
+    "tavira": 41,
+    "monchique": 49,
+    "lagos": 51,
+    "castro-marim": 61,
+    "vila-real-de-santo-antonio": 62,
+    "aljezur": 68,
+    "alcoutim": 72,
+    "vila-do-bispo": 72
+   }
+  },
+  "sao-bras-de-alportel": {
+   "adjacent": [
+    "loule",
+    "tavira",
+    "olhao",
+    "faro"
+   ],
+   "km": {
+    "loule": 12,
+    "faro": 15,
+    "olhao": 15,
+    "quarteira": 21,
+    "tavira": 21,
+    "albufeira": 33,
+    "castro-marim": 40,
+    "vila-real-de-santo-antonio": 42,
+    "silves": 49,
+    "lagoa": 50,
+    "alcoutim": 51,
+    "portimao": 58,
+    "monchique": 62,
+    "lagos": 70,
+    "aljezur": 83,
+    "vila-do-bispo": 91
+   }
+  },
+  "silves": {
+   "adjacent": [
+    "monchique",
+    "portimao",
+    "lagoa",
+    "albufeira",
+    "loule"
+   ],
+   "km": {
+    "lagoa": 6,
+    "portimao": 10,
+    "monchique": 17,
+    "albufeira": 20,
+    "lagos": 23,
+    "quarteira": 33,
+    "aljezur": 35,
+    "loule": 37,
+    "vila-do-bispo": 43,
+    "faro": 49,
+    "sao-bras-de-alportel": 49,
+    "olhao": 56,
+    "tavira": 70,
+    "castro-marim": 88,
+    "alcoutim": 91,
+    "vila-real-de-santo-antonio": 91
+   }
+  },
+  "tavira": {
+   "adjacent": [
+    "loule",
+    "sao-bras-de-alportel",
+    "olhao",
+    "alcoutim",
+    "castro-marim"
+   ],
+   "km": {
+    "olhao": 20,
+    "castro-marim": 21,
+    "sao-bras-de-alportel": 21,
+    "vila-real-de-santo-antonio": 22,
+    "faro": 28,
+    "loule": 33,
+    "alcoutim": 41,
+    "quarteira": 41,
+    "albufeira": 53,
+    "silves": 70,
+    "lagoa": 71,
+    "portimao": 79,
+    "monchique": 83,
+    "lagos": 91,
+    "aljezur": 104,
+    "vila-do-bispo": 112
+   }
+  },
+  "vila-do-bispo": {
+   "adjacent": [
+    "aljezur",
+    "lagos"
+   ],
+   "km": {
+    "lagos": 21,
+    "aljezur": 28,
+    "portimao": 34,
+    "lagoa": 41,
+    "monchique": 41,
+    "silves": 43,
+    "albufeira": 59,
+    "quarteira": 72,
+    "loule": 79,
+    "faro": 87,
+    "sao-bras-de-alportel": 91,
+    "olhao": 95,
+    "tavira": 112,
+    "castro-marim": 131,
+    "vila-real-de-santo-antonio": 133,
+    "alcoutim": 135
+   }
+  },
+  "vila-real-de-santo-antonio": {
+   "adjacent": [
+    "castro-marim"
+   ],
+   "km": {
+    "castro-marim": 3,
+    "tavira": 22,
+    "alcoutim": 31,
+    "olhao": 42,
+    "sao-bras-de-alportel": 42,
+    "faro": 50,
+    "loule": 54,
+    "quarteira": 62,
+    "albufeira": 75,
+    "silves": 91,
+    "lagoa": 92,
+    "portimao": 99,
+    "monchique": 102,
+    "lagos": 112,
+    "aljezur": 123,
+    "vila-do-bispo": 133
+   }
+  }
+ }
+}

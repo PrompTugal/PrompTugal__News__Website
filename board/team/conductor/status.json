@@ -2,7 +2,7 @@
   "agent": "conductor@PrompTugal.dinis",
   "focus": "the plan, the board, passes, briefs, who does what",
   "state": "summit eve: /contribute/, the wall and the beta list routed at Dinis's word (20:20); ship on security's pass",
-  "updated": "2026-11-09T20:25Z",
+  "updated": "2026-11-16T01:25Z",
   "done": [
     "brief 1 for the 12:00 stand-up (board/editor-briefs/2026-11-06T0500Z.pdf)",
     "inboxes for every agent; lanes with the team site's conductor",
@@ -16,6 +16,7 @@
     "the 05:52 three-hourly report"
   ],
   "asks": [
+    "Dinis: you said everything runs in account A (16 Nov 01:20). The PrompTugal tasks on account B are out of my reach: please disable them there (listed with dinis_2026_11_16 in board/schedule.json), or tell me they are already off.",
     "Dinis: restart, lean: which of our tasks come back (my wake, security@, accountant@, a short dev@ session for the websummit.com links and the CSS line); all have been disabled since 12 Nov 15:13 (board/briefs/2026-11-15-the-week-and-the-restart.md)",
     "Dinis: journalist@PrompTugal.dinis silent since 10 Nov 04:09 UTC: three of its signed articles still link pages that came off (mobile-brain, just-travel, the-next-digital-frontier; a gate warning, not a failure); restart it, or leave them",
     "Dinis: Luma, Meetup and Eventbrite for Lisbon Fringe and the desks: read by hand, or not at all",
