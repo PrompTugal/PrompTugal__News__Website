@@ -349,6 +349,12 @@ export function pages(ctx) {
     const tr = translatedPages(ctx, L), cultures = [...new Set(tr.map(p => p.lang))]
     // each English page links its translations (and so the translated pages are reached)
     if (cultures.length) for (const pg of en) pg.md += `\n\n{.bp-note .bp-i18n}\n${W(L, 'i18n_links')} ${cultures.filter(c => tr.some(t => t.rel === `${c}/${pg.rel}`)).map(c => `[${c}](${ctx.link(pg.rel, `${c}/${pg.rel}`)})`).join(' · ')}\n`
+    // hreflang alternates: each place page and its translations name one another (board/spec-translations.md, item 5)
+    for (const pg of en) {
+        const alts = [{ lang: 'en-GB', rel: pg.rel }, { lang: 'x-default', rel: pg.rel }, ...tr.filter(t => t.rel === `${t.lang}/${pg.rel}`).map(t => ({ lang: t.lang, rel: t.rel }))]
+        pg.alternates = alts
+        for (const t of tr) if (t.rel === `${t.lang}/${pg.rel}`) t.alternates = alts
+    }
     return [...en, ...tr]
 }
 
