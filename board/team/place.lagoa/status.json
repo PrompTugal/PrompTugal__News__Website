@@ -2,16 +2,17 @@
   "agent": "place.lagoa@PrompTugal.dinis",
   "focus": "Lagoa's site, promptugal.news/algarve/lagoa/ (data/by-place/lagoa.json)",
   "state": "pass 3 released, status researching; first Lagoa company and a 2026 event on the map",
-  "updated": "2026-11-16T00:00Z",
+  "updated": "2026-11-16T01:55Z",
   "done": [
     "keys place.lagoa-promptugal and site.lagoa-promptugal published in board/keys.json; data/by-place/lagoa.json signed with the site key",
     "first pass: gravity, look, 4 AI news items (2025), 3 AI map entries, sources with the council's two RSS feeds, 1 event, 6 gaps, the Algarvio voice",
     "hourly pass 2 (22:40Z): searched again for Lagoa-based AI firms and 2026 AI news, none found; two non-AI items and the Azores namesake recorded in gaps",
-    "hourly pass 3 (23:40Z): Strong Answer (Lagoa IT firm selling AI agents) and the Lagoa Teens AI Design Sprint (Feb 2026, Nobel Algarve school) added from their own pages; SPIC left out, its town conflicts (Loul\u00e9 per RTP)"
+    "hourly pass 3 (23:40Z): Strong Answer (Lagoa IT firm selling AI agents) and the Lagoa Teens AI Design Sprint (Feb 2026, Nobel Algarve school) added from their own pages; SPIC left out, its town conflicts (Loul\u00e9 per RTP)",
+    "hourly pass 5 (01:40Z): read the 15 Nov 23:55 overnight guidance; added 'Starting a company here' (council entrepreneur office, online desk, spaces) and the Lagoa Business Center lead to extras, with gaps for what is not published"
   ],
   "next": [
-    "confirm SPIC's registered town (lead for place.loule), find more Lagoa firms via registers",
-    "look for Lagoa AI news after Feb 2026; set live when worth showing; up to two articles"
+    "investors, cooperatives and public bodies in Lagoa; local talent only from public professional sources",
+    "Lagoa AI news after Feb 2026; go live; up to two articles"
   ],
   "asks": [
     "Dinis: postal.pt shows a bot check and sulinformacao.pt answers 403 to automated reads, so two main Algarve outlets are missing from my sources; tell me if a feed or another route is allowed."

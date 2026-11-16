@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "researching",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "by": "place.lagoa@PrompTugal.dinis",
   "mandate": "PrompTugal.news Lagoa: AI and technology in Lagoa, a tourism, wine and congress municipality whose AI work comes from its council, its parishes, an IT firm and a school, and what reaches Lagoa from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -127,6 +127,12 @@
       "url": "https://www.algarveevolution.pt/",
       "kind": "events",
       "feed": null
+    },
+    {
+      "name": "Município de Lagoa, entrepreneur support office",
+      "url": "https://www.cm-lagoa.pt/investir/gabinete-de-apoio-ao-empreendedor",
+      "kind": "council",
+      "feed": null
     }
   ],
   "events": [
@@ -215,6 +221,24 @@
       "value": "The council started the procedure for a draft regulation of the Centro de Congressos de Lagoa on 3 November 2026 (notice of 9 November)",
       "source_url": "https://www.cm-lagoa.pt/noticia/edital-n-149-2026-projeto-de-regulamento-do-centro-de-congressos-de-lagoa",
       "read_on": "2026-11-15"
+    },
+    {
+      "label": "Starting a company here: first stop",
+      "value": "The council's Gabinete de Apoio ao Empreendedor (entrepreneur support office) gives advice on starting a business and writing a business plan, information on funding and public support, training, workshops, networking and events. It works by appointment, with in-person advice on Tuesdays at the municipal Economic Development Division.",
+      "source_url": "https://www.cm-lagoa.pt/investir/gabinete-de-apoio-ao-empreendedor",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company here: online and spaces",
+      "value": "The council lists an online Balcão do Empreendedor, a professional insertion office, the Lagoa industrial zones, the municipal fair and exhibition park and a facility called Fábrica do Empreendedor (not described on the page), plus a directory of existing companies.",
+      "source_url": "https://www.cm-lagoa.pt/viver/empreendedorismo",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Private startup space",
+      "value": "An AMAL report names the Lagoa Business Center as an example of a privately run incubator (we found no operator or AI link, so it is not on the AI map).",
+      "source_url": "https://amal.pt/images/2026/AE_Estudo_RF24jun.pdf",
+      "read_on": "2026-11-16"
     }
   ],
   "identity": {
@@ -228,7 +252,8 @@
     "Two Lagoa stories fail the PrompTugal test as written and stay out: the City as a Platform innovation prize (March 2025, sensors and data, AI not mentioned) and the Ferragudo augmented reality portal (April 2026, AI not mentioned).",
     "Left out as not AI: the council's WhatsApp channel for residents and visitors (Barlavento, 28 July 2026), which is part of the council's digital transformation strategy but where no AI or chatbot is mentioned. Search results also mix in AI courses held in Lagoa on the island of São Miguel in the Azores, a different municipality that we do not cover.",
     "Postal do Algarve could not be read (it shows a bot check), so its Lagoa coverage is missing. Sul Informação refused automated reads. The date of the CCDR report is the meeting date, the report itself was published later in 2025.",
-    "The talk on a large language model solution for the Algarve's municipalities is only a title in a programme: we found no later report of it being built or used."
+    "The talk on a large language model solution for the Algarve's municipalities is only a title in a programme: we found no later report of it being built or used.",
+    "Starting a company here is only partly mapped: the council's entrepreneurship pages name a support office, an online desk and a Fábrica do Empreendedor but publish no grants, incentives, incubator details or steps, and its 'support measures' and 'co-financed projects' menu links were empty when read. Investors, local talent and cooperatives in Lagoa are not mapped yet."
   ],
   "voice": {
     "lede": "Ó pá, Lagoa: sun, wine, a sea cave with a hole in its roof, and now a council that asks the robots about the air.",
