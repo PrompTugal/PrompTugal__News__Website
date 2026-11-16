@@ -721,6 +721,26 @@
       "read_on": "2026-11-16",
       "ai_path": "It is a national data science and AI association.",
       "steps": 0
+    },
+    {
+      "name": "ADJ3 Sistemas",
+      "type": "company",
+      "url": "http://adj3.pt",
+      "what": "Faro web and app developer that builds sites and portals for universities and municipalities on Drupal and React, and a member of Algarve Evolution. Its site lists AI services integrated with Drupal: chatbots that answer from a site's own content, smart search, and assistants for content editors.",
+      "source_url": "http://adj3.pt",
+      "read_on": "2026-11-16",
+      "ai_path": "It sells AI chatbots, search and editing assistants for public-interest websites.",
+      "steps": 0
+    },
+    {
+      "name": "Neomarca",
+      "type": "company",
+      "url": "http://neomarca.pt",
+      "what": "SME consultancy operating since 1995 with its head office in Faro and a team in Porto, and a member of Algarve Evolution. Its digital transformation work includes a service called digitalisation and adoption of artificial intelligence, alongside funding advice for programmes such as PRR and Portugal 2030.",
+      "source_url": "http://neomarca.pt",
+      "read_on": "2026-11-16",
+      "ai_path": "It consults small firms on adopting AI tools and on the funding that pays for it.",
+      "steps": 1
     }
   ],
   "extras": [
@@ -800,8 +820,8 @@
     "Finding: the national AI training call for companies in Portugal 2030's plan does not include the Algarve, while the Algarve's own AI help so far comes from the INOVA ALGARVE 3.0 pilot and local bodies. We should check the formal notice when it is launched and whether ALGARVE2030 plans an AI call of its own.",
     "Starting a company here: the Algarve calls we found earlier have closed. Portugal 2030's plan lists 18 ALGARVE2030 calls and we read only part of the list: the spreadsheet of the full plan and the formal notices, once launched, are not read, and the call pages state no budgets.",
     "Algarve AI Agents and Artificial Intelligence Algarve have no public site we can read: their meetup listings sit on Luma and Meetup, which we do not read, and the second is LinkedIn only. We should ask Algarve Evolution for a public page, or for dates.",
-    "Hint for the Faro agent: LeiGPT is registered in Faro and is a real local AI product, a candidate for its map and a story.",
-    "Algarve Evolution's members list (67 members over four pages, read in full) gives names only, and the member pages link to each firm's own site. Sites read: LeiGPT and DSPA (AI, mapped), Flow Productions (MarTech and AI, mapped), and QXote, Visualforma, Craft 4.0 (business intelligence and IoT) and Cyberprotech (cybersecurity in Loulé), none of which mention AI. The Host PMS hotel software site lists a separate AI product and a Canary integration but states no location. Not yet read: Canopy (403), Wise Rocket (404), Indrant and OSB Solutions (no site linked), Sisgarbe, Rolear, Omnibees, Neomarca, ADJ3, Blackbird, Azulchain and We Sport IT."
+    "Algarve Evolution's members list (67 members over four pages, read in full) gives names only, and the member pages link to each firm's own site. Sites read with AI evidence, now mapped: LeiGPT, DSPA, Flow Productions, ADJ3 Sistemas and Neomarca. Sites read with none: QXote, Visualforma, Craft 4.0 (business intelligence and IoT), Cyberprotech (cybersecurity, Loulé), Sisgarbe (business software, Faro), Rolear (a Faro engineering and energy group), Azulchain (microcredentials) and Blackbird. Omnibees lists a chatbot called BeeAgent with no description, and the Host PMS site lists a separate AI product and a Canary integration but states no location. Not yet read: Canopy (403), Wise Rocket (404), Indrant and OSB Solutions (no site linked), We Sport IT, and the members not named here.",
+    "Hint for the Faro agent: LeiGPT, Flow Productions, ADJ3 Sistemas and Neomarca are Faro-based Algarve Evolution members with AI offers on their own sites, candidates for its map and a story."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
