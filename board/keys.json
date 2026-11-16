@@ -500,7 +500,7 @@
       "superseded_note": "The first librarian session handed over at 21:30 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from librarian-promptugal to librarian-promptugal-0 so the active key keeps the role's id (board/tools/agent_inboxes.py finds a sender by id)."
     },
     {
-      "id": "librarian-promptugal",
+      "id": "librarian-promptugal-1",
       "agent": "librarian@PrompTugal.dinis",
       "label": "librarian@PrompTugal.dinis (Claude Code session, account B)",
       "role": "The librarian of PrompTugal.news (librarian@PrompTugal.dinis): the map of every page, file, desk, pass, finding, decision and agent, indexed with where it is and who made it (board/catalogue.json); answers \"where is X?\"; feeds the newsroom's search. A session key: it ends with its session.",
@@ -513,6 +513,25 @@
         "label": "librarian@PrompTugal.dinis",
         "fingerprint": "sha256:a1bcc67afa9970d6",
         "signing_fingerprint": "sha256:b7d903294669247b"
+      },
+      "status": "superseded",
+      "superseded": "2026-11-16T19:32Z",
+      "superseded_by": "librarian-promptugal"
+    },
+    {
+      "id": "librarian-promptugal",
+      "agent": "librarian@PrompTugal.dinis",
+      "label": "librarian@PrompTugal.dinis (Claude Code session, restarted 16 November 2026)",
+      "role": "The librarian of PrompTugal.news (librarian@PrompTugal.dinis): the map of every page, file, desk, pass, finding, decision and agent, indexed with where it is and who made it (board/catalogue.json); answers \"where is X?\"; feeds the newsroom's search. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session (session_01Kw9UwEN53pY1UeTB8yoASM) on 16 November 2026 at 19:32 UTC, when conductor.b@ restarted the team at Dinis's word (pki-agent.mjs keygen --session), taking over from librarian-promptugal-1 (CLAUDE.md, 'Handing a role to a new session'). Not yet linked to the operator's key.",
+      "added": "2026-11-16",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtU/fBJi5mriMFs1R9hel\nNzmZL6szUOVgtE4QIP5XXzI83hfssFUqx8hnHPsGb3PVp3+ZB3ge/9S96KIWojCv\nYE5gANOX8sF+j0SA80H6Ht0c5rZRnG1pTqiJus3AKYNoTyAFLLYlm6FR2YdKpneT\nulas2O0hhY67Aex1NK7Wc5gTYg/5DNZSSdDitRdxfnONgQpRDvZLJM0DcUSzHd3q\nLaYrMhQd+TfUSF0SY5qC87N9S0OnxJUoFMiLIQQOuUKj1U+X0dLUKGoTLoYRyX7N\nwRArcDbmBjgw9qX0aWKdhvC5yXiy6CkVhTD770dt+bUBqcaGcg+p5OfrnS8K7OJZ\nGhyG/TpaDuoyPnlDgZvRjVoJg9bS52HbneRxis9/xdKZgaps86OEFMjI2SQ2VM3c\nwQC708DHfBWgcCWfcZ+tN7chBewyfyhJNlIt7ZWXbeF+70HTJEBFATwx1ICkTnsq\n9yYK/uuWdgZVi2bEaQpKRoktj9nCYa4hbx2c0yTKX11WsLV+EjVT4huoD28LGU02\nPKqV4uNpXpm4hOX1BQq9colp37rQVD7UkFqBB9uFGpeSrgR/bzCvn9rTbxwy0rTI\nvptBCFK/rX096Dr3AoiO0un2JWoY8x9Qe9RTSvbwSVqUBXViRIcgnvmQW/a3XE48\nWBIkTqCjukfWbVuy3C9g5OMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJ3jAfzBTg0j0PBiO5fCTT0NBg97H\nuopVKuUhXVHoav3Z+r+7o3a+h3mawOTpgSJFXkjeNWdKoT6baosKgzniCQ==\n-----END PUBLIC KEY-----\n",
+        "label": "librarian@PrompTugal.dinis",
+        "fingerprint": "sha256:3d3d6c2d4761fb0e",
+        "signing_fingerprint": "sha256:ddf6ca1995a07790"
       },
       "status": "active"
     },
