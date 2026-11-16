@@ -1,0 +1,50 @@
+{
+ "2e08790bc444c605": {
+  "t": "Um professor de informática disse à Lusa que os modelos portugueses, menores e abertos, da universidade chegam a desempenho comparável ao de modelos das big techs em algumas tarefas, e que um modelo português e galego já está disponível para empresas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A professor of informatics told Lusa that the university's s",
+  "ok": false
+ },
+ "2e513ec94d637d09": {
+  "t": "Braga, ai ai ai: uma cidade que toca os sinos para o arcebispo no domingo e treina os seus modelos na segunda, com um ônibus cheio de câmeras de IA contando quem estacionou no ponto de ônibus.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Braga, ai ai ai: a city that rings its bells for the archbis",
+  "ok": false
+ },
+ "2e7c775df10f0748": {
+  "t": "O projeto SiARA combina IA, um robô autônomo de campo chamado EVAbot e uma rede de sensores para coletar dados sobre culturas, solo, pastagem e fauna na estepe do Campo Branco. Começou em novembro de 2025 e o seu primeiro trabalho de campo foi em 3 de março de 2026. O projeto foi reconhecido na categoria de P&D mobilizador do programa Promove.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The SiARA project combines AI, an autonomous field robot cal",
+  "ok": false
+ },
+ "2ecaf3860065acde": {
+  "t": "PrompTugal.news Braga, a cidade dos arcebispos e das startups: IA e tecnologia em Braga, com a Minho a universidade, o INL e os laboratórios das empresas pensando, e as notícias que chegam do Minho, de Portugal e do mundo. Independente, e todo fato vem com recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Braga, a cidade dos arcebispos e das startup",
+  "ok": false
+ },
+ "2ece8b1cdbda1ec5": {
+  "t": "Évora, ó pá: uma cidade de cal, sobreiros e pedras antigas onde as máquinas estão aprendendo a falar português, devagar, calminha, como se faz no Alentejo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Évora, ó pá: a city of whitewash, cork oaks and old stones w",
+  "ok": false
+ },
+ "2ed694a2fcc0cf7e": {
+  "t": "PrompTugal.news Lisboa, a capital que nunca dorme: IA e tecnologia em Lisboa, com as universidades e a Unicorn Factory como grandes cérebros, mais as notícias que chegam de Portugal, da Europa e do mundo. Independente, e cada fato vem com recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Lisboa, a capital que nunca dorme: AI and te",
+  "ok": false
+ }
+}

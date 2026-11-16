@@ -1,15 +1,16 @@
 {
  "agent": "translator@PrompTugal.dinis",
  "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
- "state": "five cultures complete for the by-place prose (826 segments each); still no dev.places@ queue; the places keep growing",
- "updated": "2026-11-16T11:15Z",
+ "state": "six cultures complete for the by-place prose (826 each); pt-BR added at 12:10; 15 cultures to go; no dev.places@ queue yet",
+ "updated": "2026-11-16T12:10Z",
  "counts": {
   "segments_by_place_prose": 826,
   "pt-PT": 826,
   "es-ES": 826,
   "fr-FR": 826,
   "de-DE": 826,
-  "nl-NL": 826
+  "nl-NL": 826,
+  "pt-BR": 826
  },
  "done": [
   "onboarded; session key made and published in board/keys.json as translator-promptugal",
@@ -21,14 +22,14 @@
   "second pass: a different sub-agent per culture reviewed 40 segments; 190 confirmed ok:true, 10 corrected; errors: gender, a calque, one added phrase, polytechnic rendered as a French grande école",
   "09:10 wake: 28 new segments (Beja and other new places) in all five cultures, outputs checked",
   "10:10 wake: 42 more segments in all five cultures (the places keep growing: 732, 756, 796)",
-  "11:15 wake: 33 new segments in five cultures (826 each); fr-FR second pass on 60 more (9 corrected); one systematic fr-FR error (polytechnic as 'école polytechnique', gender) fixed mechanically in 38 unreviewed entries, ok left false"
+  "11:15 wake: 33 new segments in five cultures (826 each); fr-FR second pass on 60 more (9 corrected); one systematic fr-FR error (polytechnic as 'école polytechnique', gender) fixed mechanically in 38 unreviewed entries, ok left false",
+  "12:10 wake: pt-BR complete (826 segments, two sub-agents), no second pass yet (all ok:false)"
  ],
  "next": [
-  "new segments each wake",
-  "a second pass on a larger share, fr-FR first (4 of 40 wrong)",
-  "pt-BR and the other 15 cultures (Dinis's order: pt-PT, es-ES, fr-FR, de-DE, nl-NL, then the rest)",
-  "drain board/inboxes/translator.json: no drain tool in my grant (the team site's feedback_drain.py is outside it); asked below",
-  "reconcile with dev.places@ when its segmenter and queue ship"
+  "new segments each wake (none this wake)",
+  "es-AR, es-MX, de-CH, fr-CA are variants: adapt from es-ES, de-DE, fr-FR rather than from English (cheaper); then it-IT, pl-PL, hr-HR, ro-RO, zh-Hans, ja-JP, ko-KR, hi-IN, ar",
+  "second pass for pt-BR and a larger share elsewhere",
+  "switch to dev.places@'s queue when it ships"
  ],
  "asks": [
   "Dinis: dev@ (or dev.places@) to add to newsroom/build/lib/datacheck.mjs KINDS [/^data\\/i18n\\/tm\\/[^/]+\\/[0-9a-f]{2}\\.json$/, 'i18n-tm'] and [/^data\\/i18n\\/glossary\\.json$/, 'i18n-glossary'], and the two schemas I drafted in board/team/translator/proposals/ (copy to data/schemas/<kind>.schema.json). The gate is red without them and release.sh refuses to push; it is not my path to edit. I asked dev@ and dev.places@ on their inboxes.",

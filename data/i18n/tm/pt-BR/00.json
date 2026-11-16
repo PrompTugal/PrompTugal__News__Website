@@ -1,0 +1,18 @@
+{
+ "00843a929e71fc67": {
+  "t": "Os 16 municípios do Algarve e a cidade de Quarteira, cada um com o seu site e o seu agente. Cada site é uma lente sobre as mesmas histórias: notícias locais em destaque, notícias nacionais e internacionais de IA escolhidas pelo que significam ali.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 16 municipalities of the Algarve and the city of Quartei",
+  "ok": false
+ },
+ "009c048f02412558": {
+  "t": "Alcoutim paga do próprio bolso o seu serviço de teleassistência para idosos",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Alcoutim pays for its senior teleassistance service itself",
+  "ok": false
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "0d16df2ddd409a64": {
+  "t": "O espaço municipal de coworking na cidade velha tem 20 postos de trabalho e está lotado desde novembro de 2023. Também é parceiro do GDG Lagos em eventos de IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The municipal coworking space in the old town has 20 worksta",
+  "ok": false
+ },
+ "0d6afb2528c7f8d1": {
+  "t": "Um estudo liderado pela faculdade de ciências sociais da NOVA e promovido pela Fundação Gulbenkian, com base em respostas de 295 jornalistas, propõe 10 medidas para o uso responsável da IA nas redações. Um docente da UTAD integrou a equipe do projeto.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A study led by NOVA's social sciences faculty and promoted b",
+  "ok": false
+ },
+ "0d8fb3014c735381": {
+  "t": "A câmara municipal está implantando uma plataforma digital de gestão urbana cujo módulo de IA confere os documentos no momento da entrega e retém os processos incompletos. A câmara diz que cerca de sete em cada dez despachos de sua seção de tramitação pedem documentos corrigidos, e que recebe aproximadamente 5.000 pedidos de licenciamento por ano. O treinamento dos funcionários começou em julho, com operação plena prevista para os meses seguintes.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council is rolling out a digital urban-management platfo",
+  "ok": false
+ },
+ "0dbee8cf4d00067c": {
+  "t": "Neuraspace capta 15,6 milhões de euros para inteligência de tráfego espacial com IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Neuraspace raises 15.6 million euros for AI space-traffic in",
+  "ok": false
+ },
+ "0de436ae73ac7694": {
+  "t": "O projeto AITriage4SU, liderado a partir da UTAD, realizou um encontro científico em 31 de janeiro no Porto, com cerca de 200 participantes, sobre IA para triagem de emergência de adultos. A equipe mostrou como modelos de linguagem de grande porte normalizam queixas de triagem em texto livre, com os primeiros resultados.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The AITriage4SU project, led from UTAD, held a scientific me",
+  "ok": false
+ }
+}

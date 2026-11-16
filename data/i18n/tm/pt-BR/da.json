@@ -1,0 +1,26 @@
+{
+ "da40d828158b0f3f": {
+  "t": "O conselho de administração do parque abriu um concurso público de 308000 euros mais IVA para projetar o Brigantia EcoPark 2. O relatório conta 82 empresas, dois centros de pesquisa e cerca de 430 trabalhadores, com ocupação perto de 98 por cento. A página não menciona IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The park's board opened a public tender worth 308,000 euros ",
+  "ok": false
+ },
+ "da8ebf652ad46ed4": {
+  "t": "Eh pá, Silves: capital do Algarve antes de ser moda, ainda guardando suas laranjas a partir de um castelo da cor de uma tangerina madura.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Eh pá, Silves: a capital of the Algarve before it was cool, ",
+  "ok": false
+ },
+ "dab047fa0598eb82": {
+  "t": "Pesquisadores do INESC TEC se reúnem na UTAD para falar de IA e carreiras científicas",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "INESC TEC researchers meet at UTAD to talk AI and scientific",
+  "ok": false
+ }
+}

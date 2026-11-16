@@ -1,0 +1,42 @@
+{
+ "7220d0bc2f32b439": {
+  "t": "A OmniumAI, nascida no Centro de Engenharia Biológica da UMinho, coordena o IngredientIA com a empresa NIUM e o laboratório de nanotecnologia INL. A IA estuda dados sobre ingredientes e microbiota intestinal para prever como os componentes dos alimentos interagem.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "OmniumAI, born at UMinho's Centre of Biological Engineering,",
+  "ok": false
+ },
+ "724a0c2b63a0c186": {
+  "t": "Dentro do seu programa Competências do Futuro Algarve, o órgão regional de turismo marcou uma sessão gratuita de IA de quatro horas em 17 de abril, na escola de hotelaria e turismo de Portimão, cobrindo ChatGPT, Gemini, Copilot, automação e prompting, além de um bootcamp de eficiência hídrica.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "As part of its Competências do Futuro Algarve programme, the",
+  "ok": false
+ },
+ "72bcf8b4e7a0b779": {
+  "t": "A atividade de IA de Viseu passa mais por órgãos públicos e acadêmicos do que por startups. O Politécnico de Viseu, que virou Universidade Politécnica de Viseu em 1.º de agosto de 2026, lidera o RiskMap, projeto de 244.944 euros para mapear a degradação de edifícios com IA, e publicou regras para o uso de IA. Em seu campus, o STAR Institute, centro de tecnologia inaugurado em 22 de maio de 2026, lista a IA em primeiro lugar entre suas áreas de digitalização e abriga duas startups. O município é membro do hub AI4PA para a administração pública, e o órgão intermunicipal CIM Viseu Dão Lafões apresentou em 29 de outubro de 2026 uma plataforma de dados com ferramentas de IA para prefeitos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu's AI activity runs through public and academic bodies ",
+  "ok": false
+ },
+ "72e1d8635f04b3e5": {
+  "t": "A EDP anunciou em 8 de outubro de 2025 uma central solar de 15,3 MW em Aljezur, construída ao lado do parque eólico da Bordeira, de 24 MW, e usando a sua ligação à rede, então não foi preciso uma nova subestação. É o terceiro projeto híbrido eólico-solar da EDP em Portugal, com uma estimativa de 24,6 GWh por ano. O artigo não menciona data centers nem IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "EDP announced on 8 October 2025 a 15.3 MW solar plant in Alj",
+  "ok": false
+ },
+ "72f92682698dcd24": {
+  "t": "Duas oficinas híbridas realizadas no âmbito do hub AI4PA, uma para juntas de freguesia em 31 de janeiro e uma sobre IA para modernizar prefeituras em 21 de março, com uma taxa de 5 euros parcialmente financiada pelo AI4PA. A segunda cobriu o quadro legal e casos sobre processos digitais, comunicação e atendimento ao cidadão.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Two hybrid workshops run under the AI4PA hub, one for parish",
+  "ok": false
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "f80ac22e14c2be44": {
+  "t": "AMALIA, o modelo de linguagem aberto para o português europeu, é lançado",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AMALIA, the open language model for European Portuguese, is ",
+  "ok": false
+ },
+ "f80bbd73459dc1d1": {
+  "t": "Nas fontes lidas até agora, o peso de Loulé em IA é mais institucional do que empresarial. A câmara diz já ter contratado ferramentas de IA para agilizar o urbanismo, a associação empresarial regional NERA tem sede no município e treina empresas locais em ferramentas de IA, e as câmaras de Loulé e de Faro licitam juntas um centro multitecnológico no Estádio Algarve que lista a IA entre seus temas. Não encontramos nenhuma empresa de IA claramente sediada em Loulé além da SPIC, então o mapa abaixo é curto de propósito.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On the sources read so far, Loulé's weight in AI is institut",
+  "ok": false
+ },
+ "f83860c4d97f409d": {
+  "t": "A 41.ª edição da feira agropecuária de Beja, promovida pela associação de agricultores ACOS, adotou o tema de mais agricultura e mais futuro, com a produção ligada a novas tecnologias e à IA como foco principal e um pavilhão de inovação e tecnologia para palestras e demonstrações de equipamentos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 41st edition of the Beja farm fair, run by the farmers' ",
+  "ok": false
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "ab4fa81bccc51023": {
+  "t": "Um projeto de dois anos listado pelo escritório de pesquisa da universidade, de 1.º de setembro de 2026 a 31 de agosto de 2028, constrói soluções de IA para dispositivos embarcados baratos e de baixo consumo na agricultura e na pecuária, unindo engenharia, ciência de dados e conhecimento agrícola. Seu custo elegível é de 197.754,85 euros, com 168.091,62 euros para o lado de Portalegre, financiado pelo FEDER no âmbito do ALT2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A two-year project listed by the university's research offic",
+  "ok": false
+ },
+ "aba7aa34a9e303a2": {
+  "t": "O consórcio EdgeOnVespa, liderado pela empresa Dotlabs com a MORE CoLAB, a federação nacional de apicultores e a Anbeit, constrói um sistema de computação de borda que usa IA para encontrar e rastrear o vespão e acionar o controle. É cofinanciado pelo programa NORTE2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The EdgeOnVespa consortium, led by the company Dotlabs with ",
+  "ok": false
+ },
+ "abe73eede625cf9c": {
+  "t": "Lagos é onde a comunidade de tecnologia do Algarve se encontra em pessoa. A câmara municipal co-organizou aqui a Algarve Tech Hub Summit em novembro de 2025, que atraiu várias centenas de pessoas a um só hotel, e trabalha com o GDG Lagos em eventos de IA como o DevFest Lagos 2025 e o Build with AI do Dia Internacional da Mulher. O espaço municipal de coworking CoLagos está totalmente ocupado desde novembro de 2023, e existe desde a pandemia uma comunidade criada para os nômades digitais da cidade. Não achamos nenhuma empresa de IA com sede confirmada em Lagos, então o centro de gravidade é uma comunidade de construtores e trabalhadores remotos, não um cluster de empresas de IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lagos is where the Algarve's tech community meets in person.",
+  "ok": false
+ }
+}

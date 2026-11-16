@@ -1,0 +1,34 @@
+{
+ "ed323ee2e8192c66": {
+  "t": "O Algarve e seus 17 lugares",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Algarve and its 17 places",
+  "ok": false
+ },
+ "ed6a0a9ed23a077b": {
+  "t": "Gota Click2Care: um piloto de teleassistência de freguesia para os moradores mais velhos de Aljezur",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Gota Click2Care: a parish teleassistance pilot for Aljezur's",
+  "ok": false
+ },
+ "ed99e8c975b51dc9": {
+  "t": "Tavira, ó pá, onde o rio é mais calmo do que qualquer sala de servidores e os sete arcos viram mais migrações do que o seu provedor de nuvem.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Tavira, ó pá, where the river is calmer than any server room",
+  "ok": false
+ },
+ "eddff8f8e446bd17": {
+  "t": "Em uma entrevista de março de 2024, o gestor de TI da câmara de Ayamonte disse que o município preparava um assistente virtual de IA para cidadãos e empresas e planejava um núcleo de inovação de 2 a 3 milhões de euros em turismo e apoio digital a pequenas empresas. Ele descreveu o núcleo como o primeiro a envolver uma Eurocidade, abrangendo partes do Algarve português. É o relato do próprio município, sem datas de lançamento, e não confirmamos que o núcleo tenha avançado.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "In a March 2024 interview, the IT manager of Ayamonte's coun",
+  "ok": false
+ }
+}

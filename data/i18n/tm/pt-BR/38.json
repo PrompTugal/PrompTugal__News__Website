@@ -1,0 +1,66 @@
+{
+ "3851d984faf9d02a": {
+  "t": "CitiLink, do Porto, IA que estrutura atas de reuniões da câmara municipal, ganha prêmio nacional",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Porto's CitiLink project, AI that structures council meeting",
+  "ok": false
+ },
+ "3856b4c778bcdc4a": {
+  "t": "PrompTugal.news Portimão: IA e tecnologia em Portimão, uma câmara municipal e uma empresa de águas pondo a IA para trabalhar em serviços públicos, uma incubadora de cidade inteligente e um instituto privado de ensino superior, e o que chega a Portimão vindo do Algarve, de Portugal e do mundo. Independente; cada fato com fonte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Portimão: AI and technology in Portimão, a c",
+  "ok": false
+ },
+ "3857de4a8f72f925": {
+  "t": "A UNIPS, como o jornal chama a Universidade Politécnica de Setúbal, entrou na rede GeSI e DEFIA Portugal, liderada pela Universidade de Coimbra e lançada em 15 de outubro de 2026, que visa o uso responsável da IA e a literacia em IA no ensino superior. Um docente de ciência da computação de sua escola de tecnologia a representou.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UNIPS, the Universidade Politécnica de Setúbal as the paper ",
+  "ok": false
+ },
+ "385da7e88a11498d": {
+  "t": "Assembleia infantil de Vila Real debate IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Vila Real's children's assembly debates AI",
+  "ok": false
+ },
+ "38726af755a9041b": {
+  "t": "**A identidade deste site:** {key} em [board/keys.json]({keys}); a assinatura sobre `{file}` não pôde ser verificada.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "38818d41208825e0": {
+  "t": "A câmara municipal está instalando Wi-Fi gratuito e 16 monitores de fluxo de pedestres no centro histórico, com marcos e quiosques de informação a seguir, como parte de um bairro comercial digital financiado pelo PRR no valor de cerca de 895 mil euros que visa cerca de 200 negócios. Os contadores dão apenas estatísticas e não captam imagem, vídeo nem som. Um marketplace on-line já lista mais de uma centena de negócios.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council is installing free Wi-Fi and 16 pedestrian flow ",
+  "ok": false
+ },
+ "388e89e55b08d337": {
+  "t": "A câmara municipal e a Universidade do Algarve se reuniram em abril de 2026 para ampliar sua parceria em ensino, formação e pesquisa, incluindo ligações com escolas e empresas por meio de cursos curtos de ensino superior. Combinaram trabalhar por um pacto nos próximos meses. A reportagem não menciona IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council and the University of Algarve met in April 2026 ",
+  "ok": false
+ },
+ "38d3e7192f1cc031": {
+  "t": "Aqui no fim do mundo, quem manda é o vento, e a IA ainda está chegando de bicicleta.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Aqui no fim do mundo, o vento e que manda, e a IA ainda esta",
+  "ok": false
+ }
+}

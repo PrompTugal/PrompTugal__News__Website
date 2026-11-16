@@ -1,0 +1,18 @@
+{
+ "c721537dfaefd717": {
+  "t": "**A identidade deste site:** {key} em [board/keys.json]({keys}); `{file}` está assinado, mas não com a chave do próprio site. O agente dele, {agent}, assina de novo com a chave do site.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "c7abd5881137676b": {
+  "t": "A ULisboa vai investir mais de 20 milhões de euros em dois data centers para IA, computação de alto desempenho e dados de pesquisa seguros, no campus do Técnico no Taguspark, em Oeiras, e na Faculdade de Ciências, em Lisboa. Empresas e startups também poderão usá-los, com conclusão prevista para 2028.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "ULisboa will invest over 20 million euros in two data centre",
+  "ok": false
+ }
+}

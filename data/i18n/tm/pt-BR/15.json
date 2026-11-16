@@ -1,0 +1,50 @@
+{
+ "15037ffb48bae18a": {
+  "t": "PrompTugal.news Vila Real de Santo António: IA e tecnologia em Vila Real de Santo António, cidade pombalina de fronteira no Guadiana onde contam os projetos transfronteiriços, e o que chega a ela vindo do Algarve, de Portugal e do mundo. Independente; cada fato com fonte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Vila Real de Santo António: AI and technolog",
+  "ok": false
+ },
+ "15084161eca6ade6": {
+  "t": "A 17.ª edição do concurso de ideias encerrou em 29 de outubro no centro AICOS, no Porto. Entre os vencedores estavam detecção de drones com modelos de IA, um método de IA para prever o movimento do cérebro durante cirurgia de tumor e uma ferramenta de IA e visão computacional de uma estudante para segurança escolar.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 17th edition of the ideas competition closed on 29 Octob",
+  "ok": false
+ },
+ "1508f7d090589c03": {
+  "t": "Turismo do Algarve promove bootcamp gratuito de IA para profissionais do turismo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Turismo do Algarve runs free AI bootcamp for tourism profess",
+  "ok": false
+ },
+ "152ae9199ac5e5bd": {
+  "t": "O politécnico lidera um projeto com as universidades de Aveiro e a faculdade de engenharia do Porto para construir um modelo virtual de um edifício histórico que usa fotografias, imagens térmicas e sensores para sinalizar riscos de degradação. O Museu Nacional Grão Vasco, em Viseu, é um de dois estudos de caso, e o gestor do edifício decide até onde a IA age.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The polytechnic leads a project with the universities of Ave",
+  "ok": false
+ },
+ "153080263941a459": {
+  "t": "Na feira Science for Industry o instituto mostrou o DBoidS, que alia gêmeos digitais e IA contra incêndios florestais, e o CERAMIND, que usa IA para detectar defeitos em cerâmica.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the Science for Industry fair the institute showed DBoidS",
+  "ok": false
+ },
+ "15bd45b70554b692": {
+  "t": "A Ovibeja 2025 põe a IA na agricultura no centro da feira",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ovibeja 2025 puts AI in farming at the centre of the fair",
+  "ok": false
+ }
+}

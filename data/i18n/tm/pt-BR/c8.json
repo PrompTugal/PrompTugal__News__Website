@@ -1,0 +1,26 @@
+{
+ "c80d31aa3fd60fd7": {
+  "t": "PrompTugal.news Monchique, do frescor da Serra: IA e tecnologia em um concelho verde de montanha onde a preocupação com o fogo nunca dorme e a pequena incubadora mantém as luzes acesas, mais o que sobe do Algarve, de Portugal e do mundo. Independente, e cada fato tem sua fonte, ó freguês.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Monchique, from the cool of the Serra: AI an",
+  "ok": false
+ },
+ "c896571781f3b30f": {
+  "t": "PrompTugal.news Porto: IA e tecnologia no Porto, cidade de universidade e startups cujo centro de gravidade é a UPTEC, o parque de ciência da Universidade do Porto, suas startups de IA e seus institutos de pesquisa, e o que chega ao Porto vindo de Portugal, da Europa e do mundo. Independente, e cada fato com fonte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Porto: AI and technology in Porto, a univers",
+  "ok": false
+ },
+ "c8c02cb5cf3f018e": {
+  "t": "PrompTugal.news Porto, a Invicta: IA e tecnologia no Porto, com a UPTEC como sala de máquinas nas colinas de Asprela, mais as notícias que chegam de Portugal, da Europa e do mundo. Independente, e cada fato vem com recibo, ao estilo tripeiro.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Porto, a Invicta: AI and tech in Porto, with",
+  "ok": false
+ }
+}

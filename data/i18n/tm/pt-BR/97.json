@@ -1,0 +1,18 @@
+{
+ "9703d5d5755755e4": {
+  "t": "A dotmoovs, fundada em Braga, faz o usuário filmar um exercício a cerca de dois metros de distância. A sua IA encontra pontos do corpo e devolve um relatório em menos de um minuto, e a empresa quer ajudar a descobrir talentos esportivos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "dotmoovs, founded in Braga, has users film an exercise from ",
+  "ok": false
+ },
+ "971abde85bcb7a93": {
+  "t": "Granter capta 1,6 milhão de euros para levar sua plataforma de financiamento com IA por toda a Europa",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Granter raises 1.6 million euros to take its AI funding plat",
+  "ok": false
+ }
+}

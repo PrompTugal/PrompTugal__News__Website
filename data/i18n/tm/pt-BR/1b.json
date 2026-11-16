@@ -1,0 +1,50 @@
+{
+ "1b20915116109e4f": {
+  "t": "PrompTugal.news Vila Real de Santo António: IA e tecnologia em VRSA, a arrumada cidade pombalina com os pés no Guadiana e um olho na Espanha, mais o que chega até nós do Algarve, de Portugal e do mundo. Independente, e cada fato tem sua fonte, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Vila Real de Santo António: AI and technolog",
+  "ok": false
+ },
+ "1b40ab688416c336": {
+  "t": "Projeto da UTAD constrói IA para ajudar na triagem em salas de emergência, com evento de 200 pessoas",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD project builds AI to help triage in emergency rooms, wi",
+  "ok": false
+ },
+ "1b5149ba4f0f71b7": {
+  "t": "Numa sessão de encerramento em Portalegre, o PACT disse que o programa AIRA, financiado pela UE, formou mais de 500 pessoas na aplicação de IA à robótica. Três ideias ganharam vouchers de tecnologia no seu concurso de ideias, entre elas um sistema que usa visão computacional e modelos de linguagem para automatizar a iluminação de palco e um sistema de inspeção de aeronaves com visão computacional.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At a closing session in Portalegre, PACT said the EU-funded ",
+  "ok": false
+ },
+ "1b5f94fde02d4cb7": {
+  "t": "PrompTugal.news Beja, a capital do Baixo Alentejo: IA e tecnologia em Beja, com a universidade como cérebro na cidade caiada, e as notícias que chegam do Alentejo, de Portugal e do mundo. Independente, e todo fato vem com recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Beja, a capital do Baixo Alentejo: AI and te",
+  "ok": false
+ },
+ "1babc44c91bf5cc8": {
+  "t": "PrompTugal.news Silves: IA e tecnologia em Silves, a capital da laranja e antiga capital do Algarve, mais a IA que aparecer vinda do Algarve, de Portugal e do mundo. Somos independentes, e cada fato tem fonte, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Silves: AI and technology in Silves, the ora",
+  "ok": false
+ },
+ "1bd080c0c263efa5": {
+  "t": "Monchique é um município de montanha cuja pauta pública é moldada pela floresta e pelo risco de incêndios. A Serra foi duramente atingida pelos incêndios de 2018, e o projeto de pesquisa BRIDGE (IST, LNEC e Universidade do Algarve, financiado pela FCT, 2021 a 2024) usou Monchique como caso piloto de redução comunitária do risco de incêndio, seguido do InnoBRIDGE, financiado pela AGIF. Um incêndio em Marmelete em 25 de julho de 2026 mobilizou quase cem operacionais. No lado tecnológico, a câmara municipal mantém uma incubadora de negócios, e seu inquilino mais conhecido é a Invisible CFO, uma fintech cujo produto usa IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Monchique is a mountain municipality whose public agenda is ",
+  "ok": false
+ }
+}

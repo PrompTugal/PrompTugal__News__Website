@@ -1,0 +1,34 @@
+{
+ "d90c2407addca87e": {
+  "t": "O primeiro-ministro de Portugal assinou, com mais de 30 líderes, um apelo por protocolos de segurança, padrões comuns e mecanismos internacionais para modelos avançados de IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portugal's Prime Minister signed, with more than 30 leaders,",
+  "ok": false
+ },
+ "d9604c6005b9efcc": {
+  "t": "PrompTugal.news Viseu, a cidade do Grão Vasco: IA e tecnologia em Viseu, com o politécnico como grande cérebro na colina, a câmara municipal e a CIM fazendo os dados falar, mais as notícias que chegam de Portugal e do mundo. Independente, e cada fato vem com recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Viseu, a cidade do Grão Vasco: AI and tech i",
+  "ok": false
+ },
+ "d98cdb0f3f825638": {
+  "t": "O ATTENTIA, projeto transfronteiriço Interreg, aplica IA e robótica à gestão de culturas de citrinos na Andaluzia e na região Algarve-Alentejo. É liderado pela Universidade de Huelva com a Universidade do Algarve e a Universidade de Sevilha, e vai de 1.º de setembro de 2023 a 31 de dezembro de 2026. A ficha do projeto não cita Silves.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "ATTENTIA, a cross-border Interreg project, applies AI and ro",
+  "ok": false
+ },
+ "d9a432cdf6dc6af8": {
+  "t": "Notícia mais ampla: a Floresta Limpa usa dados de satélite e aprendizado de máquina para vigiar faixas de gestão de combustível (ainda não em Monchique)",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Wider news: Floresta Limpa uses satellite data and machine l",
+  "ok": false
+ }
+}

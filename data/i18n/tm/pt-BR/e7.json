@@ -1,0 +1,34 @@
+{
+ "e72981ce21809675": {
+  "t": "Ainda não sabemos tudo, pá. Eis o que Faro ainda não nos contou:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, pá. Here is what Faro has not told u",
+  "ok": false
+ },
+ "e7908f114d56ddcd": {
+  "t": "Viana do Castelo, ai Jesus: uma basílica no morro, um rio que não consegue decidir onde parar e uma câmara municipal que ensina em silêncio um computador a ler licenças enquanto a cidade inteira olha para o porto.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viana do Castelo, ai Jesus: a basilica on the hill, a river ",
+  "ok": false
+ },
+ "e7f26edd2ea41eb9": {
+  "t": "O governo planeja um piloto num pequeno número de municípios já tecnologicamente prontos, com a IA atuando como uma camada única de acesso sobre as plataformas das câmaras, começando pelas licenças de construção. Coimbra é citada como parte da primeira fase, e o seu prefeito disse que a IA pode acelerar processos respeitando as regras de urbanismo e sem desumanizar os serviços públicos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The government plans a pilot in a small number of municipali",
+  "ok": false
+ },
+ "e7f72e1b48d63a7d": {
+  "t": "A Visualforma, empresa de Faro, descreveu um sistema de controle de irrigação de áreas verdes desenvolvido com a Itelmatis e a Universidade do Algarve e testado em Loulé, que usa dados de campo para otimizar a rega, com um módulo de IA e aprendizado de máquina planejado. Notícia mais antiga, de abril de 2023.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Visualforma, a Faro company, described a green-spaces irriga",
+  "ok": false
+ }
+}

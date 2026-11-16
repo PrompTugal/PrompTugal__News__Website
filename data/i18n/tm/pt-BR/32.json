@@ -1,0 +1,18 @@
+{
+ "328eae672fdfb43c": {
+  "t": "Portugal compraria tempo de computação com até 200 milhões de euros na primeira fase, com contrapartida da EuroHPC. A componente portuguesa é estimada em cerca de 4 bilhões de euros. A fonte não indica local em Portugal.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portugal would buy computing time with up to 200 million eur",
+  "ok": false
+ },
+ "32e38f205d404c47": {
+  "t": "Agora a parte honesta, que se não houver não se inventa: o que procuramos lá na Serra e não encontramos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Now the honest part, que se não houver não se inventa: the t",
+  "ok": false
+ }
+}

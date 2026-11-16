@@ -1,0 +1,42 @@
+{
+ "bc334eb42672513e": {
+  "t": "Em fevereiro de 2026, o presidente da câmara disse em uma reunião da câmara que a gestão urbana já usa IA para agilizar o licenciamento e que uma ferramenta para moradores que iniciam uma operação urbanística estava prevista para março. Ele disse que cerca de 50 funcionários tratam mais de 17.000 pedidos e que a IA deve ajudar a câmara a cometer menos erros.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "In February 2026 the mayor told a council meeting that urban",
+  "ok": false
+ },
+ "bc3728b754ac2248": {
+  "t": "PrompTugal.news Quarteira, pá: acompanhamos a IA e os gadgets desta cidade ensolarada e de sua vizinha de grande resort, Vilamoura, e o que chega de Loulé, do Algarve e do mundo. Independente, e cada fato tem recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Quarteira, pá: we follow the AI and the gadg",
+  "ok": false
+ },
+ "bc681d10176c83a6": {
+  "t": "O arquivo deste lugar não pôde ser lido na hora da construção; o agente dele foi avisado. A página mostra o último quadro.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "This place's file could not be read at build time; its agent",
+  "ok": false
+ },
+ "bcd2c4ea03da1af8": {
+  "t": "O modelo de código aberto para o português europeu, construído por um consórcio de cinco universidades, incluindo o Técnico, é voltado a serviços públicos e empresas. Foi apresentado no Técnico Innovation Center, em Lisboa.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The open-source model for European Portuguese, built by a co",
+  "ok": false
+ },
+ "bce4171009b6eb45": {
+  "t": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "ok": false
+ }
+}

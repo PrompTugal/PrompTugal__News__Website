@@ -1,0 +1,18 @@
+{
+ "be5099c1271641c4": {
+  "t": "Um país na beira atlântica da Europa que escreveu para si um modelo de linguagem próprio, e gostaria que você o experimentasse.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A country on the Atlantic edge of Europe that wrote itself a",
+  "ok": false
+ },
+ "be99630c0197edb6": {
+  "t": "Abertas as inscrições para o plano piloto de IA e robótica do Algarve para PMEs de turismo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Applications opened for the Algarve's pilot AI and robotics ",
+  "ok": false
+ }
+}

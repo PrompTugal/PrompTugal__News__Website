@@ -1,0 +1,18 @@
+{
+ "311ec510fafeb612": {
+  "t": "A consultoria canadense, com mais de 2.000 funcionários em Portugal, lançou o centro em maio de 2026. A fonte não cita cidade para ele.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Canadian consulting firm, with over 2,000 staff in Portu",
+  "ok": false
+ },
+ "317c4adf0ece68f9": {
+  "t": "A AuroraMed, uma healthtech portuguesa focada em IA na gestão clínica, e a faculdade de medicina da Universidade do Algarve lançaram em 20 de abril, em Faro, um curso executivo para decisores da saúde, com bolsas financiadas pelo PRR.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AuroraMed, a Portuguese healthtech focused on AI in clinical",
+  "ok": false
+ }
+}

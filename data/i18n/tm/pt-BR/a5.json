@@ -1,0 +1,50 @@
+{
+ "a51f96c2293bce6d": {
+  "t": "IA e sensores transformam a beira do rio de Portimão em um show de luzes interativo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AI and sensors turn Portimão's riverside into an interactive",
+  "ok": false
+ },
+ "a540cb47bbba9f83": {
+  "t": "Politécnico publica suas regras para ferramentas de IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The polytechnic issues its rules for AI tools",
+  "ok": false
+ },
+ "a59069bec2b29c00": {
+  "t": "A Brainr, a startup de IA para fábricas de alimentos de Leiria, amplia a sua rodada seed recorde",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Brainr, the Leiria AI food-factory startup, extends its reco",
+  "ok": false
+ },
+ "a59f1749796b2268": {
+  "t": "APDC e Google iniciam um curso de IA para servidores públicos, com largada em Coimbra",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "APDC and Google start an AI course for civil servants, kicke",
+  "ok": false
+ },
+ "a5e56e75b8fadd24": {
+  "t": "Sinceramente, meu amigo, eis o que não conseguimos encontrar, e é muita coisa, como procurar sombra às duas da tarde em agosto:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Honestly, meu amigo, here is what we could not find, and it ",
+  "ok": false
+ },
+ "a5f2c7318be1c9ed": {
+  "t": "**A identidade deste site:** o PrompTugal.news {name} tem a sua própria chave, {key} (impressão digital de assinatura {fp}), publicada em [board/keys.json]({keys}). O arquivo de pesquisa dele, `{file}`, é mantido por {agent} e assinado com essa chave, e a assinatura confere com ela: **assinatura válida**.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** PrompTugal.news {name} has its own",
+  "ok": false
+ }
+}
