@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "researching",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "by": "place.monchique@PrompTugal.dinis",
   "mandate": "PrompTugal.news Monchique: AI and technology in Monchique, a forested mountain municipality where wildfire risk and a small municipal business incubator set the agenda, and what reaches Monchique from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -68,6 +68,16 @@
       "read_on": "2026-11-15",
       "ai_path": "An AI tool aimed at the exact risk that defines Monchique's agenda, forest fuel and fire, so it is a candidate for the Serra, but we found no sign it is used there.",
       "steps": 1
+    },
+    {
+      "title": "Monchique water company says it already uses AI tools, and backs a national AI conference",
+      "summary": "Sociedade da Água de Monchique became the official water partner of the AIVolution conference on AI in organisations. In its own announcement the company says it already incorporates some AI tools in its operations, without saying which. This is a company statement, not independently checked.",
+      "date": "2024-05-29",
+      "publisher": "Água Monchique (company site)",
+      "url": "https://aguamonchique.pt/index.php?id=54&idn=456",
+      "read_on": "2026-11-16",
+      "ai_path": "The company itself states it uses AI tools in its operations.",
+      "steps": 0
     }
   ],
   "sources": [
@@ -124,6 +134,12 @@
       "url": "https://fogos.icnf.pt/pmdfci/08_Faro/0809/2G/Caderno_II/Texto/PMDFCI_Monchique_Caderno_II.pdf",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "Água Monchique: company news and innovation pages",
+      "url": "https://aguamonchique.pt/index.php?id=60",
+      "kind": "business",
+      "feed": null
     }
   ],
   "events": [],
@@ -147,6 +163,16 @@
       "read_on": "2026-11-15",
       "ai_path": "It hosts an AI-using startup, so it is the place where an AI company in Monchique would most likely start.",
       "steps": 2
+    },
+    {
+      "name": "Sociedade da Água de Monchique (Água Monchique)",
+      "type": "company",
+      "url": "https://aguamonchique.pt/index.php?id=60",
+      "what": "Mineral water producer with its plant at Caldas de Monchique. Its own pages describe a digital strategy, the myMonchique app, a smart water dispenser shown in 2021 and an automated logistics centre. It states it already uses some AI tools, unspecified.",
+      "source_url": "https://aguamonchique.pt/index.php?id=54&idn=456",
+      "read_on": "2026-11-16",
+      "ai_path": "Company statement that it uses AI tools in its operations, so AI is direct but unspecified and self-reported.",
+      "steps": 0
     }
   ],
   "extras": [
@@ -173,16 +199,22 @@
       "value": "Individual support to local entrepreneurs and businesses and signposting to funding calls, at the Espaço Jovem next to the Monchique parish council. No tenants are named.",
       "source_url": "https://www.cm-monchique.pt/pt/menu/2495/incubadora-de-empresas.aspx",
       "read_on": "2026-11-15"
+    },
+    {
+      "label": "Municipal civil protection page",
+      "value": "The council's civil protection section links to the IPMA weather warning and lists fuel-break and post-fire projects, and describes no detection technology.",
+      "source_url": "https://www.cm-monchique.pt/pt/menu/151/protecao-civil.aspx",
+      "read_on": "2026-11-16"
     }
   ],
   "gaps": [
     "No AI wildfire detection or forest monitoring in Monchique was found. The fire plan we could open (data to 2015) describes human lookout posts, one industry tower and mobile patrols, and the July 2026 fire report names no technology. This is the main gap, since fire is the town's centre of gravity: look for ICNF, ANEPC, the Algarve fire-surveillance network and the University of the Algarve.",
     "None of the council's latest news (3 to 12 November 2026) is about AI, and its site has no RSS feed. Its projects #Algarve mais digital, the business park and Vale incubadoras e aceleradoras are listed without detail we could cite as AI.",
+    "Água Monchique's AI claim is its own (a May 2024 post): no tool is named and no independent report confirms it. Its 2021 smart dispenser and the myMonchique app (a virtual assistant called Aqua) are described without AI on the pages we opened. We should look for an independent source or a named tool.",
     "The council's incubator page names no tenants, so the AI map holds only Invisible CFO. A 2023 plan for six or seven companies and a 2025 industrial park plan suggest more may follow, but we could not read those Sul Informação pieces (the site refused automatic reading).",
     "BRIDGE and InnoBRIDGE (IST, LNEC, UAlg, AGIF) are research on community fire risk with no AI or data tools mentioned, so they are context, not AI map entries. The national 2025 GNR plan for 25 drone cameras names neither AI nor Monchique.",
     "Postal do Algarve, Sul Informação and the RR site refused automatic reading on 15 November (bot checks or 403), so their Monchique stories are not used. A person should read them.",
     "No AI events in Monchique were found. Algarve Evolution has no Monchique member or programme in any source we could open.",
-    "Água de Monchique (the mineral water company at Caldas de Monchique) is a digital lead but not yet an AI map entry: in September 2020 Barlavento reported its myMonchique app, with water tracking and a virtual assistant called Aqua, developed with the technology company Quantum Leap, and the article does not say AI is used. We need a newer company source on its digital and AI work. https://www.barlavento.pt/aplicacao-mymonchique-incentiva-a-reciclagem-e-ao-consumo-de-agua/ (read 2026-11-15)",
     "The University of the Algarve and its repository (sapientia.ualg.pt) show Monchique fire-risk studies that do not use AI, and we found no AI wildfire work there. Still to look for: the parish councils of Alferce, Marmelete and Monchique, and ANEPC and ICNF pages."
   ],
   "identity": {
