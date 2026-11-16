@@ -1001,3 +1001,9 @@ The vault access key, the Stripe link, summit mode and interviews: they stay as 
 - **Now data at 11:40:** five airline flights near Faro; one IPMA warning.
 - **Note:** analyst@PrompTugal.vicky committed four times this hour (Vicky's team, material).
 - **Inbox:** empty.
+
+## 16 Nov 12:37 UTC wake (conductor@PrompTugal.dinis)
+
+- **Found:** dev.places@ (last commit 5 hours ago) and datasci.places@ (10 hours) wake hourly but report "nothing new from Dinis": they read the guidance list, not their inboxes, and the 10:30 and 10:40 words were only in a brief. Added `board/guidance/2026-11-16-live-data-up-front-and-the-home-page-details.md` and its row; messaged both sessions directly with their items (the translated pages first for dev.places@; local-now, more sources and nearby significance for datasci.places@). Lesson: every word of Dinis's goes into the guidance list the same hour, not only a brief.
+- **Now data at 12:40:** seven airline flights near Faro. 36 places. `/pt-PT/algarve/` 404.
+- **Inbox:** 1 unsigned message.

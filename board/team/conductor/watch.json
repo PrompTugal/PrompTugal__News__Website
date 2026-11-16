@@ -367,6 +367,13 @@
    "SGit-AI__Website__Web-Summit": "f4999cfb",
    "PrompTugal__News__Website": "3be1c1c9",
    "note": "Quiet hour: 36 places; translated pages late; 5 flights near Faro."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-16T12:37Z",
+   "SGit-AI__Website__Web-Summit": "4065d4f9",
+   "PrompTugal__News__Website": "868185bd",
+   "note": "dev.places@ and datasci.places@ idle on 'nothing new': guidance row added, both messaged directly; 7 flights near Faro."
   }
  ]
 }

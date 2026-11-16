@@ -1,6 +1,6 @@
 {
  "place": "faro",
- "read_at": "2026-11-16T11:40:31Z",
+ "read_at": "2026-11-16T12:40:03Z",
  "by": "board/tools/local-now.mjs (conductor@PrompTugal.dinis)",
  "about": "Now in this place, from IPMA's open data and (for Faro) adsb.lol: each value with its source and the time read. Not a warning service: follow IPMA (https://www.ipma.pt/) and ANEPC.",
  "station": {
@@ -8,13 +8,13 @@
   "id": 1200554,
   "km": 4,
   "reading": {
-   "at": "2026-11-16T11:00Z",
-   "temp_c": 18.7,
-   "humidity_pct": 86,
-   "wind_kmh": 11.5,
-   "wind_dir_id": 3,
+   "at": "2026-11-16T12:00Z",
+   "temp_c": 19.8,
+   "humidity_pct": 79,
+   "wind_kmh": 10.4,
+   "wind_dir_id": 4,
    "rain_mm": 0,
-   "pressure_hpa": 1023.5
+   "pressure_hpa": 1023.3
   },
   "page": "https://www.ipma.pt/en/otempo/obs.superficie/",
   "source": "https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json"
@@ -99,8 +99,8 @@
  },
  "uv": {
   "place": "Faro",
-  "date": "2026-11-19",
-  "index": 3,
+  "date": "2026-11-20",
+  "index": 1.8,
   "page": "https://www.ipma.pt/en/otempo/prev.uv/",
   "source": "https://api.ipma.pt/open-data/forecast/meteorology/uv/uv.json"
  },
@@ -117,47 +117,63 @@
   "icao": "LPFR",
   "name": "Faro airport",
   "within_nm": 40,
-  "at": "2026-11-16T11:40:31Z",
+  "at": "2026-11-16T12:40:03Z",
   "airline": [
    {
-    "callsign": "AEA9047",
-    "airline": "AEA",
-    "type": "B38M",
-    "alt_ft": 36000,
-    "on_ground": false,
-    "ground_speed_kt": 445.8
-   },
-   {
-    "callsign": "EZY54ZJ",
-    "airline": "EZY",
-    "type": "A320",
-    "alt_ft": 10450,
-    "on_ground": false,
-    "ground_speed_kt": 319.6
-   },
-   {
-    "callsign": "IBB84ZL",
-    "airline": "IBB",
-    "type": "E295",
-    "alt_ft": 38000,
-    "on_ground": false,
-    "ground_speed_kt": 421.4
-   },
-   {
-    "callsign": "RUK55MA",
-    "airline": "RUK",
-    "type": "B738",
-    "alt_ft": 40000,
-    "on_ground": false,
-    "ground_speed_kt": 401.4
-   },
-   {
-    "callsign": "TOM3EW",
-    "airline": "TOM",
-    "type": "B38M",
+    "callsign": "CFG7CX",
+    "airline": "CFG",
+    "type": "A20N",
     "alt_ft": 37000,
     "on_ground": false,
-    "ground_speed_kt": 480.8
+    "ground_speed_kt": 476.6
+   },
+   {
+    "callsign": "RAM850W",
+    "airline": "RAM",
+    "type": "B738",
+    "alt_ft": 38000,
+    "on_ground": false,
+    "ground_speed_kt": 407.8
+   },
+   {
+    "callsign": "RVP631",
+    "airline": "RVP",
+    "type": "PC6T",
+    "alt_ft": 12350,
+    "on_ground": false,
+    "ground_speed_kt": 94.2
+   },
+   {
+    "callsign": "RYR17SB",
+    "airline": "RYR",
+    "type": "B38M",
+    "alt_ft": 3825,
+    "on_ground": false,
+    "ground_speed_kt": 212.9
+   },
+   {
+    "callsign": "TAP145W",
+    "airline": "TAP",
+    "type": "A320",
+    "alt_ft": 36000,
+    "on_ground": false,
+    "ground_speed_kt": 407.5
+   },
+   {
+    "callsign": "TOM5GC",
+    "airline": "TOM",
+    "type": "B738",
+    "alt_ft": 39000,
+    "on_ground": false,
+    "ground_speed_kt": 486.1
+   },
+   {
+    "callsign": "TOY433",
+    "airline": "TOY",
+    "type": "E35L",
+    "alt_ft": 10125,
+    "on_ground": false,
+    "ground_speed_kt": 284.9
    }
   ],
   "other_aircraft": 0,
@@ -168,62 +184,62 @@
  "reads": {
   "warnings": {
    "url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-   "at": "2026-11-16T11:40:06Z",
+   "at": "2026-11-16T12:39:36Z",
    "status": 200
   },
   "observations": {
    "url": "https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json",
-   "at": "2026-11-16T11:40:09Z",
+   "at": "2026-11-16T12:39:39Z",
    "status": 200
   },
   "city-daily-1080500": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080500.json",
-   "at": "2026-11-16T11:40:11Z",
+   "at": "2026-11-16T12:39:41Z",
    "status": 200
   },
   "city-daily-1080800": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080800.json",
-   "at": "2026-11-16T11:40:13Z",
+   "at": "2026-11-16T12:39:43Z",
    "status": 200
   },
   "city-daily-1081100": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081100.json",
-   "at": "2026-11-16T11:40:15Z",
+   "at": "2026-11-16T12:39:45Z",
    "status": 200
   },
   "city-daily-1081505": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081505.json",
-   "at": "2026-11-16T11:40:17Z",
+   "at": "2026-11-16T12:39:47Z",
    "status": 200
   },
   "fire-risk-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d0.json",
-   "at": "2026-11-16T11:40:19Z",
+   "at": "2026-11-16T12:39:49Z",
    "status": 200
   },
   "fire-risk-d1": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d1.json",
-   "at": "2026-11-16T11:40:21Z",
+   "at": "2026-11-16T12:39:51Z",
    "status": 200
   },
   "fire-risk-d2": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d2.json",
-   "at": "2026-11-16T11:40:24Z",
+   "at": "2026-11-16T12:39:54Z",
    "status": 200
   },
   "uv": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/uv/uv.json",
-   "at": "2026-11-16T11:40:26Z",
+   "at": "2026-11-16T12:39:56Z",
    "status": 200
   },
   "sea-forecast-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/oceanography/daily/hp-daily-sea-forecast-day0.json",
-   "at": "2026-11-16T11:40:28Z",
+   "at": "2026-11-16T12:39:58Z",
    "status": 200
   },
   "adsb": {
    "url": "https://api.adsb.lol/v2/point/37.0144/-7.9659/40",
-   "at": "2026-11-16T11:40:31Z",
+   "at": "2026-11-16T12:40:03Z",
    "status": 200
   }
  }
