@@ -8,6 +8,7 @@ export const order = 69
 import { checkSites } from '../../../board/abp/tools/site-identity.mjs'
 import { execFileSync } from 'node:child_process'
 import fs from 'node:fs'
+import crypto from 'node:crypto'
 
 const LIST = 'data/by-place/places.json'
 const DEF_ACCENT = '#1f5f3f'
@@ -113,7 +114,7 @@ function testNote(ctx, L, rel, p) {
     return `## How this page is made {#how}
 
 {.bp-note}
-${W(L, 'test_note', { graph: ctx.link(rel, 'graph/index.html'), region: ctx.link(rel, 'algarve/index.html') })}${identityNote(ctx, L, p)}\n\n{.bp-note .bp-id}\n${W(L, 'talk_note', { talk: ctx.link(rel, 'talk/index.html') })}${p ? `\n\n{.bp-note .bp-id}\n${W(L, 'json_note', { json: ctx.link(rel, `api/v1/by-place/${p.id}.json`), index: ctx.link(rel, 'api/v1/by-place/index.json') })}` : ''}`
+${W(L, 'test_note', { graph: ctx.link(rel, 'graph/index.html'), region: ctx.link(rel, `${(L.byId.get('algarve') || { path: 'algarve/' }).path}index.html`) })}${identityNote(ctx, L, p)}\n\n{.bp-note .bp-id}\n${W(L, 'talk_note', { talk: ctx.link(rel, 'talk/index.html') })}${p ? `\n\n{.bp-note .bp-id}\n${W(L, 'json_note', { json: ctx.link(rel, `api/v1/by-place/${p.id}.json`), index: ctx.link(rel, 'api/v1/by-place/index.json') })}` : ''}`
 }
 
 // our own articles about a place: front matter town: <id>, or region: <id> (the brief's tags for the place agents' articles)
@@ -186,7 +187,7 @@ function townPage(ctx, L, p) {
     md += `## The AI map {#map}\n\n${W(L, 'map_intro', { name: p.name })}\n\n` + (mapRows(ctx, p.ai_map) || `{.bp-empty}\nBeing mapped.`) + '\n\n'
     if (p.investors.length) md += `## ${W(L, 'investors_h')} {#investors}\n\n${W(L, 'investors_intro', { name: esc(ctx, p.name) })}\n\n` + entries(ctx, p.investors, 'bp-invest', x => [x.type && ` \`${esc(ctx, x.type)}\``, x.amount && ` **${esc(ctx, x.amount)}**`, x.date && ` (${esc(ctx, x.date)})`].filter(Boolean).join(''))
     if (p.talent.length) md += `## ${W(L, 'talent_h')} {#talent}\n\n${W(L, 'talent_intro')}\n\n` + entries(ctx, p.talent, 'bp-talent', x => x.role ? `, ${esc(ctx, x.role)}.` : '')
-    md += `:::\n::: col\n` + (algarve && Array.isArray(p.at) ? `{.bp-svgmap .bp-locator}\n[${esc(ctx, W(L, 'locator_link'))}](${ctx.link(rel, 'algarve/index.html')})\n\n` : '') + sideCol(ctx, L, p, rel, inside)
+    md += `:::\n::: col\n` + (algarve && Array.isArray(p.at) ? `{.bp-svgmap .bp-locator}\n[${esc(ctx, W(L, 'locator_link'))}](${ctx.link(rel, `${L.byId.get('algarve').path}index.html`)})\n\n` : '') + sideCol(ctx, L, p, rel, inside)
     md += `:::\n:::\n\n` + testNote(ctx, L, rel, p)
     const accent = (p.look && p.look.accent) || DEF_ACCENT
     return {
@@ -256,7 +257,7 @@ function regionAgg(L) {
 }
 
 function regionPage(ctx, L) {
-    const p = L.byId.get('algarve'), rel = 'algarve/index.html'
+    const p = L.byId.get('algarve'), rel = `${p.path}index.html`
     const T = towns(L)
     const { map, localCount, latestLocal } = regionAgg(L)
     let md = mast(ctx, L, p, `[Portugal](${ctx.link(rel, 'portugal/index.html')})`)
@@ -296,9 +297,59 @@ function regionPage(ctx, L) {
     }
 }
 
+// the translated pages (board/spec-translations.md, item 5; dev.places@'s part): each culture with a translation memory in
+// data/i18n/tm/<culture>/ gets /<culture>/<path> for every place page, rendered from the same data with each string the
+// memory holds replaced (its key: the first 16 hex of sha256 of the NFC, space-collapsed English, as translator@'s
+// board/team/translator/tools/tm.mjs); a string not yet translated stays in English. The page notes the machine
+// translation and links its English original.
+const TM_DIR = 'data/i18n/tm'
+const tmNorm = s => s.normalize('NFC').replace(/\r\n?/g, '\n').replace(/[ \t\u00a0]+/g, ' ').replace(/ ?\n ?/g, '\n').replace(/\n{3,}/g, '\n\n').trim()
+const tmKey = s => crypto.createHash('sha256').update(tmNorm(s)).digest('hex').slice(0, 16)
+function memories(ctx) {
+    const out = []
+    let cultures = []; try { cultures = fs.readdirSync(ctx.R(TM_DIR)).filter(c => /^[a-z]{2}-[A-Z]{2}$/.test(c)).sort() } catch { return out }
+    for (const c of cultures) {
+        const m = new Map()
+        for (const f of fs.readdirSync(ctx.R(`${TM_DIR}/${c}`)).filter(f => f.endsWith('.json'))) {
+            try { for (const [k, v] of Object.entries(ctx.readJSON(`${TM_DIR}/${c}/${f}`))) if (v && typeof v.t === 'string' && v.t.trim()) m.set(k, v.t) } catch { }
+        }
+        if (m.size) out.push({ culture: c, m })
+    }
+    return out
+}
+function translateDeep(v, m, skip) {
+    if (typeof v === 'string') { if (!v.trim() || /^https?:/.test(v)) return v; const t = m.get(tmKey(v)); return t || v }
+    if (Array.isArray(v)) return v.map(x => translateDeep(x, m, skip))
+    if (v && typeof v === 'object') { const o = {}; for (const [k, x] of Object.entries(v)) o[k] = skip.has(k) ? x : translateDeep(x, m, skip); return o }
+    return v
+}
+const KEEP = new Set(['id', 'kind', 'parent', 'path', 'agent', 'status', 'updated', 'by', 'url', 'source_url', 'read_on', 'date', 'feed', 'accent', 'at', 'label', 'identity', 'name', 'publisher', 'type', 'steps', 'file', '$schema'])
+function translatedL(L, culture, m) {
+    const byId = new Map()
+    for (const p of L.list) byId.set(p.id, { ...translateDeep(p, m, KEEP), path: p.kind === 'country' ? p.path : `${culture}/${p.path}`, _en: p.path, _culture: culture })
+    return { list: L.list.map(p => byId.get(p.id)), byId, copy: translateDeep(L.copy, m, new Set()), culture }
+}
+function cultureNote(ctx, L, page, enRel) {
+    return `{.bp-note .bp-i18n}\n${W(L, 'i18n_note', { culture: L.culture, original: ctx.link(page.rel, enRel) })}\n\n`
+}
+function translatedPages(ctx, L) {
+    const out = []
+    for (const { culture, m } of memories(ctx)) {
+        const Lc = translatedL(L, culture, m)
+        const make = (pg, enRel) => ({ ...pg, md: cultureNote(ctx, Lc, pg, enRel) + pg.md, lang: culture, crumbs: [[enRel, 'English'], ...pg.crumbs.slice(-1)] })
+        out.push(make(regionPage(ctx, Lc), 'algarve/index.html'))
+        for (const t of pagePlaces(Lc)) out.push(make(townPage(ctx, Lc, t), `${t._en}index.html`))
+    }
+    return out
+}
+
 export function pages(ctx) {
     const L = load(ctx)
-    return [regionPage(ctx, L), ...pagePlaces(L).map(t => townPage(ctx, L, t))]
+    const en = [regionPage(ctx, L), ...pagePlaces(L).map(t => townPage(ctx, L, t))]
+    const tr = translatedPages(ctx, L), cultures = [...new Set(tr.map(p => p.lang))]
+    // each English page links its translations (and so the translated pages are reached)
+    if (cultures.length) for (const pg of en) pg.md += `\n\n{.bp-note .bp-i18n}\n${W(L, 'i18n_links')} ${cultures.filter(c => tr.some(t => t.rel === `${c}/${pg.rel}`)).map(c => `[${c}](${ctx.link(pg.rel, `${c}/${pg.rel}`)})`).join(' · ')}\n`
+    return [...en, ...tr]
 }
 
 // the national lens (data/by-place/portugal.json, place.portugal@'s file) at the top of portugal/index.html

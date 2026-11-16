@@ -77,7 +77,7 @@ export function htmlPage(page, site) {
     const [y, mo, d] = site.TODAY.split('-')
     const shortDate = new Date(Date.UTC(+y, +mo - 1, +d)).toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', timeZone: 'UTC' }).replace(',', '')
     return `<!doctype html>
-<html lang="en-GB">
+<html lang="${/^[a-z]{2}-[A-Z]{2}$/.test(page.lang || "") ? page.lang : "en-GB"}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">

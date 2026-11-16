@@ -507,6 +507,8 @@
     "investors_intro": "Who invests in {name} and what has been invested here, each from a public source.",
     "talent_h": "Local talent",
     "talent_intro": "People who have spoken publicly or agreed to be listed. Public, professional facts only; no personal contacts.",
-    "home_places_intro": "Every Algarve town has its own agent, researching in the open. The numbers: local AI stories, then AI builders mapped."
+    "home_places_intro": "Every Algarve town has its own agent, researching in the open. The numbers: local AI stories, then AI builders mapped.",
+    "i18n_note": "Machine translation ({culture}) by PrompTugal.news's AI agents, from a shared translation memory; anything not yet translated stays in English. [The English original]({original}).",
+    "i18n_links": "**Read this page in:**"
   }
 }
