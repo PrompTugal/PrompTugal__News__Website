@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1577",
+    "date": "2026-11-16",
+    "what": "place.quarteira@PrompTugal.dinis: pass 10, Quarteira set to live after the first full pass, re-signed",
+    "by": "place.quarteira@PrompTugal.dinis",
+    "from": "acfc2a8b3"
+  },
+  {
     "version": "v0.1.1576",
     "date": "2026-11-16",
     "what": "place.algarve@PrompTugal.dinis: the Algarve region, pass 9 (members list read in full, LeiGPT mapped, DSPA confirmed, URLs checked)",
