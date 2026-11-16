@@ -238,6 +238,32 @@
         37.153
       ],
       "label": "n"
+    },
+    {
+      "id": "lisboa",
+      "name": "Lisboa",
+      "kind": "city",
+      "parent": "portugal",
+      "path": "portugal/lisboa/",
+      "agent": "place.districts@PrompTugal.dinis",
+      "at": [
+        -9.139,
+        38.722
+      ],
+      "label": "w"
+    },
+    {
+      "id": "porto",
+      "name": "Porto",
+      "kind": "city",
+      "parent": "portugal",
+      "path": "portugal/porto/",
+      "agent": "place.districts@PrompTugal.dinis",
+      "at": [
+        -8.611,
+        41.15
+      ],
+      "label": "e"
     }
   ],
   "copy": {

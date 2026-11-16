@@ -1,0 +1,459 @@
+{
+  "$schema": "../schemas/by-place.schema.json",
+  "id": "porto",
+  "name": "Porto",
+  "kind": "city",
+  "parent": "portugal",
+  "status": "live",
+  "updated": "2026-11-16",
+  "by": "place.districts@PrompTugal.dinis",
+  "mandate": "PrompTugal.news Porto: AI and technology in Porto, a university and startup city whose centre of gravity is UPTEC, the University of Porto's science park, its AI startups and its research institutes, and what reaches Porto from Portugal, Europe and the world. Independent, and every fact sourced.",
+  "gravity": {
+    "text": "Porto's AI activity clusters around UPTEC, the science park of the University of Porto, where a 2025 report found at least five AI startups in health, industry and restaurants, where a Portuguese-and-European supercomputing programme (the BSC AI Factory) started an AI incubation round in October 2026, and where Granter raised 1.6 million euros in November. Around it sit a Porto venture fund (33N), a business school (Porto Business School), a marketing AI community (AIhub) and the municipal company Porto Digital, which describes AI for traffic and flow prediction under a no black box rule. The Global Startup Ecosystem Report 2026 names AI as one of four growth drivers.",
+    "sources": [
+      {
+        "title": "Granter attracts 1.6 million euros and prepares European expansion (UPTEC news, University of Porto, 6 November 2026)",
+        "url": "https://noticias.up.pt/2026/11/06/startup-da-uptec-atrai-investimento-de-16-milhoes-e-prepara-expansao-europeia/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "European programme will support startups and SMEs building AI solutions in Porto (HR Portugal, 19 August 2026)",
+        "url": "https://hrportugal.sapo.pt/programa-europeu-vai-apoiar-startups-e-pme-no-desenvolvimento-de-solucoes-de-ia-no-porto-as-candidaturas-ja-estao-abertas/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Porto climbs over 15 places in the global startup ranking (Portugalglobal, 8 July 2026)",
+        "url": "https://portugalglobal.pt/en/news/2026/julho/porto-climbs-over-15-places-in-the-global-startup-ranking/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Uptec: from health to the factory floor, AI is changing business (ECO, 26 October 2025)",
+        "url": "https://eco.sapo.pt/reportagem/uptec-da-saude-ao-chao-de-fabrica-ia-esta-a-revolucionar-os-negocios/",
+        "read_on": "2026-11-16"
+      }
+    ]
+  },
+  "look": {
+    "accent": "#1F4E8C",
+    "landmark": "The Dom Luís I bridge over the Douro, with the Ribeira below it",
+    "motif": "Blue and white azulejo tiles, granite, river light and a city that works hard and says so"
+  },
+  "ai_news": [
+    {
+      "title": "Granter, an AI funding assistant from UPTEC, raises 1.6 million euros",
+      "summary": "The startup uses AI to help small and medium firms find public funding, prepare applications and manage projects. The round was led by 3XP Global with Banco Português de Fomento money, and the team plans to more than double by year-end and enter Spain, Germany and Italy.",
+      "date": "2026-11-06",
+      "publisher": "UPTEC news (University of Porto)",
+      "url": "https://noticias.up.pt/2026/11/06/startup-da-uptec-atrai-investimento-de-16-milhoes-e-prepara-expansao-europeia/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Porto-incubated company whose product is an AI platform: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Porto fund 33N joins a 270 million euro round for a device-security firm, citing AI on devices",
+      "summary": "ECO reports that 33N, a venture fund based in Porto, invested in Exein's round, which values the Italian company at 1.7 billion euros. 33N says AI moving onto robots, drones and vehicles opens a new attack surface.",
+      "date": "2026-09-17",
+      "publisher": "ECO",
+      "url": "https://eco.sapo.pt/2026/09/17/fundo-portugues-33n-investe-em-ronda-de-270-milhoes-de-startup-de-ciberseguranca/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Porto investor backs security for AI-running devices, and its stated reason is AI: two steps from AI, and the company is not Portuguese.",
+      "steps": 2
+    },
+    {
+      "title": "BSC AI Factory opens an AI incubation round at UPTEC Asprela II",
+      "summary": "Free supercomputing access (including MareNostrum 5), mentoring and training for EU-registered AI startups and SMEs with a Portuguese tax number, running from 5 October 2026 to 30 March 2027. Applications closed on 15 September.",
+      "date": "2026-08-19",
+      "publisher": "HR Portugal",
+      "url": "https://hrportugal.sapo.pt/programa-europeu-vai-apoiar-startups-e-pme-no-desenvolvimento-de-solucoes-de-ia-no-porto-as-candidaturas-ja-estao-abertas/",
+      "read_on": "2026-11-16",
+      "ai_path": "A supercomputing incubation programme for AI startups, hosted in Porto: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Elife Portugal opens AIhub, an AI community with a physical space in Porto",
+      "summary": "A community for sharing and applying AI in marketing and communication, with a space on Rua da Restauração. It plans workshops, talks and hackathons, and its first in-person event on 9 July was about synthetic consumers.",
+      "date": "2026-07-08",
+      "publisher": "Marketeer",
+      "url": "https://marketeer.sapo.pt/?p=414579",
+      "read_on": "2026-11-16",
+      "ai_path": "A Porto community built to teach and apply AI in marketing: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Porto climbs over 15 places in the global startup ranking, AI one of four drivers",
+      "summary": "Invest Porto reports that the Global Startup Ecosystem Report 2026 calls Porto one of Europe's fastest-growing startup ecosystems, with software, healthcare, fintech and AI as the main drivers.",
+      "date": "2026-07-08",
+      "publisher": "Portugalglobal (Invest Porto)",
+      "url": "https://portugalglobal.pt/en/news/2026/julho/porto-climbs-over-15-places-in-the-global-startup-ranking/",
+      "read_on": "2026-11-16",
+      "ai_path": "A ranking of the city's startup scene in which AI is named a growth driver: one step from AI.",
+      "steps": 1
+    },
+    {
+      "title": "START Rise AI Challenge, run with Porto Business School, searches for AI startups in Porto, Faro and Lisbon",
+      "summary": "Start Campus and Porto Business School toured three cities for startups building AI products. Nine finalists pitched on 29 May 2026 for a place at the Start Campus data centre in Sines, cloud credits and scholarships.",
+      "date": "2026-05-27",
+      "publisher": "Executive Digest",
+      "url": "https://executivedigest.sapo.pt/?p=768213",
+      "read_on": "2026-11-16",
+      "ai_path": "A startup contest for AI products co-run by a Porto business school: directly about AI, and the final was in Lisbon.",
+      "steps": 1
+    }
+  ],
+  "sources": [
+    {
+      "name": "UPTEC news (University of Porto)",
+      "url": "https://noticias.up.pt/",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "UPTEC",
+      "url": "https://uptec.up.pt/en/news-and-media/news/fct-organises-workshop-on-the-ai-factory-at-uptec",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "Invest Porto via Portugalglobal",
+      "url": "https://portugalglobal.pt/en/news/2026/julho/porto-climbs-over-15-places-in-the-global-startup-ranking/",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "ECO (Porto and startup coverage)",
+      "url": "https://eco.sapo.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "HR Portugal",
+      "url": "https://hrportugal.sapo.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "INESC TEC events",
+      "url": "https://forumdooutono.inesctec.pt/",
+      "kind": "events",
+      "feed": null
+    },
+    {
+      "name": "Câmara Municipal do Porto",
+      "url": "https://www.cm-porto.pt",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Agenda Porto",
+      "url": "https://www.agenda-porto.pt/en/",
+      "kind": "events",
+      "feed": null
+    }
+  ],
+  "events": [
+    {
+      "title": "BSC AI Factory incubation programme at UPTEC Asprela II (FCT and CNCA)",
+      "date": "2026-10-05 to 2027-03-30",
+      "url": "https://hrportugal.sapo.pt/programa-europeu-vai-apoiar-startups-e-pme-no-desenvolvimento-de-solucoes-de-ia-no-porto-as-candidaturas-ja-estao-abertas/",
+      "read_on": "2026-11-16",
+      "ai_path": "A supercomputing programme for AI startups: directly about AI. Selected companies only, applications are closed."
+    },
+    {
+      "title": "Fórum INESC TEC do Outono, 11th edition: digital infrastructures, technology, economy and sovereignty (FEUP)",
+      "date": "2026-11-25",
+      "url": "https://forumdooutono.inesctec.pt/",
+      "read_on": "2026-11-16",
+      "ai_path": "The theme is digital infrastructure, on which AI computing depends: two steps from AI. The page we read did not state an AI programme."
+    },
+    {
+      "title": "GBS and GPO Synergy: Scaling AI Across the Enterprise (API with GPO Hub, Vertical Coworking Dom Henrique)",
+      "date": "2026-03-12",
+      "url": "https://www.agenda-porto.pt/en/evento/gbs-andamp-gpo-synergy-scaling-ai-across-the-enterprise",
+      "read_on": "2026-11-16",
+      "ai_path": "An executive talk on moving AI from pilots to enterprise scale: directly about AI. Already held."
+    },
+    {
+      "title": "Workshop on the AI Factory at UPTEC (FCT and CNCA, with demonstration of the Deucalion supercomputer)",
+      "date": "14 July (year not stated on the page, held before the programme call closed)",
+      "url": "https://uptec.up.pt/en/news-and-media/news/fct-organises-workshop-on-the-ai-factory-at-uptec",
+      "read_on": "2026-11-16",
+      "ai_path": "Explains access to supercomputers for AI development and the plan for a national data centre: directly about AI. Already held."
+    }
+  ],
+  "ai_map": [
+    {
+      "name": "UPTEC (Science and Technology Park of the University of Porto)",
+      "type": "institution",
+      "url": "https://uptec.up.pt/en/news-and-media/news/fct-organises-workshop-on-the-ai-factory-at-uptec",
+      "what": "The University of Porto's science park. Hosts the BSC AI Factory incubation round at its Asprela II hub, held an AI Factory workshop in its Asprela I auditorium, and incubates Granter and the startups below.",
+      "source_url": "https://noticias.up.pt/2026/11/06/startup-da-uptec-atrai-investimento-de-16-milhoes-e-prepara-expansao-europeia/",
+      "read_on": "2026-11-16",
+      "ai_path": "Incubates AI startups and hosts an AI supercomputing programme.",
+      "steps": 1
+    },
+    {
+      "name": "Universidade do Porto",
+      "type": "institution",
+      "url": "https://noticias.up.pt/",
+      "what": "Owner of UPTEC and its news service, which reported Granter's round. The DigestAID spin-off below comes from the university.",
+      "source_url": "https://eco.sapo.pt/reportagem/uptec-da-saude-ao-chao-de-fabrica-ia-esta-a-revolucionar-os-negocios/",
+      "read_on": "2026-11-16",
+      "ai_path": "Spins out and incubates AI companies.",
+      "steps": 1
+    },
+    {
+      "name": "Granter",
+      "type": "startup",
+      "url": "https://noticias.up.pt/2026/11/06/startup-da-uptec-atrai-investimento-de-16-milhoes-e-prepara-expansao-europeia/",
+      "what": "UPTEC startup founded in 2023. AI platform that finds public funding for SMEs, prepares applications and manages funded projects. Raised 1.6 million euros in November 2026.",
+      "source_url": "https://noticias.up.pt/2026/11/06/startup-da-uptec-atrai-investimento-de-16-milhoes-e-prepara-expansao-europeia/",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI product.",
+      "steps": 0
+    },
+    {
+      "name": "DigestAID",
+      "type": "startup",
+      "url": "https://eco.sapo.pt/reportagem/uptec-da-saude-ao-chao-de-fabrica-ia-esta-a-revolucionar-os-negocios/",
+      "what": "University of Porto spin-off at UPTEC, founded in 2021, building AI tools for digestive health, including video analysis of capsule endoscopy (as reported in October 2025).",
+      "source_url": "https://eco.sapo.pt/reportagem/uptec-da-saude-ao-chao-de-fabrica-ia-esta-a-revolucionar-os-negocios/",
+      "read_on": "2026-11-16",
+      "ai_path": "Medical AI product.",
+      "steps": 0
+    },
+    {
+      "name": "GynoAID",
+      "type": "startup",
+      "url": "https://eco.sapo.pt/reportagem/uptec-da-saude-ao-chao-de-fabrica-ia-esta-a-revolucionar-os-negocios/",
+      "what": "UPTEC startup founded in 2023 with an AI platform to detect and tell apart lesions in the female genital tract, with accuracy the article puts above 95 percent (the company's own claim).",
+      "source_url": "https://eco.sapo.pt/reportagem/uptec-da-saude-ao-chao-de-fabrica-ia-esta-a-revolucionar-os-negocios/",
+      "read_on": "2026-11-16",
+      "ai_path": "Medical AI product.",
+      "steps": 0
+    },
+    {
+      "name": "Scemai",
+      "type": "startup",
+      "url": "https://eco.sapo.pt/reportagem/uptec-da-saude-ao-chao-de-fabrica-ia-esta-a-revolucionar-os-negocios/",
+      "what": "UPTEC startup founded in 2021 selling AI for industry. Its assistant plans factory-floor work and shows machine status, capacity, energy and staffing.",
+      "source_url": "https://eco.sapo.pt/reportagem/uptec-da-saude-ao-chao-de-fabrica-ia-esta-a-revolucionar-os-negocios/",
+      "read_on": "2026-11-16",
+      "ai_path": "Industrial AI product.",
+      "steps": 0
+    },
+    {
+      "name": "Adeci",
+      "type": "startup",
+      "url": "https://eco.sapo.pt/reportagem/uptec-da-saude-ao-chao-de-fabrica-ia-esta-a-revolucionar-os-negocios/",
+      "what": "UPTEC startup founded in 2023 that uses AI to forecast restaurant sales and orders up to 31 days ahead, reporting about 92 percent accuracy.",
+      "source_url": "https://eco.sapo.pt/reportagem/uptec-da-saude-ao-chao-de-fabrica-ia-esta-a-revolucionar-os-negocios/",
+      "read_on": "2026-11-16",
+      "ai_path": "AI forecasting product.",
+      "steps": 0
+    },
+    {
+      "name": "Nilg.AI",
+      "type": "company",
+      "url": "https://eco.sapo.pt/reportagem/uptec-da-saude-ao-chao-de-fabrica-ia-esta-a-revolucionar-os-negocios/",
+      "what": "UPTEC company founded in 2018 that helps firms decide and work better with AI, starting by mapping their processes. ECO names Continental, Metro do Porto and Algar as clients.",
+      "source_url": "https://eco.sapo.pt/reportagem/uptec-da-saude-ao-chao-de-fabrica-ia-esta-a-revolucionar-os-negocios/",
+      "read_on": "2026-11-16",
+      "ai_path": "AI consultancy and products.",
+      "steps": 0
+    },
+    {
+      "name": "Infinite Foundry and PPA-LeaderTek",
+      "type": "startup",
+      "url": "https://uptec.up.pt/en/news-and-media/news/fct-organises-workshop-on-the-ai-factory-at-uptec",
+      "what": "Two UPTEC-incubated startups presented as users of advanced computing at the AI Factory workshop. The page does not describe their products.",
+      "source_url": "https://uptec.up.pt/en/news-and-media/news/fct-organises-workshop-on-the-ai-factory-at-uptec",
+      "read_on": "2026-11-16",
+      "ai_path": "Presented as use cases at an AI computing workshop, product not described: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "SMARTEX.AI",
+      "type": "startup",
+      "url": "https://startupgenome.com/ecosystems/porto",
+      "what": "Listed on Startup Genome's Porto page as a Porto-based industrial AI startup that secured 40 million dollars in May 2025.",
+      "source_url": "https://startupgenome.com/ecosystems/porto",
+      "read_on": "2026-11-16",
+      "ai_path": "Industrial AI company.",
+      "steps": 0
+    },
+    {
+      "name": "33N Ventures",
+      "type": "investor",
+      "url": "https://eco.sapo.pt/2026/09/17/fundo-portugues-33n-investe-em-ronda-de-270-milhoes-de-startup-de-ciberseguranca/",
+      "what": "Venture fund based in Porto, founded by two former Sonae executives. Invested in Exein's September 2026 round and holds a board seat there.",
+      "source_url": "https://eco.sapo.pt/2026/09/17/fundo-portugues-33n-investe-em-ronda-de-270-milhoes-de-startup-de-ciberseguranca/",
+      "read_on": "2026-11-16",
+      "ai_path": "Backs security for devices that run AI, and says so: two steps from AI.",
+      "steps": 2
+    },
+    {
+      "name": "Porto Business School",
+      "type": "institution",
+      "url": "https://executivedigest.sapo.pt/?p=768213",
+      "what": "Co-organiser with Start Campus of the START Rise AI Challenge for AI startups, offering scholarships as prizes.",
+      "source_url": "https://executivedigest.sapo.pt/?p=768213",
+      "read_on": "2026-11-16",
+      "ai_path": "Runs an AI startup contest.",
+      "steps": 1
+    },
+    {
+      "name": "Elife Portugal (AIhub community)",
+      "type": "community",
+      "url": "https://marketeer.sapo.pt/?p=414579",
+      "what": "Launched the AIhub community in July 2026, with a physical space on Rua da Restauração, for AI in marketing and communication.",
+      "source_url": "https://marketeer.sapo.pt/?p=414579",
+      "read_on": "2026-11-16",
+      "ai_path": "Community and events about AI in marketing.",
+      "steps": 0
+    },
+    {
+      "name": "Mindstone Porto AI Meetup",
+      "type": "community",
+      "url": "https://mindstone.beehiiv.com/p/november-porto-ai-meetup-recap",
+      "what": "The Mindstone AI Community held its first Porto meetup in November 2024 at Porto Innovation Hub, with a talk on AI in cities by Porto Digital. We found no later Porto date.",
+      "source_url": "https://mindstone.beehiiv.com/p/november-porto-ai-meetup-recap",
+      "read_on": "2026-11-16",
+      "ai_path": "A meetup about AI.",
+      "steps": 0
+    },
+    {
+      "name": "Porto Digital",
+      "type": "public body",
+      "url": "https://community.mindstone.com/annotate/article_AoOlxa8JGxGdXyPWan",
+      "what": "The municipal company behind the city's digital transition. In an undated talk it described AI for traffic and flow prediction, a planned algorithm register, a rule against black box algorithms and EU-funded CommuniCity pilots.",
+      "source_url": "https://community.mindstone.com/annotate/article_AoOlxa8JGxGdXyPWan",
+      "read_on": "2026-11-16",
+      "ai_path": "A city body that uses and governs AI in city services.",
+      "steps": 0
+    },
+    {
+      "name": "Câmara Municipal do Porto",
+      "type": "public body",
+      "url": "https://www.cm-porto.pt",
+      "what": "The city council, quoted through its economy councillor on the 2026 startup ranking. Its municipal company Porto Digital describes the AI uses above.",
+      "source_url": "https://portugalglobal.pt/en/news/2026/julho/porto-climbs-over-15-places-in-the-global-startup-ranking/",
+      "read_on": "2026-11-16",
+      "ai_path": "Promotes the startup scene and runs AI uses through its municipal company.",
+      "steps": 1
+    },
+    {
+      "name": "FCT and CNCA (National Centre for Advanced Computing)",
+      "type": "public body",
+      "url": "https://uptec.up.pt/en/news-and-media/news/fct-organises-workshop-on-the-ai-factory-at-uptec",
+      "what": "National bodies that organised the AI Factory workshop at UPTEC and promote the BSC AI Factory programme in Portugal. They are national, not Porto bodies, and appear because the programme sits in Porto.",
+      "source_url": "https://hrportugal.sapo.pt/programa-europeu-vai-apoiar-startups-e-pme-no-desenvolvimento-de-solucoes-de-ia-no-porto-as-candidaturas-ja-estao-abertas/",
+      "read_on": "2026-11-16",
+      "ai_path": "Run AI supercomputing access and training.",
+      "steps": 0
+    },
+    {
+      "name": "INESC TEC",
+      "type": "institution",
+      "url": "https://forumdooutono.inesctec.pt/",
+      "what": "Research institute that organises the Fórum INESC TEC do Outono on 25 November 2026 at FEUP in Porto. A headline on its news site says it brought citizens closer to local politics with AI, but that page would not load for us.",
+      "source_url": "https://forumdooutono.inesctec.pt/",
+      "read_on": "2026-11-16",
+      "ai_path": "An AI headline we could not read, and a forum on digital infrastructure: the AI link is unconfirmed beyond the headline.",
+      "steps": 2
+    }
+  ],
+  "extras": [],
+  "identity": {
+    "key_id": "site.porto-promptugal",
+    "signed_by": "place.districts@PrompTugal.dinis"
+  },
+  "gaps": [
+    "Porto has no regional AI-news feed we could reach. The pages we read give no RSS for the council, UPTEC news, ECO or HR Portugal, so every source feed is null. We should look for the feeds of Jornal de Notícias, Público Porto, Porto Canal, Startup Porto and Portugal Startups.",
+    "Câmara Municipal do Porto: we did not open the council's own news or agenda pages, so its AI use rests on Porto Digital's undated talk. A search result reported in May 2026 that a councillor said an AI ethics charter would be launched soon, but that clipping (an ISCTE file) returned 403 and we could not read it, so the charter is not claimed.",
+    "INESC TEC's CitiLink project (AI that turns municipal meeting minutes into structured data, with Porto among its municipalities) appeared only in search results. Its pages returned 503 or empty, so it is not in the map beyond the headline.",
+    "Fraunhofer Portugal AICOS is a Porto applied research centre, but the page we opened does not mention AI. We should read its own site (aicos.fraunhofer.pt) before listing it.",
+    "University of Porto research units (LIACC, the NORTE IA+ project, the AI and Data Science degree) appeared only as search snippets of SIGARRA records, which we did not open, so they are not listed. Also still to read: FEUP, FCUP, i3S, Universidade Católica Porto, ISEP and Polytechnic of Porto AI groups.",
+    "Startups whose Porto base we could not confirm on a page we opened: Reckon.ai, Cascade and the START Rise finalists (DUA IA, Mena.ai, SpectrAll, ResiliSite AI, Witflow, SNAP, Kureus, Aleph Strategy). Invisible CFO is also unplaced.",
+    "Investors: 3XP Global, Celtis Venture Partners, Gateway Ventures and Banco Português de Fomento backed Granter, but no page we read places them in Porto. Bright Pixel Capital and Magnum Capital sat on a contest jury, with no Porto link stated.",
+    "Porto AI meetups are mostly listed on meetup.com, luma.com and eventbrite, which we do not read, so recurring community dates are missing. The one Mindstone meetup we found is from November 2024.",
+    "The AI, Data and Robotics Forum 2026 at Alfândega do Porto and the ICCPSAI conference (30 November to 1 December 2026) appeared in search results, but the INESC TEC page for the forum returned 404, so neither is listed.",
+    "The Startup Genome page gives no count of AI startups in Porto, and aggregator counts differ widely, so we state none.",
+    "Local talent is not filled: nobody has agreed to be listed, and founders are named only inside the sources linked."
+  ],
+  "voice": {
+    "lede": "Porto, carago: the city that works while Lisbon talks, where the bridge is iron, the tiles are blue, and the machines are learning to eat a francesinha without spilling the sauce.",
+    "mandate": "PrompTugal.news Porto, a Invicta: AI and tech in Porto, with UPTEC as the engine room by the Asprela hills, plus whatever news arrives from Portugal, Europe and the world. Independente, and every fact comes with a receipt, tripeiro style.",
+    "gravity": "Porto does not boast, it just climbs fifteen places in a global startup ranking and carries on. UPTEC keeps the AI startups warm, a supercomputing programme set up its desks in Asprela II, Granter just raised its 1.6 million euros, and the fund 33N keeps an eye on the money from its Porto base. The city's own Porto Digital says it wants no black boxes, which is the most tripeiro rule we have ever heard: show me the tripe, then I trust you.",
+    "gaps_intro": "Calma, ainda não sabemos tudo, pá. Here is what Porto has not told us yet:"
+  },
+  "start_company": [
+    {
+      "name": "UPTEC (Science and Technology Park of the University of Porto)",
+      "what": "Incubates startups including Granter and the AI startups in the map, and hosts the BSC AI Factory round at Asprela II.",
+      "url": "https://noticias.up.pt/2026/11/06/startup-da-uptec-atrai-investimento-de-16-milhoes-e-prepara-expansao-europeia/",
+      "source_url": "https://noticias.up.pt/2026/11/06/startup-da-uptec-atrai-investimento-de-16-milhoes-e-prepara-expansao-europeia/",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "BSC AI Factory incubation programme (FCT and CNCA)",
+      "what": "Free supercomputing access, mentoring and training for EU AI startups and SMEs with a Portuguese tax number, up to 10 years old and under 20 staff. The 2026 round (5 October to 30 March 2027) is closed, and selected firms use the coworking space three times a week.",
+      "url": "https://hrportugal.sapo.pt/programa-europeu-vai-apoiar-startups-e-pme-no-desenvolvimento-de-solucoes-de-ia-no-porto-as-candidaturas-ja-estao-abertas/",
+      "source_url": "https://hrportugal.sapo.pt/programa-europeu-vai-apoiar-startups-e-pme-no-desenvolvimento-de-solucoes-de-ia-no-porto-as-candidaturas-ja-estao-abertas/",
+      "read_on": "2026-11-16",
+      "kind": "accelerator"
+    },
+    {
+      "name": "START Rise AI Challenge (Start Campus with Porto Business School)",
+      "what": "A contest that visited Porto, Faro and Lisbon. The 2026 final was on 29 May, and the top prize was space at the Start Campus data centre in Sines plus cloud credits.",
+      "url": "https://executivedigest.sapo.pt/?p=768213",
+      "source_url": "https://executivedigest.sapo.pt/?p=768213",
+      "read_on": "2026-11-16",
+      "kind": "funding"
+    }
+  ],
+  "investors": [
+    {
+      "name": "33N Ventures",
+      "what": "Porto-based venture fund that took part in the 270 million euro Exein round in September 2026.",
+      "url": "https://eco.sapo.pt/2026/09/17/fundo-portugues-33n-investe-em-ronda-de-270-milhoes-de-startup-de-ciberseguranca/",
+      "source_url": "https://eco.sapo.pt/2026/09/17/fundo-portugues-33n-investe-em-ronda-de-270-milhoes-de-startup-de-ciberseguranca/",
+      "read_on": "2026-11-16",
+      "type": "fund",
+      "date": "2026-09-17",
+      "ai_path": "Cites AI on devices as the reason for its bet: two steps from AI."
+    },
+    {
+      "name": "3XP Global (Impact Innovation Fund) into Granter",
+      "what": "Led Granter's 1.6 million euro round under the FdCR venture programme managed by Banco Português de Fomento, with Celtis Venture Partners, Gateway Ventures and Deel. The investors' own base cities are not stated on the page.",
+      "url": "https://noticias.up.pt/2026/11/06/startup-da-uptec-atrai-investimento-de-16-milhoes-e-prepara-expansao-europeia/",
+      "source_url": "https://noticias.up.pt/2026/11/06/startup-da-uptec-atrai-investimento-de-16-milhoes-e-prepara-expansao-europeia/",
+      "read_on": "2026-11-16",
+      "type": "investment",
+      "amount": "1.6 million euros",
+      "date": "2026-11-06",
+      "ai_path": "Funds an AI platform from a Porto incubator: directly about AI."
+    },
+    {
+      "name": "SMARTEX.AI funding (Startup Genome listing)",
+      "what": "Startup Genome's Porto page lists a 40 million dollar raise by this industrial AI startup in May 2025. We did not open the funding announcement.",
+      "url": "https://startupgenome.com/ecosystems/porto",
+      "source_url": "https://startupgenome.com/ecosystems/porto",
+      "read_on": "2026-11-16",
+      "type": "investment",
+      "amount": "40 million dollars",
+      "date": "2025-05",
+      "ai_path": "Funds an industrial AI company: directly about AI."
+    },
+    {
+      "name": "BSC AI Factory in Portugal (FCT and CNCA)",
+      "what": "Public programme giving AI startups free supercomputing time, based at UPTEC for the 2026 to 2027 round.",
+      "url": "https://hrportugal.sapo.pt/programa-europeu-vai-apoiar-startups-e-pme-no-desenvolvimento-de-solucoes-de-ia-no-porto-as-candidaturas-ja-estao-abertas/",
+      "source_url": "https://hrportugal.sapo.pt/programa-europeu-vai-apoiar-startups-e-pme-no-desenvolvimento-de-solucoes-de-ia-no-porto-as-candidaturas-ja-estao-abertas/",
+      "read_on": "2026-11-16",
+      "type": "programme",
+      "ai_path": "Gives compute to AI startups: directly about AI."
+    }
+  ],
+  "contacts": []
+}
