@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "diario-de-aveiro",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Diário de Aveiro",
+  "names_as_listed": [
+    "Diário de Aveiro"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: email not captured (obfuscated).",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:aveiro"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.diarioaveiro.pt/",
+    "owner": {
+      "name": "Diário de Aveiro, Lda. (concessionário da exploração)",
+      "source": {
+        "url": "https://www.diarioaveiro.pt/sobre/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.diarioaveiro.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://www.diarioaveiro.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.diarioaveiro.pt/sobre/",
+      "source": {
+        "url": "https://www.diarioaveiro.pt/sobre/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Adriano Callé Lucas",
+        "role": "Diretor",
+        "source": {
+          "url": "https://www.diarioaveiro.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial"
+      },
+      {
+        "name": "Teresa Veríssimo",
+        "role": "Diretora Geral",
+        "source": {
+          "url": "https://www.diarioaveiro.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "management"
+      },
+      {
+        "name": "Miguel Callé Lucas",
+        "role": "Diretor adjunto",
+        "source": {
+          "url": "https://www.diarioaveiro.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial"
+      },
+      {
+        "name": "João Luís Campos",
+        "role": "Diretor adjunto executivo",
+        "source": {
+          "url": "https://www.diarioaveiro.pt/sobre/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.diarioaveiro.pt/sobre/",
+        "read_at": "2026-11-16",
+        "how": "about page with ficha técnica"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.diarioaveiro.pt/sobre/",
+      "read_at": "2026-11-16",
+      "how": "about page with ficha técnica",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

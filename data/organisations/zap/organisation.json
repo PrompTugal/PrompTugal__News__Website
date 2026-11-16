@@ -1,0 +1,74 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "zap",
+  "type": "organisation",
+  "kind": "media",
+  "name": "ZAP",
+  "names_as_listed": [
+    "ZAP"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Email addresses on the page are obfuscated; not recorded. Redação names listed (Adriana Peixoto, Miguel Esteves, Nuno Teixeira da Silva, Soraia Ferreira, Teresa Oliveira Campos, Tomás Guimarães) without beats; not recorded as tech beat.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://zap.aeiou.pt",
+    "owner": {
+      "name": "Cool Beans!, Lda (editor/propriedade); holders above 5%: vMuse, Lda and Armando Batista",
+      "source": {
+        "url": "https://zap.aeiou.pt/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://zap.aeiou.pt/feed",
+        "format": "rss",
+        "source": {
+          "url": "https://zap.aeiou.pt/feed",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://zap.aeiou.pt/ficha-tecnica",
+      "source": {
+        "url": "https://zap.aeiou.pt/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Armando Batista",
+        "role": "Director",
+        "source": {
+          "url": "https://zap.aeiou.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://zap.aeiou.pt/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica read"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://zap.aeiou.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica read",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

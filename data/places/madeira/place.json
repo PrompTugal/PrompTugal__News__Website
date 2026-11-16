@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "madeira",
+  "type": "place",
+  "name": "Madeira",
+  "kind": "region",
+  "located_in": "place:portugal",
+  "matches": [],
+  "source": "desks/researcher/media/",
+  "note": "An autonomous region of Portugal; added for the outlets that cover it (desks/researcher/media/)."
+}

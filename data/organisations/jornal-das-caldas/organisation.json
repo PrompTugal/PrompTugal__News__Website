@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "jornal-das-caldas",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Jornal das Caldas",
+  "names_as_listed": [
+    "Jornal das Caldas"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Placed at the district capital; finer localities named: Caldas da Rainha; Nazaré. Gaps: contact email not read. Caldas da Rainha is in Leiria district, not the city of Leiria.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:leiria"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://jornaldascaldas.pt",
+    "owner": {
+      "name": "Medioeste, Lda",
+      "source": {
+        "url": "https://jornaldascaldas.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://jornaldascaldas.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://jornaldascaldas.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://jornaldascaldas.pt/contactos/",
+      "source": {
+        "url": "https://jornaldascaldas.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Clara Bernardino",
+        "role": "Diretora",
+        "source": {
+          "url": "https://jornaldascaldas.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial direction"
+      },
+      {
+        "name": "Francisco Gomes",
+        "role": "Chefe de Redação",
+        "source": {
+          "url": "https://jornaldascaldas.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "newsroom"
+      },
+      {
+        "name": "Marlene Sousa",
+        "role": "Redação",
+        "source": {
+          "url": "https://jornaldascaldas.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Pedro Antunes",
+        "role": "Redação",
+        "source": {
+          "url": "https://jornaldascaldas.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Paulo Alexandre",
+        "role": "Redação",
+        "source": {
+          "url": "https://jornaldascaldas.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://jornaldascaldas.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica; ERC 116092"
+      },
+      {
+        "url": "https://jornaldascaldas.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "contacts page listed, not read in detail"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://jornaldascaldas.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica; ERC 116092",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://jornaldascaldas.pt/contactos/",
+      "read_at": "2026-11-16",
+      "how": "contacts page listed, not read in detail",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

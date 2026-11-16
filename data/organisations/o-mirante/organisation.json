@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "o-mirante",
+  "type": "organisation",
+  "kind": "media",
+  "name": "O Mirante",
+  "names_as_listed": [
+    "O Mirante"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Placed at the district capital; finer localities named: Santarém; Ribatejo. Gaps: personal contact published, not recorded: named staff emails. feed URL: use the full URL with parameters as the site publishes it.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:santarem"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://omirante.pt",
+    "owner": {
+      "name": "Valedotejo - Comunicação Social, Lda",
+      "source": {
+        "url": "https://omirante.pt/fichatecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://rss.impresa.pt/feed/latest/mirante.rss",
+        "format": "rss",
+        "source": {
+          "url": "https://rss.impresa.pt/feed/latest/mirante.rss",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml; charset=utf-8 (verified with the long query-string URL served by the site's own link rel; URL given without query not verified)"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://omirante.pt/contatos",
+      "source": {
+        "url": "https://omirante.pt/contatos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "António Palmeiro",
+        "role": "Director Editorial",
+        "source": {
+          "url": "https://omirante.pt/fichatecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial direction"
+      },
+      {
+        "name": "João Calhaz",
+        "role": "Chefe de Redacção",
+        "source": {
+          "url": "https://omirante.pt/fichatecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "newsroom"
+      },
+      {
+        "name": "Alberto Bastos",
+        "role": "Coordenador de Economia",
+        "source": {
+          "url": "https://omirante.pt/fichatecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "economy"
+      },
+      {
+        "name": "Bernardo Emídio",
+        "role": "Coordenador Editorial",
+        "source": {
+          "url": "https://omirante.pt/fichatecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial"
+      },
+      {
+        "name": "Joaquim António Emídio",
+        "role": "Director Geral",
+        "source": {
+          "url": "https://omirante.pt/fichatecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "management"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://omirante.pt/fichatecnica",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica"
+      },
+      {
+        "url": "https://omirante.pt/contatos",
+        "read_at": "2026-11-16",
+        "how": "contacts page"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://omirante.pt/fichatecnica",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://omirante.pt/contatos",
+      "read_at": "2026-11-16",
+      "how": "contacts page",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}
