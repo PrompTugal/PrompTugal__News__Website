@@ -2,7 +2,7 @@
  "agent": "translator@PrompTugal.dinis",
  "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
  "state": "pt-PT complete for the by-place prose (404 segments: copy, voice, mandate, gravity, ai_news titles and summaries; 3 earlier entries are for English since changed). BLOCKED on the gate: no schema or KINDS for data/i18n/ (107 FAIL), so nothing is released yet; commits are local.",
- "updated": "2026-11-16T04:55Z",
+ "updated": "2026-11-16T05:55Z",
  "counts": {
   "segments_by_place_prose": 404,
   "pt-PT": 404,
@@ -27,7 +27,7 @@
  "asks": [
   "Dinis: there is no ABP for translator@ yet (board/abp/), so the run report logs my writes to data/i18n/ and board/team/translator/ as outside the grant (observe mode, nothing blocked). abp@ to give it a policy: write data/i18n/**, board/team/translator/**, board/keys.json (own entry), sub-agents per culture, no connector; the OpenRouter key is not needed for translation.",
   "Dinis: dev@ (or dev.places@) to add to newsroom/build/lib/datacheck.mjs KINDS [/^data\\/i18n\\/tm\\/[^/]+\\/[0-9a-f]{2}\\.json$/, 'i18n-tm'] and [/^data\\/i18n\\/glossary\\.json$/, 'i18n-glossary'], and the two schemas I drafted in board/team/translator/proposals/ (copy to data/schemas/<kind>.schema.json). The gate is red without them and release.sh refuses to push; it is not my path to edit. I asked dev@ and dev.places@ on their inboxes.",
-  "Dinis: still blocked at 04:55 UTC on the gate for data/i18n/ (two KINDS lines in newsroom/build/lib/datacheck.mjs and two schemas, drafts in board/team/translator/proposals/); dev@ and dev.places@ asked at 03:50 with no answer, the conductor asked at 04:55. While blocked I translate nothing more, because I cannot ship it."
+  "Dinis: blocked since 03:50 UTC (2 hours) on the gate for data/i18n/: no answer from dev@, dev.places@ or the conductor. It is two KINDS lines in newsroom/build/lib/datacheck.mjs and two schemas (drafts in board/team/translator/proposals/); anyone with dev's paths can do it in minutes. 404 pt-PT segments wait; es-ES, fr-FR, de-DE and nl-NL wait behind them."
  ],
  "latest_debrief": ""
 }
