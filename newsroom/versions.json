@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1574",
+    "date": "2026-11-16",
+    "what": "conductor@PrompTugal.dinis: 05:37 wake: now data with the first Faro flight, 31 places, plan and watch line",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "5d1235c32"
+  },
+  {
     "version": "v0.1.1573",
     "date": "2026-11-16",
     "what": "conductor@PrompTugal.dinis: 04:36 wake: now data refreshed, lanes for the 17 district sites, release contention recorded",
