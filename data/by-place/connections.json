@@ -335,6 +335,81 @@
       "places": [
         "portimao"
       ]
+    },
+    {
+      "id": "lagoa-ehtp-ai-training",
+      "from": {
+        "name": "Municipio de Lagoa",
+        "type": "public body",
+        "place": "lagoa"
+      },
+      "to": {
+        "name": "Escola de Hotelaria e Turismo de Portimao",
+        "type": "institution",
+        "place": "portimao"
+      },
+      "relation": "builds_with",
+      "what": "Under the council's Formacao +Proxima programme the two promote free, certified AI courses. Read at the council's page: 'AI in tourism marketing', 3 and 4 December 2024, Patio das Geracoes, Lagoa. Search extracts list further editions (introduction to AI, December 2023; 'AI at the service of business', 29 and 30 April, Convento de Sao Jose, year to confirm).",
+      "ai_path": "The council trains local businesses in AI with a tourism school.",
+      "steps": 0,
+      "source_url": "https://www.cm-lagoa.pt/evento/formacao-proxima-a-inteligencia-artificial-ao-servico-do-marketing-turistico",
+      "source_title": "Formacao +Proxima: A Inteligencia Artificial ao servico do marketing turistico (Camara de Lagoa)",
+      "source_date": "2024-12",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "lagoa",
+        "portimao"
+      ]
+    },
+    {
+      "id": "lagoa-ipbeja-air-quality",
+      "from": {
+        "name": "Municipio de Lagoa",
+        "type": "public body",
+        "place": "lagoa"
+      },
+      "to": {
+        "name": "Instituto Politecnico de Beja",
+        "type": "institution"
+      },
+      "relation": "builds_with",
+      "what": "A prototype that forecasts the European Air Quality Index with machine learning, using data from the council's air-quality stations (reported as 10). Known from a search extract of Mais Algarve and Gazeta Rural, whose pages sit behind a bot check.",
+      "ai_path": "AI forecasting model built with a polytechnic.",
+      "steps": 0,
+      "source_url": "https://maisalgarve.pt/2025/12/05/lagoa-municipio-reforca-aposta-na-qualidade-do-ar-e-nas-cidades-inteligentes-projeto-em-parceria-com-o-ipbeja/",
+      "source_title": "Lagoa reforca aposta na qualidade do ar e nas cidades inteligentes (Mais Algarve)",
+      "source_date": "2025-12-05",
+      "read_on": "2026-11-16",
+      "verified": "search_extract",
+      "places": [
+        "lagoa"
+      ]
+    },
+    {
+      "id": "smart-city-lagoa-award",
+      "from": {
+        "name": "Smart City Lagoa",
+        "type": "programme",
+        "place": "lagoa"
+      },
+      "to": {
+        "name": "APDC Future Cities and Territories Prize 2026",
+        "type": "programme",
+        "place": "portugal"
+      },
+      "relation": "participates_in",
+      "what": "Described as a living lab with academia that won the economic-development category in 2026 (Jornal do Algarve, search extract; page 403). Whether AI is part of it was not read.",
+      "ai_path": "Smart-city programme; AI link unconfirmed.",
+      "steps": 2,
+      "source_url": "https://jornaldoalgarve.pt/smart-city-lagoa-vence-premio-cidades-e-territorios-do-futuro-2026/",
+      "source_title": "Smart City Lagoa vence Premio Cidades e Territorios do Futuro 2026 (Jornal do Algarve)",
+      "source_date": "2026",
+      "read_on": "2026-11-16",
+      "verified": "search_extract",
+      "places": [
+        "lagoa"
+      ]
     }
   ],
   "leads": [
@@ -395,6 +470,46 @@
         "tavira",
         "olhao",
         "silves"
+      ]
+    },
+    {
+      "what": "An intermunicipal urban-management platform involving Vila Real de Santo Antonio, Sao Bras de Alportel, Olhao, Loule, Tavira and Alcoutim (search extract of AMAL and Jornal do Algarve). AI content not read.",
+      "url": "https://amal.pt/projectos/em_curso_detalhe.asp?id=72",
+      "why_open": "Need the page to say whether AI is part of it",
+      "places": [
+        "vila-real-de-santo-antonio",
+        "sao-bras-de-alportel",
+        "olhao",
+        "loule",
+        "tavira",
+        "alcoutim"
+      ]
+    },
+    {
+      "what": "VRSA Digital: free Wi-Fi and pedestrian-flow counting in the historic centre of Vila Real de Santo Antonio; the council says no images or sound are captured. Smart-city, no AI stated.",
+      "url": "https://jornaldoalgarve.pt/projeto-vrsa-digital-leva-wi-fi-gratuito-e-solucoes-inteligentes-ao-centro-historico/",
+      "why_open": "No AI path in what was seen",
+      "places": [
+        "vila-real-de-santo-antonio"
+      ]
+    },
+    {
+      "what": "Tavira: smart-city items in the council's action plan, no AI named; the Citilink project (UBI, INESC TEC) on council minutes does not name Tavira. Olhao and Monchique: nothing found for AI in two searches.",
+      "url": "https://acompanhamais.cm-tavira.pt/index.php/projeto/84-promover-a-adocao-de-projetos-tecnologicas-e-solucoes-inteligentes-smart-cities-de-modo-a-criar-uma-cidade-mais-sustentavel-competitiva-construindo-solucoes-nos-dominios-da-mobilidade-ambient/",
+      "why_open": "Council news pages by town still to read",
+      "places": [
+        "tavira",
+        "olhao",
+        "monchique"
+      ]
+    },
+    {
+      "what": "Turismo do Algarve's free AI bootcamp at the Portimao hospitality school (17 April per a search extract, year to confirm).",
+      "url": "https://publituris.pt/2026/03/26/turismo-do-algarve-promove-novos-bootcamps-sobre-eficiencia-hidrica-e-inteligencia-artificial",
+      "why_open": "Search extract only",
+      "places": [
+        "portimao",
+        "algarve"
       ]
     }
   ],
