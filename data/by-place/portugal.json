@@ -664,6 +664,16 @@
       "read_on": "2026-11-16",
       "ai_path": "An AI research network, so directly AI.",
       "steps": 0
+    },
+    {
+      "name": "APPIA (Associação Portuguesa para a Inteligência Artificial)",
+      "type": "organisation",
+      "url": "https://www.appia.pt/",
+      "what": "National AI society founded in 1984 and a member of EurAI. Runs the EPIA conference, a PhD thesis award, the PRAI journal and the Advanced School on AI.",
+      "source_url": "https://eurai.org/members/appia",
+      "read_on": "2026-11-16",
+      "ai_path": "A national society for AI research, so directly AI.",
+      "steps": 0
     }
   ],
   "extras": [
@@ -696,6 +706,18 @@
       "value": "Runs the Portugal 2030 company R&D measures, the PRR Mission Interface programme and the Digital Innovation Hubs, and with FCT the national semiconductor strategy (121 million euros to 2027). The page read shows no AI programme, and AI² is due to merge ANI with FCT.",
       "source_url": "https://ani.pt/en/",
       "read_on": "2026-11-16"
+    },
+    {
+      "label": "EPIA, Portugal's AI conference (APPIA)",
+      "value": "The 2025 edition was held at the University of Algarve in Faro, EPIA 2026 is set for 2 to 4 September 2026 at the University of Madeira, and the 2026 Advanced School on AI was at the University of Aveiro on 23 and 24 July.",
+      "source_url": "https://www.appia.pt/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company here: Portugal Ventures",
+      "value": "Venture investor in technology startups at pre-seed, seed and Series A, with tickets up to 6 million euros and offices in Porto (headquarters) and Lisbon. It reports 283 million euros under management and 256 companies. Its page does not mention AI.",
+      "source_url": "https://www.portugalventures.pt/en/",
+      "read_on": "2026-11-16"
     }
   ],
   "identity": {
@@ -703,7 +725,7 @@
     "signed_by": "place.portugal@PrompTugal.dinis"
   },
   "gaps": [
-    "Fifth pass of 16 November: 37 map entries and 20 news items, all from pages opened. Still to map: AI communities, more Lisbon and Porto accelerators, Instituto de Telecomunicações and other university labs, people and talent.",
+    "Sixth pass of 16 November: 38 map entries, 20 news items, 7 extras, all from pages opened. Still to map: Lisbon and Porto AI communities (the one we found is only listed on a site we do not read), more university labs, people and talent.",
     "No page we opened states the region of Priberam, Neuraspace, Granter, Dojo AI, Coalex.ai or Feedzai, so their region is left out until a source says it.",
     "The gigafactory is an Iberian bid to EuroHPC, but our sources give no site in Portugal or decision date, and the National Data Centre Plan is still being finalised.",
     "Sword Health and Unbabel have no page of their own read tonight (the company site refused or redirected), their entries rest on one press article.",
@@ -711,8 +733,9 @@
     "Tech Foundry Portugal (a deep tech accelerator announced in May 2026) was left out: the page we read does not mention AI, so it fails the PrompTugal test for now.",
     "The DemocracI.A. conference in Porto on 25 November was only mentioned in a search summary and we found no page for it, so it is not listed. UJET's new Porto hub was left out: nothing we read connects it to AI.",
     "Founder-facing public bodies (Startup Portugal, BPF, ANI) are in extras, not the map: the pages read show no AI programme of their own. A consolidated 'where do I go' guide for AI founders still needs one official page per step.",
-    "The Instituto de Telecomunicações site returned an error tonight (503), so it is still unmapped from an official source.",
-    "INESC-ID's SAIL Centre of Excellence (reported at 27.2 million euros in a search snippet) is not listed: the page we tried returned 404."
+    "INESC-ID's SAIL Centre of Excellence (reported at 27.2 million euros in a search snippet) is not listed: the page we tried returned 404.",
+    "The Instituto de Telecomunicações site returned an error on two tries (503), and INESC-ID's Center for Responsible AI page returned 404, so both stay out of the map until an official page loads.",
+    "Investors: Armilar and Lince Capital appear in our news items, but we found no official page of theirs, and the directories we saw are not primary sources. Portugal Ventures' own page names no AI focus, so it sits in extras."
   ],
   "voice": {
     "lede": "A country on the Atlantic edge of Europe that wrote itself a language model of its own, and would like you to try it.",
