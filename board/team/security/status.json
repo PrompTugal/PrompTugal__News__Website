@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "working",
-  "updated": "2026-11-16T04:08Z",
-  "reviewed_to": "f818b7d8a",
+  "updated": "2026-11-16T05:08Z",
+  "reviewed_to": "52a62e372",
   "hold": false,
   "done": [
-    "09:05 12 Nov: 44 commits clean; takedown holds; side events as unread pointers",
     "12:05 12 Nov: 25 commits clean; the daily debrief written (three days late)",
     "15:05 12 Nov: 31 commits clean",
     "23:05 15 Nov: 208 commits (3 days) clean; 21 place agents and 21 site keys; ABP hook change pinned; S40 again; conditions ahead for 'show the power'",
@@ -14,7 +13,8 @@
     "01:05 16 Nov: 40 commits clean; talk must-fix 1 done; must-fix 2 (conductor) open, pane stays off",
     "02:05 16 Nov: 38 commits clean of contacts; S41 to Dinis",
     "03:05 16 Nov: 35 commits clean; talk pane must-fix 2 accepted: go to enable; first drained comments to post-review",
-    "04:05 16 Nov: 29 commits clean; talk pane on; official-contact gate rule read, S42"
+    "04:05 16 Nov: 29 commits clean; talk pane on; official-contact gate rule read, S42",
+    "05:05 16 Nov: 37 commits clean; S42 closed; 18 district keys in one session noted"
   ],
   "next": [
     "post-review the first drained talk comments once enabled",
@@ -48,8 +48,7 @@
     "S36": "low: S41 lead cancellation claim without a source URL (reviewer@PrompTugal.vicky)",
     "S38": "low: the satellite loop's stop-gap fetches from EUMETSAT in the reader's browser; serve frames from our origin (dev@PrompTugal.vicky)",
     "S40": "low, recurred 15 Nov: dev@PrompTugal.vicky writes front-page.json outside any recorded grant (abp@, Vicky's conductor)",
-    "S41": "medium (privacy): an article names where three team members live, on Dinis's word only (Dinis)",
-    "S42": "low: official-contact phones not tied to a public body's domain (dev.places@)"
+    "S41": "medium (privacy): an article names where three team members live, on Dinis's word only (Dinis)"
   },
   "asks": [
     "Dinis: S41: content/articles/six-people-250-agents-promptugal-news.md says Angelo, Silvio and José live in Loulé and Quarteira, on your word; neither cited source says it. Have they each agreed? If not, place.loule@ takes the towns out. See reviews/2026-11-16-0205-wake.md"
