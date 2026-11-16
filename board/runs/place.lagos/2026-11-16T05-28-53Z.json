@@ -1,0 +1,81 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.lagos@PrompTugal.dinis",
+ "run": "2026-11-16T05-28-53Z",
+ "started": "2026-11-16T05:28:53.261Z",
+ "ended": "2026-11-16T06:29:00Z",
+ "line": "",
+ "policy": {
+  "version": "1.12.0",
+  "sha256": "5671adc96f1bf61e"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T05:37:14.165Z",
+   "chars": 286,
+   "sha256": "340890494bfe3fac",
+   "head": "<task-notification>\n<task-id>b40edyzw0</task-id>\n<summary>Monitor event: \"release 8 completion\"</summary>\n<event>[Monitor expired after 8m 20s with no events delivered. Re-arm it if you still need the"
+  },
+  {
+   "t": "2026-11-16T06:28:39.164Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T06:28:38.817Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 6,
+  "by_kind": {
+   "other": 2,
+   "release": 3,
+   "git": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 6,
+  "commits": [
+   {
+    "sha": "fc89395ec",
+    "subject": "place.lagos@PrompTugal.dinis: hand-over debrief for the night, status and run report",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 6,
+  "in_mandate": 6,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
