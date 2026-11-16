@@ -1,0 +1,83 @@
+{
+  "id": "gazeta-das-caldas",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Gazeta das Caldas",
+  "names_as_listed": [
+    "Gazeta das Caldas"
+  ],
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://gazetadascaldas.pt",
+  "places_covered": [
+    {
+      "place": "Caldas da Rainha",
+      "source_url": "https://gazetadascaldas.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Cooperativa Editorial Caldense, C.R.L.",
+    "source_url": "https://gazetadascaldas.pt/ficha-tecnica/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://gazetadascaldas.pt/homepage/contactos/",
+  "public_contact": [
+    {
+      "channel": "redaccao@gazetadascaldas.pt (newsroom), publicidade@gazetadascaldas.pt (advertising), as published",
+      "source_url": "https://gazetadascaldas.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://gazetadascaldas.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Fátima Ferreira",
+      "role": "Diretora",
+      "beat": "editorial direction",
+      "source_url": "https://gazetadascaldas.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Natacha Narciso",
+      "role": "Jornalista",
+      "beat": "",
+      "source_url": "https://gazetadascaldas.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Joel Ribeiro",
+      "role": "Jornalista, editor online",
+      "beat": "online",
+      "source_url": "https://gazetadascaldas.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Isaque Vicente",
+      "role": "Jornalista",
+      "beat": "",
+      "source_url": "https://gazetadascaldas.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://gazetadascaldas.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica"
+    }
+  ],
+  "gaps": [
+    "personal contact published, not recorded: named staff emails",
+    "Caldas da Rainha is in Leiria district"
+  ]
+}

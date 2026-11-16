@@ -1,0 +1,96 @@
+{
+  "id": "regiao-de-leiria",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Região de Leiria",
+  "names_as_listed": [
+    "Região de Leiria"
+  ],
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://www.regiaodeleiria.pt",
+  "places_covered": [
+    {
+      "place": "Leiria",
+      "source_url": "https://www.regiaodeleiria.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Parjo, S.A. (60% Joaquim Paulo Cordeiro da Conceição, 40% Paulo Miguel Gonçalves da Silva Reis)",
+    "source_url": "https://www.regiaodeleiria.pt/ficha-tecnica/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.regiaodeleiria.pt/contactos/",
+  "public_contact": [
+    {
+      "channel": "redaccao@regiaodeleiria.pt (newsroom), as published",
+      "source_url": "https://www.regiaodeleiria.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.regiaodeleiria.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Francisco Rebelo dos Santos",
+      "role": "Diretor",
+      "beat": "editorial direction",
+      "source_url": "https://www.regiaodeleiria.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Marina Guerra",
+      "role": "Chefe de redação",
+      "beat": "newsroom",
+      "source_url": "https://www.regiaodeleiria.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Carlos S. Almeida",
+      "role": "Redação",
+      "beat": "",
+      "source_url": "https://www.regiaodeleiria.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Joana Magalhães",
+      "role": "Redação",
+      "beat": "",
+      "source_url": "https://www.regiaodeleiria.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Manuel Leiria",
+      "role": "Redação",
+      "beat": "",
+      "source_url": "https://www.regiaodeleiria.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Martine Rainho",
+      "role": "Redação",
+      "beat": "",
+      "source_url": "https://www.regiaodeleiria.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.regiaodeleiria.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica; ERC 100512; founder José Baptista dos Santos"
+    }
+  ],
+  "gaps": [
+    "personal contact published, not recorded (named editors emails on masthead)"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "radio-hertz",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Hertz",
+  "names_as_listed": [
+    "Rádio Hertz"
+  ],
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "website": "https://radiohertz.pt",
+  "places_covered": [
+    {
+      "place": "Tomar",
+      "source_url": "https://radiohertz.pt/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Médio Tejo",
+      "source_url": "https://radiohertz.pt/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Associação Cultural e Recreativa Rádio Hertz",
+    "source_url": "https://radiohertz.pt/218-2/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://radiohertz.pt/contactos-2/",
+  "public_contact": [
+    {
+      "channel": "radiohertz@radiohertz.pt, as published on the institutional page",
+      "source_url": "https://radiohertz.pt/218-2/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://radiohertz.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "António Feliciano",
+      "role": "Diretor de Informação",
+      "beat": "news",
+      "source_url": "https://radiohertz.pt/218-2/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "João Fernando Franco Jesus",
+      "role": "Diretor de Programas",
+      "beat": "programming",
+      "source_url": "https://radiohertz.pt/218-2/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://radiohertz.pt/218-2/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "institutional page with estatuto editorial"
+    }
+  ],
+  "gaps": [
+    "places covered inferred from site sections and headlines; not stated formally"
+  ]
+}

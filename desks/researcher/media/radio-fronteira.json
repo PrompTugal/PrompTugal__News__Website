@@ -1,0 +1,74 @@
+{
+  "id": "radio-fronteira",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Fronteira",
+  "names_as_listed": [
+    "Rádio Fronteira"
+  ],
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "website": "https://radiofronteira.pt",
+  "places_covered": [
+    {
+      "place": "Almeida",
+      "source_url": "https://radiofronteira.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Sabugal",
+      "source_url": "https://radiofronteira.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Figueira de Castelo Rodrigo",
+      "source_url": "https://radiofronteira.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Pinhel",
+      "source_url": "https://radiofronteira.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Guarda",
+      "source_url": "https://radiofronteira.pt/sobre/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "contact_page_url": "https://radiofronteira.pt/contactos/",
+  "public_contact": [
+    {
+      "channel": "geral@radiofronteira.com, as published",
+      "source_url": "https://radiofronteira.pt/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://radiofronteira.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://radiofronteira.pt/sobre/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "about: 106.9 FM, Vilar Formoso"
+    },
+    {
+      "url": "https://radiofronteira.pt/contactos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacts"
+    }
+  ],
+  "gaps": [
+    "owner not stated",
+    "people not found on read pages"
+  ]
+}

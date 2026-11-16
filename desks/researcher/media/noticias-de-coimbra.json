@@ -1,0 +1,91 @@
+{
+  "id": "noticias-de-coimbra",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Notícias de Coimbra (NDC)",
+  "names_as_listed": [
+    "Notícias de Coimbra - NDC"
+  ],
+  "media_kind": "online",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://www.noticiasdecoimbra.pt",
+  "places_covered": [
+    {
+      "place": "Coimbra",
+      "source_url": "https://www.noticiasdecoimbra.pt/ficha-tecnica-2/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "contact_page_url": "https://www.noticiasdecoimbra.pt/contactos-x/",
+  "public_contact": [
+    {
+      "channel": "info@noticiasdecoimbra.pt (information/newsroom), pub@noticiasdecoimbra.pt (advertising), as published",
+      "source_url": "https://www.noticiasdecoimbra.pt/ficha-tecnica-2/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.noticiasdecoimbra.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Susana Brás",
+      "role": "Diretora",
+      "beat": "editorial direction",
+      "source_url": "https://www.noticiasdecoimbra.pt/ficha-tecnica-2/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "António Alves",
+      "role": "Jornalista",
+      "beat": "",
+      "source_url": "https://www.noticiasdecoimbra.pt/ficha-tecnica-2/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Catarina Rodrigues",
+      "role": "Jornalista",
+      "beat": "",
+      "source_url": "https://www.noticiasdecoimbra.pt/ficha-tecnica-2/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Ariana Silva",
+      "role": "Jornalista",
+      "beat": "",
+      "source_url": "https://www.noticiasdecoimbra.pt/ficha-tecnica-2/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Mariana Raposo",
+      "role": "Jornalista",
+      "beat": "",
+      "source_url": "https://www.noticiasdecoimbra.pt/ficha-tecnica-2/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.noticiasdecoimbra.pt/ficha-tecnica-2/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica; ERC registration 126375 stated on page"
+    },
+    {
+      "url": "https://www.noticiasdecoimbra.pt/feed/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "curl"
+    }
+  ],
+  "gaps": [
+    "owner not stated",
+    "phone and WhatsApp numbers on page not recorded"
+  ]
+}

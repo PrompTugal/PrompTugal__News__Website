@@ -1,0 +1,68 @@
+{
+  "id": "radio-jornal-do-centro",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Jornal do Centro",
+  "names_as_listed": [
+    "Rádio Jornal do Centro"
+  ],
+  "media_kind": "radio",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://www.radiojornaldocentro.pt",
+  "places_covered": [
+    {
+      "place": "Viseu",
+      "source_url": "https://www.radiojornaldocentro.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Soncentro Emissora de Rádio, Lda",
+    "source_url": "https://www.radiojornaldocentro.pt/ficha-tecnica/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.radiojornaldocentro.pt/contactos/",
+  "public_contact": [
+    {
+      "channel": "noticias@radiojornaldocentro.pt (newsroom), correio@radiojornaldocentro.pt (administrative), as published",
+      "source_url": "https://www.radiojornaldocentro.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "João Vinhas",
+      "role": "Diretor de Jornalismo",
+      "beat": "news",
+      "source_url": "https://www.radiojornaldocentro.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Paulo Seabra",
+      "role": "Editor de Conteúdos",
+      "beat": "content",
+      "source_url": "https://www.radiojornaldocentro.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "José Carlos Leal",
+      "role": "Jornalista",
+      "beat": "",
+      "source_url": "https://www.radiojornaldocentro.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.radiojornaldocentro.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica; ERC 423283, founded 1990"
+    }
+  ],
+  "gaps": [
+    "no RSS feed found",
+    "surprising: the page text of the site contained injected foreign-language casino spam (SEO injection) when read on 2026-11-16; treat the site as possibly compromised"
+  ]
+}

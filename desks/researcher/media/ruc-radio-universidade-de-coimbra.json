@@ -1,0 +1,45 @@
+{
+  "id": "ruc-radio-universidade-de-coimbra",
+  "type": "organisation",
+  "kind": "media",
+  "name": "RUC - Rádio Universidade de Coimbra",
+  "names_as_listed": [
+    "RUC"
+  ],
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "website": "https://www.ruc.pt",
+  "places_covered": [
+    {
+      "place": "Coimbra",
+      "source_url": "https://www.ruc.pt/sobre",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Associação Académica de Coimbra (section origin, per history page; current licence holder not stated)",
+    "source_url": "https://www.ruc.pt/sobre",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.ruc.pt/contactos",
+  "sources": [
+    {
+      "url": "https://www.ruc.pt/sobre",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "history page: 107.9 FM, student-run"
+    },
+    {
+      "url": "https://www.ruc.pt/contactos",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacts page listed"
+    }
+  ],
+  "gaps": [
+    "no RSS feed found at /feed or link rel",
+    "contact details not read from contacts page",
+    "people not read"
+  ]
+}

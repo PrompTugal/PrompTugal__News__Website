@@ -1,0 +1,94 @@
+{
+  "id": "jornal-das-caldas",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Jornal das Caldas",
+  "names_as_listed": [
+    "Jornal das Caldas"
+  ],
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://jornaldascaldas.pt",
+  "places_covered": [
+    {
+      "place": "Caldas da Rainha",
+      "source_url": "https://jornaldascaldas.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Nazaré",
+      "source_url": "https://jornaldascaldas.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Medioeste, Lda",
+    "source_url": "https://jornaldascaldas.pt/ficha-tecnica/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://jornaldascaldas.pt/contactos/",
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://jornaldascaldas.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Clara Bernardino",
+      "role": "Diretora",
+      "beat": "editorial direction",
+      "source_url": "https://jornaldascaldas.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Francisco Gomes",
+      "role": "Chefe de Redação",
+      "beat": "newsroom",
+      "source_url": "https://jornaldascaldas.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Marlene Sousa",
+      "role": "Redação",
+      "beat": "",
+      "source_url": "https://jornaldascaldas.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Pedro Antunes",
+      "role": "Redação",
+      "beat": "",
+      "source_url": "https://jornaldascaldas.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Paulo Alexandre",
+      "role": "Redação",
+      "beat": "",
+      "source_url": "https://jornaldascaldas.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://jornaldascaldas.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica; ERC 116092"
+    },
+    {
+      "url": "https://jornaldascaldas.pt/contactos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacts page listed, not read in detail"
+    }
+  ],
+  "gaps": [
+    "contact email not read",
+    "Caldas da Rainha is in Leiria district, not the city of Leiria"
+  ]
+}

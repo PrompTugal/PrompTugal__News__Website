@@ -1,0 +1,59 @@
+{
+  "id": "mais-ribatejo",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Mais Ribatejo",
+  "names_as_listed": [
+    "Mais Ribatejo"
+  ],
+  "media_kind": "online",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://maisribatejo.pt",
+  "places_covered": [
+    {
+      "place": "Santarém",
+      "source_url": "https://maisribatejo.pt/ficha-tecnica-ribatejo/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Ribatejo",
+      "source_url": "https://maisribatejo.pt/quem-somos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Mais Ribatejo - Comunicação, Unipessoal Lda (sócio-gerente João José Martins Baptista, 100%)",
+    "source_url": "https://maisribatejo.pt/ficha-tecnica-ribatejo/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://maisribatejo.pt/contactos/",
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://maisribatejo.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "João Baptista",
+      "role": "Diretor",
+      "beat": "editorial direction",
+      "source_url": "https://maisribatejo.pt/ficha-tecnica-ribatejo/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://maisribatejo.pt/ficha-tecnica-ribatejo/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica; ERC 127328, daily"
+    }
+  ],
+  "gaps": [
+    "emails protected on page; mobile numbers published, not recorded"
+  ]
+}

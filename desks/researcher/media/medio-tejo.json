@@ -1,0 +1,76 @@
+{
+  "id": "medio-tejo",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Médio Tejo",
+  "names_as_listed": [
+    "Médio Tejo"
+  ],
+  "media_kind": "online",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://mediotejo.net",
+  "places_covered": [
+    {
+      "place": "Médio Tejo",
+      "source_url": "https://mediotejo.net/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Tomar",
+      "source_url": "https://mediotejo.net/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Abrantes",
+      "source_url": "https://mediotejo.net/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Santarém",
+      "source_url": "https://mediotejo.net/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Editora: Patrícia Antónia Lourenço Fonseca (as named on ficha técnica)",
+    "source_url": "https://mediotejo.net/ficha-tecnica/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://mediotejo.net/contactos/",
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://mediotejo.net/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Mário Rui Fonseca",
+      "role": "Diretor-Adjunto",
+      "beat": "",
+      "source_url": "https://mediotejo.net/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://mediotejo.net/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica; ERC 126721, daily; HQ Tramagal, Abrantes"
+    },
+    {
+      "url": "https://mediotejo.net/feed/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "curl"
+    }
+  ],
+  "gaps": [
+    "director name not captured in read text",
+    "emails protected on page, none recorded"
+  ]
+}

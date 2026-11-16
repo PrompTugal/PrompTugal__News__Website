@@ -1,0 +1,86 @@
+{
+  "id": "diario-as-beiras",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Diário As Beiras",
+  "names_as_listed": [
+    "Diário As Beiras"
+  ],
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://www.asbeiras.pt",
+  "places_covered": [
+    {
+      "place": "Coimbra",
+      "source_url": "https://www.asbeiras.pt/contactos/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Figueira da Foz",
+      "source_url": "https://www.asbeiras.pt/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Sojormédia Beiras, SA (100% G.W.I. - SA)",
+    "source_url": "https://www.asbeiras.pt/contactos/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.asbeiras.pt/contactos/",
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.asbeiras.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Agostinho Franklin",
+      "role": "Diretor",
+      "beat": "editorial direction",
+      "source_url": "https://www.asbeiras.pt/contactos/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Dora Loureiro",
+      "role": "Chefe de Redação",
+      "beat": "newsroom",
+      "source_url": "https://www.asbeiras.pt/contactos/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Paulo Marques",
+      "role": "Repórter Coordenador",
+      "beat": "reporting",
+      "source_url": "https://www.asbeiras.pt/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.asbeiras.pt/contactos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "masthead and contacts page"
+    },
+    {
+      "url": "https://www.asbeiras.pt/estatuto-editorial/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "editorial statute listed"
+    },
+    {
+      "url": "https://www.asbeiras.pt/feed/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "curl"
+    }
+  ],
+  "gaps": [
+    "no generic editorial email read on the page (not found in text)",
+    "places covered beyond Coimbra and Figueira da Foz not stated"
+  ]
+}

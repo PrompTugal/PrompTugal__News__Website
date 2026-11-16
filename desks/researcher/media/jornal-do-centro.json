@@ -1,0 +1,65 @@
+{
+  "id": "jornal-do-centro",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Jornal do Centro",
+  "names_as_listed": [
+    "Jornal do Centro"
+  ],
+  "media_kind": "online",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://www.jornaldocentro.pt",
+  "places_covered": [
+    {
+      "place": "Viseu",
+      "source_url": "https://www.jornaldocentro.pt/ficha_tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Região Centro",
+      "source_url": "https://www.jornaldocentro.pt/ficha_tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Legenda Transparente, Lda (100% Aroundvertice SGPS Lda)",
+    "source_url": "https://www.jornaldocentro.pt/ficha_tecnica/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.jornaldocentro.pt/contactos/",
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.jornaldocentro.pt/feed/",
+      "checked": "HTTP 200, content-type text/xml;charset=UTF-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Sandra Rodrigues",
+      "role": "Diretora de Informação",
+      "beat": "editorial direction",
+      "source_url": "https://www.jornaldocentro.pt/ficha_tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.jornaldocentro.pt/ficha_tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica"
+    },
+    {
+      "url": "https://www.jornaldocentro.pt/contactos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacts, emails protected"
+    }
+  ],
+  "gaps": [
+    "editorial email protected on page, not readable"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "diario-de-viseu",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Diário de Viseu",
+  "names_as_listed": [
+    "Diário de Viseu"
+  ],
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://www.diarioviseu.pt",
+  "places_covered": [
+    {
+      "place": "Viseu",
+      "source_url": "https://www.diarioviseu.pt/sobre/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "contact_page_url": "https://www.diarioviseu.pt/sobre/",
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.diarioviseu.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Adriano Callé Lucas",
+      "role": "Diretor",
+      "beat": "editorial direction",
+      "source_url": "https://www.diarioviseu.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Miguel Callé Lucas",
+      "role": "Diretor adjunto",
+      "beat": "",
+      "source_url": "https://www.diarioviseu.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Daniela Homem Pinto",
+      "role": "Diretora adjunta",
+      "beat": "",
+      "source_url": "https://www.diarioviseu.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Eduarda Macário",
+      "role": "Diretora adjunta executiva",
+      "beat": "edition",
+      "source_url": "https://www.diarioviseu.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Teresa Veríssimo",
+      "role": "Diretora Geral",
+      "beat": "management",
+      "source_url": "https://www.diarioviseu.pt/sobre/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.diarioviseu.pt/sobre/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica"
+    },
+    {
+      "url": "https://www.diarioviseu.pt/feed/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "curl"
+    }
+  ],
+  "gaps": [
+    "owner not stated on page",
+    "emails protected on page, none recorded"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "diario-de-coimbra",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Diário de Coimbra",
+  "names_as_listed": [
+    "Diário de Coimbra"
+  ],
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://www.diariocoimbra.pt",
+  "places_covered": [
+    {
+      "place": "Coimbra",
+      "source_url": "https://www.diariocoimbra.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Figueira da Foz",
+      "source_url": "https://www.diariocoimbra.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Cantanhede",
+      "source_url": "https://www.diariocoimbra.pt/sobre/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "contact_page_url": "https://www.diariocoimbra.pt/sobre/",
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.diariocoimbra.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Adriano Callé Lucas",
+      "role": "Diretor",
+      "beat": "editorial direction",
+      "source_url": "https://www.diariocoimbra.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Miguel Callé Lucas",
+      "role": "Diretor adjunto",
+      "beat": "editorial",
+      "source_url": "https://www.diariocoimbra.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "João Luís Campos",
+      "role": "Diretor adjunto executivo",
+      "beat": "edition",
+      "source_url": "https://www.diariocoimbra.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Teresa Veríssimo",
+      "role": "Diretora Geral",
+      "beat": "management",
+      "source_url": "https://www.diariocoimbra.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Manuela Ventura",
+      "role": "Editora Executiva",
+      "beat": "editing",
+      "source_url": "https://www.diariocoimbra.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Ana Margalho Manuel de Sousa",
+      "role": "Chefe de redação",
+      "beat": "newsroom",
+      "source_url": "https://www.diariocoimbra.pt/sobre/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.diariocoimbra.pt/sobre/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica and contacts"
+    },
+    {
+      "url": "https://www.diariocoimbra.pt/feed/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "curl"
+    }
+  ],
+  "gaps": [
+    "owner company not stated on /sobre/",
+    "email addresses are protected on the page (not readable), so none recorded",
+    "phone numbers listed on page not recorded (generic switchboard exists: see contact page)"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "o-mirante",
+  "type": "organisation",
+  "kind": "media",
+  "name": "O Mirante",
+  "names_as_listed": [
+    "O Mirante"
+  ],
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://omirante.pt",
+  "places_covered": [
+    {
+      "place": "Santarém",
+      "source_url": "https://omirante.pt/fichatecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Ribatejo",
+      "source_url": "https://omirante.pt/fichatecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Valedotejo - Comunicação Social, Lda",
+    "source_url": "https://omirante.pt/fichatecnica",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://omirante.pt/contatos",
+  "public_contact": [
+    {
+      "channel": "redaccao@omirante.pt (newsroom), omirante@omirante.pt (general), as published",
+      "source_url": "https://omirante.pt/fichatecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://rss.impresa.pt/feed/latest/mirante.rss",
+      "checked": "HTTP 200, content-type application/rss+xml; charset=utf-8 (verified with the long query-string URL served by the site's own link rel; URL given without query not verified)",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "António Palmeiro",
+      "role": "Director Editorial",
+      "beat": "editorial direction",
+      "source_url": "https://omirante.pt/fichatecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "João Calhaz",
+      "role": "Chefe de Redacção",
+      "beat": "newsroom",
+      "source_url": "https://omirante.pt/fichatecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Alberto Bastos",
+      "role": "Coordenador de Economia",
+      "beat": "economy",
+      "source_url": "https://omirante.pt/fichatecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Bernardo Emídio",
+      "role": "Coordenador Editorial",
+      "beat": "editorial",
+      "source_url": "https://omirante.pt/fichatecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Joaquim António Emídio",
+      "role": "Director Geral",
+      "beat": "management",
+      "source_url": "https://omirante.pt/fichatecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://omirante.pt/fichatecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica"
+    },
+    {
+      "url": "https://omirante.pt/contatos",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacts page"
+    }
+  ],
+  "gaps": [
+    "personal contact published, not recorded: named staff emails",
+    "feed URL: use the full URL with parameters as the site publishes it"
+  ]
+}

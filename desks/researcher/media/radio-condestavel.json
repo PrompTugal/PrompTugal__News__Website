@@ -1,0 +1,82 @@
+{
+  "id": "radio-condestavel",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Condestável",
+  "names_as_listed": [
+    "Rádio Condestável"
+  ],
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "website": "https://www.radiocondestavel.pt",
+  "places_covered": [
+    {
+      "place": "Sertã",
+      "source_url": "https://www.radiocondestavel.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Cernache do Bonjardim",
+      "source_url": "https://www.radiocondestavel.pt/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "contact_page_url": "https://www.radiocondestavel.pt/contactos/",
+  "public_contact": [
+    {
+      "channel": "geral@radiocondestavel.pt, as published",
+      "source_url": "https://www.radiocondestavel.pt/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "José Carlos Reis",
+      "role": "Diretor",
+      "beat": "editorial direction",
+      "source_url": "https://www.radiocondestavel.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Dulce Cardoso",
+      "role": "Informação",
+      "beat": "news",
+      "source_url": "https://www.radiocondestavel.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Luís Biscaia",
+      "role": "Programação",
+      "beat": "programming",
+      "source_url": "https://www.radiocondestavel.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Carlos Ribeiro",
+      "role": "Chefe de Redação",
+      "beat": "newsroom",
+      "source_url": "https://www.radiocondestavel.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.radiocondestavel.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica; ERC 423110; licence for concelho da Sertã"
+    },
+    {
+      "url": "https://www.radiocondestavel.pt/contactos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacts"
+    }
+  ],
+  "gaps": [
+    "licence holder company name truncated in read text, not recorded",
+    "no RSS feed found",
+    "Sertã lies in Castelo Branco district, not the city itself"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "o-interior",
+  "type": "organisation",
+  "kind": "media",
+  "name": "O Interior",
+  "names_as_listed": [
+    "Jornal O Interior"
+  ],
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://www.ointerior.pt",
+  "places_covered": [
+    {
+      "place": "Guarda",
+      "source_url": "https://www.ointerior.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Serra da Estrela",
+      "source_url": "https://www.ointerior.pt/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "JORINTERIOR - Jornal O Interior, Lda",
+    "source_url": "https://www.ointerior.pt/ficha-tecnica/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.ointerior.pt/contactos/",
+  "public_contact": [
+    {
+      "channel": "ointerior@ointerior.pt (general and editorial), publicidade@ointerior.pt (advertising), as published",
+      "source_url": "https://www.ointerior.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.ointerior.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Luís Baptista-Martins",
+      "role": "Diretor e Editor",
+      "beat": "editorial direction",
+      "source_url": "https://www.ointerior.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Luís Martins",
+      "role": "Chefe de Redação",
+      "beat": "newsroom",
+      "source_url": "https://www.ointerior.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Carlos Gomes",
+      "role": "Redação",
+      "beat": "",
+      "source_url": "https://www.ointerior.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Sofia Pereira",
+      "role": "Redação",
+      "beat": "",
+      "source_url": "https://www.ointerior.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.ointerior.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica"
+    },
+    {
+      "url": "https://www.ointerior.pt/contactos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacts"
+    }
+  ],
+  "gaps": [
+    "phone numbers not recorded"
+  ]
+}

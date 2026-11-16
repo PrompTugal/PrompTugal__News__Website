@@ -1,0 +1,83 @@
+{
+  "id": "jornal-torrejano",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Jornal Torrejano",
+  "names_as_listed": [
+    "Jornal Torrejano"
+  ],
+  "media_kind": "newspaper",
+  "reach": "local",
+  "language": "pt",
+  "website": "https://jornaltorrejano.pt",
+  "places_covered": [
+    {
+      "place": "Torres Novas",
+      "source_url": "https://jornaltorrejano.pt/fichatec",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Alcanena",
+      "source_url": "https://jornaltorrejano.pt/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Entroncamento",
+      "source_url": "https://jornaltorrejano.pt/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Golegã",
+      "source_url": "https://jornaltorrejano.pt/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Cooperativa Editora Jornal Torrejano, C.R.L.",
+    "source_url": "https://jornaltorrejano.pt/fichatec",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://jornaltorrejano.pt/contactos",
+  "people": [
+    {
+      "name": "Inês Vidal",
+      "role": "Directora",
+      "beat": "editorial direction",
+      "source_url": "https://jornaltorrejano.pt/fichatec",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Élio Batista",
+      "role": "Redacção",
+      "beat": "",
+      "source_url": "https://jornaltorrejano.pt/fichatec",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Luís Miguel Fanha",
+      "role": "Redacção",
+      "beat": "",
+      "source_url": "https://jornaltorrejano.pt/fichatec",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Rosa M. Oliveira",
+      "role": "Redacção",
+      "beat": "",
+      "source_url": "https://jornaltorrejano.pt/fichatec",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://jornaltorrejano.pt/fichatec",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica"
+    }
+  ],
+  "gaps": [
+    "no RSS feed found",
+    "general email truncated in read text, not recorded"
+  ]
+}

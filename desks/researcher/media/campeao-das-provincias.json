@@ -1,0 +1,67 @@
+{
+  "id": "campeao-das-provincias",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Campeão das Províncias",
+  "names_as_listed": [
+    "Campeão das Províncias"
+  ],
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://www.campeaoprovincias.pt",
+  "places_covered": [
+    {
+      "place": "Coimbra",
+      "source_url": "https://www.campeaoprovincias.pt/sobre-nos",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Aveiro (historical)",
+      "source_url": "https://www.campeaoprovincias.pt/sobre-nos",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Grupo Media Centro (as shown on site header and footer)",
+    "source_url": "https://www.campeaoprovincias.pt/contactos",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.campeaoprovincias.pt/contactos",
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.campeaoprovincias.pt/rss",
+      "checked": "HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Lino Vinhal",
+      "role": "Director",
+      "beat": "editorial direction",
+      "source_url": "https://www.campeaoprovincias.pt/sobre-nos",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.campeaoprovincias.pt/sobre-nos",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "about page"
+    },
+    {
+      "url": "https://www.campeaoprovincias.pt/contactos",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacts, email protected on page"
+    }
+  ],
+  "gaps": [
+    "generic email protected on page, not readable",
+    "legal owner company not stated beyond \"Grupo Media Centro\" branding",
+    "weekly on paper (Thursday), daily online"
+  ]
+}

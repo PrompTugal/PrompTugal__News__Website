@@ -1,0 +1,88 @@
+{
+  "id": "noticias-da-covilha",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Notícias da Covilhã",
+  "names_as_listed": [
+    "Notícias da Covilhã"
+  ],
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://noticiasdacovilha.pt",
+  "places_covered": [
+    {
+      "place": "Covilhã",
+      "source_url": "https://noticiasdacovilha.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Gold Digger, Lda.",
+    "source_url": "https://noticiasdacovilha.pt/ficha-tecnica/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://noticiasdacovilha.pt/contactos/",
+  "public_contact": [
+    {
+      "channel": "geral@noticiasdacovilha.pt and redaccao@noticiasdacovilha.pt, as published",
+      "source_url": "https://noticiasdacovilha.pt/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://noticiasdacovilha.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Francisco Figueiredo",
+      "role": "Director",
+      "beat": "editorial direction",
+      "source_url": "https://noticiasdacovilha.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Ana Ribeiro Rodrigues",
+      "role": "Coordenação",
+      "beat": "coordination",
+      "source_url": "https://noticiasdacovilha.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "João Alves",
+      "role": "Edição",
+      "beat": "editing",
+      "source_url": "https://noticiasdacovilha.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Carolina Bicho Fernandes",
+      "role": "Redação",
+      "beat": "",
+      "source_url": "https://noticiasdacovilha.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://noticiasdacovilha.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica"
+    },
+    {
+      "url": "https://noticiasdacovilha.pt/contactos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacts"
+    }
+  ],
+  "gaps": [
+    "personal-name email on contacts page not recorded (personal contact published, not recorded)"
+  ]
+}
