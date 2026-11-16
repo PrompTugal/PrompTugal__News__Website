@@ -1,0 +1,269 @@
+{
+  "$schema": "../schemas/by-place.schema.json",
+  "id": "viana-do-castelo",
+  "name": "Viana do Castelo",
+  "kind": "city",
+  "parent": "portugal",
+  "status": "live",
+  "updated": "2026-11-16",
+  "by": "place.districts@PrompTugal.dinis",
+  "mandate": "PrompTugal.news Viana do Castelo: AI and technology in Viana do Castelo, a port city whose centre of gravity is its polytechnic, a data-innovation laboratory and a new factory for data-centre equipment, and what reaches Viana do Castelo from the Alto Minho, Portugal and the world. Independent; every fact sourced.",
+  "gravity": {
+    "text": "Viana do Castelo's AI story runs on three tracks that the sources show. The council says its urban management service already uses AI to speed up building licences, with a public tool promised to residents. The Instituto Politécnico de Viana do Castelo hosts AI debates, a student AI startup that won a regional contest and Data CoLAB, a data-innovation laboratory based in the city. Heavy industry is the third track: a 50 million euro plant that makes power equipment for data centres started production at the port in 2026, though the sources we read never mention AI itself.",
+    "sources": [
+      {
+        "title": "Viana do Castelo uses AI to speed up urban planning processes (Lusa on Altominho.tv, 18 February 2026)",
+        "url": "https://www.altominho.tv/site/2026/02/18/viana-do-castelo-usa-ia-para-acelerar-processos-urbanistico/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "AI demands strategy and structural change in organisations, concludes IPVC debate (Notícias de Viana, 9 April 2026)",
+        "url": "https://noticiasdeviana.pt/inteligencia-artificial-exige-estrategia-e-mudanca-estrutural-nas-organizacoes-conclui-debate-no-ipvc/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Data CoLAB (ANI, page updated 12 December 2024)",
+        "url": "https://ani.pt/en/colab/data-colab/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "New factory for data-centre equipment began to operate in Viana do Castelo (Echo Boomer, 4 September 2026)",
+        "url": "https://echoboomer.pt/abriu-nova-fabrica-equipamentos-data-centers-viana-do-castelo/",
+        "read_on": "2026-11-16"
+      }
+    ]
+  },
+  "look": {
+    "accent": "#1F5A7A",
+    "landmark": "The Basílica de Santa Luzia on its hill above the Lima estuary",
+    "motif": "Atlantic blue, the Lima river mouth, filigree gold, a working port and a hilltop basilica"
+  },
+  "ai_news": [
+    {
+      "title": "A factory for data-centre power equipment starts production at Viana's port",
+      "summary": "Nordic Epod, a CTS Group and Eaton venture, began operating its new plant about two weeks before 4 September 2026, with two shifts. It builds large electrical units for data centres, expects about 500 jobs as it expands and has orders secured to June 2027. The article does not mention AI.",
+      "date": "2026-09-04",
+      "publisher": "Echo Boomer",
+      "url": "https://echoboomer.pt/abriu-nova-fabrica-equipamentos-data-centers-viana-do-castelo/",
+      "read_on": "2026-11-16",
+      "ai_path": "The plant makes power equipment for data centres, and data centres run AI workloads, but the source never links the two: two steps from AI.",
+      "steps": 2
+    },
+    {
+      "title": "Student AI platform K-Bridge wins the regional Poliempreende at IPVC",
+      "summary": "Three third-year business students built K-Bridge, a B2B platform that uses AI to help medium and large companies keep critical operational knowledge. It won the polytechnic's regional phase of the 22nd Poliempreende and goes to the national final in September 2026 at the University of Algarve.",
+      "date": "2026-07-24",
+      "publisher": "Altominho.tv",
+      "url": "https://www.altominho.tv/site/2026/07/24/plataforma-de-inteligencia-artificial-vence-fase-regional-do-poliempreende/",
+      "read_on": "2026-11-16",
+      "ai_path": "A student startup idea whose product is an AI platform: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "IPVC debate says the question is no longer whether to use AI",
+      "summary": "ADiT-Lab, a research unit of the polytechnic, held a free conference on 8 April 2026 called Digital Transformation: Building AI-Driven Organizations, with a keynote and a think tank. Speakers agreed the focus is now on using AI critically, responsibly and with a clear strategy.",
+      "date": "2026-04-09",
+      "publisher": "Notícias de Viana",
+      "url": "https://noticiasdeviana.pt/inteligencia-artificial-exige-estrategia-e-mudanca-estrutural-nas-organizacoes-conclui-debate-no-ipvc/",
+      "read_on": "2026-11-16",
+      "ai_path": "A conference on AI in organisations held at Viana's polytechnic: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Viana's council says AI already helps it process building licences",
+      "summary": "In February 2026 the mayor told a council meeting that urban management already uses AI to speed up licensing, and that a tool for residents starting an urban operation was due in March. He said about 50 staff handle more than 17,000 requests and that AI should help the council make fewer mistakes.",
+      "date": "2026-02-18",
+      "publisher": "Altominho.tv (Lusa)",
+      "url": "https://www.altominho.tv/site/2026/02/18/viana-do-castelo-usa-ia-para-acelerar-processos-urbanistico/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Portuguese city council using AI in its own services: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "The CTS data-centre campus starts hiring in Viana",
+      "summary": "CTS, through its NordicEPOD unit, opened recruitment for a European production campus for data-centre components, with about 500 jobs expected over the coming years. Hired staff train in Norway first and apply through the council's Work in Viana platform.",
+      "date": "2025-11-18",
+      "publisher": "Echo Boomer",
+      "url": "https://echoboomer.pt/iniciado-recrutamento-campus-europeu-viana-do-castelo/",
+      "read_on": "2026-11-16",
+      "ai_path": "A factory for data-centre components, and data centres run AI workloads, though the page does not say so: two steps from AI. Older than the 2026 items.",
+      "steps": 2
+    },
+    {
+      "title": "A small PRR project at IPVC and Data CoLAB builds a citizen-centred AI system",
+      "summary": "The national recovery-plan portal lists a project in Viana do Castelo, run by the polytechnic with Data CoLAB, that uses AI, natural language processing, generative AI and data science to build an interactive digital system. It ran from 1 May 2025 to 31 January 2026 with about 39,800 euros of funding.",
+      "date": "2025-05-01",
+      "publisher": "Transparência Portugal (PRR portal)",
+      "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/04/C05-i08.01/2024.P2024.07434.IACDC/2024",
+      "read_on": "2026-11-16",
+      "ai_path": "A publicly funded project built on AI and generative AI, carried out in Viana: directly about AI. The date is the project start because the page shows no publication date, and the page showed a data-loading error, so figures may be incomplete.",
+      "steps": 0
+    }
+  ],
+  "sources": [
+    {
+      "name": "Câmara Municipal de Viana do Castelo: news",
+      "url": "https://www.cm-viana-castelo.pt/areas-de-atividade/comunicacao/noticias",
+      "kind": "council",
+      "feed": "https://www.cm-viana-castelo.pt/rss-feed"
+    },
+    {
+      "name": "Câmara Municipal de Viana do Castelo: agenda",
+      "url": "https://www.cm-viana-castelo.pt/areas-de-atividade/comunicacao/agenda-de-eventos",
+      "kind": "events",
+      "feed": null
+    },
+    {
+      "name": "Instituto Politécnico de Viana do Castelo (IPVC)",
+      "url": "https://www.ipvc.pt",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "Notícias de Viana",
+      "url": "https://noticiasdeviana.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Viana TV",
+      "url": "https://vianatv.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Altominho.tv (carries Lusa wire copy)",
+      "url": "https://www.altominho.tv",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Data CoLAB at ANI",
+      "url": "https://ani.pt/en/colab/data-colab/",
+      "kind": "other",
+      "feed": null
+    },
+    {
+      "name": "Transparência Portugal: PRR projects",
+      "url": "https://transparencia.gov.pt/en/fundos-europeus/prr/",
+      "kind": "other",
+      "feed": null
+    }
+  ],
+  "events": [],
+  "ai_map": [
+    {
+      "name": "Instituto Politécnico de Viana do Castelo (IPVC)",
+      "type": "institution",
+      "url": "https://www.ipvc.pt",
+      "what": "The city's public polytechnic. Its research unit ADiT-Lab held an AI conference on 8 April 2026, a student team from its business school won the regional Poliempreende with an AI platform, and it ran a PRR-funded AI project with Data CoLAB. A news item says it becomes Universidade Politécnica de Viana do Castelo on 1 August 2026, which we could not check on the institution's own site.",
+      "source_url": "https://www.altominho.tv/site/2026/07/24/plataforma-de-inteligencia-artificial-vence-fase-regional-do-poliempreende/",
+      "read_on": "2026-11-16",
+      "ai_path": "Teaches, researches and hosts debate on AI.",
+      "steps": 0
+    },
+    {
+      "name": "ADiT-Lab (IPVC research unit)",
+      "type": "institution",
+      "url": "https://vianatv.pt/especialistas-nacionais-e-internacionais-debatem-transformacao-digital-e-inteligencia-artificial-no-ipvc/",
+      "what": "IPVC research unit that organised the 8 April 2026 conference on AI-driven organisations, with the PAT.Tech II project.",
+      "source_url": "https://vianatv.pt/especialistas-nacionais-e-internacionais-debatem-transformacao-digital-e-inteligencia-artificial-no-ipvc/",
+      "read_on": "2026-11-16",
+      "ai_path": "Convenes academia and industry on AI in organisations.",
+      "steps": 0
+    },
+    {
+      "name": "PAT.Tech II (IPVC technology transfer project)",
+      "type": "organisation",
+      "url": "https://noticiasdeviana.pt/inteligencia-artificial-exige-estrategia-e-mudanca-estrutural-nas-organizacoes-conclui-debate-no-ipvc/",
+      "what": "Project that moves academic knowledge to businesses, named as a partner of the April 2026 AI conference.",
+      "source_url": "https://noticiasdeviana.pt/inteligencia-artificial-exige-estrategia-e-mudanca-estrutural-nas-organizacoes-conclui-debate-no-ipvc/",
+      "read_on": "2026-11-16",
+      "ai_path": "Backed an AI conference and moves research to firms: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "Data CoLAB (LCSD, Associação Data Colab)",
+      "type": "organisation",
+      "url": "https://ani.pt/en/colab/data-colab/",
+      "what": "Collaborative laboratory for data-driven innovation services, with an address in Viana do Castelo. Beneficiary with IPVC of a PRR project that used AI and generative AI. Its ANI page itself does not mention AI.",
+      "source_url": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/04/C05-i08.01/2024.P2024.07434.IACDC/2024",
+      "read_on": "2026-11-16",
+      "ai_path": "A data and analytics laboratory that took part in an AI project: one step from AI.",
+      "steps": 1
+    },
+    {
+      "name": "Câmara Municipal de Viana do Castelo",
+      "type": "public body",
+      "url": "https://www.cm-viana-castelo.pt",
+      "what": "The council says its urban management service uses AI to speed up building licences, with a tool for residents announced for March 2026. We could not confirm that the public tool launched.",
+      "source_url": "https://www.altominho.tv/site/2026/02/18/viana-do-castelo-usa-ia-para-acelerar-processos-urbanistico/",
+      "read_on": "2026-11-16",
+      "ai_path": "Uses AI in its own licensing service.",
+      "steps": 0
+    },
+    {
+      "name": "K-Bridge (student startup project)",
+      "type": "startup",
+      "url": "https://www.altominho.tv/site/2026/07/24/plataforma-de-inteligencia-artificial-vence-fase-regional-do-poliempreende/",
+      "what": "AI platform from three IPVC business students to help companies retain operational knowledge. A contest entry, with no company or funding stated.",
+      "source_url": "https://www.altominho.tv/site/2026/07/24/plataforma-de-inteligencia-artificial-vence-fase-regional-do-poliempreende/",
+      "read_on": "2026-11-16",
+      "ai_path": "The product is an AI platform.",
+      "steps": 0
+    },
+    {
+      "name": "Nordic Epod (CTS Group and Eaton)",
+      "type": "company",
+      "url": "https://echoboomer.pt/abriu-nova-fabrica-equipamentos-data-centers-viana-do-castelo/",
+      "what": "Joint venture whose Viana plant makes power equipment for data centres. It began operating in late August 2026, exports about 90 percent and expects about 500 jobs. The sources we read do not mention AI.",
+      "source_url": "https://echoboomer.pt/abriu-nova-fabrica-equipamentos-data-centers-viana-do-castelo/",
+      "read_on": "2026-11-16",
+      "ai_path": "Supplies data centres, which run AI workloads, though no source says so here.",
+      "steps": 2
+    },
+    {
+      "name": "In.Cubo",
+      "type": "organisation",
+      "url": "https://www.altominho.tv/site/2026/07/24/plataforma-de-inteligencia-artificial-vence-fase-regional-do-poliempreende/",
+      "what": "Named in the source only as the home of a jury member at the July 2026 Poliempreende regional phase where an AI project won. We did not read its own pages.",
+      "source_url": "https://www.altominho.tv/site/2026/07/24/plataforma-de-inteligencia-artificial-vence-fase-regional-do-poliempreende/",
+      "read_on": "2026-11-16",
+      "ai_path": "Judged an entrepreneurship contest that an AI startup idea won.",
+      "steps": 2
+    }
+  ],
+  "extras": [],
+  "identity": {
+    "key_id": "site.viana-do-castelo-promptugal",
+    "signed_by": "place.districts@PrompTugal.dinis"
+  },
+  "gaps": [
+    "ipvc.pt answered 503 to every page we tried, so the polytechnic's own news, its AI microcredential course, its November 2026 events and its renaming are reached only through regional press and search snippets. We should reread ipvc.pt when it is back.",
+    "We found no AI event with a confirmed 2026 date in Viana. The council agenda for November lists no technology or AI event, and listings that surfaced (a vibe coding workshop in Portugal Tech Week, an AI talk at a school anniversary) were undated or hosted on sites we do not read.",
+    "The council's public AI licensing tool was promised for March 2026, and we could not confirm that it launched. Its 2026 activity plan PDF was too large for us to open, so the AI lines about it are known only from press reports and search results. Sources to look for: the council's urban planning pages and its news feed.",
+    "We found no AI startup or company based in Viana beyond a student project. VianaStarts, the council's science, technology and arts centre, and In.Cubo, the Alto Minho incubator, belong on the map once a page we can open shows AI work. The VianaStarts page we read does not mention AI.",
+    "Nordic Epod's plant is placed at two steps from AI only because it supplies data centres. No page we read says its equipment serves AI workloads.",
+    "Data CoLAB's own ANI page does not mention AI. Its AI link is the PRR project, and that page showed a data-loading error. We did not reach the laboratory's own website.",
+    "The council's contacts page lists no economic development desk, so none is listed. Its Investir section links business parks and financing, which we did not read.",
+    "No investors, funds or investments in Viana AI companies were found. Sources to look for: Portugal Ventures and Banco de Fomento notices, and ADRIMINHO.",
+    "Local talent is not filled: nobody has agreed to be listed here.",
+    "Press not reached: Diário do Minho and Rádio Geice were not opened, and no RSS feed was found for the regional sites other than the council's footer link, which we saw but did not fetch."
+  ],
+  "voice": {
+    "lede": "Viana do Castelo, ai Jesus: a basilica on the hill, a river that cannot decide where to stop, and a council that quietly teaches a computer to read licences while the whole town is watching the port.",
+    "mandate": "PrompTugal.news Viana do Castelo, a Princesa do Lima: AI and tech in Viana, with the Politécnico and Data CoLAB as the clever heads and a shiny new factory humming for the data centres, plus whatever news sails in from the Alto Minho, Portugal and the world. Independente, and every fact comes with a receipt.",
+    "gravity": "Viana is a city of three tricks. The Câmara says AI already helps with building licences, the Politécnico debates it, teaches it and sends a student AI idea off to a national final, and down at the port a plant for data-centre equipment started its shifts. Bonito, pá. We only wish the factory's papers said something about AI.",
+    "gaps_intro": "Ainda há muito por saber, minha gente. Here is what Viana has not told us yet:"
+  },
+  "contacts": [
+    {
+      "name": "Câmara Municipal de Viana do Castelo, general",
+      "what": "The council's published general email, on its Contactos page. No economic development desk or business contact form was found there.",
+      "url": "https://www.cm-viana-castelo.pt/balcao-online/contactos-e-horarios-de-atendimento",
+      "source_url": "https://www.cm-viana-castelo.pt/balcao-online/contactos-e-horarios-de-atendimento",
+      "read_on": "2026-11-16",
+      "channel": "the council's general email, published on its Contactos e horários de atendimento page (open the linked page for the address)"
+    }
+  ]
+}

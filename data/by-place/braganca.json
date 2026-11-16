@@ -1,0 +1,319 @@
+{
+  "$schema": "../schemas/by-place.schema.json",
+  "id": "braganca",
+  "name": "Bragança",
+  "kind": "city",
+  "parent": "portugal",
+  "status": "live",
+  "updated": "2026-11-16",
+  "by": "place.districts@PrompTugal.dinis",
+  "mandate": "PrompTugal.news Bragança: AI and technology in Bragança, a northeastern district capital whose centre of gravity is its polytechnic and its science park, Brigantia EcoPark, and what reaches Bragança from Portugal, Europe and the world. Independent; every fact sourced.",
+  "gravity": {
+    "text": "Bragança's AI activity sits around two neighbours: the polytechnic (the IPB, which its new website now calls Universidade Politécnica de Bragança, and which the government is turning into the Universidade de Bragança e do Norte Interior) and Brigantia EcoPark, the science and technology hub that houses the MORE CoLAB research lab. The research centre CeDRI, the AI courses and seminars, and the April 2026 session on the BSC AI Factory all come from that pair, with the council as a supporter. The council's own news page shows no AI items, so research and the park, not city hall, are the centre of gravity.",
+    "sources": [
+      {
+        "title": "Bragança hosts a presentation session of the BSC AI Factory (FCCN, April 2026)",
+        "url": "https://www.fccn.pt/en/?p=45344",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "The first BIP on Generative AI in Higher Education gathers over thirty people at the IPB (IPB, 18 July 2026)",
+        "url": "https://estig.unipb.pt/ipbnews/328/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Brigantia EcoPark, IASP directory entry",
+        "url": "https://www.iasp.ws/our-members/directory/@473122/brigantia-ecopark",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Prime Minister launches the process to create the Universidade de Bragança e do Norte Interior (Government of Portugal, 9 September 2026)",
+        "url": "https://portugal.gov.pt/gc25/comunicacao/noticias/decisao-estrategica-para-o-pais-primeiro-ministro-lanca-processo-de-criacao-da-universidade-de-braganca-e-do-norte-interior",
+        "read_on": "2026-11-16"
+      }
+    ]
+  },
+  "look": {
+    "accent": "#7A3E12",
+    "landmark": "The castle keep and the Domus Municipalis, the pentagonal medieval building in the old citadel",
+    "motif": "Granite walls, chestnut woods and chestnut brown, a mountain city at the far northeast of Portugal"
+  },
+  "ai_news": [
+    {
+      "title": "Bragança's economy week hears that AI will change skills, not just headcount",
+      "summary": "At the opening of Bragança's economy and innovation week, an executive of the IT services firm Inetum, which has a service centre in the city, said AI will change which skills employers need and that its main risk is people stopping to think critically. The mayor reported export growth and the science park's director linked skilled jobs to business innovation.",
+      "date": "2026-10-28",
+      "publisher": "Jornal Nordeste",
+      "url": "https://jornalnordeste.com/noticias/emprego-qualificado-e-um-dos-desafios-da-economia-de-braganca",
+      "read_on": "2026-11-16",
+      "ai_path": "A local economy event where a Bragança IT employer discusses what AI means for work: directly about AI in one passage, one step from the city's economy.",
+      "steps": 1
+    },
+    {
+      "title": "Government starts the Universidade de Bragança e do Norte Interior, and names AI a science priority",
+      "summary": "The Council of Ministers met in Bragança on 9 September 2026 and took the next step towards turning the polytechnic into a university. The same meeting approved a new science and innovation system framework that names AI a strategic priority. The page gives no budget for the university.",
+      "date": "2026-09-09",
+      "publisher": "Government of Portugal",
+      "url": "https://portugal.gov.pt/gc25/comunicacao/noticias/decisao-estrategica-para-o-pais-primeiro-ministro-lanca-processo-de-criacao-da-universidade-de-braganca-e-do-norte-interior",
+      "read_on": "2026-11-16",
+      "ai_path": "A Bragança institution that hosts AI research becomes a university, in the same decision package as a national science framework that makes AI a priority: two steps from AI.",
+      "steps": 2
+    },
+    {
+      "title": "Bragança Polytechnic hosts a European week on generative AI in higher education",
+      "summary": "The first Blended Intensive Programme on the subject, coordinated by the polytechnic with partners in Sweden, Germany, France, Spain and Kosovo, held its in-person week in Bragança from 13 to 17 July with more than 30 participants. The focus was on ethics and on using generative AI in teaching, research and management.",
+      "date": "2026-07-18",
+      "publisher": "Instituto Politécnico de Bragança",
+      "url": "https://estig.unipb.pt/ipbnews/328/",
+      "read_on": "2026-11-16",
+      "ai_path": "A European course on generative AI, led and hosted by Bragança's polytechnic: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Bragança students and staff get a spring of AI seminars at ESTiG",
+      "summary": "The business school's International Business Management degree ran an IBM Seminars 2026 cycle with sessions on AI across the research process (8 May) and on turning market data into strategy with AI-assisted analysis (20 May), in Room 106 of the Santa Apolónia campus.",
+      "date": "2026-05-08",
+      "publisher": "ESTiG, Instituto Politécnico de Bragança",
+      "url": "https://estig.unipb.pt/en/events/37/",
+      "read_on": "2026-11-16",
+      "ai_path": "A university seminar cycle on using AI in research and business, held in Bragança: directly about AI. The date is the first session shown, because the page is an event listing.",
+      "steps": 0
+    },
+    {
+      "title": "BSC AI Factory comes to Brigantia EcoPark",
+      "summary": "On 10 April 2026 a session at the science park showed local companies and institutions how to reach the Deucalion and MareNostrum 5 supercomputers and the AI Factory's incubation programmes. FCT, through its digital services unit FCCN, promoted it, with the Bragança council's support.",
+      "date": "2026-04-10",
+      "publisher": "FCCN (Fundação para a Ciência e a Tecnologia)",
+      "url": "https://www.fccn.pt/en/?p=45344",
+      "read_on": "2026-11-16",
+      "ai_path": "A session on European AI computing and AI incubation, held in Bragança: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Inetum's chief says AI is shrinking project teams, including in Bragança's service centre network",
+      "summary": "In an interview, the head of Inetum's Portuguese arm said the company now counts on AI tools when sizing projects, so teams shrink, while insisting it has not replaced people with AI. Bragança is one of its four service centres, kept for the link with universities more than for price.",
+      "date": "2025-09-16",
+      "publisher": "ECO",
+      "url": "https://eco.sapo.pt/entrevista/tecnologica-inetum-vai-comprar-empresa-em-portugal-e-contratar-mais-200-pessoas-ate-ao-fim-do-ano/",
+      "read_on": "2026-11-16",
+      "ai_path": "AI changing the staffing of an IT firm that has a centre in Bragança: one step from AI. Older than the 2026 items and about the company as a whole.",
+      "steps": 1
+    }
+  ],
+  "sources": [
+    {
+      "name": "Câmara Municipal de Bragança",
+      "url": "https://www.cm-braganca.pt",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Jornal Nordeste",
+      "url": "https://jornalnordeste.com",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Canal N",
+      "url": "https://www.canaln.tv",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Universidade Politécnica de Bragança (formerly Instituto Politécnico de Bragança)",
+      "url": "https://unipb.pt",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "ESTiG events and news",
+      "url": "https://estig.unipb.pt/en/events/37/",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "MORE CoLAB",
+      "url": "https://morecolab.pt/en/about/",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "Brigantia EcoPark",
+      "url": "https://brigantia-ecopark.pt",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "FCCN news",
+      "url": "https://www.fccn.pt/en/",
+      "kind": "other",
+      "feed": null
+    }
+  ],
+  "events": [
+    {
+      "title": "Semana da Oliveira e do Azeite (Câmara Municipal de Bragança)",
+      "date": "2026-11-18 to 2026-11-26",
+      "url": "https://www.cm-braganca.pt/transparencia/comunicacao/agenda-e-eventos/todos-os-eventos/evento/semana-da-oliveira-e-do-azeite-18-a-26-de-novembro",
+      "read_on": "2026-11-16",
+      "ai_path": null
+    },
+    {
+      "title": "Cinema Digital, November 2026 (Câmara Municipal de Bragança)",
+      "date": "2026-11-01 to 2026-11-30",
+      "url": "https://www.cm-braganca.pt/transparencia/comunicacao/agenda-e-eventos/todos-os-eventos/evento/cinema-digital-novembro-2026",
+      "read_on": "2026-11-16",
+      "ai_path": null
+    },
+    {
+      "title": "Fábrica de IA BSC: A Inteligência Artificial ao serviço da inovação (Brigantia EcoPark, already held)",
+      "date": "2026-04-10",
+      "url": "https://www.fccn.pt/en/?p=45344",
+      "read_on": "2026-11-16",
+      "ai_path": "A session on European AI computing and incubation: directly about AI."
+    }
+  ],
+  "ai_map": [
+    {
+      "name": "Instituto Politécnico de Bragança (IPB), now styled Universidade Politécnica de Bragança",
+      "type": "institution",
+      "url": "https://unipb.pt",
+      "what": "The city's public higher-education institution. Coordinated the 2026 European programme on generative AI in higher education, and the government started a process in September 2026 to make it the Universidade de Bragança e do Norte Interior.",
+      "source_url": "https://estig.unipb.pt/ipbnews/328/",
+      "read_on": "2026-11-16",
+      "ai_path": "Teaches, researches and hosts AI programmes.",
+      "steps": 0
+    },
+    {
+      "name": "CeDRI (Centro de Investigação em Digitalização e Robótica Inteligente, IPB)",
+      "type": "institution",
+      "url": "https://cedri.ipb.pt/research-innovation/projects/consortium",
+      "what": "The polytechnic's research centre. Its project list includes a digital-twin and AI fault-detection system for motors (2024 to 2026), the Erasmus+ Digital Horizons project on digital technologies and AI in schools (December 2025 to November 2027) and the iMath maths-learning tool (2022 to 2024). A 474,097.74 euro PRR equipment grant ended 30 June 2026, with expected results including smart industrial applications.",
+      "source_url": "https://cedri.ipb.pt/research-innovation/projects/consortium",
+      "read_on": "2026-11-16",
+      "ai_path": "Runs AI research projects.",
+      "steps": 0
+    },
+    {
+      "name": "ESTiG (Escola Superior de Tecnologia e Gestão, IPB)",
+      "type": "institution",
+      "url": "https://estig.unipb.pt/en/events/37/",
+      "what": "The polytechnic's technology and management school, which ran the IBM Seminars 2026 on AI in research and business at the Santa Apolónia campus.",
+      "source_url": "https://estig.unipb.pt/en/events/37/",
+      "read_on": "2026-11-16",
+      "ai_path": "Hosts AI teaching and seminars.",
+      "steps": 0
+    },
+    {
+      "name": "MORE CoLAB (Laboratório Colaborativo Montanhas de Investigação)",
+      "type": "organisation",
+      "url": "https://morecolab.pt/en/about/",
+      "what": "A private non-profit collaborative laboratory recognised by FCT since 2018, headquartered at Brigantia EcoPark. Its members include the polytechnic and companies. Led the iSafety project, a machine-learning tool for predicting workplace accidents in retail, and presented the AI4PA hub in Bragança on 10 April 2026.",
+      "source_url": "https://morecolab.pt/en/project-isafety/",
+      "read_on": "2026-11-16",
+      "ai_path": "Builds AI and data-science applications with business and the polytechnic.",
+      "steps": 0
+    },
+    {
+      "name": "AI4PA Portugal EDIH",
+      "type": "organisation",
+      "url": "https://indico.fccn.pt/event/62/contributions/1279/attachments/802/1494/Apresenta%C3%A7%C3%A3o-AI4PA-FabricaIA-10-04-2026.pdf",
+      "what": "A European Digital Innovation Hub that helps public administration and SMEs adopt AI and data science, with testing, training, networking and funding advice. The slides presented in Bragança do not say where the hub itself is based.",
+      "source_url": "https://indico.fccn.pt/event/62/contributions/1279/attachments/802/1494/Apresenta%C3%A7%C3%A3o-AI4PA-FabricaIA-10-04-2026.pdf",
+      "read_on": "2026-11-16",
+      "ai_path": "Offers AI adoption services, presented in Bragança.",
+      "steps": 1
+    },
+    {
+      "name": "Brigantia EcoPark",
+      "type": "organisation",
+      "url": "https://www.iasp.ws/our-members/directory/@473122/brigantia-ecopark",
+      "what": "A science and technology hub run by a private non-profit company, with incubator space, laboratories and coworking. The directory lists 42 companies and close to 200 people, with energy, environment and eco-construction as main sectors. Hosted the BSC AI Factory session.",
+      "source_url": "https://www.iasp.ws/our-members/directory/@473122/brigantia-ecopark",
+      "read_on": "2026-11-16",
+      "ai_path": "Hosts AI research and events and incubates startups.",
+      "steps": 1
+    },
+    {
+      "name": "Câmara Municipal de Bragança",
+      "type": "public body",
+      "url": "https://www.cm-braganca.pt",
+      "what": "Supported the BSC AI Factory session through its Bragança Inovadora project. Its news page and agenda show no AI items, and it publishes an app and a geoportal with no AI use stated.",
+      "source_url": "https://www.canaln.tv/workshop-sobre-inteligencia-artificial-aproxima-empresas-e-tecnologia-no-brigantia-ecopark/",
+      "read_on": "2026-11-16",
+      "ai_path": "Backs AI events, with no AI use in its own services found.",
+      "steps": 1
+    },
+    {
+      "name": "FCT and FCCN",
+      "type": "public body",
+      "url": "https://www.fccn.pt/en/",
+      "what": "National science funder and its digital services unit, which promoted the BSC AI Factory session in Bragança as part of Portugal's part in a European initiative. National bodies, not based in the city.",
+      "source_url": "https://www.fccn.pt/en/?p=45344",
+      "read_on": "2026-11-16",
+      "ai_path": "Brings access to European AI computing to Bragança.",
+      "steps": 1
+    },
+    {
+      "name": "Inetum",
+      "type": "company",
+      "url": "https://eco.sapo.pt/entrevista/tecnologica-inetum-vai-comprar-empresa-em-portugal-e-contratar-mais-200-pessoas-ate-ao-fim-do-ano/",
+      "what": "IT services group with a service centre in Bragança, which grew from nine workers to more than 40 according to a local report. Its Portuguese chief says AI tools now shrink project teams.",
+      "source_url": "https://jornalnordeste.com/noticias/emprego-qualificado-e-um-dos-desafios-da-economia-de-braganca",
+      "read_on": "2026-11-16",
+      "ai_path": "An IT employer in the city adopting AI in how it works.",
+      "steps": 1
+    }
+  ],
+  "extras": [],
+  "identity": {
+    "key_id": "site.braganca-promptugal",
+    "signed_by": "place.districts@PrompTugal.dinis"
+  },
+  "gaps": [
+    "No AI news from the council itself: its news page and agenda showed none on 16 November 2026. We should look for council minutes, procurement notices on base.gov.pt and the Bragança Inovadora project pages.",
+    "No feeds found for any source. Jornal Nordeste, Canal N, the polytechnic, MORE CoLAB and the council show none in what we read, and brigantia-ecopark.pt and the FCCN page on the second AI Factory session (answering 503) did not load.",
+    "Missing: Rádio Brigantia, Mensageiro de Bragança and Mirante, which search did not surface. Local press beyond Jornal Nordeste is thin here.",
+    "Startups: we found no named AI startup in Brigantia EcoPark. Its company directory and the Empowered Startups incubator partnership need a source we can open.",
+    "Investors: none found. Sources to look for are Portugal Ventures and Banco de Fomento notices and company announcements.",
+    "The polytechnic's new name is uncertain: its website says Universidade Politécnica de Bragança while the government talks of a future Universidade de Bragança e do Norte Interior. Its CeDRI funding sheet still says Instituto Politécnico de Bragança. We use both names until a primary page settles it.",
+    "Not read: the CeDRI PRR sheet text beyond what we could extract, the 2025 AI and courts conference at the national legal innovation centre in Bragança (no 2026 edition found), and the IBM Seminars events other than numbers 37 and 45.",
+    "No upcoming AI event found in Bragança after 16 November 2026. The only events listed are the council's olive week and a digital cinema month.",
+    "Local talent and contacts: no public body page we read lists a person to show, so none are listed."
+  ],
+  "voice": {
+    "lede": "Bragança, ó pá: where the keep stands guard over the chestnuts, the winters bite and the polytechnic quietly teaches the whole north to talk to machines, while the science park keeps a supercomputer on speed dial.",
+    "mandate": "PrompTugal.news Bragança, a nossa terra do frio e do castelo: AI and tech in Bragança, with the polytechnic and Brigantia EcoPark as the big brains, plus whatever news arrives from Portugal, Europe and the world. Independente, and every fact comes with a receipt.",
+    "gravity": "Bragança is where a medieval citadel and a European AI computing session share a postcode. The polytechnic and its research centre do the heavy thinking, the park keeps the lights on for MORE CoLAB, and the Câmara, bless it, cheers from the front row. Research and the park, sim senhor, not city hall.",
+    "gaps_intro": "Ainda há muito por saber, pá. Here is what Bragança has not told us yet:"
+  },
+  "start_company": [
+    {
+      "name": "Brigantia EcoPark",
+      "what": "Science and technology hub with incubator space, laboratories and coworking, run by a private non-profit company. The pages we read name no application route or price.",
+      "url": "https://www.iasp.ws/our-members/directory/@473122/brigantia-ecopark",
+      "source_url": "https://www.iasp.ws/our-members/directory/@473122/brigantia-ecopark",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "AI4PA Portugal EDIH",
+      "what": "Offers testing, training, networking and funding advice for public bodies and SMEs adopting AI, with a discount on contracted services under the project.",
+      "url": "https://indico.fccn.pt/event/62/contributions/1279/attachments/802/1494/Apresenta%C3%A7%C3%A3o-AI4PA-FabricaIA-10-04-2026.pdf",
+      "source_url": "https://indico.fccn.pt/event/62/contributions/1279/attachments/802/1494/Apresenta%C3%A7%C3%A3o-AI4PA-FabricaIA-10-04-2026.pdf",
+      "read_on": "2026-11-16",
+      "kind": "mentoring"
+    }
+  ],
+  "investors": [],
+  "contacts": [
+    {
+      "name": "Câmara Municipal de Bragança, general",
+      "what": "The council's published general contact, on its Contactos page.",
+      "url": "https://www.cm-braganca.pt/municipio/contactos",
+      "source_url": "https://www.cm-braganca.pt/municipio/contactos",
+      "read_on": "2026-11-16",
+      "channel": "the council's general email and phone, published on its Contactos page (open the linked page for them)"
+    }
+  ]
+}

@@ -277,6 +277,45 @@
         41.301
       ],
       "label": "e"
+    },
+    {
+      "id": "aveiro",
+      "name": "Aveiro",
+      "kind": "city",
+      "parent": "portugal",
+      "path": "portugal/aveiro/",
+      "agent": "place.districts@PrompTugal.dinis",
+      "at": [
+        -8.654,
+        40.64
+      ],
+      "label": "w"
+    },
+    {
+      "id": "braganca",
+      "name": "Bragança",
+      "kind": "city",
+      "parent": "portugal",
+      "path": "portugal/braganca/",
+      "agent": "place.districts@PrompTugal.dinis",
+      "at": [
+        -6.757,
+        41.806
+      ],
+      "label": "e"
+    },
+    {
+      "id": "viana-do-castelo",
+      "name": "Viana do Castelo",
+      "kind": "city",
+      "parent": "portugal",
+      "path": "portugal/viana-do-castelo/",
+      "agent": "place.districts@PrompTugal.dinis",
+      "at": [
+        -8.832,
+        41.693
+      ],
+      "label": "w"
     }
   ],
   "copy": {

@@ -1,0 +1,429 @@
+{
+  "$schema": "../schemas/by-place.schema.json",
+  "id": "aveiro",
+  "name": "Aveiro",
+  "kind": "city",
+  "parent": "portugal",
+  "status": "live",
+  "updated": "2026-11-16",
+  "by": "place.districts@PrompTugal.dinis",
+  "mandate": "PrompTugal.news Aveiro: AI and technology in Aveiro, a university and telecoms city whose centre of gravity is the Universidade de Aveiro, the Instituto de Telecomunicações and the council's Aveiro Tech City push, and what reaches Aveiro from Portugal, Brazil and the world. Independent; every fact sourced.",
+  "gravity": {
+    "text": "Aveiro's AI activity sits around the Universidade de Aveiro: a published framework for AI in teaching and assessment, free AI tools for its whole community, a national AI summer school and research units such as IEETA and the Instituto de Telecomunicações. The council adds a second pillar through Aveiro Tech Week, which in 2026 names AI as a main theme, and a third through the Cais do Porto hub, where Brazilian startups with AI products set up in the city. A technology free zone led by the university lists AI among its priority technologies.",
+    "sources": [
+      {
+        "title": "Aveiro Tech Week returns with AI and cybersecurity as beacons (Diário de Aveiro, 15 November 2026)",
+        "url": "https://www.diarioaveiro.pt/2026/11/15/aveiro-tech-week-regressa-com-ia-e-ciberseguranca-como-farois/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "University of Aveiro approves a framework for AI (Observador, 24 July 2026)",
+        "url": "https://observador.pt/2026/07/24/universidade-de-aveiro-aprova-referencial-para-uso-da-inteligencia-artificial/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Ten more Brazilian tech firms arrive at Cais do Porto in Aveiro (DN Brasil, 22 June 2026)",
+        "url": "https://dnbrasil.dn.pt/negcios-br/mais-dez-empresas-de-tecnologia-brasileiras-chegam-ao-cais-do-porto-em-aveiro",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Creation of the Aveiro technology free zone (Cuatrecasas, 31 March 2025)",
+        "url": "https://www.cuatrecasas.com/pt/portugal/energia-infraestrutura/art/criacao-da-zlt-de-aveiro-1",
+        "read_on": "2026-11-16"
+      }
+    ]
+  },
+  "look": {
+    "accent": "#0F6E6E",
+    "landmark": "The central canal and its painted moliceiro boats",
+    "motif": "Salt-pan light, striped beach houses on the lagoon coast, a canal city with a university and a telecoms lab"
+  },
+  "ai_news": [
+    {
+      "title": "Aveiro Tech Week opens with AI as a main theme",
+      "summary": "The council's seventh Tech Week runs from 16 to 22 November 2026 at the Parque de Exposições, with 28 speakers, AI and cybersecurity as lead topics, a public-friendly AI session, and Altice Labs and Sky as sponsors. The Zona Livre Tecnológica de Aveiro shows its first demonstrations on the Friday.",
+      "date": "2026-11-15",
+      "publisher": "Diário de Aveiro",
+      "url": "https://www.diarioaveiro.pt/2026/11/15/aveiro-tech-week-regressa-com-ia-e-ciberseguranca-como-farois/",
+      "read_on": "2026-11-16",
+      "ai_path": "A city-run technology week that names AI a main theme, held in Aveiro: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Brazil and Portugal talk AI and business at Aveiro Tech Week",
+      "summary": "A free Brazil day on 17 November 2026 brings a roundtable on innovation environments and AI, demos by 22 startups from Cais do Porto, and training on AI and AI literacy including a course for teachers.",
+      "date": "2026-11-03",
+      "publisher": "DN Brasil",
+      "url": "https://dnbrasil.dn.pt/negcios-br/brasil-e-portugal-discutem-inteligncia-artificial-e-negcios-na-aveiro-tech-week",
+      "read_on": "2026-11-16",
+      "ai_path": "A cross-border day in Aveiro with an AI roundtable, AI training and startup demos: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "University of Aveiro approves a framework for assessment in the age of AI",
+      "summary": "The framework guides teachers on when and how to use AI, rejects bans and AI detectors in favour of transparent use tied to the skills assessed, and points to a 120-teacher community of practice and AcademIA UA workshops. The university's own regulation gives it as Despacho n.º 65-REIT/2026.",
+      "date": "2026-07-24",
+      "publisher": "Observador",
+      "url": "https://observador.pt/2026/07/24/universidade-de-aveiro-aprova-referencial-para-uso-da-inteligencia-artificial/",
+      "read_on": "2026-11-16",
+      "ai_path": "The Aveiro university sets its own rules for AI in teaching: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Ten more Brazilian firms join Cais do Porto in Aveiro, four of them with AI products",
+      "summary": "The June 2026 batch includes Madrix (custom corporate apps built with AI), Sião (AI and data protection for notary offices), Stepps (AI video analysis for industrial cameras) and Sherlock (data analysis and AI for public-sector investigations). The article does not mention AI for the other five.",
+      "date": "2026-06-22",
+      "publisher": "DN Brasil",
+      "url": "https://dnbrasil.dn.pt/negcios-br/mais-dez-empresas-de-tecnologia-brasileiras-chegam-ao-cais-do-porto-em-aveiro",
+      "read_on": "2026-11-16",
+      "ai_path": "A startup hub in Aveiro taking in firms whose products use AI: directly about AI for four of them.",
+      "steps": 0
+    },
+    {
+      "title": "University of Aveiro's science park runs an accelerator for AI in tourism",
+      "summary": "The Parque de Ciência e Inovação ran the Rocket Booster Acceleration call with startUP23 and Turismo de Portugal, open to startups with AI solutions for tourism, smart destinations or mobility. The page's own status line says applications closed while its body still reads as open, so the deadline is unclear.",
+      "date": "2026-03-25",
+      "publisher": "Turismo de Portugal",
+      "url": "https://business.turismodeportugal.pt/pt/inovar/fit/candidaturas-programas-inovacao/Paginas/rocket-booster-acceleration-candidaturas-31-mar-2026.aspx",
+      "read_on": "2026-11-16",
+      "ai_path": "An accelerator at Aveiro's science park that selects startups applying AI to tourism: one step from AI.",
+      "steps": 1
+    },
+    {
+      "title": "University of Aveiro gives its whole community free access to AI models",
+      "summary": "Through the IAEdu platform with FCCN, students, teachers, researchers and staff can build and share their own AI agents, with models from several providers listed in the article and free API access to one older model.",
+      "date": "2026-01-28",
+      "publisher": "Diário de Aveiro",
+      "url": "https://www.diarioaveiro.pt/2026/01/28/ferramentas-de-ia-gratuitas-para-a-comunidade-academica/",
+      "read_on": "2026-11-16",
+      "ai_path": "A university putting AI tools in the hands of its own community: directly about AI.",
+      "steps": 0
+    }
+  ],
+  "sources": [
+    {
+      "name": "Câmara Municipal de Aveiro: news",
+      "url": "https://www.cm-aveiro.pt/municipio/comunicacao/noticias",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "Aveiro Tech City and Aveiro Tech Week (council)",
+      "url": "https://techweek.aveirotechcity.pt/events/",
+      "kind": "events",
+      "feed": null
+    },
+    {
+      "name": "Diário de Aveiro",
+      "url": "https://www.diarioaveiro.pt",
+      "kind": "press",
+      "feed": "https://www.diarioaveiro.pt/feed/"
+    },
+    {
+      "name": "NotíciasdeAveiro.pt",
+      "url": "https://www.noticiasdeaveiro.pt",
+      "kind": "press",
+      "feed": "https://www.noticiasdeaveiro.pt/feed/"
+    },
+    {
+      "name": "Universidade de Aveiro: news",
+      "url": "https://www.ua.pt/pt/noticias",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "DN Brasil: Porto Digital Europa and Cais do Porto coverage",
+      "url": "https://dnbrasil.dn.pt/porto-digital-europa",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "Turismo de Portugal: Rocket Booster programmes",
+      "url": "https://business.turismodeportugal.pt/pt/inovar/fit/programas-inovacao/Paginas/rocket-booster-acceleration.aspx",
+      "kind": "other",
+      "feed": null
+    }
+  ],
+  "events": [
+    {
+      "title": "Aveiro Tech Week, 7th edition (Câmara Municipal de Aveiro, Parque de Exposições)",
+      "date": "2026-11-16 to 2026-11-22",
+      "url": "https://www.noticiasdeaveiro.pt/7-a-edicao-da-aveiro-tech-week-de-16-a-22-de-novembro/",
+      "read_on": "2026-11-16",
+      "ai_path": "AI is named a main theme of the week: directly about AI."
+    },
+    {
+      "title": "Brazil day with an AI and innovation roundtable (Cais do Porto, Aveiro Tech Week)",
+      "date": "2026-11-17",
+      "url": "https://dnbrasil.dn.pt/negcios-br/brasil-e-portugal-discutem-inteligncia-artificial-e-negcios-na-aveiro-tech-week",
+      "read_on": "2026-11-16",
+      "ai_path": "A roundtable on innovation environments and AI plus AI literacy training: directly about AI."
+    },
+    {
+      "title": "Aveiro Tech City Hackathon (online phase, then in person at Fábrica Centro de Ciência Viva)",
+      "date": "2026-11-16 to 2026-11-20",
+      "url": "https://techweek.aveirotechcity.pt/events/aveiro-tech-city-hackathon-2/",
+      "read_on": "2026-11-16",
+      "ai_path": "One of three challenges, set by Altice Labs, is about AI for the home: directly about AI for that challenge. The page names AI for no other challenge."
+    },
+    {
+      "title": "Zona Livre Tecnológica de Aveiro, first demonstrations (Aveiro Tech Week)",
+      "date": "2026-11-20",
+      "url": "https://www.diarioaveiro.pt/2026/11/15/aveiro-tech-week-regressa-com-ia-e-ciberseguranca-como-farois/",
+      "read_on": "2026-11-16",
+      "ai_path": "The free zone lists AI among its priority technologies: one step from AI. The article gives no programme."
+    },
+    {
+      "title": "EAIA 2026, Advanced School on Artificial Intelligence (APPIA, University of Aveiro, Campus de Santiago)",
+      "date": "2026-07-23 to 2026-07-24",
+      "url": "https://appia.pt/eaia2026/",
+      "read_on": "2026-11-16",
+      "ai_path": "A national AI school hosted in Aveiro: directly about AI. Already held."
+    }
+  ],
+  "ai_map": [
+    {
+      "name": "Universidade de Aveiro (UA)",
+      "type": "institution",
+      "url": "https://www.ua.pt",
+      "what": "Public university. Approved an AI assessment framework in July 2026, gives its community free AI tools through IAEdu and hosted the EAIA 2026 AI school.",
+      "source_url": "https://observador.pt/2026/07/24/universidade-de-aveiro-aprova-referencial-para-uso-da-inteligencia-artificial/",
+      "read_on": "2026-11-16",
+      "ai_path": "Sets AI policy, runs AI tools and hosts AI research and schools.",
+      "steps": 0
+    },
+    {
+      "name": "IEETA (UA research institute)",
+      "type": "institution",
+      "url": "https://appia.pt/eaia2026/",
+      "what": "UA research institute linked to the national AI summer school. Its researchers won a NATO StratCom competition in 2018 for detecting extremist images online.",
+      "source_url": "https://observador.pt/2018/12/10/universidade-de-aveiro-ganha-concurso-da-nato-para-detetar-mensagens-extremistas/",
+      "read_on": "2026-11-16",
+      "ai_path": "Does AI and computer vision research.",
+      "steps": 0
+    },
+    {
+      "name": "Instituto de Telecomunicações (Aveiro)",
+      "type": "institution",
+      "url": "https://www.forbespt.com/de-aveiro-para-o-mundo-laboratorio-de-5g-e-inteligencia-artificial",
+      "what": "Research institute that hosts the 5GAIner lab, set up with Huawei and UA to test the reliability of 5G and AI. Also a supporter of Aveiro Tech Week and a challenge partner in its hackathon.",
+      "source_url": "https://www.forbespt.com/de-aveiro-para-o-mundo-laboratorio-de-5g-e-inteligencia-artificial",
+      "read_on": "2026-11-16",
+      "ai_path": "Hosts an AI and 5G reliability lab.",
+      "steps": 0
+    },
+    {
+      "name": "5GAIner lab (Huawei, UA, Instituto de Telecomunicações)",
+      "type": "organisation",
+      "url": "https://eco.sapo.pt/2021/11/16/huawei-inaugura-laboratorio-de-5g-e-inteligencia-artificial-em-aveiro",
+      "what": "A 5G and AI reliability centre in Aveiro, funded by Huawei under a 2020 protocol, reaching the Port of Aveiro and local factories. The source is from 2021, so its current activity is not confirmed.",
+      "source_url": "https://www.forbespt.com/de-aveiro-para-o-mundo-laboratorio-de-5g-e-inteligencia-artificial",
+      "read_on": "2026-11-16",
+      "ai_path": "A lab built to test AI and 5G together.",
+      "steps": 0
+    },
+    {
+      "name": "Parque de Ciência e Inovação da Região de Aveiro (PCI)",
+      "type": "institution",
+      "url": "https://business.turismodeportugal.pt/pt/inovar/fit/candidaturas-programas-inovacao/Paginas/rocket-booster-acceleration-candidaturas-31-mar-2026.aspx",
+      "what": "The University of Aveiro's science and innovation park. Runs the Rocket Booster Acceleration programme, which in 2026 took startups with AI solutions for tourism and mobility.",
+      "source_url": "https://business.turismodeportugal.pt/pt/inovar/fit/candidaturas-programas-inovacao/Paginas/rocket-booster-acceleration-candidaturas-31-mar-2026.aspx",
+      "read_on": "2026-11-16",
+      "ai_path": "Accelerates startups that apply AI.",
+      "steps": 1
+    },
+    {
+      "name": "Cais do Porto (Aveiro)",
+      "type": "organisation",
+      "url": "https://dnbrasil.dn.pt/negcios-br/mais-dez-empresas-de-tecnologia-brasileiras-chegam-ao-cais-do-porto-em-aveiro",
+      "what": "Hub in Aveiro that takes in Brazilian technology firms. Its June 2026 batch included four with AI products, and its 22 incubated startups demo at Aveiro Tech Week on 17 November.",
+      "source_url": "https://dnbrasil.dn.pt/negcios-br/mais-dez-empresas-de-tecnologia-brasileiras-chegam-ao-cais-do-porto-em-aveiro",
+      "read_on": "2026-11-16",
+      "ai_path": "Houses startups whose products use AI.",
+      "steps": 1
+    },
+    {
+      "name": "Madrix",
+      "type": "startup",
+      "url": "https://dnbrasil.dn.pt/negcios-br/mais-dez-empresas-de-tecnologia-brasileiras-chegam-ao-cais-do-porto-em-aveiro",
+      "what": "Brazilian firm selected for Cais do Porto in Aveiro in June 2026. Builds and runs custom corporate applications with AI.",
+      "source_url": "https://dnbrasil.dn.pt/negcios-br/mais-dez-empresas-de-tecnologia-brasileiras-chegam-ao-cais-do-porto-em-aveiro",
+      "read_on": "2026-11-16",
+      "ai_path": "Its product is built with AI.",
+      "steps": 0
+    },
+    {
+      "name": "Sião",
+      "type": "startup",
+      "url": "https://dnbrasil.dn.pt/negcios-br/mais-dez-empresas-de-tecnologia-brasileiras-chegam-ao-cais-do-porto-em-aveiro",
+      "what": "Brazilian firm at Cais do Porto in Aveiro. Offers solutions for notary offices with AI and data protection.",
+      "source_url": "https://dnbrasil.dn.pt/negcios-br/mais-dez-empresas-de-tecnologia-brasileiras-chegam-ao-cais-do-porto-em-aveiro",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells AI-based notary solutions.",
+      "steps": 0
+    },
+    {
+      "name": "Stepps",
+      "type": "startup",
+      "url": "https://dnbrasil.dn.pt/negcios-br/mais-dez-empresas-de-tecnologia-brasileiras-chegam-ao-cais-do-porto-em-aveiro",
+      "what": "Brazilian firm at Cais do Porto in Aveiro. Uses AI and video analysis to turn industrial cameras into monitoring tools.",
+      "source_url": "https://dnbrasil.dn.pt/negcios-br/mais-dez-empresas-de-tecnologia-brasileiras-chegam-ao-cais-do-porto-em-aveiro",
+      "read_on": "2026-11-16",
+      "ai_path": "Its product is AI video analysis.",
+      "steps": 0
+    },
+    {
+      "name": "Sherlock",
+      "type": "startup",
+      "url": "https://dnbrasil.dn.pt/negcios-br/mais-dez-empresas-de-tecnologia-brasileiras-chegam-ao-cais-do-porto-em-aveiro",
+      "what": "Brazilian firm at Cais do Porto in Aveiro. Offers advanced data analysis and AI for investigations and decisions in the public sector.",
+      "source_url": "https://dnbrasil.dn.pt/negcios-br/mais-dez-empresas-de-tecnologia-brasileiras-chegam-ao-cais-do-porto-em-aveiro",
+      "read_on": "2026-11-16",
+      "ai_path": "Its product is data analysis and AI.",
+      "steps": 0
+    },
+    {
+      "name": "Ubiwhere",
+      "type": "company",
+      "url": "https://www.ubiwhere.com/en/news/2025-in-review-10-milestones-of-innovation-that-defined-ubiwhere-year",
+      "what": "Software company based in Aveiro. With the University of Aveiro it opened an Artificial Intelligence Open Lab in early 2025 and a Creative Intelligence Open Lab at the end of 2025.",
+      "source_url": "https://www.ubiwhere.com/en/news/2025-in-review-10-milestones-of-innovation-that-defined-ubiwhere-year",
+      "read_on": "2026-11-16",
+      "ai_path": "Co-runs university AI labs.",
+      "steps": 1
+    },
+    {
+      "name": "Altice Labs",
+      "type": "company",
+      "url": "https://techweek.aveirotechcity.pt/events/aveiro-tech-city-hackathon-2/",
+      "what": "Telecoms research company. Sponsors Aveiro Tech Week 2026 and set the hackathon challenge Connected Home, Reimagined, summarised on the page as AI at the service of the home. The pages we read do not state its base city.",
+      "source_url": "https://techweek.aveirotechcity.pt/events/aveiro-tech-city-hackathon-2/",
+      "read_on": "2026-11-16",
+      "ai_path": "Sets an AI challenge in Aveiro's hackathon.",
+      "steps": 1
+    },
+    {
+      "name": "Bosch Termotecnologia and the Augmanity project",
+      "type": "company",
+      "url": "https://dinheirovivo.dn.pt/projeto-augmanity-quer-tornar-portugal-centro-da-industria-40-com-bosch-ikea-e-huawei-13527060.html",
+      "what": "Bosch Termotecnologia led Augmanity, a 20 million euro Industry 4.0 project with UA as strategic scientific partner and Altice Labs, IKEA and Huawei among partners. One of five subprojects was machine learning and AI. The source is from 2021 and the project was due to end in 2023.",
+      "source_url": "https://dinheirovivo.dn.pt/projeto-augmanity-quer-tornar-portugal-centro-da-industria-40-com-bosch-ikea-e-huawei-13527060.html",
+      "read_on": "2026-11-16",
+      "ai_path": "A machine-learning subproject for predictive maintenance, with UA leading research.",
+      "steps": 1
+    },
+    {
+      "name": "Zona Livre Tecnológica de Aveiro",
+      "type": "public body",
+      "url": "https://www.cuatrecasas.com/pt/portugal/energia-infraestrutura/art/criacao-da-zlt-de-aveiro-1",
+      "what": "A technology free zone created by Portaria n.º 119/2025/1 for testing communication and electronics technologies in real settings. UA leads the consortium with the Aveiro and Ílhavo councils, the Instituto de Telecomunicações, the PCI, TICE.PT and the port authority. AI is a listed priority technology.",
+      "source_url": "https://www.cuatrecasas.com/pt/portugal/energia-infraestrutura/art/criacao-da-zlt-de-aveiro-1",
+      "read_on": "2026-11-16",
+      "ai_path": "A test zone whose priority technologies include AI.",
+      "steps": 1
+    },
+    {
+      "name": "Câmara Municipal de Aveiro",
+      "type": "public body",
+      "url": "https://www.cm-aveiro.pt",
+      "what": "Runs Aveiro Tech Week and the Aveiro Tech City hackathon, whose challenges include one with UA on automatic identification of urban furniture and one with the Instituto de Telecomunicações on turning data into action.",
+      "source_url": "https://techweek.aveirotechcity.pt/events/aveiro-tech-city-hackathon-2/",
+      "read_on": "2026-11-16",
+      "ai_path": "Convenes AI events and sets city data challenges: the page names AI only for Altice Labs' challenge.",
+      "steps": 1
+    },
+    {
+      "name": "Fábrica Centro de Ciência Viva de Aveiro",
+      "type": "institution",
+      "url": "https://techweek.aveirotechcity.pt/events/aveiro-tech-city-hackathon-2/",
+      "what": "Science centre that hosts the in-person phase of the hackathon on 20 November 2026.",
+      "source_url": "https://techweek.aveirotechcity.pt/events/aveiro-tech-city-hackathon-2/",
+      "read_on": "2026-11-16",
+      "ai_path": "Venue for a hackathon with an AI challenge.",
+      "steps": 2
+    },
+    {
+      "name": "APPIA (Portuguese Association for Artificial Intelligence)",
+      "type": "community",
+      "url": "https://appia.pt/eaia2026/",
+      "what": "National AI association that promotes EAIA 2026, held at the University of Aveiro on 23 and 24 July 2026. We did not find it to be based in Aveiro.",
+      "source_url": "https://appia.pt/eaia2026/",
+      "read_on": "2026-11-16",
+      "ai_path": "Runs a national AI school hosted in Aveiro.",
+      "steps": 0
+    }
+  ],
+  "extras": [],
+  "identity": {
+    "key_id": "site.aveiro-promptugal",
+    "signed_by": "place.districts@PrompTugal.dinis"
+  },
+  "gaps": [
+    "No AI use in the council's own services found. Aveiro's innovation menu lists APP Aveiro, Aveiro STEAM City, Bairro Comercial Digital and an incubator, but we read only the menu titles, so we do not know whether any use AI. We should open each of those pages.",
+    "We found no home-grown Aveiro AI startup by name. The startups on the map are Brazilian firms hosted by Cais do Porto. Sources to look for: the PCI's own company list, the council's business incubator page and Portugal Ventures notices.",
+    "We could not read the 2026 Rocket Booster Acceleration cohort, so no startup from it is named. The call page also contradicts itself on whether applications were open.",
+    "The University of Aveiro's own news pages for its AI framework, the IA na UA showcase and the IEETA research grants returned only headlines to us, so the university items rest on Observador, Notícias de Aveiro and Diário de Aveiro. Its summer school page has no publication date.",
+    "We left out IA na UA, the PARCERIA and PomeAI research projects and the UAia copilot because we did not open a page that describes them in full.",
+    "No feed found for the council, the Tech Week site or the university. The Diário de Aveiro and Notícias de Aveiro feeds both work.",
+    "InovaRia and AIDA CCI support Aveiro Tech Week but the pages we read do not tie them to AI, so they are not on the map. Ricardo Pais Mamede's Mais Digital consortium and the Istari ranking of 28 Aveiro AI firms surfaced in search but we did not open them.",
+    "The 5GAIner lab and Augmanity items date from 2021, and we found nothing newer on either.",
+    "Contacts, investors and local talent are thin: the council's hackathon page is the only official channel we recorded, and we found no 2026 funding round for an Aveiro AI company."
+  ],
+  "voice": {
+    "lede": "Aveiro, oh pá: where the moliceiros glide past the canal terraces, the ovos moles wait in their little shells, and a university quietly teaches an entire campus to chat with machines while Brazilian startups pile into Cais do Porto.",
+    "mandate": "PrompTugal.news Aveiro, a cidade dos canais: AI and tech in Aveiro, with the Universidade de Aveiro and the Instituto de Telecomunicações as the big brains, the Câmara throwing Tech Week, and whatever news sails in from Portugal, Brazil and the world. Independente, and every fact comes with a receipt.",
+    "gravity": "Aveiro keeps a university, a telecoms institute and a council that throws a whole Tech Week, and somehow still finds room for startups from across the Atlantic. The Universidade writes the rules and hands out the AI tools, the Cais do Porto brings the newcomers, and the Câmara fills the Parque de Exposições. Sim senhor: research and a very busy Tech Week, not just pretty boats.",
+    "gaps_intro": "Ainda há muito por contar, pá. Here is what Aveiro has not told us yet:"
+  },
+  "start_company": [
+    {
+      "name": "Cais do Porto (Aveiro)",
+      "what": "A hub in Aveiro that selects Brazilian technology firms to set up in the city. Its June 2026 batch added ten firms and its 22 incubated startups demo at Aveiro Tech Week.",
+      "url": "https://dnbrasil.dn.pt/negcios-br/mais-dez-empresas-de-tecnologia-brasileiras-chegam-ao-cais-do-porto-em-aveiro",
+      "source_url": "https://dnbrasil.dn.pt/negcios-br/mais-dez-empresas-de-tecnologia-brasileiras-chegam-ao-cais-do-porto-em-aveiro",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "PCI Rocket Booster Acceleration (with startUP23, supported by Turismo de Portugal)",
+      "what": "Acceleration programme of the University of Aveiro's science park for startups, including AI solutions for tourism, smart destinations and mobility. The 2026 call's status is unclear on the page.",
+      "url": "https://business.turismodeportugal.pt/pt/inovar/fit/programas-inovacao/Paginas/rocket-booster-acceleration.aspx",
+      "source_url": "https://business.turismodeportugal.pt/pt/inovar/fit/candidaturas-programas-inovacao/Paginas/rocket-booster-acceleration-candidaturas-31-mar-2026.aspx",
+      "read_on": "2026-11-16",
+      "kind": "accelerator"
+    }
+  ],
+  "investors": [
+    {
+      "name": "Portugal 2020 funding for Augmanity",
+      "what": "8.5 million euros of the 20 million euro Augmanity project came from European funds through Portugal 2020. The project included a machine-learning subproject and ended around 2023.",
+      "url": "https://dinheirovivo.dn.pt/projeto-augmanity-quer-tornar-portugal-centro-da-industria-40-com-bosch-ikea-e-huawei-13527060.html",
+      "source_url": "https://dinheirovivo.dn.pt/projeto-augmanity-quer-tornar-portugal-centro-da-industria-40-com-bosch-ikea-e-huawei-13527060.html",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "amount": "8.5 million euros",
+      "date": "2021-04-03",
+      "ai_path": "Funded an Industry 4.0 project with an AI subproject: one step from AI."
+    },
+    {
+      "name": "Huawei into the 5GAIner lab",
+      "what": "Huawei funds the 5G and AI reliability lab and donated its equipment, under a 2020 protocol with UA and the Instituto de Telecomunicações.",
+      "url": "https://www.forbespt.com/de-aveiro-para-o-mundo-laboratorio-de-5g-e-inteligencia-artificial",
+      "source_url": "https://www.forbespt.com/de-aveiro-para-o-mundo-laboratorio-de-5g-e-inteligencia-artificial",
+      "read_on": "2026-11-16",
+      "type": "investment",
+      "date": "2021-11-19",
+      "ai_path": "Pays for an AI and 5G lab: directly about AI."
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Câmara Municipal de Aveiro, Aveiro Tech City hackathon",
+      "what": "The council's published channel for the Tech City hackathon, on the council-run Aveiro Tech Week site.",
+      "url": "https://techweek.aveirotechcity.pt/events/aveiro-tech-city-hackathon-2/",
+      "source_url": "https://techweek.aveirotechcity.pt/events/aveiro-tech-city-hackathon-2/",
+      "read_on": "2026-11-16",
+      "channel": "the council's Aveiro Tech City email and phone, published on the hackathon page (open the linked page for them)"
+    }
+  ]
+}
