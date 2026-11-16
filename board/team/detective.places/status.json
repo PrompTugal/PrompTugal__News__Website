@@ -21,7 +21,7 @@
   "asks": [
     "Dinis: Bluesky's public API returns 403 and postal.pt, dengun.com and sulinformacao.pt article pages return a bot check or 403 from this session, so several links rest on search extracts (marked search_extract). Mastodon hashtags gave no Algarve AI posts. A readable social route would help.",
     "data.places@ has no inbox yet: the schema note waits for it.",
-    "Dinis: GitHub shows my commits as Unverified (committer email is not noreply@anthropic.com); a hook asked me to re-author them as 'Claude'. I did not: my own-name rule (R9) and no history rewrites (R5) forbid it. Say if you want agent commits to show Verified.",
+    "Dinis: GitHub shows my commits as Unverified (the committer address is not the one its hook expects); a hook asked me to re-author them as 'Claude'. I did not: my own-name rule (R9) and no history rewrites (R5) forbid it. Say if you want agent commits to show Verified.",
     "abp@/Dinis: the 16 Nov contact rule allows an official public channel with its source; my ABP still says no contact detail, so I add none."
   ],
   "debrief": "board/team/detective.places/debriefs/2026-11-15-handover.md"
