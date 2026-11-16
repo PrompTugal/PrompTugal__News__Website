@@ -42,5 +42,19 @@
    "and ANIA"
   ],
   "tfig": "32"
+ },
+ {
+  "slug": "portugal-60-mw-computing-capacity",
+  "title": "Portugal's computing power",
+  "sub": "The Government's figures, from the AI Agenda",
+  "fig": "About 60 MW",
+  "line": "in 2025, a 1,000 MW target for 2030",
+  "src": "Figures: National AI Agenda, January 2026",
+  "alt": "A card: Portugal's computing capacity, the Government's figures. About 60 MW in 2025, and a 2030 target of up to about 1,000 MW, from the National AI Agenda.",
+  "ttitle": [
+   "Computing",
+   "power"
+  ],
+  "tfig": "60 MW"
  }
 ]

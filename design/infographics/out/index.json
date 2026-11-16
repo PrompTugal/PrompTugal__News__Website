@@ -4081,6 +4081,62 @@
     "source": "desks/reviewer-vicky/covers/amalia-and-ania-portugal-ai-plans/amalia-and-ania-portugal-ai-plans--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
     "checked": "32 initiatives in four areas against the article and digital.gov.pt's ANIA page (updated 9 January 2026); every line measured inside its limit; 16 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
    }
+  },
+  {
+   "slug": "portugal-60-mw-computing-capacity",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "card",
+   "file": "portugal-60-mw-computing-capacity--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-16",
+    "source": "desks/reviewer-vicky/covers/portugal-60-mw-computing-capacity/portugal-60-mw-computing-capacity--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "about 60 MW in 2025 and the 1,000 MW fast-scenario target for 2030 against the article and RCM n.º 2/2026 (re-read 16 November 2026); every line measured inside its limit; 16 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "portugal-60-mw-computing-capacity",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "card",
+   "file": "portugal-60-mw-computing-capacity--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-16",
+    "source": "desks/reviewer-vicky/covers/portugal-60-mw-computing-capacity/portugal-60-mw-computing-capacity--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "about 60 MW in 2025 and the 1,000 MW fast-scenario target for 2030 against the article and RCM n.º 2/2026 (re-read 16 November 2026); every line measured inside its limit; 16 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "portugal-60-mw-computing-capacity",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "portugal-60-mw-computing-capacity--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-16",
+    "source": "desks/reviewer-vicky/covers/portugal-60-mw-computing-capacity/portugal-60-mw-computing-capacity--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "about 60 MW in 2025 and the 1,000 MW fast-scenario target for 2030 against the article and RCM n.º 2/2026 (re-read 16 November 2026); every line measured inside its limit; 16 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "portugal-60-mw-computing-capacity",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "portugal-60-mw-computing-capacity--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-16",
+    "source": "desks/reviewer-vicky/covers/portugal-60-mw-computing-capacity/portugal-60-mw-computing-capacity--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "about 60 MW in 2025 and the 1,000 MW fast-scenario target for 2030 against the article and RCM n.º 2/2026 (re-read 16 November 2026); every line measured inside its limit; 16 November 2026, by reviewer@PrompTugal.vicky"
+   }
   }
  ]
 }
