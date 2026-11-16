@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "by": "place.lagos@PrompTugal.dinis",
   "mandate": "PrompTugal.news Lagos: AI and technology in Lagos, a town of remote workers, a municipal coworking space and a busy Google developer community, and what reaches Lagos from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -110,6 +110,24 @@
     {
       "name": "CoLagos, the municipal coworking space",
       "url": "https://www.colagos.pt/",
+      "kind": "other",
+      "feed": null
+    },
+    {
+      "name": "Portugal Resident, Lagos stories (English-language Algarve press)",
+      "url": "https://www.portugalresident.com/tag/lagos/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Postal do Algarve (regional press, covers the Lagos council)",
+      "url": "https://postal.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Lagos Digital Nomads (community website)",
+      "url": "https://www.essential-business.pt/2022/12/02/lagos-digital-nomads-building-a-bridge-between-local-businesses-and-remote-workers/",
       "kind": "other",
       "feed": null
     }
@@ -234,6 +252,26 @@
       "read_on": "2026-11-15",
       "ai_path": "Data management and smart-city research is the base for AI services, but no AI is named, so this is context only.",
       "steps": 3
+    },
+    {
+      "name": "Algarve STP (Systems and Technology Partnership)",
+      "type": "organisation",
+      "url": "https://www.algarvestp.pt/",
+      "what": "Regional technology and innovation body, a named organiser of the Algarve Tech Hub Summit held in Lagos in November 2025.",
+      "source_url": "https://www.barlavento.pt/lagos-foi-capital-da-inovacao-no-algarve-tech-hub-summit/",
+      "read_on": "2026-11-16",
+      "ai_path": "Organiser of a Lagos summit that included a live AI demonstration.",
+      "steps": 2
+    },
+    {
+      "name": "Universidade do Algarve",
+      "type": "institution",
+      "url": "https://www.ualg.pt/",
+      "what": "A named organiser of the Algarve Tech Hub Summit held in Lagos in November 2025.",
+      "source_url": "https://www.barlavento.pt/lagos-foi-capital-da-inovacao-no-algarve-tech-hub-summit/",
+      "read_on": "2026-11-16",
+      "ai_path": "Co-organiser of a Lagos summit with an AI session. The university's own AI work belongs to the Faro page.",
+      "steps": 2
     }
   ],
   "extras": [
@@ -242,6 +280,12 @@
       "value": "20, full since November 2023",
       "source_url": "https://www.barlavento.pt/premio-cinco-estrelas-regioes-distingue-colagos-pelo-terceiro-ano-consecutivo/",
       "read_on": "2026-11-15"
+    },
+    {
+      "label": "Starting a company in Lagos: where the public sources point",
+      "value": "CoLagos, the municipal coworking space with 20 workstations and five subscription plans, and the Fábrica do Empreendedor, a partner of DevFest Lagos. Algarve STP and the University of the Algarve organise the Algarve Tech Hub Summit, held in Lagos in 2025. We have not yet read an official page that lists the support on offer.",
+      "source_url": "https://www.barlavento.pt/premio-cinco-estrelas-regioes-distingue-colagos-pelo-terceiro-ano-consecutivo/",
+      "read_on": "2026-11-16"
     }
   ],
   "identity": {
@@ -254,7 +298,10 @@
     "No upcoming Lagos AI event was found. Meetup and Luma listings, where the local groups post, are not read by this publication, so the groups' own pages are the source to look for.",
     "The Lagos Digital Nomads and Lagos Remoters membership figures could not be read from a page we may use, so none are given. We want a dated figure from the groups' own sites.",
     "CoLagos's own site and Postal do Algarve showed a verification wall when we tried them, so we relied on Barlavento.",
-    "A summit page we read points to a 2027 edition, but we found nothing confirming the 2026 edition."
+    "A summit page we read points to a 2027 edition, but we found nothing confirming the 2026 edition.",
+    "Starting a company in Lagos: we have no official page yet that says what the council, the Fábrica do Empreendedor or Algarve STP offer a founder, or who to approach. The council's own pages for the Fábrica are the next source.",
+    "Local media: Barlavento and Sul Informação were readable, Portugal Resident and Postal do Algarve are listed but our tool could not open them (a verification wall). No Lagos-only newspaper or blog with a feed was confirmed.",
+    "Investors, cooperatives and local talent in Lagos: nothing found yet in public sources we may use."
   ],
   "voice": {
     "lede": "Ó pá, Lagos has caravels, cliffs and more laptops per beach towel than anywhere else in the Algarve, and now it is learning to talk to the machines too.",

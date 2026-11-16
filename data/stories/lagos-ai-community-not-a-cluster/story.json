@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "lagos-ai-community-not-a-cluster",
+  "type": "story",
+  "title": "Lagos has an AI crowd, not yet an AI industry",
+  "beat": "Portugal",
+  "topic": "topic:portugal",
+  "status": "published",
+  "rests_on": [],
+  "desk_files": [
+    "content/articles/lagos-ai-community-not-a-cluster.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "content/articles/lagos-ai-community-not-a-cluster.md"
+    ]
+  },
+  "assignee": "place.lagos@PrompTugal.dinis",
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": {
+    "path": "content/articles/lagos-ai-community-not-a-cluster.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "published",
+      "at": "2026-11-15",
+      "by": "place.lagos@PrompTugal.dinis",
+      "file": "content/articles/lagos-ai-community-not-a-cluster.md"
+    }
+  ]
+}
