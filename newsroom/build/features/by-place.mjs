@@ -139,15 +139,15 @@ function nowBlock(ctx, p) {
     let d; try { d = ctx.readJSON(`data/by-place/now/${p.id}.json`) } catch { return '' }
     const t = s => String(s || '').slice(11, 16) + ' UTC', out = []
     const r = d.station && d.station.reading
-    if (r) out.push(`- **${r.temp_c ?? '?'} °C**, ${r.humidity_pct ?? '?'}%, ${r.wind_kmh ?? '?'} km/h · [${esc(ctx, d.station.name)}](${d.station.source}), ${d.station.km} km, at ${t(r.at)}`)
+    if (r) out.push(`- **Now** ${r.temp_c ?? '?'} °C · humidity ${r.humidity_pct ?? '?'}% · wind ${r.wind_kmh ?? '?'} km/h *[${esc(ctx, d.station.name)}](${d.station.source}), ${d.station.km} km, ${t(r.at)}*`)
     const f = d.forecast && d.forecast.days && d.forecast.days[0]
-    if (f) out.push(`- ${f.t_min_c ?? '?'} to ${f.t_max_c ?? '?'} °C, rain ${f.rain_prob_pct ?? '?'}% · [${esc(ctx, d.forecast.place)}](${d.forecast.source})${d.forecast.km > 5 ? `, ${d.forecast.km} km` : ''}`)
+    if (f) out.push(`- **Today** ${f.t_min_c ?? '?'} to ${f.t_max_c ?? '?'} °C · rain ${f.rain_prob_pct ?? '?'}% *[IPMA, ${esc(ctx, d.forecast.place)}](${d.forecast.source})${d.forecast.km > 5 ? `, ${d.forecast.km} km` : ''}*`)
     const w = d.warnings && d.warnings.active || []
-    out.push(w.length ? w.map(x => `- **${esc(ctx, x.level)}:** ${esc(ctx, x.type)}, ${esc(ctx, String(x.start).slice(0, 16).replace('T', ' '))} · [IPMA](${d.warnings.source})`).join('\n') : `- No warning · [IPMA](${d.warnings.source})`)
+    out.push(w.length ? w.map(x => `- **Warning** ${esc(ctx, String(x.level).replace(/^./, c => c.toUpperCase()))}: ${esc(ctx, x.type)} from ${esc(ctx, String(x.start).slice(0, 16).replace('T', ' '))} *[IPMA](${d.warnings.source})*`).join('\n') : `- **Warnings** none *[IPMA](${d.warnings.source})*`)
     const fr = d.fire_risk && d.fire_risk.days && d.fire_risk.days[0]
-    if (fr) out.push(`- Fire risk ${esc(ctx, fr.level)} · [IPMA](${d.fire_risk.source})`)
-    if (d.sea) out.push(`- Waves ${d.sea.waves_max_m ?? '?'} m, sea ${d.sea.sea_temp_max_c ?? '?'} °C · [${esc(ctx, d.sea.coast)}](${d.sea.source})`)
-    if (d.airport) out.push(`- LPFR: ${d.airport.airline.length} airline, ${d.airport.other_aircraft} other, ${d.airport.within_nm} nm${d.airport.airline.length ? ` (${d.airport.airline.slice(0, 6).map(a => esc(ctx, a.callsign)).join(', ')})` : ''} · [adsb.lol](${d.airport.source}), at ${t(d.airport.at)}`)
+    if (fr) out.push(`- **Fire risk** ${esc(ctx, fr.level)} *[IPMA](${d.fire_risk.source})*`)
+    if (d.sea) out.push(`- **Sea** waves ${d.sea.waves_max_m ?? '?'} m · ${d.sea.sea_temp_max_c ?? '?'} °C *[IPMA, ${esc(ctx, d.sea.coast)}](${d.sea.source})*`)
+    if (d.airport) out.push(`- **Faro airport** ${d.airport.airline.length} airline, ${d.airport.other_aircraft} other, ${d.airport.within_nm} nm${d.airport.airline.length ? ` (${d.airport.airline.slice(0, 6).map(a => esc(ctx, a.callsign)).join(', ')})` : ''} *[adsb.lol](${d.airport.source}), ${t(d.airport.at)}*`)
     return `{.mini-h}\nNow in ${esc(ctx, p.name)}\n\n{.bp-now}\n${out.join('\n')}\n\n`
 }
 
