@@ -242,3 +242,4 @@ a.vz-member:hover { border-color: var(--ink-3); }
 @media (max-width: 600px) { .vz-tree-row { grid-template-columns: 130px minmax(0, 1fr) 30px; } }
 .vz-tree-track { display: block; min-width: 0; }
 .vz-mini { max-width: 640px; } .vz-mini .vz-tree-row { grid-template-columns: 160px minmax(0, 1fr) 30px; padding: 3px 0; font-size: 13px; }
+.vz-agentmap.vz-national svg { max-width: 560px; margin: 0 auto; }
