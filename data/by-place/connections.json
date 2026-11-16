@@ -843,6 +843,31 @@
         "algarve",
         "faro"
       ]
+    },
+    {
+      "id": "albufeira-ai-urban-platform",
+      "from": {
+        "name": "AI urban-management platform (vendor not named)",
+        "type": "product",
+        "place": "albufeira"
+      },
+      "to": {
+        "name": "Camara Municipal de Albufeira",
+        "type": "public body",
+        "place": "albufeira"
+      },
+      "relation": "serves",
+      "what": "At a conference on the new urban-planning decree law held at the council's main hall on 15 June 2026, the mayor presented an AI-based urban-management platform as a pioneer in the Algarve, to make planning procedures more efficient and transparent. Neither this article nor the search results name the vendor or a contract value.",
+      "ai_path": "The council says it uses an AI platform in planning.",
+      "steps": 0,
+      "source_url": "https://www.algarveprimeiro.com/d/albufeira-recebeu-conferencia-sobre-novo-enquadramento-legal-do-urbanismo-em-portugal/66913-1",
+      "source_title": "Albufeira recebeu conferencia sobre novo enquadramento legal do urbanismo em Portugal (Algarve Primeiro)",
+      "source_date": "2026-06-16",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "albufeira"
+      ]
     }
   ],
   "leads": [
@@ -869,14 +894,6 @@
       "why_open": "Source pages for each still to be opened",
       "places": [
         "algarve"
-      ]
-    },
-    {
-      "what": "Albufeira council plans to contract an AI-enabled platform for urban planning processes, said by the mayor to be a first in the Algarve (Algarve Marafado, 29 May 2026). Page returned a bot check; known only from a search extract.",
-      "url": "https://www.algarvemarafado.com/2026/05/29/inteligencia-artificial-vai-ajudar-rui-cristina-a-combater-o-caos-que-diz-ter-encontrado-na-camara-de-albufeira/",
-      "why_open": "Page not readable from this session",
-      "places": [
-        "albufeira"
       ]
     },
     {
@@ -977,6 +994,15 @@
       "places": [
         "lagos",
         "tavira"
+      ]
+    },
+    {
+      "what": "Albufeira Smart City platform (public since May 2021: incident reports, bus lines, beach occupancy for about ten beaches; council page of 16 August 2021, read). No AI and no vendor named in it. Silves: ten sensor-equipped smart bins at Armacao de Pera (council page, 23 July 2024, read): fill-level sensors and compactors, no AI. Both fail the PrompTugal test as read.",
+      "url": "https://www.cm-albufeira.pt/artigo/plataforma-smart-city-permite-comunicar-ocorrencias-aceder-informacao-sobre-transportes",
+      "why_open": "Smart-city but no AI path in the sources; revisit if one appears",
+      "places": [
+        "albufeira",
+        "silves"
       ]
     }
   ],
