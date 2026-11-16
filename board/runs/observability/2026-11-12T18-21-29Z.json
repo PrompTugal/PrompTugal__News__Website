@@ -1,0 +1,434 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "observability@PrompTugal.dinis",
+ "run": "2026-11-12T18-21-29Z",
+ "started": "2026-11-12T18:21:29.921Z",
+ "ended": "2026-11-16T15:26:44Z",
+ "line": "",
+ "policy": {
+  "version": "1.13.0",
+  "sha256": "5ee0b6078b37ba8d"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-12T21:18:45.886Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-13T00:18:25.603Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-13T03:19:10.780Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-13T06:18:56.184Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-13T06:47:12.541Z",
+   "chars": 64,
+   "sha256": "6e9b5a1aca3546ec",
+   "head": "Ok, why do you need to push?\n\nFor now just drain the append lane"
+  },
+  {
+   "t": "2026-11-13T08:42:12.748Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-13T09:18:51.004Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-13T12:20:28.171Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-13T12:48:46.844Z",
+   "chars": 83,
+   "sha256": "a2e29c1d6123c423",
+   "head": "yes for now only drain (you will receive a request to export all this session data)"
+  },
+  {
+   "t": "2026-11-13T15:45:48.040Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-13T18:18:47.668Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-13T21:18:51.124Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-14T00:19:02.587Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-14T03:18:34.652Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-14T06:18:29.260Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-14T09:18:43.755Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-14T12:19:06.830Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-14T15:18:49.108Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-14T18:18:42.640Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-14T21:18:35.685Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-15T00:19:00.189Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-15T03:18:23.588Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-15T06:19:12.424Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-15T09:18:40.391Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-15T12:18:50.025Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-15T15:18:32.427Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-15T18:18:56.649Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-15T21:18:30.747Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-15T23:28:14.250Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-15T23:40:51.210Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-16T00:18:41.895Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T03:18:25.209Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T06:18:26.734Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T09:18:54.797Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T12:21:07.120Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T15:21:24.604Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T15:25:39.157Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-12T21:18:45.731Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-13T00:18:25.409Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-13T03:19:10.379Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-13T06:18:55.960Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-13T06:46:31.777Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-13T08:42:12.385Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-13T09:18:50.759Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-13T12:20:27.917Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-13T12:47:47.965Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-13T15:45:47.852Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-13T18:18:47.446Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-13T21:18:50.926Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-14T00:19:02.386Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-14T03:18:34.420Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-14T06:18:29.074Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-14T09:18:43.558Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-14T12:19:06.675Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-14T15:18:48.893Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-14T18:18:42.449Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-14T21:18:35.379Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-15T00:18:59.981Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-15T03:18:23.351Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-15T06:19:12.187Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-15T09:18:40.165Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-15T12:18:49.817Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-15T15:18:32.144Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-15T18:18:56.390Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-15T21:18:30.495Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-15T23:28:14.052Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-15T23:40:51.033Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T00:18:41.728Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T03:18:24.949Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T06:18:26.490Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T09:18:54.592Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T12:21:06.926Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T15:21:24.368Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 80,
+  "by_kind": {
+   "release": 1,
+   "other": 35,
+   "git": 33,
+   "shell": 9,
+   "remote-read": 1,
+   "git-commit": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 80,
+  "commits": [
+   {
+    "sha": "62f69b2c8",
+    "subject": "observability@PrompTugal.dinis: 12 Nov debrief: drains go on under the hold's exception; the summit closes at 112 reader views",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 37,
+  "tool_calls": 80,
+  "in_mandate": 80,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
