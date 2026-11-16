@@ -243,3 +243,12 @@ a.vz-member:hover { border-color: var(--ink-3); }
 .vz-tree-track { display: block; min-width: 0; }
 .vz-mini { max-width: 640px; } .vz-mini .vz-tree-row { grid-template-columns: 160px minmax(0, 1fr) 30px; padding: 3px 0; font-size: 13px; }
 .vz-agentmap.vz-national svg { max-width: 560px; margin: 0 auto; }
+.vz-nowmap { margin: 6px 0 22px; }
+.vz-nowmap svg { display: block; max-width: 100%; height: auto; background: color-mix(in srgb, #3b82c4 9%, var(--paper)); border-radius: 6px; }
+.vz-nowmap .vz-am-land.pt { fill: var(--panel); stroke: var(--rule-2); stroke-width: 1; }
+.vz-nowmap .vz-am-land.es { fill: var(--paper-2); stroke: var(--hair); stroke-width: 1; }
+.vz-nowmap .vz-now-dot { stroke: var(--ink); stroke-width: 1; }
+.vz-nowmap .vz-now-t { font: 700 11px var(--sans); fill: #fff; }
+.vz-nowmap .vz-now-r { font: 500 10.5px var(--mono); fill: var(--ink-2); paint-order: stroke; stroke: var(--panel); stroke-width: 3px; }
+.vz-nowmap .vz-am-label { font: 600 12px var(--sans); fill: var(--ink); paint-order: stroke; stroke: var(--panel); stroke-width: 3px; }
+.vz-nowmap figcaption { font: 400 12.5px/1.5 var(--sans); color: var(--ink-3); }

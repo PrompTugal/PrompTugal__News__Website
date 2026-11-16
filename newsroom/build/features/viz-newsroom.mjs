@@ -251,6 +251,34 @@ function treeTwin(ctx) {
     return places(ctx).map(pl => { const by = {}; for (const a of arr(pl.data && pl.data.ai_news)) { const k = sigOf(a) || 'unmarked'; by[k] = (by[k] || 0) + 1 } return `- ${ctx.md.cell(pl.name)}: ${Object.entries(by).map(([k, v]) => `${v} ${L[k]}`).join(', ') || 'no stories yet'}` }).join('\n')
 }
 
+// Now in the Algarve (board/briefs/2026-11-16-storm-local-data.md: "viz.places@ draws the 17 on the region map"): each
+// town's IPMA forecast for today, from data/by-place/now/<id>.json (the site's own hourly collector, no model)
+const nowOf = (ctx, id) => { try { return ctx.readJSON(`data/by-place/now/${id}.json`) } catch { return null } }
+function nowRows(ctx) {
+    return places(ctx).filter(t => placesAt(ctx).has(t.id)).map(t => { const n = nowOf(ctx, t.id), d = n && n.forecast && arr(n.forecast.days)[0]; return d ? { t, n, d } : null }).filter(Boolean)
+}
+function nowMapHtml(ctx, region) {
+    const T = tmpl(ctx, NT), C = copy(ctx), P = proj(ctx), rel = newsroomRel(region), rows = nowRows(ctx)
+    if (!rows.length) return ''
+    let body = P.land
+    for (const { t, d, n } of rows) {
+        const at = placesAt(ctx).get(t.id).at, x = P.X0(at[0]), y = P.Y0(at[1]), rain = Math.max(0, Math.min(100, Number(d.rain_prob_pct) || 0))
+        const fill = `color-mix(in srgb, #2f6fb0 ${Math.round(15 + rain * 0.75)}%, #f2c14e)`
+        const side = placesAt(ctx).get(t.id).label || 's'
+        const [lx, ny, anchor] = side === 'n' ? [x, y - 34, 'middle'] : side === 'e' ? [x + 16, y - 2, 'start'] : side === 'w' ? [x - 16, y - 2, 'end'] : side === 'sw' ? [x - 12, y + 26, 'end'] : [x, y + 28, 'middle']
+        body += tf(T['now-pin'], { lx: lx.toFixed(1), anchor, href: X(ctx.link(rel, newsroomRel(t)).replace(/\.md$/, '.html')), title: X(`${t.name}: ${d.t_max_c}° / ${d.t_min_c}°, ${rain}% rain (IPMA forecast for ${n.forecast.place}, ${n.forecast.km} km)`),
+            x: x.toFixed(1), y: y.toFixed(1), fill, ty: (y + 4).toFixed(1), t: X(Math.round(d.t_max_c) + '°'), ny: ny.toFixed(1), name: X(t.name), ry: (ny + 13).toFixed(1), r: X(`${Math.round(d.t_min_c)}° · ${rain}%`) })
+    }
+    const first = rows[0].n, warns = arr(first.warnings && first.warnings.active)
+    const read = rows.map(r => r.n.read_at).filter(Boolean).sort().pop() || ''
+    const warn = warns.length ? W(C.nowmap_warn, { list: warns.map(w => `${w.level} for ${w.type}, ${String(w.start).slice(0, 16).replace('T', ' ')} to ${String(w.end).slice(11, 16)}`).join('; ') }) : ''
+    return tf(T.nowmap, { w: P.w, h: P.h, aria: X(C.nowmap_aria), body, caption: X(W(C.nowmap_caption, { date: rows[0].d.date, read: read.slice(0, 16).replace('T', ' '), warn })) })
+}
+function nowTwin(ctx) {
+    const C = copy(ctx)
+    return nowRows(ctx).map(({ t, d, n }) => W(C.nowmap_twin, { name: ctx.md.cell(t.name), max: d.t_max_c, min: d.t_min_c, rain: d.rain_prob_pct, fplace: ctx.md.cell(n.forecast.place), km: n.forecast.km })).join('\n')
+}
+
 // the region's newsroom: every town's loop side by side
 function townsBoard(ctx, region) {
     const C = copy(ctx), c = s => ctx.md.cell(String(s ?? '')), rel = newsroomRel(region)
@@ -271,6 +299,7 @@ function page(ctx, p) {
     let md = `::: vz-hero-slot\n${c(W(C.lede, { id: p.id, name: p.name }))}\n:::\n\n`
     md += `## ${C.h_flow} {#flow}\n\n::: vz-stations-slot\n${list.map(s => `- **${s.n}. ${c(s.label)}: ${c(s.big)} ${c(s.unit)}.** ${s.lines.map(c).join('; ')}`).join('\n')}\n:::\n\n`
     if (placesAt(ctx).has(p.id)) md += `## ${W(C.h_blast, { name: p.name })} {#blast}\n\n${W(C.blast_intro, { name: p.name })}\n\n::: vz-blast-slot\n${blastTwin(ctx, p)}\n:::\n\n`
+    if (p.id === 'algarve' && nowRows(ctx).length) md += `## ${C.h_nowmap} {#now}\n\n${C.nowmap_intro}\n\n::: vz-nowmap-slot\n${nowTwin(ctx)}\n:::\n\n`
     if (p.id === 'algarve') md += `## ${C.h_tree} {#tree}\n\n${C.tree_intro}\n\n::: vz-tree-slot\n${treeTwin(ctx)}\n:::\n\n`
     if (p.id === 'portugal') md += `## ${C.h_agentmap_pt} {#agentmap}\n\n::: vz-agentmap-slot\n${places(ctx).filter(t => t.kind !== 'country' && t.kind !== 'region').map(t => `- ${c(t.name)}: ${c(short(t.agent.toLowerCase()))}`).join('\n')}\n:::\n\n`
     if (p.id === 'algarve') md += `## ${C.h_agentmap} {#agentmap}\n\n::: vz-agentmap-slot\n${places(ctx).filter(t => placesAt(ctx).has(t.id)).map(t => `- ${c(t.name)}: ${c(short(t.agent.toLowerCase()))}`).join('\n')}\n:::\n\n` + townsBoard(ctx, p)
@@ -297,6 +326,7 @@ function page(ctx, p) {
             html = html.replace(/<div class="vz-stations-slot">[\s\S]*?<\/div>/, () => stationsHtml(ctx, p, list))
             html = html.replace(/<div class="vz-chart-slot">[\s\S]*?<\/div>/, () => chart(ctx, p, H))
             html = html.replace(/<div class="vz-blast-slot">[\s\S]*?<\/div>/, () => blastHtml(ctx, p))
+            html = html.replace(/<div class="vz-nowmap-slot">[\s\S]*?<\/div>/, () => nowMapHtml(ctx, p))
             html = html.replace(/<div class="vz-tree-slot">[\s\S]*?<\/div>/, () => treeHtml(ctx))
             if (p.id === 'algarve' || p.id === 'portugal') html = html.replace(/<div class="vz-agentmap-slot">[\s\S]*?<\/div>/, () => agentMap(ctx, p, p.id === 'portugal'))
             html = html.replace(/<div class="vz-run-slot">[\s\S]*?<\/div>/, () => runHtml(ctx, p, H))

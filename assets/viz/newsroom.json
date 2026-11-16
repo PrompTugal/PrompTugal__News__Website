@@ -135,5 +135,11 @@
     "beyond": "beyond",
     "unmarked": "not marked yet"
   },
-  "h_agentmap_pt": "The country's place agents, on the map"
+  "h_agentmap_pt": "The country's place agents, on the map",
+  "h_nowmap": "Now in the Algarve",
+  "nowmap_intro": "Today's forecast for every town, from IPMA's open data, read hourly by the site's own collector with no model: the day's high in the circle, its low and the chance of rain beneath, the circle bluer as rain gets likelier. Each town links to its newsroom.",
+  "nowmap_aria": "Today's IPMA forecast for each Algarve town: high and low temperature and chance of rain",
+  "nowmap_caption": "Forecast for {date}, read from IPMA at {read} UTC (api.ipma.pt open data; each town uses its nearest IPMA forecast place). Not a warning service: follow IPMA (ipma.pt) and ANEPC. {warn}",
+  "nowmap_warn": "IPMA warnings for the Faro district: {list}.",
+  "nowmap_twin": "- {name}: {max}° high, {min}° low, {rain}% chance of rain (forecast for {fplace}, {km} km away)"
 }
