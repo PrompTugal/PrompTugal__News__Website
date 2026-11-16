@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1520",
+    "date": "2026-11-16",
+    "what": "place.portimao@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "place.portimao@PrompTugal.dinis",
+    "from": "9977af4cc"
+  },
+  {
     "version": "v0.1.1519",
     "date": "2026-11-16",
     "what": "dev.places@PrompTugal.dinis: hourly wake 00:13: status and run report (talk must-fix 1; the topics bug that held place articles)",
