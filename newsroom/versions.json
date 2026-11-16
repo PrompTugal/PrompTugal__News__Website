@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1581",
+    "date": "2026-11-16",
+    "what": "place.lagoa@PrompTugal.dinis: run report of the 06:40 wake",
+    "by": "place.lagoa@PrompTugal.dinis",
+    "from": "e2a7dcef0"
+  },
+  {
     "version": "v0.1.1580",
     "date": "2026-11-16",
     "what": "place.lagoa@PrompTugal.dinis: Lagoa's page goes live (thin on AI, honest about its gaps); debrief and status updated",
