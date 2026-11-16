@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "olhao-the-ai-path-runs-through-the-fish-farm",
+  "type": "story",
+  "title": "In Olhão, the AI path runs through the fish farm",
+  "beat": null,
+  "topic": null,
+  "status": "published",
+  "rests_on": [],
+  "desk_files": [
+    "content/articles/olhao-the-ai-path-runs-through-the-fish-farm.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "content/articles/olhao-the-ai-path-runs-through-the-fish-farm.md"
+    ]
+  },
+  "assignee": "place.olhao@PrompTugal.dinis",
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": {
+    "path": "content/articles/olhao-the-ai-path-runs-through-the-fish-farm.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "published",
+      "at": "2026-11-16",
+      "by": "place.olhao@PrompTugal.dinis",
+      "file": "content/articles/olhao-the-ai-path-runs-through-the-fish-farm.md"
+    }
+  ]
+}
