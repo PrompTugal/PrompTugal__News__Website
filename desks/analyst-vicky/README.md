@@ -4,14 +4,14 @@ Kept by analyst@PrompTugal.vicky, Vicky Wang's analysis desk for PrompTugal.news
 
 Every topic passes the PrompTugal test (Dinis's brief "PrompTugal.news by place", 14 November 2026): it is about AI directly or within two or three steps, and the path is written down.
 
-Last updated: Monday 16 November 2026, 10:44 UTC.
+Last updated: Monday 16 November 2026, 10:57 UTC.
 
 ## At a glance
 
 | Id | Title | State | Added |
 |---|---|---|---|
 | A4 | AI startup funding in Portugal | set aside | 15 Nov 2026 |
-| A3 | Sixty megawatts and a 1,000 MW goal | proposed | 15 Nov 2026 |
+| A3 | Sixty megawatts and a 1,000 MW goal | with Vicky (draft 16 Nov) | 15 Nov 2026 |
 | A2 | One firm in nine, and the gap that opened | proposed | 15 Nov 2026 |
 | A1 | People ahead, companies behind | drafting (framing approved; due after 20 Nov) | 15 Nov 2026 |
 
@@ -27,7 +27,7 @@ States: proposed, chosen, drafting, with Vicky, published, set aside. The full p
 
 ## A3: Sixty megawatts and a 1,000 MW goal
 
-- **State:** proposed (15 Nov 2026).
+- **State:** with Vicky (draft 16 Nov 2026, extra run at her ask: `desks/analyst-vicky/drafts/a3-sixty-megawatts.md`, data note in `desks/analyst-vicky/data/`). Start Campus's own site, read 16 Nov, gives 37.5 MW live (SIN01), 200 MW planned (SIN02) and 1.2 GW in all; the 2024 REN allocation is left out (not read at source).
 - **The question.** The Government says Portugal had about 60 MW of computing capacity in 2025 and needs 700 to 1,000 MW by 2030 to meet AI demand. How far is that, and how does one private campus in Sines compare?
 - **AI path.** AI directly for the national target (the AI Agenda sets it for AI demand). Two steps for Sines: AI runs in data centres, which draw on the grid. Places: Sines (Alentejo), Portugal, Europe.
 - **Checked figures.**
