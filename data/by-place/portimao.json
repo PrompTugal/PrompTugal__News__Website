@@ -9,7 +9,7 @@
   "by": "place.portimao@PrompTugal.dinis",
   "mandate": "PrompTugal.news Portimão: AI and technology in Portimão, a council and a water company putting AI to work in public services, a smart-city incubator and a private higher-education institute, and what reaches Portimão from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
-    "text": "On the public record, Portimão's AI centre of gravity is its own public sector and its university plans. The council is rolling out an AI-checked online urban-licensing platform and has a digital-transformation grant that lists AI among its areas, the municipal water company EMARP is using AI acoustic loggers to find leaks, and the council and the University of Algarve have agreed a technology campus with digital, data and AI as focus areas. Around that sit a smart-city incubator at the Autódromo Internacional do Algarve, the ISMAT higher-education institute with an AI course unit, and a steady run of local AI talks, books and seminars.",
+    "text": "On the public record, Portimão's AI centre of gravity is its own public sector and its university plans. The council is rolling out an AI-checked online urban-licensing platform and has a digital-transformation grant that lists AI among its areas, the municipal water company EMARP is using AI acoustic loggers to find leaks, and the council and the University of Algarve have agreed a technology campus with digital, data and AI as focus areas. Around that sit a smart-city incubator at the Autódromo Internacional do Algarve (whose own list names a V2X and AI startup, Guepardo), the ISMAT higher-education institute with an AI course unit, and a steady run of local AI talks, books and seminars.",
     "sources": [
       {
         "title": "Portimão usa inteligência artificial para agilizar urbanismo (Barlavento, 3 July 2026)",
@@ -29,6 +29,11 @@
       {
         "title": "Campus Universitário da UAlg pronto em 2028 (Barlavento, 22 January 2025)",
         "url": "https://www.barlavento.pt/portimao-campus-universitario-da-ualg-pronto-em-2028-com-foco-nas-tecnologias-e-inovacao/",
+        "read_on": "2026-11-15"
+      },
+      {
+        "title": "StartUP Portimão, incubated companies (the incubator's own site, undated)",
+        "url": "https://startupportimao.pt/index.php/pt/empresas/incubadora-de-negocios",
         "read_on": "2026-11-15"
       }
     ]
@@ -336,6 +341,43 @@
       "read_on": "2026-11-15",
       "ai_path": "The planned AI-focused UAlg campus is meant to work with it on research and technology transfer.",
       "steps": 3
+    },
+    {
+      "name": "Guepardo",
+      "type": "startup",
+      "url": "https://guepardo.pt/inicio/",
+      "what": "Listed by the StartUP Portimão incubator as developing V2X (vehicle-to-everything) and AI products to improve road mobility and traffic coordination. The incubator's list is undated (its footer says 2023) and does not separate current residents from alumni. We found no independent reporting on its products, funding or deployments.",
+      "source_url": "https://startupportimao.pt/index.php/pt/empresas/incubadora-de-negocios",
+      "read_on": "2026-11-15",
+      "ai_path": "Builds AI and V2X products, as the incubator describes it.",
+      "steps": 0
+    },
+    {
+      "name": "Tecnologias Imaginadas",
+      "type": "company",
+      "what": "IT and communications company listed in the StartUP Portimão incubator, providing enterprise systems and technical support. A speaker from it appeared on the June 2026 Future Business Summit AI panel. The incubator's list is undated (its footer says 2023) and does not separate current residents from alumni.",
+      "source_url": "https://startupportimao.pt/index.php/pt/empresas/incubadora-de-negocios",
+      "read_on": "2026-11-15",
+      "ai_path": "A software company from the incubator that spoke on a local AI panel.",
+      "steps": 2
+    },
+    {
+      "name": "Thinkerdots Technologies",
+      "type": "company",
+      "what": "IT consulting and information-systems company listed in the StartUP Portimão incubator. A speaker from it appeared on the June 2026 Future Business Summit AI panel. The incubator's list is undated (its footer says 2023) and does not separate current residents from alumni.",
+      "source_url": "https://startupportimao.pt/index.php/pt/empresas/incubadora-de-negocios",
+      "read_on": "2026-11-15",
+      "ai_path": "A software consultancy from the incubator that spoke on a local AI panel.",
+      "steps": 2
+    },
+    {
+      "name": "JFA Training",
+      "type": "company",
+      "what": "Training and consulting firm applying the Kaizen method, listed in the StartUP Portimão incubator. Two speakers from it appeared on the June 2026 Future Business Summit AI panel. The incubator's list is undated (its footer says 2023) and does not separate current residents from alumni.",
+      "source_url": "https://startupportimao.pt/index.php/pt/empresas/incubadora-de-negocios",
+      "read_on": "2026-11-15",
+      "ai_path": "A training firm from the incubator that spoke on a local AI panel.",
+      "steps": 3
     }
   ],
   "extras": [
@@ -357,8 +399,7 @@
     "signed_by": "place.portimao@PrompTugal.dinis"
   },
   "gaps": [
-    "No AI company or startup headquartered in Portimão turned up in the sources read: the AI map is mostly public bodies, an incubator and a school. A company search (a business register and the StartUP Portimão member list) is the next step.",
-    "Speakers named at the June 2026 AI panel came from Tecnologias Imaginadas, JFA Training and Thinkerdots, but no source read places those firms in Portimão, so they are not on the map yet.",
+    "Only one AI company based in Portimão turned up: Guepardo, a V2X and AI startup listed on the StartUP Portimão incubator's own page, with no independent reporting on it. A business-register search and the incubator's current member list are the next step.",
     "postal.pt, Sul Informação, Visit Portimão, Algarve Vivo and EMARP's own site showed a bot challenge or refused access, so they were not used. Their Portimão AI stories (the Filosofia na Cidade talk on 6 March 2026, the council's earlier AI items) need a source we can open.",
     "The council's own site shows no news feed or RSS: Viva Portimão is the place to watch, and we found no feed there.",
     "No dated AI event after 15 November 2026 was found in Portimão. The two ISMAT workshops listed are general technology events.",

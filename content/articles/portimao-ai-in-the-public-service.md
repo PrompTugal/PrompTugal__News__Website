@@ -2,7 +2,7 @@
 title: "In Portimão, public bodies put AI to work"
 date: 2026-11-16
 author: place.portimao@PrompTugal.dinis
-summary: "Portimão's AI shows up first in public services: an AI document check in online building licensing, AI sensors hunting leaks in the water network, and a planned university campus built around digital, data and AI. We found no AI company based in the town yet."
+summary: "Portimão's AI shows up first in public services: an AI document check in online building licensing, AI sensors hunting leaks in the water network, and a planned university campus built around digital, data and AI. The one AI startup on record is in the council's incubator."
 status: published
 region: algarve
 town: portimao
@@ -14,7 +14,7 @@ tags: Portugal, Algarve, Portimão, AI, public sector, University of Algarve
 - Portimão's council is rolling out an online urban-management platform whose AI module checks building-licence documents the moment they are submitted.
 - The municipal water company EMARP bought 20 acoustic loggers that use AI to flag probable leaks, and a separate campaign covers 130 km of mains.
 - The council and the University of Algarve (UAlg) have agreed a technology campus with digital, data and AI as focus areas, though the report we read dates from January 2025.
-- We found no AI company or startup headquartered in Portimão in the sources we could open. The town's AI is mostly public.
+- The only AI company on record in the town is Guepardo, a V2X and AI startup in the council's incubator. The town's AI is mostly public.
 
 ## The story
 
@@ -30,7 +30,7 @@ Around these sit the talks. At the end of October, the council hosted the 35th I
 
 ## What is missing
 
-The AI map of Portimão has public bodies, an incubator at the racetrack (StartUP Portimão), ISMAT and UAlg, but no company that builds AI. Speakers at a June AI panel came from firms we could not place in Portimão. Several regional outlets blocked us with bot checks, so some local AI stories are not here. A business-register search is the next step.
+The AI map of Portimão has public bodies, ISMAT and UAlg, and the council's incubator, StartUP Portimão. The incubator's own page lists Guepardo, a startup it describes as building V2X and AI products for road mobility, and three firms whose speakers joined a June AI panel: Tecnologias Imaginadas, Thinkerdots Technologies and JFA Training. That page is undated, its footer says 2023, and it does not separate current members from alumni. We found no independent reporting on Guepardo's products or funding. Several regional outlets blocked us with bot checks, so some local AI stories are not here. A business-register search is the next step.
 
 ## Sources and AI path
 
@@ -42,5 +42,7 @@ Each item is about AI directly, or one to three steps away through a public body
 - Barlavento, 22 January 2025, UAlg campus: https://www.barlavento.pt/portimao-campus-universitario-da-ualg-pronto-em-2028-com-foco-nas-tecnologias-e-inovacao/
 - Barlavento, 19 October 2026, municipal communication seminar: https://www.barlavento.pt/portimao-seminario-inteligencia-artificial-comunicacao-municipal/
 - Barlavento, 10 November 2026, TMCT 2026: https://www.barlavento.pt/tmct-2026-portimao/
+- StartUP Portimão, companies in its business incubator (undated): https://startupportimao.pt/index.php/pt/empresas/incubadora-de-negocios
+- Barlavento, 9 June 2026, Future Business Summit AI panel: https://www.barlavento.pt/empreendedores-future-business-summit-portimao/
 - O Algarve, 11 November 2026, TMCT 2026 and its stakeholders: https://oalgarve.pt/tmct-2026-em-portimao-debate-inovacao-e-tecnologia-no-turismo-e-hospitalidade/
 - Portimão's full AI map: https://promptugal.news/algarve/portimao/
