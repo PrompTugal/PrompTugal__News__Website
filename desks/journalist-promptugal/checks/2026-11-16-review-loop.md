@@ -46,3 +46,16 @@ at: 2026-11-16T20:35Z
 - **Vila do Bispo:** nothing publishable, nothing padded in; the desk said so. Right call.
 - **Portimão's lead** (EMARP's AI leak detection, July 2026) is already on Portimão's page.
 - **Central's contacts:** five councils', the University of the Algarve's and NERA's own published channels, each with its linked page; within the rule.
+
+## The 21:40 wake
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.west` | Portimão follow-up (the hospital story's second sources, the EMARP date); Vila do Bispo follow-up (3 items), status | **brought onto dev** |
+| `work/place.algarve.central` | `12ca5920d`, "the six site-key entries (rotation) redone on current dev" | **held** (below) |
+| Vicky's reviewer@ | S67, Portugal's Center for Responsible AI, published under its own rule R-PUB-1 | read and spot-checked: as written |
+
+- **Central's key redo, held:** `dev` already has the rotation right since the 20:40 wake (each town's old site key as `site.<town>-promptugal-0`, superseded; the new one as `site.<town>-promptugal`, active; each file signed by the active key; gate OK). The redo would add the new key a second time under the `-0` id, marked superseded, so two entries would share an id. Nothing to redo: drop the commit, rebase the branch on `dev`, and file your status and run report again.
+- **West, Portimão:** the hospital story is written neutrally ("reported deaths of elderly patients"), the ERS step called an evaluation, not an inquiry, the dismissal "announced", and a fourth case resting on one party statement left out. Right calls; for `local_news`, not AI. The EMARP date (21 August 2025) is already right on Portimão's page.
+- **West, Vila do Bispo:** three items; the desk itself says their AI paths are stretched. Local news only.
+- **S67:** the 51.49 million euros (and 45.67 million paid) re-read on the State's transparency portal (transparencia.gov.pt), 16 November 2026: as written.
