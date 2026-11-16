@@ -215,7 +215,7 @@
     {
       "url": "https://24noticias.sapo.pt/local/faro/monchique",
       "host": "24noticias.sapo.pt",
-      "captured_at": "2026-11-16T11:20:25Z",
+      "captured_at": "2026-11-16T12:23:43Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -224,8 +224,8 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/24noticias.sapo.pt/290485181f34.jpg",
-        "sha256": "779aee6bf0d9759b870af57339a3ca50ee9244c65190062d4d3d6d1ff025d0ba",
-        "bytes": 19292,
+        "sha256": "ca27b41f57b10660090ab37ec67289910aaf2789400f7164471957cd1ef576e1",
+        "bytes": 19279,
         "width": 1280,
         "height": 1600
       },
@@ -246,7 +246,7 @@
     {
       "url": "https://24noticias.sapo.pt/local/faro/vila-real-de-santo-antonio",
       "host": "24noticias.sapo.pt",
-      "captured_at": "2026-11-16T11:19:11Z",
+      "captured_at": "2026-11-16T12:22:29Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -271,6 +271,37 @@
           "kind": "source",
           "n": 10,
           "label": "24notícias, Vila Real de Santo António page (Madre Media, regional news archive for the town)"
+        }
+      ]
+    },
+    {
+      "url": "https://adr-association.eu/events/ai-data-robotics-forum-2026",
+      "host": "adr-association.eu",
+      "captured_at": "2026-11-16T12:28:14Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://adr-association.eu/events/ai-data-robotics-forum-2026",
+      "title": "AI, Data, Robotics Forum 2026 | Adra Association",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/adr-association.eu/52484ddd32c4.jpg",
+        "sha256": "333588df313f89f35ecdc61c36e6e183416d8e11455ec839b3f73277b495449f",
+        "bytes": 183961,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/adr-association.eu/52484ddd32c4.txt",
+        "sha256": "891645c2894807c420306add910e60634abe28cf4e7007c86f6be673c2646933",
+        "chars": 2469
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "event",
+          "n": 5,
+          "label": "AI, Data and Robotics Forum 2026 (ADRF26, INESC TEC as scientific organiser, Porto)"
         }
       ]
     },
@@ -444,6 +475,37 @@
           "kind": "map-site",
           "n": 19,
           "label": "Fraunhofer Portugal AICOS"
+        }
+      ]
+    },
+    {
+      "url": "https://aicos.fraunhofer.pt/en/news.html",
+      "host": "aicos.fraunhofer.pt",
+      "captured_at": "2026-11-16T12:28:29Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.aicos.fraunhofer.pt/en/news.html",
+      "title": "Latest News - Fraunhofer Portugal AICOS",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/aicos.fraunhofer.pt/0afac680b37f.jpg",
+        "sha256": "1b93a9fee00fffc929d005d4265e8941b455a405e208e0c2a227fbd667f01371",
+        "bytes": 236073,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/aicos.fraunhofer.pt/0afac680b37f.txt",
+        "sha256": "9f9c9f17011a8626d1b3094733b6a2363edc5d5531402e5e26fdafffd9e74789",
+        "chars": 4355
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "source",
+          "n": 11,
+          "label": "Fraunhofer Portugal AICOS news"
         }
       ]
     },
@@ -682,7 +744,7 @@
     {
       "url": "https://algarvedailynews.com",
       "host": "algarvedailynews.com",
-      "captured_at": "2026-11-16T11:16:40Z",
+      "captured_at": "2026-11-16T12:19:58Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -713,7 +775,7 @@
     {
       "url": "https://algarveevolution.pt",
       "host": "algarveevolution.pt",
-      "captured_at": "2026-11-16T11:20:56Z",
+      "captured_at": "2026-11-16T12:24:14Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -804,9 +866,40 @@
       ]
     },
     {
+      "url": "https://algoritmi.uminho.pt",
+      "host": "algoritmi.uminho.pt",
+      "captured_at": "2026-11-16T12:29:44Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 502,
+      "final_url": "https://algoritmi.uminho.pt/",
+      "title": "",
+      "note": "the server answered 502",
+      "image": {
+        "path": "captures/2026-11-16/algoritmi.uminho.pt/d6eccd54de84.jpg",
+        "sha256": "9f7e1a2006950af55fea0cca6fda28e6cd6cffa37fbf4cd49faede723dcd1f45",
+        "bytes": 14263,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/algoritmi.uminho.pt/d6eccd54de84.txt",
+        "sha256": "ed177fc03ad82e4b5ce644510c6b0f138e3d78f94b56c804d1ddf21d5edb1f42",
+        "chars": 23
+      },
+      "cited_by": [
+        {
+          "place": "braga",
+          "kind": "map-site",
+          "n": 24,
+          "label": "Centro ALGORITMI (UMinho)"
+        }
+      ]
+    },
+    {
       "url": "https://anacom.pt/render.jsp?contentId=1828354",
       "host": "anacom.pt",
-      "captured_at": "2026-11-16T11:21:14Z",
+      "captured_at": "2026-11-16T12:24:32Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -1466,7 +1559,7 @@
     {
       "url": "https://brigantia-ecopark.pt",
       "host": "brigantia-ecopark.pt",
-      "captured_at": "2026-11-16T10:26:51Z",
+      "captured_at": "2026-11-16T12:29:25Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -1953,7 +2046,7 @@
     {
       "url": "https://cm-aljezur.pt/pt/menu/105/aljezur-para-investir.aspx",
       "host": "cm-aljezur.pt",
-      "captured_at": "2026-11-16T11:21:06Z",
+      "captured_at": "2026-11-16T12:24:24Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -2211,7 +2304,7 @@
     {
       "url": "https://cms.cm-vrsa.pt/upload_files/client_id_1/website_id_1/Atividade%20Municipal/Atividades%20economicas/Gabinete%20do%20empreendorismo/Brochura_Gabinete%20do%20Empreendedorismo.pdf",
       "host": "cms.cm-vrsa.pt",
-      "captured_at": "2026-11-16T11:19:21Z",
+      "captured_at": "2026-11-16T12:22:40Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -2588,7 +2681,7 @@
     {
       "url": "https://dealroom.co/news",
       "host": "dealroom.co",
-      "captured_at": "2026-11-16T11:24:17Z",
+      "captured_at": "2026-11-16T12:26:53Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -2619,7 +2712,7 @@
     {
       "url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
       "host": "dealroom.co",
-      "captured_at": "2026-11-16T11:16:34Z",
+      "captured_at": "2026-11-16T12:19:52Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -2668,7 +2761,7 @@
     {
       "url": "https://dealroom.co/news/135231-coalex-ai-raises-angel-round-from-angels-way-to-build-its-ai-trust-layer/",
       "host": "dealroom.co",
-      "captured_at": "2026-11-16T11:16:33Z",
+      "captured_at": "2026-11-16T12:19:50Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -2773,7 +2866,7 @@
     {
       "url": "https://diariodarepublica.pt/dr/detalhe/anuncio-procedimento/33066-2025-992176457",
       "host": "diariodarepublica.pt",
-      "captured_at": "2026-11-16T10:25:48Z",
+      "captured_at": "2026-11-16T12:29:18Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -4409,6 +4502,37 @@
       ]
     },
     {
+      "url": "https://economia.cm-porto.pt/empreendedorismo/empreendedorismo",
+      "host": "economia.cm-porto.pt",
+      "captured_at": "2026-11-16T12:28:38Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://economia.cm-porto.pt/empreendedorismo/empreendedorismo",
+      "title": "Empreendedorismo | Economia",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/economia.cm-porto.pt/b2c96662b0e0.jpg",
+        "sha256": "3fc97b950bb22e250bcf4e3af7150f1da3dce3e7be9bb6dd3f5fa3b6e31f82cf",
+        "bytes": 177332,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/economia.cm-porto.pt/b2c96662b0e0.txt",
+        "sha256": "be096cc80761db4601446b9e74faf56e9844ddca3015b5c804d6bca6ecc0e734",
+        "chars": 2137
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "source",
+          "n": 13,
+          "label": "Council business and entrepreneurship desk"
+        }
+      ]
+    },
+    {
       "url": "https://edp.com",
       "host": "edp.com",
       "captured_at": "2026-11-16T00:21:32Z",
@@ -4485,7 +4609,7 @@
     {
       "url": "https://elevateddesign.pt/",
       "host": "elevateddesign.pt",
-      "captured_at": "2026-11-16T11:19:24Z",
+      "captured_at": "2026-11-16T12:22:42Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -5357,6 +5481,74 @@
           "article": "women-learning-and-building-ai-in-portugal",
           "kind": "article",
           "label": "women-learning-and-building-ai-in-portugal"
+        }
+      ]
+    },
+    {
+      "url": "https://executivedigest.sapo.pt/",
+      "host": "executivedigest.sapo.pt",
+      "captured_at": "2026-11-16T12:28:57Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://executivedigest.sapo.pt/",
+      "title": "Executive Digest: notícias de economia, gestão e negócios",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/executivedigest.sapo.pt/7414cd1a9888.jpg",
+        "sha256": "d99724b2e378ce66a80f9d39caa5f0ef643884dda2e7782a2eb1715e28e83832",
+        "bytes": 212297,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/executivedigest.sapo.pt/7414cd1a9888.txt",
+        "sha256": "caf49075139f6b49b59525e228917b8303abfc835da65a641e33d129f3ea100d",
+        "chars": 11480
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "source",
+          "n": 16,
+          "label": "Executive Digest"
+        }
+      ]
+    },
+    {
+      "url": "https://executivedigest.sapo.pt/?p=499938",
+      "host": "executivedigest.sapo.pt",
+      "captured_at": "2026-11-16T12:29:34Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://executivedigest.sapo.pt/ia-e-essencial-que-as-empresas-acompanhem-essas-transformacoes-para-se-manterem-competitivas-e-liderarem-nos-seus-setores-diz-carlos-vaz/",
+      "title": "IA: “É essencial que as empresas acompanhem essas transformações para se manterem competitivas e liderarem nos seus setores”, diz Carlos Vaz",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/executivedigest.sapo.pt/84ea4f908132.jpg",
+        "sha256": "7619db64f0ce33c44bf29353b0179aaaf2166eaa9db9d6f6b7630d49f3f777bb",
+        "bytes": 181890,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/executivedigest.sapo.pt/84ea4f908132.txt",
+        "sha256": "1a32b34572869813ca88d41deea3e9cd91a59e0bb9fe85440b3eca0eda72ea04",
+        "chars": 4820
+      },
+      "cited_by": [
+        {
+          "place": "braga",
+          "kind": "map",
+          "n": 24,
+          "label": "Centro ALGORITMI (UMinho)"
+        },
+        {
+          "place": "braga",
+          "kind": "map",
+          "n": 25,
+          "label": "Associacao Empresarial de Braga and inCentea"
         }
       ]
     },
@@ -10501,7 +10693,7 @@
     {
       "url": "https://jornaldoalgarve.pt",
       "host": "jornaldoalgarve.pt",
-      "captured_at": "2026-11-16T11:16:38Z",
+      "captured_at": "2026-11-16T12:19:56Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -10510,14 +10702,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/4911303f8afc.jpg",
-        "sha256": "3e0114edbbae7d5596e6c51f6a751041937646fbf6f760ee37bf14b0cb72ec23",
-        "bytes": 39275,
+        "sha256": "c68403417a387995313cb415db672274e26840dcb69cf2e1c525e389d59d422e",
+        "bytes": 39245,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/4911303f8afc.txt",
-        "sha256": "521c68e6c6c48eaef8eeefd1e408c0cb83734f2368e08a30b2d523b59044c42f",
+        "sha256": "e146a7406eb05d56075a7dc8f281650279702142b12cf0460c8791f9ff1a790c",
         "chars": 279
       },
       "cited_by": [
@@ -10532,7 +10724,7 @@
     {
       "url": "https://jornaldoalgarve.pt/",
       "host": "jornaldoalgarve.pt",
-      "captured_at": "2026-11-16T11:21:12Z",
+      "captured_at": "2026-11-16T12:24:30Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -10541,14 +10733,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/941e71abacc1.jpg",
-        "sha256": "24efbd90ca65cc96a0c979a9504f1cf82f79d72e50740a1baa8ec6422002d68f",
-        "bytes": 39253,
+        "sha256": "0e8bd88ca3926d4b77abb25c364b2505876287b9393b2e6ff26ce7aab858b909",
+        "bytes": 39262,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/941e71abacc1.txt",
-        "sha256": "005060989ae0ad5d305280f0865dd3c1a9ac17f763e532c80e93600a136d43ef",
+        "sha256": "f28b77ff888f8c7b4242bcd1f6835301bcc77667c72ed901c4eb31d067d987f5",
         "chars": 279
       },
       "cited_by": [
@@ -10928,7 +11120,7 @@
     {
       "url": "https://lisboaaberta.cm-lisboa.pt",
       "host": "lisboaaberta.cm-lisboa.pt",
-      "captured_at": "2026-11-16T11:23:48Z",
+      "captured_at": "2026-11-16T12:26:51Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -10937,14 +11129,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/e88e0f52bdde.jpg",
-        "sha256": "93202e6cbf3fb82aa54777bdb7aae7e3787d24e8504821f927ddfd4cbe03d9bb",
-        "bytes": 40148,
+        "sha256": "67c5726081e007bbc38f79ea16c113efef9d52c4a7922dd7ba325e275fa9a63e",
+        "bytes": 40178,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/e88e0f52bdde.txt",
-        "sha256": "62b75a7ae1c4de66273581975b1efb676b0bd133dfece4de8f8b4391f079f926",
+        "sha256": "ef6c4f8397fb19519a521fe64b8dd6fadb0f60e09a137c8398e4a6fd22a85225",
         "chars": 286
       },
       "cited_by": [
@@ -10965,7 +11157,7 @@
     {
       "url": "https://lisboaaberta.cm-lisboa.pt/index.php/pt/lx-data-lab/desafios",
       "host": "lisboaaberta.cm-lisboa.pt",
-      "captured_at": "2026-11-16T11:23:45Z",
+      "captured_at": "2026-11-16T12:26:48Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -10974,14 +11166,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/896372b8cfac.jpg",
-        "sha256": "3e0fde2136f16048b6b13509552b3d40ce6a03b284c0d3be84ec27b430630663",
-        "bytes": 40214,
+        "sha256": "2af27aadf0ab152fa75cc0b9900fba093431c8c87db21db4ed5fdaf14bb7b9d1",
+        "bytes": 40179,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/896372b8cfac.txt",
-        "sha256": "419dacc5cc636f941fa8b7ec09c25af8e270cbfe086c92c6d4e179cd5263f83c",
+        "sha256": "f9e9b14667f3dbf5c445f0cc225dc979709e4651875cbb8a94a98eae4a4f3ea6",
         "chars": 286
       },
       "cited_by": [
@@ -11231,6 +11423,37 @@
           "kind": "map",
           "n": 5,
           "label": "Vilamoura World (Arrow Global), developer and marina operator"
+        }
+      ]
+    },
+    {
+      "url": "https://marketeer.sapo.pt/",
+      "host": "marketeer.sapo.pt",
+      "captured_at": "2026-11-16T12:28:49Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://marketeer.sapo.pt/",
+      "title": "Marketeer: marketing, publicidade, marcas e comunicação",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/marketeer.sapo.pt/d5dcb0dd76da.jpg",
+        "sha256": "cef10c5c30752415be0c1dc34d138429a8c07c0db359d10a4d3173a5555506ff",
+        "bytes": 248262,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/marketeer.sapo.pt/d5dcb0dd76da.txt",
+        "sha256": "77e4cc25bd702bc5f9c3862e094c3a777d573a1547080d865aaa1e2d5ec1a0c9",
+        "chars": 6684
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "source",
+          "n": 15,
+          "label": "Marketeer"
         }
       ]
     },
@@ -11965,7 +12188,7 @@
     {
       "url": "https://noticias.uc.pt/en/articles/the-centre-for-informatics-and-systems-of-the-university-of-coimbra-joins-the-largest-global-artificial-intelligence-consortium/",
       "host": "noticias.uc.pt",
-      "captured_at": "2026-11-16T10:27:44Z",
+      "captured_at": "2026-11-16T12:30:13Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -11974,14 +12197,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/noticias.uc.pt/6bbf9d9b114e.jpg",
-        "sha256": "c9bc10f562c722c7acfe0408fdf718a788461d1f840dfe250295586cfc4757fa",
-        "bytes": 36397,
+        "sha256": "ed0f348498dfe8eba253f184e598fa0ccf7f622174004f79f759047d85cba312",
+        "bytes": 36363,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/noticias.uc.pt/6bbf9d9b114e.txt",
-        "sha256": "f8f8168878f947514845097aeadf7f2f183c81668aef59239a84354024c37d0d",
+        "sha256": "41a53caabc3139c691129aa0811cde69c1baf73afa2eb9484c1ca9bf97017d83",
         "chars": 58
       },
       "cited_by": [
@@ -12157,6 +12380,37 @@
           "kind": "map",
           "n": 20,
           "label": "LIACC (AI and Computer Science Laboratory, FEUP)"
+        }
+      ]
+    },
+    {
+      "url": "https://noticias.up.pt/2026/10/23/feup-recebe-cimeira-europeia-de-lideres-de-informatica/",
+      "host": "noticias.up.pt",
+      "captured_at": "2026-11-16T12:28:18Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://noticias.up.pt/2026/10/23/feup-recebe-cimeira-europeia-de-lideres-de-informatica/",
+      "title": "FEUP recebe Cimeira Europeia de Líderes de Informática",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/noticias.up.pt/0781d44fa093.jpg",
+        "sha256": "db492f62c77289d5edf2bbd9e90680882b357bc9eeae03f51c68ae15e984e2b2",
+        "bytes": 229551,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/noticias.up.pt/0781d44fa093.txt",
+        "sha256": "989f808791bd8f7f771713d7b819dd263eaa0f7820a103bfffa7f01a3bcbf325",
+        "chars": 5820
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "event",
+          "n": 6,
+          "label": "ECSS 2026, European summit of informatics leaders (Informatics Europe, at FEUP)"
         }
       ]
     },
@@ -12539,15 +12793,25 @@
     {
       "url": "https://noticias.utad.pt/blog/2026/09/09/inteligencia-artificial-generativa-ensino-controlo-automatico-conferencia-mundial-ifac-2026/",
       "host": "noticias.utad.pt",
-      "captured_at": "2026-11-16T10:24:50Z",
+      "captured_at": "2026-11-16T12:29:06Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": null,
-      "final_url": null,
-      "title": null,
-      "note": "not captured: page.goto: Timeout 30000ms exceeded.",
-      "image": null,
-      "text": null,
+      "ok": true,
+      "status": 200,
+      "final_url": "https://noticias.utad.pt/blog/2026/09/09/inteligencia-artificial-generativa-ensino-controlo-automatico-conferencia-mundial-ifac-2026/",
+      "title": "Inteligência Artificial Generativa no Ensino do Controlo Automático debatida na Conferência Mundial IFAC 2026 – Notícias",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/noticias.utad.pt/577415f08863.jpg",
+        "sha256": "db69f8062549aea1d3853d17df9b5bfb1da237561455e0d5d05c3a96963c29cc",
+        "bytes": 223378,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/noticias.utad.pt/577415f08863.txt",
+        "sha256": "b6503c9570eb0515ecff65a5dbfa868a37f47f1aeabca77040af485e51d68f6c",
+        "chars": 4966
+      },
       "cited_by": [
         {
           "place": "vila-real",
@@ -12597,15 +12861,25 @@
     {
       "url": "https://noticias.utad.pt/blog/2026/09/18/utad-reune-especialistas-internacionais-debater-futuro-producao-animal/",
       "host": "noticias.utad.pt",
-      "captured_at": "2026-11-16T10:24:20Z",
+      "captured_at": "2026-11-16T12:29:04Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": null,
-      "final_url": null,
-      "title": null,
-      "note": "not captured: page.goto: Timeout 30000ms exceeded.",
-      "image": null,
-      "text": null,
+      "ok": true,
+      "status": 200,
+      "final_url": "https://noticias.utad.pt/blog/2026/09/18/utad-reune-especialistas-internacionais-debater-futuro-producao-animal/",
+      "title": "UTAD reúne especialistas internacionais para debater o futuro da produção animal – Notícias",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/noticias.utad.pt/2c623303436c.jpg",
+        "sha256": "2244aec90ec288787a51d5fdda169de70e971195b36404e2f49eb8b538b81629",
+        "bytes": 164938,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/noticias.utad.pt/2c623303436c.txt",
+        "sha256": "c8f36575db1e65889064ca5aab40e29876a08716c202a99bdb3e2e2546a2a7bd",
+        "chars": 4178
+      },
       "cited_by": [
         {
           "place": "vila-real",
@@ -13094,6 +13368,37 @@
           "kind": "news",
           "n": 1,
           "label": "Wider news: the government's APIS pilots bring AI to early fire detection in protected areas, not in Monchique"
+        }
+      ]
+    },
+    {
+      "url": "https://observador.pt/2026/06/08/portugal-integra-rede-de-aceleradores-da-nato-diana/",
+      "host": "observador.pt",
+      "captured_at": "2026-11-16T12:29:59Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://observador.pt/2026/06/08/portugal-integra-rede-de-aceleradores-da-nato-diana/",
+      "title": "Portugal integra rede de aceleradores da NATO DIANA – Observador",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/observador.pt/45dbd3c74d8a.jpg",
+        "sha256": "e6b8ec367ee9cf9f4149c39a4923aa0b4be52a9b5c7e4928e2733c8957fe53ae",
+        "bytes": 114535,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/observador.pt/45dbd3c74d8a.txt",
+        "sha256": "5c8dde07e90761949025e1019ab84ac9251eb3fac02e3283215ec36c16a2fbca",
+        "chars": 5536
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "news",
+          "n": 6,
+          "label": "Instituto Pedro Nunes runs Portugal's NATO DIANA accelerator"
         }
       ]
     },
@@ -17564,7 +17869,7 @@
     {
       "url": "https://regiao-sul.pt",
       "host": "regiao-sul.pt",
-      "captured_at": "2026-11-16T11:17:24Z",
+      "captured_at": "2026-11-16T12:20:42Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -17573,14 +17878,14 @@
       "note": "a bot challenge or an access page was served; recorded as such, not got round",
       "image": {
         "path": "captures/2026-11-16/regiao-sul.pt/6c20a464b928.jpg",
-        "sha256": "f920518aeccde8d213e4c513cf21a01d2d6be3384c850f7239d8761a9ebebb82",
-        "bytes": 72847,
+        "sha256": "9815e129fc21c01ec4fa9c887d7ae33387b4c720305beba46895023ed0410ece",
+        "bytes": 72859,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/regiao-sul.pt/6c20a464b928.txt",
-        "sha256": "74e15b29910ba30543781715fcfc2c1d4163a85574f7624332308257fa2c8b11",
+        "sha256": "fa775be29de78b09eb477c11a43321270fd5ed26ea181dea8dcd7df8ef0955d8",
         "chars": 690
       },
       "cited_by": [
@@ -19623,7 +19928,7 @@
     {
       "url": "https://uhu.es/sites/otc/files/proyectos_europeos/kttseadrones.pdf",
       "host": "uhu.es",
-      "captured_at": "2026-11-16T11:21:09Z",
+      "captured_at": "2026-11-16T12:24:27Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -19685,7 +19990,7 @@
     {
       "url": "https://unipb.pt",
       "host": "unipb.pt",
-      "captured_at": "2026-11-16T10:26:35Z",
+      "captured_at": "2026-11-16T12:29:22Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -19694,8 +19999,8 @@
       "note": "the page showed almost no text",
       "image": {
         "path": "captures/2026-11-16/unipb.pt/9ae9ec2c9055.jpg",
-        "sha256": "472c3b691f6c261ff623bbf216e770b37d9ce68cf49aafcbdd661da2342526d2",
-        "bytes": 14143,
+        "sha256": "f61f84136eda186cac50f95a962997a5d38b5e6b75df8ddcd6e600dab1d43faf",
+        "bytes": 14141,
         "width": 1280,
         "height": 1600
       },
@@ -19716,6 +20021,37 @@
           "kind": "source",
           "n": 4,
           "label": "Universidade Politécnica de Bragança (formerly Instituto Politécnico de Bragança)"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:28:33Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/958c304ca6ea.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/958c304ca6ea.txt",
+        "sha256": "2b8642dba071c5aca8ed0740a7eafed8ae0b885fdf3fb9e9d60d3a92c94195df",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "source",
+          "n": 12,
+          "label": "UPTEC company directory (AI and Machine Learning tag)"
         }
       ]
     },
@@ -20433,6 +20769,688 @@
       ]
     },
     {
+      "url": "https://uptec.up.pt/en/community/companies/nau21",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:26:59Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/nau21",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/3761fb60e432.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/3761fb60e432.txt",
+        "sha256": "4a108c555de6bd9dc2f30274d9c7415b7e9ae454b07ae7f0df08a0801e099572",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 48,
+          "label": "NAU21"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/neuraspace",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:02Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/neuraspace",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/995c16479314.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/995c16479314.txt",
+        "sha256": "0216c2090969aaf01af25d40aea3a56c575a187c1eee0ff701d3199534afbee6",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 49,
+          "label": "Neuraspace"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/nium",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:06Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/nium",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/92068264796d.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/92068264796d.txt",
+        "sha256": "26cbfeb3181af06130f7d06611e53fd9c191ca5793ebf0bea18a474a1404d88b",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 50,
+          "label": "NIUM"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/onit",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:09Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/onit",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/ce0ed0ee77a5.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/ce0ed0ee77a5.txt",
+        "sha256": "1027ef5b42e21d751d34deab063f16b9bece8e7b6e13d1d4875c41cf443d6f68",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 51,
+          "label": "Onit"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/oxir-healthcare",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:12Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/oxir-healthcare",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/b67c8577f09b.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/b67c8577f09b.txt",
+        "sha256": "61012c590026c49d62a2fca8767fb4dcf136143b331d1c85df286c6b1298f10e",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 52,
+          "label": "OXIR Healthcare"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/present-technologies",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:15Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/present-technologies",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/0d80d31a14be.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/0d80d31a14be.txt",
+        "sha256": "8f35dc616b8f760462851c019c36c862c575c24b031d8ef7ab8ff18b64051754",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 53,
+          "label": "Present Technologies"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/prop-wise",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:18Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/prop-wise",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/450a68509c5a.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/450a68509c5a.txt",
+        "sha256": "dffa971056a27abde477ffd592b06cce74b6eb93bbaf187c1fc6787fb72c78fe",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 54,
+          "label": "PropWise"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/recru",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:22Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/recru",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/ecc8601b85db.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/ecc8601b85db.txt",
+        "sha256": "ed222d4dc4424179ddbf61cf7232531c3b8b836c56c35ac4bec1b532a51092a2",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 55,
+          "label": "RECRU"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/remote-flags",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:25Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/remote-flags",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/2a8e1e95ebfe.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/2a8e1e95ebfe.txt",
+        "sha256": "6a54a6480930470bb9e9d73d6e526d77b04444500858a57c477eae810cc6f7a4",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 56,
+          "label": "Remote Flags"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/savearth",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:28Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/savearth",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/529757592a7b.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/529757592a7b.txt",
+        "sha256": "6e461465c01219b2b91a74cd4272c569de16c3a1d33dd87dab91a054378cf9d0",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 57,
+          "label": "Savearth"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/senti-vue",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:32Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/senti-vue",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/4cd9bb0c1d6b.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/4cd9bb0c1d6b.txt",
+        "sha256": "16d396991d141f5e8e8d0e5cefdcf1bc0de02d3c8f54d0f38af4011054335c19",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 58,
+          "label": "SentiVue"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/solenix-engineering-portugal",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:35Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/solenix-engineering-portugal",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/37e2f13144ae.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/37e2f13144ae.txt",
+        "sha256": "6df28903957b4bcdf8e4d559adfed7bd6f77811d21f9b4edb005bfd0b3da69dc",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 59,
+          "label": "Solenix Engineering Portugal"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/spotmine",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:38Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/spotmine",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/4cb453788010.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/4cb453788010.txt",
+        "sha256": "79dcfed13aec80c8e15467e738c0036f0c47922cfc1de5fb429e3b2e4b3349a3",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 60,
+          "label": "SpotMine"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/susplus",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:41Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/susplus",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/3bcf0932be44.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/3bcf0932be44.txt",
+        "sha256": "5e1cc8be86592e7766da41d862480d73f731bd95fa8b343bbfe082960d40c032",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 61,
+          "label": "Susplus"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/tilect",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:45Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/tilect",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/cd883a04d0c3.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/cd883a04d0c3.txt",
+        "sha256": "13c973305017b1a213b36ef7b567da69ff3802691565f4b349b11a720b463eed",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 62,
+          "label": "Tilect"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/titannis",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:48Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/titannis",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/7a8fdc565670.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/7a8fdc565670.txt",
+        "sha256": "4af20b944deaf664ea4a44a94b485f93e57511d44b57aa0161558525ee087f47",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 63,
+          "label": "Titannis"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/upmax-pro",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:51Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/upmax-pro",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/59aa2fbf21b2.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/59aa2fbf21b2.txt",
+        "sha256": "caca90735e54371c26fdfe27ffe3142b8a4113ebc4a94b875bc278f449321a89",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 64,
+          "label": "Upmax Pro"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/va-systems",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:54Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/va-systems",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/10aca2b5fe51.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/10aca2b5fe51.txt",
+        "sha256": "f6ba8dab8df1788f43419ac7decdb6ec7afd005049f7d43db391ab5288eabdd0",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 65,
+          "label": "VA Systems"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/verbo",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:27:57Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/verbo",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/4f6879b93195.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/4f6879b93195.txt",
+        "sha256": "5800a4c0ebe625d91d39749bc1ed853788b54cf8d3d4e552d52eddbe016ea928",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 66,
+          "label": "Verbo"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/voxelmaps",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:28:01Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/voxelmaps",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/7414347fff76.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/7414347fff76.txt",
+        "sha256": "111682c8a79b741e171922b2c3c695b960767c1c9a2f068171b43cfd6eb97c31",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 67,
+          "label": "Voxelmaps"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/winalist",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:28:04Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/winalist",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/52c04db9ab35.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/52c04db9ab35.txt",
+        "sha256": "a96736d563527d47ca270bad7f2c785cf615a53b446cc94b1f430dda40b0f4ea",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 68,
+          "label": "Winalist"
+        }
+      ]
+    },
+    {
+      "url": "https://uptec.up.pt/en/community/companies/wise-world-",
+      "host": "uptec.up.pt",
+      "captured_at": "2026-11-16T12:28:08Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://uptec.up.pt/en/community/companies/wise-world-",
+      "title": "",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/uptec.up.pt/bae0db2b92af.jpg",
+        "sha256": "a4af83a9294ef5e455f3c326034328162d50980fd1b96e3f59913047351f0780",
+        "bytes": 20289,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/uptec.up.pt/bae0db2b92af.txt",
+        "sha256": "b74d36c26e9c05ba8c5bd660720fd39cf27141a7f64193c5ec2d79a3fe48f5d1",
+        "chars": 129
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "map",
+          "n": 69,
+          "label": "WiseWorld"
+        }
+      ]
+    },
+    {
       "url": "https://uptec.up.pt/en/news-and-media/news/fct-organises-workshop-on-the-ai-factory-at-uptec",
       "host": "uptec.up.pt",
       "captured_at": "2026-11-16T06:25:10Z",
@@ -21112,7 +22130,7 @@
     {
       "url": "https://websig.cm-vrsa.pt/geoportal",
       "host": "websig.cm-vrsa.pt",
-      "captured_at": "2026-11-16T11:18:55Z",
+      "captured_at": "2026-11-16T12:22:13Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -22297,7 +23315,7 @@
     {
       "url": "https://www.aman-alliance.org/Home/ContentDetail/103391",
       "host": "aman-alliance.org",
-      "captured_at": "2026-11-16T10:25:14Z",
+      "captured_at": "2026-11-16T12:29:09Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -26989,7 +28007,7 @@
     {
       "url": "https://www.cm-aljezur.pt",
       "host": "cm-aljezur.pt",
-      "captured_at": "2026-11-16T11:20:46Z",
+      "captured_at": "2026-11-16T12:24:04Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -27514,7 +28532,7 @@
     {
       "url": "https://www.cm-faro.pt",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T11:17:00Z",
+      "captured_at": "2026-11-16T12:20:18Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -27551,7 +28569,7 @@
     {
       "url": "https://www.cm-faro.pt/pt/agenda/91707/novembro-digital.aspx",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T11:17:11Z",
+      "captured_at": "2026-11-16T12:20:28Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -27582,7 +28600,7 @@
     {
       "url": "https://www.cm-faro.pt/pt/agenda/91716/mentes-artificiais-ola-futuro.aspx",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T11:16:50Z",
+      "captured_at": "2026-11-16T12:20:08Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -27619,7 +28637,7 @@
     {
       "url": "https://www.cm-lagoa.pt/comunicacao/eventos",
       "host": "cm-lagoa.pt",
-      "captured_at": "2026-11-16T11:19:31Z",
+      "captured_at": "2026-11-16T12:22:49Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 404,
@@ -27867,7 +28885,7 @@
     {
       "url": "https://www.cm-loule.pt",
       "host": "cm-loule.pt",
-      "captured_at": "2026-11-16T11:17:21Z",
+      "captured_at": "2026-11-16T12:20:39Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -27904,7 +28922,7 @@
     {
       "url": "https://www.cm-loule.pt/",
       "host": "cm-loule.pt",
-      "captured_at": "2026-11-16T11:17:34Z",
+      "captured_at": "2026-11-16T12:20:52Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -27941,7 +28959,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T11:19:52Z",
+      "captured_at": "2026-11-16T12:23:10Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -27972,7 +28990,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/151/protecao-civil.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T11:20:12Z",
+      "captured_at": "2026-11-16T12:23:31Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28003,7 +29021,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/2495/incubadora-de-empresas.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T11:20:23Z",
+      "captured_at": "2026-11-16T12:23:41Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28034,7 +29052,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/260/gabinete-de-empreendedorismo.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T11:20:35Z",
+      "captured_at": "2026-11-16T12:23:53Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28065,7 +29083,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/2796/ficha-de-projeto-vale-incubadoras-e-aceleradoras.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T11:19:41Z",
+      "captured_at": "2026-11-16T12:22:59Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28102,7 +29120,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/noticias-listagem.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T11:20:02Z",
+      "captured_at": "2026-11-16T12:23:20Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28238,7 +29256,7 @@
     {
       "url": "https://www.cm-sbras.pt",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T11:21:34Z",
+      "captured_at": "2026-11-16T12:24:52Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28275,7 +29293,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/24008/gobal-fire.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T11:22:35Z",
+      "captured_at": "2026-11-16T12:25:54Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28306,7 +29324,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/agenda.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T11:23:06Z",
+      "captured_at": "2026-11-16T12:26:24Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28337,7 +29355,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/agenda/38214/sabados-no-mercado.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T11:22:25Z",
+      "captured_at": "2026-11-16T12:25:44Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28368,7 +29386,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1038/gabinete-do-empreendedor.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T11:23:16Z",
+      "captured_at": "2026-11-16T12:26:34Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28399,7 +29417,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T11:21:44Z",
+      "captured_at": "2026-11-16T12:25:03Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28442,7 +29460,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T11:22:05Z",
+      "captured_at": "2026-11-16T12:25:23Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28479,7 +29497,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=3",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T11:21:55Z",
+      "captured_at": "2026-11-16T12:25:13Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28516,7 +29534,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=4",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T11:22:15Z",
+      "captured_at": "2026-11-16T12:25:33Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28547,7 +29565,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1710/sao-bras-on---rede-empresarial.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T11:23:26Z",
+      "captured_at": "2026-11-16T12:26:44Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28578,7 +29596,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias-listagem.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T11:22:56Z",
+      "captured_at": "2026-11-16T12:26:14Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28609,7 +29627,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T11:21:24Z",
+      "captured_at": "2026-11-16T12:24:42Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28658,7 +29676,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias/38244/praca-1914-integra-rede-portuguesa-de-turismo-industrial.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T11:22:46Z",
+      "captured_at": "2026-11-16T12:26:04Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28689,7 +29707,7 @@
     {
       "url": "https://www.cm-silves.pt",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T11:17:54Z",
+      "captured_at": "2026-11-16T12:21:12Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28726,7 +29744,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/agenda.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T11:18:14Z",
+      "captured_at": "2026-11-16T12:21:32Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28757,7 +29775,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/menu/67/gel---gabinete-de-empreendedorismo-local.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T11:18:24Z",
+      "captured_at": "2026-11-16T12:21:42Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28788,7 +29806,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/noticias/32862/silves-acolhe-acoes-de-formacao-do-programa-formacao---proxima.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T11:17:44Z",
+      "captured_at": "2026-11-16T12:21:02Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28825,7 +29843,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/pt/noticias/32055/silves-tem-tudo-e-tem-notavel-obra-realizada.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T11:18:04Z",
+      "captured_at": "2026-11-16T12:21:22Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29317,7 +30335,7 @@
     {
       "url": "https://www.cm-vrsa.pt",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T11:18:34Z",
+      "captured_at": "2026-11-16T12:21:53Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29360,7 +30378,7 @@
     {
       "url": "https://www.cm-vrsa.pt/pt/menu/956/atividades-economicas.aspx",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T11:19:08Z",
+      "captured_at": "2026-11-16T12:22:26Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29391,7 +30409,7 @@
     {
       "url": "https://www.cm-vrsa.pt/pt/noticias/47651/eurocidade-do-guadiana-e-comunidade-europeia-do-desporto-2026.aspx",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T11:18:45Z",
+      "captured_at": "2026-11-16T12:22:03Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30261,7 +31279,7 @@
     {
       "url": "https://www.eurociudadguadiana.eu",
       "host": "eurociudadguadiana.eu",
-      "captured_at": "2026-11-16T11:18:58Z",
+      "captured_at": "2026-11-16T12:22:16Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30989,6 +32007,43 @@
           "article": "glovo-restaurant-agents-getvocal",
           "kind": "article",
           "label": "glovo-restaurant-agents-getvocal"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gocoimbra.pt",
+      "host": "gocoimbra.pt",
+      "captured_at": "2026-11-16T12:30:18Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.gocoimbra.pt/",
+      "title": "GO Coimbra",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/gocoimbra.pt/8533dba5a805.jpg",
+        "sha256": "e57de01a900b94fda10eb233dcfe00ce9e78e08ce8d4e1aa32f2e2eb401395ab",
+        "bytes": 134386,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/gocoimbra.pt/8533dba5a805.txt",
+        "sha256": "5350fa2a33ae2cd1a96f3bd5ce703df996527c5e069d3f8913439c76e3a2919e",
+        "chars": 8685
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 6,
+          "label": "Go Coimbra"
+        },
+        {
+          "place": "coimbra",
+          "kind": "source",
+          "n": 9,
+          "label": "GO Coimbra (investment and innovation agency)"
         }
       ]
     },
@@ -31757,7 +32812,7 @@
     {
       "url": "https://www.ipvc.pt",
       "host": "ipvc.pt",
-      "captured_at": "2026-11-16T10:27:24Z",
+      "captured_at": "2026-11-16T12:29:27Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -32738,6 +33793,37 @@
       ]
     },
     {
+      "url": "https://www.porto.pt/pt/noticias/categoria/economia",
+      "host": "porto.pt",
+      "captured_at": "2026-11-16T12:28:23Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.porto.pt/pt/noticias/categoria/economia",
+      "title": "Economia",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/porto.pt/a33d22ab67f8.jpg",
+        "sha256": "d281ec9140082cdb2a637d08d7962a275c462d72f4ce512c4c23ad0ab7a68545",
+        "bytes": 38450,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/porto.pt/a33d22ab67f8.txt",
+        "sha256": "799eab12c0d5571d7cf7c3c3157f4fbec744041fa0344b09133cd7acaab368b4",
+        "chars": 834
+      },
+      "cited_by": [
+        {
+          "place": "porto",
+          "kind": "source",
+          "n": 9,
+          "label": "Porto city news (Município do Porto)"
+        }
+      ]
+    },
+    {
       "url": "https://www.portugalglobal.pt/en/news/",
       "host": "portugalglobal.pt",
       "captured_at": "2026-11-16T05:27:45Z",
@@ -32876,6 +33962,43 @@
           "article": "where-to-find-portugal",
           "kind": "article",
           "label": "where-to-find-portugal"
+        }
+      ]
+    },
+    {
+      "url": "https://www.portugalglobal.pt/pt/noticias/2026/setembro/neuraspace-capta-15-6-milhões-para-expandir-tecnologia-espacial/",
+      "host": "portugalglobal.pt",
+      "captured_at": "2026-11-16T12:29:51Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.portugalglobal.pt/pt/noticias/2026/setembro/neuraspace-capta-15-6-milh%C3%B5es-para-expandir-tecnologia-espacial/",
+      "title": "Neuraspace capta €15,6 milhões para expandir tecnologia espacial",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/portugalglobal.pt/34c858164072.jpg",
+        "sha256": "a764e501d7a083882f0ad39ebcfa6061643b86498a204288bd5af457550cf6a1",
+        "bytes": 157955,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/portugalglobal.pt/34c858164072.txt",
+        "sha256": "b71cd41e7abd635de67f680a1133de84377514a511ed30f4521a93d824f4a488",
+        "chars": 3105
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "news",
+          "n": 4,
+          "label": "Neuraspace of Coimbra raises 15.6 million euros for its space AI platform"
+        },
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 11,
+          "label": "Neuraspace"
         }
       ]
     },
@@ -33043,7 +34166,7 @@
     {
       "url": "https://www.regiadouro.com/",
       "host": "regiadouro.com",
-      "captured_at": "2026-11-16T10:25:21Z",
+      "captured_at": "2026-11-16T12:29:16Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 503,
@@ -33197,6 +34320,43 @@
           "kind": "source",
           "n": 6,
           "label": "RTP Notícias"
+        }
+      ]
+    },
+    {
+      "url": "https://www.rtp.pt/noticias/economia/sistema-europeu-de-misseis-vai-ter-tecnologia-portuguesa-de-inteligencia-artificial_n1662145",
+      "host": "rtp.pt",
+      "captured_at": "2026-11-16T12:30:05Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.rtp.pt/noticias/economia/sistema-europeu-de-misseis-vai-ter-tecnologia-portuguesa-de-inteligencia-artificial_n1662145",
+      "title": "Sistema europeu de mísseis vai ter tecnologia portuguesa de inteligência artificial",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/rtp.pt/c4d1367f31ea.jpg",
+        "sha256": "5dfd858c5a1cdddc8bc1876360c28160ad373b3fb3d4271ff3b785452f14f6cf",
+        "bytes": 180788,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/rtp.pt/c4d1367f31ea.txt",
+        "sha256": "cdeffca783a45be676a53939f1176ec80bd87338964fe342429238101d13f6bb",
+        "chars": 6786
+      },
+      "cited_by": [
+        {
+          "place": "coimbra",
+          "kind": "news",
+          "n": 9,
+          "label": "Critical Software of Coimbra builds the AI platform for a European missile project"
+        },
+        {
+          "place": "coimbra",
+          "kind": "map",
+          "n": 12,
+          "label": "Critical Software"
         }
       ]
     },
@@ -33591,7 +34751,7 @@
     {
       "url": "https://www.sulinformacao.pt/en/",
       "host": "sulinformacao.pt",
-      "captured_at": "2026-11-16T11:19:27Z",
+      "captured_at": "2026-11-16T12:22:45Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -33600,14 +34760,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/sulinformacao.pt/175bb1b8dfd9.jpg",
-        "sha256": "bd070efe083e63862f1abd4e94a8467903ff50f3d4110772f500d764c25a6f33",
-        "bytes": 40054,
+        "sha256": "641161858e6df2b1325975f155f8ff975b8b35780adfa96c68431b57fc8bc012",
+        "bytes": 40056,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/sulinformacao.pt/175bb1b8dfd9.txt",
-        "sha256": "2cda5e344d5e9be0fca6d38dc78c2e1be09dd96d40926633f7ff85bb52c4f3e9",
+        "sha256": "f5a2d85663c54c27e50d56c8024d9ad31531ac3e3ce9c5ae38193a03c4a7dd83",
         "chars": 281
       },
       "cited_by": [
@@ -34148,7 +35308,7 @@
     {
       "url": "https://www.uc.pt",
       "host": "uc.pt",
-      "captured_at": "2026-11-16T10:27:40Z",
+      "captured_at": "2026-11-16T12:30:09Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -34157,14 +35317,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/uc.pt/5071ce44772a.jpg",
-        "sha256": "40c13eccf3c87c008d1f43b5b38d93215f3b9b67906192a9caada6387805a54a",
-        "bytes": 36343,
+        "sha256": "931c2786af0772d6bfdf54848f3e3a4866db726a7298115fdf1928ac555eebdd",
+        "bytes": 36367,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/uc.pt/5071ce44772a.txt",
-        "sha256": "252c9481626fb30d0d4add4f5ebe24854d1c6bc63ac767e1a693f023adbb8d8e",
+        "sha256": "5a1016feadbfb510445a8f7b1ac8544278a6b08144c2bea78adbd7c34bdba3c5",
         "chars": 58
       },
       "cited_by": [
@@ -34651,5 +35811,5 @@
       ]
     }
   ],
-  "updated": "2026-11-16T11:26:56Z"
+  "updated": "2026-11-16T12:30:18Z"
 }
