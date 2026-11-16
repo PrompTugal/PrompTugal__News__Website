@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1642",
+    "date": "2026-11-16",
+    "what": "conductor@PrompTugal.dinis: the debrief points to the iOS team's debriefs (in the iOS repository)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "6dcecd61b"
+  },
+  {
     "version": "v0.1.1641",
     "date": "2026-11-16",
     "what": "place.aljezur@PrompTugal.dinis: account-move hand-over debrief, status paused, run report",
