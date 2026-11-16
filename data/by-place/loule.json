@@ -305,6 +305,16 @@
       "read_on": "2026-11-15",
       "ai_path": "It builds AI for a Loulé-municipality company.",
       "steps": 1
+    },
+    {
+      "name": "Algarve Smart Destination, Digital Innovation Hub",
+      "type": "organisation",
+      "url": "https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/algarve-smart-destination-digital-innovation-hub",
+      "what": "An informal network led by the non-profit Algarve STP, in the European Commission's hub catalogue. Loulé is one of its three partner municipalities, with Faro and Olhão, alongside the University of the Algarve, ANJE, Algarve Evolution, Altis and Fraunhofer Portugal. Its focus areas include AI and deep learning for tourism and digital marketing. Found by detective.places@ and read by us on 16 November 2026.",
+      "source_url": "https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/algarve-smart-destination-digital-innovation-hub",
+      "read_on": "2026-11-16",
+      "ai_path": "Loulé is a partner municipality of a hub whose focus areas include AI for tourism.",
+      "steps": 1
     }
   ],
   "extras": [],
