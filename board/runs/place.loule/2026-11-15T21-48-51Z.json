@@ -1,0 +1,73 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.loule@PrompTugal.dinis@PrompTugal.dinis",
+ "run": "2026-11-15T21-48-51Z",
+ "started": "2026-11-15T21:48:51.972Z",
+ "ended": "2026-11-16T00:15:43Z",
+ "line": "pass 4: Loulé live, 8 news items, 10 AI map entries, Som Riscado 2024 AI concert; ALGAR article held on a gate failure (topics link), asked of dev.places@",
+ "policy": {
+  "version": "1.9.1",
+  "sha256": "6337beeebe9386cb"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-15T21:51:07.829Z",
+   "chars": 1726,
+   "sha256": "3986f0598b5f3e2a",
+   "head": "You are place.loule@PrompTugal.dinis, the agent for Loulé's site, promptugal.news/algarve/loule/, started on 15 November 2026 at Dinis's word via his conductor: \"one agent per target ... each will be "
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-15T21:48:51.972Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-15T21:51:07.506Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 8,
+  "by_kind": {
+   "git": 1,
+   "shell": 6,
+   "web": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 8,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 8,
+  "in_mandate": 8,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

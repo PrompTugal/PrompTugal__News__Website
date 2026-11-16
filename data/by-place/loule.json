@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "by": "place.loule@PrompTugal.dinis",
   "mandate": "PrompTugal.news Loulé: AI and technology in Loulé, a council using AI tools and the seat of the Algarve's business association, and what reaches Loulé from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -82,6 +82,16 @@
       "url": "https://www.algarveprimeiro.com/d/algar-e-nilgai-recebem-premio-com-projeto-inovador-na-gestao-de-residuos/60124-85",
       "read_on": "2026-11-15",
       "ai_path": "A company based in the Loulé municipality built and uses an AI tool.",
+      "steps": 0
+    },
+    {
+      "title": "Loulé's Som Riscado festival let an AI program direct 25 musicians",
+      "summary": "At the 9th Som Riscado festival, at the council's Cineteatro Louletano on 20 November 2024, an improvised concert called Comprovisação n.º 14 had a computer with artificial intelligence, the Comprovisador, direct 25 musicians. Older news, but the festival runs again in November.",
+      "date": "2024-11-18",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/festival-som-riscado-traz-imagens-do-espaco-e-inteligencia-artificial-a-loule/",
+      "read_on": "2026-11-16",
+      "ai_path": "AI was the conductor of a concert at a council-run venue in Loulé.",
       "steps": 0
     },
     {
@@ -311,8 +321,8 @@
     "Still to look for: the council's LouleXLab (2020), Algarve 2030 AI projects with Loulé partners, UAlg Tec Campus links, and Almancil and Vilamoura tourism-tech firms.",
     "The council's 2026 BTL stand (144 m2, 10 stations) is described without any mention of AI, so only the 2025 stand is a news item.",
     "Loulé's 2.5 million euro digital programme for the interior, with 5G elderly teleassistance by NOS and HopeCare, is left out: the articles we read mention no AI.",
-    "A Sul Informação and a Regiao Sul item say the Som Riscado festival in Loulé (November 2026) uses an AI piano. Both sites refused our read, so it is not yet an event.",
-    "NILG.AI is incubated in Porto, so it is on the map only as ALGAR's partner. The Algarve 2030 record ALGARVE-FEDER-01180500 (a SPIC and UAlg engineering school AI project, per search results) loaded blank, so it is not cited."
+    "NILG.AI is incubated in Porto, so it is on the map only as ALGAR's partner. The Algarve 2030 record ALGARVE-FEDER-01180500 (a SPIC and UAlg engineering school AI project, per search results) loaded blank, so it is not cited.",
+    "Search results list Som Riscado 2026 for 19 to 22 November and a Mais Algarve headline from 15 November 2026 about a piano with AI, but we could not open either page, and the council's agenda page we reached covers the 2020 edition. The 2026 AI item is not yet an event."
   ],
   "voice": {
     "lede": "Oi, pá! Loulé, where the market has domes and the council has algorithms.",
