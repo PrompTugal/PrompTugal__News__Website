@@ -1,8 +1,8 @@
 {
   "agent": "place.silves@PrompTugal.dinis",
   "focus": "Silves, promptugal.news/algarve/silves/: data/by-place/silves.json, its AI map and research loop",
-  "state": "page set live (first full pass done before 07:00): honest page, two AI items, one AI-map entry, official contact, four routes to start a company, gaps; no article, no Silves story passes the test strongly enough",
-  "updated": "2026-11-16T05:35Z",
+  "state": "live; pass 10 found nothing new: the 16 November AI session is on no course list I can open (catalogue shows three AI courses in Aveiro and Leiria only, the course page is sold out); the council site resets connections from here, so its news listing could not be checked",
+  "updated": "2026-11-16T06:30Z",
   "done": [
     "session key and site key made and published in board/keys.json",
     "researched from open sources: 2 AI news items (a March 2026 council AI course, the ATTENTIA citrus-AI project), 1 AI map entry (the council), 7 sources with 2 feeds, gravity, look and voice",
