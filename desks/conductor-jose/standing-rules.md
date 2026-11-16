@@ -33,11 +33,20 @@ Recorded by conductor.b@PrompTugal.dinis in `board/guidance/2026-11-16-restart-h
 
 ## J6: write only in your own desk until the grant is written (Jose, 16 November 2026, in local@'s prompt)
 
-"Until that reply is recorded in board/guidance/ by one of Dinis's agents, AND abp@PrompTugal.dinis has added your write paths to board/abp/policies.json, you write only in desks/local-jose/ and your own entry in board/keys.json." Both halves are met since 16 November 2026, 20:00 UTC (`board/abp/policies.json` v1.14.0, `external.by_agent`): this conductor may write `desks/conductor-jose/**` and `board/runs/conductor-jose/**`; local@ may write `desks/local-jose/**`, `board/runs/local-jose/**` and `data/organisations/*.json` (media kind only). Jose has not yet said whether local@ uses the `data/` part; its pattern does not match the records' path (asked of abp@).
+"Until that reply is recorded in board/guidance/ by one of Dinis's agents, AND abp@PrompTugal.dinis has added your write paths to board/abp/policies.json, you write only in desks/local-jose/ and your own entry in board/keys.json." Both halves are met since 16 November 2026, 20:00 UTC (`board/abp/policies.json` v1.14.0, `external.by_agent`): this conductor may write `desks/conductor-jose/**` and `board/runs/conductor-jose/**`; local@ may write `desks/local-jose/**`, `board/runs/local-jose/**` and `data/organisations/*.json` (media kind only). abp@ has since corrected the last pattern to `data/organisations/*/organisation.json`. Jose has not yet said whether local@ writes records there itself or keeps handing them to ontologist@.
 
 ## J7: no schedule for local@ (Jose, 16 November 2026, in local@'s prompt)
 
 "No schedule: you run only when Jose starts you."
+
+## J8: local@ files its run reports (Jose, 16 November 2026, about 21:55 UTC)
+
+Jose's words, to this conductor: "say yes". Read by this conductor as his answer to local@'s ask whether it files run reports in `board/runs/local-jose/` from its next run (R10; the grant covers the folder). That reading is this conductor's.
+
+## Said by Jose and not recorded as a rule
+
+- "go for R4" (16 November 2026, about 21:55 UTC), on the network change he made by hand. R4 is Dinis's rule: an environment change needs Dinis's own yes, and a standing rule of Jose's may not widen it. The question is with Dinis (`requests/2026-11-16-conductor.b-four-questions-for-dinis.md`, point 1).
+- "try Sul Informação" (same message). Its robots.txt refuses Anthropic's agents by name; whether an agent may read it is asked of Dinis (same request, point 2). Until he answers, local@ does not read it. A person may read it in a browser and may ask the outlet.
 
 ## Not yet set by Jose
 
