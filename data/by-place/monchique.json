@@ -50,6 +50,16 @@
   },
   "ai_news": [
     {
+      "title": "Wider news: the government's APIS pilots bring AI to early fire detection in protected areas, not in Monchique",
+      "summary": "In March 2026 the Environment Ministry created APIS (Áreas Protegidas Inteligentes e Seguras), coordinated by ICNF and funded by the Fundo Ambiental with up to 125,000 euros per site for 2026 and 2027. The two pilots are the Alvão natural park and the Serra do Açor protected landscape, using AI, digitalisation and automation for early detection. The report names neither the Algarve nor Monchique.",
+      "date": "2026-03-23",
+      "publisher": "Observador (Lusa)",
+      "url": "https://observador.pt/2026/03/23/governo-cria-projeto-apis-contra-incendios-em-areas-protegidas/",
+      "read_on": "2026-11-16",
+      "ai_path": "A national AI fire-detection pilot for the same problem that defines Monchique's agenda. If expanded it could reach the Serra, but the pilots are elsewhere.",
+      "steps": 1
+    },
+    {
       "title": "Monchique fintech Invisible CFO named a Web Summit Impact Startup for 2025",
       "summary": "Invisible CFO, founded in 2024 and housed in the Monchique business incubator, was recognised as an Impact Startup 2025, reported as the only Portuguese fintech with that recognition. It combines financial and tax optimisation algorithms and AI with a human team of accountants and advisers, and went to the 2025 summit through the Algarve Empreende 2026 project.",
       "date": "2025-10-21",
@@ -225,21 +235,9 @@
       "read_on": "2026-11-16"
     },
     {
-      "label": "Starting a company here",
-      "value": "The council's Entrepreneurship Office (created January 2022) helps businesses and public bodies prepare funding applications, tracks funding lines, prepares feasibility studies and supports investors, and the municipal incubator gives individual support to entrepreneurs and points to open calls. Pre-registration for the incubator is at the Espaço Jovem next to the Monchique parish council. The pages name no AI programme.",
-      "source_url": "https://www.cm-monchique.pt/pt/menu/260/gabinete-de-empreendedorismo.aspx",
-      "read_on": "2026-11-16"
-    },
-    {
       "label": "Fire danger today",
       "value": "The council's Perigo de Incêndio Rural page sends readers to IPMA's fire danger map for the Monchique concelho (code 0809). No value is copied here because the page needs a selection to show it and offers no feed.",
       "source_url": "https://www.ipma.pt/pt/riscoincendio/rcm.pt/",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "Official channel: Câmara Municipal de Monchique",
-      "value": "Telephone 282 910 200 and postal address Travessa da Portela, n.º 2, 8550-470 Monchique, as published on the council's own contacts page, which also lists the council's general email (not copied here because the gate refuses email addresses in data). The page lists no separate channel for the entrepreneurship office or the incubator.",
-      "source_url": "https://www.cm-monchique.pt/pt/menu/25/contactos.aspx",
       "read_on": "2026-11-16"
     },
     {
@@ -250,7 +248,7 @@
     }
   ],
   "gaps": [
-    "No AI wildfire detection or forest monitoring in Monchique was found. The fire plan we could open (data to 2015) describes human lookout posts, one industry tower and mobile patrols, and the July 2026 fire report names no technology. This is the main gap, since fire is the town's centre of gravity: look for ICNF, ANEPC, the Algarve fire-surveillance network and the University of the Algarve.",
+    "No AI wildfire detection or forest monitoring in Monchique was found. The fire plan we could open (data to 2015) describes human lookout posts, one industry tower and mobile patrols, and the July 2026 fire report names no technology. This is the main gap, since fire is the town's centre of gravity: look for ICNF, ANEPC, the Algarve fire-surveillance network and the University of the Algarve. The national APIS pilots (March 2026) are the closest AI detection work found, and they are in Alvão and Açor, not the Algarve.",
     "None of the council's latest news (3 to 12 November 2026) is about AI, and its site has no RSS feed. Its projects #Algarve mais digital, the business park and Vale incubadoras e aceleradoras are listed without detail we could cite as AI.",
     "Água Monchique's AI claim is its own (a May 2024 post): no tool is named and no independent report confirms it. Its 2021 smart dispenser and the myMonchique app (a virtual assistant called Aqua) are described without AI on the pages we opened. We should look for an independent source or a named tool.",
     "The council's incubator page names no tenants, so the AI map holds only Invisible CFO. A 2023 plan for six or seven companies and a 2025 industrial park plan suggest more may follow, but we could not read those Sul Informação pieces (the site refused automatic reading).",
@@ -259,8 +257,8 @@
     "No AI events in Monchique were found. Algarve Evolution has no Monchique member or programme in any source we could open.",
     "The University of the Algarve and its repository (sapientia.ualg.pt) show Monchique fire-risk studies that do not use AI, and we found no AI wildfire work there. Still to look for: the parish councils of Alferce, Marmelete and Monchique, and ANEPC and ICNF pages.",
     "Local media: no radio station or blog for Monchique was found. Jornal de Monchique (a local paper of the association O Monchiqueiro, 30 years old in 2016) may still exist but we could not confirm it. 24 Notícias, Barlavento and Sul Informação cover the town, and none offers a feed we could find. 24 Notícias lists no technology or AI item for Monchique.",
-    "Investors, local talent who have spoken publicly and an investment map: nothing public found for Monchique beyond the incubator and Invisible CFO. The Algarve Evolution and regional investors lists belong to the Algarve file.",
-    "Parish councils: searches found no digital or AI project of the Alferce, Marmelete or Monchique parish councils. Alferce's council has a website (jf-alferce.pt) we have not read yet, and Marmelete's own site was not found."
+    "Parish councils: the Alferce parish council site (read 2026-11-16) has no digital, AI or fire-monitoring content, only notices, minutes and the storm update. Searches found nothing for Marmelete or the Monchique parish.",
+    "Investors, local talent who have spoken publicly and an investment map: nothing public found for Monchique beyond the incubator and Invisible CFO. The incubator's public funding record (the national recovery plan transparency portal) would not load, so no amount is given."
   ],
   "identity": {
     "key_id": "site.monchique-promptugal",
@@ -271,5 +269,33 @@
     "mandate": "PrompTugal.news Monchique, from the cool of the Serra: AI and technology in a green mountain concelho where the fire worry never sleeps and the little incubator keeps the lights on, plus whatever drifts up from the Algarve, Portugal and the world. Independent, and every fact has its source, ó freguês.",
     "gravity": "Monchique lives with the mountain and the mountain lives with fire. The Serra was burned hard in 2018, and the BRIDGE project (IST, LNEC and the University of the Algarve) picked Monchique to learn how neighbours can cut fire risk together. Meanwhile, down at the council incubator, Invisible CFO is minding other people's money with a bit of AI. Not bad for a place famous for ham, honey and hot springs.",
     "gaps_intro": "Now the honest part, que se não houver não se inventa: the things we looked for up the Serra and did not find."
-  }
+  },
+  "contacts": [
+    {
+      "name": "Câmara Municipal de Monchique (general channels)",
+      "what": "The council's general telephone, email and postal address, as published on its contacts page. The page lists no separate channel for the entrepreneurship office or the incubator.",
+      "url": "https://www.cm-monchique.pt/pt/menu/25/contactos.aspx",
+      "channel": "Telephone 282 910 200, email geral@cm-monchique.pt, Travessa da Portela, n.º 2, 8550-470 Monchique",
+      "source_url": "https://www.cm-monchique.pt/pt/menu/25/contactos.aspx",
+      "read_on": "2026-11-16"
+    }
+  ],
+  "start_company": [
+    {
+      "name": "Gabinete de Empreendedorismo (council business desk)",
+      "what": "Created January 2022. Prepares funding applications for businesses and public bodies, tracks funding lines, prepares feasibility studies and supports investors.",
+      "url": "https://www.cm-monchique.pt/pt/menu/260/gabinete-de-empreendedorismo.aspx",
+      "source_url": "https://www.cm-monchique.pt/pt/menu/260/gabinete-de-empreendedorismo.aspx",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "Incubadora de Empresas de Monchique (IEM)",
+      "what": "Individual, accompanied support for local entrepreneurs, online follow-up sessions and signposting to open funding calls. Pre-registration at the Espaço Jovem next to the Monchique parish council. No AI programme is named.",
+      "url": "https://www.cm-monchique.pt/pt/menu/2495/incubadora-de-empresas.aspx",
+      "source_url": "https://www.cm-monchique.pt/pt/menu/2495/incubadora-de-empresas.aspx",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    }
+  ]
 }
