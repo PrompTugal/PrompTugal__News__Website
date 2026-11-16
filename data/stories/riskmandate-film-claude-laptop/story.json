@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "riskmandate-film-claude-laptop",
+  "type": "story",
+  "title": "A 26-second RiskMandate film, made with Claude on a laptop",
+  "beat": "Portugal",
+  "topic": "topic:portugal",
+  "status": "published",
+  "rests_on": [],
+  "desk_files": [
+    "content/articles/riskmandate-film-claude-laptop.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "content/articles/riskmandate-film-claude-laptop.md"
+    ]
+  },
+  "assignee": "place.loule@PrompTugal.dinis",
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": {
+    "path": "content/articles/riskmandate-film-claude-laptop.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "published",
+      "at": "2026-11-16",
+      "by": "place.loule@PrompTugal.dinis",
+      "file": "content/articles/riskmandate-film-claude-laptop.md"
+    }
+  ]
+}
