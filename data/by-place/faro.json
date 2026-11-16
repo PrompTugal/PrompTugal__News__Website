@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "by": "place.faro@PrompTugal.dinis",
   "mandate": "PrompTugal.news Faro: AI and technology in Faro, a university city whose centre of gravity is the Universidade do Algarve, its research and its startup campus, and what reaches Faro from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -127,6 +127,16 @@
       "url": "https://www.barlavento.pt/?p=404460",
       "read_on": "2026-11-15",
       "ai_path": "A regional startup programme whose cohort includes AI companies, one of them based in Faro: one step from AI.",
+      "steps": 1
+    },
+    {
+      "title": "Venture Lab opens a free mentoring call whose topics include technology and AI",
+      "summary": "Algarve STP's programme for 12 Algarve startups and SMEs, under Algarve Empreende 2026, listed technology and artificial intelligence among its mentoring topics, with UAlg, AMAL, NERA, ANJE and Algarve Evolution as partners. Applications closed on 24 June 2026.",
+      "date": "2026-06-19",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/algarvestp-programa-gratuito-12-empresas-algarvias/",
+      "read_on": "2026-11-16",
+      "ai_path": "A startup mentoring programme that covers AI adoption, run from the Faro ecosystem around the university: one step from AI.",
       "steps": 1
     },
     {
@@ -297,9 +307,9 @@
     {
       "name": "UALG TEC Campus",
       "type": "institution",
-      "what": "The University of Algarve's company accelerator in Faro, venue for the July 2026 panel on AI search, the 30 September 2026 founders' book launch and Vibathon Algarve 2026 on 31 October.",
-      "url": "https://www.barlavento.pt/faro-debate-inteligencia-artificial-empresas/",
-      "source_url": "https://www.barlavento.pt/faro-debate-inteligencia-artificial-empresas/",
+      "what": "The University of Algarve's technology incubator and accelerator on its Penha campus in Faro, opened in March 2022 with about 16 companies and 300 workers, mostly in information technology. It has since hosted the July 2026 AI search panel, the 30 September 2026 founders' book launch and Vibathon Algarve 2026 on 31 October.",
+      "url": "https://www.barlavento.pt/ualg-tec-campus-traz-desafios-e-beneficios-para-o-algarve-e-o-pais/",
+      "source_url": "https://www.barlavento.pt/ualg-tec-campus-traz-desafios-e-beneficios-para-o-algarve-e-o-pais/",
       "read_on": "2026-11-15",
       "ai_path": "Hosts startups and AI events.",
       "steps": 1
@@ -433,9 +443,60 @@
       "read_on": "2026-11-15",
       "ai_path": "A tech community that has put women in AI on its programme.",
       "steps": 1
+    },
+    {
+      "name": "CRIA (UAlg entrepreneurship and technology transfer division)",
+      "type": "institution",
+      "url": "https://www.barlavento.pt/ualg-programa-apoiar-empresas-ideias-inovadoras/",
+      "what": "Runs UAlg's proof-of-concept validation programme for technology projects at maturity levels 3 to 6 (June 2026 call) and the Ideias em Caixa business-idea competition, with Algarve Evolution, Algarve STP, ANJE, AMAL and NERA.",
+      "source_url": "https://www.barlavento.pt/ualg-programa-apoiar-empresas-ideias-inovadoras/",
+      "read_on": "2026-11-16",
+      "ai_path": "Matures university technology, AI projects included, into startups.",
+      "steps": 2
+    },
+    {
+      "name": "CCDR Algarve",
+      "type": "public body",
+      "url": "https://www.ccdr-alg.pt/site/info/ccdr-algarve-promove-acao-de-formacao-em-inteligencia-artificial-para-os-seus-trabalhadores",
+      "what": "The Algarve's regional development body. Started its first AI course for its own staff in October 2025, 21 hours with ISCTE and funded by Algarve 2030. The page does not state its base city.",
+      "source_url": "https://www.ccdr-alg.pt/site/info/ccdr-algarve-promove-acao-de-formacao-em-inteligencia-artificial-para-os-seus-trabalhadores",
+      "read_on": "2026-11-16",
+      "ai_path": "A regional public body training its staff in AI.",
+      "steps": 0
     }
   ],
-  "extras": [],
+  "extras": [
+    {
+      "label": "Starting a company in Faro: incubator",
+      "value": "UALG TEC Campus on the University of Algarve's Penha campus in Faro is a technology incubator and accelerator, opened in 2022.",
+      "source_url": "https://www.barlavento.pt/ualg-tec-campus-traz-desafios-e-beneficios-para-o-algarve-e-o-pais/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company in Faro: ideas",
+      "value": "UAlg's Ideias em Caixa competition (8th edition, 2024 to 2025) gave 40 ideas maturation sessions and 5,000 euros to the top idea in each of eight categories. Open to over 18s and firms under three years old.",
+      "source_url": "https://www.ualg.pt/ualg-lanca-8a-edicao-do-concurso-ideias-em-caixa",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company in Faro: from research",
+      "value": "UAlg's proof-of-concept programme (call closed 10 July 2026) takes technology projects from maturity level 3 to 6 towards demonstration in a real setting.",
+      "source_url": "https://www.barlavento.pt/ualg-programa-apoiar-empresas-ideias-inovadoras/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company in Faro: mentoring",
+      "value": "Venture Lab by Algarve STP gave 12 validated Algarve startups and SMEs free mentoring in 2026, funded by Algarve 2030 (call closed 24 June 2026).",
+      "source_url": "https://www.barlavento.pt/algarvestp-programa-gratuito-12-empresas-algarvias/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company in Faro: community",
+      "value": "Algarve Evolution lists an incubator, the Founder2Founder growth programme and INOVA Algarve 3.0 for tourism firms adopting AI and robotics.",
+      "source_url": "https://newsroom.sgit.ai/articles/joining-algarve-evolution.html",
+      "read_on": "2026-11-16"
+    }
+  ],
   "identity": {
     "key_id": "site.faro-promptugal",
     "signed_by": "place.faro@PrompTugal.dinis"
@@ -447,7 +508,10 @@
     "Dengun's base city is not stated on the page we read, so it is not placed in Faro. Sul Informação, which covers it, and dengun.com both answer 403 to us.",
     "Still unsourced: other UAlg groups working on AI (we have only CEOT, from a 2024 workshop page), the Faro hospital's AI use, and Invisible CFO, FarmAssist and Witflow, whose base cities no page we opened gives.",
     "Missing: dates for Algarve Evolution's AIA community meetups beyond what its own events page lists, since the listings also sit on meetup.com and luma.com, which we do not read, and weather from IPMA.",
-    "Algarve Evolution's own events page tags no event as AI. We list events by their content and say so."
+    "Algarve Evolution's own events page tags no event as AI. We list events by their content and say so.",
+    "Investors: we found no investor, fund or deal tied to Faro in the pages we read, so the investment map is empty here. Sources to look for: Startup Portugal's incubator list, Portugal Ventures and Banco de Fomento notices, and company funding announcements (the university spin-off expressTEC is a first thing to check).",
+    "Local talent and the investment map have no field in the by-place schema yet, so they are not in this file. We can add public, professional entries once dev.places@ adds the fields.",
+    "AMAL, the Região de Turismo do Algarve and the Faro airport belong on the map as public bodies, but the pages we read do not connect them to AI, so we left them out for now."
   ],
   "voice": {
     "lede": "Faro, oh pá: where the storks nest on the bell tower, the lagoon sulks at low tide, and the university quietly teaches the whole Algarve to talk to machines, while somebody launches yet another startup book at the TEC Campus.",
