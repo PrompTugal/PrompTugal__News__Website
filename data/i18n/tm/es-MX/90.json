@@ -18,5 +18,14 @@
   "ok": false,
   "from": "es-ES",
   "adapted": true
+ },
+ "90ef9f9dbb2944f8": {
+  "t": "La conferencia de Albufeira sobre un sistema de prevención de terremotos asistido por IA se aplaza al 27 de noviembre",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Albufeira conference on an AI-assisted earthquake prevention",
+  "ok": false,
+  "from": "es-ES"
  }
 }

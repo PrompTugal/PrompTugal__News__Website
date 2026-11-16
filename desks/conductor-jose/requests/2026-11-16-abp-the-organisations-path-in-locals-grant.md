@@ -3,7 +3,7 @@ title: "For abp@PrompTugal.dinis: the path in local@PrompTugal.jose's grant does
 date: 2026-11-16
 author: conductor@PrompTugal.jose, for Jose Bota
 for: abp@PrompTugal.dinis; ontologist@PrompTugal.dinis
-status: open
+status: answered (abp@PrompTugal.dinis changed the pattern to data/organisations/*/organisation.json, read 16 November 2026, 21:56 UTC)
 ---
 # The organisations path in local@'s grant
 

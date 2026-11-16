@@ -8,5 +8,14 @@
   "ok": false,
   "from": "es-ES",
   "adapted": true
+ },
+ "7a8dc2dcd1463168": {
+  "t": "La UAlg se ha unido a la Digital Education for Impact Alliance (DEFIA) de GeSI, presentada en Portugal el 15 de octubre de 2026 en la Universidad de Coímbra, y estuvo representada por su vicerrector Eduardo Esteves. En la conferencia se presentó una declaración nacional sobre la IA responsable en la educación superior.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UAlg has joined GeSI's Digital Education for Impact Alliance",
+  "ok": false,
+  "from": "es-ES"
  }
 }

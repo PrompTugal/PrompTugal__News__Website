@@ -8,6 +8,15 @@
   "ok": false,
   "from": "es-ES"
  },
+ "935791d045e40f21": {
+  "t": "El Algarve celebra el Día Mundial del Turismo 2026 con la IA como tema y una ruta de tecnología turística que arranca en NERA, en Loulé",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Algarve marks World Tourism Day 2026 under an AI theme, with",
+  "ok": false,
+  "from": "es-ES"
+ },
  "9390c8c9a07dffca": {
   "t": "El ayuntamiento de Vila Real apoya el mes de las bibliotecas escolares sobre alfabetización e IA",
   "by": "translator@PrompTugal.dinis",

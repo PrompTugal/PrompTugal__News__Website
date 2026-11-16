@@ -2,15 +2,25 @@
   "agent": "conductor@PrompTugal.jose",
   "focus": "Jose sees in one file what each of his PrompTugal agents did, what is open, and what waits on him or on Dinis",
   "state": "ok",
-  "updated": "2026-11-16T20:35:00Z",
+  "updated": "2026-11-16T22:15:00Z",
   "session": "session_01CqQLD944eKWrwwiaimessY (Jose's account)",
   "key": "conductor-jose-promptugal (record sha256:e006f2f5d2bcef71)",
   "dinis_yes": "board/guidance/2026-11-16-restart-here-go.md (16 Nov, about 19:25 UTC)",
   "grant": "board/abp/policies.json v1.14.0, external.by_agent (20:00 UTC): desks/conductor-jose/** and board/runs/conductor-jose/**",
-  "done": "16 Nov, 20:35 UTC run: read local@'s first three releases and Dinis's team's answers; the three cards now report in cards/; two new requests (the path in local@'s grant, to abp@; four questions for Dinis, to conductor.b@); the two earlier requests marked answered; account.json has local@'s session and the network change; the first run report filed.",
+  "done": "16 Nov, 22:15 UTC run: Jose's yes for local@ writing its own media records recorded (J9); the town order recommended and set as the default (largest councils first); a request to outreach@ and conductor.b@ to bring the first-contact decision to Dinis, as it holds Jose's three drafts.",
   "agents": [
-    { "agent": "local@PrompTugal.jose", "last_commit": "0665c93bf, 16 Nov 20:19 UTC", "state": "current. Faro and Loulé read in part: 4 outlet records ready to merge, 3 draft first contacts, the awareness draft, 3 requests. Wrote only its own desk.", "waits_on": "Jose (its four asks), Dinis (five), ontologist@, place.algarve.central@, outreach@ and dev.places@ (its requests)" },
-    { "agent": "writer@PrompTugal.jose", "last_commit": "7 Nov", "state": "between sessions. JW1 'One door' reviewed, published and signed by journalist@PrompTugal.dinis at 19:42 UTC (/articles/one-door.html).", "waits_on": "Dinis for the writer desk's own yes; Jose for the next piece" }
+    {
+      "agent": "local@PrompTugal.jose",
+      "last_commit": "0665c93bf, 16 Nov 20:19 UTC",
+      "state": "current. Faro and Loulé read in part: 4 outlet records ready to merge, 3 draft first contacts, the awareness draft, 3 requests. Wrote only its own desk.",
+      "waits_on": "Jose (its four asks), Dinis (five), ontologist@, place.algarve.central@, outreach@ and dev.places@ (its requests)"
+    },
+    {
+      "agent": "writer@PrompTugal.jose",
+      "last_commit": "7 Nov",
+      "state": "between sessions. JW1 'One door' reviewed, published and signed by journalist@PrompTugal.dinis at 19:42 UTC (/articles/one-door.html).",
+      "waits_on": "Dinis for the writer desk's own yes; Jose for the next piece"
+    }
   ],
   "cards": [
     "desks/conductor-jose/cards/1-awareness.md",
@@ -19,20 +29,21 @@
   ],
   "next": "Each run: answers in board/team/conductor.b/answers/ and board/abp/reports/, the path in local@'s grant, Dinis's answers to the four questions, local@'s next towns.",
   "asks": [
-    "Jose: the network change. You opened eleven hosts by hand at about 20:09 UTC; R4 names an environment change and no yes for it is recorded. Open no more hosts until Dinis answers; ask him for that yes yourself, it is the quickest way.",
-    "Jose: local@ asks whether it files run reports in board/runs/local-jose/ from its next run. R10 asks for one per run and the grant now covers it; this desk's reading is yes.",
-    "Jose: local@ asks whether it writes outlet records in data/organisations/ itself. Not yet: the grant's pattern does not match the records' path (asked of abp@), so it keeps handing them to ontologist@.",
+    "Jose: 'go for R4' cannot come from you or from this desk. R4 (board/abp/policies.json, core) asks for Dinis's own yes for an environment change. Ask Dinis for it in a message, as you did for the agents; his team records it. Open no more hosts until then.",
+    "Jose: 'try Sul Informação' is not recorded as a rule. Its robots.txt refuses Anthropic's agents by name, and the question is with Dinis. A person can read it in a browser; the first contact can ask the outlet itself.",
+    "Jose: the town order is set as a default (largest councils first, standing-rules.md); say if you want it otherwise.",
+    "Jose: who sends the first contacts to the Algarve outlets. This desk recommends you, as a named person, through each outlet's published channel; say yes or name someone. The address is Dinis's to name and never goes in this repository.",
     "Jose: Regiao Sul and Jornal do Algarve answer agents with a bot challenge; only a person can read them, in a browser.",
-    "Jose: the order of the Algarve towns and how many per run, if you want other than the order of data/by-place/places.json, two a run.",
     "Dinis: his yes or no for the network change on Jose's environment, and for the further outlet hosts each new town brings.",
     "Dinis: Sul Informação's robots.txt refuses Anthropic's agents by name; may the site read its feed, and may any agent read its pages.",
     "Dinis: who keeps Faro's outlets, local@ or researcher@.",
-    "Dinis: what a first email to a news organisation may promise (outreach@'s open For Dinis page); it holds every send.",
+    "Dinis: what a first email to a news organisation may promise (outreach@'s open For Dinis page, options A to D); it holds every send.",
     "Dinis: whether his yes covers the writer desk (desks/writer-jose/)."
   ],
   "debrief": "desks/conductor-jose/debriefs/2026-11-16-handover.md",
   "requests": [
-    "desks/conductor-jose/requests/2026-11-16-abp-the-organisations-path-in-locals-grant.md (open)",
+    "desks/conductor-jose/requests/2026-11-16-outreach-the-first-contact-decision-holds-jose-drafts.md (open)",
+    "desks/conductor-jose/requests/2026-11-16-abp-the-organisations-path-in-locals-grant.md (answered)",
     "desks/conductor-jose/requests/2026-11-16-conductor.b-four-questions-for-dinis.md (open)",
     "desks/conductor-jose/requests/2026-11-16-abp-operators-grant-and-run-report.md (answered)",
     "desks/conductor-jose/requests/2026-11-16-conductor.b-where-cards-report-and-jw1.md (answered)"

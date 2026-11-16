@@ -1,10 +1,26 @@
 {
+ "a42fb26848444bd5": {
+  "t": "Une exposition d'art des médias numériques réunissant 17 œuvres de doctorants a ouvert au Convento do Espírito Santo, à Loulé, le 15 juillet 2025, avec entrée libre jusqu'au 18 juillet. L'intelligence artificielle figurait parmi ses thèmes, et l'un de ses quatre axes curatoriaux portait sur la médiation algorithmique. L'article ne nomme aucune œuvre d'IA précise.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A digital media-art exhibition of 17 works by doctoral resea",
+  "ok": false
+ },
  "a48bfc5b269785f7": {
   "t": "En janvier 2024, Ayamonte a présenté une vidéo pilote en IA qui recrée les maires d’Ayamonte, de Vila Real de Santo António et de Castro Marim en train de promouvoir la zone transfrontalière en plusieurs langues à la fois. Plus ancien que notre fenêtre habituelle, mais seul projet transfrontalier d’IA qui inclut Castro Marim.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "In January 2024 Ayamonte presented a pilot AI video that rec",
+  "ok": false
+ },
+ "a499a9c56e38fe02": {
+  "t": "Le WordPress Faro Meetup local s'est réuni le 16 avril 2026 au UALG TEC Campus. Jorge Cabaco, de Dengun Agency, a parlé des copilotes d'IA sur les sites web, de la génération de leads, du support client, des systèmes de réservation et des concierges d'IA pour le tourisme.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The local WordPress Faro Meetup met on 16 April 2026 at UALG",
   "ok": false
  }
 }

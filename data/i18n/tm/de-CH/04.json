@@ -28,6 +28,15 @@
   "ok": false,
   "from": "de-DE"
  },
+ "046fddff6d377e65": {
+  "t": "Neue Rektorin der UAlg: KI soll in der Lehre eingesetzt, nicht verboten werden",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UAlg's new rector says AI should be used in teaching, not ba",
+  "ok": false,
+  "from": "de-DE"
+ },
  "04b8aa715247e2ec": {
   "t": "PrompTugal.news Vila Real: KI und Technologie in Vila Real, einer Universitäts- und Wissenschaftsparkstadt, deren Schwerpunkt der Campus der UTAD und der Regia Douro Park sind, und was aus Trás-os-Montes, Portugal und der Welt in Vila Real ankommt. Unabhängig; jede Tatsache mit Quelle.",
   "by": "translator@PrompTugal.dinis",

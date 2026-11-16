@@ -23,6 +23,14 @@
   "src": "The hub's ecosystem is at Web Summit Lisbon, nine of them in",
   "ok": false
  },
+ "6ac839ef0c02d8e8": {
+  "t": "Die Community-Seite von GDG Faro nennt einen kostenlosen Hackathon, Build with Gemma: GDG Faro AI Hackathon, am 18. Juli 2026, vor dem DevFest am 27. und 28. November. Die Seite nennt weder Ort noch Redner noch Ergebnisse.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "GDG Faro's community page lists a free hackathon, Build with",
+  "ok": false
+ },
  "6ad8263eac434a48": {
   "t": "Premierminister unterzeichnet internationalen Aufruf für sicherere fortgeschrittene KI",
   "by": "translator@PrompTugal.dinis",

@@ -25,7 +25,7 @@
       "state": "on, run when Jose prompts it; no schedule (standing rule J7)",
       "started": "2026-11-16",
       "key": "local-jose-promptugal",
-      "grant": "board/abp/policies.json v1.14.0, external.by_agent: desks/local-jose/**, board/runs/local-jose/**, data/organisations/*.json (the last pattern does not match the records' path; asked of abp@)",
+      "grant": "board/abp/policies.json v1.14.0, external.by_agent: desks/local-jose/**, board/runs/local-jose/**, data/organisations/*/organisation.json (media kind only)",
       "dinis_yes": "board/guidance/2026-11-16-restart-here-go.md"
     },
     {

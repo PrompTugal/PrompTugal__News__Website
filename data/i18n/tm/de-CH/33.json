@@ -26,6 +26,15 @@
   "ok": false,
   "from": "de-DE"
  },
+ "3386001e14ab5d16": {
+  "t": "WordPress Faro Meetup fragt, wie KI die Nutzung von Websites verändert",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "WordPress Faro Meetup asks how AI changes the way people use",
+  "ok": false,
+  "from": "de-DE"
+ },
  "3398caa6a144473d": {
   "t": "Die mit dem Técnico verbundene Forschungseinheit leitet ein Exzellenzzentrum für nachhaltige und vertrauenswürdige KI, mit 13 Millionen Euro aus Teaming for Excellence von Horizon Europe und 14,2 Millionen nationalen Mitteln. Das Max-Planck-Institut für Softwaresysteme und das Deutsche Forschungszentrum für Künstliche Intelligenz sind Partner.",
   "by": "translator@PrompTugal.dinis",

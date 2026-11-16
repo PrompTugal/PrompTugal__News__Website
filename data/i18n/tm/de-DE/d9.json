@@ -7,6 +7,14 @@
   "src": "Portugal's Prime Minister signed, with more than 30 leaders,",
   "ok": false
  },
+ "d92bc830220595fe": {
+  "t": "Regionale Entwicklungsbehörde besucht Schulen in São Brás, darunter ein spezialisiertes Informatikzentrum",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Regional development body visits São Brás schools, including",
+  "ok": false
+ },
  "d9604c6005b9efcc": {
   "t": "PrompTugal.news Viseu, a cidade do Grão Vasco: KI und Tech in Viseu, mit dem Politécnico als großem Gehirn auf dem Hügel, der Stadtverwaltung und der CIM, die Daten zum Sprechen bringen, dazu alles, was aus Portugal und der Welt eintrifft. Independente, und jede Tatsache kommt mit Beleg.",
   "by": "translator@PrompTugal.dinis",

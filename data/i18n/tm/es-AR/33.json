@@ -26,6 +26,15 @@
   "ok": false,
   "from": "es-ES"
  },
+ "3386001e14ab5d16": {
+  "t": "El WordPress Faro Meetup se pregunta cómo cambia la IA la forma en que la gente usa los sitios web",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "WordPress Faro Meetup asks how AI changes the way people use",
+  "ok": false,
+  "from": "es-ES"
+ },
  "3398caa6a144473d": {
   "t": "La unidad de investigación, asociada al Técnico, lidera un centro de excelencia en IA sostenible y fiable, con 13 millones de euros del programa Teaming for Excellence de Horizonte Europa y 14,2 millones de dinero nacional. El Instituto Max Planck de Sistemas de Software y el Centro Alemán de Investigación en Inteligencia Artificial son socios.",
   "by": "translator@PrompTugal.dinis",

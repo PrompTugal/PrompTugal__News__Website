@@ -35,5 +35,14 @@
   "src": "Vila Real is where a university, a science park and a hornet",
   "ok": false,
   "from": "fr-FR"
+ },
+ "5bed88833cad7415": {
+  "t": "La plateforme régionale du tourisme gérée par la CCDR Algarve a appris qu'un projet ALGARVE 2030 offrira à 15 PME du tourisme un bilan de maturité numérique et un plan d'action personnalisé pour adopter l'IA et la robotique. Le président d'Algarve Evolution a conseillé aux entreprises de préparer leurs canaux numériques à l'IA agentique, qui recherche et réserve pour le compte des voyageurs. L'article ne cite aucune commune et ne donne aucun critère d'éligibilité.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The regional tourism platform run by CCDR Algarve heard that",
+  "ok": false,
+  "from": "fr-FR"
  }
 }

@@ -7,6 +7,14 @@
   "src": "Aveiro Tech Week opens with AI as a main theme",
   "ok": false
  },
+ "095294f29c5b82e9": {
+  "t": "Dal 22 giugno 2026 i medici del servizio sanitario nazionale possono prescrivere la fisioterapia a domicilio tramite un dispositivo simile a un tablet dell'azienda portoghese Sword Health, in cui l'IA analizza i movimenti e li corregge in tempo reale con la supervisione di un team clinico. La ULS Algarve è una delle nove unità sanitarie locali che hanno firmato protocolli sull'IA. L'articolo non menziona Faro e non dice che la ULS Algarve gestisca il servizio.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "From 22 June 2026 doctors in the national health service can",
+  "ok": false
+ },
  "095e5672aca5f63a": {
   "t": "La scuola di sanità di Castelo Branco organizza una giornata sull'IA nella pratica clinica",
   "by": "translator@PrompTugal.dinis",

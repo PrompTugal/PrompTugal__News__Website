@@ -16,5 +16,14 @@
   "src": "A Guadiana shipyard plans a defence unit aimed at unmanned v",
   "ok": false,
   "from": "de-DE"
+ },
+ "4f865dca2c572101": {
+  "t": "Der Vizepräsident der CCDR Algarve für Bildung besuchte am 4. November 2026 das Schulnetz der Stadt. Die Sekundarschule verfügt über ein spezialisiertes Technologiezentrum für Informatik, das als das erste seiner Art in der Region beschrieben wird. Der Bürgermeister sagte, für eine Schulerweiterung im Wert von 6 Millionen Euro stehe noch die Antwort auf den Antrag im Rahmen des Wiederaufbauplans aus. Der Bericht erwähnt KI nicht.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The vice-president for education of CCDR Algarve toured the ",
+  "ok": false,
+  "from": "de-DE"
  }
 }
