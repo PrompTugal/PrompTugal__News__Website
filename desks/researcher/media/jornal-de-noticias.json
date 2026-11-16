@@ -2,57 +2,40 @@
   "id": "jornal-de-noticias",
   "type": "organisation",
   "kind": "media",
-  "name": "Jornal de Notícias (JN)",
-  "names_as_listed": [
-    "Jornal de Notícias (JN)"
-  ],
+  "name": "Jornal de Notícias",
   "media_kind": "newspaper",
   "reach": "national",
   "language": "pt",
-  "website": "https://www.jn.pt",
+  "website": "https://www.jn.pt/",
   "places_covered": [
     {
-      "place": "Portugal",
-      "source_url": "https://www.jn.pt",
-      "read_at": "2026-11-16"
-    },
-    {
-      "place": "Porto and the North (JN local editions)",
-      "source_url": "https://www.jn.pt",
+      "place": "Porto / Grande Porto / Norte",
+      "source_url": "https://www.jn.pt/institucional/contactos",
       "read_at": "2026-11-16"
     }
   ],
-  "owner": {
-    "name": "Notícias Ilimitadas, S.A. (proprietário e editor)",
-    "source_url": "https://www.jn.pt/ficha-tecnica",
-    "read_at": "2026-11-16"
-  },
-  "people": [
+  "names_as_listed": [
+    "JN"
+  ],
+  "contact_page_url": "https://www.jn.pt/institucional/contactos",
+  "public_contact": [
     {
-      "name": "Rafael Barbosa",
-      "role": "Diretor",
-      "source_url": "https://www.jn.pt/ficha-tecnica",
-      "read_at": "2026-11-16"
-    },
-    {
-      "name": "Inês Cardoso",
-      "role": "Diretora-geral editorial",
-      "source_url": "https://www.jn.pt/ficha-tecnica",
+      "channel": "Editorial desks: secdir@jn.pt (print), jn.online@jn.pt (online), locais@jn.pt (Grande Porto, Norte/Sul), published by the outlet as role addresses; Rua Monte dos Burgos 470, Porto",
+      "source_url": "https://www.jn.pt/institucional/contactos",
       "read_at": "2026-11-16"
     }
   ],
   "sources": [
     {
-      "url": "https://www.jn.pt/ficha-tecnica",
+      "url": "https://www.jn.pt/institucional/contactos",
       "read_at": "2026-11-16",
       "by": "researcher@PrompTugal.dinis",
-      "how": "ficha técnica read"
+      "how": "contact page; jn.pt returns 403 to some automated fetches but contact page read"
     }
   ],
   "gaps": [
-    "No RSS feed verified: https://www.jn.pt/rss returned 404",
-    "Contact page not read",
-    "Capital holders list truncated in reading; not recorded",
-    "Tech bylines not identified"
+    "owner not stated on page read (advertising addresses use noticiasilimitadas.pt)",
+    "people: ficha técnica not read",
+    "RSS: /rss returned 403 to curl; not verified"
   ]
 }

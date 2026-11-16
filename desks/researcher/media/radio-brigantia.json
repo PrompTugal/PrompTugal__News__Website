@@ -1,0 +1,78 @@
+{
+  "id": "radio-brigantia",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Brigantia",
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "website": "https://www.brigantia.pt/",
+  "places_covered": [
+    {
+      "place": "Bragança (97.3 and 97.7 FM)",
+      "source_url": "https://www.brigantia.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Cooperativa de Radiodifusão Brigantia, CRL",
+    "source_url": "https://www.brigantia.pt/ficha-tecnica",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.brigantia.pt/contactos",
+  "public_contact": [
+    {
+      "channel": "Redação info@pressnordeste.pt; general geral@pressnordeste.pt; phone (fixed) 273 300 500",
+      "source_url": "https://www.brigantia.pt/contactos",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Carina Alves",
+      "role": "Diretora de Informação",
+      "beat": "news",
+      "source_url": "https://www.brigantia.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Cindy Tomé",
+      "role": "Redação",
+      "beat": "news",
+      "source_url": "https://www.brigantia.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Rita Teixeira",
+      "role": "Redação",
+      "beat": "news",
+      "source_url": "https://www.brigantia.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Rui Mouta",
+      "role": "Direção Geral / Diretor de Programação",
+      "beat": "management",
+      "source_url": "https://www.brigantia.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.brigantia.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica"
+    },
+    {
+      "url": "https://www.brigantia.pt/contactos",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contact page"
+    }
+  ],
+  "gaps": [
+    "RSS: no feed link on home page",
+    "capital partly held by Pressnordeste, Lda. (90%); individual shareholders not recorded"
+  ]
+}

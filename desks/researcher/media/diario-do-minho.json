@@ -1,0 +1,123 @@
+{
+  "id": "diario-do-minho",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Diário do Minho",
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://www.diariodominho.pt/",
+  "places_covered": [
+    {
+      "place": "Braga",
+      "source_url": "https://www.diariodominho.pt/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Luís Carlos Fonseca",
+      "role": "Diretor Geral",
+      "beat": "management",
+      "source_url": "https://www.diariodominho.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Damião A. Gonçalves Pereira",
+      "role": "Diretor de Informação",
+      "beat": "editorial",
+      "source_url": "https://www.diariodominho.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Luísa Teresa Ribeiro",
+      "role": "Chefe da Redação",
+      "beat": "editorial",
+      "source_url": "https://www.diariodominho.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Luís Filipe Silva",
+      "role": "Coordenador do Desporto",
+      "beat": "sport",
+      "source_url": "https://www.diariodominho.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Carla Esteves",
+      "role": "Redação",
+      "beat": "general",
+      "source_url": "https://www.diariodominho.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Francisco de Assis",
+      "role": "Redação",
+      "beat": "general",
+      "source_url": "https://www.diariodominho.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Joaquim Martins Fernandes",
+      "role": "Redação",
+      "beat": "general",
+      "source_url": "https://www.diariodominho.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Jorge Oliveira",
+      "role": "Redação",
+      "beat": "general",
+      "source_url": "https://www.diariodominho.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "José Carlos Ferreira",
+      "role": "Redação",
+      "beat": "general",
+      "source_url": "https://www.diariodominho.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "José Costa Lima",
+      "role": "Redação",
+      "beat": "general",
+      "source_url": "https://www.diariodominho.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Pedro Vieira da Silva",
+      "role": "Redação",
+      "beat": "general",
+      "source_url": "https://www.diariodominho.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Rita Cunha",
+      "role": "Redação",
+      "beat": "general",
+      "source_url": "https://www.diariodominho.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Rui de Lemos",
+      "role": "Redação",
+      "beat": "general",
+      "source_url": "https://www.diariodominho.pt/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.diariodominho.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica; site self-describes as daily regional newspaper of Christian inspiration"
+    }
+  ],
+  "gaps": [
+    "owner (only the gerência names are listed)",
+    "contact page/public address (emails on the ficha are obfuscated and personal-role, not recorded)",
+    "RSS: /rss returned 404; no feed found"
+  ]
+}

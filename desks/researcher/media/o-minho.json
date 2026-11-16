@@ -1,0 +1,65 @@
+{
+  "id": "o-minho",
+  "type": "organisation",
+  "kind": "media",
+  "name": "O MINHO",
+  "media_kind": "online",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://ominho.pt/",
+  "places_covered": [
+    {
+      "place": "Braga e Minho",
+      "source_url": "https://ominho.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "PDG5 Media, Lda.",
+    "source_url": "https://ominho.pt/ficha-tecnica/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://ominho.pt/ficha-tecnica/",
+  "public_contact": [
+    {
+      "channel": "Newsroom: phone (mobile) published and email on the ficha técnica page (address obfuscated on fetch)",
+      "source_url": "https://ominho.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://ominho.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Pedro Luís Silva",
+      "role": "Diretor",
+      "beat": "editorial",
+      "source_url": "https://ominho.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Pedro Gonçalo Costa",
+      "role": "Editor",
+      "beat": "editorial",
+      "source_url": "https://ominho.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ominho.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica"
+    }
+  ],
+  "gaps": [
+    "email address not captured (obfuscated); mobile number published: personal contact published, not recorded"
+  ]
+}

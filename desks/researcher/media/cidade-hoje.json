@@ -1,0 +1,50 @@
+{
+  "id": "cidade-hoje",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Cidade Hoje",
+  "media_kind": "newspaper",
+  "reach": "local",
+  "language": "pt",
+  "website": "https://www.cidadehoje.pt/",
+  "places_covered": [
+    {
+      "place": "Vila Nova de Famalicão (Braga district)",
+      "source_url": "https://cidadehoje.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Círculo de Cultura Famalicense",
+    "source_url": "https://cidadehoje.sapo.pt/ficha-tecnica/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://cidadehoje.sapo.pt/ficha-tecnica/",
+  "public_contact": [
+    {
+      "channel": "Newsroom jornal@cidadehoje.pt and geral@cidadehoje.pt, phone (fixed) 252 301 780",
+      "source_url": "https://cidadehoje.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://cidadehoje.sapo.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://cidadehoje.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica; weekly free paper plus radio per site; circulation 7,000 per edition as stated"
+    }
+  ],
+  "gaps": [
+    "named editorial staff not listed on the page read",
+    "municipality outside district capital"
+  ]
+}

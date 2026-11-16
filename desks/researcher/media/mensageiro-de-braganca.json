@@ -1,0 +1,32 @@
+{
+  "id": "mensageiro-de-braganca",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Mensageiro de Bragança",
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://mdb.pt/",
+  "places_covered": [
+    {
+      "place": "Bragança diocese",
+      "source_url": "https://mdb.pt/estatuto-editorial",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://mdb.pt/estatuto-editorial",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "editorial statute: diocesan regional weekly"
+    }
+  ],
+  "gaps": [
+    "owner",
+    "ficha técnica (URL guessed returned 404)",
+    "contact page",
+    "people",
+    "RSS: /feed returned 404"
+  ]
+}

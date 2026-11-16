@@ -1,0 +1,65 @@
+{
+  "id": "radio-valdevez",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Valdevez",
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "website": "https://www.radiovaldevez.pt/",
+  "places_covered": [
+    {
+      "place": "Arcos de Valdevez (Alto Minho)",
+      "source_url": "https://www.radiovaldevez.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Rádio Valdevez R.V. (Associação Cultural de Radiodifusão)",
+    "source_url": "https://www.radiovaldevez.pt/ficha-tecnica/",
+    "read_at": "2026-11-16"
+  },
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.radiovaldevez.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "José Gonçalo Mendes Rocha",
+      "role": "Diretor da Estação",
+      "beat": "station",
+      "source_url": "https://www.radiovaldevez.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Artur Jorge Carvalho Quintas",
+      "role": "Responsável Informação",
+      "beat": "news",
+      "source_url": "https://www.radiovaldevez.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Maria do Carmo Brito Dantas",
+      "role": "Responsável Programação",
+      "beat": "programming",
+      "source_url": "https://www.radiovaldevez.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.radiovaldevez.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica"
+    }
+  ],
+  "gaps": [
+    "contact page and public contact not read",
+    "outside a district capital; included as Alto Minho outlet"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "diario-de-aveiro",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Diário de Aveiro",
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://www.diarioaveiro.pt/",
+  "places_covered": [
+    {
+      "place": "Aveiro",
+      "source_url": "https://www.diarioaveiro.pt/sobre/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Diário de Aveiro, Lda. (concessionário da exploração)",
+    "source_url": "https://www.diarioaveiro.pt/sobre/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.diarioaveiro.pt/sobre/",
+  "public_contact": [
+    {
+      "channel": "Newsroom phone (fixed) 234 000 031; email on page obfuscated; Av. Dr. Lourenço Peixinho, Edifício 15, Aveiro",
+      "source_url": "https://www.diarioaveiro.pt/sobre/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.diarioaveiro.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Adriano Callé Lucas",
+      "role": "Diretor",
+      "beat": "editorial",
+      "source_url": "https://www.diarioaveiro.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Teresa Veríssimo",
+      "role": "Diretora Geral",
+      "beat": "management",
+      "source_url": "https://www.diarioaveiro.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Miguel Callé Lucas",
+      "role": "Diretor adjunto",
+      "beat": "editorial",
+      "source_url": "https://www.diarioaveiro.pt/sobre/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "João Luís Campos",
+      "role": "Diretor adjunto executivo",
+      "beat": "editorial",
+      "source_url": "https://www.diarioaveiro.pt/sobre/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.diarioaveiro.pt/sobre/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "about page with ficha técnica"
+    }
+  ],
+  "gaps": [
+    "email not captured (obfuscated)"
+  ]
+}

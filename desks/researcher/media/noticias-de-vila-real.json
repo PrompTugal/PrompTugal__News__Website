@@ -1,0 +1,40 @@
+{
+  "id": "noticias-de-vila-real",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Notícias de Vila Real",
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://noticiasdevilareal.sapo.pt/",
+  "places_covered": [
+    {
+      "place": "Vila Real",
+      "source_url": "https://noticiasdevilareal.sapo.pt/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "contact_page_url": "https://noticiasdevilareal.sapo.pt/contactos/",
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://noticiasdevilareal.sapo.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://noticiasdevilareal.sapo.pt/contactos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "page fetched; text not captured by extractor"
+    }
+  ],
+  "gaps": [
+    "owner",
+    "ficha técnica content not captured",
+    "people",
+    "public contact address"
+  ]
+}

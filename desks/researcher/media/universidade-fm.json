@@ -1,0 +1,62 @@
+{
+  "id": "universidade-fm",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Universidade FM",
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "website": "https://www.universidade.fm/",
+  "places_covered": [
+    {
+      "place": "Vila Real, parts of Bragança and Viseu districts",
+      "source_url": "https://www.universidade.fm/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Rádio Universidade Marão - Cooperativa de Radiodifusão, CRL (UTAD 80%)",
+    "source_url": "https://www.universidade.fm/ficha-tecnica/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.universidade.fm/contactos/",
+  "public_contact": [
+    {
+      "channel": "General geral@universidade.fm, phone (fixed) 259 302 600; Rua Actor Ruy de Carvalho bloco A, Vila Real",
+      "source_url": "https://www.universidade.fm/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.universidade.fm/feed/",
+      "checked": "/feed/ link tag on home page; curl with default UA returned 200 application/rss+xml",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Luís Mendonça",
+      "role": "Director da estação (programação e informação)",
+      "beat": "station",
+      "source_url": "https://www.universidade.fm/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.universidade.fm/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica"
+    },
+    {
+      "url": "https://www.universidade.fm/contactos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contact page"
+    }
+  ],
+  "gaps": []
+}

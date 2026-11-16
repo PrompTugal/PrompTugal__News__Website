@@ -1,0 +1,94 @@
+{
+  "id": "antena-minho",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Antena Minho",
+  "media_kind": "radio",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://antenaminho.pt/",
+  "places_covered": [
+    {
+      "place": "Braga",
+      "source_url": "https://antenaminho.pt/contactos",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "contact_page_url": "https://antenaminho.pt/contactos",
+  "public_contact": [
+    {
+      "channel": "Gerência address administracao@correiodominho.pt, phone (fixed) 253 309 500, Praceta do Magistério 34, Braga",
+      "source_url": "https://antenaminho.pt/contactos",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Rui Miguel Graça",
+      "role": "Director Informação",
+      "beat": "news",
+      "source_url": "https://antenaminho.pt/equipa",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "José Portugal",
+      "role": "Director de Programação",
+      "beat": "programming",
+      "source_url": "https://antenaminho.pt/equipa",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Rui Alberto Sequeira",
+      "role": "Jornalista",
+      "beat": "news",
+      "source_url": "https://antenaminho.pt/equipa",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "José Paulo Silva",
+      "role": "Jornalista",
+      "beat": "news",
+      "source_url": "https://antenaminho.pt/equipa",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Carlos Costinha Sousa",
+      "role": "Jornalista",
+      "beat": "news",
+      "source_url": "https://antenaminho.pt/equipa",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Joana Russo Belo",
+      "role": "Jornalista",
+      "beat": "news",
+      "source_url": "https://antenaminho.pt/equipa",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Rui Serapicos",
+      "role": "Jornalista",
+      "beat": "news",
+      "source_url": "https://antenaminho.pt/equipa",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://antenaminho.pt/equipa",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "team page"
+    },
+    {
+      "url": "https://antenaminho.pt/contactos",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contact page"
+    }
+  ],
+  "gaps": [
+    "owner (shares address and staff with Correio do Minho; relation not stated on pages read)",
+    "RSS not found"
+  ]
+}

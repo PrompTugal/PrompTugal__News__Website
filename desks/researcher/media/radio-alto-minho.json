@@ -1,0 +1,77 @@
+{
+  "id": "radio-alto-minho",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Alto Minho",
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "website": "https://radioaltominho.pt/",
+  "places_covered": [
+    {
+      "place": "Viana do Castelo",
+      "source_url": "https://radioaltominho.pt/quem-somos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Rádio Alto Minho, Sociedade de Informação Regional, Lda.",
+    "source_url": "https://radioaltominho.pt/quem-somos/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://radioaltominho.pt/contactos/",
+  "public_contact": [
+    {
+      "channel": "Newsroom address noticias@radioaltominho.pt and general geral@radioaltominho.pt, phone (fixed) 258 801 600; Rua José Espregueira 23 r/c, Viana do Castelo",
+      "source_url": "https://radioaltominho.pt/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://radioaltominho.pt/feed/?post_type=noticias",
+      "checked": "HTTP 200, content-type application/rss+xml, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Miguel Costa",
+      "role": "Presidente da gerência; Direção de Programas",
+      "beat": "programming",
+      "source_url": "https://radioaltominho.pt/quem-somos/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Fernando Serrão",
+      "role": "Direção de Informação",
+      "beat": "news",
+      "source_url": "https://radioaltominho.pt/quem-somos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://radioaltominho.pt/quem-somos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Lei da Transparência notice and editorial statute"
+    },
+    {
+      "url": "https://radioaltominho.pt/contactos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contact page"
+    },
+    {
+      "url": "https://radioaltominho.pt/equipa/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "team page"
+    }
+  ],
+  "gaps": [
+    "a mobile phone number is published on the contact page: personal contact published, not recorded"
+  ]
+}

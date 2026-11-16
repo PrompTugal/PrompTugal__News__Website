@@ -1,0 +1,46 @@
+{
+  "id": "aveiromag",
+  "type": "organisation",
+  "kind": "media",
+  "name": "AveiroMag",
+  "media_kind": "online",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://www.aveiromag.pt/",
+  "places_covered": [
+    {
+      "place": "Aveiro",
+      "source_url": "https://www.aveiromag.pt/geral-3-Ficha-Tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "names_as_listed": [
+    "AveiroMag®"
+  ],
+  "owner": {
+    "name": "Leme Comunicação, Unipessoal Lda.",
+    "source_url": "https://www.aveiromag.pt/geral-3-Ficha-Tecnica",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.aveiromag.pt/geral-7-Contactos",
+  "public_contact": [
+    {
+      "channel": "Newsroom: Av. Dr. Lourenço Peixinho 49, Aveiro; email obfuscated on fetch",
+      "source_url": "https://www.aveiromag.pt/geral-3-Ficha-Tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.aveiromag.pt/geral-3-Ficha-Tecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica; ERC 127246, daily"
+    }
+  ],
+  "gaps": [
+    "email not captured",
+    "people: team list not read",
+    "RSS: /rss returned an HTML page, not a feed"
+  ]
+}

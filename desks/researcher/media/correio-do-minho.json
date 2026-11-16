@@ -1,0 +1,127 @@
+{
+  "id": "correio-do-minho",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Correio do Minho",
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://www.correiodominho.pt/",
+  "places_covered": [
+    {
+      "place": "Braga",
+      "source_url": "https://www.correiodominho.pt/contactos/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "place": "Cávado e Vale do Ave (sections)",
+      "source_url": "https://www.correiodominho.pt/equipa/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "contact_page_url": "https://www.correiodominho.pt/contactos/",
+  "public_contact": [
+    {
+      "channel": "Redacção redaccao@correiodominho.pt, phone (fixed) 253 309 500; Praceta do Magistério 34, Braga",
+      "source_url": "https://www.correiodominho.pt/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Paulo Monteiro",
+      "role": "Director",
+      "beat": "editorial",
+      "source_url": "https://www.correiodominho.pt/equipa/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Rui Miguel Graça",
+      "role": "Chefe de Redacção",
+      "beat": "editorial",
+      "source_url": "https://www.correiodominho.pt/equipa/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Carlos Costinha Sousa",
+      "role": "Sub Chefe de Redacção",
+      "beat": "editorial",
+      "source_url": "https://www.correiodominho.pt/equipa/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Joana Russo Belo",
+      "role": "Jornalista",
+      "beat": "general",
+      "source_url": "https://www.correiodominho.pt/equipa/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "José Paulo Silva",
+      "role": "Jornalista",
+      "beat": "general",
+      "source_url": "https://www.correiodominho.pt/equipa/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Marlene Cerqueira",
+      "role": "Jornalista",
+      "beat": "general",
+      "source_url": "https://www.correiodominho.pt/equipa/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Miguel Viana",
+      "role": "Jornalista",
+      "beat": "general",
+      "source_url": "https://www.correiodominho.pt/equipa/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Rui Serapicos",
+      "role": "Jornalista",
+      "beat": "general",
+      "source_url": "https://www.correiodominho.pt/equipa/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Libânia Pereira",
+      "role": "Jornalista",
+      "beat": "general",
+      "source_url": "https://www.correiodominho.pt/equipa/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Ricardo Anselmo",
+      "role": "Jornalista",
+      "beat": "general",
+      "source_url": "https://www.correiodominho.pt/equipa/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Fábio Moreira",
+      "role": "Jornalista",
+      "beat": "general",
+      "source_url": "https://www.correiodominho.pt/equipa/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.correiodominho.pt/contactos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contact page"
+    },
+    {
+      "url": "https://www.correiodominho.pt/equipa/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "team page"
+    }
+  ],
+  "gaps": [
+    "owner not read",
+    "RSS: /feed returned 404, no feed link found on home page, so none recorded"
+  ]
+}

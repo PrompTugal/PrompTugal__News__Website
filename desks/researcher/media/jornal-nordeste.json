@@ -1,0 +1,73 @@
+{
+  "id": "jornal-nordeste",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Jornal Nordeste",
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://www.jornalnordeste.com/",
+  "places_covered": [
+    {
+      "place": "Bragança, Trás-os-Montes",
+      "source_url": "https://www.jornalnordeste.com/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "contact_page_url": "https://www.jornalnordeste.com/contactos",
+  "public_contact": [
+    {
+      "channel": "Redação info@pressnordeste.pt; general geral@pressnordeste.pt; phone (fixed) 273 300 500; Av. Águedo de Oliveira 5, Bragança",
+      "source_url": "https://www.jornalnordeste.com/contactos",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Carina Alves",
+      "role": "Diretora",
+      "beat": "editorial",
+      "source_url": "https://www.jornalnordeste.com/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Cindy Tomé",
+      "role": "Redação",
+      "beat": "general",
+      "source_url": "https://www.jornalnordeste.com/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Rita Teixeira",
+      "role": "Redação",
+      "beat": "general",
+      "source_url": "https://www.jornalnordeste.com/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Fernando Subtil",
+      "role": "Fundador",
+      "beat": "n/a",
+      "source_url": "https://www.jornalnordeste.com/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.jornalnordeste.com/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica"
+    },
+    {
+      "url": "https://www.jornalnordeste.com/contactos",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contact page"
+    }
+  ],
+  "gaps": [
+    "owner not stated on pages read (shared pressnordeste.pt addresses with Rádio Brigantia)",
+    "RSS: /rss returned 404; no feed verified"
+  ]
+}

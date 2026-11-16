@@ -1,0 +1,65 @@
+{
+  "id": "braga-tv",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Braga TV",
+  "media_kind": "online",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://bragatv.pt/",
+  "places_covered": [
+    {
+      "place": "Braga e Cávado/Ave municipalities",
+      "source_url": "https://bragatv.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Angélica & Sandra Antunes Unipessoal, Lda.",
+    "source_url": "https://bragatv.pt/ficha-tecnica/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://bragatv.pt/ficha-tecnica/",
+  "public_contact": [
+    {
+      "channel": "Newsroom: Av. da Liberdade 706, Braga; email on page obfuscated",
+      "source_url": "https://bragatv.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://bragatv.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Angélica Marisa da Costa Antunes",
+      "role": "Diretora",
+      "beat": "editorial",
+      "source_url": "https://bragatv.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Sandra Catarina da Costa Antunes",
+      "role": "Editora",
+      "beat": "editorial",
+      "source_url": "https://bragatv.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://bragatv.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica; ERC registration 126392 stated"
+    }
+  ],
+  "gaps": [
+    "email not captured; mobile number published: personal contact published, not recorded"
+  ]
+}

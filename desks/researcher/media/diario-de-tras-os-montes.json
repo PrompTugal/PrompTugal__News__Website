@@ -1,0 +1,86 @@
+{
+  "id": "diario-de-tras-os-montes",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Diário de Trás-os-Montes",
+  "media_kind": "online",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://www.diariodetrasosmontes.com/",
+  "places_covered": [
+    {
+      "place": "Vila Real e Trás-os-Montes",
+      "source_url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "António Manuel Pereira",
+    "source_url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+  "public_contact": [
+    {
+      "channel": "Registered office/newsroom in Bragança; address and phone on page; contact email published is a personal-style hotmail address, not recorded",
+      "source_url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.diariodetrasosmontes.com/feed/rss.xml",
+      "checked": "HTTP 200, content-type text/xml, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "António Pereira",
+      "role": "Diretor e editor",
+      "beat": "editorial",
+      "source_url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Bruno Taveira",
+      "role": "Redação (Vila Real)",
+      "beat": "Vila Real",
+      "source_url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Diogo Rodrigues",
+      "role": "Redação",
+      "beat": "general",
+      "source_url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Claudia C. Pinto",
+      "role": "Redação (Vila Real e Mesão Frio)",
+      "beat": "Vila Real",
+      "source_url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Carlos Espírito Santo",
+      "role": "Redação (Valpaços)",
+      "beat": "Valpaços",
+      "source_url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.diariodetrasosmontes.com/p/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica; ERC 126812"
+    }
+  ],
+  "gaps": [
+    "publisher email: personal contact published, not recorded"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "rum-radio-universitaria-do-minho",
+  "type": "organisation",
+  "kind": "media",
+  "name": "RUM - Rádio Universitária do Minho",
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "website": "https://www.rum.pt/",
+  "places_covered": [
+    {
+      "place": "Braga",
+      "source_url": "https://www.rum.pt/sobre-nos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Associação Académica da Universidade do Minho",
+    "source_url": "https://www.rum.pt/sobre-nos/",
+    "read_at": "2026-11-16"
+  },
+  "contact_page_url": "https://www.rum.pt/sobre-nos/",
+  "public_contact": [
+    {
+      "channel": "Information desk informacao@rum.pt and general sec.adm@rum.pt; GNRation, Travessa do Carmo, Braga",
+      "source_url": "https://www.rum.pt/sobre-nos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.rum.pt/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Vasco Leão",
+      "role": "Administrador Delegado",
+      "beat": "management",
+      "source_url": "https://www.rum.pt/sobre-nos/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Ariana Azevedo",
+      "role": "Jornalista",
+      "beat": "general",
+      "source_url": "https://www.rum.pt/sobre-nos/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Eduarda Sequeira",
+      "role": "Jornalista",
+      "beat": "general",
+      "source_url": "https://www.rum.pt/sobre-nos/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "José Silva Brás",
+      "role": "Jornalista",
+      "beat": "general",
+      "source_url": "https://www.rum.pt/sobre-nos/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Tiago da Costa Lopes",
+      "role": "Jornalista",
+      "beat": "general",
+      "source_url": "https://www.rum.pt/sobre-nos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.rum.pt/sobre-nos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "about/ficha técnica page, 97.5 MHz generalist"
+    }
+  ],
+  "gaps": [
+    "phone numbers on page are a generic line; not recorded"
+  ]
+}

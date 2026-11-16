@@ -1,0 +1,76 @@
+{
+  "id": "a-aurora-do-lima",
+  "type": "organisation",
+  "kind": "media",
+  "name": "A Aurora do Lima",
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://auroradolima.com/",
+  "places_covered": [
+    {
+      "place": "Viana do Castelo (Alto Minho)",
+      "source_url": "https://auroradolima.com/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "names_as_listed": [
+    "Jornal A Aurora do Lima"
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://auroradolima.com/feed/",
+      "checked": "HTTP 200, content-type application/rss+xml, RSS body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Gonçalo Fagundes Meira",
+      "role": "Diretor e jornalista",
+      "beat": "general",
+      "source_url": "https://auroradolima.com/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Manuel Sotomaior",
+      "role": "Jornalista",
+      "beat": "general",
+      "source_url": "https://auroradolima.com/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Cidália Meirim Rodrigues",
+      "role": "Jornalista",
+      "beat": "general",
+      "source_url": "https://auroradolima.com/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Rui Barbosa",
+      "role": "Administrador",
+      "beat": "n/a",
+      "source_url": "https://auroradolima.com/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://auroradolima.com/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica"
+    },
+    {
+      "url": "https://auroradolima.com/feed/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "feed check by curl"
+    }
+  ],
+  "gaps": [
+    "owner (title proprietor) not seen on the ficha técnica page read",
+    "contact page and public contact address not read"
+  ]
+}
