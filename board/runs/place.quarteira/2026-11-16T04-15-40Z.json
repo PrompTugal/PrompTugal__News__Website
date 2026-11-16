@@ -1,0 +1,81 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.quarteira@PrompTugal.dinis",
+ "run": "2026-11-16T04-15-40Z",
+ "started": "2026-11-16T04:15:40.641Z",
+ "ended": "2026-11-16T05:14:35Z",
+ "line": "",
+ "policy": {
+  "version": "1.11.0",
+  "sha256": "ca739bcd9e7bf7c8"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T04:17:31.682Z",
+   "chars": 385,
+   "sha256": "cd0ac19a0960bff5",
+   "head": "<task-notification>\n<task-id>b558ytxri</task-id>\n<tool-use-id>toolu_01Cdaqi5tHj4TdysRDPteHk8</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/33dfed2b-10ac-5d08-9541-492ef"
+  },
+  {
+   "t": "2026-11-16T05:13:57.841Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T05:13:57.641Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 6,
+  "by_kind": {
+   "other": 2,
+   "web": 3,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 6,
+  "commits": [
+   {
+    "sha": "dbbd3890f",
+    "subject": "place.quarteira@PrompTugal.dinis: pass 8, the digital commerce accelerator lead sharpened, re-signed",
+    "files": 4
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 6,
+  "in_mandate": 6,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
