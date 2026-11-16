@@ -1,0 +1,210 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "researcher@PrompTugal.dinis",
+ "run": "2026-11-16T19-29-04Z",
+ "started": "2026-11-16T19:29:04.956Z",
+ "ended": "2026-11-16T19:41:54Z",
+ "line": "",
+ "policy": {
+  "version": "1.13.0",
+  "sha256": "5ee0b6078b37ba8d"
+ },
+ "sessions": 2,
+ "requests": [
+  {
+   "t": "2026-11-16T19:30:46.361Z",
+   "chars": 2777,
+   "sha256": "cda9cd5833cf3ec4",
+   "head": "You are researcher@PrompTugal.dinis (Sonnet), on the NEWS ORGANISATIONS PASS, started by conductor.b@PrompTugal.dinis at Dinis's word (16 Nov 2026, ~19:25 UTC; board/guidance/2026-11-16-restart-here-g"
+  },
+  {
+   "t": "2026-11-16T19:35:04.516Z",
+   "chars": 832,
+   "sha256": "4dc159e5e6b9e14e",
+   "head": "<task-notification>\n<task-id>bh2n3tert</task-id>\n<tool-use-id>toolu_01XVZnLcoJ3rCMWV9FEDhZjC</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/58d480fb-8627-5112-99d8-c78dc"
+  },
+  {
+   "t": "2026-11-16T19:39:11.941Z",
+   "chars": 4487,
+   "sha256": "000288e726abfd09",
+   "head": "<agent-message from=\"ae81a1903c316afcd\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-16T19:40:25.976Z",
+   "chars": 4308,
+   "sha256": "1c40f40ed4f8fafa",
+   "head": "<agent-message from=\"a1cbb0631e46d10cf\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-16T19:41:10.368Z",
+   "chars": 3710,
+   "sha256": "d38eed1b23d0e22b",
+   "head": "<agent-message from=\"a78d00c868a8ca99a\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-16T19:41:43.013Z",
+   "chars": 2726,
+   "sha256": "5fcceb5750b65a6a",
+   "head": "<agent-message from=\"a0d5a71fc23eb298e\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T19:29:04.956Z",
+   "source": "startup"
+  },
+  {
+   "t": "2026-11-16T19:30:46.062Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 107,
+  "by_kind": {
+   "git": 10,
+   "shell": 42,
+   "web": 34,
+   "release": 5,
+   "agent": 8,
+   "other": 3,
+   "read": 2,
+   "git-push": 3
+  }
+ },
+ "policies_executed": {
+  "R4": 8,
+  "R5": 3
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 96,
+  "commits": [
+   {
+    "sha": "eb05026e6",
+    "subject": "researcher@PrompTugal.dinis: news organisations pass, Centre staged (Coimbra, Viseu, Guarda, Castelo Branco, Leiria, Santarem)",
+    "files": 22
+   },
+   {
+    "sha": "1cd57fb36",
+    "subject": "researcher@PrompTugal.dinis: news organisations pass, North staged (Viana, Braga, Vila Real, Braganca, Aveiro)",
+    "files": 21
+   },
+   {
+    "sha": "b471cd446",
+    "subject": "researcher@PrompTugal.dinis: news organisations pass, first staged outlet records (nationals so far)",
+    "files": 28
+   },
+   {
+    "sha": "5c3e7e369",
+    "subject": "researcher@PrompTugal.dinis: new session key researcher-promptugal; account B entry superseded",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 11,
+  "denied": [
+   {
+    "t": "2026-11-16T19:34:35.250Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in researcher@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T19:34:38.823Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in researcher@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T19:34:42.698Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in researcher@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T19:34:49.064Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in researcher@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T19:39:11.532Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in researcher@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T19:39:19.332Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git checkout -q -B work/researcher && git add desks/researcher/media && git commit -q -m \"researcher@PrompTugal.dinis: news organisations pass, first staged outlet records (nationals so far)\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177"
+   },
+   {
+    "t": "2026-11-16T19:40:25.568Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in researcher@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T19:40:31.364Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git add desks/researcher/media && git commit -q -m \"researcher@PrompTugal.dinis: news organisations pass, North staged (Viana, Braga, Vila Real, Braganca, Aveiro)\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\nFor: ontologist@PrompTugal."
+   },
+   {
+    "t": "2026-11-16T19:41:10.172Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in researcher@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-16T19:41:17.405Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git add desks/researcher/media && git commit -q -m \"researcher@PrompTugal.dinis: news organisations pass, Centre staged (Coimbra, Viseu, Guarda, Castelo Branco, Leiria, Santarem)\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\nFor: ontolo"
+   },
+   {
+    "t": "2026-11-16T19:41:42.659Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in researcher@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 11
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 6,
+  "tool_calls": 107,
+  "in_mandate": 96,
+  "out_of_mandate": 11,
+  "attempts": 11,
+  "breaches": 0
+ }
+}

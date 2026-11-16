@@ -1,0 +1,84 @@
+{
+ "name": "O Setubalense",
+ "media_kind": "newspaper",
+ "reach": "regional",
+ "website": "https://osetubalense.com/",
+ "places_covered": [
+  {
+   "place": "Setúbal, Palmela, Seixal, Sesimbra, Almada, Barreiro, Moita, Montijo, Alcochete (publicity offices listed)",
+   "source_url": "https://osetubalense.com/contactos/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Outra Margem – Publicações e Publicidade (owner); editor Primeira Hora – Editora e Comunicação, Lda",
+  "source_url": "https://osetubalense.com/ficha-tecnica/",
+  "read_at": "2026-11-16"
+ },
+ "contact_page_url": "https://osetubalense.com/contactos/",
+ "public_contact": [
+  {
+   "channel": "Redação: redaccao@osetubalense.com (generic newsroom address as published); tel. redação +351 265 092 633; Travessa Gaspar Agostinho 1, 1º, 2900-389 Setúbal",
+   "source_url": "https://osetubalense.com/contactos/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://osetubalense.com/feed/",
+   "checked": "HTTP 200, application/rss+xml",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "people": [
+  {
+   "name": "Francisco Alves Rito",
+   "role": "Director",
+   "source_url": "https://osetubalense.com/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Mário Rui Sobral",
+   "role": "Redação",
+   "source_url": "https://osetubalense.com/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Humberto Lameiras",
+   "role": "Redação",
+   "source_url": "https://osetubalense.com/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Marta Guerreiro",
+   "role": "Redação",
+   "source_url": "https://osetubalense.com/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://osetubalense.com/ficha-tecnica/",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ficha técnica (registo de título 107552)"
+  },
+  {
+   "url": "https://osetubalense.com/contactos/",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "contactos page"
+  }
+ ],
+ "gaps": [
+  "partly paywalled site; only public pages read"
+ ],
+ "id": "o-setubalense",
+ "type": "organisation",
+ "kind": "media",
+ "names_as_listed": [
+  "O Setubalense"
+ ],
+ "language": "pt"
+}

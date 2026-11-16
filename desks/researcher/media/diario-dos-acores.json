@@ -1,0 +1,66 @@
+{
+ "name": "Diário dos Açores",
+ "media_kind": "newspaper",
+ "reach": "regional",
+ "website": "https://diariodosacores.pt/",
+ "places_covered": [
+  {
+   "place": "Ponta Delgada / Açores",
+   "source_url": "https://diariodosacores.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Empresa do Diário dos Açores, Lda.",
+  "source_url": "https://diariodosacores.pt/ficha-tecnica/",
+  "read_at": "2026-11-16"
+ },
+ "contact_page_url": "https://diariodosacores.pt/contactos/",
+ "public_contact": [
+  {
+   "channel": "Redação tel. +351 296 709 887; Rua Dr. João Francisco de Sousa 16, 9500-187 Ponta Delgada (email obfuscated on the page, not recorded)",
+   "source_url": "https://diariodosacores.pt/contactos/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://diariodosacores.pt/feed/",
+   "checked": "HTTP 200, application/rss+xml",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "people": [
+  {
+   "name": "Paulo Hugo Viveiros",
+   "role": "Director",
+   "source_url": "https://diariodosacores.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://diariodosacores.pt/ficha-tecnica/",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ficha técnica (founded 1870; circulation 3,630 stated)"
+  },
+  {
+   "url": "https://diariodosacores.pt/contactos/",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "contactos page"
+  }
+ ],
+ "gaps": [
+  "email obfuscated, not recorded"
+ ],
+ "id": "diario-dos-acores",
+ "type": "organisation",
+ "kind": "media",
+ "names_as_listed": [
+  "Diário dos Açores"
+ ],
+ "language": "pt"
+}

@@ -1,0 +1,78 @@
+{
+ "name": "Correio dos Açores",
+ "media_kind": "newspaper",
+ "reach": "regional",
+ "website": "https://correiodosacores.pt/",
+ "places_covered": [
+  {
+   "place": "Ponta Delgada / Açores",
+   "source_url": "https://correiodosacores.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Gráfica Açoreana, Lda.",
+  "source_url": "https://correiodosacores.pt/ficha-tecnica/",
+  "read_at": "2026-11-16"
+ },
+ "contact_page_url": "https://correiodosacores.pt/contactos/",
+ "public_contact": [
+  {
+   "channel": "jornal@correiodosacores.pt (generic newsroom address as published); tel. +351 296 709 887",
+   "source_url": "https://correiodosacores.pt/contactos/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://correiodosacores.pt/feed/",
+   "checked": "declared in the home page head (application/rss+xml); curl timed out, not verified",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "people": [
+  {
+   "name": "Américo Natalino Viveiros",
+   "role": "Director",
+   "source_url": "https://correiodosacores.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Santos Narciso",
+   "role": "Director-adjunto",
+   "source_url": "https://correiodosacores.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Nélia Câmara",
+   "role": "Sub-diretora",
+   "source_url": "https://correiodosacores.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://correiodosacores.pt/ficha-tecnica/",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ficha técnica (circulation 4,100 stated)"
+  },
+  {
+   "url": "https://correiodosacores.pt/contactos/",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "contactos page"
+  }
+ ],
+ "gaps": [
+  "feed not verified (timeout)"
+ ],
+ "id": "correio-dos-acores",
+ "type": "organisation",
+ "kind": "media",
+ "names_as_listed": [
+  "Correio dos Açores"
+ ],
+ "language": "pt"
+}
