@@ -1,8 +1,10 @@
 {
  "9e07934d1f4a185b": {
-  "en": "Monchique lives with the mountain and the mountain lives with fire. The Serra was burned hard in 2018, and the BRIDGE project (IST, LNEC and the University of the Algarve) picked Monchique to learn how neighbours can cut fire risk together. Meanwhile, down at the council incubator, Invisible CFO is minding other people's money with a bit of AI. Not bad for a place famous for ham, honey and hot springs.",
   "t": "Monchique vive com a montanha e a montanha vive com o fogo. A Serra ardeu muito em 2018, e o projeto BRIDGE (IST, LNEC e Universidade do Algarve) escolheu Monchique para aprender como os vizinhos podem reduzir juntos o risco de incêndio. Entretanto, lá em baixo, na incubadora da câmara, a Invisible CFO trata do dinheiro dos outros com um pouco de IA. Nada mau para uma terra famosa pelo presunto, pelo mel e pelas termas.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Monchique lives with the mountain and the mountain lives wit",
+  "ok": false
  }
 }

@@ -1,14 +1,18 @@
 {
  "aa6c154ac98c5dd0": {
-  "en": "Here is what we could not find, and sim, we looked properly:",
   "t": "Eis o que não conseguimos encontrar, e sim, procurámos como deve ser:",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here is what we could not find, and sim, we looked properly:",
+  "ok": false
  },
  "aa7a9e7e22958edf": {
-  "en": "By place",
   "t": "Por lugar",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "By place",
+  "ok": false
  }
 }

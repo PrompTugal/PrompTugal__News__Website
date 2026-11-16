@@ -1,8 +1,10 @@
 {
  "aeed4d26bb5f0c31": {
-  "en": "Starting",
   "t": "A começar",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Starting",
+  "ok": false
  }
 }

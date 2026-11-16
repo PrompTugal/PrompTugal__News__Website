@@ -1,8 +1,10 @@
 {
  "78bee850bc310c70": {
-  "en": "Starting a company in {name}",
   "t": "Criar uma empresa em {name}",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Starting a company in {name}",
+  "ok": false
  }
 }

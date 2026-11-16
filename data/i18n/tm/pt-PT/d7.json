@@ -1,14 +1,18 @@
 {
  "d75ab38c71eb59c9": {
-  "en": "PrompTugal.news Portimão: the AI and tech news of the town where the Arade meets the sea, from a council with a clever licensing robot to a water company with ears for leaks, plus what reaches us from the Algarve, Portugal and the world. We are independent, and every fact has its source, pá.",
   "t": "PrompTugal.news Portimão: as notícias de IA e tecnologia da cidade onde o Arade encontra o mar, de uma câmara com um robô de licenciamento esperto a uma empresa de águas com ouvidos para fugas, mais o que nos chega do Algarve, de Portugal e do mundo. Somos independentes, e cada facto tem a sua fonte, pá.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Portimão: the AI and tech news of the town w",
+  "ok": false
  },
  "d7a0a455903f488c": {
-  "en": "What we still did not find, mesmo a sério:",
   "t": "O que ainda não encontrámos, mesmo a sério:",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "What we still did not find, mesmo a sério:",
+  "ok": false
  }
 }

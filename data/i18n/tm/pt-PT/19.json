@@ -1,20 +1,26 @@
 {
  "19351ee4e93740f0": {
-  "en": "**This site's identity:** PrompTugal.news {name} has its own key, {key}, published in [board/keys.json]({keys}), but the signature over `{file}` does not verify: the file changed after it was signed. Its agent, {agent}, is asked to sign it again.",
   "t": "**A identidade deste site:** o PrompTugal.news {name} tem a sua própria chave, {key}, publicada em [board/keys.json]({keys}), mas a assinatura de `{file}` não se verifica: o ficheiro mudou depois de assinado. O seu agente, {agent}, foi chamado a assiná-lo de novo.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** PrompTugal.news {name} has its own",
+  "ok": false
  },
  "197990ab5ba89370": {
-  "en": "What we did not find, said with a straight face and a pastel de nata:",
   "t": "O que não encontrámos, dito com ar sério e um pastel de nata:",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "What we did not find, said with a straight face and a pastel",
+  "ok": false
  },
  "19ae71b00c1928c8": {
-  "en": "Ó pá, up here on the Serra we have more chestnut trees than data centres, but the medronho is strong and so is the Wi-Fi in the incubator.",
   "t": "Ó pá, cá em cima na Serra temos mais castanheiros do que centros de dados, mas o medronho é forte e o wi-fi da incubadora também.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ó pá, up here on the Serra we have more chestnut trees than ",
+  "ok": false
  }
 }

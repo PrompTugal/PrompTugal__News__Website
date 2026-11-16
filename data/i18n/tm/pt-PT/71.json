@@ -1,8 +1,10 @@
 {
  "71eded02f3f316d1": {
-  "en": "Pois, there is no AI company here yet that we could find, and we say so straight. Here is what is missing, devagar, devagarinho.",
   "t": "Pois, ainda não há aqui nenhuma empresa de IA que tenhamos conseguido encontrar, e dizemo-lo sem rodeios. Eis o que falta, devagar, devagarinho.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Pois, there is no AI company here yet that we could find, an",
+  "ok": false
  }
 }

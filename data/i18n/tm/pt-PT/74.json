@@ -1,8 +1,10 @@
 {
  "7476aaf73338349a": {
-  "en": "PrompTugal.news Lagoa: AI and technology in Lagoa, the land of tourists, wine and congresses, where the council and the parishes got to the robots before the companies did, and what reaches us from the Algarve, Portugal and the world. Independent, and every fact has its source, pois.",
   "t": "PrompTugal.news Lagoa: IA e tecnologia em Lagoa, terra de turistas, vinho e congressos, onde a câmara e as freguesias chegaram aos robôs antes das empresas, e o que nos chega do Algarve, de Portugal e do mundo. Independente, e cada facto tem a sua fonte, pois.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Lagoa: AI and technology in Lagoa, the land ",
+  "ok": false
  }
 }

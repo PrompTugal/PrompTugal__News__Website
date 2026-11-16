@@ -1,8 +1,10 @@
 {
  "08e62becb266d045": {
-  "en": "PrompTugal.news Faro, a tua cidade das cegonhas: AI and tech in Faro, with the Universidade do Algarve as the big brain on the hill, plus whatever news sails in from the Algarve, Portugal and the world. Independente, and every fact comes with a receipt.",
   "t": "PrompTugal.news Faro, a tua cidade das cegonhas: IA e tecnologia em Faro, com a Universidade do Algarve como o grande cérebro da colina, mais as notícias que naveguem até cá do Algarve, de Portugal e do mundo. Independente, e cada facto vem com recibo.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Faro, a tua cidade das cegonhas: AI and tech",
+  "ok": false
  }
 }

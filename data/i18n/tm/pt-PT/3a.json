@@ -1,14 +1,18 @@
 {
  "3a0840a368567048": {
-  "en": "PrompTugal.news São Brás de Alportel: AI and technology in São Brás de Alportel, a hill town of cork heritage, a costume museum and a municipal push to digitise, and what reaches São Brás de Alportel from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "t": "PrompTugal.news São Brás de Alportel: IA e tecnologia em São Brás de Alportel, uma vila de serra com património da cortiça, um museu do traje e um empenho municipal na digitalização, e o que chega a São Brás de Alportel vindo do Algarve, de Portugal e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news São Brás de Alportel: AI and technology in S",
+  "ok": false
  },
  "3a3ce85c327ffbdf": {
-  "en": "**Talk to us:** a correction, a question or a story we missed goes from the box at the foot of this page, sealed to the newsroom. Signed in, you get the answer on [your talk page]({talk}).",
   "t": "**Fale connosco:** uma correção, uma pergunta ou uma história que nos escapou segue da caixa no fundo desta página, cifrada para a redação. Com sessão iniciada, recebe a resposta na [sua página de conversa]({talk}).",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**Talk to us:** a correction, a question or a story we misse",
+  "ok": false
  }
 }

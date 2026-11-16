@@ -1,8 +1,10 @@
 {
  "fc00ddd291017b54": {
-  "en": "PrompTugal.news Albufeira: we follow the AI and tech in Albufeira, the town of beaches, bars and bookings, and whatever washes in from the Algarve, Portugal and the world. Independent, every fact sourced, no sunburn.",
   "t": "PrompTugal.news Albufeira: seguimos a IA e a tecnologia em Albufeira, a terra das praias, dos bares e das reservas, e tudo o que chega do Algarve, de Portugal e do mundo. Independente, cada facto com fonte, sem escaldões.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Albufeira: we follow the AI and tech in Albu",
+  "ok": false
  }
 }

@@ -1,8 +1,10 @@
 {
  "b9df3ef61f7df438": {
-  "en": "PrompTugal.news Lagoa: AI and technology in Lagoa, a tourism, wine and congress municipality whose AI work comes from its council, its parishes, an IT firm and a school, and what reaches Lagoa from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "t": "PrompTugal.news Lagoa: IA e tecnologia em Lagoa, um município de turismo, vinho e congressos cujo trabalho em IA vem da câmara, das freguesias, de uma empresa de TI e de uma escola, e o que chega a Lagoa vindo do Algarve, de Portugal e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Lagoa: AI and technology in Lagoa, a tourism",
+  "ok": false
  }
 }

@@ -1,8 +1,10 @@
 {
  "c042cd426860bb15": {
-  "en": "Local talent",
   "t": "Talento local",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Local talent",
+  "ok": false
  }
 }

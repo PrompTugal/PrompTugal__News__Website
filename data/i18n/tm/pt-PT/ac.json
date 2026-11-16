@@ -1,8 +1,10 @@
 {
  "ac20f6a95ba5b51e": {
-  "en": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing past in Ferragudo, Carvoeiro and Benagil, and a growing business of congresses and events. Its AI is mostly public-sector: the council runs a Smart City portal and an IT team that has been working on AI with data-protection and processing limits in mind, and one parish has put an AI assistant on its website. In the private sector we have confirmed one Lagoa IT firm that sells AI agents, and a British school that hosted a teenagers' AI hackathon in February 2026, ó pá, not bad for a land of beaches.",
   "t": "Lagoa vive do turismo, com vinho (uma DOC Lagoa), um passado de pesca em Ferragudo, Carvoeiro e Benagil, e um negócio crescente de congressos e eventos. A sua IA é sobretudo do setor público: a câmara tem um portal Smart City e uma equipa de TI que tem trabalhado em IA tendo em conta os limites de proteção e tratamento de dados, e uma freguesia pôs um assistente de IA no seu site. No setor privado confirmámos uma empresa de TI de Lagoa que vende agentes de IA, e uma escola britânica que acolheu um hackathon de IA para adolescentes em fevereiro de 2026, ó pá, nada mau para uma terra de praias.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing p",
+  "ok": false
  }
 }

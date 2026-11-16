@@ -1,8 +1,10 @@
 {
  "cc6b4546d623b32f": {
-  "en": "Who invests in {name} and what has been invested here, each from a public source.",
   "t": "Quem investe em {name} e o que já foi investido aqui, cada coisa com fonte pública.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Who invests in {name} and what has been invested here, each ",
+  "ok": false
  }
 }

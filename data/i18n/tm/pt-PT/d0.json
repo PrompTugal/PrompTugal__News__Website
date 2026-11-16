@@ -1,8 +1,10 @@
 {
  "d002e2557552b8e5": {
-  "en": "Aljezur is the Algarve's Atlantic edge: huge, quiet and in the Natural Park, with about 323 square kilometres and 5,884 souls at the 2011 census. Nature, surf at Arrifana, tourism that the council calls strategic, and wind and sun turned into power by EDP at Bordeira. Not an AI hub, nao senhor: a council with online services, a parish teleassistance pilot and regional AI schemes that our firms could join.",
   "t": "Aljezur é o limite atlântico do Algarve: enorme, sossegado e dentro do Parque Natural, com cerca de 323 quilómetros quadrados e 5884 almas no censo de 2011. Natureza, surf na Arrifana, turismo que a câmara considera estratégico, e vento e sol transformados em energia pela EDP na Bordeira. Não é um polo de IA, não senhor: é uma câmara com serviços em linha, um piloto de teleassistência numa freguesia e programas regionais de IA a que as nossas empresas podem aderir.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Aljezur is the Algarve's Atlantic edge: huge, quiet and in t",
+  "ok": false
  }
 }

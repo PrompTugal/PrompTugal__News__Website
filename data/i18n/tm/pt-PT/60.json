@@ -1,8 +1,10 @@
 {
  "600baa0ca80194f5": {
-  "en": "PrompTugal.news São Brás de Alportel: AI and technology from the serra, where the cork was king and the costume museum still holds court. Independent, ó pá, and every fact sourced.",
   "t": "PrompTugal.news São Brás de Alportel: IA e tecnologia da serra, onde a cortiça foi rei e o museu do traje ainda faz corte. Independente, ó pá, e cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news São Brás de Alportel: AI and technology from",
+  "ok": false
  }
 }

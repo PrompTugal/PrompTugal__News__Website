@@ -1,8 +1,10 @@
 {
  "32e38f205d404c47": {
-  "en": "Now the honest part, que se não houver não se inventa: the things we looked for up the Serra and did not find.",
   "t": "Agora a parte honesta, que se não houver não se inventa: o que procurámos na Serra e não encontrámos.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Now the honest part, que se não houver não se inventa: the t",
+  "ok": false
  }
 }

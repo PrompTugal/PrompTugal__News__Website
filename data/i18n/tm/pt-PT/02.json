@@ -1,14 +1,18 @@
 {
  "021f2431b9f8e34f": {
-  "en": "PrompTugal.news Alcoutim: AI and technology in Alcoutim, an inland, low-density municipality on the Guadiana where connectivity, sensors and digital inclusion are the road to AI, and what reaches Alcoutim from the Algarve, Portugal and the world. Independent. Every fact sourced.",
   "t": "PrompTugal.news Alcoutim: IA e tecnologia em Alcoutim, um município do interior e de baixa densidade, no Guadiana, onde a conectividade, os sensores e a inclusão digital são o caminho para a IA, e o que chega a Alcoutim vindo do Algarve, de Portugal e do mundo. Independente. Cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Alcoutim: AI and technology in Alcoutim, an ",
+  "ok": false
  },
  "02b79e48c8bc0c17": {
-  "en": "Silves is a big, mostly countryside concelho with six freguesias and about 680 square kilometres, the laranja capital of the Algarve and the old capital of its Kingdom, so it never lets you forget it. Oranges are the star: in November 2026 the citrus operators' association said Silves holds 43 percent of the area of the region's protected-origin IGP citrus, some 4,733 hectares and 419 farms. The câmara says business lives in the industrial platforms of Algoz, Alcantarilha and São Bartolomeu de Messines, with the GEL office to help.",
   "t": "Silves é um concelho grande e sobretudo rural, com seis freguesias e cerca de 680 quilómetros quadrados, a capital da laranja do Algarve e a antiga capital do seu Reino, por isso nunca deixa que o esqueçam. As laranjas são a estrela: em novembro de 2026, a associação dos operadores de citrinos disse que Silves tem 43 por cento da área dos citrinos IGP de origem protegida da região, cerca de 4733 hectares e 419 explorações. A câmara diz que os negócios vivem nas plataformas industriais de Algoz, Alcantarilha e São Bartolomeu de Messines, com o gabinete GEL para ajudar.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Silves is a big, mostly countryside concelho with six fregue",
+  "ok": false
  }
 }

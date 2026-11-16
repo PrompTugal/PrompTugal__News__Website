@@ -1,7 +1,7 @@
 // Translation memory tool (translator@PrompTugal.dinis). No dependencies.
 // PROVISIONAL until board/spec-translations.md lands: a segment is one whole string value;
 // normalised = NFC, LF newlines kept (markdown lists), runs of spaces collapsed, trimmed; key = first 16 hex of sha256(normalised).
-// Entry: data/i18n/tm/<culture>/<key[0..2]>.json = { "<key>": { "en": normalised, "t": translation, "by": role, "at": date } }
+// Entry (board/spec-translations.md): data/i18n/tm/<culture>/<key[0..2]>.json = { "<key>": { "t", "by", "model", "at", "src": first 60 chars of the English, "ok": false until a second pass } }
 import fs from 'node:fs'; import path from 'node:path'; import crypto from 'node:crypto';
 export const norm = s => s.normalize('NFC').replace(/\r\n?/g, '\n').replace(/[ \t\u00a0]+/g, ' ').replace(/ ?\n ?/g, '\n').replace(/\n{3,}/g, '\n\n').trim(); // keeps line breaks: a markdown list stays a list
 export const key = s => crypto.createHash('sha256').update(norm(s)).digest('hex').slice(0, 16);
@@ -9,10 +9,10 @@ const root = new URL('../../../../', import.meta.url).pathname;
 const tmDir = c => path.join(root, 'data/i18n/tm', c);
 export function load(c, k) { try { return JSON.parse(fs.readFileSync(path.join(tmDir(c), k.slice(0, 2) + '.json'), 'utf8')); } catch { return {}; } }
 export const has = (c, s) => key(s) in load(c, key(s));
-export function put(c, en, t, by = 'translator@PrompTugal.dinis', at = new Date().toISOString().slice(0, 10)) {
+export function put(c, en, t, by = 'translator@PrompTugal.dinis', at = new Date().toISOString().slice(0, 10), model = 'claude-sonnet-5-5') {
   const k = key(en), f = path.join(tmDir(c), k.slice(0, 2) + '.json'), o = load(c, k);
   if (o[k]) return false; // never overwrite: a segment with an entry is never translated again
-  o[k] = { en: norm(en), t, by, at };
+  o[k] = { t, by, model, at, src: norm(en).slice(0, 60), ok: false };
   fs.mkdirSync(tmDir(c), { recursive: true });
   const sorted = Object.fromEntries(Object.entries(o).sort());
   fs.writeFileSync(f, JSON.stringify(sorted, null, 1) + '\n'); return true;
@@ -27,6 +27,8 @@ export function segments() { // by-place prose
     const x = JSON.parse(fs.readFileSync(path.join(d, f), 'utf8'));
     add(x.mandate, f + '#mandate');
     for (const [k, v] of Object.entries(x.voice || {})) add(v, f + '#voice.' + k);
+    add((x.gravity || {}).text, f + '#gravity.text');
+    (x.ai_news || []).forEach((n, i) => { add(n.title, f + '#ai_news.' + i + '.title'); add(n.summary, f + '#ai_news.' + i + '.summary'); });
   }
   return out;
 }

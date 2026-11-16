@@ -1,8 +1,10 @@
 {
  "e72981ce21809675": {
-  "en": "Ainda não sabemos tudo, pá. Here is what Faro has not told us yet:",
   "t": "Ainda não sabemos tudo, pá. Eis o que Faro ainda não nos contou:",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, pá. Here is what Faro has not told u",
+  "ok": false
  }
 }

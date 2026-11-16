@@ -1,14 +1,18 @@
 {
  "ed323ee2e8192c66": {
-  "en": "The Algarve and its 17 places",
   "t": "O Algarve e os seus 17 lugares",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Algarve and its 17 places",
+  "ok": false
  },
  "ed99e8c975b51dc9": {
-  "en": "Tavira, ó pá, where the river is calmer than any server room and the seven arches have seen more migrations than your cloud provider.",
   "t": "Tavira, ó pá, onde o rio é mais calmo do que qualquer sala de servidores e os sete arcos da ponte já viram mais migrações do que o seu fornecedor de nuvem.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Tavira, ó pá, where the river is calmer than any server room",
+  "ok": false
  }
 }

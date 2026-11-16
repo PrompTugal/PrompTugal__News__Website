@@ -1,14 +1,18 @@
 {
  "3856b4c778bcdc4a": {
-  "en": "PrompTugal.news Portimão: AI and technology in Portimão, a council and a water company putting AI to work in public services, a smart-city incubator and a private higher-education institute, and what reaches Portimão from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "t": "PrompTugal.news Portimão: IA e tecnologia em Portimão, uma câmara e uma empresa de águas a pôr a IA ao serviço dos serviços públicos, uma incubadora de cidade inteligente e um instituto privado de ensino superior, e o que chega a Portimão vindo do Algarve, de Portugal e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Portimão: AI and technology in Portimão, a c",
+  "ok": false
  },
  "38726af755a9041b": {
-  "en": "**This site's identity:** {key} in [board/keys.json]({keys}); the signature over `{file}` could not be checked.",
   "t": "**A identidade deste site:** {key} em [board/keys.json]({keys}); não foi possível verificar a assinatura de `{file}`.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
  }
 }

@@ -1,8 +1,10 @@
 {
  "c721537dfaefd717": {
-  "en": "**This site's identity:** {key} in [board/keys.json]({keys}); `{file}` is signed, but not with the site's own key. Its agent, {agent}, signs it again with the site key.",
   "t": "**A identidade deste site:** {key} em [board/keys.json]({keys}); `{file}` está assinado, mas não com a chave do próprio site. O seu agente, {agent}, assina-o de novo com a chave do site.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
  }
 }

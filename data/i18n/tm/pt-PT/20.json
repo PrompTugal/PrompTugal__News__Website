@@ -1,8 +1,10 @@
 {
  "202d2e7e12f65bf7": {
-  "en": "AI and technology in {name}, in the Algarve: {local}, {map} on the AI map, every fact sourced.",
   "t": "IA e tecnologia em {name}, no Algarve: {local}, {map} no mapa de IA, cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AI and technology in {name}, in the Algarve: {local}, {map} ",
+  "ok": false
  }
 }

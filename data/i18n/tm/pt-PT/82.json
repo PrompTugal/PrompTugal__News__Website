@@ -1,8 +1,10 @@
 {
  "82fef129938f1eb4": {
-  "en": "PrompTugal.news Faro: AI and technology in Faro, a university city whose centre of gravity is the Universidade do Algarve, its research and its startup campus, and what reaches Faro from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "t": "PrompTugal.news Faro: IA e tecnologia em Faro, uma cidade universitária cujo centro de gravidade é a Universidade do Algarve, a sua investigação e o seu campus de startups, e o que chega a Faro vindo do Algarve, de Portugal e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Faro: AI and technology in Faro, a universit",
+  "ok": false
  }
 }

@@ -1,8 +1,10 @@
 {
  "55990f357d1c701d": {
-  "en": "Olhão is a fishing port on the Ria Formosa, and its tech goes through the sea. The fish-farming station, the S2AQUAcoLAB lab and the feed company SPAROS are here, and a Blue Hub is going up in the port. The AI path is narrow but real: precision nutrition for fish, plus a council that once talked of AI for the bin lorries.",
   "t": "Olhão é um porto de pesca na Ria Formosa, e a sua tecnologia passa pelo mar. A estação de piscicultura, o laboratório S2AQUAcoLAB e a empresa de rações SPAROS estão aqui, e está a nascer um Blue Hub no porto. O caminho da IA é estreito mas real: nutrição de precisão para peixes, mais uma câmara que já falou de IA para os camiões do lixo.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Olhão is a fishing port on the Ria Formosa, and its tech goe",
+  "ok": false
  }
 }

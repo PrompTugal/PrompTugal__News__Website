@@ -1,8 +1,10 @@
 {
  "288052c59a959663": {
-  "en": "Here is what we could not find, and yes, we looked behind the fishing boats too.",
   "t": "Eis o que não conseguimos encontrar, e sim, também procurámos atrás dos barcos de pesca.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here is what we could not find, and yes, we looked behind th",
+  "ok": false
  }
 }

@@ -1,8 +1,10 @@
 {
  "4fb1d5ca0d891a80": {
-  "en": "Here the tech is quiet and civic, nada de barulho. The câmara is part of a six-council data platform, put sensors on the parking spaces in 2026, and Tavira Works keeps the community lights on. No AI company found at home yet, so the centre of gravity is the plumbing AI could drink from later.",
   "t": "Aqui a tecnologia é discreta e cívica, nada de barulho. A câmara faz parte de uma plataforma de dados de seis municípios, pôs sensores nos lugares de estacionamento em 2026, e a Tavira Works mantém acesas as luzes da comunidade. Ainda não encontrámos nenhuma empresa de IA cá, por isso o centro de gravidade é a canalização de onde a IA poderá beber mais tarde.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here the tech is quiet and civic, nada de barulho. The câmar",
+  "ok": false
  }
 }

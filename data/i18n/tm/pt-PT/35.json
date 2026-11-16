@@ -1,20 +1,26 @@
 {
  "35683239cf1272c2": {
-  "en": "Here AI lives more in offices than in garages, meu. The câmara says it has bought AI tools to untangle planning papers, NERA sits in town teaching firms how to use them, and with Faro the council is tendering a tech centre at the Estádio Algarve that names AI. One real AI company so far, SPIC, so the map is short, and honest about it.",
   "t": "Aqui a IA vive mais nos escritórios do que nas garagens, meu. A câmara diz que comprou ferramentas de IA para desembaraçar papéis de planeamento, a NERA está na cidade a ensinar as empresas a usá-las e, com Faro, a câmara está a abrir concurso para um centro tecnológico no Estádio Algarve que menciona a IA. Só uma empresa de IA a sério até agora, a SPIC, por isso o mapa é curto, e honesto quanto a isso.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here AI lives more in offices than in garages, meu. The câma",
+  "ok": false
  },
  "356ea07c73f9328a": {
-  "en": "PrompTugal.news Algarve: AI and technology across the whole Algarve, from Sagres to Vila Real, and what reaches us from Portugal and the world. Independent, and every fact has its fonte.",
   "t": "PrompTugal.news Algarve: IA e tecnologia em todo o Algarve, de Sagres a Vila Real, e o que nos chega de Portugal e do mundo. Independente, e cada facto tem a sua fonte.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Algarve: AI and technology across the whole ",
+  "ok": false
  },
  "35dd6894d203adfc": {
-  "en": "Pombal drew this town on a grid from 1773 and it was done by 1776, which is faster than most of us finish a bica. The sardines and tuna gave way to tourism, and plenty of people nip across the river to work near Ayamonte. Now the town wants to be the national capital of the blue economy, with a shipyard on the Guadiana that built a boat for testing robots, Wi-Fi and footfall counters in the centre, and the Eurocidade do Guadiana with Ayamonte and Castro Marim for the cross-border ideas. AI company based here? Not yet, caramba.",
   "t": "Pombal desenhou esta vila em quadrícula em 1773 e estava pronta em 1776, o que é mais depressa do que a maioria de nós acaba uma bica. As sardinhas e os atuns deram lugar ao turismo, e muita gente passa o rio para trabalhar perto de Ayamonte. Agora a vila quer ser a capital nacional da economia azul, com um estaleiro no Guadiana que construiu um barco para testar robôs, wi-fi e contadores de passos no centro, e a Eurocidade do Guadiana com Ayamonte e Castro Marim para as ideias transfronteiriças. Empresa de IA sediada aqui? Ainda não, caramba.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Pombal drew this town on a grid from 1773 and it was done by",
+  "ok": false
  }
 }

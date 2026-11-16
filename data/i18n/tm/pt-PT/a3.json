@@ -1,8 +1,10 @@
 {
  "a35e2e051e4faf81": {
-  "en": "PrompTugal.news Quarteira: AI and technology in Quarteira, a beach and golf city whose parish holds Vilamoura, and what reaches Quarteira from Loulé, the Algarve, Portugal and the world. Independent; every fact sourced.",
   "t": "PrompTugal.news Quarteira: IA e tecnologia em Quarteira, uma cidade de praia e golfe cuja freguesia inclui Vilamoura, e o que chega a Quarteira vindo de Loulé, do Algarve, de Portugal e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Quarteira: AI and technology in Quarteira, a",
+  "ok": false
  }
 }

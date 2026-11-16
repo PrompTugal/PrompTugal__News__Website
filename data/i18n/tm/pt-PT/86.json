@@ -1,14 +1,18 @@
 {
  "867572ff80be5e8d": {
-  "en": "Map of the Algarve with its {count} places, each linked to its site",
   "t": "Mapa do Algarve com os seus {count} lugares, cada um ligado ao seu site",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Map of the Algarve with its {count} places, each linked to i",
+  "ok": false
  },
  "86ad806b1bec465d": {
-  "en": "Ó pá, Lagoa: sun, wine, a sea cave with a hole in its roof, and now a council that asks the robots about the air.",
   "t": "Ó pá, Lagoa: sol, vinho, uma gruta marinha com um buraco no teto e, agora, uma câmara que pergunta aos robôs pelo ar.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ó pá, Lagoa: sun, wine, a sea cave with a hole in its roof, ",
+  "ok": false
  }
 }

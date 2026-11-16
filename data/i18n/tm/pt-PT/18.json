@@ -1,8 +1,10 @@
 {
  "18aab1419ed810f9": {
-  "en": "PrompTugal.news Olhão: AI and technology in Olhão, a fishing port and Ria Formosa town where the sea, aquaculture and biotech lead, and what reaches Olhão from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "t": "PrompTugal.news Olhão: IA e tecnologia em Olhão, um porto de pesca e uma cidade da Ria Formosa onde o mar, a aquacultura e a biotecnologia lideram, e o que chega a Olhão vindo do Algarve, de Portugal e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Olhão: AI and technology in Olhão, a fishing",
+  "ok": false
  }
 }

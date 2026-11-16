@@ -1,8 +1,10 @@
 {
  "1a1e23e86f8fba6a": {
-  "en": "From PrompTugal.news",
   "t": "Do PrompTugal.news",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "From PrompTugal.news",
+  "ok": false
  }
 }

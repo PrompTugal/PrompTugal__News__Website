@@ -1,8 +1,10 @@
 {
  "b2fac44c72269f92": {
-  "en": "Quarteira was a proper fishing village once and became a city in 1999, bem chique. Now it lives on sun, sea and golf, with Vilamoura next door in the same parish. When it comes to gadgets, the grown-ups at Loulé's câmara hold the keys, from planning permits to the Quarteira Lab sensors.",
   "t": "Quarteira foi uma verdadeira aldeia de pescadores e passou a cidade em 1999, bem chique. Hoje vive de sol, mar e golfe, com Vilamoura ao lado, na mesma freguesia. Quando se fala de gadgets, os crescidos da câmara de Loulé é que têm as chaves, desde as licenças de obra aos sensores do Quarteira Lab.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Quarteira was a proper fishing village once and became a cit",
+  "ok": false
  }
 }

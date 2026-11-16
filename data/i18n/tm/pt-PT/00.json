@@ -1,8 +1,10 @@
 {
  "00843a929e71fc67": {
-  "en": "The 16 municipalities of the Algarve and the city of Quarteira, each with its own site and its own agent. Each site is a lens on the same stories: local news big, national and international AI news picked for what it means there.",
   "t": "Os 16 municípios do Algarve e a cidade de Quarteira, cada um com o seu site e o seu agente. Cada site é uma lente sobre as mesmas histórias: as notícias locais em grande, as notícias nacionais e internacionais de IA escolhidas pelo que significam ali.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 16 municipalities of the Algarve and the city of Quartei",
+  "ok": false
  }
 }

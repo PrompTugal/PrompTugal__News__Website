@@ -1,8 +1,10 @@
 {
  "4365e62936c6267c": {
-  "en": "Calma, we looked everywhere and no AI company came out of the sea yet. Here is what we could not find:",
   "t": "Calma, procurámos por todo o lado e nenhuma empresa de IA saiu do mar até agora. Eis o que não conseguimos encontrar:",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Calma, we looked everywhere and no AI company came out of th",
+  "ok": false
  }
 }

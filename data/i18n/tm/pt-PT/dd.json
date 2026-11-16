@@ -1,8 +1,10 @@
 {
  "dded4f00e6d60967": {
-  "en": "First the national plan, over 400 million euros of mostly European money, then AMALIA, the supercomputers and a startup scene that keeps raising rounds in Porto and Lisbon.",
   "t": "Primeiro o plano nacional, com mais de 400 milhões de euros de dinheiro sobretudo europeu, depois o AMALIA, os supercomputadores e um meio de startups que não pára de levantar rondas no Porto e em Lisboa.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "First the national plan, over 400 million euros of mostly Eu",
+  "ok": false
  }
 }

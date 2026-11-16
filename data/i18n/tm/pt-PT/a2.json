@@ -1,8 +1,10 @@
 {
  "a264b612529f59a0": {
-  "en": "PrompTugal.news Monchique: AI and technology in Monchique, a forested mountain municipality where wildfire risk and a small municipal business incubator set the agenda, and what reaches Monchique from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "t": "PrompTugal.news Monchique: IA e tecnologia em Monchique, um município de montanha e floresta onde o risco de incêndio e uma pequena incubadora municipal de empresas marcam a agenda, e o que chega a Monchique vindo do Algarve, de Portugal e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Monchique: AI and technology in Monchique, a",
+  "ok": false
  }
 }

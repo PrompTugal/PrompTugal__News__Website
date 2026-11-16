@@ -1,8 +1,10 @@
 {
  "1e19db94c238e148": {
-  "en": "Atlantic Ocean",
   "t": "Oceano Atlântico",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Atlantic Ocean",
+  "ok": false
  }
 }

@@ -1,8 +1,10 @@
 {
  "6ef4a4cb3361c45c": {
-  "en": "PrompTugal.news The Algarve: AI and technology across the Algarve and its 17 towns, centred on Faro's university and innovation community and on tourism and health, and what reaches the region from Portugal and the world. Independent; every fact sourced.",
   "t": "PrompTugal.news O Algarve: IA e tecnologia em todo o Algarve e nas suas 17 localidades, centradas na universidade e na comunidade de inovação de Faro e no turismo e na saúde, e o que chega à região vindo de Portugal e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news The Algarve: AI and technology across the Al",
+  "ok": false
  }
 }

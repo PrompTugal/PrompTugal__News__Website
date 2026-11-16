@@ -1,8 +1,10 @@
 {
  "332cf1204959dda4": {
-  "en": "PrompTugal.news Castro Marim: we are the last town before Espanha, so we watch the AI coming over the Guadiana like a flamingo watching the tide. Salt pans, a council with a clever planning office and a family that taught a salt works to talk back. What comes from the Algarve, Portugal and the world gets weighed here like flor de sal, by the gram. Independent, and every fact has its source.",
   "t": "PrompTugal.news Castro Marim: somos a última vila antes de Espanha, por isso vemos a IA a chegar pelo Guadiana como um flamingo a ver a maré. Salinas, uma câmara com um gabinete de planeamento esperto e uma família que ensinou uma salina a responder. O que vem do Algarve, de Portugal e do mundo é pesado aqui como flor de sal, ao grama. Independente, e cada facto tem a sua fonte.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Castro Marim: we are the last town before Es",
+  "ok": false
  }
 }

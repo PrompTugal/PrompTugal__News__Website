@@ -1,14 +1,18 @@
 {
  "ad1fbf1763609be8": {
-  "en": "Pois é: the AI action is mostly in Faro, round the university and Algarve Evolution, and mostly for the tourism and health that pay the bills. The university also landed 31.5 million euros for an AI-first heritage centre, which is not bad for a region famous for sardines.",
   "t": "Pois é: a ação de IA está sobretudo em Faro, à volta da universidade e da Algarve Evolution, e sobretudo ao serviço do turismo e da saúde que pagam as contas. A universidade também conseguiu 31,5 milhões de euros para um centro de património com a IA em primeiro lugar, o que não é nada mau para uma região famosa pelas sardinhas.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Pois é: the AI action is mostly in Faro, round the universit",
+  "ok": false
  },
  "ada25fc6c697d3ce": {
-  "en": "Faro, oh pá: where the storks nest on the bell tower, the lagoon sulks at low tide, and the university quietly teaches the whole Algarve to talk to machines, while somebody launches yet another startup book at the TEC Campus.",
   "t": "Faro, oh pá: onde as cegonhas fazem ninho na torre do sino, a ria amua com a maré baixa e a universidade ensina discretamente todo o Algarve a falar com as máquinas, enquanto alguém lança mais um livro de startups no TEC Campus.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Faro, oh pá: where the storks nest on the bell tower, the la",
+  "ok": false
  }
 }

@@ -1,8 +1,10 @@
 {
  "1fe47731592596f5": {
-  "en": "Olhão, where the fish are smarter than the brochures and the algorithms are still learning to gut a sardine.",
   "t": "Olhão, onde os peixes são mais espertos do que os folhetos e os algoritmos ainda estão a aprender a limpar uma sardinha.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Olhão, where the fish are smarter than the brochures and the",
+  "ok": false
  }
 }

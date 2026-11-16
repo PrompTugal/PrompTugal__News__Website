@@ -1,8 +1,10 @@
 {
  "feee2e234a37da04": {
-  "en": "PrompTugal.news Alcoutim: AI and technology, bem la no interior, ali onde o Guadiana faz de fronteira e a internet tem de aprender a nadar. Also what reaches us from the Algarve, Portugal and the world. Independent, and every fact has its source, pois claro.",
   "t": "PrompTugal.news Alcoutim: IA e tecnologia, bem lá no interior, ali onde o Guadiana faz de fronteira e a internet tem de aprender a nadar. Também o que nos chega do Algarve, de Portugal e do mundo. Independente, e cada facto tem a sua fonte, pois claro.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Alcoutim: AI and technology, bem la no inter",
+  "ok": false
  }
 }

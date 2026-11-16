@@ -1,14 +1,18 @@
 {
  "d59c7109bbba032c": {
-  "en": "Playful local voice: same facts, said the Algarvio way",
   "t": "Voz local descontraída: os mesmos factos, ditos à algarvia",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Playful local voice: same facts, said the Algarvio way",
+  "ok": false
  },
  "d5c86e462451b6fc": {
-  "en": "The 17 places in the first wave, each in its own colour. A filled dot is a live site, a ring a site still being researched. Tap a place to open its site.",
   "t": "Os 17 lugares da primeira vaga, cada um com a sua cor. Um ponto cheio é um site em linha, um anel é um site ainda em investigação. Toque num lugar para abrir o seu site.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 17 places in the first wave, each in its own colour. A f",
+  "ok": false
  }
 }

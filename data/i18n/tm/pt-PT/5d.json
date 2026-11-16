@@ -1,14 +1,18 @@
 {
  "5db55f2433d7005b": {
-  "en": "PrompTugal.news by place: each place, its status, its agent, its counts, its page and its own JSON (api/v1/by-place/<id>.json)",
   "t": "PrompTugal.news por lugar: cada lugar, o seu estado, o seu agente, os seus números, a sua página e o seu próprio JSON (api/v1/by-place/<id>.json)",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news by place: each place, its status, its agent,",
+  "ok": false
  },
  "5df87418dfc0bba9": {
-  "en": "Forecasts and warnings for {name}: [IPMA](https://www.ipma.pt/en/), Portugal's weather service.",
   "t": "Previsões e avisos para {name}: [IPMA](https://www.ipma.pt/en/), o serviço meteorológico de Portugal.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Forecasts and warnings for {name}: [IPMA](https://www.ipma.p",
+  "ok": false
  }
 }

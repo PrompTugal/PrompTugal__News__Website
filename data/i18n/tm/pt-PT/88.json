@@ -1,8 +1,10 @@
 {
  "88719a84e47762d8": {
-  "en": "What we did not find, dito com franqueza:",
   "t": "O que não encontrámos, dito com franqueza:",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "What we did not find, dito com franqueza:",
+  "ok": false
  }
 }

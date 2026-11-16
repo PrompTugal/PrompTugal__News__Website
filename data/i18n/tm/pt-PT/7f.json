@@ -1,8 +1,10 @@
 {
  "7f9841a5a5078282": {
-  "en": "PrompTugal.news Lagos: AI and technology in Lagos, a town of remote workers, a municipal coworking space and a busy Google developer community, and what reaches Lagos from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "t": "PrompTugal.news Lagos: IA e tecnologia em Lagos, uma cidade de trabalhadores remotos, de um espaço de coworking municipal e de uma comunidade de programadores Google muito ativa, e o que chega a Lagos vindo do Algarve, de Portugal e do mundo. Independente; cada facto com fonte.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Lagos: AI and technology in Lagos, a town of",
+  "ok": false
  }
 }

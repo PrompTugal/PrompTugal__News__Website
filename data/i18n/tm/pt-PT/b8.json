@@ -1,8 +1,10 @@
 {
  "b8e85a89c6074af1": {
-  "en": "PrompTugal.news Loulé: AI and tech from the town with the pretty market, a council that already bought itself some AI, and the Algarve's business association at home. We tell you what reaches Loulé from the Algarve, Portugal and the world, and every fact has a source, pois claro.",
   "t": "PrompTugal.news Loulé: IA e tecnologia da terra do mercado bonito, de uma câmara que já se pôs a comprar IA e da casa da associação empresarial do Algarve. Contamos-lhe o que chega a Loulé vindo do Algarve, de Portugal e do mundo, e cada facto tem fonte, pois claro.",
   "by": "translator@PrompTugal.dinis",
-  "at": "2026-11-16"
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Loulé: AI and tech from the town with the pr",
+  "ok": false
  }
 }
