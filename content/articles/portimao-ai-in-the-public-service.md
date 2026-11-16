@@ -13,7 +13,7 @@ tags: Portugal, Algarve, Portimão, AI, public sector, University of Algarve
 
 - Portimão's council is rolling out an online urban-management platform whose AI module checks building-licence documents the moment they are submitted.
 - The municipal water company EMARP bought 20 acoustic loggers that use AI to flag probable leaks, and a separate campaign covers 130 km of mains.
-- The council and the University of Algarve (UAlg) have agreed a technology campus with digital, data and AI as focus areas, though the report we read dates from January 2025.
+- The council and the University of Algarve (UAlg) have agreed a technology campus with digital, data and AI as focus areas, though a February 2026 update keeps the 2028 target at a lower cost and does not mention AI.
 - The only AI company on record in the town is Guepardo, a V2X and AI startup in the council's incubator. The town's AI is mostly public.
 
 ## The story
@@ -24,7 +24,7 @@ A second public body uses AI underground. In August 2025, EMARP, the municipal w
 
 The council also won funding for the wider effort. In March, Barlavento reported an approved application of about 938,000 euros under call ALGARVE-2025-13 to modernise municipal services. It covers cybersecurity, connectivity, automation of administrative processes and, in its list of project areas, artificial intelligence. The report says nothing about how AI will be used, so we count it as one step from AI, not as an AI project.
 
-The longer bet is the university. In January 2025 Barlavento reported a protocol between the council and UAlg for a new campus at Barranco do Rodrigo, with the rector naming digital, data and AI as its focus areas. The report targeted completion in 2028 and courses from 2029, at an estimated 15 million euros that was not fully secured. UAlg then had more than 400 students in Portimão and aimed for about 1,500 within three years. This is more than a year old, and we have not found a current status or any named AI course.
+The longer bet is the university. In January 2025 Barlavento reported a protocol between the council and UAlg for a new campus at Barranco do Rodrigo, with the rector naming digital, data and AI as its focus areas. The report targeted completion in 2028 and courses from 2029, at an estimated 15 million euros that was not fully secured. UAlg then had more than 400 students in Portimão and aimed for about 1,500 within three years. A February 2026 Lusa report, republished by O Algarve Económico, says the university and council met to align the plan with the municipal master plan. It keeps the 2028 target, puts the investment at about 8 million euros and describes no tender, and it does not mention AI. We have found no named AI course.
 
 Around these sit the talks. At the end of October, the council hosted the 35th International Seminar on Municipal Communication at the TEMPO theatre, on communication in the age of AI. In early November the town hosted the first TMCT conference on tourism and computing technologies, with sessions on AI in research and publishing. Algarve Evolution is named in one report as an organisation engaged to link the conference to regional stakeholders, though its exact role is not stated.
 
@@ -40,6 +40,7 @@ Each item is about AI directly, or one to three steps away through a public body
 - Barlavento, 21 August 2025, EMARP leak projects: https://www.barlavento.pt/emarp-investe-na-detecao-e-reparacao-de-fugas-de-agua-na-rede-publica-de-portimao/
 - Barlavento, 4 March 2026, digital-transformation grant: https://www.barlavento.pt/portimao-candidatura-transformacao-digital-servicos/
 - Barlavento, 22 January 2025, UAlg campus: https://www.barlavento.pt/portimao-campus-universitario-da-ualg-pronto-em-2028-com-foco-nas-tecnologias-e-inovacao/
+- O Algarve Económico (Lusa), 23 February 2026, campus update: https://oalgarve.pt/universidades-algarve-novo-campus-portimao/
 - Barlavento, 19 October 2026, municipal communication seminar: https://www.barlavento.pt/portimao-seminario-inteligencia-artificial-comunicacao-municipal/
 - Barlavento, 10 November 2026, TMCT 2026: https://www.barlavento.pt/tmct-2026-portimao/
 - StartUP Portimão, companies in its business incubator (undated): https://startupportimao.pt/index.php/pt/empresas/incubadora-de-negocios

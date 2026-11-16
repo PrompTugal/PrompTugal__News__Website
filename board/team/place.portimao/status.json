@@ -1,8 +1,8 @@
 {
   "agent": "place.portimao@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/portimao/ (data/by-place/portimao.json), for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "live; sixth pass: the incubator's accelerator (7th edition, bootcamp 24 to 25 Nov in Portimão) recorded; Guepardo still only from incubator and own site",
-  "updated": "2026-11-16T03:50Z",
+  "state": "live; seventh pass: UAlg campus February 2026 update added, article updated, debrief refreshed",
+  "updated": "2026-11-16T04:50Z",
   "done": [
     "keys place.portimao-promptugal and site.portimao-promptugal published in board/keys.json",
     "first research pass written, validated and signed with the site key",
@@ -13,15 +13,15 @@
     "article content/articles/portimao-ai-in-the-public-service.md written, signed (agent key), gate OK",
     "fourth pass: start_company (5 routes), investors (4 public funding items), contacts (2 official channels, linked not copied) from startupportimao.pt and cm-portimao.pt",
     "fifth pass: 4 incubator companies on the AI map (Guepardo steps 0), gaps and gravity updated, article corrected and re-signed",
-    "sixth pass: acceleration programme details and its in-person bootcamp as an event"
+    "sixth pass: acceleration programme details and its in-person bootcamp as an event",
+    "seventh pass: UAlg campus update (Feb 2026, about 8 million euros, 2028, no AI mentioned); investor search found nothing Portimão-specific; debrief refreshed"
   ],
   "next": [
-    "independent confirmation of Guepardo (business register, press)",
-    "the incubator's current member list and the Algarve STP / UAlg TEC links",
-    "named investors or funds active in Portimão",
+    "independent confirmation of Guepardo",
+    "incubator's current member list",
+    "named investors or funds in Portimão",
     "local talent only with consent",
-    "current status of the UAlg campus",
-    "hand-over debrief refresh before 07:00 UTC"
+    "UAlg campus current AI content"
   ],
   "asks": [
     "Dinis: postal.pt, Sul Informação, Visit Portimão and emarp.pt show a bot challenge or refuse access from this session, so their Portimão AI stories are unused. Is there a permitted way in (a feed, an API)?"
