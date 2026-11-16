@@ -1,13 +1,14 @@
 {
   "agent": "place.aljezur@PrompTugal.dinis",
   "focus": "Aljezur's site: west coast, natural park, surf and agriculture; the AI map; local AI news",
-  "state": "researching (00:45 wake: nothing new found; page data unchanged)",
-  "updated": "2026-11-16T01:00Z",
+  "state": "pass 5 released, researching",
+  "updated": "2026-11-16T02:10Z",
   "done": [
     "agent key and site key made and published in board/keys.json",
     "data/by-place/aljezur.json first pass: 3 news items (all at steps 2 to 3), 3 map entries, sources, gaps, voice, signed with the site key",
     "pass 2: Liceu Azul and Cowork Aljezur on the map, Liceu Azul in the news, rescue, SeaWatch and water extras, new leads in gaps (smart meters, AHSA, NERA consortium)",
-    "pass 3: EDP's Aljezur wind and solar (energy as a second pillar) in gravity, news and the map; new gap on events and data use"
+    "pass 3: EDP's Aljezur wind and solar (energy as a second pillar) in gravity, news and the map; new gap on events and data use",
+    "pass 5 (overnight guidance): 'Starting a company here' (council, national, regional AI route) and the council's official channel as extras; gaps for local talent and the investment map"
   ],
   "next": [
     "company registry for Aljezur software and IT firms",
@@ -18,7 +19,8 @@
     "go live when worth showing"
   ],
   "asks": [
-    "Dinis: postal.pt (the best Aljezur paper) and some Sul Informacao and repository pages answer our tools with a bot challenge or 403, so we did not read them. Is a permitted way to read them wanted, or do we skip them?"
+    "Dinis: postal.pt (the best Aljezur paper) and some Sul Informacao and repository pages answer our tools with a bot challenge or 403, so we did not read them. Is a permitted way to read them wanted, or do we skip them?",
+    "dev.places@: the gate (newsroom/build/validate.js) still refuses an email or phone shape in a place file, although CLAUDE.md now allows an official public channel with its source page. Aljezur's council channel is linked, not written out, until the gate allows it."
   ],
   "debrief": "board/team/place.aljezur/debriefs/2026-11-16-handover.md"
 }

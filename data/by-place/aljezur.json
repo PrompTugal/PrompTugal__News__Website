@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "researching",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "by": "place.aljezur@PrompTugal.dinis",
   "mandate": "PrompTugal.news Aljezur: AI and technology in Aljezur, a west coast municipality of beaches, surf and nature, and what reaches Aljezur from the Algarve, Portugal and the world. Independent. Every fact sourced.",
   "gravity": {
@@ -137,6 +137,12 @@
       "url": "https://rotavicentina.com",
       "kind": "business",
       "feed": null
+    },
+    {
+      "name": "Municipio de Aljezur: Atividades Economicas and Aljezur para Investir",
+      "url": "https://cm-aljezur.pt/pt/menu/105/aljezur-para-investir.aspx",
+      "kind": "council",
+      "feed": null
     }
   ],
   "events": [],
@@ -235,6 +241,30 @@
       "value": "Over 4 million euros from the PRR for five reservoirs, 13 km of pipes and 127 connections, aiming to cut losses by about 27,700 cubic metres a year. Civil works, not digital.",
       "source_url": "https://www.barlavento.pt/prr-aljezur-investe-mais-de-4-milhoes-na-reducao-de-perdas-de-agua/",
       "read_on": "2026-11-15"
+    },
+    {
+      "label": "Starting a company here: the council's side",
+      "value": "The council's investor page (Aljezur para Investir) lists the Feiteirinha industrial zone, a service for managing investment processes and a link to InvestAlgarve. It does not describe incentives, plots or steps, so a first call to the council is the way to learn them. Licensing runs through its Urbanismo service and Serviços Online portal.",
+      "source_url": "https://cm-aljezur.pt/pt/menu/105/aljezur-para-investir.aspx",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company here: the national side",
+      "value": "The state's entrepreneurship guide points founders to Startup Portugal and IAPMEI for support across idea, incubation, growth and internationalisation, and to the Portal do Financiamento for funding.",
+      "source_url": "https://www.gov.pt/guias/investir-em-portugal-empreendedorismo-e-inovacao",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company here: the regional AI route",
+      "value": "For tourism SMEs, Algarve Evolution's pilot (Inova Algarve 3.0, co-financed by Algarve 2030) offered technical consulting and an AI and robotics action plan. Its 2026 call has closed. Watch its next call.",
+      "source_url": "https://www.barlavento.pt/candidaturas-algarve-transicao-digital-turismo/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Official council channel (general)",
+      "value": "The Municipio de Aljezur publishes one general institutional channel (post, email and phone) on its Contactos uteis page, linked here and read on 16 November 2026. The council lists no separate contact for economic activity or urbanism, so this general channel is the starting point.",
+      "source_url": "https://cm-aljezur.pt/pt/menu/76/contactos-uteis.aspx",
+      "read_on": "2026-11-16"
     }
   ],
   "identity": {
@@ -251,7 +281,9 @@
     "Whether any Aljezur business joined the Algarve Evolution AI and robotics pilot is unknown: no Aljezur name appears in the coverage we read.",
     "Leads we did not read because the pages refused automated access: the 1,500 smart water meters with telemetry at Vale da Telha (reported by Postal do Algarve and Portugal Resident, with resident complaints) and AHSA, the growers' association of Odemira and Aljezur, whose partners include an agricultural innovation firm. Both could earn a map entry.",
     "The consortium behind the Algarve AI and robotics pilot is reported to be led by NERA with Algarve Evolution and the University of Algarve. That comes from a search snippet we could not open, so it is a lead only.",
-    "A site-by-site check of whether any Aljezur firm or institution plans AI use of its energy, farm or tourism data is still missing. The Odeceixe information session of 10 November 2026 listed on an events site was not read because its organiser and programme could not be verified."
+    "A site-by-site check of whether any Aljezur firm or institution plans AI use of its energy, farm or tourism data is still missing. The Odeceixe information session of 10 November 2026 listed on an events site was not read because its organiser and programme could not be verified.",
+    "Local talent who have spoken publicly: none found for Aljezur on this pass, and we name no private individuals. Likely places to look are the University of Algarve's surf and tourism researchers and the Liceu Azul team once it opens.",
+    "Investment map: no investor, fund or startup based in Aljezur found yet. The council's investor page gives no incentive details, so what the government side offers a startup here is only partly known."
   ],
   "voice": {
     "lede": "Ora pois, Aljezur: mais ondas do que servidores, mais vento do que wi-fi, e mesmo assim a olhar para a inteligencia artificial.",
