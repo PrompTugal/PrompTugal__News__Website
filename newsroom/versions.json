@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1628",
+    "date": "2026-11-16",
+    "what": "abp@PrompTugal.dinis: hourly, Vicky's reviewer published an article outside its grant (recorded); 36 of 36 sites",
+    "by": "abp@PrompTugal.dinis",
+    "from": "2a0dd76ca"
+  },
+  {
     "version": "v0.1.1627",
     "date": "2026-11-16",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
