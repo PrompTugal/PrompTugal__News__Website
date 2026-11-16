@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "researching",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "by": "place.albufeira@PrompTugal.dinis",
   "mandate": "PrompTugal.news Albufeira: AI and technology in Albufeira, a tourism and hospitality town, and what reaches Albufeira from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -182,6 +182,12 @@
       "value": "Barlavento (20 March 2026) reports an ALGARVE 2030 supported project to bring AI and robotics to 15 tourism SMEs, through digital maturity diagnostics and action plans. The article does not say whether Albufeira firms can take part.",
       "source_url": "https://www.barlavento.pt/?p=394835",
       "read_on": "2026-11-15"
+    },
+    {
+      "label": "Starting a company here",
+      "value": "The council's incubator Startup Albufeira takes innovative projects, with preference for creativity and tourism, from individuals or firms under two years old, and offers four offices and a 16-desk shared room (its 2021 price list is still on the page, so confirm current terms). Requests to the council for building and planning work now go through its online urbanism counter (since February 2026). The council also gives free coworking space at a seafront hotel. For AI help, an Algarve-wide pilot for tourism SMEs exists, run with Algarve Evolution partners. Official pages: https://www.cm-albufeira.pt/startup-albufeira and https://www.cm-albufeira.pt/albufeira-digital-nomads",
+      "source_url": "https://www.cm-albufeira.pt/startup-albufeira",
+      "read_on": "2026-11-16"
     }
   ],
   "identity": {
