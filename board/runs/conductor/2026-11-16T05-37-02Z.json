@@ -1,0 +1,162 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor@PrompTugal.dinis",
+ "run": "2026-11-16T05-37-02Z",
+ "started": "2026-11-16T05:37:02.779Z",
+ "ended": "2026-11-16T05:53:00Z",
+ "line": "",
+ "policy": {
+  "version": "1.12.0",
+  "sha256": "5671adc96f1bf61e"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T05:37:02.779Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 10,
+  "by_kind": {
+   "other": 3,
+   "release": 3,
+   "git": 2,
+   "git-push": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 10,
+  "commits": [
+   {
+    "sha": "ac5f2a6db",
+    "subject": "conductor@PrompTugal.dinis: 04:36 wake: now data refreshed, lanes for the 17 district sites, release contention recorded",
+    "files": 41
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/albufeira.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/alcoutim.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/algarve.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/aljezur.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/castro-marim.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/faro.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/lagoa.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/lagos.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/loule.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/monchique.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/olhao.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/portimao.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/quarteira.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/sao-bras-de-alportel.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/silves.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/tavira.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/vila-do-bispo.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "ac5f2a6db wrote data/by-place/now/vila-real-de-santo-antonio.json",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 10,
+  "in_mandate": 10,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 18
+ }
+}

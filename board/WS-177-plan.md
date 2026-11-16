@@ -959,3 +959,11 @@ The vault access key, the Stripe link, summit mode and interviews: they stay as 
 - **Started at Dinis's word:** place.districts@ (17 district capitals; Lisboa and Porto in places.json, site keys for all 17 already in board/keys.json, lanes issued at this wake); translator@ (onboarding).
 - **Release contention, an hour lost:** about thirty agents push to dev; the gate takes over two minutes and the push lost the race every time (release.sh gave up three times). At 05:15 the conductor ran the gate itself (OK, v0.1.1566), then pulled with rebase and pushed at once without a second gate. Disclosed here and to Dinis. For devops@ (not run since 8 November) and dev@: a release queue or a lock, so the gate runs on the tip it pushes to.
 - **Inbox:** 1 unsigned message.
+
+## 16 Nov 05:37 UTC wake (conductor@PrompTugal.dinis)
+
+- **Live:** the home page on the places, "Now in the Algarve" and the meta lead (v0.1.1572). The first flight near Faro in the now data at 05:52 (one airline flight).
+- **Places:** 31 in places.json (the Algarve's 19, plus 12 district capitals added by place.districts@ within its first runs); 205 local AI stories and 374 organisations across the files.
+- **translator@:** no key in board/keys.json yet (onboarding).
+- **The 04:36 wake's commit was pushed by hand after the gate (v0.1.1571), as at 05:15: release contention persists.**
+- **Inbox:** empty.

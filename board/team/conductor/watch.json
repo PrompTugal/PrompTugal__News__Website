@@ -325,6 +325,13 @@
    "SGit-AI__Website__Web-Summit": "854439ff",
    "PrompTugal__News__Website": "74eb5695",
    "note": "Home page on the places, now data and meta lead pushed (gate run by hand, then pushed: release contention); districts and translator agents started; 17 site keys for the districts."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-16T05:37Z",
+   "SGit-AI__Website__Web-Summit": "854439ff",
+   "PrompTugal__News__Website": "ac5f2a6d",
+   "note": "31 places (12 district capitals in), 205 stories; home page on the places live; first Faro flight in now data; pushes by hand after the gate."
   }
  ]
 }
