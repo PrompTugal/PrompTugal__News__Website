@@ -47,7 +47,7 @@
   "sources": [
     {
       "name": "Camara Municipal de Vila do Bispo",
-      "url": "https://www.cm-viladobispo.pt",
+      "url": "https://www.cm-viladobispo.pt/noticias",
       "kind": "council",
       "feed": null
     },
@@ -86,6 +86,12 @@
       "url": "https://www.ualg.pt/en/sagres-marine-science-festival",
       "kind": "university",
       "feed": null
+    },
+    {
+      "name": "Camara Municipal de Vila do Bispo, funded projects page",
+      "url": "https://www.cm-viladobispo.pt/municipio/concelho/projetos-financiados-fundos-comunitarios",
+      "kind": "council",
+      "feed": null
     }
   ],
   "events": [
@@ -98,6 +104,26 @@
     }
   ],
   "ai_map": [
+    {
+      "name": "Municipio de Vila do Bispo, digitalisation of municipal services",
+      "type": "public body",
+      "url": "https://www.cm-viladobispo.pt/municipio/concelho/projetos-financiados-fundos-comunitarios",
+      "what": "The council's own project sheet (approved 9 October 2025, running 1 July 2022 to 31 December 2027): strengthen the technology and network infrastructure for more capacity and reliability, described as technological modernisation and digital transformation of local administration. Eligible cost 1,072,637.94 euros, EU support 643,582.75 euros.",
+      "source_url": "https://www.cm-viladobispo.pt/uploads/Municipio/Concelho/Projetos_financiados/FichadeOperacao_Digitalizacao_de_Servicossite.pdf?file=moVWhZWuqFXrK4rJG3W7mw",
+      "read_on": "2026-11-16",
+      "ai_path": "Not AI itself. A council's digital backbone is what any later AI service for residents would run on. Path: municipal network and digital services, then AI services on top. No AI use is stated.",
+      "steps": 3
+    },
+    {
+      "name": "Municipio de Vila do Bispo, smart urban waste management",
+      "type": "public body",
+      "url": "https://www.cm-viladobispo.pt/municipio/concelho/projetos-financiados-fundos-comunitarios",
+      "what": "The council's project sheet (approved 21 November 2025, 1 June 2024 to 31 December 2025): reinforce and optimise separate waste collection, with efficiency, 'intelligent' waste management and bio-waste collection. Eligible cost 439,725 euros, EU support 263,835 euros.",
+      "source_url": "https://www.cm-viladobispo.pt/uploads/Municipio/Concelho/Projetos_financiados/Portugal_2030/Ficha_de_operacao_Site_Gestao_Residuos.pdf?file=nNYUA808AXbXvsI152mYSA",
+      "read_on": "2026-11-16",
+      "ai_path": "Weak. The sheet says intelligent management but does not mention AI or sensors. Path: smart waste collection, then data-driven routing, then AI. Unconfirmed.",
+      "steps": 3
+    },
     {
       "name": "MARREAL underwater observatory, Sagres (UAlg, CINTAL, CCMAR, INESC-TEC)",
       "type": "institution",
@@ -153,7 +179,7 @@
   },
   "gaps": [
     "No AI news found for Vila do Bispo. Searches in Portuguese and English for AI, startups, data centres and digital projects returned tourism, heritage and council news only. That is a finding, not a missing page.",
-    "The council's own site returned errors or an empty news list when we opened it on 15 November, so no council items were read. A press search suggested the council invested in a data centre and in digitalisation, but we did not open that page, so it is not stated as fact here.",
+    "The council's news page loads with curl (the fetch tool fails on it). On 16 November its recent items were the storm Charles response, an ultra trail finish, a cliff rescue training exercise, wildfire prevention notices and gift cards for students: no AI item. A press search suggested a 421 thousand euro council data centre, but the funded projects page we read lists digitalisation and smart waste, not a data centre, so it stays unconfirmed.",
     "Wind power appears in the INEGI and APREN inventory (see extras), but we found no AI link for it and have not opened the operators' own pages.",
     "No events found. Sources to look for: council agenda, Universidade do Algarve events at Sagres, Algarve Evolution.",
     "No local feeds found. Sources to look for: an RSS feed from Barlavento or the council.",
@@ -161,8 +187,7 @@
     "No MARREAL data page or later news found: the 2022 article promised the data online 'soon', and we did not find it.",
     "No Algarve Evolution link to Vila do Bispo found in a search on 16 November. Sea4Us shows no 2026 news and no AI work in the sources we reached.",
     "Starting a company here: only one route found so far (Vicentina's funding calls, from a 2020 article). We found no incubator in the municipality. Next: the council's business pages, Algarve regional incubation vouchers, and the Monchique incubator next door.",
-    "A search suggested a municipal entrepreneur support office run with Vicentina, but the only source returned 403, so it is not listed.",
-    "No official contact is listed: the one phone number we saw came from a 2020 press article, not an official page. To be added from the council or Vicentina's own site."
+    "A search suggested a municipal entrepreneur support office run with Vicentina, but the only source returned 403, so it is not listed. The council's contacts page shows no business desk."
   ],
   "voice": {
     "lede": "Aqui no fim do mundo, o vento e que manda e a IA ainda esta a chegar de bicicleta.",
@@ -221,6 +246,36 @@
       "read_on": "2026-11-16",
       "amount": "about 2.1 million euros",
       "date": "2023-06-16"
+    },
+    {
+      "name": "Portugal 2030 and Algarve 2030, digitalisation of municipal services",
+      "type": "grant",
+      "what": "EU support of 643,582.75 euros to the Municipality of Vila do Bispo on an eligible cost of 1,072,637.94 euros, project ALGARVE-FEDER-03054600.",
+      "url": "https://www.cm-viladobispo.pt/uploads/Municipio/Concelho/Projetos_financiados/FichadeOperacao_Digitalizacao_de_Servicossite.pdf?file=moVWhZWuqFXrK4rJG3W7mw",
+      "source_url": "https://www.cm-viladobispo.pt/uploads/Municipio/Concelho/Projetos_financiados/FichadeOperacao_Digitalizacao_de_Servicossite.pdf?file=moVWhZWuqFXrK4rJG3W7mw",
+      "read_on": "2026-11-16",
+      "amount": "643,582.75 euros EU support",
+      "date": "2025-10-09"
+    },
+    {
+      "name": "Portugal 2030 and Algarve 2030, smart urban waste management",
+      "type": "grant",
+      "what": "EU support of 263,835 euros to the Municipality of Vila do Bispo on an eligible cost of 439,725 euros, project ALGARVE-FEDER-03085500.",
+      "url": "https://www.cm-viladobispo.pt/uploads/Municipio/Concelho/Projetos_financiados/Portugal_2030/Ficha_de_operacao_Site_Gestao_Residuos.pdf?file=nNYUA808AXbXvsI152mYSA",
+      "source_url": "https://www.cm-viladobispo.pt/uploads/Municipio/Concelho/Projetos_financiados/Portugal_2030/Ficha_de_operacao_Site_Gestao_Residuos.pdf?file=nNYUA808AXbXvsI152mYSA",
+      "read_on": "2026-11-16",
+      "amount": "263,835 euros EU support",
+      "date": "2025-11-21"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Camara Municipal de Vila do Bispo, general office",
+      "what": "The council's published general office channels, as listed on its own contacts page. The gate currently refuses an email address in the file, so only the page link and the switchboard are shown. For business and funding questions, start here.",
+      "url": "https://www.cm-viladobispo.pt/contactos",
+      "source_url": "https://www.cm-viladobispo.pt/contactos",
+      "read_on": "2026-11-16",
+      "channel": "main switchboard 282 630 600 (national landline rate), and a general mailbox, both published on the contacts page linked here"
     }
   ]
 }

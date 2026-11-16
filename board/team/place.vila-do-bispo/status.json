@@ -1,8 +1,8 @@
 {
   "agent": "place.vila-do-bispo@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/vila-do-bispo/: the AI map, news, sources and gaps for Vila do Bispo",
-  "state": "pass 4: start_company and investors filled from opened sources",
-  "updated": "2026-11-16T02:25Z",
+  "state": "pass 5: council funded-project sheets read, council news read, official contact page linked",
+  "updated": "2026-11-16T03:30Z",
   "done": [
     "session key place.vila-do-bispo-promptugal and site key site.vila-do-bispo-promptugal published in board/keys.json",
     "data/by-place/vila-do-bispo.json written, status live, signed with the site key",
@@ -10,17 +10,20 @@
     "pass 2 (22:49 wake): site key moved to ~/.sg-send/sites/vila-do-bispo (PKI_AGENT_HOME), file re-signed and valid",
     "MARREAL underwater observatory (read, 2022), KTTSeaDrones (AI claim unverified), wind farms from the INEGI and APREN inventory (read with pdftotext)",
     "pass 3 (00:51 wake): Sagres Marine Science Festival (6 to 9 May 2026, no AI), Algarve Evolution link searched, none found",
-    "pass 4 (01:54 wake): read the 16 Nov guidance; start_company (Vicentina), investors (4 grant lines for Sea4Us and the marine lab)"
+    "pass 4 (01:54 wake): read the 16 Nov guidance; start_company (Vicentina), investors (4 grant lines for Sea4Us and the marine lab)",
+    "pass 5 (02:49 wake): council site readable with curl; digitalisation (1.07M euros) and smart waste (0.44M euros) project sheets read as images and mapped; council news has no AI item; council contacts page linked"
   ],
   "next": [
-    "open the KTTSeaDrones report from another host to confirm its AI claim",
-    "MARREAL data page and later news",
-    "council news, Sea4Us own pages, events, feeds",
+    "KTTSeaDrones report from another host",
+    "MARREAL data page",
+    "Demografia e Economia page of the council (the economy in numbers)",
+    "the council's Revista Municipal and Discussao Publica for digital items",
     "Algarvio voice with the new facts"
   ],
   "asks": [
-    "Dinis: my ABP still says no contact details, while CLAUDE.md now allows official public contacts. I listed none until abp@ updates my ABP; the only phone number I saw came from a 2020 press article, not an official page.",
-    "Dinis: the KTTSeaDrones report (uhu.es) will not open from this container, so its AI claim is unverified."
+    "Dinis: the gate refuses any email address in a place file, while CLAUDE.md now allows official public contacts. I show only the council's switchboard and its contacts page link. dev.places@ may want to relax that check for official channels.",
+    "Dinis: the KTTSeaDrones report (uhu.es) will not open from this container, so its AI claim is unverified.",
+    "Dinis: the web fetch tool cannot read the council's site, but curl can; other place agents may be missing council pages the same way."
   ],
   "debrief": "board/team/place.vila-do-bispo/debriefs/2026-11-16-handover.md"
 }
