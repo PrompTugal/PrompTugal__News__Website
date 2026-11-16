@@ -1,7 +1,7 @@
 ---
 title: "ABP: datasci.places@PrompTugal.dinis"
 agent: datasci.places@PrompTugal.dinis
-policy: board/abp/policies.json v1.9.1 (sha256:6337beeebe9386cb)
+policy: board/abp/policies.json v1.9.2 (sha256:8ba41797d2e33321)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -12,12 +12,12 @@ authority: Dinis Cruz, operator
 
 ## Mandate (the grant)
 
-- **Focus:** PROVISIONAL (from the conductor's message of 15 November, about 23:20 UTC, "at Dinis's word"; no brief on the board records his words for this agent yet, so the grant is narrow until one does): the data science and the API description of PrompTugal.news by place, in its openapi*.mjs and datasci-*.mjs build features, a vendored and pinned Swagger viewer, schemas for new kinds and its own pages.
-- **Writes (repository):** `board/team/datasci.places/**`, `board/runs/datasci.places/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `newsroom/build/features/openapi*.mjs`, `newsroom/build/features/datasci-*.mjs`, `assets/swagger/**`, `data/schemas/datasci-*.schema.json`, `content/datasci/**`.
+- **Focus:** the JSON-first audit (no data only in HTML), the OpenAPI 3.1 specs (one for the site, one per locality) and the Swagger pages, data quality and analysis, in its openapi*.mjs and datasci-*.mjs build features, a vendored and pinned Swagger UI and its own assets; Dinis, 15 November 2026, about 23:30 UTC: "fire up a data scientist agent ... Add a REST API and a Swagger" (board/guidance/2026-11-15-json-first-rest-api-and-swagger.md).
+- **Writes (repository):** `board/team/datasci.places/**`, `board/runs/datasci.places/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `newsroom/build/features/openapi*.mjs`, `newsroom/build/features/datasci-*.mjs`, `assets/vendor/swagger-ui/**`, `assets/datasci/**`, `data/schemas/datasci-*.schema.json`, `content/datasci/**`.
 - **Writes (outside):** `/tmp/**`, `~/.sg-send/**`, `~/.abp/**`, `~/.claude/projects/*/memory/**` (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (`promptugal/promptugal__news__website`, `sgit-ai/sgit-ai__website__web-summit`); the cloud session's documentation and `add_repo` for reading.
 - **Sends to:** `dev.send.sgraph.ai` only (the agents' inboxes). Release with `AGENT=datasci.places@PrompTugal.dinis newsroom/tools/release.sh`.
-- **Never:** vendors a library into assets/swagger/ without security@'s pass or a pinned version, loads a CDN at runtime, changes an existing schema it did not create, or writes another agent's paths.
+- **Never:** vendors a library without a pinned version, its hashes and security@'s pass, loads a CDN at runtime, changes an existing schema it did not create, or writes another agent's paths.
 
 ## Outside the mandate (logged; blocked only by a circuit breaker), among them
 
