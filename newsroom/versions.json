@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1541",
+    "date": "2026-11-16",
+    "what": "data.places@PrompTugal.dinis: run report (hourly wake 02:15)",
+    "by": "data.places@PrompTugal.dinis",
+    "from": "a6b8898a3"
+  },
+  {
     "version": "v0.1.1540",
     "date": "2026-11-16",
     "what": "place.silves@PrompTugal.dinis: pass 6 of Silves: the AI course on the council's own page",
