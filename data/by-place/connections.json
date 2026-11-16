@@ -1153,6 +1153,82 @@
         "faro",
         "portugal"
       ]
+    },
+    {
+      "id": "algarve365-ai-assistant",
+      "from": {
+        "name": "Algarve365 (free iOS and Android app with an AI assistant)",
+        "type": "product",
+        "place": "algarve"
+      },
+      "to": {
+        "name": "Local businesses and tourism operators (partner programme)",
+        "type": "organisation",
+        "place": "algarve"
+      },
+      "relation": "serves",
+      "what": "The app covers places, events, trails, weather, news and local businesses in seven languages, with an AI assistant that answers questions and suggests routes and experiences. Local firms can apply as partners, free until 31 December 2026. The page's footer shows a Vilamoura company logo but does not say who builds or runs the app, so no operator is claimed. Usage figures are the page's own.",
+      "ai_path": "An app whose assistant uses AI.",
+      "steps": 0,
+      "source_url": "https://www.algarve365.app/en-US",
+      "source_title": "Algarve365 (the app's own page)",
+      "source_date": "2026",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "algarve"
+      ]
+    },
+    {
+      "id": "ulsalgarve-ai-webinar",
+      "from": {
+        "name": "ULS Algarve",
+        "type": "public body",
+        "place": "faro"
+      },
+      "to": {
+        "name": "ULS Algarve webinar: the impact of AI on the national health service",
+        "type": "event",
+        "place": "faro"
+      },
+      "relation": "organises",
+      "what": "Held 15 September 2026 under the health-literacy programme, open to all: opportunities, risks and conditions for AI in health, governance, data protection, quality of care, and AI as decision support that should not replace human judgement.",
+      "ai_path": "A hospital group runs a public event on AI.",
+      "steps": 0,
+      "source_url": "https://www.barlavento.pt/webseminario-uls-algarve-inteligencia-artificial-sns/",
+      "source_title": "Webseminario da ULS Algarve discute impacto da Inteligencia Artificial no SNS (Barlavento)",
+      "source_date": "2026-09-10",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro"
+      ]
+    },
+    {
+      "id": "ulssm-iscte-webinar",
+      "from": {
+        "name": "ULS Santa Maria and ISCTE (speakers' institutions)",
+        "type": "institution",
+        "place": "lisboa"
+      },
+      "to": {
+        "name": "ULS Algarve webinar: the impact of AI on the national health service",
+        "type": "event",
+        "place": "faro"
+      },
+      "relation": "participates_in",
+      "what": "Speakers included staff from ULS Santa Maria's information systems and a professor of ISCTE, besides ULS Algarve staff. ULS Santa Maria is also one of the nine units in the Sword Health physiotherapy protocols, a second link between the Algarve and Lisbon health units.",
+      "ai_path": "Speakers on AI in health.",
+      "steps": 1,
+      "source_url": "https://www.barlavento.pt/webseminario-uls-algarve-inteligencia-artificial-sns/",
+      "source_title": "Barlavento, 10 September 2026",
+      "source_date": "2026-09-10",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro",
+        "lisboa"
+      ]
     }
   ],
   "leads": [
@@ -1330,12 +1406,12 @@
       ]
     },
     {
-      "what": "Also from search extracts, not read: the Algarve365 free app with an AI assistant, Make In Algarve platform (24 September 2026), ULS Algarve webinar on AI in the national health service (15 September 2026) and a risk conference in Faro (14 October 2026) with an AI block.",
+      "what": "Not yet opened: Make In Algarve platform (24 September 2026) and the ULS Algarve risk conference in Faro (14 October 2026) with an AI block. Algarve365's operator is not named on its page; an Intodetails company logo (Vilamoura) is in the footer, and place.quarteira lists a 'DETAILS' hospitality firm of Vilamoura: same company is not established.",
       "url": "https://www.algarve365.app/en-US",
-      "why_open": "Pages not opened",
+      "why_open": "Operator unconfirmed",
       "places": [
         "algarve",
-        "faro"
+        "quarteira"
       ]
     }
   ],
