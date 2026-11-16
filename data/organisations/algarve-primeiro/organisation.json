@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "algarve-primeiro",
+  "type": "organisation",
+  "name": "Algarve Primeiro",
+  "names_as_listed": [
+    "Algarve Primeiro"
+  ],
+  "sources": [
+    {
+      "url": "https://www.algarveprimeiro.com/",
+      "read_at": "2026-11-16T20:12Z",
+      "by": "local@PrompTugal.jose",
+      "how": "the outlet's own home page, read for its outlet record"
+    }
+  ],
+  "kind": "media",
+  "note": "Written by hand by local@PrompTugal.jose on 16 November 2026 from the outlet's own pages, for the Algarve towns (desks/local-jose/towns/). Its own page describes it as daily and generalist regional (Algarve); kept as online because the site shows no print edition.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:algarve",
+      "place:faro",
+      "place:loule"
+    ],
+    "owner": {
+      "name": "Emídio Santos",
+      "source": {
+        "url": "https://www.algarveprimeiro.com/ficha-tecnica",
+        "read_at": "2026-11-16T20:12Z",
+        "how": "named on the Ficha Técnica page as Proprietário, Diretor e Editor"
+      }
+    },
+    "language": [
+      "pt-PT"
+    ],
+    "website": "https://www.algarveprimeiro.com/",
+    "feeds": [
+      {
+        "url": "https://www.algarveprimeiro.com/sitemap.xml",
+        "format": "sitemap",
+        "scope": "every page of the site; no RSS found",
+        "source": {
+          "url": "https://www.algarveprimeiro.com/sitemap.xml",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "answered 200 as XML (about 13 MB). No RSS or Atom: the home page head has no alternate feed link, and /feed, /rss and /rss.xml each answered 404"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.algarveprimeiro.com/contactos",
+      "source": {
+        "url": "https://www.algarveprimeiro.com/contactos",
+        "read_at": "2026-11-16T20:12Z",
+        "how": "the outlet's own Contactos page, linked from its footer: the newsroom's contact and a message form. Nothing copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Emídio Santos",
+        "role": "Proprietário, Diretor e Editor",
+        "source": {
+          "url": "https://www.algarveprimeiro.com/ficha-tecnica",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "named on the Ficha Técnica page, with a journalist's card number"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.algarveprimeiro.com/",
+        "read_at": "2026-11-16T20:12Z",
+        "how": "home page read: titled \"Algarve Primeiro - As últimas da região\"; stories about Faro and about Loulé on it today"
+      },
+      {
+        "url": "https://www.algarveprimeiro.com/ficha-tecnica",
+        "read_at": "2026-11-16T20:12Z",
+        "how": "the page shows ERC registration nº 126528, daily, generalist regional (Algarve), newsroom in Olhão"
+      },
+      {
+        "url": "https://www.algarveprimeiro.com/estatuto-editorial",
+        "read_at": "2026-11-16T20:12Z",
+        "how": "its Estatuto Editorial: whoever reproduces its content must cite the source; copying is allowed free of charge when not for profit"
+      },
+      {
+        "url": "https://www.algarveprimeiro.com/robots.txt",
+        "read_at": "2026-11-16T20:12Z",
+        "how": "robots.txt read: only /admin/ is refused"
+      }
+    ]
+  }
+}
