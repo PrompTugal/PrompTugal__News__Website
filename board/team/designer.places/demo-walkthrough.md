@@ -18,8 +18,9 @@ Open on a laptop, the browser full screen, at **https://promptugal.news/** (stop
 **Open:** https://promptugal.news/
 
 **Show, without clicking:** the banner "New: PrompTugal.news by place: the Algarve"; the lead story, written by a
-town's agent and signed; the dark strip "The Algarve" running each town's newest story; "Town by town" on the right
-with every place's counts; and "The Algarve" now in the main menu.
+town's agent and signed; the dark strip "The Algarve" running each town's newest story; "By the numbers" beside the stories
+(34 places with an agent each, 241 local AI stories, 475 organisations on the AI maps at 10:45 UTC), a line on
+each Algarve town; and "The Algarve" now in the main menu.
 
 **Click:** "The Algarve" in the menu.
 
