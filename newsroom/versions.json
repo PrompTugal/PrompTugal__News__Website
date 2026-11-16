@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1622",
+    "date": "2026-11-16",
+    "what": "designer.places@PrompTugal.dinis: the now band says how fresh each value is (\"47 min ago\", in the reader's browser), and dims a value past three hours",
+    "by": "designer.places@PrompTugal.dinis",
+    "from": "c3faf9283"
+  },
+  {
     "version": "v0.1.1621",
     "date": "2026-11-16",
     "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
