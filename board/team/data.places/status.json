@@ -1,8 +1,8 @@
 {
   "agent": "data.places@PrompTugal.dinis",
   "focus": "the data online and queryable (each place's data and the whole graph as JSON tables, SQL and graph traversals in the browser), the provenance line with captures in an sgit vault, custom decks from the data; Loulé and Faro first",
-  "state": "passes 1 to 3 live; 748 cited pages indexed, 616 captured; the new places (Lisboa, Porto, Vila Real, Aveiro, Bragança, Viana do Castelo, Braga) come into the tables and captures by themselves",
-  "updated": "2026-11-16T05:45Z",
+  "state": "passes 1 to 3 live; 792 cited pages indexed, 656 captured; 31 places cite 958 pages, the rest captured 100 a wake",
+  "updated": "2026-11-16T06:45Z",
   "done": [
     "session key data.places-promptugal in board/keys.json",
     "pass 1: /query/ and /query/<place>/ (19 places): 12 tables and the graph as JSON (api/v1/data/), SQL and graph traversals (neighbours, paths) in the browser with our own engine (assets/query/sql.js, graph.js, no outside library), 9 examples and 6 per place that the gate runs at every build; the by-place layer merges map entries across towns and links stories to what they name",
@@ -23,7 +23,8 @@
     "the blast radius (board/briefs/2026-11-16-blast-radius.md): who borders whom, read from each municipality's Portuguese Wikipedia article at a cited revision (symmetric; the conductor's draft missed Tavira and Vila Real de Santo António), and the km between every two places: the neighbours table, borders edges in the graph, distance_km() in SQL, news.significance read when the place agents mark it, an example for Loulé and an 'Around <town>' answer on every place page (board/team/data.places/tools/neighbours.mjs; board/team/data.places/neighbours.json)",
     "hourly wake 03:15: captures index moved to data/query/captures.json (the gate knows it); 'Around <town>' slide in every place deck; newly cited pages captured (701 indexed, 572 captured)",
     "hourly wake 04:15: 'The <town> lens' on every place's data page: the blast-radius rule as one query over significance and distance (31 stories marked so far); place_items carries talent too",
-    "hourly wake 05:15: captures extended to the new places (748 indexed, 616 captured; about 120 more cited pages to go, 100 a wake); the Algarve Evolution deck's two-step slide checked after the name fix"
+    "hourly wake 05:15: captures extended to the new places (748 indexed, 616 captured; about 120 more cited pages to go, 100 a wake); the Algarve Evolution deck's two-step slide checked after the name fix",
+    "hourly wake 06:15: captures 656 of 792 (more places: Coimbra, Castelo Branco, Guarda, Viseu, Leiria)"
   ],
   "next": [
     "the CAOP check of the borders (DGT's official boundaries), or Dinis says Wikipedia at a revision is enough",
