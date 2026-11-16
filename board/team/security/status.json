@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "working",
-  "updated": "2026-11-15T23:10Z",
-  "reviewed_to": "c30906dcb",
+  "updated": "2026-11-16T00:12Z",
+  "reviewed_to": "d79e69e92",
   "hold": false,
   "done": [
-    "18:05 11 Nov: 78 commits clean; reviewer@vicky within grant; the Fringe link to lisbontechfringe.com (link only)",
     "21:05 11 Nov: 88 commits clean; Vicky's team rotated back, none removed; a cross-team supersede request rightly refused",
     "00:05 12 Nov: websummit-only pass pre-reviewed: go, with raw data/, stories, desk JSON in scope; advice: off the site, leave history; S40",
     "03:05 12 Nov: 35 commits clean; websummit-only pass built to conditions, switch off",
@@ -14,11 +13,11 @@
     "09:05 12 Nov: 44 commits clean; takedown holds; side events as unread pointers",
     "12:05 12 Nov: 25 commits clean; the daily debrief written (three days late)",
     "15:05 12 Nov: 31 commits clean",
-    "23:05 15 Nov: 208 commits (3 days) clean; 21 place agents and 21 site keys; ABP hook change pinned; S40 again; conditions ahead for 'show the power'"
+    "23:05 15 Nov: 208 commits (3 days) clean; 21 place agents and 21 site keys; ABP hook change pinned; S40 again; conditions ahead for 'show the power'",
+    "00:05 16 Nov: 58 commits clean; talk pane pre-reviewed (go after 2 must-fixes); Swagger UI verified against npm; capture tool and /query/ fine"
   ],
   "next": [
-    "pre-review the social media detectives, the online database and OpenRouter work when their passes open",
-    "add the place and site keys to keys-and-vaults.md",
+    "post-review the talk pane before enabled turns true",
     "follow S40, S38, S36"
   ],
   "findings_open": {
