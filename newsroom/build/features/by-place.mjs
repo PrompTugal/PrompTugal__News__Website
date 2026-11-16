@@ -44,7 +44,12 @@ function load(ctx) {
 
 const host = u => { try { return new URL(u).hostname.replace(/^www\./, '') } catch { return u } }
 const dmy = s => (s && /^\d{4}-\d{2}-\d{2}/.test(s)) ? s.slice(0, 10) : (s || '')
-const towns = (L) => L.list.filter(p => p.kind === 'municipality' || p.kind === 'city')
+const local = p => p.kind === 'municipality' || p.kind === 'city'
+// the Algarve's towns (parent algarve, or a city inside one of them) for the region page, its map and its counts; every
+// local place, the district capitals under portugal included (place.districts@), still gets its own page
+const inAlgarve = (L, p) => { for (let q = p, i = 0; q && i < 5; q = L.byId.get(q.parent), i++) if (q.parent === 'algarve') return true; return false }
+const towns = (L) => L.list.filter(p => local(p) && inAlgarve(L, p))
+const pagePlaces = (L) => L.list.filter(local)
 const W = (L, key, vars = {}) => String(L.copy[key] || '').replace(/\{(\w+)\}/g, (_, k) => vars[k] ?? '')
 const n = (k, one, many) => `${k} ${k === 1 ? one : (many || one + 's')}`
 
@@ -167,7 +172,7 @@ function townPage(ctx, L, p) {
     const parentLink = parent ? `[${esc(ctx, parent.name)}](${ctx.link(rel, `${parent.path}index.html`)})` : ''
     const inside = L.list.filter(x => x.parent === p.id)
     const local = p.ai_news
-    const wider = (region ? region.ai_news : []).slice(0, 4)
+    const algarve = inAlgarve(L, p), wider = (algarve ? (region ? region.ai_news : []) : (L.byId.get('portugal') || { ai_news: [] }).ai_news).slice(0, 4)
     const ours = tagged(ctx, m => m.town === p.id || inside.some(x => m.town === x.id))
     const latest = tagged(ctx, m => !ours.some(o => o.meta === m)).slice(0, 4)
     let md = mast(ctx, L, p, parentLink) + photoBand(ctx, L, p, rel)
@@ -175,18 +180,18 @@ function townPage(ctx, L, p) {
     md += gravityBlock(ctx, L, p)
     md += `## AI in ${esc(ctx, p.name)} {#local}\n\n` + (local.length ? newsCards(ctx, local, 'bp-big') : `{.bp-empty}\n${W(L, 'local_empty')}`) + '\n\n'
     if (ours.length) md += `## ${W(L, 'articles_h', { name: esc(ctx, p.name) })} {#ours}\n\n${articleList(ctx, rel, ours)}`
-    if (wider.length) md += `## From the Algarve {#region}\n\n${newsCards(ctx, wider, 'bp-small')}\n\n`
+    if (wider.length) md += `## ${algarve ? 'From the Algarve' : 'From Portugal'} {#region}\n\n${newsCards(ctx, wider, 'bp-small')}\n\n`
     if (latest.length) md += `## ${W(L, 'national_h')} {#national}\n\n${articleList(ctx, rel, latest)}`
     md += `## The AI map {#map}\n\n${W(L, 'map_intro', { name: p.name })}\n\n` + (mapRows(ctx, p.ai_map) || `{.bp-empty}\nBeing mapped.`) + '\n\n'
     if (p.investors.length) md += `## ${W(L, 'investors_h')} {#investors}\n\n${W(L, 'investors_intro', { name: esc(ctx, p.name) })}\n\n` + entries(ctx, p.investors, 'bp-invest', x => [x.type && ` \`${esc(ctx, x.type)}\``, x.amount && ` **${esc(ctx, x.amount)}**`, x.date && ` (${esc(ctx, x.date)})`].filter(Boolean).join(''))
     if (p.talent.length) md += `## ${W(L, 'talent_h')} {#talent}\n\n${W(L, 'talent_intro')}\n\n` + entries(ctx, p.talent, 'bp-talent', x => x.role ? `, ${esc(ctx, x.role)}.` : '')
-    md += `:::\n::: col\n` + (Array.isArray(p.at) ? `{.bp-svgmap .bp-locator}\n[${esc(ctx, W(L, 'locator_link'))}](${ctx.link(rel, 'algarve/index.html')})\n\n` : '') + sideCol(ctx, L, p, rel, inside)
+    md += `:::\n::: col\n` + (algarve && Array.isArray(p.at) ? `{.bp-svgmap .bp-locator}\n[${esc(ctx, W(L, 'locator_link'))}](${ctx.link(rel, 'algarve/index.html')})\n\n` : '') + sideCol(ctx, L, p, rel, inside)
     md += `:::\n:::\n\n` + testNote(ctx, L, rel, p)
     const accent = (p.look && p.look.accent) || DEF_ACCENT
     return {
         src: `data/by-place/${p.id}.json`, rel, type: 'place', layout: 'wide', date: dmy(p.updated) || ctx.TODAY,
         section: 'portugal', group: 'Portugal',
-        crumbs: [['portugal/index.html', 'Portugal'], ...(p.parent === 'loule' ? [['algarve/index.html', 'The Algarve'], [`algarve/loule/index.html`, 'Loulé']] : [['algarve/index.html', 'The Algarve']]), [null, p.name]],
+        crumbs: [['portugal/index.html', 'Portugal'], ...(!algarve ? [] : p.parent === 'loule' ? [['algarve/index.html', 'The Algarve'], [`algarve/loule/index.html`, 'Loulé']] : [['algarve/index.html', 'The Algarve']]), [null, p.name]],
         title: `PrompTugal.news ${p.name}`,
         summary: W(L, 'town_summary', { name: p.name, local: n(local.length, 'local AI story', 'local AI stories'), map: n((p.ai_map || []).length, 'organisation') }),
         assets: { css: ['assets/by-place/by-place.css'], js: ['assets/by-place/by-place.js'] },
@@ -291,7 +296,7 @@ function regionPage(ctx, L) {
 
 export function pages(ctx) {
     const L = load(ctx)
-    return [regionPage(ctx, L), ...towns(L).map(t => townPage(ctx, L, t))]
+    return [regionPage(ctx, L), ...pagePlaces(L).map(t => townPage(ctx, L, t))]
 }
 
 // the national lens (data/by-place/portugal.json, place.portugal@'s file) at the top of portugal/index.html
@@ -337,6 +342,8 @@ function placeRecord(ctx, L, p) {
         counts: { ai_news: p.ai_news.length, ai_map: p.ai_map.length, events: p.events.length, sources: p.sources.length, articles: arts.length },
         ai_news: p.ai_news.map(a => ({ ...a, provenance: provenance(p, r, a, 'story') })), ai_map: p.ai_map.map(m => ({ ...m, provenance: provenance(p, r, { ...m, url: m.source_url }, 'map entry') })), events: p.events, sources: p.sources, extras: p.extras, start_company: p.start_company, investors: p.investors, talent: p.talent, contacts: p.contacts, gaps: p.gaps, voice: p.voice || null,
         articles: arts,
+        // the wider stories its page shows ("From the Algarve" or "From Portugal"), so the page holds nothing its JSON does not
+        ...(local(p) ? (() => { const from = inAlgarve(L, p) ? 'algarve' : 'portugal', src = L.byId.get(from); return { wider_news: { from, items: (src ? src.ai_news : []).slice(0, 4) } } })() : {}),
         team: { agent: p.agent, status: `${SITE_URL}board/team/${p.agent.split('@')[0]}/status.json`, debriefs: `https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/team/${p.agent.split('@')[0]}/debriefs`, runs: `https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/runs/${p.agent.split('@')[0]}` },
         ...(p.id === 'algarve' ? (() => { const g = regionAgg(L); return { region: {
             places: g.places, live: g.live, local_ai_news: g.localCount,
@@ -387,7 +394,7 @@ export function api(ctx) {
 export const searchDocs = ctx => {
     const L = load(ctx)
     return [{ id: 'page:algarve/index.html', url: 'algarve/index.html', title: 'PrompTugal.news The Algarve', type: 'place', date: ctx.TODAY, text: 'Algarve AI technology towns Faro Loulé Quarteira Silves Tavira Portimão Lagos Olhão Albufeira Lagoa Monchique Aljezur Vila do Bispo Castro Marim Alcoutim São Brás de Alportel Vila Real de Santo António AI map Algarve Evolution' },
-        ...towns(L).map(t => ({ id: `page:${t.path}index.html`, url: `${t.path}index.html`, title: `PrompTugal.news ${t.name}`, type: 'place', date: dmy(t.updated) || ctx.TODAY, text: [t.name, t.mandate, t.gravity && t.gravity.text, ...(t.ai_news || []).map(a => a.title), ...(t.ai_map || []).map(m => m.name)].filter(Boolean).join(' ') }))]
+        ...pagePlaces(L).map(t => ({ id: `page:${t.path}index.html`, url: `${t.path}index.html`, title: `PrompTugal.news ${t.name}`, type: 'place', date: dmy(t.updated) || ctx.TODAY, text: [t.name, t.mandate, t.gravity && t.gravity.text, ...(t.ai_news || []).map(a => a.title), ...(t.ai_map || []).map(m => m.name)].filter(Boolean).join(' ') }))]
 }
 
 export function llms(ctx) {
