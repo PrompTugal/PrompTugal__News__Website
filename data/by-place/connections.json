@@ -1383,6 +1383,82 @@
         "faro",
         "santarem"
       ]
+    },
+    {
+      "id": "ccmar-imagine-dl",
+      "from": {
+        "name": "CCMAR, Centro de Ciencias do Mar do Algarve (UAlg)",
+        "type": "institution",
+        "place": "faro"
+      },
+      "to": {
+        "name": "IMAGINE (EU Horizon research-infrastructure project on imaging technologies)",
+        "type": "programme",
+        "place": "portugal"
+      },
+      "relation": "participates_in",
+      "what": "CCMAR advertised a research grant, reference CCMAR/BINCGAM/05/2023, for a master's-level researcher to build deep-learning software for image reconstruction, processing and analysis (light-sheet microscopy, optical projection tomography), as open-source plugins. A 2023 call (applications 2 August to 30 September 2023): it shows the work exists, not that it is current.",
+      "ai_path": "Deep-learning software for biological imaging at a Faro marine-science centre.",
+      "steps": 0,
+      "source_url": "https://ccmar.ualg.pt/job/ccmarbincgam052023",
+      "source_title": "Bolsa de Investigacao em Inteligencia Artificial e Bio-Imagem, CCMAR/BINCGAM/05/2023 (CCMAR)",
+      "source_date": "2023-08",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro"
+      ]
+    },
+    {
+      "id": "stp-ai-workshop-kcitar",
+      "from": {
+        "name": "Algarve STP",
+        "type": "organisation",
+        "place": "faro"
+      },
+      "to": {
+        "name": "AI workshop at Campus da Penha (project KCITAR, CRESC Algarve)",
+        "type": "event",
+        "place": "faro"
+      },
+      "relation": "organises",
+      "what": "Run with the University of the Algarve and facilitated by Fraunhofer Portugal on 23 January, with over 70 participants, mostly from businesses, and some students; also held in English. The page does not state the year or a publication date, so it is recorded as undated (the CRESC Algarve funding programme suggests an earlier year than 2026).",
+      "ai_path": "A regional body trained firms in AI with a research institute.",
+      "steps": 0,
+      "source_url": "https://www.ualg.pt/ualg-acolheu-workshop-sobre-inteligencia-artificial",
+      "source_title": "UAlg acolheu workshop sobre Inteligencia Artificial (Universidade do Algarve)",
+      "source_date": "",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro"
+      ]
+    },
+    {
+      "id": "fraunhofer-ualg-workshop",
+      "from": {
+        "name": "Fraunhofer Portugal",
+        "type": "institution",
+        "place": "portugal"
+      },
+      "to": {
+        "name": "AI workshop at Campus da Penha (project KCITAR, CRESC Algarve)",
+        "type": "event",
+        "place": "faro"
+      },
+      "relation": "participates_in",
+      "what": "Named as the facilitator. Fraunhofer Portugal is also a partner of the Algarve Smart Destination hub (EDIH catalogue), so it recurs across both.",
+      "ai_path": "A research institute leading an AI workshop in Faro.",
+      "steps": 1,
+      "source_url": "https://www.ualg.pt/ualg-acolheu-workshop-sobre-inteligencia-artificial",
+      "source_title": "Universidade do Algarve (undated page)",
+      "source_date": "",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro",
+        "portugal"
+      ]
     }
   ],
   "leads": [
@@ -1568,12 +1644,21 @@
       ]
     },
     {
-      "what": "Not yet opened: the ULS Algarve risk conference in Faro (14 October 2026) with an AI block. Algarve365's operator is not named on its page; an Intodetails company logo (Vilamoura) is in the footer, and place.quarteira lists a 'DETAILS' hospitality firm of Vilamoura: same company is not established.",
-      "url": "https://www.algarve365.app/en-US",
-      "why_open": "Operator unconfirmed",
+      "what": "ULS Algarve's risk conference in Faro (14 October 2026) with an AI block: Sul Informacao page returns 403, known from a search extract only. Algarve365's operator is not named on its page; an Intodetails company logo (Vilamoura) is in the footer, and place.quarteira lists a 'DETAILS' hospitality firm of Vilamoura: same company is not established.",
+      "url": "https://www.sulinformacao.pt/2026/10/uls-algarve-debate-riscos-de-corrupcao-ciberataques-e-inteligencia-artificial-na-saude/",
+      "why_open": "Pages not readable from here",
       "places": [
+        "faro",
         "algarve",
         "quarteira"
+      ]
+    },
+    {
+      "what": "UAlg research centres seen in extracts, not read: CINTAL (underwater communications, computer vision, IoT, AI), the DIREQT2Heart project (AI with MRI physics), a September 2026 Portugal-China marine-science meeting with AI in its programme.",
+      "url": "https://cintal.ualg.pt/",
+      "why_open": "Search extract only",
+      "places": [
+        "faro"
       ]
     }
   ],
