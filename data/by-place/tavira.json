@@ -130,7 +130,20 @@
       "feed": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "title": "Plantar Água results event, Tavira",
+      "date": "2026-11-27",
+      "url": "https://www.barlavento.pt/plantar-agua-tavira-resultados-wwf-portugal/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "title": "Market-shop tender deadline (17:00)",
+      "date": "2026-11-19",
+      "url": "https://postal.pt/economia/tavira-lanca-concurso-para-exploracao-de-sete-lojas-em-mercados-municipais-com-valores-a-partir-de-250-euros/",
+      "read_on": "2026-11-16"
+    }
+  ],
   "ai_map": [
     {
       "name": "Polo de Inovação de Tavira",
@@ -269,12 +282,84 @@
     "Starting a company here: the council's own pages list generic support and no incentive for tech or AI firms. A current Fundo de Apoio à Economia Local call and the planned municipal economic development plan were not found open or dated, so they stay unchecked.",
     "Tavira Works and LOFT: their pages say little. Their social pages and events were not read, and no dated event with an AI topic was found.",
     "The Algarve Biomedical Center's own About page (read 16 November 2026) mentions neither Tavira, Campus Med Life nor digital therapeutics, and lists a clinical research unit, an imaging lab, a genetics lab and an insoles lab. Search results point to its press items on the Tavira plan, but those and the Portugal Resident piece were down or blocked, so the digital therapeutics centre stays unconfirmed.",
-    "Polo de Inovação de Tavira: search listings dated March 2026 (Recuperar Portugal, Jornal do Algarve, Região Sul and Agroportal) carry headlines that say the PRR requalification of the CEAT was carried out, at a figure above 2 million euros. All four pages were blocked or down when we tried, so we cannot say what was finished, and we have not read the 2026 plans for the centre or any AI use. CCDR Algarve's December 2024 notice, which we did read, had scheduled the works to end by December 2025. The digital therapeutics centre remains unconfirmed."
+    "Polo de Inovação de Tavira: search listings dated March 2026 (Recuperar Portugal, Jornal do Algarve, Região Sul and Agroportal) carry headlines that say the PRR requalification of the CEAT was carried out, at a figure above 2 million euros. All four pages were blocked or down when we tried, so we cannot say what was finished, and we have not read the 2026 plans for the centre or any AI use. CCDR Algarve's December 2024 notice, which we did read, had scheduled the works to end by December 2025. The digital therapeutics centre remains unconfirmed.",
+    "cm-tavira.pt returned HTTP 403 on 16 November, so no council press release, minutes or official contact page was read; the six new items come from Barlavento and Postal. Next: gov.pt, Diário da República, CCDR Algarve and IPMA for the flood-risk coverage.",
+    "Seen only as headlines, not opened: flood-risk zones in Tavira (Postal, 11 November), a missing man and a seized boat near Cabanas, the 2026 council budget (a search snippet says 61.5 million euros, unchecked) and the Regulamento de Mobilidade Sustentável (Edital 120/2026)."
   ],
   "voice": {
     "lede": "Tavira, ó pá, where the river is calmer than any server room and the seven arches have seen more migrations than your cloud provider.",
     "mandate": "PrompTugal.news Tavira: we keep an eye on AI and tech in Tavira, the town of terracotta roofs, and on whatever arrives from the Algarve, Portugal and the world. Independent, and every fact comes with its receipt.",
     "gravity": "Here the big project is a research hub for the Mediterranean Diet, ó pá, with a very Tavira reading list: health, food, climate. The câmara is part of a six-council data platform, put sensors on the parking spaces in 2026, and Tavira Works keeps the community lights on. No AI company found at home yet, so the plumbing and the farm labs come first.",
     "gaps_intro": "Ainda não sabemos tudo, and a good Tavira lunch takes its time. Here is what we have not found yet:"
-  }
+  },
+  "local_news": [
+    {
+      "title": "Tavira tenders the Quatro Águas riverfront restaurant",
+      "summary": "The council opened a concession tender of up to 10 years, minimum 30,000 euros; proposals are due at 17:00 on 9 December 2026. The site came to the council through the state's transfer of powers to municipalities.",
+      "date": "2026-11-13",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/tavira-concessao-restaurante-quatro-aguas/",
+      "read_on": "2026-11-16",
+      "significance": "town",
+      "ai_path": "no AI",
+      "steps": 0
+    },
+    {
+      "title": "Tavira tenders seven market shops in Tavira, Cabanas and Luz de Tavira",
+      "summary": "Ten-year concessions with minimum bids from 250 to 5,000 euros; proposals are due at 17:00 on 19 November 2026, electronically.",
+      "date": "2026-10-21",
+      "publisher": "Postal",
+      "url": "https://postal.pt/economia/tavira-lanca-concurso-para-exploracao-de-sete-lojas-em-mercados-municipais-com-valores-a-partir-de-250-euros/",
+      "read_on": "2026-11-16",
+      "significance": "town",
+      "ai_path": "no AI",
+      "steps": 0
+    },
+    {
+      "title": "Chint Solar's 53.42 MWp plant at Cachopo is in public consultation",
+      "summary": "About 70 hectares in the Serra do Caldeirão (Tavira municipality); consultation opened 27 October and runs to 9 December 2026, run by APA.",
+      "date": "2026-11-03",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/central-solar-cachopo-terra-ruiva-consulta-publica/",
+      "read_on": "2026-11-16",
+      "significance": "town and region",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "Alcoutim and Loulé share the Caldeirão interior"
+    },
+    {
+      "title": "WWF Portugal presents the results of 'Plantar Água' in Tavira on 27 November",
+      "summary": "The project has restored over 120 hectares of burned land in the Serra do Caldeirão; the figures for future water recovery are WWF projections. Results event at 10:30 on 27 November.",
+      "date": "2026-11-16",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/plantar-agua-tavira-resultados-wwf-portugal/",
+      "read_on": "2026-11-16",
+      "significance": "town, neighbours and region",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "the Caldeirão serra reaches Alcoutim, Castro Marim and Loulé"
+    },
+    {
+      "title": "A citrus agritourism project from Tavira wins 2,500 euros in the INOVA ALGARVE + DIVERSIFICAR contest",
+      "summary": "The prize was announced on 5 November at the Citrus Sector Conference at the University of Algarve; the contest is run by NERA and co-funded by Algarve 2030.",
+      "date": "2026-11-10",
+      "publisher": "Postal",
+      "url": "https://postal.pt/algarve/projeto-de-turismo-ligado-aos-citrinos-de-tavira-vence-premio-de-2-500-euros/",
+      "read_on": "2026-11-16",
+      "significance": "town and region",
+      "ai_path": "no AI",
+      "steps": 0
+    },
+    {
+      "title": "Tavira's Municipal Assembly moves citizen participation earlier in its sessions",
+      "summary": "Interventions now follow the period before the agenda; recent online broadcasts drew over 200 simultaneous viewers (print-edition interview).",
+      "date": "2026-11-07",
+      "publisher": "Postal",
+      "url": "https://postal.pt/edicaopapel/jose-manuel-guerreiro-tavira-da-a-palavra-aos-cidadaos-mais-cedo-nas-sessoes-da-assembleia/",
+      "read_on": "2026-11-16",
+      "significance": "town",
+      "ai_path": "no AI",
+      "steps": 0
+    }
+  ]
 }
