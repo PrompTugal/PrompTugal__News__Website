@@ -43,9 +43,17 @@ if (process.argv[1] === new URL(import.meta.url).pathname) {
     const m = JSON.parse(fs.readFileSync(arg, 'utf8')); let n = 0;
     for (const [k, t] of Object.entries(m)) { const s = segs.get(k); if (!s) { console.log('unknown key', k); continue; } if (put(c, s.en, t)) n++; }
     console.log(`${c}: ${n} entries added`);
+  } else if (cmd === 'review') { // arg: JSON {key: true | "corrected translation"}: second pass; true marks ok, a string replaces t (by stays, rev records the reviewer)
+    const m = JSON.parse(fs.readFileSync(arg, 'utf8')); let ok = 0, fixed = 0;
+    for (const [k, v] of Object.entries(m)) {
+      const f = path.join(tmDir(c), k.slice(0, 2) + '.json'), o = load(c, k); if (!o[k]) { console.log('no entry', k); continue; }
+      if (v === true) { o[k].ok = true; ok++; } else if (typeof v === 'string' && v.trim()) { o[k].t = v; o[k].ok = true; o[k].rev = 'translator@PrompTugal.dinis second pass'; fixed++; }
+      fs.writeFileSync(f, JSON.stringify(Object.fromEntries(Object.entries(o).sort()), null, 1) + '\n');
+    }
+    console.log(`${c}: ${ok} confirmed, ${fixed} corrected`);
   } else if (cmd === 'count') {
     for (const cc of fs.existsSync(path.join(root, 'data/i18n/tm')) ? fs.readdirSync(path.join(root, 'data/i18n/tm')) : []) {
       const n = [...segs].filter(([k]) => k in load(cc, k)).length; console.log(`${cc}: ${n}/${segs.size}`);
     }
-  } else console.log('usage: tm.mjs todo <culture> <out.json> | apply <culture> <in.json> | count');
+  } else console.log('usage: tm.mjs todo <culture> <out.json> | apply <culture> <in.json> | review <culture> <in.json> | count');
 }
