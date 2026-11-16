@@ -1,12 +1,12 @@
 ---
-title: "Shelf list: DAT, Data and the ontology (part 2 of 11)"
+title: "Shelf list: DAT, Data and the ontology (part 2 of 12)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T13:00:00Z"
-site_version: "v0.1.1399"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-16T21:59:57Z"
+site_version: "v0.1.1665"
 source: board/catalogue.json
 ---
 
-# Shelf list: DAT, Data and the ontology (part 2 of 11)
+# Shelf list: DAT, Data and the ontology (part 2 of 12)
 
 100 cards, from `DAT.CO sageox` to `DAT.EV investing-in-zero-billion-dollar-markets`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 

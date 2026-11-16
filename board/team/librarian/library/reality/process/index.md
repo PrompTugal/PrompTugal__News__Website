@@ -26,32 +26,32 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-1031 cards (1031 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-12T13:00:00Z at site v0.1.1399; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1070 cards (1070 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-16T21:59:57Z at site v0.1.1665; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `GDN.CONC` | 88 |
 | `GDN.IDEA` | 494 |
-| `GDN.MEMO` | 42 |
+| `GDN.MEMO` | 57 |
 | `GDN.Q` | 13 |
 | `GEN.BOARD` | 32 |
 | `GEN.README` | 1 |
-| `WRK.BRIEF` | 64 |
-| `WRK.DEC` | 13 |
-| `WRK.DESK` | 19 |
+| `WRK.BRIEF` | 79 |
+| `WRK.DEC` | 16 |
+| `WRK.DESK` | 22 |
 | `WRK.FIND` | 177 |
 | `WRK.PASS` | 30 |
-| `WRK.PLAN` | 39 |
+| `WRK.PLAN` | 42 |
 | `WRK.STORY` | 4 |
 | `WRK.TASK` | 15 |
 
 Newest five accessions:
 
-- `ACC-20261112-0025` [The websummit-only pass: the note on every affected page and list, and the recovery page](https://promptugal.news/board/spec-the-not-everything-note.md) (`WRK.PLAN spec-the-not-everything-note`)
-- `ACC-20261111-0179` [2026-11-11-only-websummit-sourced-comes-off](https://promptugal.news/board/passes/2026-11-11-only-websummit-sourced-comes-off.md) (`WRK.PASS 2026-11-11-only-websummit-sourced-comes-off`)
-- `ACC-20261111-0156` [Pass: only-websummit-sourced-comes-off](https://promptugal.news/board/passes/2026-11-11-only-websummit-sourced-comes-off.md) (`GEN.BOARD 2026-11-11-only-websummit-sourced-comes-off`)
-- `ACC-20261111-0155` [What rests only on websummit.com comes off the site, with a note; shadow sources bring it back](https://promptugal.news/board/guidance/2026-11-11-only-websummit-sourced-comes-off.md) (`GDN.MEMO 2026-11-11-only-websummit-sourced-comes-off`)
-- `ACC-20261111-0138` [2026-11-11T1536Z-then-and-now.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-11T1536Z-then-and-now.jpg) (`WRK.BRIEF 2026-11-11T1536Z-then-and-now`)
+- `ACC-20261116-1366` [Translations: every page in the languages we support, never translating the same text twice](https://promptugal.news/board/spec-translations.md) (`WRK.PLAN spec-translations`)
+- `ACC-20261116-1365` [The look of /values/](https://promptugal.news/board/spec-the-values-page.md) (`WRK.PLAN spec-the-values-page`)
+- `ACC-20261116-1364` [The live data up front: the home page's lead and the town band](https://promptugal.news/board/spec-the-live-data-up-front.md) (`WRK.PLAN spec-the-live-data-up-front`)
+- `ACC-20261116-1363` [Jose's local desk: the Algarve towns' outlets, contributors and first contacts](https://promptugal.news/desks/local-jose/README.md) (`WRK.DESK local-jose`)
+- `ACC-20261116-1362` [Jose's conductor desk](https://promptugal.news/desks/conductor-jose/README.md) (`WRK.DESK conductor-jose`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).
