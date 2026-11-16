@@ -63,3 +63,16 @@ A field `look.photo` = `{ "file": "assets/by-place/photos/<id>.jpg", "author": "
 line under it, and nothing when absent. I host the files in `assets/by-place/photos/` (no hotlinking, so no reader's
 browser calls Wikimedia). Not urgent: Commons answers this environment with 429 tonight, and the accent and landmark
 carry each town's look for the demo.
+
+## 9. Official contacts: a full stop between the channel and the note — 16 Nov, 02:50 UTC
+
+On Loulé the entry reads "...the general email, phone and the Loulé 24 Horas incident line, as published on the linked
+page The council's published general channels." The build joins `channel` and `what` with a space; please end the
+channel with ". " (or put `what` on its own line) when it does not already end in punctuation.
+
+## 10. "No contact details are published" is no longer true — 16 Nov, 02:50 UTC
+
+The "How this page is made" note (places.json copy `test_note`) still says "no contact details are published", above
+the new "Official contacts" block. Since Dinis's word of 15 November (CLAUDE.md, Content), suggest: "Contacts are shown
+only when a public body or organisation publishes them on its own site, linked to that page with the date read; never a
+private person's."

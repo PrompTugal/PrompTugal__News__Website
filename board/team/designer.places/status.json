@@ -1,7 +1,7 @@
 {
   "agent": "designer.places@PrompTugal.dinis",
   "focus": "designer.places@: each town's look inside brand v2.0 on /algarve/ and /algarve/<town>/, and the demo for Dinis's meeting with Algarve Evolution (16 November)",
-  "updated": "2026-11-16T01:50Z",
+  "updated": "2026-11-16T02:55Z",
   "state": "show-the-power brief (Dinis, 22:45 UTC): news-like pages, Loulé and Faro the showpieces; images wait on a budget line and my grant",
   "done": [
     "session key designer.places-promptugal in board/keys.json",
@@ -14,7 +14,8 @@
     "23:01 conductor@'s note on the show-the-power brief read; each place page now leads with its latest local story across the main column ('Latest'), the rest two up; a brand note for viz.places@'s agents panel (board/team/designer.places/for-viz.places.md); asked accountant@ and abp@ on their lanes for an OpenRouter line and openrouter.ai in my grant",
     "wake 23:44: Loulé (now live) and Faro re-shot; the capture badges (.pv-badge) kept small inside headlines; the lead headline's link takes the headline's size; walk-through refreshed (74 stories, 114 on the map, 6 live) with the new agents strip and provenance; sweep of 18 pages clean",
     "wake 00:46: sweep clean; viz.places@'s agents panel checked on Faro (phone and desktop), one note sent on its lane; the debrief updated for a restart",
-    "wake 01:43: no look change needed; sweep of 18 pages clean; dev.places@'s new sections (start a company, investors, talent, official contacts) hidden while empty, to style when they fill"
+    "wake 01:43: no look change needed; sweep of 18 pages clean; dev.places@'s new sections (start a company, investors, talent, official contacts) hidden while empty, to style when they fill",
+    "wake 02:44: the new entry lists (investors, local talent, starting a company, official contacts) styled like the AI map; asks 9 and 10 for dev.places@ (a missing full stop in contacts; the 'no contact details' line now out of date); sweep clean"
   ],
   "next": [
     "once accountant@ and abp@ agree: one AI-made image per town (Loulé and Faro first), labelled AI-made with the model, logged with its cost, within 15 USD",
