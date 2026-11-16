@@ -611,6 +611,83 @@
       "places": [
         "algarve"
       ]
+    },
+    {
+      "id": "ae-inova-algarve",
+      "from": {
+        "name": "Algarve Evolution",
+        "type": "organisation",
+        "place": "faro"
+      },
+      "to": {
+        "name": "INOVA ALGARVE 3.0",
+        "type": "programme",
+        "place": "algarve"
+      },
+      "relation": "organises",
+      "what": "A digital-transition programme for tourism companies with a pilot giving 20 tourism SMEs free technical consultancy on adopting AI and robotics (an earlier search extract said 15 SMEs; this article says 20).",
+      "ai_path": "A programme that advises tourism firms on AI.",
+      "steps": 0,
+      "source_url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+      "source_title": "Algarve Evolution aims to support 500 companies and help create 150 startups by 2032 (Portugal Startup News)",
+      "source_date": "2026-11-01",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro",
+        "algarve"
+      ]
+    },
+    {
+      "id": "ae-founder2founder",
+      "from": {
+        "name": "Algarve Evolution",
+        "type": "organisation",
+        "place": "faro"
+      },
+      "to": {
+        "name": "Founder2Founder",
+        "type": "programme",
+        "place": "algarve"
+      },
+      "relation": "organises",
+      "what": "A six-month growth programme that selected 8 of 41 applicants for its first cohort; includes workshops on AI.",
+      "ai_path": "A founders' programme with AI workshops.",
+      "steps": 1,
+      "source_url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+      "source_title": "Algarve Evolution aims to support 500 companies and help create 150 startups by 2032 (Portugal Startup News)",
+      "source_date": "2026-11-01",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro",
+        "algarve"
+      ]
+    },
+    {
+      "id": "ae-partners",
+      "from": {
+        "name": "Algarve Evolution",
+        "type": "organisation",
+        "place": "faro"
+      },
+      "to": {
+        "name": "University of the Algarve, Algarve STP, Junior Achievement Portugal, Startup Portugal",
+        "type": "institution"
+      },
+      "relation": "builds_with",
+      "what": "The article names these as partners; Startup Portugal recognised the Algarve Evolution Incubator in January 2026. It also states targets for 2032: support 500 companies, help create 150 startups, reach 50,000 people, and says the ADI network covers all 16 municipalities and has 118 active members. Statements are the organisation's own.",
+      "ai_path": "The partners of the organisation behind the AI programmes above.",
+      "steps": 1,
+      "source_url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+      "source_title": "Algarve Evolution aims to support 500 companies and help create 150 startups by 2032 (Portugal Startup News)",
+      "source_date": "2026-11-01",
+      "read_on": "2026-11-16",
+      "verified": "read",
+      "places": [
+        "faro",
+        "algarve"
+      ]
     }
   ],
   "leads": [
@@ -621,15 +698,6 @@
       "places": [
         "faro",
         "algarve"
-      ]
-    },
-    {
-      "what": "Algarve Tech Hub Summit 2026: an Instagram post says dates soon; a Barlavento page dated 2026 describes a Loule/NERA edition but its text matches 2022. Not claimed.",
-      "url": "https://www.barlavento.pt/algarve-tech-hub-summit-arrancou-para-impulsionar-a-inovacao/",
-      "why_open": "Need the organisers' own 2026 announcement",
-      "places": [
-        "loule",
-        "faro"
       ]
     },
     {
@@ -714,14 +782,6 @@
       ]
     },
     {
-      "what": "Algarve Evolution aims to support 500 companies and create 150 startups by 2032 (Portugal Startup News, November 2026, search extract). Also the Algarve Tech Hub is co-founded by Algarve Evolution, UAlg and Algarve STP (search extract of Algarve STP).",
-      "url": "https://portugalstartupnews.com/",
-      "why_open": "Read the article itself before stating the targets",
-      "places": [
-        "algarve"
-      ]
-    },
-    {
       "what": "Silves council's site lists the Formacao +Proxima training programme, the same name as Lagoa's AI courses; whether Silves runs any AI course was not read. Lagos council's site has an InvestAlgarve page and a WhatsApp citizen channel, no AI stated.",
       "url": "https://www.cm-silves.pt/pt/destaques/33415/programa-formacao---proxima.aspx",
       "why_open": "Programme page to read",
@@ -736,6 +796,25 @@
       "why_open": "Page returns a bot check",
       "places": [
         "algarve"
+      ]
+    },
+    {
+      "what": "Algarve Tech Hub Summit: the article above says it is confirmed to return in 2027, dates and venue to be announced, so no 2026 edition is claimed.",
+      "url": "https://portugalstartupnews.com/2026/11/01/algarve-evolution-aims-to-support-500-companies-and-help-create-150-startups-by-2032-in-push-beyond-tourism/",
+      "why_open": "Resolved by a source read on 16 Nov; kept so nobody claims 2026",
+      "places": [
+        "loule",
+        "faro",
+        "algarve"
+      ]
+    },
+    {
+      "what": "Tavira, Monchique and investors per town: searches on 16 Nov returned only national material (the national AI agenda) and no local AI project, firm or funding round. The investment map has no local investor yet; national funds appear only in directories.",
+      "url": "https://portugalvc.com/",
+      "why_open": "Council and local press pages for Tavira and Monchique to be read directly; investors need a source naming an Algarve investment",
+      "places": [
+        "tavira",
+        "monchique"
       ]
     }
   ],
