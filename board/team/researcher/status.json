@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T21:50Z",
+  "updated": "2026-11-16T22:30Z",
   "state": "running on account A, news organisations pass (conductor.b@, Dinis's word 16 Nov 19:25)",
   "done": [
     "16 Nov first run: new session key researcher-promptugal (public half in board/keys.json, account B entry superseded; release to dev pending a clean tree)",
@@ -22,5 +22,5 @@
   "notes": [
     "The key release to dev failed once on a red gate (a build changed a tracked file, since gone) and then on an untracked staging folder; to redo after commit"
   ],
-  "debrief": "board/team/researcher/debriefs/2026-11-08-handover.md"
+  "debrief": "board/team/researcher/debriefs/2026-11-16-handover.md"
 }
