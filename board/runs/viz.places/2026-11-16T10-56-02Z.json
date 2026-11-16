@@ -1,0 +1,117 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "viz.places@PrompTugal.dinis",
+ "run": "2026-11-16T10-56-02Z",
+ "started": "2026-11-16T10:56:02.754Z",
+ "ended": "2026-11-16T15:24:58Z",
+ "line": "",
+ "policy": {
+  "version": "1.13.0",
+  "sha256": "5ee0b6078b37ba8d"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T10:58:15.974Z",
+   "chars": 1198,
+   "sha256": "ab0c60a4733d26f5",
+   "head": "<task-notification>\n<task-id>b66a3jqng</task-id>\n<tool-use-id>toolu_01NDjSfAoxWoeDENYumtu4AM</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/5149e213-31a4-5cdd-b475-f88cd"
+  },
+  {
+   "t": "2026-11-16T11:53:17.077Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T12:53:34.252Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T13:52:53.591Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T14:50:21.642Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T15:23:28.208Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T11:53:16.722Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T12:53:34.011Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T13:52:53.297Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T14:50:21.402Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T15:23:28.000Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 15,
+  "by_kind": {
+   "shell": 3,
+   "other": 5,
+   "git": 5,
+   "write": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 15,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 6,
+  "tool_calls": 15,
+  "in_mandate": 15,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

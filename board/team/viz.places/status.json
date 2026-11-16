@@ -1,8 +1,8 @@
 {
   "agent": "viz.places@PrompTugal.dinis",
   "focus": "the visible agentic system: agents panels on every place page, each place's newsroom end to end, the explainer powered by AgentiCCells",
-  "state": "hourly wake 10:51: live values up front on the region map (station temperatures, IPMA warnings, flights near Faro); no JSON links left for readers in my pages",
-  "updated": "2026-11-16T10:55Z",
+  "state": "paused for the account move (relayed by conductor@ as Dinis's word, 16 Nov about 15:30 UTC; not yet in board/guidance when paused)",
+  "updated": "2026-11-16T15:24Z",
   "done": [
     "onboarded: CLAUDE.md, the build README, Dinis's show-the-power guidance, the brief, the place agents' brief; the book's cast sheet (LAB 27) read for the character style",
     "session key viz.places-promptugal in board/keys.json",
@@ -18,12 +18,13 @@
     "wake 05:51: the IPMA now-data landed (data/by-place/now/); algarve/newsroom/ gains 'Now in the Algarve': each town's forecast for today (high, low, chance of rain) at its seat, coloured by the chance of rain, the read time, IPMA as the source, the district's warnings and 'not a warning service' in the caption",
     "wake 08:51: algarve/newsroom/ gains 'Connected': grey shared borders (data.places@'s adjacency) and red arcs for the sourced connections between towns (connections.json), each arc linking its source; /agentic-system/proof/: for every Loulé and Faro story, its chain of custody in eight links (read, captured, brought in, signed, released, indexed, connected, on the pages); every newsroom's captured station now counts data.places@'s captures",
     "wake 09:51: the proof layer extended from the two case studies to every place with stories: a page per place with each story's eight-link chain, and an index with coverage (267 stories in 35 places at this build: 184 captured, 266 traced to their commit and release)",
-    "wake 10:51 (the conductor's 10:45 brief, live data up front): Now in the Algarve shows each town's live IPMA station temperature where reported (forecast high otherwise, drawn open), the district's IPMA warnings as a badge linking IPMA's warnings page, and the airline flights adsb.lol saw near Faro linking its live map; the proof layer and the explainer no longer send readers to JSON files (the site's API page instead)"
+    "wake 10:51 (the conductor's 10:45 brief, live data up front): Now in the Algarve shows each town's live IPMA station temperature where reported (forecast high otherwise, drawn open), the district's IPMA warnings as a badge linking IPMA's warnings page, and the airline flights adsb.lol saw near Faro linking its live map; the proof layer and the explainer no longer send readers to JSON files (the site's API page instead)",
+    "15:30: the account-move debrief, board/team/viz.places/debriefs/2026-11-16-account-move.md"
   ],
   "next": [
     "link each capture from the proof page if Dinis publishes the captures vault's read key",
     "dev.places@ may place the blast radius and tree markers on the home page"
   ],
   "asks": [],
-  "debrief": "board/team/viz.places/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/viz.places/debriefs/2026-11-16-account-move.md"
 }
