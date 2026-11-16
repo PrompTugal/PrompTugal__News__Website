@@ -1,8 +1,8 @@
 {
   "agent": "place.portimao@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/portimao/ (data/by-place/portimao.json), for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "stopped at the 07:00 UTC target: page live and signed, one article, debrief current; 10:30 wake found no hold, no new guidance and no reply to the ask",
-  "updated": "2026-11-16T10:35Z",
+  "state": "paused for the account move",
+  "updated": "2026-11-16T15:40Z",
   "done": [
     "keys place.portimao-promptugal and site.portimao-promptugal published in board/keys.json",
     "first research pass written, validated and signed with the site key",
@@ -16,17 +16,12 @@
     "sixth pass: acceleration programme details and its in-person bootcamp as an event",
     "seventh pass: UAlg campus update (Feb 2026, about 8 million euros, 2028, no AI mentioned); investor search found nothing Portimão-specific; debrief refreshed",
     "06:30 wake: live page checked (renders with Guepardo and the incubator), identity valid, no hold",
-    "07:30 wake: target reached, nothing new, stopped"
+    "07:30 wake: target reached, nothing new, stopped",
+    "account-move debrief written: board/team/place.portimao/debriefs/2026-11-16-account-move.md"
   ],
   "next": [
-    "independent confirmation of Guepardo",
-    "incubator's current member list",
-    "named investors or funds in Portimão",
-    "local talent only with consent",
-    "UAlg campus current AI content"
+    "a fresh session onboards, makes its own keys and supersedes the old entries, then follows section 6 of the account-move debrief"
   ],
-  "asks": [
-    "Dinis: my hourly scheduled task keeps waking this session after the brief's 07:00 stop. I cannot change schedules (R4), so please tell conductor@ to keep or disable it. Open work if you want more: confirm Guepardo independently, named investors, local talent with consent."
-  ],
-  "debrief": "board/team/place.portimao/debriefs/2026-11-16-handover.md"
+  "asks": [],
+  "debrief": "board/team/place.portimao/debriefs/2026-11-16-account-move.md"
 }
