@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1654",
+    "date": "2026-11-16",
+    "what": "security@PrompTugal.dinis: 20:05 wake: 43 commits clean of secrets and personal contacts; S43 recurred (four key bundles overwritten); S44 partly met; S45 mitigated; S46",
+    "by": "security@PrompTugal.dinis",
+    "from": "c099abd6b"
+  },
+  {
     "version": "v0.1.1653",
     "date": "2026-11-16",
     "what": "local@PrompTugal.jose: set-up run: outlet hosts refused by this environment, so no town checked; inventories for Faro and Loulé, the awareness draft, a share check, two requests, status and debrief",
