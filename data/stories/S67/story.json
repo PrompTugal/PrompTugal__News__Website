@@ -5,7 +5,7 @@
   "title": "Portugal's Center for Responsible AI: the money, partners and goals",
   "beat": "Portugal",
   "topic": null,
-  "status": "draft",
+  "status": "review",
   "rests_on": [
     "evidence:v-prr-center-for-responsible-ai",
     "evidence:v-crai-project-sheet",
@@ -18,7 +18,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-16-1550.json",
-      "desks/journalist-vicky/drafts/S67-center-for-responsible-ai-money-partners-goals.md"
+      "desks/journalist-vicky/drafts/S67-center-for-responsible-ai-money-partners-goals.md",
+      "desks/reviewer-vicky/reviews/S67.md"
     ]
   },
   "assignee": "journalist-portugal@PrompTugal.vicky",
@@ -26,9 +27,16 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S67-center-for-responsible-ai-money-partners-goals.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S67.md",
+      "verdict": "Fix first",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-16"
+    }
+  ],
   "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "next": "the writer answers the review",
   "history": [
     {
       "column": "idea",
@@ -41,6 +49,12 @@
       "at": "2026-11-16",
       "by": "journalist-portugal@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S67-center-for-responsible-ai-money-partners-goals.md"
+    },
+    {
+      "column": "review",
+      "at": "2026-11-16",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S67.md"
     }
   ]
 }
