@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "by": "place.sao-bras-de-alportel@PrompTugal.dinis",
   "mandate": "PrompTugal.news São Brás de Alportel: AI and technology in São Brás de Alportel, a hill town of cork heritage, a costume museum and a municipal push to digitise, and what reaches São Brás de Alportel from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -244,6 +244,30 @@
       "value": "The 2 November 2026 balance lists health, housing, education, safety and economic development as priorities, with a business park among the works. It does not mention digital, smart territory or AI.",
       "source_url": "https://www.cm-sbras.pt/pt/noticias/38236/executivo-municipal-de-sao-bras-de-alportel-apresenta-balanco-do-1-ano-de-mandato.aspx",
       "read_on": "2026-11-15"
+    },
+    {
+      "label": "Starting a company here: first stop",
+      "value": "The council's Gabinete do Empreendedor receives founders and investors, clarifies the legal requirements, refers them to specialised partners (IAPMEI for small and medium firms, CRIA and microcredit agencies for founders, ACRAL for commerce, AHISA for hotels and restaurants, IN LOCO for artisans and local producers), helps publicise and reach financing programmes, follows the firm through municipal procedures and runs training sessions. The page sets out no step-by-step procedure. Its contact channel is on the same council page.",
+      "source_url": "https://www.cm-sbras.pt/pt/menu/1523/o-que-e-o-gabinete-do-empreendedor.aspx",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company here: where to work",
+      "value": "Three municipal incubation spaces: a coworking space for young entrepreneurs, Ninho de Empreendedorismo 4 Olhos, and Ninho de Empreendedorismo da Vila (one office, three coworking desks, two spaces for digital nomads, a meeting room).",
+      "source_url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company here: grants and events",
+      "value": "The Digital Commerce Accelerator offers help with applications for a non-repayable grant of up to 2,000 euros per company for shops, services and restaurants. The council's Fórum Ideias de Negócio is its yearly meeting point for new ideas and support services. The council lists three support measures (local businesses, entrepreneurship, employability) whose subpages have not been read.",
+      "source_url": "https://www.barlavento.pt/aceleradora-de-comercio-digital-do-algarve-apresenta-se-em-sao-bras-de-alportel/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "Nearest weather data",
+      "value": "Per the conductor's IPMA map (board/briefs/2026-11-16-storm-local-map.json), the nearest IPMA station is Olhão EPPO at about 15 km and the nearest forecast place is Loulé at about 12 km, so the town has no station of its own.",
+      "source_url": "https://api.ipma.pt/open-data/",
+      "read_on": "2026-11-16"
     }
   ],
   "identity": {
@@ -257,7 +281,9 @@
     "Sources to find next: the University of Algarve's electronics research centre for any town link, the business association for local digital firms, and the Algarve 6.0 platform's supplier and timetable.",
     "One IT firm shown at the 2025 business ideas forum appears only in a Postal do Algarve report, which our reader cannot open, and one forum report from Região Sul returned 403, so neither is used until read openly.",
     "Events: the council agenda for 15 and 16 November 2026 lists markets, dance, a ball and film sessions, nothing about technology or AI, so no events are listed. Agenda pages 2 to 5 have not been read.",
-    "The council's own November 2026 news (the first-year balance, Storm Charles, Praça 1914) never mentions AI or the Algarve 6.0 platform, so the municipal AI story is told by regional press, not by the council."
+    "The council's own November 2026 news (the first-year balance, Storm Charles, Praça 1914) never mentions AI or the Algarve 6.0 platform, so the municipal AI story is told by regional press, not by the council.",
+    "Investment map and local talent: no investor, investment or startup founded in the town is documented in the sources read. Local talent who have spoken publicly is not listed, because no public speaker profile has been found and the agent does not name private individuals.",
+    "The council's three support-measure subpages and the Via Verde para o desenvolvimento page returned no detail to our reader, so grants and fee waivers for investors are not stated."
   ],
   "voice": {
     "lede": "Cork, costumes and a quiet pinch of artificial intelligence, aqui na serra, com calma.",
