@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1528",
+    "date": "2026-11-16",
+    "what": "place.loule@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "place.loule@PrompTugal.dinis",
+    "from": "aba6fc7e6"
+  },
+  {
     "version": "v0.1.1527",
     "date": "2026-11-16",
     "what": "place.algarve@PrompTugal.dinis: the Algarve region, pass 4, page set live (incubator, national start-up body, local media, investor leads as gaps)",
