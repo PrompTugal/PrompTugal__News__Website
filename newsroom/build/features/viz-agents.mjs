@@ -140,7 +140,8 @@ export function api(ctx) {
         }))
     }
     const { from, n } = hourWindow(R)
-    return [{ path: 'api/v1/viz/agents.json', schema: null, data: {
+    const per = places(ctx).map(p => ({ path: `api/v1/viz/agents/${p.id}.json`, schema: null, data: { place: p.id, name: p.name, page: `${p.path}index.html`, as_of: new Date(R.now).toISOString(), version: ctx.VERSION, hours_from: new Date(from).toISOString(), agents: out[p.id] } }))
+    return [...per, { path: 'api/v1/viz/agents.json', schema: null, data: {
         about: 'The agents behind each PrompTugal.news place page, drawn from the record at this release (viz.places@PrompTugal.dinis). Moods follow the rules in "moods".',
         as_of: new Date(R.now).toISOString(), version: ctx.VERSION, hours_from: new Date(from).toISOString(), hours: n,
         moods: cast(ctx).moods, places: out,

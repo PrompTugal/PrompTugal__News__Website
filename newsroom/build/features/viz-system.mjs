@@ -125,6 +125,35 @@ function dayHtml(ctx) {
     return tf(T.day, { w, h, aria: X(C.day_aria), body, legend })
 }
 
+// the six setups (newsroom.sgit.ai), each with where it runs here
+function setupsMd(ctx) {
+    const C = copy(ctx), R = record(ctx), F = facts(ctx)
+    let tasks = 0
+    try { for (const d of fs.readdirSync(ctx.R('board/runs'))) tasks += runsOf(ctx, d).tool_calls } catch {}
+    const conductors = [...R.byAgent.keys()].filter(a => /^conductor/.test(roleOf(a)))
+    const v = { tasks, places: F.places, roster: (R.roster.agents || []).length, conductors: conductors.length, names: conductors.join(', ') }
+    return `${C.setups_md_head}\n${C.setups.map(s => `| **${s.n}** | **${s.name}:** ${s.theirs} | ${ctx.md.cell(W(s.here, v))} |`).join('\n')}\n\n{.viz-note}\nThe setups are named and described in [Six setups of an agentic system](${C.setups_source}) on newsroom.sgit.ai.`
+}
+
+let AC = null
+const acmap = ctx => AC || (AC = ctx.readJSON('assets/viz/agenticcells-map.json'))
+function acmapHtml(ctx) {
+    const T = tmpl(ctx, ST), C = copy(ctx), M = acmap(ctx)
+    const w = 1000, h = 520, cx = 500, cy = 260, rx = 270, ry = 190
+    const others = M.nodes.filter(n => n.id !== M.centre)
+    const pos = new Map([[M.centre, [cx, cy]]])
+    others.forEach((n, i) => { const a = -Math.PI / 2 + 2 * Math.PI * i / others.length; pos.set(n.id, [cx + rx * Math.cos(a), cy + ry * Math.sin(a)]) })
+    const seen = new Set()
+    let body = ''
+    for (const [a, b] of M.links) { const k = [a, b].sort().join('|'); if (seen.has(k) || !pos.has(a) || !pos.has(b)) continue; seen.add(k); const [x1, y1] = pos.get(a), [x2, y2] = pos.get(b); body += `<line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" class="vz-ac-link${a === M.centre || b === M.centre ? ' hot' : ''}"/>` }
+    for (const n of M.nodes) {
+        const [x, y] = pos.get(n.id), centre = n.id === M.centre, left = x < cx - 10, right = x > cx + 10
+        body += tf(T['ac-node'], { href: X(`https://newsroom.sgit.ai/articles/${n.id}.html`), line: X(n.line), x: x.toFixed(1), y: y.toFixed(1), r: centre ? 16 : 9, cls: centre ? ' centre' : '',
+            tx: (centre ? x : left ? x - 14 : right ? x + 14 : x).toFixed(1), ty: (centre ? y + 34 : (!left && !right) ? (y < cy ? y - 16 : y + 26) : y + 5).toFixed(1), anchor: centre || (!left && !right) ? 'middle' : left ? 'end' : 'start', label: X(n.label) })
+    }
+    return tf(T.acmap, { w, h, aria: X(C.acmap_aria), body, caption: X(W(C.acmap_caption, { read: M.read_on, n: M.nodes.length, e: seen.size })).replace(/\[([^\]]+)\]\(([^)]+)\)/g, (m, t) => t) })
+}
+
 function casesHtml(ctx) {
     const T = tmpl(ctx, ST), C = copy(ctx)
     return tf(T.cases, { items: places(ctx).filter(p => p.id === 'loule' || p.id === 'faro').map(p => {
@@ -150,6 +179,8 @@ export const fill = {
     'viz:keys': (page, ctx) => { const F = facts(ctx); return W(copy(ctx).keys_md, { active: F.keys.all_active, superseded: F.keys.superseded, site: F.keys.site, valid: F.valid, places: F.places }) },
     'viz:lanes': (page, ctx) => { const F = facts(ctx); return W(copy(ctx).lanes_md, { inboxes: F.inboxes, lanes: F.lanes }) },
     'viz:graph': (page, ctx) => { const F = facts(ctx); return W(copy(ctx).graph_md, { nodes: F.nodes, edges: F.edges, types: Object.entries(F.types).sort((a, b) => b[1] - a[1]).slice(0, 8).map(([k, v]) => `${v} ${k}`).join(', ') }) },
+    'viz:setups': (page, ctx) => setupsMd(ctx),
+    'viz:acmap': (page, ctx) => { const M = acmap(ctx); return slot('acmap', M.nodes.map(n => `- [${ctx.md.cell(n.label)}](https://newsroom.sgit.ai/articles/${n.id}.html): ${ctx.md.cell(n.line)}`).join('\n')) },
     'viz:cells': (page, ctx) => { const F = facts(ctx), C = copy(ctx), v = { agents: F.n_agents, guidance: F.guidance, active_keys: F.keys.all_active, board: F.board, hold: C.hold[F.hold ? 'yes' : 'no'], releases: F.releases }; return `${C.cells_head}\n${C.cells.map(([a, b]) => `| ${a} | ${W(b, v)} |`).join('\n')}` },
 }
 
@@ -159,7 +190,7 @@ export function decorate(page, ctx) {
     const prev = page.postHtml
     page.postHtml = html => {
         let h = prev ? prev(html) : html
-        const parts = { numbers: tilesHtml, system: systemHtml, cast: castHtml, day: dayHtml, cases: casesHtml }
+        const parts = { numbers: tilesHtml, system: systemHtml, cast: castHtml, day: dayHtml, cases: casesHtml, acmap: acmapHtml }
         for (const [k, fn] of Object.entries(parts)) h = h.replace(new RegExp(`<div class="vz-slot-${k}">[\\s\\S]*?</div>`), () => fn(ctx))
         return `<div class="vz-explainer">${h}</div>`
     }

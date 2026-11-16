@@ -1,34 +1,142 @@
 {
   "about": "The words of the explainer's computed parts (/agentic-system/, newsroom/build/features/viz-system.mjs). The prose is content/viz/agentic-system.md. Kept by viz.places@PrompTugal.dinis. {fields} are computed from the record.",
   "tiles": [
-    { "k": "agents", "t": "agents with a live key" },
-    { "k": "active", "t": "committed in the last 24 hours" },
-    { "k": "commits", "t": "commits by agents in the last 24 hours" },
-    { "k": "releases", "t": "releases, each through the gate" },
-    { "k": "places", "t": "place sites, each with its own agent and identity" },
-    { "k": "pages", "t": "pages on the site at this release" }
+    {
+      "k": "agents",
+      "t": "agents with a live key"
+    },
+    {
+      "k": "active",
+      "t": "committed in the last 24 hours"
+    },
+    {
+      "k": "commits",
+      "t": "commits by agents in the last 24 hours"
+    },
+    {
+      "k": "releases",
+      "t": "releases, each through the gate"
+    },
+    {
+      "k": "places",
+      "t": "place sites, each with its own agent and identity"
+    },
+    {
+      "k": "pages",
+      "t": "pages on the site at this release"
+    }
   ],
   "groups": [
-    { "id": "conductors", "match": "^conductor", "h": "The conductors", "what": "Route the work: they take Dinis's word, write the briefs and start the agents he asks for." },
-    { "id": "places", "match": "^place\\.", "h": "The place team", "what": "One agent per place, each running its own research and publish loop and signing its place's file with the site's key." },
-    { "id": "show", "match": "^(viz|data|detective|ios)\\.", "h": "Show the power", "what": "Started on 15 November: the agents made visible, the data queryable, the detectives connecting the dots, the iOS app." },
-    { "id": "site", "match": "^(dev|designer)", "h": "The builders", "what": "The build, the gate, the features and the look of every page." },
-    { "id": "guards", "match": "^(abp|security|accountant|devops|backup)", "h": "The guards", "what": "Policies, reviews, budgets, the health of CI and the backups." },
-    { "id": "newsroom", "match": ".", "h": "The newsroom", "what": "Writers, researchers, the graph, the readers' guides and the record." }
+    {
+      "id": "conductors",
+      "match": "^conductor",
+      "h": "The conductors",
+      "what": "Route the work: they take Dinis's word, write the briefs and start the agents he asks for."
+    },
+    {
+      "id": "places",
+      "match": "^place\\.",
+      "h": "The place team",
+      "what": "One agent per place, each running its own research and publish loop and signing its place's file with the site's key."
+    },
+    {
+      "id": "show",
+      "match": "^(viz|data|detective|ios)\\.",
+      "h": "Show the power",
+      "what": "Started on 15 November: the agents made visible, the data queryable, the detectives connecting the dots, the iOS app."
+    },
+    {
+      "id": "site",
+      "match": "^(dev|designer)",
+      "h": "The builders",
+      "what": "The build, the gate, the features and the look of every page."
+    },
+    {
+      "id": "guards",
+      "match": "^(abp|security|accountant|devops|backup)",
+      "h": "The guards",
+      "what": "Policies, reviews, budgets, the health of CI and the backups."
+    },
+    {
+      "id": "newsroom",
+      "match": ".",
+      "h": "The newsroom",
+      "what": "Writers, researchers, the graph, the readers' guides and the record."
+    }
   ],
   "layers": [
-    { "id": "word", "h": "The operator's word", "t": "Dinis gives the direction, in his own words, kept as he gave them: {guidance} pieces of guidance and {briefs} briefs.", "where": "board/guidance/, board/briefs/" },
-    { "id": "route", "h": "The conductors route it", "t": "The conductors turn each word into briefs and start the agents it needs, at Dinis's word only.", "where": "board/team/conductor/, board/schedule.json" },
-    { "id": "agents", "h": "The agents do the work", "t": "{agents} agents, each a Claude session with its own key, its own policy and its own files. {active} committed in the last 24 hours.", "where": "board/team/<role>/status.json, board/keys.json, board/abp/" },
-    { "id": "record", "h": "Everything lands in the record", "t": "{commits} commits by agents in the last 24 hours, {status} status files, {runs} run reports. Nothing happens off the record.", "where": "git, board/runs/, board/team/" },
-    { "id": "gate", "h": "The gate checks every release", "t": "The gate builds the whole site and refuses a release that breaks a rule: schemas, sources and read dates, links, signatures, banned hosts. CI then numbers the release and deploys it. {releases} releases so far, the latest {version}.", "where": "newsroom/build/validate.js, .github/workflows/" },
-    { "id": "site", "h": "The site", "t": "{pages} pages, {places} place sites and their newsrooms, every page with a markdown twin for agents and readers alike.", "where": "promptugal.news" }
+    {
+      "id": "word",
+      "h": "The operator's word",
+      "t": "Dinis gives the direction, in his own words, kept as he gave them: {guidance} pieces of guidance and {briefs} briefs.",
+      "where": "board/guidance/, board/briefs/"
+    },
+    {
+      "id": "route",
+      "h": "The conductors route it",
+      "t": "The conductors turn each word into briefs and start the agents it needs, at Dinis's word only.",
+      "where": "board/team/conductor/, board/schedule.json"
+    },
+    {
+      "id": "agents",
+      "h": "The agents do the work",
+      "t": "{agents} agents, each a Claude session with its own key, its own policy and its own files. {active} committed in the last 24 hours.",
+      "where": "board/team/<role>/status.json, board/keys.json, board/abp/"
+    },
+    {
+      "id": "record",
+      "h": "Everything lands in the record",
+      "t": "{commits} commits by agents in the last 24 hours, {status} status files, {runs} run reports. Nothing happens off the record.",
+      "where": "git, board/runs/, board/team/"
+    },
+    {
+      "id": "gate",
+      "h": "The gate checks every release",
+      "t": "The gate builds the whole site and refuses a release that breaks a rule: schemas, sources and read dates, links, signatures, banned hosts. CI then numbers the release and deploys it. {releases} releases so far, the latest {version}.",
+      "where": "newsroom/build/validate.js, .github/workflows/"
+    },
+    {
+      "id": "site",
+      "h": "The site",
+      "t": "{pages} pages, {places} place sites and their newsrooms, every page with a markdown twin for agents and readers alike.",
+      "where": "promptugal.news"
+    }
   ],
-  "arrows": ["briefs", "work", "commits", "releases", "pages"],
+  "arrows": [
+    "briefs",
+    "work",
+    "commits",
+    "releases",
+    "pages"
+  ],
   "side": {
-    "policies": { "h": "Policies", "unit": "core rules for every agent", "lines": ["ABP version {version}, {mode} mode", "{roles} roles with their own grant", "{runs} run reports filed", "{breaches} actions outside a grant, logged in them (observe mode: logged, reviewed hourly, not blocked)"] },
-    "keys": { "h": "Keys", "unit": "agent keys live", "lines": ["{site} site identities", "{valid} of {places} place files signed and valid", "{superseded} keys superseded at a hand-over"] },
-    "lanes": { "h": "Lanes", "unit": "agent inboxes", "lines": ["{lanes} lanes to the conductor", "every message sealed to its recipient and signed"] }
+    "policies": {
+      "h": "Policies",
+      "unit": "core rules for every agent",
+      "lines": [
+        "ABP version {version}, {mode} mode",
+        "{roles} roles with their own grant",
+        "{runs} run reports filed",
+        "{breaches} actions outside a grant, logged in them (observe mode: logged, reviewed hourly, not blocked)"
+      ]
+    },
+    "keys": {
+      "h": "Keys",
+      "unit": "agent keys live",
+      "lines": [
+        "{site} site identities",
+        "{valid} of {places} place files signed and valid",
+        "{superseded} keys superseded at a hand-over"
+      ]
+    },
+    "lanes": {
+      "h": "Lanes",
+      "unit": "agent inboxes",
+      "lines": [
+        "{lanes} lanes to the conductor",
+        "every message sealed to its recipient and signed"
+      ]
+    }
   },
   "policies_md": "{.facts}\n| | |\n|---|---|\n| **Policy** | ABP version {version}, {mode} mode: nothing is blocked, every call outside an agent's grant is logged and reviewed every hour |\n| **Core rules** | {core}, the same for every agent |\n| **Grants** | {roles} roles, each with its own paths, tools and hosts |\n| **Run reports** | {runs} filed in board/runs/; they log {breaches} actions outside an agent's grant (mostly a write to a path the grant leaves out), each reviewed by abp@ in its hourly report |\n| **The policies** | [board/abp/](https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/abp) |",
   "keys_md": "{.facts}\n| | |\n|---|---|\n| **Agent keys** | {active} live, {superseded} superseded at a hand-over (a new session makes a new key) |\n| **Site identities** | {site} site keys, one per place |\n| **Signed place files** | {valid} of {places} verify against their site key at this release |\n| **The register** | [board/keys.json](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/keys.json) |",
@@ -36,19 +144,93 @@
   "graph_md": "{.facts}\n| | |\n|---|---|\n| **Nodes** | {nodes}: {types} |\n| **Edges** | {edges} |\n| **Explore it** | [the graph](../graph/index.md) |",
   "cells_head": "| What AgentiCCells says a cell sets up | Here, at this release |\n|---|---|",
   "cells": [
-    ["**Agents in your environment.** One agent per role, each with a brief that keeps your words.", "{agents} agents, one per role or place, in this repository and its cloud sessions; Dinis's words kept in board/guidance/ ({guidance} pieces)."],
-    ["**A key per agent.** Each agent makes its own key pair; only the public half is published.", "{active_keys} live keys in board/keys.json, each committed by its own agent."],
-    ["**A board of files.** One markdown file per piece of work, in git.", "{board} files in board/: briefs, passes, decisions, status, debriefs, run reports."],
-    ["**A console.** A page where you see your agents, their board and their activity.", "[The newsroom](../newsroom/index.md), the agents panel on every place page and each place's newsroom."],
-    ["**A stop file.** Create one file and every agent stops at its next wake.", "board/HOLD.md (security@ may write it, only Dinis lifts it): {hold}."],
-    ["**Gated releases.** Nothing ships unless a validator passes.", "The gate runs before every push and again in CI: {releases} releases."],
-    ["**Open.** Code under open licences, everything else under Creative Commons.", "This repository and its record are public."],
-    ["**Atomic cells.** Each useful on its own, removable without breaking the rest.", "Each place agent owns one file and one page; the build keeps going if one file breaks."]
+    [
+      "**Agents in your environment.** One agent per role, each with a brief that keeps your words.",
+      "{agents} agents, one per role or place, in this repository and its cloud sessions; Dinis's words kept in board/guidance/ ({guidance} pieces)."
+    ],
+    [
+      "**A key per agent.** Each agent makes its own key pair; only the public half is published.",
+      "{active_keys} live keys in board/keys.json, each committed by its own agent."
+    ],
+    [
+      "**A board of files.** One markdown file per piece of work, in git.",
+      "{board} files in board/: briefs, passes, decisions, status, debriefs, run reports."
+    ],
+    [
+      "**A console.** A page where you see your agents, their board and their activity.",
+      "[The newsroom](../newsroom/index.md), the agents panel on every place page and each place's newsroom."
+    ],
+    [
+      "**A stop file.** Create one file and every agent stops at its next wake.",
+      "board/HOLD.md (security@ may write it, only Dinis lifts it): {hold}."
+    ],
+    [
+      "**Gated releases.** Nothing ships unless a validator passes.",
+      "The gate runs before every push and again in CI: {releases} releases."
+    ],
+    [
+      "**Open.** Code under open licences, everything else under Creative Commons.",
+      "This repository and its record are public."
+    ],
+    [
+      "**Atomic cells.** Each useful on its own, removable without breaking the rest.",
+      "Each place agent owns one file and one page; the build keeps going if one file breaks."
+    ]
   ],
-  "hold": { "yes": "present now: the team is held", "no": "not present now" },
+  "hold": {
+    "yes": "present now: the team is held",
+    "no": "not present now"
+  },
   "day_aria": "Commits by agents in the last 24 hours, hour by hour, stacked by team",
   "day_legend": "Commits by agents, {from} to {to} UTC, {total} in all.",
   "case_line": "{news} local AI stories, {map} on the AI map, {sources} sources, {releases} releases",
   "case_go": "see its newsroom at work",
-  "member_state": { "happy": "at work", "stressed": "at work, an ask for Dinis", "worried": "quiet", "unhappy": "silent" }
+  "member_state": {
+    "happy": "at work",
+    "stressed": "at work, an ask for Dinis",
+    "worried": "quiet",
+    "unhappy": "silent"
+  },
+  "setups_source": "https://newsroom.sgit.ai/articles/six-setups-of-an-agentic-system.html",
+  "setups": [
+    {
+      "n": 1,
+      "name": "A task",
+      "theirs": "one action: a question, a command, a run",
+      "here": "{tasks} tool calls logged in the agents' run reports"
+    },
+    {
+      "n": 2,
+      "name": "One agent",
+      "theirs": "a single session that does the work",
+      "here": "each place agent: one session runs its place's whole loop ({places} of them)"
+    },
+    {
+      "n": 3,
+      "name": "An agent with sub-agents",
+      "theirs": "one session managing its own sub-agents in one runtime",
+      "here": "correspondent@ runs its beat correspondents as sub-agents inside its own run (CLAUDE.md)"
+    },
+    {
+      "n": 4,
+      "name": "Several sessions",
+      "theirs": "one session per role, each with its own runtime",
+      "here": "{roster} sessions started on 15 November by conductor@, one per role or place (board/team/conductor/place-agents.json)"
+    },
+    {
+      "n": 5,
+      "name": "A conductor and its agents",
+      "theirs": "one coordinator with a team of agents working together",
+      "here": "conductor@ routes them: the briefs, the roster, who does what"
+    },
+    {
+      "n": 6,
+      "name": "Conductors of conductors",
+      "theirs": "a swarm of swarms, each person's conductor with its own team",
+      "here": "{conductors} conductors on record, across Dinis's accounts and his team's ({names})"
+    }
+  ],
+  "setups_md_head": "| | The setup (newsroom.sgit.ai) | Here, at this release |\n|---|---|---|",
+  "acmap_aria": "The AgentiCCells cluster of newsroom.sgit.ai's article graph, with PrompTugal.news at the centre",
+  "acmap_caption": "The AgentiCCells cluster of [newsroom.sgit.ai's article graph](https://newsroom.sgit.ai/articles/graphs.html), read on {read}: {n} articles and {e} links between them. PrompTugal.news sits at the centre: the case the others point to. Each node opens its article."
 }

@@ -201,7 +201,8 @@ export function api(ctx) {
         const H = history(ctx, p)
         out[p.id] = { stations: stations(ctx, p).map(s => ({ id: s.id, label: s.label, count: s.big, unit: s.unit, lines: s.lines })), run: H.map(h => ({ when: h.when, sha: h.sha, agent: h.agent, subject: noPrefix(h.subject), counts: h.counts, release: h.release || null })) }
     }
-    return [{ path: 'api/v1/viz/newsrooms.json', schema: null, data: { about: "Each PrompTugal.news place's newsroom, end to end, from the record at this release (viz.places@PrompTugal.dinis)", version: ctx.VERSION, places: out } }]
+    const per = places(ctx).map(p => ({ path: `api/v1/viz/newsrooms/${p.id}.json`, schema: null, data: { place: p.id, name: p.name, page: newsroomRel(p), version: ctx.VERSION, ...out[p.id] } }))
+    return [...per, { path: 'api/v1/viz/newsrooms.json', schema: null, data: { about: "Each PrompTugal.news place's newsroom, end to end, from the record at this release (viz.places@PrompTugal.dinis)", version: ctx.VERSION, places: out } }]
 }
 
 export function validate(gate) {

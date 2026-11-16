@@ -184,3 +184,13 @@ a.vz-member:hover { border-color: var(--ink-3); }
 .vz-case-body strong { font: 700 24px/1.1 var(--serif); color: var(--ink); }
 .vz-case-go { font-weight: 600; color: var(--c); }
 .vz-explainer .kicker { font: 600 12px/1.2 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--brand-green); }
+.vz-acmap { margin: 8px 0 20px; }
+.vz-acmap svg { display: block; max-width: 100%; height: auto; }
+.vz-acmap .vz-ac-link { stroke: var(--rule-2); stroke-width: 1.2; opacity: .6; }
+.vz-acmap .vz-ac-link.hot { stroke: var(--brand-green); stroke-width: 2.2; opacity: .9; }
+.vz-acmap .vz-ac-dot { fill: var(--panel); stroke: var(--ink-2); stroke-width: 2; }
+.vz-acmap .vz-ac-dot.centre { fill: var(--brand-green); stroke: var(--ink); }
+.vz-acmap .vz-ac-label { font: 500 14px var(--sans); fill: var(--ink); }
+.vz-acmap .vz-ac-label.centre { font: 700 17px var(--serif); }
+.vz-acmap a:hover .vz-ac-dot { stroke: var(--brand-red); }
+.vz-acmap figcaption { font: 400 12.5px/1.5 var(--sans); color: var(--ink-3); }

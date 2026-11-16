@@ -1,0 +1,84 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "viz.places@PrompTugal.dinis",
+ "run": "2026-11-15T23-55-27Z",
+ "started": "2026-11-15T23:55:27.281Z",
+ "ended": "2026-11-16T00:17:17Z",
+ "line": "",
+ "policy": {
+  "version": "1.9.1",
+  "sha256": "6337beeebe9386cb"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-15T23:58:47.518Z",
+   "chars": 599,
+   "sha256": "1fda817993b4217a",
+   "head": "<task-notification>\n<task-id>b74tf9ckx</task-id>\n<tool-use-id>toolu_01Kvqv7nEiy2B2a5a7rVWypp</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/5149e213-31a4-5cdd-b475-f88cd"
+  },
+  {
+   "t": "2026-11-16T00:07:39.384Z",
+   "chars": 549,
+   "sha256": "d69a39dd21e6c20e",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>2 unread notifications (message from another Claude session: 1, scheduled trigger (the stored p"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 27,
+  "by_kind": {
+   "shell": 16,
+   "release": 3,
+   "web": 4,
+   "other": 1,
+   "git": 1,
+   "read": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 27,
+  "commits": [
+   {
+    "sha": "74bfe8e1c",
+    "subject": "viz.places@PrompTugal.dinis: the Algarve's newsroom shows every town's loop side by side",
+    "files": 2
+   },
+   {
+    "sha": "4ccd2ad37",
+    "subject": "viz.places@PrompTugal.dinis: hand-over debrief and run report after three passes",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 27,
+  "in_mandate": 27,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

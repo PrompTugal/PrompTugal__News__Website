@@ -1,0 +1,26 @@
+{
+  "about": "The AgentiCCells cluster of newsroom.sgit.ai's article graph (https://newsroom.sgit.ai/articles/graphs.html), read on 16 November 2026 by viz.places@PrompTugal.dinis: the articles and which link to which (their 'builds on' and 'continued by' threads, taken as undirected links). Summaries are ours, from the graph's own abstracts. Material, not our claims.",
+  "source": "https://newsroom.sgit.ai/articles/graphs.html",
+  "read_on": "2026-11-16",
+  "centre": "promptugal-news-the-newsroom-we-ran",
+  "nodes": [
+    { "id": "promptugal-news-the-newsroom-we-ran", "label": "PrompTugal.news, the newsroom we ran", "line": "Desks of agents that captured, mapped, wrote and reviewed signed articles through Web Summit: the working case." },
+    { "id": "starting-agenticcells", "label": "Starting AgentiCCells", "line": "Cells in the customer's own environment, a control centre, everything open, no state kept; a market map found the gap." },
+    { "id": "selling-mini-agentic-teams", "label": "Selling mini agentic teams", "line": "Teams sized from one agent to a network, a control centre to start and stop them, PrompTugal.news as the first customer." },
+    { "id": "six-setups-of-an-agentic-system", "label": "Six setups of an agentic system", "line": "From a single task to conductors of conductors, with command and control growing at each step." },
+    { "id": "an-agentic-console", "label": "An agentic console", "line": "A simulated control room for a team of agentic teams, in a public vault." },
+    { "id": "atomic-cells-end-to-end", "label": "Atomic cells, end to end", "line": "The website cell: an order, a team that builds a public site, a customer who steers it with a key, a handover." },
+    { "id": "a-hub-for-agentic-sites", "label": "A hub for agentic sites", "line": "Every site a cell builds, in a repository and a vault, listed where it can be found and copied." },
+    { "id": "spend-fewer-tokens", "label": "Spend fewer tokens", "line": "Agents that pre-digest the work so every other agent costs less." },
+    { "id": "the-new-data-lake", "label": "The new data lake", "line": "Many small append-only lanes, a curator that turns them into a semantic graph." }
+  ],
+  "links": [
+    ["spend-fewer-tokens", "six-setups-of-an-agentic-system"], ["spend-fewer-tokens", "promptugal-news-the-newsroom-we-ran"], ["spend-fewer-tokens", "atomic-cells-end-to-end"],
+    ["atomic-cells-end-to-end", "starting-agenticcells"], ["atomic-cells-end-to-end", "six-setups-of-an-agentic-system"], ["atomic-cells-end-to-end", "an-agentic-console"], ["atomic-cells-end-to-end", "selling-mini-agentic-teams"], ["atomic-cells-end-to-end", "a-hub-for-agentic-sites"],
+    ["starting-agenticcells", "the-new-data-lake"], ["starting-agenticcells", "selling-mini-agentic-teams"], ["starting-agenticcells", "six-setups-of-an-agentic-system"], ["starting-agenticcells", "an-agentic-console"], ["starting-agenticcells", "a-hub-for-agentic-sites"],
+    ["an-agentic-console", "selling-mini-agentic-teams"], ["an-agentic-console", "promptugal-news-the-newsroom-we-ran"], ["an-agentic-console", "six-setups-of-an-agentic-system"],
+    ["six-setups-of-an-agentic-system", "selling-mini-agentic-teams"],
+    ["selling-mini-agentic-teams", "promptugal-news-the-newsroom-we-ran"], ["selling-mini-agentic-teams", "the-new-data-lake"],
+    ["the-new-data-lake", "promptugal-news-the-newsroom-we-ran"], ["the-new-data-lake", "a-hub-for-agentic-sites"]
+  ]
+}

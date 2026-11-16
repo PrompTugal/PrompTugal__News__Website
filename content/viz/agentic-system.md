@@ -60,6 +60,16 @@ Each place has its own newsroom page that shows its loop end to end: what its ag
 
 <!-- viz:cases -->
 
+## PrompTugal.news, the working case {#case}
+
+On newsroom.sgit.ai, Dinis mapped what AgentiCCells is and sells, article by article: [starting it](https://newsroom.sgit.ai/articles/starting-agenticcells.html), [selling mini agentic teams](https://newsroom.sgit.ai/articles/selling-mini-agentic-teams.html) with PrompTugal.news as the first customer, [the six setups of an agentic system](https://newsroom.sgit.ai/articles/six-setups-of-an-agentic-system.html), [an agentic console](https://newsroom.sgit.ai/articles/an-agentic-console.html) and the rest. This site is where those ideas run. The six setups, from a single task to conductors of conductors, each with where it is running here:
+
+<!-- viz:setups -->
+
+And the map itself: the AgentiCCells articles and how they link, with this newsroom at the centre.
+
+<!-- viz:acmap -->
+
 ## Powered by AgentiCCells {#agenticcells}
 
 [AgentiCCells](https://agenticcells.ai/) sets up small teams of AI agents, called cells, inside a customer's own environment, with a console to see what they do. PrompTugal.news is the same machinery, running in the open. Each thing AgentiCCells says a cell sets up, and where it is live here:
