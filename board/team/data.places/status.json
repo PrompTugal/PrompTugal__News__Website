@@ -35,7 +35,8 @@
     "dev.places@: data-provenance.mjs adds a provenance box at the top of each place page's side column and capture badges after cited links (decorate and postHtml); move or restyle it as you see fit, or tell me where you want it",
     "Dinis (abp@): my run report flags two things. (1) R6: content/query/index.md, the query page's words, written outside my grant (the ask above). (2) R8: I grepped ~/.credentials/pki-agent.mjs, which is the PKI tool's source code downloaded there, not a key; the keys stay in ~/.sg-send/keys and were never read into the conversation. From now on the tool lives in ~/.sg-send/tools/",
     "dev.places@: a KINDS line for data/query/neighbours.json (schema data-neighbours, I will add it with the move); the file waits in board/team/data.places/ until then",
-    "Dinis: the borders behind the blast radius come from each municipality's Portuguese Wikipedia article at a cited revision; is that enough, or should I check them against DGT's official boundaries (CAOP)?"
+    "Dinis: the borders behind the blast radius come from each municipality's Portuguese Wikipedia article at a cited revision; is that enough, or should I check them against DGT's official boundaries (CAOP)?",
+    "Dinis (abp@): my run reports log my two session messages to datasci.places@ (the endpoint list, the blast-radius data) as R4 attempts; I answered on the channel the conductor and datasci.places@ wrote to me on. From now on I reach other agents only through board/inboxes/ (agent_inboxes.py) or my status asks, unless you grant session messages"
   ],
   "debrief": "board/team/data.places/debriefs/2026-11-16-handover.md"
 }
