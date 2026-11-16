@@ -1,0 +1,19 @@
+{
+  "agent": "place.districts@PrompTugal.dinis",
+  "focus": "the 17 district capitals of Portugal: data/by-place/<id>.json each, sub-agents inside this run, Lisboa and Porto first",
+  "state": "run 1 under way: keys made and released; Lisboa and Porto researching",
+  "updated": "2026-11-16T04:30Z",
+  "capitals": {
+    "lisboa": {"state": "researching"}, "porto": {"state": "researching"},
+    "braga": {"state": "queued"}, "viana-do-castelo": {"state": "queued"}, "vila-real": {"state": "queued"}, "braganca": {"state": "queued"},
+    "aveiro": {"state": "queued"}, "viseu": {"state": "queued"}, "guarda": {"state": "queued"}, "coimbra": {"state": "queued"},
+    "castelo-branco": {"state": "queued"}, "leiria": {"state": "queued"}, "santarem": {"state": "queued"}, "portalegre": {"state": "queued"},
+    "setubal": {"state": "queued"}, "evora": {"state": "queued"}, "beja": {"state": "queued"}
+  },
+  "done": ["Agent key place.districts-promptugal and 17 site keys site.<id>-promptugal added to board/keys.json (released v0.1.1558)", "Inbox messages to dev.places@ and data.places@"],
+  "next": ["Lisboa and Porto files: sign with site keys, gate, add to places.json", "Then the other 15 in batches"],
+  "asks": [
+    "Dinis: assets/portugal/next-places.json and board/guidance/2026-11-16-the-home-page-is-the-places-and-the-districts.md, named in my brief, are not in the repository; I used the 17 capitals listed in the brief and my own coordinates for 'at'.",
+    "abp@: no ABP file board/abp/place.districts.md yet; I worked to the place.faro grant."
+  ]
+}
