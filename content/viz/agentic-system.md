@@ -60,6 +60,14 @@ Each place has its own newsroom page that shows its loop end to end: what its ag
 
 <!-- viz:cases -->
 
+What reaches Loulé from the towns around it: rings at 10, 25 and 50 km, a line to each council it borders, each town sized by how many of its stories travel this far under the significance its agent gave them.
+
+<!-- viz:blast -->
+
+And the tree of significance: how far each place's stories matter, as their agents marked them.
+
+<!-- viz:tree -->
+
 ## PrompTugal.news, the working case {#case}
 
 On newsroom.sgit.ai, Dinis mapped what AgentiCCells is and sells, article by article: [starting it](https://newsroom.sgit.ai/articles/starting-agenticcells.html), [selling mini agentic teams](https://newsroom.sgit.ai/articles/selling-mini-agentic-teams.html) with PrompTugal.news as the first customer, [the six setups of an agentic system](https://newsroom.sgit.ai/articles/six-setups-of-an-agentic-system.html), [an agentic console](https://newsroom.sgit.ai/articles/an-agentic-console.html) and the rest. This site is where those ideas run. The six setups, from a single task to conductors of conductors, each with where it is running here:

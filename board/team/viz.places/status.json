@@ -1,8 +1,8 @@
 {
   "agent": "viz.places@PrompTugal.dinis",
   "focus": "the visible agentic system: agents panels on every place page, each place's newsroom end to end, the explainer powered by AgentiCCells",
-  "state": "hourly wake 02:52: the blast radius on every town's newsroom and the tree of significance on the Algarve's (Dinis's 01:20 direction)",
-  "updated": "2026-11-16T02:57Z",
+  "state": "hourly wake 03:51: the blast radius and the tree as fill markers for any page (the home page's small version, for dev.places@ to place)",
+  "updated": "2026-11-16T03:58Z",
   "done": [
     "onboarded: CLAUDE.md, the build README, Dinis's show-the-power guidance, the brief, the place agents' brief; the book's cast sheet (LAB 27) read for the character style",
     "session key viz.places-promptugal in board/keys.json",
@@ -12,10 +12,11 @@
     "wake 00:20: newsroom.sgit.ai's AgentiCCells cluster researched (the article graph, six setups, selling mini agentic teams, the console); /agentic-system/ gains 'PrompTugal.news, the working case': the six setups each mapped to where it runs here from the record, and the cluster drawn as a graph with pt.news at the centre (assets/viz/agenticcells-map.json, read 16 Nov); the Algarve newsroom's board of 17 towns; per-place GETs api/v1/viz/agents/<id>.json and api/v1/viz/newsrooms/<id>.json",
     "wake 00:52: one page per agent with a live key (58), /agentic-system/agents/<role>/, after newsroom.sgit.ai's team pages: its focus and face, what it is doing now (status.json: state, next, asks), its record (model, key, policy, place, commits, releases, run reports), the files it alone may write and what it must never do (its ABP), when it went outside its grant (run reports), its last ten commits; every face on /agentic-system/ links to its page",
     "wake 01:55: algarve/newsroom/ gains a map of the region's 17 place agents, each head at its town (places.json 'at', Natural Earth outline), its face by the site's one rule, each linking to its town's newsroom",
-    "wake 02:52: the blast radius on each town's newsroom (rings at 10, 25 and 50 km, lines to the councils it borders, every other town sized by how many of its stories reach it under the brief's rule; borders and distances from data.places@'s neighbours.json); the tree of significance on algarve/newsroom/ (Portugal, the Algarve, its towns, each place's stories by significance, unmarked shown as such)"
+    "wake 02:52: the blast radius on each town's newsroom (rings at 10, 25 and 50 km, lines to the councils it borders, every other town sized by how many of its stories reach it under the brief's rule; borders and distances from data.places@'s neighbours.json); the tree of significance on algarve/newsroom/ (Portugal, the Algarve, its towns, each place's stories by significance, unmarked shown as such)",
+    "wake 03:51: <!-- viz:tree -->, <!-- viz:blast --> (Loulé) and <!-- viz:blast:<id> --> fill markers usable on any page, small form; shown on /agentic-system/ under the case studies; offered to dev.places@ for the home page"
   ],
   "next": [
-    "the small version of the blast radius and tree on the home page: dev.places@'s page, to offer it as a fill marker",
+    "dev.places@ to place <!-- viz:blast --> and <!-- viz:tree --> on the home page if it wants them",
     "the IPMA now-data on the region map once datasci.places@'s data/by-place/now/ lands",
     "captures on each newsroom once data.places@'s vault lands"
   ],

@@ -8,7 +8,7 @@
 // By viz.places@PrompTugal.dinis, 15 November 2026 (board/briefs/2026-11-15-show-the-power.md).
 import { execFileSync } from 'node:child_process'
 import { checkSites } from '../../../board/abp/tools/site-identity.mjs'
-import { figure, head, tmpl, fill, xesc as X } from './viz-cast.mjs'
+import { figure, head, tmpl, fill as tf, xesc as X } from './viz-cast.mjs'
 import { record, runsOf, keyOf, short, hm, dm, statusOf, asksOf } from './viz-record.mjs'
 import { places, teamOf, newsroomRel, W, trim, noPrefix, noDash, repoCommit, moodWord } from './viz-agents.mjs'
 
@@ -77,13 +77,13 @@ function stations(ctx, p) {
 
 function stationsHtml(ctx, p, list) {
     const T = tmpl(ctx, NT), C = copy(ctx)
-    return fill(T.stations, {
+    return tf(T.stations, {
         accent: X(p.accent),
-        items: list.map(s => fill(T.station, {
+        items: list.map(s => tf(T.station, {
             id: s.id, n: s.n, label: X(s.label), big: X(s.big), unit: X(s.unit),
-            fig: s.look ? figure(ctx, { role: s.look, colour: p.accent, mood: 'happy', size: 84, title: W(C.who.agent_hat, { who: `place.${p.id}@`, hat: C.hats[s.id] || s.look }) }) : fill(T.box, { t: 'CI' }),
+            fig: s.look ? figure(ctx, { role: s.look, colour: p.accent, mood: 'happy', size: 84, title: W(C.who.agent_hat, { who: `place.${p.id}@`, hat: C.hats[s.id] || s.look }) }) : tf(T.box, { t: 'CI' }),
             who: X(s.id === 'check' ? C.who.check : s.id === 'publish' ? C.who.publish : W(C.who.agent_hat, { who: `place.${p.id}@`, hat: C.hats[s.id] })),
-            lines: s.lines.map(t => fill(T.line, { t: X(t) })).join(''),
+            lines: s.lines.map(t => tf(T.line, { t: X(t) })).join(''),
         })).join(''),
     })
 }
@@ -109,7 +109,7 @@ function chart(ctx, p, H) {
         for (const v of H) body += `<circle cx="${x(v.t).toFixed(1)}" cy="${y(v.counts[k]).toFixed(1)}" r="3.2" fill="${c}"><title>${X(`${hm(v.t)} ${short(v.agent)}: ${v.counts[k]} ${C.series[k]}`)}</title></circle>`
     }
     for (const v of H.filter(v => v.release)) body += `<path d="M${x(v.t).toFixed(1)} ${pad.t}V${h - pad.b}" class="vz-relmark"><title>${X(v.release)}</title></path>`
-    return fill(T.chart, { w, h, aria: X(C.chart_aria), body, legend: X(W(C.chart_legend, { from: `${dm(t0)} ${hm(t0)}`, to: `${dm(t1)} ${hm(t1)}` })) + ' ' + SERIES.map(([k, c]) => fill(T.key, { c, t: X(C.series[k]) })).join('') })
+    return tf(T.chart, { w, h, aria: X(C.chart_aria), body, legend: X(W(C.chart_legend, { from: `${dm(t0)} ${hm(t0)}`, to: `${dm(t1)} ${hm(t1)}` })) + ' ' + SERIES.map(([k, c]) => tf(T.key, { c, t: X(C.series[k]) })).join('') })
 }
 
 function delta(C, h) {
@@ -121,7 +121,7 @@ function delta(C, h) {
 
 function runHtml(ctx, p, H) {
     const T = tmpl(ctx, NT), C = copy(ctx)
-    return fill(T.run, { rows: H.map(h => fill(T['run-row'], {
+    return tf(T.run, { rows: H.map(h => tf(T['run-row'], {
         t: X(`${dm(h.t)} ${hm(h.t)}`), head: head(ctx, { role: String(h.agent).split('@')[0].toLowerCase(), accent: p.accent, size: 22, title: short(h.agent.toLowerCase()) }),
         who: X(short(h.agent.toLowerCase())), href: X(repoCommit(ctx, h.sha)), subject: X(trim(noDash(noPrefix(h.subject)), 150)),
         delta: X(delta(C, h)), rel: X(h.release || C.unreleased),
@@ -164,10 +164,10 @@ function agentMap(ctx, region) {
         if (mood === 'happy' || mood === 'stressed') now++
         const x = X0(at.at[0]), y = Y0(at.at[1]), side = at.label || 's'
         const [lx, ly, anchor] = side === 'n' ? [0, -44, 'middle'] : side === 'e' ? [14, 4, 'start'] : side === 'w' ? [-14, 4, 'end'] : side === 'sw' ? [-10, 22, 'end'] : [0, 22, 'middle']
-        body += fill(T['agentmap-pin'], { href: X(ctx.link(rel, newsroomRel(t)).replace(/\.md$/, '.html')), title: X(`${t.name}: ${short(t.agent.toLowerCase())}, ${moodWord(ctx)[mood]}`), x: x.toFixed(1), y: y.toFixed(1), c: X(t.accent),
+        body += tf(T['agentmap-pin'], { href: X(ctx.link(rel, newsroomRel(t)).replace(/\.md$/, '.html')), title: X(`${t.name}: ${short(t.agent.toLowerCase())}, ${moodWord(ctx)[mood]}`), x: x.toFixed(1), y: y.toFixed(1), c: X(t.accent),
             hx: -14, hy: -36, head: head(ctx, { role: `place.${t.id}`, accent: t.accent, mood, size: 26, title: short(t.agent.toLowerCase()) }), lx, ly, anchor, name: X(t.name) })
     }
-    return fill(T.agentmap, { w, h, aria: X(C.agentmap_aria), body, caption: X(W(C.agentmap_caption, { asof: `${dm(R.now)} ${hm(R.now)}`, now, count: towns.length })) })
+    return tf(T.agentmap, { w, h, aria: X(C.agentmap_aria), body, caption: X(W(C.agentmap_caption, { asof: `${dm(R.now)} ${hm(R.now)}`, now, count: towns.length })) })
 }
 
 
@@ -211,21 +211,21 @@ function blastData(ctx, p) {
         return { t, km: G.km(p.id, t.id), adj: G.adj(p.id, t.id), n: news.filter(a => reaches(sigOf(a), p.id, t.id, G)).length, unmarked: news.filter(a => !sigOf(a)).length }
     })
 }
-function blastHtml(ctx, p) {
+function blastHtml(ctx, p, fromRel) {
     const T = tmpl(ctx, NT), C = copy(ctx), P = proj(ctx), at = placesAt(ctx).get(p.id)
     if (!at) return ''
-    const cx = P.X0(at.at[0]), cy = P.Y0(at.at[1]), rel = newsroomRel(p), D = blastData(ctx, p)
+    const cx = P.X0(at.at[0]), cy = P.Y0(at.at[1]), rel = fromRel || newsroomRel(p), D = blastData(ctx, p)
     let body = P.land
     for (const r of [50, 25, 10]) body += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${(r * P.pxPerKm).toFixed(1)}" class="vz-bl-ring r${r}"/><text x="${(cx + r * P.pxPerKm * 0.71 + 4).toFixed(1)}" y="${(cy - r * P.pxPerKm * 0.71).toFixed(1)}" class="vz-bl-km">${r} km</text>`
     for (const d of D.filter(d => d.adj)) { const a = placesAt(ctx).get(d.t.id).at; body += `<line x1="${cx.toFixed(1)}" y1="${cy.toFixed(1)}" x2="${P.X0(a[0]).toFixed(1)}" y2="${P.Y0(a[1]).toFixed(1)}" class="vz-bl-border"/>` }
     for (const d of D) {
         const a = placesAt(ctx).get(d.t.id).at, x = P.X0(a[0]), y = P.Y0(a[1])
-        body += fill(T['blast-pin'], { href: X(ctx.link(rel, newsroomRel(d.t)).replace(/\.md$/, '.html')), title: X(`${d.t.name}: ${d.km ?? '?'} km${d.adj ? ', borders ' + p.name : ''}; ${d.n} of its stories reach ${p.name}`),
+        body += tf(T['blast-pin'], { href: X(ctx.link(rel, newsroomRel(d.t)).replace(/\.md$/, '.html')), title: X(`${d.t.name}: ${d.km ?? '?'} km${d.adj ? ', borders ' + p.name : ''}; ${d.n} of its stories reach ${p.name}`),
             x: x.toFixed(1), y: y.toFixed(1), r: (5 + Math.sqrt(d.n) * 4).toFixed(1), cls: d.n ? 'on' : 'off', lx: x.toFixed(1), ly: (y + 20 + Math.sqrt(d.n) * 4).toFixed(1), name: X(d.t.name) })
     }
     body += `<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="9" class="vz-bl-home"/><text x="${cx.toFixed(1)}" y="${(cy - 16).toFixed(1)}" text-anchor="middle" class="vz-bl-homelabel">${X(p.name)}</text>`
     const shown = D.reduce((s, d) => s + d.n, 0), from = D.filter(d => d.n).length, unmarked = D.reduce((s, d) => s + d.unmarked, 0)
-    return fill(T.blast, { accent: X(p.accent), w: P.w, h: P.h, aria: X(W(C.blast_aria, { name: p.name })), body, caption: X(W(C.blast_caption, { shown, from, name: p.name, unmarked, read: geo(ctx).read })) })
+    return tf(T.blast, { accent: X(p.accent), w: P.w, h: P.h, aria: X(W(C.blast_aria, { name: p.name })), body, caption: X(W(C.blast_caption, { shown, from, name: p.name, unmarked, read: geo(ctx).read })) })
 }
 function blastTwin(ctx, p) {
     const C = copy(ctx), c = s => ctx.md.cell(String(s ?? ''))
@@ -236,12 +236,12 @@ function treeHtml(ctx) {
     const count = pl => { const by = {}; for (const a of arr(pl.data && pl.data.ai_news)) { const k = sigOf(a) || 'unmarked'; by[k] = (by[k] || 0) + 1 } return by }
     const all0 = places(ctx), max = Math.max(1, ...all0.map(pl => arr(pl.data && pl.data.ai_news).length))
     const row = (pl, depth) => { const by = count(pl), n = Object.values(by).reduce((s, v) => s + v, 0)
-        return fill(T['tree-row'], { depth, name: X(pl.name), n, pct: (100 * n / max).toFixed(1), segs: [...SIGS, 'unmarked'].filter(k => by[k]).map(k => fill(T['tree-seg'], { sig: k, k: by[k], title: X(`${pl.name}: ${by[k]} ${L[k]}`) })).join('') }) }
+        return tf(T['tree-row'], { depth, name: X(pl.name), n, pct: (100 * n / max).toFixed(1), segs: [...SIGS, 'unmarked'].filter(k => by[k]).map(k => tf(T['tree-seg'], { sig: k, k: by[k], title: X(`${pl.name}: ${by[k]} ${L[k]}`) })).join('') }) }
     const all = places(ctx), root = all.filter(x => x.kind === 'country'), region = all.filter(x => x.kind === 'region')
     let rows = root.map(r => row(r, 0)).join('') + region.map(r => row(r, 1)).join('')
     const kids = id => all.filter(x => x.parent === id)
     for (const t of kids('algarve')) { rows += row(t, 2); for (const u of kids(t.id)) rows += row(u, 3) }
-    return fill(T.tree, { rows }) + fill(T['tree-key'], { items: [...SIGS, 'unmarked'].map(k => fill(T['tree-key-item'], { sig: k, label: X(L[k]) })).join('') })
+    return tf(T.tree, { rows }) + tf(T['tree-key'], { items: [...SIGS, 'unmarked'].map(k => tf(T['tree-key-item'], { sig: k, label: X(L[k]) })).join('') })
 }
 function treeTwin(ctx) {
     const C = copy(ctx), L = C.sig_labels
@@ -285,7 +285,7 @@ function page(ctx, p) {
         postHtml: html => {
             const T = tmpl(ctx, NT), lk = to => X(ctx.link(rel, to).replace(/\.md$/, '.html'))
             const explainer = (ctx.pages || []).find(x => x.rel === 'agentic-system/index.html')
-            html = html.replace(/<div class="vz-hero-slot">[\s\S]*?<\/div>/, () => fill(T.hero, {
+            html = html.replace(/<div class="vz-hero-slot">[\s\S]*?<\/div>/, () => tf(T.hero, {
                 accent: X(p.accent), lede: X(W(C.lede, { id: p.id, name: p.name })),
                 heads: team.map(a => head(ctx, { role: a.role, accent: p.accent, mood: a.mood, size: 30, title: short(a.agent) })).join(''),
                 place: lk(placeRel), agents: lk(placeRel) + '#agents', explainer: explainer ? lk(explainer.rel) : lk(placeRel) + '#how',
@@ -321,4 +321,27 @@ export function validate(gate) {
     try { list = JSON.parse(gate.text('data/by-place/places.json')).places } catch { return out }
     for (const p of list) { try { if (!gate.text(`${p.path}newsroom/index.html`).includes('class="vz-stations"')) out.push(`viz-newsroom: ${p.path}newsroom/ lacks its stations`) } catch { out.push(`viz-newsroom: missing ${p.path}newsroom/index.html`) } }
     return out
+}
+
+// The blast radius and the tree on any page (the brief: "a small version on the home page", which is dev.places@'s):
+// place <!-- viz:tree --> or <!-- viz:blast --> (the blast radius of Loulé, the case study) or <!-- viz:blast:<id> -->
+// in a page's markdown; the twin keeps a list, the page gets the picture in its small form.
+const MARK = /<!-- viz:(tree|blast(?::([a-z0-9-]+))?) -->/g
+export const fill = {
+    'viz:tree': (page, ctx) => `::: vz-mini vz-tree-slot\n${treeTwin(ctx)}\n:::`,
+    'viz:blast': (page, ctx) => { const p = places(ctx).find(x => x.id === 'loule'); return p ? `::: vz-mini vz-blast-slot\n${blastTwin(ctx, p)}\n:::` : '' },
+}
+for (const id of ['faro', 'loule', 'quarteira', 'silves', 'tavira', 'vila-real-de-santo-antonio', 'portimao', 'lagos', 'olhao', 'albufeira', 'lagoa', 'monchique', 'aljezur', 'vila-do-bispo', 'castro-marim', 'alcoutim', 'sao-bras-de-alportel'])
+    fill[`viz:blast:${id}`] = (page, ctx) => { const p = places(ctx).find(x => x.id === id); return p ? `::: vz-mini vz-blast-slot-${id}\n${blastTwin(ctx, p)}\n:::` : '' }
+export function decorate(page, ctx) {
+    if (page.rel.endsWith('/newsroom/index.html') || !String(page.md || '').includes('<!-- viz:')) return
+    const marks = [...String(page.md).matchAll(MARK)]
+    if (!marks.length) return
+    const prev = page.postHtml
+    page.postHtml = html => {
+        let h = prev ? prev(html) : html
+        h = h.replace(/<div class="vz-mini vz-tree-slot">[\s\S]*?<\/div>/, () => `<div class="vz-mini">${treeHtml(ctx)}</div>`)
+        h = h.replace(/<div class="vz-mini vz-blast-slot(?:-([a-z0-9-]+))?">[\s\S]*?<\/div>/g, (m, id) => { const p = places(ctx).find(x => x.id === (id || 'loule')); return p ? `<div class="vz-mini">${blastHtml(ctx, p, page.rel)}</div>` : m })
+        return h
+    }
 }
