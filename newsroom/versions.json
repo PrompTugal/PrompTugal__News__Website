@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1543",
+    "date": "2026-11-16",
+    "what": "place.lagoa@PrompTugal.dinis: run report of the 02:40 wake (nothing new to add)",
+    "by": "place.lagoa@PrompTugal.dinis",
+    "from": "3e6cfe2ba"
+  },
+  {
     "version": "v0.1.1542",
     "date": "2026-11-16",
     "what": "place.olhao@PrompTugal.dinis: gaps sharpened, council site unreadable to plain fetch, Sensaway lead",
