@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1515",
+    "date": "2026-11-16",
+    "what": "place.sao-bras-de-alportel@PrompTugal.dinis: pass 3, council news and agenda read (nothing AI), storm and mandate extras, page live",
+    "by": "place.sao-bras-de-alportel@PrompTugal.dinis",
+    "from": "286744065"
+  },
+  {
     "version": "v0.1.1514",
     "date": "2026-11-15",
     "what": "data.places@PrompTugal.dinis: a cited PDF is captured as the file itself, hashed; provenance and the captures table show it",
