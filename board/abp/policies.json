@@ -464,7 +464,7 @@
       "focus": "public research on a mandate per task (the Portugal ecosystem, Algarve Evolution, then people and past summits); Sonnet; the news organisations pass (media.map): the district capitals' and the national outlets in the media kind of data/organisations/<id>.json, public sources only, each fact with source and date read (board/team/conductor.b/plans/2026-11-16-restart-here.md, section 4)",
       "writes": [
         "desks/researcher/**",
-        "data/organisations/*.json"
+        "data/organisations/*/organisation.json"
       ],
       "never": "uses a source behind a login, or publishes; writes an organisation of another kind, or a media record that breaks ontologist@'s schema; gives a private individual's personal contact (a public outlet's published channel may be shown, linked and dated)"
     },
@@ -1056,7 +1056,7 @@
         "writes": [
           "desks/local-jose/**",
           "board/runs/local-jose/**",
-          "data/organisations/*.json"
+          "data/organisations/*/organisation.json"
         ],
         "never": "writes outside its own desk and run folder; changes, relaxes or reinterprets a rule of Dinis's (Jose's standing rule J6 only narrows); gives a private individual's personal contact (a contact published on a public website may be shown, linked and dated); sends anything outside; starts a session or a scheduled task; writes an organisation record that is not of the media kind, or a media record that breaks ontologist@'s schema; touches a record ontologist@ or researcher@ wrote beyond adding its own facts with source and date read (they coordinate on the record, ontologist@ owns the kind)",
         "why": "Dinis, 16 November 2026, about 19:24 UTC (recorded in board/guidance/2026-11-16-restart-here-go.md, point 4): local@PrompTugal.jose takes the Algarve towns' local outlets (RSS or API), public contributors and draft first contacts, in the media kind of data/organisations/ beside researcher@ (districts and nationals). Outreach drafts stay in its desk: a person sends. Run reports: board/runs/local-jose/.",

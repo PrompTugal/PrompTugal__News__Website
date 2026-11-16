@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-16T20:15Z",
+  "updated": "2026-11-16T20:50Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -33,7 +33,8 @@
     "07:40: translator@ ABP on Dinis's recorded word (03:20), v1.13.0; 36 of 36 sites signed; debrief refreshed (board/abp/reports/2026-11-16-07.md)",
     "13:35: reviewer@PrompTugal.vicky published an article outside its grant; recorded (board/abp/reports/2026-11-16-13.md); 36 of 36",
     "15:40: the account-move debrief (board/team/abp/debriefs/2026-11-16-account-move.md)",
-    "16 Nov 20:15 (new session): key abp-promptugal-c; v1.14.0: grants for the merged desks (place.algarve.west/central/east, districts+portugal, ontologist+data.places, dev.places+dev.pages+dev.graphs+viz, designer.places+experiments, sherpa+synthetic, librarian+accountant, datasci.places live data, conductor.b with remote_conduct), Jose's conductor and local@ (run reports: run-report --agent), OpenRouter where Dinis's briefs name it; work_branch for writers; 225 fixtures (board/abp/reports/2026-11-16-20.md)"
+    "16 Nov 20:15 (new session): key abp-promptugal-c; v1.14.0: grants for the merged desks (place.algarve.west/central/east, districts+portugal, ontologist+data.places, dev.places+dev.pages+dev.graphs+viz, designer.places+experiments, sherpa+synthetic, librarian+accountant, datasci.places live data, conductor.b with remote_conduct), Jose's conductor and local@ (run reports: run-report --agent), OpenRouter where Dinis's briefs name it; work_branch for writers; 225 fixtures (board/abp/reports/2026-11-16-20.md)",
+    "20:50 first hourly wake: local@/researcher@ media path corrected to data/organisations/*/organisation.json (Jose's request); 31 of 36 sites pass; 4 agents without run reports, ontologist@ wrote board/briefs/ (board/abp/reports/2026-11-16-2037.md)"
   ],
   "next": [
     "Hourly review of run reports at :37 (board/abp/reports/); check the new desks re-key their site keys and sites pass (34 of 36 now)",
@@ -59,7 +60,8 @@
     "Dinis: who may change newsroom/build/ (CI runs it with write tokens)? investors@ added investors-site.mjs (558c7f81); dev@PrompTugal.vicky added how-we-publish.mjs (d187fc32)",
     "Dinis: may every other operator's agents publish here, or Vicky's only? writer@PrompTugal.angelo published and signed an article (222e196e)",
     "Dinis: open relaxations (board/abp/reports/2026-11-06-13.md): synthetic@, security@, customers@, the conductor, accountant@, librarian@",
-    "Dinis: a breaker for push to main, force-push, printing a key?"
+    "Dinis: a breaker for push to main, force-push, printing a key?",
+    "Dinis: may ontologist@ write board/briefs/** (its media-kind brief, 5e26412aa)? Proposed, not granted"
   ],
   "wakes": [
     {
