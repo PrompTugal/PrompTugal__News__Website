@@ -13,7 +13,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The regional business association NERA hosted a session at C",
-  "ok": false
+  "ok": true
  },
  "50849a820822daab": {
   "t": "PrompTugal.news Aveiro, a cidade dos canais: IA y tecnología en Aveiro, con la Universidade de Aveiro y el Instituto de Telecomunicações como grandes cerebros, la Câmara montando la Tech Week y las noticias que llegan navegando desde Portugal, Brasil y el mundo. Independente, y cada dato viene con su recibo.",

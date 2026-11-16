@@ -37,7 +37,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "University of Coimbra opens an AI and Data Science bachelor'",
-  "ok": false
+  "ok": true
  },
  "d44858530e9136df": {
   "t": "Barrios Comerciales Digitales de Loulé y Quarteira: tiendas en línea, wifi, pantallas digitales, todavía sin IA",
@@ -61,7 +61,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The Center for Responsible AI, a publicly funded consortium ",
-  "ok": false
+  "ok": true
  },
  "d4ec9af2e630ad10": {
   "t": "PrompTugal.news Aveiro: IA y tecnología en Aveiro, una ciudad universitaria y de telecomunicaciones cuyo centro de gravedad son la Universidade de Aveiro, el Instituto de Telecomunicações y el impulso Aveiro Tech City del ayuntamiento, y lo que llega a Aveiro desde Portugal, Brasil y el mundo. Independiente; cada dato con su fuente.",
@@ -69,6 +69,6 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Aveiro: AI and technology in Aveiro, a unive",
-  "ok": false
+  "ok": true
  }
 }

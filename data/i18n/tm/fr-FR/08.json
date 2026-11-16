@@ -37,7 +37,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The university published its policy on the use of AI, includ",
-  "ok": false
+  "ok": true
  },
  "08e62becb266d045": {
   "t": "PrompTugal.news Faro, a tua cidade das cegonhas : IA et tech à Faro, avec l’Universidade do Algarve comme grand cerveau sur la colline, et toute l’actualité qui arrive à la voile depuis l’Algarve, le Portugal et le monde. Independente, et chaque fait vient avec son reçu.",

@@ -1,11 +1,12 @@
 {
  "a60fab8528afa5b0": {
-  "t": "Quarteira: donde las sardinas se jubilaron, llegaron las pelotas de golf y los robots todavía hacen cola en el chiringuito.",
+  "t": "Quarteira: donde las sardinas se jubilaron, llegaron las bolas de golf y los robots todavía hacen cola en el chiringuito.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Quarteira: where the sardines retired, the golf balls arrive",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  },
  "a623e7151e2e6722": {
   "t": "El Colégio Internacional de Vilamoura celebró el 9 de mayo una Innovation in Education Summit con paneles sobre cómo afecta la IA a la enseñanza y al aprendizaje.",

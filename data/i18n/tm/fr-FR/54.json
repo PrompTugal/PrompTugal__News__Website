@@ -40,12 +40,13 @@
   "ok": false
  },
  "54e8cbd994efe2ee": {
-  "t": "Axtron Systems, fondée en 2023 par deux professeurs de l’école de technologie de l’école polytechnique, a conçu FIRECOM. Un modèle d’IA repère le contour des bâtiments, trace les bandes de coupure autour d’eux, et les images du drone montrent où la végétation doit être débroussaillée. Il est issu d’un projet européen Horizon Europe.",
+  "t": "Axtron Systems, fondée en 2023 par deux professeurs de l’école de technologie de l’institut polytechnique, a conçu FIRECOM. Un modèle d’IA repère le contour des bâtiments, trace les bandes de coupure autour d’eux, et les images du drone montrent où la végétation doit être débroussaillée. Il est issu d’un projet européen Horizon Europe.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Axtron Systems, founded in 2023 by two professors of the pol",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  },
  "54efd925eefadb18": {
   "t": "Le programme offre du mentorat sur les clients, les marchés, la tarification et le passage à l’échelle à des start-ups de la biotech, de l’IA, de la santé, du tourisme, de l’alimentation et des industries créatives. Deux entreprises citées, expressTEC à Faro et Bot Gonçalves, utilisent l’IA.",

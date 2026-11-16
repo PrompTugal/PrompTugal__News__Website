@@ -8,12 +8,13 @@
   "ok": false
  },
  "a540cb47bbba9f83": {
-  "t": "Le polytechnique publie ses règles pour les outils d'IA",
+  "t": "L'institut polytechnique publie ses règles pour les outils d'IA",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The polytechnic issues its rules for AI tools",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  },
  "a59069bec2b29c00": {
   "t": "Brainr, la startup de Leiria qui met l'IA dans l'usine agroalimentaire, étend son tour de table d'amorçage record",

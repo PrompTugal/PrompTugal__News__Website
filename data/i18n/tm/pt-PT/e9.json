@@ -13,7 +13,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "UAlg wins 31.5 million euros for an AI-first European herita",
-  "ok": false
+  "ok": true
  },
  "e9f81a8e238017af": {
   "t": "{name}: {local}, {map} no mapa de IA",

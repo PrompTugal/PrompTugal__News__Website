@@ -8,11 +8,12 @@
   "ok": false
  },
  "a27279fca09f828a": {
-  "t": "Une conférence industrielle et technologique à l'hôtel de congrès Montebelo Viseu du 29 septembre au 1er octobre 2026, organisée par le département de génie mécanique et de gestion industrielle du polytechnique avec la mairie, l'association d'entreprises AIRV et Viseu Marca. L'IA est un thème central, notamment la maintenance et l'IA.",
+  "t": "Une conférence industrielle et technologique à l'hôtel de congrès Montebelo Viseu du 29 septembre au 1er octobre 2026, organisée par le département de génie mécanique et de gestion industrielle de l'institut polytechnique avec la mairie, l'association d'entreprises AIRV et Viseu Marca. L'IA est un thème central, notamment la maintenance et l'IA.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "An industrial and technology conference at the Montebelo Vis",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  }
 }

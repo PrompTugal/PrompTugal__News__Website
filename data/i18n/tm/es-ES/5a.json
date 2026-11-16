@@ -21,7 +21,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Ó pá, Lagos has caravels, cliffs and more laptops per beach ",
-  "ok": false
+  "ok": true
  },
  "5adb80e2009a3e9b": {
   "t": "Hasta 3,7 millones de euros para el superordenador Deucalion en Guimarães y hasta 15,6 millones de euros para convertir MareNostrum 5 en Barcelona en una plataforma de IA, ambos gestionados por la FCT.",
@@ -29,7 +29,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Up to 3.7 million euros for the Deucalion supercomputer in G",
-  "ok": false
+  "ok": true
  },
  "5af88120885539ed": {
   "t": "Pois, nem tudo se encontra. Esto es lo que seguimos buscando, com calma, que a pressa e inimiga da perfeicao:",

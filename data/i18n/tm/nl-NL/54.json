@@ -40,12 +40,13 @@
   "ok": false
  },
  "54e8cbd994efe2ee": {
-  "t": "Axtron Systems, in 2023 opgericht door twee hoogleraren van de technologieschool van de polytechnische school, bouwde FIRECOM. Een AI-model vindt de contouren van gebouwen, bepaalt de beheersstroken eromheen, en de dronebeelden laten zien waar vegetatie moet worden verwijderd. Het kwam voort uit een Horizon Europe-project van de EU.",
+  "t": "Axtron Systems, in 2023 opgericht door twee hoogleraren van de technologieschool van het polytechnisch instituut, bouwde FIRECOM. Een AI-model vindt de contouren van gebouwen, bepaalt de beheersstroken eromheen, en de dronebeelden laten zien waar vegetatie moet worden verwijderd. Het kwam voort uit een Horizon Europe-project van de EU.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Axtron Systems, founded in 2023 by two professors of the pol",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  },
  "54efd925eefadb18": {
   "t": "Het programma biedt mentoring over klanten, markten, prijzen en schaalvergroting aan startups in biotech, AI, gezondheid, toerisme, voeding en creatieve industrieën. Twee genoemde bedrijven, expressTEC in Faro en Bot Gonçalves, gebruiken AI.",

@@ -13,15 +13,16 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Gota Click2Care: a parish teleassistance pilot for Aljezur's",
-  "ok": false
+  "ok": true
  },
  "ed99e8c975b51dc9": {
-  "t": "Tavira, ó pá, onde o rio é mais calmo do que qualquer sala de servidores e os sete arcos da ponte já viram mais migrações do que o seu fornecedor de nuvem.",
+  "t": "Tavira, ó pá, onde o rio é mais calmo do que qualquer sala de servidores e os sete arcos já viram mais migrações do que o seu fornecedor de nuvem.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Tavira, ó pá, where the river is calmer than any server room",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  },
  "eddff8f8e446bd17": {
   "t": "Numa entrevista de março de 2024, o responsável de informática da câmara de Ayamonte disse que a câmara estava a preparar um assistente virtual de IA para cidadãos e empresas e a planear um nó de inovação de 2 a 3 milhões de euros em turismo e apoio digital a pequenas empresas. Descreveu o nó como o primeiro a envolver uma Eurocidade, abrangendo partes do Algarve português. Esta é a versão da própria câmara, sem datas de lançamento, e não confirmámos que o nó tenha avançado.",

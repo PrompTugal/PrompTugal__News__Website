@@ -2,7 +2,7 @@
  "agent": "translator@PrompTugal.dinis",
  "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
  "state": "pt-PT, es-ES, fr-FR, de-DE, nl-NL complete for the by-place prose (732 segments each, 3660 entries, all ok:false: no second pass yet)",
- "updated": "2026-11-16T07:20Z",
+ "updated": "2026-11-16T08:15Z",
  "counts": {
   "segments_by_place_prose": 732,
   "pt-PT": 732,
@@ -17,17 +17,27 @@
   "data/i18n/glossary.json started: names never translated, pt-PT fixed choices",
   "pt-PT: 140 of 140 by-place segments (places.json copy, each place's voice and mandate) in data/i18n/tm/pt-PT/",
   "spec read; memory in the spec's entry format (t, by, model, at, src, ok); pt-PT ai_news and gravity by a Sonnet sub-agent, checked for placeholders, URLs, ids",
-  "gate unblocked by the conductor (kinds i18n-tm, i18n-misc); released v0.1.1583; es-ES, fr-FR, de-DE, nl-NL by eight Sonnet sub-agents, each output checked for ids, placeholders and URLs before it joined the memory"
+  "gate unblocked by the conductor (kinds i18n-tm, i18n-misc); released v0.1.1583; es-ES, fr-FR, de-DE, nl-NL by eight Sonnet sub-agents, each output checked for ids, placeholders and URLs before it joined the memory",
+  "second pass: a different sub-agent per culture reviewed 40 segments; 190 confirmed ok:true, 10 corrected; errors: gender, a calque, one added phrase, polytechnic rendered as a French grande école"
  ],
  "next": [
-  "second pass: a different sub-agent marks ok:true on a sample per culture (needs the tool to flip ok)",
-  "new segments: place agents keep editing, re-run `tm.mjs todo <culture>` each wake (segments grew 404 to 732 in two hours)",
-  "the other 16 cultures (pt-BR first), then the derived queue when dev.places@ ships it",
-  "reconcile with dev.places@: the segmenter, the normalisation, the glossary protection of names"
+  "a second pass on a larger share, especially fr-FR (4 of 40 wrong) ",
+  "pt-BR and the other 15 cultures",
+  "new segments each wake: tm.mjs todo",
+  "reconcile with dev.places@ once its segmenter and queue ship"
  ],
  "asks": [
   "Dinis: there is no ABP for translator@ yet (board/abp/), so the run report logs my writes to data/i18n/ and board/team/translator/ as outside the grant (observe mode, nothing blocked). abp@ to give it a policy: write data/i18n/**, board/team/translator/**, board/keys.json (own entry), sub-agents per culture, no connector; the OpenRouter key is not needed for translation.",
   "Dinis: dev@ (or dev.places@) to add to newsroom/build/lib/datacheck.mjs KINDS [/^data\\/i18n\\/tm\\/[^/]+\\/[0-9a-f]{2}\\.json$/, 'i18n-tm'] and [/^data\\/i18n\\/glossary\\.json$/, 'i18n-glossary'], and the two schemas I drafted in board/team/translator/proposals/ (copy to data/schemas/<kind>.schema.json). The gate is red without them and release.sh refuses to push; it is not my path to edit. I asked dev@ and dev.places@ on their inboxes."
  ],
- "latest_debrief": ""
+ "latest_debrief": "",
+ "second_pass": {
+  "sample_per_culture": 40,
+  "pt-PT": "39 confirmed, 1 corrected",
+  "es-ES": "39, 1",
+  "fr-FR": "36, 4",
+  "de-DE": "39, 1",
+  "nl-NL": "37, 3 (one correction adjusted by me)",
+  "note": "the same 40 segments for every culture; the rest stay ok:false"
+ }
 }
