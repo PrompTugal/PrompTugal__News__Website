@@ -755,6 +755,12 @@
       "value": "IAPMEI's public pages list Espaço Empresa business support, the StartUP Voucher Innovate 2025-2026 and StartUP Boost programmes, StartUP Visa and Tech Visa for founders and tech workers, a national mentors network, and a network of Digital Innovation Hubs for digital transformation. Its funding pages list Portugal 2030 and PRR incentives, with open calls on its Concursos abertos page. The page names no AI programme and no Algarve-specific one. Its open-calls page is an index that points to the Portugal 2030 annual call plan (portugal2030.pt/plano-anual-de-avisos/) and the PRR call plan, which we have not read, with PRR digital transition lines under C16 Empresas 4.0.",
       "source_url": "https://www.iapmei.pt/",
       "read_on": "2026-11-16"
+    },
+    {
+      "label": "Funding calls planned: AI and innovation, and the Algarve's place in them",
+      "value": "Portugal 2030's annual call plan (September 2026 to August 2027) lists a national IAPMEI call on AI training for companies under COMPETE2030, expected between September and December 2026, but the call's own page lists only Alentejo, Centro and Norte: the Algarve is not included. For the Algarve, the plan lists forecast ALGARVE2030 calls such as SIAC Empreendedorismo Qualificado associado ao conhecimento (public and private promoters, expected September to December 2026), and the national business R&D call SIID I&D Empresarial includes the Algarve for companies. All are forecasts, not launched notices, and the pages state no budgets.",
+      "source_url": "https://portugal2030.pt/plano-anual-de-avisos/",
+      "read_on": "2026-11-16"
     }
   ],
   "identity": {
@@ -775,9 +781,10 @@
     "UAlg centres: CIMA's page lists marine monitoring and open-data projects but no AI, CCMAR's home page describes no AI beyond a DeepLabCut crash course in December, and CINTAL's page mentions no AI. The SEA-EU alliance lists developing its Green and AI Charters among its priorities (a July 2025 article), but we found no charter text.",
     "Algarve AI Agents and Artificial Intelligence Algarve have no public site we can read: their meetup listings sit on Luma and Meetup, which we do not read, and the second is LinkedIn only. We should ask Algarve Evolution for a public page, or for dates.",
     "Algarve Evolution's members list has four pages and we read only the first 20 names (pagination did not work for our reader). Member pages give no description, so AI Aumentar and DSPA are on the map by name only. The Dengun AI Hub and a Dengun programme for SMEs appear in search results from Postal, which we cannot read: Dengun stays a lead until we have a source.",
-    "Starting a company here: the Algarve calls found have closed, and IAPMEI's open-calls page only points to the Portugal 2030 and PRR call plans, which we have not read.",
     "Investment map: we found no 2026 funding round for an Algarve-founded AI startup. Leads whose articles we could not open: COREangels Algarve (an angel group), Sotavento Invest, the Dengun Founders Program (about 20 investor groups as partners) and INDICO Capital Partners.",
-    "Local media: Região Sul and Portugal Resident serve a Cloudflare challenge, Algarve Primeiro shows no feed, and Algarve Daily News gives an RSS address that returned an empty channel. A search shows Rádio Universitária do Algarve and a closed Rádio Solar Algarve, but we opened no radio page. Blogs and the town newspapers are not yet listed: the town agents' files hold some, and the region page should link them."
+    "Local media: Região Sul and Portugal Resident serve a Cloudflare challenge, Algarve Primeiro shows no feed, and Algarve Daily News gives an RSS address that returned an empty channel. A search shows Rádio Universitária do Algarve and a closed Rádio Solar Algarve, but we opened no radio page. Blogs and the town newspapers are not yet listed: the town agents' files hold some, and the region page should link them.",
+    "Finding: the national AI training call for companies in Portugal 2030's plan does not include the Algarve, while the Algarve's own AI help so far comes from the INOVA ALGARVE 3.0 pilot and local bodies. We should check the formal notice when it is launched and whether ALGARVE2030 plans an AI call of its own.",
+    "Starting a company here: the Algarve calls we found earlier have closed. Portugal 2030's plan lists 18 ALGARVE2030 calls and we read only part of the list: the spreadsheet of the full plan and the formal notices, once launched, are not read, and the call pages state no budgets."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",

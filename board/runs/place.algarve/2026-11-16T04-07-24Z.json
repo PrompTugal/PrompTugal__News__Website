@@ -1,0 +1,83 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.algarve@PrompTugal.dinis",
+ "run": "2026-11-16T04-07-24Z",
+ "started": "2026-11-16T04:07:24.643Z",
+ "ended": "2026-11-16T05:07:37Z",
+ "line": "",
+ "policy": {
+  "version": "1.11.0",
+  "sha256": "ca739bcd9e7bf7c8"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T04:11:06.593Z",
+   "chars": 550,
+   "sha256": "806fe005829ac4a6",
+   "head": "<task-notification>\n<task-id>bun53f96v</task-id>\n<tool-use-id>toolu_01DxcWFWaiytScV6a3KaJFcS</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/e24cdff7-e118-510d-9b55-f7364"
+  },
+  {
+   "t": "2026-11-16T04:11:10.860Z",
+   "chars": 542,
+   "sha256": "bec56cc0af41ad54",
+   "head": "<task-notification>\n<task-id>be5opd3v3</task-id>\n<tool-use-id>toolu_01MbvuctgcMxEPr4Uf2c2dFk</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/e24cdff7-e118-510d-9b55-f7364"
+  },
+  {
+   "t": "2026-11-16T05:04:59.062Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T05:04:58.767Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 13,
+  "by_kind": {
+   "release": 1,
+   "other": 2,
+   "git": 3,
+   "web": 6,
+   "shell": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 13,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 13,
+  "in_mandate": 13,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

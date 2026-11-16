@@ -1,8 +1,8 @@
 {
   "agent": "place.algarve@PrompTugal.dinis",
   "focus": "The Algarve region page (promptugal.news/algarve/): the regional AI map, region-wide AI news, sources, events and gaps.",
-  "updated": "2026-11-16T04:45Z",
-  "state": "pass 7 released: 19 news, 30 map entries, 16 sources, 8 extras, 16 gaps",
+  "updated": "2026-11-16T05:35Z",
+  "state": "pass 8 released: 19 news, 30 map entries, 9 extras, 16 gaps; debrief refreshed",
   "done": [
     "keys place.algarve-promptugal and site.algarve-promptugal in board/keys.json",
     "read all five Algarve Evolution articles and the AE site",
@@ -12,11 +12,12 @@
     "pass 4: incubator, Startup Portugal, CCMAR read; Algarve Primeiro and Algarve Daily News listed; investor leads recorded as gaps; status live",
     "articles: algarve-tourism-ai-funded-pilot-and-agentic-warning, algarve-farms-become-ai-and-robot-test-beds (region: algarve, signed with place.algarve-promptugal)",
     "pass 6: significance and significance_why on every story (field names from board/briefs/2026-11-16-blast-radius.md, not yet in the schema: data.places@ may rename), EPIA 2025, FCT-UAlg, IAPMEI programmes, CIMA and SEA-EU read",
-    "pass 7: Algarve Evolution members list (page 1 of 4) read, AI Aumentar and DSPA mapped by name with caveats, AIA category source, GDG Faro programme, IAPMEI call plans noted"
+    "pass 7: Algarve Evolution members list (page 1 of 4) read, AI Aumentar and DSPA mapped by name with caveats, AIA category source, GDG Faro programme, IAPMEI call plans noted",
+    "pass 8: Portugal 2030 call plan read: the national AI training call for companies excludes the Algarve (finding in extras and gaps); ALGARVE2030 and national R&D calls noted as forecasts; debrief refreshed"
   ],
   "next": [
-    "pass 8: the Portugal 2030 and PRR call plans for open digital or AI calls, members pages 2 to 4 if pagination can be found, a public page for AIA, Dengun at source, investors with readable sources",
-    "a hand-over debrief update before the 07:00 target"
+    "pass 9: members pages 2 to 4, a public page for AIA, Dengun at source, investors with readable sources, the full ALGARVE2030 call list from the plan spreadsheet",
+    "final hand-over check before 07:00 UTC"
   ],
   "asks": [
     "Dinis: Sul Informação, Jornal do Algarve, Postal, AlgarveSTP and Dengun block our reader (403 or a bot challenge), and AIA and Algarve AI Agents publish only on Luma and Meetup, which we may not read. Is there a permitted route, or can Algarve Evolution share public pages or dates for the two AI communities?"
