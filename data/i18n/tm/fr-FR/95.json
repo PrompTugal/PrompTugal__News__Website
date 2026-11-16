@@ -24,11 +24,12 @@
   "ok": false
  },
  "95f5ff3547591dba": {
-  "t": "Une rencontre nationale de la justice administrative à Bragança débat de l'IA dans l'administration publique",
+  "t": "Une rencontre nationale du système judiciaire à Bragança débat de l'IA dans l'administration publique",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "A national court-system meeting in Bragança debates AI in pu",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  }
 }

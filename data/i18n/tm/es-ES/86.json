@@ -15,6 +15,14 @@
   "src": "A project called QI 4.0 uses sensors and machine-learning mo",
   "ok": false
  },
+ "863d8453056fae11": {
+  "t": "El ayuntamiento abre ocho proyectos digitales a las startups y universidades de Oporto en una jornada de pitch",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council opens eight digital projects to Porto's startups",
+  "ok": false
+ },
  "867572ff80be5e8d": {
   "t": "Mapa del Algarve con sus {count} lugares, cada uno enlazado con su sitio",
   "by": "translator@PrompTugal.dinis",

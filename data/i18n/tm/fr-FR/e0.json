@@ -5,7 +5,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The companies, institutions and communities in {name} with a",
-  "ok": false
+  "ok": true
  },
  "e08fafe93f5830d8": {
   "t": "D'après les sources que nous avons pu ouvrir, l'histoire technologique de la municipalité est celle de la mer et du vent. Sagres accueille une entreprise de biotechnologie marine à Porto da Baleeira, un laboratoire marin universitaire dans le même port, et l'observatoire sous-marin MARREAL, une station de caméras et de capteurs à 20 mètres de profondeur qui enregistre des données océaniques en temps réel. L'inventaire des parcs éoliens de l'INEGI et de l'APREN recense des parcs éoliens dans la municipalité, dont un renouvellement d'équipements en 2025. Nous n'avons trouvé aucune actualité sur l'IA, ce qui est la première conclusion de cette page, mais les stations de données océaniques sont l'endroit où un chemin vers l'IA a le plus de chances d'apparaître.",

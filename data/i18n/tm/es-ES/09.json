@@ -38,5 +38,13 @@
   "at": "2026-11-16",
   "src": "Lagoa hosts the pilot of an AI tool that picks sites for rec",
   "ok": false
+ },
+ "09f7175851c6c416": {
+  "t": "Fraunhofer Portugal AICOS lidera la IA del proyecto VineKeeper de identificación de uvas",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Fraunhofer Portugal AICOS leads the AI for the VineKeeper gr",
+  "ok": false
  }
 }

@@ -13,7 +13,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "A Portuguese startup selling an AI agent system to marketing",
-  "ok": false
+  "ok": true
  },
  "6a5b544478ac32f9": {
   "t": "L’écosystème du pôle est au Web Summit Lisbonne, dont neuf start-ups incubées au pôle d’innovation d’InvestBraga. L’article cite ASOagentAI (un agent d’IA de croissance d’applis), eDynamics (des données de mouvement transformées en alertes de risque de blessure), LogisticsWMS (un système d’entrepôt à IA) et Zixago (une infrastructure synthétique pour l’IA).",
@@ -37,6 +37,6 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The 24th EPIA Conference on Artificial Intelligence ran from",
-  "ok": false
+  "ok": true
  }
 }

@@ -1,11 +1,12 @@
 {
  "b2f0c6a97eacc773": {
-  "t": "L’école polytechnique de Bragança accueille une semaine européenne sur l’IA générative dans l’enseignement supérieur",
+  "t": "L’institut polytechnique de Bragança accueille une semaine européenne sur l’IA générative dans l’enseignement supérieur",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Bragança Polytechnic hosts a European week on generative AI ",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "b2fac44c72269f92": {
   "t": "Quarteira fut un vrai village de pêcheurs avant de devenir une ville en 1999, bem chique. Aujourd'hui elle vit de soleil, de mer et de golf, avec Vilamoura à côté dans la même freguesia. Côté gadgets, ce sont les grands de la câmara de Loulé qui tiennent les clés, des permis de construire aux capteurs du Quarteira Lab.",

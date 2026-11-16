@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "PrompTugal.news's own articles about {name} (front matter to",
   "ok": true
+ },
+ "4def806991338441": {
+  "t": "CitiLink zet lange gemeentelijke notulen om in gestructureerde informatie over onderwerpen, standpunten en besluiten. Het werd tussen 2024 en begin 2026 gebouwd door INESC TEC, de Universiteit van Porto en UBI, en betrof Porto en vijf andere gemeenten en Porto Digital. De jury prees de potentie voor transparantie.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "CitiLink turns long municipal minutes into structured inform",
+  "ok": false
  }
 }

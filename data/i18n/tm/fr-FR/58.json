@@ -32,11 +32,12 @@
   "ok": false
  },
  "589fab983110c317": {
-  "t": "Des étudiants de l’école polytechnique ont créé une plateforme qui utilise l’IA pour analyser les règles des Planos Diretores Municipais et montrer permissions, restrictions et incohérences aux architectes, ingénieurs et services d’urbanisme. Elle a remporté la phase régionale du concours Poliempreende.",
+  "t": "Des étudiants de l’institut polytechnique ont créé une plateforme qui utilise l’IA pour analyser les règles des Planos Diretores Municipais et montrer permissions, restrictions et incohérences aux architectes, ingénieurs et services d’urbanisme. Elle a remporté la phase régionale du concours Poliempreende.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Polytechnic students made a platform that uses AI to analyse",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  }
 }

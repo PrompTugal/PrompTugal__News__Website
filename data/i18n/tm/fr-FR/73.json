@@ -23,6 +23,14 @@
   "src": "From 9 to 13 February 2026 the polytechnic received partners",
   "ok": false
  },
+ "73a8f4abec936521": {
+  "t": "Le LIACC de la FEUP lance JurisVis, un outil de recherche par IA pour les avocats portugais",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "FEUP's LIACC launches JurisVis, an AI research tool for Port",
+  "ok": false
+ },
  "73fe08270f43c43a": {
   "t": "Plus de 40 entreprises et institutions ont été annoncées pour l'événement du 1er octobre à l'institut polytechnique, avec une exposition de prototypes et des entreprises telles que Sonae MC, Durit, Moldit et Catraport. La page ne dit pas que l'IA figure au programme.",
   "by": "translator@PrompTugal.dinis",

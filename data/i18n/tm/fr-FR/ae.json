@@ -24,12 +24,13 @@
   "ok": false
  },
  "aead8a7284e4badb": {
-  "t": "PrompTugal.news Castelo Branco suit l’IA et la technologie dans la capitale de la Beira Baixa, la ville de l’école polytechnique qui s’est réveillée un matin d’août en vraie université, et vous dit ce qui lui arrive depuis le Portugal, l’Europe et le monde. Indépendant et sourcé, pá.",
+  "t": "PrompTugal.news Castelo Branco suit l’IA et la technologie dans la capitale de la Beira Baixa, la ville de l’institut polytechnique qui s’est réveillée un matin d’août en vraie université, et vous dit ce qui lui arrive depuis le Portugal, l’Europe et le monde. Indépendant et sourcé, pá.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Castelo Branco follows AI and technology in ",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "aecf2dba708906c1": {
   "t": "L'UTAD contribue à rédiger le premier livre blanc du Portugal sur l'IA dans le journalisme",
@@ -37,7 +38,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "UTAD helps write Portugal's first white paper on AI in journ",
-  "ok": false
+  "ok": true
  },
  "aeed4d26bb5f0c31": {
   "t": "Démarrage",
@@ -45,6 +46,6 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Starting",
-  "ok": false
+  "ok": true
  }
 }

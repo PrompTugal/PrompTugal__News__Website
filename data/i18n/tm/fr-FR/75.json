@@ -1,11 +1,12 @@
 {
  "75188812a79db927": {
-  "t": "Le polytechnique de Setúbal rejoint un réseau de 62 établissements sur l'IA dans l'enseignement",
+  "t": "L’institut polytechnique de Setúbal rejoint un réseau de 62 établissements sur l'IA dans l'enseignement",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Setúbal's polytechnic joins a 62-institution network on AI i",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "7535b17964f78a8c": {
   "t": "Le même lancement, rapporté le 7 juillet : un seul programme pour la récolte, le laboratoire, la qualité, l’entrepôt, les ventes et la facturation, un code QR sur chaque emballage, et un assistant numérique pour les questions d’exploitation. L’article ne nomme pas l’entreprise derrière le logiciel.",

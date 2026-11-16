@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "Pombal drew this town on a grid from 1773 and it was done by",
   "ok": false
+ },
+ "6d9059975da156b0": {
+  "t": "Das Unternehmen, das KI zur Verfolgung von Satelliten und zur Steuerung des Weltraumverkehrs verkauft, schloss eine Runde mit drei privaten Investoren sowie nationalen Aufbaumitteln ab. Mit dem Geld will es seine KI-Plattform, eigene optische Sensoren und einen Verteidigungszweig ausbauen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The company, which sells AI for tracking satellites and mana",
+  "ok": false
  }
 }

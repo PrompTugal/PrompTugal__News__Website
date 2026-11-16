@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "Pombal drew this town on a grid from 1773 and it was done by",
   "ok": false
+ },
+ "6d9059975da156b0": {
+  "t": "A empresa, que vende IA para o seguimento de satélites e a gestão do tráfego espacial, fechou uma ronda com três investidores privados e fundos nacionais de recuperação. Vai usar o dinheiro para fazer crescer a sua plataforma de IA, os seus próprios sensores óticos e um ramo de defesa.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The company, which sells AI for tracking satellites and mana",
+  "ok": false
  }
 }

@@ -21,7 +21,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Castro Marim: we are the last town before Es",
-  "ok": false
+  "ok": true
  },
  "3398caa6a144473d": {
   "t": "L'unité de recherche, associée à Técnico, dirige un centre d'excellence sur l'IA durable et digne de confiance, avec 13 millions d'euros du programme Teaming for Excellence d'Horizon Europe et 14,2 millions de fonds nationaux. L'Institut Max Planck pour les systèmes logiciels et le Centre de recherche allemand pour l'intelligence artificielle sont partenaires.",

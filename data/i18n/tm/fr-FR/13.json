@@ -8,11 +8,12 @@
   "ok": false
  },
  "13e3829c3b71b77d": {
-  "t": "Campo Maior ouvre un centre d'intelligence économique sur les données et l'IA avec le polytechnique de Portalegre",
+  "t": "Campo Maior ouvre un centre d'intelligence économique sur les données et l'IA avec l’institut polytechnique de Portalegre",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Campo Maior opens a data and AI competitive intelligence cen",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  }
 }

@@ -45,7 +45,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Forecasts and warnings for {name}: [IPMA](https://www.ipma.p",
-  "ok": false
+  "ok": true
  },
  "5dfba29d80269e68": {
   "t": "Turismo do Algarve programme des bootcamps sur l’IA et l’eau avec des écoles d’hôtellerie, Faro comprise",

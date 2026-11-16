@@ -1,4 +1,12 @@
 {
+ "de2e4b94f72efbdd": {
+  "t": "L'administration publique teste l'IA dans des projets pilotes avec des chercheurs d'universités de Lisbonne",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Public administration tests AI in pilots with Lisbon univers",
+  "ok": false
+ },
  "de7a070000c11649": {
   "t": "La municipalité approuve un pôle de technologies de drones et de défense à Castelo Branco",
   "by": "translator@PrompTugal.dinis",
@@ -13,7 +21,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The Algarve's local health unit ran a webinar on 15 Septembe",
-  "ok": false
+  "ok": true
  },
  "deeaee853be58992": {
   "t": "Le pôle d'Olhão a ouvert en mai 2021, avec des projets en cours aux côtés de l'Université de l'Algarve, dont des algorithmes d'IA pour l'étude de la rétine.",

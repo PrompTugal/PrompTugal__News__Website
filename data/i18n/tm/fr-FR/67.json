@@ -1,11 +1,12 @@
 {
  "67473c10ba9ec5c9": {
-  "t": "Le 8 avril 2026, l’école de technologie de l’école polytechnique de Guarda a accueilli, dans le cadre de PTCentroDiH, le pôle d’innovation numérique de la région Centre, une session présentant aux entreprises des solutions d’IA et de réalité virtuelle et augmentée. Elle était gratuite, sur inscription, et financée par le plan national de relance.",
+  "t": "Le 8 avril 2026, l’école de technologie de l’institut polytechnique de Guarda a accueilli, dans le cadre de PTCentroDiH, le pôle d’innovation numérique de la région Centre, une session présentant aux entreprises des solutions d’IA et de réalité virtuelle et augmentée. Elle était gratuite, sur inscription, et financée par le plan national de relance.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "On 8 April 2026 the Guarda polytechnic's technology school h",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  },
  "67c1a8e2293feed1": {
   "t": "Un nouveau projet d’école devait ouvrir en septembre 2026 avec collège et lycée en Sciences et Technologies, un apprentissage appliqué aux défis locaux et un centre de recherche qui suit ses méthodes d’enseignement. Jusqu’ici, la plupart des élèves d’Aljezur devaient se rendre à Lagos ou à Portimão après la 9e année. L’article ne mentionne pas l’IA.",

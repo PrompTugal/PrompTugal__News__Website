@@ -1,11 +1,12 @@
 {
  "934fa6d0d0cd4268": {
-  "t": "L’école polytechnique de Guarda pilote un projet Digital PME à un million d’euros pour apporter l’IA aux entreprises",
+  "t": "L’institut polytechnique de Guarda pilote un projet Digital PME à un million d’euros pour apporter l’IA aux entreprises",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Guarda polytechnic leads a one million euro Digital PME proj",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "9390c8c9a07dffca": {
   "t": "La municipalité de Vila Real soutient le mois des bibliothèques scolaires consacré à la littératie et à l'IA",

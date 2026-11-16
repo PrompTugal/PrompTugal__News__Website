@@ -1,11 +1,12 @@
 {
  "f45cb8f9a5c0ac3b": {
-  "t": "L’école polytechnique de Guarda signe un accord sur les drones et la logistique par IA avec une université ukrainienne",
+  "t": "L’institut polytechnique de Guarda signe un accord sur les drones et la logistique par IA avec une université ukrainienne",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Guarda polytechnic signs a drones and AI logistics agreement",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  },
  "f465c2f8959402fa": {
   "t": "Echo Boomer a rapporté que la Nommo Smart Water Pump de Sociedade da Água de Monchique, conçue avec la startup Quantum Leap, apprendrait les habitudes de consommation des foyers et repasserait commande de bouteilles, avec des capteurs contrôlant la qualité de l'eau. Elle était en préproduction, avec une mise sur le marché prévue au premier semestre 2022. Nous n'avons trouvé aucune information confirmant son lancement.",

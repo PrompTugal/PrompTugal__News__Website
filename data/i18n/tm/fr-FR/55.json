@@ -37,7 +37,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Loulé's Som Riscado festival let an AI program direct 25 mus",
-  "ok": false
+  "ok": true
  },
  "556bfcae6f57d4a2": {
   "t": "Viseu, oh pá : du granit jusqu'au fond, une cathédrale qui regarde le Dão d'en haut, et, allez savoir comment, la scène d'IA la plus discrète de la Beira, occupée à écrire des règles et à construire des outils pour veiller sur de vieux musées au lieu de crier sur les toits.",
@@ -48,12 +48,13 @@
   "ok": false
  },
  "558aca3f668596b1": {
-  "t": "PrompTugal.news Bragança, a nossa terra do frio e do castelo : IA et tech à Bragança, avec l’école polytechnique et Brigantia EcoPark comme grands cerveaux, et toute l’actualité qui arrive du Portugal, de l’Europe et du monde. Independente, et chaque fait vient avec son reçu.",
+  "t": "PrompTugal.news Bragança, a nossa terra do frio e do castelo : IA et tech à Bragança, avec l’institut polytechnique et Brigantia EcoPark comme grands cerveaux, et toute l’actualité qui arrive du Portugal, de l’Europe et du monde. Independente, et chaque fait vient avec son reçu.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Bragança, a nossa terra do frio e do castelo",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "55990f357d1c701d": {
   "t": "Olhão est un port de pêche sur la Ria Formosa, et sa technologie passe par la mer. La station piscicole, le laboratoire S2AQUAcoLAB et le fabricant d'aliments SPAROS sont ici, et un Blue Hub sort de terre dans le port. Le chemin de l'IA est étroit mais réel : la nutrition de précision pour les poissons, et une mairie qui a un jour parlé d'IA pour les camions-poubelles.",

@@ -23,6 +23,14 @@
   "src": "Ten more Brazilian firms join Cais do Porto in Aveiro, four ",
   "ok": true
  },
+ "07afd5c1b1a62471": {
+  "t": "Desenvolvido no laboratório de IA da faculdade de engenharia da Universidade do Porto, com uma empresa portuguesa de IA, o sistema usa vários agentes de IA em cooperação, assentes apenas em fontes jurídicas oficiais portuguesas. Foi testado por um pequeno grupo de advogados e está a ser implementado por fases.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Built at the University of Porto engineering faculty's AI la",
+  "ok": false
+ },
  "07cb57e82d52df79": {
   "t": "O AI4Youth Work leva ao UALG TEC Campus um projeto Erasmus+ sobre IA para animadores de juventude",
   "by": "translator@PrompTugal.dinis",

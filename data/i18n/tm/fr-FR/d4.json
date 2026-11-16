@@ -21,7 +21,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Castro Marim's council puts AI into its planning office road",
-  "ok": false
+  "ok": true
  },
  "d433d5f738a25f31": {
   "t": "Alcoutim investit 456 000 euros dans la numérisation de ses services municipaux",
@@ -48,12 +48,13 @@
   "ok": false
  },
  "d45aa1cda74a1860": {
-  "t": "Bragança, ó pá : là où le donjon veille sur les châtaigniers, où les hivers mordent et où l’école polytechnique apprend tranquillement à tout le nord à parler aux machines, pendant que le parc scientifique garde un supercalculateur en numérotation rapide.",
+  "t": "Bragança, ó pá : là où le donjon veille sur les châtaigniers, où les hivers mordent et où l’institut polytechnique apprend tranquillement à tout le nord à parler aux machines, pendant que le parc scientifique garde un supercalculateur en numérotation rapide.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Bragança, ó pá: where the keep stands guard over the chestnu",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "d4908b4fd6bb7256": {
   "t": "PACT clôture son projet AIRA après avoir formé plus de 500 personnes à l'IA pour la robotique",

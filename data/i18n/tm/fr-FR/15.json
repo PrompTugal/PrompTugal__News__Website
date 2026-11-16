@@ -7,6 +7,14 @@
   "src": "PrompTugal.news Vila Real de Santo António: AI and technolog",
   "ok": false
  },
+ "15084161eca6ade6": {
+  "t": "La 17e édition du concours d'idées s'est achevée le 29 octobre au centre AICOS de Porto. Parmi les lauréats figuraient une détection de drones par modèles d'IA, une méthode d'IA pour prédire le mouvement du cerveau pendant une chirurgie de tumeur et un outil d'IA et de vision par ordinateur conçu par un étudiant pour la sécurité scolaire.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 17th edition of the ideas competition closed on 29 Octob",
+  "ok": false
+ },
  "1508f7d090589c03": {
   "t": "Turismo do Algarve organise un bootcamp gratuit sur l’IA pour les professionnels du tourisme",
   "by": "translator@PrompTugal.dinis",
@@ -16,12 +24,13 @@
   "ok": false
  },
  "152ae9199ac5e5bd": {
-  "t": "Le polytechnique dirige un projet avec les universités d'Aveiro et la faculté d'ingénierie de Porto pour construire un modèle virtuel d'un bâtiment patrimonial qui utilise des photographies, des images thermiques et des capteurs pour signaler les risques de dégradation. Le Musée national Grão Vasco de Viseu est l'une des deux études de cas, et le gestionnaire du bâtiment décide jusqu'où l'IA agit.",
+  "t": "L’institut polytechnique dirige un projet avec les universités d'Aveiro et la faculté d'ingénierie de Porto pour construire un modèle virtuel d'un bâtiment patrimonial qui utilise des photographies, des images thermiques et des capteurs pour signaler les risques de dégradation. Le Musée national Grão Vasco de Viseu est l'une des deux études de cas, et le gestionnaire du bâtiment décide jusqu'où l'IA agit.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The polytechnic leads a project with the universities of Ave",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "153080263941a459": {
   "t": "Au salon Science for Industry, l'institut a présenté DBoidS, qui associe jumeaux numériques et IA contre les incendies de forêt, et CERAMIND, qui utilise l'IA pour repérer les défauts dans la céramique.",
@@ -29,7 +38,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "At the Science for Industry fair the institute showed DBoidS",
-  "ok": false
+  "ok": true
  },
  "15bd45b70554b692": {
   "t": "Ovibeja 2025 place l'IA en agriculture au cœur de la foire",

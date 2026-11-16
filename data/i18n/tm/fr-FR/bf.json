@@ -16,12 +16,13 @@
   "ok": false
  },
  "bf53a29e71668f9d": {
-  "t": "Guarda garde son IA tout près de l’école polytechnique, comme une bonne couverture. La licence en science des données, le projet Digital PME à un million d’euros et l’accord sur les drones avec l’Ukraine tiennent tous sous le même toit, pendant que la Câmara veille sur l’orgue de la Sé et la fête d’anniversaire et que les entreprises privées se font surtout discrètes. Une capitale mince, sim senhor, mais solide.",
+  "t": "Guarda garde son IA tout près de l’institut polytechnique, comme une bonne couverture. La licence en science des données, le projet Digital PME à un million d’euros et l’accord sur les drones avec l’Ukraine tiennent tous sous le même toit, pendant que la Câmara veille sur l’orgue de la Sé et la fête d’anniversaire et que les entreprises privées se font surtout discrètes. Une capitale mince, sim senhor, mais solide.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Guarda keeps its AI close to the polytechnic, like a good bl",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "bf83eb91261331ba": {
   "t": "Des adolescents de Setúbal se demandent comment l'IA peut construire des entreprises plus durables",

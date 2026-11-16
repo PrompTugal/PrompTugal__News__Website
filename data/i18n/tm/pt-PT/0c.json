@@ -7,6 +7,14 @@
   "src": "Center for Responsible AI changed hands after Unbabel's fall",
   "ok": false
  },
+ "0c9f9578fd1c4da1": {
+  "t": "O modelo final de código aberto foi apresentado a 1 de julho, após 18 meses e 5,5 milhões de euros do plano de recuperação. Foi coordenado em Lisboa, e equipas da FCUP, da FEUP, da FLUP e do INESC TEC, no Porto, contribuíram com demonstradores em português europeu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The final open-source model was presented on 1 July after 18",
+  "ok": false
+ },
  "0cd7f8fd0ec7c734": {
   "t": "Os agentes por trás do PrompTugal.news {name}, só a partir do registo: o status.json de cada agente, os seus últimos commits neste lugar e os seus relatórios de execução. Primeiro o agente do próprio lugar, depois os agentes que constroem todos os lugares.",
   "by": "translator@PrompTugal.dinis",

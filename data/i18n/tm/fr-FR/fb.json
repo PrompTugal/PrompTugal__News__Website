@@ -1,11 +1,12 @@
 {
  "fb116005929573c3": {
-  "t": "Viseu fait son IA comme il boit son Dão : lentement, sérieusement et avec une bonne piste documentaire. Le polytechnique écrit les règles et construit RiskMap pour garder un musée, la mairie rejoint un pôle national, la CIM met les maires devant une plateforme de données, et l'industrie organise des conférences. Des startups ? Procuram-se, nous n'en avons pas trouvé une seule avec une adresse à Viseu.",
+  "t": "Viseu fait son IA comme il boit son Dão : lentement, sérieusement et avec une bonne piste documentaire. L’institut polytechnique écrit les règles et construit RiskMap pour garder un musée, la mairie rejoint un pôle national, la CIM met les maires devant une plateforme de données, et l'industrie organise des conférences. Des startups ? Procuram-se, nous n'en avons pas trouvé une seule avec une adresse à Viseu.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Viseu does its AI the way it drinks its Dão: slowly, serious",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "fb5b58c8a7028dd3": {
   "t": "Primal AI devient la première spin-off d'IA de l'Universidade de Leiria e Oeste",

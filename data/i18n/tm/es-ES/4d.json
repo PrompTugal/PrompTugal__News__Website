@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "PrompTugal.news's own articles about {name} (front matter to",
   "ok": true
+ },
+ "4def806991338441": {
+  "t": "CitiLink convierte largas actas municipales en información estructurada sobre temas, posiciones y decisiones. Desarrollado por INESC TEC, la Universidad de Oporto y la UBI entre 2024 y principios de 2026, participaron Oporto, otros cinco municipios y Porto Digital. El jurado elogió su potencial para la transparencia.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "CitiLink turns long municipal minutes into structured inform",
+  "ok": false
  }
 }

@@ -24,11 +24,12 @@
   "ok": false
  },
  "a8dcd1153a708a4e": {
-  "t": "L’activité IA de Bragança s’organise autour de deux voisins : l’école polytechnique (l’IPB, que son nouveau site appelle désormais Universidade Politécnica de Bragança et que le gouvernement transforme en Universidade de Bragança e do Norte Interior) et Brigantia EcoPark, le pôle scientifique et technologique qui abrite le laboratoire de recherche MORE CoLAB. Le centre de recherche CeDRI, les cours et séminaires d’IA et la session d’avril 2026 sur la BSC AI Factory viennent tous de ce duo, la mairie jouant le rôle de soutien. La page d’actualités de la mairie ne montre aucun sujet d’IA ; la recherche et le parc, et non l’hôtel de ville, sont donc le centre de gravité.",
+  "t": "L’activité IA de Bragança s’organise autour de deux voisins : l’institut polytechnique (l’IPB, que son nouveau site appelle désormais Universidade Politécnica de Bragança et que le gouvernement transforme en Universidade de Bragança e do Norte Interior) et Brigantia EcoPark, le pôle scientifique et technologique qui abrite le laboratoire de recherche MORE CoLAB. Le centre de recherche CeDRI, les cours et séminaires d’IA et la session d’avril 2026 sur la BSC AI Factory viennent tous de ce duo, la mairie jouant le rôle de soutien. La page d’actualités de la mairie ne montre aucun sujet d’IA ; la recherche et le parc, et non l’hôtel de ville, sont donc le centre de gravité.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Bragança's AI activity sits around two neighbours: the polyt",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  }
 }

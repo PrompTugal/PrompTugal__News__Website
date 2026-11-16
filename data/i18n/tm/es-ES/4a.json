@@ -1,4 +1,12 @@
 {
+ "4a40428649b3f526": {
+  "t": "Oporto lleva dos charlas sobre IA al Smart City Expo de Barcelona",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Porto takes two AI talks to the Smart City Expo in Barcelona",
+  "ok": false
+ },
  "4a60c4fe3a36c18c": {
   "t": "En una reunión de innovación de la CCDR Algarve sobre digitalización y TIC, el coordinador de SmartCity:Lagoa describió los límites de llevar la IA al gobierno local: capacidad de procesamiento, ley de protección de datos, tratamiento de datos sin conexión y necesidad de un centro de datos. El programa también incluye una charla sobre una solución de modelo de lenguaje de gran tamaño para los municipios del Algarve.",
   "by": "translator@PrompTugal.dinis",

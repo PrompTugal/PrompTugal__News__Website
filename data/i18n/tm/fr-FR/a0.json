@@ -40,11 +40,12 @@
   "ok": false
  },
  "a0d37ad2b10c1b7a": {
-  "t": "Le polytechnique de Setúbal ouvre le premier pôle national de l'institut CCG/ZGDV",
+  "t": "L’institut polytechnique de Setúbal ouvre le premier pôle national de l'institut CCG/ZGDV",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Setúbal's polytechnic opens the first national pole of the C",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  }
 }

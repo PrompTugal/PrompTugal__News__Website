@@ -8,12 +8,13 @@
   "ok": false
  },
  "d9604c6005b9efcc": {
-  "t": "PrompTugal.news Viseu, a cidade do Grão Vasco : l'IA et la tech à Viseu, avec le polytechnique dans le rôle du grand cerveau sur la colline, la mairie et la CIM qui font parler les données, et toute l'actualité qui arrive du Portugal et du monde. Independente, et chaque fait vient avec son reçu.",
+  "t": "PrompTugal.news Viseu, a cidade do Grão Vasco : l'IA et la tech à Viseu, avec l’institut polytechnique dans le rôle du grand cerveau sur la colline, la mairie et la CIM qui font parler les données, et toute l'actualité qui arrive du Portugal et du monde. Independente, et chaque fait vient avec son reçu.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Viseu, a cidade do Grão Vasco: AI and tech i",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "d98cdb0f3f825638": {
   "t": "ATTENTIA, un projet transfrontalier Interreg, applique l'IA et la robotique à la gestion des cultures d'agrumes en Andalousie et dans la zone Algarve-Alentejo. Il est dirigé par l'Université de Huelva avec l'Université de l'Algarve et l'Université de Séville, et court du 1er septembre 2023 au 31 décembre 2026. La fiche du projet ne nomme pas Silves.",

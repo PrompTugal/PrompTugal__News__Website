@@ -32,12 +32,13 @@
   "ok": true
  },
  "d5c27fdac82bc391": {
-  "t": "PrompTugal.news Castelo Branco : IA et technologie à Castelo Branco, capitale de district de la Beira Baixa dont le centre de gravité est son école polytechnique, devenue Universidade Politécnica de Castelo Branco, et un petit cercle d’entreprises technologiques locales, et ce qui arrive à Castelo Branco depuis le Portugal, l’Europe et le monde. Indépendant. Chaque fait sourcé.",
+  "t": "PrompTugal.news Castelo Branco : IA et technologie à Castelo Branco, capitale de district de la Beira Baixa dont le centre de gravité est son institut polytechnique, devenue Universidade Politécnica de Castelo Branco, et un petit cercle d’entreprises technologiques locales, et ce qui arrive à Castelo Branco depuis le Portugal, l’Europe et le monde. Indépendant. Chaque fait sourcé.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Castelo Branco: AI and technology in Castelo",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "d5c86e462451b6fc": {
   "t": "Les 17 lieux de la première vague, chacun dans sa couleur. Un point plein est un site en ligne, un anneau un site encore en cours de recherche. Touchez un lieu pour ouvrir son site.",

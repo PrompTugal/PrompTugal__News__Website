@@ -1,4 +1,12 @@
 {
+ "4a40428649b3f526": {
+  "t": "Porto bringt zwei KI-Vorträge zur Smart City Expo nach Barcelona",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Porto takes two AI talks to the Smart City Expo in Barcelona",
+  "ok": false
+ },
  "4a60c4fe3a36c18c": {
   "t": "Bei einem Innovationstreffen der CCDR Algarve zu Digitalisierung und IKT beschrieb der Koordinator von SmartCity:Lagoa die Grenzen, KI in die Kommunalverwaltung zu bringen: Verarbeitungskapazität, Datenschutzrecht, Offline-Datenverarbeitung und der Bedarf an einem Rechenzentrum. Das Programm führt außerdem einen Vortrag zu einer Lösung mit einem großen Sprachmodell für die Gemeinden der Algarve auf.",
   "by": "translator@PrompTugal.dinis",

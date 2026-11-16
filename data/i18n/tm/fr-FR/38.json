@@ -1,4 +1,12 @@
 {
+ "3851d984faf9d02a": {
+  "t": "Le projet CitiLink de Porto, une IA qui structure les procès-verbaux des conseils municipaux, remporte un prix national",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Porto's CitiLink project, AI that structures council meeting",
+  "ok": false
+ },
  "3856b4c778bcdc4a": {
   "t": "PrompTugal.news Portimão : l'IA et la technologie à Portimão, une mairie et une société des eaux qui mettent l'IA au service des services publics, un incubateur de ville intelligente et un institut privé d'enseignement supérieur, et ce qui arrive à Portimão depuis l'Algarve, le Portugal et le monde. Indépendant ; chaque fait est sourcé.",
   "by": "translator@PrompTugal.dinis",
@@ -21,7 +29,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Vila Real's children's assembly debates AI",
-  "ok": false
+  "ok": true
  },
  "38726af755a9041b": {
   "t": "**L’identité de ce site :** {key} dans [board/keys.json]({keys}) ; la signature de `{file}` n’a pas pu être vérifiée.",

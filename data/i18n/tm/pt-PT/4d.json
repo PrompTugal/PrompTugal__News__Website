@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "PrompTugal.news's own articles about {name} (front matter to",
   "ok": true
+ },
+ "4def806991338441": {
+  "t": "O CitiLink transforma atas municipais extensas em informação estruturada sobre temas, posições e decisões. Desenvolvido pelo INESC TEC, pela Universidade do Porto e pela UBI entre 2024 e o início de 2026, envolveu o Porto e outros cinco municípios, bem como a Porto Digital. O júri elogiou o seu potencial para a transparência.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "CitiLink turns long municipal minutes into structured inform",
+  "ok": false
  }
 }

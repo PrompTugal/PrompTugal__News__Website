@@ -5,7 +5,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing p",
-  "ok": false
+  "ok": true
  },
  "288052c59a959663": {
   "t": "Voici ce que nous n’avons pas trouvé, et oui, nous avons aussi regardé derrière les bateaux de pêche.",
@@ -16,11 +16,12 @@
   "ok": false
  },
  "2882368f396e7680": {
-  "t": "Lors d’un stage à la mairie de Lagoa, un étudiant de l’école polytechnique de Beja a construit un prototype qui prédit la classe de l’indice européen de qualité de l’air à partir de dix stations de mesure et de données météo. Il a soutenu le travail le 27 novembre 2025 à l’école de technologie et de gestion de Beja, et l’équipe prévoit un article scientifique.",
+  "t": "Lors d’un stage à la mairie de Lagoa, un étudiant de l’institut polytechnique de Beja a construit un prototype qui prédit la classe de l’indice européen de qualité de l’air à partir de dix stations de mesure et de données météo. Il a soutenu le travail le 27 novembre 2025 à l’école de technologie et de gestion de Beja, et l’équipe prévoit un article scientifique.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "During an internship with Lagoa council, a student of the Be",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  }
 }

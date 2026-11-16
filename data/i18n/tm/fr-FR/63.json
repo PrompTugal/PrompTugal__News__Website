@@ -40,11 +40,12 @@
   "ok": false
  },
  "63e5eb9a2ca1e1e8": {
-  "t": "PrompTugal.news Portalegre, a nossa capital do Alto Alentejo : l'IA et la tech à Portalegre, avec le polytechnique en grand métier à tisser, et toute l'actualité qui arrive de l'Alentejo, du Portugal et du monde. Independente, et chaque fait vient avec son reçu.",
+  "t": "PrompTugal.news Portalegre, a nossa capital do Alto Alentejo : l'IA et la tech à Portalegre, avec l’institut polytechnique en grand métier à tisser, et toute l'actualité qui arrive de l'Alentejo, du Portugal et du monde. Independente, et chaque fait vient avec son reçu.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Portalegre, a nossa capital do Alto Alentejo",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  }
 }

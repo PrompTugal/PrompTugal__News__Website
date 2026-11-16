@@ -1,11 +1,12 @@
 {
  "52a3442ebff23e77": {
-  "t": "Portalegre, ó pá : une ville de granit et de tapisserie sur sa colline, où la laine a été teinte à la main pendant des siècles, et où le polytechnique apprend désormais aux capteurs et aux chatbots à vivre dans une ferme, tandis que l'Espagne attend poliment juste derrière la colline.",
+  "t": "Portalegre, ó pá : une ville de granit et de tapisserie sur sa colline, où la laine a été teinte à la main pendant des siècles, et où l’institut polytechnique apprend désormais aux capteurs et aux chatbots à vivre dans une ferme, tandis que l'Espagne attend poliment juste derrière la colline.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Portalegre, ó pá: a hill town of granite and tapestry where ",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "52c7ce0be499b3ee": {
   "t": "Algarve Evolution ouvre les candidatures de son pilote IA et robotique pour les PME du tourisme",

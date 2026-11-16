@@ -1,4 +1,12 @@
 {
+ "8e0758eec1466fc9": {
+  "t": "En juin 2026, l'institut de Coimbra a commencé à exploiter l'accélérateur national au sein du réseau d'innovation de défense de l'OTAN. L'intelligence artificielle est le premier domaine prioritaire de la liste, et deux start-ups incubées par l'IPN, dont l'entreprise d'IA Neuraspace, venaient d'être sélectionnées au niveau national.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "In June 2026 the Coimbra institute began operating the natio",
+  "ok": false
+ },
  "8e11d3d8c11ed4de": {
   "t": "Une conférence d’une journée dans la grande salle de la mairie, le 15 juin 2026, a porté sur le nouveau décret d’urbanisme et sur l’effet de l’IA et de la décision automatique sur les démarches d’urbanisme, avec un intervenant de l’université de Porto sur l’IA dans la gestion du territoire.",
   "by": "translator@PrompTugal.dinis",
@@ -21,6 +29,6 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Spain",
-  "ok": false
+  "ok": true
  }
 }

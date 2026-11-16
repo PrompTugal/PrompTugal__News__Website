@@ -21,7 +21,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The Loulé resort launched a multilingual AI concierge availa",
-  "ok": false
+  "ok": true
  },
  "0866f7bec2f62bae": {
   "t": "Nscale prévoit plus de 66 000 GPU NVIDIA Rubin pour Microsoft sur le campus de données de Sines",

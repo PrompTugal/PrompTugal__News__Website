@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "PrompTugal.news Albufeira: AI and technology in Albufeira, a",
   "ok": false
+ },
+ "9b9fbd15b8b80f2a": {
+  "t": "Teams der Universität Porto helfen beim Bau von AMALIA, Portugals staatlich gefördertem Sprachmodell",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Porto teams help build AMALIA, Portugal's stat",
+  "ok": false
  }
 }

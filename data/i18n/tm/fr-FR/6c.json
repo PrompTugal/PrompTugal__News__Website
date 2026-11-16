@@ -13,23 +13,25 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Braga council plans 1.5 million euros to bring AI into its d",
-  "ok": false
+  "ok": true
  },
  "6caddd1e6a0570e5": {
-  "t": "Le portail national du plan de relance recense un projet à Viana do Castelo, mené par le polytechnique avec Data CoLAB, qui utilise l'IA, le traitement automatique du langage, l'IA générative et la science des données pour construire un système numérique interactif. Il s'est déroulé du 1er mai 2025 au 31 janvier 2026 avec environ 39 800 euros de financement.",
+  "t": "Le portail national du plan de relance recense un projet à Viana do Castelo, mené par l’institut polytechnique avec Data CoLAB, qui utilise l'IA, le traitement automatique du langage, l'IA générative et la science des données pour construire un système numérique interactif. Il s'est déroulé du 1er mai 2025 au 31 janvier 2026 avec environ 39 800 euros de financement.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The national recovery-plan portal lists a project in Viana d",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "6cc2bdab90a9cd8b": {
-  "t": "Le Conseil des ministres s’est réuni à Bragança le 9 septembre 2026 et a franchi l’étape suivante pour transformer l’école polytechnique en université. La même réunion a approuvé un nouveau cadre du système de science et d’innovation qui fait de l’IA une priorité stratégique. La page ne donne aucun budget pour l’université.",
+  "t": "Le Conseil des ministres s’est réuni à Bragança le 9 septembre 2026 et a franchi l’étape suivante pour transformer l’institut polytechnique en université. La même réunion a approuvé un nouveau cadre du système de science et d’innovation qui fait de l’IA une priorité stratégique. La page ne donne aucun budget pour l’université.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The Council of Ministers met in Bragança on 9 September 2026",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "6cc66b24e4ff82d0": {
   "t": "La startup utilise l'IA pour aider les petites et moyennes entreprises à trouver des financements publics, préparer leurs candidatures et gérer leurs projets. Le tour a été mené par 3XP Global avec des fonds de la Banco Português de Fomento, et l'équipe prévoit de plus que doubler ses effectifs d'ici la fin de l'année et d'entrer en Espagne, en Allemagne et en Italie.",

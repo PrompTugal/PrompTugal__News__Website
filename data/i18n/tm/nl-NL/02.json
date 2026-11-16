@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "Silves is a big, mostly countryside concelho with six fregue",
   "ok": false
+ },
+ "02d1234834fc64ae": {
+  "t": "Het digitale orgaan van de stad, Porto Digital, presenteerde AI-onderzoek voor stedelijke innovatie en een hackathon over het betrouwbaar maken van generatieve AI voor stedelijke systemen. De gemeente zegt dat Porto momenteel de rol van secretaris-generaal van de Cities Coalition for Digital Rights vervult, die verantwoorde AI omvat.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The city's digital body Porto Digital presented AI research ",
+  "ok": false
  }
 }

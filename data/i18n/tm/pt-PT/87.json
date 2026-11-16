@@ -15,6 +15,14 @@
   "src": "Leiria, pá: a castle on the hill, moulds in the valley and, ",
   "ok": false
  },
+ "87853f834b85e989": {
+  "t": "A empresa de software sediada em Coimbra é o único parceiro português num consórcio de 26 membros e vai conceber uma plataforma de operações de machine learning para integrar modelos de IA no software do sistema de mísseis. O projeto, com a duração de três anos, deveria arrancar no último trimestre de 2025.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Coimbra-based software company is the only Portuguese pa",
+  "ok": false
+ },
  "87ff377857174ef8": {
   "t": "PrompTugal.news Viana do Castelo, a Princesa do Lima: IA e tecnologia em Viana, com o Politécnico e o Data CoLAB como cabeças inteligentes e uma fábrica nova e reluzente a zumbir para os centros de dados, e as notícias que navegam até cá vindas do Alto Minho, de Portugal e do mundo. Independente, e cada facto vem com recibo.",
   "by": "translator@PrompTugal.dinis",

@@ -40,12 +40,13 @@
   "ok": false
  },
  "cc855833fcf82e4d": {
-  "t": "PrompTugal.news Bragança : IA et technologie à Bragança, capitale de district du nord-est dont le centre de gravité est son école polytechnique et son parc scientifique, Brigantia EcoPark, et ce qui arrive à Bragança depuis le Portugal, l’Europe et le monde. Indépendant ; chaque fait sourcé.",
+  "t": "PrompTugal.news Bragança : IA et technologie à Bragança, capitale de district du nord-est dont le centre de gravité est son institut polytechnique et son parc scientifique, Brigantia EcoPark, et ce qui arrive à Bragança depuis le Portugal, l’Europe et le monde. Indépendant ; chaque fait sourcé.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Bragança: AI and technology in Bragança, a n",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "cca58c3bf0354fd1": {
   "t": "Le Portugal approuve son Agenda national de l'IA et un plan d'action jusqu'en 2030",
@@ -56,11 +57,12 @@
   "ok": false
  },
  "cce7313ca509fea5": {
-  "t": "Le polytechnique de Viseu organise une deuxième édition de son cours d'IA générative pour les enseignants du supérieur",
+  "t": "L’institut polytechnique de Viseu organise une deuxième édition de son cours d'IA générative pour les enseignants du supérieur",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Viseu's polytechnic runs a second edition of its generative ",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  }
 }

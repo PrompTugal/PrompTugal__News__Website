@@ -24,11 +24,12 @@
   "ok": false
  },
  "b1fc627f2a07a828": {
-  "t": "ADiT-Lab, unité de recherche du polytechnique, a tenu le 8 avril 2026 une conférence gratuite intitulée Digital Transformation: Building AI-Driven Organizations, avec une keynote et un think tank. Les intervenants ont convenu que l'accent est désormais mis sur un usage critique, responsable et stratégique de l'IA.",
+  "t": "ADiT-Lab, unité de recherche de l’institut polytechnique, a tenu le 8 avril 2026 une conférence gratuite intitulée Digital Transformation: Building AI-Driven Organizations, avec une keynote et un think tank. Les intervenants ont convenu que l'accent est désormais mis sur un usage critique, responsable et stratégique de l'IA.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "ADiT-Lab, a research unit of the polytechnic, held a free co",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  }
 }

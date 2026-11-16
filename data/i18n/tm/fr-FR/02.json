@@ -22,5 +22,13 @@
   "at": "2026-11-16",
   "src": "Silves is a big, mostly countryside concelho with six fregue",
   "ok": false
+ },
+ "02d1234834fc64ae": {
+  "t": "L'organisme numérique de la ville, Porto Digital, a présenté des travaux de recherche en IA pour l'innovation urbaine et un hackathon sur les moyens de rendre l'IA générative digne de confiance pour les systèmes municipaux. La municipalité indique que Porto assume actuellement le secrétariat général de la Cities Coalition for Digital Rights, qui couvre l'IA responsable.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The city's digital body Porto Digital presented AI research ",
+  "ok": false
  }
 }

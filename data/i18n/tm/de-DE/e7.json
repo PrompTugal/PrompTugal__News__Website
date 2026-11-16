@@ -15,6 +15,14 @@
   "src": "Viana do Castelo, ai Jesus: a basilica on the hill, a river ",
   "ok": false
  },
+ "e7f26edd2ea41eb9": {
+  "t": "Die Regierung plant einen Pilotversuch in wenigen Gemeinden, die technologisch bereits bereit sind, mit KI als einheitlicher Zugangsebene über den Plattformen der Gemeinden, beginnend mit Baugenehmigungen. Coimbra wird als Teil der ersten Phase genannt; sein Bürgermeister sagte, KI könne Verfahren beschleunigen und dabei die Planungsvorschriften einhalten, ohne öffentliche Dienste zu entmenschlichen.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The government plans a pilot in a small number of municipali",
+  "ok": false
+ },
  "e7f72e1b48d63a7d": {
   "t": "Visualforma, ein Unternehmen aus Faro, beschrieb ein Bewässerungssteuerungssystem für Grünflächen, entwickelt mit Itelmatis und der Universität der Algarve und in Loulé getestet, das Felddaten nutzt, um das Gießen zu optimieren, mit einem geplanten Modul für KI und maschinelles Lernen. Das ist eine ältere Nachricht vom April 2023.",
   "by": "translator@PrompTugal.dinis",

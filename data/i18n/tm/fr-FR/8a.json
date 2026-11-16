@@ -8,12 +8,13 @@
   "ok": false
  },
  "8a204bfa45be2126": {
-  "t": "Le premier Blended Intensive Programme sur le sujet, coordonné par l’école polytechnique avec des partenaires en Suède, en Allemagne, en France, en Espagne et au Kosovo, a tenu sa semaine en présentiel à Bragança du 13 au 17 juillet avec plus de 30 participants. L’accent portait sur l’éthique et sur l’usage de l’IA générative dans l’enseignement, la recherche et la gestion.",
+  "t": "Le premier Blended Intensive Programme sur le sujet, coordonné par l’institut polytechnique avec des partenaires en Suède, en Allemagne, en France, en Espagne et au Kosovo, a tenu sa semaine en présentiel à Bragança du 13 au 17 juillet avec plus de 30 participants. L’accent portait sur l’éthique et sur l’usage de l’IA générative dans l’enseignement, la recherche et la gestion.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The first Blended Intensive Programme on the subject, coordi",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "8a79014ba1fc03b8": {
   "t": "Le gouvernement lance l’Universidade de Bragança e do Norte Interior et fait de l’IA une priorité scientifique",

@@ -1,4 +1,12 @@
 {
+ "2b08c105c78338e0": {
+  "t": "L'activité IA de Porto s'organise autour d'UPTEC, le parc scientifique de l'université de Porto, où un rapport de 2025 a recensé au moins cinq start-ups d'IA dans la santé, l'industrie et la restauration, où un programme de calcul haute performance portugais et européen (la BSC AI Factory) a lancé un cycle d'incubation en IA en octobre 2026, et où Granter a levé 1,6 million d'euros en novembre. Autour gravitent un fonds de capital-risque de Porto (33N), une école de commerce (Porto Business School), une communauté d'IA marketing (AIhub) et Porto Digital, l'organisme numérique de la ville, qui décrit une IA pour la prévision du trafic et des flux selon une règle de « pas de boîte noire » et a emmené deux conférences sur l'IA au Smart City Expo de Barcelone en novembre 2026. Le Global Startup Ecosystem Report 2026 cite l'IA parmi quatre moteurs de croissance. Le socle universitaire et de recherche plus large ajoute le laboratoire LIACC de la FEUP, l'institut de recherche INESC TEC (qui a accueilli l'AI, Data and Robotics Forum à Porto en octobre 2026) et Fraunhofer Portugal AICOS.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Porto's AI activity clusters around UPTEC, the science park ",
+  "ok": false
+ },
  "2b7b9ad9a81e640c": {
   "t": "L'histoire technologique de Santarém est agroalimentaire. La mairie et l'Universidade Politécnica de Santarém, avec l'ISLA Santarém, l'INIAV et le parc des expositions CNEMA, construisent Campus Tejo, un parc scientifique et technologique sur l'eau, l'agro et les sciences de la vie présenté au Web Summit Lisbonne le 12 novembre 2026. Les pages que nous avons lues ne disent pas que Campus Tejo utilise l'IA ; son lien avec l'IA est donc une courte inférence via l'agriculture de précision et la numérisation. L'activité directe d'IA est plus modeste et éparse : un projet d'IA de 100 000 euros financé par le PRR à l'ISLA Santarém, des sessions sur les entreprises et la santé au CNEMA, et un programme d'IA en agriculture lors d'une réunion de producteurs de myrtilles.",
   "by": "translator@PrompTugal.dinis",
@@ -8,12 +16,13 @@
   "ok": false
  },
  "2b849e5e92cfc33b": {
-  "t": "Guarda, ó pá : assez froide pour geler un serveur, têtue comme le granit, et siège d’une école polytechnique qui apprend tranquillement aux machines et a appris à quelques étudiants à lire le PDM avant les architectes.",
+  "t": "Guarda, ó pá : assez froide pour geler un serveur, têtue comme le granit, et siège d’un institut polytechnique qui apprend tranquillement aux machines et a appris à quelques étudiants à lire le PDM avant les architectes.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Guarda, ó pá: cold enough to freeze a server, stubborn as gr",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "2bfcc1a9bf2f5a48": {
   "t": "Ses étudiants et son personnel obtiennent un accès gratuit aux versions pro de trois grands modèles de langage via le service IAedu de la FCT, que l’institution présente comme un pas vers un usage responsable et collaboratif de l’IA.",

@@ -32,11 +32,12 @@
   "ok": false
  },
  "e4fe16d03118e8e3": {
-  "t": "Beja, pá : là où la plaine s’étend à plat jusqu’à l’horizon, où la chaleur s’installe pour l’après-midi, et où une école polytechnique apprend tranquillement à des robots à compter les moutons et aux fromages à bien se tenir.",
+  "t": "Beja, pá : là où la plaine s’étend à plat jusqu’à l’horizon, où la chaleur s’installe pour l’après-midi, et où un institut polytechnique apprend tranquillement à des robots à compter les moutons et aux fromages à bien se tenir.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Beja, pá: where the plain runs flat to the horizon, the heat",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  }
 }

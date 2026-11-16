@@ -24,12 +24,13 @@
   "ok": false
  },
  "439f8b171682bc1b": {
-  "t": "La deuxième édition a eu lieu le 12 février 2026 à l'école de technologie et de gestion du polytechnique, organisée par CESAE Digital, avec des interventions sur l'impact stratégique de l'IA sur les entreprises, l'IA dans le marketing et le conseil, et des cas pratiques d'automatisation.",
+  "t": "La deuxième édition a eu lieu le 12 février 2026 à l'école de technologie et de gestion de l’institut polytechnique, organisée par CESAE Digital, avec des interventions sur l'impact stratégique de l'IA sur les entreprises, l'IA dans le marketing et le conseil, et des cas pratiques d'automatisation.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The second edition took place on 12 February 2026 at the pol",
-  "ok": false
+  "ok": false,
+  "rev": "term fix: polytechnic as institut polytechnique, with gender (translator@, 16 Nov); not yet second-passed"
  },
  "43bac9d8d5283da3": {
   "t": "dstelecom amène la fibre à 1 000 foyers de plus à Alcoutim",
@@ -53,7 +54,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "On 18 September 2026 the university and the Fulbright Commis",
-  "ok": false
+  "ok": true
  },
  "43ea99aecc63d423": {
   "t": "Après la conférence sur l’IA EPIA 2025 à l’université, les deux partenaires ont dit vouloir relier entrepreneurs, industrie et enseignement supérieur dans un cluster d’IA et attirer des talents dans le sud du Portugal.",

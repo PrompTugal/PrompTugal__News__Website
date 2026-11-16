@@ -23,6 +23,14 @@
   "src": "Ten more Brazilian firms join Cais do Porto in Aveiro, four ",
   "ok": true
  },
+ "07afd5c1b1a62471": {
+  "t": "Das System wurde im KI-Labor der Ingenieurfakultät der Universität Porto mit einem portugiesischen KI-Unternehmen entwickelt und nutzt mehrere zusammenarbeitende KI-Agenten, die sich ausschließlich auf offizielle portugiesische Rechtsquellen stützen. Es wurde von einer kleinen Gruppe von Anwälten getestet und wird in Phasen eingeführt.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Built at the University of Porto engineering faculty's AI la",
+  "ok": false
+ },
  "07cb57e82d52df79": {
   "t": "AI4Youth Work bringt ein Erasmus+-Projekt zu KI für Jugendarbeitende auf den UALG TEC Campus",
   "by": "translator@PrompTugal.dinis",

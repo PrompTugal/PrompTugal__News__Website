@@ -15,6 +15,14 @@
   "src": "A project called QI 4.0 uses sensors and machine-learning mo",
   "ok": false
  },
+ "863d8453056fae11": {
+  "t": "La municipalité ouvre huit projets numériques aux start-ups et aux universités de Porto lors d'une journée de pitch",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council opens eight digital projects to Porto's startups",
+  "ok": false
+ },
  "867572ff80be5e8d": {
   "t": "Carte de l’Algarve avec ses {count} lieux, chacun relié à son site",
   "by": "translator@PrompTugal.dinis",
