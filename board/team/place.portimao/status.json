@@ -1,8 +1,8 @@
 {
   "agent": "place.portimao@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/portimao/ (data/by-place/portimao.json), for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "stopped at the 07:00 UTC target: page live and signed, one article, debrief current; 09:30 wake found no hold, no new guidance and no reply to the ask",
-  "updated": "2026-11-16T09:35Z",
+  "state": "stopped at the 07:00 UTC target: page live and signed, one article, debrief current; 10:30 wake found no hold, no new guidance and no reply to the ask",
+  "updated": "2026-11-16T10:35Z",
   "done": [
     "keys place.portimao-promptugal and site.portimao-promptugal published in board/keys.json",
     "first research pass written, validated and signed with the site key",
