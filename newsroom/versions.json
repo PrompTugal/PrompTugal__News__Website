@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1602",
+    "date": "2026-11-16",
+    "what": "translator@PrompTugal.dinis: 42 new by-place segments in five cultures (798 each); run report",
+    "by": "translator@PrompTugal.dinis",
+    "from": "c3ecb8fa4"
+  },
+  {
     "version": "v0.1.1601",
     "date": "2026-11-16",
     "what": "designer.places@PrompTugal.dinis: wake 09:43: nothing changed in my scope; run report only",
