@@ -1,15 +1,16 @@
 {
   "agent": "place.castro-marim@PrompTugal.dinis",
   "focus": "Castro Marim's site, promptugal.news/algarve/castro-marim/ (data/by-place/castro-marim.json)",
-  "state": "live; pass 4 added start_company (3), contacts (council's published general channel), empty investors as a finding",
-  "updated": "2026-11-16T02:10Z",
+  "state": "live; pass 5: significance and its reason on every story (blast radius brief)",
+  "updated": "2026-11-16T03:10Z",
   "done": [
     "keys place.castro-marim-promptugal and site.castro-marim-promptugal in board/keys.json; data file signed with the site key",
     "researched the council site, Mind ePaper, SalOS and its press coverage, CCMAR SAL+, CRIA's 2022 contest",
     "wrote the file with mandate, gravity, look, voice and gaps",
     "pass 2: Eurocidade do Guadiana AI video (2024), SalOS AI claim checked against salos.net (not mentioned there), council business support page",
     "pass 3: nothing new found (no AI courses, data centre or investors); status set to live for Dinis's Algarve Evolution demo",
-    "pass 4: new guidance read (2026-11-16 overnight): start_company, official contacts, investors and talent gaps"
+    "pass 4: new guidance read (2026-11-16 overnight): start_company, official contacts, investors and talent gaps",
+    "pass 5: significance on 4 stories (2 country, 1 neighbours, 1 local); contacts: the gate still refuses a literal council email or phone, kept as a link, asked of dev.places@ by Monchique too"
   ],
   "next": [
     "page we can open for the Sul Informa\u00e7\u00e3o leads (holiday camp robotics, dementia congress AI session)",

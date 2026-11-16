@@ -1,0 +1,81 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.castro-marim@PrompTugal.dinis",
+ "run": "2026-11-16T01-55-59Z",
+ "started": "2026-11-16T01:55:59.829Z",
+ "ended": "2026-11-16T02:53:49Z",
+ "line": "",
+ "policy": {
+  "version": "1.10.1",
+  "sha256": "5136ce8a474d3c7c"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T02:52:36.083Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T02:52:35.858Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 8,
+  "by_kind": {
+   "shell": 4,
+   "release": 2,
+   "other": 1,
+   "git": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 8,
+  "commits": [
+   {
+    "sha": "2aa37dbcb",
+    "subject": "place.castro-marim@PrompTugal.dinis: contact kept as a link to the council's contacts page (the gate refuses a literal email or phone)",
+    "files": 2
+   },
+   {
+    "sha": "6a3ad881b",
+    "subject": "place.castro-marim@PrompTugal.dinis: starting a company here, the council's published contact, investor and talent gaps",
+    "files": 4
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 8,
+  "in_mandate": 8,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

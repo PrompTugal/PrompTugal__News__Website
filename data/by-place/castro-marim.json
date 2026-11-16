@@ -47,7 +47,9 @@
       "url": "https://www.barlavento.pt/castro-marim-plataforma-sal-tradicional-rastreavel/",
       "read_on": "2026-11-15",
       "ai_path": "A local company ships a software product with an AI assistant (Marnoto AI, per the press). The product's own Spanish page lists the modules but does not mention the AI assistant, so the AI claim rests on press coverage.",
-      "steps": 0
+      "steps": 0,
+      "significance": "country",
+      "significance_why": "The platform is open to any artisanal sea-salt producer in Portugal, built in Castro Marim."
     },
     {
       "title": "SalOS is also covered as a traceability platform ready for the EU Digital Product Passport",
@@ -57,7 +59,9 @@
       "url": "https://jornaleconomico.sapo.pt/noticias/plataforma-informatica-criada-em-castro-marim-promete-assegurar-rastreabilidade-do-sal-artesanal/",
       "read_on": "2026-11-15",
       "ai_path": "The platform has an AI digital assistant and a salinity and sluice support tool, built in Castro Marim.",
-      "steps": 0
+      "steps": 0,
+      "significance": "country",
+      "significance_why": "Same national launch, reported by a national business paper."
     },
     {
       "title": "Castro Marim's council puts AI into its planning office roadmap with Mind",
@@ -67,7 +71,9 @@
       "url": "https://epaper.mind.pt/noticias/209-castro-marim-reforca-a-aposta-na-transformacao-digital-do-urbanismo-com-o-epaper",
       "read_on": "2026-11-15",
       "ai_path": "A Portuguese council plans a public service that uses AI, and its current step is the software that prepares for it. Source is the vendor, not independent press.",
-      "steps": 1
+      "steps": 1,
+      "significance": "local",
+      "significance_why": "One council's own rollout. The vendor serves many councils, but nothing here is specific to other Algarve towns."
     },
     {
       "title": "Eurocidade do Guadiana tourism pitch made with AI avatars of three mayors, Castro Marim's among them",
@@ -77,7 +83,9 @@
       "url": "https://ayamonte.es/en/ayamonte-presenta-en-fitur-su-nueva-herramienta-creada-con-ia/",
       "read_on": "2026-11-15",
       "ai_path": "Three councils, Castro Marim's included, used generative AI to promote tourism. The page is partly garbled, so details are limited.",
-      "steps": 0
+      "steps": 0,
+      "significance": "neighbours",
+      "significance_why": "A pilot shared by Castro Marim, Vila Real de Santo António and Ayamonte, the Eurocidade partners across the border."
     }
   ],
   "sources": [
