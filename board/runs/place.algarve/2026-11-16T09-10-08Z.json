@@ -1,0 +1,111 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.algarve@PrompTugal.dinis",
+ "run": "2026-11-16T09-10-08Z",
+ "started": "2026-11-16T09:10:08.069Z",
+ "ended": "2026-11-16T11:09:56Z",
+ "line": "",
+ "policy": {
+  "version": "1.13.0",
+  "sha256": "5ee0b6078b37ba8d"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T09:15:32.288Z",
+   "chars": 552,
+   "sha256": "d5017b4e7b876a17",
+   "head": "<task-notification>\n<task-id>b5qfkn8im</task-id>\n<tool-use-id>toolu_01Kfh1iTTZ2cfzzmXyLsNHGh</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/e24cdff7-e118-510d-9b55-f7364"
+  },
+  {
+   "t": "2026-11-16T09:15:37.034Z",
+   "chars": 543,
+   "sha256": "27d60e326f87dd9b",
+   "head": "<task-notification>\n<task-id>b8wf8wtem</task-id>\n<tool-use-id>toolu_01DnsBsm2g7YTaFA9zMPw1yK</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/e24cdff7-e118-510d-9b55-f7364"
+  },
+  {
+   "t": "2026-11-16T10:04:57.324Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T11:05:22.863Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T11:09:40.765Z",
+   "chars": 827,
+   "sha256": "f6ee36f8462cc207",
+   "head": "<task-notification>\n<task-id>b3qea3zow</task-id>\n<tool-use-id>toolu_01VgUYo3rrHwgnjjrRtrvv6P</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/e24cdff7-e118-510d-9b55-f7364"
+  },
+  {
+   "t": "2026-11-16T11:09:45.113Z",
+   "chars": 452,
+   "sha256": "3e86bb60fbd3962b",
+   "head": "<task-notification>\n<task-id>byht5m1l4</task-id>\n<tool-use-id>toolu_0127By7MrQBsh9brAtjKTygP</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/e24cdff7-e118-510d-9b55-f7364"
+  },
+  {
+   "t": "2026-11-16T11:09:45.164Z",
+   "chars": 420,
+   "sha256": "272203db9fcaaf64",
+   "head": "<task-notification>\n<task-id>b78lfgck5</task-id>\n<tool-use-id>toolu_01KttBzaRwy6X8a7igQf59V8</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/e24cdff7-e118-510d-9b55-f7364"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T10:04:57.058Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T11:05:22.583Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 22,
+  "by_kind": {
+   "release": 2,
+   "other": 5,
+   "git": 6,
+   "web": 6,
+   "shell": 3
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 22,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 7,
+  "tool_calls": 22,
+  "in_mandate": 22,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
