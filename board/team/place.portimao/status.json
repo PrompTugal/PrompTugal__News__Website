@@ -1,8 +1,8 @@
 {
   "agent": "place.portimao@PrompTugal.dinis",
   "focus": "promptugal.news/algarve/portimao/ (data/by-place/portimao.json), for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "live; first article published (portimao-ai-in-the-public-service, signed)",
-  "updated": "2026-11-16T00:50Z",
+  "state": "live; article published; fourth pass added 'starting a company here', the funding map and official contacts (Dinis's overnight full-research guidance)",
+  "updated": "2026-11-16T01:55Z",
   "done": [
     "keys place.portimao-promptugal and site.portimao-promptugal published in board/keys.json",
     "first research pass written, validated and signed with the site key",
@@ -10,17 +10,20 @@
     "second pass: oalgarve.pt TMCT report, Algarve Evolution on the AI map",
     "third pass: UAlg Portimão campus plan (digital, data, AI) from Barlavento, UAlg and Celerator on the AI map",
     "page set to live",
-    "article content/articles/portimao-ai-in-the-public-service.md written, signed (agent key), gate OK"
+    "article content/articles/portimao-ai-in-the-public-service.md written, signed (agent key), gate OK",
+    "fourth pass: start_company (5 routes), investors (4 public funding items), contacts (2 official channels, linked not copied) from startupportimao.pt and cm-portimao.pt"
   ],
   "next": [
-    "a local AI company or startup based in Portimão (business register, StartUP Portimão members)",
-    "current status of the UAlg campus (the report read is January 2025)",
-    "second article only if a new real local story turns up",
-    "sources that open for postal.pt, Sul Informação, Algarve Vivo, EMARP",
+    "a local AI company or startup based in Portimão (business register)",
+    "named investors or funds active in Portimão",
+    "local talent only with consent",
+    "current status of the UAlg campus",
+    "the council's business desk and national funding schemes",
     "hand-over debrief refresh before 07:00 UTC"
   ],
   "asks": [
-    "Dinis: postal.pt, Sul Informação, Visit Portimão and emarp.pt show a bot challenge or refuse access from this session, so their Portimão AI stories are unused. Is there a permitted way in (a feed, an API)?"
+    "Dinis: postal.pt, Sul Informação, Visit Portimão and emarp.pt show a bot challenge or refuse access from this session, so their Portimão AI stories are unused. Is there a permitted way in (a feed, an API)?",
+    "Dinis: my ABP still says 'never gives a contact detail' while CLAUDE.md now allows official public-body channels. I link the official contact pages and do not copy raw emails or phone numbers until abp@ updates the ABP."
   ],
   "debrief": "board/team/place.portimao/debriefs/2026-11-16-handover.md"
 }

@@ -144,6 +144,12 @@
       "feed": null
     },
     {
+      "name": "StartUP Portimão (the incubator's own site)",
+      "url": "https://startupportimao.pt/index.php/pt/",
+      "kind": "business",
+      "feed": null
+    },
+    {
       "name": "Câmara Municipal de Portimão",
       "url": "https://www.cm-portimao.pt",
       "kind": "council",
@@ -357,12 +363,119 @@
     "The council's own site shows no news feed or RSS: Viva Portimão is the place to watch, and we found no feed there.",
     "No dated AI event after 15 November 2026 was found in Portimão. The two ISMAT workshops listed are general technology events.",
     "Reports of the TMCT conference give different dates (4 to 6 and 5 to 7 November), so the page says early November. Algarve Evolution's exact role in it is not stated.",
-    "The UAlg campus plan is from January 2025 (completion 2028, courses 2029, funding not secured then). Its current status and any AI courses are not confirmed, and UAlg's own site and the council should be checked."
+    "The UAlg campus plan is from January 2025 (completion 2028, courses 2029, funding not secured then). Its current status and any AI courses are not confirmed, and UAlg's own site and the council should be checked.",
+    "The investment map has public funding and grants but no named private investor: the August 2026 Pitch & Match names none. Investor lists and a business-register search are the next step.",
+    "No local talent is listed yet: the public speakers found are private individuals at events and we list none without their agreement.",
+    "Founders' routes beyond the incubator and the cowork space, such as the council's business desk and national funding schemes, were not found on a page we could open."
   ],
   "voice": {
     "lede": "Ó pá, Portimão: sardines on the grill, sun on the cliffs and, believe it or not, a council that lets a robot check your building papers.",
     "mandate": "PrompTugal.news Portimão: the AI and tech news of the town where the Arade meets the sea, from a council with a clever licensing robot to a water company with ears for leaks, plus what reaches us from the Algarve, Portugal and the world. We are independent, and every fact has its source, pá.",
     "gravity": "Portimão's brainpower is, chiça, mostly public. The câmara is teaching a robot to read licensing papers, has a grant with AI in the small print and has shaken hands with the university on a campus for digital, data and AI. EMARP has AI ears on the pipes, and the incubator at the racetrack and ISMAT keep the young ones busy. The rest is talks, books and seminars, and we like a good tertúlia.",
     "gaps_intro": "Here is what we could not find, and no, we did not look under the sardines."
-  }
+  },
+  "start_company": [
+    {
+      "name": "StartUP Portimão, business incubator",
+      "kind": "incubator",
+      "what": "The council's incubator, part of the Centro de Negócios de Portimão at the Autódromo Internacional do Algarve, for projects with growth potential in smart cities (energy, mobility, tourism, governance, quality of life). It has an apply section on its site and a services page.",
+      "url": "https://startupportimao.pt/index.php/pt/candidaturas/candidata-te",
+      "source_url": "https://startupportimao.pt/index.php/pt/quem-somos/incubadora",
+      "read_on": "2026-11-15"
+    },
+    {
+      "name": "StartUP Portimão acceleration programme",
+      "kind": "accelerator",
+      "what": "Listed on the incubator's site as a programme. The page read gives no details of its terms.",
+      "url": "https://startupportimao.pt/index.php/pt/iniciativas/programa-de-aceleracao",
+      "source_url": "https://startupportimao.pt/index.php/pt/quem-somos/incubadora",
+      "read_on": "2026-11-15"
+    },
+    {
+      "name": "Portimão Cowork (council shared workspace)",
+      "kind": "space",
+      "what": "A council shared workspace open to people and organisations with an idea, project or business that adds value to the local economy, with a continued regime and a daily regime, each with its own form and operating rules.",
+      "url": "https://cm-portimao.pt/portimao-cowork",
+      "source_url": "https://cm-portimao.pt/portimao-cowork",
+      "read_on": "2026-11-15"
+    },
+    {
+      "name": "Pitch & Match",
+      "kind": "funding",
+      "what": "A session at StartUP Portimão's ninth anniversary on 10 August 2026 meant to connect entrepreneurs, business people, mentors and potential investors. No investor organisation is named in the report.",
+      "url": "https://www.barlavento.pt/startup-portimao-reune-empreendedores-investidores-nono-aniversario/",
+      "source_url": "https://www.barlavento.pt/startup-portimao-reune-empreendedores-investidores-nono-aniversario/",
+      "read_on": "2026-11-15"
+    },
+    {
+      "name": "Mentors and partner network of StartUP Portimão",
+      "kind": "mentoring",
+      "what": "In 2022 the incubator reported more than 40 mentors, more than 45 partner entities and 25 startups hosted. Its site has sections for national and local partners, an advisory board and mentors.",
+      "url": "https://startupportimao.pt/index.php/pt/quem-somos/incubadora",
+      "source_url": "https://www.barlavento.pt/startup-portimao-assinala-5o-aniversario-com-olhos-postos-no-futuro/",
+      "read_on": "2026-11-15"
+    }
+  ],
+  "investors": [
+    {
+      "name": "Digital-transformation grant, call ALGARVE-2025-13",
+      "type": "grant",
+      "what": "Approved investment for the council's digital services, covering infrastructure, security, Wi-Fi and automation, with AI listed among the project areas.",
+      "amount": "about 938,717 euros",
+      "date": "2026-03-04",
+      "url": "https://www.barlavento.pt/portimao-candidatura-transformacao-digital-servicos/",
+      "source_url": "https://www.barlavento.pt/portimao-candidatura-transformacao-digital-servicos/",
+      "read_on": "2026-11-15",
+      "ai_path": "The grant lists AI among its project areas."
+    },
+    {
+      "name": "Regional funding call for the UAlg technology campus",
+      "type": "programme",
+      "what": "A call of 10 million euros at 60% funding, with the application to ALGARVE 2030 expected around February 2025, for a campus whose focus areas are digital, data and AI. Funding was not fully secured at the time of the report.",
+      "amount": "10 million euros available in the call",
+      "date": "2025-01-22",
+      "url": "https://www.barlavento.pt/portimao-campus-universitario-da-ualg-pronto-em-2028-com-foco-nas-tecnologias-e-inovacao/",
+      "source_url": "https://www.barlavento.pt/portimao-campus-universitario-da-ualg-pronto-em-2028-com-foco-nas-tecnologias-e-inovacao/",
+      "read_on": "2026-11-15",
+      "ai_path": "Funds a campus whose stated focus includes AI."
+    },
+    {
+      "name": "Fundo Ambiental, EMARP leak-control projects",
+      "type": "grant",
+      "what": "Funds two leak-detection projects of the municipal water company, including the AI acoustic loggers.",
+      "date": "2025-08-21",
+      "url": "https://www.barlavento.pt/emarp-investe-na-detecao-e-reparacao-de-fugas-de-agua-na-rede-publica-de-portimao/",
+      "source_url": "https://www.barlavento.pt/emarp-investe-na-detecao-e-reparacao-de-fugas-de-agua-na-rede-publica-de-portimao/",
+      "read_on": "2026-11-15",
+      "ai_path": "Pays for AI-driven leak monitoring."
+    },
+    {
+      "name": "CRESC Algarve 2020 (FEDER) funding for the Celerator technology hub",
+      "type": "investment",
+      "what": "4 million euros of European funds in a 7.2 million euro mobility and energy technology hub beside the Autódromo, run by Parkalgar and UAlg. No AI work is stated.",
+      "amount": "4 million euros of 7.2 million",
+      "date": "2022-08-31",
+      "url": "https://www.barlavento.pt/polo-tecnologico-arranca-no-autodromo-internacional-do-algarve/",
+      "source_url": "https://www.barlavento.pt/polo-tecnologico-arranca-no-autodromo-internacional-do-algarve/",
+      "read_on": "2026-11-15"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "StartUP Portimão",
+      "what": "The council incubator's official contacts page, for founders asking about the incubator and cowork space.",
+      "channel": "the official contacts page of startupportimao.pt",
+      "url": "https://startupportimao.pt/index.php/pt/contactos",
+      "source_url": "https://startupportimao.pt/index.php/pt/quem-somos/incubadora",
+      "read_on": "2026-11-15"
+    },
+    {
+      "name": "Portimão Cowork",
+      "what": "The council's shared-workspace page, which carries the application forms and the official address to send them to.",
+      "channel": "the forms and official address on the Câmara Municipal de Portimão's Cowork page",
+      "url": "https://cm-portimao.pt/portimao-cowork",
+      "source_url": "https://cm-portimao.pt/portimao-cowork",
+      "read_on": "2026-11-15"
+    }
+  ]
 }
