@@ -1,0 +1,464 @@
+{
+  "$schema": "../schemas/by-place.schema.json",
+  "id": "leiria",
+  "name": "Leiria",
+  "kind": "city",
+  "parent": "portugal",
+  "status": "live",
+  "updated": "2026-11-16",
+  "by": "place.districts@PrompTugal.dinis",
+  "mandate": "PrompTugal.news Leiria: AI and technology in Leiria, the district capital of Portugal's Centro region, whose centre of gravity is the Startup Leiria incubator, the polytechnic that is becoming the Universidade de Leiria e Oeste, and an industrial economy now adding AI, and what reaches Leiria from Portugal, Europe and the world. Independent; every fact sourced.",
+  "gravity": {
+    "text": "Leiria's centre of gravity is a dense triangle of an incubator, a polytechnic and a factory economy. Startup Leiria says it has about 220 companies in its community and is adding nearly 2,000 square metres for a Physical AI lab. The Politécnico de Leiria, becoming the Universidade de Leiria e Oeste, has its own AI policy in force since 1 September 2026 and its first AI spin-off. Local firms such as Brainr (AI for food factories) and Tekever (a drone engineering hub) tie AI to the district's industry of moulds, plastics, glass and ceramics. The council acts as a first customer for AI startups, and we found no wider municipal AI strategy.",
+    "sources": [
+      {
+        "title": "Startup Leiria expands to host a robotics and AI lab (ECO, 13 October 2026)",
+        "url": "https://eco.sapo.pt/2026/10/13/startup-leiria-expande-area-para-acolher-laboratorio-de-robotica-e-ia/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "AI startup for SMEs gets the first spin-off seal of the Universidade de Leiria e Oeste (ECO, 29 September 2026)",
+        "url": "https://eco.sapo.pt/2026/09/29/startup-de-ia-para-pme-recebe-primeiro-selo-spin-off-da-universidade-de-leiria-e-oeste/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "From advanced manufacturing to defence: what is happening in Leiria (ECO opinion by the managing director of Startup Leiria, 29 December 2025)",
+        "url": "https://eco.sapo.pt/opiniao/do-fabrico-avancado-a-defesa-o-que-esta-a-acontecer-em-leiria/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Leiria invests in technology solutions to boost tourism (Diário de Leiria, 25 July 2026)",
+        "url": "https://www.diarioleiria.pt/2026/07/25/leiria-investe-em-solucoes-tecnologicas-para-reforcar-turismo/",
+        "read_on": "2026-11-16"
+      }
+    ]
+  },
+  "look": {
+    "accent": "#9A3412",
+    "landmark": "Castelo de Leiria, the medieval hilltop castle above the Lis river",
+    "motif": "Castle-stone and terracotta warmth, a river city of moulds, glass and startups, a hilltop with a view of the whole district"
+  },
+  "ai_news": [
+    {
+      "title": "Nexxt Leiria awards ten projects, with AI at the heart of several",
+      "summary": "The fourth Nexxt Leiria named ten Leiria Nexxt Ideas 2026 winners from 42 applications. Opsivision Leiria, Sndora, e-Security and Bora, Leiria? use AI in video analysis, sales tools, document checks and tourist routes.",
+      "date": "2026-11-02",
+      "publisher": "Diário de Leiria",
+      "url": "https://www.diarioleiria.pt/2026/11/02/saiba-os-projetos-distinguidos-como-leiria-nexxt-ideas-2026/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Leiria ideas contest whose winners include four AI projects: one step from AI.",
+      "steps": 1
+    },
+    {
+      "title": "LINKA-TE 2026 fills Leiria's market and theatre with tech talk, AI and cybersecurity first",
+      "summary": "The third edition of the IT conference ran on 21 October 2026 at Mercado Santana and Teatro Miguel Franco, with six sold-out masterclasses in a new LINKA.LAB. The page gives no publication date, so the date is the one in the site's article list.",
+      "date": "2026-10-30",
+      "publisher": "HLink",
+      "url": "https://hlink.pt/linka-te-2026-it-conference/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Leiria IT conference that names AI as a central topic: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Startup Leiria plans a Physical AI lab in the city's market",
+      "summary": "The incubator is adding nearly 2,000 square metres in Leiria's municipal market for a robotics and AI lab for industry, open to regional SMEs and the university. It costs about 1.7 million euros, depends on a Centro 2030 application still under review and aims to open in 2027.",
+      "date": "2026-10-13",
+      "publisher": "ECO",
+      "url": "https://eco.sapo.pt/2026/10/13/startup-leiria-expande-area-para-acolher-laboratorio-de-robotica-e-ia/",
+      "read_on": "2026-11-16",
+      "ai_path": "A planned Leiria lab for AI and robotics in factories: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Primal AI becomes the first AI spin-off of the Universidade de Leiria e Oeste",
+      "summary": "The company, set up by informatics lecturers and a management specialist from the university, builds AI into business and industrial software so it knows each firm's own data and rules. Its first customers are meant to be SMEs.",
+      "date": "2026-09-29",
+      "publisher": "ECO",
+      "url": "https://eco.sapo.pt/2026/09/29/startup-de-ia-para-pme-recebe-primeiro-selo-spin-off-da-universidade-de-leiria-e-oeste/",
+      "read_on": "2026-11-16",
+      "ai_path": "A university spin-off that sells AI integration: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Leiria's council becomes first customer of two AI tourism startups",
+      "summary": "After the Leiria Experience Lab programme of Startup Leiria, the council will spend 7,500 euros on Leiria Concierge (5,000, an AI itinerary assistant) and Guide Sofia (2,500, an AI audio guide, first for Leiria Castle).",
+      "date": "2026-07-25",
+      "publisher": "Diário de Leiria",
+      "url": "https://www.diarioleiria.pt/2026/07/25/leiria-investe-em-solucoes-tecnologicas-para-reforcar-turismo/",
+      "read_on": "2026-11-16",
+      "ai_path": "A city council buys AI products from local startups: directly about AI, applied by the council.",
+      "steps": 0
+    },
+    {
+      "title": "Brainr, the Leiria AI food-factory startup, extends its record seed round",
+      "summary": "Portugal Ventures added 1.5 million euros to the 11 million euro seed round announced in 2025, which C2 Capital Partners led. The company says its platform already supports about a quarter of Portugal's meat production.",
+      "date": "2026-07-03",
+      "publisher": "Portugal Startup News",
+      "url": "https://portugalstartupnews.com/2026/07/03/food-industry-software-startup-brainr-extends-record-seed-round-with-e1-5m-investment/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Leiria company whose factory software is built around AI: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Politécnico de Leiria sets its AI rules, in force from 1 September",
+      "summary": "The institution approved principles and guidance for AI in teaching, research, management and services, stressing academic integrity, human oversight, data protection and transparency, in line with the EU AI Act. The page shows no publication date, only a June 2026 upload folder for its documents.",
+      "date": "2026-06",
+      "publisher": "IPLeiria",
+      "url": "https://www.ipleiria.pt/orientacoes-para-a-utilizacao-responsavel-da-inteligencia-artificial-no-ipleiria/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Leiria university sets its own rules for AI use: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Politécnico de Leiria takes more than 20 projects to Madrid, two of them using AI",
+      "summary": "At the Science for Industry fair the institute showed DBoidS, which pairs digital twins with AI against wildfires, and CERAMIND, which uses AI to spot defects in ceramics.",
+      "date": "2026-02-12",
+      "publisher": "Central Press",
+      "url": "https://centralpress.pt/page/125708/redacao/2026/02/12/politecnico-de-leiria-apresenta-mais-de-20-projetos-inovadores-na-feira-science-for-industry-em-madrid",
+      "read_on": "2026-11-16",
+      "ai_path": "Leiria research projects that apply AI to fires and factories: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Tekever puts drones and an AI-assisted platform to work mapping storm damage in Leiria",
+      "summary": "After storm Kristin, more than 100 volunteer staff used drones to help the council survey damage. Aerial images went through the company's ATLAS platform, which it says uses AI, and are for the authorities only.",
+      "date": "2026-02-02",
+      "publisher": "CNN Portugal",
+      "url": "https://cnnportugal.iol.pt/tekever/kristin/tekever-mobiliza-drones-um-cerebro-digital-e-mais-de-100-voluntarios-para-mapear-estragos-da-kristin-em-leiria/20260202/6980bed3d34e0ec52ec3066a",
+      "read_on": "2026-11-16",
+      "ai_path": "A drone company's AI-supported platform applied to the city's disaster response: one step from AI. The page shows no year, the year comes from the URL.",
+      "steps": 1
+    }
+  ],
+  "sources": [
+    {
+      "name": "Startup Leiria: news",
+      "url": "https://startupleiria.com/",
+      "kind": "business",
+      "feed": "https://startupleiria.com/feed/"
+    },
+    {
+      "name": "Diário de Leiria",
+      "url": "https://www.diarioleiria.pt/",
+      "kind": "press",
+      "feed": "https://www.diarioleiria.pt/feed/"
+    },
+    {
+      "name": "Região de Leiria",
+      "url": "https://www.regiaodeleiria.pt/",
+      "kind": "press",
+      "feed": "https://www.regiaodeleiria.pt/feed/"
+    },
+    {
+      "name": "Jornal de Leiria",
+      "url": "https://www.jornaldeleiria.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Politécnico de Leiria (IPLeiria, becoming ULO)",
+      "url": "https://www.ipleiria.pt/",
+      "kind": "university",
+      "feed": "https://www.ipleiria.pt/feed/"
+    },
+    {
+      "name": "Câmara Municipal de Leiria: news",
+      "url": "https://www.cm-leiria.pt/municipio/camara-municipal/gabinete-de-comunicacao/noticias",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "NERLEI CCI (business association of the Leiria region)",
+      "url": "https://www.nerlei.pt/",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "NEXXT Leiria",
+      "url": "https://nexxtleiria.com/agenda-2026/",
+      "kind": "events",
+      "feed": null
+    }
+  ],
+  "events": [
+    {
+      "title": "STRIDE 351, call for international scale-ups (Startup Leiria), applications close 18 November 2026",
+      "date": "2026-11-18",
+      "url": "https://startupleiria.com/startup-leiria-capta-scale-ups-internacionais/",
+      "read_on": "2026-11-16",
+      "ai_path": null
+    },
+    {
+      "title": "NEXXT Leiria 2026, fourth edition, with AI talks on 27 October (already held)",
+      "date": "2026-10-23 to 2026-10-28",
+      "url": "https://nexxtleiria.com/agenda-2026/",
+      "read_on": "2026-11-16",
+      "ai_path": "Its agenda has sessions on AI, agents and robotics at work and in institutions: directly about AI."
+    },
+    {
+      "title": "LINKA-TE 2026, IT conference at Mercado Santana and Teatro Miguel Franco (already held)",
+      "date": "2026-10-21",
+      "url": "https://hlink.pt/linka-te-2026-it-conference/",
+      "read_on": "2026-11-16",
+      "ai_path": "An IT conference with AI as a central topic: directly about AI."
+    }
+  ],
+  "ai_map": [
+    {
+      "name": "Politécnico de Leiria (IPLeiria, becoming the Universidade de Leiria e Oeste)",
+      "type": "institution",
+      "url": "https://www.ipleiria.pt/",
+      "what": "Public higher education institute. Approved AI principles and guidance in force from 1 September 2026 and links an AI information portal at ia.ipleiria.pt, which its page says is still being updated.",
+      "source_url": "https://www.ipleiria.pt/orientacoes-para-a-utilizacao-responsavel-da-inteligencia-artificial-no-ipleiria/",
+      "read_on": "2026-11-16",
+      "ai_path": "Sets AI policy, teaches with AI and hosts AI research.",
+      "steps": 0
+    },
+    {
+      "name": "CIIC (Computer Science and Communications Research Centre, IPLeiria)",
+      "type": "institution",
+      "url": "https://ciic.ipleiria.pt/index.php?page=projects",
+      "what": "IPLeiria research centre. Its projects page lists AI work including the ATTRACT digital innovation hub for AI and high-performance computing (PRR), NextPlay (an AI platform for football scouting, Centro 2030) and Harvesting with Intelligence (models that extract data from safety data sheets).",
+      "source_url": "https://ciic.ipleiria.pt/index.php?page=projects",
+      "read_on": "2026-11-16",
+      "ai_path": "Runs AI research projects.",
+      "steps": 0
+    },
+    {
+      "name": "DBoidS (IPLeiria project)",
+      "type": "institution",
+      "url": "https://centralpress.pt/page/125708/redacao/2026/02/12/politecnico-de-leiria-apresenta-mais-de-20-projetos-inovadores-na-feira-science-for-industry-em-madrid",
+      "what": "Digital twin and boids system that uses AI to help predict and prevent wildfires, shown at the Science for Industry fair in Madrid.",
+      "source_url": "https://centralpress.pt/page/125708/redacao/2026/02/12/politecnico-de-leiria-apresenta-mais-de-20-projetos-inovadores-na-feira-science-for-industry-em-madrid",
+      "read_on": "2026-11-16",
+      "ai_path": "An AI wildfire project.",
+      "steps": 0
+    },
+    {
+      "name": "CERAMIND (IPLeiria project)",
+      "type": "institution",
+      "url": "https://centralpress.pt/page/125708/redacao/2026/02/12/politecnico-de-leiria-apresenta-mais-de-20-projetos-inovadores-na-feira-science-for-industry-em-madrid",
+      "what": "Quality-control technology for the ceramics industry using AI-based defect detection, shown in Madrid in January 2026.",
+      "source_url": "https://centralpress.pt/page/125708/redacao/2026/02/12/politecnico-de-leiria-apresenta-mais-de-20-projetos-inovadores-na-feira-science-for-industry-em-madrid",
+      "read_on": "2026-11-16",
+      "ai_path": "AI defect detection for factories.",
+      "steps": 0
+    },
+    {
+      "name": "Centro de Inovação Pedagógica (IPLeiria)",
+      "type": "institution",
+      "url": "https://www.jornaldeleiria.pt/noticia/politecnico-de-leiria-lanca-primeiros-cursos-criados-por-inteligencia-artificial",
+      "what": "Launched in July 2024 five free online mini-courses on generative AI tools, themselves made with AI, as part of a programme called 1.º Ciclo 99% IA. Also behind the June 2026 Jornadas Pedagógicas on human and artificial intelligence.",
+      "source_url": "https://www.jornaldeleiria.pt/noticia/politecnico-de-leiria-lanca-primeiros-cursos-criados-por-inteligencia-artificial",
+      "read_on": "2026-11-16",
+      "ai_path": "Teaches AI tools and uses AI to make courses.",
+      "steps": 0
+    },
+    {
+      "name": "Chatbot Sofia (IPLeiria virtual assistant)",
+      "type": "public body",
+      "url": "https://www.ipleiria.pt/chatbot-sofia/",
+      "what": "A virtual assistant on the institute's website, built with Inetum on its BotFoundry platform, using natural language processing and machine learning. Its page reports 3,370 users after about eight months but gives no year.",
+      "source_url": "https://www.ipleiria.pt/chatbot-sofia/",
+      "read_on": "2026-11-16",
+      "ai_path": "A public institute runs an AI chatbot for students.",
+      "steps": 0
+    },
+    {
+      "name": "Startup Leiria",
+      "type": "organisation",
+      "url": "https://startupleiria.com/",
+      "what": "Non-profit incubator and accelerator in Leiria. Says it has about 220 companies in its community, runs the Leiria Experience Lab and plans a Physical AI lab for 2027.",
+      "source_url": "https://eco.sapo.pt/2026/10/13/startup-leiria-expande-area-para-acolher-laboratorio-de-robotica-e-ia/",
+      "read_on": "2026-11-16",
+      "ai_path": "Incubates AI startups and plans an AI and robotics lab.",
+      "steps": 0
+    },
+    {
+      "name": "Primal AI",
+      "type": "startup",
+      "url": "https://eco.sapo.pt/2026/09/29/startup-de-ia-para-pme-recebe-primeiro-selo-spin-off-da-universidade-de-leiria-e-oeste/",
+      "what": "First AI spin-off of the Universidade de Leiria e Oeste, from the school of technology and management and CIIC. Builds AI into business and industrial software for SMEs.",
+      "source_url": "https://eco.sapo.pt/2026/09/29/startup-de-ia-para-pme-recebe-primeiro-selo-spin-off-da-universidade-de-leiria-e-oeste/",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells AI integration to SMEs.",
+      "steps": 0
+    },
+    {
+      "name": "Brainr",
+      "type": "startup",
+      "url": "https://www.brainr.com/articles/record-seed-round-ai-food-factories",
+      "what": "Leiria-based maker of AI-powered production software for food factories. Seed round of up to 11 million euros in 2025, extended by 1.5 million euros in July 2026.",
+      "source_url": "https://portugalstartupnews.com/2026/07/03/food-industry-software-startup-brainr-extends-record-seed-round-with-e1-5m-investment/",
+      "read_on": "2026-11-16",
+      "ai_path": "AI is the core of its factory platform.",
+      "steps": 0
+    },
+    {
+      "name": "Mantis-AI",
+      "type": "startup",
+      "url": "https://linktoleaders.com/de-leiria-para-o-mundo-mantis-ai-revoluciona-videos-com-inteligencia-artificial/",
+      "what": "Leiria start-up that analyses video with its own AI and machine learning models for broadcasters and producers. Investors named are Comcast NBCUniversal, Opus Investimentos and Portugal Ventures.",
+      "source_url": "https://linktoleaders.com/de-leiria-para-o-mundo-mantis-ai-revoluciona-videos-com-inteligencia-artificial/",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells AI video analysis.",
+      "steps": 0
+    },
+    {
+      "name": "Glartek",
+      "type": "startup",
+      "url": "https://startupleiria.com/startups-incubadas-na-startup-leiria-captam-55-milhoes/",
+      "what": "Startup Leiria company that uses augmented reality, AI and IoT to optimise industrial tasks in real time. One of four firms that shared 5.5 million euros from Portugal Ventures in 2025.",
+      "source_url": "https://startupleiria.com/startups-incubadas-na-startup-leiria-captam-55-milhoes/",
+      "read_on": "2026-11-16",
+      "ai_path": "Combines AI with AR for factories.",
+      "steps": 0
+    },
+    {
+      "name": "BHOUT",
+      "type": "startup",
+      "url": "https://startupleiria.com/startups-incubadas-na-startup-leiria-captam-55-milhoes/",
+      "what": "Maker of a smart punching bag that analyses the user's movements, which the incubator's article says uses AI. Shared the 5.5 million euro Portugal Ventures round in 2025.",
+      "source_url": "https://startupleiria.com/startups-incubadas-na-startup-leiria-captam-55-milhoes/",
+      "read_on": "2026-11-16",
+      "ai_path": "AI analyses training movements in a consumer product.",
+      "steps": 1
+    },
+    {
+      "name": "Dimera",
+      "type": "startup",
+      "url": "https://www.jornaldeleiria.pt/noticia/startup-de-leiria-alia-nanotecnologia-e-ia-para-inovar-na-industria",
+      "what": "Leiria company incubated at Startup Leiria that makes sustainable materials with AI and nanoengineering, and won an innovation category at the 7th Prémios Mares Circulares. The article does not say how the AI is applied.",
+      "source_url": "https://www.jornaldeleiria.pt/noticia/startup-de-leiria-alia-nanotecnologia-e-ia-para-inovar-na-industria",
+      "read_on": "2026-11-16",
+      "ai_path": "Names AI as one of two core technologies.",
+      "steps": 1
+    },
+    {
+      "name": "Tekever (Leiria engineering hub)",
+      "type": "company",
+      "url": "https://devs.com.pt/en/news/tekever-portugal-s-drone-unicorn-expands-with-new-hub-in-leiria",
+      "what": "Portuguese drone company with an engineering centre in Vale Gracioso, Leiria, opened in August 2025 with 50 engineers and plans to double. After storm Kristin its Leiria staff used drones and an AI-supported platform to help the council map damage. The hub article itself does not mention AI.",
+      "source_url": "https://cnnportugal.iol.pt/tekever/kristin/tekever-mobiliza-drones-um-cerebro-digital-e-mais-de-100-voluntarios-para-mapear-estragos-da-kristin-em-leiria/20260202/6980bed3d34e0ec52ec3066a",
+      "read_on": "2026-11-16",
+      "ai_path": "Its platform uses AI support, and its hub does drone engineering.",
+      "steps": 1
+    },
+    {
+      "name": "Leiria Concierge",
+      "type": "startup",
+      "url": "https://www.empreendedor.com/news/leiria-testa-solucoes-de-startups-na-promocao-turistica",
+      "what": "Winner of the 2026 Leiria Experience Lab. An AI assistant that builds personalised itineraries from natural-language requests, using the council's official tourism information, in Portuguese and English.",
+      "source_url": "https://www.empreendedor.com/news/leiria-testa-solucoes-de-startups-na-promocao-turistica",
+      "read_on": "2026-11-16",
+      "ai_path": "An AI tourism assistant.",
+      "steps": 0
+    },
+    {
+      "name": "Guide Sofia",
+      "type": "startup",
+      "url": "https://www.empreendedor.com/news/leiria-testa-solucoes-de-startups-na-promocao-turistica",
+      "what": "Second place in the 2026 Leiria Experience Lab. An AI platform that turns a phone into a guide, with a first audio tour of Leiria Castle due as a prototype by end of August 2026.",
+      "source_url": "https://www.empreendedor.com/news/leiria-testa-solucoes-de-startups-na-promocao-turistica",
+      "read_on": "2026-11-16",
+      "ai_path": "An AI audio guide.",
+      "steps": 0
+    },
+    {
+      "name": "Opsivision Leiria, Sndora, e-Security and Bora, Leiria? (Leiria Nexxt Ideas 2026 winners)",
+      "type": "startup",
+      "url": "https://www.diarioleiria.pt/2026/11/02/saiba-os-projetos-distinguidos-como-leiria-nexxt-ideas-2026/",
+      "what": "Four awarded projects where AI is central: video-surveillance analysis, a sales and payments platform with AI tools, authenticity checks with biometrics and AI, and personalised city itineraries. The article does not say whether each is already a company.",
+      "source_url": "https://www.diarioleiria.pt/2026/11/02/saiba-os-projetos-distinguidos-como-leiria-nexxt-ideas-2026/",
+      "read_on": "2026-11-16",
+      "ai_path": "Award-winning projects built on AI.",
+      "steps": 0
+    },
+    {
+      "name": "Câmara Municipal de Leiria",
+      "type": "public body",
+      "url": "https://www.cm-leiria.pt/",
+      "what": "The council will be the first customer of two AI tourism startups for 7,500 euros in total, and sat on the Nexxt Leiria Ideas selection committee. We found no published municipal AI strategy.",
+      "source_url": "https://www.diarioleiria.pt/2026/07/25/leiria-investe-em-solucoes-tecnologicas-para-reforcar-turismo/",
+      "read_on": "2026-11-16",
+      "ai_path": "Buys and pilots AI products for tourism.",
+      "steps": 0
+    },
+    {
+      "name": "NERLEI CCI",
+      "type": "organisation",
+      "url": "https://www.nerlei.pt/pt/acao-formacao-human?formacao=1343",
+      "what": "Business association of the Leiria region. Offers a 25-hour evening course, Inteligência Artificial Avançado, on safe use of AI tools, prompt engineering and retrieval-augmented generation. The page shows no dates.",
+      "source_url": "https://www.nerlei.pt/pt/acao-formacao-human?formacao=1343",
+      "read_on": "2026-11-16",
+      "ai_path": "Trains local firms in AI.",
+      "steps": 1
+    },
+    {
+      "name": "APS Consultores",
+      "type": "company",
+      "url": "https://www.jornaldeleiria.pt/index.php/noticia/leiria-acolhe-academia-ai-business-for-leaders-and-executives",
+      "what": "Organised a one-day AI executive academy for regional business leaders on 24 June 2026 at the Nerlei building in Leiria.",
+      "source_url": "https://www.jornaldeleiria.pt/index.php/noticia/leiria-acolhe-academia-ai-business-for-leaders-and-executives",
+      "read_on": "2026-11-16",
+      "ai_path": "Runs AI training for business leaders.",
+      "steps": 1
+    },
+    {
+      "name": "Portugal Ventures (Leiria Crescimento call)",
+      "type": "investor",
+      "url": "https://startupleiria.com/startups-incubadas-na-startup-leiria-captam-55-milhoes/",
+      "what": "Invested 5.5 million euros in four Startup Leiria companies in 2025 through a PRR-funded call run with NERLEI and Banco Português de Fomento, and 1.5 million euros more in Brainr in 2026.",
+      "source_url": "https://startupleiria.com/startups-incubadas-na-startup-leiria-captam-55-milhoes/",
+      "read_on": "2026-11-16",
+      "ai_path": "Funds Leiria AI startups.",
+      "steps": 1
+    },
+    {
+      "name": "C2 Capital Partners",
+      "type": "investor",
+      "url": "https://www.brainr.com/articles/record-seed-round-ai-food-factories",
+      "what": "Venture fund that led Brainr's seed round of up to 11 million euros in 2025. Startup Leiria's STRIDE 351 call for international scale-ups is also described as run with it.",
+      "source_url": "https://www.brainr.com/articles/record-seed-round-ai-food-factories",
+      "read_on": "2026-11-16",
+      "ai_path": "Backs an AI food-factory company in Leiria.",
+      "steps": 1
+    }
+  ],
+  "extras": [
+    {
+      "label": "Startup Leiria community size, as it reports it",
+      "value": "About 220 companies, over 95 percent occupancy of its spaces, about 47 new projects a year and 10 to 15 startups in robotics, vision and industrial IoT. Other sources give about 170 to 180 incubated companies, so figures vary by date.",
+      "source_url": "https://eco.sapo.pt/2026/10/13/startup-leiria-expande-area-para-acolher-laboratorio-de-robotica-e-ia/",
+      "read_on": "2026-11-16"
+    },
+    {
+      "label": "District industry",
+      "value": "Plastics, moulds, glass and ceramics. District goods exports passed 3 billion euros in 2023, with those four sectors about 1.1 billion, according to an opinion piece by Startup Leiria's managing director.",
+      "source_url": "https://eco.sapo.pt/opiniao/do-fabrico-avancado-a-defesa-o-que-esta-a-acontecer-em-leiria/",
+      "read_on": "2026-11-16"
+    }
+  ],
+  "identity": {
+    "key_id": "site.leiria-promptugal",
+    "signed_by": "place.districts@PrompTugal.dinis"
+  },
+  "gaps": [
+    "We found no upcoming AI event in Leiria after 16 November 2026. The council's agenda, IPLeiria's events page and Startup Leiria's front page list none. NEXXT Leiria and LINKA-TE were in October. We should watch Startup Leiria's feed and the agenda of the polytechnic.",
+    "The council's news page and Leiria Smart City page load as menus without the article text in what we could read, so we cannot say whether the council uses AI beyond buying two tourism products. We should look for council minutes and procurement notices on base.gov.pt.",
+    "Leiria council and its news page offer no RSS feed we could find. Jornal de Leiria's /rss address returns not found. Startup Leiria, Diário de Leiria, Região de Leiria and IPLeiria feeds work.",
+    "A Região de Leiria article on a council using AI to cut bureaucracy (13 December 2025) is about Batalha, a neighbouring municipality, not Leiria, so we left it out. Marinha Grande and Batalha deserve their own pages.",
+    "Tekever's hub article does not mention AI, so we rely on a CNN Portugal story for its AI link. We could not confirm the Leiria hub's staff count beyond the 50 stated in August 2025.",
+    "Leadzai is among the four firms funded by Portugal Ventures, but the article we read does not say whether it uses AI, so it is not on the map. Hospital use is also open: the Centro Hospitalar de Leiria, now part of the regional health unit, has no AI programme in the pages we reached, and we did not open its own site.",
+    "The HLink page does not say who organises LINKA-TE, so HLink is not on the map. NEXXT Leiria has no single organiser named either.",
+    "Investors beyond Portugal Ventures and C2 Capital Partners are not mapped. Sources to look for: Banco Português de Fomento notices, Ó Capital (a workshop at Startup Leiria in August 2026) and the Brainr and Mantis-AI investor pages.",
+    "We did not read websummit.com, lu.ma, luma.com, meetup.com or eventbrite, so community meetups listed only there, such as Leiria Tech Talks, are not covered.",
+    "No official contact is listed. We did not confirm a published contact for the council's economic desk or for Startup Leiria on an official page."
+  ],
+  "voice": {
+    "lede": "Leiria, pá: a castle on the hill, moulds in the valley and, lately, a robot lab on the way to the market, because apparently this city makes things and now teaches them to think.",
+    "mandate": "PrompTugal.news Leiria, a cidade do castelo: AI and tech in Leiria, with Startup Leiria, the polytechnic and a very busy factory belt at the centre, plus whatever news arrives from Portugal, Europe and the world. Independent, and every fact comes with a receipt.",
+    "gravity": "Leiria is the only place where a medieval castle gets an AI audio guide, the market gets a robotics lab and the moulds and plastics still pay the bills. The incubator, the university and the factories hold hands, the council is the first customer of two tourism startups, and nobody has written the big municipal AI plan yet. Sim senhor, a city that builds first and writes the strategy later.",
+    "gaps_intro": "Ainda não sabemos tudo, ó pá. Here is what Leiria has not told us yet:"
+  }
+}
