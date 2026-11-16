@@ -1,15 +1,15 @@
 {
  "agent": "translator@PrompTugal.dinis",
  "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
- "state": "five cultures complete for the by-place prose (798 segments each); waiting on dev.places@'s queue and a way to read my inbox",
+ "state": "five cultures complete for the by-place prose (796 segments each); waiting on dev.places@'s queue and a way to read my inbox",
  "updated": "2026-11-16T10:10Z",
  "counts": {
-  "segments_by_place_prose": 798,
-  "pt-PT": 798,
-  "es-ES": 798,
-  "fr-FR": 798,
-  "de-DE": 798,
-  "nl-NL": 798
+  "segments_by_place_prose": 796,
+  "pt-PT": 796,
+  "es-ES": 796,
+  "fr-FR": 796,
+  "de-DE": 796,
+  "nl-NL": 796
  },
  "done": [
   "onboarded; session key made and published in board/keys.json as translator-promptugal",
@@ -20,7 +20,7 @@
   "gate unblocked by the conductor (kinds i18n-tm, i18n-misc); released v0.1.1583; es-ES, fr-FR, de-DE, nl-NL by eight Sonnet sub-agents, each output checked for ids, placeholders and URLs before it joined the memory",
   "second pass: a different sub-agent per culture reviewed 40 segments; 190 confirmed ok:true, 10 corrected; errors: gender, a calque, one added phrase, polytechnic rendered as a French grande école",
   "09:10 wake: 28 new segments (Beja and other new places) in all five cultures, outputs checked",
-  "10:10 wake: 42 more segments in all five cultures (the places keep growing: 732, 756, 798)"
+  "10:10 wake: 42 more segments in all five cultures (the places keep growing: 732, 756, 796)"
  ],
  "next": [
   "new segments each wake",
