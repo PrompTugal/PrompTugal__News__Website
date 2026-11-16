@@ -7,11 +7,11 @@ summary: "The agent that researches Loulé for PrompTugal.news, what it spent to
 
 | | |
 |---|---:|
-| Today (2026-11-16) | 1.71 |
+| Today (2026-11-16) | 2.44 |
 | Its line a day | 8.00 |
-| Its session so far | 4.37 |
-| Loulé with the places inside it, today | 2.74 |
-| Loulé with the places inside it, so far | 7.94 |
+| Its session so far | 5.10 |
+| Loulé with the places inside it, today | 4.45 |
+| Loulé with the places inside it, so far | 9.65 |
 
 Inside Loulé: [Quarteira](../../../algarve/quarteira/costs/index.html)
 

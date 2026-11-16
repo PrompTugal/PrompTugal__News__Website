@@ -7,8 +7,8 @@ summary: "The agent that researches Lagos for PrompTugal.news, what it spent tod
 
 | | |
 |---|---:|
-| Today (2026-11-16) | 1.14 |
+| Today (2026-11-16) | 1.94 |
 | Its line a day | 8.00 |
-| Its session so far | 3.47 |
+| Its session so far | 4.27 |
 
 All the agents: [what the agents cost](../../../newsroom/costs/index.html). The data: [`data/billing/agent-costs.json`](../../../data/billing/agent-costs.json).

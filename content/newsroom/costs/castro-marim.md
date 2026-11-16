@@ -7,8 +7,8 @@ summary: "The agent that researches Castro Marim for PrompTugal.news, what it sp
 
 | | |
 |---|---:|
-| Today (2026-11-16) | 0.66 |
+| Today (2026-11-16) | 1.06 |
 | Its line a day | 8.00 |
-| Its session so far | 2.02 |
+| Its session so far | 2.42 |
 
 All the agents: [what the agents cost](../../../newsroom/costs/index.html). The data: [`data/billing/agent-costs.json`](../../../data/billing/agent-costs.json).

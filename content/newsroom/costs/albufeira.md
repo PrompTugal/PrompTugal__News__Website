@@ -7,8 +7,8 @@ summary: "The agent that researches Albufeira for PrompTugal.news, what it spent
 
 | | |
 |---|---:|
-| Today (2026-11-16) | 0.38 |
+| Today (2026-11-16) | 0.69 |
 | Its line a day | 8.00 |
-| Its session so far | 1.88 |
+| Its session so far | 2.19 |
 
 All the agents: [what the agents cost](../../../newsroom/costs/index.html). The data: [`data/billing/agent-costs.json`](../../../data/billing/agent-costs.json).

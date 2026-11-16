@@ -7,8 +7,8 @@ summary: "The agent that researches Silves for PrompTugal.news, what it spent to
 
 | | |
 |---|---:|
-| Today (2026-11-16) | 0.85 |
+| Today (2026-11-16) | 1.59 |
 | Its line a day | 8.00 |
-| Its session so far | 3.15 |
+| Its session so far | 3.89 |
 
 All the agents: [what the agents cost](../../../newsroom/costs/index.html). The data: [`data/billing/agent-costs.json`](../../../data/billing/agent-costs.json).

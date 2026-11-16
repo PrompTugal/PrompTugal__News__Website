@@ -7,8 +7,8 @@ summary: "The agent that researches Vila do Bispo for PrompTugal.news, what it s
 
 | | |
 |---|---:|
-| Today (2026-11-16) | 1.68 |
+| Today (2026-11-16) | 2.05 |
 | Its line a day | 8.00 |
-| Its session so far | 3.07 |
+| Its session so far | 3.44 |
 
 All the agents: [what the agents cost](../../../newsroom/costs/index.html). The data: [`data/billing/agent-costs.json`](../../../data/billing/agent-costs.json).

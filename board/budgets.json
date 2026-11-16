@@ -2,7 +2,7 @@
  "about": "The budgets of PrompTugal.news: per agent per day, per pass, per loop, kept by accountant@PrompTugal.dinis. Confirmed by Dinis at about 10:15 UTC as a measure; never a reason to stop an agent (about 10:10). Every dollar figure here is API-equivalent: the team runs on a Claude subscription, so it compares runs and agents and is not money spent. Real limits: the subscription's usage limits and the OpenRouter credit (below). Schema: data/schemas/budgets.schema.json (ontologist@).",
  "by": "accountant@PrompTugal.dinis",
  "written": "2026-11-06T03:50Z",
- "updated": "2026-11-16T03:50Z",
+ "updated": "2026-11-16T06:50Z",
  "issue": "WS-177",
  "units": {
   "day": "the UTC day, 00:00 to 24:00; every per_day budget starts again at 00:00 UTC",
@@ -27,17 +27,17 @@
   },
   "spent_today": {
    "releases": 0,
-   "usd": 81.65,
-   "read_at": "2026-11-16T03:50Z",
+   "usd": 165.89,
+   "read_at": "2026-11-16T06:50Z",
    "usd_by_account": {
-    "A": 81.65,
+    "A": 165.89,
     "B": 0
    },
-   "ios_team": 49.77
+   "ios_team": 69.6
   },
   "state": "ok",
-  "used": 0.09,
-  "rate": "API-equivalent, 2026-11-16: 81.65 by 03:50 (account A; iOS team 49.77 more); 81.65 since the reading before"
+  "used": 0.18,
+  "rate": "API-equivalent, 2026-11-16: 165.89 by 06:50 (account A; iOS team 69.6 more); 84.24 since the reading before"
  },
  "agents": [
   {
@@ -49,15 +49,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 11.35,
-    "output_tokens": 88210,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 21.6,
+    "output_tokens": 150368,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 11.35,
+     "A": 21.6,
      "B": 0
     }
    },
-   "used": 0.23,
+   "used": 0.43,
    "state": "ok",
    "why": "one release per hourly wake; it opens and closes every pass; account A: stays (board/the-account-move.md)",
    "yesterday_usd": 90.75
@@ -73,7 +73,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -95,7 +95,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -117,7 +117,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -139,7 +139,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -161,7 +161,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -183,7 +183,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -203,15 +203,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 3.84,
-    "output_tokens": 818,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 7.63,
+    "output_tokens": 1598,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 3.84,
+     "A": 7.63,
      "B": 0
     }
    },
-   "used": 0.13,
+   "used": 0.25,
    "state": "ok",
    "why": "account A: stays (board/the-account-move.md)",
    "yesterday_usd": 37.96
@@ -227,7 +227,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -249,7 +249,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -269,15 +269,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 3.58,
-    "output_tokens": 14873,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 8.2,
+    "output_tokens": 27814,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 3.58,
+     "A": 8.2,
      "B": 0
     }
    },
-   "used": 0.12,
+   "used": 0.27,
    "state": "ok",
    "why": "account A: stays (board/the-account-move.md)",
    "yesterday_usd": 104.16
@@ -293,7 +293,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -315,7 +315,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -337,7 +337,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -357,17 +357,17 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 9.62,
-    "output_tokens": 32935,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 16.98,
+    "output_tokens": 43323,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 9.62,
+     "A": 16.98,
      "B": 0
     }
    },
-   "used": 0.96,
+   "used": 1.7,
    "state": "warn",
-   "why": "account A: stays (board/the-account-move.md)",
+   "why": "account A: stays (board/the-account-move.md); OVER at 06:50 UTC on usd (used 1.7); keeps working (capture, not block)",
    "yesterday_usd": 37.32
   },
   {
@@ -379,15 +379,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 1.87,
-    "output_tokens": 15268,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 3.4,
+    "output_tokens": 28748,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 1.87,
+     "A": 3.4,
      "B": 0
     }
    },
-   "used": 0.07,
+   "used": 0.14,
    "state": "ok",
    "why": "opus; the agent behaviour policies and their hooks; budget set at 06:50 UTC, first seen this wake; account A: stays (board/the-account-move.md)",
    "yesterday_usd": 29.41
@@ -403,7 +403,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -425,7 +425,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -447,7 +447,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -469,7 +469,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -491,7 +491,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -513,7 +513,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -535,7 +535,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -557,7 +557,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -579,7 +579,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -601,7 +601,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -623,7 +623,7 @@
     "releases": 0,
     "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-16T03:50Z",
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
      "A": 0,
      "B": 0
@@ -643,15 +643,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 4.09,
-    "output_tokens": 17841,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 10.16,
+    "output_tokens": 37403,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 4.09,
+     "A": 10.16,
      "B": 0
     }
    },
-   "used": 0.14,
+   "used": 0.34,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Opus; captured, never a stop"
   },
@@ -664,15 +664,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 2.54,
-    "output_tokens": 13043,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 4.76,
+    "output_tokens": 22418,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 2.54,
+     "A": 4.76,
      "B": 0
     }
    },
-   "used": 0.08,
+   "used": 0.16,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Opus; captured, never a stop"
   },
@@ -685,15 +685,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 7.26,
-    "output_tokens": 19718,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 11.95,
+    "output_tokens": 31943,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 7.26,
+     "A": 11.95,
      "B": 0
     }
    },
-   "used": 0.24,
+   "used": 0.4,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Opus; captured, never a stop"
   },
@@ -706,15 +706,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 4.67,
-    "output_tokens": 28822,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 9.21,
+    "output_tokens": 49588,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 4.67,
+     "A": 9.21,
      "B": 0
     }
    },
-   "used": 0.16,
+   "used": 0.31,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Opus; captured, never a stop"
   },
@@ -727,15 +727,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 5.77,
-    "output_tokens": 25192,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 8.62,
+    "output_tokens": 33888,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 5.77,
+     "A": 8.62,
      "B": 0
     }
    },
-   "used": 0.19,
+   "used": 0.29,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Opus; captured, never a stop"
   },
@@ -748,15 +748,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 3.16,
-    "output_tokens": 15878,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 4.27,
+    "output_tokens": 18272,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 3.16,
+     "A": 4.27,
      "B": 0
     }
    },
-   "used": 0.11,
+   "used": 0.14,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Opus; captured, never a stop"
   },
@@ -769,15 +769,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 1.54,
-    "output_tokens": 37380,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 2.92,
+    "output_tokens": 67591,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 1.54,
+     "A": 2.92,
      "B": 0
     }
    },
-   "used": 0.15,
+   "used": 0.29,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -790,15 +790,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.66,
-    "output_tokens": 26560,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 1.26,
+    "output_tokens": 43516,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 0.66,
+     "A": 1.26,
      "B": 0
     }
    },
-   "used": 0.08,
+   "used": 0.16,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -811,15 +811,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 1.51,
-    "output_tokens": 38466,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 2.27,
+    "output_tokens": 53444,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 1.51,
+     "A": 2.27,
      "B": 0
     }
    },
-   "used": 0.19,
+   "used": 0.28,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -832,15 +832,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.66,
-    "output_tokens": 12903,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 1.06,
+    "output_tokens": 18906,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 0.66,
+     "A": 1.06,
      "B": 0
     }
    },
-   "used": 0.08,
+   "used": 0.13,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -853,15 +853,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 1.68,
-    "output_tokens": 25141,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 2.05,
+    "output_tokens": 28949,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 1.68,
+     "A": 2.05,
      "B": 0
     }
    },
-   "used": 0.21,
+   "used": 0.26,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -874,15 +874,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.72,
-    "output_tokens": 16026,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 1.17,
+    "output_tokens": 22280,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 0.72,
+     "A": 1.17,
      "B": 0
     }
    },
-   "used": 0.09,
+   "used": 0.15,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -895,15 +895,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 1.72,
-    "output_tokens": 26336,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 2.87,
+    "output_tokens": 45110,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 1.72,
+     "A": 2.87,
      "B": 0
     }
    },
-   "used": 0.21,
+   "used": 0.36,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -916,15 +916,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.66,
-    "output_tokens": 14170,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 2.09,
+    "output_tokens": 23390,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 0.66,
+     "A": 2.09,
      "B": 0
     }
    },
-   "used": 0.08,
+   "used": 0.26,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -937,15 +937,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.38,
-    "output_tokens": 6150,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 0.69,
+    "output_tokens": 9394,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 0.38,
+     "A": 0.69,
      "B": 0
     }
    },
-   "used": 0.05,
+   "used": 0.09,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -958,15 +958,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 1.12,
-    "output_tokens": 16830,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 2.5,
+    "output_tokens": 21188,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 1.12,
+     "A": 2.5,
      "B": 0
     }
    },
-   "used": 0.14,
+   "used": 0.31,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -979,15 +979,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 1.14,
-    "output_tokens": 15787,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 1.94,
+    "output_tokens": 23282,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 1.14,
+     "A": 1.94,
      "B": 0
     }
    },
-   "used": 0.14,
+   "used": 0.24,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -1000,15 +1000,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.93,
-    "output_tokens": 28478,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 1.58,
+    "output_tokens": 45712,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 0.93,
+     "A": 1.58,
      "B": 0
     }
    },
-   "used": 0.12,
+   "used": 0.2,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -1021,15 +1021,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 1.28,
-    "output_tokens": 33503,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 2.3,
+    "output_tokens": 66212,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 1.28,
+     "A": 2.3,
      "B": 0
     }
    },
-   "used": 0.16,
+   "used": 0.29,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -1042,15 +1042,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.82,
-    "output_tokens": 23603,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 1.49,
+    "output_tokens": 37793,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 0.82,
+     "A": 1.49,
      "B": 0
     }
    },
-   "used": 0.1,
+   "used": 0.19,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -1063,15 +1063,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.85,
-    "output_tokens": 16557,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 1.59,
+    "output_tokens": 31672,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 0.85,
+     "A": 1.59,
      "B": 0
     }
    },
-   "used": 0.11,
+   "used": 0.2,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -1084,15 +1084,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 1.03,
-    "output_tokens": 12777,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 2.01,
+    "output_tokens": 23906,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 1.03,
+     "A": 2.01,
      "B": 0
     }
    },
-   "used": 0.13,
+   "used": 0.25,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -1105,15 +1105,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 1.71,
-    "output_tokens": 48732,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 2.44,
+    "output_tokens": 59414,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 1.71,
+     "A": 2.44,
      "B": 0
     }
    },
-   "used": 0.21,
+   "used": 0.3,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -1126,15 +1126,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 1.2,
-    "output_tokens": 38224,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 2.02,
+    "output_tokens": 71684,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 1.2,
+     "A": 2.02,
      "B": 0
     }
    },
-   "used": 0.15,
+   "used": 0.25,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -1147,15 +1147,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 2.47,
-    "output_tokens": 48649,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 4.87,
+    "output_tokens": 103076,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 2.47,
+     "A": 4.87,
      "B": 0
     }
    },
-   "used": 0.31,
+   "used": 0.61,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -1168,15 +1168,15 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.81,
-    "output_tokens": 26573,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 1.53,
+    "output_tokens": 50896,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 0.81,
+     "A": 1.53,
      "B": 0
     }
    },
-   "used": 0.1,
+   "used": 0.19,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   },
@@ -1189,17 +1189,38 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 1.01,
-    "output_tokens": 30530,
-    "read_at": "2026-11-16T03:50Z",
+    "usd": 2.38,
+    "output_tokens": 71406,
+    "read_at": "2026-11-16T06:50Z",
     "usd_by_account": {
-     "A": 1.01,
+     "A": 2.38,
      "B": 0
     }
    },
-   "used": 0.1,
+   "used": 0.24,
    "state": "ok",
    "why": "from 16 November (accountant@'s line, a PT decision): Sonnet; captured, never a stop"
+  },
+  {
+   "agent": "place.districts@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 10,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 16.08,
+    "output_tokens": 869626,
+    "read_at": "2026-11-16T06:50Z",
+    "usd_by_account": {
+     "A": 16.08,
+     "B": 0
+    }
+   },
+   "used": 1.61,
+   "state": "warn",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet; captured, never a stop; OVER at 06:50 UTC on usd (used 1.61); keeps working (capture, not block)"
   }
  ],
  "passes": [
@@ -1858,7 +1879,7 @@
   "measured": "not yet: the accountant has no reading of vault sizes; asked of backup@ and observability@ for one number a day"
  },
  "real_limits": {
-  "read_at": "2026-11-16T03:50Z",
+  "read_at": "2026-11-16T06:50Z",
   "subscription": {
    "A": {
     "rate_limit_type": "seven_day",
@@ -2103,6 +2124,11 @@
     "usd": 0,
     "output_tokens": 0,
     "note": "started after the day's baseline"
+   },
+   "place.districts@PrompTugal.dinis": {
+    "usd": 0,
+    "output_tokens": 0,
+    "note": "started after the day's baseline"
    }
   },
   "B": {
@@ -2267,17 +2293,17 @@
    "*workers": 20
   },
   "spent_today": {
-   "read_at": "2026-11-16T03:50Z",
+   "read_at": "2026-11-16T06:50Z",
    "by_agent": {
-    "conductor.a.ios@promptugal.dinis": 25.91,
-    "appdev.live@promptugal.dinis": 4.39,
-    "appdev.ai@promptugal.dinis": 2.9,
+    "conductor.a.ios@promptugal.dinis": 34.91,
+    "appdev.live@promptugal.dinis": 6.33,
+    "appdev.ai@promptugal.dinis": 3.71,
     "appdev.talk@promptugal.dinis": 5.03,
     "devops.status@promptugal.dinis": 3.24,
-    "appdev.credit@promptugal.dinis": 4.4,
+    "appdev.credit@promptugal.dinis": 12.48,
     "appdev.wire@promptugal.dinis": 3.9
    },
-   "total": 49.77
+   "total": 69.6
   }
  },
  "lines_for_2026-11-16": {

@@ -7,8 +7,8 @@ summary: "The agent that researches Monchique for PrompTugal.news, what it spent
 
 | | |
 |---|---:|
-| Today (2026-11-16) | 1.72 |
+| Today (2026-11-16) | 2.87 |
 | Its line a day | 8.00 |
-| Its session so far | 3.74 |
+| Its session so far | 4.89 |
 
 All the agents: [what the agents cost](../../../newsroom/costs/index.html). The data: [`data/billing/agent-costs.json`](../../../data/billing/agent-costs.json).

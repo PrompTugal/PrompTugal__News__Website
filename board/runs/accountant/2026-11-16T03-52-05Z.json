@@ -1,0 +1,83 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "accountant@PrompTugal.dinis",
+ "run": "2026-11-16T03-52-05Z",
+ "started": "2026-11-16T03:52:05.582Z",
+ "ended": "2026-11-16T06:53:17Z",
+ "line": "06:50 reading: 165.89 so far plus 69.60 iOS team; costs pages for 36 places",
+ "policy": {
+  "version": "1.12.0",
+  "sha256": "5671adc96f1bf61e"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T03:59:58.959Z",
+   "chars": 1187,
+   "sha256": "bcc91a3456a86f89",
+   "head": "<task-notification>\n<task-id>bvqxmn31y</task-id>\n<tool-use-id>toolu_01MuSFVeJKuG58TMqoMKh7oQ</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/1e5abb0b-0746-5a14-a474-08aeb"
+  },
+  {
+   "t": "2026-11-16T06:48:22.914Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T06:52:53.737Z",
+   "chars": 1191,
+   "sha256": "4ed81790898b6d64",
+   "head": "<task-notification>\n<task-id>bn7b7c0lf</task-id>\n<tool-use-id>toolu_01GABS93EVGUABBrpPN5L7tE</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/1e5abb0b-0746-5a14-a474-08aeb"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T06:48:22.668Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 48,
+  "by_kind": {
+   "git": 2,
+   "shell": 4,
+   "other": 1,
+   "remote-read": 40,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 48,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 48,
+  "in_mandate": 48,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

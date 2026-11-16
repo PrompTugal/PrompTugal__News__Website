@@ -7,8 +7,8 @@ summary: "The agent that researches Faro for PrompTugal.news, what it spent toda
 
 | | |
 |---|---:|
-| Today (2026-11-16) | 1.20 |
+| Today (2026-11-16) | 2.02 |
 | Its line a day | 8.00 |
-| Its session so far | 3.67 |
+| Its session so far | 4.49 |
 
 All the agents: [what the agents cost](../../../newsroom/costs/index.html). The data: [`data/billing/agent-costs.json`](../../../data/billing/agent-costs.json).

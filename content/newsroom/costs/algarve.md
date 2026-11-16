@@ -7,11 +7,11 @@ summary: "The agent that researches The Algarve for PrompTugal.news, what it spe
 
 | | |
 |---|---:|
-| Today (2026-11-16) | 2.47 |
+| Today (2026-11-16) | 4.87 |
 | Its line a day | 8.00 |
-| Its session so far | 5.40 |
-| The Algarve with the places inside it, today | 20.54 |
-| The Algarve with the places inside it, so far | 57.23 |
+| Its session so far | 7.80 |
+| The Algarve with the places inside it, today | 36.20 |
+| The Algarve with the places inside it, so far | 72.89 |
 
 Inside The Algarve: [Faro](../../algarve/faro/costs/index.html) · [Loulé](../../algarve/loule/costs/index.html) · [Silves](../../algarve/silves/costs/index.html) · [Tavira](../../algarve/tavira/costs/index.html) · [Vila Real de Santo António](../../algarve/vila-real-de-santo-antonio/costs/index.html) · [Portimão](../../algarve/portimao/costs/index.html) · [Lagos](../../algarve/lagos/costs/index.html) · [Olhão](../../algarve/olhao/costs/index.html) · [Albufeira](../../algarve/albufeira/costs/index.html) · [Lagoa](../../algarve/lagoa/costs/index.html) · [Monchique](../../algarve/monchique/costs/index.html) · [Aljezur](../../algarve/aljezur/costs/index.html) · [Vila do Bispo](../../algarve/vila-do-bispo/costs/index.html) · [Castro Marim](../../algarve/castro-marim/costs/index.html) · [Alcoutim](../../algarve/alcoutim/costs/index.html) · [São Brás de Alportel](../../algarve/sao-bras-de-alportel/costs/index.html)
 
