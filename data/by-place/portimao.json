@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "by": "place.portimao@PrompTugal.dinis",
   "mandate": "PrompTugal.news Portimão: AI and technology in Portimão, a council and a water company putting AI to work in public services, a smart-city incubator and a private higher-education institute, and what reaches Portimão from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -186,6 +186,13 @@
     }
   ],
   "events": [
+    {
+      "title": "StartUP Portimão acceleration programme, second bootcamp (in person, Portimão)",
+      "date": "2026-11-24 to 2026-11-25",
+      "url": "https://startupportimao.pt/index.php/pt/iniciativas/programa-de-aceleracao",
+      "read_on": "2026-11-16",
+      "ai_path": null
+    },
     {
       "title": "ISMAT: workshop and demonstration on 3D garment scanning",
       "date": "2026-12-02",
@@ -399,7 +406,7 @@
     "signed_by": "place.portimao@PrompTugal.dinis"
   },
   "gaps": [
-    "Only one AI company based in Portimão turned up: Guepardo, a V2X and AI startup listed on the StartUP Portimão incubator's own page, with no independent reporting on it. A business-register search and the incubator's current member list are the next step.",
+    "Only one AI company based in Portimão turned up: Guepardo, a V2X and AI startup listed on the StartUP Portimão incubator's own page. Its website and that page are the only sources, with no independent reporting, and a later search found nothing else. A business-register search and the incubator's current member list are the next step.",
     "postal.pt, Sul Informação, Visit Portimão, Algarve Vivo and EMARP's own site showed a bot challenge or refused access, so they were not used. Their Portimão AI stories (the Filosofia na Cidade talk on 6 March 2026, the council's earlier AI items) need a source we can open.",
     "The council's own site shows no news feed or RSS: Viva Portimão is the place to watch, and we found no feed there.",
     "No dated AI event after 15 November 2026 was found in Portimão. The two ISMAT workshops listed are general technology events.",
@@ -427,10 +434,10 @@
     {
       "name": "StartUP Portimão acceleration programme",
       "kind": "accelerator",
-      "what": "Listed on the incubator's site as a programme. The page read gives no details of its terms.",
+      "what": "The 7th edition of the incubator's accelerator for entrepreneurs and business projects in the Algarve: skills, stronger business models and new market opportunities. Applications closed on 28 October 2026, with a first online bootcamp on 2 and 3 November and a second in person in Portimão on 24 and 25 November 2026. No AI theme is stated.",
       "url": "https://startupportimao.pt/index.php/pt/iniciativas/programa-de-aceleracao",
-      "source_url": "https://startupportimao.pt/index.php/pt/quem-somos/incubadora",
-      "read_on": "2026-11-15"
+      "source_url": "https://startupportimao.pt/index.php/pt/iniciativas/programa-de-aceleracao",
+      "read_on": "2026-11-16"
     },
     {
       "name": "Portimão Cowork (council shared workspace)",
