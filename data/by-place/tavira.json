@@ -60,6 +60,16 @@
       "steps": 2
     },
     {
+      "title": "CCDR Algarve approves the works at Tavira's innovation hub, with a sensor-controlled irrigation network",
+      "summary": "The approved eligible investment is 1.68 million euros for the Polo de Inovação de Tavira at the CEAT (about 27 hectares). The works replace the 1989 irrigation network with programmable valve controllers, soil moisture probes and leak-detection equipment, rehabilitate the old CCDR building and plant new fruit and vine trials. Completion was expected by the end of December 2025. The article mentions no AI.",
+      "date": "2024-12-20",
+      "publisher": "CCDR Algarve",
+      "url": "https://www.ccdr-alg.pt/site/info/ccdr-algarve-aprova-intervencoes-nos-polos-de-inovacao-de-tavira-e-do-patacao-faro",
+      "read_on": "2026-11-16",
+      "ai_path": "Soil moisture probes and programmable controllers turn a research farm into a data source, and AI irrigation and crop models are the usual next layer. The source does not mention AI.",
+      "steps": 2
+    },
+    {
       "title": "Tavira's innovation hub launches with 23 partners and a digital therapeutics centre planned",
       "summary": "At the 2021 signing, 23 partners joined a Mediterranean Diet research and training hub at the CEAT. Plans included a digital therapeutics centre with Johns Hopkins University and the Algarve Biomedical Center, virtual-reality training, an urban garden and a Ciência Viva science centre. No AI is mentioned.",
       "date": "2021-11-26",
@@ -126,10 +136,10 @@
       "name": "Polo de Inovação de Tavira",
       "type": "public body",
       "url": "https://transparencia.gov.pt/pt/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C05-i03/2021.PPRR-C05-i03-P-000037/",
-      "what": "Research, innovation and technology-transfer hub on the Mediterranean Diet, health, sustainable food and climate adaptation, funded by the PRR (1.36 million euros, 3 January 2022 to 31 December 2025), with the CCDR Algarve as direct beneficiary. It includes lab equipment and a collection of about 700 fruit and grape varieties. At its November 2021 launch it had 23 partners, among them DRAP Algarve, the Município de Tavira, Ciência Viva, the Algarve Biomedical Center and Johns Hopkins University, and plans for a digital therapeutics centre and virtual-reality training.",
-      "source_url": "https://transparencia.gov.pt/pt/fundos-europeus/prr/beneficiarios-projetos/projeto/01/C05-i03/2021.PPRR-C05-i03-P-000037/",
+      "what": "Research, innovation and technology-transfer hub on the Mediterranean Diet, health, sustainable food and climate adaptation, funded by the PRR (1.36 million euros, 3 January 2022 to 31 December 2025), with the CCDR Algarve as direct beneficiary. It includes lab equipment and a collection of about 700 fruit and grape varieties. At its November 2021 launch it had 23 partners, among them DRAP Algarve, the Município de Tavira, Ciência Viva, the Algarve Biomedical Center and Johns Hopkins University, and plans for a digital therapeutics centre and virtual-reality training. CCDR Algarve's December 2024 notice approved 1.68 million euros of eligible investment, including a new irrigation network with soil moisture probes and leak detection.",
+      "source_url": "https://www.ccdr-alg.pt/site/info/ccdr-algarve-aprova-intervencoes-nos-polos-de-inovacao-de-tavira-e-do-patacao-faro",
       "read_on": "2026-11-16",
-      "ai_path": "The launch plans include a digital therapeutics centre with Johns Hopkins and the Algarve Biomedical Center, a data-heavy health field where AI is the usual next step. Neither source mentions AI, and whether the centre was built is unconfirmed.",
+      "ai_path": "The works add sensors and programmable controllers to a research farm, and the launch plans include a digital therapeutics centre with Johns Hopkins and the Algarve Biomedical Center, both data-heavy fields where AI is the usual next step. No source mentions AI, and the centre's construction is unconfirmed.",
       "steps": 2
     },
     {
@@ -258,8 +268,8 @@
     "Not yet mapped for Tavira: investors and investments made here, startups founded here, and local talent who have spoken publicly. No public source for any of them turned up in this pass. Dinis's overnight direction asks for all three, so they stay open.",
     "Starting a company here: the council's own pages list generic support and no incentive for tech or AI firms. A current Fundo de Apoio à Economia Local call and the planned municipal economic development plan were not found open or dated, so they stay unchecked.",
     "Tavira Works and LOFT: their pages say little. Their social pages and events were not read, and no dated event with an AI topic was found.",
-    "Polo de Inovação de Tavira: the PRR page and the 2021 launch article give scope, partners and a 31 December 2025 end date, but no current status. We found no opening date and cannot say whether the digital therapeutics centre exists or uses AI. The DRAP Algarve and CCDR Algarve are the bodies to ask, and the Barlavento and Sul Informação pieces on it were down or blocked when we tried.",
-    "The Algarve Biomedical Center's own About page (read 16 November 2026) mentions neither Tavira, Campus Med Life nor digital therapeutics, and lists a clinical research unit, an imaging lab, a genetics lab and an insoles lab. Search results point to its press items on the Tavira plan, but those and the Portugal Resident piece were down or blocked, so the digital therapeutics centre stays unconfirmed."
+    "The Algarve Biomedical Center's own About page (read 16 November 2026) mentions neither Tavira, Campus Med Life nor digital therapeutics, and lists a clinical research unit, an imaging lab, a genetics lab and an insoles lab. Search results point to its press items on the Tavira plan, but those and the Portugal Resident piece were down or blocked, so the digital therapeutics centre stays unconfirmed.",
+    "Polo de Inovação de Tavira: CCDR Algarve's December 2024 notice scheduled the works to finish by the end of December 2025, but no source we could open reports completion, an opening or its 2026 use. We cannot say whether the digital therapeutics centre exists or whether any AI is used. DRAP Algarve, which runs the site, is the body to ask."
   ],
   "voice": {
     "lede": "Tavira, ó pá, where the river is calmer than any server room and the seven arches have seen more migrations than your cloud provider.",
