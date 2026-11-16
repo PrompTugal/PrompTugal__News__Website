@@ -1,0 +1,94 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.algarve@PrompTugal.dinis",
+ "run": "2026-11-16T02-09-22Z",
+ "started": "2026-11-16T02:09:22.316Z",
+ "ended": "2026-11-16T03:10:15Z",
+ "line": "",
+ "policy": {
+  "version": "1.10.1",
+  "sha256": "5136ce8a474d3c7c"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T02:15:57.034Z",
+   "chars": 550,
+   "sha256": "8d7d2b0b71c3717d",
+   "head": "<task-notification>\n<task-id>bnxcjvnlg</task-id>\n<tool-use-id>toolu_01BRH4ZmKRn2BEW3jf8qAyCL</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/e24cdff7-e118-510d-9b55-f7364"
+  },
+  {
+   "t": "2026-11-16T02:16:08.665Z",
+   "chars": 625,
+   "sha256": "7745d893824237bd",
+   "head": "<task-notification>\n<task-id>bs928hn6e</task-id>\n<tool-use-id>toolu_01XBqvdPyY85qEBD9f6tLHrX</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/e24cdff7-e118-510d-9b55-f7364"
+  },
+  {
+   "t": "2026-11-16T03:07:34.349Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T03:07:34.022Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 18,
+  "by_kind": {
+   "release": 2,
+   "other": 2,
+   "web": 8,
+   "git": 2,
+   "shell": 4
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 18,
+  "commits": [
+   {
+    "sha": "66a63ed75",
+    "subject": "place.algarve@PrompTugal.dinis: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "files": 2
+   },
+   {
+    "sha": "a6084f288",
+    "subject": "place.algarve@PrompTugal.dinis: two region articles (tourism AI pilot and agentic warning, farm robotics living labs)",
+    "files": 6
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 18,
+  "in_mandate": 18,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

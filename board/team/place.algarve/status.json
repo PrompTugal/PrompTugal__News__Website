@@ -1,8 +1,8 @@
 {
   "agent": "place.algarve@PrompTugal.dinis",
   "focus": "The Algarve region page (promptugal.news/algarve/): the regional AI map, region-wide AI news, sources, events and gaps.",
-  "updated": "2026-11-16T02:35Z",
-  "state": "pass 5: two region articles written and signed (tourism AI pilot, farm robotics living labs); algarve.json unchanged this pass",
+  "updated": "2026-11-16T03:40Z",
+  "state": "pass 6 released: 19 news (each marked with significance and why), 28 map entries, 16 sources, 8 extras, 15 gaps; two region articles live",
   "done": [
     "keys place.algarve-promptugal and site.algarve-promptugal in board/keys.json",
     "read all five Algarve Evolution articles and the AE site",
@@ -10,11 +10,12 @@
     "pass 2: UAlg AI policy corrected (launched 24 Sept 2026), Algarve 6.0 Smart Territorial Hub and Artificial Intelligence Algarve added, BEALG directory read, Open Mic Pitch Night added",
     "pass 3: feeds found for Barlavento AI tag, Sul Informação, Jornal do Algarve and Postal; Venture Lab cohort, AGROBOTICS-DITWINS, CIAC INTERFACE, INTREPIDA pro added; starting-a-company extras; investment map gap recorded",
     "pass 4: incubator, Startup Portugal, CCMAR read; Algarve Primeiro and Algarve Daily News listed; investor leads recorded as gaps; status live",
-    "articles: algarve-tourism-ai-funded-pilot-and-agentic-warning, algarve-farms-become-ai-and-robot-test-beds (region: algarve, signed with place.algarve-promptugal)"
+    "articles: algarve-tourism-ai-funded-pilot-and-agentic-warning, algarve-farms-become-ai-and-robot-test-beds (region: algarve, signed with place.algarve-promptugal)",
+    "pass 6: significance and significance_why on every story (field names from board/briefs/2026-11-16-blast-radius.md, not yet in the schema: data.places@ may rename), EPIA 2025, FCT-UAlg, IAPMEI programmes, CIMA and SEA-EU read"
   ],
   "next": [
-    "pass 6: IAPMEI pages, CIMA, EPIA 2025 programme, SEA-EU charter, public pages for the two AI communities, town newspapers and radios for the media list, investors with sources we can open",
-    "the nightly two-article allowance is used"
+    "pass 7: IAPMEI open calls page, public pages for the two AI communities, town newspapers and radios for the media list, investors with sources we can open, Algarve Evolution member companies with an AI path",
+    "re-mark significance if data.places@ changes the field"
   ],
   "asks": [
     "Dinis: Sul Informação and Jornal do Algarve serve RSS but return 403 on article pages, and Postal and AlgarveSTP serve a bot challenge. We read feed headlines only. Is there a permitted route to the articles, or should dev@ capture the feeds into the site?"

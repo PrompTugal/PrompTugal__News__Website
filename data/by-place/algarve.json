@@ -42,7 +42,9 @@
       "url": "https://nera.pt/noticias/intrepida-pro-promoveu-lunch-learn-sobre-ferramentas-de-ia",
       "read_on": "2026-11-15",
       "ai_path": "The session is about using AI tools to analyse customer opinions.",
-      "steps": 0
+      "steps": 0,
+      "significance": "neighbours",
+      "significance_why": "A Faro session, but run by a project that serves women-led firms across the Algarve."
     },
     {
       "title": "DevFest Faro gives two days to building AI agents in practice",
@@ -52,7 +54,9 @@
       "url": "https://www.barlavento.pt/devfest-faro-inteligencia-artificial/",
       "read_on": "2026-11-15",
       "ai_path": "The conference is about building and securing AI-powered applications and agents.",
-      "steps": 0
+      "steps": 0,
+      "significance": "region",
+      "significance_why": "An open two-day AI conference that draws students and professionals from the whole region."
     },
     {
       "title": "UAlg's arts and communication centre opens INTERFACE, a digital translation lab, with an AI Studio",
@@ -62,7 +66,9 @@
       "url": "https://www.ualg.pt/ciac-inaugura-laboratorio-de-traducao-digital-na-ualg",
       "read_on": "2026-11-16",
       "ai_path": "A UAlg lab has an AI and digital literacy studio as part of the project.",
-      "steps": 1
+      "steps": 1,
+      "significance": "neighbours",
+      "significance_why": "A Faro lab, with its AI studio outside the Algarve."
     },
     {
       "title": "Algarve Evolution opens a survey on how local companies adopt AI",
@@ -72,7 +78,9 @@
       "url": "https://www.algarveevolution.pt/blog/news-2/survey-ai-adoption-in-the-algarve-28",
       "read_on": "2026-11-15",
       "ai_path": "The survey measures AI adoption by regional businesses.",
-      "steps": 0
+      "steps": 0,
+      "significance": "region",
+      "significance_why": "A survey of every business in the Algarve."
     },
     {
       "title": "University of Algarve launches its AI use policy",
@@ -82,7 +90,9 @@
       "url": "https://www.ualg.pt/ualg-define-regras-e-principios-para-utilizacao-da-inteligencia-artificial",
       "read_on": "2026-11-15",
       "ai_path": "A university sets the rules for AI use across teaching, research and administration.",
-      "steps": 0
+      "steps": 0,
+      "significance": "region",
+      "significance_why": "The region's university sets AI rules for its students and staff in Faro and Portimão."
     },
     {
       "title": "ULS Algarve holds a webinar on AI in the national health service",
@@ -92,7 +102,9 @@
       "url": "https://www.barlavento.pt/webseminario-uls-algarve-inteligencia-artificial-sns/",
       "read_on": "2026-11-15",
       "ai_path": "A regional health body debates how to adopt AI safely.",
-      "steps": 0
+      "steps": 0,
+      "significance": "region",
+      "significance_why": "The Algarve's health unit serves the whole region."
     },
     {
       "title": "NERA and UAlg prepare two living labs to test robotics and AI on Algarve farms",
@@ -102,7 +114,9 @@
       "url": "https://www.barlavento.pt/nera-ualg-living-labs-robotica-agricultura/",
       "read_on": "2026-11-16",
       "ai_path": "The living labs test AI and robotics in agriculture.",
-      "steps": 0
+      "steps": 0,
+      "significance": "region",
+      "significance_why": "Two farms somewhere in the Algarve will host tests that other farms can learn from."
     },
     {
       "title": "Faro panel asks how AI decides which companies to recommend",
@@ -112,7 +126,9 @@
       "url": "https://www.barlavento.pt/faro-debate-inteligencia-artificial-empresas/",
       "read_on": "2026-11-15",
       "ai_path": "The panel is about how AI assistants choose which businesses to recommend.",
-      "steps": 0
+      "steps": 0,
+      "significance": "neighbours",
+      "significance_why": "A Faro panel on AI search that firms in neighbouring councils can use."
     },
     {
       "title": "First Venture Lab by AlgarveSTP picks 12 companies, with AI adoption on the mentoring menu",
@@ -122,7 +138,9 @@
       "url": "https://www.barlavento.pt/escolhidas-as-12-empresas-do-primeiro-venture-lab-by-algarvestp/",
       "read_on": "2026-11-16",
       "ai_path": "A regional accelerator cohort that includes an AI company and mentoring on AI adoption.",
-      "steps": 1
+      "steps": 1,
+      "significance": "region",
+      "significance_why": "An accelerator for firms headquartered anywhere in the Algarve."
     },
     {
       "title": "Portimão uses AI to check building-permit documents",
@@ -132,7 +150,9 @@
       "url": "https://www.barlavento.pt/portimao-inteligencia-artificial-urbanismo/",
       "read_on": "2026-11-15",
       "ai_path": "A council deploys an AI module to check planning documents.",
-      "steps": 0
+      "steps": 0,
+      "significance": "neighbours",
+      "significance_why": "A council tool that adjacent councils may copy, though the service is Portimão's."
     },
     {
       "title": "Vilamoura school hosts an education summit on AI",
@@ -142,7 +162,9 @@
       "url": "https://www.barlavento.pt/colegio-internacional-vilamoura-debate-ia-summit-educacao/",
       "read_on": "2026-11-15",
       "ai_path": "A school summit centred on AI in education.",
-      "steps": 1
+      "steps": 1,
+      "significance": "local",
+      "significance_why": "A school summit in Vilamoura."
     },
     {
       "title": "UAlg wins 31.5 million euros for an AI-first European heritage centre",
@@ -152,7 +174,9 @@
       "url": "https://www.barlavento.pt/?p=397911",
       "read_on": "2026-11-15",
       "ai_path": "The centre's stated approach to heritage is AI-first.",
-      "steps": 0
+      "steps": 0,
+      "significance": "region",
+      "significance_why": "The largest research award in the Algarve this year, with jobs and training across the region."
     },
     {
       "title": "Vale do Lobo launches Oliver, an AI digital concierge",
@@ -162,7 +186,9 @@
       "url": "https://www.barlavento.pt/vale-lobo-lanca-concierge-digital-ia-hospedes-compradores/",
       "read_on": "2026-11-15",
       "ai_path": "A resort ships an AI product to customers.",
-      "steps": 0
+      "steps": 0,
+      "significance": "local",
+      "significance_why": "A resort's own product, in Loulé."
     },
     {
       "title": "Turismo do Algarve runs free AI bootcamp for tourism professionals",
@@ -172,7 +198,9 @@
       "url": "https://www.barlavento.pt/turismo-algarve-bootcamps-eficiencia-hidrica-inteligencia-artificial/",
       "read_on": "2026-11-15",
       "ai_path": "The bootcamp teaches tourism staff to use AI tools.",
-      "steps": 0
+      "steps": 0,
+      "significance": "region",
+      "significance_why": "The regional tourism body trains tourism staff across the Algarve."
     },
     {
       "title": "European funds to bring AI and robotics to 15 Algarve tourism firms, and a warning on agentic AI",
@@ -182,7 +210,9 @@
       "url": "https://www.barlavento.pt/?p=394835",
       "read_on": "2026-11-15",
       "ai_path": "The story is about agentic AI in tourism and funded AI adoption.",
-      "steps": 0
+      "steps": 0,
+      "significance": "region",
+      "significance_why": "A regionally funded programme and a warning aimed at the Algarve's whole tourism sector."
     },
     {
       "title": "AuroraMed and UAlg launch an executive course on AI in healthcare",
@@ -192,7 +222,9 @@
       "url": "https://www.barlavento.pt/auroramed-lanca-curso-de-ia-na-saude-com-a-ualg/",
       "read_on": "2026-11-15",
       "ai_path": "A healthtech and a university teach AI in healthcare.",
-      "steps": 0
+      "steps": 0,
+      "significance": "region",
+      "significance_why": "A course for health leaders of the whole region, backed by national funds."
     },
     {
       "title": "Algarve Evolution opens applications for its AI and robotics pilot for tourism SMEs",
@@ -202,7 +234,9 @@
       "url": "https://www.barlavento.pt/?p=392781",
       "read_on": "2026-11-15",
       "ai_path": "A funded programme to put AI and robotics into tourism firms.",
-      "steps": 0
+      "steps": 0,
+      "significance": "region",
+      "significance_why": "A regionally funded pilot open to tourism firms across the Algarve."
     },
     {
       "title": "University of Algarve and Empowered Startups plan an AI cluster for the Algarve",
@@ -212,7 +246,21 @@
       "url": "https://portugalglobal.pt/en/news/2025/november/fostering-ai-and-innovation-in-the-algarve",
       "read_on": "2026-11-15",
       "ai_path": "The stated aim is a regional AI cluster.",
-      "steps": 0
+      "steps": 0,
+      "significance": "region",
+      "significance_why": "A plan for an AI cluster for the whole region."
+    },
+    {
+      "title": "EPIA 2025, Portugal's AI conference, is held at the University of Algarve in Faro",
+      "summary": "The 24th EPIA Conference on Artificial Intelligence ran from 1 to 3 October 2025 at the Gambelas campus, hosted by the University of Algarve with the Portuguese Association for AI as patron, with 16 tracks from AI in medicine and generative AI to AI and IoT in agriculture and AI in transport. A school on AI preceded it on 29 and 30 September.",
+      "date": "2025-10-01",
+      "publisher": "University of Algarve (EPIA 2025)",
+      "url": "https://epia2025.ualg.pt/",
+      "read_on": "2026-11-16",
+      "ai_path": "It is a national AI research conference hosted in the region.",
+      "steps": 0,
+      "significance": "country",
+      "significance_why": "A national AI research conference, with the Portuguese AI association as patron."
     }
   ],
   "sources": [
@@ -303,6 +351,12 @@
     {
       "name": "Startup Portugal",
       "url": "https://www.startupportugal.com/",
+      "kind": "other",
+      "feed": null
+    },
+    {
+      "name": "IAPMEI",
+      "url": "https://www.iapmei.pt/",
       "kind": "other",
       "feed": null
     }
@@ -621,6 +675,16 @@
       "read_on": "2026-11-16",
       "ai_path": "It runs sessions on using AI tools in business.",
       "steps": 1
+    },
+    {
+      "name": "Faculdade de Ciências e Tecnologia (FCT-UAlg)",
+      "type": "institution",
+      "url": "https://epia2025.ualg.pt/",
+      "what": "UAlg faculty named as the contact for EPIA 2025, the 24th Portuguese conference on AI, held at the Gambelas campus in Faro on 1 to 3 October 2025.",
+      "source_url": "https://epia2025.ualg.pt/",
+      "read_on": "2026-11-16",
+      "ai_path": "It hosted a national AI conference.",
+      "steps": 0
     }
   ],
   "extras": [
@@ -665,6 +729,12 @@
       "value": "Startup Portugal lists a national one-stop shop for founders, the RNi incubator network and the Tech Foundry Portugal deep-tech acceleration track. Its page lists no Algarve or AI programme.",
       "source_url": "https://www.startupportugal.com/",
       "read_on": "2026-11-16"
+    },
+    {
+      "label": "Starting a company here: the national government side",
+      "value": "IAPMEI's public pages list Espaço Empresa business support, the StartUP Voucher Innovate 2025-2026 and StartUP Boost programmes, StartUP Visa and Tech Visa for founders and tech workers, a national mentors network, and a network of Digital Innovation Hubs for digital transformation. Its funding pages list Portugal 2030 and PRR incentives, with open calls on its Concursos abertos page. The page names no AI programme and no Algarve-specific one.",
+      "source_url": "https://www.iapmei.pt/",
+      "read_on": "2026-11-16"
     }
   ],
   "identity": {
@@ -683,10 +753,10 @@
     "Feeds read and working: Barlavento's AI tag, Sul Informação, Jornal do Algarve and Postal. None of the Algarve universities' or the CCDR's news pages gave a feed.",
     "Barlavento's two AI items without a clear Algarve company (a national poll on AI instead of seeing a doctor, and a book on AI that includes an Olhão author) were left out as national or personal.",
     "Algarve AI Agents and Artificial Intelligence Algarve appear in the BEALG directory with no public website (the second is LinkedIn only, which we do not read): we should find a public page, or ask Algarve Evolution.",
-    "UAlg centres: CCMAR's home page describes no AI work beyond a DeepLabCut crash course in December, CINTAL's page mentions no AI, and CIMA has not been read. The EPIA 2025 programme and the SEA-EU AI charter are also unread.",
     "Investment map: we found no 2026 funding round for an Algarve-founded AI startup. Leads that a search surfaced but whose articles we could not open: COREangels Algarve (an angel group), Sotavento Invest, the Dengun Founders Program (which lists about 20 investor groups as partners) and the national fund INDICO Capital Partners. Each needs a source we can read before it is mapped.",
-    "Starting a company here: the calls found so far have closed, the gov.pt entrepreneurship page we tried returned 404, and Startup Portugal lists no regional programme. IAPMEI's own pages are still unread.",
-    "Local media: Região Sul and Portugal Resident serve a Cloudflare challenge, Algarve Primeiro shows no feed, and Algarve Daily News gives an RSS address that returned an empty channel when read. Radio and TV stations, local blogs and the town newspapers are not yet listed: the town agents' files hold some, and the region page should link them."
+    "Local media: Região Sul and Portugal Resident serve a Cloudflare challenge, Algarve Primeiro shows no feed, and Algarve Daily News gives an RSS address that returned an empty channel when read. Radio and TV stations, local blogs and the town newspapers are not yet listed: the town agents' files hold some, and the region page should link them.",
+    "UAlg centres: CIMA's page lists marine monitoring and open-data projects but no AI, CCMAR's home page describes no AI beyond a DeepLabCut crash course in December, and CINTAL's page mentions no AI. The SEA-EU alliance lists developing its Green and AI Charters among its priorities (a July 2025 article), but we found no charter text.",
+    "Starting a company here: the Algarve calls found so far have closed. IAPMEI's pages list national programmes and a Concursos abertos page that we have not read for open calls. The page names no regional or AI programme, and no Algarve-specific line."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
