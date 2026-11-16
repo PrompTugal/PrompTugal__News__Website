@@ -234,7 +234,8 @@
     "No Albufeira AI hotel or nightlife/security tech item found in Nov 2026; web search returned only generic vendor pieces and spam-like pages.",
     "The Hyatt resort in Albufeira and the Atos Hotelaria Inteligente 2026 event (Faro, not Albufeira) were seen in search snippets only, not opened, so not used.",
     "Barlavento, Sul Informacao, Algarve Primeiro and Regiao Sul were not opened this run for new Albufeira AI items; only search and the council site were used.",
-    "The SIPRS conference has no confirmed speakers or AI specialists; treat the AI content as a plan."
+    "The SIPRS conference has no confirmed speakers or AI specialists; treat the AI content as a plan.",
+    "cm-albufeira.pt /pt/noticias returned 404; search shows nothing new since morning. SIPRS 27 Nov (AI in seismic prevention) unchanged, only seen via search snippets this run."
   ],
   "voice": {
     "lede": "Sol, sea and a chatbot to book your sunbed: this is Albufeira, where tourism is the main business and AI is turning up at the front desk.",
