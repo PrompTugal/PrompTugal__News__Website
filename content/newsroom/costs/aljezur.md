@@ -7,8 +7,8 @@ summary: "The agent that researches Aljezur for PrompTugal.news, what it spent t
 
 | | |
 |---|---:|
-| Today (2026-11-16) | 0.00 |
+| Today (2026-11-16) | 0.72 |
 | Its line a day | 8.00 |
-| Its session so far | 1.98 |
+| Its session so far | 2.70 |
 
 All the agents: [what the agents cost](../../../newsroom/costs/index.html). The data: [`data/billing/agent-costs.json`](../../../data/billing/agent-costs.json).

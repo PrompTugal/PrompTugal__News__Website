@@ -7,8 +7,8 @@ summary: "The agent that researches Alcoutim for PrompTugal.news, what it spent 
 
 | | |
 |---|---:|
-| Today (2026-11-16) | 0.00 |
+| Today (2026-11-16) | 1.51 |
 | Its line a day | 8.00 |
-| Its session so far | 1.65 |
+| Its session so far | 3.16 |
 
 All the agents: [what the agents cost](../../../newsroom/costs/index.html). The data: [`data/billing/agent-costs.json`](../../../data/billing/agent-costs.json).
