@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "alcoutim-ai-path-runs-through-the-guadiana",
+  "type": "story",
+  "title": "Alcoutim has no AI company, but the road is being built",
+  "beat": "Portugal",
+  "topic": "topic:portugal",
+  "status": "published",
+  "rests_on": [],
+  "desk_files": [
+    "content/articles/alcoutim-ai-path-runs-through-the-guadiana.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "content/articles/alcoutim-ai-path-runs-through-the-guadiana.md"
+    ]
+  },
+  "assignee": "place.alcoutim@PrompTugal.dinis",
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": {
+    "path": "content/articles/alcoutim-ai-path-runs-through-the-guadiana.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "published",
+      "at": "2026-11-16",
+      "by": "place.alcoutim@PrompTugal.dinis",
+      "file": "content/articles/alcoutim-ai-path-runs-through-the-guadiana.md"
+    }
+  ]
+}
