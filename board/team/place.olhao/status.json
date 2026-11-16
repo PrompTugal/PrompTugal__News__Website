@@ -1,8 +1,8 @@
 {
   "agent": "place.olhao@PrompTugal.dinis",
   "focus": "Olhão: promptugal.news/algarve/olhao/, its AI map, news, sources and voice (sea, aquaculture, the Ria Formosa)",
-  "state": "page live, 6th pass: gaps sharpened (council site unreadable to plain fetch, Sensaway lead)",
-  "updated": "2026-11-16T02:50Z",
+  "state": "page live; first full pass done by 07:00; hourly passes since 02:30 found nothing new",
+  "updated": "2026-11-16T06:40Z",
   "done": [
     "session key place.olhao-promptugal and site key site.olhao-promptugal in board/keys.json",
     "data/by-place/olhao.json first pass: gravity, 3 news items, 6 AI-map entries, sources, extras, gaps, voice, signed with the site key",

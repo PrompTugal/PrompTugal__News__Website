@@ -1,0 +1,168 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.olhao@PrompTugal.dinis",
+ "run": "2026-11-16T00-34-32Z",
+ "started": "2026-11-16T00:34:32.476Z",
+ "ended": "2026-11-16T06:32:20Z",
+ "line": "",
+ "policy": {
+  "version": "1.12.0",
+  "sha256": "5671adc96f1bf61e"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T00:34:42.551Z",
+   "chars": 551,
+   "sha256": "e14a31c48e7bd81f",
+   "head": "<task-notification>\n<task-id>bi56cn4fr</task-id>\n<tool-use-id>toolu_012gmu8asrsBaKBkZRJxWfV2</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/aac18fec-456e-5090-bfa0-bd2be"
+  },
+  {
+   "t": "2026-11-16T00:39:41.405Z",
+   "chars": 282,
+   "sha256": "da0c27c983f02e34",
+   "head": "<task-notification>\n<task-id>bw0z1899c</task-id>\n<summary>Monitor event: \"Wait for release\"</summary>\n<event>[Monitor expired after 4m 50s with no events delivered. Re-arm it if you still need the wat"
+  },
+  {
+   "t": "2026-11-16T00:40:03.025Z",
+   "chars": 486,
+   "sha256": "64989f2b2c5ef9c2",
+   "head": "<task-notification>\n<task-id>bsimukw7k</task-id>\n<tool-use-id>toolu_01Ljjx5dzy58FF65Tz67qEwS</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/aac18fec-456e-5090-bfa0-bd2be"
+  },
+  {
+   "t": "2026-11-16T01:31:57.130Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T01:38:22.285Z",
+   "chars": 282,
+   "sha256": "0f9592f7db855632",
+   "head": "<task-notification>\n<task-id>bynuazw76</task-id>\n<summary>Monitor event: \"Wait for release\"</summary>\n<event>[Monitor expired after 4m 50s with no events delivered. Re-arm it if you still need the wat"
+  },
+  {
+   "t": "2026-11-16T01:38:34.489Z",
+   "chars": 287,
+   "sha256": "4ee027444c63d07d",
+   "head": "<task-notification>\n<task-id>bl7j0nwxf</task-id>\n<summary>Monitor event: \"Wait for release push\"</summary>\n<event>[Monitor expired after 4m 50s with no events delivered. Re-arm it if you still need th"
+  },
+  {
+   "t": "2026-11-16T01:39:09.680Z",
+   "chars": 432,
+   "sha256": "a56c070e4bf25646",
+   "head": "<task-notification>\n<task-id>bmp891zqk</task-id>\n<tool-use-id>toolu_01XWEnegGqWbMx6GntX9vv1f</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/aac18fec-456e-5090-bfa0-bd2be"
+  },
+  {
+   "t": "2026-11-16T02:31:33.675Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T02:37:37.306Z",
+   "chars": 282,
+   "sha256": "0aa0dbef61d3fc77",
+   "head": "<task-notification>\n<task-id>bu0w6el6k</task-id>\n<summary>Monitor event: \"Wait for release\"</summary>\n<event>[Monitor expired after 4m 50s with no events delivered. Re-arm it if you still need the wat"
+  },
+  {
+   "t": "2026-11-16T02:37:45.739Z",
+   "chars": 287,
+   "sha256": "e0e8cff7176418d0",
+   "head": "<task-notification>\n<task-id>b2809s7su</task-id>\n<summary>Monitor event: \"Wait for release push\"</summary>\n<event>[Monitor expired after 4m 50s with no events delivered. Re-arm it if you still need th"
+  },
+  {
+   "t": "2026-11-16T03:32:02.184Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T04:31:24.848Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T05:32:02.664Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T06:31:57.746Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T01:31:56.944Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T02:31:33.464Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T03:32:01.959Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T04:31:24.625Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T05:32:02.338Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-16T06:31:57.355Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 37,
+  "by_kind": {
+   "other": 14,
+   "release": 8,
+   "git": 4,
+   "web": 11
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 37,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 14,
+  "tool_calls": 37,
+  "in_mandate": 37,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
