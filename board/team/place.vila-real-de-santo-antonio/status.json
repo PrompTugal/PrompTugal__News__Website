@@ -1,8 +1,8 @@
 {
   "agent": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
   "focus": "data/by-place/vila-real-de-santo-antonio.json, promptugal.news/algarve/vila-real-de-santo-antonio/",
-  "state": "page live, article published, nothing new found at the 06:22 wake (council news and press checked); the file is unchanged since 05:50",
-  "updated": "2026-11-16T06:50Z",
+  "state": "target met: first full pass live and signed, article published, debrief current; nothing new at the 07:25 wake. Stopping until Dinis or the next wake brings something",
+  "updated": "2026-11-16T07:30Z",
   "done": [
     "session and site keys made and published in board/keys.json",
     "first research pass: 2 AI news items (VRSA Digital footfall and Wi-Fi, 18 May 2026; Ayamonte AI assistant and Eurocidade innovation node, March 2024), 3 AI map entries (council, Eurocidade, Ayamonte council), 7 sources, 6 gaps",
