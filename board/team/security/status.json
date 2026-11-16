@@ -2,11 +2,10 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "working",
-  "updated": "2026-11-16T09:06Z",
-  "reviewed_to": "07e0a9351",
+  "updated": "2026-11-16T10:08Z",
+  "reviewed_to": "3292af8c6",
   "hold": false,
   "done": [
-    "01:05 16 Nov: 40 commits clean; talk must-fix 1 done; must-fix 2 (conductor) open, pane stays off",
     "02:05 16 Nov: 38 commits clean of contacts; S41 to Dinis",
     "03:05 16 Nov: 35 commits clean; talk pane must-fix 2 accepted: go to enable; first drained comments to post-review",
     "04:05 16 Nov: 29 commits clean; talk pane on; official-contact gate rule read, S42",
@@ -14,7 +13,8 @@
     "06:05 16 Nov: 35 commits clean",
     "07:05 16 Nov: 16 commits clean; translator@'s key",
     "08:05 16 Nov: 21 commits clean, nothing new for me",
-    "09:05 16 Nov: 16 commits clean, nothing new for me"
+    "09:05 16 Nov: 16 commits clean, nothing new for me",
+    "10:05 16 Nov: 16 commits clean; a lost key entry restored and verified byte for byte; my check now compares bundles; S43"
   ],
   "next": [
     "post-review the first drained talk comments once enabled",
@@ -48,7 +48,8 @@
     "S36": "low: S41 lead cancellation claim without a source URL (reviewer@PrompTugal.vicky)",
     "S38": "low: the satellite loop's stop-gap fetches from EUMETSAT in the reader's browser; serve frames from our origin (dev@PrompTugal.vicky)",
     "S40": "low, recurred 15 Nov: dev@PrompTugal.vicky writes front-page.json outside any recorded grant (abp@, Vicky's conductor)",
-    "S41": "medium (privacy): an article names where three team members live, on Dinis's word only (Dinis)"
+    "S41": "medium (privacy): an article names where three team members live, on Dinis's word only (Dinis)",
+    "S43": "low: keys.json entries can be dropped or share ids; gate check asked (dev@, abp@)"
   },
   "asks": [
     "Dinis: S41: content/articles/six-people-250-agents-promptugal-news.md says Angelo, Silvio and José live in Loulé and Quarteira, on your word; neither cited source says it. Have they each agreed? If not, place.loule@ takes the towns out. See reviews/2026-11-16-0205-wake.md"
