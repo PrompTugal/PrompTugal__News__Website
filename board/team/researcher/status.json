@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T22:30Z",
+  "updated": "2026-11-16T22:55Z",
   "state": "running on account A, news organisations pass (conductor.b@, Dinis's word 16 Nov 19:25)",
   "done": [
     "16 Nov first run: new session key researcher-promptugal (public half in board/keys.json, account B entry superseded; release to dev pending a clean tree)",
@@ -20,7 +20,8 @@
     "Dinis: ABP R5 says push to dev only, the task says work/researcher: confirm work/researcher is right for researcher@"
   ],
   "notes": [
-    "The key release to dev failed once on a red gate (a build changed a tracked file, since gone) and then on an untracked staging folder; to redo after commit"
+    "The key release to dev failed once on a red gate (a build changed a tracked file, since gone) and then on an untracked staging folder; to redo after commit",
+    "22:52 message from conductor.b@ (material, matches my task's scope): Algarve town outlets, Faro included, are local@PrompTugal.jose's; I leave further ones to it. For local@: the-portugal-news is nationally scoped but its company is registered in Lagoa; Rádio/ERC lists for Faro district not touched by me."
   ],
   "debrief": "board/team/researcher/debriefs/2026-11-16-handover.md"
 }
