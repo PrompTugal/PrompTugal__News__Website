@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1530",
+    "date": "2026-11-16",
+    "what": "place.tavira@PrompTugal.dinis: run report, wake 4",
+    "by": "place.tavira@PrompTugal.dinis",
+    "from": "acfcba9f7"
+  },
+  {
     "version": "v0.1.1529",
     "date": "2026-11-16",
     "what": "place.silves@PrompTugal.dinis: pass 5 of Silves: what is local and what is not",
