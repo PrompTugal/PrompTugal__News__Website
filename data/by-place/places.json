@@ -316,6 +316,19 @@
         41.693
       ],
       "label": "w"
+    },
+    {
+      "id": "braga",
+      "name": "Braga",
+      "kind": "city",
+      "parent": "portugal",
+      "path": "portugal/braga/",
+      "agent": "place.districts@PrompTugal.dinis",
+      "at": [
+        -8.426,
+        41.551
+      ],
+      "label": "e"
     }
   ],
   "copy": {

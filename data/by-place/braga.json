@@ -1,0 +1,531 @@
+{
+  "$schema": "../schemas/by-place.schema.json",
+  "id": "braga",
+  "name": "Braga",
+  "kind": "city",
+  "parent": "portugal",
+  "status": "live",
+  "updated": "2026-11-16",
+  "by": "place.districts@PrompTugal.dinis",
+  "mandate": "PrompTugal.news Braga: AI and technology in Braga, a university and industry city whose centre of gravity is the University of Minho, the nanotechnology laboratory INL, company R&D centres and the Startup Braga hub, and what reaches Braga from the Minho, Portugal and the world. Independent; every fact sourced.",
+  "gravity": {
+    "text": "Braga's AI activity sits in four places that the sources show side by side: research (the University of Minho's AI group, the Minho-born spin-off OmniumAI and the Iberian nanotechnology laboratory INL), company R&D (Cegid's first AI centre in Portugal and Bosch's new eBike unit, whose anti-theft software uses machine learning), the council's own use of AI (a bus-camera pilot with Hayden AI and a 1.5 million euro project to bring AI into municipal administration), and a startup layer around Startup Braga and InvestBraga, which took 15 startups to Web Summit 2026. Unlike the Algarve towns, Braga does not hang on one institution, and what we could read shows a city government that buys and pilots AI rather than only hosting events about it.",
+    "sources": [
+      {
+        "title": "Inteligencia Artificial vai entrar na gestao da Camara Municipal de Braga (Diario do Minho, 18 August 2025)",
+        "url": "https://www.diariodominho.pt/noticias/braga/2025-08-18-inteligencia-artificial-vai-entrar-na-gestao-da-camara-municipal-de-braga-68a38c24877b1",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Cegid cria centro de IA generativa em Braga (Business-IT, 20 February 2024)",
+        "url": "https://business-it.pt/2024/02/20/cegid-cria-centro-de-ia-generativa-em-braga/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Bosch reforca I&D em Braga com foco em eBikes inteligentes (Digital Inside, 19 February 2026)",
+        "url": "https://digitalinside.pt/bosch-reforca-id-em-braga-com-foco-em-ebikes-inteligentes/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Ecossistema da Startup Braga presente na Web Summit 2026 (VMTV, 10 November 2026)",
+        "url": "https://vmtv.sapo.pt/ecossistema-da-startup-braga-presente-na-web-summit-2026/",
+        "read_on": "2026-11-16"
+      },
+      {
+        "title": "Investigadores da UMinho desenvolvem projeto que usa IA para criar alimentos personalizados (Braga TV, 7 July 2026)",
+        "url": "https://bragatv.pt/investigadores-da-uminho-desenvolvem-projeto-que-usa-ia-para-criar-alimentos-personalizados/",
+        "read_on": "2026-11-16"
+      }
+    ]
+  },
+  "look": {
+    "accent": "#7A4B2A",
+    "landmark": "The Bom Jesus do Monte stairway above the city",
+    "motif": "Granite and baroque warm stone, church bells, a Roman-founded city that now builds chips, bikes and startups"
+  },
+  "ai_news": [
+    {
+      "title": "Startup Braga takes 15 startups to Web Summit, four of them built on AI",
+      "summary": "The hub's ecosystem is at Web Summit Lisbon, nine of them incubated at InvestBraga's innovation hub. The article names ASOagentAI (an AI app-growth agent), eDynamics (movement data into injury-risk alerts), LogisticsWMS (an AI warehouse system) and Zixago (synthetic infrastructure for AI).",
+      "date": "2026-11-10",
+      "publisher": "VMTV",
+      "url": "https://vmtv.sapo.pt/ecossistema-da-startup-braga-presente-na-web-summit-2026/",
+      "read_on": "2026-11-16",
+      "ai_path": "A city startup hub presenting AI companies at Web Summit: directly about AI for the four named firms, one step for the hub itself.",
+      "steps": 1
+    },
+    {
+      "title": "A bank and a fund manager bring AI and robotics to a Braga hotel ballroom",
+      "summary": "Banco Invest and Allianz Global Investors held an investor event at The Lince Braga Hotel on how AI and robotics may reshape markets and the economy. A humanoid robot greeted guests and showed what it knew about Braga.",
+      "date": "2026-11-05",
+      "publisher": "Diario do Minho",
+      "url": "https://www.diariodominho.pt/noticias/braga/2026-11-05-banco-invest-e-allianz-trouxeram-a-braga-o-futuro-dos-mercados-financeiros-da-inteligencia-artificial-e-da-robotica-6aec51070413f",
+      "read_on": "2026-11-16",
+      "ai_path": "An investor event in Braga about the economic effects of AI and robotics: directly about AI. The hosts are financial firms, not Braga's AI companies.",
+      "steps": 0
+    },
+    {
+      "title": "SpaceXAI runs a free two-day AI lab for Portuguese SMEs at Forum Braga",
+      "summary": "On 26 and 27 October, small firms in teams of one to five brought a real business problem and built an AI solution, prototype or workflow with SpaceXAI mentors. Applications went through IAPMEI, and a one-month trial of the enterprise tool followed.",
+      "date": "2026-10-09",
+      "publisher": "Portugal Global (AICEP)",
+      "url": "https://portugalglobal.pt/en/news/2026/outubro/spacexai-to-host-digital-transformation-lab-in-braga/",
+      "read_on": "2026-11-16",
+      "ai_path": "A hands-on AI adoption lab for companies, held in Braga: directly about AI. The date is the page's publication date and the event is now past.",
+      "steps": 0
+    },
+    {
+      "title": "Braga app watches your squat with a phone camera and corrects it with AI",
+      "summary": "dotmoovs, founded in Braga, has users film an exercise from about two metres away. Its AI finds body points and returns a report in under a minute, and the company aims to help spot sports talent.",
+      "date": "2026-08-19",
+      "publisher": "New in Braga",
+      "url": "https://newinbraga.nit.pt/fit/esta-app-bracarense-usa-ia-para-corrigir-os-seus-exercicios-enquanto-treina",
+      "read_on": "2026-11-16",
+      "ai_path": "A Braga startup shipping a computer-vision product: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "University of Minho spin-off leads an AI project to design personalised foods",
+      "summary": "OmniumAI, born at UMinho's Centre of Biological Engineering, coordinates IngredientIA with the company NIUM and the nanotechnology laboratory INL. The AI studies data on ingredients and gut microbiota to predict how food components interact.",
+      "date": "2026-07-07",
+      "publisher": "Braga TV",
+      "url": "https://bragatv.pt/investigadores-da-uminho-desenvolvem-projeto-que-usa-ia-para-criar-alimentos-personalizados/",
+      "read_on": "2026-11-16",
+      "ai_path": "A university-linked AI research project in Braga: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Bosch opens an eBike R&D unit in Braga, with machine-learning anti-theft at its core",
+      "summary": "The new business area builds security, connectivity and digital services for Bosch eBikes. It starts with about 20 people, is expected to double by the end of 2026 and aims for more than 50 by 2027, with data scientists among the open roles.",
+      "date": "2026-02-19",
+      "publisher": "Digital Inside",
+      "url": "https://digitalinside.pt/bosch-reforca-id-em-braga-com-foco-em-ebikes-inteligentes/",
+      "read_on": "2026-11-16",
+      "ai_path": "A multinational's Braga team writes machine-learning models that spot suspicious eBike use: one step from AI, because AI is one part of a wider software unit.",
+      "steps": 1
+    },
+    {
+      "title": "Braga council plans 1.5 million euros to bring AI into its daily administration",
+      "summary": "The Intelligence4Administration project, financed by Norte 2030, aims to introduce AI into the management of municipal services and to digitise the services given to citizens. The article is paywalled after a few lines, so specific tools are not described.",
+      "date": "2025-08-18",
+      "publisher": "Diario do Minho",
+      "url": "https://www.diariodominho.pt/noticias/braga/2025-08-18-inteligencia-artificial-vai-entrar-na-gestao-da-camara-municipal-de-braga-68a38c24877b1",
+      "read_on": "2026-11-16",
+      "ai_path": "A city council funding AI for its own decisions and services: directly about AI. Older than the 2026 items, and we found no later status report.",
+      "steps": 0
+    },
+    {
+      "title": "AI cameras on two Braga buses logged almost 8,000 illegal stops in three months",
+      "summary": "The Hayden AI pilot with the council and the bus company TUB recorded nearly 8,000 parking violations at bus stops, 2,186 of them at two stops. No fines were issued, the aim was to show the scale of the problem. It was funded by an EIT AI challenge prize.",
+      "date": "2025-01-29",
+      "publisher": "Diario do Minho",
+      "url": "https://www.diariodominho.pt/noticias/braga/2025-01-29-inteligencia-artificial-detecta-8-mil-infracoes-de-estacionamento-nas-paragens-de-autocarros-em-braga-679a09272abdf",
+      "read_on": "2026-11-16",
+      "ai_path": "A public AI enforcement pilot on city buses: directly about AI. The oldest item here, and we found no source on what came after the pilot.",
+      "steps": 0
+    }
+  ],
+  "sources": [
+    {
+      "name": "Camara Municipal de Braga",
+      "url": "https://www.cm-braga.pt",
+      "kind": "council",
+      "feed": null
+    },
+    {
+      "name": "O Minho",
+      "url": "https://ominho.pt",
+      "kind": "press",
+      "feed": "https://ominho.pt/feed/"
+    },
+    {
+      "name": "Braga TV",
+      "url": "https://bragatv.pt",
+      "kind": "press",
+      "feed": "https://bragatv.pt/feed/"
+    },
+    {
+      "name": "Diario do Minho: Braga section",
+      "url": "https://www.diariodominho.pt/noticias/braga",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Startup Braga: news",
+      "url": "https://www.startupbraga.com/News",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "InvestBraga",
+      "url": "https://www.investbraga.com",
+      "kind": "business",
+      "feed": null
+    },
+    {
+      "name": "Universidade do Minho",
+      "url": "https://www.uminho.pt",
+      "kind": "university",
+      "feed": null
+    },
+    {
+      "name": "GDG Braga",
+      "url": "https://gdg.community.dev/gdg-braga/",
+      "kind": "events",
+      "feed": null
+    }
+  ],
+  "events": [
+    {
+      "title": "Magnifica Humanidade: Desafio aos Movimentos Laicais, an archdiocesan assembly on AI, human dignity and inequality (Arquidiocese de Braga, Sala Emaus)",
+      "date": "2026-11-21",
+      "url": "https://bragatv.pt/arquidiocese-de-braga-promove-reflexao-sobre-a-dignidade-humana-na-era-da-inteligencia-artificial/",
+      "read_on": "2026-11-16",
+      "ai_path": "A morning assembly whose theme is the challenges of AI and social change: directly about AI. Listed through Braga TV, not the organiser's own page."
+    },
+    {
+      "title": "INL Innovation Open Day 2026, with a session on artificial intelligence (INL, Braga)",
+      "date": "2026-11-05",
+      "url": "https://portugalglobal.pt/en/news/2026/outubro/inl-innovation-open-day-showcases-market-ready-technologies/",
+      "read_on": "2026-11-16",
+      "ai_path": "An open day on market-ready nanotechnology and semiconductor work with an AI session: one step from AI. Past. Listed through AICEP, not INL's own page."
+    },
+    {
+      "title": "6th Advanced Computing Meeting (FCCN, hosted by UMinho, Gualtar campus)",
+      "date": "2026-11-03 to 2026-11-04",
+      "url": "https://bragatv.pt/uminho-recebe-6-o-encontro-de-computacao-avancada-em-braga/",
+      "read_on": "2026-11-16",
+      "ai_path": "AI is named as one of the main themes, with workshops on AI and computer vision, and a visit to the Deucalion supercomputer (which stands in Guimaraes, not Braga): directly about AI. Past."
+    },
+    {
+      "title": "AI and Digital Transformation Lab (SpaceXAI with IAPMEI, Forum Braga)",
+      "date": "2026-10-26 to 2026-10-27",
+      "url": "https://www.iapmei.pt/pt/paginas/laboratorio-de-ia-e-transformacao-digital-spacexai/",
+      "read_on": "2026-11-16",
+      "ai_path": "A two-day AI building lab for SMEs: directly about AI. Past."
+    },
+    {
+      "title": "Agents Day Braga 2026 (LayerX with Subvisual and Talent Protocol, at Subvisual's workspace)",
+      "date": "2026-04-14",
+      "url": "https://taikai.network/blog/agents-day-braga",
+      "read_on": "2026-11-16",
+      "ai_path": "A full-day hackathon on building AI agents: directly about AI. Past. The date is inferred from the organiser's recap, which says it took place the day before 15 April 2026."
+    }
+  ],
+  "ai_map": [
+    {
+      "name": "Universidade do Minho (UMinho)",
+      "type": "institution",
+      "url": "https://www.uminho.pt",
+      "what": "Public university with its Gualtar campus in Braga. Its artificial intelligence group joined the consortium building Amalia, a large language model for Portuguese, in March 2025. It hosted the 2026 Research and Innovation Open Days, whose showcase listed AI among its areas.",
+      "source_url": "https://www.diariodominho.pt/noticias/braga/2025-03-15-universidade-do-minho-vai-participar-no-desenvolvimento-da-ia-portuguesa-67d5c9af74cda",
+      "read_on": "2026-11-16",
+      "ai_path": "Does AI research and takes part in a national Portuguese language model.",
+      "steps": 0
+    },
+    {
+      "name": "INL (International Iberian Nanotechnology Laboratory)",
+      "type": "institution",
+      "url": "https://inl.int",
+      "what": "International research laboratory in Braga working on nanotechnology, advanced materials and semiconductors. Its 2026 Innovation Open Day included an AI session, and it is a partner in the IngredientIA project.",
+      "source_url": "https://portugalglobal.pt/en/news/2026/outubro/inl-innovation-open-day-showcases-market-ready-technologies/",
+      "read_on": "2026-11-16",
+      "ai_path": "Hosts AI sessions and partners in an AI food project.",
+      "steps": 1
+    },
+    {
+      "name": "OmniumAI",
+      "type": "startup",
+      "url": "https://omniumai.com",
+      "what": "Spin-off of UMinho's Centre of Biological Engineering. It coordinates IngredientIA and has built the CibusAI platform, to be extended for the project.",
+      "source_url": "https://bragatv.pt/investigadores-da-uminho-desenvolvem-projeto-que-usa-ia-para-criar-alimentos-personalizados/",
+      "read_on": "2026-11-16",
+      "ai_path": "Builds AI to predict how food ingredients and gut microbiota interact.",
+      "steps": 0
+    },
+    {
+      "name": "NIUM",
+      "type": "company",
+      "what": "Company in the IngredientIA consortium whose MicroDiGut system simulates digestion at microscale to check the AI's predictions. The article does not state its base city.",
+      "source_url": "https://bragatv.pt/investigadores-da-uminho-desenvolvem-projeto-que-usa-ia-para-criar-alimentos-personalizados/",
+      "read_on": "2026-11-16",
+      "ai_path": "Validates AI predictions in a university-linked AI project.",
+      "steps": 1
+    },
+    {
+      "name": "Centre of Biological Engineering (CEB, UMinho)",
+      "type": "institution",
+      "what": "UMinho research centre where OmniumAI began and a partner in IngredientIA.",
+      "source_url": "https://bragatv.pt/investigadores-da-uminho-desenvolvem-projeto-que-usa-ia-para-criar-alimentos-personalizados/",
+      "read_on": "2026-11-16",
+      "ai_path": "Hosts research behind an AI spin-off and takes part in an AI project.",
+      "steps": 1
+    },
+    {
+      "name": "Cegid (AI centre in Braga)",
+      "type": "company",
+      "url": "https://www.cegid.com/ib/pt/",
+      "what": "Business software group that opened its first AI centre in Portugal in Braga in February 2024, aiming to hire more than 50 AI software engineers. Its September 2026 profile lists Braga among the innovation hubs where it builds its cloud and AI systems.",
+      "source_url": "https://business-it.pt/2024/02/20/cegid-cria-centro-de-ia-generativa-em-braga/",
+      "read_on": "2026-11-16",
+      "ai_path": "Builds generative AI features for business software in Braga.",
+      "steps": 0
+    },
+    {
+      "name": "Bosch (Braga eBike unit)",
+      "type": "company",
+      "url": "https://digitalinside.pt/bosch-reforca-id-em-braga-com-foco-em-ebikes-inteligentes/",
+      "what": "Multinational with a new R&D business area in Braga for eBike security, connectivity and digital services. Its core AI use is machine-learning anti-theft models.",
+      "source_url": "https://digitalinside.pt/bosch-reforca-id-em-braga-com-foco-em-ebikes-inteligentes/",
+      "read_on": "2026-11-16",
+      "ai_path": "Writes machine-learning models inside a larger embedded and cloud software unit.",
+      "steps": 1
+    },
+    {
+      "name": "Camara Municipal de Braga",
+      "type": "public body",
+      "url": "https://www.cm-braga.pt",
+      "what": "The city council. It plans a 1.5 million euro Norte 2030 project to bring AI into administration and ran the Hayden AI bus-camera pilot.",
+      "source_url": "https://www.diariodominho.pt/noticias/braga/2025-08-18-inteligencia-artificial-vai-entrar-na-gestao-da-camara-municipal-de-braga-68a38c24877b1",
+      "read_on": "2026-11-16",
+      "ai_path": "A council buying and piloting AI for its own services.",
+      "steps": 0
+    },
+    {
+      "name": "Hayden AI",
+      "type": "startup",
+      "what": "Startup whose camera system ran on two Braga buses for the council and TUB. The article quotes a company representative and does not state its base city.",
+      "source_url": "https://www.diariodominho.pt/noticias/braga/2025-01-29-inteligencia-artificial-detecta-8-mil-infracoes-de-estacionamento-nas-paragens-de-autocarros-em-braga-679a09272abdf",
+      "read_on": "2026-11-16",
+      "ai_path": "Supplies the AI cameras in a city enforcement pilot.",
+      "steps": 0
+    },
+    {
+      "name": "Transportes Urbanos de Braga (TUB)",
+      "type": "public body",
+      "what": "Braga's urban bus operator, which carried the Hayden AI cameras in the 2024 pilot.",
+      "source_url": "https://www.diariodominho.pt/noticias/braga/2025-01-29-inteligencia-artificial-detecta-8-mil-infracoes-de-estacionamento-nas-paragens-de-autocarros-em-braga-679a09272abdf",
+      "read_on": "2026-11-16",
+      "ai_path": "Hosts an AI camera pilot on its buses.",
+      "steps": 0
+    },
+    {
+      "name": "Startup Braga",
+      "type": "organisation",
+      "url": "https://www.startupbraga.com",
+      "what": "InvestBraga's innovation hub for acceleration, incubation and ecosystem development. It took 15 startups to Web Summit 2026 and ran a September 2026 news item on the SpaceXAI lab.",
+      "source_url": "https://vmtv.sapo.pt/ecossistema-da-startup-braga-presente-na-web-summit-2026/",
+      "read_on": "2026-11-16",
+      "ai_path": "Incubates and accelerates AI startups.",
+      "steps": 1
+    },
+    {
+      "name": "InvestBraga",
+      "type": "public body",
+      "url": "https://www.investbraga.com",
+      "what": "The municipality's economic development company, created in 2014, which runs Startup Braga. In May 2026 its executive administrator named AI, data, semiconductors and microelectronics as areas where Braga could attract new companies.",
+      "source_url": "https://observador.pt/programas/emissao-especial/braga-conseguiu-tracar-um-caminho-na-fixacao-do-talento/",
+      "read_on": "2026-11-16",
+      "ai_path": "A council agency that names AI as a target sector.",
+      "steps": 1
+    },
+    {
+      "name": "PluggableAI",
+      "type": "startup",
+      "url": "https://www.fanofthematch.ai",
+      "what": "Startup founded in 2022, incubated at Startup Braga. Its Fanmeter product uses AI and non-intrusive sensors for fan engagement and has been used by Sporting Clube de Braga and Rock in Rio. Raised a 1.75 million euro seed round in September 2024.",
+      "source_url": "https://www.startupbraga.com/Detail/Index/9ccad6eb-74c8-11ef-9f30-000d3ad7a4dc",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells an AI and sensor product for sports and events.",
+      "steps": 0
+    },
+    {
+      "name": "dotmoovs",
+      "type": "startup",
+      "what": "Braga startup (the press says founded December 2024) whose app uses AI on phone video to analyse exercise movements and aims to help spot sports talent.",
+      "source_url": "https://newinbraga.nit.pt/fit/esta-app-bracarense-usa-ia-para-corrigir-os-seus-exercicios-enquanto-treina",
+      "read_on": "2026-11-16",
+      "ai_path": "Ships a computer-vision product.",
+      "steps": 0
+    },
+    {
+      "name": "Automaise",
+      "type": "startup",
+      "what": "Braga company with a cloud, low-code AI platform for voice, chat and inbox automation. A 2021 article reports a 1 million euro seed round and 14 staff. We found nothing newer.",
+      "source_url": "https://www.startupbraga.com/Detail/Index/1ef365e4-6a40-11eb-8832-000d3ad7a4dc",
+      "read_on": "2026-11-16",
+      "ai_path": "Sells AI automation software.",
+      "steps": 0
+    },
+    {
+      "name": "ASOagentAI",
+      "type": "startup",
+      "what": "Startup in the Startup Braga ecosystem at Web Summit 2026 with an AI agent that gets app installs and revenue. The accelerator's news list also shows ASOagent among the winners of its 10th acceleration programme in June 2026.",
+      "source_url": "https://vmtv.sapo.pt/ecossistema-da-startup-braga-presente-na-web-summit-2026/",
+      "read_on": "2026-11-16",
+      "ai_path": "Builds an AI agent product.",
+      "steps": 0
+    },
+    {
+      "name": "eDynamics",
+      "type": "startup",
+      "what": "Startup in the Startup Braga ecosystem at Web Summit 2026 that combines biomechanics and AI to turn movement data into injury-risk alerts.",
+      "source_url": "https://vmtv.sapo.pt/ecossistema-da-startup-braga-presente-na-web-summit-2026/",
+      "read_on": "2026-11-16",
+      "ai_path": "Builds AI on movement data.",
+      "steps": 0
+    },
+    {
+      "name": "LogisticsWMS",
+      "type": "startup",
+      "what": "Startup in the Startup Braga ecosystem at Web Summit 2026 with an AI-based warehouse management system.",
+      "source_url": "https://vmtv.sapo.pt/ecossistema-da-startup-braga-presente-na-web-summit-2026/",
+      "read_on": "2026-11-16",
+      "ai_path": "Builds an AI warehouse product.",
+      "steps": 0
+    },
+    {
+      "name": "Zixago",
+      "type": "startup",
+      "url": "https://zixago.com",
+      "what": "Startup in the Startup Braga ecosystem at Web Summit 2026 described as synthetic infrastructure for AI.",
+      "source_url": "https://vmtv.sapo.pt/ecossistema-da-startup-braga-presente-na-web-summit-2026/",
+      "read_on": "2026-11-16",
+      "ai_path": "Builds infrastructure for AI.",
+      "steps": 0
+    },
+    {
+      "name": "GDG Braga",
+      "type": "community",
+      "url": "https://gdg.community.dev/gdg-braga/",
+      "what": "Google Developer Groups chapter in Braga. Its page lists a 30 September 2026 session on agentic command-line tools with Gemma and a 16 June 2026 joint event with DevOps Braga, and shows no upcoming events.",
+      "source_url": "https://gdg.community.dev/gdg-braga/",
+      "read_on": "2026-11-16",
+      "ai_path": "A developer community whose recent events include agentic AI tooling.",
+      "steps": 0
+    },
+    {
+      "name": "Subvisual",
+      "type": "company",
+      "what": "Braga software and venture studio that hosted Agents Day Braga 2026 at its workspace with LayerX and Talent Protocol.",
+      "source_url": "https://taikai.network/blog/agents-day-braga",
+      "read_on": "2026-11-16",
+      "ai_path": "Hosts an AI agents hackathon.",
+      "steps": 1
+    },
+    {
+      "name": "Arquidiocese de Braga",
+      "type": "organisation",
+      "what": "The archdiocese organises a 21 November 2026 assembly on AI, human dignity and inequality for lay movements.",
+      "source_url": "https://bragatv.pt/arquidiocese-de-braga-promove-reflexao-sobre-a-dignidade-humana-na-era-da-inteligencia-artificial/",
+      "read_on": "2026-11-16",
+      "ai_path": "A civil-society body convening a debate on AI.",
+      "steps": 1
+    },
+    {
+      "name": "Hospital de Braga (ULS Braga)",
+      "type": "public body",
+      "what": "A 2023 article reports the hospital's operating block adopting Surgery On Time, a machine-learning scheduling system built by Lean Health Portugal. We found no 2026 AI deployment at the hospital.",
+      "source_url": "https://ominho.pt/inteligencia-artificial-ja-ajuda-a-agendar-cirurgias-no-hospital-de-braga/",
+      "read_on": "2026-11-16",
+      "ai_path": "Uses a machine-learning scheduler in surgery planning.",
+      "steps": 0
+    }
+  ],
+  "extras": [],
+  "identity": {
+    "key_id": "site.braga-promptugal",
+    "signed_by": "place.districts@PrompTugal.dinis"
+  },
+  "gaps": [
+    "Centro ALGORITMI, UMinho's computing research centre, is the obvious AI research group in Braga, but its site returned a 503 each time we tried, so it is on the map only through the university's Amalia role. Sources to look for: ALGORITMI's own news page and the UMinho AI master's page.",
+    "We could not open the council's news page in a form that shows dates, and the main page lists old English-language headlines only. The council's AI use rests on one paywalled 2025 article and one 2025 pilot report, so we should look for council minutes, Norte 2030 and base.gov.pt notices for Intelligence4Administration.",
+    "No feed found for the council, InvestBraga, Startup Braga, UMinho or Diario do Minho. O Minho and Braga TV feeds work.",
+    "A Cegid session in Braga on 24 November 2026 is listed by one search result, but another source places a similarly titled event in Funchal, so we left it out until Cegid's own registration page is read. We also could not reach Cegid's May 2026 Braga event article (403).",
+    "Hayden AI and NIUM have no base city on the pages we opened, so they are placed on the map by their Braga work, not as Braga companies.",
+    "dotmoovs: the press says founded in December 2024, other profiles say 2021, and one search result gave a PRR figure of 922,000 euros while the public PRR register page shows 30,000 euros for its project. We use the register's figure and flag the clash.",
+    "Sources that would settle the AI map: the Hospital de Braga's own site for any 2026 AI use, the AEBraga training page (a course on AI no-code programming is listed in search but its page returned 404), INESC TEC and 2CA-Braga for health AI, and the University of Minho's technology-transfer pages.",
+    "Investors: only older rounds found (Automaise 2021, PluggableAI 2024). No 2026 funding round for a Braga AI company was found. Sources to look for: Portugal Ventures and Banco de Fomento notices and company announcements.",
+    "We did not read Startup Braga's pages on specific events, so the programme of its Startup Point and accelerator editions is not described, and no talent list is filled.",
+    "Braga has no data centre story in what we read, and the Deucalion supercomputer named at the November meeting is in Guimaraes, so it is not on the Braga map."
+  ],
+  "voice": {
+    "lede": "Braga, ai ai ai: a city that rings its bells for the archbishop on Sunday and trains its models on Monday, with a bus full of AI cameras counting who parked on the bus stop.",
+    "mandate": "PrompTugal.news Braga, a cidade dos arcebispos e das startups: AI and tech in Braga, with Minho the university, INL and the company labs doing the thinking, plus whatever news reaches us from the Minho, Portugal and the world. Independente, and every fact has a receipt.",
+    "gravity": "Braga cannot pick just one: the university does research, INL tinkers at the nano scale, Cegid and Bosch hire the engineers, Startup Braga packs fifteen startups off to Lisbon, and the Camara, bless it, actually buys the AI and puts it on a bus. Four engines, one granite city, sim senhor.",
+    "gaps_intro": "Ainda ha coisas que Braga nao nos disse, pa. Here is what we are still missing:"
+  },
+  "start_company": [
+    {
+      "name": "Startup Braga",
+      "what": "InvestBraga's innovation hub with pre-acceleration (Startup Point), an acceleration programme and incubation. Its focus areas are nanotechnology, health technologies, digital economy, biotechnology and sustainability.",
+      "url": "https://www.startupbraga.com",
+      "source_url": "https://www.startupbraga.com",
+      "read_on": "2026-11-16",
+      "kind": "incubator"
+    },
+    {
+      "name": "InvestBraga",
+      "what": "The municipality's economic development agency, which also runs the Startup Braga hub and works on attracting companies to Braga.",
+      "url": "https://www.investbraga.com",
+      "source_url": "https://observador.pt/programas/emissao-especial/braga-conseguiu-tracar-um-caminho-na-fixacao-do-talento/",
+      "read_on": "2026-11-16",
+      "kind": "public desk"
+    }
+  ],
+  "investors": [
+    {
+      "name": "GED Ventures (GED Tech Seed fund) and Portugal Ventures into PluggableAI",
+      "what": "A 1.75 million euro seed round for a Braga startup incubated at Startup Braga, after a 100,000 euro pre-seed.",
+      "url": "https://observador.pt/2024/09/17/startup-portuguesa-pluggableai-recebe-quase-2-milhoes-para-chegar-ao-medio-oriente/",
+      "source_url": "https://www.startupbraga.com/Detail/Index/9ccad6eb-74c8-11ef-9f30-000d3ad7a4dc",
+      "read_on": "2026-11-16",
+      "type": "investment",
+      "amount": "1.75 million euros",
+      "date": "2024-09-17",
+      "ai_path": "Funds a company whose product uses AI and sensors: directly about AI."
+    },
+    {
+      "name": "HCapital, with Bright Pixel and Armilar Venture Partners, into Automaise",
+      "what": "A 1 million euro seed round for a Braga AI automation platform.",
+      "url": "https://www.startupbraga.com/Detail/Index/1ef365e4-6a40-11eb-8832-000d3ad7a4dc",
+      "source_url": "https://www.startupbraga.com/Detail/Index/1ef365e4-6a40-11eb-8832-000d3ad7a4dc",
+      "read_on": "2026-11-16",
+      "type": "investment",
+      "amount": "1 million euros",
+      "date": "2021-02-08",
+      "ai_path": "Funds an AI automation platform: directly about AI. Old."
+    },
+    {
+      "name": "EIT Community AI Challenge prize to Braga and Hayden AI",
+      "what": "A European Institute of Innovation and Technology AI challenge prize that funded the bus-camera pilot. The amount is not stated on the pages we read.",
+      "url": "https://www.diariodominho.pt/noticias/braga/2025-01-29-inteligencia-artificial-detecta-8-mil-infracoes-de-estacionamento-nas-paragens-de-autocarros-em-braga-679a09272abdf",
+      "source_url": "https://www.diariodominho.pt/noticias/braga/2025-01-29-inteligencia-artificial-detecta-8-mil-infracoes-de-estacionamento-nas-paragens-de-autocarros-em-braga-679a09272abdf",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "date": "2025-01-29",
+      "ai_path": "Pays for a public AI pilot: directly about AI."
+    },
+    {
+      "name": "Norte 2030 into Intelligence4Administration",
+      "what": "About 1.5 million euros of regional programme money for the council's project to bring AI into municipal administration.",
+      "url": "https://www.diariodominho.pt/noticias/braga/2025-08-18-inteligencia-artificial-vai-entrar-na-gestao-da-camara-municipal-de-braga-68a38c24877b1",
+      "source_url": "https://www.diariodominho.pt/noticias/braga/2025-08-18-inteligencia-artificial-vai-entrar-na-gestao-da-camara-municipal-de-braga-68a38c24877b1",
+      "read_on": "2026-11-16",
+      "type": "programme",
+      "amount": "about 1.5 million euros",
+      "date": "2025-08-18",
+      "ai_path": "Funds AI in a city administration: directly about AI."
+    },
+    {
+      "name": "PRR (via IAPMEI) into dotmoovs",
+      "what": "A 30,000 euro non-repayable PRR grant to a Braga company for its digital sports network. The register lists Braga as the only municipality funded.",
+      "url": "https://transparencia.gov.pt/pt/fundos-europeus/prr/beneficiarios-projetos/projeto/10/C16-i02/2022.P3726/",
+      "source_url": "https://transparencia.gov.pt/pt/fundos-europeus/prr/beneficiarios-projetos/projeto/10/C16-i02/2022.P3726/",
+      "read_on": "2026-11-16",
+      "type": "grant",
+      "amount": "30,000 euros",
+      "ai_path": "Funds a company that sells an AI movement app: one step from AI, because the register page does not mention AI."
+    }
+  ]
+}
