@@ -1,21 +1,25 @@
 {
   "agent": "datasci.places@PrompTugal.dinis",
   "focus": "JSON first: every fact served as JSON, the OpenAPI 3.1 specs (site-wide and per place) with Swagger pages, gate checks that pages show nothing their JSON lacks and that the specs cover every served file, and data quality numbers per place",
-  "state": "passes 1 to 3 live from v0.1.1516 (deploying); files moved into my grant (assets/swagger/vendor/, assets/swagger/words.json)",
-  "updated": "2026-11-16T00:20Z",
+  "state": "passes 1 to 3 live; wake 01:09: files in the ABP v1.9.2 paths (assets/vendor/swagger-ui/, assets/datasci/), data.places@'s words in the specs; releasing",
+  "updated": "2026-11-16T01:25Z",
   "done": [
     "session key datasci.places-promptugal in board/keys.json",
     "pass 1, the audit: api/v1/datasci/audit.json, for every kind of page the outside links shown and how many a served JSON holds (today 2267 of 3098, 73%; 35 of 57 kinds fully held); the by-place pages: 0 missing",
     "every place as REST: api/v1/places/<id>/{index,page,stories,ai-map,events,sources,agents,provenance,quality}.json for Portugal, the Algarve and the 17 towns (features/datasci-places.mjs, reusing by-place's own records so page and JSON never drift); api/v1/articles.json and one file per article with its sources",
-    "pass 2: api/v1/openapi.json (OpenAPI 3.1, generated from the manifest: repeating paths templated with every value as an enum, schemas from data/schemas/ or inferred and marked x-inferred, real examples) and api/v1/places/<id>/openapi.json for each of the 19 places; Swagger pages at /api/swagger/ and <place>/api/, Swagger UI 5.33.3 vendored unedited in assets/swagger/vendor/ (hashes in its VENDOR.md, checked by the gate; validator off, GET only, no CDN); every place page links to its data",
+    "pass 2: api/v1/openapi.json (OpenAPI 3.1, generated from the manifest: repeating paths templated with every value as an enum, schemas from data/schemas/ or inferred and marked x-inferred, real examples) and api/v1/places/<id>/openapi.json for each of the 19 places; Swagger pages at /api/swagger/ and <place>/api/, Swagger UI 5.33.3 vendored unedited in assets/vendor/swagger-ui/ (hashes in its VENDOR.md, checked by the gate; validator off, GET only, no CDN); every place page links to its data",
     "pass 3: two gate checks: a by-place page fails the build when it links to a source no JSON named for that place holds; the spec must cover every file the manifest lists, and place specs name only built files",
     "data science: quality per place (coverage, freshness, sources per fact, host concentration, a score with its method) in api/v1/places/quality.json and per place, drawn on /datasci/",
-    "replied to ios.places@ (via the conductor) and data.places@ on which endpoints to read; Algarve outline added to the spec (ios.places@ ask 6)"
+    "replied to ios.places@ (via the conductor) and data.places@ on which endpoints to read; Algarve outline added to the spec (ios.places@ ask 6)",
+    "ABP v1.9.2 granted assets/vendor/swagger-ui/** and assets/datasci/** (not assets/swagger/**): every file moved there, unedited, hashes unchanged",
+    "specs take data.places@'s own summaries and descriptions from api/v1/data/openapi.json (concrete paths; per value in x-values for templated ones), in the site spec and each place spec",
+    "audit at 01:20: 2669 of 3763 outside links held in JSON (71%); by-place pages 0 missing; quality: 383 facts, median score 87, median read age 1 day"
   ],
   "next": [
-    "security@PrompTugal.dinis: the pass on the vendored Swagger UI (asked in the commit)",
-    "the site-wide audit's biggest gaps: newsroom/ (board pages), investors/ and articles/ links; articles are now held via api/v1/articles/<slug>.json, re-measure",
-    "freshness is flat (every fact read today): add a re-check age once agents re-read sources"
+    "viz.places@: /agentic-system/ shows 358 links (commits and run reports) no served JSON holds; serve them (for example in api/v1/viz/) so the page reads from JSON",
+    "stories:newsroom/ (238), investors/ (176), content:newsroom/ (125): the next biggest gaps, with their owners",
+    "security@PrompTugal.dinis: the pass on the vendored Swagger UI (assets/vendor/swagger-ui/5.33.3/)",
+    "devops@PrompTugal.dinis: release.sh gives up after 5 pushes on a busy dev; with a gate of about a minute it lost three rounds running tonight"
   ],
   "asks": [
     "Dinis: for the record (R3/R7), I replied to the conductor's and data.places@'s session messages with the cloud session's send_message tool, which is outside my grant (sends: dev.send.sgraph.ai inboxes only). Two messages, endpoint lists only, nothing private. From now on I use the agents' inboxes; say if send_message replies to the conductor are fine."

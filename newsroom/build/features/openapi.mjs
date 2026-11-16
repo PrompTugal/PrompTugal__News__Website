@@ -13,7 +13,7 @@
 //   api/swagger/index.html              Swagger UI on the whole spec; <place>/api/index.html on each place's
 //   datasci/index.html                  the data quality dashboard and the audit, drawn from the JSON above
 //
-// Swagger UI is vendored (assets/swagger/vendor/5.33.3/, unedited, hashes checked below): no CDN at runtime. The gate checks
+// Swagger UI is vendored (assets/vendor/swagger-ui/5.33.3/, unedited, hashes checked below): no CDN at runtime. The gate checks
 // that the spec covers every file the manifest lists, that each place spec's paths are files the build wrote, and the
 // vendored hashes.
 import fs from 'node:fs'
@@ -22,9 +22,9 @@ import { placeList, endpoints, quality, words, fillW } from './datasci-places.mj
 
 export const order = 98
 const SITE = 'https://promptugal.news'
-const SW = 'assets/swagger/vendor/5.33.3'
+const SW = 'assets/vendor/swagger-ui/5.33.3'
 const VENDORED = { 'swagger-ui-bundle.js': '3861ec4cc8e7b9fa9f250280da9350436e418137788282c753b9a2ac5fb7bd2f', 'swagger-ui.css': '1ac324f7dcd27e4b9386b4bd6421271ec147e922a22c05ba24b11515e9aa6321' }
-const ASSETS = { css: [`${SW}/swagger-ui.css`, 'assets/swagger/swagger-page.css'], js: [`${SW}/swagger-ui-bundle.js`, 'assets/swagger/swagger-page.js'] }
+const ASSETS = { css: [`${SW}/swagger-ui.css`, 'assets/datasci/swagger-page.css'], js: [`${SW}/swagger-ui-bundle.js`, 'assets/datasci/swagger-page.js'] }
 // files made in the build's final step (after the API), which the spec cannot read as data; each named with its type
 const FINALS = [{ path: 'api/v1/deploy-exclude.txt', type: 'text/plain' }, { path: 'sw.js', type: 'text/javascript' }, { path: 'api/v1/manifest.json', type: 'application/json' }]
 const STATIC = ['assets/portugal/algarve-outline.json']
@@ -161,6 +161,30 @@ function operation(g, comps, { exampleFile } = {}) {
 function refsIn(o, out = new Set()) { if (Array.isArray(o)) o.forEach(x => refsIn(x, out)); else if (o && typeof o === 'object') for (const [k, v] of Object.entries(o)) { if (k === '$ref' && typeof v === 'string' && v.startsWith('#/components/schemas/')) out.add(v.split('/')[3]); else refsIn(v, out) } return out }
 function closure(comps, roots) { const need = new Set(roots), q = [...roots]; while (q.length) { const n = q.pop(); for (const r of refsIn(comps[n] || {})) if (!need.has(r)) { need.add(r); q.push(r) } } return Object.fromEntries([...need].filter(n => comps[n]).sort().map(n => [n, comps[n]])) }
 
+
+// data.places@'s own words for its paths (api/v1/data/openapi.json, agreed 16 Nov 2026): their summary and description
+// win for a concrete path; a templated path lists each value's summary in its description and in x-values
+function theirWords(files) {
+    const f = files.find(x => x.path === 'api/v1/data/openapi.json')
+    let doc = f && f.data
+    if (typeof doc === 'string') { try { doc = JSON.parse(doc) } catch { doc = null } }
+    const out = new Map()
+    for (const [p, op] of Object.entries((doc && doc.paths) || {})) if (op && op.get) out.set(p.replace(/\{\w+\}/g, '{}'), { summary: op.get.summary, description: op.get.description })
+    return out
+}
+function enrich(paths, words, groups) {
+    if (!words.size) return
+    for (const [p, op] of Object.entries(paths)) {
+        const w = words.get(p.replace(/\{\w+\}/g, '{}'))
+        if (w) { if (w.summary) op.get.summary = w.summary; if (w.description) op.get.description = w.description; op.get['x-words'] = 'data.places@PrompTugal.dinis'; continue }
+        const g = groups && groups.find(x => `/${x.template}` === p && x.param)
+        if (!g) continue
+        const vals = {}
+        for (const f of g.files) { const ww = words.get(`/${f.path}`); if (ww && ww.summary) vals[f.path.split('/').pop().replace(/\.[a-z0-9]+$/, '')] = ww.summary }
+        if (Object.keys(vals).length) { op.get['x-values'] = vals; op.get.description += '\n\n' + Object.entries(vals).map(([k, v]) => `- \`${k}\`: ${v}`).join('\n'); op.get['x-words'] = 'data.places@PrompTugal.dinis' }
+    }
+}
+
 let WORDS
 const info = (ctx, title, description) => ({ title, version: ctx.VERSION, description, license: { name: WORDS.spec.licence, identifier: 'CC-BY-4.0' }, contact: { name: 'PrompTugal.news', url: `${SITE}/api/` } })
 
@@ -184,6 +208,8 @@ export function final(ctx) {
     const specOp = (about, values) => ({ get: { operationId: opId(values ? 'api/v1/places/{id}/openapi.json' : 'api/v1/openapi.json'), tags: ['meta'], summary: about, ...(values ? { parameters: [{ name: 'id', in: 'path', required: true, schema: { type: 'string', enum: values } }] } : {}), responses: { 200: { description: S.doc, content: { 'application/json': { schema: { type: 'object', required: ['openapi', 'info', 'paths'], properties: { openapi: { const: '3.1.0' }, info: { type: 'object' }, paths: { type: 'object' } } } } } } } } })
     paths['/api/v1/openapi.json'] = specOp(S.this_doc)
     paths['/api/v1/places/{id}/openapi.json'] = specOp(S.place_doc, places.map(r => r.id))
+    const theirs = theirWords(files)
+    enrich(paths, theirs, groups)
     const used = refsIn(paths)
     const whole = {
         openapi: '3.1.0',
@@ -206,6 +232,7 @@ export function final(ctx) {
         for (const s of shared) if (byPath.has(s)) p[`/${s}`] = operation({ template: s, files: [byPath.get(s)] }, comps)
         const tables = files.filter(f => /^api\/v1\/data\/tables\/[^/]+\.json$/.test(f.path))
         if (tables.length) p['/api/v1/data/tables/{slug}.json'] = operation({ template: 'api/v1/data/tables/{slug}.json', param: 'slug', values: tables.map(f => f.path.split('/').pop().replace('.json', '')), files: tables }, comps)
+        enrich(p, theirs, [{ template: 'api/v1/data/tables/{slug}.json', param: 'slug', files: tables }])
         p[`/api/v1/places/${r.id}/openapi.json`] = { get: { operationId: opId(`api/v1/places/${r.id}/openapi.json`), tags: ['meta'], summary: S.this_place_doc, responses: { 200: { description: S.doc, content: { 'application/json': { schema: { type: 'object' } } } } } } }
         for (const op of Object.values(p)) op.get.tags = [op.get.tags[0] === 'meta' ? 'meta' : (op.get.tags[0] === 'places' ? r.name : op.get.tags[0])]
         const spec = {
@@ -273,7 +300,7 @@ function dashboard(ctx, places, pathOf) {
         rows.sort((a, b) => b.q.score.value - a.q.score.value).map(({ r, q }) => `| [${cell(r.name)}](${ctx.link(rel, `${pathOf(r.id)}index.html`)}) | DSBAR${q.score.value} | ${q.counts.facts} | ${pct(q.coverage.overall)} | ${pct(q.coverage.with_source)} | ${q.freshness.median_read_age_days === null ? 'n/a' : fillW(P.days, { n: q.freshness.median_read_age_days })} | ${q.sources.distinct_hosts} | ${pct(q.sources.top_host_share)} | [quality.json](${ctx.link(rel, `api/v1/places/${r.id}/quality.json`)}) · [Swagger](${ctx.link(rel, `${pathOf(r.id)}api/index.html`)}) |`).join('\n') +
         `\n\n## ${P.dash_method_h} {#method}\n\n${Object.entries(Wd.method).map(([k, v]) => `- **${k}:** ${cell(v)}`).join('\n')}\n\n` +
         `## ${P.dash_audit_h} {#audit}\n\n` + fillW(P.dash_audit, { audit: ctx.link(rel, 'api/v1/datasci/audit.json'), swagger: ctx.link(rel, 'api/swagger/index.html') }) + '\n'
-    return { rel, title: P.dash_title, type: 'site', layout: 'wide', src: 'newsroom/build/features/datasci-places.mjs', summary: P.dash_summary, crumbs: [['api/index.html', 'The data, as JSON'], [null, 'Data quality']], assets: { css: ['assets/swagger/swagger-page.css'] },
+    return { rel, title: P.dash_title, type: 'site', layout: 'wide', src: 'newsroom/build/features/datasci-places.mjs', summary: P.dash_summary, crumbs: [['api/index.html', 'The data, as JSON'], [null, 'Data quality']], assets: { css: ['assets/datasci/swagger-page.css'] },
         postHtml: html => html.replace(/DSBAR(\d+)/g, (m, v) => bar(+v)), md, twinMd: md.replace(/DSBAR(\d+)/g, '$1') }
 }
 

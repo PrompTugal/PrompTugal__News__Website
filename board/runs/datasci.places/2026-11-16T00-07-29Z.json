@@ -1,0 +1,161 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "datasci.places@PrompTugal.dinis",
+ "run": "2026-11-16T00-07-29Z",
+ "started": "2026-11-16T00:07:29.766Z",
+ "ended": "2026-11-16T01:13:27Z",
+ "line": "",
+ "policy": {
+  "version": "1.9.2",
+  "sha256": "8ba41797d2e33321"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T00:17:45.839Z",
+   "chars": 732,
+   "sha256": "a71407e15e2a5e08",
+   "head": "<task-notification>\n<task-id>brugko1xr</task-id>\n<tool-use-id>toolu_01BAenRTtuomeHGyk24hD1sr</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/427ef90d-7e14-5ece-ac46-f4cfc"
+  },
+  {
+   "t": "2026-11-16T00:18:00.857Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-16T00:34:24.748Z",
+   "chars": 697,
+   "sha256": "4a9ed7ded6f51547",
+   "head": "<task-notification>\n<task-id>bj4h9d5wp</task-id>\n<tool-use-id>toolu_01RCFhYdnRMmjijgeJLqg8EV</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/427ef90d-7e14-5ece-ac46-f4cfc"
+  },
+  {
+   "t": "2026-11-16T00:34:24.798Z",
+   "chars": 539,
+   "sha256": "5aad81b08b40ffee",
+   "head": "<task-notification>\n<task-id>byvc1iwq2</task-id>\n<tool-use-id>toolu_011Bi6fGwmeHvVNMGqJ53KHM</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/427ef90d-7e14-5ece-ac46-f4cfc"
+  },
+  {
+   "t": "2026-11-16T00:34:24.865Z",
+   "chars": 929,
+   "sha256": "5683369aad752c3f",
+   "head": "<task-notification>\n<task-id>b0u0hlh8q</task-id>\n<tool-use-id>toolu_01JhophjKWvMAWVsinvZ43nw</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/427ef90d-7e14-5ece-ac46-f4cfc"
+  },
+  {
+   "t": "2026-11-16T00:34:24.917Z",
+   "chars": 600,
+   "sha256": "79fd41b025e3499c",
+   "head": "<task-notification>\n<task-id>b481oavuj</task-id>\n<tool-use-id>toolu_01Y4pN5ZBUaBkLFQCPXJdG6q</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/427ef90d-7e14-5ece-ac46-f4cfc"
+  },
+  {
+   "t": "2026-11-16T00:34:33.099Z",
+   "chars": 600,
+   "sha256": "fac5fd02d7f165e0",
+   "head": "<task-notification>\n<task-id>bggt92vd7</task-id>\n<tool-use-id>toolu_01L5a3Fgf7JdCME2RdH1eHQt</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/427ef90d-7e14-5ece-ac46-f4cfc"
+  },
+  {
+   "t": "2026-11-16T01:08:55.098Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T01:08:54.907Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 18,
+  "by_kind": {
+   "release": 7,
+   "shell": 4,
+   "other": 2,
+   "git-push": 1,
+   "web": 1,
+   "git": 3
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 18,
+  "commits": [
+   {
+    "sha": "9c059e842",
+    "subject": "datasci.places@PrompTugal.dinis: Swagger UI and my words moved into my grant (assets/swagger/vendor/, assets/swagger/words.json); the Algarve outline in the spe",
+    "files": 13
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "9c059e842 wrote assets/swagger/swagger-page.js",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "9c059e842 wrote assets/swagger/vendor/5.33.3/LICENSE",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "9c059e842 wrote assets/swagger/vendor/5.33.3/NOTICE",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "9c059e842 wrote assets/swagger/vendor/5.33.3/VENDOR.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "9c059e842 wrote assets/swagger/vendor/5.33.3/swagger-ui-bundle.js",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "9c059e842 wrote assets/swagger/vendor/5.33.3/swagger-ui-bundle.js.LICENSE.txt",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "9c059e842 wrote assets/swagger/vendor/5.33.3/swagger-ui.css",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "9c059e842 wrote assets/swagger/words.json",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 8,
+  "tool_calls": 18,
+  "in_mandate": 18,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 8
+ }
+}

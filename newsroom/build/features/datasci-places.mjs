@@ -102,9 +102,9 @@ export function quality(ctx, r) {
     }
 }
 
-// the words live in assets/swagger/words.json (the quality gate keeps prose out of code)
+// the words live in assets/datasci/words.json (the quality gate keeps prose out of code)
 let WORDS = null
-export const words = ctx => WORDS || (WORDS = ctx.readJSON('assets/swagger/words.json'))
+export const words = ctx => WORDS || (WORDS = ctx.readJSON('assets/datasci/words.json'))
 export const fillW = (s, v = {}) => String(s ?? '').replace(/\{(\w+)\}/g, (m, k) => v[k] !== undefined ? v[k] : m)
 
 // the agents that keep a place, from the record only
