@@ -5,7 +5,7 @@
   "title": "AMALIA and ANIA: what Portugal says about its own AI plans",
   "beat": "Portugal",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [
     "evidence:v-inesc-id-amalia-launch",
     "evidence:v-digital-gov-pt-ania"
@@ -17,7 +17,9 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-14-1150.json",
-      "desks/journalist-vicky/drafts/S64-amalia-and-ania-portugal-ai-plans.md"
+      "desks/journalist-vicky/drafts/S64-amalia-and-ania-portugal-ai-plans.md",
+      "desks/reviewer-vicky/reviews/S64.md",
+      "content/articles/amalia-and-ania-portugal-ai-plans.md"
     ]
   },
   "assignee": "journalist-portugal@PrompTugal.vicky",
@@ -25,9 +27,20 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S64-amalia-and-ania-portugal-ai-plans.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S64.md",
+      "verdict": "Ready, published under R-PUB-1",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-16"
+    }
+  ],
+  "article": {
+    "path": "content/articles/amalia-and-ania-portugal-ai-plans.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -40,6 +53,18 @@
       "at": "2026-11-16",
       "by": "journalist-portugal@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S64-amalia-and-ania-portugal-ai-plans.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-16",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S64.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-16",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "content/articles/amalia-and-ania-portugal-ai-plans.md"
     }
   ]
 }
