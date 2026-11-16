@@ -1,0 +1,78 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "accountant@PrompTugal.dinis",
+ "run": "2026-11-16T09-53-26Z",
+ "started": "2026-11-16T09:53:26.075Z",
+ "ended": "2026-11-16T12:53:12Z",
+ "line": "12:47 wake: 12:50 reading (Opus and place.districts read; Sonnet place agents carried from 06:50); 260.78 team, 73.12 iOS; over: accountant 3.28, place.districts 3.2; idle large-context checks noted; costs pages regenerated; gate OK",
+ "policy": {
+  "version": "1.13.0",
+  "sha256": "5ee0b6078b37ba8d"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T09:59:30.355Z",
+   "chars": 384,
+   "sha256": "b388d518bd1dfc85",
+   "head": "<task-notification>\n<task-id>bd3pwx8c7</task-id>\n<tool-use-id>toolu_012cdeQ2StYUyapdfGZ8p2mB</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/1e5abb0b-0746-5a14-a474-08aeb"
+  },
+  {
+   "t": "2026-11-16T12:49:33.316Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T12:49:33.090Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 22,
+  "by_kind": {
+   "release": 1,
+   "shell": 3,
+   "git": 2,
+   "other": 1,
+   "remote-read": 14,
+   "git-commit": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 22,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 22,
+  "in_mandate": 22,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

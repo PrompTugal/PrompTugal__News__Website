@@ -1,0 +1,152 @@
+{
+ "about": "A reading of the day: every account A PrompTugal session (get_session) minus the day's baseline. API-equivalent.",
+ "read_at": "2026-11-16T12:50Z",
+ "rows": [
+  {
+   "agent": "accountant@PrompTugal.dinis",
+   "today": 32.83
+  },
+  {
+   "agent": "place.districts@PrompTugal.dinis",
+   "today": 31.96
+  },
+  {
+   "agent": "conductor@PrompTugal.dinis",
+   "today": 29.39
+  },
+  {
+   "agent": "ios.places@PrompTugal.dinis",
+   "today": 24.18
+  },
+  {
+   "agent": "dev.places@PrompTugal.dinis",
+   "today": 16.8
+  },
+  {
+   "agent": "viz.places@PrompTugal.dinis",
+   "today": 16.02
+  },
+  {
+   "agent": "observability@PrompTugal.dinis",
+   "today": 15.35
+  },
+  {
+   "agent": "security@PrompTugal.dinis",
+   "today": 13.26
+  },
+  {
+   "agent": "data.places@PrompTugal.dinis",
+   "today": 13.05
+  },
+  {
+   "agent": "designer.places@PrompTugal.dinis",
+   "today": 10.79
+  },
+  {
+   "agent": "abp@PrompTugal.dinis",
+   "today": 8.11
+  },
+  {
+   "agent": "datasci.places@PrompTugal.dinis",
+   "today": 6.01
+  },
+  {
+   "agent": "place.algarve@PrompTugal.dinis",
+   "today": 4.87
+  },
+  {
+   "agent": "detective.places@PrompTugal.dinis",
+   "today": 2.92
+  },
+  {
+   "agent": "place.monchique@PrompTugal.dinis",
+   "today": 2.87
+  },
+  {
+   "agent": "place.olhao@PrompTugal.dinis",
+   "today": 2.5
+  },
+  {
+   "agent": "place.loule@PrompTugal.dinis",
+   "today": 2.44
+  },
+  {
+   "agent": "translator@PrompTugal.dinis",
+   "today": 2.38
+  },
+  {
+   "agent": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+   "today": 2.3
+  },
+  {
+   "agent": "place.alcoutim@PrompTugal.dinis",
+   "today": 2.27
+  },
+  {
+   "agent": "place.lagoa@PrompTugal.dinis",
+   "today": 2.09
+  },
+  {
+   "agent": "place.vila-do-bispo@PrompTugal.dinis",
+   "today": 2.05
+  },
+  {
+   "agent": "place.faro@PrompTugal.dinis",
+   "today": 2.02
+  },
+  {
+   "agent": "place.quarteira@PrompTugal.dinis",
+   "today": 2.01
+  },
+  {
+   "agent": "place.lagos@PrompTugal.dinis",
+   "today": 1.94
+  },
+  {
+   "agent": "place.silves@PrompTugal.dinis",
+   "today": 1.59
+  },
+  {
+   "agent": "place.portimao@PrompTugal.dinis",
+   "today": 1.58
+  },
+  {
+   "agent": "place.portugal@PrompTugal.dinis",
+   "today": 1.53
+  },
+  {
+   "agent": "place.tavira@PrompTugal.dinis",
+   "today": 1.49
+  },
+  {
+   "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
+   "today": 1.26
+  },
+  {
+   "agent": "place.aljezur@PrompTugal.dinis",
+   "today": 1.17
+  },
+  {
+   "agent": "place.castro-marim@PrompTugal.dinis",
+   "today": 1.06
+  },
+  {
+   "agent": "place.albufeira@PrompTugal.dinis",
+   "today": 0.69
+  }
+ ],
+ "ios_team": {
+  "conductor.a.ios@promptugal.dinis": 37.98,
+  "appdev.live@promptugal.dinis": 6.33,
+  "appdev.ai@promptugal.dinis": 3.71,
+  "appdev.talk@promptugal.dinis": 5.03,
+  "devops.status@promptugal.dinis": 3.24,
+  "appdev.credit@promptugal.dinis": 12.93,
+  "appdev.wire@promptugal.dinis": 3.9
+ },
+ "total": {
+  "team": 260.78,
+  "ios_team": 73.12,
+  "since_previous": 51.15
+ }
+}

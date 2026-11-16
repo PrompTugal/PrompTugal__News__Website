@@ -9,23 +9,23 @@ The data: [`data/billing/agent-costs.json`](../../data/billing/agent-costs.json)
 
 ## Today (2026-11-16) {#today}
 
-The team: **209.63** of a 900 line, read at 2026-11-16T09:50Z.
+The team: **260.78** of a 900 line, read at 2026-11-16T12:50Z.
 
 | Agent | Today | Line a day | Session so far |
 |---|---:|---:|---:|
-| `place.districts` | 26.24 | 10.00 | 26.24 |
-| `accountant` | 25.22 | 10.00 | 172.12 |
-| `conductor` | 23.63 | 50.00 | 247.44 |
-| `ios.places` | 16.88 | 30.00 | 37.68 |
-| `viz.places` | 12.58 | 30.00 | 24.57 |
-| `dev.places` | 11.88 | 30.00 | 31.13 |
-| `observability` | 11.47 | 30.00 | 209.20 |
-| `data.places` | 10.85 | 30.00 | 29.75 |
-| `security` | 10.32 | 30.00 | 255.15 |
-| `designer.places` | 7.58 | 30.00 | 17.34 |
-| `datasci.places` | 5.15 | 30.00 | 15.00 |
+| `accountant` | 32.83 | 10.00 | 179.73 |
+| `place.districts` | 31.96 | 10.00 | 31.96 |
+| `conductor` | 29.39 | 50.00 | 253.20 |
+| `ios.places` | 24.18 | 30.00 | 44.98 |
+| `dev.places` | 16.80 | 30.00 | 36.05 |
+| `viz.places` | 16.02 | 30.00 | 28.01 |
+| `observability` | 15.35 | 30.00 | 213.08 |
+| `security` | 13.26 | 30.00 | 258.09 |
+| `data.places` | 13.05 | 30.00 | 31.95 |
+| `designer.places` | 10.79 | 30.00 | 20.55 |
+| `abp` | 8.11 | 25.00 | 87.98 |
+| `datasci.places` | 6.01 | 30.00 | 15.86 |
 | `place.algarve` | 4.87 | 8.00 | 7.80 |
-| `abp` | 4.80 | 25.00 | 84.67 |
 | `detective.places` | 2.92 | 10.00 | 4.96 |
 | `place.monchique` | 2.87 | 8.00 | 4.89 |
 
@@ -54,35 +54,35 @@ One agent per place, on Sonnet. Each place has its own page:
 | [Castro Marim](../../algarve/castro-marim/costs/index.html) | `place.castro-marim` | 1.06 | 8.00 | 2.42 |
 | [Alcoutim](../../algarve/alcoutim/costs/index.html) | `place.alcoutim` | 2.27 | 8.00 | 3.92 |
 | [São Brás de Alportel](../../algarve/sao-bras-de-alportel/costs/index.html) | `place.sao-bras-de-alportel` | 1.26 | 8.00 | 2.64 |
-| [Lisboa](../../portugal/lisboa/costs/index.html) | `place.districts` | 26.24 | 10.00 | 26.24 |
-| [Porto](../../portugal/porto/costs/index.html) | `place.districts` | 26.24 | 10.00 | 26.24 |
-| [Vila Real](../../portugal/vila-real/costs/index.html) | `place.districts` | 26.24 | 10.00 | 26.24 |
-| [Aveiro](../../portugal/aveiro/costs/index.html) | `place.districts` | 26.24 | 10.00 | 26.24 |
-| [Bragança](../../portugal/braganca/costs/index.html) | `place.districts` | 26.24 | 10.00 | 26.24 |
-| [Viana do Castelo](../../portugal/viana-do-castelo/costs/index.html) | `place.districts` | 26.24 | 10.00 | 26.24 |
-| [Braga](../../portugal/braga/costs/index.html) | `place.districts` | 26.24 | 10.00 | 26.24 |
-| [Coimbra](../../portugal/coimbra/costs/index.html) | `place.districts` | 26.24 | 10.00 | 26.24 |
-| [Castelo Branco](../../portugal/castelo-branco/costs/index.html) | `place.districts` | 26.24 | 10.00 | 26.24 |
-| [Guarda](../../portugal/guarda/costs/index.html) | `place.districts` | 26.24 | 10.00 | 26.24 |
-| [Viseu](../../portugal/viseu/costs/index.html) | `place.districts` | 26.24 | 10.00 | 26.24 |
-| [Leiria](../../portugal/leiria/costs/index.html) | `place.districts` | 26.24 | 10.00 | 26.24 |
-| [Santarém](../../portugal/santarem/costs/index.html) | `place.districts` | 26.24 | 10.00 | 26.24 |
-| [Portalegre](../../portugal/portalegre/costs/index.html) | `place.districts` | 26.24 | 10.00 | 26.24 |
-| [Setúbal](../../portugal/setubal/costs/index.html) | `place.districts` | 26.24 | 10.00 | 26.24 |
-| [Évora](../../portugal/evora/costs/index.html) | `place.districts` | 26.24 | 10.00 | 26.24 |
-| [Beja](../../portugal/beja/costs/index.html) | `place.districts` | 26.24 | 10.00 | 26.24 |
+| [Lisboa](../../portugal/lisboa/costs/index.html) | `place.districts` | 31.96 | 10.00 | 31.96 |
+| [Porto](../../portugal/porto/costs/index.html) | `place.districts` | 31.96 | 10.00 | 31.96 |
+| [Vila Real](../../portugal/vila-real/costs/index.html) | `place.districts` | 31.96 | 10.00 | 31.96 |
+| [Aveiro](../../portugal/aveiro/costs/index.html) | `place.districts` | 31.96 | 10.00 | 31.96 |
+| [Bragança](../../portugal/braganca/costs/index.html) | `place.districts` | 31.96 | 10.00 | 31.96 |
+| [Viana do Castelo](../../portugal/viana-do-castelo/costs/index.html) | `place.districts` | 31.96 | 10.00 | 31.96 |
+| [Braga](../../portugal/braga/costs/index.html) | `place.districts` | 31.96 | 10.00 | 31.96 |
+| [Coimbra](../../portugal/coimbra/costs/index.html) | `place.districts` | 31.96 | 10.00 | 31.96 |
+| [Castelo Branco](../../portugal/castelo-branco/costs/index.html) | `place.districts` | 31.96 | 10.00 | 31.96 |
+| [Guarda](../../portugal/guarda/costs/index.html) | `place.districts` | 31.96 | 10.00 | 31.96 |
+| [Viseu](../../portugal/viseu/costs/index.html) | `place.districts` | 31.96 | 10.00 | 31.96 |
+| [Leiria](../../portugal/leiria/costs/index.html) | `place.districts` | 31.96 | 10.00 | 31.96 |
+| [Santarém](../../portugal/santarem/costs/index.html) | `place.districts` | 31.96 | 10.00 | 31.96 |
+| [Portalegre](../../portugal/portalegre/costs/index.html) | `place.districts` | 31.96 | 10.00 | 31.96 |
+| [Setúbal](../../portugal/setubal/costs/index.html) | `place.districts` | 31.96 | 10.00 | 31.96 |
+| [Évora](../../portugal/evora/costs/index.html) | `place.districts` | 31.96 | 10.00 | 31.96 |
+| [Beja](../../portugal/beja/costs/index.html) | `place.districts` | 31.96 | 10.00 | 31.96 |
 
 ## The places team {#places-team}
 
 | Agent | Today | Line a day | Session so far |
 |---|---:|---:|---:|
-| `ios.places` | 16.88 | 30.00 | 37.68 |
-| `dev.places` | 11.88 | 30.00 | 31.13 |
-| `data.places` | 10.85 | 30.00 | 29.75 |
-| `place.districts` | 26.24 | 10.00 | 26.24 |
-| `viz.places` | 12.58 | 30.00 | 24.57 |
-| `designer.places` | 7.58 | 30.00 | 17.34 |
-| `datasci.places` | 5.15 | 30.00 | 15.00 |
+| `ios.places` | 24.18 | 30.00 | 44.98 |
+| `dev.places` | 16.80 | 30.00 | 36.05 |
+| `place.districts` | 31.96 | 10.00 | 31.96 |
+| `data.places` | 13.05 | 30.00 | 31.95 |
+| `viz.places` | 16.02 | 30.00 | 28.01 |
+| `designer.places` | 10.79 | 30.00 | 20.55 |
+| `datasci.places` | 6.01 | 30.00 | 15.86 |
 | `place.algarve` | 4.87 | 8.00 | 7.80 |
 | `place.olhao` | 2.50 | 8.00 | 5.16 |
 | `place.loule` | 2.44 | 8.00 | 5.10 |
@@ -108,22 +108,22 @@ One agent per place, on Sonnet. Each place has its own page:
 
 | Agent | Today | Line a day | Session so far |
 |---|---:|---:|---:|
-| `abp` | 4.80 | 25.00 | 84.67 |
-| `accountant` | 25.22 | 10.00 | 172.12 |
+| `abp` | 8.11 | 25.00 | 87.98 |
+| `accountant` | 32.83 | 10.00 | 179.73 |
 | `backup` | 0.00 | 5.00 |  |
-| `conductor` | 23.63 | 50.00 | 247.44 |
+| `conductor` | 29.39 | 50.00 | 253.20 |
 | `correspondent` | 0.00 | 40.00 |  |
 | `customers` | 0.00 | 15.00 |  |
-| `data.places` | 10.85 | 30.00 | 29.75 |
-| `datasci.places` | 5.15 | 30.00 | 15.00 |
+| `data.places` | 13.05 | 30.00 | 31.95 |
+| `datasci.places` | 6.01 | 30.00 | 15.86 |
 | `designer.experiments` | 0.00 | 10.00 |  |
-| `designer.places` | 7.58 | 30.00 | 17.34 |
+| `designer.places` | 10.79 | 30.00 | 20.55 |
 | `designer` | 0.00 | 50.00 |  |
 | `detective.places` | 2.92 | 10.00 | 4.96 |
 | `dev.data` | 0.00 | 10.00 |  |
 | `dev.graphs` | 0.00 | 10.00 |  |
 | `dev.pages` | 0.00 | 10.00 |  |
-| `dev.places` | 11.88 | 30.00 | 31.13 |
+| `dev.places` | 16.80 | 30.00 | 36.05 |
 | `dev.portugal` | 0.00 | 10.00 |  |
 | `dev.search` | 0.00 | 10.00 |  |
 | `dev.verify` | 0.00 | 10.00 |  |
@@ -131,10 +131,10 @@ One agent per place, on Sonnet. Each place has its own page:
 | `devops` | 0.00 | 20.00 |  |
 | `historian` | 0.00 | 15.00 |  |
 | `investors` | 0.00 | 15.00 |  |
-| `ios.places` | 16.88 | 30.00 | 37.68 |
+| `ios.places` | 24.18 | 30.00 | 44.98 |
 | `journalist` | 0.00 | 35.00 |  |
 | `librarian` | 0.00 | 15.00 |  |
-| `observability` | 11.47 | 30.00 | 209.20 |
+| `observability` | 15.35 | 30.00 | 213.08 |
 | `ontologist` | 0.00 | 30.00 |  |
 | `outreach` | 0.00 | 20.00 |  |
 | `place.albufeira` | 0.69 | 8.00 | 2.19 |
@@ -142,7 +142,7 @@ One agent per place, on Sonnet. Each place has its own page:
 | `place.algarve` | 4.87 | 8.00 | 7.80 |
 | `place.aljezur` | 1.17 | 8.00 | 3.15 |
 | `place.castro-marim` | 1.06 | 8.00 | 2.42 |
-| `place.districts` | 26.24 | 10.00 | 26.24 |
+| `place.districts` | 31.96 | 10.00 | 31.96 |
 | `place.faro` | 2.02 | 8.00 | 4.49 |
 | `place.lagoa` | 2.09 | 8.00 | 3.95 |
 | `place.lagos` | 1.94 | 8.00 | 4.27 |
@@ -158,11 +158,11 @@ One agent per place, on Sonnet. Each place has its own page:
 | `place.vila-do-bispo` | 2.05 | 8.00 | 3.44 |
 | `place.vila-real-de-santo-antonio` | 2.30 | 8.00 | 4.30 |
 | `researcher` | 0.00 | 10.00 |  |
-| `security` | 10.32 | 30.00 | 255.15 |
+| `security` | 13.26 | 30.00 | 258.09 |
 | `sherpa` | 0.00 | 25.00 |  |
 | `synthetic` | 0.00 | 60.00 |  |
 | `translator` | 2.38 | 10.00 | 2.38 |
-| `viz.places` | 12.58 | 30.00 | 24.57 |
+| `viz.places` | 16.02 | 30.00 | 28.01 |
 
 ## The last closed period {#yesterday}
 

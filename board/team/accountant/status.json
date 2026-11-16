@@ -2,8 +2,9 @@
   "agent": "accountant@PrompTugal.dinis",
   "focus": "budgets of tokens and runs for every agent, pass and loop; what each run spent (API-equivalent); over-budget recorded and adjustments proposed, never a stop (Dinis, 10:10 UTC)",
   "state": "working on account A, every three hours at :47 UTC (paused by THE BIG STOP 23:35 to the restart); capture and adjust",
-  "updated": "2026-11-16T09:58Z",
+  "updated": "2026-11-16T12:58Z",
   "done": [
+    "12:50 reading: 260.78 on the PrompTugal team since 00:48 (a floor), 73.12 on iOS; over: accountant@ 3.28 (the 09:47 wake at 775 k context; compacted since), place.districts@ 3.2; idle hourly checks at large contexts (ios.places@ 7.3 in three hours) noted; costs pages regenerated",
     "09:50 reading: 209.63 on the PrompTugal team since 00:48 (a floor: Sonnet place agents carried from 06:50), 70.96 on iOS; over: place.districts@ 2.62, accountant@ 2.52; costs pages regenerated; new reading rule (Opus every wake, Sonnet place agents at the close)",
     "session key accountant-promptugal in board/keys.json (pki-agent.mjs sha256 checked against the team site's pin); my row in data/newsroom/agents.json",
     "ROLE.md and this status.json",
@@ -58,12 +59,13 @@
     "06:50 on 16 November: 165.89 API-equivalent so far (PrompTugal, account A) plus 69.60 iOS team; place.districts@ and accountant@ over, recorded; costs pages now 36 places"
   ],
   "next": [
-    "at 12:47: a reading of the Opus sessions and place.districts@; costs pages regenerated",
+    "at 15:47: a reading of the Opus sessions and place.districts@; costs pages regenerated",
     "at 00:47 on 17 November: close 16 November reading every session, set the 17 November baseline, write the debrief"
   ],
   "asks": [
     "Dinis: reading 41 sessions a wake cost me about 7 API-equivalent (25.22 today by 09:50, over my line of 10). From 09:47 I read the Opus sessions every wake and the Sonnet place agents once a day; a fresh accountant@ session (my debrief is current) or a per-session usage digest from the conductor would cut the rest",
     "Dinis: place.districts@ (Sonnet, from 04:16) has spent 26.24 by 09:50, 8.75 M input tokens without the cache, the pattern unchanged since I told the conductor at 06:50. Recorded only; whether to restart or compact it is the conductor's or yours",
+    "Dinis: the by-place Opus sessions keep waking hourly at 540 to 600 k tokens of context while they find nothing to do (ios.places@ spent 7.3 in three hours during the iOS freeze). A compaction, or a longer interval while the freeze holds, would cut most of it; that is the conductor's or yours to decide",
     "Dinis: my wakes did not run from 15:47 on 12 November to 00:47 on 16 November, and account B has not been measured since 12:51 on 12 November (conductor.b@ silent since 14:50 that day). The gap is closed as far as the record allows (board/team/accountant/ledger/2026-11-12-to-15-close.json)",
     "Dinis: observability@'s session spent about 100 API-equivalent in four days while only draining (its context reloaded many times). A compaction at its next wake would cut it; that is the conductor's or yours to ask",
     "Dinis: the cost case 'agents that pay for themselves' is in board/team/accountant/case-agents-that-save-tokens.md (five examples from our own record, estimates labelled). Whether it is Thursday's message is yours; on yes, I measure the reporter and the named candidates (raw run against digest run) before Thursday",

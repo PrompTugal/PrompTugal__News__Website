@@ -1,10 +1,10 @@
 {
  "about": "What PrompTugal.news's agents cost, kept by accountant@PrompTugal.dinis from board/budgets.json. Every dollar is API-equivalent: a comparison at API prices, not money spent (the team runs on Claude subscriptions). The real money is the OpenRouter credit and any session paid on a card. Lines are a measure, never a stop (Dinis, 6 November 2026).",
  "day": "2026-11-16",
- "read_at": "2026-11-16T09:50Z",
+ "read_at": "2026-11-16T12:50Z",
  "team": {
   "line_per_day": 900,
-  "today": 209.63
+  "today": 260.78
  },
  "yesterday": {
   "day": "2026-11-12 to 2026-11-15",
@@ -14,7 +14,7 @@
   }
  },
  "real_limits": {
-  "read_at": "2026-11-16T09:50Z",
+  "read_at": "2026-11-16T12:50Z",
   "subscription": {
    "A": {
     "rate_limit_type": "seven_day",
@@ -36,11 +36,11 @@
   {
    "agent": "conductor@PrompTugal.dinis",
    "line_per_day": 50,
-   "today": 23.63,
-   "used": 0.47,
+   "today": 29.39,
+   "used": 0.59,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
-   "session_total_account_A": 247.44
+   "read_at": "2026-11-16T12:50Z",
+   "session_total_account_A": 253.2
   },
   {
    "agent": "synthetic@PrompTugal.dinis",
@@ -48,7 +48,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -57,7 +57,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -66,7 +66,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -75,7 +75,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -84,7 +84,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -93,17 +93,17 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
    "agent": "observability@PrompTugal.dinis",
    "line_per_day": 30,
-   "today": 11.47,
-   "used": 0.38,
+   "today": 15.35,
+   "used": 0.51,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
-   "session_total_account_A": 209.2
+   "read_at": "2026-11-16T12:50Z",
+   "session_total_account_A": 213.08
   },
   {
    "agent": "historian@PrompTugal.dinis",
@@ -111,7 +111,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -120,17 +120,17 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
    "agent": "security@PrompTugal.dinis",
    "line_per_day": 30,
-   "today": 10.32,
-   "used": 0.34,
+   "today": 13.26,
+   "used": 0.44,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
-   "session_total_account_A": 255.15
+   "read_at": "2026-11-16T12:50Z",
+   "session_total_account_A": 258.09
   },
   {
    "agent": "sherpa@PrompTugal.dinis",
@@ -138,7 +138,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -147,7 +147,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -156,26 +156,26 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
    "agent": "accountant@PrompTugal.dinis",
    "line_per_day": 10,
-   "today": 25.22,
-   "used": 2.52,
+   "today": 32.83,
+   "used": 3.28,
    "state": "warn",
-   "read_at": "2026-11-16T09:50Z",
-   "session_total_account_A": 172.12
+   "read_at": "2026-11-16T12:50Z",
+   "session_total_account_A": 179.73
   },
   {
    "agent": "abp@PrompTugal.dinis",
    "line_per_day": 25,
-   "today": 4.8,
-   "used": 0.19,
+   "today": 8.11,
+   "used": 0.32,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
-   "session_total_account_A": 84.67
+   "read_at": "2026-11-16T12:50Z",
+   "session_total_account_A": 87.98
   },
   {
    "agent": "customers@PrompTugal.dinis",
@@ -183,7 +183,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -192,7 +192,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -201,7 +201,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -210,7 +210,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -219,7 +219,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -228,7 +228,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -237,7 +237,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -246,7 +246,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -255,7 +255,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -264,7 +264,7 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
@@ -273,62 +273,62 @@
    "today": 0,
    "used": 0.0,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": null
   },
   {
    "agent": "dev.places@PrompTugal.dinis",
    "line_per_day": 30,
-   "today": 11.88,
-   "used": 0.4,
+   "today": 16.8,
+   "used": 0.56,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
-   "session_total_account_A": 31.13
+   "read_at": "2026-11-16T12:50Z",
+   "session_total_account_A": 36.05
   },
   {
    "agent": "designer.places@PrompTugal.dinis",
    "line_per_day": 30,
-   "today": 7.58,
-   "used": 0.25,
+   "today": 10.79,
+   "used": 0.36,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
-   "session_total_account_A": 17.34
+   "read_at": "2026-11-16T12:50Z",
+   "session_total_account_A": 20.55
   },
   {
    "agent": "ios.places@PrompTugal.dinis",
    "line_per_day": 30,
-   "today": 16.88,
-   "used": 0.56,
-   "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
-   "session_total_account_A": 37.68
+   "today": 24.18,
+   "used": 0.81,
+   "state": "warn",
+   "read_at": "2026-11-16T12:50Z",
+   "session_total_account_A": 44.98
   },
   {
    "agent": "viz.places@PrompTugal.dinis",
    "line_per_day": 30,
-   "today": 12.58,
-   "used": 0.42,
+   "today": 16.02,
+   "used": 0.53,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
-   "session_total_account_A": 24.57
+   "read_at": "2026-11-16T12:50Z",
+   "session_total_account_A": 28.01
   },
   {
    "agent": "data.places@PrompTugal.dinis",
    "line_per_day": 30,
-   "today": 10.85,
-   "used": 0.36,
+   "today": 13.05,
+   "used": 0.43,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
-   "session_total_account_A": 29.75
+   "read_at": "2026-11-16T12:50Z",
+   "session_total_account_A": 31.95
   },
   {
    "agent": "datasci.places@PrompTugal.dinis",
    "line_per_day": 30,
-   "today": 5.15,
-   "used": 0.17,
+   "today": 6.01,
+   "used": 0.2,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
-   "session_total_account_A": 15.0
+   "read_at": "2026-11-16T12:50Z",
+   "session_total_account_A": 15.86
   },
   {
    "agent": "detective.places@PrompTugal.dinis",
@@ -336,7 +336,7 @@
    "today": 2.92,
    "used": 0.29,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 4.96
   },
   {
@@ -345,7 +345,7 @@
    "today": 1.26,
    "used": 0.16,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 2.64
   },
   {
@@ -354,7 +354,7 @@
    "today": 2.27,
    "used": 0.28,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 3.92
   },
   {
@@ -363,7 +363,7 @@
    "today": 1.06,
    "used": 0.13,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 2.42
   },
   {
@@ -372,7 +372,7 @@
    "today": 2.05,
    "used": 0.26,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 3.44
   },
   {
@@ -381,7 +381,7 @@
    "today": 1.17,
    "used": 0.15,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 3.15
   },
   {
@@ -390,7 +390,7 @@
    "today": 2.87,
    "used": 0.36,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 4.89
   },
   {
@@ -399,7 +399,7 @@
    "today": 2.09,
    "used": 0.26,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 3.95
   },
   {
@@ -408,7 +408,7 @@
    "today": 0.69,
    "used": 0.09,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 2.19
   },
   {
@@ -417,7 +417,7 @@
    "today": 2.5,
    "used": 0.31,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 5.16
   },
   {
@@ -426,7 +426,7 @@
    "today": 1.94,
    "used": 0.24,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 4.27
   },
   {
@@ -435,7 +435,7 @@
    "today": 1.58,
    "used": 0.2,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 3.45
   },
   {
@@ -444,7 +444,7 @@
    "today": 2.3,
    "used": 0.29,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 4.3
   },
   {
@@ -453,7 +453,7 @@
    "today": 1.49,
    "used": 0.19,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 3.28
   },
   {
@@ -462,7 +462,7 @@
    "today": 1.59,
    "used": 0.2,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 3.89
   },
   {
@@ -471,7 +471,7 @@
    "today": 2.01,
    "used": 0.25,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 4.55
   },
   {
@@ -480,7 +480,7 @@
    "today": 2.44,
    "used": 0.3,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 5.1
   },
   {
@@ -489,7 +489,7 @@
    "today": 2.02,
    "used": 0.25,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 4.49
   },
   {
@@ -498,7 +498,7 @@
    "today": 4.87,
    "used": 0.61,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 7.8
   },
   {
@@ -507,7 +507,7 @@
    "today": 1.53,
    "used": 0.19,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 3.24
   },
   {
@@ -516,17 +516,17 @@
    "today": 2.38,
    "used": 0.24,
    "state": "ok",
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "session_total_account_A": 2.38
   },
   {
    "agent": "place.districts@PrompTugal.dinis",
    "line_per_day": 10,
-   "today": 26.24,
-   "used": 2.62,
+   "today": 31.96,
+   "used": 3.2,
    "state": "warn",
-   "read_at": "2026-11-16T09:50Z",
-   "session_total_account_A": 26.24
+   "read_at": "2026-11-16T12:50Z",
+   "session_total_account_A": 31.96
   }
  ],
  "places": [
@@ -765,9 +765,9 @@
    "parent": "portugal",
    "path": "portugal/lisboa/",
    "agent": "place.districts@PrompTugal.dinis",
-   "today": 26.24,
+   "today": 31.96,
    "line_per_day": 10,
-   "session_total": 26.24,
+   "session_total": 31.96,
    "costs_page": "portugal/lisboa/costs/"
   },
   {
@@ -777,9 +777,9 @@
    "parent": "portugal",
    "path": "portugal/porto/",
    "agent": "place.districts@PrompTugal.dinis",
-   "today": 26.24,
+   "today": 31.96,
    "line_per_day": 10,
-   "session_total": 26.24,
+   "session_total": 31.96,
    "costs_page": "portugal/porto/costs/"
   },
   {
@@ -789,9 +789,9 @@
    "parent": "portugal",
    "path": "portugal/vila-real/",
    "agent": "place.districts@PrompTugal.dinis",
-   "today": 26.24,
+   "today": 31.96,
    "line_per_day": 10,
-   "session_total": 26.24,
+   "session_total": 31.96,
    "costs_page": "portugal/vila-real/costs/"
   },
   {
@@ -801,9 +801,9 @@
    "parent": "portugal",
    "path": "portugal/aveiro/",
    "agent": "place.districts@PrompTugal.dinis",
-   "today": 26.24,
+   "today": 31.96,
    "line_per_day": 10,
-   "session_total": 26.24,
+   "session_total": 31.96,
    "costs_page": "portugal/aveiro/costs/"
   },
   {
@@ -813,9 +813,9 @@
    "parent": "portugal",
    "path": "portugal/braganca/",
    "agent": "place.districts@PrompTugal.dinis",
-   "today": 26.24,
+   "today": 31.96,
    "line_per_day": 10,
-   "session_total": 26.24,
+   "session_total": 31.96,
    "costs_page": "portugal/braganca/costs/"
   },
   {
@@ -825,9 +825,9 @@
    "parent": "portugal",
    "path": "portugal/viana-do-castelo/",
    "agent": "place.districts@PrompTugal.dinis",
-   "today": 26.24,
+   "today": 31.96,
    "line_per_day": 10,
-   "session_total": 26.24,
+   "session_total": 31.96,
    "costs_page": "portugal/viana-do-castelo/costs/"
   },
   {
@@ -837,9 +837,9 @@
    "parent": "portugal",
    "path": "portugal/braga/",
    "agent": "place.districts@PrompTugal.dinis",
-   "today": 26.24,
+   "today": 31.96,
    "line_per_day": 10,
-   "session_total": 26.24,
+   "session_total": 31.96,
    "costs_page": "portugal/braga/costs/"
   },
   {
@@ -849,9 +849,9 @@
    "parent": "portugal",
    "path": "portugal/coimbra/",
    "agent": "place.districts@PrompTugal.dinis",
-   "today": 26.24,
+   "today": 31.96,
    "line_per_day": 10,
-   "session_total": 26.24,
+   "session_total": 31.96,
    "costs_page": "portugal/coimbra/costs/"
   },
   {
@@ -861,9 +861,9 @@
    "parent": "portugal",
    "path": "portugal/castelo-branco/",
    "agent": "place.districts@PrompTugal.dinis",
-   "today": 26.24,
+   "today": 31.96,
    "line_per_day": 10,
-   "session_total": 26.24,
+   "session_total": 31.96,
    "costs_page": "portugal/castelo-branco/costs/"
   },
   {
@@ -873,9 +873,9 @@
    "parent": "portugal",
    "path": "portugal/guarda/",
    "agent": "place.districts@PrompTugal.dinis",
-   "today": 26.24,
+   "today": 31.96,
    "line_per_day": 10,
-   "session_total": 26.24,
+   "session_total": 31.96,
    "costs_page": "portugal/guarda/costs/"
   },
   {
@@ -885,9 +885,9 @@
    "parent": "portugal",
    "path": "portugal/viseu/",
    "agent": "place.districts@PrompTugal.dinis",
-   "today": 26.24,
+   "today": 31.96,
    "line_per_day": 10,
-   "session_total": 26.24,
+   "session_total": 31.96,
    "costs_page": "portugal/viseu/costs/"
   },
   {
@@ -897,9 +897,9 @@
    "parent": "portugal",
    "path": "portugal/leiria/",
    "agent": "place.districts@PrompTugal.dinis",
-   "today": 26.24,
+   "today": 31.96,
    "line_per_day": 10,
-   "session_total": 26.24,
+   "session_total": 31.96,
    "costs_page": "portugal/leiria/costs/"
   },
   {
@@ -909,9 +909,9 @@
    "parent": "portugal",
    "path": "portugal/santarem/",
    "agent": "place.districts@PrompTugal.dinis",
-   "today": 26.24,
+   "today": 31.96,
    "line_per_day": 10,
-   "session_total": 26.24,
+   "session_total": 31.96,
    "costs_page": "portugal/santarem/costs/"
   },
   {
@@ -921,9 +921,9 @@
    "parent": "portugal",
    "path": "portugal/portalegre/",
    "agent": "place.districts@PrompTugal.dinis",
-   "today": 26.24,
+   "today": 31.96,
    "line_per_day": 10,
-   "session_total": 26.24,
+   "session_total": 31.96,
    "costs_page": "portugal/portalegre/costs/"
   },
   {
@@ -933,9 +933,9 @@
    "parent": "portugal",
    "path": "portugal/setubal/",
    "agent": "place.districts@PrompTugal.dinis",
-   "today": 26.24,
+   "today": 31.96,
    "line_per_day": 10,
-   "session_total": 26.24,
+   "session_total": 31.96,
    "costs_page": "portugal/setubal/costs/"
   },
   {
@@ -945,9 +945,9 @@
    "parent": "portugal",
    "path": "portugal/evora/",
    "agent": "place.districts@PrompTugal.dinis",
-   "today": 26.24,
+   "today": 31.96,
    "line_per_day": 10,
-   "session_total": 26.24,
+   "session_total": 31.96,
    "costs_page": "portugal/evora/costs/"
   },
   {
@@ -957,9 +957,9 @@
    "parent": "portugal",
    "path": "portugal/beja/",
    "agent": "place.districts@PrompTugal.dinis",
-   "today": 26.24,
+   "today": 31.96,
    "line_per_day": 10,
-   "session_total": 26.24,
+   "session_total": 31.96,
    "costs_page": "portugal/beja/costs/"
   }
  ],
@@ -996,9 +996,9 @@
    "*workers": 20
   },
   "spent_today": {
-   "read_at": "2026-11-16T09:50Z",
+   "read_at": "2026-11-16T12:50Z",
    "by_agent": {
-    "conductor.a.ios@promptugal.dinis": 35.82,
+    "conductor.a.ios@promptugal.dinis": 37.98,
     "appdev.live@promptugal.dinis": 6.33,
     "appdev.ai@promptugal.dinis": 3.71,
     "appdev.talk@promptugal.dinis": 5.03,
@@ -1006,7 +1006,7 @@
     "appdev.credit@promptugal.dinis": 12.93,
     "appdev.wire@promptugal.dinis": 3.9
    },
-   "total": 70.96
+   "total": 73.12
   }
  },
  "billing_meter": "start credit 500 (shown as GBP 5.00); an article 6 (fresh 12, new 9, archive 3), a company or topic 3, a story, event or index 2, a person, organisation, place, evidence, data or site page 1, account pages 0 (meter.json v0.1.1397)",

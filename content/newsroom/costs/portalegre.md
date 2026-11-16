@@ -7,8 +7,8 @@ summary: "The agent that researches Portalegre for PrompTugal.news, what it spen
 
 | | |
 |---|---:|
-| Today (2026-11-16) | 26.24 |
+| Today (2026-11-16) | 31.96 |
 | Its line a day | 10.00 |
-| Its session so far | 26.24 |
+| Its session so far | 31.96 |
 
 All the agents: [what the agents cost](../../../newsroom/costs/index.html). The data: [`data/billing/agent-costs.json`](../../../data/billing/agent-costs.json).
