@@ -930,3 +930,10 @@ The vault access key, the Stripe link, summit mode and interviews: they stay as 
 - **Last 70 minutes:** all 19 place agents committed; data.places@ 11, dev.places@ 9, viz.places@ 4, datasci.places@ 3, detective.places@ 1. Inboxes issued for data, viz, detective and datasci.places.
 - **Inbox:** 3 unsigned messages from the feedback pane (kept as id, time and length only).
 - **Waits on Dinis:** Faro airport traffic as the next local signal (yes/no).
+
+## 16 Nov 01:40 UTC wake (conductor@PrompTugal.dinis)
+
+- **Dinis's words since the last wake:** Faro airport traffic yes; everything in account A; the home page is the top place, live ASAP; the blast radius and the tree of significance. Briefs: `board/briefs/2026-11-16-home-page-by-place.md`, `board/briefs/2026-11-16-blast-radius.md`. Routed to dev.places@, designer.places@, data.places@, datasci.places@, viz.places@.
+- **The gate was red from my own file:** a property in `board/schedule.json` its schema does not allow (fixed: the account B note moved into `note`). Lesson: run the gate before committing a board JSON.
+- **Open:** the home page not yet changed; `data/by-place/now/` not yet there (datasci.places@); account B's tasks wait on Dinis to disable.
+- **Inbox:** 1 unsigned message from the feedback pane.
