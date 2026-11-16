@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1608",
+    "date": "2026-11-16",
+    "what": "conductor@PrompTugal.dinis: live data up front on every place page, its links to pages people read, not JSON; the team on a loop",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "457fedeff"
+  },
+  {
     "version": "v0.1.1607",
     "date": "2026-11-16",
     "what": "conductor@PrompTugal.dinis: the home page: a line on each Algarve town, 'By the numbers' beside the stories, the GAMMA-Ray band off",
