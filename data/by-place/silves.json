@@ -143,18 +143,6 @@
       "read_on": "2026-11-15"
     },
     {
-      "label": "Starting a company here",
-      "value": "The council's local entrepreneurship office, GEL, says it informs entrepreneurs about support, links them to public or private institutions, advises on the rules for EU and other funding, and helps local producers. The council's calls page lists national digital-transition funding for businesses. The council says it has coworking spaces in São Marcos da Serra and São Bartolomeu de Messines and has granted tax exemptions since 2017 to innovative or creative investment projects. A startup with an AI idea would also look to the regional ecosystem around Algarve Evolution, since Silves has no incubator or accelerator of its own that we could confirm. The council's general contact channel is published on the GEL page linked here.",
-      "source_url": "https://www.cm-silves.pt/pt/menu/67/gel---gabinete-de-empreendedorismo-local.aspx",
-      "read_on": "2026-11-16"
-    },
-    {
-      "label": "A recent investment, not AI",
-      "value": "In September 2025 the Algarve property developers Antrix and Carvoeiro Branco announced they had bought the Fábrica do Inglês, a cork factory built in 1894 and empty since 2009. They plan a reopened cork museum, a boutique hotel and offices for both companies. The amount was not disclosed. There is no AI in the plan as reported.",
-      "source_url": "https://www.barlavento.pt/silves-imobiliarias-de-erik-de-vlieger-compram-devoluta-mas-iconica-fabrica-do-ingles/",
-      "read_on": "2026-11-16"
-    },
-    {
       "label": "What is local to Silves, and what is not",
       "value": "Only Silves's own sources can tell us the council's agenda and notices, what its entrepreneurship office offers, and the Formação + Próxima courses held at the municipal library. AI-for-business training itself is common across the Algarve and Portugal, so only the Silves hosting is local. Outside stories that touch Silves, and that a local outlet could certify against its patch, are the regional citrus figures (Silves holds 43 percent of the IGP area) and the ATTENTIA citrus-AI project, whose sheet does not name Silves.",
       "source_url": "https://www.cm-silves.pt/pt/agenda.aspx",
@@ -180,5 +168,61 @@
     "mandate": "PrompTugal.news Silves: AI and technology in Silves, the orange capital and old capital of the Algarve, plus whatever AI turns up from the Algarve, Portugal and the world. We are independent, and every fact has a source, pá.",
     "gravity": "Silves is a big, mostly countryside concelho with six freguesias and about 680 square kilometres, the laranja capital of the Algarve and the old capital of its Kingdom, so it never lets you forget it. Oranges are the star: in November 2026 the citrus operators' association said Silves holds 43 percent of the area of the region's protected-origin IGP citrus, some 4,733 hectares and 419 farms. The câmara says business lives in the industrial platforms of Algoz, Alcantarilha and São Bartolomeu de Messines, with the GEL office to help.",
     "gaps_intro": "Now the honest part, meu amigo: where the algorithms have not yet come to the orange grove."
-  }
+  },
+  "contacts": [
+    {
+      "name": "Câmara Municipal de Silves, general channel (linked from the GEL page)",
+      "what": "The council's published general channel, the first stop for the local entrepreneurship office.",
+      "url": "https://www.cm-silves.pt/pt/menu/67/gel---gabinete-de-empreendedorismo-local.aspx",
+      "source_url": "https://www.cm-silves.pt/pt/menu/67/gel---gabinete-de-empreendedorismo-local.aspx",
+      "read_on": "2026-11-16",
+      "channel": "expediente@cm-silves.pt, +351 282 440 800 (a call to the national fixed-line network), as published on the council's GEL page"
+    }
+  ],
+  "start_company": [
+    {
+      "name": "GEL, the council's local entrepreneurship office",
+      "kind": "public desk",
+      "what": "Informs entrepreneurs about support, links them to public or private institutions, advises on the rules for EU and other funding, and helps local producers.",
+      "url": "https://www.cm-silves.pt/pt/menu/67/gel---gabinete-de-empreendedorismo-local.aspx",
+      "source_url": "https://www.cm-silves.pt/pt/menu/67/gel---gabinete-de-empreendedorismo-local.aspx",
+      "read_on": "2026-11-16"
+    },
+    {
+      "name": "Digital-transition funding calls listed by the council",
+      "kind": "funding",
+      "what": "The council's calls page lists national funding such as Smart PME (Industry 4.0), Coaching 4.0 and vouchers for startups with green and digital products. The titles name no AI and the page gives no dates, so check each call at its source.",
+      "url": "https://www.cm-silves.pt/pt/404/concursos.aspx",
+      "source_url": "https://www.cm-silves.pt/pt/404/concursos.aspx",
+      "read_on": "2026-11-15"
+    },
+    {
+      "name": "Coworking spaces in São Marcos da Serra and São Bartolomeu de Messines",
+      "kind": "space",
+      "what": "The council says it opened these at the end of 2021. A 2025 opinion column said Silves had no incubator, accelerator or business centre, so we could confirm none of those.",
+      "url": "https://www.cm-silves.pt/pt/pt/noticias/32055/silves-tem-tudo-e-tem-notavel-obra-realizada.aspx",
+      "source_url": "https://www.cm-silves.pt/pt/pt/noticias/32055/silves-tem-tudo-e-tem-notavel-obra-realizada.aspx",
+      "read_on": "2026-11-15"
+    },
+    {
+      "name": "Municipal tax exemptions for innovative or creative investment",
+      "kind": "funding",
+      "what": "The council says it has granted tax exemptions since at least mid-2017 to investment projects such as innovative or creative activities, job creation, local products and energy efficiency.",
+      "url": "https://www.cm-silves.pt/pt/pt/noticias/32055/silves-tem-tudo-e-tem-notavel-obra-realizada.aspx",
+      "source_url": "https://www.cm-silves.pt/pt/pt/noticias/32055/silves-tem-tudo-e-tem-notavel-obra-realizada.aspx",
+      "read_on": "2026-11-15"
+    }
+  ],
+  "investors": [
+    {
+      "name": "Antrix and Carvoeiro Branco: purchase of the Fábrica do Inglês",
+      "type": "investment",
+      "what": "Two Algarve property developers bought the 1894 cork factory, empty since 2009, to reopen the cork museum, add a boutique hotel and move their offices there. Not AI.",
+      "date": "2025-09-03",
+      "url": "https://www.barlavento.pt/silves-imobiliarias-de-erik-de-vlieger-compram-devoluta-mas-iconica-fabrica-do-ingles/",
+      "source_url": "https://www.barlavento.pt/silves-imobiliarias-de-erik-de-vlieger-compram-devoluta-mas-iconica-fabrica-do-ingles/",
+      "read_on": "2026-11-16",
+      "amount": "not disclosed"
+    }
+  ]
 }
