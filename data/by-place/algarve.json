@@ -433,14 +433,14 @@
       "what": "Community listed as AI-related in the Algarve entrepreneurship ecosystem directory and, per our newsroom, part of the Algarve Digital Innovators network. The directory gives no website: needs a primary source.",
       "source_url": "https://bealgarve.pt/pt/ecossistema/",
       "read_on": "2026-11-15",
-      "ai_path": "Its name says it is an AI agents community.",
+      "ai_path": "Its name says it is an AI agents community, and the BEALG directory lists it as AI-related.",
       "steps": 0
     },
     {
       "name": "GDG Faro",
       "type": "community",
       "url": "https://gdg.community.dev/events/details/google-gdg-faro-presents-devfest-2026-build-secure-amp-scale-in-the-agentic-era/",
-      "what": "Developer community that organises DevFest Faro on 27 and 28 November 2026 on AI applications and agents.",
+      "what": "Developer community that organises DevFest Faro on 27 and 28 November 2026 on AI applications and agents. Its pages also list a Build with AI 2026 day on 11 April and a Gemma AI hackathon on 18 July at UALG TEC Campus, both still marked upcoming when read, so we cannot confirm they ran.",
       "source_url": "https://gdg.community.dev/events/details/google-gdg-faro-presents-devfest-2026-build-secure-amp-scale-in-the-agentic-era/",
       "read_on": "2026-11-15",
       "ai_path": "It runs a two-day conference on building AI applications.",
@@ -619,11 +619,11 @@
     {
       "name": "Artificial Intelligence Algarve",
       "type": "community",
-      "url": "https://bealgarve.pt/pt/ecossistema/",
-      "what": "Community listed as AI-related in the Algarve entrepreneurship ecosystem directory. The directory gives a LinkedIn page only, which we do not read: needs a primary public source.",
-      "source_url": "https://bealgarve.pt/pt/ecossistema/",
+      "url": "https://www.algarveevolution.pt/events",
+      "what": "Community that appears as an 'AIA Artificial Intelligence Algarve' category on Algarve Evolution's events page and is listed as AI-related in the BEALG ecosystem directory. The events page showed no event under it when read. Needs its own public page.",
+      "source_url": "https://www.algarveevolution.pt/events",
       "read_on": "2026-11-15",
-      "ai_path": "Its name and the directory's tag say it is an AI community.",
+      "ai_path": "Its name and the events category are about AI.",
       "steps": 0
     },
     {
@@ -685,6 +685,26 @@
       "read_on": "2026-11-16",
       "ai_path": "It hosted a national AI conference.",
       "steps": 0
+    },
+    {
+      "name": "AI Aumentar, Lda.",
+      "type": "company",
+      "url": "https://www.algarveevolution.pt/model/members/ai-aumentar-lda-3274",
+      "what": "Listed as a member of Algarve Evolution. The member page gives no description, town or product: the name suggests an AI focus and we have not confirmed it. Needs its own source.",
+      "source_url": "https://www.algarveevolution.pt/model/members/ai-aumentar-lda-3274",
+      "read_on": "2026-11-16",
+      "ai_path": "Its name points to AI, which is unconfirmed.",
+      "steps": 1
+    },
+    {
+      "name": "DSPA (Data Science Portuguese Association)",
+      "type": "organisation",
+      "url": "https://www.algarveevolution.pt/model/members/dspa-data-science-portuguese-association-3229",
+      "what": "Listed as a member of Algarve Evolution. The member page gives no description or town: the name suggests a data science focus and we have not confirmed what it does in the Algarve. Needs its own source.",
+      "source_url": "https://www.algarveevolution.pt/model/members/dspa-data-science-portuguese-association-3229",
+      "read_on": "2026-11-16",
+      "ai_path": "Data science is the base of most AI, and its activities are unconfirmed.",
+      "steps": 1
     }
   ],
   "extras": [
@@ -732,7 +752,7 @@
     },
     {
       "label": "Starting a company here: the national government side",
-      "value": "IAPMEI's public pages list Espaço Empresa business support, the StartUP Voucher Innovate 2025-2026 and StartUP Boost programmes, StartUP Visa and Tech Visa for founders and tech workers, a national mentors network, and a network of Digital Innovation Hubs for digital transformation. Its funding pages list Portugal 2030 and PRR incentives, with open calls on its Concursos abertos page. The page names no AI programme and no Algarve-specific one.",
+      "value": "IAPMEI's public pages list Espaço Empresa business support, the StartUP Voucher Innovate 2025-2026 and StartUP Boost programmes, StartUP Visa and Tech Visa for founders and tech workers, a national mentors network, and a network of Digital Innovation Hubs for digital transformation. Its funding pages list Portugal 2030 and PRR incentives, with open calls on its Concursos abertos page. The page names no AI programme and no Algarve-specific one. Its open-calls page is an index that points to the Portugal 2030 annual call plan (portugal2030.pt/plano-anual-de-avisos/) and the PRR call plan, which we have not read, with PRR digital transition lines under C16 Empresas 4.0.",
       "source_url": "https://www.iapmei.pt/",
       "read_on": "2026-11-16"
     }
@@ -752,11 +772,12 @@
     "Sul Informação and Jornal do Algarve serve their feeds but return 403 on article pages, and Postal and AlgarveSTP serve a bot challenge: we read only their feed headlines, so their AI stories are not in the news list. Headlines to open at source if a route is allowed: Algarve as the first Portuguese tourism destination to advertise on ChatGPT (Sul Informação, November 2026), the INTREPIDA AI Lab, an AI and tourism piece (September 2026), the Algarve Autodrome's AI-in-HR paper at the TMCT'26 conference in Portimão, and Jornal do Algarve's pieces on AI health diagnostics at home and on AI used for urban planning in Castro Marim.",
     "Feeds read and working: Barlavento's AI tag, Sul Informação, Jornal do Algarve and Postal. None of the Algarve universities' or the CCDR's news pages gave a feed.",
     "Barlavento's two AI items without a clear Algarve company (a national poll on AI instead of seeing a doctor, and a book on AI that includes an Olhão author) were left out as national or personal.",
-    "Algarve AI Agents and Artificial Intelligence Algarve appear in the BEALG directory with no public website (the second is LinkedIn only, which we do not read): we should find a public page, or ask Algarve Evolution.",
-    "Investment map: we found no 2026 funding round for an Algarve-founded AI startup. Leads that a search surfaced but whose articles we could not open: COREangels Algarve (an angel group), Sotavento Invest, the Dengun Founders Program (which lists about 20 investor groups as partners) and the national fund INDICO Capital Partners. Each needs a source we can read before it is mapped.",
-    "Local media: Região Sul and Portugal Resident serve a Cloudflare challenge, Algarve Primeiro shows no feed, and Algarve Daily News gives an RSS address that returned an empty channel when read. Radio and TV stations, local blogs and the town newspapers are not yet listed: the town agents' files hold some, and the region page should link them.",
     "UAlg centres: CIMA's page lists marine monitoring and open-data projects but no AI, CCMAR's home page describes no AI beyond a DeepLabCut crash course in December, and CINTAL's page mentions no AI. The SEA-EU alliance lists developing its Green and AI Charters among its priorities (a July 2025 article), but we found no charter text.",
-    "Starting a company here: the Algarve calls found so far have closed. IAPMEI's pages list national programmes and a Concursos abertos page that we have not read for open calls. The page names no regional or AI programme, and no Algarve-specific line."
+    "Algarve AI Agents and Artificial Intelligence Algarve have no public site we can read: their meetup listings sit on Luma and Meetup, which we do not read, and the second is LinkedIn only. We should ask Algarve Evolution for a public page, or for dates.",
+    "Algarve Evolution's members list has four pages and we read only the first 20 names (pagination did not work for our reader). Member pages give no description, so AI Aumentar and DSPA are on the map by name only. The Dengun AI Hub and a Dengun programme for SMEs appear in search results from Postal, which we cannot read: Dengun stays a lead until we have a source.",
+    "Starting a company here: the Algarve calls found have closed, and IAPMEI's open-calls page only points to the Portugal 2030 and PRR call plans, which we have not read.",
+    "Investment map: we found no 2026 funding round for an Algarve-founded AI startup. Leads whose articles we could not open: COREangels Algarve (an angel group), Sotavento Invest, the Dengun Founders Program (about 20 investor groups as partners) and INDICO Capital Partners.",
+    "Local media: Região Sul and Portugal Resident serve a Cloudflare challenge, Algarve Primeiro shows no feed, and Algarve Daily News gives an RSS address that returned an empty channel. A search shows Rádio Universitária do Algarve and a closed Rádio Solar Algarve, but we opened no radio page. Blogs and the town newspapers are not yet listed: the town agents' files hold some, and the region page should link them."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",

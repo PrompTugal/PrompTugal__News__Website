@@ -1,0 +1,89 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.algarve@PrompTugal.dinis",
+ "run": "2026-11-16T03-10-26Z",
+ "started": "2026-11-16T03:10:26.919Z",
+ "ended": "2026-11-16T04:07:14Z",
+ "line": "",
+ "policy": {
+  "version": "1.10.1",
+  "sha256": "5136ce8a474d3c7c"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T03:18:58.988Z",
+   "chars": 550,
+   "sha256": "5e396fcc645995ad",
+   "head": "<task-notification>\n<task-id>bcm0vginq</task-id>\n<tool-use-id>toolu_0124Hi1DCibArCqNBMmkYaiP</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/e24cdff7-e118-510d-9b55-f7364"
+  },
+  {
+   "t": "2026-11-16T03:19:03.689Z",
+   "chars": 602,
+   "sha256": "6ca78f1992b91e21",
+   "head": "<task-notification>\n<task-id>bsiowke7n</task-id>\n<tool-use-id>toolu_01MyHXfCUe5zqGwkdzdcpsnJ</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/e24cdff7-e118-510d-9b55-f7364"
+  },
+  {
+   "t": "2026-11-16T04:04:42.906Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T04:04:42.671Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 18,
+  "by_kind": {
+   "release": 1,
+   "other": 2,
+   "git": 3,
+   "web": 11,
+   "shell": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 18,
+  "commits": [
+   {
+    "sha": "8ec7450a1",
+    "subject": "place.algarve@PrompTugal.dinis: the Algarve region, pass 6 (significance on every story, EPIA 2025, IAPMEI, CIMA and SEA-EU read)",
+    "files": 4
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 18,
+  "in_mandate": 18,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
