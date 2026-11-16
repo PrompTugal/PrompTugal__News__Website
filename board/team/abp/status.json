@@ -1,8 +1,8 @@
 {
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
-  "state": "running: a new session (session_018yvwtPpzq2TZ2mzv8KqvhB, key abp-promptugal-b) since 15 November 21:45 UTC for the place agents; observe mode; policy v1.12.0",
-  "updated": "2026-11-16T05:41Z",
+  "state": "running: a new session (session_018yvwtPpzq2TZ2mzv8KqvhB, key abp-promptugal-b) since 15 November 21:45 UTC for the place agents; observe mode; policy v1.13.0",
+  "updated": "2026-11-16T07:41Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -29,7 +29,8 @@
     "01:35: five place articles in mandate; 19 of 19; datasci assets/swagger/** restored (v1.10.1) (board/abp/reports/2026-11-16-01.md)",
     "02:35: 19 of 19; accountant@ and place.loule@ act on Dinis's word given in their own sessions: not verifiable by abp@, grant unchanged, asked of Dinis (board/abp/reports/2026-11-16-02.md)",
     "04:40: place.districts@ (new, no record of Dinis's word): provisional narrow ABP, no sub-agents (v1.11.0); conductor built in dev's paths at a claimed word (board/abp/reports/2026-11-16-04.md)",
-    "05:40: place.districts@ on Dinis's recorded word (04:00): sub-agents and places.json granted (v1.12.0); 26 of 26 sites signed (board/abp/reports/2026-11-16-05.md)"
+    "05:40: place.districts@ on Dinis's recorded word (04:00): sub-agents and places.json granted (v1.12.0); 26 of 26 sites signed (board/abp/reports/2026-11-16-05.md)",
+    "07:40: translator@ ABP on Dinis's recorded word (03:20), v1.13.0; 36 of 36 sites signed; debrief refreshed (board/abp/reports/2026-11-16-07.md)"
   ],
   "next": [
     "Hourly: the site-identity check and a review of new commits; the place agents' first articles checked for their own town",
@@ -265,6 +266,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "place.districts on Dinis's word; 26/26"
+    },
+    {
+      "started": "2026-11-16T07:27Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "translator ABP; 36/36; debrief"
     }
   ],
   "debrief": "board/team/abp/debriefs/2026-11-08-handover.md",

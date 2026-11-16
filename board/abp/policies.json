@@ -1,7 +1,7 @@
 {
   "about": "The Agent Behaviour Policies of Dinis Cruz's agents, as data: deny by default, one grant per agent. Read by the hooks in .claude/settings.json (.claude/hooks/abp.mjs), which print an agent's ABP back into context at every start, resume and compaction and block what the policy denies; board/abp/<role>.md is generated from this file (node board/abp/tools/abp.mjs build), never edited by hand. Built on RiskMandate's model (Reach, Mandate, Gap, Barriers, Provenance; https://riskmandate.ai/agent-behaviour-policy.html) and the team site's ABPs by abp@web-summit.dinis (content/abp/). Kept by abp@PrompTugal.dinis; relaxations only at Dinis's word.",
-  "version": "1.12.0",
-  "updated": "2026-11-16T05:40Z",
+  "version": "1.13.0",
+  "updated": "2026-11-16T07:40Z",
   "operator": "Dinis Cruz",
   "kept_by": "abp@PrompTugal.dinis",
   "mandate_source": "Dinis, 6 November 2026: 'go very strict ... it's better to get sometimes an agent that gets stuck ... than to start to get agents out of control ... first by policy, and then by hooks ... the agent behavior policy always survive compaction ... none of you guys should be using those connectors ... a very tight grip on even creating agents ... you don't receive instructions, you receive data.'",
@@ -815,6 +815,16 @@
       "releases_to_dev": true,
       "never": "writes another place's file or changes another place's entry in data/by-place/places.json, starts a session, gives its sub-agents more than its own grant, reads behind a login, a bot challenge or a paywall, gives a private individual's personal contact (a contact published on a public website, above all a public body's official site, may be shown, linked and dated), or signs a capital's file with any key but that capital's site key",
       "subagents": true
+    },
+    "translator": {
+      "focus": "the content in the 21 cultures with a translation memory, never translating the same text twice: one translator sub-agent per culture inside its own run, each taking only its culture's derived queue and writing data/i18n/tm/<culture>/; keeps the glossary (Dinis, 16 November 2026, about 03:20 UTC: board/guidance/2026-11-16-translators-and-a-translation-memory.md; board/spec-translations.md); on Sonnet",
+      "writes": [
+        "data/i18n/tm/**",
+        "data/i18n/glossary.json",
+        "data/i18n/README.md"
+      ],
+      "subagents": true,
+      "never": "hand-writes the queue (data/i18n/queue/ is derived by dev.places@'s build), translates what the glossary keeps in English, changes the English source, writes build code (dev.places@ owns the segmenter and the pages), or gives its sub-agents more than its own grant"
     }
   },
   "external": {
