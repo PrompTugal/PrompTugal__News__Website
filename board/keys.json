@@ -281,7 +281,7 @@
       "superseded_note": "The first journalist session handed over at 21:35 UTC when the role moved to Dinis's second account (board/the-account-move.md); its id moved from journalist-promptugal to journalist-promptugal-0 so the active key keeps the role's id. The articles it signed are re-signed by the new key (the gate accepts only active signers)."
     },
     {
-      "id": "journalist-promptugal",
+      "id": "journalist-promptugal-1",
       "agent": "journalist@PrompTugal.dinis",
       "label": "journalist@PrompTugal.dinis (Claude Code session, account B)",
       "role": "The journalist of PrompTugal.news (journalist@PrompTugal.dinis): owns content/articles/ in PrompTugal/PrompTugal__News__Website, publishes the desks' Ready storylines and signs each article with this key (articles/<slug>.md.sig). A session key: it ends with its session.",
@@ -295,7 +295,28 @@
         "fingerprint": "sha256:a5ff882884960f87",
         "signing_fingerprint": "sha256:b43b8a91849ccbed"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-16T19:35Z",
+      "superseded_by": "journalist-promptugal",
+      "superseded_note": "the role restarted on this account at Dinis's word (board/guidance/2026-11-16-restart-here-go.md); the 18 articles this key signed were re-signed with the new key"
+    },
+    {
+      "id": "journalist-promptugal",
+      "agent": "journalist@PrompTugal.dinis",
+      "label": "journalist@PrompTugal.dinis (Claude Code session, the restart of 16 November)",
+      "role": "The editor-in-chief of PrompTugal.news (journalist@PrompTugal.dinis): reads the place desks', the correspondent's and the partner desks' drafts, checks every fact has its source and date read, publishes content/articles/ and signs each article with this key (articles/<slug>.md.sig). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 at 19:29 UTC (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab, matching the team's pin) and pushed by that session, taking over from journalist-promptugal-1 (CLAUDE.md, 'Handing a role to a new session'). Not yet linked to the operator's key or submitted to pki.sgit.ai. The private halves stay in the session, outside this repository.",
+      "added": "2026-11-16T19:35Z",
+      "status": "active",
+      "bundle": {
+        "v": "1",
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsnRlw5stu75C6fRxXiNF\n4im3eQ0F/zCZUVaHDFTPNhDYyc7NSH1e3sF5/ApuDihbc2OCbh0wB6d+hLZYnL/s\nVwAp67OF1E7FbdOPN/RIxUubiYH/cxoEci4B/PkuriiMwo5j57As/EZ1ADfDnf6w\nVqrRgeIxpmTCHWPKUVJOPHjvWtFmO6m8wqiO0cL4MFYDcwHUnidrSXc+qlNnt7aY\nppbLu54BBAEUhbT502gdy1yS9l7hJ2jeDi+XCjE9PaxJ8sSStQSuz97rH22fqwPd\n5BC31QaHDcAsex7bkKd0l7ml+JdU1DNwXlwB3/6VlF76IT0SBt+iAWOZCHjhZLEZ\n6R6ZJ9P9g6k4Nliwhf3FMV3Qb6jbIdpjcK02j7FketxOaXEzc3gfUjdh92PBdXqJ\nu08Ok2gfWJRENBsXTWkhEtDGSo3nxXUbT9PPMcciTA6XdT4enWfXl8KBZXO0M5wh\n+cCM280hIhszdCNa03XvNEv8g+gloTOaYIAhAuLd/9YjMCVqTr0laI8cp0trAVOQ\nUAX+F0TJwaAoacsoOGOkfZ1biRL7AOZXmRtWKs7mJMeKJUuT4qRXD1do/lYTSg0x\n7WkY94tTtC9piNMsEzEB512VWb5D+IEOQHWemQ/mYwLlVi8vMxT5gE5h83JtBbW0\n3qhonSRejp+Z5vuFL1kUv2MCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEszYSmlWGqvgnF/dX8A4MBNAlw0iL\nKKWqZKcKt969ZzDtCx6O5glhirffrlPU35guCtLOPlZBWbhjFe4WKnCDug==\n-----END PUBLIC KEY-----\n",
+        "label": "journalist@PrompTugal.dinis",
+        "fingerprint": "sha256:380feef106892497",
+        "record": "sha256:d0cea9074eee68f7",
+        "signing_fingerprint": "sha256:d0cea9074eee68f7"
+      }
     },
     {
       "id": "observability-promptugal",
