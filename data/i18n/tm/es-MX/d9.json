@@ -8,6 +8,15 @@
   "ok": false,
   "from": "es-ES"
  },
+ "d92bc830220595fe": {
+  "t": "El organismo de desarrollo regional visita los colegios de São Brás, incluido un centro especializado en informática",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Regional development body visits São Brás schools, including",
+  "ok": false,
+  "from": "es-ES"
+ },
  "d9604c6005b9efcc": {
   "t": "PrompTugal.news Viseu, a cidade do Grão Vasco: IA y tecnología en Viseu, con el politécnico como gran cerebro en la colina, el ayuntamiento y la CIM haciendo hablar a los datos, más las noticias que lleguen desde Portugal y el mundo. Independente, y cada dato viene con su recibo.",
   "by": "translator@PrompTugal.dinis",

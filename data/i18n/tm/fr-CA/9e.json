@@ -35,5 +35,14 @@
   "ok": false,
   "from": "fr-FR",
   "adapted": true
+ },
+ "9e7cd0e1d0cc8770": {
+  "t": "Après une réunion en juin 2026 avec des commerçants, la GNR et la protection civile, la mairie de Loulé a indiqué installer 60 caméras de vidéosurveillance sur l'anneau hôtelier de Vilamoura, en plus de celles de la marina, avec une extension prévue à Almancil, Quarteira et Loulé. Une police municipale est également en cours de création. L'article ne dit pas si le système analyse automatiquement les images.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "After a June 2026 meeting with merchants, GNR and civil prot",
+  "ok": false,
+  "from": "fr-FR"
  }
 }

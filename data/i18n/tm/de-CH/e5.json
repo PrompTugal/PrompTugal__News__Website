@@ -8,6 +8,15 @@
   "ok": false,
   "from": "de-DE"
  },
+ "e594a4a9c497537b": {
+  "t": "EU-Mittel sollen KI und Robotik zu 15 Tourismusunternehmen der Algarve bringen",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "EU funds to bring AI and robotics to 15 Algarve tourism firm",
+  "ok": false,
+  "from": "de-DE"
+ },
  "e5ce97d42543ebed": {
   "t": "Nach dem Sturm Kristin halfen mehr als 100 freiwillige Mitarbeitende mit Drohnen der Stadtverwaltung bei der Schadenserfassung. Die Luftbilder liefen über die Plattform ATLAS des Unternehmens, die nach dessen Angaben KI nutzt, und sind nur für die Behörden bestimmt.",
   "by": "translator@PrompTugal.dinis",

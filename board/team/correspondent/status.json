@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (the Algarve's stories lead, then national and international) and the beats AI, Portugal, Europe as sub-agents; drafts to journalist@.",
   "state": "working (restart on this account, started by conductor.b@; the places edition)",
-  "updated": "2026-11-16T19:37Z",
+  "updated": "2026-11-16T20:45Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -494,6 +494,12 @@
       "outcome": "ok",
       "release": "this commit",
       "line": "New session key (correspondent-promptugal; account B's is -b, superseded); front page reset to the places edition: Algarve tourism AI lead; farms, Faro, Neuraspace top three; Portugal beat refreshed. No beat sub-agent this run."
+    },
+    {
+      "started": "2026-11-16T20:45Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "New Algarve beat (8 town stories) placed first in the beats; the two newsroom pieces placed; lead and top unchanged"
     }
   ]
 }

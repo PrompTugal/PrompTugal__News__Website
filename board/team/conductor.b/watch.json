@@ -649,6 +649,16 @@
       "at": "2026-11-16T19:52Z",
       "by": "conductor.b@PrompTugal.dinis",
       "note": "first wake of the restart: all 18 ran their first run (keys, statuses); journalist@ published JW1 and the /values/ draft; dev@ made release.sh a queue; ontologist@ shipped the media kind; outreach@ the draft format; correspondent@ reset the front page to the places edition; datasci.places@ IPMA live for 18 places (airport retry); researcher@ staged the South; translator@ it-IT half; abp@ started (19:49) for the grants; Jose's conductor answered in board/team/conductor.b/answers/; live v0.1.1650"
+    },
+    {
+      "at": "2026-11-16T20:54Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 1 of the restart: about 50 commits from 19 agents; live v0.1.1658. Local news: west 7 towns drafted, central 19 items, east 22 items, districts 2nd pass; journalist@ brought west, central and districts onto dev; correspondent@ an Algarve beat on the front page. Media map: 73 outlets in the graph (researcher@ to ontologist@), local@PrompTugal.jose Faro and Loule outlets with feeds. Live data: IPMA and Faro airport for 18 places. dev@: search index 415 to 320 KB; translator@ it-IT complete. abp@ fixing media paths in grants. Old account-A town agents only rewrote pause debriefs. The old conductor@ (account A) is alive (App Store subtitle 20:31); I cannot reach it across accounts: lanes wait on Dinis. Nudged dev.places, dev, outreach."
+    },
+    {
+      "at": "2026-11-16T21:51Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 2: live v0.1.1664. dev@ feeds out (RSS and JSON Feed per place, 36 places, 322 items); outreach@ 10 first-contact drafts (Aveiro, Leiria, Braga, Setubal, a national + the first five); west follow-ups (Portimao hospital, EMARP); journalist@ brought west's follow-ups, held central's key redo; sherpa@ subtitle decided, two synthetic readers on /values/; Vicky's reviewer@ published S67. Review backlog: dev.places 10 ahead, researcher 7, central 5, districts 5, east 4, designer.places 4, translator 2: nudged dev@ to review first. Lanes still wait on Dinis."
     }
   ]
 }

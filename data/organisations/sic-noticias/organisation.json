@@ -22,6 +22,11 @@
         "url": "https://sicnoticias.pt",
         "read_at": "2026-11-16",
         "how": "fetch refused by bot protection (HTTP 403 on feeds)"
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1Ko2NBg2nr3HXRMlpAQAbH0lxJD8scI_JF2y68Bq7eQ8/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 523383 for 'SIC - Sociedade Independente de Comunicação (SIC Notícias)'. Outlet email column deliberately not recorded here."
       }
     ]
   },
@@ -30,6 +35,12 @@
       "url": "https://sicnoticias.pt",
       "read_at": "2026-11-16",
       "how": "fetch refused by bot protection (HTTP 403 on feeds)",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1Ko2NBg2nr3HXRMlpAQAbH0lxJD8scI_JF2y68Bq7eQ8/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 523383 for 'SIC - Sociedade Independente de Comunicação (SIC Notícias)'. Outlet email column deliberately not recorded here.",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]

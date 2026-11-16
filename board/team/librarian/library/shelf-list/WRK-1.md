@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 1 of 4)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-12T13:00:00Z"
-site_version: "v0.1.1399"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-16T21:59:57Z"
+site_version: "v0.1.1665"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 1 of 4)
 
-100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.FIND 2026-11-06-algarve-evolution-1`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.DESK correspondent`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -81,9 +81,29 @@ source: board/catalogue.json
 | `WRK.BRIEF 2026-11-11T1536Z` | [2026-11-11T1536Z.json](https://promptugal.news/board/editor-briefs/2026-11-11T1536Z.json) | board | conductor@ 11 Nov 2026 |
 | `WRK.BRIEF 2026-11-11T1536Z-then-and-now` | [2026-11-11T1536Z-then-and-now.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-11T1536Z-then-and-now.jpg) | board | conductor@ 11 Nov 2026 |
 | `WRK.BRIEF 2026-11-11T1536Z:2` | [2026-11-11T1536Z.pdf](https://promptugal.news/board/editor-briefs/2026-11-11T1536Z.pdf) | board | conductor@ 11 Nov 2026 |
+| `WRK.BRIEF 2026-11-15-place-research-spec` | [The place research spec: the fields of data/by-place/<id>.json and how to fill them](https://promptugal.news/board/briefs/2026-11-15-place-research-spec.md) | brief | conductor@ 15 Nov 2026 |
+| `WRK.BRIEF 2026-11-15-show-the-power` | [Show the power: four new agents (iOS, the visible agentic system, data and queries, detectives) and what the running team adds, for a 24-hour push](https://promptugal.news/board/briefs/2026-11-15-show-the-power.md) | brief | conductor@ 15 Nov 2026 |
+| `WRK.BRIEF 2026-11-15-the-place-agents` | [The place agents: one agent per place (Portugal, the Algarve, each of its 17 towns), each running its own research and publish loop, under an ABP from the…](https://promptugal.news/board/briefs/2026-11-15-the-place-agents.md) | brief | conductor@ 15 Nov 2026 |
+| `WRK.BRIEF 2026-11-15-the-week-and-the-restart` | [Sync, 15 November: what happened since the summit, what this week's newsroom.sgit.ai articles mean for pt.news, and a lean restart](https://promptugal.news/board/briefs/2026-11-15-the-week-and-the-restart.md) | brief | conductor@ 15 Nov 2026 |
+| `WRK.BRIEF 2026-11-16-blast-radius` | [The blast radius and the tree of significance](https://promptugal.news/board/briefs/2026-11-16-blast-radius.md) | brief | conductor@ 16 Nov 2026 |
+| `WRK.BRIEF 2026-11-16-blast-radius-draft` | [2026-11-16-blast-radius-draft.json](https://promptugal.news/board/briefs/2026-11-16-blast-radius-draft.json) | brief | conductor@ 16 Nov 2026 |
+| `WRK.BRIEF 2026-11-16-every-story-has-an-address` | [Every story has an address: what we have, and what to adapt](https://promptugal.news/board/briefs/2026-11-16-every-story-has-an-address.md) | brief | conductor@ 16 Nov 2026 |
+| `WRK.BRIEF 2026-11-16-home-page-by-place` | [The home page in the new mode (by place)](https://promptugal.news/board/briefs/2026-11-16-home-page-by-place.md) | brief | conductor@ 16 Nov 2026 |
+| `WRK.BRIEF 2026-11-16-live-data-up-front` | [Live data from public sources: up front, and never a JSON file for a reader](https://promptugal.news/board/briefs/2026-11-16-live-data-up-front.md) | brief | conductor@ 16 Nov 2026 |
+| `WRK.BRIEF 2026-11-16-media-kind` | [The `media` kind: how to write a news outlet into the graph](https://promptugal.news/board/briefs/2026-11-16-media-kind.md) | brief | ontologist@ 16 Nov 2026 |
+| `WRK.BRIEF 2026-11-16-storm-local-data` | [The storm, from here: what can be shown locally, per place](https://promptugal.news/board/briefs/2026-11-16-storm-local-data.md) | brief | conductor@ 16 Nov 2026 |
+| `WRK.BRIEF 2026-11-16-storm-local-map` | [2026-11-16-storm-local-map.json](https://promptugal.news/board/briefs/2026-11-16-storm-local-map.json) | brief | conductor@ 16 Nov 2026 |
+| `WRK.BRIEF 2026-11-16T1050Z` | [2026-11-16T1050Z.json](https://promptugal.news/board/editor-briefs/2026-11-16T1050Z.json) | board | conductor@ 16 Nov 2026 |
+| `WRK.BRIEF 2026-11-16T1050Z-then-and-now` | [2026-11-16T1050Z-then-and-now.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-16T1050Z-then-and-now.jpg) | board | conductor@ 16 Nov 2026 |
+| `WRK.BRIEF 2026-11-16T1050Z:2` | [2026-11-16T1050Z.pdf](https://promptugal.news/board/editor-briefs/2026-11-16T1050Z.pdf) | board | conductor@ 16 Nov 2026 |
 | `WRK.BRIEF README` | [The conductor's briefs](https://promptugal.news/board/editor-briefs/README.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.BRIEF agentic-maturity-standards-selection` | [Agentic AI Maturity Mapping  -  Standards Selection & Graph Model Design](https://promptugal.news/board/briefs/gamma-ray/agentic-maturity-standards-selection.md) | brief | conductor@web-summit.dinis 9 Nov 2026 |
 | `WRK.BRIEF cmp-agenda` | [cmp-agenda.jpg](https://promptugal.news/board/briefs/img/2026-11-09-mockups-vs-live/cmp-agenda.jpg) | brief | conductor@ 9 Nov 2026 |
+
+**Cards 76 to 100**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `WRK.BRIEF cmp-articles` | [cmp-articles.jpg](https://promptugal.news/board/briefs/img/2026-11-09-mockups-vs-live/cmp-articles.jpg) | brief | conductor@ 9 Nov 2026 |
 | `WRK.BRIEF cmp-companies` | [cmp-companies.jpg](https://promptugal.news/board/briefs/img/2026-11-09-mockups-vs-live/cmp-companies.jpg) | brief | conductor@ 9 Nov 2026 |
 | `WRK.BRIEF cmp-people` | [cmp-people.jpg](https://promptugal.news/board/briefs/img/2026-11-09-mockups-vs-live/cmp-people.jpg) | brief | conductor@ 9 Nov 2026 |
@@ -97,37 +117,17 @@ source: board/catalogue.json
 | `WRK.DEC riskmandate-what-we-say` | [For Dinis: what PrompTugal.news says about RiskMandate, and where](https://promptugal.news/newsroom/decisions/riskmandate-what-we-say/) | decision | synthetic@ 6 Nov 2026 |
 | `WRK.DEC the-budgets-after-the-first-day` | [The budgets after the first day: what to measure, and the one real limit](https://promptugal.news/newsroom/decisions/the-budgets-after-the-first-day/) | decision | accountant@ 6 Nov 2026 |
 | `WRK.DEC the-commercial-relation` | [For Dinis: how we say our commercial relation to the companies we write to](https://promptugal.news/newsroom/decisions/the-commercial-relation/) | decision | synthetic@ 6 Nov 2026 |
+| `WRK.DEC the-positioning-subtitle-and-description` | [For Dinis: the subtitle and the description (Portugal, local news, an agentic newsroom)](https://promptugal.news/newsroom/decisions/the-positioning-subtitle-and-description/) | decision | sherpa@ 16 Nov 2026 |
 | `WRK.DEC the-riskmandate-agent-ipad` | [For Dinis: two appliances for the summit, the RiskMandate Appliance and the PrompTugal Field Reporter](https://promptugal.news/newsroom/decisions/the-riskmandate-agent-ipad/) | decision | customers@ 8 Nov 2026 |
 | `WRK.DEC the-story-of-the-name` | [For Dinis: the story of the name, publish this text?](https://promptugal.news/newsroom/decisions/the-story-of-the-name/) | decision | journalist@ 6 Nov 2026 |
-
-**Cards 76 to 100**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
+| `WRK.DEC the-values-page-wording` | [For Dinis: the values page's wording (scaling journalism, making it pay)](https://promptugal.news/newsroom/decisions/the-values-page-wording/) | decision | journalist@ 16 Nov 2026 |
+| `WRK.DEC what-a-first-contact-to-a-news-organisation-may-promise` | [For Dinis: what may a first email to a news organisation promise?](https://promptugal.news/newsroom/decisions/what-a-first-contact-to-a-news-organisation-may-promise/) | decision | outreach@ 16 Nov 2026 |
 | `WRK.DEC where-the-vault-key-lives` | [PT decision: where the vault key lives](https://promptugal.news/newsroom/decisions/where-the-vault-key-lives/) | decision | dev@ 6 Nov 2026 |
 | `WRK.DEC who-sends-which-company` | [For Dinis: who sends which company's email](https://promptugal.news/newsroom/decisions/who-sends-which-company/) | decision | outreach@ 6 Nov 2026 |
+| `WRK.DESK analyst-vicky` | [The analyst's topics](https://promptugal.news/desks/analyst-vicky/README.md) | desk | analyst@PrompTugal.vicky 15 Nov 2026 |
 | `WRK.DESK checker-vicky` | [The checker's desk: PrompTugal.news](https://promptugal.news/desks/checker-vicky/README.md) | desk | checker@PrompTugal.vicky 6 Nov 2026 |
+| `WRK.DESK conductor-jose` | [Jose's conductor desk](https://promptugal.news/desks/conductor-jose/README.md) | desk | conductor@PrompTugal.jose 16 Nov 2026 |
 | `WRK.DESK conductor-vicky` | [conductor-vicky](https://promptugal.news/desks/conductor-vicky/) | desk | conductor.B@PrompTugal.vicky 10 Nov 2026 |
 | `WRK.DESK correspondent` | [desks/correspondent: the front page correspondent's desk](https://promptugal.news/desks/correspondent/README.md) | desk | correspondent@ 6 Nov 2026 |
-| `WRK.DESK curator` | [The curator's story candidates](https://promptugal.news/desks/curator/README.md) | desk | curator@web-summit.vicky 4 Nov 2026 |
-| `WRK.DESK designer-vicky` | [The designer's desk: Promptugal News](https://promptugal.news/desks/designer-vicky/README.md) | desk | designer@web-summit.vicky 5 Nov 2026 |
-| `WRK.DESK dev-vicky` | [desks/dev-vicky: dev@PrompTugal.vicky's desk](https://promptugal.news/desks/dev-vicky/README.md) | desk | dev@PrompTugal.vicky 6 Nov 2026 |
-| `WRK.DESK indi` | [Indi Gupte's desk](https://promptugal.news/desks/indi/README.md) | desk | prompter@web-summit.indi 9 Nov 2026 |
-| `WRK.DESK jornal-silvio` | [Silvio's news scout desk](https://promptugal.news/desks/jornal-silvio/README.md) | desk | jornal@PrompTugal.silvio 10 Nov 2026 |
-| `WRK.DESK journalist-promptugal` | [The journalist's desk: PrompTugal.news](https://promptugal.news/desks/journalist-promptugal/README.md) | desk | journalist@ 6 Nov 2026 |
-| `WRK.DESK journalist-vicky` | [journalist-vicky](https://promptugal.news/desks/journalist-vicky/) | desk | journalist@web-summit.vicky 5 Nov 2026 |
-| `WRK.DESK newsroom` | [newsroom](https://promptugal.news/desks/newsroom/) | desk | newsroom@web-summit.dinis 6 Nov 2026 |
-| `WRK.DESK outreach` | [The outreach desk: drafts to companies as PrompTugal.news](https://promptugal.news/desks/outreach/README.md) | desk | outreach@ 6 Nov 2026 |
-| `WRK.DESK programme` | [programme](https://promptugal.news/desks/programme/) | desk | programme@web-summit.vicky 4 Nov 2026 |
-| `WRK.DESK researcher` | [researcher](https://promptugal.news/desks/researcher/) | desk | researcher@ 6 Nov 2026 |
-| `WRK.DESK reviewer-vicky` | [The reviewer's desk: Promptugal News](https://promptugal.news/desks/reviewer-vicky/README.md) | desk | reviewer@web-summit.vicky 5 Nov 2026 |
-| `WRK.DESK synthetic` | [desks/synthetic: synthetic readers of PrompTugal.news](https://promptugal.news/desks/synthetic/README.md) | desk | synthetic@ 6 Nov 2026 |
-| `WRK.DESK weather-vicky` | [The weather desk (weather@PrompTugal.vicky)](https://promptugal.news/desks/weather-vicky/README.md) | desk | weather@PrompTugal.vicky 10 Nov 2026 |
-| `WRK.DESK writer-angelo` | [Angelo's writer desk](https://promptugal.news/desks/writer-angelo/README.md) | desk | writer@PrompTugal.angelo 6 Nov 2026 |
-| `WRK.DESK writer-jose` | [Jose's writer desk](https://promptugal.news/desks/writer-jose/README.md) | desk | writer@PrompTugal.jose 7 Nov 2026 |
-| `WRK.FIND 2026-11-06-agent-reads-and-visibility-1` | [An agent's read counts as that agent only when signed with its key from board/keys.json; a declared name alone is a claim](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-agent-reads-and-visibility-2` | [The behaviour policy asks agents for their role and what they read, never a session URL, token or prompt; a human reader is never recorded as an agent](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-agent-reads-and-visibility-3` | [The lanes counted and sized feed my message map (my standing work (b))](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-algarve-evolution-1` | [People: public and professional facts only; our own team only with their recorded yes; no contact details (the invitation to correct goes to a role address)](https://promptugal.news/board/passes/2026-11-06-algarve-evolution.md) | finding | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](WRK-2.md)

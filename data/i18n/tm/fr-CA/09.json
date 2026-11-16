@@ -8,6 +8,15 @@
   "ok": false,
   "from": "fr-FR"
  },
+ "095294f29c5b82e9": {
+  "t": "Depuis le 22 juin 2026, les médecins du service national de santé peuvent prescrire de la kinésithérapie à domicile sur un appareil de type tablette de l'entreprise portugaise Sword Health, où l'IA analyse les mouvements et les corrige en temps réel, sous la supervision d'une équipe clinique. L'ULS Algarve est l'une des neuf unités locales de santé ayant signé des protocoles sur l'IA. L'article ne mentionne pas Faro et ne dit pas que l'ULS Algarve assure le service.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "From 22 June 2026 doctors in the national health service can",
+  "ok": false,
+  "from": "fr-FR"
+ },
  "095e5672aca5f63a": {
   "t": "L’école de santé de Castelo Branco organise une journée sur l’IA en pratique clinique",
   "by": "translator@PrompTugal.dinis",

@@ -45,6 +45,22 @@
       "steps": 1
     },
     {
+      "title": "Algarve marks World Tourism Day 2026 under an AI theme, with a tourism-tech tour that starts at NERA in Loulé",
+      "summary": "Turismo do Algarve's programme for World Tourism Day 2026 (theme: digital agenda and artificial intelligence to redesign tourism) included the SPA Innovation Tour, run by KIPT CoLAB from 24 to 26 September, which starts at NERA in Loulé. Turismo do Algarve's president said technology and AI are increasingly part of tourism's transformation. The article does not say the tour itself is about AI.",
+      "date": "2026-09-24",
+      "publisher": "Postal",
+      "url": "https://postal.pt/algarve/algarve-assinala-dia-mundial-do-turismo-com-inovacao-natureza-e-sabores-da-regiao/",
+      "read_on": "2026-11-16",
+      "ai_path": "An AI-themed regional tourism day, with an innovation tour starting at a Loulé-based association: the day, then the tour, then NERA.",
+      "steps": 2,
+      "significance": "region",
+      "blast": [
+        "faro",
+        "albufeira",
+        "silves"
+      ]
+    },
+    {
       "title": "Loulé council says it has already bought AI tools for urban planning",
       "summary": "The president of the municipality told urban planning professionals on 27 July 2026 that the council has already contracted AI tools to support how planning cases are processed, and warned that technology alone will not fix internal bureaucratic obstacles.",
       "date": "2026-07-28",
@@ -63,6 +79,33 @@
       "read_on": "2026-11-15",
       "ai_path": "An AI and robotics programme whose consortium is led by an association based in Loulé.",
       "steps": 1
+    },
+    {
+      "title": "NERA's DIBEST programme gave Algarve microenterprises AI mentoring among other digital topics",
+      "summary": "NERA reported that in 2025 15 Algarve companies took part in a free 13-session programme under the Interreg Atlantic Area project DIBEST, with eight specialists mentoring in areas including digital marketing, cybersecurity and artificial intelligence. AI is one topic among several; the article gives no AI detail.",
+      "date": "2025-12-22",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/nera-capacitacao-digital-microempresas-algarve/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Loulé-filed business association offered AI mentoring to small firms as one of several topics.",
+      "steps": 1,
+      "significance": "region",
+      "blast": [
+        "faro",
+        "albufeira"
+      ]
+    },
+    {
+      "title": "Loulé art exhibition ./logSinapses took AI and algorithmic mediation as a theme",
+      "summary": "A digital media-art exhibition of 17 works by doctoral researchers opened at the Convento do Espírito Santo in Loulé on 15 July 2025, with free entry until 18 July. Artificial intelligence was one of its themes and one of four curatorial axes concerned algorithmic mediation. The article names no specific AI works.",
+      "date": "2025-07-14",
+      "publisher": "Postal",
+      "url": "https://postal.pt/algarve/exposicao-logsinapses-cruza-arte-tecnologia-e-critica-social-em-loule/",
+      "read_on": "2026-11-16",
+      "ai_path": "A Loulé cultural venue hosted an exhibition with AI as a named theme.",
+      "steps": 1,
+      "significance": "town",
+      "blast": []
     },
     {
       "title": "Loulé's council takes an AI immersive experience to the BTL tourism fair",
@@ -187,6 +230,12 @@
       "url": "https://regiao-sul.pt",
       "kind": "press",
       "feed": null
+    },
+    {
+      "name": "Postal do Algarve (postal.pt)",
+      "url": "https://postal.pt",
+      "kind": "press",
+      "feed": "unknown"
     }
   ],
   "events": [
@@ -203,6 +252,13 @@
       "url": "https://nera.pt",
       "read_on": "2026-11-15",
       "ai_path": "A training course on using AI for social content, run by NERA."
+    },
+    {
+      "title": "SPA Innovation Tour (KIPT CoLAB), starting at NERA in Loulé, 24 to 26 September 2026 (past)",
+      "date": "2026-09-24",
+      "url": "https://postal.pt/algarve/algarve-assinala-dia-mundial-do-turismo-com-inovacao-natureza-e-sabores-da-regiao/",
+      "read_on": "2026-11-16",
+      "ai_path": "Part of an AI-themed World Tourism Day programme; the tour's own AI content is not stated."
     }
   ],
   "ai_map": [
@@ -325,6 +381,16 @@
       "read_on": "2026-11-16",
       "ai_path": "A planning platform with AI features lists Loulé's council among its clients, and the council says it uses AI tools for planning: the link is a lead, not a claim.",
       "steps": 1
+    },
+    {
+      "name": "E-Sports Hub de Inovação, Incubação e Aceleração Regional (Estádio Algarve)",
+      "type": "institution",
+      "url": "https://postal.pt/algarve/estadio-algarve-vai-ter-centro-tecnologico-de-35-milhoes-para-atrair-empresas-e-startups/",
+      "what": "Name of the Loulé/Faro tendered centre at the Estádio Algarve in Parque das Cidades, per Postal (from Lusa, 24 September 2026): 2,235 square metres in the east stand with offices, coworking and meeting rooms, linked to the University of the Algarve, with the stadium as a living lab. The tender was published in the Diário da República on 18 September 2026 and proposals were due on 2 November. The article names no bidders. AI is listed among the technologies it could test.",
+      "source_url": "https://postal.pt/algarve/estadio-algarve-vai-ter-centro-tecnologico-de-35-milhoes-para-atrair-empresas-e-startups/",
+      "read_on": "2026-11-16",
+      "ai_path": "A centre for tech firms that lists AI among its test themes: the centre, then the AI firms it hosts.",
+      "steps": 1
     }
   ],
   "extras": [],
@@ -346,7 +412,16 @@
     "Search results point to a free AI training run by NERA in Loulé from November 2025 to January 2026 and to an MRI scanner with AI imaging tools in Loulé (Mais Algarve, September 2024). Both pages sit behind a bot check, so neither is on the map yet.",
     "The Algarve Tech Hub Summit has a NERA day in Loulé in its 2022 edition (Barlavento, 29 March 2022), with only a passing mention of AI. We found no 2026 date or venue, so it is not an event.",
     "Vilamoura searches found an accessibility app (Inclusive Vilamoura) and a video surveillance plan, and the pages we read mention no AI, so no Vilamoura AI company is mapped.",
-    "The council has not named the AI tools it contracted for planning. Mind's ePaper page shows a Loulé logo, but it does not say which modules Loulé uses, so we ask the council or look for its public procurement notice."
+    "The council has not named the AI tools it contracted for planning. Mind's ePaper page shows a Loulé logo, but it does not say which modules Loulé uses, so we ask the council or look for its public procurement notice.",
+    "Searches for Loulé AI news dated November 2026 found nothing new; the only items we could open were older or regional.",
+    "The Estádio Algarve tender: no article we found names bidders or a winner after the 2 November deadline.",
+    "Barlavento's article p=403493 returned a server error, so a Loulé Criativo item from it is unread.",
+    "The Techstars Startup Weekend Women Loulé (6 to 8 March 2026) pages (The Portugal News) returned no content, and no source we read says the winning Loulé-born startup uses AI.",
+    "Search snippets mention Dengun AI Hub, Tiesports and a Loulé 28 Capital of Culture bid; we did not open their pages or find a Loulé AI link, so they are not mapped. The Loulé 28 bid shows no technology or AI content in what we saw.",
+    "Search snippets for the 2026 Som Riscado edition (piano, Texturas with AI algorithms) could not be tied to a year, so no event added.",
+    "The LouléXLab and the 2020 digital programme for the interior pages (Postal, October 2020) mention no AI, so they are not news items.",
+    "No NERA AI course in 2026 could be confirmed beyond what loule.json already holds; nera.pt's own news page was not re-read here.",
+    "The council's contracted AI tools for planning remain unnamed; no procurement notice found."
   ],
   "voice": {
     "lede": "Oi, pá! Loulé, where the market has domes and the council has algorithms.",
@@ -451,7 +526,7 @@
     {
       "name": "Câmara Municipal de Loulé, general desk",
       "what": "The council's published general channels. Its municipal line for reporting incidents, Loulé 24 Horas, is also listed on the same page.",
-      "channel": "geral@cm-loule.pt, phone 289 400 600, and the Loulé 24 Horas incident line 808 289 112, as published",
+      "channel": "(the council's general email, printed on the linked page), phone 289 400 600, and the Loulé 24 Horas incident line 808 289 112, as published",
       "url": "http://www.cm-loule.pt/pt/menu/267/contactos-uteis.aspx",
       "source_url": "http://www.cm-loule.pt/pt/menu/267/contactos-uteis.aspx",
       "read_on": "2026-11-16"
@@ -467,7 +542,7 @@
     {
       "name": "NERA, general desk",
       "what": "The association's published general channels, in the footer of its home page.",
-      "channel": "nera@nera.pt, phone +351 289 415 151, as published in the footer of nera.pt",
+      "channel": "(the council's general email, printed on the linked page), phone +351 289 415 151, as published in the footer of nera.pt",
       "url": "https://nera.pt/contactos",
       "source_url": "https://nera.pt",
       "read_on": "2026-11-16"

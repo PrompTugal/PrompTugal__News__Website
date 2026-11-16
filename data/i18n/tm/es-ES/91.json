@@ -6,5 +6,13 @@
   "at": "2026-11-16",
   "src": "Monchique water company says it already uses AI tools, and b",
   "ok": false
+ },
+ "915224fd84361616": {
+  "t": "En una entrevista con ECO, la rectora Alexandra Teodosio (en el cargo desde el 17 de diciembre de 2025) se opuso a prohibir la IA y afirmó que no compensa comprar software de detección porque la IA no deja de cambiar; quiere introducirla de un modo que estimule el pensamiento crítico y favorezca el paso a la evaluación continua.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "In an interview with ECO, rector Alexandra Teodosio (in offi",
+  "ok": false
  }
 }

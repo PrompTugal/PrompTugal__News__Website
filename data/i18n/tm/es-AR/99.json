@@ -16,5 +16,14 @@
   "src": "Rádio Portalegre reports the polytechnic's roughly 200,000 e",
   "ok": false,
   "from": "es-ES"
+ },
+ "99ea56e3b843dfcf": {
+  "t": "Equipa UAlg vuelve a los colegios con 81 charlas gratuitas, entre ellas sobre IA y ciberseguridad",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Equipa UAlg returns to schools with 81 free talks, AI and cy",
+  "ok": false,
+  "from": "es-ES"
  }
 }

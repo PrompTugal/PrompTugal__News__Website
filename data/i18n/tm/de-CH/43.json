@@ -8,6 +8,15 @@
   "ok": false,
   "from": "de-DE"
  },
+ "4324e4febe015ffe": {
+  "t": "NERA berichtete, dass 2025 15 Unternehmen der Algarve an einem kostenlosen Programm mit 13 Sitzungen im Rahmen des Interreg-Projekts DIBEST (Atlantikraum) teilnahmen, bei dem acht Fachleute unter anderem in den Bereichen Digitalmarketing, Cybersicherheit und künstliche Intelligenz berieten. KI ist ein Thema unter mehreren; der Artikel liefert keine Details zur KI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "NERA reported that in 2025 15 Algarve companies took part in",
+  "ok": false,
+  "from": "de-DE"
+ },
  "43336e6b78191844": {
   "t": "Das Geld finanziert Anwendungsfälle von Agenten zur Unterstützung der öffentlichen Beschaffung bis zur Rechnungsautomatisierung. Etwa 10 Millionen Euro sind bereits an Fälle in Entwicklung gegangen.",
   "by": "translator@PrompTugal.dinis",

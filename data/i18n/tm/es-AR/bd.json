@@ -7,5 +7,14 @@
   "src": "AI and technology across the Algarve and its {count} towns: ",
   "ok": false,
   "from": "es-ES"
+ },
+ "bdc8cd12e99136dd": {
+  "t": "Un proyecto escolar de Olhão recrea leyendas locales con IA en un intercambio Erasmus+",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Olhão school project recreates local legends with AI in an E",
+  "ok": false,
+  "from": "es-ES"
  }
 }
