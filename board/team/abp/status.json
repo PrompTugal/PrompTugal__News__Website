@@ -1,8 +1,8 @@
 {
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
-  "state": "running: a new session (session_018yvwtPpzq2TZ2mzv8KqvhB, key abp-promptugal-b) since 15 November 21:45 UTC for the place agents; observe mode; policy v1.10.1",
-  "updated": "2026-11-16T02:36Z",
+  "state": "running: a new session (session_018yvwtPpzq2TZ2mzv8KqvhB, key abp-promptugal-b) since 15 November 21:45 UTC for the place agents; observe mode; policy v1.11.0",
+  "updated": "2026-11-16T04:41Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -27,13 +27,16 @@
     "00:40: datasci.places on Dinis's recorded word (guidance 23:30), grant follows it (v1.9.2); the first place article (Faro) in mandate; detective.places edited data.places's feature (board/abp/reports/2026-11-16-00.md)",
     "01:00, at Dinis's word: R8 and the place and detective ABPs allow public contacts from public sites (official channel, linked, dated) and public people in their professional role; personal contacts of private individuals stay out (v1.10.0)",
     "01:35: five place articles in mandate; 19 of 19; datasci assets/swagger/** restored (v1.10.1) (board/abp/reports/2026-11-16-01.md)",
-    "02:35: 19 of 19; accountant@ and place.loule@ act on Dinis's word given in their own sessions: not verifiable by abp@, grant unchanged, asked of Dinis (board/abp/reports/2026-11-16-02.md)"
+    "02:35: 19 of 19; accountant@ and place.loule@ act on Dinis's word given in their own sessions: not verifiable by abp@, grant unchanged, asked of Dinis (board/abp/reports/2026-11-16-02.md)",
+    "04:40: place.districts@ (new, no record of Dinis's word): provisional narrow ABP, no sub-agents (v1.11.0); conductor built in dev's paths at a claimed word (board/abp/reports/2026-11-16-04.md)"
   ],
   "next": [
     "Hourly: the site-identity check and a review of new commits; the place agents' first articles checked for their own town",
     "Keep site-identity.mjs's export checkSites and its shape: the build imports it"
   ],
   "asks": [
+    "Dinis: place.districts@ (the 17 district capitals) appeared at ~04:20 with no record of your word; did you start it, may it run sub-agents and add its capitals to places.json? Its ABP is provisional and narrow until you say",
+    "Dinis: conductor@ built the home page in dev's paths (6a121a9) on your \"do it\" at ~03:05; confirm, and may it again?",
     "Dinis: did you give accountant@ data/billing/** and the costs pages (content/newsroom/costs/, a page per place) at about 01:00? Say yes here and abp@ writes it into its grant",
     "Dinis: place.loule@'s three articles at your request say where three team members live; please confirm each agrees, or it comes out (personal, not professional)",
     "Dinis: may the conductor send_message the sessions it started at your word, for routing (11 this hour)?",
@@ -250,6 +253,12 @@
       "outcome": "ok",
       "release": "this wake's",
       "line": "two grants claimed on Dinis's word, asked of him"
+    },
+    {
+      "started": "2026-11-16T04:26Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "place.districts provisional ABP; conductor in dev paths"
     }
   ],
   "debrief": "board/team/abp/debriefs/2026-11-08-handover.md",

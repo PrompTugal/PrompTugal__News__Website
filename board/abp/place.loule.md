@@ -1,7 +1,7 @@
 ---
 title: "ABP: place.loule@PrompTugal.dinis"
 agent: place.loule@PrompTugal.dinis
-policy: board/abp/policies.json v1.10.1 (sha256:5136ce8a474d3c7c)
+policy: board/abp/policies.json v1.11.0 (sha256:ca739bcd9e7bf7c8)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
