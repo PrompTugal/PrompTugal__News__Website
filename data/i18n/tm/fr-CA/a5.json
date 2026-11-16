@@ -1,0 +1,56 @@
+{
+ "a51f96c2293bce6d": {
+  "t": "L'IA et des capteurs transforment les berges de Portimão en spectacle de lumière interactif",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AI and sensors turn Portimão's riverside into an interactive",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "a540cb47bbba9f83": {
+  "t": "L'institut polytechnique publie ses règles pour les outils d'IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The polytechnic issues its rules for AI tools",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "a59069bec2b29c00": {
+  "t": "Brainr, la startup de Leiria qui met l'IA dans l'usine agroalimentaire, étend son tour de table d'amorçage record",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Brainr, the Leiria AI food-factory startup, extends its reco",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "a59f1749796b2268": {
+  "t": "L’APDC et Google lancent un cours d’IA pour les fonctionnaires, démarré à Coimbra",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "APDC and Google start an AI course for civil servants, kicke",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "a5e56e75b8fadd24": {
+  "t": "Honnêtement, meu amigo, voici ce que nous n’avons pas trouvé, et c’est beaucoup, comme chercher de l’ombre à deux heures de l’après-midi en août :",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Honestly, meu amigo, here is what we could not find, and it ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "a5f2c7318be1c9ed": {
+  "t": "**L’identité de ce site :** PrompTugal.news {name} a sa propre clé, {key} (empreinte de signature {fp}), publiée dans [board/keys.json]({keys}). Son fichier de recherche, `{file}`, est tenu par {agent} et signé avec cette clé, et la signature se vérifie : **signature valide**.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** PrompTugal.news {name} has its own",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

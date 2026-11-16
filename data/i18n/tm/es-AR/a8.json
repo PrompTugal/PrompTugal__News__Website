@@ -1,0 +1,38 @@
+{
+ "a8341588a894764c": {
+  "t": "Una resolución del Consejo de Ministros añade 1,8 millones de euros del plan de recuperación, lo que eleva el coste del proyecto a 7,3 millones de euros, y pretende llevar a AMALIA del prototipo a los servicios al ciudadano. El plan de entrenamiento abarca herramientas de agentes, imagen y voz, y el Gobierno buscará conversaciones con empresas de medios para acceder a archivos. El artículo señala que el Sindicato de Periodistas impugnó el uso de datos de Arquivo.pt en la primera fase. Son intenciones declaradas, no entregas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A Council of Ministers resolution adds 1.8 million euros fro",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "a84694d202347526": {
+  "t": "El máximo responsable de Inetum dice que la IA está reduciendo los equipos de proyecto, también en la red de centros de servicios de Bragança",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Inetum's chief says AI is shrinking project teams, including",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "a8ba089e242e6644": {
+  "t": "PrompTugal.news Setúbal, a cidade do Sado: IA y tecnología en Setúbal, con el puerto, el Politécnico y las fábricas de pasta de Mitrena como grandes protagonistas, más las noticias que lleguen navegando desde Portugal, Europa y el mundo. Independente, y cada dato viene con su recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Setúbal, a cidade do Sado: AI and tech in Se",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "a8dcd1153a708a4e": {
+  "t": "La actividad de IA de Bragança gira en torno a dos vecinos: el politécnico (el IPB, que su nueva web ya llama Universidade Politécnica de Bragança y que el gobierno está convirtiendo en la Universidade de Bragança e do Norte Interior) y Brigantia EcoPark, el centro de ciencia y tecnología que alberga el laboratorio de investigación MORE CoLAB. El centro de investigación CeDRI, los cursos y seminarios de IA y la sesión de abril de 2026 sobre la BSC AI Factory proceden de esa pareja, con el ayuntamiento como apoyo. La propia página de noticias del ayuntamiento no muestra ninguna sobre IA, así que la investigación y el parque, no el ayuntamiento, son el centro de gravedad.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Bragança's AI activity sits around two neighbours: the polyt",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

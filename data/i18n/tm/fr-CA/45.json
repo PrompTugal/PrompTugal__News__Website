@@ -1,0 +1,48 @@
+{
+ "454d988659d3a7c3": {
+  "t": "Algarve Evolution a lancé un projet pilote pour sélectionner 15 PME du tourisme de l'Algarve et leur offrir des conseils et un plan d'action sur l'IA et la robotique, avec des candidatures du 20 février au 30 avril 2026. Le consortium élargi Inova Algarve 3.0 est dirigé par NERA, dont la page d'accueil indique Loulé comme municipalité.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Algarve Evolution opened a pilot to pick 15 Algarve tourism ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "457d5326b74279d4": {
+  "t": "Une réunion du conseil municipal du 21 août 2026 a approuvé un accord avec Odin Systems pour un ODIN Defense Hub, décrit comme lié à la défense et à des technologies telles que les drones et les systèmes intelligents, un investissement de plus de 40 millions d'euros pouvant créer jusqu'à 120 emplois. Elle a aussi approuvé un protocole avec Beyond Vision pour fabriquer localement des composants de drones et tester des aéronefs à l'aérodrome municipal. La page ne donne pas de date de publication; la date de la réunion est donc retenue.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A council meeting on 21 August 2026 approved an agreement wi",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "4591669ecf2e130e": {
+  "t": "Algarve STP retient 12 entreprises pour son premier Venture Lab, l’IA parmi les secteurs",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Algarve STP picks 12 firms for its first Venture Lab, AI amo",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "45a9326d0f22ce6d": {
+  "t": "La municipalité aide à lancer la formation AI4PA pour les agents publics, avec une première session à Viseu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council helps launch AI4PA training for public servants ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "45d99c75fc59880f": {
+  "t": "Dans le cadre d'un protocole avec l'Institut national de réhabilitation, la mairie a installé des capteurs dans quatre services publics qui indiquent en temps réel si une place réservée est libre, les données étant affichées dans le programme et l'application Acessibilidades 360. L'article n'affirme aucune IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Under a protocol with the National Institute for Rehabilitat",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

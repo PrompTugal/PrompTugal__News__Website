@@ -1,0 +1,38 @@
+{
+ "0502a53eb54bbb32": {
+  "t": "Noesis abrió su oficina de Guarda el 3 de febrero de 2025 y otra en Castelo Branco, con unas 30 contrataciones previstas este año y unos 70 empleados en la Beira Interior. El reportaje enumera la IA entre los especialistas que recluta pero no dice nada de productos de IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Noesis opened its Guarda office on 3 February 2025 and one i",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "056f3a840130919b": {
+  "t": "PrompTugal.news Évora: IA y tecnología en Évora, una ciudad universitaria del Alentejo cuyo centro de gravedad es la Universidade de Évora, el parque científico PACT y el hospital público, y lo que llega a Évora desde el Alentejo, Portugal y el mundo. Independiente. Cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Évora: AI and technology in Évora, a univers",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "058636d41d4a896c": {
+  "t": "Un paquete de 750 mil euros: unos 700 mil para un centro de datos compartido (construcción prevista para el segundo semestre de 2026) y 52 mil para un proyecto de IA que forma a 70 empleados, 35 por puerto, en Microsoft Copilot, con fases posteriores para automatizar procedimientos como las solicitudes de ocupación de terrenos y las licitaciones públicas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A 750 thousand euro package: about 700 thousand for a shared",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "05e2e058593efcd3": {
+  "t": "La financiación de AMALIA sube a 7 millones de euros mientras se encamina a la app Gov.pt",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AMALIA's funding rises to 7 million euros as it heads into t",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

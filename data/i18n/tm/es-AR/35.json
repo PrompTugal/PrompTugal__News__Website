@@ -1,0 +1,56 @@
+{
+ "3513a62a97aaf4b7": {
+  "t": "Lisboa, pá: siete colinas, un tranvía ocupadísimo y más congresos de IA por kilómetro cuadrado que pastéis de nata en Belém.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lisboa, pá: seven hills, one very busy tram, and more AI con",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "3535afc1b30d539d": {
+  "t": "El primer Venture Lab de AlgarveSTP elige 12 empresas, con la adopción de la IA en el menú de mentoría",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "First Venture Lab by AlgarveSTP picks 12 companies, with AI ",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "353b7c6b8e2138d0": {
+  "t": "IA y robots para los cítricos: el proyecto ATTENTIA, con la Universidad del Algarve",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AI and robots for citrus: the ATTENTIA project, with the Uni",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "35683239cf1272c2": {
+  "t": "Aquí la IA vive más en las oficinas que en los garajes, meu. La câmara dice que ha comprado herramientas de IA para desenredar los papeles de urbanismo, NERA está en la ciudad enseñando a las empresas a usarlas y, junto con Faro, el ayuntamiento licita un centro tecnológico en el Estádio Algarve que nombra la IA. Hasta ahora, una sola empresa de IA de verdad, SPIC, así que el mapa es corto, y honesto al respecto.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here AI lives more in offices than in garages, meu. The câma",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "356ea07c73f9328a": {
+  "t": "PrompTugal.news Algarve: IA y tecnología en todo el Algarve, de Sagres a Vila Real, y lo que nos llega desde Portugal y el mundo. Independiente, y cada dato tiene su fonte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Algarve: AI and technology across the whole ",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "357b89658091781d": {
+  "t": "El ayuntamiento firmó un protocolo con la UAlg para un nuevo campus en Barranco do Rodrigo, en un terreno y con un diseño aportados por el ayuntamiento. Sus áreas de enfoque son lo digital, los datos y la inteligencia artificial, con finalización prevista para 2028 y cursos desde 2029, con un coste total estimado de unos 15 millones de euros que entonces no estaba asegurado por completo. La UAlg tenía entonces más de 400 estudiantes en Portimão y aspira a unos 1500 tras tres años.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council signed a protocol with UAlg for a new campus at ",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

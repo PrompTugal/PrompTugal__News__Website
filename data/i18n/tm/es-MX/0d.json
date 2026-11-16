@@ -1,0 +1,49 @@
+{
+ "0d16df2ddd409a64": {
+  "t": "El espacio de coworking municipal del casco antiguo tiene 20 puestos de trabajo y está lleno desde noviembre de 2023. También colabora con GDG Lagos en eventos de IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The municipal coworking space in the old town has 20 worksta",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "0d6afb2528c7f8d1": {
+  "t": "Un estudio dirigido por la facultad de ciencias sociales de NOVA y promovido por la Fundación Gulbenkian, basado en las respuestas de 295 periodistas, propone 10 medidas para un uso responsable de la IA en las redacciones. Un profesor de la UTAD formó parte del equipo del proyecto.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A study led by NOVA's social sciences faculty and promoted b",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "0d8fb3014c735381": {
+  "t": "El ayuntamiento está desplegando una plataforma digital de gestión urbana cuyo módulo de IA revisa los documentos en el momento de presentarlos y retiene los expedientes incompletos. El ayuntamiento dice que cerca de siete de cada diez despachos de su sección de tramitación piden documentos corregidos, y que recibe unas 5,000 solicitudes de licencia al año. La formación del personal empezó en julio y se espera el funcionamiento pleno en los meses siguientes.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council is rolling out a digital urban-management platfo",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "0dbee8cf4d00067c": {
+  "t": "Neuraspace levanta 15.6 millones de euros para inteligencia de tráfico espacial con IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Neuraspace raises 15.6 million euros for AI space-traffic in",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "0de436ae73ac7694": {
+  "t": "El proyecto AITriage4SU, dirigido desde la UTAD, celebró el 31 de enero en Oporto una reunión científica con unos 200 participantes sobre IA para el triaje de adultos en urgencias. El equipo mostró cómo los grandes modelos de lenguaje normalizan las quejas de triaje en texto libre, con primeros resultados.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The AITriage4SU project, led from UTAD, held a scientific me",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

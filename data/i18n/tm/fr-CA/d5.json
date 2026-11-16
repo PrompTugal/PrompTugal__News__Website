@@ -1,0 +1,56 @@
+{
+ "d50d4a974d807e23": {
+  "t": "L'UTAD et l'institut polytechnique de Bragança rejoignent le HUB Digital du consortium INOV-NORTE avec l'institut polytechnique de Porto. Il s'appuie sur un assistant virtuel d'IA, encore en cours d'entraînement, pour aider les enseignants à concevoir des cours plus innovants, avec un lancement prévu au second semestre 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD and the Polytechnic of Bragança join the HUB Digital of",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "d51b558786ac2a1b": {
+  "t": "Le laboratoire conçoit des IA sur mesure pour des entreprises, des fonds de capital-investissement et des agences gouvernementales. Ses business angels comptent des fondateurs de Sword Health, OutSystems et Feedzai. Le montant du tour n'a pas été divulgué.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The lab builds custom AI for companies, private equity firms",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "d59c7109bbba032c": {
+  "t": "Voix locale et espiègle : mêmes faits, racontés à l’algarvienne",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Playful local voice: same facts, said the Algarvio way",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "d5a78bc8a8ef3a0a": {
+  "t": "Bosch ouvre à Braga une unité de R&D eBike, avec un antivol à apprentissage automatique en son cœur",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Bosch opens an eBike R&D unit in Braga, with machine-learnin",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "d5c27fdac82bc391": {
+  "t": "PrompTugal.news Castelo Branco : IA et technologie à Castelo Branco, capitale de district de la Beira Baixa dont le centre de gravité est son institut polytechnique, devenue Universidade Politécnica de Castelo Branco, et un petit cercle d’entreprises technologiques locales, et ce qui arrive à Castelo Branco depuis le Portugal, l’Europe et le monde. Indépendant. Chaque fait sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Castelo Branco: AI and technology in Castelo",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "d5c86e462451b6fc": {
+  "t": "Les 17 lieux de la première vague, chacun dans sa couleur. Un point plein est un site en ligne, un anneau un site encore en cours de recherche. Touchez un lieu pour ouvrir son site.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 17 places in the first wave, each in its own colour. A f",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "8001c558561e15ac": {
+  "t": "El ayuntamiento de Silves y Turismo de Portugal ofrecen un curso avanzado gratuito de IA para empresas",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Silves council and Turismo de Portugal run a free advanced A",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "80466973f5f47cad": {
+  "t": "ISLA Santarém abre una sesión gratuita sobre Gemini y Google Workspace para el trabajo diario",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "ISLA Santarém opens a free session on Gemini and Google Work",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

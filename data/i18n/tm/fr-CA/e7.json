@@ -1,0 +1,39 @@
+{
+ "e72981ce21809675": {
+  "t": "Ainda não sabemos tudo, pá. Voici ce que Faro ne nous a pas encore dit :",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, pá. Here is what Faro has not told u",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "e7908f114d56ddcd": {
+  "t": "Viana do Castelo, ai Jesus : une basilique sur la colline, un fleuve qui n'arrive pas à décider où s'arrêter, et une mairie qui apprend discrètement à un ordinateur à lire les autorisations pendant que toute la ville a les yeux rivés sur le port.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viana do Castelo, ai Jesus: a basilica on the hill, a river ",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "e7f26edd2ea41eb9": {
+  "t": "Le gouvernement prévoit un projet pilote dans un petit nombre de communes déjà technologiquement prêtes, avec l'IA comme couche d'accès unique aux plateformes municipales, en commençant par les permis de construire. Coimbra est citée parmi la première phase, et son maire a déclaré que l'IA peut accélérer les procédures tout en respectant les règles d'urbanisme et sans déshumaniser les services publics.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The government plans a pilot in a small number of municipali",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "e7f72e1b48d63a7d": {
+  "t": "Visualforma, une entreprise de Faro, a décrit un système de contrôle de l'irrigation des espaces verts développé avec Itelmatis et l'Université de l'Algarve et testé à Loulé, qui exploite des données de terrain pour optimiser l'arrosage, avec un module d'IA et d'apprentissage automatique prévu. C'est une information plus ancienne, d'avril 2023.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Visualforma, a Faro company, described a green-spaces irriga",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "59d03424a0a7d0d2": {
+  "t": "Olhão es un puerto pesquero en la Ria Formosa, y su historia tecnológica pasa por el mar. La estación piloto de piscicultura del IPMA, el laboratorio colaborativo S2AQUAcoLAB y la empresa de piensos para acuicultura SPAROS están en el municipio, y en el puerto pesquero se construye un Blue Hub para la economía del mar. El camino de la IA es real pero estrecho: nutrición de precisión y acuicultura digital, además de un ayuntamiento que ha hablado de IA para las rutas de residuos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Olhão is a fishing port on the Ria Formosa, and its technolo",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "59ec641f83c3c308": {
+  "t": "La cumbre de dos días se celebró en un hotel de Lagos el 6 y 7 de noviembre de 2025. Un avance anunció una demostración en directo de cómo crear un ChatGPT especializado el primer día. Barlavento contó después unas 450 personas el primer día y 570 el segundo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The two-day summit ran at a Lagos hotel on 6 and 7 November ",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "59ed91899d661901": {
+  "t": "Calma, ainda não sabemos tudo, pá. Esto es lo que Porto aún no nos ha contado:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Calma, ainda não sabemos tudo, pá. Here is what Porto has no",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

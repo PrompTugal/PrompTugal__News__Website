@@ -1,0 +1,50 @@
+{
+ "f30e26d27493f31a": {
+  "t": "Un almuerzo de trabajo el 5 de marzo de 2026, organizado por novobanco y AEP como parte de Portugal Export +60'30, reunió a unos 30 líderes empresariales para hablar de IA y exportaciones.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A working lunch on 5 March 2026, run by novobanco and AEP as",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "f37a88821b4aa063": {
+  "t": "Una plataforma creada a partir del trabajo de unas salinas de Castro Marim gestiona la cosecha, el laboratorio, las existencias, las ventas y la trazabilidad de la sal marina artesanal desde el celular o la computadora. La prensa cuenta que incluye un asistente digital para dudas operativas y una herramienta para la gestión de compuertas y salinidad. Prueba gratuita para productores.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A platform built from the work of a Castro Marim salt works ",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "f3854196e6a12089": {
+  "t": "Se aprobó la candidatura de Portimão a la convocatoria ALGARVE-2025-13, con una inversión total de unos 938,717 euros. Cubre infraestructura tecnológica municipal, seguridad de plataformas, gestión de wifi y automatización de procesos administrativos. El artículo incluye la IA entre las áreas del proyecto pero no da detalles de cómo se usará.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portimão's application under call ALGARVE-2025-13 was approv",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "f3a9aa9b9b891fc5": {
+  "t": "NERA organiza un Lunch & Learn sobre herramientas de IA para el análisis de clientes, en la Universidad del Algarve",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "NERA hosts a Lunch & Learn on AI tools for customer analysis",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "f3c9364ad7b2bbb0": {
+  "t": "Según las fuentes que pudimos abrir, el centro de gravedad de Tavira es la investigación pública y los datos públicos más que la IA comercial. Un proyecto del plan de recuperación de 1.36 millones de euros, el Polo de Inovação de Tavira, construye un centro de investigación y transferencia tecnológica sobre la Dieta Mediterránea, la salud y la adaptación climática. El ayuntamiento es uno de los seis municipios del Algarve oriental de la plataforma de datos urbanos Algarve 6.0 e instaló en 2026 sensores de estacionamiento conectados, y la comunidad Tavira Works forma parte de la red tecnológica regional. No encontramos ninguna empresa de IA con sede en el municipio.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On the sources we could open, Tavira's centre of gravity is ",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ }
+}

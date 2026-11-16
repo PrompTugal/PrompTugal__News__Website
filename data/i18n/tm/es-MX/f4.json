@@ -1,0 +1,39 @@
+{
+ "f45cb8f9a5c0ac3b": {
+  "t": "El politécnico de Guarda firma un acuerdo de logística con drones e IA con una universidad ucraniana",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Guarda polytechnic signs a drones and AI logistics agreement",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "f465c2f8959402fa": {
+  "t": "Echo Boomer informó de que la Nommo Smart Water Pump de Sociedade da Água de Monchique, creada con la startup Quantum Leap, aprendería los hábitos de consumo del hogar y repondría las botellas, con sensores que comprobarían la calidad del agua. Estaba en preproducción, con salida al mercado prevista para el primer semestre de 2022. No encontramos ninguna noticia de que se lanzara.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Echo Boomer reported that the Nommo Smart Water Pump from So",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "f4ccbd63ab4bc3d3": {
+  "t": "El Radar Social del ayuntamiento, financiado por el PRR, terminó su fase de planificación y estaba construyendo un sistema de georreferenciación social para localizar a personas, familias y grupos en riesgo y los recursos sociales cercanos, previsto para marzo de 2026. El presupuesto es de 169,302.59 euros para un equipo de dos técnicos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council's PRR-funded Radar Social finished its planning ",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "f4d3675bf1b07f58": {
+  "t": "PrompTugal.news Coimbra: IA y tecnología en Coimbra, una ciudad universitaria cuyo centro de gravedad es la Universidad de Coimbra, sus centros de investigación, la incubadora del Instituto Pedro Nunes y la empresa de detección de fraude Feedzai, y lo que llega a Coimbra desde Portugal, Europa y el mundo. Independiente; cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Coimbra: AI and technology in Coimbra, a uni",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

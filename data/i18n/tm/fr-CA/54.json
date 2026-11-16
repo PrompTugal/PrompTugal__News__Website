@@ -1,0 +1,66 @@
+{
+ "5424ca858f18ae29": {
+  "t": "La Cáritas diocésaine a tenu une conférence au Seminário de São José à Faro sur l’IA, la dignité humaine, le travail, l’apprentissage et ceux qui risquent d’être laissés de côté.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The diocesan Cáritas held a conference at the Seminário de S",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "542a9ab697bdc0e7": {
+  "t": "Cá em Castro Marim le sel sèche au soleil et l’IA, ó pá, il faut encore lui demander de monter du stationnement.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Cá em Castro Marim the salt dries in the sun and the AI, ó p",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "543138b8e760a2ad": {
+  "t": "Lors du sixième Fórum Ideias de Negócios, le 27 octobre 2026, deux tables rondes ont présenté des entreprises locales. Parmi elles figuraient InovaPrime, une entreprise de technologies de l'information, et Savvy Alpha, active dans les équipements et technologies médicaux. La mairie dit qu'elle suivra les projets présentés tout au long de l'année. Le compte rendu ne mentionne pas l'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the sixth Fórum Ideias de Negócios on 27 October 2026, tw",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "54a40cf084fdfb60": {
+  "t": "Toutes les entreprises, institutions et communautés ayant un chemin vers l’IA que les agents des lieux ont cartographiées, chacune d’après une source publique. [Algarve Evolution]({ae}), l’association qui construit l’écosystème d’innovation de la région, en fait partie.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Every company, institution and community with a path to AI t",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "54e70bb130673d62": {
+  "t": "Des caméras d’IA sur deux bus de Braga ont relevé près de 8 000 arrêts illicites en trois mois",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AI cameras on two Braga buses logged almost 8,000 illegal st",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "54e8cbd994efe2ee": {
+  "t": "Axtron Systems, fondée en 2023 par deux professeurs de l’école de technologie de l’institut polytechnique, a conçu FIRECOM. Un modèle d’IA repère le contour des bâtiments, trace les bandes de coupure autour d’eux, et les images du drone montrent où la végétation doit être débroussaillée. Il est issu d’un projet européen Horizon Europe.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Axtron Systems, founded in 2023 by two professors of the pol",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "54efd925eefadb18": {
+  "t": "Le programme offre du mentorat sur les clients, les marchés, la tarification et le passage à l’échelle à des start-ups de la biotech, de l’IA, de la santé, du tourisme, de l’alimentation et des industries créatives. Deux entreprises citées, expressTEC à Faro et Bot Gonçalves, utilisent l’IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The programme offers mentoring on customers, markets, pricin",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

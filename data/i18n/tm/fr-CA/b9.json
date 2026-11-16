@@ -1,0 +1,40 @@
+{
+ "b921869fbda8493c": {
+  "t": "Un petit projet PRR à l'IPVC et chez Data CoLAB construit un système d'IA centré sur le citoyen",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A small PRR project at IPVC and Data CoLAB builds a citizen-",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "b9ca63c524018ec2": {
+  "t": "Ainda há fios soltos, pá. Voici ce que Portalegre ne nous a pas encore dit :",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda há fios soltos, pá. Here is what Portalegre has not to",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "b9df3ef61f7df438": {
+  "t": "PrompTugal.news Lagoa : IA et technologie à Lagoa, municipalité de tourisme, de vin et de congrès dont le travail sur l’IA vient de sa mairie, de ses freguesias, d’une entreprise informatique et d’une école, et ce qui arrive à Lagoa depuis l’Algarve, le Portugal et le monde. Indépendant; chaque fait sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Lagoa: AI and technology in Lagoa, a tourism",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "b9e1f0ae59c1489b": {
+  "t": "L'école d'agronomie et de médecine vétérinaire accueille un atelier international dans le cadre du projet européen VITAL (25 partenaires, neuf pays) sur la façon dont l'IA et l'élevage de précision modifient les compétences dont le secteur a besoin. L'article ne donne pas la date de l'atelier.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The agrarian and veterinary school hosts an international wo",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

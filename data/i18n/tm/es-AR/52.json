@@ -1,0 +1,29 @@
+{
+ "52a3442ebff23e77": {
+  "t": "Portalegre, ó pá: una ciudad de colina de granito y tapices donde la lana se teñía a mano durante siglos, y donde ahora el politécnico enseña a sensores y chatbots a vivir en una granja, mientras España espera educadamente al otro lado de la colina.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portalegre, ó pá: a hill town of granite and tapestry where ",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "52c7ce0be499b3ee": {
+  "t": "Algarve Evolution abre las solicitudes de su piloto de IA y robótica para pymes turísticas",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Algarve Evolution opens applications for its AI and robotics",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "52ca0f56bcbd27af": {
+  "t": "La UTAD se une a un proyecto de 36 meses que usa la IA contra el avispón asiático",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD joins a 36-month project using AI to fight the Asian ho",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

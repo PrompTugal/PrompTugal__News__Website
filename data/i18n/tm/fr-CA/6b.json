@@ -1,0 +1,22 @@
+{
+ "6b5b3210d02e8f62": {
+  "t": "L'agence, qui remplace iParque, s'est vu fixer des objectifs : réduire de 20 % les délais de décision pour les investisseurs, créer 750 emplois qualifiés et augmenter les exportations de 10 % d'ici 2029. L'intelligence artificielle est l'un de ses cinq domaines stratégiques. La municipalité a annoncé l'agence le 2 novembre 2026, et sa propre page d'actualités nomme quatre services : construire, connecter, investir et innover.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The agency, which replaces iParque, was presented with targe",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "6bfc1fcd592a179d": {
+  "t": "São Brás est une petite ville dans les collines qui vit de son patrimoine, du Museu do Traje au liège et désormais à la Praça 1914, avec Globalfire, fabricant de détection d'incendie, comme premier employeur et exportateur. Le chapitre de l'IA est encore en cours d'écriture, et la câmara tient la plume : un projet de territoire intelligent avec ses voisins, un bureau de coworking, un bureau de l'entrepreneur et un coup de main à l'université.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "São Brás is a small town up in the hills that lives on herit",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ }
+}

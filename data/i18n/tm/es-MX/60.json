@@ -1,0 +1,67 @@
+{
+ "600baa0ca80194f5": {
+  "t": "PrompTugal.news São Brás de Alportel: IA y tecnología desde la serra, donde el corcho fue rey y el museo del traje aún tiene corte. Independiente, ó pá, y cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news São Brás de Alportel: AI and technology from",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "6034217bbcf2a652": {
+  "t": "Flow Productions, con Algarve STP y la Ireland Portugal Business Network, organizó el 22 de julio en el UAlg TEC Campus un panel en inglés sobre cómo ChatGPT, Gemini, Claude y Perplexity cambian la búsqueda en línea, y sobre la optimización para motores de respuesta y motores generativos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Flow Productions, with Algarve STP and the Ireland Portugal ",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "603cf17f5f3301f1": {
+  "t": "Ainda não sabemos tudo, pá. Esto es lo que Viseu aún no nos ha contado:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, pá. Here is what Viseu has not told ",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "6086206026ba6998": {
+  "t": "La ficha del proyecto describe una plataforma de gestión urbana para Olhão, Alcoutim, Loulé, São Brás de Alportel, Tavira y Vila Real de Santo António, que reúne sensores y diez áreas de servicio como residuos, agua, calidad del aire, ruido, marcas de inundación y monitoreo de personas mayores aisladas. Inversión indicada: 102,615 euros, todos cofinanciados.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The project sheet describes an urban management platform for",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "60ccc1cc7132b7a8": {
+  "t": "PrompTugal.news Guarda: IA y tecnología en Guarda, una capital de distrito del interior cuyo centro de gravedad es el Politécnico da Guarda, su grado de ciencia de datos e IA, su incubadora y sus proyectos de digitalización empresarial, y lo que llega a Guarda desde Portugal y el mundo. Independiente; cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Guarda: AI and technology in Guarda, a distr",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "60e5a05ea22560af": {
+  "t": "Un robot agrícola y la IA en Castro Verde, con el politécnico de Beja en el equipo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A farming robot and AI in Castro Verde, with Beja's polytech",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "60e6fa7587c5a2a8": {
+  "t": "Con la Fundacao Galp, el ayuntamiento inauguró un sistema de 14 bicicletas eléctricas en cuatro estaciones, abierto a residentes y visitantes. La inversión supera los 100,000 euros y lo gestiona una plataforma digital de gestión y uso construida por la empresa CME.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "With Fundacao Galp, the council opened a system of 14 electr",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ }
+}

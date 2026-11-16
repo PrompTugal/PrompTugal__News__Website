@@ -1,0 +1,47 @@
+{
+ "582d1192093c3585": {
+  "t": "Lors de la séance de la journée municipale du 24 juin 2026, l’éditeur de logiciels Mind a présenté un projet d’urbanisme numérique par phases. Le système documentaire est en cours de mise en place. Une phase ultérieure ajoute un service d’urbanisme en ligne avec une IA qui aide les gens à remplir leurs demandes avant qu’elles n’arrivent au personnel de la mairie. Les dates sont le propre plan de l’éditeur.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the council's municipal day session on 24 June 2026 the s",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "584456f1fb7c91c5": {
+  "t": "Le centre d’arts et de communication de l’UAlg ouvre INTERFACE, un laboratoire de traduction numérique, avec un AI Studio",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UAlg's arts and communication centre opens INTERFACE, a digi",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "586e1e6331011f9a": {
+  "t": "Quarteira est une ville côtière et une freguesia de la municipalité de Loulé, un village de pêcheurs devenu ville en 1999. Son économie repose sur le tourisme et le golf, et sa freguesia compte Vilamoura, décrite comme le plus grand complexe touristique privé d'Europe. Les décisions qui touchent sa technologie, de l'urbanisme aux capteurs du Quarteira Lab, sont prises par la mairie de Loulé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Quarteira is a coastal city and civil parish in the municipa",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "5891d7207cbdf70c": {
+  "t": "Une spin-off de l’université du Minho pilote un projet d’IA pour concevoir des aliments personnalisés",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Minho spin-off leads an AI project to design p",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "589fab983110c317": {
+  "t": "Des étudiants de l’institut polytechnique ont créé une plateforme qui utilise l’IA pour analyser les règles des Planos Diretores Municipais et montrer permissions, restrictions et incohérences aux architectes, ingénieurs et services d’urbanisme. Elle a remporté la phase régionale du concours Poliempreende.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Polytechnic students made a platform that uses AI to analyse",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

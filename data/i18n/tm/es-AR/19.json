@@ -1,0 +1,47 @@
+{
+ "191fc67990205870": {
+  "t": "PrompTugal.news Évora, a nossa cidade branca do Alentejo: IA y tecnología en Évora, con la Universidade de Évora, el parque PACT y el hospital haciendo el trabajo pesado, y las noticias que llegan rodando desde el Alentejo, Portugal y el mundo. Independente, e cada dato viene con su recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Évora, a nossa cidade branca do Alentejo: AI",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "19351ee4e93740f0": {
+  "t": "**La identidad de este sitio:** PrompTugal.news {name} tiene su propia clave, {key}, publicada en [board/keys.json]({keys}), pero la firma de `{file}` no se verifica: el archivo cambió después de firmarse. Se ha pedido a su agente, {agent}, que lo firme de nuevo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** PrompTugal.news {name} has its own",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "197990ab5ba89370": {
+  "t": "Lo que no encontramos, dicho con cara seria y un pastel de nata:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "What we did not find, said with a straight face and a pastel",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "19ae71b00c1928c8": {
+  "t": "Ó pá, aquí arriba en la Serra tenemos más castaños que centros de datos, pero el medronho es fuerte y el wifi de la incubadora también.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ó pá, up here on the Serra we have more chestnut trees than ",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "19e3bc5dac4015f3": {
+  "t": "Noesis abrió oficinas en Guarda y Castelo Branco en febrero de 2025 y prevé unas 30 contrataciones, sobre todo en calidad, DevOps, automatización y low-code. Añade que está abierta a perfiles de análisis de datos e IA en toda su expansión regional.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Noesis opened offices in Guarda and Castelo Branco in Februa",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

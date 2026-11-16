@@ -1,0 +1,29 @@
+{
+ "e31afbd0464ce9aa": {
+  "t": "Bragança, c’est l’endroit où une citadelle médiévale et une session européenne de calcul pour l’IA partagent le même code postal. L’institut polytechnique et son centre de recherche font le gros du travail de réflexion, le parc garde les lumières allumées pour MORE CoLAB, et la Câmara, bénie soit-elle, applaudit au premier rang. La recherche et le parc, sim senhor, pas l’hôtel de ville.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Bragança is where a medieval citadel and a European AI compu",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "e35a6493c546f121": {
+  "t": "Rendant compte d’une conférence sur le nouveau décret d’urbanisme, Barlavento cite la mairie, qui range parmi ses mesures une plateforme utilisant l’intelligence artificielle pour rendre les démarches d’urbanisme plus rapides et plus accessibles. L’article ne donne aucun détail technique.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Reporting on a conference about the new urbanism decree, Bar",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "e3fdc471d5eee830": {
+  "t": "La Conférence lusophone de science ouverte s’est tenue sur le campus de Gambelas du 6 au 9 octobre 2026, avec pour thème de cette année la façon dont l’IA change la recherche, la communication scientifique et la politique des données.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Lusophone Open Science Conference was hosted at the Gamb",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

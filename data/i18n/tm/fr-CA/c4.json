@@ -1,0 +1,21 @@
+{
+ "c47d2036964fc879": {
+  "t": "La 14e rencontre nationale des producteurs de myrtilles, les 12 et 13 mars 2026, a placé l'IA appliquée à l'agriculture au centre de son débat : aide à la décision, agriculture de précision et identification des ravageurs, avec des démonstrations de calibrage de fruits par IA. La mairie l'a soutenue.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 14th national blueberry growers' meeting, on 12 and 13 M",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "c4efd36e51ebaf3c": {
+  "t": "Le 35e Séminaire international sur la communication municipale s'est tenu au théâtre municipal TEMPO les 29 et 30 octobre, organisé par OmniSinal avec la mairie, sur les défis de la communication à l'ère de l'IA, dont la désinformation et la communication de crise.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 35th International Seminar on Municipal Communication ra",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

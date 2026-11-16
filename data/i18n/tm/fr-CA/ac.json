@@ -1,0 +1,47 @@
+{
+ "ac20f6a95ba5b51e": {
+  "t": "Lagoa vit du tourisme, avec du vin (une DOC Lagoa), un passé de pêche à Ferragudo, Carvoeiro et Benagil, et une activité croissante de congrès et d’événements. Son IA est surtout publique : la mairie gère un portail Smart City et une équipe informatique qui travaille sur l’IA en gardant en tête les limites de protection des données et de traitement, et une freguesia a mis un assistant d’IA sur son site. Dans le privé, nous avons confirmé une entreprise informatique de Lagoa qui vend des agents d’IA, et une école britannique qui a accueilli en février 2026 un hackathon d’IA pour adolescents, ó pá, pas mal pour une terre de plages.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing p",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "ac318ac4853050a0": {
+  "t": "Environ 600 enseignants et chefs d'établissement se sont réunis le 10 septembre 2026 pour une séance consacrée à l'IA dans l'éducation. Le maire a indiqué que la municipalité envisage une Academia IA, un cursus pour les jeunes et les adultes, et a appelé à une culture numérique responsable.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "About 600 teachers and school heads met on 10 September 2026",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "ac65ddf0253d7aed": {
+  "t": "Le centre de technologie et d'innovation du campus de l'institut polytechnique a été inauguré le 22 mai 2026 en présence du Premier ministre. Il déclare 40 personnes, 15 projets de R&D, plus de 20 entreprises accompagnées, une spin-off et deux startups, et le reportage d'Observador indique que l'une des startups est liée à l'IA et l'autre à la cybersécurité. Son propre site place l'IA en premier parmi la numérisation et propose un robot humanoïde et un robot quadrupède dotés d'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The technology and innovation centre on the polytechnic's ca",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "ac813a3161253af4": {
+  "t": "La nouvelle Agence pour la recherche et l'innovation du Portugal (AI²) devait démarrer le 1er janvier 2026",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portugal's new Agency for Research and Innovation (AI²) was ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "acf78f0164d5f4ca": {
+  "t": "Un accès gratuit au supercalcul (dont MareNostrum 5), du mentorat et de la formation pour les startups et PME d'IA enregistrées dans l'UE et dotées d'un numéro fiscal portugais, du 5 octobre 2026 au 30 mars 2027. Les candidatures ont fermé le 15 septembre.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Free supercomputing access (including MareNostrum 5), mentor",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

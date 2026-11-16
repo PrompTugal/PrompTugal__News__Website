@@ -1,0 +1,20 @@
+{
+ "bb8bd70fbb29c9f1": {
+  "t": "Alcoutim transforme l’ancien grenier de l’EPAC en centre d’entreprises et de coworking",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Alcoutim turns the old EPAC granary into a business and cowo",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "bbb39214a180b3f3": {
+  "t": "Lors d'une réunion avec des centaines de professionnels de l'urbanisme, la mairie de Loulé a annoncé des outils d'IA parmi d'autres mesures pour réduire les délais d'autorisation. Le maire a dit que la technologie seule ne réglera pas le problème tant que des obstacles bureaucratiques internes subsisteront. L'article ne nomme ni les outils ni le fournisseur.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At a meeting with hundreds of planning professionals, the Lo",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "4c0d30adf1b09c9f": {
+  "t": "L’activité IA de Braga se tient à quatre endroits que les sources montrent côte à côte : la recherche (le groupe d’IA de l’université du Minho, la spin-off OmniumAI née au Minho et le laboratoire ibérique de nanotechnologie INL), la R&D des entreprises (le premier centre d’IA de Cegid au Portugal et la nouvelle unité eBike de Bosch, dont le logiciel antivol utilise l’apprentissage automatique), l’usage de l’IA par la mairie elle-même (un pilote de caméras embarquées avec Hayden AI et un projet de 1,5 million d’euros pour introduire l’IA dans l’administration municipale), et une couche de start-ups autour de Startup Braga et d’InvestBraga, qui a emmené 15 start-ups au Web Summit 2026. Contrairement aux villes de l’Algarve, Braga ne tient pas à une seule institution, et ce que nous avons pu lire montre une municipalité qui achète et teste l’IA plutôt que de se contenter d’accueillir des événements à son sujet.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Braga's AI activity sits in four places that the sources sho",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "4c20ecf29e33e8c3": {
+  "t": "L’activité IA d’Évora se tient à trois endroits. L’Universidade de Évora enseigne un baccalauréat en IA et science des données, a écrit ses propres règles pour l’IA dans l’enseignement et dit avoir construit des modèles en langue portugaise. PACT, le parc scientifique et technologique de l’Alentejo, organise des formations à l’IA et héberge des entreprises technologiques. L’Hospital de Évora est le premier hôpital public portugais à utiliser un système d’IA pour le dépistage du cancer du col de l’utérus, d’après l’unité de santé elle-même. De l’argent privé plus récent est aussi arrivé, avec une société de centres de données qui achète un site de 1 MW dans la ville. Le site de la mairie ne montre aucun usage de l’IA que nous ayons pu lire; l’université, le parc et l’hôpital, et non l’hôtel de ville, sont donc le centre de gravité.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Évora's AI activity sits in three places. The Universidade d",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "4c2d5aebc2b28ff3": {
+  "t": "Le 1er octobre 2025, INCO Academy et l'unité de littératie numérique de l'institut polytechnique de Santarém ont convenu de lancer NewFutures: AI, soit environ 40 heures sur quatre semaines en ligne, avec un module central d'IA générative et des parcours tels que le marketing, la finance et les TIC. Les deux parties prévoient aussi d'étudier la création d'une communauté de pratique en IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On 1 October 2025 INCO Academy and the digital literacy unit",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

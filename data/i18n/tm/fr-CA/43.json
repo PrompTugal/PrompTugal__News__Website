@@ -1,0 +1,76 @@
+{
+ "432067d7e9c06399": {
+  "t": "Castro Marim est une petite municipalité sur le Guadiana, à côté de l’Espagne, dont l’économie et l’identité reposent sur les marais salants traditionnels de la réserve naturelle du Sapal, sur le tourisme et sur la coopération transfrontalière de l’Eurocidade do Guadiana. Son IA n’est pas un cluster mais deux cas concrets : une mairie qui modernise son bureau d’urbanisme avec le logiciel « prêt pour l’IA » d’un éditeur, et une famille de sauniers qui a construit une plateforme logicielle avec un assistant d’IA pour les producteurs de sel artisanal.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Castro Marim is a small municipality on the Guadiana, next t",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "43336e6b78191844": {
+  "t": "L'argent finance des cas d'usage, des agents d'aide aux marchés publics à l'automatisation des factures. Environ 10 millions d'euros sont déjà allés à des cas en cours de développement.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The money funds use cases from public procurement support ag",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "4365e62936c6267c": {
+  "t": "Calma, nous avons cherché partout et aucune entreprise d'IA n'est encore sortie de la mer. Voici ce que nous n'avons pas trouvé :",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Calma, we looked everywhere and no AI company came out of th",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "439f8b171682bc1b": {
+  "t": "La deuxième édition a eu lieu le 12 février 2026 à l'école de technologie et de gestion de l’institut polytechnique, organisée par CESAE Digital, avec des interventions sur l'impact stratégique de l'IA sur les entreprises, l'IA dans le marketing et le conseil, et des cas pratiques d'automatisation.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The second edition took place on 12 February 2026 at the pol",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "43bac9d8d5283da3": {
+  "t": "dstelecom amène la fibre à 1 000 foyers de plus à Alcoutim",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "dstelecom takes fibre to 1,000 more homes in Alcoutim",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "43c0da2732556484": {
+  "t": "Après avoir restructuré des cursus existants d’ingénierie et de science des données pour répondre à la demande du marché du travail, l’université a ouvert à l’été 2025 les candidatures pour le nouveau baccalauréat et la nouvelle maîtrise.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "After restructuring existing engineering and data science co",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "43d4468801c7b481": {
+  "t": "Le 18 septembre 2026, l'université et la Commission Fulbright ont signé un second protocole de coopération pour un programme de bourses conjoint en informatique couvrant les années universitaires 2027/28 à 2029/30. La signature a eu lieu à l'incubateur BioBIP.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On 18 September 2026 the university and the Fulbright Commis",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "43ea99aecc63d423": {
+  "t": "Après la conférence sur l’IA EPIA 2025 à l’université, les deux partenaires ont dit vouloir relier entrepreneurs, industrie et enseignement supérieur dans un cluster d’IA et attirer des talents dans le sud du Portugal.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Following the EPIA 2025 AI conference at the university, the",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "c01a22906558c781": {
+  "t": "El Politécnico de Leiria fija sus normas de IA, en vigor desde el 1 de septiembre",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Politécnico de Leiria sets its AI rules, in force from 1 Sep",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "c0214b07836de8c4": {
+  "t": "Las Jornadas Técnicas de la Prensa Regional 2026, organizadas por la asociación nacional de prensa con el apoyo del ayuntamiento y del Museu da Vila Velha, cerraron en Vila Real con la IA en el periodismo como tema principal. Un profesor de la UTAD e investigador del INESC TEC explicó cómo funcionan los algoritmos de IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 2026 Technical Days of the Regional Press, run by the na",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "c042cd426860bb15": {
+  "t": "Talento local",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Local talent",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "c0e557c9ce2880b2": {
+  "t": "El libro IA como Copiloto, una guía de 180 páginas sobre el uso de herramientas de IA generativa en el trabajo diario, se presentó el 20 de febrero en el auditorio de la Escola de Hotelaria e Turismo de Portimão, con Territórios Criativos moderando un debate llamado IA: adaptarse o quedarse atrás.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The book IA como Copiloto, a 180-page guide on using generat",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

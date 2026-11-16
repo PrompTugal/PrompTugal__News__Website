@@ -1,0 +1,31 @@
+{
+ "a264b612529f59a0": {
+  "t": "PrompTugal.news Monchique : l'IA et la technologie à Monchique, municipalité de montagne boisée où le risque d'incendie et un petit incubateur d'entreprises municipal fixent l'agenda, et ce qui arrive à Monchique depuis l'Algarve, le Portugal et le monde. Indépendant; chaque fait est sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Monchique: AI and technology in Monchique, a",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "a27279fca09f828a": {
+  "t": "Une conférence industrielle et technologique à l'hôtel de congrès Montebelo Viseu du 29 septembre au 1er octobre 2026, organisée par le département de génie mécanique et de gestion industrielle de l'institut polytechnique avec la mairie, l'association d'entreprises AIRV et Viseu Marca. L'IA est un thème central, notamment la maintenance et l'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "An industrial and technology conference at the Montebelo Vis",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "a2d583ad4bcfc91d": {
+  "t": "Une radio locale présente AI4PRIME : une IA basse consommation pour les exploitations agricoles mal connectées",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Local radio reports AI4PRIME: low-power AI for farms with po",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "bb8bd70fbb29c9f1": {
+  "t": "Alcoutim convierte el antiguo silo de la EPAC en un centro de empresas y coworking",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Alcoutim turns the old EPAC granary into a business and cowo",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "bbb39214a180b3f3": {
+  "t": "En una reunión con cientos de profesionales del urbanismo, el ayuntamiento de Loulé anunció herramientas de IA entre otras medidas para reducir los retrasos en las licencias. El alcalde dijo que la tecnología por sí sola no resolverá el problema mientras persistan los obstáculos burocráticos internos. El artículo no nombra las herramientas ni al proveedor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At a meeting with hundreds of planning professionals, the Lo",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

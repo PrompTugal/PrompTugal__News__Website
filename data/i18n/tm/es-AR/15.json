@@ -1,0 +1,57 @@
+{
+ "15037ffb48bae18a": {
+  "t": "PrompTugal.news Vila Real de Santo António: IA y tecnología en Vila Real de Santo António, una ciudad fronteriza pombalina en el Guadiana donde cuentan los proyectos transfronterizos, y lo que llega a ella desde el Algarve, Portugal y el mundo. Independiente; cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Vila Real de Santo António: AI and technolog",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "15084161eca6ade6": {
+  "t": "La 17.ª edición del concurso de ideas cerró el 29 de octubre en el centro AICOS de Oporto. Entre los ganadores figuraron la detección de drones con modelos de IA, un método de IA para predecir el movimiento cerebral durante la cirugía de tumores y una herramienta de IA y visión por computadora de un estudiante para la seguridad escolar.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 17th edition of the ideas competition closed on 29 Octob",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "1508f7d090589c03": {
+  "t": "Turismo do Algarve organiza un bootcamp gratuito de IA para profesionales del turismo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Turismo do Algarve runs free AI bootcamp for tourism profess",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "152ae9199ac5e5bd": {
+  "t": "El politécnico lidera un proyecto con las universidades de Aveiro y la facultad de ingeniería de Oporto para crear un modelo virtual de un edificio patrimonial que usa fotografías, imágenes térmicas y sensores para señalar riesgos de deterioro. El Museo Nacional Grão Vasco de Viseu es uno de los dos casos de estudio, y el responsable del edificio decide hasta dónde actúa la IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The polytechnic leads a project with the universities of Ave",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "153080263941a459": {
+  "t": "En la feria Science for Industry, el instituto presentó DBoidS, que combina gemelos digitales con IA contra los incendios forestales, y CERAMIND, que usa la IA para detectar defectos en la cerámica.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the Science for Industry fair the institute showed DBoidS",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "15bd45b70554b692": {
+  "t": "Ovibeja 2025 sitúa la IA en la agricultura en el centro de la feria",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ovibeja 2025 puts AI in farming at the centre of the fair",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

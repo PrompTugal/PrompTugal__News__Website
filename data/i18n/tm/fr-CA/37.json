@@ -1,0 +1,11 @@
+{
+ "375953d9a9efce76": {
+  "t": "PrompTugal.news {name} : la recherche du lieu telle que servie sur sa page, ses listes vérifiées à la construction (liens http(s) uniquement, articles du plus récent au plus ancien), avec l’identité du site telle que vérifiée",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news {name}: the place's research as served on it",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

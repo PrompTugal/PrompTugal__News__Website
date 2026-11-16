@@ -1,0 +1,31 @@
+{
+ "b71249817064bae4": {
+  "t": "El Gobierno destina hasta 19.3 millones de euros a dos proyectos de supercomputación e IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Government puts up to 19.3 million euros into two supercompu",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "b72fee698c2bbe9e": {
+  "t": "Portugal Ventures aportó 1.5 millones de euros a la ronda semilla de 11 millones de euros anunciada en 2025, que lideró C2 Capital Partners. La empresa dice que su plataforma ya da soporte a cerca de una cuarta parte de la producción de carne de Portugal.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portugal Ventures added 1.5 million euros to the 11 million ",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "b797a4126e37d00a": {
+  "t": "El Politécnico da Guarda acoge una sesión gratuita de demostración de IA y competencias digitales para empresas de la región",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Politécnico da Guarda hosts a free AI and digital skills dem",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "b357782b312871d5": {
+  "t": "L'accélérateur du commerce numérique atteint les commerces, restaurants et entreprises de services locaux",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Digital Commerce Accelerator reaches local shops, restaurant",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "b3990b637899e176": {
+  "t": "AMALIA, un modèle de langage portugais ouvert, est présenté à Lisbonne",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AMALIA, an open Portuguese language model, is presented in L",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "b3d7ae6ce44e5cf5": {
+  "t": "Ainda não sabemos tudo, pá. Voici ce que Lisboa ne nous a pas encore dit :",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, pá. Here is what Lisboa has not told",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ }
+}

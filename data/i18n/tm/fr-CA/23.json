@@ -1,0 +1,40 @@
+{
+ "234cf80e073df22e": {
+  "t": "Le 4 mai 2026, l’université et Feedzai, entreprise portugaise issue de la recherche universitaire sur la détection de fraude, ont étendu leur partenariat pour soutenir le Startup Capital Summit de Coimbra, le 3 juin, consacré à la deep tech, au capital-risque et à l’entrepreneuriat.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On 4 May 2026 the university and Feedzai, a Portuguese compa",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "23ab779417bf0573": {
+  "t": "PrompTugal.news Tavira : l'IA et la technologie à Tavira, ville dont l'empreinte numérique se résume aujourd'hui à des plateformes de données du secteur public et à une petite communauté tech, et ce qui arrive à Tavira depuis l'Algarve, le Portugal et le monde. Indépendant, et chaque fait est sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Tavira: AI and technology in Tavira, a town ",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "23b10f89127a447b": {
+  "t": "Ici le grand projet est un pôle de recherche sur le régime méditerranéen, ó pá, avec une liste de lectures bien de Tavira : santé, alimentation, climat. La câmara fait partie d'une plateforme de données à six mairies, a posé des capteurs sur les places de stationnement en 2026, et Tavira Works garde les lumières de la communauté allumées. Aucune entreprise d'IA trouvée sur place pour l'instant, donc la plomberie et les laboratoires agricoles passent d'abord.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here the big project is a research hub for the Mediterranean",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "23d78e2c1356566d": {
+  "t": "La mairie d’Albufeira dit exploiter une plateforme de gestion urbaine fondée sur l’IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Albufeira council says it runs an AI-based urban management ",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

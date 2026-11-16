@@ -1,0 +1,29 @@
+{
+ "ee4c08b01103b577": {
+  "t": "Des chefs d'entreprise se retrouvent au CNEMA pour se demander comment l'IA peut stimuler les exportations",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Bosses meet at CNEMA to ask how AI can lift exports",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "eee11811f1446db3": {
+  "t": "Le Despacho n.º 34/2026 demande aux enseignants et aux étudiants d’être transparents sur l’usage de l’IA, de le déclarer dans les travaux et de protéger les données personnelles. Il fait suite à un groupe de travail et à 37 commentaires de la communauté académique et doit être réexaminé après le second semestre.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Despacho n.º 34/2026 asks teachers and students to be transp",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "eef27e94e29eb6bc": {
+  "t": "La FCT a approuvé un projet visant à explorer des modèles d'IA qui aident aux décisions de tri des adultes aux urgences, avec un budget total d'environ 124 mille euros et des partenaires dont le pôle UTAD de l'INESC TEC, l'INEGI et une unité hospitalière de Porto.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The FCT approved a project to explore AI models that support",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

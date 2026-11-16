@@ -1,0 +1,69 @@
+{
+ "600baa0ca80194f5": {
+  "t": "PrompTugal.news São Brás de Alportel : l'IA et la technologie depuis la serra, où le liège fut roi et où le musée du costume tient toujours sa cour. Indépendant, ó pá, et chaque fait est sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news São Brás de Alportel: AI and technology from",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "6034217bbcf2a652": {
+  "t": "Flow Productions, avec Algarve STP et l’Ireland Portugal Business Network, a organisé le 22 juillet, sur le campus UAlg TEC, un débat en anglais sur la façon dont ChatGPT, Gemini, Claude et Perplexity changent la recherche en ligne, et sur l’optimisation pour les moteurs de réponse et les moteurs génératifs.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Flow Productions, with Algarve STP and the Ireland Portugal ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "603cf17f5f3301f1": {
+  "t": "Ainda não sabemos tudo, pá. Voici ce que Viseu ne nous a pas encore dit :",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda não sabemos tudo, pá. Here is what Viseu has not told ",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "6086206026ba6998": {
+  "t": "La fiche du projet décrit une plateforme de gestion urbaine pour Olhão, Alcoutim, Loulé, São Brás de Alportel, Tavira et Vila Real de Santo António, qui réunit des capteurs et dix domaines de service comme les déchets, l'eau, la qualité de l'air, le bruit, les repères de crue et le suivi des personnes âgées isolées. Investissement indiqué : 102 615 euros, entièrement cofinancés.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The project sheet describes an urban management platform for",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "60ccc1cc7132b7a8": {
+  "t": "PrompTugal.news Guarda : IA et technologie à Guarda, capitale de district de l’intérieur dont le centre de gravité est le Politécnico da Guarda, son baccalauréat en science des données et IA, son incubateur et ses projets de numérisation des entreprises, et ce qui arrive à Guarda depuis le Portugal et le monde. Indépendant; chaque fait sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Guarda: AI and technology in Guarda, a distr",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "60e5a05ea22560af": {
+  "t": "Un robot agricole et de l’IA à Castro Verde, avec l’institut polytechnique de Beja dans l’équipe",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A farming robot and AI in Castro Verde, with Beja's polytech",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "60e6fa7587c5a2a8": {
+  "t": "Avec la Fundação Galp, la mairie a ouvert un système de 14 vélos électriques répartis sur quatre stations, ouvert aux habitants comme aux visiteurs. L’investissement dépasse 100 000 euros et une plateforme numérique de gestion et d’usage, conçue par l’entreprise CME, le fait fonctionner.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "With Fundacao Galp, the council opened a system of 14 electr",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

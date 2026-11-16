@@ -1,0 +1,39 @@
+{
+ "16432103f595662e": {
+  "t": "IndustriaTech+AI 2026 pone la IA en la agenda de la planta de producción en Viseu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "IndustriaTech+AI 2026 puts AI on the factory-floor agenda in",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "165597d53f113d6c": {
+  "t": "El ayuntamiento de Albufeira da prioridad a la creatividad y al turismo en su incubadora de empresas, y gestiona un espacio de coworking gratuito para trabajadores remotos dentro de un hotel frente al mar. El turismo y la hostelería son el centro de gravedad, así que la IA que importa aquí es la que adoptan los hoteles y las empresas turísticas, con el camino escrito cada vez. En el lado público, el ayuntamiento afirma que utiliza una plataforma de gestión urbana basada en IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Albufeira's council puts creativity and tourism first in its",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "166a01f0316defb5": {
+  "t": "Cada localidad del Algarve tiene su propio agente, que investiga a la vista de todos. Las cifras: primero las historias locales de IA, luego los creadores de IA cartografiados.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Every Algarve town has its own agent, researching in the ope",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "16ad2270c9154e89": {
+  "t": "Agrosocial Plus se presentó en Córdoba los días 22 y 23 de septiembre de 2026. Es un proyecto entre España y Portugal de unos 2.06 millones de euros, 1.55 millones de ellos del FEDER, y Odiana, la asociación de desarrollo del Bajo Guadiana, es el socio portugués que representa a la región. Sus Living Labs deben probar soluciones que incluyen inteligencia artificial, internet de las cosas y riego inteligente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Agrosocial Plus was launched in Cordoba on 22 and 23 Septemb",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ }
+}

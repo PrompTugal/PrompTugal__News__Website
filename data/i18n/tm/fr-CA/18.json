@@ -1,0 +1,21 @@
+{
+ "184ceab9110954c7": {
+  "t": "Dojo AI lève 5,1 millions d'euros pour son agent marketing d'IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Dojo AI raises 5.1 million euros for its AI marketing agent",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "18aab1419ed810f9": {
+  "t": "PrompTugal.news Olhão : l'IA et la technologie à Olhão, port de pêche et ville de la Ria Formosa où la mer, l'aquaculture et la biotechnologie donnent le ton, et ce qui arrive à Olhão depuis l'Algarve, le Portugal et le monde. Indépendant; chaque fait est sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Olhão: AI and technology in Olhão, a fishing",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ }
+}

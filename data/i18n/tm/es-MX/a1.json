@@ -1,0 +1,58 @@
+{
+ "a12fbf70db1d3fde": {
+  "t": "El centro de Oporto desarrolla modelos de visión por computadora e IA que reconocen unas 200 variedades de uva autóctonas portuguesas a partir de fotos de campo y detectan enfermedades de la vid, en colaboración con una empresa de plataformas y bodegas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Porto centre builds computer vision and AI models that r",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "a15c51f0c0f7e462": {
+  "t": "La CIM reúne a 240 docentes en Viseu para debatir sobre la IA en las escuelas",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The CIM gathers 240 teachers in Viseu to debate AI in school",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "a196dbfe4dac84e7": {
+  "t": "PrompTugal.news Lisboa: IA y tecnología en Lisboa, la capital cuyo centro de gravedad son sus universidades e institutos de investigación, el polo de startups Unicorn Factory y los proyectos nacionales de IA, y lo que llega a Lisboa desde Portugal, Europa y el mundo. Independiente; cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Lisboa: AI and technology in Lisboa, the cap",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "a1ba7f75dfeca8c2": {
+  "t": "Santarém, pá: la Capital do Gótico contempla el Tajo desde las Portas do Sol, los toros descansan entre ferias y, entre los arándanos y el trigo, la ciudad inventa sin hacer ruido un parque científico.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Santarém, pá: the Capital do Gótico gazes over the Tejo from",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "a1de29d6ac647913": {
+  "t": "Estudiantes de Guarda crean Imo Harmonia, una herramienta de IA que lee los planes generales municipales",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Guarda students build Imo Harmonia, an AI tool that reads mu",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "a1ead2bfddf5ea25": {
+  "t": "En marzo de 2026 el Ministerio de Medio Ambiente creó APIS (Áreas Protegidas Inteligentes e Seguras), coordinado por el ICNF y financiado por el Fundo Ambiental con hasta 125,000 euros por emplazamiento para 2026 y 2027. Los dos pilotos son el parque natural del Alvão y el paisaje protegido de la Serra do Açor, con IA, digitalización y automatización para la detección temprana. El informe no nombra ni el Algarve ni Monchique.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "In March 2026 the Environment Ministry created APIS (Áreas P",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ }
+}

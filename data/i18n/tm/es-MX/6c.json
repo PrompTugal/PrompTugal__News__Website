@@ -1,0 +1,49 @@
+{
+ "6c168f956a2e83d1": {
+  "t": "El centro de innovación de Tavira arranca con 23 socios y un centro de terapias digitales previsto",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Tavira's innovation hub launches with 23 partners and a digi",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "6c8bf7c213d7f90e": {
+  "t": "El ayuntamiento de Braga prevé 1.5 millones de euros para llevar la IA a su administración diaria",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Braga council plans 1.5 million euros to bring AI into its d",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "6caddd1e6a0570e5": {
+  "t": "El portal nacional del plan de recuperación enumera un proyecto en Viana do Castelo, dirigido por el politécnico con Data CoLAB, que usa IA, procesamiento del lenguaje natural, IA generativa y ciencia de datos para crear un sistema digital interactivo. Se desarrolló del 1 de mayo de 2025 al 31 de enero de 2026 con unos 39,800 euros de financiación.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The national recovery-plan portal lists a project in Viana d",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "6cc2bdab90a9cd8b": {
+  "t": "El Consejo de Ministros se reunió en Bragança el 9 de septiembre de 2026 y dio el siguiente paso para convertir el politécnico en universidad. En la misma reunión se aprobó un nuevo marco del sistema de ciencia e innovación que nombra la IA prioridad estratégica. La página no indica ningún presupuesto para la universidad.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Council of Ministers met in Bragança on 9 September 2026",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "6cc66b24e4ff82d0": {
+  "t": "La startup usa la IA para ayudar a las pequeñas y medianas empresas a encontrar financiación pública, preparar solicitudes y gestionar proyectos. La ronda fue liderada por 3XP Global con dinero del Banco Português de Fomento, y el equipo planea más que duplicarse a final de año y entrar en España, Alemania e Italia.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The startup uses AI to help small and medium firms find publ",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

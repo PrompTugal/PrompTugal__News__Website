@@ -1,0 +1,38 @@
+{
+ "934fa6d0d0cd4268": {
+  "t": "L’institut polytechnique de Guarda pilote un projet Digital PME à un million d’euros pour apporter l’IA aux entreprises",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Guarda polytechnic leads a one million euro Digital PME proj",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "9390c8c9a07dffca": {
+  "t": "La municipalité de Vila Real soutient le mois des bibliothèques scolaires consacré à la littératie et à l'IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Vila Real's council backs school libraries' month on literac",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "93971d0ea68a7c34": {
+  "t": "Google Developer Groups Faro organise une conférence gratuite de deux jours les 27 et 28 novembre sur le campus de Penha de l’université de l’Algarve, sur la construction, la sécurisation et le passage à l’échelle d’applications et d’agents d’IA avec Google Gemini et Google Cloud. Algarve Evolution est partenaire.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Google Developer Groups Faro runs a free two-day conference ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "93de986c2599107d": {
+  "t": "Deux bootcamps gratuits et certifiés pour les travailleurs du tourisme : efficacité hydrique le 9 avril à Faro et IA appliquée au tourisme le 17 avril à Portimão.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Two free certified bootcamps for tourism workers: water effi",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "766c539b915e4350": {
+  "t": "L’université d’Aveiro approuve un cadre d’évaluation à l’ère de l’IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Aveiro approves a framework for assessment in ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "76c522282590fa75": {
+  "t": "Le Parque de Ciência e Inovação a lancé l’appel Rocket Booster Acceleration avec startUP23 et Turismo de Portugal, ouvert aux start-ups proposant des solutions d’IA pour le tourisme, les destinations intelligentes ou la mobilité. La ligne d’état de la page dit que les candidatures sont closes alors que son texte se lit encore comme ouvert; la date limite est donc floue.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Parque de Ciência e Inovação ran the Rocket Booster Acce",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "76d474040aeede69": {
+  "t": "À l'issue du programme Leiria Experience Lab de Startup Leiria, la mairie dépensera 7 500 euros pour Leiria Concierge (5 000, un assistant d'itinéraires fondé sur l'IA) et Guide Sofia (2 500, un audioguide fondé sur l'IA, d'abord pour le château de Leiria).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "After the Leiria Experience Lab programme of Startup Leiria,",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

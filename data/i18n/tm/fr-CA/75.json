@@ -1,0 +1,57 @@
+{
+ "75188812a79db927": {
+  "t": "L’institut polytechnique de Setúbal rejoint un réseau de 62 établissements sur l'IA dans l'enseignement",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Setúbal's polytechnic joins a 62-institution network on AI i",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "7535b17964f78a8c": {
+  "t": "Le même lancement, rapporté le 7 juillet : un seul programme pour la récolte, le laboratoire, la qualité, l’entrepôt, les ventes et la facturation, un code QR sur chaque emballage, et un assistant numérique pour les questions d’exploitation. L’article ne nomme pas l’entreprise derrière le logiciel.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The same launch, reported on 7 July: one program for harvest",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "7544d55f960dd47b": {
+  "t": "La mairie a décidé en mars 2026 de financer une nouvelle édition du service + Proximo sur ses propres fonds, environ 80 000 euros, faute de décision de soutien. Il fournit aux personnes de 65 ans ou plus qui vivent isolées un bouton d’alarme portable et une unité fixe sur le téléphone du domicile, et le centre humanitaire de Tavira de la Croix-Rouge portugaise installe le kit et rend visite.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council decided in March 2026 to fund a new edition of t",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "759b5708cc6becd7": {
+  "t": "Actualité plus large : les projets pilotes APIS du gouvernement apportent l'IA à la détection précoce des incendies dans les aires protégées, pas à Monchique",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Wider news: the government's APIS pilots bring AI to early f",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "75b310a204139fb0": {
+  "t": "L'entreprise affirme avoir investi 2,2 millions d'euros dans l'IA en 2024 et 2025, et prévoir 1,6 million de plus en 2026, pour accélérer la livraison de logiciels, les nouveaux produits, les opérations et les talents. L'article cite un pôle technologique à Beja, mais ne précise pas où est mené le travail sur l'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The company says it has put 2.2 million euros into AI in 202",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "75e47cf572243dab": {
+  "t": "Le 5 novembre 2026, le festival de littérature de la mairie à Azeitão et Setúbal a tenu une conférence matinale à la bibliothèque publique municipale sur les bibliothèques du futur, portant sur le changement technologique, IA comprise, et l'adaptation des services.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On 5 November 2026 the council's festival of literature in A",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

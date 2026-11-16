@@ -1,0 +1,38 @@
+{
+ "e08c06bc65abb642": {
+  "t": "Las empresas, instituciones y comunidades de {name} con un camino hacia la IA, cada una a partir de una fuente pública.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The companies, institutions and communities in {name} with a",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "e08fafe93f5830d8": {
+  "t": "Según las fuentes que pudimos abrir, la historia tecnológica del municipio es el mar y el viento. Sagres alberga una empresa de biotecnología marina en Porto da Baleeira, un laboratorio marino universitario en el mismo puerto y el observatorio submarino MARREAL, una estación de cámaras y sensores a 20 metros de profundidad que registra datos del océano en tiempo real. El inventario de parques eólicos de INEGI y APREN incluye parques eólicos del municipio, con repotenciación en 2025. No encontramos noticias de IA, que es el primer hallazgo de esta página, pero las estaciones de datos del océano son donde es más probable que aparezca un camino hacia la IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "On the sources we could open, the municipality's technology ",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "e0e5f037ff99adf0": {
+  "t": "La startup portuguesa monitoriza agentes de IA autónomos, señala los resultados arriesgados para revisión humana y los puntúa de 0 a 100. El inversor es Angels Way.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Portuguese startup monitors autonomous AI agents, flags ",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "e0efee49767bd1db": {
+  "t": "Un programa nacional de formación llamado Estado em Acção, para el personal de la administración pública, arrancó con una sesión gratuita en Coimbra el 18 de septiembre de 2026 y debía continuar con diez sesiones por todo el país.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A national training programme called Estado em Acção, for pu",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

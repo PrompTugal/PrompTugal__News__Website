@@ -1,0 +1,49 @@
+{
+ "650a9ea2ab96daec": {
+  "t": "L’activité IA d’Aveiro s’organise autour de l’Universidade de Aveiro : un cadre publié pour l’IA dans l’enseignement et l’évaluation, des outils d’IA gratuits pour toute sa communauté, une école d’été nationale sur l’IA et des unités de recherche comme l’IEETA et l’Instituto de Telecomunicações. La mairie ajoute un deuxième pilier avec l’Aveiro Tech Week, qui fait en 2026 de l’IA un thème majeur, et un troisième avec le pôle Cais do Porto, où des start-ups brésiliennes aux produits d’IA s’installent dans la ville. Une zone franche technologique pilotée par l’université range l’IA parmi ses technologies prioritaires.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Aveiro's AI activity sits around the Universidade de Aveiro:",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "654e5d9beb7d0192": {
+  "t": "Ici, l'action se passe à l'université, meu amigo : une école de santé qui organise des journées sur l'IA, deux professeurs qui ont fondé une start-up de drones contre les incendies de forêt, et une entreprise de technologies des déchets et un cabinet de conseil pour leur tenir compagnie. Cette année, la mairie s'est elle aussi réveillée : elle a ouvert l'année scolaire par une conférence sur l'IA, songe à une Academia IA et a approuvé un pôle drones et défense.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here the action is at the university, meu amigo: a health sc",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "655a1d3d867cb5b1": {
+  "t": "L'Universidade Politécnica de Santarém et la mairie ont présenté Campus Tejo à Lisbonne le 12 novembre 2026 : un écosystème scientifique et technologique multisite sur l'eau, l'agro et les sciences de la vie, avec Santarém et la Lezíria comme terrain d'essai en conditions réelles. La page ne mentionne pas l'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Universidade Politécnica de Santarém and the council pre",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "656bde181c87d3ef": {
+  "t": "Du liège, des costumes et une discrète pincée d'intelligence artificielle, aqui na serra, com calma.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Cork, costumes and a quiet pinch of artificial intelligence,",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "65cedb917842e18e": {
+  "t": "Le secrétaire d’État au numérique dit à l’Algarve de choisir la robotique et l’IA comme axe de son pôle",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Digitalisation secretary tells the Algarve to pick robotics ",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "9d02dcae83c8093a": {
+  "t": "Cá entre nós, aqui o vento levou tudo o que ainda não encontrámos. Eis o que falta :",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Cá entre nós, aqui o vento levou tudo o que ainda não encont",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "9dd6f63d867bdd68": {
+  "t": "L’agent du lieu cherche, dans les sources, ce qui fait {name}.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The place's agent is finding what {name} is about, from sour",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

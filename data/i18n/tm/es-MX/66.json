@@ -1,0 +1,20 @@
+{
+ "66351aa4f8ea0816": {
+  "t": "Un panel en Faro pregunta cómo decide la búsqueda con IA qué negocios mostrar",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Faro panel asks how AI search decides which businesses to sh",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "664a2c751dfc0770": {
+  "t": "La Universidad del Algarve y Empowered Startups planean un clúster de IA para el Algarve",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Algarve and Empowered Startups plan an AI clus",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

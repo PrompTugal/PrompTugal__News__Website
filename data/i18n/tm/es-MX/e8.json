@@ -1,0 +1,20 @@
+{
+ "e816116cfda136b0": {
+  "t": "Más de 150 personas asistieron a la conferencia del 21 de febrero de 2026 sobre los retos digitales en la educación, donde la seguridad digital, la alfabetización tecnológica y el uso de la inteligencia artificial figuraron entre los temas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "More than 150 people attended the 21 February 2026 conferenc",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "e8db8674d792a747": {
+  "t": "Personas que han hablado en público o que han aceptado figurar en la lista. Solo datos públicos y profesionales; nada de contactos personales.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "People who have spoken publicly or agreed to be listed. Publ",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

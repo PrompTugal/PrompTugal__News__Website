@@ -1,0 +1,20 @@
+{
+ "412fe80d59886e84": {
+  "t": "L'UTAD et Bragança rejoignent un hub régional d'enseignement assisté par l'IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD and Bragança join a regional AI-assisted teaching hub",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "41cf6794ba4200b8": {
+  "t": "source",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "source",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "1d5b52b9a4f372d4": {
+  "t": "Le distributeur d'eau intelligent de la société des eaux de Monchique annoncé comme piloté par l'IA en 2021, lancement non confirmé",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Monchique water company's smart dispenser was announced as A",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "1db1cd5bb29da92f": {
+  "t": "Liceu Azul donnera à Aljezur sa première école secondaire, en Sciences et Technologies",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Liceu Azul will give Aljezur its first upper secondary schoo",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ }
+}

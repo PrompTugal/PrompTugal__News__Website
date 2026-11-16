@@ -1,0 +1,29 @@
+{
+ "0b7072ddf36f8a3f": {
+  "t": "La mairie décroche environ 938 000 euros pour moderniser ses services numériques",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Council wins about 938,000 euros to modernise digital servic",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "0b7d2dab3101ba93": {
+  "t": "Un étudiant de l’Instituto Politécnico de Beja a construit un prototype d’apprentissage automatique pendant un stage à la mairie. Il combine les données de 10 stations municipales de mesure avec des données météo historiques pour prédire les classes de l’indice européen de qualité de l’air. La mairie dit qu’il appuie sa surveillance environnementale et sa stratégie de ville intelligente, et les enseignants prévoient un article scientifique avec Lagoa comme partenaire.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A student from the Instituto Politécnico de Beja built a mac",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "0bd6e1bec15837ca": {
+  "t": "L'incubateur de Setúbal participe à une conférence régionale sur l'IA et la qualité",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Setúbal's incubator joins a regional talk on AI and quality",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

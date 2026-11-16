@@ -1,0 +1,20 @@
+{
+ "4f3e97f9e66ccaa9": {
+  "t": "ALGAR, l'entreprise de gestion des déchets de l'Algarve dont le siège est à Almancil, a conçu avec la start-up NILG.AI un outil qui utilise l'IA pour choisir où installer les points de recyclage, testé à Lagoa. Il a présélectionné 14 sites en quatre heures et réduit de 83 % le temps nécessaire pour aboutir à une proposition finale, et a reçu le prix Data Changemaker of the Year. Ce sont les résultats rapportés par les partenaires.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "ALGAR, the Algarve's waste-management company headquartered ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "4f4dbd7e2eb935a3": {
+  "t": "Un chantier naval du Guadiana prévoit une unité de défense tournée vers les navires sans pilote",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A Guadiana shipyard plans a defence unit aimed at unmanned v",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

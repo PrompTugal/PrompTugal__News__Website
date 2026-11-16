@@ -1,0 +1,30 @@
+{
+ "288008aec9c489a4": {
+  "t": "Lagoa vive del turismo, con vino (una DOC Lagoa), un pasado pesquero en Ferragudo, Carvoeiro y Benagil, y un creciente negocio de congresos y eventos. Su IA es sobre todo del sector público: el ayuntamiento gestiona un portal Smart City y un equipo informático que trabaja en IA teniendo en cuenta los límites de protección de datos y de capacidad de procesamiento, y una freguesía ha puesto un asistente de IA en su web. En el sector privado hemos confirmado una empresa informática de Lagoa que vende agentes de IA y un colegio internacional británico que acogió en febrero de 2026 un hackatón de IA para adolescentes.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing p",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "288052c59a959663": {
+  "t": "Esto es lo que no pudimos encontrar, y sí, también miramos detrás de los barcos de pesca.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here is what we could not find, and yes, we looked behind th",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "2882368f396e7680": {
+  "t": "Durante una pasantía en el ayuntamiento de Lagoa, un estudiante del politécnico de Beja construyó un prototipo que predice la clase del índice europeo de calidad del aire a partir de diez estaciones de medición y datos meteorológicos. Defendió el trabajo el 27 de noviembre de 2025 en la escuela de tecnología y gestión de Beja, y el profesorado planea un artículo científico.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "During an internship with Lagoa council, a student of the Be",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ }
+}

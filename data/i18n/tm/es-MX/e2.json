@@ -1,0 +1,20 @@
+{
+ "e2ddef7c68fb2893": {
+  "t": "La asociación de prensa regional debate sobre la IA en las redacciones en Vila Real",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Regional press association debates AI in newsrooms in Vila R",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "e2e77efaff9108b6": {
+  "t": "Como parte del proyecto de descarbonización Quarteira Lab, dirigido por el ayuntamiento de Loulé, se instaló un contador de personas y bicicletas en un cruce de la Avenida Dr. Carlos Mota Pinto. Los datos van a una plataforma de agregación y deberían llegar a paneles digitales y a una aplicación móvil. El artículo no menciona ninguna IA. Es una noticia antigua que se conserva como contexto.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "As part of the Quarteira Lab decarbonisation project run by ",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

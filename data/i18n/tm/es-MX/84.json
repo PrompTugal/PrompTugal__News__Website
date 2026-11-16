@@ -1,0 +1,30 @@
+{
+ "8426019c27985d99": {
+  "t": "La candidatura Celeiro de Ideias del ayuntamiento se aprobó el 27 de agosto de 2026 dentro de Algarve 2030. La inversión elegible es de 1,269,828.22 euros, con 761,896.94 euros de cofinanciación del FEDER, y las obras deben acabar el 30 de septiembre de 2028. Está pensado para microempresas, trabajadores independientes, startups y artesanos locales.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council's Celeiro de Ideias application was approved on ",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "848a371a646d5852": {
+  "t": "La consultora tecnológica Noesis abre una oficina en Guarda y recluta perfiles de IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Tech consultancy Noesis opens a Guarda office and recruits A",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "84b16f0556cdc1fa": {
+  "t": "AuroraMed y la UAlg lanzan un curso ejecutivo sobre IA en la sanidad",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AuroraMed and UAlg launch an executive course on AI in healt",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

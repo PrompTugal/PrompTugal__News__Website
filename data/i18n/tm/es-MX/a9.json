@@ -1,0 +1,38 @@
+{
+ "a9320545ff993c45": {
+  "t": "El politécnico de Portalegre firma un protocolo del sector tecnológico con Claranet Portugal",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portalegre's polytechnic signs a tech-sector protocol with C",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "a93eadbeade9b735": {
+  "t": "La Semana da Empregabilidade de 2025 del Politécnico de Setúbal puso a debate la IA y la contratación, junto con charlas, talleres y una feria de empleo. Solo leímos el titular y el subtítulo de este reportaje, porque el cuerpo no se cargó.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 2025 Semana da Empregabilidade of the Politécnico de Set",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "a96e15c6d80b4a42": {
+  "t": "Un debate del IPVC dice que la pregunta ya no es si usar la IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "IPVC debate says the question is no longer whether to use AI",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "a97819f633c3610f": {
+  "t": "Braga no sabe elegir solo uno: la universidad investiga, el INL cacharrea a escala nano, Cegid y Bosch contratan a los ingenieros, Startup Braga se lleva quince startups a Lisboa y la Camara, bendita sea, compra de verdad la IA y la sube a un autobús. Cuatro motores, una ciudad de granito, sim senhor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Braga cannot pick just one: the university does research, IN",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

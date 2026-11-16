@@ -1,0 +1,56 @@
+{
+ "091fd552a554d036": {
+  "t": "L’Aveiro Tech Week s’ouvre avec l’IA comme thème majeur",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Aveiro Tech Week opens with AI as a main theme",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "095e5672aca5f63a": {
+  "t": "L’école de santé de Castelo Branco organise une journée sur l’IA en pratique clinique",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Castelo Branco's health school holds a day on AI in clinical",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "09600d7e18a1cab9": {
+  "t": "Petite ville, grand ciel, beaucoup de sel. Notre richesse est dans les marais du Sapal, chez les visiteurs et dans le bon voisinage avec l’Espagne de l’autre côté de la rivière. Notre IA, soyons honnêtes, n’est pas une foule, ce sont deux cas : la Câmara qui range ses dossiers d’urbanisme avec un logiciel qui répondra un jour aux citoyens, et une famille de sauniers qui a construit une appli si maligne qu’elle a un assistant.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Small town, big sky, lots of salt. Our money is in the pans ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "09d40b1e5f91cfff": {
+  "t": "Une session matinale du 5 décembre 2025 dans l'auditorium de l'ISLA, dans le cadre du partenariat IMPULSO IA entre l'APDC et Google, a présenté des outils d'IA pratiques qui font gagner du temps au travail.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A 5 December 2025 morning session at ISLA's auditorium, part",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "09d91b0f16e245c8": {
+  "t": "Lagoa accueille le pilote d’un outil d’IA qui choisit les emplacements des points de recyclage",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lagoa hosts the pilot of an AI tool that picks sites for rec",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "09f7175851c6c416": {
+  "t": "Fraunhofer Portugal AICOS pilote l'IA du projet d'identification de cépages VineKeeper",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Fraunhofer Portugal AICOS leads the AI for the VineKeeper gr",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "4b4540e5f91d0d06": {
+  "t": "PrompTugal.news Tavira: vigilamos la IA y la tecnología en Tavira, la ciudad de los tejados de terracota, y lo que llegue desde el Algarve, Portugal y el mundo. Independiente, y cada dato viene con su recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Tavira: we keep an eye on AI and tech in Tav",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "4bb857da624ce035": {
+  "t": "La tercera edición de la conferencia de TI se celebró el 21 de octubre de 2026 en el Mercado Santana y el Teatro Miguel Franco, con seis masterclasses con aforo completo en un nuevo LINKA.LAB. La página no indica fecha de publicación, así que la fecha es la de la lista de artículos del sitio.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The third edition of the IT conference ran on 21 October 202",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "4bc344e1b99f0186": {
+  "t": "Vale do Lobo lanza Oliver, un conserje digital con IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Vale do Lobo launches Oliver, an AI digital concierge",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "262e51b4f72873db": {
+  "t": "Alcoutim es un municipio de interior a orillas del Guadiana, en la frontera con España, y su inversión pública se centra en infraestructuras y servicios básicos: un puente a Sanlúcar de Guadiana, una red de agua renovada en Martim Longo, vivienda social y una web del ayuntamiento más accesible. Su historia tecnológica de hoy es de tipo público: es uno de los seis municipios del Algarve que construyen una plataforma compartida de sensores y datos, y acoge el centro nacional que estudia la desertificación. En un pueblo de este tamaño no encontramos empresas de IA, así que el camino hacia la IA pasa primero por los datos y la conectividad.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Alcoutim is an inland municipality on the Guadiana, on the b",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "26da359c2f02f4b2": {
+  "t": "Setúbal hace su IA como hace todo, con casco puesto. El puerto enseña a setenta trabajadores a usar un chatbot, el Politécnico acoge todo un instituto tecnológico y se apunta a una red nacional de IA, y Navigator dice que sus máquinas de Mitrena también están aprendiendo. La Câmara, bendita sea, acoge una charla muy civilizada sobre bibliotecas e IA, y todavía no se ha dejado ver ninguna escena de startups.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Setúbal does its AI the way it does everything, with a hard ",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "26e658997c3d9bf1": {
+  "t": "InnoWave, una empresa tecnológica con un centro en Beja, invierte 3,8 millones de euros en IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "InnoWave, a tech company with a hub in Beja, puts 3.8 millio",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

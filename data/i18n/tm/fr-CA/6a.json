@@ -1,0 +1,47 @@
+{
+ "6a44c07f76c1d587": {
+  "t": "Le parc scientifique de l’université d’Aveiro lance un accélérateur pour l’IA dans le tourisme",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Aveiro's science park runs an accelerator for ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "6a54fc65d47bc36b": {
+  "t": "Une startup portugaise qui vend un système d'agents d'IA aux équipes marketing, avec l'essentiel de ses revenus aux États-Unis. Le tour d'amorçage a été mené par Armilar.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A Portuguese startup selling an AI agent system to marketing",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "6a5b544478ac32f9": {
+  "t": "L’écosystème du pôle est au Web Summit Lisbonne, dont neuf start-ups incubées au pôle d’innovation d’InvestBraga. L’article cite ASOagentAI (un agent d’IA de croissance d’applis), eDynamics (des données de mouvement transformées en alertes de risque de blessure), LogisticsWMS (un système d’entrepôt à IA) et Zixago (une infrastructure synthétique pour l’IA).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The hub's ecosystem is at Web Summit Lisbon, nine of them in",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "6ad8263eac434a48": {
+  "t": "Le Premier ministre signe un appel international pour une IA avancée plus sûre",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Prime Minister signs an international call for safer advance",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "6ae1602a04a24cb6": {
+  "t": "La 24e conférence EPIA sur l’intelligence artificielle s’est tenue du 1er au 3 octobre 2025 sur le campus de Gambelas, accueillie par l’université de l’Algarve sous le patronage de l’Association portugaise pour l’IA, avec 16 thèmes allant de l’IA en médecine et de l’IA générative à l’IA et l’IoT en agriculture et à l’IA dans les transports. Une école sur l’IA l’a précédée les 29 et 30 septembre.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The 24th EPIA Conference on Artificial Intelligence ran from",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

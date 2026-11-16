@@ -1,0 +1,47 @@
+{
+ "7862b73cf59b4d2c": {
+  "t": "Viseu Dão Lafões tient son premier Smart Region Summit et présente une plateforme de données et d'IA pour les maires",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu Dão Lafões holds its first Smart Region Summit and sho",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "78bee850bc310c70": {
+  "t": "Créer une entreprise à {name}",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Starting a company in {name}",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "78dc9cc4a08684d2": {
+  "t": "Les startups en phase d'amorçage qui construisent de l'IA ou l'utilisent intensivement pouvaient candidater à l'incubation d'avril à septembre 2026, avec un appui technique en IA et du mentorat. Le Portugal participe via la FCT et le Centre national de calcul avancé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Early-stage startups building or intensively using AI could ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "78e0284d3a099cdd": {
+  "t": "L’affinage du Queijo Serpa reçoit des capteurs et de l’apprentissage automatique, avec l’université de Beja pour partenaire",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Queijo Serpa curing gets sensors and machine learning, with ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "78fba34193dcd135": {
+  "t": "Le programme d’Algarve STP pour 12 start-ups et PME de l’Algarve, dans le cadre d’Algarve Empreende 2026, listait la technologie et l’intelligence artificielle parmi ses sujets de mentorat, avec l’UAlg, l’AMAL, NERA, l’ANJE et Algarve Evolution comme partenaires. Les candidatures se sont closes le 24 juin 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Algarve STP's programme for 12 Algarve startups and SMEs, un",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

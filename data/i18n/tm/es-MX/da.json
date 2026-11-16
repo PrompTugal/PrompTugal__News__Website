@@ -1,0 +1,30 @@
+{
+ "da40d828158b0f3f": {
+  "t": "El consejo de administración del parque abrió una licitación pública de 308,000 euros más IVA para diseñar el Brigantia EcoPark 2. El informe cuenta 82 empresas, dos centros de investigación y unos 430 trabajadores, con una ocupación cercana al 98 por ciento. La página no menciona la IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The park's board opened a public tender worth 308,000 euros ",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "da8ebf652ad46ed4": {
+  "t": "Eh pá, Silves: capital del Algarve antes de que estuviera de moda, que aún guarda sus laranjas desde un castillo del color de una mandarina madura.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Eh pá, Silves: a capital of the Algarve before it was cool, ",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "dab047fa0598eb82": {
+  "t": "Investigadores de INESC TEC se reúnen en la UTAD para hablar de IA y carreras científicas",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "INESC TEC researchers meet at UTAD to talk AI and scientific",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

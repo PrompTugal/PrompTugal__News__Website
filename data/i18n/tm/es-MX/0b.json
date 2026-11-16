@@ -1,0 +1,30 @@
+{
+ "0b7072ddf36f8a3f": {
+  "t": "El ayuntamiento gana unos 938,000 euros para modernizar los servicios digitales",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Council wins about 938,000 euros to modernise digital servic",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "0b7d2dab3101ba93": {
+  "t": "Un estudiante del Instituto Politécnico de Beja construyó un prototipo de aprendizaje automático durante unas prácticas en el ayuntamiento. Combina datos de 10 estaciones municipales de medición con datos meteorológicos históricos para predecir las clases del Índice Europeo de Calidad del Aire. El ayuntamiento dice que apoya su vigilancia ambiental y su estrategia de ciudad inteligente, y el profesorado planea un artículo científico con Lagoa como socio.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A student from the Instituto Politécnico de Beja built a mac",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "0bd6e1bec15837ca": {
+  "t": "La incubadora de Setúbal participa en una charla regional sobre IA y calidad",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Setúbal's incubator joins a regional talk on AI and quality",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

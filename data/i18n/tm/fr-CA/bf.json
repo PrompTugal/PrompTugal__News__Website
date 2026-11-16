@@ -1,0 +1,58 @@
+{
+ "bf391a32632fe262": {
+  "t": "PrompTugal.news Setúbal : l'IA et la technologie à Setúbal, ville de port et d'industrie dont le centre de gravité est le port de Setúbal, le Politécnico et le complexe industriel de Mitrena, et ce qui arrive à Setúbal depuis le Portugal, l'Europe et le monde. Indépendant. Chaque fait est sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Setúbal: AI and technology in Setúbal, a por",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "bf53a29e71668f9d": {
+  "t": "Guarda garde son IA tout près de l’institut polytechnique, comme une bonne couverture. Le baccalauréat en science des données, le projet Digital PME à un million d’euros et l’accord sur les drones avec l’Ukraine tiennent tous sous le même toit, pendant que la Câmara veille sur l’orgue de la Sé et la fête d’anniversaire et que les entreprises privées se font surtout discrètes. Une capitale mince, sim senhor, mais solide.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Guarda keeps its AI close to the polytechnic, like a good bl",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "bf83eb91261331ba": {
+  "t": "Des adolescents de Setúbal se demandent comment l'IA peut construire des entreprises plus durables",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Teenagers in Setúbal ask how AI can build more sustainable c",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "bfa0ce8b493755f1": {
+  "t": "Ainda há muito por contar, pá. Voici ce qu’Aveiro ne nous a pas encore dit :",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda há muito por contar, pá. Here is what Aveiro has not t",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "bfc3476a34dafd13": {
+  "t": "Aucune histoire locale sur l’IA trouvée pour l’instant. Une ville sans actualité IA, c’est déjà une conclusion : elle nous dit quelles sources et quelles pistes chercher.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "No local AI story found yet. A town with no AI news is a fin",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "bfe94cd066a20981": {
+  "t": "Via la plateforme IAEdu avec la FCCN, étudiants, enseignants, chercheurs et personnel peuvent construire et partager leurs propres agents d’IA, avec des modèles de plusieurs fournisseurs listés dans l’article et un accès API gratuit à un modèle plus ancien.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Through the IAEdu platform with FCCN, students, teachers, re",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

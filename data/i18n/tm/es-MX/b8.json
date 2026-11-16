@@ -1,0 +1,38 @@
+{
+ "b834edd0f1f69fba": {
+  "t": "Invest Porto informa de que el Global Startup Ecosystem Report 2026 califica a Porto como uno de los ecosistemas de startups de más rápido crecimiento de Europa, con el software, la sanidad, las fintech y la IA como principales motores.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Invest Porto reports that the Global Startup Ecosystem Repor",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "b866f8bf4e207849": {
+  "t": "Investigadores del politécnico presentan IA para la agricultura en Bragança",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Polytechnic researchers present AI for farming in Bragança",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "b8a706657fb9b6f2": {
+  "t": "El Instituto Pedro Nunes gestiona la aceleradora NATO DIANA de Portugal",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Instituto Pedro Nunes runs Portugal's NATO DIANA accelerator",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "b8e85a89c6074af1": {
+  "t": "PrompTugal.news Loulé: IA y tecnología desde la ciudad del mercado bonito, con un ayuntamiento que ya se ha comprado algo de IA y la asociación empresarial del Algarve en casa. Te contamos lo que llega a Loulé desde el Algarve, Portugal y el mundo, y cada dato tiene su fuente, pois claro.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Loulé: AI and tech from the town with the pr",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

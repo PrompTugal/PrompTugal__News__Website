@@ -1,0 +1,59 @@
+{
+ "0400f359b5e49517": {
+  "t": "Tres estudiantes de tercer curso de empresariales crearon K-Bridge, una plataforma B2B que usa la IA para ayudar a medianas y grandes empresas a conservar conocimiento operativo crítico. Ganó la fase regional del politécnico del 22.º Poliempreende y va a la final nacional en septiembre de 2026 en la Universidad del Algarve.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Three third-year business students built K-Bridge, a B2B pla",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "040483b8d179c0c5": {
+  "t": "Leiria es el único lugar donde un castillo medieval recibe una audioguía con IA, el mercado un laboratorio de robótica y los moldes y los plásticos siguen pagando las facturas. La incubadora, la universidad y las fábricas van de la mano, el ayuntamiento es el primer cliente de dos startups turísticas y nadie ha escrito todavía el gran plan municipal de IA. Sim senhor, una ciudad que construye primero y escribe la estrategia después.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Leiria is the only place where a medieval castle gets an AI ",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "042024f94da4c058": {
+  "t": "CIC Alentejo abrió el 16 de julio de 2025 en Campo Maior, con un costo de alrededor de un millón de euros, gestionado por el ayuntamiento de Campo Maior con NOVA IMS y el politécnico. Prevé proyectos piloto y cursos de ciencia de datos e IA para empresas y organismos públicos. El centro está en Campo Maior, no en la ciudad de Portalegre.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "CIC Alentejo opened on 16 July 2025 in Campo Maior, about a ",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "04b8aa715247e2ec": {
+  "t": "PrompTugal.news Vila Real: IA y tecnología en Vila Real, una ciudad universitaria y de parque científico cuyo centro de gravedad es el campus de la UTAD y el Regia Douro Park, y lo que llega a Vila Real desde Trás-os-Montes, Portugal y el mundo. Independiente; cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Vila Real: AI and technology in Vila Real, a",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "04c95c6232f98cbc": {
+  "t": "El Gobierno añadió 1.5 millones de euros a los 5.5 millones originales del plan de recuperación, hasta 2027. Los próximos pasos citados son el uso en la app Gov.pt, licencias y contratación, capacidades de agente y un crecimiento de 9 a 22 mil millones de parámetros. El primer ministro dijo que el Gobierno no estaba celebrando y lo calificó de pequeño paso hacia la autonomía.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The government added 1.5 million euros on top of the origina",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "04cd05467beb05d7": {
+  "t": "Faro es el único lugar donde un arco del casco antiguo y un centro de arqueología con IA de 31.5 millones de euros pueden compartir postal. La Universidade do Algarve hace el trabajo pesado de pensar, el TEC Campus alimenta a las startups, GDG Faro monta la fiesta de desarrolladores y la Câmara, bendita sea, sobre todo acoge los eventos de la biblioteca. Innovación e investigación, sim senhor, no el ayuntamiento.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Faro is the only place where an old-town arch and a 31.5 mil",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ }
+}

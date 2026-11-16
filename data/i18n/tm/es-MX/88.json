@@ -1,0 +1,39 @@
+{
+ "881ad9c52223ef5d": {
+  "t": "Portimão y la Universidad del Algarve planean un campus tecnológico con la IA en el centro",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portimão and the University of Algarve plan a technology cam",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "88719a84e47762d8": {
+  "t": "Lo que no encontramos, dito com franqueza:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "What we did not find, dito com franqueza:",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "8873a09dd46767c0": {
+  "t": "CGI crea un centro de excelencia de IA generativa y agéntica en Portugal",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "CGI sets up a generative and agentic AI centre of excellence",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "88d01a60d7656aea": {
+  "t": "La UAlg informó de que SPIC, un estudio digital de Loulé, creó un holograma del cuarto miembro fallecido de D'ZRT para los conciertos de regreso de la banda, con más de 9,000 grabaciones, dentro de un consorcio de I+D con la universidad. Noticia antigua, de mayo de 2023, pero muestra qué hace la única empresa de IA de la ciudad.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UAlg reported that SPIC, a Loulé digital studio, built a hol",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ }
+}

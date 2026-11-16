@@ -1,0 +1,11 @@
+{
+ "8130c67467ffe9f9": {
+  "t": "Vila Real de Santo António es una ciudad planificada en el Guadiana, construida desde 1773 en cuadrícula y completada en 1776, cuya antigua economía pesquera y conservera dio paso al turismo, con muchos residentes que trabajan al otro lado del río, en torno a Ayamonte, en España. Hoy se esfuerza por convertirse en un polo nacional de la economía azul, en torno a su puerto pesquero y un astillero, y está cableando su centro histórico con el proyecto VRSA Digital financiado por el PRR y uniéndose a una plataforma de sensores del PRR de seis municipios. Comparte la Eurocidade do Guadiana con Ayamonte y Castro Marim, y el ayuntamiento ostenta su presidencia en 2026. Todavía no encontramos ninguna empresa de IA con sede en la ciudad, así que por ahora la historia de la IA es un astillero que construyó una embarcación de pruebas para robots y planea una unidad para buques no tripulados, trabajo de base de datos y los planes de un vecino español.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Vila Real de Santo António is a planned town on the Guadiana",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

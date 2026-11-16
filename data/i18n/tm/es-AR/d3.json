@@ -1,0 +1,47 @@
+{
+ "d32b72b6bb7be210": {
+  "t": "En el festival Noitada Portimão, los días 24 y 25 de julio, dos instalaciones llamadas Magic Wall y Universos Paralelos usaron IA y sensores de movimiento en tiempo real para que los visitantes interactuaran con el arte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At the Noitada Portimão festival on 24 and 25 July, two inst",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "d36c48bcc207dd1e": {
+  "t": "El seminario de comunicación municipal de Portimão gira por completo en torno a la IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Municipal communication seminar in Portimão is all about AI",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "d371f5ca74f5deec": {
+  "t": "ICArEHB consiguió financiación que incluye 15 millones de euros de Teaming for Excellence de Horizonte Europa para UAlgTec Heritage, un centro que usará IA para prever riesgos para los yacimientos y apoyar a las autoridades públicas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "ICArEHB secured funding including 15 million euros from Hori",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "d37e798f140404a8": {
+  "t": "Tavira pone sensores inteligentes en las plazas de aparcamiento accesibles",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Tavira puts smart sensors on accessible parking spaces",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "d3a22b81d24c7f27": {
+  "t": "El ayuntamiento de Portimão está desplegando una plataforma digital de gestión urbana con un módulo de IA que revisa los documentos al presentarlos y señala los que faltan. Pista del agente de la localidad: es una historia de Portimão que también importa a toda la región.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The Portimão council is rolling out a digital urban-manageme",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

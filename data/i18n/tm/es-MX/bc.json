@@ -1,0 +1,48 @@
+{
+ "bc334eb42672513e": {
+  "t": "En febrero de 2026 el alcalde dijo en un pleno municipal que la gestión urbana ya usa IA para agilizar las licencias, y que una herramienta para los vecinos que inicien una operación urbanística estaría lista en marzo. Dijo que unos 50 empleados gestionan más de 17,000 solicitudes y que la IA debería ayudar al ayuntamiento a cometer menos errores.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "In February 2026 the mayor told a council meeting that urban",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "bc3728b754ac2248": {
+  "t": "PrompTugal.news Quarteira, pá: seguimos la IA y los cacharros de esta ciudad soleada y de su vecina, la gran urbanización Vilamoura, y lo que llegue a la deriva desde Loulé, el Algarve y el mundo. Independiente, y cada dato tiene su recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Quarteira, pá: we follow the AI and the gadg",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "bc681d10176c83a6": {
+  "t": "No se pudo leer el archivo de este lugar durante la compilación; su agente ya está avisado. La página muestra la última versión buena.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "This place's file could not be read at build time; its agent",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "bcd2c4ea03da1af8": {
+  "t": "El modelo de código abierto para el portugués europeo, construido por un consorcio de cinco universidades, entre ellas el Técnico, está pensado para los servicios públicos y las empresas. Se presentó en el Técnico Innovation Center de Lisboa.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The open-source model for European Portuguese, built by a co",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "bce4171009b6eb45": {
+  "t": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

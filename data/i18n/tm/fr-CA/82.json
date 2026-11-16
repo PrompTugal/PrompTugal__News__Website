@@ -1,0 +1,39 @@
+{
+ "826af33a3608a7c3": {
+  "t": "DOJO AI lève 6 millions de dollars pour un marketing piloté par des agents",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "DOJO AI raises 6 million dollars for agent-run marketing",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "82a0eca4fc1f25ec": {
+  "t": "L’université de l’Algarve obtient 31,5 millions d’euros pour un centre d’archéologie qui utilise l’IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Algarve wins 31.5 million euros for an AI-usin",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "82ba4e0c19a506cd": {
+  "t": "Des psychologues de Beja se demandent ce que l’IA change dans leur profession",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Beja psychologists ask what AI is changing in their professi",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "82fef129938f1eb4": {
+  "t": "PrompTugal.news Faro : IA et technologie à Faro, ville universitaire dont le centre de gravité est l’Universidade do Algarve, sa recherche et son campus de start-ups, et ce qui arrive à Faro depuis l’Algarve, le Portugal et le monde. Indépendant; chaque fait sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Faro: AI and technology in Faro, a universit",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ }
+}

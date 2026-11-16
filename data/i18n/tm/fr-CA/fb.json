@@ -1,0 +1,49 @@
+{
+ "fb116005929573c3": {
+  "t": "Viseu fait son IA comme il boit son Dão : lentement, sérieusement et avec une bonne piste documentaire. L’institut polytechnique écrit les règles et construit RiskMap pour garder un musée, la mairie rejoint un pôle national, la CIM met les maires devant une plateforme de données, et l'industrie organise des conférences. Des startups? Procuram-se, nous n'en avons pas trouvé une seule avec une adresse à Viseu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu does its AI the way it drinks its Dão: slowly, serious",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "fb5b58c8a7028dd3": {
+  "t": "Primal AI devient la première spin-off d'IA de l'Universidade de Leiria e Oeste",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Primal AI becomes the first AI spin-off of the Universidade ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "fb793168f8eb1f93": {
+  "t": "Le Viana Tech Day 2026 inscrit un atelier sur les centres de données au programme de la Portugal Tech Week",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viana Tech Day 2026 puts a data-centre workshop on the Portu",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "fb8654416823213f": {
+  "t": "PrompTugal.news Viseu : l'IA et la technologie à Viseu, capitale de district de la Beira intérieure dont le centre de gravité est son université polytechnique, le travail du secteur public municipal sur l'IA et une industrie régionale qui commence tout juste à parler d'IA, et ce qui arrive à Viseu depuis le Portugal et le monde. Indépendant; chaque fait est sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Viseu: AI and technology in Viseu, a distric",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "fbf134f1beb54447": {
+  "t": "La Fondation Champalimaud et Técnico ouvrent un laboratoire de neurorobotique",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Champalimaud Foundation and Técnico open a Neurorobotics Lab",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

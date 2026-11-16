@@ -1,0 +1,29 @@
+{
+ "fc00ddd291017b54": {
+  "t": "PrompTugal.news Albufeira : nous suivons l’IA et la tech à Albufeira, la ville des plages, des bars et des réservations, et tout ce que la marée apporte de l’Algarve, du Portugal et du monde. Indépendant, chaque fait sourcé, sans coup de soleil.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Albufeira: we follow the AI and tech in Albu",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "fc5c8736a3e9b7b2": {
+  "t": "Elife Portugal ouvre AIhub, une communauté d'IA avec un espace physique à Porto",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Elife Portugal opens AIhub, an AI community with a physical ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "fccae70e24743955": {
+  "t": "L’unité régionale de santé organise un webinaire sur l’IA dans le service de santé",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Regional health unit holds a webinar on AI in the health ser",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

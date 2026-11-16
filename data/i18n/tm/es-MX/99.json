@@ -1,0 +1,22 @@
+{
+ "99a71106aa482450": {
+  "t": "Aljezur es el borde atlántico del Algarve: un municipio grande y poco poblado (unos 323 kilómetros cuadrados y 5,884 habitantes en el censo de 2011) de cuatro freguesías, dentro del Parque Natural del Suroeste Alentejano y Costa Vicentina. Su identidad es la naturaleza, el surf en playas como Arrifana y un ayuntamiento que llama al turismo de naturaleza motor estratégico de la economía local. La energía es un segundo pilar: EDP explota el parque eólico de Bordeira, de 24 MW, y añadió a su lado una planta solar de 15.3 MW en 2025. No es un polo de IA: lo que encontramos es un ayuntamiento con servicios en línea y un portal geográfico, un piloto de teleasistencia de la freguesía para residentes mayores y programas regionales de IA para empresas turísticas a los que podrían sumarse los negocios de Aljezur.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Aljezur is the Algarve's Atlantic edge: a large, thinly popu",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "99c102dd36cca038": {
+  "t": "Rádio Portalegre informa del proyecto del politécnico, de unos 200,000 euros y financiado por el FEDER, que lleva modelos de IA a sensores capaces de procesar datos in situ, con explotaciones piloto para validarlo. Cita la ingeniería, la ciencia de datos, la agronomía y los sistemas de información como los campos implicados y agosto de 2028 como fecha de fin.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Rádio Portalegre reports the polytechnic's roughly 200,000 e",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ }
+}

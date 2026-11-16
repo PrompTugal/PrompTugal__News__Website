@@ -1,0 +1,29 @@
+{
+ "f779f016725feeb7": {
+  "t": "L'UTAD accueille un atelier sur l'IA et les compétences en production animale",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UTAD hosts a workshop on AI and skills in animal production",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "f7d28b3eb969ec12": {
+  "t": "Vila Real est le siège de l'UTAD, l'Université de Trás-os-Montes e Alto Douro, qui accueille des séminaires sur l'IA, rejoint des consortiums de recherche en IA et participe au projet pilote national IAedu. À côté se trouve le Regia Douro Park, un parc scientifique et technologique d'environ 160 entreprises, qui a soutenu la conférence DTech 2026 sur l'IA en entreprise. La mairie apparaît dans l'histoire de l'IA comme soutien de cet événement et comme ancien partenaire du centre d'innovation annoncé d'IBM, tandis que sa propre page d'actualités ne montrait aucun usage de l'IA dans ce que nous avons pu lire.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Vila Real is the seat of UTAD, the University of Trás-os-Mon",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "f7e27f16eaf60e40": {
+  "t": "Un autre projet de la même liste, lui aussi du 1er septembre 2026 au 31 août 2028, développe une plateforme de santé mentale pour les étudiants avec un assistant virtuel fondé sur l'IA générative. Le coût éligible est de 106 936,75 euros, dont 90 896,23 euros pour la part de Portalegre, financé par le FEDER au titre d'ALT2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Another project on the same list, also running from 1 Septem",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "504078283eadeeb4": {
+  "t": "Cuarenta y cinco alumnos de 3.º y 4.º curso participaron en la asamblea municipal infantil del ayuntamiento, donde todos los colegios tomaron la IA como tema y los alumnos redactaron 12 mociones sobre el uso de la IA con pensamiento crítico. El teniente de alcalde intervino en ella.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Forty-five pupils from years 3 and 4 took part in the counci",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "5066aa75096a3dbe": {
+  "t": "FuriosaAI, una startup surcoreana de chips de IA, abre en Lisboa su oficina europea insignia",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "FuriosaAI, a South Korean AI chip start-up, sets up its Euro",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "5070993ad7db0e90": {
+  "t": "La asociación empresarial regional NERA acogió una sesión en CRIA, la división de emprendimiento de la Universidad del Algarve en Faro, sobre cómo usar herramientas de IA para convertir la opinión de los clientes en decisiones de negocio. Se celebró el 10 de noviembre dentro del proyecto transfronterizo INTREPIDA pro.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The regional business association NERA hosted a session at C",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "50849a820822daab": {
+  "t": "PrompTugal.news Aveiro, a cidade dos canais: IA y tecnología en Aveiro, con la Universidade de Aveiro y el Instituto de Telecomunicações como grandes cerebros, la Câmara montando la Tech Week y las noticias que llegan navegando desde Portugal, Brasil y el mundo. Independente, y cada dato viene con su recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Aveiro, a cidade dos canais: AI and tech in ",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "509b72800fc577e3": {
+  "t": "El presidente del puerto de Setúbal dice que la IA lleva a los puertos de lo reactivo a lo predictivo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Setúbal's port chief says AI is moving ports from reactive t",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

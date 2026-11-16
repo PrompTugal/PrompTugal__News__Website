@@ -1,0 +1,29 @@
+{
+ "6f12b4ec4eb14714": {
+  "t": "L’université d’Aveiro donne à toute sa communauté un accès gratuit à des modèles d’IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "University of Aveiro gives its whole community free access t",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "6f14d4f2e57316f7": {
+  "t": "Algarve Evolution a lancé l’Algarve Business AI Adoption Survey, un questionnaire de cinq minutes sur la façon dont les entreprises de toute taille utilisent l’IA, ce qui les freine et où elles voient des opportunités. Les réponses ne sont publiées qu’agrégées et l’enquête sera renouvelée deux fois par an pour orienter l’aide et la formation régionales.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Algarve Evolution launched the Algarve Business AI Adoption ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "6f9107fb49fd453b": {
+  "t": "La semaine de l’économie de Bragança entend que l’IA changera les compétences, pas seulement les effectifs",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Bragança's economy week hears that AI will change skills, no",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

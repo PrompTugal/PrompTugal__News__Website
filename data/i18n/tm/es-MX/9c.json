@@ -1,0 +1,22 @@
+{
+ "9cd7760fae93e137": {
+  "t": "Una app de Braga vigila tu sentadilla con la cámara del celular y la corrige con IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Braga app watches your squat with a phone camera and correct",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "9cda822f3d8b5a35": {
+  "t": "La startup de UPTEC Savearth capta 400,000 euros para una IA que reduce el agua de las duchas de hotel",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UPTEC startup Savearth raises 400,000 euros for AI that cuts",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ }
+}

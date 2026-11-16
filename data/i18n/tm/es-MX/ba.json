@@ -1,0 +1,48 @@
+{
+ "ba5562fbdc71ad19": {
+  "t": "Socios de Portugal, España, Francia e Irlanda se reunieron en las instalaciones de S2AQUA en Olhão los días 3 y 4 de febrero de 2026 y visitaron la estación piloto de piscicultura. El proyecto prevé formación digital, un repositorio de conocimiento en línea y demostraciones piloto de herramientas de la Industria 4.0.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Partners from Portugal, Spain, France and Ireland met at the",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "ba82092f0fba1546": {
+  "t": "Lisboa es donde las universidades construyen centros de datos, los institutos ganan millones y un modelo de lenguaje nacional tiene su escenario en el Técnico. Las startups llegan a Alvalade, los business angels llegan con el chequera y la Câmara, bendita sea, se guarda por ahora sus planes de IA. Investigación y startups, sim senhor, no el ayuntamiento.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Lisboa is where the universities build data centres, the ins",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "baa010b4574410e1": {
+  "t": "Tekever pone drones y una plataforma asistida por IA a trabajar en el mapeo de los daños de la tormenta en Leiria",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Tekever puts drones and an AI-assisted platform to work mapp",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "bad44b8a105b25d8": {
+  "t": "Albufeira vive de los visitantes, así que los hoteles y el turismo van primero. El ayuntamiento tiene un espacio de coworking dentro de un hotel frente al mar y una incubadora que prefiere ideias de turismo, y dice que una plataforma de IA ya ayuda con el urbanismo. Pois, nada mal para un pueblo famoso por sus playas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Albufeira runs on visitors, so hotels and tourism come first",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "bada14ddd04950b6": {
+  "t": "Un equipo de la NOVA FCT (NOVA LINCS) creó una plataforma que lee índices de vegetación por satélite con aprendizaje automático para comprobar con regularidad si las zonas de gestión de combustible forestal están despejadas, con una aplicación para Android. La aplicación se configuró para Almada, Mação y Santarém, con ampliación prevista. El artículo no menciona Monchique ni el Algarve.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A NOVA FCT team (NOVA LINCS) built a platform that reads sat",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

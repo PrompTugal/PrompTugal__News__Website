@@ -1,0 +1,29 @@
+{
+ "472a664aa5b4e49a": {
+  "t": "Olhão rejoint la section nationale des villes intelligentes et dit travailler sur l'IA pour les circuits de collecte des déchets",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Olhão joins the national smart-cities section and says it is",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "47ad3efbbc50e4ed": {
+  "t": "La municipalité a annoncé la troisième édition du Viana Tech Day de la ville pour le 6 novembre 2026, organisée par l'association de start-up portugaises 351 avec Dinamo10, Untile, Cooperativa Tecnológica et la municipalité. La journée comprenait un concours de pitchs pour fondateurs et un atelier de 15 places intitulé Data Center Lab: myths, facts and governance. Le programme ne mentionne pas l'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council announced the city's third Viana Tech Day for 6 ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "47ed757400ef29a7": {
+  "t": "Une entreprise de technologies des déchets de Castelo Branco prévoit un pilote avec des capteurs d’IA pour la mairie",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A Castelo Branco waste-tech firm plans a pilot with AI senso",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

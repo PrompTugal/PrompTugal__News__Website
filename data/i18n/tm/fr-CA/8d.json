@@ -1,0 +1,29 @@
+{
+ "8d6fa9233ac94633": {
+  "t": "PrompTugal.news par lieu commence dans [l’Algarve]({region}) : la région et ses {count} villes, chacune avec son site et son agent, {news} et {map} sur leurs cartes de l’IA à ce jour.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news by place starts in [the Algarve]({region}): ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "8d989671f08ed695": {
+  "t": "Ainda ha coisas que Braga nao nos disse, pa. Voici ce qui nous manque encore :",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Ainda ha coisas que Braga nao nos disse, pa. Here is what we",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "8dbabf2ca296aacb": {
+  "t": "Un débat à Faro demande comment l’IA décide quelles entreprises recommander",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Faro panel asks how AI decides which companies to recommend",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "4a40428649b3f526": {
+  "t": "Porto emmène deux conférences sur l'IA au Smart City Expo de Barcelone",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Porto takes two AI talks to the Smart City Expo in Barcelona",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "4a60c4fe3a36c18c": {
+  "t": "Lors d’une rencontre d’innovation de la CCDR Algarve sur la numérisation et les TIC, le coordinateur de SmartCity:Lagoa a décrit les limites de l’introduction de l’IA dans l’administration locale : capacité de traitement, droit de la protection des données, traitement de données hors ligne et besoin d’un centre de données. Le programme annonce aussi une intervention sur une solution de grand modèle de langage pour les municipalités de l’Algarve.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "At a CCDR Algarve innovation meeting on digitalisation and I",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "4a77daff9895e8f8": {
+  "t": "À partir de fin 2027, avec 230 millions d'euros pour les infrastructures partagées et 465 millions d'euros pour un deuxième bâtiment de 200 MW, à côté des 12 600 GPU Blackwell Ultra déjà prévus sur place. Start Campus construit et exploite le site.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "From late 2027, with 230 million euros for shared infrastruc",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "4abf0dd6aff0e9b8": {
+  "t": "Elle fusionne la FCT et l'Agence nationale de l'innovation en un seul organisme public couvrant toute la chaîne de l'innovation. Cet unique article la décrivait avant la publication de son décret-loi; il faut donc considérer les détails comme provisoires.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "It merges FCT and the National Innovation Agency into one pu",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "4aef917b1931fc70": {
+  "t": "Le centre de recherche ICArEHB de l’université de l’Algarve a obtenu 31,5 millions d’euros, dont 15 millions de Teaming for Excellence d’Horizon Europe et 16,5 millions nationaux, pour créer UAlgTec Heritage. Il adopte une approche axée sur l’IA pour protéger et étudier le patrimoine archéologique, avec pour partenaires l’université de Kiel, ERA Arqueologia et Zartis, et prévoit plus de 70 emplois qualifiés en six ans.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The University of Algarve's ICArEHB research centre secured ",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

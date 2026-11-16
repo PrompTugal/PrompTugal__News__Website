@@ -1,0 +1,21 @@
+{
+ "7c68c12b20c281b6": {
+  "t": "Ahora la parte honesta, meu amigo: donde los algoritmos todavía no han llegado al naranjal.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Now the honest part, meu amigo: where the algorithms have no",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "7ca1e09bcf45f77f": {
+  "t": "Évora no corre, pero llega. La universidad enseña portugués a las máquinas y les escribe las normas de la casa, PACT forma a las personas y mantiene las luces encendidas para las empresas, el hospital deja que una IA señale la muestra antes de que decida un especialista, y una empresa de centros de datos ha comprado discretamente una sala de 1 MW. Al ayuntamiento, bendito sea, aún no hemos podido agarrarlo haciendo IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Évora does not rush, but it gets there. The university teach",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "9f0ef3c5a4f18619": {
+  "t": "PrompTugal.news Portugal : l'IA et la tech depuis la lisière de l'Europe, la carte nationale, les programmes nationaux, et ce qui ruisselle vers l'Algarve et chaque région. Indépendant, et chaque fait a sa source.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Portugal: AI and tech from the edge of Europ",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "9f1c67d8dc675f05": {
+  "t": "PrompTugal.news Silves : l'IA et la technologie à Silves, capitale de l'orange de l'Algarve et ancienne capitale régionale, et ce qui arrive à Silves depuis l'Algarve, le Portugal et le monde. Indépendant; chaque fait est sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Silves: AI and technology in Silves, the Alg",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "9f93562e264601fb": {
+  "t": "Un congrès de gestion de la santé au CNEMA met l'IA à son programme",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Health management congress at CNEMA puts AI on its agenda",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

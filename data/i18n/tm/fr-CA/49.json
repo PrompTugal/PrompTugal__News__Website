@@ -1,0 +1,21 @@
+{
+ "494bada8e2fea7ba": {
+  "t": "La quatrième édition de Nexxt Leiria a désigné dix lauréats des Leiria Nexxt Ideas 2026 parmi 42 candidatures. Opsivision Leiria, Sndora, e-Security et Bora, Leiria? utilisent l'IA pour l'analyse vidéo, les outils de vente, la vérification de documents et les parcours touristiques.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The fourth Nexxt Leiria named ten Leiria Nexxt Ideas 2026 wi",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "4973b94fc93ea147": {
+  "t": "PrompTugal.news Loulé : l'IA et la technologie à Loulé, une mairie qui utilise des outils d'IA et le siège de l'association des entreprises de l'Algarve, et ce qui arrive à Loulé depuis l'Algarve, le Portugal et le monde. Indépendant; chaque fait est sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Loulé: AI and technology in Loulé, a council",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "a02ffddc6a7859dd": {
+  "t": "Viana est une ville aux trois tours. La Câmara dit que l'IA aide déjà pour les permis de construire, le Politécnico en débat, l'enseigne et envoie une idée d'IA d'étudiants vers une finale nationale, et au port une usine d'équipements pour centres de données a démarré ses équipes. Bonito, pá. Nous regrettons seulement que les documents de l'usine ne disent rien de l'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viana is a city of three tricks. The Câmara says AI already ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "a05cd27604ae2f2e": {
+  "t": "Contextos et Algarve STP ont mené à Faro, le 2 avril 2025, une session de co-création en anglais sur l’aide aux animateurs de jeunesse pour utiliser les outils d’IA, avec l’éthique et l’inclusion numérique à l’ordre du jour.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Contextos and Algarve STP ran an English-language co-creatio",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "a08c54ae7db3d122": {
+  "t": "L'unité locale de santé de Santarém participe à une conférence de l'OMS sur l'IA en santé",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Santarém's local health unit joins a WHO conference on AI in",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "a09e63aba13e4aba": {
+  "t": "L'activité en IA de Castelo Branco s'organise autour de l'institut polytechnique, devenu Universidade Politécnica de Castelo Branco le 1er août 2026, et des personnes qu'il forme. Son école de santé organise des journées sur l'IA en santé, deux de ses professeurs d'ingénierie ont fondé la start-up de drones contre les incendies de forêt Axtron Systems, et une entreprise locale de technologies des déchets ainsi qu'un cabinet de conseil informatique sont les principaux acteurs privés. En 2026, la municipalité elle-même a commencé à parler d'IA, en ouvrant l'année scolaire par une conférence sur l'IA et en disant envisager une académie de l'IA, et elle a approuvé un pôle de technologies de drones et de défense avec une entreprise nommée Odin Systems.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Castelo Branco's AI activity sits around the polytechnic, wh",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "a0b7f4ddc8d2385c": {
+  "t": "La mairie et l'Université de l'Algarve préparent un pacte de connaissance et d'innovation",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Town hall and University of Algarve prepare a knowledge and ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "a0d37ad2b10c1b7a": {
+  "t": "L’institut polytechnique de Setúbal ouvre le premier pôle national de l'institut CCG/ZGDV",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Setúbal's polytechnic opens the first national pole of the C",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

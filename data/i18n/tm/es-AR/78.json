@@ -1,0 +1,47 @@
+{
+ "7862b73cf59b4d2c": {
+  "t": "Viseu Dão Lafões celebra su primera Smart Region Summit y presenta una plataforma de datos e IA para alcaldes",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Viseu Dão Lafões holds its first Smart Region Summit and sho",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "78bee850bc310c70": {
+  "t": "Crear una empresa en {name}",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Starting a company in {name}",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "78dc9cc4a08684d2": {
+  "t": "Las startups en fase inicial que crean IA o la usan de forma intensiva podían solicitar incubación de abril a septiembre de 2026, con apoyo técnico de IA y mentoría. Portugal participa a través de la FCT y el Centro Nacional de Computación Avanzada.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Early-stage startups building or intensively using AI could ",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "78e0284d3a099cdd": {
+  "t": "La curación del Queijo Serpa recibe sensores y aprendizaje automático, con la universidad de Beja como socia",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Queijo Serpa curing gets sensors and machine learning, with ",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "78fba34193dcd135": {
+  "t": "El programa de Algarve STP para 12 startups y pymes del Algarve, dentro de Algarve Empreende 2026, incluyó la tecnología y la inteligencia artificial entre sus temas de mentoría, con UAlg, AMAL, NERA, ANJE y Algarve Evolution como socios. Las solicitudes se cerraron el 24 de junio de 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Algarve STP's programme for 12 Algarve startups and SMEs, un",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

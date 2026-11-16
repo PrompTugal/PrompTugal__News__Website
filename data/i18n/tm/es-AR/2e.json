@@ -1,0 +1,57 @@
+{
+ "2e08790bc444c605": {
+  "t": "Un profesor de informática dijo a Lusa que los modelos portugueses, más pequeños y abiertos, de la universidad alcanzan en algunas tareas un rendimiento comparable al de los modelos de las grandes tecnológicas, y que ya hay un modelo portugués y gallego disponible para empresas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "A professor of informatics told Lusa that the university's s",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "2e513ec94d637d09": {
+  "t": "Braga, ai ai ai: una ciudad que toca las campanas para el arzobispo el domingo y entrena sus modelos el lunes, con un colectivo lleno de cámaras de IA contando quién estacionó en la parada.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Braga, ai ai ai: a city that rings its bells for the archbis",
+  "ok": false,
+  "from": "es-ES",
+  "adapted": true
+ },
+ "2e7c775df10f0748": {
+  "t": "El proyecto SiARA combina IA, un robot autónomo de campo llamado EVAbot y una red de sensores para recopilar datos sobre cultivos, suelo, pastos y fauna en la estepa del Campo Branco. Comenzó en noviembre de 2025 y su primer trabajo de campo fue el 3 de marzo de 2026. El proyecto fue reconocido en la categoría de I+D movilizadora del programa Promove.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The SiARA project combines AI, an autonomous field robot cal",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "2ecaf3860065acde": {
+  "t": "PrompTugal.news Braga, a cidade dos arcebispos e das startups: IA y tecnología en Braga, con la Universidad del Miño, el INL y los laboratorios de las empresas poniendo el cerebro, y las noticias que nos llegan desde el Miño, Portugal y el mundo. Independente, e cada dato tiene su recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Braga, a cidade dos arcebispos e das startup",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "2ece8b1cdbda1ec5": {
+  "t": "Évora, ó pá: una ciudad de cal, alcornoques y piedras viejas donde las máquinas están aprendiendo a hablar portugués, despacio, calminha, como se hace en el Alentejo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Évora, ó pá: a city of whitewash, cork oaks and old stones w",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "2ed694a2fcc0cf7e": {
+  "t": "PrompTugal.news Lisboa, a capital que nunca dorme: IA y tecnología en Lisboa, con las universidades y la Unicorn Factory como grandes cerebros, más las noticias que lleguen navegando desde Portugal, Europa y el mundo. Independente, y cada dato viene con su recibo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Lisboa, a capital que nunca dorme: AI and te",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "176878b974029b26": {
+  "t": "Las empresas turísticas del Algarve tienen una vía respaldada por el Estado hacia la IA y la robótica, incluido el sector de Aljezur",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Algarve tourism firms get a state-backed route to AI and rob",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "1768c215f70986ab": {
+  "t": "La CCDR Algarve reunió a su plataforma de innovación turística el 18 de marzo de 2026. Un proyecto del programa Algarve 2030 financiará diagnósticos de madurez digital y planes de acción para 15 pymes turísticas que quieren adoptar IA y robótica. El presidente de Algarve Evolution advirtió a las empresas de que se preparen para agentes de IA que buscan y reservan viajes. El artículo no menciona Aljezur.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "CCDR Algarve met its tourism innovation platform on 18 March",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "17b1d3e5d2d2c827": {
+  "t": "Esto es lo que no pudimos encontrar, y no, no miramos debajo de las sardinas.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Here is what we could not find, and no, we did not look unde",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

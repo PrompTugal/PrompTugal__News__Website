@@ -1,0 +1,76 @@
+{
+ "3851d984faf9d02a": {
+  "t": "Le projet CitiLink de Porto, une IA qui structure les procès-verbaux des conseils municipaux, remporte un prix national",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Porto's CitiLink project, AI that structures council meeting",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "3856b4c778bcdc4a": {
+  "t": "PrompTugal.news Portimão : l'IA et la technologie à Portimão, une mairie et une société des eaux qui mettent l'IA au service des services publics, un incubateur de ville intelligente et un institut privé d'enseignement supérieur, et ce qui arrive à Portimão depuis l'Algarve, le Portugal et le monde. Indépendant; chaque fait est sourcé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "PrompTugal.news Portimão: AI and technology in Portimão, a c",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "3857de4a8f72f925": {
+  "t": "L'UNIPS, l'Universidade Politécnica de Setúbal selon le nom que lui donne le journal, a rejoint le réseau GeSI et DEFIA Portugal dirigé par l'Université de Coimbra, lancé le 15 octobre 2026, qui vise un usage responsable de l'IA et la culture de l'IA dans l'enseignement supérieur. Un enseignant d'informatique de son école de technologie l'y a représentée.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "UNIPS, the Universidade Politécnica de Setúbal as the paper ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "385da7e88a11498d": {
+  "t": "L'assemblée des enfants de Vila Real débat de l'IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Vila Real's children's assembly debates AI",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "38726af755a9041b": {
+  "t": "**L’identité de ce site :** {key} dans [board/keys.json]({keys}); la signature de `{file}` n’a pas pu être vérifiée.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false,
+  "from": "fr-FR",
+  "adapted": true
+ },
+ "38818d41208825e0": {
+  "t": "La mairie installe du Wi-Fi gratuit et 16 capteurs de flux piétons dans le centre historique, avec des bornes et des kiosques d'information à suivre, dans le cadre d'un quartier commerçant numérique financé par le PRR, d'environ 895 mille euros, qui vise quelque 200 commerces. Les compteurs ne fournissent que des statistiques et ne captent ni image, ni vidéo, ni son. Une place de marché en ligne recense déjà plus d'une centaine de commerces.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council is installing free Wi-Fi and 16 pedestrian flow ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "388e89e55b08d337": {
+  "t": "La mairie et l'Université de l'Algarve se sont réunies en avril 2026 pour élargir leur partenariat à l'enseignement, à la formation et à la recherche, y compris des liens avec les écoles et les entreprises via de courtes formations d'enseignement supérieur. Elles ont convenu de travailler à un pacte dans les mois à venir. Le compte rendu ne mentionne pas l'IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The council and the University of Algarve met in April 2026 ",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "38d3e7192f1cc031": {
+  "t": "Ici, au bout du monde, c'est le vent qui commande, et l'IA arrive encore à vélo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Aqui no fim do mundo, o vento e que manda, e a IA ainda esta",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

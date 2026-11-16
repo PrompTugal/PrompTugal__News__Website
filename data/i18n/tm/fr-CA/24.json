@@ -1,0 +1,20 @@
+{
+ "24787b463b3da82d": {
+  "t": "Le CeDRI Industry Day met les chercheurs en robotique de Bragança face à 40 entreprises",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "CeDRI Industry Day puts Bragança's robotics researchers in f",
+  "ok": false,
+  "from": "fr-FR"
+ },
+ "24d44fe9e55dc9df": {
+  "t": "La matière grise de Portimão est, chiça, surtout publique. La câmara apprend à un robot à lire les dossiers d'autorisation, a une subvention avec de l'IA écrite en petits caractères et a topé là avec l'université pour un campus du numérique, des données et de l'IA. EMARP a des oreilles d'IA sur les canalisations, et l'incubateur du circuit automobile et l'ISMAT occupent les jeunes. Le reste, ce sont des conférences, des livres et des séminaires, et nous aimons une bonne tertúlia.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "Portimão's brainpower is, chiça, mostly public. The câmara i",
+  "ok": false,
+  "from": "fr-FR"
+ }
+}

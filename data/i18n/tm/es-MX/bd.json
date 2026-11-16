@@ -1,0 +1,11 @@
+{
+ "bd29a002a1eb5342": {
+  "t": "IA y tecnología en todo el Algarve y sus {count} localidades: {local} y {map} en el mapa de la IA de la región, cada dato con su fuente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "AI and technology across the Algarve and its {count} towns: ",
+  "ok": false,
+  "from": "es-ES"
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "0e8918261c04a038": {
+  "t": "El STAR Institute abre en Viseu con la IA entre sus áreas centrales y dos startups en sus instalaciones",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "STAR Institute opens in Viseu with AI among its core areas a",
+  "ok": false,
+  "from": "es-ES"
+ },
+ "0ee9d1a32b46f135": {
+  "t": "La propia página de noticias del municipio anunció que el primero de los cinco actos formativos del centro AI4PA Portugal se celebraría en el Museu do Quartzo de Viseu el 26 de febrero de 2025, sobre IA generativa y servicios públicos impulsados por IA, con la inauguración a cargo del entonces alcalde. La página del evento recoge al ayuntamiento como coorganizador.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-16",
+  "src": "The municipality's own news page announced that the first of",
+  "ok": false,
+  "from": "es-ES"
+ }
+}
