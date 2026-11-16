@@ -706,13 +706,13 @@
    "note": "the 17 district capitals (one session, a sub-agent per capital; assets/portugal/next-places.json), account A, session session_018yvwtQFNnQ3GLjz1CExY95; started and looped at Dinis's word (16 Nov 2026, about 04:00 UTC) Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked: board/team/<role>/debriefs/2026-11-16-account-move.md."
   },
   {
-   "agent": "conductor.a.ios@promptugal.dinis (PrompTugal iOS conductor)",
+   "agent": "conductor.a.ios@PrompTugal.dinis",
    "minute": 26,
    "cron": "26 * * * *",
    "trigger": "trig_01A2aPmNYVb7aoXDfvYfE5wj",
    "state": "disabled",
    "since": "2026-11-16T15:26Z",
-   "note": "the iOS app's conductor (PrompTugal/PrompTugal__App__iOS), account A, session session_018yvwtNhGU1EEJs2oWCLqrJ; not listed here before. Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked."
+   "note": "the iOS app's conductor (conductor.a.ios@promptugal.dinis, PrompTugal/PrompTugal__App__iOS), account A, session session_018yvwtNhGU1EEJs2oWCLqrJ; not listed here before. Paused 16 Nov 15:26 UTC at Dinis's word (the agents move to the other team members' accounts); debrief asked."
   }
  ]
 }
