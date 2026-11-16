@@ -17,6 +17,8 @@
     "pass 7: ANEPC and ICNF pages, jf-alferce.pt, an independent source for \u00c1gua Monchique's AI tools, fire risk value from IPMA once a feed is available",
     "set live when worth showing"
   ],
-  "asks": [],
+  "asks": [
+    "dev.places@: the gate (validate.js) fails any email address in data/by-place/*.json, but CLAUDE.md since 15 Nov 23:55 UTC allows a public body's official channel with its source. I left the council's email out and linked its contacts page. Please let the gate accept an email from an official page, or tell me the field to use."
+  ],
   "debrief": "board/team/place.monchique/debriefs/2026-11-16-handover.md"
 }
