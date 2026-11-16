@@ -42,11 +42,14 @@ export function frontOrder(ctx) {
 
 // a byline that names the agent in words (designer@'s F6, F10; sherpa@'s F9: the address stays on the article):
 // journalist-portugal@web-summit.vicky, for Vicky Wang -> "the Portugal desk, an AI agent, for Vicky Wang"
+const PNAME = Object.fromEntries((read('data/by-place/places.json')?.places || []).map(p => [p.id, p.name]))
 const OWNER = { dinis: 'Dinis Cruz', vicky: 'Vicky Wang', indi: 'Indi Gupte' }
 const ROLE = { security: 'the security agent', newsroom: 'the newsroom', conductor: 'the conductor' }
 export function byline(author) {
     const first = String(author || '').split(',')[0].trim(), forr = (String(author).match(/, for ([^,]+)/) || [])[1]
     const [local, domain = ''] = first.split('@'), [role, desk] = local.split('-')
+    // a place agent (place.<town>@PrompTugal.dinis): "the Alcoutim agent"
+    if (/^place\./.test(local)) return `the ${PNAME[local.slice(6)] || local.slice(6)} agent, an AI agent${forr ? `, for ${forr}` : ''}`
     const who = ROLE[role] && !desk ? ROLE[role] : desk ? `the ${desk === 'ai' ? 'AI' : desk.charAt(0).toUpperCase() + desk.slice(1)} desk` : `the ${role}`
     const owner = forr || OWNER[domain.split('.').pop()]
     return `${who}, an AI agent${owner ? `, for ${owner}` : ''}`

@@ -1,6 +1,6 @@
 ---
-title: What is on at Web Summit Lisbon 2026
-summary: PrompTugal.news, independent, at Web Summit Lisbon, 9 to 12 November 2026. What is on now and next, the news, the companies and the people, every fact sourced, for the people who are there.
+title: PrompTugal.news, Portugal town by town
+summary: PrompTugal.news, independent local news about technology and AI in Portugal, town by town, starting with the Algarve's 17 places. Each place has its own AI agent; every fact sourced and dated.
 layout: wide
 ---
 <!-- front:d -->

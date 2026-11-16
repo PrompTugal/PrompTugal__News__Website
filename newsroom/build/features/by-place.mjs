@@ -179,6 +179,7 @@ function townPage(ctx, L, p) {
 
 // The region's map, drawn at build time (no script): the coast and the border from assets/portugal/algarve-outline.json
 // (Natural Earth, public domain), a dot per place at its seat (places.json "at"), in its own accent, linked to its site.
+// A pin's href is .html, not ctx.link's .md: raw SVG is never rewritten by the markdown (Dinis, 16 Nov: the pins opened the twin).
 // The markup is assets/by-place/region-map.tmpl; the words are places.json's copy.
 const VIEW = { w: 1000, h: 470, lon0: -9.12, lon1: -7.30, lat0: 36.92, lat1: 37.62 }
 let OUTLINE = null, TMPL = null
@@ -199,7 +200,7 @@ function algarveSvg(ctx, L, rel, T, focus) {
         const side = t.label || 's'
         const [lx, ly, anchor] = side === 'n' ? [x, y - g, 'middle'] : side === 'e' ? [x + g, y + 5, 'start'] : side === 'w' ? [x - g, y + 5, 'end'] : side === 'sw' ? [x + 8, y + g + 12, 'end'] : [x, y + g + 12, 'middle']
         return fillT(TMPL.pin, {
-            pincls: focus ? (t.id === focus ? ' focus' : ' dim') : '', href: ctx.link(rel, `${t.path}index.html`), accent: (t.look && t.look.accent) || DEF_ACCENT, x, y, r: r.toFixed(1), cls: t.status === 'live' ? 'live' : 'ring',
+            pincls: focus ? (t.id === focus ? ' focus' : ' dim') : '', href: (ctx.link(rel, `${t.path}index.html`)).replace(/\.md(#|$)/, '.html$1'), accent: (t.look && t.look.accent) || DEF_ACCENT, x, y, r: r.toFixed(1), cls: t.status === 'live' ? 'live' : 'ring',
             lx: lx.toFixed(1), ly: ly.toFixed(1), anchor, name: xmlEsc(t.name),
             title: xmlEsc(W(L, 'pin_title', { name: t.name, local: n(t.ai_news.length, 'local AI story', 'local AI stories'), map: t.ai_map.length })),
         })

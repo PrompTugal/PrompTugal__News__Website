@@ -4,18 +4,18 @@
      The look: front-e.css; the countdown and Now and next's trim: front-e.js. It is one of the home page's designs (assets/design/, ?design=e). -->
 <!-- part:page -->
 <div class="fe pt-design" data-design-of="e">
-<div class="fe-w"><div class="fe-dl"><time datetime="{{today}}">{{date}}</time><span class="fe-cd" data-at="{{opening_at}}">Opening Night in <b data-cd>{{opening_in}}</b></span><span class="fe-where">Lisbon · Independent</span></div>
+<div class="fe-w"><div class="fe-dl"><time datetime="{{today}}">{{date}}</time><span class="fe-where">Portugal · town by town · Independent</span></div>
 <header class="fe-mast"><a href="index.html" aria-label="{{name}}, the home page">{{wordmark}}</a></header>
 <nav class="fe-nav" aria-label="Sections">{{#nav}}</nav></div>
 {{lead}}
-{{spectrum}}
-<section class="fe-live" aria-label="This week"><h2>This week</h2><div class="fe-tk" tabindex="0" aria-label="This week, scrolling; hover or focus to pause"><div class="fe-tk-in"><ul>{{#week}}</ul><ul aria-hidden="true">{{#week_again}}</ul></div></div></section>
+<section class="fe-live" aria-label="Now in the Algarve"><h2>The Algarve</h2><div class="fe-tk" tabindex="0" aria-label="The newest from each Algarve town, scrolling; hover or focus to pause"><div class="fe-tk-in"><ul>{{#week}}</ul><ul aria-hidden="true">{{#week_again}}</ul></div></div></section>
 <div class="fe-w"><div class="fe-cols">
 <section class="fe-brf"><h2 class="fe-h">The briefing</h2><ol>{{#briefing}}</ol></section>
 <section class="fe-stories"><h2 class="visually-hidden">The stories</h2>{{#stories}}</section>
-<section class="fe-nx"><h2 class="fe-h">Web Summit 2026: our coverage</h2><ul>{{#next}}</ul><p class="fe-more"><a href="summit/index.html">The summit, day by day</a> · <a href="events/index.html">The agenda</a></p>
+<section class="fe-nx fe-pl"><h2 class="fe-h">Town by town</h2><p class="fe-pli">{{places_intro}}</p><ul>{{#places}}</ul><p class="fe-more"><a href="portugal/index.html">Portugal</a> · <a href="algarve/index.html">The Algarve</a> · <a href="api/swagger/index.html">The API</a> · <a href="summit/index.html">Web Summit 2026, the archive</a></p>
 <div class="fe-radar"><p class="fe-rh"><b>The companies we follow</b><span>by field</span></p>{{#radar}}<p class="fe-more"><a href="companies/index.html">All companies, by field</a></p></div></section>
 </div></div>
+{{spectrum}}
 <section class="fe-nums" aria-label="In numbers"><div class="fe-w">{{#nums}}</div></section>
 <div class="fe-w fe-ask"><form class="fe-pb" role="search" action="search/index.html" method="get"><span class="fe-pr" aria-hidden="true">&gt;_</span><input name="q" type="search" placeholder="Ask PrompTugal anything" aria-label="Ask PrompTugal"><button type="submit">Ask</button></form><p class="fe-pcs">{{#asks}}</p></div>
 </div>
@@ -42,6 +42,8 @@
 <!-- item:brief --><li><a href="{{href}}">{{title}}</a><small>{{beat}}</small></li>
 <!-- item:story --><article class="fe-st{{big}}"><div><p class="fe-k">{{beat}}</p><h3><a href="{{href}}">{{title}}</a></h3><p>{{dek}}</p>{{pill}}</div>{{thumb}}</article>
 <!-- item:thumb --><a class="fe-thumb" href="{{href}}" tabindex="-1">{{picture}}<span>AI-made</span></a>
+<!-- item:place --><li><a href="{{href}}"><b>{{name}}</b></a><small>{{counts}}</small>{{newest}}</li>
+<!-- item:pnew --><a class="fe-pn" href="{{href}}">{{title}}</a>
 <!-- item:next --><li data-end="{{end}}"><time datetime="{{date}}">{{when}}</time><a href="{{href}}">{{what}}</a><small>{{where}}</small></li>
 <!-- item:radar --><a class="fe-rr" href="{{href}}"><span>{{name}}</span><i><u style="width:{{pct}}%"></u></i><code>{{n}}</code></a>
 <!-- item:num --><div><b>{{value}}</b><span>{{label}}</span></div>

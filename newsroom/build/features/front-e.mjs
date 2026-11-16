@@ -88,8 +88,23 @@ function lead(ctx, a) {
         pill: pill(ctx, a), storm: stormLink(ctx, a), figure: satFigure(ctx, a) || (fig ? put(item('figure'), { href: a.rel, picture: fig, cap: 'AI-made image' }) : ''), ...leadExtra(ctx, a) })
 }
 
+
+// the places (Dinis, 16 Nov: the home page is the top place of the by-place tree): data/by-place/places.json and each
+// place's file; for each town its counts and its newest signed article (content/articles/, front matter town:)
+function placesOf(ctx, all) {
+    const rd = f => { try { return JSON.parse(fs.readFileSync(path.join(ctx.ROOT, f), 'utf8')) } catch { return null } }
+    const L = rd('data/by-place/places.json') || { places: [], copy: {} }
+    const towns = L.places.filter(p => p.kind === 'municipality' || p.kind === 'city')
+    const art = t => all.filter(a => a.meta.town === t).sort((x, y) => String(y.meta.date).localeCompare(String(x.meta.date)))[0]
+    const rows = towns.map(p => { const d = rd(`data/by-place/${p.id}.json`) || {}; return { p, news: (d.ai_news || []).length, map: (d.ai_map || []).length, a: art(p.id), n: (d.ai_news || [])[0] } })
+    return { L, rows }
+}
+
 function fillE(page, ctx) {
-    const esc = ctx.md.esc, all = frontOrder(ctx), { AGENDA, itemsOn } = load(ctx)
+    const esc = ctx.md.esc, { AGENDA, itemsOn } = load(ctx)
+    const fo = frontOrder(ctx), placed = fo.filter(a => a.meta.region || a.meta.town).sort((x, y) => String(y.meta.date).localeCompare(String(x.meta.date)))
+    const all = [...placed, ...fo.filter(a => !placed.includes(a))]
+    const { L: PL, rows: PR } = placesOf(ctx, all)
     const story = (a, i) => put(item('story'), { big: i ? '' : ' big', beat: esc(beatOf(a)), href: a.rel, title: esc(a.meta.title), dek: esc(cut(a.meta.summary || '', 170)), pill: pill(ctx, a),
         thumb: i && imageFile(a, 'thumb') ? put(item('thumb'), { href: a.rel, picture: picture(esc, a, 'thumb', true) }) : '' })
     // this week: today and the six days after it, the two that matter most each day
@@ -111,13 +126,16 @@ function fillE(page, ctx) {
         '#nav': many('nav', ctx.NAV.nav.map(n => ({ href: n.href, label: esc(n.label), cur: n.id === 'now' ? ' aria-current="page"' : '' }))),
         lead: lead(ctx, all[0]),
         spectrum: stripHtml(ctx, ''),   // GAMMA-Ray's cards under the lead (THE RESTART: the agentic edition), left out with no data
-        '#week': many('week', wk), '#week_again': many('week', wk.map(w => ({ ...w, tab: ' tabindex="-1"' }))),
+        ...(() => { const tk = PR.filter(r => r.a || r.n).map(r => r.a ? { href: r.a.rel, date: r.a.meta.date, when: esc(r.p.name), what: esc(cut(r.a.meta.title, 80)), where: '' } : { href: r.p.path + 'index.html', date: '', when: esc(r.p.name), what: esc(cut(r.n.title || r.n.headline || '', 80)), where: '' })
+            return { '#week': many('week', tk), '#week_again': many('week', tk.map(w => ({ ...w, tab: ' tabindex="-1"' }))) } })(),
+        places_intro: esc(PL.copy?.home_places_intro || ''),
+        '#places': many('place', PR.map(r => ({ href: r.p.path + 'index.html', name: esc(r.p.name), counts: `${r.news} · ${r.map}`, newest: r.a ? put(item('pnew'), { href: r.a.rel, title: esc(cut(r.a.meta.title, 70)) }) : '' }))),
         '#briefing': many('brief', homeModel(ctx).briefing.map(x => ({ href: x.href, title: x.title, beat: x.beat }))),  // the correspondent's five (front-page.json 'briefing'), else the next five
         '#stories': all.slice(1, 5).map(story).join(''),
         '#next': many('next', next.map(i => ({ href: `events/${i.id}/index.html`, date: i.date, end: endOf(i), when: esc(when(ctx, i)), what: esc(cut(i.what, 110)), where: esc(i.where || '') }))),
         '#radar': many('radar', fields.slice(0, 6).map(([t, n]) => ({ href: `topics/${t.id}/index.html`, name: esc(t.name), n, pct: Math.round(100 * n / max) }))),
-        '#nums': many('num', [[ctx.store.companies.length, 'companies followed'], [week.length && [...Array(7).keys()].reduce((s, n) => s + itemsOn(plusDays(ctx.TODAY, n)).length, 0), 'events this week'], [signed, 'stories, signed'], ['9 to 12', 'November, Lisbon']].map(([value, label]) => ({ value, label }))),
-        '#asks': many('ask', ['Which AI agent companies are at Web Summit?', 'What is on Tuesday for security?', 'Portuguese startups raising money'].map(q => ({ q: encodeURIComponent(q), text: esc(q) }))),
+        '#nums': many('num', [[PR.length, 'Algarve places, an agent each'], [PR.reduce((s, r) => s + r.news, 0), 'local AI stories, sourced'], [PR.reduce((s, r) => s + r.map, 0), 'AI builders mapped'], [signed, 'stories, signed']].map(([value, label]) => ({ value, label }))),
+        '#asks': many('ask', ['AI companies in Faro', 'Who builds AI in Loulé?', 'Startups in the Algarve'].map(q => ({ q: encodeURIComponent(q), text: esc(q) }))),
     })
     return ''
 }

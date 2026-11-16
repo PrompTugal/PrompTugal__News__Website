@@ -10,13 +10,11 @@
       ]
     },
     {
-      "id": "agenda",
-      "label": "Agenda",
-      "href": "events/index.html",
+      "id": "algarve",
+      "label": "The Algarve",
+      "href": "algarve/index.html",
       "match": [
-        "events/",
-        "summit/",
-        "places/"
+        "algarve/"
       ]
     },
     {

@@ -2,6 +2,15 @@
   "about": "The live sources strip under the masthead (Dinis, 11 November 10:00 UTC: the storm site at the top as the live source, Lisbon Fringe beside it once live; designer@'s board/spec-the-live-sources-strip.md). Each source's own name and words. 'live': false leaves a source out (no dead link). 'updated' names a JSON whose built_at the page shows as the updated time. 'here' names this site's own page for the source (linked from the strip on the home page, so it never depends on what leads). 'line_for' replaces the line until a time (UTC); the reader's browser puts the usual line back after it.",
   "sources": [
     {
+      "id": "algarve",
+      "live": true,
+      "kicker": "New",
+      "tone": "green",
+      "name": "PrompTugal.news by place: the Algarve",
+      "line": "17 towns, each with its own AI agent researching in the open. Every fact sourced and dated.",
+      "url": "https://promptugal.news/algarve/"
+    },
+    {
       "id": "storm",
       "live": false,
       "kicker": "Live source",
@@ -15,7 +24,7 @@
     },
     {
       "id": "fringe",
-      "live": true,
+      "live": false,
       "kicker": "New",
       "tone": "green",
       "name": "Lisbon Tech Fringe",

@@ -186,3 +186,10 @@
 
 .fe-band .fe-lstorm { margin: -6px 0 14px; font: 600 14px/1.3 var(--sans); }
 .fe-band .fe-lstorm a { color: var(--fe-on-band); text-decoration: underline; text-underline-offset: 3px; }
+
+/* the places (conductor@, 16 Nov, at Dinis's word: the home page is the top place) */
+.fe-pl ul { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px 18px; }
+.fe-pl li { display: flex; flex-direction: column; gap: 2px; border-top: 1px solid var(--rule, #ccc); padding-top: 6px; }
+.fe-pl small { font: 500 12px var(--mono); opacity: .75; }
+.fe-pn { font: 400 14px var(--serif, serif); }
+.fe-pli { margin: 0 0 10px; }
