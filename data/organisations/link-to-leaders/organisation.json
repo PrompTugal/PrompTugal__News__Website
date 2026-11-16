@@ -7,7 +7,7 @@
   "names_as_listed": [
     "Link to Leaders"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Owner company name not extracted (NIPC  published on the page).",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Owner company name not extracted (NIPC  published on the page). Link to Leaders items are mostly bylined 'Link to Leaders'; no tech-specific reporter named. (read ).",
   "media": {
     "outlet_kind": "online",
     "places_covered": [
@@ -61,6 +61,11 @@
         "url": "https://linktoleaders.com/ficha-tecnica/",
         "read_at": "2026-11-16",
         "how": "ficha técnica read"
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126913 for 'Link To Leaders'. Outlet email column deliberately not recorded here."
       }
     ]
   },
@@ -69,6 +74,12 @@
       "url": "https://linktoleaders.com/ficha-tecnica/",
       "read_at": "2026-11-16",
       "how": "ficha técnica read",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126913 for 'Link To Leaders'. Outlet email column deliberately not recorded here.",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]

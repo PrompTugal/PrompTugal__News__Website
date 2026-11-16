@@ -7,7 +7,7 @@
   "names_as_listed": [
     "PÚBLICO"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Tech section (Enter) editor and bylines not read. ERC register not consulted. Personal-format addresses, if any, not recorded.",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Tech section (Enter) editor and bylines not read. ERC register not consulted. Personal-format addresses, if any, not recorded. PÚBLICO's tech desk composition (editor, Ciência/Digital reporters) not published on a ficha page found in this pass; only bylines seen on /tecnologia named.",
   "media": {
     "outlet_kind": "newspaper",
     "places_covered": [
@@ -53,6 +53,26 @@
           "read_at": "2026-11-16",
           "how": "named by the outlet itself on this page"
         }
+      },
+      {
+        "name": "Laura Ferreira",
+        "role": "Jornalista (PÚBLICO)",
+        "source": {
+          "url": "https://www.publico.pt/autor/laura-ferreira",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "technology (Público Enter section, bylined on tecnologia/enter articles)"
+      },
+      {
+        "name": "Sérgio Magno",
+        "role": "Jornalista (PÚBLICO)",
+        "source": {
+          "url": "https://www.publico.pt/autor/sergio-magno",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "technology (Público Enter section)"
       }
     ],
     "sources": [
@@ -65,6 +85,16 @@
         "url": "https://www.publico.pt/nos/contactos",
         "read_at": "2026-11-16",
         "how": "contacts page read"
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 114410 for 'Público'. Outlet email column deliberately not recorded here."
+      },
+      {
+        "url": "https://www.publico.pt/tecnologia",
+        "read_at": "2026-11-16",
+        "how": "Tecnologia section page: byline links to author pages (read 16 Nov 2026)."
       }
     ]
   },
@@ -79,6 +109,18 @@
       "url": "https://www.publico.pt/nos/contactos",
       "read_at": "2026-11-16",
       "how": "contacts page read",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 114410 for 'Público'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.publico.pt/tecnologia",
+      "read_at": "2026-11-16",
+      "how": "Tecnologia section page: byline links to author pages (read 16 Nov 2026).",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]

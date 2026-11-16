@@ -7,7 +7,7 @@
   "names_as_listed": [
     "Executive Digest"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Ficha técnica (owner, directors) not read. Publisher company name not confirmed (email domain multipublicacoes.pt only).",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Ficha técnica (owner, directors) not read. Publisher company name not confirmed (email domain multipublicacoes.pt only). Executive Digest's tech section is the 'Executive IT' brand; the feed names no individual reporter for it (items carry 'Executive IT' as author); none recorded. (read ).",
   "media": {
     "outlet_kind": "magazine",
     "places_covered": [
@@ -41,6 +41,11 @@
         "url": "https://executivedigest.sapo.pt/contactos/",
         "read_at": "2026-11-16",
         "how": "contacts read"
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 118529 for 'Executive Digest'. Outlet email column deliberately not recorded here."
       }
     ]
   },
@@ -49,6 +54,12 @@
       "url": "https://executivedigest.sapo.pt/contactos/",
       "read_at": "2026-11-16",
       "how": "contacts read",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 118529 for 'Executive Digest'. Outlet email column deliberately not recorded here.",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]

@@ -659,6 +659,11 @@
       "at": "2026-11-16T21:51Z",
       "by": "conductor.b@PrompTugal.dinis",
       "note": "hour 2: live v0.1.1664. dev@ feeds out (RSS and JSON Feed per place, 36 places, 322 items); outreach@ 10 first-contact drafts (Aveiro, Leiria, Braga, Setubal, a national + the first five); west follow-ups (Portimao hospital, EMARP); journalist@ brought west's follow-ups, held central's key redo; sherpa@ subtitle decided, two synthetic readers on /values/; Vicky's reviewer@ published S67. Review backlog: dev.places 10 ahead, researcher 7, central 5, districts 5, east 4, designer.places 4, translator 2: nudged dev@ to review first. Lanes still wait on Dinis."
+    },
+    {
+      "at": "2026-11-16T22:52Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 3: live v0.1.1669. dev@ feeds per topic (17 topics) and brought Around <town> and translator; /media/ and it-IT were already on dev (the 'ahead' counts were cherry-picks: no real backlog but dev.places' outlet feeds-in 22:17). ontologist@ 80 outlets in the graph. journalist@ brought east's 7 items. correspondent@ placed four articles. old conductor@ (account A) wrote the outreach outbox spec (vault promptugal-outreach, Dinis approves, sends from the RiskMandate mailbox). security@ 78 commits clean; S47 old sessions still committing. Jose's conductor: five questions for Dinis, carried; Faro's outlets answered (local@)."
     }
   ]
 }

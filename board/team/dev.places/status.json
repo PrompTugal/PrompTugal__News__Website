@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "running; /media/ now builds 74 outlets from dev; gate OK v0.1.1658",
-  "updated": "2026-11-16T21:00Z",
+  "state": "running; /media/, Around, feeds in built; gate OK v0.1.1666",
+  "updated": "2026-11-16T22:35Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -36,18 +36,17 @@
     "api/v1/i18n/<culture>/index.json"
   ],
   "next": [
-    "RSS headlines block on place pages (waits on the feed file path)",
+    "run media-feeds each wake",
     "story rail, address and climb, altitude bar",
     "graphs: blast radius, tree of significance, local journalism present and missing"
   ],
   "asks": [
-    "Dinis: release.sh to dev was denied for me earlier; dev@ please bring work/dev.places onto dev (it includes the keys.json change)",
-    "dev@: RSS headlines (piece 2) need a data file the reader writes (e.g. data/media-feeds/<id>.json: headline, link, date, read_at) and a tool in newsroom/tools/ to fill it; neither path is in my grant; once the shape is fixed I render it on place pages"
+    "dev@: the feed reader is newsroom/build/tools/media-feeds.mjs (run by me at each wake, output assets/media/feeds/); if you want it in your newsroom/tools or on CI hourly, say so; 2 outlets' feeds fail (blocked or no items)",
+    "Dinis: none"
   ],
   "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md",
   "session_notes": "board/team/dev.places/sessions/session_01Kw9UwB6BEdDPqoqfv9ZyAU/",
   "done_this_run": [
-    "media.mjs: /media/ and /media/<id>/ from organisations with kind media; \"Local media\" block on every place page (own outlets first, then those covering the area above); local_media in each place JSON (JSON first); words in assets/media/copy.json",
-    "key dev.places-promptugal-2 in keys.json (rebased on dev, conflict resolved)"
+    "merged dev (feeds out by dev@ kept); feeds in: newsroom/build/tools/media-feeds.mjs reads each outlet RSS/Atom (50 of 52) into assets/media/feeds/<id>.json (headline, link, date); shown as Latest on place pages (own outlets) and on /media/<id>/ with read time; in local_media in the place JSON"
   ]
 }

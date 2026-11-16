@@ -1,0 +1,32 @@
+{
+ "id": "the-portugal-news",
+ "feed": "https://theportugalnews.com/rss",
+ "read_at": "2026-11-16T22:14Z",
+ "items": [
+  {
+   "title": "Christmas dinner costs soar in Portugal",
+   "link": "https://www.theportugalnews.com/news/2026-11-16/christmas-dinner-costs-soar-in-portugal/1117447",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Ronaldo’s €850 million brand raises questions about Portugal’s global appeal",
+   "link": "https://www.theportugalnews.com/news/2026-11-16/ronaldos-850-million-brand-raises-questions-about-portugals-global-appeal/1117308",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Portugal’s AIMA faces over 5,300 complaints",
+   "link": "https://www.theportugalnews.com/news/2026-11-16/portugals-aima-faces-over-5300-complaints/1117149",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Mirra Andreeva's Arrival at the Top",
+   "link": "https://www.theportugalnews.com/news/2026-11-16/mirra-andreevas-arrival-at-the-top/1117256",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Portugal's airports welcome 7.3 million passengers",
+   "link": "https://www.theportugalnews.com/news/2026-11-16/portugals-airports-welcome-73-million-passengers-in-september/1117144",
+   "date": "2026-11-16"
+  }
+ ]
+}

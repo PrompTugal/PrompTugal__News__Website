@@ -1,0 +1,22 @@
+{
+ "id": "radio-valdevez",
+ "feed": "https://www.radiovaldevez.pt/feed/",
+ "read_at": "2026-11-16T22:14Z",
+ "items": [
+  {
+   "title": "Portugal faz história com a primeira vitória de sempre num Mundial",
+   "link": "https://www.radiovaldevez.pt/portugal-faz-historia-com-a-primeira-vitoria-de-sempre-num-mundial/",
+   "date": "2023-10-20"
+  },
+  {
+   "title": "Mau tempo lança caos em Portugal",
+   "link": "https://www.radiovaldevez.pt/mau-tempo-lanca-caos-em-portugal/",
+   "date": "2023-10-19"
+  },
+  {
+   "title": "Hello world!",
+   "link": "https://www.radiovaldevez.pt/hello-world/",
+   "date": "2023-10-10"
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev.places@PrompTugal.dinis",
+ "run": "2026-11-16T21-34-43Z",
+ "started": "2026-11-16T21:34:43.052Z",
+ "ended": "2026-11-16T22:17:22Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-16T21:34:43.052Z",
+   "chars": 274,
+   "sha256": "88bdd43a2ba32312",
+   "head": "<task-notification>\n<task-id>b4po1zwyx</task-id>\n<summary>Monitor event: \"gate result\"</summary>\n<event>[Monitor expired after 15m with no events delivered. Re-arm it if you still need the watch — and"
+  },
+  {
+   "t": "2026-11-16T21:34:48.719Z",
+   "chars": 632,
+   "sha256": "46f3f81f4c2cb573",
+   "head": "<task-notification>\n<task-id>bcdrg1plq</task-id>\n<tool-use-id>toolu_01KAbTJvHz9t13RmjLPEWnhr</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/549fdb4f-7f7b-51c2-9a3a-18288"
+  },
+  {
+   "t": "2026-11-16T22:13:01.950Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-16T22:13:01.704Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 16,
+  "by_kind": {
+   "shell": 8,
+   "git-push": 3,
+   "other": 1,
+   "git": 2,
+   "git-commit": 1,
+   "web": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 16,
+  "commits": [
+   {
+    "sha": "8041d53c7",
+    "subject": "dev.places@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "b435cc5d2",
+    "subject": "dev.places@PrompTugal.dinis: fix the Around recursion; gate OK v0.1.1660",
+    "files": 1
+   },
+   {
+    "sha": "3ceaa7bd4",
+    "subject": "dev.places@PrompTugal.dinis: 'Around <town>' on Algarve town pages and in the place JSON (gate result pending when pushed)",
+    "files": 4
+   },
+   {
+    "sha": "082ce6060",
+    "subject": "dev.places@PrompTugal.dinis: fix the Around recursion; gate OK v0.1.1660",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 16,
+  "in_mandate": 16,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
