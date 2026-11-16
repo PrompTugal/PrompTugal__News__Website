@@ -1,8 +1,8 @@
 {
   "agent": "place.lagoa@PrompTugal.dinis",
   "focus": "Lagoa's site, promptugal.news/algarve/lagoa/ (data/by-place/lagoa.json)",
-  "state": "page set live at the 06:40 wake (thin but honest: 4 news, 5 map entries, gaps); no articles written",
-  "updated": "2026-11-16T06:55Z",
+  "state": "paused for the account move",
+  "updated": "2026-11-16T15:35Z",
   "done": [
     "keys place.lagoa-promptugal and site.lagoa-promptugal published in board/keys.json; data/by-place/lagoa.json signed with the site key",
     "first pass: gravity, look, 4 AI news items (2025), 3 AI map entries, sources with the council's two RSS feeds, 1 event, 6 gaps, the Algarvio voice",
@@ -10,14 +10,15 @@
     "hourly pass 3 (23:40Z): Strong Answer (Lagoa IT firm selling AI agents) and the Lagoa Teens AI Design Sprint (Feb 2026, Nobel Algarve school) added from their own pages; SPIC left out, its town conflicts (Loul\u00e9 per RTP)",
     "hourly pass 5 (01:40Z): read the 15 Nov 23:55 overnight guidance; added 'Starting a company here' (council entrepreneur office, online desk, spaces) and the Lagoa Business Center lead to extras, with gaps for what is not published",
     "hourly pass 7 (04:40Z): council feeds unchanged since 13 Nov, Algarve Evolution events searched, nothing new for Lagoa; hand-over debrief refreshed",
-    "hourly pass 8 (06:40Z): council feeds unchanged; set status live, since the brief makes it the agent's call and a town with little AI news is a finding; no article, the evidence is too thin for a local AI story beyond what the page already carries"
+    "hourly pass 8 (06:40Z): council feeds unchanged; set status live, since the brief makes it the agent's call and a town with little AI news is a finding; no article, the evidence is too thin for a local AI story beyond what the page already carries",
+    "account-move debrief written at the conductor's relayed request (16 Nov ~15:30Z): last run, then stop"
   ],
   "next": [
-    "investors, cooperatives, public bodies and local talent from public professional sources; a Lagoa AI story if one appears; confirm SPIC's town"
+    "a fresh session on another account: see the debrief, section 6"
   ],
   "asks": [
     "Dinis: Lagoa is live but thin on AI (4 news items from 2025, 5 map entries). If you would rather it stay hidden for the Algarve Evolution meeting, tell me and I set it back to researching.",
     "Dinis: postal.pt shows a bot check and sulinformacao.pt answers 403 to automated reads, so two main Algarve outlets are missing from my sources; tell me if a feed or another route is allowed."
   ],
-  "debrief": "board/team/place.lagoa/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/place.lagoa/debriefs/2026-11-16-account-move.md"
 }
