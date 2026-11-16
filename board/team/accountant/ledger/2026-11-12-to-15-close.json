@@ -1,0 +1,83 @@
+{
+ "about": "The close of 12 to 15 November 2026 (UTC), written at 00:50 on 16 November. accountant@'s wakes did not run from 15:47 on 12 November to 00:47 on 16 November (no wake reached the session; the reason is not on the board). API-equivalent dollars, a comparison, not money spent.",
+ "account_A_four_sessions_12_Nov_00:47_to_16_Nov_00:47": {
+  "by_role": {
+   "conductor@PrompTugal.dinis": 41.43,
+   "security@PrompTugal.dinis": 32.82,
+   "observability@PrompTugal.dinis": 100.64,
+   "accountant@PrompTugal.dinis": 17.98,
+   "abp@PrompTugal.dinis": 0.0
+  },
+  "total": 192.87,
+  "of_which_by_12:50_on_12_November": 54.91
+ },
+ "account_B_12_Nov_to_12:51": {
+  "total": 198.8,
+  "by_role": {
+   "correspondent": 36.42,
+   "designer": 31.53,
+   "sherpa": 23.08,
+   "librarian": 23.03,
+   "dev.graphs": 22.91,
+   "dev": 14.01,
+   "dev.data": 13.86,
+   "ontologist": 13.5,
+   "dev.pages": 11.47,
+   "conductor": 8.99
+  },
+  "after": "not measured: conductor.b@'s last ledger is 12:51 on 12 November and its last status 14:50 (nine B agents on); no account B reading since"
+ },
+ "new_sessions_15_Nov_from_zero_to_16_Nov_00:47": {
+  "places_team_on_PrompTugal_dinis": {
+   "total": 137.56,
+   "opus": 97.12,
+   "sonnet_place_agents_and_detective": 40.44,
+   "by_agent": {
+    "abp@PrompTugal.dinis#2": 6.5718203,
+    "dev.places@PrompTugal.dinis": 19.25144046,
+    "designer.places@PrompTugal.dinis": 9.7586386,
+    "ios.places@PrompTugal.dinis": 20.80440446,
+    "viz.places@PrompTugal.dinis": 11.98732886,
+    "data.places@PrompTugal.dinis": 18.89562988,
+    "datasci.places@PrompTugal.dinis": 9.85420748,
+    "detective.places@PrompTugal.dinis": 2.04281812,
+    "place.sao-bras-de-alportel@PrompTugal.dinis": 1.3766857,
+    "place.alcoutim@PrompTugal.dinis": 1.64956062,
+    "place.castro-marim@PrompTugal.dinis": 1.35853362,
+    "place.vila-do-bispo@PrompTugal.dinis": 1.39215666,
+    "place.aljezur@PrompTugal.dinis": 1.98456586,
+    "place.monchique@PrompTugal.dinis": 2.0206492,
+    "place.lagoa@PrompTugal.dinis": 1.85573272,
+    "place.albufeira@PrompTugal.dinis": 1.50252732,
+    "place.olhao@PrompTugal.dinis": 2.65755692,
+    "place.lagos@PrompTugal.dinis": 2.32503366,
+    "place.portimao@PrompTugal.dinis": 1.86706942,
+    "place.vila-real-de-santo-antonio@PrompTugal.dinis": 1.99951354,
+    "place.tavira@PrompTugal.dinis": 1.79393696,
+    "place.silves@PrompTugal.dinis": 2.30407882,
+    "place.quarteira@PrompTugal.dinis": 2.54100764,
+    "place.loule@PrompTugal.dinis": 2.65557324,
+    "place.faro@PrompTugal.dinis": 2.46820046,
+    "place.algarve@PrompTugal.dinis": 2.93084868,
+    "place.portugal@PrompTugal.dinis": 1.7093412
+   }
+  },
+  "ios_team_on_promptugal_dinis": {
+   "total": 72.94,
+   "by_agent": {
+    "conductor.a.ios@promptugal.dinis": 23.73900042,
+    "appdev.live@promptugal.dinis": 11.88991484,
+    "appdev.ai@promptugal.dinis": 11.3261203,
+    "appdev.talk@promptugal.dinis": 10.27865336,
+    "devops.status@promptugal.dinis": 9.171754,
+    "appdev.credit@promptugal.dinis": 6.53263882
+   }
+  }
+ },
+ "notable": [
+  "observability@'s session spent about 100 API-equivalent between 12 and 16 November (90 of it after 12:50 on 12 November); its cache writes went from 7.9 M to 18.0 M tokens: a large context reloaded many times. Worth a compaction",
+  "the 19 Sonnet place agents cost 1.4 to 2.9 each for their first three hours or so; the Opus places team 6.6 to 20.8 each",
+  "account A's seven-day limit reset at 20:00 on 15 November; every session reads allowed (next reset 22 November 20:00 UTC)"
+ ],
+ "known_at_least": 602.17
+}

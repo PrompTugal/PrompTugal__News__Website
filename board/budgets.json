@@ -2,7 +2,7 @@
  "about": "The budgets of PrompTugal.news: per agent per day, per pass, per loop, kept by accountant@PrompTugal.dinis. Confirmed by Dinis at about 10:15 UTC as a measure; never a reason to stop an agent (about 10:10). Every dollar figure here is API-equivalent: the team runs on a Claude subscription, so it compares runs and agents and is not money spent. Real limits: the subscription's usage limits and the OpenRouter credit (below). Schema: data/schemas/budgets.schema.json (ontologist@).",
  "by": "accountant@PrompTugal.dinis",
  "written": "2026-11-06T03:50Z",
- "updated": "2026-11-12T12:50Z",
+ "updated": "2026-11-16T00:55Z",
  "issue": "WS-177",
  "units": {
   "day": "the UTC day, 00:00 to 24:00; every per_day budget starts again at 00:00 UTC",
@@ -23,20 +23,16 @@
  "team": {
   "per_day": {
    "releases": 236,
-   "usd": 500
+   "usd": 900
   },
   "spent_today": {
-   "releases": 77,
-   "usd": 213.44,
-   "read_at": "2026-11-12T12:50Z",
-   "usd_by_account": {
-    "A": 54.91,
-    "B": 158.53
-   }
+   "releases": 0,
+   "usd": 0,
+   "read_at": "2026-11-16T00:50Z"
   },
   "state": "ok",
-  "used": 0.43,
-  "rate": "API-equivalent, 2026-11-12: 213.44 by 12:50 (A 54.91, B 158.53); 42.27 since the reading before"
+  "used": 0.0,
+  "rate": "new day (16 November); the places team (27 sessions) and the iOS team (6) on account A from 15 November; the team line raised from 500 to 900 to hold them (accountant@, a PT decision: a measure, not a stop)"
  },
  "agents": [
   {
@@ -47,16 +43,12 @@
     "output_tokens": 600000
    },
    "spent_today": {
-    "releases": 3,
-    "usd": 18.88,
-    "output_tokens": 15391,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 10.54,
-     "B": 8.34
-    }
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
    },
-   "used": 0.38,
+   "used": 0.0,
    "state": "ok",
    "why": "one release per hourly wake; it opens and closes every pass; account A: stays (board/the-account-move.md)",
    "yesterday_usd": 90.75
@@ -70,13 +62,9 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 0.0
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
    "used": 0.0,
    "state": "ok",
@@ -91,16 +79,12 @@
     "output_tokens": 700000
    },
    "spent_today": {
-    "releases": 3,
-    "usd": 23.5,
+    "releases": 0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 23.5
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
-   "used": 0.47,
+   "used": 0.0,
    "state": "ok",
    "why": "eight pass rounds today (3, 3 and 2) and its own line; account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/",
    "yesterday_usd": 75.92
@@ -113,16 +97,12 @@
     "output_tokens": 700000
    },
    "spent_today": {
-    "releases": 13,
-    "usd": 12.52,
+    "releases": 0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 12.52
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
-   "used": 0.21,
+   "used": 0.0,
    "state": "ok",
    "why": "account B since about 22:40 UTC on 6 November (Dinis: all of development moves to account B)",
    "yesterday_usd": 75.1
@@ -136,13 +116,9 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 0.0
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
    "used": 0.0,
    "state": "ok",
@@ -157,16 +133,12 @@
     "output_tokens": 400000
    },
    "spent_today": {
-    "releases": 5,
-    "usd": 10.44,
+    "releases": 0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 10.44
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
-   "used": 0.35,
+   "used": 0.0,
    "state": "ok",
    "why": "side effect seen: it stopped for the day on its budget before Dinis's 10:10 word; the conductor nudged it back; account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/",
    "yesterday_usd": 45.1
@@ -180,13 +152,9 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 0.0
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
    "used": 0.0,
    "state": "ok",
@@ -202,15 +170,11 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 10.2,
-    "output_tokens": 3157,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 10.2,
-     "B": 0
-    }
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
    },
-   "used": 0.34,
+   "used": 0.0,
    "state": "ok",
    "why": "account A: stays (board/the-account-move.md)",
    "yesterday_usd": 37.96
@@ -224,13 +188,9 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 0.0
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
    "used": 0.0,
    "state": "ok",
@@ -245,16 +205,12 @@
     "output_tokens": 600000
    },
    "spent_today": {
-    "releases": 7,
-    "usd": 27.13,
+    "releases": 0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 27.13
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
-   "used": 0.68,
+   "used": 0.0,
    "state": "ok",
    "why": "every two hours; its beat correspondents run as sub-agents inside its session, so their spend is inside its own figure; account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/",
    "yesterday_usd": 45.15
@@ -267,16 +223,12 @@
     "output_tokens": 400000
    },
    "spent_today": {
-    "releases": 5,
-    "usd": 19.96,
-    "output_tokens": 18241,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 19.96,
-     "B": 0
-    }
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
    },
-   "used": 0.67,
+   "used": 0.0,
    "state": "ok",
    "why": "account A: stays (board/the-account-move.md)",
    "yesterday_usd": 104.16
@@ -289,16 +241,12 @@
     "output_tokens": 350000
    },
    "spent_today": {
-    "releases": 5,
-    "usd": 18.11,
+    "releases": 0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 18.11
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
-   "used": 0.72,
+   "used": 0.0,
    "state": "ok",
    "why": "three pass reviews and eight round re-reviews; account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/",
    "yesterday_usd": 28.37
@@ -311,18 +259,14 @@
     "output_tokens": 250000
    },
    "spent_today": {
-    "releases": 3,
-    "usd": 18.66,
+    "releases": 0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 18.66
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
-   "used": 1.24,
-   "state": "warn",
-   "why": "account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/; OVER at 12:50 UTC on usd (used 1.24); keeps working (capture, not block)",
+   "used": 0.0,
+   "state": "ok",
+   "why": "account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/",
    "yesterday_usd": 47.14
   },
   {
@@ -334,13 +278,9 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 0.0
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
    "used": 0.0,
    "state": "ok",
@@ -355,18 +295,14 @@
     "output_tokens": 200000
    },
    "spent_today": {
-    "releases": 2,
-    "usd": 14.21,
-    "output_tokens": 13476,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 14.21,
-     "B": 0
-    }
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
    },
-   "used": 1.42,
-   "state": "warn",
-   "why": "account A: stays (board/the-account-move.md); OVER at 12:50 UTC on usd (used 1.42); keeps working (capture, not block)",
+   "used": 0.0,
+   "state": "ok",
+   "why": "account A: stays (board/the-account-move.md)",
    "yesterday_usd": 37.32
   },
   {
@@ -378,13 +314,9 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0.0,
-     "B": 0
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
    "used": 0.0,
    "state": "ok",
@@ -400,13 +332,9 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 0.0
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
    "used": 0.0,
    "state": "ok",
@@ -422,13 +350,9 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 0.0
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
    "used": 0.0,
    "state": "ok",
@@ -444,13 +368,9 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 0.0
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
    "used": 0.0,
    "state": "ok",
@@ -466,13 +386,9 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 0.0
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
    "used": 0.0,
    "state": "ok",
@@ -488,16 +404,12 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 9.28,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 9.28
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
-   "used": 0.93,
-   "state": "warn",
+   "used": 0.0,
+   "state": "ok",
    "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake; account B since about 22:40 UTC on 6 November (Dinis: all of development moves to account B)",
    "yesterday_usd": 10.32
   },
@@ -510,17 +422,13 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 17.86,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 17.86
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
-   "used": 1.79,
-   "state": "warn",
-   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake; account B since about 22:40 UTC on 6 November (Dinis: all of development moves to account B); OVER at 12:50 UTC on usd (used 1.79); keeps working (capture, not block)",
+   "used": 0.0,
+   "state": "ok",
+   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake; account B since about 22:40 UTC on 6 November (Dinis: all of development moves to account B)",
    "yesterday_usd": 14.67
   },
   {
@@ -532,13 +440,9 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 0.0
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
    "used": 0.0,
    "state": "ok",
@@ -554,17 +458,13 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 12.69,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 12.69
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
-   "used": 1.27,
-   "state": "warn",
-   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake; account B since about 22:40 UTC on 6 November (Dinis: all of development moves to account B); OVER at 12:50 UTC on usd (used 1.27); keeps working (capture, not block)",
+   "used": 0.0,
+   "state": "ok",
+   "why": "sonnet; a dotted worker; budget set at 06:50 UTC, first seen this wake; account B since about 22:40 UTC on 6 November (Dinis: all of development moves to account B)",
    "yesterday_usd": 6.38
   },
   {
@@ -576,13 +476,9 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 0.0
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
    "used": 0.0,
    "state": "ok",
@@ -598,13 +494,9 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 0.0
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
    "used": 0.0,
    "state": "ok",
@@ -620,18 +512,456 @@
    },
    "spent_today": {
     "releases": 0,
-    "usd": 0.0,
+    "usd": 0,
     "output_tokens": 0,
-    "read_at": "2026-11-12T12:50Z",
-    "usd_by_account": {
-     "A": 0,
-     "B": 0.0
-    }
+    "read_at": "2026-11-16T00:50Z"
    },
    "used": 0.0,
    "state": "ok",
    "why": "Opus, every three hours; started by Dinis at 20:02 UTC; budget set at 21:55; account B: handed over and stopped on account A at about 21:25 UTC (board/the-account-move.md); its account B spend is read by conductor.b@ into board/team/conductor.b/ledger/",
    "yesterday_usd": 4.68
+  },
+  {
+   "agent": "dev.places@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 30,
+    "output_tokens": 300000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Opus; captured, never a stop"
+  },
+  {
+   "agent": "designer.places@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 30,
+    "output_tokens": 300000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Opus; captured, never a stop"
+  },
+  {
+   "agent": "ios.places@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 30,
+    "output_tokens": 300000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Opus; captured, never a stop"
+  },
+  {
+   "agent": "viz.places@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 30,
+    "output_tokens": 300000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Opus; captured, never a stop"
+  },
+  {
+   "agent": "data.places@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 30,
+    "output_tokens": 300000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Opus; captured, never a stop"
+  },
+  {
+   "agent": "datasci.places@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 30,
+    "output_tokens": 300000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Opus; captured, never a stop"
+  },
+  {
+   "agent": "detective.places@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 10,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.alcoutim@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.castro-marim@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.vila-do-bispo@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.aljezur@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.monchique@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.lagoa@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.albufeira@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.olhao@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.lagos@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.portimao@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.tavira@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.silves@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.quarteira@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.loule@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.faro@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.algarve@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
+  },
+  {
+   "agent": "place.portugal@PrompTugal.dinis",
+   "per_day": {
+    "releases": 24,
+    "usd": 8,
+    "output_tokens": 200000
+   },
+   "spent_today": {
+    "releases": 0,
+    "usd": 0,
+    "output_tokens": 0,
+    "read_at": "2026-11-16T00:50Z"
+   },
+   "used": 0.0,
+   "state": "ok",
+   "why": "from 16 November (accountant@'s line, a PT decision): Sonnet, hourly; captured, never a stop"
   }
  ],
  "passes": [
@@ -1290,12 +1620,12 @@
   "measured": "not yet: the accountant has no reading of vault sizes; asked of backup@ and observability@ for one number a day"
  },
  "real_limits": {
-  "read_at": "2026-11-12T12:50Z",
+  "read_at": "2026-11-16T00:50Z",
   "subscription": {
    "A": {
     "rate_limit_type": "seven_day",
-    "status": "allowed in every account A session at 12:48 on 12 November",
-    "resets": "2026-11-15T20:00Z"
+    "status": "allowed in every session read at 00:48 on 16 November",
+    "resets": "2026-11-22T20:00Z"
    },
    "B": {
     "status": "not read this wake",
@@ -1383,70 +1713,178 @@
     "conductor",
     "security",
     "observability",
-    "accountant"
+    "accountant",
+    "abp (new session 15 November)",
+    "the places team: dev.places, designer.places, data.places, datasci.places, viz.places, ios.places, detective.places and 19 place agents",
+    "the iOS team: conductor.a.ios and 5 workers (ios_team)"
    ],
    "measured_by": "accountant@ (get_session on account A)",
    "also_on_this_account": "the Web Summit team's sessions (gamma-ray@ and its five gamma.* workers, gamma.studio@, social.watch@, devops.ios@, security.repos@) and the Android team (conductor.android@ and its workers) share account A's subscription limit; they are conductor@web-summit.dinis's and conductor.android@'s to budget, not this file's"
   },
   "B": {
-   "agents": "after THE BIG STOP (23:49 on 9 November) everything paused but conductor.b@; dev@ and dev.pages@ restarted hourly at Dinis's 05:45 word on 10 November; the rest as conductor.b@'s account-b.json says",
+   "agents": "unknown since 12 November 14:50: conductor.b@ has written nothing since; no reading",
    "measured_by": "conductor.b@ into board/team/conductor.b/ledger/ (accountant@ cannot read account B's sessions); accountant@ folds it into the team's day when it is there"
   },
   "budgets": "one line per role whatever its account; the subscription limit is per account, so each account's real limit is watched separately"
  },
- "day": "2026-11-12",
+ "day": "2026-11-16",
  "baseline": {
   "read_at": {
-   "A": "2026-11-12T00:50Z",
-   "B": "2026-11-11T21:55Z"
+   "A": "2026-11-16T00:48Z",
+   "B": "2026-11-12T12:51Z"
   },
-  "about": "Account A at the closing reading; account B from conductor.b@'s last ledger before it.",
+  "about": "Every account A PrompTugal session's cumulative figure at about 00:48 on 16 November (abp@'s new session as abp@PrompTugal.dinis#2); account B's last ledger (12:51 on 12 November), no B reading since. The iOS team is in ios_team.",
   "A": {
    "conductor@PrompTugal.dinis": {
-    "usd": 182.38410912,
-    "output_tokens": 943386
+    "usd": 223.81278858,
+    "output_tokens": 1138684
    },
    "security@PrompTugal.dinis": {
-    "usd": 212.00858102,
-    "output_tokens": 736628
-   },
-   "abp@PrompTugal.dinis": {
-    "usd": 73.30073118,
-    "output_tokens": 232294
+    "usd": 244.83202514,
+    "output_tokens": 776453
    },
    "observability@PrompTugal.dinis": {
-    "usd": 97.09203182,
-    "output_tokens": 284523
+    "usd": 197.7275137,
+    "output_tokens": 312157
    },
    "accountant@PrompTugal.dinis": {
-    "usd": 128.91613886,
-    "output_tokens": 282404
+    "usd": 146.90013184,
+    "output_tokens": 298440
+   },
+   "abp@PrompTugal.dinis": {
+    "usd": 79.87255148,
+    "output_tokens": 304503,
+    "note": "the old session (73.30, idle since 8 November) plus the new one of 15 November; read both and add"
+   },
+   "dev.places@PrompTugal.dinis": {
+    "usd": 19.25144046,
+    "output_tokens": 142396
+   },
+   "designer.places@PrompTugal.dinis": {
+    "usd": 9.7586386,
+    "output_tokens": 93363
+   },
+   "ios.places@PrompTugal.dinis": {
+    "usd": 20.80440446,
+    "output_tokens": 192745
+   },
+   "viz.places@PrompTugal.dinis": {
+    "usd": 11.98732886,
+    "output_tokens": 139715
+   },
+   "data.places@PrompTugal.dinis": {
+    "usd": 18.89562988,
+    "output_tokens": 196197
+   },
+   "datasci.places@PrompTugal.dinis": {
+    "usd": 9.85420748,
+    "output_tokens": 100933
+   },
+   "detective.places@PrompTugal.dinis": {
+    "usd": 2.04281812,
+    "output_tokens": 58279
+   },
+   "place.sao-bras-de-alportel@PrompTugal.dinis": {
+    "usd": 1.3766857,
+    "output_tokens": 60686
+   },
+   "place.alcoutim@PrompTugal.dinis": {
+    "usd": 1.64956062,
+    "output_tokens": 61551
+   },
+   "place.castro-marim@PrompTugal.dinis": {
+    "usd": 1.35853362,
+    "output_tokens": 52051
+   },
+   "place.vila-do-bispo@PrompTugal.dinis": {
+    "usd": 1.39215666,
+    "output_tokens": 47850
+   },
+   "place.aljezur@PrompTugal.dinis": {
+    "usd": 1.98456586,
+    "output_tokens": 73536
+   },
+   "place.monchique@PrompTugal.dinis": {
+    "usd": 2.0206492,
+    "output_tokens": 71573
+   },
+   "place.lagoa@PrompTugal.dinis": {
+    "usd": 1.85573272,
+    "output_tokens": 64843
+   },
+   "place.albufeira@PrompTugal.dinis": {
+    "usd": 1.50252732,
+    "output_tokens": 60058
+   },
+   "place.olhao@PrompTugal.dinis": {
+    "usd": 2.65755692,
+    "output_tokens": 67639
+   },
+   "place.lagos@PrompTugal.dinis": {
+    "usd": 2.32503366,
+    "output_tokens": 75136
+   },
+   "place.portimao@PrompTugal.dinis": {
+    "usd": 1.86706942,
+    "output_tokens": 69532
+   },
+   "place.vila-real-de-santo-antonio@PrompTugal.dinis": {
+    "usd": 1.99951354,
+    "output_tokens": 73998
+   },
+   "place.tavira@PrompTugal.dinis": {
+    "usd": 1.79393696,
+    "output_tokens": 48967
+   },
+   "place.silves@PrompTugal.dinis": {
+    "usd": 2.30407882,
+    "output_tokens": 85974
+   },
+   "place.quarteira@PrompTugal.dinis": {
+    "usd": 2.54100764,
+    "output_tokens": 64376
+   },
+   "place.loule@PrompTugal.dinis": {
+    "usd": 2.65557324,
+    "output_tokens": 91795
+   },
+   "place.faro@PrompTugal.dinis": {
+    "usd": 2.46820046,
+    "output_tokens": 114099
+   },
+   "place.algarve@PrompTugal.dinis": {
+    "usd": 2.93084868,
+    "output_tokens": 155308
+   },
+   "place.portugal@PrompTugal.dinis": {
+    "usd": 1.7093412,
+    "output_tokens": 71545
    }
   },
   "B": {
    "conductor": {
-    "usd": 164.17
+    "usd": 173.16
    },
    "librarian": {
-    "usd": 90.26
+    "usd": 113.29
    },
    "journalist": {
     "usd": 82.89
    },
    "correspondent": {
-    "usd": 120.87
+    "usd": 157.29
    },
    "synthetic": {
     "usd": 31.63
    },
    "designer": {
-    "usd": 162.25
+    "usd": 193.78
    },
    "designer.experiments": {
     "usd": 8.22
    },
    "ontologist": {
-    "usd": 207.14
+    "usd": 220.64
    },
    "devops": {
     "usd": 26.93
@@ -1455,7 +1893,7 @@
     "usd": 12.45
    },
    "sherpa": {
-    "usd": 100.89
+    "usd": 123.97
    },
    "investors": {
     "usd": 163.14
@@ -1473,22 +1911,22 @@
     "usd": 2.25
    },
    "dev": {
-    "usd": 131.22
+    "usd": 145.23
    },
    "dev.pages": {
-    "usd": 48.49
+    "usd": 59.96
    },
    "dev.search": {
     "usd": 5.94
    },
    "dev.graphs": {
-    "usd": 64.08
+    "usd": 86.99
    },
    "dev.portugal": {
     "usd": 11.18
    },
    "dev.data": {
-    "usd": 75.08
+    "usd": 88.94
    },
    "dev.verify": {
     "usd": 13.09
@@ -1500,15 +1938,13 @@
     "usd": 3.69
    }
   },
-  "B_source": "board/team/conductor.b/ledger/2026-11-11T2155Z.json"
+  "B_source": "board/team/conductor.b/ledger/2026-11-12T1251Z.json"
  },
  "yesterday": {
-  "day": "2026-11-11",
-  "file": "board/team/accountant/ledger/2026-11-11-close.json",
+  "day": "2026-11-12 to 2026-11-15",
+  "file": "board/team/accountant/ledger/2026-11-12-to-15-close.json",
   "total": {
-   "usd": 449.7,
-   "account_A": 97.6,
-   "account_B": 352.1
+   "known_at_least": 602.17
   }
  },
  "lines_for_2026-11-07": {
@@ -1553,5 +1989,48 @@
  "lines_for_2026-11-12": {
   "decided_by": "accountant@ as the owner (a PT decision)",
   "decision": "the same lines; nothing stops; overs recorded and judged at the summit's close"
+ },
+ "ios_team": {
+  "about": "conductor.a.ios@promptugal.dinis and its workers (PrompTugal__App__iOS), on account A from 15 November. Not in agents[] because their names are not @PrompTugal.dinis (the schema's pattern). Lines: conductor 50, each worker 20 a day, the same capture-not-block rule.",
+  "baseline_2026-11-16T00:48Z": {
+   "conductor.a.ios@promptugal.dinis": {
+    "usd": 23.73900042,
+    "output_tokens": 162077
+   },
+   "appdev.live@promptugal.dinis": {
+    "usd": 11.88991484,
+    "output_tokens": 131444
+   },
+   "appdev.ai@promptugal.dinis": {
+    "usd": 11.3261203,
+    "output_tokens": 132510
+   },
+   "appdev.talk@promptugal.dinis": {
+    "usd": 10.27865336,
+    "output_tokens": 111587
+   },
+   "devops.status@promptugal.dinis": {
+    "usd": 9.171754,
+    "output_tokens": 91384
+   },
+   "appdev.credit@promptugal.dinis": {
+    "usd": 6.53263882,
+    "output_tokens": 67303
+   }
+  },
+  "per_day_usd": {
+   "conductor.a.ios@promptugal.dinis": 50,
+   "*workers": 20
+  }
+ },
+ "lines_for_2026-11-16": {
+  "decided_by": "accountant@ as the owner (a PT decision), 00:55 UTC",
+  "decision": "the same lines for the old roles; new lines for the places team (Sonnet place agents 8, detective 10, Opus places roles 30) and the iOS team (conductor 50, workers 20); team line 900; nothing stops"
+ },
+ "billing": {
+  "about": "Dinis (15 November, about 23:55, relayed by conductor@web-summit.dinis, board/guidance/2026-11-16-positioning-collaborators-local-media-paid.md): 'api/v1/billing/meter.json is the one source of prices for the site and the app; nothing else states a price ... accountant@ keeps it'.",
+  "state": "the meter is built by newsroom/build/features/billing.mjs from data/billing/prices.json and data/billing/topup.json; those files are outside accountant@'s grant (ABP R6). Asked of Dinis: add data/billing/** to accountant@'s writes. Until then accountant@ reviews and does not edit; prices are Dinis's to set (money)",
+  "read_at": "2026-11-16T00:50Z",
+  "current": "start credit 500 (shown as GBP 5.00); an article 6 (fresh 12, new 9, archive 3), a company or topic 3, a story, event or index 2, a person, organisation, place, evidence, data or site page 1, account pages 0 (meter.json v0.1.1397)"
  }
 }
