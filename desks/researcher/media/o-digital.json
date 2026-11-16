@@ -1,0 +1,56 @@
+{
+ "id": "o-digital",
+ "type": "organisation",
+ "kind": "media",
+ "name": "ODigital",
+ "media_kind": "online",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://odigital.sapo.pt/",
+ "places_covered": [
+  {
+   "place": "Alentejo (Alto Alentejo, Alentejo Central, Baixo Alentejo, Alentejo Litoral sections); seat Vila Viçosa",
+   "source_url": "https://odigital.sapo.pt/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Calado Comunicação, Unipessoal, Lda (editor Hugo Miguel Ramalho Calado, per ERC)",
+  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "read_at": "2026-11-16"
+ },
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://odigital.sapo.pt/feed/",
+   "checked": "HTTP 200, application/rss+xml, RSS 2.0 body",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "people": [
+  {
+   "name": "Hugo Miguel Ramalho Calado",
+   "role": "Diretor and editor, as registered with ERC",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://odigital.sapo.pt/",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Home page and section menu."
+  },
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127226 for 'O Digital'. Outlet email column deliberately not recorded here."
+  }
+ ],
+ "gaps": [
+  "ficha técnica and contact page not located on the site",
+  "journalists: byline 'Hugo Calado' and 'Redacção' seen on the home page, no ficha técnica"
+ ]
+}

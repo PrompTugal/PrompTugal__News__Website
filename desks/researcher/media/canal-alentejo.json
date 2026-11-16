@@ -1,0 +1,49 @@
+{
+ "id": "canal-alentejo",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Canal Alentejo",
+ "media_kind": "online",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://canalalentejo.sapo.pt/",
+ "places_covered": [
+  {
+   "place": "Alentejo; seat Portalegre (Campus do Politécnico); regional daily, TV news online",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Talentos Delicados - Produção e Realização de Programas de Televisão Unipessoal, Lda",
+  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "read_at": "2026-11-16"
+ },
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://canalalentejo.sapo.pt/feed/",
+   "checked": "HTTP 200, application/rss+xml; charset=UTF-8, RSS 2.0 body",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "people": [
+  {
+   "name": "Carlos Alberto Camejo Papafina",
+   "role": "Diretor and editor, as registered with ERC",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127354 for 'Canal Alentejo'. Outlet email column deliberately not recorded here."
+  }
+ ],
+ "gaps": [
+  "site returned a bot-check page on the first fetch: ficha técnica and contact page not read"
+ ]
+}

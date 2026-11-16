@@ -1,47 +1,125 @@
 {
-  "id": "jornal-de-noticias",
-  "type": "organisation",
-  "kind": "media",
-  "name": "Jornal de Notícias",
-  "media_kind": "newspaper",
-  "reach": "national",
-  "language": "pt",
-  "website": "https://www.jn.pt/",
-  "places_covered": [
-    {
-      "place": "Porto / Grande Porto / Norte",
-      "source_url": "https://www.jn.pt/institucional/contactos",
-      "read_at": "2026-11-16"
-    }
-  ],
-  "names_as_listed": [
-    "JN"
-  ],
-  "contact_page_url": "https://www.jn.pt/institucional/contactos",
-  "public_contact": [
-    {
-      "channel": "Editorial desks: secdir@jn.pt (print), jn.online@jn.pt (online), locais@jn.pt (Grande Porto, Norte/Sul), published by the outlet as role addresses; Rua Monte dos Burgos 470, Porto",
-      "source_url": "https://www.jn.pt/institucional/contactos",
-      "read_at": "2026-11-16"
-    }
-  ],
-  "sources": [
-    {
-      "url": "https://www.jn.pt/institucional/contactos",
-      "read_at": "2026-11-16",
-      "by": "researcher@PrompTugal.dinis",
-      "how": "contact page; jn.pt returns 403 to some automated fetches but contact page read"
-    },
-    {
-      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-      "read_at": "2026-11-16",
-      "by": "researcher@PrompTugal.dinis",
-      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 104341 for 'Jornal de Notícias'. Outlet email column deliberately not recorded here."
-    }
-  ],
-  "gaps": [
-    "owner not stated on page read (advertising addresses use noticiasilimitadas.pt)",
-    "people: ficha técnica not read",
-    "RSS: /rss returned 403 to curl; not verified"
-  ]
+ "id": "jornal-de-noticias",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Jornal de Notícias",
+ "media_kind": "newspaper",
+ "reach": "national",
+ "language": "pt",
+ "website": "https://www.jn.pt/",
+ "places_covered": [
+  {
+   "place": "Porto / Grande Porto / Norte",
+   "source_url": "https://www.jn.pt/institucional/contactos",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "names_as_listed": [
+  "JN"
+ ],
+ "contact_page_url": "https://www.jn.pt/institucional/contactos",
+ "public_contact": [
+  {
+   "channel": "Editorial desks: secdir@jn.pt (print), jn.online@jn.pt (online), locais@jn.pt (Grande Porto, Norte/Sul), published by the outlet as role addresses; Rua Monte dos Burgos 470, Porto",
+   "source_url": "https://www.jn.pt/institucional/contactos",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.jn.pt/institucional/contactos",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "contact page; jn.pt returns 403 to some automated fetches but contact page read"
+  },
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 104341 for 'Jornal de Notícias'. Outlet email column deliberately not recorded here."
+  },
+  {
+   "url": "https://www.jn.pt/institucional/ficha-tecnica",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Ficha técnica: direction, section editors, owner and editor Notícias Ilimitadas, S.A., newsrooms in Porto and Lisbon. Only direction and section editors recorded; the full newsroom list is longer."
+  }
+ ],
+ "gaps": [
+  "owner not stated on page read (advertising addresses use noticiasilimitadas.pt)",
+  "people: ficha técnica not read",
+  "RSS: /rss returned 403 to curl; not verified",
+  "2026-11-16 amendment: direction, section editors and owner added from the ficha técnica; telephone numbers printed there not recorded; rest of the newsroom (reporters) not transcribed"
+ ],
+ "people": [
+  {
+   "name": "Inês Cardoso",
+   "role": "Diretora-Geral Editorial",
+   "source_url": "https://www.jn.pt/institucional/ficha-tecnica",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Rafael Barbosa",
+   "role": "Diretor",
+   "source_url": "https://www.jn.pt/institucional/ficha-tecnica",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Manuel Molinos",
+   "role": "Diretor Digital Editorial",
+   "source_url": "https://www.jn.pt/institucional/ficha-tecnica",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Pedro Ivo Carvalho",
+   "role": "Diretor-Adjunto",
+   "source_url": "https://www.jn.pt/institucional/ficha-tecnica",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Joana Almeida Silva",
+   "role": "Diretora-Adjunta",
+   "source_url": "https://www.jn.pt/institucional/ficha-tecnica",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Carla Sofia Luz",
+   "role": "Editora Executiva",
+   "source_url": "https://www.jn.pt/institucional/ficha-tecnica",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Alexandre Panda",
+   "role": "Editor, Atualidade (Nacional, Justiça e Cultura)",
+   "source_url": "https://www.jn.pt/institucional/ficha-tecnica",
+   "read_at": "2026-11-16",
+   "beat": "Atualidade (Nacional, Justiça e Cultura)"
+  },
+  {
+   "name": "José Miguel Gaspar",
+   "role": "Editor, Atualidade (Nacional, Justiça e Cultura)",
+   "source_url": "https://www.jn.pt/institucional/ficha-tecnica",
+   "read_at": "2026-11-16",
+   "beat": "Atualidade (Nacional, Justiça e Cultura)"
+  },
+  {
+   "name": "Hugo Silva",
+   "role": "Editor, Locais (Norte/Sul e Porto)",
+   "source_url": "https://www.jn.pt/institucional/ficha-tecnica",
+   "read_at": "2026-11-16",
+   "beat": "Locais (Norte/Sul e Porto)"
+  },
+  {
+   "name": "Adriano Rocha",
+   "role": "Editor-adjunto, Desporto",
+   "source_url": "https://www.jn.pt/institucional/ficha-tecnica",
+   "read_at": "2026-11-16",
+   "beat": "Desporto"
+  }
+ ],
+ "owner": {
+  "name": "Notícias Ilimitadas, S.A. (Porto); holder of 5% or more of capital: Verbos Imaculados Lda (100%)",
+  "source_url": "https://www.jn.pt/institucional/ficha-tecnica",
+  "read_at": "2026-11-16"
+ }
 }

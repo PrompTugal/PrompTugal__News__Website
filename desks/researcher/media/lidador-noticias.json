@@ -1,0 +1,82 @@
+{
+ "id": "lidador-noticias",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Lidador Notícias",
+ "media_kind": "online",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://lidadornoticias.pt/",
+ "places_covered": [
+  {
+   "place": "Beja (Baixo Alentejo); regional daily, general information",
+   "source_url": "https://lidadornoticias.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "António Teixeira Correia",
+  "source_url": "https://lidadornoticias.pt/ficha-tecnica/",
+  "read_at": "2026-11-16"
+ },
+ "contact_page_url": "https://lidadornoticias.pt/ficha-tecnica/",
+ "public_contact": [
+  {
+   "channel": "Generic address info@lidadornoticias.pt as published in the ficha técnica; Av. Comandante Ramiro Correia, 68 r/c esq., 7800-261 Beja",
+   "source_url": "https://lidadornoticias.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://lidadornoticias.pt/feed/",
+   "checked": "HTTP 200, application/rss+xml; charset=UTF-8, RSS 2.0 body",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "people": [
+  {
+   "name": "António Teixeira Correia",
+   "role": "Diretor and editor (owner)",
+   "source_url": "https://lidadornoticias.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Miguel Filipe Sabino Fialho",
+   "role": "Digital platform management and advertising",
+   "source_url": "https://lidadornoticias.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Ademar Martins Dias",
+   "role": "Opinion",
+   "source_url": "https://lidadornoticias.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Santiago Macias",
+   "role": "Opinion (columnist)",
+   "source_url": "https://lidadornoticias.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://lidadornoticias.pt/ficha-tecnica/",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Ficha técnica (ERC 127670, registered 25/11/2021)."
+  },
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127670 for 'Lidador Notícias'. Outlet email column deliberately not recorded here."
+  }
+ ],
+ "gaps": [
+  "a mobile number is printed in the ficha técnica: personal contact published, not recorded",
+  "no separate contact page located"
+ ]
+}

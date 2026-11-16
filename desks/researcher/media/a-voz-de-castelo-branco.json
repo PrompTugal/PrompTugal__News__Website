@@ -1,0 +1,64 @@
+{
+ "id": "a-voz-de-castelo-branco",
+ "type": "organisation",
+ "kind": "media",
+ "name": "A Voz de Castelo Branco",
+ "media_kind": "online",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://avozdecastelobranco.sapo.pt/",
+ "places_covered": [
+  {
+   "place": "Castelo Branco (Castelo Branco district); regional daily (working days), online",
+   "source_url": "https://avozdecastelobranco.sapo.pt/info-page/ficha-tecnica-1669635671-1673448816-1673448942-1673455106-1673534984-1728484510-1730730674",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Justpoetic, Lda (Rua Cidade Vila do Conde, 16 B, 7300-132 Portalegre)",
+  "source_url": "https://avozdecastelobranco.sapo.pt/info-page/ficha-tecnica-1669635671-1673448816-1673448942-1673455106-1673534984-1728484510-1730730674",
+  "read_at": "2026-11-16"
+ },
+ "public_contact": [
+  {
+   "channel": "Generic address info@avozdecastelobranco.pt as published in the ficha técnica; editorial office Av. do Empresário, 1, 6000-767 Castelo Branco",
+   "source_url": "https://avozdecastelobranco.sapo.pt/info-page/ficha-tecnica-1669635671-1673448816-1673448942-1673455106-1673534984-1728484510-1730730674",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://avozdecastelobranco.sapo.pt/feed/",
+   "checked": "HTTP 200, application/xml, RSS 2.0 body",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "people": [
+  {
+   "name": "Anjos Costa",
+   "role": "Diretor",
+   "source_url": "https://avozdecastelobranco.sapo.pt/info-page/ficha-tecnica-1669635671-1673448816-1673448942-1673455106-1673534984-1728484510-1730730674",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://avozdecastelobranco.sapo.pt/info-page/ficha-tecnica-1669635671-1673448816-1673448942-1673455106-1673534984-1728484510-1730730674",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Ficha técnica (director, owner/editor, seat, ERC number)."
+  },
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127853 for 'A Voz de Castelo Branco'. Outlet email column deliberately not recorded here."
+  }
+ ],
+ "gaps": [
+  "contact page other than the ficha técnica not found",
+  "journalists other than the director not named in the ficha técnica",
+  "same director and management are listed on the sibling Sapo regional titles (A Voz de Évora, Jornal de Beja, Jornal de Portalegre, A Voz de Bragança, A Voz de Castelo Branco, Terras da Guarda, Terras de Viseu, Setúbal Informação): a network, not stated as such by the outlets"
+ ]
+}

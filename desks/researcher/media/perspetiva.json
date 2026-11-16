@@ -1,0 +1,105 @@
+{
+ "id": "perspetiva",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Perspetiva",
+ "media_kind": "online",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://www.perspetiva.com/",
+ "places_covered": [
+  {
+   "place": "Elvas and the Alto Alentejo (seat Elvas); regional daily",
+   "source_url": "https://www.perspetiva.com/ficha-tecnica",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Perspetiva Produções, Lda (Ana Martins 50%, Sónia Rodrigues 50%)",
+  "source_url": "https://www.perspetiva.com/ficha-tecnica",
+  "read_at": "2026-11-16"
+ },
+ "public_contact": [
+  {
+   "channel": "No generic address in the ficha técnica",
+   "source_url": "https://www.perspetiva.com/ficha-tecnica",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://www.perspetiva.com/feed/",
+   "checked": "HTTP 200, application/rss+xml; charset=UTF-8, RSS 2.0 body",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "people": [
+  {
+   "name": "Ana Martins",
+   "role": "Direção e Edição",
+   "source_url": "https://www.perspetiva.com/ficha-tecnica",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Sónia Rodrigues",
+   "role": "Direção de Marketing",
+   "source_url": "https://www.perspetiva.com/ficha-tecnica",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Abel Dias",
+   "role": "Colaborador",
+   "source_url": "https://www.perspetiva.com/ficha-tecnica",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Carla Fernandes",
+   "role": "Colaborador",
+   "source_url": "https://www.perspetiva.com/ficha-tecnica",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Cláudio Ramos",
+   "role": "Colaborador",
+   "source_url": "https://www.perspetiva.com/ficha-tecnica",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Daniel Lérias",
+   "role": "Colaborador",
+   "source_url": "https://www.perspetiva.com/ficha-tecnica",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "João Carvalho",
+   "role": "Colaborador",
+   "source_url": "https://www.perspetiva.com/ficha-tecnica",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Susana Muralhas",
+   "role": "Colaborador",
+   "source_url": "https://www.perspetiva.com/ficha-tecnica",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.perspetiva.com/ficha-tecnica",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Ficha técnica (ERC 126700)."
+  },
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126700 for 'Perspetiva'. Outlet email column deliberately not recorded here."
+  }
+ ],
+ "gaps": [
+  "contact page not located",
+  "beats not stated"
+ ]
+}

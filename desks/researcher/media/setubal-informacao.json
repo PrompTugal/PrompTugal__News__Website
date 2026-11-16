@@ -1,0 +1,64 @@
+{
+ "id": "setubal-informacao",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Setúbal Informação",
+ "media_kind": "online",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://setubalinformacao.sapo.pt/",
+ "places_covered": [
+  {
+   "place": "Setúbal (Setúbal district); regional daily (working days), online",
+   "source_url": "https://setubalinformacao.sapo.pt/info-page/ficha-tecnica-1669636515-1673450112-1673455244-1673535148-1731429007",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Words Wizard, Lda (Rua Fernanda Seno, 6, 7005-485 Évora)",
+  "source_url": "https://setubalinformacao.sapo.pt/info-page/ficha-tecnica-1669636515-1673450112-1673455244-1673535148-1731429007",
+  "read_at": "2026-11-16"
+ },
+ "public_contact": [
+  {
+   "channel": "Generic address info@setubalinformacao.pt as published in the ficha técnica; editorial office Rua José Adelino dos Santos, 2 B, 2900-111 Setúbal",
+   "source_url": "https://setubalinformacao.sapo.pt/info-page/ficha-tecnica-1669636515-1673450112-1673455244-1673535148-1731429007",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://setubalinformacao.sapo.pt/feed/",
+   "checked": "HTTP 200, application/xml, RSS 2.0 body",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "people": [
+  {
+   "name": "Anjos Costa",
+   "role": "Diretor",
+   "source_url": "https://setubalinformacao.sapo.pt/info-page/ficha-tecnica-1669636515-1673450112-1673455244-1673535148-1731429007",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://setubalinformacao.sapo.pt/info-page/ficha-tecnica-1669636515-1673450112-1673455244-1673535148-1731429007",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Ficha técnica (director, owner/editor, seat, ERC number)."
+  },
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127849 for 'Setúbal Informação'. Outlet email column deliberately not recorded here."
+  }
+ ],
+ "gaps": [
+  "contact page other than the ficha técnica not found",
+  "journalists other than the director not named in the ficha técnica",
+  "same director and management are listed on the sibling Sapo regional titles (A Voz de Évora, Jornal de Beja, Jornal de Portalegre, A Voz de Bragança, A Voz de Castelo Branco, Terras da Guarda, Terras de Viseu, Setúbal Informação): a network, not stated as such by the outlets"
+ ]
+}

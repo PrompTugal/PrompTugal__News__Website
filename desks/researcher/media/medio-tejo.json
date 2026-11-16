@@ -1,82 +1,95 @@
 {
-  "id": "medio-tejo",
-  "type": "organisation",
-  "kind": "media",
-  "name": "Médio Tejo",
-  "names_as_listed": [
-    "Médio Tejo"
-  ],
-  "media_kind": "online",
-  "reach": "regional",
-  "language": "pt",
-  "website": "https://mediotejo.net",
-  "places_covered": [
-    {
-      "place": "Médio Tejo",
-      "source_url": "https://mediotejo.net/ficha-tecnica/",
-      "read_at": "2026-11-16"
-    },
-    {
-      "place": "Tomar",
-      "source_url": "https://mediotejo.net/",
-      "read_at": "2026-11-16"
-    },
-    {
-      "place": "Abrantes",
-      "source_url": "https://mediotejo.net/",
-      "read_at": "2026-11-16"
-    },
-    {
-      "place": "Santarém",
-      "source_url": "https://mediotejo.net/",
-      "read_at": "2026-11-16"
-    }
-  ],
-  "owner": {
-    "name": "Editora: Patrícia Antónia Lourenço Fonseca (as named on ficha técnica)",
-    "source_url": "https://mediotejo.net/ficha-tecnica/",
-    "read_at": "2026-11-16"
+ "id": "medio-tejo",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Médio Tejo",
+ "names_as_listed": [
+  "Médio Tejo"
+ ],
+ "media_kind": "online",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://mediotejo.net",
+ "places_covered": [
+  {
+   "place": "Médio Tejo",
+   "source_url": "https://mediotejo.net/ficha-tecnica/",
+   "read_at": "2026-11-16"
   },
-  "contact_page_url": "https://mediotejo.net/contactos/",
-  "feeds": [
-    {
-      "kind": "rss",
-      "url": "https://mediotejo.net/feed/",
-      "checked": "HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body",
-      "read_at": "2026-11-16"
-    }
-  ],
-  "people": [
-    {
-      "name": "Mário Rui Fonseca",
-      "role": "Diretor-Adjunto",
-      "beat": "",
-      "source_url": "https://mediotejo.net/ficha-tecnica/",
-      "read_at": "2026-11-16"
-    }
-  ],
-  "sources": [
-    {
-      "url": "https://mediotejo.net/ficha-tecnica/",
-      "read_at": "2026-11-16",
-      "by": "researcher@PrompTugal.dinis",
-      "how": "ficha técnica; ERC 126721, daily; HQ Tramagal, Abrantes"
-    },
-    {
-      "url": "https://mediotejo.net/feed/",
-      "read_at": "2026-11-16",
-      "by": "researcher@PrompTugal.dinis",
-      "how": "curl"
-    },
-    {
-      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-      "read_at": "2026-11-16",
-      "by": "researcher@PrompTugal.dinis",
-      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126721 for 'Mediotejo.net'. Outlet email column deliberately not recorded here."
-    }
-  ],
-  "gaps": [
-    "director name not captured in read text",
-    "emails protected on page, none recorded"
-  ]
+  {
+   "place": "Tomar",
+   "source_url": "https://mediotejo.net/",
+   "read_at": "2026-11-16"
+  },
+  {
+   "place": "Abrantes",
+   "source_url": "https://mediotejo.net/",
+   "read_at": "2026-11-16"
+  },
+  {
+   "place": "Santarém",
+   "source_url": "https://mediotejo.net/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Editora: Patrícia Antónia Lourenço Fonseca (as named on ficha técnica)",
+  "source_url": "https://mediotejo.net/ficha-tecnica/",
+  "read_at": "2026-11-16"
+ },
+ "contact_page_url": "https://mediotejo.net/contactos/",
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://mediotejo.net/feed/",
+   "checked": "HTTP 200, content-type application/rss+xml; charset=UTF-8, RSS body",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "people": [
+  {
+   "name": "Mário Rui Fonseca",
+   "role": "Diretor-Adjunto",
+   "beat": "",
+   "source_url": "https://mediotejo.net/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Patrícia Fonseca",
+   "role": "Direção (carteira profissional de jornalista n.º 2054) and editor (Patrícia Antónia Lourenço Fonseca)",
+   "source_url": "https://mediotejo.net/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://mediotejo.net/ficha-tecnica/",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ficha técnica; ERC 126721, daily; HQ Tramagal, Abrantes"
+  },
+  {
+   "url": "https://mediotejo.net/feed/",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "curl"
+  },
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126721 for 'Mediotejo.net'. Outlet email column deliberately not recorded here."
+  },
+  {
+   "url": "https://mediotejo.net/ficha-tecnica/",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Ficha técnica: direction, deputy director Mário Rui Fonseca, editor, ERC no. 126721 (printed by the outlet), daily, newsroom Estrada Nacional 118, nº 1609, rc/Esq., 2205-645 Tramagal, Abrantes; collaborators listed. Email addresses on the page are protected and a telephone is printed: neither recorded."
+  }
+ ],
+ "gaps": [
+  "director name not captured in read text",
+  "emails protected on page, none recorded",
+  "2026-11-16 amendment: director and editor added from the ficha técnica; ficha lists a collaborators list (Jéssica Filipe, Jorge Santiago and others) without roles, not recorded as journalists"
+ ]
 }

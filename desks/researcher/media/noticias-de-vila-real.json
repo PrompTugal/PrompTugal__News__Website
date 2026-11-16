@@ -1,46 +1,85 @@
 {
-  "id": "noticias-de-vila-real",
-  "type": "organisation",
-  "kind": "media",
-  "name": "Notícias de Vila Real",
-  "media_kind": "newspaper",
-  "reach": "regional",
-  "language": "pt",
-  "website": "https://noticiasdevilareal.sapo.pt/",
-  "places_covered": [
-    {
-      "place": "Vila Real",
-      "source_url": "https://noticiasdevilareal.sapo.pt/",
-      "read_at": "2026-11-16"
-    }
-  ],
-  "contact_page_url": "https://noticiasdevilareal.sapo.pt/contactos/",
-  "feeds": [
-    {
-      "kind": "rss",
-      "url": "https://noticiasdevilareal.sapo.pt/feed/",
-      "checked": "HTTP 200, content-type application/rss+xml, RSS body",
-      "read_at": "2026-11-16"
-    }
-  ],
-  "sources": [
-    {
-      "url": "https://noticiasdevilareal.sapo.pt/contactos/",
-      "read_at": "2026-11-16",
-      "by": "researcher@PrompTugal.dinis",
-      "how": "page fetched; text not captured by extractor"
-    },
-    {
-      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-      "read_at": "2026-11-16",
-      "by": "researcher@PrompTugal.dinis",
-      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 122485 for 'Notícias de Vila Real'. Outlet email column deliberately not recorded here."
-    }
-  ],
-  "gaps": [
-    "owner",
-    "ficha técnica content not captured",
-    "people",
-    "public contact address"
-  ]
+ "id": "noticias-de-vila-real",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Notícias de Vila Real",
+ "media_kind": "newspaper",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://noticiasdevilareal.sapo.pt/",
+ "places_covered": [
+  {
+   "place": "Vila Real",
+   "source_url": "https://noticiasdevilareal.sapo.pt/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "contact_page_url": "https://noticiasdevilareal.sapo.pt/contactos/",
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://noticiasdevilareal.sapo.pt/feed/",
+   "checked": "HTTP 200, content-type application/rss+xml, RSS body",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://noticiasdevilareal.sapo.pt/contactos/",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "page fetched; text not captured by extractor"
+  },
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 122485 for 'Notícias de Vila Real'. Outlet email column deliberately not recorded here."
+  },
+  {
+   "url": "https://noticiasdevilareal.sapo.pt/ficha-tecnica/",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Ficha técnica: director, newsroom, owner Maronesa, Comunicação Social, Lda; ERC no. 122485; circulation 1,500; registered address Largo do Pioledo, Centro Comercial D. Dinis, loja 4, Vila Real. Generic address noticiasdevilareal@sapo.pt, Largo do Pioledo, as published by the outlet."
+  }
+ ],
+ "gaps": [
+  "owner",
+  "ficha técnica content not captured",
+  "people",
+  "public contact address",
+  "2026-11-16 amendment: owner, people and public contact now filled from the ficha técnica; a telephone number printed there is not recorded"
+ ],
+ "people": [
+  {
+   "name": "Luís Mendonça",
+   "role": "Diretor (CP 1407 A)",
+   "source_url": "https://noticiasdevilareal.sapo.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Ribeiro Aires",
+   "role": "Redação (CO-1438)",
+   "source_url": "https://noticiasdevilareal.sapo.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Carlos Pereira Cardoso",
+   "role": "Redação (TP-1506)",
+   "source_url": "https://noticiasdevilareal.sapo.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Maronesa, Comunicação Social, Lda",
+  "source_url": "https://noticiasdevilareal.sapo.pt/ficha-tecnica/",
+  "read_at": "2026-11-16"
+ },
+ "public_contact": [
+  {
+   "channel": "Generic address noticiasdevilareal@sapo.pt as published in the ficha técnica; Largo do Pioledo, Centro Comercial D. Dinis, loja 4, 5000-596 Vila Real",
+   "source_url": "https://noticiasdevilareal.sapo.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  }
+ ]
 }

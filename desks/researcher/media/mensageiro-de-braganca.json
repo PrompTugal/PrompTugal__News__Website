@@ -1,38 +1,58 @@
 {
-  "id": "mensageiro-de-braganca",
-  "type": "organisation",
-  "kind": "media",
-  "name": "Mensageiro de Bragança",
-  "media_kind": "newspaper",
-  "reach": "regional",
-  "language": "pt",
-  "website": "https://mdb.pt/",
-  "places_covered": [
-    {
-      "place": "Bragança diocese",
-      "source_url": "https://mdb.pt/estatuto-editorial",
-      "read_at": "2026-11-16"
-    }
-  ],
-  "sources": [
-    {
-      "url": "https://mdb.pt/estatuto-editorial",
-      "read_at": "2026-11-16",
-      "by": "researcher@PrompTugal.dinis",
-      "how": "editorial statute: diocesan regional weekly"
-    },
-    {
-      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-      "read_at": "2026-11-16",
-      "by": "researcher@PrompTugal.dinis",
-      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 101681 for 'Mensageiro de Bragança'. Outlet email column deliberately not recorded here."
-    }
-  ],
-  "gaps": [
-    "owner",
-    "ficha técnica (URL guessed returned 404)",
-    "contact page",
-    "people",
-    "RSS: /feed returned 404"
-  ]
+ "id": "mensageiro-de-braganca",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Mensageiro de Bragança",
+ "media_kind": "newspaper",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://mdb.pt/",
+ "places_covered": [
+  {
+   "place": "Bragança diocese",
+   "source_url": "https://mdb.pt/estatuto-editorial",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://mdb.pt/estatuto-editorial",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "editorial statute: diocesan regional weekly"
+  },
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 101681 for 'Mensageiro de Bragança'. Outlet email column deliberately not recorded here."
+  },
+  {
+   "url": "https://mdb.pt/",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Home page: 'Editorial - António Gonçalves Rodrigues', edition n.º 4114; /contactos, /contacto and /ficha-tecnica return 404."
+  }
+ ],
+ "gaps": [
+  "owner",
+  "ficha técnica (URL guessed returned 404)",
+  "contact page",
+  "people",
+  "RSS: /feed returned 404",
+  "2026-11-16 amendment: owner and director taken from the ERC public register; ficha técnica page still not found; no outlet-published contact address found"
+ ],
+ "people": [
+  {
+   "name": "António Gonçalves Rodrigues",
+   "role": "Diretor, as registered with ERC; the home page also shows an Editorial signed by him",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Fundação Mensageiro de Bragança",
+  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "read_at": "2026-11-16"
+ }
 }

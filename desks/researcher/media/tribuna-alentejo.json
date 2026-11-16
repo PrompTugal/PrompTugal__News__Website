@@ -1,0 +1,95 @@
+{
+ "id": "tribuna-alentejo",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Tribuna Alentejo",
+ "media_kind": "online",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://www.tribunaalentejo.pt/",
+ "places_covered": [
+  {
+   "place": "Alentejo (Alto Alentejo, Alentejo Central, Baixo Alentejo, Alentejo Litoral); seat Évora, delegation Portalegre",
+   "source_url": "https://www.tribunaalentejo.pt/fichatecnica/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Costa, Calado, Pina & Associados, Lda",
+  "source_url": "https://www.tribunaalentejo.pt/fichatecnica/",
+  "read_at": "2026-11-16"
+ },
+ "contact_page_url": "https://www.tribunaalentejo.pt/contacto/",
+ "public_contact": [
+  {
+   "channel": "Web contact form on the page (name, email, subject, message); the outlet's own contact page, no address recorded",
+   "source_url": "https://www.tribunaalentejo.pt/contacto/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://www.tribunaalentejo.pt/feed/",
+   "checked": "HTTP 200, application/rss+xml; charset=UTF-8, RSS 2.0 body",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "people": [
+  {
+   "name": "João da Costa",
+   "role": "Diretor Executivo",
+   "source_url": "https://www.tribunaalentejo.pt/fichatecnica/",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Luís Carapinha",
+   "role": "Editor (carteira TE-704 A)",
+   "source_url": "https://www.tribunaalentejo.pt/fichatecnica/",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Luís Miguel Quintino Carapinha",
+   "role": "Diretor, as registered with ERC",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Rui Praxedes",
+   "role": "Marketing",
+   "source_url": "https://www.tribunaalentejo.pt/fichatecnica/",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Marcos Baptista",
+   "role": "Departamento Jurídico",
+   "source_url": "https://www.tribunaalentejo.pt/fichatecnica/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.tribunaalentejo.pt/fichatecnica/",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Ficha técnica (daily; owner; seat Évora, Portalegre delegation)."
+  },
+  {
+   "url": "https://www.tribunaalentejo.pt/contacto/",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Contact page (form)."
+  },
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126912 for 'Tribuna Alentejo'. The register lists the editor as Susana Pedro and the director as Luís Miguel Quintino Carapinha. Outlet email column deliberately not recorded here."
+  }
+ ],
+ "gaps": [
+  "the ficha técnica lists several personal-role email addresses (editor, marketing, legal): personal contact published, not recorded",
+  "the ficha técnica names João da Costa as Diretor Executivo while the ERC register names Luís Carapinha as director: both recorded as published",
+  "journalists' beats not stated"
+ ]
+}

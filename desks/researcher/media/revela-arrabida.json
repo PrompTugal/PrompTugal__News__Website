@@ -1,0 +1,69 @@
+{
+ "id": "revela-arrabida",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Revela Arrábida",
+ "media_kind": "online",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://revelaarrabida.pt/",
+ "places_covered": [
+  {
+   "place": "Setúbal, Palmela and Sesimbra (the site's sections); daily on working days",
+   "source_url": "https://revelaarrabida.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "owner": {
+  "name": "Vírgulas Curiosas, Lda; holders of more than 5%: Tiago Pereira de Almeida and Filipa Pereira de Almeida",
+  "source_url": "https://revelaarrabida.pt/ficha-tecnica/",
+  "read_at": "2026-11-16"
+ },
+ "contact_page_url": "https://revelaarrabida.pt/ficha-tecnica/",
+ "public_contact": [
+  {
+   "channel": "Newsroom address geral@revelaarrabida.pt and advertising address anunciar@revelaarrabida.pt as published in the ficha técnica; Rua Luta do Povo 18, 2910-119 Setúbal",
+   "source_url": "https://revelaarrabida.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://revelaarrabida.pt/feed/",
+   "checked": "HTTP 200, application/rss+xml; charset=UTF-8, RSS 2.0 body",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "people": [
+  {
+   "name": "Filipa Isabel Pereira",
+   "role": "Diretora de Informação",
+   "source_url": "https://revelaarrabida.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  },
+  {
+   "name": "Tiago Alexandre",
+   "role": "Editor",
+   "source_url": "https://revelaarrabida.pt/ficha-tecnica/",
+   "read_at": "2026-11-16"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://revelaarrabida.pt/ficha-tecnica/",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Ficha técnica."
+  },
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-16",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 128134 for 'Revela Arrábida'. Outlet email column deliberately not recorded here."
+  }
+ ],
+ "gaps": [
+  "personal-name email addresses of the director and editor are printed: personal contact published, not recorded"
+ ]
+}
