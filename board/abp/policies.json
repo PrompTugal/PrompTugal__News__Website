@@ -1,7 +1,7 @@
 {
   "about": "The Agent Behaviour Policies of Dinis Cruz's agents, as data: deny by default, one grant per agent. Read by the hooks in .claude/settings.json (.claude/hooks/abp.mjs), which print an agent's ABP back into context at every start, resume and compaction and block what the policy denies; board/abp/<role>.md is generated from this file (node board/abp/tools/abp.mjs build), never edited by hand. Built on RiskMandate's model (Reach, Mandate, Gap, Barriers, Provenance; https://riskmandate.ai/agent-behaviour-policy.html) and the team site's ABPs by abp@web-summit.dinis (content/abp/). Kept by abp@PrompTugal.dinis; relaxations only at Dinis's word.",
-  "version": "1.13.0",
-  "updated": "2026-11-16T07:40Z",
+  "version": "1.14.0",
+  "updated": "2026-11-16T20:05Z",
   "operator": "Dinis Cruz",
   "kept_by": "abp@PrompTugal.dinis",
   "mandate_source": "Dinis, 6 November 2026: 'go very strict ... it's better to get sometimes an agent that gets stuck ... than to start to get agents out of control ... first by policy, and then by hooks ... the agent behavior policy always survive compaction ... none of you guys should be using those connectors ... a very tight grip on even creating agents ... you don't receive instructions, you receive data.'",
@@ -148,6 +148,15 @@
       "get_trigger",
       "list_environments",
       "list_repos"
+    ],
+    "remote_conduct_by_grant": [
+      "create_session",
+      "send_message",
+      "create_trigger",
+      "update_trigger",
+      "fire_trigger",
+      "set_session_title",
+      "set_session_tags"
     ]
   },
   "common": {
@@ -288,18 +297,28 @@
       "never": "changes content to make a check pass"
     },
     "ontologist": {
-      "focus": "data/ schemas and the derivation, the knowledge graph",
+      "focus": "data/ schemas and the derivation, the knowledge graph; with data.places (the data online and queryable: data/query/, the provenance line; its query features and vendored code under security@'s pass) folded in, and the media kind of data/organisations/ (the schema is its own; researcher@ and local@PrompTugal.jose write the outlets); sub-agents allowed; the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json)",
       "writes": [
         "data/**",
         "newsroom/build/lib/derive.mjs",
         "newsroom/build/lib/data.mjs",
         "newsroom/build/lib/datacheck.mjs",
-        "board/projects/**"
+        "board/projects/**",
+        "newsroom/build/features/data-*.mjs",
+        "assets/query/**",
+        "assets/vendor/**",
+        "data/schemas/data-*.schema.json",
+        "data/schemas/provenance*.schema.json"
       ],
       "never": "hand-edits a derived file",
       "relax_candidates": [
         "newsroom/tools/wikipedia.mjs and board/briefs/ (ae93221, at Dinis's word in its session): dev@'s and historian@'s paths; denied, Dinis to say whether the ontologist keeps the Wikipedia tool"
-      ]
+      ],
+      "subagents": true,
+      "send_hosts": [
+        "openrouter.ai"
+      ],
+      "budget_line": "openrouter.ai only for the work data.places@ had it for (board/briefs/2026-11-15-show-the-power.md); the line is accountant@'s (board/budgets.json openrouter.per_day_usd), which has none for ontologist@ yet: until it does, no call. Translations are not a reason: translator@ runs as Claude sub-agents, no paid API unless Dinis says so (board/spec-translations.md)"
     },
     "outreach": {
       "focus": "drafts to companies as PrompTugal's editors, kept with the team CRM's comms",
@@ -388,19 +407,27 @@
       ]
     },
     "sherpa": {
-      "focus": "the reader's guide and voice: usability of every page",
+      "focus": "the reader's guide and voice: usability of every page; with synthetic (the personas as sub-agents: desks/synthetic/**, content/newsroom/synthetic.md); the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json)",
       "writes": [
-        "design/shots/sherpa/**"
+        "design/shots/sherpa/**",
+        "desks/synthetic/**",
+        "content/newsroom/synthetic.md"
       ],
-      "never": "redesigns or writes pages itself"
+      "never": "redesigns or writes pages itself; presents a synthetic reader's view as a real person's, or touches content to fix it; pushes anywhere but work/sherpa",
+      "subagents": true,
+      "work_branch": true
     },
     "librarian": {
-      "focus": "the map of everything: every page, file, desk, pass, finding, decision and agent",
+      "focus": "the map of everything: every page, file, desk, pass, finding, decision and agent; with accountant (budgets of tokens and runs: board/budgets.json, board/spec-budgets-schema.md; reads what each run spent from the cloud sessions); the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json)",
       "writes": [
         "board/catalogue.json",
-        "board/catalogue.md"
+        "board/catalogue.md",
+        "board/budgets.json",
+        "board/spec-budgets-schema.md"
       ],
-      "never": "moves or rewrites others' files"
+      "never": "moves or rewrites others' files; lets a loop run without a budget; pushes anywhere but work/librarian",
+      "remote_read": true,
+      "work_branch": true
     },
     "synthetic": {
       "focus": "synthetic readers who read the site and report what works and what loses them",
@@ -434,11 +461,12 @@
       "never": "holds or moves a private key or vault key outside the plan Dinis approves, or sends a backup to a destination he has not named"
     },
     "researcher": {
-      "focus": "public research on a mandate per task (the Portugal ecosystem, Algarve Evolution, then people and past summits); Sonnet",
+      "focus": "public research on a mandate per task (the Portugal ecosystem, Algarve Evolution, then people and past summits); Sonnet; the news organisations pass (media.map): the district capitals' and the national outlets in the media kind of data/organisations/<id>.json, public sources only, each fact with source and date read (board/team/conductor.b/plans/2026-11-16-restart-here.md, section 4)",
       "writes": [
-        "desks/researcher/**"
+        "desks/researcher/**",
+        "data/organisations/*.json"
       ],
-      "never": "uses a source behind a login, or publishes"
+      "never": "uses a source behind a login, or publishes; writes an organisation of another kind, or a media record that breaks ontologist@'s schema; gives a private individual's personal contact (a public outlet's published channel may be shown, linked and dated)"
     },
     "place.portugal": {
       "focus": "the Portugal lens of PrompTugal.news (https://promptugal.news/portugal/): its research and publish loop in data/by-place/portugal.json (the AI map, the centre of gravity, local AI news, events, sources and gaps), public sources only, each item with its URL and the date read, each passing the PrompTugal test; up to two local AI articles a night once its page is live (front matter town: portugal or region: portugal); its site identity: the site key site.portugal-promptugal, which signs data/by-place/portugal.json.sig; on Sonnet (board/briefs/2026-11-15-the-place-agents.md)",
@@ -688,23 +716,41 @@
       "never": "writes another place's file or any code (it asks dev.places@ on its inbox or in a commit For:); reads a source behind a login, a bot challenge or a paywall, or websummit.com, lu.ma, luma.com, meetup.com or eventbrite.*; gives a private individual's personal contact or anything from behind a login or the private CRM (public people may be named in their public and professional role, and a contact published on a public website (above all a government or public body's official site) may be shown, as the official channel, linked to the page it came from, with the date read); starts a session, a scheduled task or a sub-agent; sends anything outside; signs data/by-place/sao-bras-de-alportel.json with any key but its site key site.sao-bras-de-alportel-promptugal"
     },
     "dev.places": {
-      "focus": "the by-place feature (newsroom/build/features/by-place.mjs, assets/by-place/), the schemas, the gate checks (the site-identity check from board/abp/tools/site-identity.mjs, a warning first), and the whole site's finish; on Opus, releases to dev itself (board/briefs/2026-11-15-the-place-agents.md)",
+      "focus": "the by-place feature (newsroom/build/features/by-place.mjs, assets/by-place/), the schemas, the gate checks (the site-identity check from board/abp/tools/site-identity.mjs, a warning first), and the whole site's finish; on Sonnet (board/briefs/2026-11-15-the-place-agents.md); with dev.pages (page layouts from data), dev.graphs (content/graph/**) and viz.places (the visible agentic system) as sub-agents, and the media pages and feeds; pushes work/dev.places, dev@ reviews and brings it onto dev; the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json)",
       "writes": [
         "newsroom/build/**",
         "assets/**",
-        "data/schemas/**"
+        "data/schemas/**",
+        "newsroom/build/features/viz-*.mjs",
+        "assets/viz/**",
+        "data/viz/**",
+        "content/viz/**",
+        "content/graph/**",
+        "newsroom/tests/**"
       ],
-      "releases_to_dev": true,
-      "never": "writes a place's research (data/by-place/<id>.json) or changes content to make a check pass"
+      "releases_to_dev": false,
+      "never": "writes a place's research (data/by-place/<id>.json) or changes content to make a check pass",
+      "subagents": true,
+      "work_branch": true,
+      "send_hosts": [
+        "openrouter.ai"
+      ],
+      "budget_line": "openrouter.ai as viz.places@ had it (board/guidance/2026-11-15-show-the-power-connect-the-dots.md); accountant@ owns the line in board/budgets.json (none yet for this role: until it sets one, calls stay within what accountant@ allows 'any other agent': 0, so none)"
     },
     "designer.places": {
-      "focus": "each town's look inside brand v2.0, the Algarve map, the demo for Dinis's meeting with Algarve Evolution; on Opus, releases to dev itself (board/briefs/2026-11-15-the-place-agents.md)",
+      "focus": "each town's look inside brand v2.0, the Algarve map, the demo for Dinis's meeting with Algarve Evolution; on Sonnet (board/briefs/2026-11-15-the-place-agents.md); with designer.experiments (variations side by side, design/experiments/**) as a sub-agent; pushes work/designer.places, designer@ reviews and brings it onto dev; the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json)",
       "writes": [
         "design/**",
         "assets/by-place/**"
       ],
-      "releases_to_dev": true,
-      "never": "changes the brand (design/brand/ is protected) or writes a place's research"
+      "releases_to_dev": false,
+      "never": "changes the brand (design/brand/ is protected) or writes a place's research",
+      "subagents": true,
+      "work_branch": true,
+      "send_hosts": [
+        "openrouter.ai"
+      ],
+      "budget_line": "openrouter.ai for AI-made images and infographics (CLAUDE.md, 'The OpenRouter key'; board/guidance/2026-11-15-show-the-power-connect-the-dots.md); the line is designer.experiments@'s in board/budgets.json (2 USD a day) until accountant@ sets one for this role; every call is said in the commit (what, which model, its cost)"
     },
     "viz.places": {
       "focus": "the visible agentic system: the agents panel on every place page and each place's newsroom as a flow (Loulé and Faro first), the explainer \"powered by AgentiCCells\", all drawn from the record (commits, status.json, run reports, board/team/conductor/place-agents.json, board/schedule.json); OpenRouter within its cap (20 USD proposed in the brief; accountant@ owns board/budgets.json), model and cost said in each commit; on Opus (board/briefs/2026-11-15-show-the-power.md)",
@@ -758,7 +804,7 @@
       "never": "ships to the App Store, works against conductor.a.ios@'s plan, or writes this repository's code or data (it asks dev.places@ to serve what it needs)"
     },
     "datasci.places": {
-      "focus": "the JSON-first audit (no data only in HTML), the OpenAPI 3.1 specs (one for the site, one per locality) and the Swagger pages, data quality and analysis, in its openapi*.mjs and datasci-*.mjs build features, a vendored and pinned Swagger UI and its own assets; Dinis, 15 November 2026, about 23:30 UTC: \"fire up a data scientist agent ... Add a REST API and a Swagger\" (board/guidance/2026-11-15-json-first-rest-api-and-swagger.md)",
+      "focus": "the JSON-first audit (no data only in HTML), the OpenAPI 3.1 specs (one for the site, one per locality) and the Swagger pages, data quality and analysis, in its openapi*.mjs and datasci-*.mjs build features, a vendored and pinned Swagger UI and its own assets; Dinis, 15 November 2026, about 23:30 UTC: \"fire up a data scientist agent ... Add a REST API and a Swagger\" (board/guidance/2026-11-15-json-first-rest-api-and-swagger.md); and the live data: the open-data readers (board/tools/local-now.mjs, hourly, no model) writing data/by-place/now/<place>.json from api.ipma.pt (IPMA's open data) and api.adsb.lol (Faro airport traffic), each value with its source and the time read; Dinis, 16 November 2026, 00:55: \"Reactivate the storm, from here\" (board/guidance/2026-11-16-reactivate-the-storm-locally.md); the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json)",
       "writes": [
         "newsroom/build/features/openapi*.mjs",
         "newsroom/build/features/datasci-*.mjs",
@@ -766,13 +812,20 @@
         "assets/vendor/swagger-ui/**",
         "assets/datasci/**",
         "data/schemas/datasci-*.schema.json",
-        "content/datasci/**"
+        "content/datasci/**",
+        "board/tools/local-now.mjs",
+        "data/by-place/now/**"
       ],
-      "releases_to_dev": true,
-      "never": "vendors a library without a pinned version, its hashes and security@'s pass, loads a CDN at runtime, changes an existing schema it did not create, or writes another agent's paths"
+      "releases_to_dev": false,
+      "never": "vendors a library without a pinned version, its hashes and security@'s pass, loads a CDN at runtime, changes an existing schema it did not create, or writes another agent's paths; reads any live source but those two hosts without Dinis's word (another keyless source goes through conductor.b@ to Dinis); pushes anywhere but work/datasci.places",
+      "send_hosts": [
+        "api.ipma.pt",
+        "api.adsb.lol"
+      ],
+      "work_branch": true
     },
     "place.districts": {
-      "focus": "the 17 district capitals of Portugal (lisboa, porto, braga, viana-do-castelo, vila-real, braganca, aveiro, viseu, guarda, coimbra, castelo-branco, leiria, santarem, portalegre, setubal, evora, beja), one research file each, signed with each capital's own site key; a sub-agent per capital inside its own run, each capital moved into data/by-place/places.json as its file is ready (Dinis, 16 November 2026, about 04:00 UTC: board/guidance/2026-11-16-the-home-page-is-the-places-and-the-districts.md)",
+      "focus": "the 17 district capitals of Portugal (lisboa, porto, braga, viana-do-castelo, vila-real, braganca, aveiro, viseu, guarda, coimbra, castelo-branco, leiria, santarem, portalegre, setubal, evora, beja), one research file each, signed with each capital's own site key; a sub-agent per capital inside its own run, each capital moved into data/by-place/places.json as its file is ready (Dinis, 16 November 2026, about 04:00 UTC: board/guidance/2026-11-16-the-home-page-is-the-places-and-the-districts.md); with place.portugal (the national page data/by-place/portugal.json) from the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json)",
       "writes": [
         "data/by-place/lisboa.json",
         "data/by-place/lisboa.json.sig",
@@ -810,11 +863,14 @@
         "data/by-place/beja.json.sig",
         "content/articles/*.md",
         "articles/*.md.sig",
-        "data/by-place/places.json"
+        "data/by-place/places.json",
+        "data/by-place/portugal.json",
+        "data/by-place/portugal.json.sig"
       ],
-      "releases_to_dev": true,
-      "never": "writes another place's file or changes another place's entry in data/by-place/places.json, starts a session, gives its sub-agents more than its own grant, reads behind a login, a bot challenge or a paywall, gives a private individual's personal contact (a contact published on a public website, above all a public body's official site, may be shown, linked and dated), or signs a capital's file with any key but that capital's site key",
-      "subagents": true
+      "releases_to_dev": false,
+      "never": "writes another place's file or changes another place's entry in data/by-place/places.json, starts a session, pushes anywhere but work/place.districts (the editor-in-chief brings its content onto dev), gives its sub-agents more than its own grant, reads behind a login, a bot challenge or a paywall, gives a private individual's personal contact (a contact published on a public website, above all a public body's official site, may be shown, linked and dated), or signs a capital's file with any key but that capital's site key",
+      "subagents": true,
+      "work_branch": true
     },
     "translator": {
       "focus": "the content in the 21 cultures with a translation memory, never translating the same text twice: one translator sub-agent per culture inside its own run, each taking only its culture's derived queue and writing data/i18n/tm/<culture>/; keeps the glossary (Dinis, 16 November 2026, about 03:20 UTC: board/guidance/2026-11-16-translators-and-a-translation-memory.md; board/spec-translations.md); on Sonnet",
@@ -825,6 +881,129 @@
       ],
       "subagents": true,
       "never": "hand-writes the queue (data/i18n/queue/ is derived by dev.places@'s build), translates what the glossary keeps in English, changes the English source, writes build code (dev.places@ owns the segmenter and the pages), or gives its sub-agents more than its own grant"
+    },
+    "place.algarve.west": {
+      "focus": "the aggregated Algarve desk (west): the union of its towns' place.<town> grants, each town run as a sub-agent inside this session's own run (aljezur, vila-do-bispo, lagos, portimao, lagoa, monchique, silves), local news by what is happening, each fact sourced with the date read, drafts and articles to the editor-in-chief; Dinis, 16 November 2026: \"aggregate them\"; the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json); on Sonnet",
+      "writes": [
+        "data/by-place/aljezur.json",
+        "data/by-place/aljezur.json.sig",
+        "content/articles/*.md",
+        "articles/*.md.sig",
+        "data/by-place/vila-do-bispo.json",
+        "data/by-place/vila-do-bispo.json.sig",
+        "data/by-place/lagos.json",
+        "data/by-place/lagos.json.sig",
+        "data/by-place/portimao.json",
+        "data/by-place/portimao.json.sig",
+        "data/by-place/lagoa.json",
+        "data/by-place/lagoa.json.sig",
+        "data/by-place/monchique.json",
+        "data/by-place/monchique.json.sig",
+        "data/by-place/silves.json",
+        "data/by-place/silves.json.sig"
+      ],
+      "subagents": true,
+      "work_branch": true,
+      "releases_to_dev": false,
+      "towns": [
+        "aljezur",
+        "vila-do-bispo",
+        "lagos",
+        "portimao",
+        "lagoa",
+        "monchique",
+        "silves"
+      ],
+      "never": "writes a town outside its own list or any code (it asks dev.places@ on its inbox or in a commit For:); reads a source behind a login, a bot challenge or a paywall, or websummit.com, lu.ma, luma.com, meetup.com or eventbrite.*; gives a private individual's personal contact or anything from behind a login or the private CRM (public people may be named in their public and professional role, and a contact published on a public website, above all a government or public body's official site, may be shown as the official channel, linked to the page it came from, with the date read); starts a session or a scheduled task; gives its sub-agents more than its own grant; pushes anywhere but work/<role> (the editor-in-chief brings its content onto dev); signs a town's file with any key but that town's site key (site.<town>-promptugal; where the private half of the old site key was lost in the account move, the desk makes a new site key in a home of its own and supersedes the old entry in board/keys.json)"
+    },
+    "place.algarve.central": {
+      "focus": "the aggregated Algarve desk (central): the union of its towns' place.<town> grants, each town run as a sub-agent inside this session's own run (albufeira, loule, quarteira, faro, sao-bras-de-alportel, olhao), local news by what is happening, each fact sourced with the date read, drafts and articles to the editor-in-chief; Dinis, 16 November 2026: \"aggregate them\"; the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json); on Sonnet",
+      "writes": [
+        "data/by-place/albufeira.json",
+        "data/by-place/albufeira.json.sig",
+        "content/articles/*.md",
+        "articles/*.md.sig",
+        "data/by-place/loule.json",
+        "data/by-place/loule.json.sig",
+        "data/by-place/quarteira.json",
+        "data/by-place/quarteira.json.sig",
+        "data/by-place/faro.json",
+        "data/by-place/faro.json.sig",
+        "data/by-place/sao-bras-de-alportel.json",
+        "data/by-place/sao-bras-de-alportel.json.sig",
+        "data/by-place/olhao.json",
+        "data/by-place/olhao.json.sig"
+      ],
+      "subagents": true,
+      "work_branch": true,
+      "releases_to_dev": false,
+      "towns": [
+        "albufeira",
+        "loule",
+        "quarteira",
+        "faro",
+        "sao-bras-de-alportel",
+        "olhao"
+      ],
+      "never": "writes a town outside its own list or any code (it asks dev.places@ on its inbox or in a commit For:); reads a source behind a login, a bot challenge or a paywall, or websummit.com, lu.ma, luma.com, meetup.com or eventbrite.*; gives a private individual's personal contact or anything from behind a login or the private CRM (public people may be named in their public and professional role, and a contact published on a public website, above all a government or public body's official site, may be shown as the official channel, linked to the page it came from, with the date read); starts a session or a scheduled task; gives its sub-agents more than its own grant; pushes anywhere but work/<role> (the editor-in-chief brings its content onto dev); signs a town's file with any key but that town's site key (site.<town>-promptugal; where the private half of the old site key was lost in the account move, the desk makes a new site key in a home of its own and supersedes the old entry in board/keys.json)"
+    },
+    "place.algarve.east": {
+      "focus": "the aggregated Algarve desk (east): the union of its towns' place.<town> grants, each town run as a sub-agent inside this session's own run (tavira, castro-marim, vila-real-de-santo-antonio, alcoutim, and the region page data/by-place/algarve.json), local news by what is happening, each fact sourced with the date read, drafts and articles to the editor-in-chief; Dinis, 16 November 2026: \"aggregate them\"; the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json); on Sonnet",
+      "writes": [
+        "data/by-place/tavira.json",
+        "data/by-place/tavira.json.sig",
+        "content/articles/*.md",
+        "articles/*.md.sig",
+        "data/by-place/castro-marim.json",
+        "data/by-place/castro-marim.json.sig",
+        "data/by-place/vila-real-de-santo-antonio.json",
+        "data/by-place/vila-real-de-santo-antonio.json.sig",
+        "data/by-place/alcoutim.json",
+        "data/by-place/alcoutim.json.sig",
+        "data/by-place/algarve.json",
+        "data/by-place/algarve.json.sig"
+      ],
+      "subagents": true,
+      "work_branch": true,
+      "releases_to_dev": false,
+      "towns": [
+        "tavira",
+        "castro-marim",
+        "vila-real-de-santo-antonio",
+        "alcoutim"
+      ],
+      "never": "writes a town outside its own list or any code (it asks dev.places@ on its inbox or in a commit For:); reads a source behind a login, a bot challenge or a paywall, or websummit.com, lu.ma, luma.com, meetup.com or eventbrite.*; gives a private individual's personal contact or anything from behind a login or the private CRM (public people may be named in their public and professional role, and a contact published on a public website, above all a government or public body's official site, may be shown as the official channel, linked to the page it came from, with the date read); starts a session or a scheduled task; gives its sub-agents more than its own grant; pushes anywhere but work/<role> (the editor-in-chief brings its content onto dev); signs a town's file with any key but that town's site key (site.<town>-promptugal; where the private half of the old site key was lost in the account move, the desk makes a new site key in a home of its own and supersedes the old entry in board/keys.json)"
+    },
+    "conductor.b": {
+      "focus": "conducts the team from this account at Dinis's word (the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json)): the conductor's board paths incl. board/guidance/**, board/schedule.json, board/inbox.json, board/inboxes/**, the roster and plans in board/team/conductor.b/; reads every agent's board/team/<role>/status.json asks; starts sessions and scheduled tasks and messages them only at Dinis's recorded word given in its own session (R4)",
+      "writes": [
+        "board/README.md",
+        "board/WS-177-plan.md",
+        "board/brief-to-dinis-*.md",
+        "board/the-*.md",
+        "board/schedule.json",
+        "board/inbox.json",
+        "board/inbox-peers.json",
+        "board/guidance/**",
+        "board/projects/**",
+        "board/tasks/**",
+        "board/inboxes/**",
+        "board/tools/**",
+        "board/spec-*.md",
+        "board/briefs/**",
+        "REALITY.md",
+        "BRIEF-CORRECTIONS.md",
+        "README.md",
+        "CLAUDE.md",
+        "board/snapshots.json",
+        "board/editor-briefs/**"
+      ],
+      "notify_dinis": true,
+      "remote_read": true,
+      "never": "writes the others' content for them; starts a session, a scheduled task or a trigger without Dinis's word recorded in board/guidance/ (each one cited in its commit); archives a session or deletes a scheduled task (Dinis archives; a handover disables, never deletes); uses an environment or credential tool",
+      "remote_conduct": true,
+      "releases_to_dev": true,
+      "subagents": false
     }
   },
   "external": {
@@ -862,6 +1041,27 @@
         "why": "Dinis, in his own session with conductor@web-summit.dinis, 10 November 2026, about 18:25 UTC, on Vicky's request: \"can you give my reviewer@ permission to write only the five S41 lead fields in front-page.json?\" Values prepared by weather@PrompTugal.vicky (desks/weather-vicky/s41-lead.json), verified by reviewer@ before each write; commits For: correspondent@PrompTugal.dinis. For the S41 story only.",
         "granted": "2026-11-10T18:25Z",
         "granted_by": "dinis (relayed and recorded by conductor@web-summit.dinis; board/guidance/2026-11-10-vickys-reviewer-and-security.md)"
+      },
+      "conductor@PrompTugal.jose": {
+        "writes": [
+          "desks/conductor-jose/**",
+          "board/runs/conductor-jose/**"
+        ],
+        "never": "writes outside its own desk and run folder; changes, relaxes or reinterprets a rule of Dinis's (Jose's standing rule J6 only narrows); gives a private individual's personal contact (a contact published on a public website may be shown, linked and dated); sends anything outside; starts a session or a scheduled task",
+        "why": "Dinis, 16 November 2026, about 19:24 UTC (WhatsApp to Jose, recorded in board/guidance/2026-11-16-restart-here-go.md): \"your agents should push to the site and areas, just like mine\"; the request: desks/conductor-jose/requests/2026-11-16-abp-operators-grant-and-run-report.md. This conductor asked for nothing beyond its own desk. Run reports: board/runs/conductor-jose/ (node board/abp/tools/abp.mjs run-report --agent conductor@PrompTugal.jose).",
+        "granted": "2026-11-16T20:00Z",
+        "granted_by": "dinis (recorded by conductor.b@PrompTugal.dinis; board/guidance/2026-11-16-restart-here-go.md)"
+      },
+      "local@PrompTugal.jose": {
+        "writes": [
+          "desks/local-jose/**",
+          "board/runs/local-jose/**",
+          "data/organisations/*.json"
+        ],
+        "never": "writes outside its own desk and run folder; changes, relaxes or reinterprets a rule of Dinis's (Jose's standing rule J6 only narrows); gives a private individual's personal contact (a contact published on a public website may be shown, linked and dated); sends anything outside; starts a session or a scheduled task; writes an organisation record that is not of the media kind, or a media record that breaks ontologist@'s schema; touches a record ontologist@ or researcher@ wrote beyond adding its own facts with source and date read (they coordinate on the record, ontologist@ owns the kind)",
+        "why": "Dinis, 16 November 2026, about 19:24 UTC (recorded in board/guidance/2026-11-16-restart-here-go.md, point 4): local@PrompTugal.jose takes the Algarve towns' local outlets (RSS or API), public contributors and draft first contacts, in the media kind of data/organisations/ beside researcher@ (districts and nationals). Outreach drafts stay in its desk: a person sends. Run reports: board/runs/local-jose/.",
+        "granted": "2026-11-16T20:00Z",
+        "granted_by": "dinis (recorded by conductor.b@PrompTugal.dinis; board/guidance/2026-11-16-restart-here-go.md)"
       }
     }
   },
@@ -942,7 +1142,7 @@
       }
     ]
   },
-  "hook_sha256": "fe433dab487d3fda",
+  "hook_sha256": "862d87c971bc9fac",
   "hook_sha256_note": "the first 16 hex of sha256(.claude/hooks/abp.mjs) as abp@ released it; the hook checks itself at every session start and logs hook-changed on a mismatch (security@'s S15). Changed only by abp@ with the hook.",
   "open_questions": [
     {

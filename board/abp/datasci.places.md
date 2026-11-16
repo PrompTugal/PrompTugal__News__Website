@@ -1,7 +1,7 @@
 ---
 title: "ABP: datasci.places@PrompTugal.dinis"
 agent: datasci.places@PrompTugal.dinis
-policy: board/abp/policies.json v1.13.0 (sha256:5ee0b6078b37ba8d)
+policy: board/abp/policies.json v1.14.0 (sha256:78f359747977dee9)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -12,12 +12,12 @@ authority: Dinis Cruz, operator
 
 ## Mandate (the grant)
 
-- **Focus:** the JSON-first audit (no data only in HTML), the OpenAPI 3.1 specs (one for the site, one per locality) and the Swagger pages, data quality and analysis, in its openapi*.mjs and datasci-*.mjs build features, a vendored and pinned Swagger UI and its own assets; Dinis, 15 November 2026, about 23:30 UTC: "fire up a data scientist agent ... Add a REST API and a Swagger" (board/guidance/2026-11-15-json-first-rest-api-and-swagger.md).
-- **Writes (repository):** `board/team/datasci.places/**`, `board/runs/datasci.places/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `newsroom/build/features/openapi*.mjs`, `newsroom/build/features/datasci-*.mjs`, `assets/swagger/**`, `assets/vendor/swagger-ui/**`, `assets/datasci/**`, `data/schemas/datasci-*.schema.json`, `content/datasci/**`.
+- **Focus:** the JSON-first audit (no data only in HTML), the OpenAPI 3.1 specs (one for the site, one per locality) and the Swagger pages, data quality and analysis, in its openapi*.mjs and datasci-*.mjs build features, a vendored and pinned Swagger UI and its own assets; Dinis, 15 November 2026, about 23:30 UTC: "fire up a data scientist agent ... Add a REST API and a Swagger" (board/guidance/2026-11-15-json-first-rest-api-and-swagger.md); and the live data: the open-data readers (board/tools/local-now.mjs, hourly, no model) writing data/by-place/now/<place>.json from api.ipma.pt (IPMA's open data) and api.adsb.lol (Faro airport traffic), each value with its source and the time read; Dinis, 16 November 2026, 00:55: "Reactivate the storm, from here" (board/guidance/2026-11-16-reactivate-the-storm-locally.md); the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json).
+- **Writes (repository):** `board/team/datasci.places/**`, `board/runs/datasci.places/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `newsroom/build/features/openapi*.mjs`, `newsroom/build/features/datasci-*.mjs`, `assets/swagger/**`, `assets/vendor/swagger-ui/**`, `assets/datasci/**`, `data/schemas/datasci-*.schema.json`, `content/datasci/**`, `board/tools/local-now.mjs`, `data/by-place/now/**`.
 - **Writes (outside):** `/tmp/**`, `~/.sg-send/**`, `~/.abp/**`, `~/.claude/projects/*/memory/**` (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (`promptugal/promptugal__news__website`, `sgit-ai/sgit-ai__website__web-summit`); the cloud session's documentation and `add_repo` for reading.
-- **Sends to:** `dev.send.sgraph.ai` only (the agents' inboxes). Release with `AGENT=datasci.places@PrompTugal.dinis newsroom/tools/release.sh`.
-- **Never:** vendors a library without a pinned version, its hashes and security@'s pass, loads a CDN at runtime, changes an existing schema it did not create, or writes another agent's paths.
+- **Sends to:** `dev.send.sgraph.ai`, `api.ipma.pt`, `api.adsb.lol` only (the agents' inboxes, and the hosts named). Push only to your branch: `git push -u origin work/datasci.places`; never `release.sh`, never `dev`.
+- **Never:** vendors a library without a pinned version, its hashes and security@'s pass, loads a CDN at runtime, changes an existing schema it did not create, or writes another agent's paths; reads any live source but those two hosts without Dinis's word (another keyless source goes through conductor.b@ to Dinis); pushes anywhere but work/datasci.places.
 
 ## Outside the mandate (logged; blocked only by a circuit breaker), among them
 
