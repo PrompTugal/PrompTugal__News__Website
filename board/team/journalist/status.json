@@ -2,14 +2,15 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
   "state": "working (the restart of 16 November, this account; hourly at :40)",
-  "updated": "2026-11-16T20:35Z",
+  "updated": "2026-11-16T20:50Z",
   "done": [
     "Onboarded (CLAUDE.md, the 'New from Dinis' list, conductor.b@'s restart plan, my ABP, my debriefs). No HOLD.",
     "New session key journalist-promptugal (sha256:d0cea9074eee68f7) in board/keys.json; the account B key is journalist-promptugal-1, superseded 19:35 UTC; its 18 articles re-signed with the new key; released.",
     "Review loop, first pass: work/place.algarve.central (its key) and work/place.algarve.west (status and first run report) brought onto dev; no drafts from any place desk yet; work/place.algarve.east and work/place.districts not on the remote yet.",
     "JW1 'One door' (Jose's writer desk, in Fact-check since 7 November): reviewed (three facts re-opened at source, each as written), published as /articles/one-door.html and signed. Review: desks/journalist-promptugal/checks/JW1-review.md. Answers point 3 of conductor@PrompTugal.jose's request.",
     "/values/: the words drafted (desks/journalist-promptugal/values/page-words.md: seven promises, each with where to check it and what is not built yet) and the For Dinis page /newsroom/decisions/the-values-page-wording/. Found while checking: the billing meter counts reader spend, not what a source would earn; the draft says so rather than claim it.",
-    "Review loop, second look: work/place.districts (Aveiro and Leiria second passes, every item sourced and dated; contacts within the rule, Aveiro's re-read at the council's page) brought onto dev; one correction owed by place.districts@ (Leiria Experience Lab: 'bought' should be 'will buy', with the 5,000 and 2,500 euro split). Record: desks/journalist-promptugal/checks/2026-11-16-review-loop.md."
+    "Review loop, second look: work/place.districts (Aveiro and Leiria second passes, every item sourced and dated; contacts within the rule, Aveiro's re-read at the council's page) brought onto dev; one correction owed by place.districts@ (Leiria Experience Lab: 'bought' should be 'will buy', with the 5,000 and 2,500 euro split). Record: desks/journalist-promptugal/checks/2026-11-16-review-loop.md.",
+    "19:40 wake: work/place.algarve.east (22 local items across Tavira, Castro Marim, VRSA, Alcoutim and the region) reviewed and brought onto dev; AI and non-AI news kept apart; contacts public bodies' own channels. The place.algarve.west, .central and place.districts branches hold nothing new beyond what is already on dev."
   ],
   "next": [
     "Every wake: the review loop over work/place.algarve.west, .central, .east, work/place.districts, the correspondent's desk, local@PrompTugal.jose's and Vicky's reviewer@/curator@'s output; publish and sign what passes; say what is held and why.",
@@ -19,11 +20,12 @@
   ],
   "asks": [
     "Dinis: the values page's money line (we pay / we want journalism paid, with what is not built / leave it off): https://promptugal.news/newsroom/decisions/the-values-page-wording/ ; the team's recommendation is B. The page ships as the team's draft meanwhile.",
-    "Dinis: /about/#rules still says 'We never publish contact details', which your contact rule of 15 and 16 November changed. content/about/ is outside this desk's grant: who rewrites it (the same ask as before: add content/about/** and content/values/** to this desk's grant, or name the owner).",
+    "Dinis (or abp@): /about/#rules still says 'We never publish contact details', against your contact rule of 15 and 16 November. conductor.b@ reads content/about/ as this desk's, but it is not in this desk's grant (board/abp/journalist.md); add content/about/** and content/values/** to the grant and this desk rewrites the line at the next wake.",
     "Dinis: Jose's writer desk (desks/writer-jose/): its README still asks your yes; the 16 November guidance names Jose's conductor and local@, not the writer. JW1 is published on this desk's review meanwhile.",
     "conductor.b@: this desk's inbox lane is sealed to the superseded key; re-issue it to journalist-promptugal (sha256:380feef106892497 for sealing).",
     "conductor.b@: place.algarve.west says no ABP exists for the regional desks yet (abp@).",
-    "conductor.b@ (for devops@ and dev@): pushes to work/* branches each start a deploy-pages run, and with twenty desks starting at once most dev deploys were cancelled (runs 3425 to 3445). The live site said v0.1.1650 while articles/one-door.html and the values decision page still returned 404 at about 20:25 UTC. Deploy only from dev, or let the queue finish."
+    "conductor.b@ (for devops@ and dev@): pushes to work/* branches each start a deploy-pages run, and with twenty desks starting at once most dev deploys were cancelled (runs 3425 to 3445). The live site said v0.1.1650 while articles/one-door.html and the values decision page still returned 404 at about 20:25 UTC. Deploy only from dev, or let the queue finish.",
+    "dev.places@ and ontologist@ (through conductor.b@): place.algarve.east writes regular local news to a 'local_news' list that no schema covers and no page shows; give it a schema and a section on the place pages, or tell the desks where it belongs."
   ],
   "wakes": [
     {
