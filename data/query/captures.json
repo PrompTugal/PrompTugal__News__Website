@@ -215,7 +215,7 @@
     {
       "url": "https://24noticias.sapo.pt/local/faro/monchique",
       "host": "24noticias.sapo.pt",
-      "captured_at": "2026-11-16T13:27:16Z",
+      "captured_at": "2026-11-16T14:25:30Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -224,15 +224,15 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/24noticias.sapo.pt/290485181f34.jpg",
-        "sha256": "603657550f86e17093ea2fbaa3f5eaafbe9eebc2fbb863bb16c212ba03896680",
-        "bytes": 22079,
+        "sha256": "3311bcf71b10506997663c7e64643a776ab1cfcd7c79897eaae35b8317862239",
+        "bytes": 19278,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/24noticias.sapo.pt/290485181f34.txt",
-        "sha256": "448e5fe829747f9f1d4792d0389cf8cb273494f2d485c5a4d73cf2cd9e8cc4a9",
-        "chars": 100
+        "sha256": "fe5c81a36382c12216aa76402903436a399f57c355d8a589f96420a82b0c0a2e",
+        "chars": 58
       },
       "cited_by": [
         {
@@ -246,7 +246,7 @@
     {
       "url": "https://24noticias.sapo.pt/local/faro/vila-real-de-santo-antonio",
       "host": "24noticias.sapo.pt",
-      "captured_at": "2026-11-16T13:26:03Z",
+      "captured_at": "2026-11-16T14:24:17Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -255,8 +255,8 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/24noticias.sapo.pt/8e5c33486b67.jpg",
-        "sha256": "3311bcf71b10506997663c7e64643a776ab1cfcd7c79897eaae35b8317862239",
-        "bytes": 19278,
+        "sha256": "ca27b41f57b10660090ab37ec67289910aaf2789400f7164471957cd1ef576e1",
+        "bytes": 19279,
         "width": 1280,
         "height": 1600
       },
@@ -444,6 +444,43 @@
           "article": "ai-act-first-harmonised-standard",
           "kind": "article",
           "label": "ai-act-first-harmonised-standard"
+        }
+      ]
+    },
+    {
+      "url": "https://ai4pa.pt/agenda/programa-capacitacao-profissional-viseu",
+      "host": "ai4pa.pt",
+      "captured_at": "2026-11-16T14:33:06Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://ai4pa.pt/agenda/programa-capacitacao-profissional-viseu",
+      "title": "Inovação Pública: Estratégias Digitais e Inteligência Artificial na Administração Pública e PMEs",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/ai4pa.pt/0ae34d27d3a1.jpg",
+        "sha256": "2e85eba526cd9c4c08761b177aa62bb2ddb9f04c10e3e0e58001d364d47c5549",
+        "bytes": 152791,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/ai4pa.pt/0ae34d27d3a1.txt",
+        "sha256": "e98ce7fec78b919f2a7aa9303982da369756a947e3af0eb27fd400b235323bfd",
+        "chars": 4778
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "event",
+          "n": 7,
+          "label": "AI4PA Portugal training session: Inovação Pública (Museu do Quartzo, Viseu)"
+        },
+        {
+          "place": "viseu",
+          "kind": "source",
+          "n": 11,
+          "label": "AI4PA Portugal agenda"
         }
       ]
     },
@@ -711,6 +748,37 @@
       ]
     },
     {
+      "url": "https://airv.pt/",
+      "host": "airv.pt",
+      "captured_at": "2026-11-16T14:34:07Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://airv.pt/",
+      "title": "AIRV",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/airv.pt/18cd5861009d.jpg",
+        "sha256": "cf03d3e8e379ce610abf939f535fe379b721ec2c8ff5799d161e04bd519df8d1",
+        "bytes": 123701,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/airv.pt/18cd5861009d.txt",
+        "sha256": "09b9a71a8f7a6dbae4860481abbfe4248e3a96b51d6f52feb6233d4fe1d1925a",
+        "chars": 7027
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "source",
+          "n": 10,
+          "label": "AIRV (Associação Empresarial da Região de Viseu)"
+        }
+      ]
+    },
+    {
       "url": "https://algarve.portugal2030.pt/",
       "host": "algarve.portugal2030.pt",
       "captured_at": "2026-11-16T00:17:03Z",
@@ -744,7 +812,7 @@
     {
       "url": "https://algarvedailynews.com",
       "host": "algarvedailynews.com",
-      "captured_at": "2026-11-16T13:23:33Z",
+      "captured_at": "2026-11-16T14:21:43Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -775,7 +843,7 @@
     {
       "url": "https://algarveevolution.pt",
       "host": "algarveevolution.pt",
-      "captured_at": "2026-11-16T13:27:46Z",
+      "captured_at": "2026-11-16T14:26:01Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -899,7 +967,7 @@
     {
       "url": "https://anacom.pt/render.jsp?contentId=1828354",
       "host": "anacom.pt",
-      "captured_at": "2026-11-16T13:28:05Z",
+      "captured_at": "2026-11-16T14:26:19Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -1559,7 +1627,7 @@
     {
       "url": "https://brigantia-ecopark.pt",
       "host": "brigantia-ecopark.pt",
-      "captured_at": "2026-11-16T13:30:46Z",
+      "captured_at": "2026-11-16T14:28:58Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -2046,7 +2114,7 @@
     {
       "url": "https://cm-aljezur.pt/pt/menu/105/aljezur-para-investir.aspx",
       "host": "cm-aljezur.pt",
-      "captured_at": "2026-11-16T13:27:57Z",
+      "captured_at": "2026-11-16T14:26:11Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -2304,7 +2372,7 @@
     {
       "url": "https://cms.cm-vrsa.pt/upload_files/client_id_1/website_id_1/Atividade%20Municipal/Atividades%20economicas/Gabinete%20do%20empreendorismo/Brochura_Gabinete%20do%20Empreendedorismo.pdf",
       "host": "cms.cm-vrsa.pt",
-      "captured_at": "2026-11-16T13:26:13Z",
+      "captured_at": "2026-11-16T14:24:27Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -2712,7 +2780,7 @@
     {
       "url": "https://dealroom.co/news",
       "host": "dealroom.co",
-      "captured_at": "2026-11-16T13:30:26Z",
+      "captured_at": "2026-11-16T14:28:40Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -2743,7 +2811,7 @@
     {
       "url": "https://dealroom.co/news/130785-augusta-labs-raises-seed-round-at-50m-valuation/",
       "host": "dealroom.co",
-      "captured_at": "2026-11-16T13:23:27Z",
+      "captured_at": "2026-11-16T14:21:38Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -2792,7 +2860,7 @@
     {
       "url": "https://dealroom.co/news/135231-coalex-ai-raises-angel-round-from-angels-way-to-build-its-ai-trust-layer/",
       "host": "dealroom.co",
-      "captured_at": "2026-11-16T13:23:25Z",
+      "captured_at": "2026-11-16T14:21:36Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -2897,7 +2965,7 @@
     {
       "url": "https://diariodarepublica.pt/dr/detalhe/anuncio-procedimento/33066-2025-992176457",
       "host": "diariodarepublica.pt",
-      "captured_at": "2026-11-16T13:30:39Z",
+      "captured_at": "2026-11-16T14:28:52Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -3145,6 +3213,49 @@
           "article": "ai-act-first-harmonised-standard",
           "kind": "article",
           "label": "ai-act-first-harmonised-standard"
+        }
+      ]
+    },
+    {
+      "url": "https://digital.gov.pt/en/noticias/ai4pa-polo-de-inovacao-digital-que-apoia-a-administracao-publica-e-as-pmes-na-transicao-para-a-ia",
+      "host": "digital.gov.pt",
+      "captured_at": "2026-11-16T14:31:54Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://digital.gov.pt/en/noticias/ai4pa-polo-de-inovacao-digital-que-apoia-a-administracao-publica-e-as-pmes-na-transicao-para-a-ia",
+      "title": "News",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/digital.gov.pt/6b03fbcd1fdf.jpg",
+        "sha256": "f909924f891996c025063232b04dcd757f8a8f324fa74911a73f3b974e8a8261",
+        "bytes": 188104,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/digital.gov.pt/6b03fbcd1fdf.txt",
+        "sha256": "14d74f211aba07b18b1b96eb4fd1634f7b6029fa2401eede56a632423851fe71",
+        "chars": 4482
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "map-site",
+          "n": 4,
+          "label": "AI4PA Portugal (European Digital Innovation Hub)"
+        },
+        {
+          "place": "viseu",
+          "kind": "gravity",
+          "n": 3,
+          "label": "AI4PA Portugal digital innovation hub (digital.gov.pt, updated 12 May 2026)"
+        },
+        {
+          "place": "viseu",
+          "kind": "source",
+          "n": 5,
+          "label": "AI4PA Portugal (digital innovation hub, via digital.gov.pt)"
         }
       ]
     },
@@ -4677,24 +4788,24 @@
     {
       "url": "https://elevateddesign.pt/",
       "host": "elevateddesign.pt",
-      "captured_at": "2026-11-16T13:26:16Z",
+      "captured_at": "2026-11-16T14:24:30Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": 429,
+      "ok": true,
+      "status": 200,
       "final_url": "https://elevateddesign.pt/",
-      "title": "",
-      "note": "the server answered 429",
+      "title": "Elevated Design - AI Integration & Web Design, Algarve",
+      "note": null,
       "image": {
         "path": "captures/2026-11-16/elevateddesign.pt/54fe9ceb0e8b.jpg",
-        "sha256": "d9858aa7b13eb035aa20ae564b2ccb3ba26f9011db6c767fcd90bacaa8168b56",
-        "bytes": 12757,
+        "sha256": "94206c8bbe2148c0f43ee0773d98af64de36db96394c631dc225d5304f23388f",
+        "bytes": 78698,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/elevateddesign.pt/54fe9ceb0e8b.txt",
-        "sha256": "3479d704c8a49db1cc64f8c4762a627f2e864318b89ac5afecadce54108ee9a0",
-        "chars": 0
+        "sha256": "79865ec013b267df545ef6c8362f79e25ca7cc5a83df8ac4a2641ad06f0a610f",
+        "chars": 5194
       },
       "cited_by": [
         {
@@ -5207,6 +5318,33 @@
       ]
     },
     {
+      "url": "https://essv.ipv.pt/wp-content/uploads/sites/10/2026/01/Despacho-91_2025-ORIENTACOES-IA.pdf",
+      "host": "essv.ipv.pt",
+      "captured_at": "2026-11-16T14:31:18Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": false,
+      "status": 503,
+      "final_url": "https://essv.univiseu.pt/wp-content/uploads/sites/10/2026/01/Despacho-91_2025-ORIENTACOES-IA.pdf",
+      "title": null,
+      "note": "the server answered 503",
+      "image": null,
+      "text": null,
+      "document": {
+        "path": "captures/2026-11-16/essv.ipv.pt/1240ca545562.bin",
+        "sha256": "4ea4333d628b6660cbd945434759f7ce42a4a66b8955276124926efe64e1adb7",
+        "bytes": 48,
+        "type": "text/plain"
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "news",
+          "n": 10,
+          "label": "The polytechnic issues its rules for AI tools"
+        }
+      ]
+    },
+    {
       "url": "https://estig.unipb.pt/en/events/",
       "host": "estig.unipb.pt",
       "captured_at": "2026-11-16T10:27:11Z",
@@ -5518,6 +5656,37 @@
           "kind": "map",
           "n": 11,
           "label": "Algarve Smart Destination, Digital Innovation Hub"
+        }
+      ]
+    },
+    {
+      "url": "https://events.ipv.pt/cised/en/cised/",
+      "host": "events.ipv.pt",
+      "captured_at": "2026-11-16T14:32:45Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://events.ipv.pt/cised/en/cised/",
+      "title": "CISeD – CISeD",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/events.ipv.pt/2310aa3ca7e0.jpg",
+        "sha256": "bfc8c3e8215731ed67ef700503c064cb14f291fde7e24447b6379a125561f90d",
+        "bytes": 189278,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/events.ipv.pt/2310aa3ca7e0.txt",
+        "sha256": "76fff4a6f6addb899d6473bb07f4ddeabec86a160efb294a1b7114f9648f7482",
+        "chars": 4669
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "map",
+          "n": 10,
+          "label": "CISeD (Centro de Investigação em Serviços Digitais, UPV)"
         }
       ]
     },
@@ -10728,6 +10897,39 @@
       ]
     },
     {
+      "url": "https://ipv.pt/wp-content/uploads/2025/10/Ficha-projeto-RisKMap.pdf",
+      "host": "ipv.pt",
+      "captured_at": "2026-11-16T14:31:37Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://univiseu.pt/wp-content/uploads/2025/10/Ficha-projeto-RisKMap.pdf",
+      "title": null,
+      "note": "a document (application/pdf); the file itself is the capture",
+      "image": null,
+      "text": null,
+      "document": {
+        "path": "captures/2026-11-16/ipv.pt/0f7e6de2d436.pdf",
+        "sha256": "fa9b8fad06e80282fb9bb8aad11fcd6c9480753186babea1b99c86b93afc2bb1",
+        "bytes": 238494,
+        "type": "application/pdf"
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "map",
+          "n": 2,
+          "label": "RiskMap (IPV with Universidade de Aveiro and FEUP)"
+        },
+        {
+          "place": "viseu",
+          "kind": "gravity",
+          "n": 2,
+          "label": "RiskMap project sheet (Instituto Politécnico de Viseu, started 1 October 2025)"
+        }
+      ]
+    },
+    {
       "url": "https://jnation.pt/",
       "host": "jnation.pt",
       "captured_at": "2026-11-16T13:31:57Z",
@@ -10798,7 +11000,7 @@
     {
       "url": "https://jornaldoalgarve.pt",
       "host": "jornaldoalgarve.pt",
-      "captured_at": "2026-11-16T13:23:31Z",
+      "captured_at": "2026-11-16T14:21:41Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -10807,14 +11009,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/4911303f8afc.jpg",
-        "sha256": "d85f5853d96d031ef2a3d2bebb2fa3132a8f3734746718ae9e45139a399f49e1",
-        "bytes": 39239,
+        "sha256": "4d1c9ccbf578581359cb8b710890b0c08c969874f9f58957d569e15182218b1d",
+        "bytes": 39275,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/4911303f8afc.txt",
-        "sha256": "33ad683f54385078fe6c060bc0ef0ee04cda10c87a32fc12dbc3f9c9b74a2bd2",
+        "sha256": "a0336243c25849d63879841d66b065a2000ed5b4722ae70b679908b799055d29",
         "chars": 279
       },
       "cited_by": [
@@ -10829,7 +11031,7 @@
     {
       "url": "https://jornaldoalgarve.pt/",
       "host": "jornaldoalgarve.pt",
-      "captured_at": "2026-11-16T13:28:02Z",
+      "captured_at": "2026-11-16T14:26:17Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -10838,14 +11040,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/941e71abacc1.jpg",
-        "sha256": "03538ff651f808bddff02e1db53e25068253a530e71a3266caba0519fcac1ed9",
-        "bytes": 39282,
+        "sha256": "3e1142bed4b37e6de7402b5dd44a4191baf04e16b60fac49462b9985720c2172",
+        "bytes": 39160,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/jornaldoalgarve.pt/941e71abacc1.txt",
-        "sha256": "095ee8ff7ca6529523e446acbc564f9f666b0f2584b94ac8f75c8f550d3e4a6b",
+        "sha256": "3e58b1edeae0fa941cf403d4f04d03d8b6be1bf46e555b7dfd68ab741a15cca7",
         "chars": 279
       },
       "cited_by": [
@@ -11225,7 +11427,7 @@
     {
       "url": "https://lisboaaberta.cm-lisboa.pt",
       "host": "lisboaaberta.cm-lisboa.pt",
-      "captured_at": "2026-11-16T13:30:24Z",
+      "captured_at": "2026-11-16T14:28:38Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -11234,14 +11436,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/e88e0f52bdde.jpg",
-        "sha256": "0195d6429d58edee8c83dafc0e374eeabe671ebd5b7abaa6a4234fb4dae6df43",
-        "bytes": 40153,
+        "sha256": "1b09be4f959535bf52f0c97e32592524bfffa192c4ad3ff9b3ea285333c82609",
+        "bytes": 40212,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/e88e0f52bdde.txt",
-        "sha256": "423a5d4387f2392b2681af988fe84dacc6a6a02224226263d3b2a721130413c4",
+        "sha256": "61c6c59dc65e54d4ba404b4babbc64c5cee52ea683ddcc75f7e49e5e5a2a1b50",
         "chars": 286
       },
       "cited_by": [
@@ -11262,7 +11464,7 @@
     {
       "url": "https://lisboaaberta.cm-lisboa.pt/index.php/pt/lx-data-lab/desafios",
       "host": "lisboaaberta.cm-lisboa.pt",
-      "captured_at": "2026-11-16T13:30:21Z",
+      "captured_at": "2026-11-16T14:28:35Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -11271,14 +11473,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/896372b8cfac.jpg",
-        "sha256": "a69f976b0fe8fe0d67e0f96d4a1ecd9e0333759c1e6b0339fe3e79482f599bee",
-        "bytes": 40198,
+        "sha256": "06e8545498fecb12f13d821da83379ae0ca8e84335cf955a6d3e5e7ab2d7d5b3",
+        "bytes": 40148,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/lisboaaberta.cm-lisboa.pt/896372b8cfac.txt",
-        "sha256": "713aa04857198b49f44fb00edc150247c1846eb150ae5bc9610fa54041807a31",
+        "sha256": "57ba0656c72e5dd5f16317bab9aaf67782ef8ade47ceccf003a0a5f2a79949b9",
         "chars": 286
       },
       "cited_by": [
@@ -11429,6 +11631,74 @@
           "article": "what-lovable-deleted",
           "kind": "article",
           "label": "what-lovable-deleted"
+        }
+      ]
+    },
+    {
+      "url": "https://maisbeiras.sapo.pt",
+      "host": "maisbeiras.sapo.pt",
+      "captured_at": "2026-11-16T14:33:38Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://maisbeiras.sapo.pt/",
+      "title": "MaisBeiras Informação",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/maisbeiras.sapo.pt/3738f18c4188.jpg",
+        "sha256": "2f8b110cc6cec4a72e8aa9aea42b5811267ddadae8e63d44ec213c55a86be7e5",
+        "bytes": 170677,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/maisbeiras.sapo.pt/3738f18c4188.txt",
+        "sha256": "ed5d2ef4332a9dfffad186bd886c2accdc1d84149affe0cce6f35bcab16aff05",
+        "chars": 15640
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "source",
+          "n": 4,
+          "label": "Mais Beiras (SAPO)"
+        }
+      ]
+    },
+    {
+      "url": "https://maisbeiras.sapo.pt/viseu-industriatechai-2026-coloca-viseu-no-centro-da-inovacao-industrial-e-da-inteligencia-artificial",
+      "host": "maisbeiras.sapo.pt",
+      "captured_at": "2026-11-16T14:29:59Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://maisbeiras.sapo.pt/viseu-industriatechai-2026-coloca-viseu-no-centro-da-inovacao-industrial-e-da-inteligencia-artificial",
+      "title": "VISEU: IndustriaTech+AI 2026 coloca Viseu no centro da inovação industrial e da Inteligência Artificial",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/maisbeiras.sapo.pt/8f3a3d742fb8.jpg",
+        "sha256": "6c030d935421545086d0dba20cbd11efc235fe0f0f5c8edd606262f5ace38583",
+        "bytes": 184362,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/maisbeiras.sapo.pt/8f3a3d742fb8.txt",
+        "sha256": "fd72a328c90cd4289fd3b5508cfdf62a52fe7f029e2150fffbeca742878b025c",
+        "chars": 13458
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "news",
+          "n": 2,
+          "label": "IndustriaTech+AI 2026 puts AI on the factory-floor agenda in Viseu"
+        },
+        {
+          "place": "viseu",
+          "kind": "event",
+          "n": 2,
+          "label": "IndustriaTech+AI 2026 (DEMGI, Universidade Politécnica de Viseu, AIRV, council)"
         }
       ]
     },
@@ -11862,24 +12132,24 @@
     {
       "url": "https://mun-guarda.pt/agenda-de-eventos/",
       "host": "mun-guarda.pt",
-      "captured_at": "2026-11-16T13:34:27Z",
+      "captured_at": "2026-11-16T14:29:28Z",
       "by": "data.places@PrompTugal.dinis",
-      "ok": false,
-      "status": 429,
+      "ok": true,
+      "status": 200,
       "final_url": "https://mun-guarda.pt/agenda-de-eventos/",
-      "title": "",
-      "note": "the server answered 429",
+      "title": "Eventos - Portal Municipal da Guarda",
+      "note": null,
       "image": {
         "path": "captures/2026-11-16/mun-guarda.pt/6fa4bbee5a55.jpg",
-        "sha256": "d9858aa7b13eb035aa20ae564b2ccb3ba26f9011db6c767fcd90bacaa8168b56",
-        "bytes": 12757,
+        "sha256": "f41bd46bbcecfe14d5c44d192231739681cac3a06184f8b1d6daf4be183e4c39",
+        "bytes": 125880,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/mun-guarda.pt/6fa4bbee5a55.txt",
-        "sha256": "5fd52ef0366750f46a784194aadfc11c94a74958d1e329cba106ba340aa8db18",
-        "chars": 0
+        "sha256": "2db3b6c4cee99b263117042e345e402da511d8f9c535f4d8fae65bd77959112a",
+        "chars": 9367
       },
       "cited_by": [
         {
@@ -11924,7 +12194,7 @@
     {
       "url": "https://mun-guarda.pt/noticias/",
       "host": "mun-guarda.pt",
-      "captured_at": "2026-11-16T13:34:25Z",
+      "captured_at": "2026-11-16T14:29:22Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -12355,7 +12625,7 @@
     {
       "url": "https://noticias.uc.pt/en/",
       "host": "noticias.uc.pt",
-      "captured_at": "2026-11-16T13:32:18Z",
+      "captured_at": "2026-11-16T14:29:13Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -12364,14 +12634,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/noticias.uc.pt/749a372bb363.jpg",
-        "sha256": "bd2af3855b81555817004adc14a3f314bade49f7d71d4b91f189cacec5936928",
-        "bytes": 36352,
+        "sha256": "a4c6136e0912e14cce7b89c7cffcca40adc06219dcc62d649e33a868a4876342",
+        "bytes": 36321,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/noticias.uc.pt/749a372bb363.txt",
-        "sha256": "b1f2121e1945b5743108ee8fe51d4621962f9c812187c382d21877a499ec7598",
+        "sha256": "602153d58bfdf937c7ea319bdff218c652fb262d1f5af9423e4876c3258138c0",
         "chars": 58
       },
       "cited_by": [
@@ -12386,7 +12656,7 @@
     {
       "url": "https://noticias.uc.pt/en/articles/the-centre-for-informatics-and-systems-of-the-university-of-coimbra-joins-the-largest-global-artificial-intelligence-consortium/",
       "host": "noticias.uc.pt",
-      "captured_at": "2026-11-16T13:31:11Z",
+      "captured_at": "2026-11-16T14:29:08Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -12395,14 +12665,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/noticias.uc.pt/6bbf9d9b114e.jpg",
-        "sha256": "c5772785248174b83bea5e2b77bc0c01a4503813a466babb4250d1700105524f",
-        "bytes": 36318,
+        "sha256": "904a90e464b8d264c4fd1bdf155939ee43bc5f753eb5c63aa6924cde901336c5",
+        "bytes": 36325,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/noticias.uc.pt/6bbf9d9b114e.txt",
-        "sha256": "92f00822a37ad4bc8a26f66ae4555e30fb9879ec6b392c59ceccda74c7acfdff",
+        "sha256": "0fa7b4ecec7bbb217730b8c1332bcbe29aff2a562150889463ac5d03655994cf",
         "chars": 58
       },
       "cited_by": [
@@ -18351,7 +18621,7 @@
     {
       "url": "https://regiao-sul.pt",
       "host": "regiao-sul.pt",
-      "captured_at": "2026-11-16T13:24:16Z",
+      "captured_at": "2026-11-16T14:22:29Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -18360,14 +18630,14 @@
       "note": "a bot challenge or an access page was served; recorded as such, not got round",
       "image": {
         "path": "captures/2026-11-16/regiao-sul.pt/6c20a464b928.jpg",
-        "sha256": "73164e40456018694f482334e963d4f366ca1f8c1f75b00b630d17a4d1c4f0a9",
-        "bytes": 72838,
+        "sha256": "f51fadb0a2202d84ba1d595091dd0d6dc8bcd8e4e5049c9f3a96b4536b0da802",
+        "bytes": 72799,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/regiao-sul.pt/6c20a464b928.txt",
-        "sha256": "be7452312d395c0ef27bc9d25f6061a4b7701fc552ef467fcc8c1851c67cc122",
+        "sha256": "b19d3e04e273f2b8ae93872908077501b2772c4082f2ffc438191b3efe1b1da5",
         "chars": 690
       },
       "cited_by": [
@@ -18697,6 +18967,43 @@
           "kind": "source",
           "n": 6,
           "label": "CCMAR, University of Algarve: SAL+ project"
+        }
+      ]
+    },
+    {
+      "url": "https://sapo.pt/artigo/cim-viseu-dao-lafoes-mais-de-240-professores-no-coloquio-que-debateu-o-papel-da-inteligencia-artificial-na-educacao-69b82cc9a5584ea5f61ee709",
+      "host": "sapo.pt",
+      "captured_at": "2026-11-16T14:30:54Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://sapo.pt/artigo/cim-viseu-dao-lafoes-mais-de-240-professores-no-coloquio-que-debateu-o-papel-da-inteligencia-artificial-na-educacao-69b82cc9a5584ea5f61ee709",
+      "title": "CIM VISEU DÃO LAFÕES: Mais de 240 Professores no Colóquio que debateu o papel da Inteligência Artificial na educação",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/sapo.pt/a52c783cbbd1.jpg",
+        "sha256": "151a9691b4f992aebe6808f456abae3c6f20c8603cf164835af1dc9d49878d12",
+        "bytes": 187372,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/sapo.pt/a52c783cbbd1.txt",
+        "sha256": "47ba3088f521dc546ae8776de05c721121126a845df84a1f37c00282c4150185",
+        "chars": 36804
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "news",
+          "n": 7,
+          "label": "The CIM gathers 240 teachers in Viseu to debate AI in schools"
+        },
+        {
+          "place": "viseu",
+          "kind": "event",
+          "n": 4,
+          "label": "CIM colloquium: Inteligência Artificial, que rumos para a Educação? (ESTGV auditorium)"
         }
       ]
     },
@@ -19109,6 +19416,173 @@
       ]
     },
     {
+      "url": "https://starinstitute.pt/",
+      "host": "starinstitute.pt",
+      "captured_at": "2026-11-16T14:32:27Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://starinstitute.pt/",
+      "title": "STAR Institute - Science & technology applied research",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/starinstitute.pt/16f954eb9724.jpg",
+        "sha256": "8c8c32081da06dbe051bcc889a4d78f7b35d32519bece401e4064e0d3421bc98",
+        "bytes": 139191,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/starinstitute.pt/16f954eb9724.txt",
+        "sha256": "c1ab8ea03c6d0ce8d4efd40784cb109c9b14fb3d7346d7a83755a21d755cc646",
+        "chars": 1493
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "map-site",
+          "n": 8,
+          "label": "STAR Institute (Centro de Tecnologia e Inovação)"
+        }
+      ]
+    },
+    {
+      "url": "https://starinstitute.pt/associados-do-star/",
+      "host": "starinstitute.pt",
+      "captured_at": "2026-11-16T14:32:53Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://starinstitute.pt/associados-do-star/",
+      "title": "Associados do STAR - STAR Institute",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/starinstitute.pt/f408a185fca3.jpg",
+        "sha256": "90c435914ef32bfbe8e940f2b9bb4ff330936b70ea7219c73a050ac861ee18ba",
+        "bytes": 133967,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/starinstitute.pt/f408a185fca3.txt",
+        "sha256": "50efb4457e26118e4ba5e5b2e8663804e871a842a541ef90d366f32a2570d9ea",
+        "chars": 5576
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "map",
+          "n": 12,
+          "label": "Roboplan"
+        }
+      ]
+    },
+    {
+      "url": "https://starinstitute.pt/noticias/",
+      "host": "starinstitute.pt",
+      "captured_at": "2026-11-16T14:33:48Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://starinstitute.pt/noticias/",
+      "title": "Notícias - STAR Institute",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/starinstitute.pt/1da395c2aa08.jpg",
+        "sha256": "4b52ccbc65c7cfd1a595174ddae8ddd3461c965849f4b6eccd838e0a1d28193d",
+        "bytes": 253819,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/starinstitute.pt/1da395c2aa08.txt",
+        "sha256": "eb6c358d55afccaf763bff38b26a066eb3c7dc4c76c50ed318b9909a1c91c285",
+        "chars": 1221
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "source",
+          "n": 8,
+          "label": "STAR Institute (technology and innovation centre, UPV campus)"
+        }
+      ]
+    },
+    {
+      "url": "https://starinstitute.pt/noticias/inauguracao-do-centro-de-tecnologia-e-inovacao-do-star-institute/",
+      "host": "starinstitute.pt",
+      "captured_at": "2026-11-16T14:30:29Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://starinstitute.pt/noticias/inauguracao-do-centro-de-tecnologia-e-inovacao-do-star-institute/",
+      "title": "Inauguração do Centro de Tecnologia e Inovação do STAR Institute - STAR Institute",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/starinstitute.pt/0ded787a766c.jpg",
+        "sha256": "c342b9c522f6a89b661b37a4e752088e0352911e488cdfbe65821d4d351df488",
+        "bytes": 220158,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/starinstitute.pt/0ded787a766c.txt",
+        "sha256": "0e3e8b0e54c84727b1aff4cda968734959ae4c4f0b8a45f4d8bce3257f0ad273",
+        "chars": 1930
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "news",
+          "n": 5,
+          "label": "STAR Institute opens in Viseu with AI among its core areas and two startups on site"
+        },
+        {
+          "place": "viseu",
+          "kind": "event",
+          "n": 3,
+          "label": "STAR Institute inauguration of its Technology and Innovation Centre"
+        },
+        {
+          "place": "viseu",
+          "kind": "gravity",
+          "n": 5,
+          "label": "STAR Institute opens its Technology and Innovation Centre (STAR Institute, 22 May 2026)"
+        }
+      ]
+    },
+    {
+      "url": "https://starinstitute.pt/oferta/",
+      "host": "starinstitute.pt",
+      "captured_at": "2026-11-16T14:32:20Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://starinstitute.pt/oferta/",
+      "title": "Oferta - STAR Institute",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/starinstitute.pt/73f5eb6bb24d.jpg",
+        "sha256": "1a243f5f99894ca67e4c361b8b01311fa5ffcc34bead99f68967676b1e8c5234",
+        "bytes": 197548,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/starinstitute.pt/73f5eb6bb24d.txt",
+        "sha256": "451c647bc4a98e4b5bef13f92b871d6c581a35b4ce451a46d32015cd4a04f03d",
+        "chars": 1450
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "map",
+          "n": 8,
+          "label": "STAR Institute (Centro de Tecnologia e Inovação)"
+        }
+      ]
+    },
+    {
       "url": "https://startupgenome.com/ecosystems/porto",
       "host": "startupgenome.com",
       "captured_at": "2026-11-16T06:25:51Z",
@@ -19333,6 +19807,43 @@
           "article": "road-2-web-summit-beyond-lisbon",
           "kind": "article",
           "label": "road-2-web-summit-beyond-lisbon"
+        }
+      ]
+    },
+    {
+      "url": "https://startupportugal.com/we-offer-a-complete-ecosystem-straight-from-airv-business-incubator/",
+      "host": "startupportugal.com",
+      "captured_at": "2026-11-16T14:31:59Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://startupportugal.com/blog/we-offer-a-complete-ecosystem-straight-from-airv-business-incubator/",
+      "title": "“We offer a complete ecosystem”: straight from AIRV Business Incubator • Startup Portugal",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/startupportugal.com/51f60bb87d4f.jpg",
+        "sha256": "a2c893217b3be92441da3878c005c55aac5ad49d6b12eeee37a783a020d8e03a",
+        "bytes": 195670,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/startupportugal.com/51f60bb87d4f.txt",
+        "sha256": "656006e017fd809709b43e4703a1733cd10ffa3731e164711c15da13b0e4401c",
+        "chars": 10990
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "map",
+          "n": 6,
+          "label": "AIRV (Associação Empresarial da Região de Viseu) and its business incubator"
+        },
+        {
+          "place": "viseu",
+          "kind": "source",
+          "n": 6,
+          "label": "AIRV business incubator (via Startup Portugal)"
         }
       ]
     },
@@ -20447,7 +20958,7 @@
     {
       "url": "https://uhu.es/sites/otc/files/proyectos_europeos/kttseadrones.pdf",
       "host": "uhu.es",
-      "captured_at": "2026-11-16T13:28:00Z",
+      "captured_at": "2026-11-16T14:26:14Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -20509,7 +21020,7 @@
     {
       "url": "https://unipb.pt",
       "host": "unipb.pt",
-      "captured_at": "2026-11-16T13:30:43Z",
+      "captured_at": "2026-11-16T14:28:56Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 200,
@@ -20540,6 +21051,142 @@
           "kind": "source",
           "n": 4,
           "label": "Universidade Politécnica de Bragança (formerly Instituto Politécnico de Bragança)"
+        }
+      ]
+    },
+    {
+      "url": "https://univiseu.pt",
+      "host": "univiseu.pt",
+      "captured_at": "2026-11-16T14:31:36Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://univiseu.pt/",
+      "title": "UPV - Bem-vindo ao site da Universidade Politécnica de Viseu!",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/univiseu.pt/8ab02cb14fe3.jpg",
+        "sha256": "f8a7ce3ab3653edaf026736c0f8f94286dec4112f50c332f45d8e727ce9f11b8",
+        "bytes": 171039,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/univiseu.pt/8ab02cb14fe3.txt",
+        "sha256": "6193f77727926251d6a4497222890348d63546213eacedc77e476ccfc7df4dca",
+        "chars": 2607
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "map-site",
+          "n": 1,
+          "label": "Universidade Politécnica de Viseu (until 31 July 2026 Instituto Politécnico de Viseu, IPV)"
+        }
+      ]
+    },
+    {
+      "url": "https://univiseu.pt/instituto-politecnico-de-viseu-passou-a-universidade-politecnica-de-viseu-a-partir-de-1-de-agosto/",
+      "host": "univiseu.pt",
+      "captured_at": "2026-11-16T14:31:31Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://univiseu.pt/instituto-politecnico-de-viseu-passou-a-universidade-politecnica-de-viseu-a-partir-de-1-de-agosto/",
+      "title": "Instituto Politécnico de Viseu passou a Universidade Politécnica de Viseu a partir de 1 de agosto - UPV",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/univiseu.pt/9dd51ae389fe.jpg",
+        "sha256": "660d9421fbf0335434b0b7ff736b2bf6383b5ad3cf0df04ecf49484da502ad05",
+        "bytes": 177694,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/univiseu.pt/9dd51ae389fe.txt",
+        "sha256": "0a146a9f8adad690fe97c84a7570dc9af59234af7e78bc357caabadccce94feb",
+        "chars": 4710
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "map",
+          "n": 1,
+          "label": "Universidade Politécnica de Viseu (until 31 July 2026 Instituto Politécnico de Viseu, IPV)"
+        },
+        {
+          "place": "viseu",
+          "kind": "gravity",
+          "n": 6,
+          "label": "Instituto Politécnico de Viseu became Universidade Politécnica de Viseu from 1 August (UPV, 2 September 2026)"
+        }
+      ]
+    },
+    {
+      "url": "https://univiseu.pt/noticias-ipv/",
+      "host": "univiseu.pt",
+      "captured_at": "2026-11-16T14:30:43Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://univiseu.pt/noticias-ipv/",
+      "title": "Noticias IPV - UPV",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/univiseu.pt/aef556d03713.jpg",
+        "sha256": "5a1a2c975e80cb7d3c568052dd4ca869d3fa3e1a7a9a4c4befd33d402bf21c8f",
+        "bytes": 81298,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/univiseu.pt/aef556d03713.txt",
+        "sha256": "3b20df60481ff535617f533c58de78420e6ea187bd097516c02268de792c4d79",
+        "chars": 4383
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "news",
+          "n": 6,
+          "label": "Viseu's polytechnic runs a second edition of its generative AI course for higher education teachers"
+        },
+        {
+          "place": "viseu",
+          "kind": "source",
+          "n": 2,
+          "label": "Universidade Politécnica de Viseu: news"
+        }
+      ]
+    },
+    {
+      "url": "https://unu.edu/egov/news/unu-egov-ai-digital-transformation-event-viseu",
+      "host": "unu.edu",
+      "captured_at": "2026-11-16T14:31:47Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://unu.edu/egov/news/unu-egov-ai-digital-transformation-event-viseu",
+      "title": "UNU-EGOV at AI & Digital Transformation Event in Viseu | United Nations University",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/unu.edu/3b58e3a61091.jpg",
+        "sha256": "3fafd43b66ef6b9506abf853e6d626d4e92d5166b691b1b40236680839265202",
+        "bytes": 131905,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/unu.edu/3b58e3a61091.txt",
+        "sha256": "8e4ada51761b7a36aa6d425182aeb7ca3df414fff43c56ba934efe9073eef4b3",
+        "chars": 4962
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "map",
+          "n": 4,
+          "label": "AI4PA Portugal (European Digital Innovation Hub)"
         }
       ]
     },
@@ -22186,6 +22833,117 @@
       ]
     },
     {
+      "url": "https://viseudigitaltech.pt/",
+      "host": "viseudigitaltech.pt",
+      "captured_at": "2026-11-16T14:31:03Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://viseudigitaltech.pt/",
+      "title": "Viseu Digital Tech | Inteligência Artificial para Empresas",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/viseudigitaltech.pt/7c3c3fdb687a.jpg",
+        "sha256": "1b7010dfad26f29cd74ab13b661072cd9452aa3cd8f9c42e3b9e3661ccdd8972",
+        "bytes": 197439,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/viseudigitaltech.pt/7c3c3fdb687a.txt",
+        "sha256": "0b19b5c9cad24f8f6845b90b3b3f53afb8fa2e18d097ef522685004915127d41",
+        "chars": 4243
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "news",
+          "n": 8,
+          "label": "Viseu Digital Tech spends an afternoon on AI for companies"
+        },
+        {
+          "place": "viseu",
+          "kind": "map",
+          "n": 7,
+          "label": "CESAE Digital"
+        },
+        {
+          "place": "viseu",
+          "kind": "event",
+          "n": 5,
+          "label": "Viseu Digital Tech 2026, second edition (CESAE Digital, ESTGV auditorium)"
+        },
+        {
+          "place": "viseu",
+          "kind": "source",
+          "n": 7,
+          "label": "Viseu Digital Tech"
+        }
+      ]
+    },
+    {
+      "url": "https://vitebtestbed.com/en/competences",
+      "host": "vitebtestbed.com",
+      "captured_at": "2026-11-16T14:32:38Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://vitebtestbed.com/en/competences",
+      "title": "VITEB - Digital Products & Advanced Industrial Processes - COMPETÊNCIAS",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/vitebtestbed.com/f637be9fc953.jpg",
+        "sha256": "e85e1619647d995f251cfc3ff467972dab916d1d7d0a539ce94b12c391c357cd",
+        "bytes": 165491,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/vitebtestbed.com/f637be9fc953.txt",
+        "sha256": "388faf156aebe0b3fa97578964c003340a7e9cb9ae937a16862c5f5fc3767e09",
+        "chars": 2150
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "map-site",
+          "n": 9,
+          "label": "ViTeB (Visabeira I&D Test Bed)"
+        }
+      ]
+    },
+    {
+      "url": "https://vitebtestbed.com/en/projects/projects",
+      "host": "vitebtestbed.com",
+      "captured_at": "2026-11-16T14:32:34Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://vitebtestbed.com/en/projects/projects",
+      "title": "VITEB - Digital Products & Advanced Industrial Processes - Projetos",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/vitebtestbed.com/f445f318a284.jpg",
+        "sha256": "bf0db05d7da2d71d4f951228aa6c9edf80eb1af762d81c038142f9656508eb72",
+        "bytes": 105020,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/vitebtestbed.com/f445f318a284.txt",
+        "sha256": "8c7805ef9f0e656a3a742dcc6254c60f5ea1ff72cc2c98e99718d0711f29be0e",
+        "chars": 1700
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "map",
+          "n": 9,
+          "label": "ViTeB (Visabeira I&D Test Bed)"
+        }
+      ]
+    },
+    {
       "url": "https://vivaportimao.pt",
       "host": "vivaportimao.pt",
       "captured_at": "2026-11-15T23:41:36Z",
@@ -22649,7 +23407,7 @@
     {
       "url": "https://websig.cm-vrsa.pt/geoportal",
       "host": "websig.cm-vrsa.pt",
-      "captured_at": "2026-11-16T13:25:48Z",
+      "captured_at": "2026-11-16T14:24:01Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -22773,7 +23531,7 @@
     {
       "url": "https://www.agroportal.pt/",
       "host": "agroportal.pt",
-      "captured_at": "2026-11-16T13:32:43Z",
+      "captured_at": "2026-11-16T14:29:17Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -22782,14 +23540,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/agroportal.pt/f95662923861.jpg",
-        "sha256": "30b8d0e6c74ff21837428b4624fa0fc66c97ba465621833072236a264589990f",
-        "bytes": 35957,
+        "sha256": "0872b0c929fde304065fc62c8abe2a9cd94d18f6cc1791bc67a1fd780fe32d7b",
+        "bytes": 36091,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/agroportal.pt/f95662923861.txt",
-        "sha256": "221db08d783d44fe6cee27e10125ad91490d8c756dc5f5127933793944fe0b0f",
+        "sha256": "2c4f691da63dd0de627e5ac44684d6016b66130438a398d60142e59c509c99ed",
         "chars": 278
       },
       "cited_by": [
@@ -23834,7 +24592,7 @@
     {
       "url": "https://www.aman-alliance.org/Home/ContentDetail/103391",
       "host": "aman-alliance.org",
-      "captured_at": "2026-11-16T13:30:29Z",
+      "captured_at": "2026-11-16T14:28:42Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -28314,6 +29072,37 @@
       ]
     },
     {
+      "url": "https://www.cesae.pt/categoria-curso/locais/viseu/",
+      "host": "cesae.pt",
+      "captured_at": "2026-11-16T14:32:08Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://cesaedigital.pt/fldrSite/default.aspx",
+      "title": "CESAE Digital – Desenvolvimento das Competências Digitais",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cesae.pt/53a08b1d4cc6.jpg",
+        "sha256": "9cbf879d9110f4abc01081ae5a74d4721e04864fa07ccc6a8be03231e469b5c7",
+        "bytes": 175876,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cesae.pt/53a08b1d4cc6.txt",
+        "sha256": "f4d7126d6d5d0befd74ef413fb5b207e31889eef8fd75e420c0f963827d319a7",
+        "chars": 6815
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "map-site",
+          "n": 7,
+          "label": "CESAE Digital"
+        }
+      ]
+    },
+    {
       "url": "https://www.cio.com/administraciones-publicas/el-ayuntamiento-de-ayamonte-apuesta-por-la-digitalizacion-para-adaptarse-a-las-nuevas-necesidades-de-los-ciudadanos",
       "host": "cio.com",
       "captured_at": "2026-11-15T23:38:36Z",
@@ -28557,7 +29346,7 @@
     {
       "url": "https://www.cm-aljezur.pt",
       "host": "cm-aljezur.pt",
-      "captured_at": "2026-11-16T13:27:36Z",
+      "captured_at": "2026-11-16T14:25:51Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29175,7 +29964,7 @@
     {
       "url": "https://www.cm-faro.pt",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T13:23:53Z",
+      "captured_at": "2026-11-16T14:22:04Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29212,7 +30001,7 @@
     {
       "url": "https://www.cm-faro.pt/pt/agenda/91707/novembro-digital.aspx",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T13:24:03Z",
+      "captured_at": "2026-11-16T14:22:14Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29243,7 +30032,7 @@
     {
       "url": "https://www.cm-faro.pt/pt/agenda/91716/mentes-artificiais-ola-futuro.aspx",
       "host": "cm-faro.pt",
-      "captured_at": "2026-11-16T13:23:43Z",
+      "captured_at": "2026-11-16T14:21:54Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29280,7 +30069,7 @@
     {
       "url": "https://www.cm-lagoa.pt/comunicacao/eventos",
       "host": "cm-lagoa.pt",
-      "captured_at": "2026-11-16T13:26:23Z",
+      "captured_at": "2026-11-16T14:24:37Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 404,
@@ -29528,7 +30317,7 @@
     {
       "url": "https://www.cm-loule.pt",
       "host": "cm-loule.pt",
-      "captured_at": "2026-11-16T13:24:13Z",
+      "captured_at": "2026-11-16T14:22:27Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29565,7 +30354,7 @@
     {
       "url": "https://www.cm-loule.pt/",
       "host": "cm-loule.pt",
-      "captured_at": "2026-11-16T13:24:26Z",
+      "captured_at": "2026-11-16T14:22:39Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29602,7 +30391,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T13:26:43Z",
+      "captured_at": "2026-11-16T14:24:57Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29633,7 +30422,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/151/protecao-civil.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T13:27:03Z",
+      "captured_at": "2026-11-16T14:25:18Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29664,7 +30453,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/2495/incubadora-de-empresas.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T13:27:13Z",
+      "captured_at": "2026-11-16T14:25:28Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29695,7 +30484,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/260/gabinete-de-empreendedorismo.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T13:27:26Z",
+      "captured_at": "2026-11-16T14:25:40Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29726,7 +30515,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/menu/2796/ficha-de-projeto-vale-incubadoras-e-aceleradoras.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T13:26:33Z",
+      "captured_at": "2026-11-16T14:24:47Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29763,7 +30552,7 @@
     {
       "url": "https://www.cm-monchique.pt/pt/noticias-listagem.aspx",
       "host": "cm-monchique.pt",
-      "captured_at": "2026-11-16T13:26:53Z",
+      "captured_at": "2026-11-16T14:25:07Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29899,7 +30688,7 @@
     {
       "url": "https://www.cm-sbras.pt",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T13:28:25Z",
+      "captured_at": "2026-11-16T14:26:40Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29936,7 +30725,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/24008/gobal-fire.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T13:29:26Z",
+      "captured_at": "2026-11-16T14:27:41Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29967,7 +30756,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/agenda.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T13:29:57Z",
+      "captured_at": "2026-11-16T14:28:10Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -29998,7 +30787,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/agenda/38214/sabados-no-mercado.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T13:29:16Z",
+      "captured_at": "2026-11-16T14:27:30Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30029,7 +30818,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1038/gabinete-do-empreendedor.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T13:30:07Z",
+      "captured_at": "2026-11-16T14:28:21Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30060,7 +30849,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1641/espacos-de-incubacao.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T13:28:35Z",
+      "captured_at": "2026-11-16T14:26:50Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30103,7 +30892,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T13:28:56Z",
+      "captured_at": "2026-11-16T14:27:10Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30140,7 +30929,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=3",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T13:28:46Z",
+      "captured_at": "2026-11-16T14:27:00Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30177,7 +30966,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1686/os-nossos-empreendedores.aspx?page=4",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T13:29:06Z",
+      "captured_at": "2026-11-16T14:27:21Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30208,7 +30997,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/menu/1710/sao-bras-on---rede-empresarial.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T13:30:17Z",
+      "captured_at": "2026-11-16T14:28:31Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30239,7 +31028,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias-listagem.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T13:29:47Z",
+      "captured_at": "2026-11-16T14:28:00Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30270,7 +31059,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T13:28:15Z",
+      "captured_at": "2026-11-16T14:26:29Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30319,7 +31108,7 @@
     {
       "url": "https://www.cm-sbras.pt/pt/noticias/38244/praca-1914-integra-rede-portuguesa-de-turismo-industrial.aspx",
       "host": "cm-sbras.pt",
-      "captured_at": "2026-11-16T13:29:36Z",
+      "captured_at": "2026-11-16T14:27:50Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30350,7 +31139,7 @@
     {
       "url": "https://www.cm-silves.pt",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T13:24:46Z",
+      "captured_at": "2026-11-16T14:22:59Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30387,7 +31176,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/agenda.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T13:25:06Z",
+      "captured_at": "2026-11-16T14:23:20Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30418,7 +31207,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/menu/67/gel---gabinete-de-empreendedorismo-local.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T13:25:16Z",
+      "captured_at": "2026-11-16T14:23:30Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30449,7 +31238,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/noticias/32862/silves-acolhe-acoes-de-formacao-do-programa-formacao---proxima.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T13:24:36Z",
+      "captured_at": "2026-11-16T14:22:49Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30486,7 +31275,7 @@
     {
       "url": "https://www.cm-silves.pt/pt/pt/noticias/32055/silves-tem-tudo-e-tem-notavel-obra-realizada.aspx",
       "host": "cm-silves.pt",
-      "captured_at": "2026-11-16T13:24:56Z",
+      "captured_at": "2026-11-16T14:23:09Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -30976,9 +31765,108 @@
       ]
     },
     {
+      "url": "https://www.cm-viseu.pt",
+      "host": "cm-viseu.pt",
+      "captured_at": "2026-11-16T14:31:44Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-viseu.pt/pt/",
+      "title": "Município de Viseu - Câmara Municipal de Viseu",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-viseu.pt/ff252e2f28db.jpg",
+        "sha256": "558b7ef4b67f2ce15a640756323bdfe617de41d5002441ab91a55212844c40b1",
+        "bytes": 159453,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-viseu.pt/ff252e2f28db.txt",
+        "sha256": "5fc47b3beec438ee04d1cad100a513c0decf90318933f6db62ef1de09996ae3a",
+        "chars": 2755
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "map-site",
+          "n": 3,
+          "label": "Município de Viseu (Câmara Municipal)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cm-viseu.pt/pt/noticias/",
+      "host": "cm-viseu.pt",
+      "captured_at": "2026-11-16T14:33:10Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-viseu.pt/pt/noticias/",
+      "title": "Notícias - Câmara Municipal de Viseu",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-viseu.pt/46eee0863f2a.jpg",
+        "sha256": "6167089a06ae84dfd7993d872f805615768adc7bc2824a96d6d3c735dc0d89b4",
+        "bytes": 232278,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-viseu.pt/46eee0863f2a.txt",
+        "sha256": "4524c5ad2468ff5518064973610e7fa5a34ba897bd3763d70378a4163fae6814",
+        "chars": 5206
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "source",
+          "n": 1,
+          "label": "Câmara Municipal de Viseu"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cm-viseu.pt/pt/noticias/viseu-acolhe-na-proxima-semana-o-1-evento-formativo-do-polo-de-inovacao-digital-ai4pa-portugal/",
+      "host": "cm-viseu.pt",
+      "captured_at": "2026-11-16T14:31:26Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.cm-viseu.pt/pt/noticias/viseu-acolhe-na-proxima-semana-o-1-evento-formativo-do-polo-de-inovacao-digital-ai4pa-portugal/",
+      "title": "Viseu acolhe, na próxima semana, o 1º evento formativo do Polo de Ino - Câmara Municipal de Viseu",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/cm-viseu.pt/efb5de394417.jpg",
+        "sha256": "ed84ab9758e8b73f66d8b95a64117c6fbad5ee063d6b1f60a68bbb14f2a82e69",
+        "bytes": 246734,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/cm-viseu.pt/efb5de394417.txt",
+        "sha256": "21019c7741c9e0c8b44439418ff881a802f88265f1f62cf6dadc786b2daf58d5",
+        "chars": 4660
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "news",
+          "n": 11,
+          "label": "The council helps launch AI4PA training for public servants with a first session in Viseu"
+        },
+        {
+          "place": "viseu",
+          "kind": "map",
+          "n": 3,
+          "label": "Município de Viseu (Câmara Municipal)"
+        }
+      ]
+    },
+    {
       "url": "https://www.cm-vrsa.pt",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T13:25:27Z",
+      "captured_at": "2026-11-16T14:23:40Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -31021,7 +31909,7 @@
     {
       "url": "https://www.cm-vrsa.pt/pt/menu/956/atividades-economicas.aspx",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T13:26:00Z",
+      "captured_at": "2026-11-16T14:24:14Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -31052,7 +31940,7 @@
     {
       "url": "https://www.cm-vrsa.pt/pt/noticias/47651/eurocidade-do-guadiana-e-comunidade-europeia-do-desporto-2026.aspx",
       "host": "cm-vrsa.pt",
-      "captured_at": "2026-11-16T13:25:37Z",
+      "captured_at": "2026-11-16T14:23:50Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -31655,6 +32543,123 @@
       ]
     },
     {
+      "url": "https://www.diarioviseu.pt",
+      "host": "diarioviseu.pt",
+      "captured_at": "2026-11-16T14:33:22Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.diarioviseu.pt/",
+      "title": "Diário de Viseu: O seu jornal de notícias de Viseu",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/diarioviseu.pt/af20894a2d2a.jpg",
+        "sha256": "a2448ccbd3ca28278449bafb760433175f8d8de6f8d4dda0251cb0550ab5310e",
+        "bytes": 194878,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/diarioviseu.pt/af20894a2d2a.txt",
+        "sha256": "1244ecfef7cf490158c514972b24475499273684de39e3052ac4cb7b774c091b",
+        "chars": 7993
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "source",
+          "n": 3,
+          "label": "Diário de Viseu"
+        }
+      ]
+    },
+    {
+      "url": "https://www.diarioviseu.pt/2026/09/08/capacidade-de-imagiologia-reforcada-na-uls-viseu-dao-lafoes/",
+      "host": "diarioviseu.pt",
+      "captured_at": "2026-11-16T14:30:08Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.diarioviseu.pt/2026/09/08/capacidade-de-imagiologia-reforcada-na-uls-viseu-dao-lafoes/",
+      "title": "Capacidade de Imagiologia reforçada na ULS Viseu Dão Lafões",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/diarioviseu.pt/ded6e34410a7.jpg",
+        "sha256": "630f439c163a1f9b71ae0309ef9317ff06e1a758d71a5ae952a0444b7f6e98a4",
+        "bytes": 184555,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/diarioviseu.pt/ded6e34410a7.txt",
+        "sha256": "55a35a1f614620228bee46bb73e20391745a0296bf08a6e87b66e2f61fa7869a",
+        "chars": 3697
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "news",
+          "n": 3,
+          "label": "Viseu hospital group buys PRR-funded scanners that include AI where applicable"
+        },
+        {
+          "place": "viseu",
+          "kind": "map",
+          "n": 11,
+          "label": "ULS Viseu Dão-Lafões (hospital group)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.diarioviseu.pt/2026/10/29/e-se-a-inteligencia-artificial-conseguisse-antecipar-as-necessidades-da-populacao-de-viseu-dao-lafoes/",
+      "host": "diarioviseu.pt",
+      "captured_at": "2026-11-16T14:29:45Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.diarioviseu.pt/2026/10/29/e-se-a-inteligencia-artificial-conseguisse-antecipar-as-necessidades-da-populacao-de-viseu-dao-lafoes/",
+      "title": "E se a inteligência artificial conseguisse antecipar as necessidades da população de Viseu Dão Lafões?",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/diarioviseu.pt/6f86d9d8f61e.jpg",
+        "sha256": "035c3481f23e01ed8f77645bc10afded33481b642163ed388f07aeee535b0d22",
+        "bytes": 235198,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/diarioviseu.pt/6f86d9d8f61e.txt",
+        "sha256": "be3aabe0563ad204fd04d418e142d8f56f671dd71a049c7b67f321222b4c983e",
+        "chars": 6860
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "news",
+          "n": 1,
+          "label": "Viseu Dão Lafões holds its first Smart Region Summit and shows a data and AI platform for mayors"
+        },
+        {
+          "place": "viseu",
+          "kind": "map",
+          "n": 5,
+          "label": "CIM Viseu Dão Lafões (Comunidade Intermunicipal)"
+        },
+        {
+          "place": "viseu",
+          "kind": "event",
+          "n": 1,
+          "label": "SMART REGION SUMMIT Viseu Dão Lafões, first edition (CIM Viseu Dão Lafões, Montebelo Viseu Congress Hotel)"
+        },
+        {
+          "place": "viseu",
+          "kind": "gravity",
+          "n": 4,
+          "label": "What if AI could anticipate the needs of Viseu Dão Lafões (Diário de Viseu, 29 October 2026)"
+        }
+      ]
+    },
+    {
       "url": "https://www.dn.pt/economia/discord-escolhe-lisboa-para-abrir-o-seu-primeiro-polo-de-engenharia-fora-dos-eua",
       "host": "dn.pt",
       "captured_at": "2026-11-15T23:57:17Z",
@@ -31953,7 +32958,7 @@
     {
       "url": "https://www.eurociudadguadiana.eu",
       "host": "eurociudadguadiana.eu",
-      "captured_at": "2026-11-16T13:25:50Z",
+      "captured_at": "2026-11-16T14:24:03Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -32360,6 +33365,12 @@
           "kind": "map",
           "n": 8,
           "label": "University of Coimbra, University of Minho, University of Porto"
+        },
+        {
+          "place": null,
+          "article": "amalia-and-ania-portugal-ai-plans",
+          "kind": "article",
+          "label": "amalia-and-ania-portugal-ai-plans"
         }
       ]
     },
@@ -33101,6 +34112,12 @@
           "kind": "gravity",
           "n": 3,
           "label": "INESC-ID: AMALIA launched"
+        },
+        {
+          "place": null,
+          "article": "amalia-and-ania-portugal-ai-plans",
+          "kind": "article",
+          "label": "amalia-and-ania-portugal-ai-plans"
         }
       ]
     },
@@ -33923,7 +34940,7 @@
     {
       "url": "https://www.ipvc.pt",
       "host": "ipvc.pt",
-      "captured_at": "2026-11-16T13:30:48Z",
+      "captured_at": "2026-11-16T14:29:01Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 502,
@@ -34152,7 +35169,7 @@
     {
       "url": "https://www.ismt.pt/en/news/presenca-do-ismt-no-ciclo-de-conferencias-tertulias-2026-sobre-aplicacoes-da-inteligencia-artificial",
       "host": "ismt.pt",
-      "captured_at": "2026-11-16T13:31:14Z",
+      "captured_at": "2026-11-16T14:29:11Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 404,
@@ -34270,6 +35287,74 @@
           "article": "humanos-road-2-web-summit-winner",
           "kind": "article",
           "label": "humanos-road-2-web-summit-winner"
+        }
+      ]
+    },
+    {
+      "url": "https://www.jornaldocentro.pt",
+      "host": "jornaldocentro.pt",
+      "captured_at": "2026-11-16T14:34:00Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.jornaldocentro.pt/",
+      "title": "Jornal do Centro - Notícias de Viseu e da Região Centro",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/jornaldocentro.pt/be2ef0a7890c.jpg",
+        "sha256": "7bf1971ae7806e6d829fec07b8a8b3b47d6f7961ba44eb42ef2eb9a1398cc1bb",
+        "bytes": 199605,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/jornaldocentro.pt/be2ef0a7890c.txt",
+        "sha256": "589dfa0c77ba88ea04ee346e26d0852b1bd322eec0c6a78a8fd96fb48cb124f2",
+        "chars": 7703
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "source",
+          "n": 9,
+          "label": "Jornal do Centro"
+        }
+      ]
+    },
+    {
+      "url": "https://www.jornaldocentro.pt/politecnico-de-viseu-acolhe-iniciativa-internacional-dedicada-a-matematica-e-a-inteligencia-artificial/",
+      "host": "jornaldocentro.pt",
+      "captured_at": "2026-11-16T14:31:15Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.jornaldocentro.pt/politecnico-de-viseu-acolhe-iniciativa-internacional-dedicada-a-matematica-e-a-inteligencia-artificial/",
+      "title": "Politécnico de Viseu acolhe iniciativa internacional dedicada à matemática e à inteligência artificial",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/jornaldocentro.pt/fb028d65b414.jpg",
+        "sha256": "d993dc2923564b5d50b1f535c41f2ebe0ace4c247312b1865e13e4fab68db7a4",
+        "bytes": 260246,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/jornaldocentro.pt/fb028d65b414.txt",
+        "sha256": "bde244a4727b36cbb59315882153cf6a9aab672f6378013773868eb50616af6b",
+        "chars": 6565
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "news",
+          "n": 9,
+          "label": "Viseu hosts MAESTRO-AI, an Erasmus+ project on teaching maths and programming in the AI era"
+        },
+        {
+          "place": "viseu",
+          "kind": "event",
+          "n": 6,
+          "label": "MAESTRO-AI Erasmus+ meeting at the polytechnic (ESTGV)"
         }
       ]
     },
@@ -34431,7 +35516,7 @@
     {
       "url": "https://www.mun-guarda.pt",
       "host": "mun-guarda.pt",
-      "captured_at": "2026-11-16T13:34:14Z",
+      "captured_at": "2026-11-16T14:29:19Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 429,
@@ -35314,7 +36399,7 @@
     {
       "url": "https://www.regiadouro.com/",
       "host": "regiadouro.com",
-      "captured_at": "2026-11-16T13:30:36Z",
+      "captured_at": "2026-11-16T14:28:50Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 503,
@@ -35523,6 +36608,49 @@
           "kind": "source",
           "n": 4,
           "label": "RTP Notícias (Lusa copy on the polytechnic)"
+        }
+      ]
+    },
+    {
+      "url": "https://www.rtp.pt/noticias/economia/politecnico-de-viseu-apresenta-ferramenta-riskmap-que-monitoriza-situacoes-de-risco-no-patrimonio_n1721861",
+      "host": "rtp.pt",
+      "captured_at": "2026-11-16T14:30:15Z",
+      "by": "data.places@PrompTugal.dinis",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.rtp.pt/noticias/economia/politecnico-de-viseu-apresenta-ferramenta-riskmap-que-monitoriza-situacoes-de-risco-no-patrimonio_n1721861",
+      "title": "Politécnico de Viseu apresenta ferramenta RISKMAP que monitoriza situações de risco no património",
+      "note": null,
+      "image": {
+        "path": "captures/2026-11-16/rtp.pt/5f18cd0598f4.jpg",
+        "sha256": "3f2caa0721fe5d65b566db5c880edfa5945c57b653ef3449594d141c69310ace",
+        "bytes": 213462,
+        "width": 1280,
+        "height": 1600
+      },
+      "text": {
+        "path": "captures/2026-11-16/rtp.pt/5f18cd0598f4.txt",
+        "sha256": "a0b02a0235cff283e9deda45b4d9539679d574dab40e8b7d989992840bdaac4a",
+        "chars": 9241
+      },
+      "cited_by": [
+        {
+          "place": "viseu",
+          "kind": "news",
+          "n": 4,
+          "label": "Politécnico de Viseu shows RISKMAP, an AI tool that watches over heritage buildings"
+        },
+        {
+          "place": "viseu",
+          "kind": "map-site",
+          "n": 2,
+          "label": "RiskMap (IPV with Universidade de Aveiro and FEUP)"
+        },
+        {
+          "place": "viseu",
+          "kind": "gravity",
+          "n": 1,
+          "label": "Politécnico de Viseu presents the RISKMAP tool (RTP, undated page, 2026)"
         }
       ]
     },
@@ -35985,7 +37113,7 @@
     {
       "url": "https://www.sulinformacao.pt/en/",
       "host": "sulinformacao.pt",
-      "captured_at": "2026-11-16T13:26:19Z",
+      "captured_at": "2026-11-16T14:24:33Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -35994,14 +37122,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/sulinformacao.pt/175bb1b8dfd9.jpg",
-        "sha256": "bdaad1934e1e7cb243f8f77632d1c4f46963e9e12acd05e34576cc998d623947",
-        "bytes": 40049,
+        "sha256": "beddb3e2efb34b77d7d08fe83d0a46ceb4fe8e3727a2578cb78a8c799caf080d",
+        "bytes": 40029,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/sulinformacao.pt/175bb1b8dfd9.txt",
-        "sha256": "9fdb8b82df379d4873b45bd91b0740f66f372bb152ecbb0dd1a7e32de4ac03e4",
+        "sha256": "275a0225f7a73b90eabbb5189b1a6c8b543126a045dc45ddfca9d5d5ac8a8330",
         "chars": 281
       },
       "cited_by": [
@@ -36542,7 +37670,7 @@
     {
       "url": "https://www.uc.pt",
       "host": "uc.pt",
-      "captured_at": "2026-11-16T13:31:08Z",
+      "captured_at": "2026-11-16T14:29:04Z",
       "by": "data.places@PrompTugal.dinis",
       "ok": false,
       "status": 403,
@@ -36551,14 +37679,14 @@
       "note": "the server answered 403",
       "image": {
         "path": "captures/2026-11-16/uc.pt/5071ce44772a.jpg",
-        "sha256": "6dcab52c79df7d0e694c9196983800b4fcdfe2a4028053c1aa034eb9367e2c6b",
-        "bytes": 36387,
+        "sha256": "fa869d465c64a6b2673d0241385e2c2e075a1fd859d7d701b827f1d514b9469f",
+        "bytes": 36322,
         "width": 1280,
         "height": 1600
       },
       "text": {
         "path": "captures/2026-11-16/uc.pt/5071ce44772a.txt",
-        "sha256": "0a79571750dab36403b0f115a90d5c84fb229e69a1b19a9b1319e167b717fce5",
+        "sha256": "6754f185568223a2cc6abbd0910b4b28db40dac8ff9026930f825eb5a16e431f",
         "chars": 58
       },
       "cited_by": [
@@ -37045,5 +38173,5 @@
       ]
     }
   ],
-  "updated": "2026-11-16T13:34:35Z"
+  "updated": "2026-11-16T14:34:08Z"
 }
