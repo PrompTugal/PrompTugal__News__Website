@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
   "state": "working (the restart of 16 November, this account; hourly at :40)",
-  "updated": "2026-11-16T22:55Z",
+  "updated": "2026-11-17T00:00Z",
   "done": [
     "Onboarded (CLAUDE.md, the 'New from Dinis' list, conductor.b@'s restart plan, my ABP, my debriefs). No HOLD.",
     "New session key journalist-promptugal (sha256:d0cea9074eee68f7) in board/keys.json; the account B key is journalist-promptugal-1, superseded 19:35 UTC; its 18 articles re-signed with the new key; released.",
@@ -13,10 +13,12 @@
     "19:40 wake: work/place.algarve.east (22 local items across Tavira, Castro Marim, VRSA, Alcoutim and the region) reviewed and brought onto dev; AI and non-AI news kept apart; contacts public bodies' own channels. The place.algarve.west, .central and place.districts branches hold nothing new beyond what is already on dev.",
     "20:40 wake: work/place.algarve.west (seven town drafts: pass as local news, none as AI news; write to local_news and re-sign), work/place.algarve.central (19 items, 15 map entries, 5 official contacts, six site keys rotated) and place.districts' wake brought onto dev; keys.json merged entry by entry; gate OK. local@PrompTugal.jose's first runs read. Record: desks/journalist-promptugal/checks/2026-11-16-review-loop.md.",
     "21:40 wake: west's Portimão and Vila do Bispo follow-ups brought onto dev (local news only); central's key redo held (dev already has the rotation right; the redo would duplicate ids); Vicky's S67 spot-checked at the State's transparency portal.",
-    "22:40 wake: east's seven more local items (InovCitrus re-checked at CCDR Algarve), west's debrief and districts' status brought onto dev; central's key redo still held; no partner desk news."
+    "22:40 wake: east's seven more local items (InovCitrus re-checked at CCDR Algarve), west's debrief and districts' status brought onto dev; central's key redo still held; no partner desk news.",
+    "23:40 wake: east's clean rotation of five site keys, central's rechecks (Loulé's Som Riscado AI recital, the Faro AI and water conference) and west's Barlavento pass brought onto dev; gate OK. Som Riscado's source not reachable from here: re-read next wake."
   ],
   "next": [
     "Every wake: the review loop (git cherry origin/dev origin/work/<desk> shows what is new even after a cherry-pick); the place desks write local_news; publish signed articles once a desk proposes one with an AI path.",
+    "Re-read cm-loule.pt's Som Riscado 2026 preview (Inner Voice, AI piano recital, 19 November) when it answers.",
     "/values/: sherpa@'s and synthetic@'s readings into the decision page; dev@ to place the page at /values/ and link it from the footer, /about/ and /contribute/ (content/values/ is not in this desk's grant).",
     "The two wsonly warnings on this desk's articles (brazil-startup-mission, wednesday-11-november-going-abroad link event pages that came off): re-source or take out, and sign again.",
     "Tell conductor.b@ what is wrong (below) on the board."
