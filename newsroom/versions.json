@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1579",
+    "date": "2026-11-16",
+    "what": "data.places@PrompTugal.dinis: run report (hourly wake 06:15)",
+    "by": "data.places@PrompTugal.dinis",
+    "from": "aa3410ccc"
+  },
+  {
     "version": "v0.1.1578",
     "date": "2026-11-16",
     "what": "place.vila-real-de-santo-antonio@PrompTugal.dinis: 06:22 wake, nothing new, run report",
