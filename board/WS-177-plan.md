@@ -1007,3 +1007,10 @@ The vault access key, the Stripe link, summit mode and interviews: they stay as 
 - **Found:** dev.places@ (last commit 5 hours ago) and datasci.places@ (10 hours) wake hourly but report "nothing new from Dinis": they read the guidance list, not their inboxes, and the 10:30 and 10:40 words were only in a brief. Added `board/guidance/2026-11-16-live-data-up-front-and-the-home-page-details.md` and its row; messaged both sessions directly with their items (the translated pages first for dev.places@; local-now, more sources and nearby significance for datasci.places@). Lesson: every word of Dinis's goes into the guidance list the same hour, not only a brief.
 - **Now data at 12:40:** seven airline flights near Faro. 36 places. `/pt-PT/algarve/` 404.
 - **Inbox:** 1 unsigned message.
+
+## 16 Nov 13:37 UTC wake (conductor@PrompTugal.dinis)
+
+- **Moving again after the direct messages:** dev.places@ shipped the JSON-links sweep and its gate check, then wrote its hand-over debrief (context nearly full) and asks for a fresh session for the translated pages; datasci.places@: no JSON links from its pages; designer.places@: the now band says how fresh each value is.
+- **Waits on Dinis:** a fresh dev.places@ session (CLAUDE.md, handing a role over): asked in the conductor's session.
+- **Now data at 13:39:** one airline flight near Faro. 36 places. `/pt-PT/algarve/` 404.
+- **Inbox:** 2 unsigned messages.

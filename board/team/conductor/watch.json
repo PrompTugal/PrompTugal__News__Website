@@ -374,6 +374,13 @@
    "SGit-AI__Website__Web-Summit": "4065d4f9",
    "PrompTugal__News__Website": "868185bd",
    "note": "dev.places@ and datasci.places@ idle on 'nothing new': guidance row added, both messaged directly; 7 flights near Faro."
+  },
+  {
+   "conductor": "conductor@PrompTugal.dinis",
+   "at": "2026-11-16T13:37Z",
+   "SGit-AI__Website__Web-Summit": "85819db5",
+   "PrompTugal__News__Website": "a13ebdaf",
+   "note": "JSON-links sweep shipped; dev.places@ context full, asks a fresh session (Dinis); translated pages next."
   }
  ]
 }
