@@ -6,7 +6,6 @@ summary: "Faro's AI activity in 2026 runs through the Universidade do Algarve: a
 status: published
 region: algarve
 town: faro
-beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/
 tags: Portugal, Algarve, Faro, AI, University of Algarve, startups
 ---
