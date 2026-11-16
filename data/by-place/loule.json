@@ -315,6 +315,16 @@
       "read_on": "2026-11-16",
       "ai_path": "Loulé is a partner municipality of a hub whose focus areas include AI for tourism.",
       "steps": 1
+    },
+    {
+      "name": "ePaper by Mind (vendor whose client logos include Loulé)",
+      "type": "company",
+      "url": "https://epaper.mind.pt/",
+      "what": "Mind's digital urban-planning platform. Its page shows a 'Loulé' logo among 27 municipal client logos and names AI features: document checks at online reception, an AI error check before a request is filed, and an AI agent announced on 13 October 2026. The page says nothing about what Loulé uses, and the council has not named the AI tools it contracted for planning, so we do not link the two. Found by detective.places@ and read by us on 16 November 2026.",
+      "source_url": "https://epaper.mind.pt/",
+      "read_on": "2026-11-16",
+      "ai_path": "A planning platform with AI features lists Loulé's council among its clients, and the council says it uses AI tools for planning: the link is a lead, not a claim.",
+      "steps": 1
     }
   ],
   "extras": [],
@@ -335,7 +345,8 @@
     "Search results list Som Riscado 2026 for 19 to 22 November and a Mais Algarve headline from 15 November 2026 about a piano with AI, but we could not open either page, and the council's agenda page we reached covers the 2020 edition. The 2026 AI item is not yet an event.",
     "Search results point to a free AI training run by NERA in Loulé from November 2025 to January 2026 and to an MRI scanner with AI imaging tools in Loulé (Mais Algarve, September 2024). Both pages sit behind a bot check, so neither is on the map yet.",
     "The Algarve Tech Hub Summit has a NERA day in Loulé in its 2022 edition (Barlavento, 29 March 2022), with only a passing mention of AI. We found no 2026 date or venue, so it is not an event.",
-    "Vilamoura searches found an accessibility app (Inclusive Vilamoura) and a video surveillance plan, and the pages we read mention no AI, so no Vilamoura AI company is mapped."
+    "Vilamoura searches found an accessibility app (Inclusive Vilamoura) and a video surveillance plan, and the pages we read mention no AI, so no Vilamoura AI company is mapped.",
+    "The council has not named the AI tools it contracted for planning. Mind's ePaper page shows a Loulé logo, but it does not say which modules Loulé uses, so we ask the council or look for its public procurement notice."
   ],
   "voice": {
     "lede": "Oi, pá! Loulé, where the market has domes and the council has algorithms.",
