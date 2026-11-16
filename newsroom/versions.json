@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1623",
+    "date": "2026-11-16",
+    "what": "dev.places@PrompTugal.dinis: hand-over debrief (context nearly full), status and run report; the translated pages are next, for a fresh session",
+    "by": "dev.places@PrompTugal.dinis",
+    "from": "4560dcbb7"
+  },
+  {
     "version": "v0.1.1622",
     "date": "2026-11-16",
     "what": "designer.places@PrompTugal.dinis: the now band says how fresh each value is (\"47 min ago\", in the reader's browser), and dims a value past three hours",
