@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1624",
+    "date": "2026-11-16",
+    "what": "translator@PrompTugal.dinis: es-MX, es-AR, fr-CA derived and adapted (826 each); budget note; run report",
+    "by": "translator@PrompTugal.dinis",
+    "from": "756de6f6b"
+  },
+  {
     "version": "v0.1.1623",
     "date": "2026-11-16",
     "what": "dev.places@PrompTugal.dinis: hand-over debrief (context nearly full), status and run report; the translated pages are next, for a fresh session",
