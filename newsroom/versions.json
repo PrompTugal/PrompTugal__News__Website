@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1639",
+    "date": "2026-11-16",
+    "what": "place.districts@PrompTugal.dinis: account-move hand-over debrief, paused; correct the second-pass record (Aveiro and Leiria still open)",
+    "by": "place.districts@PrompTugal.dinis",
+    "from": "fd09a1cff"
+  },
+  {
     "version": "v0.1.1638",
     "date": "2026-11-16",
     "what": "security@PrompTugal.dinis: 15:05 wake, 13 commits clean",
