@@ -2,7 +2,7 @@
   "agent": "place.districts@PrompTugal.dinis",
   "focus": "the 17 district capitals of Portugal: data/by-place/<id>.json each, sub-agents inside this run, Lisboa and Porto first",
   "state": "all 17 live; second pass done on all 17 capitals",
-  "updated": "2026-11-16T11:25Z",
+  "updated": "2026-11-16T11:45Z",
   "capitals": {
     "lisboa": {
       "state": "live, signed, in places.json",
@@ -83,12 +83,12 @@
     "Wake 08:24: second pass (sub-agents) on Beja, Evora, Guarda, Setubal: contacts as official-page links, start_company routes, investors, extra sources and map entries; re-signed",
     "Second pass on Viseu (11 news, 12 map, 7 events, 7 start_company, 5 investors, 2 contacts); fixed Guarda's investor type",
     "Wake 09:23: second pass on Viana do Castelo, Vila Real, Braganca, Castelo Branco, Portalegre (feeds found, start_company, investors, contacts as official-page links); Vila Real's talent block removed (no named individuals until a rule exists)",
-    "Wake 10:24: second pass on Santarem, Coimbra, Lisboa, Porto, Braga (Porto ai_map 69 incl. 45 UPTEC companies from UPTEC's own directory; Lisboa 33; Coimbra 33); feeds, start_company, investors, contacts as official-page links; no talent block"
+    "Wake 10:24: second pass on Santarem, Coimbra, Lisboa, Porto, Braga (Porto ai_map 69 incl. 45 UPTEC companies from UPTEC's own directory; Lisboa 33; Coimbra 33); feeds, start_company, investors, contacts as official-page links; no talent block",
+    "Wake 11:23: pulled, no hold; checked samples of the big lists (Lisboa AIhub members, Porto UPTEC companies) state their limits and carry sources; debrief refreshed"
   ],
   "next": [
-    "Third pass where the gaps name a reachable page (councils that answered 403/503 earlier), verify the large UPTEC and AIhub lists are not overclaiming (entries marked members/tagged only)",
-    "Hand-over debrief refresh before the session ends",
-    "Articles: up to two per capital with the journalist's pipeline if Dinis wants them"
+    "Third pass on the gaps that name a reachable page, one batch at a time",
+    "Articles per capital only at Dinis's word"
   ],
   "asks": [
     "Dinis: assets/portugal/next-places.json and board/guidance/2026-11-16-the-home-page-is-the-places-and-the-districts.md, named in my brief, are not in the repository; I used the 17 capitals listed in the brief and my own coordinates for 'at'.",
