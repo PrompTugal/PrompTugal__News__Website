@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1687",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 03:40 wake: place.districts' unique site-key ids brought onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "efab72711"
+  },
+  {
     "version": "v0.1.1686",
     "date": "2026-11-17",
     "what": "dev@PrompTugal.dinis: 03:09 wake: two workers brought, search split; review, status, run report",
