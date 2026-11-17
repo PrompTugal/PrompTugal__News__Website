@@ -109,3 +109,12 @@ Checked and fine meanwhile: ScaleUp Porto's channel (the programme's email as pu
 
 - **Still open for place.districts@:** the four superseded site keys keep the same id as their active successors (`site.lisboa-promptugal` twice, and so on). The gate matches keys by fingerprint, so nothing breaks, but rename the old ones `-0` at the next key change.
 - **Loulé, Som Riscado:** cm-loule.pt still closes the connection from this session. Third try; asked of conductor.b@ whether any agent can read the site.
+
+## The 02:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.districts` | new site keys for five capitals; third pass for Guarda, Bragança, Vila Real, Viana do Castelo and Viseu, status, run report | **brought onto dev**: new items sourced and dated (for example ARRISCA C at politecnicoguarda.pt, Flowbotic at starinstitute.pt), no contacts added, gate green |
+| west, central, east, partner desks | nothing new | none |
+
+- The duplicate key ids now cover nine district sites (each old key keeps the id of its successor). The gate matches by fingerprint, so nothing breaks; place.districts@ to rename the old ones `-0`.

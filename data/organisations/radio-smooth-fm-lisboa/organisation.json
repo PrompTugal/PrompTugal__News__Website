@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "radio-smooth-fm-lisboa",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Smooth FM Lisboa",
+  "names_as_listed": [
+    "Smooth FM Lisboa"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page. Network site (Bauer Media), copied to each Smooth FM record; no dedicated contact page and no feed found.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:lisbon"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://smoothfm.pt/",
+    "owner": {
+      "name": "Bmhaudio Portugal Holdings, Unipessoal, Lda. & Comandita",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "people": [
+      {
+        "name": "Miguel Cruz",
+        "role": "Responsável pela programação (as listed in the ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Teresa Mota",
+        "role": "Responsável pela informação (as listed in the ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Miguel Diogo de Zea Cruz",
+        "role": "Responsável de Programação, Smooth FM (network transparency PDF)",
+        "source": {
+          "url": "https://smoothfm.pt/upload/resources/transparencia/smoothfm.pdf",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "programming"
+      },
+      {
+        "name": "Nuno Castilho de Matos",
+        "role": "Responsável Informação, Smooth FM (same PDF)",
+        "source": {
+          "url": "https://smoothfm.pt/upload/resources/transparencia/smoothfm.pdf",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423216, operator 'Bmhaudio Portugal Holdings, Unipessoal, Lda. & Comandita' (seat Lisboa), service 'Smooth FM Lisboa', licence district Lisboa, concelho Lisboa. Outlet email column deliberately not recorded."
+      },
+      {
+        "url": "https://smoothfm.pt/upload/resources/transparencia/smoothfm.pdf",
+        "read_at": "2026-11-17",
+        "how": "Lei 78/2015 transparency PDF of the network operator BMHAUDIO Portugal Holdings, Unipessoal Lda. & Comandita (Bauer Media group)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423216, operator 'Bmhaudio Portugal Holdings, Unipessoal, Lda. & Comandita' (seat Lisboa), service 'Smooth FM Lisboa', licence district Lisboa, concelho Lisboa. Outlet email column deliberately not recorded.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://smoothfm.pt/upload/resources/transparencia/smoothfm.pdf",
+      "read_at": "2026-11-17",
+      "how": "Lei 78/2015 transparency PDF of the network operator BMHAUDIO Portugal Holdings, Unipessoal Lda. & Comandita (Bauer Media group)",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

@@ -104,6 +104,8 @@
                         && (!a.organiser || r.facets.o === a.organiser)
                         && (!a.day || (r.facets.d || []).includes(a.day)))
                     const limit = Math.min(200, a.limit || 40)
+                    // the summaries are in snips.json since 17 November (dev@); an older index carries them inline
+                    if (d.snips) { try { const sn = await env.fetchJSON(DOCS.replace(/docs\.json$/, d.snips)); for (const r of rows.slice(0, limit)) if (!r.summary) r.summary = (sn.s || [])[r.i] || '' } catch (e) { /* titles only */ } }
                     return { type: t, filters: { topic: a.topic, country: a.country, organiser: a.organiser, day: a.day }, total: rows.length, items: rows.slice(0, limit).map(r => ({ ref: r.ref, label: r.title, summary: r.summary, url: abs(r.url), ...(t === 'event' ? { start: r.extra.s, where: r.extra.w } : {}) })), ...(rows.length > limit ? { more: rows.length - limit } : {}), topics: a.topic || t !== 'company' ? undefined : d.facets.topic }
                 },
             },
@@ -157,6 +159,8 @@
                     const { type, id } = parseRef(a.type, a.id)
                     const focus = `${type}:${id}`
                     const limit = Math.min(200, a.limit || 40)
+                    // the summaries are in snips.json since 17 November (dev@); an older index carries them inline
+                    if (d.snips) { try { const sn = await env.fetchJSON(DOCS.replace(/docs\.json$/, d.snips)); for (const r of rows.slice(0, limit)) if (!r.summary) r.summary = (sn.s || [])[r.i] || '' } catch (e) { /* titles only */ } }
                     let rows = []
                     if (GRAPHED[type]) {
                         const g = await env.fetchJSON(`api/v1/graph/${PLURAL[type]}/${id}.json`).catch(() => null)

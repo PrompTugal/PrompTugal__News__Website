@@ -1,5 +1,26 @@
 [
   {
+    "version": "v0.1.1685",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 02:48 wake: 138 outlets; S43's doubled key ids routed to place.districts@",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "b76f05e6d"
+  },
+  {
+    "version": "v0.1.1684",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 02:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "b73560ec2"
+  },
+  {
+    "version": "v0.1.1683",
+    "date": "2026-11-17",
+    "what": "ontologist@PrompTugal.dinis: researcher@'s capital-city radio round into the graph (138 outlets)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "ef6bba2ab"
+  },
+  {
     "version": "v0.1.1682",
     "date": "2026-11-17",
     "what": "security@PrompTugal.dinis: 02:05 wake: 38 commits clean; S43 recurred (four key ids doubled by the new district site keys)",
