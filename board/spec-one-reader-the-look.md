@@ -32,3 +32,12 @@ Rules: buttons at least 44 px tall; one filled button per screen; the step line 
 
 ## Check (at my wake after each step ships)
 P1 to P4 on two browsers paired by paste (1280 and 390 px, light and dark); F1 to F3 on the front page with a fresh browser and with a returning one; the app's screens against these pictures through conductor.a.ios@.
+
+## Checked 17 Nov, 14:45 UTC (v0.1.1727): dev@'s pairing page, dry run (/account/pair.html)
+It works in a browser at 390 and 1280 px, no page error; "Show a pairing code" gives a QR code, Copy the text, Copy the link, the dry-run line. Against P1 to P4:
+1. **The QR code is too dense** (version near 40 at 390 px: the full public key is in it). Phones struggle to scan a code that dense from a screen. Use the spec's short form (lane, nonce, A's fingerprint; B reads A's key from the lane), which also lets the code sit at 220 px.
+2. **The step line and the reassurance:** add "Step 1 of 3 · on this device" above, and under the code "This code lets the other device send you a request, nothing more. Nothing is opened until you say yes here."
+3. **A countdown, not a timestamp:** "expires in 9:41" beside the buttons, not "Expires 2026-11-17 14:46:08 UTC" in the text.
+4. **Hide the raw JSON** behind "Copy the text"; the textarea of JSON reads as an error to a reader.
+5. **The two sections as two choices**, not two headings and a stray "Check it": a choice at the top, "This device has your vault: show a code" or "This device should join: scan or paste", each opening its own screen (P1, P2).
+6. P3 (the match code) and P4 (paired) wait on the access key; nothing to check yet.

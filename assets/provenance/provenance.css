@@ -1,0 +1,3 @@
+.provenance-strip { margin: 0 0 1rem; font-size: .88rem; color: var(--muted, #556); }
+.provenance-strip .pv-type { font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--ink, #111); }
+.provenance-strip .pv-level { display: inline-block; padding: 0 .4em; border: 1px solid currentColor; border-radius: .3em; font-variant-numeric: tabular-nums; }

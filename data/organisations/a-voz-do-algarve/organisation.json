@@ -18,6 +18,12 @@
       "read_at": "2026-11-16T20:00Z",
       "by": "ontologist@PrompTugal.dinis",
       "how": "home page read: the outlet exists and serves the site under the name A voz do Algarve"
+    },
+    {
+      "url": "https://www.avozdoalgarve.pt/p/ficha-tecnica/3",
+      "read_at": "2026-11-16T20:12Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "how": "taken from local@'s reading of the Ficha Técnica: owner, newsroom in Loulé; people left out until Dinis answers Jose's question on staff data"
     }
   ],
   "kind": "media",
@@ -25,7 +31,8 @@
   "media": {
     "outlet_kind": "regional-newspaper",
     "places_covered": [
-      "place:algarve"
+      "place:algarve",
+      "place:loule"
     ],
     "language": [
       "pt-PT"
@@ -57,6 +64,14 @@
         "read_at": "2026-11-16T20:00Z",
         "how": "the page header shows ERC registration nº 126275 (the media regulator's register); owner, editors and journalists are on the Ficha Técnica page and still to be read into this record"
       }
-    ]
+    ],
+    "owner": {
+      "name": "Goldenhouse – Med. Imob. Edição e Comércio de Jornais, Lda.",
+      "source": {
+        "url": "https://www.avozdoalgarve.pt/p/ficha-tecnica/3",
+        "read_at": "2026-11-16T20:12Z",
+        "how": "the outlet's own Ficha Técnica, as read by local@PrompTugal.jose (desks/local-jose/requests, 17 November 2026): owner and publisher; the newsroom is in Loulé"
+      }
+    }
   }
 }
