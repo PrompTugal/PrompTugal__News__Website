@@ -1,0 +1,86 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "librarian@PrompTugal.dinis",
+ "run": "2026-11-17T01-00-14Z",
+ "started": "2026-11-17T01:00:14.256Z",
+ "ended": "2026-11-17T04:00:05Z",
+ "line": "wake 03:56: costs, map, desk health, daily debrief",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-17T03:56:40.147Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-17T03:56:39.865Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 9,
+  "by_kind": {
+   "git": 4,
+   "other": 1,
+   "shell": 2,
+   "git-push": 2
+  }
+ },
+ "policies_executed": {
+  "R5": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 8,
+  "commits": [
+   {
+    "sha": "7640eebb0",
+    "subject": "librarian@PrompTugal.dinis: wake 00:56: the restarted team's costs measured, the map at v0.1.1677, desk health",
+    "files": 181
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-17T03:59:46.351Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push -f is denied: no force-push, no branch deletion, no tags (CI tags), no mirror",
+    "target": "cat >> board/team/librarian/desk-health-2026-11-16.md <<'E'\n\n## Wake of 03:56 UTC, 17 November (fourth run)\n- **Map:** v0.1.1687, 1,950 pages, 1,541 board files; life map 95 agents, 206 keys (122 active); library 7,603 cards, check OK, test"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 9,
+  "in_mandate": 8,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

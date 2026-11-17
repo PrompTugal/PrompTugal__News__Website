@@ -1,19 +1,52 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 8 of 13)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T00:59:17Z"
-site_version: "v0.1.1677"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T03:58:59Z"
+site_version: "v0.1.1687"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 8 of 13)
 
-100 cards, from `DAT.ORG reuters-news` to `DAT.ORG zoyk`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG radio-jornal-do-centro` to `DAT.ORG unicorn-factory-lisboa`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 701 to 725**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG radio-jornal-do-centro` | [Rádio Jornal do Centro](https://promptugal.news/organisations/radio-jornal-do-centro/) | organisation | ontologist@ 16 Nov 2026 |
+| `DAT.ORG radio-m80-aveiro` | [M80 Aveiro](https://promptugal.news/organisations/radio-m80-aveiro/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-m80-braganca` | [M80 Bragança](https://promptugal.news/organisations/radio-m80-braganca/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-m80-coimbra` | [M80 Coimbra](https://promptugal.news/organisations/radio-m80-coimbra/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-m80-leiria` | [M80 Leiria](https://promptugal.news/organisations/radio-m80-leiria/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-m80-porto` | [M80 Porto](https://promptugal.news/organisations/radio-m80-porto/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-m80-vila-real` | [M80 Vila Real](https://promptugal.news/organisations/radio-m80-vila-real/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-mega-hits` | [Mega Hits](https://promptugal.news/organisations/radio-mega-hits/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-mega-hits-aveiro` | [Mega Hits Aveiro](https://promptugal.news/organisations/radio-mega-hits-aveiro/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-mega-hits-braga` | [Mega Hits Braga](https://promptugal.news/organisations/radio-mega-hits-braga/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-mega-hits-coimbra` | [Mega Hits - Coimbra](https://promptugal.news/organisations/radio-mega-hits-coimbra/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-mega-hits-viseu` | [Mega Hits Viseu](https://promptugal.news/organisations/radio-mega-hits-viseu/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-observador-leiria` | [Rádio Observador Leiria](https://promptugal.news/organisations/radio-observador-leiria/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-pax` | [Rádio Pax](https://promptugal.news/organisations/radio-pax/) | organisation | ontologist@ 16 Nov 2026 |
+| `DAT.ORG radio-portalegre` | [Rádio Portalegre](https://promptugal.news/organisations/radio-portalegre/) | organisation | ontologist@ 16 Nov 2026 |
+| `DAT.ORG radio-rci` | [RCI](https://promptugal.news/organisations/radio-rci/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-record-leiria` | [Record Leiria](https://promptugal.news/organisations/radio-record-leiria/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-record-santarem` | [Record Santarém](https://promptugal.news/organisations/radio-record-santarem/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-renascenca` | [Rádio Renascença](https://promptugal.news/organisations/radio-renascenca/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG radio-smooth-fm-lisboa` | [Smooth FM Lisboa](https://promptugal.news/organisations/radio-smooth-fm-lisboa/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-smooth-fm-santarem` | [Smooth FM Santarém](https://promptugal.news/organisations/radio-smooth-fm-santarem/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-valdevez` | [Rádio Valdevez](https://promptugal.news/organisations/radio-valdevez/) | organisation | ontologist@ 16 Nov 2026 |
+| `DAT.ORG radio-voz-do-marao` | [Rádio Voz do Marão](https://promptugal.news/organisations/radio-voz-do-marao/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG reddit` | [Reddit](https://promptugal.news/organisations/reddit/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG regiao-de-leiria` | [Região de Leiria](https://promptugal.news/organisations/regiao-de-leiria/) | organisation | ontologist@ 16 Nov 2026 |
+
+**Cards 726 to 750**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
+| `DAT.ORG regiao-de-lisboa` | [Região de Lisboa](https://promptugal.news/organisations/regiao-de-lisboa/) | organisation | ontologist@ 16 Nov 2026 |
+| `DAT.ORG renascenca` | [Rádio Renascença](https://promptugal.news/organisations/renascenca/) | organisation | ontologist@ 16 Nov 2026 |
+| `DAT.ORG rethink-retail` | [Rethink Retail](https://promptugal.news/organisations/rethink-retail/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG reuters-news` | [Reuters News](https://promptugal.news/organisations/reuters-news/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG revela-arrabida` | [Revela Arrábida](https://promptugal.news/organisations/revela-arrabida/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG ripenew` | [RipeNew](https://promptugal.news/organisations/ripenew/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -36,14 +69,14 @@ source: board/catalogue.json
 | `DAT.ORG serpro` | [Serpro](https://promptugal.news/organisations/serpro/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG setubal-informacao` | [Setúbal Informação](https://promptugal.news/organisations/setubal-informacao/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG setubal-mais` | [Setúbal Mais](https://promptugal.news/organisations/setubal-mais/) | organisation | ontologist@ 17 Nov 2026 |
-| `DAT.ORG sgf-global` | [SGF Global](https://promptugal.news/organisations/sgf-global/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG shifter` | [Shifter](https://promptugal.news/organisations/shifter/) | organisation | ontologist@ 16 Nov 2026 |
-| `DAT.ORG shine-technologies` | [SHINE Technologies](https://promptugal.news/organisations/shine-technologies/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
-**Cards 726 to 750**
+**Cards 751 to 775**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG sgf-global` | [SGF Global](https://promptugal.news/organisations/sgf-global/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG shifter` | [Shifter](https://promptugal.news/organisations/shifter/) | organisation | ontologist@ 16 Nov 2026 |
+| `DAT.ORG shine-technologies` | [SHINE Technologies](https://promptugal.news/organisations/shine-technologies/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG sic-noticias` | [SIC Notícias](https://promptugal.news/organisations/sic-noticias/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG siemens` | [Siemens AG](https://promptugal.news/organisations/siemens/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG sifted` | [Sifted](https://promptugal.news/organisations/sifted/) | organisation | curator@PrompTugal.vicky 13 Nov 2026 |
@@ -66,14 +99,14 @@ source: board/catalogue.json
 | `DAT.ORG talkdesk` | [Talkdesk](https://promptugal.news/organisations/talkdesk/) | organisation | curator@web-summit.vicky 5 Nov 2026 |
 | `DAT.ORG tds-televisao-do-sul` | [TDS (Televisão do Sul)](https://promptugal.news/organisations/tds-televisao-do-sul/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG techcrunch` | [TechCrunch](https://promptugal.news/organisations/techcrunch/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG tecnico-innovation-center` | [Técnico Innovation Center](https://promptugal.news/organisations/tecnico-innovation-center/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG tecnico-venture-lab` | [Técnico Venture Lab](https://promptugal.news/organisations/tecnico-venture-lab/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG tek-sapo` | [SAPO TEK](https://promptugal.news/organisations/tek-sapo/) | organisation | ontologist@ 16 Nov 2026 |
 
-**Cards 751 to 775**
+**Cards 776 to 800**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG tecnico-innovation-center` | [Técnico Innovation Center](https://promptugal.news/organisations/tecnico-innovation-center/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG tecnico-venture-lab` | [Técnico Venture Lab](https://promptugal.news/organisations/tecnico-venture-lab/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG tek-sapo` | [SAPO TEK](https://promptugal.news/organisations/tek-sapo/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG tekever` | [TEKEVER](https://promptugal.news/organisations/tekever/) | organisation | curator@web-summit.vicky 5 Nov 2026 |
 | `DAT.ORG tencent` | [Tencent](https://promptugal.news/organisations/tencent/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG terras-da-guarda` | [Terras da Guarda](https://promptugal.news/organisations/terras-da-guarda/) | organisation | ontologist@ 17 Nov 2026 |
@@ -96,38 +129,5 @@ source: board/catalogue.json
 | `DAT.ORG unframe` | [Unframe](https://promptugal.news/organisations/unframe/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG unherd` | [UnHerd](https://promptugal.news/organisations/unherd/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG unicorn-factory-lisboa` | [Unicorn Factory Lisboa](https://promptugal.news/organisations/unicorn-factory-lisboa/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG union-square-ventures` | [Union Square Ventures](https://promptugal.news/organisations/union-square-ventures/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG unitree` | [Unitree](https://promptugal.news/organisations/unitree/) (withdrawn) | organisation | curator@web-summit.vicky 5 Nov 2026 |
-| `DAT.ORG universidade-de-lisboa` | [Universidade de Lisboa (ULisboa)](https://promptugal.news/organisations/universidade-de-lisboa/) | organisation | curator@web-summit.vicky 5 Nov 2026 |
-
-**Cards 776 to 800**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
-| `DAT.ORG universidade-fm` | [Universidade FM](https://promptugal.news/organisations/universidade-fm/) | organisation | ontologist@ 16 Nov 2026 |
-| `DAT.ORG university-of-algarve` | [University of Algarve](https://promptugal.news/organisations/university-of-algarve/) | organisation | ontologist@ 6 Nov 2026 |
-| `DAT.ORG university-of-austin-texas` | [University of Austin Texas](https://promptugal.news/organisations/university-of-austin-texas/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG university-of-coimbra` | [University of Coimbra](https://promptugal.news/organisations/university-of-coimbra/) | organisation | curator@PrompTugal.vicky 9 Nov 2026 |
-| `DAT.ORG university-of-minho` | [University of Minho](https://promptugal.news/organisations/university-of-minho/) | organisation | curator@PrompTugal.vicky 14 Nov 2026 |
-| `DAT.ORG university-of-porto` | [University of Porto](https://promptugal.news/organisations/university-of-porto/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG unleash-football` | [Unleash Football](https://promptugal.news/organisations/unleash-football/) (withdrawn) | organisation | programme@web-summit.vicky 6 Nov 2026 |
-| `DAT.ORG us-government` | [The US Government](https://promptugal.news/organisations/us-government/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG vatican` | [The Vatican](https://promptugal.news/organisations/vatican/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG vermillio` | [Vermillio](https://promptugal.news/organisations/vermillio/) (withdrawn) | organisation | programme@PrompTugal.vicky 7 Nov 2026 |
-| `DAT.ORG visao` | [Visão](https://promptugal.news/organisations/visao/) | organisation | ontologist@ 16 Nov 2026 |
-| `DAT.ORG viseu-now` | [Viseu Now](https://promptugal.news/organisations/viseu-now/) | organisation | ontologist@ 17 Nov 2026 |
-| `DAT.ORG vivaldi` | [Vivaldi](https://promptugal.news/organisations/vivaldi/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG vogue-business` | [Vogue Business](https://promptugal.news/organisations/vogue-business/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG washington-post` | [The Washington Post](https://promptugal.news/organisations/washington-post/) (withdrawn) | organisation | programme@PrompTugal.vicky 9 Nov 2026 |
-| `DAT.ORG web-summit` | [Web Summit](https://promptugal.news/organisations/web-summit/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG wired` | [Wired](https://promptugal.news/organisations/wired/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG xiaomi` | [Xiaomi](https://promptugal.news/organisations/xiaomi/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG xpeng` | [Xpeng](https://promptugal.news/organisations/xpeng/) (withdrawn) | organisation | curator@web-summit.vicky 5 Nov 2026 |
-| `DAT.ORG xpeng-aridge` | [Xpeng Aridge](https://promptugal.news/organisations/xpeng-aridge/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG xpeng-aridge-flying-cars` | [XPENG Aridge Flying Cars](https://promptugal.news/organisations/xpeng-aridge-flying-cars/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG xynova` | [Xynova](https://promptugal.news/organisations/xynova/) (withdrawn) | organisation | curator@PrompTugal.vicky 8 Nov 2026 |
-| `DAT.ORG zalando` | [Zalando](https://promptugal.news/organisations/zalando/) | organisation | curator@PrompTugal.vicky 11 Nov 2026 |
-| `DAT.ORG zap` | [ZAP](https://promptugal.news/organisations/zap/) | organisation | ontologist@ 16 Nov 2026 |
-| `DAT.ORG zoyk` | [Zoyk](https://promptugal.news/organisations/zoyk/) | organisation | curator@PrompTugal.vicky 14 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-7.md) | [Next part](DAT-9.md)

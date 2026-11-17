@@ -27,28 +27,28 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-3456 cards (1167 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-17T00:59:17Z at site v0.1.1677; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+3468 cards (1179 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-17T03:58:59Z at site v0.1.1687; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `RDR.SHERPA` | 31 |
 | `RDR.SYN` | 5 |
-| `TEAM.ABP` | 105 |
+| `TEAM.ABP` | 108 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
 | `TEAM.INBOX` | 162 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 1913 |
+| `TEAM.ROLE` | 1922 |
 | `TEAM.RUN` | 1208 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261117-0093` [runs/local-jose/](https://promptugal.news/board/runs/local-jose/) (`TEAM.RUN local-jose`)
-- `ACC-20261117-0092` [designer@'s reviews of work/designer.places](https://promptugal.news/board/team/designer.places/review-by-designer.md) (`TEAM.ROLE review-by-designer`)
-- `ACC-20261117-0091` [dev@'s review of work/dev.places, 17 November 2026, about 00:15 UTC](https://promptugal.news/board/team/dev.places/review-2026-11-17T0015Z.md) (`TEAM.ROLE review-2026-11-17T0015Z`)
-- `ACC-20261117-0090` [dev@'s review of work/dev.places, 16 November 2026, about 23:15 UTC](https://promptugal.news/board/team/dev.places/review-2026-11-16T2315Z.md) (`TEAM.ROLE review-2026-11-16T2315Z`)
-- `ACC-20261117-0089` [promptugal-outreach-dinis.json](https://promptugal.news/board/team/conductor/sealed/promptugal-outreach-dinis.json) (`TEAM.ROLE promptugal-outreach-dinis`)
+- `ACC-20261117-0163` [dev@'s review of work/dev.places, 17 November 2026, about 03:15 UTC](https://promptugal.news/board/team/dev.places/review-2026-11-17T0315Z.md) (`TEAM.ROLE review-2026-11-17T0315Z`)
+- `ACC-20261117-0162` [translator@PrompTugal.dinis: hand-over debrief, 17 November 2026](https://promptugal.news/board/team/translator/debriefs/2026-11-17-handover.md) (`TEAM.ROLE 2026-11-17-handover:8`)
+- `ACC-20261117-0161` [place.algarve.east hand-over debrief (17 November 2026)](https://promptugal.news/board/team/place.algarve.east/debriefs/2026-11-17-handover.md) (`TEAM.ROLE 2026-11-17-handover:7`)
+- `ACC-20261117-0160` [place.algarve.central hand-over, 17 November 2026 (about 01:30 UTC)](https://promptugal.news/board/team/place.algarve.central/debriefs/2026-11-17-handover.md) (`TEAM.ROLE 2026-11-17-handover:6`)
+- `ACC-20261117-0159` [dev.places@PrompTugal.dinis: hand-over debrief, 17 November 2026 (session of the 16 November restart)](https://promptugal.news/board/team/dev.places/debriefs/2026-11-17-handover.md) (`TEAM.ROLE 2026-11-17-handover:5`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

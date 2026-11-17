@@ -3144,25 +3144,34 @@
     "site.aveiro-promptugal",
     "site.beja-promptugal",
     "site.braga-promptugal",
+    "site.braga-promptugal-2",
     "site.braganca-promptugal",
+    "site.braganca-promptugal-2",
     "site.castelo-branco-promptugal",
     "site.coimbra-promptugal",
+    "site.coimbra-promptugal-2",
     "site.evora-promptugal",
     "site.guarda-promptugal",
+    "site.guarda-promptugal-2",
     "site.leiria-promptugal",
     "site.lisboa-promptugal",
+    "site.lisboa-promptugal-2",
     "site.portalegre-promptugal",
     "site.porto-promptugal",
+    "site.porto-promptugal-2",
     "site.santarem-promptugal",
     "site.setubal-promptugal",
     "site.viana-do-castelo-promptugal",
+    "site.viana-do-castelo-promptugal-2",
     "site.vila-real-promptugal",
+    "site.vila-real-promptugal-2",
     "site.viseu-promptugal",
+    "site.viseu-promptugal-2",
     "work/place.districts"
    ],
    "heading": "place.districts@PrompTugal.dinis",
    "id": "auth:agent:place-districts",
-   "key_id": "site.viseu-promptugal",
+   "key_id": "site.viseu-promptugal-2",
    "key_ids": [
     {
      "added": "2026-11-16",
@@ -3190,6 +3199,13 @@
      "fingerprint": "sha256:d578904e3527f26b",
      "id": "site.braga-promptugal",
      "signing_fingerprint": "sha256:e28741c6be4a2991",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:cf197e6f8b121334",
+     "id": "site.braga-promptugal-2",
+     "signing_fingerprint": "sha256:7e1d34696ce83a09",
      "status": "active"
     },
     {
@@ -3197,6 +3213,13 @@
      "fingerprint": "sha256:0275a44145fa20be",
      "id": "site.braganca-promptugal",
      "signing_fingerprint": "sha256:bc2a10c19747d110",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:b556f6263e6cd2aa",
+     "id": "site.braganca-promptugal-2",
+     "signing_fingerprint": "sha256:ba20d965d0fb71c0",
      "status": "active"
     },
     {
@@ -3211,6 +3234,13 @@
      "fingerprint": "sha256:d91d1dee9feaae5e",
      "id": "site.coimbra-promptugal",
      "signing_fingerprint": "sha256:9ea54c94dba26b55",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:12e7caeb65ba719d",
+     "id": "site.coimbra-promptugal-2",
+     "signing_fingerprint": "sha256:0bf47b5ebac5cce2",
      "status": "active"
     },
     {
@@ -3225,6 +3255,13 @@
      "fingerprint": "sha256:b22d25f9fe42916c",
      "id": "site.guarda-promptugal",
      "signing_fingerprint": "sha256:634670f6f582ced1",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:8d6368eba1c399ed",
+     "id": "site.guarda-promptugal-2",
+     "signing_fingerprint": "sha256:7e314600cd3c839d",
      "status": "active"
     },
     {
@@ -3239,6 +3276,13 @@
      "fingerprint": "sha256:087f637a421a2002",
      "id": "site.lisboa-promptugal",
      "signing_fingerprint": "sha256:f4b0ff0e02f68a66",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:516897d10a8dda80",
+     "id": "site.lisboa-promptugal-2",
+     "signing_fingerprint": "sha256:c5bb62c683a05683",
      "status": "active"
     },
     {
@@ -3253,6 +3297,13 @@
      "fingerprint": "sha256:298bba5b6cbd7856",
      "id": "site.porto-promptugal",
      "signing_fingerprint": "sha256:32dcdc45681ebadb",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:84fcbbf6f8d06d97",
+     "id": "site.porto-promptugal-2",
+     "signing_fingerprint": "sha256:cfc4aedfe28ebaa4",
      "status": "active"
     },
     {
@@ -3274,6 +3325,13 @@
      "fingerprint": "sha256:41623c6c21221053",
      "id": "site.viana-do-castelo-promptugal",
      "signing_fingerprint": "sha256:f957f57b8be00bf4",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:7f8069f310971ce1",
+     "id": "site.viana-do-castelo-promptugal-2",
+     "signing_fingerprint": "sha256:59e714b989cbac1f",
      "status": "active"
     },
     {
@@ -3281,6 +3339,13 @@
      "fingerprint": "sha256:ee9f527e6489f88d",
      "id": "site.vila-real-promptugal",
      "signing_fingerprint": "sha256:d8f241eeccce43d4",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:b61ccea017d1cc0f",
+     "id": "site.vila-real-promptugal-2",
+     "signing_fingerprint": "sha256:f8861ff853d44c5a",
      "status": "active"
     },
     {
@@ -3288,6 +3353,13 @@
      "fingerprint": "sha256:a04b673fb10ea77b",
      "id": "site.viseu-promptugal",
      "signing_fingerprint": "sha256:619d9bc658ffb7be",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:ee560bd16b093458",
+     "id": "site.viseu-promptugal-2",
+     "signing_fingerprint": "sha256:ddd8d9d7f3421ae2",
      "status": "active"
     }
    ],
@@ -3304,20 +3376,29 @@
     "site.aveiro-promptugal",
     "site.beja-promptugal",
     "site.braga-promptugal",
+    "site.braga-promptugal-2",
     "site.braganca-promptugal",
+    "site.braganca-promptugal-2",
     "site.castelo-branco-promptugal",
     "site.coimbra-promptugal",
+    "site.coimbra-promptugal-2",
     "site.evora-promptugal",
     "site.guarda-promptugal",
+    "site.guarda-promptugal-2",
     "site.leiria-promptugal",
     "site.lisboa-promptugal",
+    "site.lisboa-promptugal-2",
     "site.portalegre-promptugal",
     "site.porto-promptugal",
+    "site.porto-promptugal-2",
     "site.santarem-promptugal",
     "site.setubal-promptugal",
     "site.viana-do-castelo-promptugal",
+    "site.viana-do-castelo-promptugal-2",
     "site.vila-real-promptugal",
+    "site.vila-real-promptugal-2",
     "site.viseu-promptugal",
+    "site.viseu-promptugal-2",
     "work/place.districts"
    ]
   },

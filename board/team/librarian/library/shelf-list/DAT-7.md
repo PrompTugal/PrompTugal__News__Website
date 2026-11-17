@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 7 of 13)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T00:59:17Z"
-site_version: "v0.1.1677"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T03:58:59Z"
+site_version: "v0.1.1687"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 7 of 13)
 
-100 cards, from `DAT.ORG kobeissi-letter` to `DAT.ORG rethink-retail`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG kobeissi-letter` to `DAT.ORG radio-hertz`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 601 to 625**
 
@@ -113,21 +113,21 @@ source: board/catalogue.json
 | `DAT.ORG promptugal-news` | [PrompTugal.news](https://promptugal.news/organisations/promptugal-news/) | organisation | curator@PrompTugal.vicky 7 Nov 2026 |
 | `DAT.ORG publico` | [PÚBLICO](https://promptugal.news/organisations/publico/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG purpose` | [Purpose](https://promptugal.news/organisations/purpose/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG radio-afifense` | [Rádio Afifense](https://promptugal.news/organisations/radio-afifense/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-altitude` | [Rádio Altitude](https://promptugal.news/organisations/radio-altitude/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG radio-alto-minho` | [Rádio Alto Minho](https://promptugal.news/organisations/radio-alto-minho/) | organisation | ontologist@ 16 Nov 2026 |
+| `DAT.ORG radio-atlantida` | [Rádio Atlântida](https://promptugal.news/organisations/radio-atlantida/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG radio-azul` | [Rádio Azul](https://promptugal.news/organisations/radio-azul/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG radio-brigantia` | [Rádio Brigantia](https://promptugal.news/organisations/radio-brigantia/) | organisation | ontologist@ 16 Nov 2026 |
+| `DAT.ORG radio-cidade-fm-aveiro` | [Cidade FM Aveiro](https://promptugal.news/organisations/radio-cidade-fm-aveiro/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-cidade-fm-lisboa` | [Cidade FM Lisboa](https://promptugal.news/organisations/radio-cidade-fm-lisboa/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-cidade-fm-viseu` | [Cidade FM Viseu](https://promptugal.news/organisations/radio-cidade-fm-viseu/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-cm-90-4` | [CM Rádio 90.4](https://promptugal.news/organisations/radio-cm-90-4/) | organisation | ontologist@ 17 Nov 2026 |
+| `DAT.ORG radio-cm-94-8` | [CM Rádio 94.8](https://promptugal.news/organisations/radio-cm-94-8/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG radio-condestavel` | [Rádio Condestável](https://promptugal.news/organisations/radio-condestavel/) | organisation | ontologist@ 16 Nov 2026 |
+| `DAT.ORG radio-estacao-madeira-tsf-madeira` | [Estação Rádio Madeira - TSF Madeira](https://promptugal.news/organisations/radio-estacao-madeira-tsf-madeira/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG radio-fronteira` | [Rádio Fronteira](https://promptugal.news/organisations/radio-fronteira/) | organisation | ontologist@ 16 Nov 2026 |
+| `DAT.ORG radio-geice` | [Rádio Geice](https://promptugal.news/organisations/radio-geice/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG radio-hertz` | [Rádio Hertz](https://promptugal.news/organisations/radio-hertz/) | organisation | ontologist@ 16 Nov 2026 |
-| `DAT.ORG radio-jornal-do-centro` | [Rádio Jornal do Centro](https://promptugal.news/organisations/radio-jornal-do-centro/) | organisation | ontologist@ 16 Nov 2026 |
-| `DAT.ORG radio-pax` | [Rádio Pax](https://promptugal.news/organisations/radio-pax/) | organisation | ontologist@ 16 Nov 2026 |
-| `DAT.ORG radio-portalegre` | [Rádio Portalegre](https://promptugal.news/organisations/radio-portalegre/) | organisation | ontologist@ 16 Nov 2026 |
-| `DAT.ORG radio-renascenca` | [Rádio Renascença](https://promptugal.news/organisations/radio-renascenca/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG radio-valdevez` | [Rádio Valdevez](https://promptugal.news/organisations/radio-valdevez/) | organisation | ontologist@ 16 Nov 2026 |
-| `DAT.ORG reddit` | [Reddit](https://promptugal.news/organisations/reddit/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG regiao-de-leiria` | [Região de Leiria](https://promptugal.news/organisations/regiao-de-leiria/) | organisation | ontologist@ 16 Nov 2026 |
-| `DAT.ORG regiao-de-lisboa` | [Região de Lisboa](https://promptugal.news/organisations/regiao-de-lisboa/) | organisation | ontologist@ 16 Nov 2026 |
-| `DAT.ORG renascenca` | [Rádio Renascença](https://promptugal.news/organisations/renascenca/) | organisation | ontologist@ 16 Nov 2026 |
-| `DAT.ORG rethink-retail` | [Rethink Retail](https://promptugal.news/organisations/rethink-retail/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-6.md) | [Next part](DAT-8.md)

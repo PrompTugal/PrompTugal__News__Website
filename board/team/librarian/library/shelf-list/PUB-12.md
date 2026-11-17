@@ -1,14 +1,14 @@
 ---
-title: "Shelf list: PUB, The publication (part 12 of 14)"
+title: "Shelf list: PUB, The publication (part 12 of 15)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T00:59:17Z"
-site_version: "v0.1.1677"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T03:58:59Z"
+site_version: "v0.1.1687"
 source: board/catalogue.json
 ---
 
-# Shelf list: PUB, The publication (part 12 of 14)
+# Shelf list: PUB, The publication (part 12 of 15)
 
-100 cards, from `PUB.SITE proof` to `PUB.SITE santarem:13`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE proof` to `PUB.SITE radio-portalegre`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1101 to 1125**
 
@@ -93,41 +93,41 @@ source: board/catalogue.json
 | `PUB.SITE quarteira:8` | [PrompTugal.news Quarteira](https://promptugal.news/fr-CA/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE quarteira:9` | [PrompTugal.news Quarteira](https://promptugal.news/fr-FR/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE query` | [The data, queryable](https://promptugal.news/query/) | site | data.places@ 15 Nov 2026 |
+| `PUB.SITE radio-afifense` | [Rádio Afifense](https://promptugal.news/media/radio-afifense/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-altitude` | [Rádio Altitude](https://promptugal.news/media/radio-altitude/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE radio-alto-minho` | [Rádio Alto Minho](https://promptugal.news/media/radio-alto-minho/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-atlantida` | [Rádio Atlântida](https://promptugal.news/media/radio-atlantida/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE radio-azul` | [Rádio Azul](https://promptugal.news/media/radio-azul/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE radio-brigantia` | [Rádio Brigantia](https://promptugal.news/media/radio-brigantia/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-condestavel` | [Rádio Condestável](https://promptugal.news/media/radio-condestavel/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-fronteira` | [Rádio Fronteira](https://promptugal.news/media/radio-fronteira/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-hertz` | [Rádio Hertz](https://promptugal.news/media/radio-hertz/) | site | dev.places@ 16 Nov 2026 |
 
 **Cards 1176 to 1200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE radio-cidade-fm-aveiro` | [Cidade FM Aveiro](https://promptugal.news/media/radio-cidade-fm-aveiro/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-cidade-fm-lisboa` | [Cidade FM Lisboa](https://promptugal.news/media/radio-cidade-fm-lisboa/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-cidade-fm-viseu` | [Cidade FM Viseu](https://promptugal.news/media/radio-cidade-fm-viseu/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-cm-90-4` | [CM Rádio 90.4](https://promptugal.news/media/radio-cm-90-4/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-cm-94-8` | [CM Rádio 94.8](https://promptugal.news/media/radio-cm-94-8/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-condestavel` | [Rádio Condestável](https://promptugal.news/media/radio-condestavel/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-estacao-madeira-tsf-madeira` | [Estação Rádio Madeira - TSF Madeira](https://promptugal.news/media/radio-estacao-madeira-tsf-madeira/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-fronteira` | [Rádio Fronteira](https://promptugal.news/media/radio-fronteira/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-geice` | [Rádio Geice](https://promptugal.news/media/radio-geice/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-hertz` | [Rádio Hertz](https://promptugal.news/media/radio-hertz/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE radio-jornal-do-centro` | [Rádio Jornal do Centro](https://promptugal.news/media/radio-jornal-do-centro/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-m80-aveiro` | [M80 Aveiro](https://promptugal.news/media/radio-m80-aveiro/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-m80-braganca` | [M80 Bragança](https://promptugal.news/media/radio-m80-braganca/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-m80-coimbra` | [M80 Coimbra](https://promptugal.news/media/radio-m80-coimbra/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-m80-leiria` | [M80 Leiria](https://promptugal.news/media/radio-m80-leiria/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-m80-porto` | [M80 Porto](https://promptugal.news/media/radio-m80-porto/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-m80-vila-real` | [M80 Vila Real](https://promptugal.news/media/radio-m80-vila-real/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-mega-hits` | [Mega Hits](https://promptugal.news/media/radio-mega-hits/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-mega-hits-aveiro` | [Mega Hits Aveiro](https://promptugal.news/media/radio-mega-hits-aveiro/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-mega-hits-braga` | [Mega Hits Braga](https://promptugal.news/media/radio-mega-hits-braga/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-mega-hits-coimbra` | [Mega Hits - Coimbra](https://promptugal.news/media/radio-mega-hits-coimbra/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-mega-hits-viseu` | [Mega Hits Viseu](https://promptugal.news/media/radio-mega-hits-viseu/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-observador-leiria` | [Rádio Observador Leiria](https://promptugal.news/media/radio-observador-leiria/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE radio-pax` | [Rádio Pax](https://promptugal.news/media/radio-pax/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE radio-portalegre` | [Rádio Portalegre](https://promptugal.news/media/radio-portalegre/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-valdevez` | [Rádio Valdevez](https://promptugal.news/media/radio-valdevez/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE regiao-de-leiria` | [Região de Leiria](https://promptugal.news/media/regiao-de-leiria/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE regiao-de-lisboa` | [Região de Lisboa](https://promptugal.news/media/regiao-de-lisboa/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE renascenca` | [Rádio Renascença](https://promptugal.news/media/renascenca/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE reporter.newsroom` | [reporter.newsroom@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/reporter.newsroom/) | site |  |
-| `PUB.SITE researcher` | [researcher@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/researcher/) | site |  |
-| `PUB.SITE revela-arrabida` | [Revela Arrábida](https://promptugal.news/media/revela-arrabida/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE riskmandate` | [RiskMandate's ring](https://promptugal.news/graph/riskmandate/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE riskmandate:2` | [Powered by RiskMandate](https://promptugal.news/riskmandate/) | site | newsroom@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE rtp-noticias` | [RTP Notícias (Rádio e Televisão de Portugal)](https://promptugal.news/media/rtp-noticias/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE ruc-radio-universidade-de-coimbra` | [RUC - Rádio Universidade de Coimbra](https://promptugal.news/media/ruc-radio-universidade-de-coimbra/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE rules-of-engagement` | [How to engage](https://promptugal.news/investors/rules-of-engagement/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE rules-of-engagement:2` | [Cómo colaborar](https://promptugal.news/investors/es/rules-of-engagement/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE rules-of-engagement:3` | [Comment nous engager](https://promptugal.news/investors/fr/rules-of-engagement/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE rules-of-engagement:4` | [Como avançar](https://promptugal.news/investors/pt/rules-of-engagement/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE rum-radio-universitaria-do-minho` | [RUM - Rádio Universitária do Minho](https://promptugal.news/media/rum-radio-universitaria-do-minho/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE sabado` | [SÁBADO](https://promptugal.news/media/sabado/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE santarem` | [The proof layer: Santarém](https://promptugal.news/agentic-system/proof/santarem/) | site |  |
-| `PUB.SITE santarem:10` | [PrompTugal.news Santarém](https://promptugal.news/nl-NL/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE santarem:11` | [PrompTugal.news Santarém](https://promptugal.news/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE santarem:12` | [PrompTugal.news Santarém](https://promptugal.news/pt-BR/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE santarem:13` | [PrompTugal.news Santarém](https://promptugal.news/pt-PT/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-11.md) | [Next part](PUB-13.md)

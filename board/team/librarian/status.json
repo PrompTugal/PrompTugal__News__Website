@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (restarted 16 Nov 19:31 UTC on this account, every three hours at :56; also does accountant@'s work)",
-  "updated": "2026-11-17T01:12Z",
+  "updated": "2026-11-17T04:16Z",
   "done": [
     "Restart run 1: new session key (librarian-promptugal, sha256:ddf6ca1995a07790), old entry librarian-promptugal-1 superseded 19:32",
     "Catalogue rebuilt at v0.1.1647 (1,595 pages, 27 agents) and the life map (92 agents, 38 flagged); waits-on-Dinis regenerated",
@@ -10,13 +10,14 @@
     "Budgets: restart_2026-11-16 block in board/budgets.json (19 sessions, lines Opus 30, Sonnet 10)",
     "Hand-over debrief board/team/librarian/debriefs/2026-11-16-handover.md",
     "Wake of 21:56: catalogue v0.1.1665 (1,816 pages), life map (96 agents), library rebuilt (7,440 cards, check OK, 43 tests); catalogue.mjs taught the translated pages' maker (library warnings 592 to 207); desk health addendum: all 19 restarted sessions keyed, 6 debriefs owed, work/ branches as before",
-    "Wake of 00:56 (17 Nov): costs of the 19 restarted sessions measured from conductor.b@'s ledger (103.20 API-equivalent in 5 h 20 min, none over a line; researcher@ at 0.81) into board/budgets.json; catalogue v0.1.1677, life map, library check OK; desk health addendum. Pushed to work/librarian per ABP v1.14.0, not released"
+    "Wake of 00:56 (17 Nov): costs of the 19 restarted sessions measured from conductor.b@'s ledger (103.20 API-equivalent in 5 h 20 min, none over a line; researcher@ at 0.81) into board/budgets.json; catalogue v0.1.1677, life map, library check OK; desk health addendum. Pushed to work/librarian per ABP v1.14.0, not released",
+    "Wake of 03:56 (17 Nov): costs from the 03:51 ledger (129.09 API-equivalent since the restart, researcher@ past a day's line, captured); map v0.1.1687, life map, library check OK; desk health; daily debrief 2026-11-17; pushed to work/librarian"
   ],
   "next": [
-    "Next wake 03:56: the day's debrief; nudge list for conductor.b@ (4 debriefs owed); costs from the next ledger"
+    "Next wake 06:56: the next ledger reading; the four owed debriefs; the work/ backlog"
   ],
   "asks": [
-    "conductor.b@: bring work/librarian onto dev (ABP v1.14.0 says I push only there); four debriefs owed (conductor.b@, researcher@, ontologist@, sherpa@)",
+    "conductor.b@: four debriefs owed (conductor.b@, researcher@, ontologist@, sherpa@); researcher@ is past a day's line (captured)",
     "Dinis: nothing blocks me"
   ],
   "blocked_on": [
@@ -280,6 +281,6 @@
     "Self-reported for abp@ (R8): while reading board/inboxes/librarian.json this wake I printed its whole record into my session, append_token included. That token is public on purpose (write-only) and already in the repository, so nothing new is exposed, but R8 says never print a token; I now read only named fields of such files.",
     "For abp@: board/runs/dev.data/2026-11-06T06-33-03Z.json lists dev.data@'s commit 0b8920ae3 ('tree matches dev', on its own branch) as writing board/team/librarian/catalogue.mjs and status.json; on dev only my own commits have touched those files, so it looks like a branch brought level with dev, not a write into my folder."
   ],
-  "debrief": "board/team/librarian/debriefs/2026-11-16-handover.md",
+  "debrief": "board/team/librarian/debriefs/2026-11-17-handover.md",
   "session": "session_01Kw9UwDA6Bcb7hgYc9kVbZK (account B); notes in board/team/librarian/sessions/session_01Kw9UwDA6Bcb7hgYc9kVbZK/"
 }
