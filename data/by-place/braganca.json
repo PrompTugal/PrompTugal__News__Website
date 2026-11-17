@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Bragança: AI and technology in Bragança, a northeastern district capital whose centre of gravity is its polytechnic and its science park, Brigantia EcoPark, and what reaches Bragança from Portugal, Europe and the world. Independent; every fact sourced.",
   "gravity": {
@@ -244,6 +244,13 @@
       "ai_path": null
     },
     {
+      "title": "Pre-event of the VIII International Silver Economy Congress: longevity and territories, with digital inclusion as a theme (Brigantia EcoPark)",
+      "date": "2026-11-19",
+      "url": "https://jornalnordeste.com/noticias/braganca-debate-longevidade-e-novas-oportunidades-para-os-territorios-transfronteiricos",
+      "read_on": "2026-11-17",
+      "ai_path": "A technology-for-ageing event under the SILVERJOBS cross-border project, with digital inclusion as a theme and a visit to technological solutions; the report never says AI: two steps from AI."
+    },
+    {
       "title": "Fábrica de IA BSC: A Inteligência Artificial ao serviço da inovação (Brigantia EcoPark, already held)",
       "date": "2026-04-10",
       "url": "https://www.fccn.pt/en/?p=45344",
@@ -407,8 +414,8 @@
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "No AI news from the council itself: its news page and agenda showed none on 16 November 2026. We should look for council minutes, procurement notices on base.gov.pt and the Bragança Inovadora project pages.",
-    "Feeds: found for Jornal Nordeste, Canal N and MORE CoLAB (the last has not been updated since August 2025). None found for the council, the polytechnic or ESTiG (the council's /rss answers 404). brigantia-ecopark.pt did not load (connection failed or error 500) and unipb.pt/noticias is a script-rendered page we could not read as text.",
+    "No AI news from the council itself: its news page and agenda showed none on 16 November 2026, and none of the Canal N and Jornal Nordeste feed items to 16 November 2026 (read 17 November) were about AI. Still to look for: council minutes, procurement notices on base.gov.pt and the Bragança Inovadora project pages (not opened).",
+    "Feeds (re-tested 17 November 2026): Jornal Nordeste and Canal N work; the MORE CoLAB feed works but holds only the default 'Olá, mundo!' post of 22 August 2025, so it is not a news source. None found for the council, the polytechnic or ESTiG (the council's /rss answers 404). brigantia-ecopark.pt returned HTTP 503 on 17 November, and unipb.pt/noticias is a script-rendered page we could not read as text.",
     "Missing: Rádio Brigantia, Mensageiro de Bragança and Mirante did not load or surface. Jornal Nordeste's own search is script-rendered, so its AI stories reach us only through its feed and Canal N.",
     "Startups: we found no named AI startup in Brigantia EcoPark or at the polytechnic. The Poliempreende report names no winners as AI, the park's company list and incubator partnership are not on a page we can open, and Startup Portugal's own page for Bragança was not opened.",
     "Investors: no private investor or fund found. The two entries are a public tender and a grant. Sources to look for are Portugal Ventures and Banco de Fomento notices and company announcements.",
@@ -416,8 +423,9 @@
     "The two Brigantia EcoPark counts differ (82 companies in a December 2025 report, 42 in the IASP directory entry). We show both and have no primary figure from the park.",
     "The polytechnic's new name is uncertain: its website says Universidade Politécnica de Bragança while the government talks of a future Universidade de Bragança e do Norte Interior. Its CeDRI funding sheet still says Instituto Politécnico de Bragança. We use both names until a primary page settles it.",
     "Not read: the CeDRI PRR sheet beyond what we could extract, the SmartProduce agriculture project of MORE CoLAB (its page does not say whether it uses AI), and the IBM Seminars events other than numbers 37 and 45. We found no 2026 edition of the AI and courts meeting.",
-    "Events: the only AI events found after 16 November 2026 are the two ESTiG Open Lectures on 3 and 17 December. The council agenda shows only an olive week and a digital cinema month.",
-    "Local talent: no public body page we read lists a person to show for AI, so none are listed. The investor office page names its division head, who we do not name here."
+    "Events: the only AI events found after 17 November 2026 are the two ESTiG Open Lectures on 3 and 17 December. Added on 17 November: the 19 November Silver Economy pre-event at Brigantia EcoPark, which names digital inclusion but not AI. The council agenda shows only an olive week and a digital cinema month.",
+    "Local talent: no public body page we read lists a person to show for AI, so none are listed. The investor office page names its division head, who we do not name here.",
+    "Third pass, 17 November 2026: no AI news dated after 16 November found in the two press feeds. A Jornal Nordeste item of 11 November on a digital transport platform for Mogadouro, presented by the polytechnic (UPB) and the Mogadouro council, was seen only in the feed and not opened or used; the page we read does not say AI. The council's Contactos page loads and publishes a general channel, so the contact entry stands. The council's pages and the other gaps above (startups, investors, Brigantia counts, polytechnic name) could not be closed from sources opened today."
   ],
   "voice": {
     "lede": "Bragança, ó pá: where the keep stands guard over the chestnuts, the winters bite and the polytechnic quietly teaches the whole north to talk to machines, while the science park keeps a supercomputer on speed dial.",
