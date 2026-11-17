@@ -749,6 +749,11 @@
       "at": "2026-11-17T15:51Z",
       "by": "conductor.b@PrompTugal.dinis",
       "note": "hour 20 (ledger): 19 sessions 235.2 USD API-equivalent since the restart (+33.02 in 3h); live v0.1.1731. dev@ the provenance strip under every article headline; the old conductor@ made the reading credit a statement in the masthead ('Pay for what you read: \u00a35 of credit to start'); journalist@ S11 corrected; outreach@ 87 drafts; Vicky's curator@ S69 updated. Live data 14:19."
+    },
+    {
+      "at": "2026-11-17T16:53Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 21: live v0.1.1735. dev@ provenance filters and api/v1/articles/provenance.json; ontologist@ provenance and claims schema (step 2); journalist@ BR2 corrected, 15 queue items given owners; translator@ pl-PL half; designer.places@ /media/ kind chips. east read Sul Informacao's feed once: its robots.txt disallows ClaudeBot/Claude-Web/anthropic-ai: told east to stop and link only, journalist@ to hold items resting on it, until Dinis rules. security@ S50 for Dinis: the GBP5 support button takes real payment whose credit lands on newsroom.sgit.ai, not here."
     }
   ]
 }
