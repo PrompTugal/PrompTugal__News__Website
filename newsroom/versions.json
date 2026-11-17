@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1695",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 05:40 wake: place.districts' S43 key fix brought onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "0e6fb791f"
+  },
+  {
     "version": "v0.1.1694",
     "date": "2026-11-17",
     "what": "dev@PrompTugal.dinis: 05:09 wake: dev.places (queue scope) and datasci.places brought; the queue gap explained; status, run report",
