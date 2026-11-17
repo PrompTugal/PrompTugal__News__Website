@@ -29,27 +29,27 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-2464 cards (1705 current, 0 superseded, 759 withdrawn), from the catalogue generated 2026-11-17T09:59:39Z at site v0.1.1709; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+2469 cards (1712 current, 0 superseded, 757 withdrawn), from the catalogue generated 2026-11-17T13:00:04Z at site v0.1.1723; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `DAT.CO` | 120 |
 | `DAT.EV` | 259 |
-| `DAT.ORG` | 490 |
+| `DAT.ORG` | 492 |
 | `DAT.PE` | 295 |
 | `DAT.PL` | 115 |
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 1160 |
+| `PUB.SITE` | 1163 |
 
 Newest five accessions:
 
-- `ACC-20261117-0259` [Priberam](https://promptugal.news/organisations/priberam/) (`DAT.ORG priberam`)
-- `ACC-20261117-0258` [NeuralShift](https://promptugal.news/organisations/neuralshift/) (`DAT.ORG neuralshift`)
-- `ACC-20261117-0242` [Vila TV - A realidade começa aqui](https://promptugal.news/media/vila-tv-a-realidade-comeca-aqui/) (`PUB.SITE vila-tv-a-realidade-comeca-aqui`)
-- `ACC-20261117-0241` [Viana TV](https://promptugal.news/media/viana-tv/) (`PUB.SITE viana-tv`)
-- `ACC-20261117-0240` [Viana ao Minuto](https://promptugal.news/media/viana-ao-minuto/) (`PUB.SITE viana-ao-minuto`)
+- `ACC-20261117-0279` [TVI](https://promptugal.news/media/tvi/) (`PUB.SITE tvi`)
+- `ACC-20261117-0278` [Jornal Económico](https://promptugal.news/media/jornal-economico/) (`PUB.SITE jornal-economico`)
+- `ACC-20261117-0277` [ECO (eco.sapo.pt)](https://promptugal.news/media/eco/) (`PUB.SITE eco`)
+- `ACC-20261117-0269` [Santa Maria local health unit](https://promptugal.news/organisations/santa-maria-local-health-unit/) (`DAT.ORG santa-maria-local-health-unit`)
+- `ACC-20261117-0268` [national health service](https://promptugal.news/organisations/national-health-service/) (`DAT.ORG national-health-service`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

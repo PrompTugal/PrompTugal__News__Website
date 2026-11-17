@@ -1,12 +1,12 @@
 ---
 title: "Finding aid: The repository"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T09:59:39Z"
-site_version: "v0.1.1709"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T13:00:04Z"
+site_version: "v0.1.1723"
 source: board/catalogue.json
 ---
 
-# The repository (44 cards)
+# The repository (45 cards)
 
 The repository's own front files: the rules (CLAUDE.md), the brief and its corrections, REALITY.md, the readmes and the board's top files. Kept by conductor@.
 
@@ -26,7 +26,7 @@ By call number: the subclass (rules, brief, reality, readme, board), then the fi
 
 | Container | What it holds | Cards | Cards worth opening |
 |---|---|---|---|
-| `GEN.BOARD` | the board's front files | 32 | [Pass: the-front-page](https://promptugal.news/board/passes/2026-11-06-the-front-page.md), [Pass: the-top-of-the-page](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) |
+| `GEN.BOARD` | the board's front files | 33 | [Pass: the-front-page](https://promptugal.news/board/passes/2026-11-06-the-front-page.md), [Pass: the-top-of-the-page](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) |
 | `GEN.BRIEF` | the brief and its pages | 11 | [Brief 4: the desks, who runs them, and the run several times a day](https://promptugal.news/brief/04-the-desks-and-the-run/), [Brief 8: house rules](https://promptugal.news/brief/08-house-rules/) |
 | `GEN.README` | readmes | 1 | [The board for PrompTugal.news](https://promptugal.news/board/README.md) |
 
@@ -38,8 +38,8 @@ Special collection: S2 (11 cards). Dinis's guidance has its own guide: [guidance
 
 ## See also
 
-- [Agents, roles, keys](TEAM.md) (92 connections from this collection)
-- [Work in hand](WRK.md) (84 connections from this collection)
+- [Agents, roles, keys](TEAM.md) (96 connections from this collection)
+- [Work in hand](WRK.md) (85 connections from this collection)
 - [Readers and observability](RDR.md) (56 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph
 

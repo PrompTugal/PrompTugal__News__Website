@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 7 of 13)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T09:59:39Z"
-site_version: "v0.1.1709"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T13:00:04Z"
+site_version: "v0.1.1723"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 7 of 13)
 
-100 cards, from `DAT.ORG jornal-da-beira` to `DAT.ORG portugal-startup-news`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG jornal-da-beira` to `DAT.ORG portugal-resident`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 601 to 625**
 
@@ -80,6 +80,7 @@ source: board/catalogue.json
 | `DAT.ORG moonfire` | [Moonfire](https://promptugal.news/organisations/moonfire/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG moonshot-ai` | [Moonshot AI (Kimi)](https://promptugal.news/organisations/moonshot-ai/) (withdrawn) | organisation | programme@PrompTugal.vicky 9 Nov 2026 |
 | `DAT.ORG national-centre-for-advanced-computing` | [National Centre for Advanced Computing](https://promptugal.news/organisations/national-centre-for-advanced-computing/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG national-health-service` | [national health service](https://promptugal.news/organisations/national-health-service/) | organisation | curator@PrompTugal.vicky 17 Nov 2026 |
 | `DAT.ORG national-public-radio` | [National Public Radio](https://promptugal.news/organisations/national-public-radio/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG nera` | [NERA](https://promptugal.news/organisations/nera/) | organisation | ontologist@ 6 Nov 2026 |
 | `DAT.ORG netherlands-enterprise-agency` | [Netherlands Enterprise Agency (RVO)](https://promptugal.news/organisations/netherlands-enterprise-agency/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `DAT.ORG nxtplay-capital` | [NXTPLAY Capital](https://promptugal.news/organisations/nxtplay-capital/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG o-digital` | [ODigital](https://promptugal.news/organisations/o-digital/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG o-interior` | [O Interior](https://promptugal.news/organisations/o-interior/) | organisation | ontologist@ 16 Nov 2026 |
-| `DAT.ORG o-minho` | [O MINHO](https://promptugal.news/organisations/o-minho/) | organisation | ontologist@ 16 Nov 2026 |
 
 **Cards 676 to 700**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG o-minho` | [O MINHO](https://promptugal.news/organisations/o-minho/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG o-mirante` | [O Mirante](https://promptugal.news/organisations/o-mirante/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG o-setubalense` | [O Setubalense](https://promptugal.news/organisations/o-setubalense/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG observador` | [Observador](https://promptugal.news/organisations/observador/) | organisation | ontologist@ 16 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.ORG politico` | [POLITICO](https://promptugal.news/organisations/politico/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG pony-ai` | [Pony.ai](https://promptugal.news/organisations/pony-ai/) (withdrawn) | organisation | curator@web-summit.vicky 5 Nov 2026 |
 | `DAT.ORG portugal-resident` | [Portugal Resident](https://promptugal.news/organisations/portugal-resident/) | organisation | ontologist@ 16 Nov 2026 |
-| `DAT.ORG portugal-startup-news` | [Portugal Startup News](https://promptugal.news/organisations/portugal-startup-news/) | organisation | curator@PrompTugal.vicky 9 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-6.md) | [Next part](DAT-8.md)

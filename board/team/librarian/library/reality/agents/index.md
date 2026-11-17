@@ -27,28 +27,28 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-3489 cards (1200 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-17T09:59:39Z at site v0.1.1709; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+3496 cards (1207 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-17T13:00:04Z at site v0.1.1723; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `RDR.SHERPA` | 31 |
 | `RDR.SYN` | 5 |
-| `TEAM.ABP` | 114 |
+| `TEAM.ABP` | 117 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
 | `TEAM.INBOX` | 162 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 1937 |
+| `TEAM.ROLE` | 1941 |
 | `TEAM.RUN` | 1208 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261117-0267` [dev@'s review of work/dev.places, 17 November 2026, about 07:15 UTC](https://promptugal.news/board/team/dev.places/review-2026-11-17T0715Z.md) (`TEAM.ROLE review-2026-11-17T0715Z`)
-- `ACC-20261117-0266` [Two open leads, read 17 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-17/regional-ualg-and-hospital.md) (`TEAM.ROLE regional-ualg-and-hospital`)
-- `ACC-20261117-0265` [security@ wake, 17 November 2026, 08:05 UTC](https://promptugal.news/board/team/security/reviews/2026-11-17-0805-wake.md) (`TEAM.ROLE 2026-11-17-0805-wake`)
-- `ACC-20261117-0264` [ABP report, 17 November 09:37 UTC: Vicky's reviewer edits a published article](https://promptugal.news/board/abp/reports/2026-11-17-0937.md) (`TEAM.ABP 2026-11-17-0937`)
-- `ACC-20261117-0263` [ABP report, 17 November 08:37 UTC: clean](https://promptugal.news/board/abp/reports/2026-11-17-0837.md) (`TEAM.ABP 2026-11-17-0837`)
+- `ACC-20261117-0286` [MACA proposes a shared regional culture agenda, with digital platforms and AI](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-17/regional-maca-culture-agenda.md) (`TEAM.ROLE regional-maca-culture-agenda`)
+- `ACC-20261117-0285` [security@ pre-review: one reader across devices, step 1 (device key and pairing offer on the web)](https://promptugal.news/board/team/security/reviews/2026-11-17-1210-prereview-pairing-step-1.md) (`TEAM.ROLE 2026-11-17-1210-prereview-pairing-step-1`)
+- `ACC-20261117-0284` [security@ wake, 17 November 2026, 12:05 UTC](https://promptugal.news/board/team/security/reviews/2026-11-17-1205-wake.md) (`TEAM.ROLE 2026-11-17-1205-wake`)
+- `ACC-20261117-0283` [security@ wake, 17 November 2026, 10:05 UTC](https://promptugal.news/board/team/security/reviews/2026-11-17-1005-wake.md) (`TEAM.ROLE 2026-11-17-1005-wake`)
+- `ACC-20261117-0282` [ABP report, 17 November 12:37 UTC: one run report owed](https://promptugal.news/board/abp/reports/2026-11-17-1237.md) (`TEAM.ABP 2026-11-17-1237`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

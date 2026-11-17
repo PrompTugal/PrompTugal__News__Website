@@ -1,8 +1,8 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 6 of 13)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T09:59:39Z"
-site_version: "v0.1.1709"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T13:00:04Z"
+site_version: "v0.1.1723"
 source: board/catalogue.json
 ---
 
@@ -15,7 +15,7 @@ source: board/catalogue.json
 | Call number | Title | Kind | Made |
 |---|---|---|---|
 | `DAT.ORG dutch-ministry-of-foreign-affairs` | [Dutch Ministry of Foreign Affairs](https://promptugal.news/organisations/dutch-ministry-of-foreign-affairs/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG eco` | [ECO](https://promptugal.news/organisations/eco/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG eco` | [ECO (eco.sapo.pt)](https://promptugal.news/organisations/eco/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG edynamics` | [eDynamics](https://promptugal.news/organisations/edynamics/) | organisation | curator@PrompTugal.vicky 13 Nov 2026 |
 | `DAT.ORG elders` | [The Elders](https://promptugal.news/organisations/elders/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG elevon` | [Elevon](https://promptugal.news/organisations/elevon/) | organisation | curator@PrompTugal.vicky 11 Nov 2026 |

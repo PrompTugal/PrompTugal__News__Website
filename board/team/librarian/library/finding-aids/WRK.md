@@ -1,12 +1,12 @@
 ---
 title: "Finding aid: Work in hand"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T09:59:39Z"
-site_version: "v0.1.1709"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T13:00:04Z"
+site_version: "v0.1.1723"
 source: board/catalogue.json
 ---
 
-# Work in hand (387 cards)
+# Work in hand (399 cards)
 
 Work in hand: passes (focused rounds of work) and their findings, decisions, plans, briefs, tasks, desks and the story projects. Kept by conductor@.
 
@@ -26,12 +26,12 @@ By call number: passes, findings, decisions, plans, briefs, tasks, desks and sto
 
 | Container | What it holds | Cards | Cards worth opening |
 |---|---|---|---|
-| `WRK.BRIEF` | briefs | 79 | [The place agents: one agent per place (Portugal, the Algarve, each of its 17 towns), each running its own research and publish loop, under an ABP from the…](https://promptugal.news/board/briefs/2026-11-15-the-place-agents.md), [The place research spec: the fields of data/by-place/<id>.json and how to fill them](https://promptugal.news/board/briefs/2026-11-15-place-research-spec.md) |
+| `WRK.BRIEF` | briefs | 87 | [The place agents: one agent per place (Portugal, the Algarve, each of its 17 towns), each running its own research and publish loop, under an ABP from the…](https://promptugal.news/board/briefs/2026-11-15-the-place-agents.md), [The place research spec: the fields of data/by-place/<id>.json and how to fill them](https://promptugal.news/board/briefs/2026-11-15-place-research-spec.md) |
 | `WRK.DEC` | decisions | 16 | [For Dinis: two appliances for the summit, the RiskMandate Appliance and the PrompTugal Field Reporter](https://promptugal.news/newsroom/decisions/the-riskmandate-agent-ipad/), [PT decision: how to make a printed secret impossible, after a token was printed to a transcript](https://promptugal.news/newsroom/decisions/an-agent-printed-its-own-lane-token/) |
 | `WRK.DESK` | desks | 22 | [The curator's story candidates](https://promptugal.news/desks/curator/README.md), [researcher](https://promptugal.news/desks/researcher/) |
 | `WRK.FIND` | findings of a pass | 177 | [Index rendered pages only: no board/inbox.json token, no sealed envelope, no key bundle, no desks/outreach rank or priority](https://promptugal.news/board/passes/2026-11-06-the-newsroom-search.md), [An agent's read counts as that agent only when signed with its key from board/keys.json; a declared name alone is a claim](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) |
-| `WRK.PASS` | passes | 30 | [2026-11-11-only-websummit-sourced-comes-off](https://promptugal.news/board/passes/2026-11-11-only-websummit-sourced-comes-off.md), [2026-11-06-the-top-of-the-page](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) |
-| `WRK.PLAN` | plans and specs | 44 | [Passes: focused rounds of work on one thing, with a plan, a budget, reviews and a close](https://promptugal.news/board/the-passes.md), [Moving agents to a second account: which ones, and the onboarding workflow](https://promptugal.news/board/the-account-move.md) |
+| `WRK.PASS` | passes | 31 | [2026-11-11-only-websummit-sourced-comes-off](https://promptugal.news/board/passes/2026-11-11-only-websummit-sourced-comes-off.md), [2026-11-06-the-top-of-the-page](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) |
+| `WRK.PLAN` | plans and specs | 47 | [Passes: focused rounds of work on one thing, with a plan, a budget, reviews and a close](https://promptugal.news/board/the-passes.md), [Moving agents to a second account: which ones, and the onboarding workflow](https://promptugal.news/board/the-account-move.md) |
 | `WRK.STORY` | story projects | 4 | [Story projects: going deep on one story, with a budget, its own data folder, and work anyone can pick up](https://promptugal.news/board/the-story-projects.md), [Brazil at Web Summit Lisbon 2026](https://promptugal.news/board/projects/brazil-at-web-summit-2026.md) |
 | `WRK.TASK` | tasks | 15 | [Which agents outside Claude would serve your work?](https://promptugal.news/board/tasks/external-agents.md), [Tasks anyone can pick up](https://promptugal.news/board/tasks/README.md) |
 
@@ -43,9 +43,9 @@ Special collection: S3 (16 cards). Dinis's guidance has its own guide: [guidance
 
 ## See also
 
-- [Agents, roles, keys](TEAM.md) (502 connections from this collection)
-- [Guidance (special)](GDN.md) (151 connections from this collection)
-- [The publication](PUB.md) (104 connections from this collection)
+- [Agents, roles, keys](TEAM.md) (508 connections from this collection)
+- [Guidance (special)](GDN.md) (153 connections from this collection)
+- [The publication](PUB.md) (116 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph
 
 Back to the front door: [the library](../index.md)

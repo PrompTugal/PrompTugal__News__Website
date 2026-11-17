@@ -1,8 +1,8 @@
 ---
 title: "The finding aids of the library"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T09:59:39Z"
-site_version: "v0.1.1709"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T13:00:04Z"
+site_version: "v0.1.1723"
 source: board/catalogue.json
 ---
 
@@ -15,15 +15,15 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | Collection | Class | Cards |
 |---|---|---|
 | [Build, code and release](BLD.md) | `BLD` | 5 |
-| [Data and the ontology](DAT.md) | `DAT` | 1296 |
+| [Data and the ontology](DAT.md) | `DAT` | 1298 |
 | [Evidence and sources](EVD.md) | `EVD` | 1 |
-| [Guidance (special)](GDN.md) | `GDN` | 652 |
-| [The repository](GEN.md) | `GEN` | 44 |
+| [Guidance (special)](GDN.md) | `GDN` | 653 |
+| [The repository](GEN.md) | `GEN` | 45 |
 | [The library](LIB.md) | `LIB` | 358 |
-| [The publication](PUB.md) | `PUB` | 1468 |
+| [The publication](PUB.md) | `PUB` | 1476 |
 | [Readers and observability](RDR.md) | `RDR` | 43 |
-| [Agents, roles, keys](TEAM.md) | `TEAM` | 3453 |
-| [Work in hand](WRK.md) | `WRK` | 387 |
+| [Agents, roles, keys](TEAM.md) | `TEAM` | 3460 |
+| [Work in hand](WRK.md) | `WRK` | 399 |
 
 ## Passes
 
@@ -55,7 +55,7 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | [2026-11-06-the-site-over-time](passes/2026-11-06-the-site-over-time.md) | open | 1 |
 | [2026-11-06-the-summit-days](passes/2026-11-06-the-summit-days.md) | open | 18 |
 
-(continued, rows 26 to 30)
+(continued, rows 26 to 31)
 
 | Pass | State | Findings |
 |---|---|---|
@@ -64,6 +64,7 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | [2026-11-06-the-updates-section](passes/2026-11-06-the-updates-section.md) | queued | 2 |
 | [2026-11-06-the-verification-pipeline](passes/2026-11-06-the-verification-pipeline.md) | open | 2 |
 | [2026-11-11-only-websummit-sourced-comes-off](passes/2026-11-11-only-websummit-sourced-comes-off.md) | open | 0 |
+| [2026-11-17-pairing-step-1](passes/2026-11-17-pairing-step-1.md) |  | 0 |
 
 ## Special
 

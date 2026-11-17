@@ -1,19 +1,26 @@
 ---
 title: "Shelf list: PUB, The publication (part 10 of 15)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T09:59:39Z"
-site_version: "v0.1.1709"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T13:00:04Z"
+site_version: "v0.1.1723"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 10 of 15)
 
-100 cards, from `PUB.SITE lisboa:3` to `PUB.SITE o-mirante`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE lisboa:10` to `PUB.SITE noticias-de-aveiro`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 901 to 925**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE lisboa:10` | [PrompTugal.news Lisboa](https://promptugal.news/nl-NL/portugal/lisboa/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE lisboa:11` | [PrompTugal.news Lisboa](https://promptugal.news/portugal/lisboa/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE lisboa:12` | [PrompTugal.news Lisboa](https://promptugal.news/pt-BR/portugal/lisboa/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE lisboa:13` | [PrompTugal.news Lisboa](https://promptugal.news/pt-PT/portugal/lisboa/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE lisboa:14` | [Lisboa: AI in context](https://promptugal.news/query/decks/lisboa/) | site |  |
+| `PUB.SITE lisboa:15` | [Lisboa: the data](https://promptugal.news/query/lisboa/) | site |  |
+| `PUB.SITE lisboa:2` | [PrompTugal.news Lisboa](https://promptugal.news/de-CH/portugal/lisboa/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE lisboa:3` | [PrompTugal.news Lisboa](https://promptugal.news/de-DE/portugal/lisboa/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE lisboa:4` | [PrompTugal.news Lisboa](https://promptugal.news/es-AR/portugal/lisboa/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE lisboa:5` | [PrompTugal.news Lisboa](https://promptugal.news/es-ES/portugal/lisboa/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -32,6 +39,11 @@ source: board/catalogue.json
 | `PUB.SITE loule:2` | [PrompTugal.news Loulé](https://promptugal.news/algarve/loule/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE loule:3` | [PrompTugal.news Loulé](https://promptugal.news/de-CH/algarve/loule/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE loule:4` | [PrompTugal.news Loulé](https://promptugal.news/de-DE/algarve/loule/) | site | dev@ 6 Nov 2026 |
+
+**Cards 926 to 950**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `PUB.SITE loule:5` | [PrompTugal.news Loulé](https://promptugal.news/es-AR/algarve/loule/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE loule:6` | [PrompTugal.news Loulé](https://promptugal.news/es-ES/algarve/loule/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE loule:7` | [PrompTugal.news Loulé](https://promptugal.news/es-MX/algarve/loule/) | site | dev@ 6 Nov 2026 |
@@ -39,11 +51,6 @@ source: board/catalogue.json
 | `PUB.SITE loule:9` | [PrompTugal.news Loulé](https://promptugal.news/fr-FR/algarve/loule/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE lusa` | [Lusa - Agência de Notícias de Portugal](https://promptugal.news/media/lusa/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE mais-ribatejo` | [Mais Ribatejo](https://promptugal.news/media/mais-ribatejo/) | site | dev.places@ 16 Nov 2026 |
-
-**Cards 926 to 950**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `PUB.SITE media` | [Local media](https://promptugal.news/media/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE medio-tejo` | [Médio Tejo](https://promptugal.news/media/medio-tejo/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE mensageiro-de-braganca` | [Mensageiro de Bragança](https://promptugal.news/media/mensageiro-de-braganca/) | site | dev.places@ 16 Nov 2026 |
@@ -62,6 +69,11 @@ source: board/catalogue.json
 | `PUB.SITE monchique:6` | [PrompTugal.news Monchique](https://promptugal.news/es-ES/algarve/monchique/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE monchique:7` | [PrompTugal.news Monchique](https://promptugal.news/es-MX/algarve/monchique/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE monchique:8` | [PrompTugal.news Monchique](https://promptugal.news/fr-CA/algarve/monchique/) | site | dev@ 6 Nov 2026 |
+
+**Cards 951 to 975**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `PUB.SITE monchique:9` | [PrompTugal.news Monchique](https://promptugal.news/fr-FR/algarve/monchique/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE my-day` | [My day at the summit](https://promptugal.news/my-day/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE my-feeds` | [My Feeds, the idea PrompTugal runs](https://promptugal.news/investors/my-feeds/) | site | investors@ 7 Nov 2026 |
@@ -69,11 +81,6 @@ source: board/catalogue.json
 | `PUB.SITE my-feeds:3` | [My Feeds, l'idée que fait tourner PrompTugal](https://promptugal.news/investors/fr/my-feeds/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE my-feeds:4` | [A My Feeds, a ideia que o PrompTugal põe a funcionar](https://promptugal.news/investors/pt/my-feeds/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE newsletter` | [The daily newsletter](https://promptugal.news/newsletter/) | site | dev@ 6 Nov 2026 |
-
-**Cards 951 to 975**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `PUB.SITE newsroom` | [The newsroom of PrompTugal.news Albufeira](https://promptugal.news/algarve/albufeira/newsroom/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE newsroom:10` | [The newsroom of PrompTugal.news The Algarve](https://promptugal.news/algarve/newsroom/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE newsroom:11` | [The newsroom of PrompTugal.news Olhão](https://promptugal.news/algarve/olhao/newsroom/) | site | dev@ 6 Nov 2026 |
@@ -92,6 +99,11 @@ source: board/catalogue.json
 | `PUB.SITE newsroom:23` | [The newsroom of PrompTugal.news Castelo Branco](https://promptugal.news/portugal/castelo-branco/newsroom/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE newsroom:24` | [The newsroom of PrompTugal.news Coimbra](https://promptugal.news/portugal/coimbra/newsroom/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE newsroom:25` | [The newsroom of PrompTugal.news Évora](https://promptugal.news/portugal/evora/newsroom/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+
+**Cards 976 to 1000**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `PUB.SITE newsroom:26` | [The newsroom of PrompTugal.news Guarda](https://promptugal.news/portugal/guarda/newsroom/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE newsroom:27` | [The newsroom of PrompTugal.news Leiria](https://promptugal.news/portugal/leiria/newsroom/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE newsroom:28` | [The newsroom of PrompTugal.news Lisboa](https://promptugal.news/portugal/lisboa/newsroom/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -99,11 +111,6 @@ source: board/catalogue.json
 | `PUB.SITE newsroom:3` | [The newsroom of PrompTugal.news Aljezur](https://promptugal.news/algarve/aljezur/newsroom/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE newsroom:30` | [The newsroom of PrompTugal.news Portalegre](https://promptugal.news/portugal/portalegre/newsroom/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE newsroom:31` | [The newsroom of PrompTugal.news Porto](https://promptugal.news/portugal/porto/newsroom/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-
-**Cards 976 to 1000**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `PUB.SITE newsroom:32` | [The newsroom of PrompTugal.news Santarém](https://promptugal.news/portugal/santarem/newsroom/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE newsroom:33` | [The newsroom of PrompTugal.news Setúbal](https://promptugal.news/portugal/setubal/newsroom/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE newsroom:34` | [The newsroom of PrompTugal.news Viana do Castelo](https://promptugal.news/portugal/viana-do-castelo/newsroom/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -122,12 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE noticias-ao-minuto` | [Notícias ao Minuto](https://promptugal.news/media/noticias-ao-minuto/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE noticias-da-covilha` | [Notícias da Covilhã](https://promptugal.news/media/noticias-da-covilha/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE noticias-de-aveiro` | [Notícias de Aveiro](https://promptugal.news/media/noticias-de-aveiro/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE noticias-de-coimbra` | [Notícias de Coimbra (NDC)](https://promptugal.news/media/noticias-de-coimbra/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE noticias-de-viana` | [Notícias de Viana](https://promptugal.news/media/noticias-de-viana/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE noticias-de-vila-real` | [Notícias de Vila Real](https://promptugal.news/media/noticias-de-vila-real/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE o-digital` | [ODigital](https://promptugal.news/media/o-digital/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE o-interior` | [O Interior](https://promptugal.news/media/o-interior/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE o-minho` | [O MINHO](https://promptugal.news/media/o-minho/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE o-mirante` | [O Mirante](https://promptugal.news/media/o-mirante/) | site | dev.places@ 16 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-9.md) | [Next part](PUB-11.md)

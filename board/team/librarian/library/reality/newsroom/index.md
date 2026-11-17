@@ -30,19 +30,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-196 cards (196 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-17T09:59:39Z at site v0.1.1709; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+199 cards (199 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-17T13:00:04Z at site v0.1.1723; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `PUB.NEWS` | 196 |
+| `PUB.NEWS` | 199 |
 
 Newest five accessions:
 
+- `ACC-20261117-0276` [the-payment-desk-that-could-not-take-payment: The payment desk that could not take payment](https://promptugal.news/newsroom/stories/the-payment-desk-that-could-not-take-payment/) (`PUB.NEWS the-payment-desk-that-could-not-take-payment`)
+- `ACC-20261117-0275` [atm-currency-conversion-portugal-mark-up: A Portuguese ATM offered a 13.6% mark-up, twice, with a flag](https://promptugal.news/newsroom/stories/atm-currency-conversion-portugal-mark-up/) (`PUB.NEWS atm-currency-conversion-portugal-mark-up`)
+- `ACC-20261117-0274` [S69: AI physiotherapy in Portugal's health service: what the government says](https://promptugal.news/newsroom/stories/S69/) (`PUB.NEWS S69`)
 - `ACC-20261117-0261` [A PT decision: the live data on the home page](https://promptugal.news/newsroom/design/decisions/the-home-live-panel/) (`PUB.NEWS the-home-live-panel`)
 - `ACC-20261117-0260` [S68: Update: the Center for Responsible AI's chief executive gives a status](https://promptugal.news/newsroom/stories/S68/) (`PUB.NEWS S68`)
-- `ACC-20261116-0203` [vila-real-de-santo-antonio-shipyard-robots-and-drones: The Guadiana shipyard that builds the boats robots are tested on](https://promptugal.news/newsroom/stories/vila-real-de-santo-antonio-shipyard-robots-and-drones/) (`PUB.NEWS vila-real-de-santo-antonio-shipyard-robots-and-drones`)
-- `ACC-20261116-0202` [six-people-250-agents-promptugal-news: Six people and 250 agents: the team behind PrompTugal.news](https://promptugal.news/newsroom/stories/six-people-250-agents-promptugal-news/) (`PUB.NEWS six-people-250-agents-promptugal-news`)
-- `ACC-20261116-0201` [riskmandate-film-claude-laptop: A 26-second RiskMandate film, made with Claude on a laptop](https://promptugal.news/newsroom/stories/riskmandate-film-claude-laptop/) (`PUB.NEWS riskmandate-film-claude-laptop`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

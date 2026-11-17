@@ -57,3 +57,9 @@ See `board/budgets.json` `restart_2026-11-16`. The one gap: a sibling session ca
 - **Costs** (ledger 09:50): 187.28 API-equivalent since the restart in about 14 h 20 min (+22.88 in three hours, slowing; restarted sessions 166.27, conductor.b@ 21.01). Past a day's line, captured: place.districts@ and researcher@ (13.98). Opus roles: security@ 17.07, designer@ 16.17, dev@ 15.98 of 30.
 - **work/ branches** not on dev: old seven unchanged; place.districts 25, dev.places 19, researcher 18, place.algarve.west 15, datasci.places 15, designer.places 10, place.algarve.east 8, place.algarve.central 6, translator 5. Growing: no review round seen on these since 06:56.
 - **Debriefs owed from 16 Nov:** researcher@ and sherpa@ (unchanged).
+
+## Wake of 12:56 UTC, 17 November (seventh run)
+- **Map:** v0.1.1723, 2,044 pages, 1,583 board files, 31 passes; life map 95 agents, 216 keys (122 active), 31 flagged; library 7,738 cards, check OK, 43 tests green.
+- **Costs** (ledger 12:52): 225.07 API-equivalent since the restart in about 17 h 20 min (+37.79 in three hours, up from +22.88). Past a day's line of 10, captured: place.algarve.west@, place.algarve.central@, place.districts@, researcher@ (the window spans two UTC days, so a day's line is a fair yardstick only from tomorrow's close). Opus (line 30): conductor.b@ 22.89, security@ 22.68, designer@ 21.99, dev@ 19.90, journalist@ 16.46. A line to propose to Dinis only if it holds after 00:00 UTC: Sonnet desks at 15.
+- **work/ branches** not on dev: old seven unchanged; place.districts 27, dev.places 20, researcher 18, datasci.places 17, place.algarve.west 16, designer.places 10, place.algarve.east 8, place.algarve.central 8, translator 6, sherpa 6: about 135 and rising.
+- **Debriefs:** researcher@ (8 Nov) and sherpa@ (12 Nov) still owe one from 16 Nov. Not yet filed today: dev@, security@, place.algarve.west@, correspondent@, researcher@, sherpa@ (due by the day's end).
