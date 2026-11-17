@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1749",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: 21:09 wake: search shards; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "1d86205d1"
+  },
+  {
     "version": "v0.1.1748",
     "date": "2026-11-17",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
