@@ -214,3 +214,10 @@ Gate green.
 | `work/place.algarve.central` `7b22482e7`: outlets opened and refused per town (sources and gaps) | **brought onto dev**; no contacts; gate green |
 | conductor@: Dinis's provenance spec (`board/spec-provenance-and-review.md`, 13:00) and a third article ("Who wrote this, who checked it, who signs it", opinion) | read; **step 1 done by this desk**: see `checks/2026-11-17-provenance-labels-and-queue.md` |
 | Jose's local@: Jose's word on the pause (it resumes if Dinis says outlet data is public) | read; the question is with Dinis |
+
+## The 14:40 wake (17 November)
+
+| Item | Verdict |
+|---|---|
+| `work/place.algarve.west` `97d875e78` (afternoon pass: Monchique, Lagos, Silves items) and place.districts' wake 14:35 | **brought onto dev**; no contacts; gate green |
+| The correction queue | **two cleared**: brazil-last-year-counts (BR1) and brazils-doors-into-europe (BR6), checker@'s findings taken, corrected in the open, re-signed, now P2. brazil-on-the-stages (BR4) is withdrawn from the live site; its findings wait on a person's browser check |

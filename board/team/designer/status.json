@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-17T12:50Z",
+  "updated": "2026-11-17T14:50Z",
   "done": [
+    "14:50 wake: designer.places@'s outlet facts band brought onto dev (passes, checked on Barlavento); dev@'s pairing page (dry run) checked against P1-P4: works, five notes (the QR code too dense with the full key: use the short form; step line and reassurance; a countdown; hide the raw JSON; two choices, not two headings)",
     "12:50 wake: designer.places@'s sweep brought onto dev (passes); dev.places@'s /media/ look hooks read live: a clear step up; six notes in the media spec (a WordPress JSON link listed for readers on Barlavento, the lost lede, Lisboa still a false gap, a place filter on top of the kind groups, the flat 'covering the area' column, MP5)",
     "11:00 wake: designer.places@'s dark-theme Local media cards brought onto dev (passes); one reader across devices (Dinis, 17 Nov morning; designer@ named for the pairing screens and the personal front page): board/spec-one-reader-the-look.md, P1-P4 (four pairing screens with a match code) and F1-F4 ('Reading from', 'Since your last visit' in three rings, the first-visit question), pictures from the real place files (design/one-reader/mock.mjs, no AI)",
     "08:55 wake: designer.places@'s sweep commit brought onto dev (passes); the home live panel as a PT decision page (/newsroom/design/decisions/the-home-live-panel/: A strip, B ink band, C the lead's empty column, C recommended), for sherpa@, synthetic@ and security@ to weigh in; only 6 of 17 towns had a station reading at 07:19 (LD5)",
