@@ -1,0 +1,45 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home live strip: two variants</title>
+<style>
+:root{--paper:#f5f2ea;--ink:#16181b;--now-bg:#101215;--now-fg:#f4f1e8;--acc:#7fd6a0;--warn:#f2c230;--red:#c8202e}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.4 Georgia,serif}
+.wrap{max-width:1180px;margin:0 auto;padding:1.5rem 16px}
+h1{font-size:1.3rem}h2{font:600 .75rem ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;margin:2rem 0 .5rem}
+.mono{font-family:ui-monospace,monospace}
+/* A: a one-line ticker made readable: figures, not a sentence */
+.a{display:flex;gap:1.4rem;overflow-x:auto;padding:.7rem 0;border-top:3px solid var(--red);border-bottom:1px solid rgba(0,0,0,.2);scrollbar-width:none}
+.a b.l{color:var(--red);font:700 .75rem ui-monospace,monospace;letter-spacing:.08em;white-space:nowrap;align-self:center}
+.a .c{white-space:nowrap}.a .c small{display:block;font:.65rem ui-monospace,monospace;text-transform:uppercase;letter-spacing:.06em;opacity:.65}
+.a .c span{font-size:1.35rem}
+/* B: the ink band, the same register as Now in <place>, one town per column with its source and time */
+.b{background:var(--now-bg);color:var(--now-fg);border-top:3px solid var(--acc);padding:1rem 1.2rem}
+.b .h{display:flex;align-items:center;gap:.5rem;font:700 .75rem ui-monospace,monospace;letter-spacing:.1em;text-transform:uppercase}
+.b .dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--acc)}
+.b .g{display:grid;grid-template-columns:repeat(auto-fit,minmax(11rem,1fr));gap:0;margin-top:.8rem}
+.b .g>div{padding:.6rem .9rem;border-left:1px solid rgba(255,255,255,.18)}
+.b .g>div:first-child{border-left:0;padding-left:0}
+.b small{display:block;font:.65rem ui-monospace,monospace;text-transform:uppercase;letter-spacing:.06em;color:#9fb3c2}
+.b .v{font-size:1.9rem;line-height:1.15}.b .m{font:.7rem ui-monospace,monospace;color:#aeb7bd}
+.chip{background:var(--warn);color:#111;font:700 .65rem ui-monospace,monospace;padding:.1rem .4rem}
+</style></head><body><div class="wrap">
+<h1>The home page's live strip: two variants for Dinis to choose</h1>
+<p>Made by designer.places@ (17 Nov 2026). Figures are the real ones read from IPMA and adsb.lol at the time of writing; nothing here changes the brand. Today the strip is one line of small type: "Now in the Algarve: Faro 19.3 °C · fire risk low · ...".</p>
+<h2>A: the same strip, as figures</h2>
+<div class="a"><b class="l">NOW IN THE ALGARVE</b>
+<div class="c"><small>Faro, now</small><span>19.3 °C</span></div>
+<div class="c"><small>Fire risk</small><span>low</span></div>
+<div class="c"><small>Warning</small><span><i class="chip">YELLOW</i> rough sea from 18 Nov</span></div>
+<div class="c"><small>Faro airport</small><span>0 airline flights near</span></div>
+<div class="c"><small>Read</small><span class="mono" style="font-size:.8rem">03:17 UTC · IPMA, adsb.lol</span></div></div>
+<p>Pros: small, keeps the page's rhythm; scrolls sideways on a phone. Cons: still one source line for four values.</p>
+<h2>B: the ink band of the place pages, on the home page</h2>
+<div class="b"><div class="h"><span class="dot"></span>Now in the Algarve</div>
+<div class="g">
+<div><small>Faro · now</small><div class="v">19.3 °C</div><div class="m">IPMA · 03:17 UTC · 1 h ago</div></div>
+<div><small>Fire risk</small><div class="v">low</div><div class="m">IPMA</div></div>
+<div><small>Warning</small><div class="v" style="font-size:1.15rem"><span class="chip">YELLOW</span> rough sea<br>from 18 Nov 12:00</div><div class="m">IPMA</div></div>
+<div><small>Faro airport</small><div class="v" style="font-size:1.4rem">0 airline flights, 40 nm</div><div class="m">adsb.lol · 38 min ago</div></div>
+</div></div>
+<p>Pros: the same look as every town page, so the home page teaches the reader where the live data lives; source and age beside each value. Cons: about 150 px taller; asks the home page to give up some room.</p>
+<p><b>Recommendation:</b> B, with each value a link to a page a person reads (IPMA's page, the map), never a JSON file. Needs a hook in the home page's build (dev.pages@ / designer@).</p>
+</div></body></html>

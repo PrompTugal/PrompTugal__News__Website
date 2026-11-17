@@ -1,0 +1,72 @@
+{
+ "type": "contact-request/v1",
+ "from": "outreach@PrompTugal.dinis",
+ "company": "correio-da-manha",
+ "purpose": "Ask Correio da Manhã (CM) to check its page on PrompTugal.news and invite it to write for its place",
+ "share": [
+  "https://promptugal.news/organisations/correio-da-manha/",
+  "https://promptugal.news/contribute/",
+  "https://promptugal.news/api/v1/billing/meter.json"
+ ],
+ "language": "pt",
+ "proposed_text_pt": "Assunto: Correio da Manhã (CM) no PrompTugal.news: podem ver se a vossa página está certa?\n\nOlá equipa do Correio da Manhã (CM),\n\nO PrompTugal.news é uma redação nova, feita em Portugal por agentes de IA, que acompanha a tecnologia e a inteligência artificial por terra, com cada facto ligado à sua fonte. Criámos uma página para o Correio da Manhã (CM):\nhttps://promptugal.news/organisations/correio-da-manha/\n\nA página liga primeiro ao vosso site (https://www.cmjornal.pt) e ao vosso feed (https://www.cmjornal.pt/rss), com a data em que os lemos. Não copiamos o vosso texto: ligamos, damos crédito e enviamos os leitores para a notícia original.\n\nComo obtivemos os dados: lemos o vosso feed RSS público (https://www.cmjornal.pt/rss) e as páginas públicas do vosso site; não usamos nada que esteja atrás de um login. Têm uma API, um feed ou dados abertos que possamos usar em vez disso? Se sim, passamos a usá-los.\n\nPedimos uma coisa: podem ver se o que lá está é correto? Se algo estiver errado, respondam e corrigimos na própria página, com data.\n\nSe alguém da vossa redação quiser escrever connosco sobre a sua terra, a página para colaborar é esta:\nhttps://promptugal.news/contribute/\nO que publicamos fica com a licença CC BY 4.0, com crédito ao autor. Por agora não há pagamento.\n\nQueremos, no futuro, partilhar com os meios locais parte do que o nosso contador de leitura regista pelo trabalho que ligamos e citamos. Isso ainda não está construído; dizemos-vos as condições antes de existir. O contador, hoje, está aqui: https://promptugal.news/api/v1/billing/meter.json\n\nAs páginas estão, por agora, em inglês. Responder é opcional.\n\nCumprimentos,\n[quem envia, a escolher por uma pessoa]\nPrompTugal.news\n\nEscrito por um agente de IA para Dinis Cruz, revisto e enviado por uma pessoa. Encontrámos este contacto no vosso site. Se preferirem não receber mais mensagens nossas, respondam e não voltamos a escrever.",
+ "sender": null,
+ "sender_note": "left for a person to choose",
+ "by": null,
+ "channel": {
+  "kind": "published-newsroom-page",
+  "url": "https://www.cmjornal.pt/",
+  "read": "2026-11-16",
+  "note": "the outlet's own page; a person reads the address there. No address or number is copied into this repository."
+ },
+ "offers_checked": {
+  "page-check": {
+   "live": true,
+   "evidence": "https://promptugal.news/organisations/correio-da-manha/",
+   "read": "2026-11-16"
+  },
+  "link-and-credit": {
+   "live": true,
+   "evidence": "the outlet page links its site and feed with the date read",
+   "read": "2026-11-16"
+  },
+  "place-page-links-outlet": {
+   "live": false,
+   "evidence": "https://promptugal.news/portugal/portugal/",
+   "read": "2026-11-16"
+  },
+  "write-for-your-place": {
+   "live": true,
+   "evidence": "https://promptugal.news/contribute/ (CC BY 4.0, no payment for now)",
+   "read": "2026-11-16"
+  },
+  "share-of-meter": {
+   "live": false,
+   "evidence": "no per-source wallet exists; worded only as intent, option B of the decision page",
+   "read": "2026-11-16"
+  },
+  "feeds-out": {
+   "live": false,
+   "evidence": "no per-place feed in REALITY.md; not offered",
+   "read": "2026-11-16"
+  },
+  "agentic-desk": {
+   "live": false,
+   "evidence": "not built; not offered",
+   "read": "2026-11-16"
+  }
+ },
+ "data_access": {
+  "how_read": "public RSS feed and public pages, nothing behind a login",
+  "feed": "https://www.cmjornal.pt/rss",
+  "asks_for_api_or_open_data": true
+ },
+ "status": "draft",
+ "holds": [
+  "Nothing is sent by an agent. A person reviews, chooses the sender and sends.",
+  "Dinis's decision on what a first email may promise is open (content/newsroom/decisions/what-a-first-contact-to-a-news-organisation-may-promise.md). The money paragraph is option B's line; if he picks another option it changes or goes.",
+  "A person opens the outlet page and the contact page before sending, and checks both still answer and say what the draft says.",
+  "The pages are in English only; the draft says so.",
+  "No RiskMandate line and no publisher line: Dinis took RiskMandate off the site (7 Nov) and the publisher question is open on the decision page."
+ ]
+}

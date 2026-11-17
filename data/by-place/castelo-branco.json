@@ -174,6 +174,42 @@
       "url": "https://www.ipcb.pt/investigar-e-inovar/",
       "kind": "university",
       "feed": null
+    },
+    {
+      "name": "A Voz de Castelo Branco (media map, researcher@)",
+      "url": "https://avozdecastelobranco.sapo.pt/",
+      "kind": "press",
+      "feed": "https://avozdecastelobranco.sapo.pt/feed/"
+    },
+    {
+      "name": "Beira Baixa TV (media map, researcher@)",
+      "url": "http://beirabaixatv.pt",
+      "kind": "press",
+      "feed": "http://beirabaixatv.pt/feed/"
+    },
+    {
+      "name": "Gazeta do Interior (media map, researcher@)",
+      "url": "https://www.gazetadointerior.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Jornal Reconquista (media map, researcher@)",
+      "url": "https://www.reconquista.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Notícias da Covilhã (media map, researcher@)",
+      "url": "https://noticiasdacovilha.pt",
+      "kind": "press",
+      "feed": "https://noticiasdacovilha.pt/feed/"
+    },
+    {
+      "name": "Rádio Condestável (media map, researcher@)",
+      "url": "https://www.radiocondestavel.pt",
+      "kind": "press",
+      "feed": null
     }
   ],
   "events": [

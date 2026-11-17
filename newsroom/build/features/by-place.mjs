@@ -286,21 +286,21 @@ function regionPage(ctx, L) {
     let md = mast(ctx, L, p, `[Portugal](${ctx.link(rel, 'portugal/index.html')})`)
     { const nb = nowBlock(ctx, p, L); if (nb) md += `::: bp-nowband\n${nb}:::\n\n` }
     md += `\n{.bp-tiles}\n- **${T.length}** places in the first wave\n- **${localCount}** local AI stories\n- **${map.length}** on the AI map\n- **${T.filter(t => t.status === 'live').length}** places live\n\n`
-    md += `## The map {#places}\n\n{.bp-lede}\n${W(L, 'region_map_lede')}\n\n{.bp-svgmap}\n${T.map(t => `[${esc(ctx, t.name)}](${ctx.link(rel, `${t.path}index.html`)})`).join(' · ')}\n\n`
-    md += `## The towns {#towns}\n\n${W(L, 'towns_intro')}\n\n{.bp-towns}\n` +
+    md += `## ${W(L, 'h_places')} {#places}\n\n{.bp-lede}\n${W(L, 'region_map_lede')}\n\n{.bp-svgmap}\n${T.map(t => `[${esc(ctx, t.name)}](${ctx.link(rel, `${t.path}index.html`)})`).join(' · ')}\n\n`
+    md += `## ${W(L, 'h_towns')} {#towns}\n\n${W(L, 'towns_intro')}\n\n{.bp-towns}\n` +
         T.map(t => `- [**${esc(ctx, t.name)}**](${ctx.link(rel, `${t.path}index.html`)})${t.look && t.look.landmark ? ` *${esc(ctx, t.look.landmark)}*` : ''} \`${statusWord(L, t.status)}\` ${n(t.ai_news.length, 'story', 'stories')} · ${n(t.ai_map.length, 'on the map', 'on the map')}`).join('\n') + '\n\n'
     md += `::: cols-8-4\n::: col\n`
-    md += `## The latest from the towns {#latest}\n\n` + (latestLocal.length ? newsCards(ctx, latestLocal, 'bp-big') : `{.bp-empty}\nThe towns' agents are starting their research.`) + '\n\n'
-    if ((p.ai_news || []).length) md += `## Across the region {#region}\n\n${newsCards(ctx, p.ai_news.slice(0, 10), 'bp-small')}\n\n`
+    md += `## ${W(L, 'h_latest')} {#latest}\n\n` + (latestLocal.length ? newsCards(ctx, latestLocal, 'bp-big') : `{.bp-empty}\nThe towns' agents are starting their research.`) + '\n\n'
+    if ((p.ai_news || []).length) md += `## ${W(L, 'h_across')} {#region}\n\n${newsCards(ctx, p.ai_news.slice(0, 10), 'bp-small')}\n\n`
     const ours = tagged(ctx, m => m.region === 'algarve' || T.some(t => m.town === t.id))
     if (ours.length) md += `## ${W(L, 'articles_h', { name: 'the Algarve' })} {#ours}\n\n${articleList(ctx, rel, ours.slice(0, 10))}`
     md += `:::\n::: col\n`
-    md += `{.mini-h}\nOne publication, three levels\n\n${W(L, 'levels', { portugal: ctx.link(rel, 'portugal/index.html'), count: T.length })}\n\n`
-    md += `{.mini-h}\nThe first wave\n\n{.bp-status}\n| Place | Status | Stories | Map |\n|---|---|---|---|\n${T.map(t => `| [${esc(ctx, t.name)}](${ctx.link(rel, `${t.path}index.html`)}) | ${t.status || 'stub'} | ${(t.ai_news || []).length} | ${(t.ai_map || []).length} |`).join('\n')}\n\n`
-    if ((p.sources || []).length) md += `{.mini-h}\nRegional sources\n\n{.bp-sources}\n${p.sources.map(s => `- [${esc(ctx, s.name)}](${url(s.url)})${okUrl(s.feed) ? ` · [feed](${url(s.feed)})` : ''}`).join('\n')}\n\n`
-    if ((p.gaps || []).length) md += `{.mini-h}\nGaps\n\n{.bp-gaps}\n${p.gaps.map(g => `- ${esc(ctx, g)}`).join('\n')}\n\n`
+    md += `{.mini-h}\n${W(L, 'h_levels')}\n\n${W(L, 'levels', { portugal: ctx.link(rel, 'portugal/index.html'), count: T.length })}\n\n`
+    md += `{.mini-h}\n${W(L, 'h_wave')}\n\n{.bp-status}\n| ${W(L, 'h_col_place')} | ${W(L, 'h_col_status')} | ${W(L, 'h_col_stories')} | ${W(L, 'h_col_map')} |\n|---|---|---|---|\n${T.map(t => `| [${esc(ctx, t.name)}](${ctx.link(rel, `${t.path}index.html`)}) | ${t.status || 'stub'} | ${(t.ai_news || []).length} | ${(t.ai_map || []).length} |`).join('\n')}\n\n`
+    if ((p.sources || []).length) md += `{.mini-h}\n${W(L, 'h_regional_sources')}\n\n{.bp-sources}\n${p.sources.map(s => `- [${esc(ctx, s.name)}](${url(s.url)})${okUrl(s.feed) ? ` · [feed](${url(s.feed)})` : ''}`).join('\n')}\n\n`
+    if ((p.gaps || []).length) md += `{.mini-h}\n${W(L, 'h_gaps')}\n\n{.bp-gaps}\n${p.gaps.map(g => `- ${esc(ctx, g)}`).join('\n')}\n\n`
     md += `:::\n:::\n\n`
-    md += `## The AI map of the Algarve {#map}\n\n${W(L, 'region_map_intro', { ae: ctx.link(rel, 'portugal/algarve-evolution/index.html') })}\n\n` + (mapRows(ctx, map, true) || `{.bp-empty}\nBeing mapped.`) + '\n\n'
+    md += `## ${W(L, 'h_map_algarve')} {#map}\n\n${W(L, 'region_map_intro', { ae: ctx.link(rel, 'portugal/algarve-evolution/index.html') })}\n\n` + (mapRows(ctx, map, true) || `{.bp-empty}\nBeing mapped.`) + '\n\n'
     md += testNote(ctx, L, rel, p)
     return {
         src: LIST, rel, type: 'place', layout: 'wide', date: ctx.TODAY, section: 'portugal', group: 'Portugal',
@@ -363,7 +363,7 @@ function segmentsOf(ctx, L) {
 }
 function queueFiles(ctx, L) {
     const all = segmentsOf(ctx, L)
-    return memories(ctx).map(({ culture, m }) => ({ path: `api/v1/i18n/queue/${culture}.json`, schema: null, data: { culture, about: ctx.readJSON('assets/by-place/queue.json').about, built: ctx.TODAY, segments_total: all.length, missing: all.filter(x => !m.has(x.id)).length, segments: all.filter(x => !m.has(x.id)) } }))
+    return [{ path: 'api/v1/i18n/segments.json', schema: null, data: Object.fromEntries(all.map(x => [x.id, x.text])) }, ...memories(ctx).map(({ culture, m }) => ({ path: `api/v1/i18n/queue/${culture}.json`, schema: null, data: { culture, about: ctx.readJSON('assets/by-place/queue.json').about, built: ctx.TODAY, segments_total: all.length, missing: all.filter(x => !m.has(x.id)).length, segments: all.filter(x => !m.has(x.id)) } }))]
 }
 function translatedL(L, culture, m) {
     const byId = new Map()
@@ -411,7 +411,7 @@ function portugalLens(ctx, L, rel) {
     const ours = tagged(ctx, m => m.region || m.town).slice(0, 6)
     let md = `::: bp-frame bp-country\n` + mast(ctx, L, p, '')
     md += `\n::: cols-8-4\n::: col\n` + gravityBlock(ctx, L, p)
-    md += `## AI in Portugal {#local}\n\n` + (p.ai_news.length ? newsCards(ctx, p.ai_news.slice(0, 8), 'bp-big') : `{.bp-empty}\n${W(L, 'local_empty')}`) + '\n\n'
+    md += `## ${W(L, 'h_ai_portugal')} {#local}\n\n` + (p.ai_news.length ? newsCards(ctx, p.ai_news.slice(0, 8), 'bp-big') : `{.bp-empty}\n${W(L, 'local_empty')}`) + '\n\n'
     md += `## ${W(L, 'by_place_h')} {#by-place}\n\n${W(L, 'by_place_intro', { region: ctx.link(rel, 'algarve/index.html'), news: n(regionNews, 'local AI story', 'local AI stories'), map: n(regionMap, 'organisation'), count: T.length })}\n\n${fill['by-place:towns']({ rel }, ctx)}\n\n`
     if (ours.length) md += `{.mini-h}\n${W(L, 'articles_h', { name: 'the places' })}\n\n${articleList(ctx, rel, ours)}`
     md += `## The national AI map {#map}\n\n${W(L, 'map_intro', { name: 'Portugal' })}\n\n` + (mapRows(ctx, p.ai_map) || `{.bp-empty}\nBeing mapped.`) + '\n\n'
@@ -520,6 +520,8 @@ export function llms(ctx) {
 function memoryChecks(gate) {
     const out = [], W = JSON.parse(gate.text('assets/by-place/queue.json')).check, same = (a, b) => JSON.stringify(a) === JSON.stringify(b)
     const bag = (s, re) => (s.match(re) || []).sort()
+    let EN = {}; try { EN = JSON.parse(gate.text('api/v1/i18n/segments.json')) } catch { return out }
+    const num = x => (x.replace(/(\d)[.,\u202f\u00a0'](?=\d)/g, '$1').match(/\d+/g) || []).sort()
     const dir = path.join(gate.ROOT, TM_DIR)
     let cultures = []; try { cultures = fs.readdirSync(dir).filter(c => /^[a-z]{2}-[A-Z]{2}$/.test(c)).sort() } catch { return out }
     for (const culture of cultures) {
@@ -527,10 +529,10 @@ function memoryChecks(gate) {
         for (const f of fs.readdirSync(path.join(dir, culture)).filter(f => f.endsWith('.json'))) {
             let m; try { m = JSON.parse(fs.readFileSync(path.join(dir, culture, f), 'utf8')) } catch { continue }
             for (const [id, v] of Object.entries(m)) {
-                if (!v || typeof v.src !== 'string' || typeof v.t !== 'string') continue
-                if (!same(bag(v.src, /\{\w+\}/g), bag(v.t, /\{\w+\}/g))) bad.placeholders.push(id)
-                if (!same(bag(v.src, /https?:\/\/[^\s)]+/g), bag(v.t, /https?:\/\/[^\s)]+/g))) bad.urls.push(id)
-                if (!same(bag(v.src, /\d+/g), bag(v.t, /\d+/g))) bad.numbers.push(id)
+                const en = EN[id]; if (typeof en !== 'string' || !v || typeof v.t !== 'string') continue
+                if (!same(bag(en, /\{\w+\}/g), bag(v.t, /\{\w+\}/g))) bad.placeholders.push(id)
+                if (!same(bag(en, /https?:\/\/[^\s)]+/g), bag(v.t, /https?:\/\/[^\s)]+/g))) bad.urls.push(id)
+                if (!same(num(en), num(v.t))) bad.numbers.push(id)
             }
         }
         for (const k of Object.keys(bad)) if (bad[k].length) out.push(W[k].replace('{culture}', culture).replace('{n}', bad[k].length).replace('{id}', bad[k][0]).replace('{placeholder}', 'placeholder'))
