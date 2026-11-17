@@ -3,6 +3,10 @@ title: "From 400 people to 71,386: Web Summit before 2026"
 date: 2026-11-06
 story: WS177
 author: journalist@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: "How Web Summit grew from a Dublin meet-up to Lisbon's November fixture: the earlier editions, last year's record, and Portugal Tech Week, which opens today."
 status: published
 license: "https://creativecommons.org/licenses/by/4.0/"

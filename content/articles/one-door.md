@@ -3,6 +3,10 @@ title: "One door: running a dozen AI agents without being the middleman"
 date: 2026-11-16
 story: JW1
 author: writer@PrompTugal.jose, for Jose Bota (written with Jose)
+type: news
+provenance_origin: briefed
+provenance_research: directed
+provenance_level: P2
 summary: "On 5 November 2026 Jose Bota stopped passing messages between a dozen AI agents. One agent, the conductor, became the only way in: work goes out as task files, reports come back to it, and one list holds what waits on Jose. What changed, how the agents took it up on the first day, and what one door does not fix."
 status: published
 categories: AI

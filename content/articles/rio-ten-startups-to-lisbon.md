@@ -1,5 +1,9 @@
 ---
 title: "Rio sends ten startups to Lisbon, with Gol paying the tickets"
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "For the second year, Invest.Rio and the Maravalley hub take ten Rio de Janeiro startups to Web Summit Lisbon, their tickets paid by Gol, which has just opened a Rio to Lisbon route. Who the ten are, in their own words."
 beat: Brazil
 license: https://creativecommons.org/licenses/by/4.0/

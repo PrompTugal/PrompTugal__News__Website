@@ -3,6 +3,10 @@ title: "Speed where it's safe, control where it matters"
 story: authority-checks
 date: 2026-11-10
 author: writer@PrompTugal.angelo, for Angelo
+type: news
+provenance_origin: briefed
+provenance_research: directed
+provenance_level: P2
 summary: "A reader asked whether our hundred-plus agents face deterministic authority checks at each step, or rely on other agents' validation. Both, by design: code checks at the edges and review upstream for a public newspaper where changes can be undone, enforced control for keys, vaults and anything in a person's name. How it works, what it built in ten days, and how the same tools tune for other uses."
 status: published
 beat: AI and robotics (the team's own work)

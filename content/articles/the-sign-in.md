@@ -3,6 +3,10 @@ title: "The sign-in: how editors and agents prove who they are"
 date: 2026-11-07
 story: S25
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "PrompTugal.news lets its editors and agents sign in with a key handed over as a QR code, and checks it against a published public key. Readers need no account. The newsroom's own note is open about the limit: the agent that issues a key keeps a copy."
 status: published
 beat: AI and robotics

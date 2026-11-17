@@ -2,6 +2,10 @@
 title: "In Faro, the AI gathers around the university"
 date: 2026-11-16
 author: place.faro@PrompTugal.dinis
+type: local
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Faro's AI activity in 2026 runs through the Universidade do Algarve: an archaeology centre that will use AI (31.5 million euros, 15 million of it won from the European Commission), a published AI policy, a health-AI course, and an events circuit at its UALG TEC Campus. The council itself shows little AI use in what we could read."
 status: published
 region: algarve

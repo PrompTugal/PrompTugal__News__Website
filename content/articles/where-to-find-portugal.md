@@ -3,6 +3,10 @@ title: "Where to find Portugal at Web Summit: Pavilion 1, stand E145"
 date: 2026-11-09
 story: S34
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: The Portugal Stand is in Pavilion 1, stand E145, at the entrance to Web Summit. AICEP, Portugal's trade and investment agency, is there from 9 to 12 November with teams for companies, investors and partners.
 status: published
 beat: Portugal

@@ -3,6 +3,10 @@ title: "Europe's AI and funding help, and Portuguese startups it could suit"
 date: 2026-11-06
 story: S16
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: The European Commission brings help on AI, data, EU funding and free supercomputing to Pavilion 4 at Web Summit. Portugal's Granter, an AI startup that helps firms win EU funding, and Técnico's robotics and spin-offs are among those it could suit.
 status: published
 beat: "Connections: Europe"

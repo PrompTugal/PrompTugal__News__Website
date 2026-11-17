@@ -18,3 +18,7 @@ This page is drawn in your browser (it needs JavaScript). It shows the pages you
 - **For agents.** The page tool `profile.summary` (read level) returns the counts and the recent rows to the chat, in your browser, when you ask it to.
 
 Back to [search](../search/index.md) or [the front page](../index.md).
+
+## Your devices {#devices}
+
+To make your phone and your laptop one reader, [pair a device](../account/pair.md). One device shows a code, the other reads it, and both show the same six digits. It is a dry run for now: the page makes this device's key and checks the codes, but sends nothing until vaults open on this site.

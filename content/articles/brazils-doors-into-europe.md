@@ -1,5 +1,9 @@
 ---
 title: "Beyond the pavilion: Brazil's year-round doors into Europe through Portugal"
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: "Behind Brazil's three days at Web Summit are links that stay open all year: Porto Digital's unit in Aveiro, the ApexBrasil and Sebrae incubator in Lisbon, Unicorn Factory Lisboa's Brazilian partners and a 2023 agreement between Sebrae and Startup Portugal. What each is, and what the sources do not say."
 beat: Brazil
 license: https://creativecommons.org/licenses/by/4.0/
