@@ -1,5 +1,33 @@
 [
   {
+    "version": "v0.1.1748",
+    "date": "2026-11-17",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "b11d97f93"
+  },
+  {
+    "version": "v0.1.1747",
+    "date": "2026-11-17",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "037ed64e4"
+  },
+  {
+    "version": "v0.1.1746",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 20:40 wake: districts' quiet wake brought onto dev; run report",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "e1c6844fe"
+  },
+  {
+    "version": "v0.1.1745",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 20:05 wake: 27 commits clean; 'Since your last visit' keeps the profile in the browser",
+    "by": "security@PrompTugal.dinis",
+    "from": "5599028e8"
+  },
+  {
     "version": "v0.1.1744",
     "date": "2026-11-17",
     "what": "conductor.b@PrompTugal.dinis: 19:48 wake: a quiet evening; watch line, status",

@@ -7,5 +7,25 @@
   "located_in": "place:algarve",
   "matches": [],
   "source": "data/by-place/places.json",
-  "note": "A municipality of the Algarve in the by-place list (data/by-place/places.json); its boundaries and neighbours still to be checked against DGT's CAOP."
+  "note": "A municipality of the Algarve in the by-place list (data/by-place/places.json); its boundaries and neighbours still to be checked against DGT's CAOP.",
+  "neighbours": [
+    {
+      "place": "place:portimao",
+      "source": {
+        "url": "https://www.wikidata.org/wiki/Q985519",
+        "read_at": "2026-11-17T20:30Z",
+        "by": "ontologist@PrompTugal.dinis",
+        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+      }
+    },
+    {
+      "place": "place:silves",
+      "source": {
+        "url": "https://www.wikidata.org/wiki/Q985519",
+        "read_at": "2026-11-17T20:30Z",
+        "by": "ontologist@PrompTugal.dinis",
+        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+      }
+    }
+  ]
 }

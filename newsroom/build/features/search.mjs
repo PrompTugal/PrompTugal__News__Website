@@ -62,7 +62,10 @@ function makeIndex(ctx) {
         // (dev@PrompTugal.dinis, 16 November 2026: it-IT took it to 415 KB). A culture's own index can come later.
         if (p.lang && !/^en(-|$)/i.test(p.lang)) continue
         const m = ENTITY.exec(p.rel)
-        const type = m ? TYPE_OF_PLURAL[m[1]] : (p.type === 'article' ? 'article' : p.rel.startsWith('newsroom/') ? 'newsroom' : 'site')
+        // a place's own page is a place; its machine views (the data, the API, the decks, the provenance, the agents' proof)
+        // rank below it as 'data' (dev@, 17 November 2026: "sao bras" found four data views before the town's page)
+        const dataView = /^query\//.test(p.rel) || /\/api\/index\.html$/.test(p.rel) || /^agentic-system\/(proof|agents)\//.test(p.rel)
+        const type = m ? TYPE_OF_PLURAL[m[1]] : (p.type === 'article' ? 'article' : dataView ? 'data' : p.type === 'place' ? 'place' : p.rel.startsWith('newsroom/') ? 'newsroom' : 'site')
         const x = m ? byRef.get(`${type}:${m[2]}`) : null
         const row = { id: x ? `${type}:${x.id}` : `page:${p.rel}`, type, title: p.title, url: p.rel, summary: '', facets: {}, extra: {}, fields: { title: p.title } }
         if (x && type === 'company') {
