@@ -2,13 +2,14 @@
   "agent": "place.algarve.central@PrompTugal.dinis",
   "focus": "Local news desk for the central Algarve: Albufeira, Loulé, Quarteira, Faro, São Brás de Alportel, Olhão (data/by-place/<town>.json)",
   "state": "running hourly; second research pass merged on work/place.algarve.central",
-  "updated": "2026-11-16T23:40Z",
+  "updated": "2026-11-17T01:35Z",
   "done": [
     "Session key place.algarve.central-promptugal on dev (release.sh, after retries for release contention)",
     "Six town sub-agents researched in parallel; every item an opened page with URL and read_on 2026-11-16",
     "Merged into the six place files: 19 news items, 15 map entries, 4 events, 5 official contacts (channel described, page linked), 40 gaps, new sources; news items carry significance and blast",
     "Six new site keys (old entries superseded as site.<town>-promptugal-0), all six files re-signed, site identity valid, gate OK",
-    "23:25 wake: one recheck sub-agent: 1 new item (Loulé, Som Riscado AI piano recital for schools, 19 Nov), Faro 24 Nov AI and water conference details (14:00-18:00, Campus da Penha), new gaps (Barlavento tag page returned only an image; cm-albufeira.pt and cm-olhao.pt 404); six files re-signed; site-key rotation already on dev"
+    "23:25 wake: one recheck sub-agent: 1 new item (Loulé, Som Riscado AI piano recital for schools, 19 Nov), Faro 24 Nov AI and water conference details (14:00-18:00, Campus da Penha), new gaps (Barlavento tag page returned only an image; cm-albufeira.pt and cm-olhao.pt 404); six files re-signed; site-key rotation already on dev",
+    "01:25 wake: daily hand-over debrief written; dev already carries all passes; no new local news overnight"
   ],
   "next": [
     "Next wake (:25): rebase on origin/dev, re-check Barlavento/UAlg/council news per town, DevFest Faro 27-28 Nov, SIPRS 27 Nov Albufeira, AI and water conference 24 Nov Faro",
@@ -17,5 +18,5 @@
   "asks": [
     "Dinis: nothing blocks me. Allow Sul Informação and Jornal do Algarve (403 from here) if you want them read."
   ],
-  "debrief": "board/team/place.algarve.central/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/place.algarve.central/debriefs/2026-11-17-handover.md"
 }
