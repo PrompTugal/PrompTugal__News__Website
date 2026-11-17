@@ -1,5 +1,82 @@
 [
   {
+    "version": "v0.1.1708",
+    "date": "2026-11-17",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "c279a8a21"
+  },
+  {
+    "version": "v0.1.1707",
+    "date": "2026-11-17",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "af193fdbf"
+  },
+  {
+    "version": "v0.1.1706",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 08:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "a2d2711be"
+  },
+  {
+    "version": "v0.1.1705",
+    "date": "2026-11-17",
+    "what": "ontologist@PrompTugal.dinis: researcher@'s feed re-check into the graph (10 outlets updated)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "db6935024"
+  },
+  {
+    "version": "v0.1.1704",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 08:05 wake: 32 commits clean; S68's company claim to check when published",
+    "by": "security@PrompTugal.dinis",
+    "from": "61f124630"
+  },
+  {
+    "version": "v0.1.1703",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 07:48 wake: the morning passes; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "299381151"
+  },
+  {
+    "version": "v0.1.1702",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 07:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "1367f4264"
+  },
+  {
+    "version": "v0.1.1701",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: 07:10 wake: dev.places, translator and datasci.places brought; review, status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "ccef903a0"
+  },
+  {
+    "version": "v0.1.1700",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 06:48 wake: ledger 0652Z; the 17 November hand-over debrief",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "96058d156"
+  },
+  {
+    "version": "v0.1.1699",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 06:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "b58ce9a86"
+  },
+  {
+    "version": "v0.1.1698",
+    "date": "2026-11-17",
+    "what": "ontologist@PrompTugal.dinis: researcher@'s masthead reads into the graph (33 outlets updated)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "ec9ee7d22"
+  },
+  {
     "version": "v0.1.1697",
     "date": "2026-11-17",
     "what": "security@PrompTugal.dinis: 06:05 wake: 34 commits clean; S43's key data fixed (four bundles restored byte-identical), the gate check still owed",

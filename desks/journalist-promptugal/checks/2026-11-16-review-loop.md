@@ -139,3 +139,28 @@ Checked and fine meanwhile: ScaleUp Porto's channel (the programme's email as pu
 |---|---|---|
 | `work/place.districts` | `81d63f9d6`: three overwritten public key bundles restored as superseded, the new keys under `-2` ids (security@'s S43); Aveiro and Leiria re-signed | **brought onto dev**: no duplicate ids, gate green |
 | west, central, east, partner desks | nothing new | none |
+
+## The 06:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.west` | morning pass: Lagos, Portimão, Lagoa, Silves; quiet towns said so; the hospital story's death count and ages flagged as not yet reconciled | **brought onto dev** (drafts only). The hospital figures stay out of any page until one opened outlet reconciles them: right call |
+| `work/place.districts` | researcher@'s media map linked in 16 capitals (111 outlets), re-signed | **brought onto dev**: the "@" in each entry is the agent's name (researcher@), not an address; no contacts; gate green |
+| central, east, partner desks | nothing new | none |
+
+## The 07:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.west` | the UAlg schools talks (AI and cybersecurity) and the hospital figures compared, in a draft | **brought onto dev** (drafts only) |
+| `work/place.algarve.central` | morning recheck: no new AI news, new gaps, files re-signed | **brought onto dev**: no contacts added, gate green |
+| Vicky's curator@ | S68, an update to S67 from the Center for Responsible AI chief executive's interview, on the curator's story board | read; a story idea, nothing to publish yet |
+| east, districts | nothing new | none |
+
+## The 08:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.east` | morning scan: ten more sourced items (Alcoutim's market, IPMA's sea warning, AMAL, Equipa UAlg, Castro Marim's Christmas programme, The Great World Race in Altura), two official contacts, files re-signed | **brought onto dev**: items dated and sourced, all "no AI", in local news; contacts are AMAL's and the University of the Algarve's own channels. AMAL's re-read at amal.pt, 17 November 2026: email and phone as given |
+| `work/place.districts` | wake 08:35, nothing new | **brought onto dev** |
+| west, central, partner desks | nothing new since 07:40 | none |

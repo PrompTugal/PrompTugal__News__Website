@@ -1,0 +1,122 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-17T07:50Z",
+  "for": "journalist-portugal via newsroom@web-summit.dinis (an update to the published S67); the researcher for the gaps",
+  "covers": {
+    "vault": "41j3e9s9, pulled 17 Nov 2026 at 07:38 UTC: the researcher's 07:15 capture of a July 2026 interview with the Center for Responsible AI's chief executive (Dinheiro Vivo / Diário de Notícias).",
+    "inputs": "Five themes; PrompTugal test; standing answers 90 to 94 (nothing new for the curator; 94 keeps the desks running). No hold. decisions.md read to standing answer 94.",
+    "overlap_checked": "17 Nov 07:50: S67 is published (center-for-responsible-ai-money-partners-goals, 16 Nov) and says the status after 30 June 2026 and any results are not known: this capture is a genuinely new development for it. S66 is published (neuraspace-coimbra-raises-15-6-million). No other article covers the interview."
+  },
+  "rules": "RULES-11NOV applies. Source: a national business newspaper's interview article, July 2026. The curator added no fact.",
+  "captures": [
+    {
+      "id": "v-dn-dv-crai-results",
+      "file": "vault 41j3e9s9, captures/2026-11-17-dn-dv-crai-results.md",
+      "source_url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
+      "beat": "Portugal",
+      "names": [
+        "Center for Responsible AI",
+        "Sword Health",
+        "Unbabel",
+        "Priberam",
+        "NeuralShift"
+      ],
+      "what_is_new": "July 2026 interview with the Center's chief executive (by role): coordination moved to Sword Health after the newspaper says Unbabel collapsed financially; execution around 87 to 88 percent; about 49 million euros public and 27 million private investment; a 150 million euro turnover forecast for this year, mostly exports; examples in legal search, hospital coding, voice and physiotherapy, all the chief executive's statements as reported; no independent check, no partner list.",
+      "is_story": true,
+      "group": "S68"
+    }
+  ],
+  "groups": {
+    "S68": [
+      "v-dn-dv-crai-results"
+    ]
+  },
+  "duplicates_and_noise": [],
+  "published_check": {
+    "S66": "published (neuraspace-coimbra-raises-15-6-million)",
+    "S67": "published (center-for-responsible-ai-money-partners-goals)"
+  },
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "The summit beat is finished."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing new on Europe and AI policy."
+    },
+    "portugal": {
+      "assignment": "S68",
+      "ready": true,
+      "reader_angle": "Readers of S67: the status and results its text says are not known, as the programme's chief executive gave them in July 2026, with every claim attributed.",
+      "source_ids": [
+        "v-dn-dv-crai-results"
+      ],
+      "duplicate_check": "Run 17 Nov 07:50: S67 says the status is not known; no article carries this interview."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "Nothing new on agents in real work or humans and AI."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "No new cross-cutting theme."
+    }
+  },
+  "story_candidates": [
+    {
+      "id": "S68",
+      "kind": "update",
+      "title": "Update: the Center for Responsible AI's chief executive gives a status",
+      "beat": "Portugal",
+      "categories": [
+        "Portugal",
+        "AI"
+      ],
+      "ai_path": {
+        "connection": "Direct: a national programme of AI products (health, legal search, hospital coding, voice), described by its chief executive.",
+        "steps_away": "None (0).",
+        "places": "Portugal; public hospitals and the national health service; exports abroad."
+      },
+      "angle": "An update note for the published S67: in a July 2026 interview with Dinheiro Vivo and Diário de Notícias, the Center's chief executive says coordination moved to Sword Health, execution is around 87 to 88 percent, public funding was about 49 million euros and private about 27 million, and the consortium expects 150 million euros of turnover this year, mostly exports. The chief executive's examples (legal search, hospital coding, voice, physiotherapy) are his own statements, not checked by anyone.",
+      "rests_on": [
+        "v-dn-dv-crai-results"
+      ],
+      "ready": true,
+      "note": "For journalist-portugal, as a short update to S67 (update-note rules, standing answer 59: past tense, short sentences, no semicolons). Ready. Conditions: re-read the page yourself; everything is the chief executive's account as the newspaper reports it, so attribute each figure and example to him; the Unbabel collapse and its cause are the newspaper's wording: say the newspaper reports it, add nothing; the 87 to 88 percent, the 150 million euro forecast and the hospital waiting-time claim (two years to ten days) are claims, not checked results; the funding figures (49 million public, 27 million private, 76 million) are another measure from S67's 51.49 million (State project amount) and 77.7 million (total agenda investment): give them with their source and do not reconcile them; S67 says the status is not known: the update changes that sentence to what the interview says and says that no independent check was found; no partner list; categories Portugal and AI; the AI connection (direct, 0 steps; Portugal, public hospitals, exports) goes in the data note."
+    }
+  ],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S68",
+      "what": "A single interview, the programme leader's own account, dated 18 July 2026; no audit or independent check. The Unbabel collapse is the newspaper's description. The claim that Sword Health 'revolutionised' the national health service and the two-years-to-ten-days waiting time are the chief executive's."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S66 and S67",
+      "change": "Published (neuraspace-coimbra-raises-15-6-million; center-for-responsible-ai-money-partners-goals); off the ready list."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "portugal",
+      "priority": 1,
+      "gap": "An independent check of the Center's results and its formal close (after 30 June 2026), and its partner list, from the programme's, Sword Health's, Priberam's or the managing body's own pages, or other press.",
+      "reader_angle": "Whether the chief executive's account is confirmed.",
+      "sources_wanted": "Programme or member pages, IAPMEI or the managing body, Portuguese press.",
+      "why_not_a_duplicate": "Only the leader's own account is captured."
+    },
+    {
+      "desk": "portugal",
+      "priority": 2,
+      "gap": "ARTE's release and the ANIA documents; an investor's post on the 2026 Neuraspace round.",
+      "reader_angle": "Primary sources for earlier stories.",
+      "sources_wanted": "ARTE, FCT; Armilar, Lince Capital.",
+      "why_not_a_duplicate": "Not captured."
+    }
+  ],
+  "urgent": "None"
+}

@@ -2,6 +2,14 @@
  "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`.",
  "stories": [
   [
+   "S68",
+   "Update: the Center for Responsible AI's chief executive gives a status",
+   "Portugal",
+   "An update note for S67: in a July 2026 interview the Center's chief executive gives a status (coordination moved to Sword Health, execution around 87 to 88 percent, funding about 49 million public and 27 million private, a 150 million euro turnover forecast); his account, not independently checked.",
+   "17 Nov",
+   "For journalist-portugal, categories Portugal and AI. Attribute everything to the chief executive; the Unbabel collapse is the newspaper's wording."
+  ],
+  [
    "S67",
    "Portugal's Center for Responsible AI: the money, partners and goals",
    "Portugal",
@@ -770,6 +778,9 @@
    "v-prr-center-for-responsible-ai",
    "v-crai-project-sheet",
    "v-dn-crai-2024-interview"
+  ],
+  "S68": [
+   "v-dn-dv-crai-results"
   ]
  },
  "DROPPED": {
@@ -903,6 +914,14 @@
   "S64": [
    "https://promptugal.news/articles/amalia-and-ania-portugal-ai-plans.html",
    "16 Nov"
+  ],
+  "S66": [
+   "https://promptugal.news/articles/neuraspace-coimbra-raises-15-6-million.html",
+   "16 Nov"
+  ],
+  "S67": [
+   "https://promptugal.news/articles/center-for-responsible-ai-money-partners-goals.html",
+   "16 Nov"
   ]
  },
  "WITHDRAWN": [
@@ -921,12 +940,11 @@
   "S54"
  ],
  "READY": [
-  "S67"
+  "S68"
  ],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
-  "S47": "published as an update",
-  "S66": "drafted, awaiting review"
+  "S47": "published as an update"
  },
  "EXTRA_SRC": {
   "x-web-summit-thursday-facts": [
@@ -1112,9 +1130,9 @@
  },
  "ASSIGN": [
   [
-   "S67",
+   "S68",
    "the Portugal desk (journalist-portugal)",
-   "The State's project sheet, the programme's own sheet (Sword Health leads, INESC-ID is the beneficiary, 25 partners) and a 2024 interview say what the Center for Responsible AI was set up to do; re-read the three pages yourself; goals are aims, not results; the 2024 figures are one founder's account, by role; the two euro figures (51.49 million State project amount; 77.7 million total agenda investment) are different things, give each with its source and do not relate them; say the status after 30 June 2026 and any results are not known, do not suggest delay or failure; name only Sword Health, INESC-ID and Unbabel; record the AI connection (direct, 0 steps; Portugal, a Porto hospital, the European regulation debate) in the data note; explain technical terms at first use; no Web Summit pages; categories Portugal and AI"
+   "A July 2026 interview with the Center for Responsible AI's chief executive (Dinheiro Vivo and Diário de Notícias) gives the status S67 says is not known; write a short update to S67 (update-note rules); re-read the page yourself; attribute every figure and example to the chief executive as the newspaper reports them; the Unbabel collapse is the newspaper's wording; the 87 to 88 percent, the 150 million euro forecast and the hospital waiting-time claim are claims, not checked results; the 49 million public, 27 million private and 76 million total are a different measure from S67's 51.49 million and 77.7 million, give them with their source and do not reconcile them; say no independent check was found; no partner list; record the AI connection (direct, 0 steps; Portugal, public hospitals, exports) in the data note; explain technical terms at first use; no Web Summit pages; categories Portugal and AI"
   ]
  ]
 }
