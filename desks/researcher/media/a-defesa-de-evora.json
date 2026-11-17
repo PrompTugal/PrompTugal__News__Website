@@ -1,67 +1,67 @@
 {
- "name": "Quinzenário A Defesa",
- "names_as_listed": [
-  "A Defesa",
-  "A Defesa de Évora"
- ],
- "media_kind": "newspaper",
- "reach": "regional",
- "website": "https://adefesa.org/",
- "places_covered": [
-  {
-   "place": "Évora (sections: Local, Regional, Cultura, Desporto, Sociedade)",
-   "source_url": "https://adefesa.org/contactos/",
-   "read_at": "2026-11-16"
-  }
- ],
- "owner": {
-  "name": "Sociedade Instrutiva Regional Eborense, Unipessoal, Lda.",
-  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-  "read_at": "2026-11-16"
- },
- "contact_page_url": "https://adefesa.org/contactos/",
- "public_contact": [
-  {
-   "channel": "Generic newsroom address redacao@adefesa.org and advertising publicidade@adefesa.org as published; Rua de Vasco da Gama 18, Apart. 28, 7000-941 Évora; contact form",
-   "source_url": "https://adefesa.org/contactos/",
-   "read_at": "2026-11-16"
-  }
- ],
- "feeds": [
-  {
-   "kind": "rss",
-   "url": "https://adefesa.org/feed/",
-   "checked": "HTTP 200, application/rss+xml, RSS 2.0 body",
-   "read_at": "2026-11-16"
-  }
- ],
- "people": [
-  {
-   "name": "Manuel Maria Madureira da Silva",
-   "role": "Diretor (ERC register)",
-   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-   "read_at": "2026-11-16"
-  }
- ],
- "sources": [
-  {
-   "url": "https://adefesa.org/contactos/",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "Contacts page."
+  "name": "Quinzenário A Defesa",
+  "names_as_listed": [
+    "A Defesa",
+    "A Defesa de Évora"
+  ],
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "website": "https://adefesa.org/",
+  "places_covered": [
+    {
+      "place": "Évora (sections: Local, Regional, Cultura, Desporto, Sociedade)",
+      "source_url": "https://adefesa.org/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Sociedade Instrutiva Regional Eborense, Unipessoal, Lda.",
+    "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+    "read_at": "2026-11-16"
   },
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 106527 for 'Quinzenário A Defesa'. Outlet email column deliberately not recorded here."
-  }
- ],
- "gaps": [
-  "adefesa.pt is an unrelated traffic-fines site and was not used. The ficha técnica page lists back issues, not staff."
- ],
- "id": "a-defesa-de-evora",
- "type": "organisation",
- "kind": "media",
- "language": "pt"
+  "contact_page_url": "https://adefesa.org/contactos/",
+  "public_contact": [
+    {
+      "channel": "Generic newsroom address [address on the outlet contact page, not recorded here] and advertising [address on the outlet contact page, not recorded here] as published; Rua de Vasco da Gama 18, Apart. 28, 7000-941 Évora; contact form",
+      "source_url": "https://adefesa.org/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://adefesa.org/feed/",
+      "checked": "HTTP 200, application/rss+xml, RSS 2.0 body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Manuel Maria Madureira da Silva",
+      "role": "Diretor (ERC register)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://adefesa.org/contactos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Contacts page."
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 106527 for 'Quinzenário A Defesa'. Outlet email column deliberately not recorded here."
+    }
+  ],
+  "gaps": [
+    "adefesa.pt is an unrelated traffic-fines site and was not used. The ficha técnica page lists back issues, not staff."
+  ],
+  "id": "a-defesa-de-evora",
+  "type": "organisation",
+  "kind": "media",
+  "language": "pt"
 }

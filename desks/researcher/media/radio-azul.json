@@ -1,70 +1,70 @@
 {
- "id": "radio-azul",
- "type": "organisation",
- "kind": "media",
- "name": "Rádio Azul",
- "media_kind": "radio",
- "reach": "local",
- "language": "pt",
- "website": "https://radioazul.pt/",
- "places_covered": [
-  {
-   "place": "Setúbal; 98.9 FM, generalist",
-   "source_url": "https://www.radioazul.pt/estatuto-editorial/",
-   "read_at": "2026-11-17"
-  }
- ],
- "owner": {
-  "name": "RA - Produções Radiofónicas, Lda.",
-  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-  "read_at": "2026-11-17"
- },
- "contact_page_url": "https://www.radioazul.pt/sobre/",
- "public_contact": [
-  {
-   "channel": "Generic address geral@radioazul.pt as published on the home page",
-   "source_url": "https://radioazul.pt/",
-   "read_at": "2026-11-17"
-  }
- ],
- "feeds": [
-  {
-   "kind": "rss",
-   "url": "https://radioazul.pt/feed/",
-   "checked": "HTTP 200, application/rss+xml, RSS 2.0 body",
-   "read_at": "2026-11-17"
-  }
- ],
- "people": [
-  {
-   "name": "Alberto Bulguim Antunes",
-   "role": "Responsável pela programação e pela informação (as listed in the ERC register)",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
-  }
- ],
- "sources": [
-  {
-   "url": "https://radioazul.pt/",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "Home page: feed link, generic address."
+  "id": "radio-azul",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Azul",
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "website": "https://radioazul.pt/",
+  "places_covered": [
+    {
+      "place": "Setúbal; 98.9 FM, generalist",
+      "source_url": "https://www.radioazul.pt/estatuto-editorial/",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "owner": {
+    "name": "RA - Produções Radiofónicas, Lda.",
+    "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+    "read_at": "2026-11-17"
   },
-  {
-   "url": "https://www.radioazul.pt/estatuto-editorial/",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "Editorial statute: local generalist station, concelho de Setúbal."
-  },
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public radio register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, active at 3 Nov 2026, public Google Sheet, no login): ERC registration number 423099, Rádio Azul, 98.9 FM, generalist, operator RA - Produções Radiofónicas, Lda.; programming and information manager Alberto Bulguim Antunes. Outlet email column deliberately not recorded here."
-  }
- ],
- "gaps": [
-  "A Gmail-type address is also shown on the home page: personal-looking contact published, not recorded.",
-  "The /sobre/ page returned a bot-check page to the research client; not read."
- ]
+  "contact_page_url": "https://www.radioazul.pt/sobre/",
+  "public_contact": [
+    {
+      "channel": "Generic address [address on the outlet contact page, not recorded here] as published on the home page",
+      "source_url": "https://radioazul.pt/",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://radioazul.pt/feed/",
+      "checked": "HTTP 200, application/rss+xml, RSS 2.0 body",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "people": [
+    {
+      "name": "Alberto Bulguim Antunes",
+      "role": "Responsável pela programação e pela informação (as listed in the ERC register)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://radioazul.pt/",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Home page: feed link, generic address."
+    },
+    {
+      "url": "https://www.radioazul.pt/estatuto-editorial/",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Editorial statute: local generalist station, concelho de Setúbal."
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public radio register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, active at 3 Nov 2026, public Google Sheet, no login): ERC registration number 423099, Rádio Azul, 98.9 FM, generalist, operator RA - Produções Radiofónicas, Lda.; programming and information manager Alberto Bulguim Antunes. Outlet email column deliberately not recorded here."
+    }
+  ],
+  "gaps": [
+    "A Gmail-type address is also shown on the home page: personal-looking contact published, not recorded.",
+    "The /sobre/ page returned a bot-check page to the research client; not read."
+  ]
 }

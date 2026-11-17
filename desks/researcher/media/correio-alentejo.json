@@ -1,65 +1,65 @@
 {
- "id": "correio-alentejo",
- "type": "organisation",
- "kind": "media",
- "name": "Correio Alentejo",
- "media_kind": "newspaper",
- "reach": "regional",
- "language": "pt",
- "website": "https://correioalentejo.com/",
- "places_covered": [
-  {
-   "place": "Baixo Alentejo; seat Castro Verde; fortnightly, paper and online",
-   "source_url": "https://correioalentejo.com/contactos/",
-   "read_at": "2026-11-16"
-  }
- ],
- "owner": {
-  "name": "JOTA CBS - Comunicação e Imagem, Lda (editor as listed by ERC)",
-  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-  "read_at": "2026-11-16"
- },
- "contact_page_url": "https://correioalentejo.com/contactos/",
- "public_contact": [
-  {
-   "channel": "Generic address geral@correioalentejo.com as published on the contact page; Rua Campo de Ourique 6-A, 7780-148 Castro Verde",
-   "source_url": "https://correioalentejo.com/contactos/",
-   "read_at": "2026-11-16"
-  }
- ],
- "feeds": [
-  {
-   "kind": "rss",
-   "url": "https://correioalentejo.com/feed/",
-   "checked": "HTTP 200, text/xml;charset=UTF-8, RSS 2.0 body",
-   "read_at": "2026-11-16"
-  }
- ],
- "people": [
-  {
-   "name": "Carlos Miguel Silvestre Contreiras Pinto",
-   "role": "Diretor, as registered with ERC",
-   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-   "read_at": "2026-11-16"
-  }
- ],
- "sources": [
-  {
-   "url": "https://correioalentejo.com/contactos/",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "Contact page."
+  "id": "correio-alentejo",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Correio Alentejo",
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://correioalentejo.com/",
+  "places_covered": [
+    {
+      "place": "Baixo Alentejo; seat Castro Verde; fortnightly, paper and online",
+      "source_url": "https://correioalentejo.com/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "JOTA CBS - Comunicação e Imagem, Lda (editor as listed by ERC)",
+    "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+    "read_at": "2026-11-16"
   },
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 124893 for 'Correio Alentejo'. Outlet email column deliberately not recorded here."
-  }
- ],
- "gaps": [
-  "ficha técnica page not found at /ficha-tecnica/",
-  "telephone published: not recorded",
-  "journalists not named"
- ]
+  "contact_page_url": "https://correioalentejo.com/contactos/",
+  "public_contact": [
+    {
+      "channel": "Generic address [address on the outlet contact page, not recorded here] as published on the contact page; Rua Campo de Ourique 6-A, 7780-148 Castro Verde",
+      "source_url": "https://correioalentejo.com/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://correioalentejo.com/feed/",
+      "checked": "HTTP 200, text/xml;charset=UTF-8, RSS 2.0 body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Carlos Miguel Silvestre Contreiras Pinto",
+      "role": "Diretor, as registered with ERC",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://correioalentejo.com/contactos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Contact page."
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 124893 for 'Correio Alentejo'. Outlet email column deliberately not recorded here."
+    }
+  ],
+  "gaps": [
+    "ficha técnica page not found at /ficha-tecnica/",
+    "telephone published: not recorded",
+    "journalists not named"
+  ]
 }

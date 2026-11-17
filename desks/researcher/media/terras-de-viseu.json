@@ -1,64 +1,64 @@
 {
- "id": "terras-de-viseu",
- "type": "organisation",
- "kind": "media",
- "name": "Terras de Viseu",
- "media_kind": "online",
- "reach": "regional",
- "language": "pt",
- "website": "https://terrasdeviseu.sapo.pt/",
- "places_covered": [
-  {
-   "place": "Viseu (Viseu district); regional daily (working days), online",
-   "source_url": "https://terrasdeviseu.sapo.pt/info-page/ficha-tecnica-1669636327-1669636405-1673450702-1673455227-1673535128-1731428955",
-   "read_at": "2026-11-16"
-  }
- ],
- "owner": {
-  "name": "Words Wizard, Lda (Rua Fernanda Seno, 6, 7005-485 Évora)",
-  "source_url": "https://terrasdeviseu.sapo.pt/info-page/ficha-tecnica-1669636327-1669636405-1673450702-1673455227-1673535128-1731428955",
-  "read_at": "2026-11-16"
- },
- "public_contact": [
-  {
-   "channel": "Generic address info@terrasdeviseu.pt as published in the ficha técnica; editorial office Rua Alberto Sampaio, 56 R/C Loja 18, 3510-027 Viseu",
-   "source_url": "https://terrasdeviseu.sapo.pt/info-page/ficha-tecnica-1669636327-1669636405-1673450702-1673455227-1673535128-1731428955",
-   "read_at": "2026-11-16"
-  }
- ],
- "feeds": [
-  {
-   "kind": "rss",
-   "url": "https://terrasdeviseu.sapo.pt/feed/",
-   "checked": "HTTP 200, application/xml, RSS 2.0 body",
-   "read_at": "2026-11-16"
-  }
- ],
- "people": [
-  {
-   "name": "Anjos Costa",
-   "role": "Diretor",
-   "source_url": "https://terrasdeviseu.sapo.pt/info-page/ficha-tecnica-1669636327-1669636405-1673450702-1673455227-1673535128-1731428955",
-   "read_at": "2026-11-16"
-  }
- ],
- "sources": [
-  {
-   "url": "https://terrasdeviseu.sapo.pt/info-page/ficha-tecnica-1669636327-1669636405-1673450702-1673455227-1673535128-1731428955",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "Ficha técnica (director, owner/editor, seat, ERC number)."
+  "id": "terras-de-viseu",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Terras de Viseu",
+  "media_kind": "online",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://terrasdeviseu.sapo.pt/",
+  "places_covered": [
+    {
+      "place": "Viseu (Viseu district); regional daily (working days), online",
+      "source_url": "https://terrasdeviseu.sapo.pt/info-page/ficha-tecnica-1669636327-1669636405-1673450702-1673455227-1673535128-1731428955",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Words Wizard, Lda (Rua Fernanda Seno, 6, 7005-485 Évora)",
+    "source_url": "https://terrasdeviseu.sapo.pt/info-page/ficha-tecnica-1669636327-1669636405-1673450702-1673455227-1673535128-1731428955",
+    "read_at": "2026-11-16"
   },
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127866 for 'Terras de Viseu'. Outlet email column deliberately not recorded here."
-  }
- ],
- "gaps": [
-  "contact page other than the ficha técnica not found",
-  "journalists other than the director not named in the ficha técnica",
-  "same director and management are listed on the sibling Sapo regional titles (A Voz de Évora, Jornal de Beja, Jornal de Portalegre, A Voz de Bragança, A Voz de Castelo Branco, Terras da Guarda, Terras de Viseu, Setúbal Informação): a network, not stated as such by the outlets"
- ]
+  "public_contact": [
+    {
+      "channel": "Generic address [address on the outlet contact page, not recorded here] as published in the ficha técnica; editorial office Rua Alberto Sampaio, 56 R/C Loja 18, 3510-027 Viseu",
+      "source_url": "https://terrasdeviseu.sapo.pt/info-page/ficha-tecnica-1669636327-1669636405-1673450702-1673455227-1673535128-1731428955",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://terrasdeviseu.sapo.pt/feed/",
+      "checked": "HTTP 200, application/xml, RSS 2.0 body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Anjos Costa",
+      "role": "Diretor",
+      "source_url": "https://terrasdeviseu.sapo.pt/info-page/ficha-tecnica-1669636327-1669636405-1673450702-1673455227-1673535128-1731428955",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://terrasdeviseu.sapo.pt/info-page/ficha-tecnica-1669636327-1669636405-1673450702-1673455227-1673535128-1731428955",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Ficha técnica (director, owner/editor, seat, ERC number)."
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127866 for 'Terras de Viseu'. Outlet email column deliberately not recorded here."
+    }
+  ],
+  "gaps": [
+    "contact page other than the ficha técnica not found",
+    "journalists other than the director not named in the ficha técnica",
+    "same director and management are listed on the sibling Sapo regional titles (A Voz de Évora, Jornal de Beja, Jornal de Portalegre, A Voz de Bragança, A Voz de Castelo Branco, Terras da Guarda, Terras de Viseu, Setúbal Informação): a network, not stated as such by the outlets"
+  ]
 }

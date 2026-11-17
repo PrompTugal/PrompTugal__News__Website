@@ -1,77 +1,77 @@
 {
- "id": "radio-altitude",
- "type": "organisation",
- "kind": "media",
- "name": "Rádio Altitude",
- "media_kind": "radio",
- "reach": "local",
- "language": "pt",
- "places_covered": [
-  {
-   "place": "Guarda; 90.9 FM; Generalista; ERC area of coverage: Local",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
-  }
- ],
- "owner": {
-  "name": "Radialtitude - Sociedade de Comunicação da Guarda, Lda.",
-  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-  "read_at": "2026-11-17"
- },
- "people": [
-  {
-   "name": "Luís Baptista-Martins",
-   "role": "Responsável pela programação e pela informação (as listed in the ERC register)",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
+  "id": "radio-altitude",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Altitude",
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "places_covered": [
+    {
+      "place": "Guarda; 90.9 FM; Generalista; ERC area of coverage: Local",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "owner": {
+    "name": "Radialtitude - Sociedade de Comunicação da Guarda, Lda.",
+    "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+    "read_at": "2026-11-17"
   },
-  {
-   "name": "Luís Baptista-Martins",
-   "role": "Director de Informação e Programas",
-   "beat": "news",
-   "source_url": "https://www.altitude.fm/ficha-tecnica/",
-   "read_at": "2026-11-17"
-  }
- ],
- "sources": [
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423130, operator 'Radialtitude - Sociedade de Comunicação da Guarda, Lda.' (seat Guarda), service 'Rádio Altitude', licence district Guarda, concelho Guarda. Outlet email column deliberately not recorded."
-  },
-  {
-   "url": "https://www.altitude.fm/ficha-tecnica/",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "station ficha técnica (Lei da Rádio transparency): operator Radialtitude, ERC operator number 423130, 90.9 MHz Guarda, Director de Informação e Programas"
-  },
-  {
-   "url": "https://www.altitude.fm/contactos/",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "contact page"
-  }
- ],
- "gaps": [
-  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
-  "Mobile numbers are published on the contact page: personal contact published, not recorded"
- ],
- "website": "https://www.altitude.fm/",
- "contact_page_url": "https://www.altitude.fm/contactos/",
- "public_contact": [
-  {
-   "channel": "General address altitude@altitude.fm and fixed phone 271 221 995; Rua Batalha Reis, Parque da Saúde, 6300-668 Guarda",
-   "source_url": "https://www.altitude.fm/contactos/",
-   "read_at": "2026-11-17"
-  }
- ],
- "feeds": [
-  {
-   "kind": "rss",
-   "url": "https://www.altitude.fm/feed/",
-   "checked": "HTTP 200, RSS body (channel and items), content-type application/rss+xml",
-   "read_at": "2026-11-17"
-  }
- ]
+  "people": [
+    {
+      "name": "Luís Baptista-Martins",
+      "role": "Responsável pela programação e pela informação (as listed in the ERC register)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Luís Baptista-Martins",
+      "role": "Director de Informação e Programas",
+      "beat": "news",
+      "source_url": "https://www.altitude.fm/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423130, operator 'Radialtitude - Sociedade de Comunicação da Guarda, Lda.' (seat Guarda), service 'Rádio Altitude', licence district Guarda, concelho Guarda. Outlet email column deliberately not recorded."
+    },
+    {
+      "url": "https://www.altitude.fm/ficha-tecnica/",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "station ficha técnica (Lei da Rádio transparency): operator Radialtitude, ERC operator number 423130, 90.9 MHz Guarda, Director de Informação e Programas"
+    },
+    {
+      "url": "https://www.altitude.fm/contactos/",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contact page"
+    }
+  ],
+  "gaps": [
+    "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
+    "Mobile numbers are published on the contact page: personal contact published, not recorded"
+  ],
+  "website": "https://www.altitude.fm/",
+  "contact_page_url": "https://www.altitude.fm/contactos/",
+  "public_contact": [
+    {
+      "channel": "General address [address on the outlet contact page, not recorded here] and fixed phone 271 221 995; Rua Batalha Reis, Parque da Saúde, 6300-668 Guarda",
+      "source_url": "https://www.altitude.fm/contactos/",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.altitude.fm/feed/",
+      "checked": "HTTP 200, RSS body (channel and items), content-type application/rss+xml",
+      "read_at": "2026-11-17"
+    }
+  ]
 }

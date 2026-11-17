@@ -1,90 +1,90 @@
 {
- "id": "radio-mega-hits-braga",
- "type": "organisation",
- "kind": "media",
- "name": "Mega Hits Braga",
- "media_kind": "radio",
- "reach": "local",
- "language": "pt",
- "places_covered": [
-  {
-   "place": "Braga; 92.9 FM; Temático - Musical; ERC area of coverage: Local",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
-  }
- ],
- "owner": {
-  "name": "RTM - Rádio e Televisão do Minho, Lda.",
-  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-  "read_at": "2026-11-17"
- },
- "people": [
-  {
-   "name": "Ernesto Nelson de Carvalho Cunha",
-   "role": "Responsável pela programação (as listed in the ERC register)",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
+  "id": "radio-mega-hits-braga",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Mega Hits Braga",
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "places_covered": [
+    {
+      "place": "Braga; 92.9 FM; Temático - Musical; ERC area of coverage: Local",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "owner": {
+    "name": "RTM - Rádio e Televisão do Minho, Lda.",
+    "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+    "read_at": "2026-11-17"
   },
-  {
-   "name": "Pedro Leal",
-   "role": "Responsável pela informação (as listed in the ERC register)",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
-  },
-  {
-   "name": "Pedro Leal",
-   "role": "Director de Informação, Mega Hits (transparency page of the operator Rádio Renascença, dated 17 March 2026)",
-   "beat": "news",
-   "source_url": "https://megahits.fm/transparencia",
-   "read_at": "2026-11-17"
-  },
-  {
-   "name": "Nelson Cunha",
-   "role": "Director de Programação, Mega Hits (same page)",
-   "beat": "programming",
-   "source_url": "https://megahits.fm/transparencia",
-   "read_at": "2026-11-17"
-  }
- ],
- "sources": [
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423151, operator 'RTM - Rádio e Televisão do Minho, Lda.' (seat Braga), service 'Mega Hits Braga', licence district Braga, concelho Braga. Outlet email column deliberately not recorded."
-  },
-  {
-   "url": "https://megahits.fm/transparencia",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "Lei 78/2015 transparency page of the network site: operator Rádio Renascença, Lda (Patriarcado de Lisboa 60%, Conferência Episcopal Portuguesa 40%), services include Mega Hits and Mega Hits Viseu"
-  },
-  {
-   "url": "https://megahits.fm/sobre-nos",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "network about page: frequencies and contacts"
-  }
- ],
- "gaps": [
-  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
-  "Network site, copied to each Mega Hits record; the page lists frequencies Lisboa 92.4, Porto 90.6, Coimbra 90.0, Sintra 88.0, Aveiro 96.5, Braga 92.9, Viseu 106.4, Algarve 97.1"
- ],
- "website": "https://megahits.fm/",
- "contact_page_url": "https://megahits.fm/sobre-nos",
- "public_contact": [
-  {
-   "channel": "General address mail@megahits.fm and fixed phone 213 239 200; Quinta do Bom Pastor, Estrada da Buraca 8-12, 1549-025 Lisboa",
-   "source_url": "https://megahits.fm/sobre-nos",
-   "read_at": "2026-11-17"
-  }
- ],
- "feeds": [
-  {
-   "kind": "rss",
-   "url": "https://megahits.fm/rssfeed",
-   "checked": "HTTP 200, content-type text/xml, RSS body (Mega News); network feed",
-   "read_at": "2026-11-17"
-  }
- ]
+  "people": [
+    {
+      "name": "Ernesto Nelson de Carvalho Cunha",
+      "role": "Responsável pela programação (as listed in the ERC register)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Pedro Leal",
+      "role": "Responsável pela informação (as listed in the ERC register)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Pedro Leal",
+      "role": "Director de Informação, Mega Hits (transparency page of the operator Rádio Renascença, dated 17 March 2026)",
+      "beat": "news",
+      "source_url": "https://megahits.fm/transparencia",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Nelson Cunha",
+      "role": "Director de Programação, Mega Hits (same page)",
+      "beat": "programming",
+      "source_url": "https://megahits.fm/transparencia",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423151, operator 'RTM - Rádio e Televisão do Minho, Lda.' (seat Braga), service 'Mega Hits Braga', licence district Braga, concelho Braga. Outlet email column deliberately not recorded."
+    },
+    {
+      "url": "https://megahits.fm/transparencia",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Lei 78/2015 transparency page of the network site: operator Rádio Renascença, Lda (Patriarcado de Lisboa 60%, Conferência Episcopal Portuguesa 40%), services include Mega Hits and Mega Hits Viseu"
+    },
+    {
+      "url": "https://megahits.fm/sobre-nos",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "network about page: frequencies and contacts"
+    }
+  ],
+  "gaps": [
+    "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
+    "Network site, copied to each Mega Hits record; the page lists frequencies Lisboa 92.4, Porto 90.6, Coimbra 90.0, Sintra 88.0, Aveiro 96.5, Braga 92.9, Viseu 106.4, Algarve 97.1"
+  ],
+  "website": "https://megahits.fm/",
+  "contact_page_url": "https://megahits.fm/sobre-nos",
+  "public_contact": [
+    {
+      "channel": "General address [address on the outlet contact page, not recorded here] and fixed phone 213 239 200; Quinta do Bom Pastor, Estrada da Buraca 8-12, 1549-025 Lisboa",
+      "source_url": "https://megahits.fm/sobre-nos",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://megahits.fm/rssfeed",
+      "checked": "HTTP 200, content-type text/xml, RSS body (Mega News); network feed",
+      "read_at": "2026-11-17"
+    }
+  ]
 }

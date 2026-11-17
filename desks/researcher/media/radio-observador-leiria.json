@@ -1,89 +1,89 @@
 {
- "id": "radio-observador-leiria",
- "type": "organisation",
- "kind": "media",
- "name": "Rádio Observador Leiria",
- "media_kind": "radio",
- "reach": "local",
- "language": "pt",
- "places_covered": [
-  {
-   "place": "Leiria; 94 FM; Temático - Informativo; ERC area of coverage: Local",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
-  }
- ],
- "owner": {
-  "name": "EDR - Empresa de Difusão de Rádio, S.A.",
-  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-  "read_at": "2026-11-17"
- },
- "people": [
-  {
-   "name": "Luís Miguel Chagas Vieira Martins",
-   "role": "Responsável pela programação e pela informação (as listed in the ERC register)",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
+  "id": "radio-observador-leiria",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Observador Leiria",
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "places_covered": [
+    {
+      "place": "Leiria; 94 FM; Temático - Informativo; ERC area of coverage: Local",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "owner": {
+    "name": "EDR - Empresa de Difusão de Rádio, S.A.",
+    "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+    "read_at": "2026-11-17"
   },
-  {
-   "name": "José Manuel Fernandes",
-   "role": "Direção Editorial (ficha técnica Observador)",
-   "beat": "news",
-   "source_url": "https://observador.pt/ficha-tecnica/",
-   "read_at": "2026-11-17"
-  },
-  {
-   "name": "Carla Jorge de Carvalho",
-   "role": "Editora da Rádio (ficha técnica)",
-   "beat": "news",
-   "source_url": "https://observador.pt/ficha-tecnica/",
-   "read_at": "2026-11-17"
-  },
-  {
-   "name": "Luís Soares",
-   "role": "Editor da Rádio (ficha técnica)",
-   "beat": "news",
-   "source_url": "https://observador.pt/ficha-tecnica/",
-   "read_at": "2026-11-17"
-  }
- ],
- "sources": [
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423192, operator 'EDR - Empresa de Difusão de Rádio, S.A.' (seat Leiria), service 'Rádio Observador Leiria', licence district Leiria, concelho Leiria. Outlet email column deliberately not recorded."
-  },
-  {
-   "url": "https://observador.pt/radio/",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "Observador radio page lists Leiria 94.0 FM among its frequencies"
-  },
-  {
-   "url": "https://observador.pt/ficha-tecnica/",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "group ficha técnica"
-  },
-  {
-   "url": "https://observador.pt/contactos/",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "contact page"
-  }
- ],
- "gaps": [
-  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
-  "Leiria is a relay of the national Rádio Observador, not a local newsroom; contacts and heads are the national radio team. The only feed found is the Observador site feed, not a radio feed, so none recorded"
- ],
- "website": "https://observador.pt/radio/",
- "contact_page_url": "https://observador.pt/contactos/",
- "public_contact": [
-  {
-   "channel": "Radio listener address ouvinte@observador.pt (section Rádio of the contact page)",
-   "source_url": "https://observador.pt/contactos/",
-   "read_at": "2026-11-17"
-  }
- ]
+  "people": [
+    {
+      "name": "Luís Miguel Chagas Vieira Martins",
+      "role": "Responsável pela programação e pela informação (as listed in the ERC register)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "José Manuel Fernandes",
+      "role": "Direção Editorial (ficha técnica Observador)",
+      "beat": "news",
+      "source_url": "https://observador.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Carla Jorge de Carvalho",
+      "role": "Editora da Rádio (ficha técnica)",
+      "beat": "news",
+      "source_url": "https://observador.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Luís Soares",
+      "role": "Editor da Rádio (ficha técnica)",
+      "beat": "news",
+      "source_url": "https://observador.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423192, operator 'EDR - Empresa de Difusão de Rádio, S.A.' (seat Leiria), service 'Rádio Observador Leiria', licence district Leiria, concelho Leiria. Outlet email column deliberately not recorded."
+    },
+    {
+      "url": "https://observador.pt/radio/",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Observador radio page lists Leiria 94.0 FM among its frequencies"
+    },
+    {
+      "url": "https://observador.pt/ficha-tecnica/",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "group ficha técnica"
+    },
+    {
+      "url": "https://observador.pt/contactos/",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contact page"
+    }
+  ],
+  "gaps": [
+    "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
+    "Leiria is a relay of the national Rádio Observador, not a local newsroom; contacts and heads are the national radio team. The only feed found is the Observador site feed, not a radio feed, so none recorded"
+  ],
+  "website": "https://observador.pt/radio/",
+  "contact_page_url": "https://observador.pt/contactos/",
+  "public_contact": [
+    {
+      "channel": "Radio listener address [address on the outlet contact page, not recorded here] (section Rádio of the contact page)",
+      "source_url": "https://observador.pt/contactos/",
+      "read_at": "2026-11-17"
+    }
+  ]
 }

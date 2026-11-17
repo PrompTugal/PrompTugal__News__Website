@@ -1,102 +1,102 @@
 {
- "name": "Diário de Notícias (Madeira) / DNOTICIAS.PT",
- "media_kind": "newspaper",
- "reach": "regional",
- "website": "https://www.dnoticias.pt/",
- "places_covered": [
-  {
-   "place": "Funchal / Madeira",
-   "source_url": "https://www.dnoticias.pt/servicos/contactos",
-   "read_at": "2026-11-16"
-  }
- ],
- "owner": {
-  "name": "Empresa do Diário de Notícias, Lda. (partners with 5% or more: Newspar – Multimédia, Lda; Verbum Media – Comunicação, Lda)",
-  "source_url": "https://www.dnoticias.pt/servicos/sobrenos",
-  "read_at": "2026-11-16"
- },
- "contact_page_url": "https://www.dnoticias.pt/servicos/contactos",
- "public_contact": [
-  {
-   "channel": "Redação, Rua Dr. Fernão de Ornelas 56, 9054-514 Funchal; tel. geral +351 291 202 300 (email addresses obfuscated on the page, not recorded)",
-   "source_url": "https://www.dnoticias.pt/servicos/contactos",
-   "read_at": "2026-11-16"
-  }
- ],
- "feeds": [
-  {
-   "kind": "rss",
-   "url": "https://www.dnoticias.pt/rss.xml",
-   "checked": "HTTP 200, application/xml; RSS 2.0 body",
-   "read_at": "2026-11-16"
-  }
- ],
- "people": [
-  {
-   "name": "Ricardo Miguel Oliveira",
-   "role": "Director geral editorial da EDN e director do Diário",
-   "source_url": "https://www.dnoticias.pt/servicos/sobrenos",
-   "read_at": "2026-11-16"
+  "name": "Diário de Notícias (Madeira) / DNOTICIAS.PT",
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "website": "https://www.dnoticias.pt/",
+  "places_covered": [
+    {
+      "place": "Funchal / Madeira",
+      "source_url": "https://www.dnoticias.pt/servicos/contactos",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Empresa do Diário de Notícias, Lda. (partners with 5% or more: Newspar – Multimédia, Lda; Verbum Media – Comunicação, Lda)",
+    "source_url": "https://www.dnoticias.pt/servicos/sobrenos",
+    "read_at": "2026-11-16"
   },
-  {
-   "name": "Rúben Santos",
-   "role": "Chefe de redação",
-   "source_url": "https://www.dnoticias.pt/servicos/sobrenos",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "Jorge Freitas Sousa",
-   "role": "Editor de fecho",
-   "source_url": "https://www.dnoticias.pt/servicos/sobrenos",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "Nélio Gomes",
-   "role": "Editor de fecho",
-   "source_url": "https://www.dnoticias.pt/servicos/sobrenos",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "Tânia Cova",
-   "role": "Editora de fecho",
-   "source_url": "https://www.dnoticias.pt/servicos/sobrenos",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "Victor Hugo",
-   "role": "Coordenador (freguesias/comunidades)",
-   "source_url": "https://www.dnoticias.pt/servicos/sobrenos",
-   "read_at": "2026-11-16"
-  }
- ],
- "sources": [
-  {
-   "url": "https://www.dnoticias.pt/servicos/sobrenos",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "sobre nós / masthead"
-  },
-  {
-   "url": "https://www.dnoticias.pt/servicos/contactos",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "contactos page"
-  },
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 100228 for 'Diário de Notícias (Funchal, Empresa do Diario de Noticias, Lda.)'. Outlet email column deliberately not recorded here."
-  }
- ],
- "gaps": [
-  "further redação names on the masthead not recorded"
- ],
- "id": "diario-de-noticias-madeira",
- "type": "organisation",
- "kind": "media",
- "names_as_listed": [
-  "Diário de Notícias (Madeira) / DNOTICIAS.PT"
- ],
- "language": "pt"
+  "contact_page_url": "https://www.dnoticias.pt/servicos/contactos",
+  "public_contact": [
+    {
+      "channel": "Redação, Rua Dr. Fernão de Ornelas 56, 9054-514 Funchal; tel. geral [phone on the outlet page, not recorded] (email addresses obfuscated on the page, not recorded)",
+      "source_url": "https://www.dnoticias.pt/servicos/contactos",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.dnoticias.pt/rss.xml",
+      "checked": "HTTP 200, application/xml; RSS 2.0 body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Ricardo Miguel Oliveira",
+      "role": "Director geral editorial da EDN e director do Diário",
+      "source_url": "https://www.dnoticias.pt/servicos/sobrenos",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Rúben Santos",
+      "role": "Chefe de redação",
+      "source_url": "https://www.dnoticias.pt/servicos/sobrenos",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Jorge Freitas Sousa",
+      "role": "Editor de fecho",
+      "source_url": "https://www.dnoticias.pt/servicos/sobrenos",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Nélio Gomes",
+      "role": "Editor de fecho",
+      "source_url": "https://www.dnoticias.pt/servicos/sobrenos",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Tânia Cova",
+      "role": "Editora de fecho",
+      "source_url": "https://www.dnoticias.pt/servicos/sobrenos",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Victor Hugo",
+      "role": "Coordenador (freguesias/comunidades)",
+      "source_url": "https://www.dnoticias.pt/servicos/sobrenos",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.dnoticias.pt/servicos/sobrenos",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "sobre nós / masthead"
+    },
+    {
+      "url": "https://www.dnoticias.pt/servicos/contactos",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contactos page"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 100228 for 'Diário de Notícias (Funchal, Empresa do Diario de Noticias, Lda.)'. Outlet email column deliberately not recorded here."
+    }
+  ],
+  "gaps": [
+    "further redação names on the masthead not recorded"
+  ],
+  "id": "diario-de-noticias-madeira",
+  "type": "organisation",
+  "kind": "media",
+  "names_as_listed": [
+    "Diário de Notícias (Madeira) / DNOTICIAS.PT"
+  ],
+  "language": "pt"
 }

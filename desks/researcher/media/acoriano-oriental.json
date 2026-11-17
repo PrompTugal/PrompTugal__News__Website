@@ -1,108 +1,108 @@
 {
- "name": "Açoriano Oriental",
- "media_kind": "newspaper",
- "reach": "regional",
- "website": "https://www.acorianooriental.pt/",
- "places_covered": [
-  {
-   "place": "Ponta Delgada / Açores",
-   "source_url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
-   "read_at": "2026-11-16"
-  }
- ],
- "owner": {
-  "name": "Açormedia, Comunicação Multimédia e Edição de Publicações, S.A. (Global Notícias-Media Group S.A. holds 70% per the ficha técnica)",
-  "source_url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
-  "read_at": "2026-11-16"
- },
- "contact_page_url": "https://www.acorianooriental.pt/pagina/contactos",
- "public_contact": [
-  {
-   "channel": "Geral: acorianooriental@acorianooriental.pt (generic address as published); redação tel. +351 296 202 832; Rua Dr. Bruno Tavares Carreiro 34/36, 9500-055 Ponta Delgada",
-   "source_url": "https://www.acorianooriental.pt/pagina/contactos",
-   "read_at": "2026-11-16"
-  }
- ],
- "feeds": [
-  {
-   "kind": "rss",
-   "url": "https://www.acorianooriental.pt/feed/rss.xml",
-   "checked": "HTTP 200, application/rss+xml",
-   "read_at": "2026-11-16"
+  "name": "Açoriano Oriental",
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "website": "https://www.acorianooriental.pt/",
+  "places_covered": [
+    {
+      "place": "Ponta Delgada / Açores",
+      "source_url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Açormedia, Comunicação Multimédia e Edição de Publicações, S.A. (Global Notícias-Media Group S.A. holds 70% per the ficha técnica)",
+    "source_url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
+    "read_at": "2026-11-16"
   },
-  {
-   "kind": "atom",
-   "url": "https://www.acorianooriental.pt/feed/atom.xml",
-   "checked": "HTTP 200, application/atom+xml",
-   "read_at": "2026-11-16"
-  }
- ],
- "people": [
-  {
-   "name": "Paula Gouveia",
-   "role": "Diretora editorial",
-   "source_url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "Ana Carvalho Melo",
-   "role": "Editora de fecho",
-   "source_url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "Nuno Martins Neves",
-   "role": "Editor de fecho",
-   "source_url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "Rui Jorge Cabral",
-   "role": "Editor de fecho",
-   "source_url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "Arthur Melo",
-   "role": "Editor de fecho",
-   "source_url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
-   "read_at": "2026-11-16"
-  }
- ],
- "sources": [
-  {
-   "url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ficha técnica (ERC registo 106992 stated)"
-  },
-  {
-   "url": "https://www.acorianooriental.pt/pagina/contactos",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "contactos page"
-  },
-  {
-   "url": "https://www.acorianooriental.pt/",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "home head for feed links"
-  },
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 106992 for 'Açoriano Oriental'. Outlet email column deliberately not recorded here."
-  }
- ],
- "gaps": [
-  "also operates Rádio Açores TSF (listed on the contacts page): not recorded as a separate outlet"
- ],
- "id": "acoriano-oriental",
- "type": "organisation",
- "kind": "media",
- "names_as_listed": [
-  "Açoriano Oriental"
- ],
- "language": "pt"
+  "contact_page_url": "https://www.acorianooriental.pt/pagina/contactos",
+  "public_contact": [
+    {
+      "channel": "Geral: [address on the outlet contact page, not recorded here] (generic address as published); redação tel. [phone on the outlet page, not recorded]; Rua Dr. Bruno Tavares Carreiro 34/36, 9500-055 Ponta Delgada",
+      "source_url": "https://www.acorianooriental.pt/pagina/contactos",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.acorianooriental.pt/feed/rss.xml",
+      "checked": "HTTP 200, application/rss+xml",
+      "read_at": "2026-11-16"
+    },
+    {
+      "kind": "atom",
+      "url": "https://www.acorianooriental.pt/feed/atom.xml",
+      "checked": "HTTP 200, application/atom+xml",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Paula Gouveia",
+      "role": "Diretora editorial",
+      "source_url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Ana Carvalho Melo",
+      "role": "Editora de fecho",
+      "source_url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Nuno Martins Neves",
+      "role": "Editor de fecho",
+      "source_url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Rui Jorge Cabral",
+      "role": "Editor de fecho",
+      "source_url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Arthur Melo",
+      "role": "Editor de fecho",
+      "source_url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.acorianooriental.pt/pagina/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica (ERC registo 106992 stated)"
+    },
+    {
+      "url": "https://www.acorianooriental.pt/pagina/contactos",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contactos page"
+    },
+    {
+      "url": "https://www.acorianooriental.pt/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "home head for feed links"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 106992 for 'Açoriano Oriental'. Outlet email column deliberately not recorded here."
+    }
+  ],
+  "gaps": [
+    "also operates Rádio Açores TSF (listed on the contacts page): not recorded as a separate outlet"
+  ],
+  "id": "acoriano-oriental",
+  "type": "organisation",
+  "kind": "media",
+  "names_as_listed": [
+    "Açoriano Oriental"
+  ],
+  "language": "pt"
 }

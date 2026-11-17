@@ -1,69 +1,69 @@
 {
- "id": "radio-cidade-fm-aveiro",
- "type": "organisation",
- "kind": "media",
- "name": "Cidade FM Aveiro",
- "media_kind": "radio",
- "reach": "local",
- "language": "pt",
- "places_covered": [
-  {
-   "place": "Aveiro; 105.6 FM; Temático - Musical; ERC area of coverage: Local",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
-  }
- ],
- "owner": {
-  "name": "Rádio Independente de Aveiro - Cooperativa de Radiodifusão, CRL",
-  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-  "read_at": "2026-11-17"
- },
- "people": [
-  {
-   "name": "José Armando Leite",
-   "role": "Responsável pela programação (as listed in the ERC register)",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
+  "id": "radio-cidade-fm-aveiro",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Cidade FM Aveiro",
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "places_covered": [
+    {
+      "place": "Aveiro; 105.6 FM; Temático - Musical; ERC area of coverage: Local",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "owner": {
+    "name": "Rádio Independente de Aveiro - Cooperativa de Radiodifusão, CRL",
+    "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+    "read_at": "2026-11-17"
   },
-  {
-   "name": "Teresa Mota",
-   "role": "Responsável pela informação (as listed in the ERC register)",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
-  },
-  {
-   "name": "Manuel Cabral",
-   "role": "Responsável de Programação, Cidade FM (network transparency PDF)",
-   "beat": "programming",
-   "source_url": "https://cidade.fm/upload/resources/transparencia/Cidade.pdf",
-   "read_at": "2026-11-17"
-  }
- ],
- "sources": [
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423235, operator 'Rádio Independente de Aveiro - Cooperativa de Radiodifusão, CRL' (seat Aveiro), service 'Cidade FM Aveiro', licence district Aveiro, concelho Aveiro. Outlet email column deliberately not recorded."
-  },
-  {
-   "url": "https://cidade.fm/upload/resources/transparencia/Cidade.pdf",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "Lei 78/2015 transparency PDF of the network operator BMHAUDIO Portugal Holdings, Unipessoal Lda. & Comandita (Bauer Media group)"
-  }
- ],
- "gaps": [
-  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
-  "Network site (Bauer Media), copied to each Cidade FM record; the PDF names no information head for Cidade FM. No feed found"
- ],
- "website": "https://cidade.fm/",
- "contact_page_url": "https://cidade.fm/contactos",
- "public_contact": [
-  {
-   "channel": "General address netcidade@bauermedia.pt and switchboard 213 821 500; Rua Sampaio e Pina 24, 1099-044 Lisboa",
-   "source_url": "https://cidade.fm/contactos",
-   "read_at": "2026-11-17"
-  }
- ]
+  "people": [
+    {
+      "name": "José Armando Leite",
+      "role": "Responsável pela programação (as listed in the ERC register)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Teresa Mota",
+      "role": "Responsável pela informação (as listed in the ERC register)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Manuel Cabral",
+      "role": "Responsável de Programação, Cidade FM (network transparency PDF)",
+      "beat": "programming",
+      "source_url": "https://cidade.fm/upload/resources/transparencia/Cidade.pdf",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423235, operator 'Rádio Independente de Aveiro - Cooperativa de Radiodifusão, CRL' (seat Aveiro), service 'Cidade FM Aveiro', licence district Aveiro, concelho Aveiro. Outlet email column deliberately not recorded."
+    },
+    {
+      "url": "https://cidade.fm/upload/resources/transparencia/Cidade.pdf",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Lei 78/2015 transparency PDF of the network operator BMHAUDIO Portugal Holdings, Unipessoal Lda. & Comandita (Bauer Media group)"
+    }
+  ],
+  "gaps": [
+    "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
+    "Network site (Bauer Media), copied to each Cidade FM record; the PDF names no information head for Cidade FM. No feed found"
+  ],
+  "website": "https://cidade.fm/",
+  "contact_page_url": "https://cidade.fm/contactos",
+  "public_contact": [
+    {
+      "channel": "General address [address on the outlet contact page, not recorded here] and switchboard 213 821 500; Rua Sampaio e Pina 24, 1099-044 Lisboa",
+      "source_url": "https://cidade.fm/contactos",
+      "read_at": "2026-11-17"
+    }
+  ]
 }

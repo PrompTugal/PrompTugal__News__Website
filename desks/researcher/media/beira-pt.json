@@ -1,70 +1,70 @@
 {
- "id": "beira-pt",
- "type": "organisation",
- "kind": "media",
- "name": "beira.pt",
- "media_kind": "online",
- "reach": "regional",
- "language": "pt",
- "website": "https://beira.pt/",
- "places_covered": [
-  {
-   "place": "Beiras; seat Guarda; regional portal, daily",
-   "source_url": "https://beira.pt/ficha-tecnica/",
-   "read_at": "2026-11-16"
-  }
- ],
- "owner": {
-  "name": "ADSI - Agência de Desenvolvimento para a Sociedade da Informação e do Conhecimento",
-  "source_url": "https://beira.pt/ficha-tecnica/",
-  "read_at": "2026-11-16"
- },
- "contact_page_url": "https://beira.pt/contactos/",
- "public_contact": [
-  {
-   "channel": "Generic address geral@adsi.pt as published in the ficha técnica (also for advertising); Av. Dr. Francisco Sá Carneiro 50, 6300-559 Guarda",
-   "source_url": "https://beira.pt/ficha-tecnica/",
-   "read_at": "2026-11-16"
-  }
- ],
- "feeds": [
-  {
-   "kind": "rss",
-   "url": "https://beira.pt/feed/",
-   "checked": "HTTP 200, application/rss+xml; charset=UTF-8, RSS 2.0 body",
-   "read_at": "2026-11-16"
-  }
- ],
- "people": [
-  {
-   "name": "Pedro Miguel de Sousa Marques Simões",
-   "role": "Diretor",
-   "source_url": "https://beira.pt/ficha-tecnica/",
-   "read_at": "2026-11-16"
+  "id": "beira-pt",
+  "type": "organisation",
+  "kind": "media",
+  "name": "beira.pt",
+  "media_kind": "online",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://beira.pt/",
+  "places_covered": [
+    {
+      "place": "Beiras; seat Guarda; regional portal, daily",
+      "source_url": "https://beira.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "ADSI - Agência de Desenvolvimento para a Sociedade da Informação e do Conhecimento",
+    "source_url": "https://beira.pt/ficha-tecnica/",
+    "read_at": "2026-11-16"
   },
-  {
-   "name": "José Daniel",
-   "role": "Editor Multimédia",
-   "source_url": "https://beira.pt/ficha-tecnica/",
-   "read_at": "2026-11-16"
-  }
- ],
- "sources": [
-  {
-   "url": "https://beira.pt/ficha-tecnica/",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "Ficha técnica."
-  },
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 125901 for 'Beira.pt'. Outlet email column deliberately not recorded here."
-  }
- ],
- "gaps": [
-  "telephone printed in the ficha técnica: not recorded",
-  "a contact page exists but its text carries no detail beyond the ficha técnica"
- ]
+  "contact_page_url": "https://beira.pt/contactos/",
+  "public_contact": [
+    {
+      "channel": "Generic address [address on the outlet contact page, not recorded here] as published in the ficha técnica (also for advertising); Av. Dr. Francisco Sá Carneiro 50, 6300-559 Guarda",
+      "source_url": "https://beira.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://beira.pt/feed/",
+      "checked": "HTTP 200, application/rss+xml; charset=UTF-8, RSS 2.0 body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Pedro Miguel de Sousa Marques Simões",
+      "role": "Diretor",
+      "source_url": "https://beira.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "José Daniel",
+      "role": "Editor Multimédia",
+      "source_url": "https://beira.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://beira.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Ficha técnica."
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 125901 for 'Beira.pt'. Outlet email column deliberately not recorded here."
+    }
+  ],
+  "gaps": [
+    "telephone printed in the ficha técnica: not recorded",
+    "a contact page exists but its text carries no detail beyond the ficha técnica"
+  ]
 }

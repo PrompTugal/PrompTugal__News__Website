@@ -1,75 +1,75 @@
 {
- "id": "radio-smooth-fm-santarem",
- "type": "organisation",
- "kind": "media",
- "name": "Smooth FM Santarém",
- "media_kind": "radio",
- "reach": "local",
- "language": "pt",
- "places_covered": [
-  {
-   "place": "Santarém; 97.7 FM; Temático - Musical; ERC area of coverage: Local",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
-  }
- ],
- "owner": {
-  "name": "Bmhaudio Portugal Holdings, Unipessoal, Lda. & Comandita",
-  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-  "read_at": "2026-11-17"
- },
- "people": [
-  {
-   "name": "Miguel Cruz",
-   "role": "Responsável pela programação (as listed in the ERC register)",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
+  "id": "radio-smooth-fm-santarem",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Smooth FM Santarém",
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "places_covered": [
+    {
+      "place": "Santarém; 97.7 FM; Temático - Musical; ERC area of coverage: Local",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "owner": {
+    "name": "Bmhaudio Portugal Holdings, Unipessoal, Lda. & Comandita",
+    "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+    "read_at": "2026-11-17"
   },
-  {
-   "name": "Teresa Mota",
-   "role": "Responsável pela informação (as listed in the ERC register)",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
-  },
-  {
-   "name": "Miguel Diogo de Zea Cruz",
-   "role": "Responsável de Programação, Smooth FM (network transparency PDF)",
-   "beat": "programming",
-   "source_url": "https://smoothfm.pt/upload/resources/transparencia/smoothfm.pdf",
-   "read_at": "2026-11-17"
-  },
-  {
-   "name": "Nuno Castilho de Matos",
-   "role": "Responsável Informação, Smooth FM (same PDF)",
-   "beat": "news",
-   "source_url": "https://smoothfm.pt/upload/resources/transparencia/smoothfm.pdf",
-   "read_at": "2026-11-17"
-  }
- ],
- "sources": [
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423216, operator 'Bmhaudio Portugal Holdings, Unipessoal, Lda. & Comandita' (seat Lisboa), service 'Smooth FM Santarém', licence district Santarém, concelho Santarém. Outlet email column deliberately not recorded."
-  },
-  {
-   "url": "https://smoothfm.pt/upload/resources/transparencia/smoothfm.pdf",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "Lei 78/2015 transparency PDF of the network operator BMHAUDIO Portugal Holdings, Unipessoal Lda. & Comandita (Bauer Media group)"
-  }
- ],
- "gaps": [
-  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
-  "Network site (Bauer Media), copied to each Smooth FM record; no dedicated contact page and no feed found"
- ],
- "website": "https://smoothfm.pt/",
- "public_contact": [
-  {
-   "channel": "Feedback address feedbacksmoothfm@bauermedia.pt (published on the network site); switchboard 213 821 500",
-   "source_url": "https://smoothfm.pt/",
-   "read_at": "2026-11-17"
-  }
- ]
+  "people": [
+    {
+      "name": "Miguel Cruz",
+      "role": "Responsável pela programação (as listed in the ERC register)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Teresa Mota",
+      "role": "Responsável pela informação (as listed in the ERC register)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Miguel Diogo de Zea Cruz",
+      "role": "Responsável de Programação, Smooth FM (network transparency PDF)",
+      "beat": "programming",
+      "source_url": "https://smoothfm.pt/upload/resources/transparencia/smoothfm.pdf",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Nuno Castilho de Matos",
+      "role": "Responsável Informação, Smooth FM (same PDF)",
+      "beat": "news",
+      "source_url": "https://smoothfm.pt/upload/resources/transparencia/smoothfm.pdf",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423216, operator 'Bmhaudio Portugal Holdings, Unipessoal, Lda. & Comandita' (seat Lisboa), service 'Smooth FM Santarém', licence district Santarém, concelho Santarém. Outlet email column deliberately not recorded."
+    },
+    {
+      "url": "https://smoothfm.pt/upload/resources/transparencia/smoothfm.pdf",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Lei 78/2015 transparency PDF of the network operator BMHAUDIO Portugal Holdings, Unipessoal Lda. & Comandita (Bauer Media group)"
+    }
+  ],
+  "gaps": [
+    "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
+    "Network site (Bauer Media), copied to each Smooth FM record; no dedicated contact page and no feed found"
+  ],
+  "website": "https://smoothfm.pt/",
+  "public_contact": [
+    {
+      "channel": "Feedback address [address on the outlet contact page, not recorded here] (published on the network site); switchboard 213 821 500",
+      "source_url": "https://smoothfm.pt/",
+      "read_at": "2026-11-17"
+    }
+  ]
 }

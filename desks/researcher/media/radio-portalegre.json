@@ -1,90 +1,90 @@
 {
- "name": "Rádio Portalegre",
- "names_as_listed": [
-  "Rádio Portalegre - A Voz do Alto Alentejo"
- ],
- "media_kind": "radio",
- "reach": "local",
- "website": "https://radioportalegre.pt/",
- "places_covered": [
-  {
-   "place": "Portalegre; 100.5 FM and 104.5 FM, generalist",
-   "source_url": "https://radioportalegre.pt/ficha-tecnica/",
-   "read_at": "2026-11-16"
-  }
- ],
- "owner": {
-  "name": "Rádio Portalegre - Cooperativa de Rádio, Recreio e Animação, CRL",
-  "source_url": "https://radioportalegre.pt/ficha-tecnica/",
-  "read_at": "2026-11-16"
- },
- "contact_page_url": "https://radioportalegre.pt/contactos/",
- "public_contact": [
-  {
-   "channel": "Generic addresses as published: geral@radioportalegre.pt, informacao@radioportalegre.pt, comercial@radioportalegre.pt; Avenida de Santo António 22, Edifício Régio 1, Atelier A/B, 7300-074 Portalegre; contact form on the page",
-   "source_url": "https://radioportalegre.pt/contactos/",
-   "read_at": "2026-11-16"
-  }
- ],
- "feeds": [
-  {
-   "kind": "rss",
-   "url": "https://radioportalegre.pt/feed/",
-   "checked": "HTTP 200, application/rss+xml, RSS 2.0 body",
-   "read_at": "2026-11-16"
-  }
- ],
- "people": [
-  {
-   "name": "Carla Aguiã",
-   "role": "Diretora de Informação (CPJ 5829)",
-   "source_url": "https://radioportalegre.pt/ficha-tecnica/",
-   "read_at": "2026-11-16"
+  "name": "Rádio Portalegre",
+  "names_as_listed": [
+    "Rádio Portalegre - A Voz do Alto Alentejo"
+  ],
+  "media_kind": "radio",
+  "reach": "local",
+  "website": "https://radioportalegre.pt/",
+  "places_covered": [
+    {
+      "place": "Portalegre; 100.5 FM and 104.5 FM, generalist",
+      "source_url": "https://radioportalegre.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Rádio Portalegre - Cooperativa de Rádio, Recreio e Animação, CRL",
+    "source_url": "https://radioportalegre.pt/ficha-tecnica/",
+    "read_at": "2026-11-16"
   },
-  {
-   "name": "César Azeitona",
-   "role": "Diretor de Programas",
-   "source_url": "https://radioportalegre.pt/ficha-tecnica/",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "Gabriel Nunes",
-   "role": "Jornalista (CPJ 4549)",
-   "source_url": "https://radioportalegre.pt/ficha-tecnica/",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "Rui Anacleto",
-   "role": "Técnico Multimédia",
-   "source_url": "https://radioportalegre.pt/ficha-tecnica/",
-   "read_at": "2026-11-16"
-  }
- ],
- "sources": [
-  {
-   "url": "https://radioportalegre.pt/ficha-tecnica/",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "Ficha técnica: ERC registration 423024."
-  },
-  {
-   "url": "https://radioportalegre.pt/contactos/",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "Contacts page."
-  },
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 423024 for 'Radio Portalegre'. Outlet email column deliberately not recorded here."
-  }
- ],
- "gaps": [
-  "Fonte Nova (Portalegre weekly): fontenova.pt and www.fontenova.pt did not connect from this client; not mapped. The ERC press sheet lists Portalegre titles such as 'Alto Alentejo' (125037, jornalaltoalentejo.com, also unreachable) and 'Jornal de Portalegre' (127859, jornaldeportalegre.sapo.pt)."
- ],
- "id": "radio-portalegre",
- "type": "organisation",
- "kind": "media",
- "language": "pt"
+  "contact_page_url": "https://radioportalegre.pt/contactos/",
+  "public_contact": [
+    {
+      "channel": "Generic addresses as published: [address on the outlet contact page, not recorded here], [address on the outlet contact page, not recorded here], [address on the outlet contact page, not recorded here]; Avenida de Santo António 22, Edifício Régio 1, Atelier A/B, 7300-074 Portalegre; contact form on the page",
+      "source_url": "https://radioportalegre.pt/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://radioportalegre.pt/feed/",
+      "checked": "HTTP 200, application/rss+xml, RSS 2.0 body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Carla Aguiã",
+      "role": "Diretora de Informação (CPJ 5829)",
+      "source_url": "https://radioportalegre.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "César Azeitona",
+      "role": "Diretor de Programas",
+      "source_url": "https://radioportalegre.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Gabriel Nunes",
+      "role": "Jornalista (CPJ 4549)",
+      "source_url": "https://radioportalegre.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Rui Anacleto",
+      "role": "Técnico Multimédia",
+      "source_url": "https://radioportalegre.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://radioportalegre.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Ficha técnica: ERC registration 423024."
+    },
+    {
+      "url": "https://radioportalegre.pt/contactos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Contacts page."
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 423024 for 'Radio Portalegre'. Outlet email column deliberately not recorded here."
+    }
+  ],
+  "gaps": [
+    "Fonte Nova (Portalegre weekly): fontenova.pt and www.fontenova.pt did not connect from this client; not mapped. The ERC press sheet lists Portalegre titles such as 'Alto Alentejo' (125037, jornalaltoalentejo.com, also unreachable) and 'Jornal de Portalegre' (127859, jornaldeportalegre.sapo.pt)."
+  ],
+  "id": "radio-portalegre",
+  "type": "organisation",
+  "kind": "media",
+  "language": "pt"
 }

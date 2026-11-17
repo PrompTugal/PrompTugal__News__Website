@@ -1,92 +1,92 @@
 {
- "name": "Diário do Alentejo",
- "media_kind": "newspaper",
- "reach": "regional",
- "website": "https://diariodoalentejo.pt/",
- "places_covered": [
-  {
-   "place": "Beja (Baixo Alentejo)",
-   "source_url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
-   "read_at": "2026-11-16"
-  }
- ],
- "owner": {
-  "name": "CIMBAL – Comunidade Intermunicipal do Baixo Alentejo",
-  "source_url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
-  "read_at": "2026-11-16"
- },
- "contact_page_url": "https://diariodoalentejo.pt/pt/menu/1076/contactos.aspx",
- "public_contact": [
-  {
-   "channel": "Redação: jornal@diariodoalentejo.pt (generic newsroom address as published); tel. redação +351 284 310 165; Praceta Rainha D. Leonor, 1, 7800-431 Beja",
-   "source_url": "https://diariodoalentejo.pt/pt/menu/1076/contactos.aspx",
-   "read_at": "2026-11-16"
-  }
- ],
- "feeds": [],
- "people": [
-  {
-   "name": "Marco Monteiro Cândido",
-   "role": "Diretor",
-   "source_url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
-   "read_at": "2026-11-16"
+  "name": "Diário do Alentejo",
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "website": "https://diariodoalentejo.pt/",
+  "places_covered": [
+    {
+      "place": "Beja (Baixo Alentejo)",
+      "source_url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "CIMBAL – Comunidade Intermunicipal do Baixo Alentejo",
+    "source_url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
+    "read_at": "2026-11-16"
   },
-  {
-   "name": "Aníbal Fernandes",
-   "role": "Redação",
-   "source_url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "José Serrano",
-   "role": "Redação",
-   "source_url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "Nélia Pedrosa",
-   "role": "Redação",
-   "source_url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "Firmino Paixão",
-   "role": "Desporto",
-   "source_url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
-   "read_at": "2026-11-16",
-   "beat": "desporto"
-  }
- ],
- "sources": [
-  {
-   "url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ficha técnica (dated 2019 on the page; may be outdated)"
-  },
-  {
-   "url": "https://diariodoalentejo.pt/pt/menu/1076/contactos.aspx",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "contactos page"
-  },
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127811 for 'Diário do Alentejo'. Outlet email column deliberately not recorded here."
-  }
- ],
- "gaps": [
-  "RSS: /feed/ and /rss return HTML (not verified as a feed); no feed link in home head",
-  "ficha técnica page dated 10 May 2019, masthead may have changed",
-  "ERC register not read"
- ],
- "id": "diario-do-alentejo",
- "type": "organisation",
- "kind": "media",
- "names_as_listed": [
-  "Diário do Alentejo"
- ],
- "language": "pt"
+  "contact_page_url": "https://diariodoalentejo.pt/pt/menu/1076/contactos.aspx",
+  "public_contact": [
+    {
+      "channel": "Redação: [address on the outlet contact page, not recorded here] (generic newsroom address as published); tel. redação [phone on the outlet page, not recorded]; Praceta Rainha D. Leonor, 1, 7800-431 Beja",
+      "source_url": "https://diariodoalentejo.pt/pt/menu/1076/contactos.aspx",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [],
+  "people": [
+    {
+      "name": "Marco Monteiro Cândido",
+      "role": "Diretor",
+      "source_url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Aníbal Fernandes",
+      "role": "Redação",
+      "source_url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "José Serrano",
+      "role": "Redação",
+      "source_url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Nélia Pedrosa",
+      "role": "Redação",
+      "source_url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Firmino Paixão",
+      "role": "Desporto",
+      "source_url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
+      "read_at": "2026-11-16",
+      "beat": "desporto"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://diariodoalentejo.pt/pt/menu/999/ficha-tecnica.aspx",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica (dated 2019 on the page; may be outdated)"
+    },
+    {
+      "url": "https://diariodoalentejo.pt/pt/menu/1076/contactos.aspx",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contactos page"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127811 for 'Diário do Alentejo'. Outlet email column deliberately not recorded here."
+    }
+  ],
+  "gaps": [
+    "RSS: /feed/ and /rss return HTML (not verified as a feed); no feed link in home head",
+    "ficha técnica page dated 10 May 2019, masthead may have changed",
+    "ERC register not read"
+  ],
+  "id": "diario-do-alentejo",
+  "type": "organisation",
+  "kind": "media",
+  "names_as_listed": [
+    "Diário do Alentejo"
+  ],
+  "language": "pt"
 }

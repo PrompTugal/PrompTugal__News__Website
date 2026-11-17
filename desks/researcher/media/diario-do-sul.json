@@ -1,109 +1,109 @@
 {
- "name": "Diário do Sul",
- "media_kind": "newspaper",
- "reach": "regional",
- "website": "https://diariodosul.pt/",
- "places_covered": [
-  {
-   "place": "Évora (Alentejo)",
-   "source_url": "https://diariodosul.pt/ficha-tecnica/",
-   "read_at": "2026-11-16"
-  }
- ],
- "owner": {
-  "name": "Piçarra – Distribuição de Jornais, Lda.",
-  "source_url": "https://diariodosul.pt/ficha-tecnica/",
-  "read_at": "2026-11-16"
- },
- "contact_page_url": "https://diariodosul.pt/contacto/",
- "public_contact": [
-  {
-   "channel": "Redação: address Estrada de Arraiolos, Lugar de S. Bruno, 7000-173 Évora; tel. +351 266 730 410; contact form on the contact page (email addresses are obfuscated on the page and not recorded)",
-   "source_url": "https://diariodosul.pt/contacto/",
-   "read_at": "2026-11-16"
-  }
- ],
- "feeds": [
-  {
-   "kind": "rss",
-   "url": "https://diariodosul.pt/feed/",
-   "checked": "HTTP 200, application/rss+xml; RSS 2.0 body",
-   "read_at": "2026-11-16"
+  "name": "Diário do Sul",
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "website": "https://diariodosul.pt/",
+  "places_covered": [
+    {
+      "place": "Évora (Alentejo)",
+      "source_url": "https://diariodosul.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Piçarra – Distribuição de Jornais, Lda.",
+    "source_url": "https://diariodosul.pt/ficha-tecnica/",
+    "read_at": "2026-11-16"
   },
-  {
-   "kind": "rss",
-   "url": "https://diariodosul.pt/feed/podcast",
-   "checked": "listed in home head as podcast feed; not fetched",
-   "read_at": "2026-11-16"
-  }
- ],
- "people": [
-  {
-   "name": "Manuel Madeira Piçarra",
-   "role": "Director e fundador",
-   "source_url": "https://diariodosul.pt/ficha-tecnica/",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "Paulo Jorge M. Piçarra",
-   "role": "Editor executivo",
-   "source_url": "https://diariodosul.pt/ficha-tecnica/",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "José Miguel S. M. Piçarra",
-   "role": "Editor executivo",
-   "source_url": "https://diariodosul.pt/ficha-tecnica/",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "Marina Pardal",
-   "role": "Redação",
-   "source_url": "https://diariodosul.pt/ficha-tecnica/",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "Manuel Pereira Carrascozinho",
-   "role": "Edição digital, redes sociais e online",
-   "source_url": "https://diariodosul.pt/ficha-tecnica/",
-   "read_at": "2026-11-16"
-  }
- ],
- "sources": [
-  {
-   "url": "https://diariodosul.pt/ficha-tecnica/",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ficha técnica"
-  },
-  {
-   "url": "https://diariodosul.pt/contacto/",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "contacto page"
-  },
-  {
-   "url": "https://diariodosul.pt/",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "home head for feed links"
-  },
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 100262 for 'Diário do Sul'. Outlet email column deliberately not recorded here."
-  }
- ],
- "gaps": [
-  "email addresses obfuscated, not recorded",
-  "ERC register not read"
- ],
- "id": "diario-do-sul",
- "type": "organisation",
- "kind": "media",
- "names_as_listed": [
-  "Diário do Sul"
- ],
- "language": "pt"
+  "contact_page_url": "https://diariodosul.pt/contacto/",
+  "public_contact": [
+    {
+      "channel": "Redação: address Estrada de Arraiolos, Lugar de S. Bruno, 7000-173 Évora; tel. [phone on the outlet page, not recorded]; contact form on the contact page (email addresses are obfuscated on the page and not recorded)",
+      "source_url": "https://diariodosul.pt/contacto/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://diariodosul.pt/feed/",
+      "checked": "HTTP 200, application/rss+xml; RSS 2.0 body",
+      "read_at": "2026-11-16"
+    },
+    {
+      "kind": "rss",
+      "url": "https://diariodosul.pt/feed/podcast",
+      "checked": "listed in home head as podcast feed; not fetched",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Manuel Madeira Piçarra",
+      "role": "Director e fundador",
+      "source_url": "https://diariodosul.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Paulo Jorge M. Piçarra",
+      "role": "Editor executivo",
+      "source_url": "https://diariodosul.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "José Miguel S. M. Piçarra",
+      "role": "Editor executivo",
+      "source_url": "https://diariodosul.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Marina Pardal",
+      "role": "Redação",
+      "source_url": "https://diariodosul.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Manuel Pereira Carrascozinho",
+      "role": "Edição digital, redes sociais e online",
+      "source_url": "https://diariodosul.pt/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://diariodosul.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica"
+    },
+    {
+      "url": "https://diariodosul.pt/contacto/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contacto page"
+    },
+    {
+      "url": "https://diariodosul.pt/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "home head for feed links"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 100262 for 'Diário do Sul'. Outlet email column deliberately not recorded here."
+    }
+  ],
+  "gaps": [
+    "email addresses obfuscated, not recorded",
+    "ERC register not read"
+  ],
+  "id": "diario-do-sul",
+  "type": "organisation",
+  "kind": "media",
+  "names_as_listed": [
+    "Diário do Sul"
+  ],
+  "language": "pt"
 }

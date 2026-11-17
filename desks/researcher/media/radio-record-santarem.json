@@ -1,103 +1,103 @@
 {
- "id": "radio-record-santarem",
- "type": "organisation",
- "kind": "media",
- "name": "Record Santarém",
- "media_kind": "radio",
- "reach": "local",
- "language": "pt",
- "places_covered": [
-  {
-   "place": "Santarém; 101.7 FM; Generalista; ERC area of coverage: Local",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
-  }
- ],
- "owner": {
-  "name": "Rádio Pernes, Lda.",
-  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-  "read_at": "2026-11-17"
- },
- "people": [
-  {
-   "name": "José Paulo do Carmo Peres",
-   "role": "Responsável pela programação (as listed in the ERC register)",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
+  "id": "radio-record-santarem",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Record Santarém",
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "places_covered": [
+    {
+      "place": "Santarém; 101.7 FM; Generalista; ERC area of coverage: Local",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "owner": {
+    "name": "Rádio Pernes, Lda.",
+    "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+    "read_at": "2026-11-17"
   },
-  {
-   "name": "José Manuel Duarte de Matos",
-   "role": "Responsável pela informação (as listed in the ERC register)",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
-  },
-  {
-   "name": "José Matos",
-   "role": "Direção de Informação (ficha técnica)",
-   "beat": "news",
-   "source_url": "https://www.recordfm.pt/ficha-tecnica/",
-   "read_at": "2026-11-17"
-  },
-  {
-   "name": "José Paulo Peres",
-   "role": "Direção de Programação (ficha técnica)",
-   "beat": "programming",
-   "source_url": "https://www.recordfm.pt/ficha-tecnica/",
-   "read_at": "2026-11-17"
-  },
-  {
-   "name": "Rui Morais",
-   "role": "Diretor Geral (ficha técnica)",
-   "beat": "management",
-   "source_url": "https://www.recordfm.pt/ficha-tecnica/",
-   "read_at": "2026-11-17"
-  }
- ],
- "sources": [
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423074, operator 'Rádio Pernes, Lda.' (seat Santarém), service 'Record Santarém', licence district Santarém, concelho Santarém. Outlet email column deliberately not recorded."
-  },
-  {
-   "url": "https://www.recordfm.pt/transparencia/",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "Lei da Transparência page of the Record FM site, which names this service among the operator group"
-  },
-  {
-   "url": "https://www.recordfm.pt/ficha-tecnica/",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ficha técnica"
-  },
-  {
-   "url": "https://www.recordfm.pt/contactos/",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "contact page"
-  }
- ],
- "gaps": [
-  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
-  "The website is the shared Record FM group site; the transparency page lists Record Santarém under operator Rádio Pernes, Lda (same group programming and news heads); no Santarém-specific page"
- ],
- "website": "https://www.recordfm.pt/",
- "contact_page_url": "https://www.recordfm.pt/contactos/",
- "public_contact": [
-  {
-   "channel": "Newsroom address info@recordfm.pt (Redação), general geral@recordfm.pt, fixed phone 214 406 380; Rua Dr. Coutinho Pais 25-A, 2770-180 Paço de Arcos",
-   "source_url": "https://www.recordfm.pt/contactos/",
-   "read_at": "2026-11-17"
-  }
- ],
- "feeds": [
-  {
-   "kind": "rss",
-   "url": "https://www.recordfm.pt/feed/",
-   "checked": "HTTP 200, RSS body (channel and items), content-type application/rss+xml; feed of the shared Record FM group site",
-   "read_at": "2026-11-17"
-  }
- ]
+  "people": [
+    {
+      "name": "José Paulo do Carmo Peres",
+      "role": "Responsável pela programação (as listed in the ERC register)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "José Manuel Duarte de Matos",
+      "role": "Responsável pela informação (as listed in the ERC register)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "José Matos",
+      "role": "Direção de Informação (ficha técnica)",
+      "beat": "news",
+      "source_url": "https://www.recordfm.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "José Paulo Peres",
+      "role": "Direção de Programação (ficha técnica)",
+      "beat": "programming",
+      "source_url": "https://www.recordfm.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Rui Morais",
+      "role": "Diretor Geral (ficha técnica)",
+      "beat": "management",
+      "source_url": "https://www.recordfm.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423074, operator 'Rádio Pernes, Lda.' (seat Santarém), service 'Record Santarém', licence district Santarém, concelho Santarém. Outlet email column deliberately not recorded."
+    },
+    {
+      "url": "https://www.recordfm.pt/transparencia/",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Lei da Transparência page of the Record FM site, which names this service among the operator group"
+    },
+    {
+      "url": "https://www.recordfm.pt/ficha-tecnica/",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica"
+    },
+    {
+      "url": "https://www.recordfm.pt/contactos/",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contact page"
+    }
+  ],
+  "gaps": [
+    "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
+    "The website is the shared Record FM group site; the transparency page lists Record Santarém under operator Rádio Pernes, Lda (same group programming and news heads); no Santarém-specific page"
+  ],
+  "website": "https://www.recordfm.pt/",
+  "contact_page_url": "https://www.recordfm.pt/contactos/",
+  "public_contact": [
+    {
+      "channel": "Newsroom address [address on the outlet contact page, not recorded here] (Redação), general [address on the outlet contact page, not recorded here], fixed phone 214 406 380; Rua Dr. Coutinho Pais 25-A, 2770-180 Paço de Arcos",
+      "source_url": "https://www.recordfm.pt/contactos/",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://www.recordfm.pt/feed/",
+      "checked": "HTTP 200, RSS body (channel and items), content-type application/rss+xml; feed of the shared Record FM group site",
+      "read_at": "2026-11-17"
+    }
+  ]
 }

@@ -1,76 +1,76 @@
 {
- "id": "radio-afifense",
- "type": "organisation",
- "kind": "media",
- "name": "Rádio Afifense",
- "media_kind": "radio",
- "reach": "local",
- "language": "pt",
- "places_covered": [
-  {
-   "place": "Viana do Castelo; 87.6 FM; Generalista; ERC area of coverage: Local",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
-  }
- ],
- "owner": {
-  "name": "NAIAA - Núcleo Amador de Investigação Arqueológica de Afife",
-  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-  "read_at": "2026-11-17"
- },
- "people": [
-  {
-   "name": "Filipe Costa",
-   "role": "Responsável pela programação (as listed in the ERC register)",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
+  "id": "radio-afifense",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Afifense",
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "places_covered": [
+    {
+      "place": "Viana do Castelo; 87.6 FM; Generalista; ERC area of coverage: Local",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "owner": {
+    "name": "NAIAA - Núcleo Amador de Investigação Arqueológica de Afife",
+    "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+    "read_at": "2026-11-17"
   },
-  {
-   "name": "José Carlos Silva",
-   "role": "Responsável pela informação (as listed in the ERC register)",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
-  }
- ],
- "sources": [
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423022, operator 'NAIAA - Núcleo Amador de Investigação Arqueológica de Afife' (seat Afife), service 'Rádio Afifense', licence district Viana do Castelo, concelho Viana do Castelo. Outlet email column deliberately not recorded."
-  },
-  {
-   "url": "https://radioafifense.pt/contactos/",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "contact page"
-  },
-  {
-   "url": "https://radioafifense.pt/equipa/",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "team page (presenters and editorial statute; no news head named there)"
-  }
- ],
- "gaps": [
-  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
-  "The station site names presenters but no news head; the ERC register heads stand. Mobile numbers on the contact page: personal contact published, not recorded"
- ],
- "website": "https://radioafifense.pt/",
- "contact_page_url": "https://radioafifense.pt/contactos/",
- "public_contact": [
-  {
-   "channel": "General address radio.afifense@sapo.pt as published by the station; Caminho do Cruzeiro 87, 4900-012 Afife, Viana do Castelo; fixed phone 258 980 020",
-   "source_url": "https://radioafifense.pt/contactos/",
-   "read_at": "2026-11-17"
-  }
- ],
- "feeds": [
-  {
-   "kind": "rss",
-   "url": "https://radioafifense.pt/feed/",
-   "checked": "HTTP 200, RSS body (channel and items), content-type application/rss+xml",
-   "read_at": "2026-11-17"
-  }
- ]
+  "people": [
+    {
+      "name": "Filipe Costa",
+      "role": "Responsável pela programação (as listed in the ERC register)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "José Carlos Silva",
+      "role": "Responsável pela informação (as listed in the ERC register)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423022, operator 'NAIAA - Núcleo Amador de Investigação Arqueológica de Afife' (seat Afife), service 'Rádio Afifense', licence district Viana do Castelo, concelho Viana do Castelo. Outlet email column deliberately not recorded."
+    },
+    {
+      "url": "https://radioafifense.pt/contactos/",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contact page"
+    },
+    {
+      "url": "https://radioafifense.pt/equipa/",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "team page (presenters and editorial statute; no news head named there)"
+    }
+  ],
+  "gaps": [
+    "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
+    "The station site names presenters but no news head; the ERC register heads stand. Mobile numbers on the contact page: personal contact published, not recorded"
+  ],
+  "website": "https://radioafifense.pt/",
+  "contact_page_url": "https://radioafifense.pt/contactos/",
+  "public_contact": [
+    {
+      "channel": "General address [address on the outlet contact page, not recorded here] as published by the station; Caminho do Cruzeiro 87, 4900-012 Afife, Viana do Castelo; fixed phone 258 980 020",
+      "source_url": "https://radioafifense.pt/contactos/",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://radioafifense.pt/feed/",
+      "checked": "HTTP 200, RSS body (channel and items), content-type application/rss+xml",
+      "read_at": "2026-11-17"
+    }
+  ]
 }

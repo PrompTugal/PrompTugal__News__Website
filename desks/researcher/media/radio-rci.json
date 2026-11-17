@@ -1,82 +1,82 @@
 {
- "id": "radio-rci",
- "type": "organisation",
- "kind": "media",
- "name": "RCI",
- "media_kind": "radio",
- "reach": "local",
- "language": "pt",
- "places_covered": [
-  {
-   "place": "Viseu; 105.5 FM; Generalista; ERC area of coverage: Local",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
-  }
- ],
- "owner": {
-  "name": "Rede Regional de Radiodifusão RCI, Lda.",
-  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-  "read_at": "2026-11-17"
- },
- "people": [
-  {
-   "name": "Anacleto Abreu Raimundo",
-   "role": "Responsável pela programação (as listed in the ERC register)",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
+  "id": "radio-rci",
+  "type": "organisation",
+  "kind": "media",
+  "name": "RCI",
+  "media_kind": "radio",
+  "reach": "local",
+  "language": "pt",
+  "places_covered": [
+    {
+      "place": "Viseu; 105.5 FM; Generalista; ERC area of coverage: Local",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "owner": {
+    "name": "Rede Regional de Radiodifusão RCI, Lda.",
+    "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+    "read_at": "2026-11-17"
   },
-  {
-   "name": "Amadeu Araújo",
-   "role": "Responsável pela informação (as listed in the ERC register)",
-   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17"
-  },
-  {
-   "name": "Amadeu Augusto Saraiva Araujo Lopes",
-   "role": "Responsável pela informação (station transparency page)",
-   "beat": "news",
-   "source_url": "https://rci.pt/Estatuto-Editorial-e-Transparência/",
-   "read_at": "2026-11-17"
-  },
-  {
-   "name": "Anacleto Abreu Raimundo",
-   "role": "Gerente; responsável pela orientação e supervisão de conteúdos (station transparency page)",
-   "beat": "editorial",
-   "source_url": "https://rci.pt/Estatuto-Editorial-e-Transparência/",
-   "read_at": "2026-11-17"
-  }
- ],
- "sources": [
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423344, operator 'Rede Regional de Radiodifusão RCI, Lda.' (seat Viseu), service 'RCI', licence district Viseu, concelho Viseu. Outlet email column deliberately not recorded."
-  },
-  {
-   "url": "https://rci.pt/Estatuto-Editorial-e-Transparência/",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "Lei 78/2015 transparency page: operator Rede Regional de Radiodifusão RCI Lda"
-  },
-  {
-   "url": "https://rci.pt/Contactos/",
-   "read_at": "2026-11-17",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "contact page"
-  }
- ],
- "gaps": [
-  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
-  "No RSS or Atom feed found (tried /feed, /rss)"
- ],
- "website": "https://rci.pt/",
- "contact_page_url": "https://rci.pt/Contactos/",
- "public_contact": [
-  {
-   "channel": "General address info@rci.pt; Rua Dr. Luiz Ferreira 58, 3º andar, sala 6, 3500-110 Viseu",
-   "source_url": "https://rci.pt/Contactos/",
-   "read_at": "2026-11-17"
-  }
- ]
+  "people": [
+    {
+      "name": "Anacleto Abreu Raimundo",
+      "role": "Responsável pela programação (as listed in the ERC register)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Amadeu Araújo",
+      "role": "Responsável pela informação (as listed in the ERC register)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Amadeu Augusto Saraiva Araujo Lopes",
+      "role": "Responsável pela informação (station transparency page)",
+      "beat": "news",
+      "source_url": "https://rci.pt/Estatuto-Editorial-e-Transparência/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Anacleto Abreu Raimundo",
+      "role": "Gerente; responsável pela orientação e supervisão de conteúdos (station transparency page)",
+      "beat": "editorial",
+      "source_url": "https://rci.pt/Estatuto-Editorial-e-Transparência/",
+      "read_at": "2026-11-17"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423344, operator 'Rede Regional de Radiodifusão RCI, Lda.' (seat Viseu), service 'RCI', licence district Viseu, concelho Viseu. Outlet email column deliberately not recorded."
+    },
+    {
+      "url": "https://rci.pt/Estatuto-Editorial-e-Transparência/",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Lei 78/2015 transparency page: operator Rede Regional de Radiodifusão RCI Lda"
+    },
+    {
+      "url": "https://rci.pt/Contactos/",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contact page"
+    }
+  ],
+  "gaps": [
+    "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
+    "No RSS or Atom feed found (tried /feed, /rss)"
+  ],
+  "website": "https://rci.pt/",
+  "contact_page_url": "https://rci.pt/Contactos/",
+  "public_contact": [
+    {
+      "channel": "General address [address on the outlet contact page, not recorded here]; Rua Dr. Luiz Ferreira 58, 3º andar, sala 6, 3500-110 Viseu",
+      "source_url": "https://rci.pt/Contactos/",
+      "read_at": "2026-11-17"
+    }
+  ]
 }

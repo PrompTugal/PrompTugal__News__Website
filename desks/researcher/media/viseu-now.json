@@ -1,64 +1,64 @@
 {
- "id": "viseu-now",
- "type": "organisation",
- "kind": "media",
- "name": "Viseu Now",
- "media_kind": "online",
- "reach": "regional",
- "language": "pt",
- "website": "https://viseunow.pt/",
- "places_covered": [
-  {
-   "place": "Viseu region (Viseu, Tondela, Lamego, Mangualde, Nelas, Vouzela and other concelhos in the site's menu)",
-   "source_url": "https://viseunow.pt/sobre-nos/",
-   "read_at": "2026-11-16"
-  }
- ],
- "owner": {
-  "name": "Concept Line, Lda (editor as listed by ERC)",
-  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-  "read_at": "2026-11-16"
- },
- "contact_page_url": "https://viseunow.pt/sobre-nos/",
- "public_contact": [
-  {
-   "channel": "Generic address info@viseunow.pt as published on the site; Estrada do Pinhal da Vila 5, Pedreles, Mangualde",
-   "source_url": "https://viseunow.pt/sobre-nos/",
-   "read_at": "2026-11-16"
-  }
- ],
- "feeds": [
-  {
-   "kind": "rss",
-   "url": "https://viseunow.pt/feed/",
-   "checked": "HTTP 200, application/rss+xml; charset=UTF-8, RSS 2.0 body",
-   "read_at": "2026-11-16"
-  }
- ],
- "people": [
-  {
-   "name": "Anabela Carvalho",
-   "role": "Diretora",
-   "source_url": "https://viseunow.pt/sobre-nos/",
-   "read_at": "2026-11-16"
-  }
- ],
- "sources": [
-  {
-   "url": "https://viseunow.pt/sobre-nos/",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "Sobre nós page and site footer."
+  "id": "viseu-now",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Viseu Now",
+  "media_kind": "online",
+  "reach": "regional",
+  "language": "pt",
+  "website": "https://viseunow.pt/",
+  "places_covered": [
+    {
+      "place": "Viseu region (Viseu, Tondela, Lamego, Mangualde, Nelas, Vouzela and other concelhos in the site's menu)",
+      "source_url": "https://viseunow.pt/sobre-nos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Concept Line, Lda (editor as listed by ERC)",
+    "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+    "read_at": "2026-11-16"
   },
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126693 for 'Viseu Now'. The register lists director Anabela Cardoso de Carvalho. Outlet email column deliberately not recorded here."
-  }
- ],
- "gaps": [
-  "ficha técnica page behind a bot check on fetch, not read",
-  "telephone and WhatsApp published: not recorded"
- ]
+  "contact_page_url": "https://viseunow.pt/sobre-nos/",
+  "public_contact": [
+    {
+      "channel": "Generic address [address on the outlet contact page, not recorded here] as published on the site; Estrada do Pinhal da Vila 5, Pedreles, Mangualde",
+      "source_url": "https://viseunow.pt/sobre-nos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://viseunow.pt/feed/",
+      "checked": "HTTP 200, application/rss+xml; charset=UTF-8, RSS 2.0 body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Anabela Carvalho",
+      "role": "Diretora",
+      "source_url": "https://viseunow.pt/sobre-nos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://viseunow.pt/sobre-nos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Sobre nós page and site footer."
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126693 for 'Viseu Now'. The register lists director Anabela Cardoso de Carvalho. Outlet email column deliberately not recorded here."
+    }
+  ],
+  "gaps": [
+    "ficha técnica page behind a bot check on fetch, not read",
+    "telephone and WhatsApp published: not recorded"
+  ]
 }

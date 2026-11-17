@@ -1,90 +1,90 @@
 {
- "name": "O Setubalense",
- "media_kind": "newspaper",
- "reach": "regional",
- "website": "https://osetubalense.com/",
- "places_covered": [
-  {
-   "place": "Setúbal, Palmela, Seixal, Sesimbra, Almada, Barreiro, Moita, Montijo, Alcochete (publicity offices listed)",
-   "source_url": "https://osetubalense.com/contactos/",
-   "read_at": "2026-11-16"
-  }
- ],
- "owner": {
-  "name": "Outra Margem – Publicações e Publicidade (owner); editor Primeira Hora – Editora e Comunicação, Lda",
-  "source_url": "https://osetubalense.com/ficha-tecnica/",
-  "read_at": "2026-11-16"
- },
- "contact_page_url": "https://osetubalense.com/contactos/",
- "public_contact": [
-  {
-   "channel": "Redação: redaccao@osetubalense.com (generic newsroom address as published); tel. redação +351 265 092 633; Travessa Gaspar Agostinho 1, 1º, 2900-389 Setúbal",
-   "source_url": "https://osetubalense.com/contactos/",
-   "read_at": "2026-11-16"
-  }
- ],
- "feeds": [
-  {
-   "kind": "rss",
-   "url": "https://osetubalense.com/feed/",
-   "checked": "HTTP 200, application/rss+xml",
-   "read_at": "2026-11-16"
-  }
- ],
- "people": [
-  {
-   "name": "Francisco Alves Rito",
-   "role": "Director",
-   "source_url": "https://osetubalense.com/ficha-tecnica/",
-   "read_at": "2026-11-16"
+  "name": "O Setubalense",
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "website": "https://osetubalense.com/",
+  "places_covered": [
+    {
+      "place": "Setúbal, Palmela, Seixal, Sesimbra, Almada, Barreiro, Moita, Montijo, Alcochete (publicity offices listed)",
+      "source_url": "https://osetubalense.com/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Outra Margem – Publicações e Publicidade (owner); editor Primeira Hora – Editora e Comunicação, Lda",
+    "source_url": "https://osetubalense.com/ficha-tecnica/",
+    "read_at": "2026-11-16"
   },
-  {
-   "name": "Mário Rui Sobral",
-   "role": "Redação",
-   "source_url": "https://osetubalense.com/ficha-tecnica/",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "Humberto Lameiras",
-   "role": "Redação",
-   "source_url": "https://osetubalense.com/ficha-tecnica/",
-   "read_at": "2026-11-16"
-  },
-  {
-   "name": "Marta Guerreiro",
-   "role": "Redação",
-   "source_url": "https://osetubalense.com/ficha-tecnica/",
-   "read_at": "2026-11-16"
-  }
- ],
- "sources": [
-  {
-   "url": "https://osetubalense.com/ficha-tecnica/",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ficha técnica (registo de título 107552)"
-  },
-  {
-   "url": "https://osetubalense.com/contactos/",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "contactos page"
-  },
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 107552 for 'O Setubalense'. Outlet email column deliberately not recorded here."
-  }
- ],
- "gaps": [
-  "partly paywalled site; only public pages read"
- ],
- "id": "o-setubalense",
- "type": "organisation",
- "kind": "media",
- "names_as_listed": [
-  "O Setubalense"
- ],
- "language": "pt"
+  "contact_page_url": "https://osetubalense.com/contactos/",
+  "public_contact": [
+    {
+      "channel": "Redação: [address on the outlet contact page, not recorded here] (generic newsroom address as published); tel. redação [phone on the outlet page, not recorded]; Travessa Gaspar Agostinho 1, 1º, 2900-389 Setúbal",
+      "source_url": "https://osetubalense.com/contactos/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://osetubalense.com/feed/",
+      "checked": "HTTP 200, application/rss+xml",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Francisco Alves Rito",
+      "role": "Director",
+      "source_url": "https://osetubalense.com/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Mário Rui Sobral",
+      "role": "Redação",
+      "source_url": "https://osetubalense.com/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Humberto Lameiras",
+      "role": "Redação",
+      "source_url": "https://osetubalense.com/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    },
+    {
+      "name": "Marta Guerreiro",
+      "role": "Redação",
+      "source_url": "https://osetubalense.com/ficha-tecnica/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://osetubalense.com/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ficha técnica (registo de título 107552)"
+    },
+    {
+      "url": "https://osetubalense.com/contactos/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "contactos page"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 107552 for 'O Setubalense'. Outlet email column deliberately not recorded here."
+    }
+  ],
+  "gaps": [
+    "partly paywalled site; only public pages read"
+  ],
+  "id": "o-setubalense",
+  "type": "organisation",
+  "kind": "media",
+  "names_as_listed": [
+    "O Setubalense"
+  ],
+  "language": "pt"
 }

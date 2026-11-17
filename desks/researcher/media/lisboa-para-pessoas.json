@@ -1,67 +1,67 @@
 {
- "name": "LPP - Lisboa Para Pessoas",
- "names_as_listed": [
-  "LPP",
-  "Lisboa Para Pessoas"
- ],
- "media_kind": "newspaper",
- "reach": "regional",
- "website": "https://lisboaparapessoas.pt/",
- "places_covered": [
-  {
-   "place": "Lisboa and the Lisbon metropolitan area",
-   "source_url": "https://lisboaparapessoas.pt/sobre/",
-   "read_at": "2026-11-16"
-  }
- ],
- "owner": {
-  "name": "Shifter Generation, Lda (non-profit editorial stance; same house as Shifter)",
-  "source_url": "https://lisboaparapessoas.pt/sobre/",
-  "read_at": "2026-11-16"
- },
- "contact_page_url": "https://lisboaparapessoas.pt/sobre/",
- "public_contact": [
-  {
-   "channel": "Generic newsroom email mail@lisboaparapessoas.pt as published on the ficha técnica; Rua São Nicolau 73, 2º andar, sala 22, 1100-548 Lisboa",
-   "source_url": "https://lisboaparapessoas.pt/sobre/",
-   "read_at": "2026-11-16"
-  }
- ],
- "feeds": [
-  {
-   "kind": "rss",
-   "url": "https://lisboaparapessoas.pt/feed/",
-   "checked": "HTTP 200, application/rss+xml, RSS 2.0 body",
-   "read_at": "2026-11-16"
-  }
- ],
- "people": [
-  {
-   "name": "Mário Rui Branco Correia Martins André",
-   "role": "Director & Editor; owner's manager",
-   "source_url": "https://lisboaparapessoas.pt/sobre/",
-   "read_at": "2026-11-16"
-  }
- ],
- "sources": [
-  {
-   "url": "https://lisboaparapessoas.pt/sobre/",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "Sobre page incl. ficha técnica; ERC no. 127 531."
+  "name": "LPP - Lisboa Para Pessoas",
+  "names_as_listed": [
+    "LPP",
+    "Lisboa Para Pessoas"
+  ],
+  "media_kind": "newspaper",
+  "reach": "regional",
+  "website": "https://lisboaparapessoas.pt/",
+  "places_covered": [
+    {
+      "place": "Lisboa and the Lisbon metropolitan area",
+      "source_url": "https://lisboaparapessoas.pt/sobre/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "owner": {
+    "name": "Shifter Generation, Lda (non-profit editorial stance; same house as Shifter)",
+    "source_url": "https://lisboaparapessoas.pt/sobre/",
+    "read_at": "2026-11-16"
   },
-  {
-   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
-   "read_at": "2026-11-16",
-   "by": "researcher@PrompTugal.dinis",
-   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127531 for 'LPP Lisboa Para Pessoas (Shifter Generation, Unipessoal, Lda.)'. Outlet email column deliberately not recorded here."
-  }
- ],
- "gaps": [
-  "A telephone number is published on the page; not recorded here (may be personal)."
- ],
- "id": "lisboa-para-pessoas",
- "type": "organisation",
- "kind": "media",
- "language": "pt"
+  "contact_page_url": "https://lisboaparapessoas.pt/sobre/",
+  "public_contact": [
+    {
+      "channel": "Generic newsroom email [address on the outlet contact page, not recorded here] as published on the ficha técnica; Rua São Nicolau 73, 2º andar, sala 22, 1100-548 Lisboa",
+      "source_url": "https://lisboaparapessoas.pt/sobre/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "feeds": [
+    {
+      "kind": "rss",
+      "url": "https://lisboaparapessoas.pt/feed/",
+      "checked": "HTTP 200, application/rss+xml, RSS 2.0 body",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "people": [
+    {
+      "name": "Mário Rui Branco Correia Martins André",
+      "role": "Director & Editor; owner's manager",
+      "source_url": "https://lisboaparapessoas.pt/sobre/",
+      "read_at": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://lisboaparapessoas.pt/sobre/",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "Sobre page incl. ficha técnica; ERC no. 127 531."
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127531 for 'LPP Lisboa Para Pessoas (Shifter Generation, Unipessoal, Lda.)'. Outlet email column deliberately not recorded here."
+    }
+  ],
+  "gaps": [
+    "A telephone number is published on the page; not recorded here (may be personal)."
+  ],
+  "id": "lisboa-para-pessoas",
+  "type": "organisation",
+  "kind": "media",
+  "language": "pt"
 }
