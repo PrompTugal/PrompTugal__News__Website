@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "revela-arrabida",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Revela Arrábida",
+  "names_as_listed": [
+    "Revela Arrábida"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: personal-name email addresses of the director and editor are printed: personal contact published, not recorded.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:setubal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://revelaarrabida.pt/",
+    "owner": {
+      "name": "Vírgulas Curiosas, Lda; holders of more than 5%: Tiago Pereira de Almeida and Filipa Pereira de Almeida",
+      "source": {
+        "url": "https://revelaarrabida.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://revelaarrabida.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://revelaarrabida.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml; charset=UTF-8, RSS 2.0 body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://revelaarrabida.pt/ficha-tecnica/",
+      "source": {
+        "url": "https://revelaarrabida.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Filipa Isabel Pereira",
+        "role": "Diretora de Informação",
+        "source": {
+          "url": "https://revelaarrabida.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Tiago Alexandre",
+        "role": "Editor",
+        "source": {
+          "url": "https://revelaarrabida.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://revelaarrabida.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "Ficha técnica."
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 128134 for 'Revela Arrábida'. Outlet email column deliberately not recorded here."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://revelaarrabida.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "Ficha técnica.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 128134 for 'Revela Arrábida'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

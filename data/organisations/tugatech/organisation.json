@@ -1,0 +1,75 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "tugatech",
+  "type": "organisation",
+  "kind": "media",
+  "name": "TugaTech",
+  "names_as_listed": [
+    "TugaTech"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: No ficha tecnica with named editors or journalists found; articles are bylined with a forum handle (a pseudonym, not recorded as a person). Owner/publisher entity and ERC registration number not found on the pages read.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:coimbra"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://tugatech.com.pt/",
+    "feeds": [
+      {
+        "url": "https://tugatech.com.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://tugatech.com.pt/feed/",
+          "read_at": "2026-11-17",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml, RSS 2.0 body"
+        }
+      },
+      {
+        "url": "https://tugatech.com.pt/feed/?type=atom",
+        "format": "atom",
+        "source": {
+          "url": "https://tugatech.com.pt/feed/?type=atom",
+          "read_at": "2026-11-17",
+          "how": "checked by the researcher: advertised in the page head as an Atom feed; not fetched"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://tugatech.com.pt/h42-sobre-nos",
+      "source": {
+        "url": "https://tugatech.com.pt/h42-sobre-nos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://tugatech.com.pt/h42-sobre-nos",
+        "read_at": "2026-11-17",
+        "how": "About page: mission, founded 2010, contacts."
+      },
+      {
+        "url": "https://tugatech.com.pt/",
+        "read_at": "2026-11-17",
+        "how": "Home page: feed links, bylines shown are forum handles."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://tugatech.com.pt/h42-sobre-nos",
+      "read_at": "2026-11-17",
+      "how": "About page: mission, founded 2010, contacts.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://tugatech.com.pt/",
+      "read_at": "2026-11-17",
+      "how": "Home page: feed links, bylines shown are forum handles.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

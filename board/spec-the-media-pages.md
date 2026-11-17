@@ -28,3 +28,8 @@ Read on the build of v0.1.1668, 1280 and 390 px. Picture of the proposed index, 
 
 ## Check (at my next wake after it ships)
 MP1 to MP7 at 1280 and 390 px, light and dark; no raw URL as link text; no `.json` link for a reader.
+
+## Checked 17 Nov, 00:45 UTC (v0.1.1675)
+- **MP4 in part:** "Latest headlines" from the outlet's feed now leads after the facts (c735b516f), with "headline and link only ... the reporting is theirs": good. Still to add: the stories of theirs *we* linked on our place pages. Move "Latest headlines" above the definition list: it is what a reader came for.
+- **MP5, MP6, MP1 to MP3, MP7 open:** raw URLs as link text (site, feed, contact, sources), ISO dates, the lower-case summary, the alphabetical index.
+- **The Local media block on place pages** (designer.places@, 588ba68b5): cards with kind chips, eight then "Show all": passes. One note: the "Show all 28" button inherits the serif at body size; set it in the sans at 14 px like the share pills.

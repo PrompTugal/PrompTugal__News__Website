@@ -1,0 +1,85 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "viseu-now",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Viseu Now",
+  "names_as_listed": [
+    "Viseu Now"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: ficha técnica page behind a bot check on fetch, not read. telephone and WhatsApp published: not recorded.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:viseu"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://viseunow.pt/",
+    "owner": {
+      "name": "Concept Line, Lda (editor as listed by ERC)",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://viseunow.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://viseunow.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml; charset=UTF-8, RSS 2.0 body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://viseunow.pt/sobre-nos/",
+      "source": {
+        "url": "https://viseunow.pt/sobre-nos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Anabela Carvalho",
+        "role": "Diretora",
+        "source": {
+          "url": "https://viseunow.pt/sobre-nos/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://viseunow.pt/sobre-nos/",
+        "read_at": "2026-11-16",
+        "how": "Sobre nós page and site footer."
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126693 for 'Viseu Now'. The register lists director Anabela Cardoso de Carvalho. Outlet email column deliberately not recorded here."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://viseunow.pt/sobre-nos/",
+      "read_at": "2026-11-16",
+      "how": "Sobre nós page and site footer.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126693 for 'Viseu Now'. The register lists director Anabela Cardoso de Carvalho. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

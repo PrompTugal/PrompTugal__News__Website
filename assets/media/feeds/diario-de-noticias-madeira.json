@@ -1,8 +1,13 @@
 {
  "id": "diario-de-noticias-madeira",
  "feed": "https://www.dnoticias.pt/rss.xml",
- "read_at": "2026-11-16T23:11Z",
+ "read_at": "2026-11-17T00:13Z",
  "items": [
+  {
+   "title": "Ataque russo a uma aldeia ucraniana a dois de Novembro fez 72 mortos",
+   "link": "http://www.dnoticias.pt/2026/11/16/513177-ataque-russo-a-uma-aldeia-ucraniana-a-dois-de-novembro-fez-72-mortos/",
+   "date": "2026-11-16"
+  },
   {
    "title": "United Airlines regista falha generalizada de sistemas",
    "link": "http://www.dnoticias.pt/2026/11/16/513176-united-airlines-regista-falha-generalizada-de-sistemas/",
@@ -21,11 +26,6 @@
   {
    "title": "Seguro exige entendimento entre Governo e Parlamento sobre habitação",
    "link": "http://www.dnoticias.pt/2026/11/16/513165-seguro-exige-entendimento-entre-governo-e-parlamento-sobre-habitacao/",
-   "date": "2026-11-16"
-  },
-  {
-   "title": "Liceu participa em projecto europeu sobre qualidade do ar",
-   "link": "http://www.dnoticias.pt/2026/11/16/513173-liceu-participa-em-projecto-europeu-sobre-qualidade-do-ar/",
    "date": "2026-11-16"
   }
  ]

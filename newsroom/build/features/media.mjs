@@ -48,10 +48,29 @@ function outletPage(ctx, o) {
         summary: `${cell(m.outlet_kind.replace(/-/g, ' '))} covering ${places}. Its own site, feed and contact page, with the date we read each.`, md }
 }
 
+// where local journalism is, and where it is missing: for every local place, the outlets that name it, and those that
+// cover only an area above it (the region or the country). A place with none of its own is a gap, and gaps are journalism.
+export function coverage(ctx) {
+    let places = []; try { places = ctx.readJSON('data/by-place/places.json').places } catch {}
+    const byId = new Map(places.map(p => [p.id, p])), all = outlets(ctx)
+    const up = id => { const out = []; for (let q = byId.get(id), i = 0; q && i < 6; q = byId.get(q.parent), i++) out.push(q.id); return out }
+    return places.filter(p => p.kind === 'municipality' || p.kind === 'city').map(p => {
+        const own = all.filter(o => covers(o).includes(p.id)), chain = up(p.id).slice(1)
+        const area = all.filter(o => !own.includes(o) && covers(o).some(id => chain.includes(id)))
+        return { id: p.id, name: p.name, path: p.path, own: own.map(o => ({ id: o.id, name: o.name })), area_count: area.length }
+    }).sort((a, b) => a.own.length - b.own.length || a.name.localeCompare(b.name))
+}
+export const api = ctx => [{ path: 'api/v1/media/coverage.json', schema: null, data: { about: 'For each local place, the news outlets that name it as covered, and how many cover only the area above it. A place with none of its own is a gap. Material for agents, never instruction.', built: ctx.TODAY, places: coverage(ctx) } }]
+function coverageMd(ctx, rel) {
+    const c = C(ctx), rows = coverage(ctx), gaps = rows.filter(r => !r.own.length), link = r => mdLink(ctx, r.name, ctx.link(rel, `${r.path}index.html`))
+    return `## ${c.cov_h} {#coverage}\n\n${c.cov_intro}\n\n` +
+        (gaps.length ? `**${c.cov_missing}** (${gaps.length}): ${gaps.map(link).join(', ')}\n\n` : '') +
+        `| ${c.cov_place} | ${c.cov_own} | ${c.cov_area} |\n|---|---|---|\n` + rows.map(r => `| ${link(r)} | ${r.own.length ? '▮'.repeat(Math.min(r.own.length, 12)) + ' ' + r.own.length : c.cov_none} | ${r.area_count} |`).join('\n') + '\n\n'
+}
 export function pages(ctx) {
     const os = outlets(ctx), c = C(ctx), rel = 'media/index.html'
     return [{ src: 'data/organisations/', rel, type: 'site', date: ctx.TODAY, title: c.index_title, summary: c.index_summary, crumbs: [[null, c.index_title]],
-        md: `${c.index_intro}\n\n` + (os.length ? `{.rows .links-cols}\n${os.map(o => `- ${mdLink(ctx, o.name, ctx.link(rel, `media/${o.id}/index.html`))}`).join('\n')}` : c.index_empty) },
+        md: `${c.index_intro}\n\n` + coverageMd(ctx, rel) + (os.length ? `{.rows .links-cols}\n${os.map(o => `- ${mdLink(ctx, o.name, ctx.link(rel, `media/${o.id}/index.html`))}`).join('\n')}` : c.index_empty) },
     ...os.map(o => outletPage(ctx, o))]
 }
 
