@@ -1,0 +1,78 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "terras-de-braga",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Terras de Braga",
+  "names_as_listed": [
+    "Terras de Braga"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Contact page not found at common paths; not looked up further. Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:braga"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://terrasdebraga.sapo.pt",
+    "owner": {
+      "name": "Ágilpassear, Lda.",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://terrasdebraga.sapo.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://terrasdebraga.sapo.pt/feed/",
+          "read_at": "2026-11-17",
+          "how": "checked by the researcher: HTTP 200, application/xml, XML feed body"
+        }
+      }
+    ],
+    "people": [
+      {
+        "name": "Anjos Costa",
+        "role": "Director (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127850 for 'Terras de Braga', Registo Definitivo, row on the periodicals sheet; seat Braga, Braga; owner and direction as listed. Outlet email column deliberately not recorded here."
+      },
+      {
+        "url": "https://terrasdebraga.sapo.pt/",
+        "read_at": "2026-11-17",
+        "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127850 for 'Terras de Braga', Registo Definitivo, row on the periodicals sheet; seat Braga, Braga; owner and direction as listed. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://terrasdebraga.sapo.pt/",
+      "read_at": "2026-11-17",
+      "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

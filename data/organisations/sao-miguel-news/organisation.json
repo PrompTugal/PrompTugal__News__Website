@@ -1,0 +1,78 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "sao-miguel-news",
+  "type": "organisation",
+  "kind": "media",
+  "name": "São Miguel News",
+  "names_as_listed": [
+    "São Miguel News"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Contact page not found at common paths; not looked up further. Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:acores"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://saomiguelnews.net",
+    "owner": {
+      "name": "Burgopirâmide - Unipessoal, Lda.",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://saomiguelnews.net/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://saomiguelnews.net/feed/",
+          "read_at": "2026-11-17",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml, XML feed body"
+        }
+      }
+    ],
+    "people": [
+      {
+        "name": "António Leite",
+        "role": "Director (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 128164 for 'São Miguel News', Registo Definitivo, row on the periodicals sheet; seat Ponta Delgada, Ilha de São Miguel; owner and direction as listed. Outlet email column deliberately not recorded here."
+      },
+      {
+        "url": "https://saomiguelnews.net/",
+        "read_at": "2026-11-17",
+        "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 128164 for 'São Miguel News', Registo Definitivo, row on the periodicals sheet; seat Ponta Delgada, Ilha de São Miguel; owner and direction as listed. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://saomiguelnews.net/",
+      "read_at": "2026-11-17",
+      "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

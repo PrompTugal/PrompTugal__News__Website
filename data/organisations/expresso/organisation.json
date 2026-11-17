@@ -7,7 +7,7 @@
   "names_as_listed": [
     "Expresso"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Site could not be read (bot protection); owner, masthead, contacts, feed all unverified. https://expresso.pt/rss returned 403. Not guessed. Expresso tecnologia section and RSS returned HTTP 403 to this client; no tech bylines read. (read ).",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Site could not be read (bot protection); owner, masthead, contacts, feed all unverified. https://expresso.pt/rss returned 403. Not guessed. Expresso tecnologia section and RSS returned HTTP 403 to this client; no tech bylines read. (read ). Expresso site blocked (403) from this environment: current tech, economy and politics editors not found; Hugo Séneca byline dates from 2022 and should be re-checked ().",
   "media": {
     "outlet_kind": "newspaper",
     "places_covered": [
@@ -17,6 +17,58 @@
       "pt"
     ],
     "website": "https://expresso.pt",
+    "people": [
+      {
+        "name": "João Pedro da Conceição Vieira Pereira",
+        "role": "Director (ERC register; Impresa Publishing)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "David Dinis",
+        "role": "Deputy director (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "Miguel Cadete",
+        "role": "Deputy director (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "Paula Santos",
+        "role": "Deputy director (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "Hugo Séneca",
+        "role": "Technology journalist (external contributor, as credited in a 2022 Expresso piece)",
+        "source": {
+          "url": "https://www.srslegal.pt/xms/files/Comunicacao/SRS_na_Imprensa/2022/2022_10_28_Expresso_Bots_LNG.pdf",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "technology"
+      }
+    ],
     "sources": [
       {
         "url": "https://expresso.pt/ficha-tecnica",

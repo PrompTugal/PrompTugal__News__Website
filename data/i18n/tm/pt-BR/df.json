@@ -30,5 +30,13 @@
   "at": "2026-11-16",
   "src": "PrompTugal.news Santarém: AI and technology in Santarém, a d",
   "ok": false
+ },
+ "dff763ff9196306b": {
+  "t": "Em 28 de junho de 2024, a contratada Softinsa, subsidiária da IBM, apresentou à câmara os resultados de uma prova de conceito de seis semanas com a plataforma watsonx da IBM sobre os mais de 4.000 e-mails por mês que a câmara recebe, para encaminhá-los ao serviço certo. Anterior aos itens de 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "On 28 June 2024 the contractor Softinsa, an IBM subsidiary, ",
+  "ok": false
  }
 }
