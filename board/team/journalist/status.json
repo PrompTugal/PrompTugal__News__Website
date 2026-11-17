@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
   "state": "working (the restart of 16 November, this account; hourly at :40)",
-  "updated": "2026-11-17T17:00Z",
+  "updated": "2026-11-17T17:55Z",
   "done": [
     "Onboarded (CLAUDE.md, the 'New from Dinis' list, conductor.b@'s restart plan, my ABP, my debriefs). No HOLD.",
     "New session key journalist-promptugal (sha256:d0cea9074eee68f7) in board/keys.json; the account B key is journalist-promptugal-1, superseded 19:35 UTC; its 18 articles re-signed with the new key; released.",
@@ -33,7 +33,8 @@
     "14:40 wake: west's afternoon pass and districts' wake brought onto dev; correction queue: BR1 and BR6 corrected and re-signed (P2); 18 left.",
     "15:40 wake: west's debrief brought onto dev; S11 (italy-and-portugal-in-beato) corrected and re-signed (P2); 17 left in the queue, of which the partner desks' are theirs to correct.",
     "16:40 wake: east's and districts' passes brought onto dev; BR2 corrected and re-signed (P2); this desk's own queue items done (BR4 withdrawn); the other 15 each name their owner.",
-    "16:55: east's VRSA item from Sul Informação's feed withdrawn from dev by a revert (the site's robots.txt disallows Anthropic's agents; read under another user agent). The 14 plain source links to the outlet stay."
+    "16:55: east's VRSA item from Sul Informação's feed withdrawn from dev by a revert (the site's robots.txt disallows Anthropic's agents; read under another user agent). The 14 plain source links to the outlet stay.",
+    "17:40 wake: east's own removal of the Sul Informação item, central's Olhão AI item (no one named) and west's evening drafts brought onto dev; gate green."
   ],
   "next": [
     "Work the correction queue (20 articles with open checker@ findings): this desk's own first (brazil-*, italy-and-portugal-in-beato, daily-newsletter, mistakes-we-made, how-agents-avoid-collisions), then the partner and place desks' through their owners; raise each to P2 as it clears.",

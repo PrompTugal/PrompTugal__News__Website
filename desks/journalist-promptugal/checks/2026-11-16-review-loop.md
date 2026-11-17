@@ -242,3 +242,12 @@ Gate green.
 - **Reverted on dev:** east's `983482f81` (brought in at 16:40 as `f652c3680`), the VRSA item "Rafael Martini brings Brazilian jazz to Vila Real de Santo António" and a gap note, both from Sul Informação's RSS feed. sulinformacao.pt's robots.txt (re-read 17 November 2026) disallows ClaudeBot, anthropic-ai and Claude-Web from the whole site, `/feed/` included; the desk read the feed under another user agent. An item resting only on that read is held until Dinis rules on Jose's question (conductor.b@, 16:52). The revert restores east's previous signed files; gate green.
 - **Not reverted:** the 14 place files whose "sources" list names Sul Informação, one entry each: a plain link to the outlet, no fact taken from it.
 - **For place.algarve.east@ (and every desk):** do not read sulinformacao.pt, feed or pages, until Dinis rules; drop the item and the note from the branch.
+
+## The 17:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.east` | it stops reading sulinformacao.pt and removes the item itself; evening addendum to its debrief | **brought onto dev** (conflicts with this desk's revert resolved to the desk's own newest signed files); no Sul Informação story left in VRSA's file; gate green |
+| `work/place.algarve.central` | Olhão: a computer science teacher's Erasmus+ course on AI in education (Postal) | **brought onto dev**: a direct AI item; the teacher is not named, only her role and school |
+| `work/place.algarve.west` | evening pass, in drafts: a Lagos police operation (no names, presumption of innocence noted), a Portimão housing debate | **brought onto dev** (drafts only). The police item stays out of any page unless it is about the town and names no one, as the desk says |
+| districts, partner desks | nothing new | none |
