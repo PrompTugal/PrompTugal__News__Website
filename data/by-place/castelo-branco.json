@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Castelo Branco: AI and technology in Castelo Branco, a Beira Baixa district capital whose centre of gravity is its polytechnic, now the Universidade Politécnica de Castelo Branco, and a small circle of local tech firms, and what reaches Castelo Branco from Portugal, Europe and the world. Independent. Every fact sourced.",
   "gravity": {
@@ -341,19 +341,20 @@
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "The council has no RSS feed and its news page has no date on article pages, so the August 2026 hub item is dated by the council meeting (21 August 2026). The news list runs to about 60 pages and only the titles and summaries were searched for AI terms.",
+    "The council has no RSS feed and its news page has no date on article pages, so the August 2026 hub item is dated by the council meeting (21 August 2026). The news list runs to about 60 pages and only the titles and summaries were searched for AI terms. Re-read on 17 November 2026: the news page's newest items (up to id 23718, events of 12 to 15 November) hold no AI, drone or startup item; the SPRINT congress item (id 23661, 6 November) mentions sport, health and innovation only.",
     "Castelo Branco Digital (the council's online city platform) needs JavaScript and could not be read, so any AI or smart city service on it is unknown. The Cidade Inteligente page was read: it only describes Castelo Branco's role in the Portuguese smart cities network, with no AI.",
     "The Odin Systems hub and the Beyond Vision drone protocol are known only from the council's own news item. A search found no independent report, no statement that the systems use AI, and nothing on Beyond Vision in Castelo Branco, so only Odin is on the map.",
-    "The council said it is considering an Academia IA. No follow-up page, date or budget was found.",
+    "The council said it is considering an Academia IA. No follow-up page, date or budget was found. Re-checked 17 November 2026: the council's news page and a search found no follow-up on it.",
     "A 2026 EU procurement notice for AI and process automation services appeared in a search, but the TED page returned nothing and the issuing public body could not be confirmed, so it is left out.",
     "DeepNeuronic (computer vision, now part of Motorola Solutions per its own site) is placed in Castelo Branco only by a Spanish startup news piece from November 2022. Its own site names no town and its investor round included the University of Beira Interior, so it likely belongs on the Covilhã page. Left off the map until a source states its base.",
     "Allbesmart (IoT for smart cities, a polytechnic spin-off at the CEi) and Axians (digital solutions, moving to a second CEi building) have pages that make no AI claim, so they are not on the map. The IPCB spin-off page and the firms' own sites should be read for AI work.",
-    "The CEi site and the CATAA centre's incubator pages were unreachable or gave no AI detail. CATAA lists projects such as DIGITOOL4AGRI and TID4AGRO, which could carry AI, but their pages were not opened.",
-    "The polytechnic has no feed and its news archive could not be paged, so older AI items on its site may be missing. The StartUp.CB regulation PDF and the list of incubated companies were not read.",
+    "The CEi site and the CATAA centre's incubator pages were unreachable or gave no AI detail. CATAA lists projects such as DIGITOOL4AGRI and TID4AGRO, which could carry AI, but their pages were not opened. On 17 November 2026 the CEi page was read again: it names no hosted company and no AI work, and the spin-off page address tried (ipcb.pt/investigar-e-inovar/inovacao/spin-offs/) returned 404, so the spin-off list is still unread.",
+    "The polytechnic has no feed and its news archive could not be paged, so older AI items on its site may be missing. The StartUp.CB regulation PDF and the list of incubated companies were not read. Re-read 17 November 2026: the UPCB news page (newest item 12 November) has no AI or spin-off item; the only near topic is a researcher's paper on entrepreneurship (9 November). No feed advertised.",
     "The AITI business course on AI has no year on its page, so it is on the map but not in the news.",
     "The FabLab is mentioned only in search snippets, so it is not on the map.",
     "IBM's innovation centre is in Fundão, in the same district but outside the municipality, so it belongs on the Fundão page.",
-    "No AI investor, AI community meetup or investor fund based in the municipality was found. No local talent is listed because no public, consenting person was identified."
+    "No AI investor, AI community meetup or investor fund based in the municipality was found. No local talent is listed because no public, consenting person was identified.",
+    "Third pass, 17 November 2026: no AI news dated after 16 November was found on the council, UPCB or Diário Digital Castelo Branco pages (no feed is advertised on any of them), so ai_news is unchanged."
   ],
   "voice": {
     "lede": "Castelo Branco: where the coverlets are embroidered by hand and the fire breaks are now checked by a drone with opinions, ai ai ai.",
