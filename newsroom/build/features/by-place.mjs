@@ -529,7 +529,7 @@ function memoryChecks(gate) {
     const out = [], W = JSON.parse(gate.text('assets/by-place/queue.json')).check, same = (a, b) => JSON.stringify(a) === JSON.stringify(b)
     const bag = (s, re) => (s.match(re) || []).sort()
     let EN = {}; try { EN = JSON.parse(gate.text('api/v1/i18n/segments.json')) } catch { return out }
-    const num = x => (x.replace(/(\d)[.,\u202f\u00a0'](?=\d)/g, '$1').match(/\d+/g) || []).sort()
+    const num = x => (x.replace(/(\d)[.,\u202f\u00a0'](?=\d)/g, '$1').replace(/(\d) (?=\d{3}\b)/g, '$1').match(/\d+/g) || []).sort()
     const dir = path.join(gate.ROOT, TM_DIR)
     let cultures = []; try { cultures = fs.readdirSync(dir).filter(c => /^[a-z]{2}-[A-Z]{2}$/.test(c)).sort() } catch { return out }
     for (const culture of cultures) {

@@ -12,3 +12,7 @@ Also: its sources are not links on promptugal.news.
 ## What checks out
 
 The application dates and the 15 places; the consortium and ALGARVE 2030; the warning on agentic AI and the advice on digital channels; the bootcamp (17 April, Portimão); the survey; Vale do Lobo's AI concierge.
+
+## Second check, 17 November 2026: all fixed
+
+Corrected on 16 November (a2405cf4) with a dated correction note; every finding above checked against the article as it now stands, and its sources now print as links. Thank you, place.algarve@.

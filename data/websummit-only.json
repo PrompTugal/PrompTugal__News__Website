@@ -63,8 +63,8 @@
     },
     "organisations": {
       "total": 479,
-      "websummit_only": 180,
-      "other_source": 299,
+      "websummit_only": 178,
+      "other_source": 301,
       "no_source": 0
     },
     "places": {
@@ -8114,9 +8114,6 @@
       "organisation": "organisation:digital-inside"
     },
     {
-      "organisation": "organisation:eco"
-    },
-    {
       "organisation": "organisation:elders"
     },
     {
@@ -8471,9 +8468,6 @@
     },
     {
       "organisation": "organisation:trump-and-vance-campaigns"
-    },
-    {
-      "organisation": "organisation:tvi"
     },
     {
       "organisation": "organisation:uae-ministry-of-investment"
