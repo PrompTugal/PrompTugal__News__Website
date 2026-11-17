@@ -29,13 +29,13 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-2462 cards (1703 current, 0 superseded, 759 withdrawn), from the catalogue generated 2026-11-17T06:58:43Z at site v0.1.1699; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+2464 cards (1705 current, 0 superseded, 759 withdrawn), from the catalogue generated 2026-11-17T09:59:39Z at site v0.1.1709; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `DAT.CO` | 120 |
 | `DAT.EV` | 259 |
-| `DAT.ORG` | 488 |
+| `DAT.ORG` | 490 |
 | `DAT.PE` | 295 |
 | `DAT.PL` | 115 |
 | `DAT.TOP` | 17 |
@@ -45,11 +45,11 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 
 Newest five accessions:
 
+- `ACC-20261117-0259` [Priberam](https://promptugal.news/organisations/priberam/) (`DAT.ORG priberam`)
+- `ACC-20261117-0258` [NeuralShift](https://promptugal.news/organisations/neuralshift/) (`DAT.ORG neuralshift`)
 - `ACC-20261117-0242` [Vila TV - A realidade começa aqui](https://promptugal.news/media/vila-tv-a-realidade-comeca-aqui/) (`PUB.SITE vila-tv-a-realidade-comeca-aqui`)
 - `ACC-20261117-0241` [Viana TV](https://promptugal.news/media/viana-tv/) (`PUB.SITE viana-tv`)
 - `ACC-20261117-0240` [Viana ao Minuto](https://promptugal.news/media/viana-ao-minuto/) (`PUB.SITE viana-ao-minuto`)
-- `ACC-20261117-0239` [Via Rápida](https://promptugal.news/media/via-rapida/) (`PUB.SITE via-rapida`)
-- `ACC-20261117-0238` [Tribuna da Madeira](https://promptugal.news/media/tribuna-da-madeira/) (`PUB.SITE tribuna-da-madeira`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

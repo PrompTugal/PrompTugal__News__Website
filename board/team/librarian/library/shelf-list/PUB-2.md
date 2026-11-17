@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: PUB, The publication (part 2 of 15)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T06:58:43Z"
-site_version: "v0.1.1699"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T09:59:39Z"
+site_version: "v0.1.1709"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 2 of 15)
 
-100 cards, from `PUB.LIST topics` to `PUB.NEWS algar-ai-recycling-points-almancil`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.LIST topics` to `PUB.NEWS alcoutim-council-in-a-weeding-robot-project`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 101 to 125**
 
@@ -113,6 +113,7 @@ source: board/catalogue.json
 | `PUB.NEWS S65` | [S65: Loulé agency 3WX launches Best Number One, a free start page](https://promptugal.news/newsroom/stories/S65/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S66` | [S66: Neuraspace of Coimbra raises 15.6 million euros for AI space software](https://promptugal.news/newsroom/stories/S66/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S67` | [S67: Portugal's Center for Responsible AI: the money, partners and goals](https://promptugal.news/newsroom/stories/S67/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
+| `PUB.NEWS S68` | [S68: Update: the Center for Responsible AI's chief executive gives a status](https://promptugal.news/newsroom/stories/S68/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S7` | [S7: The Portugal banner: awards, funding and the Algarve's plan](https://promptugal.news/newsroom/stories/S7/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S8` | [S8: Técnico brings robots and six spin-offs to Web Summit](https://promptugal.news/newsroom/stories/S8/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S9` | [S9: About 200 Brazilian companies come to Lisbon for Web Summit](https://promptugal.news/newsroom/stories/S9/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `PUB.NEWS agents` | [The agents](https://promptugal.news/newsroom/agents/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS alcoutim-ai-path-runs-through-the-guadiana` | [alcoutim-ai-path-runs-through-the-guadiana: Alcoutim has no AI company, but the road is being built](https://promptugal.news/newsroom/stories/alcoutim-ai-path-runs-through-the-guadiana/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS alcoutim-council-in-a-weeding-robot-project` | [alcoutim-council-in-a-weeding-robot-project: Alcoutim's council is a partner in an AI weeding robot project](https://promptugal.news/newsroom/stories/alcoutim-council-in-a-weeding-robot-project/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS algar-ai-recycling-points-almancil` | [algar-ai-recycling-points-almancil: Almancil waste firm uses AI to site recycling points](https://promptugal.news/newsroom/stories/algar-ai-recycling-points-almancil/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-1.md) | [Next part](PUB-3.md)

@@ -51,3 +51,9 @@ See `board/budgets.json` `restart_2026-11-16`. The one gap: a sibling session ca
 - **Costs** (ledger 06:52): 164.40 API-equivalent since the restart in about 11 h 20 min (+35.31 in three hours; restarted sessions 145.12, conductor.b@ 19.28). Past a day's line, captured, nothing stops (the window spans two UTC days): researcher@ and place.districts@ (Sonnet, line 10). Highest after them: security@ 14.76, dev@ 14.25, designer@ 13.57 (Opus, line 30).
 - **work/ branches** not on dev: old seven unchanged (133 to 31); place.districts 24, researcher 17, dev.places 16, place.algarve.west 12, datasci.places 12, designer.places 9, place.algarve.east 7. The review backlog grows on place.districts@ and researcher@; for the reviewers.
 - **Debriefs owed from 16 Nov:** now only researcher@ (8 Nov) and sherpa@ (12 Nov); conductor.b@ and ontologist@ have filed.
+
+## Wake of 09:56 UTC, 17 November (sixth run)
+- **Map:** v0.1.1709, 2,032 pages, 1,563 board files; life map 95 agents, 216 keys (122 active); library 7,707 cards, check OK. One library test failed on the first run and passed on the re-run (43 of 43): it ran straight after the rebuild; if it recurs, run the tests before the build.
+- **Costs** (ledger 09:50): 187.28 API-equivalent since the restart in about 14 h 20 min (+22.88 in three hours, slowing; restarted sessions 166.27, conductor.b@ 21.01). Past a day's line, captured: place.districts@ and researcher@ (13.98). Opus roles: security@ 17.07, designer@ 16.17, dev@ 15.98 of 30.
+- **work/ branches** not on dev: old seven unchanged; place.districts 25, dev.places 19, researcher 18, place.algarve.west 15, datasci.places 15, designer.places 10, place.algarve.east 8, place.algarve.central 6, translator 5. Growing: no review round seen on these since 06:56.
+- **Debriefs owed from 16 Nov:** researcher@ and sherpa@ (unchanged).

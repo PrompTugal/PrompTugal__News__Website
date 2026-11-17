@@ -1,8 +1,8 @@
 ---
 title: "The finding aids of the library"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T06:58:43Z"
-site_version: "v0.1.1699"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T09:59:39Z"
+site_version: "v0.1.1709"
 source: board/catalogue.json
 ---
 
@@ -15,14 +15,14 @@ A **finding aid** (a short guide to one collection: what is in it and where to s
 | Collection | Class | Cards |
 |---|---|---|
 | [Build, code and release](BLD.md) | `BLD` | 5 |
-| [Data and the ontology](DAT.md) | `DAT` | 1294 |
+| [Data and the ontology](DAT.md) | `DAT` | 1296 |
 | [Evidence and sources](EVD.md) | `EVD` | 1 |
 | [Guidance (special)](GDN.md) | `GDN` | 652 |
 | [The repository](GEN.md) | `GEN` | 44 |
 | [The library](LIB.md) | `LIB` | 358 |
-| [The publication](PUB.md) | `PUB` | 1466 |
+| [The publication](PUB.md) | `PUB` | 1468 |
 | [Readers and observability](RDR.md) | `RDR` | 43 |
-| [Agents, roles, keys](TEAM.md) | `TEAM` | 3447 |
+| [Agents, roles, keys](TEAM.md) | `TEAM` | 3453 |
 | [Work in hand](WRK.md) | `WRK` | 387 |
 
 ## Passes

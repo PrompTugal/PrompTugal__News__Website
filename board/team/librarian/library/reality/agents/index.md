@@ -27,28 +27,28 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-3483 cards (1194 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-17T06:58:43Z at site v0.1.1699; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+3489 cards (1200 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-17T09:59:39Z at site v0.1.1709; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `RDR.SHERPA` | 31 |
 | `RDR.SYN` | 5 |
-| `TEAM.ABP` | 111 |
+| `TEAM.ABP` | 114 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
 | `TEAM.INBOX` | 162 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 1934 |
+| `TEAM.ROLE` | 1937 |
 | `TEAM.RUN` | 1208 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261117-0257` [dev@'s review of work/dev.places, 17 November 2026, about 06:15 UTC](https://promptugal.news/board/team/dev.places/review-2026-11-17T0615Z.md) (`TEAM.ROLE review-2026-11-17T0615Z`)
-- `ACC-20261117-0256` [dev@'s review of work/dev.places, 17 November 2026, about 05:15 UTC](https://promptugal.news/board/team/dev.places/review-2026-11-17T0515Z.md) (`TEAM.ROLE review-2026-11-17T0515Z`)
-- `ACC-20261117-0255` [Portimao, Lagoa, Silves: read 17 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-17/portimao-lagoa-silves.md) (`TEAM.ROLE portimao-lagoa-silves`)
-- `ACC-20261117-0254` [Aljezur, Monchique, Vila do Bispo: nothing new on 17 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-17/others.md) (`TEAM.ROLE others`)
-- `ACC-20261117-0253` [Lagos: read 17 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-17/lagos.md) (`TEAM.ROLE lagos:2`)
+- `ACC-20261117-0267` [dev@'s review of work/dev.places, 17 November 2026, about 07:15 UTC](https://promptugal.news/board/team/dev.places/review-2026-11-17T0715Z.md) (`TEAM.ROLE review-2026-11-17T0715Z`)
+- `ACC-20261117-0266` [Two open leads, read 17 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-17/regional-ualg-and-hospital.md) (`TEAM.ROLE regional-ualg-and-hospital`)
+- `ACC-20261117-0265` [security@ wake, 17 November 2026, 08:05 UTC](https://promptugal.news/board/team/security/reviews/2026-11-17-0805-wake.md) (`TEAM.ROLE 2026-11-17-0805-wake`)
+- `ACC-20261117-0264` [ABP report, 17 November 09:37 UTC: Vicky's reviewer edits a published article](https://promptugal.news/board/abp/reports/2026-11-17-0937.md) (`TEAM.ABP 2026-11-17-0937`)
+- `ACC-20261117-0263` [ABP report, 17 November 08:37 UTC: clean](https://promptugal.news/board/abp/reports/2026-11-17-0837.md) (`TEAM.ABP 2026-11-17-0837`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: PUB, The publication (part 12 of 15)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T06:58:43Z"
-site_version: "v0.1.1699"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T09:59:39Z"
+site_version: "v0.1.1709"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 12 of 15)
 
-100 cards, from `PUB.SITE portimao:8` to `PUB.SITE radio-azul`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE portimao:6` to `PUB.SITE radio-alto-minho`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1101 to 1125**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE portimao:6` | [PrompTugal.news Portimão](https://promptugal.news/es-ES/algarve/portimao/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE portimao:7` | [PrompTugal.news Portimão](https://promptugal.news/es-MX/algarve/portimao/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE portimao:8` | [PrompTugal.news Portimão](https://promptugal.news/fr-CA/algarve/portimao/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE portimao:9` | [PrompTugal.news Portimão](https://promptugal.news/fr-FR/algarve/portimao/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE porto` | [The proof layer: Porto](https://promptugal.news/agentic-system/proof/porto/) | site |  |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `PUB.SITE portugal:3` | [Portugal: AI in context](https://promptugal.news/query/decks/portugal/) | site |  |
 | `PUB.SITE portugal:4` | [Portugal: the data](https://promptugal.news/query/portugal/) | site |  |
 | `PUB.SITE pplware` | [Pplware](https://promptugal.news/media/pplware/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE pressnet` | [Pressnet](https://promptugal.news/media/pressnet/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE profile` | [Your profile](https://promptugal.news/profile/) | site | dev@ 6 Nov 2026 |
 
 **Cards 1126 to 1150**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE pressnet` | [Pressnet](https://promptugal.news/media/pressnet/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE profile` | [Your profile](https://promptugal.news/profile/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE proof` | [The proof layer: every story's chain of custody](https://promptugal.news/agentic-system/proof/) | site | viz.places@ 16 Nov 2026 |
 | `PUB.SITE provenance` | [Albufeira: provenance](https://promptugal.news/query/albufeira/provenance/) | site |  |
 | `PUB.SITE provenance:10` | [Castro Marim: provenance](https://promptugal.news/query/castro-marim/provenance/) | site |  |
@@ -67,13 +69,13 @@ source: board/catalogue.json
 | `PUB.SITE provenance:27` | [Santarém: provenance](https://promptugal.news/query/santarem/provenance/) | site |  |
 | `PUB.SITE provenance:28` | [São Brás de Alportel: provenance](https://promptugal.news/query/sao-bras-de-alportel/provenance/) | site |  |
 | `PUB.SITE provenance:29` | [Setúbal: provenance](https://promptugal.news/query/setubal/provenance/) | site |  |
-| `PUB.SITE provenance:3` | [The Algarve: provenance](https://promptugal.news/query/algarve/provenance/) | site |  |
-| `PUB.SITE provenance:30` | [Silves: provenance](https://promptugal.news/query/silves/provenance/) | site |  |
 
 **Cards 1151 to 1175**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE provenance:3` | [The Algarve: provenance](https://promptugal.news/query/algarve/provenance/) | site |  |
+| `PUB.SITE provenance:30` | [Silves: provenance](https://promptugal.news/query/silves/provenance/) | site |  |
 | `PUB.SITE provenance:31` | [Tavira: provenance](https://promptugal.news/query/tavira/provenance/) | site |  |
 | `PUB.SITE provenance:32` | [Viana do Castelo: provenance](https://promptugal.news/query/viana-do-castelo/provenance/) | site |  |
 | `PUB.SITE provenance:33` | [Vila do Bispo: provenance](https://promptugal.news/query/vila-do-bispo/provenance/) | site |  |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `PUB.SITE pt:6` | [PrompTugal: o que o torna possível](https://promptugal.news/investors/decks/6-the-technology/pt/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE pt:7` | [PrompTugal: junte-se a nós](https://promptugal.news/investors/decks/7-join-us/pt/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE pt:8` | [PrompTugal: fazer por conta própria](https://promptugal.news/investors/decks/8-do-it-yourself/pt/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE pt:9` | [PrompTugal: o que está no ar, uma visita guiada](https://promptugal.news/investors/decks/9-the-tour/pt/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE publico` | [PÚBLICO](https://promptugal.news/media/publico/) | site | dev.places@ 16 Nov 2026 |
 
 **Cards 1176 to 1200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE pt:9` | [PrompTugal: o que está no ar, uma visita guiada](https://promptugal.news/investors/decks/9-the-tour/pt/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE publico` | [PÚBLICO](https://promptugal.news/media/publico/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE publishers` | [Las noticias se estancaron. He aquí una salida que funciona.](https://promptugal.news/investors/es/publishers/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE publishers:2` | [L'information s'est enlisée. Voici une issue qui fonctionne.](https://promptugal.news/investors/fr/publishers/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE publishers:3` | [As notícias ficaram encalhadas. Eis uma saída que funciona.](https://promptugal.news/investors/pt/publishers/) | site | investors@ 7 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE radio-afifense` | [Rádio Afifense](https://promptugal.news/media/radio-afifense/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE radio-altitude` | [Rádio Altitude](https://promptugal.news/media/radio-altitude/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE radio-alto-minho` | [Rádio Alto Minho](https://promptugal.news/media/radio-alto-minho/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-atlantida` | [Rádio Atlântida](https://promptugal.news/media/radio-atlantida/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-azul` | [Rádio Azul](https://promptugal.news/media/radio-azul/) | site | dev.places@ 16 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-11.md) | [Next part](PUB-13.md)

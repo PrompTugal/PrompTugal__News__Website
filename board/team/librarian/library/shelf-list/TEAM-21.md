@@ -1,19 +1,25 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 21 of 35)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T06:58:43Z"
-site_version: "v0.1.1699"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T09:59:39Z"
+site_version: "v0.1.1709"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 21 of 35)
 
-100 cards, from `TEAM.ROLE status:5` to `TEAM.ROLE verified-block:11`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ROLE status:44` to `TEAM.ROLE variant`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 2001 to 2025**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE status:44` | [status.json](https://promptugal.news/board/team/place.lagoa/status.json) | team | place.lagoa@ 15 Nov 2026 |
+| `TEAM.ROLE status:45` | [status.json](https://promptugal.news/board/team/place.lagos/status.json) | team | place.lagos@ 15 Nov 2026 |
+| `TEAM.ROLE status:46` | [status.json](https://promptugal.news/board/team/place.loule/status.json) | team | place.loule@ 15 Nov 2026 |
+| `TEAM.ROLE status:47` | [status.json](https://promptugal.news/board/team/place.monchique/status.json) | team | place.monchique@ 15 Nov 2026 |
+| `TEAM.ROLE status:48` | [status.json](https://promptugal.news/board/team/place.olhao/status.json) | team | place.olhao@ 15 Nov 2026 |
+| `TEAM.ROLE status:49` | [status.json](https://promptugal.news/board/team/place.portimao/status.json) | team | place.portimao@ 15 Nov 2026 |
 | `TEAM.ROLE status:5` | [status.json](https://promptugal.news/board/team/correspondent/status.json) | team | correspondent@ 6 Nov 2026 |
 | `TEAM.ROLE status:50` | [status.json](https://promptugal.news/board/team/place.portugal/status.json) | team | place.portugal@ 15 Nov 2026 |
 | `TEAM.ROLE status:51` | [status.json](https://promptugal.news/board/team/place.quarteira/status.json) | team | place.quarteira@ 15 Nov 2026 |
@@ -33,17 +39,17 @@ source: board/catalogue.json
 | `TEAM.ROLE summit` | [summit.jpg](https://promptugal.news/board/team/investors/decks/shots/summit.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE synthetic` | [First prompt for synthetic@PrompTugal.dinis on account B (conductor.b@ starts it; Opus; every two hours, cron `44 */2 * * *` or its two-hourly form)](https://promptugal.news/board/team/conductor/account-move/synthetic.md) | team | conductor@ 6 Nov 2026 |
 | `TEAM.ROLE talent-algarve` | [talent-algarve.jpg](https://promptugal.news/board/team/investors/decks/img/talent-algarve.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
+
+**Cards 2026 to 2050**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE talk-drain` | [How the conductor drains the readers' comments (the talk pane)](https://promptugal.news/board/team/conductor/talk-drain.md) | team | conductor@ 16 Nov 2026 |
 | `TEAM.ROLE thanks` | [thanks.tpl](https://promptugal.news/board/team/investors/site/tpl/thanks.tpl) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE the-categories` | [the-categories.json](https://promptugal.news/board/team/work-desk/traces/the-categories.json) | team | reporter.newsroom@ 11 Nov 2026 |
 | `TEAM.ROLE the-categories:2` | [the-categories.json](https://promptugal.news/board/team/work-desk/traces/the-categories.md) | team | reporter.newsroom@ 11 Nov 2026 |
 | `TEAM.ROLE the-categories:3` | [the-categories.mmd](https://promptugal.news/board/team/journalist.newsroom/materials/the-categories/the-categories.mmd) | team | journalist.newsroom@ 11 Nov 2026 |
 | `TEAM.ROLE the-categories:4` | [Eight categories in 65 minutes: how a person and her agents reorganised a newsroom at midnight](https://promptugal.news/board/team/journalist.newsroom/stories/the-categories.md) | team | journalist.newsroom@ 11 Nov 2026 |
-
-**Cards 2026 to 2050**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE the-discovery` | [the-discovery.json](https://promptugal.news/board/team/work-desk/traces/the-discovery.json) | team | reporter.newsroom@ 11 Nov 2026 |
 | `TEAM.ROLE the-discovery:2` | [the-discovery.json](https://promptugal.news/board/team/work-desk/traces/the-discovery.md) | team | reporter.newsroom@ 11 Nov 2026 |
 | `TEAM.ROLE the-discovery:3` | [the-discovery.mmd](https://promptugal.news/board/team/journalist.newsroom/materials/the-discovery/the-discovery.mmd) | team | journalist.newsroom@ 11 Nov 2026 |
@@ -63,17 +69,17 @@ source: board/catalogue.json
 | `TEAM.ROLE the-stale-page:3` | [the-stale-page.mmd](https://promptugal.news/board/team/journalist.newsroom/materials/the-stale-page/the-stale-page.mmd) | team | journalist.newsroom@ 11 Nov 2026 |
 | `TEAM.ROLE the-stale-page:4` | [An old page, two developers, two accounts: the fix that waited for its owner](https://promptugal.news/board/team/journalist.newsroom/stories/the-stale-page.md) | team | journalist.newsroom@ 11 Nov 2026 |
 | `TEAM.ROLE the-storm` | [the-storm.mmd](https://promptugal.news/board/team/work-desk/materials/the-storm/the-storm.mmd) | team | journalist.newsroom@ 10 Nov 2026 |
+
+**Cards 2051 to 2075**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE the-storm:2` | [How a team of agents covered the storm](https://promptugal.news/board/team/work-desk/stories/the-storm.md) | team | journalist.newsroom@ 10 Nov 2026 |
 | `TEAM.ROLE the-storm:3` | [the-storm.json](https://promptugal.news/board/team/work-desk/traces/the-storm.json) | team | reporter.newsroom@ 10 Nov 2026 |
 | `TEAM.ROLE the-storm:4` | [the-storm.json](https://promptugal.news/board/team/work-desk/traces/the-storm.md) | team | reporter.newsroom@ 10 Nov 2026 |
 | `TEAM.ROLE the-storm:5` | [the-storm.mmd](https://promptugal.news/board/team/journalist.newsroom/materials/the-storm/the-storm.mmd) | team | journalist.newsroom@ 10 Nov 2026 |
 | `TEAM.ROLE the-storm:6` | [How a team of agents covered the storm](https://promptugal.news/board/team/journalist.newsroom/stories/the-storm.md) | team | journalist.newsroom@ 10 Nov 2026 |
 | `TEAM.ROLE the-terms` | [the-terms.json](https://promptugal.news/board/team/work-desk/traces/the-terms.json) | team | reporter.newsroom@ 11 Nov 2026 |
-
-**Cards 2051 to 2075**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE the-terms:2` | [the-terms.json](https://promptugal.news/board/team/work-desk/traces/the-terms.md) | team | reporter.newsroom@ 11 Nov 2026 |
 | `TEAM.ROLE the-terms:3` | [the-terms.mmd](https://promptugal.news/board/team/journalist.newsroom/materials/the-terms/the-terms.mmd) | team | journalist.newsroom@ 11 Nov 2026 |
 | `TEAM.ROLE the-terms:4` | [An agent reads the terms: how one desk's finding became a rule for twelve agents and four platforms](https://promptugal.news/board/team/journalist.newsroom/stories/the-terms.md) | team | journalist.newsroom@ 11 Nov 2026 |
@@ -93,17 +99,17 @@ source: board/catalogue.json
 | `TEAM.ROLE tm` | [tm.mjs](https://promptugal.news/board/team/translator/tools/tm.mjs) | team | translator@ 16 Nov 2026 |
 | `TEAM.ROLE to-dev.places-2026-11-15` | [For dev.places@: the site-identity check in the gate](https://promptugal.news/board/team/abp/to-dev.places-2026-11-15.md) | team | abp@ 15 Nov 2026 |
 | `TEAM.ROLE tour-account` | [tour-account.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-account.jpg) | team | investors@ 7 Nov 2026 |
+
+**Cards 2076 to 2100**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE tour-article` | [tour-article.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-article.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-article-sources` | [tour-article-sources.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-article-sources.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-ask` | [tour-ask.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-ask.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-company` | [tour-company.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-company.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-decisions` | [tour-decisions.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-decisions.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-graph` | [tour-graph.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-graph.jpg) | team | investors@ 7 Nov 2026 |
-
-**Cards 2076 to 2100**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE tour-home` | [tour-home.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-home.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-home-full` | [tour-home-full.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-home-full.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE tour-investors` | [tour-investors.jpg](https://promptugal.news/board/team/investors/decks/shots/tour-investors.jpg) | team | investors@ 7 Nov 2026 |
@@ -123,11 +129,5 @@ source: board/catalogue.json
 | `TEAM.ROLE trace-to-materials:2` | [trace-to-materials.mjs](https://promptugal.news/board/team/journalist.newsroom/materials/the-storm/code/trace-to-materials.mjs) | team | journalist.newsroom@ 10 Nov 2026 |
 | `TEAM.ROLE transcript_extract` | [transcript_extract.py](https://promptugal.news/board/team/security/tools/transcript_extract.py) | team | security@ 6 Nov 2026 |
 | `TEAM.ROLE variant` | [variant.mjs](https://promptugal.news/board/team/translator/tools/variant.mjs) | team | translator@ 16 Nov 2026 |
-| `TEAM.ROLE vault` | [vault.jpg](https://promptugal.news/board/team/investors/decks/shots/vault.jpg) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE vaults` | [vaults.json](https://promptugal.news/board/team/designer/vaults.json) | team | designer@ 6 Nov 2026 |
-| `TEAM.ROLE verified` | [verified.json](https://promptugal.news/board/team/dev.verify/records/brazil-startup-mission/verified.json) (withdrawn) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified-block` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/brazil-startup-mission/verified-block.md) (withdrawn) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified-block:10` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/web-summit-2026-in-numbers/verified-block.md) (withdrawn) | team | dev@ 6 Nov 2026 |
-| `TEAM.ROLE verified-block:11` | [verified-block.md](https://promptugal.news/board/team/dev.verify/records/your-first-day-at-web-summit/verified-block.md) (withdrawn) | team | dev@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-20.md) | [Next part](TEAM-22.md)

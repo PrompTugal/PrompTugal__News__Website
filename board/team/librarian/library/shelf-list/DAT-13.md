@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 13 of 13)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T06:58:43Z"
-site_version: "v0.1.1699"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T09:59:39Z"
+site_version: "v0.1.1709"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 13 of 13)
 
-94 cards, from `DAT.PL humberto-delgado-airport-terminal-1` to `DAT.TOP the-summit`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+96 cards, from `DAT.PL guarda` to `DAT.TOP the-summit`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1201 to 1225**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL guarda` | [Guarda](https://promptugal.news/places/guarda/) | place | ontologist@ 16 Nov 2026 |
+| `DAT.PL hotel-pestana-alvor-praia` | [Hotel Pestana Alvor Praia](https://promptugal.news/places/hotel-pestana-alvor-praia/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL humberto-delgado-airport-terminal-1` | [Humberto Delgado Airport, Terminal 1](https://promptugal.news/places/humberto-delgado-airport-terminal-1/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL hungary` | [Hungary](https://promptugal.news/places/hungary/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL ibm-portugal` | [IBM Portugal](https://promptugal.news/places/ibm-portugal/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `DAT.PL meetup-1` | [Meetup 1](https://promptugal.news/places/meetup-1/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL meetup-2` | [Meetup 2](https://promptugal.news/places/meetup-2/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL meetup-3` | [Meetup 3](https://promptugal.news/places/meetup-3/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL meetup-4` | [Meetup 4](https://promptugal.news/places/meetup-4/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL meetup-5` | [Meetup 5](https://promptugal.news/places/meetup-5/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 1226 to 1250**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL meetup-4` | [Meetup 4](https://promptugal.news/places/meetup-4/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL meetup-5` | [Meetup 5](https://promptugal.news/places/meetup-5/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL meetup-6` | [Meetup 6](https://promptugal.news/places/meetup-6/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL meo-arena-and-fil` | [MEO Arena and FIL](https://promptugal.news/places/meo-arena-and-fil/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL monchique` | [Monchique](https://promptugal.news/places/monchique/) | place | ontologist@ 16 Nov 2026 |
@@ -67,13 +69,13 @@ source: board/catalogue.json
 | `DAT.PL rua-das-portas-de-santo-antao` | [Rua das Portas de Santo Antão](https://promptugal.news/places/rua-das-portas-de-santo-antao/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL santarem` | [Santarém](https://promptugal.news/places/santarem/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL sao-bras-de-alportel` | [São Brás de Alportel](https://promptugal.news/places/sao-bras-de-alportel/) | place | ontologist@ 16 Nov 2026 |
-| `DAT.PL setubal` | [Setúbal](https://promptugal.news/places/setubal/) | place | ontologist@ 16 Nov 2026 |
-| `DAT.PL silves` | [Silves](https://promptugal.news/places/silves/) | place | ontologist@ 16 Nov 2026 |
 
 **Cards 1251 to 1275**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL setubal` | [Setúbal](https://promptugal.news/places/setubal/) | place | ontologist@ 16 Nov 2026 |
+| `DAT.PL silves` | [Silves](https://promptugal.news/places/silves/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL singapore` | [Singapore](https://promptugal.news/places/singapore/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL social-club` | [Social Club](https://promptugal.news/places/social-club/) (withdrawn) | place | ontologist@ 9 Nov 2026 |
 | `DAT.PL soul-kitchen-and-bar` | [Soul kitchen & bar](https://promptugal.news/places/soul-kitchen-and-bar/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `DAT.PL united-kingdom` | [United Kingdom](https://promptugal.news/places/united-kingdom/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL united-states` | [United States](https://promptugal.news/places/united-states/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL viana-do-castelo` | [Viana do Castelo](https://promptugal.news/places/viana-do-castelo/) | place | ontologist@ 16 Nov 2026 |
-| `DAT.PL vila-do-bispo` | [Vila do Bispo](https://promptugal.news/places/vila-do-bispo/) | place | ontologist@ 16 Nov 2026 |
-| `DAT.PL vila-real` | [Vila Real](https://promptugal.news/places/vila-real/) | place | ontologist@ 16 Nov 2026 |
 
-**Cards 1276 to 1294**
+**Cards 1276 to 1296**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL vila-do-bispo` | [Vila do Bispo](https://promptugal.news/places/vila-do-bispo/) | place | ontologist@ 16 Nov 2026 |
+| `DAT.PL vila-real` | [Vila Real](https://promptugal.news/places/vila-real/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL vila-real-de-santo-antonio` | [Vila Real de Santo António](https://promptugal.news/places/vila-real-de-santo-antonio/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL viseu` | [Viseu](https://promptugal.news/places/viseu/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.TOP ai` | [Artificial intelligence](https://promptugal.news/topics/ai/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |

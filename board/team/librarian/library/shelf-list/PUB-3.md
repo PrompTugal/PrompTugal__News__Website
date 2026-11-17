@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: PUB, The publication (part 3 of 15)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T06:58:43Z"
-site_version: "v0.1.1699"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T09:59:39Z"
+site_version: "v0.1.1709"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 3 of 15)
 
-100 cards, from `PUB.NEWS algarve-farms-become-ai-and-robot-test-beds` to `PUB.SITE 2026-11-07`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.NEWS algar-ai-recycling-points-almancil` to `PUB.SITE 2-the-industry`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 201 to 225**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.NEWS algar-ai-recycling-points-almancil` | [algar-ai-recycling-points-almancil: Almancil waste firm uses AI to site recycling points](https://promptugal.news/newsroom/stories/algar-ai-recycling-points-almancil/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS algarve-farms-become-ai-and-robot-test-beds` | [algarve-farms-become-ai-and-robot-test-beds: Two Algarve farms will test farm robots and AI](https://promptugal.news/newsroom/stories/algarve-farms-become-ai-and-robot-test-beds/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS algarve-tourism-ai-funded-pilot-and-agentic-warning` | [algarve-tourism-ai-funded-pilot-and-agentic-warning: Algarve tourism gets free AI help and a booking warning](https://promptugal.news/newsroom/stories/algarve-tourism-ai-funded-pilot-and-agentic-warning/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS algarve-v0-1-280` | [Before and after, v0.1.280: Algarve Evolution as a mini-site](https://promptugal.news/newsroom/design/algarve-v0-1-280/) | newsroom | designer@ 6 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `PUB.NEWS desks` | [What the desks are doing](https://promptugal.news/newsroom/desks/) | newsroom | dev@ 6 Nov 2026 |
 | `PUB.NEWS dev-promptugal` | [dev@PrompTugal.dinis](https://promptugal.news/newsroom/agents/dev-promptugal.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS devops-promptugal` | [devops@PrompTugal.dinis](https://promptugal.news/newsroom/agents/devops-promptugal.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS faro-ai-gathers-around-the-university` | [faro-ai-gathers-around-the-university: In Faro, the AI gathers around the university](https://promptugal.news/newsroom/stories/faro-ai-gathers-around-the-university/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 
 **Cards 226 to 250**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.NEWS faro-ai-gathers-around-the-university` | [faro-ai-gathers-around-the-university: In Faro, the AI gathers around the university](https://promptugal.news/newsroom/stories/faro-ai-gathers-around-the-university/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS front-page-round-1` | [Before and after: the front page, round 1 (on v0.1.138)](https://promptugal.news/newsroom/design/front-page-round-1/) | newsroom | designer@ 6 Nov 2026 |
 | `PUB.NEWS front-page-round-2` | [Before and after: the front page, round 2](https://promptugal.news/newsroom/design/front-page-round-2/) | newsroom | designer@ 6 Nov 2026 |
 | `PUB.NEWS google-workspace` | [google-workspace: Agents on Google Workspace, step by step](https://promptugal.news/newsroom/stories/google-workspace/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `PUB.NEWS newsroom-dinis` | [newsroom@web-summit.dinis](https://promptugal.news/newsroom/agents/newsroom-dinis.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS newsroom-graph-dinis` | [newsroom-graph@web-summit.dinis](https://promptugal.news/newsroom/agents/newsroom-graph-dinis.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS newsroom-interact-dinis` | [newsroom-interact@web-summit.dinis](https://promptugal.news/newsroom/agents/newsroom-interact-dinis.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS newsroom-status-four-days-out` | [newsroom-status-four-days-out: The newsroom four days out, in pictures](https://promptugal.news/newsroom/stories/newsroom-status-four-days-out/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 
 **Cards 251 to 275**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.NEWS newsroom-status-four-days-out` | [newsroom-status-four-days-out: The newsroom four days out, in pictures](https://promptugal.news/newsroom/stories/newsroom-status-four-days-out/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS notes` | [Newsroom notes](https://promptugal.news/newsroom/notes/) | newsroom | dev@ 6 Nov 2026 |
 | `PUB.NEWS observability` | [Observability: who reads what, and which agents ran](https://promptugal.news/newsroom/observability/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS observability-promptugal` | [observability@PrompTugal.dinis](https://promptugal.news/newsroom/agents/observability-promptugal.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
@@ -98,17 +99,18 @@ source: board/catalogue.json
 | `PUB.NEWS six-people-250-agents-promptugal-news` | [six-people-250-agents-promptugal-news: Six people and 250 agents: the team behind PrompTugal.news](https://promptugal.news/newsroom/stories/six-people-250-agents-promptugal-news/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS stories` | [The story board](https://promptugal.news/newsroom/stories/) | newsroom | dev@ 6 Nov 2026 |
 | `PUB.NEWS summit-days-round-1` | [Before and after: the summit's days, round 1](https://promptugal.news/newsroom/design/summit-days-round-1/) | newsroom | designer@ 6 Nov 2026 |
-| `PUB.NEWS synthetic` | [Synthetic readers](https://promptugal.news/newsroom/synthetic.html) | newsroom | synthetic@ 6 Nov 2026 |
 
 **Cards 276 to 300**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.NEWS synthetic` | [Synthetic readers](https://promptugal.news/newsroom/synthetic.html) | newsroom | synthetic@ 6 Nov 2026 |
 | `PUB.NEWS synthetic-promptugal` | [synthetic@PrompTugal.dinis](https://promptugal.news/newsroom/agents/synthetic-promptugal.html) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS synthetic-round-1` | [Before and after: the synthetic readers page, tiles and cards](https://promptugal.news/newsroom/design/synthetic-round-1/) | newsroom | designer@ 6 Nov 2026 |
 | `PUB.NEWS the-design-flip` | [Decided: the design flip for the agentic edition, three Portuguese directions](https://promptugal.news/newsroom/design/decisions/the-design-flip/) | newsroom | designer@ 10 Nov 2026 |
 | `PUB.NEWS the-first-night-of-promptugal-news` | [the-first-night-of-promptugal-news: The first night of PrompTugal.news, set up by people and agents](https://promptugal.news/newsroom/stories/the-first-night-of-promptugal-news/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS the-front-page` | [Decided: the front page (A, the newspaper, or C, the briefing first)](https://promptugal.news/newsroom/design/decisions/the-front-page/) | newsroom | designer@ 6 Nov 2026 |
+| `PUB.NEWS the-home-live-panel` | [A PT decision: the live data on the home page](https://promptugal.news/newsroom/design/decisions/the-home-live-panel/) | newsroom | designer@ 17 Nov 2026 |
 | `PUB.NEWS the-list-pages` | [Decided: how the companies, articles and people pages open](https://promptugal.news/newsroom/design/decisions/the-list-pages/) | newsroom | designer@ 6 Nov 2026 |
 | `PUB.NEWS the-name` | [the-name: How we found our name](https://promptugal.news/newsroom/stories/the-name/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS the-summit-days` | [Decided: the summit's days (the strip, the past and future days, and how one day reads)](https://promptugal.news/newsroom/design/decisions/the-summit-days/) | newsroom | designer@ 6 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE 0-the-map` | [PrompTugal: the map of the decks](https://promptugal.news/investors/decks/0-the-map/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE 1-the-investment-case` | [PrompTugal: the investment case](https://promptugal.news/investors/decks/1-the-investment-case/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE 2-the-industry` | [PrompTugal: the industry, and the right direction](https://promptugal.news/investors/decks/2-the-industry/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE 2026-11-06` | [Friday 6 November: what was on](https://promptugal.news/days/2026-11-06/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE 2026-11-07` | [Saturday 7 November: what was on](https://promptugal.news/days/2026-11-07/) | site | dev@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-2.md) | [Next part](PUB-4.md)
