@@ -1,0 +1,60 @@
+{
+ "id": "noticias-de-aveiro",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Notícias de Aveiro",
+ "names_as_listed": [
+  "Notícias de Aveiro"
+ ],
+ "media_kind": "online",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://www.noticiasdeaveiro.pt",
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://www.noticiasdeaveiro.pt/feed/",
+   "checked": "HTTP 200, text/xml;charset=UTF-8, XML feed body",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "contact_page_url": "https://www.noticiasdeaveiro.pt/contactos/",
+ "places_covered": [
+  {
+   "place": "Aveiro (editorial seat per ERC register; Regional scope, Online, Diária)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "Notícias de Aveiro - Unipessoal, Lda",
+  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "read_at": "2026-11-17"
+ },
+ "people": [
+  {
+   "name": "Júlio Fernando Tavares de Almeida",
+   "role": "Director (ERC register)",
+   "beat": "direction (no beat stated)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127225 for 'Notícias de Aveiro', Registo Definitivo, row on the periodicals sheet; seat Aveiro, Aveiro; owner and direction as listed. Outlet email column deliberately not recorded here."
+  },
+  {
+   "url": "https://www.noticiasdeaveiro.pt/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read."
+  }
+ ],
+ "gaps": [
+  "Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read"
+ ]
+}

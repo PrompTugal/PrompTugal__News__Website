@@ -1,0 +1,46 @@
+{
+ "id": "a-guarda",
+ "type": "organisation",
+ "kind": "media",
+ "name": "A Guarda",
+ "names_as_listed": [
+  "A Guarda"
+ ],
+ "media_kind": "newspaper",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://www.jornalaguarda.com",
+ "places_covered": [
+  {
+   "place": "Guarda (editorial seat per ERC register; Regional scope, Papel, Semanal)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "Casa Véritas- Editora, Lda.",
+  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "read_at": "2026-11-17"
+ },
+ "people": [
+  {
+   "name": "Francisco Pereira Barbeira",
+   "role": "Director (ERC register)",
+   "beat": "direction (no beat stated)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 102150 for 'A Guarda', Registo Definitivo, row on the periodicals sheet; seat Guarda, Guarda; owner and direction as listed. Outlet email column deliberately not recorded here."
+  }
+ ],
+ "gaps": [
+  "Website listed in the ERC register did not return HTTP 200 from this environment (403); feed and contact not verified",
+  "Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read"
+ ]
+}

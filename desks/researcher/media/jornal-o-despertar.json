@@ -1,0 +1,60 @@
+{
+ "id": "jornal-o-despertar",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Jornal O Despertar",
+ "names_as_listed": [
+  "Jornal O Despertar"
+ ],
+ "media_kind": "newspaper",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://www.odespertar.pt",
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://www.odespertar.pt/feed/",
+   "checked": "HTTP 200, application/rss+xml, XML feed body",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "contact_page_url": "https://www.odespertar.pt/contactos/",
+ "places_covered": [
+  {
+   "place": "Coimbra (editorial seat per ERC register; Regional scope, Papel/Online, Semanal)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "António de Sousa (Herdeiros), Lda.",
+  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "read_at": "2026-11-17"
+ },
+ "people": [
+  {
+   "name": "Lino Vinhal",
+   "role": "Director (ERC register)",
+   "beat": "direction (no beat stated)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 100117 for 'Jornal O Despertar', Registo Definitivo, row on the periodicals sheet; seat Coimbra, Coimbra; owner and direction as listed. Outlet email column deliberately not recorded here."
+  },
+  {
+   "url": "https://www.odespertar.pt/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read."
+  }
+ ],
+ "gaps": [
+  "Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read"
+ ]
+}

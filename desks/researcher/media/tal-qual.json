@@ -1,0 +1,45 @@
+{
+ "id": "tal-qual",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Tal&Qual",
+ "names_as_listed": [
+  "Tal&Qual"
+ ],
+ "media_kind": "newspaper",
+ "reach": "national",
+ "language": "pt",
+ "places_covered": [
+  {
+   "place": "Porto (editorial seat per ERC register; Nacional scope, Papel, Semanal)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "Parem As Máquinas, Edições e Jornalismo, Lda.",
+  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "read_at": "2026-11-17"
+ },
+ "people": [
+  {
+   "name": "Liliana Adosinda Cardoso Macedo Rodrigues",
+   "role": "Director (ERC register)",
+   "beat": "direction (no beat stated)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127604 for 'Tal&Qual', Registo Definitivo, row on the periodicals sheet; seat Porto, Porto; owner and direction as listed. Outlet email column deliberately not recorded here."
+  }
+ ],
+ "gaps": [
+  "No website listed in the ERC register; site, feed and contact not looked up",
+  "Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read"
+ ]
+}

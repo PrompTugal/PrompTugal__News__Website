@@ -1,0 +1,46 @@
+{
+ "id": "tribuna-da-madeira",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Tribuna da Madeira",
+ "names_as_listed": [
+  "Tribuna da Madeira"
+ ],
+ "media_kind": "newspaper",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://www.tribunadamadeira.pt",
+ "places_covered": [
+  {
+   "place": "Funchal (editorial seat per ERC register; Regional scope, Papel/Online, Semanal)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "O.L.C. Unipessoal, Lda.",
+  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "read_at": "2026-11-17"
+ },
+ "people": [
+  {
+   "name": "Helena Sousa Aguiar",
+   "role": "Director (ERC register)",
+   "beat": "direction (no beat stated)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 123416 for 'Tribuna da Madeira', Registo Definitivo, row on the periodicals sheet; seat Funchal, Ilha da Madeira; owner and direction as listed. Outlet email column deliberately not recorded here."
+  }
+ ],
+ "gaps": [
+  "Website listed in the ERC register did not return HTTP 200 from this environment (403); feed and contact not verified",
+  "Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read"
+ ]
+}

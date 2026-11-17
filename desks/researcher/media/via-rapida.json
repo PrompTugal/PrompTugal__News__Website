@@ -1,0 +1,53 @@
+{
+ "id": "via-rapida",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Via Rápida",
+ "names_as_listed": [
+  "Via Rápida"
+ ],
+ "media_kind": "newspaper",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://www.jornalviarapida.com",
+ "contact_page_url": "https://www.jornalviarapida.com/contacto/",
+ "places_covered": [
+  {
+   "place": "Viseu (editorial seat per ERC register; Regional scope, Papel/Online, Quinzenal)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "José Correia Cardoso",
+  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "read_at": "2026-11-17"
+ },
+ "people": [
+  {
+   "name": "Teresa Cardoso",
+   "role": "Director (ERC register)",
+   "beat": "direction (no beat stated)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 117441 for 'Via Rápida', Registo Definitivo, row on the periodicals sheet; seat Viseu, Viseu; owner and direction as listed. Outlet email column deliberately not recorded here."
+  },
+  {
+   "url": "https://www.jornalviarapida.com/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read."
+  }
+ ],
+ "gaps": [
+  "No feed found at /feed/, /feed, /rss, /rss.xml, /index.xml (HTTP 200 XML check)",
+  "Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read"
+ ]
+}

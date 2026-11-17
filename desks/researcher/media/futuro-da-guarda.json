@@ -1,0 +1,60 @@
+{
+ "id": "futuro-da-guarda",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Futuro da Guarda",
+ "names_as_listed": [
+  "Futuro da Guarda"
+ ],
+ "media_kind": "online",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://www.futurodaguarda.pt",
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://www.futurodaguarda.pt/feed/",
+   "checked": "HTTP 200, application/rss+xml, XML feed body",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "places_covered": [
+  {
+   "place": "Guarda (editorial seat per ERC register; Regional scope, Online, Mensal)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "Fundação João Bento Raimundo",
+  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "read_at": "2026-11-17"
+ },
+ "people": [
+  {
+   "name": "Rui Manuel Bento Isidro",
+   "role": "Director (ERC register)",
+   "beat": "direction (no beat stated)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127599 for 'Futuro da Guarda', Registo Definitivo, row on the periodicals sheet; seat Guarda, Guarda; owner and direction as listed. Outlet email column deliberately not recorded here."
+  },
+  {
+   "url": "https://www.futurodaguarda.pt/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read."
+  }
+ ],
+ "gaps": [
+  "Contact page not found at common paths; not looked up further",
+  "Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read"
+ ]
+}

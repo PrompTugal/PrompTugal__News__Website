@@ -1,0 +1,60 @@
+{
+ "id": "estacao-diaria-edicao-jornal",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Estação Diária Edição Jornal",
+ "names_as_listed": [
+  "Estação Diária Edição Jornal"
+ ],
+ "media_kind": "online",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://estacaodiariajornal.sapo.pt",
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://estacaodiariajornal.sapo.pt/feed/",
+   "checked": "HTTP 200, application/rss+xml, XML feed body",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "contact_page_url": "https://estacaodiariajornal.sapo.pt/contactos/",
+ "places_covered": [
+  {
+   "place": "Viseu (editorial seat per ERC register; Regional scope, Online, Diária)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "Alberto & Paulo - Áudio Produções, Lda.",
+  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "read_at": "2026-11-17"
+ },
+ "people": [
+  {
+   "name": "José Alberto Ribeiro Monteiro Gomes",
+   "role": "Director (ERC register)",
+   "beat": "direction (no beat stated)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126988 for 'Estação Diária Edição Jornal', Registo Definitivo, row on the periodicals sheet; seat Viseu, Viseu; owner and direction as listed. Outlet email column deliberately not recorded here."
+  },
+  {
+   "url": "https://estacaodiariajornal.sapo.pt/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read."
+  }
+ ],
+ "gaps": [
+  "Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read"
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "vila-tv-a-realidade-comeca-aqui",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Vila TV - A realidade começa aqui",
+ "names_as_listed": [
+  "Vila TV - A realidade começa aqui"
+ ],
+ "media_kind": "online",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://vilatv.pt",
+ "places_covered": [
+  {
+   "place": "Vila Real (editorial seat per ERC register; Regional scope, Online, Diária)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "Imodilomi, Lda.",
+  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "read_at": "2026-11-17"
+ },
+ "people": [
+  {
+   "name": "Carlos Manuel Lopes Marques",
+   "role": "Director (ERC register)",
+   "beat": "direction (no beat stated)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 128169 for 'Vila TV - A realidade começa aqui', Registo Definitivo, row on the periodicals sheet; seat Vila Real, Vila Real; owner and direction as listed. Outlet email column deliberately not recorded here."
+  }
+ ],
+ "gaps": [
+  "Website listed in the ERC register did not return HTTP 200 from this environment (404); feed and contact not verified",
+  "Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read"
+ ]
+}

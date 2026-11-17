@@ -1,0 +1,60 @@
+{
+ "id": "sao-miguel-news",
+ "type": "organisation",
+ "kind": "media",
+ "name": "São Miguel News",
+ "names_as_listed": [
+  "São Miguel News"
+ ],
+ "media_kind": "online",
+ "reach": "regional",
+ "language": "pt",
+ "website": "https://saomiguelnews.net",
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://saomiguelnews.net/feed/",
+   "checked": "HTTP 200, application/rss+xml, XML feed body",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "places_covered": [
+  {
+   "place": "Ponta Delgada (editorial seat per ERC register; Regional scope, Online, Mensal)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "Burgopirâmide - Unipessoal, Lda.",
+  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "read_at": "2026-11-17"
+ },
+ "people": [
+  {
+   "name": "António Leite",
+   "role": "Director (ERC register)",
+   "beat": "direction (no beat stated)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 128164 for 'São Miguel News', Registo Definitivo, row on the periodicals sheet; seat Ponta Delgada, Ilha de São Miguel; owner and direction as listed. Outlet email column deliberately not recorded here."
+  },
+  {
+   "url": "https://saomiguelnews.net/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read."
+  }
+ ],
+ "gaps": [
+  "Contact page not found at common paths; not looked up further",
+  "Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read"
+ ]
+}
