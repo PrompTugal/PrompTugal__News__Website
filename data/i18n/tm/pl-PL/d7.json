@@ -1,0 +1,26 @@
+{
+ "d75ab38c71eb59c9": {
+  "t": "PrompTugal.news Portimão: wiadomości o AI i technologii z miasta, w którym Arade spotyka morze, od rady z sprytnym robotem do pozwoleń po firmę wodną z uchem na wycieki, a do tego to, co dociera do nas z Algarve, Portugalii i świata. Jesteśmy niezależni, a każdy fakt ma źródło, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Portimão: the AI and tech news of the town w",
+  "ok": false
+ },
+ "d7a0a455903f488c": {
+  "t": "Czego wciąż nie znaleźliśmy, mesmo a sério:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "What we still did not find, mesmo a sério:",
+  "ok": false
+ },
+ "d7aa8e8829bcb070": {
+  "t": "Firma doradztwa IT Noesis otwiera biuro w Castelo Branco i mówi, że zatrudni także specjalistów od AI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "IT consultancy Noesis opens a Castelo Branco office and says",
+  "ok": false
+ }
+}

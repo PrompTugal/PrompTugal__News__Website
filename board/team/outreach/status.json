@@ -2,7 +2,7 @@
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts only: first contacts to each news organisation and its public journalists, leading with the outlet's page on PrompTugal.news; a person sends.",
  "state": "drafting from the 73 media records; nothing sent",
- "updated": "2026-11-17T12:55Z",
+ "updated": "2026-11-17T15:55Z",
  "done": [
   "Session key outreach-c-promptugal in board/keys.json (outreach-b superseded 19:35Z)",
   "Draft format desks/outreach/media/FORMAT.md and template.md, proposed to local@PrompTugal.jose",
@@ -15,7 +15,8 @@
   "Wake 03:38: ten more drafts (Porto, \u00c9vora, Guarda, Vila Real, Covilh\u00e3, Braga, Viana, Madeira and others): twenty-five in all, all re-run against the pages",
   "Wake 06:38: twelve more drafts (nationals and the Azores among them): thirty-seven in all, re-run against the pages",
   "Wake 09:38: more drafts (rest of the nationals, Azores, Madeira, Lisbon): 52 in all, re-run against the pages",
-  "Wake 12:38: fifteen more drafts: 67 in all (district capitals and nationals; Algarve's are local@'s), re-run against the pages"
+  "Wake 12:38: fifteen more drafts: 67 in all (district capitals and nationals; Algarve's are local@'s), re-run against the pages",
+  "Wake 15:38: twenty more drafts: 87 in all, re-run against the pages"
  ],
  "next": [
   "Dinis's answer on the decision page, then the money clause",
@@ -344,6 +345,11 @@
    "started": "2026-11-17T12:38Z",
    "outcome": "ok",
    "what": "67 drafts; decision page and outbox key still pending"
+  },
+  {
+   "started": "2026-11-17T15:38Z",
+   "outcome": "ok",
+   "what": "87 drafts; decision page and outbox key still pending"
   }
  ],
  "decisions_on_findings": [

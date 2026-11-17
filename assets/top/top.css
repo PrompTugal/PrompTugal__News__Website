@@ -125,9 +125,8 @@ main .kicker, main .eyebrow { font: 700 12px var(--sans); letter-spacing: .08em;
 .em-langs .em-lang-back { border-bottom: 1px solid var(--rule); border-radius: 0; margin-bottom: 4px; }
 .em-i18n-note { margin: 0 0 4px; font: italic 12.5px var(--sans); color: var(--ink-3); text-align: center; }
 
-/* Support: the top-up, high on every page (Dinis, 17 November 2026: "put it high on the top") */
-.em-pill.em-support { background: var(--green, #006600); border-color: var(--green, #006600); color: #fff; }
-.em-pill.em-support:hover, .em-pill.em-support:focus-visible { background: #004d00; border-color: #004d00; color: #fff; }
-.ctop-when .em-support { margin-right: 10px; }
-.em-pill.em-support { white-space: nowrap; }
-@media (max-width: 480px) { .em-support-amt { display: none; } }
+/* The reading credit as a statement, not a request (Dinis, 17 November 2026: "this is the value proposition ... just make it a statement", as on newsroom.sgit.ai) */
+.em-pay { font: 600 13px var(--sans); color: var(--green, #006600); text-decoration: none; border-bottom: 1px solid currentColor; margin-left: 12px; white-space: nowrap; }
+.em-pay:hover, .em-pay:focus-visible { color: var(--ink); }
+.ctop-when .em-pay { margin: 0 10px 0 0; }
+@media (max-width: 640px) { .em-pay-more { display: none; } .em-dl .em-pay { margin-left: 8px; font-size: 12px; } }

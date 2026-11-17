@@ -1,0 +1,26 @@
+{
+ "c80d31aa3fd60fd7": {
+  "t": "PrompTugal.news Monchique, z chłodu Serry: AI i technologia w zielonej górskiej gminie, gdzie obawa przed pożarem nigdy nie śpi, a mały inkubator trzyma światło zapalone, a do tego wszystko, co dociera z Algarve, Portugalii i świata. Niezależnie, a każdy fakt ma swoje źródło, ó freguês.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Monchique, from the cool of the Serra: AI an",
+  "ok": false
+ },
+ "c896571781f3b30f": {
+  "t": "PrompTugal.news Porto: AI i technologia w Porto, mieście uniwersytetów i startupów, którego środek ciężkości stanowią UPTEC, park naukowy Uniwersytetu w Porto, jego startupy AI i instytuty badawcze, oraz to, co do Porto dociera z Portugalii, Europy i świata. Niezależnie, a każdy fakt ze źródłem.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Porto: AI and technology in Porto, a univers",
+  "ok": false
+ },
+ "c8c02cb5cf3f018e": {
+  "t": "PrompTugal.news Porto, a Invicta: AI i technologia w Porto, z UPTEC jako maszynownią na wzgórzach Asprela, a do tego wieści, które przybywają z Portugalii, Europy i świata. Independente, i każdy fakt przychodzi z paragonem, po tripeirsku.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Porto, a Invicta: AI and tech in Porto, with",
+  "ok": false
+ }
+}

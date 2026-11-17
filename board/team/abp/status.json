@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-17T14:50Z",
+  "updated": "2026-11-17T16:50Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -52,14 +52,16 @@
     "11:50 sixteenth hourly wake: conductor@ wrote an article and story outside its grant, asked of Dinis (board/abp/reports/2026-11-17-1137.md)",
     "12:50 seventeenth hourly wake: 1 breach (conductor@ owes a run report); nothing outside a grant (board/abp/reports/2026-11-17-1237.md)",
     "13:50 eighteenth hourly wake: conductor@ wrote two more articles outside its grant, a pattern now; asked of Dinis (board/abp/reports/2026-11-17-1337.md)",
-    "14:50 nineteenth hourly wake: quiet; conductor@ owes a run report (board/abp/reports/2026-11-17-1437.md)"
+    "14:50 nineteenth hourly wake: quiet; conductor@ owes a run report (board/abp/reports/2026-11-17-1437.md)",
+    "15:50 twentieth hourly wake: conductor@ edited assets/top outside its grant; a standing line proposed to Dinis (board/abp/reports/2026-11-17-1537.md)",
+    "16:50 twenty-first hourly wake: ontologist@ wrote a second brief in board/briefs/ (proposal open); 5 attempts = the two proposals (board/abp/reports/2026-11-17-1637.md)"
   ],
   "next": [
     "Hourly review of run reports at :37 (board/abp/reports/); check the new desks re-key their site keys and sites pass (34 of 36 now)",
     "Daily hand-over debrief"
   ],
   "asks": [
-    "Dinis: conductor@ (account A) wrote stories and articles itself (three by 13:37: 1d2464c24, bed0d4c7f, af3933569, 548811168: data/stories/the-payment-desk-that-could-not-take-payment, its article): outside its grant, which never lets it write the others' content. Did you ask it to? If yes, say so here and abp@ grants it; if not, it routes them to journalist@",
+    "Dinis: conductor@ (account A) wrote stories and articles itself (three by 13:37: 1d2464c24, bed0d4c7f, af3933569, 548811168: data/stories/the-payment-desk-that-could-not-take-payment, its article): outside its grant, which never lets it write the others' content. Did you ask it to? If yes, say so here and abp@ grants it; if not, it routes them to journalist@; also assets/top/top.css and top.tmpl (69dc40999, 1ee279988). One standing line from you would settle it: 'conductor@ may write any path when I ask it in its own session, each commit citing my word'",
     "Dinis: conductor.b@ asks (message, 23:52 UTC 16 Nov) that datasci.places@ release live data (local-now.mjs, data/by-place/now/**) straight to dev, not work/datasci.places. A session's message is not your word, so abp@ held it; dev@ is bringing the branch meanwhile. Say yes here or in guidance and abp@ grants it next wake",
     "Dinis: translator@ pushed work/translator and conductor.b@ ran sub-agents; neither is in the v1.14.0 grant (work_branch for translator@, sub-agents for conductor.b@). Say yes and abp@ grants them; until then they are logged",
     "Dinis: translator@ and ontologist@ ask for openrouter.ai for translations; spec-translations.md says Claude sub-agents, no paid API unless you say so. Say yes (and a USD line for accountant@) or it stays out",

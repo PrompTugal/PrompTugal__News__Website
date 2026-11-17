@@ -1,0 +1,42 @@
+{
+ "df09dbbb93e6a84c": {
+  "t": "Grupa szpitali z Viseu kupuje skanery finansowane z PRR, które w stosownych przypadkach zawierają AI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Viseu hospital group buys PRR-funded scanners that include A",
+  "ok": false
+ },
+ "df2d4bd6a5812b21": {
+  "t": "Critical Software z Coimbry buduje platformę AI dla europejskiego projektu rakietowego",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Critical Software of Coimbra builds the AI platform for a Eu",
+  "ok": false
+ },
+ "df3370ad9243e3fb": {
+  "t": "Laboratorium buduje rozwiązania AI na zamówienie dla dużych firm, funduszy private equity i agencji rządowych. Wielkości rundy nie ujawniono.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The lab builds custom AI solutions for large companies, priv",
+  "ok": false
+ },
+ "dfd17296d59d381a": {
+  "t": "PrompTugal.news Santarém: AI i technologia w Santarém, stolicy dystryktu nad Tejo, której środek ciężkości stanowią nauka o żywności rolnej i nowy Campus Tejo, oraz to, co do Santarém dociera z Portugalii, Europy i świata. Niezależnie; każdy fakt ze źródłem.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Santarém: AI and technology in Santarém, a d",
+  "ok": false
+ },
+ "dff763ff9196306b": {
+  "t": "28 czerwca 2024 roku wykonawca Softinsa, spółka zależna IBM, przedstawił radzie wyniki sześciotygodniowego dowodu koncepcji z użyciem platformy IBM watsonx na ponad 4000 e-maili miesięcznie, które otrzymuje rada, w celu kierowania ich do właściwej służby. Starsze niż pozycje z 2026 roku.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "On 28 June 2024 the contractor Softinsa, an IBM subsidiary, ",
+  "ok": false
+ }
+}

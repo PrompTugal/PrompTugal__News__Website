@@ -1,0 +1,26 @@
+{
+ "e52198164de35f4a": {
+  "t": "EPIA 2025, portugalska konferencja o AI, odbywa się na Uniwersytecie Algarve w Faro",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "EPIA 2025, Portugal's AI conference, is held at the Universi",
+  "ok": false
+ },
+ "e594a4a9c497537b": {
+  "t": "Fundusze UE na wprowadzenie AI i robotyki do 15 firm turystycznych w Algarve",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "EU funds to bring AI and robotics to 15 Algarve tourism firm",
+  "ok": false
+ },
+ "e5ce97d42543ebed": {
+  "t": "Po burzy Kristin ponad 100 wolontariuszy z zespołu firmy użyło dronów, by pomóc radzie ocenić zniszczenia. Zdjęcia lotnicze przeszły przez platformę ATLAS firmy, która, jak mówi, korzysta z AI, i są przeznaczone wyłącznie dla władz.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "After storm Kristin, more than 100 volunteer staff used dron",
+  "ok": false
+ }
+}
