@@ -1,0 +1,34 @@
+{
+ "fe45a6197a4bdd3a": {
+  "t": "Rada parafii Ferragudo daje swojej stronie internetowej asystenta AI o imieniu Ferrukas",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Ferragudo's parish council gives its website an AI assistant",
+  "ok": false
+ },
+ "fe4f663d0603356d": {
+  "t": "Część INOVA ALGARVE 3.0, prowadzonego przez NERA wraz z uniwersytetem, organem turystyki, CCDR Algarve, KIPT i Tertúlia Algarvia, pilotaż oferował doradztwo 15 firmom turystycznym. Zgłoszenia przyjmowano od 20 lutego do 30 kwietnia 2026 roku.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Part of INOVA ALGARVE 3.0, led by NERA with the university, ",
+  "ok": false
+ },
+ "feaaf525ecc46a19": {
+  "t": "Rádio Portalegre podaje 16 listopada 2026 roku, że uniwersytet kieruje projektem o inwestycji kwalifikowalnej 59 000 euro, w 85 procentach współfinansowanej przez UE, mającym pobudzić innowacje i cyfryzację w sektorze agroleśnym. Sprawozdanie nie wymienia AI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Rádio Portalegre reports on 16 November 2026 that the univer",
+  "ok": false
+ },
+ "feee2e234a37da04": {
+  "t": "PrompTugal.news Alcoutim: AI i technologia, bem lá no interior, ali onde o Guadiana robi za granicę, a internet musi nauczyć się pływać. Także to, co dociera do nas z Algarve, Portugalii i świata. Niezależnie, a każdy fakt ma źródło, pois claro.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Alcoutim: AI and technology, bem la no inter",
+  "ok": false
+ }
+}
