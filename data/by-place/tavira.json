@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.tavira@PrompTugal.dinis",
   "mandate": "PrompTugal.news Tavira: AI and technology in Tavira, a town whose digital footprint today is public-sector data platforms and a small tech community, and what reaches Tavira from the Algarve, Portugal and the world. Independent, and every fact sourced.",
   "gravity": {
@@ -285,7 +285,8 @@
     "Polo de Inovação de Tavira: search listings dated March 2026 (Recuperar Portugal, Jornal do Algarve, Região Sul and Agroportal) carry headlines that say the PRR requalification of the CEAT was carried out, at a figure above 2 million euros. All four pages were blocked or down when we tried, so we cannot say what was finished, and we have not read the 2026 plans for the centre or any AI use. CCDR Algarve's December 2024 notice, which we did read, had scheduled the works to end by December 2025. The digital therapeutics centre remains unconfirmed.",
     "cm-tavira.pt returned HTTP 403 on 16 November, so no council press release, minutes or official contact page was read; the six new items come from Barlavento and Postal. Next: gov.pt, Diário da República, CCDR Algarve and IPMA for the flood-risk coverage.",
     "Seen only as headlines, not opened: flood-risk zones in Tavira (Postal, 11 November), a missing man and a seized boat near Cabanas, the 2026 council budget (a search snippet says 61.5 million euros, unchecked) and the Regulamento de Mobilidade Sustentável (Edital 120/2026).",
-    "The APA flood-risk classification and RCM 63/2024 are known through Postal only; check apambiente.pt and Diário da República. No storm damage report for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim was found on the official pages read."
+    "The APA flood-risk classification and RCM 63/2024 are known through Postal only; check apambiente.pt and Diário da República. No storm damage report for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim was found on the official pages read.",
+    "cm-tavira.pt still answered 403 on 17 November, and Postal and Barlavento carried no new Tavira item for 14 to 17 November beyond the ones listed."
   ],
   "voice": {
     "lede": "Tavira, ó pá, where the river is calmer than any server room and the seven arches have seen more migrations than your cloud provider.",
@@ -386,5 +387,6 @@
       "steps": 0,
       "blast_radius": "Olhão and Faro share the Ria Formosa drainage"
     }
-  ]
+  ],
+  "contacts": []
 }
