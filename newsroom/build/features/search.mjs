@@ -31,6 +31,10 @@ const clip = (s, n) => { s = String(s || '').replace(/\s+/g, ' ').trim(); return
 const plain = md => String(md || '').replace(/```[\s\S]*?```/g, ' ').replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/[#*`|>_]+/g, ' ').replace(/\{#[\w-]+\}/g, ' ').replace(/\s+/g, ' ').trim()
 const headsOf = md => (String(md || '').match(/^#{2,4}\s+.+$/gm) || []).map(h => h.replace(/^#+\s+/, '').replace(/\{#[\w-]+\}/, '')).join(' · ')
 
+// the snippet a result shows: 110 characters keeps docs.json, the first file a reader loads, inside its 400 KB as the site
+// grows (dev@PrompTugal.dinis, 17 November 2026: 365 KB at 1894 pages with 140 and 160). Splitting docs.json is the next step.
+const SNIP = 110
+
 let built = null   // the index, made once per build (api and llms both read it)
 
 function makeIndex(ctx) {
@@ -63,14 +67,14 @@ function makeIndex(ctx) {
         const row = { id: x ? `${type}:${x.id}` : `page:${p.rel}`, type, title: p.title, url: p.rel, summary: '', facets: {}, extra: {}, fields: { title: p.title } }
         if (x && type === 'company') {
             const days = [...new Set(eventsOfCompany(g, `company:${x.id}`).map(e => eventById.get(e.split(':')[1])?.date).filter(Boolean))].sort()
-            row.summary = clip(x.what, 140)
+            row.summary = clip(x.what, SNIP)
             row.facets = { tp: [x.category].filter(Boolean), c: x.country || undefined, d: days.length ? days : undefined }
             row.fields.alias = [...(x.aliases || []).map(a => a.name), ...(alsoKnown.get(row.id) || [])].join(' ; ')
             row.fields.facet = [topicName[x.category], x.category, x.country, x.attending_as].filter(Boolean).join(' ; ')
             row.fields.body = x.what
         } else if (x && type === 'event') {
             const tps = eventTopics(x.id)
-            row.summary = clip(`${ctx.DAY(x.date)}${x.time ? ', ' + x.time : ''}${x.where ? ' · ' + x.where : ''}`, 140)
+            row.summary = clip(`${ctx.DAY(x.date)}${x.time ? ', ' + x.time : ''}${x.where ? ' · ' + x.where : ''}`, SNIP)
             row.facets = { tp: tps.length ? tps : undefined, o: x.organiser, d: [x.date] }
             const mo = x.session_url && media.has(String(x.session_url).replace(/\/+$/, ''))
             row.extra = { s: x.start || undefined, e: x.end || undefined, w: x.where ? x.where.split(',')[0] : undefined, k: x.kind, p: x.our_pick ? 1 : undefined, m: mo ? [shortUrl(x.session_url), x.session_url, readOn(media.get(String(x.session_url).replace(/\/+$/, '')))] : undefined }
@@ -80,26 +84,26 @@ function makeIndex(ctx) {
         } else if (x && type === 'person') {
             const evs = (x.listings || []).map(l => eventById.get(String(l.event || '').split(':')[1])).filter(Boolean)
             const days = [...new Set(evs.map(e => e.date))].sort()
-            row.summary = clip([x.role, x.organisation].filter(Boolean).join(', '), 140)
+            row.summary = clip([x.role, x.organisation].filter(Boolean).join(', '), SNIP)
             row.facets = { d: days.length ? days : undefined }
             row.fields.facet = [x.role, x.organisation].filter(Boolean).join(' ; ')
             row.fields.body = evs.map(e => e.title).join(' ; ')
         } else if (x && type === 'organisation') {
-            row.summary = clip(x.names_as_listed && x.names_as_listed.length > 1 ? `Listed as ${x.names_as_listed.join('; ')}` : 'An organisation named on the summit\'s public pages', 140)
+            row.summary = clip(x.names_as_listed && x.names_as_listed.length > 1 ? `Listed as ${x.names_as_listed.join('; ')}` : 'An organisation named on the summit\'s public pages', SNIP)
             row.fields.alias = (x.names_as_listed || []).join(' ; ')
         } else if (x && type === 'topic') {
-            row.summary = clip(x.description, 140)
+            row.summary = clip(x.description, SNIP)
             row.facets = { tp: [x.id] }
             row.fields.alias = [x.category, x.id.replace(/-/g, ' '), ...(x.summit_tracks || [])].filter(Boolean).join(' ; ')
             row.fields.facet = x.kind
             row.fields.body = x.description
         } else if (x && type === 'place') {
             const inside = x.located_in ? byRef.get(x.located_in)?.name : ''
-            row.summary = clip(`${x.kind ? x.kind[0].toUpperCase() + x.kind.slice(1) : 'Place'}${inside ? ', in ' + inside : ''}`, 140)
+            row.summary = clip(`${x.kind ? x.kind[0].toUpperCase() + x.kind.slice(1) : 'Place'}${inside ? ', in ' + inside : ''}`, SNIP)
             row.fields.alias = (x.matches || []).join(' ; ')
             row.fields.facet = [x.kind, inside].filter(Boolean).join(' ; ')
         } else {
-            row.summary = clip(p.summary, 160)
+            row.summary = clip(p.summary, SNIP)
             row.fields.heads = headsOf(p.md)
             row.fields.body = `${p.summary || ''} ${plain(p.md)}`.slice(0, 8000)
             if (type === 'article') row.extra = { date: p.date }
