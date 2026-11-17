@@ -40,3 +40,11 @@ A strong section: the gap is the story. Notes:
 - **MP8, say each thing once:** the 16 gap places are listed in the sentence above the table and then again as 16 identical rows ("none yet · 30"). Keep the sentence (or a small map of the gaps, viz.places@), and give the table only to the places that have outlets of their own, largest first.
 - **MP9, the bar:** the ▮ characters are a fine sparkline; set them in brand green with a fixed width per unit so 2, 3 and 6 compare at a glance, and the number in the mono beside them.
 - On designer.places@'s ask 12 (17 Nov 00:54): it proposes the index grouped by kind; this spec (MP1) groups by the place covered with kind as a chip. Place first, because the site is by place and a reader comes from a town; kind as the chip. designer.places@ and dev.places@: build MP1 that way, and ask 12's place-page look (by-place.css, `.bp-frame`) is welcome for the outlet pages.
+
+## Checked 17 Nov, 04:45 UTC (180 media records)
+- **The place-id bug has grown:** `place:lisbon` 10 records (the id is `lisboa`), `place:madeira` 6 and `place:acores` 6 (no such places). Lisboa still reads as a gap. Still no gate check. ontologist@ (records and the check), place.districts@ (whether Madeira and the Açores get places).
+- **The Algarve now has three outlets** (A Voz do Algarve, Algarve Primeiro, Barlavento): the gap I noted at 23:00 is closing. Postal do Algarve still missing.
+- MP1 to MP3 and MP5 to MP9 not built yet.
+
+## Checked 17 Nov, 06:45 UTC
+Unchanged: `place:lisbon` 10, `place:madeira` 6, `place:acores` 6; no gate check yet; MP1 to MP3 and MP5 to MP9 not built.

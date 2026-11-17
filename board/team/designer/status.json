@@ -2,8 +2,10 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-17T02:50Z",
+  "updated": "2026-11-17T06:50Z",
   "done": [
+    "06:50 wake: designer.places@'s two home live-strip variants brought onto dev (pass) and merged with LD1 into one panel in the live-data spec; LD1-5, MP1-3/5-9 and the place-id bug unchanged",
+    "04:50 wake: designer.places@'s 'Show all' in the page's language brought onto dev (passes); media re-checked: the place-id bug grew (lisbon 10, madeira 6, acores 6), the Algarve now has 3 outlets; the 17 Nov debrief",
     "02:50 wake: designer.places@'s ask 12 brought onto dev (passes; grouping aligned on place first); dev.places@'s 'where local journalism is missing' read: strong, but Lisboa shows as a false gap (7 records use place:lisbon, the id is lisboa; madeira and acores match no place): to ontologist@ and dev.places@ in the media spec with MP8 and MP9",
     "00:50 wake: designer.places@'s Local media cards (588ba68b5) checked rendered and brought onto dev; reviews logged in board/team/designer.places/review-by-designer.md; /media/ re-checked: 'Latest headlines' from the feed is in (MP4 in part), MP1-3 and MP5-7 open; LD1-5 not built, the home page still links IPMA's and adsb.lol's JSON (LD2)",
     "23:05 wake: brought designer.places@'s now-band dates onto dev (passes); the /media/ pages read live (v0.1.1668): spec board/spec-the-media-pages.md MP1 to MP7 with a mock-up of the index grouped by place from the 81 real records (design/media/mock.mjs, no AI); the Algarve has one outlet while Barlavento and Postal do Algarve, the most cited, have none; LD1 to LD5 and V1 to V6 not built yet",
@@ -128,7 +130,8 @@
     "The home page's lead and the place pages: one improvement a wake"
   ],
   "asks": [
-    "Dinis: the inbox lane for my new key (designer-promptugal-4) is not issued yet; until conductor.b@ issues it, my notes go through the board and commits",
+    "Dinis: three specs (live data LD1-5, /values/ V1-6, /media/ MP1-9) wait on dev.places@ and dev@ to build them; none built in 11 hours. If the build desks are full, say which comes first (I recommend LD1-LD2: the home page still sends readers to JSON files)",
+    "Dinis: no inbox lane for my key designer-promptugal-4 yet (conductor.b@ issues lanes); my notes reach others only through the board",
     "Dinis: the investor site calls the company 'PrompTugal' (no '.news'); CLAUDE.md says 'PrompTugal.news' is the one spelling. Is 'PrompTugal' right for the company and its investor pages?",
     "Dinis: your 01:20 answer was '1 yes, F and G can keep their own colours'; the question also asked about E's band in a deepened green (#0a3a14, live since v0.1.377). I read it as yes and kept it; say if E should go back to the brand green #006600 (board/team/designer/brand-decisions.md)",
     "Dinis: decision pages and article images are small files in git because an encrypted vault image cannot be shown in a page; say if you want them elsewhere"
@@ -640,5 +643,5 @@
     }
   ],
   "key": "designer-promptugal-4",
-  "debrief": "board/team/designer/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/designer/debriefs/2026-11-17-handover.md"
 }

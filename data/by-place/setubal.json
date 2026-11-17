@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Setúbal: AI and technology in Setúbal, a port and industry city whose centre of gravity is the Port of Setúbal, the Politécnico and the Mitrena industrial complex, and what reaches Setúbal from Portugal, Europe and the world. Independent. Every fact sourced.",
   "gravity": {
@@ -190,6 +190,36 @@
       "url": "https://www.gov.pt/locais-de-atendimento/loja-de-cidadao-de-setubal",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "Rádio Azul (media map, researcher@)",
+      "url": "https://radioazul.pt/",
+      "kind": "press",
+      "feed": "https://radioazul.pt/feed/"
+    },
+    {
+      "name": "Revela Arrábida (media map, researcher@)",
+      "url": "https://revelaarrabida.pt/",
+      "kind": "press",
+      "feed": "https://revelaarrabida.pt/feed/"
+    },
+    {
+      "name": "Semmais (S+) (media map, researcher@)",
+      "url": "https://semmais.pt/",
+      "kind": "press",
+      "feed": "https://semmais.pt/feed/"
+    },
+    {
+      "name": "Setúbal Informação (media map, researcher@)",
+      "url": "https://setubalinformacao.sapo.pt/",
+      "kind": "press",
+      "feed": "https://setubalinformacao.sapo.pt/feed/"
+    },
+    {
+      "name": "Setúbal Mais (media map, researcher@)",
+      "url": "https://setubalmais.pt/",
+      "kind": "press",
+      "feed": "https://setubalmais.pt/feed/"
     }
   ],
   "events": [
@@ -296,20 +326,20 @@
   ],
   "extras": [],
   "identity": {
-    "key_id": "site.setubal-promptugal",
+    "key_id": "site.setubal-promptugal-2",
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
     "Thin capital for companies: we found no AI startup or AI company based in Setúbal in any page we opened. The IPStartUp site lists five incubated projects, and none is described there as AI-based (Samuya is a smart auscultation system, with no AI stated). A hashnode post and a generic marketing blog name Setúbal AI consultancies but are not reliable sources, so they are left out. Sources to look for: Startup Portugal's ecosystem map, IAPMEI directories and company announcements.",
-    "The Politécnico's main site (ips.pt) still returned server errors (503) for us, as did the ports' own news page and the page behind the PRIMED medical imaging platform with CCG/ZGDV (a February 2026 note, with the ULS Arrábida and Almada-Seixal health units named as partners). PRIMED, the Ignitronic fire-detection project and two IPS AI research projects seen in search results (fraud detection and fishing) are known to us only from search snippets, so they are not on the map. Next: retry ips.pt and read them. The IPStartUp site's incubation page also returned an error.",
-    "Setúbal council's own pages show no AI use in its own services. Its economy news section (to 9 October 2026) has no AI, startup or data centre item, and its only AI item is the 6 November literary festival talk. We still should look at procurement notices on base.gov.pt and the geoportal's technical pages. Its GAE page (economia-2/gae) returned 404, so the office is described from the contacts page, and the NNIES 2026 fee table (a PDF) was not read.",
+    "The Politécnico's main site (ips.pt) did not open again on 17 November (a certificate error from our side, not bypassed). The ports' news page and the page behind the PRIMED medical imaging platform with CCG/ZGDV (a February 2026 note, with the ULS Arrábida and Almada-Seixal health units named as partners) were not reachable either. PRIMED, the Ignitronic fire-detection project and two IPS AI research projects seen in search results (fraud detection and fishing) are known to us only from search snippets, so they are not on the map. Closed: the IPStartUp site and its incubation page now load and are described under start_company. Next: retry ips.pt later.",
+    "Setúbal council's own pages show no AI use in its own services. Its news feed to 16 November 2026 has no AI, startup or data centre item beyond the 6 November literary festival talk. We still should look at procurement notices on base.gov.pt and the geoportal's technical pages. Its GAE page addresses (economia/gae and economia-2/gae) still return 404, so the office is described from the contacts page. Closed in part: the NNIES page was re-read and its offices, services and access rules are in start_company; its fee table PDF was not read.",
     "Portos de Setúbal e Lisboa's own news page did not load (503), so the port's AI project is told through O Setubalense and RTP. Its AI agent for online services and phase two automation are plans, not results, and we found no later update.",
-    "No upcoming AI event in Setúbal for late November or December 2026 found. The council's news search shows none, the polytechnic's events page did not load and the council's agenda address answered 404 earlier. The guide-to-events site (guiaeventos.mun-setubal.pt) was not opened. Meetup, Luma and Eventbrite listings are not read by this site.",
+    "No upcoming AI event in Setúbal for late November or December 2026 found. The council's news feed shows none, the polytechnic's events page did not load, and the council's events guide (guiaeventos.mun-setubal.pt) answers with a notice that a new version of the site is being prepared, so it holds no listing. Meetup, Luma and Eventbrite listings are not read by this site.",
     "The ULS Almada-Seixal HUMAI project (AI to find frequent emergency users, July 2025) and the Amarsul waste AI project sit in the neighbouring Almada, Seixal and Palmela area, and the pages we opened do not place them in Setúbal, so they are left out. The February 2026 AI and quality talk is in the news list because a Setúbal incubator took part, but it was held in Palmela.",
     "DXC Technology was named as a partner of the July 2026 Wave of Talent, but the page does not say what it does in Setúbal, so it is not on the map. The July 2026 IPS and Start Campus agreement for tech talent in Sines was seen only as a search result and the file did not load.",
     "Investors and funding: only the ports' own AI budget is sourced. A Lisboa 2030 grant and a CCDR Lisboa e Vale do Tejo figure for the CCG/ZGDV pole appear in search snippets but we could not open the pages. Sources to look for: Lisboa 2030 and Portugal 2030 project lists, Portugal Ventures notices, and the IPStartUp's own newsletters.",
     "Local talent is not filled: nobody has agreed to be listed, and we name no private individual. Contacts are limited to the council's and the state's published channels, linked, not spelt out.",
-    "Feeds: O Setubalense, the council's news portal and the council's main site all answered as RSS. The council's main feed was stale (latest item dated 30 September 2026, public works notices), so use the news portal feed instead. The polytechnic's feed did not answer."
+    "Feeds re-tested on 17 November: O Setubalense (latest item 16 November), the council's news portal (latest 16 November) and the council's main feed (latest 30 September 2026, public works notices, so use the news portal) all answer as RSS. The polytechnic's feed did not answer and ips.pt did not open. No new AI news since 16 November was found in the feeds or in O Setubalense's AI search; two further AI-tagged items there (journalism sessions, waste recycling) do not place the work in Setúbal, so they are left out."
   ],
   "voice": {
     "lede": "Setúbal, ó pá: where the choco frito meets the cargo crane, the dolphins mind their own business in the Sado, and the port has decided that Copilot is the new sardine.",
@@ -328,26 +358,26 @@
     },
     {
       "name": "Setúbal council: Ninho de Novas Iniciativas Empresariais (NNIES)",
-      "what": "A municipal business nest for new service-sector companies with growth potential, mainly in the historic centre. Offers a private or shared office of about 25 square metres, a virtual address and coworking. Open to firms incorporated under a year ago and operating under six months. Applications are taken all year, with a form handed in, posted or emailed. The 2026 fee table is a separate PDF we did not read. The page does not mention AI.",
+      "what": "A municipal business nest for new service-sector companies with growth potential, mainly in the historic centre. Offers a private or shared office of about 25 square metres, a virtual address and coworking. Open to firms incorporated under a year ago and operating under six months. Applications are taken all year, with a form handed in, posted or emailed. The page (read 17 November, last updated by the council on 9 October 2026) lists twenty offices, an auditorium, a training room and a meeting room, and links a regulation, an application form and a fee table; we did not open the fee table PDF. The page does not mention AI.",
       "url": "https://www.mun-setubal.pt/atividade-municipal/economia/nnies/",
       "source_url": "https://www.mun-setubal.pt/atividade-municipal/economia/nnies/",
-      "read_on": "2026-11-16",
+      "read_on": "2026-11-17",
       "kind": "space"
     },
     {
       "name": "IPStartUp, the Politécnico de Setúbal incubator",
-      "what": "Incubator at the Setúbal campus (Estefanilha) with a second site in Barreiro. IAPMEI certified it as a StartUP Visa incubator for 2026, a route for foreign founders. Application pages exist for incubation and a junior consultant role, but the home page does not state eligibility, and the incubation page returned an error.",
-      "url": "https://ipstartup.ips.pt",
+      "what": "Incubator at the Setúbal campus (Estefanilha) with a second site in Barreiro. IAPMEI certified it as a StartUP Visa incubator for 2026, a route for foreign founders. Its incubation page (read 17 November) says applications are open to founders in every field, from technology to social sciences and creative projects, with mentoring, business-plan support, networking and help finding funding; an online form is evaluated by the team, and a rules document and a fee schedule are linked from the page. It does not mention AI. A 2 to 5 November 2026 exchange at the University of Murcia (MetaRed X) is its latest news.",
+      "url": "https://ipstartup.ips.pt/ipstartup",
       "source_url": "https://ipstartup.ips.pt/files/Newsletter IPStartUp - Março 2026.pdf",
-      "read_on": "2026-11-16",
+      "read_on": "2026-11-17",
       "kind": "incubator"
     },
     {
       "name": "Poliempreende (regional phase at the Politécnico de Setúbal)",
-      "what": "The national polytechnic entrepreneurship contest. The 22nd edition's regional final on 19 May 2026 had 19 teams. The winner, a mobile app for student music groups, went on to the national final at the University of Algarve. The incubator's site lists a 23rd edition for 2026 and 2027.",
-      "url": "https://ipstartup.ips.pt",
+      "what": "The national polytechnic entrepreneurship contest. The 22nd edition's regional final on 19 May 2026 had 19 teams. The winner, a mobile app for student music groups, went on to the national final at the University of Algarve. The incubator's site lists a 23rd edition for 2026 and 2027. Its 23rd edition page (read 17 November) gives applications open from 16 October 2026 to 31 January 2027 by online form, a capacity programme of 11 workshops, a regional final at the Universidade Politécnica de Setúbal in May 2027 and the national final in Porto from 30 August to 3 September 2027.",
+      "url": "https://ipstartup.ips.pt/23-edi-o-2026-2027",
       "source_url": "https://ipstartup.ips.pt/files/Newsletter IPStartUp - Maio 2026.pdf",
-      "read_on": "2026-11-16",
+      "read_on": "2026-11-17",
       "kind": "funding"
     },
     {
@@ -429,6 +459,14 @@
       "source_url": "https://www.gov.pt/locais-de-atendimento/loja-de-cidadao-de-setubal",
       "read_on": "2026-11-16",
       "channel": "the booking phone line and email published on the gov.pt page (open the linked page for them)"
+    },
+    {
+      "name": "IPStartUp (Politécnico de Setúbal incubator), general",
+      "what": "The incubator's published email and phone line, with addresses at the Estefanilha campus in Setúbal and the Barreiro campus.",
+      "url": "https://ipstartup.ips.pt/contactos",
+      "source_url": "https://ipstartup.ips.pt/contactos",
+      "read_on": "2026-11-17",
+      "channel": "the incubator's email and phone line, published in the footer of its pages (open the linked page for them)"
     }
   ]
 }

@@ -238,6 +238,66 @@
       "url": "https://www.cisuc.uc.pt/en",
       "kind": "university",
       "feed": null
+    },
+    {
+      "name": "Campeão das Províncias (media map, researcher@)",
+      "url": "https://www.campeaoprovincias.pt",
+      "kind": "press",
+      "feed": "https://www.campeaoprovincias.pt/rss"
+    },
+    {
+      "name": "Central Press (media map, researcher@)",
+      "url": "https://www.centralpress.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Diário As Beiras (media map, researcher@)",
+      "url": "https://www.asbeiras.pt",
+      "kind": "press",
+      "feed": "https://www.asbeiras.pt/feed/"
+    },
+    {
+      "name": "Diário de Coimbra (media map, researcher@)",
+      "url": "https://www.diariocoimbra.pt",
+      "kind": "press",
+      "feed": "https://www.diariocoimbra.pt/feed/"
+    },
+    {
+      "name": "Jornal O Despertar (media map, researcher@)",
+      "url": "https://www.odespertar.pt",
+      "kind": "press",
+      "feed": "https://www.odespertar.pt/feed/"
+    },
+    {
+      "name": "Notícias de Coimbra (NDC) (media map, researcher@)",
+      "url": "https://www.noticiasdecoimbra.pt",
+      "kind": "press",
+      "feed": "https://www.noticiasdecoimbra.pt/feed/"
+    },
+    {
+      "name": "M80 Coimbra (media map, researcher@)",
+      "url": "https://m80.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Mega Hits - Coimbra (media map, researcher@)",
+      "url": "https://megahits.fm/",
+      "kind": "press",
+      "feed": "https://megahits.fm/rssfeed"
+    },
+    {
+      "name": "RUC - Rádio Universidade de Coimbra (media map, researcher@)",
+      "url": "https://www.ruc.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "TugaTech (media map, researcher@)",
+      "url": "https://tugatech.com.pt/",
+      "kind": "press",
+      "feed": "https://tugatech.com.pt/feed/"
     }
   ],
   "events": [

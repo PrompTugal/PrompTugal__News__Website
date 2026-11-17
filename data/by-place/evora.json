@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Évora: AI and technology in Évora, a university city in the Alentejo whose centre of gravity is the Universidade de Évora, the PACT science park and the public hospital, and what reaches Évora from the Alentejo, Portugal and the world. Independent. Every fact sourced.",
   "gravity": {
@@ -117,7 +117,7 @@
       "name": "PACT: Parque do Alentejo de Ciência e Tecnologia (home)",
       "url": "https://pact.pt",
       "kind": "business",
-      "feed": null
+      "feed": "https://pact.pt/feed/"
     },
     {
       "name": "CCDR Alentejo",
@@ -172,6 +172,48 @@
       "url": "https://www.startupportugal.com/en/",
       "kind": "business",
       "feed": null
+    },
+    {
+      "name": "A Voz de Évora (media map, researcher@)",
+      "url": "https://avozdeevora.sapo.pt/",
+      "kind": "press",
+      "feed": "https://avozdeevora.sapo.pt/feed/"
+    },
+    {
+      "name": "Correio Alentejo (media map, researcher@)",
+      "url": "https://correioalentejo.com/",
+      "kind": "press",
+      "feed": "https://correioalentejo.com/feed/"
+    },
+    {
+      "name": "Diário do Sul (media map, researcher@)",
+      "url": "https://diariodosul.pt/",
+      "kind": "press",
+      "feed": "https://diariodosul.pt/feed/"
+    },
+    {
+      "name": "ODigital (media map, researcher@)",
+      "url": "https://odigital.sapo.pt/",
+      "kind": "press",
+      "feed": "https://odigital.sapo.pt/feed/"
+    },
+    {
+      "name": "Perspetiva (media map, researcher@)",
+      "url": "https://www.perspetiva.com/",
+      "kind": "press",
+      "feed": "https://www.perspetiva.com/feed/"
+    },
+    {
+      "name": "TDS (Televisão do Sul) (media map, researcher@)",
+      "url": "https://televisaodosul.pt/",
+      "kind": "press",
+      "feed": "https://televisaodosul.pt/feed/"
+    },
+    {
+      "name": "Tribuna Alentejo (media map, researcher@)",
+      "url": "https://www.tribunaalentejo.pt/",
+      "kind": "press",
+      "feed": "https://www.tribunaalentejo.pt/feed/"
     }
   ],
   "events": [
@@ -287,7 +329,7 @@
   ],
   "extras": [],
   "identity": {
-    "key_id": "site.evora-promptugal",
+    "key_id": "site.evora-promptugal-2",
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
@@ -300,7 +342,8 @@
     "The Alentejo Competitive Intelligence Center (NOVA IMS, Campo Maior) is a regional AI and data hub but is based in Campo Maior, so it belongs on another place's page. A May 2026 tender for a Rui Nabeiro Accelerator in Évora (ADRAL) was seen only in a search listing and has no AI link we could check.",
     "The Universidade de Évora's executive course 'AI for Business' with Microsoft Portugal dates from 2022, the HPC chair article from 2021 and PACT's Master ChatGPT course from October 2024, so we treat them as background and could not confirm they are running.",
     "Investors are thin: no venture fund or business angel network tied to Évora was found on a page we opened. The amounts for the EIT Deep Tech Talent grant behind AIRA are not on the pages we read.",
-    "Local talent is not filled: no source lists anyone and nobody has agreed to be listed here. PACT runs a Talent Pool of CVs open to its partner companies, which is not public."
+    "Local talent is not filled: no source lists anyone and nobody has agreed to be listed here. PACT runs a Talent Pool of CVs open to its partner companies, which is not public.",
+    "Third pass, 17 Nov 2026: no Évora AI news dated after 16 November turned up in a web search or on PACT's news page (its newest item, a CarbonWise Forum, shows only NOV.2026 and no AI). PACT's feed at pact.pt/feed/ is valid RSS 2.0 (last built 13 November 2026) but held no items when read, so it is listed as a feed that is not yet useful. The council's news page returned only menu text in the first 200,000 characters of 442,727 and no dated AI item; the rest is unread. Gaps above otherwise stand unchanged."
   ],
   "voice": {
     "lede": "Évora, ó pá: a city of whitewash, cork oaks and old stones where the machines are learning to speak Portuguese, slowly, calminha, as one does in the Alentejo.",

@@ -7,7 +7,7 @@
   "names_as_listed": [
     "Diário de Notícias (DN)"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: No RSS feed verified: https://www.dn.pt/rss returned 404. Contacts page URL taken from site footer link label, not fetched. Tech or economy desk bylines not identified.",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: No RSS feed verified: https://www.dn.pt/rss returned 404. Contacts page URL taken from site footer link label, not fetched. Tech or economy desk bylines not identified. DN ficha técnica names no section beats; tech/economy reporters not identified ().",
   "media": {
     "outlet_kind": "newspaper",
     "places_covered": [
@@ -51,6 +51,66 @@
           "read_at": "2026-11-16",
           "how": "named by the outlet itself on this page"
         }
+      },
+      {
+        "name": "Filipe dos Santos Alves",
+        "role": "Director (ERC register and ficha técnica; Global Notícias)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "Leonídio Paulo Ferreira",
+        "role": "Deputy director",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "Nuno Vinha",
+        "role": "Deputy director",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "Cecília Carmo",
+        "role": "Subdirector",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "Margarida Vaqueiro Lopes",
+        "role": "Subdirector (also Dinheiro Vivo deputy director)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "Raquel Baptista Lopes",
+        "role": "Digital coordination",
+        "source": {
+          "url": "https://www.dn.pt/ficha-tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "digital"
       }
     ],
     "sources": [
