@@ -35,6 +35,18 @@
   },
   "ai_news": [
     {
+      "title": "Loulé's Som Riscado festival features an AI-supported piano recital for schools",
+      "summary": "The council's preview of the 11th Som Riscado festival (19 to 22 November 2026) lists Inner Voice by Carles Marigó, a piano recital supported by AI that acts as part of the artistic team, played free for schools on 19 November.",
+      "date": "2026-11-14",
+      "publisher": "Câmara Municipal de Loulé",
+      "url": "https://www.cm-loule.pt/pt/noticias/64912/mao-morta-com-acordeao-piano-com-inteligencia-artificial-e-viagens-no-tempo-com-memoria-de-peixe-prepare-se-para-o-som-riscado-2026.aspx",
+      "read_on": "2026-11-16",
+      "ai_path": "culture",
+      "steps": 1,
+      "significance": "town",
+      "blast": []
+    },
+    {
       "title": "Loulé and Faro tender a technology centre at the Estádio Algarve that lists AI among its themes",
       "summary": "The Associação de Municípios Loulé/Faro launched a 3 million euro tender in September 2026 for a multi-technology centre for companies and startups at the stadium, half funded under Algarve 2030. Proposals were due on 2 November. The article names AI among the technologies it may host.",
       "date": "2026-09-24",
@@ -156,18 +168,6 @@
       "read_on": "2026-11-15",
       "ai_path": "Loulé was the test site for a smart irrigation system, and its planned AI module is the AI step.",
       "steps": 1
-    },
-    {
-      "title": "Loulé's Som Riscado festival features an AI-supported piano recital for schools",
-      "summary": "The council's preview of the 11th Som Riscado festival (19 to 22 November 2026) lists Inner Voice by Carles Marigó, a piano recital supported by AI that acts as part of the artistic team, played free for schools on 19 November.",
-      "date": "2026-11-14",
-      "publisher": "Câmara Municipal de Loulé",
-      "url": "https://www.cm-loule.pt/pt/noticias/64912/mao-morta-com-acordeao-piano-com-inteligencia-artificial-e-viagens-no-tempo-com-memoria-de-peixe-prepare-se-para-o-som-riscado-2026.aspx",
-      "read_on": "2026-11-16",
-      "ai_path": "culture",
-      "steps": 1,
-      "significance": "town",
-      "blast": []
     }
   ],
   "sources": [
@@ -436,7 +436,9 @@
     "The council's contracted AI tools for planning remain unnamed; no procurement notice found.",
     "Loulé GIS Day (18 Nov, council page read) has no AI mention; not added.",
     "NaturMaris prize (Barlavento 2026-11-16, NERA Inova Algarve) read in full: no AI or digital content, rejected.",
-    "Som Riscado AI piano item already present."
+    "Som Riscado AI piano item already present.",
+    "Postal 12 Nov 2026 (read): 3WX's Best Number One link-page platform, launched at Web Summit, has no AI mention in the article, so not added.",
+    "cm-loule.pt news list 17 Nov read: only Som Riscado AI piano (already present) and GIS Day (no AI)."
   ],
   "voice": {
     "lede": "Oi, pá! Loulé, where the market has domes and the council has algorithms.",
