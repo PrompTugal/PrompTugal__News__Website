@@ -1,0 +1,84 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "radio-estacao-madeira-tsf-madeira",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Estação Rádio Madeira - TSF Madeira",
+  "names_as_listed": [
+    "Estação Rádio Madeira - TSF Madeira"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page. No RSS feed found (tried /feed, /rss: 404).",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:madeira"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.tsfmadeira.pt/",
+    "owner": {
+      "name": "Notícias 2000 FM - Actividade de Radiodifusão Sonora, Lda",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "contact": {
+      "page": "https://www.tsfmadeira.pt/#contactos",
+      "source": {
+        "url": "https://www.tsfmadeira.pt/#contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Ricardo Miguel Oliveira",
+        "role": "Responsável pela programação e pela informação (as listed in the ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Ricardo Miguel Oliveira",
+        "role": "Director (ficha técnica); responsável pela orientação e supervisão do conteúdo das emissões",
+        "source": {
+          "url": "https://www.tsfmadeira.pt/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423236, operator 'Notícias 2000 FM - Actividade de Radiodifusão Sonora, Lda' (seat Funchal), service 'Estação Rádio Madeira - TSF Madeira', licence district Ilha da Madeira, concelho Funchal. Outlet email column deliberately not recorded."
+      },
+      {
+        "url": "https://www.tsfmadeira.pt/",
+        "read_at": "2026-11-17",
+        "how": "single-page station site with editorial statute, ficha técnica, contacts; shareholders Empresa do Diário de Notícias 50% and Rádio Notícias 50%"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423236, operator 'Notícias 2000 FM - Actividade de Radiodifusão Sonora, Lda' (seat Funchal), service 'Estação Rádio Madeira - TSF Madeira', licence district Ilha da Madeira, concelho Funchal. Outlet email column deliberately not recorded.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.tsfmadeira.pt/",
+      "read_at": "2026-11-17",
+      "how": "single-page station site with editorial statute, ficha técnica, contacts; shareholders Empresa do Diário de Notícias 50% and Rádio Notícias 50%",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

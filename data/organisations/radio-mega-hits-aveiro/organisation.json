@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "radio-mega-hits-aveiro",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Mega Hits Aveiro",
+  "names_as_listed": [
+    "Mega Hits Aveiro"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page. Network site, copied to each Mega Hits record; the page lists frequencies Lisboa 92.4, Porto 90.6, Coimbra 90.0, Sintra 88.0, Aveiro 96.5, Braga 92.9, Viseu 106.4, Algarve 97.1.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:aveiro"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://megahits.fm/",
+    "owner": {
+      "name": "Rádio Regional de Aveiro - Empresa de Radiodifusão, Lda.",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://megahits.fm/rssfeed",
+        "format": "rss",
+        "source": {
+          "url": "https://megahits.fm/rssfeed",
+          "read_at": "2026-11-17",
+          "how": "checked by the researcher: HTTP 200, content-type text/xml, RSS body (Mega News); network feed"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://megahits.fm/sobre-nos",
+      "source": {
+        "url": "https://megahits.fm/sobre-nos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Nelson de Carvalho Cunha",
+        "role": "Responsável pela programação (as listed in the ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "José Pedro Leal Gonçalves",
+        "role": "Responsável pela informação (as listed in the ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Pedro Leal",
+        "role": "Director de Informação, Mega Hits (transparency page of the operator Rádio Renascença, dated 17 March 2026)",
+        "source": {
+          "url": "https://megahits.fm/transparencia",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      },
+      {
+        "name": "Nelson Cunha",
+        "role": "Director de Programação, Mega Hits (same page)",
+        "source": {
+          "url": "https://megahits.fm/transparencia",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "programming"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423154, operator 'Rádio Regional de Aveiro - Empresa de Radiodifusão, Lda.' (seat Vila Nova de Gaia), service 'Mega Hits Aveiro', licence district Aveiro, concelho Aveiro. Outlet email column deliberately not recorded."
+      },
+      {
+        "url": "https://megahits.fm/transparencia",
+        "read_at": "2026-11-17",
+        "how": "Lei 78/2015 transparency page of the network site: operator Rádio Renascença, Lda (Patriarcado de Lisboa 60%, Conferência Episcopal Portuguesa 40%), services include Mega Hits and Mega Hits Viseu"
+      },
+      {
+        "url": "https://megahits.fm/sobre-nos",
+        "read_at": "2026-11-17",
+        "how": "network about page: frequencies and contacts"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423154, operator 'Rádio Regional de Aveiro - Empresa de Radiodifusão, Lda.' (seat Vila Nova de Gaia), service 'Mega Hits Aveiro', licence district Aveiro, concelho Aveiro. Outlet email column deliberately not recorded.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://megahits.fm/transparencia",
+      "read_at": "2026-11-17",
+      "how": "Lei 78/2015 transparency page of the network site: operator Rádio Renascença, Lda (Patriarcado de Lisboa 60%, Conferência Episcopal Portuguesa 40%), services include Mega Hits and Mega Hits Viseu",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://megahits.fm/sobre-nos",
+      "read_at": "2026-11-17",
+      "how": "network about page: frequencies and contacts",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}
