@@ -8,6 +8,15 @@
   "ok": false,
   "from": "es-ES"
  },
+ "6ec4ccd94a799f3c": {
+  "t": "El ayuntamiento de Coímbra probó la IA watsonx de IBM para clasificar su correo electrónico",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Coimbra council tested IBM's watsonx AI to sort its council ",
+  "ok": false,
+  "from": "es-ES"
+ },
  "6eed47d4274c64d9": {
   "t": "Una startup de Castelo Branco envía drones e IA a revisar los cortafuegos",
   "by": "translator@PrompTugal.dinis",
