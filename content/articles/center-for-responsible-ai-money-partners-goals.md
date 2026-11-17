@@ -17,6 +17,16 @@ image_width: 1200
 image_height: 630
 image_alt: "A card: Portugal's Center for Responsible AI. 51.49 million euros from the Recovery and Resilience Plan, as the State's transparency portal shows."
 ---
+> **Update, 17 November 2026.** We had said the Center's status after June 2026 was unknown. In [a July interview with Dinheiro Vivo and Diário de Notícias](https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes), published on 18 July 2026, its chief executive gave his account:
+>
+> - **Coordination has moved to Sword Health.** The newspaper reports that Unbabel collapsed financially and that US investors bought its assets in August 2025. He said Unbabel's products were finished and stayed in Portugal.
+> - **About 87% to 88% of the plan was delivered.**
+> - **Investment:** about €49 million public and €27 million private, €76 million over three and a half years. These are counted differently from the €51.49 million and €77.7 million in the article below.
+> - **Expected sales:** €150 million by the end of 2026, mostly exports.
+> - **Examples he gave:** legal search software, hospital coding software, Halo (a voice tool for patients with a neurodegenerative disease) and Sword Health's physiotherapy system, which he said cut a Porto hospital's waiting time from two years to ten days.
+>
+> These are his statements as the newspaper reports them. We have not checked them independently.
+
 ## In short
 
 - The Center for Responsible AI is a Portuguese programme to build a new generation of AI products. Sword Health leads the consortium.

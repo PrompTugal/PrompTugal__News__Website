@@ -30,7 +30,7 @@ export function final(ctx) {
     // and the signed twins of withdrawn articles (data/site/withdrawn.json; standing answer 47 on the team site)
     // and ontologist@'s websummit-only inventory: refs only, but it names every person and session that comes off (the
     // pass 2026-11-11-only-websummit-sourced-comes-off, step 2)
-    const keep = ['data/websummit-only.json', DROP]   // and this list itself: with the switch on it names the files it keeps out
+    const keep = ['data/websummit-only.json', DROP, 'api/v1/i18n/segments.json']   // and this list itself: with the switch on it names the files it keeps out
     // the switch on (lib/wsonly.mjs): the raw files of every entity that came off, the raw company files that still hold a
     // websummit-only fact, edge or source, and the story files dev.data@ found resting only on websummit.com
     const g = ctx.store.wsGone
