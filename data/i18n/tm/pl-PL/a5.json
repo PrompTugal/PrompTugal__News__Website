@@ -1,0 +1,50 @@
+{
+ "a51f96c2293bce6d": {
+  "t": "AI i czujniki zamieniają nabrzeże Portimão w interaktywny pokaz świateł",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "AI and sensors turn Portimão's riverside into an interactive",
+  "ok": false
+ },
+ "a540cb47bbba9f83": {
+  "t": "Politechnika wydaje zasady korzystania z narzędzi AI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The polytechnic issues its rules for AI tools",
+  "ok": false
+ },
+ "a59069bec2b29c00": {
+  "t": "Brainr, startup z Leirii wprowadzający AI do fabryk żywności, przedłuża swoją rekordową rundę seed",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Brainr, the Leiria AI food-factory startup, extends its reco",
+  "ok": false
+ },
+ "a59f1749796b2268": {
+  "t": "APDC i Google uruchamiają kurs AI dla urzędników, inauguracja w Coimbrze",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "APDC and Google start an AI course for civil servants, kicke",
+  "ok": false
+ },
+ "a5e56e75b8fadd24": {
+  "t": "Szczerze, meu amigo, oto czego nie udało nam się znaleźć, a jest tego dużo, jak szukanie cienia o drugiej po południu w sierpniu:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Honestly, meu amigo, here is what we could not find, and it ",
+  "ok": false
+ },
+ "a5f2c7318be1c9ed": {
+  "t": "**Tożsamość tej strony:** PrompTugal.news {name} ma własny klucz, {key} (odcisk podpisu {fp}), opublikowany w [board/keys.json]({keys}). Jej plik badawczy, `{file}`, prowadzi {agent} i podpisuje tym kluczem, a podpis weryfikuje się z nim: **podpis ważny**.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "**This site's identity:** PrompTugal.news {name} has its own",
+  "ok": false
+ }
+}

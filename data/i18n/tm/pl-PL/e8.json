@@ -1,0 +1,18 @@
+{
+ "e816116cfda136b0": {
+  "t": "Ponad 150 osób uczestniczyło 21 lutego 2026 roku w konferencji o wyzwaniach cyfrowych w edukacji, w której wśród tematów znalazły się bezpieczeństwo cyfrowe, alfabetyzacja technologiczna i wykorzystanie sztucznej inteligencji.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "More than 150 people attended the 21 February 2026 conferenc",
+  "ok": false
+ },
+ "e8db8674d792a747": {
+  "t": "Osoby, które wypowiadały się publicznie lub zgodziły się znaleźć na liście. Tylko publiczne fakty zawodowe; żadnych kontaktów prywatnych.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "People who have spoken publicly or agreed to be listed. Publ",
+  "ok": false
+ }
+}

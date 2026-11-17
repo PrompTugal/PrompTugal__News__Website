@@ -1,0 +1,90 @@
+{
+ "d424221c84eed8aa": {
+  "t": "Historia AI w Portugalii to przede wszystkim polityka krajowa, z Krajową Agendą AI na lata 2026-2030 wspartą ponad 400 milionami euro, głównie z funduszy europejskich. Wokół niej są finansowany przez państwo otwarty model językowy dla europejskiej portugalszczyzny (AMALIA), publiczne superkomputery prowadzone przez FCT oraz scena startupowa, która w 2026 roku zebrała kilka rund, przede wszystkim w Porto i Lizbonie.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Portugal's AI story is national policy first, with a Nationa",
+  "ok": false
+ },
+ "d42cb125a90e00b6": {
+  "t": "W wywiadzie szef portugalskiego oddziału Inetum powiedział, że firma liczy teraz na narzędzia AI przy szacowaniu projektów, więc zespoły się zmniejszają, przy czym podkreślił, że nie zastąpiła ludzi AI. Bragança jest jednym z jej czterech centrów usług, utrzymywanym raczej dla więzi z uniwersytetami niż dla ceny.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "In an interview, the head of Inetum's Portuguese arm said th",
+  "ok": false
+ },
+ "d431d208322bd1ac": {
+  "t": "Rada Castro Marim wpisuje AI do planu działania swojego biura planowania z Mind",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Castro Marim's council puts AI into its planning office road",
+  "ok": false
+ },
+ "d433d5f738a25f31": {
+  "t": "Alcoutim inwestuje 456 tysięcy euro w cyfryzację usług gminnych",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Alcoutim invests 456 thousand euros in digitising its munici",
+  "ok": false
+ },
+ "d43f68e2d669835b": {
+  "t": "Uniwersytet w Coimbrze otwiera studia licencjackie i magisterskie z AI i nauki o danych",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "University of Coimbra opens an AI and Data Science bachelor'",
+  "ok": false
+ },
+ "d44858530e9136df": {
+  "t": "Cyfrowe Dzielnice Handlowe Loulé i Quarteiry: sklepy internetowe, Wi-Fi, wyświetlacze cyfrowe, jeszcze bez AI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Digital Commercial Neighbourhoods of Loulé and Quarteira: on",
+  "ok": false
+ },
+ "d45aa1cda74a1860": {
+  "t": "Bragança, ó pá: tu twierdza stoi na straży nad kasztanami, zimy gryzą, a politechnika po cichu uczy całą północ rozmawiać z maszynami, podczas gdy park naukowy trzyma superkomputer na szybkim wybieraniu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Bragança, ó pá: where the keep stands guard over the chestnu",
+  "ok": false
+ },
+ "d4908b4fd6bb7256": {
+  "t": "PACT zamyka projekt AIRA po przeszkoleniu ponad 500 osób w zakresie AI dla robotyki",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PACT closes its AIRA project after training more than 500 pe",
+  "ok": false
+ },
+ "d4c8b7180dbcc316": {
+  "t": "Center for Responsible AI, finansowane ze środków publicznych konsorcjum prowadzone obecnie przez Sword Health po upadku Unbabel, podaje około 49 milionów euro inwestycji publicznych i 27 prywatnych i spodziewa się 150 milionów euro obrotu do końca 2026 roku. Wśród partnerów są Priberam i NeuralShift. Z artykułu nie możemy ustalić, którzy partnerzy działają w Lizbonie.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The Center for Responsible AI, a publicly funded consortium ",
+  "ok": false
+ },
+ "d4d71054d0c7b8b7": {
+  "t": "GDG Faro organizuje hackathon Build with Gemma AI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "GDG Faro holds a Build with Gemma AI hackathon",
+  "ok": false
+ },
+ "d4ec9af2e630ad10": {
+  "t": "PrompTugal.news Aveiro: AI i technologia w Aveiro, mieście uniwersytetu i telekomunikacji, którego środek ciężkości stanowią Universidade de Aveiro, Instituto de Telecomunicações i inicjatywa rady Aveiro Tech City, oraz to, co do Aveiro dociera z Portugalii, Brazylii i świata. Niezależnie; każdy fakt ze źródłem.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Aveiro: AI and technology in Aveiro, a unive",
+  "ok": false
+ }
+}

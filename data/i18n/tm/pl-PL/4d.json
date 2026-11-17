@@ -1,0 +1,18 @@
+{
+ "4d3e04b864186034": {
+  "t": "Własne artykuły PrompTugal.news o {name} (front matter town: lub region:), każdy podpisany.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news's own articles about {name} (front matter to",
+  "ok": false
+ },
+ "4def806991338441": {
+  "t": "CitiLink zamienia długie protokoły rad w uporządkowaną informację o tematach, stanowiskach i decyzjach. Zbudowany przez INESC TEC, Uniwersytet w Porto i UBI w latach 2024 do początku 2026, objął Porto i pięć innych gmin oraz Porto Digital. Jury pochwaliło jego potencjał dla przejrzystości.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "CitiLink turns long municipal minutes into structured inform",
+  "ok": false
+ }
+}

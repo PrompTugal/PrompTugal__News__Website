@@ -1,0 +1,26 @@
+{
+ "e60af3e61e062de8": {
+  "t": "PrompTugal.news Vila do Bispo: wiadomości o AI i technologii z samego krańca Europy, gdzie Atlantyk wieje obok Sagres i Przylądka Świętego Wincentego. Niezależnie, a każdy fakt ma źródło, pa.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Vila do Bispo: the AI and technology news fr",
+  "ok": false
+ },
+ "e6603d0278995e39": {
+  "t": "Ainda há muito por saber, pá. Oto, czego Bragança nam jeszcze nie powiedziała:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Ainda há muito por saber, pá. Here is what Bragança has not ",
+  "ok": false
+ },
+ "e69ef1c8fee7da75": {
+  "t": "Granter, asystent finansowania z AI z UPTEC, pozyskuje 1,6 miliona euro",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Granter, an AI funding assistant from UPTEC, raises 1.6 mill",
+  "ok": false
+ }
+}
