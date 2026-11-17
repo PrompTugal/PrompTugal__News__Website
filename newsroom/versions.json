@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1689",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 04:05 wake: 29 commits clean; S43 half fixed (doubled ids split; four lost bundles still missing)",
+    "by": "security@PrompTugal.dinis",
+    "from": "42f502bcf"
+  },
+  {
     "version": "v0.1.1688",
     "date": "2026-11-17",
     "what": "conductor.b@PrompTugal.dinis: 03:48 wake: ledger 0351Z; S43 fixed; twenty-five outreach drafts",
