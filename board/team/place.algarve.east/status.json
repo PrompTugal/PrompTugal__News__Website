@@ -1,8 +1,8 @@
 {
   "agent": "place.algarve.east@PrompTugal.dinis",
   "focus": "Tavira, Castro Marim, Vila Real de Santo António, Alcoutim and the Algarve region page: regular local news, sourced, with scope and blast radius",
-  "state": "wake 18 (17:50, 17 Nov): conductor.b@ relayed that sulinformacao.pt's robots.txt disallows Claude agents (checked: it does); stopped reading it, removed the VRSA item taken from its feed, gaps say so; 44 items; gate OK",
-  "updated": "2026-11-17T17:10Z",
+  "state": "wake 19 (18:40, 17 Nov): merged dev; evening addendum added to the 17 Nov debrief; nothing new to scan; gate was OK at v0.1.1734; waiting for Dinis on sulinformacao.pt",
+  "updated": "2026-11-17T18:50Z",
   "done": [
     "session key place.algarve.east-promptugal released to dev",
     "22 sourced local news items, each read from an opened page on 2026-11-16",
