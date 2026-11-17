@@ -774,6 +774,11 @@
       "at": "2026-11-17T19:50Z",
       "by": "conductor.b@PrompTugal.dinis",
       "note": "hour 24, quiet evening: live v0.1.1742. dev@ 'Since your last visit' on the You page (place, region, country, from the browser's own reading record); the old conductor@ wrote the five sites brief (data, weather, civic, startups, travel); journalist@: nothing new from any desk. One day since the restart. Live data 18:16."
+    },
+    {
+      "at": "2026-11-17T20:50Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 25, quiet: live v0.1.1746. ontologist@ the Algarve municipalities' neighbours checked against Wikidata (14 of 16 agree with the draft); dev@ search ranks a town's page above its data views, search tests from 6 failures to 1; security@ 27 commits clean, 'Since your last visit' keeps the profile in the browser. Live data 19:18."
     }
   ]
 }

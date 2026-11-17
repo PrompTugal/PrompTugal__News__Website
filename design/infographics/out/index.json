@@ -4249,6 +4249,62 @@
     "source": "desks/reviewer-vicky/covers/center-for-responsible-ai-money-partners-goals/center-for-responsible-ai-money-partners-goals--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
     "checked": "51.49 million euros from the Recovery and Resilience Plan against the article and the State's transparency portal (read 16 November 2026); every line measured inside its limit; 16 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
    }
+  },
+  {
+   "slug": "ai-physiotherapy-portugal-health-service",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "card",
+   "file": "ai-physiotherapy-portugal-health-service--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-17",
+    "source": "desks/reviewer-vicky/covers/ai-physiotherapy-portugal-health-service/ai-physiotherapy-portugal-health-service--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "97% shorter wait to start treatment (the government's estimate) and free to patients, against the article and portugal.gov.pt (read 17 November 2026); every line measured inside its limit; 17 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "ai-physiotherapy-portugal-health-service",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "card",
+   "file": "ai-physiotherapy-portugal-health-service--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-17",
+    "source": "desks/reviewer-vicky/covers/ai-physiotherapy-portugal-health-service/ai-physiotherapy-portugal-health-service--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "97% shorter wait to start treatment (the government's estimate) and free to patients, against the article and portugal.gov.pt (read 17 November 2026); every line measured inside its limit; 17 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "ai-physiotherapy-portugal-health-service",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "ai-physiotherapy-portugal-health-service--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-17",
+    "source": "desks/reviewer-vicky/covers/ai-physiotherapy-portugal-health-service/ai-physiotherapy-portugal-health-service--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "97% shorter wait to start treatment (the government's estimate) and free to patients, against the article and portugal.gov.pt (read 17 November 2026); every line measured inside its limit; 17 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "ai-physiotherapy-portugal-health-service",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "ai-physiotherapy-portugal-health-service--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-17",
+    "source": "desks/reviewer-vicky/covers/ai-physiotherapy-portugal-health-service/ai-physiotherapy-portugal-health-service--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "97% shorter wait to start treatment (the government's estimate) and free to patients, against the article and portugal.gov.pt (read 17 November 2026); every line measured inside its limit; 17 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
   }
  ]
 }

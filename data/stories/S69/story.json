@@ -5,7 +5,7 @@
   "title": "AI physiotherapy in Portugal's health service: what the government says",
   "beat": "Portugal",
   "topic": null,
-  "status": "idea",
+  "status": "published",
   "rests_on": [
     "evidence:v-gov-sns-remote-physio-ai"
   ],
@@ -15,23 +15,55 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-17-1150.json"
+      "desks/curator/2026-11-17-1150.json",
+      "desks/journalist-vicky/drafts/S69-ai-physiotherapy-portugal-health-service.md",
+      "desks/reviewer-vicky/reviews/S69.md",
+      "content/articles/ai-physiotherapy-portugal-health-service.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-portugal@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S69-ai-physiotherapy-portugal-health-service.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "someone takes it (assignee)",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S69.md",
+      "verdict": "Ready, published under R-PUB-1",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-17"
+    }
+  ],
+  "article": {
+    "path": "content/articles/ai-physiotherapy-portugal-health-service.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-17T11:50Z",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-17-1150.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-17",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S69-ai-physiotherapy-portugal-health-service.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-17",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S69.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-17",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "content/articles/ai-physiotherapy-portugal-health-service.md"
     }
   ]
 }
