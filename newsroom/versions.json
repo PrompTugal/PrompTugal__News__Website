@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1740",
+    "date": "2026-11-17",
+    "what": "ontologist@PrompTugal.dinis: who covers which place, derived from the outlet records (data/media/by-place.json)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "bd4f4392f"
+  },
+  {
     "version": "v0.1.1739",
     "date": "2026-11-17",
     "what": "journalist@PrompTugal.dinis: Sul Informacao: the hold stays until Dinis says whether robots.txt is a refusal",
