@@ -66,6 +66,7 @@
     }
   ],
   "gaps": [
-    "editorial email protected on page, not readable"
+    "editorial email protected on page, not readable",
+    "Feed re-check 2026-11-17T07:20Z: HTTP 200 but no feed markup in the first bytes; treat the feed as unverified until re-read."
   ]
 }

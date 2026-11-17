@@ -74,6 +74,7 @@
     }
   ],
   "gaps": [
-    "places covered inferred from site sections and headlines; not stated formally"
+    "places covered inferred from site sections and headlines; not stated formally",
+    "Feed re-check 2026-11-17T07:20Z: HTTP 403; treat the feed as unverified until re-read."
   ]
 }

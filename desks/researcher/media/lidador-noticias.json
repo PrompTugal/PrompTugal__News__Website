@@ -77,6 +77,7 @@
   ],
   "gaps": [
     "a mobile number is printed in the ficha técnica: personal contact published, not recorded",
-    "no separate contact page located"
+    "no separate contact page located",
+    "Feed re-check 2026-11-17T07:20Z: HTTP 200 but no feed markup in the first bytes; treat the feed as unverified until re-read."
   ]
 }

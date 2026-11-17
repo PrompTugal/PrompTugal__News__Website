@@ -60,7 +60,8 @@
     }
   ],
   "gaps": [
-    "email obfuscated, not recorded"
+    "email obfuscated, not recorded",
+    "Feed re-check 2026-11-17T07:20Z: no connection (000); treat the feed as unverified until re-read."
   ],
   "id": "diario-dos-acores",
   "type": "organisation",
