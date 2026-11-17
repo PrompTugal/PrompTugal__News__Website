@@ -27,9 +27,9 @@
     // the fields of a page and their weights; b is how much a long field is discounted (only the body)
     const FIELDS = { title: { w: 8, b: 0 }, alias: { w: 5, b: 0 }, heads: { w: 3, b: 0 }, facet: { w: 2, b: 0 }, body: { w: 1, b: 0.75 } }
     const K1 = 1.2
-    const TYPE_BOOST = { topic: 1.15, article: 1.1, company: 1.05, event: 1, person: 1, story: 0.95, place: 0.9, site: 0.9, organisation: 0.85 }
-    const TYPE_LABEL = { company: 'Company', event: 'Event', person: 'Person', organisation: 'Organisation', topic: 'Topic', place: 'Place', article: 'Article', site: 'Page', newsroom: 'Newsroom page', story: 'Story' }
-    const TYPE_PLURAL = { company: 'Companies', event: 'Events', person: 'People', organisation: 'Organisations', topic: 'Topics', place: 'Places', article: 'Articles', site: 'Pages', newsroom: 'Newsroom', story: 'Stories' }
+    const TYPE_BOOST = { topic: 1.15, article: 1.1, company: 1.05, event: 1, person: 1, story: 0.95, place: 0.9, site: 0.9, organisation: 0.85, data: 0.6 }
+    const TYPE_LABEL = { company: 'Company', event: 'Event', person: 'Person', organisation: 'Organisation', topic: 'Topic', place: 'Place', article: 'Article', site: 'Page', newsroom: 'Newsroom page', story: 'Story', data: 'Data view' }
+    const TYPE_PLURAL = { company: 'Companies', event: 'Events', person: 'People', organisation: 'Organisations', topic: 'Topics', place: 'Places', article: 'Articles', site: 'Pages', newsroom: 'Newsroom', story: 'Stories', data: 'Data views' }
 
     const LETTERS = { 'ø': 'o', 'æ': 'ae', 'œ': 'oe', 'ß': 'ss', 'ł': 'l', 'đ': 'd', 'ð': 'd', 'þ': 'th', 'ı': 'i' }
     const fold = s => String(s == null ? '' : s).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[øæœßłđðþı]/g, c => LETTERS[c])
