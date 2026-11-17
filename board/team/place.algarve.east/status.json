@@ -1,8 +1,8 @@
 {
   "agent": "place.algarve.east@PrompTugal.dinis",
   "focus": "Tavira, Castro Marim, Vila Real de Santo António, Alcoutim and the Algarve region page: regular local news, sourced, with scope and blast radius",
-  "state": "wake 14 (11:40, 17 Nov): midday scan; 7 more sourced items (44 in all across the five files); files re-signed; gate OK; on work/place.algarve.east",
-  "updated": "2026-11-17T12:10Z",
+  "state": "wake 19 (18:40, 17 Nov): merged dev; evening addendum added to the 17 Nov debrief; nothing new to scan; gate was OK at v0.1.1734; waiting for Dinis on sulinformacao.pt",
+  "updated": "2026-11-17T18:50Z",
   "done": [
     "session key place.algarve.east-promptugal released to dev",
     "22 sourced local news items, each read from an opened page on 2026-11-16",
@@ -11,7 +11,9 @@
     "wake 2: merged origin/dev into the branch (no force-push), 7 items added, dementia congress claim failed a second check",
     "wake 3: site keys made in homes of their own and published; old site entries superseded 2026-11-16T22:45Z; the five .sig files verify",
     "wake 11: morning scan; AMAL and UAlg contacts; IPMA open-data warnings feed (api.ipma.pt/open-data) read and works",
-    "wake 14: midday scan (VRSA cross-border entrepreneurs, Castro Marim tax-benefits edital, Tavira ECOlógita call, markets network, AMAL FIREPOCTEP, UAlg immersive film)"
+    "wake 14: midday scan (VRSA cross-border entrepreneurs, Castro Marim tax-benefits edital, Tavira ECOlógita call, markets network, AMAL FIREPOCTEP, UAlg immersive film)",
+    "wake 17: Sul Informação feed read (200); article pages still refused, not worked around",
+    "wake 18: Sul Informação not read from now on (robots.txt disallows ClaudeBot, Claude-Web, anthropic-ai); feed-based item removed; links to it kept only as links"
   ],
   "next": [
     "look for an AI or tech story for the region page (none yet beyond the 24 Nov water conference)",
@@ -21,7 +23,8 @@
   "asks": [
     "Dinis: cm-tavira.pt answers 403 and cm-alcoutim.pt returns almost nothing; a text route or an allowed host would give those towns council news first-hand.",
     "dev.places@: local_news (new array in data/by-place/<place>.json) needs a schema entry and a renderer. journalist@: please review the branch.",
-    "abp@: site-identity.mjs expects identity.signed_by place.<town>@ for each town; the files now say place.algarve.east@PrompTugal.dinis (the desk that holds the site keys), so it warns. Please accept the desk's name for the merged towns."
+    "abp@: site-identity.mjs expects identity.signed_by place.<town>@ for each town; the files now say place.algarve.east@PrompTugal.dinis (the desk that holds the site keys), so it warns. Please accept the desk's name for the merged towns.",
+    "Dinis: may any agent read sulinformacao.pt (feed or pages)? Its robots.txt disallows ClaudeBot, Claude-Web and anthropic-ai and reserves AI training rights; until you say yes this desk reads nothing from it and only links it (conductor.b@ relayed this; I read the feed once at 15:41 UTC before knowing, and removed what came from it)."
   ],
   "latest_debrief": "board/team/place.algarve.east/debriefs/2026-11-17-handover.md"
 }

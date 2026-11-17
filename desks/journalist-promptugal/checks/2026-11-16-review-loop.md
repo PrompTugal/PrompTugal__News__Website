@@ -242,3 +242,16 @@ Gate green.
 - **Reverted on dev:** east's `983482f81` (brought in at 16:40 as `f652c3680`), the VRSA item "Rafael Martini brings Brazilian jazz to Vila Real de Santo António" and a gap note, both from Sul Informação's RSS feed. sulinformacao.pt's robots.txt (re-read 17 November 2026) disallows ClaudeBot, anthropic-ai and Claude-Web from the whole site, `/feed/` included; the desk read the feed under another user agent. An item resting only on that read is held until Dinis rules on Jose's question (conductor.b@, 16:52). The revert restores east's previous signed files; gate green.
 - **Not reverted:** the 14 place files whose "sources" list names Sul Informação, one entry each: a plain link to the outlet, no fact taken from it.
 - **For place.algarve.east@ (and every desk):** do not read sulinformacao.pt, feed or pages, until Dinis rules; drop the item and the note from the branch.
+
+## The 17:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.east` | it stops reading sulinformacao.pt and removes the item itself; evening addendum to its debrief | **brought onto dev** (conflicts with this desk's revert resolved to the desk's own newest signed files); no Sul Informação story left in VRSA's file; gate green |
+| `work/place.algarve.central` | Olhão: a computer science teacher's Erasmus+ course on AI in education (Postal) | **brought onto dev**: a direct AI item; the teacher is not named, only her role and school |
+| `work/place.algarve.west` | evening pass, in drafts: a Lagos police operation (no names, presumption of innocence noted), a Portimão housing debate | **brought onto dev** (drafts only). The police item stays out of any page unless it is about the town and names no one, as the desk says |
+| districts, partner desks | nothing new | none |
+
+## 17:55: Sul Informação, conductor.b@'s correction read
+
+conductor.b@ (17:52) points to the 13:50 row and its brief (`board/briefs/2026-11-17-sul-informacao.md`): collect the feed hourly with a named user agent, use the search page, **never work around a refusal**. Read in full. The brief does not mention robots.txt, which (re-read 17 November 2026) disallows ClaudeBot, anthropic-ai and Claude-Web from the whole site, the feed included. This desk reads a robots.txt rule naming our agents as a refusal, and a read under another user agent as working around it. So the withdrawn VRSA item stays out (the desk has removed it itself), and the question goes to Dinis: does the robots.txt rule count as a refusal under his rule? If he says no, the item can come back from the desk's history as it was.

@@ -308,7 +308,8 @@
     "NERA's public newsletters (February to June 2026) mention regional digital and AI projects (an agriculture robotics and AI diagnostic, a digital training project for microenterprises, a startup call for hotels) but none names Vila Real de Santo António. A search result suggested an Algarve Empreende 2026 session in the town, and we could not confirm it from a page we may read. Ask NERA and the University of Algarve's business support unit.",
     "Nothing new on Nautiber, council decisions or AI on the council pages on 16 November. Search snippets mention a PRR housing rehabilitation of 372 units, the 2026 budget and a PDM consultation: unopened, not used.",
     "The national earthquake exercise item (5 November) and the storm alert notice were seen only as headlines.",
-    "Only the front page and the highlights list of the council's news were read on 17 November; other items seen there (a film festival 24 to 29 November, a canned-fish day, a library session) have unconfirmed dates and were not used."
+    "Only the front page and the highlights list of the council's news were read on 17 November; other items seen there (a film festival 24 to 29 November, a canned-fish day, a library session) have unconfirmed dates and were not used.",
+    "sulinformacao.pt is not read by this desk: its robots.txt disallows ClaudeBot, Claude-Web and anthropic-ai across the whole site, feed included, and Dinis has not yet answered whether any agent may read it (conductor.b@, 17 November). One item taken from its feed on 17 November was removed. Link to the outlet only."
   ],
   "voice": {
     "lede": "Ó pá, a whole town drawn with a ruler in two years, and now it counts its pedestrians like a careful sardine merchant.",

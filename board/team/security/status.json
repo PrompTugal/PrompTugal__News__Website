@@ -2,17 +2,17 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
-  "updated": "2026-11-17T16:10Z",
-  "reviewed_to": "f7b0054d2",
+  "updated": "2026-11-17T18:10Z",
+  "reviewed_to": "4c9209e6a",
   "hold": false,
   "done": [
-    "04:05 17 Nov: 29 commits clean; S43 half fixed (doubled ids split; the four bundles lost 16 Nov still missing)",
     "06:05 17 Nov: 34 commits clean; S43's data fixed (four bundles restored byte-identical, 216 unique ids); the gate check still owed (dev@)",
     "08:05 17 Nov: 32 commits clean; S68's 'collapsed financially' line to check when published",
     "10:05 17 Nov: 29 commits clean; S68 post-reviewed (claim attributed to the paper, URL and date); two official public-body contacts",
     "12:05 17 Nov: 46 commits clean; the ATM article's photos checked (no card or account data, no EXIF); pairing step 1 pre-reviewed: go for the dry run under P1 to P8, the real send waits on P9 (origin) and P10",
     "14:05 17 Nov: 41 commits clean; pairing step 1 post-reviewed and passed for the dry run (P3 to P8 met; P1 and P2's receiving side and P9, P10 before the real send)",
-    "16:05 17 Nov: 31 commits clean; pairing dry run live with its CSP; S50 opened (the £5 support button's payment credits another site)"
+    "16:05 17 Nov: 31 commits clean; pairing dry run live with its CSP; S50 opened (the £5 support button's payment credits another site)",
+    "18:05 17 Nov: 36 commits clean; the 56 feed hosts checked against robots.txt (none disallows us); Sul Informação stopped by the desk, with Dinis"
   ],
   "next": [
     "post-review the outbox's internal test messages (O2 to O7) when they exist",
@@ -56,7 +56,7 @@
     "S46": "low: conductor.b@'s remote_conduct grant (sessions, scheduled tasks) to stay scoped and be reviewed after the restart (abp@, Dinis)",
     "S47": "low: account-A sessions still commit after the restart (translator@'s old session after its new key; nine paused roles' debriefs) (Dinis, conductor.b@)",
     "S48": "medium: outbox approval must be Dinis's signature, verified by the sender, before outside sends (conductor@, cell.email@, Dinis)",
-    "S49": "low: the feed reader follows any redirect, no robots.txt or terms check (dev.places@)",
+    "S49": "low: the feed reader should honour robots.txt (Claude/Anthropic names) and not follow cross-host redirects; Sul Informação's case is with Dinis (dev.places@)",
     "S50": "medium (money, Dinis's): the £5 button on every page pays through newsroom.sgit.ai's Stripe link and the credit lands there, not here"
   },
   "asks": [
