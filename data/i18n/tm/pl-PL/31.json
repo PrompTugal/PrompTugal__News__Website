@@ -1,0 +1,18 @@
+{
+ "311ec510fafeb612": {
+  "t": "Kanadyjska firma doradcza, z ponad 2000 pracowników w Portugalii, uruchomiła centrum w maju 2026 roku. Źródło nie podaje dla niego miasta.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The Canadian consulting firm, with over 2,000 staff in Portu",
+  "ok": false
+ },
+ "317c4adf0ece68f9": {
+  "t": "AuroraMed, portugalska firma healthtech skupiona na AI w zarządzaniu klinicznym, i wydział medyczny Uniwersytetu Algarve uruchomiły 20 kwietnia w Faro kurs dla osób decydujących w ochronie zdrowia, ze stypendiami finansowanymi z PRR.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "AuroraMed, a Portuguese healthtech focused on AI in clinical",
+  "ok": false
+ }
+}

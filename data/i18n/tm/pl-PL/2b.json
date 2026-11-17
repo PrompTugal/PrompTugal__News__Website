@@ -1,0 +1,42 @@
+{
+ "2b08c105c78338e0": {
+  "t": "Aktywność AI w Porto skupia się wokół UPTEC, parku naukowego Uniwersytetu w Porto, gdzie raport z 2025 roku znalazł co najmniej pięć startupów AI w zdrowiu, przemyśle i gastronomii, gdzie portugalsko-europejski program superkomputerowy (BSC AI Factory) rozpoczął w październiku 2026 roku nabór do inkubacji AI i gdzie Granter pozyskał w listopadzie 1,6 miliona euro. Wokół są fundusz venture z Porto (33N), szkoła biznesu (Porto Business School), społeczność AI w marketingu (AIhub) i Porto Digital, miejska instytucja cyfrowa, która opisuje AI do przewidywania ruchu i przepływów według zasady braku czarnej skrzynki i zabrała dwie rozmowy o AI na Smart City Expo w Barcelonie w listopadzie 2026 roku. Global Startup Ecosystem Report 2026 wymienia AI jako jeden z czterech motorów wzrostu. Szersza baza uniwersytecka i badawcza dodaje laboratorium LIACC wydziału FEUP, instytut badawczy INESC TEC (który w październiku 2026 roku gościł w Porto AI, Data and Robotics Forum) i Fraunhofer Portugal AICOS.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Porto's AI activity clusters around UPTEC, the science park ",
+  "ok": false
+ },
+ "2b512e47e2ed717b": {
+  "t": "Coimbra gości międzynarodową sesję o AI dla inteligentnych destynacji turystycznych",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Coimbra hosts an international session on AI for smart touri",
+  "ok": false
+ },
+ "2b7b9ad9a81e640c": {
+  "t": "Opowieść technologiczna Santarém to rolnictwo i żywność. Rada i Universidade Politécnica de Santarém, z ISLA Santarém, INIAV i terenem targowym CNEMA, budują Campus Tejo, park nauki i technologii poświęcony wodzie, rolnictwu i naukom o życiu, który zaprezentowano na Web Summit Lisbon 12 listopada 2026 roku. Strony, które przeczytaliśmy, nie mówią, że Campus Tejo używa AI, więc jego związek z AI to krótki wniosek przez rolnictwo precyzyjne i digitalizację. Bezpośrednia aktywność AI jest mniejsza i rozproszona: projekt AI w ISLA Santarém za 100 000 euro z PRR, sesje biznesowe i zdrowotne w CNEMA oraz program AI w rolnictwie na spotkaniu plantatorów borówki.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Santarém's technology story is agri-food. The council and th",
+  "ok": false
+ },
+ "2b849e5e92cfc33b": {
+  "t": "Guarda, ó pá: dość zimna, by zamrozić serwer, uparta jak granit, a w niej politechnika, która po cichu uczy maszyny i nauczyła kilku studentów czytać PDM, zanim zdążyli architekci.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Guarda, ó pá: cold enough to freeze a server, stubborn as gr",
+  "ok": false
+ },
+ "2bfcc1a9bf2f5a48": {
+  "t": "Jej studenci i pracownicy dostają bezpłatny dostęp do wersji pro trzech dużych modeli językowych przez usługę IAedu FCT, którą instytucja nazywa krokiem w stronę odpowiedzialnego i wspólnego użycia AI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Its students and staff get free access to the pro versions o",
+  "ok": false
+ }
+}
