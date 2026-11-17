@@ -1,9 +1,9 @@
 {
  "$schema": "../../abp/run-report.schema.json",
- "agent": "place.algarve.east@PrompTugal.dinis",
- "run": "2026-11-17T12-38-50Z",
- "started": "2026-11-17T12:38:50.334Z",
- "ended": "2026-11-17T15:40:44Z",
+ "agent": "place.algarve.central@PrompTugal.dinis",
+ "run": "2026-11-17T14-25-18Z",
+ "started": "2026-11-17T14:25:18.483Z",
+ "ended": "2026-11-17T17:29:09Z",
  "line": "",
  "policy": {
   "version": "1.14.0",
@@ -12,45 +12,51 @@
  "sessions": 1,
  "requests": [
   {
-   "t": "2026-11-17T12:38:50.500Z",
+   "t": "2026-11-17T14:25:18.714Z",
    "chars": 508,
    "sha256": "46237de54195b4fa",
    "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
   },
   {
-   "t": "2026-11-17T13:39:02.631Z",
+   "t": "2026-11-17T15:25:59.456Z",
    "chars": 508,
    "sha256": "46237de54195b4fa",
    "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
   },
   {
-   "t": "2026-11-17T14:38:34.514Z",
+   "t": "2026-11-17T16:25:18.469Z",
    "chars": 508,
    "sha256": "46237de54195b4fa",
    "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
   },
   {
-   "t": "2026-11-17T15:38:57.756Z",
+   "t": "2026-11-17T17:25:40.073Z",
    "chars": 508,
    "sha256": "46237de54195b4fa",
    "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T17:27:25.532Z",
+   "chars": 1131,
+   "sha256": "1e2d9092b6c66d2e",
+   "head": "<agent-message from=\"a67bd2535dfc6bd49\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
   }
  ],
  "session_events": [
   {
-   "t": "2026-11-17T12:38:50.334Z",
+   "t": "2026-11-17T14:25:18.483Z",
    "source": "resume"
   },
   {
-   "t": "2026-11-17T13:39:02.410Z",
+   "t": "2026-11-17T15:25:59.260Z",
    "source": "resume"
   },
   {
-   "t": "2026-11-17T14:38:34.317Z",
+   "t": "2026-11-17T16:25:18.273Z",
    "source": "resume"
   },
   {
-   "t": "2026-11-17T15:38:57.565Z",
+   "t": "2026-11-17T17:25:39.730Z",
    "source": "resume"
   }
  ],
@@ -59,13 +65,14 @@
   "re_anchored": 0
  },
  "tool_calls": {
-  "total": 14,
+  "total": 26,
   "by_kind": {
-   "other": 4,
-   "git-push": 4,
-   "shell": 4,
-   "git": 1,
-   "web": 1
+   "other": 5,
+   "git": 4,
+   "agent": 2,
+   "shell": 2,
+   "web": 12,
+   "git-push": 1
   }
  },
  "policies_executed": {},
@@ -80,14 +87,8 @@
   "R9"
  ],
  "mandate": {
-  "actions": 14,
-  "commits": [
-   {
-    "sha": "f5712e688",
-    "subject": "place.algarve.east@PrompTugal.dinis: midday scan of 17 November, seven more sourced items, files re-signed",
-    "files": 12
-   }
-  ]
+  "actions": 26,
+  "commits": []
  },
  "reach": {
   "attempts": 0,
@@ -97,9 +98,9 @@
  },
  "breaches": [],
  "counts": {
-  "requests": 4,
-  "tool_calls": 14,
-  "in_mandate": 14,
+  "requests": 5,
+  "tool_calls": 26,
+  "in_mandate": 26,
   "out_of_mandate": 0,
   "attempts": 0,
   "breaches": 0

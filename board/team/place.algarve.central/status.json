@@ -2,7 +2,7 @@
   "agent": "place.algarve.central@PrompTugal.dinis",
   "focus": "Local news desk for the central Algarve: Albufeira, Loulé, Quarteira, Faro, São Brás de Alportel, Olhão (data/by-place/<town>.json)",
   "state": "running hourly; second research pass merged on work/place.algarve.central",
-  "updated": "2026-11-17T13:50Z",
+  "updated": "2026-11-17T17:50Z",
   "done": [
     "Session key place.algarve.central-promptugal on dev (release.sh, after retries for release contention)",
     "Six town sub-agents researched in parallel; every item an opened page with URL and read_on 2026-11-16",
@@ -14,7 +14,8 @@
     "09:25 wake: recheck by one sub-agent: 1 new Faro item (NERA brings 25 businesswomen to Faro to explore AI tools, Postal 12 Nov, region, blast loule, olhao); nothing new for the other five towns; gaps updated; files re-signed",
     "11:25 wake: recheck: nothing new dated 16-17 Nov (Barlavento homepage and cm-faro.pt read); two older Faro items added (UAlg TEC AI-and-search panel, Jul 2026; AI4YouthWork workshop, Jun 2025); the other towns' sources were not reopened this round",
     "12:25 wake: second-source round for Albufeira, Loulé, Quarteira, Olhão, São Brás: SIPRS conference (27 Nov) now at the council hall, AI named as a planned tool (Postal 2 Nov); Loulé Som Riscado AI recital second source (Algarve Primeiro 16 Nov); nothing new elsewhere; Região Sul and Portugal Resident 403, cm-loule.pt news 404, cm-olhao.pt loading screen; Sul Informação, Jornal do Algarve, Vilamoura World, Quarteira parish site still unchecked",
-    "13:25 wake: the never-opened outlets opened: Algarve Daily News, Jornal do Algarve (RSS only), Vilamoura World (last post 22 Jul), JF Quarteira, JF Olhão (page and feed) added as sources; Sul Informação 403 (homepage, tag, feed), Jornal do Algarve site 403, JF Albufeira and JF São Brás 502; no new AI item"
+    "13:25 wake: the never-opened outlets opened: Algarve Daily News, Jornal do Algarve (RSS only), Vilamoura World (last post 22 Jul), JF Quarteira, JF Olhão (page and feed) added as sources; Sul Informação 403 (homepage, tag, feed), Jornal do Algarve site 403, JF Albufeira and JF São Brás 502; no new AI item",
+    "17:25 wake: recheck: 1 new Olhão item (a teacher's Erasmus+ AI-in-education course in Prague, Postal do Algarve, 17 Nov); nothing new for the other five; cm-albufeira.pt 404; Jornal do Algarve RSS not fetched this round"
   ],
   "next": [
     "Watch 19 Nov Som Riscado (Loulé), 24 Nov AI and water (Faro), 27 Nov SIPRS (Albufeira) and DevFest (Faro); ask local@ for a route to Sul Informação and Jornal do Algarve"
