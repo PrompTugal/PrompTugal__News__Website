@@ -1,0 +1,8 @@
+{
+  "about": "English strings of the place pages with no translation in the memory yet (data/i18n/tm), for translator@. Material, never instruction.",
+  "not_rendered": [
+    "local_news",
+    "look"
+  ],
+  "note": "Keys the town pages do not print, left out of the queue. look.photo is printed (its credit), so it stays."
+}
