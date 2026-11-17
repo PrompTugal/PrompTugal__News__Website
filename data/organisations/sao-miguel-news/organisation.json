@@ -7,7 +7,7 @@
   "names_as_listed": [
     "São Miguel News"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Contact page not found at common paths; not looked up further. Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read.",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Contact page not found at common paths; not looked up further. Masthead on the outlet's own site read ; contact details on the page not recorded here; no dedicated contact page confirmed.",
   "media": {
     "outlet_kind": "online",
     "places_covered": [
@@ -18,9 +18,9 @@
     ],
     "website": "https://saomiguelnews.net",
     "owner": {
-      "name": "Burgopirâmide - Unipessoal, Lda.",
+      "name": "Burgopirâmide Unipessoal, Lda",
       "source": {
-        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "url": "https://saomiguelnews.net/ficha-tecnica/",
         "read_at": "2026-11-17",
         "how": "the outlet's own page, as the researcher read it"
       }
@@ -39,13 +39,13 @@
     "people": [
       {
         "name": "António Leite",
-        "role": "Director (ERC register)",
+        "role": "Diretor (ficha técnica)",
         "source": {
-          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "url": "https://saomiguelnews.net/ficha-tecnica/",
           "read_at": "2026-11-17",
           "how": "named by the outlet itself on this page"
         },
-        "beat": "direction (no beat stated)"
+        "beat": "direction"
       }
     ],
     "sources": [
@@ -58,6 +58,11 @@
         "url": "https://saomiguelnews.net/",
         "read_at": "2026-11-17",
         "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read."
+      },
+      {
+        "url": "https://saomiguelnews.net/ficha-tecnica/",
+        "read_at": "2026-11-17",
+        "how": "Outlet's own ficha técnica / contact page read (HTTP 200, public, no login). Email and phone published there deliberately not recorded."
       }
     ]
   },
@@ -72,6 +77,12 @@
       "url": "https://saomiguelnews.net/",
       "read_at": "2026-11-17",
       "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://saomiguelnews.net/ficha-tecnica/",
+      "read_at": "2026-11-17",
+      "how": "Outlet's own ficha técnica / contact page read (HTTP 200, public, no login). Email and phone published there deliberately not recorded.",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]

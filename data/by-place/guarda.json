@@ -149,6 +149,54 @@
       "url": "https://politecnicoguarda.pt/noticias/",
       "kind": "university",
       "feed": "https://politecnicoguarda.pt/feed/"
+    },
+    {
+      "name": "A Guarda (media map, researcher@)",
+      "url": "https://www.jornalaguarda.com",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "beira.pt (media map, researcher@)",
+      "url": "https://beira.pt/",
+      "kind": "press",
+      "feed": "https://beira.pt/feed/"
+    },
+    {
+      "name": "Futuro da Guarda (media map, researcher@)",
+      "url": "https://www.futurodaguarda.pt",
+      "kind": "press",
+      "feed": "https://www.futurodaguarda.pt/feed/"
+    },
+    {
+      "name": "O Interior (media map, researcher@)",
+      "url": "https://www.ointerior.pt",
+      "kind": "press",
+      "feed": "https://www.ointerior.pt/feed/"
+    },
+    {
+      "name": "Rádio Altitude (media map, researcher@)",
+      "url": "https://www.altitude.fm/",
+      "kind": "press",
+      "feed": "https://www.altitude.fm/feed/"
+    },
+    {
+      "name": "Rádio Fronteira (media map, researcher@)",
+      "url": "https://radiofronteira.pt",
+      "kind": "press",
+      "feed": "https://radiofronteira.pt/feed/"
+    },
+    {
+      "name": "TB - Todas As Beiras (media map, researcher@)",
+      "url": "http://www.todasasbeiras.pt",
+      "kind": "press",
+      "feed": "http://www.todasasbeiras.pt/feed/"
+    },
+    {
+      "name": "Terras da Guarda (media map, researcher@)",
+      "url": "https://terrasdaguarda.sapo.pt/",
+      "kind": "press",
+      "feed": "https://terrasdaguarda.sapo.pt/feed/"
     }
   ],
   "events": [

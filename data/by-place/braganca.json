@@ -226,6 +226,36 @@
       "url": "https://estig.unipb.pt/en/events/",
       "kind": "university",
       "feed": null
+    },
+    {
+      "name": "A Voz de Bragança (media map, researcher@)",
+      "url": "https://avozdebraganca.sapo.pt/",
+      "kind": "press",
+      "feed": "https://avozdebraganca.sapo.pt/feed/"
+    },
+    {
+      "name": "Mensageiro de Bragança (media map, researcher@)",
+      "url": "https://mdb.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Rádio Brigantia (media map, researcher@)",
+      "url": "https://www.brigantia.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "M80 Bragança (media map, researcher@)",
+      "url": "https://m80.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Universidade FM (media map, researcher@)",
+      "url": "https://www.universidade.fm/",
+      "kind": "press",
+      "feed": "https://www.universidade.fm/feed/"
     }
   ],
   "events": [

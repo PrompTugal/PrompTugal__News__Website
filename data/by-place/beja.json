@@ -187,6 +187,30 @@
       "url": "https://www.ovibeja.pt",
       "kind": "events",
       "feed": null
+    },
+    {
+      "name": "Alentejo Atual (O Atual) (media map, researcher@)",
+      "url": "https://www.oatual.pt/",
+      "kind": "press",
+      "feed": "https://www.oatual.pt/feed/"
+    },
+    {
+      "name": "Jornal de Beja (media map, researcher@)",
+      "url": "https://jornaldebeja.sapo.pt/",
+      "kind": "press",
+      "feed": "https://jornaldebeja.sapo.pt/feed/"
+    },
+    {
+      "name": "Lidador Notícias (media map, researcher@)",
+      "url": "https://lidadornoticias.pt/",
+      "kind": "press",
+      "feed": "https://lidadornoticias.pt/feed/"
+    },
+    {
+      "name": "Rádio Pax (media map, researcher@)",
+      "url": "https://www.radiopax.com/",
+      "kind": "press",
+      "feed": "https://www.radiopax.com/feed/"
     }
   ],
   "events": [
