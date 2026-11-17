@@ -184,6 +184,60 @@
       "url": "https://www.gov.pt/entidades/camara-municipal-de-santarem",
       "kind": "council",
       "feed": null
+    },
+    {
+      "name": "Correio do Ribatejo (media map, researcher@)",
+      "url": "https://www.correiodoribatejo.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Jornal de Santarém (media map, researcher@)",
+      "url": "https://jornaldesantarem.sapo.pt",
+      "kind": "press",
+      "feed": "https://jornaldesantarem.sapo.pt/feed/"
+    },
+    {
+      "name": "Jornal Torrejano (media map, researcher@)",
+      "url": "https://jornaltorrejano.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Mais Ribatejo (media map, researcher@)",
+      "url": "https://maisribatejo.pt",
+      "kind": "press",
+      "feed": "https://maisribatejo.pt/feed/"
+    },
+    {
+      "name": "Médio Tejo (media map, researcher@)",
+      "url": "https://mediotejo.net",
+      "kind": "press",
+      "feed": "https://mediotejo.net/feed/"
+    },
+    {
+      "name": "Rádio Hertz (media map, researcher@)",
+      "url": "https://radiohertz.pt",
+      "kind": "press",
+      "feed": "https://radiohertz.pt/feed/"
+    },
+    {
+      "name": "Record Santarém (media map, researcher@)",
+      "url": "https://www.recordfm.pt/",
+      "kind": "press",
+      "feed": "https://www.recordfm.pt/feed/"
+    },
+    {
+      "name": "Smooth FM Santarém (media map, researcher@)",
+      "url": "https://smoothfm.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Rede Regional (media map, researcher@)",
+      "url": "https://www.rederegional.com",
+      "kind": "press",
+      "feed": null
     }
   ],
   "events": [
