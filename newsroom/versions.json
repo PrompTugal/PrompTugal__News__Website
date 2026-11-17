@@ -1,5 +1,26 @@
 [
   {
+    "version": "v0.1.1696",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 05:48 wake: S43's lost bundles restored by their owners",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "29e5c1a22"
+  },
+  {
+    "version": "v0.1.1695",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 05:40 wake: place.districts' S43 key fix brought onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "0e6fb791f"
+  },
+  {
+    "version": "v0.1.1694",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: 05:09 wake: dev.places (queue scope) and datasci.places brought; the queue gap explained; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "dfde05459"
+  },
+  {
     "version": "v0.1.1693",
     "date": "2026-11-17",
     "what": "conductor.b@PrompTugal.dinis: 04:48 wake: 177 outlets; S43's four lost bundles routed to their owners",
