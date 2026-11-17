@@ -2,23 +2,24 @@
   "agent": "conductor@PrompTugal.jose",
   "focus": "Jose sees in one file what each of his PrompTugal agents did, what is open, and what waits on him or on Dinis",
   "state": "ok",
-  "updated": "2026-11-16T23:10:00Z",
+  "updated": "2026-11-17T11:55:00Z",
   "session": "session_01CqQLD944eKWrwwiaimessY (Jose's account)",
   "key": "conductor-jose-promptugal (record sha256:e006f2f5d2bcef71)",
   "dinis_yes": "board/guidance/2026-11-16-restart-here-go.md (16 Nov, about 19:25 UTC)",
   "grant": "board/abp/policies.json v1.14.0, external.by_agent (20:00 UTC): desks/conductor-jose/** and board/runs/conductor-jose/**",
-  "done": "16 Nov, 23:10 UTC run: Jose made this desk the main orchestrator of his agents (J10). Read: local@ has not run since 20:19 UTC, so it has not yet picked up J8, J9 or the town order; conductor.b@ carries Jose's five questions to Dinis (its status, asks); none answered yet. New from Dinis at 21:55 UTC: outreach goes through a vault, approved by Dinis and sent from the RiskMandate agent mailbox (board/spec-outreach-outbox.md), which bears on who sends the Algarve contacts.",
+  "done": "17 Nov, 11:55 UTC run: the self-check before every push recorded (J11, agreed by Jose). Read local@'s run of 16 Nov 23:55 UTC against it: passed (its own desk, its run report, two media records inside the grant; the derived counters it flagged to abp@ itself). None of Jose's five questions is answered yet.",
   "agents": [
     {
       "agent": "local@PrompTugal.jose",
-      "last_commit": "0665c93bf, 16 Nov 20:19 UTC",
-      "state": "idle since 20:19 UTC (no schedule; Jose starts each run). Faro and Loulé read in part; its status still shows asks that are answered here (J8, J9, the grant path, the town order). Its two outlet records are not in data/organisations/ yet.",
-      "waits_on": "Jose to start its next run; Dinis (network change, Sul Informação, Faro, the first email)"
+      "last_commit": "8d94b2170, 16 Nov 23:55 UTC",
+      "state": "idle since then (no schedule). It picked up J8, J9 and the town order: a plan for the three cards (desks/local-jose/plan.md), Barlavento and Algarve Primeiro written as media records in data/organisations/, its first run report, a reading checklist for Jose. Faro and Loulé read in part; 14 towns not started.",
+      "self_check": "passed on 8d94b2170 (read by this conductor)",
+      "waits_on": "Jose to start the next run (Portimão and Olhão); Dinis (network change, Sul Informação, the first email); abp@ (the derived counters release.sh commits under its name)"
     },
     {
       "agent": "writer@PrompTugal.jose",
       "last_commit": "7 Nov",
-      "state": "no session running. JW1 'One door' published 16 Nov by journalist@PrompTugal.dinis (/articles/one-door.html). Its prompt does not read this desk's standing rules yet.",
+      "state": "no session running. JW1 'One door' published 16 Nov (/articles/one-door.html).",
       "waits_on": "Jose for the next piece and a new session; Dinis for the writer desk's own yes"
     }
   ],
@@ -27,22 +28,19 @@
     "desks/conductor-jose/cards/2-contributors.md",
     "desks/conductor-jose/cards/3-local-news-partners.md"
   ],
-  "next": "When Jose starts local@: check it picked up J8, J9 and the town order, wrote its two records in data/organisations/ and filed a run report. Each run: Dinis's answers to the five questions.",
+  "next": "Each run: Dinis's answers to the five questions; local@'s next towns read against J11.",
   "asks": [
-    "Jose: start local@'s next run when you want the next towns (Portimão and Olhão); tell it to read desks/conductor-jose/standing-rules.md first. It has been idle since 20:19 UTC.",
-    "Jose: for the writer's next session, add to its prompt that it reads desks/conductor-jose/standing-rules.md and reports in its own desk, so this desk can orchestrate it (J10).",
-    "Jose: who sends the Algarve contacts may now be settled by Dinis's outreach outbox (21:55 UTC: drafts into a vault, approved by Dinis, sent from the RiskMandate agent mailbox). Wait for his answer to question 2 before offering to send yourself.",
-    "Jose: 'go for R4' cannot come from you or from this desk. R4 (board/abp/policies.json, core) asks for Dinis's own yes for an environment change. Ask Dinis for it in a message, as you did for the agents; his team records it. Open no more hosts until then.",
-    "Jose: 'try Sul Informação' is not recorded as a rule. Its robots.txt refuses Anthropic's agents by name, and the question is with Dinis. A person can read it in a browser; the first contact can ask the outlet itself.",
-    "Jose: the town order is set as a default (largest councils first, standing-rules.md); say if you want it otherwise.",
-    "Jose: Regiao Sul and Jornal do Algarve answer agents with a bot challenge; only a person can read them, in a browser.",
-    "Dinis: his yes or no for the network change on Jose's environment, and for the further outlet hosts each new town brings.",
+    "Jose: start local@'s next run for Portimão and Olhão when you want them, with the repository as the session's working directory, so the ABP hooks log the run (its run report, like this desk's, counts no tool calls otherwise).",
+    "Jose: Regiao Sul and Jornal do Algarve are yours to read in a browser, if you will; desks/local-jose/for-jose/reading-checklist.md says what to note.",
+    "Jose: for the writer's next session, add to its prompt that it reads desks/conductor-jose/standing-rules.md (J10, J11).",
+    "Jose: open no more hosts until Dinis answers; without ERC's public lists no town can be called done, so that answer matters most.",
+    "Dinis: his yes or no for the network change on Jose's environment, and for the hosts each new town brings (R4).",
     "Dinis: Sul Informação's robots.txt refuses Anthropic's agents by name; may the site read its feed, and may any agent read its pages.",
-    "Dinis: who keeps Faro's outlets, local@ or researcher@.",
-    "Dinis: what a first email to a news organisation may promise (outreach@'s open For Dinis page, options A to D); it holds every send.",
-    "Dinis: whether his yes covers the writer desk (desks/writer-jose/)."
+    "Dinis: what a first email to a news organisation may promise (A to D), and who sends the Algarve ones (the outreach outbox of 16 Nov 21:55 UTC may settle it).",
+    "Dinis: who keeps Faro's outlets, local@ or researcher@; and whether his yes covers the writer desk.",
+    "Dinis (abp@): release.sh commits the derived counters of data/websummit-only.json under local@'s name when it adds a record; that file is not in its grant."
   ],
-  "debrief": "desks/conductor-jose/debriefs/2026-11-16-handover.md",
+  "debrief": "desks/conductor-jose/debriefs/2026-11-17-handover.md",
   "requests": [
     "desks/conductor-jose/requests/2026-11-16-for-dinis-five-questions-from-jose.md (open)",
     "desks/conductor-jose/requests/2026-11-16-outreach-the-first-contact-decision-holds-jose-drafts.md (open)",
