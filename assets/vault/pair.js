@@ -85,9 +85,11 @@ async function readOffer(dev, text, out) {
     const code = await P.matchCode(r.offer.nonce, r.offer.device, dev.bundle.signing_fingerprint)
     out.append(el('p', '', 'Pair with:'))
     out.append(el('p', 'pair-who', `${r.offer.name || 'a device with no name'} (${r.offer.device})`))
-    out.append(el('p', '', 'Both screens will show this code. Go on only if they match:'))
+    // P1 (security@'s post-review): only this device can show the code in step 1; the binding check is on the other
+    // device, whose Allow waits for this code once hellos are received (step 4)
     out.append(el('p', 'pair-code', code.replace(/(\d{3})(\d{3})/, '$1 $2')))
-    const go = el('button', 'btn', 'They match: prepare the answer'); go.type = 'button'
+    out.append(el('p', '', 'Your other device will show this code: allow there only if it matches.'))
+    const go = el('button', 'btn', 'Prepare the answer'); go.type = 'button'
     go.onclick = async () => {
         go.disabled = true
         try {
