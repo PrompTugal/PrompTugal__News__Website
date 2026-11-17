@@ -1,0 +1,18 @@
+{
+ "9703d5d5755755e4": {
+  "t": "dotmoovs, osnovan u Bragi, traži od korisnika da snime vježbu s udaljenosti od oko dva metra. Njegova UI pronalazi točke tijela i vraća izvješće za manje od minute, a tvrtka želi pomoći u otkrivanju sportskih talenata.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "dotmoovs, founded in Braga, has users film an exercise from ",
+  "ok": false
+ },
+ "971abde85bcb7a93": {
+  "t": "Granter prikuplja 1,6 milijuna eura da bi svoju UI platformu za financiranje proširio Europom",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Granter raises 1.6 million euros to take its AI funding plat",
+  "ok": false
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "bf391a32632fe262": {
+  "t": "PrompTugal.news Setúbal: UI i tehnologija u Setúbalu, lučkom i industrijskom gradu čije je težište Luka Setúbal, Politécnico i industrijski kompleks Mitrena, te što do Setúbala stiže iz Portugala, Europe i svijeta. Neovisno. Svaka činjenica ima izvor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Setúbal: AI and technology in Setúbal, a por",
+  "ok": false
+ },
+ "bf53a29e71668f9d": {
+  "t": "Guarda drži svoj UI blizu politehnike, kao dobru deku. Studij znanosti o podacima, projekt Digital PME vrijedan milijun eura i ugovor o ukrajinskim dronovima sve su pod jednim krovom, dok Câmara brine o orguljama u katedrali Sé i rođendanskoj proslavi, a privatne tvrtke uglavnom šute. Tanak glavni grad, sim senhor, ali čvrst.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Guarda keeps its AI close to the polytechnic, like a good bl",
+  "ok": false
+ },
+ "bf83eb91261331ba": {
+  "t": "Tinejdžeri u Setúbalu pitaju kako UI može graditi održivije tvrtke",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Teenagers in Setúbal ask how AI can build more sustainable c",
+  "ok": false
+ },
+ "bfa0ce8b493755f1": {
+  "t": "Ainda há muito por contar, pá. Evo što nam Aveiro još nije rekao:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Ainda há muito por contar, pá. Here is what Aveiro has not t",
+  "ok": false
+ },
+ "bfc3476a34dafd13": {
+  "t": "Još nema pronađene lokalne priče o UI-ju. Grad bez vijesti o UI-ju sam je po sebi nalaz: govori nam koje izvore i veze treba tražiti.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "No local AI story found yet. A town with no AI news is a fin",
+  "ok": false
+ },
+ "bfe94cd066a20981": {
+  "t": "Putem platforme IAEdu s FCCN-om studenti, nastavnici, istraživači i osoblje mogu graditi i dijeliti vlastite agente UI-ja, s modelima nekoliko pružatelja navedenih u članku i besplatnim API pristupom jednom starijem modelu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Through the IAEdu platform with FCCN, students, teachers, re",
+  "ok": false
+ }
+}

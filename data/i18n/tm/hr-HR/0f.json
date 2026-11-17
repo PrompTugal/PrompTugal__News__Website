@@ -1,0 +1,26 @@
+{
+ "0f03ca01715fc750": {
+  "t": "DevFest Faro daje dva dana praktičnoj izradi agenata UI-ja",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "DevFest Faro gives two days to building AI agents in practic",
+  "ok": false
+ },
+ "0f1974d078687ca1": {
+  "t": "Ainda há muito por contar, pá. Evo što nam Setúbal još nije rekao:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Ainda há muito por contar, pá. Here is what Setúbal has not ",
+  "ok": false
+ },
+ "0f37953a7650369c": {
+  "t": "Tvrtka koju su osnovali predavači informatike i stručnjak za menadžment sa sveučilišta ugrađuje UI u poslovni i industrijski softver kako bi poznavao podatke i pravila svake tvrtke. Njezini prvi kupci trebali bi biti mala i srednja poduzeća.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The company, set up by informatics lecturers and a managemen",
+  "ok": false
+ }
+}

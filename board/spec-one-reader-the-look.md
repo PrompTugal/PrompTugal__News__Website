@@ -41,3 +41,10 @@ It works in a browser at 390 and 1280 px, no page error; "Show a pairing code" g
 4. **Hide the raw JSON** behind "Copy the text"; the textarea of JSON reads as an error to a reader.
 5. **The two sections as two choices**, not two headings and a stray "Check it": a choice at the top, "This device has your vault: show a code" or "This device should join: scan or paste", each opening its own screen (P1, P2).
 6. P3 (the match code) and P4 (paired) wait on the access key; nothing to check yet.
+
+## Checked 17 Nov, 20:45 UTC (v0.1.1745): dev@'s "Since your last visit" on the You page (4acf8097c)
+It works: with a returning reader set to Loulé it shows Loulé 6 new, the Algarve 15, Portugal 22, from `api/v1/since.json`; nothing is sent; no page error. It renders unstyled (a plain list on paper). **The F2 look for exactly this markup** is in `design/one-reader/since.css`, tested by injection at 390 and 1280 px (pictures `design/decisions/one-reader/since-styled-1280.png`, `since-styled-390.png`): copy it into `assets/since/since.css`. Wording, in `since.js`:
+1. The note starts with " · " when there is no publisher: join only what exists (`[publisher, place, date]`), no leading separator.
+2. Dates as "16 Nov", the last visit as "Since your last visit, Thu 12 Nov" (no ISO, no colon).
+3. "Your place: Not set" on a first visit: F3's question ("Where are you reading from?") in its place.
+4. The town ring lists the site's own pieces tagged to Loulé ("Six people and 250 agents: the team behind PrompTugal.news", the RiskMandate film): fine if Loulé is their place, but they push the town's own news down; consider putting PrompTugal.news's own pieces in the country ring.

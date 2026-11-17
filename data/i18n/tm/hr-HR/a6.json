@@ -1,0 +1,18 @@
+{
+ "a60fab8528afa5b0": {
+  "t": "Quarteira: gdje su sardine otišle u mirovinu, stigle golf loptice, a roboti još čekaju u redu na plažnom baru.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Quarteira: where the sardines retired, the golf balls arrive",
+  "ok": false
+ },
+ "a623e7151e2e6722": {
+  "t": "Colégio Internacional de Vilamoura održao je 9. svibnja Summit o inovacijama u obrazovanju s panelima o tome kako UI utječe na poučavanje i učenje.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The Colégio Internacional de Vilamoura held an Innovation in",
+  "ok": false
+ }
+}

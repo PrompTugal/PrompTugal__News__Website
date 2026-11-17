@@ -1,0 +1,66 @@
+{
+ "861340a39322787c": {
+  "t": "U Faru je Universidade do Algarve, čiji kampusi u gradu usidruju većinu aktivnosti u području UI-ja u regiji: istraživanje (arheološki centar za inovacije vrijedan 31,5 milijuna eura koji će koristiti UI), nastava (objavljena sveučilišna politika o UI-ju, izvršni tečaj o UI-ju u zdravstvu s tvrtkom za zdravstvenu tehnologiju) i UALG TEC Campus, gdje se održavaju poslovni događaji o UI-ju. Ovdje je i zajednički sloj: GDG Faro organizira gradsku razvojnu konferenciju o agentnoj UI, a Algarve Evolution, Algarve STP i općina dodaju događaje i programe. Sama općina u onome što smo mogli pročitati malo koristi UI, pa je težište Fara inovacija i istraživanje, a ne gradska uprava.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Faro is home to the Universidade do Algarve, whose campuses ",
+  "ok": false
+ },
+ "862a47ccd096007f": {
+  "t": "Projekt nazvan QI 4.0 koristi senzore i modele strojnog učenja za praćenje zrenja sira Queijo Serpa DOP te hrani aplikaciju, još u razvoju, koja upozorava proizvođače kada se uvjeti u komori za zrenje počnu mijenjati. Trebao je biti predstavljen u Córdobi 14. studenoga 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "A project called QI 4.0 uses sensors and machine-learning mo",
+  "ok": false
+ },
+ "863d8453056fae11": {
+  "t": "Općina otvara osam digitalnih projekata startupima i sveučilištima Porta na pitch danu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The council opens eight digital projects to Porto's startups",
+  "ok": false
+ },
+ "867572ff80be5e8d": {
+  "t": "Karta Algarvea s njegovih {count} mjesta, svako povezano sa svojom stranicom",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Map of the Algarve with its {count} places, each linked to i",
+  "ok": false
+ },
+ "867d7d84af293cda": {
+  "t": "Pri potpisivanju 2021. 23 partnera pridružila su se istraživačkom i obrazovnom središtu za mediteransku prehranu u CEAT-u. Planovi su uključivali centar za digitalnu terapiju s Johns Hopkins University i Algarve Biomedical Center, obuku u virtualnoj stvarnosti, urbani vrt i znanstveni centar Ciência Viva. UI se ne spominje.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "At the 2021 signing, 23 partners joined a Mediterranean Diet",
+  "ok": false
+ },
+ "86ad806b1bec465d": {
+  "t": "Ó pá, Lagoa: sunce, vino, morska špilja s rupom u stropu, a sada i općina koja pita robote o zraku.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Ó pá, Lagoa: sun, wine, a sea cave with a hole in its roof, ",
+  "ok": false
+ },
+ "86c335ec6671a38b": {
+  "t": "Poduzetnici iz Portimãoa okupljaju se da razgovaraju o liderstvu, inovacijama i UI-ju",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Portimão entrepreneurs meet to talk leadership, innovation a",
+  "ok": false
+ },
+ "86db666b9311af7d": {
+  "t": "Campus Tejo u Santarému terenski je laboratorij na Tejou, kaže gradonačelnik u intervjuu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Santarém's Campus Tejo is a field lab on the Tejo, the mayor",
+  "ok": false
+ }
+}

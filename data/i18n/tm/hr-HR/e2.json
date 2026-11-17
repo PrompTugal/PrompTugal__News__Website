@@ -1,0 +1,26 @@
+{
+ "e2d661426a0261de": {
+  "t": "Escola Superior de Educação Universidade Politécnica de Santarém održala je 7. listopada 2026. otvoreno predavanje, otvoreno cijeloj zajednici, o tome kako tekstovi nastali uz UI stvaraju značenje i argumentaciju, iz perspektive brazilske tekstne lingvistike, za studente prve godine socijalne pedagogije.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The Escola Superior de Educação of the Universidade Politécn",
+  "ok": false
+ },
+ "e2ddef7c68fb2893": {
+  "t": "Udruga regionalnog tiska raspravlja o UI-ju u redakcijama u Vila Realu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Regional press association debates AI in newsrooms in Vila R",
+  "ok": false
+ },
+ "e2e77efaff9108b6": {
+  "t": "U sklopu projekta dekarbonizacije Quarteira Lab, koji vodi općina Loulé, na križanju u Avenida Dr. Carlos Mota Pinto postavljen je brojač ljudi i bicikala. Podaci idu na agregacijsku platformu i trebali bi stizati na digitalne ploče i mobilnu aplikaciju. Članak ne spominje UI. Starija stavka zadržana kao kontekst.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "As part of the Quarteira Lab decarbonisation project run by ",
+  "ok": false
+ }
+}
