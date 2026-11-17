@@ -8,6 +8,15 @@
   "ok": false,
   "from": "es-ES"
  },
+ "0925b81f49e5e095": {
+  "t": "La universidad de Portalegre coordina InovTechAgro II para modernizar el sector agroforestal",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Portalegre's university coordinates InovTechAgro II to moder",
+  "ok": false,
+  "from": "es-ES"
+ },
  "095294f29c5b82e9": {
   "t": "Desde el 22 de junio de 2026, los médicos del servicio nacional de salud pueden prescribir fisioterapia a domicilio con un dispositivo similar a una tableta de la empresa portuguesa Sword Health, en el que la IA analiza los movimientos y los corrige en tiempo real, con la revisión de un equipo clínico. ULS Algarve es una de las nueve unidades locales de salud que firmaron protocolos de IA. El artículo no menciona Faro y no dice que ULS Algarve preste el servicio.",
   "by": "translator@PrompTugal.dinis",

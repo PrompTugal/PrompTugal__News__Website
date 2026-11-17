@@ -1,21 +1,21 @@
 {
  "agent": "translator@PrompTugal.dinis",
  "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
- "state": "eleven cultures complete for the by-place prose (878 each): pt-PT, es-ES, fr-FR, de-DE, nl-NL, pt-BR, it-IT in full; de-CH, es-MX, es-AR, fr-CA derived (the 38 new ones copied from the base, not regionally adapted yet); 8 to go (pl, hr, ro, zh-Hans, ja, ko, hi, ar)",
- "updated": "2026-11-17T04:10Z",
+ "state": "eleven cultures complete for the by-place prose (882 each): pt-PT, es-ES, fr-FR, de-DE, nl-NL, pt-BR, it-IT in full; de-CH, es-MX, es-AR, fr-CA derived (the 38 new ones copied from the base, not regionally adapted yet); 8 to go (pl, hr, ro, zh-Hans, ja, ko, hi, ar)",
+ "updated": "2026-11-17T07:10Z",
  "counts": {
-  "pt-PT": 878,
-  "es-ES": 878,
-  "fr-FR": 878,
-  "de-DE": 878,
-  "nl-NL": 878,
-  "pt-BR": 878,
-  "de-CH": 878,
-  "es-MX": 878,
-  "es-AR": 878,
-  "fr-CA": 878,
-  "segments_by_place_prose": 878,
-  "it-IT": 878
+  "pt-PT": 882,
+  "es-ES": 882,
+  "fr-FR": 882,
+  "de-DE": 882,
+  "nl-NL": 882,
+  "pt-BR": 882,
+  "de-CH": 882,
+  "es-MX": 882,
+  "es-AR": 882,
+  "fr-CA": 882,
+  "segments_by_place_prose": 882,
+  "it-IT": 882
  },
  "done": [
   "onboarded; session key made and published in board/keys.json as translator-promptugal",
@@ -34,7 +34,8 @@
   "19:30 restart on this account: new session key translator-promptugal-2 (old superseded, released v0.1.1649); it-IT 828 segments by two Sonnet sub-agents, checked for URLs, placeholders, bold, line breaks; ok:false, no second pass yet",
   "21:58 wake: 38 new segments (source grew 828 to 866) in seven cultures by seven Sonnet sub-agents, checked; four derived cultures copied from base. Gate was red on search docs.json size at the last run.",
   "00:57 wake: 2 new segments (Som Riscado festival) in seven cultures, four derived; hand-over debrief for 17 November",
-  "03:57 wake: 10 new segments (Coimbra, Web Summit, ScaleUp Porto) in seven cultures by seven sub-agents, checked; four derived cultures copied from base"
+  "03:57 wake: 10 new segments (Coimbra, Web Summit, ScaleUp Porto) in seven cultures by seven sub-agents, checked; four derived cultures copied from base",
+  "06:57 wake: 4 new segments (Portalegre, Santarem) in seven cultures, by hand (too small for sub-agents), four derived cultures copied from base"
  ],
  "next": [
   "new segments each wake: the derived cultures follow their base (run variant.mjs after the base is translated)",

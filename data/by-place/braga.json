@@ -173,6 +173,60 @@
       "url": "https://gdg.community.dev/gdg-braga/",
       "kind": "events",
       "feed": null
+    },
+    {
+      "name": "Antena Minho (media map, researcher@)",
+      "url": "https://antenaminho.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Cidade FM (media map, researcher@)",
+      "url": "https://www.cidade.fm/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Cidade Hoje (media map, researcher@)",
+      "url": "https://www.cidadehoje.pt/",
+      "kind": "press",
+      "feed": "https://cidadehoje.sapo.pt/feed/"
+    },
+    {
+      "name": "Correio do Minho (media map, researcher@)",
+      "url": "https://www.correiodominho.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Pressnet (media map, researcher@)",
+      "url": "https://www.pressnet.pt",
+      "kind": "press",
+      "feed": "https://www.pressnet.pt/feed/"
+    },
+    {
+      "name": "Mega Hits Braga (media map, researcher@)",
+      "url": "https://megahits.fm/",
+      "kind": "press",
+      "feed": "https://megahits.fm/rssfeed"
+    },
+    {
+      "name": "RUM - Rádio Universitária do Minho (media map, researcher@)",
+      "url": "https://www.rum.pt/",
+      "kind": "press",
+      "feed": "https://www.rum.pt/feed/"
+    },
+    {
+      "name": "Terras de Braga (media map, researcher@)",
+      "url": "https://terrasdebraga.sapo.pt",
+      "kind": "press",
+      "feed": "https://terrasdebraga.sapo.pt/feed/"
+    },
+    {
+      "name": "Terras do Homem (media map, researcher@)",
+      "url": "https://www.terrasdohomem.pt",
+      "kind": "press",
+      "feed": "https://www.terrasdohomem.pt/feed/"
     }
   ],
   "events": [

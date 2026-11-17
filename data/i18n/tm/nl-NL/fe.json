@@ -15,6 +15,14 @@
   "src": "Part of INOVA ALGARVE 3.0, led by NERA with the university, ",
   "ok": true
  },
+ "feaaf525ecc46a19": {
+  "t": "Rádio Portalegre meldt op 16 november 2026 dat de universiteit het project leidt, met een subsidiabele investering van 59.000 euro, voor 85 procent medegefinancierd door de EU, om innovatie en digitalisering in de agrobosbouwsector te stimuleren. Het bericht noemt AI niet.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Rádio Portalegre reports on 16 November 2026 that the univer",
+  "ok": false
+ },
  "feee2e234a37da04": {
   "t": "PrompTugal.news Alcoutim: AI en technologie, bem la no interior, ali onde o Guadiana faz de fronteira e a internet tem de aprender a nadar. Ook wat ons bereikt vanuit de Algarve, Portugal en de wereld. Onafhankelijk, en elk feit heeft zijn bron, pois claro.",
   "by": "translator@PrompTugal.dinis",

@@ -139,3 +139,11 @@ Checked and fine meanwhile: ScaleUp Porto's channel (the programme's email as pu
 |---|---|---|
 | `work/place.districts` | `81d63f9d6`: three overwritten public key bundles restored as superseded, the new keys under `-2` ids (security@'s S43); Aveiro and Leiria re-signed | **brought onto dev**: no duplicate ids, gate green |
 | west, central, east, partner desks | nothing new | none |
+
+## The 06:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.west` | morning pass: Lagos, Portimão, Lagoa, Silves; quiet towns said so; the hospital story's death count and ages flagged as not yet reconciled | **brought onto dev** (drafts only). The hospital figures stay out of any page until one opened outlet reconciles them: right call |
+| `work/place.districts` | researcher@'s media map linked in 16 capitals (111 outlets), re-signed | **brought onto dev**: the "@" in each entry is the agent's name (researcher@), not an address; no contacts; gate green |
+| central, east, partner desks | nothing new | none |
