@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "tds-televisao-do-sul",
+  "type": "organisation",
+  "kind": "media",
+  "name": "TDS (Televisão do Sul)",
+  "names_as_listed": [
+    "TDS Rádio e Televisão do Sul"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: contact page content not read. the register also lists the radio services TDS - Telefonia do Sul (93.9 FM) and TDS Ponte de Sor (96 FM) under DiálogoHábil / Match FM: not mapped as separate records.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:evora"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://televisaodosul.pt/",
+    "owner": {
+      "name": "DiálogoHábil, Unipessoal, Lda; sole manager Amílcar Nuno Caraça de Matos",
+      "source": {
+        "url": "https://televisaodosul.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://televisaodosul.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://televisaodosul.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml; charset=UTF-8, RSS 2.0 body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://televisaodosul.pt/contactos/",
+      "source": {
+        "url": "https://televisaodosul.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Amílcar Matos",
+        "role": "Diretor (jornalista CP 4316)",
+        "source": {
+          "url": "https://televisaodosul.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://televisaodosul.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "Ficha técnica (ERC 127315, seat Travessa João Rosa 5A, Évora)."
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127315 for 'TDS Rádio e Televisão do Sul'. Outlet email column deliberately not recorded here."
+      },
+      {
+        "url": "https://televisaodosul.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "Contact page listed in the home page; content not read."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://televisaodosul.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "Ficha técnica (ERC 127315, seat Travessa João Rosa 5A, Évora).",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127315 for 'TDS Rádio e Televisão do Sul'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://televisaodosul.pt/contactos/",
+      "read_at": "2026-11-16",
+      "how": "Contact page listed in the home page; content not read.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

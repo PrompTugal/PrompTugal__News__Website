@@ -1,0 +1,178 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "semmais",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Semmais (S+)",
+  "names_as_listed": [
+    "Semmais",
+    "S+"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: a telephone number is printed: not recorded. beats not stated.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:setubal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://semmais.pt/",
+    "owner": {
+      "name": "Maiscom Edição e Publicações, Unipessoal, Lda; sole shareholder Raul Manuel Tavares Pereira",
+      "source": {
+        "url": "https://semmais.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://semmais.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://semmais.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml; charset=UTF-8, RSS 2.0 body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://semmais.pt/contactos/",
+      "source": {
+        "url": "https://semmais.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Raul Tavares",
+        "role": "Diretor",
+        "source": {
+          "url": "https://semmais.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Anabela Ventura",
+        "role": "Redação",
+        "source": {
+          "url": "https://semmais.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "António Luís",
+        "role": "Redação",
+        "source": {
+          "url": "https://semmais.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Cristina Martins",
+        "role": "Redação",
+        "source": {
+          "url": "https://semmais.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Carlota Batista",
+        "role": "Redação",
+        "source": {
+          "url": "https://semmais.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Dora Duarte",
+        "role": "Redação",
+        "source": {
+          "url": "https://semmais.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "José Bento Amaro",
+        "role": "Redação",
+        "source": {
+          "url": "https://semmais.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Cristina Almeida",
+        "role": "Coordenação Comercial",
+        "source": {
+          "url": "https://semmais.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Pedro Frade",
+        "role": "Direção de arte",
+        "source": {
+          "url": "https://semmais.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Mila Oliveira",
+        "role": "Serviços Administrativos e Financeiros",
+        "source": {
+          "url": "https://semmais.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://semmais.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "Ficha técnica."
+      },
+      {
+        "url": "https://semmais.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "Contacts page (reachable, consent banner only in text read)."
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 123090 for 'Semmais'. Outlet email column deliberately not recorded here."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://semmais.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "Ficha técnica.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://semmais.pt/contactos/",
+      "read_at": "2026-11-16",
+      "how": "Contacts page (reachable, consent banner only in text read).",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 123090 for 'Semmais'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

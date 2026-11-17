@@ -1,0 +1,85 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "jpn-jornalismoportonet",
+  "type": "organisation",
+  "kind": "media",
+  "name": "JPN - JornalismoPortoNet",
+  "names_as_listed": [
+    "JPN - JornalismoPortoNet"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: The /equipa/ page exists (students and staff) and was not read.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:porto"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.jpn.up.pt/",
+    "owner": {
+      "name": "Universidade do Porto",
+      "source": {
+        "url": "https://www.jpn.up.pt/ficha-tecnica/",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.jpn.up.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://www.jpn.up.pt/feed/",
+          "read_at": "2026-11-17",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml, RSS 2.0 body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.jpn.up.pt/contactos/",
+      "source": {
+        "url": "https://www.jpn.up.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Paulo Frias",
+        "role": "Diretor",
+        "source": {
+          "url": "https://www.jpn.up.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.jpn.up.pt/ficha-tecnica/",
+        "read_at": "2026-11-17",
+        "how": "Ficha tecnica: 'registada na ERC com o n.º 127692', daily on working days."
+      },
+      {
+        "url": "https://www.jpn.up.pt/contactos/",
+        "read_at": "2026-11-17",
+        "how": "Contacts."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.jpn.up.pt/ficha-tecnica/",
+      "read_at": "2026-11-17",
+      "how": "Ficha tecnica: 'registada na ERC com o n.º 127692', daily on working days.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.jpn.up.pt/contactos/",
+      "read_at": "2026-11-17",
+      "how": "Contacts.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}
