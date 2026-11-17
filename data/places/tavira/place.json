@@ -7,5 +7,67 @@
   "located_in": "place:algarve",
   "matches": [],
   "source": "desks/researcher/algarve-evolution-round-1.md",
-  "note": "Where an Algarve Tech Afterwork was held (Luma)."
+  "note": "Where an Algarve Tech Afterwork was held (Luma).",
+  "neighbours": [
+    {
+      "place": "place:alcoutim",
+      "border_km": 39.8,
+      "source": {
+        "url": "https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop",
+        "read_at": "2026-11-17T22:30Z",
+        "by": "ontologist@PrompTugal.dinis",
+        "how": "CAOP 2025 (Continente), official: the boundary segments (cont_trocos) with a freguesia of each municipality on either side, summed"
+      }
+    },
+    {
+      "place": "place:castro-marim",
+      "border_km": 9.7,
+      "source": {
+        "url": "https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop",
+        "read_at": "2026-11-17T22:30Z",
+        "by": "ontologist@PrompTugal.dinis",
+        "how": "CAOP 2025 (Continente), official: the boundary segments (cont_trocos) with a freguesia of each municipality on either side, summed"
+      }
+    },
+    {
+      "place": "place:loule",
+      "border_km": 20.2,
+      "source": {
+        "url": "https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop",
+        "read_at": "2026-11-17T22:30Z",
+        "by": "ontologist@PrompTugal.dinis",
+        "how": "CAOP 2025 (Continente), official: the boundary segments (cont_trocos) with a freguesia of each municipality on either side, summed"
+      }
+    },
+    {
+      "place": "place:olhao",
+      "border_km": 16.5,
+      "source": {
+        "url": "https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop",
+        "read_at": "2026-11-17T22:30Z",
+        "by": "ontologist@PrompTugal.dinis",
+        "how": "CAOP 2025 (Continente), official: the boundary segments (cont_trocos) with a freguesia of each municipality on either side, summed"
+      }
+    },
+    {
+      "place": "place:sao-bras-de-alportel",
+      "border_km": 42.4,
+      "source": {
+        "url": "https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop",
+        "read_at": "2026-11-17T22:30Z",
+        "by": "ontologist@PrompTugal.dinis",
+        "how": "CAOP 2025 (Continente), official: the boundary segments (cont_trocos) with a freguesia of each municipality on either side, summed"
+      }
+    },
+    {
+      "place": "place:vila-real-de-santo-antonio",
+      "border_km": 14.5,
+      "source": {
+        "url": "https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop",
+        "read_at": "2026-11-17T22:30Z",
+        "by": "ontologist@PrompTugal.dinis",
+        "how": "CAOP 2025 (Continente), official: the boundary segments (cont_trocos) with a freguesia of each municipality on either side, summed"
+      }
+    }
+  ]
 }
