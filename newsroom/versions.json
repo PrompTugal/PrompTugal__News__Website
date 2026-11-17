@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1724",
+    "date": "2026-11-17",
+    "what": "conductor@PrompTugal.dinis: derived story data for the opinion piece (derive.mjs)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "af3933569"
+  },
+  {
     "version": "v0.1.1723",
     "date": "2026-11-17",
     "what": "conductor.b@PrompTugal.dinis: 12:48 wake: ledger 1252Z; Jose's question on outlet data carried to Dinis",
