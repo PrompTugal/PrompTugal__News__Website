@@ -18,3 +18,7 @@ Items 1 and 2 are from the council site cm-silves.pt. Items 3 to 5 are from post
 - A cm-silves.pt "Tertulia Insurgente" media-debate item (https://www.cm-silves.pt/pt/noticias/43500/tertulia-insurgente-debate-influencia-do-poder-politico-e-economico-na-comunicacao-social.aspx) was not opened. A Jazz nas Adegas item was seen in search only.
 - Barlavento, Sul Informacao and Portugal Resident were not checked. No separate Armacao de Pera item.
 - No AI or technology item for Silves in this window.
+
+## Follow-up, read 16 November 2026 (23:35 UTC)
+- **Silves councillor at the regional local-markets network's third anniversary**, at the Sao Bartolomeu de Messines market on 12 November. Alcoutim and Mexilhoeira Grande joined and the network's motto became "De Sagres a Alcoutim". Source: https://www.barlavento.pt/rede-regional-mercados-locais-sagres-a-alcoutim-tres-anos/ (published 16 Nov, read 16 Nov). Technology thread: weak, 1 step (Olhao's "Bairros Digitais" was presented, no detail, no AI). Significance: region.
+- **Silves signs the rural-territories manifesto** with 14 other Algarve councils (see Monchique): https://www.barlavento.pt/manifesto-territorios-rurais-15-municipios-algarve-vicentina/ (published 13 Nov). Significance: region.

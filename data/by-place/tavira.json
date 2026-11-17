@@ -267,8 +267,8 @@
     }
   ],
   "identity": {
-    "key_id": "site.tavira-promptugal",
-    "signed_by": "place.tavira@PrompTugal.dinis"
+    "key_id": "site.tavira-promptugal-2",
+    "signed_by": "place.algarve.east@PrompTugal.dinis"
   },
   "gaps": [
     "No AI company, startup or university group headquartered in Tavira was found on any page we could open. A first pass is not proof of absence: the company registry (Racius, Informa D&B) and LinkedIn were not searched.",

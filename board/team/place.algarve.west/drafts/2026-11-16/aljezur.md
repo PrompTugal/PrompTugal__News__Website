@@ -17,3 +17,6 @@ All three items come from the council's own site. No item passes the PrompTugal 
 - Sweet Potato Festival 2026 (late November): only a 2025 article found, so no 2026 dates confirmed.
 - No GNR, ICNF or civil protection reading, and nothing on damage after the 11 November alert.
 - No AI, start-up or digital item for Aljezur in this pass.
+
+## Follow-up, read 16 November 2026 (23:35 UTC)
+Nothing new verified on Barlavento beyond the 10 to 11 November storm reports. Barlavento's RSS (barlavento.pt/feed and /?s=Aljezur&feed=rss2) loads and is the way to watch Aljezur. Sul Informacao answers 403. Unverified lead from a Sul Informacao snippet only: Aljezur applying for EUR 2.63M in energy-efficiency funding for four public buildings (also fits the energy pillar in data/by-place/aljezur.json). Open it through the council or another outlet before citing.

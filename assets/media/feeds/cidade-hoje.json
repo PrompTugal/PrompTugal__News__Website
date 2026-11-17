@@ -1,0 +1,32 @@
+{
+ "id": "cidade-hoje",
+ "feed": "https://cidadehoje.sapo.pt/feed/",
+ "read_at": "2026-11-16T22:14Z",
+ "items": [
+  {
+   "title": "Famalicão: Horas antes de acontecer na rotunda de Sto António, carro despistou-se e invadiu rotunda Bernardino Machado",
+   "link": "https://cidadehoje.sapo.pt/famalicao-horas-antes-de-acontecer-na-rotunda-de-sto-antonio-carro-despistou-se-e-invadiu-rotunda-bernardino-machado/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Famalicão: Festa da francesinha na Carreira",
+   "link": "https://cidadehoje.sapo.pt/famalicao-festa-da-francesinha-na-carreira/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Famalicão: Herói dos quartos de final da Taça da Liga renova até 2031",
+   "link": "https://cidadehoje.sapo.pt/famalicao-heroi-dos-quartos-de-final-da-taca-da-liga-renova-ate-2031/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Famalicão: Cristina Clara estreia novo álbum no Teatro Narciso Ferreira",
+   "link": "https://cidadehoje.sapo.pt/famalicao-cristina-clara-estreia-novo-album-no-teatro-narciso-ferreira/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Famalicão: 365 Running Project conquista três pódios coletivos no Campeonato Regional de Trail em Barcelos",
+   "link": "https://cidadehoje.sapo.pt/famalicao-365-running-project-conquista-tres-podios-coletivos-no-campeonato-regional-de-trail-em-barcelos/",
+   "date": "2026-11-16"
+  }
+ ]
+}

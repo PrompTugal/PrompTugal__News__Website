@@ -441,6 +441,13 @@
       "url": "https://www.barlavento.pt/devfest-faro-inteligencia-artificial/",
       "read_on": "2026-11-15",
       "ai_path": "A two-day conference on agentic AI: directly about AI."
+    },
+    {
+      "title": "Algarve 2030 and Público conference on AI and water management, update with details",
+      "date": "2026-11-24",
+      "url": "https://postal.pt/europedirectalgarve/faro-recebe-conferencia-sobre-inteligencia-artificial-e-gestao-da-agua-no-algarve/",
+      "read_on": "2026-11-16",
+      "note": "14:00 to 18:00, Auditório 1.4, Campus da Penha, University of the Algarve, Faro; panels on smart water management and smart cities with water and municipal utility bodies (Águas do Algarve, AMAL, APA among them); minister closes online; no registration stated; no change to date"
     }
   ],
   "ai_map": [
@@ -733,7 +740,8 @@
     "4Global Portugal (sports data and AI, said to be in Ualg Tec Start) came only from a search snippet of racius.com; not opened, not added. Witflow, Deloitte Faro office and Invisible CFO: no AI page opened.",
     "No 2026 Algarve Tech Hub Summit page for Faro found (past editions in Lagos 2025 and elsewhere). CCDR Algarve news page 404; no Algarve 2030 AI call for companies confirmed as open (a 4 million euro digitalisation call named in a search result was not opened).",
     "ULS Algarve (Faro hospital): no AI project of its own found in 2026; robotic surgery (since November 2025) is robotics, not AI, and its pages were not opened.",
-    "UAlg agenda for November lists no AI event; its Faro neighbours' AI items (Olhao Bairros Digitais, Loule, Sao Bras) belong to their own town files: the Bairros Digitais article does not mention AI."
+    "UAlg agenda for November lists no AI event; its Faro neighbours' AI items (Olhao Bairros Digitais, Loule, Sao Bras) belong to their own town files: the Bairros Digitais article does not mention AI.",
+    "Barlavento tag page and feed returned only a JPEG (unreadable). cm-faro.pt latest news has nothing on AI (a 3 Nov accessibility app item does not call itself AI). ualg.pt news first page has no new AI item beyond the already-listed schools talks. DevFest Faro 27-28 Nov: no update found."
   ],
   "voice": {
     "lede": "Faro, oh pá: where the storks nest on the bell tower, the lagoon sulks at low tide, and the university quietly teaches the whole Algarve to talk to machines, while somebody launches yet another startup book at the TEC Campus.",

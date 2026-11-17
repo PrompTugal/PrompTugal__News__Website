@@ -9,21 +9,24 @@ const okUrl = u => typeof u === 'string' && /^https?:\/\//i.test(u)
 const day = s => String(s || '').slice(0, 10)
 const outlets = ctx => (ctx.store.organisations || []).filter(o => o.kind === 'media' && o.media).sort((a, b) => a.name.localeCompare(b.name))
 const covers = o => (o.media.places_covered || []).map(x => String(x).replace(/^place:/, ''))
-const mdLink = (ctx, t, u) => `[${ctx.md.cell(String(t))}](${u})`
+// text and URL made safe for a markdown link: outside feeds' headlines may hold brackets (dev@, review of 917e55f)
+const mdLink = (ctx, t, u) => `[${ctx.md.cell(String(t)).replace(/\[/g, '(').replace(/\]/g, ')')}](${String(u).trim().replace(/\(/g, '%28').replace(/\)/g, '%29').replace(/ /g, '%20')})`
 
+// the outlet's latest headlines (headline, link and date only), read from its own feed by newsroom/build/tools/media-feeds.mjs
+const feedOf = (ctx, id) => { try { const d = ctx.readJSON(`assets/media/feeds/${id}.json`); return Array.isArray(d.items) ? d : null } catch { return null } }
 // the place's own outlets, then those that cover an area above it (chain: the place, its parent, the region, the country)
 export function localMedia(ctx, p, chain) {
     const all = outlets(ctx), own = all.filter(o => covers(o).includes(p.id))
-    const row = o => ({ id: o.id, name: o.name, outlet_kind: o.media.outlet_kind, website: okUrl(o.media.website) ? o.media.website : null, page: `https://promptugal.news/media/${o.id}/` })
+    const row = o => ({ id: o.id, name: o.name, outlet_kind: o.media.outlet_kind, website: okUrl(o.media.website) ? o.media.website : null, page: `https://promptugal.news/media/${o.id}/`, latest: (feedOf(ctx, o.id)?.items || []).filter(i => okUrl(i.link)).slice(0, 2), latest_read_at: feedOf(ctx, o.id)?.read_at || null })
     return { own: own.map(row), wider: all.filter(o => !own.includes(o) && covers(o).some(id => chain.includes(id))).map(row) }
 }
 export function mediaBlock(ctx, p, rel, chain) {
     const { own, wider } = localMedia(ctx, p, chain), c = C(ctx)
     if (!own.length && !wider.length) return ''
-    const li = o => `- ${mdLink(ctx, o.name, ctx.link(rel, `media/${o.id}/index.html`))} · ${ctx.md.cell(o.outlet_kind.replace(/-/g, ' '))}${o.website ? ` · ${mdLink(ctx, 'site', o.website)}` : ''}`
+    const li = o => `- ${mdLink(ctx, o.name, ctx.link(rel, `media/${o.id}/index.html`))} · ${ctx.md.cell(o.outlet_kind.replace(/-/g, ' '))}${o.website ? ` · ${mdLink(ctx, 'site', o.website)}` : ''}${o.latest && o.latest.length ? ` · ${c.latest}: ${o.latest.map(i => mdLink(ctx, i.title, i.link)).join(' · ')}` : ''}`
     // dev@ (review, 16 Nov): no empty list when the place has only wider-area outlets; the wider ones under their own label
     return `{.mini-h}\n${c.block_h}\n\n${c.block_intro}\n\n` + (own.length ? `{.bp-media}\n${own.map(li).join('\n')}\n\n` : '') +
-        (wider.length ? `${c.block_wider}:\n\n{.bp-media}\n${wider.map(li).join('\n')}\n\n` : '')
+        (wider.length ? `${c.block_wider}:\n\n{.bp-media}\n${wider.map(o => li({ ...o, latest: [] })).join('\n')}\n\n` : '')
 }
 
 function outletPage(ctx, o) {
@@ -32,7 +35,9 @@ function outletPage(ctx, o) {
     const rows = [[c.facts_kind, cell(m.outlet_kind.replace(/-/g, ' '))], [c.facts_covers, places], m.language && [c.facts_lang, m.language.map(cell).join(', ')],
         okUrl(m.website) && [c.facts_site, `[${cell(m.website)}](${m.website})`], m.owner && m.owner.name && [c.facts_owner, cell(m.owner.name)]].filter(Boolean)
     const src = s => `${mdLink(ctx, s.url, s.url)}, read ${day(s.read_at)}${s.how ? `: ${cell(s.how)}` : ''}`
+    const fd = feedOf(ctx, o.id)
     const md = `{.facts}\n| | |\n|---|---|\n${rows.map(r => `| **${r[0]}** | ${r[1]} |`).join('\n')}\n\n` +
+        (fd && fd.items.length ? `## ${c.latest_h} {#latest}\n\n${fd.items.filter(i => okUrl(i.link)).map(i => `- ${mdLink(ctx, i.title, i.link)}${i.date ? ` · ${i.date}` : ''}`).join('\n')}\n\n${c.latest_note.replace('{when}', day(fd.read_at))}\n\n` : '') +
         ((m.feeds || []).filter(f => okUrl(f.url)).length ? `## ${c.feeds_h} {#feeds}\n\n${m.feeds.filter(f => okUrl(f.url)).map(f => `- ${mdLink(ctx, f.url, f.url)} (${cell(f.format)}${f.scope ? `, ${cell(f.scope)}` : ''})${f.source ? ` · read ${day(f.source.read_at)}` : ''}`).join('\n')}\n\n` : '') +
         (m.contact && okUrl(m.contact.page) ? `## ${c.contact_h} {#contact}\n\n${c.contact_note}\n\n- ${mdLink(ctx, m.contact.page, m.contact.page)}${m.contact.source ? ` · read ${day(m.contact.source.read_at)}` : ''}\n\n` : '') +
         ((m.people || []).length ? `## ${c.people_h} {#people}\n\n${m.people.map(x => `- ${cell(x.name)}${x.role ? `, ${cell(x.role)}` : ''}${x.beat ? ` (${cell(x.beat)})` : ''}${x.source && okUrl(x.source.url) ? ` · ${mdLink(ctx, 'source', x.source.url)}` : ''}`).join('\n')}\n\n` : '') +

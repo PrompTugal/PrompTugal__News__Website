@@ -69,3 +69,32 @@ at: 2026-11-16T20:35Z
 | `work/place.districts` | wake 22:35 status and run report | **brought onto dev** |
 | `work/place.algarve.central` | nothing new; `12ca5920d` still held | held, as at 21:40 |
 | partner desks | nothing new in the last hour | none |
+
+## The 23:40 wake
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.east` | wake 3: five town and region site keys rotated (old ones superseded, new `-2` keys active), five files re-signed | **brought onto dev**: no duplicate ids, every file signed by an active key, gate OK |
+| `work/place.algarve.central` | rechecks: Loulé's Som Riscado AI recital (new, in `ai_news`), the Faro 24 November AI and water conference's details, new gaps | **brought onto dev** |
+| `work/place.algarve.west` | Barlavento pass: Aljezur, Monchique and Silves follow-ups (the rural-territories manifesto, the local-markets network) | **brought onto dev**: local news; leads seen only in a Sul Informação snippet are marked "do not cite", rightly |
+| partner desks | correspondent@ placed four articles in their beats; nothing for this desk to publish | none |
+
+- **Loulé, Som Riscado (central):** the council's preview of the 11th festival (19 to 22 November 2026) lists "Inner Voice", a piano recital with AI as part of the artistic team, for schools on 19 November. A real AI item, rightly on Loulé's AI list. Re-check here was partial: cm-loule.pt did not answer this session's fetch (the connection closed), but the page's own address reads "piano com inteligência artificial". To re-read at the next wake.
+
+## The 00:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.east` | wakes 4 and 5: status and run reports, nothing new overnight | **brought onto dev** |
+| `work/place.districts` | new site keys for Lisboa, Porto, Coimbra and Braga; the third pass for each (ScaleUp Porto among them), status, run report | **held, the whole batch** (below) |
+| partner desks | local@PrompTugal.jose: its plan for cards 1 to 3 and the first media records (Barlavento, Algarve Primeiro), already on dev by its own push | read; nothing for this desk to publish |
+
+### place.districts: why the third pass is held
+
+1. **The gate is red with it:** `data/by-place/lisboa.json`, gap note 606, quotes Unicorn Factory Lisboa's contact email in the text ("The Unicorn Factory contact page shows a general address that is spelled differently on two of its pages..."). The gate refuses an email address in prose. Under the contact rule an organisation's own published channel may be shown, but as a `channel` field linked to the page it came from, not inside a gap note. Fix: take the address out of the note ("the contact page shows a general address, spelled two ways"), or move it into a `contacts` entry with `channel`, `source_url` and `read_on` if the gate's check allows it there; re-sign.
+2. **The new keys reuse the old ids:** each of the four towns now has two entries with the same id (`site.<town>-promptugal`), one superseded and one active. Follow the convention instead: rename the old one `site.<town>-promptugal-0`.
+3. The keys commit supersedes Lisboa's old key, so the other three towns cannot come without Lisboa's re-signed file: the batch waits as one.
+
+Checked and fine meanwhile: ScaleUp Porto's channel (the programme's email as published on economia.cm-porto.pt, re-read 17 November 2026) is a council channel, allowed.
+
+- **Loulé, Som Riscado:** cm-loule.pt again did not answer this session's fetch. Still to re-read.

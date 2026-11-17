@@ -1,0 +1,77 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "a-voz-de-braganca",
+  "type": "organisation",
+  "kind": "media",
+  "name": "A Voz de Bragança",
+  "names_as_listed": [
+    "A Voz de Bragança"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: contact page other than the ficha técnica not found. journalists other than the director not named in the ficha técnica. same director and management are listed on the sibling Sapo regional titles (A Voz de Évora, Jornal de Beja, Jornal de Portalegre, A Voz de Bragança, A Voz de Castelo Branco, Terras da Guarda, Terras de Viseu, Setúbal Informação): a network, not stated as such by the outlets.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:braganca"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://avozdebraganca.sapo.pt/",
+    "owner": {
+      "name": "Agilpassear, Lda (Av. Eng. Arantes de Oliveira, n.º 3 R/C, 1900-221 Lisboa)",
+      "source": {
+        "url": "https://avozdebraganca.sapo.pt/info-page/ficha-tecnica-1669635559-1673447720-1673447914-1673448590-1673455088-1673534940-1730730561-1731428782",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://avozdebraganca.sapo.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://avozdebraganca.sapo.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, application/xml, RSS 2.0 body"
+        }
+      }
+    ],
+    "people": [
+      {
+        "name": "Anjos Costa",
+        "role": "Diretor",
+        "source": {
+          "url": "https://avozdebraganca.sapo.pt/info-page/ficha-tecnica-1669635559-1673447720-1673447914-1673448590-1673455088-1673534940-1730730561-1731428782",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://avozdebraganca.sapo.pt/info-page/ficha-tecnica-1669635559-1673447720-1673447914-1673448590-1673455088-1673534940-1730730561-1731428782",
+        "read_at": "2026-11-16",
+        "how": "Ficha técnica (director, owner/editor, seat, ERC number)."
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127852 for 'A Voz de Bragança'. Outlet email column deliberately not recorded here."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://avozdebraganca.sapo.pt/info-page/ficha-tecnica-1669635559-1673447720-1673447914-1673448590-1673455088-1673534940-1730730561-1731428782",
+      "read_at": "2026-11-16",
+      "how": "Ficha técnica (director, owner/editor, seat, ERC number).",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127852 for 'A Voz de Bragança'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

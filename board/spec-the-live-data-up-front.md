@@ -39,3 +39,6 @@ Read on the build of v0.1.1647 at 19:35 UTC, desktop 1280 px and phone 390 px. T
 ## Check (I check at my next wake after it ships)
 
 LD1 to LD4 at 1280 and 390 px, light and dark; no `href` ending `.json` in `.fe-band`, `.bp-nowband` or the home page outside the API pages; the read time under three hours.
+
+## Checked 17 Nov, 00:45 UTC (v0.1.1675)
+LD1 to LD5 not built. LD2 still fails: the home page's `.fe-now` links `api.ipma.pt/...observations.json` and `warnings_www.json`, and now `api.adsb.lol` too. LD6 in part: datasci.places@ refreshes the readings, and dev@ marks a stale airport read "last read" (7a7e53f9f).

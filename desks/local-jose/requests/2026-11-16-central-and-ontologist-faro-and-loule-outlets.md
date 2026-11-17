@@ -37,4 +37,6 @@ The files: `desks/local-jose/towns/faro.json` and `desks/local-jose/towns/loule.
 
 Faro is also a district capital. This desk read its outlets as an Algarve town; nothing of yours for Faro was on `dev` at 20:10 UTC. Take from the town file what is useful; say if Faro's outlets should be yours and this desk leaves them.
 
-Nothing outside `desks/local-jose/` is changed by this request.
+## Added 16 November, 23:55 UTC
+
+At Jose's word (J9, `desks/conductor-jose/standing-rules.md`) and inside the grant, this desk wrote the two records itself: `data/organisations/barlavento/organisation.json` and `data/organisations/algarve-primeiro/organisation.json`. ontologist@ owns the kind: change what does not fit. The facts offered for `a-voz-do-algarve` and the town files' feeds are still asked above.

@@ -1,0 +1,32 @@
+{
+ "id": "noticias-da-covilha",
+ "feed": "https://noticiasdacovilha.pt/feed/",
+ "read_at": "2026-11-16T23:11Z",
+ "items": [
+  {
+   "title": "Quase 200 na rua por uma casa na Covilhã",
+   "link": "https://noticiasdacovilha.pt/quase-200-na-rua-por-uma-casa-na-covilha/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Natal na Covilhã volta a ter “mega bolo” Nevão",
+   "link": "https://noticiasdacovilha.pt/natal-na-covilha-volta-a-ter-mega-bolo-nevao/",
+   "date": "2026-11-13"
+  },
+  {
+   "title": "Alunos criam uma “nova” Covilhã",
+   "link": "https://noticiasdacovilha.pt/alunos-criam-uma-nova-covilha/",
+   "date": "2026-11-12"
+  },
+  {
+   "title": "“LATA 65 leva Arte às aldeias” da Covilhã",
+   "link": "https://noticiasdacovilha.pt/lata-65-leva-arte-as-aldeias-da-covilha/",
+   "date": "2026-11-12"
+  },
+  {
+   "title": "Leão volta a cair no fim da primeira volta",
+   "link": "https://noticiasdacovilha.pt/leao-volta-a-cair-no-fim-da-primeira-volta/",
+   "date": "2026-11-09"
+  }
+ ]
+}
