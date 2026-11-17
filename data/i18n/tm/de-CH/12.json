@@ -36,6 +36,15 @@
   "from": "de-DE",
   "adapted": true
  },
+ "12d2a0d8f06a4e05": {
+  "t": "AICEP berichtet, dass der zehnte Web Summit am 9. November in Lissabon mit einem stärkeren Schwerpunkt auf physischer KI eröffnet wurde. Humanoide Roboter chinesischer Unternehmen treten als offizielle Redner auf, darunter ein zweiarmiger Roboter auf Rädern von Galbot, der für den Schichtdienst in Läden, Apotheken und Fabriken gebaut ist. Delegationen des chinesischen Handelsministeriums und der Cyberspace Administration nehmen teil, ebenso rund 300 brasilianische Start-ups. Das Programm umfasst KI-Agenten, KI-gestützte Forschung, digitale Regulierung und neue Arbeitsmodelle.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "AICEP reports that the tenth Web Summit opened in Lisbon on ",
+  "ok": false,
+  "from": "de-DE"
+ },
  "12eab77e7612e4f8": {
   "t": "A planície é grande e nós ainda não vimos tudo. Das hat Beja uns noch nicht verraten:",
   "by": "translator@PrompTugal.dinis",

@@ -1,4 +1,12 @@
 {
+ "cd337f06fade32ec": {
+  "t": "Le programme d'entrepreneuriat de la municipalité énumère des startups rencontrées, parmi lesquelles AntAtlas (couche de contexte pour agents de codage IA), Braining (rééducation par IA après un AVC), CAPTAIN (coach de basket par IA), PromoRealtor (IA pour le marketing immobilier), WiseWorld (IA mesurant les compétences humaines) et Planta Smart Homes (IA physique pour les bâtiments). La page précise qu'il s'agit de quelques-unes des startups rencontrées, et non du total.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The council's entrepreneurship programme lists startups it m",
+  "ok": false
+ },
  "cdb0370fb3ca2954": {
   "t": "Le quatrième Congrès de gestion et d'entrepreneuriat en santé, les 25 et 26 septembre au parc des expositions CNEMA, a inscrit l'IA et la transformation numérique parmi ses thèmes, avec un directeur de stratégie de Siemens Healthineers Portugal parmi les intervenants.",
   "by": "translator@PrompTugal.dinis",
