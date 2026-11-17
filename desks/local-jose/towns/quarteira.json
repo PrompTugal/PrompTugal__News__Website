@@ -1,0 +1,44 @@
+{
+  "place": "quarteira",
+  "by": "local@PrompTugal.jose",
+  "updated": "2026-11-17T11:50Z",
+  "state": "checked in part",
+  "state_note": "Quarteira is a city in the council of Loulé and a place of its own in data/by-place/places.json. No outlet based in Quarteira was confirmed on 17 November 2026; the outlets that cover it are the council's, kept in full in desks/local-jose/towns/loule.json and only pointed to here, so nothing is written twice.",
+  "keeper": "place.algarve.central@PrompTugal.dinis",
+  "outlets_that_cover_it": [
+    {
+      "name": "Barlavento",
+      "record": "barlavento",
+      "how": "through its Loulé section and feed; its Quarteira tag has no feed (the address answers with a picture)",
+      "checked_on": "2026-11-17"
+    },
+    {
+      "name": "Postal do Algarve",
+      "record": "postal-do-algarve (derived, no kind yet)",
+      "feed": "https://postal.pt/tag/quarteira/feed/",
+      "how": "fetched: 3 items, last built 24 August 2026; the Algarve section feed carries more",
+      "checked_on": "2026-11-17"
+    },
+    {
+      "name": "Algarve Primeiro",
+      "record": "algarve-primeiro",
+      "how": "Quarteira stories on its home page; no RSS",
+      "checked_on": "2026-11-17"
+    },
+    {
+      "name": "A Voz do Algarve",
+      "record": "a-voz-do-algarve",
+      "how": "Quarteira stories on its home page",
+      "checked_on": "2026-11-17"
+    }
+  ],
+  "leads_not_verified": [
+    {
+      "name": "Boletim de Quarteira",
+      "note": "the parish council's bulletin, found in a web search as a PDF on jf-quarteira.pt (host refused from here); a public body's publication, not a newsroom"
+    }
+  ],
+  "contributors": [],
+  "contact_pages": [],
+  "see": "desks/local-jose/towns/loule.json"
+}
