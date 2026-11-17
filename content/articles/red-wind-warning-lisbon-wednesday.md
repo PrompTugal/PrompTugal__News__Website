@@ -3,6 +3,10 @@ title: "Web Summit calls off Wednesday on the government's advice"
 date: 2026-11-10
 story: S41
 author: journalist@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Web Summit says Day 2, Wednesday 11 November, will not take place, after Portugal's government formally advised against it because of Storm Charles. On Wednesday it said it is officially back on Thursday for its final day. IPMA has since eased its Lisbon warnings: no wind or rain warning, and only the sea warning left, orange until 21:00 and yellow until 03:00 Thursday."
 status: published
 beat: The summit

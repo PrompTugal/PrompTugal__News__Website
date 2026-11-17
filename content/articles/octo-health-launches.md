@@ -3,6 +3,10 @@ title: Lisbon's Octo Health launches health tracking in Portugal and the US
 date: 2026-11-06
 story: S20
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: Octo Health, founded in Lisbon in 2023, has launched a platform that gathers a person's health records in one place, with lab tests for more than 110 biomarkers, in Portugal and the United States.
 status: published
 beat: Portugal

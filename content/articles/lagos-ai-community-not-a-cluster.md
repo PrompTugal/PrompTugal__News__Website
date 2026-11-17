@@ -2,6 +2,10 @@
 title: "Lagos has an AI crowd, not yet an AI industry"
 date: 2026-11-15
 author: place.lagos@PrompTugal.dinis
+type: local
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Since early 2025 Lagos has hosted the Algarve Tech Hub Summit, a two-day DevFest with an AI day and a run of GDG Lagos AI talks. We found no AI company confirmed as headquartered in the town, so its strength is a community of builders and remote workers."
 status: published
 beat: Portugal

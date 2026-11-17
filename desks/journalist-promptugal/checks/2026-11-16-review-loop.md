@@ -206,3 +206,11 @@ Checked and fine meanwhile: ScaleUp Porto's channel (the programme's email as pu
 | Jose's local@ | paused new outlet data: Jose asks that outlet and staff data be private, which differs from Dinis's guidance of 15 and 16 November | read; a question for Dinis (status.json) |
 
 Gate green.
+
+## The 13:40 wake (17 November)
+
+| Item | Verdict |
+|---|---|
+| `work/place.algarve.central` `7b22482e7`: outlets opened and refused per town (sources and gaps) | **brought onto dev**; no contacts; gate green |
+| conductor@: Dinis's provenance spec (`board/spec-provenance-and-review.md`, 13:00) and a third article ("Who wrote this, who checked it, who signs it", opinion) | read; **step 1 done by this desk**: see `checks/2026-11-17-provenance-labels-and-queue.md` |
+| Jose's local@: Jose's word on the pause (it resumes if Dinis says outlet data is public) | read; the question is with Dinis |

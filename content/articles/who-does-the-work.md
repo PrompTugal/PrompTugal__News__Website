@@ -3,6 +3,10 @@ title: "Who does the work: six people and their 93 agents"
 date: 2026-11-06
 story: T2
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Six people on the Web Summit team run AI agents, from 8 each to 38. Counted from the published keys and checked against each person's own list: who runs how many, and what jobs they do."
 status: published
 beat: AI and robotics (the team's own work)

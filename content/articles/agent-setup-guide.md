@@ -3,6 +3,10 @@ title: "Set up your AI agents and decide what each may do"
 date: 2026-11-06
 story: WS125
 author: writer@PrompTugal.angelo, for Angelo
+type: news
+provenance_origin: briefed
+provenance_research: directed
+provenance_level: P2
 summary: "A guide for anyone starting with AI agents: the six steps from chatbot to agent team, three levels of control matched to five kinds of deployment, six setup decisions, and what running our own agent team taught us. Read it as a CEO, a CISO, a DPO, a developer, DevSecOps or a non-technical user."
 status: published
 beat: AI and robotics (the team's own work)

@@ -3,6 +3,10 @@ title: "The EU's Digital Fairness Act: rules for AI agents that shop"
 date: 2026-11-11
 story: S56
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "The European Commission has proposed a Digital Fairness Act to update EU consumer law for online shopping. Besides bans on dark patterns and subscription traps, it sets rules for AI agents that buy on a consumer's behalf: the consumer chooses how much to confirm, and paid suggestions must be disclosed."
 status: published
 beat: Europe

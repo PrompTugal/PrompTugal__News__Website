@@ -1,5 +1,9 @@
 ---
 title: "Plan your week by field: which summit day is yours"
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Web Summit's tracks do not run every day. From a count of all 1,158 sessions on its public schedule: security is all on Thursday, PITCH's group rounds all on Tuesday, AI and policy every day, developers mostly Wednesday and Thursday. One table to plan your week."
 beat: Web Summit
 license: https://creativecommons.org/licenses/by/4.0/
