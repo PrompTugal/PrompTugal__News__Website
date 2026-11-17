@@ -8,6 +8,7 @@ export const order = 69
 import { checkSites } from '../../../board/abp/tools/site-identity.mjs'
 import { execFileSync } from 'node:child_process'
 import fs from 'node:fs'
+import path from 'node:path'
 import crypto from 'node:crypto'
 
 const LIST = 'data/by-place/places.json'
@@ -514,8 +515,30 @@ export function llms(ctx) {
 
 // abp@'s site-identity rule (every place site has its own key and a valid signature over its file): a warning tonight,
 // a failure once Dinis says so (board/briefs/2026-11-15-the-place-agents.md)
+// the translation memory's checks (spec item 8): a translation keeps its placeholders, its URLs and its numbers.
+// A warning first, so translator@ sees it before it is a failure; counts per culture, with the first id to look at.
+function memoryChecks(gate) {
+    const out = [], W = JSON.parse(gate.text('assets/by-place/queue.json')).check, same = (a, b) => JSON.stringify(a) === JSON.stringify(b)
+    const bag = (s, re) => (s.match(re) || []).sort()
+    const dir = path.join(gate.ROOT, TM_DIR)
+    let cultures = []; try { cultures = fs.readdirSync(dir).filter(c => /^[a-z]{2}-[A-Z]{2}$/.test(c)).sort() } catch { return out }
+    for (const culture of cultures) {
+        const bad = { placeholders: [], urls: [], numbers: [] }
+        for (const f of fs.readdirSync(path.join(dir, culture)).filter(f => f.endsWith('.json'))) {
+            let m; try { m = JSON.parse(fs.readFileSync(path.join(dir, culture, f), 'utf8')) } catch { continue }
+            for (const [id, v] of Object.entries(m)) {
+                if (!v || typeof v.src !== 'string' || typeof v.t !== 'string') continue
+                if (!same(bag(v.src, /\{\w+\}/g), bag(v.t, /\{\w+\}/g))) bad.placeholders.push(id)
+                if (!same(bag(v.src, /https?:\/\/[^\s)]+/g), bag(v.t, /https?:\/\/[^\s)]+/g))) bad.urls.push(id)
+                if (!same(bag(v.src, /\d+/g), bag(v.t, /\d+/g))) bad.numbers.push(id)
+            }
+        }
+        for (const k of Object.keys(bad)) if (bad[k].length) out.push(W[k].replace('{culture}', culture).replace('{n}', bad[k].length).replace('{id}', bad[k][0]).replace('{placeholder}', 'placeholder'))
+    }
+    return out
+}
 export function warn(gate) {
-    return checkSites(gate.ROOT).filter(r => !r.ok).map(r => `site-identity: ${r.id}: ${r.problems.join('; ')}`)
+    return [...checkSites(gate.ROOT).filter(r => !r.ok).map(r => `site-identity: ${r.id}: ${r.problems.join('; ')}`), ...memoryChecks(gate)]
 }
 
 export function validate(gate) {
