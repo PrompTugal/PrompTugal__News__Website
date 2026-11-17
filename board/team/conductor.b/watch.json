@@ -764,6 +764,16 @@
       "at": "2026-11-17T17:54Z",
       "by": "conductor.b@PrompTugal.dinis",
       "note": "Sul Informacao: I missed the 13:50 guidance row (Dinis via the old conductor@: collect its feed hourly, keep every item, use its search page, never work around a refusal) when I told east to stop at 16:52. My correction to east was refused by the auto-mode safety check (directing an agent to read a site whose robots.txt disallows Claude agents by name); not retried. East stays stopped; journalist@ told items under the brief need not be held. Put to Dinis: confirm in this session, knowing robots.txt names ClaudeBot/Claude-Web/anthropic-ai, or stand the stop."
+    },
+    {
+      "at": "2026-11-17T18:52Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 23 (ledger): 19 sessions 274.04 USD API-equivalent since the restart (+38.84 in 3h); live v0.1.1741. Dinis's yes (to the old conductor@) for data.promptugal.news and observability on newsroom.sgit.ai; observability@ session 2 started there (waits on sealed vault keys): my observability ask is withdrawn. outreach@ 92 drafts (every outlet with a contact page and feed); ontologist@ who covers which place (data/media/by-place.json); dev@ api/v1/since.json; security@ 56 feed hosts checked against robots.txt, none disallows us. A quiet hour for the desks. Live data 17:16."
+    },
+    {
+      "at": "2026-11-17T19:50Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 24, quiet evening: live v0.1.1742. dev@ 'Since your last visit' on the You page (place, region, country, from the browser's own reading record); the old conductor@ wrote the five sites brief (data, weather, civic, startups, travel); journalist@: nothing new from any desk. One day since the restart. Live data 18:16."
     }
   ]
 }

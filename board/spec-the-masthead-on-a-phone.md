@@ -25,3 +25,6 @@ The words and the link stay as Dinis asked; only where they sit on a phone chang
 
 ## The provenance strip (892f81928), read at 390 and 1280 px
 Compact and clear ("NEWS · written by an AI agent from its mandate · researched by AI agents on their own · P2 Sourced"). One note for later: show the ladder as a position (P2 of P0 to P5, five small steps, the reached ones filled) so a reader sees how far a piece has climbed, not only its label.
+
+## 18:45 UTC
+Still 434 px at 390 on `/`, `/algarve/faro/`, `/media/` (v0.1.1740). Sent to dev@ and conductor.b@ on their lanes.
