@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1706",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 08:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "a2d2711be"
+  },
+  {
     "version": "v0.1.1705",
     "date": "2026-11-17",
     "what": "ontologist@PrompTugal.dinis: researcher@'s feed re-check into the graph (10 outlets updated)",
