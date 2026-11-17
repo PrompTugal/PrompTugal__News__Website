@@ -1,0 +1,42 @@
+{
+ "e72981ce21809675": {
+  "t": "Ainda não sabemos tudo, pá. Oto, czego Faro nam jeszcze nie powiedziało:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Ainda não sabemos tudo, pá. Here is what Faro has not told u",
+  "ok": false
+ },
+ "e7908f114d56ddcd": {
+  "t": "Viana do Castelo, ai Jesus: bazylika na wzgórzu, rzeka, która nie może zdecydować, gdzie się zatrzymać, i rada, która po cichu uczy komputer czytać pozwolenia, podczas gdy całe miasto wpatruje się w port.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Viana do Castelo, ai Jesus: a basilica on the hill, a river ",
+  "ok": false
+ },
+ "e7bebd39ad02304e": {
+  "t": "Wystawa sztuki w Loulé ./logSinapses wzięła za temat AI i mediację algorytmiczną",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Loulé art exhibition ./logSinapses took AI and algorithmic m",
+  "ok": false
+ },
+ "e7f26edd2ea41eb9": {
+  "t": "Rząd planuje pilotaż w niewielkiej liczbie gmin, które są już technologicznie gotowe, z AI działającą jako jedna warstwa dostępu nad platformami rad, zaczynając od pozwoleń na budowę. Coimbra jest wymieniona jako część pierwszej fazy, a jej burmistrz powiedział, że AI może przyspieszyć procesy przy poszanowaniu przepisów planistycznych i bez dehumanizacji usług publicznych.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The government plans a pilot in a small number of municipali",
+  "ok": false
+ },
+ "e7f72e1b48d63a7d": {
+  "t": "Visualforma, firma z Faro, opisała system sterowania nawadnianiem terenów zielonych opracowany z Itelmatis i Uniwersytetem Algarve i testowany w Loulé, wykorzystujący dane z terenu do optymalizacji podlewania, z planowanym modułem AI i uczenia maszynowego. To starsza wiadomość, z kwietnia 2023 roku.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Visualforma, a Faro company, described a green-spaces irriga",
+  "ok": false
+ }
+}
