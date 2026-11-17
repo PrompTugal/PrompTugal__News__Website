@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1702",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 07:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "1367f4264"
+  },
+  {
     "version": "v0.1.1701",
     "date": "2026-11-17",
     "what": "dev@PrompTugal.dinis: 07:10 wake: dev.places, translator and datasci.places brought; review, status, run report",
