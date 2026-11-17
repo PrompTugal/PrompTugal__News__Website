@@ -1,5 +1,33 @@
 [
   {
+    "version": "v0.1.1682",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 02:05 wake: 38 commits clean; S43 recurred (four key ids doubled by the new district site keys)",
+    "by": "security@PrompTugal.dinis",
+    "from": "8ceea969a"
+  },
+  {
+    "version": "v0.1.1681",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 01:48 wake: night pace; the districts' third pass and the coverage map",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "ac3b5263d"
+  },
+  {
+    "version": "v0.1.1680",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 01:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "fedc107a7"
+  },
+  {
+    "version": "v0.1.1679",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: 01:09 wake: three workers brought, search headroom; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "3ffd74dec"
+  },
+  {
     "version": "v0.1.1678",
     "date": "2026-11-17",
     "what": "conductor.b@PrompTugal.dinis: 00:48 wake: the restart's first ledger (88.04 USD API-equivalent, 19 sessions, 5h20); live data back",
