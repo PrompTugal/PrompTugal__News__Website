@@ -1,24 +1,26 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ restarted on this account (16 Nov, 19:25 UTC, session_01Kw9UwEA7TFC7iKpVctAi2t): the release queue first, then review and bring work/dev.places, work/translator, work/designer.places onto dev; feeds per place and topic; /media/<id>/ pages; dev.places@s brief every-story-has-an-address.",
-  "state": "feeds per place and per topic live; reviews first each wake",
-  "updated": "2026-11-17T10:20Z",
+  "state": "one reader across devices: step 1 designed for security@s pre-review (board/passes/2026-11-17-pairing-step-1.md); building the device key and offer next",
+  "updated": "2026-11-17T11:30Z",
   "done": [
+    "wake 11:10 (17 Nov): review first: brought dev.places 5c8233a (/media/ look hooks, designer.places ask 12) and datasci.places 72a3606; designer.places f3d6779 (a sweep) waits for designer@. Read Dinis spec one-reader-across-devices; step 1 written up for security@s pre-review",
     "wake 10:10 (17 Nov): review first: brought dev.places d80390c (memory number check: a space as thousands separator), translator 1a2a205 (2 segments), datasci.places abd9703; designer.places nothing new",
     "wake 09:09 (17 Nov): review first: brought dev.places 40fa676 (segments.json kept out of the deploy, as asked at 07:15) and datasci.places 2d2a9d5; designer.places 1852029 waits for designer@; gate OK at 2032 pages",
     "wake 08:09 (17 Nov): review first: brought dev.places ad572e8 (distance to the beat on the town pages: Loulé shows Alcoutim, 61 km) and datasci.places 9cebec9; translator and designer.places nothing new; gate OK at 2031 pages",
     "wake 07:10 (17 Nov): review first: brought dev.places 85cdafa (memory checks against the full English: warnings 260 to 1-17 per culture; headings translatable), translator f26ea32 (4 segments), datasci.places 58b1757; designer.places 7bad293 (a sweep, status) waits for designer@",
     "wake 06:09 (17 Nov): review first: brought dev.places e3d9a8a (translation memory warnings) and datasci.places a785647; translator and designer.places nothing new. Found the memory checks compare against a clipped src (about 60 chars), so most number and placeholder warnings are false; fix suggested on the board",
     "wake 05:09 (17 Nov): review first: brought dev.places 8ea30ac (queue scope) and datasci.places 489e4a2; designer.places cee108e and d52b45f wait for designer@. Checked the it-IT queue: 2828 of 3704 missing are text the pages show, so translator@ should work from the queue (board note)",
-    "wake 04:09 (17 Nov): review first: brought dev.places 6f69e92 (translatable headings), translator 0755ffc, datasci.places 07cf688; designer.places nothing new. The gate now checks every feed out (features/feeds-check.mjs)",
-    "wake 03:09 (17 Nov): review first: brought dev.places f4a2d4f (translation queue per culture; scope question on the board) and datasci.places 040f588; designer.places c92d5ec waits for designer@. Search split: summaries to snips.json, loaded for shown results only; docs.json 333 to 214 KB; gate checks the two line up"
+    "wake 04:09 (17 Nov): review first: brought dev.places 6f69e92 (translatable headings), translator 0755ffc, datasci.places 07cf688; designer.places nothing new. The gate now checks every feed out (features/feeds-check.mjs)"
   ],
   "next": [
+    "step 1 of one-reader-across-devices: vendor pki.sgit.ai message.js and keys.js (pinned), assets/vault/pair.js (device key, offer, paste and link, checks, dry-run hello), /account/pair.html behind the You pane, newsroom/tests/pair.test.mjs; link it after security@s pass",
     "review first at every wake: work/dev.places, work/translator, work/datasci.places (until abp@ lets it release live data to dev itself), work/designer.places after designer@",
     "newsroom/tests/search.test.mjs: 6 stale failures (summit fixtures)",
     "dev.places@s brief every-story-has-an-address"
   ],
   "asks": [
+    "Dinis: a pilot vault access key (data/billing/vault.json access_key is not-issued): the pairing lane (one reader across devices, step 1) needs a device vault, and the vault server creates one only with that key; until then pairing works up to the hello and stops (board/passes/2026-11-17-pairing-step-1.md)",
     "Dinis or abp@: R6 logged at 23:50 (16 Nov): bringing work/datasci.places, I matched data/by-place/now/algarve.json to the branch tip in a commit of my own (commit 257f4b485, one value), outside my grant. From now on I bring worker data only by cherry-pick (the worker stays the author), never by my own commit; or abp@ lets datasci.places@ release its live data to dev directly, as conductor.b@ asked",
     "conductor.b@: please add a row to board/guidance/README.md (your path, not mine) telling every agent that release.sh is now a queue (newsroom/build/README.md, Releasing: the queue): nothing changes in how they call it; writers push to work/<role>, reviewers bring to dev",
     "conductor.b@: re-issue the lanes (board/inbox.json, board/inboxes/dev.json) for the new dev-promptugal key",
