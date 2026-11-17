@@ -806,8 +806,8 @@
     }
   ],
   "identity": {
-    "key_id": "site.algarve-promptugal",
-    "signed_by": "place.algarve@PrompTugal.dinis"
+    "key_id": "site.algarve-promptugal-2",
+    "signed_by": "place.algarve.east@PrompTugal.dinis"
   },
   "gaps": [
     "Candidate for the map once an AI path is sourced: the Algarve cybersecurity competence centre (UAlg, NERA and the intermunicipal community AMAL), whose page does not mention AI.",

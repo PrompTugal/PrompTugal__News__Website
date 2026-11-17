@@ -1,18 +1,8 @@
 {
  "id": "o-minho",
  "feed": "https://ominho.pt/feed/",
- "read_at": "2026-11-16T23:11Z",
+ "read_at": "2026-11-16T22:14Z",
  "items": [
-  {
-   "title": "Seguro considera essencial discutir influência de poder económico no jornalismo",
-   "link": "https://ominho.pt/seguro-considera-essencial-discutir-influencia-de-poder-economico-no-jornalismo/",
-   "date": "2026-11-16"
-  },
-  {
-   "title": "Mota-Engil assina contratos de 1.200 milhões no México e Colômbia",
-   "link": "https://ominho.pt/mota-engil-assina-contratos-de-1-200-milhoes-no-mexico-e-colombia/",
-   "date": "2026-11-16"
-  },
   {
    "title": "Rapaz de 9 anos atropelado na passadeira em Valença",
    "link": "https://ominho.pt/rapaz-de-9-anos-atropelado-na-passadeira-em-valenca/",
@@ -26,6 +16,16 @@
   {
    "title": "Vasco Palmeirim levou “a miúda mais gira de Braga” a Viana e promete pergunta sobre a cidade no “Joker”",
    "link": "https://ominho.pt/vasco-palmeirim-levou-a-miuda-mais-gira-de-braga-a-viana-e-promete-pergunta-sobre-a-cidade-no-joker/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "&#8220;O Norte não precisa de produzir mais, precisa de produzir com mais valor&#8221;",
+   "link": "https://ominho.pt/o-norte-nao-precisa-produzir-mais-precisa-produzir-com-mais-valor/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "EuroDreams: Estrangeiro ganha ‘salário’ de 2.000 euros durante 5 anos. Em Portugal saíram prémios de 475 euros",
+   "link": "https://ominho.pt/eurodreams-estrangeiro-ganha-salario-de-2-000-euros-durante-5-anos-em-portugal-sairam-premios-de-475-euros/",
    "date": "2026-11-16"
   }
  ]

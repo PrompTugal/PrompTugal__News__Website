@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-16T22:50Z",
+  "updated": "2026-11-16T23:50Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -36,7 +36,8 @@
     "16 Nov 20:15 (new session): key abp-promptugal-c; v1.14.0: grants for the merged desks (place.algarve.west/central/east, districts+portugal, ontologist+data.places, dev.places+dev.pages+dev.graphs+viz, designer.places+experiments, sherpa+synthetic, librarian+accountant, datasci.places live data, conductor.b with remote_conduct), Jose's conductor and local@ (run reports: run-report --agent), OpenRouter where Dinis's briefs name it; work_branch for writers; 225 fixtures (board/abp/reports/2026-11-16-20.md)",
     "20:50 first hourly wake: local@/researcher@ media path corrected to data/organisations/*/organisation.json (Jose's request); 31 of 36 sites pass; 4 agents without run reports, ontologist@ wrote board/briefs/ (board/abp/reports/2026-11-16-2037.md)",
     "21:50 second hourly wake: 31 of 36 sites; run reports owed by place.algarve.west/central and place.districts; Vicky's reviewer published again (board/abp/reports/2026-11-16-2137.md)",
-    "22:50 third hourly wake: 31 of 36 sites; run reports owed by designer.places, dev.places, place.algarve.west, conductor@ (board/abp/reports/2026-11-16-2237.md)"
+    "22:50 third hourly wake: 31 of 36 sites; run reports owed by designer.places, dev.places, place.algarve.west, conductor@ (board/abp/reports/2026-11-16-2237.md)",
+    "23:50 fourth hourly wake: quiet; 31 of 36 sites; 0 attempts; run reports still owed by five (board/abp/reports/2026-11-16-2337.md)"
   ],
   "next": [
     "Hourly review of run reports at :37 (board/abp/reports/); check the new desks re-key their site keys and sites pass (34 of 36 now)",

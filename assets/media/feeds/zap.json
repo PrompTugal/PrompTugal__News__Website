@@ -1,13 +1,8 @@
 {
  "id": "zap",
  "feed": "https://zap.aeiou.pt/feed",
- "read_at": "2026-11-16T23:11Z",
+ "read_at": "2026-11-16T22:14Z",
  "items": [
-  {
-   "title": "E de repente, a manosfera rejeitou Donald Trump",
-   "link": "https://zap.aeiou.pt/e-de-repente-a-manosfera-rejeitou-donald-trump-774709",
-   "date": "2026-11-16"
-  },
   {
    "title": "Milhões de pessoas estão a ser diagnosticadas como obesas &#8211; mas não são",
    "link": "https://zap.aeiou.pt/diagnosticado-errado-obesidade-775446",
@@ -26,6 +21,11 @@
   {
    "title": "Rússia censura poema de Pushkin nas escolas. Pais queixam-se e Putin recua",
    "link": "https://zap.aeiou.pt/censura-russia-pushkin-escolas-775448",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "&#8220;Caos total&#8221; na política holandesa",
+   "link": "https://zap.aeiou.pt/caos-total-politica-holandesa-775429",
    "date": "2026-11-16"
   }
  ]

@@ -1,18 +1,8 @@
 {
  "id": "braga-tv",
  "feed": "https://bragatv.pt/feed/",
- "read_at": "2026-11-16T23:11Z",
+ "read_at": "2026-11-16T22:14Z",
  "items": [
-  {
-   "title": "Empresário e ex-vereador de Oliveira do Bairro encontrado morto",
-   "link": "https://bragatv.pt/empresario-e-ex-vereador-de-oliveira-do-bairro-encontrado-morto/",
-   "date": "2026-11-16"
-  },
-  {
-   "title": "Braga: Queda de árvore bloqueia passeio em rua da freguesia de Real",
-   "link": "https://bragatv.pt/braga-queda-de-arvore-bloqueia-passeio-em-rua-da-freguesia-de-real/",
-   "date": "2026-11-16"
-  },
   {
    "title": "Conheça a chave do Eurodreams",
    "link": "https://bragatv.pt/conheca-a-chave-do-eurodreams-314/",
@@ -26,6 +16,16 @@
   {
    "title": "GNR regista 221 acidentes no distrito de Braga numa semana",
    "link": "https://bragatv.pt/gnr-regista-221-acidentes-no-distrito-de-braga-numa-semana/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Ministra da Cultura visita centro dedicado à olaria tradicional em Guimarães",
+   "link": "https://bragatv.pt/ministra-da-cultura-visita-centro-dedicado-a-olaria-tradicional-em-guimaraes/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "PSP detém dois condutores alcoolizados em Braga e Famalicão",
+   "link": "https://bragatv.pt/psp-detem-dois-condutores-alcoolizados-em-braga-e-famalicao-2/",
    "date": "2026-11-16"
   }
  ]
