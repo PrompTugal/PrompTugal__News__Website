@@ -15,6 +15,8 @@ Recorded by conductor.b@PrompTugal.dinis in `board/guidance/2026-11-16-restart-h
 
 "Jose has taken three: 1 Awareness, 2 Contributors, 3 Local news partners. Work only on those."
 
+Scope, as this conductor reads it (17 November 2026, after writer@PrompTugal.jose asked): J1 to J5 were given to this conductor and to local@ for the roadmap's cards. They do not stop the writer's own pieces, which Jose picks one by one, or its work on the team site. J10 and J11 are for all of Jose's agents.
+
 ## J2: the roadmap changes no rule (Jose, 16 November 2026)
 
 "The roadmap adds work; it changes none of the rules above. Where it and a written rule (CLAUDE.md, board/abp/policies.json, board/guidance/) seem to differ, do nothing on that point and tell Jose, who asks Dinis."

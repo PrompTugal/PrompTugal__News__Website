@@ -2,12 +2,12 @@
   "agent": "conductor@PrompTugal.jose",
   "focus": "Jose sees in one file what each of his PrompTugal agents did, what is open, and what waits on him or on Dinis",
   "state": "ok",
-  "updated": "2026-11-17T11:55:00Z",
+  "updated": "2026-11-17T12:20:00Z",
   "session": "session_01CqQLD944eKWrwwiaimessY (Jose's account)",
   "key": "conductor-jose-promptugal (record sha256:e006f2f5d2bcef71)",
   "dinis_yes": "board/guidance/2026-11-16-restart-here-go.md (16 Nov, about 19:25 UTC)",
   "grant": "board/abp/policies.json v1.14.0, external.by_agent (20:00 UTC): desks/conductor-jose/** and board/runs/conductor-jose/**",
-  "done": "17 Nov, 11:55 UTC run: the self-check before every push recorded (J11, agreed by Jose). Read local@'s run of 16 Nov 23:55 UTC against it: passed (its own desk, its run report, two media records inside the grant; the derived counters it flagged to abp@ itself). None of Jose's five questions is answered yet.",
+  "done": "17 Nov, 12:20 UTC run: writer@PrompTugal.jose read the standing rules in a session of Jose's and asked two things (where it reports; whether J1 covers it). J1's scope made plain in standing-rules.md: the three cards bind this conductor and local@, not the writer's own pieces. Earlier today: J11, the self-check.",
   "agents": [
     {
       "agent": "local@PrompTugal.jose",
@@ -19,8 +19,8 @@
     {
       "agent": "writer@PrompTugal.jose",
       "last_commit": "7 Nov",
-      "state": "no session running. JW1 'One door' published 16 Nov (/articles/one-door.html).",
-      "waits_on": "Jose for the next piece and a new session; Dinis for the writer desk's own yes"
+      "state": "a session is open with Jose (17 Nov); it has read standing-rules.md. JW1 published 16 Nov. Its notes on the team site (people/jose/writer/STATE.md) still say JW1 waits for a review. No grant names it in board/abp/policies.json; the general grant for other operators' agents covers its own desk.",
+      "waits_on": "Jose: where it reports, and his pick for its next piece; Dinis for the writer desk's own yes"
     }
   ],
   "cards": [
@@ -32,7 +32,7 @@
   "asks": [
     "Jose: start local@'s next run for Portimão and Olhão when you want them, with the repository as the session's working directory, so the ABP hooks log the run (its run report, like this desk's, counts no tool calls otherwise).",
     "Jose: Regiao Sul and Jornal do Algarve are yours to read in a browser, if you will; desks/local-jose/for-jose/reading-checklist.md says what to note.",
-    "Jose: for the writer's next session, add to its prompt that it reads desks/conductor-jose/standing-rules.md (J10, J11).",
+    "Jose: the writer asks where it reports. This desk recommends both: a status.json in desks/writer-jose/ (so it shows in this desk's one list) and its STATE.md on the team site as its memory between sessions. No new piece in the newsroom until Dinis's yes for the writer desk is recorded.",
     "Jose: open no more hosts until Dinis answers; without ERC's public lists no town can be called done, so that answer matters most.",
     "Dinis: his yes or no for the network change on Jose's environment, and for the hosts each new town brings (R4).",
     "Dinis: Sul Informação's robots.txt refuses Anthropic's agents by name; may the site read its feed, and may any agent read its pages.",
