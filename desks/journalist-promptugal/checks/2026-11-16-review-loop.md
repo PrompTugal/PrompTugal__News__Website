@@ -59,3 +59,24 @@ at: 2026-11-16T20:35Z
 - **West, Portimão:** the hospital story is written neutrally ("reported deaths of elderly patients"), the ERS step called an evaluation, not an inquiry, the dismissal "announced", and a fourth case resting on one party statement left out. Right calls; for `local_news`, not AI. The EMARP date (21 August 2025) is already right on Portimão's page.
 - **West, Vila do Bispo:** three items; the desk itself says their AI paths are stretched. Local news only.
 - **S67:** the 51.49 million euros (and 45.67 million paid) re-read on the State's transparency portal (transparencia.gov.pt), 16 November 2026: as written.
+
+## The 22:40 wake
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.east` | wake 2: seven more sourced local items (storm alerts, CCDR Algarve, the Tavira flood explainer, InovCitrus, VRSA) | **brought onto dev**: each with URL, date and date read, all marked "no AI" and kept as local news; no contacts. Re-checked: InovCitrus, "an investment of 515 thousand euros" (CCDR Algarve's page, read 16 November 2026), as written |
+| `work/place.algarve.west` | daily hand-over debrief, status | **brought onto dev** |
+| `work/place.districts` | wake 22:35 status and run report | **brought onto dev** |
+| `work/place.algarve.central` | nothing new; `12ca5920d` still held | held, as at 21:40 |
+| partner desks | nothing new in the last hour | none |
+
+## The 23:40 wake
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.east` | wake 3: five town and region site keys rotated (old ones superseded, new `-2` keys active), five files re-signed | **brought onto dev**: no duplicate ids, every file signed by an active key, gate OK |
+| `work/place.algarve.central` | rechecks: Loulé's Som Riscado AI recital (new, in `ai_news`), the Faro 24 November AI and water conference's details, new gaps | **brought onto dev** |
+| `work/place.algarve.west` | Barlavento pass: Aljezur, Monchique and Silves follow-ups (the rural-territories manifesto, the local-markets network) | **brought onto dev**: local news; leads seen only in a Sul Informação snippet are marked "do not cite", rightly |
+| partner desks | correspondent@ placed four articles in their beats; nothing for this desk to publish | none |
+
+- **Loulé, Som Riscado (central):** the council's preview of the 11th festival (19 to 22 November 2026) lists "Inner Voice", a piano recital with AI as part of the artistic team, for schools on 19 November. A real AI item, rightly on Loulé's AI list. Re-check here was partial: cm-loule.pt did not answer this session's fetch (the connection closed), but the page's own address reads "piano com inteligência artificial". To re-read at the next wake.

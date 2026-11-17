@@ -267,8 +267,8 @@
     }
   ],
   "identity": {
-    "key_id": "site.tavira-promptugal",
-    "signed_by": "place.tavira@PrompTugal.dinis"
+    "key_id": "site.tavira-promptugal-2",
+    "signed_by": "place.algarve.east@PrompTugal.dinis"
   },
   "gaps": [
     "No AI company, startup or university group headquartered in Tavira was found on any page we could open. A first pass is not proof of absence: the company registry (Racius, Informa D&B) and LinkedIn were not searched.",
@@ -284,7 +284,8 @@
     "The Algarve Biomedical Center's own About page (read 16 November 2026) mentions neither Tavira, Campus Med Life nor digital therapeutics, and lists a clinical research unit, an imaging lab, a genetics lab and an insoles lab. Search results point to its press items on the Tavira plan, but those and the Portugal Resident piece were down or blocked, so the digital therapeutics centre stays unconfirmed.",
     "Polo de Inovação de Tavira: search listings dated March 2026 (Recuperar Portugal, Jornal do Algarve, Região Sul and Agroportal) carry headlines that say the PRR requalification of the CEAT was carried out, at a figure above 2 million euros. All four pages were blocked or down when we tried, so we cannot say what was finished, and we have not read the 2026 plans for the centre or any AI use. CCDR Algarve's December 2024 notice, which we did read, had scheduled the works to end by December 2025. The digital therapeutics centre remains unconfirmed.",
     "cm-tavira.pt returned HTTP 403 on 16 November, so no council press release, minutes or official contact page was read; the six new items come from Barlavento and Postal. Next: gov.pt, Diário da República, CCDR Algarve and IPMA for the flood-risk coverage.",
-    "Seen only as headlines, not opened: flood-risk zones in Tavira (Postal, 11 November), a missing man and a seized boat near Cabanas, the 2026 council budget (a search snippet says 61.5 million euros, unchecked) and the Regulamento de Mobilidade Sustentável (Edital 120/2026)."
+    "Seen only as headlines, not opened: flood-risk zones in Tavira (Postal, 11 November), a missing man and a seized boat near Cabanas, the 2026 council budget (a search snippet says 61.5 million euros, unchecked) and the Regulamento de Mobilidade Sustentável (Edital 120/2026).",
+    "The APA flood-risk classification and RCM 63/2024 are known through Postal only; check apambiente.pt and Diário da República. No storm damage report for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim was found on the official pages read."
   ],
   "voice": {
     "lede": "Tavira, ó pá, where the river is calmer than any server room and the seven arches have seen more migrations than your cloud provider.",
@@ -360,6 +361,30 @@
       "significance": "town",
       "ai_path": "no AI",
       "steps": 0
+    },
+    {
+      "title": "FRUSOAL launches InovCitrus, a 515,000 euro citrus lab, in Tavira",
+      "summary": "CCDR Algarve backed the launch on 23 October; the first project is a three-year study (2026 to 2028) of the citrus pest Scirtothrips aurantii. The CCDR president called for more R&D funding in the EU's 2028 to 2034 budget. The CCDR page does not itself name Tavira; the venue comes from the report of the event.",
+      "date": "2026-10-26",
+      "publisher": "CCDR Algarve",
+      "url": "https://www.ccdr-alg.pt/site/info/ccdr-algarve-destaca-inovacao-e-conhecimento-como-pilares-da-competitividade-da-citricultura",
+      "read_on": "2026-11-16",
+      "significance": "town and region",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "the citrus belt of Faro, Olhão and Castro Marim"
+    },
+    {
+      "title": "Postal explains why parts of Tavira flood: the Gilão river meets the high tide",
+      "summary": "Low areas by the river are, per the article, classed by APA as an area of significant potential flood risk; floods in 1969 and 1989 are cited. The classification is known only through Postal and is not checked at APA. The page's date is 10 or 11 November.",
+      "date": "2026-11-11",
+      "publisher": "Postal",
+      "url": "https://postal.pt/algarve/no-algarve-tavira-tem-zonas-em-risco-de-cheias-as-razoes-que-tornam-a-cidade-vulneravel/",
+      "read_on": "2026-11-16",
+      "significance": "town and neighbours",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "Olhão and Faro share the Ria Formosa drainage"
     }
   ]
 }

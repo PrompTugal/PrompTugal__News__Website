@@ -1,0 +1,32 @@
+{
+ "id": "gazeta-das-caldas",
+ "feed": "https://gazetadascaldas.pt/feed/",
+ "read_at": "2026-11-16T23:11Z",
+ "items": [
+  {
+   "title": "Explosão em habitação fez três feridos em São Gregório",
+   "link": "https://gazetadascaldas.pt/sociedade/explosao-em-habitacao-fez-tres-feridos-em-sao-gregorio/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Ameaças com armas de fogo e tráfico de estupefacientes culminam em operação nas Caldas",
+   "link": "https://gazetadascaldas.pt/sociedade/ameacas-com-armas-de-fogo-e-trafico-de-estupefacientes-culminam-em-operacao-nas-caldas/",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "PJ desmantelou grupo criminoso violento e apreendeu metralhadoras e droga nas Caldas",
+   "link": "https://gazetadascaldas.pt/sociedade/pj-desmantelou-grupo-criminoso-violento-e-apreendeu-metralhadoras-e-droga-nas-caldas/",
+   "date": "2026-11-12"
+  },
+  {
+   "title": "Detido por violência doméstica contra mãe e irmã",
+   "link": "https://gazetadascaldas.pt/sociedade/detido-por-violencia-domestica-contra-mae-e-irma/",
+   "date": "2026-11-12"
+  },
+  {
+   "title": "Dói-me a cabeça! O que os pais devem saber sobre cefaleias na infância",
+   "link": "https://gazetadascaldas.pt/tematicas/gazeta-da-saude-e-bem-estar/doi-me-a-cabeca-o-que-os-pais-devem-saber-sobre-cefaleias-na-infancia/",
+   "date": "2026-11-12"
+  }
+ ]
+}

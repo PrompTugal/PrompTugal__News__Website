@@ -1,0 +1,32 @@
+{
+ "id": "braga-tv",
+ "feed": "https://bragatv.pt/feed/",
+ "read_at": "2026-11-16T23:11Z",
+ "items": [
+  {
+   "title": "Empresário e ex-vereador de Oliveira do Bairro encontrado morto",
+   "link": "https://bragatv.pt/empresario-e-ex-vereador-de-oliveira-do-bairro-encontrado-morto/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Braga: Queda de árvore bloqueia passeio em rua da freguesia de Real",
+   "link": "https://bragatv.pt/braga-queda-de-arvore-bloqueia-passeio-em-rua-da-freguesia-de-real/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Conheça a chave do Eurodreams",
+   "link": "https://bragatv.pt/conheca-a-chave-do-eurodreams-314/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Braga inaugura monumento aos Antigos Combatentes na Avenida Central",
+   "link": "https://bragatv.pt/braga-inaugura-monumento-aos-antigos-combatentes-na-avenida-central/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "GNR regista 221 acidentes no distrito de Braga numa semana",
+   "link": "https://bragatv.pt/gnr-regista-221-acidentes-no-distrito-de-braga-numa-semana/",
+   "date": "2026-11-16"
+  }
+ ]
+}
