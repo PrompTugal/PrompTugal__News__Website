@@ -65,7 +65,12 @@ export function htmlPage(page, site) {
     const crumb = crumbs.length ? `<nav class="crumbs" aria-label="Breadcrumb"><a href="${up}index.html">Home</a>${crumbs.map(([h, t]) => ` / ${h ? `<a href="${up}${h}">${esc(t)}</a>` : esc(t)}`).join('')}</nav>` : ''
     const tocHtml = toc.length > 2 && !front ? `<details class="toc" open><summary>On this page</summary><ul>${toc.map(([id, t]) => `<li><a href="#${id}">${inline(t)}</a></li>`).join('')}</ul></details>` : ''
     const css = [...(site.assets?.css || []), ...(page.assets?.css || [])].map(c => `\n<link rel="stylesheet" href="${href(c)}">`).join('')
-    const js = [...(site.assets?.js || []), ...(page.assets?.js || [])].map(s => `\n<script defer src="${href(s)}"></script>`).join('')
+    // a bare page (the pairing page: security@'s P4, board/passes/2026-11-17-pairing-step-1.md) carries none of the
+    // site-wide scripts (obs.js and the rest), no inline script, and a meta CSP; its own scripts only, modules allowed
+    const bare = !!page.bare
+    const js = [...(bare ? [] : site.assets?.js || []), ...(page.assets?.js || [])].map(s => `\n<script defer src="${href(s)}"></script>`).join('') +
+        (page.assets?.module || []).map(s => `\n<script type="module" src="${href(s)}"></script>`).join('')
+    const csp = bare && page.head ? `\n${page.head}` : ''   // the bare page's own head lines (its CSP)
     // a page's own scripts that must run before the body is drawn (a switch between two layouts, so neither flashes)
     const headJs = (page.assets?.head || []).map(s => typeof s === 'string' ? { src: s } : s).map(s => `\n<script src="${href(s.src)}"${Object.entries(s.data || {}).map(([k, v]) => ` data-${k}="${esc(typeof v === 'function' ? v() : v)}"`).join('')}></script>`).join('')
     const E = S.endorse
@@ -79,7 +84,7 @@ export function htmlPage(page, site) {
     return `<!doctype html>
 <html lang="${/^[a-z]{2}-[A-Z]{2}$/.test(page.lang || "") ? page.lang : "en-GB"}">
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8">${csp}
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(title)} · ${esc(S.name)}</title>
 <meta name="description" content="${esc(summary || '')}">
@@ -141,7 +146,7 @@ ${bodyHtml}
 <p class="small">${esc(S.footer_note)}${utility ? ` · ${utility}` : ''} · ${ver}<span class="foot-theme"></span></p>
 </div></footer>
 ${ctabs({ up, href, site, section })}
-<script>(function(){var c=document.querySelector('details.toc');if(c&&innerWidth<1000&&c.querySelectorAll('li').length>5)c.removeAttribute('open');})();(function(){var e=document.querySelector('.countdown');if(!e)return;var n=Date.now(),s=Date.parse(e.dataset.start),f=Date.parse(e.dataset.end),d1=Date.parse(e.dataset.day1+'T00:00:00Z'),d=Math.ceil((s-n)/864e5),k=Math.floor((n-d1)/864e5)+1;e.textContent=n<s?(d===1?'Starts tomorrow':d+' days to the summit'):n<f?(k<1?'Opening Night':'Day '+k+' of 3'):'The summit is over';var t=document.querySelector('.dl-date'),i=new Date(n).toISOString().slice(0,10);if(t&&t.getAttribute('datetime')!==i){t.setAttribute('datetime',i);var o={timeZone:'Europe/Lisbon'};t.querySelector('.dl-long').textContent=new Date(n).toLocaleDateString('en-GB',Object.assign({weekday:'long',day:'numeric',month:'long',year:'numeric'},o)).replace(',','');t.querySelector('.dl-short').textContent=new Date(n).toLocaleDateString('en-GB',Object.assign({weekday:'short',day:'numeric',month:'short'},o)).replace(',','');}})();</script>${js}
+${bare ? '' : `<script>(function(){var c=document.querySelector('details.toc');if(c&&innerWidth<1000&&c.querySelectorAll('li').length>5)c.removeAttribute('open');})();(function(){var e=document.querySelector('.countdown');if(!e)return;var n=Date.now(),s=Date.parse(e.dataset.start),f=Date.parse(e.dataset.end),d1=Date.parse(e.dataset.day1+'T00:00:00Z'),d=Math.ceil((s-n)/864e5),k=Math.floor((n-d1)/864e5)+1;e.textContent=n<s?(d===1?'Starts tomorrow':d+' days to the summit'):n<f?(k<1?'Opening Night':'Day '+k+' of 3'):'The summit is over';var t=document.querySelector('.dl-date'),i=new Date(n).toISOString().slice(0,10);if(t&&t.getAttribute('datetime')!==i){t.setAttribute('datetime',i);var o={timeZone:'Europe/Lisbon'};t.querySelector('.dl-long').textContent=new Date(n).toLocaleDateString('en-GB',Object.assign({weekday:'long',day:'numeric',month:'long',year:'numeric'},o)).replace(',','');t.querySelector('.dl-short').textContent=new Date(n).toLocaleDateString('en-GB',Object.assign({weekday:'short',day:'numeric',month:'short'},o)).replace(',','');}})();</script>`}${js}
 <div class="agent-block"><pre><code>${esc(agentBlock(page, site))}</code></pre></div>
 </body>
 </html>

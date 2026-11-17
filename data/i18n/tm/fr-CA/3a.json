@@ -17,5 +17,14 @@
   "src": "**Talk to us:** a correction, a question or a story we misse",
   "ok": false,
   "from": "fr-FR"
+ },
+ "3ad18ea33c3678fa": {
+  "t": "Table ronde au UAlg TEC Campus : si l'IA ne vous recommande pas, qui le fera ?",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Panel at UAlg TEC Campus: if AI does not recommend you, who ",
+  "ok": false,
+  "from": "fr-FR"
  }
 }

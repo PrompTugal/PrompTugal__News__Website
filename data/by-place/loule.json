@@ -35,6 +35,21 @@
   },
   "ai_news": [
     {
+      "title": "Algarve Primeiro confirms Som Riscado festival in Loulé includes an AI-supported piano recital for schools",
+      "summary": "Algarve Primeiro (16 Nov 2026) says that on 19 November Carles Marigo presents Inner Voice, a free school concert at the Som Riscado festival in Loule, an immersive piano recital supported by AI. This is a second source for the council item already on file.",
+      "date": "2026-11-16",
+      "publisher": "Algarve Primeiro",
+      "url": "https://www.algarveprimeiro.com/d/festival-som-riscado-leva-musica-e-experiencias-multimedia-a-loule/68860-88",
+      "read_on": "2026-11-17",
+      "ai_path": "AI is used in a piano recital at a festival (event with AI performance)",
+      "steps": 1,
+      "significance": "town",
+      "blast": [
+        "quarteira",
+        "albufeira"
+      ]
+    },
+    {
       "title": "Loulé's Som Riscado festival features an AI-supported piano recital for schools",
       "summary": "The council's preview of the 11th Som Riscado festival (19 to 22 November 2026) lists Inner Voice by Carles Marigó, a piano recital supported by AI that acts as part of the artistic team, played free for schools on 19 November.",
       "date": "2026-11-14",
@@ -438,7 +453,8 @@
     "NaturMaris prize (Barlavento 2026-11-16, NERA Inova Algarve) read in full: no AI or digital content, rejected.",
     "Som Riscado AI piano item already present.",
     "Postal 12 Nov 2026 (read): 3WX's Best Number One link-page platform, launched at Web Summit, has no AI mention in the article, so not added.",
-    "cm-loule.pt news list 17 Nov read: only Som Riscado AI piano (already present) and GIS Day (no AI)."
+    "cm-loule.pt news list 17 Nov read: only Som Riscado AI piano (already present) and GIS Day (no AI).",
+    "17 Nov (recheck 5): opened Algarve Primeiro homepage and the Som Riscado article; cm-loule.pt/pt/noticias.aspx returned 404. Regiao Sul and Portugal Resident refused (403); The Portugal News empty. Search for Loule startup AI in Nov 2026 found nothing new; Best Number One has no AI stated."
   ],
   "voice": {
     "lede": "Oi, pá! Loulé, where the market has domes and the council has algorithms.",

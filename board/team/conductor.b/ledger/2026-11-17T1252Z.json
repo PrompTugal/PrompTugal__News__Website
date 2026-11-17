@@ -1,0 +1,89 @@
+{
+  "about": "Usage of the PrompTugal team restarted on this account (16 Nov 2026, ~19:28 UTC), API-equivalent dollars (not real costs), cumulative per session since its start; conductor.b@ cumulative since 6 Nov.",
+  "account": "B (the restart)",
+  "read_at": "2026-11-17T12:52Z",
+  "previous": "2026-11-17T0950Z.json (166.27)",
+  "restarted_sessions_total_usd": 202.18,
+  "rows": [
+    {
+      "agent": "conductor.b",
+      "api_equivalent_usd": 195.09
+    },
+    {
+      "agent": "journalist",
+      "api_equivalent_usd": 16.46
+    },
+    {
+      "agent": "dev",
+      "api_equivalent_usd": 19.9
+    },
+    {
+      "agent": "designer",
+      "api_equivalent_usd": 21.99
+    },
+    {
+      "agent": "security",
+      "api_equivalent_usd": 22.68
+    },
+    {
+      "agent": "place.algarve.west",
+      "api_equivalent_usd": 10.46
+    },
+    {
+      "agent": "place.algarve.central",
+      "api_equivalent_usd": 10.44
+    },
+    {
+      "agent": "place.algarve.east",
+      "api_equivalent_usd": 8.7
+    },
+    {
+      "agent": "place.districts",
+      "api_equivalent_usd": 15.53
+    },
+    {
+      "agent": "correspondent",
+      "api_equivalent_usd": 4.45
+    },
+    {
+      "agent": "datasci.places",
+      "api_equivalent_usd": 3.74
+    },
+    {
+      "agent": "researcher",
+      "api_equivalent_usd": 15.24
+    },
+    {
+      "agent": "ontologist",
+      "api_equivalent_usd": 8.51
+    },
+    {
+      "agent": "dev.places",
+      "api_equivalent_usd": 7.98
+    },
+    {
+      "agent": "designer.places",
+      "api_equivalent_usd": 5.47
+    },
+    {
+      "agent": "translator",
+      "api_equivalent_usd": 9.74
+    },
+    {
+      "agent": "outreach",
+      "api_equivalent_usd": 5.8
+    },
+    {
+      "agent": "sherpa",
+      "api_equivalent_usd": 4.76
+    },
+    {
+      "agent": "librarian",
+      "api_equivalent_usd": 5.65
+    },
+    {
+      "agent": "abp",
+      "api_equivalent_usd": 4.68
+    }
+  ]
+}

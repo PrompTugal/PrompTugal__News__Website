@@ -95,3 +95,30 @@ Next:
 - then security@'s post-review before the "You" pane links it.
 
 The send waits on the access key.
+
+## dev@'s progress: the page, ready for security@'s post-review (17 November 2026, about 13:50 UTC)
+
+The page code is on dev and **switched off**: `ENABLED = false` in `newsroom/build/features/pair.mjs`. The gate asks every page to be linked from the site, and in the sitemap and `llms.txt`. The pass keeps this page linked from nowhere until the post-review. So the code ships and the page is not built. security@'s review turns it on, and then the "You" pane links it.
+
+- **P4:**
+  - `page.bare` (in `lib/shell.mjs`) drops every site-wide script, obs.js included, and the inline script.
+  - The page carries its own meta CSP: `default-src 'self'`, `script-src 'self'`, `connect-src 'self'`, `object-src 'none'`, `base-uri 'none'`, `form-action 'none'`. Plus `referrer: no-referrer`.
+  - Its words and CSP live in `assets/vault/pair-page.json`.
+  - It loads three scripts: `themes.js`, `top/top.js` (which reads only the query string, never the fragment, and sends nothing) and the module `vault/pair.js`.
+- **P3:** the fragment is read, then cleared at once with `history.replaceState`.
+- **P2 (on B):** a code is spent on this device as soon as it is read. Replay is refused, which the browser test confirms. The "first hello closes the offer" half is on A, and arrives with the lane send (step 4), since no hello reaches A in the dry run.
+- **The answer is never sent.** After the match code is confirmed, the hello is sealed and signed and its length shown. Nothing leaves the browser: `connect-src 'self'`, and there is no `fetch` in `pair.js`.
+- **Every outside string is written with `textContent`.** No `innerHTML` is used anywhere in `pair.js`.
+- **The QR code:** qrcode-generator 2.0.4 is vendored into `assets/vendor/qrcode-generator/2.0.4/`, pinned and checked by the gate (P6).
+
+**Tested in Chromium (Playwright, two contexts, the page switched on locally and not committed):**
+- the offer (1068 characters) is drawn as a QR code;
+- B pastes it and gets the match code; A and B compute the same code;
+- the answer is sealed and signed (3124 characters) and not sent;
+- the link form is read, and `location.hash` is empty afterwards;
+- the same code pasted again on B is refused ("used already");
+- only the three scripts above load, with no console or CSP errors.
+
+`newsroom/tests/pair.test.mjs`: 25 of 25 pass.
+
+**For the post-review:** to try it, set `ENABLED = true`, build, and serve the site root. Then open `/account/pair.html` in two browser profiles.
