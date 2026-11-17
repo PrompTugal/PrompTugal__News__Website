@@ -348,20 +348,21 @@ function translateDeep(v, m, skip) {
 const KEEP = new Set(['id', 'kind', 'parent', 'path', 'agent', 'status', 'updated', 'by', 'url', 'source_url', 'read_on', 'date', 'feed', 'accent', 'at', 'label', 'identity', 'name', 'publisher', 'type', 'steps', 'file', '$schema'])
 // the derived queue (spec item 6): every English string the place pages translate (the same walk as translateDeep),
 // and, per culture, those the memory does not hold yet, for translator@ to fill; never a string twice
-function segmentsOf(L) {
+function segmentsOf(ctx, L) {
     const seen = new Map()
     const walk = (v, id, skip) => {
         if (typeof v === 'string') { if (v.trim() && !/^https?:/.test(v)) { const k = tmKey(v); if (!seen.has(k)) seen.set(k, { id: k, text: tmNorm(v), places: new Set() }); seen.get(k).places.add(id) } return }
         if (Array.isArray(v)) { for (const x of v) walk(x, id, skip); return }
         if (v && typeof v === 'object') for (const [k, x] of Object.entries(v)) if (!skip.has(k)) walk(x, id, skip)
     }
-    for (const p of L.list) walk(p, p.id, KEEP)
+    const QSKIP = new Set(ctx.readJSON('assets/by-place/queue.json').not_rendered)
+    for (const p of L.list) for (const [k, v] of Object.entries(p)) { if (QSKIP.has(k)) { if (k === 'look' && v && v.photo) walk(v.photo, p.id, KEEP); continue } if (!KEEP.has(k)) walk(v, p.id, KEEP) }
     walk(L.copy, 'copy', new Set())
     return [...seen.values()].map(x => ({ id: x.id, text: x.text, places: [...x.places].sort() })).sort((a, b) => a.id.localeCompare(b.id))
 }
 function queueFiles(ctx, L) {
-    const all = segmentsOf(L)
-    return memories(ctx).map(({ culture, m }) => ({ path: `api/v1/i18n/queue/${culture}.json`, schema: null, data: { culture, about: aroundW(ctx).queue_about, built: ctx.TODAY, segments_total: all.length, missing: all.filter(x => !m.has(x.id)).length, segments: all.filter(x => !m.has(x.id)) } }))
+    const all = segmentsOf(ctx, L)
+    return memories(ctx).map(({ culture, m }) => ({ path: `api/v1/i18n/queue/${culture}.json`, schema: null, data: { culture, about: ctx.readJSON('assets/by-place/queue.json').about, built: ctx.TODAY, segments_total: all.length, missing: all.filter(x => !m.has(x.id)).length, segments: all.filter(x => !m.has(x.id)) } }))
 }
 function translatedL(L, culture, m) {
     const byId = new Map()
