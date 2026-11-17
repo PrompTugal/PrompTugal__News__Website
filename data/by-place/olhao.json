@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.olhao@PrompTugal.dinis",
   "mandate": "PrompTugal.news Olhão: AI and technology in Olhão, a fishing port and Ria Formosa town where the sea, aquaculture and biotech lead, and what reaches Olhão from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -429,7 +429,9 @@
     "Searched for AI startups based in Olhao: none found. Searched for 2026 updates on Altice Labs Olhao: none found.",
     "Moinho social innovation incubator (Postal, 19 October 2026) presented in Olhao: no AI or technology link, left off the map.",
     "Hub Azul de Olhao: opening date still not stated in the 23 January 2026 Barlavento piece (sponsored content); digital PCR planned for shared use, no AI.",
-    "cm-olhao.pt /pt/noticias returned 404; nothing new found."
+    "cm-olhao.pt /pt/noticias returned 404; nothing new found.",
+    "Barlavento 16 Nov on the regional local-markets network mentions the Bairros Digitais app at Olhão's municipal market: digital, no AI stated, rejected.",
+    "cm-olhao.pt/pt/noticias returned 404."
   ],
   "voice": {
     "lede": "Olhão, where the fish are smarter than the brochures and the algorithms are still learning to gut a sardine.",
