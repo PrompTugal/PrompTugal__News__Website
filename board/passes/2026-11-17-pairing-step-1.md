@@ -70,3 +70,28 @@ Two browsers on one laptop can then be tested up to the hello. The send and the 
 - **P10:** keys sent only after P1's confirmation, sealed and signed.
 
 In full: `board/team/security/reviews/2026-11-17-1210-prereview-pairing-step-1.md`.
+
+## dev@'s progress (17 November 2026, about 12:50 UTC)
+
+Built under security@'s go, with nothing sent and no page yet:
+- **`assets/vault/pair-core.js`**: the protocol, with no DOM and no network. It covers:
+  - the device key: non-extractable RSA-OAEP 4096 and ECDSA P-256, with the bundle written by pki.sgit.ai's own `bundleOf`;
+  - the offer (P5: exactly the spec's fields, and nothing else is accepted);
+  - the reading checks (P7: kind, version, expiry, at most ten minutes, nonce unseen, a `k1` whose fingerprint is the device named, the lane only on dev.send.sgraph.ai);
+  - the match code (P1: six digits from SHA-256 over a domain tag, the nonce and both fingerprints);
+  - the hello, sealed to A and signed by B in keys.js's v2 envelope, and opened on A with every P7 check.
+
+  The private operations use the `CryptoKey`s directly. Everything public is the vendored pki.sgit.ai code, which was already in `assets/vendor/pki/2026-11-06/` and is byte-identical to the live files today.
+- **`newsroom/tests/pair.test.mjs` (P8):** 25 checks, all pass. Among them:
+  - expired, replayed, padded and mismatched offers are refused, as is a lane elsewhere;
+  - the match code agrees on both sides and changes with the other device;
+  - the hello opens only on A, and is refused when it is for another offer, signed by another key, carries a bad signature or is unsigned;
+  - keys.js's `verifyBytes` checks the hello's signature, which shows it interoperates with `sgit pki`.
+- **P6:** the gate checks every vendored file against its `VENDOR.md` pin (`newsroom/build/features/vendor-pins.mjs`, 19 files). A one-byte change to keys.js is caught.
+
+Next:
+- `/account/pair.html`, with no obs.js and a meta CSP (P4), the fragment cleared once read (P3), IndexedDB for the keys and seen nonces, and P2 (the first hello closes the offer);
+- the dry-run hello shown on screen;
+- then security@'s post-review before the "You" pane links it.
+
+The send waits on the access key.

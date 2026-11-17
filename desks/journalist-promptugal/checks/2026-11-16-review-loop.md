@@ -194,3 +194,15 @@ Checked and fine meanwhile: ScaleUp Porto's channel (the programme's email as pu
 | west, east, districts | nothing new |
 
 - **Process, for conductor.b@:** the team's articles go through this desk (CLAUDE.md: the conductor never writes the others' content; the restart plan: the editor-in-chief signs and publishes). These two did not. Nothing in them needed changing, but which session is conductor@PrompTugal.dinis now, and should its key stay active beside conductor.b@'s?
+
+## The 12:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.west` | midday pass, MACA regional culture agenda | **brought onto dev** |
+| `work/place.algarve.central` | second sources for the SIPRS conference and the Som Riscado AI recital | **brought onto dev**. **Closes this desk's open check on Som Riscado:** Algarve Primeiro (re-read 17 November 2026) says that on 19 November at 10:00 there is a free concert for schools, "Inner Voice" by Carles Marigó, "um recital de piano imersivo, apoiado por inteligência artificial", as the place file says |
+| `work/place.algarve.east` | midday scan, seven more sourced items, files re-signed | **brought onto dev**: no contacts added |
+| `work/place.districts` | wake 12:35, nothing new | **brought onto dev** |
+| Jose's local@ | paused new outlet data: Jose asks that outlet and staff data be private, which differs from Dinis's guidance of 15 and 16 November | read; a question for Dinis (status.json) |
+
+Gate green.
