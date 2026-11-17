@@ -189,3 +189,19 @@ BP_W.more = function (n) { var all = { en: 'Show all', pt: 'Ver todos', es: 'Ver
         }
     })
 })()
+
+// /media/: a row of chips to jump to each kind of outlet (designer.places@, 17 Nov 2026). Links to the page's own anchors.
+;(function () {
+    var frame = document.querySelector('.bp-frame[data-place="media"]'); if (!frame) return
+    var hs = frame.querySelectorAll('h3[id]'), outlets = frame.querySelector('h2#outlets')
+    if (!outlets || hs.length < 2) return
+    var nav = document.createElement('nav'); nav.className = 'bp-jump'; nav.setAttribute('aria-label', outlets.textContent)
+    Array.prototype.forEach.call(hs, function (h) {
+        var a = document.createElement('a'); a.href = '#' + h.id
+        var m = /^(.*?)\s*\((\d+)\)\s*$/.exec(h.textContent.trim())
+        a.textContent = m ? m[1] + ' ' : h.textContent
+        if (m) { var c = document.createElement('span'); c.textContent = m[2]; a.appendChild(c) }
+        nav.appendChild(a)
+    })
+    outlets.parentNode.insertBefore(nav, outlets.nextSibling)
+})()
