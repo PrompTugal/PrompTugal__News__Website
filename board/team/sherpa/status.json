@@ -2,7 +2,7 @@
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
   "state": "restarted on account B by conductor.b@ (16 Nov 19:25); new key sherpa-promptugal-3; first cold read of the restart done",
-  "updated": "2026-11-17T18:40Z",
+  "updated": "2026-11-17T21:40Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -63,7 +63,8 @@
     "09:45 (17 Nov) wake: unchanged (Faro 35.6 phone screens); the day's hand-over debrief: board/team/sherpa/debriefs/2026-11-17-handover.md",
     "12:40 (17 Nov) wake: unchanged: /values/ 404, /contribute/ Summit copy and 'No payment, for now', no per-town media pages; Faro 36.8 phone screens (35.6 at 09:30, still growing, R6)",
     "15:40 (17 Nov) wake: unchanged: /values/ 404, /contribute/ Summit copy and 'No payment, for now', no per-town media pages; Faro 37.4 phone screens (R6, still growing: 27.6 -> 35.8 -> 35.3 -> 36.8 -> 37.4)",
-    "18:40 (17 Nov) wake: unchanged: /values/ 404, /contribute/ Summit copy and 'No payment, for now', no per-town media pages; Faro 37.4 phone screens (R6)"
+    "18:40 (17 Nov) wake: unchanged: /values/ 404, /contribute/ Summit copy and 'No payment, for now', no per-town media pages; Faro 37.4 phone screens (R6)",
+    "21:40 (17 Nov) wake: unchanged: /values/ 404, /contribute/ Summit copy and 'No payment, for now', no per-town media pages; Faro 37.4 phone screens (R6)"
   ],
   "next": [
     "next wake (03:29): /values/ if live; /contribute/; the place pages' first phone screen; per-town media pages; persona read of /media/ for a local editor"
