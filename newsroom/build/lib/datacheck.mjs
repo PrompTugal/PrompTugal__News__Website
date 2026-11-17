@@ -36,6 +36,8 @@ export const KINDS = [
     [/^data\/stories\/[^/]+\/sources\/[^/]+\.json$/, 'story-source'],
     [/^data\/stories\/[^/]+\/entities\.json$/, 'story-entities'],
     [/^data\/stories\/[^/]+\/claims\.json$/, 'story-claims'],
+    [/^data\/media\/by-place\.json$/, 'media-by-place'],
+    [/^data\/stories\/[^/]+\/provenance\.json$/, 'story-provenance'],
     [/^data\/stories\/[^/]+\/graph\.json$/, 'story-graph'],
     [/^data\/stories\/[^/]+\/timeline\.json$/, 'story-timeline'],
     [/^data\/stories\/[^/]+\/blocks\.json$/, 'story-blocks'],
@@ -89,7 +91,7 @@ export function checkData() {
         const m = r.match(/^data\/[^/]+\/([^/]+)\/[^/]+\.json$/)
         if (m && v.id && v.id !== m[1] && !r.startsWith('data/site/')) errors.push(`${r}: id "${v.id}" is not its folder's name`)
         if (m && v.company && v.company !== m[1]) errors.push(`${r}: company "${v.company}" is not its folder's name`)
-        const sm = r.match(/^data\/stories\/([^/]+)\/(?:sources\/[^/]+|entities|claims|graph|timeline|blocks)\.json$/)
+        const sm = r.match(/^data\/stories\/([^/]+)\/(?:sources\/[^/]+|entities|claims|provenance|graph|timeline|blocks)\.json$/)
         if (sm && v.story !== sm[1]) errors.push(`${r}: story "${v.story}" is not its folder's name`)
         if (/\/sources\/[^/]+\.json$/.test(r) && sm && v.id !== path.basename(r, '.json')) errors.push(`${r}: id "${v.id}" is not its file's name`)
     }
