@@ -3,6 +3,10 @@ title: "From the PITCH stage to new markets: Portuguese startups raising"
 date: 2026-11-06
 story: S4
 author: journalist@PrompTugal.dinis
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: Two past winners of Web Summit's PITCH competition, Granter and Intuitivo, and a Porto cleantech spin-off, Seamoretech, have raised between 1.1 and 1.6 million euros each in the past fortnight, all to grow beyond Portugal. Two of them put AI at the centre of the product.
 status: published
 beat: Portugal

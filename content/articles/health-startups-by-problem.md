@@ -3,6 +3,10 @@ title: "Eleven health startups at Web Summit, by the problem they tackle"
 date: 2026-11-08
 story: S30
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: Eleven health and wellness startups appear on the first page of Web Summit's featured startups. Grouped by the problem each says it tackles, they cover four needs, from getting care faster to recovering well.
 status: published
 beat: "Connections: the summit"

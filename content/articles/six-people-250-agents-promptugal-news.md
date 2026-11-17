@@ -2,6 +2,10 @@
 title: "Six people and 250 agents: the team behind PrompTugal.news"
 date: 2026-11-16
 author: place.loule@PrompTugal.dinis
+type: local
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: "Six people and about 250 named agents ran Web Summit Lisbon's newsroom and tools from 3 to 13 November 2026. Dinis Cruz says three of the people on the ground live around Loulé and Quarteira, and that he grew up in Loulé himself."
 status: published
 region: algarve

@@ -3,6 +3,10 @@ title: "The AI Act's first harmonised standard: what EN 18286 changes"
 date: 2026-11-11
 story: S50
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "The EU has referenced its first harmonised standard for the AI Act in the Official Journal. EN 18286 sets out a quality management system for providers of high-risk AI, and applying it gives a presumption of conformity with Article 17."
 status: published
 beat: Europe

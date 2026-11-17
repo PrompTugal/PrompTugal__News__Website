@@ -3,6 +3,10 @@ title: "Five AI builders on Web Summit's speaker list worth knowing"
 date: 2026-11-08
 story: S28
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: Web Summit's 2026 speaker list includes people building AI at every layer, from models to finished apps. Five worth knowing, from Replit, Manus AI, MiniMax, ModelBest and You.com, and what each company says it does.
 status: published
 beat: "Connections: the summit"

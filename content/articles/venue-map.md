@@ -3,6 +3,10 @@ title: "A map of Web Summit's buildings, and what each holds"
 date: 2026-11-07
 story: S27
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "PrompTugal.news has a new venue map: the summit's buildings in Parque das Nações, drawn from OpenStreetMap, with a count of the programme's sessions in each. No people are on it. The map is drawn in advance; a small script shades the sessions a reader picks, in their own browser, and sends nothing."
 status: published
 beat: AI and robotics (a team topic)

@@ -3,6 +3,10 @@ title: "From pineapple waste to fish feed: AgroGrINTech's pilot in Maia"
 date: 2026-11-06
 story: S22
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: The Portuguese startup AgroGrINTech has opened a pilot unit in Maia that turns pineapple peel and core into bromelain, an enzyme used to make fish feed ingredients, and plans its first supply contracts in 2027.
 status: published
 beat: Portugal

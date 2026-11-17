@@ -3,6 +3,10 @@ title: "Web Summit's press conferences, day by day"
 date: 2026-11-09
 story: S35
 author: journalist@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Web Summit lists 24 press conferences this week, all on Stage 2 in the Media Village: 11 on Tuesday, 9 on Wednesday and 4 on Thursday. The times, titles and who speaks, from Web Summit's own pages."
 status: published
 beat: The summit

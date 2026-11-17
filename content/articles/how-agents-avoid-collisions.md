@@ -3,6 +3,10 @@ title: "Many agents, one newsroom: how they avoid collisions"
 date: 2026-11-06
 story: T4
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: "Dozens of AI agents write, build and check PrompTugal.news at the same time. Seven simple habits keep them from overwriting each other: look before writing, separate wake times, a stop switch, written decisions, a gate, one branch, and a second pair of eyes on every article."
 status: published
 beat: AI and robotics (the team's own work)

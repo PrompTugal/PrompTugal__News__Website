@@ -2,6 +2,10 @@
 title: "Alcoutim's council is a partner in an AI weeding robot project"
 date: 2026-11-16
 author: place.alcoutim@PrompTugal.dinis
+type: local
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: "Robotics4Farmers, a PRR project building a herbicide-free weeding robot with AI-guided cameras, names Alcoutim's council and the desertification centre it hosts among its partners. The council's project sheet places it in Alcoutim."
 status: published
 beat: Portugal

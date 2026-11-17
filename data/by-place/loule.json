@@ -263,6 +263,17 @@
       "url": "https://postal.pt",
       "kind": "press",
       "feed": "unknown"
+    },
+    {
+      "name": "Algarve Daily News",
+      "url": "https://www.algarvedailynews.com/",
+      "kind": "local news (English); read 2026-11-17, front page, technology section and a Vilamoura article: no AI-linked local item"
+    },
+    {
+      "name": "Jornal do Algarve",
+      "url": "https://jornaldoalgarve.pt/",
+      "kind": "regional news; homepage 403, but the RSS feed opened (12 items, 16-17 Nov)",
+      "feed": "https://www.jornaldoalgarve.pt/feed/"
     }
   ],
   "events": [
@@ -454,7 +465,10 @@
     "Som Riscado AI piano item already present.",
     "Postal 12 Nov 2026 (read): 3WX's Best Number One link-page platform, launched at Web Summit, has no AI mention in the article, so not added.",
     "cm-loule.pt news list 17 Nov read: only Som Riscado AI piano (already present) and GIS Day (no AI).",
-    "17 Nov (recheck 5): opened Algarve Primeiro homepage and the Som Riscado article; cm-loule.pt/pt/noticias.aspx returned 404. Regiao Sul and Portugal Resident refused (403); The Portugal News empty. Search for Loule startup AI in Nov 2026 found nothing new; Best Number One has no AI stated."
+    "17 Nov (recheck 5): opened Algarve Primeiro homepage and the Som Riscado article; cm-loule.pt/pt/noticias.aspx returned 404. Regiao Sul and Portugal Resident refused (403); The Portugal News empty. Search for Loule startup AI in Nov 2026 found nothing new; Best Number One has no AI stated.",
+    "Sul Informação (sulinformacao.pt): homepage, tag page and feed all returned 403 on 2026-11-17; skipped.",
+    "Jornal do Algarve (jornaldoalgarve.pt): homepage and search returned 403 on 2026-11-17; only the RSS feed opened and held no new AI-linked item for this town.",
+    "Algarve Daily News 16-17 Nov: Faro housing protest and Ria Formosa villas pieces have no AI link; not added."
   ],
   "voice": {
     "lede": "Oi, pá! Loulé, where the market has domes and the council has algorithms.",

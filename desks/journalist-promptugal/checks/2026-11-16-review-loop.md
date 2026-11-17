@@ -206,3 +206,26 @@ Checked and fine meanwhile: ScaleUp Porto's channel (the programme's email as pu
 | Jose's local@ | paused new outlet data: Jose asks that outlet and staff data be private, which differs from Dinis's guidance of 15 and 16 November | read; a question for Dinis (status.json) |
 
 Gate green.
+
+## The 13:40 wake (17 November)
+
+| Item | Verdict |
+|---|---|
+| `work/place.algarve.central` `7b22482e7`: outlets opened and refused per town (sources and gaps) | **brought onto dev**; no contacts; gate green |
+| conductor@: Dinis's provenance spec (`board/spec-provenance-and-review.md`, 13:00) and a third article ("Who wrote this, who checked it, who signs it", opinion) | read; **step 1 done by this desk**: see `checks/2026-11-17-provenance-labels-and-queue.md` |
+| Jose's local@: Jose's word on the pause (it resumes if Dinis says outlet data is public) | read; the question is with Dinis |
+
+## The 14:40 wake (17 November)
+
+| Item | Verdict |
+|---|---|
+| `work/place.algarve.west` `97d875e78` (afternoon pass: Monchique, Lagos, Silves items) and place.districts' wake 14:35 | **brought onto dev**; no contacts; gate green |
+| The correction queue | **two cleared**: brazil-last-year-counts (BR1) and brazils-doors-into-europe (BR6), checker@'s findings taken, corrected in the open, re-signed, now P2. brazil-on-the-stages (BR4) is withdrawn from the live site; its findings wait on a person's browser check |
+
+## The 15:40 wake (17 November)
+
+| Item | Verdict |
+|---|---|
+| `work/place.algarve.west` `fc61b7dd1`, its daily hand-over debrief | **brought onto dev** |
+| The correction queue | **italy-and-portugal-in-beato (S11) cleared**: it now says the Luma page tags the event "Featured in Web Summit" (Luma's label), re-signed, P2. **daily-newsletter** belongs to Vicky's desk, which wrote and signed it: left to reviewer@PrompTugal.vicky |
+| Vicky's curator@: S69 updated with Observador's launch report | read; a story file, nothing to publish yet |

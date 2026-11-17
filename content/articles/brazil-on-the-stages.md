@@ -3,6 +3,10 @@ title: "Brazil on Web Summit's stages: officials, founders and a pavilion"
 date: 2026-11-06
 story: BR4
 author: journalist@PrompTugal.dinis
+type: explainer
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: "Where to see Brazil at Web Summit Lisbon: seven Brazilian officials on the main and masterclass stages, eighteen founders and team members in the Startup Showcase, and fifteen sessions at the Brazil Pavilion and around it. No Brazilian investor was found on the programme."
 status: published
 beat: Brazil
