@@ -3,6 +3,10 @@ title: "How WPP turns call transcripts into reviewed Jira plans"
 date: 2026-11-10
 story: S39
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: WPP built an internal platform that turns technical calls into project plans, with a person reviewing every plan before it goes into Jira, according to a case study by Mastra, a startup on Web Summit's featured list. Mastra says each client's data is kept apart by the system's design, not by instructions to the AI.
 status: published
 beat: "Connections: the summit"

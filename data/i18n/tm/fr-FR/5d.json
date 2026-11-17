@@ -39,6 +39,14 @@
   "src": "PrompTugal.news by place: each place, its status, its agent,",
   "ok": false
  },
+ "5dd868165a4a1766": {
+  "t": "Atelier AI4YouthWork sur la culture de l'IA pour les professionnels de la jeunesse, tenu à Faro",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "AI4YouthWork workshop on AI literacy for youth workers held ",
+  "ok": false
+ },
  "5df87418dfc0bba9": {
   "t": "Prévisions et alertes pour {name} : [IPMA](https://www.ipma.pt/en/), le service météo du Portugal.",
   "by": "translator@PrompTugal.dinis",

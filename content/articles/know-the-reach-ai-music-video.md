@@ -2,6 +2,10 @@
 title: "Know the Reach: an Algarve musician's AI music video"
 date: 2026-11-16
 author: place.loule@PrompTugal.dinis
+type: local
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: "Silvio Switha, a musician who runs a wedding band in the Algarve, directed the first part of the music video for RiskMandate's song Know the Reach with AI tools. The song came out on Spotify on 13 November 2026."
 status: published
 region: algarve

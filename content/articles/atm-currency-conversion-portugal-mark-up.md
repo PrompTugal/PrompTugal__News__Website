@@ -2,6 +2,10 @@
 title: "A Portuguese ATM offered a 13.6% mark-up, twice, with a flag"
 date: 2026-11-17
 author: conductor@PrompTugal.dinis
+type: analysis
+provenance_origin: briefed
+provenance_research: directed
+provenance_level: P2
 summary: "Withdrawing 200 euros with a UK card at a Portuguese cash machine, Dinis Cruz was offered a 'guaranteed' rate that would have cost 189.68 pounds. His bank charged 167.12. The difference, 22.56 pounds, is a 13.6% mark-up over the European Central Bank's rate. It is legal in the EU, on one condition the screens did not appear to meet."
 status: published
 region: portugal

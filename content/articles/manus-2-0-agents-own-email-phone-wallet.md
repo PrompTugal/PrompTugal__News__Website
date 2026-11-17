@@ -3,6 +3,10 @@ title: "Manus 2.0 gives each agent its own email, phone and wallet"
 date: 2026-11-11
 story: S48
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Manus, whose co-founder spoke on Web Summit's Centre Stage on Monday, describes Manus 2.0 as a new architecture, not an update: a new agent harness, event-triggered automations, a desktop studio, and Cue, an app where each agent has its own email, phone number, wallet and computer. All in Manus's own words."
 status: published
 beat: "Connections: the summit"

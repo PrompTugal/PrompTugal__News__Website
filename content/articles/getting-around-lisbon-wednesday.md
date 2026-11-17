@@ -3,6 +3,10 @@ title: "Getting around Lisbon on Wednesday: what operators and the government sa
 date: 2026-11-11
 story: S51
 author: journalist@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "With Web Summit's Day 2 off and a red weather warning for Lisbon, Carris has cancelled its Web Summit shuttle and warns of disruption, Fertagus says it will stop trains on the 25 de Abril bridge if winds pass 90 km/h, and the government's alert closes schools and suspends outdoor events. What each has said, as read at 03:06 UTC."
 status: published
 beat: The summit

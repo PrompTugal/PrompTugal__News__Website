@@ -1,4 +1,13 @@
 {
+ "4863342ccdc3a7fb": {
+  "t": "La conférence sismique d'Albufeira du 27 novembre déménage dans la salle de la mairie, l'IA étant citée comme risque et comme outil de suivi",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Albufeira seismic conference on 27 November moved to the cou",
+  "ok": false,
+  "from": "fr-FR"
+ },
  "487c24b82d991af3": {
   "t": "La rencontre de la Cour suprême administrative du 11 avril 2025 avait pour thème principal l'IA et la numérisation dans l'administration publique et les tribunaux administratifs, au Centro Nacional de Inovação Jurídica, en partenariat avec la faculté de droit de Lisbonne et la municipalité de Bragança. Plus ancienne que les éléments de 2026.",
   "by": "translator@PrompTugal.dinis",

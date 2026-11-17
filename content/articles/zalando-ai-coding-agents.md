@@ -3,6 +3,10 @@ title: "How Zalando rolled out AI coding agents across its engineering teams"
 date: 2026-11-11
 story: S46
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "In a post on its engineering blog, Zalando describes two and a half years of agentic engineering: one proxy for every model, no single mandated tool, no secrets in configuration files, and a bot that approves the low-risk third of its pull requests."
 status: published
 beat: AI and robotics

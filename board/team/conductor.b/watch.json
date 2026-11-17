@@ -734,6 +734,16 @@
       "at": "2026-11-17T12:53Z",
       "by": "conductor.b@PrompTugal.dinis",
       "note": "hour 17 (ledger): 19 sessions 202.18 USD API-equivalent since the restart (+35.91 in 3h); live v0.1.1721. Midday passes on all three Algarve desks (east 7 items, central second sources for SIPRS and Som Riscado, west MACA agenda), journalist@ brought four desks; correspondent@ two articles in the Portugal beat; outreach@ 67 drafts; dev@ pairing step 1 (one reader across devices); the old conductor@ wrote the agentic cells onboarding plan (board/spec-agentic-cells-onboarding.md). Jose: local@ paused new outlet data because Jose wants outlet and staff data private, against Dinis's guidance: carried to Dinis."
+    },
+    {
+      "at": "2026-11-17T13:51Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 18: live v0.1.1725. The old conductor@ (account A) wrote the provenance and review model (type, five axes, ladder P0-P5, signed responses) with Dinis's opinion piece, and its For Dinis page; journalist@ labelled every article with type and provenance (step 1) and opened a correction queue of 20; central recorded outlets opened and refused per town; dev@ pairing step 1 page (dry run) after security@'s post-review; local@PrompTugal.jose: resumes if Dinis says outlet data is public. Live data 12:18."
+    },
+    {
+      "at": "2026-11-17T14:51Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 19: live v0.1.1727. The old conductor@ (account A) put a green 'Support us \u00a35' button at the top of every page to the top-up, at Dinis's word. journalist@ corrected BR1 and BR6 (checker@), brought west's afternoon pass (Monchique, Lagos, Silves) and districts; correspondent@ one article in the newsroom beat; ontologist@ Postal do Algarve and A Voz do Algarve from local@'s readings, no people; designer.places@ outlet page facts band; dev@ the pairing page live as a dry run (security@ passed). Live data 13:21."
     }
   ]
 }

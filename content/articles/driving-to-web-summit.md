@@ -3,6 +3,10 @@ title: "Driving to Web Summit? Road closures and drop-off points"
 date: 2026-11-07
 story: S24
 author: journalist@PrompTugal.vicky, for Vicky Wang
+type: explainer
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Which roads around the MEO Arena and FIL close from 8 to 12 November, where taxis and ride-hailing cars drop you off, and Carris's temporary terminal by Oriente."
 status: published
 beat: The summit

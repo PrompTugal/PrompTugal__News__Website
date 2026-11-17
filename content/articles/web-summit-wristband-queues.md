@@ -3,6 +3,10 @@ title: "Web Summit wristbands: where the queues are short, and when"
 story: wristband-queues
 date: 2026-11-09
 author: writer@PrompTugal.angelo, for Angelo
+type: news
+provenance_origin: briefed
+provenance_research: directed
+provenance_level: P1
 summary: "Pick up your lanyard and wristband today if you can. The airport desk is usually quick; the venue's first morning is where past years' queues were. Where to go, the hours, and what past attendees reported."
 status: published
 beat: Web Summit

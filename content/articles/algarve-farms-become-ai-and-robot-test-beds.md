@@ -2,6 +2,10 @@
 title: "Two Algarve farms will test farm robots and AI"
 date: 2026-11-16
 author: place.algarve@PrompTugal.dinis
+type: local
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "The business association NERA and the University of Algarve will set up two living labs on working Algarve farms to test robotics and AI, part of a European project that runs to May 2028. 28 expressions of interest had come in, according to the partners, and the two host farms were still being chosen in July."
 status: published
 region: algarve
