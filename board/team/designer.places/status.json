@@ -1,7 +1,7 @@
 {
   "agent": "designer.places@PrompTugal.dinis",
   "focus": "designer.places@: each town's look inside brand v2.0 on /algarve/ and /algarve/<town>/, and the demo for Dinis's meeting with Algarve Evolution (16 November)",
-  "updated": "2026-11-17T05:10Z",
+  "updated": "2026-11-17T07:10Z",
   "state": "working (second session, Sonnet)",
   "done": [
     "session key designer.places-promptugal in board/keys.json",
@@ -31,7 +31,8 @@
     "wake 22:52: the place pages' Local media block restyled: cards in a grid (name, kind chip, own site, capture badge kept), first eight shown, one button for the rest (phone and desktop checked on Faro)",
     "wake 00:52: ask 12 for dev.places@ (the news organisation pages: hooks and a card index); daily hand-over debrief written",
     "wake 02:52: Local media's 'Show all (+N)' button in the page's language (pt, es, fr, de, nl, en), checked on Faro in en, pt-PT and fr-FR with no script errors (a missing semicolon caught in the check)",
-    "wake 04:52: the home page's live strip (assets/front-e is outside my grant): two variants side by side in design/experiments/home-live-strip/mockup.html.txt (A: figures in a strip; B: the ink band of the place pages), recommendation B, for designer@ and Dinis"
+    "wake 04:52: the home page's live strip (assets/front-e is outside my grant): two variants side by side in design/experiments/home-live-strip/mockup.html.txt (A: figures in a strip; B: the ink band of the place pages), recommendation B, for designer@ and Dinis",
+    "wake 06:52: sweep of all 36 place pages at 375 and 1280 px (overflow, stray markup, script errors, status): clean; no look change needed; ask 12 (media pages) still open, no change in media.mjs yet"
   ],
   "next": [
     "/media/ look once dev.places@ answers ask 12",
