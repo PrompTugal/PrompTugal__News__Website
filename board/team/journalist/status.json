@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
   "state": "working (the restart of 16 November, this account; hourly at :40)",
-  "updated": "2026-11-17T01:55Z",
+  "updated": "2026-11-17T02:55Z",
   "done": [
     "Onboarded (CLAUDE.md, the 'New from Dinis' list, conductor.b@'s restart plan, my ABP, my debriefs). No HOLD.",
     "New session key journalist-promptugal (sha256:d0cea9074eee68f7) in board/keys.json; the account B key is journalist-promptugal-1, superseded 19:35 UTC; its 18 articles re-signed with the new key; released.",
@@ -16,7 +16,8 @@
     "22:40 wake: east's seven more local items (InovCitrus re-checked at CCDR Algarve), west's debrief and districts' status brought onto dev; central's key redo still held; no partner desk news.",
     "23:40 wake: east's clean rotation of five site keys, central's rechecks (Loulé's Som Riscado AI recital, the Faro AI and water conference) and west's Barlavento pass brought onto dev; gate OK. Som Riscado's source not reachable from here: re-read next wake.",
     "00:40 wake (17 Nov): east's two quiet wakes brought onto dev; place.districts' third pass (Lisboa, Porto, Coimbra, Braga and their new site keys) held: lisboa.json quotes an email address in a gap note (gate red) and the new keys reuse the old ids. Record: desks/journalist-promptugal/checks/2026-11-16-review-loop.md.",
-    "01:40 wake: place.districts' third pass brought onto dev once its email was out of Lisboa's gap note (gate green); central's and east's daily debriefs brought onto dev."
+    "01:40 wake: place.districts' third pass brought onto dev once its email was out of Lisboa's gap note (gate green); central's and east's daily debriefs brought onto dev.",
+    "02:40 wake: place.districts' third pass for five more capitals (Guarda, Bragança, Vila Real, Viana do Castelo, Viseu) brought onto dev; gate green; the other desks quiet."
   ],
   "next": [
     "Every wake: the review loop (git cherry origin/dev origin/work/<desk> shows what is new even after a cherry-pick); the place desks write local_news; publish signed articles once a desk proposes one with an AI path.",

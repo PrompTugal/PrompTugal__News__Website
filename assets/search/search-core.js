@@ -224,10 +224,19 @@
             const matched = all.map(r => r.doc), facets = {}
             for (const k of ['type', 'topic', 'country', 'organiser', 'day']) { const f = Object.assign({}, opts); delete f[k]; facets[k] = countFacets(matched.filter(x => keep(x, f)))[k] }
             all = all.filter(r => keep(r.doc, opts))
-            return { query: q, total: all.length, results: all.slice(0, limit), facets, shards: [...keys].sort(), words: pq.words, ...(all.length === 0 ? { suggest: didYouMean() } : {}) }
+            const results = all.slice(0, limit)
+            await fillSnips(d, results.map(r => r.doc))
+            return { query: q, total: all.length, results, facets, shards: [...keys].sort(), words: pq.words, ...(all.length === 0 ? { suggest: didYouMean() } : {}) }
         }
 
-        return { query, docs: docsFile, stats, load }
+        // the summaries of the rows asked for, from snips.json when docs.json names one (an older index carries them inline)
+        async function fillSnips(d, docs) {
+            if (!d.snips || !docs.length) return docs
+            try { const sn = await load(d.snips); stats.files.add(d.snips); for (const x of docs) if (!x.summary) x.summary = (sn.s || [])[x.i] || '' } catch (e) { /* titles only */ }
+            return docs
+        }
+
+        return { query, docs: docsFile, stats, load, fillSnips }
     }
 
     function keep(doc, f) {
