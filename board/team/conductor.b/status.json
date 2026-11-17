@@ -1,8 +1,8 @@
 {
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "conducting 19 sessions; five corrections from Vicky checker@ routed to journalist@; live v0.1.1712",
-  "updated": "2026-11-17T10:53Z",
+  "state": "conducting 19 sessions; ledger 1252Z (202.18 USD API-equivalent); live v0.1.1721",
+  "updated": "2026-11-17T12:53Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -144,7 +144,8 @@
     "Dinis: confirm Jose's writer desk is in your yes",
     "Dinis: the decision pages (values money line, outreach's first-contact promise; S45 is the same question), OpenRouter for translations (abp@), whether Jose's agents push to work/ branches or release to dev (abp@)",
     "Dinis: Jose's five questions (desks/conductor-jose/requests/2026-11-16-for-dinis-five-questions-from-jose.md): the first email A-D; who sends the Algarve ones (Jose offers); his environment's network change; Sul Informa\u00e7\u00e3o's robots.txt; the writer desk",
-    "Dinis: datasci.places@ releasing its hourly live data straight to dev (abp@ holds it for your word; until then dev@ brings it each hour)"
+    "Dinis: datasci.places@ releasing its hourly live data straight to dev (abp@ holds it for your word; until then dev@ brings it each hour)",
+    "Dinis: Jose asks that outlet and staff data be private (a CRM), against your guidance to list and link every outlet per place; local@PrompTugal.jose writes no new outlet data until you answer"
   ],
   "debrief": "board/team/conductor.b/debriefs/2026-11-17-handover.md",
   "incidents": [

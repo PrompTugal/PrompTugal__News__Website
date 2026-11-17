@@ -48,3 +48,12 @@ A strong section: the gap is the story. Notes:
 
 ## Checked 17 Nov, 06:45 UTC
 Unchanged: `place:lisbon` 10, `place:madeira` 6, `place:acores` 6; no gate check yet; MP1 to MP3 and MP5 to MP9 not built.
+
+## Checked 17 Nov, 12:45 UTC (v0.1.1720): dev.places@'s look hooks (51e6a18f4, designer.places@'s ask 12)
+A clear step up: the outlet cards with kind chips, "Show all", the outlet page sectioned with "Latest headlines" in cards near the top. Notes, in order:
+1. **A reader-facing JSON link:** Barlavento's Feeds list links `https://www.barlavento.pt/wp-json/wp/v2/posts` ("the site's WordPress REST API, latest posts as JSON"). Dinis, 16 Nov 10:40: never a JSON link for a reader. List only RSS feeds for readers; keep the API in the record and the outlet's API data.
+2. **The page lost its lede:** the summary line under the name is gone. Put back one sentence: "A regional newspaper covering the Algarve, Faro and Loulé, since 1975." (MP6, from the record's own facts).
+3. **Lisboa is still a false gap:** `place:lisbon` (10), `place:madeira` (6), `place:acores` (6) still match no place. ontologist@.
+4. **The index groups by kind** (ask 12), not by place (MP1). Live is fine; keep it, and add a place filter above "The outlets" ("Show outlets covering: [Algarve] [Lisboa] ..." from the coverage table), so a reader from Faro can get to the Algarve's outlets in one tap. The coverage table's place names can be that filter.
+5. **The "covering the area" column reads 30 or 29 on every row**: it says nothing; drop it, or say once above the table "30 national outlets cover every place".
+6. MP5 (raw URLs as link text; dates in ISO) still open: "RSS: all latest articles", "RSS: the Faro section", "Contact page (Ficha técnica)"; "16 Nov 2026".

@@ -833,7 +833,8 @@
     "IPMA warnings for today could not be read: the ipma.pt warnings page the sub-agent tried returned a 404. Check ipma.pt directly. The CCDR notice of 11 November and its 24 November water conference were read from the list page only.",
     "The Castro Marim dementia congress claim has now failed a second check: no official page shows it, and search found only the 2024 first edition. Treated as not true until a page we can open shows it.",
     "algarve2030.gov.pt did not resolve from this session on 17 November, and ccdr-alg.pt had nothing dated 14 to 17 November. Seen only as headlines: ICCAT tuna meeting in Vilamoura (Barlavento), a housing march in Faro, a regional investment conference with 300 participants (Postal, 15 November), and national water-cut and E-REDES power-cut lists for 17 and 18 November (whether any of the five places is listed was not checked).",
-    "The UAlg page on its AI rules and principles is undated in the listing, so it is not used as news."
+    "The UAlg page on its AI rules and principles is undated in the listing, so it is not used as news.",
+    "On 17 November the national water-cut list (5 councils) and the E-REDES power-cut list for 17 and 18 November named none of Tavira, Castro Marim, Vila Real de Santo António or Alcoutim. The NaturMaris prize in Loulé (Barlavento, 16 November) was read from the front-page excerpt only, so it is not used. CCDR Algarve had nothing new after 10 November and no funding call with a deadline."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
@@ -943,6 +944,29 @@
       "significance": "region",
       "ai_path": "no AI",
       "steps": 0
+    },
+    {
+      "title": "AMAL attends the FIREPOCTEP AVANZA wildfire-prevention project meeting in Cáceres",
+      "summary": "Interreg Spain-Portugal project; AMAL took part in a panel on an Iberian certification for products from Strategic Management Zones and productive firebreaks, arguing the criteria should suit small rural producers. The page mentions no technology.",
+      "date": "2026-11-17",
+      "publisher": "AMAL",
+      "url": "https://amal.pt/amal-participou-em-reuniao-do-projeto-firepoctep-avanza",
+      "read_on": "2026-11-17",
+      "significance": "region and neighbours",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "the interior councils, Alcoutim first"
+    },
+    {
+      "title": "University of Algarve researchers build 'Walking on Ice', an interactive immersive film, with about 300,000 euros",
+      "summary": "CIAC researchers combine immersive technologies with interactive storytelling, funded by the national cultural planning office. The page does not say AI.",
+      "date": "2026-11-17",
+      "publisher": "Universidade do Algarve",
+      "url": "https://www.ualg.pt/investigadores-da-ualg-exploram-narrativas-imersivas",
+      "read_on": "2026-11-17",
+      "significance": "region and country",
+      "ai_path": "No AI stated: immersive and interactive media (XR) research at the university.",
+      "steps": 1
     }
   ],
   "contacts": [

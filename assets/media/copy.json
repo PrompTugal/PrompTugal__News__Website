@@ -26,5 +26,64 @@
   "cov_place": "Place",
   "cov_own": "Its own outlets",
   "cov_area": "Covering the area",
-  "cov_none": "none yet"
+  "cov_none": "none yet",
+  "covers_label": "covers",
+  "outlets_h": "The outlets",
+  "groups": [
+    {
+      "id": "newspapers",
+      "label": "Newspapers",
+      "match": [
+        "newspaper",
+        "daily",
+        "weekly"
+      ]
+    },
+    {
+      "id": "tv",
+      "label": "Television",
+      "match": [
+        "tv",
+        "television"
+      ]
+    },
+    {
+      "id": "radio",
+      "label": "Radio",
+      "match": [
+        "radio"
+      ]
+    },
+    {
+      "id": "agencies",
+      "label": "Agencies",
+      "match": [
+        "agency",
+        "wire"
+      ]
+    },
+    {
+      "id": "magazines",
+      "label": "Magazines",
+      "match": [
+        "magazine"
+      ]
+    },
+    {
+      "id": "online",
+      "label": "Online and blogs",
+      "match": [
+        "online",
+        "blog",
+        "digital",
+        "portal",
+        "podcast"
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "match": []
+    }
+  ]
 }
