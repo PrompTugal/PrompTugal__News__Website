@@ -142,6 +142,17 @@
       "url": "https://postal.pt/algarve/",
       "kind": "press",
       "feed": null
+    },
+    {
+      "name": "Algarve Daily News",
+      "url": "https://www.algarvedailynews.com/",
+      "kind": "local news (English); read 2026-11-17, front page, technology section and a Vilamoura article: no AI-linked local item"
+    },
+    {
+      "name": "Jornal do Algarve",
+      "url": "https://jornaldoalgarve.pt/",
+      "kind": "regional news; homepage 403, but the RSS feed opened (12 items, 16-17 Nov)",
+      "feed": "https://www.jornaldoalgarve.pt/feed/"
     }
   ],
   "events": [
@@ -253,7 +264,10 @@
     "cm-albufeira.pt /pt/noticias returned 404; search shows nothing new since morning. SIPRS 27 Nov (AI in seismic prevention) unchanged, only seen via search snippets this run.",
     "No new AI item on Barlavento or postal.pt 16-17 Nov; cm-albufeira.pt/pt/noticias returned 404.",
     "17 Nov recheck of Barlavento, Postal Algarve, Algarve Primeiro and ualg.pt: nothing new with an AI link for this town.",
-    "17 Nov (recheck 5): opened Algarve Primeiro homepage, cm-albufeira.pt/noticias (12 items, 27 Oct to 17 Nov, none on AI) and Postal do Algarve (opened this time). Regiao Sul and Portugal Resident refused (403); The Portugal News returned empty; Diario do Sul homepage showed nothing for the town."
+    "17 Nov (recheck 5): opened Algarve Primeiro homepage, cm-albufeira.pt/noticias (12 items, 27 Oct to 17 Nov, none on AI) and Postal do Algarve (opened this time). Regiao Sul and Portugal Resident refused (403); The Portugal News returned empty; Diario do Sul homepage showed nothing for the town.",
+    "Sul Informação (sulinformacao.pt): homepage, tag page and feed all returned 403 on 2026-11-17; skipped.",
+    "Jornal do Algarve (jornaldoalgarve.pt): homepage and search returned 403 on 2026-11-17; only the RSS feed opened and held no new AI-linked item for this town.",
+    "Albufeira parish sites (jf-albufeira.pt and variants) refused the connection (proxy 502); not read."
   ],
   "voice": {
     "lede": "Sol, sea and a chatbot to book your sunbed: this is Albufeira, where tourism is the main business and AI is turning up at the front desk.",
