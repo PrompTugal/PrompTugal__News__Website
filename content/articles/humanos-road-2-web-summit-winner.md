@@ -3,6 +3,10 @@ title: "Humanos wins Road 2 Web Summit's top prize, 15,000 euros"
 date: 2026-11-13
 story: S61
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: Humanos, which builds a risk network for AI agents, won the Most Promising Startup prize at Road 2 Web Summit 2026, worth 15,000 euros, the press reports. eDynamics, from Braga, took the Best Performance prize. Sources differ on where Humanos is based.
 status: published
 beat: Portugal

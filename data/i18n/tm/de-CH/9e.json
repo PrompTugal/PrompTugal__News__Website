@@ -27,6 +27,15 @@
   "ok": false,
   "from": "de-DE"
  },
+ "9e48a07da96417ae": {
+  "t": "Ein Workshop des Erasmus+-Projekts am UAlg TEC Campus brachte Technologiefachleute und Sozialarbeiter zum verantwortungsvollen Umgang mit KI zusammen; er stellte einen Kompetenzrahmen und 48 offene Bildungsressourcen vor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "An Erasmus+ project workshop at UAlg TEC Campus brought tech",
+  "ok": false,
+  "from": "de-DE"
+ },
  "9e5d7b58a61aea81": {
   "t": "PrompTugal.news Vila Real, a nossa cidade da serra: KI und Tech in Vila Real, mit der UTAD als grossem Gehirn zwischen den Hügeln und dem Regia Douro Park nebenan, dazu alles, was über den Marão aus Trás-os-Montes, Portugal und der Welt heraufklettert. Independente, und jede Tatsache kommt mit Beleg.",
   "by": "translator@PrompTugal.dinis",

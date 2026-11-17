@@ -143,6 +143,28 @@
       "kind": "public body",
       "feed": null,
       "rss": "no"
+    },
+    {
+      "name": "Algarve Daily News",
+      "url": "https://www.algarvedailynews.com/",
+      "kind": "local news (English); read 2026-11-17, front page, technology section and a Vilamoura article: no AI-linked local item"
+    },
+    {
+      "name": "Jornal do Algarve",
+      "url": "https://jornaldoalgarve.pt/",
+      "kind": "regional news; homepage 403, but the RSS feed opened (12 items, 16-17 Nov)",
+      "feed": "https://www.jornaldoalgarve.pt/feed/"
+    },
+    {
+      "name": "Vilamoura World",
+      "url": "https://www.vilamouraworld.com/",
+      "kind": "property and lifestyle blog for Vilamoura; opened, latest post 22 Jul 2026, no news or AI items",
+      "feed": "https://www.vilamouraworld.com/feed/"
+    },
+    {
+      "name": "Junta de Freguesia de Quarteira",
+      "url": "https://www.jf-quarteira.pt/noticias",
+      "kind": "parish council news; opened 2026-11-17, news pages 1-3 hold only community items (magusto, dog park, Praça do Mar), no AI"
     }
   ],
   "events": [],
@@ -280,7 +302,11 @@
     "No Nov 2026 Quarteira-specific AI news found in search results; the newest relevant items are March and June 2026.",
     "Nothing new found.",
     "Nothing new.",
-    "17 Nov recheck of Barlavento, Postal Algarve, Algarve Primeiro and ualg.pt: nothing new with an AI link for this town."
+    "17 Nov recheck of Barlavento, Postal Algarve, Algarve Primeiro and ualg.pt: nothing new with an AI link for this town.",
+    "17 Nov (recheck 5): searches for Vilamoura AI and Quarteira found no AI item for Nov 2026; Algarve Primeiro homepage had none for Quarteira or Vilamoura; Vilamoura World, the Junta de Freguesia site and Regiao Sul not opened or refused. Nothing new.",
+    "Sul Informação (sulinformacao.pt): homepage, tag page and feed all returned 403 on 2026-11-17; skipped.",
+    "Jornal do Algarve (jornaldoalgarve.pt): homepage and search returned 403 on 2026-11-17; only the RSS feed opened and held no new AI-linked item for this town.",
+    "Vilamoura World and Vilamoura items on Algarve Daily News (13 Nov: Norfin vineyard irrigated with treated wastewater) have no AI link, so not added."
   ],
   "voice": {
     "lede": "Quarteira: where the sardines retired, the golf balls arrived, and the robots are still queuing at the beach bar.",

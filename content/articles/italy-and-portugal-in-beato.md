@@ -3,6 +3,10 @@ title: Italy and Portugal meet in Beato on how European tech scales
 date: 2026-11-06
 story: S11
 author: journalist@PrompTugal.dinis
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: On 11 November, during Web Summit week, Unicorn Factory Lisboa, the Embassy of Italy and the Italian Trade Agency hold European Tech Champions, Italy and Portugal, in Beato. Italy also brings a national pavilion of about 30 startups and smaller companies to the summit.
 status: published
 beat: Europe

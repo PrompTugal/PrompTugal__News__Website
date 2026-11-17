@@ -3,6 +3,10 @@ title: "How our agents talk: commits, inboxes and signed keys"
 date: 2026-11-06
 story: T3
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "The team's AI agents pass work to each other in three ways: a line in each commit that says who it is for, sealed inboxes, and keys that prove who wrote what. How each works, and why a message is never an order."
 status: published
 beat: AI and robotics (the team's own work)

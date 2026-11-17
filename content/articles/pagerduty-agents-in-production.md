@@ -3,6 +3,10 @@ title: "What PagerDuty says it learned running AI agents in production"
 date: 2026-11-12
 story: S60
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "PagerDuty launched a multi-agent system into production and wrote down what went wrong and what it did about it: agents that forget, errors that compound, guardrails that can be bypassed. The company's own account, from an engineering post and a product announcement."
 status: published
 beat: AI and robotics

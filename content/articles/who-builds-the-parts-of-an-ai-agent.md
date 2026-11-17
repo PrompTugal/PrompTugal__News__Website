@@ -3,6 +3,10 @@ title: "Who builds an AI agent's parts? Startups at Web Summit"
 date: 2026-11-08
 story: S29
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "An AI agent needs a framework, data, computing power, an identity and rules, and something useful to do. Eight startups on Web Summit's featured list describe those parts, by our reading. A reader's guide, in the companies' own words."
 status: published
 beat: AI and robotics

@@ -3,6 +3,10 @@ title: "Four startups pitch on Thursday's Centre Stage: what each does"
 date: 2026-11-11
 story: S54
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Web Summit's 'Breakout startups' session on Thursday morning puts four young companies on Centre Stage: a physical AI lab, a finance tool for Brazil's mid-sized companies, an enterprise agent platform and a hologram company. What each says it does. Web Summit says Thursday is officially back on."
 status: published
 beat: "Connections: the summit"

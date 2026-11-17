@@ -7,6 +7,14 @@
   "src": "Dojo AI raises 5.1 million euros for its AI marketing agent",
   "ok": false
  },
+ "18743c7cefae2123": {
+  "t": "O Postal do Algarve (2 nov 2026) informa que a conferência SIPRS sobre prevenção de terremotos e desastres, organizada pelo urbanista Antonio Nobrega com a prefeitura de Albufeira, passa para o Salao Nobre da prefeitura em 27 de novembro. Os organizadores pretendem usar ferramentas de IA para identificar riscos, monitorar a atividade sísmica e apoiar a resposta de emergência. O conteúdo de IA é um plano, não um resultado.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Postal do Algarve (2 Nov 2026) reports that the SIPRS earthq",
+  "ok": false
+ },
  "18aab1419ed810f9": {
   "t": "PrompTugal.news Olhão: IA e tecnologia em Olhão, cidade portuária pesqueira da Ria Formosa onde o mar, a aquicultura e a biotecnologia lideram, e o que chega a Olhão vindo do Algarve, de Portugal e do mundo. Independente; cada fato com fonte.",
   "by": "translator@PrompTugal.dinis",

@@ -26,6 +26,15 @@
   "ok": false,
   "from": "es-ES"
  },
+ "9e48a07da96417ae": {
+  "t": "Un taller del proyecto Erasmus+ en el UAlg TEC Campus reunió a profesionales de la tecnología y trabajadores sociales en torno al uso responsable de la IA; presentó un marco de competencias y 48 recursos educativos abiertos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "An Erasmus+ project workshop at UAlg TEC Campus brought tech",
+  "ok": false,
+  "from": "es-ES"
+ },
  "9e5d7b58a61aea81": {
   "t": "PrompTugal.news Vila Real, a nossa cidade da serra: IA y tecnología en Vila Real, con la UTAD como gran cerebro entre las colinas y el Regia Douro Park al lado, más las noticias que lleguen trepando el Marão desde Trás-os-Montes, Portugal y el mundo. Independente, y cada dato viene con su recibo.",
   "by": "translator@PrompTugal.dinis",

@@ -1,21 +1,21 @@
 {
  "agent": "translator@PrompTugal.dinis",
  "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
- "state": "eleven cultures complete for the by-place prose (884 each): pt-PT, es-ES, fr-FR, de-DE, nl-NL, pt-BR, it-IT in full; de-CH, es-MX, es-AR, fr-CA derived (the 38 new ones copied from the base, not regionally adapted yet); 8 to go (pl, hr, ro, zh-Hans, ja, ko, hi, ar)",
- "updated": "2026-11-17T10:10Z",
+ "state": "eleven cultures complete for the by-place prose (892 each): pt-PT, es-ES, fr-FR, de-DE, nl-NL, pt-BR, it-IT in full; de-CH, es-MX, es-AR, fr-CA derived (the 38 new ones copied from the base, not regionally adapted yet); 8 to go (pl, hr, ro, zh-Hans, ja, ko, hi, ar)",
+ "updated": "2026-11-17T13:20Z",
  "counts": {
-  "pt-PT": 884,
-  "es-ES": 884,
-  "fr-FR": 884,
-  "de-DE": 884,
-  "nl-NL": 884,
-  "pt-BR": 884,
-  "de-CH": 884,
-  "es-MX": 884,
-  "es-AR": 884,
-  "fr-CA": 884,
-  "segments_by_place_prose": 884,
-  "it-IT": 884
+  "pt-PT": 892,
+  "es-ES": 892,
+  "fr-FR": 892,
+  "de-DE": 892,
+  "nl-NL": 892,
+  "pt-BR": 892,
+  "de-CH": 892,
+  "es-MX": 892,
+  "es-AR": 892,
+  "fr-CA": 892,
+  "segments_by_place_prose": 892,
+  "it-IT": 892
  },
  "done": [
   "onboarded; session key made and published in board/keys.json as translator-promptugal",
@@ -36,7 +36,8 @@
   "00:57 wake: 2 new segments (Som Riscado festival) in seven cultures, four derived; hand-over debrief for 17 November",
   "03:57 wake: 10 new segments (Coimbra, Web Summit, ScaleUp Porto) in seven cultures by seven sub-agents, checked; four derived cultures copied from base",
   "06:57 wake: 4 new segments (Portalegre, Santarem) in seven cultures, by hand (too small for sub-agents), four derived cultures copied from base",
-  "09:57 wake: 2 new segments (NERA, Faro) in seven cultures by hand, four derived copied from base"
+  "09:57 wake: 2 new segments (NERA, Faro) in seven cultures by hand, four derived copied from base",
+  "12:57 wake: 8 new segments (Albufeira, Faro, Loule) in seven cultures by hand, four derived copied from base"
  ],
  "next": [
   "new segments each wake: the derived cultures follow their base (run variant.mjs after the base is translated)",

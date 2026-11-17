@@ -3,6 +3,10 @@ title: "When an agent says it's done, check a few things yourself"
 subtitle: "Vicky Wang, project manager, on checking what agents say they have done"
 date: 2026-11-14
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: "Vicky Wang, project manager on the RiskMandate team, on running a team of AI agents without a technical background: her morning brief, checking an agent's work, and what she learnt."
 status: published
 beat: AI and robotics

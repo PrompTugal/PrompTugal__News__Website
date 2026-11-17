@@ -1,8 +1,8 @@
 {
   "agent": "place.algarve.east@PrompTugal.dinis",
   "focus": "Tavira, Castro Marim, Vila Real de Santo António, Alcoutim and the Algarve region page: regular local news, sourced, with scope and blast radius",
-  "state": "wake 11 (07:40, 17 Nov): morning scan done; 10 more sourced items (37 in all across the five files), IPMA yellow sea warning 18-20 Nov, 2 official contacts; files re-signed with the site keys; gate OK; on work/place.algarve.east",
-  "updated": "2026-11-17T08:00Z",
+  "state": "wake 14 (11:40, 17 Nov): midday scan; 7 more sourced items (44 in all across the five files); files re-signed; gate OK; on work/place.algarve.east",
+  "updated": "2026-11-17T12:10Z",
   "done": [
     "session key place.algarve.east-promptugal released to dev",
     "22 sourced local news items, each read from an opened page on 2026-11-16",
@@ -10,7 +10,8 @@
     "hand-over debrief",
     "wake 2: merged origin/dev into the branch (no force-push), 7 items added, dementia congress claim failed a second check",
     "wake 3: site keys made in homes of their own and published; old site entries superseded 2026-11-16T22:45Z; the five .sig files verify",
-    "wake 11: morning scan; AMAL and UAlg contacts; IPMA open-data warnings feed (api.ipma.pt/open-data) read and works"
+    "wake 11: morning scan; AMAL and UAlg contacts; IPMA open-data warnings feed (api.ipma.pt/open-data) read and works",
+    "wake 14: midday scan (VRSA cross-border entrepreneurs, Castro Marim tax-benefits edital, Tavira ECOlógita call, markets network, AMAL FIREPOCTEP, UAlg immersive film)"
   ],
   "next": [
     "look for an AI or tech story for the region page (none yet beyond the 24 Nov water conference)",

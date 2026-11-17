@@ -3,6 +3,10 @@ title: "Glovo's restaurant partners meet 80 AI agents on WhatsApp, GetVocal says
 date: 2026-11-10
 story: S38
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: GetVocal, a French startup on Web Summit's featured list, says the delivery platform Glovo uses its AI agents on WhatsApp to check restaurants are open, keep them online and bring new ones on board. In GetVocal's account, one pilot grew to 80 agents.
 status: published
 beat: "Connections: the summit"
