@@ -1,0 +1,1411 @@
+{
+  "$schema": "../schemas/media-by-place.schema.json",
+  "outlets": 184,
+  "places": {
+    "place:acores": [
+      {
+        "org": "organisation:acores-9",
+        "name": "Açores 9",
+        "outlet_kind": "online",
+        "website": "https://jornalacores9.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:acoriano-oriental",
+        "name": "Açoriano Oriental",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.acorianooriental.pt/",
+        "feeds": 2
+      },
+      {
+        "org": "organisation:correio-dos-acores",
+        "name": "Correio dos Açores",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://correiodosacores.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:diario-dos-acores",
+        "name": "Diário dos Açores",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://diariodosacores.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-atlantida",
+        "name": "Rádio Atlântida",
+        "outlet_kind": "radio",
+        "website": "https://www.radioatlantida.net/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:sao-miguel-news",
+        "name": "São Miguel News",
+        "outlet_kind": "online",
+        "website": "https://saomiguelnews.net",
+        "feeds": 1
+      }
+    ],
+    "place:algarve": [
+      {
+        "org": "organisation:a-voz-do-algarve",
+        "name": "A Voz do Algarve",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.avozdoalgarve.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:algarve-primeiro",
+        "name": "Algarve Primeiro",
+        "outlet_kind": "online",
+        "website": "https://www.algarveprimeiro.com/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:barlavento",
+        "name": "Barlavento",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.barlavento.pt/",
+        "feeds": 4
+      },
+      {
+        "org": "organisation:postal-do-algarve",
+        "name": "Postal do Algarve",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://postal.pt/",
+        "feeds": 4
+      }
+    ],
+    "place:aveiro": [
+      {
+        "org": "organisation:aveiromag",
+        "name": "AveiroMag",
+        "outlet_kind": "online",
+        "website": "https://www.aveiromag.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:campeao-das-provincias",
+        "name": "Campeão das Províncias",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.campeaoprovincias.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:canalcentral",
+        "name": "CanalCentral",
+        "outlet_kind": "online",
+        "website": "https://www.canalcentral.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:diario-de-aveiro",
+        "name": "Diário de Aveiro",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.diarioaveiro.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:noticias-de-aveiro",
+        "name": "Notícias de Aveiro",
+        "outlet_kind": "online",
+        "website": "https://www.noticiasdeaveiro.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-cidade-fm-aveiro",
+        "name": "Cidade FM Aveiro",
+        "outlet_kind": "radio",
+        "website": "https://cidade.fm/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:radio-m80-aveiro",
+        "name": "M80 Aveiro",
+        "outlet_kind": "radio",
+        "website": "https://m80.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:radio-mega-hits-aveiro",
+        "name": "Mega Hits Aveiro",
+        "outlet_kind": "radio",
+        "website": "https://megahits.fm/",
+        "feeds": 1
+      }
+    ],
+    "place:beja": [
+      {
+        "org": "organisation:alentejo-atual",
+        "name": "Alentejo Atual (O Atual)",
+        "outlet_kind": "online",
+        "website": "https://www.oatual.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:diario-do-alentejo",
+        "name": "Diário do Alentejo",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://diariodoalentejo.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:jornal-de-beja",
+        "name": "Jornal de Beja",
+        "outlet_kind": "online",
+        "website": "https://jornaldebeja.sapo.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:lidador-noticias",
+        "name": "Lidador Notícias",
+        "outlet_kind": "online",
+        "website": "https://lidadornoticias.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-pax",
+        "name": "Rádio Pax",
+        "outlet_kind": "radio",
+        "website": "https://www.radiopax.com/",
+        "feeds": 1
+      }
+    ],
+    "place:braga": [
+      {
+        "org": "organisation:antena-minho",
+        "name": "Antena Minho",
+        "outlet_kind": "radio",
+        "website": "https://antenaminho.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:braga-tv",
+        "name": "Braga TV",
+        "outlet_kind": "online",
+        "website": "https://bragatv.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:cidade-fm",
+        "name": "Cidade FM",
+        "outlet_kind": "radio",
+        "website": "https://www.cidade.fm/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:cidade-hoje",
+        "name": "Cidade Hoje",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.cidadehoje.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:correio-do-minho",
+        "name": "Correio do Minho",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.correiodominho.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:diario-do-minho",
+        "name": "Diário do Minho",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.diariodominho.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:o-minho",
+        "name": "O MINHO",
+        "outlet_kind": "online",
+        "website": "https://ominho.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:pressnet",
+        "name": "Pressnet",
+        "outlet_kind": "online",
+        "website": "https://www.pressnet.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-mega-hits-braga",
+        "name": "Mega Hits Braga",
+        "outlet_kind": "radio",
+        "website": "https://megahits.fm/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:rum-radio-universitaria-do-minho",
+        "name": "RUM - Rádio Universitária do Minho",
+        "outlet_kind": "radio",
+        "website": "https://www.rum.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:terras-de-braga",
+        "name": "Terras de Braga",
+        "outlet_kind": "online",
+        "website": "https://terrasdebraga.sapo.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:terras-do-homem",
+        "name": "Terras do Homem",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.terrasdohomem.pt",
+        "feeds": 1
+      }
+    ],
+    "place:braganca": [
+      {
+        "org": "organisation:a-voz-de-braganca",
+        "name": "A Voz de Bragança",
+        "outlet_kind": "online",
+        "website": "https://avozdebraganca.sapo.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:jornal-nordeste",
+        "name": "Jornal Nordeste",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.jornalnordeste.com/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:mensageiro-de-braganca",
+        "name": "Mensageiro de Bragança",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://mdb.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:radio-brigantia",
+        "name": "Rádio Brigantia",
+        "outlet_kind": "radio",
+        "website": "https://www.brigantia.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:radio-m80-braganca",
+        "name": "M80 Bragança",
+        "outlet_kind": "radio",
+        "website": "https://m80.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:universidade-fm",
+        "name": "Universidade FM",
+        "outlet_kind": "radio",
+        "website": "https://www.universidade.fm/",
+        "feeds": 1
+      }
+    ],
+    "place:castelo-branco": [
+      {
+        "org": "organisation:a-voz-de-castelo-branco",
+        "name": "A Voz de Castelo Branco",
+        "outlet_kind": "online",
+        "website": "https://avozdecastelobranco.sapo.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:beira-baixa-tv",
+        "name": "Beira Baixa TV",
+        "outlet_kind": "online",
+        "website": "http://beirabaixatv.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:diario-digital-castelo-branco",
+        "name": "Diário Digital Castelo Branco",
+        "outlet_kind": "online",
+        "website": "https://www.diariodigitalcastelobranco.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:gazeta-do-interior",
+        "name": "Gazeta do Interior",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.gazetadointerior.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:jornal-reconquista",
+        "name": "Jornal Reconquista",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.reconquista.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:noticias-da-covilha",
+        "name": "Notícias da Covilhã",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://noticiasdacovilha.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-condestavel",
+        "name": "Rádio Condestável",
+        "outlet_kind": "radio",
+        "website": "https://www.radiocondestavel.pt",
+        "feeds": 0
+      }
+    ],
+    "place:coimbra": [
+      {
+        "org": "organisation:campeao-das-provincias",
+        "name": "Campeão das Províncias",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.campeaoprovincias.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:central-press",
+        "name": "Central Press",
+        "outlet_kind": "online",
+        "website": "https://www.centralpress.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:diario-as-beiras",
+        "name": "Diário As Beiras",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.asbeiras.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:diario-de-coimbra",
+        "name": "Diário de Coimbra",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.diariocoimbra.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:jornal-o-despertar",
+        "name": "Jornal O Despertar",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.odespertar.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:noticias-de-coimbra",
+        "name": "Notícias de Coimbra (NDC)",
+        "outlet_kind": "online",
+        "website": "https://www.noticiasdecoimbra.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-m80-coimbra",
+        "name": "M80 Coimbra",
+        "outlet_kind": "radio",
+        "website": "https://m80.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:radio-mega-hits-coimbra",
+        "name": "Mega Hits - Coimbra",
+        "outlet_kind": "radio",
+        "website": "https://megahits.fm/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:ruc-radio-universidade-de-coimbra",
+        "name": "RUC - Rádio Universidade de Coimbra",
+        "outlet_kind": "radio",
+        "website": "https://www.ruc.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:tugatech",
+        "name": "TugaTech",
+        "outlet_kind": "online",
+        "website": "https://tugatech.com.pt/",
+        "feeds": 2
+      }
+    ],
+    "place:evora": [
+      {
+        "org": "organisation:a-voz-de-evora",
+        "name": "A Voz de Évora",
+        "outlet_kind": "online",
+        "website": "https://avozdeevora.sapo.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:correio-alentejo",
+        "name": "Correio Alentejo",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://correioalentejo.com/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:diario-do-sul",
+        "name": "Diário do Sul",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://diariodosul.pt/",
+        "feeds": 2
+      },
+      {
+        "org": "organisation:o-digital",
+        "name": "ODigital",
+        "outlet_kind": "online",
+        "website": "https://odigital.sapo.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:perspetiva",
+        "name": "Perspetiva",
+        "outlet_kind": "online",
+        "website": "https://www.perspetiva.com/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:tds-televisao-do-sul",
+        "name": "TDS (Televisão do Sul)",
+        "outlet_kind": "online",
+        "website": "https://televisaodosul.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:tribuna-alentejo",
+        "name": "Tribuna Alentejo",
+        "outlet_kind": "online",
+        "website": "https://www.tribunaalentejo.pt/",
+        "feeds": 1
+      }
+    ],
+    "place:faro": [
+      {
+        "org": "organisation:algarve-primeiro",
+        "name": "Algarve Primeiro",
+        "outlet_kind": "online",
+        "website": "https://www.algarveprimeiro.com/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:barlavento",
+        "name": "Barlavento",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.barlavento.pt/",
+        "feeds": 4
+      }
+    ],
+    "place:guarda": [
+      {
+        "org": "organisation:a-guarda",
+        "name": "A Guarda",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.jornalaguarda.com",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:beira-pt",
+        "name": "beira.pt",
+        "outlet_kind": "online",
+        "website": "https://beira.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:futuro-da-guarda",
+        "name": "Futuro da Guarda",
+        "outlet_kind": "online",
+        "website": "https://www.futurodaguarda.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:o-interior",
+        "name": "O Interior",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.ointerior.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-altitude",
+        "name": "Rádio Altitude",
+        "outlet_kind": "radio",
+        "website": "https://www.altitude.fm/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-fronteira",
+        "name": "Rádio Fronteira",
+        "outlet_kind": "radio",
+        "website": "https://radiofronteira.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:tb-todas-as-beiras",
+        "name": "TB - Todas As Beiras",
+        "outlet_kind": "online",
+        "website": "http://www.todasasbeiras.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:terras-da-guarda",
+        "name": "Terras da Guarda",
+        "outlet_kind": "online",
+        "website": "https://terrasdaguarda.sapo.pt/",
+        "feeds": 1
+      }
+    ],
+    "place:leiria": [
+      {
+        "org": "organisation:diario-de-leiria",
+        "name": "Diário de Leiria",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.diarioleiria.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:gazeta-das-caldas",
+        "name": "Gazeta das Caldas",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://gazetadascaldas.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:jornal-das-caldas",
+        "name": "Jornal das Caldas",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://jornaldascaldas.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:jornal-de-leiria",
+        "name": "Jornal de Leiria",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://jornaldeleiria.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:leiria-informacao",
+        "name": "Leiria Informação",
+        "outlet_kind": "online",
+        "website": "https://www.leiriainformacao.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-m80-leiria",
+        "name": "M80 Leiria",
+        "outlet_kind": "radio",
+        "website": "https://m80.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:radio-observador-leiria",
+        "name": "Rádio Observador Leiria",
+        "outlet_kind": "radio",
+        "website": "https://observador.pt/radio/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:radio-record-leiria",
+        "name": "Record Leiria",
+        "outlet_kind": "radio",
+        "website": "https://www.recordfm.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:regiao-de-leiria",
+        "name": "Região de Leiria",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.regiaodeleiria.pt",
+        "feeds": 1
+      }
+    ],
+    "place:lisbon": [
+      {
+        "org": "organisation:abrilabril",
+        "name": "AbrilAbril",
+        "outlet_kind": "online",
+        "website": "https://www.abrilabril.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:diario-do-distrito",
+        "name": "Diário do Distrito",
+        "outlet_kind": "online",
+        "website": "https://www.diariodistrito.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:lisboa-para-pessoas",
+        "name": "LPP - Lisboa Para Pessoas",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://lisboaparapessoas.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:mensagem-de-lisboa",
+        "name": "Mensagem de Lisboa",
+        "outlet_kind": "online",
+        "website": "https://www.amensagem.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:pagina-um",
+        "name": "Página Um",
+        "outlet_kind": "online",
+        "website": "https://www.paginaum.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:radio-cidade-fm-lisboa",
+        "name": "Cidade FM Lisboa",
+        "outlet_kind": "radio",
+        "website": "https://cidade.fm/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:radio-cm-90-4",
+        "name": "CM Rádio 90.4",
+        "outlet_kind": "radio",
+        "website": "https://www.cmjornal.pt/cmr/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:radio-mega-hits",
+        "name": "Mega Hits",
+        "outlet_kind": "radio",
+        "website": "https://megahits.fm/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-smooth-fm-lisboa",
+        "name": "Smooth FM Lisboa",
+        "outlet_kind": "radio",
+        "website": "https://smoothfm.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:regiao-de-lisboa",
+        "name": "Região de Lisboa",
+        "outlet_kind": "online",
+        "website": "https://regiaodelisboa.sapo.pt/",
+        "feeds": 1
+      }
+    ],
+    "place:loule": [
+      {
+        "org": "organisation:a-voz-do-algarve",
+        "name": "A Voz do Algarve",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.avozdoalgarve.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:algarve-primeiro",
+        "name": "Algarve Primeiro",
+        "outlet_kind": "online",
+        "website": "https://www.algarveprimeiro.com/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:barlavento",
+        "name": "Barlavento",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.barlavento.pt/",
+        "feeds": 4
+      },
+      {
+        "org": "organisation:postal-do-algarve",
+        "name": "Postal do Algarve",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://postal.pt/",
+        "feeds": 4
+      }
+    ],
+    "place:madeira": [
+      {
+        "org": "organisation:diario-de-noticias-madeira",
+        "name": "Diário de Notícias (Madeira) / DNOTICIAS.PT",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.dnoticias.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:funchal-noticias",
+        "name": "Funchal Notícias",
+        "outlet_kind": "online",
+        "website": "https://www.funchalnoticias.net",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:jm",
+        "name": "JM",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.jm.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:pt-jornal",
+        "name": "PT Jornal",
+        "outlet_kind": "online",
+        "website": "https://ptjornal.com",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-estacao-madeira-tsf-madeira",
+        "name": "Estação Rádio Madeira - TSF Madeira",
+        "outlet_kind": "radio",
+        "website": "https://www.tsfmadeira.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:tribuna-da-madeira",
+        "name": "Tribuna da Madeira",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.tribunadamadeira.pt",
+        "feeds": 0
+      }
+    ],
+    "place:portalegre": [
+      {
+        "org": "organisation:alto-alentejo",
+        "name": "Alto Alentejo",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.jornalaltoalentejo.com",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:canal-alentejo",
+        "name": "Canal Alentejo",
+        "outlet_kind": "online",
+        "website": "https://canalalentejo.sapo.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:jornal-de-portalegre",
+        "name": "Jornal de Portalegre",
+        "outlet_kind": "online",
+        "website": "https://jornaldeportalegre.sapo.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-portalegre",
+        "name": "Rádio Portalegre",
+        "outlet_kind": "radio",
+        "website": "https://radioportalegre.pt/",
+        "feeds": 1
+      }
+    ],
+    "place:porto": [
+      {
+        "org": "organisation:24-noticias",
+        "name": "24 Notícias",
+        "outlet_kind": "online",
+        "website": "https://24noticias.sapo.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:a-defesa-de-evora",
+        "name": "Quinzenário A Defesa",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://adefesa.org/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:global-news",
+        "name": "Global News",
+        "outlet_kind": "online",
+        "website": "http://globalnews.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:jornal-de-negocios",
+        "name": "Jornal de Negócios",
+        "outlet_kind": "newspaper",
+        "website": "https://www.jornaldenegocios.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:jornal-de-noticias",
+        "name": "Jornal de Notícias",
+        "outlet_kind": "newspaper",
+        "website": "https://www.jn.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:jpn-jornalismoportonet",
+        "name": "JPN - JornalismoPortoNet",
+        "outlet_kind": "online",
+        "website": "https://www.jpn.up.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-cm-94-8",
+        "name": "CM Rádio 94.8",
+        "outlet_kind": "radio",
+        "website": "https://www.cmjornal.pt/cmr/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:radio-m80-porto",
+        "name": "M80 Porto",
+        "outlet_kind": "radio",
+        "website": "https://m80.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:time-out-lisboa",
+        "name": "Time Out Lisboa",
+        "outlet_kind": "magazine",
+        "website": "https://www.timeout.pt/lisboa/pt",
+        "feeds": 0
+      }
+    ],
+    "place:portugal": [
+      {
+        "org": "organisation:cnn-portugal",
+        "name": "CNN Portugal",
+        "outlet_kind": "tv",
+        "website": "https://cnnportugal.iol.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:correio-da-manha",
+        "name": "Correio da Manhã (CM)",
+        "outlet_kind": "newspaper",
+        "website": "https://www.cmjornal.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:diario-de-noticias",
+        "name": "Diário de Notícias (DN)",
+        "outlet_kind": "newspaper",
+        "website": "https://www.dn.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:dinheiro-vivo",
+        "name": "Dinheiro Vivo",
+        "outlet_kind": "online",
+        "website": "https://dinheirovivo.dn.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:eco",
+        "name": "ECO (eco.sapo.pt)",
+        "outlet_kind": "online",
+        "website": "https://eco.sapo.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:executive-digest",
+        "name": "Executive Digest",
+        "outlet_kind": "magazine",
+        "website": "https://executivedigest.sapo.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:expresso",
+        "name": "Expresso",
+        "outlet_kind": "newspaper",
+        "website": "https://expresso.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:idealista-news",
+        "name": "Idealista News",
+        "outlet_kind": "online",
+        "website": "https://www.idealista.pt/news",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:it-insight",
+        "name": "IT Insight",
+        "outlet_kind": "magazine",
+        "website": "https://www.itinsight.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:jornal-do-centro",
+        "name": "Jornal do Centro",
+        "outlet_kind": "online",
+        "website": "https://www.jornaldocentro.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:jornal-economico",
+        "name": "Jornal Económico",
+        "outlet_kind": "newspaper",
+        "website": "https://jornaleconomico.sapo.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:link-to-leaders",
+        "name": "Link to Leaders",
+        "outlet_kind": "online",
+        "website": "https://linktoleaders.com",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:lusa",
+        "name": "Lusa - Agência de Notícias de Portugal",
+        "outlet_kind": "agency",
+        "website": "https://www.lusa.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:noticias-ao-minuto",
+        "name": "Notícias ao Minuto",
+        "outlet_kind": "online",
+        "website": "https://www.noticiasaominuto.com",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:observador",
+        "name": "Observador",
+        "outlet_kind": "online",
+        "website": "https://observador.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:pcguia",
+        "name": "PCGuia",
+        "outlet_kind": "magazine",
+        "website": "https://www.pcguia.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:portugal-resident",
+        "name": "Portugal Resident",
+        "outlet_kind": "online",
+        "website": "https://www.portugalresident.com",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:pplware",
+        "name": "Pplware",
+        "outlet_kind": "blog",
+        "website": "https://pplware.sapo.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:publico",
+        "name": "PÚBLICO",
+        "outlet_kind": "newspaper",
+        "website": "https://www.publico.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:renascenca",
+        "name": "Rádio Renascença",
+        "outlet_kind": "radio",
+        "website": "https://rr.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:rtp-noticias",
+        "name": "RTP Notícias (Rádio e Televisão de Portugal)",
+        "outlet_kind": "tv",
+        "website": "https://www.rtp.pt/noticias",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:sabado",
+        "name": "SÁBADO",
+        "outlet_kind": "magazine",
+        "website": "https://www.sabado.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:shifter",
+        "name": "Shifter",
+        "outlet_kind": "online",
+        "website": "https://shifter.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:sic-noticias",
+        "name": "SIC Notícias",
+        "outlet_kind": "tv",
+        "website": "https://sicnoticias.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:tek-sapo",
+        "name": "SAPO TEK",
+        "outlet_kind": "online",
+        "website": "https://tek.sapo.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:the-portugal-news",
+        "name": "The Portugal News",
+        "outlet_kind": "newspaper",
+        "website": "https://www.theportugalnews.com",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:tsf",
+        "name": "TSF Rádio Notícias",
+        "outlet_kind": "radio",
+        "website": "https://www.tsf.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:tvi",
+        "name": "TVI",
+        "outlet_kind": "tv",
+        "website": "https://tvi.iol.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:visao",
+        "name": "Visão",
+        "outlet_kind": "magazine",
+        "website": "https://visao.sapo.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:zap",
+        "name": "ZAP",
+        "outlet_kind": "online",
+        "website": "https://zap.aeiou.pt",
+        "feeds": 1
+      }
+    ],
+    "place:quarteira": [
+      {
+        "org": "organisation:postal-do-algarve",
+        "name": "Postal do Algarve",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://postal.pt/",
+        "feeds": 4
+      }
+    ],
+    "place:santarem": [
+      {
+        "org": "organisation:correio-do-ribatejo",
+        "name": "Correio do Ribatejo",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.correiodoribatejo.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:jornal-de-santarem",
+        "name": "Jornal de Santarém",
+        "outlet_kind": "online",
+        "website": "https://jornaldesantarem.sapo.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:jornal-torrejano",
+        "name": "Jornal Torrejano",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://jornaltorrejano.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:mais-ribatejo",
+        "name": "Mais Ribatejo",
+        "outlet_kind": "online",
+        "website": "https://maisribatejo.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:medio-tejo",
+        "name": "Médio Tejo",
+        "outlet_kind": "online",
+        "website": "https://mediotejo.net",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:o-mirante",
+        "name": "O Mirante",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://omirante.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-hertz",
+        "name": "Rádio Hertz",
+        "outlet_kind": "radio",
+        "website": "https://radiohertz.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-record-santarem",
+        "name": "Record Santarém",
+        "outlet_kind": "radio",
+        "website": "https://www.recordfm.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-smooth-fm-santarem",
+        "name": "Smooth FM Santarém",
+        "outlet_kind": "radio",
+        "website": "https://smoothfm.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:rede-regional",
+        "name": "Rede Regional",
+        "outlet_kind": "online",
+        "website": "https://www.rederegional.com",
+        "feeds": 0
+      }
+    ],
+    "place:setubal": [
+      {
+        "org": "organisation:o-setubalense",
+        "name": "O Setubalense",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://osetubalense.com/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-azul",
+        "name": "Rádio Azul",
+        "outlet_kind": "radio",
+        "website": "https://radioazul.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:revela-arrabida",
+        "name": "Revela Arrábida",
+        "outlet_kind": "online",
+        "website": "https://revelaarrabida.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:semmais",
+        "name": "Semmais (S+)",
+        "outlet_kind": "online",
+        "website": "https://semmais.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:setubal-informacao",
+        "name": "Setúbal Informação",
+        "outlet_kind": "online",
+        "website": "https://setubalinformacao.sapo.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:setubal-mais",
+        "name": "Setúbal Mais",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://setubalmais.pt/",
+        "feeds": 1
+      }
+    ],
+    "place:viana-do-castelo": [
+      {
+        "org": "organisation:a-aurora-do-lima",
+        "name": "A Aurora do Lima",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://auroradolima.com/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:noticias-de-viana",
+        "name": "Notícias de Viana",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://noticiasdeviana.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-afifense",
+        "name": "Rádio Afifense",
+        "outlet_kind": "radio",
+        "website": "https://radioafifense.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-alto-minho",
+        "name": "Rádio Alto Minho",
+        "outlet_kind": "radio",
+        "website": "https://radioaltominho.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-geice",
+        "name": "Rádio Geice",
+        "outlet_kind": "radio",
+        "website": "https://radiogeice.com/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-valdevez",
+        "name": "Rádio Valdevez",
+        "outlet_kind": "radio",
+        "website": "https://www.radiovaldevez.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:terras-de-viana-do-castelo",
+        "name": "Terras de Viana do Castelo",
+        "outlet_kind": "online",
+        "website": "https://terrasdevianadocastelo.sapo.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:viana-ao-minuto",
+        "name": "Viana ao Minuto",
+        "outlet_kind": "online",
+        "website": "https://vianaaominuto.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:viana-tv",
+        "name": "Viana TV",
+        "outlet_kind": "online",
+        "website": "https://www.vianatv.pt",
+        "feeds": 1
+      }
+    ],
+    "place:vila-real": [
+      {
+        "org": "organisation:a-voz-de-tras-os-montes",
+        "name": "A Voz de Trás-os-Montes",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.avozdetrasosmontes.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:diario-de-tras-os-montes",
+        "name": "Diário de Trás-os-Montes",
+        "outlet_kind": "online",
+        "website": "https://www.diariodetrasosmontes.com/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:douro-interior-jornal",
+        "name": "Douro Interior Jornal",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.dourointeriorjornal.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:noticias-de-vila-real",
+        "name": "Notícias de Vila Real",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://noticiasdevilareal.sapo.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-m80-vila-real",
+        "name": "M80 Vila Real",
+        "outlet_kind": "radio",
+        "website": "https://m80.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:radio-voz-do-marao",
+        "name": "Rádio Voz do Marão",
+        "outlet_kind": "radio",
+        "website": "https://radiovozdomarao.com/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:vila-tv-a-realidade-comeca-aqui",
+        "name": "Vila TV - A realidade começa aqui",
+        "outlet_kind": "online",
+        "website": "https://vilatv.pt",
+        "feeds": 0
+      }
+    ],
+    "place:viseu": [
+      {
+        "org": "organisation:diario-de-viseu",
+        "name": "Diário de Viseu",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.diarioviseu.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:estacao-diaria-edicao-jornal",
+        "name": "Estação Diária Edição Jornal",
+        "outlet_kind": "online",
+        "website": "https://estacaodiariajornal.sapo.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:jornal-da-beira",
+        "name": "Jornal da Beira",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.jornaldabeira.web.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:jornal-do-centro",
+        "name": "Jornal do Centro",
+        "outlet_kind": "online",
+        "website": "https://www.jornaldocentro.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-cidade-fm-viseu",
+        "name": "Cidade FM Viseu",
+        "outlet_kind": "radio",
+        "website": "https://cidade.fm/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:radio-jornal-do-centro",
+        "name": "Rádio Jornal do Centro",
+        "outlet_kind": "radio",
+        "website": "https://www.radiojornaldocentro.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:radio-mega-hits-viseu",
+        "name": "Mega Hits Viseu",
+        "outlet_kind": "radio",
+        "website": "https://megahits.fm/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:radio-rci",
+        "name": "RCI",
+        "outlet_kind": "radio",
+        "website": "https://rci.pt/",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:regiao-de-coimbra",
+        "name": "Região de Coimbra",
+        "outlet_kind": "online",
+        "website": "https://www.regiaodecoimbra.pt",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:rua-direita",
+        "name": "Rua Direita",
+        "outlet_kind": "online",
+        "website": "https://www.ruadireita.pt",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:terras-de-viseu",
+        "name": "Terras de Viseu",
+        "outlet_kind": "online",
+        "website": "https://terrasdeviseu.sapo.pt/",
+        "feeds": 1
+      },
+      {
+        "org": "organisation:via-rapida",
+        "name": "Via Rápida",
+        "outlet_kind": "regional-newspaper",
+        "website": "https://www.jornalviarapida.com",
+        "feeds": 0
+      },
+      {
+        "org": "organisation:viseu-now",
+        "name": "Viseu Now",
+        "outlet_kind": "online",
+        "website": "https://viseunow.pt/",
+        "feeds": 1
+      }
+    ]
+  },
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "data/organisations/"
+    ]
+  }
+}

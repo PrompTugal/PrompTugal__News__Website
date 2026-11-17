@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/media-by-place.schema.json",
+  "title": "Who covers which place (data/media/by-place.json, derived from the news outlets of data/organisations/)",
+  "type": "object",
+  "required": [
+    "outlets",
+    "places",
+    "derived"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "outlets": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "places": {
+      "type": "object",
+      "description": "keyed by place:<slug>; each value the outlets that cover that place",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "org",
+            "name",
+            "outlet_kind",
+            "website",
+            "feeds"
+          ],
+          "properties": {
+            "org": {
+              "type": "string",
+              "pattern": "^organisation:[a-z0-9-]+$"
+            },
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "outlet_kind": {
+              "type": "string",
+              "minLength": 1
+            },
+            "website": {
+              "$ref": "common.schema.json#/$defs/url"
+            },
+            "feeds": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "derived": {
+      "$ref": "common.schema.json#/$defs/derived"
+    }
+  },
+  "additionalProperties": false
+}
