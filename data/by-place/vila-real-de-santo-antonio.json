@@ -176,6 +176,12 @@
       "date": "2026-12-30",
       "url": "https://www.cm-vrsa.pt/pt/noticias/68392/campanha-natal-a-ganhar-regressa-para-apoiar-e-dinamizar-o-comercio-local-de-vila-real-de-santo-antonio.aspx",
       "read_on": "2026-11-16"
+    },
+    {
+      "title": "Cross-border meeting of women entrepreneurs, Ayamonte (10:30 Spanish time)",
+      "date": "2026-11-19",
+      "url": "https://www.cm-vrsa.pt/pt/noticias/68406/eurocidade-do-guadiana-promove-encontro-transfronteirico-de-mulheres-empreendedoras.aspx",
+      "read_on": "2026-11-17"
     }
   ],
   "ai_map": [
@@ -301,7 +307,8 @@
     "No upcoming events with an AI link found for the town. Search results showed a women entrepreneurs meeting in the municipal library and the Monte Gordo Sand Race on 27 to 29 November 2026, but the first is not clearly dated 2026 and neither has an AI link. The nearest tech events are in Lagos and Lisbon.",
     "NERA's public newsletters (February to June 2026) mention regional digital and AI projects (an agriculture robotics and AI diagnostic, a digital training project for microenterprises, a startup call for hotels) but none names Vila Real de Santo António. A search result suggested an Algarve Empreende 2026 session in the town, and we could not confirm it from a page we may read. Ask NERA and the University of Algarve's business support unit.",
     "Nothing new on Nautiber, council decisions or AI on the council pages on 16 November. Search snippets mention a PRR housing rehabilitation of 372 units, the 2026 budget and a PDM consultation: unopened, not used.",
-    "The national earthquake exercise item (5 November) and the storm alert notice were seen only as headlines."
+    "The national earthquake exercise item (5 November) and the storm alert notice were seen only as headlines.",
+    "Only the front page and the highlights list of the council's news were read on 17 November; other items seen there (a film festival 24 to 29 November, a canned-fish day, a library session) have unconfirmed dates and were not used."
   ],
   "voice": {
     "lede": "Ó pá, a whole town drawn with a ruler in two years, and now it counts its pedestrians like a careful sardine merchant.",
@@ -389,6 +396,18 @@
       "significance": "town",
       "ai_path": "no AI",
       "steps": 0
+    },
+    {
+      "title": "Eurocidade do Guadiana promotes a cross-border meeting of women entrepreneurs on 19 November",
+      "summary": "10:30 Spanish time at the Centro de Exposições e Congressos de Ayamonte, under the EURES Transfronteiriço Andaluzia-Algarve project: a leadership talk, business presentations and speed networking. The page does not say how to register.",
+      "date": "2026-11-16",
+      "publisher": "Câmara Municipal de Vila Real de Santo António",
+      "url": "https://www.cm-vrsa.pt/pt/noticias/68406/eurocidade-do-guadiana-promove-encontro-transfronteirico-de-mulheres-empreendedoras.aspx",
+      "read_on": "2026-11-17",
+      "significance": "town and neighbours",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "Ayamonte (Spain), Castro Marim"
     }
   ],
   "contacts": [
