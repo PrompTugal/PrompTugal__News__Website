@@ -11,5 +11,18 @@
   "h_from_algarve": "From the Algarve",
   "h_from_portugal": "From Portugal",
   "h_map": "The AI map",
-  "h_mapping": "Being mapped."
+  "h_mapping": "Being mapped.",
+  "h_places": "The map",
+  "h_towns": "The towns",
+  "h_latest": "The latest from the towns",
+  "h_across": "Across the region",
+  "h_levels": "One publication, three levels",
+  "h_wave": "The first wave",
+  "h_col_place": "Place",
+  "h_col_status": "Status",
+  "h_col_stories": "Stories",
+  "h_col_map": "Map",
+  "h_regional_sources": "Regional sources",
+  "h_map_algarve": "The AI map of the Algarve",
+  "h_ai_portugal": "AI in Portugal"
 }
