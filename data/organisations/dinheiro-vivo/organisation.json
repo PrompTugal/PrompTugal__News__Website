@@ -1,0 +1,165 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "dinheiro-vivo",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Dinheiro Vivo",
+  "names_as_listed": [
+    "Dinheiro Vivo"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: RSS not verified: /rss and /feed returned HTTP 403 to the research client (bot protection). ERC registration number not found on the pages read. Phone numbers not recorded.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://dinheirovivo.dn.pt/",
+    "owner": {
+      "name": "Global Notícias Media Group, S.A.",
+      "source": {
+        "url": "https://www.dn.pt/ficha-tecnica-dinheirovivo",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "contact": {
+      "page": "https://www.dn.pt/contactos",
+      "source": {
+        "url": "https://www.dn.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Filipe Alves",
+        "role": "Diretor (and Diretor Geral Editorial of Global Media Group)",
+        "source": {
+          "url": "https://www.dn.pt/ficha-tecnica-dinheirovivo",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Nuno Vinha",
+        "role": "Diretor Adjunto do DN",
+        "source": {
+          "url": "https://www.dn.pt/ficha-tecnica-dinheirovivo",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "economy"
+      },
+      {
+        "name": "Margarida Vaqueiro Lopes",
+        "role": "Editora Executiva do DN",
+        "source": {
+          "url": "https://www.dn.pt/ficha-tecnica-dinheirovivo",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "economy"
+      },
+      {
+        "name": "Nuno Braga",
+        "role": "Editor do DN",
+        "source": {
+          "url": "https://www.dn.pt/ficha-tecnica-dinheirovivo",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "economy"
+      },
+      {
+        "name": "Carla Aguiar",
+        "role": "Redação (economy team)",
+        "source": {
+          "url": "https://www.dn.pt/ficha-tecnica-dinheirovivo",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "economy"
+      },
+      {
+        "name": "Luís Reis Ribeiro",
+        "role": "Redação (economy team)",
+        "source": {
+          "url": "https://www.dn.pt/ficha-tecnica-dinheirovivo",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "economy"
+      },
+      {
+        "name": "Rute Simão",
+        "role": "Redação (economy team)",
+        "source": {
+          "url": "https://www.dn.pt/ficha-tecnica-dinheirovivo",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "economy"
+      },
+      {
+        "name": "Sónia Santos Pereira",
+        "role": "Redação (economy team)",
+        "source": {
+          "url": "https://www.dn.pt/ficha-tecnica-dinheirovivo",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "economy"
+      },
+      {
+        "name": "Tomás Gonçalves Pereira",
+        "role": "Redação (economy team)",
+        "source": {
+          "url": "https://www.dn.pt/ficha-tecnica-dinheirovivo",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "economy"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.dn.pt/ficha-tecnica-dinheirovivo",
+        "read_at": "2026-11-17",
+        "how": "Ficha tecnica do Dinheiro Vivo (masthead, owner, shareholders of 5% or more listed there)."
+      },
+      {
+        "url": "https://www.dn.pt/contactos",
+        "read_at": "2026-11-17",
+        "how": "DN contacts page."
+      },
+      {
+        "url": "https://dinheirovivo.dn.pt/",
+        "read_at": "2026-11-17",
+        "how": "Home page; redirects from dinheirovivo.pt."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.dn.pt/ficha-tecnica-dinheirovivo",
+      "read_at": "2026-11-17",
+      "how": "Ficha tecnica do Dinheiro Vivo (masthead, owner, shareholders of 5% or more listed there).",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.dn.pt/contactos",
+      "read_at": "2026-11-17",
+      "how": "DN contacts page.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://dinheirovivo.dn.pt/",
+      "read_at": "2026-11-17",
+      "how": "Home page; redirects from dinheirovivo.pt.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}
