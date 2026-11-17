@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Vila Real: AI and technology in Vila Real, a university and science-park city whose centre of gravity is the UTAD campus and the Regia Douro Park, and what reaches Vila Real from Trás-os-Montes, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -434,18 +434,19 @@
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "The council news page and feed (which load with a normal browser) show AI in one item only, the school libraries' literacy and AI month of October 2026, and no AI use in its own services. We should look for council minutes, procurement notices on base.gov.pt and the Vila Real e-commerce project (PRR) pages for any AI use.",
+    "The council news page and feed (which load with a normal browser) show AI in one item only, the school libraries' literacy and AI month of October 2026, and no AI use in its own services. We should look for council minutes, procurement notices on base.gov.pt and the Vila Real e-commerce project (PRR) pages for any AI use. Third pass (17 Nov): the council feed still works and its ten newest items (to 13 Nov) have no AI mention beyond the 28 October libraries item; the Contactos page lists no business or investment desk. Minutes, base.gov.pt and the PRR e-commerce pages were not reached this pass.",
     "A Diário da República notice for AI servers at the local health unit (ULS de Trás-os-Montes e Alto Douro, Vila Real) appeared in search, but the page needs JavaScript and gave us no text, so it is not listed. Three PRR project pages we opened for that unit mention imaging equipment and health centre upgrades with no AI. We should read the notice and the unit's own announcements.",
-    "agroportal.pt is behind a bot challenge (403), so its items on an INESC TEC robotics and AI viticulture event at UTAD in June 2025 stay unread. regiadouro.com shows a maintenance page, and regiadouropark.pt does not resolve, so the park is reached only through Lusa and UTAD news.",
+    "agroportal.pt is behind a bot challenge (403), so its items on an INESC TEC robotics and AI viticulture event at UTAD in June 2025 stay unread. regiadouro.com shows a maintenance page, and regiadouropark.pt does not resolve, so the park is reached only through Lusa and UTAD news. Third pass: regiadouro.com returned 503 on 17 Nov, so it is still unreachable.",
     "Outsmartis, Kropie and What When Where are named as DTech organisers but no page we opened says what they do or where they are based.",
-    "Feeds found for the council, Universidade.fm and UTAD news. None for Regia Douro Park, and Diário de Trás-os-Montes has no feed at the usual address.",
+    "Feeds found for the council, Universidade.fm and UTAD news. None for Regia Douro Park, and Diário de Trás-os-Montes has no feed at the usual address. Third pass: the UTAD news and Universidade.fm feeds and the council feed all still work.",
     "The IBM innovation centre is a 2022 announcement and we found no later report, so we do not know whether it opened.",
     "Not sourced: CITAB's mySense platform and ForestWISE (seen only in search snippets), other UTAD research groups, UTAD Solutions Consulting's own page, and any 2025 or 2026 investment round in a Vila Real company.",
     "Local events: DTech and the regional press days are over, and we found no upcoming AI event in Vila Real on an organiser's own page. The INOV_TECH@UTAD page shown is the 2025 edition, so a 2026 edition is unconfirmed.",
-    "Start a company: the council's site lists no business or investment desk and no incubation page that we found. Regia Douro Park's incubator and accelerator are known only from a Lusa report, with no services, price or way to apply. We still need the park's own pages once its site is back, and the Vila Real counter of Empresa na Hora.",
+    "Start a company: the council's site lists no business or investment desk and no incubation page that we found. Regia Douro Park's incubator and accelerator are known only from a Lusa report, with no services, price or way to apply. We still need the park's own pages once its site is back, and the Vila Real counter of Empresa na Hora. Third pass: the search for an open call at the park's incubator found none; the park's site was down, so this stays open. A search snippet of a possible expansion of the incubator was not opened and is not used.",
     "Talent lists only three UTAD people who spoke publicly in UTAD or press reports. Nobody has agreed to be listed here, and no local AI founders were found.",
     "The 2026 EdgeOnVespa report gives no funding amount, and the HUB Digital report does not name its lead institution or any Vila Real base.",
-    "People: no talent list yet. Three UTAD researchers appear by name in UTAD news about public AI talks and projects, but we list no named individual until PrompTugal has a rule for who may be shown and a source for their own consent."
+    "People: no talent list yet. Three UTAD researchers appear by name in UTAD news about public AI talks and projects, but we list no named individual until PrompTugal has a rule for who may be shown and a source for their own consent.",
+    "Third pass (17 Nov): no AI news since 16 November. The UTAD feed's only new item (16 Nov, a mentoring network) and the ten Universidade.fm items of 16 Nov (including a UTAD technology, sustainability and wellbeing seminar with no AI stated) do not pass the AI test. The ULS Diário da República notice, agroportal items, DTech organisers, IBM centre and INOV_TECH 2026 edition were not re-opened with new results this pass."
   ],
   "voice": {
     "lede": "Vila Real, ó pá: where the Marão keeps the wind out, the vines climb the terraces, and the university quietly teaches the whole North to talk to machines before lunch.",
