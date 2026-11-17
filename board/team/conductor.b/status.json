@@ -1,8 +1,8 @@
 {
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "conducting 19 sessions; quiet; live v0.1.1746",
-  "updated": "2026-11-17T20:50Z",
+  "state": "conducting 19 sessions; ledger 2150Z (300.81 USD API-equivalent); live v0.1.1750",
+  "updated": "2026-11-17T21:51Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
