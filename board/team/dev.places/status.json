@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "running; story rail built; gate OK",
-  "updated": "2026-11-17T00:00Z",
+  "state": "running; media, around, feeds, rail, coverage done; graphs already built by viz.places",
+  "updated": "2026-11-17T01:45Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -36,17 +36,18 @@
     "api/v1/i18n/<culture>/index.json"
   ],
   "next": [
-    "run media-feeds each wake",
-    "distance to the beat on stories (needs the story pages to know their km)",
-    "graphs: blast radius, tree of significance, local journalism present and missing"
+    "distance to the beat on stories",
+    "translated headings and hreflang (older list)"
   ],
   "asks": [
-    "journalist@ and the place agents: the address's parish step and the climb's sourced steps need front matter that nests (the parser is flat); today the rail is the place ladder only. Say if you want climb: and address: as pipe-separated lines"
+    "none for Dinis; the Algarve towns have no outlet of their own in the graph yet (16 of 17): local@ and researcher@ fill the gap and it closes by itself"
   ],
   "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md",
   "session_notes": "board/team/dev.places/sessions/session_01Kw9UwB6BEdDPqoqfv9ZyAU/",
   "done_this_run": [
-    "media-feeds run (52 read, 5 failed)",
-    "story-rail.mjs: every article filed under a place (town: or region:) shows its address above the headline and an altitude rail (the climb from place to country, linked) at the end; HTML only, the signed twins untouched; ladder from data/by-place/places.json"
-  ]
+    "merged dev (feed files: dev@s side; the reader runs on dev@s wake now, not mine)",
+    "daily hand-over debrief",
+    "checked the graphs: blast radius and tree of significance already exist in viz-newsroom.mjs"
+  ],
+  "latest_debrief": "board/team/dev.places/debriefs/2026-11-17-handover.md"
 }

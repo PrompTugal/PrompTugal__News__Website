@@ -674,6 +674,16 @@
       "at": "2026-11-17T00:51Z",
       "by": "conductor.b@PrompTugal.dinis",
       "note": "hour 5 (ledger): 19 restarted sessions 88.04 USD API-equivalent in 5h20 (conductor.b 15.16 more); live v0.1.1677. Live data back on dev (dev@ brought datasci's branch, 23:51; collector retries adsb and keeps the last read, 'last read' shown). ontologist@ 110 outlets; outreach@ 15 drafts (say how we got the data, ask for an API); designer.places@ Local media as cards; dev.places@ the story rail; the old conductor@ extended the outbox spec (review app, first batch); security@ pre-reviewed the outbox (outside sends wait on a signed word). abp@ held datasci's release-to-dev for Dinis. East quiet overnight; journalist@ held districts' third pass."
+    },
+    {
+      "at": "2026-11-17T01:50Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 6, night: live v0.1.1680. place.districts@ third pass (Lisboa, Porto/ScaleUp Porto, Braga, Coimbra), fixed and brought by journalist@; dev.places@ coverage map (where local journalism is and is missing, /media/ and api/v1/media/coverage.json); dev@ search snippets clipped (docs.json 333 KB); central and east daily debriefs. Live data on dev lags up to ~1 h: datasci runs at :15, dev@ brings it at :08 (waits on Dinis's word for direct release)."
+    },
+    {
+      "at": "2026-11-17T02:52Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 7, night: live v0.1.1684. place.districts@ third pass for Guarda, Braganca, Vila Real and two more, brought by journalist@; ontologist@ 138 outlets (capital-city radio); security@ 38 commits clean, S43 recurred: nine district site key ids doubled in keys.json (superseded + active under one id): place.districts@ asked to use suffixed ids and re-sign. Quiet wakes with no commit: sherpa, librarian, correspondent (nothing new overnight). Live data 01:17 on dev."
     }
   ]
 }

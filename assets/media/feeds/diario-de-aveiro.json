@@ -1,8 +1,13 @@
 {
  "id": "diario-de-aveiro",
  "feed": "https://www.diarioaveiro.pt/feed/",
- "read_at": "2026-11-16T23:11Z",
+ "read_at": "2026-11-17T00:13Z",
  "items": [
+  {
+   "title": "Plantel do Anadia suspende treinos por salários em atraso",
+   "link": "https://www.diarioaveiro.pt/2026/11/16/plantel-do-anadia-suspende-treinos-por-salarios-em-atraso/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=plantel-do-anadia-suspende-treinos-por-salarios-em-atraso",
+   "date": "2026-11-16"
+  },
   {
    "title": "Iniciado do Lourosa suspenso 45 dias por comportamento discriminatório",
    "link": "https://www.diarioaveiro.pt/2026/11/16/iniciado-do-lourosa-suspenso-45-dias-por-comportamento-discriminatorio/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=iniciado-do-lourosa-suspenso-45-dias-por-comportamento-discriminatorio",
@@ -21,11 +26,6 @@
   {
    "title": "Robert Pattinson vai interpretar James Bond no filme de Denis Villeneuve",
    "link": "https://www.diarioaveiro.pt/2026/11/16/robert-pattinson-vai-interpretar-james-bond-no-filme-de-denis-villeneuve/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=robert-pattinson-vai-interpretar-james-bond-no-filme-de-denis-villeneuve",
-   "date": "2026-11-16"
-  },
-  {
-   "title": "Governo propõe reestruturação remuneratória na PSP e GNR com aumento até 2028",
-   "link": "https://www.diarioaveiro.pt/2026/11/16/governo-propoe-reestruturacao-remuneratoria-na-psp-e-gnr-com-aumento-ate-2028/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=governo-propoe-reestruturacao-remuneratoria-na-psp-e-gnr-com-aumento-ate-2028",
    "date": "2026-11-16"
   }
  ]

@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "radio-m80-porto",
+  "type": "organisation",
+  "kind": "media",
+  "name": "M80 Porto",
+  "names_as_listed": [
+    "M80 Porto"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page. Network site (Bauer Media), copied to each M80 record; contact is a feedback form and a switchboard on the operator PDF (, Rua Sampaio e Pina 24, Lisboa). No feed found. Bragança is not named in the PDF licence list; the network site is given as the station site.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:porto"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://m80.pt/",
+    "owner": {
+      "name": "Bmhaudio Portugal Holdings, Unipessoal, Lda. & Comandita",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "contact": {
+      "page": "https://m80.pt/feedback",
+      "source": {
+        "url": "https://m80.pt/feedback",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Miguel Cruz",
+        "role": "Responsável pela programação (as listed in the ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Teresa Mota",
+        "role": "Responsável pela informação (as listed in the ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Miguel Diogo de Zea Cruz",
+        "role": "Responsável de Programação (network transparency PDF)",
+        "source": {
+          "url": "https://m80.pt/upload/resources/transparencia/m80.pdf",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "programming"
+      },
+      {
+        "name": "Nuno Castilho de Matos",
+        "role": "Responsável Informação (same PDF)",
+        "source": {
+          "url": "https://m80.pt/upload/resources/transparencia/m80.pdf",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423216, operator 'Bmhaudio Portugal Holdings, Unipessoal, Lda. & Comandita' (seat Lisboa), service 'M80 Porto', licence district Porto, concelho Porto. Outlet email column deliberately not recorded."
+      },
+      {
+        "url": "https://m80.pt/upload/resources/transparencia/m80.pdf",
+        "read_at": "2026-11-17",
+        "how": "Lei 78/2015 transparency PDF of the network operator BMHAUDIO Portugal Holdings, Unipessoal Lda. & Comandita (Bauer Media group)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423216, operator 'Bmhaudio Portugal Holdings, Unipessoal, Lda. & Comandita' (seat Lisboa), service 'M80 Porto', licence district Porto, concelho Porto. Outlet email column deliberately not recorded.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://m80.pt/upload/resources/transparencia/m80.pdf",
+      "read_at": "2026-11-17",
+      "how": "Lei 78/2015 transparency PDF of the network operator BMHAUDIO Portugal Holdings, Unipessoal Lda. & Comandita (Bauer Media group)",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

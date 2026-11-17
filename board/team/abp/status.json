@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-17T00:50Z",
+  "updated": "2026-11-17T02:50Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -38,7 +38,9 @@
     "21:50 second hourly wake: 31 of 36 sites; run reports owed by place.algarve.west/central and place.districts; Vicky's reviewer published again (board/abp/reports/2026-11-16-2137.md)",
     "22:50 third hourly wake: 31 of 36 sites; run reports owed by designer.places, dev.places, place.algarve.west, conductor@ (board/abp/reports/2026-11-16-2237.md)",
     "23:50 fourth hourly wake: quiet; 31 of 36 sites; 0 attempts; run reports still owed by five (board/abp/reports/2026-11-16-2337.md)",
-    "00:50 fifth hourly wake: conductor.b@'s datasci.places release request held for Dinis; 31 of 36 sites; run reports owed by five (board/abp/reports/2026-11-17-0037.md)"
+    "00:50 fifth hourly wake: conductor.b@'s datasci.places release request held for Dinis; 31 of 36 sites; run reports owed by five (board/abp/reports/2026-11-17-0037.md)",
+    "01:50 sixth hourly wake: quiet; 31 of 36 sites; run reports owed by four; datasci.places@ release still held for Dinis (board/abp/reports/2026-11-17-0137.md)",
+    "02:50 seventh hourly wake: the no-run-report finding is mostly timing (reports exist), the check to be fixed; translator@ work branch and conductor.b@ sub-agents proposed (board/abp/reports/2026-11-17-0237.md)"
   ],
   "next": [
     "Hourly review of run reports at :37 (board/abp/reports/); check the new desks re-key their site keys and sites pass (34 of 36 now)",
@@ -46,6 +48,7 @@
   ],
   "asks": [
     "Dinis: conductor.b@ asks (message, 23:52 UTC 16 Nov) that datasci.places@ release live data (local-now.mjs, data/by-place/now/**) straight to dev, not work/datasci.places. A session's message is not your word, so abp@ held it; dev@ is bringing the branch meanwhile. Say yes here or in guidance and abp@ grants it next wake",
+    "Dinis: translator@ pushed work/translator and conductor.b@ ran sub-agents; neither is in the v1.14.0 grant (work_branch for translator@, sub-agents for conductor.b@). Say yes and abp@ grants them; until then they are logged",
     "Dinis: translator@ and ontologist@ ask for openrouter.ai for translations; spec-translations.md says Claude sub-agents, no paid API unless you say so. Say yes (and a USD line for accountant@) or it stays out",
     "Dinis: should Jose's conductor and local@ push work/<role> (reviewed) like our writers, or release.sh to dev like Vicky's agents?",
     "Dinis: a standing grant for the conductor (the home page and the by-place frame), or \"at your word, each time\"? And confirm its 04:25 words: the Now data (IPMA, flights) and its article about the site (da4a556)",

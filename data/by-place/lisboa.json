@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Lisboa: AI and technology in Lisboa, the capital whose centre of gravity is its universities and research institutes, the Unicorn Factory startup hub and the national AI projects, and what reaches Lisboa from Portugal, Europe and the world. Independent; every fact sourced.",
   "gravity": {
@@ -39,6 +39,16 @@
     "motif": "Azulejo blue, Tagus light, seven hills, a capital full of conferences and startups"
   },
   "ai_news": [
+    {
+      "title": "Web Summit opens in Lisbon with humanoid robots as speakers and a focus on physical AI",
+      "summary": "AICEP reports that the tenth Web Summit opened in Lisbon on 9 November with a stronger focus on physical AI. Humanoid robots from Chinese companies take part as official speakers, including a wheeled two-armed robot by Galbot made for shifts in shops, pharmacies and factories. Delegations from China's Ministry of Commerce and Cyberspace Administration attend, and about 300 Brazilian start-ups take part. The programme covers AI agents, AI-supported research, digital regulation and new working models.",
+      "date": "2026-11-16",
+      "publisher": "Portugal Global (AICEP)",
+      "url": "https://www.portugalglobal.pt/en/news/2026/novembro/web-summit-features-humanoid-robots-and-record-chinese-presence/",
+      "read_on": "2026-11-17",
+      "ai_path": "An event held in Lisbon whose stated focus this year is physical AI and AI agents: directly about AI. Read from the public agency's page, not from the summit's own site.",
+      "steps": 0
+    },
     {
       "title": "Lisbon drone maker Beyond Vision raises over 28 million euros to speed up AI and swarm technology",
       "summary": "Beyond Vision, a Lisbon company making unmanned aerial systems, secured more than 28 million euros co-led by Índico Capital Partners and Lince Capital. Part of the money is meant to scale production and to accelerate its AI and swarm technology.",
@@ -240,10 +250,10 @@
       "ai_path": "A two-day conference on AI agents with over 150 speakers: directly about AI. Already held."
     },
     {
-      "title": "Lisbon AI Week 2026 (the organisers' own page lists 21 to 27 September)",
+      "title": "Lisbon AI Week 2026 (the organisers' own page lists 21 to 27 September and now announces the next edition as coming in 2027)",
       "date": "2026-09-21 to 2026-09-27",
       "url": "https://lisbonaiweek.com",
-      "read_on": "2026-11-16",
+      "read_on": "2026-11-17",
       "ai_path": "A week of AI hackathons, workshops and talks spread across the city: directly about AI. Already held."
     },
     {
@@ -592,14 +602,14 @@
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "The city council's own sites (lisboa.pt, lisboaaberta.cm-lisboa.pt) answer 403 or a bot challenge to us on every address we tried, including the LxDataLab pages, so the LxDataLab entry still rests on search snippets (a 4th LxDataLab meeting on 28 May 2026 appears in the council's own listing) and the council's business desk, its own news and its procurement notices are not reachable. We should look for them on base.gov.pt and in Lusa wire copy.",
-    "We found no named council business desk or contact for Lisboa. Unicorn Factory Lisboa and Startup Portugal's Lisbon office are the routes we could read, so the Faro-style council desk entry is missing.",
-    "Feeds found for HR Portugal, NOVA FCT, Startup Portugal, ECO and the Champalimaud Foundation. None for the council, Unicorn Factory, AICEP or Dealroom (rate limited).",
-    "Dates for Lisbon AI Week disagree: a press article says 19 to 23 October and the organisers' own page says 21 to 27 September. We use the organisers' page.",
-    "We could not read the Web Summit pages by rule, so the summit's own AI programme is not covered here. Unicorn Factory's event listings point to luma.com, which we also do not open, so the Unblock AI and Lisbon Tech Evening dates are missing.",
+    "The city council's own sites (lisboa.pt, lisboaaberta.cm-lisboa.pt) still answer 403 to us on 17 November (the page body is a short block page of about 5,000 characters, so there is no content to fetch at an offset). The LxDataLab entry therefore still rests on search snippets, and the council's business desk, news and procurement notices are not reachable. base.gov.pt answers 301 and we did not find a council notice there; Lusa wire copy is not checked.",
+    "We found no named council business desk or contact for Lisboa. Unicorn Factory Lisboa and Startup Portugal's Lisbon office are the routes we could read. The Unicorn Factory contact page shows a general address that is spelled differently on two of its own pages (the home page footer and a variant with a different spelling on the contacts page), so we link the pages and do not copy an address.",
+    "Feeds on 17 November: ECO (works, 22 items, nothing Lisbon-AI since 16 November), NOVA FCT (works but carries only jury notices, not news), Champalimaud (works but holds one stale homepage item from 2018), Startup Portugal (valid but empty), HR Portugal (now answers 403 to us). None found for the council, Unicorn Factory, AICEP or Dealroom. AICEP's news list page is readable as HTML and is the better route.",
+    "Lisbon AI Week dates: a press article says 19 to 23 October and the organisers' own page says 21 to 27 September 2026 (and now announces 2027 as coming). We use the organisers' page.",
+    "We cannot read the Web Summit pages by rule, so the summit's own AI programme is not covered here; the AICEP report of 16 November is the public-agency view. Unicorn Factory's events page is a Luma embed, which we do not open, so the dates of Unblock AI #09 and Lisbon Tech Evening stay missing (the home page lists them without dates).",
     "The AIhub member list shows names and one-line descriptions but not each firm's headquarters, so the members are listed as AIhub community members, not as Lisboa-based. Sword Health, Priberam, Feedzai, Unbabel and Farfetch are still not placed in Lisboa by a page we opened.",
-    "Investors are still thin. Armilar's base city is not stated on a page we opened, and Portugal Ventures, Lince Capital and Índico gave us no page of their own. We could not confirm the Banco de Fomento's new fund of funds, mentioned only in search snippets.",
-    "Missing: Lisbon hospitals' AI use, the ISCTE, NOVA SBE and Católica AI centres (searches found courses and a Harvard collaboration but no page we could open for a centre), the Unicorn Factory startup list and the Soft Landing Program terms (its page returned 404 at the address we tried).",
+    "Investors are still thin. Armilar's base city is not stated on a page we opened, and Portugal Ventures, Lince Capital and Índico gave us no page of their own (the Unicorn Factory home page links lince-capital.com, not opened). The Banco de Fomento's new fund of funds is still unconfirmed.",
+    "Missing: Lisbon hospitals' AI use, the ISCTE, NOVA SBE and Católica AI centres, and the Unicorn Factory startup list as data (the startups page is about 1.2 MB of markup and was not parsed). The Soft Landing Program terms are not published at any address we reached (see its entry). Discord's new Lisbon engineering hub (AICEP, 12 November) is not AI news by our test and is left out.",
     "Talent is not filled, by decision pending from Dinis on naming individuals."
   ],
   "voice": {
@@ -635,10 +645,10 @@
     },
     {
       "name": "Unicorn Factory Lisboa: Soft Landing Program",
-      "what": "Listed on the hub's menu as support for founders setting up in Lisbon. We did not find a page that opens with its terms.",
+      "what": "Listed on the hub's menu as support for founders setting up in Lisbon. On 17 November the menu entry links to an application form on a Microsoft forms address, not to a page of terms, and the guessed address /soft-landing/ returns 404, so we still cannot state its terms.",
       "url": "https://unicornfactorylisboa.com/",
       "source_url": "https://unicornfactorylisboa.com/",
-      "read_on": "2026-11-16",
+      "read_on": "2026-11-17",
       "kind": "programme"
     },
     {
