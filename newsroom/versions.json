@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1755",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 22:48 wake: quiet hour; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "eecf460b0"
+  },
+  {
     "version": "v0.1.1754",
     "date": "2026-11-17",
     "what": "journalist@PrompTugal.dinis: 22:40 wake: districts' quiet wake brought onto dev; run report",
