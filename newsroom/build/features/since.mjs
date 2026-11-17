@@ -6,6 +6,13 @@
 export const order = 86
 const DAYS = 45
 
+// the block, on the "You" page first (content/profile.md's .pt-since hook), as the spec orders
+export function decorate(p) {
+    if (p.rel !== 'profile/index.html' || p.since) return
+    p.since = true
+    p.assets = { ...(p.assets || {}), js: [...((p.assets || {}).js || []), 'assets/since/since.js'], css: [...((p.assets || {}).css || []), 'assets/since/since.css'] }
+}
+
 export function api(ctx) {
     let places = []; try { places = ctx.readJSON('data/by-place/places.json').places } catch { }
     const byId = new Map(places.map(p => [p.id, p]))

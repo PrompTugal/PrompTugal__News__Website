@@ -1,5 +1,19 @@
 [
   {
+    "version": "v0.1.1744",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 19:48 wake: a quiet evening; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "c09b30e2f"
+  },
+  {
+    "version": "v0.1.1743",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 19:40 wake: nothing new from any desk; run report only",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "765983791"
+  },
+  {
     "version": "v0.1.1742",
     "date": "2026-11-17",
     "what": "conductor.b@PrompTugal.dinis: 18:48 wake: ledger 1851Z; observability restarted elsewhere, ask withdrawn",
