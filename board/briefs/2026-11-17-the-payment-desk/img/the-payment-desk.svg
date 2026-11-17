@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">
+  <title>Paying one bill at a desk: the first clerk reads the invoice but her system cannot take payment; the second clerk's system half works; only Multibanco cards are accepted. The one job that should never fail is take the money against the invoice number. AI to map and drive the change; plain, audited code to take the payment.</title>
+  <defs>
+    <marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#121317"/></marker>
+  </defs>
+  <rect width="960" height="640" fill="#f6f3ec"/>
+  <text x="48" y="58" font-size="15" font-weight="700" letter-spacing="2" fill="#006600">PROMPTUGAL.NEWS · AI AND THE LITTLE THINGS</text>
+  <text x="48" y="100" font-family="Newsreader, Georgia, serif" font-size="34" font-weight="700" fill="#121317">Paying one bill, in four small failures</text>
+  <g font-size="15" fill="#121317">
+    <g transform="translate(48,140)"><rect width="196" height="150" rx="10" fill="#fff" stroke="#121317" stroke-width="2"/>
+      <text x="16" y="34" font-weight="700" font-size="17">1 · The invoice</text>
+      <text x="16" y="62">A number on paper.</text><text x="16" y="84">Everything needed</text><text x="16" y="106">to pay is on it.</text>
+      <text x="16" y="134" font-weight="700" fill="#006600">works</text></g>
+    <g transform="translate(276,140)"><rect width="196" height="150" rx="10" fill="#fdecec" stroke="#c52830" stroke-width="2"/>
+      <text x="16" y="34" font-weight="700" font-size="17">2 · First clerk</text>
+      <text x="16" y="62">Finds the bill. Her</text><text x="16" y="84">system cannot take</text><text x="16" y="106">the payment.</text>
+      <text x="16" y="134" font-weight="700" fill="#c52830">fails: hand over</text></g>
+    <g transform="translate(504,140)"><rect width="196" height="150" rx="10" fill="#fff6e0" stroke="#9a6700" stroke-width="2"/>
+      <text x="16" y="34" font-weight="700" font-size="17">3 · Second clerk</text>
+      <text x="16" y="62">Types it in again.</text><text x="16" y="84">Her system "kind of"</text><text x="16" y="106">works today.</text>
+      <text x="16" y="134" font-weight="700" fill="#9a6700">half works</text></g>
+    <g transform="translate(732,140)"><rect width="180" height="150" rx="10" fill="#fdecec" stroke="#c52830" stroke-width="2"/>
+      <text x="16" y="34" font-weight="700" font-size="17">4 · The card</text>
+      <text x="16" y="62">Multibanco only.</text><text x="16" y="84">No Visa, no</text><text x="16" y="106">Mastercard.</text>
+      <text x="16" y="134" font-weight="700" fill="#c52830">fails for visitors</text></g>
+  </g>
+  <g stroke="#121317" stroke-width="2.5" marker-end="url(#k)">
+    <path d="M246,215 L274,215"/><path d="M474,215 L502,215"/><path d="M702,215 L730,215"/>
+  </g>
+  <!-- the core -->
+  <rect x="48" y="320" width="864" height="96" rx="12" fill="#121317"/>
+  <text x="76" y="358" font-family="Newsreader, Georgia, serif" font-size="24" font-weight="700" fill="#f6f3ec">The one job that must work with everything else on fire:</text>
+  <text x="76" y="392" font-size="18" fill="#f6f3ec">read the invoice number, take the money, reconcile later if it has to.</text>
+  <circle cx="886" cy="346" r="8" fill="#c52830"><animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+  <!-- two columns -->
+  <g font-size="15" fill="#121317">
+    <rect x="48" y="440" width="420" height="160" rx="10" fill="#e8f3e8" stroke="#006600" stroke-width="2"/>
+    <text x="68" y="472" font-weight="700" font-size="18" fill="#006600">Code: the payment</text>
+    <text x="68" y="500">Plain, reliable, auditable, tested.</text>
+    <text x="68" y="524">The same answer every time.</text>
+    <text x="68" y="548">No model in the path of the money.</text>
+    <text x="68" y="580" font-size="13" fill="#3f424a">"You shouldn't be using AI for that." (Dinis Cruz)</text>
+    <rect x="492" y="440" width="420" height="160" rx="10" fill="#fff" stroke="#121317" stroke-width="2"/>
+    <text x="512" y="472" font-weight="700" font-size="18">AI: everything around it</text>
+    <text x="512" y="500">Spot the desk that fails every Tuesday;</text>
+    <text x="512" y="524">map who must agree, what it costs,</text>
+    <text x="512" y="548">what breaks; draft the change; follow up.</text>
+    <text x="512" y="580" font-size="13" fill="#3f424a">Driving change is the hard part.</text>
+  </g>
+</svg>

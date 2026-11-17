@@ -2,24 +2,130 @@
   "$schema": "../../schemas/organisation.schema.json",
   "id": "jornal-economico",
   "type": "organisation",
+  "kind": "media",
   "name": "Jornal Económico",
   "names_as_listed": [
     "Jornal Económico"
   ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Legal owner name not read (contact domain is medianove.com; not asserted as owner). Also publishes Forbes Portugal and Forbes África Lusófona links; not investigated.",
+  "media": {
+    "outlet_kind": "newspaper",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://jornaleconomico.sapo.pt",
+    "feeds": [
+      {
+        "url": "https://jornaleconomico.sapo.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://jornaleconomico.sapo.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://jornaleconomico.pt/sobre-nos/contactos/",
+      "source": {
+        "url": "https://jornaleconomico.pt/sobre-nos/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "João Marcelino",
+        "role": "Diretor",
+        "source": {
+          "url": "https://jornaleconomico.pt/sobre-nos/equipa/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Lígia Simões",
+        "role": "Diretora-adjunta",
+        "source": {
+          "url": "https://jornaleconomico.pt/sobre-nos/equipa/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Ricardo Ferreira Santos",
+        "role": "Diretor-adjunto",
+        "source": {
+          "url": "https://jornaleconomico.pt/sobre-nos/equipa/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "José Carlos Lourinho",
+        "role": "Editor-executivo",
+        "source": {
+          "url": "https://jornaleconomico.pt/sobre-nos/equipa/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Almerinda Romeira",
+        "role": "Jornalista (listed on ficha técnica)",
+        "source": {
+          "url": "https://jornaleconomico.sapo.pt/noticias/habitacao-e-produtividade-entre-as-prioridades-estrategicas-da-investigacao-e-inovacao/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "innovation and research (bylined on universities and AI research coverage)"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://jornaleconomico.pt/sobre-nos/equipa/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica read"
+      },
+      {
+        "url": "https://jornaleconomico.pt/sobre-nos/contactos/",
+        "read_at": "2026-11-16",
+        "how": "contacts read"
+      },
+      {
+        "url": "https://jornaleconomico.pt/sobre-nos/equipa/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "The outlet's own ficha técnica: owner Media9Par, S.A., ERC no. 124955 (the page also prints 224087 under 'registo na ERC'; 124955 is the 6-digit ERC form); Tagus Park, Porto Salvo; not found by name in the ERC press sheet, so read from the outlet's own page."
+      }
+    ]
+  },
   "sources": [
     {
       "url": "https://portugalstartupnews.com/2026/11/05/octo-health-launches-personalized-health-tracking-platform-in-portugal-and-u-s-after-earlier-e2-7m-raise/",
       "read_at": "2026-11-06T07:45Z",
       "by": "curator@web-summit.vicky",
       "how": "named in a research capture, as the curator mapped it"
+    },
+    {
+      "url": "https://jornaleconomico.pt/sobre-nos/equipa/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica read",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://jornaleconomico.pt/sobre-nos/contactos/",
+      "read_at": "2026-11-16",
+      "how": "contacts read",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://jornaleconomico.pt/sobre-nos/equipa/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "The outlet's own ficha técnica: owner Media9Par, S.A., ERC no. 124955 (the page also prints 224087 under 'registo na ERC'; 124955 is the 6-digit ERC form); Tagus Park, Porto Salvo; not found by name in the ERC press sheet, so read from the outlet's own page.",
+      "by": "ontologist@PrompTugal.dinis"
     }
-  ],
-  "derived": {
-    "by": "newsroom/tools/derive.mjs",
-    "from": [
-      "desks/programme/agenda.json",
-      "desks/curator/",
-      "data/companies/"
-    ]
-  }
+  ]
 }

@@ -1,5 +1,103 @@
 [
   {
+    "version": "v0.1.1723",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 12:48 wake: ledger 1252Z; Jose's question on outlet data carried to Dinis",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "5f78cdb3e"
+  },
+  {
+    "version": "v0.1.1722",
+    "date": "2026-11-17",
+    "what": "correspondent@PrompTugal.dinis: two new articles placed in the Portugal beat",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "ff9075641"
+  },
+  {
+    "version": "v0.1.1721",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 12:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "03d3c6688"
+  },
+  {
+    "version": "v0.1.1720",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: 12:12 wake: two workers brought, pairing step 1 core; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "fa460f9cd"
+  },
+  {
+    "version": "v0.1.1719",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 12:05 wake: 46 commits clean; pairing step 1 pre-reviewed (go for the dry run, P1 to P10); the ATM article's evidence checked",
+    "by": "security@PrompTugal.dinis",
+    "from": "5a2955ebb"
+  },
+  {
+    "version": "v0.1.1718",
+    "date": "2026-11-17",
+    "what": "conductor@PrompTugal.jose: the self-check before every push (J11, agreed by Jose); local@'s last run read against it; the day's debrief",
+    "by": "conductor@PrompTugal.jose",
+    "from": "fc208f472"
+  },
+  {
+    "version": "v0.1.1717",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 11:40 wake: central's Faro items brought onto dev; conductor@'s two articles reviewed",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "c7dfefc16"
+  },
+  {
+    "version": "v0.1.1716",
+    "date": "2026-11-17",
+    "what": "conductor@PrompTugal.dinis: derived story data for the payment desk article (derive.mjs)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "1d2464c24"
+  },
+  {
+    "version": "v0.1.1715",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: one reader across devices, step 1 written up for security@'s pre-review; dev.places and datasci.places brought; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "e415d1102"
+  },
+  {
+    "version": "v0.1.1714",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: five Algarve articles corrected after checker@'s fact-check, re-signed",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "f1737a1b9"
+  },
+  {
+    "version": "v0.1.1713",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 10:40 wake: west's and place.districts' quiet passes brought onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "a53162462"
+  },
+  {
+    "version": "v0.1.1712",
+    "date": "2026-11-17",
+    "what": "conductor@PrompTugal.dinis: the spec for one reader across devices (QR and append-lane pairing, three vaults and a local mirror, the personal front page, billing as memory) and Dinis's words in the guidance",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "746c3970a"
+  },
+  {
+    "version": "v0.1.1711",
+    "date": "2026-11-17",
+    "what": "checker@PrompTugal.vicky: check of 17 November: 8 articles; both Algarve pieces fixed, thank you",
+    "by": "checker@PrompTugal.vicky",
+    "from": "52d076b38"
+  },
+  {
+    "version": "v0.1.1710",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 10:05 wake: 29 commits clean; S68 post-reviewed",
+    "by": "security@PrompTugal.dinis",
+    "from": "ff2c00981"
+  },
+  {
     "version": "v0.1.1709",
     "date": "2026-11-17",
     "what": "journalist@PrompTugal.dinis: 09:40 wake: central's Faro AI item brought onto dev",

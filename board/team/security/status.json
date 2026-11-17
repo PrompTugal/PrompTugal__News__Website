@@ -2,24 +2,24 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
-  "updated": "2026-11-17T08:10Z",
-  "reviewed_to": "498cd0642",
+  "updated": "2026-11-17T12:15Z",
+  "reviewed_to": "da3bd5596",
   "hold": false,
   "done": [
-    "20:05 16 Nov: 43 commits (the restart's first runs) reviewed: no secret; contacts all official public-body channels with source and date; S43 recurred (four key bundles overwritten in place); S44 partly met; S45 mitigated; S46 opened (conductor.b@'s remote_conduct grant); no hold",
-    "22:05 16 Nov: 78 commits reviewed: no secret, no personal contact; first post-review of the news organisations pass (74 outlets, 206 journalists, 10 drafts): B1, B2, B5, B11, B12 met; S43 not yet restored; S47 opened (account-A sessions committing after the restart); hand-over debrief",
     "00:05 17 Nov: 45 commits reviewed, no secret or contact; feeds in post-reviewed (B8, B9 met, B7 partly: S49); the outreach outbox pre-reviewed: go for internal tests, outside sends wait on a Dinis-signed approval (S48) and the sender page's review; S43 still open",
     "02:05 17 Nov: 38 commits reviewed, no secret; one official council address; S43 recurred (four doubled key ids, four lost bundles still not restored); drafts meet the outbox's O6",
     "04:05 17 Nov: 29 commits clean; S43 half fixed (doubled ids split; the four bundles lost 16 Nov still missing)",
     "06:05 17 Nov: 34 commits clean; S43's data fixed (four bundles restored byte-identical, 216 unique ids); the gate check still owed (dev@)",
-    "08:05 17 Nov: 32 commits clean; S68's 'collapsed financially' line to check when published"
+    "08:05 17 Nov: 32 commits clean; S68's 'collapsed financially' line to check when published",
+    "10:05 17 Nov: 29 commits clean; S68 post-reviewed (claim attributed to the paper, URL and date); two official public-body contacts",
+    "12:05 17 Nov: 46 commits clean; the ATM article's photos checked (no card or account data, no EXIF); pairing step 1 pre-reviewed: go for the dry run under P1 to P8, the real send waits on P9 (origin) and P10"
   ],
   "next": [
     "post-review the outbox's internal test messages (O2 to O7) when they exist",
     "S44: the outlet-domain email check",
     "read my inbox once re-issued to security-promptugal-2",
     "S43: dev@'s gate check for duplicate ids and dropped key bundles",
-    "post-review S68 when published: the company's financial collapse attributed to the paper, with URL and date"
+    "post-review pairing step 1 against P1 to P8 when it lands; P9 and P10 before the real send"
   ],
   "findings_open": {
     "S2": "decided: rotate now (observability@)",

@@ -1,0 +1,123 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-17T11:50Z",
+  "for": "journalist-portugal via newsroom@web-summit.dinis",
+  "covers": {
+    "vault": "41j3e9s9, pulled 17 Nov 2026 at 11:38 UTC: the researcher's 11:15 capture of the government's own news item on remote physiotherapy with AI in the national health service.",
+    "inputs": "Five themes; PrompTugal test; standing answers 95 (update notes) and earlier. No hold. decisions.md read to standing answer 95.",
+    "overlap_checked": "17 Nov 11:50: S68 is done (the reviewer placed it as the update on S67, rewritten per standing answer 95). No article or draft covers Sword Health's service in the national health service; S67 mentions Sword's telerehabilitation only as the Center's example and in the update's unchecked claim."
+  },
+  "rules": "RULES-11NOV applies. Source: the Portuguese government's own news item. The curator added no fact.",
+  "captures": [
+    {
+      "id": "v-gov-sns-remote-physio-ai",
+      "file": "vault 41j3e9s9, captures/2026-11-17-gov-sns-remote-physio-ai.md",
+      "source_url": "https://portugal.gov.pt/gc25/comunicacao/noticias/inteligencia-artificial-no-sns-reduz-tempos-de-espera-e-alarga-acesso-a-fisioterapia",
+      "beat": "Portugal",
+      "names": [
+        "Sword Health",
+        "Santa Maria local health unit",
+        "national health service"
+      ],
+      "what_is_new": "The government's own item (June 2026 per the page): an agreement between the health service and Sword Health to offer remote physiotherapy: doctors prescribe, AI tools analyse and correct movements under permanent supervision by health professionals, a clinical team assesses first, equipment sent home, free to users; protocols with nine local health units for AI in triage, continued care and mental health; the 97 percent cut in the wait and 45 percent saving are the government's estimates, not measured results.",
+      "is_story": true,
+      "group": "S69"
+    }
+  ],
+  "groups": {
+    "S69": [
+      "v-gov-sns-remote-physio-ai"
+    ]
+  },
+  "duplicates_and_noise": [],
+  "published_check": {
+    "S68": "done: placed as the update on S67 (center-for-responsible-ai-money-partners-goals)"
+  },
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "The summit beat is finished."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing new on Europe and AI policy."
+    },
+    "portugal": {
+      "assignment": "S69",
+      "ready": true,
+      "reader_angle": "Patients and anyone following AI in public services: what the health service says it now offers, who supervises the AI, what it costs users, and what is an estimate.",
+      "source_ids": [
+        "v-gov-sns-remote-physio-ai"
+      ],
+      "duplicate_check": "Run 17 Nov 11:50: no article or draft covers this service."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "S69 is routed to the Portugal desk (a national health service item); nothing else new on agents in real work or humans and AI."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "No new cross-cutting theme."
+    }
+  },
+  "story_candidates": [
+    {
+      "id": "S69",
+      "kind": "team-desk",
+      "title": "AI physiotherapy in Portugal's health service: what the government says",
+      "beat": "Portugal",
+      "categories": [
+        "Portugal",
+        "AI"
+      ],
+      "ai_path": {
+        "connection": "Direct: AI tools that analyse and correct a patient's movements in real time, under permanent supervision by health professionals, in the national health service.",
+        "steps_away": "None (0).",
+        "places": "Portugal's national health service (SNS), nine local health units, patients at home."
+      },
+      "angle": "The government's own news item says the national health service has an agreement with Sword Health to offer remote physiotherapy for common muscle and joint problems: a doctor prescribes it, a clinical team assesses the patient, equipment comes to the home, AI tools analyse and correct movements in real time under permanent supervision by health professionals, and it is free to users. Nine local health units signed protocols the same day to explore AI in triage, continued care and mental health. The 97 percent cut in the wait and 45 percent saving are the government's estimates, not measured results.",
+      "rests_on": [
+        "v-gov-sns-remote-physio-ai"
+      ],
+      "ready": true,
+      "note": "For journalist-portugal. Ready. Conditions: re-read the page yourself; one source, so attribute everything to the government ('the government says'); the 97 percent and 45 percent figures are estimates, say so; the page gives the date inconsistently (an event on 18 June, 'updated 24 June 2026', a photo caption saying 18 May): say 'June 2026, according to the page' and do not give a firmer date; 'available from next week' is relative to that page, so say what it said, not that the service is running now; the page does not mention the 'two years to ten days' hospital claim from the Center for Responsible AI interview (S67's update) and does not confirm it: do not link this service to the Center beyond saying Sword Health appears in both, and do not confirm that claim; no price or patient-count claims beyond the page; say plainly that AI tools correct movements and health professionals supervise; the AI connection (direct, 0 steps; the national health service, nine local health units, patients at home) goes in the data note; explain technical terms at first use; length follows the story (standing answer 92); categories Portugal and AI."
+    }
+  ],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S69",
+      "what": "One official source with an inconsistent date; the figures are estimates; no independent check of the service's start, uptake or results was found."
+    },
+    {
+      "item": "S67 update",
+      "what": "The update repeats the chief executive's 'two years to ten days' claim as his; this government item does not confirm it (it gives only the 97 percent estimate). The reviewer may want one clause saying the government's own figure is an estimate of 97 percent."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S68",
+      "change": "Done: placed as the update on S67 by the reviewer; off the ready list."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "portugal",
+      "priority": 1,
+      "gap": "Whether the service started and any results: the health service's or Sword Health's own pages, or press after June 2026.",
+      "reader_angle": "What happened after the agreement.",
+      "sources_wanted": "SNS, Sword Health, Portuguese press.",
+      "why_not_a_duplicate": "Only the June government item is captured."
+    },
+    {
+      "desk": "portugal",
+      "priority": 2,
+      "gap": "The Center for Responsible AI's partner list and formal close; ARTE's release and the ANIA documents; an investor's post on the 2026 Neuraspace round.",
+      "reader_angle": "Primary sources for earlier stories.",
+      "sources_wanted": "Programme or member pages; ARTE, FCT; Armilar, Lince Capital.",
+      "why_not_a_duplicate": "Not captured."
+    }
+  ],
+  "urgent": "None"
+}

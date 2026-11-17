@@ -1,13 +1,13 @@
 {
   "agent": "local@PrompTugal.jose",
   "focus": "For each Algarve town: a checked list of its local outlets and their feeds, the public organisations and people who could contribute, and a draft first contact per organisation for a person to send (cards 1 Awareness, 2 Contributors, 3 Local news partners)",
-  "state": "ok: step 1 of the plan done; Faro and Loulé read in part; the other 14 towns not started",
-  "updated": "2026-11-16T23:58:00Z",
+  "state": "paused on Jose's word for new outlet data: Jose wants the data about the newspapers and the people who work for them kept in a private CRM, which differs from Dinis's written guidance; the question is with Dinis",
+  "updated": "2026-11-17T12:33:00Z",
   "session": "session_01CqQLD67E4ZdLLHah22NrGN (Jose's account)",
   "key": "local-jose-promptugal (record sha256:731a02b0283ae2d5)",
   "dinis_yes": "board/guidance/2026-11-16-restart-here-go.md, point 4 (16 Nov, about 19:25 UTC)",
   "grant": "board/abp/policies.json v1.14.0, external.by_agent: desks/local-jose/**, board/runs/local-jose/**, data/organisations/*/organisation.json (the path was corrected by abp@). In use from this run, at Jose's word (J8, J9 in desks/conductor-jose/standing-rules.md).",
-  "done": "16 Nov. Set-up: the desk README, the session key. Then, after Jose opened eleven hosts (about 20:09 UTC): Faro and Loulé. Card 3: Barlavento (main RSS, an RSS per town section, a REST API) and Algarve Primeiro (no RSS, a sitemap) read on their own sites and written in the media kind's fields; Sul Informação's main RSS found, then reading stopped at its robots.txt; Regiao Sul, Jornal do Algarve and Postal do Algarve not readable. Card 2: three editors named on the outlets' own pages (name and published role), the university's communication degree and its communication office as organisations. Drafts: three first contacts (Barlavento, Algarve Primeiro, the university's school of communication), Portuguese and English, each with its holds. Card 1: draft 1 of the text on what PrompTugal.news is, and a share check of five pages. Requests: the outlets ready to merge (to place.algarve.central@ and ontologist@), the draft format (outreach@), the share cards (dev.places@). Third run (23:50 UTC): Jose agreed the plan (plan.md). Step 1: the records data/organisations/barlavento/ and data/organisations/algarve-primeiro/ written in the media kind from the town files; the first run report filed; a reading checklist for Jose (for-jose/reading-checklist.md).",
+  "done": "16 Nov. Set-up: the desk README, the session key. Then, after Jose opened eleven hosts (about 20:09 UTC): Faro and Loulé. Card 3: Barlavento (main RSS, an RSS per town section, a REST API) and Algarve Primeiro (no RSS, a sitemap) read on their own sites and written in the media kind's fields; Sul Informação's main RSS found, then reading stopped at its robots.txt; Regiao Sul, Jornal do Algarve and Postal do Algarve not readable. Card 2: three editors named on the outlets' own pages (name and published role), the university's communication degree and its communication office as organisations. Drafts: three first contacts (Barlavento, Algarve Primeiro, the university's school of communication), Portuguese and English, each with its holds. Card 1: draft 1 of the text on what PrompTugal.news is, and a share check of five pages. Requests: the outlets ready to merge (to place.algarve.central@ and ontologist@), the draft format (outreach@), the share cards (dev.places@). Third run (23:50 UTC): Jose agreed the plan (plan.md). Step 1: the records data/organisations/barlavento/ and data/organisations/algarve-primeiro/ written in the media kind from the town files; the first run report filed; a reading checklist for Jose (for-jose/reading-checklist.md). 17 Nov, at Jose's word (\"research for all news agencies in concelho de loulé, quarteira, almancil\"): Postal do Algarve read on its own site (four feeds, owner, ERC number, director, contact page) and added to towns/loule.json with a draft first contact; A Voz de Loulé and Rádio Clube de Loulé (Cidade FM Algarve, 99,7 MHz in ERC's ruling of 2013) recorded with what could be verified elsewhere; eight leads from a web search listed as not verified; towns/quarteira.json written; no outlet based in Quarteira or in Almancil confirmed.",
   "learnt": [
     "Barlavento keeps a section and an RSS feed per council (the pattern /algarve/<town>/feed/, confirmed for Faro and Loulé), so the next towns start there.",
     "Sul Informação's robots.txt refuses Anthropic's agents by name and signals ai-train=no, use=reference; its town feeds and API answer with a bot challenge. This desk stopped reading it. The same question stands for every agent of the team that reads it.",
@@ -18,17 +18,22 @@
     "The site's general share card still reads 'The Web Summit Lisbon 2026 edition'; every town page shares with it.",
     "Before releasing, run newsroom/tools/derive.mjs and check data/ is unchanged: release.sh would otherwise commit derived data under this desk's name.",
     "Two new organisation records change two counters in data/websummit-only.json, a derived file: release.sh commits that itself, in a commit of its own under the releaser's name (CLAUDE.md, Build and gate). The file is not in this desk's grant; said to abp@ in the commit.",
-    "The ABP hooks did not log this session: it was started with its working directory above the repository, so the project's hooks never ran and the run report counts 0 tool calls. The record of this run is its commits."
+    "The ABP hooks did not log this session: it was started with its working directory above the repository, so the project's hooks never ran and the run report counts 0 tool calls. The record of this run is its commits.",
+    "Quarteira is a place of its own in data/by-place/places.json (kind city, parent loule), so it has a town file; the conductor's note that it is not a place is out of date. Almancil has no place file and stays in Loulé's.",
+    "Web search is in the ABP's allowed tools and is useful only as a finder of names: every result still has to be opened at the outlet's own site, and most of those hosts are refused here. Leads are kept apart from facts (leads_not_verified).",
+    "postal.pt opens since 17 November. Its tag feeds per town are thin; its Algarve section feed is the one to read. Barlavento has feeds per council section, none per parish tag."
   ],
   "hosts": {
-    "tried": "2026-11-16T20:10Z",
+    "tried": "2026-11-17T11:45Z",
     "open": [
       "www.barlavento.pt",
       "www.algarveprimeiro.com",
       "www.avozdoalgarve.pt",
+      "postal.pt",
       "www.ualg.pt",
+      "hemeroteca.ualg.pt",
       "www.erc.pt",
-      "www.sulinformacao.pt (opens, but see learnt)",
+      "www.sulinformacao.pt (opens, not read: see learnt)",
       "promptugal.news",
       "pki.sgit.ai"
     ],
@@ -37,32 +42,44 @@
       "www.jornaldoalgarve.pt"
     ],
     "connection_reset_twice": [
-      "www.cm-faro.pt",
-      "www.cm-loule.pt"
+      "www.cm-faro.pt"
     ],
     "refused_by_the_environment": [
-      "postal.pt (www.postal.pt redirects to it)",
+      "www.avozdeloule.com (Loulé's own newspaper)",
+      "www.cm-loule.pt",
+      "jf-quarteira.pt",
+      "www.jf-almancil.pt",
       "docs.google.com (ERC's lists)",
-      "portalregistos.erc.pt (ERC's register portal)",
-      "www.rua.pt (the university's radio)",
-      "esec.ualg.pt (the school of education and communication)"
+      "portalregistos.erc.pt",
+      "www.portugalresident.com",
+      "www.theportugalnews.com",
+      "issuu.com",
+      "essential-algarve.com",
+      "24noticias.sapo.pt",
+      "www.rua.pt",
+      "esec.ualg.pt"
     ]
   },
   "towns": {
     "faro": "read in part: 2 outlets recorded in data/organisations/, 1 stopped, 5 contributors, 4 contact pages, 2 drafts (towns/faro.json)",
-    "loule": "read in part: 2 outlets recorded in data/organisations/, 1 stopped, 1 unreachable, 3 contributors, 3 contact pages, 2 drafts (towns/loule.json)"
+    "loule": "checked in part, with Almancil: 3 outlets read at the source (2 recorded, Postal asked of ontologist@), 1 stopped, 3 unreachable, 8 leads, 5 contributors, 4 contact pages, 3 drafts (towns/loule.json)",
+    "quarteira": "checked in part: no outlet based there confirmed; four council outlets cover it (towns/quarteira.json)"
   },
-  "next": "Step 2 of the plan: Portimão and Olhão, then two towns a run in the plan's order. Step 5: the awareness text to journalist@ as a request.",
+  "next": "Wait for Dinis's answer, carried by Jose's conductor. If the outlet facts stay public: the plan resumes at Loulé (A Voz de Loulé) and step 2. If they go private: a person or Dinis's team keeps them in the CRM, and this desk's part is to be redefined by Jose.",
   "asks": [
-    "Jose: start the next run for Portimão and Olhão when you want them. Start the session with the repository as its working directory, so the ABP hooks log the run (this session's run report is empty for that reason).",
-    "Jose: the two outlets an agent cannot open (Regiao Sul, Jornal do Algarve) are yours to read in a browser, if you will: for-jose/reading-checklist.md says what to note.",
-    "Jose: hosts still refused by the environment: postal.pt, docs.google.com (ERC's public lists), portalregistos.erc.pt, www.rua.pt, esec.ualg.pt. Your conductor has told you to open no more until Dinis answers; without ERC's lists no town can be called done.",
-    "Dinis: his yes or no for the network change on Jose's environment and for the hosts each new town brings (R4). Carried by conductor.b@.",
+    "Dinis: Jose asks that the data about the newspapers and the people who work for them (editors, journalists, staff) be kept in a private CRM and not on the public site. Your guidance asks for every local outlet listed and linked per place, with its publicly named editors. Which holds for the Algarve outlets: public as written, public without people's names, or private? Until you answer this desk writes no new outlet data.",
+    "Jose: say whether I take the people's names out of my own files now (the town files, my two records in data/organisations/, the contributors lists). I may do that on your word, because it only narrows what Dinis allows; the names stay in the repository's history. The outlets themselves I leave as they are until Dinis answers.",
+    "Jose: Loulé's own newspaper, A Voz de Loulé, is the outlet that matters most for your question and I could not open it: www.avozdeloule.com is refused by the environment. Either read it yourself with for-jose/reading-checklist.md, or it waits on Dinis's yes for the host.",
+    "Jose: to verify the leads, these hosts are refused: www.cm-loule.pt, jf-quarteira.pt, www.jf-almancil.pt, issuu.com, www.portugalresident.com, www.theportugalnews.com, docs.google.com and portalregistos.erc.pt (ERC's lists). Your conductor has told you to open no more until Dinis answers.",
+    "Jose: start my next session with the repository as its working directory, so the ABP hooks log the run; this session's run reports count 0 tool calls for that reason.",
+    "Jose: Regiao Sul and Jornal do Algarve answer with a bot challenge; yours to read in a browser, if you will.",
+    "Dinis: his yes or no for the network change on Jose's environment and for the hosts each town brings (R4). postal.pt opened between 16 and 17 November.",
     "Dinis: Sul Informação's robots.txt refuses Anthropic's agents by name; may the site read its feed, and may an agent read its pages. Until then this desk does not read it.",
     "Dinis: what a first email to a news organisation may promise (outreach@'s open decision page); it holds every send.",
-    "Dinis (abp@): release.sh commits the derived counters of data/websummit-only.json under this desk's name when it adds a record; that file is not in the grant. Say if the grant should name it, or if the records should go through ontologist@ instead."
+    "Dinis (abp@): release.sh commits the derived counters of data/websummit-only.json under this desk's name when it adds a record; that file is not in the grant."
   ],
   "waits": [
+    "requests/2026-11-17-ontologist-postal-and-loule-leads.md: waits on ontologist@ (postal-do-algarve is a derived record; the outlet as read is in towns/loule.json) and researcher@ (the English-language press)",
     "requests/2026-11-16-central-and-ontologist-faro-and-loule-outlets.md: the two outlets are now written by this desk (J9); still waits on ontologist@ for the facts offered for a-voz-do-algarve, place.algarve.central@ (feeds for the town files) and researcher@ (Faro)",
     "requests/2026-11-16-outreach-the-shared-draft-format.md: waits on outreach@PrompTugal.dinis and on Jose",
     "requests/2026-11-16-dev.places-share-cards-for-town-pages.md: waits on dev.places@PrompTugal.dinis (whether it has run since the restart was not checked), designer@ and journalist@",
@@ -71,9 +88,17 @@
   "run_report": "board/runs/local-jose/2026-11-16T23-54-22Z.json (empty of tool calls: see learnt)",
   "debrief": "desks/local-jose/debriefs/2026-11-16-handover.md",
   "requests": [
+    "desks/local-jose/requests/2026-11-17-ontologist-postal-and-loule-leads.md",
     "desks/local-jose/requests/2026-11-16-central-and-ontologist-faro-and-loule-outlets.md",
     "desks/local-jose/requests/2026-11-16-outreach-the-shared-draft-format.md",
     "desks/local-jose/requests/2026-11-16-dev.places-share-cards-for-town-pages.md"
   ],
-  "plan": "desks/local-jose/plan.md (agreed by Jose, 16 Nov, about 23:50 UTC)"
+  "plan": "desks/local-jose/plan.md (agreed by Jose, 16 Nov, about 23:50 UTC)",
+  "paused": {
+    "since": "2026-11-17T12:33:00Z",
+    "jose_said": "all that data should be in a private crm, not public ... data about the newspapers, their editors, workers, info (Jose, 17 November 2026, in this desk's session)",
+    "differs_from": "board/guidance/2026-11-16-positioning-collaborators-local-media-paid.md, point 3 (list and link every local news organisation, blogger and editor per place, on the town pages); board/guidance/2026-11-16-restart-here-go.md, point 4 (this desk writes the outlets in the media kind of the public graph); board/team/conductor.b/plans/2026-11-16-restart-here.md, section 4",
+    "what_this_desk_does": "Until Dinis answers: no new town file, outlet record, person's name or draft is written. Nothing already published is removed or changed: it is in the repository's history either way, and history is never rewritten. This desk has no private place to write and no access to the private CRM, by Dinis's design.",
+    "not_built": "the public index of outlets and their stages (desks/local-jose/outlets.json) proposed to Jose on 17 November"
+  }
 }
