@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">
+  <title>Two paths for the same withdrawal. Without conversion: the ATM pays out euros, the card network passes the euro amount to the card's bank, which converts close to the ECB rate. With conversion: the ATM's conversion service converts first at its own rate and keeps the mark-up, shared between the operator and the host.</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#121317"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c52830"/></marker>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#006600"/></marker>
+  </defs>
+  <rect width="960" height="600" fill="#f6f3ec"/>
+  <text x="48" y="58" font-size="15" font-weight="700" letter-spacing="2" fill="#006600">PROMPTUGAL.NEWS · HOW IT WORKS</text>
+  <text x="48" y="100" font-family="Newsreader, Georgia, serif" font-size="34" font-weight="700" fill="#121317">Where the £22.56 goes</text>
+  <g font-size="16" fill="#121317" text-anchor="middle">
+    <rect x="48" y="250" width="150" height="90" rx="10" fill="#fff" stroke="#121317" stroke-width="2"/>
+    <text x="123" y="290" font-weight="700">You</text><text x="123" y="314" font-size="14">UK card, €200</text>
+    <rect x="290" y="250" width="170" height="90" rx="10" fill="#fff" stroke="#121317" stroke-width="2"/>
+    <text x="375" y="284" font-weight="700">The ATM</text><text x="375" y="306" font-size="14">a Portuguese bank's</text><text x="375" y="326" font-size="14">machine</text>
+    <!-- top path: with conversion -->
+    <rect x="540" y="140" width="190" height="90" rx="10" fill="#fdecec" stroke="#c52830" stroke-width="2"/>
+    <text x="635" y="174" font-weight="700" fill="#c52830">Conversion service</text><text x="635" y="196" font-size="14">its own rate, 0.94840</text><text x="635" y="216" font-size="14">keeps the mark-up</text>
+    <rect x="790" y="140" width="130" height="90" rx="10" fill="#fff" stroke="#c52830" stroke-width="2"/>
+    <text x="855" y="178" font-weight="700">Charged</text><text x="855" y="202" font-weight="700" fill="#c52830">£189.68</text>
+    <!-- bottom path: without conversion -->
+    <rect x="540" y="360" width="190" height="90" rx="10" fill="#e8f3e8" stroke="#006600" stroke-width="2"/>
+    <text x="635" y="394" font-weight="700" fill="#006600">Card network</text><text x="635" y="416" font-size="14">passes on €200</text><text x="635" y="436" font-size="14">to your bank</text>
+    <rect x="790" y="360" width="130" height="90" rx="10" fill="#fff" stroke="#006600" stroke-width="2"/>
+    <text x="855" y="388" font-weight="700">Your bank</text><text x="855" y="410" font-size="14">near ECB rate</text><text x="855" y="432" font-weight="700" fill="#006600">£167.12</text>
+  </g>
+  <path d="M198,295 L288,295" stroke="#121317" stroke-width="2.5" marker-end="url(#a)"/>
+  <path d="M460,280 C500,250 505,190 538,186" fill="none" stroke="#c52830" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#r)">
+    <animate attributeName="stroke-dashoffset" from="56" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+  <path d="M730,185 L788,185" stroke="#c52830" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#r)">
+    <animate attributeName="stroke-dashoffset" from="56" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+  <path d="M460,310 C500,340 505,400 538,404" fill="none" stroke="#006600" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#g)">
+    <animate attributeName="stroke-dashoffset" from="56" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+  <path d="M730,405 L788,405" stroke="#006600" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#g)">
+    <animate attributeName="stroke-dashoffset" from="56" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+  <g font-size="14" fill="#121317">
+    <text x="470" y="132" font-weight="700" fill="#c52830">"Accept with conversion" (Union Jack button)</text>
+    <text x="470" y="480" font-weight="700" fill="#006600">"Accept without conversion"</text>
+    <!-- the cut -->
+    <circle cx="560" cy="290" r="0" fill="#c52830">
+      <animate attributeName="r" values="0;16;12" dur="1s" begin="0.5s" fill="freeze"/></circle>
+    <text x="582" y="284" font-weight="700" fill="#c52830">£22.56 kept, usually shared by the</text>
+    <text x="582" y="304" font-weight="700" fill="#c52830">conversion company and the machine's host</text>
+  </g>
+  <text x="48" y="540" font-size="15" fill="#3f424a">The law (EU Regulation 2019/518, Article 3a): the mark-up over the ECB rate must be shown as a percentage before you confirm.</text>
+  <text x="48" y="564" font-size="15" fill="#3f424a">Neither screen photographed shows one.</text>
+</svg>
