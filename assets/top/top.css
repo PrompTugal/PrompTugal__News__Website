@@ -124,3 +124,10 @@ main .kicker, main .eyebrow { font: 700 12px var(--sans); letter-spacing: .08em;
 .em-langs button:hover, .em-langs button.on { background: var(--paper); } .em-langs button.on, .em-langs .em-lang-back { font-weight: 600; }
 .em-langs .em-lang-back { border-bottom: 1px solid var(--rule); border-radius: 0; margin-bottom: 4px; }
 .em-i18n-note { margin: 0 0 4px; font: italic 12.5px var(--sans); color: var(--ink-3); text-align: center; }
+
+/* Support: the top-up, high on every page (Dinis, 17 November 2026: "put it high on the top") */
+.em-pill.em-support { background: var(--green, #006600); border-color: var(--green, #006600); color: #fff; }
+.em-pill.em-support:hover, .em-pill.em-support:focus-visible { background: #004d00; border-color: #004d00; color: #fff; }
+.ctop-when .em-support { margin-right: 10px; }
+.em-pill.em-support { white-space: nowrap; }
+@media (max-width: 480px) { .em-support-amt { display: none; } }
