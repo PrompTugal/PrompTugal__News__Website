@@ -1,6 +1,6 @@
 {
  "place": "olhao",
- "read_at": "2026-11-17T17:16:32Z",
+ "read_at": "2026-11-17T20:17:23Z",
  "by": "board/tools/local-now.mjs (conductor@PrompTugal.dinis)",
  "about": "Now in this place, from IPMA's open data and (for Faro) adsb.lol: each value with its source and the time read. Not a warning service: follow IPMA (https://www.ipma.pt/) and ANEPC.",
  "station": {
@@ -8,13 +8,13 @@
   "id": 1210881,
   "km": 2,
   "reading": {
-   "at": "2026-11-17T16:00Z",
-   "temp_c": 20.3,
-   "humidity_pct": 100,
-   "wind_kmh": 15.8,
+   "at": "2026-11-17T19:00Z",
+   "temp_c": 19.9,
+   "humidity_pct": 99,
+   "wind_kmh": 11.2,
    "wind_dir_id": 6,
    "rain_mm": 0,
-   "pressure_hpa": 1017.4
+   "pressure_hpa": 1018.4
   },
   "page": "https://www.ipma.pt/en/otempo/obs.superficie/",
   "source": "https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json"
@@ -117,23 +117,39 @@
   "icao": "LPFR",
   "name": "Faro airport",
   "within_nm": 40,
-  "at": "2026-11-17T17:16:32Z",
+  "at": "2026-11-17T20:17:23Z",
   "airline": [
    {
-    "callsign": "EZY92YP",
+    "callsign": "EZY36YD",
     "airline": "EZY",
     "type": "A20N",
-    "alt_ft": 39000,
+    "alt_ft": 37975,
     "on_ground": false,
-    "ground_speed_kt": 453.6
+    "ground_speed_kt": 431.7
    },
    {
-    "callsign": "IBB23UA",
-    "airline": "IBB",
-    "type": "E295",
-    "alt_ft": 38000,
+    "callsign": "EZY63WG",
+    "airline": "EZY",
+    "type": "A20N",
+    "alt_ft": 36000,
     "on_ground": false,
-    "ground_speed_kt": 446.8
+    "ground_speed_kt": 445.7
+   },
+   {
+    "callsign": "IBS1510",
+    "airline": "IBS",
+    "type": "A21N",
+    "alt_ft": 34000,
+    "on_ground": false,
+    "ground_speed_kt": 460.4
+   },
+   {
+    "callsign": "WZZ2738",
+    "airline": "WZZ",
+    "type": null,
+    "alt_ft": 36025,
+    "on_ground": false,
+    "ground_speed_kt": 472.3
    }
   ],
   "other_aircraft": 0,
@@ -144,62 +160,62 @@
  "reads": {
   "warnings": {
    "url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-   "at": "2026-11-17T17:16:08Z",
+   "at": "2026-11-17T20:16:59Z",
    "status": 200
   },
   "observations": {
    "url": "https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json",
-   "at": "2026-11-17T17:16:10Z",
+   "at": "2026-11-17T20:17:01Z",
    "status": 200
   },
   "city-daily-1080500": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080500.json",
-   "at": "2026-11-17T17:16:12Z",
+   "at": "2026-11-17T20:17:04Z",
    "status": 200
   },
   "city-daily-1080800": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080800.json",
-   "at": "2026-11-17T17:16:15Z",
+   "at": "2026-11-17T20:17:06Z",
    "status": 200
   },
   "city-daily-1081100": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081100.json",
-   "at": "2026-11-17T17:16:17Z",
+   "at": "2026-11-17T20:17:08Z",
    "status": 200
   },
   "city-daily-1081505": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081505.json",
-   "at": "2026-11-17T17:16:19Z",
+   "at": "2026-11-17T20:17:10Z",
    "status": 200
   },
   "fire-risk-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d0.json",
-   "at": "2026-11-17T17:16:21Z",
+   "at": "2026-11-17T20:17:12Z",
    "status": 200
   },
   "fire-risk-d1": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d1.json",
-   "at": "2026-11-17T17:16:23Z",
+   "at": "2026-11-17T20:17:14Z",
    "status": 200
   },
   "fire-risk-d2": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d2.json",
-   "at": "2026-11-17T17:16:25Z",
+   "at": "2026-11-17T20:17:17Z",
    "status": 200
   },
   "uv": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/uv/uv.json",
-   "at": "2026-11-17T17:16:27Z",
+   "at": "2026-11-17T20:17:19Z",
    "status": 200
   },
   "sea-forecast-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/oceanography/daily/hp-daily-sea-forecast-day0.json",
-   "at": "2026-11-17T17:16:30Z",
+   "at": "2026-11-17T20:17:21Z",
    "status": 200
   },
   "adsb": {
    "url": "https://api.adsb.lol/v2/point/37.0144/-7.9659/40",
-   "at": "2026-11-17T17:16:32Z",
+   "at": "2026-11-17T20:17:23Z",
    "status": 200
   }
  }
