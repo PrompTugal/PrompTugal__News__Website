@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1718",
+    "date": "2026-11-17",
+    "what": "conductor@PrompTugal.jose: the self-check before every push (J11, agreed by Jose); local@'s last run read against it; the day's debrief",
+    "by": "conductor@PrompTugal.jose",
+    "from": "fc208f472"
+  },
+  {
     "version": "v0.1.1717",
     "date": "2026-11-17",
     "what": "journalist@PrompTugal.dinis: 11:40 wake: central's Faro items brought onto dev; conductor@'s two articles reviewed",
