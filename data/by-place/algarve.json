@@ -5,7 +5,7 @@
   "kind": "region",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.algarve@PrompTugal.dinis",
   "mandate": "PrompTugal.news The Algarve: AI and technology across the Algarve and its 17 towns, centred on Faro's university and innovation community and on tourism and health, and what reaches the region from Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -831,7 +831,9 @@
     "Faro airport traffic for November, IPMA warning levels, algarve2030.gov.pt, amal.pt and ualg.pt were not opened on 16 November; the October airport figure seen in a search snippet is not verified.",
     "Seen only as headlines: Olhão teachers on Erasmus+ AI and VR training (Postal, 5 November), and CCDR items of 26 October (Matéria Adentro, POCTEP 2021-2027, citrus innovation).",
     "IPMA warnings for today could not be read: the ipma.pt warnings page the sub-agent tried returned a 404. Check ipma.pt directly. The CCDR notice of 11 November and its 24 November water conference were read from the list page only.",
-    "The Castro Marim dementia congress claim has now failed a second check: no official page shows it, and search found only the 2024 first edition. Treated as not true until a page we can open shows it."
+    "The Castro Marim dementia congress claim has now failed a second check: no official page shows it, and search found only the 2024 first edition. Treated as not true until a page we can open shows it.",
+    "algarve2030.gov.pt did not resolve from this session on 17 November, and ccdr-alg.pt had nothing dated 14 to 17 November. Seen only as headlines: ICCAT tuna meeting in Vilamoura (Barlavento), a housing march in Faro, a regional investment conference with 300 participants (Postal, 15 November), and national water-cut and E-REDES power-cut lists for 17 and 18 November (whether any of the five places is listed was not checked).",
+    "The UAlg page on its AI rules and principles is undated in the listing, so it is not used as news."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
@@ -907,6 +909,40 @@
       "ai_path": "no AI",
       "steps": 0,
       "blast_radius": "Andalusia (Huelva)"
+    },
+    {
+      "title": "IPMA has a yellow sea-agitation warning for the Algarve from 18 to 20 November",
+      "summary": "Valid from 12:00 on 18 November to 02:00 on 20 November: northwest swells of 4 to 5 m on the western coast. All other Faro-district warnings were green when read on 17 November. Read from IPMA's open-data feed, which was summarised by the fetch tool, not read raw.",
+      "date": "2026-11-17",
+      "publisher": "IPMA",
+      "url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
+      "read_on": "2026-11-17",
+      "significance": "region",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "the west coast first (Aljezur, Vila do Bispo, Lagos)"
+    },
+    {
+      "title": "AMAL holds its 100th training action of 2026",
+      "summary": "About 2,000 trainees this year, mostly staff of AMAL and the Algarve councils; about 25,000 trained since 2003. The page does not mention AI.",
+      "date": "2026-11-16",
+      "publisher": "AMAL",
+      "url": "https://amal.pt/amal-promove-a-centesima-acao-de-formacao-de-2026",
+      "read_on": "2026-11-17",
+      "significance": "region",
+      "ai_path": "no AI",
+      "steps": 0
+    },
+    {
+      "title": "The University of the Algarve relaunches Equipa UAlg with 81 school talks",
+      "summary": "81 free talks in 16 areas for basic and secondary pupils and teachers in 2026/27. The talk list was not seen, so any AI topics are unknown.",
+      "date": "2026-11-16",
+      "publisher": "Universidade do Algarve",
+      "url": "https://www.ualg.pt/equipa-ualg-renova-se-e-regressa-escolas-com-81-palestras",
+      "read_on": "2026-11-17",
+      "significance": "region",
+      "ai_path": "no AI",
+      "steps": 0
     }
   ],
   "contacts": [
@@ -917,6 +953,22 @@
       "source_url": "https://www.ccdr-alg.pt/site/info/instalacoes-e-contactos-0",
       "read_on": "2026-11-16",
       "channel": "Praça da Liberdade 2, 8000-164 Faro; +351 289 895 200; geral@ccdr-alg.pt"
+    },
+    {
+      "name": "AMAL (Algarve Intermunicipal Community), general office",
+      "what": "The intermunicipal community's published address, phone and email.",
+      "url": "https://amal.pt/amal-promove-a-centesima-acao-de-formacao-de-2026",
+      "source_url": "https://amal.pt/amal-promove-a-centesima-acao-de-formacao-de-2026",
+      "read_on": "2026-11-17",
+      "channel": "geral@amal.pt; (+351) 289 880 800; R. General Humberto Delgado 20, 8000-355 Faro"
+    },
+    {
+      "name": "Universidade do Algarve, general contact",
+      "what": "The university's published general email and phone.",
+      "url": "https://www.ualg.pt/equipa-ualg-renova-se-e-regressa-escolas-com-81-palestras",
+      "source_url": "https://www.ualg.pt/equipa-ualg-renova-se-e-regressa-escolas-com-81-palestras",
+      "read_on": "2026-11-17",
+      "channel": "info@ualg.pt; 289 800 100"
     }
   ]
 }

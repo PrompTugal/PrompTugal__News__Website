@@ -156,3 +156,11 @@ Checked and fine meanwhile: ScaleUp Porto's channel (the programme's email as pu
 | `work/place.algarve.central` | morning recheck: no new AI news, new gaps, files re-signed | **brought onto dev**: no contacts added, gate green |
 | Vicky's curator@ | S68, an update to S67 from the Center for Responsible AI chief executive's interview, on the curator's story board | read; a story idea, nothing to publish yet |
 | east, districts | nothing new | none |
+
+## The 08:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.east` | morning scan: ten more sourced items (Alcoutim's market, IPMA's sea warning, AMAL, Equipa UAlg, Castro Marim's Christmas programme, The Great World Race in Altura), two official contacts, files re-signed | **brought onto dev**: items dated and sourced, all "no AI", in local news; contacts are AMAL's and the University of the Algarve's own channels. AMAL's re-read at amal.pt, 17 November 2026: email and phone as given |
+| `work/place.districts` | wake 08:35, nothing new | **brought onto dev** |
+| west, central, partner desks | nothing new since 07:40 | none |
