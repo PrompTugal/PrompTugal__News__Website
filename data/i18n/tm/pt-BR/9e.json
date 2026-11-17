@@ -23,6 +23,14 @@
   "src": "A Loulé studio put a band's late member back on stage with a",
   "ok": false
  },
+ "9e48a07da96417ae": {
+  "t": "Um workshop do projeto Erasmus+ no UAlg TEC Campus reuniu profissionais de tecnologia e assistentes sociais em torno do uso responsável da IA; apresentou um quadro de competências e 48 recursos educacionais abertos.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "An Erasmus+ project workshop at UAlg TEC Campus brought tech",
+  "ok": false
+ },
  "9e5d7b58a61aea81": {
   "t": "PrompTugal.news Vila Real, a nossa cidade da serra: IA e tecnologia em Vila Real, com a UTAD como grande cérebro entre as colinas e o Regia Douro Park ao lado, mais as notícias que sobem o Marão vindas de Trás-os-Montes, de Portugal e do mundo. Independente, e cada fato vem com recibo.",
   "by": "translator@PrompTugal.dinis",

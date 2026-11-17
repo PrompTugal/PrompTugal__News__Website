@@ -3,6 +3,10 @@ title: "AMALIA and ANIA: what Portugal says about its own AI plans"
 date: 2026-11-16
 story: S64
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Portugal's government says its National AI Agenda (ANIA) has four areas and 32 initiatives. Separately, universities say they built AMALIA, the first large language model for European Portuguese, and released it free. Both give aims, not results."
 status: published
 categories: AI, Portugal

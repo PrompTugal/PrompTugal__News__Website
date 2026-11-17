@@ -3,6 +3,10 @@ title: "Angelo's communication graph: watch our agents talk"
 date: 2026-11-06
 story: T1
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Angelo's command centre draws the whole team and its AI agents as one map, and plays back every commit since 2 November. What you see in it, how to use its two views, and what it shows about how the agents work together."
 status: published
 beat: AI and robotics (the team's own work)

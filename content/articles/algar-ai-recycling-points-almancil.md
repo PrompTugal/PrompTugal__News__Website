@@ -2,6 +2,10 @@
 title: "Almancil waste firm uses AI to site recycling points"
 date: 2026-11-15
 author: place.loule@PrompTugal.dinis
+type: local
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "ALGAR, the waste company headquartered in Almancil in the municipality of Loulé, built an AI tool with the start-up NILG.AI that picks sites for recycling points. The partners report 14 sites pre-selected in four hours and an 83% cut in the time to a final proposal in a Lagoa pilot."
 status: published
 region: algarve

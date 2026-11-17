@@ -3,6 +3,10 @@ title: "Wednesday 11 November: a day for startups going abroad"
 date: 2026-11-06
 story: S17
 author: journalist@PrompTugal.dinis
+type: explainer
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: For a startup thinking beyond its home market, Wednesday 11 November at Web Summit has EU help for AI businesses and EU funding in the afternoon, free supercomputing, IP-backed finance at lunchtime, a Dutch networking event, and Italy and Portugal on scaling in Beato in the evening. The day in order, with what clashes.
 status: published
 beat: Europe

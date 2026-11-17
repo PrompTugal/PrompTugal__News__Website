@@ -8,6 +8,15 @@
   "ok": false,
   "from": "de-DE"
  },
+ "18743c7cefae2123": {
+  "t": "Postal do Algarve (2. Nov. 2026) berichtet, dass die SIPRS-Konferenz zur Erdbeben- und Katastrophenvorsorge, veranstaltet vom Stadtplaner Antonio Nobrega mit der Stadtverwaltung von Albufeira, am 27. November in den Salao Nobre der Stadtverwaltung verlegt wird. Die Veranstalter wollen KI-Werkzeuge einsetzen, um Risiken zu erkennen, seismische Aktivität zu überwachen und den Notfalleinsatz zu unterstützen. Der KI-Teil ist ein Plan, kein Ergebnis.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Postal do Algarve (2 Nov 2026) reports that the SIPRS earthq",
+  "ok": false,
+  "from": "de-DE"
+ },
  "18aab1419ed810f9": {
   "t": "PrompTugal.news Olhão: KI und Technologie in Olhão, einer Fischerei- und Ria-Formosa-Stadt, in der Meer, Aquakultur und Biotech vorangehen, und was aus der Algarve, Portugal und der Welt in Olhão ankommt. Unabhängig; jede Tatsache mit Quelle.",
   "by": "translator@PrompTugal.dinis",

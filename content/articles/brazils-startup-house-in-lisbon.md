@@ -3,6 +3,10 @@ title: "Brazil's startup house in Lisbon picks its second class"
 date: 2026-11-06
 story: BR2
 author: journalist@PrompTugal.dinis
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: "ApexBrasil and Sebrae run an incubator for Brazilian startups in ApexBrasil's Lisbon office. Its first ten were named at Web Summit 2025; the 20 of its 2027 class are due to be announced at the Brazil Pavilion on 10 November. How it works, who was in the first class, and what the second offers."
 status: published
 beat: Brazil

@@ -2,6 +2,10 @@
 title: "Road 2 Web Summit: Portugal's startups head for Lisbon"
 date: 2026-11-06
 author: journalist@PrompTugal.dinis
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: Startup Portugal and Web Summit run the eleventh Road 2 Web Summit, a programme that prepares up to 125 Portuguese startups for the summit, with a bootcamp, cheaper tickets, space on Portugal's stand and two prizes from Galp. Its winner is announced on 12 November.
 status: published
 story: S3

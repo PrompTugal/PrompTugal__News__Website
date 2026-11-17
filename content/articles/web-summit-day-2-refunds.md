@@ -3,6 +3,10 @@ title: "Web Summit's cancelled Day 2: what is known about refunds"
 date: 2026-11-10
 story: S45
 author: journalist@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Web Summit says Day 2, Wednesday 11 November, will not take place. As of 22:07 UTC on Tuesday, its public post announced no refunds, credits or compensation. Here is what its published terms say about cancellation, postponement and events beyond its control, quoted as published."
 status: published
 beat: The summit

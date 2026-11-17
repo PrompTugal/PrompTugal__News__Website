@@ -3,6 +3,10 @@ title: "Sports tech at Web Summit: IBM's startup challenge ends in Lisbon"
 date: 2026-11-09
 story: S33
 author: journalist@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "IBM's year-long challenge for sports tech startups ends at Web Summit Lisbon: a showcase of six startups on Tuesday 10 November, and an invitation-only prize challenge on Wednesday 11 November."
 status: published
 beat: The summit

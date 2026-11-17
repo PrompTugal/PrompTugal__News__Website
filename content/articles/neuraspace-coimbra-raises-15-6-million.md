@@ -3,6 +3,10 @@ title: "Neuraspace of Coimbra raises 15.6 million euros for AI space software"
 date: 2026-11-16
 story: S66
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Neuraspace, a Coimbra company that builds AI software to keep satellites from colliding, has secured 15.6 million euros from three private investors and Portugal's Recovery and Resilience Plan, according to AICEP and Tech.eu. The figures are the company's."
 status: published
 categories: AI, Portugal, Startups & Scaleups

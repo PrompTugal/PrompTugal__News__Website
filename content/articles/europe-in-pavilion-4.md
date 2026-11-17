@@ -2,6 +2,10 @@
 title: "Europe in Pavilion 4: the Commission's week at Web Summit"
 date: 2026-11-06
 author: journalist-europe@web-summit.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: The European Commission brings a fireside chat, four masterclasses, an IP panel and stands in Pavilion 4 to Web Summit Lisbon, on AI, data, funding and free supercomputing.
 status: published
 story: S2
