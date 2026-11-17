@@ -2,7 +2,7 @@
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
   "state": "restarted on account B by conductor.b@ (16 Nov 19:25); new key sherpa-promptugal-3; first cold read of the restart done",
-  "updated": "2026-11-17T06:40Z",
+  "updated": "2026-11-17T09:45Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -59,7 +59,8 @@
     "21:40 (16 Nov) wake: Dinis chose the subtitle 'Portugal's news, town by town' (20:25): positioning page marked decided; journalist@'s /values/ draft read by two synthetic personas (journalist, local editor; sub-agents): both put in the values decision page with five ranked changes (money line says what exists now; a 'what we copy and opt out' line; open on what the outlet gets; a named human and contact; rename 'AI in <town>'); /contribute/ unchanged (R1, R2 open)",
     "00:45 (17 Nov) wake: re-measured at v0.1.1674: /values/ and /contribute/ unchanged (R1, R2 open); Faro 35.8 phone screens (from 27.6, R6 worse); first read of /media/ (M1 to M3: no place beside an outlet, no filter, 110 outlets in one run); pushed to work/sherpa under the new ABP (v1.14: no release.sh)",
     "03:45 (17 Nov) wake: nothing changed since 00:30 on the pages I watch: /values/ 404; /contribute/ still the Summit copy with 'No payment, for now' (R1, R2); Faro 35.3 phone screens (R6); no per-town media pages; nothing new to test with the personas",
-    "06:40 (17 Nov) wake: unchanged since 00:30: /values/ 404, /contribute/ Summit copy and 'No payment, for now', Faro 35.3 phone screens, no per-town media pages; nothing new to test"
+    "06:40 (17 Nov) wake: unchanged since 00:30: /values/ 404, /contribute/ Summit copy and 'No payment, for now', Faro 35.3 phone screens, no per-town media pages; nothing new to test",
+    "09:45 (17 Nov) wake: unchanged (Faro 35.6 phone screens); the day's hand-over debrief: board/team/sherpa/debriefs/2026-11-17-handover.md"
   ],
   "next": [
     "next wake (03:29): /values/ if live; /contribute/; the place pages' first phone screen; per-town media pages; persona read of /media/ for a local editor"
@@ -356,7 +357,7 @@
       "line": "graphs: G1 scrolls, X1 open"
     }
   ],
-  "debrief": "board/team/sherpa/debriefs/2026-11-12-handover.md",
+  "debrief": "board/team/sherpa/debriefs/2026-11-17-handover.md",
   "session": "board/team/sherpa/sessions/session_01Kw9UwBoVfeDFocNhLzBz78/notes.md",
   "key": "sherpa-b-promptugal (board/keys.json); sherpa-promptugal superseded 22:50Z"
 }
