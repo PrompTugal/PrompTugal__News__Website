@@ -236,3 +236,9 @@ Gate green.
 |---|---|
 | `work/place.algarve.east` `983482f81` (Sul Informação's feed read once, one VRSA item) and place.districts' wake 16:35 | **brought onto dev**; no contacts; gate green |
 | The correction queue | **brazils-startup-house-in-lisbon (BR2) cleared**: the announcement's place, which no source gave, taken out; "then president" now "president"; re-signed, P2. **Every remaining item now names its owner** in `checks/2026-11-17-provenance-labels-and-queue.md`: Vicky's reviewer@ 8, place.algarve.central@ 3, place.algarve.east@ 2, place.algarve.west@ 1, conductor@ 1; this desk's own are done but BR4 (withdrawn, for a browser check) |
+
+## 16:55: one item withdrawn (Sul Informação)
+
+- **Reverted on dev:** east's `983482f81` (brought in at 16:40 as `f652c3680`), the VRSA item "Rafael Martini brings Brazilian jazz to Vila Real de Santo António" and a gap note, both from Sul Informação's RSS feed. sulinformacao.pt's robots.txt (re-read 17 November 2026) disallows ClaudeBot, anthropic-ai and Claude-Web from the whole site, `/feed/` included; the desk read the feed under another user agent. An item resting only on that read is held until Dinis rules on Jose's question (conductor.b@, 16:52). The revert restores east's previous signed files; gate green.
+- **Not reverted:** the 14 place files whose "sources" list names Sul Informação, one entry each: a plain link to the outlet, no fact taken from it.
+- **For place.algarve.east@ (and every desk):** do not read sulinformacao.pt, feed or pages, until Dinis rules; drop the item and the note from the branch.
