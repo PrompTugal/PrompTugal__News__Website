@@ -62,7 +62,10 @@ function makeIndex(ctx) {
         // (dev@PrompTugal.dinis, 16 November 2026: it-IT took it to 415 KB). A culture's own index can come later.
         if (p.lang && !/^en(-|$)/i.test(p.lang)) continue
         const m = ENTITY.exec(p.rel)
-        const type = m ? TYPE_OF_PLURAL[m[1]] : (p.type === 'article' ? 'article' : p.rel.startsWith('newsroom/') ? 'newsroom' : 'site')
+        // a place's own page is a place; its machine views (the data, the API, the decks, the provenance, the agents' proof)
+        // rank below it as 'data' (dev@, 17 November 2026: "sao bras" found four data views before the town's page)
+        const dataView = /^query\//.test(p.rel) || /\/api\/index\.html$/.test(p.rel) || /^agentic-system\/(proof|agents)\//.test(p.rel)
+        const type = m ? TYPE_OF_PLURAL[m[1]] : (p.type === 'article' ? 'article' : dataView ? 'data' : p.type === 'place' ? 'place' : p.rel.startsWith('newsroom/') ? 'newsroom' : 'site')
         const x = m ? byRef.get(`${type}:${m[2]}`) : null
         const row = { id: x ? `${type}:${x.id}` : `page:${p.rel}`, type, title: p.title, url: p.rel, summary: '', facets: {}, extra: {}, fields: { title: p.title } }
         if (x && type === 'company') {
@@ -112,7 +115,7 @@ function makeIndex(ctx) {
         for (const k of Object.keys(row.extra)) if (row.extra[k] === undefined) delete row.extra[k]
         rows.push(row)
     }
-    const ix = S.buildIndex(rows, { synonyms: SYNONYMS })
+    const ix = S.buildIndex(rows, { synonyms: SYNONYMS, maxShardBytes: 20 * 1024 })   // a shard over 20 KB splits by a third letter, so a two-word query stays under 40 KB
     const types = {}
     for (const r of rows) types[r.type] = (types[r.type] || 0) + 1
     const countries = [...new Set(rows.map(r => r.facets.c).filter(Boolean))].sort()
@@ -182,10 +185,10 @@ export function validate(gate) {
     for (const want of ['company:1password', 'topic:security']) {
         if (!ids.includes(want)) continue
         const title = docs.docs[ids.indexOf(want)][2]
-        const t = S.terms(title)[0], sh = gate.json(`api/v1/search/terms/${S.shardOf(t)}.json`)
+        const t = S.terms(title)[0], key = S.keyFor(t, new Set(docs.shards)), sh = gate.json(`api/v1/search/terms/${key}.json`)
         const list = sh.t[t] || []
         let found = false
-        for (let j = 0; j < list.length; j += 2) { if (list[j] >= docs.docs.length) { out.push(`shard ${S.shardOf(t)}: posting to row ${list[j]}, past the end`); break } if (docs.docs[list[j]][0] === want) found = true }
+        for (let j = 0; j < list.length; j += 2) { if (list[j] >= docs.docs.length) { out.push(`shard ${key}: posting to row ${list[j]}, past the end`); break } if (docs.docs[list[j]][0] === want) found = true }
         if (!found) out.push(`${want} is not found by its own title word "${t}"`)
     }
     // the summaries file lines up with the rows (one per row, same order)

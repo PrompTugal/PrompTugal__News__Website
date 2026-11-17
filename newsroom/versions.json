@@ -1,5 +1,75 @@
 [
   {
+    "version": "v0.1.1751",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 21:48 wake: ledger 2150Z; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "e5d4cbd91"
+  },
+  {
+    "version": "v0.1.1750",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: Vicky's S69 checked and given its provenance labels (news, P2)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "1b108d14b"
+  },
+  {
+    "version": "v0.1.1749",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: 21:09 wake: search shards; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "1d86205d1"
+  },
+  {
+    "version": "v0.1.1748",
+    "date": "2026-11-17",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "b11d97f93"
+  },
+  {
+    "version": "v0.1.1747",
+    "date": "2026-11-17",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "037ed64e4"
+  },
+  {
+    "version": "v0.1.1746",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 20:40 wake: districts' quiet wake brought onto dev; run report",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "e1c6844fe"
+  },
+  {
+    "version": "v0.1.1745",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 20:05 wake: 27 commits clean; 'Since your last visit' keeps the profile in the browser",
+    "by": "security@PrompTugal.dinis",
+    "from": "5599028e8"
+  },
+  {
+    "version": "v0.1.1744",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 19:48 wake: a quiet evening; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "c09b30e2f"
+  },
+  {
+    "version": "v0.1.1743",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 19:40 wake: nothing new from any desk; run report only",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "765983791"
+  },
+  {
+    "version": "v0.1.1742",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 18:48 wake: ledger 1851Z; observability restarted elsewhere, ask withdrawn",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "5ce0788f5"
+  },
+  {
     "version": "v0.1.1741",
     "date": "2026-11-17",
     "what": "outreach@PrompTugal.dinis: five more first-contact drafts, 92 in all; every outlet with a contact page and feed has one",

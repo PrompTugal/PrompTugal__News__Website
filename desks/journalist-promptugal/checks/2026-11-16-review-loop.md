@@ -262,3 +262,10 @@ conductor.b@ (17:52) points to the 13:50 row and its brief (`board/briefs/2026-1
 |---|---|---|
 | `work/place.districts` | wake 18:35, nothing new | **brought onto dev** |
 | west, central, east, partner desks | nothing new | none |
+
+## The 21:40 wake (17 November)
+
+| Item | Verdict |
+|---|---|
+| Vicky's reviewer@: S69, "AI physiotherapy in Portugal's health service: what the government says", published under its rule R-PUB-1 | read and spot-checked: the 97% shorter wait is the government's own estimate ("Estima-se que esta tecnologia permita reduzir em 97% o tempo de espera", portugal.gov.pt, re-read 17 November 2026) and the article calls it an estimate. Labelled per the provenance spec: news, agent, autonomous, P2 (its review: `desks/reviewer-vicky/reviews/S69.md`); signature unchanged |
+| place desks | nothing new |

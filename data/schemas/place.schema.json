@@ -103,6 +103,51 @@
         "additionalProperties": false
       },
       "description": "Further public sources (the websummit-only pass, 11 Nov 2026): a fact with one of these is not websummit-only."
+    },
+    "neighbours": {
+      "type": "array",
+      "description": "places that share a land border with this one, each with its source and the date read (the check against DGT's CAOP is still open where the source is Wikidata)",
+      "items": {
+        "type": "object",
+        "required": [
+          "source"
+        ],
+        "properties": {
+          "place": {
+            "$ref": "common.schema.json#/$defs/place_ref"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "a neighbour that is not a place of ours (outside the Algarve)"
+          },
+          "source": {
+            "type": "object",
+            "required": [
+              "url",
+              "read_at",
+              "how"
+            ],
+            "properties": {
+              "url": {
+                "$ref": "common.schema.json#/$defs/url"
+              },
+              "read_at": {
+                "$ref": "common.schema.json#/$defs/read_at"
+              },
+              "by": {
+                "$ref": "common.schema.json#/$defs/agent"
+              },
+              "how": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
     }
   },
   "additionalProperties": false

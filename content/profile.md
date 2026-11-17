@@ -3,6 +3,15 @@ title: Your profile
 path: profile/index.html
 summary: "What this browser has read and searched on PrompTugal.news, shown to you as your own observability. It lives in your browser only; nothing is sent anywhere."
 ---
+## Since your last visit {#since}
+
+What is new in your place, your region and the country since you were last here, worked out in this browser from your own reading record. Nothing is sent.
+
+::: pt-since
+:::
+
+## Your reading {#reading}
+
 ::: pt-profile
 :::
 
