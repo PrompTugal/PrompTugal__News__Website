@@ -7,7 +7,7 @@
   "names_as_listed": [
     "Notícias de Vila Real"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: owner. ficha técnica content not captured. people. public contact address.",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: owner. ficha técnica content not captured. people. public contact address.  amendment: owner, people and public contact now filled from the ficha técnica; a telephone number printed there is not recorded.",
   "media": {
     "outlet_kind": "regional-newspaper",
     "places_covered": [
@@ -17,6 +17,14 @@
       "pt"
     ],
     "website": "https://noticiasdevilareal.sapo.pt/",
+    "owner": {
+      "name": "Maronesa, Comunicação Social, Lda",
+      "source": {
+        "url": "https://noticiasdevilareal.sapo.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
     "feeds": [
       {
         "url": "https://noticiasdevilareal.sapo.pt/feed/",
@@ -36,6 +44,35 @@
         "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
       }
     },
+    "people": [
+      {
+        "name": "Luís Mendonça",
+        "role": "Diretor (CP 1407 A)",
+        "source": {
+          "url": "https://noticiasdevilareal.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Ribeiro Aires",
+        "role": "Redação (CO-1438)",
+        "source": {
+          "url": "https://noticiasdevilareal.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Carlos Pereira Cardoso",
+        "role": "Redação (TP-1506)",
+        "source": {
+          "url": "https://noticiasdevilareal.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
     "sources": [
       {
         "url": "https://noticiasdevilareal.sapo.pt/contactos/",
@@ -46,6 +83,11 @@
         "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
         "read_at": "2026-11-16",
         "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 122485 for 'Notícias de Vila Real'. Outlet email column deliberately not recorded here."
+      },
+      {
+        "url": "https://noticiasdevilareal.sapo.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "Ficha técnica: director, newsroom, owner Maronesa, Comunicação Social, Lda; ERC no. 122485; circulation 1,500; registered address Largo do Pioledo, Centro Comercial D. Dinis, loja 4, Vila Real. Generic address noticiasdevilarealsapo.pt, Largo do Pioledo, as published by the outlet."
       }
     ]
   },
@@ -60,6 +102,12 @@
       "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
       "read_at": "2026-11-16",
       "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 122485 for 'Notícias de Vila Real'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://noticiasdevilareal.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "Ficha técnica: director, newsroom, owner Maronesa, Comunicação Social, Lda; ERC no. 122485; circulation 1,500; registered address Largo do Pioledo, Centro Comercial D. Dinis, loja 4, Vila Real. Generic address noticiasdevilarealsapo.pt, Largo do Pioledo, as published by the outlet.",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]

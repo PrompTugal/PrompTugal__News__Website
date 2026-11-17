@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "perspetiva",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Perspetiva",
+  "names_as_listed": [
+    "Perspetiva"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: contact page not located. beats not stated.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:evora"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.perspetiva.com/",
+    "owner": {
+      "name": "Perspetiva Produções, Lda (Ana Martins 50%, Sónia Rodrigues 50%)",
+      "source": {
+        "url": "https://www.perspetiva.com/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.perspetiva.com/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://www.perspetiva.com/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml; charset=UTF-8, RSS 2.0 body"
+        }
+      }
+    ],
+    "people": [
+      {
+        "name": "Ana Martins",
+        "role": "Direção e Edição",
+        "source": {
+          "url": "https://www.perspetiva.com/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Sónia Rodrigues",
+        "role": "Direção de Marketing",
+        "source": {
+          "url": "https://www.perspetiva.com/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Abel Dias",
+        "role": "Colaborador",
+        "source": {
+          "url": "https://www.perspetiva.com/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Carla Fernandes",
+        "role": "Colaborador",
+        "source": {
+          "url": "https://www.perspetiva.com/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Cláudio Ramos",
+        "role": "Colaborador",
+        "source": {
+          "url": "https://www.perspetiva.com/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Daniel Lérias",
+        "role": "Colaborador",
+        "source": {
+          "url": "https://www.perspetiva.com/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "João Carvalho",
+        "role": "Colaborador",
+        "source": {
+          "url": "https://www.perspetiva.com/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Susana Muralhas",
+        "role": "Colaborador",
+        "source": {
+          "url": "https://www.perspetiva.com/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.perspetiva.com/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "Ficha técnica (ERC 126700)."
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126700 for 'Perspetiva'. Outlet email column deliberately not recorded here."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.perspetiva.com/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "how": "Ficha técnica (ERC 126700).",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126700 for 'Perspetiva'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

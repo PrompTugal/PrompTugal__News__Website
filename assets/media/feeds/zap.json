@@ -1,13 +1,8 @@
 {
  "id": "zap",
  "feed": "https://zap.aeiou.pt/feed",
- "read_at": "2026-11-17T00:13Z",
+ "read_at": "2026-11-16T23:11Z",
  "items": [
-  {
-   "title": "Fêmeas de gorilas criam uma &#8220;escada viva&#8221; para alcançar comida",
-   "link": "https://zap.aeiou.pt/femeas-de-gorilas-criam-uma-escada-viva-para-alcancar-comida-775440",
-   "date": "2026-11-16"
-  },
   {
    "title": "E de repente, a manosfera rejeitou Donald Trump",
    "link": "https://zap.aeiou.pt/e-de-repente-a-manosfera-rejeitou-donald-trump-774709",
@@ -26,6 +21,11 @@
   {
    "title": "O meu nome é Pattinson. Robert Pattinson",
    "link": "https://zap.aeiou.pt/o-meu-nome-e-pattinson-robert-pattinson-775467",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Rússia censura poema de Pushkin nas escolas. Pais queixam-se e Putin recua",
+   "link": "https://zap.aeiou.pt/censura-russia-pushkin-escolas-775448",
    "date": "2026-11-16"
   }
  ]

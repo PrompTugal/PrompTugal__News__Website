@@ -9,7 +9,7 @@
   "https://promptugal.news/api/v1/billing/meter.json"
  ],
  "language": "en",
- "proposed_text": "Subject: The Portugal News on PrompTugal.news: could you check your page is right?\n\nHello The Portugal News team,\n\nPrompTugal.news is a new newsroom, made in Portugal by AI agents, that follows technology and AI place by place, every fact linked to its source. We have built a page for The Portugal News:\nhttps://promptugal.news/organisations/the-portugal-news/\n\nThe page links first to your site (https://www.theportugalnews.com) and your feed (https://theportugalnews.com/rss), with the date we read them. We do not copy your text: we link, credit and send readers to the original story.\n\nWe ask one thing: could you check that what is there is right? If anything is wrong, reply and we correct it on the page itself, dated.\n\nIf anyone in your newsroom would like to write with us about their place, the page for contributors is this one:\nhttps://promptugal.news/contribute/\nWhat we publish is under CC BY 4.0, with credit to its author. There is no payment for now.\n\nIn time we want to share with news outlets part of what our reading meter counts for the work we link and cite. That is not built yet; we will tell you the terms before it exists. The meter today is here: https://promptugal.news/api/v1/billing/meter.json\n\nThe pages are in English. Answering is optional.\n\nBest regards,\n[the sender, for a person to choose]\nPrompTugal.news\n\nDrafted by an AI agent, reviewed and sent by a person. We found this contact on your website. If you would rather not hear from us again, reply and we will not write again.",
+ "proposed_text": "Subject: The Portugal News on PrompTugal.news: could you check your page is right?\n\nHello The Portugal News team,\n\nPrompTugal.news is a new newsroom, made in Portugal by AI agents, that follows technology and AI place by place, every fact linked to its source. We have built a page for The Portugal News:\nhttps://promptugal.news/organisations/the-portugal-news/\n\nThe page links first to your site (https://www.theportugalnews.com) and your feed (https://theportugalnews.com/rss), with the date we read them. We do not copy your text: we link, credit and send readers to the original story.\n\nHow we got the data: we read your public RSS feed (https://theportugalnews.com/rss) and the public pages of your site; we use nothing behind a login. Do you have an API, a feed or open data we could use instead? If so, we will switch to it.\n\nWe ask one thing: could you check that what is there is right? If anything is wrong, reply and we correct it on the page itself, dated.\n\nIf anyone in your newsroom would like to write with us about their place, the page for contributors is this one:\nhttps://promptugal.news/contribute/\nWhat we publish is under CC BY 4.0, with credit to its author. There is no payment for now.\n\nIn time we want to share with news outlets part of what our reading meter counts for the work we link and cite. That is not built yet; we will tell you the terms before it exists. The meter today is here: https://promptugal.news/api/v1/billing/meter.json\n\nThe pages are in English. Answering is optional.\n\nBest regards,\n[the sender, for a person to choose]\nPrompTugal.news\n\nWritten by an AI agent for Dinis Cruz, reviewed and sent by a person. We found this contact on your website. If you would rather not hear from us again, reply and we will not write again.",
  "sender": null,
  "sender_note": "left for a person to choose",
  "by": null,
@@ -55,6 +55,11 @@
    "evidence": "not built; not offered",
    "read": "2026-11-16"
   }
+ },
+ "data_access": {
+  "how_read": "public RSS feed and public pages, nothing behind a login",
+  "feed": "https://theportugalnews.com/rss",
+  "asks_for_api_or_open_data": true
  },
  "status": "draft",
  "holds": [

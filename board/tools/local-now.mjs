@@ -39,7 +39,8 @@ for (const id of Object.keys(FORECAST)) daily[id] = await get(`city-daily-${id}`
 const rcm = [await get('fire-risk-d0', IPMA + 'forecast/meteorology/rcm/rcm-d0.json'), await get('fire-risk-d1', IPMA + 'forecast/meteorology/rcm/rcm-d1.json'), await get('fire-risk-d2', IPMA + 'forecast/meteorology/rcm/rcm-d2.json')]
 const uv = await get('uv', IPMA + 'forecast/meteorology/uv/uv.json')
 const sea = await get('sea-forecast-d0', IPMA + 'forecast/oceanography/daily/hp-daily-sea-forecast-day0.json')
-const adsb = await get('adsb', `https://api.adsb.lol/v2/point/${LPFR.lat}/${LPFR.lon}/${LPFR.nm}`)
+let adsb = null   // three tries with a short backoff (10 to 30 s): adsb.lol resets connections now and then
+for (let i = 0; i < 3 && !adsb; i++) { if (i) await sleep(10000 * i); adsb = await get('adsb', `https://api.adsb.lol/v2/point/${LPFR.lat}/${LPFR.lon}/${LPFR.nm}`) }
 
 const num = v => (v === undefined || v === null || v === '' || +v === -99) ? null : +v
 const lastObs = obs ? Object.keys(obs).sort().pop() : null
@@ -62,6 +63,9 @@ if (adsb) {
     airport = { icao: 'LPFR', name: 'Faro airport', within_nm: LPFR.nm, at: read.adsb.at, airline, other_aircraft: others.count, page: PAGE.airport, source: 'https://api.adsb.lol/', note: 'What adsb.lol\'s community receivers saw within 40 nautical miles at the time read. Airline flights by callsign; other aircraft only counted.' }
 }
 
+// when adsb.lol still fails, keep the last airport read with its own read time (marked stale), never drop it
+if (!airport) { try { const prev = JSON.parse(fs.readFileSync(path.join(OUT, 'faro.json'), 'utf8')).airport
+    if (prev && prev.at) airport = { ...prev, stale: true, stale_note: 'adsb.lol could not be read this hour; this is the last read, at the time shown.' } } catch {} }
 fs.mkdirSync(OUT, { recursive: true })
 const written = []
 for (const m of MAP) {

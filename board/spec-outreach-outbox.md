@@ -30,8 +30,13 @@ people outside, then a batch; later, automation for what Dinis signs off.
 - Contacts only as published on a public website (above all an official one), with the page and the date read in `meta.json`.
 - Facts only from the site's own sourced pages, each linked. No claim for RiskMandate beyond riskmandate.ai.
 - Every email opens like a normal text email (greeting, a few plain paragraphs, sign-off), which reads well in previews; the designed HTML part (screenshots, headings, button) comes after (Dinis, 16 November 2026, from the RiskMandate agent mailbox's sends).
+- Every first-contact email says how we got the data: which of the place's sources come through a feed and which by scraping public pages, and how the organisation's own site is read today. It asks whether they have an API, an RSS feed or open data we can use instead (Dinis, 17 November 2026). The CRM records it per contact (`data_access`).
 - Every email says it was written by an AI agent for Dinis Cruz. No em-dashes.
 - Nothing is sent that is not `approved`. Later automation (rules Dinis signs) is a decision page first.
+
+## The review app
+
+The vault opens into `index.html` (`app.json`): the emails by status, each as it will look with its pictures, its plain text, the address and the page it came from; Approve, Needs changes, Reject with a note, saved to `meta.json` and `crm/contacts.json`. The first batch: 16 Algarve organisations from the place files' public contacts, 9 with the address read from their own page, 7 waiting for Dinis to copy it from a page that blocks automated reading.
 
 ## Order
 

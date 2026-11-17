@@ -1,0 +1,77 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "o-digital",
+  "type": "organisation",
+  "kind": "media",
+  "name": "ODigital",
+  "names_as_listed": [
+    "ODigital"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: ficha técnica and contact page not located on the site. journalists: byline 'Hugo Calado' and 'Redacção' seen on the home page, no ficha técnica.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:evora"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://odigital.sapo.pt/",
+    "owner": {
+      "name": "Calado Comunicação, Unipessoal, Lda (editor Hugo Miguel Ramalho Calado, per ERC)",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://odigital.sapo.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://odigital.sapo.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml, RSS 2.0 body"
+        }
+      }
+    ],
+    "people": [
+      {
+        "name": "Hugo Miguel Ramalho Calado",
+        "role": "Diretor and editor, as registered with ERC",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://odigital.sapo.pt/",
+        "read_at": "2026-11-16",
+        "how": "Home page and section menu."
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127226 for 'O Digital'. Outlet email column deliberately not recorded here."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://odigital.sapo.pt/",
+      "read_at": "2026-11-16",
+      "how": "Home page and section menu.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127226 for 'O Digital'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

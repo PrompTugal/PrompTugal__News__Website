@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "pcguia",
+  "type": "organisation",
+  "kind": "media",
+  "name": "PCGuia",
+  "names_as_listed": [
+    "PCGuia",
+    "PC Guia"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Individual staff email addresses are published on the contacts page; personal contact published, not recorded. General phone and commercial department not recorded.",
+  "media": {
+    "outlet_kind": "magazine",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.pcguia.pt/",
+    "owner": {
+      "name": "Fidemo - Soc. de Media Lda.",
+      "source": {
+        "url": "https://www.pcguia.pt/contactos/",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.pcguia.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://www.pcguia.pt/feed/",
+          "read_at": "2026-11-17",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml, RSS 2.0 body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.pcguia.pt/contactos/",
+      "source": {
+        "url": "https://www.pcguia.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Pedro Tróia",
+        "role": "Director",
+        "source": {
+          "url": "https://www.pcguia.pt/contactos/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Ricardo Durand",
+        "role": "Editor",
+        "source": {
+          "url": "https://www.pcguia.pt/contactos/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Mafalda Freire",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.pcguia.pt/contactos/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Vasco Manuel Taveira",
+        "role": "Director-Geral",
+        "source": {
+          "url": "https://www.pcguia.pt/contactos/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.pcguia.pt/contactos/",
+        "read_at": "2026-11-17",
+        "how": "Contacts page, also prints the masthead and 'Nº registo E.R.C. 119 452'."
+      },
+      {
+        "url": "https://www.pcguia.pt/estatuto-editorial/",
+        "read_at": "2026-11-17",
+        "how": "Editorial statute: monthly paper and online publication on ICT."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.pcguia.pt/contactos/",
+      "read_at": "2026-11-17",
+      "how": "Contacts page, also prints the masthead and 'Nº registo E.R.C. 119 452'.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.pcguia.pt/estatuto-editorial/",
+      "read_at": "2026-11-17",
+      "how": "Editorial statute: monthly paper and online publication on ICT.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}
