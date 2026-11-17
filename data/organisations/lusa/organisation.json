@@ -7,7 +7,7 @@
   "names_as_listed": [
     "Lusa - Agência de Notícias de Portugal"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Owner, masthead, public contact and feed not extracted. Feed not verified. Lusa's tech/innovation reporters not named on the pages fetched (lusa.pt home); no byline desk page found. (read ).",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Owner, masthead, public contact and feed not extracted. Feed not verified. Lusa's tech/innovation reporters not named on the pages fetched (lusa.pt home); no byline desk page found. (read ). Lusa direction is in dispute as of mid-Nov 2026 (previous director Luísa Meireles left 12 Oct 2026): re-check before use; reporter beats not found ().",
   "media": {
     "outlet_kind": "agency",
     "places_covered": [
@@ -25,6 +25,38 @@
         "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
       }
     },
+    "people": [
+      {
+        "name": "Joaquim Carreira",
+        "role": "President of the board (per Wikipedia)",
+        "source": {
+          "url": "https://pt.wikipedia.org/wiki/Ag%C3%AAncia_Lusa",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "agency management"
+      },
+      {
+        "name": "Diana Ramos",
+        "role": "Director of Information invited by the board on 30 Oct 2026 (press reports; appointment disputed, status unconfirmed)",
+        "source": {
+          "url": "https://www.sabado.pt/dinheiro/amp/conselho-de-administracao-da-lusa-convida-diana-ramos-para-diretora-de-informacao",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news direction"
+      },
+      {
+        "name": "Pedro Sousa Carvalho",
+        "role": "Interim director of information named 6 Nov 2026 (press reports; status unconfirmed)",
+        "source": {
+          "url": "https://www.noticiasaominuto.com/pais/3080068/cr-da-lusa-acusa-administracao-de-total-desgoverno",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news direction"
+      }
+    ],
     "sources": [
       {
         "url": "https://www.lusa.pt",

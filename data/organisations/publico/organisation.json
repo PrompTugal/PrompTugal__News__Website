@@ -7,7 +7,7 @@
   "names_as_listed": [
     "PÚBLICO"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Tech section (Enter) editor and bylines not read. ERC register not consulted. Personal-format addresses, if any, not recorded. PÚBLICO's tech desk composition (editor, Ciência/Digital reporters) not published on a ficha page found in this pass; only bylines seen on /tecnologia named.",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Tech section (Enter) editor and bylines not read. Personal-format addresses, if any, not recorded. PÚBLICO's tech desk composition (editor, Ciência/Digital reporters) not published on a ficha page found in this pass; only bylines seen on /tecnologia named. PÚBLICO ficha técnica (/nos/ficha-tecnica) not readable from this environment: Enter/tech editor and reporters still unknown ().",
   "media": {
     "outlet_kind": "newspaper",
     "places_covered": [
@@ -73,6 +73,46 @@
           "how": "named by the outlet itself on this page"
         },
         "beat": "technology (Público Enter section)"
+      },
+      {
+        "name": "Marta Moitinho Oliveira",
+        "role": "Deputy director (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "Pedro Candeias",
+        "role": "Deputy director (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "Sónia Sapage",
+        "role": "Deputy director (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "Tiago Luz Pedro",
+        "role": "Deputy director (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
       }
     ],
     "sources": [

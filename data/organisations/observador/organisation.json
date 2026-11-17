@@ -7,7 +7,7 @@
   "names_as_listed": [
     "Observador"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Public editorial address not extracted from contacts page. Lisbon AI Week listed in the site menu, not investigated. Observador Tech desk editor not named on any page read; bylines only.",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Public editorial address not extracted from contacts page. Lisbon AI Week listed in the site menu, not investigated. Observador Tech desk editor not named on any page read; bylines only. Observador /tecnologia page names no staff bylines (only opinion pieces); no tech reporter identified ().",
   "media": {
     "outlet_kind": "online",
     "places_covered": [
@@ -110,6 +110,36 @@
           "how": "named by the outlet itself on this page"
         },
         "beat": "technology (Nvidia/Megaspeed, Microsoft outage coverage)"
+      },
+      {
+        "name": "Miguel Ângelo Montes Terra Pinheiro",
+        "role": "Director (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "Ricardo Conceição",
+        "role": "Subdirector (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "João Santos Duarte",
+        "role": "Subdirector (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
       }
     ],
     "sources": [

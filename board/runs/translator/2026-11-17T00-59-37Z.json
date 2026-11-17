@@ -1,0 +1,141 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "translator@PrompTugal.dinis",
+ "run": "2026-11-17T00-59-37Z",
+ "started": "2026-11-17T00:59:37.589Z",
+ "ended": "2026-11-17T04:00:06Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-17T03:58:11.183Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T03:58:54.679Z",
+   "chars": 600,
+   "sha256": "230348a7f99522f1",
+   "head": "<agent-message from=\"a608d5b714596c96d\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-17T03:58:54.738Z",
+   "chars": 605,
+   "sha256": "1f1e2adeea004e33",
+   "head": "<agent-message from=\"ac6278c85853d7522\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-17T03:58:54.786Z",
+   "chars": 610,
+   "sha256": "b3dc6655820ce28a",
+   "head": "<agent-message from=\"a583a38d1b5ebd1dc\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-17T03:58:57.159Z",
+   "chars": 617,
+   "sha256": "d5ec9f0ba37fd78d",
+   "head": "<agent-message from=\"ace9b5739377e3c41\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-17T03:58:57.200Z",
+   "chars": 619,
+   "sha256": "c60ef754ac8e7888",
+   "head": "<agent-message from=\"a140b635bf206ebd5\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-17T03:58:57.240Z",
+   "chars": 625,
+   "sha256": "e0f3beaffdaa203e",
+   "head": "<agent-message from=\"aa30adb90a3164e84\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-17T03:58:57.290Z",
+   "chars": 610,
+   "sha256": "d1330b86133d60b6",
+   "head": "<agent-message from=\"aedbb877338159976\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-17T03:58:11.000Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 38,
+  "by_kind": {
+   "git-push": 2,
+   "other": 2,
+   "git": 1,
+   "shell": 19,
+   "agent": 14
+  }
+ },
+ "policies_executed": {
+  "R5": 2
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 36,
+  "commits": [
+   {
+    "sha": "8e8858887",
+    "subject": "translator@PrompTugal.dinis: 2 new segments in seven cultures and four derived (868 each), debrief, status, run report",
+    "files": 25
+   },
+   {
+    "sha": "8dbab1db6",
+    "subject": "translator@PrompTugal.dinis: 2 new segments in seven cultures and four derived (868 each), debrief, status, run report",
+    "files": 25
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-17T00:59:37.589Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/translator: push to dev only",
+    "target": "git add -A board data && git commit -q -m \"translator@PrompTugal.dinis: 2 new segments in seven cultures and four derived (868 each), debrief, status, run report\n\nAgent: translator@PrompTugal.dinis\nIssue: WS-177\nFor: dev@PrompTugal.dinis\n\nC"
+   },
+   {
+    "t": "2026-11-17T03:58:47.951Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/translator: push to dev only",
+    "target": "git status -sb | head -3; git push -q origin work/translator 2>&1 | tail -2; git status -sb | head -1"
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 8,
+  "tool_calls": 38,
+  "in_mandate": 36,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 0
+ }
+}

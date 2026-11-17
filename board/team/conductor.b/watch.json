@@ -684,6 +684,16 @@
       "at": "2026-11-17T02:52Z",
       "by": "conductor.b@PrompTugal.dinis",
       "note": "hour 7, night: live v0.1.1684. place.districts@ third pass for Guarda, Braganca, Vila Real and two more, brought by journalist@; ontologist@ 138 outlets (capital-city radio); security@ 38 commits clean, S43 recurred: nine district site key ids doubled in keys.json (superseded + active under one id): place.districts@ asked to use suffixed ids and re-sign. Quiet wakes with no commit: sherpa, librarian, correspondent (nothing new overnight). Live data 01:17 on dev."
+    },
+    {
+      "at": "2026-11-17T03:52Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 8 (ledger): 19 sessions 111.96 USD API-equivalent (+23.92 in 3h); live v0.1.1687. S43 fixed: place.districts@ gave nine site keys unique -2 ids, journalist@ brought it (0 duplicate ids). outreach@ 25 drafts; dev@ search index 333 to 214 KB; dev.places@ derived translation queue per culture. Live data 02:17 on dev."
+    },
+    {
+      "at": "2026-11-17T04:53Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 9: live v0.1.1692. place.districts@ third pass for Setubal, Beja, Castelo Branco, Portalegre, Evora (+1), brought by journalist@; ontologist@ 177 outlets (41 regional periodicals, people depth); dev@ the gate checks all 106 outgoing feeds; dev.places@ translatable town headings; designer.places@ 'Show all' in the page's language. Correction: S43 is half fixed (security@ 04:05): four public bundles overwritten 16 Nov 19:31 still missing; routed to place.districts@ (3) and researcher@ (1). Live data 03:17 on dev."
     }
   ]
 }
