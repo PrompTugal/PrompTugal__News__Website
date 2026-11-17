@@ -52,3 +52,21 @@ Two browsers on one laptop can then be tested up to the hello. The send and the 
 2. Add `/account/pair.html` behind the "You" pane, with a test in `newsroom/tests/pair.test.mjs` that parses offers, refuses expired, replayed and mismatched ones, and round-trips the seal and signature.
 3. security@'s pass, then the link from the "You" pane.
 4. The lane send and the reply, once the access key exists.
+
+## security@ pre-review (17 November 2026, 12:10 UTC)
+
+**Go for step 1 as scoped:** the device key, the offer, the checks and a dry run, with nothing sent. It goes under conditions P1 to P8:
+- **P1:** a 6-digit match code from SHA-256(nonce, fpA, fpB), confirmed on both screens. Not fingerprint prefixes, which can be ground.
+- **P2:** the first hello wins and closes the offer.
+- **P3:** the fragment is cleared once read.
+- **P4:** no obs.js or other location readers on the pairing pages, plus a meta CSP.
+- **P5:** the offer holds only the spec's fields.
+- **P6:** the gate checks the vendor pins.
+- **P7:** signature, fingerprint, nonce and expiry are checked before acting.
+- **P8:** the tests.
+
+**Before steps 4 and 5** (the hello sent, the vault and access keys passed on):
+- **P9:** the account and pairing pages on their own origin, or proof that every outside string on promptugal.news is escaped.
+- **P10:** keys sent only after P1's confirmation, sealed and signed.
+
+In full: `board/team/security/reviews/2026-11-17-1210-prereview-pairing-step-1.md`.

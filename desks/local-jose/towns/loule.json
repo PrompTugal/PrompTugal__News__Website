@@ -1,7 +1,7 @@
 {
   "place": "loule",
   "by": "local@PrompTugal.jose",
-  "updated": "2026-11-16T20:20Z",
+  "updated": "2026-11-17T11:50Z",
   "state": "checked in part",
   "state_note": "Outlets whose own sites opened were read on 16 November 2026 and are in the fields of the media kind (data/schemas/organisation.schema.json). Outlets that sit behind a bot challenge, or on a host this environment refuses, are listed as unreachable and not guessed at. ERC's register could not be searched, so the list of outlets may be incomplete: the town is not done.",
   "keeper": "place.algarve.central@PrompTugal.dinis (board/team/conductor.b/plans/2026-11-16-restart-here.md, section 2)",
@@ -198,6 +198,121 @@
       "unreachable": false
     },
     {
+      "name": "Postal do Algarve",
+      "name_note": "the site titles itself \"Postal\"; its publisher is POSTAL do ALGARVE, and the team's derived record is postal-do-algarve",
+      "outlet_kind": "regional-newspaper",
+      "places_covered": [
+        "place:algarve",
+        "place:loule",
+        "place:quarteira"
+      ],
+      "language": [
+        "pt-PT"
+      ],
+      "website": "https://postal.pt/",
+      "owner": {
+        "name": "POSTAL do ALGARVE – Publicações e Editores, Lda.",
+        "source": {
+          "url": "https://postal.pt/postal/contactos/",
+          "read_at": "2026-11-17T11:50Z",
+          "how": "the Ficha técnica e contactos page names it as publisher (Edição); the title is owned by Henrique Manuel Dias Freire"
+        }
+      },
+      "feeds": [
+        {
+          "url": "https://postal.pt/feed/",
+          "format": "rss",
+          "scope": "all latest articles, national ones included",
+          "source": {
+            "url": "https://postal.pt/feed/",
+            "read_at": "2026-11-17T11:50Z",
+            "how": "fetched: an RSS 2.0 channel, language pt-PT, 50 items, last built 17 November 2026; linked as the alternate feed in the home page head"
+          }
+        },
+        {
+          "url": "https://postal.pt/algarve/feed/",
+          "format": "rss",
+          "scope": "the Algarve section",
+          "source": {
+            "url": "https://postal.pt/algarve/feed/",
+            "read_at": "2026-11-17T11:50Z",
+            "how": "fetched: an RSS 2.0 channel titled \"Algarve | Postal\", 50 items, last built 17 November 2026"
+          }
+        },
+        {
+          "url": "https://postal.pt/tag/loule/feed/",
+          "format": "rss",
+          "scope": "stories tagged Loulé; little used",
+          "source": {
+            "url": "https://postal.pt/tag/loule/feed/",
+            "read_at": "2026-11-17T11:50Z",
+            "how": "fetched: 2 items, last built 26 September 2026. The tag feeds for Quarteira (3 items, August 2026) and Almancil (1 item, March 2025) exist at the same pattern and are as thin: the Algarve section feed is the one to read"
+          }
+        },
+        {
+          "url": "https://postal.pt/wp-json/wp/v2/posts",
+          "format": "api",
+          "scope": "the site's WordPress REST API, latest posts as JSON",
+          "source": {
+            "url": "https://postal.pt/wp-json/wp/v2/posts?per_page=1",
+            "read_at": "2026-11-17T11:50Z",
+            "how": "fetched once with one post asked for: answered 200 as JSON"
+          }
+        }
+      ],
+      "contact": {
+        "page": "https://postal.pt/postal/contactos/",
+        "source": {
+          "url": "https://postal.pt/postal/contactos/",
+          "read_at": "2026-11-17T11:50Z",
+          "how": "the outlet's own \"Contactos e ficha técnica\" page, linked from its footer: the newsroom's contact. Nothing copied here"
+        }
+      },
+      "people": [
+        {
+          "name": "Henrique Dias Freire",
+          "role": "Diretor e Publisher",
+          "source": {
+            "url": "https://postal.pt/postal/contactos/",
+            "read_at": "2026-11-17T11:50Z",
+            "how": "named on the Ficha técnica page"
+          }
+        },
+        {
+          "name": "Afonso Dias Freire",
+          "role": "Diretor Executivo do postal.pt",
+          "source": {
+            "url": "https://postal.pt/postal/contactos/",
+            "read_at": "2026-11-17T11:50Z",
+            "how": "named on the Ficha técnica page"
+          }
+        }
+      ],
+      "people_note": "the page also lists eight names under Redação and further collaborators; not copied here",
+      "sources": [
+        {
+          "url": "https://postal.pt/",
+          "read_at": "2026-11-17T11:50Z",
+          "how": "home page read: titled \"Postal – Informação, Opinião e Conteúdos Especiais\"; Algarve stories on it today"
+        },
+        {
+          "url": "https://postal.pt/postal/contactos/",
+          "read_at": "2026-11-17T11:50Z",
+          "how": "the page shows ERC title registration nº 111 613; newsroom in Tavira; a weekly paper edition sold on Fridays and a daily online edition"
+        },
+        {
+          "url": "https://postal.pt/robots.txt",
+          "read_at": "2026-11-17T11:50Z",
+          "how": "robots.txt read: all paths allowed to all readers"
+        }
+      ],
+      "in_place_file": false,
+      "in_organisations": "postal-do-algarve",
+      "in_organisations_note": "a derived record with no kind; this desk does not edit it. Asked of ontologist@ (requests/2026-11-17-ontologist-postal-and-loule-leads.md)",
+      "feed_checked_on": "2026-11-17",
+      "unreachable": false
+    },
+    {
       "name": "Sul Informação",
       "outlet_kind": "online",
       "outlet_kind_note": "from the home page title only (\"Destaque das principais notícias do Algarve\"); its about page was not opened, see reading_stopped",
@@ -252,6 +367,59 @@
       "unreachable": true,
       "unreachable_how": "the site answered 403 with a bot challenge page (16 November 2026, 20:10 UTC). Not read, not worked around",
       "tried_on": "2026-11-16T20:10Z"
+    },
+    {
+      "name": "A Voz de Loulé",
+      "website": "https://www.avozdeloule.com/",
+      "website_note": "the address a web search returned (with pages named ficha-tecnica and contactos); the host is refused from this environment, so the site itself was not opened",
+      "what_is_verified": [
+        {
+          "fact": "A newspaper of Loulé by this name existed in 2016, directed then by Nathalie Dias; Postal called it \"o jornal louletano\"",
+          "source": {
+            "url": "https://postal.pt/nacional/jornal-louletano-entrega-11-cadeiras-de-rodas-em-campanha-solidaria/",
+            "read_at": "2026-11-17T11:50Z",
+            "how": "Postal's story of 29 May 2016, read in full"
+          }
+        },
+        {
+          "fact": "The Diretora of A Voz do Algarve, whose newsroom is in Loulé, has the same name",
+          "source": {
+            "url": "https://www.avozdoalgarve.pt/p/ficha-tecnica/3",
+            "read_at": "2026-11-16T20:12Z",
+            "how": "A Voz do Algarve's Ficha Técnica. Whether the two titles are one house is not stated on any page this desk could open"
+          }
+        }
+      ],
+      "not_verified": "From a web search only (17 November 2026), not read at the source: that it was founded in 1952, appears fortnightly in print, and published editions in 2026. Its ERC number, owner, feed and contact page are on its own site, which was not opened.",
+      "feeds": [],
+      "in_place_file": false,
+      "in_organisations": null,
+      "feed_checked_on": null,
+      "unreachable": true,
+      "unreachable_how": "www.avozdeloule.com is refused by this environment's network policy",
+      "tried_on": "2026-11-17T11:50Z"
+    },
+    {
+      "name": "Rádio Clube de Loulé, C.R.L. (service: Cidade FM Algarve)",
+      "outlet_kind": "radio",
+      "what_is_verified": [
+        {
+          "fact": "In January 2013 the operator held the licence for radio broadcasting in the council of Loulé, on 99,7 MHz, with a local service named Cidade FM Algarve, in partnership with Cidade FM of Lisbon. ERC authorised its change from generalist to music-themed, asking that a news slot of local interest be kept between 7h and 20h",
+          "source": {
+            "url": "https://www.erc.pt/download/YToyOntzOjg6ImZpY2hlaXJvIjtzOjM5OiJtZWRpYS9kZWNpc29lcy9vYmplY3RvX29mZmxpbmUvMjEyOS5wZGYiO3M6NjoidGl0dWxvIjtzOjI0OiJkZWxpYmVyYWNhby0yNjIwMTMtYXV0LXIiO30=/deliberacao-262013-aut-r",
+            "read_at": "2026-11-17T11:50Z",
+            "how": "ERC's Deliberação 26/2013 (AUT-R) of 30 January 2013, the PDF read in full"
+          }
+        }
+      ],
+      "not_verified": "Whether the licence, the frequency and the service stand in 2026: ERC's current list of radio operators is on a host this environment refuses. No site of the operator was found.",
+      "related_records": "data/organisations/cidade-fm/ exists (not this desk's); whether it is the Lisbon service or the brand is for its owner to say",
+      "feeds": [],
+      "in_place_file": false,
+      "in_organisations": null,
+      "feed_checked_on": null,
+      "unreachable": true,
+      "tried_on": "2026-11-17T11:50Z"
     }
   ],
   "region_outlets_already_recorded": [
@@ -262,14 +430,6 @@
       "in_place_file": false,
       "linked_on_town_page": false,
       "unreachable": false
-    },
-    {
-      "name": "Postal do Algarve",
-      "in_organisations": "postal-do-algarve",
-      "note": "a derived record with no kind. www.postal.pt redirects to postal.pt, a host this environment refuses; not read",
-      "in_place_file": false,
-      "unreachable": true,
-      "tried_on": "2026-11-16T20:10Z"
     }
   ],
   "could_not_be_checked": [
@@ -286,6 +446,10 @@
     {
       "what": "Câmara Municipal de Loulé",
       "note": "www.cm-loule.pt: the connection was reset twice (20:10 UTC); not read"
+    },
+    {
+      "what": "the parish councils",
+      "note": "jf-quarteira.pt and www.jf-almancil.pt are refused from this environment; www.cm-loule.pt was refused today (yesterday it reset the connection)"
     }
   ],
   "contributors": [
@@ -312,6 +476,22 @@
       "why": "edits a daily regional site with Loulé stories, already linked from the Loulé page",
       "source_url": "https://www.algarveprimeiro.com/ficha-tecnica",
       "read_on": "2026-11-16"
+    },
+    {
+      "kind": "person",
+      "name": "Henrique Dias Freire",
+      "role": "Diretor e Publisher, Postal",
+      "why": "directs a regional paper whose stories the Loulé page already links",
+      "source_url": "https://postal.pt/postal/contactos/",
+      "read_on": "2026-11-17"
+    },
+    {
+      "kind": "person",
+      "name": "Afonso Dias Freire",
+      "role": "Diretor Executivo do postal.pt",
+      "why": "runs the daily online edition",
+      "source_url": "https://postal.pt/postal/contactos/",
+      "read_on": "2026-11-17"
     }
   ],
   "contributors_note": "A Voz do Algarve's Ficha Técnica also lists about twenty collaborators by name. They are not staff journalists as far as the page says, so they are not named here. No journalism course or news-publishing association based in Loulé was found from the hosts that open.",
@@ -331,11 +511,17 @@
       "url": "https://www.avozdoalgarve.pt/contactos.php",
       "read_on": "2026-11-16",
       "note": "already in ontologist@'s record; opened again today: the newsroom's contact and a message form"
+    },
+    {
+      "organisation": "Postal do Algarve",
+      "url": "https://postal.pt/postal/contactos/",
+      "read_on": "2026-11-17"
     }
   ],
   "drafts": [
     "desks/local-jose/contact-requests/barlavento.json",
-    "desks/local-jose/contact-requests/algarve-primeiro.json"
+    "desks/local-jose/contact-requests/algarve-primeiro.json",
+    "desks/local-jose/contact-requests/postal-do-algarve.json"
   ],
   "no_draft": [
     {
@@ -349,6 +535,79 @@
     {
       "organisation": "Regiao Sul",
       "why": "unreachable"
+    },
+    {
+      "organisation": "A Voz de Loulé",
+      "why": "its site and contact page could not be opened"
+    },
+    {
+      "organisation": "Rádio Clube de Loulé",
+      "why": "no site found; its present state is not verified"
     }
-  ]
+  ],
+  "asked_by_jose": "Jose, 17 November 2026: \"research for all news agencies in concelho de loulé, quarteira, almancil\". This file holds the council; Quarteira, a place of its own in data/by-place/places.json, also has towns/quarteira.json. Almancil is a parish of Loulé with no place file: its outlets are here.",
+  "leads_not_verified": {
+    "note": "Names a web search returned on 17 November 2026. None was read at its own site, most because the host is refused from this environment. They are leads for a person or a later run, not facts, and no record is written from them.",
+    "items": [
+      {
+        "name": "Total FM",
+        "kind": "radio",
+        "covers": "listed by a radio directory as an Almancil station on 103.1 FM; the same directory contradicts itself elsewhere",
+        "found": "web search, 17 November 2026",
+        "own_site": "not found"
+      },
+      {
+        "name": "Algarve Plus (algarvePLUS)",
+        "kind": "English-language monthly magazine",
+        "covers": "its masthead gives a Loulé postal address and names Almancil and Loulé in its area, as the search result reports it",
+        "found": "web search; issues on issuu.com, a host refused from here",
+        "own_site": "not opened"
+      },
+      {
+        "name": "Boletim de Quarteira",
+        "kind": "the parish council's bulletin (a public body's publication, not a newsroom)",
+        "covers": "Quarteira",
+        "found": "web search: issue 18 of 2026 as a PDF on jf-quarteira.pt, a host refused from here",
+        "own_site": "not opened"
+      },
+      {
+        "name": "Portugal Resident",
+        "kind": "English-language newspaper and site",
+        "covers": "runs Loulé, Quarteira and Almancil stories",
+        "found": "web search; www.portugalresident.com refused from here",
+        "in_organisations": "portugal-resident"
+      },
+      {
+        "name": "The Portugal News",
+        "kind": "English-language newspaper and site",
+        "covers": "ran a Quarteira story in 2026",
+        "found": "web search; www.theportugalnews.com refused from here",
+        "in_organisations": "the-portugal-news"
+      },
+      {
+        "name": "Central Algarve magazine",
+        "kind": "visitor and lifestyle magazine",
+        "covers": "Quinta do Lago, Vale do Lobo, Almancil, Vilamoura",
+        "found": "web search: the only issue indexed is of summer 2018, so it may no longer publish",
+        "own_site": "not found"
+      },
+      {
+        "name": "Essential Algarve",
+        "kind": "lifestyle magazine site",
+        "covers": "a tag page on Quinta do Lago",
+        "found": "web search; essential-algarve.com refused from here"
+      },
+      {
+        "name": "24notícias (SAPO), Loulé page",
+        "kind": "a national portal's page for the council",
+        "covers": "Loulé, Quarteira, Vilamoura",
+        "found": "web search; 24noticias.sapo.pt refused from here"
+      }
+    ]
+  },
+  "by_parish": {
+    "loule_town": "Based in the town, by their own pages: A Voz do Algarve (newsroom in Loulé). By others' pages only: A Voz de Loulé; Rádio Clube de Loulé (the 2013 licence).",
+    "quarteira": "No outlet based in Quarteira was confirmed. Coverage found: Barlavento's Loulé section (its Quarteira, Almancil and Vilamoura tags have no feed: the addresses answer with a picture); Postal (a thin Quarteira tag feed; its Algarve feed carries the stories); the parish bulletin as a lead.",
+    "almancil": "No outlet based in Almancil was confirmed. Coverage found: Postal (one tagged story, of March 2025, on Almancil becoming a city); A Voz do Algarve and Algarve Primeiro mention it on their home pages. Leads: Total FM, Algarve Plus, the English-language press."
+  }
 }
