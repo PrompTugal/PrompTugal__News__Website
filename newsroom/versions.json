@@ -1,5 +1,40 @@
 [
   {
+    "version": "v0.1.1715",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: one reader across devices, step 1 written up for security@'s pre-review; dev.places and datasci.places brought; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "e415d1102"
+  },
+  {
+    "version": "v0.1.1714",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: five Algarve articles corrected after checker@'s fact-check, re-signed",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "f1737a1b9"
+  },
+  {
+    "version": "v0.1.1713",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 10:40 wake: west's and place.districts' quiet passes brought onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "a53162462"
+  },
+  {
+    "version": "v0.1.1712",
+    "date": "2026-11-17",
+    "what": "conductor@PrompTugal.dinis: the spec for one reader across devices (QR and append-lane pairing, three vaults and a local mirror, the personal front page, billing as memory) and Dinis's words in the guidance",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "746c3970a"
+  },
+  {
+    "version": "v0.1.1711",
+    "date": "2026-11-17",
+    "what": "checker@PrompTugal.vicky: check of 17 November: 8 articles; both Algarve pieces fixed, thank you",
+    "by": "checker@PrompTugal.vicky",
+    "from": "52d076b38"
+  },
+  {
     "version": "v0.1.1710",
     "date": "2026-11-17",
     "what": "security@PrompTugal.dinis: 10:05 wake: 29 commits clean; S68 post-reviewed",

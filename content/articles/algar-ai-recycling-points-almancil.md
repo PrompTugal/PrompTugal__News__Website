@@ -19,7 +19,7 @@ tags: Portugal, Algarve, Loulé, Almancil, ALGAR, NILG.AI, waste, AI
 
 ## The AI path
 
-This story passes the PrompTugal test directly: a company in the municipality of Loulé built and runs an AI system (zero steps).
+This story passes the PrompTugal test directly: a company in the municipality of Loulé had an AI system built with it and is testing it in a pilot (zero steps).
 
 ## The story
 
@@ -27,7 +27,7 @@ Choosing where to put a recycling point is slow. Someone has to find a spot on a
 
 ALGAR, the waste company that serves the Algarve, says it wanted to speed that up. The company says on its own site that it is headquartered in Almancil and was founded in 1995. Almancil is in the municipality of Loulé, so this is a Loulé story, even though the pilot ran elsewhere.
 
-ALGAR built the tool with NILG.AI, a start-up incubated at UPTEC, the University of Porto's science park. It was developed under the Re-Source 3.0 programme of Sociedade Ponto Verde. Algarve Primeiro says the tool analyses factors such as population density and infrastructure to propose ideal locations.
+NILG.AI built the tool with ALGAR. NILG.AI is a Porto start-up incubated at UPTEC, the University of Porto's science park. It was developed under the Re-Source 3.0 programme of Sociedade Ponto Verde. Algarve Primeiro says the tool analyses factors such as population density and infrastructure to propose ideal locations.
 
 The first pilot was in Lagoa, which planned ten new recycling points. According to the report, the tool pre-selected 14 potential sites in four hours, where the traditional process can take up to a day per recycling point. After site visits, 68% of the proposals were approved at first. A final proposal for the municipality was ready in two days, which ALGAR and NILG.AI describe as an 83% cut in time. UPTEC's page adds that the pilot also covered São Brás de Alportel, with more than 80% agreement between the AI's suggestions and human decisions.
 
@@ -39,6 +39,10 @@ These results come from the partners and their award coverage, not from an indep
 
 ## Sources
 
-- Algarve Primeiro, 23 January 2025: https://www.algarveprimeiro.com/d/algar-e-nilgai-recebem-premio-com-projeto-inovador-na-gestao-de-residuos/60124-85 (read 15 November 2026)
-- UPTEC, 24 September 2024: https://uptec.up.pt/noticias-e-media/noticias/nilgai-vence-premio-nacional-com-projeto-de-ia-para-gestao-de-residuos (read 15 November 2026)
-- ALGAR, history page: https://www.algar.com.pt/en/algar/history/ (read 15 November 2026)
+- Algarve Primeiro, 23 January 2025: <https://www.algarveprimeiro.com/d/algar-e-nilgai-recebem-premio-com-projeto-inovador-na-gestao-de-residuos/60124-85> (read 15 November 2026)
+- UPTEC, 24 September 2024: <https://uptec.up.pt/noticias-e-media/noticias/nilgai-vence-premio-nacional-com-projeto-de-ia-para-gestao-de-residuos> (read 15 November 2026)
+- ALGAR, history page: <https://www.algar.com.pt/en/algar/history/> (read 15 November 2026)
+
+## Corrections
+
+- 17 November 2026: the first version said ALGAR "built and runs" an AI system. UPTEC reports that NILG.AI developed it in collaboration with ALGAR, and that it is in a pilot in Lagoa and São Brás de Alportel. The source list now links. Thanks to the fact-check by checker@PrompTugal.vicky.

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">
+  <title>Six levers the screens pull: certainty against fear, the home-currency anchor, loaded wording, asking twice, the setting, borrowed trust.</title>
+  <rect width="960" height="640" fill="#f6f3ec"/>
+  <text x="48" y="58" font-size="15" font-weight="700" letter-spacing="2" fill="#006600">PROMPTUGAL.NEWS · THE DESIGN</text>
+  <text x="48" y="100" font-family="Newsreader, Georgia, serif" font-size="34" font-weight="700" fill="#121317">Six levers on two screens</text>
+  <g font-size="15" fill="#121317">
+    <g transform="translate(48,140)"><rect width="420" height="140" rx="10" fill="#fff" stroke="#d8d4cb"/>
+      <text x="20" y="38" font-weight="700" font-size="18" fill="#c52830">1 · Certainty against fear</text>
+      <text x="20" y="66">"Fixed exchange rate guaranteed" against</text><text x="20" y="88">"determined by your bank": a cost dressed up</text><text x="20" y="110">as insurance against a risk that barely exists.</text></g>
+    <g transform="translate(492,140)"><rect width="420" height="140" rx="10" fill="#fff" stroke="#d8d4cb"/>
+      <text x="20" y="38" font-weight="700" font-size="18" fill="#c52830">2 · The home-currency anchor</text>
+      <text x="20" y="66">A Union Jack and a total in pounds feel</text><text x="20" y="88">familiar; the euro option shows no total,</text><text x="20" y="110">so there is nothing to compare.</text></g>
+    <g transform="translate(48,300)"><rect width="420" height="140" rx="10" fill="#fff" stroke="#d8d4cb"/>
+      <text x="20" y="38" font-weight="700" font-size="18" fill="#c52830">3 · Loaded wording</text>
+      <text x="20" y="66">"Without conversion" sounds like missing</text><text x="20" y="88">a service; "with conversion" sounds like</text><text x="20" y="110">the complete option.</text></g>
+    <g transform="translate(492,300)"><rect width="420" height="140" rx="10" fill="#fff" stroke="#d8d4cb"/>
+      <text x="20" y="38" font-weight="700" font-size="18" fill="#c52830">4 · Asking twice</text>
+      <text x="20" y="66">Two screens, the same choice: a second</text><text x="20" y="88">chance to catch a tired traveller, and the</text><text x="20" y="110">first answer framed as a mistake to fix.</text></g>
+    <g transform="translate(48,460)"><rect width="420" height="140" rx="10" fill="#fff" stroke="#d8d4cb"/>
+      <text x="20" y="38" font-weight="700" font-size="18" fill="#c52830">5 · The setting</text>
+      <text x="20" y="66">Standing at a machine in the street,</text><text x="20" y="88">often with a queue behind: nobody does</text><text x="20" y="110">the arithmetic there.</text></g>
+    <g transform="translate(492,460)"><rect width="420" height="140" rx="10" fill="#fff" stroke="#d8d4cb"/>
+      <text x="20" y="38" font-weight="700" font-size="18" fill="#c52830">6 · Borrowed trust</text>
+      <text x="20" y="66">It is a bank's machine, so "guaranteed"</text><text x="20" y="88">reads as the bank looking after you.</text><text x="20" y="110">The answer that pays: always the local currency.</text></g>
+  </g>
+</svg>
