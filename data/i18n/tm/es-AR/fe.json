@@ -17,6 +17,15 @@
   "ok": false,
   "from": "es-ES"
  },
+ "feaaf525ecc46a19": {
+  "t": "Rádio Portalegre informa el 16 de noviembre de 2026 de que la universidad lidera el proyecto, con una inversión elegible de 59.000 euros, cofinanciada al 85 por ciento por la UE, para impulsar la innovación y la digitalización en el sector agroforestal. La información no menciona la IA.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Rádio Portalegre reports on 16 November 2026 that the univer",
+  "ok": false,
+  "from": "es-ES"
+ },
  "feee2e234a37da04": {
   "t": "PrompTugal.news Alcoutim: IA y tecnología, bem la no interior, ali onde o Guadiana faz de fronteira e a internet tem de aprender a nadar. También lo que nos llega desde el Algarve, Portugal y el mundo. Independiente, y cada dato tiene su fuente, pois claro.",
   "by": "translator@PrompTugal.dinis",

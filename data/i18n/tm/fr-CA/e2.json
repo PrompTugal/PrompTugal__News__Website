@@ -1,4 +1,13 @@
 {
+ "e2d661426a0261de": {
+  "t": "L'Escola Superior de Educação de la Universidade Politécnica de Santarém a tenu le 7 octobre 2026 un cours ouvert à toute la communauté sur la façon dont les textes produits avec l'IA génèrent du sens et de l'argumentation, selon la linguistique textuelle brésilienne, pour des étudiants de première année en éducation sociale.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The Escola Superior de Educação of the Universidade Politécn",
+  "ok": false,
+  "from": "fr-FR"
+ },
  "e2ddef7c68fb2893": {
   "t": "L'association de la presse régionale débat de l'IA dans les rédactions à Vila Real",
   "by": "translator@PrompTugal.dinis",
