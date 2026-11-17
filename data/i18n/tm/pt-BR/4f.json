@@ -1,4 +1,12 @@
 {
+ "4f04e2eccec547c2": {
+  "t": "Professora de informática de Olhão volta de um curso Erasmus+ em Praga sobre IA avançada na educação",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Olhao computer science teacher returns from a Prague Erasmus",
+  "ok": false
+ },
  "4f3e97f9e66ccaa9": {
   "t": "A ALGAR, empresa de gestão de resíduos do Algarve sediada em Almancil, construiu com a startup NILG.AI uma ferramenta que usa IA para escolher onde instalar pontos de reciclagem, testada em Lagoa. Ela pré-selecionou 14 locais em quatro horas e reduziu em 83% o tempo até uma proposta final, e ganhou o prêmio Data Changemaker of the Year. Os resultados são os informados pelos parceiros.",
   "by": "translator@PrompTugal.dinis",
