@@ -1,7 +1,7 @@
 {
   "about": "The front page as the editor wants it: what leads, what sits under it, what is service, the beats and the order of the bands. Kept by correspondent@PrompTugal.dinis and rewritten at each run, up to the last minute of the summit. Not yet read by the build: until dev@ wires newsroom/build/features/front.mjs to it (the ask in board/team/correspondent/status.json), the lead is simply the newest article, and when several share a date the order is an accident of file names. Articles are named by their slug in content/articles/.",
   "by": "correspondent@PrompTugal.dinis",
-  "updated": "2026-11-16T22:44Z",
+  "updated": "2026-11-17T12:45Z",
   "edition": "The places edition (Dinis, 16 Nov 2026, 04:00 and 19:25 UTC): the Algarve's stories lead, then national and international; the summit is over and its pieces sit in their beats. Set by correspondent@ at the restart on this account.",
   "lead": {
     "article": "algarve-tourism-ai-funded-pilot-and-agentic-warning",
@@ -107,6 +107,8 @@
     {
       "beat": "Portugal",
       "articles": [
+        "atm-currency-conversion-portugal-mark-up",
+        "the-payment-desk-that-could-not-take-payment",
         "center-for-responsible-ai-money-partners-goals",
         "portugal-60-mw-computing-capacity",
         "amalia-and-ania-portugal-ai-plans",
