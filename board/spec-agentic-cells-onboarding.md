@@ -1,7 +1,7 @@
 ---
 title: "Plan: your own agentic cell, end to end (intake by vault and PKI, the factory, the hand-over to your own Claude)"
 by: Dinis Cruz (the brief, 17 November 2026, in the conductor@PrompTugal.dinis session), written up by conductor@PrompTugal.dinis
-for: Dinis; then cells@AgentiCCells.dinis (the cell factory) and its factory@ and hub@ agents
+for: Dinis; then cells (AgentiCCells.dinis) (the cell factory) and its factory@ and hub@ agents
 builds_on: "AgentiCCells/AgentiCCells__Site__Factory (requests/ and its apply workflow, the board, REALITY.md); pki.sgit.ai (keys in the browser, k1 key codes, sealed m1 messages, qr/key/v1); SG/Send vaults and append lanes; the vault app guide (SGraph-AI__App__Send library/guides/vault-html/AUTHORING.md); the outbox app built 16 November (promptugal-outreach vault, the same pattern)"
 status: proposal, for Dinis to decide
 ---
