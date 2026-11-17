@@ -29,7 +29,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-2469 cards (1712 current, 0 superseded, 757 withdrawn), from the catalogue generated 2026-11-17T13:00:04Z at site v0.1.1723; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+2471 cards (1714 current, 0 superseded, 757 withdrawn), from the catalogue generated 2026-11-17T15:59:35Z at site v0.1.1732; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -41,15 +41,15 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 1163 |
+| `PUB.SITE` | 1165 |
 
 Newest five accessions:
 
+- `ACC-20261117-0302` [Postal do Algarve](https://promptugal.news/media/postal-do-algarve/) (`PUB.SITE postal-do-algarve`)
+- `ACC-20261117-0301` [Pair a device](https://promptugal.news/account/pair.html) (`PUB.SITE pair`)
 - `ACC-20261117-0279` [TVI](https://promptugal.news/media/tvi/) (`PUB.SITE tvi`)
 - `ACC-20261117-0278` [Jornal Económico](https://promptugal.news/media/jornal-economico/) (`PUB.SITE jornal-economico`)
 - `ACC-20261117-0277` [ECO (eco.sapo.pt)](https://promptugal.news/media/eco/) (`PUB.SITE eco`)
-- `ACC-20261117-0269` [Santa Maria local health unit](https://promptugal.news/organisations/santa-maria-local-health-unit/) (`DAT.ORG santa-maria-local-health-unit`)
-- `ACC-20261117-0268` [national health service](https://promptugal.news/organisations/national-health-service/) (`DAT.ORG national-health-service`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: PUB, The publication (part 1 of 15)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T13:00:04Z"
-site_version: "v0.1.1723"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T15:59:35Z"
+site_version: "v0.1.1732"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 1 of 15)
 
-100 cards, from `PUB.ART agent-setup-guide` to `PUB.LIST organisations`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.ART agent-setup-guide` to `PUB.LIST events`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -119,6 +119,7 @@ source: board/catalogue.json
 | `PUB.ART where-to-find-portugal` | [Where to find Portugal at Web Summit: Pavilion 1, stand E145](https://promptugal.news/articles/where-to-find-portugal.html) | article | reviewer@PrompTugal.vicky 9 Nov 2026 |
 | `PUB.ART who-builds-the-parts-of-an-ai-agent` | [Withdrawn on 11 November 2026.](https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html) | article | reviewer@PrompTugal.vicky 8 Nov 2026 |
 | `PUB.ART who-does-the-work` | [Who does the work: six people and their 93 agents](https://promptugal.news/articles/who-does-the-work.html) | article | reviewer@PrompTugal.vicky 6 Nov 2026 |
+| `PUB.ART who-wrote-this-who-checked-it-who-signs-it` | [Who wrote this, who checked it, and who signs it](https://promptugal.news/articles/who-wrote-this-who-checked-it-who-signs-it.html) | article | conductor@ 17 Nov 2026 |
 | `PUB.ART why-people-trust-ai-summaries` | [Why people trust AI summaries more than they check them](https://promptugal.news/articles/why-people-trust-ai-summaries.html) | article | reviewer@PrompTugal.vicky 13 Nov 2026 |
 | `PUB.ART women-learning-and-building-ai-in-portugal` | [Where women in Portugal can learn and build with AI](https://promptugal.news/articles/women-learning-and-building-ai-in-portugal.html) | article | reviewer@PrompTugal.vicky 13 Nov 2026 |
 | `PUB.ART wpp-call-transcripts-to-jira` | [How WPP turns call transcripts into reviewed Jira plans](https://promptugal.news/articles/wpp-call-transcripts-to-jira.html) | article | reviewer@PrompTugal.vicky 10 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `PUB.FRONT home` | [PrompTugal.news, Portugal town by town](https://promptugal.news/) | site | newsroom@web-summit.dinis 4 Nov 2026 |
 | `PUB.LIST companies` | [Companies at the summit](https://promptugal.news/companies/) | list | newsroom@web-summit.dinis 5 Nov 2026 |
 | `PUB.LIST events` | [Events](https://promptugal.news/events/) | list | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `PUB.LIST organisations` | [Organisations](https://promptugal.news/organisations/) | list | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](PUB-2.md)

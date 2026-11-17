@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: PUB, The publication (part 9 of 15)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T13:00:04Z"
-site_version: "v0.1.1723"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T15:59:35Z"
+site_version: "v0.1.1732"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 9 of 15)
 
-100 cards, from `PUB.SITE idealista-news` to `PUB.SITE lisboa-para-pessoas`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE how-we-got-here:4` to `PUB.SITE link-to-leaders`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 801 to 825**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE how-we-got-here:4` | [Como chegámos aqui](https://promptugal.news/investors/pt/how-we-got-here/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE how-we-publish` | [How we publish: PrompTugal.news's publish workflow](https://promptugal.news/how-we-publish/) | site | dev@PrompTugal.vicky 6 Nov 2026 |
 | `PUB.SITE idealista-news` | [Idealista News](https://promptugal.news/media/idealista-news/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE industry` | [The industry map](https://promptugal.news/graph/industry/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE invest` | [Invierta en una empresa de noticias que ya funciona](https://promptugal.news/investors/es/invest/) | site | investors@ 7 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `PUB.SITE jornal-das-caldas` | [Jornal das Caldas](https://promptugal.news/media/jornal-das-caldas/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE jornal-de-beja` | [Jornal de Beja](https://promptugal.news/media/jornal-de-beja/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE jornal-de-leiria` | [Jornal de Leiria](https://promptugal.news/media/jornal-de-leiria/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE jornal-de-negocios` | [Jornal de Negócios](https://promptugal.news/media/jornal-de-negocios/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE jornal-de-noticias` | [Jornal de Notícias](https://promptugal.news/media/jornal-de-noticias/) | site | dev.places@ 16 Nov 2026 |
 
 **Cards 826 to 850**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE jornal-de-negocios` | [Jornal de Negócios](https://promptugal.news/media/jornal-de-negocios/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE jornal-de-noticias` | [Jornal de Notícias](https://promptugal.news/media/jornal-de-noticias/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE jornal-de-portalegre` | [Jornal de Portalegre](https://promptugal.news/media/jornal-de-portalegre/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE jornal-de-santarem` | [Jornal de Santarém](https://promptugal.news/media/jornal-de-santarem/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE jornal-do-centro` | [Jornal do Centro](https://promptugal.news/media/jornal-do-centro/) | site | dev.places@ 16 Nov 2026 |
@@ -67,13 +69,13 @@ source: board/catalogue.json
 | `PUB.SITE lagoa:4` | [PrompTugal.news Lagoa](https://promptugal.news/de-DE/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE lagoa:5` | [PrompTugal.news Lagoa](https://promptugal.news/es-AR/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE lagoa:6` | [PrompTugal.news Lagoa](https://promptugal.news/es-ES/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE lagoa:7` | [PrompTugal.news Lagoa](https://promptugal.news/es-MX/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE lagoa:8` | [PrompTugal.news Lagoa](https://promptugal.news/fr-CA/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
 
 **Cards 851 to 875**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE lagoa:7` | [PrompTugal.news Lagoa](https://promptugal.news/es-MX/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE lagoa:8` | [PrompTugal.news Lagoa](https://promptugal.news/fr-CA/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE lagoa:9` | [PrompTugal.news Lagoa](https://promptugal.news/fr-FR/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE lagos` | [The proof layer: Lagos](https://promptugal.news/agentic-system/proof/lagos/) | site |  |
 | `PUB.SITE lagos:10` | [PrompTugal.news Lagos](https://promptugal.news/it-IT/algarve/lagos/) | site | dev@ 6 Nov 2026 |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `PUB.SITE languages` | [Which language next?](https://promptugal.news/investors/languages/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE languages:2` | [¿qué idioma ahora?](https://promptugal.news/investors/es/languages/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE languages:3` | [Quelle langue ensuite ?](https://promptugal.news/investors/fr/languages/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE languages:4` | [Que língua a seguir?](https://promptugal.news/investors/pt/languages/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE leiria` | [The proof layer: Leiria](https://promptugal.news/agentic-system/proof/leiria/) | site |  |
 
 **Cards 876 to 900**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE languages:4` | [Que língua a seguir?](https://promptugal.news/investors/pt/languages/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE leiria` | [The proof layer: Leiria](https://promptugal.news/agentic-system/proof/leiria/) | site |  |
 | `PUB.SITE leiria-informacao` | [Leiria Informação](https://promptugal.news/media/leiria-informacao/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE leiria:10` | [PrompTugal.news Leiria](https://promptugal.news/nl-NL/portugal/leiria/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE leiria:11` | [PrompTugal.news Leiria](https://promptugal.news/portugal/leiria/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE library:4` | [Em profundidade](https://promptugal.news/investors/pt/library/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE lidador-noticias` | [Lidador Notícias](https://promptugal.news/media/lidador-noticias/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE link-to-leaders` | [Link to Leaders](https://promptugal.news/media/link-to-leaders/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE lisboa` | [The proof layer: Lisboa](https://promptugal.news/agentic-system/proof/lisboa/) | site |  |
-| `PUB.SITE lisboa-para-pessoas` | [LPP - Lisboa Para Pessoas](https://promptugal.news/media/lisboa-para-pessoas/) | site | dev.places@ 16 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-8.md) | [Next part](PUB-10.md)

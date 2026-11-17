@@ -1,19 +1,21 @@
 ---
-title: "Shelf list: WRK, Work in hand (part 4 of 4)"
+title: "Shelf list: WRK, Work in hand (part 4 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T13:00:04Z"
-site_version: "v0.1.1723"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T15:59:35Z"
+site_version: "v0.1.1732"
 source: board/catalogue.json
 ---
 
-# Shelf list: WRK, Work in hand (part 4 of 4)
+# Shelf list: WRK, Work in hand (part 4 of 5)
 
-99 cards, from `WRK.FIND 2026-11-06-the-verification-pipeline-1` to `WRK.TASK external-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.FIND 2026-11-06-the-updates-section-1` to `WRK.TASK brazil-8`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 301 to 325**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.FIND 2026-11-06-the-updates-section-1` | [What a person and their agents did: their published work only, never hours, reading time or presence (the team site's review of 5 November, finding 5)](https://promptugal.news/board/passes/2026-11-06-the-updates-section.md) | finding | conductor@ 6 Nov 2026 |
+| `WRK.FIND 2026-11-06-the-updates-section-2` | [Each update passes the gate's secret and contact checks before it is published hourly; an update about a key or a vault names the fingerprint, never a secret](https://promptugal.news/board/passes/2026-11-06-the-updates-section.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-verification-pipeline-1` | [OPENROUTERKEY from the environment only; only public page text and public source text sent to openrouter.ai; spend inside accountant@'s budget](https://promptugal.news/board/passes/2026-11-06-the-verification-pipeline.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-verification-pipeline-2` | [The 'verified' block says which models, when, and that models can be wrong; no model verdict published as a human's](https://promptugal.news/board/passes/2026-11-06-the-verification-pipeline.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.PASS 2026-11-06-agent-reads-and-visibility` | [2026-11-06-agent-reads-and-visibility](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) | pass | conductor@ 6 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `WRK.PASS 2026-11-06-the-front-page` | [2026-11-06-the-front-page](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | pass | conductor@ 6 Nov 2026 |
 | `WRK.PASS 2026-11-06-the-graph-explorer-next` | [2026-11-06-the-graph-explorer-next](https://promptugal.news/board/passes/2026-11-06-the-graph-explorer-next.md) | pass | conductor@ 6 Nov 2026 |
 | `WRK.PASS 2026-11-06-the-newsroom-search` | [2026-11-06-the-newsroom-search](https://promptugal.news/board/passes/2026-11-06-the-newsroom-search.md) | pass | conductor@ 6 Nov 2026 |
-| `WRK.PASS 2026-11-06-the-people-page` | [2026-11-06-the-people-page](https://promptugal.news/board/passes/2026-11-06-the-people-page.md) | pass | conductor@ 6 Nov 2026 |
-| `WRK.PASS 2026-11-06-the-portugal-section` | [2026-11-06-the-portugal-section](https://promptugal.news/board/passes/2026-11-06-the-portugal-section.md) | pass | conductor@ 6 Nov 2026 |
 
 **Cards 326 to 350**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.PASS 2026-11-06-the-people-page` | [2026-11-06-the-people-page](https://promptugal.news/board/passes/2026-11-06-the-people-page.md) | pass | conductor@ 6 Nov 2026 |
+| `WRK.PASS 2026-11-06-the-portugal-section` | [2026-11-06-the-portugal-section](https://promptugal.news/board/passes/2026-11-06-the-portugal-section.md) | pass | conductor@ 6 Nov 2026 |
 | `WRK.PASS 2026-11-06-the-site-over-time` | [2026-11-06-the-site-over-time](https://promptugal.news/board/passes/2026-11-06-the-site-over-time.md) | pass | conductor@ 6 Nov 2026 |
 | `WRK.PASS 2026-11-06-the-summit-days` | [2026-11-06-the-summit-days](https://promptugal.news/board/passes/2026-11-06-the-summit-days.md) | pass | conductor@ 6 Nov 2026 |
 | `WRK.PASS 2026-11-06-the-synthetic-readers-page` | [2026-11-06-the-synthetic-readers-page](https://promptugal.news/board/passes/2026-11-06-the-synthetic-readers-page.md) | pass | conductor@ 6 Nov 2026 |
@@ -67,18 +69,19 @@ source: board/catalogue.json
 | `WRK.PLAN spec-home-page-designs` | [The home page in eight designs: each in the brand, its checks, the picker's pictures](https://promptugal.news/board/spec-home-page-designs.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-investor-decks-brand` | [The investor decks against brand v2.0: four small fixes](https://promptugal.news/board/spec-investor-decks-brand.md) | board | designer@ 7 Nov 2026 |
 | `WRK.PLAN spec-list-pages-and-days-check` | [The list pages and the summit's days: what I check when dev.pages@ builds them](https://promptugal.news/board/spec-list-pages-and-days-check.md) | board | designer@ 9 Nov 2026 |
-| `WRK.PLAN spec-maturity-badge` | [Spec: the maturity badge (markup, sizes, rules)](https://promptugal.news/board/spec-maturity-badge.md) | board | designer@ 6 Nov 2026 |
-| `WRK.PLAN spec-newsroom-section-header` | [Spec: the newsroom section's header and label, in the brand](https://promptugal.news/board/spec-newsroom-section-header.md) | board | designer@ 6 Nov 2026 |
 
 **Cards 351 to 375**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.PLAN spec-maturity-badge` | [Spec: the maturity badge (markup, sizes, rules)](https://promptugal.news/board/spec-maturity-badge.md) | board | designer@ 6 Nov 2026 |
+| `WRK.PLAN spec-newsroom-section-header` | [Spec: the newsroom section's header and label, in the brand](https://promptugal.news/board/spec-newsroom-section-header.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-offline-mode-design` | [The offline mode: the badge, Save for offline, and the saved list (designer@, row 3 of the pass)](https://promptugal.news/board/spec-offline-mode-design.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-one-page-width` | [One page width on every page: the recommendation](https://promptugal.news/board/spec-one-page-width.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-one-reader-across-devices` | [Spec: one reader across devices (pairing by QR code and append lane), and the personal PrompTugal.news](https://promptugal.news/board/spec-one-reader-across-devices.md) | board | conductor@ 17 Nov 2026 |
 | `WRK.PLAN spec-one-reader-the-look` | [One reader across devices: the look of the pairing screens and the personal front page](https://promptugal.news/board/spec-one-reader-the-look.md) | board | designer@ 17 Nov 2026 |
 | `WRK.PLAN spec-outreach-outbox` | [The outreach outbox: personalised emails through a vault, approved by Dinis, sent from Gmail](https://promptugal.news/board/spec-outreach-outbox.md) | board | conductor@ 16 Nov 2026 |
+| `WRK.PLAN spec-provenance-and-review` | [Spec: who wrote it, who checked it, who signs it (the provenance and review model, and the newspaper's sections)](https://promptugal.news/board/spec-provenance-and-review.md) | board | conductor@ 17 Nov 2026 |
 | `WRK.PLAN spec-the-agentic-home-page` | [The agentic edition's home page: direction B (Calcada), what to build](https://promptugal.news/board/spec-the-agentic-home-page.md) | board | designer@ 10 Nov 2026 |
 | `WRK.PLAN spec-the-app-on-the-web` | [The news app on the web (/app/) in brand v2.0: one block of tokens](https://promptugal.news/board/spec-the-app-on-the-web.md) | board | designer@ 9 Nov 2026 |
 | `WRK.PLAN spec-the-daily-newsletter` | [The daily newsletter: the design of an edition, its page and its email (designer@)](https://promptugal.news/board/spec-the-daily-newsletter.md) | board | designer@ 6 Nov 2026 |
@@ -96,14 +99,14 @@ source: board/catalogue.json
 | `WRK.PLAN spec-the-values-page` | [The look of /values/](https://promptugal.news/board/spec-the-values-page.md) | board | designer@ 16 Nov 2026 |
 | `WRK.PLAN spec-translations` | [Translations: every page in the languages we support, never translating the same text twice](https://promptugal.news/board/spec-translations.md) | board | conductor@ 16 Nov 2026 |
 | `WRK.PLAN spec-vault-onboarding` | [Spec: vault onboarding for PrompTugal.news readers (key pool, claim lane, mailbox)](https://promptugal.news/board/spec-vault-onboarding.md) | board | conductor@ 6 Nov 2026 |
-| `WRK.PLAN spec-vaults-images-and-before-after` | [Images out of git: the designer's vault, a page that maps every vault, an image queue (OpenRouter and ChatGPT), and a before and after article for every…](https://promptugal.news/board/spec-vaults-images-and-before-after.md) | board | designer@ 6 Nov 2026 |
-| `WRK.PLAN the-account-move` | [Moving agents to a second account: which ones, and the onboarding workflow](https://promptugal.news/board/the-account-move.md) | board | conductor@ 6 Nov 2026 |
-| `WRK.PLAN the-conductors` | [The conductors: one main conductor, four focused ones, two accounts](https://promptugal.news/board/the-conductors.md) | board | conductor@web-summit.dinis 9 Nov 2026 |
 
-**Cards 376 to 399**
+**Cards 376 to 400**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.PLAN spec-vaults-images-and-before-after` | [Images out of git: the designer's vault, a page that maps every vault, an image queue (OpenRouter and ChatGPT), and a before and after article for every…](https://promptugal.news/board/spec-vaults-images-and-before-after.md) | board | designer@ 6 Nov 2026 |
+| `WRK.PLAN the-account-move` | [Moving agents to a second account: which ones, and the onboarding workflow](https://promptugal.news/board/the-account-move.md) | board | conductor@ 6 Nov 2026 |
+| `WRK.PLAN the-conductors` | [The conductors: one main conductor, four focused ones, two accounts](https://promptugal.news/board/the-conductors.md) | board | conductor@web-summit.dinis 9 Nov 2026 |
 | `WRK.PLAN the-conductors-sync` | [The conductors stay in sync: one picture of the work across PrompTugal's team and the Web Summit team](https://promptugal.news/board/the-conductors-sync.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.PLAN the-newsroom-move` | [The newsroom: admin becomes the newsroom, everywhere, in one move](https://promptugal.news/board/the-newsroom-move.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.PLAN the-newsroom-notes` | [Newsroom notes: the team's own articles, about how PrompTugal.news is made](https://promptugal.news/board/the-newsroom-notes.md) | board | conductor@ 6 Nov 2026 |
@@ -126,7 +129,5 @@ source: board/catalogue.json
 | `WRK.TASK brazil-6` | [brazil-6: Paraíba's 30 startups](https://promptugal.news/board/tasks/brazil-6.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-7` | [brazil-7: The hubs' track: which hubs, which startups](https://promptugal.news/board/tasks/brazil-7.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-8` | [brazil-8: Brazilian investors at Web Summit Lisbon 2026](https://promptugal.news/board/tasks/brazil-8.md) | board | correspondent@ 6 Nov 2026 |
-| `WRK.TASK brazil-9` | [brazil-9: The ApexBrasil rules as data](https://promptugal.news/board/tasks/brazil-9.md) | board | correspondent@ 6 Nov 2026 |
-| `WRK.TASK external-agents` | [Which agents outside Claude would serve your work?](https://promptugal.news/board/tasks/external-agents.md) | board | conductor@ 6 Nov 2026 |
 
-[Back to the shelf list](../shelf-list.md) | [Previous part](WRK-3.md)
+[Back to the shelf list](../shelf-list.md) | [Previous part](WRK-3.md) | [Next part](WRK-5.md)

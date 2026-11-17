@@ -1,19 +1,26 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 27 of 35)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T13:00:04Z"
-site_version: "v0.1.1723"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T15:59:35Z"
+site_version: "v0.1.1732"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 27 of 35)
 
-100 cards, from `TEAM.RUN 2026-11-06T18-56-52Z` to `TEAM.RUN 2026-11-06T22-47-36Z`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.RUN 2026-11-06T18-31-42Z` to `TEAM.RUN 2026-11-06T22-47-06Z`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 2601 to 2625**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.RUN 2026-11-06T18-31-42Z` | [2026-11-06T18-31-42Z.json](https://promptugal.news/board/runs/dev.data/2026-11-06T18-31-42Z.json) (withdrawn) | board | dev@ 6 Nov 2026 |
+| `TEAM.RUN 2026-11-06T18-37-55Z` | [2026-11-06T18-37-55Z.json](https://promptugal.news/board/runs/abp/2026-11-06T18-37-55Z.json) (withdrawn) | board | abp@ 6 Nov 2026 |
+| `TEAM.RUN 2026-11-06T18-38-38Z` | [2026-11-06T18-38-38Z.json](https://promptugal.news/board/runs/outreach/2026-11-06T18-38-38Z.json) (withdrawn) | board | outreach@ 6 Nov 2026 |
+| `TEAM.RUN 2026-11-06T18-41-59Z` | [2026-11-06T18-41-59Z.json](https://promptugal.news/board/runs/correspondent/2026-11-06T18-41-59Z.json) (withdrawn) | board | correspondent@ 6 Nov 2026 |
+| `TEAM.RUN 2026-11-06T18-45-08Z` | [2026-11-06T18-45-08Z.json](https://promptugal.news/board/runs/synthetic/2026-11-06T18-45-08Z.json) (withdrawn) | board | synthetic@ 6 Nov 2026 |
+| `TEAM.RUN 2026-11-06T18-50-57Z` | [2026-11-06T18-50-57Z.json](https://promptugal.news/board/runs/accountant/2026-11-06T18-50-57Z.json) (withdrawn) | board | accountant@ 6 Nov 2026 |
+| `TEAM.RUN 2026-11-06T18-55-32Z` | [2026-11-06T18-55-32Z.json](https://promptugal.news/board/runs/dev@PrompTugal.vicky/2026-11-06T18-55-32Z.json) (withdrawn) | board | dev@PrompTugal.vicky 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T18-56-52Z` | [2026-11-06T18-56-52Z.json](https://promptugal.news/board/runs/librarian/2026-11-06T18-56-52Z.json) (withdrawn) | board | librarian@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T19-00-43Z` | [2026-11-06T19-00-43Z.json](https://promptugal.news/board/runs/dev.verify/2026-11-06T19-00-43Z.json) (withdrawn) | board | dev@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T19-11-40Z` | [2026-11-06T19-11-40Z.json](https://promptugal.news/board/runs/dev.pages/2026-11-06T19-11-40Z.json) (withdrawn) | board | dev@ 6 Nov 2026 |
@@ -32,6 +39,11 @@ source: board/catalogue.json
 | `TEAM.RUN 2026-11-06T19-57-33Z` | [2026-11-06T19-57-33Z.json](https://promptugal.news/board/runs/conductor/2026-11-06T19-57-33Z.json) (withdrawn) | board | conductor@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T19-58-17Z` | [2026-11-06T19-58-17Z.json](https://promptugal.news/board/runs/dev.verify/2026-11-06T19-58-17Z.json) (withdrawn) | board | dev@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T20-03-00Z` | [2026-11-06T20-03-00Z.json](https://promptugal.news/board/runs/investors/2026-11-06T20-03-00Z.json) (withdrawn) | board | investors@ 6 Nov 2026 |
+
+**Cards 2626 to 2650**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.RUN 2026-11-06T20-03-30Z` | [2026-11-06T20-03-30Z.json](https://promptugal.news/board/runs/conductor/2026-11-06T20-03-30Z.json) (withdrawn) | board | conductor@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T20-03-35Z` | [2026-11-06T20-03-35Z.json](https://promptugal.news/board/runs/abp/2026-11-06T20-03-35Z.json) (withdrawn) | board | abp@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T20-04-57Z` | [2026-11-06T20-04-57Z.json](https://promptugal.news/board/runs/dev.search/2026-11-06T20-04-57Z.json) (withdrawn) | board | dev@ 6 Nov 2026 |
@@ -39,11 +51,6 @@ source: board/catalogue.json
 | `TEAM.RUN 2026-11-06T20-08-00Z` | [2026-11-06T20-08-00Z.json](https://promptugal.news/board/runs/dev.search/2026-11-06T20-08-00Z.json) (withdrawn) | board | dev@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T20-09-37Z` | [2026-11-06T20-09-37Z.json](https://promptugal.news/board/runs/dev/2026-11-06T20-09-37Z.json) (withdrawn) | board | dev@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T20-11-51Z` | [2026-11-06T20-11-51Z.json](https://promptugal.news/board/runs/dev.pages/2026-11-06T20-11-51Z.json) (withdrawn) | board | dev@ 6 Nov 2026 |
-
-**Cards 2626 to 2650**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.RUN 2026-11-06T20-13-52Z` | [2026-11-06T20-13-52Z.json](https://promptugal.news/board/runs/researcher/2026-11-06T20-13-52Z.json) (withdrawn) | board | researcher@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T20-18-15Z` | [2026-11-06T20-18-15Z.json](https://promptugal.news/board/runs/dev.graphs/2026-11-06T20-18-15Z.json) (withdrawn) | board | dev@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T20-18-39Z` | [2026-11-06T20-18-39Z.json](https://promptugal.news/board/runs/observability/2026-11-06T20-18-39Z.json) (withdrawn) | board | observability@ 6 Nov 2026 |
@@ -62,6 +69,11 @@ source: board/catalogue.json
 | `TEAM.RUN 2026-11-06T21-14-12Z` | [2026-11-06T21-14-12Z.json](https://promptugal.news/board/runs/researcher/2026-11-06T21-14-12Z.json) (withdrawn) | board | researcher@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T21-17-18Z` | [2026-11-06T21-17-18Z.json](https://promptugal.news/board/runs/conductor/2026-11-06T21-17-18Z.json) (withdrawn) | board | conductor@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T21-17-32Z` | [2026-11-06T21-17-32Z.json](https://promptugal.news/board/runs/dev.graphs/2026-11-06T21-17-32Z.json) (withdrawn) | board | dev@ 6 Nov 2026 |
+
+**Cards 2651 to 2675**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.RUN 2026-11-06T21-18-00Z` | [2026-11-06T21-18-00Z.json](https://promptugal.news/board/runs/designer/2026-11-06T21-18-00Z.json) (withdrawn) | board | designer@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T21-21-48Z` | [2026-11-06T21-21-48Z.json](https://promptugal.news/board/runs/conductor/2026-11-06T21-21-48Z.json) (withdrawn) | board | conductor@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T21-22-36Z` | [2026-11-06T21-22-36Z.json](https://promptugal.news/board/runs/conductor.b/2026-11-06T21-22-36Z.json) (withdrawn) | board | conductor.b@ 6 Nov 2026 |
@@ -69,11 +81,6 @@ source: board/catalogue.json
 | `TEAM.RUN 2026-11-06T21-22-55Z` | [2026-11-06T21-22-55Z.json](https://promptugal.news/board/runs/researcher/2026-11-06T21-22-55Z.json) (withdrawn) | board | researcher@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T21-22-56Z` | [2026-11-06T21-22-56Z.json](https://promptugal.news/board/runs/librarian/2026-11-06T21-22-56Z.json) (withdrawn) | board | librarian@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T21-22-57Z` | [2026-11-06T21-22-57Z.json](https://promptugal.news/board/runs/sherpa/2026-11-06T21-22-57Z.json) (withdrawn) | board | sherpa@ 6 Nov 2026 |
-
-**Cards 2651 to 2675**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.RUN 2026-11-06T21-22-59Z` | [2026-11-06T21-22-59Z.json](https://promptugal.news/board/runs/customers/2026-11-06T21-22-59Z.json) (withdrawn) | board | customers@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T21-24-32Z` | [2026-11-06T21-24-32Z.json](https://promptugal.news/board/runs/journalist/2026-11-06T21-24-32Z.json) (withdrawn) | board | journalist@ 10 Nov 2026 |
 | `TEAM.RUN 2026-11-06T21-25-24Z` | [2026-11-06T21-25-24Z.json](https://promptugal.news/board/runs/conductor/2026-11-06T21-25-24Z.json) (withdrawn) | board | conductor@ 6 Nov 2026 |
@@ -92,6 +99,11 @@ source: board/catalogue.json
 | `TEAM.RUN 2026-11-06T22-23-10Z:2` | [2026-11-06T22-23-10Z.json](https://promptugal.news/board/runs/investors/2026-11-06T22-23-10Z.json) (withdrawn) | board | investors@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T22-23-10Z:3` | [2026-11-06T22-23-10Z.json](https://promptugal.news/board/runs/ontologist/2026-11-06T22-23-10Z.json) (withdrawn) | board | ontologist@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T22-23-35Z` | [2026-11-06T22-23-35Z.json](https://promptugal.news/board/runs/conductor.b/2026-11-06T22-23-35Z.json) (withdrawn) | board | conductor.b@ 6 Nov 2026 |
+
+**Cards 2676 to 2700**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.RUN 2026-11-06T22-26-37Z` | [2026-11-06T22-26-37Z.json](https://promptugal.news/board/runs/librarian/2026-11-06T22-26-37Z.json) (withdrawn) | board | librarian@ 7 Nov 2026 |
 | `TEAM.RUN 2026-11-06T22-31-23Z` | [2026-11-06T22-31-23Z.json](https://promptugal.news/board/runs/dev.data/2026-11-06T22-31-23Z.json) (withdrawn) | board | dev@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T22-37-28Z` | [2026-11-06T22-37-28Z.json](https://promptugal.news/board/runs/abp/2026-11-06T22-37-28Z.json) (withdrawn) | board | abp@ 6 Nov 2026 |
@@ -99,11 +111,6 @@ source: board/catalogue.json
 | `TEAM.RUN 2026-11-06T22-40-12Z` | [2026-11-06T22-40-12Z.json](https://promptugal.news/board/runs/conductor/2026-11-06T22-40-12Z.json) (withdrawn) | board | conductor@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T22-42-30Z` | [2026-11-06T22-42-30Z.json](https://promptugal.news/board/runs/dev.graphs/2026-11-06T22-42-30Z.json) (withdrawn) | board | dev@ 7 Nov 2026 |
 | `TEAM.RUN 2026-11-06T22-42-30Z:2` | [2026-11-06T22-42-30Z.json](https://promptugal.news/board/runs/dev.pages/2026-11-06T22-42-30Z.json) (withdrawn) | board | dev@ 7 Nov 2026 |
-
-**Cards 2676 to 2700**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.RUN 2026-11-06T22-42-30Z:3` | [2026-11-06T22-42-30Z.json](https://promptugal.news/board/runs/dev/2026-11-06T22-42-30Z.json) (withdrawn) | board | dev@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T22-42-33Z` | [2026-11-06T22-42-33Z.json](https://promptugal.news/board/runs/dev.search/2026-11-06T22-42-33Z.json) (withdrawn) | board | dev@ 7 Nov 2026 |
 | `TEAM.RUN 2026-11-06T22-42-34Z` | [2026-11-06T22-42-34Z.json](https://promptugal.news/board/runs/dev.data/2026-11-06T22-42-34Z.json) (withdrawn) | board | dev@ 7 Nov 2026 |
@@ -122,12 +129,5 @@ source: board/catalogue.json
 | `TEAM.RUN 2026-11-06T22-46-06Z` | [2026-11-06T22-46-06Z.json](https://promptugal.news/board/runs/journalist/2026-11-06T22-46-06Z.json) (withdrawn) | board | journalist@ 6 Nov 2026 |
 | `TEAM.RUN 2026-11-06T22-46-27Z` | [2026-11-06T22-46-27Z.json](https://promptugal.news/board/runs/correspondent/2026-11-06T22-46-27Z.json) (withdrawn) | board | correspondent@ 7 Nov 2026 |
 | `TEAM.RUN 2026-11-06T22-47-06Z` | [2026-11-06T22-47-06Z.json](https://promptugal.news/board/runs/customers/2026-11-06T22-47-06Z.json) (withdrawn) | board | customers@ 8 Nov 2026 |
-| `TEAM.RUN 2026-11-06T22-47-13Z` | [2026-11-06T22-47-13Z.json](https://promptugal.news/board/runs/backup/2026-11-06T22-47-13Z.json) (withdrawn) | board | backup@ 7 Nov 2026 |
-| `TEAM.RUN 2026-11-06T22-47-13Z:2` | [2026-11-06T22-47-13Z.json](https://promptugal.news/board/runs/investors/2026-11-06T22-47-13Z.json) (withdrawn) | board | investors@ 7 Nov 2026 |
-| `TEAM.RUN 2026-11-06T22-47-20Z` | [2026-11-06T22-47-20Z.json](https://promptugal.news/board/runs/ontologist/2026-11-06T22-47-20Z.json) (withdrawn) | board | ontologist@ 6 Nov 2026 |
-| `TEAM.RUN 2026-11-06T22-47-22Z` | [2026-11-06T22-47-22Z.json](https://promptugal.news/board/runs/researcher/2026-11-06T22-47-22Z.json) (withdrawn) | board | researcher@ 6 Nov 2026 |
-| `TEAM.RUN 2026-11-06T22-47-23Z` | [2026-11-06T22-47-23Z.json](https://promptugal.news/board/runs/designer.experiments/2026-11-06T22-47-23Z.json) (withdrawn) | board | designer@ 6 Nov 2026 |
-| `TEAM.RUN 2026-11-06T22-47-30Z` | [2026-11-06T22-47-30Z.json](https://promptugal.news/board/runs/outreach/2026-11-06T22-47-30Z.json) (withdrawn) | board | outreach@ 6 Nov 2026 |
-| `TEAM.RUN 2026-11-06T22-47-36Z` | [2026-11-06T22-47-36Z.json](https://promptugal.news/board/runs/devops/2026-11-06T22-47-36Z.json) (withdrawn) | board | devops@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-26.md) | [Next part](TEAM-28.md)

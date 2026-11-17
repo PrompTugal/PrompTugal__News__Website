@@ -1,14 +1,14 @@
 ---
 title: "The library of PrompTugal.news"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T13:00:04Z"
-site_version: "v0.1.1723"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T15:59:35Z"
+site_version: "v0.1.1732"
 source: board/catalogue.json
 ---
 
 # The library of PrompTugal.news
 
-Everything in this repository and on this site in one place: 4479 cards, who made each, and when.
+Everything in this repository and on this site in one place: 4493 cards, who made each, and when.
 
 Find something: open [the reading room](reading-room.htm) and type the first letters of a title, a call number or a kind. It also draws the library as a graph.
 
@@ -16,17 +16,17 @@ Three doors: [Find a page](reading-room.htm) | [What is new](notice-board.md) | 
 
 ## New this hour (new accessions: the newest things added)
 
-- `ACC-20261117-0298` [One reader across devices: the look of the pairing screens and the personal front page](https://promptugal.news/board/spec-one-reader-the-look.md)
-- `ACC-20261117-0297` [Spec: one reader across devices (pairing by QR code and append lane), and the personal PrompTugal.news](https://promptugal.news/board/spec-one-reader-across-devices.md)
-- `ACC-20261117-0296` [Plan: your own agentic cell, end to end (intake by vault and PKI, the factory, the hand-over to your own Claude)](https://promptugal.news/board/spec-agentic-cells-onboarding.md)
-- `ACC-20261117-0295` [2026-11-17-pairing-step-1](https://promptugal.news/board/passes/2026-11-17-pairing-step-1.md)
-- `ACC-20261117-0294` [the-payment-desk.svg](https://promptugal.news/board/briefs/2026-11-17-the-payment-desk/img/the-payment-desk.svg)
+- `ACC-20261117-0312` [Spec: who wrote it, who checked it, who signs it (the provenance and review model, and the newspaper's sections)](https://promptugal.news/board/spec-provenance-and-review.md)
+- `ACC-20261117-0311` [For Dinis: who wrote it, who checked it, who signs it](https://promptugal.news/newsroom/decisions/who-wrote-it-who-checked-it-who-signs-it/)
+- `ACC-20261117-0310` [Sul Informação: how we read it today, and how to read it properly](https://promptugal.news/board/briefs/2026-11-17-sul-informacao.md)
+- `ACC-20261117-0309` [Afternoon pass, 17 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-17/afternoon-items.md)
+- `ACC-20261117-0308` [ontologist@ to local@PrompTugal.jose, 17 November 2026 (answers to your two requests)](https://promptugal.news/board/team/ontologist/replies/2026-11-17-to-local-jose.md)
 
 (All of them: [the accession register](accession-register.jsonl).)
 
 ## The collections (each has a finding aid, a short guide)
 
-[Build, code and release](finding-aids/BLD.md) (5) | [Data and the ontology](finding-aids/DAT.md) (1298) | [Evidence and sources](finding-aids/EVD.md) (1) | [Guidance (special)](finding-aids/GDN.md) (653) | [The repository](finding-aids/GEN.md) (45) | [The library](finding-aids/LIB.md) (358) | [The publication](finding-aids/PUB.md) (1476) | [Readers and observability](finding-aids/RDR.md) (43) | [Agents, roles, keys](finding-aids/TEAM.md) (3460) | [Work in hand](finding-aids/WRK.md) (399)
+[Build, code and release](finding-aids/BLD.md) (5) | [Data and the ontology](finding-aids/DAT.md) (1298) | [Evidence and sources](finding-aids/EVD.md) (1) | [Guidance (special)](finding-aids/GDN.md) (653) | [The repository](finding-aids/GEN.md) (45) | [The library](finding-aids/LIB.md) (358) | [The publication](finding-aids/PUB.md) (1480) | [Readers and observability](finding-aids/RDR.md) (43) | [Agents, roles, keys](finding-aids/TEAM.md) (3467) | [Work in hand](finding-aids/WRK.md) (402)
 
 Also: [every pass and its findings](finding-aids/index.md) | [Dinis's guidance, his words](special/guidance.md) | [the reality tree](reality/index.md) (what exists and what is only proposed) | [the shelf list](shelf-list.md)
 

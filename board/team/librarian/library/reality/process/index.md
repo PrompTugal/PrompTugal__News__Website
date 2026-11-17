@@ -26,7 +26,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-1086 cards (1086 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-17T13:00:04Z at site v0.1.1723; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1089 cards (1089 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-17T15:59:35Z at site v0.1.1732; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -36,22 +36,22 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `GDN.Q` | 13 |
 | `GEN.BOARD` | 33 |
 | `GEN.README` | 1 |
-| `WRK.BRIEF` | 87 |
-| `WRK.DEC` | 16 |
+| `WRK.BRIEF` | 88 |
+| `WRK.DEC` | 17 |
 | `WRK.DESK` | 22 |
 | `WRK.FIND` | 177 |
 | `WRK.PASS` | 31 |
-| `WRK.PLAN` | 47 |
+| `WRK.PLAN` | 48 |
 | `WRK.STORY` | 4 |
 | `WRK.TASK` | 15 |
 
 Newest five accessions:
 
+- `ACC-20261117-0312` [Spec: who wrote it, who checked it, who signs it (the provenance and review model, and the newspaper's sections)](https://promptugal.news/board/spec-provenance-and-review.md) (`WRK.PLAN spec-provenance-and-review`)
+- `ACC-20261117-0311` [For Dinis: who wrote it, who checked it, who signs it](https://promptugal.news/newsroom/decisions/who-wrote-it-who-checked-it-who-signs-it/) (`WRK.DEC who-wrote-it-who-checked-it-who-signs-it`)
+- `ACC-20261117-0310` [Sul Informação: how we read it today, and how to read it properly](https://promptugal.news/board/briefs/2026-11-17-sul-informacao.md) (`WRK.BRIEF 2026-11-17-sul-informacao`)
 - `ACC-20261117-0298` [One reader across devices: the look of the pairing screens and the personal front page](https://promptugal.news/board/spec-one-reader-the-look.md) (`WRK.PLAN spec-one-reader-the-look`)
 - `ACC-20261117-0297` [Spec: one reader across devices (pairing by QR code and append lane), and the personal PrompTugal.news](https://promptugal.news/board/spec-one-reader-across-devices.md) (`WRK.PLAN spec-one-reader-across-devices`)
-- `ACC-20261117-0296` [Plan: your own agentic cell, end to end (intake by vault and PKI, the factory, the hand-over to your own Claude)](https://promptugal.news/board/spec-agentic-cells-onboarding.md) (`WRK.PLAN spec-agentic-cells-onboarding`)
-- `ACC-20261117-0295` [2026-11-17-pairing-step-1](https://promptugal.news/board/passes/2026-11-17-pairing-step-1.md) (`WRK.PASS 2026-11-17-pairing-step-1`)
-- `ACC-20261117-0294` [the-payment-desk.svg](https://promptugal.news/board/briefs/2026-11-17-the-payment-desk/img/the-payment-desk.svg) (`WRK.BRIEF the-payment-desk`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).
