@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1725",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 13:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "a68668b43"
+  },
+  {
     "version": "v0.1.1724",
     "date": "2026-11-17",
     "what": "conductor@PrompTugal.dinis: derived story data for the opinion piece (derive.mjs)",
