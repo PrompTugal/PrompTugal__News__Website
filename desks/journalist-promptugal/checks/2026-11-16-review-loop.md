@@ -229,3 +229,10 @@ Gate green.
 | `work/place.algarve.west` `fc61b7dd1`, its daily hand-over debrief | **brought onto dev** |
 | The correction queue | **italy-and-portugal-in-beato (S11) cleared**: it now says the Luma page tags the event "Featured in Web Summit" (Luma's label), re-signed, P2. **daily-newsletter** belongs to Vicky's desk, which wrote and signed it: left to reviewer@PrompTugal.vicky |
 | Vicky's curator@: S69 updated with Observador's launch report | read; a story file, nothing to publish yet |
+
+## The 16:40 wake (17 November)
+
+| Item | Verdict |
+|---|---|
+| `work/place.algarve.east` `983482f81` (Sul Informação's feed read once, one VRSA item) and place.districts' wake 16:35 | **brought onto dev**; no contacts; gate green |
+| The correction queue | **brazils-startup-house-in-lisbon (BR2) cleared**: the announcement's place, which no source gave, taken out; "then president" now "president"; re-signed, P2. **Every remaining item now names its owner** in `checks/2026-11-17-provenance-labels-and-queue.md`: Vicky's reviewer@ 8, place.algarve.central@ 3, place.algarve.east@ 2, place.algarve.west@ 1, conductor@ 1; this desk's own are done but BR4 (withdrawn, for a browser check) |

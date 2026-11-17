@@ -28,23 +28,23 @@ Every article in `content/articles/` now carries `type`, `provenance_origin`, `p
 
 Each stays P1 until its findings are taken or answered; this desk works through them, its own first, and asks the place desks for theirs. Findings: `desks/checker-vicky/findings/<slug>.md`.
 
-- [ ] `alcoutim-council-in-a-weeding-robot-project`
+- [ ] `alcoutim-council-in-a-weeding-robot-project` · owner: place.algarve.east@ (author place.alcoutim@PrompTugal.dinis)
 - [x] `brazil-last-year-counts` (17 Nov, 14:50: both findings taken, P2)
-- [ ] `brazil-on-the-stages` (withdrawn from the live site on 11 November; its findings rest on Web Summit pages, for a person's browser check)
+- [ ] `brazil-on-the-stages` (withdrawn from the live site on 11 November; its findings rest on Web Summit pages, for a person's browser check) · owner: journalist@PrompTugal.dinis (author journalist@PrompTugal.dinis)
 - [x] `brazils-doors-into-europe` (17 Nov, 14:50: both findings taken, P2)
-- [ ] `brazils-startup-house-in-lisbon`
-- [ ] `daily-newsletter` (Vicky's desk wrote and signed it: asked of reviewer@PrompTugal.vicky)
-- [ ] `europe-ai-help-and-portugal-ai-startups`
-- [ ] `following-robotics-at-web-summit`
-- [ ] `how-agents-avoid-collisions`
+- [x] `brazils-startup-house-in-lisbon` (17 Nov, 16:55: both findings taken, P2)
+- [ ] `daily-newsletter` (Vicky's desk wrote and signed it: asked of reviewer@PrompTugal.vicky) · owner: reviewer@PrompTugal.vicky (author journalist-ai@PrompTugal.vicky)
+- [ ] `europe-ai-help-and-portugal-ai-startups` · owner: reviewer@PrompTugal.vicky (author journalist-connections@PrompTugal.vicky)
+- [ ] `following-robotics-at-web-summit` · owner: reviewer@PrompTugal.vicky (author journalist-ai@web-summit.vicky)
+- [ ] `how-agents-avoid-collisions` · owner: reviewer@PrompTugal.vicky (author journalist-ai@PrompTugal.vicky)
 - [x] `italy-and-portugal-in-beato` (17 Nov, 15:50: the source's label stated, P2; whether Web Summit's schedule lists it still waits on a person's browser check)
-- [ ] `know-the-reach-ai-music-video`
-- [ ] `lisbon-universities-at-web-summit`
-- [ ] `mistakes-we-made`
-- [ ] `monchique-ai-in-the-accounts-not-the-forest`
-- [ ] `octo-health-launches`
-- [ ] `promptugal-news-local-news-town-by-town`
-- [ ] `riskmandate-film-claude-laptop`
-- [ ] `six-people-250-agents-promptugal-news`
-- [ ] `vila-real-de-santo-antonio-shipyard-robots-and-drones`
-- [ ] `web-summit-before-2026`
+- [ ] `know-the-reach-ai-music-video` · owner: place.algarve.central@ (author place.loule@PrompTugal.dinis)
+- [ ] `lisbon-universities-at-web-summit` · owner: reviewer@PrompTugal.vicky (author journalist-portugal@web-summit.vicky)
+- [ ] `mistakes-we-made` · owner: reviewer@PrompTugal.vicky (author journalist-ai@PrompTugal.vicky)
+- [ ] `monchique-ai-in-the-accounts-not-the-forest` · owner: place.algarve.west@ (author place.monchique@PrompTugal.dinis)
+- [ ] `octo-health-launches` · owner: reviewer@PrompTugal.vicky (author journalist-portugal@PrompTugal.vicky)
+- [ ] `promptugal-news-local-news-town-by-town` · owner: conductor@PrompTugal.dinis (author conductor@PrompTugal.dinis)
+- [ ] `riskmandate-film-claude-laptop` · owner: place.algarve.central@ (author place.loule@PrompTugal.dinis)
+- [ ] `six-people-250-agents-promptugal-news` · owner: place.algarve.central@ (author place.loule@PrompTugal.dinis)
+- [ ] `vila-real-de-santo-antonio-shipyard-robots-and-drones` · owner: place.algarve.east@ (author place.vila-real-de-santo-antonio@PrompTugal.dinis)
+- [ ] `web-summit-before-2026` · owner: reviewer@PrompTugal.vicky (author journalist@PrompTugal.vicky)
