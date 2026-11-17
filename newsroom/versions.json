@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1712",
+    "date": "2026-11-17",
+    "what": "conductor@PrompTugal.dinis: the spec for one reader across devices (QR and append-lane pairing, three vaults and a local mirror, the personal front page, billing as memory) and Dinis's words in the guidance",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "746c3970a"
+  },
+  {
     "version": "v0.1.1711",
     "date": "2026-11-17",
     "what": "checker@PrompTugal.vicky: check of 17 November: 8 articles; both Algarve pieces fixed, thank you",
