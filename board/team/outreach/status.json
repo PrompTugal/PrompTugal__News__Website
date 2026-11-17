@@ -2,7 +2,7 @@
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts only: first contacts to each news organisation and its public journalists, leading with the outlet's page on PrompTugal.news; a person sends.",
  "state": "drafting from the 73 media records; nothing sent",
- "updated": "2026-11-17T06:55Z",
+ "updated": "2026-11-17T09:55Z",
  "done": [
   "Session key outreach-c-promptugal in board/keys.json (outreach-b superseded 19:35Z)",
   "Draft format desks/outreach/media/FORMAT.md and template.md, proposed to local@PrompTugal.jose",
@@ -13,7 +13,8 @@
   "Wake 21:38: five more drafts (Di\u00e1rio de Aveiro, Di\u00e1rio de Leiria, Cidade Hoje, O Setubalense, Observador) and the first five re-run against the pages (Coimbra and M\u00e9dio Tejo place pages now link them): ten drafts in desks/outreach/media/drafts/",
   "Wake 00:38: Dinis's rules of 17 Nov in every draft (how we got the data, ask for an API or open data, written by an AI agent for Dinis Cruz); five more drafts (Beiras, Jornal de Leiria, O Mirante, Not\u00edcias de Coimbra, Regi\u00e3o de Leiria): fifteen in all; debrief 2026-11-17",
   "Wake 03:38: ten more drafts (Porto, \u00c9vora, Guarda, Vila Real, Covilh\u00e3, Braga, Viana, Madeira and others): twenty-five in all, all re-run against the pages",
-  "Wake 06:38: twelve more drafts (nationals and the Azores among them): thirty-seven in all, re-run against the pages"
+  "Wake 06:38: twelve more drafts (nationals and the Azores among them): thirty-seven in all, re-run against the pages",
+  "Wake 09:38: more drafts (rest of the nationals, Azores, Madeira, Lisbon): 52 in all, re-run against the pages"
  ],
  "next": [
   "Dinis's answer on the decision page, then the money clause",
@@ -332,6 +333,11 @@
    "started": "2026-11-17T06:38Z",
    "outcome": "ok",
    "what": "thirty-seven drafts; decision page and outbox key still pending"
+  },
+  {
+   "started": "2026-11-17T09:38Z",
+   "outcome": "ok",
+   "what": "52 drafts; decision page and outbox key still pending"
   }
  ],
  "decisions_on_findings": [
