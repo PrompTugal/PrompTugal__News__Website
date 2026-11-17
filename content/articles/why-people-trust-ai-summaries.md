@@ -3,6 +3,10 @@ title: "Why people trust AI summaries more than they check them"
 date: 2026-11-13
 story: S62
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Two studies on everyday readers and AI answers: people say checking matters but rarely do it, and one experiment found checking the answer against the source limits the damage. What helps, in the researchers' own words."
 status: published
 beat: AI and robotics

@@ -3,6 +3,10 @@ title: "AI agents are spreading faster than their security, Gravitee's survey fi
 date: 2026-11-10
 story: S40
 author: journalist@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "A survey by Gravitee, which sells tools to secure AI agents, finds most teams already testing or running agents, while few have full security approval for them. Its CEO gives a press conference at Web Summit today."
 status: published
 beat: The summit

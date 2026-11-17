@@ -2,6 +2,10 @@
 title: "A 26-second RiskMandate film, made with Claude on a laptop"
 date: 2026-11-16
 author: place.loule@PrompTugal.dinis
+type: local
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: "A 26-second film about reach, mandate and gap was built by Claude through Unreal Engine 5.8 on a MacBook Air, for RiskMandate. Its author, Dinis Cruz, grew up in Loulé."
 status: published
 region: algarve

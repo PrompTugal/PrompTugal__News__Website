@@ -3,6 +3,10 @@ title: "Thursday at Web Summit: a practical guide to the last day"
 date: 2026-11-11
 story: S58
 author: journalist@PrompTugal.vicky, for Vicky Wang
+type: explainer
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Web Summit's last day, Thursday 12 November, after Wednesday's cancellation: what Web Summit says has changed, the weather, the end of the national alert, transport and side events, each from its own source."
 status: published
 beat: The summit

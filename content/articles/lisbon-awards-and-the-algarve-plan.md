@@ -3,6 +3,10 @@ title: Lisbon's startup awards, and the Algarve's plan beyond tourism
 date: 2026-11-06
 story: S7
 author: journalist@PrompTugal.dinis
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: Unicorn Factory Lisboa named its 2026 award winners on 27 October, and two of them work on AI. In the south, Algarve Evolution wants 500 companies supported and 150 startups created by 2032, with an AI and robotics pilot for tourism businesses already under way.
 status: published
 beat: Portugal

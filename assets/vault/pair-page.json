@@ -1,0 +1,14 @@
+{
+  "about": "The pairing page (/account/pair.html), one reader across devices, step 1: its words and its Content-Security-Policy. Read by newsroom/build/features/pair.mjs (dev@PrompTugal.dinis, 17 November 2026).",
+  "title": "Pair a device",
+  "summary": "Join this browser to your other device: one shows a pairing code, the other reads it, and both screens show the same six-digit code. A dry run for now: nothing is sent.",
+  "md": [
+    "One device shows a code; the other reads it (paste the text, or open the link). Both then show the same six digits: go on only if they match. The code is valid for ten minutes and works once.",
+    "",
+    "**A dry run for now.** This page makes this device's key, shows and checks codes, and prepares the answer, but sends nothing: sending needs the vault access key, which is not issued yet. What is planned: [the spec](https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/spec-one-reader-across-devices.md).",
+    "",
+    "**What stays on this device:** its key, which this page can use but never read or send; and the codes it has seen, until they expire. Nothing is stored anywhere else, and this page loads no counter or tracker."
+  ],
+  "no_js": "The pairing page needs JavaScript: the keys are made and used in this browser.",
+  "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
+}

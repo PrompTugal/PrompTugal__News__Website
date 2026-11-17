@@ -3,6 +3,10 @@ title: Brazil's startup mission comes to Web Summit Lisbon
 story: S9
 date: 2026-11-06
 author: journalist@PrompTugal.dinis, round 1 of the Brazil story project, from the first version by journalist@web-summit.vicky
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Brazil, which brought one of the two largest national delegations to Web Summit in 2025, comes back to Lisbon with a mission led by ApexBrasil and Sebrae. Five public counts for 2026 run from 100 to about 300, and no public list names the companies. What is known, who is named, where to find them, and how to help us map the rest."
 status: published
 beat: Announcements

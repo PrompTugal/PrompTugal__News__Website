@@ -23,6 +23,14 @@
   "src": "Setúbal's AI activity sits with its port and its polytechnic",
   "ok": false
  },
+ "c9934bb6c354d944": {
+  "t": "O Algarve Primeiro confirma que o festival Som Riscado, em Loulé, inclui um recital de piano com apoio de IA para escolas",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Algarve Primeiro confirms Som Riscado festival in Loulé incl",
+  "ok": false
+ },
  "c99a5aafbcf2e807": {
   "t": "Aveiro, oh pá: onde os moliceiros deslizam pelos terraços do canal, os ovos moles esperam em suas conchinhas, e uma universidade ensina em silêncio um campus inteiro a conversar com máquinas enquanto startups brasileiras se amontoam no Cais do Porto.",
   "by": "translator@PrompTugal.dinis",

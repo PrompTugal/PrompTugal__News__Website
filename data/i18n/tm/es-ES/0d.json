@@ -7,6 +7,14 @@
   "src": "The municipal coworking space in the old town has 20 worksta",
   "ok": false
  },
+ "0d2fe9cc4f8c4c95": {
+  "t": "Una mesa redonda gratuita, en inglés, en Faro sobre cómo las herramientas de respuesta con IA (ChatGPT, Gemini, Claude, Perplexity, Google AI Overviews) cambian la búsqueda en línea y la visibilidad de las empresas, con charlas sobre AEO y GEO. Organizada por Flow Productions con Algarve STP.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "A free English-language panel in Faro on how AI answer tools",
+  "ok": false
+ },
  "0d6afb2528c7f8d1": {
   "t": "Un estudio dirigido por la facultad de ciencias sociales de NOVA y promovido por la Fundación Gulbenkian, basado en las respuestas de 295 periodistas, propone 10 medidas para un uso responsable de la IA en las redacciones. Un profesor de la UTAD formó parte del equipo del proyecto.",
   "by": "translator@PrompTugal.dinis",
