@@ -1,0 +1,50 @@
+{
+ "8f3b7d507ba8778d": {
+  "t": "Luke Setúbal i Lisabon pokreću projekt UI-ja i planiraju podatkovni centar",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Setúbal and Lisbon ports start an AI project and plan a data",
+  "ok": false
+ },
+ "8f429062903b2dfa": {
+  "t": "Općina podupire radionicu o UI-ju na Sveučilištu u Algarveu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Council backs an AI workshop at the University of Algarve",
+  "ok": false
+ },
+ "8f6bfc3f243d5363": {
+  "t": "Postal predstavlja Sparos sa sjedištem u Olhãou: njegovo područje Digital Nutrition prikuplja i analizira podatke kako bi preporučilo planove hranidbe, uz HatchTools (web aplikaciju za mrijestilišta) i OptiFeeSH (modul za planove hranidbe za softver AquaManager, s grčkom tvrtkom I2S). Koristi algoritme za predviđanje potreba za hranom po fazama rasta.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Postal profiles Sparos, based in Olhão: its Digital Nutritio",
+  "ok": false
+ },
+ "8f8393c1b7217470": {
+  "t": "Politécnico de Viseu predstavlja RISKMAP, alat UI-ja koji nadzire baštinske zgrade",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Politécnico de Viseu shows RISKMAP, an AI tool that watches ",
+  "ok": false
+ },
+ "8f890cc585bd0e34": {
+  "t": "Na predavanju u poljoprivrednoj školi politehnike istraživači iz planinskog istraživačkog centra CIMO i iz CeDRI-ja govorili su o senzorima i slikama za odluke na farmama, poljskoj robotici, dronovima i satelitskim snimkama.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "A session at the polytechnic's agrarian school heard researc",
+  "ok": false
+ },
+ "8fe07e1630031ef4": {
+  "t": "Aktivnost UI-ja u Coimbri izrasta iz njezina sveučilišta. Sveučilište u Coimbri preustrojilo je svoje programe u preddiplomski i diplomski studij Umjetne inteligencije i znanosti o podacima, njegova istraživačka jedinica INESCC vodi UI projekt o hibridnim prijetnjama financiran iz obrambenih sredstava, a Feedzai, portugalska tvrtka za UI nastala iz sveučilišnog istraživanja, ima sjedište u gradu. Oko sveučilišta su Instituto Pedro Nunes, koji vodi inkubator i UI navodi kao uslugu, te općinska agencija Go Coimbra, koja UI navodi kao jedan od pet prioritetnih sektora. Općina se pojavljuje i kao pilot prve faze UI-ja u urbanističkom licenciranju, pa je ovdje dio priče i gradska uprava, a ne samo istraživanje.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Coimbra's AI activity grows out of its university. The Unive",
+  "ok": false
+ }
+}

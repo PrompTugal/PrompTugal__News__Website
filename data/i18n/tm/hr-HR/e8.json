@@ -1,0 +1,18 @@
+{
+ "e816116cfda136b0": {
+  "t": "Više od 150 ljudi prisustvovalo je konferenciji 21. veljače 2026. o digitalnim izazovima u obrazovanju, na kojoj su među temama bile digitalna sigurnost, tehnološka pismenost i korištenje umjetne inteligencije.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "More than 150 people attended the 21 February 2026 conferenc",
+  "ok": false
+ },
+ "e8db8674d792a747": {
+  "t": "Ljudi koji su javno govorili ili pristali biti navedeni. Samo javne, profesionalne činjenice; bez osobnih kontakata.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "People who have spoken publicly or agreed to be listed. Publ",
+  "ok": false
+ }
+}

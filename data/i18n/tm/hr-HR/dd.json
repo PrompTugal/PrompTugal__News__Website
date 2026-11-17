@@ -1,0 +1,18 @@
+{
+ "ddd9c693aaa1cc5e": {
+  "t": "Universidade de Évora kaže da je izradila modele UI-ja na portugalskom jeziku",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Universidade de Évora says it has built Portuguese-language ",
+  "ok": false
+ },
+ "dded4f00e6d60967": {
+  "t": "Najprije nacionalni plan, preko 400 milijuna eura uglavnom europskog novca, zatim AMALIA, superračunala i startup scena koja u Portu i Lisabonu stalno prikuplja nove krugove.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "First the national plan, over 400 million euros of mostly Eu",
+  "ok": false
+ }
+}

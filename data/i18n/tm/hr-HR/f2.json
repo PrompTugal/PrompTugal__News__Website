@@ -1,0 +1,26 @@
+{
+ "f286c40d54dd940a": {
+  "t": "Vila Real, ó pá: gdje Marão drži vjetar vani, vinova loza se penje po terasama, a sveučilište tiho uči cijeli Sjever razgovarati sa strojevima prije ručka.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Vila Real, ó pá: where the Marão keeps the wind out, the vin",
+  "ok": false
+ },
+ "f2b3de0137a397b3": {
+  "t": "PrompTugal.news Portalegre: UI i tehnologija u Portalegreu, glavnom gradu Alto Alentejoa čije je težište njegovo politehničko sveučilište i ambicije u IoT-u, poljoprivredi i obrambenoj tehnologiji oko njega, te što do Portalegrea stiže iz Alentejoa, Portugala i svijeta. Neovisno; svaka činjenica ima izvor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Portalegre: AI and technology in Portalegre,",
+  "ok": false
+ },
+ "f2e6d54a12a3da5d": {
+  "t": "Vodovodna tvrtka Portimãoa koristi senzore UI-ja za lov na curenja",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Portimão's water company uses AI sensors to hunt leaks",
+  "ok": false
+ }
+}
