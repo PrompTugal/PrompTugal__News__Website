@@ -308,7 +308,8 @@
     "NERA's public newsletters (February to June 2026) mention regional digital and AI projects (an agriculture robotics and AI diagnostic, a digital training project for microenterprises, a startup call for hotels) but none names Vila Real de Santo António. A search result suggested an Algarve Empreende 2026 session in the town, and we could not confirm it from a page we may read. Ask NERA and the University of Algarve's business support unit.",
     "Nothing new on Nautiber, council decisions or AI on the council pages on 16 November. Search snippets mention a PRR housing rehabilitation of 372 units, the 2026 budget and a PDM consultation: unopened, not used.",
     "The national earthquake exercise item (5 November) and the storm alert notice were seen only as headlines.",
-    "Only the front page and the highlights list of the council's news were read on 17 November; other items seen there (a film festival 24 to 29 November, a canned-fish day, a library session) have unconfirmed dates and were not used."
+    "Only the front page and the highlights list of the council's news were read on 17 November; other items seen there (a film festival 24 to 29 November, a canned-fish day, a library session) have unconfirmed dates and were not used.",
+    "Sul Informação's RSS feed (sulinformacao.pt/feed/) answered 200 to a named user agent on 17 November and holds only the latest 10 items on every subject; its article pages and AI tag feed refuse (403), so only headlines and dates from the feed are used. The hourly collector belongs to datasci.places@ (board/briefs/2026-11-17-sul-informacao.md)."
   ],
   "voice": {
     "lede": "Ó pá, a whole town drawn with a ruler in two years, and now it counts its pedestrians like a careful sardine merchant.",
@@ -408,6 +409,17 @@
       "ai_path": "no AI",
       "steps": 0,
       "blast_radius": "Ayamonte (Spain), Castro Marim"
+    },
+    {
+      "title": "Rafael Martini brings Brazilian jazz to Vila Real de Santo António, with Susana Travassos as a guest",
+      "summary": "Known from the headline and date in Sul Informação's public RSS feed only (read 17 November 2026); its article page refuses automated reading, so no detail is given here.",
+      "date": "2026-11-17",
+      "publisher": "Sul Informação",
+      "url": "https://www.sulinformacao.pt/2026/11/rafael-martini-leva-jazz-brasileiro-a-vila-real-de-santo-antonio-e-convida-susana-travassos/",
+      "read_on": "2026-11-17",
+      "significance": "town",
+      "ai_path": "no AI",
+      "steps": 0
     }
   ],
   "contacts": [
