@@ -47,7 +47,8 @@
             "enum": [
               "fact",
               "estimate",
-              "opinion"
+              "opinion",
+              "testimony"
             ]
           },
           "source": {
@@ -94,6 +95,36 @@
           "note": {
             "type": "string",
             "minLength": 1
+          },
+          "evidence_check": {
+            "type": "object",
+            "required": [
+              "status",
+              "checked_on",
+              "by"
+            ],
+            "properties": {
+              "status": {
+                "enum": [
+                  "not-checked",
+                  "resolves",
+                  "says-it",
+                  "fails"
+                ]
+              },
+              "checked_on": {
+                "$ref": "common.schema.json#/$defs/date"
+              },
+              "by": {
+                "$ref": "common.schema.json#/$defs/agent"
+              },
+              "note": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false,
+            "description": "the evidence followed to where it says it: does the link resolve, and does the page say what the claim says (spec-provenance-and-review.md, axis C)"
           }
         },
         "additionalProperties": false
@@ -101,5 +132,5 @@
     }
   },
   "additionalProperties": false,
-  "description": "Every claim the story rests on, each marked fact (the source states it), estimate (a number the source gives as approximate, or a sum we made, said so) or opinion (someone's view, attributed), with its source and, where useful, the source's words."
+  "description": "Every claim the story rests on, each marked fact (the source states it), estimate (a number the source gives as approximate, or a sum we made, said so) or opinion (someone's view, attributed), with its source and, where useful, the source's words. A testimony is a named person's first-hand account (kind testimony), with the person named in `about`."
 }
