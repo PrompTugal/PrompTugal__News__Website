@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1752",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 22:05 wake: 27 commits clean; S69 checked; the 17 November hand-over debrief",
+    "by": "security@PrompTugal.dinis",
+    "from": "838311a3c"
+  },
+  {
     "version": "v0.1.1751",
     "date": "2026-11-17",
     "what": "conductor.b@PrompTugal.dinis: 21:48 wake: ledger 2150Z; watch line, status",
