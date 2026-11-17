@@ -1,8 +1,23 @@
 {
  "id": "o-mirante",
  "feed": "https://rss.impresa.pt/feed/latest/mirante.rss",
- "read_at": "2026-11-16T22:14Z",
+ "read_at": "2026-11-17T00:13Z",
  "items": [
+  {
+   "title": "Lino Maria André",
+   "link": "https://omirante.pt/aniversarios/2026-11-17-lino-maria-andre-b2df96cc",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "João Madeira Lopes",
+   "link": "https://omirante.pt/aniversarios/2026-11-17-joao-madeira-lopes-4137ad5f",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Joaquim Isidro dos Santos",
+   "link": "https://omirante.pt/memoria/2026-11-17-joaquim-isidro-dos-santos-730e1ca8",
+   "date": "2026-11-17"
+  },
   {
    "title": "CPCD festeja meio século com inauguração de pavilhão desportivo na Póvoa de Santa Iria",
    "link": "https://omirante.pt/desporto/2026-11-16-cpcd-festeja-meio-seculo-com-inauguracao-de-pavilhao-desportivo-na-povoa-de-santa-iria-4c03b924",
@@ -11,21 +26,6 @@
   {
    "title": "Câmara do Entroncamento quer uniformizar esplanadas mas regras levantam críticas",
    "link": "https://omirante.pt/economia/2026-11-16-camara-do-entroncamento-quer-uniformizar-esplanadas-mas-regras-levantam-criticas-a7439fac",
-   "date": "2026-11-16"
-  },
-  {
-   "title": "Abrantes volta a tentar desbloquear reabilitação do centro histórico de Alferrarede",
-   "link": "https://omirante.pt/sociedade/2026-11-16-abrantes-volta-a-tentar-desbloquear-reabilitacao-do-centro-historico-de-alferrarede-9169b52c",
-   "date": "2026-11-16"
-  },
-  {
-   "title": "Colisão entre três veículos na Circular Urbana de Santarém faz um ferido grave",
-   "link": "https://omirante.pt/omirantetv/2026-11-16-video-colisao-entre-tres-veiculos-na-circular-urbana-de-santarem-faz-um-ferido-grave-040d586d",
-   "date": "2026-11-16"
-  },
-  {
-   "title": "Cinco viaturas avariadas agravam recolha de lixo em Benavente",
-   "link": "https://omirante.pt/sociedade/2026-11-16-cinco-viaturas-avariadas-agravam-recolha-de-lixo-em-benavente-956378ba",
    "date": "2026-11-16"
   }
  ]

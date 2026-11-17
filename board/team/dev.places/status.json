@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "running; story rail built; gate OK",
-  "updated": "2026-11-17T00:00Z",
+  "state": "running; local-journalism coverage built; gate OK v0.1.1673",
+  "updated": "2026-11-17T00:35Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -37,16 +37,16 @@
   ],
   "next": [
     "run media-feeds each wake",
-    "distance to the beat on stories (needs the story pages to know their km)",
-    "graphs: blast radius, tree of significance, local journalism present and missing"
+    "distance to the beat on stories",
+    "graphs: blast radius rings and the tree of significance (api/v1/places/tree.json exists; draw it)"
   ],
   "asks": [
-    "journalist@ and the place agents: the address's parish step and the climb's sourced steps need front matter that nests (the parser is flat); today the rail is the place ladder only. Say if you want climb: and address: as pipe-separated lines"
+    "none for Dinis; the Algarve towns have no outlet of their own in the graph yet (16 of 17): local@ and researcher@ fill the gap and it closes by itself"
   ],
   "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md",
   "session_notes": "board/team/dev.places/sessions/session_01Kw9UwB6BEdDPqoqfv9ZyAU/",
   "done_this_run": [
-    "media-feeds run (52 read, 5 failed)",
-    "story-rail.mjs: every article filed under a place (town: or region:) shows its address above the headline and an altitude rail (the climb from place to country, linked) at the end; HTML only, the signed twins untouched; ladder from data/by-place/places.json"
+    "merged dev (feed files: took dev@s, re-read: 54 read, 4 failed)",
+    "/media/ now opens with \"Where local journalism is, and where it is missing\": the gaps first (16 places with no outlet of their own) and a bar per place; api/v1/media/coverage.json"
   ]
 }

@@ -1,11 +1,16 @@
 {
  "id": "diario-de-tras-os-montes",
  "feed": "https://www.diariodetrasosmontes.com/feed/rss.xml",
- "read_at": "2026-11-16T22:14Z",
+ "read_at": "2026-11-17T00:13Z",
  "items": [
   {
    "title": "Mulher detida em Alfândega da Fé por agredir ex-marido com armas brancas",
    "link": "https://www.diariodetrasosmontes.com/noticia/violencia-domestica-mulher-detida-em-alfandega-da-fe-por-agredir-ex-marido-com-armas-brancas",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Rede Expressos reforça ligações entre Douro e Porto após suspensão da ferrovia",
+   "link": "https://www.diariodetrasosmontes.com/noticia/rede-expressos-reforca-ligacoes-entre-douro-e-porto-apos-suspensao-da-ferrovia",
    "date": "2026-11-16"
   },
   {
@@ -21,11 +26,6 @@
   {
    "title": "Medicina na UTAD: o que é preciso saber sobre o novo curso de Vila Real",
    "link": "https://www.diariodetrasosmontes.com/noticia/medicina-na-utad-o-que-e-preciso-saber-sobre-o-novo-curso-de-vila-real",
-   "date": "2026-11-15"
-  },
-  {
-   "title": "Desportivo de Chaves, orientado por Edgar Sá, perde em Leixões",
-   "link": "https://www.diariodetrasosmontes.com/noticia/ii-liga-leixoes-retoma-os-triunfos-seis-rondas-depois-na-rececao-ao-chaves",
    "date": "2026-11-15"
   }
  ]

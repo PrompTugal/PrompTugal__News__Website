@@ -1,8 +1,13 @@
 {
  "id": "portugal-resident",
  "feed": "https://www.portugalresident.com/feed/",
- "read_at": "2026-11-16T22:14Z",
+ "read_at": "2026-11-17T00:13Z",
  "items": [
+  {
+   "title": "The gift of a bad night",
+   "link": "https://www.portugalresident.com/the-gift-of-a-bad-night/",
+   "date": "2026-11-16"
+  },
   {
    "title": "Shocking images show Lisbon school pupils kicking and beating 13-year-old girl",
    "link": "https://www.portugalresident.com/shocking-images-show-lisbon-school-pupils-kicking-and-beating-13-year-old-girl/",
@@ -21,11 +26,6 @@
   {
    "title": "Economists challenge full cost of new Lisbon airport",
    "link": "https://www.portugalresident.com/economists-challenge-full-cost-of-new-lisbon-airport/",
-   "date": "2026-11-16"
-  },
-  {
-   "title": "Portimão ready for potentially championship-deciding MotoGP race",
-   "link": "https://www.portugalresident.com/motogp-portimao-2026-championship-decider/",
    "date": "2026-11-16"
   }
  ]

@@ -1,8 +1,13 @@
 {
  "id": "pplware",
  "feed": "https://pplware.sapo.pt/feed/",
- "read_at": "2026-11-16T22:14Z",
+ "read_at": "2026-11-17T00:13Z",
  "items": [
+  {
+   "title": "Transformaram uma impressora 3D comum numa máquina que cria materiais vivos",
+   "link": "https://pplware.sapo.pt/ciencia/impressora-3d-cria-materiais-vivos/",
+   "date": "2026-11-16"
+  },
   {
    "title": "E&#8230; mais novidades Playstation Plus para novembro de 2026",
    "link": "https://pplware.sapo.pt/jogos/e-mais-novidades-playstation-plus-para-novembro-de-2026/",
@@ -21,11 +26,6 @@
   {
    "title": "Gadgets retro estão de volta: este rádio FM monta-se em casa",
    "link": "https://pplware.sapo.pt/gadgets/gadgets-retro-estao-de-volta-este-radio-fm-monta-se-em-casa/",
-   "date": "2026-11-16"
-  },
-  {
-   "title": "Mais de 185 mil pessoas querem Jensen Huang de volta à liderança da Nvidia",
-   "link": "https://pplware.sapo.pt/inteligencia-artificial/mais-de-185-mil-pessoas-querem-jensen-huang-de-volta-a-lideranca-da-nvidia/",
    "date": "2026-11-16"
   }
  ]

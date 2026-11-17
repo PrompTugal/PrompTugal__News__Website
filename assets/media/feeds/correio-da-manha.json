@@ -1,31 +1,31 @@
 {
  "id": "correio-da-manha",
  "feed": "https://www.cmjornal.pt/rss",
- "read_at": "2026-11-16T22:14Z",
+ "read_at": "2026-11-17T00:13Z",
  "items": [
   {
-   "title": "<![CDATA[ Mo�ambicano Ven�ncio Mondlane est� \"firme e bem-disposto\" para julgamento ]]>",
-   "link": "https://www.cmjornal.pt/mundo/detalhe/mocambicano-venancio-mondlane-esta-firme-e-bem-disposto-para-julgamento",
+   "title": "<![CDATA[ Duas pontes atingidas por ataques russos em Kiev ]]>",
+   "link": "https://www.cmjornal.pt/mais-cm/especiais/guerra-na-ucrania/detalhe/duas-pontes-atingidas-por-ataques-russos-em-kiev",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "<![CDATA[ Moeve considera vender rede de postos de abastecimento em Portugal e Espanha ]]>",
+   "link": "https://www.cmjornal.pt/economia/detalhe/moeve-considera-vender-rede-de-postos-de-abastecimento-em-portugal-e-espanha",
    "date": "2026-11-16"
   },
   {
-   "title": "<![CDATA[ Acidente ou encena��o? Burl�es abordam condutores e exigem dinheiro por supostos danos em viaturas ]]>",
-   "link": "https://www.cmjornal.pt/portugal/detalhe/acidente-ou-encenacao-burloes-abordam-condutores-e-exigem-dinheiro-por-supostos-danos-em-viaturas-veja-na-cmtv",
+   "title": "<![CDATA[ S�nchez anuncia aumentos salariais dos funcion�rios p�blicos ]]>",
+   "link": "https://www.cmjornal.pt/mundo/detalhe/sanchez-anuncia-aumentos-salariais-dos-funcionarios-publicos",
    "date": "2026-11-16"
   },
   {
-   "title": "<![CDATA[ \"Dizem que passei numa rotunda e que n�o parei\": burl�es encenam acidente para exigir dinheiro a condutores ]]>",
-   "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/dizem-que-passei-numa-rotunda-e-que-nao-parei-burloes-encenam-acidente-para-exigir-dinheiro-a-condutores",
+   "title": "<![CDATA[ Seguro considera essencial discutir influ�ncia de poder econ�mico no jornalismo ]]>",
+   "link": "https://www.cmjornal.pt/politica/detalhe/seguro-considera-essencial-discutir-influencia-de-poder-economico-no-jornalismo",
    "date": "2026-11-16"
   },
   {
-   "title": "<![CDATA[ Recuperar o dinheiro perdido pode revelar-se t�o dif�cil como provar a burla por falso acidente ]]>",
-   "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/recuperar-o-dinheiro-perdido-pode-revelar-se-tao-dificil-como-provar-a-burla-por-falso-acidente",
-   "date": "2026-11-16"
-  },
-  {
-   "title": "<![CDATA[ Faro � o distrito que apresenta maior n�mero de burlas por falsos acidentes ]]>",
-   "link": "https://www.cmjornal.pt/cmtv/videos/detalhe/faro-e-o-distrito-que-apresenta-maior-numero-de-burlas-por-falsos-acidentes",
+   "title": "<![CDATA[ Pris�o preventiva para dois suspeitos de tr�fico de droga detidos em Gr�ndola ]]>",
+   "link": "https://www.cmjornal.pt/portugal/detalhe/prisao-preventiva-para-dois-suspeitos-de-trafico-de-droga-detidos-em-grandola",
    "date": "2026-11-16"
   }
  ]

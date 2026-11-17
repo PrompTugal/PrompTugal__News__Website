@@ -1,8 +1,13 @@
 {
  "id": "medio-tejo",
  "feed": "https://mediotejo.net/feed/",
- "read_at": "2026-11-16T22:14Z",
+ "read_at": "2026-11-17T00:13Z",
  "items": [
+  {
+   "title": "Escuteiros elegem nova Junta Regional de Portalegre-Castelo Branco com três dirigentes do Médio Tejo",
+   "link": "https://mediotejo.net/escuteiros-elegem-nova-junta-regional-de-portalegre-castelo-branco-com-tres-dirigentes-do-medio-tejo/",
+   "date": "2026-11-16"
+  },
   {
    "title": "Vila Nova da Barquinha reúne investigadores internacionais em colóquio sobre Templários",
    "link": "https://mediotejo.net/vila-nova-da-barquinha-reune-investigadores-internacionais-em-coloquio-sobre-templarios/",
@@ -21,11 +26,6 @@
   {
    "title": "Abrantes acende hoje iluminação de Natal e abre mercadinho a 01 de dezembro",
    "link": "https://mediotejo.net/abrantes-acende-hoje-iluminacao-de-natal-e-abre-mercadinho-a-01-de-dezembro/",
-   "date": "2026-11-16"
-  },
-  {
-   "title": "ARTRAM leva Noite de Fados à Sociedade Artística Tramagalense",
-   "link": "https://mediotejo.net/artram-leva-noite-de-fados-a-sociedade-artistica-tramagalense/",
    "date": "2026-11-16"
   }
  ]
