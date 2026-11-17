@@ -1,0 +1,18 @@
+{
+ "311ec510fafeb612": {
+  "t": "Kanadska konzultantska tvrtka, s više od 2000 zaposlenika u Portugalu, pokrenula je centar u svibnju 2026. Izvor ne navodi grad.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The Canadian consulting firm, with over 2,000 staff in Portu",
+  "ok": false
+ },
+ "317c4adf0ece68f9": {
+  "t": "AuroraMed, portugalski healthtech usmjeren na UI u kliničkom upravljanju, i medicinski fakultet Sveučilišta u Algarveu pokrenuli su 20. travnja u Faru izvršni tečaj za donositelje odluka u zdravstvu, sa stipendijama iz PRR-a.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "AuroraMed, a Portuguese healthtech focused on AI in clinical",
+  "ok": false
+ }
+}

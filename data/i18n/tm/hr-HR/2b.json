@@ -1,0 +1,42 @@
+{
+ "2b08c105c78338e0": {
+  "t": "Aktivnost UI-ja u Portu grupira se oko UPTEC-a, znanstvenog parka Sveučilišta u Portu, gdje je izvješće iz 2025. pronašlo najmanje pet startupova za UI u zdravstvu, industriji i restoranima, gdje je portugalsko-europski program superračunalstva (BSC AI Factory) u listopadu 2026. pokrenuo krug inkubacije UI-ja i gdje je Granter u studenom prikupio 1,6 milijuna eura. Oko njega su porto fond rizičnog kapitala (33N), poslovna škola (Porto Business School), marketinška zajednica za UI (AIhub) i Porto Digital, gradsko digitalno tijelo, koje opisuje UI za predviđanje prometa i protoka uz pravilo bez crne kutije te je dva razgovora o UI-ju odnijelo na Smart City Expo u Barceloni u studenom 2026. Global Startup Ecosystem Report 2026 navodi UI kao jedan od četiri pokretača rasta. Širu sveučilišnu i istraživačku bazu čine laboratorij FEUP-a LIACC, istraživački institut INESC TEC (koji je u listopadu 2026. ugostio AI, Data and Robotics Forum u Portu) i Fraunhofer Portugal AICOS.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Porto's AI activity clusters around UPTEC, the science park ",
+  "ok": false
+ },
+ "2b512e47e2ed717b": {
+  "t": "Coimbra ugošćuje međunarodnu sesiju o UI-ju za pametna turistička odredišta",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Coimbra hosts an international session on AI for smart touri",
+  "ok": false
+ },
+ "2b7b9ad9a81e640c": {
+  "t": "Tehnološka priča Santaréma je agroprehrambena. Općina i Universidade Politécnica de Santarém, s ISLA Santarém, INIAV-om i sajmištem CNEMA, grade Campus Tejo, znanstveno-tehnološki park o vodi, agro i znanostima o životu, koji je predstavljen na Web Summitu Lisbon 12. studenoga 2026. Stranice koje smo čitali ne kažu da Campus Tejo koristi UI, pa je njegova veza s UI-jem kratak zaključak preko precizne poljoprivrede i digitalizacije. Izravna aktivnost UI-ja manja je i raštrkana: projekt UI-ja vrijedan 100.000 eura iz PRR-a u ISLA Santarém, poslovne i zdravstvene sesije u CNEMA-i i program o UI-ju u poljoprivredi na susretu uzgajivača borovnica.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Santarém's technology story is agri-food. The council and th",
+  "ok": false
+ },
+ "2b849e5e92cfc33b": {
+  "t": "Guarda, ó pá: dovoljno hladna da zamrzne poslužitelj, tvrdoglava kao granit, dom politehnike koja tiho uči strojeve i naučila je nekoliko studenata čitati PDM prije arhitekata.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Guarda, ó pá: cold enough to freeze a server, stubborn as gr",
+  "ok": false
+ },
+ "2bfcc1a9bf2f5a48": {
+  "t": "Njezini studenti i osoblje dobivaju besplatan pristup pro verzijama triju velikih jezičnih modela putem FCT-ove usluge IAedu, što institucija naziva korakom prema odgovornoj i suradničkoj uporabi UI-ja.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Its students and staff get free access to the pro versions o",
+  "ok": false
+ }
+}

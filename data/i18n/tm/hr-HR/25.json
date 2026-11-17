@@ -1,0 +1,18 @@
+{
+ "25182f8c756c615e": {
+  "t": "Naši članci iz mjesta {name}",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Our articles from {name}",
+  "ok": false
+ },
+ "2596884f4675488e": {
+  "t": "Sveučilište u Algarveu objavljuje svoju politiku o UI-ju",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "University of Algarve publishes its AI policy",
+  "ok": false
+ }
+}
