@@ -26,6 +26,15 @@
   "ok": false,
   "from": "fr-FR"
  },
+ "c9934bb6c354d944": {
+  "t": "Algarve Primeiro confirme que le festival Som Riscado de Loulé comprend un récital de piano assisté par l'IA pour les écoles",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Algarve Primeiro confirms Som Riscado festival in Loulé incl",
+  "ok": false,
+  "from": "fr-FR"
+ },
  "c99a5aafbcf2e807": {
   "t": "Aveiro, oh pá : là où les moliceiros glissent devant les terrasses du canal, où les ovos moles attendent dans leurs petites coquilles, et où une université apprend tranquillement à tout un campus à bavarder avec les machines pendant que des start-ups brésiliennes affluent au Cais do Porto.",
   "by": "translator@PrompTugal.dinis",

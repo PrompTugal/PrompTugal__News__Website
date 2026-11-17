@@ -9,6 +9,15 @@
   "from": "es-ES",
   "adapted": true
  },
+ "18743c7cefae2123": {
+  "t": "Postal do Algarve (2 nov 2026) informa de que la conferencia SIPRS sobre prevención de terremotos y catástrofes, organizada por el urbanista Antonio Nobrega con el ayuntamiento de Albufeira, se traslada al Salao Nobre del ayuntamiento el 27 de noviembre. Los organizadores prevén usar herramientas de IA para identificar riesgos, vigilar la actividad sísmica y apoyar la respuesta de emergencia. El contenido de IA es un plan, no un resultado.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Postal do Algarve (2 Nov 2026) reports that the SIPRS earthq",
+  "ok": false,
+  "from": "es-ES"
+ },
  "18aab1419ed810f9": {
   "t": "PrompTugal.news Olhão: IA y tecnología en Olhão, un puerto pesquero y ciudad de la Ria Formosa donde mandan el mar, la acuicultura y la biotecnología, y lo que llega a Olhão desde el Algarve, Portugal y el mundo. Independiente; cada dato con su fuente.",
   "by": "translator@PrompTugal.dinis",

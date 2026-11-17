@@ -17,6 +17,15 @@
   "ok": false,
   "from": "fr-FR"
  },
+ "d5649ba0b173396c": {
+  "t": "Algarve Primeiro (16 nov. 2026) indique que, le 19 novembre, Carles Marigo présente Inner Voice, un concert scolaire gratuit au festival Som Riscado de Loulé, un récital de piano immersif assisté par l'IA. C'est une deuxième source pour l'information de la mairie déjà au dossier.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Algarve Primeiro (16 Nov 2026) says that on 19 November Carl",
+  "ok": false,
+  "from": "fr-FR"
+ },
  "d59c7109bbba032c": {
   "t": "Voix locale et espiègle : mêmes faits, racontés à l’algarvienne",
   "by": "translator@PrompTugal.dinis",
