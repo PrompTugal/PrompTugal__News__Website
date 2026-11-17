@@ -65,6 +65,29 @@ Vicky, 6 November 2026; covers changed 14 November 2026.
 - **Where it goes** (standing answer 90, Vicky, 16 November 2026: "the AI connection stays in the data note, not the article text, unless it reads naturally"): put the three answers in a short "Notes for the reviewer" block at the end of the draft, after "Where this comes from". Mention the connection in the article text only where it reads naturally, never as a paragraph about the test.
 - **At publishing** (standing answer 91, Vicky, 16 November 2026: "keep the AI connection in the article's metadata instead of deleting it, so readers don't see it but the record stays with the story"): the reviewer moves the three answers into the front matter (`ai_connection`, `ai_steps`, `ai_places`) and removes the block from the text.
 
+## Update notes
+
+Standing answer 95 (Vicky, 17 November 2026: "update notes may use a short list when they have several points" and "so later every time they need to write an update or something similar, they know how to write it properly"). It changes standing answer 59 for update notes.
+
+- An update note goes at the top of the published article, directly before "In short", as a quote block that starts with **Update, D Month YYYY.** The article's own text and date stay as they are.
+- **One new point:** one or two plain sentences.
+- **Several points:** one intro line saying what changed and giving the source, linked, with its date. Then a short list, one point per line, grouped by subject, with the key words in bold.
+- **The attribution or caveat is said once, at the end.** No repeated "he said" on every line.
+- Past tense, short sentences and no semicolons still apply.
+- The reviewer checks every update note against this section before publishing it.
+
+The example (S67, 17 November 2026):
+
+> **Update, 17 November 2026.** We had said the Center's status after June 2026 was unknown. In [a July interview with Dinheiro Vivo and Diário de Notícias](https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes), published on 18 July 2026, its chief executive gave his account:
+>
+> - **Coordination has moved to Sword Health.** The newspaper reports that Unbabel collapsed financially and that US investors bought its assets in August 2025. He said Unbabel's products were finished and stayed in Portugal.
+> - **About 87% to 88% of the plan was delivered.**
+> - **Investment:** about €49 million public and €27 million private, €76 million over three and a half years. These are counted differently from the €51.49 million and €77.7 million in the article below.
+> - **Expected sales:** €150 million by the end of 2026, mostly exports.
+> - **Examples he gave:** legal search software, hospital coding software, Halo (a voice tool for patients with a neurodegenerative disease) and Sword Health's physiotherapy system, which he said cut a Porto hospital's waiting time from two years to ten days.
+>
+> These are his statements as the newspaper reports them. We have not checked them independently.
+
 ## Safety
 - Nothing about a person beyond what is public and professional. No contact details, ever.
 - No claims for RiskMandate beyond riskmandate.ai and the team's site. Nothing private from the team.
