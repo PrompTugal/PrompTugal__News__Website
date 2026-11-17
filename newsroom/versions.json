@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1734",
+    "date": "2026-11-17",
+    "what": "ontologist@PrompTugal.dinis: the provenance and claims schema, people as authors (step 2 of the provenance spec)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "f5a955422"
+  },
+  {
     "version": "v0.1.1733",
     "date": "2026-11-17",
     "what": "security@PrompTugal.dinis: correction: the pairing page also loads the shell's two head scripts (read, harmless; dev@ to drop or list them)",
