@@ -1,0 +1,26 @@
+{
+ "2d1bdf29b115f195": {
+  "t": "Stowarzyszenie rozwoju dolnego Guadiana dołącza do projektu transgranicznego, który będzie testować AI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The Lower Guadiana's development association joins a cross-b",
+  "ok": false
+ },
+ "2d73202772fb1b05": {
+  "t": "Coimbra to miejsce, gdzie dyplom z AI, projekt obronny o zagrożeniach hybrydowych i firma tropiąca oszustwa wywodzą się z tego samego wzgórza. Câmara została nawet wymieniona w pierwszej grupie testującej AI przy pozwoleniach budowlanych, więc nawet papierkowa robota staje się sprytna. Najpierw badania, sim senhor, a teraz też ratusz.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Coimbra is the place where an AI degree, a defence project o",
+  "ok": false
+ },
+ "2d9ff817601ab195": {
+  "t": "Dostawca Quinta twierdzi, że Jupiter Hotel Group wdrożyła jego aplikację do komunikacji z gośćmi opartą na AI, Velma. Wśród hoteli grupy jest jeden w Albufeira. To własna strona dostawcy, więc traktuj to jako twierdzenie dostawcy.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The vendor Quinta says Jupiter Hotel Group deployed its AI g",
+  "ok": false
+ }
+}

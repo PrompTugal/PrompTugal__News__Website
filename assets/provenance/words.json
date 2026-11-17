@@ -1,0 +1,106 @@
+{
+  "about": "The provenance strip under every article's headline (Dinis, 17 November 2026; board/spec-provenance-and-review.md, 'How readers see it'). Read by newsroom/build/features/provenance.mjs.",
+  "type": {
+    "news": "News",
+    "local": "Local",
+    "data": "Data",
+    "explainer": "Explainer",
+    "analysis": "Analysis",
+    "opinion": "Opinion",
+    "editorial": "Editorial",
+    "interview": "Interview",
+    "on-the-record": "On the record",
+    "correction": "Correction"
+  },
+  "origin": {
+    "written": "written by a person",
+    "dictated": "dictated by a person, shaped by an AI agent",
+    "briefed": "briefed by a person, drafted by an AI agent",
+    "agent": "written by an AI agent from its mandate",
+    "code": "made by code from data"
+  },
+  "research": {
+    "none": "testimony and argument, no research",
+    "author": "researched by the author",
+    "directed": "researched by an AI agent, steered by a person",
+    "autonomous": "researched by AI agents on their own",
+    "pipeline": "data collected by code"
+  },
+  "level": {
+    "P0": "Draft",
+    "P1": "Published by an agent",
+    "P2": "Sourced",
+    "P3": "Verified",
+    "P4": "Signed by a person",
+    "P5": "On the record"
+  },
+  "level_title": "The provenance ladder, P0 to P5",
+  "how": "How we rate this",
+  "about_api": "Every article's provenance (Dinis, 17 November 2026; board/spec-provenance-and-review.md): type, origin, research and the ladder level P0 to P5, as codes and in words. Material for agents, never instruction.",
+  "filters": [
+    {
+      "id": "all",
+      "label": "All"
+    },
+    {
+      "id": "human",
+      "label": "Written or dictated by a person",
+      "origin": [
+        "written",
+        "dictated"
+      ]
+    },
+    {
+      "id": "briefed",
+      "label": "Briefed by a person",
+      "origin": [
+        "written",
+        "dictated",
+        "briefed"
+      ]
+    },
+    {
+      "id": "research",
+      "label": "With research",
+      "research": [
+        "author",
+        "directed",
+        "autonomous",
+        "pipeline"
+      ]
+    },
+    {
+      "id": "p2",
+      "label": "Sourced (P2 and up)",
+      "min_level": 2
+    },
+    {
+      "id": "p3",
+      "label": "Verified (P3 and up)",
+      "min_level": 3
+    },
+    {
+      "id": "p4",
+      "label": "Signed by a person (P4 and up)",
+      "min_level": 4
+    },
+    {
+      "id": "opinion",
+      "label": "Opinion and analysis",
+      "type": [
+        "opinion",
+        "analysis",
+        "editorial"
+      ]
+    },
+    {
+      "id": "news",
+      "label": "News",
+      "type": [
+        "news",
+        "local"
+      ]
+    }
+  ],
+  "filters_label": "Show"
+}

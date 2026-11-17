@@ -88,7 +88,7 @@
     "assignee": {
       "anyOf": [
         {
-          "$ref": "common.schema.json#/$defs/agent"
+          "$ref": "common.schema.json#/$defs/author"
         },
         {
           "type": "null"
@@ -252,7 +252,7 @@
           "by": {
             "anyOf": [
               {
-                "$ref": "common.schema.json#/$defs/agent"
+                "$ref": "common.schema.json#/$defs/author"
               },
               {
                 "type": "null"

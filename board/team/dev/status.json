@@ -1,20 +1,20 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ restarted on this account (16 Nov, 19:25 UTC, session_01Kw9UwEA7TFC7iKpVctAi2t): the release queue first, then review and bring work/dev.places, work/translator, work/designer.places onto dev; feeds per place and topic; /media/<id>/ pages; dev.places@s brief every-story-has-an-address.",
-  "state": "pairing step 1 live as a dry run (/account/pair.html, linked from the You page); next: my steps in the provenance spec, then step 3 of one-reader",
-  "updated": "2026-11-17T14:35Z",
+  "state": "provenance strip and filters live; the radar next",
+  "updated": "2026-11-17T16:35Z",
   "done": [
+    "wake 16:10 (17 Nov): brought translator pl-PL (35 Polish pages; 7 number warnings for translator@) and datasci.places d4c1f7c; dev.places and designer.places nothing new. Provenance filters on the articles page and api/v1/articles/provenance.json (tested in Chromium)",
+    "wake 15:11 (17 Nov): brought datasci.places 61c01cc; designer.places 7ab5fb8 waits for designer@. The provenance strip under every article headline (spec-provenance-and-review step 3, first part): type, origin, research, P-level in words, 86 pages",
     "wake 14:12 (17 Nov): security@ passed pairing step 1 for the dry run: page on, linked from the You page, B reworded per P1; re-tested in Chromium. Brought datasci.places 5b048b7; translator and dev.places nothing new; designer.places waits for designer@",
     "wake 13:13 (17 Nov): review first: brought translator 9fb6cfe and datasci.places cf6046d; designer.places 02f1605 waits for designer@. Pairing step 1 page: pair.js, pair.mjs (ENABLED false until the post-review), bare pages with a meta CSP (P4), fragment cleared (P3), QR vendored and pinned; tested in Chromium with two contexts",
     "wake 12:12 (17 Nov): review first: brought dev.places be8417d (debrief) and datasci.places cbe579f; designer.places nothing new. Step 1 under security@s go: assets/vault/pair-core.js (device key, offer, checks, match code, sealed and signed hello), newsroom/tests/pair.test.mjs (25 checks pass), the gate checks vendored files against their pins (vendor-pins.mjs, P6)",
     "wake 11:10 (17 Nov): review first: brought dev.places 5c8233a (/media/ look hooks, designer.places ask 12) and datasci.places 72a3606; designer.places f3d6779 (a sweep) waits for designer@. Read Dinis spec one-reader-across-devices; step 1 written up for security@s pre-review",
     "wake 10:10 (17 Nov): review first: brought dev.places d80390c (memory number check: a space as thousands separator), translator 1a2a205 (2 segments), datasci.places abd9703; designer.places nothing new",
-    "wake 09:09 (17 Nov): review first: brought dev.places 40fa676 (segments.json kept out of the deploy, as asked at 07:15) and datasci.places 2d2a9d5; designer.places 1852029 waits for designer@; gate OK at 2032 pages",
-    "wake 08:09 (17 Nov): review first: brought dev.places ad572e8 (distance to the beat on the town pages: Loulé shows Alcoutim, 61 km) and datasci.places 9cebec9; translator and designer.places nothing new; gate OK at 2031 pages",
-    "wake 07:10 (17 Nov): review first: brought dev.places 85cdafa (memory checks against the full English: warnings 260 to 1-17 per culture; headings translatable), translator f26ea32 (4 segments), datasci.places 58b1757; designer.places 7bad293 (a sweep, status) waits for designer@"
+    "wake 09:09 (17 Nov): review first: brought dev.places 40fa676 (segments.json kept out of the deploy, as asked at 07:15) and datasci.places 2d2a9d5; designer.places 1852029 waits for designer@; gate OK at 2032 pages"
   ],
   "next": [
-    "read board/spec-provenance-and-review.md (Dinis, 17 Nov 13:00) and do dev@s steps",
+    "the provenance radar (O, R, C, V, E) on each article once ontologist@s claims and review fields exist; then the human signature with security@ (step 5)",
     "one-reader step 3 with designer@ and ontologist@: profile v2 and Since your last visit, from localStorage first",
     "pairing step 4 (the lane send, A receives, A confirms the code: P1 binding, P2 on A, P9, P10) once the vault access key exists",
     "step 3 (with designer@ and ontologist@): profile v2 and Since your last visit, from localStorage first",

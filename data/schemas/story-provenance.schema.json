@@ -1,0 +1,345 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/story-provenance.schema.json",
+  "title": "The provenance and review of a story or article (data/stories/<id>/provenance.json)",
+  "type": "object",
+  "required": [
+    "story",
+    "kept_by",
+    "type",
+    "origin",
+    "research",
+    "level"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "story": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9-]*$"
+    },
+    "kept_by": {
+      "$ref": "common.schema.json#/$defs/agent"
+    },
+    "updated": {
+      "$ref": "common.schema.json#/$defs/date"
+    },
+    "type": {
+      "enum": [
+        "news",
+        "local",
+        "data",
+        "explainer",
+        "analysis",
+        "opinion",
+        "editorial",
+        "interview",
+        "on-the-record",
+        "correction"
+      ],
+      "description": "the label (Trust Project 'Type of Work')"
+    },
+    "origin": {
+      "type": "object",
+      "required": [
+        "kind"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "written",
+            "dictated",
+            "briefed",
+            "agent",
+            "code"
+          ]
+        },
+        "by": {
+          "$ref": "common.schema.json#/$defs/author"
+        },
+        "prompt": {
+          "type": "string",
+          "minLength": 1,
+          "description": "the prompt, mandate or brief, or the path to it: the prompt is provenance"
+        },
+        "model": {
+          "type": "string",
+          "minLength": 1
+        },
+        "agent": {
+          "$ref": "common.schema.json#/$defs/agent"
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "research": {
+      "type": "object",
+      "required": [
+        "kind"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "none",
+            "author",
+            "directed",
+            "autonomous",
+            "pipeline"
+          ]
+        },
+        "by": {
+          "$ref": "common.schema.json#/$defs/author"
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "claims": {
+      "type": "object",
+      "properties": {
+        "fact_evidence": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "fact_unsourced": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "opinion": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "testimony": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "estimate": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false,
+      "description": "counts, derived from claims.json where it exists"
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "agent_reviewers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "by",
+              "at"
+            ],
+            "properties": {
+              "by": {
+                "$ref": "common.schema.json#/$defs/author"
+              },
+              "at": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}Z)?$"
+              },
+              "note": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "models": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "model",
+              "verdict",
+              "at"
+            ],
+            "properties": {
+              "model": {
+                "type": "string",
+                "minLength": 1
+              },
+              "verdict": {
+                "enum": [
+                  "agree",
+                  "disagree",
+                  "open"
+                ]
+              },
+              "at": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}Z)?$"
+              },
+              "claims": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "editor": {
+          "type": "object",
+          "required": [
+            "by",
+            "at"
+          ],
+          "properties": {
+            "by": {
+              "$ref": "common.schema.json#/$defs/author"
+            },
+            "at": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}Z)?$"
+            },
+            "note": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "signatures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "by",
+          "key",
+          "at"
+        ],
+        "properties": {
+          "by": {
+            "$ref": "common.schema.json#/$defs/author"
+          },
+          "key": {
+            "type": "string",
+            "minLength": 1,
+            "description": "the key's id in board/keys.json or board/person-keys.json"
+          },
+          "at": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}Z)?$"
+          },
+          "of": {
+            "type": "string",
+            "minLength": 1,
+            "description": "what was signed: the version (a commit or the twin's hash)"
+          },
+          "role": {
+            "enum": [
+              "author",
+              "editor",
+              "reviewer",
+              "responder",
+              "expert",
+              "reader",
+              "corrector"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "external": {
+      "type": "object",
+      "properties": {
+        "asked": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "of",
+              "at"
+            ],
+            "properties": {
+              "of": {
+                "type": "string",
+                "minLength": 1
+              },
+              "at": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}Z)?$"
+              },
+              "refused": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "responses": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "from",
+              "at",
+              "kind"
+            ],
+            "properties": {
+              "from": {
+                "type": "string",
+                "minLength": 1
+              },
+              "at": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}Z)?$"
+              },
+              "kind": {
+                "enum": [
+                  "response",
+                  "expert-review",
+                  "reader-review",
+                  "correction",
+                  "letter"
+                ]
+              },
+              "signed": {
+                "type": "boolean"
+              },
+              "paid": {
+                "type": "boolean"
+              },
+              "file": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "level": {
+      "enum": [
+        "P0",
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "description": "the ladder: draft, published by an agent, sourced, verified, signed, on the record"
+    }
+  },
+  "additionalProperties": false,
+  "description": "One file per story or article: the type of work, the five axes (origin, research, claims, review, external), the signatures and the ladder level, per board/spec-provenance-and-review.md. Origin is not on the ladder."
+}

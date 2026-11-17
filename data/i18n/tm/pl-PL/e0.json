@@ -1,0 +1,34 @@
+{
+ "e08c06bc65abb642": {
+  "t": "Firmy, instytucje i społeczności w {name} z drogą do AI, każde z publicznego źródła.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The companies, institutions and communities in {name} with a",
+  "ok": false
+ },
+ "e08fafe93f5830d8": {
+  "t": "Według źródeł, które udało nam się otworzyć, technologiczna historia gminy to morze i wiatr. W Sagres mieści się firma biotechnologii morskiej w Porto da Baleeira, uniwersyteckie laboratorium morskie w tym samym porcie oraz podwodne obserwatorium MARREAL, stacja z kamerami i czujnikami na głębokości 20 metrów, która rejestruje dane oceaniczne w czasie rzeczywistym. Spis farm wiatrowych INEGI i APREN wymienia farmy wiatrowe w gminie, w tym repowering z 2025 roku. Nie znaleźliśmy wiadomości o AI, co jest pierwszym ustaleniem tej strony, ale to właśnie stacje danych oceanicznych są miejscem, gdzie ścieżka AI najprawdopodobniej się pojawi.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "On the sources we could open, the municipality's technology ",
+  "ok": false
+ },
+ "e0e5f037ff99adf0": {
+  "t": "Portugalski startup monitoruje autonomicznych agentów AI, oznacza ryzykowne wyniki do przeglądu przez człowieka i ocenia je w skali od 0 do 100. Inwestorem jest Angels Way.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The Portuguese startup monitors autonomous AI agents, flags ",
+  "ok": false
+ },
+ "e0efee49767bd1db": {
+  "t": "Krajowy program szkoleniowy Estado em Acção, dla pracowników administracji publicznej, ruszył bezpłatną sesją w Coimbrze 18 września 2026 roku i miał być kontynuowany dziesięcioma sesjami w całym kraju.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "A national training programme called Estado em Acção, for pu",
+  "ok": false
+ }
+}
