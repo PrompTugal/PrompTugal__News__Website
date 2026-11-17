@@ -346,3 +346,7 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 .bp-frame .bp-media-facts td:nth-child(2) { font-family: var(--serif); font-size: 1.1rem; line-height: 1.3; }
 .bp-frame .bp-media-facts td:nth-child(2) a { font-size: .95rem; }
 @media (max-width: 560px) { .bp-frame .bp-media-facts tbody { grid-template-columns: 1fr 1fr; } }
+.bp-frame nav.bp-jump { display: flex; flex-wrap: wrap; gap: .4rem; margin: .4rem 0 1rem; }
+.bp-frame nav.bp-jump a { display: inline-flex; gap: .4rem; align-items: baseline; padding: .3rem .75rem; border: 1px solid color-mix(in srgb, currentColor 30%, transparent); border-radius: 999px; font: 600 .85rem var(--sans); text-decoration: none; color: inherit; }
+.bp-frame nav.bp-jump a span { font: 500 .72rem var(--mono); opacity: .7; }
+.bp-frame nav.bp-jump a:hover { background: color-mix(in srgb, var(--accent) 14%, transparent); }

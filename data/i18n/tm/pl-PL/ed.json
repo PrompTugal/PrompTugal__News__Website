@@ -1,0 +1,34 @@
+{
+ "ed323ee2e8192c66": {
+  "t": "Algarve i jego 17 miejsc",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The Algarve and its 17 places",
+  "ok": false
+ },
+ "ed6a0a9ed23a077b": {
+  "t": "Gota Click2Care: pilotaż teleasystencji parafialnej dla starszych mieszkańców Aljezur",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Gota Click2Care: a parish teleassistance pilot for Aljezur's",
+  "ok": false
+ },
+ "ed99e8c975b51dc9": {
+  "t": "Tavira, ó pá, gdzie rzeka jest spokojniejsza niż jakakolwiek serwerownia, a siedem łuków widziało więcej migracji niż twój dostawca chmury.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Tavira, ó pá, where the river is calmer than any server room",
+  "ok": false
+ },
+ "eddff8f8e446bd17": {
+  "t": "W wywiadzie z marca 2024 roku kierownik IT rady Ayamonte powiedział, że rada przygotowuje wirtualnego asystenta AI dla obywateli i firm oraz planuje węzeł innowacji za 2 do 3 miliony euro, poświęcony turystyce i wsparciu cyfrowemu małych firm. Opisał węzeł jako pierwszy angażujący Eurocidade i obejmujący części portugalskiego Algarve. To własna relacja rady, bez dat uruchomienia, i nie potwierdziliśmy, że węzeł powstał.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "In a March 2024 interview, the IT manager of Ayamonte's coun",
+  "ok": false
+ }
+}

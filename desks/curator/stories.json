@@ -5,9 +5,9 @@
    "S69",
    "AI physiotherapy in Portugal's health service: what the government says",
    "Portugal",
-   "The government's own item: the national health service and Sword Health offer remote physiotherapy with AI tools that analyse and correct movements under permanent supervision by health professionals; the 97 percent and 45 percent figures are estimates; the page's date is inconsistent (June 2026).",
+   "The government's own item and Observador's launch-day report (18 June 2026): the national health service and Sword Health offer remote physiotherapy with AI tools that analyse and correct movements; health professionals supervise; free to users; the agreement sets 200 euros per user, fixed for a year (as reported); the 97 percent and 45 percent figures are estimates and a company forecast, not measured results.",
    "17 Nov",
-   "For journalist-portugal, categories Portugal and AI. One source: attribute everything; estimates are estimates; do not confirm the interview's two-years-to-ten-days claim."
+   "For journalist-portugal, categories Portugal and AI. Two sources; attribute each figure to its source; do not confirm the interview's two-years-to-ten-days claim."
   ],
   [
    "S68",
@@ -791,7 +791,8 @@
    "v-dn-dv-crai-results"
   ],
   "S69": [
-   "v-gov-sns-remote-physio-ai"
+   "v-gov-sns-remote-physio-ai",
+   "v-observador-sword-sns-launch"
   ]
  },
  "DROPPED": {
@@ -1147,7 +1148,7 @@
   [
    "S69",
    "the Portugal desk (journalist-portugal)",
-   "The government's own news item says the national health service has an agreement with Sword Health for remote physiotherapy with AI tools that analyse and correct movements under permanent supervision by health professionals; re-read the page yourself; one source, attribute everything; the 97 percent and 45 percent figures are estimates, say so; the page's date is inconsistent, say 'June 2026, according to the page'; do not say the service is running now; the page does not confirm the interview's two-years-to-ten-days claim, do not confirm it and do not link this service to the Center for Responsible AI; record the AI connection (direct, 0 steps; the health service, nine local health units, patients at home) in the data note; explain technical terms at first use; no Web Summit pages; categories Portugal and AI"
+   "The government's own news item says the national health service has an agreement with Sword Health for remote physiotherapy with AI tools that analyse and correct movements under permanent supervision by health professionals; re-read the page yourself; two sources (the government item and Observador, 18 June 2026), attribute each figure to its source; the 97 percent and 45 percent figures are estimates, say so; the announcement was on 18 June 2026 (Observador's date; the government page's own dates are inconsistent); do not say the service is running now; the page does not confirm the interview's two-years-to-ten-days claim, do not confirm it and do not link this service to the Center for Responsible AI; record the AI connection (direct, 0 steps; the health service, nine local health units, patients at home) in the data note; explain technical terms at first use; no Web Summit pages; categories Portugal and AI; Observador adds: any health service doctor can prescribe, the patient registers on the company's site, a first consultation with the company's clinical team, a certified device in about two days (company's words), the agreement sets 200 euros per user doing rehabilitation fixed for a year with unlimited sessions (a company vice-president, as reported), roll-out step by step, the company already sells in other markets including the United States through insurers; the government item says the figures are 'estimated' and Observador says the company forecasts them: attribute each to its source; no usage numbers or outcomes exist in the sources, say so"
   ]
  ]
 }

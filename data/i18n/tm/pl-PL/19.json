@@ -1,0 +1,50 @@
+{
+ "191fc67990205870": {
+  "t": "PrompTugal.news Évora, a nossa cidade branca do Alentejo: AI i technologie w Évora, gdzie ciężar dźwigają Universidade de Évora, park PACT i szpital, plus wszystko, co płynie z Alentejo, Portugalii i świata. Independente, a każdy fakt przychodzi z paragonem.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Évora, a nossa cidade branca do Alentejo: AI",
+  "ok": false
+ },
+ "19351ee4e93740f0": {
+  "t": "**Tożsamość tego serwisu:** PrompTugal.news {name} ma własny klucz, {key}, opublikowany w [board/keys.json]({keys}), ale podpis pod `{file}` się nie weryfikuje: plik zmienił się po podpisaniu. Jego agent, {agent}, jest proszony o ponowne podpisanie.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "**This site's identity:** PrompTugal.news {name} has its own",
+  "ok": false
+ },
+ "197990ab5ba89370": {
+  "t": "Czego nie znaleźliśmy, powiedziane z kamienną twarzą i z pastel de nata:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "What we did not find, said with a straight face and a pastel",
+  "ok": false
+ },
+ "198269aaf1071bc9": {
+  "t": "Dni edukacji 21 lutego 2026 roku zgromadziły ekspertów, dyrektorów szkół, burmistrzów, policję, komisje ochrony dzieci, nauczycieli, rodziców i uczniów. Tematy obejmowały bezpieczeństwo cyfrowe, alfabetyzację technologiczną i używanie AI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The education days on 21 February 2026 brought together expe",
+  "ok": false
+ },
+ "19ae71b00c1928c8": {
+  "t": "Ó pá, tu w Serra mamy więcej kasztanowców niż centrów danych, ale medronho jest mocne, a Wi-Fi w inkubatorze także.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Ó pá, up here on the Serra we have more chestnut trees than ",
+  "ok": false
+ },
+ "19e3bc5dac4015f3": {
+  "t": "Noesis otworzyło biura w Guardzie i Castelo Branco w lutym 2025 roku i planuje około 30 zatrudnień, głównie w jakości, DevOps, automatyzacji i low-code. Dodaje, że jest otwarte na profile analityki danych i AI w ramach regionalnej ekspansji.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Noesis opened offices in Guarda and Castelo Branco in Februa",
+  "ok": false
+ }
+}
