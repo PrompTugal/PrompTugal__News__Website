@@ -1,0 +1,78 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "alentejo-atual",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Alentejo Atual (O Atual)",
+  "names_as_listed": [
+    "Alentejo Atual",
+    "O Atual"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: generic contact email protected on the page, not recorded. an Equipa page exists (https://www.oatual.pt/equipa) but its names did not load in the text read.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:beja"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.oatual.pt/",
+    "owner": {
+      "name": "Harmony Rhythms, Unipessoal, Lda (Cuba); sole shareholder and manager Maria Fernanda Conduto Lourenço de Matos Engana",
+      "source": {
+        "url": "https://www.oatual.pt/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.oatual.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://www.oatual.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, text/xml; charset=utf-8, RSS 2.0 body"
+        }
+      }
+    ],
+    "people": [
+      {
+        "name": "Justino Engana",
+        "role": "Diretor de Informação (CPJ 6357)",
+        "source": {
+          "url": "https://www.oatual.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.oatual.pt/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "Ficha técnica (daily; editorial office Av. Comandante Ramiro Correia 53, 2º T Esq., 7800-261 Beja)."
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127544 for 'Alentejo Atual'. The register lists director Justino de Matos Engana. Outlet email column deliberately not recorded here."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.oatual.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "how": "Ficha técnica (daily; editorial office Av. Comandante Ramiro Correia 53, 2º T Esq., 7800-261 Beja).",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127544 for 'Alentejo Atual'. The register lists director Justino de Matos Engana. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

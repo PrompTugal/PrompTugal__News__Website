@@ -1,0 +1,66 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "canal-alentejo",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Canal Alentejo",
+  "names_as_listed": [
+    "Canal Alentejo"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: site returned a bot-check page on the first fetch: ficha técnica and contact page not read.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:portalegre"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://canalalentejo.sapo.pt/",
+    "owner": {
+      "name": "Talentos Delicados - Produção e Realização de Programas de Televisão Unipessoal, Lda",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://canalalentejo.sapo.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://canalalentejo.sapo.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml; charset=UTF-8, RSS 2.0 body"
+        }
+      }
+    ],
+    "people": [
+      {
+        "name": "Carlos Alberto Camejo Papafina",
+        "role": "Diretor and editor, as registered with ERC",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127354 for 'Canal Alentejo'. Outlet email column deliberately not recorded here."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127354 for 'Canal Alentejo'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

@@ -19,5 +19,12 @@
   "all": "All local media",
   "latest": "Latest",
   "latest_h": "Latest headlines",
-  "latest_note": "Headline and link only, read from the outlet's own feed on {when}; the reporting is theirs."
+  "latest_note": "Headline and link only, read from the outlet's own feed on {when}; the reporting is theirs.",
+  "cov_h": "Where local journalism is, and where it is missing",
+  "cov_intro": "For each local place, the outlets that name it as the place they cover, and how many more cover only the area above it. A place with none of its own is a gap, and a gap is journalism waiting to be done.",
+  "cov_missing": "No outlet of its own yet",
+  "cov_place": "Place",
+  "cov_own": "Its own outlets",
+  "cov_area": "Covering the area",
+  "cov_none": "none yet"
 }

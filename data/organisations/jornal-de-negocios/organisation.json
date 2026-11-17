@@ -1,0 +1,174 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "jornal-de-negocios",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Jornal de Negócios",
+  "names_as_listed": [
+    "Negócios",
+    "Jornal de Negócios"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Every journalist's own work email is published on the ficha tecnica; personal contact published, not recorded. Only a selection of the editorial staff is listed under people; the full list of redatores is on the ficha tecnica.",
+  "media": {
+    "outlet_kind": "newspaper",
+    "places_covered": [
+      "place:porto"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.jornaldenegocios.pt/",
+    "owner": {
+      "name": "Medialivre, S.A. (principal shareholder Expressão Livre II, SGPS, S.A., 100%)",
+      "source": {
+        "url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://www.jornaldenegocios.pt/rss",
+        "format": "rss",
+        "source": {
+          "url": "https://www.jornaldenegocios.pt/rss",
+          "read_at": "2026-11-17",
+          "how": "checked by the researcher: HTTP 200, text/xml ISO-8859-1, RSS 2.0 body (channel 'Jornal de Negócios')"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.jornaldenegocios.pt/institucional/detalhe/contactos",
+      "source": {
+        "url": "https://www.jornaldenegocios.pt/institucional/detalhe/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Paulo Moutinho",
+        "role": "Diretor",
+        "source": {
+          "url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Filomena Lança",
+        "role": "Redatora Principal, Coordenadora de Economia",
+        "source": {
+          "url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "economy"
+      },
+      {
+        "name": "Maria João Babo",
+        "role": "Redatora Principal",
+        "source": {
+          "url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Rui Neves",
+        "role": "Grande Repórter, Coordenador Porto",
+        "source": {
+          "url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "Porto"
+      },
+      {
+        "name": "Hugo Neutel",
+        "role": "Coordenador Empresas",
+        "source": {
+          "url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "companies"
+      },
+      {
+        "name": "Carla Pedro",
+        "role": "Coordenadora Mercados",
+        "source": {
+          "url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "markets"
+      },
+      {
+        "name": "Pedro Curvelo",
+        "role": "Editor Online",
+        "source": {
+          "url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "online"
+      },
+      {
+        "name": "Leonor Mateus Ferreira",
+        "role": "Editora Mercados",
+        "source": {
+          "url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "markets"
+      },
+      {
+        "name": "João Duarte Fernandes",
+        "role": "LEX",
+        "source": {
+          "url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "law"
+      },
+      {
+        "name": "Carlos Rodrigues",
+        "role": "Diretor-Geral Editorial (Medialivre)",
+        "source": {
+          "url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+        "read_at": "2026-11-17",
+        "how": "Ficha tecnica: masthead, owner, 'Inscrição ERC N.º ERC 121571'."
+      },
+      {
+        "url": "https://www.jornaldenegocios.pt/institucional/detalhe/contactos",
+        "read_at": "2026-11-17",
+        "how": "Contacts page."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+      "read_at": "2026-11-17",
+      "how": "Ficha tecnica: masthead, owner, 'Inscrição ERC N.º ERC 121571'.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.jornaldenegocios.pt/institucional/detalhe/contactos",
+      "read_at": "2026-11-17",
+      "how": "Contacts page.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

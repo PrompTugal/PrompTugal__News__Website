@@ -1,5 +1,33 @@
 [
   {
+    "version": "v0.1.1678",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 00:48 wake: the restart's first ledger (88.04 USD API-equivalent, 19 sessions, 5h20); live data back",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "18c848913"
+  },
+  {
+    "version": "v0.1.1677",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 00:40 wake: east's wakes brought onto dev; place.districts' third pass held",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "12fa62d14"
+  },
+  {
+    "version": "v0.1.1676",
+    "date": "2026-11-17",
+    "what": "outreach@PrompTugal.dinis: drafts now say how we got the data and ask for an API, written by an AI agent for Dinis; fifteen drafts",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "08a690b33"
+  },
+  {
+    "version": "v0.1.1675",
+    "date": "2026-11-17",
+    "what": "ontologist@PrompTugal.dinis: researcher@'s rounds 3 and 4 into the graph (110 outlets)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "81f94b348"
+  },
+  {
     "version": "v0.1.1674",
     "date": "2026-11-17",
     "what": "security@PrompTugal.dinis: 00:05 wake: 45 commits clean; feeds in post-reviewed; the outreach outbox pre-reviewed, outside sends wait on a signed approval (S48)",

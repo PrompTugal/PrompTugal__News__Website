@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account A, restarted 16 Nov 2026 19:25 UTC)",
-  "updated": "2026-11-16T22:40Z",
+  "updated": "2026-11-17T00:40Z",
   "done": [
     "Pass only-websummit-sourced-comes-off, step 2 (conductor.b@, at Dinis's 18:50 word): the inventory data/websummit-only.json, derived by derive.mjs (refs only, counts by kind; schema websummit-only); 239 of 311 company facts, all 285 people, 215 of 248 events, 184 of 269 organisations, 45 of 85 places rest only on websummit.com; 37 of 120 companies left with nothing, 31 of them with their own site on file (22:05)",
     "Websummit-only pass: facts_left per company (59 with no fact, 37 with nothing); shadow sources (Wikipedia, the EU HaDEA event page) for Web Summit, AWS, the summit event, MEO Arena and FIL and Lisbon, so they stay; event and place schemas take sources (00:21 wake, 12 Nov)",
@@ -13,13 +13,14 @@
     "Account A session onboarded: new key ontologist-promptugal in board/keys.json (the account B one superseded as -1); notes in board/team/ontologist/sessions/01Kw9UwCqzmCPurcVkEeQXcK/",
     "The `media` kind for data/organisations/ (outlet: kind, places covered, owner, feeds, publicly named people, contact page, each sourced), with its schema and checks in the gate; A Voz do Algarve is the first outlet; how-to in board/briefs/2026-11-16-media-kind.md",
     "Reviewed work/researcher: its 76 staged outlets converted to 73 data/organisations media records (3 already exist as other organisations); addresses and numbers left on its branch (the gate allows them only in by-place contacts); 30 places added to data/places (district capitals, Algarve municipalities, Azores, Madeira); converter board/team/ontologist/tools/media-from-researcher.py (20:21 wake)",
-    "22:21 wake: researcher@'s gaps round (Lisboa, Alentejo, Setubal radio, ERC numbers, tech reporters) converted again: 80 outlet records in all; the converter now skips records written by hand or by local@ and records with no website (9 held: diana-fm, radio-amalia-de-setubal, radio-jornal-de-setubal, radio-oxigenio, radio-voz-da-planicie, rtp-antena-1, rtp-antena-3 need a website from researcher@)"
+    "22:21 wake: researcher@'s gaps round (Lisboa, Alentejo, Setubal radio, ERC numbers, tech reporters) converted again: 80 outlet records in all; the converter now skips records written by hand or by local@ and records with no website (9 held: diana-fm, radio-amalia-de-setubal, radio-jornal-de-setubal, radio-oxigenio, radio-voz-da-planicie, rtp-antena-1, rtp-antena-3 need a website from researcher@)",
+    "00:21 wake: researcher@'s rounds 3 and 4 (21 outlets from the ERC register, tech press, Setubal radio, JPN) converted: 110 outlet records in all; local@'s records untouched. Held for a website from researcher@: 7 records (diana-fm, radio-amalia-de-setubal, radio-jornal-de-setubal, radio-oxigenio, radio-voz-da-planicie, rtp-antena-1, rtp-antena-3)"
   ],
   "next": [
     "Media blocks by hand for eco, jornal-economico, tvi",
     "Who covers which place: derive a by-outlet view per place; who wrote what we cite (journalists, from the articles' sources)",
     "data.places@'s locality layer: neighbours checked against CAOP, km, significance (board/briefs/2026-11-16-blast-radius-draft.json)",
-    "Review local@'s desks/local-jose (towns, contact requests) once it holds outlet records"
+    "local@'s Barlavento and Algarve Primeiro media records, when they land in data/organisations: review the shape against the schema"
   ],
   "asks": [
     "Dinis: GAMMA-Ray has rated companies that are not in our company map (Noxus, OutSystems, Talkdesk, Codacy, Automaise, ByTheLaw, Visor.ai, Granter, Spinnable, Ethiack, Pebl, Student Property Network, Buzz Messaging): should they join it, so their pages carry their cards? Noxus first, as conductor@ asked.",

@@ -7,7 +7,7 @@
   "names_as_listed": [
     "Médio Tejo"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Placed at the district capital; finer localities named: Médio Tejo; Tomar; Abrantes; Santarém. Gaps: director name not captured in read text. emails protected on page, none recorded.",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Placed at the district capital; finer localities named: Médio Tejo; Tomar; Abrantes; Santarém. Gaps: director name not captured in read text. emails protected on page, none recorded.  amendment: director and editor added from the ficha técnica; ficha lists a collaborators list (Jéssica Filipe, Jorge Santiago and others) without roles, not recorded as journalists.",
   "media": {
     "outlet_kind": "online",
     "places_covered": [
@@ -53,6 +53,15 @@
           "read_at": "2026-11-16",
           "how": "named by the outlet itself on this page"
         }
+      },
+      {
+        "name": "Patrícia Fonseca",
+        "role": "Direção (carteira profissional de jornalista n.º 2054) and editor (Patrícia Antónia Lourenço Fonseca)",
+        "source": {
+          "url": "https://mediotejo.net/ficha-tecnica/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
       }
     ],
     "sources": [
@@ -70,6 +79,11 @@
         "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
         "read_at": "2026-11-16",
         "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126721 for 'Mediotejo.net'. Outlet email column deliberately not recorded here."
+      },
+      {
+        "url": "https://mediotejo.net/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "Ficha técnica: direction, deputy director Mário Rui Fonseca, editor, ERC no. 126721 (printed by the outlet), daily, newsroom Estrada Nacional 118, nº 1609, rc/Esq., 2205-645 Tramagal, Abrantes; collaborators listed. Email addresses on the page are protected and a telephone is printed: neither recorded."
       }
     ]
   },
@@ -90,6 +104,12 @@
       "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
       "read_at": "2026-11-16",
       "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126721 for 'Mediotejo.net'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://mediotejo.net/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "Ficha técnica: direction, deputy director Mário Rui Fonseca, editor, ERC no. 126721 (printed by the outlet), daily, newsroom Estrada Nacional 118, nº 1609, rc/Esq., 2205-645 Tramagal, Abrantes; collaborators listed. Email addresses on the page are protected and a telephone is printed: neither recorded.",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]
