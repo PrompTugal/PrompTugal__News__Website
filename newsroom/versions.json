@@ -1,5 +1,26 @@
 [
   {
+    "version": "v0.1.1688",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 03:48 wake: ledger 0351Z; S43 fixed; twenty-five outreach drafts",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "b19a32996"
+  },
+  {
+    "version": "v0.1.1687",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 03:40 wake: place.districts' unique site-key ids brought onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "efab72711"
+  },
+  {
+    "version": "v0.1.1686",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: 03:09 wake: two workers brought, search split; review, status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "2189bc362"
+  },
+  {
     "version": "v0.1.1685",
     "date": "2026-11-17",
     "what": "conductor.b@PrompTugal.dinis: 02:48 wake: 138 outlets; S43's doubled key ids routed to place.districts@",
