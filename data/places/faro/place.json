@@ -7,5 +7,34 @@
   "located_in": "place:algarve",
   "matches": [],
   "source": "desks/researcher/algarve-evolution-round-1.md",
-  "note": "Where Algarve Evolution is based (Portugal Startup News, 1 November 2026)."
+  "note": "Where Algarve Evolution is based (Portugal Startup News, 1 November 2026).",
+  "neighbours": [
+    {
+      "place": "place:loule",
+      "source": {
+        "url": "https://www.wikidata.org/wiki/Q159457",
+        "read_at": "2026-11-17T20:30Z",
+        "by": "ontologist@PrompTugal.dinis",
+        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+      }
+    },
+    {
+      "place": "place:olhao",
+      "source": {
+        "url": "https://www.wikidata.org/wiki/Q159457",
+        "read_at": "2026-11-17T20:30Z",
+        "by": "ontologist@PrompTugal.dinis",
+        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+      }
+    },
+    {
+      "place": "place:sao-bras-de-alportel",
+      "source": {
+        "url": "https://www.wikidata.org/wiki/Q159457",
+        "read_at": "2026-11-17T20:30Z",
+        "by": "ontologist@PrompTugal.dinis",
+        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+      }
+    }
+  ]
 }
