@@ -3679,7 +3679,7 @@
       }
     },
     {
-      "id": "site.lisboa-promptugal",
+      "id": "site.lisboa-promptugal-2",
       "agent": "place.districts@PrompTugal.dinis",
       "kind": "site",
       "site": "https://promptugal.news/portugal/lisboa/",
@@ -3699,7 +3699,7 @@
       }
     },
     {
-      "id": "site.porto-promptugal",
+      "id": "site.porto-promptugal-2",
       "agent": "place.districts@PrompTugal.dinis",
       "kind": "site",
       "site": "https://promptugal.news/portugal/porto/",
@@ -3719,7 +3719,7 @@
       }
     },
     {
-      "id": "site.coimbra-promptugal",
+      "id": "site.coimbra-promptugal-2",
       "agent": "place.districts@PrompTugal.dinis",
       "kind": "site",
       "site": "https://promptugal.news/portugal/coimbra/",
@@ -3739,7 +3739,7 @@
       }
     },
     {
-      "id": "site.braga-promptugal",
+      "id": "site.braga-promptugal-2",
       "agent": "place.districts@PrompTugal.dinis",
       "kind": "site",
       "site": "https://promptugal.news/portugal/braga/",
@@ -3759,7 +3759,7 @@
       }
     },
     {
-      "id": "site.viana-do-castelo-promptugal",
+      "id": "site.viana-do-castelo-promptugal-2",
       "agent": "place.districts@PrompTugal.dinis",
       "kind": "site",
       "site": "https://promptugal.news/portugal/viana-do-castelo/",
@@ -3779,7 +3779,7 @@
       }
     },
     {
-      "id": "site.vila-real-promptugal",
+      "id": "site.vila-real-promptugal-2",
       "agent": "place.districts@PrompTugal.dinis",
       "kind": "site",
       "site": "https://promptugal.news/portugal/vila-real/",
@@ -3799,7 +3799,7 @@
       }
     },
     {
-      "id": "site.braganca-promptugal",
+      "id": "site.braganca-promptugal-2",
       "agent": "place.districts@PrompTugal.dinis",
       "kind": "site",
       "site": "https://promptugal.news/portugal/braganca/",
@@ -3819,7 +3819,7 @@
       }
     },
     {
-      "id": "site.viseu-promptugal",
+      "id": "site.viseu-promptugal-2",
       "agent": "place.districts@PrompTugal.dinis",
       "kind": "site",
       "site": "https://promptugal.news/portugal/viseu/",
@@ -3839,7 +3839,7 @@
       }
     },
     {
-      "id": "site.guarda-promptugal",
+      "id": "site.guarda-promptugal-2",
       "agent": "place.districts@PrompTugal.dinis",
       "kind": "site",
       "site": "https://promptugal.news/portugal/guarda/",
