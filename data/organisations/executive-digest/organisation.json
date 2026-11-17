@@ -36,6 +36,78 @@
         "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
       }
     },
+    "people": [
+      {
+        "name": "Ricardo Jorge Isidro Carneiro Florêncio",
+        "role": "Director (ERC register; ficha técnica \"Ricardo Florêncio\")",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "João Silva Gil",
+        "role": "Deputy director",
+        "source": {
+          "url": "https://executivedigest.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "business magazine"
+      },
+      {
+        "name": "Mª João Vieira Pinto",
+        "role": "Deputy director",
+        "source": {
+          "url": "https://executivedigest.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "business magazine"
+      },
+      {
+        "name": "Rita Paz",
+        "role": "Digital executive editor",
+        "source": {
+          "url": "https://executivedigest.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "digital edition"
+      },
+      {
+        "name": "André Manuel Mendes",
+        "role": "Journalist (redação)",
+        "source": {
+          "url": "https://executivedigest.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "beat not stated"
+      },
+      {
+        "name": "Francisco Laranjeira",
+        "role": "Journalist (redação)",
+        "source": {
+          "url": "https://executivedigest.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "beat not stated"
+      },
+      {
+        "name": "Pedro Gonçalves",
+        "role": "Journalist (redação)",
+        "source": {
+          "url": "https://executivedigest.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "beat not stated"
+      }
+    ],
     "sources": [
       {
         "url": "https://executivedigest.sapo.pt/contactos/",

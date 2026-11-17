@@ -31,6 +31,14 @@
   "src": "Ó pá, a whole town drawn with a ruler in two years, and now ",
   "ok": false
  },
+ "12d2a0d8f06a4e05": {
+  "t": "A AICEP informa que a décima Web Summit abriu em Lisboa em 9 de novembro com maior foco em IA física. Robôs humanoides de empresas chinesas participam como palestrantes oficiais, entre eles um robô de duas mãos sobre rodas da Galbot, feito para turnos em lojas, farmácias e fábricas. Delegações do Ministério do Comércio e da Administração do Ciberespaço da China estão presentes, e cerca de 300 startups brasileiras participam. O programa abrange agentes de IA, pesquisa apoiada por IA, regulação digital e novos modelos de trabalho.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "AICEP reports that the tenth Web Summit opened in Lisbon on ",
+  "ok": false
+ },
  "12eab77e7612e4f8": {
   "t": "A planície é grande e nós ainda não vimos tudo. Eis o que Beja ainda não nos contou:",
   "by": "translator@PrompTugal.dinis",

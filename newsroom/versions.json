@@ -1,5 +1,82 @@
 [
   {
+    "version": "v0.1.1697",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 06:05 wake: 34 commits clean; S43's key data fixed (four bundles restored byte-identical), the gate check still owed",
+    "by": "security@PrompTugal.dinis",
+    "from": "5d428ca28"
+  },
+  {
+    "version": "v0.1.1696",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 05:48 wake: S43's lost bundles restored by their owners",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "29e5c1a22"
+  },
+  {
+    "version": "v0.1.1695",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 05:40 wake: place.districts' S43 key fix brought onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "0e6fb791f"
+  },
+  {
+    "version": "v0.1.1694",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: 05:09 wake: dev.places (queue scope) and datasci.places brought; the queue gap explained; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "dfde05459"
+  },
+  {
+    "version": "v0.1.1693",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 04:48 wake: 177 outlets; S43's four lost bundles routed to their owners",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "aac4c612c"
+  },
+  {
+    "version": "v0.1.1692",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 04:40 wake: place.districts' third pass for six capitals brought onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "d9fad0696"
+  },
+  {
+    "version": "v0.1.1691",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 04:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "255e0e73a"
+  },
+  {
+    "version": "v0.1.1690",
+    "date": "2026-11-17",
+    "what": "ontologist@PrompTugal.dinis: researcher@'s people depth and 41 regional periodicals into the graph (177 outlets), hand-over debrief",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "95dca6bc3"
+  },
+  {
+    "version": "v0.1.1689",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 04:05 wake: 29 commits clean; S43 half fixed (doubled ids split; four lost bundles still missing)",
+    "by": "security@PrompTugal.dinis",
+    "from": "42f502bcf"
+  },
+  {
+    "version": "v0.1.1688",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 03:48 wake: ledger 0351Z; S43 fixed; twenty-five outreach drafts",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "b19a32996"
+  },
+  {
+    "version": "v0.1.1687",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 03:40 wake: place.districts' unique site-key ids brought onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "efab72711"
+  },
+  {
     "version": "v0.1.1686",
     "date": "2026-11-17",
     "what": "dev@PrompTugal.dinis: 03:09 wake: two workers brought, search split; review, status, run report",

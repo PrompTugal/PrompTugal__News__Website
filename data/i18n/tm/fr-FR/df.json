@@ -30,5 +30,13 @@
   "at": "2026-11-16",
   "src": "PrompTugal.news Santarém: AI and technology in Santarém, a d",
   "ok": true
+ },
+ "dff763ff9196306b": {
+  "t": "Le 28 juin 2024, le prestataire Softinsa, filiale d'IBM, a présenté à la municipalité les résultats d'une preuve de concept de six semaines utilisant la plateforme watsonx d'IBM sur les plus de 4 000 courriels reçus chaque mois par la municipalité, afin de les acheminer vers le bon service. Plus ancien que les éléments de 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "On 28 June 2024 the contractor Softinsa, an IBM subsidiary, ",
+  "ok": false
  }
 }
