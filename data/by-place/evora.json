@@ -172,6 +172,48 @@
       "url": "https://www.startupportugal.com/en/",
       "kind": "business",
       "feed": null
+    },
+    {
+      "name": "A Voz de Évora (media map, researcher@)",
+      "url": "https://avozdeevora.sapo.pt/",
+      "kind": "press",
+      "feed": "https://avozdeevora.sapo.pt/feed/"
+    },
+    {
+      "name": "Correio Alentejo (media map, researcher@)",
+      "url": "https://correioalentejo.com/",
+      "kind": "press",
+      "feed": "https://correioalentejo.com/feed/"
+    },
+    {
+      "name": "Diário do Sul (media map, researcher@)",
+      "url": "https://diariodosul.pt/",
+      "kind": "press",
+      "feed": "https://diariodosul.pt/feed/"
+    },
+    {
+      "name": "ODigital (media map, researcher@)",
+      "url": "https://odigital.sapo.pt/",
+      "kind": "press",
+      "feed": "https://odigital.sapo.pt/feed/"
+    },
+    {
+      "name": "Perspetiva (media map, researcher@)",
+      "url": "https://www.perspetiva.com/",
+      "kind": "press",
+      "feed": "https://www.perspetiva.com/feed/"
+    },
+    {
+      "name": "TDS (Televisão do Sul) (media map, researcher@)",
+      "url": "https://televisaodosul.pt/",
+      "kind": "press",
+      "feed": "https://televisaodosul.pt/feed/"
+    },
+    {
+      "name": "Tribuna Alentejo (media map, researcher@)",
+      "url": "https://www.tribunaalentejo.pt/",
+      "kind": "press",
+      "feed": "https://www.tribunaalentejo.pt/feed/"
     }
   ],
   "events": [
