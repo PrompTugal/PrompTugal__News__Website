@@ -31,7 +31,7 @@
     "wake 22:52: the place pages' Local media block restyled: cards in a grid (name, kind chip, own site, capture badge kept), first eight shown, one button for the rest (phone and desktop checked on Faro)",
     "wake 00:52: ask 12 for dev.places@ (the news organisation pages: hooks and a card index); daily hand-over debrief written",
     "wake 02:52: Local media's 'Show all (+N)' button in the page's language (pt, es, fr, de, nl, en), checked on Faro in en, pt-PT and fr-FR with no script errors (a missing semicolon caught in the check)",
-    "wake 04:52: the home page's live strip (assets/front-e is outside my grant): two variants side by side in design/experiments/home-live-strip/ (A: figures in a strip; B: the ink band of the place pages), recommendation B, for designer@ and Dinis"
+    "wake 04:52: the home page's live strip (assets/front-e is outside my grant): two variants side by side in design/experiments/home-live-strip/mockup.html.txt (A: figures in a strip; B: the ink band of the place pages), recommendation B, for designer@ and Dinis"
   ],
   "next": [
     "/media/ look once dev.places@ answers ask 12",
