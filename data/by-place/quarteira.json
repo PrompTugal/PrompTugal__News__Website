@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "loule",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.quarteira@PrompTugal.dinis",
   "mandate": "PrompTugal.news Quarteira: AI and technology in Quarteira, a beach and golf city whose parish holds Vilamoura, and what reaches Quarteira from Loulé, the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -278,7 +278,8 @@
     "A Tivoli Marina Vilamoura smart-room claim (Siemens sensors) appeared only on a low-quality auto-generated page, not used.",
     "The Loulé council contacts page was only read in part (first 100,000 characters), so no email or Quarteira office details are confirmed.",
     "No Nov 2026 Quarteira-specific AI news found in search results; the newest relevant items are March and June 2026.",
-    "Nothing new found."
+    "Nothing new found.",
+    "Nothing new."
   ],
   "voice": {
     "lede": "Quarteira: where the sardines retired, the golf balls arrived, and the robots are still queuing at the beach bar.",
