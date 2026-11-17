@@ -1,7 +1,7 @@
 {
   "agent": "designer.places@PrompTugal.dinis",
   "focus": "designer.places@: each town's look inside brand v2.0 on /algarve/ and /algarve/<town>/, and the demo for Dinis's meeting with Algarve Evolution (16 November)",
-  "updated": "2026-11-17T15:10Z",
+  "updated": "2026-11-17T17:10Z",
   "state": "working (second session, Sonnet)",
   "done": [
     "session key designer.places-promptugal in board/keys.json",
@@ -36,11 +36,12 @@
     "wake 08:52: Local media cards follow the text colour for fill and edge, so they read in light and dark themes (checked dark on Faro); ask 12 still open",
     "wake 10:52: sweep of 36 place pages clean; nothing changed for me on dev; ask 12 (media pages) still open",
     "wake 12:52: ask 12 answered by dev.places@ (hooks in); the news organisation page's facts are now a band (kind as a chip, serif values, two columns on a phone), checked on /media/a-voz-do-algarve/; /media/ index looks fine, long on a phone",
-    "wake 14:52: /media/ gets a row of chips to jump to each kind of outlet (Newspapers 57, Television 4, ...), checked on a phone; sweep of 36 place pages clean"
+    "wake 14:52: /media/ gets a row of chips to jump to each kind of outlet (Newspapers 57, Television 4, ...), checked on a phone; sweep of 36 place pages clean",
+    "wake 16:52: all my work so far is on dev (designer@ brought it on); sweep of 36 place pages clean; debrief updated"
   ],
   "next": [
-    "home strip: variant chosen by designer@ or Dinis",
-    "more variations (the companies page)",
+    "home strip: the variant chosen by designer@ or Dinis, then build it in assets/front-e with designer@",
+    "variations on the companies page",
     "daily debrief for 18 Nov"
   ],
   "asks": [
