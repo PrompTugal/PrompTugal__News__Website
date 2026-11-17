@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "setubal-mais",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Setúbal Mais",
+  "names_as_listed": [
+    "Setúbal Mais"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: ficha técnica page not found (/ficha-tecnica/ and /quem-somos/ returned 404). journalists not named. a telephone number is published on the contact page: personal-style contact, not recorded.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:setubal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://setubalmais.pt/",
+    "owner": {
+      "name": "Florindo Manuel Cantante Cardoso (editor as listed by ERC)",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://setubalmais.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://setubalmais.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml; charset=UTF-8, RSS 2.0 body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://setubalmais.pt/contactos/",
+      "source": {
+        "url": "https://setubalmais.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Florindo Manuel Cantante Cardoso",
+        "role": "Diretor and editor, as registered with ERC",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://setubalmais.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "Contact page."
+      },
+      {
+        "url": "https://setubalmais.pt/estatuto-editorial/",
+        "read_at": "2026-11-16",
+        "how": "Editorial statute: fortnightly regional paper for the Setúbal district."
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126432 for 'Setúbal Mais'. Outlet email column deliberately not recorded here."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://setubalmais.pt/contactos/",
+      "read_at": "2026-11-16",
+      "how": "Contact page.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://setubalmais.pt/estatuto-editorial/",
+      "read_at": "2026-11-16",
+      "how": "Editorial statute: fortnightly regional paper for the Setúbal district.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126432 for 'Setúbal Mais'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

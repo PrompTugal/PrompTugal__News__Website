@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "it-insight",
+  "type": "organisation",
+  "kind": "media",
+  "name": "IT Insight",
+  "names_as_listed": [
+    "IT Insight"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: No RSS feed found: /rss and /rss.xml returned 404, no feed link in the page head. Sales and marketing staff on the masthead not recorded (not editorial).",
+  "media": {
+    "outlet_kind": "magazine",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.itinsight.pt/",
+    "owner": {
+      "name": "Media Next Professional Information Lda.",
+      "source": {
+        "url": "https://www.itinsight.pt/pages/ficha-tecnica",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "contact": {
+      "page": "https://www.itinsight.pt/forms/contactar",
+      "source": {
+        "url": "https://www.itinsight.pt/forms/contactar",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Henrique Carreiro",
+        "role": "Diretor",
+        "source": {
+          "url": "https://www.itinsight.pt/pages/ficha-tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Rui Damião",
+        "role": "Diretor Editorial",
+        "source": {
+          "url": "https://www.itinsight.pt/pages/ficha-tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Marta Quaresma Ferreira",
+        "role": "Coordenadora Editorial",
+        "source": {
+          "url": "https://www.itinsight.pt/pages/ficha-tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Flávia Gomes",
+        "role": "Redação",
+        "source": {
+          "url": "https://www.itinsight.pt/pages/ficha-tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Inês Garcia Martins",
+        "role": "Redação",
+        "source": {
+          "url": "https://www.itinsight.pt/pages/ficha-tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Jorge Bento",
+        "role": "Publisher",
+        "source": {
+          "url": "https://www.itinsight.pt/pages/ficha-tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Pedro Botelho",
+        "role": "CEO of Media Next",
+        "source": {
+          "url": "https://www.itinsight.pt/pages/ficha-tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.itinsight.pt/pages/ficha-tecnica",
+        "read_at": "2026-11-17",
+        "how": "Ficha tecnica: masthead, owner, 'registado na ERC com o n.º 127295'."
+      },
+      {
+        "url": "https://www.itinsight.pt/",
+        "read_at": "2026-11-17",
+        "how": "Home page."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.itinsight.pt/pages/ficha-tecnica",
+      "read_at": "2026-11-17",
+      "how": "Ficha tecnica: masthead, owner, 'registado na ERC com o n.º 127295'.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.itinsight.pt/",
+      "read_at": "2026-11-17",
+      "how": "Home page.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

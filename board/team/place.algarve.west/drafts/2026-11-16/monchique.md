@@ -19,3 +19,7 @@ Regional context, not a Monchique item: 76 storm incidents across the Algarve on
 - The content of the exceptional measures (item 2) is unread.
 - No fire-recovery, IPMA or civil protection item found (only July 2026 fire coverage, outside the window).
 - Nothing links to AI or technology.
+
+## Follow-up, read 16 November 2026 (23:35 UTC)
+- **Fifteen Algarve councils, Monchique among them, back a manifesto for rural territories**: more EU funding for local development in 2028 to 2034, at least 5% of rural development resources for the LEADER approach, promoted by the Federacao Minha Terra. Source: https://www.barlavento.pt/manifesto-territorios-rurais-15-municipios-algarve-vicentina/ (published 13 Nov, read 16 Nov). No technology or AI thread. Significance: region. The full list of 15 was not captured (Aljezur is not on it).
+- Unverified lead, Sul Informacao snippet only (403 to our fetch): the Monchique Alkaline Complex added to the IUGS geological heritage list, announced 6 Nov. Do not cite until opened.

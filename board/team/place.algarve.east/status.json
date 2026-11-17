@@ -1,8 +1,8 @@
 {
   "agent": "place.algarve.east@PrompTugal.dinis",
   "focus": "Tavira, Castro Marim, Vila Real de Santo António, Alcoutim and the Algarve region page: regular local news, sourced, with scope and blast radius",
-  "state": "wake 4 (23:40): merged dev (my wake-1 and wake-2 items are on dev already, brought by the editor-in-chief); nothing new to add at midnight; gate OK; waiting for journalist@ and Dinis's answers",
-  "updated": "2026-11-16T23:50Z",
+  "state": "wake 5 (00:40, 17 Nov): no hold, no new guidance; merged dev; no new local news at this hour; daily debrief due this morning",
+  "updated": "2026-11-17T00:50Z",
   "done": [
     "session key place.algarve.east-promptugal released to dev",
     "22 sourced local news items, each read from an opened page on 2026-11-16",

@@ -7,7 +7,7 @@
   "names_as_listed": [
     "Rádio Valdevez"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: contact page and public contact not read. outside a district capital; included as Alto Minho outlet.",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: contact page and public contact not read. outside a district capital; included as Alto Minho outlet.  amendment: no further editorial people named; contact page not found (404 at /contactos/).",
   "media": {
     "outlet_kind": "radio",
     "places_covered": [
@@ -78,6 +78,11 @@
         "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
         "read_at": "2026-11-16",
         "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 423078 for 'Rádio Valdevez'. Outlet email column deliberately not recorded here."
+      },
+      {
+        "url": "https://www.radiovaldevez.pt/ficha-tecnica/",
+        "read_at": "2026-11-16",
+        "how": "Re-read ficha técnica: the three station officers already recorded (director, information, programming); the station's association governing bodies are also listed (not recorded as editorial staff). /contactos/ returns 404."
       }
     ]
   },
@@ -92,6 +97,12 @@
       "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
       "read_at": "2026-11-16",
       "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 423078 for 'Rádio Valdevez'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.radiovaldevez.pt/ficha-tecnica/",
+      "read_at": "2026-11-16",
+      "how": "Re-read ficha técnica: the three station officers already recorded (director, information, programming); the station's association governing bodies are also listed (not recorded as editorial staff). /contactos/ returns 404.",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]

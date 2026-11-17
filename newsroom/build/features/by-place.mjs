@@ -151,7 +151,7 @@ function nowBlock(ctx, p) {
     const fr = d.fire_risk && d.fire_risk.days && d.fire_risk.days[0]
     if (fr) out.push(`- **Fire risk** ${esc(ctx, fr.level)} *[IPMA](${d.fire_risk.page || d.fire_risk.source})*`)
     if (d.sea) out.push(`- **Sea** waves ${d.sea.waves_max_m ?? '?'} m · ${d.sea.sea_temp_max_c ?? '?'} °C *[IPMA, ${esc(ctx, d.sea.coast)}](${d.sea.page || d.sea.source})*`)
-    if (d.airport) out.push(`- **Faro airport** ${d.airport.airline.length} airline, ${d.airport.other_aircraft} other, ${d.airport.within_nm} nm${d.airport.airline.length ? ` (${d.airport.airline.slice(0, 6).map(a => esc(ctx, a.callsign)).join(', ')})` : ''} *[adsb.lol](${d.airport.page || d.airport.source}), ${t(d.airport.at)}*`)
+    if (d.airport) out.push(`- **Faro airport** ${d.airport.airline.length} airline, ${d.airport.other_aircraft} other, ${d.airport.within_nm} nm${d.airport.airline.length ? ` (${d.airport.airline.slice(0, 6).map(a => esc(ctx, a.callsign)).join(', ')})` : ''} *[adsb.lol](${d.airport.page || d.airport.source}), ${d.airport.stale ? 'last read ' : ''}${t(d.airport.at)}*`)   // stale: the collector kept the last read (dev@, 17 Nov)
     return `{.mini-h}\nNow in ${esc(ctx, p.name)}\n\n{.bp-now}\n${out.join('\n')}\n\n`
 }
 
