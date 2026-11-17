@@ -19,6 +19,15 @@
   "from": "es-ES",
   "adapted": true
  },
+ "b75d77f14452abc1": {
+  "t": "Una profesora de informática del Agrupamento de Escolas Dr. Francisco Fernandes Lopes, en Olhão, participó en un curso Erasmus+ en Praga, del 2 al 6 de noviembre, sobre IA para la educación: prompts, agentes de IA, chatbots y normas para el uso de la IA en los centros escolares. Planea una acción de formación para docentes y usar las herramientas con alumnado de formación profesional.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "A computer science teacher at the Dr. Francisco Fernandes Lo",
+  "ok": false,
+  "from": "es-ES"
+ },
  "b797a4126e37d00a": {
   "t": "El Politécnico da Guarda acoge una sesión gratuita de demostración de IA y competencias digitales para empresas de la región",
   "by": "translator@PrompTugal.dinis",
