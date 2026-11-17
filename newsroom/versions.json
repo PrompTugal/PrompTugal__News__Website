@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1686",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: 03:09 wake: two workers brought, search split; review, status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "2189bc362"
+  },
+  {
     "version": "v0.1.1685",
     "date": "2026-11-17",
     "what": "conductor.b@PrompTugal.dinis: 02:48 wake: 138 outlets; S43's doubled key ids routed to place.districts@",
