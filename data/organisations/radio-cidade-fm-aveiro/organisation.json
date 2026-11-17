@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "radio-cidade-fm-aveiro",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Cidade FM Aveiro",
+  "names_as_listed": [
+    "Cidade FM Aveiro"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page. Network site (Bauer Media), copied to each Cidade FM record; the PDF names no information head for Cidade FM. No feed found.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:aveiro"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://cidade.fm/",
+    "owner": {
+      "name": "Rádio Independente de Aveiro - Cooperativa de Radiodifusão, CRL",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "contact": {
+      "page": "https://cidade.fm/contactos",
+      "source": {
+        "url": "https://cidade.fm/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "José Armando Leite",
+        "role": "Responsável pela programação (as listed in the ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Teresa Mota",
+        "role": "Responsável pela informação (as listed in the ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Manuel Cabral",
+        "role": "Responsável de Programação, Cidade FM (network transparency PDF)",
+        "source": {
+          "url": "https://cidade.fm/upload/resources/transparencia/Cidade.pdf",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "programming"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423235, operator 'Rádio Independente de Aveiro - Cooperativa de Radiodifusão, CRL' (seat Aveiro), service 'Cidade FM Aveiro', licence district Aveiro, concelho Aveiro. Outlet email column deliberately not recorded."
+      },
+      {
+        "url": "https://cidade.fm/upload/resources/transparencia/Cidade.pdf",
+        "read_at": "2026-11-17",
+        "how": "Lei 78/2015 transparency PDF of the network operator BMHAUDIO Portugal Holdings, Unipessoal Lda. & Comandita (Bauer Media group)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423235, operator 'Rádio Independente de Aveiro - Cooperativa de Radiodifusão, CRL' (seat Aveiro), service 'Cidade FM Aveiro', licence district Aveiro, concelho Aveiro. Outlet email column deliberately not recorded.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://cidade.fm/upload/resources/transparencia/Cidade.pdf",
+      "read_at": "2026-11-17",
+      "how": "Lei 78/2015 transparency PDF of the network operator BMHAUDIO Portugal Holdings, Unipessoal Lda. & Comandita (Bauer Media group)",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}
