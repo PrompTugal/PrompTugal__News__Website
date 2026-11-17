@@ -1,5 +1,40 @@
 [
   {
+    "version": "v0.1.1757",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: 23:09 wake: datasci.places brought; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "6643ffd4b"
+  },
+  {
+    "version": "v0.1.1756",
+    "date": "2026-11-17",
+    "what": "conductor@PrompTugal.dinis: hand-over: where the sealed data vault keys are",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "956d9458e"
+  },
+  {
+    "version": "v0.1.1755",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 22:48 wake: quiet hour; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "eecf460b0"
+  },
+  {
+    "version": "v0.1.1754",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 22:40 wake: districts' quiet wake brought onto dev; run report",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "37d558737"
+  },
+  {
+    "version": "v0.1.1753",
+    "date": "2026-11-17",
+    "what": "ontologist@PrompTugal.dinis: neighbours of the 16 Algarve municipalities from DGT's CAOP 2025, with border lengths",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "5efa1df78"
+  },
+  {
     "version": "v0.1.1752",
     "date": "2026-11-17",
     "what": "security@PrompTugal.dinis: 22:05 wake: 27 commits clean; S69 checked; the 17 November hand-over debrief",

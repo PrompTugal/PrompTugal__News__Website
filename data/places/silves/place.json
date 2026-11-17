@@ -11,74 +11,82 @@
   "neighbours": [
     {
       "place": "place:albufeira",
+      "border_km": 23.2,
       "source": {
-        "url": "https://www.wikidata.org/wiki/Q749180",
-        "read_at": "2026-11-17T20:30Z",
+        "url": "https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop",
+        "read_at": "2026-11-17T22:30Z",
         "by": "ontologist@PrompTugal.dinis",
-        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+        "how": "CAOP 2025 (Continente), official: the boundary segments (cont_trocos) with a freguesia of each municipality on either side, summed"
       }
     },
     {
       "name": "Almodôvar",
+      "border_km": 15.9,
       "source": {
-        "url": "https://www.wikidata.org/wiki/Q749180",
-        "read_at": "2026-11-17T20:30Z",
+        "url": "https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop",
+        "read_at": "2026-11-17T22:30Z",
         "by": "ontologist@PrompTugal.dinis",
-        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+        "how": "CAOP 2025 (Continente), official: the boundary segments (cont_trocos) with a freguesia of each municipality on either side, summed"
       }
     },
     {
       "place": "place:lagoa",
+      "border_km": 22.9,
       "source": {
-        "url": "https://www.wikidata.org/wiki/Q749180",
-        "read_at": "2026-11-17T20:30Z",
+        "url": "https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop",
+        "read_at": "2026-11-17T22:30Z",
         "by": "ontologist@PrompTugal.dinis",
-        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+        "how": "CAOP 2025 (Continente), official: the boundary segments (cont_trocos) with a freguesia of each municipality on either side, summed"
       }
     },
     {
       "place": "place:loule",
+      "border_km": 20.0,
       "source": {
-        "url": "https://www.wikidata.org/wiki/Q749180",
-        "read_at": "2026-11-17T20:30Z",
+        "url": "https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop",
+        "read_at": "2026-11-17T22:30Z",
         "by": "ontologist@PrompTugal.dinis",
-        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+        "how": "CAOP 2025 (Continente), official: the boundary segments (cont_trocos) with a freguesia of each municipality on either side, summed"
       }
     },
     {
       "place": "place:monchique",
+      "border_km": 33.6,
       "source": {
-        "url": "https://www.wikidata.org/wiki/Q749180",
-        "read_at": "2026-11-17T20:30Z",
+        "url": "https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop",
+        "read_at": "2026-11-17T22:30Z",
         "by": "ontologist@PrompTugal.dinis",
-        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+        "how": "CAOP 2025 (Continente), official: the boundary segments (cont_trocos) with a freguesia of each municipality on either side, summed"
       }
     },
     {
       "name": "Odemira",
+      "border_km": 15.7,
       "source": {
-        "url": "https://www.wikidata.org/wiki/Q749180",
-        "read_at": "2026-11-17T20:30Z",
+        "url": "https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop",
+        "read_at": "2026-11-17T22:30Z",
         "by": "ontologist@PrompTugal.dinis",
-        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+        "how": "CAOP 2025 (Continente), official: the boundary segments (cont_trocos) with a freguesia of each municipality on either side, summed"
       }
     },
     {
       "name": "Ourique",
+      "border_km": 18.0,
       "source": {
-        "url": "https://www.wikidata.org/wiki/Q749180",
-        "read_at": "2026-11-17T20:30Z",
+        "url": "https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop",
+        "read_at": "2026-11-17T22:30Z",
         "by": "ontologist@PrompTugal.dinis",
-        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+        "how": "CAOP 2025 (Continente), official: the boundary segments (cont_trocos) with a freguesia of each municipality on either side, summed"
       }
     },
     {
       "place": "place:portimao",
+      "border_km": 13.5,
       "source": {
-        "url": "https://www.wikidata.org/wiki/Q749180",
-        "read_at": "2026-11-17T20:30Z",
+        "url": "https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop",
+        "read_at": "2026-11-17T22:30Z",
         "by": "ontologist@PrompTugal.dinis",
-        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+        "how": "CAOP 2025 (Continente), official: the boundary segments (cont_trocos) with a freguesia of each municipality on either side, summed"
       }
     }
   ]
