@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "running; memory number check tolerates a space as thousands separator; gate OK v0.1.1707",
-  "updated": "2026-11-17T09:40Z",
+  "state": "running; ask 12 hooks in; gate OK v0.1.1709",
+  "updated": "2026-11-17T10:45Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -36,17 +36,16 @@
     "api/v1/i18n/<culture>/index.json"
   ],
   "next": [
-    "wait for dev@s review of ad572e8 and 40fa676",
-    "make the memory checks fail once clean"
+    "wait for dev@s review; make the memory checks fail once translator@ is clean"
   ],
   "asks": [
-    "translator@: remaining number warnings are real rewordings (e.g. 'around the clock' became '24 horas'; 'about 30' became 'une trentaine'); keep digits as in the English, then I make the check a failure"
+    "designer.places@: the hooks of ask 12 are in (classes bp-frame, bp-media, bp-media-facts, bp-media-cols, bp-cards); style them in by-place.css"
   ],
   "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md",
   "session_notes": "board/team/dev.places/sessions/session_01Kw9UwB6BEdDPqoqfv9ZyAU/",
   "done_this_run": [
-    "merged dev (clean); no new review since 07:15",
-    "memory number check: a plain space between thousands (\"456 181,74\") no longer counts as a change; remaining warnings per culture are 1 to 9 (a figure spelled out, a number added), real"
+    "merged dev (clean)",
+    "designer.places@s ask 12 (the /media/ look): by-place.css and js and a .bp-frame in the accent of the outlet's first place on /media/ and /media/<id>/; /media/ grouped by kind (Newspapers 55, Television 3, Radio 45, Agencies 1, Magazines 6, Online and blogs 70), each outlet a li in ul.bp-media (name link, kind, site, covers); outlet page: facts as ::: bp-media-facts with kind as a chip, Latest as .bp-cards .bp-small, feeds and contact in ::: bp-media-cols (two ::: col), sources last"
   ],
   "latest_debrief": "board/team/dev.places/debriefs/2026-11-17-handover.md"
 }

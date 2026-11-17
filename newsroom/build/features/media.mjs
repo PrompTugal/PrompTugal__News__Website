@@ -29,23 +29,32 @@ export function mediaBlock(ctx, p, rel, chain) {
         (wider.length ? `${c.block_wider}:\n\n{.bp-media}\n${wider.map(o => li({ ...o, latest: [] })).join('\n')}\n\n` : '')
 }
 
+// the place pages' look (designer.places@, ask 12): the by-place css and js, and the frame in the accent of the outlet's first place
+const DEF_ACCENT = '#1f5f3f'
+const accentOf = (ctx, o) => { for (const id of covers(o)) { try { const a = ctx.readJSON(`data/by-place/${id}.json`).look?.accent; if (/^#[0-9a-f]{6}$/i.test(a || '')) return a } catch {} } return DEF_ACCENT }
+const frame = (page, accent) => ({ ...page, assets: { css: ['assets/by-place/by-place.css'], js: ['assets/by-place/by-place.js'] }, postHtml: html => `<div class="bp-frame" data-place="media" style="--accent:${accent}">${html}</div>` })
+const placeNames = ctx => { try { return new Map(ctx.readJSON('data/by-place/places.json').places.map(p => [p.id, p.name])) } catch { return new Map() } }
+const groupOf = (kind, groups) => (groups.find(g => g.match.some(w => String(kind).includes(w))) || groups[groups.length - 1])
+
 function outletPage(ctx, o) {
     const rel = `media/${o.id}/index.html`, m = o.media, c = C(ctx), cell = ctx.md.cell
     const places = covers(o).map(id => { const pl = ctx.store.get ? ctx.store.get(`place:${id}`) : null; return cell(pl?.name || id) }).join(', ')
-    const rows = [[c.facts_kind, cell(m.outlet_kind.replace(/-/g, ' '))], [c.facts_covers, places], m.language && [c.facts_lang, m.language.map(cell).join(', ')],
+    const rows = [[c.facts_kind, `\`${cell(m.outlet_kind.replace(/-/g, ' '))}\``], [c.facts_covers, places], m.language && [c.facts_lang, m.language.map(cell).join(', ')],
         okUrl(m.website) && [c.facts_site, `[${cell(m.website)}](${m.website})`], m.owner && m.owner.name && [c.facts_owner, cell(m.owner.name)]].filter(Boolean)
     const src = s => `${mdLink(ctx, s.url, s.url)}, read ${day(s.read_at)}${s.how ? `: ${cell(s.how)}` : ''}`
     const fd = feedOf(ctx, o.id)
-    const md = `{.facts}\n| | |\n|---|---|\n${rows.map(r => `| **${r[0]}** | ${r[1]} |`).join('\n')}\n\n` +
-        (fd && fd.items.length ? `## ${c.latest_h} {#latest}\n\n${fd.items.filter(i => okUrl(i.link)).map(i => `- ${mdLink(ctx, i.title, i.link)}${i.date ? ` · ${i.date}` : ''}`).join('\n')}\n\n${c.latest_note.replace('{when}', day(fd.read_at))}\n\n` : '') +
-        ((m.feeds || []).filter(f => okUrl(f.url)).length ? `## ${c.feeds_h} {#feeds}\n\n${m.feeds.filter(f => okUrl(f.url)).map(f => `- ${mdLink(ctx, f.url, f.url)} (${cell(f.format)}${f.scope ? `, ${cell(f.scope)}` : ''})${f.source ? ` · read ${day(f.source.read_at)}` : ''}`).join('\n')}\n\n` : '') +
-        (m.contact && okUrl(m.contact.page) ? `## ${c.contact_h} {#contact}\n\n${c.contact_note}\n\n- ${mdLink(ctx, m.contact.page, m.contact.page)}${m.contact.source ? ` · read ${day(m.contact.source.read_at)}` : ''}\n\n` : '') +
+    const feeds = (m.feeds || []).filter(f => okUrl(f.url)), cont = m.contact && okUrl(m.contact.page)
+    const feedsMd = feeds.length ? `## ${c.feeds_h} {#feeds}\n\n${feeds.map(f => `- ${mdLink(ctx, f.url, f.url)} (${cell(f.format)}${f.scope ? `, ${cell(f.scope)}` : ''})${f.source ? ` · read ${day(f.source.read_at)}` : ''}`).join('\n')}\n\n` : ''
+    const contMd = cont ? `## ${c.contact_h} {#contact}\n\n${c.contact_note}\n\n- ${mdLink(ctx, m.contact.page, m.contact.page)}${m.contact.source ? ` · read ${day(m.contact.source.read_at)}` : ''}\n\n` : ''
+    const md = `::: bp-media-facts\n{.facts}\n| | |\n|---|---|\n${rows.map(r => `| **${r[0]}** | ${r[1]} |`).join('\n')}\n:::\n\n` +
+        (fd && fd.items.length ? `## ${c.latest_h} {#latest}\n\n{.bp-cards .bp-small}\n${fd.items.filter(i => okUrl(i.link)).map(i => `- **${mdLink(ctx, i.title, i.link)}**${i.date ? ` *${i.date}*` : ''}`).join('\n')}\n\n${c.latest_note.replace('{when}', day(fd.read_at))}\n\n` : '') +
+        (feedsMd || contMd ? `::: bp-media-cols\n::: col\n${feedsMd}:::\n::: col\n${contMd}:::\n:::\n\n` : '') +
         ((m.people || []).length ? `## ${c.people_h} {#people}\n\n${m.people.map(x => `- ${cell(x.name)}${x.role ? `, ${cell(x.role)}` : ''}${x.beat ? ` (${cell(x.beat)})` : ''}${x.source && okUrl(x.source.url) ? ` · ${mdLink(ctx, 'source', x.source.url)}` : ''}`).join('\n')}\n\n` : '') +
         `## ${c.sources_h} {#sources}\n\n{.sources}\n${(m.sources || []).filter(s => okUrl(s.url)).map(s => `- ${src(s)}`).join('\n')}\n\n[${c.all}](../index.md)`
     const dates = [...(m.sources || []), ...(m.feeds || []).map(f => f.source).filter(Boolean)].map(s => day(s.read_at)).sort()
-    return { src: `data/organisations/${o.id}/organisation.json`, rel, type: 'organisation', date: dates.pop() || ctx.TODAY,
+    return frame({ src: `data/organisations/${o.id}/organisation.json`, rel, type: 'organisation', date: dates.pop() || ctx.TODAY,
         crumbs: [['media/index.html', c.index_title], [null, o.name]], title: o.name,
-        summary: `${cell(m.outlet_kind.replace(/-/g, ' '))} covering ${places}. Its own site, feed and contact page, with the date we read each.`, md }
+        summary: `${cell(m.outlet_kind.replace(/-/g, ' '))} covering ${places}. Its own site, feed and contact page, with the date we read each.`, md }, accentOf(ctx, o))
 }
 
 // where local journalism is, and where it is missing: for every local place, the outlets that name it, and those that
@@ -68,9 +77,13 @@ function coverageMd(ctx, rel) {
         `| ${c.cov_place} | ${c.cov_own} | ${c.cov_area} |\n|---|---|---|\n` + rows.map(r => `| ${link(r)} | ${r.own.length ? '▮'.repeat(Math.min(r.own.length, 12)) + ' ' + r.own.length : c.cov_none} | ${r.area_count} |`).join('\n') + '\n\n'
 }
 export function pages(ctx) {
-    const os = outlets(ctx), c = C(ctx), rel = 'media/index.html'
-    return [{ src: 'data/organisations/', rel, type: 'site', date: ctx.TODAY, title: c.index_title, summary: c.index_summary, crumbs: [[null, c.index_title]],
-        md: `${c.index_intro}\n\n` + coverageMd(ctx, rel) + (os.length ? `{.rows .links-cols}\n${os.map(o => `- ${mdLink(ctx, o.name, ctx.link(rel, `media/${o.id}/index.html`))}`).join('\n')}` : c.index_empty) },
+    const os = outlets(ctx), c = C(ctx), rel = 'media/index.html', names = placeNames(ctx)
+    const li = o => `- ${mdLink(ctx, o.name, ctx.link(rel, `media/${o.id}/index.html`))} · ${ctx.md.cell(o.media.outlet_kind.replace(/-/g, ' '))}${okUrl(o.media.website) ? ` · ${mdLink(ctx, 'site', o.media.website)}` : ''}${covers(o).length ? ` · ${c.covers_label} ${covers(o).slice(0, 3).map(id => ctx.md.cell(names.get(id) || id)).join(', ')}${covers(o).length > 3 ? '…' : ''}` : ''}`
+    const groups = c.groups, by = new Map(groups.map(g => [g.id, []]))
+    for (const o of os) by.get(groupOf(o.media.outlet_kind, groups).id).push(o)
+    const list = groups.filter(g => by.get(g.id).length).map(g => `### ${g.label} (${by.get(g.id).length}) {#${g.id}}\n\n{.bp-media}\n${by.get(g.id).map(li).join('\n')}\n\n`).join('')
+    return [frame({ src: 'data/organisations/', rel, type: 'site', date: ctx.TODAY, title: c.index_title, summary: c.index_summary, crumbs: [[null, c.index_title]],
+        md: `${c.index_intro}\n\n` + coverageMd(ctx, rel) + (os.length ? `## ${c.outlets_h} {#outlets}\n\n${list}` : c.index_empty) }, DEF_ACCENT),
     ...os.map(o => outletPage(ctx, o))]
 }
 
