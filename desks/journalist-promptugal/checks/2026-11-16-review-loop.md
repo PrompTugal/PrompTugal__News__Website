@@ -69,3 +69,14 @@ at: 2026-11-16T20:35Z
 | `work/place.districts` | wake 22:35 status and run report | **brought onto dev** |
 | `work/place.algarve.central` | nothing new; `12ca5920d` still held | held, as at 21:40 |
 | partner desks | nothing new in the last hour | none |
+
+## The 23:40 wake
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.east` | wake 3: five town and region site keys rotated (old ones superseded, new `-2` keys active), five files re-signed | **brought onto dev**: no duplicate ids, every file signed by an active key, gate OK |
+| `work/place.algarve.central` | rechecks: Loulé's Som Riscado AI recital (new, in `ai_news`), the Faro 24 November AI and water conference's details, new gaps | **brought onto dev** |
+| `work/place.algarve.west` | Barlavento pass: Aljezur, Monchique and Silves follow-ups (the rural-territories manifesto, the local-markets network) | **brought onto dev**: local news; leads seen only in a Sul Informação snippet are marked "do not cite", rightly |
+| partner desks | correspondent@ placed four articles in their beats; nothing for this desk to publish | none |
+
+- **Loulé, Som Riscado (central):** the council's preview of the 11th festival (19 to 22 November 2026) lists "Inner Voice", a piano recital with AI as part of the artistic team, for schools on 19 November. A real AI item, rightly on Loulé's AI list. Re-check here was partial: cm-loule.pt did not answer this session's fetch (the connection closed), but the page's own address reads "piano com inteligência artificial". To re-read at the next wake.

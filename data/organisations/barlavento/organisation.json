@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "barlavento",
+  "type": "organisation",
+  "name": "Barlavento",
+  "names_as_listed": [
+    "Barlavento"
+  ],
+  "sources": [
+    {
+      "url": "https://www.barlavento.pt/",
+      "read_at": "2026-11-16T20:12Z",
+      "by": "local@PrompTugal.jose",
+      "how": "the outlet's own home page, read for its outlet record"
+    }
+  ],
+  "kind": "media",
+  "note": "Written by hand by local@PrompTugal.jose on 16 November 2026 from the outlet's own pages, for the Algarve towns (desks/local-jose/towns/). Read so far for Faro and Loulé; the outlet keeps a section and a feed per council, added here as each town is read.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:algarve",
+      "place:faro",
+      "place:loule"
+    ],
+    "owner": {
+      "name": "PORLAGMEDIA Edição e Distribuição, Lda",
+      "source": {
+        "url": "https://www.barlavento.pt/ficha-tecnica/",
+        "read_at": "2026-11-16T20:12Z",
+        "how": "the Ficha Técnica page names it as owner and publisher (Proprietário e Editor), wholly held by Open Media, SA"
+      }
+    },
+    "language": [
+      "pt-PT"
+    ],
+    "website": "https://www.barlavento.pt/",
+    "feeds": [
+      {
+        "url": "https://www.barlavento.pt/feed/",
+        "format": "rss",
+        "scope": "all latest articles",
+        "source": {
+          "url": "https://www.barlavento.pt/feed/",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "fetched: an RSS 2.0 channel, language pt-PT, 10 items, last built 16 November 2026; linked as the alternate feed in the home page head"
+        }
+      },
+      {
+        "url": "https://www.barlavento.pt/algarve/faro/feed/",
+        "format": "rss",
+        "scope": "the Faro section only",
+        "source": {
+          "url": "https://www.barlavento.pt/algarve/faro/feed/",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "fetched: an RSS 2.0 channel titled Arquivo de Faro, 10 items; linked as the category feed in the head of the Faro section page"
+        }
+      },
+      {
+        "url": "https://www.barlavento.pt/algarve/loule/feed/",
+        "format": "rss",
+        "scope": "the Loulé section only",
+        "source": {
+          "url": "https://www.barlavento.pt/algarve/loule/feed/",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "fetched: an RSS 2.0 channel titled Arquivo de Loulé, 10 items; linked as the category feed in the head of the Loulé section page"
+        }
+      },
+      {
+        "url": "https://www.barlavento.pt/wp-json/wp/v2/posts",
+        "format": "api",
+        "scope": "the site's WordPress REST API, latest posts as JSON",
+        "source": {
+          "url": "https://www.barlavento.pt/wp-json/wp/v2/posts?per_page=1",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "fetched once with one post asked for: answered 200 as JSON"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://www.barlavento.pt/ficha-tecnica/",
+      "source": {
+        "url": "https://www.barlavento.pt/ficha-tecnica/",
+        "read_at": "2026-11-16T20:12Z",
+        "how": "the outlet has no separate contacts page (/contactos/ answered 404); its Ficha Técnica page, linked from the footer, is where it publishes its newsroom contact. Nothing copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Bruno Filipe Pires",
+        "role": "Diretor",
+        "source": {
+          "url": "https://www.barlavento.pt/ficha-tecnica/",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "named as Diretor on the Ficha Técnica page, with a journalist's card number"
+        }
+      },
+      {
+        "name": "Beatriz Maio",
+        "role": "Redação",
+        "source": {
+          "url": "https://www.barlavento.pt/ficha-tecnica/",
+          "read_at": "2026-11-16T20:12Z",
+          "how": "named under Redação on the Ficha Técnica page, with a journalist's card number"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.barlavento.pt/",
+        "read_at": "2026-11-16T20:12Z",
+        "how": "home page read: titled \"Barlavento – Notícias diárias do Algarve e de Portugal\""
+      },
+      {
+        "url": "https://www.barlavento.pt/algarve/faro/",
+        "read_at": "2026-11-16T20:12Z",
+        "how": "the outlet keeps a section for this town (Arquivo de Faro), with stories dated this week"
+      },
+      {
+        "url": "https://www.barlavento.pt/ficha-tecnica/",
+        "read_at": "2026-11-16T20:12Z",
+        "how": "the page shows ERC registration nº 102457; newsroom in Lagoa, registered office in Portimão"
+      },
+      {
+        "url": "https://www.barlavento.pt/sobre-nos/",
+        "read_at": "2026-11-16T20:12Z",
+        "how": "the Sobre Nós page: a regional newspaper founded in Portimão, first issue 26 April 1975"
+      },
+      {
+        "url": "https://www.barlavento.pt/robots.txt",
+        "read_at": "2026-11-16T20:12Z",
+        "how": "robots.txt read: all paths allowed to general readers; three named crawlers (CCBot, Google-Extended, GPTBot) are refused"
+      },
+      {
+        "url": "https://www.barlavento.pt/algarve/loule/",
+        "read_at": "2026-11-16T20:12Z",
+        "how": "the outlet keeps a section for this town (Arquivo de Loulé), with stories dated this week"
+      }
+    ]
+  }
+}
