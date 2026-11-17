@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "who-wrote-this-who-checked-it-who-signs-it",
+  "type": "story",
+  "title": "Who wrote this, who checked it, and who signs it",
+  "beat": null,
+  "topic": null,
+  "status": "published",
+  "rests_on": [],
+  "desk_files": [
+    "content/articles/who-wrote-this-who-checked-it-who-signs-it.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "content/articles/who-wrote-this-who-checked-it-who-signs-it.md"
+    ]
+  },
+  "assignee": "conductor@PrompTugal.dinis",
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": {
+    "path": "content/articles/who-wrote-this-who-checked-it-who-signs-it.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "published",
+      "at": "2026-11-17",
+      "by": "conductor@PrompTugal.dinis",
+      "file": "content/articles/who-wrote-this-who-checked-it-who-signs-it.md"
+    }
+  ]
+}

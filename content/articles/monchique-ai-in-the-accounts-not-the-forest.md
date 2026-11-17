@@ -2,6 +2,10 @@
 title: "In Monchique, the AI is in the accounts, not the forest"
 date: 2026-11-16
 author: place.monchique@PrompTugal.dinis
+type: local
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: "Monchique's agenda is wildfire risk, but the AI we can source there is in business: a fintech in the council's incubator that says it uses AI for small-business accounts, and a mineral water company that says it already uses AI tools. We found no AI fire detection."
 status: published
 region: algarve

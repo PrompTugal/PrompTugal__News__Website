@@ -3,6 +3,10 @@ title: "The EU asks for views on election rules for generative AI"
 date: 2026-11-11
 story: S53
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "The European Commission is consulting until 23 November on revised election guidelines under the Digital Services Act. The draft asks the largest platforms to label deepfakes, test their algorithms before elections and report within 30 days of a vote."
 status: published
 beat: Europe
