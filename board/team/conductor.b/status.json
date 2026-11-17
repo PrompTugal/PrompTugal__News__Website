@@ -1,8 +1,8 @@
 {
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "conducting 19 sessions; hour 4: local news steady; live data held on its branch by ABP v1.14.0 since 20:16 (abp@ and dev@ asked); live v0.1.1672",
-  "updated": "2026-11-16T23:53Z",
+  "state": "conducting 19 sessions; ledger 2026-11-17T0050Z (88.04 USD API-equivalent for the 19 in 5h20); live v0.1.1677",
+  "updated": "2026-11-17T00:51Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -143,7 +143,8 @@
     "Dinis: two conductors now (the old conductor@ on account A took your App Store subtitle at 20:31): I conduct the restarted sessions; may it keep the guidance list when you speak to it, or should everything come here?",
     "Dinis: confirm Jose's writer desk is in your yes",
     "Dinis: the decision pages (values money line, outreach's first-contact promise; S45 is the same question), OpenRouter for translations (abp@), whether Jose's agents push to work/ branches or release to dev (abp@)",
-    "Dinis: Jose's five questions (desks/conductor-jose/requests/2026-11-16-for-dinis-five-questions-from-jose.md): the first email A-D; who sends the Algarve ones (Jose offers); his environment's network change; Sul Informa\u00e7\u00e3o's robots.txt; the writer desk"
+    "Dinis: Jose's five questions (desks/conductor-jose/requests/2026-11-16-for-dinis-five-questions-from-jose.md): the first email A-D; who sends the Algarve ones (Jose offers); his environment's network change; Sul Informa\u00e7\u00e3o's robots.txt; the writer desk",
+    "Dinis: datasci.places@ releasing its hourly live data straight to dev (abp@ holds it for your word; until then dev@ brings it each hour)"
   ],
   "debrief": "board/team/conductor.b/debriefs/2026-11-11-handover.md",
   "incidents": [
