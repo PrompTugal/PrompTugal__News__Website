@@ -1,0 +1,26 @@
+{
+ "99a71106aa482450": {
+  "t": "Aljezur to atlantyckie krańce Algarve: duża, słabo zaludniona gmina (około 323 kilometrów kwadratowych i 5884 mieszkańców według spisu z 2011 roku) o czterech parafiach, położona w Parku Narodowym Sudoeste Alentejano e Costa Vicentina. Jej tożsamość to przyroda, surfing na plażach takich jak Arrifana oraz rada, która nazywa turystykę przyrodniczą strategicznym motorem lokalnej gospodarki. Drugim filarem jest energia: EDP prowadzi farmę wiatrową Bordeira o mocy 24 MW, a w 2025 roku dobudowała obok elektrownię słoneczną o mocy 15,3 MW. To nie jest ośrodek AI: znaleźliśmy radę z usługami online i portalem geograficznym, pilotaż teleasystencji parafialnej dla starszych mieszkańców oraz regionalne programy AI dla firm turystycznych, do których mogłyby dołączyć firmy z Aljezur.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Aljezur is the Algarve's Atlantic edge: a large, thinly popu",
+  "ok": false
+ },
+ "99c102dd36cca038": {
+  "t": "Rádio Portalegre informuje o projekcie politechniki wartym około 200 000 euro, finansowanym z FEDER, który umieszcza modele AI na czujnikach zdolnych przetwarzać dane na miejscu, z gospodarstwami pilotażowymi do weryfikacji. Jako zaangażowane dziedziny wymienia inżynierię, naukę o danych, agronomię i systemy informacyjne, a datę zakończenia wyznacza na sierpień 2028 roku.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Rádio Portalegre reports the polytechnic's roughly 200,000 e",
+  "ok": false
+ },
+ "99ea56e3b843dfcf": {
+  "t": "Zespół UAlg wraca do szkół z 81 bezpłatnymi wykładami, wśród nich o AI i cyberbezpieczeństwie",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Equipa UAlg returns to schools with 81 free talks, AI and cy",
+  "ok": false
+ }
+}

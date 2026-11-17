@@ -88,6 +88,35 @@
         }
       ],
       "description": "when it was read: a UTC time, or a day where the reader recorded only the day"
+    },
+    "person_key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "a person who has a key in board/person-keys.json (its `person` field), e.g. dinis"
+    },
+    "author": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/agent"
+        },
+        {
+          "type": "object",
+          "required": [
+            "person"
+          ],
+          "properties": {
+            "person": {
+              "$ref": "#/$defs/person_key"
+            },
+            "byline": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        }
+      ],
+      "description": "who wrote or signed: an agent (its name) or a person with a key ({person, byline}); a person is an author only with a key in board/person-keys.json"
     }
   }
 }

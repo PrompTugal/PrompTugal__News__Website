@@ -1,0 +1,26 @@
+{
+ "906094ff1090ee9f": {
+  "t": "Santarém stawia na naukę o żywności rolnej w pierwszej kolejności, a na AI w drugiej, i mówi o tym uczciwie. Uniwersytet, rada miasta, ISLA, INIAV i teren targowy CNEMA budują Campus Tejo, który pojechał na Web Summit Lisbon, choć nikt z czytanych przez nas autorów nie użył jeszcze w jego sprawie słowa AI. Tymczasem ISLA ma własny projekt AI za 100 000 euro, a plantatorzy borówek już zaprosili maszyny. Sim senhor, lezíria z laptopem.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Santarém does agri-food science first and AI second, and say",
+  "ok": false
+ },
+ "90d2c69bef549a56": {
+  "t": "Zaprezentowany 1 lipca 2026 roku w Técnico Innovation Center w Lizbonie, zbudowany na EuroLLM z danymi z Arquivo.PT, sfinansowany kwotą 5,5 miliona euro z planu odbudowy i gotowy do otwartego użytku.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Presented on 1 July 2026 at the Técnico Innovation Center in",
+  "ok": false
+ },
+ "90ef9f9dbb2944f8": {
+  "t": "Konferencja w Albufeirze o wspomaganym przez AI systemie zapobiegania trzęsieniom ziemi przeniesiona na 27 listopada",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Albufeira conference on an AI-assisted earthquake prevention",
+  "ok": false
+ }
+}

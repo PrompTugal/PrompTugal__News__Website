@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account A, restarted 16 Nov 2026 19:25 UTC)",
-  "updated": "2026-11-17T14:45Z",
+  "updated": "2026-11-17T18:45Z",
   "done": [
     "Pass only-websummit-sourced-comes-off, step 2 (conductor.b@, at Dinis's 18:50 word): the inventory data/websummit-only.json, derived by derive.mjs (refs only, counts by kind; schema websummit-only); 239 of 311 company facts, all 285 people, 215 of 248 events, 184 of 269 organisations, 45 of 85 places rest only on websummit.com; 37 of 120 companies left with nothing, 31 of them with their own site on file (22:05)",
     "Websummit-only pass: facts_left per company (59 with no fact, 37 with nothing); shadow sources (Wikipedia, the EU HaDEA event page) for Web Summit, AWS, the summit event, MEO Arena and FIL and Lisbon, so they stay; event and place schemas take sources (00:21 wake, 12 Nov)",
@@ -21,12 +21,13 @@
     "08:21 wake: researcher@'s scripted feed re-check (112 of 122 feeds live, 10 flagged) converted into 10 outlet records; local@ has written no outlet records into data/organisations yet",
     "10:21 wake: nothing new on work/researcher (merges only); eco, jornal-economico and tvi taken over from the derived listing and given their media records (names and sources kept); converter updated (ADOPT list)",
     "12:21 wake: nothing new on work/researcher to convert (feed re-check, mastheads, key restore already in); converter made idempotent for adopted listings (a rerun had stripped eco's, jornal-economico's and tvi's listed names and sources: caught at the diff, not released); local@'s Loule desk work noted, no outlet records in data/ yet",
-    "14:21 wake: nothing new from researcher@; local@'s Barlavento and Algarve Primeiro records reviewed and accepted; Postal do Algarve taken over from local@'s Loule file (no people) and A Voz do Algarve given its owner and place:loule; answers in board/team/ontologist/replies/2026-11-17-to-local-jose.md (local@ has no inbox lane); Jose's staff-data question is with Dinis, so no person is added meanwhile"
+    "14:21 wake: nothing new from researcher@; local@'s Barlavento and Algarve Primeiro records reviewed and accepted; Postal do Algarve taken over from local@'s Loule file (no people) and A Voz do Algarve given its owner and place:loule; answers in board/team/ontologist/replies/2026-11-17-to-local-jose.md (local@ has no inbox lane); Jose's staff-data question is with Dinis, so no person is added meanwhile",
+    "16:21 wake: nothing new from researcher@ or local@ to bring in; my step of the provenance spec (board/spec-provenance-and-review.md): story-provenance schema (type, five axes, signatures, ladder P0 to P5), claims take testimony and an evidence check, people as authors (common author, story assignee and history.by), all in the gate; brief board/briefs/2026-11-17-provenance-schema.md",
+    "18:21 wake: nothing new from researcher@ or local@; 'who covers which place' is now derived: data/media/by-place.json (184 outlets over 24 places, schema media-by-place, made by derive.mjs from the outlet records, in the gate); the serving and per-place pages are dev@'s and dev.places@'s to take from it"
   ],
   "next": [
-    "Who covers which place: derive a by-outlet view per place; who wrote what we cite (journalists, from the articles' sources)",
-    "data.places@'s locality layer: neighbours checked against CAOP, km, significance (board/briefs/2026-11-16-blast-radius-draft.json)",
-    "local@'s Barlavento and Algarve Primeiro media records, when they land in data/organisations: review the shape against the schema"
+    "Derive provenance claim counts from claims.json once journalist@ writes the first provenance.json",
+    "Locality layer and adjacency (data.places@'s open work)"
   ],
   "asks": [
     "Dinis: GAMMA-Ray has rated companies that are not in our company map (Noxus, OutSystems, Talkdesk, Codacy, Automaise, ByTheLaw, Visor.ai, Granter, Spinnable, Ethiack, Pebl, Student Property Network, Buzz Messaging): should they join it, so their pages carry their cards? Noxus first, as conductor@ asked.",

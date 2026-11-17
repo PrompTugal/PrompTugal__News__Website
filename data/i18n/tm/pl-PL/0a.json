@@ -1,0 +1,34 @@
+{
+ "0a19facbd98f5c16": {
+  "t": "Despacho 91/2025, podpisany 10 grudnia 2025 roku, określa wytyczne dotyczące używania AI w społeczności akademickiej, powołując się na unijny akt o AI, i dąży do pedagogicznego, twórczego i bezpiecznego użycia przy ochronie rzetelności akademickiej i danych osobowych.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Despacho 91/2025, signed on 10 December 2025, sets out guide",
+  "ok": false
+ },
+ "0a25a694e0d350f0": {
+  "t": "- **Portugalia:** [promptugal.news]({portugal}), z Europą i światem\n- **Algarve:** ta strona\n- **Miasta:** {count} serwisów poniżej\n\nWiadomości płyną **w dół** (krajowe i międzynarodowe wiadomości o AI, wybrane pod kątem tego, co znaczą tutaj) i **w górę** (źródła lokalne, wznoszące się, gdy mają znaczenie).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "- **Portugal:** [promptugal.news]({portugal}), with Europe a",
+  "ok": false
+ },
+ "0a3a7e1517d2e2b4": {
+  "t": "Fundusze europejskie przyniosą AI i robotykę 15 firmom turystycznym z Algarve",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "European funds to bring AI and robotics to 15 Algarve touris",
+  "ok": false
+ },
+ "0af2ef8726963e81": {
+  "t": "AMALIA dostaje drugą fazę: 1,8 miliona euro więcej, narzędzia agentowe planowane do końca 2026 roku",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "AMALIA gets a second phase: 1.8 million euros more, agent to",
+  "ok": false
+ }
+}

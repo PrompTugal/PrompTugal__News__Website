@@ -1,0 +1,18 @@
+{
+ "9703d5d5755755e4": {
+  "t": "dotmoovs, założona w Bradze, prosi użytkowników o sfilmowanie ćwiczenia z odległości około dwóch metrów. Jej AI znajduje punkty ciała i zwraca raport w niecałą minutę, a firma chce pomagać w wypatrywaniu talentów sportowych.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "dotmoovs, founded in Braga, has users film an exercise from ",
+  "ok": false
+ },
+ "971abde85bcb7a93": {
+  "t": "Granter pozyskuje 1,6 miliona euro, by wprowadzić swoją platformę finansowania opartą na AI w całej Europie",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Granter raises 1.6 million euros to take its AI funding plat",
+  "ok": false
+ }
+}

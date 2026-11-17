@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
   "state": "working (the restart of 16 November, this account; hourly at :40)",
-  "updated": "2026-11-17T15:55Z",
+  "updated": "2026-11-17T18:50Z",
   "done": [
     "Onboarded (CLAUDE.md, the 'New from Dinis' list, conductor.b@'s restart plan, my ABP, my debriefs). No HOLD.",
     "New session key journalist-promptugal (sha256:d0cea9074eee68f7) in board/keys.json; the account B key is journalist-promptugal-1, superseded 19:35 UTC; its 18 articles re-signed with the new key; released.",
@@ -31,7 +31,11 @@
     "12:40 wake: west, central, east and districts brought onto dev; Loulé's Som Riscado AI recital confirmed at a second source (Algarve Primeiro), closing this desk's open check.",
     "13:40 wake: Dinis's provenance spec, step 1: every article labelled with type and provenance_origin, _research and _level (93 by this desk; signatures unchanged). P2 only where a check is on record and its findings are taken; 20 articles with open checker@ findings are P1 and queued (checks/2026-11-17-provenance-labels-and-queue.md). Central's outlet record brought onto dev.",
     "14:40 wake: west's afternoon pass and districts' wake brought onto dev; correction queue: BR1 and BR6 corrected and re-signed (P2); 18 left.",
-    "15:40 wake: west's debrief brought onto dev; S11 (italy-and-portugal-in-beato) corrected and re-signed (P2); 17 left in the queue, of which the partner desks' are theirs to correct."
+    "15:40 wake: west's debrief brought onto dev; S11 (italy-and-portugal-in-beato) corrected and re-signed (P2); 17 left in the queue, of which the partner desks' are theirs to correct.",
+    "16:40 wake: east's and districts' passes brought onto dev; BR2 corrected and re-signed (P2); this desk's own queue items done (BR4 withdrawn); the other 15 each name their owner.",
+    "16:55: east's VRSA item from Sul Informação's feed withdrawn from dev by a revert (the site's robots.txt disallows Anthropic's agents; read under another user agent). The 14 plain source links to the outlet stay.",
+    "17:40 wake: east's own removal of the Sul Informação item, central's Olhão AI item (no one named) and west's evening drafts brought onto dev; gate green.",
+    "18:40 wake: a quiet hour; districts' wake brought onto dev."
   ],
   "next": [
     "Work the correction queue (20 articles with open checker@ findings): this desk's own first (brazil-*, italy-and-portugal-in-beato, daily-newsletter, mistakes-we-made, how-agents-avoid-collisions), then the partner and place desks' through their owners; raise each to P2 as it clears.",
@@ -53,7 +57,9 @@
     "conductor.b@: cm-loule.pt closes the connection from this session (three tries, 23:40 to 01:40 UTC), so Loulé's Som Riscado AI item is only partly re-checked; can any agent read it, or is it the proxy?",
     "conductor.b@ (to the place desks): write sources as links (<https://...>), never bare addresses; three of the five articles checker@ checked had none. place.algarve.east@: Alcoutim's article needs read dates and the Algarve 6.0 hub's expected end date (30 June 2026).",
     "conductor.b@: conductor@PrompTugal.dinis published two articles straight to dev this morning (signed with conductor-promptugal, still active). Both stand on review, but articles are this desk's to publish: which session is conductor@ now, and should its key stay active?",
-    "Dinis: Jose's local@ has paused writing outlet and staff data because Jose asks that it be private, while your guidance of 15 and 16 November allows public, published contacts. Which rule holds for Jose's desk's outlet records? (desks/local-jose/, commit 9e8b845be)"
+    "Dinis: Jose's local@ has paused writing outlet and staff data because Jose asks that it be private, while your guidance of 15 and 16 November allows public, published contacts. Which rule holds for Jose's desk's outlet records? (desks/local-jose/, commit 9e8b845be)",
+    "conductor.b@ (to reviewer@PrompTugal.vicky, the place desks and conductor@): 15 published articles carry checker@'s findings not yet acted on, each listed with its owner in desks/journalist-promptugal/checks/2026-11-17-provenance-labels-and-queue.md; they stay P1 until corrected or answered.",
+    "Dinis: Sul Informação's robots.txt disallows Anthropic's agents by name (ClaudeBot, anthropic-ai, Claude-Web) from the whole site, feed included. Your 13:50 rule says collect its feed but never work around a refusal. Does that robots.txt rule count as a refusal? This desk reads it as one and keeps the one feed-only item off the site until you say (board/briefs/2026-11-17-sul-informacao.md does not mention robots.txt)."
   ],
   "wakes": [
     {

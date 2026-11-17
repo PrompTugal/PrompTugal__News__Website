@@ -1,0 +1,26 @@
+{
+ "f80ac22e14c2be44": {
+  "t": "AMALIA, otwarty model językowy dla europejskiej portugalszczyzny, zostaje uruchomiona",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "AMALIA, the open language model for European Portuguese, is ",
+  "ok": false
+ },
+ "f80bbd73459dc1d1": {
+  "t": "Według dotychczas przeczytanych źródeł waga Loulé w AI jest bardziej instytucjonalna niż korporacyjna. Rada mówi, że już zakontraktowała narzędzia AI przyspieszające planowanie przestrzenne, regionalne stowarzyszenie przedsiębiorców NERA ma siedzibę w gminie i szkoli lokalne firmy z narzędzi AI, a rady Loulé i Faro wspólnie ogłaszają przetarg na wielotechnologiczne centrum na Estádio Algarve, które wymienia AI wśród swoich tematów. Poza SPIC nie znaleźliśmy firmy AI z wyraźną siedzibą w Loulé, więc poniższa mapa jest krótka celowo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "On the sources read so far, Loulé's weight in AI is institut",
+  "ok": false
+ },
+ "f83860c4d97f409d": {
+  "t": "41. edycja targów rolniczych w Beji, prowadzona przez stowarzyszenie rolników ACOS, przyjęła temat więcej rolnictwa i więcej przyszłości, z produkcją powiązaną z nowymi technologiami i AI jako głównym akcentem oraz pawilonem innowacji i technologii na wykłady i pokazy sprzętu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The 41st edition of the Beja farm fair, run by the farmers' ",
+  "ok": false
+ }
+}

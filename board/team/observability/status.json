@@ -1,8 +1,8 @@
 {
   "agent": "observability@PrompTugal.dinis",
   "focus": "Who reads promptugal.news and what its agents do: the sender on every page, the private and public vaults, the hourly drain, and /newsroom/observability/ (public for now, at Dinis's word).",
-  "state": "running on account A: the drain every three hours (cron changed 10 Nov 20:25 UTC) with the claims sweep; nothing odd",
-  "updated": "2026-11-11T18:30Z",
+  "state": "session 2 started 17 Nov 18:13 UTC: key made and on dev (observability-promptugal-2); waiting for the conductor to seal the vault keys to it (newsroom/observability/sealed/observability-2.json); the drain has not run since 16 Nov",
+  "updated": "2026-11-17T18:25Z",
   "done": [
     "Vaults o0x20qag (private, six lanes) and 34jzubyc (public, read key published); the sender assets/obs/obs.js with country, region and city from the browser's own lookup; the drain newsroom/tools/obs/obs_drain.py; newsroom/tools/agent-log.mjs (v0.1.45)",
     "Key observability-promptugal in board/keys.json; the drain verifies agent runs against it (v0.1.69)",
@@ -17,17 +17,14 @@
     "18:18 UTC: PT_PILOT_ACCESS_KEY reached this session; the drain's claims sweep filled the onboarding pool: 15 sgk_ keys in vault 06gtj33k, the pool signed by the issuer, each licence opening with its key and carrying the pilot token (checked; never the agents' token)"
   ],
   "next": [
-    "Keep draining on the schedule through the summit; a debrief at each drain",
-    "Switch the onboarding config on with dev.search@ when it resumes",
-    "The reader feedback lane (pass order 2), when the drain is quiet"
+    "Open sealed/observability-2.json when it arrives, restore ~/.sg-send/obs-promptugal and claims-promptugal, one drain by hand (claims sweep included), then the hourly drain",
+    "Daily debrief per site and page at 19:00 UTC (public summary in newsroom/observability/, sealed copy to Dinis)",
+    "Storm site (storm-charles.promptugal.news): its sender writes to its own vault zd1cb3kt, recipient key sha256:184037d550c878d7, lane \"site\" only: not the promptugal.news vault; draining it needs its own drain key and lane credentials, and a sealing to my key"
   ],
   "asks": [
-    "Dinis: S2, rotating the observability keys, reached me only through security@ (unsigned). It means new lane tokens and enum key, a rekey of the data vault, and re-sealing to your key; the public vault's read key would change too, breaking the old link. Say yes here and I do it in the next run",
-    "Dinis: the conductor asks every agent to seal its vault keys to the conductor (relayed, unsigned; findings S9/S13 record your yes of 06:20). The observability data vault holds each tab's city; confirm here and I send them",
-    "Dinis: fingerprinting readers is outside this role's mandate (CLAUDE.md, my ABP); the tagged links (?via=) give opens and forwards without it",
-    "Dinis: the drain's credentials live in this session's container; if it is recycled the drain stops until you open newsroom/observability/sealed/dinis.json",
-    "Dinis: the drain's schedule became every three hours (18 */3 * * *) at 20:25 UTC on 10 November; is that what you want? Hourly is 18 * * * *; three-hourly holds about 2,000 page loads between drains",
-    "Dinis: some 'readers' are in cloud data-centre towns (Boydton, Des Moines, maybe Oak Hill, Cupertino: 79 views); class them as synthetic? It recounts back to launch and lowers the reader figures"
+    "Dinis: my drain needs the vault keys sealed to my key (sha256:b638172041d2eaa4, in board/keys.json as observability-promptugal-2); until then views are collected but not drained",
+    "Dinis: the storm site writes to a separate vault (zd1cb3kt, set up by incident.observability@web-summit.dinis): say whether I drain it too, and have its credentials sealed to me",
+    "Dinis: observability on newsroom.sgit.ai (no sender there today): yes or no"
   ],
   "wakes": [
     {
@@ -77,6 +74,12 @@
       "outcome": "ok",
       "release": "debrief and status",
       "line": "drain: 57 records in 33.7 s, nothing odd; sweep: no claims"
+    },
+    {
+      "started": "2026-11-17T18:13Z",
+      "outcome": "ok",
+      "release": "key commit",
+      "line": "session 2 onboarding: key on dev, awaiting sealed vault keys"
     }
   ],
   "debrief": "board/team/observability/debriefs/2026-11-11-handover.md"

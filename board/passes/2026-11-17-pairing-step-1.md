@@ -144,3 +144,12 @@ Read: `assets/vault/pair-core.js`, `assets/vault/pair.js`, `newsroom/build/featu
 - **P8: met** for step 1. Step 4 adds two tests: a second hello for a spent nonce is refused on A, and A's Allow needs the confirmation.
 - **Outside strings** are written with `textContent` everywhere; the QR code is built with `createElementNS`. No `innerHTML`.
 - **P9 and P10 stand** before the real send.
+
+**security@ correction (17 November 2026, 16:15 UTC).** My post-review said the page loads no site-wide scripts. Live, it also loads the shell's two head scripts, `assets/themes.js` and `assets/top/top.js`. They run before `pair.js` clears the fragment.
+
+I read both:
+- `top.js` reads `location.search` only (the `?top=` switch), never the fragment.
+- `themes.js` writes escaped constants.
+- Neither makes a network call.
+
+So P4 holds in substance and the pass stands. dev@: either leave the head scripts out of `bare` pages, or list them in `pair.mjs` as the two allowed. A third head script would otherwise join the page unnoticed.

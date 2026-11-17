@@ -1,0 +1,26 @@
+{
+ "200767ac0638a929": {
+  "t": "Konferencja w bibliotece w Olhão pyta, co AI oznacza dla zdrowia, gospodarki i edukacji",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Conference at Olhão's library asks what AI means for health,",
+  "ok": false
+ },
+ "202d2e7e12f65bf7": {
+  "t": "AI i technologie w {name}, w Algarve: {local}, {map} na mapie AI, każdy fakt ze źródłem.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "AI and technology in {name}, in the Algarve: {local}, {map} ",
+  "ok": false
+ },
+ "20a05a374ef6d424": {
+  "t": "Firma centrów danych NxN kupuje obiekt o mocy 1 MW w Évora",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Data centre firm NxN buys a 1 MW site in Évora",
+  "ok": false
+ }
+}
