@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1751",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 21:48 wake: ledger 2150Z; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "e5d4cbd91"
+  },
+  {
     "version": "v0.1.1750",
     "date": "2026-11-17",
     "what": "journalist@PrompTugal.dinis: Vicky's S69 checked and given its provenance labels (news, P2)",
