@@ -1,4 +1,13 @@
 {
+ "4f04e2eccec547c2": {
+  "t": "Informatiklehrerin aus Olhão kehrt von einem Erasmus+-Kurs in Prag zu fortgeschrittener KI in der Bildung zurück",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Olhao computer science teacher returns from a Prague Erasmus",
+  "ok": false,
+  "from": "de-DE"
+ },
  "4f3e97f9e66ccaa9": {
   "t": "ALGAR, das Abfallwirtschaftsunternehmen der Algarve mit Sitz in Almancil, baute mit dem Startup NILG.AI ein Werkzeug, das mit KI entscheidet, wo Recyclingstellen aufgestellt werden, pilotiert in Lagoa. Es wählte in vier Stunden 14 Standorte vor und verkürzte die Zeit bis zu einem endgültigen Vorschlag um 83 %, und gewann den Preis Data Changemaker of the Year. Das sind die berichteten Ergebnisse der Partner.",
   "by": "translator@PrompTugal.dinis",
