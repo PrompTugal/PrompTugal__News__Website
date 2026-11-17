@@ -124,12 +124,16 @@ function makeIndex(ctx) {
         count: ix.docs.length, fields: ['id', 'type', 'title', 'summary', 'url', 'facets', 'extra'], types,
         facets: { topic: topicName, organiser: ORGANISER, country: countries, day: Object.fromEntries(days.map(d => [d, ctx.DAY(d)])) },
         weights: Object.fromEntries(Object.entries(S.FIELDS).map(([f, v]) => [f, v.w])),
-        syn: ix.syn, shards: Object.keys(ix.shards).sort(), docs: ix.docs,
+        syn: ix.syn, shards: Object.keys(ix.shards).sort(),
+        // the summaries live in snips.json, one per row in the same order, loaded only for the results shown, so docs.json, the
+        // first file a reader loads, stays small as the site grows (dev@PrompTugal.dinis, 17 November 2026: 333 KB with them)
+        snips: 'snips.json', docs: ix.docs.map(r => { const c = r.slice(); c[3] = ''; return c }),
     }
     const files = [{ path: 'api/v1/search/docs.json', data: JSON.stringify(docs) + '\n' }]
     for (const [k, t] of Object.entries(ix.shards)) files.push({ path: `api/v1/search/terms/${k}.json`, data: JSON.stringify({ v: ctx.VERSION, p: k, t }) + '\n' })
     const bytes = f => Buffer.byteLength(f.data)
     const shardBytes = files.slice(1).map(bytes)
+    files.push({ path: 'api/v1/search/snips.json', data: JSON.stringify({ v: ctx.VERSION, about: 'The summary of each row of docs.json, in the same order.', s: ix.docs.map(r => r[3] || '') }) + '\n' })
     built = { files, rows, ix, stats: { docs: rows.length, terms: Object.values(ix.shards).reduce((n, t) => n + Object.keys(t).length, 0), shards: shardBytes.length, docsBytes: bytes(files[0]), shardBytesTotal: shardBytes.reduce((a, b) => a + b, 0), shardBytesMax: Math.max(...shardBytes), shardBytesMedian: shardBytes.sort((a, b) => a - b)[Math.floor(shardBytes.length / 2)] } }
     return built
 }
@@ -184,6 +188,8 @@ export function validate(gate) {
         for (let j = 0; j < list.length; j += 2) { if (list[j] >= docs.docs.length) { out.push(`shard ${S.shardOf(t)}: posting to row ${list[j]}, past the end`); break } if (docs.docs[list[j]][0] === want) found = true }
         if (!found) out.push(`${want} is not found by its own title word "${t}"`)
     }
+    // the summaries file lines up with the rows (one per row, same order)
+    if (docs.snips) { try { const sn = gate.json(`api/v1/search/${docs.snips}`); if (!Array.isArray(sn.s) || sn.s.length !== docs.docs.length) out.push(`${docs.snips} holds ${sn.s ? sn.s.length : 'no'} summaries for ${docs.docs.length} rows`) } catch (e) { out.push(`api/v1/search/${docs.snips} is missing or not JSON`) } }
     const big = Buffer.byteLength(gate.text('api/v1/search/docs.json'))
     if (big > 400 * 1024) out.push(`docs.json is ${big} bytes: the first file a reader loads should stay under 400 KB`)
     return out

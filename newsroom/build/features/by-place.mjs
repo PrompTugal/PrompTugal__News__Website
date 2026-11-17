@@ -346,6 +346,23 @@ function translateDeep(v, m, skip) {
     return v
 }
 const KEEP = new Set(['id', 'kind', 'parent', 'path', 'agent', 'status', 'updated', 'by', 'url', 'source_url', 'read_on', 'date', 'feed', 'accent', 'at', 'label', 'identity', 'name', 'publisher', 'type', 'steps', 'file', '$schema'])
+// the derived queue (spec item 6): every English string the place pages translate (the same walk as translateDeep),
+// and, per culture, those the memory does not hold yet, for translator@ to fill; never a string twice
+function segmentsOf(L) {
+    const seen = new Map()
+    const walk = (v, id, skip) => {
+        if (typeof v === 'string') { if (v.trim() && !/^https?:/.test(v)) { const k = tmKey(v); if (!seen.has(k)) seen.set(k, { id: k, text: tmNorm(v), places: new Set() }); seen.get(k).places.add(id) } return }
+        if (Array.isArray(v)) { for (const x of v) walk(x, id, skip); return }
+        if (v && typeof v === 'object') for (const [k, x] of Object.entries(v)) if (!skip.has(k)) walk(x, id, skip)
+    }
+    for (const p of L.list) walk(p, p.id, KEEP)
+    walk(L.copy, 'copy', new Set())
+    return [...seen.values()].map(x => ({ id: x.id, text: x.text, places: [...x.places].sort() })).sort((a, b) => a.id.localeCompare(b.id))
+}
+function queueFiles(ctx, L) {
+    const all = segmentsOf(L)
+    return memories(ctx).map(({ culture, m }) => ({ path: `api/v1/i18n/queue/${culture}.json`, schema: null, data: { culture, about: aroundW(ctx).queue_about, built: ctx.TODAY, segments_total: all.length, missing: all.filter(x => !m.has(x.id)).length, segments: all.filter(x => !m.has(x.id)) } }))
+}
 function translatedL(L, culture, m) {
     const byId = new Map()
     for (const p of L.list) byId.set(p.id, { ...translateDeep(p, m, KEEP), path: p.kind === 'country' ? p.path : `${culture}/${p.path}`, _en: p.path, _culture: culture })
@@ -472,7 +489,7 @@ export function api(ctx) {
     const i18n = memories(ctx).map(({ culture, m }) => ({ path: `api/v1/i18n/${culture}/index.json`, schema: null, data: { culture, version: ctx.VERSION, built: ctx.TODAY, memory_entries: m.size,
         memory: `${SITE_URL}${TM_DIR}/${culture}/`, pages: [L.byId.get('algarve'), ...pagePlaces(L)].filter(Boolean).map(p => ({ place: p.id, page: `${SITE_URL}${culture}/${p.path}`, original: `${SITE_URL}${p.path}` })) } }))
     return [
-        ...i18n,
+        ...i18n, ...queueFiles(ctx, L),
         { path: 'api/v1/by-place/index.json', schema: null, data: { about: W(L, 'api_index_about'), version: ctx.VERSION, built: ctx.TODAY,
             places: recs.map(r => ({ id: r.id, name: r.name, kind: r.kind, parent: r.parent, path: L.byId.get(r.id).path, agent: r.agent, status: r.status, updated: r.updated, ai_news: r.counts.ai_news, ai_map: r.counts.ai_map, articles: r.counts.articles, page: r.page, api: `${SITE_URL}api/v1/by-place/${r.id}.json`, at: r.at, accent: r.look.accent, landmark: r.look.landmark, identity: L.byId.get(r.id).identity || null, signature: r.identity.signature })) } },
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}.json`, schema: null, data: { about: W(L, 'api_place_about', { name: r.name }), version: ctx.VERSION, ...r } })),

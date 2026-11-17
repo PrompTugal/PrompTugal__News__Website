@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "radio-afifense",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Afifense",
+  "names_as_listed": [
+    "Rádio Afifense"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page. The station site names presenters but no news head; the ERC register heads stand. Mobile numbers on the contact page: personal contact published, not recorded.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:viana-do-castelo"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://radioafifense.pt/",
+    "owner": {
+      "name": "NAIAA - Núcleo Amador de Investigação Arqueológica de Afife",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://radioafifense.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://radioafifense.pt/feed/",
+          "read_at": "2026-11-17",
+          "how": "checked by the researcher: HTTP 200, RSS body (channel and items), content-type application/rss+xml"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://radioafifense.pt/contactos/",
+      "source": {
+        "url": "https://radioafifense.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Filipe Costa",
+        "role": "Responsável pela programação (as listed in the ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "José Carlos Silva",
+        "role": "Responsável pela informação (as listed in the ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423022, operator 'NAIAA - Núcleo Amador de Investigação Arqueológica de Afife' (seat Afife), service 'Rádio Afifense', licence district Viana do Castelo, concelho Viana do Castelo. Outlet email column deliberately not recorded."
+      },
+      {
+        "url": "https://radioafifense.pt/contactos/",
+        "read_at": "2026-11-17",
+        "how": "contact page"
+      },
+      {
+        "url": "https://radioafifense.pt/equipa/",
+        "read_at": "2026-11-17",
+        "how": "team page (presenters and editorial statute; no news head named there)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423022, operator 'NAIAA - Núcleo Amador de Investigação Arqueológica de Afife' (seat Afife), service 'Rádio Afifense', licence district Viana do Castelo, concelho Viana do Castelo. Outlet email column deliberately not recorded.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://radioafifense.pt/contactos/",
+      "read_at": "2026-11-17",
+      "how": "contact page",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://radioafifense.pt/equipa/",
+      "read_at": "2026-11-17",
+      "how": "team page (presenters and editorial statute; no news head named there)",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}
