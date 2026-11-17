@@ -127,6 +127,10 @@ BP_W = BP_W[BP_L2] || BP_W.en;
             var c = document.createElement('span'); c.className = 'bp-lvl ' + m[1].toLowerCase(); c.textContent = m[1]
             f.appendChild(c); fig = fig.slice(m[0].length); f.classList.add('bp-long')
         }
+        // 2026-11-18 12:00 -> "18 Nov 12:00" in the page's language, kept on one line (designer.places@, 16 Nov 2026)
+        fig = fig.replace(/(\d{4})-(\d{2})-(\d{2}) (\d{2}:\d{2})/g, function (all, y, mo, d, hm) {
+            try { return new Date(Date.UTC(+y, +mo - 1, +d)).toLocaleDateString(document.documentElement.lang || 'en', { day: 'numeric', month: 'short', timeZone: 'UTC' }) + ' ' + hm } catch (e) { return all }
+        })
         f.appendChild(document.createTextNode(fig))
         var frag = document.createDocumentFragment(); frag.appendChild(f)
         if (rest) { var r = document.createElement('span'); r.className = 'bp-rest'; r.textContent = rest.replace(/^\(|\)$/g, ''); frag.appendChild(r) }
@@ -147,5 +151,39 @@ BP_W = BP_W[BP_L2] || BP_W.en;
         s.textContent = ' · ' + (mins < 60 ? BP_W.min(mins) : BP_W.hr(Math.floor(mins / 60)))
         em.appendChild(s)
         if (mins > 180) em.parentNode.classList.add('bp-stale')
+    })
+})()
+
+// Local media (designer.places@, 16 Nov 2026): the plain list becomes a grid of small cards (name, kind chip, the
+// outlet's own site), the first eight shown and the rest behind one button. The links and words are the build's.
+;(function () {
+    var lists = document.querySelectorAll('.bp-frame ul.bp-media')
+    Array.prototype.forEach.call(lists, function (ul) {
+        var lis = ul.querySelectorAll(':scope > li'), LIM = 8
+        Array.prototype.forEach.call(lis, function (li, i) {
+            var links = li.querySelectorAll('a'); if (links.length < 1) return
+            var kind = ''
+            for (var n = links[0].nextSibling; n && n !== links[1]; n = n.nextSibling) {
+                if (n.nodeType === 3) { var t = n.textContent.replace(/[·]/g, '').trim(); if (t) kind = t }
+            }
+            var extras = []; for (var e = li.firstElementChild; e; e = e.nextElementSibling) if (e.tagName !== 'A') extras.push(e)
+            li.textContent = ''
+            links[0].className = 'bp-m-name'; li.appendChild(links[0])
+            var meta = document.createElement('span'); meta.className = 'bp-m-meta'
+            if (kind) { var k = document.createElement('span'); k.className = 'bp-m-kind'; k.textContent = kind; meta.appendChild(k) }
+            if (links[1]) { links[1].className = 'bp-m-site'; links[1].textContent = links[1].textContent + ' ↗'; meta.appendChild(links[1]) }
+            extras.forEach(function (x) { meta.appendChild(x) })
+            li.appendChild(meta)
+            if (i >= LIM) li.hidden = true
+        })
+        if (lis.length > LIM) {
+            var b = document.createElement('button'); b.type = 'button'; b.className = 'bp-m-more'
+            var more = BP_W.more ? BP_W.more(lis.length - LIM) : 'Show all ' + lis.length
+            b.textContent = more
+            b.addEventListener('click', function () {
+                Array.prototype.forEach.call(ul.querySelectorAll('li[hidden]'), function (l) { l.hidden = false }); b.remove()
+            })
+            ul.parentNode.insertBefore(b, ul.nextSibling)
+        }
     })
 })()

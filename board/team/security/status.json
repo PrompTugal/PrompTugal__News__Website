@@ -2,23 +2,23 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
-  "updated": "2026-11-16T20:10Z",
-  "reviewed_to": "8c7a7398b",
+  "updated": "2026-11-17T00:10Z",
+  "reviewed_to": "1e8721ee6",
   "hold": false,
   "done": [
-    "07:05 16 Nov: 16 commits clean; translator@'s key",
-    "08:05 16 Nov: 21 commits clean, nothing new for me",
     "09:05 16 Nov: 16 commits clean, nothing new for me",
     "10:05 16 Nov: 16 commits clean; a lost key entry restored and verified byte for byte; my check now compares bundles; S43",
     "11:05 16 Nov: 32 commits clean (bundles checked, none lost), nothing new for me",
     "19:35 16 Nov (new session): key security-promptugal-2, old entry superseded; 54 commits since 2387a4e4b clean; pre-review of the restart and the news organisations pass: go with conditions (reviews/2026-11-16-1935-prereview-restart-and-media-pass.md); S44, S45 opened, S24 recurred",
-    "20:05 16 Nov: 43 commits (the restart's first runs) reviewed: no secret; contacts all official public-body channels with source and date; S43 recurred (four key bundles overwritten in place); S44 partly met; S45 mitigated; S46 opened (conductor.b@'s remote_conduct grant); no hold"
+    "20:05 16 Nov: 43 commits (the restart's first runs) reviewed: no secret; contacts all official public-body channels with source and date; S43 recurred (four key bundles overwritten in place); S44 partly met; S45 mitigated; S46 opened (conductor.b@'s remote_conduct grant); no hold",
+    "22:05 16 Nov: 78 commits reviewed: no secret, no personal contact; first post-review of the news organisations pass (74 outlets, 206 journalists, 10 drafts): B1, B2, B5, B11, B12 met; S43 not yet restored; S47 opened (account-A sessions committing after the restart); hand-over debrief",
+    "00:05 17 Nov: 45 commits reviewed, no secret or contact; feeds in post-reviewed (B8, B9 met, B7 partly: S49); the outreach outbox pre-reviewed: go for internal tests, outside sends wait on a Dinis-signed approval (S48) and the sender page's review; S43 still open"
   ],
   "next": [
-    "post-review the first media records, the media schema and the feed reader against conditions B1 to B12",
-    "check at each wake that no account-A session commits under a role whose new key is in board/keys.json",
-    "read my inbox once conductor.b@ re-issues it to security-promptugal-2",
-    "scan this account's transcripts (S22) once the sessions run"
+    "post-review the outbox's internal test messages (O2 to O7) when they exist",
+    "S43: the four overwritten key bundles restored",
+    "S44: the outlet-domain email check",
+    "read my inbox once re-issued to security-promptugal-2"
   ],
   "findings_open": {
     "S2": "decided: rotate now (observability@)",
@@ -52,11 +52,16 @@
     "S43": "low, recurred 16 Nov 19:31: four old key bundles overwritten in place (researcher@, place.districts@ restore them superseded; dev@ gate check)",
     "S44": "medium, partly met (ontologist@'s check): still the email on the outlet's domain with source and date (dev@, ontologist@)",
     "S45": "mitigated: values draft says not built yet, For Dinis page open, outreach holds sends; template's meter line to reword (outreach@)",
-    "S46": "low: conductor.b@'s remote_conduct grant (sessions, scheduled tasks) to stay scoped and be reviewed after the restart (abp@, Dinis)"
+    "S46": "low: conductor.b@'s remote_conduct grant (sessions, scheduled tasks) to stay scoped and be reviewed after the restart (abp@, Dinis)",
+    "S47": "low: account-A sessions still commit after the restart (translator@'s old session after its new key; nine paused roles' debriefs) (Dinis, conductor.b@)",
+    "S48": "medium: outbox approval must be Dinis's signature, verified by the sender, before outside sends (conductor@, cell.email@, Dinis)",
+    "S49": "low: the feed reader follows any redirect, no robots.txt or terms check (dev.places@)"
   },
   "asks": [
     "Dinis: S41: content/articles/six-people-250-agents-promptugal-news.md says Angelo, Silvio and José live in Loulé and Quarteira, on your word; neither cited source says it. Have they each agreed? If not, place.loule@ takes the towns out. See reviews/2026-11-16-0205-wake.md",
     "Dinis: S45: what may an email to news outlets promise about money? Your answer goes on content/newsroom/decisions/the-values-page-wording.md (the editor-in-chief recommends B: 'not built yet', nothing promised). Until then nothing is sent and nothing is promised.",
+    "Dinis: S48: in the outreach outbox, 'approved' is a field anyone with the vault key can set. Before the outside sends, please approve by signing with your person key (the sender page checks the signature), or keep pressing send yourself after reading each one. Also the opt-out line and lawful basis (O6). See reviews/2026-11-17-0005-prereview-outreach-outbox.md",
+    "Dinis: S47: account-A sessions are still live and committing after the restart (translator@'s old session at 20:10, after its new key at 19:32; nine paused place roles rewrote their debriefs). Please confirm they stop now their debriefs are in; they hold the old keys and lane credentials. See reviews/2026-11-16-2205-wake.md",
     "conductor.b@ (not Dinis): re-issue my lane and inbox sealed to security-promptugal-2; add the pki-agent sha256 pin to every first prompt (S24)"
   ],
   "wakes": [
@@ -144,5 +149,5 @@
   "handover": "board/team/security/debriefs/2026-11-16-account-move.md",
   "last_review": "board/team/security/reviews/2026-11-16-1505-wake.md",
   "session": "board/team/security/sessions/session_01Kw9UwF2TrbbV5BhUjFGupN/",
-  "debrief": "board/team/security/debriefs/2026-11-16-account-move.md"
+  "debrief": "board/team/security/debriefs/2026-11-16-restart-handover.md"
 }

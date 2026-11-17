@@ -1,0 +1,148 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "time-out-lisboa",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Time Out Lisboa",
+  "names_as_listed": [
+    "Time Out",
+    "Time Out Portugal",
+    "Lisbon by Time Out"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: No RSS/Atom feed found: /lisboa/rss.xml, /lisboa/pt/feed, /lisboa/pt/rss and /feed all returned HTTP 404; none advertised in the page head. Estatuto editorial is on /lisboa/pt/lei-da-transparencia (not read in this pass).",
+  "media": {
+    "outlet_kind": "magazine",
+    "places_covered": [
+      "place:porto"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.timeout.pt/lisboa/pt",
+    "owner": {
+      "name": "Time Out Portugal Unipessoal Lda., 100% Time Out Group PLC",
+      "source": {
+        "url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "contact": {
+      "page": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+      "source": {
+        "url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Vera Moura",
+        "role": "Directora",
+        "source": {
+          "url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Hugo Torres",
+        "role": "Director adjunto (Lisboa)",
+        "source": {
+          "url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Mariana Morais Pinheiro",
+        "role": "Directora adjunta (Porto)",
+        "source": {
+          "url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Mauro Gonçalves",
+        "role": "Editor executivo",
+        "source": {
+          "url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Ana Catarina Peixoto",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Eurico de Barros",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Hugo Geada",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Raquel Dias da Silva",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Rute Barbedo",
+        "role": "Jornalista",
+        "source": {
+          "url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+        "read_at": "2026-11-16",
+        "how": "Ficha técnica e contactos page (HTTP 200)."
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127577 (Time Out), 127880 (Lisbon by Time Out), 128099 (Time Out Cascais) for 'Time Out (Time Out Portugal, Unipessoal, Lda.)'. Outlet email column deliberately not recorded here."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/ficha-tecnica-e-contactos",
+      "read_at": "2026-11-16",
+      "how": "Ficha técnica e contactos page (HTTP 200).",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 127577 (Time Out), 127880 (Lisbon by Time Out), 128099 (Time Out Cascais) for 'Time Out (Time Out Portugal, Unipessoal, Lda.)'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

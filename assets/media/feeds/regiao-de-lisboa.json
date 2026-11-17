@@ -1,0 +1,32 @@
+{
+ "id": "regiao-de-lisboa",
+ "feed": "https://regiaodelisboa.sapo.pt/feed",
+ "read_at": "2026-11-16T23:11Z",
+ "items": [
+  {
+   "title": "Belenenses vence Casa Pia por 2-3 em jogo-treino no Pina Manique",
+   "link": "https://regiaodelisboa.sapo.pt/noticias/belenenses-vence-casa-pia-por-2-3-em-jogo-treino-no-pina-manique",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Moedas apresenta orçamento para a habitação de 1,4 mil milhões",
+   "link": "https://regiaodelisboa.sapo.pt/noticias/moedas-apresenta-orcamento-para-a-habitacao-de-14-mil-milhoes",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Depressão Charles provocou 343 ocorrências e envolveu 1 384 trabalhadores municipais",
+   "link": "https://regiaodelisboa.sapo.pt/noticias/depressao-charles-provocou-343-ocorrencias-e-envolveu-1-384-trabalhadores-municipais",
+   "date": "2026-11-13"
+  },
+  {
+   "title": "Dois cidadãos estrangeiros detidos no Aeroporto Humberto Delgado por tráfico de canábis",
+   "link": "https://regiaodelisboa.sapo.pt/noticias/dois-cidadaos-estrangeiros-detidos-no-aeroporto-humberto-delgado-por-trafico-de-canabis",
+   "date": "2026-11-13"
+  },
+  {
+   "title": "Município investe em isolamento acústico de casas afetadas pelo ruído do aeroporto",
+   "link": "https://regiaodelisboa.sapo.pt/noticias/municipio-investe-em-isolamento-acustico-de-casas-afetadas-pelo-ruido-do-aeroporto",
+   "date": "2026-11-12"
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "cidade-fm",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Cidade FM",
+  "names_as_listed": [
+    "Cidade FM",
+    "Cidade FM Viseu",
+    "Cidade FM Lisboa"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Music-themed network with no news output of its own on the site; low value as a news outlet. No RSS feed found. The /equipa page lists on-air names only; not recorded.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:braga"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.cidade.fm/",
+    "owner": {
+      "name": "Bmhaudio Portugal Holdings, Unipessoal, Lda. & Comandita (operator of most Cidade FM frequencies; Cidade FM Viseu is held by Nodigráfica - Informação e Artes Gráficas, Lda.; Cidade FM Aveiro by Rádio Independente de Aveiro CRL; Cidade FM Algarve by Cooperativa Rádio Clube de Loulé CRL)",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "contact": {
+      "page": "https://www.cidade.fm/contactos",
+      "source": {
+        "url": "https://www.cidade.fm/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Manuel Cabral",
+        "role": "Responsável pela programação (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Teresa Mota",
+        "role": "Responsável pela informação (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.cidade.fm/contactos",
+        "read_at": "2026-11-17",
+        "how": "Contacts."
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "ERC public radio register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, active at 3 Nov 2026, public Google Sheet, no login): Cidade FM Viseu 102.8 (no. 423064, operator Nodigráfica); other Cidade FM frequencies under no. 423216 (Bmhaudio), 423235 (Aveiro), 423264 (Algarve); programming manager Manuel Cabral, information manager Teresa Mota (as listed). Outlet email column deliberately not recorded here."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.cidade.fm/contactos",
+      "read_at": "2026-11-17",
+      "how": "Contacts.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "how": "ERC public radio register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, active at 3 Nov 2026, public Google Sheet, no login): Cidade FM Viseu 102.8 (no. 423064, operator Nodigráfica); other Cidade FM frequencies under no. 423216 (Bmhaudio), 423235 (Aveiro), 423264 (Algarve); programming manager Manuel Cabral, information manager Teresa Mota (as listed). Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

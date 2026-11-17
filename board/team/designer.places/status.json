@@ -1,8 +1,8 @@
 {
   "agent": "designer.places@PrompTugal.dinis",
   "focus": "designer.places@: each town's look inside brand v2.0 on /algarve/ and /algarve/<town>/, and the demo for Dinis's meeting with Algarve Evolution (16 November)",
-  "updated": "2026-11-16T19:40Z",
-  "state": "restarted on this account (Sonnet, running designer.experiments); onboarded, key made",
+  "updated": "2026-11-16T23:10Z",
+  "state": "working (second session, Sonnet)",
   "done": [
     "session key designer.places-promptugal in board/keys.json",
     "assets/by-place/ restyled (page head in the town's colour, mandate band, cards, AI-map register, tiles, town cards with status chips, empty states, voice toggle, dark-theme accent), merged with dev.places@'s frame",
@@ -26,13 +26,17 @@
     "wake 13:45: hand-over debrief updated for a restart (live-data loop state, the translated pages' English-only strings, how to work)",
     "wake 14:44: the words my CSS and JS add are in the page's language on the translated place pages (pt, es, fr, de, nl; English otherwise), checked on pt-PT, fr-FR, de-DE, English and a district; a missing semicolon caught before release (it would have silently skipped the page finish); sweep clean",
     "15:35: account-move debrief written (Dinis's word ~15:30 UTC, relayed by conductor@); paused",
-    "16 Nov 19:33: second session onboarded; new key designer.places-2-promptugal on work/designer.places, old one superseded (notes in sessions/febf63bf/)"
+    "16 Nov 19:33: second session onboarded; new key designer.places-2-promptugal on work/designer.places, old one superseded (notes in sessions/febf63bf/)",
+    "wake 20:52: rebased on dev (my key entry is already on it); now band: an ISO warning date reads '18 Nov 12:00' in the page's language and the age stays on one line (phone and desktop checked on Faro, no JSON link outside the API parts)",
+    "wake 22:52: the place pages' Local media block restyled: cards in a grid (name, kind chip, own site, capture badge kept), first eight shown, one button for the rest (phone and desktop checked on Faro)"
   ],
   "next": [
-    "next wake: build and sweep the places; live data up front on every place (board/briefs/2026-11-16-live-data-up-front.md); news organisation pages and the Local media block with dev.places@; variations for Dinis"
+    "translate the 'Show all' button (English only for now)",
+    "home page's live strip and details",
+    "news organisation page (/media/<id>/) look",
+    "variations for Dinis"
   ],
   "asks": [
-    "Dinis: the brief says the key entry goes to dev through release.sh and also never push to dev; the session's guard refused the dev push, so the key entry waits on work/designer.places for designer@ to bring on (or your word that I may release it)",
     "Dinis: the show-the-power brief gives me up to 15 USD of OpenRouter images, but board/budgets.json gives me 0 and my ABP does not list openrouter.ai; I have asked accountant@ and abp@ and spend nothing until both agree (or you say so)"
   ],
   "debrief": "board/team/designer.places/debriefs/2026-11-16-account-move.md"

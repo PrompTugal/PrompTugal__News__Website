@@ -7,7 +7,7 @@
   "names_as_listed": [
     "JN"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: owner not stated on page read (advertising addresses use noticiasilimitadas.pt). people: ficha técnica not read. RSS: /rss returned 403 to curl; not verified.",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: owner not stated on page read (advertising addresses use noticiasilimitadas.pt). people: ficha técnica not read. RSS: /rss returned 403 to curl; not verified.  amendment: direction, section editors and owner added from the ficha técnica; telephone numbers printed there not recorded; rest of the newsroom (reporters) not transcribed.",
   "media": {
     "outlet_kind": "newspaper",
     "places_covered": [
@@ -17,6 +17,14 @@
       "pt"
     ],
     "website": "https://www.jn.pt/",
+    "owner": {
+      "name": "Notícias Ilimitadas, S.A. (Porto); holder of 5% or more of capital: Verbos Imaculados Lda (100%)",
+      "source": {
+        "url": "https://www.jn.pt/institucional/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
     "contact": {
       "page": "https://www.jn.pt/institucional/contactos",
       "source": {
@@ -25,11 +33,117 @@
         "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
       }
     },
+    "people": [
+      {
+        "name": "Inês Cardoso",
+        "role": "Diretora-Geral Editorial",
+        "source": {
+          "url": "https://www.jn.pt/institucional/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Rafael Barbosa",
+        "role": "Diretor",
+        "source": {
+          "url": "https://www.jn.pt/institucional/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Manuel Molinos",
+        "role": "Diretor Digital Editorial",
+        "source": {
+          "url": "https://www.jn.pt/institucional/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Pedro Ivo Carvalho",
+        "role": "Diretor-Adjunto",
+        "source": {
+          "url": "https://www.jn.pt/institucional/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Joana Almeida Silva",
+        "role": "Diretora-Adjunta",
+        "source": {
+          "url": "https://www.jn.pt/institucional/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Carla Sofia Luz",
+        "role": "Editora Executiva",
+        "source": {
+          "url": "https://www.jn.pt/institucional/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Alexandre Panda",
+        "role": "Editor, Atualidade (Nacional, Justiça e Cultura)",
+        "source": {
+          "url": "https://www.jn.pt/institucional/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "Atualidade (Nacional, Justiça e Cultura)"
+      },
+      {
+        "name": "José Miguel Gaspar",
+        "role": "Editor, Atualidade (Nacional, Justiça e Cultura)",
+        "source": {
+          "url": "https://www.jn.pt/institucional/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "Atualidade (Nacional, Justiça e Cultura)"
+      },
+      {
+        "name": "Hugo Silva",
+        "role": "Editor, Locais (Norte/Sul e Porto)",
+        "source": {
+          "url": "https://www.jn.pt/institucional/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "Locais (Norte/Sul e Porto)"
+      },
+      {
+        "name": "Adriano Rocha",
+        "role": "Editor-adjunto, Desporto",
+        "source": {
+          "url": "https://www.jn.pt/institucional/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "Desporto"
+      }
+    ],
     "sources": [
       {
         "url": "https://www.jn.pt/institucional/contactos",
         "read_at": "2026-11-16",
         "how": "contact page; jn.pt returns 403 to some automated fetches but contact page read"
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 104341 for 'Jornal de Notícias'. Outlet email column deliberately not recorded here."
+      },
+      {
+        "url": "https://www.jn.pt/institucional/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "Ficha técnica: direction, section editors, owner and editor Notícias Ilimitadas, S.A., newsrooms in Porto and Lisbon. Only direction and section editors recorded; the full newsroom list is longer."
       }
     ]
   },
@@ -38,6 +152,18 @@
       "url": "https://www.jn.pt/institucional/contactos",
       "read_at": "2026-11-16",
       "how": "contact page; jn.pt returns 403 to some automated fetches but contact page read",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 104341 for 'Jornal de Notícias'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.jn.pt/institucional/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "how": "Ficha técnica: direction, section editors, owner and editor Notícias Ilimitadas, S.A., newsrooms in Porto and Lisbon. Only direction and section editors recorded; the full newsroom list is longer.",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]

@@ -29,27 +29,27 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-1298 cards (539 current, 0 superseded, 759 withdrawn), from the catalogue generated 2026-11-12T13:00:00Z at site v0.1.1399; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+2250 cards (1491 current, 0 superseded, 759 withdrawn), from the catalogue generated 2026-11-16T21:59:57Z at site v0.1.1665; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `DAT.CO` | 120 |
 | `DAT.EV` | 259 |
-| `DAT.ORG` | 280 |
+| `DAT.ORG` | 382 |
 | `DAT.PE` | 295 |
-| `DAT.PL` | 85 |
+| `DAT.PL` | 115 |
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 234 |
+| `PUB.SITE` | 1054 |
 
 Newest five accessions:
 
-- `ACC-20261112-0049` [Morning edition: Thursday 12 November](https://promptugal.news/newsletter/2026-11-12-morning/) (`PUB.SITE 2026-11-12-morning`)
-- `ACC-20261112-0046` [PagerDuty](https://promptugal.news/organisations/pagerduty/) (`DAT.ORG pagerduty`)
-- `ACC-20261112-0043` [What came off the site, and how it comes back](https://promptugal.news/about/what-came-off/) (`PUB.SITE what-came-off`)
-- `ACC-20261111-0161` [Evening edition: Wednesday 11 November](https://promptugal.news/newsletter/2026-11-11-evening/) (`PUB.SITE 2026-11-11-evening`)
-- `ACC-20261111-0118` [Open Mercato Night](https://promptugal.news/organisations/open-mercato-night/) (`DAT.ORG open-mercato-night`)
+- `ACC-20261116-1023` [ZAP](https://promptugal.news/media/zap/) (`PUB.SITE zap`)
+- `ACC-20261116-1022` [viz.places@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/viz.places/) (`PUB.SITE viz.places`)
+- `ACC-20261116-1021` [Viseu: the data](https://promptugal.news/query/viseu/) (`PUB.SITE viseu:15`)
+- `ACC-20261116-1020` [Viseu: AI in context](https://promptugal.news/query/decks/viseu/) (`PUB.SITE viseu:14`)
+- `ACC-20261116-1019` [PrompTugal.news Viseu](https://promptugal.news/pt-PT/portugal/viseu/) (`PUB.SITE viseu:13`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

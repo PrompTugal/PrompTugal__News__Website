@@ -1,0 +1,32 @@
+{
+ "id": "tek-sapo",
+ "feed": "https://tek.sapo.pt/rss",
+ "read_at": "2026-11-16T23:11Z",
+ "items": [
+  {
+   "title": "DAYOL: o diário e agenda para iPhone que se decora como um álbum de recortes",
+   "link": "https://tek.sapo.pt/mobile/apps/artigos/dayol-o-diario-e-agenda-para-iphone-que-se-decora-como-um-album-de-recortes/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Cinco formas práticas para as PME fortalecerem a ciber-resiliência na era da IA",
+   "link": "https://tek.sapo.pt/opiniao/artigos/cinco-formas-praticas-para-as-pme-fortalecerem-a-ciber-resiliencia-na-era-da-ia/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Transformação digital, recursos naturais, saúde e habitação entre as prioridades da investigação e inovação em Portugal",
+   "link": "https://tek.sapo.pt/noticias/ciencia/artigos/transformacao-digital-recursos-naturais-saude-e-habitacao-entre-as-prioridades-da-investigacao-e-inovacao-em-portugal/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Vai mandar o seu smartphone Android para reparação? Veja como proteger os dados",
+   "link": "https://tek.sapo.pt/how-to/artigos/vai-mandar-o-seu-smartphone-android-para-reparacao-veja-como-proteger-os-seus-dados/",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Meta multada em 805 milhões de euros na Itália por aceder a fotos sem consentimento no Facebook para Android",
+   "link": "https://tek.sapo.pt/noticias/internet/artigos/meta-multada-em-805-milhoes-de-euros-na-italia-por-aceder-a-fotos-sem-consentimento-no-facebook-para-android/",
+   "date": "2026-11-16"
+  }
+ ]
+}

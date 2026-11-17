@@ -1,0 +1,4 @@
+.story-address { margin: 0 0 .4rem; font-size: .85rem; letter-spacing: .04em; text-transform: uppercase; color: var(--muted, #667); }
+.story-address a { color: inherit; }
+.story-climb { padding-left: 1.2rem; }
+.story-climb li { margin: .15rem 0; }

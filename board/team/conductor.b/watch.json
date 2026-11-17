@@ -659,6 +659,21 @@
       "at": "2026-11-16T21:51Z",
       "by": "conductor.b@PrompTugal.dinis",
       "note": "hour 2: live v0.1.1664. dev@ feeds out (RSS and JSON Feed per place, 36 places, 322 items); outreach@ 10 first-contact drafts (Aveiro, Leiria, Braga, Setubal, a national + the first five); west follow-ups (Portimao hospital, EMARP); journalist@ brought west's follow-ups, held central's key redo; sherpa@ subtitle decided, two synthetic readers on /values/; Vicky's reviewer@ published S67. Review backlog: dev.places 10 ahead, researcher 7, central 5, districts 5, east 4, designer.places 4, translator 2: nudged dev@ to review first. Lanes still wait on Dinis."
+    },
+    {
+      "at": "2026-11-16T22:52Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 3: live v0.1.1669. dev@ feeds per topic (17 topics) and brought Around <town> and translator; /media/ and it-IT were already on dev (the 'ahead' counts were cherry-picks: no real backlog but dev.places' outlet feeds-in 22:17). ontologist@ 80 outlets in the graph. journalist@ brought east's 7 items. correspondent@ placed four articles. old conductor@ (account A) wrote the outreach outbox spec (vault promptugal-outreach, Dinis approves, sends from the RiskMandate mailbox). security@ 78 commits clean; S47 old sessions still committing. Jose's conductor: five questions for Dinis, carried; Faro's outlets answered (local@)."
+    },
+    {
+      "at": "2026-11-16T23:53Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 4: live v0.1.1672. Local news: west's Barlavento pass (Aljezur, Monchique, Silves), central rechecks (Loule AI recital, Faro 24 Nov conference), east key rotation; journalist@ brought all three. dev@ made outside feed text safe (feeds-in). Found: ABP v1.14.0 kept datasci.places@ on its work branch, so the live data has not reached the site since 20:16: asked abp@ to grant release to dev, dev@ to bring the branch at 00:08, datasci@ to retry adsb with backoff. Jose's conductor now orchestrates his agents (J10)."
+    },
+    {
+      "at": "2026-11-17T00:51Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 5 (ledger): 19 restarted sessions 88.04 USD API-equivalent in 5h20 (conductor.b 15.16 more); live v0.1.1677. Live data back on dev (dev@ brought datasci's branch, 23:51; collector retries adsb and keeps the last read, 'last read' shown). ontologist@ 110 outlets; outreach@ 15 drafts (say how we got the data, ask for an API); designer.places@ Local media as cards; dev.places@ the story rail; the old conductor@ extended the outbox spec (review app, first batch); security@ pre-reviewed the outbox (outside sends wait on a signed word). abp@ held datasci's release-to-dev for Dinis. East quiet overnight; journalist@ held districts' third pass."
     }
   ]
 }

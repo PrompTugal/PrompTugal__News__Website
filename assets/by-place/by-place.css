@@ -312,7 +312,7 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 }
 @media (max-width: 759px) { .bp-frame .bp-nowband ul.bp-now > li:nth-child(even) { padding-left: 12px; border-left: 1px solid var(--now-rule); } .bp-frame .bp-nowband { margin-left: -4px; margin-right: -4px; } }
 @media (prefers-reduced-motion: reduce) { .bp-frame .bp-nowband .mini-h::before { animation: none; } }
-.bp-frame .bp-nowband .bp-age { color: var(--now-acc); }
+.bp-frame .bp-nowband .bp-age { color: var(--now-acc); white-space: nowrap; }
 .bp-frame .bp-nowband ul.bp-now > li.bp-stale .bp-fig { opacity: .6; }
 /* the two words this stylesheet writes, in the page's language (the translated place pages) */
 :lang(pt) .bp-frame ul.bp-cards.bp-big > li:first-child::before { content: "Mais recente"; } :lang(pt) .bp-frame .bp-empty::before { content: "Em curso"; }
@@ -320,3 +320,14 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 :lang(fr) .bp-frame ul.bp-cards.bp-big > li:first-child::before { content: "À la une"; } :lang(fr) .bp-frame .bp-empty::before { content: "En cours"; }
 :lang(de) .bp-frame ul.bp-cards.bp-big > li:first-child::before { content: "Neu"; } :lang(de) .bp-frame .bp-empty::before { content: "In Arbeit"; }
 :lang(nl) .bp-frame ul.bp-cards.bp-big > li:first-child::before { content: "Nieuwste"; } :lang(nl) .bp-frame .bp-empty::before { content: "Bezig"; }
+
+/* Local media: cards in a grid (designer.places@, 16 Nov 2026) */
+.bp-frame ul.bp-media { list-style: none; margin: .6rem 0 .4rem; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: .5rem; }
+.bp-frame ul.bp-media > li { display: flex; flex-direction: column; gap: .3rem; padding: .6rem .75rem; background: var(--paper-tint, rgba(0,0,0,.035)); border: 1px solid rgba(0,0,0,.12); border-top: 3px solid var(--accent, #0b5d7a); }
+.bp-frame ul.bp-media > li[hidden] { display: none; }
+.bp-frame .bp-m-name { font-weight: 600; line-height: 1.25; }
+.bp-frame .bp-m-meta { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem .6rem; font-size: .8rem; }
+.bp-frame .bp-m-kind { font-family: var(--mono, ui-monospace, monospace); font-size: .7rem; letter-spacing: .04em; text-transform: uppercase; padding: .05rem .4rem; border: 1px solid currentColor; border-radius: 999px; opacity: .8; }
+.bp-frame .bp-m-site { white-space: nowrap; }
+.bp-frame .bp-m-more { font: inherit; font-weight: 600; padding: .45rem .9rem; border: 1px solid currentColor; border-radius: 999px; background: none; color: inherit; cursor: pointer; margin: .2rem 0 .8rem; }
+@media (max-width: 480px) { .bp-frame ul.bp-media { grid-template-columns: 1fr 1fr; } }

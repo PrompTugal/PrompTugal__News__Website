@@ -1,0 +1,110 @@
+{
+  "about": "Usage of the PrompTugal team restarted on this account at Dinis's word (16 Nov 2026, ~19:28 UTC), read by conductor.b@ from each session's record: cumulative per session since its start, API-equivalent dollars (not real costs, Dinis 16 Nov). conductor.b@'s own session is cumulative since 6 Nov; its share since the restart is the difference from its last ledger row (172.20 at 12 Nov 12:51).",
+  "account": "B (the restart)",
+  "read_at": "2026-11-17T00:50Z",
+  "window": "16 Nov 19:28 to 17 Nov 00:50 UTC (about 5 h 20 min)",
+  "restarted_sessions_total_usd": 88.04,
+  "conductor_b_since_restart_usd": 15.16,
+  "rows": [
+    {
+      "agent": "conductor.b",
+      "api_equivalent_usd": 187.36,
+      "output_tokens": 863634
+    },
+    {
+      "agent": "journalist",
+      "api_equivalent_usd": 8.96,
+      "output_tokens": 61797
+    },
+    {
+      "agent": "dev",
+      "api_equivalent_usd": 8.75,
+      "output_tokens": 62759
+    },
+    {
+      "agent": "designer",
+      "api_equivalent_usd": 7.57,
+      "output_tokens": 45711
+    },
+    {
+      "agent": "security",
+      "api_equivalent_usd": 8.3,
+      "output_tokens": 52945
+    },
+    {
+      "agent": "place.algarve.west",
+      "api_equivalent_usd": 4.94,
+      "output_tokens": 156107
+    },
+    {
+      "agent": "place.algarve.central",
+      "api_equivalent_usd": 5.26,
+      "output_tokens": 263342
+    },
+    {
+      "agent": "place.algarve.east",
+      "api_equivalent_usd": 5.14,
+      "output_tokens": 150333
+    },
+    {
+      "agent": "place.districts",
+      "api_equivalent_usd": 4.97,
+      "output_tokens": 96746
+    },
+    {
+      "agent": "correspondent",
+      "api_equivalent_usd": 1.91,
+      "output_tokens": 11878
+    },
+    {
+      "agent": "datasci.places",
+      "api_equivalent_usd": 1.36,
+      "output_tokens": 13420
+    },
+    {
+      "agent": "researcher",
+      "api_equivalent_usd": 8.13,
+      "output_tokens": 204362
+    },
+    {
+      "agent": "ontologist",
+      "api_equivalent_usd": 3.06,
+      "output_tokens": 30255
+    },
+    {
+      "agent": "dev.places",
+      "api_equivalent_usd": 3.19,
+      "output_tokens": 47379
+    },
+    {
+      "agent": "designer.places",
+      "api_equivalent_usd": 1.57,
+      "output_tokens": 14788
+    },
+    {
+      "agent": "translator",
+      "api_equivalent_usd": 5.18,
+      "output_tokens": 145950
+    },
+    {
+      "agent": "outreach",
+      "api_equivalent_usd": 2.83,
+      "output_tokens": 31484
+    },
+    {
+      "agent": "sherpa",
+      "api_equivalent_usd": 2.32,
+      "output_tokens": 21508
+    },
+    {
+      "agent": "librarian",
+      "api_equivalent_usd": 1.94,
+      "output_tokens": 21053
+    },
+    {
+      "agent": "abp",
+      "api_equivalent_usd": 2.66,
+      "output_tokens": 47898
+    }
+  ]
+}

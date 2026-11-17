@@ -16,5 +16,8 @@
   "contact_note": "The outlet's own contact page; we copy nothing from it that it does not publish for the newsroom.",
   "people_h": "Editors and journalists it names publicly",
   "sources_h": "Where this comes from",
-  "all": "All local media"
+  "all": "All local media",
+  "latest": "Latest",
+  "latest_h": "Latest headlines",
+  "latest_note": "Headline and link only, read from the outlet's own feed on {when}; the reporting is theirs."
 }
