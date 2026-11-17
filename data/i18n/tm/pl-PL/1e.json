@@ -1,0 +1,26 @@
+{
+ "1e19db94c238e148": {
+  "t": "Ocean Atlantycki",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Atlantic Ocean",
+  "ok": false
+ },
+ "1e27f4e3a59a8ae6": {
+  "t": "Operator światłowodowy ogłosił 9 czerwca 2026 roku, że zasięg w gminie przekroczy 80 procent i osiągnie 82 procent, z około 1000 nowych domów w Alcoutim, Giões i Pereiro do końca pierwszej połowy 2026 roku. Dostęp miałoby ponad 3100 rodzin.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The fibre operator announced on 9 June 2026 that the municip",
+  "ok": false
+ },
+ "1ea0f915d9fc4fff": {
+  "t": "Uniwersytet określił zasady, obowiązki i dobre praktyki używania AI wśród studentów, nauczycieli, badaczy i pracowników, z podejściem humanistycznym i naciskiem na bezpieczne narzędzia instytucjonalne.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The university set out principles, duties and good practice ",
+  "ok": false
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "5e1141fcc91a8fcd": {
+  "t": "Ainda há muito por saber, minha gente. Oto, czego Viana jeszcze nam nie powiedziała:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Ainda há muito por saber, minha gente. Here is what Viana ha",
+  "ok": false
+ },
+ "5e43f48b032d1d20": {
+  "t": "Uniwersytet Algarve ogłasza swoją politykę używania AI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "University of Algarve launches its AI use policy",
+  "ok": false
+ },
+ "5ec96bd27b0e47b5": {
+  "t": "**Czytaj tę stronę po:**",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "**Read this page in:**",
+  "ok": false
+ }
+}
