@@ -2,10 +2,67 @@
   "$schema": "../../schemas/organisation.schema.json",
   "id": "tvi",
   "type": "organisation",
+  "kind": "media",
   "name": "TVI",
   "names_as_listed": [
     "TVI"
   ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Owner, masthead, contacts not read; only the feed was checked. TVI names from Wikipedia only and probably dated; Media Capital transparency page not fetched ().",
+  "media": {
+    "outlet_kind": "tv",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://tvi.iol.pt",
+    "feeds": [
+      {
+        "url": "https://tvi.iol.pt/rss",
+        "format": "rss",
+        "source": {
+          "url": "https://tvi.iol.pt/rss",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200 but content-type text/html;charset=UTF-8; body is an RSS 2.0 XML document"
+        }
+      }
+    ],
+    "people": [
+      {
+        "name": "José Eduardo Moniz",
+        "role": "Director-General of TVI (per Wikipedia, may be out of date)",
+        "source": {
+          "url": "https://pt.wikipedia.org/wiki/TVI_(Portugal)",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "channel direction"
+      },
+      {
+        "name": "Nuno Santos",
+        "role": "Director of Information of TVI (per Wikipedia, may be out of date)",
+        "source": {
+          "url": "https://pt.wikipedia.org/wiki/TVI_(Portugal)",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news direction"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://tvi.iol.pt/rss",
+        "read_at": "2026-11-16",
+        "how": "feed fetched"
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1Ko2NBg2nr3HXRMlpAQAbH0lxJD8scI_JF2y68Bq7eQ8/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 523384 for 'TVI - Televisão Independente, S.A. (TVI)'. Outlet email column deliberately not recorded here."
+      }
+    ]
+  },
   "sources": [
     {
       "url": "https://websummit.com/sessions/lis26/25907bfd-71a8-4240-a93a-eb24fa8d64ff/press-conference-rewriting-the-rules-of-female-longevity/",
@@ -18,14 +75,18 @@
       "read_at": "2026-11-11T12:45Z",
       "by": "programme@web-summit.vicky",
       "how": "a speaker card on the event page"
+    },
+    {
+      "url": "https://tvi.iol.pt/rss",
+      "read_at": "2026-11-16",
+      "how": "feed fetched",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1Ko2NBg2nr3HXRMlpAQAbH0lxJD8scI_JF2y68Bq7eQ8/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 523384 for 'TVI - Televisão Independente, S.A. (TVI)'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
     }
-  ],
-  "derived": {
-    "by": "newsroom/tools/derive.mjs",
-    "from": [
-      "desks/programme/agenda.json",
-      "desks/curator/",
-      "data/companies/"
-    ]
-  }
+  ]
 }
