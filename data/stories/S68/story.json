@@ -5,7 +5,7 @@
   "title": "Update: the Center for Responsible AI's chief executive gives a status",
   "beat": "Portugal",
   "topic": null,
-  "status": "idea",
+  "status": "ready",
   "rests_on": [
     "evidence:v-dn-dv-crai-results"
   ],
@@ -15,23 +15,44 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-17-0750.json"
+      "desks/curator/2026-11-17-0750.json",
+      "desks/journalist-vicky/drafts/S68-center-for-responsible-ai-chief-executive-status-update.md",
+      "desks/reviewer-vicky/reviews/S68.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-portugal@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S68-center-for-responsible-ai-chief-executive-status-update.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S68.md",
+      "verdict": "Ready, published as an update note to S67 under R-PUB-1",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-17"
+    }
+  ],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "publish and sign",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-17T07:50Z",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-17-0750.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-17",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S68-center-for-responsible-ai-chief-executive-status-update.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-17",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S68.md"
     }
   ]
 }

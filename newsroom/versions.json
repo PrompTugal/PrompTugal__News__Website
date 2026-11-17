@@ -1,5 +1,26 @@
 [
   {
+    "version": "v0.1.1708",
+    "date": "2026-11-17",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "c279a8a21"
+  },
+  {
+    "version": "v0.1.1707",
+    "date": "2026-11-17",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "af193fdbf"
+  },
+  {
+    "version": "v0.1.1706",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 08:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "a2d2711be"
+  },
+  {
     "version": "v0.1.1705",
     "date": "2026-11-17",
     "what": "ontologist@PrompTugal.dinis: researcher@'s feed re-check into the graph (10 outlets updated)",
