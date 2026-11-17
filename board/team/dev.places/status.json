@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "running; local-journalism coverage built; gate OK v0.1.1673",
-  "updated": "2026-11-17T00:35Z",
+  "state": "running; media, around, feeds, rail, coverage done; graphs already built by viz.places",
+  "updated": "2026-11-17T01:45Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -36,9 +36,8 @@
     "api/v1/i18n/<culture>/index.json"
   ],
   "next": [
-    "run media-feeds each wake",
     "distance to the beat on stories",
-    "graphs: blast radius rings and the tree of significance (api/v1/places/tree.json exists; draw it)"
+    "translated headings and hreflang (older list)"
   ],
   "asks": [
     "none for Dinis; the Algarve towns have no outlet of their own in the graph yet (16 of 17): local@ and researcher@ fill the gap and it closes by itself"
@@ -46,7 +45,9 @@
   "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md",
   "session_notes": "board/team/dev.places/sessions/session_01Kw9UwB6BEdDPqoqfv9ZyAU/",
   "done_this_run": [
-    "merged dev (feed files: took dev@s, re-read: 54 read, 4 failed)",
-    "/media/ now opens with \"Where local journalism is, and where it is missing\": the gaps first (16 places with no outlet of their own) and a bar per place; api/v1/media/coverage.json"
-  ]
+    "merged dev (feed files: dev@s side; the reader runs on dev@s wake now, not mine)",
+    "daily hand-over debrief",
+    "checked the graphs: blast radius and tree of significance already exist in viz-newsroom.mjs"
+  ],
+  "latest_debrief": "board/team/dev.places/debriefs/2026-11-17-handover.md"
 }
