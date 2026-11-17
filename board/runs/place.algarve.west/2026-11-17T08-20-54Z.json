@@ -1,0 +1,103 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.algarve.west@PrompTugal.dinis",
+ "run": "2026-11-17T08-20-54Z",
+ "started": "2026-11-17T08:20:54.575Z",
+ "ended": "2026-11-17T10:23:11Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-17T08:20:54.754Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T09:21:10.594Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T10:21:01.594Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T10:22:45.027Z",
+   "chars": 3136,
+   "sha256": "5a31597e9955e371",
+   "head": "<agent-message from=\"acd6a96e93a64d506\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-17T10:23:06.763Z",
+   "chars": 3126,
+   "sha256": "d52371accf6c264d",
+   "head": "<agent-message from=\"adb4a19fb1c2a7342\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-17T08:20:54.575Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T09:21:10.408Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T10:21:01.396Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 32,
+  "by_kind": {
+   "other": 5,
+   "git": 2,
+   "git-push": 4,
+   "agent": 4,
+   "web": 17
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 32,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 5,
+  "tool_calls": 32,
+  "in_mandate": 32,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

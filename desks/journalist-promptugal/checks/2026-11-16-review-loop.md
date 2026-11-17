@@ -174,3 +174,12 @@ Checked and fine meanwhile: ScaleUp Porto's channel (the programme's email as pu
 | west, east, districts | nothing new | none |
 
 - Loulé, Som Riscado: cm-loule.pt still closes the connection (sixth try).
+
+## The 10:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.west` | mid-morning pass, nothing new in the seven towns | **brought onto dev** |
+| `work/place.districts` | wake 10:35, nothing new | **brought onto dev** |
+| Vicky's reviewer@ | S67's update note rewritten as a short list; "Update notes" added to its STYLE.md | read; on dev by its own push |
+| central, east | nothing new | none |

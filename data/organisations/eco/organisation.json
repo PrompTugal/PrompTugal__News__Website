@@ -2,24 +2,238 @@
   "$schema": "../../schemas/organisation.schema.json",
   "id": "eco",
   "type": "organisation",
-  "name": "ECO",
+  "kind": "media",
+  "name": "ECO (eco.sapo.pt)",
   "names_as_listed": [
-    "ECO"
+    "ECO",
+    "ECO (eco.sapo.pt)"
   ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Contact address is obfuscated on the page; not recorded. Technology section editor not identified. ECO tech/startups reporters (Pessoas/Tech) not identified: the section pages read name no bylines in a fetchable form; ECO's own /autores/ page not parsed in this pass. ECO also holds ERC numbers for its channels (ECO Seguros 127454, Capital Verde 127461, Fundos Europeus 127621, Local Online 127824, +M 127867, Trabalho 127921, EContas 128203, eRadar 128183, Eco Avenida 128142) on https://eco.sapo.pt/ficha-tecnica/, read . ECO ficha técnica lists editors by brand but no tech/AI section editor ().",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:portugal"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://eco.sapo.pt",
+    "owner": {
+      "name": "Estrutura accionista fundadora published: Narrativas & Equações (António Costa), Polopique SGPS (Luís Guimarães), CIN (João Serrenho), Valens Private Equity (Mário Ferreira), Zafgest (Rui Freitas), Amorim SGPS (António Amorim); promoters 1%; individuals 8%; company name of the publisher not read",
+      "source": {
+        "url": "https://eco.sapo.pt/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://eco.sapo.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://eco.sapo.pt/feed/",
+          "read_at": "2026-11-16",
+          "how": "checked by the researcher: HTTP 200, content-type application/rss+xml, RSS body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://eco.sapo.pt/contactos",
+      "source": {
+        "url": "https://eco.sapo.pt/contactos",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "António Costa",
+        "role": "Diretor",
+        "source": {
+          "url": "https://eco.sapo.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Shrikesh Laxmidas",
+        "role": "Diretor-adjunto",
+        "source": {
+          "url": "https://eco.sapo.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Mónica Silvares",
+        "role": "Editora-executiva",
+        "source": {
+          "url": "https://eco.sapo.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Paulo Padrão",
+        "role": "Diretor Geral",
+        "source": {
+          "url": "https://eco.sapo.pt/ficha-tecnica",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Vítor Ferreira",
+        "role": "Opinion contributor (ECO)",
+        "source": {
+          "url": "https://eco.sapo.pt/opiniao/visibilidade-nao-e-crescimento/",
+          "read_at": "2026-11-16",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "entrepreneurship, startups, AI (opinion)"
+      },
+      {
+        "name": "António Augusto Ramos Oliveira Costa",
+        "role": "Director (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "André Veríssimo",
+        "role": "Subdirector",
+        "source": {
+          "url": "https://eco.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "deputy direction"
+      },
+      {
+        "name": "Tiago Freire",
+        "role": "Subdirector",
+        "source": {
+          "url": "https://eco.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "deputy direction"
+      },
+      {
+        "name": "Francisco Botelho",
+        "role": "Editor; director of ECOseguros",
+        "source": {
+          "url": "https://eco.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "insurance"
+      },
+      {
+        "name": "Carla Borges Ferreira",
+        "role": "Editor; head of +M",
+        "source": {
+          "url": "https://eco.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "marketing, advertising and media"
+      },
+      {
+        "name": "Isabel Patrício",
+        "role": "Editor; head of Trabalho",
+        "source": {
+          "url": "https://eco.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "labour"
+      },
+      {
+        "name": "Rita Atalaia",
+        "role": "Editor; head of EContas",
+        "source": {
+          "url": "https://eco.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "personal finance"
+      },
+      {
+        "name": "Ana Marcela",
+        "role": "Editor; head of eRadar",
+        "source": {
+          "url": "https://eco.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "eRadar"
+      },
+      {
+        "name": "Alexandre Batista",
+        "role": "Editor; Local Online",
+        "source": {
+          "url": "https://eco.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "local"
+      },
+      {
+        "name": "Ana Batalha Oliveira",
+        "role": "Head of Capital Verde",
+        "source": {
+          "url": "https://eco.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "sustainability"
+      },
+      {
+        "name": "Filipa Ambrósio de Sousa",
+        "role": "Editor; head of Advocatus",
+        "source": {
+          "url": "https://eco.sapo.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "law"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://eco.sapo.pt/ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "ficha técnica read"
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-16",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126881 for 'ECO'. Outlet email column deliberately not recorded here."
+      }
+    ]
+  },
   "sources": [
     {
       "url": "https://websummit.com/sessions/lis26/1de6a591-ec17-4399-8f28-13f4bff1cae1/who-let-the-agent-in/",
       "read_at": "2026-11-10T05:07Z",
       "by": "programme@web-summit.vicky",
       "how": "a speaker card on the event page"
+    },
+    {
+      "url": "https://eco.sapo.pt/ficha-tecnica",
+      "read_at": "2026-11-16",
+      "how": "ficha técnica read",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-16",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126881 for 'ECO'. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
     }
-  ],
-  "derived": {
-    "by": "newsroom/tools/derive.mjs",
-    "from": [
-      "desks/programme/agenda.json",
-      "desks/curator/",
-      "data/companies/"
-    ]
-  }
+  ]
 }
