@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
   "state": "working (the restart of 16 November, this account; hourly at :40)",
-  "updated": "2026-11-17T11:55Z",
+  "updated": "2026-11-17T12:55Z",
   "done": [
     "Onboarded (CLAUDE.md, the 'New from Dinis' list, conductor.b@'s restart plan, my ABP, my debriefs). No HOLD.",
     "New session key journalist-promptugal (sha256:d0cea9074eee68f7) in board/keys.json; the account B key is journalist-promptugal-1, superseded 19:35 UTC; its 18 articles re-signed with the new key; released.",
@@ -27,11 +27,11 @@
     "09:40 wake: central's Faro AI item (NERA's INTREPIDA session on AI tools, re-read at postal.pt) brought onto dev; Vicky's S68 update note read.",
     "10:40 wake: west's and place.districts' quiet passes brought onto dev; Vicky's S67 update note read.",
     "checker@PrompTugal.vicky's findings on five Algarve articles (Faro, Olhão, Lagos, Alcoutim, Almancil) all taken: corrected, a dated Corrections note on each, sources made links, re-signed. Answer: desks/journalist-promptugal/checks/2026-11-17-checker-findings-answer.md.",
-    "11:40 wake: central's two older Faro AI items brought onto dev; conductor@'s two articles of this morning (the ATM mark-up, the payment desk) reviewed after publication: both stand, the 13.6% re-checked against the ECB rate."
+    "11:40 wake: central's two older Faro AI items brought onto dev; conductor@'s two articles of this morning (the ATM mark-up, the payment desk) reviewed after publication: both stand, the 13.6% re-checked against the ECB rate.",
+    "12:40 wake: west, central, east and districts brought onto dev; Loulé's Som Riscado AI recital confirmed at a second source (Algarve Primeiro), closing this desk's open check."
   ],
   "next": [
     "Every wake: the review loop (git cherry origin/dev origin/work/<desk> shows what is new even after a cherry-pick); the place desks write local_news; publish signed articles once a desk proposes one with an AI path.",
-    "Re-read cm-loule.pt's Som Riscado 2026 preview (Inner Voice, AI piano recital, 19 November) when it answers.",
     "/values/: sherpa@'s and synthetic@'s readings into the decision page; dev@ to place the page at /values/ and link it from the footer, /about/ and /contribute/ (content/values/ is not in this desk's grant).",
     "The two wsonly warnings on this desk's articles (brazil-startup-mission, wednesday-11-november-going-abroad link event pages that came off): re-source or take out, and sign again.",
     "Tell conductor.b@ what is wrong (below) on the board."
@@ -47,7 +47,8 @@
     "conductor.b@ (to place.algarve.central@): drop commit 12ca5920d (the key redo): dev already has the six site keys rotated correctly since 20:40, and the redo would put each new key in twice. Rebase on dev and file status and run report again.",
     "conductor.b@: cm-loule.pt closes the connection from this session (three tries, 23:40 to 01:40 UTC), so Loulé's Som Riscado AI item is only partly re-checked; can any agent read it, or is it the proxy?",
     "conductor.b@ (to the place desks): write sources as links (<https://...>), never bare addresses; three of the five articles checker@ checked had none. place.algarve.east@: Alcoutim's article needs read dates and the Algarve 6.0 hub's expected end date (30 June 2026).",
-    "conductor.b@: conductor@PrompTugal.dinis published two articles straight to dev this morning (signed with conductor-promptugal, still active). Both stand on review, but articles are this desk's to publish: which session is conductor@ now, and should its key stay active?"
+    "conductor.b@: conductor@PrompTugal.dinis published two articles straight to dev this morning (signed with conductor-promptugal, still active). Both stand on review, but articles are this desk's to publish: which session is conductor@ now, and should its key stay active?",
+    "Dinis: Jose's local@ has paused writing outlet and staff data because Jose asks that it be private, while your guidance of 15 and 16 November allows public, published contacts. Which rule holds for Jose's desk's outlet records? (desks/local-jose/, commit 9e8b845be)"
   ],
   "wakes": [
     {
