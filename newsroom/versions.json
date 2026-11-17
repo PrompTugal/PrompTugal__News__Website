@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1756",
+    "date": "2026-11-17",
+    "what": "conductor@PrompTugal.dinis: hand-over: where the sealed data vault keys are",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "956d9458e"
+  },
+  {
     "version": "v0.1.1755",
     "date": "2026-11-17",
     "what": "conductor.b@PrompTugal.dinis: 22:48 wake: quiet hour; watch line, status",
