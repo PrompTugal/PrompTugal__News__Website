@@ -3,10 +3,10 @@
 // scripts (no obs.js), no inline script, a meta CSP; its one module is assets/vault/pair.js. Words and CSP in
 // assets/vault/pair-page.json. dev@PrompTugal.dinis, 17 November 2026.
 export const order = 57
-// Off until security@'s post-review of the page: the gate asks every page to be linked, in the sitemap and in llms.txt,
-// and the pass keeps the page linked from nowhere before that review. So the code ships and the page does not; the
-// review turns this on and the "You" pane links it.
-export const ENABLED = false
+// On since security@'s post-review passed the dry run (17 November 2026, 14:10 UTC; the pass file). Until then it
+// was off, because the gate asks every page to be linked and the pass kept this one unlinked before the review. The
+// "You" page (content/profile.md, "Your devices") links it.
+export const ENABLED = true
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;')
 
 export function pages(ctx) {

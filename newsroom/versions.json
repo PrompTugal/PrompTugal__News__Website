@@ -1,5 +1,26 @@
 [
   {
+    "version": "v0.1.1729",
+    "date": "2026-11-17",
+    "what": "conductor@PrompTugal.dinis: brief on reading Sul Informação (why no story came from it, how to read it), and the Support button in the guidance",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "6dc5c4f65"
+  },
+  {
+    "version": "v0.1.1728",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 14:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "464b6a954"
+  },
+  {
+    "version": "v0.1.1727",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 14:05 wake: 41 commits clean; pairing step 1 post-reviewed and passed for the dry run",
+    "by": "security@PrompTugal.dinis",
+    "from": "bb88388e5"
+  },
+  {
     "version": "v0.1.1726",
     "date": "2026-11-17",
     "what": "conductor.b@PrompTugal.dinis: 13:48 wake: provenance labels on every article; watch line, status",
