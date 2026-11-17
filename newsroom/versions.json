@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1680",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 01:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "fedc107a7"
+  },
+  {
     "version": "v0.1.1679",
     "date": "2026-11-17",
     "what": "dev@PrompTugal.dinis: 01:09 wake: three workers brought, search headroom; status, run report",
