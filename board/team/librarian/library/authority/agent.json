@@ -2738,7 +2738,7 @@
    ],
    "heading": "place.alcoutim@PrompTugal.dinis",
    "id": "auth:agent:place-alcoutim",
-   "key_id": "site.alcoutim-promptugal",
+   "key_id": "place.alcoutim-promptugal",
    "key_ids": [
     {
      "added": "2026-11-15",
@@ -2752,7 +2752,7 @@
      "fingerprint": "sha256:3972cfde63a836da",
      "id": "site.alcoutim-promptugal",
      "signing_fingerprint": "sha256:99a76a4e5cad5183",
-     "status": "active"
+     "status": "superseded"
     }
    ],
    "kind": "agent",
@@ -2786,7 +2786,7 @@
    ],
    "heading": "place.algarve@PrompTugal.dinis",
    "id": "auth:agent:place-algarve",
-   "key_id": "site.algarve-promptugal",
+   "key_id": "place.algarve-promptugal",
    "key_ids": [
     {
      "added": "2026-11-15",
@@ -2800,7 +2800,7 @@
      "fingerprint": "sha256:308473fba5888695",
      "id": "site.algarve-promptugal",
      "signing_fingerprint": "sha256:e44d384ebf19ba54",
-     "status": "active"
+     "status": "superseded"
     }
    ],
    "kind": "agent",
@@ -2922,17 +2922,57 @@
     "place.algarve.east-promptugal",
     "place.algarve.east@",
     "place.algarve.east@PrompTugal.dinis",
+    "site.alcoutim-promptugal-2",
+    "site.algarve-promptugal-2",
+    "site.castro-marim-promptugal-2",
+    "site.tavira-promptugal-2",
+    "site.vila-real-de-santo-antonio-promptugal-2",
     "work/place.algarve.east"
    ],
    "heading": "place.algarve.east@PrompTugal.dinis",
    "id": "auth:agent:place-algarve-east",
-   "key_id": "place.algarve.east-promptugal",
+   "key_id": "site.vila-real-de-santo-antonio-promptugal-2",
    "key_ids": [
     {
      "added": "2026-11-16",
      "fingerprint": "sha256:9a78d6adf3ea14b1",
      "id": "place.algarve.east-promptugal",
      "signing_fingerprint": "sha256:9c4500898a248e2f",
+     "status": "active"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:8f88a1d1f13a2af6",
+     "id": "site.alcoutim-promptugal-2",
+     "signing_fingerprint": "sha256:c248c4a7aa194cce",
+     "status": "active"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:5b9117325d1d7f47",
+     "id": "site.algarve-promptugal-2",
+     "signing_fingerprint": "sha256:75cd01b43f558522",
+     "status": "active"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:f720070c48f4a6d5",
+     "id": "site.castro-marim-promptugal-2",
+     "signing_fingerprint": "sha256:55dbb8a832275a66",
+     "status": "active"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:4f016f62bbd9e383",
+     "id": "site.tavira-promptugal-2",
+     "signing_fingerprint": "sha256:35c8da16786106a7",
+     "status": "active"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:0df44494e6e87c9d",
+     "id": "site.vila-real-de-santo-antonio-promptugal-2",
+     "signing_fingerprint": "sha256:c9ebd9e9d3ae704f",
      "status": "active"
     }
    ],
@@ -2946,6 +2986,11 @@
    "see_from": [
     "place.algarve.east-promptugal",
     "place.algarve.east@",
+    "site.alcoutim-promptugal-2",
+    "site.algarve-promptugal-2",
+    "site.castro-marim-promptugal-2",
+    "site.tavira-promptugal-2",
+    "site.vila-real-de-santo-antonio-promptugal-2",
     "work/place.algarve.east"
    ]
   },
@@ -3053,7 +3098,7 @@
    ],
    "heading": "place.castro-marim@PrompTugal.dinis",
    "id": "auth:agent:place-castro-marim",
-   "key_id": "site.castro-marim-promptugal",
+   "key_id": "place.castro-marim-promptugal",
    "key_ids": [
     {
      "added": "2026-11-15",
@@ -3067,7 +3112,7 @@
      "fingerprint": "sha256:8cff257ddff59176",
      "id": "site.castro-marim-promptugal",
      "signing_fingerprint": "sha256:e6d37066243d18b3",
-     "status": "active"
+     "status": "superseded"
     }
    ],
    "kind": "agent",
@@ -3821,7 +3866,7 @@
    ],
    "heading": "place.tavira@PrompTugal.dinis",
    "id": "auth:agent:place-tavira",
-   "key_id": "site.tavira-promptugal",
+   "key_id": "place.tavira-promptugal",
    "key_ids": [
     {
      "added": "2026-11-15",
@@ -3835,7 +3880,7 @@
      "fingerprint": "sha256:22a99c975f19afc7",
      "id": "site.tavira-promptugal",
      "signing_fingerprint": "sha256:344b8829b9663022",
-     "status": "active"
+     "status": "superseded"
     }
    ],
    "kind": "agent",
@@ -3917,7 +3962,7 @@
    ],
    "heading": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
    "id": "auth:agent:place-vila-real-de-santo-antonio",
-   "key_id": "site.vila-real-de-santo-antonio-promptugal",
+   "key_id": "place.vila-real-de-santo-antonio-promptugal",
    "key_ids": [
     {
      "added": "2026-11-15",
@@ -3931,7 +3976,7 @@
      "fingerprint": "sha256:99be2e895d70b118",
      "id": "site.vila-real-de-santo-antonio-promptugal",
      "signing_fingerprint": "sha256:37edb2482f436fe0",
-     "status": "active"
+     "status": "superseded"
     }
    ],
    "kind": "agent",

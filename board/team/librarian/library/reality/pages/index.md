@@ -29,27 +29,27 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-2250 cards (1491 current, 0 superseded, 759 withdrawn), from the catalogue generated 2026-11-16T21:59:57Z at site v0.1.1665; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+2328 cards (1569 current, 0 superseded, 759 withdrawn), from the catalogue generated 2026-11-17T00:59:17Z at site v0.1.1677; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `DAT.CO` | 120 |
 | `DAT.EV` | 259 |
-| `DAT.ORG` | 382 |
+| `DAT.ORG` | 421 |
 | `DAT.PE` | 295 |
 | `DAT.PL` | 115 |
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 1054 |
+| `PUB.SITE` | 1093 |
 
 Newest five accessions:
 
-- `ACC-20261116-1023` [ZAP](https://promptugal.news/media/zap/) (`PUB.SITE zap`)
-- `ACC-20261116-1022` [viz.places@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/viz.places/) (`PUB.SITE viz.places`)
-- `ACC-20261116-1021` [Viseu: the data](https://promptugal.news/query/viseu/) (`PUB.SITE viseu:15`)
-- `ACC-20261116-1020` [Viseu: AI in context](https://promptugal.news/query/decks/viseu/) (`PUB.SITE viseu:14`)
-- `ACC-20261116-1019` [PrompTugal.news Viseu](https://promptugal.news/pt-PT/portugal/viseu/) (`PUB.SITE viseu:13`)
+- `ACC-20261117-0078` [Viseu Now](https://promptugal.news/media/viseu-now/) (`PUB.SITE viseu-now`)
+- `ACC-20261117-0077` [TugaTech](https://promptugal.news/media/tugatech/) (`PUB.SITE tugatech`)
+- `ACC-20261117-0076` [Tribuna Alentejo](https://promptugal.news/media/tribuna-alentejo/) (`PUB.SITE tribuna-alentejo`)
+- `ACC-20261117-0075` [Time Out Lisboa](https://promptugal.news/media/time-out-lisboa/) (`PUB.SITE time-out-lisboa`)
+- `ACC-20261117-0074` [Terras de Viseu](https://promptugal.news/media/terras-de-viseu/) (`PUB.SITE terras-de-viseu`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

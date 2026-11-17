@@ -27,28 +27,28 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-3441 cards (1152 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-16T21:59:57Z at site v0.1.1665; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+3456 cards (1167 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-17T00:59:17Z at site v0.1.1677; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `RDR.SHERPA` | 31 |
 | `RDR.SYN` | 5 |
-| `TEAM.ABP` | 102 |
+| `TEAM.ABP` | 105 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
 | `TEAM.INBOX` | 162 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 1902 |
-| `TEAM.RUN` | 1207 |
+| `TEAM.ROLE` | 1913 |
+| `TEAM.RUN` | 1208 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261116-1342` [runs/viz.places/](https://promptugal.news/board/runs/viz.places/) (`TEAM.RUN viz`)
-- `ACC-20261116-1341` [runs/translator/](https://promptugal.news/board/runs/translator/) (`TEAM.RUN translator`)
-- `ACC-20261116-1340` [runs/place.vila-real-de-santo-antonio/](https://promptugal.news/board/runs/place.vila-real-de-santo-antonio/) (`TEAM.RUN place.vila-real-de-santo-antonio`)
-- `ACC-20261116-1339` [runs/place.vila-do-bispo/](https://promptugal.news/board/runs/place.vila-do-bispo/) (`TEAM.RUN place.vila-do-bispo`)
-- `ACC-20261116-1338` [runs/place.sao-bras-de-alportel/](https://promptugal.news/board/runs/place.sao-bras-de-alportel/) (`TEAM.RUN place.sao-bras-de-alportel`)
+- `ACC-20261117-0093` [runs/local-jose/](https://promptugal.news/board/runs/local-jose/) (`TEAM.RUN local-jose`)
+- `ACC-20261117-0092` [designer@'s reviews of work/designer.places](https://promptugal.news/board/team/designer.places/review-by-designer.md) (`TEAM.ROLE review-by-designer`)
+- `ACC-20261117-0091` [dev@'s review of work/dev.places, 17 November 2026, about 00:15 UTC](https://promptugal.news/board/team/dev.places/review-2026-11-17T0015Z.md) (`TEAM.ROLE review-2026-11-17T0015Z`)
+- `ACC-20261117-0090` [dev@'s review of work/dev.places, 16 November 2026, about 23:15 UTC](https://promptugal.news/board/team/dev.places/review-2026-11-16T2315Z.md) (`TEAM.ROLE review-2026-11-16T2315Z`)
+- `ACC-20261117-0089` [promptugal-outreach-dinis.json](https://promptugal.news/board/team/conductor/sealed/promptugal-outreach-dinis.json) (`TEAM.ROLE promptugal-outreach-dinis`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

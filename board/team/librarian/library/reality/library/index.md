@@ -21,7 +21,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-357 cards (142 current, 0 superseded, 215 withdrawn), from the catalogue generated 2026-11-16T21:59:57Z at site v0.1.1665; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+357 cards (142 current, 0 superseded, 215 withdrawn), from the catalogue generated 2026-11-17T00:59:17Z at site v0.1.1677; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
