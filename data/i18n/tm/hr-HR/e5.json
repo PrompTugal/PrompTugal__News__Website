@@ -1,0 +1,26 @@
+{
+ "e52198164de35f4a": {
+  "t": "EPIA 2025, portugalska konferencija o UI-ju, održava se na Sveučilištu u Algarveu u Faru",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "EPIA 2025, Portugal's AI conference, is held at the Universi",
+  "ok": false
+ },
+ "e594a4a9c497537b": {
+  "t": "Sredstva EU-a za uvođenje UI-ja i robotike u 15 turističkih tvrtki Algarvea",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "EU funds to bring AI and robotics to 15 Algarve tourism firm",
+  "ok": false
+ },
+ "e5ce97d42543ebed": {
+  "t": "Nakon oluje Kristin više od 100 volontera koristilo je dronove da pomogne općini u procjeni štete. Zračne snimke prošle su kroz platformu ATLAS tvrtke, za koju kaže da koristi UI, a namijenjene su samo vlastima.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "After storm Kristin, more than 100 volunteer staff used dron",
+  "ok": false
+ }
+}

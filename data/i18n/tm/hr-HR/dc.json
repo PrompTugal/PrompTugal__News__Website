@@ -1,0 +1,34 @@
+{
+ "dc01b07203158782": {
+  "t": "Istražuje se",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Researching",
+  "ok": false
+ },
+ "dc743f8b8d06b601": {
+  "t": "Dana 29. listopada 2026. međuopćinsko tijelo CIM Viseu Dão Lafões predstavilo je SMART REGION, dvije platforme (regionalnu platformu znanja i platformu za urbano upravljanje) koje križaju raspršene podatke poput tokova posjetitelja, mobilnosti i otpada kako bi pomogle općinama razumjeti lokalne potrebe. Drugo izvješće, portala Mais Aguiar da Beira od 31. listopada, kaže da platforma za urbano upravljanje nudi alate UI-ja za analizu i potporu odlučivanju te da su CIM i MOBI.E potpisali protokol o pametnom izdavanju karata. Nijedno izvješće ne navodi korištene modele.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "On 29 October 2026 the intermunicipal body CIM Viseu Dão Laf",
+  "ok": false
+ },
+ "dc863485c179d3fc": {
+  "t": "Oi, pá! Loulé, gdje tržnica ima kupole, a općina algoritme.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Oi, pá! Loulé, where the market has domes and the council ha",
+  "ok": false
+ },
+ "dceaf782b95ea2a7": {
+  "t": "Tavira je jedna od šest općina u urbanoj podatkovnoj platformi Algarve 6.0",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Tavira is one of six municipalities in the Algarve 6.0 urban",
+  "ok": false
+ }
+}

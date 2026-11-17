@@ -1,0 +1,26 @@
+{
+ "f779f016725feeb7": {
+  "t": "UTAD ugošćuje radionicu o UI-ju i vještinama u stočarskoj proizvodnji",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "UTAD hosts a workshop on AI and skills in animal production",
+  "ok": false
+ },
+ "f7d28b3eb969ec12": {
+  "t": "Vila Real je sjedište UTAD-a, Sveučilišta Trás-os-Montes e Alto Douro, koje ugošćuje seminare o UI-ju, pridružuje se istraživačkim konzorcijima o UI-ju i sudjeluje u nacionalnom pilotu IAedu. Uz njega je Regia Douro Park, znanstveno-tehnološki park s oko 160 tvrtki, koji je podupro konferenciju DTech 2026 o UI-ju u poslovanju. Općina se u priči o UI-ju pojavljuje kao podupiratelj tog događaja i kao bivši partner IBM-ova najavljenog centra za inovacije, dok njezina stranica vijesti u onome što smo mogli pročitati nije pokazivala uporabu UI-ja.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Vila Real is the seat of UTAD, the University of Trás-os-Mon",
+  "ok": false
+ },
+ "f7e27f16eaf60e40": {
+  "t": "Drugi projekt s istog popisa, također od 1. rujna 2026. do 31. kolovoza 2028., razvija platformu za mentalno zdravlje studenata s virtualnim asistentom temeljenim na generativnoj UI. Prihvatljivi trošak je 106.936,75 eura, od čega 90.896,23 eura za portalegrsku stranu, financirano iz FEDER-a u okviru ALT2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Another project on the same list, also running from 1 Septem",
+  "ok": false
+ }
+}

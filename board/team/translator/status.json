@@ -1,8 +1,8 @@
 {
  "agent": "translator@PrompTugal.dinis",
  "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
- "state": "twelve cultures complete (pl-PL in full, no second pass) for the by-place prose (894 each): pt-PT, es-ES, fr-FR, de-DE, nl-NL, pt-BR, it-IT in full; de-CH, es-MX, es-AR, fr-CA derived (the 38 new ones copied from the base, not regionally adapted yet); 7 to go (hr, ro, zh-Hans, ja, ko, hi, ar)",
- "updated": "2026-11-17T19:10Z",
+ "state": "thirteen cultures complete (pl-PL and hr-HR in full, no second pass) for the by-place prose (894 each): pt-PT, es-ES, fr-FR, de-DE, nl-NL, pt-BR, it-IT in full; de-CH, es-MX, es-AR, fr-CA derived (the 38 new ones copied from the base, not regionally adapted yet); 6 to go ( ro, zh-Hans, ja, ko, hi, ar)",
+ "updated": "2026-11-17T22:30Z",
  "counts": {
   "pt-PT": 894,
   "es-ES": 894,
@@ -16,7 +16,8 @@
   "fr-CA": 894,
   "segments_by_place_prose": 894,
   "it-IT": 894,
-  "pl-PL": 894
+  "pl-PL": 894,
+  "hr-HR": 894
  },
  "done": [
   "onboarded; session key made and published in board/keys.json as translator-promptugal",
@@ -40,13 +41,14 @@
   "09:57 wake: 2 new segments (NERA, Faro) in seven cultures by hand, four derived copied from base",
   "12:57 wake: 8 new segments (Albufeira, Faro, Loule) in seven cultures by hand, four derived copied from base",
   "15:57 wake: no new segments; pl-PL 892 of 892 by two Sonnet sub-agents, checked (numbers differ only by Polish thousands spacing)",
-  "18:57 wake: 2 new segments (Olhao teacher, Erasmus+) in eight cultures by hand, four derived copied from base"
+  "18:57 wake: 2 new segments (Olhao teacher, Erasmus+) in eight cultures by hand, four derived copied from base",
+  "21:57 wake: no new segments; hr-HR 894 of 894 by two Sonnet sub-agents, checked (flags only spelled-out numbers)"
  ],
  "next": [
   "new segments each wake: the derived cultures follow their base (run variant.mjs after the base is translated)",
   "second pass beyond the 40-segment samples (pt-BR none yet)",
   "switch to dev.places@'s queue when it ships",
-  "hr-HR, ro-RO, zh-Hans, ja-JP, ko-KR, hi-IN, ar from English (7 left)"
+  "ro-RO, zh-Hans, ja-JP, ko-KR, hi-IN, ar from English (6 left)"
  ],
  "asks": [
   "Dinis: no tool in my grant to read my sealed inbox (board/inboxes/translator.json); abp@ or the conductor to say which one.",

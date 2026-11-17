@@ -14,5 +14,21 @@
   "at": "2026-11-17",
   "src": "Official contacts",
   "ok": false
+ },
+ "79d6c16f34cbe5d1": {
+  "t": "Na otvorenju Konfucijeva instituta na Universidade de Évora 16. listopada 2026. rektor je kao područja postojeće i planirane suradnje naveo UI, znanost o podacima i agroprehrambeni sektor, uz ideje poput UI-ja za kulturnu baštinu, zdravlje, okoliš i poljoprivredu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "At the 16 October 2026 opening of the Confucius Institute at",
+  "ok": false
+ },
+ "79fc6b990f0d8d0e": {
+  "t": "UTAD dobiva nacionalno financiranje za projekt UI-ja za hitni trijažni prijam",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "UTAD gets national funding for an AI emergency triage projec",
+  "ok": false
  }
 }
