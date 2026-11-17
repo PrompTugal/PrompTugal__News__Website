@@ -2251,7 +2251,7 @@
       {
         "as_listed": "Sword Health",
         "ref": "organisation:sword-health",
-        "count": 4
+        "count": 5
       },
       {
         "as_listed": "TEKEVER",
@@ -2376,7 +2376,7 @@
       {
         "as_listed": "national health service",
         "ref": "organisation:national-health-service",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "norriv",

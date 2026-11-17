@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-observador-sword-sns-launch",
+  "type": "evidence",
+  "source_url": "https://observador.pt/2026/06/18/tecnologia-da-sword-health-chega-ao-sns-com-fisioterapia-remota-com-inteligencia-artificial/",
+  "beat": "Portugal",
+  "group": "S69",
+  "names": [
+    {
+      "as_listed": "Sword Health",
+      "ref": "organisation:sword-health"
+    },
+    {
+      "as_listed": "national health service",
+      "ref": "organisation:national-health-service"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-17-1550.json",
+  "run": "2026-11-17T15:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-17-1550.json"
+    ]
+  }
+}
