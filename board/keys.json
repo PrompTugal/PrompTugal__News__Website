@@ -352,7 +352,10 @@
         "fingerprint": "sha256:2be4372a9ba5de94",
         "signing_fingerprint": "sha256:510645ab1d366802"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-17T18:15Z",
+      "superseded_by": "observability-promptugal-2",
+      "superseded_note": "The first observability session stopped at the account move on 16 November; session 2 took over on 17 November at Dinis's word (conductor@)."
     },
     {
       "id": "historian-promptugal",
@@ -4062,6 +4065,23 @@
         "signing_fingerprint": "sha256:36e871cdcd393bd7"
       },
       "superseded": "2026-11-17T04:49Z (public half overwritten in place at 19:31 on 16 Nov by the second session; restored here, the new key is site.leiria-promptugal-2)"
+    },
+    {
+      "id": "observability-promptugal-2",
+      "agent": "observability@PrompTugal.dinis",
+      "label": "observability@PrompTugal.dinis (Claude Code session 2)",
+      "role": "The observability agent of PrompTugal.news (observability@PrompTugal.dinis): the page views and reads sent to an encrypted vault, the drain, and the reports in newsroom/, in PrompTugal/PrompTugal__News__Website. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 17 November 2026 (pki-agent.mjs keygen --session), at Dinis's word relayed by conductor@, and committed here by that session (CLAUDE.md, Handing a role to a new session).",
+      "added": "2026-11-17",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA09wFwGLdlBZJuQTIoBut\n5y7kTY1DBPk4Kj2LXYKEFAVFOuX2XTiGEpbLtsP6SJhlWzgeaxiUyXwLbHfbG7bl\n2Nhy+x6vF+QWQN3c+JUaZg/F1m/OZzEVlPFQG7QWNco3lunVPLv0BuJmN4ikFAU+\nd/krWVyYiMKM21MaN+3UnRO9+4Ou+jdpFusIaw1OK8RkVqGk57a1AYXsMpzSKGI3\n3ZrbRyJZUM/38qjqe02Kq2Cm1RCvEsafVpxpvU4D9/m6ZjTA9EXGJvoscCimtjvn\nVGiP3LzAZDpzxqz7Icrfwljf1zS2Vy4uHeEtOg/YgtGA4FB4cyL11Fz2Rz9GQLhj\nfNBqfLP6iH0pJzWKu/FcvdBtA7ryfFyLIWyF1qZM+BHChg7pxK/OYiHOLFbA7L5f\nL2knljO+yRk9jjkie611/fM6Pqe9PQca98Fs4N9rLwEz8Gb/yc4V9ME7nHJylXOu\nhAsn26DNZaoGoyq1BCaxbcl1AGng3lu4p++juHEqYImmD94ttaMQPpC7r/uM8Rd4\niA4KyBpriUJTITKNXLN+RiF3mlvBmk477X9+BxdJa64L3yeDzq9pfP5vQYh/PdQR\nmeXNuXYJ6jkX425K4F7pMqt7/paxnoIL8kH2/21vhcrl+OAli1Vh486c19Ile6dK\naOj90VRR7vEJTvGAp15NrZMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEri/2P3eZiD/8quDHgIQyWvpMfDzG\njxB3ETIYAZAR/gaqJ3T2F/907zPuq5TF4a7Zz6X7Ow9LUtKNmuHJywBTNA==\n-----END PUBLIC KEY-----\n",
+        "label": "observability@PrompTugal.dinis",
+        "fingerprint": "sha256:b638172041d2eaa4",
+        "signing_fingerprint": "sha256:b0c9c8a018107f20"
+      },
+      "status": "active"
     }
   ]
 }
