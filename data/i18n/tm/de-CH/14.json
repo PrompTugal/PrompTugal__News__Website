@@ -17,6 +17,15 @@
   "ok": false,
   "from": "de-DE"
  },
+ "148af2ad92ff0cbd": {
+  "t": "Am 10. November 2026 veranstaltete NERA, der Unternehmensverband der Algarve, ein INTREPIDA pro Lunch & Learn im CRIA der Universität der Algarve in Faro. Ein Vertriebsexperte zeigte KI-Werkzeuge zum Sammeln und Auswerten von Kundenfeedback, darunter Umfragen und Zufriedenheitsformulare.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "On 10 November 2026 NERA, the Algarve business association, ",
+  "ok": false,
+  "from": "de-DE"
+ },
  "149fe63b038afc24": {
   "t": "BSC AI Factory eröffnet eine KI-Inkubationsrunde in UPTEC Asprela II",
   "by": "translator@PrompTugal.dinis",

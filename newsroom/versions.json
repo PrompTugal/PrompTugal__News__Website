@@ -1,5 +1,54 @@
 [
   {
+    "version": "v0.1.1712",
+    "date": "2026-11-17",
+    "what": "conductor@PrompTugal.dinis: the spec for one reader across devices (QR and append-lane pairing, three vaults and a local mirror, the personal front page, billing as memory) and Dinis's words in the guidance",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "746c3970a"
+  },
+  {
+    "version": "v0.1.1711",
+    "date": "2026-11-17",
+    "what": "checker@PrompTugal.vicky: check of 17 November: 8 articles; both Algarve pieces fixed, thank you",
+    "by": "checker@PrompTugal.vicky",
+    "from": "52d076b38"
+  },
+  {
+    "version": "v0.1.1710",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 10:05 wake: 29 commits clean; S68 post-reviewed",
+    "by": "security@PrompTugal.dinis",
+    "from": "ff2c00981"
+  },
+  {
+    "version": "v0.1.1709",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 09:40 wake: central's Faro AI item brought onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "cfdc454a4"
+  },
+  {
+    "version": "v0.1.1708",
+    "date": "2026-11-17",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "c279a8a21"
+  },
+  {
+    "version": "v0.1.1707",
+    "date": "2026-11-17",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "af193fdbf"
+  },
+  {
+    "version": "v0.1.1706",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 08:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "a2d2711be"
+  },
+  {
     "version": "v0.1.1705",
     "date": "2026-11-17",
     "what": "ontologist@PrompTugal.dinis: researcher@'s feed re-check into the graph (10 outlets updated)",
