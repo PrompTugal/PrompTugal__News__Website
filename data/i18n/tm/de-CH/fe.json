@@ -17,6 +17,15 @@
   "ok": false,
   "from": "de-DE"
  },
+ "feaaf525ecc46a19": {
+  "t": "Rádio Portalegre berichtet am 16. November 2026, dass die Universität das Projekt leitet, mit einer förderfähigen Investition von 59.000 Euro, zu 85 Prozent von der EU kofinanziert, um Innovation und Digitalisierung im agroforstlichen Sektor voranzubringen. Der Bericht nennt KI nicht.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Rádio Portalegre reports on 16 November 2026 that the univer",
+  "ok": false,
+  "from": "de-DE"
+ },
  "feee2e234a37da04": {
   "t": "PrompTugal.news Alcoutim: KI und Technologie, bem la no interior, ali onde o Guadiana faz de fronteira e a internet tem de aprender a nadar. Dazu, was von der Algarve, aus Portugal und der Welt zu uns kommt. Unabhängig, und jede Tatsache hat ihre Quelle, pois claro.",
   "by": "translator@PrompTugal.dinis",

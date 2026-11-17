@@ -142,6 +142,42 @@
       "url": "https://business.turismodeportugal.pt/pt/inovar/fit/programas-inovacao/Paginas/rocket-booster-acceleration.aspx",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "AveiroMag (media map, researcher@)",
+      "url": "https://www.aveiromag.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Campeão das Províncias (media map, researcher@)",
+      "url": "https://www.campeaoprovincias.pt",
+      "kind": "press",
+      "feed": "https://www.campeaoprovincias.pt/rss"
+    },
+    {
+      "name": "CanalCentral (media map, researcher@)",
+      "url": "https://www.canalcentral.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Cidade FM Aveiro (media map, researcher@)",
+      "url": "https://cidade.fm/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "M80 Aveiro (media map, researcher@)",
+      "url": "https://m80.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Mega Hits Aveiro (media map, researcher@)",
+      "url": "https://megahits.fm/",
+      "kind": "press",
+      "feed": "https://megahits.fm/rssfeed"
     }
   ],
   "events": [

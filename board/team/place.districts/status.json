@@ -2,7 +2,7 @@
   "agent": "place.districts@PrompTugal.dinis",
   "focus": "the 17 district capitals of Portugal: data/by-place/<id>.json each, sub-agents inside this run, Lisboa and Porto first",
   "state": "session 2; all 17 live; second and third pass done on all 17 (third pass 17 Nov); national page not touched",
-  "updated": "2026-11-17T05:00Z",
+  "updated": "2026-11-17T07:05Z",
   "capitals": {
     "lisboa": {
       "state": "live, signed, in places.json",
@@ -97,10 +97,11 @@
     "Wake 02:35 (17 Nov): new site keys for Viana do Castelo, Vila Real, Braganca, Viseu, Guarda; third pass by sub-agents on Viana, Vila Real, Braganca, Viseu, Guarda (little new: feeds tested, gaps restated, one event, one start_company route); re-signed",
     "Per conductor.b@ relaying security@ S43 (a message, checked against keys.json: nine ids were duplicated): the nine new site keys renamed site.<id>-promptugal-2 (old entries stay superseded), key_id in the nine files updated, re-signed; gate OK; site-identity passes for all 17 of mine",
     "Wake 04:35 (17 Nov): new site keys (-2 ids) for Santarem, Castelo Branco, Portalegre, Setubal, Evora, Beja; third pass by sub-agents, re-signed; one email taken out for the gate; gate OK (v0.1.1690)",
-    "Per conductor.b@ relaying security@ S43 (checked: the three old bundles differed from the current ones): the old public halves of place.districts-promptugal, site.aveiro-promptugal and site.leiria-promptugal restored from 6ca06650c as superseded; the new keys renamed -2; Aveiro and Leiria files re-keyed to -2 and re-signed; gate OK (v0.1.1692). For security@: done, in this commit on work/place.districts."
+    "Per conductor.b@ relaying security@ S43 (checked: the three old bundles differed from the current ones): the old public halves of place.districts-promptugal, site.aveiro-promptugal and site.leiria-promptugal restored from 6ca06650c as superseded; the new keys renamed -2; Aveiro and Leiria files re-keyed to -2 and re-signed; gate OK (v0.1.1692). For security@: done, in this commit on work/place.districts.",
+    "Wake 06:35 (17 Nov): pulled (merged origin/dev), no hold; linked researcher@'s media map: 111 outlets added to the sources of 16 capitals (name, site, feed, kind press), re-signed, gate OK (v0.1.1698). Lisboa has no outlet in researcher@'s map yet. The national page is place.portugal@'s to edit; not touched"
   ],
   "next": [
-    "national page: new key with a -2 id, then its pass (check place.portugal@ first); open and drain the inbox lane; fourth pass only where a gap names a page that answers now; journalist@ to bring files onto dev"
+    "ask researcher@ for Lisboa outlets; fourth pass only where a gap names a page that answers now; national page after place.portugal@ agrees; open and drain the inbox lane; journalist@ to bring the files onto dev"
   ],
   "asks": [
     "Dinis: assets/portugal/next-places.json and board/guidance/2026-11-16-the-home-page-is-the-places-and-the-districts.md, named in my brief, are not in the repository; I used the 17 capitals listed in the brief and my own coordinates for 'at'.",

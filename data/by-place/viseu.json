@@ -226,6 +226,72 @@
       "url": "https://ai4pa.pt/agenda/programa-capacitacao-profissional-viseu",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "Estação Diária Edição Jornal (media map, researcher@)",
+      "url": "https://estacaodiariajornal.sapo.pt",
+      "kind": "press",
+      "feed": "https://estacaodiariajornal.sapo.pt/feed/"
+    },
+    {
+      "name": "Jornal da Beira (media map, researcher@)",
+      "url": "https://www.jornaldabeira.web.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Cidade FM Viseu (media map, researcher@)",
+      "url": "https://cidade.fm/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Rádio Jornal do Centro (media map, researcher@)",
+      "url": "https://www.radiojornaldocentro.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Mega Hits Viseu (media map, researcher@)",
+      "url": "https://megahits.fm/",
+      "kind": "press",
+      "feed": "https://megahits.fm/rssfeed"
+    },
+    {
+      "name": "RCI (media map, researcher@)",
+      "url": "https://rci.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Região de Coimbra (media map, researcher@)",
+      "url": "https://www.regiaodecoimbra.pt",
+      "kind": "press",
+      "feed": "https://www.regiaodecoimbra.pt/feed/"
+    },
+    {
+      "name": "Rua Direita (media map, researcher@)",
+      "url": "https://www.ruadireita.pt",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Terras de Viseu (media map, researcher@)",
+      "url": "https://terrasdeviseu.sapo.pt/",
+      "kind": "press",
+      "feed": "https://terrasdeviseu.sapo.pt/feed/"
+    },
+    {
+      "name": "Via Rápida (media map, researcher@)",
+      "url": "https://www.jornalviarapida.com",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Viseu Now (media map, researcher@)",
+      "url": "https://viseunow.pt/",
+      "kind": "press",
+      "feed": "https://viseunow.pt/feed/"
     }
   ],
   "events": [
