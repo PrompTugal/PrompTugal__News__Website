@@ -1,0 +1,26 @@
+{
+ "4c0d30adf1b09c9f": {
+  "t": "Aktivnost UI-ja u Bragi nalazi se na četiri mjesta koja izvori pokazuju jedno uz drugo: istraživanje (grupa za UI Sveučilišta u Minhu, spin-off OmniumAI iz Minha i Iberijski laboratorij za nanotehnologiju INL), istraživanje i razvoj u tvrtkama (prvi Cegidov centar za UI u Portugalu i Boschova nova jedinica za eBicikle, čiji softver protiv krađe koristi strojno učenje), vlastita uporaba UI-ja u općini (pilot s kamerama na autobusima s Hayden AI i projekt od 1,5 milijuna eura za uvođenje UI-ja u općinsku upravu) te sloj startupova oko Startup Braga i InvestBraga, koji je 15 startupova odveo na Web Summit 2026. Za razliku od gradova Algarvea, Braga ne visi o jednoj instituciji, a ono što smo mogli pročitati pokazuje gradsku upravu koja UI kupuje i pilotira, a ne samo ugošćuje događaje o njemu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Braga's AI activity sits in four places that the sources sho",
+  "ok": false
+ },
+ "4c20ecf29e33e8c3": {
+  "t": "Aktivnost UI-ja u Évori nalazi se na tri mjesta. Universidade de Évora predaje studij UI-ja i znanosti o podacima, napisala je vlastita pravila za UI u nastavi i kaže da je izgradila modele na portugalskom jeziku. PACT, znanstveno-tehnološki park Alentejo, provodi obuku o UI-ju i ugošćuje tehnološke tvrtke. Hospital de Évora prva je portugalska javna bolnica koja koristi sustav UI-ja za probir raka vrata maternice, prema izvješću njezine zdravstvene jedinice. Stigao je i noviji privatni novac, a tvrtka za podatkovne centre kupuje lokaciju od 1 MW u gradu. Vlastita stranica općine ne pokazuje uporabu UI-ja koju bismo mogli pročitati, pa su težište sveučilište, park i bolnica, a ne gradska vijećnica.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Évora's AI activity sits in three places. The Universidade d",
+  "ok": false
+ },
+ "4c2d5aebc2b28ff3": {
+  "t": "Dana 1. listopada 2025. INCO Academy i jedinica za digitalnu pismenost politehnike u Santarému dogovorili su provođenje NewFutures: AI, oko 40 sati u četiri tjedna na mreži, s osnovnim modulom o generativnoj UI i smjerovima poput marketinga, financija i IKT-a. Dvije strane planiraju i istražiti zajednicu prakse o UI-ju.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "On 1 October 2025 INCO Academy and the digital literacy unit",
+  "ok": false
+ }
+}

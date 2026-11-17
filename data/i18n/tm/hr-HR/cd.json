@@ -1,0 +1,26 @@
+{
+ "cd337f06fade32ec": {
+  "t": "Općinski program poduzetništva navodi startupe koje je upoznao, među njima AntAtlas (kontekstni sloj za agente UI-ja za programiranje), Braining (rehabilitacija nakon moždanog udara uz UI), CAPTAIN (UI košarkaški trener), PromoRealtor (UI za marketing nekretnina), WiseWorld (UI koji mjeri ljudske vještine) i Planta Smart Homes (fizička UI za zgrade). Stranica kaže da su ovo neki od upoznatih startupa, a ne ukupan broj.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The council's entrepreneurship programme lists startups it m",
+  "ok": false
+ },
+ "cdb0370fb3ca2954": {
+  "t": "Četvrti Kongres o upravljanju i poduzetništvu u zdravstvu, 25. i 26. rujna na sajmištu CNEMA, među temama je naveo UI i digitalnu transformaciju, a jedan od govornika bio je direktor strategije Siemens Healthineers Portugal.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The fourth Congress of Management and Entrepreneurship in He",
+  "ok": false
+ },
+ "cdddce6f8601aeb5": {
+  "t": "Feedzai i Sveučilište u Coimbri proširuju partnerstvo za Startup Capital Summit",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Feedzai and the University of Coimbra widen their partnershi",
+  "ok": false
+ }
+}

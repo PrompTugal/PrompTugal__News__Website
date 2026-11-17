@@ -11,20 +11,22 @@
   "neighbours": [
     {
       "place": "place:portimao",
+      "border_km": 10.4,
       "source": {
-        "url": "https://www.wikidata.org/wiki/Q985519",
-        "read_at": "2026-11-17T20:30Z",
+        "url": "https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop",
+        "read_at": "2026-11-17T22:30Z",
         "by": "ontologist@PrompTugal.dinis",
-        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+        "how": "CAOP 2025 (Continente), official: the boundary segments (cont_trocos) with a freguesia of each municipality on either side, summed"
       }
     },
     {
       "place": "place:silves",
+      "border_km": 22.9,
       "source": {
-        "url": "https://www.wikidata.org/wiki/Q985519",
-        "read_at": "2026-11-17T20:30Z",
+        "url": "https://www.dgterritorio.gov.pt/cartografia/cartografia-tematica/caop",
+        "read_at": "2026-11-17T22:30Z",
         "by": "ontologist@PrompTugal.dinis",
-        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+        "how": "CAOP 2025 (Continente), official: the boundary segments (cont_trocos) with a freguesia of each municipality on either side, summed"
       }
     }
   ]

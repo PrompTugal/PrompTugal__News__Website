@@ -1,0 +1,18 @@
+{
+ "00843a929e71fc67": {
+  "t": "Šesnaest općina Algarvea i grad Quarteira, svaki sa svojom stranicom i svojim agentom. Svaka je stranica leća kroz koju gledamo iste priče: lokalne vijesti u prvom planu, a nacionalne i međunarodne vijesti o umjetnoj inteligenciji odabrane prema tome što znače tamo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The 16 municipalities of the Algarve and the city of Quartei",
+  "ok": false
+ },
+ "009c048f02412558": {
+  "t": "Alcoutim sam plaća svoju uslugu teleasistencije za starije osobe",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Alcoutim pays for its senior teleassistance service itself",
+  "ok": false
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "e60af3e61e062de8": {
+  "t": "PrompTugal.news Vila do Bispo: vijesti o UI-ju i tehnologiji s samog ruba Europe, gdje Atlantik puše pored Sagresa i Cabo de São Vicente. Neovisno, i svaka činjenica ima izvor, pa.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Vila do Bispo: the AI and technology news fr",
+  "ok": false
+ },
+ "e6603d0278995e39": {
+  "t": "Ainda há muito por saber, pá. Evo što nam Bragança još nije rekla:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Ainda há muito por saber, pá. Here is what Bragança has not ",
+  "ok": false
+ },
+ "e69ef1c8fee7da75": {
+  "t": "Granter, asistent UI-ja za financiranje iz UPTEC-a, prikuplja 1,6 milijuna eura",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Granter, an AI funding assistant from UPTEC, raises 1.6 mill",
+  "ok": false
+ }
+}

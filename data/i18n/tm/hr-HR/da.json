@@ -1,0 +1,26 @@
+{
+ "da40d828158b0f3f": {
+  "t": "Uprava parka raspisala je javni natječaj vrijedan 308.000 eura plus PDV za projektiranje Brigantia EcoParka 2. Izvješće navodi 82 tvrtke, dva istraživačka centra i oko 430 radnika, uz popunjenost od oko 98 posto. Stranica ne spominje UI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The park's board opened a public tender worth 308,000 euros ",
+  "ok": false
+ },
+ "da8ebf652ad46ed4": {
+  "t": "Eh pá, Silves: prijestolnica Algarvea prije nego što je bilo cool, još uvijek čuva svoje laranjas iz dvorca boje zrele mandarine.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Eh pá, Silves: a capital of the Algarve before it was cool, ",
+  "ok": false
+ },
+ "dab047fa0598eb82": {
+  "t": "Istraživači INESC TEC-a sastaju se na UTAD-u da razgovaraju o UI-ju i znanstvenim karijerama",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "INESC TEC researchers meet at UTAD to talk AI and scientific",
+  "ok": false
+ }
+}

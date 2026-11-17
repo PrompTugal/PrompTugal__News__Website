@@ -106,7 +106,7 @@
     },
     "neighbours": {
       "type": "array",
-      "description": "places that share a land border with this one, each with its source and the date read (the check against DGT's CAOP is still open where the source is Wikidata)",
+      "description": "places that share a land border with this one, each with its source and the date read",
       "items": {
         "type": "object",
         "required": [
@@ -144,6 +144,11 @@
               }
             },
             "additionalProperties": false
+          },
+          "border_km": {
+            "type": "number",
+            "minimum": 0,
+            "description": "the length of the shared boundary, in km, where the source gives it"
           }
         },
         "additionalProperties": false

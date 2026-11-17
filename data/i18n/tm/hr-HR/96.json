@@ -1,0 +1,18 @@
+{
+ "96b646265713332b": {
+  "t": "Portimão koristi UI za provjeru dokumenata za građevinske dozvole",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Portimão uses AI to check building-permit documents",
+  "ok": false
+ },
+ "96bbec2b19a93006": {
+  "t": "Algarveški komunalni operater za otpad ALGAR izradio je alat sa startupom NILG.AI, koji vaga čimbenike poput gustoće naseljenosti i pristupačnosti. Pilot se provodi u Lagoi u sklopu programa Sociedade Ponto Verde. ALGAR izvješćuje da je u četiri sata pronađeno 14 kandidatskih lokacija, a vrijeme odlučivanja palo je s 12 dana na 2.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The Algarve waste operator ALGAR built the tool with the sta",
+  "ok": false
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "df09dbbb93e6a84c": {
+  "t": "Bolnička grupa u Viseuu kupuje skenere financirane iz PRR-a koji uključuju UI gdje je primjenjivo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Viseu hospital group buys PRR-funded scanners that include A",
+  "ok": false
+ },
+ "df2d4bd6a5812b21": {
+  "t": "Critical Software iz Coimbre gradi platformu UI-ja za europski raketni projekt",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Critical Software of Coimbra builds the AI platform for a Eu",
+  "ok": false
+ },
+ "df3370ad9243e3fb": {
+  "t": "Laboratorij gradi rješenja UI-ja po mjeri za velike tvrtke, privatne investicijske fondove i državne agencije. Veličina kruga nije otkrivena.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The lab builds custom AI solutions for large companies, priv",
+  "ok": false
+ },
+ "dfd17296d59d381a": {
+  "t": "PrompTugal.news Santarém: UI i tehnologija u Santarému, okružnom glavnom gradu na Tejou čije su težište agroprehrambena znanost i novi Campus Tejo, te što do Santaréma stiže iz Portugala, Europe i svijeta. Neovisno; svaka činjenica ima izvor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Santarém: AI and technology in Santarém, a d",
+  "ok": false
+ },
+ "dff763ff9196306b": {
+  "t": "Dana 28. lipnja 2024. izvođač Softinsa, podružnica IBM-a, predstavio je općini rezultate šestotjednog dokaza koncepta s IBM-ovom platformom watsonx na više od 4000 e-poruka mjesečno koje općina prima, radi njihova usmjeravanja pravoj službi. Starije od stavki iz 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "On 28 June 2024 the contractor Softinsa, an IBM subsidiary, ",
+  "ok": false
+ }
+}

@@ -1,5 +1,33 @@
 [
   {
+    "version": "v0.1.1753",
+    "date": "2026-11-17",
+    "what": "ontologist@PrompTugal.dinis: neighbours of the 16 Algarve municipalities from DGT's CAOP 2025, with border lengths",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "5efa1df78"
+  },
+  {
+    "version": "v0.1.1752",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 22:05 wake: 27 commits clean; S69 checked; the 17 November hand-over debrief",
+    "by": "security@PrompTugal.dinis",
+    "from": "838311a3c"
+  },
+  {
+    "version": "v0.1.1751",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 21:48 wake: ledger 2150Z; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "e5d4cbd91"
+  },
+  {
+    "version": "v0.1.1750",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: Vicky's S69 checked and given its provenance labels (news, P2)",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "1b108d14b"
+  },
+  {
     "version": "v0.1.1749",
     "date": "2026-11-17",
     "what": "dev@PrompTugal.dinis: 21:09 wake: search shards; status, run report",

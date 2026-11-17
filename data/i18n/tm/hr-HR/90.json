@@ -1,0 +1,26 @@
+{
+ "906094ff1090ee9f": {
+  "t": "Santarém se najprije bavi agroprehrambenom znanošću, a tek onda UI-jem, i to iskreno kaže. Sveučilište, općina, ISLA, INIAV i sajmište CNEMA grade Campus Tejo, koji je otišao na Web Summit Lisbon, iako nitko koga smo čitali o njemu još nije izgovorio riječ UI. U međuvremenu ISLA ima vlastiti UI projekt vrijedan 100.000 eura, a uzgajivači borovnica već su pozvali strojeve unutra. Sim senhor, lezíria s laptopom.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Santarém does agri-food science first and AI second, and say",
+  "ok": false
+ },
+ "90d2c69bef549a56": {
+  "t": "Predstavljen 1. srpnja 2026. u Técnico Innovation Centeru u Lisabonu, izgrađen na EuroLLM-u s podacima iz Arquivo.PT, financiran s 5,5 milijuna eura iz plana oporavka i spreman za otvorenu uporabu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Presented on 1 July 2026 at the Técnico Innovation Center in",
+  "ok": false
+ },
+ "90ef9f9dbb2944f8": {
+  "t": "Konferencija u Albufeira o sustavu za sprječavanje potresa potpomognutom UI-jem premještena na 27. studenoga",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Albufeira conference on an AI-assisted earthquake prevention",
+  "ok": false
+ }
+}
