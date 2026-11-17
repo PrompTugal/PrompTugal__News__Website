@@ -1,0 +1,34 @@
+{
+ "2a64c34075cf2dd6": {
+  "t": "U Porto Innovation Hubu općina je predstavila osam općinskih projekata u digitalnim uslugama, modernizaciji uprave, pametnom gradu i zapošljivosti, pozivajući tvrtke i sveučilišta da predlože rješenja. Stranica ne kaže koji projekti koriste UI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "At the Porto Innovation Hub the council presented eight muni",
+  "ok": false
+ },
+ "2a76a80ec09f2c59": {
+  "t": "AITRAS je održan 5. i 6. ožujka na agrarnom i veterinarskom fakultetu UTAD-a, s govornicima s nekoliko europskih sveučilišta i primjerima iz stočarstva, šumarstva, vinogradarstva i agroprehrambenog sektora.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "AITRAS ran on 5 and 6 March at UTAD's agrarian and veterinar",
+  "ok": false
+ },
+ "2aed6185a7d900cb": {
+  "t": "Coimbra je među prvim općinama koje testiraju UI u urbanom licenciranju",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Coimbra is among the first councils to test AI in urban lice",
+  "ok": false
+ },
+ "2af0fa78e77b7dc6": {
+  "t": "SalOS se spominje i kao platforma za sljedivost spremna za EU-ovu Digitalnu putovnicu proizvoda",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "SalOS is also covered as a traceability platform ready for t",
+  "ok": false
+ }
+}

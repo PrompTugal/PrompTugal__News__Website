@@ -1,0 +1,26 @@
+{
+ "fc00ddd291017b54": {
+  "t": "PrompTugal.news Albufeira: pratimo UI i tehnologiju u Albufeira, gradu plaža, barova i rezervacija, te sve što doplovi iz Algarvea, Portugala i svijeta. Neovisno, svaka činjenica ima izvor, bez opeklina od sunca.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Albufeira: we follow the AI and tech in Albu",
+  "ok": false
+ },
+ "fc5c8736a3e9b7b2": {
+  "t": "Elife Portugal otvara AIhub, zajednicu UI-ja s fizičkim prostorom u Portu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Elife Portugal opens AIhub, an AI community with a physical ",
+  "ok": false
+ },
+ "fccae70e24743955": {
+  "t": "Regionalna zdravstvena jedinica održava webinar o UI-ju u zdravstvenoj službi",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Regional health unit holds a webinar on AI in the health ser",
+  "ok": false
+ }
+}

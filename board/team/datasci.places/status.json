@@ -2,7 +2,7 @@
   "agent": "datasci.places@PrompTugal.dinis",
   "focus": "JSON first: every fact served as JSON, the OpenAPI 3.1 specs (site-wide and per place) with Swagger pages, gate checks that pages show nothing their JSON lacks and that the specs cover every served file, and data quality numbers per place",
   "state": "running: restarted on this account, owns the live collector",
-  "updated": "2026-11-17T19:18Z",
+  "updated": "2026-11-17T21:17Z",
   "done": [
     "session key datasci.places-promptugal in board/keys.json",
     "pass 1, the audit: api/v1/datasci/audit.json, for every kind of page the outside links shown and how many a served JSON holds (today 2267 of 3098, 73%; 35 of 57 kinds fully held); the by-place pages: 0 missing",
@@ -42,7 +42,9 @@
     "17 Nov 16:17: wake 22: IPMA read (obs 15:00), 18 files; airport read OK (1 airline flight); pushed to work/datasci.places (ABP branch-only)",
     "17 Nov 17:16: wake 23: IPMA read (obs 16:00), 18 files; airport read OK (2 airline flights); pushed to work/datasci.places (ABP branch-only)",
     "17 Nov 18:16: wake 24: IPMA read (obs 17:00), 18 files; airport read OK (3 airline flights); pushed to work/datasci.places (ABP branch-only)",
-    "17 Nov 19:18: wake 25: IPMA read (obs 18:00), 18 files; airport read OK (3 airline flights); pushed to work/datasci.places (ABP branch-only)"
+    "17 Nov 19:18: wake 25: IPMA read (obs 18:00), 18 files; airport read OK (3 airline flights); pushed to work/datasci.places (ABP branch-only)",
+    "17 Nov 20:17: wake 26: IPMA read (obs 19:00), 18 files; airport read OK (4 airline flights); pushed to work/datasci.places (ABP branch-only)",
+    "17 Nov 21:17: wake 27: IPMA read (obs 20:00), 18 files; airport read OK (1 airline flight); pushed to work/datasci.places (ABP branch-only)"
   ],
   "next": [
     "more keyless public sources per place (board/briefs/2026-11-16-storm-local-data.md)",

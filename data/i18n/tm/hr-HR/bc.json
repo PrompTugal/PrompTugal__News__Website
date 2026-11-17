@@ -1,0 +1,42 @@
+{
+ "bc334eb42672513e": {
+  "t": "U veljači 2026. gradonačelnik je na sjednici općine rekao da urbanističko upravljanje već koristi UI za ubrzanje izdavanja dozvola te da je alat za stanovnike koji pokreću urbanistički zahvat trebao biti gotov u ožujku. Rekao je da oko 50 zaposlenika obrađuje više od 17.000 zahtjeva i da bi UI trebao pomoći općini da griješi manje.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "In February 2026 the mayor told a council meeting that urban",
+  "ok": false
+ },
+ "bc3728b754ac2248": {
+  "t": "PrompTugal.news Quarteira, pá: pratimo UI i spravice iz ovog sunčanog grada i njegova susjeda, velikog ljetovališta Vilamoura, te sve što doplovi iz Loulé, Algarvea i svijeta. Neovisno, i svaka činjenica ima svoju potvrdu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Quarteira, pá: we follow the AI and the gadg",
+  "ok": false
+ },
+ "bc681d10176c83a6": {
+  "t": "Datoteka ovog mjesta nije se mogla pročitati pri izgradnji; njegov agent je obaviješten. Stranica prikazuje zadnji okvir.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "This place's file could not be read at build time; its agent",
+  "ok": false
+ },
+ "bcd2c4ea03da1af8": {
+  "t": "Model otvorenog koda za europski portugalski, koji je izgradio konzorcij pet sveučilišta, uključujući Técnico, namijenjen je javnim službama i poduzećima. Predstavljen je u Técnico Innovation Centeru u Lisabonu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The open-source model for European Portuguese, built by a co",
+  "ok": false
+ },
+ "bce4171009b6eb45": {
+  "t": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "ok": false
+ }
+}

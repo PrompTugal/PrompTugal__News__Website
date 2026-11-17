@@ -1,0 +1,18 @@
+{
+ "be5099c1271641c4": {
+  "t": "Zemlja na atlantskom rubu Europe koja si je napisala vlastiti jezični model i voljela bi da ga isprobate.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "A country on the Atlantic edge of Europe that wrote itself a",
+  "ok": false
+ },
+ "be99630c0197edb6": {
+  "t": "Otvorene prijave za pilot-plan UI-ja i robotike Algarvea za turistička mala i srednja poduzeća",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Applications opened for the Algarve's pilot AI and robotics ",
+  "ok": false
+ }
+}

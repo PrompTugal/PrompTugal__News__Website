@@ -49,6 +49,10 @@
     }
     const terms = s => words(s).map(stem).filter(t => t.length >= 2)
     const shardOf = t => t.slice(0, 2)
+    // the shard a term lives in, given the keys docs.json lists: a two-letter shard over the build's byte budget is split
+    // by a third letter (dev@PrompTugal.dinis, 17 November 2026: 'co' and 're' had grown to 70 to 80 KB), so the longest
+    // listed key that starts the term wins; an index without three-letter keys behaves as before
+    const keyFor = (t, have) => (t.length >= 3 && have && have.has(t.slice(0, 3))) ? t.slice(0, 3) : t.slice(0, 2)
 
     /* ------------------------------------------------------------------ the build side: pages -> docs and shards */
 
@@ -92,6 +96,17 @@
             if (!/^[a-z0-9]{2}$/.test(k)) continue
             shards[k] = shards[k] || {}
             shards[k][t] = post.get(t).flat()
+        }
+        // split a two-letter shard over opts.maxShardBytes by the third letter; terms of two letters stay in it
+        if (opts.maxShardBytes) for (const k of Object.keys(shards)) {
+            if (JSON.stringify(shards[k]).length <= opts.maxShardBytes) continue
+            const keep = {}
+            for (const [t, list] of Object.entries(shards[k])) {
+                const k3 = t.slice(0, 3)
+                if (t.length < 3 || !/^[a-z0-9]{3}$/.test(k3)) { keep[t] = list; continue }
+                shards[k3] = shards[k3] || {}; shards[k3][t] = list
+            }
+            if (Object.keys(keep).length) shards[k] = keep; else delete shards[k]
         }
         const syn = {}
         for (const [w, list] of Object.entries(opts.synonyms || {})) {
@@ -180,15 +195,15 @@
                 return { w, forms, prefix: (w === pq.last && w.length >= 2) || w.length >= 4 ? w : null }
             })
             const keys = new Set()
-            for (const p of plan) { for (const [t] of p.forms) keys.add(shardOf(t)); if (p.prefix) keys.add(shardOf(p.prefix)) }
+            for (const p of plan) { for (const [t] of p.forms) keys.add(keyFor(t, have)); if (p.prefix) keys.add(keyFor(p.prefix, have)) }
             const shards = {}
-            await Promise.all([...keys].filter(k => k.length === 2).map(k => shard(k, have).then(s => { shards[k] = s.t || {} })))
+            await Promise.all([...keys].filter(k => k.length === 2 || k.length === 3).map(k => shard(k, have).then(s => { shards[k] = s.t || {} })))
             const N = d.docs.length
             const idf = df => Math.log(1 + (N - df + 0.5) / (df + 0.5))
             const perWord = plan.map(p => {
                 const best = new Map()   // doc -> score for this word
                 const add = (t, weight) => {
-                    const list = (shards[shardOf(t)] || {})[t]
+                    const list = (shards[keyFor(t, have)] || {})[t]
                     if (!list) return false
                     const f = idf(list.length / 2) * weight
                     for (let j = 0; j < list.length; j += 2) {
@@ -200,7 +215,7 @@
                 let exact = false
                 for (const [t, wt] of p.forms) exact = add(t, wt) || exact
                 if (p.prefix && (p.prefix === pq.last || !exact)) {
-                    const sh = shards[shardOf(p.prefix)] || {}
+                    const sh = shards[keyFor(p.prefix, have)] || {}
                     const cands = Object.keys(sh).filter(t => t !== stem(p.w) && t.startsWith(p.prefix)).sort((a, b) => sh[b].length - sh[a].length).slice(0, 80)
                     for (const t of cands) add(t, 0.75)
                 }
@@ -299,5 +314,5 @@
         }
     }
 
-    return { distance, suggest, STOP, FIELDS, TYPE_LABEL, TYPE_PLURAL, fold, words, stem, terms, shardOf, buildIndex, parseQuery, createEngine, keep, countFacets, mark, docObj, searchTool }
+    return { distance, suggest, STOP, FIELDS, TYPE_LABEL, TYPE_PLURAL, fold, words, stem, terms, shardOf, keyFor, buildIndex, parseQuery, createEngine, keep, countFacets, mark, docObj, searchTool }
 })

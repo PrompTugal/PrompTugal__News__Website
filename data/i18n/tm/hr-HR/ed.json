@@ -1,0 +1,34 @@
+{
+ "ed323ee2e8192c66": {
+  "t": "Algarve i njegovih 17 mjesta",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The Algarve and its 17 places",
+  "ok": false
+ },
+ "ed6a0a9ed23a077b": {
+  "t": "Gota Click2Care: pilot teleasistencije u župi za starije stanovnike Aljezura",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Gota Click2Care: a parish teleassistance pilot for Aljezur's",
+  "ok": false
+ },
+ "ed99e8c975b51dc9": {
+  "t": "Tavira, ó pá, gdje je rijeka mirnija od bilo koje serverske sobe, a sedam lukova vidjelo je više migracija od vašeg pružatelja oblaka.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Tavira, ó pá, where the river is calmer than any server room",
+  "ok": false
+ },
+ "eddff8f8e446bd17": {
+  "t": "U intervjuu iz ožujka 2024. IT voditelj općine Ayamonte rekao je da općina priprema virtualnog asistenta UI-ja za građane i tvrtke te planira inovacijsko čvorište vrijedno 2 do 3 milijuna eura o turizmu i digitalnoj potpori malim tvrtkama. Opisao je čvorište kao prvo koje uključuje Eurocidade, obuhvaćajući dijelove portugalskog Algarvea. To je vlastiti iskaz općine, bez datuma pokretanja, a nismo potvrdili je li čvorište realizirano.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "In a March 2024 interview, the IT manager of Ayamonte's coun",
+  "ok": false
+ }
+}

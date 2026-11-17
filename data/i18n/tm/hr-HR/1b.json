@@ -1,0 +1,50 @@
+{
+ "1b20915116109e4f": {
+  "t": "PrompTugal.news Vila Real de Santo António: umjetna inteligencija i tehnologija u VRSA-u, uredan pombalinski gradić s nogama u Guadiani i jednim okom u Španjolskoj, uz sve što nam stiže iz Algarvea, Portugala i svijeta. Neovisno, a svaka činjenica ima izvor, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Vila Real de Santo António: AI and technolog",
+  "ok": false
+ },
+ "1b40ab688416c336": {
+  "t": "Projekt UTAD-a razvija UI za pomoć pri trijaži u hitnim službama, uz događaj s 200 ljudi",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "UTAD project builds AI to help triage in emergency rooms, wi",
+  "ok": false
+ },
+ "1b5149ba4f0f71b7": {
+  "t": "Na završnoj sesiji u Portalegreu PACT je rekao da je program AIRA, financiran sredstvima EU-a, osposobio više od 500 ljudi za primjenu UI-ja u robotici. Tri ideje osvojile su tehnološke vaučere na njegovu natjecanju ideja, među njima sustav koji računalnim vidom i jezičnim modelima automatizira scensku rasvjetu i sustav za inspekciju zrakoplova pomoću računalnog vida.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "At a closing session in Portalegre, PACT said the EU-funded ",
+  "ok": false
+ },
+ "1b5f94fde02d4cb7": {
+  "t": "PrompTugal.news Beja, a capital do Baixo Alentejo: UI i tehnologija u Beji, sa sveučilištem kao mozgom u okrečenom gradu, uz sve vijesti koje stižu iz Alentejo, Portugala i svijeta. Independente, a svaka činjenica dolazi s računom.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Beja, a capital do Baixo Alentejo: AI and te",
+  "ok": false
+ },
+ "1babc44c91bf5cc8": {
+  "t": "PrompTugal.news Silves: umjetna inteligencija i tehnologija u Silvesu, prijestolnici naranči i staroj prijestolnici Algarvea, uz sve što se od UI-ja pojavi iz Algarvea, Portugala i svijeta. Neovisni smo, a svaka činjenica ima izvor, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Silves: AI and technology in Silves, the ora",
+  "ok": false
+ },
+ "1bd080c0c263efa5": {
+  "t": "Monchique je planinska općina čiju javnu agendu oblikuju šume i rizik od požara. Serra je teško stradala u požarima 2018., a istraživački projekt BRIDGE (IST, LNEC i Sveučilište u Algarveu, financiran od FCT-a, 2021. do 2024.) koristio je Monchique kao pilot-slučaj za smanjenje rizika od požara na razini zajednice, nakon čega je došao InnoBRIDGE financiran od AGIF-a. Požar u Marmeleteu 25. srpnja 2026. angažirao je gotovo stotinu djelatnika. Na tehnološkoj strani općina vodi poslovni inkubator, a njegov najpoznatiji stanar je Invisible CFO, fintech čiji proizvod koristi UI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Monchique is a mountain municipality whose public agenda is ",
+  "ok": false
+ }
+}

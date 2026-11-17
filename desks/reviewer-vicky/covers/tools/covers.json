@@ -83,5 +83,19 @@
    "AI"
   ],
   "tfig": "€51.49m"
+ },
+ {
+  "slug": "ai-physiotherapy-portugal-health-service",
+  "title": "AI physiotherapy at home",
+  "sub": "In Portugal's health service, free to patients",
+  "fig": "97% shorter wait",
+  "line": "to start treatment, a government estimate",
+  "src": "Figures: portugal.gov.pt, June 2026",
+  "alt": "A card: AI physiotherapy at home, in Portugal's national health service, free to patients. A 97% shorter wait to start treatment, a government estimate, from portugal.gov.pt.",
+  "ttitle": [
+   "AI physio",
+   "at home"
+  ],
+  "tfig": "Free"
  }
 ]

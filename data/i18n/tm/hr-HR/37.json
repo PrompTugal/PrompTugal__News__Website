@@ -1,0 +1,10 @@
+{
+ "375953d9a9efce76": {
+  "t": "PrompTugal.news {name}: istraživanje mjesta kako je poslužuje njegova stranica, s popisima provjerenima pri izgradnji (samo http(s) poveznice, priče od najnovije), s potvrđenim identitetom stranice",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news {name}: the place's research as served on it",
+  "ok": false
+ }
+}

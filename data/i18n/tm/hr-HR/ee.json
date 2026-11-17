@@ -1,0 +1,34 @@
+{
+ "ee4c08b01103b577": {
+  "t": "Poslovni ljudi okupljaju se na CNEMA-i da pitaju kako UI može podići izvoz",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Bosses meet at CNEMA to ask how AI can lift exports",
+  "ok": false
+ },
+ "ee729e277a3b251e": {
+  "t": "Nova bolnica Lusiadas u Faru najavljuje se kao izvorno UI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "New Lusiadas hospital in Faro is billed as native to AI",
+  "ok": false
+ },
+ "eee11811f1446db3": {
+  "t": "Despacho n.º 34/2026 traži od nastavnika i studenata da budu transparentni oko uporabe UI-ja, da je navedu u radovima i zaštite osobne podatke. Uslijedio je nakon radne skupine i 37 komentara akademske zajednice, a trebao bi se revidirati nakon drugog semestra.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Despacho n.º 34/2026 asks teachers and students to be transp",
+  "ok": false
+ },
+ "eef27e94e29eb6bc": {
+  "t": "FCT je odobrio projekt istraživanja modela UI-ja koji podupiru odluke o trijaži odraslih u hitnim prijemima, s ukupnim proračunom od oko 124 tisuće eura i partnerima uključujući pol UTAD-a pri INESC TEC-u, INEGI i jednu bolničku jedinicu iz Porta.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The FCT approved a project to explore AI models that support",
+  "ok": false
+ }
+}
