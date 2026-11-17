@@ -125,3 +125,10 @@ Checked and fine meanwhile: ScaleUp Porto's channel (the programme's email as pu
 |---|---|---|
 | `work/place.districts` | `58caf3989`: the nine capitals' site keys get unique ids (`-2`), files re-signed | **brought onto dev**: no duplicate ids left in board/keys.json, gate green. Closes the ask of 00:40 and 02:40 |
 | west, central, east, partner desks | nothing new | none |
+
+## The 04:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.districts` | new site keys (`-2` ids) for six capitals; third pass for Évora, Portalegre, Castelo Branco, Beja, Setúbal and Santarém; debrief, status, run report | **brought onto dev**: the two contact entries only point to the official pages (a council's gov.pt entity page, an incubator's own footer) without quoting a channel; no duplicate key ids; gate green |
+| west, central, east, partner desks | nothing new | none |
