@@ -35,6 +35,15 @@
   "ok": false,
   "from": "es-ES"
  },
+ "12d2a0d8f06a4e05": {
+  "t": "AICEP informa de que la décima edición de Web Summit se inauguró en Lisboa el 9 de noviembre con un mayor foco en la IA física. Robots humanoides de empresas chinas participan como ponentes oficiales, entre ellos un robot de dos brazos sobre ruedas de Galbot, concebido para turnos en tiendas, farmacias y fábricas. Asisten delegaciones del Ministerio de Comercio y de la Administración del Ciberespacio de China, y participan unas 300 startups brasileñas. El programa abarca agentes de IA, investigación asistida por IA, regulación digital y nuevos modelos de trabajo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "AICEP reports that the tenth Web Summit opened in Lisbon on ",
+  "ok": false,
+  "from": "es-ES"
+ },
  "12eab77e7612e4f8": {
   "t": "A planície é grande e nós ainda não vimos tudo. Esto es lo que Beja aún no nos ha contado:",
   "by": "translator@PrompTugal.dinis",

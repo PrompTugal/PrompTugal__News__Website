@@ -46,7 +46,8 @@ for (const id of ids) {
   if (d.kind !== 'media' || !d.media?.contact?.page || !d.media?.feeds?.length) { console.log('skip', id, '(no media record, contact page or feed)'); continue }
   const m = d.media, n = d.name, lang = m.language.includes('en') ? 'en' : 'pt'
   const placeId = (m.places_covered[0] || '').replace('place:', '')
-  const placeName = JSON.parse(fs.readFileSync(`data/by-place/${placeId}.json`, 'utf8')).name || placeId
+  const pf = `data/by-place/${placeId}.json`
+  const placeName = fs.existsSync(pf) ? (JSON.parse(fs.readFileSync(pf, 'utf8')).name || placeId) : placeId
   const placeUrl = `https://promptugal.news/portugal/${placeId}/`
   const placeHtml = fs.existsSync(`portugal/${placeId}/index.html`) ? fs.readFileSync(`portugal/${placeId}/index.html`, 'utf8') : ''
   const host = new URL(m.website).hostname.replace(/^www\./, '')

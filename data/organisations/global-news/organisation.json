@@ -1,0 +1,86 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "global-news",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Global News",
+  "names_as_listed": [
+    "Global News"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read.",
+  "media": {
+    "outlet_kind": "online",
+    "places_covered": [
+      "place:porto"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "http://globalnews.pt",
+    "owner": {
+      "name": "Alexandre Vítor Simões Bernardo",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "http://globalnews.pt/feed/",
+        "format": "rss",
+        "source": {
+          "url": "http://globalnews.pt/feed/",
+          "read_at": "2026-11-17",
+          "how": "checked by the researcher: HTTP 200, application/rss+xml, XML feed body"
+        }
+      }
+    ],
+    "contact": {
+      "page": "http://globalnews.pt/contactos/",
+      "source": {
+        "url": "http://globalnews.pt/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Alexandre Vítor Simões Bernardo",
+        "role": "Director (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126658 for 'Global News', Registo Definitivo, row on the periodicals sheet; seat Porto, Porto; owner and direction as listed. Outlet email column deliberately not recorded here."
+      },
+      {
+        "url": "http://globalnews.pt/",
+        "read_at": "2026-11-17",
+        "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 126658 for 'Global News', Registo Definitivo, row on the periodicals sheet; seat Porto, Porto; owner and direction as listed. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "http://globalnews.pt/",
+      "read_at": "2026-11-17",
+      "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

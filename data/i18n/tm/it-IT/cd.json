@@ -1,4 +1,12 @@
 {
+ "cd337f06fade32ec": {
+  "t": "Il programma di imprenditorialità del comune elenca le startup incontrate, tra cui AntAtlas (livello di contesto per agenti di programmazione IA), Braining (riabilitazione con IA dopo l'ictus), CAPTAIN (allenatore di basket con IA), PromoRealtor (IA per il marketing immobiliare), WiseWorld (IA che misura le competenze umane) e Planta Smart Homes (IA fisica per gli edifici). La pagina precisa che si tratta di alcune delle startup incontrate, non del totale.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The council's entrepreneurship programme lists startups it m",
+  "ok": false
+ },
  "cdb0370fb3ca2954": {
   "t": "Il quarto Congresso di Gestione e Imprenditorialità in Sanità, il 25 e 26 settembre nel polo fieristico CNEMA, ha inserito IA e trasformazione digitale tra i suoi temi, con un direttore strategico di Siemens Healthineers Portugal tra i relatori.",
   "by": "translator@PrompTugal.dinis",

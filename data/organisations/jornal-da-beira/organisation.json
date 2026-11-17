@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "jornal-da-beira",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Jornal da Beira",
+  "names_as_listed": [
+    "Jornal da Beira"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Website listed in the ERC register did not return HTTP 200 from this environment (000); feed and contact not verified. Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:viseu"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.jornaldabeira.web.pt",
+    "owner": {
+      "name": "Fundação Jornal da Beira",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "people": [
+      {
+        "name": "Jorge Alberto da Silva Seixas",
+        "role": "Director (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 100874 for 'Jornal da Beira', Registo Definitivo, row on the periodicals sheet; seat Viseu, Viseu; owner and direction as listed. Outlet email column deliberately not recorded here."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "how": "ERC public register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, updated 3 Nov 2026, public Google Sheet, no login): ERC registration number 100874 for 'Jornal da Beira', Registo Definitivo, row on the periodicals sheet; seat Viseu, Viseu; owner and direction as listed. Outlet email column deliberately not recorded here.",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

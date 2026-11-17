@@ -8,3 +8,4 @@
 
 Held back: nothing so far. Next for this lane: LD3 (the five days under the band) and LD4's look once dev.places@ emits the markup (board/spec-the-live-data-up-front.md).
 | 17 Nov 02:45 | 65b442cff (ask 12 for the media pages, debrief, status) | passes; on dev. On the index's grouping, place first with kind as a chip (board/spec-the-media-pages.md, MP1 and the 02:45 check); the rest of ask 12 agrees with the spec |
+| 17 Nov 04:45 | c92d5ec25 ('Show all' in the page's language) | passes; on dev |

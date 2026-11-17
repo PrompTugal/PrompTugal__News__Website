@@ -7,7 +7,7 @@
   "names_as_listed": [
     "RTP Notícias (Rádio e Televisão de Portugal)"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Masthead not read. Public email not extracted.",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Masthead not read. Public email not extracted. RTP tech and business reporters not identified ().",
   "media": {
     "outlet_kind": "tv",
     "places_covered": [
@@ -44,6 +44,18 @@
         "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
       }
     },
+    "people": [
+      {
+        "name": "Vítor Gonçalves",
+        "role": "Director of Information, RTP (per Wikipedia, RTP3 article)",
+        "source": {
+          "url": "https://pt.wikipedia.org/wiki/RTP_Not%C3%ADcias",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "channel direction"
+      }
+    ],
     "sources": [
       {
         "url": "https://www.rtp.pt/noticias",

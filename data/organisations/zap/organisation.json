@@ -7,7 +7,7 @@
   "names_as_listed": [
     "ZAP"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Email addresses on the page are obfuscated; not recorded. Redação names listed (Adriana Peixoto, Miguel Esteves, Nuno Teixeira da Silva, Soraia Ferreira, Teresa Oliveira Campos, Tomás Guimarães) without beats; not recorded as tech beat. ZAP tech items are bylined 'ZAP' or agencies (AFP); no tech reporter named in the RSS. (read ).",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Email addresses on the page are obfuscated; not recorded. Redação names listed (Adriana Peixoto, Miguel Esteves, Nuno Teixeira da Silva, Soraia Ferreira, Teresa Oliveira Campos, Tomás Guimarães) without beats; not recorded as tech beat. ZAP tech items are bylined 'ZAP' or agencies (AFP); no tech reporter named in the RSS. (read ). ZAP ficha técnica assigns no one to the Tecnologia section ().",
   "media": {
     "outlet_kind": "online",
     "places_covered": [
@@ -53,6 +53,76 @@
           "read_at": "2026-11-16",
           "how": "named by the outlet itself on this page"
         }
+      },
+      {
+        "name": "Armando José de Carvalho Batista",
+        "role": "Director (ERC register; ficha técnica \"Armando Batista\")",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "Adriana Peixoto",
+        "role": "Journalist (redação)",
+        "source": {
+          "url": "https://zap.aeiou.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "beat not stated"
+      },
+      {
+        "name": "Miguel Esteves",
+        "role": "Journalist (redação)",
+        "source": {
+          "url": "https://zap.aeiou.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "beat not stated"
+      },
+      {
+        "name": "Nuno Teixeira da Silva",
+        "role": "Journalist (redação)",
+        "source": {
+          "url": "https://zap.aeiou.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "beat not stated"
+      },
+      {
+        "name": "Soraia Ferreira",
+        "role": "Journalist (redação)",
+        "source": {
+          "url": "https://zap.aeiou.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "beat not stated"
+      },
+      {
+        "name": "Teresa Oliveira Campos",
+        "role": "Journalist (redação)",
+        "source": {
+          "url": "https://zap.aeiou.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "beat not stated"
+      },
+      {
+        "name": "Tomás Guimarães",
+        "role": "Journalist (redação)",
+        "source": {
+          "url": "https://zap.aeiou.pt/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "beat not stated"
       }
     ],
     "sources": [

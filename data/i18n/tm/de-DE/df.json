@@ -30,5 +30,13 @@
   "at": "2026-11-16",
   "src": "PrompTugal.news Santarém: AI and technology in Santarém, a d",
   "ok": true
+ },
+ "dff763ff9196306b": {
+  "t": "Am 28. Juni 2024 stellte der Auftragnehmer Softinsa, eine IBM-Tochter, der Stadtverwaltung die Ergebnisse eines sechswöchigen Proof of Concept mit der Plattform IBM watsonx vor. Dabei ging es um die mehr als 4.000 E-Mails pro Monat, die bei der Stadtverwaltung eingehen und an die zuständige Stelle weitergeleitet werden sollen. Älter als die Meldungen von 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "On 28 June 2024 the contractor Softinsa, an IBM subsidiary, ",
+  "ok": false
  }
 }
