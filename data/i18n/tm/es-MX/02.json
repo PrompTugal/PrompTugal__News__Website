@@ -34,5 +34,14 @@
   "src": "The city's digital body Porto Digital presented AI research ",
   "ok": false,
   "from": "es-ES"
+ },
+ "02f1a682005c5cfd": {
+  "t": "ScaleUp Porto cita 13 startups vinculadas a Oporto con las que se reunió en Web Summit 2026, seis de ellas de IA",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "ScaleUp Porto names 13 Porto-linked startups it met at Web S",
+  "ok": false,
+  "from": "es-ES"
  }
 }

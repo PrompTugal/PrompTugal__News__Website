@@ -1,4 +1,13 @@
 {
+ "581d3ea310737759": {
+  "t": "Coimbra tritt erstmals gemeinsam auf dem Web Summit auf, mit der neuen Agentur Go Coimbra und vier Startups",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Coimbra takes its first joint stand to Web Summit, with the ",
+  "ok": false,
+  "from": "de-DE"
+ },
  "582d1192093c3585": {
   "t": "Bei der Sitzung zum Gemeindetag der Stadtverwaltung am 24. Juni 2026 stellte das Softwareunternehmen Mind ein gestuftes digitales Stadtplanungsprojekt vor. Das Dokumentensystem wird jetzt eingeführt. Eine spätere Phase ergänzt einen Online-Planungsdienst mit KI, der Menschen hilft, Anträge zu vervollständigen, bevor sie die Mitarbeitenden der Verwaltung erreichen. Die Termine sind der eigene Plan des Anbieters.",
   "by": "translator@PrompTugal.dinis",
