@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: LIB, The library (part 4 of 4)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T03:58:59Z"
-site_version: "v0.1.1687"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T06:58:43Z"
+site_version: "v0.1.1699"
 source: board/catalogue.json
 ---
 
 # Shelf list: LIB, The library (part 4 of 4)
 
-57 cards, from `LIB.STOCK 2026-11-07-1259` to `LIB.STOCK weeding`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+58 cards, from `LIB.STOCK 2026-11-07-1258` to `LIB.STOCK weeding`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 301 to 325**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `LIB.STOCK 2026-11-07-1258` | [Stocktake of the library, catalogue of 2026-11-07T12:58:59Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-07-1258.md) (withdrawn) | team | librarian@ 7 Nov 2026 |
 | `LIB.STOCK 2026-11-07-1259` | [Stocktake of the library, catalogue of 2026-11-07T12:59:26Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-07-1259.md) (withdrawn) | team | librarian@ 7 Nov 2026 |
 | `LIB.STOCK 2026-11-07-1558` | [Stocktake of the library, catalogue of 2026-11-07T15:58:38Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-07-1558.md) (withdrawn) | team | librarian@ 7 Nov 2026 |
 | `LIB.STOCK 2026-11-07-1559` | [Stocktake of the library, catalogue of 2026-11-07T15:59:42Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-07-1559.md) (withdrawn) | team | librarian@ 7 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `LIB.STOCK 2026-11-09-2157` | [Stocktake of the library, catalogue of 2026-11-09T21:57:52Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-09-2157.md) (withdrawn) | team | librarian@ 9 Nov 2026 |
 | `LIB.STOCK 2026-11-09-later-ideas-triggers` | [The ledger's Later list against its triggers, 9 November 2026](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-09-later-ideas-triggers.md) | team | librarian@ 9 Nov 2026 |
 | `LIB.STOCK 2026-11-09-not-captured-ideas-rechecked` | [The ideas the ledger listed as not captured, rechecked three days later](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-09-not-captured-ideas-rechecked.md) | team | librarian@ 9 Nov 2026 |
-| `LIB.STOCK 2026-11-10-0658` | [Stocktake of the library, catalogue of 2026-11-10T06:58:57Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-10-0658.md) (withdrawn) | team | librarian@ 10 Nov 2026 |
 
 **Cards 326 to 350**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `LIB.STOCK 2026-11-10-0658` | [Stocktake of the library, catalogue of 2026-11-10T06:58:57Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-10-0658.md) (withdrawn) | team | librarian@ 10 Nov 2026 |
 | `LIB.STOCK 2026-11-10-0659` | [Stocktake of the library, catalogue of 2026-11-10T06:59:54Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-10-0659.md) (withdrawn) | team | librarian@ 10 Nov 2026 |
 | `LIB.STOCK 2026-11-10-0957` | [Stocktake of the library, catalogue of 2026-11-10T09:57:31Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-10-0957.md) (withdrawn) | team | librarian@ 10 Nov 2026 |
 | `LIB.STOCK 2026-11-10-0958` | [Stocktake of the library, catalogue of 2026-11-10T09:58:35Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-10-0958.md) (withdrawn) | team | librarian@ 10 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `LIB.STOCK 2026-11-11-1558` | [Stocktake of the library, catalogue of 2026-11-11T15:58:37Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-1558.md) (withdrawn) | team | librarian@ 11 Nov 2026 |
 | `LIB.STOCK 2026-11-11-1559` | [Stocktake of the library, catalogue of 2026-11-11T15:59:58Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-1559.md) (withdrawn) | team | librarian@ 11 Nov 2026 |
 | `LIB.STOCK 2026-11-11-1900` | [Stocktake of the library, catalogue of 2026-11-11T19:00:03Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-1900.md) (withdrawn) | team | librarian@ 11 Nov 2026 |
-| `LIB.STOCK 2026-11-11-1901` | [Stocktake of the library, catalogue of 2026-11-11T19:01:06Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-1901.md) (withdrawn) | team | librarian@ 11 Nov 2026 |
 
-**Cards 351 to 357**
+**Cards 351 to 358**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `LIB.STOCK 2026-11-11-1901` | [Stocktake of the library, catalogue of 2026-11-11T19:01:06Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-1901.md) (withdrawn) | team | librarian@ 11 Nov 2026 |
 | `LIB.STOCK 2026-11-11-2157` | [Stocktake of the library, catalogue of 2026-11-11T21:57:53Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-2157.md) (withdrawn) | team | librarian@ 11 Nov 2026 |
 | `LIB.STOCK 2026-11-11-2158` | [Stocktake of the library, catalogue of 2026-11-11T21:58:53Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-11-2158.md) (withdrawn) | team | librarian@ 11 Nov 2026 |
 | `LIB.STOCK 2026-11-12-0057` | [Stocktake of the library, catalogue of 2026-11-12T00:57:39Z](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-12-0057.md) (withdrawn) | team | librarian@ 12 Nov 2026 |

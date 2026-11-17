@@ -1,37 +1,38 @@
 ---
 title: "The agents' life and keys: who holds which key, who last worked when"
 by: librarian@PrompTugal.dinis
-generated: 2026-11-17T03:58:59Z
+generated: 2026-11-17T06:58:43Z
 source: board/keys.json, git log (the agents' own commits, 7 days), board/team/*/status.json; board/team/librarian/life.mjs; never hand-edited
 ---
 # The agents' life and keys
 
-Dinis, 9 November 2026 (`board/guidance/2026-11-09-how-we-work.md`): every device, installation and application has its own key, mapped; a scheduled agent idle for a while is stopped, one silent for about a day archived. This is the map; it changes nothing. 95 agents, 206 keys (122 active), 30 flagged. "Silent" counts from the agent's last own commit; an agent paused or stopped is silent on purpose: its state comes from account B's live record (`board/team/conductor.b/account-b.json`), else the summit set's list.
+Dinis, 9 November 2026 (`board/guidance/2026-11-09-how-we-work.md`): every device, installation and application has its own key, mapped; a scheduled agent idle for a while is stopped, one silent for about a day archived. This is the map; it changes nothing. 95 agents, 216 keys (122 active), 30 flagged. "Silent" counts from the agent's last own commit; an agent paused or stopped is silent on purpose: its state comes from account B's live record (`board/team/conductor.b/account-b.json`), else the summit set's list.
 
 | Agent | Active key | Superseded | Last own commit on dev (UTC) | Commits, 7 days | status.json updated | Flags | Note |
 |---|---|---|---|---|---|---|---|
-| conductor.b@PrompTugal.dinis | `conductor.b-promptugal` |  | 2026-11-17 03:50Z | 73 | 2026-11-17T03:52Z |  |  |
-| journalist@PrompTugal.dinis | `journalist-promptugal` | 2 | 2026-11-17 03:41Z | 16 | 2026-11-17T03:50Z |  | account B: stopped (kept paused at the restart (journalist: another session runs the role; dev.verify: no Open) |
-| outreach@PrompTugal.dinis | `outreach-c-promptugal` | 2 | 2026-11-17 03:39Z | 5 | 2026-11-17T03:50Z |  | account B: paused (paused 00:52 UTC 8 Nov at Dinis's word (idle: the 50 wait for him)) |
-| abp@PrompTugal.dinis | `abp-promptugal-c` | 2 | 2026-11-17 03:37Z | 29 | 2026-11-17T03:50Z |  |  |
-| dev@PrompTugal.dinis | `dev-promptugal` | 2 | 2026-11-17 03:11Z | 154 | 2026-11-17T03:25Z |  | account B: on |
-| place.districts@PrompTugal.dinis | `place.districts-promptugal`, `site.aveiro-promptugal`, `site.castelo-branco-promptugal`, `site.leiria-promptugal`, `site.santarem-promptugal`, `site.portalegre-promptugal`, `site.setubal-promptugal`, `site.evora-promptugal`, `site.beja-promptugal`, `site.lisboa-promptugal-2`, `site.porto-promptugal-2`, `site.coimbra-promptugal-2`, `site.braga-promptugal-2`, `site.viana-do-castelo-promptugal-2`, `site.vila-real-promptugal-2`, `site.braganca-promptugal-2`, `site.viseu-promptugal-2`, `site.guarda-promptugal-2` | 9 | 2026-11-17 02:52Z | 36 | 2026-11-17T03:00Z |  | 18 active keys, one per purpose (Dinis: a key for every application) |
-| designer@PrompTugal.dinis | `designer-promptugal-4` | 3 | 2026-11-17 02:35Z | 35 | 2026-11-17T02:50Z |  | account B: on |
-| ontologist@PrompTugal.dinis | `ontologist-promptugal` | 2 | 2026-11-17 02:22Z | 36 | 2026-11-17T02:40Z |  | account B: on |
-| datasci.places@PrompTugal.dinis | `datasci.places-promptugal-b` | 1 | 2026-11-17 02:17Z | 17 | 2026-11-17T02:17Z |  |  |
-| dev.places@PrompTugal.dinis | `dev.places-promptugal-2` | 1 | 2026-11-17 02:14Z | 65 | 2026-11-17T02:40Z |  |  |
-| security@PrompTugal.dinis | `security-promptugal-2` | 1 | 2026-11-17 02:04Z | 51 | 2026-11-17T02:10Z |  |  |
+| librarian@PrompTugal.dinis | `librarian-promptugal` | 2 | 2026-11-17 06:56Z | 28 | 2026-11-17T04:16Z |  | account B: on |
+| conductor.b@PrompTugal.dinis | `conductor.b-promptugal` |  | 2026-11-17 06:52Z | 73 | 2026-11-17T06:53Z |  |  |
+| journalist@PrompTugal.dinis | `journalist-promptugal` | 2 | 2026-11-17 06:42Z | 17 | 2026-11-17T06:55Z |  | account B: stopped (kept paused at the restart (journalist: another session runs the role; dev.verify: no Open) |
+| outreach@PrompTugal.dinis | `outreach-c-promptugal` | 2 | 2026-11-17 06:39Z | 6 | 2026-11-17T06:55Z |  | account B: paused (paused 00:52 UTC 8 Nov at Dinis's word (idle: the 50 wait for him)) |
+| place.districts@PrompTugal.dinis | `place.districts-promptugal-2`, `site.aveiro-promptugal-2`, `site.leiria-promptugal-2`, `site.lisboa-promptugal-2`, `site.porto-promptugal-2`, `site.coimbra-promptugal-2`, `site.braga-promptugal-2`, `site.viana-do-castelo-promptugal-2`, `site.vila-real-promptugal-2`, `site.braganca-promptugal-2`, `site.viseu-promptugal-2`, `site.guarda-promptugal-2`, `site.santarem-promptugal-2`, `site.castelo-branco-promptugal-2`, `site.portalegre-promptugal-2`, `site.setubal-promptugal-2`, `site.evora-promptugal-2`, `site.beja-promptugal-2` | 18 | 2026-11-17 06:39Z | 45 | 2026-11-17T07:05Z |  | 18 active keys, one per purpose (Dinis: a key for every application) |
+| abp@PrompTugal.dinis | `abp-promptugal-c` | 2 | 2026-11-17 06:37Z | 32 | 2026-11-17T06:50Z |  |  |
+| designer@PrompTugal.dinis | `designer-promptugal-4` | 3 | 2026-11-17 06:34Z | 36 | 2026-11-17T06:50Z |  | account B: on |
+| place.algarve.west@PrompTugal.dinis | `place.algarve.west-promptugal` |  | 2026-11-17 06:23Z | 15 | 2026-11-17T06:50Z |  |  |
+| ontologist@PrompTugal.dinis | `ontologist-promptugal` | 2 | 2026-11-17 06:23Z | 37 | 2026-11-17T06:40Z |  | account B: on |
+| dev@PrompTugal.dinis | `dev-promptugal` | 2 | 2026-11-17 06:12Z | 158 | 2026-11-17T06:20Z |  | account B: on |
+| security@PrompTugal.dinis | `security-promptugal-2` | 1 | 2026-11-17 06:04Z | 51 | 2026-11-17T06:10Z |  |  |
+| datasci.places@PrompTugal.dinis | `datasci.places-promptugal-b` | 1 | 2026-11-17 05:17Z | 20 | 2026-11-17T05:17Z |  |  |
+| dev.places@PrompTugal.dinis | `dev.places-promptugal-2` | 1 | 2026-11-17 05:15Z | 68 | 2026-11-17T05:45Z |  |  |
+| designer.places@PrompTugal.dinis | `designer.places-2-promptugal` | 1 | 2026-11-17 04:58Z | 36 | 2026-11-17T05:10Z |  |  |
+| researcher@PrompTugal.dinis | `researcher-promptugal` | 2 | 2026-11-17 04:54Z | 2 | 2026-11-08T01:30Z |  | account B: paused (paused 02:04 UTC 8 Nov at Dinis's word ('stop all')) |
+| translator@PrompTugal.dinis | `translator-promptugal-2` | 1 | 2026-11-17 04:00Z | 26 | 2026-11-17T04:10Z |  |  |
 | place.algarve.east@PrompTugal.dinis | `place.algarve.east-promptugal`, `site.tavira-promptugal-2`, `site.castro-marim-promptugal-2`, `site.vila-real-de-santo-antonio-promptugal-2`, `site.alcoutim-promptugal-2`, `site.algarve-promptugal-2` |  | 2026-11-17 01:38Z | 8 | 2026-11-17T01:50Z |  | 6 active keys, one per purpose (Dinis: a key for every application) |
 | place.algarve.central@PrompTugal.dinis | `place.algarve.central-promptugal`, `site.albufeira-promptugal`, `site.loule-promptugal`, `site.quarteira-promptugal`, `site.faro-promptugal`, `site.sao-bras-de-alportel-promptugal`, `site.olhao-promptugal` |  | 2026-11-17 01:26Z | 4 | 2026-11-17T01:35Z |  | 7 active keys, one per purpose (Dinis: a key for every application) |
-| librarian@PrompTugal.dinis | `librarian-promptugal` | 2 | 2026-11-17 01:00Z | 24 | 2026-11-17T01:12Z |  | account B: on |
-| translator@PrompTugal.dinis | `translator-promptugal-2` | 1 | 2026-11-17 00:59Z | 25 | 2026-11-17T01:05Z |  |  |
-| designer.places@PrompTugal.dinis | `designer.places-2-promptugal` | 1 | 2026-11-17 00:54Z | 33 | 2026-11-17T01:10Z |  |  |
-| conductor@PrompTugal.dinis | `conductor-promptugal` |  | 2026-11-17 00:10Z | 107 | 2026-11-16T15:35Z |  |  |
+| conductor@PrompTugal.dinis | `conductor-promptugal` |  | 2026-11-17 00:10Z | 103 | 2026-11-16T15:35Z |  |  |
 | local@PrompTugal.jose | `local-jose-promptugal` |  | 2026-11-16 23:55Z | 6 |  |  |  |
-| place.algarve.west@PrompTugal.dinis | `place.algarve.west-promptugal` |  | 2026-11-16 23:23Z | 13 | 2026-11-16T23:40Z |  |  |
 | conductor@PrompTugal.jose | `conductor-jose-promptugal` |  | 2026-11-16 23:08Z | 8 |  |  |  |
-| correspondent@PrompTugal.dinis | `correspondent-promptugal` | 2 | 2026-11-16 22:44Z | 38 | 2026-11-16T22:44Z |  | account B: on |
-| sherpa@PrompTugal.dinis | `sherpa-promptugal-3` | 2 | 2026-11-16 21:30Z | 21 | 2026-11-16T21:40Z |  | account B: on |
+| correspondent@PrompTugal.dinis | `correspondent-promptugal` | 2 | 2026-11-16 22:44Z | 37 | 2026-11-16T22:44Z |  | account B: on |
+| sherpa@PrompTugal.dinis | `sherpa-promptugal-3` | 2 | 2026-11-16 21:30Z | 20 | 2026-11-16T21:40Z |  | account B: on |
 | reviewer@PrompTugal.vicky | `reviewer-vicky-promptugal-3` | 3 | 2026-11-16 21:18Z | 249 |  |  |  |
 | journalist-portugal@PrompTugal.vicky | `journalist-portugal-vicky-promptugal-c` | 2 | 2026-11-16 21:08Z | 44 |  |  |  |
 | place.albufeira@PrompTugal.dinis | `place.albufeira-promptugal` |  | 2026-11-16 20:16Z | 8 | 2026-11-16T20:15Z |  |  |
@@ -41,13 +42,12 @@ Dinis, 9 November 2026 (`board/guidance/2026-11-09-how-we-work.md`): every devic
 | place.olhao@PrompTugal.dinis | `place.olhao-promptugal` | 1 | 2026-11-16 20:10Z | 12 | 2026-11-16T20:15Z |  |  |
 | place.tavira@PrompTugal.dinis | `place.tavira-promptugal` | 1 | 2026-11-16 20:10Z | 32 | 2026-11-16T20:15Z |  |  |
 | place.castro-marim@PrompTugal.dinis | `place.castro-marim-promptugal` | 1 | 2026-11-16 20:10Z | 11 | 2026-11-16T20:15Z |  |  |
-| researcher@PrompTugal.dinis | `researcher-promptugal` | 1 | 2026-11-16 19:32Z | 1 | 2026-11-08T01:30Z |  | account B: paused (paused 02:04 UTC 8 Nov at Dinis's word ('stop all')) |
 | place.vila-real-de-santo-antonio@PrompTugal.dinis | `place.vila-real-de-santo-antonio-promptugal` | 1 | 2026-11-16 15:40Z | 25 | 2026-11-16T15:40Z |  |  |
 | curator@PrompTugal.vicky | `curator-vicky-3-promptugal` | 3 | 2026-11-16 15:38Z | 126 |  |  |  |
 | place.quarteira@PrompTugal.dinis | `place.quarteira-promptugal` | 1 | 2026-11-16 15:34Z | 15 | 2026-11-16T16:10Z |  |  |
 | data.places@PrompTugal.dinis | `data.places-promptugal` |  | 2026-11-16 15:33Z | 53 | 2026-11-16T15:45Z |  |  |
 | place.silves@PrompTugal.dinis | `place.silves-promptugal`, `site.silves-promptugal` |  | 2026-11-16 15:33Z | 14 | 2026-11-16T15:45Z |  | 2 active keys, one per purpose (Dinis: a key for every application) |
-| accountant@PrompTugal.dinis | `accountant-promptugal` |  | 2026-11-16 15:28Z | 27 | 2026-11-16T15:45Z |  |  |
+| accountant@PrompTugal.dinis | `accountant-promptugal` |  | 2026-11-16 15:28Z | 26 | 2026-11-16T15:45Z |  |  |
 | place.aljezur@PrompTugal.dinis | `place.aljezur-promptugal`, `site.aljezur-promptugal` |  | 2026-11-16 15:28Z | 21 | 2026-11-16T15:35Z |  | 2 active keys, one per purpose (Dinis: a key for every application) |
 | place.portimao@PrompTugal.dinis | `place.portimao-promptugal`, `site.portimao-promptugal` |  | 2026-11-16 15:28Z | 21 | 2026-11-16T15:40Z |  | 2 active keys, one per purpose (Dinis: a key for every application) |
 | place.alcoutim@PrompTugal.dinis | `place.alcoutim-promptugal` | 1 | 2026-11-16 15:28Z | 14 | 2026-11-16T15:40Z |  |  |
@@ -62,33 +62,33 @@ Dinis, 9 November 2026 (`board/guidance/2026-11-09-how-we-work.md`): every devic
 | designer@PrompTugal.vicky | `designer-vicky-promptugal` |  | 2026-11-16 12:46Z | 7 |  |  |  |
 | analyst@PrompTugal.vicky | `analyst-vicky-promptugal` |  | 2026-11-16 12:44Z | 13 |  |  |  |
 | checker@PrompTugal.vicky | `checker-vicky-promptugal-c` | 2 | 2026-11-16 10:18Z | 16 |  |  |  |
-| conductor@web-summit.dinis | none |  | 2026-11-16 00:33Z | 44 |  |  | keys on the team's site (SGit-AI__Website__Web-Summit), not here; its agents are off at that team's and Dinis's call (the summit set) |
-| dev@PrompTugal.vicky | `dev-vicky-promptugal-c` | 2 | 2026-11-15 13:16Z | 53 |  | silent 39 h |  |
+| conductor@web-summit.dinis | none |  | 2026-11-16 00:33Z | 41 |  |  | keys on the team's site (SGit-AI__Website__Web-Summit), not here; its agents are off at that team's and Dinis's call (the summit set) |
+| dev@PrompTugal.vicky | `dev-vicky-promptugal-c` | 2 | 2026-11-15 13:16Z | 53 |  | silent 42 h |  |
 | conductor@web-summit.vicky | `conductor-vicky-3-promptugal` | 1 | 2026-11-14 18:48Z | 14 |  |  | keys on the team's site (SGit-AI__Website__Web-Summit), not here; its agents are off at that team's and Dinis's call (the summit set) |
-| journalist-ai@PrompTugal.vicky | `journalist-ai-vicky-promptugal-2` | 2 | 2026-11-14 14:10Z | 45 |  | silent 62 h |  |
-| reporter@PrompTugal.vicky | `reporter-vicky-promptugal` |  | 2026-11-14 10:37Z | 1 |  | silent 65 h |  |
+| journalist-ai@PrompTugal.vicky | `journalist-ai-vicky-promptugal-2` | 2 | 2026-11-14 14:10Z | 45 |  | silent 65 h |  |
+| reporter@PrompTugal.vicky | `reporter-vicky-promptugal` |  | 2026-11-14 10:37Z | 1 |  | silent 68 h |  |
 | internal@web-summit.vicky | none |  | 2026-11-14 10:36Z | 1 |  |  | keys on the team's site (SGit-AI__Website__Web-Summit), not here; its agents are off at that team's and Dinis's call (the summit set) |
-| journalist-europe@PrompTugal.vicky | `journalist-europe-vicky-promptugal-c` | 2 | 2026-11-13 16:40Z | 29 |  | silent 83 h |  |
-| social.watch@PrompTugal.dinis | `social-watch-promptugal` |  | 2026-11-12 14:53Z | 39 | 2026-11-12T14:53Z | silent 109 h |  |
-| jornal@PrompTugal.silvio | `jornal-silvio-promptugal` |  | 2026-11-12 14:11Z | 18 |  | silent 110 h |  |
-| conductor.B@PrompTugal.vicky | `conductor.B.vicky-promptugal` |  | 2026-11-12 12:51Z | 106 |  | silent 111 h |  |
-| conductor.android@promptugal.ai.dinis | none |  | 2026-11-12 12:26Z | 28 |  | commits with no active key; silent 112 h |  |
-| weather@PrompTugal.vicky | `weather-vicky-promptugal` |  | 2026-11-12 08:49Z | 108 |  | silent 115 h |  |
-| programme@PrompTugal.vicky | none | 3 | 2026-11-12 07:03Z | 36 |  | commits with no active key; silent 117 h |  |
-| reporter.newsroom@PrompTugal.dinis | `reporter.newsroom-promptugal` |  | 2026-11-12 00:30Z | 28 | 2026-11-12T00:45Z | silent 123 h |  |
-| journalist.newsroom@PrompTugal.dinis | `journalist.newsroom-promptugal` |  | 2026-11-11 22:01Z | 26 | 2026-11-11T22:20Z | silent 126 h |  |
-| journalist@PrompTugal.vicky | none | 3 | 2026-11-11 20:30Z | 56 |  | commits with no active key; silent 127 h |  |
-| journalist-connections@PrompTugal.vicky | `journalist-connections-vicky-promptugal-c` | 2 | 2026-11-11 19:16Z | 22 |  | silent 129 h |  |
-| observability@PrompTugal.dinis | `observability-promptugal`, `claims-issuer-promptugal` |  | 2026-11-11 18:21Z | 2 | 2026-11-11T18:30Z | silent 130 h | 2 active keys, one per purpose (Dinis: a key for every application) |
-| conductor.fringe@PrompTugal.angelo | `conductor.fringe-angelo` |  | 2026-11-11 11:30Z | 1 |  | silent 136 h |  |
-| conductor.fringe@PrompTugal.vicky | `conductor.fringe-vicky` |  | 2026-11-11 11:04Z | 1 |  | silent 137 h |  |
-| conductor.fringe@PrompTugal.dinis | `conductor.fringe-promptugal` | 1 | 2026-11-11 10:47Z | 2 |  | silent 137 h |  |
-| conductor.B@ios.PrompTugal.dinis | none |  | 2026-11-11 10:44Z | 1 |  | commits with no active key; silent 137 h |  |
-| writer@PrompTugal.jose | `writer-jose-promptugal` |  | 2026-11-11 00:43Z | 2 |  | silent 147 h |  |
+| journalist-europe@PrompTugal.vicky | `journalist-europe-vicky-promptugal-c` | 2 | 2026-11-13 16:40Z | 29 |  | silent 86 h |  |
+| social.watch@PrompTugal.dinis | `social-watch-promptugal` |  | 2026-11-12 14:53Z | 39 | 2026-11-12T14:53Z | silent 112 h |  |
+| jornal@PrompTugal.silvio | `jornal-silvio-promptugal` |  | 2026-11-12 14:11Z | 16 |  | silent 113 h |  |
+| conductor.B@PrompTugal.vicky | `conductor.B.vicky-promptugal` |  | 2026-11-12 12:51Z | 106 |  | silent 114 h |  |
+| conductor.android@promptugal.ai.dinis | none |  | 2026-11-12 12:26Z | 25 |  | commits with no active key; silent 115 h |  |
+| weather@PrompTugal.vicky | `weather-vicky-promptugal` |  | 2026-11-12 08:49Z | 108 |  | silent 118 h |  |
+| programme@PrompTugal.vicky | none | 3 | 2026-11-12 07:03Z | 34 |  | commits with no active key; silent 120 h |  |
+| reporter.newsroom@PrompTugal.dinis | `reporter.newsroom-promptugal` |  | 2026-11-12 00:30Z | 28 | 2026-11-12T00:45Z | silent 126 h |  |
+| journalist.newsroom@PrompTugal.dinis | `journalist.newsroom-promptugal` |  | 2026-11-11 22:01Z | 26 | 2026-11-11T22:20Z | silent 129 h |  |
+| journalist@PrompTugal.vicky | none | 3 | 2026-11-11 20:30Z | 56 |  | commits with no active key; silent 130 h |  |
+| journalist-connections@PrompTugal.vicky | `journalist-connections-vicky-promptugal-c` | 2 | 2026-11-11 19:16Z | 22 |  | silent 132 h |  |
+| observability@PrompTugal.dinis | `observability-promptugal`, `claims-issuer-promptugal` |  | 2026-11-11 18:21Z | 2 | 2026-11-11T18:30Z | silent 133 h | 2 active keys, one per purpose (Dinis: a key for every application) |
+| conductor.fringe@PrompTugal.angelo | `conductor.fringe-angelo` |  | 2026-11-11 11:30Z | 1 |  | silent 139 h |  |
+| conductor.fringe@PrompTugal.vicky | `conductor.fringe-vicky` |  | 2026-11-11 11:04Z | 1 |  | silent 140 h |  |
+| conductor.fringe@PrompTugal.dinis | `conductor.fringe-promptugal` | 1 | 2026-11-11 10:47Z | 2 |  | silent 140 h |  |
+| conductor.B@ios.PrompTugal.dinis | none |  | 2026-11-11 10:44Z | 1 |  | commits with no active key; silent 140 h |  |
+| writer@PrompTugal.jose | `writer-jose-promptugal` |  | 2026-11-11 00:43Z | 2 |  | silent 150 h |  |
 | journalist@web-summit.indi | none |  | 2026-11-10 22:27Z | 1 |  |  | keys on the team's site (SGit-AI__Website__Web-Summit), not here; its agents are off at that team's and Dinis's call (the summit set) |
 | conductor-newsapp@web-summit.indi | none |  | 2026-11-10 22:19Z | 3 |  |  | keys on the team's site (SGit-AI__Website__Web-Summit), not here; its agents are off at that team's and Dinis's call (the summit set) |
 | conductor@web-summit.indi | none |  | 2026-11-10 17:21Z | 4 |  |  | keys on the team's site (SGit-AI__Website__Web-Summit), not here; its agents are off at that team's and Dinis's call (the summit set) |
-| writer@PrompTugal.angelo | `writer-angelo-promptugal` |  | 2026-11-10 08:49Z | 2 |  | silent 163 h |  |
+| writer@PrompTugal.angelo | `writer-angelo-promptugal` |  | 2026-11-10 08:49Z | 2 |  | silent 166 h |  |
 | designer.experiments@PrompTugal.dinis | `designer.experiments-b-promptugal` | 1 |  |  | 2026-11-07T23:05Z |  | account B: paused (paused 02:04 UTC 8 Nov at Dinis's word ('stop all')) |
 | synthetic@PrompTugal.dinis | `synthetic-promptugal` | 1 |  |  | 2026-11-08T00:55Z | a key, no commit in 7 days | account B: paused (paused 02:04 UTC 8 Nov at Dinis's word ('stop all')) |
 | historian@PrompTugal.dinis | `historian-b-promptugal` | 1 |  |  | 2026-11-07T02:40Z | a key, no commit in 7 days | account B: none () |

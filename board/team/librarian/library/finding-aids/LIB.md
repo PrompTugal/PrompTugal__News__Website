@@ -1,12 +1,12 @@
 ---
 title: "Finding aid: The library"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T03:58:59Z"
-site_version: "v0.1.1687"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T06:58:43Z"
+site_version: "v0.1.1699"
 source: board/catalogue.json
 ---
 
-# The library (357 cards)
+# The library (358 cards)
 
 The library itself: its commission, architecture, catalogue, authority file, reality tree, desk and this finding aid. Kept by librarian@.
 
@@ -29,7 +29,7 @@ By call number: the catalogue, authority file, documents, desk and reality tree 
 | `LIB.AUTH` | authority files | 18 | [team/librarian/library/authority/](https://promptugal.news/board/team/librarian/library/authority/), [team/librarian/library/indexes/](https://promptugal.news/board/team/librarian/library/indexes/) |
 | `LIB.CAT` | catalogue and accession | 81 | [catalogue.mjs](https://promptugal.news/board/team/librarian/catalogue.mjs), [jump.json](https://promptugal.news/board/team/librarian/jump.json) |
 | `LIB.DESK` | the reference desk | 24 | [Call slip SLIP-20261106-001](https://promptugal.news/board/team/librarian/library/desk/slips/SLIP-20261106-001.md), [Call slip SLIP-20261106-002](https://promptugal.news/board/team/librarian/library/desk/slips/SLIP-20261106-002.md) |
-| `LIB.DOC` | the library's documents | 134 | [What waits on Dinis, and every agent that is blocked](https://promptugal.news/board/team/librarian/waits-on-dinis.md), [librarian@PrompTugal.dinis: hand-over debrief, 6 November 2026](https://promptugal.news/board/team/librarian/debriefs/2026-11-06-handover.md) |
+| `LIB.DOC` | the library's documents | 135 | [What waits on Dinis, and every agent that is blocked](https://promptugal.news/board/team/librarian/waits-on-dinis.md), [librarian@PrompTugal.dinis: hand-over debrief, 6 November 2026](https://promptugal.news/board/team/librarian/debriefs/2026-11-06-handover.md) |
 | `LIB.REAL` | the reality tree | 28 | [Agents: the team, keys, inboxes, ABP: EXISTS](https://promptugal.news/board/team/librarian/library/reality/agents/index.md), [Build, gate, CI and release: EXISTS](https://promptugal.news/board/team/librarian/library/reality/build-and-ci/index.md) |
 | `LIB.STOCK` | stocktake | 72 | [Q8: the night memos checked against the ideas ledger](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-07-q8-memos-against-the-ledger.md), [The ledger's Later list against its triggers, 9 November 2026](https://promptugal.news/board/team/librarian/library/stocktake/2026-11-09-later-ideas-triggers.md) |
 
@@ -39,8 +39,8 @@ The shelf list (the cards in call-number order, 25 to a table): [part 1](../shel
 
 ## See also
 
-- [Agents, roles, keys](TEAM.md) (254 connections from this collection)
-- [Work in hand](WRK.md) (53 connections from this collection)
+- [Agents, roles, keys](TEAM.md) (258 connections from this collection)
+- [Work in hand](WRK.md) (51 connections from this collection)
 - [Guidance (special)](GDN.md) (29 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph
 

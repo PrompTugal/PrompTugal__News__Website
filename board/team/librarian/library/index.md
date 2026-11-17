@@ -1,14 +1,14 @@
 ---
 title: "The library of PrompTugal.news"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T03:58:59Z"
-site_version: "v0.1.1687"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T06:58:43Z"
+site_version: "v0.1.1699"
 source: board/catalogue.json
 ---
 
 # The library of PrompTugal.news
 
-Everything in this repository and on this site in one place: 4342 cards, who made each, and when.
+Everything in this repository and on this site in one place: 4436 cards, who made each, and when.
 
 Find something: open [the reading room](reading-room.htm) and type the first letters of a title, a call number or a kind. It also draws the library as a graph.
 
@@ -16,17 +16,17 @@ Three doors: [Find a page](reading-room.htm) | [What is new](notice-board.md) | 
 
 ## New this hour (new accessions: the newest things added)
 
-- `ACC-20261117-0163` [dev@'s review of work/dev.places, 17 November 2026, about 03:15 UTC](https://promptugal.news/board/team/dev.places/review-2026-11-17T0315Z.md)
-- `ACC-20261117-0162` [translator@PrompTugal.dinis: hand-over debrief, 17 November 2026](https://promptugal.news/board/team/translator/debriefs/2026-11-17-handover.md)
-- `ACC-20261117-0161` [place.algarve.east hand-over debrief (17 November 2026)](https://promptugal.news/board/team/place.algarve.east/debriefs/2026-11-17-handover.md)
-- `ACC-20261117-0160` [place.algarve.central hand-over, 17 November 2026 (about 01:30 UTC)](https://promptugal.news/board/team/place.algarve.central/debriefs/2026-11-17-handover.md)
-- `ACC-20261117-0159` [dev.places@PrompTugal.dinis: hand-over debrief, 17 November 2026 (session of the 16 November restart)](https://promptugal.news/board/team/dev.places/debriefs/2026-11-17-handover.md)
+- `ACC-20261117-0257` [dev@'s review of work/dev.places, 17 November 2026, about 06:15 UTC](https://promptugal.news/board/team/dev.places/review-2026-11-17T0615Z.md)
+- `ACC-20261117-0256` [dev@'s review of work/dev.places, 17 November 2026, about 05:15 UTC](https://promptugal.news/board/team/dev.places/review-2026-11-17T0515Z.md)
+- `ACC-20261117-0255` [Portimao, Lagoa, Silves: read 17 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-17/portimao-lagoa-silves.md)
+- `ACC-20261117-0254` [Aljezur, Monchique, Vila do Bispo: nothing new on 17 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-17/others.md)
+- `ACC-20261117-0253` [Lagos: read 17 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-17/lagos.md)
 
 (All of them: [the accession register](accession-register.jsonl).)
 
 ## The collections (each has a finding aid, a short guide)
 
-[Build, code and release](finding-aids/BLD.md) (5) | [Data and the ontology](finding-aids/DAT.md) (1255) | [Evidence and sources](finding-aids/EVD.md) (1) | [Guidance (special)](finding-aids/GDN.md) (652) | [The repository](finding-aids/GEN.md) (44) | [The library](finding-aids/LIB.md) (357) | [The publication](finding-aids/PUB.md) (1427) | [Readers and observability](finding-aids/RDR.md) (43) | [Agents, roles, keys](finding-aids/TEAM.md) (3432) | [Work in hand](finding-aids/WRK.md) (387)
+[Build, code and release](finding-aids/BLD.md) (5) | [Data and the ontology](finding-aids/DAT.md) (1294) | [Evidence and sources](finding-aids/EVD.md) (1) | [Guidance (special)](finding-aids/GDN.md) (652) | [The repository](finding-aids/GEN.md) (44) | [The library](finding-aids/LIB.md) (358) | [The publication](finding-aids/PUB.md) (1466) | [Readers and observability](finding-aids/RDR.md) (43) | [Agents, roles, keys](finding-aids/TEAM.md) (3447) | [Work in hand](finding-aids/WRK.md) (387)
 
 Also: [every pass and its findings](finding-aids/index.md) | [Dinis's guidance, his words](special/guidance.md) | [the reality tree](reality/index.md) (what exists and what is only proposed) | [the shelf list](shelf-list.md)
 

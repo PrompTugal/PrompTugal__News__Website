@@ -2,7 +2,7 @@
  "about": "The budgets of PrompTugal.news: per agent per day, per pass, per loop, kept by accountant@PrompTugal.dinis. Confirmed by Dinis at about 10:15 UTC as a measure; never a reason to stop an agent (about 10:10). Every dollar figure here is API-equivalent: the team runs on a Claude subscription, so it compares runs and agents and is not money spent. Real limits: the subscription's usage limits and the OpenRouter credit (below). Schema: data/schemas/budgets.schema.json (ontologist@).",
  "by": "accountant@PrompTugal.dinis",
  "written": "2026-11-06T03:50Z",
- "updated": "2026-11-17T04:10Z",
+ "updated": "2026-11-17T07:05Z",
  "issue": "WS-177",
  "units": {
   "day": "the UTC day, 00:00 to 24:00; every per_day budget starts again at 00:00 UTC",
@@ -2744,6 +2744,160 @@
      "researcher"
     ],
     "note": "conductor.b@ share = cumulative minus 172.20 (its 12 Nov row). Captured, nothing stops; the window crosses midnight UTC, so a line is one day's"
+   },
+   {
+    "read_at": "2026-11-17T06:52Z",
+    "window": "16 Nov 19:28 to 17 Nov 06:52 UTC (about 11 h 20 min, two UTC days)",
+    "source": "board/team/conductor.b/ledger/2026-11-17T0652Z.json",
+    "total_usd": 164.4,
+    "since_previous_usd": 35.31,
+    "rows": [
+     {
+      "agent": "conductor.b",
+      "usd": 19.28,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used": 0.64
+     },
+     {
+      "agent": "journalist",
+      "usd": 11.85,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used": 0.39
+     },
+     {
+      "agent": "dev",
+      "usd": 14.25,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used": 0.47
+     },
+     {
+      "agent": "designer",
+      "usd": 13.57,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used": 0.45
+     },
+     {
+      "agent": "security",
+      "usd": 14.76,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used": 0.49
+     },
+     {
+      "agent": "place.algarve.west",
+      "usd": 7.79,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used": 0.78
+     },
+     {
+      "agent": "place.algarve.central",
+      "usd": 6.97,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used": 0.7
+     },
+     {
+      "agent": "place.algarve.east",
+      "usd": 6.51,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used": 0.65
+     },
+     {
+      "agent": "place.districts",
+      "usd": 12.74,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used": 1.27
+     },
+     {
+      "agent": "correspondent",
+      "usd": 3.37,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used": 0.34
+     },
+     {
+      "agent": "datasci.places",
+      "usd": 2.17,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used": 0.22
+     },
+     {
+      "agent": "researcher",
+      "usd": 13.39,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used": 1.34
+     },
+     {
+      "agent": "ontologist",
+      "usd": 5.56,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used": 0.56
+     },
+     {
+      "agent": "dev.places",
+      "usd": 5.16,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used": 0.52
+     },
+     {
+      "agent": "designer.places",
+      "usd": 3.43,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used": 0.34
+     },
+     {
+      "agent": "translator",
+      "usd": 8.32,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used": 0.83
+     },
+     {
+      "agent": "outreach",
+      "usd": 4.3,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used": 0.43
+     },
+     {
+      "agent": "sherpa",
+      "usd": 3.51,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used": 0.35
+     },
+     {
+      "agent": "librarian",
+      "usd": 3.8,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used": 0.38
+     },
+     {
+      "agent": "abp",
+      "usd": 3.67,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used": 0.12
+     }
+    ],
+    "over_a_day_line": [
+     "place.districts",
+     "researcher"
+    ],
+    "note": "conductor.b@ share = cumulative minus 172.20; captured, nothing stops"
    }
   ]
  }

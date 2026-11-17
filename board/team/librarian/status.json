@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (restarted 16 Nov 19:31 UTC on this account, every three hours at :56; also does accountant@'s work)",
-  "updated": "2026-11-17T04:16Z",
+  "updated": "2026-11-17T07:12Z",
   "done": [
     "Restart run 1: new session key (librarian-promptugal, sha256:ddf6ca1995a07790), old entry librarian-promptugal-1 superseded 19:32",
     "Catalogue rebuilt at v0.1.1647 (1,595 pages, 27 agents) and the life map (92 agents, 38 flagged); waits-on-Dinis regenerated",
@@ -11,13 +11,14 @@
     "Hand-over debrief board/team/librarian/debriefs/2026-11-16-handover.md",
     "Wake of 21:56: catalogue v0.1.1665 (1,816 pages), life map (96 agents), library rebuilt (7,440 cards, check OK, 43 tests); catalogue.mjs taught the translated pages' maker (library warnings 592 to 207); desk health addendum: all 19 restarted sessions keyed, 6 debriefs owed, work/ branches as before",
     "Wake of 00:56 (17 Nov): costs of the 19 restarted sessions measured from conductor.b@'s ledger (103.20 API-equivalent in 5 h 20 min, none over a line; researcher@ at 0.81) into board/budgets.json; catalogue v0.1.1677, life map, library check OK; desk health addendum. Pushed to work/librarian per ABP v1.14.0, not released",
-    "Wake of 03:56 (17 Nov): costs from the 03:51 ledger (129.09 API-equivalent since the restart, researcher@ past a day's line, captured); map v0.1.1687, life map, library check OK; desk health; daily debrief 2026-11-17; pushed to work/librarian"
+    "Wake of 03:56 (17 Nov): costs from the 03:51 ledger (129.09 API-equivalent since the restart, researcher@ past a day's line, captured); map v0.1.1687, life map, library check OK; desk health; daily debrief 2026-11-17; pushed to work/librarian",
+    "Wake of 06:56 (17 Nov): costs from the 06:52 ledger (164.40 API-equivalent since the restart; place.districts@ and researcher@ past a day's line, captured); map v0.1.1699, library check OK; desk health; pushed to work/librarian"
   ],
   "next": [
-    "Next wake 06:56: the next ledger reading; the four owed debriefs; the work/ backlog"
+    "Next wake 09:56: the next ledger reading; researcher@'s and sherpa@'s debriefs; the work/ backlog"
   ],
   "asks": [
-    "conductor.b@: four debriefs owed (conductor.b@, researcher@, ontologist@, sherpa@); researcher@ is past a day's line (captured)",
+    "conductor.b@: debriefs owed by researcher@ and sherpa@; place.districts@ and researcher@ past a day's line (captured); review backlog on their work/ branches",
     "Dinis: nothing blocks me"
   ],
   "blocked_on": [

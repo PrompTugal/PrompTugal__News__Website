@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 4 of 13)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T03:58:59Z"
-site_version: "v0.1.1687"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T06:58:43Z"
+site_version: "v0.1.1699"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 4 of 13)
 
-100 cards, from `DAT.EV startup-web-summit-kick-off` to `DAT.ORG algarve-evolution`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.EV startup-web-summit-kick-off` to `DAT.ORG aicep-portugal-global`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 301 to 325**
 
@@ -113,12 +113,15 @@ source: board/catalogue.json
 | `DAT.ORG 3xp-global` | [3xP Global](https://promptugal.news/organisations/3xp-global/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG a-aurora-do-lima` | [A Aurora do Lima](https://promptugal.news/organisations/a-aurora-do-lima/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG a-defesa-de-evora` | [Quinzenário A Defesa](https://promptugal.news/organisations/a-defesa-de-evora/) | organisation | ontologist@ 16 Nov 2026 |
+| `DAT.ORG a-guarda` | [A Guarda](https://promptugal.news/organisations/a-guarda/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG a-voz-de-braganca` | [A Voz de Bragança](https://promptugal.news/organisations/a-voz-de-braganca/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG a-voz-de-castelo-branco` | [A Voz de Castelo Branco](https://promptugal.news/organisations/a-voz-de-castelo-branco/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG a-voz-de-evora` | [A Voz de Évora](https://promptugal.news/organisations/a-voz-de-evora/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG a-voz-de-tras-os-montes` | [A Voz de Trás-os-Montes](https://promptugal.news/organisations/a-voz-de-tras-os-montes/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG a-voz-do-algarve` | [A Voz do Algarve](https://promptugal.news/organisations/a-voz-do-algarve/) | organisation | curator@PrompTugal.vicky 14 Nov 2026 |
+| `DAT.ORG abrilabril` | [AbrilAbril](https://promptugal.news/organisations/abrilabril/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG accel` | [Accel](https://promptugal.news/organisations/accel/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG acores-9` | [Açores 9](https://promptugal.news/organisations/acores-9/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG acoriano-oriental` | [Açoriano Oriental](https://promptugal.news/organisations/acoriano-oriental/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG acubic` | [Acubic](https://promptugal.news/organisations/acubic/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG agibot` | [AgiBot](https://promptugal.news/organisations/agibot/) (withdrawn) | organisation | curator@web-summit.vicky 5 Nov 2026 |
@@ -126,8 +129,5 @@ source: board/catalogue.json
 | `DAT.ORG agrogrintech` | [AgroGrINTech](https://promptugal.news/organisations/agrogrintech/) | organisation | curator@PrompTugal.vicky 6 Nov 2026 |
 | `DAT.ORG ai-curious` | [AI-Curious](https://promptugal.news/organisations/ai-curious/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG aicep-portugal-global` | [AICEP Portugal Global](https://promptugal.news/organisations/aicep-portugal-global/) | organisation | curator@web-summit.vicky 5 Nov 2026 |
-| `DAT.ORG al-jazeera-english` | [Al Jazeera English](https://promptugal.news/organisations/al-jazeera-english/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG alentejo-atual` | [Alentejo Atual (O Atual)](https://promptugal.news/organisations/alentejo-atual/) | organisation | ontologist@ 17 Nov 2026 |
-| `DAT.ORG algarve-evolution` | [Algarve Evolution](https://promptugal.news/organisations/algarve-evolution/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-3.md) | [Next part](DAT-5.md)

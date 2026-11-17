@@ -3139,28 +3139,37 @@
    },
    "forms": [
     "place.districts-promptugal",
+    "place.districts-promptugal-2",
     "place.districts@",
     "place.districts@PrompTugal.dinis",
     "site.aveiro-promptugal",
+    "site.aveiro-promptugal-2",
     "site.beja-promptugal",
+    "site.beja-promptugal-2",
     "site.braga-promptugal",
     "site.braga-promptugal-2",
     "site.braganca-promptugal",
     "site.braganca-promptugal-2",
     "site.castelo-branco-promptugal",
+    "site.castelo-branco-promptugal-2",
     "site.coimbra-promptugal",
     "site.coimbra-promptugal-2",
     "site.evora-promptugal",
+    "site.evora-promptugal-2",
     "site.guarda-promptugal",
     "site.guarda-promptugal-2",
     "site.leiria-promptugal",
+    "site.leiria-promptugal-2",
     "site.lisboa-promptugal",
     "site.lisboa-promptugal-2",
     "site.portalegre-promptugal",
+    "site.portalegre-promptugal-2",
     "site.porto-promptugal",
     "site.porto-promptugal-2",
     "site.santarem-promptugal",
+    "site.santarem-promptugal-2",
     "site.setubal-promptugal",
+    "site.setubal-promptugal-2",
     "site.viana-do-castelo-promptugal",
     "site.viana-do-castelo-promptugal-2",
     "site.vila-real-promptugal",
@@ -3175,15 +3184,29 @@
    "key_ids": [
     {
      "added": "2026-11-16",
-     "fingerprint": "sha256:3faada86b02dabc6",
+     "fingerprint": "sha256:235c74a7222a85d7",
      "id": "place.districts-promptugal",
+     "signing_fingerprint": "sha256:383807062e16b9c9",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:3faada86b02dabc6",
+     "id": "place.districts-promptugal-2",
      "signing_fingerprint": "sha256:622e5570ade43f2b",
      "status": "active"
     },
     {
      "added": "2026-11-16",
-     "fingerprint": "sha256:cde247fa4abdc68c",
+     "fingerprint": "sha256:f876bb4c1c5e93be",
      "id": "site.aveiro-promptugal",
+     "signing_fingerprint": "sha256:12b7eb629f6797ca",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:cde247fa4abdc68c",
+     "id": "site.aveiro-promptugal-2",
      "signing_fingerprint": "sha256:520dd25bd7c89159",
      "status": "active"
     },
@@ -3192,6 +3215,13 @@
      "fingerprint": "sha256:c9375cec8c3d3cfc",
      "id": "site.beja-promptugal",
      "signing_fingerprint": "sha256:390c99ccaabc423a",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:a8fd91d25a68534a",
+     "id": "site.beja-promptugal-2",
+     "signing_fingerprint": "sha256:a0d422d7d49f928c",
      "status": "active"
     },
     {
@@ -3227,6 +3257,13 @@
      "fingerprint": "sha256:e6ff0ffe6bb9cc2c",
      "id": "site.castelo-branco-promptugal",
      "signing_fingerprint": "sha256:1378226953731ad0",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:8f683cdc56dd939b",
+     "id": "site.castelo-branco-promptugal-2",
+     "signing_fingerprint": "sha256:3ca49db7f76d877c",
      "status": "active"
     },
     {
@@ -3248,6 +3285,13 @@
      "fingerprint": "sha256:58fb50dd71d484ed",
      "id": "site.evora-promptugal",
      "signing_fingerprint": "sha256:805295fc112037c3",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:dd24c6a20d82aa9c",
+     "id": "site.evora-promptugal-2",
+     "signing_fingerprint": "sha256:8d81aeecdd34ea39",
      "status": "active"
     },
     {
@@ -3266,8 +3310,15 @@
     },
     {
      "added": "2026-11-16",
-     "fingerprint": "sha256:d8a508b9bf970201",
+     "fingerprint": "sha256:47480593fe12b396",
      "id": "site.leiria-promptugal",
+     "signing_fingerprint": "sha256:36e871cdcd393bd7",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:d8a508b9bf970201",
+     "id": "site.leiria-promptugal-2",
      "signing_fingerprint": "sha256:998b86485e2008f9",
      "status": "active"
     },
@@ -3290,6 +3341,13 @@
      "fingerprint": "sha256:7c0c7cc996e9e2f3",
      "id": "site.portalegre-promptugal",
      "signing_fingerprint": "sha256:49f4ad19bf0de91c",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:8809402202a478d8",
+     "id": "site.portalegre-promptugal-2",
+     "signing_fingerprint": "sha256:34d28192594b7941",
      "status": "active"
     },
     {
@@ -3311,6 +3369,13 @@
      "fingerprint": "sha256:e5e4703a82580659",
      "id": "site.santarem-promptugal",
      "signing_fingerprint": "sha256:cf24477817a9c62f",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:456571f81d361ae7",
+     "id": "site.santarem-promptugal-2",
+     "signing_fingerprint": "sha256:e6bf8b2f8da961cb",
      "status": "active"
     },
     {
@@ -3318,6 +3383,13 @@
      "fingerprint": "sha256:e563af8508131aea",
      "id": "site.setubal-promptugal",
      "signing_fingerprint": "sha256:5e32bf53f706aa59",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-16",
+     "fingerprint": "sha256:2796e8fe7bb363a1",
+     "id": "site.setubal-promptugal-2",
+     "signing_fingerprint": "sha256:3c5d960edc1cbf33",
      "status": "active"
     },
     {
@@ -3372,27 +3444,36 @@
    "see_also": [],
    "see_from": [
     "place.districts-promptugal",
+    "place.districts-promptugal-2",
     "place.districts@",
     "site.aveiro-promptugal",
+    "site.aveiro-promptugal-2",
     "site.beja-promptugal",
+    "site.beja-promptugal-2",
     "site.braga-promptugal",
     "site.braga-promptugal-2",
     "site.braganca-promptugal",
     "site.braganca-promptugal-2",
     "site.castelo-branco-promptugal",
+    "site.castelo-branco-promptugal-2",
     "site.coimbra-promptugal",
     "site.coimbra-promptugal-2",
     "site.evora-promptugal",
+    "site.evora-promptugal-2",
     "site.guarda-promptugal",
     "site.guarda-promptugal-2",
     "site.leiria-promptugal",
+    "site.leiria-promptugal-2",
     "site.lisboa-promptugal",
     "site.lisboa-promptugal-2",
     "site.portalegre-promptugal",
+    "site.portalegre-promptugal-2",
     "site.porto-promptugal",
     "site.porto-promptugal-2",
     "site.santarem-promptugal",
+    "site.santarem-promptugal-2",
     "site.setubal-promptugal",
+    "site.setubal-promptugal-2",
     "site.viana-do-castelo-promptugal",
     "site.viana-do-castelo-promptugal-2",
     "site.vila-real-promptugal",
@@ -4241,6 +4322,7 @@
    "forms": [
     "researcher-b-promptugal",
     "researcher-promptugal",
+    "researcher-promptugal-1",
     "researcher@",
     "researcher@PrompTugal.dinis"
    ],
@@ -4261,10 +4343,17 @@
      "id": "researcher-promptugal",
      "signing_fingerprint": "sha256:54041c5a8f38f445",
      "status": "active"
+    },
+    {
+     "added": "2026-11-06",
+     "fingerprint": "sha256:b8f5887596dbfb11",
+     "id": "researcher-promptugal-1",
+     "signing_fingerprint": "sha256:f93bc841c931c599",
+     "status": "superseded"
     }
    ],
    "kind": "agent",
-   "label": "researcher@PrompTugal.dinis (Claude Code session, news organisations pass)",
+   "label": "researcher@PrompTugal.dinis (Claude Code session)",
    "model": "Sonnet",
    "note": "public research on a mandate per task: the Portugal ecosystem and Algarve Evolution, then people (public, professional, freely licensed photos), then past summits; into the…",
    "ontology": null,
@@ -4273,6 +4362,7 @@
    "see_from": [
     "researcher-b-promptugal",
     "researcher-promptugal",
+    "researcher-promptugal-1",
     "researcher@"
    ]
   },
