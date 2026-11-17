@@ -1,4 +1,13 @@
 {
+ "4863342ccdc3a7fb": {
+  "t": "La conferencia sísmica de Albufeira del 27 de noviembre se traslada al salón del ayuntamiento, con la IA citada como riesgo y herramienta de seguimiento",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Albufeira seismic conference on 27 November moved to the cou",
+  "ok": false,
+  "from": "es-ES"
+ },
  "487c24b82d991af3": {
   "t": "El encuentro del Supremo Tribunal Administrativo del 11 de abril de 2025 tuvo como tema principal la IA y la digitalización en la administración pública y los tribunales administrativos, en el Centro Nacional de Inovação Jurídica, en colaboración con la facultad de derecho de Lisboa y el ayuntamiento de Bragança. Es anterior a las noticias de 2026.",
   "by": "translator@PrompTugal.dinis",
