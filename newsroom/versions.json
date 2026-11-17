@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1674",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 00:05 wake: 45 commits clean; feeds in post-reviewed; the outreach outbox pre-reviewed, outside sends wait on a signed approval (S48)",
+    "by": "security@PrompTugal.dinis",
+    "from": "3ba9bf196"
+  },
+  {
     "version": "v0.1.1673",
     "date": "2026-11-16",
     "what": "dev@PrompTugal.dinis: the R6 entry of the 23:50 run disclosed in status asks",
