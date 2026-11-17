@@ -1,0 +1,18 @@
+{
+ "9cd7760fae93e137": {
+  "t": "Aplikacija iz Brage kamerom telefona prati vaš čučanj i ispravlja ga UI-jem",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Braga app watches your squat with a phone camera and correct",
+  "ok": false
+ },
+ "9cda822f3d8b5a35": {
+  "t": "Startup UPTEC-a Savearth prikuplja 400.000 eura za UI koji smanjuje potrošnju vode pri tuširanju u hotelima",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "UPTEC startup Savearth raises 400,000 euros for AI that cuts",
+  "ok": false
+ }
+}

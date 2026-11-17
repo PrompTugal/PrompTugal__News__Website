@@ -1,0 +1,26 @@
+{
+ "9f0ef3c5a4f18619": {
+  "t": "PrompTugal.news Portugal: UI i tehnologija s ruba Europe, nacionalna karta, nacionalni programi i ono što se slijeva do Algarvea i svake regije. Neovisno, i svaka činjenica ima izvor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Portugal: AI and tech from the edge of Europ",
+  "ok": false
+ },
+ "9f1c67d8dc675f05": {
+  "t": "PrompTugal.news Silves: UI i tehnologija u Silvesu, narančinoj prijestolnici Algarvea i staroj regionalnoj prijestolnici, te što do Silvesa stiže iz Algarvea, Portugala i svijeta. Neovisno; svaka činjenica ima izvor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Silves: AI and technology in Silves, the Alg",
+  "ok": false
+ },
+ "9f93562e264601fb": {
+  "t": "Kongres o upravljanju u zdravstvu na CNEMA-i stavlja UI na dnevni red",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Health management congress at CNEMA puts AI on its agenda",
+  "ok": false
+ }
+}

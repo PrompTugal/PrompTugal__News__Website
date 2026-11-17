@@ -779,6 +779,11 @@
       "at": "2026-11-17T20:50Z",
       "by": "conductor.b@PrompTugal.dinis",
       "note": "hour 25, quiet: live v0.1.1746. ontologist@ the Algarve municipalities' neighbours checked against Wikidata (14 of 16 agree with the draft); dev@ search ranks a town's page above its data views, search tests from 6 failures to 1; security@ 27 commits clean, 'Since your last visit' keeps the profile in the browser. Live data 19:18."
+    },
+    {
+      "at": "2026-11-17T21:51Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 26 (ledger): 19 sessions 300.81 USD API-equivalent since the restart (+26.77 in 3h); live v0.1.1750. Vicky's reviewer@ published S69 (AI physiotherapy), journalist@ labelled it (news, P2); dev@ search shards split so no typical query loads over 40 KB. Quiet desks. Live data 20:17."
     }
   ]
 }

@@ -1,0 +1,50 @@
+{
+ "2e08790bc444c605": {
+  "t": "Profesor informatike rekao je agenciji Lusa da manji, otvoreni portugalski modeli sveučilišta postižu performanse usporedive s modelima velikih tehnoloških tvrtki u nekim zadacima te da je portugalsko-galicijski model već dostupan tvrtkama.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "A professor of informatics told Lusa that the university's s",
+  "ok": false
+ },
+ "2e513ec94d637d09": {
+  "t": "Braga, ai ai ai: grad koji u nedjelju zvoni zvonima za nadbiskupa, a u ponedjeljak uči svoje modele, s autobusom punim kamera UI-ja koje broje tko je parkirao na autobusnoj stanici.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Braga, ai ai ai: a city that rings its bells for the archbis",
+  "ok": false
+ },
+ "2e7c775df10f0748": {
+  "t": "Projekt SiARA spaja UI, autonomnog terenskog robota EVAbota i mrežu senzora za prikupljanje podataka o usjevima, tlu, pašnjacima i divljim životinjama na stepi Campo Branco. Započeo je u studenom 2025., a prvi terenski rad bio je 3. ožujka 2026. Projekt je priznat u kategoriji mobilizirajućeg istraživanja i razvoja programa Promove.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The SiARA project combines AI, an autonomous field robot cal",
+  "ok": false
+ },
+ "2ecaf3860065acde": {
+  "t": "PrompTugal.news Braga, a cidade dos arcebispos e das startups: UI i tehnologija u Bragi, gdje razmišljaju sveučilište Minho, INL i laboratoriji tvrtki, uz sve vijesti koje nam stižu iz Minha, Portugala i svijeta. Independente, a svaka činjenica ima račun.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Braga, a cidade dos arcebispos e das startup",
+  "ok": false
+ },
+ "2ece8b1cdbda1ec5": {
+  "t": "Évora, ó pá: grad okrečenih zidova, hrastova plutnjaka i starog kamenja u kojem strojevi uče govoriti portugalski, polako, calminha, kako se to radi u Alentejuu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Évora, ó pá: a city of whitewash, cork oaks and old stones w",
+  "ok": false
+ },
+ "2ed694a2fcc0cf7e": {
+  "t": "PrompTugal.news Lisboa, a capital que nunca dorme: UI i tehnologija u Lisboi, s sveučilištima i Unicorn Factoryjem kao velikim mozgovima, uz sve vijesti koje dopluta iz Portugala, Europe i svijeta. Independente, a svaka činjenica dolazi s računom.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Lisboa, a capital que nunca dorme: AI and te",
+  "ok": false
+ }
+}

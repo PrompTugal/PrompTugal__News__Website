@@ -1,0 +1,26 @@
+{
+ "f56ffc6c84b1b996": {
+  "t": "PrompTugal.news Vila do Bispo: UI i tehnologija u Vila do Bispu, od Sagresa i Cabo de São Vicente do mora i vjetra, te što do Vila do Bispa stiže iz Algarvea, Portugala i svijeta. Neovisno; svaka činjenica ima izvor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Vila do Bispo: AI and technology in Vila do ",
+  "ok": false
+ },
+ "f5c4b6076c6b6263": {
+  "t": "Svaka priča ovdje prolazi **PrompTugal test**: bavi se UI-jem, izravno ili unutar dva do tri koraka, a put je zapisan uz nju. Mjesto određuje gdje se priča prikazuje i koliko je velika; UI određuje je li uopće naša. Svaka činjenica vodi na svoj izvor s datumom čitanja. Ništa ne dolazi s web-stranice Web Summita. Kontakti se prikazuju samo kad ih javno tijelo ili organizacija objavi na vlastitoj stranici, uz poveznicu na tu stranicu s datumom čitanja; nikad privatne osobe. Ova stranica je jedna leća na [zajednički graf publikacije]({graph}); [PrompTugal.news po mjestima]({region}) objašnjava razine.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Every story here passes **the PrompTugal test**: it is about",
+  "ok": false
+ },
+ "f5cb47601a008050": {
+  "t": "Ainda há muito por saber, pá. Evo što nam Guarda još nije rekla:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Ainda há muito por saber, pá. Here is what Guarda has not to",
+  "ok": false
+ }
+}

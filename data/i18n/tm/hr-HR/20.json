@@ -1,0 +1,26 @@
+{
+ "200767ac0638a929": {
+  "t": "Konferencija u knjižnici u Olhãou pita što UI znači za zdravstvo, gospodarstvo i obrazovanje",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Conference at Olhão's library asks what AI means for health,",
+  "ok": false
+ },
+ "202d2e7e12f65bf7": {
+  "t": "Umjetna inteligencija i tehnologija u mjestu {name}, u Algarveu: {local}, {map} na karti UI-ja, svaka činjenica ima izvor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "AI and technology in {name}, in the Algarve: {local}, {map} ",
+  "ok": false
+ },
+ "20a05a374ef6d424": {
+  "t": "Tvrtka za podatkovne centre NxN kupuje lokaciju od 1 MW u Évori",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Data centre firm NxN buys a 1 MW site in Évora",
+  "ok": false
+ }
+}

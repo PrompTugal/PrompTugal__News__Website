@@ -1,0 +1,18 @@
+{
+ "bb8bd70fbb29c9f1": {
+  "t": "Alcoutim pretvara staro žitno skladište EPAC-a u poslovni i coworking centar",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Alcoutim turns the old EPAC granary into a business and cowo",
+  "ok": false
+ },
+ "bbb39214a180b3f3": {
+  "t": "Na sastanku sa stotinama stručnjaka za prostorno planiranje općina Loulé najavila je, među ostalim mjerama za smanjenje kašnjenja u izdavanju dozvola, alate UI-ja. Gradonačelnik je rekao da sama tehnologija neće riješiti problem dok postoje unutarnje birokratske prepreke. Članak ne navodi alate ni dobavljača.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "At a meeting with hundreds of planning professionals, the Lo",
+  "ok": false
+ }
+}

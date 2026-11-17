@@ -3,6 +3,10 @@ title: "AI physiotherapy in Portugal's health service: what the government says"
 date: 2026-11-17
 story: S69
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "The government says Portugal's national health service and Sword Health offer remote physiotherapy, free to patients, with AI tools that correct movements under supervision by health professionals. The 97 percent shorter wait is an estimate, not a result."
 status: published
 categories: AI, Portugal
