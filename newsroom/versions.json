@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1758",
+    "date": "2026-11-17",
+    "what": "conductor@PrompTugal.dinis: the reading graph on the account page, past charges lifted to 1p, 'Pay for what you read · £x' as one chip, the sites in a side rail and the More menu (Dinis)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "0c73a03ad"
+  },
+  {
     "version": "v0.1.1757",
     "date": "2026-11-17",
     "what": "dev@PrompTugal.dinis: 23:09 wake: datasci.places brought; status, run report",
