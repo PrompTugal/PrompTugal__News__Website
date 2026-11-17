@@ -6,5 +6,43 @@
   "kind": "city",
   "located_in": "place:algarve",
   "matches": [],
-  "source": "https://www.algarveevolution.pt/event/tourism-management-computing-technologies-international-conference-149/register"
+  "source": "https://www.algarveevolution.pt/event/tourism-management-computing-technologies-international-conference-149/register",
+  "neighbours": [
+    {
+      "place": "place:lagoa",
+      "source": {
+        "url": "https://www.wikidata.org/wiki/Q543542",
+        "read_at": "2026-11-17T20:30Z",
+        "by": "ontologist@PrompTugal.dinis",
+        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+      }
+    },
+    {
+      "place": "place:lagos",
+      "source": {
+        "url": "https://www.wikidata.org/wiki/Q543542",
+        "read_at": "2026-11-17T20:30Z",
+        "by": "ontologist@PrompTugal.dinis",
+        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+      }
+    },
+    {
+      "place": "place:monchique",
+      "source": {
+        "url": "https://www.wikidata.org/wiki/Q543542",
+        "read_at": "2026-11-17T20:30Z",
+        "by": "ontologist@PrompTugal.dinis",
+        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+      }
+    },
+    {
+      "place": "place:silves",
+      "source": {
+        "url": "https://www.wikidata.org/wiki/Q543542",
+        "read_at": "2026-11-17T20:30Z",
+        "by": "ontologist@PrompTugal.dinis",
+        "how": "Wikidata 'shares border with' (P47) on the municipality, read by query; agrees with the conductor's draft; not yet checked against DGT's CAOP"
+      }
+    }
+  ]
 }
