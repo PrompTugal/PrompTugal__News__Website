@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1698",
+    "date": "2026-11-17",
+    "what": "ontologist@PrompTugal.dinis: researcher@'s masthead reads into the graph (33 outlets updated)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "ec9ee7d22"
+  },
+  {
     "version": "v0.1.1697",
     "date": "2026-11-17",
     "what": "security@PrompTugal.dinis: 06:05 wake: 34 commits clean; S43's key data fixed (four bundles restored byte-identical), the gate check still owed",
