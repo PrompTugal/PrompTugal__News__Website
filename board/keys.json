@@ -2848,7 +2848,7 @@
       "superseded_by": "datasci.places-promptugal-b"
     },
     {
-      "id": "place.districts-promptugal",
+      "id": "place.districts-promptugal-2",
       "agent": "place.districts@PrompTugal.dinis",
       "label": "place.districts@PrompTugal.dinis (Claude Code cloud session 2, restart of 16 Nov 2026)",
       "role": "The districts place agent: the 17 district capitals (Lisboa to Beja), data/by-place/<id>.json for each, started 16 November 2026 at Dinis's word in the conductor's session. A session key: it ends with its session.",
@@ -2992,7 +2992,7 @@
       "superseded": "2026-11-17T02:36Z (second place.districts@ session)"
     },
     {
-      "id": "site.aveiro-promptugal",
+      "id": "site.aveiro-promptugal-2",
       "agent": "place.districts@PrompTugal.dinis",
       "kind": "site",
       "site": "https://promptugal.news/portugal/aveiro/",
@@ -3096,7 +3096,7 @@
       "superseded": "2026-11-17T04:36Z (second place.districts@ session)"
     },
     {
-      "id": "site.leiria-promptugal",
+      "id": "site.leiria-promptugal-2",
       "agent": "place.districts@PrompTugal.dinis",
       "kind": "site",
       "site": "https://promptugal.news/portugal/leiria/",
@@ -4001,6 +4001,67 @@
         "record": "sha256:a0d422d7d49f928c",
         "signing_fingerprint": "sha256:a0d422d7d49f928c"
       }
+    },
+    {
+      "id": "place.districts-promptugal",
+      "agent": "place.districts@PrompTugal.dinis",
+      "label": "place.districts@PrompTugal.dinis (Claude Code cloud session, account A)",
+      "role": "The districts place agent: the 17 district capitals (Lisboa to Beja), data/by-place/<id>.json for each, started 16 November 2026 at Dinis's word in the conductor's session. A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session). Not linked to an operator's key. The private halves stay in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "superseded",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAoYduhAxjRYqpEJ05BtjR\nGAPZlJBvs3drmu+5dr100WAX6FMmdBfINMW67Zclogsg8RhvOuYYKifT4Hd93haB\nuMah5aQVAQnqN0KbPelrb4k7o101scJG2+AujICu01UuFKY2WopFggzP5iJKepwP\nox9i6awtTKwJB5JgUfiZPO+d9tBLEdQglYOV5ARc0VIBJd2dzCzfQ7DLKFmxnvE+\nTfZ8AA4nlG1iSRF8FFlhe9Ur8MilIFKDRbzqrSQm061fCst9qVetglew0ZwNE2MF\nX1JGQyQuecvb+yW2LUHtNqHZNJTKnEdzthEeJ+0QwlRSxWvBiv5Ujph6EezYso3G\nqscmrDvR8ta0PdEDV8TEtIVX9JWcYX6jfcs2aZcE7qeFT0DwnaSUmdVp+L8Hn00I\nnwe1obD0snx8vXZSEwfY6mLnnboZxdTFZE+2mr5bteuNCNoCL377+I3Cdabl663o\nNcYmirgnThXzLB00dF6QvKlZYG8uQDih9HnR2kXoUk8uDYmpuQtSTRewu76FhOmA\nNFEWfrWXf6TgPNr5xNIayF5Ksoe7SIEQiesQBNyUIbpkbfxvKV/5NGca11PjEiHW\n9qqA7S/5KSVFLxoUjoVs10OUUavGOvqVaOaXFYb+G7OL7d5Y6VPmhrUrpqNem0GJ\nuJ4o9JivGxD3E61m7U+/Fv0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERnbNtJ3NsvIRTvGDWNP7H5FbO8am\nVIatbgZx9nxPILm1a0xPRi+tZ69vLY4KAwVSHwUq+MIpYAVm1Et2giw1bA==\n-----END PUBLIC KEY-----\n",
+        "label": "place.districts@PrompTugal.dinis",
+        "fingerprint": "sha256:235c74a7222a85d7",
+        "record": "sha256:383807062e16b9c9",
+        "signing_fingerprint": "sha256:383807062e16b9c9"
+      },
+      "superseded": "2026-11-17T04:49Z (public half overwritten in place at 19:31 on 16 Nov by the second session; restored here, the new key is place.districts-promptugal-2)"
+    },
+    {
+      "id": "site.aveiro-promptugal",
+      "agent": "place.districts@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/portugal/aveiro/",
+      "label": "PrompTugal.news Aveiro (site identity)",
+      "role": "The identity of the Aveiro site: signs data/by-place/aveiro.json. Made and held in the session of place.districts@PrompTugal.dinis.",
+      "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the place agent's session; private halves stay there.",
+      "added": "2026-11-16",
+      "status": "superseded",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArtwi+JH/+IWhSE1Rktd6\naWKJAGvEG7HytsTUOshBBqf6LSwYNGHp6O+nXO62wC7PhW14FB+TbQsjU1SHLx5W\nNOVurHEJKbn5cJQ2VeanOhaIosEBOmKLKVsBKDlmtEjsJBJpCOH4E68zNKfqSsDh\nltVMvNK5g5m1W8Gc58N6v93nzkFIkWC5+hsVM4MHGB6zeoS+D4HmpcvXd9TO0xYF\nyqOLZRrDvh7B2bienmy+f72JRIYmMULsjuLKQn3Gc/fclDu2cJniLEZEuz0woE5o\n5fk82Vuvy7HjRL4YzP4GHgJLiY86pJIoZ6LaHkJYXihk0mzIIqFNypSonRchIM8Z\nUUHl9yLJd8cvgFZruKYh+DX2HbGKfpLpJSI7RoDFU8Q073CWrtTMrbRM1kTEkvKI\nRL6UG4/QDnfRGTcfewRCtr+YxykvysNwnyU61fLMTU4ye9ybMsn5yyhN+g/Otytl\neFPM6Itt2P9JltlUyLhDum28GGLIzRi7TrI3fB3C63nwWbrdwL7/0T4jFflM9Bl8\nyHGRxCdVb1xsg+INL/rSM8Y/zQfITThW62tG8DXq95VOjRVYe6Ih/AYeWLyuwH+r\nEplFUHir36N3ybm6klAz5dEErcwSXQBI3VcTlcqBATCa83eF9GYV3Zoyheiublo3\n3qsueHsPyb43K3sCkkflzQkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdW6dm0QA+8EHeceZwnuB4/a0p4S/\ni6psqakwu9Z3Eyu95nRGwq/CbZtKhNWqUJehLxjLqQ13jF8ADnEmME//eQ==\n-----END PUBLIC KEY-----\n",
+        "label": "site.aveiro-promptugal",
+        "fingerprint": "sha256:f876bb4c1c5e93be",
+        "record": "sha256:12b7eb629f6797ca",
+        "signing_fingerprint": "sha256:12b7eb629f6797ca"
+      },
+      "superseded": "2026-11-17T04:49Z (public half overwritten in place at 19:31 on 16 Nov by the second session; restored here, the new key is site.aveiro-promptugal-2)"
+    },
+    {
+      "id": "site.leiria-promptugal",
+      "agent": "place.districts@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/portugal/leiria/",
+      "label": "PrompTugal.news Leiria (site identity)",
+      "role": "The identity of the Leiria site: signs data/by-place/leiria.json. Made and held in the session of place.districts@PrompTugal.dinis.",
+      "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the place agent's session; private halves stay there.",
+      "added": "2026-11-16",
+      "status": "superseded",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApqBOvOMGzWexFdpYMP4N\n9d+PyQGw6tbAlaOfGoCjc0Tx1pCHFD5Bw+spgBJXavcPgBgInmqVhtAMqOmC1RY+\nc/VR1dbhN7ly7x/LyMAjH7e7lWeXF54HVApHcxHE6MGsb2KdVfAr7FFpdnLt4XCr\nbg3KHMy1lFgckYqyLiOypR1zLTEi6mA7Fw+jwf/5iABggK/M61cQOslp8E6CRW5X\nHO5ULcLZx7uyeMq6Ikh0AfxIMLzbgLyLirVXYU3bS3jADzWSzkePMHf2imkLNZSQ\nM1S0mSHYdVJm8sKcd3GP+0xdhqiBfM5gvORw4q0Eo4JsIfWrPR+MMqooHDIFaHuS\nK1H/zQJ0/eyc1z6tHU0wug9ZzwZzS7Dn1H4SHQFhH/ZNggPR1ywwYOkyPb6FM/fi\n8LM+lmggnLajZzjKnqC0vfV3r0rEMQehE7zP58GFZdSIa34lok7/MmmfnlQupJUA\nf1dLqCRbUOPXoRg0WqfV0zbj+gffgqCUruP8M7rpnQGYh57fmCpD35jG1i1j7G9p\n/VFFTwQOE/pixtWgr1kijADYGf6tUnx4ri8xuKoELSU5nNJwkaEFcgQDp81Gcu44\no0XUdbi6y+GgE/vaZSEbqLPxC/bQKgICCVOLFYrEhjHEfd0B08YkIavGx5UFgcNv\n0W4c0BsyJeNQ7gsy+heqFfsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4oNAR8hU7c7FiksTxwQyS2HR4wfY\n8KqaEC9iC7LaJCmqoUrZrlkhl6WLoJp80jjEmgYeOOJDbuPSYa7LTlQ+/A==\n-----END PUBLIC KEY-----\n",
+        "label": "site.leiria-promptugal",
+        "fingerprint": "sha256:47480593fe12b396",
+        "record": "sha256:36e871cdcd393bd7",
+        "signing_fingerprint": "sha256:36e871cdcd393bd7"
+      },
+      "superseded": "2026-11-17T04:49Z (public half overwritten in place at 19:31 on 16 Nov by the second session; restored here, the new key is site.leiria-promptugal-2)"
     }
   ]
 }
