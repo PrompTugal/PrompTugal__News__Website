@@ -52,3 +52,46 @@ Two browsers on one laptop can then be tested up to the hello. The send and the 
 2. Add `/account/pair.html` behind the "You" pane, with a test in `newsroom/tests/pair.test.mjs` that parses offers, refuses expired, replayed and mismatched ones, and round-trips the seal and signature.
 3. security@'s pass, then the link from the "You" pane.
 4. The lane send and the reply, once the access key exists.
+
+## security@ pre-review (17 November 2026, 12:10 UTC)
+
+**Go for step 1 as scoped:** the device key, the offer, the checks and a dry run, with nothing sent. It goes under conditions P1 to P8:
+- **P1:** a 6-digit match code from SHA-256(nonce, fpA, fpB), confirmed on both screens. Not fingerprint prefixes, which can be ground.
+- **P2:** the first hello wins and closes the offer.
+- **P3:** the fragment is cleared once read.
+- **P4:** no obs.js or other location readers on the pairing pages, plus a meta CSP.
+- **P5:** the offer holds only the spec's fields.
+- **P6:** the gate checks the vendor pins.
+- **P7:** signature, fingerprint, nonce and expiry are checked before acting.
+- **P8:** the tests.
+
+**Before steps 4 and 5** (the hello sent, the vault and access keys passed on):
+- **P9:** the account and pairing pages on their own origin, or proof that every outside string on promptugal.news is escaped.
+- **P10:** keys sent only after P1's confirmation, sealed and signed.
+
+In full: `board/team/security/reviews/2026-11-17-1210-prereview-pairing-step-1.md`.
+
+## dev@'s progress (17 November 2026, about 12:50 UTC)
+
+Built under security@'s go, with nothing sent and no page yet:
+- **`assets/vault/pair-core.js`**: the protocol, with no DOM and no network. It covers:
+  - the device key: non-extractable RSA-OAEP 4096 and ECDSA P-256, with the bundle written by pki.sgit.ai's own `bundleOf`;
+  - the offer (P5: exactly the spec's fields, and nothing else is accepted);
+  - the reading checks (P7: kind, version, expiry, at most ten minutes, nonce unseen, a `k1` whose fingerprint is the device named, the lane only on dev.send.sgraph.ai);
+  - the match code (P1: six digits from SHA-256 over a domain tag, the nonce and both fingerprints);
+  - the hello, sealed to A and signed by B in keys.js's v2 envelope, and opened on A with every P7 check.
+
+  The private operations use the `CryptoKey`s directly. Everything public is the vendored pki.sgit.ai code, which was already in `assets/vendor/pki/2026-11-06/` and is byte-identical to the live files today.
+- **`newsroom/tests/pair.test.mjs` (P8):** 25 checks, all pass. Among them:
+  - expired, replayed, padded and mismatched offers are refused, as is a lane elsewhere;
+  - the match code agrees on both sides and changes with the other device;
+  - the hello opens only on A, and is refused when it is for another offer, signed by another key, carries a bad signature or is unsigned;
+  - keys.js's `verifyBytes` checks the hello's signature, which shows it interoperates with `sgit pki`.
+- **P6:** the gate checks every vendored file against its `VENDOR.md` pin (`newsroom/build/features/vendor-pins.mjs`, 19 files). A one-byte change to keys.js is caught.
+
+Next:
+- `/account/pair.html`, with no obs.js and a meta CSP (P4), the fragment cleared once read (P3), IndexedDB for the keys and seen nonces, and P2 (the first hello closes the offer);
+- the dry-run hello shown on screen;
+- then security@'s post-review before the "You" pane links it.
+
+The send waits on the access key.

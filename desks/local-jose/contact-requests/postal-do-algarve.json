@@ -1,0 +1,37 @@
+{
+ "type": "contact-request/v1",
+ "from": "local@PrompTugal.jose",
+ "company": "postal-do-algarve",
+ "company_note": "the record exists in data/organisations/ as a derived record with no kind; the outlet as read is in desks/local-jose/towns/loule.json",
+ "purpose": "Ask Postal to check the Loulé page on PrompTugal.news, which links its stories, and whether anyone in its newsroom would like to contribute",
+ "share": [
+  "https://promptugal.news/algarve/loule/",
+  "https://promptugal.news/contribute/",
+  "https://promptugal.news/about/participant.html"
+ ],
+ "proposed_text_pt": "Assunto: A página de Loulé no PrompTugal.news liga ao Postal: podem ver se está certa?\n\nOlá equipa do Postal,\n\nPublicámos há pouco a página de Loulé no PrompTugal.news, uma redação nova, feita em Portugal, que acompanha a tecnologia e a inteligência artificial no Algarve, concelho a concelho:\nhttps://promptugal.news/algarve/loule/\n\nA página liga a notícias do Postal. Ligamos e damos crédito aos meios locais, enviamos os leitores para a notícia original e nunca a substituímos.\n\nPedimos uma coisa: podem ver se o que lá está é correto? Cada facto tem a sua fonte; se algo estiver errado, respondam e corrigimos na própria página, com data.\n\nSe alguém da vossa redação quiser escrever connosco sobre a sua terra, a página para colaborar é esta:\nhttps://promptugal.news/contribute/\nO que publicamos fica com a licença CC BY 4.0, com crédito ao autor. Por agora não há pagamento.\n\nAs páginas estão, por agora, em inglês. Responder é opcional.\n\nCumprimentos,\n[quem envia, a escolher por uma pessoa]\nPrompTugal.news\n\nO PrompTugal.news pertence a uma equipa que também trabalha na RiskMandate. A nossa declaração (em inglês): https://promptugal.news/about/participant.html\n\nEscrito por um agente de IA, revisto e enviado por uma pessoa. Encontrámos este contacto no vosso site. Se preferirem não receber mais mensagens nossas, respondam e não voltamos a escrever.",
+ "proposed_text": "Subject: The Loulé page on PrompTugal.news links to Postal: could you check it?\n\nHello Postal team,\n\nWe have just published the page for Loulé on PrompTugal.news, a new newsroom, made in Portugal, that follows technology and AI in the Algarve, council by council:\nhttps://promptugal.news/algarve/loule/\n\nThe page links to Postal stories. We link and credit local outlets, send readers to the original story and never replace it.\n\nWe ask one thing: could you check that what is there is right? Each fact carries its source; if anything is wrong, reply and we correct it on the page itself, dated.\n\nIf anyone in your newsroom would like to write with us about their town, the page for contributors is this one:\nhttps://promptugal.news/contribute/\nWhat we publish is under CC BY 4.0, with credit to its author. There is no payment for now.\n\nThe pages are in English for now. Answering is optional.\n\nBest regards,\n[the sender, for a person to choose]\nPrompTugal.news\n\nPrompTugal.news belongs to a team that also works on RiskMandate. Our disclosure: https://promptugal.news/about/participant.html\n\nDrafted by an AI agent, reviewed and sent by a person. We found this contact on your website. If you would rather not hear from us again, reply and we will not write again.",
+ "sender": null,
+ "sender_note": "left for a person to choose",
+ "by": null,
+ "by_note": "no date set by this desk",
+ "channel": {
+  "kind": "published-newsroom-page",
+  "url": "https://postal.pt/postal/contactos/",
+  "read": "2026-11-17",
+  "note": "the outlet's own \"Contactos e ficha técnica\" page, where it publishes its newsroom contact"
+ },
+ "checked": {
+  "the town page links the outlet": "https://promptugal.news/algarve/loule/ carries links to postal.pt (read 2026-11-17, 11:50 UTC)",
+  "the page answers 200": "2026-11-17"
+ },
+ "status": "draft",
+ "holds": [
+  "Nothing is sent by an agent. A person reviews, chooses the sender and sends.",
+  "Dinis's decision on what a first email to a news organisation may promise is open (content/newsroom/decisions/what-a-first-contact-to-a-news-organisation-may-promise.md); it says no first contact goes out before he answers. This draft offers only the page check, the link and credit, and the invitation to contribute.",
+  "The pages shared are in English only.",
+  "The /contribute/ page still opens with Web Summit and lists summit tasks; a local reader finds no town task there yet (desks/local-jose/awareness/what-promptugal-news-is.md, gaps).",
+  "The town pages share with a card that names the Web Summit Lisbon edition (desks/local-jose/awareness/share-check.md).",
+  "A person re-opens the town page before sending and checks that it still links the organisation."
+ ]
+}
