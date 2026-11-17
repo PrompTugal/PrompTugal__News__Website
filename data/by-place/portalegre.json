@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Portalegre: AI and technology in Portalegre, the Alto Alentejo capital whose centre of gravity is its polytechnic university and the IoT, agriculture and defence-tech ambitions around it, and what reaches Portalegre from the Alentejo, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -39,6 +39,16 @@
     "motif": "Terracotta and wool dyes, granite walls, a hill town in the Serra de São Mamede with Spain on the doorstep"
   },
   "ai_news": [
+    {
+      "title": "Portalegre's university coordinates InovTechAgro II to modernise agroforestry",
+      "summary": "Rádio Portalegre reports on 16 November 2026 that the university leads the project, with an eligible investment of 59,000 euros, 85 percent co-financed by the EU, to boost innovation and digitalisation in the agroforestry sector. The report does not name AI.",
+      "date": "2026-11-16",
+      "publisher": "Rádio Portalegre",
+      "url": "https://radioportalegre.pt/portalegre-universidade-politecnica-coordena-projeto-para-modernizar-o-setor-agroflorestal/",
+      "read_on": "2026-11-17",
+      "ai_path": "Digitalisation and precision tools for farms, AI not named: three steps from AI.",
+      "steps": 3
+    },
     {
       "title": "Portalegre's polytechnic signs a tech-sector protocol with Claranet Portugal",
       "summary": "Signed on 6 November 2026, it covers training, internships, final projects and joint research in information technologies, information science and data science, and lets Claranet lend equipment for research. The page does not mention AI.",
@@ -359,18 +369,18 @@
     }
   ],
   "identity": {
-    "key_id": "site.portalegre-promptugal",
+    "key_id": "site.portalegre-promptugal-2",
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "Portalegre's council shows no AI use in what we could read: its nine latest items (3 to 12 November 2026 and one from July) cover water works, health, a walking festival and tapestry. We searched its site for AI and found no AI page. We should look for council minutes, procurement notices on base.gov.pt, and the council's smart-city work with Kyndryl.",
+    "Portalegre's council shows no AI use in what we could read: its nine latest items (3 to 12 November 2026 and one from July) cover water works, health, a walking festival and tapestry. We searched its site for AI and found no AI page. We should look for council minutes, procurement notices on base.gov.pt, and the council's smart-city work with Kyndryl. Re-read on 2026-11-17: the council's news page has nothing after 12 November 2026 (a CIMAA council meeting held in Portalegre) and no mention of AI, Kyndryl or smart city; a water-pipe item refers to digitalisation of the network only. Minutes, base.gov.pt notices and the Kyndryl smart-lighting work are still not checked.",
     "Agroportal answered 403, so we could not open its report on the 23 October 2026 AI and virtual reality workshop at the Escola Superior de Biociências in Elvas. It is not listed, and Elvas is not Portalegre city. AI4PRIME is now also sourced to Rádio Portalegre.",
     "Claranet, the Fulbright award and the IoT Challenge pages were opened and none of them mentions AI, so they sit at two or three steps. The challenge page gives no event date beyond the 6 November announcement.",
-    "No feed found for the council, the university, GII, BioBIP or NERPOR. Feeds exist for Rádio Portalegre and CIMAA. Not opened: Distrito de Portalegre (did not load) and Diário do Alentejo (its search returned nothing readable).",
+    "No feed found for the council, the university, GII, BioBIP or NERPOR. Feeds exist for Rádio Portalegre and CIMAA. Not opened: Distrito de Portalegre (did not load) and Diário do Alentejo (its search returned nothing readable). Checked on 2026-11-17: the Rádio Portalegre feed works (latest item 16 November); the CIMAA feed works but its newest item is 13 November 2026 (2027 budget, digital transition listed among priorities); the BioBIP homepage has no feed link. The university news page showed one new item on 17 November (ProExtensivo workshop, already listed).",
     "The council's Investidores pages were read, but the Espaço Empresa page was last updated in January 2023, so check it with the council. We did not open Startup Portugal's own site, Portugal Ventures or a Banco de Fomento notice.",
     "The DigiFarm2all precision-agriculture project, KNOWBIZ (an entrepreneurship project led by three polytechnics and NERSANT) and the NOS space in Ponte de Sor appeared in search summaries only and are left out.",
     "Investors: the entries are grants and programme money. We found no private funding round for a Portalegre company. Sources to look for: Portugal Ventures and Banco de Fomento notices, and Luso Defense Group announcements.",
-    "We found no AI startup or company based in Portalegre city. A thin capital for AI is a finding: its AI is in university research, with private firms mostly one or two steps away. BioBIP's companies are not listed by name on the pages we read.",
+    "We found no AI startup or company based in Portalegre city. A thin capital for AI is a finding: its AI is in university research, with private firms mostly one or two steps away. BioBIP's companies are not listed by name on the pages we read. Re-checked 2026-11-17: the BioBIP homepage still gives only a count of 78 supported companies, no names, and no news after 16 October 2026.",
     "The Campo Maior centre and AI4PA are district assets, not Portalegre city ones, and we say so on the entries.",
     "Local talent is not filled: nobody has agreed to be listed here and no public profile was read. Only organisation-level contacts from official pages are shown.",
     "The university's own name is in transition (Instituto to Universidade Politécnica). Some pages and official notices still use the old name, so search both."
