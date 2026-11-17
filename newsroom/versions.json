@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1720",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: 12:12 wake: two workers brought, pairing step 1 core; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "fa460f9cd"
+  },
+  {
     "version": "v0.1.1719",
     "date": "2026-11-17",
     "what": "security@PrompTugal.dinis: 12:05 wake: 46 commits clean; pairing step 1 pre-reviewed (go for the dry run, P1 to P10); the ATM article's evidence checked",
