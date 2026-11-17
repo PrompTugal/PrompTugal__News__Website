@@ -190,6 +190,36 @@
       "url": "https://www.gov.pt/locais-de-atendimento/loja-de-cidadao-de-setubal",
       "kind": "other",
       "feed": null
+    },
+    {
+      "name": "Rádio Azul (media map, researcher@)",
+      "url": "https://radioazul.pt/",
+      "kind": "press",
+      "feed": "https://radioazul.pt/feed/"
+    },
+    {
+      "name": "Revela Arrábida (media map, researcher@)",
+      "url": "https://revelaarrabida.pt/",
+      "kind": "press",
+      "feed": "https://revelaarrabida.pt/feed/"
+    },
+    {
+      "name": "Semmais (S+) (media map, researcher@)",
+      "url": "https://semmais.pt/",
+      "kind": "press",
+      "feed": "https://semmais.pt/feed/"
+    },
+    {
+      "name": "Setúbal Informação (media map, researcher@)",
+      "url": "https://setubalinformacao.sapo.pt/",
+      "kind": "press",
+      "feed": "https://setubalinformacao.sapo.pt/feed/"
+    },
+    {
+      "name": "Setúbal Mais (media map, researcher@)",
+      "url": "https://setubalmais.pt/",
+      "kind": "press",
+      "feed": "https://setubalmais.pt/feed/"
     }
   ],
   "events": [

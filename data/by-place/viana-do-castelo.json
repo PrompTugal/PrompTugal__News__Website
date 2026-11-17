@@ -170,6 +170,48 @@
       "url": "https://web-4ui.pages.dev/en",
       "kind": "business",
       "feed": null
+    },
+    {
+      "name": "A Aurora do Lima (media map, researcher@)",
+      "url": "https://auroradolima.com/",
+      "kind": "press",
+      "feed": "https://auroradolima.com/feed/"
+    },
+    {
+      "name": "Rádio Afifense (media map, researcher@)",
+      "url": "https://radioafifense.pt/",
+      "kind": "press",
+      "feed": "https://radioafifense.pt/feed/"
+    },
+    {
+      "name": "Rádio Alto Minho (media map, researcher@)",
+      "url": "https://radioaltominho.pt/",
+      "kind": "press",
+      "feed": "https://radioaltominho.pt/feed/?post_type=noticias"
+    },
+    {
+      "name": "Rádio Geice (media map, researcher@)",
+      "url": "https://radiogeice.com/",
+      "kind": "press",
+      "feed": "https://radiogeice.com/feed/"
+    },
+    {
+      "name": "Rádio Valdevez (media map, researcher@)",
+      "url": "https://www.radiovaldevez.pt/",
+      "kind": "press",
+      "feed": "https://www.radiovaldevez.pt/feed/"
+    },
+    {
+      "name": "Terras de Viana do Castelo (media map, researcher@)",
+      "url": "https://terrasdevianadocastelo.sapo.pt",
+      "kind": "press",
+      "feed": "https://terrasdevianadocastelo.sapo.pt/feed/"
+    },
+    {
+      "name": "Viana ao Minuto (media map, researcher@)",
+      "url": "https://vianaaominuto.pt",
+      "kind": "press",
+      "feed": "https://vianaaominuto.pt/feed/"
     }
   ],
   "events": [

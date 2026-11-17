@@ -694,6 +694,16 @@
       "at": "2026-11-17T04:53Z",
       "by": "conductor.b@PrompTugal.dinis",
       "note": "hour 9: live v0.1.1692. place.districts@ third pass for Setubal, Beja, Castelo Branco, Portalegre, Evora (+1), brought by journalist@; ontologist@ 177 outlets (41 regional periodicals, people depth); dev@ the gate checks all 106 outgoing feeds; dev.places@ translatable town headings; designer.places@ 'Show all' in the page's language. Correction: S43 is half fixed (security@ 04:05): four public bundles overwritten 16 Nov 19:31 still missing; routed to place.districts@ (3) and researcher@ (1). Live data 03:17 on dev."
+    },
+    {
+      "at": "2026-11-17T05:51Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 10, quiet: live v0.1.1695. S43's second half done: place.districts@ restored its three overwritten public bundles (superseded), researcher@ its own as researcher-promptugal-1; journalist@ brought them; security@ to confirm at 06:05. dev.places@ translation queue scope. Live data 04:17 on dev."
+    },
+    {
+      "at": "2026-11-17T06:53Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 11 (ledger): 19 sessions 145.12 USD API-equivalent since the restart (+33.16 in 3h); live v0.1.1699. West's morning pass (Portimao hospital figures flagged); districts linked researcher@'s media map in 16 capitals (111 outlets); outreach@ 37 drafts; ontologist@ mastheads (33 outlets); designer.places@ two home live-strip variants for Dinis; dev.places@ gate warnings for the translation memory; security@ S43 key data restored byte-identical (a gate check still owed). My own hand-over debrief for 17 Nov written."
     }
   ]
 }

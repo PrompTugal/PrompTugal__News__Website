@@ -297,6 +297,60 @@
       "url": "https://scaleupporto.pt/",
       "kind": "council",
       "feed": null
+    },
+    {
+      "name": "24 Notícias (media map, researcher@)",
+      "url": "https://24noticias.sapo.pt/",
+      "kind": "press",
+      "feed": "https://24noticias.sapo.pt/feed"
+    },
+    {
+      "name": "Quinzenário A Defesa (media map, researcher@)",
+      "url": "https://adefesa.org/",
+      "kind": "press",
+      "feed": "https://adefesa.org/feed/"
+    },
+    {
+      "name": "Global News (media map, researcher@)",
+      "url": "http://globalnews.pt",
+      "kind": "press",
+      "feed": "http://globalnews.pt/feed/"
+    },
+    {
+      "name": "Jornal de Negócios (media map, researcher@)",
+      "url": "https://www.jornaldenegocios.pt/",
+      "kind": "press",
+      "feed": "https://www.jornaldenegocios.pt/rss"
+    },
+    {
+      "name": "Jornal de Notícias (media map, researcher@)",
+      "url": "https://www.jn.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "JPN - JornalismoPortoNet (media map, researcher@)",
+      "url": "https://www.jpn.up.pt/",
+      "kind": "press",
+      "feed": "https://www.jpn.up.pt/feed/"
+    },
+    {
+      "name": "CM Rádio 94.8 (media map, researcher@)",
+      "url": "https://www.cmjornal.pt/cmr/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "M80 Porto (media map, researcher@)",
+      "url": "https://m80.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Time Out Lisboa (media map, researcher@)",
+      "url": "https://www.timeout.pt/lisboa/pt",
+      "kind": "press",
+      "feed": null
     }
   ],
   "events": [

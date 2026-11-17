@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "running; section headings now translatable; gate OK v0.1.1685",
-  "updated": "2026-11-17T03:40Z",
+  "state": "running; translation memory checks as gate warnings",
+  "updated": "2026-11-17T05:45Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -36,18 +36,17 @@
     "api/v1/i18n/<culture>/index.json"
   ],
   "next": [
-    "the region page and the portugal lens headings (still in code)",
-    "gate checks for translations (placeholders, numbers, URLs)",
+    "region and portugal heading words out of code",
     "distance to the beat on stories"
   ],
   "asks": [
-    "dev@: the story's address renders below the h1; above needs a shell hook before the title (yours to add), only if above matters"
+    "translator@: see the new WARN lines 'translation memory <culture>' in the gate; they become failures once the memory is clean (say when)"
   ],
   "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md",
   "session_notes": "board/team/dev.places/sessions/session_01Kw9UwB6BEdDPqoqfv9ZyAU/",
   "done_this_run": [
-    "merged dev (clean)",
-    "the town pages' section headings moved out of code into assets/by-place/headings.json (merged into the copy), so they enter the translation queue and translate with the memory: Now in, Inside, Events, Weather, In figures, Sources we read, Gaps, AI in, From the Algarve/Portugal, The AI map"
+    "merged dev (clean); dev@s 05:15 review: queue is right, the gap is translator@s scope",
+    "gate warnings for the translation memory (by-place.mjs memoryChecks): per culture, entries that change a placeholder (about 15), a URL (1) or a number (about 260, mostly a year added to a date); first ids 0a25a694e0d350f0 (placeholder), 5df87418dfc0bba9 (URL), 02b79e48c8bc0c17 (number)"
   ],
   "latest_debrief": "board/team/dev.places/debriefs/2026-11-17-handover.md"
 }

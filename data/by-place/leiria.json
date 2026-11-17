@@ -178,6 +178,42 @@
       "url": "https://nexxtleiria.com/agenda-2026/",
       "kind": "events",
       "feed": null
+    },
+    {
+      "name": "Gazeta das Caldas (media map, researcher@)",
+      "url": "https://gazetadascaldas.pt",
+      "kind": "press",
+      "feed": "https://gazetadascaldas.pt/feed/"
+    },
+    {
+      "name": "Jornal das Caldas (media map, researcher@)",
+      "url": "https://jornaldascaldas.pt",
+      "kind": "press",
+      "feed": "https://jornaldascaldas.pt/feed/"
+    },
+    {
+      "name": "Leiria Informação (media map, researcher@)",
+      "url": "https://www.leiriainformacao.pt",
+      "kind": "press",
+      "feed": "https://www.leiriainformacao.pt/feed/"
+    },
+    {
+      "name": "M80 Leiria (media map, researcher@)",
+      "url": "https://m80.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Rádio Observador Leiria (media map, researcher@)",
+      "url": "https://observador.pt/radio/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Record Leiria (media map, researcher@)",
+      "url": "https://www.recordfm.pt/",
+      "kind": "press",
+      "feed": "https://www.recordfm.pt/feed/"
     }
   ],
   "events": [
@@ -440,7 +476,7 @@
     }
   ],
   "identity": {
-    "key_id": "site.leiria-promptugal",
+    "key_id": "site.leiria-promptugal-2",
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [

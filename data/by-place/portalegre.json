@@ -196,6 +196,24 @@
       "url": "https://www.nerpor.pt",
       "kind": "business",
       "feed": null
+    },
+    {
+      "name": "Alto Alentejo (media map, researcher@)",
+      "url": "https://www.jornalaltoalentejo.com",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Canal Alentejo (media map, researcher@)",
+      "url": "https://canalalentejo.sapo.pt/",
+      "kind": "press",
+      "feed": "https://canalalentejo.sapo.pt/feed/"
+    },
+    {
+      "name": "Jornal de Portalegre (media map, researcher@)",
+      "url": "https://jornaldeportalegre.sapo.pt/",
+      "kind": "press",
+      "feed": "https://jornaldeportalegre.sapo.pt/feed/"
     }
   ],
   "events": [
