@@ -1,6 +1,6 @@
 {
  "place": "algarve",
- "read_at": "2026-11-16T23:51:23Z",
+ "read_at": "2026-11-17T01:17:17Z",
  "by": "board/tools/local-now.mjs (conductor@PrompTugal.dinis)",
  "about": "Now in the Algarve: IPMA's warnings for the Faro district, Faro airport, and each place's nearest station. Not a warning service.",
  "warnings": {
@@ -22,17 +22,8 @@
   "icao": "LPFR",
   "name": "Faro airport",
   "within_nm": 40,
-  "at": "2026-11-16T23:51:23Z",
-  "airline": [
-   {
-    "callsign": "TAP1907",
-    "airline": "TAP",
-    "type": "A320",
-    "alt_ft": 5475,
-    "on_ground": false,
-    "ground_speed_kt": 273.1
-   }
-  ],
+  "at": "2026-11-17T01:17:17Z",
+  "airline": [],
   "other_aircraft": 0,
   "page": "https://globe.adsb.lol/?lat=37.014&lon=-7.966&zoom=9",
   "source": "https://api.adsb.lol/",
@@ -42,7 +33,7 @@
   {
    "place": "faro",
    "station": "Faro (Aeródromo)",
-   "temp_c": 19.1
+   "temp_c": 19
   },
   {
    "place": "loule",
@@ -67,7 +58,7 @@
   {
    "place": "vila-real-de-santo-antonio",
    "station": "Vila Real de S. António",
-   "temp_c": 15.5
+   "temp_c": 17.4
   },
   {
    "place": "portimao",
@@ -97,12 +88,12 @@
   {
    "place": "monchique",
    "station": "Fóia",
-   "temp_c": 12.8
+   "temp_c": 12.9
   },
   {
    "place": "aljezur",
    "station": "Aljezur",
-   "temp_c": 16.8
+   "temp_c": 17.3
   },
   {
    "place": "vila-do-bispo",
@@ -112,12 +103,12 @@
   {
    "place": "castro-marim",
    "station": "Castro Marim (RN Sapal)",
-   "temp_c": 14.5
+   "temp_c": 14.9
   },
   {
    "place": "alcoutim",
    "station": "Alcoutim, Mart.Longo",
-   "temp_c": 14.3
+   "temp_c": 14.5
   },
   {
    "place": "sao-bras-de-alportel",
@@ -128,62 +119,62 @@
  "reads": {
   "warnings": {
    "url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-   "at": "2026-11-16T23:50:55Z",
+   "at": "2026-11-17T01:15:45Z",
    "status": 200
   },
   "observations": {
    "url": "https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json",
-   "at": "2026-11-16T23:50:57Z",
+   "at": "2026-11-17T01:15:47Z",
    "status": 200
   },
   "city-daily-1080500": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080500.json",
-   "at": "2026-11-16T23:50:59Z",
+   "at": "2026-11-17T01:15:49Z",
    "status": 200
   },
   "city-daily-1080800": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080800.json",
-   "at": "2026-11-16T23:51:01Z",
+   "at": "2026-11-17T01:15:51Z",
    "status": 200
   },
   "city-daily-1081100": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081100.json",
-   "at": "2026-11-16T23:51:03Z",
+   "at": "2026-11-17T01:15:53Z",
    "status": 200
   },
   "city-daily-1081505": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081505.json",
-   "at": "2026-11-16T23:51:06Z",
+   "at": "2026-11-17T01:15:56Z",
    "status": 200
   },
   "fire-risk-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d0.json",
-   "at": "2026-11-16T23:51:08Z",
+   "at": "2026-11-17T01:15:58Z",
    "status": 200
   },
   "fire-risk-d1": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d1.json",
-   "at": "2026-11-16T23:51:10Z",
+   "at": "2026-11-17T01:16:00Z",
    "status": 200
   },
   "fire-risk-d2": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d2.json",
-   "at": "2026-11-16T23:51:12Z",
+   "at": "2026-11-17T01:16:02Z",
    "status": 200
   },
   "uv": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/uv/uv.json",
-   "at": "2026-11-16T23:51:14Z",
+   "at": "2026-11-17T01:16:04Z",
    "status": 200
   },
   "sea-forecast-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/oceanography/daily/hp-daily-sea-forecast-day0.json",
-   "at": "2026-11-16T23:51:16Z",
+   "at": "2026-11-17T01:16:06Z",
    "status": 200
   },
   "adsb": {
    "url": "https://api.adsb.lol/v2/point/37.0144/-7.9659/40",
-   "at": "2026-11-16T23:51:23Z",
+   "at": "2026-11-17T01:17:17Z",
    "status": 200
   }
  }
