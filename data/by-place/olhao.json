@@ -35,6 +35,20 @@
   },
   "ai_news": [
     {
+      "title": "Olhao computer science teacher returns from a Prague Erasmus+ course on advanced AI in education",
+      "summary": "A computer science teacher at the Dr. Francisco Fernandes Lopes school group in Olhao took part in a 2 to 6 November Erasmus+ course in Prague on AI for education: prompts, AI agents, chatbots, rules for AI use in schools. She plans a teacher training action and to use the tools with vocational students.",
+      "date": "2026-11-17",
+      "publisher": "Postal do Algarve (Europe Direct Algarve)",
+      "url": "https://postal.pt/europedirectalgarve/professora-de-olhao-aposta-na-inteligencia-artificial-etica-e-criativa-apos-formacao-em-praga/",
+      "read_on": "2026-11-17",
+      "ai_path": "Direct: the course and the planned school training are about AI use in teaching.",
+      "steps": 0,
+      "significance": "town",
+      "blast": [
+        "faro"
+      ]
+    },
+    {
       "title": "Algarve 2030 conference in Faro on 24 November: AI and water management",
       "summary": "The Programa Regional Algarve 2030, with the newspaper Publico, holds the third conference of its water cycle at the University of Algarve, Campus da Penha, Faro, from 14:00 to 18:00. Panels cover smart water management and smart cities; speakers include water utilities, the Portuguese Environment Agency and municipalities. Olhao is not named in the article.",
       "date": "2026-11-16",
