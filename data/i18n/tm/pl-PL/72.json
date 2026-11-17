@@ -1,0 +1,42 @@
+{
+ "7220d0bc2f32b439": {
+  "t": "OmniumAI, zrodzona w Centrum Inżynierii Biologicznej UMinho, koordynuje IngredientIA z firmą NIUM i laboratorium nanotechnologii INL. AI bada dane o składnikach i mikrobiocie jelitowej, by przewidywać, jak składniki żywności ze sobą oddziałują.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "OmniumAI, born at UMinho's Centre of Biological Engineering,",
+  "ok": false
+ },
+ "724a0c2b63a0c186": {
+  "t": "W ramach programu Competências do Futuro Algarve regionalna instytucja turystyczna zaplanowała na 17 kwietnia w szkole hotelarskiej i turystycznej w Portimão bezpłatną czterogodzinną sesję o AI obejmującą ChatGPT, Gemini, Copilot, automatyzację i promptowanie, plus bootcamp efektywności wodnej.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "As part of its Competências do Futuro Algarve programme, the",
+  "ok": false
+ },
+ "72bcf8b4e7a0b779": {
+  "t": "Aktywność AI w Viseu biegnie bardziej przez instytucje publiczne i akademickie niż przez startupy. Politécnico de Viseu, które 1 sierpnia 2026 roku stało się Universidade Politécnica de Viseu, kieruje RiskMap, projektem za 244 944 euro do mapowania degradacji budynków za pomocą AI, i opublikowało zasady użycia AI. Na jego kampusie Instytut STAR, centrum technologii otwarte 22 maja 2026 roku, wymienia AI jako pierwszy obszar digitalizacji i gości dwa startupy. Gmina jest członkiem hubu AI4PA dla administracji publicznej, a organ międzygminny CIM Viseu Dão Lafões zaprezentował 29 października 2026 roku platformę danych z narzędziami AI dla burmistrzów.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Viseu's AI activity runs through public and academic bodies ",
+  "ok": false
+ },
+ "72e1d8635f04b3e5": {
+  "t": "EDP ogłosiło 8 października 2025 roku elektrownię słoneczną 15,3 MW w Aljezur, zbudowaną obok istniejącej farmy wiatrowej Bordeira 24 MW i korzystającą z jej przyłącza do sieci, więc nowa stacja nie była potrzebna. To trzeci hybrydowy projekt wiatrowo-słoneczny EDP w Portugalii, z szacowanymi 24,6 GWh rocznie. Artykuł nie wspomina o centrach danych ani AI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "EDP announced on 8 October 2025 a 15.3 MW solar plant in Alj",
+  "ok": false
+ },
+ "72f92682698dcd24": {
+  "t": "Dwa warsztaty hybrydowe w ramach hubu AI4PA, jeden dla rad parafii 31 stycznia i jeden o AI w modernizacji ratuszy 21 marca, z opłatą 5 euro współfinansowaną przez AI4PA. Drugi obejmował ramy prawne i przypadki dotyczące procesów cyfrowych, komunikacji i obsługi obywateli.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Two hybrid workshops run under the AI4PA hub, one for parish",
+  "ok": false
+ }
+}

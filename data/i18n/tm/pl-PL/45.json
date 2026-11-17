@@ -1,0 +1,50 @@
+{
+ "45460d98ac0c4316": {
+  "t": "Sparos, firma paszowa z Olhão, sprzedaje cyfrowe narzędzia żywieniowe dla hodowli ryb",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Sparos, the Olhão feed company, sells digital nutrition tool",
+  "ok": false
+ },
+ "454d988659d3a7c3": {
+  "t": "Algarve Evolution otworzyło pilotaż, by wybrać 15 MŚP turystycznych z Algarve do doradztwa i planu działań w zakresie AI i robotyki, ze zgłoszeniami od 20 lutego do 30 kwietnia 2026 roku. Szersze konsorcjum Inova Algarve 3.0 prowadzi NERA, której strona główna podaje jako gminę Loulé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Algarve Evolution opened a pilot to pick 15 Algarve tourism ",
+  "ok": false
+ },
+ "457d5326b74279d4": {
+  "t": "Posiedzenie rady 21 sierpnia 2026 roku zatwierdziło umowę z Odin Systems na ODIN Defense Hub, opisany jako związany z obronnością i technologiami takimi jak drony i systemy inteligentne, inwestycję powyżej 40 milionów euro z do 120 miejscami pracy. Zatwierdziło też protokół z Beyond Vision na lokalną produkcję komponentów dronów i testowanie statków powietrznych na lotnisku gminnym. Strona nie podaje daty publikacji, więc użyto daty posiedzenia.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "A council meeting on 21 August 2026 approved an agreement wi",
+  "ok": false
+ },
+ "4591669ecf2e130e": {
+  "t": "Algarve STP wybiera 12 firm do pierwszego Venture Lab, AI wśród sektorów",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Algarve STP picks 12 firms for its first Venture Lab, AI amo",
+  "ok": false
+ },
+ "45a9326d0f22ce6d": {
+  "t": "Rada pomaga uruchomić szkolenie AI4PA dla urzędników publicznych, z pierwszą sesją w Viseu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The council helps launch AI4PA training for public servants ",
+  "ok": false
+ },
+ "45d99c75fc59880f": {
+  "t": "Na mocy protokołu z Narodowym Instytutem Rehabilitacji rada zainstalowała w czterech służbach publicznych czujniki, które w czasie rzeczywistym zgłaszają, czy zarezerwowane miejsce jest wolne, a dane pokazuje program i aplikacja Acessibilidades 360. Artykuł nie twierdzi, że używa jakiejkolwiek AI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Under a protocol with the National Institute for Rehabilitat",
+  "ok": false
+ }
+}

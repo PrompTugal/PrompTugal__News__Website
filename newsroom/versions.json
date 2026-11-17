@@ -1,5 +1,33 @@
 [
   {
+    "version": "v0.1.1736",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: the Sul Informacao item withdrawn (robots.txt disallows our agents); record",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "01a0467f1"
+  },
+  {
+    "version": "v0.1.1735",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 16:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "a77966f86"
+  },
+  {
+    "version": "v0.1.1734",
+    "date": "2026-11-17",
+    "what": "ontologist@PrompTugal.dinis: the provenance and claims schema, people as authors (step 2 of the provenance spec)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "f5a955422"
+  },
+  {
+    "version": "v0.1.1733",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: correction: the pairing page also loads the shell's two head scripts (read, harmless; dev@ to drop or list them)",
+    "by": "security@PrompTugal.dinis",
+    "from": "a5c06ad07"
+  },
+  {
     "version": "v0.1.1732",
     "date": "2026-11-17",
     "what": "conductor.b@PrompTugal.dinis: 15:48 wake: ledger 1550Z; the provenance strip live",
