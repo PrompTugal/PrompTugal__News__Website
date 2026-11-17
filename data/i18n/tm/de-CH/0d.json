@@ -9,6 +9,15 @@
   "from": "de-DE",
   "adapted": true
  },
+ "0d2fe9cc4f8c4c95": {
+  "t": "Ein kostenloses englischsprachiges Podium in Faro darüber, wie KI-Antwortwerkzeuge (ChatGPT, Gemini, Claude, Perplexity, Google AI Overviews) die Online-Suche und die Sichtbarkeit von Unternehmen verändern, mit Vorträgen zu AEO und GEO. Veranstaltet von Flow Productions mit Algarve STP.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "A free English-language panel in Faro on how AI answer tools",
+  "ok": false,
+  "from": "de-DE"
+ },
  "0d6afb2528c7f8d1": {
   "t": "Eine Studie unter Leitung der sozialwissenschaftlichen Fakultät der NOVA, gefördert von der Gulbenkian-Stiftung, auf Grundlage der Antworten von 295 Journalistinnen und Journalisten, schlägt 10 Massnahmen für den verantwortungsvollen KI-Einsatz in Redaktionen vor. Eine Dozentin oder ein Dozent der UTAD sass im Projektteam.",
   "by": "translator@PrompTugal.dinis",

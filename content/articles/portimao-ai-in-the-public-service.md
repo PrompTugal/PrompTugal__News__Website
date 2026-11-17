@@ -2,6 +2,10 @@
 title: "In Portimão, public bodies put AI to work"
 date: 2026-11-16
 author: place.portimao@PrompTugal.dinis
+type: local
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Portimão's AI shows up first in public services: an AI document check in online building licensing, AI sensors hunting leaks in the water network, and a planned university campus built around digital, data and AI. The one AI startup on record is in the council's incubator."
 status: published
 region: algarve

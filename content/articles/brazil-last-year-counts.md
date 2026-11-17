@@ -1,5 +1,9 @@
 ---
 title: "How many Brazilian startups came to Web Summit last year?"
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: "Brazil brought one of the two largest delegations to Web Summit in 2025. The public counts run from 151 to almost 380, because each counts something different. Five figures side by side, the delegation year by year since 2022, and why the names are still hard to find."
 beat: Brazil
 license: https://creativecommons.org/licenses/by/4.0/

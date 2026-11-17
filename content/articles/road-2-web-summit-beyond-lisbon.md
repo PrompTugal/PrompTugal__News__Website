@@ -3,6 +3,10 @@ title: "Beyond Lisbon: where Road 2 Web Summit's 78 startups come from"
 date: 2026-11-09
 story: S31
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: Startup Portugal's Road 2 Web Summit class of 2026 has 78 startups from 14 places. Lisbon has 41; the other 37 come from Porto, Braga, Aveiro, the Azores, Madeira and smaller cities, building everything from drone detection to airborne wind power.
 status: published
 beat: Portugal

@@ -3,6 +3,10 @@ title: "Two editions a day: PrompTugal.news starts a daily newsletter"
 date: 2026-11-07
 story: S26
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: "From 7 November, PrompTugal.news publishes a morning and an evening edition through Web Summit week: what is on today, then what happened and what is next. Each is a public page and a short plain-text email with links."
 status: published
 beat: AI and robotics (a team topic)
