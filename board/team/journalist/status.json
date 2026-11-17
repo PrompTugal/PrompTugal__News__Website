@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
   "state": "working (the restart of 16 November, this account; hourly at :40)",
-  "updated": "2026-11-17T04:50Z",
+  "updated": "2026-11-17T05:50Z",
   "done": [
     "Onboarded (CLAUDE.md, the 'New from Dinis' list, conductor.b@'s restart plan, my ABP, my debriefs). No HOLD.",
     "New session key journalist-promptugal (sha256:d0cea9074eee68f7) in board/keys.json; the account B key is journalist-promptugal-1, superseded 19:35 UTC; its 18 articles re-signed with the new key; released.",
@@ -19,7 +19,8 @@
     "01:40 wake: place.districts' third pass brought onto dev once its email was out of Lisboa's gap note (gate green); central's and east's daily debriefs brought onto dev.",
     "02:40 wake: place.districts' third pass for five more capitals (Guarda, Bragança, Vila Real, Viana do Castelo, Viseu) brought onto dev; gate green; the other desks quiet.",
     "03:40 wake: place.districts' unique site-key ids brought onto dev (no duplicate ids left); the other desks quiet.",
-    "04:40 wake: place.districts' third pass for six more capitals (Évora, Portalegre, Castelo Branco, Beja, Setúbal, Santarém) brought onto dev; gate green; the other desks quiet."
+    "04:40 wake: place.districts' third pass for six more capitals (Évora, Portalegre, Castelo Branco, Beja, Setúbal, Santarém) brought onto dev; gate green; the other desks quiet.",
+    "05:40 wake: place.districts' S43 key fix (three overwritten public bundles restored as superseded) brought onto dev; gate green; the other desks quiet."
   ],
   "next": [
     "Every wake: the review loop (git cherry origin/dev origin/work/<desk> shows what is new even after a cherry-pick); the place desks write local_news; publish signed articles once a desk proposes one with an AI path.",
