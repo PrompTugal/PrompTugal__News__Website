@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.castro-marim@PrompTugal.dinis",
   "mandate": "PrompTugal.news Castro Marim: AI and technology in Castro Marim, a salt-pan and Guadiana border town where the AI sits in its council's planning office and its salt works, and what reaches Castro Marim from the Algarve, Portugal and the world. Independent, and every fact sourced.",
   "gravity": {
@@ -144,7 +144,20 @@
       "feed": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "title": "Vila Coração Christmas programme opens, Praça 1.º de Maio (17:30)",
+      "date": "2026-11-28",
+      "url": "https://cm-castromarim.pt/site/noticia/castro-marim-inaugura-quadra-natalicia-com-uma-nova-marca-e-uma-nova-essencia-vila-coracao",
+      "read_on": "2026-11-17"
+    },
+    {
+      "title": "The Great World Race stop in Altura (18:00)",
+      "date": "2026-11-19",
+      "url": "https://postal.pt/algarve/mau-tempo-na-antartida-altera-horario-de-corrida-mundial-em-altura/",
+      "read_on": "2026-11-17"
+    }
+  ],
   "ai_map": [
     {
       "name": "SalOS",
@@ -211,7 +224,8 @@
     "Investors: we found no investor, fund or investment in a Castro Marim company in public sources. The only funding trace is council projects, so the investment map is empty here, which is itself a finding.",
     "Local talent: we found no publicly speaking AI or tech person tied to Castro Marim, and the council business page names no desk or contact for entrepreneurs beyond its general office. A named business-support contact would help a founder starting here.",
     "The Algarve dementia congress said to be held in Castro Marim on 12 and 13 November with an AI session is not confirmed: the council's news list for 2 to 16 November has no such item. Not a fact until a page we can open shows it.",
-    "No council meeting decisions and no new salt or SalOS item on the pages opened on 16 November; the fetch tool summarises pages, so dates should be rechecked on the live pages."
+    "No council meeting decisions and no new salt or SalOS item on the pages opened on 16 November; the fetch tool summarises pages, so dates should be rechecked on the live pages.",
+    "A police investigation into a death in Altura (Postal, 15 November) is not used: a crime story about a private individual."
   ],
   "voice": {
     "lede": "Cá em Castro Marim the salt dries in the sun and the AI, ó pá, still has to be asked to come up from the car park.",
@@ -332,6 +346,40 @@
       "ai_path": "no AI",
       "steps": 0,
       "blast_radius": "Vila Real de Santo António and Alcoutim under the same warnings"
+    },
+    {
+      "title": "Castro Marim launches 'Vila Coração', a new Christmas brand, from 28 November",
+      "summary": "Lighting ceremony at 17:30 in Praça 1.º de Maio on 28 November; the programme runs to 9 January 2027 across the municipality and invites residents to decorate homes and windows.",
+      "date": "2026-11-16",
+      "publisher": "Município de Castro Marim",
+      "url": "https://cm-castromarim.pt/site/noticia/castro-marim-inaugura-quadra-natalicia-com-uma-nova-marca-e-uma-nova-essencia-vila-coracao",
+      "read_on": "2026-11-17",
+      "significance": "town",
+      "ai_path": "no AI",
+      "steps": 0
+    },
+    {
+      "title": "The Great World Race now stops in Altura on 19 November at 18:00",
+      "summary": "Bad weather in Antarctica changed the timing of the seven-continent marathon series; the Altura stop starts on Avenida 24 de Junho and runs into the night.",
+      "date": "2026-11-16",
+      "publisher": "Postal",
+      "url": "https://postal.pt/algarve/mau-tempo-na-antartida-altera-horario-de-corrida-mundial-em-altura/",
+      "read_on": "2026-11-17",
+      "significance": "town and country",
+      "ai_path": "no AI",
+      "steps": 0
+    },
+    {
+      "title": "Castro Marim's José Cabrita residence for neurodegenerative diseases has 70 users",
+      "summary": "The Santa Casa da Misericórdia's residence and day centre uses outings, yoga, flamenco and cognitive exercises rather than mainly medication, and is described as the first of its kind in the south. This is the only Alzheimer's-related item found; it says nothing about the dementia congress claimed earlier.",
+      "date": "2026-11-16",
+      "publisher": "Postal",
+      "url": "https://postal.pt/algarve/castro-marim-tem-projeto-pioneiro-residencia-dedicada-a-doencas-neurodegenerativas-tem-70-utentes-e-e-a-primeira-da-regiao-sul/",
+      "read_on": "2026-11-17",
+      "significance": "town, neighbours and region",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "Vila Real de Santo António, Tavira"
     }
   ]
 }

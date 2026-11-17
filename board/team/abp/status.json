@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-17T06:50Z",
+  "updated": "2026-11-17T09:50Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -44,7 +44,10 @@
     "03:50 eighth hourly wake: run-report check fixed (3h look-back), 0 breaches; daily debrief written (board/abp/reports/2026-11-17-0337.md)",
     "04:50 ninth hourly wake: 0 breaches; 4 attempts are the two proposals already with Dinis (board/abp/reports/2026-11-17-0437.md)",
     "05:50 tenth hourly wake: quiet; researcher@ owes a run report (board/abp/reports/2026-11-17-0537.md)",
-    "06:50 eleventh hourly wake: clean, 0 breaches, 0 attempts (board/abp/reports/2026-11-17-0637.md)"
+    "06:50 eleventh hourly wake: clean, 0 breaches, 0 attempts (board/abp/reports/2026-11-17-0637.md)",
+    "07:50 twelfth hourly wake: 0 breaches; 3 attempts are the two proposals with Dinis (board/abp/reports/2026-11-17-0737.md)",
+    "08:50 thirteenth hourly wake: clean, 0 breaches, 0 attempts (board/abp/reports/2026-11-17-0837.md)",
+    "09:50 fourteenth hourly wake: 1 breach, Vicky's reviewer edited a published article (board/abp/reports/2026-11-17-0937.md)"
   ],
   "next": [
     "Hourly review of run reports at :37 (board/abp/reports/); check the new desks re-key their site keys and sites pass (34 of 36 now)",
