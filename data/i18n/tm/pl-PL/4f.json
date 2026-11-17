@@ -1,0 +1,26 @@
+{
+ "4f3e97f9e66ccaa9": {
+  "t": "ALGAR, spółka gospodarki odpadami z Algarve z siedzibą w Almancil, zbudowała z start-upem NILG.AI narzędzie, które za pomocą AI wybiera miejsca na punkty recyklingu, pilotowane w Lagoa. Wstępnie wybrało 14 miejsc w cztery godziny i skróciło czas do końcowej propozycji o 83%, a także zdobyło nagrodę Data Changemaker of the Year. To zgłaszane wyniki partnerów.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "ALGAR, the Algarve's waste-management company headquartered ",
+  "ok": false
+ },
+ "4f4dbd7e2eb935a3": {
+  "t": "Stocznia nad Guadiana planuje jednostkę obronną nastawioną na statki bezzałogowe",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "A Guadiana shipyard plans a defence unit aimed at unmanned v",
+  "ok": false
+ },
+ "4f865dca2c572101": {
+  "t": "Wiceprzewodnicząca CCDR Algarve ds. edukacji objechała 4 listopada 2026 roku sieć szkół miasta. Szkoła średnia ma wyspecjalizowane centrum technologii w informatyce, opisane jako pierwsze takie w regionie. Burmistrz powiedział, że rozbudowa szkoły za 6 milionów euro wciąż czeka na odpowiedź w sprawie wniosku z planu odbudowy. Relacja nie wspomina o AI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The vice-president for education of CCDR Algarve toured the ",
+  "ok": false
+ }
+}

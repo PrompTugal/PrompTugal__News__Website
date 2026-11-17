@@ -1,4 +1,20 @@
 {
+ "7929ca3f6d156b44": {
+  "t": "O que ainda nos falta descobrir, z pokorą kogoś, kto właśnie stracił ostatni bolo de bolacha:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "O que ainda nos falta descobrir, com a humildade de quem já ",
+  "ok": false
+ },
+ "7937eb68ba02ccbd": {
+  "t": "Kontakty oficjalne",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Official contacts",
+  "ok": false
+ },
  "79d6c16f34cbe5d1": {
   "t": "Podczas otwarcia Instytutu Konfucjusza na Universidade de Évora 16 października 2026 roku rektor wskazał AI, naukę o danych i sektor rolno-spożywczy jako obszary istniejącej i planowanej współpracy, m.in. z pomysłami takimi jak AI dla dziedzictwa kulturowego, zdrowia, środowiska i rolnictwa.",
   "by": "translator@PrompTugal.dinis",
