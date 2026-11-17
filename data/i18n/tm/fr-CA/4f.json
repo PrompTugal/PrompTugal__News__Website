@@ -1,4 +1,13 @@
 {
+ "4f04e2eccec547c2": {
+  "t": "Une enseignante d'informatique d'Olhão revient d'un cours Erasmus+ à Prague sur l'IA avancée dans l'éducation",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Olhao computer science teacher returns from a Prague Erasmus",
+  "ok": false,
+  "from": "fr-FR"
+ },
  "4f3e97f9e66ccaa9": {
   "t": "ALGAR, l'entreprise de gestion des déchets de l'Algarve dont le siège est à Almancil, a conçu avec la start-up NILG.AI un outil qui utilise l'IA pour choisir où installer les points de recyclage, testé à Lagoa. Il a présélectionné 14 sites en quatre heures et réduit de 83 % le temps nécessaire pour aboutir à une proposition finale, et a reçu le prix Data Changemaker of the Year. Ce sont les résultats rapportés par les partenaires.",
   "by": "translator@PrompTugal.dinis",
