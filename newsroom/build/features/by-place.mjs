@@ -126,7 +126,15 @@ function tagged(ctx, test) {
     return ctx.content.filter(c => c.rel.startsWith('articles/') && c.meta && c.meta.date && c.meta.status !== 'draft' && test(c.meta))
         .sort((a, b) => String(b.meta.date).localeCompare(String(a.meta.date)))
 }
-const articleList = (ctx, rel, list) => `{.bp-latest}\n${list.map(c => `- [${esc(ctx, c.meta.title)}](${ctx.link(rel, c.rel)}) · ${esc(ctx, dmy(String(c.meta.date)))}`).join('\n')}\n\n`
+// distance to the beat (board/briefs/2026-11-16-every-story-has-an-address.md, item 3): an article filed under another
+// place says how far that place is from this one, from the blast radius' distances (datasci-places nearbyOf)
+function beatNote(ctx, c, from) {
+    const town = c.meta.town; if (!from || !town || town === from) return ''
+    let d; try { d = nearbyOf(ctx, from) } catch { return '' }
+    const hit = d && (d.distances || []).find(x => x.id === town)
+    return hit && hit.km != null ? ` · ${aroundW(ctx).km.replace('{name}', esc(ctx, hit.name)).replace('{km}', Math.round(hit.km))}` : ''
+}
+const articleList = (ctx, rel, list, from) => `{.bp-latest}\n${list.map(c => `- [${esc(ctx, c.meta.title)}](${ctx.link(rel, c.rel)}) · ${esc(ctx, dmy(String(c.meta.date)))}${beatNote(ctx, c, from)}`).join('\n')}\n\n`
 
 function gravityBlock(ctx, L, p) {
     const v = p.voice || {}, srcs = arr(p.gravity && p.gravity.sources).filter(s => okUrl(s && s.url))
@@ -206,7 +214,7 @@ function townPage(ctx, L, p) {
     md += aroundBlock(ctx, p, around)
     if (ours.length) md += `## ${W(L, 'articles_h', { name: esc(ctx, p.name) })} {#ours}\n\n${articleList(ctx, rel, ours)}`
     if (wider.length) md += `## ${W(L, algarve ? 'h_from_algarve' : 'h_from_portugal')} {#region}\n\n${newsCards(ctx, wider, 'bp-small')}\n\n`
-    if (latest.length) md += `## ${W(L, 'national_h')} {#national}\n\n${articleList(ctx, rel, latest)}`
+    if (latest.length) md += `## ${W(L, 'national_h')} {#national}\n\n${articleList(ctx, rel, latest, p.id)}`
     md += `## ${W(L, 'h_map')} {#map}\n\n${W(L, 'map_intro', { name: p.name })}\n\n` + (mapRows(ctx, p.ai_map) || `{.bp-empty}\n${W(L, 'h_mapping')}`) + '\n\n'
     if (p.investors.length) md += `## ${W(L, 'investors_h')} {#investors}\n\n${W(L, 'investors_intro', { name: esc(ctx, p.name) })}\n\n` + entries(ctx, p.investors, 'bp-invest', x => [x.type && ` \`${esc(ctx, x.type)}\``, x.amount && ` **${esc(ctx, x.amount)}**`, x.date && ` (${esc(ctx, x.date)})`].filter(Boolean).join(''))
     if (p.talent.length) md += `## ${W(L, 'talent_h')} {#talent}\n\n${W(L, 'talent_intro')}\n\n` + entries(ctx, p.talent, 'bp-talent', x => x.role ? `, ${esc(ctx, x.role)}.` : '')

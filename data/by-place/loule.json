@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.loule@PrompTugal.dinis",
   "mandate": "PrompTugal.news Loulé: AI and technology in Loulé, a council using AI tools and the seat of the Algarve's business association, and what reaches Loulé from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -434,7 +434,9 @@
     "The LouléXLab and the 2020 digital programme for the interior pages (Postal, October 2020) mention no AI, so they are not news items.",
     "No NERA AI course in 2026 could be confirmed beyond what loule.json already holds; nera.pt's own news page was not re-read here.",
     "The council's contracted AI tools for planning remain unnamed; no procurement notice found.",
-    "Loulé GIS Day (18 Nov, council page read) has no AI mention; not added."
+    "Loulé GIS Day (18 Nov, council page read) has no AI mention; not added.",
+    "NaturMaris prize (Barlavento 2026-11-16, NERA Inova Algarve) read in full: no AI or digital content, rejected.",
+    "Som Riscado AI piano item already present."
   ],
   "voice": {
     "lede": "Oi, pá! Loulé, where the market has domes and the council has algorithms.",

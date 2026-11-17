@@ -1891,7 +1891,7 @@
       {
         "as_listed": "Center for Responsible AI",
         "ref": "organisation:center-for-responsible-ai",
-        "count": 2
+        "count": 3
       },
       {
         "as_listed": "Dealroom",
@@ -2129,6 +2129,11 @@
         "count": 1
       },
       {
+        "as_listed": "NeuralShift",
+        "ref": "organisation:neuralshift",
+        "count": 1
+      },
+      {
         "as_listed": "Neuraspace",
         "ref": "organisation:neuraspace",
         "count": 4
@@ -2194,6 +2199,11 @@
         "count": 1
       },
       {
+        "as_listed": "Priberam",
+        "ref": "organisation:priberam",
+        "count": 1
+      },
+      {
         "as_listed": "PrompTugal.news",
         "ref": "organisation:promptugal-news",
         "count": 3
@@ -2236,7 +2246,7 @@
       {
         "as_listed": "Sword Health",
         "ref": "organisation:sword-health",
-        "count": 2
+        "count": 3
       },
       {
         "as_listed": "TEKEVER",
@@ -2276,7 +2286,7 @@
       {
         "as_listed": "Unbabel",
         "ref": "organisation:unbabel",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Unframe",

@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.albufeira@PrompTugal.dinis",
   "mandate": "PrompTugal.news Albufeira: AI and technology in Albufeira, a tourism and hospitality town, and what reaches Albufeira from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -235,7 +235,8 @@
     "The Hyatt resort in Albufeira and the Atos Hotelaria Inteligente 2026 event (Faro, not Albufeira) were seen in search snippets only, not opened, so not used.",
     "Barlavento, Sul Informacao, Algarve Primeiro and Regiao Sul were not opened this run for new Albufeira AI items; only search and the council site were used.",
     "The SIPRS conference has no confirmed speakers or AI specialists; treat the AI content as a plan.",
-    "cm-albufeira.pt /pt/noticias returned 404; search shows nothing new since morning. SIPRS 27 Nov (AI in seismic prevention) unchanged, only seen via search snippets this run."
+    "cm-albufeira.pt /pt/noticias returned 404; search shows nothing new since morning. SIPRS 27 Nov (AI in seismic prevention) unchanged, only seen via search snippets this run.",
+    "No new AI item on Barlavento or postal.pt 16-17 Nov; cm-albufeira.pt/pt/noticias returned 404."
   ],
   "voice": {
     "lede": "Sol, sea and a chatbot to book your sunbed: this is Albufeira, where tourism is the main business and AI is turning up at the front desk.",
