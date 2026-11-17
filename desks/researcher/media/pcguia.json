@@ -1,0 +1,86 @@
+{
+ "id": "pcguia",
+ "type": "organisation",
+ "kind": "media",
+ "name": "PCGuia",
+ "names_as_listed": [
+  "PCGuia",
+  "PC Guia"
+ ],
+ "media_kind": "magazine",
+ "reach": "national",
+ "language": "pt",
+ "website": "https://www.pcguia.pt/",
+ "places_covered": [
+  {
+   "place": "Portugal (national ICT and technology news; monthly paper and online)",
+   "source_url": "https://www.pcguia.pt/estatuto-editorial/",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "Fidemo - Soc. de Media Lda.",
+  "source_url": "https://www.pcguia.pt/contactos/",
+  "read_at": "2026-11-17"
+ },
+ "contact_page_url": "https://www.pcguia.pt/contactos/",
+ "public_contact": [
+  {
+   "channel": "General newsroom address redaccao@pcguia.fidemo.pt as published; Azinhaga da Torre do Fato 7 B, Escritorio 1, 1600-774 Lisboa",
+   "source_url": "https://www.pcguia.pt/contactos/",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://www.pcguia.pt/feed/",
+   "checked": "HTTP 200, application/rss+xml, RSS 2.0 body",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "people": [
+  {
+   "name": "Pedro Tróia",
+   "role": "Director",
+   "source_url": "https://www.pcguia.pt/contactos/",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Ricardo Durand",
+   "role": "Editor",
+   "source_url": "https://www.pcguia.pt/contactos/",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Mafalda Freire",
+   "role": "Jornalista",
+   "source_url": "https://www.pcguia.pt/contactos/",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Vasco Manuel Taveira",
+   "role": "Director-Geral",
+   "source_url": "https://www.pcguia.pt/contactos/",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.pcguia.pt/contactos/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Contacts page, also prints the masthead and 'Nº registo E.R.C. 119 452'."
+  },
+  {
+   "url": "https://www.pcguia.pt/estatuto-editorial/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Editorial statute: monthly paper and online publication on ICT."
+  }
+ ],
+ "gaps": [
+  "Individual staff email addresses are published on the contacts page; personal contact published, not recorded.",
+  "General phone and commercial department not recorded."
+ ]
+}

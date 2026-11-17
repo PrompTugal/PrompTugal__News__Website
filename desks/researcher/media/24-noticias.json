@@ -1,0 +1,123 @@
+{
+ "id": "24-noticias",
+ "type": "organisation",
+ "kind": "media",
+ "name": "24 Notícias",
+ "media_kind": "online",
+ "reach": "national",
+ "language": "pt",
+ "website": "https://24noticias.sapo.pt/",
+ "places_covered": [
+  {
+   "place": "Portugal (national news with local sections such as Porto; newsroom in Lisboa)",
+   "source_url": "https://24noticias.sapo.pt/ficha-tecnica",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "MadreMedia, Lda.",
+  "source_url": "https://24noticias.sapo.pt/ficha-tecnica",
+  "read_at": "2026-11-17"
+ },
+ "contact_page_url": "https://24noticias.sapo.pt/ficha-tecnica",
+ "public_contact": [
+  {
+   "channel": "Newsroom postal address Rua António Pedro 46, 3.º, 1000-039 Lisboa as published on the ficha tecnica",
+   "source_url": "https://24noticias.sapo.pt/ficha-tecnica",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://24noticias.sapo.pt/feed",
+   "checked": "HTTP 200, application/rss+xml, RSS 2.0 body",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "people": [
+  {
+   "name": "Rute Sousa Vasco",
+   "role": "Diretora-geral",
+   "source_url": "https://24noticias.sapo.pt/ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Ana Maria Pimentel",
+   "role": "Editora Executiva",
+   "source_url": "https://24noticias.sapo.pt/ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Alexandra Antunes",
+   "role": "Jornalista",
+   "source_url": "https://24noticias.sapo.pt/ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "David Pacheco",
+   "role": "Jornalista",
+   "source_url": "https://24noticias.sapo.pt/ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Francisco Sena Santos",
+   "role": "Jornalista",
+   "source_url": "https://24noticias.sapo.pt/ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Gonçalo Lopes",
+   "role": "Jornalista",
+   "source_url": "https://24noticias.sapo.pt/ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Isabel Tavares",
+   "role": "Jornalista",
+   "source_url": "https://24noticias.sapo.pt/ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "José Couto Nogueira",
+   "role": "Jornalista",
+   "source_url": "https://24noticias.sapo.pt/ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Meiline Silva",
+   "role": "Jornalista",
+   "source_url": "https://24noticias.sapo.pt/ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Mariana Galo",
+   "role": "Jornalista",
+   "source_url": "https://24noticias.sapo.pt/ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Catarina Duarte",
+   "role": "Jornalista",
+   "source_url": "https://24noticias.sapo.pt/ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Miguel Morgado",
+   "role": "Jornalista",
+   "source_url": "https://24noticias.sapo.pt/ficha-tecnica",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://24noticias.sapo.pt/ficha-tecnica",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Ficha tecnica: 'Registo do título: 128177' (ERC), owner, masthead."
+  }
+ ],
+ "gaps": [
+  "No generic editorial email read on the ficha tecnica."
+ ]
+}

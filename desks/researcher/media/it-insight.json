@@ -1,0 +1,93 @@
+{
+ "id": "it-insight",
+ "type": "organisation",
+ "kind": "media",
+ "name": "IT Insight",
+ "media_kind": "magazine",
+ "reach": "national",
+ "language": "pt",
+ "website": "https://www.itinsight.pt/",
+ "places_covered": [
+  {
+   "place": "Portugal (IT management; free monthly interactive digital magazine and weekly newsletter for ICT professionals)",
+   "source_url": "https://www.itinsight.pt/pages/ficha-tecnica",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "Media Next Professional Information Lda.",
+  "source_url": "https://www.itinsight.pt/pages/ficha-tecnica",
+  "read_at": "2026-11-17"
+ },
+ "contact_page_url": "https://www.itinsight.pt/forms/contactar",
+ "public_contact": [
+  {
+   "channel": "Contact form (the outlet's own); Largo da Lagoa, 7c, 2795-116 Linda-a-Velha. The ficha tecnica address was obfuscated in the page text and not recorded.",
+   "source_url": "https://www.itinsight.pt/pages/ficha-tecnica",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "feeds": [],
+ "people": [
+  {
+   "name": "Henrique Carreiro",
+   "role": "Diretor",
+   "source_url": "https://www.itinsight.pt/pages/ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Rui Damião",
+   "role": "Diretor Editorial",
+   "source_url": "https://www.itinsight.pt/pages/ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Marta Quaresma Ferreira",
+   "role": "Coordenadora Editorial",
+   "source_url": "https://www.itinsight.pt/pages/ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Flávia Gomes",
+   "role": "Redação",
+   "source_url": "https://www.itinsight.pt/pages/ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Inês Garcia Martins",
+   "role": "Redação",
+   "source_url": "https://www.itinsight.pt/pages/ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Jorge Bento",
+   "role": "Publisher",
+   "source_url": "https://www.itinsight.pt/pages/ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Pedro Botelho",
+   "role": "CEO of Media Next",
+   "source_url": "https://www.itinsight.pt/pages/ficha-tecnica",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.itinsight.pt/pages/ficha-tecnica",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Ficha tecnica: masthead, owner, 'registado na ERC com o n.º 127295'."
+  },
+  {
+   "url": "https://www.itinsight.pt/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Home page."
+  }
+ ],
+ "gaps": [
+  "No RSS feed found: /rss and /rss.xml returned 404, no feed link in the page head.",
+  "Sales and marketing staff on the masthead not recorded (not editorial)."
+ ]
+}

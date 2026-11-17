@@ -1,0 +1,63 @@
+{
+ "id": "jpn-jornalismoportonet",
+ "type": "organisation",
+ "kind": "media",
+ "name": "JPN - JornalismoPortoNet",
+ "media_kind": "online",
+ "reach": "local",
+ "language": "pt",
+ "website": "https://www.jpn.up.pt/",
+ "places_covered": [
+  {
+   "place": "Porto (news, podcasts and interactive specials by the journalism course of the Universidade do Porto)",
+   "source_url": "https://www.jpn.up.pt/ficha-tecnica/",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "Universidade do Porto",
+  "source_url": "https://www.jpn.up.pt/ficha-tecnica/",
+  "read_at": "2026-11-17"
+ },
+ "contact_page_url": "https://www.jpn.up.pt/contactos/",
+ "public_contact": [
+  {
+   "channel": "Newsroom address on the contacts page (obfuscated in the HTML, not recorded); Via Panorâmica Edgar Cardoso s/n, 4150-564 Porto (FLUP)",
+   "source_url": "https://www.jpn.up.pt/contactos/",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://www.jpn.up.pt/feed/",
+   "checked": "HTTP 200, application/rss+xml, RSS 2.0 body",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "people": [
+  {
+   "name": "Paulo Frias",
+   "role": "Diretor",
+   "source_url": "https://www.jpn.up.pt/ficha-tecnica/",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.jpn.up.pt/ficha-tecnica/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Ficha tecnica: 'registada na ERC com o n.º 127692', daily on working days."
+  },
+  {
+   "url": "https://www.jpn.up.pt/contactos/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Contacts."
+  }
+ ],
+ "gaps": [
+  "The /equipa/ page exists (students and staff) and was not read."
+ ]
+}

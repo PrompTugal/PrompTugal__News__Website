@@ -1,0 +1,69 @@
+{
+ "id": "cidade-fm",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Cidade FM",
+ "names_as_listed": [
+  "Cidade FM",
+  "Cidade FM Viseu",
+  "Cidade FM Lisboa"
+ ],
+ "media_kind": "radio",
+ "reach": "national",
+ "language": "pt",
+ "website": "https://www.cidade.fm/",
+ "places_covered": [
+  {
+   "place": "Lisboa (head office); local frequencies in the ERC register include Viseu 102.8, Lisboa 91.6, Aveiro 105.6, Algarve 99.7, Centro 99.7, Minho 104.4, Ribatejo 99.3, Tejo 106.2, Vale de Cambra 101.0; music-themed",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "Bmhaudio Portugal Holdings, Unipessoal, Lda. & Comandita (operator of most Cidade FM frequencies; Cidade FM Viseu is held by Nodigráfica - Informação e Artes Gráficas, Lda.; Cidade FM Aveiro by Rádio Independente de Aveiro CRL; Cidade FM Algarve by Cooperativa Rádio Clube de Loulé CRL)",
+  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+  "read_at": "2026-11-17"
+ },
+ "contact_page_url": "https://www.cidade.fm/contactos",
+ "public_contact": [
+  {
+   "channel": "Generic address netcidade@bauermedia.pt as published; Rua Sampaio e Pina 24, 1099-044 Lisboa",
+   "source_url": "https://www.cidade.fm/contactos",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "feeds": [],
+ "sources": [
+  {
+   "url": "https://www.cidade.fm/contactos",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Contacts."
+  },
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public radio register listing (list page https://www.erc.pt/pt/registo-de-ocs/listagem-de-registos-, active at 3 Nov 2026, public Google Sheet, no login): Cidade FM Viseu 102.8 (no. 423064, operator Nodigráfica); other Cidade FM frequencies under no. 423216 (Bmhaudio), 423235 (Aveiro), 423264 (Algarve); programming manager Manuel Cabral, information manager Teresa Mota (as listed). Outlet email column deliberately not recorded here."
+  }
+ ],
+ "people": [
+  {
+   "name": "Manuel Cabral",
+   "role": "Responsável pela programação (ERC register)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Teresa Mota",
+   "role": "Responsável pela informação (ERC register)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "gaps": [
+  "Music-themed network with no news output of its own on the site; low value as a news outlet.",
+  "No RSS feed found.",
+  "The /equipa page lists on-air names only; not recorded."
+ ]
+}

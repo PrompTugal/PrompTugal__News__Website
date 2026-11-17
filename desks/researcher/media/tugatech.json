@@ -1,0 +1,57 @@
+{
+ "id": "tugatech",
+ "type": "organisation",
+ "kind": "media",
+ "name": "TugaTech",
+ "media_kind": "online",
+ "reach": "national",
+ "language": "pt",
+ "website": "https://tugatech.com.pt/",
+ "places_covered": [
+  {
+   "place": "Portugal (technology news and forum; founded 2010; based in Coimbra)",
+   "source_url": "https://tugatech.com.pt/h42-sobre-nos",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "contact_page_url": "https://tugatech.com.pt/h42-sobre-nos",
+ "public_contact": [
+  {
+   "channel": "Generic address contacto@tugatech.com.pt (general and editorial/suggestions) and contacto+parcerias@tugatech.com.pt (advertising and partnerships) as published; Travessa de Sao Romao n4, 3020-482 Coimbra",
+   "source_url": "https://tugatech.com.pt/h42-sobre-nos",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://tugatech.com.pt/feed/",
+   "checked": "HTTP 200, application/rss+xml, RSS 2.0 body",
+   "read_at": "2026-11-17"
+  },
+  {
+   "kind": "atom",
+   "url": "https://tugatech.com.pt/feed/?type=atom",
+   "checked": "advertised in the page head as an Atom feed; not fetched",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://tugatech.com.pt/h42-sobre-nos",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "About page: mission, founded 2010, contacts."
+  },
+  {
+   "url": "https://tugatech.com.pt/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Home page: feed links, bylines shown are forum handles."
+  }
+ ],
+ "gaps": [
+  "No ficha tecnica with named editors or journalists found; articles are bylined with a forum handle (a pseudonym, not recorded as a person).",
+  "Owner/publisher entity and ERC registration number not found on the pages read."
+ ]
+}

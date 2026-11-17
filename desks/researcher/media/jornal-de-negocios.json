@@ -1,0 +1,129 @@
+{
+ "id": "jornal-de-negocios",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Jornal de Negócios",
+ "names_as_listed": [
+  "Negócios",
+  "Jornal de Negócios"
+ ],
+ "media_kind": "newspaper",
+ "reach": "national",
+ "language": "pt",
+ "website": "https://www.jornaldenegocios.pt/",
+ "places_covered": [
+  {
+   "place": "Portugal (economy, markets, companies; newsroom in Lisboa and a delegation in Porto)",
+   "source_url": "https://www.jornaldenegocios.pt/institucional/detalhe/contactos",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "Medialivre, S.A. (principal shareholder Expressão Livre II, SGPS, S.A., 100%)",
+  "source_url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+  "read_at": "2026-11-17"
+ },
+ "contact_page_url": "https://www.jornaldenegocios.pt/institucional/detalhe/contactos",
+ "public_contact": [
+  {
+   "channel": "Newsroom address jng@negocios.pt as published; Rua Luciana Stegagno Picchio 3, 1549-023 Lisboa; Porto delegation Rua Eng. Ferreira Dias 181, 4100-247 Porto; commercial comercial@medialivre.pt",
+   "source_url": "https://www.jornaldenegocios.pt/institucional/detalhe/contactos",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://www.jornaldenegocios.pt/rss",
+   "checked": "HTTP 200, text/xml ISO-8859-1, RSS 2.0 body (channel 'Jornal de Negócios')",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "people": [
+  {
+   "name": "Paulo Moutinho",
+   "role": "Diretor",
+   "source_url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Filomena Lança",
+   "role": "Redatora Principal, Coordenadora de Economia",
+   "source_url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+   "read_at": "2026-11-17",
+   "beat": "economy"
+  },
+  {
+   "name": "Maria João Babo",
+   "role": "Redatora Principal",
+   "source_url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Rui Neves",
+   "role": "Grande Repórter, Coordenador Porto",
+   "source_url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+   "read_at": "2026-11-17",
+   "beat": "Porto"
+  },
+  {
+   "name": "Hugo Neutel",
+   "role": "Coordenador Empresas",
+   "source_url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+   "read_at": "2026-11-17",
+   "beat": "companies"
+  },
+  {
+   "name": "Carla Pedro",
+   "role": "Coordenadora Mercados",
+   "source_url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+   "read_at": "2026-11-17",
+   "beat": "markets"
+  },
+  {
+   "name": "Pedro Curvelo",
+   "role": "Editor Online",
+   "source_url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+   "read_at": "2026-11-17",
+   "beat": "online"
+  },
+  {
+   "name": "Leonor Mateus Ferreira",
+   "role": "Editora Mercados",
+   "source_url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+   "read_at": "2026-11-17",
+   "beat": "markets"
+  },
+  {
+   "name": "João Duarte Fernandes",
+   "role": "LEX",
+   "source_url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+   "read_at": "2026-11-17",
+   "beat": "law"
+  },
+  {
+   "name": "Carlos Rodrigues",
+   "role": "Diretor-Geral Editorial (Medialivre)",
+   "source_url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.jornaldenegocios.pt/institucional/detalhe/ficha_tecnica",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Ficha tecnica: masthead, owner, 'Inscrição ERC N.º ERC 121571'."
+  },
+  {
+   "url": "https://www.jornaldenegocios.pt/institucional/detalhe/contactos",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Contacts page."
+  }
+ ],
+ "gaps": [
+  "Every journalist's own work email is published on the ficha tecnica; personal contact published, not recorded.",
+  "Only a selection of the editorial staff is listed under people; the full list of redatores is on the ficha tecnica."
+ ]
+}
