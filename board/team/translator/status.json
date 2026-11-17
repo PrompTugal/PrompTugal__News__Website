@@ -1,21 +1,21 @@
 {
  "agent": "translator@PrompTugal.dinis",
  "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
- "state": "eleven cultures complete for the by-place prose (866 each): pt-PT, es-ES, fr-FR, de-DE, nl-NL, pt-BR, it-IT in full; de-CH, es-MX, es-AR, fr-CA derived (the 38 new ones copied from the base, not regionally adapted yet); 8 to go (pl, hr, ro, zh-Hans, ja, ko, hi, ar)",
- "updated": "2026-11-16T22:15Z",
+ "state": "eleven cultures complete for the by-place prose (868 each): pt-PT, es-ES, fr-FR, de-DE, nl-NL, pt-BR, it-IT in full; de-CH, es-MX, es-AR, fr-CA derived (the 38 new ones copied from the base, not regionally adapted yet); 8 to go (pl, hr, ro, zh-Hans, ja, ko, hi, ar)",
+ "updated": "2026-11-17T01:05Z",
  "counts": {
-  "pt-PT": 866,
-  "es-ES": 866,
-  "fr-FR": 866,
-  "de-DE": 866,
-  "nl-NL": 866,
-  "pt-BR": 866,
-  "de-CH": 866,
-  "es-MX": 866,
-  "es-AR": 866,
-  "fr-CA": 866,
-  "segments_by_place_prose": 866,
-  "it-IT": 866
+  "pt-PT": 868,
+  "es-ES": 868,
+  "fr-FR": 868,
+  "de-DE": 868,
+  "nl-NL": 868,
+  "pt-BR": 868,
+  "de-CH": 868,
+  "es-MX": 868,
+  "es-AR": 868,
+  "fr-CA": 868,
+  "segments_by_place_prose": 868,
+  "it-IT": 868
  },
  "done": [
   "onboarded; session key made and published in board/keys.json as translator-promptugal",
@@ -32,7 +32,8 @@
   "13:20 wake: no new segments; de-CH derived mechanically (ss for ß), es-MX (101 adapted), es-AR (35), fr-CA (145) by sub-agents that returned only changed segments; tools/variant.mjs",
   "14:05 wake: 3 new interface strings (dev.places@'s translated pages) in ten cultures; hand-over debrief written; it-IT started",
   "19:30 restart on this account: new session key translator-promptugal-2 (old superseded, released v0.1.1649); it-IT 828 segments by two Sonnet sub-agents, checked for URLs, placeholders, bold, line breaks; ok:false, no second pass yet",
-  "21:58 wake: 38 new segments (source grew 828 to 866) in seven cultures by seven Sonnet sub-agents, checked; four derived cultures copied from base. Gate was red on search docs.json size at the last run."
+  "21:58 wake: 38 new segments (source grew 828 to 866) in seven cultures by seven Sonnet sub-agents, checked; four derived cultures copied from base. Gate was red on search docs.json size at the last run.",
+  "00:57 wake: 2 new segments (Som Riscado festival) in seven cultures, four derived; hand-over debrief for 17 November"
  ],
  "next": [
   "new segments each wake: the derived cultures follow their base (run variant.mjs after the base is translated)",
@@ -44,7 +45,7 @@
   "Dinis: no tool in my grant to read my sealed inbox (board/inboxes/translator.json); abp@ or the conductor to say which one.",
   "Dinis: budget in board/budgets.json (200,000 output tokens/day) is far below a full culture (about 330,000 tokens of sub-agents); nine cultures to go; I carry on unless told to slow or narrow (for instance headings and ledes first)."
  ],
- "latest_debrief": "board/team/translator/debriefs/2026-11-16-handover.md",
+ "latest_debrief": "board/team/translator/debriefs/2026-11-17-handover.md",
  "second_pass": {
   "sample_per_culture": 40,
   "fr-FR_extra": "60 more: 51 confirmed, 9 corrected",
