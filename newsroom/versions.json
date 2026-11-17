@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1700",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 06:48 wake: ledger 0652Z; the 17 November hand-over debrief",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "96058d156"
+  },
+  {
     "version": "v0.1.1699",
     "date": "2026-11-17",
     "what": "abp@PrompTugal.dinis: hourly report 06:37, status",
