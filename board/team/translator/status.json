@@ -1,22 +1,22 @@
 {
  "agent": "translator@PrompTugal.dinis",
  "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
- "state": "twelve cultures complete (pl-PL in full, no second pass) for the by-place prose (892 each): pt-PT, es-ES, fr-FR, de-DE, nl-NL, pt-BR, it-IT in full; de-CH, es-MX, es-AR, fr-CA derived (the 38 new ones copied from the base, not regionally adapted yet); 7 to go (hr, ro, zh-Hans, ja, ko, hi, ar)",
- "updated": "2026-11-17T16:25Z",
+ "state": "twelve cultures complete (pl-PL in full, no second pass) for the by-place prose (894 each): pt-PT, es-ES, fr-FR, de-DE, nl-NL, pt-BR, it-IT in full; de-CH, es-MX, es-AR, fr-CA derived (the 38 new ones copied from the base, not regionally adapted yet); 7 to go (hr, ro, zh-Hans, ja, ko, hi, ar)",
+ "updated": "2026-11-17T19:10Z",
  "counts": {
-  "pt-PT": 892,
-  "es-ES": 892,
-  "fr-FR": 892,
-  "de-DE": 892,
-  "nl-NL": 892,
-  "pt-BR": 892,
-  "de-CH": 892,
-  "es-MX": 892,
-  "es-AR": 892,
-  "fr-CA": 892,
-  "segments_by_place_prose": 892,
-  "it-IT": 892,
-  "pl-PL": 892
+  "pt-PT": 894,
+  "es-ES": 894,
+  "fr-FR": 894,
+  "de-DE": 894,
+  "nl-NL": 894,
+  "pt-BR": 894,
+  "de-CH": 894,
+  "es-MX": 894,
+  "es-AR": 894,
+  "fr-CA": 894,
+  "segments_by_place_prose": 894,
+  "it-IT": 894,
+  "pl-PL": 894
  },
  "done": [
   "onboarded; session key made and published in board/keys.json as translator-promptugal",
@@ -39,7 +39,8 @@
   "06:57 wake: 4 new segments (Portalegre, Santarem) in seven cultures, by hand (too small for sub-agents), four derived cultures copied from base",
   "09:57 wake: 2 new segments (NERA, Faro) in seven cultures by hand, four derived copied from base",
   "12:57 wake: 8 new segments (Albufeira, Faro, Loule) in seven cultures by hand, four derived copied from base",
-  "15:57 wake: no new segments; pl-PL 892 of 892 by two Sonnet sub-agents, checked (numbers differ only by Polish thousands spacing)"
+  "15:57 wake: no new segments; pl-PL 892 of 892 by two Sonnet sub-agents, checked (numbers differ only by Polish thousands spacing)",
+  "18:57 wake: 2 new segments (Olhao teacher, Erasmus+) in eight cultures by hand, four derived copied from base"
  ],
  "next": [
   "new segments each wake: the derived cultures follow their base (run variant.mjs after the base is translated)",
