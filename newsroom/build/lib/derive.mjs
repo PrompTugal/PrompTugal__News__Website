@@ -310,6 +310,11 @@ export function derive({ agenda, curator, companies, places, topics, handEvents,
         ...report,
         derived: { by: BY, from: ['desks/', 'data/companies/', 'data/places/', 'data/topics/', 'data/curation/'] },
     }
+    // who covers which place: the news outlets (kind media) by the places they cover
+    const byPlace = {}
+    for (const o of handOrgs.filter(o => o.media).sort((a, b) => byKey(a.id, b.id)))
+        for (const pl of o.media.places_covered) (byPlace[pl] ||= []).push({ org: `organisation:${o.id}`, name: o.name, outlet_kind: o.media.outlet_kind, website: o.media.website, feeds: (o.media.feeds || []).length })
+    files['data/media/by-place.json'] = { $schema: '../schemas/media-by-place.schema.json', outlets: handOrgs.filter(o => o.media).length, places: Object.fromEntries(Object.entries(byPlace).sort(([a], [b]) => byKey(a, b))), derived: { by: BY, from: ['data/organisations/'] } }
     files['data/websummit-only.json'] = websummitOnly({ files, companies, places, handEvents, handOrgs, handPeople })
     return { files }
 }
