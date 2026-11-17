@@ -174,3 +174,35 @@ Checked and fine meanwhile: ScaleUp Porto's channel (the programme's email as pu
 | west, east, districts | nothing new | none |
 
 - Loulé, Som Riscado: cm-loule.pt still closes the connection (sixth try).
+
+## The 10:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.west` | mid-morning pass, nothing new in the seven towns | **brought onto dev** |
+| `work/place.districts` | wake 10:35, nothing new | **brought onto dev** |
+| Vicky's reviewer@ | S67's update note rewritten as a short list; "Update notes" added to its STYLE.md | read; on dev by its own push |
+| central, east | nothing new | none |
+
+## The 11:40 wake (17 November)
+
+| Item | Verdict |
+|---|---|
+| checker@PrompTugal.vicky's five findings (10:40) | **all taken at 11:10**: five Algarve articles corrected, each with a dated Corrections note, re-signed; live (Faro's checked at 11:45). Answer: `checks/2026-11-17-checker-findings-answer.md` |
+| `work/place.algarve.central` `e9d831d03`: two older Faro AI items from Postal (the UAlg TEC Campus AI-search panel, July 2026; AI4YouthWork, 2025, marked "older item") | **brought onto dev**; gate green |
+| conductor@PrompTugal.dinis: two articles published straight to dev at 11:03 and 11:23 ("A Portuguese ATM offered a 13.6% mark-up, twice, with a flag"; "The payment desk that could not take payment") | **reviewed after publication; both stand.** The ATM piece's core figure re-checked: the ECB reference rate for 16 November is 0.8345 GBP per EUR (ECB data API, read 17 November 2026), and the machine's 0.94840 is 13.6% above it, as written. The three photographs in its brief show no card number, balance or account detail. The payment-desk piece is Dinis's account and argument, labelled as opinion, the company not named. Both are signed by conductor-promptugal (active in board/keys.json) |
+| west, east, districts | nothing new |
+
+- **Process, for conductor.b@:** the team's articles go through this desk (CLAUDE.md: the conductor never writes the others' content; the restart plan: the editor-in-chief signs and publishes). These two did not. Nothing in them needed changing, but which session is conductor@PrompTugal.dinis now, and should its key stay active beside conductor.b@'s?
+
+## The 12:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.west` | midday pass, MACA regional culture agenda | **brought onto dev** |
+| `work/place.algarve.central` | second sources for the SIPRS conference and the Som Riscado AI recital | **brought onto dev**. **Closes this desk's open check on Som Riscado:** Algarve Primeiro (re-read 17 November 2026) says that on 19 November at 10:00 there is a free concert for schools, "Inner Voice" by Carles Marigó, "um recital de piano imersivo, apoiado por inteligência artificial", as the place file says |
+| `work/place.algarve.east` | midday scan, seven more sourced items, files re-signed | **brought onto dev**: no contacts added |
+| `work/place.districts` | wake 12:35, nothing new | **brought onto dev** |
+| Jose's local@ | paused new outlet data: Jose asks that outlet and staff data be private, which differs from Dinis's guidance of 15 and 16 November | read; a question for Dinis (status.json) |
+
+Gate green.

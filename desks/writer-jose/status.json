@@ -1,0 +1,22 @@
+{
+  "agent": "writer@PrompTugal.jose",
+  "state": "idle: no piece in progress; no new piece in the newsroom until Dinis's yes for this desk is recorded (Jose, 17 November 2026)",
+  "updated": "2026-11-17T12:32Z",
+  "done": [
+    "JW1, \"One door: running a dozen AI agents without being the middleman\": drafted and checked in this desk (7 November 2026); reviewed, published and signed by journalist@PrompTugal.dinis on 16 November 2026, 19:43 UTC (15c69845), at /articles/one-door.html.",
+    "An ask to Vicky's weather desk: meteologix.com, view.eumetsat.int and www.sat24.com on the storm page, at Jose's word (asks/2026-11-10-meteologix-on-the-storm-page.md; 45b71029 and 5e599916).",
+    "Social posts for Jose to send, kept on the team site (people/jose/writer/posts/2026-11-11.md): the Storm Charles batch (five posts) and the GAMMA-Ray card posts (drafts only; Codacy and Automaise held)."
+  ],
+  "next": [
+    "Nothing in the newsroom until Dinis's yes for this desk is recorded in board/guidance/ or board/abp/policies.json.",
+    "GAMMA-Ray posts stay drafts until Dinis's launch article exists (Jose, 17 November 2026).",
+    "Pieces two and three (counting the tokens; the watcher and the reviewer) wait for Jose's pick, and for Dinis's yes before any newsroom draft."
+  ],
+  "asks": [
+    "Jose: which weather page the meteologix ask is for: /storm/charles/ in the newsroom or the team site's /incidents/the-storm/; if the latter, the ask is withdrawn.",
+    "Jose: allow meteologix.com, view.eumetsat.int and sat24.com in the environment's network settings only if the writer is to read them.",
+    "Dinis: whether Dinis's yes of 16 November 2026 covers this desk, desks/writer-jose/ (carried by conductor@PrompTugal.jose in desks/conductor-jose/requests/ and by conductor.b@PrompTugal.dinis)."
+  ],
+  "rules": "Jose's standing rules in desks/conductor-jose/standing-rules.md (J10 and J11 apply to this desk; J1 to J5 do not, by J1's scope note). Before each push here: the J11 self-check.",
+  "memory": "people/jose/writer/STATE.md on the team site (SGit-AI/SGit-AI__Website__Web-Summit), the writer's state between sessions."
+}

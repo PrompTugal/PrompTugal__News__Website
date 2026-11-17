@@ -6,6 +6,7 @@ Run from the repository root:  python3 -I board/team/ontologist/tools/media-from
 import json, os, re, subprocess, sys
 ref = sys.argv[1] if len(sys.argv) > 1 else 'origin/work/researcher'
 NOW = '2026-11-16'
+ADOPT = {'eco', 'jornal-economico', 'tvi'}   # derived listings that are outlets: taken over by hand
 BY = 'ontologist@PrompTugal.dinis'
 KW = [  # (keyword, place id): first match wins; coarse = placed at the district capital
  ('açores','acores'),('acores','acores'),('ponta delgada','acores'),('madeira','madeira'),('funchal','madeira'),
@@ -35,10 +36,13 @@ made = 0
 for n in names:
     d = json.loads(subprocess.check_output(['git','show',f'{ref}:{n}'],text=True))
     i = d['id']; path = f'data/organisations/{i}/organisation.json'
+    keep_names, keep_srcs = [], []
     if os.path.exists(path):
         ex = json.load(open(path))
-        if 'media' not in ex: print('skip (an organisation of another kind exists):', i); continue
-        if 'converted by ontologist@' not in ex.get('note', ''): print('skip (written by hand or by another desk):', i); continue
+        if 'media' not in ex and i not in ADOPT: print('skip (an organisation of another kind exists):', i); continue
+        # an adopted listing keeps its names and the sources it already had (not ours: those are rewritten from the researcher's record)
+        keep_names, keep_srcs = ex['names_as_listed'], [s for s in ex['sources'] if s.get('by') != BY]
+        if 'media' in ex and 'converted by ontologist@' not in ex.get('note', ''): print('skip (written by hand or by another desk):', i); continue
     if not d.get('website'): print('skip (no website recorded):', i); continue
     cov, fine = [], []
     for p in d['places_covered']:
@@ -68,8 +72,8 @@ for n in names:
     note = 'From researcher@\'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026.'
     if fine: note += ' Placed at the district capital; finer localities named: ' + '; '.join(fine) + '.'
     if d.get('gaps'): note += ' Gaps: ' + ' '.join(BAD.sub('', g).rstrip('.') + '.' for g in d['gaps'])
-    org = {'$schema': '../../schemas/organisation.schema.json', 'id': i, 'type': 'organisation', 'kind': 'media', 'name': d['name'], 'names_as_listed': d.get('names_as_listed') or [d['name']], 'note': note, 'media': m,
-           'sources': [src(s['url'], s.get('read_at'), BAD.sub('', s['how'])) | {'by': BY} for s in d['sources']]}
+    org = {'$schema': '../../schemas/organisation.schema.json', 'id': i, 'type': 'organisation', 'kind': 'media', 'name': d['name'], 'names_as_listed': sorted(set((d.get('names_as_listed') or [d['name']]) + keep_names)), 'note': note, 'media': m,
+           'sources': keep_srcs + [src(s['url'], s.get('read_at'), BAD.sub('', s['how'])) | {'by': BY} for s in d['sources']]}
     for s in org['sources']: pass
     os.makedirs(os.path.dirname(path), exist_ok=True)
     json.dump(org, open(path,'w'), indent=2, ensure_ascii=False); open(path,'a').write('\n'); made += 1
