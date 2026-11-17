@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T00:50Z",
+  "updated": "2026-11-17T01:50Z",
   "state": "running on account A, news organisations pass (conductor.b@, Dinis's word 16 Nov 19:25)",
   "done": [
     "16 Nov first run: new session key researcher-promptugal (public half in board/keys.json, account B entry superseded; release to dev pending a clean tree)",
@@ -7,13 +7,14 @@
     "feeds checked with curl; generic outlet addresses only; personal contacts left out and noted in gaps",
     "21:13 wake: ontologist@ had already turned 73 staged outlets into data/organisations media records (board/briefs/2026-11-16-media-kind.md); gaps round: 16 new outlets (Lisboa, Alentejo, Setubal radio), ERC registration numbers added to 59 outlets, tech reporters named at Publico, Observador, Shifter, Pplware, Jornal Economico; 92 staged records in desks/researcher/media/",
     "23:13 wake: 21 more outlets (Evora, Beja, Portalegre, Setubal, Guarda, Castelo Branco, Viseu, Braganca) from the ERC register, each with a verified feed; 5 thin records filled; two Gmail newsroom addresses withheld as possibly personal; 112 staged records",
-    "00:13 wake (17 Nov): 9 more outlets (PCGuia, TugaTech, IT Insight, Dinheiro Vivo, Jornal de Negocios, JPN, Radio Azul, Cidade FM, 24 Noticias); 121 staged records; the ERC radio sheet (320 services) is a public CSV export that can seed the small stations that have no website"
+    "00:13 wake (17 Nov): 9 more outlets (PCGuia, TugaTech, IT Insight, Dinheiro Vivo, Jornal de Negocios, JPN, Radio Azul, Cidade FM, 24 Noticias); 121 staged records; the ERC radio sheet (320 services) is a public CSV export that can seed the small stations that have no website",
+    "01:13 wake (17 Nov): 38 capital-city radio stations seeded from the ERC radio sheet (register data only: operator, frequency, registration, programming heads by name and role; websites, feeds and contact pages not yet checked); 158 staged records"
   ],
   "next": [
-    "ontologist@: re-run the converter",
-    "small capital-city radio from the ERC radio sheet alone (no site: Telefonia do Alentejo, Altitude, Radio F, Urbana FM, RACAB, Voz do Marao: district to resolve)",
-    "Porto, Lisboa city titles (no domain found: Porto Noticias, Mais Porto, Diario de Lisboa, Radio Amalia, Marginal, SBSR); Exame Informatica (502)",
-    "daily debrief for 17 Nov"
+    "ontologist@: re-run the converter on the new records",
+    "check websites, feeds and contact pages of the 38 ERC-only radio records, news stations first",
+    "Porto and Lisboa city titles; more named journalists per ficha tecnica",
+    "the pass is near its ceiling for web-searchable outlets: ask conductor.b@ whether to continue by outlet depth (journalists per outlet) or stop"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "news organisations pass: district capitals and national media, public sources only",
@@ -25,5 +26,5 @@
     "The key release to dev failed once on a red gate (a build changed a tracked file, since gone) and then on an untracked staging folder; to redo after commit",
     "22:52 message from conductor.b@ (material, matches my task's scope): Algarve town outlets, Faro included, are local@PrompTugal.jose's; I leave further ones to it. For local@: the-portugal-news is nationally scoped but its company is registered in Lagoa; Rádio/ERC lists for Faro district not touched by me."
   ],
-  "debrief": "board/team/researcher/debriefs/2026-11-16-handover.md"
+  "debrief": "board/team/researcher/debriefs/2026-11-17-handover.md"
 }

@@ -1,0 +1,47 @@
+{
+ "id": "radio-nova",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Rádio Nova",
+ "media_kind": "radio",
+ "reach": "local",
+ "language": "pt",
+ "places_covered": [
+  {
+   "place": "Porto; 98.9 FM; Temático - Musical; ERC area of coverage: Local",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "SIRS - Sociedade Independente de Radiodifusão Sonora, S.A.",
+  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+  "read_at": "2026-11-17"
+ },
+ "people": [
+  {
+   "name": "José Joaquim Parente da Mota",
+   "role": "Responsável pela programação (as listed in the ERC register)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Manuel da Costa Leal",
+   "role": "Responsável pela informação (as listed in the ERC register)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423286, operator 'SIRS - Sociedade Independente de Radiodifusão Sonora, S.A.' (seat Maia), service 'Rádio Nova', licence district Porto, concelho Porto. Outlet email column deliberately not recorded."
+  }
+ ],
+ "gaps": [
+  "Website, contact page and feed not looked up or not verified in this pass (register-only record).",
+  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page."
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "radio-observador-leiria",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Rádio Observador Leiria",
+ "media_kind": "radio",
+ "reach": "local",
+ "language": "pt",
+ "places_covered": [
+  {
+   "place": "Leiria; 94 FM; Temático - Informativo; ERC area of coverage: Local",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "EDR - Empresa de Difusão de Rádio, S.A.",
+  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+  "read_at": "2026-11-17"
+ },
+ "people": [
+  {
+   "name": "Luís Miguel Chagas Vieira Martins",
+   "role": "Responsável pela programação e pela informação (as listed in the ERC register)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423192, operator 'EDR - Empresa de Difusão de Rádio, S.A.' (seat Leiria), service 'Rádio Observador Leiria', licence district Leiria, concelho Leiria. Outlet email column deliberately not recorded."
+  }
+ ],
+ "gaps": [
+  "Website, contact page and feed not looked up or not verified in this pass (register-only record).",
+  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page."
+ ]
+}

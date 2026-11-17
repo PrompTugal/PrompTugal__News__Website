@@ -1,0 +1,47 @@
+{
+ "id": "radio-mega-hits-viseu",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Mega Hits Viseu",
+ "media_kind": "radio",
+ "reach": "local",
+ "language": "pt",
+ "places_covered": [
+  {
+   "place": "Viseu; 106.4 FM; Temático - Musical; ERC area of coverage: Local",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "Rádio Renascença, Lda.",
+  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+  "read_at": "2026-11-17"
+ },
+ "people": [
+  {
+   "name": "Nelson de Carvalho Cunha",
+   "role": "Responsável pela programação (as listed in the ERC register)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "José Pedro Leal Gonçalves",
+   "role": "Responsável pela informação (as listed in the ERC register)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423147, operator 'Rádio Renascença, Lda.' (seat Lisboa), service 'Mega Hits Viseu', licence district Viseu, concelho Viseu. Outlet email column deliberately not recorded."
+  }
+ ],
+ "gaps": [
+  "Website, contact page and feed not looked up or not verified in this pass (register-only record).",
+  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page."
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "radio-urbana-fm",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Urbana FM",
+ "media_kind": "radio",
+ "reach": "local",
+ "language": "pt",
+ "places_covered": [
+  {
+   "place": "Castelo Branco; 100.8 FM; Generalista; ERC area of coverage: Local",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "Rádio JL FM, Unipessoal, Lda.",
+  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+  "read_at": "2026-11-17"
+ },
+ "people": [
+  {
+   "name": "José Valente dos Santos Pires",
+   "role": "Responsável pela programação (as listed in the ERC register)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Maria Irene Poças dos Santos",
+   "role": "Responsável pela informação (as listed in the ERC register)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423349, operator 'Rádio JL FM, Unipessoal, Lda.' (seat Castelo Branco), service 'Urbana FM', licence district Castelo Branco, concelho Castelo Branco. Outlet email column deliberately not recorded."
+  }
+ ],
+ "gaps": [
+  "Website, contact page and feed not looked up or not verified in this pass (register-only record).",
+  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page."
+ ]
+}

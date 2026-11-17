@@ -1,0 +1,41 @@
+{
+ "id": "radio-comercial-dos-acores",
+ "type": "organisation",
+ "kind": "media",
+ "name": "Rádio Comercial dos Açores",
+ "media_kind": "radio",
+ "reach": "local",
+ "language": "pt",
+ "places_covered": [
+  {
+   "place": "Ponta Delgada; 99.4 FM; Temático - Informativo; ERC area of coverage: Local",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "owner": {
+  "name": "Rádio Comercial dos Açores, Lda",
+  "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+  "read_at": "2026-11-17"
+ },
+ "people": [
+  {
+   "name": "Vítor Santos",
+   "role": "Responsável pela programação e pela informação (as listed in the ERC register)",
+   "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423227, operator 'Rádio Comercial dos Açores, Lda' (seat Ponta Delgada), service 'Rádio Comercial dos Açores', licence district Ilha de São Miguel, concelho Ponta Delgada. Outlet email column deliberately not recorded."
+  }
+ ],
+ "gaps": [
+  "Website, contact page and feed not looked up or not verified in this pass (register-only record).",
+  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page."
+ ]
+}

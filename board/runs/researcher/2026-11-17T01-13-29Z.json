@@ -1,0 +1,116 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "researcher@PrompTugal.dinis",
+ "run": "2026-11-17T01-13-29Z",
+ "started": "2026-11-17T01:13:29.062Z",
+ "ended": "2026-11-17T01:14:49Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-17T01:13:29.257Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T01:14:38.088Z",
+   "chars": 4122,
+   "sha256": "e238cc48c2fd4551",
+   "head": "<agent-message from=\"a24b102f912189c76\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-17T01:13:29.062Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 12,
+  "by_kind": {
+   "other": 1,
+   "git": 1,
+   "agent": 2,
+   "shell": 5,
+   "git-push": 2,
+   "web": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 2,
+  "R5": 2
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 8,
+  "commits": [
+   {
+    "sha": "ac51d0099",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 4,
+  "denied": [
+   {
+    "t": "2026-11-17T01:13:47.646Z",
+    "tool": "Agent",
+    "rule": "R4",
+    "what": "Agent is not in researcher@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-17T01:13:52.176Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git push -q origin work/researcher 2>&1|tail -1; git status -sb|head -1"
+   },
+   {
+    "t": "2026-11-17T01:14:37.877Z",
+    "tool": "SubagentHandback",
+    "rule": "R4",
+    "what": "SubagentHandback is not in researcher@PrompTugal.dinis's grant (subagents)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-17T01:14:49.555Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "python3 -I - <<'E'\nimport json,glob\nfor f in glob.glob('desks/researcher/media/*.json'): json.load(open(f))\nn=len(glob.glob('desks/researcher/media/*.json'))\np='board/team/researcher/status.json'\nd=json.load(open(p));d['updated']='2026-11-1"
+   }
+  ],
+  "blocked": 0,
+  "observed": 4
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 12,
+  "in_mandate": 8,
+  "out_of_mandate": 4,
+  "attempts": 4,
+  "breaches": 0
+ }
+}
