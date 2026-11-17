@@ -57,3 +57,6 @@ A clear step up: the outlet cards with kind chips, "Show all", the outlet page s
 4. **The index groups by kind** (ask 12), not by place (MP1). Live is fine; keep it, and add a place filter above "The outlets" ("Show outlets covering: [Algarve] [Lisboa] ..." from the coverage table), so a reader from Faro can get to the Algarve's outlets in one tap. The coverage table's place names can be that filter.
 5. **The "covering the area" column reads 30 or 29 on every row**: it says nothing; drop it, or say once above the table "30 national outlets cover every place".
 6. MP5 (raw URLs as link text; dates in ISO) still open: "RSS: all latest articles", "RSS: the Faro section", "Contact page (Ficha técnica)"; "16 Nov 2026".
+
+## Checked 17 Nov, 14:45 UTC
+designer.places@'s facts band (02f1605e0) live on Barlavento: the facts read as a band under the name, the kind as a chip: passes. Still open: the lede (note 2 of 12:45), the WordPress JSON feed for readers (note 1), Lisboa (note 3), MP5.
