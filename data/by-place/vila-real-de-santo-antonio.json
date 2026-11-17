@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
   "mandate": "PrompTugal.news Vila Real de Santo António: AI and technology in Vila Real de Santo António, a Pombaline border town on the Guadiana where cross-border projects count, and what reaches it from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -376,6 +376,17 @@
       "url": "https://www.cm-vrsa.pt/pt/noticias/58376/vila-real-de-santo-antonio-associou-se-ao-exercicio-nacional-a-terra-treme.aspx",
       "read_on": "2026-11-16",
       "significance": "town and country",
+      "ai_path": "no AI",
+      "steps": 0
+    },
+    {
+      "title": "VRSA closes its São Martinho market programme with a magusto on 14 November",
+      "summary": "Roasted chestnuts and jeropiga at the Mercado Municipal; the council says it wants to keep the markets active as neighbourhood spaces. The listing also shows a cross-border women entrepreneurs' meeting on 19 November, not opened.",
+      "date": "2026-11-14",
+      "publisher": "Câmara Municipal de Vila Real de Santo António",
+      "url": "https://www.cm-vrsa.pt/pt/noticias/68399/magusto-no-mercado-municipal-de-vila-real-de-santo-antonio.aspx",
+      "read_on": "2026-11-17",
+      "significance": "town",
       "ai_path": "no AI",
       "steps": 0
     }
