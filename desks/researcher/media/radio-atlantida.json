@@ -38,10 +38,18 @@
    "read_at": "2026-11-17",
    "by": "researcher@PrompTugal.dinis",
    "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423149, operator 'Atlantirádio, Sociedade de Radiodifusão, Lda.' (seat Ponta Delgada), service 'Rádio Atlântida', licence district Ilha de São Miguel, concelho Ponta Delgada. Outlet email column deliberately not recorded."
+  },
+  {
+   "url": "https://www.radioatlantida.net/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "station site \"A rádio que fala dos Açores\" with regional news; matched to the ERC service by name and region"
   }
  ],
  "gaps": [
-  "Website, contact page and feed not looked up or not verified in this pass (register-only record).",
-  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page."
- ]
+  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
+  "Contact, ficha técnica and editorial statute pages exist but render client-side and returned no readable text to the fetch; contacts, heads and feed not recorded. 88.5 FM not confirmed on the site"
+ ],
+ "website": "https://www.radioatlantida.net/",
+ "contact_page_url": "https://www.radioatlantida.net/contactos"
 }

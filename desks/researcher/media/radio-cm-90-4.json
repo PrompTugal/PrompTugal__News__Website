@@ -24,6 +24,27 @@
    "role": "Responsável pela programação e pela informação (as listed in the ERC register)",
    "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
    "read_at": "2026-11-17"
+  },
+  {
+   "name": "Carlos Rodrigues",
+   "role": "Direção Geral Editorial",
+   "beat": "news",
+   "source_url": "https://www.cmjornal.pt/cmr/institucional/detalhe/cmr-ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Pedro Sousa",
+   "role": "Coordenação Geral e redação",
+   "beat": "news",
+   "source_url": "https://www.cmjornal.pt/cmr/institucional/detalhe/cmr-ficha-tecnica",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Ricardo Mariano",
+   "role": "Coordenação Lisboa e animação",
+   "beat": "newsroom",
+   "source_url": "https://www.cmjornal.pt/cmr/institucional/detalhe/cmr-ficha-tecnica",
+   "read_at": "2026-11-17"
   }
  ],
  "sources": [
@@ -32,10 +53,25 @@
    "read_at": "2026-11-17",
    "by": "researcher@PrompTugal.dinis",
    "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423105, operator 'Sociedade Franco Portuguesa de Comunicação, SA' (seat Lisboa), service 'CM Rádio 90.4', licence district Lisboa, concelho Lisboa. Outlet email column deliberately not recorded."
+  },
+  {
+   "url": "https://www.cmjornal.pt/cmr/institucional/detalhe/cmr-ficha-tecnica",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "CM Rádio ficha técnica (page dated 30 April 2025) and site cmjornal.pt/cmr"
   }
  ],
  "gaps": [
-  "Website, contact page and feed not looked up or not verified in this pass (register-only record).",
-  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page."
+  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
+  "No radio-specific RSS feed found; a WhatsApp mobile number is published on the page: personal contact published, not recorded"
+ ],
+ "website": "https://www.cmjornal.pt/cmr/",
+ "contact_page_url": "https://www.cmjornal.pt/cmr/institucional/detalhe/cmr-ficha-tecnica",
+ "public_contact": [
+  {
+   "channel": "General address geral@cmjornal.pt (listed for the CM Rádio seats in Lisboa and Porto); Lisboa +351 213 185 200, Porto +351 225 322 300",
+   "source_url": "https://www.cmjornal.pt/cmr/institucional/detalhe/cmr-ficha-tecnica",
+   "read_at": "2026-11-17"
+  }
  ]
 }

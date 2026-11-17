@@ -30,6 +30,13 @@
    "role": "Responsável pela informação (as listed in the ERC register)",
    "source_url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
    "read_at": "2026-11-17"
+  },
+  {
+   "name": "Rui Mesquita",
+   "role": "Responsável pela orientação editorial e supervisão dos conteúdos (station ficha técnica)",
+   "beat": "editorial",
+   "source_url": "https://radiogeice.com/ficha-tecnica/",
+   "read_at": "2026-11-17"
   }
  ],
  "sources": [
@@ -38,10 +45,38 @@
    "read_at": "2026-11-17",
    "by": "researcher@PrompTugal.dinis",
    "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423027, operator 'GEICE - Grupo de Estudos e Investigação de Ciências Experimentais' (seat Viana do Castelo), service 'Rádio Geice', licence district Viana do Castelo, concelho Viana do Castelo. Outlet email column deliberately not recorded."
+  },
+  {
+   "url": "https://radiogeice.com/ficha-tecnica/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "station ficha técnica (Lei da Transparência): operator GEICE, editorial lead named"
+  },
+  {
+   "url": "https://radiogeice.com/contactos/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "contact page"
   }
  ],
  "gaps": [
-  "Website, contact page and feed not looked up or not verified in this pass (register-only record).",
   "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page."
+ ],
+ "website": "https://radiogeice.com/",
+ "contact_page_url": "https://radiogeice.com/contactos/",
+ "public_contact": [
+  {
+   "channel": "General address geral@radiogeice.com and fixed phone 258 800 400; Rua José Espregueira 23 r/c, 4900-459 Viana do Castelo",
+   "source_url": "https://radiogeice.com/contactos/",
+   "read_at": "2026-11-17"
+  }
+ ],
+ "feeds": [
+  {
+   "kind": "rss",
+   "url": "https://radiogeice.com/feed/",
+   "checked": "HTTP 200, RSS body (channel and items), content-type application/rss+xml",
+   "read_at": "2026-11-17"
+  }
  ]
 }

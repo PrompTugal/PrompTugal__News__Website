@@ -38,10 +38,17 @@
    "read_at": "2026-11-17",
    "by": "researcher@PrompTugal.dinis",
    "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423146, operator 'Basminho - Publicidade, Lda.' (seat Refojos de Basto), service 'Rádio Voz do Marão', licence district Vila Real, concelho Vila Real. Outlet email column deliberately not recorded."
+  },
+  {
+   "url": "https://radiovozdomarao.com/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "single-page station site; only a mobile number and a Gmail address are published, neither recorded"
   }
  ],
  "gaps": [
-  "Website, contact page and feed not looked up or not verified in this pass (register-only record).",
-  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page."
- ]
+  "Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
+  "Only a mobile phone and a free-webmail address are published on the station site: personal-looking contact published, not recorded. No contact page, no feed, no heads named on the site"
+ ],
+ "website": "https://radiovozdomarao.com/"
 }
