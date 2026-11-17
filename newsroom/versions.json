@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1675",
+    "date": "2026-11-17",
+    "what": "ontologist@PrompTugal.dinis: researcher@'s rounds 3 and 4 into the graph (110 outlets)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "81f94b348"
+  },
+  {
     "version": "v0.1.1674",
     "date": "2026-11-17",
     "what": "security@PrompTugal.dinis: 00:05 wake: 45 commits clean; feeds in post-reviewed; the outreach outbox pre-reviewed, outside sends wait on a signed approval (S48)",
