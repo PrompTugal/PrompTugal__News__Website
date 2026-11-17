@@ -1,0 +1,134 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.algarve.east@PrompTugal.dinis",
+ "run": "2026-11-17T02-38-51Z",
+ "started": "2026-11-17T02:38:51.639Z",
+ "ended": "2026-11-17T07:42:29Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-17T02:38:51.876Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T03:39:18.941Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T04:38:14.626Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T05:38:43.370Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T06:38:26.371Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T07:38:36.171Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T07:41:00.921Z",
+   "chars": 10884,
+   "sha256": "ec306564b8ea6504",
+   "head": "<agent-message from=\"a7c71f16ef0a3ebda\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-17T07:42:23.359Z",
+   "chars": 412,
+   "sha256": "c1df43d1ffa02ccd",
+   "head": "<task-notification>\n<task-id>bc3h4j0le</task-id>\n<tool-use-id>toolu_01Jn9dUEhrgYstZg6rgPe1fc</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/467ed27e-b46e-5ccd-a259-5f4cc"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-17T02:38:51.639Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T03:39:18.714Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T04:38:14.396Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T05:38:43.162Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T06:38:26.185Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T07:38:35.987Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 42,
+  "by_kind": {
+   "other": 8,
+   "git": 2,
+   "git-push": 7,
+   "agent": 2,
+   "web": 21,
+   "shell": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 42,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 8,
+  "tool_calls": 42,
+  "in_mandate": 42,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
