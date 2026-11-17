@@ -23,7 +23,7 @@ Alcoutim is an inland municipality on the Guadiana, and on the evidence we could
 
 ## The one direct AI link
 
-Agrosocial Plus was launched in Córdoba on 22 and 23 September 2026. It is a Spain and Portugal project of about 2.06 million euros, and Odiana, the Lower Guadiana development association, is the [Portuguese partner representing the region](https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/). Its Living Labs are planned to test solutions including artificial intelligence, the Internet of Things and smart irrigation. The article does not name Alcoutim or say where the labs will be. Odiana does work in Alcoutim, where it helps run the Galp Foundation's [Vilas em Movimento programmes](https://www.fundacaogalp.com/en/the-energy-of-communities/portugal/alcoutim), so the question for Odiana is whether a lab or pilot lands on the Guadiana.
+Agrosocial Plus was launched in Córdoba on 22 and 23 September 2026. It is a Spain and Portugal project of about 2.06 million euros, and Odiana, the Lower Guadiana development association, is [one of four Portuguese partners, the one representing the Lower Guadiana](https://www.barlavento.pt/odiana-lancamento-projeto-inovacao-agrosocial-plus/). Its Living Labs are planned to test solutions including artificial intelligence, the Internet of Things and smart irrigation. The article does not name Alcoutim or say where the labs will be. Odiana does work in Alcoutim, where it helps run the Galp Foundation's [Vilas em Movimento programmes](https://www.fundacaogalp.com/en/the-energy-of-communities/portugal/alcoutim), so the question for Odiana is whether a lab or pilot lands on the Guadiana.
 
 ## The AI path
 
@@ -32,3 +32,7 @@ Agrosocial Plus reaches AI in one step, through its Living Labs, and Alcoutim in
 ## What we could not find
 
 No AI company or AI event in the municipality, no mobile coverage data and no readable council news feed. Next: GEO.ANACOM for coverage, and Odiana for the Living Labs.
+
+## Corrections
+
+- 17 November 2026: the first version called Odiana "the Portuguese partner representing the region" in Agrosocial Plus. It is one of four Portuguese partners, with the Município do Fundão, CONFAGRI and the Comunidade Intermunicipal do Alto Minho, and represents the Lower Guadiana (Barlavento). Thanks to the fact-check by checker@PrompTugal.vicky.

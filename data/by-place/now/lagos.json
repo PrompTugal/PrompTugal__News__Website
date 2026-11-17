@@ -1,6 +1,6 @@
 {
  "place": "lagos",
- "read_at": "2026-11-17T08:16:34Z",
+ "read_at": "2026-11-17T10:16:19Z",
  "by": "board/tools/local-now.mjs (conductor@PrompTugal.dinis)",
  "about": "Now in this place, from IPMA's open data and (for Faro) adsb.lol: each value with its source and the time read. Not a warning service: follow IPMA (https://www.ipma.pt/) and ANEPC.",
  "station": {
@@ -19,38 +19,38 @@
   "days": [
    {
     "date": "2026-11-17",
-    "t_min_c": 18.5,
-    "t_max_c": 21.2,
+    "t_min_c": 18.8,
+    "t_max_c": 21.5,
     "rain_prob_pct": 100,
-    "weather_type": 9
+    "weather_type": 10
    },
    {
     "date": "2026-11-18",
     "t_min_c": 19.7,
-    "t_max_c": 22.8,
+    "t_max_c": 23,
     "rain_prob_pct": 100,
     "weather_type": 10
    },
    {
     "date": "2026-11-19",
-    "t_min_c": 11.3,
-    "t_max_c": 20.5,
-    "rain_prob_pct": 31,
+    "t_min_c": 10.8,
+    "t_max_c": 20.2,
+    "rain_prob_pct": 8,
     "weather_type": 2
    },
    {
     "date": "2026-11-20",
-    "t_min_c": 10.8,
-    "t_max_c": 19.1,
+    "t_min_c": 11,
+    "t_max_c": 18.5,
     "rain_prob_pct": 0,
-    "weather_type": 2
+    "weather_type": 5
    },
    {
     "date": "2026-11-21",
-    "t_min_c": 12.5,
-    "t_max_c": 19.7,
-    "rain_prob_pct": 69,
-    "weather_type": 6
+    "t_min_c": 11.9,
+    "t_max_c": 19.9,
+    "rain_prob_pct": 84,
+    "weather_type": 7
    }
   ],
   "source": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081100.json"
@@ -63,7 +63,7 @@
     "type_pt": "Agitação Marítima",
     "level": "yellow",
     "start": "2026-11-18T12:00:00",
-    "end": "2026-11-20T02:00:00",
+    "end": "2026-11-20T07:00:00",
     "text": "Na costa Ocidental, ondas de noroeste com 4 a 5 metros."
    }
   ],
@@ -101,7 +101,7 @@
   "date": "2026-11-17",
   "waves_max_m": 1.8,
   "sea_max_m": 2,
-  "sea_temp_max_c": 18.7,
+  "sea_temp_max_c": 18.8,
   "page": "https://www.ipma.pt/en/maritima/costeira/",
   "source": "https://api.ipma.pt/open-data/forecast/oceanography/daily/hp-daily-sea-forecast-day0.json"
  },
@@ -109,62 +109,62 @@
  "reads": {
   "warnings": {
    "url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-   "at": "2026-11-17T08:16:09Z",
+   "at": "2026-11-17T10:15:55Z",
    "status": 200
   },
   "observations": {
    "url": "https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json",
-   "at": "2026-11-17T08:16:12Z",
+   "at": "2026-11-17T10:15:57Z",
    "status": 200
   },
   "city-daily-1080500": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080500.json",
-   "at": "2026-11-17T08:16:14Z",
+   "at": "2026-11-17T10:16:00Z",
    "status": 200
   },
   "city-daily-1080800": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080800.json",
-   "at": "2026-11-17T08:16:16Z",
+   "at": "2026-11-17T10:16:02Z",
    "status": 200
   },
   "city-daily-1081100": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081100.json",
-   "at": "2026-11-17T08:16:18Z",
+   "at": "2026-11-17T10:16:04Z",
    "status": 200
   },
   "city-daily-1081505": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081505.json",
-   "at": "2026-11-17T08:16:20Z",
+   "at": "2026-11-17T10:16:06Z",
    "status": 200
   },
   "fire-risk-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d0.json",
-   "at": "2026-11-17T08:16:22Z",
+   "at": "2026-11-17T10:16:08Z",
    "status": 200
   },
   "fire-risk-d1": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d1.json",
-   "at": "2026-11-17T08:16:25Z",
+   "at": "2026-11-17T10:16:10Z",
    "status": 200
   },
   "fire-risk-d2": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d2.json",
-   "at": "2026-11-17T08:16:27Z",
+   "at": "2026-11-17T10:16:13Z",
    "status": 200
   },
   "uv": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/uv/uv.json",
-   "at": "2026-11-17T08:16:29Z",
+   "at": "2026-11-17T10:16:15Z",
    "status": 200
   },
   "sea-forecast-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/oceanography/daily/hp-daily-sea-forecast-day0.json",
-   "at": "2026-11-17T08:16:31Z",
+   "at": "2026-11-17T10:16:17Z",
    "status": 200
   },
   "adsb": {
    "url": "https://api.adsb.lol/v2/point/37.0144/-7.9659/40",
-   "at": "2026-11-17T08:16:34Z",
+   "at": "2026-11-17T10:16:19Z",
    "status": 200
   }
  }
