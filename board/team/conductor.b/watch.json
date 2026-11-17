@@ -754,6 +754,11 @@
       "at": "2026-11-17T16:53Z",
       "by": "conductor.b@PrompTugal.dinis",
       "note": "hour 21: live v0.1.1735. dev@ provenance filters and api/v1/articles/provenance.json; ontologist@ provenance and claims schema (step 2); journalist@ BR2 corrected, 15 queue items given owners; translator@ pl-PL half; designer.places@ /media/ kind chips. east read Sul Informacao's feed once: its robots.txt disallows ClaudeBot/Claude-Web/anthropic-ai: told east to stop and link only, journalist@ to hold items resting on it, until Dinis rules. security@ S50 for Dinis: the GBP5 support button takes real payment whose credit lands on newsroom.sgit.ai, not here."
+    },
+    {
+      "at": "2026-11-17T17:51Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 22: live v0.1.1737. east stopped reading sulinformacao.pt and removed the item (16:52); evening passes: west (Lagos police operation, Portimao housing debate), central (Olhao teacher's Erasmus+ AI course), east addendum; journalist@ brought all three. The old conductor@ (account A): the data site and focused newsrooms brief (newsroom.sgit.ai's writer, at Dinis's request) and the provenance model's steering/background inside origin (endorsed by Dinis). Live data 16:17."
     }
   ]
 }
