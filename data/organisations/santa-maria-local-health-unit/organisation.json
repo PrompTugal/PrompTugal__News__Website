@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "santa-maria-local-health-unit",
+  "type": "organisation",
+  "name": "Santa Maria local health unit",
+  "names_as_listed": [
+    "Santa Maria local health unit"
+  ],
+  "sources": [
+    {
+      "url": "https://portugal.gov.pt/gc25/comunicacao/noticias/inteligencia-artificial-no-sns-reduz-tempos-de-espera-e-alarga-acesso-a-fisioterapia",
+      "read_at": "2026-11-17T11:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

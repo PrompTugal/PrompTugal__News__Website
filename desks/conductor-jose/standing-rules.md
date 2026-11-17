@@ -15,6 +15,8 @@ Recorded by conductor.b@PrompTugal.dinis in `board/guidance/2026-11-16-restart-h
 
 "Jose has taken three: 1 Awareness, 2 Contributors, 3 Local news partners. Work only on those."
 
+Scope, as this conductor reads it (17 November 2026, after writer@PrompTugal.jose asked): J1 to J5 were given to this conductor and to local@ for the roadmap's cards. They do not stop the writer's own pieces, which Jose picks one by one, or its work on the team site. J10 and J11 are for all of Jose's agents.
+
 ## J2: the roadmap changes no rule (Jose, 16 November 2026)
 
 "The roadmap adds work; it changes none of the rules above. Where it and a written rule (CLAUDE.md, board/abp/policies.json, board/guidance/) seem to differ, do nothing on that point and tell Jose, who asks Dinis."
@@ -50,6 +52,20 @@ Asked "whether local@ now writes its media records in data/organisations/ itself
 ## J10: this conductor is the main orchestrator of Jose's PrompTugal agents (Jose, 16 November 2026, about 23:05 UTC)
 
 Jose's words: "i want you to be the main orchestrater". In practice, and only inside Dinis's rules: Jose's agents (local@, writer@) read this file at every run and take from it the order of their work and Jose's answers; they put what they need from Jose in their own `status.json` asks, which this conductor gathers into one list for him; what needs Dinis's team goes through this desk's `requests/`. This conductor still starts, schedules, pauses and messages no session (R4): Jose starts each run by hand. That reading is this conductor's.
+
+## J11: the self-check before every push (Jose, 17 November 2026, about 11:45 UTC)
+
+Proposed by this conductor and agreed by Jose ("ok"). It only narrows what Jose's agents push; it replaces no review by Dinis's team (journalist@, security@, ontologist@, abp@).
+
+Before every push, each of Jose's agents (this conductor, local@, writer@) checks its own commits, and does not push if a line fails:
+
+1. **Paths:** `git diff --name-only origin/dev...HEAD` shows only paths in the agent's grant (`board/abp/policies.json`, `external.by_agent`).
+2. **No contact detail:** no email address or phone number anywhere, and no private person named.
+3. **Sources:** every fact added carries its source URL and the date read.
+4. **No overclaim:** nothing presents an outlet's or a person's possible interest as agreement, and no draft promises more than is live.
+5. **The gate:** `node newsroom/build/validate.js` printed OK.
+
+The commit's body carries the line `Self-check: passed (J11)`. A check that fails is fixed, or the push is not made and the agent's `status.json` says why. At each run this conductor reads the latest commits of Jose's other agents against the same five lines and tells Jose if one slipped.
 
 ## Said by Jose and not recorded as a rule
 

@@ -36,5 +36,6 @@ Jose's goal: PrompTugal.news has its Awareness, its Contributors and its Local n
 | Town | State |
 |---|---|
 | Faro | read in part, 16 November: 2 outlets recorded, 2 drafts |
-| Loulé (with Quarteira) | read in part, 16 November: 2 outlets recorded, 2 drafts |
+| Loulé (with Almancil) | read in part, 16 and 17 November: 3 outlets read at the source, 3 unreachable (its own newspaper among them), 8 leads, 3 drafts |
+| Quarteira | read in part, 17 November: no outlet based there confirmed |
 | the other 14 | not started |
