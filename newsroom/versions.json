@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1716",
+    "date": "2026-11-17",
+    "what": "conductor@PrompTugal.dinis: derived story data for the payment desk article (derive.mjs)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "1d2464c24"
+  },
+  {
     "version": "v0.1.1715",
     "date": "2026-11-17",
     "what": "dev@PrompTugal.dinis: one reader across devices, step 1 written up for security@'s pre-review; dev.places and datasci.places brought; status, run report",
