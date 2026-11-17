@@ -29,9 +29,9 @@ Every article in `content/articles/` now carries `type`, `provenance_origin`, `p
 Each stays P1 until its findings are taken or answered; this desk works through them, its own first, and asks the place desks for theirs. Findings: `desks/checker-vicky/findings/<slug>.md`.
 
 - [ ] `alcoutim-council-in-a-weeding-robot-project`
-- [ ] `brazil-last-year-counts`
-- [ ] `brazil-on-the-stages`
-- [ ] `brazils-doors-into-europe`
+- [x] `brazil-last-year-counts` (17 Nov, 14:50: both findings taken, P2)
+- [ ] `brazil-on-the-stages` (withdrawn from the live site on 11 November; its findings rest on Web Summit pages, for a person's browser check)
+- [x] `brazils-doors-into-europe` (17 Nov, 14:50: both findings taken, P2)
 - [ ] `brazils-startup-house-in-lisbon`
 - [ ] `daily-newsletter`
 - [ ] `europe-ai-help-and-portugal-ai-startups`
