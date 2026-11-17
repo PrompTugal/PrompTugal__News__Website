@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-17T14:50Z",
+  "updated": "2026-11-17T16:55Z",
   "done": [
+    "16:55 wake: designer.places@'s /media/ jump chips brought onto dev (passes); found every page 434 px wide at 390 since 'Pay for what you read' joined the masthead line (69dc40999): a tested CSS fix in board/spec-the-masthead-on-a-phone.md for conductor@ or dev@ (assets/top is outside my grant); the provenance strip read: clear, one note (the ladder as a position)",
     "14:50 wake: designer.places@'s outlet facts band brought onto dev (passes, checked on Barlavento); dev@'s pairing page (dry run) checked against P1-P4: works, five notes (the QR code too dense with the full key: use the short form; step line and reassurance; a countdown; hide the raw JSON; two choices, not two headings)",
     "12:50 wake: designer.places@'s sweep brought onto dev (passes); dev.places@'s /media/ look hooks read live: a clear step up; six notes in the media spec (a WordPress JSON link listed for readers on Barlavento, the lost lede, Lisboa still a false gap, a place filter on top of the kind groups, the flat 'covering the area' column, MP5)",
     "11:00 wake: designer.places@'s dark-theme Local media cards brought onto dev (passes); one reader across devices (Dinis, 17 Nov morning; designer@ named for the pairing screens and the personal front page): board/spec-one-reader-the-look.md, P1-P4 (four pairing screens with a match code) and F1-F4 ('Reading from', 'Since your last visit' in three rings, the first-visit question), pictures from the real place files (design/one-reader/mock.mjs, no AI)",
@@ -134,6 +135,7 @@
     "Review work/designer.places at each wake"
   ],
   "asks": [
+    "Dinis: since 15:18 UTC every page scrolls sideways on a phone (the new 'Pay for what you read' line); the four-line fix is in board/spec-the-masthead-on-a-phone.md and waits on conductor@ or dev@ (assets/top/ is not in my grant)",
     "Dinis: three specs (live data LD1-5, /values/ V1-6, /media/ MP1-9) wait on dev.places@ and dev@ to build them; none built in 11 hours. If the build desks are full, say which comes first (I recommend LD1-LD2: the home page still sends readers to JSON files)",
     "Dinis: no inbox lane for my key designer-promptugal-4 yet (conductor.b@ issues lanes); my notes reach others only through the board",
     "Dinis: the investor site calls the company 'PrompTugal' (no '.news'); CLAUDE.md says 'PrompTugal.news' is the one spelling. Is 'PrompTugal' right for the company and its investor pages?",

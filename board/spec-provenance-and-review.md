@@ -58,6 +58,14 @@ Sources: Trust Project https://thetrustproject.org/ and Google on Type of Work h
 
 The prompt, the model and the agent are recorded on O and R; every human action on V and E is a signature, not a claim.
 
+**Inside origin, off the ladder: steering and background** (proposed by newsroom.sgit.ai's writer and endorsed by Dinis, 17 November 2026: "briefed" hides a big difference, and readers can feel it; [who steered this](https://newsroom.sgit.ai/articles/who-steered-this.html)):
+
+| Measure | Values |
+|---|---|
+| **Steering**: how much the author directed the piece | one line · a brief with material · a brief, material and a conversation · corrections after reading (each a diff, counted) |
+| **Background**: how much context the writer carried | a fresh session · a handbook · standing instructions and a corpus · a long-lived writer with months of instructions, corpus and repositories (recorded as the instruction set used) |
+
+
 ### 3. The ladder (like Wikipedia's assessment scale)
 
 | Level | Name | What it takes |
@@ -118,7 +126,7 @@ Origin is not on the ladder: a dictated opinion and a data page can both be P4. 
 2. **ontologist@:** the schema for `provenance.json` and `claims.json` per story (derived where it can be), and **people as authors**: today `story.schema.json` accepts only an agent as `assignee` and `history[].by`, so Dinis's opinion piece carries `author: conductor@PrompTugal.dinis` with `byline: Dinis Cruz` until a person (with a key in `board/person-keys.json`) can be an author.
 3. **dev@:** the provenance strip and the filters from those fields; then the radar.
 4. **dev.verify@:** the multi-model check for P3, with its record per piece.
-5. **dev@ and security@:** the human signature (Dinis signs with his pki.sgit.ai key in the browser; the signature file sits beside the agent's).
+5. **dev@ and security@:** the human signature, **from the website**: Dinis reads a piece on its page and signs that exact version there with his pki.sgit.ai key in the browser (a "sign this version" control on every article page); his signature sits beside the agent's (P4); every change after it is a signed diff. He signs only from the website (Dinis, as relayed by newsroom.sgit.ai's writer, 17 November 2026).
 6. **outreach@ and dev@:** the response page and the first request: the ATM piece's bank.
 7. **journalist@:** the Opinion and Editorial sections, and the daily editorial.
 
