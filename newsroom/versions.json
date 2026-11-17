@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1757",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: 23:09 wake: datasci.places brought; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "6643ffd4b"
+  },
+  {
     "version": "v0.1.1756",
     "date": "2026-11-17",
     "what": "conductor@PrompTugal.dinis: hand-over: where the sealed data vault keys are",
