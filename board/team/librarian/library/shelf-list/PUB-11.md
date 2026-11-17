@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: PUB, The publication (part 11 of 16)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T18:59:13Z"
-site_version: "v0.1.1741"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T21:59:17Z"
+site_version: "v0.1.1750"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 11 of 16)
 
-100 cards, from `PUB.SITE newsroom:29` to `PUB.SITE place.quarteira`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE newsroom:28` to `PUB.SITE place.portugal`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1001 to 1025**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE newsroom:28` | [The newsroom of PrompTugal.news Lisboa](https://promptugal.news/portugal/lisboa/newsroom/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE newsroom:29` | [The newsroom of PrompTugal.news Portugal](https://promptugal.news/portugal/newsroom/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE newsroom:3` | [The newsroom of PrompTugal.news Aljezur](https://promptugal.news/algarve/aljezur/newsroom/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE newsroom:30` | [The newsroom of PrompTugal.news Portalegre](https://promptugal.news/portugal/portalegre/newsroom/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `PUB.SITE noticias-de-aveiro` | [Notícias de Aveiro](https://promptugal.news/media/noticias-de-aveiro/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE noticias-de-coimbra` | [Notícias de Coimbra (NDC)](https://promptugal.news/media/noticias-de-coimbra/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE noticias-de-viana` | [Notícias de Viana](https://promptugal.news/media/noticias-de-viana/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE noticias-de-vila-real` | [Notícias de Vila Real](https://promptugal.news/media/noticias-de-vila-real/) | site | dev.places@ 16 Nov 2026 |
 
 **Cards 1026 to 1050**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE noticias-de-vila-real` | [Notícias de Vila Real](https://promptugal.news/media/noticias-de-vila-real/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE o-digital` | [ODigital](https://promptugal.news/media/o-digital/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE o-interior` | [O Interior](https://promptugal.news/media/o-interior/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE o-minho` | [O MINHO](https://promptugal.news/media/o-minho/) | site | dev.places@ 16 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `PUB.SITE olhao:7` | [PrompTugal.news Olhão](https://promptugal.news/es-MX/algarve/olhao/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE olhao:8` | [PrompTugal.news Olhão](https://promptugal.news/fr-CA/algarve/olhao/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE olhao:9` | [PrompTugal.news Olhão](https://promptugal.news/fr-FR/algarve/olhao/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE ontologist` | [ontologist@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/ontologist/) | site |  |
 
 **Cards 1051 to 1075**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE ontologist` | [ontologist@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/ontologist/) | site |  |
 | `PUB.SITE organisations` | [Portugal's ecosystem organisations](https://promptugal.news/portugal/organisations/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE outreach` | [Outreach, what to send and samples](https://promptugal.news/investors/outreach/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE outreach:2` | [Contacto, qué enviar y ejemplos](https://promptugal.news/investors/es/outreach/) | site | investors@ 7 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `PUB.SITE pay-after-the-value:4` | [Pagar depois do valor: um modelo de negócio sem publicidade](https://promptugal.news/investors/pt/articles/pay-after-the-value/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE pcguia` | [PCGuia](https://promptugal.news/media/pcguia/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE personas` | [Versiones personales](https://promptugal.news/investors/es/personas/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE personas:2` | [Versions personnelles](https://promptugal.news/investors/fr/personas/) | site | investors@ 7 Nov 2026 |
 
 **Cards 1076 to 1100**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE personas:2` | [Versions personnelles](https://promptugal.news/investors/fr/personas/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE personas:3` | [Personal versions](https://promptugal.news/investors/personas/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE personas:4` | [Versões pessoais](https://promptugal.news/investors/pt/personas/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE perspetiva` | [Perspetiva](https://promptugal.news/media/perspetiva/) | site | dev.places@ 16 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE place.olhao` | [place.olhao@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/place.olhao/) | site |  |
 | `PUB.SITE place.portimao` | [place.portimao@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/place.portimao/) | site |  |
 | `PUB.SITE place.portugal` | [place.portugal@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/place.portugal/) | site |  |
-| `PUB.SITE place.quarteira` | [place.quarteira@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/place.quarteira/) | site |  |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-10.md) | [Next part](PUB-12.md)

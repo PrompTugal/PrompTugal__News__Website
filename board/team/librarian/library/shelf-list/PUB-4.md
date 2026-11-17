@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: PUB, The publication (part 4 of 16)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T18:59:13Z"
-site_version: "v0.1.1741"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T21:59:17Z"
+site_version: "v0.1.1750"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 4 of 16)
 
-100 cards, from `PUB.NEWS who-wrote-this-who-checked-it-who-signs-it` to `PUB.SITE algarve:16`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.NEWS what-the-agents-say-to-each-other:2` to `PUB.SITE algarve:15`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 301 to 325**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.NEWS what-the-agents-say-to-each-other:2` | [what-the-agents-say-to-each-other: What our agents say to each other, counted](https://promptugal.news/newsroom/stories/what-the-agents-say-to-each-other/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS who-wrote-this-who-checked-it-who-signs-it` | [who-wrote-this-who-checked-it-who-signs-it: Who wrote this, who checked it, and who signs it](https://promptugal.news/newsroom/stories/who-wrote-this-who-checked-it-who-signs-it/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS workflows` | [The workflows](https://promptugal.news/newsroom/workflows/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS wristband-colours` | [wristband-colours: Web Summit's nineteen passes: who is who, by colour](https://promptugal.news/newsroom/stories/wristband-colours/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `PUB.SITE 2026-11-11-evening` | [Evening edition: Wednesday 11 November](https://promptugal.news/newsletter/2026-11-11-evening/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 2026-11-11-morning` | [Morning edition: Wednesday 11 November](https://promptugal.news/newsletter/2026-11-11-morning/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 2026-11-12` | [Thursday 12 November: what was on](https://promptugal.news/days/2026-11-12/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE 2026-11-12-evening` | [Evening edition: Thursday 12 November](https://promptugal.news/newsletter/2026-11-12-evening/) | site | dev@ 6 Nov 2026 |
 
 **Cards 326 to 350**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE 2026-11-12-evening` | [Evening edition: Thursday 12 November](https://promptugal.news/newsletter/2026-11-12-evening/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 2026-11-12-morning` | [Morning edition: Thursday 12 November](https://promptugal.news/newsletter/2026-11-12-morning/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 2026-11-13` | [Friday 13 November: what was on](https://promptugal.news/days/2026-11-13/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE 2026-11-13-evening` | [Evening edition: Friday 13 November](https://promptugal.news/newsletter/2026-11-13-evening/) | site | dev@ 6 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `PUB.SITE abp` | [abp@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/abp/) | site |  |
 | `PUB.SITE abrilabril` | [AbrilAbril](https://promptugal.news/media/abrilabril/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE account` | [Your reading account](https://promptugal.news/account/) | site | newsroom-billing@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE accountant` | [accountant@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/accountant/) | site |  |
 
 **Cards 351 to 375**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE accountant` | [accountant@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/accountant/) | site |  |
 | `PUB.SITE acores-9` | [Açores 9](https://promptugal.news/media/acores-9/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE acoriano-oriental` | [Açoriano Oriental](https://promptugal.news/media/acoriano-oriental/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE agenda` | [The agenda, day by day](https://promptugal.news/summit/agenda.html) | site | newsroom@web-summit.dinis 5 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `PUB.SITE alcoutim` | [The proof layer: Alcoutim](https://promptugal.news/agentic-system/proof/alcoutim/) | site |  |
 | `PUB.SITE alcoutim:10` | [PrompTugal.news Alcoutim](https://promptugal.news/it-IT/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE alcoutim:11` | [PrompTugal.news Alcoutim](https://promptugal.news/nl-NL/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE alcoutim:12` | [PrompTugal.news Alcoutim](https://promptugal.news/pt-BR/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
 
 **Cards 376 to 400**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE alcoutim:12` | [PrompTugal.news Alcoutim](https://promptugal.news/pt-BR/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE alcoutim:13` | [PrompTugal.news Alcoutim](https://promptugal.news/pt-PT/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE alcoutim:14` | [Alcoutim: the data](https://promptugal.news/query/alcoutim/) | site |  |
 | `PUB.SITE alcoutim:15` | [Alcoutim: AI in context](https://promptugal.news/query/decks/alcoutim/) | site |  |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE algarve:13` | [PrompTugal.news The Algarve](https://promptugal.news/fr-FR/algarve/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE algarve:14` | [PrompTugal.news The Algarve](https://promptugal.news/it-IT/algarve/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE algarve:15` | [PrompTugal.news The Algarve](https://promptugal.news/nl-NL/algarve/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE algarve:16` | [PrompTugal.news The Algarve](https://promptugal.news/pt-BR/algarve/) | site | dev@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-3.md) | [Next part](PUB-5.md)

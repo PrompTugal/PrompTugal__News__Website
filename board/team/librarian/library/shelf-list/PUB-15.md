@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: PUB, The publication (part 15 of 16)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T18:59:13Z"
-site_version: "v0.1.1741"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T21:59:17Z"
+site_version: "v0.1.1750"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 15 of 16)
 
-100 cards, from `PUB.SITE thanks:4` to `PUB.SITE viseu:6`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE thanks:3` to `PUB.SITE viseu:5`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1401 to 1425**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE thanks:3` | [Obrigado](https://promptugal.news/investors/pt/thanks/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE thanks:4` | [Thank you](https://promptugal.news/investors/thanks/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE the-portugal-news` | [The Portugal News](https://promptugal.news/media/the-portugal-news/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE thinking` | [What we think](https://promptugal.news/investors/thinking/) | site | investors@ 7 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `PUB.SITE viana-do-castelo:10` | [PrompTugal.news Viana do Castelo](https://promptugal.news/nl-NL/portugal/viana-do-castelo/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE viana-do-castelo:11` | [PrompTugal.news Viana do Castelo](https://promptugal.news/portugal/viana-do-castelo/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE viana-do-castelo:12` | [PrompTugal.news Viana do Castelo](https://promptugal.news/pt-BR/portugal/viana-do-castelo/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE viana-do-castelo:13` | [PrompTugal.news Viana do Castelo](https://promptugal.news/pt-PT/portugal/viana-do-castelo/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
 **Cards 1426 to 1450**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE viana-do-castelo:13` | [PrompTugal.news Viana do Castelo](https://promptugal.news/pt-PT/portugal/viana-do-castelo/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE viana-do-castelo:14` | [Viana do Castelo: AI in context](https://promptugal.news/query/decks/viana-do-castelo/) | site |  |
 | `PUB.SITE viana-do-castelo:15` | [Viana do Castelo: the data](https://promptugal.news/query/viana-do-castelo/) | site |  |
 | `PUB.SITE viana-do-castelo:16` | [PrompTugal.news Viana do Castelo](https://promptugal.news/pl-PL/portugal/viana-do-castelo/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `PUB.SITE vila-do-bispo:4` | [PrompTugal.news Vila do Bispo](https://promptugal.news/es-AR/algarve/vila-do-bispo/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE vila-do-bispo:5` | [PrompTugal.news Vila do Bispo](https://promptugal.news/es-ES/algarve/vila-do-bispo/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE vila-do-bispo:6` | [PrompTugal.news Vila do Bispo](https://promptugal.news/es-MX/algarve/vila-do-bispo/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE vila-do-bispo:7` | [PrompTugal.news Vila do Bispo](https://promptugal.news/fr-CA/algarve/vila-do-bispo/) | site | dev@ 6 Nov 2026 |
 
 **Cards 1451 to 1475**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE vila-do-bispo:7` | [PrompTugal.news Vila do Bispo](https://promptugal.news/fr-CA/algarve/vila-do-bispo/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE vila-do-bispo:8` | [PrompTugal.news Vila do Bispo](https://promptugal.news/fr-FR/algarve/vila-do-bispo/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE vila-do-bispo:9` | [PrompTugal.news Vila do Bispo](https://promptugal.news/it-IT/algarve/vila-do-bispo/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE vila-real` | [The proof layer: Vila Real](https://promptugal.news/agentic-system/proof/vila-real/) | site |  |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `PUB.SITE vila-real:12` | [PrompTugal.news Vila Real](https://promptugal.news/pt-BR/portugal/vila-real/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE vila-real:13` | [PrompTugal.news Vila Real](https://promptugal.news/pt-PT/portugal/vila-real/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE vila-real:14` | [Vila Real: AI in context](https://promptugal.news/query/decks/vila-real/) | site |  |
-| `PUB.SITE vila-real:15` | [Vila Real: the data](https://promptugal.news/query/vila-real/) | site |  |
 
 **Cards 1476 to 1500**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE vila-real:15` | [Vila Real: the data](https://promptugal.news/query/vila-real/) | site |  |
 | `PUB.SITE vila-real:16` | [PrompTugal.news Vila Real](https://promptugal.news/pl-PL/portugal/vila-real/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE vila-real:2` | [PrompTugal.news Vila Real](https://promptugal.news/de-CH/portugal/vila-real/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE vila-real:3` | [PrompTugal.news Vila Real](https://promptugal.news/de-DE/portugal/vila-real/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE viseu:3` | [PrompTugal.news Viseu](https://promptugal.news/de-DE/portugal/viseu/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE viseu:4` | [PrompTugal.news Viseu](https://promptugal.news/es-AR/portugal/viseu/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE viseu:5` | [PrompTugal.news Viseu](https://promptugal.news/es-ES/portugal/viseu/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE viseu:6` | [PrompTugal.news Viseu](https://promptugal.news/es-MX/portugal/viseu/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-14.md) | [Next part](PUB-16.md)

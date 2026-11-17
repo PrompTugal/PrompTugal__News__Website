@@ -1,19 +1,22 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 3 of 35)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T18:59:13Z"
-site_version: "v0.1.1741"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T21:59:17Z"
+site_version: "v0.1.1750"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 3 of 35)
 
-100 cards, from `TEAM.INBOX dev.search` to `TEAM.INBOX site.setubal`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.INBOX dev.places` to `TEAM.INBOX site.quarteira`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 201 to 225**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.INBOX dev.places` | [dev.places.json](https://promptugal.news/board/inboxes/dev.places.json) | board | conductor@ 15 Nov 2026 |
+| `TEAM.INBOX dev.portugal` | [dev.portugal.json](https://promptugal.news/board/inboxes/dev.portugal.json) | board | conductor@ 6 Nov 2026 |
+| `TEAM.INBOX dev.portugal-b` | [dev.portugal-b.json](https://promptugal.news/board/inboxes/dev.portugal-b.json) | board | conductor@ 7 Nov 2026 |
 | `TEAM.INBOX dev.search` | [dev.search.json](https://promptugal.news/board/inboxes/dev.search.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX dev.search-2` | [dev.search-2.json](https://promptugal.news/board/inboxes/dev.search-2.json) | board | conductor@ 7 Nov 2026 |
 | `TEAM.INBOX dev.verify` | [dev.verify.json](https://promptugal.news/board/inboxes/dev.verify.json) | board | conductor@ 6 Nov 2026 |
@@ -36,14 +39,14 @@ source: board/catalogue.json
 | `TEAM.INBOX journalist-connections-vicky` | [journalist-connections-vicky.json](https://promptugal.news/board/inboxes/journalist-connections-vicky.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX journalist-connections-vicky-b` | [journalist-connections-vicky-b.json](https://promptugal.news/board/inboxes/journalist-connections-vicky-b.json) | board | conductor@ 10 Nov 2026 |
 | `TEAM.INBOX journalist-connections-vicky-c` | [journalist-connections-vicky-c.json](https://promptugal.news/board/inboxes/journalist-connections-vicky-c.json) | board | conductor@ 11 Nov 2026 |
-| `TEAM.INBOX journalist-europe-vicky` | [journalist-europe-vicky.json](https://promptugal.news/board/inboxes/journalist-europe-vicky.json) | board | conductor@ 6 Nov 2026 |
-| `TEAM.INBOX journalist-europe-vicky-b` | [journalist-europe-vicky-b.json](https://promptugal.news/board/inboxes/journalist-europe-vicky-b.json) | board | conductor@ 10 Nov 2026 |
-| `TEAM.INBOX journalist-europe-vicky-c` | [journalist-europe-vicky-c.json](https://promptugal.news/board/inboxes/journalist-europe-vicky-c.json) | board | conductor@ 11 Nov 2026 |
 
 **Cards 226 to 250**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.INBOX journalist-europe-vicky` | [journalist-europe-vicky.json](https://promptugal.news/board/inboxes/journalist-europe-vicky.json) | board | conductor@ 6 Nov 2026 |
+| `TEAM.INBOX journalist-europe-vicky-b` | [journalist-europe-vicky-b.json](https://promptugal.news/board/inboxes/journalist-europe-vicky-b.json) | board | conductor@ 10 Nov 2026 |
+| `TEAM.INBOX journalist-europe-vicky-c` | [journalist-europe-vicky-c.json](https://promptugal.news/board/inboxes/journalist-europe-vicky-c.json) | board | conductor@ 11 Nov 2026 |
 | `TEAM.INBOX journalist-portugal-vicky` | [journalist-portugal-vicky.json](https://promptugal.news/board/inboxes/journalist-portugal-vicky.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX journalist-portugal-vicky-b` | [journalist-portugal-vicky-b.json](https://promptugal.news/board/inboxes/journalist-portugal-vicky-b.json) | board | conductor@ 10 Nov 2026 |
 | `TEAM.INBOX journalist-portugal-vicky-c` | [journalist-portugal-vicky-c.json](https://promptugal.news/board/inboxes/journalist-portugal-vicky-c.json) | board | conductor@ 11 Nov 2026 |
@@ -66,14 +69,14 @@ source: board/catalogue.json
 | `TEAM.INBOX place.lagoa` | [place.lagoa.json](https://promptugal.news/board/inboxes/place.lagoa.json) | board | conductor@ 15 Nov 2026 |
 | `TEAM.INBOX place.lagos` | [place.lagos.json](https://promptugal.news/board/inboxes/place.lagos.json) | board | conductor@ 15 Nov 2026 |
 | `TEAM.INBOX place.loule` | [place.loule.json](https://promptugal.news/board/inboxes/place.loule.json) | board | conductor@ 15 Nov 2026 |
-| `TEAM.INBOX place.monchique` | [place.monchique.json](https://promptugal.news/board/inboxes/place.monchique.json) | board | conductor@ 15 Nov 2026 |
-| `TEAM.INBOX place.olhao` | [place.olhao.json](https://promptugal.news/board/inboxes/place.olhao.json) | board | conductor@ 15 Nov 2026 |
-| `TEAM.INBOX place.portimao` | [place.portimao.json](https://promptugal.news/board/inboxes/place.portimao.json) | board | conductor@ 15 Nov 2026 |
 
 **Cards 251 to 275**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.INBOX place.monchique` | [place.monchique.json](https://promptugal.news/board/inboxes/place.monchique.json) | board | conductor@ 15 Nov 2026 |
+| `TEAM.INBOX place.olhao` | [place.olhao.json](https://promptugal.news/board/inboxes/place.olhao.json) | board | conductor@ 15 Nov 2026 |
+| `TEAM.INBOX place.portimao` | [place.portimao.json](https://promptugal.news/board/inboxes/place.portimao.json) | board | conductor@ 15 Nov 2026 |
 | `TEAM.INBOX place.portugal` | [place.portugal.json](https://promptugal.news/board/inboxes/place.portugal.json) | board | conductor@ 15 Nov 2026 |
 | `TEAM.INBOX place.quarteira` | [place.quarteira.json](https://promptugal.news/board/inboxes/place.quarteira.json) | board | conductor@ 15 Nov 2026 |
 | `TEAM.INBOX place.sao-bras-de-alportel` | [place.sao-bras-de-alportel.json](https://promptugal.news/board/inboxes/place.sao-bras-de-alportel.json) | board | conductor@ 15 Nov 2026 |
@@ -96,14 +99,14 @@ source: board/catalogue.json
 | `TEAM.INBOX sherpa` | [sherpa.json](https://promptugal.news/board/inboxes/sherpa.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX sherpa-b` | [sherpa-b.json](https://promptugal.news/board/inboxes/sherpa-b.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX site.albufeira` | [site.albufeira.json](https://promptugal.news/board/inboxes/site.albufeira.json) | board | conductor@ 15 Nov 2026 |
-| `TEAM.INBOX site.alcoutim` | [site.alcoutim.json](https://promptugal.news/board/inboxes/site.alcoutim.json) | board | conductor@ 15 Nov 2026 |
-| `TEAM.INBOX site.algarve` | [site.algarve.json](https://promptugal.news/board/inboxes/site.algarve.json) | board | conductor@ 15 Nov 2026 |
-| `TEAM.INBOX site.aljezur` | [site.aljezur.json](https://promptugal.news/board/inboxes/site.aljezur.json) | board | conductor@ 15 Nov 2026 |
 
 **Cards 276 to 300**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.INBOX site.alcoutim` | [site.alcoutim.json](https://promptugal.news/board/inboxes/site.alcoutim.json) | board | conductor@ 15 Nov 2026 |
+| `TEAM.INBOX site.algarve` | [site.algarve.json](https://promptugal.news/board/inboxes/site.algarve.json) | board | conductor@ 15 Nov 2026 |
+| `TEAM.INBOX site.aljezur` | [site.aljezur.json](https://promptugal.news/board/inboxes/site.aljezur.json) | board | conductor@ 15 Nov 2026 |
 | `TEAM.INBOX site.aveiro` | [site.aveiro.json](https://promptugal.news/board/inboxes/site.aveiro.json) | board | conductor@ 16 Nov 2026 |
 | `TEAM.INBOX site.beja` | [site.beja.json](https://promptugal.news/board/inboxes/site.beja.json) | board | conductor@ 16 Nov 2026 |
 | `TEAM.INBOX site.braga` | [site.braga.json](https://promptugal.news/board/inboxes/site.braga.json) | board | conductor@ 16 Nov 2026 |
@@ -126,8 +129,5 @@ source: board/catalogue.json
 | `TEAM.INBOX site.porto` | [site.porto.json](https://promptugal.news/board/inboxes/site.porto.json) | board | conductor@ 16 Nov 2026 |
 | `TEAM.INBOX site.portugal` | [site.portugal.json](https://promptugal.news/board/inboxes/site.portugal.json) | board | conductor@ 15 Nov 2026 |
 | `TEAM.INBOX site.quarteira` | [site.quarteira.json](https://promptugal.news/board/inboxes/site.quarteira.json) | board | conductor@ 15 Nov 2026 |
-| `TEAM.INBOX site.santarem` | [site.santarem.json](https://promptugal.news/board/inboxes/site.santarem.json) | board | conductor@ 16 Nov 2026 |
-| `TEAM.INBOX site.sao-bras-de-alportel` | [site.sao-bras-de-alportel.json](https://promptugal.news/board/inboxes/site.sao-bras-de-alportel.json) | board | conductor@ 15 Nov 2026 |
-| `TEAM.INBOX site.setubal` | [site.setubal.json](https://promptugal.news/board/inboxes/site.setubal.json) | board | conductor@ 16 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-2.md) | [Next part](TEAM-4.md)

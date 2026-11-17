@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: PUB, The publication (part 16 of 16)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T18:59:13Z"
-site_version: "v0.1.1741"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T21:59:17Z"
+site_version: "v0.1.1750"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 16 of 16)
 
-15 cards, from `PUB.SITE viseu:7` to `PUB.SITE zap`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+16 cards, from `PUB.SITE viseu:6` to `PUB.SITE zap`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
-**Cards 1501 to 1515**
+**Cards 1501 to 1516**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE viseu:6` | [PrompTugal.news Viseu](https://promptugal.news/es-MX/portugal/viseu/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE viseu:7` | [PrompTugal.news Viseu](https://promptugal.news/fr-CA/portugal/viseu/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE viseu:8` | [PrompTugal.news Viseu](https://promptugal.news/fr-FR/portugal/viseu/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE viseu:9` | [PrompTugal.news Viseu](https://promptugal.news/it-IT/portugal/viseu/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
