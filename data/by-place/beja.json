@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Beja: AI and technology in Beja, the Baixo Alentejo's district capital, whose centre of gravity is its polytechnic university and the farming and health AI work around it, and what reaches Beja from the Alentejo, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -137,7 +137,8 @@
       "name": "Correio Alentejo",
       "url": "https://correioalentejo.com",
       "kind": "press",
-      "feed": "https://correioalentejo.com/feed/"
+      "feed": "https://correioalentejo.com/feed/",
+      "note": "Feed checked 2026-11-17: valid RSS 2.0, 11 items, none on AI."
     },
     {
       "name": "Diário do Alentejo",
@@ -190,10 +191,10 @@
   ],
   "events": [
     {
-      "title": "Capacitação de Empresas para a Inovação, workshop series (Câmara Municipal de Beja, Auditório do Edifício Azul)",
+      "title": "Capacitação de Empresas para a Inovação, workshop series, 18:00 (Câmara Municipal de Beja, Auditório do Edifício Azul, Parque de Feiras e Exposições)",
       "date": "2026-11-17",
       "url": "https://cm-beja.pt/pt/pt/agenda.aspx",
-      "read_on": "2026-11-16",
+      "read_on": "2026-11-17",
       "ai_path": null
     }
   ],
@@ -286,12 +287,12 @@
   },
   "gaps": [
     "Beja is still a thin capital for AI. The one company we found with a Beja base and an AI plan is InnoWave, whose Beja hub is described as cybersecurity and IoT, and no startup based in the city is tied to AI. The council's news page and agenda show no AI or technology item.",
-    "The council's homepage and news list were read through a summarising tool that showed some items dated after 16 November 2026, so we trust only the items we also saw elsewhere and list the 17 November workshop only as a listing with no programme or AI link. We should re-read the council's agenda page directly.",
-    "The university's own site (ipbeja.pt) answered 503 again on 16 November, so its AI news is reached only through the press. The rename from Instituto to Universidade Politécnica came from press and DGES listings, and we did not open a decree.",
+    "The council's agenda page was read directly on 17 November 2026: the 17 November 18:00 workshop series 'Capacitação de Empresas para a Inovação' is listed with no programme and no AI link, and the agenda lists no AI event for November. The council's news page showed no AI item on 16 November, and was not re-read in full on 17 November.",
+    "The university's own site (ipbeja.pt) answered 503 again on 17 November, so its AI news is reached only through the press. The rename from Instituto to Universidade Politécnica came from press and DGES listings, and we did not open a decree.",
     "HiJiffy, a hotel AI company that raised 3.8 million euros in 2023, is based in Vidigueira, not Beja, so it belongs on a Vidigueira page. Aljustrel has a planned 200 million euro data centre by FF Ventures with no AI link in the source, and Castro Verde hosts SiARA. Neither is placed in Beja.",
     "CEBAL, an agri-food biotechnology centre in Beja, is still not confirmed as using AI: its agroportal pages answered 403. We confirmed CIBT NERBE as a real Beja incubator, but its pages do not name AI firms or mention AI.",
-    "SABER SAÚDE com IA, a roughly 268 thousand euro PRR project, was not tied to Beja by any page we opened, so it is left out.",
-    "No feed found for the council, the university or Diário do Alentejo. Correio Alentejo's RSS works.",
+    "SABER SAÚDE com IA, a roughly 268 thousand euro PRR project, was not tied to Beja by any page we opened: a search snippet listed it for Beja, but the transparency portal page, re-opened on 17 November, loaded only the portal homepage with no project details, so it stays out.",
+    "No feed found for the council, the university or Diário do Alentejo. Correio Alentejo's RSS was re-checked on 17 November 2026 and works (11 items, none on AI; no new Beja AI news since 16 November).",
     "Ovibeja: the 2025 edition was centred on AI in farming and is now in the news list. The 42nd edition (29 April to 3 May 2026) had a wine theme and an innovation pavilion, but the programme pages we could open gave no AI session, and the MED programme PDF was unreadable to us.",
     "Talent is empty: no Beja source lists people who agreed to be listed. The investors block holds only a programme, a company's own spending and an unconfirmed incubator figure, with no 2025 or 2026 outside funding round for a Beja company. Sources to look for: Alentejo 2030 notices for CIBT NERBE and PRR beneficiary lists (the national transparency portal answered 401).",
     "InnoWave's 2026 article says only that it has a Beja hub. We have no page on the hub's current size, staff or whether its work now includes AI, so the next step is InnoWave's own site and its Beja announcements.",
