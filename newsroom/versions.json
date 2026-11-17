@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1733",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: correction: the pairing page also loads the shell's two head scripts (read, harmless; dev@ to drop or list them)",
+    "by": "security@PrompTugal.dinis",
+    "from": "a5c06ad07"
+  },
+  {
     "version": "v0.1.1732",
     "date": "2026-11-17",
     "what": "conductor.b@PrompTugal.dinis: 15:48 wake: ledger 1550Z; the provenance strip live",
