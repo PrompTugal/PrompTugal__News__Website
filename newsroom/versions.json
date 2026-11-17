@@ -1,5 +1,33 @@
 [
   {
+    "version": "v0.1.1718",
+    "date": "2026-11-17",
+    "what": "conductor@PrompTugal.jose: the self-check before every push (J11, agreed by Jose); local@'s last run read against it; the day's debrief",
+    "by": "conductor@PrompTugal.jose",
+    "from": "fc208f472"
+  },
+  {
+    "version": "v0.1.1717",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 11:40 wake: central's Faro items brought onto dev; conductor@'s two articles reviewed",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "c7dfefc16"
+  },
+  {
+    "version": "v0.1.1716",
+    "date": "2026-11-17",
+    "what": "conductor@PrompTugal.dinis: derived story data for the payment desk article (derive.mjs)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "1d2464c24"
+  },
+  {
+    "version": "v0.1.1715",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: one reader across devices, step 1 written up for security@'s pre-review; dev.places and datasci.places brought; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "e415d1102"
+  },
+  {
     "version": "v0.1.1714",
     "date": "2026-11-17",
     "what": "journalist@PrompTugal.dinis: five Algarve articles corrected after checker@'s fact-check, re-signed",

@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "the-payment-desk-that-could-not-take-payment",
+  "type": "story",
+  "title": "The payment desk that could not take payment",
+  "beat": null,
+  "topic": null,
+  "status": "published",
+  "rests_on": [],
+  "desk_files": [
+    "content/articles/the-payment-desk-that-could-not-take-payment.md"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "content/articles/the-payment-desk-that-could-not-take-payment.md"
+    ]
+  },
+  "assignee": "conductor@PrompTugal.dinis",
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": {
+    "path": "content/articles/the-payment-desk-that-could-not-take-payment.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "published",
+      "at": "2026-11-17",
+      "by": "conductor@PrompTugal.dinis",
+      "file": "content/articles/the-payment-desk-that-could-not-take-payment.md"
+    }
+  ]
+}

@@ -176,6 +176,21 @@
       "steps": 0
     },
     {
+      "title": "Panel at UAlg TEC Campus: if AI does not recommend you, who will?",
+      "summary": "A free English-language panel in Faro on how AI answer tools (ChatGPT, Gemini, Claude, Perplexity, Google AI Overviews) change online search and company visibility, with talks on AEO and GEO. Organised by Flow Productions with Algarve STP.",
+      "date": "2026-07-17",
+      "publisher": "Postal do Algarve",
+      "url": "https://postal.pt/cultura/ensino/faro-recebe-painel-sobre-inteligencia-artificial-e-visibilidade-das-empresas-no-ualg-tec-campus/",
+      "read_on": "2026-11-17",
+      "ai_path": "Event is directly about AI assistants and search recommendation of local firms",
+      "steps": 0,
+      "significance": "town",
+      "blast": [
+        "loule",
+        "olhao"
+      ]
+    },
+    {
       "title": "Algarve STP picks 12 firms for its first Venture Lab, AI among the sectors",
       "summary": "The programme offers mentoring on customers, markets, pricing and scale to startups across biotech, AI, health, tourism, food and creative industries. Two named firms, expressTEC in Faro and Bot Gonçalves, use AI.",
       "date": "2026-07-10",
@@ -305,6 +320,18 @@
         "sao-bras-de-alportel",
         "loule"
       ]
+    },
+    {
+      "title": "AI4YouthWork workshop on AI literacy for youth workers held in Faro",
+      "summary": "An Erasmus+ project workshop at UAlg TEC Campus brought technology professionals and social workers together on responsible AI use; it presented a competence framework and 48 open educational resources.",
+      "date": "2025-06-17",
+      "publisher": "Postal do Algarve",
+      "url": "https://postal.pt/europedirectalgarve/conectar-dois-mundos-tecnologia-e-youth-work-unidos-para-moldar-o-futuro-da-ia-reunem-se-em-faro/",
+      "read_on": "2026-11-17",
+      "ai_path": "Workshop directly on AI literacy; older item (event 2 April 2025)",
+      "steps": 0,
+      "significance": "town",
+      "blast": []
     },
     {
       "title": "AI4Youth Work brings an Erasmus+ project on AI for youth workers to UALG TEC Campus",

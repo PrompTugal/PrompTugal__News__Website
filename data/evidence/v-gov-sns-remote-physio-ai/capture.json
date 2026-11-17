@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-gov-sns-remote-physio-ai",
+  "type": "evidence",
+  "source_url": "https://portugal.gov.pt/gc25/comunicacao/noticias/inteligencia-artificial-no-sns-reduz-tempos-de-espera-e-alarga-acesso-a-fisioterapia",
+  "beat": "Portugal",
+  "group": "S69",
+  "names": [
+    {
+      "as_listed": "Sword Health",
+      "ref": "organisation:sword-health"
+    },
+    {
+      "as_listed": "Santa Maria local health unit",
+      "ref": "organisation:santa-maria-local-health-unit"
+    },
+    {
+      "as_listed": "national health service",
+      "ref": "organisation:national-health-service"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-17-1150.json",
+  "run": "2026-11-17T11:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-17-1150.json"
+    ]
+  }
+}
