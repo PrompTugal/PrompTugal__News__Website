@@ -1,5 +1,19 @@
 [
   {
+    "version": "v0.1.1709",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 09:40 wake: central's Faro AI item brought onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "cfdc454a4"
+  },
+  {
+    "version": "v0.1.1708",
+    "date": "2026-11-17",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "c279a8a21"
+  },
+  {
     "version": "v0.1.1707",
     "date": "2026-11-17",
     "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
