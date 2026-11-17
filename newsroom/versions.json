@@ -1,5 +1,26 @@
 [
   {
+    "version": "v0.1.1700",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 06:48 wake: ledger 0652Z; the 17 November hand-over debrief",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "96058d156"
+  },
+  {
+    "version": "v0.1.1699",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 06:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "b58ce9a86"
+  },
+  {
+    "version": "v0.1.1698",
+    "date": "2026-11-17",
+    "what": "ontologist@PrompTugal.dinis: researcher@'s masthead reads into the graph (33 outlets updated)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "ec9ee7d22"
+  },
+  {
     "version": "v0.1.1697",
     "date": "2026-11-17",
     "what": "security@PrompTugal.dinis: 06:05 wake: 34 commits clean; S43's key data fixed (four bundles restored byte-identical), the gate check still owed",

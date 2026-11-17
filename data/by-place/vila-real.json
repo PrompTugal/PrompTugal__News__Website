@@ -228,6 +228,42 @@
       "url": "https://inov.utad.pt/",
       "kind": "university",
       "feed": null
+    },
+    {
+      "name": "A Voz de Trás-os-Montes (media map, researcher@)",
+      "url": "https://www.avozdetrasosmontes.pt/",
+      "kind": "press",
+      "feed": "https://www.avozdetrasosmontes.pt/feed/"
+    },
+    {
+      "name": "Douro Interior Jornal (media map, researcher@)",
+      "url": "https://www.dourointeriorjornal.pt",
+      "kind": "press",
+      "feed": "https://www.dourointeriorjornal.pt/feed/"
+    },
+    {
+      "name": "Notícias de Vila Real (media map, researcher@)",
+      "url": "https://noticiasdevilareal.sapo.pt/",
+      "kind": "press",
+      "feed": "https://noticiasdevilareal.sapo.pt/feed/"
+    },
+    {
+      "name": "M80 Vila Real (media map, researcher@)",
+      "url": "https://m80.pt/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Rádio Voz do Marão (media map, researcher@)",
+      "url": "https://radiovozdomarao.com/",
+      "kind": "press",
+      "feed": null
+    },
+    {
+      "name": "Vila TV - A realidade começa aqui (media map, researcher@)",
+      "url": "https://vilatv.pt",
+      "kind": "press",
+      "feed": null
     }
   ],
   "events": [

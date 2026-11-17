@@ -27,6 +27,15 @@
   "ok": false,
   "from": "es-ES"
  },
+ "82edbd1a4034832d": {
+  "t": "La escuela de educación de Santarém abre una clase sobre texto, IA y construcción de sentido",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Santarém's education school opens a class on text, AI and me",
+  "ok": false,
+  "from": "es-ES"
+ },
  "82fef129938f1eb4": {
   "t": "PrompTugal.news Faro: IA y tecnología en Faro, una ciudad universitaria cuyo centro de gravedad es la Universidade do Algarve, su investigación y su campus de startups, y lo que llega a Faro desde el Algarve, Portugal y el mundo. Independiente; cada dato con su fuente.",
   "by": "translator@PrompTugal.dinis",

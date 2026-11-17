@@ -7,7 +7,7 @@
   "names_as_listed": [
     "Jornal O Despertar"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read.",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Masthead/contact page on the outlet's own site read ; a generic newsroom address is published on the page and is not recorded here.",
   "media": {
     "outlet_kind": "regional-newspaper",
     "places_covered": [
@@ -18,9 +18,9 @@
     ],
     "website": "https://www.odespertar.pt",
     "owner": {
-      "name": "António de Sousa (Herdeiros), Lda.",
+      "name": "Grupo Media Centro (named in the site footer)",
       "source": {
-        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "url": "https://www.odespertar.pt/contactos",
         "read_at": "2026-11-17",
         "how": "the outlet's own page, as the researcher read it"
       }
@@ -37,9 +37,9 @@
       }
     ],
     "contact": {
-      "page": "https://www.odespertar.pt/contactos/",
+      "page": "https://www.odespertar.pt/contactos",
       "source": {
-        "url": "https://www.odespertar.pt/contactos/",
+        "url": "https://www.odespertar.pt/contactos",
         "read_at": "2026-11-16",
         "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
       }
@@ -66,6 +66,11 @@
         "url": "https://www.odespertar.pt/",
         "read_at": "2026-11-17",
         "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read."
+      },
+      {
+        "url": "https://www.odespertar.pt/contactos",
+        "read_at": "2026-11-17",
+        "how": "Outlet's own ficha técnica / contact page read (HTTP 200, public, no login). Email and phone published there deliberately not recorded."
       }
     ]
   },
@@ -80,6 +85,12 @@
       "url": "https://www.odespertar.pt/",
       "read_at": "2026-11-17",
       "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.odespertar.pt/contactos",
+      "read_at": "2026-11-17",
+      "how": "Outlet's own ficha técnica / contact page read (HTTP 200, public, no login). Email and phone published there deliberately not recorded.",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]

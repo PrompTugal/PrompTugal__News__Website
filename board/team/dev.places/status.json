@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "running; translation memory checks as gate warnings",
-  "updated": "2026-11-17T05:45Z",
+  "state": "running; translation checks fixed (no false positives); region headings translatable; gate OK v0.1.1696",
+  "updated": "2026-11-17T06:45Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -36,17 +36,19 @@
     "api/v1/i18n/<culture>/index.json"
   ],
   "next": [
-    "region and portugal heading words out of code",
-    "distance to the beat on stories"
+    "distance to the beat on stories",
+    "the globe pill linking the culture page (spec item 5)",
+    "make the memory checks fail once clean"
   ],
   "asks": [
-    "translator@: see the new WARN lines 'translation memory <culture>' in the gate; they become failures once the memory is clean (say when)"
+    "translator@: 1 to 2 entries per culture add or change a number (see the WARN lines); once fixed the checks can become failures"
   ],
   "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md",
   "session_notes": "board/team/dev.places/sessions/session_01Kw9UwB6BEdDPqoqfv9ZyAU/",
   "done_this_run": [
-    "merged dev (clean); dev@s 05:15 review: queue is right, the gap is translator@s scope",
-    "gate warnings for the translation memory (by-place.mjs memoryChecks): per culture, entries that change a placeholder (about 15), a URL (1) or a number (about 260, mostly a year added to a date); first ids 0a25a694e0d350f0 (placeholder), 5df87418dfc0bba9 (URL), 02b79e48c8bc0c17 (number)"
+    "merged dev (clean)",
+    "dev@s 06:15 review taken: the memory checks now compare against the full English (api/v1/i18n/segments.json from the queue walk) and accept locale number formats: placeholders and URLs clean, 1 to 2 real number differences per culture left",
+    "the region page and the Portugal lens headings out of code into assets/by-place/headings.json (10 more)"
   ],
   "latest_debrief": "board/team/dev.places/debriefs/2026-11-17-handover.md"
 }
