@@ -1,0 +1,26 @@
+{
+ "766c539b915e4350": {
+  "t": "Sveučilište u Aveiru odobrava okvir za ocjenjivanje u doba UI-ja",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "University of Aveiro approves a framework for assessment in ",
+  "ok": false
+ },
+ "76c522282590fa75": {
+  "t": "Parque de Ciência e Inovação proveo je natječaj Rocket Booster Acceleration sa startUP23 i Turismo de Portugal, otvoren startupovima s rješenjima UI-ja za turizam, pametna odredišta ili mobilnost. Vlastiti redak statusa na stranici kaže da su prijave zatvorene, dok se njezin sadržaj još čita kao otvoren, pa je rok nejasan.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The Parque de Ciência e Inovação ran the Rocket Booster Acce",
+  "ok": false
+ },
+ "76d474040aeede69": {
+  "t": "Nakon programa Leiria Experience Lab tvrtke Startup Leiria općina će potrošiti 7500 eura na Leiria Concierge (5000, asistent za itinerere s UI-jem) i Guide Sofia (2500, audiovodič s UI-jem, najprije za dvorac u Leiriji).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "After the Leiria Experience Lab programme of Startup Leiria,",
+  "ok": false
+ }
+}

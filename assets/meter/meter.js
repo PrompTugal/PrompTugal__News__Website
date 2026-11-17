@@ -139,9 +139,9 @@
         var b = m.state.balance
         a.classList.toggle('is-low', b < 100)
         a.classList.toggle('is-neg', b < 0)
-        a.replaceChildren('Free credit')   // no ticking amount (designer@'s A2): it is in the title, the label and /account/
+        a.replaceChildren(m.money(b))   // the balance, going down as you read (Dinis, 17 November 2026: "I need to see the value of my budget, always")
         a.setAttribute('aria-label', 'Reading credit ' + m.money(b) + ', kept in this browser: your account')
-        a.title = b < 0 ? 'You have read ' + m.money(-b) + ' more than your credit. Nothing is blocked; top up whenever it feels fair. Kept in this browser only.' : 'Free to read: nothing is charged. Credit left: ' + m.money(b) + ', kept in this browser only; top up only if you want to'
+        a.title = b < 0 ? 'You have read ' + m.money(-b) + ' more than your credit. Nothing is blocked; top up whenever it feels fair. Kept in this browser only.' : 'Pay for what you read. Credit left: ' + m.money(b) + ', kept in this browser only: your reading account'
     }
 
     var REASONS = [['clickbait', 'The headline promised more than the page gave'], ['not-relevant', 'Not relevant to me'], ['did-not-read', 'I did not really read it'], ['other', 'Another reason']]
@@ -155,7 +155,7 @@
         var e = m.entry, s = m.state
         // one line, collapsed (designer@'s A2, board/spec-the-reading-credit.md): the numbers open on a tap
         var wasOpen = line.querySelector('details.nr-foot') && line.querySelector('details.nr-foot').open
-        var fold = function (kids) { return h('details', { class: 'nr-foot', open: wasOpen }, h('summary', {}, 'Free to read. ', h('a', { href: at(m.cfg.links.account) }, 'How the reading credit works')), h('div', { class: 'nr-foot-in' }, kids)) }
+        var fold = function (kids) { return h('details', { class: 'nr-foot', open: wasOpen }, h('summary', {}, 'Pay for what you read. ', h('a', { href: at(m.cfg.links.account) }, 'How the reading credit works')), h('div', { class: 'nr-foot-in' }, kids)) }
         var bal = h('span', {}, 'Balance ', h('a', { href: at(m.cfg.links.account) }, h('b', {}, m.money(s.balance))))
         if (m.status === 'declined' || e.declined) {
             var why = (REASONS.find(function (r) { return r[0] === (e.declined && e.declined.reason) }) || ['', 'no reason given'])[1]

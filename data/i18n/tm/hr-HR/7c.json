@@ -1,0 +1,18 @@
+{
+ "7c68c12b20c281b6": {
+  "t": "A sada iskreni dio, meu amigo: tamo gdje algoritmi još nisu stigli do narančinog gaja.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Now the honest part, meu amigo: where the algorithms have no",
+  "ok": false
+ },
+ "7ca1e09bcf45f77f": {
+  "t": "Évora se ne žuri, ali stigne. Sveučilište uči strojeve portugalski i piše im kućni red, PACT osposobljava ljude i drži svjetla upaljenima za tvrtke, bolnica pušta UI-ju da pokaže na preparat prije nego što specijalist odluči, a jedna tvrtka za podatkovne centre tiho je kupila sobu od 1 MW. Gradsku upravu, blagoslovljena bila, još nismo uhvatili u bavljenju UI-jem.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Évora does not rush, but it gets there. The university teach",
+  "ok": false
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "c721537dfaefd717": {
+  "t": "**Identitet ove stranice:** {key} u [board/keys.json]({keys}); `{file}` je potpisana, ali ne vlastitim ključem stranice. Njezin agent, {agent}, potpisuje je ponovno ključem stranice.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "c7abd5881137676b": {
+  "t": "ULisboa će uložiti više od 20 milijuna eura u dva podatkovna centra za UI, računalstvo visokih performansi i sigurne istraživačke podatke, na kampusu Taguspark Técnica u Oeirasu i na Fakultetu znanosti u Lisabonu. Koristiti će ih moći i tvrtke i startupi, a završetak se očekuje do 2028.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "ULisboa will invest over 20 million euros in two data centre",
+  "ok": false
+ }
+}

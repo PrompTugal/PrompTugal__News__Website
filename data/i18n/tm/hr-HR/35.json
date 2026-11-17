@@ -1,0 +1,50 @@
+{
+ "3513a62a97aaf4b7": {
+  "t": "Lisboa, pá: sedam brežuljaka, jedan vrlo zaposlen tramvaj i više konferencija o UI-ju po četvornom kilometru nego pastéis de nata u Belému.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Lisboa, pá: seven hills, one very busy tram, and more AI con",
+  "ok": false
+ },
+ "3535afc1b30d539d": {
+  "t": "First Venture Lab AlgarveSTP-a odabire 12 tvrtki, s usvajanjem UI-ja na jelovniku mentorstva",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "First Venture Lab by AlgarveSTP picks 12 companies, with AI ",
+  "ok": false
+ },
+ "353b7c6b8e2138d0": {
+  "t": "UI i roboti za citruse: projekt ATTENTIA, sa Sveučilištem u Algarveu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "AI and robots for citrus: the ATTENTIA project, with the Uni",
+  "ok": false
+ },
+ "35683239cf1272c2": {
+  "t": "Ovdje UI živi više u uredima nego u garažama, meu. Câmara kaže da je kupila alate UI-ja za razmrsivanje planerskih papira, NERA sjedi u gradu i uči tvrtke kako ih koristiti, a s Farom općina raspisuje natječaj za tehnološki centar na Estádio Algarve koji navodi UI. Zasad jedna prava tvrtka za UI, SPIC, pa je karta kratka i iskrena o tome.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Here AI lives more in offices than in garages, meu. The câma",
+  "ok": false
+ },
+ "356ea07c73f9328a": {
+  "t": "PrompTugal.news Algarve: umjetna inteligencija i tehnologija u cijelom Algarveu, od Sagresa do Vila Reala, te ono što do nas stiže iz Portugala i svijeta. Neovisno, a svaka činjenica ima svoju fonte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Algarve: AI and technology across the whole ",
+  "ok": false
+ },
+ "357b89658091781d": {
+  "t": "Općina je s UAlg-om potpisala protokol o novom kampusu u Barranco do Rodrigu, na zemljištu i s projektom koje osigurava općina. Žarišta su digitalno, podaci i umjetna inteligencija, s dovršetkom ciljanim za 2028. i tečajevima od 2029., uz procijenjenu ukupnu vrijednost od oko 15 milijuna eura koja u tom trenutku nije bila u potpunosti osigurana. UAlg je tada imao više od 400 studenata u Portimãou, a cilj mu je oko 1500 nakon tri godine.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The council signed a protocol with UAlg for a new campus at ",
+  "ok": false
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "4b4540e5f91d0d06": {
+  "t": "PrompTugal.news Tavira: pratimo UI i tehnologiju u Taviri, gradu terakota krovova, i sve što stiže iz Algarvea, Portugala i svijeta. Neovisno, a svaka činjenica dolazi s računom.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Tavira: we keep an eye on AI and tech in Tav",
+  "ok": false
+ },
+ "4bb857da624ce035": {
+  "t": "Treće izdanje IT konferencije održano je 21. listopada 2026. u Mercadu Santana i Teatru Miguel Franco, sa šest rasprodanih majstorskih radionica u novom LINKA.LAB-u. Stranica ne navodi datum objave, pa je datum onaj s popisa članaka na stranici.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The third edition of the IT conference ran on 21 October 202",
+  "ok": false
+ },
+ "4bc344e1b99f0186": {
+  "t": "Vale do Lobo pokreće Oliver, digitalnog concierge s UI-jem",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Vale do Lobo launches Oliver, an AI digital concierge",
+  "ok": false
+ },
+ "4bd6423c0c52571d": {
+  "t": "Grupo Lusiadas Saude predstavila je bolnicu vrijednu 60 milijuna eura u Faru (Lejana de Baixo), koja bi trebala otvoriti krajem 2027. s oko 500 radnih mjesta. Njezin glavni direktor rekao je da će to biti bolnica izvorno stvorena za umjetnu inteligenciju, robotiku i napredne dijagnostike. Članak ne daje pojedinosti o tome koji će sustavi UI-ja biti u uporabi.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Grupo Lusiadas Saude presented a 60 million euro hospital in",
+  "ok": false
+ }
+}

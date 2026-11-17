@@ -1,0 +1,26 @@
+{
+ "6b5b3210d02e8f62": {
+  "t": "Agencija, koja zamjenjuje iParque, predstavljena je s ciljevima smanjenja vremena odlučivanja investitora za 20 posto, stvaranja 750 kvalificiranih radnih mjesta i rasta izvoza za 10 posto do 2029. Umjetna inteligencija jedno je od njezinih pet strateških područja. Općina je najavila agenciju 2. studenoga 2026., a njezina vlastita stranica vijesti navodi četiri usluge: graditi, povezivati, ulagati i inovirati.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The agency, which replaces iParque, was presented with targe",
+  "ok": false
+ },
+ "6baf7a9f979380be": {
+  "t": "Sveučilište u Algarveu pridružuje se globalnom savezu za odgovornu UI u visokom obrazovanju",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "University of Algarve joins the global alliance for responsi",
+  "ok": false
+ },
+ "6bfc1fcd592a179d": {
+  "t": "São Brás je gradić gore u brdima koji živi od baštine, od Museu do Traje do plute i sada Praça 1914, s Globalfireom, proizvođačem detekcije požara, kao najvećim poslodavcem i izvoznikom. Poglavlje o UI-ju tek se piše, a olovku drži câmara: projekt pametnog teritorija sa susjedima, coworking stol, ured za poduzetnike i pomoć sveučilištu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "São Brás is a small town up in the hills that lives on herit",
+  "ok": false
+ }
+}

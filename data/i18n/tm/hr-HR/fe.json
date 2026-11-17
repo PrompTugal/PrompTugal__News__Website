@@ -1,0 +1,34 @@
+{
+ "fe45a6197a4bdd3a": {
+  "t": "Župa Ferragudo daje svojoj web-stranici asistenta UI-ja po imenu Ferrukas",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Ferragudo's parish council gives its website an AI assistant",
+  "ok": false
+ },
+ "fe4f663d0603356d": {
+  "t": "Dio programa INOVA ALGARVE 3.0, koji vodi NERA sa sveučilištem, turističkim tijelom, CCDR-om Algarve, KIPT-om i Tertúlijom Algarvia, pilot je nudio savjetovanje za 15 turističkih tvrtki. Prijave su trajale od 20. veljače do 30. travnja 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Part of INOVA ALGARVE 3.0, led by NERA with the university, ",
+  "ok": false
+ },
+ "feaaf525ecc46a19": {
+  "t": "Rádio Portalegre izvješćuje 16. studenoga 2026. da sveučilište vodi projekt, s prihvatljivim ulaganjem od 59.000 eura, 85 posto sufinanciranim od EU-a, za poticanje inovacija i digitalizacije u agrošumarskom sektoru. Izvješće ne spominje UI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Rádio Portalegre reports on 16 November 2026 that the univer",
+  "ok": false
+ },
+ "feee2e234a37da04": {
+  "t": "PrompTugal.news Alcoutim: UI i tehnologija, bem la no interior, ali onde o Guadiana faz de fronteira e a internet tem de aprender a nadar. Također ono što nam stiže iz Algarvea, Portugala i svijeta. Neovisno, i svaka činjenica ima izvor, pois claro.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Alcoutim: AI and technology, bem la no inter",
+  "ok": false
+ }
+}

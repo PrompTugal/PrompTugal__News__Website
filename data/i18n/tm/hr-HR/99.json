@@ -1,0 +1,26 @@
+{
+ "99a71106aa482450": {
+  "t": "Aljezur je atlantski rub Algarvea: velika, rijetko naseljena općina (oko 323 četvorna kilometra i 5884 stanovnika prema popisu iz 2011.) s četiri župe, unutar prirodnog parka Jugozapadni Alentejo i Vicentinska obala. Njezin je identitet priroda, surfanje na plažama poput Arrifane i općina koja prirodni turizam naziva strateškim pokretačem lokalnog gospodarstva. Energija je drugi stup: EDP upravlja vjetroelektranom Bordeira od 24 MW, a uz nju je 2025. dodao solarnu elektranu od 15,3 MW. Nije središte UI-ja: pronašli smo općinu s mrežnim uslugama i geoportalom, pilot teleasistencije u župi za starije stanovnike te regionalne programe UI-ja za turističke tvrtke kojima bi se mogle pridružiti i tvrtke iz Aljezura.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Aljezur is the Algarve's Atlantic edge: a large, thinly popu",
+  "ok": false
+ },
+ "99c102dd36cca038": {
+  "t": "Rádio Portalegre izvješćuje o projektu politehnike vrijednom otprilike 200.000 eura, financiranom iz FEDER-a, koji modele UI-ja stavlja na senzore sposobne obrađivati podatke na licu mjesta, s pilot farmama za provjeru. Kao uključena područja navodi inženjerstvo, znanost o podacima, agronomiju i informacijske sustave, a završetak je kolovoz 2028.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Rádio Portalegre reports the polytechnic's roughly 200,000 e",
+  "ok": false
+ },
+ "99ea56e3b843dfcf": {
+  "t": "Tim UAlg vraća se u škole s 81 besplatnim predavanjem, među njima o UI-ju i kibernetičkoj sigurnosti",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Equipa UAlg returns to schools with 81 free talks, AI and cy",
+  "ok": false
+ }
+}

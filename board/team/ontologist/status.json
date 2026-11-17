@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account A, restarted 16 Nov 2026 19:25 UTC)",
-  "updated": "2026-11-17T20:50Z",
+  "updated": "2026-11-17T22:45Z",
   "done": [
     "Pass only-websummit-sourced-comes-off, step 2 (conductor.b@, at Dinis's 18:50 word): the inventory data/websummit-only.json, derived by derive.mjs (refs only, counts by kind; schema websummit-only); 239 of 311 company facts, all 285 people, 215 of 248 events, 184 of 269 organisations, 45 of 85 places rest only on websummit.com; 37 of 120 companies left with nothing, 31 of them with their own site on file (22:05)",
     "Websummit-only pass: facts_left per company (59 with no fact, 37 with nothing); shadow sources (Wikipedia, the EU HaDEA event page) for Web Summit, AWS, the summit event, MEO Arena and FIL and Lisbon, so they stay; event and place schemas take sources (00:21 wake, 12 Nov)",
@@ -24,11 +24,12 @@
     "14:21 wake: nothing new from researcher@; local@'s Barlavento and Algarve Primeiro records reviewed and accepted; Postal do Algarve taken over from local@'s Loule file (no people) and A Voz do Algarve given its owner and place:loule; answers in board/team/ontologist/replies/2026-11-17-to-local-jose.md (local@ has no inbox lane); Jose's staff-data question is with Dinis, so no person is added meanwhile",
     "16:21 wake: nothing new from researcher@ or local@ to bring in; my step of the provenance spec (board/spec-provenance-and-review.md): story-provenance schema (type, five axes, signatures, ladder P0 to P5), claims take testimony and an evidence check, people as authors (common author, story assignee and history.by), all in the gate; brief board/briefs/2026-11-17-provenance-schema.md",
     "18:21 wake: nothing new from researcher@ or local@; 'who covers which place' is now derived: data/media/by-place.json (184 outlets over 24 places, schema media-by-place, made by derive.mjs from the outlet records, in the gate); the serving and per-place pages are dev@'s and dev.places@'s to take from it",
-    "20:21 wake: nothing new from researcher@ or local@; neighbours of the Algarve's municipalities: Wikidata's borders compared with the conductor's draft, 14 of 16 agree and are in data/places/<id>/place.json (place schema takes neighbours, each with source and date), Tavira and Vila Real de Santo Antonio left for CAOP, Azores namesake clash dropped; brief board/briefs/2026-11-17-neighbours-check.md"
+    "20:21 wake: nothing new from researcher@ or local@; neighbours of the Algarve's municipalities: Wikidata's borders compared with the conductor's draft, 14 of 16 agree and are in data/places/<id>/place.json (place schema takes neighbours, each with source and date), Tavira and Vila Real de Santo Antonio left for CAOP, Azores namesake clash dropped; brief board/briefs/2026-11-17-neighbours-check.md",
+    "22:21 wake: nothing new from researcher@ or local@; neighbours of all 16 Algarve municipalities now from DGT's CAOP 2025 (official, border length in km), the draft was right for 14, and Tavira and Vila Real de Santo Antonio do share a border; brief board/briefs/2026-11-17-neighbours-check.md updated"
   ],
   "next": [
     "Derive provenance claim counts from claims.json once journalist@ writes the first provenance.json",
-    "Locality layer: neighbours checked against DGT's CAOP (the official source), then km and significance (data.places@)"
+    "Locality layer: km and significance on top of the CAOP neighbours (data.places@); the other districts' municipalities from the same CAOP file when the places exist"
   ],
   "asks": [
     "Dinis: GAMMA-Ray has rated companies that are not in our company map (Noxus, OutSystems, Talkdesk, Codacy, Automaise, ByTheLaw, Visor.ai, Granter, Spinnable, Ethiack, Pebl, Student Property Network, Buzz Messaging): should they join it, so their pages carry their cards? Noxus first, as conductor@ asked.",

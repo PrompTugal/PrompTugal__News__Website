@@ -1,0 +1,34 @@
+{
+ "e08c06bc65abb642": {
+  "t": "Tvrtke, ustanove i zajednice u mjestu {name} s putom prema UI-ju, svaka iz javnog izvora.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The companies, institutions and communities in {name} with a",
+  "ok": false
+ },
+ "e08fafe93f5830d8": {
+  "t": "Prema izvorima koje smo mogli otvoriti, tehnološka priča općine su more i vjetar. Sagres ugošćuje tvrtku za morsku biotehnologiju u Porto da Baleeira, sveučilišni morski laboratorij u istoj luci i podmorski opservatorij MARREAL, postaju s kamerama i senzorima na dubini od 20 metara koja bilježi podatke o oceanu u stvarnom vremenu. Popis vjetroelektrana INEGI-ja i APREN-a navodi vjetroelektrane u općini, uključujući repowering iz 2025. Nismo našli vijesti o UI-ju, što je prvi nalaz ove stranice, ali upravo se na postajama s podacima o oceanu najvjerojatnije pojavljuje put prema UI-ju.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "On the sources we could open, the municipality's technology ",
+  "ok": false
+ },
+ "e0e5f037ff99adf0": {
+  "t": "Portugalski startup nadzire autonomne agente UI-ja, označava rizične izlaze za ljudsku provjeru i ocjenjuje ih od 0 do 100. Investitor je Angels Way.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The Portuguese startup monitors autonomous AI agents, flags ",
+  "ok": false
+ },
+ "e0efee49767bd1db": {
+  "t": "Nacionalni program osposobljavanja Estado em Acção, za djelatnike javne uprave, otvoren je besplatnom sesijom u Coimbri 18. rujna 2026., a trebao se nastaviti s deset sesija diljem zemlje.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "A national training programme called Estado em Acção, for pu",
+  "ok": false
+ }
+}
