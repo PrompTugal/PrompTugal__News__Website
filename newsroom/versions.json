@@ -1,5 +1,19 @@
 [
   {
+    "version": "v0.1.1710",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 10:05 wake: 29 commits clean; S68 post-reviewed",
+    "by": "security@PrompTugal.dinis",
+    "from": "ff2c00981"
+  },
+  {
+    "version": "v0.1.1709",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 09:40 wake: central's Faro AI item brought onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "cfdc454a4"
+  },
+  {
     "version": "v0.1.1708",
     "date": "2026-11-17",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
