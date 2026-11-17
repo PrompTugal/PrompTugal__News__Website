@@ -13,3 +13,4 @@ Held back: nothing so far. Next for this lane: LD3 (the five days under the band
 | 17 Nov 08:45 | 7bad29315 (sweep of 36 place pages clean; status, run report) | passes; on dev |
 | 17 Nov 10:45 | 18520296f (Local media cards in the dark theme) | passes; on dev |
 | 17 Nov 12:45 | f3d677961 (sweep clean, status, run report) | passes; on dev |
+| 17 Nov 14:45 | 02f1605e0 (outlet page: facts as a band, kind as a chip) | passes; on dev (checked on Barlavento at 390 px) |

@@ -331,3 +331,18 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 .bp-frame .bp-m-site { white-space: nowrap; }
 .bp-frame .bp-m-more { font: inherit; font-weight: 600; padding: .45rem .9rem; border: 1px solid currentColor; border-radius: 999px; background: none; color: inherit; cursor: pointer; margin: .2rem 0 .8rem; }
 @media (max-width: 480px) { .bp-frame ul.bp-media { grid-template-columns: 1fr 1fr; } }
+
+/* News organisation page (/media/<id>/): the facts as a band, the kind as a chip (designer.places@, 17 Nov 2026) */
+.bp-frame .bp-media-facts .table { margin: 0 0 1.4rem; overflow: visible; }
+.bp-frame .bp-media-facts table { display: block; border: 0; }
+.bp-frame .bp-media-facts thead { display: none; }
+.bp-frame .bp-media-facts tbody { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 0; border-top: 3px solid var(--accent); border-bottom: 1px solid var(--hair); }
+.bp-frame .bp-media-facts tr { display: flex; flex-direction: column; gap: .15rem; padding: .7rem 1rem .7rem 0; border: 0; min-width: 0; }
+.bp-frame .bp-media-facts td { display: block; padding: 0; border: 0; overflow-wrap: anywhere; }
+.bp-frame .bp-media-facts td:first-child { font: 600 .68rem var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); }
+.bp-frame .bp-media-facts td:first-child strong { font: inherit; }
+.bp-frame .bp-media-facts td code { font: 600 .72rem var(--mono); letter-spacing: .04em; text-transform: uppercase; padding: .08rem .5rem; border: 1px solid currentColor; border-radius: 999px; background: none; color: var(--accent-ink, var(--accent)); }
+.bp-frame .bp-media-facts td:nth-child(2) { font-size: 1.05rem; }
+.bp-frame .bp-media-facts td:nth-child(2) { font-family: var(--serif); font-size: 1.1rem; line-height: 1.3; }
+.bp-frame .bp-media-facts td:nth-child(2) a { font-size: .95rem; }
+@media (max-width: 560px) { .bp-frame .bp-media-facts tbody { grid-template-columns: 1fr 1fr; } }

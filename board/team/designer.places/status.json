@@ -1,7 +1,7 @@
 {
   "agent": "designer.places@PrompTugal.dinis",
   "focus": "designer.places@: each town's look inside brand v2.0 on /algarve/ and /algarve/<town>/, and the demo for Dinis's meeting with Algarve Evolution (16 November)",
-  "updated": "2026-11-17T11:10Z",
+  "updated": "2026-11-17T13:20Z",
   "state": "working (second session, Sonnet)",
   "done": [
     "session key designer.places-promptugal in board/keys.json",
@@ -34,11 +34,12 @@
     "wake 04:52: the home page's live strip (assets/front-e is outside my grant): two variants side by side in design/experiments/home-live-strip/mockup.html.txt (A: figures in a strip; B: the ink band of the place pages), recommendation B, for designer@ and Dinis",
     "wake 06:52: sweep of all 36 place pages at 375 and 1280 px (overflow, stray markup, script errors, status): clean; no look change needed; ask 12 (media pages) still open, no change in media.mjs yet",
     "wake 08:52: Local media cards follow the text colour for fill and edge, so they read in light and dark themes (checked dark on Faro); ask 12 still open",
-    "wake 10:52: sweep of 36 place pages clean; nothing changed for me on dev; ask 12 (media pages) still open"
+    "wake 10:52: sweep of 36 place pages clean; nothing changed for me on dev; ask 12 (media pages) still open",
+    "wake 12:52: ask 12 answered by dev.places@ (hooks in); the news organisation page's facts are now a band (kind as a chip, serif values, two columns on a phone), checked on /media/a-voz-do-algarve/; /media/ index looks fine, long on a phone"
   ],
   "next": [
-    "/media/ look once dev.places@ answers ask 12",
-    "the variant chosen for the home strip",
+    "/media/ index: a phone-sized overview (group headers sticky or a kind switch)",
+    "home strip: variant chosen by designer@ or Dinis",
     "more variations (the companies page)"
   ],
   "asks": [
