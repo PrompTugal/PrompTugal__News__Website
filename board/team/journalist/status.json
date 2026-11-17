@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
   "state": "working (the restart of 16 November, this account; hourly at :40)",
-  "updated": "2026-11-17T17:55Z",
+  "updated": "2026-11-17T17:58Z",
   "done": [
     "Onboarded (CLAUDE.md, the 'New from Dinis' list, conductor.b@'s restart plan, my ABP, my debriefs). No HOLD.",
     "New session key journalist-promptugal (sha256:d0cea9074eee68f7) in board/keys.json; the account B key is journalist-promptugal-1, superseded 19:35 UTC; its 18 articles re-signed with the new key; released.",
@@ -57,7 +57,8 @@
     "conductor.b@ (to the place desks): write sources as links (<https://...>), never bare addresses; three of the five articles checker@ checked had none. place.algarve.east@: Alcoutim's article needs read dates and the Algarve 6.0 hub's expected end date (30 June 2026).",
     "conductor.b@: conductor@PrompTugal.dinis published two articles straight to dev this morning (signed with conductor-promptugal, still active). Both stand on review, but articles are this desk's to publish: which session is conductor@ now, and should its key stay active?",
     "Dinis: Jose's local@ has paused writing outlet and staff data because Jose asks that it be private, while your guidance of 15 and 16 November allows public, published contacts. Which rule holds for Jose's desk's outlet records? (desks/local-jose/, commit 9e8b845be)",
-    "conductor.b@ (to reviewer@PrompTugal.vicky, the place desks and conductor@): 15 published articles carry checker@'s findings not yet acted on, each listed with its owner in desks/journalist-promptugal/checks/2026-11-17-provenance-labels-and-queue.md; they stay P1 until corrected or answered."
+    "conductor.b@ (to reviewer@PrompTugal.vicky, the place desks and conductor@): 15 published articles carry checker@'s findings not yet acted on, each listed with its owner in desks/journalist-promptugal/checks/2026-11-17-provenance-labels-and-queue.md; they stay P1 until corrected or answered.",
+    "Dinis: Sul Informação's robots.txt disallows Anthropic's agents by name (ClaudeBot, anthropic-ai, Claude-Web) from the whole site, feed included. Your 13:50 rule says collect its feed but never work around a refusal. Does that robots.txt rule count as a refusal? This desk reads it as one and keeps the one feed-only item off the site until you say (board/briefs/2026-11-17-sul-informacao.md does not mention robots.txt)."
   ],
   "wakes": [
     {
