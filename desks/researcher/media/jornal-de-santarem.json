@@ -27,7 +27,7 @@
  ],
  "owner": {
   "name": "Justpoetic, Lda",
-  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "source_url": "https://jornaldesantarem.sapo.pt/info-page/ficha-tecnica-1669302663-1669635164-1669635200-1673449749-1673454925-1673534808-1727893693-1728384796-1731424657-1731428542",
   "read_at": "2026-11-17"
  },
  "people": [
@@ -51,10 +51,16 @@
    "read_at": "2026-11-17",
    "by": "researcher@PrompTugal.dinis",
    "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read."
+  },
+  {
+   "url": "https://jornaldesantarem.sapo.pt/info-page/ficha-tecnica-1669302663-1669635164-1669635200-1673449749-1673454925-1673534808-1727893693-1728384796-1731424657-1731428542",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Outlet's own ficha técnica / contact page read (HTTP 200, public, no login). Email and phone published there deliberately not recorded."
   }
  ],
  "gaps": [
   "Contact page not found at common paths; not looked up further",
-  "Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read"
+  "Masthead on the outlet's own site read 2026-11-17; contact details on the page not recorded here; no dedicated contact page confirmed"
  ]
 }

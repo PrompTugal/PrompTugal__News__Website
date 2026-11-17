@@ -18,7 +18,7 @@
    "read_at": "2026-11-17"
   }
  ],
- "contact_page_url": "https://www.diariodistrito.pt/contactos/",
+ "contact_page_url": "https://diariodistrito.sapo.pt/contactos/",
  "places_covered": [
   {
    "place": "Lisboa (editorial seat per ERC register; Nacional scope, Online, Diária)",
@@ -27,8 +27,8 @@
   }
  ],
  "owner": {
-  "name": "Centralnews - Comunicação & Informação, Unipessoal, Lda.",
-  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "name": "CENTRALNEWS – Comunicação & Informação Lda",
+  "source_url": "https://diariodistrito.sapo.pt/ficha-tecnica/",
   "read_at": "2026-11-17"
  },
  "people": [
@@ -41,9 +41,9 @@
   },
   {
    "name": "Isabel de Almeida",
-   "role": "Director Adjunto (ERC register)",
-   "beat": "direction (no beat stated)",
-   "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "role": "Diretora Adjunta; redação (ficha técnica)",
+   "beat": "newsroom",
+   "source_url": "https://diariodistrito.sapo.pt/ficha-tecnica/",
    "read_at": "2026-11-17"
   },
   {
@@ -51,6 +51,41 @@
    "role": "Subdirector (ERC register)",
    "beat": "direction (no beat stated)",
    "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Donatilia Braço Forte",
+   "role": "Direção Editorial (ficha técnica)",
+   "beat": "direction",
+   "source_url": "https://diariodistrito.sapo.pt/ficha-tecnica/",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Miguel Garcia",
+   "role": "Sub-director; redação (ficha técnica)",
+   "beat": "newsroom",
+   "source_url": "https://diariodistrito.sapo.pt/ficha-tecnica/",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Daniel N.",
+   "role": "Coordenador de Projetos (ficha técnica)",
+   "beat": "projects",
+   "source_url": "https://diariodistrito.sapo.pt/ficha-tecnica/",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Carmo Torres",
+   "role": "Redação (ficha técnica)",
+   "beat": "newsroom",
+   "source_url": "https://diariodistrito.sapo.pt/ficha-tecnica/",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Júlio Duarte",
+   "role": "Redação (ficha técnica)",
+   "beat": "newsroom",
+   "source_url": "https://diariodistrito.sapo.pt/ficha-tecnica/",
    "read_at": "2026-11-17"
   }
  ],
@@ -66,9 +101,15 @@
    "read_at": "2026-11-17",
    "by": "researcher@PrompTugal.dinis",
    "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read."
+  },
+  {
+   "url": "https://diariodistrito.sapo.pt/ficha-tecnica/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Outlet's own ficha técnica / contact page read (HTTP 200, public, no login). Email and phone published there deliberately not recorded."
   }
  ],
  "gaps": [
-  "Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read"
+  "Masthead/contact page on the outlet's own site read 2026-11-17; a generic newsroom address is published on the page and is not recorded here"
  ]
 }

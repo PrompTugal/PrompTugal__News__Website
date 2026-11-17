@@ -27,8 +27,8 @@
   }
  ],
  "owner": {
-  "name": "Alberto & Paulo - Áudio Produções, Lda.",
-  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "name": "Alberto & Paulo – Áudio Produções, Lda. (editor: AP Produções, Lda.)",
+  "source_url": "https://estacaodiariajornal.sapo.pt/ficha-tecnica/",
   "read_at": "2026-11-17"
  },
  "people": [
@@ -37,6 +37,27 @@
    "role": "Director (ERC register)",
    "beat": "direction (no beat stated)",
    "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "José Alberto Ribeiro",
+   "role": "Detentor/Sócio/Gerente/Diretor (ficha técnica)",
+   "beat": "direction",
+   "source_url": "https://estacaodiariajornal.sapo.pt/ficha-tecnica/",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Gil Peres",
+   "role": "Informação/Jornalista (ficha técnica)",
+   "beat": "news",
+   "source_url": "https://estacaodiariajornal.sapo.pt/ficha-tecnica/",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Olívia Miranda",
+   "role": "Coordenação (ficha técnica)",
+   "beat": "coordination",
+   "source_url": "https://estacaodiariajornal.sapo.pt/ficha-tecnica/",
    "read_at": "2026-11-17"
   }
  ],
@@ -52,9 +73,15 @@
    "read_at": "2026-11-17",
    "by": "researcher@PrompTugal.dinis",
    "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read."
+  },
+  {
+   "url": "https://estacaodiariajornal.sapo.pt/ficha-tecnica/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Outlet's own ficha técnica / contact page read (HTTP 200, public, no login). Email and phone published there deliberately not recorded."
   }
  ],
  "gaps": [
-  "Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read"
+  "Masthead/contact page on the outlet's own site read 2026-11-17; a generic newsroom address is published on the page and is not recorded here"
  ]
 }

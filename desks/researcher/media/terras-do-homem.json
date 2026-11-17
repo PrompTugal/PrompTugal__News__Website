@@ -26,8 +26,8 @@
   }
  ],
  "owner": {
-  "name": "Araceli Francisca Martin Sabor",
-  "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+  "name": "Araceli Francisca Martin Sabor (Proprietário per estatuto page)",
+  "source_url": "https://terrasdohomem.pt/estatuto/",
   "read_at": "2026-11-17"
  },
  "people": [
@@ -36,6 +36,20 @@
    "role": "Director (ERC register)",
    "beat": "direction (no beat stated)",
    "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Pedro Antunes Pereira",
+   "role": "Diretor (estatuto/ficha page)",
+   "beat": "direction",
+   "source_url": "https://terrasdohomem.pt/estatuto/",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Víctor Manuel Borges",
+   "role": "Colaborador (estatuto/ficha page)",
+   "beat": "contributor",
+   "source_url": "https://terrasdohomem.pt/estatuto/",
    "read_at": "2026-11-17"
   }
  ],
@@ -51,10 +65,16 @@
    "read_at": "2026-11-17",
    "by": "researcher@PrompTugal.dinis",
    "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read."
+  },
+  {
+   "url": "https://terrasdohomem.pt/estatuto/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Outlet's own ficha técnica / contact page read (HTTP 200, public, no login). Email and phone published there deliberately not recorded."
   }
  ],
  "gaps": [
   "Contact page not found at common paths; not looked up further",
-  "Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read"
+  "Masthead on the outlet's own site read 2026-11-17; contact details on the page not recorded here; no dedicated contact page confirmed"
  ]
 }

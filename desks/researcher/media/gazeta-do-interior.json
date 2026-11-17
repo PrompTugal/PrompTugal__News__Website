@@ -29,6 +29,27 @@
    "beat": "direction (no beat stated)",
    "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
    "read_at": "2026-11-17"
+  },
+  {
+   "name": "João Carlos Antunes",
+   "role": "Diretor / administração (ficha técnica; layout lists it beside Conselho Editorial)",
+   "beat": "direction",
+   "source_url": "https://www.gazetadointerior.pt/informacoes/ficha-tecnica.aspx",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "Pedro Roseta",
+   "role": "Conselho Editorial (ficha técnica)",
+   "beat": "editorial board",
+   "source_url": "https://www.gazetadointerior.pt/informacoes/ficha-tecnica.aspx",
+   "read_at": "2026-11-17"
+  },
+  {
+   "name": "António Tavares",
+   "role": "Chefe de Redação (ficha técnica)",
+   "beat": "newsroom",
+   "source_url": "https://www.gazetadointerior.pt/informacoes/ficha-tecnica.aspx",
+   "read_at": "2026-11-17"
   }
  ],
  "sources": [
@@ -43,11 +64,19 @@
    "read_at": "2026-11-17",
    "by": "researcher@PrompTugal.dinis",
    "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read."
+  },
+  {
+   "url": "https://www.gazetadointerior.pt/informacoes/ficha-tecnica.aspx",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Outlet's own ficha técnica / contact page read (HTTP 200, public, no login). Email and phone published there deliberately not recorded."
   }
  ],
  "gaps": [
   "No feed found at /feed/, /feed, /rss, /rss.xml, /index.xml (HTTP 200 XML check)",
   "Contact page not found at common paths; not looked up further",
-  "Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read"
- ]
+  "Masthead/contact page on the outlet's own site read 2026-11-17; a generic newsroom address is published on the page and is not recorded here",
+  "Ficha técnica names INFORMARTE - Informação Regional, SA under Propriedade e Edição, while the ERC register lists Fábrica da Igreja Paroquial de S. Miguel da Sé; the two were not reconciled"
+ ],
+ "contact_page_url": "https://www.gazetadointerior.pt/informacoes/contactos.aspx"
 }

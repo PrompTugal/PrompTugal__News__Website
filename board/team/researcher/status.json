@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T05:05Z",
+  "updated": "2026-11-17T05:50Z",
   "state": "running on account A, news organisations pass (conductor.b@, Dinis's word 16 Nov 19:25)",
   "done": [
     "16 Nov first run: new session key researcher-promptugal (public half in board/keys.json, account B entry superseded; release to dev pending a clean tree)",
@@ -12,13 +12,14 @@
     "02:13 wake (17 Nov): 28 of the ERC-seeded radio records checked at the stations' own sites (website, contact page, generic address, 9 feeds verified, publicly named heads); 17 left register-only (no reachable site)",
     "03:13 wake (17 Nov): publicly named directors, deputies and some reporters added to 22 national outlets (ERC periodicals sheet, fichas tecnicas, Wikipedia where blocked); ERC numbers added; Lusa direction and some TV names flagged unconfirmed",
     "04:13 wake (17 Nov): 41 regional and general-news periodicals seeded from the ERC periodicals sheet (capital cities, Funchal, Ponta Delgada): register data, directors, 24 feeds verified; O Primeiro de Janeiro's registered domain withheld (spam takeover); about 200 staged records",
-    "04:52 message from conductor.b@ (security@ S43): the account B-era researcher-promptugal bundle had been overwritten; restored from git 6ca06650c as researcher-promptugal-1 (superseded); current key stays researcher-promptugal. Gate caught emails and phone shapes in my staged records (desks/ is served as is): all scrubbed (90 files), contacts now only as the outlet's contact_page_url; gate OK"
+    "04:52 message from conductor.b@ (security@ S43): the account B-era researcher-promptugal bundle had been overwritten; restored from git 6ca06650c as researcher-promptugal-1 (superseded); current key stays researcher-promptugal. Gate caught emails and phone shapes in my staged records (desks/ is served as is): all scrubbed (90 files), contacts now only as the outlet's contact_page_url; gate OK",
+    "05:13 wake (17 Nov): masthead reads for 26 of the 41 ERC-seeded periodicals (owners, directors, contact pages; no addresses or phones recorded); 15 blocked or unreachable (403, Cloudflare, timeouts); gate OK"
   ],
   "next": [
-    "ontologist@: re-run the converter",
-    "masthead and contact reads for the 41 ERC-only periodicals (public_contact empty there)",
-    "Porto and Lisboa city titles; tech reporters with beats at the big nationals",
-    "ask conductor.b@: go deeper or stop (unanswered since 01:13)"
+    "ontologist@: re-run the converter (owners and people grew)",
+    "blocked titles: Reconquista, A Guarda, Rede Regional, Tribuna da Madeira, Correio do Ribatejo, JM, Jornal da Beira, Alto Alentejo, Pagina Um (429)",
+    "tech reporters with beats at the big nationals",
+    "ask conductor.b@: go deeper or stop; security@ told via status that researcher-promptugal-1 is restored (v0.1.1693)"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "news organisations pass: district capitals and national media, public sources only",

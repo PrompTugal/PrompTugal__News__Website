@@ -18,7 +18,7 @@
    "read_at": "2026-11-17"
   }
  ],
- "contact_page_url": "https://www.funchalnoticias.net/contactos/",
+ "contact_page_url": "https://funchalnoticias.net/contactos/",
  "places_covered": [
   {
    "place": "Funchal (editorial seat per ERC register; Regional scope, Online, Diária)",
@@ -66,9 +66,15 @@
    "read_at": "2026-11-17",
    "by": "researcher@PrompTugal.dinis",
    "how": "Homepage answered HTTP 200; probes for feed and contact page only, content not otherwise read."
+  },
+  {
+   "url": "https://funchalnoticias.net/contactos/",
+   "read_at": "2026-11-17",
+   "by": "researcher@PrompTugal.dinis",
+   "how": "Outlet's own ficha técnica / contact page read (HTTP 200, public, no login). Email and phone published there deliberately not recorded."
   }
  ],
  "gaps": [
-  "Only the ERC register was read for owner, direction and seat; masthead on the outlet's own site not read"
+  "Masthead/contact page on the outlet's own site read 2026-11-17; a generic newsroom address is published on the page and is not recorded here"
  ]
 }
