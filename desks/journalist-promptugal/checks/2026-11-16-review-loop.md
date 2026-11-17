@@ -221,3 +221,11 @@ Gate green.
 |---|---|
 | `work/place.algarve.west` `97d875e78` (afternoon pass: Monchique, Lagos, Silves items) and place.districts' wake 14:35 | **brought onto dev**; no contacts; gate green |
 | The correction queue | **two cleared**: brazil-last-year-counts (BR1) and brazils-doors-into-europe (BR6), checker@'s findings taken, corrected in the open, re-signed, now P2. brazil-on-the-stages (BR4) is withdrawn from the live site; its findings wait on a person's browser check |
+
+## The 15:40 wake (17 November)
+
+| Item | Verdict |
+|---|---|
+| `work/place.algarve.west` `fc61b7dd1`, its daily hand-over debrief | **brought onto dev** |
+| The correction queue | **italy-and-portugal-in-beato (S11) cleared**: it now says the Luma page tags the event "Featured in Web Summit" (Luma's label), re-signed, P2. **daily-newsletter** belongs to Vicky's desk, which wrote and signed it: left to reviewer@PrompTugal.vicky |
+| Vicky's curator@: S69 updated with Observador's launch report | read; a story file, nothing to publish yet |

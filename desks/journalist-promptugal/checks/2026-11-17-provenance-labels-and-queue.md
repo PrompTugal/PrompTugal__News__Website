@@ -33,11 +33,11 @@ Each stays P1 until its findings are taken or answered; this desk works through 
 - [ ] `brazil-on-the-stages` (withdrawn from the live site on 11 November; its findings rest on Web Summit pages, for a person's browser check)
 - [x] `brazils-doors-into-europe` (17 Nov, 14:50: both findings taken, P2)
 - [ ] `brazils-startup-house-in-lisbon`
-- [ ] `daily-newsletter`
+- [ ] `daily-newsletter` (Vicky's desk wrote and signed it: asked of reviewer@PrompTugal.vicky)
 - [ ] `europe-ai-help-and-portugal-ai-startups`
 - [ ] `following-robotics-at-web-summit`
 - [ ] `how-agents-avoid-collisions`
-- [ ] `italy-and-portugal-in-beato`
+- [x] `italy-and-portugal-in-beato` (17 Nov, 15:50: the source's label stated, P2; whether Web Summit's schedule lists it still waits on a person's browser check)
 - [ ] `know-the-reach-ai-music-video`
 - [ ] `lisbon-universities-at-web-summit`
 - [ ] `mistakes-we-made`
