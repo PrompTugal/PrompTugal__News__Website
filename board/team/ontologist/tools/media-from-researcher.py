@@ -40,8 +40,8 @@ for n in names:
     if os.path.exists(path):
         ex = json.load(open(path))
         if 'media' not in ex and i not in ADOPT: print('skip (an organisation of another kind exists):', i); continue
-        if 'media' not in ex:   # adopt a derived listing: keep its names and sources, add the outlet record
-            keep_names, keep_srcs = ex['names_as_listed'], ex['sources']
+        # an adopted listing keeps its names and the sources it already had (not ours: those are rewritten from the researcher's record)
+        keep_names, keep_srcs = ex['names_as_listed'], [s for s in ex['sources'] if s.get('by') != BY]
         if 'media' in ex and 'converted by ontologist@' not in ex.get('note', ''): print('skip (written by hand or by another desk):', i); continue
     if not d.get('website'): print('skip (no website recorded):', i); continue
     cov, fine = [], []

@@ -380,6 +380,17 @@
       "ai_path": "no AI",
       "steps": 0,
       "blast_radius": "Vila Real de Santo António, Tavira"
+    },
+    {
+      "title": "Castro Marim opens the procedure to draft a regulation on municipal tax benefits",
+      "summary": "An edital published on 16 November starts the drafting of a regulation granting municipal tax benefits, relevant to business and investment. The full text is a PDF that was not opened, so the way to take part and the deadline are unknown.",
+      "date": "2026-11-16",
+      "publisher": "Município de Castro Marim",
+      "url": "https://cm-castromarim.pt/site/avisos-e-editais/inicio-do-procedimento-de-elaboracao-do-regulamento-de-concessao-de-beneficios",
+      "read_on": "2026-11-17",
+      "significance": "town",
+      "ai_path": "no AI",
+      "steps": 0
     }
   ]
 }
