@@ -1,0 +1,26 @@
+{
+ "4c0d30adf1b09c9f": {
+  "t": "Aktywność AI w Braga mieści się w czterech miejscach, które źródła pokazują obok siebie: badania (grupa AI Uniwersytetu Minho, spin-off OmniumAI z Minho i iberyjskie laboratorium nanotechnologii INL), badania i rozwój firm (pierwsze centrum AI Cegid w Portugalii i nowa jednostka eBike Boscha, której oprogramowanie antykradzieżowe używa uczenia maszynowego), własne użycie AI przez radę (pilotaż kamer w autobusach z Hayden AI i projekt za 1,5 miliona euro wprowadzający AI do administracji gminnej) oraz warstwa startupowa wokół Startup Braga i InvestBraga, które zabrały 15 startupów na Web Summit 2026. W przeciwieństwie do miast Algarve Braga nie wisi na jednej instytucji, a to, co mogliśmy przeczytać, pokazuje samorząd, który kupuje i pilotuje AI, a nie tylko gości wydarzenia o niej.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Braga's AI activity sits in four places that the sources sho",
+  "ok": false
+ },
+ "4c20ecf29e33e8c3": {
+  "t": "Aktywność AI w Évora mieści się w trzech miejscach. Universidade de Évora prowadzi kierunek AI i nauki o danych, napisała własne zasady dotyczące AI w nauczaniu i mówi, że zbudowała modele w języku portugalskim. PACT, park nauki i technologii Alentejo, prowadzi szkolenia z AI i gości firmy technologiczne. Hospital de Évora jest pierwszym portugalskim szpitalem publicznym używającym systemu AI do badań przesiewowych w kierunku raka szyjki macicy, według relacji jego własnej jednostki zdrowia. Pojawiły się też nowsze prywatne pieniądze, bo firma centrów danych kupiła w mieście obiekt o mocy 1 MW. Własna strona rady nie pokazuje użycia AI, które mogliśmy przeczytać, więc ośrodkiem ciężkości są uniwersytet, park i szpital, a nie ratusz.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Évora's AI activity sits in three places. The Universidade d",
+  "ok": false
+ },
+ "4c2d5aebc2b28ff3": {
+  "t": "1 października 2025 roku INCO Academy i jednostka alfabetyzacji cyfrowej politechniki w Santarém uzgodniły prowadzenie NewFutures: AI, około 40 godzin przez cztery tygodnie online, z modułem podstawowym o generatywnej AI oraz ścieżkami takimi jak marketing, finanse i ICT. Obie strony planują też zbadać społeczność praktyków AI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "On 1 October 2025 INCO Academy and the digital literacy unit",
+  "ok": false
+ }
+}

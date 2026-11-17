@@ -1,0 +1,50 @@
+{
+ "bf391a32632fe262": {
+  "t": "PrompTugal.news Setúbal: AI i technologia w Setúbal, mieście portu i przemysłu, którego środek ciężkości stanowią Port of Setúbal, Politécnico i kompleks przemysłowy Mitrena, oraz to, co do Setúbal dociera z Portugalii, Europy i świata. Niezależnie. Każdy fakt ze źródłem.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Setúbal: AI and technology in Setúbal, a por",
+  "ok": false
+ },
+ "bf53a29e71668f9d": {
+  "t": "Guarda trzyma swoją AI blisko politechniki, jak dobry koc. Kierunek nauki o danych, projekt Digital PME za milion euro i umowa o ukraińskich dronach mieszczą się pod jednym dachem, podczas gdy Câmara dogląda organów w Sé i urodzin, a prywatne firmy w większości milczą. Stolica cienka, sim senhor, ale solidna.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Guarda keeps its AI close to the polytechnic, like a good bl",
+  "ok": false
+ },
+ "bf83eb91261331ba": {
+  "t": "Nastolatkowie w Setúbal pytają, jak AI może budować bardziej zrównoważone firmy",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Teenagers in Setúbal ask how AI can build more sustainable c",
+  "ok": false
+ },
+ "bfa0ce8b493755f1": {
+  "t": "Ainda há muito por contar, pá. Oto, czego Aveiro nam jeszcze nie powiedziało:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Ainda há muito por contar, pá. Here is what Aveiro has not t",
+  "ok": false
+ },
+ "bfc3476a34dafd13": {
+  "t": "Nie znaleziono jeszcze lokalnej historii o AI. Miasto bez wiadomości o AI jest samo w sobie ustaleniem: mówi nam, jakich źródeł i powiązań szukać.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "No local AI story found yet. A town with no AI news is a fin",
+  "ok": false
+ },
+ "bfe94cd066a20981": {
+  "t": "Za pośrednictwem platformy IAEdu z FCCN studenci, nauczyciele, badacze i pracownicy mogą budować i udostępniać własnych agentów AI, z modelami od kilku dostawców wymienionych w artykule i darmowym dostępem do API jednego starszego modelu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Through the IAEdu platform with FCCN, students, teachers, re",
+  "ok": false
+ }
+}

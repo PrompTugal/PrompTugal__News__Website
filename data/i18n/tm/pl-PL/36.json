@@ -1,0 +1,26 @@
+{
+ "366bb797fee927fe": {
+  "t": "Roczne spotkanie strategiczne INESC TEC odbyło się na UTAD 11 września, po raz pierwszy prowadzone przez sieć młodych badaczy BEAR. AI była jednym z dwóch tematów, z wystąpieniem o jej przyszłości i grupami roboczymi.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "INESC TEC's annual strategic meeting was held at UTAD on 11 ",
+  "ok": false
+ },
+ "36a4b0a59ce2073a": {
+  "t": "Eish, oto czego nie znaleźliśmy, a uczciwie pusta sieć to wciąż ustalenie.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Eish, here is what we could not find, and an honest empty ne",
+  "ok": false
+ },
+ "36c2305f6f0c6b41": {
+  "t": "Nautiber, stocznia w Vila Real de Santo António, mówi, że planuje nową jednostkę budującą jednostki dla sektora obronnego, celując w systemy i platformy bezzałogowe. Dostarczyła już z partnerem konstrukcję czterech dronów nawodnych i połączyłaby siły ze stocznią w Lagos, a nie zdecydowała między VRSA, Portimão i Lagos. Tekst to treść sponsorowana, więc to twierdzenia samej firmy.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Nautiber, the shipyard in Vila Real de Santo António, says i",
+  "ok": false
+ }
+}

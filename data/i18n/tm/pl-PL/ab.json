@@ -1,0 +1,26 @@
+{
+ "ab4fa81bccc51023": {
+  "t": "Dwuletni projekt wymieniony przez biuro badań uniwersytetu, trwający od 1 września 2026 do 31 sierpnia 2028 roku, buduje rozwiązania AI dla tanich, energooszczędnych urządzeń wbudowanych w rolnictwie i hodowli, łącząc inżynierię, naukę o danych i wiedzę rolniczą. Jego koszt kwalifikowalny wynosi 197 754,85 euro, z czego 168 091,62 euro przypada na stronę z Portalegre, finansowane z FEDER w ramach ALT2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "A two-year project listed by the university's research offic",
+  "ok": false
+ },
+ "aba7aa34a9e303a2": {
+  "t": "Konsorcjum EdgeOnVespa, kierowane przez firmę Dotlabs wraz z MORE CoLAB, krajową federacją pszczelarzy i Anbeit, buduje system przetwarzania brzegowego, który za pomocą AI znajduje i śledzi szerszenia oraz uruchamia jego zwalczanie. Jest współfinansowane z programu NORTE2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The EdgeOnVespa consortium, led by the company Dotlabs with ",
+  "ok": false
+ },
+ "abe73eede625cf9c": {
+  "t": "Lagos to miejsce, gdzie społeczność technologiczna Algarve spotyka się na żywo. Rada współorganizowała tu w listopadzie 2025 roku Algarve Tech Hub Summit, który przyciągnął kilkaset osób do jednego hotelu, i współpracuje z GDG Lagos przy wydarzeniach AI, takich jak DevFest Lagos 2025 i Build with AI na Międzynarodowy Dzień Kobiet. Miejska przestrzeń coworkingowa CoLagos jest w pełni zajęta od listopada 2023 roku, a społeczność stworzona dla cyfrowych nomadów miasta istnieje od czasów pandemii. Nie znaleźliśmy żadnej firmy AI, która miałaby potwierdzoną siedzibę w Lagos, więc środkiem ciężkości jest społeczność twórców i zdalnych pracowników, a nie skupisko firm AI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Lagos is where the Algarve's tech community meets in person.",
+  "ok": false
+ }
+}

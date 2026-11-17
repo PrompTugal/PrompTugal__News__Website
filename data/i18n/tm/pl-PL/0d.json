@@ -1,0 +1,50 @@
+{
+ "0d16df2ddd409a64": {
+  "t": "Miejska przestrzeń coworkingowa w starym mieście ma 20 stanowisk pracy i jest pełna od listopada 2023 roku. Współpracuje też z GDG Lagos przy wydarzeniach o AI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The municipal coworking space in the old town has 20 worksta",
+  "ok": false
+ },
+ "0d2fe9cc4f8c4c95": {
+  "t": "Bezpłatny panel w języku angielskim w Faro o tym, jak narzędzia odpowiedzi AI (ChatGPT, Gemini, Claude, Perplexity, Google AI Overviews) zmieniają wyszukiwanie w sieci i widoczność firm, z wystąpieniami o AEO i GEO. Organizuje Flow Productions z Algarve STP.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "A free English-language panel in Faro on how AI answer tools",
+  "ok": false
+ },
+ "0d6afb2528c7f8d1": {
+  "t": "Badanie prowadzone przez wydział nauk społecznych NOVA i wspierane przez Fundację Gulbenkiana, oparte na odpowiedziach 295 dziennikarzy, proponuje 10 środków odpowiedzialnego używania AI w redakcjach. W zespole projektu zasiadał wykładowca UTAD.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "A study led by NOVA's social sciences faculty and promoted b",
+  "ok": false
+ },
+ "0d8fb3014c735381": {
+  "t": "Rada wdraża cyfrową platformę zarządzania miastem, której moduł AI sprawdza dokumenty w chwili złożenia i wstrzymuje niekompletne wnioski. Rada podaje, że około siedem na dziesięć postanowień jej działu obsługi spraw prosi o poprawione dokumenty, a rocznie otrzymuje około 5000 wniosków o pozwolenia. Szkolenie personelu rozpoczęło się w lipcu, a pełne działanie spodziewane jest w kolejnych miesiącach.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The council is rolling out a digital urban-management platfo",
+  "ok": false
+ },
+ "0dbee8cf4d00067c": {
+  "t": "Neuraspace pozyskuje 15,6 miliona euro na wywiad ruchu kosmicznego oparty na AI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Neuraspace raises 15.6 million euros for AI space-traffic in",
+  "ok": false
+ },
+ "0de436ae73ac7694": {
+  "t": "Projekt AITriage4SU, prowadzony z UTAD, zorganizował 31 stycznia w Porto spotkanie naukowe z udziałem około 200 osób o AI w triażu na oddziałach ratunkowych dla dorosłych. Zespół pokazał, jak duże modele językowe normalizują swobodnie zapisane skargi triażowe, z pierwszymi wynikami.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The AITriage4SU project, led from UTAD, held a scientific me",
+  "ok": false
+ }
+}

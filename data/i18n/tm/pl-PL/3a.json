@@ -1,0 +1,26 @@
+{
+ "3a0840a368567048": {
+  "t": "PrompTugal.news São Brás de Alportel: AI i technologie w São Brás de Alportel, miasteczku na wzgórzu z korkowym dziedzictwem, muzeum strojów i miejskim dążeniem do digitalizacji, oraz to, co z Algarve, Portugalii i świata dociera do São Brás de Alportel. Niezależnie; każdy fakt ze źródłem.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news São Brás de Alportel: AI and technology in S",
+  "ok": false
+ },
+ "3a3ce85c327ffbdf": {
+  "t": "**Napisz do nas:** poprawka, pytanie lub historia, którą pominęliśmy, trafia z pola u dołu tej strony, zapieczętowana dla redakcji. Po zalogowaniu odpowiedź dostaniesz na [swojej stronie rozmów]({talk}).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "**Talk to us:** a correction, a question or a story we misse",
+  "ok": false
+ },
+ "3ad18ea33c3678fa": {
+  "t": "Panel w UAlg TEC Campus: jeśli AI cię nie poleca, to kto?",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Panel at UAlg TEC Campus: if AI does not recommend you, who ",
+  "ok": false
+ }
+}

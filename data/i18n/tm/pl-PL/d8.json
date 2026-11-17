@@ -1,0 +1,26 @@
+{
+ "d8006b8f7850afec": {
+  "t": "Cáritas z Faro pyta, kto korzysta na AI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Faro's Cáritas asks who benefits from AI",
+  "ok": false
+ },
+ "d89c3b61de8d1239": {
+  "t": "Szkoła w Vilamourze gości szczyt edukacyjny o AI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Vilamoura school hosts an education summit on AI",
+  "ok": false
+ },
+ "d8de90262eca523a": {
+  "t": "Platforma łączy dane rynkowe, takie jak ceny surowców i stawki frachtu, z kosztami własnymi firmy, by wspierać zakupy i wycenę. Współprowadzone przez VentureFriends i Semapa Next.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The platform links market data such as commodity prices and ",
+  "ok": false
+ }
+}
