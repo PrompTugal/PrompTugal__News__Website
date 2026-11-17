@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1745",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 20:05 wake: 27 commits clean; 'Since your last visit' keeps the profile in the browser",
+    "by": "security@PrompTugal.dinis",
+    "from": "5599028e8"
+  },
+  {
     "version": "v0.1.1744",
     "date": "2026-11-17",
     "what": "conductor.b@PrompTugal.dinis: 19:48 wake: a quiet evening; watch line, status",
