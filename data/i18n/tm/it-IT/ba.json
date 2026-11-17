@@ -38,5 +38,13 @@
   "at": "2026-11-16",
   "src": "A NOVA FCT team (NOVA LINCS) built a platform that reads sat",
   "ok": false
+ },
+ "badc073005380e79": {
+  "t": "Il 30 aprile 2026 il comune ha ospitato la seconda sessione tecnica online del programma dell'UE International Urban and Regional Cooperation, dedicata a «Smart Destination Intelligence and Artificial Intelligence», con città di Europa e Asia. Coimbra ha presentato tre casi propri. La pagina del comune è datata maggio 2026; la data indicata qui è quella della sessione.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "On 30 April 2026 the council hosted the second online techni",
+  "ok": false
  }
 }
