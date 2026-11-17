@@ -1,0 +1,15 @@
+{
+  "h_now": "Now in {name}",
+  "h_inside": "Inside {name}",
+  "h_events": "Events",
+  "h_weather": "Weather",
+  "h_figures": "In figures",
+  "h_sources": "Sources we read",
+  "h_gaps": "Gaps",
+  "h_none": "None recorded.",
+  "h_ai_in": "AI in {name}",
+  "h_from_algarve": "From the Algarve",
+  "h_from_portugal": "From Portugal",
+  "h_map": "The AI map",
+  "h_mapping": "Being mapped."
+}

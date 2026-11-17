@@ -1,0 +1,140 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.districts@PrompTugal.dinis",
+ "run": "2026-11-17T04-35-50Z",
+ "started": "2026-11-17T04:35:50.849Z",
+ "ended": "2026-11-17T04:40:44Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-17T04:35:51.058Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T04:36:53.337Z",
+   "chars": 1520,
+   "sha256": "1666b6cf8aa3dd41",
+   "head": "<agent-message from=\"a331273251e6e7ef4\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-17T04:37:13.207Z",
+   "chars": 2216,
+   "sha256": "ffc86faa8abe95b4",
+   "head": "<agent-message from=\"ab13ce270340acef9\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-17T04:37:18.889Z",
+   "chars": 1868,
+   "sha256": "b63c510a6be607e3",
+   "head": "<agent-message from=\"a3e549302d3adaad4\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-17T04:37:36.284Z",
+   "chars": 2183,
+   "sha256": "c8757200eb2cfa70",
+   "head": "<agent-message from=\"a94c86d67f1470a24\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-17T04:37:54.532Z",
+   "chars": 3131,
+   "sha256": "9f284a85c9fbd333",
+   "head": "<agent-message from=\"a177e08cd4e236f69\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-17T04:38:00.264Z",
+   "chars": 2709,
+   "sha256": "a2cd4805914bc388",
+   "head": "<agent-message from=\"a557f9531dd7a03c2\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-17T04:35:50.849Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 82,
+  "by_kind": {
+   "other": 5,
+   "git-push": 7,
+   "agent": 12,
+   "read": 10,
+   "shell": 13,
+   "web": 30,
+   "git": 5
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 82,
+  "commits": [
+   {
+    "sha": "0229adfa4",
+    "subject": "place.districts@PrompTugal.dinis: Setubal third pass, re-signed",
+    "files": 2
+   },
+   {
+    "sha": "654aed70d",
+    "subject": "place.districts@PrompTugal.dinis: Beja third pass, re-signed",
+    "files": 2
+   },
+   {
+    "sha": "84a2e14dc",
+    "subject": "place.districts@PrompTugal.dinis: Castelo Branco third pass, re-signed",
+    "files": 2
+   },
+   {
+    "sha": "794f49c90",
+    "subject": "place.districts@PrompTugal.dinis: Portalegre third pass, re-signed",
+    "files": 2
+   },
+   {
+    "sha": "b297f697e",
+    "subject": "place.districts@PrompTugal.dinis: Evora third pass, re-signed",
+    "files": 2
+   },
+   {
+    "sha": "417c9e900",
+    "subject": "place.districts@PrompTugal.dinis: new site keys (-2 ids) for six capitals, files re-signed",
+    "files": 13
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 7,
+  "tool_calls": 82,
+  "in_mandate": 82,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

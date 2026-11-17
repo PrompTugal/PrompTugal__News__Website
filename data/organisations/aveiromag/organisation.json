@@ -33,6 +33,18 @@
         "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
       }
     },
+    "people": [
+      {
+        "name": "Maria José Teixeira Santana",
+        "role": "Director (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      }
+    ],
     "sources": [
       {
         "url": "https://www.aveiromag.pt/geral-3-Ficha-Tecnica",

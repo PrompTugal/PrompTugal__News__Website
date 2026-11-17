@@ -54,6 +54,26 @@
           "read_at": "2026-11-16",
           "how": "named by the outlet itself on this page"
         }
+      },
+      {
+        "name": "Maria Carolina Braga Esteves Santos Franco",
+        "role": "Director (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "João Gabriel Silva Ribeiro",
+        "role": "Editor/publisher (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
       }
     ],
     "sources": [

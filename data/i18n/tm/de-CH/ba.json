@@ -44,5 +44,14 @@
   "ok": false,
   "from": "de-DE",
   "adapted": true
+ },
+ "badc073005380e79": {
+  "t": "Am 30. April 2026 richtete die Stadtverwaltung die zweite technische Online-Sitzung des EU-Programms für internationale städtische und regionale Zusammenarbeit aus, zum Thema „Smart Destination Intelligence and Artificial Intelligence“, mit Städten aus Europa und Asien. Coimbra stellte drei eigene Fälle vor. Die Seite der Stadtverwaltung ist auf Mai 2026 datiert; das hier genannte Datum ist das der Sitzung.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "On 30 April 2026 the council hosted the second online techni",
+  "ok": false,
+  "from": "de-DE"
  }
 }

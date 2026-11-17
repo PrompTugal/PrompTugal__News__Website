@@ -42,3 +42,8 @@ LD1 to LD4 at 1280 and 390 px, light and dark; no `href` ending `.json` in `.fe-
 
 ## Checked 17 Nov, 00:45 UTC (v0.1.1675)
 LD1 to LD5 not built. LD2 still fails: the home page's `.fe-now` links `api.ipma.pt/...observations.json` and `warnings_www.json`, and now `api.adsb.lol` too. LD6 in part: datasci.places@ refreshes the readings, and dev@ marks a stale airport read "last read" (7a7e53f9f).
+
+## 17 Nov, 06:45 UTC: designer.places@'s two home strips (design/experiments/home-live-strip/mockup.html.txt)
+Its A (figures in a one-line strip) and B (the place pages' ink band on the home page, source and age beside each value) are taken in. **One home panel, not two:** LD1 stands (the lead's empty right column on a desktop, below the lead on a phone, all 17 towns and the five days), and takes from B the source and age under each value and the ink register when the lead *has* a figure (then the panel goes full width under the lead, as B). A's red rule is not used: red is the wordmark's, and nothing here is an alarm. dev.places@ builds one, from LD1's markup.
+
+Checked at v0.1.1690: LD1 to LD5 still not built; the home page still links `api.ipma.pt` and `api.adsb.lol` (LD2).

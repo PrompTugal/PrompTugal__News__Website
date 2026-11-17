@@ -7,7 +7,7 @@
   "names_as_listed": [
     "Visão"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Site could not be read from this environment; owner, masthead, contacts unverified. Feed https://visao.sapo.pt/feed/ did not respond (connection failure), so not verified.",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Site could not be read from this environment; owner, masthead, contacts unverified. Feed https://visao.sapo.pt/feed/ did not respond (connection failure), so not verified. Technology and business reporters of Visão not found: site blocked from this environment; only the ERC direction is recorded ().",
   "media": {
     "outlet_kind": "magazine",
     "places_covered": [
@@ -17,6 +17,58 @@
       "pt"
     ],
     "website": "https://visao.sapo.pt",
+    "people": [
+      {
+        "name": "Rui Manuel Tavares Guedes",
+        "role": "Director (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "Alexandra Correia",
+        "role": "Subdirector (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "Filipe Luís",
+        "role": "Subdirector (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "Margarida Vaqueiro Lopes",
+        "role": "Subdirector (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      },
+      {
+        "name": "Sara Belo Luís",
+        "role": "Subdirector (ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      }
+    ],
     "sources": [
       {
         "url": "https://visao.sapo.pt",

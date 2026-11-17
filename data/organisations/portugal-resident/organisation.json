@@ -7,7 +7,7 @@
   "names_as_listed": [
     "Portugal Resident"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: About page blocked by Cloudflare; owner, masthead, contacts unread.",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: About page blocked by Cloudflare; owner, masthead, contacts unread. Reporters and beats not found ().",
   "media": {
     "outlet_kind": "online",
     "places_covered": [
@@ -28,11 +28,28 @@
         }
       }
     ],
+    "people": [
+      {
+        "name": "Bruce Patrick Hawker",
+        "role": "Director (ERC register, listed as \"The Resident\")",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "direction (no beat stated)"
+      }
+    ],
     "sources": [
       {
         "url": "https://www.portugalresident.com/feed/",
         "read_at": "2026-11-16",
         "how": "feed fetched"
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "ERC public register of periodicals (public Google Sheet linked from erc.pt listing page, updated 3 Nov 2026, no login): registration number 124908, director and deputies columns. Email column deliberately not recorded."
       }
     ]
   },
@@ -41,6 +58,12 @@
       "url": "https://www.portugalresident.com/feed/",
       "read_at": "2026-11-16",
       "how": "feed fetched",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "how": "ERC public register of periodicals (public Google Sheet linked from erc.pt listing page, updated 3 Nov 2026, no login): registration number 124908, director and deputies columns. Email column deliberately not recorded.",
       "by": "ontologist@PrompTugal.dinis"
     }
   ]

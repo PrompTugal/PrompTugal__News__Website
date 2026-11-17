@@ -8,6 +8,7 @@ export const order = 69
 import { checkSites } from '../../../board/abp/tools/site-identity.mjs'
 import { execFileSync } from 'node:child_process'
 import fs from 'node:fs'
+import path from 'node:path'
 import crypto from 'node:crypto'
 
 const LIST = 'data/by-place/places.json'
@@ -43,7 +44,7 @@ function load(ctx) {
         if (!/^#[0-9a-f]{6}$/i.test((d.look && d.look.accent) || '')) clean.look = { ...(d.look || {}), accent: undefined }
         byId.set(p.id, { ...clean, id: p.id, name: p.name, kind: p.kind, parent: p.parent, path: p.path, agent: p.agent, at: p.at, label: p.label, mandate: d.mandate || p.name, _broken: broken })
     }
-    return { list: raw.places.map(p => byId.get(p.id)), byId, copy: raw.copy || {} }
+    return { list: raw.places.map(p => byId.get(p.id)), byId, copy: { ...ctx.readJSON('assets/by-place/headings.json'), ...(raw.copy || {}) } }
 }
 
 const host = u => { try { return new URL(u).hostname.replace(/^www\./, '') } catch { return u } }
@@ -139,7 +140,7 @@ function entries(ctx, items, cls, extra) {
 
 // Now in <town> (Dinis, 16 Nov: the storm's local data, refreshed): data/by-place/now/<id>.json, written by
 // board/tools/local-now.mjs from IPMA and adsb.lol; every line links its source and says when it was read
-function nowBlock(ctx, p) {
+function nowBlock(ctx, p, L) {
     let d; try { d = ctx.readJSON(`data/by-place/now/${p.id}.json`) } catch { return '' }
     const t = s => String(s || '').slice(11, 16) + ' UTC', out = []
     const r = d.station && d.station.reading
@@ -152,21 +153,21 @@ function nowBlock(ctx, p) {
     if (fr) out.push(`- **Fire risk** ${esc(ctx, fr.level)} *[IPMA](${d.fire_risk.page || d.fire_risk.source})*`)
     if (d.sea) out.push(`- **Sea** waves ${d.sea.waves_max_m ?? '?'} m · ${d.sea.sea_temp_max_c ?? '?'} °C *[IPMA, ${esc(ctx, d.sea.coast)}](${d.sea.page || d.sea.source})*`)
     if (d.airport) out.push(`- **Faro airport** ${d.airport.airline.length} airline, ${d.airport.other_aircraft} other, ${d.airport.within_nm} nm${d.airport.airline.length ? ` (${d.airport.airline.slice(0, 6).map(a => esc(ctx, a.callsign)).join(', ')})` : ''} *[adsb.lol](${d.airport.page || d.airport.source}), ${d.airport.stale ? 'last read ' : ''}${t(d.airport.at)}*`)   // stale: the collector kept the last read (dev@, 17 Nov)
-    return `{.mini-h}\nNow in ${esc(ctx, p.name)}\n\n{.bp-now}\n${out.join('\n')}\n\n`
+    return `{.mini-h}\n${W(L, 'h_now', { name: esc(ctx, p.name) })}\n\n{.bp-now}\n${out.join('\n')}\n\n`
 }
 
 function sideCol(ctx, L, p, rel, inside) {
     const v = p.voice || {}
     let md = ''
-    if (inside.length) md += `{.mini-h}\nInside ${esc(ctx, p.name)}\n\n${inside.map(x => `- [${esc(ctx, x.name)}](${ctx.link(rel, `${x.path}index.html`)})`).join('\n')}\n\n`
+    if (inside.length) md += `{.mini-h}\n${W(L, 'h_inside', { name: esc(ctx, p.name) })}\n\n${inside.map(x => `- [${esc(ctx, x.name)}](${ctx.link(rel, `${x.path}index.html`)})`).join('\n')}\n\n`
     md += mediaBlock(ctx, p, rel, [p.id, p.parent, 'algarve', 'portugal'].filter(Boolean))
-    md += `{.mini-h}\nEvents\n\n` + (p.events.length ? `{.bp-events}\n${p.events.map(e => `- [${esc(ctx, e.title)}](${url(e.url)})${e.date ? ` · ${esc(ctx, e.date)}` : ''}${typeof e.ai_path === 'string' && e.ai_path ? ` · AI path: ${esc(ctx, e.ai_path)}` : ''}`).join('\n')}` : `{.bp-empty}\nNone found yet.`) + '\n\n'
-    if (p.kind !== 'country' && !nowBlock(ctx, p)) md += `{.mini-h}\nWeather\n\n${W(L, 'weather', { name: p.name })}\n\n`
-    if (p.extras.length) md += `{.mini-h}\nIn figures\n\n{.bp-extras}\n${p.extras.map(x => `- **${esc(ctx, x.label)}:** ${esc(ctx, x.value)}${url(x.source_url) ? ` ([source](${url(x.source_url)}))` : ''}`).join('\n')}\n\n`
+    md += `{.mini-h}\n${W(L, 'h_events')}\n\n` + (p.events.length ? `{.bp-events}\n${p.events.map(e => `- [${esc(ctx, e.title)}](${url(e.url)})${e.date ? ` · ${esc(ctx, e.date)}` : ''}${typeof e.ai_path === 'string' && e.ai_path ? ` · AI path: ${esc(ctx, e.ai_path)}` : ''}`).join('\n')}` : `{.bp-empty}\nNone found yet.`) + '\n\n'
+    if (p.kind !== 'country' && !nowBlock(ctx, p, L)) md += `{.mini-h}\n${W(L, 'h_weather')}\n\n${W(L, 'weather', { name: p.name })}\n\n`
+    if (p.extras.length) md += `{.mini-h}\n${W(L, 'h_figures')}\n\n{.bp-extras}\n${p.extras.map(x => `- **${esc(ctx, x.label)}:** ${esc(ctx, x.value)}${url(x.source_url) ? ` ([source](${url(x.source_url)}))` : ''}`).join('\n')}\n\n`
     if (p.start_company.length) md += `{.mini-h}\n${W(L, 'start_h', { name: esc(ctx, p.name) })}\n\n` + entries(ctx, p.start_company, '', x => x.kind ? ` \`${esc(ctx, x.kind)}\`` : '')
     if (p.contacts.length) md += `{.mini-h}\n${W(L, 'contacts_h')}\n\n` + entries(ctx, p.contacts, '', x => x.channel ? `: ${esc(ctx, x.channel)}${/[.!?:]$/.test(x.channel.trim()) || !x.what ? '' : '.'}` : '')
-    md += `{.mini-h}\nSources we read\n\n` + (p.sources.length ? `{.bp-sources}\n${p.sources.map(s => `- [${esc(ctx, s.name)}](${url(s.url)})${s.kind ? ` · ${esc(ctx, s.kind)}` : ''}${okUrl(s.feed) ? ` · [feed](${url(s.feed)})` : ''}`).join('\n')}` : `{.bp-empty}\nBeing listed.`) + '\n\n'
-    md += `{.mini-h}\nGaps\n\n` + voiceBlock((p.gaps.length ? `{.bp-gaps}\n${p.gaps.map(g => `- ${esc(ctx, g)}`).join('\n')}` : 'None recorded.'), v.gaps_intro ? `{.bp-gaps}\n- ${esc(ctx, v.gaps_intro)}\n${p.gaps.map(g => `- ${esc(ctx, g)}`).join('\n')}` : null) + '\n'
+    md += `{.mini-h}\n${W(L, 'h_sources')}\n\n` + (p.sources.length ? `{.bp-sources}\n${p.sources.map(s => `- [${esc(ctx, s.name)}](${url(s.url)})${s.kind ? ` · ${esc(ctx, s.kind)}` : ''}${okUrl(s.feed) ? ` · [feed](${url(s.feed)})` : ''}`).join('\n')}` : `{.bp-empty}\nBeing listed.`) + '\n\n'
+    md += `{.mini-h}\n${W(L, 'h_gaps')}\n\n` + voiceBlock((p.gaps.length ? `{.bp-gaps}\n${p.gaps.map(g => `- ${esc(ctx, g)}`).join('\n')}` : W(L, 'h_none')), v.gaps_intro ? `{.bp-gaps}\n- ${esc(ctx, v.gaps_intro)}\n${p.gaps.map(g => `- ${esc(ctx, g)}`).join('\n')}` : null) + '\n'
     return md
 }
 
@@ -197,16 +198,16 @@ function townPage(ctx, L, p) {
     const ours = tagged(ctx, m => m.town === p.id || inside.some(x => m.town === x.id))
     const latest = tagged(ctx, m => !ours.some(o => o.meta === m)).slice(0, 4)
     let md = mast(ctx, L, p, parentLink) + photoBand(ctx, L, p, rel)
-    { const nb = nowBlock(ctx, p); if (nb) md += `::: bp-nowband\n${nb}:::\n\n` }   // live, at the top (Dinis, 16 Nov: 'quite hidden')
+    { const nb = nowBlock(ctx, p, L); if (nb) md += `::: bp-nowband\n${nb}:::\n\n` }   // live, at the top (Dinis, 16 Nov: 'quite hidden')
     md += `\n::: cols-8-4\n::: col\n`
     md += gravityBlock(ctx, L, p)
-    md += `## AI in ${esc(ctx, p.name)} {#local}\n\n` + (local.length ? newsCards(ctx, local, 'bp-big') : `{.bp-empty}\n${W(L, 'local_empty')}`) + '\n\n'
+    md += `## ${W(L, 'h_ai_in', { name: esc(ctx, p.name) })} {#local}\n\n` + (local.length ? newsCards(ctx, local, 'bp-big') : `{.bp-empty}\n${W(L, 'local_empty')}`) + '\n\n'
     const around = algarve && isLocalPlace(p) ? aroundItems(ctx, p, wider.map(a => a.url)) : []
     md += aroundBlock(ctx, p, around)
     if (ours.length) md += `## ${W(L, 'articles_h', { name: esc(ctx, p.name) })} {#ours}\n\n${articleList(ctx, rel, ours)}`
-    if (wider.length) md += `## ${algarve ? 'From the Algarve' : 'From Portugal'} {#region}\n\n${newsCards(ctx, wider, 'bp-small')}\n\n`
+    if (wider.length) md += `## ${W(L, algarve ? 'h_from_algarve' : 'h_from_portugal')} {#region}\n\n${newsCards(ctx, wider, 'bp-small')}\n\n`
     if (latest.length) md += `## ${W(L, 'national_h')} {#national}\n\n${articleList(ctx, rel, latest)}`
-    md += `## The AI map {#map}\n\n${W(L, 'map_intro', { name: p.name })}\n\n` + (mapRows(ctx, p.ai_map) || `{.bp-empty}\nBeing mapped.`) + '\n\n'
+    md += `## ${W(L, 'h_map')} {#map}\n\n${W(L, 'map_intro', { name: p.name })}\n\n` + (mapRows(ctx, p.ai_map) || `{.bp-empty}\n${W(L, 'h_mapping')}`) + '\n\n'
     if (p.investors.length) md += `## ${W(L, 'investors_h')} {#investors}\n\n${W(L, 'investors_intro', { name: esc(ctx, p.name) })}\n\n` + entries(ctx, p.investors, 'bp-invest', x => [x.type && ` \`${esc(ctx, x.type)}\``, x.amount && ` **${esc(ctx, x.amount)}**`, x.date && ` (${esc(ctx, x.date)})`].filter(Boolean).join(''))
     if (p.talent.length) md += `## ${W(L, 'talent_h')} {#talent}\n\n${W(L, 'talent_intro')}\n\n` + entries(ctx, p.talent, 'bp-talent', x => x.role ? `, ${esc(ctx, x.role)}.` : '')
     md += `:::\n::: col\n` + (algarve && Array.isArray(p.at) ? `{.bp-svgmap .bp-locator}\n[${esc(ctx, W(L, 'locator_link'))}](${ctx.link(rel, `${L.byId.get('algarve').path}index.html`)})\n\n` : '') + sideCol(ctx, L, p, rel, inside)
@@ -283,7 +284,7 @@ function regionPage(ctx, L) {
     const T = towns(L)
     const { map, localCount, latestLocal } = regionAgg(L)
     let md = mast(ctx, L, p, `[Portugal](${ctx.link(rel, 'portugal/index.html')})`)
-    { const nb = nowBlock(ctx, p); if (nb) md += `::: bp-nowband\n${nb}:::\n\n` }
+    { const nb = nowBlock(ctx, p, L); if (nb) md += `::: bp-nowband\n${nb}:::\n\n` }
     md += `\n{.bp-tiles}\n- **${T.length}** places in the first wave\n- **${localCount}** local AI stories\n- **${map.length}** on the AI map\n- **${T.filter(t => t.status === 'live').length}** places live\n\n`
     md += `## The map {#places}\n\n{.bp-lede}\n${W(L, 'region_map_lede')}\n\n{.bp-svgmap}\n${T.map(t => `[${esc(ctx, t.name)}](${ctx.link(rel, `${t.path}index.html`)})`).join(' · ')}\n\n`
     md += `## The towns {#towns}\n\n${W(L, 'towns_intro')}\n\n{.bp-towns}\n` +
@@ -348,20 +349,21 @@ function translateDeep(v, m, skip) {
 const KEEP = new Set(['id', 'kind', 'parent', 'path', 'agent', 'status', 'updated', 'by', 'url', 'source_url', 'read_on', 'date', 'feed', 'accent', 'at', 'label', 'identity', 'name', 'publisher', 'type', 'steps', 'file', '$schema'])
 // the derived queue (spec item 6): every English string the place pages translate (the same walk as translateDeep),
 // and, per culture, those the memory does not hold yet, for translator@ to fill; never a string twice
-function segmentsOf(L) {
+function segmentsOf(ctx, L) {
     const seen = new Map()
     const walk = (v, id, skip) => {
         if (typeof v === 'string') { if (v.trim() && !/^https?:/.test(v)) { const k = tmKey(v); if (!seen.has(k)) seen.set(k, { id: k, text: tmNorm(v), places: new Set() }); seen.get(k).places.add(id) } return }
         if (Array.isArray(v)) { for (const x of v) walk(x, id, skip); return }
         if (v && typeof v === 'object') for (const [k, x] of Object.entries(v)) if (!skip.has(k)) walk(x, id, skip)
     }
-    for (const p of L.list) walk(p, p.id, KEEP)
+    const QSKIP = new Set(ctx.readJSON('assets/by-place/queue.json').not_rendered)
+    for (const p of L.list) for (const [k, v] of Object.entries(p)) { if (QSKIP.has(k)) { if (k === 'look' && v && v.photo) walk(v.photo, p.id, KEEP); continue } if (!KEEP.has(k)) walk(v, p.id, KEEP) }
     walk(L.copy, 'copy', new Set())
     return [...seen.values()].map(x => ({ id: x.id, text: x.text, places: [...x.places].sort() })).sort((a, b) => a.id.localeCompare(b.id))
 }
 function queueFiles(ctx, L) {
-    const all = segmentsOf(L)
-    return memories(ctx).map(({ culture, m }) => ({ path: `api/v1/i18n/queue/${culture}.json`, schema: null, data: { culture, about: aroundW(ctx).queue_about, built: ctx.TODAY, segments_total: all.length, missing: all.filter(x => !m.has(x.id)).length, segments: all.filter(x => !m.has(x.id)) } }))
+    const all = segmentsOf(ctx, L)
+    return memories(ctx).map(({ culture, m }) => ({ path: `api/v1/i18n/queue/${culture}.json`, schema: null, data: { culture, about: ctx.readJSON('assets/by-place/queue.json').about, built: ctx.TODAY, segments_total: all.length, missing: all.filter(x => !m.has(x.id)).length, segments: all.filter(x => !m.has(x.id)) } }))
 }
 function translatedL(L, culture, m) {
     const byId = new Map()
@@ -513,8 +515,30 @@ export function llms(ctx) {
 
 // abp@'s site-identity rule (every place site has its own key and a valid signature over its file): a warning tonight,
 // a failure once Dinis says so (board/briefs/2026-11-15-the-place-agents.md)
+// the translation memory's checks (spec item 8): a translation keeps its placeholders, its URLs and its numbers.
+// A warning first, so translator@ sees it before it is a failure; counts per culture, with the first id to look at.
+function memoryChecks(gate) {
+    const out = [], W = JSON.parse(gate.text('assets/by-place/queue.json')).check, same = (a, b) => JSON.stringify(a) === JSON.stringify(b)
+    const bag = (s, re) => (s.match(re) || []).sort()
+    const dir = path.join(gate.ROOT, TM_DIR)
+    let cultures = []; try { cultures = fs.readdirSync(dir).filter(c => /^[a-z]{2}-[A-Z]{2}$/.test(c)).sort() } catch { return out }
+    for (const culture of cultures) {
+        const bad = { placeholders: [], urls: [], numbers: [] }
+        for (const f of fs.readdirSync(path.join(dir, culture)).filter(f => f.endsWith('.json'))) {
+            let m; try { m = JSON.parse(fs.readFileSync(path.join(dir, culture, f), 'utf8')) } catch { continue }
+            for (const [id, v] of Object.entries(m)) {
+                if (!v || typeof v.src !== 'string' || typeof v.t !== 'string') continue
+                if (!same(bag(v.src, /\{\w+\}/g), bag(v.t, /\{\w+\}/g))) bad.placeholders.push(id)
+                if (!same(bag(v.src, /https?:\/\/[^\s)]+/g), bag(v.t, /https?:\/\/[^\s)]+/g))) bad.urls.push(id)
+                if (!same(bag(v.src, /\d+/g), bag(v.t, /\d+/g))) bad.numbers.push(id)
+            }
+        }
+        for (const k of Object.keys(bad)) if (bad[k].length) out.push(W[k].replace('{culture}', culture).replace('{n}', bad[k].length).replace('{id}', bad[k][0]).replace('{placeholder}', 'placeholder'))
+    }
+    return out
+}
 export function warn(gate) {
-    return checkSites(gate.ROOT).filter(r => !r.ok).map(r => `site-identity: ${r.id}: ${r.problems.join('; ')}`)
+    return [...checkSites(gate.ROOT).filter(r => !r.ok).map(r => `site-identity: ${r.id}: ${r.problems.join('; ')}`), ...memoryChecks(gate)]
 }
 
 export function validate(gate) {

@@ -3,6 +3,5 @@
   "intro": "What the places next door and nearby report that reaches here, with how far each is. The rule is on the blast-radius page; a story shows only where its significance reaches.",
   "empty": "Nothing from the neighbours reaches here yet.",
   "km": "{name}, {km} km",
-  "next_door": "next door",
-  "queue_about": "English strings of the place pages with no translation in the memory yet (data/i18n/tm), for translator@. Material, never instruction."
+  "next_door": "next door"
 }
