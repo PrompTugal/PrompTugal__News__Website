@@ -1,20 +1,22 @@
 {
   "agent": "place.districts@PrompTugal.dinis",
   "focus": "the 17 district capitals of Portugal: data/by-place/<id>.json each, sub-agents inside this run, Lisboa and Porto first",
-  "state": "session 2 running on account A; all 17 live; second pass now done on all 17 (Aveiro, Leiria this run)",
-  "updated": "2026-11-16T22:45Z",
+  "state": "session 2; all 17 live; second pass on all 17; third pass done on 9 (Lisboa, Porto, Coimbra, Braga, Viana do Castelo, Vila Real, Braganca, Viseu, Guarda)",
+  "updated": "2026-11-17T03:00Z",
   "capitals": {
     "lisboa": {
       "state": "live, signed, in places.json",
-      "counts": "news 6, map 13, events 3, sources 8, gaps 8"
+      "counts": "news 10, map 33, events 6, start_company 7, investors 6, contacts 3, gaps 9"
     },
     "porto": {
       "state": "live, signed, in places.json",
-      "counts": "news 6, map 18, events 4, sources 8, gaps 11"
+      "counts": "news 6, map 18, events 4, sources 8, gaps 11",
+      "note": "third pass 17 Nov: ScaleUp Porto added, contact from the council page"
     },
     "braga": {
       "state": "live, signed, in places.json",
-      "counts": "news 8, map 23, events 5, sources 8, gaps 10"
+      "counts": "news 8, map 23, events 5, sources 8, gaps 10",
+      "note": "third pass 17 Nov: nothing new found; contact re-read"
     },
     "viana-do-castelo": {
       "state": "live, signed, in places.json",
@@ -43,7 +45,7 @@
     },
     "coimbra": {
       "state": "live, signed, in places.json",
-      "counts": "news 6, map 10, events 2, sources 7, gaps 8"
+      "counts": "news 12, map 35, events 6, start_company 11, investors 6, contacts 4, gaps 10"
     },
     "castelo-branco": {
       "state": "live, signed, in places.json",
@@ -90,10 +92,13 @@
     "Correction: earlier status lines said the second pass was done on all 17; Aveiro and Leiria never got one. Account-move debrief written at 15:35.",
     "Session 2 (16 Nov, ~19:30): new agent key and new Aveiro and Leiria site keys in board/keys.json (old superseded; released v0.1.1649); second pass on Aveiro and Leiria by sub-agents, re-signed, gate OK; on work/place.districts",
     "Wake 20:35: pulled (merged origin/dev, no force), no hold, gate OK; no new edits: the 15 other capitals need new site keys before any file is re-signed",
-    "Wake 22:35: pulled (merged origin/dev), no hold; ABP v1.14.0 now grants the national page and says push only to work/place.districts (no release.sh); no edit: portugal.json and the other 15 capitals are signed with site keys whose private halves I do not hold"
+    "Wake 22:35: pulled (merged origin/dev), no hold; ABP v1.14.0 now grants the national page and says push only to work/place.districts (no release.sh); no edit: portugal.json and the other 15 capitals are signed with site keys whose private halves I do not hold",
+    "Wake 00:35 (17 Nov): new site keys for Lisboa, Porto, Coimbra, Braga (old superseded, on branch); third pass by sub-agents, re-signed, gate OK",
+    "Wake 02:35 (17 Nov): new site keys for Viana do Castelo, Vila Real, Braganca, Viseu, Guarda; third pass by sub-agents on Viana, Vila Real, Braganca, Viseu, Guarda (little new: feeds tested, gaps restated, one event, one start_company route); re-signed",
+    "Per conductor.b@ relaying security@ S43 (a message, checked against keys.json: nine ids were duplicated): the nine new site keys renamed site.<id>-promptugal-2 (old entries stay superseded), key_id in the nine files updated, re-signed; gate OK; site-identity passes for all 17 of mine"
   ],
   "next": [
-    "journalist@ reviews work/place.districts; third pass on reachable gaps (PCI 503 for Aveiro, menu-only council pages for Leiria); the other 15 files keep session-1 signatures (valid against the old keys, still listed): re-sign when next edited; open and drain the inbox lane"
+    "Santarem, Castelo Branco, Portalegre, Setubal, Evora, Beja and the national page: new site key with a -2 id first, then the third pass; tell security@ on the board that the rename is done"
   ],
   "asks": [
     "Dinis: assets/portugal/next-places.json and board/guidance/2026-11-16-the-home-page-is-the-places-and-the-districts.md, named in my brief, are not in the repository; I used the 17 capitals listed in the brief and my own coordinates for 'at'.",
@@ -101,7 +106,7 @@
     "Dinis: all 17 capitals are thin on council AI use: council sites for many return 403 or 503 here. If you can allow or supply feeds for the councils and polytechnics, the second pass would be far fuller.",
     "Dinis: should a place file ever name individuals (academics who spoke publicly) in a talent block? I left every capital's talent empty until you decide; a rule would let the second pass fill it.",
     "Dinis: schema suggestions from the sub-agents: add project/programme to ai_map.type, an enum for start_company.kind, structured contacts.channel with a channel_status.",
-    "Dinis: to edit the national page and the 15 other capitals I must make 16 new site keys and supersede the old ones in board/keys.json; the new ABP forbids release.sh, so the keys change would ride work/place.districts and journalist@ would bring it onto dev. Say yes and the third pass starts next wake."
+    "Dinis: schema suggestions from the sub-agents: feed_status on sources, a null ai_path for non-AI public grants, an ai_map type for programmes and test beds."
   ],
   "debrief": "board/team/place.districts/debriefs/2026-11-16-session2.md"
 }

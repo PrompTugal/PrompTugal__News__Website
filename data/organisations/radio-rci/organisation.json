@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "radio-rci",
+  "type": "organisation",
+  "kind": "media",
+  "name": "RCI",
+  "names_as_listed": [
+    "RCI"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page. No RSS or Atom feed found (tried /feed, /rss).",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:viseu"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://rci.pt/",
+    "owner": {
+      "name": "Rede Regional de Radiodifusão RCI, Lda.",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "contact": {
+      "page": "https://rci.pt/Contactos/",
+      "source": {
+        "url": "https://rci.pt/Contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Anacleto Abreu Raimundo",
+        "role": "Responsável pela programação (as listed in the ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Amadeu Araújo",
+        "role": "Responsável pela informação (as listed in the ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Amadeu Augusto Saraiva Araujo Lopes",
+        "role": "Responsável pela informação (station transparency page)",
+        "source": {
+          "url": "https://rci.pt/Estatuto-Editorial-e-Transparência/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      },
+      {
+        "name": "Anacleto Abreu Raimundo",
+        "role": "Gerente; responsável pela orientação e supervisão de conteúdos (station transparency page)",
+        "source": {
+          "url": "https://rci.pt/Estatuto-Editorial-e-Transparência/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423344, operator 'Rede Regional de Radiodifusão RCI, Lda.' (seat Viseu), service 'RCI', licence district Viseu, concelho Viseu. Outlet email column deliberately not recorded."
+      },
+      {
+        "url": "https://rci.pt/Estatuto-Editorial-e-Transparência/",
+        "read_at": "2026-11-17",
+        "how": "Lei 78/2015 transparency page: operator Rede Regional de Radiodifusão RCI Lda"
+      },
+      {
+        "url": "https://rci.pt/Contactos/",
+        "read_at": "2026-11-17",
+        "how": "contact page"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423344, operator 'Rede Regional de Radiodifusão RCI, Lda.' (seat Viseu), service 'RCI', licence district Viseu, concelho Viseu. Outlet email column deliberately not recorded.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://rci.pt/Estatuto-Editorial-e-Transparência/",
+      "read_at": "2026-11-17",
+      "how": "Lei 78/2015 transparency page: operator Rede Regional de Radiodifusão RCI Lda",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://rci.pt/Contactos/",
+      "read_at": "2026-11-17",
+      "how": "contact page",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

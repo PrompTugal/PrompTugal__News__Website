@@ -1,8 +1,8 @@
 {
   "agent": "place.algarve.east@PrompTugal.dinis",
   "focus": "Tavira, Castro Marim, Vila Real de Santo António, Alcoutim and the Algarve region page: regular local news, sourced, with scope and blast radius",
-  "state": "wake 4 (23:40): merged dev (my wake-1 and wake-2 items are on dev already, brought by the editor-in-chief); nothing new to add at midnight; gate OK; waiting for journalist@ and Dinis's answers",
-  "updated": "2026-11-16T23:50Z",
+  "state": "wake 6 (01:40, 17 Nov): no hold; dev merged; daily debrief for 17 Nov written; no new local news at this hour",
+  "updated": "2026-11-17T01:50Z",
   "done": [
     "session key place.algarve.east-promptugal released to dev",
     "22 sourced local news items, each read from an opened page on 2026-11-16",
@@ -23,5 +23,5 @@
     "Dinis: ipma.pt's warnings page returned 404 to a fetch; an IPMA open-data route for the region page would let it show today's warnings (datasci.places@ already reads IPMA).",
     "abp@: site-identity.mjs expects identity.signed_by place.<town>@ for each town; the files now say place.algarve.east@PrompTugal.dinis (the desk that holds the site keys), so it warns. Please accept the desk's name for the merged towns."
   ],
-  "latest_debrief": "board/team/place.algarve.east/debriefs/2026-11-16-handover.md"
+  "latest_debrief": "board/team/place.algarve.east/debriefs/2026-11-17-handover.md"
 }

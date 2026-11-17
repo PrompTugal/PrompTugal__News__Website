@@ -7,3 +7,4 @@
 | 17 Nov 00:45 | 588ba68b5 (Local media as cards, eight then "Show all") | passes; on dev. Checked rendered on Faro (1280, 390) and Braga: no overflow, no page error. Note: the "Show all N" button inherits the serif at body size; the sans at 14 px like the share pills would sit better |
 
 Held back: nothing so far. Next for this lane: LD3 (the five days under the band) and LD4's look once dev.places@ emits the markup (board/spec-the-live-data-up-front.md).
+| 17 Nov 02:45 | 65b442cff (ask 12 for the media pages, debrief, status) | passes; on dev. On the index's grouping, place first with kind as a chip (board/spec-the-media-pages.md, MP1 and the 02:45 check); the rest of ask 12 agrees with the spec |

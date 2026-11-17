@@ -31,6 +31,10 @@ const clip = (s, n) => { s = String(s || '').replace(/\s+/g, ' ').trim(); return
 const plain = md => String(md || '').replace(/```[\s\S]*?```/g, ' ').replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/[#*`|>_]+/g, ' ').replace(/\{#[\w-]+\}/g, ' ').replace(/\s+/g, ' ').trim()
 const headsOf = md => (String(md || '').match(/^#{2,4}\s+.+$/gm) || []).map(h => h.replace(/^#+\s+/, '').replace(/\{#[\w-]+\}/, '')).join(' · ')
 
+// the snippet a result shows: 110 characters keeps docs.json, the first file a reader loads, inside its 400 KB as the site
+// grows (dev@PrompTugal.dinis, 17 November 2026: 365 KB at 1894 pages with 140 and 160). Splitting docs.json is the next step.
+const SNIP = 110
+
 let built = null   // the index, made once per build (api and llms both read it)
 
 function makeIndex(ctx) {
@@ -63,14 +67,14 @@ function makeIndex(ctx) {
         const row = { id: x ? `${type}:${x.id}` : `page:${p.rel}`, type, title: p.title, url: p.rel, summary: '', facets: {}, extra: {}, fields: { title: p.title } }
         if (x && type === 'company') {
             const days = [...new Set(eventsOfCompany(g, `company:${x.id}`).map(e => eventById.get(e.split(':')[1])?.date).filter(Boolean))].sort()
-            row.summary = clip(x.what, 140)
+            row.summary = clip(x.what, SNIP)
             row.facets = { tp: [x.category].filter(Boolean), c: x.country || undefined, d: days.length ? days : undefined }
             row.fields.alias = [...(x.aliases || []).map(a => a.name), ...(alsoKnown.get(row.id) || [])].join(' ; ')
             row.fields.facet = [topicName[x.category], x.category, x.country, x.attending_as].filter(Boolean).join(' ; ')
             row.fields.body = x.what
         } else if (x && type === 'event') {
             const tps = eventTopics(x.id)
-            row.summary = clip(`${ctx.DAY(x.date)}${x.time ? ', ' + x.time : ''}${x.where ? ' · ' + x.where : ''}`, 140)
+            row.summary = clip(`${ctx.DAY(x.date)}${x.time ? ', ' + x.time : ''}${x.where ? ' · ' + x.where : ''}`, SNIP)
             row.facets = { tp: tps.length ? tps : undefined, o: x.organiser, d: [x.date] }
             const mo = x.session_url && media.has(String(x.session_url).replace(/\/+$/, ''))
             row.extra = { s: x.start || undefined, e: x.end || undefined, w: x.where ? x.where.split(',')[0] : undefined, k: x.kind, p: x.our_pick ? 1 : undefined, m: mo ? [shortUrl(x.session_url), x.session_url, readOn(media.get(String(x.session_url).replace(/\/+$/, '')))] : undefined }
@@ -80,26 +84,26 @@ function makeIndex(ctx) {
         } else if (x && type === 'person') {
             const evs = (x.listings || []).map(l => eventById.get(String(l.event || '').split(':')[1])).filter(Boolean)
             const days = [...new Set(evs.map(e => e.date))].sort()
-            row.summary = clip([x.role, x.organisation].filter(Boolean).join(', '), 140)
+            row.summary = clip([x.role, x.organisation].filter(Boolean).join(', '), SNIP)
             row.facets = { d: days.length ? days : undefined }
             row.fields.facet = [x.role, x.organisation].filter(Boolean).join(' ; ')
             row.fields.body = evs.map(e => e.title).join(' ; ')
         } else if (x && type === 'organisation') {
-            row.summary = clip(x.names_as_listed && x.names_as_listed.length > 1 ? `Listed as ${x.names_as_listed.join('; ')}` : 'An organisation named on the summit\'s public pages', 140)
+            row.summary = clip(x.names_as_listed && x.names_as_listed.length > 1 ? `Listed as ${x.names_as_listed.join('; ')}` : 'An organisation named on the summit\'s public pages', SNIP)
             row.fields.alias = (x.names_as_listed || []).join(' ; ')
         } else if (x && type === 'topic') {
-            row.summary = clip(x.description, 140)
+            row.summary = clip(x.description, SNIP)
             row.facets = { tp: [x.id] }
             row.fields.alias = [x.category, x.id.replace(/-/g, ' '), ...(x.summit_tracks || [])].filter(Boolean).join(' ; ')
             row.fields.facet = x.kind
             row.fields.body = x.description
         } else if (x && type === 'place') {
             const inside = x.located_in ? byRef.get(x.located_in)?.name : ''
-            row.summary = clip(`${x.kind ? x.kind[0].toUpperCase() + x.kind.slice(1) : 'Place'}${inside ? ', in ' + inside : ''}`, 140)
+            row.summary = clip(`${x.kind ? x.kind[0].toUpperCase() + x.kind.slice(1) : 'Place'}${inside ? ', in ' + inside : ''}`, SNIP)
             row.fields.alias = (x.matches || []).join(' ; ')
             row.fields.facet = [x.kind, inside].filter(Boolean).join(' ; ')
         } else {
-            row.summary = clip(p.summary, 160)
+            row.summary = clip(p.summary, SNIP)
             row.fields.heads = headsOf(p.md)
             row.fields.body = `${p.summary || ''} ${plain(p.md)}`.slice(0, 8000)
             if (type === 'article') row.extra = { date: p.date }
@@ -120,12 +124,16 @@ function makeIndex(ctx) {
         count: ix.docs.length, fields: ['id', 'type', 'title', 'summary', 'url', 'facets', 'extra'], types,
         facets: { topic: topicName, organiser: ORGANISER, country: countries, day: Object.fromEntries(days.map(d => [d, ctx.DAY(d)])) },
         weights: Object.fromEntries(Object.entries(S.FIELDS).map(([f, v]) => [f, v.w])),
-        syn: ix.syn, shards: Object.keys(ix.shards).sort(), docs: ix.docs,
+        syn: ix.syn, shards: Object.keys(ix.shards).sort(),
+        // the summaries live in snips.json, one per row in the same order, loaded only for the results shown, so docs.json, the
+        // first file a reader loads, stays small as the site grows (dev@PrompTugal.dinis, 17 November 2026: 333 KB with them)
+        snips: 'snips.json', docs: ix.docs.map(r => { const c = r.slice(); c[3] = ''; return c }),
     }
     const files = [{ path: 'api/v1/search/docs.json', data: JSON.stringify(docs) + '\n' }]
     for (const [k, t] of Object.entries(ix.shards)) files.push({ path: `api/v1/search/terms/${k}.json`, data: JSON.stringify({ v: ctx.VERSION, p: k, t }) + '\n' })
     const bytes = f => Buffer.byteLength(f.data)
     const shardBytes = files.slice(1).map(bytes)
+    files.push({ path: 'api/v1/search/snips.json', data: JSON.stringify({ v: ctx.VERSION, about: 'The summary of each row of docs.json, in the same order.', s: ix.docs.map(r => r[3] || '') }) + '\n' })
     built = { files, rows, ix, stats: { docs: rows.length, terms: Object.values(ix.shards).reduce((n, t) => n + Object.keys(t).length, 0), shards: shardBytes.length, docsBytes: bytes(files[0]), shardBytesTotal: shardBytes.reduce((a, b) => a + b, 0), shardBytesMax: Math.max(...shardBytes), shardBytesMedian: shardBytes.sort((a, b) => a - b)[Math.floor(shardBytes.length / 2)] } }
     return built
 }
@@ -180,6 +188,8 @@ export function validate(gate) {
         for (let j = 0; j < list.length; j += 2) { if (list[j] >= docs.docs.length) { out.push(`shard ${S.shardOf(t)}: posting to row ${list[j]}, past the end`); break } if (docs.docs[list[j]][0] === want) found = true }
         if (!found) out.push(`${want} is not found by its own title word "${t}"`)
     }
+    // the summaries file lines up with the rows (one per row, same order)
+    if (docs.snips) { try { const sn = gate.json(`api/v1/search/${docs.snips}`); if (!Array.isArray(sn.s) || sn.s.length !== docs.docs.length) out.push(`${docs.snips} holds ${sn.s ? sn.s.length : 'no'} summaries for ${docs.docs.length} rows`) } catch (e) { out.push(`api/v1/search/${docs.snips} is missing or not JSON`) } }
     const big = Buffer.byteLength(gate.text('api/v1/search/docs.json'))
     if (big > 400 * 1024) out.push(`docs.json is ${big} bytes: the first file a reader loads should stay under 400 KB`)
     return out

@@ -2856,7 +2856,7 @@
       "role": "The identity of the Lisboa site: signs data/by-place/lisboa.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the place agent's session; private halves stay there.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApo7vA5A2nDj7SjdCy2Zh\nRh83n51d+gMVdDPAA3k8KZ+O4/UkEQrzRZIm7VrKmSqrOVnW+1UN3ON/e4fWpT/h\nzGmC2nlljGRafTFz0b8Wh/OlC3cLmDlWxUq4HxZ63ZYYZcZff9X5O9OKYV66BDSX\nJOVoNARu6/cEevRiKOqMuLsndomaUazJG5WRfABy4JxC6OCQkBVMYDOidWqzGA89\n96sKHBGlbaMEb8quR1cBw3wFaGZ9MrXgT6qNPcsYXEQarlZnNBemGAySptpNK/7z\nIVxenQnE9UkR8QzJx98iXtGIteCr/tQDU15AI4L9iZ4MmFFo44xEtrhEqDWep3Nl\nRqQi8yyVof2qGoIAuRHBXDJeoZddwMAVNHbLh+Q8Cga9kMAkZeRaZs99YOJlGR1J\nGQGYsHSFlgtyOo8KSNa/8nAkYNIAKdpmUobM8I5euKdhEhW5Jv5PiJoBCIVHlIti\n6XWgVeG11mQ3nUg+HKh7VCU/sGq8DN/01NVb1tEGmk0aBs0qSYNNeQAjRaGpLcbs\nLmvXF+v+Gr3wPKlGHhSVrZbvoWls4iYfV4ANdz80RljEjW/mRJRLfc18kWM70HBx\nVxIui68T01ck+RTEHEOgw8pZ/Eg2OnWplOJuYerb9zQ/VD+mWLI1D09kMcXZWRXd\nNehITnA7Owq1/ejUP+JjKFMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2865,7 +2865,8 @@
         "fingerprint": "sha256:087f637a421a2002",
         "record": "sha256:f4b0ff0e02f68a66",
         "signing_fingerprint": "sha256:f4b0ff0e02f68a66"
-      }
+      },
+      "superseded": "2026-11-17T00:36Z (second place.districts@ session)"
     },
     {
       "id": "site.porto-promptugal",
@@ -2876,7 +2877,7 @@
       "role": "The identity of the Porto site: signs data/by-place/porto.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the place agent's session; private halves stay there.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtsbrVnjef6dMj7b9EAU5\nZ21Xmxf37Vuix4ZtTq7/lVbsbTNP8jjO706JrtbSeBBMajN9bUNdjon93UOG4S2/\nvucskqWvhYIxuf/fg2aGz+XmvMrrIsrpAuvny9sgrtKlcS2uygYU5RdYxgTPUlnl\nviYzlTGz2XVx4BmBduvMnPlcmbf9X8uw2Gx/JwwOg2PMiRy73adUdXSGgh0OzQ7Y\nhS0NyUcl1UZkv1273ZUCERlYb1gE9fmSTitU/rOQknygkYc4Eeml2AeFEkMlekYF\nSXGL8Ke3B1xRIfwAty+O85wDAJkH762OjcCBxGiJ4beCibOYjBLoMY+DtghRm6Gm\nmm7XgmMYxp0hePgyJXyQHW2PruH3aXKHi2ew4FcuU6Xu03P1AuFwD2lQg1ldjO2J\nlII0L2noln/fb8tMJaC/GkrirJOLhFtOfinPjqZG6qbls8TWF9JxRoV8SsAoKHYh\n+YbDmnjykXtPUnisnVPfjZW5kDcl6MNFH3XvIEJ7twbLpBjiFUf3mzJyLgi8iOCZ\n3PVMkbEF3SKS6zfbOfD2ouNwiD1fqTVLvVysG8lZNoVtQCfD7AgwcZ4QG83Rg4J8\ns1ZvwTZtGdeu2HG6vyZMNG3HTHHkiT+IIhuTz4hmI14bHehwyoF3dP9Ryavyto5D\n2A84W1sDaESiXyOVbM61ZWMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2885,7 +2886,8 @@
         "fingerprint": "sha256:298bba5b6cbd7856",
         "record": "sha256:32dcdc45681ebadb",
         "signing_fingerprint": "sha256:32dcdc45681ebadb"
-      }
+      },
+      "superseded": "2026-11-17T00:36Z (second place.districts@ session)"
     },
     {
       "id": "site.braga-promptugal",
@@ -2896,7 +2898,7 @@
       "role": "The identity of the Braga site: signs data/by-place/braga.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the place agent's session; private halves stay there.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA3gb3q4ewDSbsmK6JwhBK\nmm44YOqhjZ0qO7NsLoiKHIB1oxt+xqXree5sqDuRtY0AiPhklpXBo6I+15A+nF26\nUZLV0EvruObpFIAmT6NLO9w+XO9OzbtNzXU7TsbqOfOru+krpiIFPs4mOupYPL/t\nQpT+2LYo7nTlQLXcMn5usvjnGvK3mRqKs68EFaNkBZoNUvQDD0owg7PKB/i2Kd50\nQs3CUxWc0vKDMGeWH6hJ4JEUAi1OefZfcHAml5yxF/hvfxw8l9gSxjvkQ50GPrBp\n1CUBkEWMOxsUT2b+pxrM9VsmdWCLeBI2mlEw/bNiYfps4hK+0n4B0w7eYTWzuQok\nN6wP44dympvi42sbTTzeR5YbyvKJy5cAeL3LqWbyzGEnl5iuUEHOqFJYRARrqwJW\n3e/22KdGFbToSoJwS7Ta7Kd0z99rAIJwiSy2eABt1Q6hD9o7jc2j8QoYVXHpnqt8\ntl5ZB+6boGJVvBFtwWUacbB3ImqhiN+swTzvNje9H3dBBJoep/MfHm4ionarFNEd\nP45mvELd4nbQTygZmVZQkgv0hy3PnNZLBGLZStUTZloQI5+QQ8bYdZ5pCxrG1JmZ\nJbgdOIspnX5JAV9EEgb70zQhdsNW8u69MM5O5kRrvnohcKIQnJP3T6wzhNHRHXcC\ns4RYaEplNAAgNIgfCcBi6MMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2905,7 +2907,8 @@
         "fingerprint": "sha256:d578904e3527f26b",
         "record": "sha256:e28741c6be4a2991",
         "signing_fingerprint": "sha256:e28741c6be4a2991"
-      }
+      },
+      "superseded": "2026-11-17T00:36Z (second place.districts@ session)"
     },
     {
       "id": "site.viana-do-castelo-promptugal",
@@ -2916,7 +2919,7 @@
       "role": "The identity of the Viana do Castelo site: signs data/by-place/viana-do-castelo.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the place agent's session; private halves stay there.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAlWVy9NmKPN7AJebSKbDb\ni8Z/RWPnTeEzJws+K6pZCLOZWrnaWLNxGff5DuH788PfDVeiDyxzFgKKgu1JhQAM\nS8sLnk3bw2U9Qqmd2b8ayvl9deTTcq2xTf7x/bHfcEiPWC1OmR5nibXVWLZiNyjy\nQdhyftWBgqOsYF70lJjjmFMsjSbK+CwfrKd6HugAnii3QyjJGJOPecc0x3cn8eC1\nwgUl56Lb9em4CT5KjatkO6RCkXbBEDQAG6tLTJ/2bDDkYG3786VFnNJRnSjyNHVa\nbfdE9q0Fnj9l+Vt80HK0mERqszR18qRXJQ0xbh0Yf1g5ubGUJItbdBo+NSPr1CCr\nXL0L0JbP7QxDVxC3HEcItopF4oMaXCbGD9MXvHEipMbFnhljwVHghnEdwDGMWJPu\nwKl5GLX3kJ98OX5GUqz2WxRXj4sBXFZwi+kZPc90yWJBLReJ2LfCFIfAPhaJN9ac\nCqxJdQuBY8i9ysxl/IAJZflsmdvqeIGZ0JZncieRDl2JYgqgjI3xaYn2ieQJWfLf\nKCwU1tML4qJmgyAaTxZfZYCXmToIYNNhHH4Dp6P68FstjHxq4sDzIasD+8OCF795\nT3GZXAJt3kz7DWZqJYlHugbJsHt7kQ0xjEGUaZzuw68y2s049wJTrjBVqC4k7eIR\n/0aZp4p12IbkvLi8eRwycf0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2925,7 +2928,8 @@
         "fingerprint": "sha256:41623c6c21221053",
         "record": "sha256:f957f57b8be00bf4",
         "signing_fingerprint": "sha256:f957f57b8be00bf4"
-      }
+      },
+      "superseded": "2026-11-17T02:36Z (second place.districts@ session)"
     },
     {
       "id": "site.vila-real-promptugal",
@@ -2936,7 +2940,7 @@
       "role": "The identity of the Vila Real site: signs data/by-place/vila-real.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the place agent's session; private halves stay there.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAlVwenvOyKc51cj7x6Gb9\nDv79JTPJuAW2pRUSfRQe0jqqijma9daL7D/wmoSN8CAUOW8bJQA58mxCHa1mt9fr\nXfvJl6A5yOhwD6o5g5gB82YigpS5taII99X4mwgkgsj/LHtfkWDcgm0cZKJnMaGB\nyuprxia8bs4WDNAEmDByvvK25V9l9lFCOtiuw3EfNuOPdJHMjmxEr5/OSuq1sNXG\nPvVRBRdFiuwn2bPp3e8tNU91B+3GAMlz+Q6Cv8p5ERyWWjBN+u/AYs+VFIRfHA/2\nz88NdfCJ+MnbjW4k6+ssq5WDkSi6mdlZFI0Lyxm1gFdtO9npyah4MAiDz9AHwcUj\nzITEtHbQHUgx90n94VLKyHbi1wDCU6H21CTLHtOMIDZcTBSRNVYCVnsCJRUNNzon\nUHkSLgAJ4S5WdBhW6F0PHfpfQMUDci9dLqYDtbMpZXt7mT3NeiddQxxHlGLz9tkL\n2sx6V9WhFGA2YDChLFfaJrsavSJ46E9OaDQSsO+MYG3P++4Zr4NgOtc0UqtgyYcv\nH+8zZCCfwt1wh1jGH+iMCBiwfDZSeHCCFz1PrajPcVndh6Ginl2cDyEGykRDmayI\nzj7OE+BFRoxhIRmdE2SP8bGqNL0DM6E+uc+VPJ78sDpSImkiMnGAt2kzj3/RsDZR\nOrB8zMSa3y4fWZ1gVx5Ew9MCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2945,7 +2949,8 @@
         "fingerprint": "sha256:ee9f527e6489f88d",
         "record": "sha256:d8f241eeccce43d4",
         "signing_fingerprint": "sha256:d8f241eeccce43d4"
-      }
+      },
+      "superseded": "2026-11-17T02:36Z (second place.districts@ session)"
     },
     {
       "id": "site.braganca-promptugal",
@@ -2956,7 +2961,7 @@
       "role": "The identity of the Bragança site: signs data/by-place/braganca.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the place agent's session; private halves stay there.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA56YX6f3V9OsHCY/fLW+8\n93ry2ITsASePkxzZqS6UaJA7/6cETv5o/FWIpzMC7CHyAsnuXCyhPXtX9hVaN6E8\ndEGwe/Zz5O026lTBnJLlwFvIABOH0UGtRfYBEluIO+sLRSY2aaHrvBibt+sVXj5G\nm1NMJJYGiaITnpzlvs6+MIZE1i6zdXOZzzjIC9BWJSzyK58ggyY5BE0ZRL32jWKG\nE4ul5fH9lrNLdx385LTjE14cztXOwPrcula1SOCSNh1YVDkKskYb/2esN6stMVRd\nQs6EaR0JJXRUtcUBHDzcEHX7MjzE882lfWsew43H4lObzJAPCDkfjuw8S0cFU112\nvu0MpBrJkOPFMp30Cg1qaGMxzhHyWUaX1H72ajtNprCOgWtSjCMyp5T9kdq2zJOC\nKQXR79EkXsNLcrRJ8sbYaJKga5u5cpQm8xD8zEC+FpW3NT8MTv4lLEWFdPnSmQ+c\nWUqEs8Kei25s7U9FxD98YePb7Beu3m45vez5rVFxGBnqUGP3Eq4DVwjcvUxGMLIx\nvEDg2Xo5Zqt5BjvSYhBVDJYLmwxokofpwp84ghnLg1I5Sz+a53NJ4R67GuTHjDcQ\nyK8/zJ99RLdJzxngCrigw65VnzN+1RyGw2e8p6DXQVfTduQsjjfhJu+CLnqQUD8e\n4LG5wp2qYgVfncINNMTvML0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2965,7 +2970,8 @@
         "fingerprint": "sha256:0275a44145fa20be",
         "record": "sha256:bc2a10c19747d110",
         "signing_fingerprint": "sha256:bc2a10c19747d110"
-      }
+      },
+      "superseded": "2026-11-17T02:36Z (second place.districts@ session)"
     },
     {
       "id": "site.aveiro-promptugal",
@@ -2996,7 +3002,7 @@
       "role": "The identity of the Viseu site: signs data/by-place/viseu.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the place agent's session; private halves stay there.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAiQgPxhXOnniv57HthUMa\nXMA8SazvmIjWSTnaj+GM7ZqNDmbfJ7k20XDz0Y5OSK+Zq89tQxMyhKEwXLWX/rYB\nu2Ep6O/ZuOh/IH7vfuAeO1LjJU1ECPejfznsmAqs3ze8F3TD7e0QpqIJ2T7Z+rMQ\n99hPxCSf9WVJ7vPs8d9ExTzxCidW6Q/2pB0cOvM7GU/ztOowNRaO/x8C8oJyz2Ab\nHTM+SGiIXsunI3p9u6G7tlZGQSvmu/rfTepPJPdVlO8376dHuL3hZRt/L/S5vdwp\nbdjittaRFXIFQUMCOr016OWvVc9kTHbS10jLJBAV3ZPghK1muDxGPgfDCkxavHyb\nWcgtJCWY+6vDhbxobCcvwnXSAzHaUpzu6JGoztuf7Et3E2UH8Zq/duNYtE6nRn67\nIkoqrKM78Tm8/mwNBsaq4Wp5DgorLsL4nqAT1oJSfxGYxMiVSvtrEw7CCuajVHjV\nHU2fhhqAaXwl7GA6DeduR0qXRkTRK28ZdvNYqelRfsHGHRo0RwuBk0lIWZc7/kkG\ng10oxF9I+LjBWWDBWlQzkrwqbjM6I2czSXkwuOpaX9RhOQ/6i3IL+jjVYrb/3xra\n3u4GtYE2HK8MlmsKWus5Ty0OabFQf6OqviI5SJx48Fej2+xsJHs4zdlXKR0f7i8p\nLLvwA8wcOsbiUzyY7lAY7+UCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3005,7 +3011,8 @@
         "fingerprint": "sha256:a04b673fb10ea77b",
         "record": "sha256:619d9bc658ffb7be",
         "signing_fingerprint": "sha256:619d9bc658ffb7be"
-      }
+      },
+      "superseded": "2026-11-17T02:36Z (second place.districts@ session)"
     },
     {
       "id": "site.guarda-promptugal",
@@ -3016,7 +3023,7 @@
       "role": "The identity of the Guarda site: signs data/by-place/guarda.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the place agent's session; private halves stay there.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqbTd35mstIgaiXUAVn5R\ni/jgVi4omDdaa6pjCaqaS6rDuS0Nw3B1lEdX7PezNM+30udiM8eTGRpl+qUDcKHW\nU0h8Vg+L7/lAH51BzqqkHHvEJQkmmdBGEsP5j1Xl9Gk2oWcoq97xFw9FWPuv8ibE\nUevJ3FkKf7vKCYxTr5iIeQ6IhQO+QhoX63mLXCeW9B31b15ySZOb8FhfVdzVtQ9K\nFMR0Xw48ypMngo6Lrq6xCXDWuq8xFcj4Rf+qBAXir2gi/MULG2MTPj01yNa/5cWU\nqYnpREac3ZRTnVpMXZHHEAlIIbvASBAGeVIz5uZAnNrXz+3UepgaZHO6+qSxXjyd\n8/WXRuz70qRjQEP/k54IV5Q/I1dldxByWxLwwA7HVP5l34x+XiDMQnFqqqkZTl74\nhNsq9hIf5INbO4LeB5TjQi878Y7EOq4xikoE+mIrfvexkLF+Tzs8k+pnxxfF72vo\n1AQSd9kalSJB9xDSIWZHSr/Le9cgppFjPsd3BeXoO+/bSUh6JcYQkkUS0pmczMjB\n8++jUAwo2/4EI4wSCPMvTX88Smd3cGBJ8BdxDC2JYVuC61xoPXTPtb+bdPxhxgkr\n9B5R6mx4Ryw5Iyy1Oe/2axjfIfXlNq1YLJWGcjOx9G10aVmChbqNiyo6sYTe2XQp\nhrNf6QgS0N7rspidkfv4om8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3025,7 +3032,8 @@
         "fingerprint": "sha256:b22d25f9fe42916c",
         "record": "sha256:634670f6f582ced1",
         "signing_fingerprint": "sha256:634670f6f582ced1"
-      }
+      },
+      "superseded": "2026-11-17T02:36Z (second place.districts@ session)"
     },
     {
       "id": "site.coimbra-promptugal",
@@ -3036,7 +3044,7 @@
       "role": "The identity of the Coimbra site: signs data/by-place/coimbra.json. Made and held in the session of place.districts@PrompTugal.dinis.",
       "how": "Made on 16 November 2026 (pki-agent.mjs keygen --session) in the place agent's session; private halves stay there.",
       "added": "2026-11-16",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAo4k/PHKURek36fYcr/gJ\nxLO6Co/mq05OTbd5r0ABMMMh/6XCURwnK05Sf1RtUjI7CU3eEFReUAliZJhfv6VK\nFhX40xEcvZjhvpj/yfZY/NsGw2QA7kezQ3djCP/EYvF+DQAVTPg8cpeTx4s+NzOR\ncvFjf7HN0rgIx+mrmeLwJXoKe+csiWTgYNtu+f509aXRF+QyE92LdCsTTfFBmofQ\n1uvn5Eq7Dk//0JIkZWPo3GHwUp5g/77NXOgrLijRqccVO3n4vWzHO9VVipLzzd2L\nGXI7vwsUwIiFwECLzhAcRKSbgpIw7G5vHKmCHRaML/CZfF5SRvDEXwIkbDdA3iY9\nk60wVm4z2rIsT3DjxvUfoP7rozSJcGjvR3Es773udq6+ywwX9vPE9qM/lsORY1Hx\n/YsyGMdzTuaCccvUojG269ocMfr1eR00lTnWb5J8zXXtrrXCaPRrNbBF8KdESxVp\nC2INQGvjQ53KXw0faVAsh0Y7MIIAiCu11yEKM37ObFDTpmr5Wv7o8YkIRQ1x/gSx\nbOS9qBPYLVuLMnaKdAtbAaESE83Ryy6y6dAOWygs7UaML1GrqP1ETrIK6G2fO769\n55qrpULCVU38XucQceQ0Mjz6Vr9forjF+VpqCczRfQyCpcEM4o5Q8Grk3TWMkOO5\ndVtKqoNMFPrh/J5HlsRvoeMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -3045,7 +3053,8 @@
         "fingerprint": "sha256:d91d1dee9feaae5e",
         "record": "sha256:9ea54c94dba26b55",
         "signing_fingerprint": "sha256:9ea54c94dba26b55"
-      }
+      },
+      "superseded": "2026-11-17T00:36Z (second place.districts@ session)"
     },
     {
       "id": "site.castelo-branco-promptugal",
@@ -3667,6 +3676,186 @@
         "label": "site.algarve-promptugal",
         "fingerprint": "sha256:5b9117325d1d7f47",
         "signing_fingerprint": "sha256:75cd01b43f558522"
+      }
+    },
+    {
+      "id": "site.lisboa-promptugal-2",
+      "agent": "place.districts@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/portugal/lisboa/",
+      "label": "PrompTugal.news Lisboa (site identity)",
+      "role": "The identity of the Lisboa site: signs data/by-place/lisboa.json. Made and held in the session of place.districts@PrompTugal.dinis.",
+      "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt/AdCCIYsm45CJwJ//iC\nmYh8I+w0rRWMDnQkjHGlTaq405FW79Xy/h2Xci9MbgMeJ9LOAQQEGkOLd060fXUc\nbw40ZTxju5udWBmPo5rgQ2yaiizTI0fvlzXeoGXblmR6AIQ2YWDX54KEAxnav9ms\nfnS2Rv6F4q6UiZeyKviHEy37buonYyuy9yLhszAK+tvaOXCUHTtTcTwRESGa+mjg\nGQI1KzMgKCASYeu174NOJcqlHckTTRJktctZW4fj9lokY1NYEXxpFC4DrbjM7anq\n/TnoZqegEe+3iFjHXWRUYjhdtK2dQmw3hzlTKktmGJQr2KwNi2batER1CR6IR+yW\nsP/KqrRi5KeeKfg8whFsh7kMcdPRwl3cvIduzJEmOpsIWYy8Q1SuPUmbCB2V8qlh\n3T4PhVpctB2hd4HW0bEkgEW9+RkjsokpEoLZA/fzQpaQqssHKLtbvS7+2CV5FCm8\ntfgkBXH5lZTc+wQyegdqrGXuMaoFZ6+l/BGs0lD+fUSVTlSWc7g9SxIQb8vcBf0g\nZU+5swgdS8qXWX5JWJcd8/ibR7nuwWJ0tgHCcUCVmnRvvV953F07kgSlARGuvw9q\n0G78AVxkKf2lpz3GLOhNMasaNRrf54DcKMZJ7UTx0muKwsFzFw99SuyeuT6XopCM\nYo5DpnyfogktaGkzf0VOuc8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEbmJCv4QLYZ2lSPtJX+XN5Tgm2az9\n3vFizsZbHZHcHcMnImevwXAZPzNVTRu32gdzoHi9p50Aif1TpOjXz8sIBw==\n-----END PUBLIC KEY-----\n",
+        "label": "site.lisboa@PrompTugal.dinis",
+        "fingerprint": "sha256:516897d10a8dda80",
+        "record": "sha256:c5bb62c683a05683",
+        "signing_fingerprint": "sha256:c5bb62c683a05683"
+      }
+    },
+    {
+      "id": "site.porto-promptugal-2",
+      "agent": "place.districts@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/portugal/porto/",
+      "label": "PrompTugal.news Porto (site identity)",
+      "role": "The identity of the Porto site: signs data/by-place/porto.json. Made and held in the session of place.districts@PrompTugal.dinis.",
+      "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAujS15dR4QugqXgEIrpJC\nZ8bLd8ujys/ZQunurxnSipkEdBstnggCcFrvTCnwrhXGkkB323MckvtCO1KopOra\nLIEqj+UDG/yzu89U/4DqqoWPdgTDseGBdgR8cgYvT8WU2XLP/NQ6Np1rYpJ+0qbJ\nMGJ/Guuro4VRlTcQwvHCxNNmZ7kN5q2MDR4ajlhSg2wA2bx+dcqb7K+MQE5HYFRd\nqX83myQ/+iTh9xrininEYu1UctBm5AJwWOoNA6uF0gjb9c2x6mtp/I1e+9pddw8k\ncjTBrAxUMAnI9s+YPi0nrh5/QfaCwU6I4ZxY0M/a/HkQhRYyB8WBtYEvN13N98bZ\nhh4w2gaKC1R+TbF7vxvOxaRXyPJqzfypck9htyYeFwmh9Zl6oDMyqr7wIUEYlhi6\nvr1wcYRBgKwcGiz7NaNKQH1r6BklqpVKkVRyzq39RJ3IuMGgrlLfHg/rzxlkKJY5\nbnDnaiYjSRY8JeEEvHrXjC0zulgyzAROtvYmWK240m1bJs8vfta53AIk2FEkJhcd\nQlk9eArHe2lWAo5mB53Ay+5VQ7TxMTmQmi5zJRbI0F6YPMpExcyrOlcmi7L88b3m\nC6zkYM9A2SkyilrRR4Gv0Zf/BYzu9k6N+9PMA/FebcMkuf1uE9r6PW0GNRyUxEet\n4rnFIughsrYpashoCoaJy10CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEEF3DE4Uq96bRxO77zAIrKQh8kdMj\nA/ejobY0IUTjHDgtUEZ8xlVfb/uYMffWNL9NutVJ+G27VHt9AZlf1kET1Q==\n-----END PUBLIC KEY-----\n",
+        "label": "site.porto@PrompTugal.dinis",
+        "fingerprint": "sha256:84fcbbf6f8d06d97",
+        "record": "sha256:cfc4aedfe28ebaa4",
+        "signing_fingerprint": "sha256:cfc4aedfe28ebaa4"
+      }
+    },
+    {
+      "id": "site.coimbra-promptugal-2",
+      "agent": "place.districts@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/portugal/coimbra/",
+      "label": "PrompTugal.news Coimbra (site identity)",
+      "role": "The identity of the Coimbra site: signs data/by-place/coimbra.json. Made and held in the session of place.districts@PrompTugal.dinis.",
+      "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAno8ipVc1RhMDi8qMbBkS\nSJd1qAXts4MheGDCNtTY2sa2DQgEIB/Bo14gQttllsUexAptF3giikO/ddSYSOx/\nLPdvcJQfMN4epC/RLD2l1Gmdm5dxNs5XMua9w4I45xkeDhVlpPpKHVOPgW4v5dAn\n3uHiOSWQHjdGMEbXFLTImG26hb/Qgt8Hj00BrEfEHfRyv9cWW4KV5mIKUhaOXTi+\nyXRxWBiVpFQc1+EmVYzcNt4LZ/IbHv066Az9yWjaf1A0scoNlEJR8MT7phLXcfar\nd3+uisjc7Hi4SqkYrEclEHuQ7ptw8lcI2gxIhcgQC8IWPsZgAXdm+wU1P+kc90ZR\nRv/dufHgEnTllkkNVbZVLls8/R1JrgjYwh5pC9CuQT4ZIuoCbUnFWdPiyfGYs5J4\n8nct744qCeCooZ4E9ZpZfbhU5IsR27CZvVQ6/saoG2jsT9SXuHCSlVZFwwxTz9g/\n3bx3nkWeTCKnlGYj09bq8Cih3DdTzf7yX8IHhY8RQVhFo3N75yuNlo+jejKUw8Ao\nUqlfH0f7SgxvByxe5t+Yzu9AjD7mEm1pWBIp/MDP6K8Nzk2G5qPIb90aldZWktmt\nCQnwDknh7g8fXIqPRBHVIIOkhpKztWjKsi/9HNfKatAqo3dLm0YSlhRMmSfNsTOf\nehPXzzPd1VUP7U7e21xWOFsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEjgORwTjAREYGRVUVkBAb7g+G7ZBz\nthVcXWBy+qyZn0Nb/ICt9yPBNNGeXR0wxBMQalLVuQjRdgtS3J4XitK7iw==\n-----END PUBLIC KEY-----\n",
+        "label": "site.coimbra@PrompTugal.dinis",
+        "fingerprint": "sha256:12e7caeb65ba719d",
+        "record": "sha256:0bf47b5ebac5cce2",
+        "signing_fingerprint": "sha256:0bf47b5ebac5cce2"
+      }
+    },
+    {
+      "id": "site.braga-promptugal-2",
+      "agent": "place.districts@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/portugal/braga/",
+      "label": "PrompTugal.news Braga (site identity)",
+      "role": "The identity of the Braga site: signs data/by-place/braga.json. Made and held in the session of place.districts@PrompTugal.dinis.",
+      "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAkwdRc+zmltFFqnxHwZgu\nnGjFbfkudS8RubKaGIjtzuw5OHV1G70a6C1Id9XkBOYWZBrFYGJkIWOLw/p87wAk\n0bErOYdLKYbw9rftoLZQ7cp7VQDngmRJqFREoKi/ZdcM8jr9zwHqnu5KtiyDpUNa\ni1EFUapXorSgAAkTBo1GC16DhQrtw45HAgCjSkiTeeAG5ibenEBzt0vPYADVGtAO\nBlQH60AVq8sI1on5zKDHIYVtyHdSKZ0ckjm5FFoj6DjMT48T74OsOSZgSyyhljbb\nZ77K3D1GLYZ6jSQSYOJavDJQBs8Hj3/pMEtIgCjP7c0naOLjn5M3t6GF7kW4Vo6M\n2QRvEJW78WXr+WT4qyGQl/zeZvdU5XhQFq/nef7ifwSWivgFJkSgrYKu28WUolxd\nEsxjUse17Bg+TRHSWaL9SljkTPOR73omWFOOcCXRLSaCvvrgabGbYatip8doMTp1\nBVH1TQHHw2X0kT5IgE6Qp7AGpaCQKd9Sj9LNPWMsbi7Dd5gZmAjibv47SYPv4D1p\nb2YfG+7Tthcz7x9s+huJgfMOjPp3bdqnnerOsqZAqzrtUiYa0MIC+0qni9kH2Us6\no52g6KSbBUJWwKOnKlGddFcfWrRkjUc5+egyxkeD2z/Pm+WHDH6j8OpQ2SweGD59\nC6ddBaDCoMZm5KPjK4uMXbkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEMa+i3cZ+CZSsY7gJkXyvK67X9JrP\ndReb6Avk06rfyg5YSsPsnT5U2fSafTmtOXk5CkPB2Mk7JBfBwevalmDXgg==\n-----END PUBLIC KEY-----\n",
+        "label": "site.braga@PrompTugal.dinis",
+        "fingerprint": "sha256:cf197e6f8b121334",
+        "record": "sha256:7e1d34696ce83a09",
+        "signing_fingerprint": "sha256:7e1d34696ce83a09"
+      }
+    },
+    {
+      "id": "site.viana-do-castelo-promptugal-2",
+      "agent": "place.districts@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/portugal/viana-do-castelo/",
+      "label": "PrompTugal.news Viana do Castelo (site identity)",
+      "role": "The identity of the Viana do Castelo site: signs data/by-place/viana-do-castelo.json. Made and held in the session of place.districts@PrompTugal.dinis.",
+      "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAspAxpJqpevDY4EOVmZSi\nmk7wptPAkP03rntcYYCPvpc29Dl5XBYvB7yjtbs1cCTMYEvUJb4C1PD/oJvI4Vzv\np/spPvDwmO4hOULMKhsKUGfO74D0jKtrRDkRbk7X/kbTPT43NtHvSeimyzuXJ/qY\n3PLdX/3vPbHcLsFLZ7dC8chaChqD5TtYjF1IfbJqzAipbgh84sU9RiKtMBGheKrT\ntT7reLPyijGXok7AqDS/k1o+UYyKwTtZoEmf7zWNRZBLkplyqxott4Qz/OA27Ws/\njepKQVK+UTrp05SBw1UutPqIobXiCtONNP6XATO04rJW9dUsYPfmW3T7SDipNuVY\nJXUpJDcub7lDnQJtY/6NiXpt206g+M3MdxIre7elN03ozqc8EtRTNf4oPqb4OwJ3\nouZhyn70PJqvA6UBKg3JS7zCMAXDSjw9kizJ/+2C9xCh9SOkV19aMfpitFO4FSmi\nwt2pT3XvrEDAWD83ujko7YBpCodEDmE+5JAtmsYJq+3e22U5eBxjlkr1sWmZJgQ/\n6zv4agTDNxfNW5lJ34GBgqts3lJwjVK/MGNn5xf4gQJtdmEsF+1/dtdyNP6ZLU1D\nlZmeXIKposdwqYyVWXEdZYS6eY4gPNa87REt8QQ7xop+lP1UCvIdvyYZEp+7nxzx\nDOMMxnz3cZ7UtyN102ArFU0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfiFLYLphUkpNOIF4lV7rL/29gjve\neKGCMYplurSE4CLX2sRQVvtmXTSCXk+fAoNb0S5kzI6MqmL/fgei0BmU0Q==\n-----END PUBLIC KEY-----\n",
+        "label": "site.viana-do-castelo@PrompTugal.dinis",
+        "fingerprint": "sha256:7f8069f310971ce1",
+        "record": "sha256:59e714b989cbac1f",
+        "signing_fingerprint": "sha256:59e714b989cbac1f"
+      }
+    },
+    {
+      "id": "site.vila-real-promptugal-2",
+      "agent": "place.districts@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/portugal/vila-real/",
+      "label": "PrompTugal.news Vila Real (site identity)",
+      "role": "The identity of the Vila Real site: signs data/by-place/vila-real.json. Made and held in the session of place.districts@PrompTugal.dinis.",
+      "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtFNzl/8yslZz64vwjhr5\nRSCWApef6kTc3fGkBkRCxZ+REjFcBI3sT+7LfMkViNLXQVD0RST5m/G5A+GtVOTY\nuiGOOg6enzq+A0w5o2Eq89lsPI5r1HnKTFJWaF9THYgJk4a4DGxNVgkMfYseSWuk\n1xB0TLEjWzWhnKuIXR8o5eBKBwESUolR+Cp5tmhVNkYHjH/2pvcmZyWF2egCQs70\n1mK4zh3mBw2iVbmMoxy9N8WzrDPSM+MY/6JvDIFEzHvXkD0R+t/kguZ1N9VD2B45\nej/K6WHEmuuKpyTPAM7JybI4r/ZTpK8GBlUHoKm8D1mfTv4bgsk7FyJklpb6mmCF\ngSQEBlpPiiHsybRsW3liFNOBmGUDxdz9+nzLwlT4MelmB/owaL+3MKD9zwa1vm76\noYEKb1J+OhNA5C8fUIEVUlZBuQZH0NqxkSComyzhriKbc8jkagJbvzHEyfFSY9f7\naFDlPWNZKLVr7ZsItXtFjCwkECukCUxOtV4Ob+ca4BveLtkPET7V/9Z00nb48RgU\nmFQJe5pOPmOgz75NtkLVsySbHgt3BzoGuDqyDRupG89x4MRHDrJDqoM6ywS37Xe2\n3bTfbRXDKMtKKTSaKU5bvw3sPBwgggFADYDyA7i4H30d52sRzF4LG5fYkU/2ivdN\nCdWYKjNNPW03TyZw1ruKS1ECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEbn2fBPqdJ5O8NRq2+1hNcoGv/ekZ\nwbZY7Sw0S/IsGlg59/pS+cOXFz1wJgdj7BvY5mJlqQGFfHIZIdITYzdFpw==\n-----END PUBLIC KEY-----\n",
+        "label": "site.vila-real@PrompTugal.dinis",
+        "fingerprint": "sha256:b61ccea017d1cc0f",
+        "record": "sha256:f8861ff853d44c5a",
+        "signing_fingerprint": "sha256:f8861ff853d44c5a"
+      }
+    },
+    {
+      "id": "site.braganca-promptugal-2",
+      "agent": "place.districts@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/portugal/braganca/",
+      "label": "PrompTugal.news Bragança (site identity)",
+      "role": "The identity of the Bragança site: signs data/by-place/braganca.json. Made and held in the session of place.districts@PrompTugal.dinis.",
+      "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtmoyeMUdgmZJFg387TUg\nQY4GEDN/cFu0Jj6ZqvLk9MBOVZpg4iGRTT+f3stWZs/R952o72rDa0EjIJpUnaXA\njwZ8yz9hFbXbKt2XWRLZtG5hgN1FfCtNcHOPel32rSYyuo16rrhTbLI9vpNhf3hW\n1ROhCLPv13VcVyKz6DyHoGOoNaOpbHLCI45VFwwDSpIgac3xXjLe2bfycpsu8ETZ\nTYaaRRfdi+5vQoWQz/tDHx2T2HKt6yASBfgyM1gs0v8tNYQxX9vb0karECg7+TXz\neRpeWlsin4uzPeBBS6wi56Qonxf2InGmX+qbW7ypfSb4KpLRUfD7AGTNvwTrTPPn\nBWV8wFTPX3rexvGttANHVbTUFPJdgLoErF26Kg/YI5FAqzvklWENQV8KGTRkDDK/\nKrb5IcCO0hZ/vvcnGwmDIiKxL7DKmjpNEJzzsEPd4sddQIIpd4jg29Lkd87pnk2C\nSK1VQ+HQKQko+FehoCvUmnlIVMyJ/D65NnM/Q6qnOLFB5T011HnPWhu0D5blP+4W\nHojSvwBOC2P1Yq3EW7tNs6uafc12iVEyIvvPk174oEGXkos9CJRoVFZkNbu8GINl\n4rF7uyRLRBuFQb4y4hJXhn1eeg4eydP7+rFrzzmf9Ql3adTCjQk41glyaefUXNZL\nvteblcL2a/WW2vYqPXKbbRUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+rDrVygdN9r9wwsb4dkf/I4+WGvw\n2MC/Pt/r8jfmP2QO5vnHMbMvx6+PKPlmcgH/ILTVAScp/zyS1+7nMVeCSg==\n-----END PUBLIC KEY-----\n",
+        "label": "site.braganca@PrompTugal.dinis",
+        "fingerprint": "sha256:b556f6263e6cd2aa",
+        "record": "sha256:ba20d965d0fb71c0",
+        "signing_fingerprint": "sha256:ba20d965d0fb71c0"
+      }
+    },
+    {
+      "id": "site.viseu-promptugal-2",
+      "agent": "place.districts@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/portugal/viseu/",
+      "label": "PrompTugal.news Viseu (site identity)",
+      "role": "The identity of the Viseu site: signs data/by-place/viseu.json. Made and held in the session of place.districts@PrompTugal.dinis.",
+      "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAq1pkSQDqmEDcHZvTvQno\nvxLINFnGZBO0qm+fywWxSBPUKG5WUkGagX7o7lG76+kol/Kj0o16FTwvnrlGqlBn\nvRVpNELD5+5lPO/ti8L4i7E6ALz3xa0fWDaOzglqIujDg+l62ph+z1bUS4EwPsW5\nB+LhjpGhuCo8aG4c9CxvS45JmTRMn7gBlTEXu8KjCD01X58YW8u9otAdCRS86zId\n3YkECBRbE0MT6IGgdZiUA7u6Qdafy/JIBraOpPoXAUKEtnl2geaBv8oDI323W+7T\n7P26Ir8utLdOXS4xKzUzGivAbt+t7isYZhnleZtW/bTrTdLA6EGMeMdkDh2aMSP0\nTJaRPvnnagBnLYlUSG6ASKOHY1TesTUOMOvjiuodQBZztcymBeDgr6ZbLkPfV+DP\ngYBAb1uQ4Mly3auZOOZX2O01ikkaSFm6yeiy9426SESVLFNgLoOt0tc/zRAy+JE5\ncdYzTk5AaVPzpGCkLTlvajipjz+0Hin6hnK5Q0OuWsohkw2XydXLg6y3iPkUd19T\nEJmwDUeJvYSSAoOTO30UFhIJr8AIXbo8z0odpQxIEqLLOUkwffZmQeRU/laPmjQt\n6/i9cmD2dWUMgFqZEfpiD1dBU/UFWx2vPMb33MIdavPVKaJRHx5OJuSYyc2olht+\nEyEARJc8G/koJUvHh4syQHUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1w+HG86W//K6JVyxPjuga0BOWKMo\nBGt0H2snWT61hti3GBw2vzvOJzi/amL1IKX3NtroV1yzoYjSM+9FvC1P5g==\n-----END PUBLIC KEY-----\n",
+        "label": "site.viseu@PrompTugal.dinis",
+        "fingerprint": "sha256:ee560bd16b093458",
+        "record": "sha256:ddd8d9d7f3421ae2",
+        "signing_fingerprint": "sha256:ddd8d9d7f3421ae2"
+      }
+    },
+    {
+      "id": "site.guarda-promptugal-2",
+      "agent": "place.districts@PrompTugal.dinis",
+      "kind": "site",
+      "site": "https://promptugal.news/portugal/guarda/",
+      "label": "PrompTugal.news Guarda (site identity)",
+      "role": "The identity of the Guarda site: signs data/by-place/guarda.json. Made and held in the session of place.districts@PrompTugal.dinis.",
+      "how": "Made on 17 November 2026 (pki-agent.mjs keygen --session) in the second place.districts@ session; private halves stay there. Supersedes the first session key.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0h2d+8Dk0itp/mQbUa0e\nlL2mCbDsbEqr8KlfNQTtAf5ZAGmwT+LBbXTukIs3FaNIWbB8haDhuLbIfHJmPda4\n/sXVBOJag81NeclAykEUiPtH2qfM4qOEnT8jxEEOVSYpzrU9ILZ/SG2A+mT9bFYT\n2BjoQse7MiJ0YGwFK0Jge/r9gqL32PBVJwCZwu0uTZSpo6w90ew0APaGFJhYv1fz\nTKYLzb1R+b9YZQxbbjq+I4dvl5RQSW6OiaQPG8VPjLw+rc9gtiCHxg/9StEZQs6H\n5zeZDKUaPs7tEJyWQkDraizqbF0trGOFpWgrp7dLtANJu+xRZVO8xm1qV+DFJzud\nZgv4QCa08BfAUdgu09oM9RkoOhKVpZcTxCJbisXN0BMInPprlt2zNq4aCx433QX7\n4Xnx4ycWnaeFSka1MvMixFUwp4EZdlAZhRvuuG21N6ctGc5v6sgx21eEmQEnXgqA\nCEUjVz2t6Q7xPibGHUuJUiIySMt3nQKk5osGgEQcN8FEG7kSz9kGxHOqkthDk26o\npSYe78yCAjNXvkFX00eKeWObELg7lNcMhCGX4Z0sKNS0u2mcaxOEfR3xwzbz1ikM\nPH/hlMCV/0dlZh9NLd3NTIDYmDMXwCHpIN5METY9YhKL/lxgoYnKacmHx2WkcUaq\nyZbwaHWihsZSyO+xGXhcrkMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2S+6CUam0DiMId8cgyzWCtMGqxxb\n1TijYbQ59OVtOx+q47ibW+9Bemjy2Hpvs58fzpjuuKXSNl9LNLArNY46fg==\n-----END PUBLIC KEY-----\n",
+        "label": "site.guarda@PrompTugal.dinis",
+        "fingerprint": "sha256:8d6368eba1c399ed",
+        "record": "sha256:7e314600cd3c839d",
+        "signing_fingerprint": "sha256:7e314600cd3c839d"
       }
     }
   ]

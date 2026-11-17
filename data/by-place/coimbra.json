@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Coimbra: AI and technology in Coimbra, a university city whose centre of gravity is the University of Coimbra, its research centres, the Instituto Pedro Nunes incubator and the fraud-detection company Feedzai, and what reaches Coimbra from Portugal, Europe and the world. Independent; every fact sourced.",
   "gravity": {
@@ -39,6 +39,16 @@
     "motif": "old gold, student capes, the river Mondego, a hill of books and a startup scene at its feet"
   },
   "ai_news": [
+    {
+      "title": "Coimbra takes its first joint stand to Web Summit, with the new Go Coimbra agency and four startups",
+      "summary": "The council, Go Coimbra, the Coimbra metropolitan region, the University of Coimbra and the Instituto Pedro Nunes opened a shared stand at Web Summit Lisbon on 10 November 2026, with the space cluster Coimbra Supernova on the programme. The council names four startups on show: AirSafe, Noytrall, Sim4Safety and FiberSight. Meetings were held with Swedish, German, Chinese and United States representatives. The page does not give an AI programme.",
+      "date": "2026-11-11",
+      "publisher": "Câmara Municipal de Coimbra",
+      "url": "https://www.coimbra.pt/2026/11/coimbra-reforca-contactos-internacionais-e-aposta-na-atracao-de-investimento-na-web-summit/",
+      "read_on": "2026-11-17",
+      "ai_path": "A city stand for the region's companies, with an agency that lists AI as a priority and AirSafe, which the map lists as the AI startup AirSafe.ai: two steps from AI, because the stand is not about AI itself.",
+      "steps": 2
+    },
     {
       "title": "Go Coimbra, the new municipal agency, names AI as a priority sector",
       "summary": "The agency, which replaces iParque, was presented with targets to cut investor decision times by 20 percent, create 750 skilled jobs and grow exports by 10 percent by 2029. Artificial intelligence is one of its five strategic areas. The council announced the agency on 2 November 2026 and its own news page names four services: build, connect, invest and innovate.",
@@ -127,6 +137,26 @@
       "url": "https://www.rtp.pt/noticias/economia/sistema-europeu-de-misseis-vai-ter-tecnologia-portuguesa-de-inteligencia-artificial_n1662145",
       "read_on": "2026-11-16",
       "ai_path": "A Coimbra company building AI tooling for a defence system: directly about AI. Older than the 2026 items.",
+      "steps": 0
+    },
+    {
+      "title": "Coimbra hosts an international session on AI for smart tourism destinations",
+      "summary": "On 30 April 2026 the council hosted the second online technical session of the EU's International Urban and Regional Cooperation programme, on 'Smart Destination Intelligence and Artificial Intelligence', with cities from Europe and Asia. Coimbra presented three cases of its own. The council's page is dated May 2026; the date given here is the session's.",
+      "date": "2026-04-30",
+      "publisher": "Câmara Municipal de Coimbra",
+      "url": "https://www.coimbra.pt/2026/05/coimbra-destaca-papel-da-inteligencia-artificial-na-construcao-de-destinos-turisticos-inteligentes/",
+      "read_on": "2026-11-17",
+      "ai_path": "A council session whose theme is AI in tourism: directly about AI.",
+      "steps": 0
+    },
+    {
+      "title": "Coimbra council tested IBM's watsonx AI to sort its council email",
+      "summary": "On 28 June 2024 the contractor Softinsa, an IBM subsidiary, presented to the council the results of a six-week proof of concept using IBM's watsonx platform on the more than 4,000 emails a month the council receives, to route them to the right service. Older than the 2026 items.",
+      "date": "2024-06-28",
+      "publisher": "Câmara Municipal de Coimbra",
+      "url": "https://www.coimbra.pt/2024/06/cm-de-coimbra-testa-gestao-de-fluxo-de-e-mails-com-plataforma-de-inteligencia-artificial-da-ibm/",
+      "read_on": "2026-11-17",
+      "ai_path": "A council testing generative AI on its own service desk: directly about AI. Older than the 2026 items.",
       "steps": 0
     }
   ],
@@ -245,6 +275,13 @@
       "url": "https://www.ipn.pt/en/evento/coimbra-we-have-it-all/",
       "read_on": "2026-11-16",
       "ai_path": null
+    },
+    {
+      "title": "Digitizing Historical Libraries in the Age of Artificial Intelligence, symposium in the Sons da Cidade week (Colégio da Trindade, Coimbra, already held)",
+      "date": "2026-06-17 to 2026-06-18",
+      "url": "https://www.coimbra.pt/2026/06/sons-da-cidade-regressa-a-coimbra-com-programacao-dedicada-ao-patrimonio-e-a-inteligencia-artificial/",
+      "read_on": "2026-11-17",
+      "ai_path": "An international symposium on AI in preserving historical libraries: directly about AI."
     }
   ],
   "ai_map": [
@@ -312,7 +349,7 @@
       "name": "Câmara Municipal de Coimbra",
       "type": "public body",
       "url": "https://www.cm-coimbra.pt",
-      "what": "Named in the first phase of a national pilot of AI in municipal licensing, the mayor saying AI must not dehumanise public services.",
+      "what": "Named in the first phase of a national pilot of AI in municipal licensing, the mayor saying AI must not dehumanise public services. Its own news pages also record a June 2024 proof of concept of IBM's watsonx on council email, a 30 April 2026 EU session on AI in tourism and the CoimbraCityLab test programme.",
       "source_url": "https://www.rtp.pt/noticias/economia/governo-avanca-com-projeto-piloto-em-municipios-para-usar-ia-nos-licenciamentos_n1766366",
       "read_on": "2026-11-16",
       "ai_path": "A council testing AI in a public service.",
@@ -332,7 +369,7 @@
       "name": "IBM Portugal and Softinsa innovation centre",
       "type": "company",
       "url": "https://hrportugal.sapo.pt/?p=312904",
-      "what": "Announced in October 2023 a centre in Coimbra for AI and smart cities, with a protocol with the university and the council. We found no later report on whether it opened.",
+      "what": "Announced in October 2023 a centre in Coimbra for AI and smart cities, with a protocol with the university and the council. We found no later report on whether it opened. The council's news page of 28 June 2024 shows Softinsa presenting a watsonx proof of concept on council email, which is a council project, not the centre.",
       "source_url": "https://hrportugal.sapo.pt/?p=312904",
       "read_on": "2026-11-16",
       "ai_path": "A planned AI and smart city centre.",
@@ -341,10 +378,10 @@
     {
       "name": "Coimbra iTEC",
       "type": "organisation",
-      "url": "https://www.ismt.pt/en/news/presenca-do-ismt-no-ciclo-de-conferencias-tertulias-2026-sobre-aplicacoes-da-inteligencia-artificial",
-      "what": "Organiser, according to a search summary of an ISMT news item that we could not open, of the TertulIAs 2026 conference cycle on AI in industry. Treat as unconfirmed until we read the page.",
-      "source_url": "https://www.ismt.pt/en/news/presenca-do-ismt-no-ciclo-de-conferencias-tertulias-2026-sobre-aplicacoes-da-inteligencia-artificial",
-      "read_on": "2026-11-16",
+      "url": "https://www.ismt.pt/news/presenca-do-ismt-no-ciclo-de-conferencias-tertulias-2026-sobre-aplicacoes-da-inteligencia-artificial.html",
+      "what": "Organiser of the TertulIAs 2026 conference cycle on AI applications in industry, according to the ISMT's own news page of 3 June 2026, which says its vice-president, a board member of Coimbra iTEC, attended the sessions on AI in factories and production. The page gives no dates or programme.",
+      "source_url": "https://www.ismt.pt/news/presenca-do-ismt-no-ciclo-de-conferencias-tertulias-2026-sobre-aplicacoes-da-inteligencia-artificial.html",
+      "read_on": "2026-11-17",
       "ai_path": "Runs a conference cycle on AI applications.",
       "steps": 0
     },
@@ -392,9 +429,9 @@
       "name": "Coimbra Supernova",
       "type": "community",
       "url": "https://coimbrasupernova.com/",
-      "what": "Alliance of public bodies, the university, innovation centres and companies for the Coimbra space cluster, aiming to double turnover to 50 million euros by 2030. Lists Neuraspace among its reference companies.",
+      "what": "Alliance of public bodies, the university, innovation centres and companies for the Coimbra space cluster, aiming to double turnover to 50 million euros by 2030. Lists Neuraspace among its reference companies. Its home page lists as reference companies Active Space Technologies, Critical Software, Neuraspace, Open Cosmos and Spotlite, with the council and Go Coimbra, the university and IPN as the governing trio.",
       "source_url": "https://coimbrasupernova.com/",
-      "read_on": "2026-11-16",
+      "read_on": "2026-11-17",
       "ai_path": "A space cluster that counts an AI company among its members: one step from AI.",
       "steps": 1
     },
@@ -577,24 +614,44 @@
       "read_on": "2026-11-16",
       "ai_path": "An IPN incubator company whose own description is about AI.",
       "steps": 0
+    },
+    {
+      "name": "CoimbraCityLab (council programme)",
+      "type": "organisation",
+      "url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
+      "what": "Council initiative that lets people and companies test technology-based solutions in real conditions in the municipality, working with IPN. Its first reported pilot, in December 2023, tested an AI computer-vision product that finds and maps road signs and recycling points.",
+      "source_url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
+      "read_on": "2026-11-17",
+      "ai_path": "A public test bed whose reported pilot was an AI product.",
+      "steps": 1
+    },
+    {
+      "name": "Bluecover Technologies",
+      "type": "company",
+      "url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
+      "what": "Company behind Vision Surveyor, an AI computer-vision product that detects and maps road assets from GPS cameras, tested in Coimbra in December 2023. The page does not state where the company is based.",
+      "source_url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
+      "read_on": "2026-11-17",
+      "ai_path": "Builds AI vision for municipalities: directly about AI. Older than the 2026 items.",
+      "steps": 0
     }
   ],
   "extras": [],
   "identity": {
-    "key_id": "site.coimbra-promptugal",
+    "key_id": "site.coimbra-promptugal-2",
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "The University of Coimbra's own news pages (noticias.uc.pt and uc.pt) still return 403 behind a browser check, so the university's news and any feed are not read. We should look for the university's news by another route, and for CISUC, whose home page does open but whose news items we did not read.",
-    "The council's site opened only with a browser-style request. Its news feed (coimbra.pt/feed) shows no AI item in the last weeks, apart from the Go Coimbra launch, and we did not find the council's own account of the AI licensing pilot. We should look for it in the council's editais and agenda.",
+    "The University of Coimbra's own news pages (noticias.uc.pt and uc.pt) still return 403 behind a browser check on 17 November, so the university's news and any feed are not read. CISUC's home page opens and its newest news items are from October 2026 (CISUC Day, an award and a researchers' ranking, none read in full); its /en/news and /en/events pages returned a server error on 17 November.",
+    "The council's site opens with a browser-style request and its feed works (latest item 16 November). A search of the council's own news for 'inteligência artificial' finds items on AI in tourism (April 2026), the IBM watsonx email test (2024), CoimbraCityLab (2023) and a June 2026 AI symposium, but still no council account of the AI licensing pilot; the council's agenda and editais were not searched. The 11 November council item on the Web Summit stand has no AI programme.",
     "The Rádio Renascença report that 80 percent of UC students use AI (March 2026) came up in search but returned 403, so it is not used.",
-    "Coimbra iTEC's TertulIAs 2026 cycle comes only from a search summary, because the ISMT page returned 404 and the organiser's site did not load. Its dates and programme are missing.",
-    "No upcoming AI event in Coimbra in the weeks after 16 November 2026 was found on an organiser's own page. The only dated future event is JNation on 25 and 26 May 2027, whose programme is not yet published. Sources to check: IPN's events calendar, which we could read only through a calendar export, Go Coimbra and the university.",
-    "We found funding news for Neuraspace and Feedzai but none for the IPN-incubated AI startups or for CISUC spin-offs. Sources to look for: Portugal Ventures and Banco de Fomento notices, and IPN's annual report.",
-    "The AI startups added from IPN's incubator list rest on that one page: we did not open each company's own site, and the page does not say which are active or graduated. Connect Robotics, a DIANA pick, is placed at IPN by one outlet and at UPTEC in Porto by another, so it is left out.",
-    "Still missing from the map for lack of an opened source: IPN's ATTRACT accelerator for AI and high-performance computing startups, CISUC's spin-offs, LASI, the Coimbra hospital group's AI use (a search found none), the other university faculties and the members of Coimbra Supernova beyond those on its home page.",
-    "Critical Software's base in Coimbra rests on a Lusa report and its IPN listing. Feedzai's round page does not name investors or say where its headquarters is.",
-    "Local talent is not filled (an open question for Dinis). Start-a-company routes, investors and contacts now rest on pages we opened. We did not find where the Empresa na Hora counters in Coimbra are, nor the details of IPN's application and DIANA 2027 call deadlines."
+    "Coimbra iTEC is now confirmed by ISMT's own page of 3 June 2026 as organiser of the TertulIAs 2026 cycle, but that page gives no dates, sessions or later edition, and Coimbra iTEC's own site was not found.",
+    "No upcoming AI event in Coimbra in the weeks after 17 November 2026 was found on an organiser's own page. IPN's events list shows only one event, on 1 November (Safety Culture and Just Culture, not about AI), and nothing later. The only dated future event is JNation on 25 and 26 May 2027, whose programme is not yet published. Go Coimbra's home page lists no events.",
+    "We found funding news for Neuraspace and Feedzai but none for the IPN-incubated AI startups or for CISUC spin-offs. Sources to look for: Portugal Ventures and Banco de Fomento notices, and IPN's annual report. Not reachable this pass.",
+    "The AI startups added from IPN's incubator list rest on that one page: we did not open each company's own site, and the page does not say which are active or graduated. Connect Robotics, a DIANA pick, is placed at IPN by one outlet and at UPTEC in Porto by another, so it is left out. IPN's news feed (ipn.pt/en/feed/) now returns only items up to April 2025, so it is not a live news source; the council's feed and the ESA BIC feed still work.",
+    "Still missing from the map for lack of an opened source: IPN's ATTRACT accelerator for AI and high-performance computing startups (the IPN site's search finds nothing and the guessed page returns 404), CISUC's spin-offs, the Coimbra hospital group's AI use (a search found none), the other university faculties, and the members of Coimbra Supernova beyond its five named reference companies. LASI (the lab) was not found: the lasi.pt site is an unrelated defence electronics company in Barcarena and is not used.",
+    "Critical Software's base in Coimbra rests on a Lusa report, its IPN listing and now its place among Coimbra Supernova's reference companies. Feedzai's round page does not name investors or say where its headquarters is. The council's Web Summit page names AirSafe, Noytrall, Sim4Safety and FiberSight as the four startups; only AirSafe is on the AI map, and we did not check the other three.",
+    "Local talent is not filled (an open question for Dinis). We did not find where the Empresa na Hora counters in Coimbra are, nor the details of IPN's application and DIANA 2027 call deadlines. The council's women's entrepreneurship prize (3,000 euros for a project, 2,000 for a career, applications to 19 November 2026) is a municipal grant for any sector with no AI link, so it is not added to the investors list."
   ],
   "voice": {
     "lede": "Coimbra, ó pá: where the capes flap, the Mondego dawdles, and a hill full of professors keeps teaching the machines to read faculdade-style, while a unicorn quietly pays its rent down the slope.",
@@ -681,6 +738,14 @@
       "url": "https://eportugal.gov.pt/en/servicos/criar-uma-empresa-na-hora",
       "source_url": "https://eportugal.gov.pt/en/servicos/criar-uma-empresa-na-hora",
       "read_on": "2026-11-16",
+      "kind": "public desk"
+    },
+    {
+      "name": "CoimbraCityLab (council test bed for technology projects)",
+      "what": "A council initiative to support the development and testing of innovative, technology-based projects in real conditions, open to individuals and to public or private legal entities whose projects meet its regulation. A 2023 pilot with IPN tested an AI product.",
+      "url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
+      "source_url": "https://www.coimbra.pt/2023/12/coimbracitylab-testa-projeto-piloto-para-detecao-e-mapeamento-de-objetos-atraves-de-inteligencia-artificial/",
+      "read_on": "2026-11-17",
       "kind": "public desk"
     }
   ],

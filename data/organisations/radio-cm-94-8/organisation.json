@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "radio-cm-94-8",
+  "type": "organisation",
+  "kind": "media",
+  "name": "CM Rádio 94.8",
+  "names_as_listed": [
+    "CM Rádio 94.8"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page. No radio-specific RSS feed found; a WhatsApp mobile number is published on the page: personal contact published, not recorded.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:porto"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://www.cmjornal.pt/cmr/",
+    "owner": {
+      "name": "Radio Festival do Norte, SA",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "contact": {
+      "page": "https://www.cmjornal.pt/cmr/institucional/detalhe/cmr-ficha-tecnica",
+      "source": {
+        "url": "https://www.cmjornal.pt/cmr/institucional/detalhe/cmr-ficha-tecnica",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Carlos Filipe Espinho Rodrigues",
+        "role": "Responsável pela programação e pela informação (as listed in the ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Carlos Rodrigues",
+        "role": "Direção Geral Editorial",
+        "source": {
+          "url": "https://www.cmjornal.pt/cmr/institucional/detalhe/cmr-ficha-tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      },
+      {
+        "name": "Pedro Sousa",
+        "role": "Coordenação Geral e redação",
+        "source": {
+          "url": "https://www.cmjornal.pt/cmr/institucional/detalhe/cmr-ficha-tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "news"
+      },
+      {
+        "name": "Alberto Rocha",
+        "role": "Coordenação Porto e animação",
+        "source": {
+          "url": "https://www.cmjornal.pt/cmr/institucional/detalhe/cmr-ficha-tecnica",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "newsroom"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423023, operator 'Radio Festival do Norte, SA' (seat Porto), service 'CM Rádio 94.8', licence district Porto, concelho Porto. Outlet email column deliberately not recorded."
+      },
+      {
+        "url": "https://www.cmjornal.pt/cmr/institucional/detalhe/cmr-ficha-tecnica",
+        "read_at": "2026-11-17",
+        "how": "CM Rádio ficha técnica (page dated 30 April 2025) and site cmjornal.pt/cmr"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423023, operator 'Radio Festival do Norte, SA' (seat Porto), service 'CM Rádio 94.8', licence district Porto, concelho Porto. Outlet email column deliberately not recorded.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://www.cmjornal.pt/cmr/institucional/detalhe/cmr-ficha-tecnica",
+      "read_at": "2026-11-17",
+      "how": "CM Rádio ficha técnica (page dated 30 April 2025) and site cmjornal.pt/cmr",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

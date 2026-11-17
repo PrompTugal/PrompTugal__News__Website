@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Viana do Castelo: AI and technology in Viana do Castelo, a port city whose centre of gravity is its polytechnic, a data-innovation laboratory and a new factory for data-centre equipment, and what reaches Viana do Castelo from the Alto Minho, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -305,13 +305,13 @@
   ],
   "extras": [],
   "identity": {
-    "key_id": "site.viana-do-castelo-promptugal",
+    "key_id": "site.viana-do-castelo-promptugal-2",
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "ipvc.pt answered 503 again on 16 November, so the polytechnic's own news, its AI microcredential course, its events and its renaming to a university are reached only through regional press. The council's Tech Day page already calls it UNIPVC, but we found no page of its own confirming that. We should reread ipvc.pt when it is back.",
-    "No AI event is dated ahead in Viana. The council's events feed, read on 16 November, lists nothing on technology or AI from 30 November to 13 December 2026. The one tech event found, Viana Tech Day on 6 November, is past and its programme does not mention AI. Listings for its workshops sit on luma.com, which we do not read.",
-    "The council's public AI licensing tool was promised for March 2026, and we could not confirm that it launched. Its 2026 activity plan PDF was too large for us to open, so the AI lines about it are known only from press reports and search results. Sources to look for: the council's urban planning pages and its news feed.",
+    "ipvc.pt answered 503 again on 17 November, so the polytechnic's own news, its AI microcredential course, its events and its renaming to a university are reached only through regional press. The council's Tech Day page already calls it UNIPVC, but we found no page of its own confirming that. We should reread ipvc.pt when it is back.",
+    "No AI event is dated ahead in Viana. The council's events feed, read on 17 November, lists 30 items from 5 to 26 December 2026 (sport, music, Christmas, a maritime-heritage conference) and none on AI; one Christmas show touches on children's screen use, not AI. The one tech event found, Viana Tech Day on 6 November, is past and its programme does not mention AI. Not AI, so not listed: the council's Portugal-Catalonia Economic Forum on 23 and 24 November 2026 is about energy transition and ocean technologies and names SUSTEmare and the planned Viana STARTS space, with no mention of AI, data or digital (council news of 16 November). Listings for the Tech Day workshops sit on luma.com, which we do not read.",
+    "The council's public AI licensing tool was promised for March 2026, and we could not confirm that it launched. On 17 November a search found only that council documents (the 2024 activity report, the 2025 activity plan and minutes of 30 October 2024) mention AI in urban management, with no page describing a citizen-facing tool; the 2024 report PDF returned 404 when opened, so those lines are search snippets and are not used as sources. Sources to look for: the council's urban planning pages and its news feed.",
     "We found no AI startup or company based in Viana beyond a student project. A search listing named a pre-seed health AI startup and a PRR project at a wood-engineering firm, but neither could be confirmed on a page we opened, so neither is on the map. The VianaStarts page does not say what the centre offers, and In.Cubo is seated in Arcos de Valdevez, not in the city. Its own site did not load.",
     "Nordic Epod's plant is placed at two steps from AI only because it supplies data centres. No page we read says its equipment serves AI workloads.",
     "Data CoLAB's own ANI page does not mention AI. Its AI link is the PRR project, and that page showed a data-loading error. We did not reach the laboratory's own website.",
@@ -322,7 +322,8 @@
     "CTVC's pages were read on a preview address (web-4ui.pages.dev) that a search surfaced, and its footer names Cooptech (CTVC) as the owner. Its news and events lists showed only a loading message. We should confirm its official address and read its events.",
     "Dinamo10, Untile and the 351 Portuguese Startup Association appear here only as partners named on the council's Tech Day page. We did not open their own sites, so what they offer is not described. Untile has no AI path on that page and is left off the map.",
     "A page of a Portuguese government news item says the Minho Park business park opened in Monção on 18 May 2026, with no mention of AI. It is outside Viana, so it is not listed.",
-    "The council's Sustemare ocean-technology centre tender (3.6 million euros, 10 November 2026) does not mention AI, data or robotics, so it is not listed."
+    "The council's Sustemare ocean-technology centre tender (3.6 million euros, 10 November 2026) does not mention AI, data or robotics, so it is not listed.",
+    "Third pass, 17 November: the council's news feed (read to 16 November) has no AI item since our last read; its newest technology-adjacent items are the Portugal-Catalonia forum and the Sustemare tender, neither mentioning AI. No new AI news found since 16 November. Both council feeds still work."
   ],
   "voice": {
     "lede": "Viana do Castelo, ai Jesus: a basilica on the hill, a river that cannot decide where to stop, and a council that quietly teaches a computer to read licences while the whole town is watching the port.",

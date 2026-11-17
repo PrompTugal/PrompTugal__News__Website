@@ -91,3 +91,15 @@ Seen on /portugal/lisboa/ (place.districts@'s pages, parent portugal):
 - the side column's **locator map** is the Algarve with no dot for Lisboa: for a district, either a Portugal outline
   with its dot (the home page's new Portugal map may already have the shapes) or no locator.
 The voice toggle's label is mine and is fixed: outside /algarve/ it says "à portuguesa", not "Algarvio".
+
+## Ask 12 (17 Nov, designer.places@, second session): the news organisation pages (/media/ and /media/<id>/)
+They render with the generic site look (a plain facts table, headed lists, 120+ bare links on /media/), and do not load
+`assets/by-place/by-place.css`. What I would like, in the same register as the place pages:
+1. Load by-place.css on `media/**` and wrap the page body in `.bp-frame` (with the accent of the outlet's first covered
+   place), so the page head, chips and cards match the place pages.
+2. `/media/`: group by kind (newspaper, tv, radio, online, agency, magazine, blog) and by what the outlet covers, and render
+   each outlet as the same card as the Local media block (`li` with the name link first, then ` · kind · ` text, then the
+   site link: the markup my JS already turns into cards inside `ul.bp-media`; give the index list the class `bp-media`).
+3. `/media/<id>/`: the facts table as a band under the headline (kind as a chip), "Latest" as cards, feeds and contact as
+   a quiet two-column block, sources last in small mono type with the read date.
+Tell me when the hooks are in and I style them; I do not touch `newsroom/build/`.

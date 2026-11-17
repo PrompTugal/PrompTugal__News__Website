@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Braga: AI and technology in Braga, a university and industry city whose centre of gravity is the University of Minho, the nanotechnology laboratory INL, company R&D centres and the Startup Braga hub, and what reaches Braga from the Minho, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -453,13 +453,13 @@
   ],
   "extras": [],
   "identity": {
-    "key_id": "site.braga-promptugal",
+    "key_id": "site.braga-promptugal-2",
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "Centro ALGORITMI, UMinho's computing research centre, is the obvious AI research group in Braga, but its site returned a 503 again on 16 November, so it is on the map through a 2024 conference report and the university's Amalia role. Sources to look for: ALGORITMI's own news page and the UMinho AI master's page.",
-    "We could not open the council's news page in a form that shows dates, and the main page lists old English-language headlines only. The council's AI use rests on one paywalled 2025 article and one 2025 pilot report, so we should look for council minutes, Norte 2030 and base.gov.pt notices for Intelligence4Administration.",
-    "No feed found for the council, InvestBraga, Startup Braga, UMinho or Diario do Minho. O Minho and Braga TV feeds work. Startup Braga's news list does load, newest item 9 November 2026, but it has no feed link.",
+    "Centro ALGORITMI, UMinho's computing research centre, is the obvious AI research group in Braga, but its site returned a 503 again on 16 November, so it is on the map through a 2024 conference report and the university's Amalia role. Sources to look for: ALGORITMI's own news page and the UMinho AI master's page. Third pass (17 November): ALGORITMI's site returned a 503 a third time; still open.",
+    "We could not open the council's news page in a form that shows dates, and the main page lists old English-language headlines only. The council's AI use rests on one paywalled 2025 article and one 2025 pilot report, so we should look for council minutes, Norte 2030 and base.gov.pt notices for Intelligence4Administration. Third pass: the council's Contacts page was read on 17 November (see contacts); no new page on Intelligence4Administration was found.",
+    "No feed found for the council, InvestBraga, Startup Braga, UMinho or Diario do Minho. O Minho and Braga TV feeds work. Startup Braga's news list does load, newest item 9 November 2026, but it has no feed link. Third pass: the O Minho and Braga TV feeds still work (both built 16 November 2026) and held no AI item for 16 or 17 November; Startup Braga's news list still has 9 November as its newest item, with no AI item.",
     "A Cegid session in Braga on 24 November 2026 is listed by one search result, but another source places a similarly titled event in Funchal, so we left it out until Cegid's own registration page is read. We also could not reach Cegid's May 2026 Braga event article (403).",
     "Hayden AI and NIUM have no base city on the pages we opened, so they are placed on the map by their Braga work, not as Braga companies.",
     "dotmoovs: the press says founded in December 2024, other profiles say 2021, and one search result gave a PRR figure of 922,000 euros while the public PRR register page shows 30,000 euros for its project. We use the register's figure and flag the clash.",
@@ -469,7 +469,8 @@
     "Braga has no data centre story in what we read, and the Deucalion supercomputer named at the November meeting is in Guimaraes, so it is not on the Braga map.",
     "Startup Braga's news list for 2026 was read (Startup Point'26 awards in October, a September item on the SpaceXAI lab, four startups funded by Portugal Ventures' Call INNOV-ID in July) but the items' own pages were not opened, so none is added as AI news and no AI path is shown for the INNOV-ID startups.",
     "The council's investor pages and the Empresa na Hora counter pages for Braga were not opened in detail, so the steps, fees and any Braga counter location are not described. A 2026 PRR page on a Braga project (transparencia.gov.pt) returned 401 and a Portugal News item on CCTV in Braga returned no text, so neither is used.",
-    "The date of the 2024 AI in business conference in Braga (Semana da Economia de Braga) was not found, so it is on the map but not in events."
+    "The date of the 2024 AI in business conference in Braga (Semana da Economia de Braga) was not found, so it is on the map but not in events.",
+    "Third pass (17 November): no new Braga AI news since 16 November was found in the O Minho and Braga TV feeds, Startup Braga's news list or a web search; the Cegid 24 November event, the Hospital de Braga site, AEBraga and INESC TEC pages were not retried."
   ],
   "voice": {
     "lede": "Braga, ai ai ai: a city that rings its bells for the archbishop on Sunday and trains its models on Monday, with a bus full of AI cameras counting who parked on the bus stop.",
@@ -577,11 +578,11 @@
     },
     {
       "name": "Camara Municipal de Braga, contacts and investor pages",
-      "what": "The council's site has a Contacts page, an electronic counter and an Investing section with a contacts and links page. We saw a phone line in the footer and no general email or web form.",
+      "what": "The council's site has a Contacts page, an electronic counter (Balcao Eletronico), a newsletter sign-up and an Investing section with a contacts and links page. The page gives the address Praca Municipal, 4700-435 Braga and a phone line; no general email or web form is shown.",
       "url": "https://www.cm-braga.pt/pt/0101/contactos",
       "source_url": "https://www.cm-braga.pt/pt/0101/contactos",
-      "read_on": "2026-11-16",
-      "channel": "the council's phone line and electronic counter, published on its Contacts page (open the linked page)"
+      "read_on": "2026-11-17",
+      "channel": "the council's phone line, postal address and electronic counter, published on its Contacts page (open the linked page for the number)"
     }
   ]
 }

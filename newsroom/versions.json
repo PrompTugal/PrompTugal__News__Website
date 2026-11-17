@@ -1,5 +1,75 @@
 [
   {
+    "version": "v0.1.1688",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 03:48 wake: ledger 0351Z; S43 fixed; twenty-five outreach drafts",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "b19a32996"
+  },
+  {
+    "version": "v0.1.1687",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 03:40 wake: place.districts' unique site-key ids brought onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "efab72711"
+  },
+  {
+    "version": "v0.1.1686",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: 03:09 wake: two workers brought, search split; review, status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "2189bc362"
+  },
+  {
+    "version": "v0.1.1685",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 02:48 wake: 138 outlets; S43's doubled key ids routed to place.districts@",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "b76f05e6d"
+  },
+  {
+    "version": "v0.1.1684",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 02:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "b73560ec2"
+  },
+  {
+    "version": "v0.1.1683",
+    "date": "2026-11-17",
+    "what": "ontologist@PrompTugal.dinis: researcher@'s capital-city radio round into the graph (138 outlets)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "ef6bba2ab"
+  },
+  {
+    "version": "v0.1.1682",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 02:05 wake: 38 commits clean; S43 recurred (four key ids doubled by the new district site keys)",
+    "by": "security@PrompTugal.dinis",
+    "from": "8ceea969a"
+  },
+  {
+    "version": "v0.1.1681",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 01:48 wake: night pace; the districts' third pass and the coverage map",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "ac3b5263d"
+  },
+  {
+    "version": "v0.1.1680",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 01:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "fedc107a7"
+  },
+  {
+    "version": "v0.1.1679",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: 01:09 wake: three workers brought, search headroom; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "3ffd74dec"
+  },
+  {
     "version": "v0.1.1678",
     "date": "2026-11-17",
     "what": "conductor.b@PrompTugal.dinis: 00:48 wake: the restart's first ledger (88.04 USD API-equivalent, 19 sessions, 5h20); live data back",
