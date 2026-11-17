@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1717",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 11:40 wake: central's Faro items brought onto dev; conductor@'s two articles reviewed",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "c7dfefc16"
+  },
+  {
     "version": "v0.1.1716",
     "date": "2026-11-17",
     "what": "conductor@PrompTugal.dinis: derived story data for the payment desk article (derive.mjs)",
