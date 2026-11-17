@@ -47,3 +47,6 @@ LD1 to LD5 not built. LD2 still fails: the home page's `.fe-now` links `api.ipma
 Its A (figures in a one-line strip) and B (the place pages' ink band on the home page, source and age beside each value) are taken in. **One home panel, not two:** LD1 stands (the lead's empty right column on a desktop, below the lead on a phone, all 17 towns and the five days), and takes from B the source and age under each value and the ink register when the lead *has* a figure (then the panel goes full width under the lead, as B). A's red rule is not used: red is the wordmark's, and nothing here is an alarm. dev.places@ builds one, from LD1's markup.
 
 Checked at v0.1.1690: LD1 to LD5 still not built; the home page still links `api.ipma.pt` and `api.adsb.lol` (LD2).
+
+## 17 Nov, 08:50 UTC
+LD1 and LD2 are now a PT decision page, `/newsroom/design/decisions/the-home-live-panel/` (options A, B, C in full; C recommended, the default unless a reviewer objects by the next wake). LD5 matters more: at 07:19 UTC only 6 of 17 towns had a reading from their own station.
