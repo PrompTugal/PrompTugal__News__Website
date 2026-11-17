@@ -2124,7 +2124,7 @@
       "role": "The identity of the site promptugal.news/algarve/alcoutim/. It signs data/by-place/alcoutim.json; held in the session of place.alcoutim@PrompTugal.dinis.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArT/W0RZUQRXccSkENwwY\nIaLy2jnNKSdhwowdaAmPO0ot0iaubeiA0u/VS/srwfhFDkUEpM117mHP3OeYfxc3\nYr9hOi8QrSD8wl01xB4yw97qQKYJIO58TzmTBLYTDjNhPg8tuEa0XvuWZtsTo7S2\nTEdyznVQY/8e6QwzJEMcA2U6PZYHkaGfjxDBVmMoj0VBRxHn1hsBMgTLokzfo/UL\nR31QttQtXMyTSwlrVap1o+V5JumE6EKnYZrbMIzs3UHC7ZHvrfDmZaNw4roAWk/U\nWUXL+wb9xToOITelWaRJvYbef0GUyjdlTe7QY0CbVzBhhzQJ0YxiT62YyPq0yzTa\n45wNsWtkmHtWfs7ChD9Ma2XJ1XFF+BAsbW9uxIRNmWdsYURLO8XhKBVZpV0eWyHC\nFtpR/yiG82Zq3PHs0wjJwF5+X/nDAgbsB0Nmiqdt9T1lGQqkHit8YHxh5L0Owc+d\n3NtCcQuGzmPH6UrD7E6E3iIhcuXnodgZpFKntXZ8/NXwb9SJ9PIIpicMkvMfQs1B\nDpQqFanarsiu2GVWfkCmevSUHe1f4vcXoVJy9qvxgIkCoqvHLTiq8zShT0GFGz01\nW/fMhK1L4BqjaHaLdtKgQTUFXEBxlqCI1OOGhX0/7OntxgFcpiM52yMGQc0IdsfZ\nnwF8QNDAU+FtmS8BFsTj3ZMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2133,7 +2133,9 @@
         "fingerprint": "sha256:3972cfde63a836da",
         "record": "sha256:99a76a4e5cad5183",
         "signing_fingerprint": "sha256:99a76a4e5cad5183"
-      }
+      },
+      "superseded": "2026-11-16T22:45:00Z",
+      "superseded_by": "site.alcoutim-promptugal-2"
     },
     {
       "id": "place.quarteira-promptugal",
@@ -2312,7 +2314,7 @@
       "role": "The identity of the site promptugal.news/algarve/vila-real-de-santo-antonio/: signs its data file data/by-place/vila-real-de-santo-antonio.json. Held by place.vila-real-de-santo-antonio@PrompTugal.dinis in its session; it ends with the session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private halves stay in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqmjS/M6D7yiDsaFKzIYK\nEq4SbD8xrulRxN6gzKvc0NzJz2A5rVLpuTT8ahqYuwQ6OhCCh+3k0k2guqTgHWAH\nRhj2YCWg1zH7ib4K9DRc6/1AJGL4J3gbjUmHCg/4uZhZuoE/wvkqfbgvq9Uv2RKz\ni701BcFl0+XZ0QxgB5VO1AHJ9XtL4xRoiPiWElE3urp1SWrsvYZOUHgal7ygLPXt\nwG+eHzd/SMD5nWq1M39Ap6snK0Qawlfn/5HPdoZOAcExntWeI4A1eQMq7jYT0fHT\nJ+0/oVQkTjY3ovEKpZVS+epZ+62hJ0kc7jP2XffzQdnYub6TD1k4MV6QuE3J10v+\nS/p8jFhsfAKnffRuZuE57+wCujaPnKwYC3ubgycMBD4jpkZYZKSkhpEor/t6K7Tk\nl3eIR8NUOaYZEGtAdbCUjLNn77dmWyNcxukDtAfhBSiuYeAM5TBd/OyqZXeIktrc\np7EN+aDexgLCk7hglseRae83MXzm5VWZywVqcwfLUMjSFnevt04AvIgS2y0xrbuO\niVTPuZSpSgCvq07pyR1zAuhN4RUupuCU52Gzh15bmCe2N1Dc7LN8UEk2memLv7G9\nRpnYIFHq7H+AtzV9tyt+E85iVddbx+pKkjACYPLhnEyjnO0geSOuEJfKiG0yGzYM\nFwXKieBK2L6o0vFOmW1fr00CAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2323,7 +2325,9 @@
         "signing_fingerprint": "sha256:37edb2482f436fe0"
       },
       "kind": "site",
-      "site": "https://promptugal.news/algarve/vila-real-de-santo-antonio/"
+      "site": "https://promptugal.news/algarve/vila-real-de-santo-antonio/",
+      "superseded": "2026-11-16T22:45:00Z",
+      "superseded_by": "site.vila-real-de-santo-antonio-promptugal-2"
     },
     {
       "id": "place.sao-bras-de-alportel-promptugal",
@@ -2428,7 +2432,7 @@
       "role": "The site key of the Algarve region page: signs data/by-place/algarve.json. Held by place.algarve@PrompTugal.dinis for the session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAjfkqvIN2QPZKB1K0/wPE\n+bwTY+tO78psxHNcXM/dYDJZNJVridyi9DKM8DM/VEh8FQDoGA9byWNK97XO/u8V\nH43t5wXl6g8dDlGqT1negd40rIclXMEU3PPm8D/f0WvzmryTKjzK9GTJ02TlEfzs\nvZPNCxkG5bbdWhX+/fhIRplWTQ8hZGlU0jVUAKSRVmELYkNY/792rGRRMFtNUwuW\n5fNyqvwOpHQJmi7v7QGL7Pcl/QV44y62sK4R0TjPLMzMUKi1sk9CXZfVDGqdm5Pw\nc7gmV68+oobvV7EO+YSZ/1asjQyYm69YukK3UKQ2ylx+J9HTznmXfBAtqCBIMKGI\nJO4UzLX0FNGzPKKr98cYyb75FCpkyMa6Dwh+4H+PucZqsVuJrxIraGp+wj65Dhp5\ni/0h8ZIP92dcExoY5OC2qOMC6aUPqrhdaUYnbj3WIvPMyU+qswAb10S5KuTSKcfn\nUF5lupzzConapDw4CrRRhKerlQTB1brVmPEUEuhChNed1KTGaXaWk/MauRycmBOR\nJqSL20WZOBXMpscYp4iJCohJiFL9rrjPsyHcQa9NJs8AqxBE+GFvANYN2SkMXcwW\nm/6lrXVWNg392BTPq6TfZZYvr/52DRtktwW46bm9b2OGf8VaUxc0kHmuSN7LUYXI\n9IKpQ0nQt1newBRM/lAjJ4ECAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2436,7 +2440,9 @@
         "label": "site.algarve@PrompTugal.dinis",
         "fingerprint": "sha256:308473fba5888695",
         "signing_fingerprint": "sha256:e44d384ebf19ba54"
-      }
+      },
+      "superseded": "2026-11-16T22:45:00Z",
+      "superseded_by": "site.algarve-promptugal-2"
     },
     {
       "id": "place.lagoa-promptugal",
@@ -2582,7 +2588,7 @@
       "role": "The identity of the Tavira place site: signs data/by-place/tavira.json (the .sig beside it). Made and held by place.tavira@PrompTugal.dinis for this session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session, the copy with sha256 fcb28a1cc40d05bf8ccc8fc61a2a907c934840cac7aa41d9d8283c1d461002ab). Not linked to an operator's key or confirmed on pki.sgit.ai. The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt2TDT7wxEXTh+y4xhopa\n2kuSZJvEOa6xA9d9X5qVk23yztDKsBwlt47fgbm33NSd6DxZguOMNzYmYnEhdowz\nSoBZVhj03V5Fn+wmJMK83JWVGeJk975aaq0LGSBSEgY/veW92EZSiwmvpUsm3wHl\nAsbgMn5Gpc7sbF0HVJRRmQnkGF00G7s61pC7IIrZjhokCxy59sBxpIQRUWYgJtg/\n52/0SVXGi2uZwlTInOaeoYu+BdwZfxESynkNKbVJ1Tc5Aaa0wI+K5lItuumCmmoy\ntBb/UoSViVpaf0ABF/vXhAWGwo+438qkpMNYaROhVyHHw8Fsbl1QiMxmUqUETYj6\n6BwoHxsc4uIxLy08w3CfSVGo9jRgARJx/f9YivtkFlyJSs45cnGqdsKox4vG7p8R\nl79jgbYYOLE2E64WSY6mRKMtkVW06d7XCLuDUy0PBt+gvMntR+UMtsP/RrxZTWb5\niOHjXqz6bPikbMXv1taxgRGyjBW0hGMY/PN7pkGVHdUX5mbbUWB9M9j5eIwDwzLv\ncqWPDtito0iDXnIXOOg/6yh84ZQrwLtsqEwkIx9EMJ/VGFOewZyqVtTAJsUvk5B+\nmRKMrd0yTsD3UANj6Su3r7bikBucpZFpilfpm2a5s5hreFlaQNGDzGH37oRNddOy\nfL4SBm70PnhZxBMZjP0YEIkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2590,7 +2596,9 @@
         "label": "site.tavira@PrompTugal.dinis",
         "fingerprint": "sha256:22a99c975f19afc7",
         "signing_fingerprint": "sha256:344b8829b9663022"
-      }
+      },
+      "superseded": "2026-11-16T22:45:00Z",
+      "superseded_by": "site.tavira-promptugal-2"
     },
     {
       "id": "place.castro-marim-promptugal",
@@ -2619,7 +2627,7 @@
       "role": "The identity of the Castro Marim site: it signs data/by-place/castro-marim.json. Held by place.castro-marim@PrompTugal.dinis in its session.",
       "how": "Made by the agent in its own session on 15 November 2026 (pki-agent.mjs keygen --session). The private half stays in the session; the push of this entry is the authorisation.",
       "added": "2026-11-15",
-      "status": "active",
+      "status": "superseded",
       "bundle": {
         "v": "1",
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAuWZ/FhuJShYFDR0jZorm\npp99dvwoojNS0WMWUjKnrSIGOsXAX7Ne9DKoncb5Rj8pvkZxksyYMqbh4qkhBQDg\nMBDj8Z56mVCiPSoorfVxGvzOJkUYNVm3jiH9bCJfO4wabLVL7AWJ9/O15fXvDrWj\nqIhOwvM1ZeOY42n2Y4INlMY2vZpOslHnOIJfUC7ZBUINjBBfSjvkJQ/Nk7iilD7d\np+cwBI5/vTsUVWjG7Sr+RtF+6QUED/nbOOQoRvGz5Sd0SuyxjKzlpflUKTWvDTJP\nGT8rwyn68Sli5eERflC5VWBTHHoMcgy2ZdSsHq6AulScqUAbx+43BrK1ulfp/oP5\nNmSoWZ2p+chaVX+600zVeLEBF6oi8H4i5VFBOmGlb1JnXa50pSB84XbolN3SWBFE\nzKxLcKjdkPK6tp/oA1ibg7Xojh7I+kAYmPZmGRhcotTM+O11QVaD5zrbnQm+K+by\nHJ0q9joMPGJYJbOEKkTRoy4vbBg9SIw4KmJzON/IPBU9wbc5nQwsXXnOv2/7hCxZ\nkdAjR3XIGXm+JFn/jHo9KIFcnbRCtuMkw54dqqboAakshsjwuRWmEWKHWSRYgHIG\nP5eyUADT8exQUP3eI/K5st2i18kooSOUSoDJVjdDmsYROZvp+r7UUW7slsC3rWtA\ndm/ZMSjdMEoBxJ97qW7+CVsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -2628,7 +2636,9 @@
         "fingerprint": "sha256:8cff257ddff59176",
         "record": "sha256:e6d37066243d18b3",
         "signing_fingerprint": "sha256:e6d37066243d18b3"
-      }
+      },
+      "superseded": "2026-11-16T22:45:00Z",
+      "superseded_by": "site.castro-marim-promptugal-2"
     },
     {
       "id": "place.silves-promptugal",
@@ -3562,6 +3572,101 @@
         "fingerprint": "sha256:691796bda9838b03",
         "record": "sha256:ed23dc15c520c981",
         "signing_fingerprint": "sha256:ed23dc15c520c981"
+      }
+    },
+    {
+      "id": "site.tavira-promptugal-2",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/tavira/",
+      "agent": "place.algarve.east@PrompTugal.dinis",
+      "label": "site Tavira (promptugal.news/algarve/tavira/), kept by place.algarve.east@PrompTugal.dinis",
+      "role": "The identity of the Tavira place site: signs data/by-place/tavira.json (the .sig beside it). Made and held by place.algarve.east@PrompTugal.dinis for this session; replaces the old site key, whose private half stayed in an earlier session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session, PKI_AGENT_HOME in a home of its own). The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAiL7v3IQsrDoowDpO02zc\n7M2Na16nBHBCp+d2yl0BmIoP5UvcJVWweX1bagYsKIQXsAHAlT4vj9TPGjFh6YGf\n19gVZAxu0QPDKmQ6znohjBM5Rfx82cR36IWI37d7v0GuMrU6ZY3O/NFDeYIetxGG\nnhzLJyLaS5zruystGAEkJwGGUjamnMpQ27+luECZCwysm0CdebfeBjFjAbldnL/s\nSheGSqqlQ0TaHpQhoAe2Lyg931gH7/a7nl7mWbI4NDpgRNnYetsOvl9YdH1F0GuC\na3Tw5ElDEb6ioChHOZLX46UOBsv/LmpgVm3KvBURayAOew4ZbbrazxwpnQsLSWhZ\nnxHcSbyRBJ09trEpjP1wHNBo1O/6Y8QyFkrHgjV7Gbzq+q7qC+hCHqIWrJw5Z74R\nTvG5k5lVXBRHWG6cRgdEjROUCd2OGKXpkorkjWetDy99869WUgOBqkrQsb2KBj/K\nGdCy5f+BtwVCEtPaoU4JyzIo6TKtU6DW95g+3+KnvZY9xl3HjWOu1bbFt+Id7YbM\nwWoQAZmwUrjRJOC8Q0szbP3HgG8DJD/pRutqrQPyDAmIP1QAKiT3v3LmtSLPouCz\nv+iG7mgWuiMYZwGzfuStI1DLBtvOh0Ww70bWjrj6SNJTGokogOBmVPPB4kHdQfp7\nmqE76Ta+7ZAZfjEvwUaRvrMCAwEAAQ==\n-----END PUBLIC KEY-----",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE3KfDPvG+f6O27vhJYHCHxACTcx9+\nOanFKWLqIkXMpHPgNvDUsuNoUpLTZ84j7AmPQYapl32vFIZbfYzNvG57LQ==\n-----END PUBLIC KEY-----",
+        "label": "site.tavira-promptugal",
+        "fingerprint": "sha256:4f016f62bbd9e383",
+        "signing_fingerprint": "sha256:35c8da16786106a7"
+      }
+    },
+    {
+      "id": "site.castro-marim-promptugal-2",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/castro-marim/",
+      "agent": "place.algarve.east@PrompTugal.dinis",
+      "label": "site Castro Marim (promptugal.news/algarve/castro-marim/), kept by place.algarve.east@PrompTugal.dinis",
+      "role": "The identity of the Castro Marim place site: signs data/by-place/castro-marim.json (the .sig beside it). Made and held by place.algarve.east@PrompTugal.dinis for this session; replaces the old site key, whose private half stayed in an earlier session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session, PKI_AGENT_HOME in a home of its own). The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApRXNrOh5ta7eybxDHiZj\neRLWlAatU+/yOCzOHevxCfiAoMHycks9TDGqfa0MnDZBGg9IpMGW1owcsQwr/lQt\n+4lIy0HqqGpgDllXc3bGQBM9DnEIRhUB95THxS5oq3pS8+vuWON62hAsS7IazNYF\noOZi4OC7qP/ifuxf4NkUI2gZnyDSTnvX7QOaFTeWi/TzvZmvo9/vePnIbXE2Zhk8\nmkqo89yxTIT2fGPUve1URcmsFrz6GsKh3ZWusvMC9zzgOIJjH6J7L0JIHlaXwLqh\nnVYGiDVyyHgQreZlky0FAhgH459bf6UL3F34y6ONR6i7DECC/R3Kc3Agx3TLRKIh\naesixC3xyqfSmaVnvRMWdKA4ytPQKoKBPl3WkE3MqvErPLrnbYGJirHjt0jXxUVk\nt1Ktxfrjx272EYmNcxQcODYw8m4OgtTZHFpGHCUoBpPhdJlCl2475zoc1xU7f7N/\nDGIPHf6hGYy2rRakmurT55THF/1sCVzESbCcp8cbupf9TLI1douvIe9Dmq2mkmsh\nnUXNQ/gabsmcUoI91OIA+nbl/5E2KjV7qyLUlbzzzBocwLqyxyrE5bm19NDoDlaL\nu7zJL82xKGd+yuH/mbk4EzdCFyD/Mh+AwdRbpMdAoI/4GuJzi5ZmeuuJby3PSFp5\ncLEvvQFJ5UN/69qGoc3s0Q8CAwEAAQ==\n-----END PUBLIC KEY-----",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVTHU0io2o6CjfYhrYm4Bz0RUgbWb\noI3vrXbXSZrXj+rzbV+ZwyOtnqH3ukVe2bv5n93yhxKm2nvuRwp+MyJO2g==\n-----END PUBLIC KEY-----",
+        "label": "site.castro-marim-promptugal",
+        "fingerprint": "sha256:f720070c48f4a6d5",
+        "signing_fingerprint": "sha256:55dbb8a832275a66"
+      }
+    },
+    {
+      "id": "site.vila-real-de-santo-antonio-promptugal-2",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/vila-real-de-santo-antonio/",
+      "agent": "place.algarve.east@PrompTugal.dinis",
+      "label": "site Vila Real de Santo António (promptugal.news/algarve/vila-real-de-santo-antonio/), kept by place.algarve.east@PrompTugal.dinis",
+      "role": "The identity of the Vila Real de Santo António place site: signs data/by-place/vila-real-de-santo-antonio.json (the .sig beside it). Made and held by place.algarve.east@PrompTugal.dinis for this session; replaces the old site key, whose private half stayed in an earlier session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session, PKI_AGENT_HOME in a home of its own). The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAmPEnrTfWvL+vzlEYMhkq\ntAeF9q9qxDF/hvwc8Q9AVFPNVb+9Rwr2h9qr5bHUllf7gqtccjy5iTVEnackNs4e\nYIm9d8NhOPl1ST7PTgSzRaljbt5k4M/HH8MyTg2GYEf9zEK04LMuWr9iZjpqILGk\nAzLPVdKTF07Y9GuNf6rvKDpsgMakIpDMb0cb3+VNgQG2uvix+xFZPRga65u1hw/W\nBQIpzHUDR+uve1NzUF83OBpNdVvnLdX1TGthlcedFo+lJ0aA0Dx3BPJwFFtg/0Bq\nRLj5VJXVza+Po8cvkfdV7ER/wRlJ6StagJu6pp7/5Oc+Zez6tjpqwuCeV2Cu6Mw8\nsrEKs68haTjbTE/BsE+0IAtHR3uZntkB/m9QQCoRNPnV5ehoHmgvEAPxPYYlBegI\ng6aOxl7w8qF6a2x3b7J4WuGwacF+B+zXBCxdcy5SleejdHqebBeaadz72DVRVcMQ\n7MDWHUx6Il45gPgH+x4yM/ysMLVvz6rBQ5zzcOYN8Q3lwkppSSp08iRgtWQXZDuC\nEkigUNGlVtPRtClpRDAlu7CcYA8nQ6DC3SOGCsY2sjp4/gKdKsURNtZMtZL5nMBC\nUK8y2qhj5bpDDfteYjonGcK0P39oGztHg80PZOlHlPN0Yu4kM/sOA3hzi5dkUg6L\nrMNbiRfPaNK7fOVW1eEuxpECAwEAAQ==\n-----END PUBLIC KEY-----",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAELKdHmI6D3pcIoUGsTRNmw9j6EmFW\nOXLP5hNtdVMvl4SJ2Oi2gO97xd7NvD3qGv6mWsDh9JBLby0gPDf2SB4Etg==\n-----END PUBLIC KEY-----",
+        "label": "site.vila-real-de-santo-antonio-promptugal",
+        "fingerprint": "sha256:0df44494e6e87c9d",
+        "signing_fingerprint": "sha256:c9ebd9e9d3ae704f"
+      }
+    },
+    {
+      "id": "site.alcoutim-promptugal-2",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/alcoutim/",
+      "agent": "place.algarve.east@PrompTugal.dinis",
+      "label": "site Alcoutim (promptugal.news/algarve/alcoutim/), kept by place.algarve.east@PrompTugal.dinis",
+      "role": "The identity of the Alcoutim place site: signs data/by-place/alcoutim.json (the .sig beside it). Made and held by place.algarve.east@PrompTugal.dinis for this session; replaces the old site key, whose private half stayed in an earlier session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session, PKI_AGENT_HOME in a home of its own). The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA88GZ3m/Q8eEvOoU3LMFN\nCDY59slPvpUcwU3hjdZ4yInrHIozxwBPNrKOtjLGC4glXqp0mqasRT29rQOTYLc5\nVt59QdhBP7PjwqoTZAAsoTMoTX/JzY+C4F/GnlGL4BYjex84IFzy1vmXijdGhIxg\ni9aKYiSSEdd+lCCqhhDj1mdldf4g6x3l+GnZBA6XfkKwBtkmOoAA+ivL0xojOlIQ\nUuRzQbA5i/yqWFQbPmCCXnOHq1jWOUzKUj9j4vy1gBkpzWppf4XVd1PRqvQ+S1z/\nTm+N7WwjdhLaZMC42UmXPqkcYjFVFx5n/lImoTqNV9vsHlPH1vUzl8SUXuKXqa7g\nmtrH2/eGxV0YBjghjspQ54ojZ2bPVHACZJAPfDsCie3hqwE/MVOZrzTRB7I/u8jK\nMJusV8FkCjbVsC3FbiYoGvTd5MS/pB3tTzDcAioopdx/u29frVitcttJHsdcRsb9\n1yg8sAJVhkKmzhrVpy771HWbsMJYCsYVfT/Lh4grWq6VYd5UE/G0X9Np6TQj59o/\nyPEYRW/cvrxmoPbYKAbsKGFXHY+SumBG3Hb91dU/Pm3J4lkma6wh+mNN7Q9VNmVk\niUeX11m4AFSl8Qrei5pT+qNPRzw4nNZefWpnzObSMLBW403K+Qvv2EgOhXnAvbiV\noxFfc6Nf7Nl/SzvYi8cnku0CAwEAAQ==\n-----END PUBLIC KEY-----",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE5C5Kxfu4vbrwu2DqNMb2TV4zB0OW\nGsqK+nc16AyXdzLUrfX67zqSK3MYxxlE3hQI8MmSaard/AkMv1U8LnoSYA==\n-----END PUBLIC KEY-----",
+        "label": "site.alcoutim-promptugal",
+        "fingerprint": "sha256:8f88a1d1f13a2af6",
+        "signing_fingerprint": "sha256:c248c4a7aa194cce"
+      }
+    },
+    {
+      "id": "site.algarve-promptugal-2",
+      "kind": "site",
+      "site": "https://promptugal.news/algarve/",
+      "agent": "place.algarve.east@PrompTugal.dinis",
+      "label": "site the Algarve region (promptugal.news/algarve/), kept by place.algarve.east@PrompTugal.dinis",
+      "role": "The identity of the the Algarve region place site: signs data/by-place/algarve.json (the .sig beside it). Made and held by place.algarve.east@PrompTugal.dinis for this session; replaces the old site key, whose private half stayed in an earlier session.",
+      "how": "Made by the agent in its own session on 16 November 2026 (pki-agent.mjs keygen --session, PKI_AGENT_HOME in a home of its own). The private half stays in the session; the push of this entry is the authorisation.",
+      "added": "2026-11-16",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxnvxnSW4imway2HFKS3Z\n483DiiMjlLIot8FjQmTznBlb6bmIMMaZ/EIZJ59n+jzfa+p9cn6XWV6jtRnMlmyl\nr6b5Rvzh5orNYIbMq7/aHZel9I9IUkVKBs0rZBMIBTj+8hCr0EICciFGUlprQpev\n0AnWOJWi77LGkHbNynjKo4377LfWxrLUtLqUpDuC8an2ueFtekGlWOWSqpDpSpjn\napE3QRPyGf+rT67JIMmFYFL5DQhhdtwb3rachXCFCpP2/qyVjOJLx8gS+CG1Wq8h\nXhhlZ9MBAqssCA/JFkQemS+Rt8G4tmZJRe7hQ3ScqkwHYd5/QoQ2JrgcTpdDDh2w\nklxOl2rD+2d2pK1CalYNYq9x6vvBQyvRTQ303PLmKQBODsWPTcoVv2akFSRyjGKN\n3vG/afXiLY7KbOSSWETZ7zbIk436buwtVZgnm8eUPmp8JKqlPeBbebIvdwteh6J+\nG4ZA3/X7w92TBe32xo2xTZ+6uvR5Xc3BTHTd6SxsksxEIjK7u21Ck9zb5may2vxe\nHI3/foFcSI4ZnulQbwytwDy142DY+D+xzywdVMMqq+EUDOKn+FyhKS+5f2u13ydp\ntA8Iv63jNFsQ8bvF8JMwBb98fp4I70xK6VHajkzzf0JbeU6oGekGAPz/zotcmThF\nNL/n8PBEj97Pb8PIoN1tabECAwEAAQ==\n-----END PUBLIC KEY-----",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEAeDCfZ5I8kCYKd0tL2Cv06f2gpPx\nkRDFRwcCOf8VjAdgNbkpEfSbSFniY6pWTmjosW4UT2YhsGBfjMb9elxISw==\n-----END PUBLIC KEY-----",
+        "label": "site.algarve-promptugal",
+        "fingerprint": "sha256:5b9117325d1d7f47",
+        "signing_fingerprint": "sha256:75cd01b43f558522"
       }
     }
   ]
