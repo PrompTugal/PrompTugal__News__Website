@@ -1,19 +1,27 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 35 of 35)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T15:59:35Z"
-site_version: "v0.1.1732"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T18:59:13Z"
+site_version: "v0.1.1741"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 35 of 35)
 
-67 cards, from `TEAM.RUN designer:3` to `TEAM.SCHED schedule`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+75 cards, from `TEAM.RUN conductor:2` to `TEAM.SCHED schedule`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 3401 to 3425**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.RUN conductor:2` | [runs/conductor/](https://promptugal.news/board/runs/conductor/) | runs | conductor@ 6 Nov 2026 |
+| `TEAM.RUN correspondent` | [runs/correspondent/](https://promptugal.news/board/runs/correspondent/) | runs | correspondent@ 6 Nov 2026 |
+| `TEAM.RUN curator` | [runs/curator.vicky/](https://promptugal.news/board/runs/curator.vicky/) | runs | curator@PrompTugal.vicky 10 Nov 2026 |
+| `TEAM.RUN customers` | [runs/customers/](https://promptugal.news/board/runs/customers/) | runs | customers@ 6 Nov 2026 |
+| `TEAM.RUN data` | [runs/data.places/](https://promptugal.news/board/runs/data.places/) | runs | data.places@ 16 Nov 2026 |
+| `TEAM.RUN datasci` | [runs/datasci.places/](https://promptugal.news/board/runs/datasci.places/) | runs | datasci.places@ 15 Nov 2026 |
+| `TEAM.RUN designer` | [runs/designer.experiments/](https://promptugal.news/board/runs/designer.experiments/) | runs | designer@ 6 Nov 2026 |
+| `TEAM.RUN designer:2` | [runs/designer/](https://promptugal.news/board/runs/designer/) | runs | designer@ 6 Nov 2026 |
 | `TEAM.RUN designer:3` | [runs/designer.places/](https://promptugal.news/board/runs/designer.places/) | runs | designer.places@ 15 Nov 2026 |
 | `TEAM.RUN detective` | [runs/detective.places/](https://promptugal.news/board/runs/detective.places/) | runs | detective.places@ 15 Nov 2026 |
 | `TEAM.RUN dev` | [runs/dev.data/](https://promptugal.news/board/runs/dev.data/) | runs | dev@ 6 Nov 2026 |
@@ -31,6 +39,11 @@ source: board/catalogue.json
 | `TEAM.RUN gamma-ray` | [runs/gamma-ray/](https://promptugal.news/board/runs/gamma-ray/) | runs | gamma-ray@web-summit.dinis 9 Nov 2026 |
 | `TEAM.RUN historian` | [runs/historian/](https://promptugal.news/board/runs/historian/) | runs | historian@ 6 Nov 2026 |
 | `TEAM.RUN investors` | [runs/investors.packs/](https://promptugal.news/board/runs/investors.packs/) | runs | investors.packs@ 7 Nov 2026 |
+
+**Cards 3426 to 3450**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.RUN investors:2` | [runs/investors/](https://promptugal.news/board/runs/investors/) | runs | investors@ 6 Nov 2026 |
 | `TEAM.RUN jornal-silvio` | [runs/jornal-silvio/](https://promptugal.news/board/runs/jornal-silvio/) | runs | jornal@PrompTugal.silvio 10 Nov 2026 |
 | `TEAM.RUN journalist` | [runs/journalist/](https://promptugal.news/board/runs/journalist/) | runs | journalist@ 6 Nov 2026 |
@@ -39,11 +52,6 @@ source: board/catalogue.json
 | `TEAM.RUN journalist-europe` | [runs/journalist-europe.vicky/](https://promptugal.news/board/runs/journalist-europe.vicky/) | runs | journalist-europe@PrompTugal.vicky 10 Nov 2026 |
 | `TEAM.RUN journalist-portugal` | [runs/journalist-portugal.vicky/](https://promptugal.news/board/runs/journalist-portugal.vicky/) | runs | journalist-portugal@PrompTugal.vicky 10 Nov 2026 |
 | `TEAM.RUN journalist:2` | [runs/journalist.vicky/](https://promptugal.news/board/runs/journalist.vicky/) | runs | journalist@PrompTugal.vicky 10 Nov 2026 |
-
-**Cards 3426 to 3450**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.RUN journalist:3` | [runs/journalist.newsroom/](https://promptugal.news/board/runs/journalist.newsroom/) | runs | journalist.newsroom@ 10 Nov 2026 |
 | `TEAM.RUN librarian` | [runs/librarian/](https://promptugal.news/board/runs/librarian/) | runs | librarian@ 6 Nov 2026 |
 | `TEAM.RUN local-jose` | [runs/local-jose/](https://promptugal.news/board/runs/local-jose/) | runs | local@PrompTugal.jose 16 Nov 2026 |
@@ -61,6 +69,11 @@ source: board/catalogue.json
 | `TEAM.RUN place:10` | [runs/place.monchique/](https://promptugal.news/board/runs/place.monchique/) | runs | place.monchique@ 15 Nov 2026 |
 | `TEAM.RUN place:11` | [runs/place.olhao/](https://promptugal.news/board/runs/place.olhao/) | runs | place.olhao@ 15 Nov 2026 |
 | `TEAM.RUN place:12` | [runs/place.portimao/](https://promptugal.news/board/runs/place.portimao/) | runs | place.portimao@ 15 Nov 2026 |
+
+**Cards 3451 to 3475**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.RUN place:13` | [runs/place.portugal/](https://promptugal.news/board/runs/place.portugal/) | runs | place.portugal@ 15 Nov 2026 |
 | `TEAM.RUN place:14` | [runs/place.quarteira/](https://promptugal.news/board/runs/place.quarteira/) | runs | place.quarteira@ 15 Nov 2026 |
 | `TEAM.RUN place:15` | [runs/place.silves/](https://promptugal.news/board/runs/place.silves/) | runs | place.silves@ 15 Nov 2026 |
@@ -69,11 +82,6 @@ source: board/catalogue.json
 | `TEAM.RUN place:3` | [runs/place.algarve/](https://promptugal.news/board/runs/place.algarve/) | runs | place.algarve@ 15 Nov 2026 |
 | `TEAM.RUN place:4` | [runs/place.aljezur/](https://promptugal.news/board/runs/place.aljezur/) | runs | place.aljezur@ 15 Nov 2026 |
 | `TEAM.RUN place:5` | [runs/place.districts/](https://promptugal.news/board/runs/place.districts/) | runs | place.districts@ 16 Nov 2026 |
-
-**Cards 3451 to 3467**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.RUN place:6` | [runs/place.faro/](https://promptugal.news/board/runs/place.faro/) | runs | place.faro@ 15 Nov 2026 |
 | `TEAM.RUN place:7` | [runs/place.lagoa/](https://promptugal.news/board/runs/place.lagoa/) | runs | place.lagoa@ 15 Nov 2026 |
 | `TEAM.RUN place:8` | [runs/place.lagos/](https://promptugal.news/board/runs/place.lagos/) | runs | place.lagos@ 15 Nov 2026 |

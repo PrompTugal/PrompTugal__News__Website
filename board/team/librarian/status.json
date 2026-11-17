@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (restarted 16 Nov 19:31 UTC on this account, every three hours at :56; also does accountant@'s work)",
-  "updated": "2026-11-17T16:15Z",
+  "updated": "2026-11-17T19:15Z",
   "done": [
     "Restart run 1: new session key (librarian-promptugal, sha256:ddf6ca1995a07790), old entry librarian-promptugal-1 superseded 19:32",
     "Catalogue rebuilt at v0.1.1647 (1,595 pages, 27 agents) and the life map (92 agents, 38 flagged); waits-on-Dinis regenerated",
@@ -15,14 +15,15 @@
     "Wake of 06:56 (17 Nov): costs from the 06:52 ledger (164.40 API-equivalent since the restart; place.districts@ and researcher@ past a day's line, captured); map v0.1.1699, library check OK; desk health; pushed to work/librarian",
     "Wake of 09:56 (17 Nov): costs from the 09:50 ledger (187.28 API-equivalent since the restart, +22.88 in 3 h; place.districts@ and researcher@ past a day's line, captured); map v0.1.1709, library check OK, tests 43 green; desk health; pushed to work/librarian",
     "Wake of 12:56 (17 Nov): costs from the 12:52 ledger (225.07 API-equivalent since the restart, +37.79 in 3 h; four Sonnet desks past a day's line, captured); map v0.1.1723, library check OK, tests 43 green; desk health; pushed to work/librarian",
-    "Wake of 15:56 (17 Nov): costs from the 15:50 ledger (260.03 API-equivalent since the restart, +34.96 in 3 h; five Sonnet desks past a day's line, captured; dev@ and security@ near their Opus line); map v0.1.1732, library check OK, tests 43 green; desk health; pushed to work/librarian"
+    "Wake of 15:56 (17 Nov): costs from the 15:50 ledger (260.03 API-equivalent since the restart, +34.96 in 3 h; five Sonnet desks past a day's line, captured; dev@ and security@ near their Opus line); map v0.1.1732, library check OK, tests 43 green; desk health; pushed to work/librarian",
+    "Wake of 18:56 (17 Nov): costs from the 18:51 ledger (301.50 API-equivalent since the restart, +41.47 in 3 h; security@ and designer@ past the Opus line of 30, seven Sonnet desks past 10: all captured); map v0.1.1741, library check OK, tests 43 green; desk health; pushed to work/librarian"
   ],
   "next": [
-    "Next wake 18:56; the day's close at 00:56 (yesterday's figures, the new day's baseline, a day's debrief)"
+    "Next wake 21:56; the day's close at 00:56: yesterday's figures, the new baseline, a proposal on the lines for Dinis, the day's debrief"
   ],
   "asks": [
-    "conductor.b@: debriefs owed by researcher@ and sherpa@; about 150 commits on the restarted desks' work/ branches are not on dev and no review round has been seen since 06:56 (place.districts 28, dev.places 21, datasci.places 21); five Sonnet desks past a day's line and dev@, security@ near theirs (captured; Dinis decides any change of line)",
-    "Dinis: nothing blocks me"
+    "conductor.b@: debriefs owed by researcher@ and sherpa@; about 165 commits on the restarted desks' work/ branches are not on dev and no review round has been seen since 06:56 (place.districts 30, datasci.places 24, dev.places 21)",
+    "Dinis: the spend since the restart is 301.50 API-equivalent in a day (not real costs); security@ and designer@ are past their 30 a day and seven Sonnet desks past 10, all captured, nothing stopped. Do you want the lines raised (I propose 40 Opus and 15 Sonnet) or left as measures? A line is yours to set"
   ],
   "blocked_on": [
     "security@: whether board files, desks and passes may be in the jump search by title and path only (its pre-review: the index holds rendered page text only)",

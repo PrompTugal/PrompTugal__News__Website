@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 1 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T15:59:35Z"
-site_version: "v0.1.1732"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T18:59:13Z"
+site_version: "v0.1.1741"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 1 of 5)
 
-100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.DEC the-story-of-the-name`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.DEC the-positioning-subtitle-and-description`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -96,14 +96,16 @@ source: board/catalogue.json
 | `WRK.BRIEF 2026-11-16T1050Z` | [2026-11-16T1050Z.json](https://promptugal.news/board/editor-briefs/2026-11-16T1050Z.json) | board | conductor@ 16 Nov 2026 |
 | `WRK.BRIEF 2026-11-16T1050Z-then-and-now` | [2026-11-16T1050Z-then-and-now.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-16T1050Z-then-and-now.jpg) | board | conductor@ 16 Nov 2026 |
 | `WRK.BRIEF 2026-11-16T1050Z:2` | [2026-11-16T1050Z.pdf](https://promptugal.news/board/editor-briefs/2026-11-16T1050Z.pdf) | board | conductor@ 16 Nov 2026 |
+| `WRK.BRIEF 2026-11-17-data-site-and-focused-newsrooms` | [Brief: the PrompTugal data site, and focused newsrooms on top](https://promptugal.news/board/briefs/2026-11-17-data-site-and-focused-newsrooms.md) | brief | conductor@ 17 Nov 2026 |
+| `WRK.BRIEF 2026-11-17-provenance-schema` | [The provenance and claims schema: what is in the gate (ontologist@, 17 November 2026)](https://promptugal.news/board/briefs/2026-11-17-provenance-schema.md) | brief | ontologist@ 17 Nov 2026 |
 | `WRK.BRIEF 2026-11-17-sul-informacao` | [Sul Informação: how we read it today, and how to read it properly](https://promptugal.news/board/briefs/2026-11-17-sul-informacao.md) | brief | conductor@ 17 Nov 2026 |
-| `WRK.BRIEF README` | [The conductor's briefs](https://promptugal.news/board/editor-briefs/README.md) | board | conductor@ 6 Nov 2026 |
-| `WRK.BRIEF README:2` | [Evidence: dynamic currency conversion at a Portuguese ATM (17 November 2026)](https://promptugal.news/board/briefs/2026-11-17-dcc-atm/README.md) | brief | conductor@ 17 Nov 2026 |
 
 **Cards 76 to 100**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.BRIEF README` | [The conductor's briefs](https://promptugal.news/board/editor-briefs/README.md) | board | conductor@ 6 Nov 2026 |
+| `WRK.BRIEF README:2` | [Evidence: dynamic currency conversion at a Portuguese ATM (17 November 2026)](https://promptugal.news/board/briefs/2026-11-17-dcc-atm/README.md) | brief | conductor@ 17 Nov 2026 |
 | `WRK.BRIEF agentic-maturity-standards-selection` | [Agentic AI Maturity Mapping  -  Standards Selection & Graph Model Design](https://promptugal.news/board/briefs/gamma-ray/agentic-maturity-standards-selection.md) | brief | conductor@web-summit.dinis 9 Nov 2026 |
 | `WRK.BRIEF atm-screen-1-currency` | [atm-screen-1-currency.jpg](https://promptugal.news/board/briefs/2026-11-17-dcc-atm/img/atm-screen-1-currency.jpg) | brief | conductor@ 17 Nov 2026 |
 | `WRK.BRIEF atm-screen-2-confirm` | [atm-screen-2-confirm.jpg](https://promptugal.news/board/briefs/2026-11-17-dcc-atm/img/atm-screen-2-confirm.jpg) | brief | conductor@ 17 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `WRK.DEC the-budgets-after-the-first-day` | [The budgets after the first day: what to measure, and the one real limit](https://promptugal.news/newsroom/decisions/the-budgets-after-the-first-day/) | decision | accountant@ 6 Nov 2026 |
 | `WRK.DEC the-commercial-relation` | [For Dinis: how we say our commercial relation to the companies we write to](https://promptugal.news/newsroom/decisions/the-commercial-relation/) | decision | synthetic@ 6 Nov 2026 |
 | `WRK.DEC the-positioning-subtitle-and-description` | [For Dinis: the subtitle and the description (Portugal, local news, an agentic newsroom)](https://promptugal.news/newsroom/decisions/the-positioning-subtitle-and-description/) | decision | sherpa@ 16 Nov 2026 |
-| `WRK.DEC the-riskmandate-agent-ipad` | [For Dinis: two appliances for the summit, the RiskMandate Appliance and the PrompTugal Field Reporter](https://promptugal.news/newsroom/decisions/the-riskmandate-agent-ipad/) | decision | customers@ 8 Nov 2026 |
-| `WRK.DEC the-story-of-the-name` | [For Dinis: the story of the name, publish this text?](https://promptugal.news/newsroom/decisions/the-story-of-the-name/) | decision | journalist@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](WRK-2.md)

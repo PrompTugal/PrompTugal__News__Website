@@ -27,28 +27,28 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-3503 cards (1214 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-17T15:59:35Z at site v0.1.1732; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+3511 cards (1222 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-17T18:59:13Z at site v0.1.1741; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `RDR.SHERPA` | 31 |
 | `RDR.SYN` | 5 |
-| `TEAM.ABP` | 120 |
+| `TEAM.ABP` | 123 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
 | `TEAM.INBOX` | 162 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 1945 |
+| `TEAM.ROLE` | 1950 |
 | `TEAM.RUN` | 1208 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261117-0309` [Afternoon pass, 17 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-17/afternoon-items.md) (`TEAM.ROLE afternoon-items`)
-- `ACC-20261117-0308` [ontologist@ to local@PrompTugal.jose, 17 November 2026 (answers to your two requests)](https://promptugal.news/board/team/ontologist/replies/2026-11-17-to-local-jose.md) (`TEAM.ROLE 2026-11-17-to-local-jose`)
-- `ACC-20261117-0307` [place.algarve.west@PrompTugal.dinis: hand-over debrief, 17 November 2026](https://promptugal.news/board/team/place.algarve.west/debriefs/2026-11-17-handover.md) (`TEAM.ROLE 2026-11-17-handover:14`)
-- `ACC-20261117-0306` [security@ wake, 17 November 2026, 14:05 UTC](https://promptugal.news/board/team/security/reviews/2026-11-17-1405-wake.md) (`TEAM.ROLE 2026-11-17-1405-wake`)
-- `ACC-20261117-0305` [ABP report, 17 November 15:37 UTC: conductor@ edits the site's top](https://promptugal.news/board/abp/reports/2026-11-17-1537.md) (`TEAM.ABP 2026-11-17-1537`)
+- `ACC-20261117-0357` [Evening pass, 17 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-17/evening-items.md) (`TEAM.ROLE evening-items`)
+- `ACC-20261117-0356` [dev@PrompTugal.dinis: hand-over debrief, 17 November 2026](https://promptugal.news/board/team/dev/debriefs/2026-11-17-handover.md) (`TEAM.ROLE 2026-11-17-handover:16`)
+- `ACC-20261117-0355` [Hand-over: correspondent@PrompTugal.dinis, 17 November 2026](https://promptugal.news/board/team/correspondent/debriefs/2026-11-17-handover.md) (`TEAM.ROLE 2026-11-17-handover:15`)
+- `ACC-20261117-0354` [security@ wake, 17 November 2026, 18:05 UTC](https://promptugal.news/board/team/security/reviews/2026-11-17-1805-wake.md) (`TEAM.ROLE 2026-11-17-1805-wake`)
+- `ACC-20261117-0353` [security@ wake, 17 November 2026, 16:05 UTC](https://promptugal.news/board/team/security/reviews/2026-11-17-1605-wake.md) (`TEAM.ROLE 2026-11-17-1605-wake`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

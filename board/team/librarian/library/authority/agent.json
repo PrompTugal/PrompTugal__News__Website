@@ -2531,12 +2531,13 @@
    "forms": [
     "claims-issuer-promptugal",
     "observability-promptugal",
+    "observability-promptugal-2",
     "observability@",
     "observability@PrompTugal.dinis"
    ],
    "heading": "observability@PrompTugal.dinis",
    "id": "auth:agent:observability",
-   "key_id": "observability-promptugal",
+   "key_id": "observability-promptugal-2",
    "key_ids": [
     {
      "added": "2026-11-06",
@@ -2550,6 +2551,13 @@
      "fingerprint": "sha256:2be4372a9ba5de94",
      "id": "observability-promptugal",
      "signing_fingerprint": "sha256:510645ab1d366802",
+     "status": "superseded"
+    },
+    {
+     "added": "2026-11-17",
+     "fingerprint": "sha256:b638172041d2eaa4",
+     "id": "observability-promptugal-2",
+     "signing_fingerprint": "sha256:b0c9c8a018107f20",
      "status": "active"
     }
    ],
@@ -2563,6 +2571,7 @@
    "see_from": [
     "claims-issuer-promptugal",
     "observability-promptugal",
+    "observability-promptugal-2",
     "observability@"
    ]
   },
