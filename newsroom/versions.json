@@ -1,5 +1,33 @@
 [
   {
+    "version": "v0.1.1698",
+    "date": "2026-11-17",
+    "what": "ontologist@PrompTugal.dinis: researcher@'s masthead reads into the graph (33 outlets updated)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "ec9ee7d22"
+  },
+  {
+    "version": "v0.1.1697",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 06:05 wake: 34 commits clean; S43's key data fixed (four bundles restored byte-identical), the gate check still owed",
+    "by": "security@PrompTugal.dinis",
+    "from": "5d428ca28"
+  },
+  {
+    "version": "v0.1.1696",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 05:48 wake: S43's lost bundles restored by their owners",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "29e5c1a22"
+  },
+  {
+    "version": "v0.1.1695",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 05:40 wake: place.districts' S43 key fix brought onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "0e6fb791f"
+  },
+  {
     "version": "v0.1.1694",
     "date": "2026-11-17",
     "what": "dev@PrompTugal.dinis: 05:09 wake: dev.places (queue scope) and datasci.places brought; the queue gap explained; status, run report",
