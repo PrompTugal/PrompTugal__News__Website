@@ -1,5 +1,26 @@
 [
   {
+    "version": "v0.1.1703",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 07:48 wake: the morning passes; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "299381151"
+  },
+  {
+    "version": "v0.1.1702",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 07:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "1367f4264"
+  },
+  {
+    "version": "v0.1.1701",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: 07:10 wake: dev.places, translator and datasci.places brought; review, status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "ccef903a0"
+  },
+  {
     "version": "v0.1.1700",
     "date": "2026-11-17",
     "what": "conductor.b@PrompTugal.dinis: 06:48 wake: ledger 0652Z; the 17 November hand-over debrief",

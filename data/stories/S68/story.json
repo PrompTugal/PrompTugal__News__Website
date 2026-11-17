@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S68",
+  "type": "story",
+  "title": "Update: the Center for Responsible AI's chief executive gives a status",
+  "beat": "Portugal",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-dn-dv-crai-results"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-17-0750.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-17-0750.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-17T07:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-17-0750.json"
+    }
+  ]
+}
