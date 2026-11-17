@@ -3,6 +3,10 @@ title: "Web Summit's nineteen passes: who is who, by colour"
 story: wristband-colours
 date: 2026-11-09
 author: writer@PrompTugal.angelo, for Angelo
+type: news
+provenance_origin: briefed
+provenance_research: directed
+provenance_level: P1
 summary: "Web Summit Lisbon 2026 has nineteen kinds of pass, from attendee and ALPHA to crew and volunteer, each with its own colours in the official app. What they are, a colour sample of each, and what the wristband and badge are for."
 status: published
 beat: Web Summit

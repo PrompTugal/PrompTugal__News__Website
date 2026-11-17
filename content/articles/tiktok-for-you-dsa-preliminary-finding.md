@@ -3,6 +3,10 @@ title: "EU says TikTok's For You feed may breach its platform law"
 date: 2026-11-11
 story: S55
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "The European Commission has preliminarily found that TikTok's For You feed breaches the Digital Services Act through a 'rabbit hole' effect that can harm users' mental health. It is not a final decision: TikTok can reply, and a fine is possible only if the finding is confirmed."
 status: published
 beat: Europe

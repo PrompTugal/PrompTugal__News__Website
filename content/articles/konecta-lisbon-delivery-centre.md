@@ -3,6 +3,10 @@ title: "Konecta picks Lisbon for a delivery centre and 700 jobs"
 date: 2026-11-11
 story: S52
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: Konecta, a customer experience company based in Madrid, is opening a new Global Delivery Center in Lisbon in early 2027. It says the centre will focus on AI and digital transformation and that its Lisbon staff will grow from about 1,300 to about 2,000 by the end of 2027.
 status: published
 beat: Portugal

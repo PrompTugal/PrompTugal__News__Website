@@ -2,10 +2,99 @@
   "$schema": "../../schemas/organisation.schema.json",
   "id": "postal-do-algarve",
   "type": "organisation",
+  "kind": "media",
   "name": "Postal do Algarve",
   "names_as_listed": [
     "Postal do Algarve"
   ],
+  "note": "Taken over by hand from the derived listing by ontologist@ on 17 November 2026, from local@PrompTugal.jose's reading of the outlet's own site (desks/local-jose/towns/loule.json). No people recorded: Jose has asked that staff data stay private and the question is with Dinis.",
+  "media": {
+    "outlet_kind": "regional-newspaper",
+    "places_covered": [
+      "place:algarve",
+      "place:loule",
+      "place:quarteira"
+    ],
+    "language": [
+      "pt-PT"
+    ],
+    "website": "https://postal.pt/",
+    "owner": {
+      "name": "POSTAL do ALGARVE – Publicações e Editores, Lda.",
+      "source": {
+        "url": "https://postal.pt/postal/contactos/",
+        "read_at": "2026-11-17T11:50Z",
+        "how": "the Ficha técnica e contactos page names it as publisher (Edição)"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://postal.pt/feed/",
+        "format": "rss",
+        "scope": "all latest articles, national ones included",
+        "source": {
+          "url": "https://postal.pt/feed/",
+          "read_at": "2026-11-17T11:50Z",
+          "how": "fetched: an RSS 2.0 channel, language pt-PT, 50 items, last built 17 November 2026; linked as the alternate feed in the home page head"
+        }
+      },
+      {
+        "url": "https://postal.pt/algarve/feed/",
+        "format": "rss",
+        "scope": "the Algarve section",
+        "source": {
+          "url": "https://postal.pt/algarve/feed/",
+          "read_at": "2026-11-17T11:50Z",
+          "how": "fetched: an RSS 2.0 channel titled \"Algarve | Postal\", 50 items, last built 17 November 2026"
+        }
+      },
+      {
+        "url": "https://postal.pt/tag/loule/feed/",
+        "format": "rss",
+        "scope": "stories tagged Loulé; little used",
+        "source": {
+          "url": "https://postal.pt/tag/loule/feed/",
+          "read_at": "2026-11-17T11:50Z",
+          "how": "fetched: 2 items, last built 26 September 2026. The tag feeds for Quarteira (3 items, August 2026) and Almancil (1 item, March 2025) exist at the same pattern and are as thin: the Algarve section feed is the one to read"
+        }
+      },
+      {
+        "url": "https://postal.pt/wp-json/wp/v2/posts",
+        "format": "api",
+        "scope": "the site's WordPress REST API, latest posts as JSON",
+        "source": {
+          "url": "https://postal.pt/wp-json/wp/v2/posts?per_page=1",
+          "read_at": "2026-11-17T11:50Z",
+          "how": "fetched once with one post asked for: answered 200 as JSON"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://postal.pt/postal/contactos/",
+      "source": {
+        "url": "https://postal.pt/postal/contactos/",
+        "read_at": "2026-11-17T11:50Z",
+        "how": "the outlet's own \"Contactos e ficha técnica\" page, linked from its footer: the newsroom's contact. Nothing copied here"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://postal.pt/",
+        "read_at": "2026-11-17T11:50Z",
+        "how": "home page read: titled \"Postal – Informação, Opinião e Conteúdos Especiais\"; Algarve stories on it today"
+      },
+      {
+        "url": "https://postal.pt/postal/contactos/",
+        "read_at": "2026-11-17T11:50Z",
+        "how": "the page shows ERC title registration nº 111 613; newsroom in Tavira; a weekly paper edition sold on Fridays and a daily online edition"
+      },
+      {
+        "url": "https://postal.pt/robots.txt",
+        "read_at": "2026-11-17T11:50Z",
+        "how": "robots.txt read: all paths allowed to all readers"
+      }
+    ]
+  },
   "sources": [
     {
       "url": "https://postal.pt/algarve/empresa-de-loule-lanca-plataforma-best-number-one-no-web-summit-e-ultrapassa-300-inscricoes/",
@@ -13,13 +102,5 @@
       "by": "curator@PrompTugal.vicky",
       "how": "named in a research capture, as the curator mapped it"
     }
-  ],
-  "derived": {
-    "by": "newsroom/tools/derive.mjs",
-    "from": [
-      "desks/programme/agenda.json",
-      "desks/curator/",
-      "data/companies/"
-    ]
-  }
+  ]
 }

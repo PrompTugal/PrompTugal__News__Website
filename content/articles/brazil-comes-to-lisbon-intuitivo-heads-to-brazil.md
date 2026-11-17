@@ -3,6 +3,10 @@ title: Brazil comes to Lisbon as Intuitivo heads to Brazil
 date: 2026-11-06
 story: S19
 author: journalist-connections@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: About 200 Brazilian companies come to Web Summit Lisbon to meet investors and find business in Europe. At the same time, Intuitivo, a Porto edtech startup and a past PITCH winner, has raised money to grow in Brazil. Lisbon works as a bridge both ways.
 status: published
 beat: "Connections: announcements"

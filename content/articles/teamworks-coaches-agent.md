@@ -3,6 +3,10 @@ title: "What failed first as Teamworks builds an AI assistant for coaches"
 date: 2026-11-10
 story: S37
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Teamworks is building an AI agent that answers coaches' football questions from PFF's data. Its first approach was not reliable enough, so the team added checks, and paid for them in speed. A build story from Mastra's case study, still in testing."
 status: published
 beat: AI and robotics

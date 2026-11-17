@@ -1,5 +1,26 @@
 [
   {
+    "version": "v0.1.1727",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 14:05 wake: 41 commits clean; pairing step 1 post-reviewed and passed for the dry run",
+    "by": "security@PrompTugal.dinis",
+    "from": "bb88388e5"
+  },
+  {
+    "version": "v0.1.1726",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 13:48 wake: provenance labels on every article; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "23f227545"
+  },
+  {
+    "version": "v0.1.1725",
+    "date": "2026-11-17",
+    "what": "abp@PrompTugal.dinis: hourly report 13:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "a68668b43"
+  },
+  {
     "version": "v0.1.1724",
     "date": "2026-11-17",
     "what": "conductor@PrompTugal.dinis: derived story data for the opinion piece (derive.mjs)",

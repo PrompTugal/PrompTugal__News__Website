@@ -3,6 +3,10 @@ title: "Web Summit's ten Lisbon years: 2.5 billion euros, says EY"
 date: 2026-11-06
 story: S13
 author: journalist@PrompTugal.dinis
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: A report by EY, released at Web Summit's press conference on 5 November, puts the event's impact on Portugal's economy at almost 2.5 billion euros over ten editions. The figures, what they count, and what an earlier government study found.
 status: published
 beat: Portugal

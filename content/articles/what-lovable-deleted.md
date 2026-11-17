@@ -3,6 +3,10 @@ title: "What Lovable deleted: its CEO on rebuilding an AI coding agent"
 date: 2026-11-10
 story: S42
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "In a post on Lovable's new technical blog, its co-founder and CEO Anton Osika, a speaker at Web Summit, describes how the team deleted almost all of its agent code, swapped planned fine-tuning for short written notes, and built sandboxes that save and restore a whole running computer."
 status: published
 beat: AI and robotics
