@@ -33,6 +33,44 @@
   ],
   "gaps": [
     "Site could not be read; owner, masthead, contacts unverified",
-    "https://sicnoticias.pt/rss returned 403"
+    "https://sicnoticias.pt/rss returned 403",
+    "SIC masthead from Wikipedia only (Impresa transparency page not fetchable); dedicated technology reporter not found (2026-11-17)"
+  ],
+  "people": [
+    {
+      "name": "Bernardo Ferrão",
+      "role": "Director of Information (per Wikipedia, may be out of date)",
+      "beat": "channel direction",
+      "source_url": "https://pt.wikipedia.org/wiki/SIC_Not%C3%ADcias",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "José Gomes Ferreira",
+      "role": "Deputy Director of Information; presents Negócios da Semana",
+      "beat": "economy and business",
+      "source_url": "https://pt.wikipedia.org/wiki/SIC_Not%C3%ADcias",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Marta Brito dos Reis",
+      "role": "Deputy Director of Information",
+      "beat": "channel direction",
+      "source_url": "https://pt.wikipedia.org/wiki/SIC_Not%C3%ADcias",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Martim Silva",
+      "role": "Deputy Editor of Information",
+      "beat": "editing",
+      "source_url": "https://pt.wikipedia.org/wiki/SIC_Not%C3%ADcias",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Patrícia Moreira",
+      "role": "Deputy Editor of Information",
+      "beat": "editing",
+      "source_url": "https://pt.wikipedia.org/wiki/SIC_Not%C3%ADcias",
+      "read_at": "2026-11-17"
+    }
   ]
 }

@@ -37,6 +37,55 @@
       "role": "Director",
       "source_url": "https://zap.aeiou.pt/ficha-tecnica",
       "read_at": "2026-11-16"
+    },
+    {
+      "name": "Armando José de Carvalho Batista",
+      "role": "Director (ERC register; ficha técnica \"Armando Batista\")",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Adriana Peixoto",
+      "role": "Journalist (redação)",
+      "beat": "beat not stated",
+      "source_url": "https://zap.aeiou.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Miguel Esteves",
+      "role": "Journalist (redação)",
+      "beat": "beat not stated",
+      "source_url": "https://zap.aeiou.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Nuno Teixeira da Silva",
+      "role": "Journalist (redação)",
+      "beat": "beat not stated",
+      "source_url": "https://zap.aeiou.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Soraia Ferreira",
+      "role": "Journalist (redação)",
+      "beat": "beat not stated",
+      "source_url": "https://zap.aeiou.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Teresa Oliveira Campos",
+      "role": "Journalist (redação)",
+      "beat": "beat not stated",
+      "source_url": "https://zap.aeiou.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Tomás Guimarães",
+      "role": "Journalist (redação)",
+      "beat": "beat not stated",
+      "source_url": "https://zap.aeiou.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
     }
   ],
   "sources": [
@@ -56,6 +105,7 @@
   "gaps": [
     "Email addresses on the page are obfuscated; not recorded",
     "Redação names listed (Adriana Peixoto, Miguel Esteves, Nuno Teixeira da Silva, Soraia Ferreira, Teresa Oliveira Campos, Tomás Guimarães) without beats; not recorded as tech beat",
-    "ZAP tech items are bylined 'ZAP' or agencies (AFP); no tech reporter named in the RSS. (read 2026-11-16)"
+    "ZAP tech items are bylined 'ZAP' or agencies (AFP); no tech reporter named in the RSS. (read 2026-11-16)",
+    "ZAP ficha técnica assigns no one to the Tecnologia section (2026-11-17)"
   ]
 }

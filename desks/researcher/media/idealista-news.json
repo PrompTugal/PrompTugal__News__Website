@@ -27,6 +27,44 @@
   ],
   "gaps": [
     "Owner, masthead, contacts not read",
-    "https://idealista.pt/news/feed returned 403 (bot protection); feed unverified"
+    "https://idealista.pt/news/feed returned 403 (bot protection); feed unverified",
+    "idealista/news about page returned 403 to direct fetch; names come from search-result snippets of the site pages (2026-11-17)"
+  ],
+  "people": [
+    {
+      "name": "Tânia Ferreira",
+      "role": "Leads idealista/news Portugal (per her own bio; formal title not confirmed)",
+      "beat": "real estate, housing, economy and finance",
+      "source_url": "https://www.idealista.pt/news/about-us",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Frederico Gonçalves",
+      "role": "Journalist, idealista/news since 2010",
+      "beat": "real estate sector",
+      "source_url": "https://www.idealista.pt/news/quem-somos/frederico-goncalves",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Vanessa Sousa",
+      "role": "Journalist, joined 2021",
+      "beat": "data journalism on real estate and finance",
+      "source_url": "https://www.idealista.pt/news/about-us",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Catarina Brazão",
+      "role": "Journalist",
+      "beat": "real estate (beat not stated)",
+      "source_url": "https://www.idealista.pt/news/about-us",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Catarina Beato",
+      "role": "Journalist",
+      "beat": "real estate (beat not stated)",
+      "source_url": "https://www.idealista.pt/news/about-us",
+      "read_at": "2026-11-17"
+    }
   ]
 }

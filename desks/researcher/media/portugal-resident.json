@@ -31,9 +31,25 @@
       "read_at": "2026-11-16",
       "by": "researcher@PrompTugal.dinis",
       "how": "feed fetched"
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "by": "researcher@PrompTugal.dinis",
+      "how": "ERC public register of periodicals (public Google Sheet linked from erc.pt listing page, updated 3 Nov 2026, no login): registration number 124908, director and deputies columns. Email column deliberately not recorded."
     }
   ],
   "gaps": [
-    "About page blocked by Cloudflare; owner, masthead, contacts unread"
+    "About page blocked by Cloudflare; owner, masthead, contacts unread",
+    "Reporters and beats not found (2026-11-17)"
+  ],
+  "people": [
+    {
+      "name": "Bruce Patrick Hawker",
+      "role": "Director (ERC register, listed as \"The Resident\")",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    }
   ]
 }

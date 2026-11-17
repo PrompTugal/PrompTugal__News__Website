@@ -76,6 +76,27 @@
       "beat": "technology (Nvidia/Megaspeed, Microsoft outage coverage)",
       "source_url": "https://observador.pt/2026/11/15/caso-nvidia-tecnologica-megaspeed-diz-que-executiva-alice-huang-deixou-a-empresa-em-2025/",
       "read_at": "2026-11-16"
+    },
+    {
+      "name": "Miguel Ângelo Montes Terra Pinheiro",
+      "role": "Director (ERC register)",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Ricardo Conceição",
+      "role": "Subdirector (ERC register)",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "João Santos Duarte",
+      "role": "Subdirector (ERC register)",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
     }
   ],
   "sources": [
@@ -107,6 +128,7 @@
   "gaps": [
     "Public editorial address not extracted from contacts page",
     "Lisbon AI Week listed in the site menu, not investigated",
-    "Observador Tech desk editor not named on any page read; bylines only."
+    "Observador Tech desk editor not named on any page read; bylines only.",
+    "Observador /tecnologia page names no staff bylines (only opinion pieces); no tech reporter identified (2026-11-17)"
   ]
 }

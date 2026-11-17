@@ -62,6 +62,83 @@
       "beat": "entrepreneurship, startups, AI (opinion)",
       "source_url": "https://eco.sapo.pt/opiniao/visibilidade-nao-e-crescimento/",
       "read_at": "2026-11-16"
+    },
+    {
+      "name": "António Augusto Ramos Oliveira Costa",
+      "role": "Director (ERC register)",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "André Veríssimo",
+      "role": "Subdirector",
+      "beat": "deputy direction",
+      "source_url": "https://eco.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Tiago Freire",
+      "role": "Subdirector",
+      "beat": "deputy direction",
+      "source_url": "https://eco.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Francisco Botelho",
+      "role": "Editor; director of ECOseguros",
+      "beat": "insurance",
+      "source_url": "https://eco.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Carla Borges Ferreira",
+      "role": "Editor; head of +M",
+      "beat": "marketing, advertising and media",
+      "source_url": "https://eco.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Isabel Patrício",
+      "role": "Editor; head of Trabalho",
+      "beat": "labour",
+      "source_url": "https://eco.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Rita Atalaia",
+      "role": "Editor; head of EContas",
+      "beat": "personal finance",
+      "source_url": "https://eco.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Ana Marcela",
+      "role": "Editor; head of eRadar",
+      "beat": "eRadar",
+      "source_url": "https://eco.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Alexandre Batista",
+      "role": "Editor; Local Online",
+      "beat": "local",
+      "source_url": "https://eco.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Ana Batalha Oliveira",
+      "role": "Head of Capital Verde",
+      "beat": "sustainability",
+      "source_url": "https://eco.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Filipa Ambrósio de Sousa",
+      "role": "Editor; head of Advocatus",
+      "beat": "law",
+      "source_url": "https://eco.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
     }
   ],
   "sources": [
@@ -81,6 +158,7 @@
   "gaps": [
     "Contact address is obfuscated on the page; not recorded",
     "Technology section editor not identified",
-    "ECO tech/startups reporters (Pessoas/Tech) not identified: the section pages read name no bylines in a fetchable form; ECO's own /autores/ page not parsed in this pass. ECO also holds ERC numbers for its channels (ECO Seguros 127454, Capital Verde 127461, Fundos Europeus 127621, Local Online 127824, +M 127867, Trabalho 127921, EContas 128203, eRadar 128183, Eco Avenida 128142) on https://eco.sapo.pt/ficha-tecnica/, read 2026-11-16."
+    "ECO tech/startups reporters (Pessoas/Tech) not identified: the section pages read name no bylines in a fetchable form; ECO's own /autores/ page not parsed in this pass. ECO also holds ERC numbers for its channels (ECO Seguros 127454, Capital Verde 127461, Fundos Europeus 127621, Local Online 127824, +M 127867, Trabalho 127921, EContas 128203, eRadar 128183, Eco Avenida 128142) on https://eco.sapo.pt/ficha-tecnica/, read 2026-11-16.",
+    "ECO ficha técnica lists editors by brand but no tech/AI section editor (2026-11-17)"
   ]
 }

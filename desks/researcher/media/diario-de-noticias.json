@@ -35,6 +35,48 @@
       "role": "Redação (member of Conselho de Redação)",
       "source_url": "https://www.dn.pt/ficha-tecnica",
       "read_at": "2026-11-16"
+    },
+    {
+      "name": "Filipe dos Santos Alves",
+      "role": "Director (ERC register and ficha técnica; Global Notícias)",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Leonídio Paulo Ferreira",
+      "role": "Deputy director",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Nuno Vinha",
+      "role": "Deputy director",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Cecília Carmo",
+      "role": "Subdirector",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Margarida Vaqueiro Lopes",
+      "role": "Subdirector (also Dinheiro Vivo deputy director)",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Raquel Baptista Lopes",
+      "role": "Digital coordination",
+      "beat": "digital",
+      "source_url": "https://www.dn.pt/ficha-tecnica",
+      "read_at": "2026-11-17"
     }
   ],
   "sources": [
@@ -54,6 +96,7 @@
   "gaps": [
     "No RSS feed verified: https://www.dn.pt/rss returned 404",
     "Contacts page URL taken from site footer link label, not fetched",
-    "Tech or economy desk bylines not identified"
+    "Tech or economy desk bylines not identified",
+    "DN ficha técnica names no section beats; tech/economy reporters not identified (2026-11-17)"
   ]
 }

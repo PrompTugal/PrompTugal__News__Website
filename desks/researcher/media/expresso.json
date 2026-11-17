@@ -35,6 +35,44 @@
     "Site could not be read (bot protection); owner, masthead, contacts, feed all unverified",
     "https://expresso.pt/rss returned 403",
     "Not guessed",
-    "Expresso tecnologia section and RSS returned HTTP 403 to this client; no tech bylines read. (read 2026-11-16)"
+    "Expresso tecnologia section and RSS returned HTTP 403 to this client; no tech bylines read. (read 2026-11-16)",
+    "Expresso site blocked (403) from this environment: current tech, economy and politics editors not found; Hugo Séneca byline dates from 2022 and should be re-checked (2026-11-17)"
+  ],
+  "people": [
+    {
+      "name": "João Pedro da Conceição Vieira Pereira",
+      "role": "Director (ERC register; Impresa Publishing)",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "David Dinis",
+      "role": "Deputy director (ERC register)",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Miguel Cadete",
+      "role": "Deputy director (ERC register)",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Paula Santos",
+      "role": "Deputy director (ERC register)",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Hugo Séneca",
+      "role": "Technology journalist (external contributor, as credited in a 2022 Expresso piece)",
+      "beat": "technology",
+      "source_url": "https://www.srslegal.pt/xms/files/Comunicacao/SRS_na_Imprensa/2022/2022_10_28_Expresso_Bots_LNG.pdf",
+      "read_at": "2026-11-17"
+    }
   ]
 }

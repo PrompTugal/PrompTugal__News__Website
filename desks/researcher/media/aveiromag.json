@@ -48,5 +48,14 @@
     "email not captured",
     "people: team list not read",
     "RSS: /rss returned an HTML page, not a feed"
+  ],
+  "people": [
+    {
+      "name": "Maria José Teixeira Santana",
+      "role": "Director (ERC register)",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    }
   ]
 }

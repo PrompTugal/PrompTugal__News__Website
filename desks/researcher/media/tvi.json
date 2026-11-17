@@ -40,6 +40,23 @@
     }
   ],
   "gaps": [
-    "Owner, masthead, contacts not read; only the feed was checked"
+    "Owner, masthead, contacts not read; only the feed was checked",
+    "TVI names from Wikipedia only and probably dated; Media Capital transparency page not fetched (2026-11-17)"
+  ],
+  "people": [
+    {
+      "name": "José Eduardo Moniz",
+      "role": "Director-General of TVI (per Wikipedia, may be out of date)",
+      "beat": "channel direction",
+      "source_url": "https://pt.wikipedia.org/wiki/TVI_(Portugal)",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Nuno Santos",
+      "role": "Director of Information of TVI (per Wikipedia, may be out of date)",
+      "beat": "news direction",
+      "source_url": "https://pt.wikipedia.org/wiki/TVI_(Portugal)",
+      "read_at": "2026-11-17"
+    }
   ]
 }

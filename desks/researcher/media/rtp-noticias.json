@@ -53,6 +53,16 @@
   ],
   "gaps": [
     "Masthead not read",
-    "Public email not extracted"
+    "Public email not extracted",
+    "RTP tech and business reporters not identified (2026-11-17)"
+  ],
+  "people": [
+    {
+      "name": "Vítor Gonçalves",
+      "role": "Director of Information, RTP (per Wikipedia, RTP3 article)",
+      "beat": "channel direction",
+      "source_url": "https://pt.wikipedia.org/wiki/RTP_Not%C3%ADcias",
+      "read_at": "2026-11-17"
+    }
   ]
 }

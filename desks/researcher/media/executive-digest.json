@@ -51,5 +51,56 @@
     "Ficha técnica (owner, directors) not read",
     "Publisher company name not confirmed (email domain multipublicacoes.pt only)",
     "Executive Digest's tech section is the 'Executive IT' brand; the feed names no individual reporter for it (items carry 'Executive IT' as author); none recorded. (read 2026-11-16)"
+  ],
+  "people": [
+    {
+      "name": "Ricardo Jorge Isidro Carneiro Florêncio",
+      "role": "Director (ERC register; ficha técnica \"Ricardo Florêncio\")",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "João Silva Gil",
+      "role": "Deputy director",
+      "beat": "business magazine",
+      "source_url": "https://executivedigest.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Mª João Vieira Pinto",
+      "role": "Deputy director",
+      "beat": "business magazine",
+      "source_url": "https://executivedigest.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Rita Paz",
+      "role": "Digital executive editor",
+      "beat": "digital edition",
+      "source_url": "https://executivedigest.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "André Manuel Mendes",
+      "role": "Journalist (redação)",
+      "beat": "beat not stated",
+      "source_url": "https://executivedigest.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Francisco Laranjeira",
+      "role": "Journalist (redação)",
+      "beat": "beat not stated",
+      "source_url": "https://executivedigest.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Pedro Gonçalves",
+      "role": "Journalist (redação)",
+      "beat": "beat not stated",
+      "source_url": "https://executivedigest.sapo.pt/ficha-tecnica/",
+      "read_at": "2026-11-17"
+    }
   ]
 }

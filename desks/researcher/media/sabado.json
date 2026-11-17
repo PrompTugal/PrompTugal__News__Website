@@ -50,6 +50,34 @@
       "role": "Diretora-Executiva",
       "source_url": "https://www.sabado.pt/a-sabado/detalhe/ficha-tecnica",
       "read_at": "2026-11-16"
+    },
+    {
+      "name": "Carlos Filipe Espinho Rodrigues",
+      "role": "Director (ERC register, shared with Correio da Manhã)",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Armando Esteves Pereira",
+      "role": "Deputy director (ERC register)",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Eduardo Dâmaso",
+      "role": "Deputy director (ERC register)",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    },
+    {
+      "name": "Bernardo Ribeiro",
+      "role": "Deputy director (ERC register)",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
     }
   ],
   "sources": [

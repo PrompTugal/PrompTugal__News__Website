@@ -37,6 +37,16 @@
     }
   ],
   "gaps": [
-    "Outlet site returned 403 (rr.pt) and 410 (rr.sapo.pt); masthead, contacts, feed unverified"
+    "Outlet site returned 403 (rr.pt) and 410 (rr.sapo.pt); masthead, contacts, feed unverified",
+    "rr.pt/fichatecnica blocked (403): Director de Informação not named in any source reached; Pedro Leal was director of information in an older university interview, not confirmed current (2026-11-17)"
+  ],
+  "people": [
+    {
+      "name": "José Luís Ramos Pinheiro",
+      "role": "Head of the radio division, Renascença Multimédia (per RedTech Magazine, Jul/Aug 2026)",
+      "beat": "radio division management",
+      "source_url": "https://www.redtech.pro/grupo-renascenca-multimedia-responds-to-tech-and-audience-shifts/",
+      "read_at": "2026-11-17"
+    }
   ]
 }

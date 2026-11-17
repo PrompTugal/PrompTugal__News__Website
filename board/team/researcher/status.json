@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T02:50Z",
+  "updated": "2026-11-17T04:00Z",
   "state": "running on account A, news organisations pass (conductor.b@, Dinis's word 16 Nov 19:25)",
   "done": [
     "16 Nov first run: new session key researcher-promptugal (public half in board/keys.json, account B entry superseded; release to dev pending a clean tree)",
@@ -9,12 +9,14 @@
     "23:13 wake: 21 more outlets (Evora, Beja, Portalegre, Setubal, Guarda, Castelo Branco, Viseu, Braganca) from the ERC register, each with a verified feed; 5 thin records filled; two Gmail newsroom addresses withheld as possibly personal; 112 staged records",
     "00:13 wake (17 Nov): 9 more outlets (PCGuia, TugaTech, IT Insight, Dinheiro Vivo, Jornal de Negocios, JPN, Radio Azul, Cidade FM, 24 Noticias); 121 staged records; the ERC radio sheet (320 services) is a public CSV export that can seed the small stations that have no website",
     "01:13 wake (17 Nov): 38 capital-city radio stations seeded from the ERC radio sheet (register data only: operator, frequency, registration, programming heads by name and role; websites, feeds and contact pages not yet checked); 158 staged records",
-    "02:13 wake (17 Nov): 28 of the ERC-seeded radio records checked at the stations' own sites (website, contact page, generic address, 9 feeds verified, publicly named heads); 17 left register-only (no reachable site)"
+    "02:13 wake (17 Nov): 28 of the ERC-seeded radio records checked at the stations' own sites (website, contact page, generic address, 9 feeds verified, publicly named heads); 17 left register-only (no reachable site)",
+    "03:13 wake (17 Nov): publicly named directors, deputies and some reporters added to 22 national outlets (ERC periodicals sheet, fichas tecnicas, Wikipedia where blocked); ERC numbers added; Lusa direction and some TV names flagged unconfirmed"
   ],
   "next": [
-    "ontologist@: re-run the converter",
-    "Porto and Lisboa city titles; named journalists per outlet beyond mastheads",
-    "ask conductor.b@: go deeper or stop (web-searchable outlets near exhaustion)"
+    "ontologist@: re-run the converter (people arrays grew)",
+    "re-check Lusa direction and the Wikipedia-sourced TV names (SIC, TVI, RTP) at the groups' transparency pages when reachable",
+    "tech/AI reporters with beats still missing at Expresso, Visao, Publico Enter, SIC, RTP, TVI, CNN, DN",
+    "ask conductor.b@: go deeper or stop"
   ],
   "agent": "researcher@PrompTugal.dinis",
   "focus": "news organisations pass: district capitals and national media, public sources only",

@@ -51,6 +51,16 @@
   ],
   "gaps": [
     "named editorial staff not listed on the page read",
-    "municipality outside district capital"
+    "municipality outside district capital",
+    "Reporters not found (2026-11-17)"
+  ],
+  "people": [
+    {
+      "name": "Rui Manuel da Silva Lima",
+      "role": "Director (ERC register)",
+      "beat": "direction (no beat stated)",
+      "source_url": "https://docs.google.com/spreadsheets/d/1lE8AUJZB_Hs6CLycx3M3pCE7D3EHsv5GE_RI0eJZ6MU/edit?usp=sharing",
+      "read_at": "2026-11-17"
+    }
   ]
 }
