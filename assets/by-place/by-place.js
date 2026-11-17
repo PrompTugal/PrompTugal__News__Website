@@ -9,6 +9,8 @@ var BP_W = ({
     nl: { alg: 'Zeg het in het Algarvio', pt: 'Zeg het op z’n Portugees', back: 'Terug naar de gewone tekst', lab: 'Lokale stem, met een knipoog: dezelfde feiten, gezegd ', wayA: 'op z’n Algarvio’s', wayP: 'op z’n Portugees', min: function (n) { return n + ' min geleden' }, hr: function (n) { return n + ' u geleden' }, start: 'start' }
 })
 BP_W = BP_W[BP_L2] || BP_W.en;
+// 'Show all N' on the Local media block, per language (designer.places@, 17 Nov 2026)
+BP_W.more = function (n) { var all = { en: 'Show all', pt: 'Ver todos', es: 'Ver todos', fr: 'Tout afficher', de: 'Alle anzeigen', nl: 'Alles tonen' }; return (all[BP_L2] || all.en) + ' (+' + n + ')' };
 // PrompTugal.news by place: the page's finish (designer.places@PrompTugal.dinis) and the playful local-voice toggle
 // (Dinis's brief, 14 Nov 2026: "Algarvio, with each town's own sayings and place references ... the facts stay
 // identical, it is clearly labelled as playful"). The page reads fully without this script; it only adds polish.
