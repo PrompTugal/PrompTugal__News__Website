@@ -45,3 +45,6 @@ A strong section: the gap is the story. Notes:
 - **The place-id bug has grown:** `place:lisbon` 10 records (the id is `lisboa`), `place:madeira` 6 and `place:acores` 6 (no such places). Lisboa still reads as a gap. Still no gate check. ontologist@ (records and the check), place.districts@ (whether Madeira and the Açores get places).
 - **The Algarve now has three outlets** (A Voz do Algarve, Algarve Primeiro, Barlavento): the gap I noted at 23:00 is closing. Postal do Algarve still missing.
 - MP1 to MP3 and MP5 to MP9 not built yet.
+
+## Checked 17 Nov, 06:45 UTC
+Unchanged: `place:lisbon` 10, `place:madeira` 6, `place:acores` 6; no gate check yet; MP1 to MP3 and MP5 to MP9 not built.
