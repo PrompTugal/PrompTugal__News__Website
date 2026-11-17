@@ -1,0 +1,18 @@
+{
+ "7c68c12b20c281b6": {
+  "t": "A teraz czas na uczciwą część, meu amigo: tam, gdzie algorytmy jeszcze nie dotarły do gaju pomarańczowego.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Now the honest part, meu amigo: where the algorithms have no",
+  "ok": false
+ },
+ "7ca1e09bcf45f77f": {
+  "t": "Évora się nie spieszy, ale dociera na miejsce. Uniwersytet uczy maszyny portugalskiego i pisze dla nich regulamin, PACT szkoli ludzi i dba o to, by firmom nie zgasło światło, szpital pozwala AI wskazać preparat, zanim zdecyduje specjalista, a firma od centrów danych po cichu kupiła salę o mocy 1 MW. Ratusza, bless him, nie udało nam się przyłapać na AI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Évora does not rush, but it gets there. The university teach",
+  "ok": false
+ }
+}

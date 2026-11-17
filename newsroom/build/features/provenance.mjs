@@ -21,6 +21,15 @@ export function provenanceOf(meta) {
 }
 
 export function decorate(p, ctx) {
+    // the articles page: the filters (assets/provenance/filters.js) over api/v1/articles/provenance.json; without
+    // JavaScript every article stays listed
+    if (p.rel === 'articles/index.html' && !p.pvFilters) {
+        p.pvFilters = true
+        p.assets = { ...(p.assets || {}), js: [...((p.assets || {}).js || []), 'assets/provenance/filters.js'] }
+        const prevI = p.postHtml
+        p.postHtml = h => '<div id="pv-filters" class="pv-filters" hidden></div>' + (prevI ? prevI(h) : h)
+        return
+    }
     if (!isArticle(p) || p.provenanced || !p.meta) return
     const v = provenanceOf(p.meta)
     if (!v) return
@@ -32,4 +41,16 @@ export function decorate(p, ctx) {
         .replace(/\[\[([^\]]+)\]\]\{\.(pv-[a-z]+)\}/g, (_, t, c) => `<span class="${c}">${t}</span>`)
     const prev = p.postHtml
     p.postHtml = h => html + (prev ? prev(h) : h)
+}
+
+// every article's provenance as codes and words, for the filters and for agents (JSON first)
+export function api(ctx) {
+    const w = words()
+    const rows = ctx.pages.filter(isArticle).map(p => {
+        const m = p.meta || {}, v = provenanceOf(m)
+        return { url: p.rel, title: m.title, date: m.date, type: String(m.type || '').toLowerCase() || null, origin: m.provenance_origin || null,
+            research: m.provenance_research || null, level: v ? v.level : null, words: v }
+    }).sort((a, b) => String(b.date).localeCompare(String(a.date)))
+    return [{ path: 'api/v1/articles/provenance.json', schema: null, data: { about: w.about_api, version: ctx.VERSION, built: ctx.TODAY,
+        filters: w.filters, ladder: w.level, articles: rows } }]
 }

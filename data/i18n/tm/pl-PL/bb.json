@@ -1,0 +1,18 @@
+{
+ "bb8bd70fbb29c9f1": {
+  "t": "Alcoutim zamienia dawny spichlerz EPAC w centrum biznesu i coworkingu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Alcoutim turns the old EPAC granary into a business and cowo",
+  "ok": false
+ },
+ "bbb39214a180b3f3": {
+  "t": "Na spotkaniu z setkami specjalistów od planowania rada Loulé ogłosiła narzędzia AI wśród innych środków skracających opóźnienia w wydawaniu pozwoleń. Burmistrz powiedział, że sama technologia nie rozwiąże problemu, dopóki pozostają wewnętrzne przeszkody biurokratyczne. Artykuł nie wymienia narzędzi ani dostawcy.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "At a meeting with hundreds of planning professionals, the Lo",
+  "ok": false
+ }
+}

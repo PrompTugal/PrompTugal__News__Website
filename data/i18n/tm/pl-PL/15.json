@@ -1,0 +1,50 @@
+{
+ "15037ffb48bae18a": {
+  "t": "PrompTugal.news Vila Real de Santo António: AI i technologie w Vila Real de Santo António, pombalińskim mieście granicznym nad Guadiana, gdzie liczą się projekty transgraniczne, oraz to, co dociera do niego z Algarve, Portugalii i świata. Niezależnie; każdy fakt ze źródłem.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Vila Real de Santo António: AI and technolog",
+  "ok": false
+ },
+ "15084161eca6ade6": {
+  "t": "17. edycja konkursu pomysłów zakończyła się 29 października w centrum AICOS w Porto. Wśród zwycięzców były wykrywanie dronów modelami AI, metoda AI do przewidywania ruchu mózgu podczas operacji guza oraz narzędzie AI i widzenia komputerowego studenta do bezpieczeństwa w szkołach.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The 17th edition of the ideas competition closed on 29 Octob",
+  "ok": false
+ },
+ "1508f7d090589c03": {
+  "t": "Turismo do Algarve prowadzi bezpłatny bootcamp AI dla pracowników turystyki",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Turismo do Algarve runs free AI bootcamp for tourism profess",
+  "ok": false
+ },
+ "152ae9199ac5e5bd": {
+  "t": "Politechnika kieruje projektem z uniwersytetami w Aveiro i wydziałem inżynierii w Porto, by zbudować wirtualny model zabytkowego budynku, który za pomocą fotografii, obrazów termicznych i czujników sygnalizuje ryzyko degradacji. Muzeum Narodowe Grão Vasco w Viseu jest jednym z dwóch studiów przypadku, a o tym, jak daleko działa AI, decyduje zarządca budynku.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The polytechnic leads a project with the universities of Ave",
+  "ok": false
+ },
+ "153080263941a459": {
+  "t": "Na targach Science for Industry instytut pokazał DBoidS, łączący cyfrowe bliźniaki z AI przeciw pożarom lasów, oraz CERAMIND, który wykorzystuje AI do wykrywania wad w ceramice.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "At the Science for Industry fair the institute showed DBoidS",
+  "ok": false
+ },
+ "15bd45b70554b692": {
+  "t": "Ovibeja 2025 stawia AI w rolnictwie w centrum targów",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Ovibeja 2025 puts AI in farming at the centre of the fair",
+  "ok": false
+ }
+}

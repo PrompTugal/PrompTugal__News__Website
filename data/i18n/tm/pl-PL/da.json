@@ -1,0 +1,26 @@
+{
+ "da40d828158b0f3f": {
+  "t": "Zarząd parku ogłosił publiczny przetarg wart 308 000 euro plus VAT na zaprojektowanie Brigantia EcoPark 2. Sprawozdanie podaje 82 firmy, dwa centra badawcze i około 430 pracowników, przy zajętości bliskiej 98 procent. Strona nie wspomina o AI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The park's board opened a public tender worth 308,000 euros ",
+  "ok": false
+ },
+ "da8ebf652ad46ed4": {
+  "t": "Eh pá, Silves: stolica Algarve, zanim stało się to modne, wciąż strzegąca swoich laranjas z zamku w kolorze dojrzałej mandarynki.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Eh pá, Silves: a capital of the Algarve before it was cool, ",
+  "ok": false
+ },
+ "dab047fa0598eb82": {
+  "t": "Badacze INESC TEC spotykają się w UTAD, by porozmawiać o AI i karierach naukowych",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "INESC TEC researchers meet at UTAD to talk AI and scientific",
+  "ok": false
+ }
+}
