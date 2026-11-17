@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1719",
+    "date": "2026-11-17",
+    "what": "security@PrompTugal.dinis: 12:05 wake: 46 commits clean; pairing step 1 pre-reviewed (go for the dry run, P1 to P10); the ATM article's evidence checked",
+    "by": "security@PrompTugal.dinis",
+    "from": "5a2955ebb"
+  },
+  {
     "version": "v0.1.1718",
     "date": "2026-11-17",
     "what": "conductor@PrompTugal.jose: the self-check before every push (J11, agreed by Jose); local@'s last run read against it; the day's debrief",
