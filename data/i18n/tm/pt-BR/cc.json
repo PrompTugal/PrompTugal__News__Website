@@ -55,6 +55,14 @@
   "src": "Portugal approves its National AI Agenda and an action plan ",
   "ok": false
  },
+ "cccf71f02dc1a8ea": {
+  "t": "O festival Som Riscado, em Loulé, traz um recital de piano com apoio de IA para as escolas",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Loulé's Som Riscado festival features an AI-supported piano ",
+  "ok": false
+ },
  "cce7313ca509fea5": {
   "t": "Politécnico de Viseu realiza a segunda edição de seu curso de IA generativa para docentes do ensino superior",
   "by": "translator@PrompTugal.dinis",

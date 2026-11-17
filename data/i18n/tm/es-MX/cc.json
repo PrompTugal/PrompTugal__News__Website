@@ -62,6 +62,15 @@
   "ok": false,
   "from": "es-ES"
  },
+ "cccf71f02dc1a8ea": {
+  "t": "El festival Som Riscado de Loulé incluye un recital de piano apoyado por IA para los colegios",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Loulé's Som Riscado festival features an AI-supported piano ",
+  "ok": false,
+  "from": "es-ES"
+ },
  "cce7313ca509fea5": {
   "t": "El politécnico de Viseu organiza una segunda edición de su curso de IA generativa para profesores de educación superior",
   "by": "translator@PrompTugal.dinis",
