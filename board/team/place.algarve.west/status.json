@@ -2,7 +2,7 @@
   "agent": "place.algarve.west@PrompTugal.dinis",
   "focus": "local news for Aljezur, Vila do Bispo, Lagos, Portimao, Lagoa, Monchique and Silves",
   "state": "first news pass done: seven town drafts on the branch",
-  "updated": "2026-11-17T06:50Z",
+  "updated": "2026-11-17T07:45Z",
   "done": [
     "onboarded: CLAUDE.md, guidance list, restart plan, the seven ABPs, the towns' debriefs",
     "session key place.algarve.west-promptugal published in board/keys.json (on dev)",
@@ -12,7 +12,8 @@
     "21:20 wake: Vila do Bispo now has 3 sourced items; Portimao hospital story second-sourced (wording corrected) and the EMARP AI leak lead dated to Aug 2025",
     "22:20 wake: daily hand-over debrief written",
     "23:20 wake: Barlavento pass for Aljezur, Monchique, Silves (RSS loads; Sul Informacao 403)",
-    "06:20 wake, morning pass: Lagos 2 items, Portimao fado gala, Lagoa 2; Aljezur, Monchique, Vila do Bispo, Silves nothing new; hospital story figures flagged as unreconciled"
+    "06:20 wake, morning pass: Lagos 2 items, Portimao fado gala, Lagoa 2; Aljezur, Monchique, Vila do Bispo, Silves nothing new; hospital story figures flagged as unreconciled",
+    "07:20 wake: UAlg schools talks opened (regional AI thread, university's own page found); hospital figures compared across DN, Observador, Barlavento: still differ, nothing to print beyond the safe wording"
   ],
   "next": [
     "Barlavento and Sul Informacao per town, with local@ outlet maps",
@@ -22,8 +23,7 @@
     "Portimao: a fresher source on EMARP's loggers",
     "Silves and Monchique: Barlavento and Sul Informacao",
     "make the seven site keys and fold accepted drafts into the town files",
-    "watch barlavento.pt/feed and the per-town search feeds each wake; check Sul Informacao leads through other outlets (Aljezur EUR 2.63M energy funding, Monchique IUGS heritage)",
-    "open the UAlg schools talks piece (AI and cybersecurity) as the regional AI thread; reconcile the hospital death count and ages from one opened outlet"
+    "watch barlavento.pt/feed and the per-town search feeds each wake; check Sul Informacao leads through other outlets (Aljezur EUR 2.63M energy funding, Monchique IUGS heritage)"
   ],
   "asks": [
     "Dinis: none now (the sub-agent question is answered by conductor.b@ and the ABP).",

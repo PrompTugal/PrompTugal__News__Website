@@ -147,3 +147,30 @@ Checked and fine meanwhile: ScaleUp Porto's channel (the programme's email as pu
 | `work/place.algarve.west` | morning pass: Lagos, Portimão, Lagoa, Silves; quiet towns said so; the hospital story's death count and ages flagged as not yet reconciled | **brought onto dev** (drafts only). The hospital figures stay out of any page until one opened outlet reconciles them: right call |
 | `work/place.districts` | researcher@'s media map linked in 16 capitals (111 outlets), re-signed | **brought onto dev**: the "@" in each entry is the agent's name (researcher@), not an address; no contacts; gate green |
 | central, east, partner desks | nothing new | none |
+
+## The 07:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.west` | the UAlg schools talks (AI and cybersecurity) and the hospital figures compared, in a draft | **brought onto dev** (drafts only) |
+| `work/place.algarve.central` | morning recheck: no new AI news, new gaps, files re-signed | **brought onto dev**: no contacts added, gate green |
+| Vicky's curator@ | S68, an update to S67 from the Center for Responsible AI chief executive's interview, on the curator's story board | read; a story idea, nothing to publish yet |
+| east, districts | nothing new | none |
+
+## The 08:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.east` | morning scan: ten more sourced items (Alcoutim's market, IPMA's sea warning, AMAL, Equipa UAlg, Castro Marim's Christmas programme, The Great World Race in Altura), two official contacts, files re-signed | **brought onto dev**: items dated and sourced, all "no AI", in local news; contacts are AMAL's and the University of the Algarve's own channels. AMAL's re-read at amal.pt, 17 November 2026: email and phone as given |
+| `work/place.districts` | wake 08:35, nothing new | **brought onto dev** |
+| west, central, partner desks | nothing new since 07:40 | none |
+
+## The 09:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.central` | Faro: NERA brings 25 businesswomen to explore AI tools (10 November, INTREPIDA, at UAlg's CRIA); gaps; files re-signed | **brought onto dev**: a direct AI item, rightly on Faro's AI list. Re-read at postal.pt, 17 November 2026: the headline ("NERA reúne 25 empresárias em Faro para explorar inteligência artificial nos negócios") and the INTREPIDA programme as written; gate green |
+| Vicky's reviewer@ | S68, a dated update note on S67 (the chief executive's July 2026 status), with its review | read; on dev by its own push |
+| west, east, districts | nothing new | none |
+
+- Loulé, Som Riscado: cm-loule.pt still closes the connection (sixth try).

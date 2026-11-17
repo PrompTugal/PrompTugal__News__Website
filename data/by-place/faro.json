@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.faro@PrompTugal.dinis",
   "mandate": "PrompTugal.news Faro: AI and technology in Faro, a university city whose centre of gravity is the Universidade do Algarve, its research and its startup campus, and what reaches Faro from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -54,6 +54,21 @@
         "sao-bras-de-alportel",
         "loule",
         "tavira"
+      ]
+    },
+    {
+      "title": "NERA brings 25 businesswomen to Faro to explore AI tools for customer satisfaction",
+      "summary": "On 10 November 2026 NERA, the Algarve business association, held an INTREPIDA pro Lunch & Learn at CRIA, University of the Algarve in Faro. A sales specialist showed AI tools for collecting and analysing customer feedback, including survey and satisfaction forms.",
+      "date": "2026-11-12",
+      "publisher": "Postal do Algarve",
+      "url": "https://postal.pt/economia/nera-reune-25-empresarias-em-faro-para-explorar-inteligencia-artificial-nos-negocios/",
+      "read_on": "2026-11-17",
+      "ai_path": "Directly about AI: practical AI tools for small business customer analysis, run at the University of the Algarve.",
+      "steps": 0,
+      "significance": "region",
+      "blast": [
+        "loule",
+        "olhao"
       ]
     },
     {
@@ -741,7 +756,10 @@
     "No 2026 Algarve Tech Hub Summit page for Faro found (past editions in Lagos 2025 and elsewhere). CCDR Algarve news page 404; no Algarve 2030 AI call for companies confirmed as open (a 4 million euro digitalisation call named in a search result was not opened).",
     "ULS Algarve (Faro hospital): no AI project of its own found in 2026; robotic surgery (since November 2025) is robotics, not AI, and its pages were not opened.",
     "UAlg agenda for November lists no AI event; its Faro neighbours' AI items (Olhao Bairros Digitais, Loule, Sao Bras) belong to their own town files: the Bairros Digitais article does not mention AI.",
-    "Barlavento tag page and feed returned only a JPEG (unreadable). cm-faro.pt latest news has nothing on AI (a 3 Nov accessibility app item does not call itself AI). ualg.pt news first page has no new AI item beyond the already-listed schools talks. DevFest Faro 27-28 Nov: no update found."
+    "Barlavento tag page and feed returned only a JPEG (unreadable). cm-faro.pt latest news has nothing on AI (a 3 Nov accessibility app item does not call itself AI). ualg.pt news first page has no new AI item beyond the already-listed schools talks. DevFest Faro 27-28 Nov: no update found.",
+    "cm-faro.pt news 16 Nov (type 1 diabetes training) and 3 Nov (Map4Accessibility with a 'virtual assistant', no AI stated) do not pass the test.",
+    "No GDG Faro DevFest 2026 listing page found (gdg.community.dev); only Algarve Evolution and the existing Barlavento item.",
+    "17 Nov recheck: Barlavento, Postal Algarve, Algarve Primeiro, ualg.pt news and cm-faro.pt news lists show no other new AI item. The 10 Nov NERA session is added; its sister listing in loule.json events points at the same event."
   ],
   "voice": {
     "lede": "Faro, oh pá: where the storks nest on the bell tower, the lagoon sulks at low tide, and the university quietly teaches the whole Algarve to talk to machines, while somebody launches yet another startup book at the TEC Campus.",

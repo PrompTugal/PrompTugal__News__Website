@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-dn-dv-crai-results",
+  "type": "evidence",
+  "source_url": "https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes",
+  "beat": "Portugal",
+  "group": "S68",
+  "names": [
+    {
+      "as_listed": "Center for Responsible AI",
+      "ref": "organisation:center-for-responsible-ai"
+    },
+    {
+      "as_listed": "Sword Health",
+      "ref": "organisation:sword-health"
+    },
+    {
+      "as_listed": "Unbabel",
+      "ref": "organisation:unbabel"
+    },
+    {
+      "as_listed": "Priberam",
+      "ref": "organisation:priberam"
+    },
+    {
+      "as_listed": "NeuralShift",
+      "ref": "organisation:neuralshift"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-17-0750.json",
+  "run": "2026-11-17T07:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-17-0750.json"
+    ]
+  }
+}

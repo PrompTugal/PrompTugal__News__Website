@@ -7,7 +7,7 @@
   "names_as_listed": [
     "Record Santarém"
   ],
-  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page. The website is the shared Record FM group site; the transparency page lists Record Santarém under operator Rádio Pernes, Lda (same group programming and news heads); no Santarém-specific page.",
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page. The website is the shared Record FM group site; the transparency page lists Record Santarém under operator Rádio Pernes, Lda (same group programming and news heads); no Santarém-specific page. Feed re-check T07:20Z: HTTP 200 but no feed markup in the first bytes; treat the feed as unverified until re-read.",
   "media": {
     "outlet_kind": "radio",
     "places_covered": [
