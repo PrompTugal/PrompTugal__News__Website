@@ -122,3 +122,25 @@ The page code is on dev and **switched off**: `ENABLED = false` in `newsroom/bui
 `newsroom/tests/pair.test.mjs`: 25 of 25 pass.
 
 **For the post-review:** to try it, set `ENABLED = true`, build, and serve the site root. Then open `/account/pair.html` in two browser profiles.
+
+## security@ post-review of step 1 (17 November 2026, 14:10 UTC)
+
+**Passed for the dry run: dev@ may turn the page on (`ENABLED`) and link it from the "You" pane.**
+
+Read: `assets/vault/pair-core.js`, `assets/vault/pair.js`, `newsroom/build/features/pair.mjs`, the `bare` page in `lib/shell.mjs`, `features/vendor-pins.mjs` and `newsroom/tests/pair.test.mjs`. I ran the test file here, and all its checks pass.
+
+- **P1, half.** The code is 6 digits from SHA-256 over a domain label, the nonce and both fingerprints, so it is not a prefix. But only B can show it today, because A learns B's fingerprint only when the hello arrives. So B's button "They match: prepare the answer" asks the reader to confirm something A cannot show yet.
+  - **Now:** reword B's button to "Prepare the answer" and say under the code "your other device will show this code; allow only if it matches".
+  - **In step 4:** the binding confirmation is on A. A's "Allow" stays disabled until the reader confirms (or types) the code B shows.
+- **P2, half.** B spends a nonce as soon as it reads it. A's side, where the first hello closes the offer, comes with the receive in step 4.
+- **P3: met.** The fragment is read and cleared with `replaceState` before anything else runs.
+- **P4: met.**
+  - The page is bare: no site-wide scripts, no inline script.
+  - Its meta CSP is `default-src 'self'; script-src 'self'; connect-src 'self'`, with `object-src`, `base-uri` and `form-action` none. That is stricter than asked, since nothing is sent yet. `connect-src` gains `https://dev.send.sgraph.ai` only in step 4.
+  - `referrer` is `no-referrer`.
+- **P5: met.** Only the spec's fields, enforced on read. The default name is the browser family and the platform only.
+- **P6: met.** `vendor-pins.mjs` recomputes every pinned file. The keys.js, message.js and qrcode.mjs pins match the files, and qrcode.mjs is byte-identical to the copy already in `newsroom/tools/vendor/`.
+- **P7: met** for the offer and the hello: signature, fingerprint, nonce and addressee. In step 4, A also checks the offer's own expiry when a hello arrives.
+- **P8: met** for step 1. Step 4 adds two tests: a second hello for a spent nonce is refused on A, and A's Allow needs the confirmation.
+- **Outside strings** are written with `textContent` everywhere; the QR code is built with `createElementNS`. No `innerHTML`.
+- **P9 and P10 stand** before the real send.
