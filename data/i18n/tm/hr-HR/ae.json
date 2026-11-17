@@ -1,0 +1,50 @@
+{
+ "ae3e2a46acb723c2": {
+  "t": "Portimão je domaćin prve konferencije o turizmu i računalstvu, s UI-jem u programu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Portimão hosts its first tourism-and-computing conference, w",
+  "ok": false
+ },
+ "ae785ce18d7c6d33": {
+  "t": "MORE CoLAB osposobljava općine i župe za UI u Brigantia EcoParku",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "MORE CoLAB trains councils and parish councils in AI at Brig",
+  "ok": false
+ },
+ "ae8eed6c08564c77": {
+  "t": "Evox Technologies, osnovan 2016. u gradu, gradi senzore i softver za gospodarenje otpadom. U intervjuu je spomenuo planirani pilot s općinom Castelo Branco koji će koristiti senzore s umjetnom inteligencijom. Drugih pojedinosti o UI-ju nema.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Evox Technologies, founded in 2016 in the city, builds senso",
+  "ok": false
+ },
+ "aead8a7284e4badb": {
+  "t": "PrompTugal.news Castelo Branco prati UI i tehnologiju u glavnom gradu Beire Baixe, gradu politehnike koja se jednog kolovoza probudila kao prava sveučilišna ustanova, i govori vam što do njega stiže iz Portugala, Europe i svijeta. Neovisno i s izvorima, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Castelo Branco follows AI and technology in ",
+  "ok": false
+ },
+ "aecf2dba708906c1": {
+  "t": "UTAD pomaže napisati prvu portugalsku bijelu knjigu o UI-ju u novinarstvu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "UTAD helps write Portugal's first white paper on AI in journ",
+  "ok": false
+ },
+ "aeed4d26bb5f0c31": {
+  "t": "Počinje",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Starting",
+  "ok": false
+ }
+}

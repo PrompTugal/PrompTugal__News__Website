@@ -1,0 +1,18 @@
+{
+ "4d3e04b864186034": {
+  "t": "Vlastiti članci PrompTugal.news o mjestu {name} (front matter town: ili region:), svaki potpisan.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news's own articles about {name} (front matter to",
+  "ok": false
+ },
+ "4def806991338441": {
+  "t": "CitiLink pretvara duge općinske zapisnike u strukturirane informacije o temama, stajalištima i odlukama. Izradili su ga INESC TEC, Sveučilište u Portu i UBI između 2024. i početka 2026., a uključivao je Porto i pet drugih općina te Porto Digital. Žiri je pohvalio njegov potencijal za transparentnost.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "CitiLink turns long municipal minutes into structured inform",
+  "ok": false
+ }
+}

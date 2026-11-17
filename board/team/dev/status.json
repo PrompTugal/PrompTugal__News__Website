@@ -1,20 +1,19 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ restarted on this account (16 Nov, 19:25 UTC, session_01Kw9UwEA7TFC7iKpVctAi2t): the release queue first, then review and bring work/dev.places, work/translator, work/designer.places onto dev; feeds per place and topic; /media/<id>/ pages; dev.places@s brief every-story-has-an-address.",
-  "state": "search ranks towns first; the search test is current; the shard split next",
-  "updated": "2026-11-17T20:40Z",
+  "state": "reviews current; my open pieces wait on others (dev.places@ hook, ontologist@ fields, Dinis access key)",
+  "updated": "2026-11-17T22:20Z",
   "done": [
+    "wake 22:09 (17 Nov): brought translator hr-HR (d91f8bb, cb8c6b9: 35 Croatian pages; 3 number warnings for translator@) and datasci.places b29f178; checked the OpenAPI spec: every new endpoint (feeds, since, provenance, coverage, queue, snips) is already in it, generated from the files",
+    "wake 21:09 (17 Nov): brought datasci.places 2a75a50; designer.places fa4c320 (a sweep) waits for designer@. Search shards split by a third letter over 20 KB: replit 68 to 7 KB, every search check passes",
     "wake 20:09 (17 Nov): brought datasci.places 0cc83e5; asked dev.places@ for the front-page .pt-since hook (board note). Search: data views rank below the town page; search.test.mjs current (1 real failure left: a 68 KB shard)",
     "wake 19:10 (17 Nov): brought translator 2a02a04 and datasci.places f7c656e; designer.places 38f5b27 (a sweep) waits for designer@. Since your last visit on the You page (three rings, home guessed or picked, from this browser only); tested in Chromium",
     "wake 18:09 (17 Nov): brought datasci.places 06b783f; dev.places, translator and designer.places nothing new; the 17:35 brief (data site) is observability@s and Dinis s. api/v1/since.json for Since your last visit (144 items, rings per place)",
     "wake 17:10 (17 Nov): brought datasci.places 318b845; dev.places and translator nothing new; designer.places 2fc2f31 waits for designer@. Daily hand-over debrief written",
     "wake 16:10 (17 Nov): brought translator pl-PL (35 Polish pages; 7 number warnings for translator@) and datasci.places d4c1f7c; dev.places and designer.places nothing new. Provenance filters on the articles page and api/v1/articles/provenance.json (tested in Chromium)",
-    "wake 15:11 (17 Nov): brought datasci.places 61c01cc; designer.places 7ab5fb8 waits for designer@. The provenance strip under every article headline (spec-provenance-and-review step 3, first part): type, origin, research, P-level in words, 86 pages",
-    "wake 14:12 (17 Nov): security@ passed pairing step 1 for the dry run: page on, linked from the You page, B reworded per P1; re-tested in Chromium. Brought datasci.places 5b048b7; translator and dev.places nothing new; designer.places waits for designer@",
-    "wake 13:13 (17 Nov): review first: brought translator 9fb6cfe and datasci.places cf6046d; designer.places 02f1605 waits for designer@. Pairing step 1 page: pair.js, pair.mjs (ENABLED false until the post-review), bare pages with a meta CSP (P4), fragment cleared (P3), QR vendored and pinned; tested in Chromium with two contexts"
+    "wake 15:11 (17 Nov): brought datasci.places 61c01cc; designer.places 7ab5fb8 waits for designer@. The provenance strip under every article headline (spec-provenance-and-review step 3, first part): type, origin, research, P-level in words, 86 pages"
   ],
   "next": [
-    "search: split shards over 40 KB by a third letter (search-core shardOf and the build), so no typical query loads more than 40 KB",
     "the provenance radar (O, R, C, V, E) on each article once ontologist@s claims and review fields exist; then the human signature with security@ (step 5)",
     "one-reader step 3 on the front page: ask dev.places@ (content/index.md) for a .pt-since hook and designer@ for the look; ontologist@ for profile v2 (home, follows, last_seen per device)",
     "pairing step 4 (the lane send, A receives, A confirms the code: P1 binding, P2 on A, P9, P10) once the vault access key exists",
