@@ -34,7 +34,8 @@ const version = fs.readFileSync(path.join(ROOT, 'newsroom/build/version.txt'), '
 // ---------------------------------------------------------------- what is in it
 check(docs.version === version, `the index is of this release (${docs.version})`)
 const types = docs.types
-check(types.company > 100 && types.event > 200 && types.person > 200 && types.topic >= 17 && types.place > 50 && types.article >= 1, `every kind is in it: ${JSON.stringify(types)}`)
+// the places-first site (dev@, 17 November 2026): people and most summit sessions came off on 11 November (data/websummit-only.json)
+check(types.company > 100 && types.event > 20 && types.organisation > 100 && types.topic >= 17 && types.place > 50 && types.article >= 50, `every kind is in it: ${JSON.stringify(types)}`)
 check(docs.docs.every(d => d[4] && fs.existsSync(path.join(ROOT, d[4]))) && !docs.docs.some(d => d[4].startsWith('search/')), 'every row points at a page that exists, and the search page is not in it')
 check(docs.shards.every(k => fs.existsSync(path.join(DIR, 'terms', k + '.json'))), `every shard listed is written (${docs.shards.length})`)
 const ev = docs.docs.find(d => d[1] === 'event' && d[6].s)
@@ -48,17 +49,17 @@ const first = async (q, ref, n = 1, o) => (await top(q, o)).slice(0, n).some(r =
 check(await first('Replit', 'company:replit'), 'Replit: the company first')
 check(await first('rep', 'company:replit', 5), 'rep (being typed): Replit in the first five')
 check(await first('1password', 'company:1password'), '1password: the company first')
-check(await first('Centre Stage', 'place:centre-stage', 3), 'Centre Stage: the stage in the first three')
-check(await first('joao nuno ferreira', 'person:joao-nuno-ferreira'), 'joao nuno ferreira (no accent): João Nuno Ferreira first')
-check(await first('soren', 'person:sren-bramer-schmidt', 3), 'soren: Søren Bramer Schmidt in the first three')
+check(await first('loule', 'place:loule', 3), 'loule (no accent): Loulé\'s place page in the first three')
+check(await first('olhao', 'place:olhao'), 'olhao (no tilde): Olhão first')
+check(await first('sao bras', 'place:sao-bras-de-alportel', 3), 'sao bras: São Brás de Alportel\'s place page in the first three')
 check(await first('security', 'topic:security', 2), 'security: the Security topic in the first two')
 const cyber = await top('cyber', { type: 'company', limit: 50 })
 check(cyber.length >= 10 && cyber.every(r => r.doc.type === 'company'), `cyber (a synonym of security), companies only: ${cyber.length}`)
 check(await first('Cisco Systems', 'company:cisco-outshift', 2), 'Cisco Systems (the name on speaker cards): Cisco (Outshift) in the first two')
 const sec = await engine.query('security', { type: 'company', country: 'Portugal' })
 check(sec.results.every(r => r.doc.type === 'company' && r.doc.facets.c === 'Portugal'), `filters: security companies in Portugal (${sec.total})`)
-const tue = await engine.query('centre stage', { type: 'event', day: '2026-11-10', limit: 100 })
-check(tue.total > 5 && tue.results.every(r => (r.doc.facets.d || []).includes('2026-11-10')), `filters: Centre Stage sessions on Tuesday 10 November (${tue.total})`)
+const tue = await engine.query('summit', { type: 'event', day: '2026-11-10', limit: 100 })
+check(tue.total >= 1 && tue.results.every(r => r.doc.type === 'event' && (r.doc.facets.d || []).includes('2026-11-10')), `filters: summit events on Tuesday 10 November (${tue.total})`)
 check((await engine.query('agents')).facets.type.company > 0, 'facet counts come back with the results')
 check((await top('')).length === 0 && (await top('   ')).length === 0, 'an empty query finds nothing')
 check((await top('zzqxv')).length === 0, 'nonsense finds nothing')
@@ -72,7 +73,7 @@ const docsGz = zlib.gzipSync(fs.readFileSync(path.join(DIR, 'docs.json'))).lengt
 const total = sizes.reduce((a, b) => a + b, 0)
 console.log(`\nindex: docs.json ${(docsBytes / 1024).toFixed(1)} KB (${(docsGz / 1024).toFixed(1)} KB gzipped), ${docs.docs.length} rows; ${sizes.length} shards, ${(total / 1024).toFixed(1)} KB in all, largest ${(Math.max(...sizes) / 1024).toFixed(1)} KB, median ${(sizes.sort((a, b) => a - b)[sizes.length >> 1] / 1024).toFixed(1)} KB`)
 const per = []
-for (const q of ['replit', 'security', 'what is on centre stage', 'joão', 'agents identity', 'portugal startup']) {
+for (const q of ['replit', 'security', 'what is on in loule', 'olhão', 'agents identity', 'portugal startup']) {
     const fresh = S.createEngine(async rel => { const buf = fs.readFileSync(path.join(ROOT, rel)); per.push({ q, rel, bytes: buf.length, gz: zlib.gzipSync(buf).length }); return JSON.parse(buf) })
     await fresh.query(q)
 }
