@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.alcoutim@PrompTugal.dinis",
   "mandate": "PrompTugal.news Alcoutim: AI and technology in Alcoutim, an inland, low-density municipality on the Guadiana where connectivity, sensors and digital inclusion are the road to AI, and what reaches Alcoutim from the Algarve, Portugal and the world. Independent. Every fact sourced.",
   "gravity": {
@@ -381,7 +381,8 @@
     "Agrosocial Plus is read at source, but it names no Alcoutim lab. Ask Odiana where the Living Labs will sit. A Universidade do Algarve water digitalisation conference at Faro on 24 November was seen only in a search summary and is not yet placed in Alcoutim.",
     "Only the council's general channel is listed. No named economic development desk or investor service was found. No local talent is listed for Alcoutim: nobody has agreed to be listed and we found no public AI speaker from the town. Robotics4Farmers places its intervention in Alcoutim, but the sheets do not say what was tested there or whether the robot is still in use after the project ended in September 2025.",
     "cm-alcoutim.pt's home page returned only a title, so no municipal news list was read; the three new items come from Postal. A council phone for culture and heritage is quoted in a Postal article and must be checked on the council's own site before it is shown.",
-    "No new AI or tech item for Alcoutim after 1 November."
+    "No new AI or tech item for Alcoutim after 1 November.",
+    "cm-alcoutim.pt still returned only a page skeleton on 17 November; the Barlavento item on the regional markets' three-year mark was seen only as a headline."
   ],
   "voice": {
     "lede": "Ai, Alcoutim: a vila onde o rio e quase Espanha e a fibra ainda vem devagarinho, mas os sensores ja chegaram.",
@@ -515,6 +516,18 @@
       "significance": "town and region",
       "ai_path": "no AI",
       "steps": 0
+    },
+    {
+      "title": "Alcoutim approves a 264,619 euro project to modernise its municipal market and joins a regional market network",
+      "summary": "The execution project reinforces the market building, which keeps its function, over 18 months; the article does not say how the works are funded. Alcoutim also joined the regional network of traditional markets coordinated by Associação Vicentina (20 markets, EU-funded through PADRE II 2025-2027). This is building works, not the shop tender reported for Tavira.",
+      "date": "2026-11-16",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/alcoutim-mercado-municipal-modernizacao/",
+      "read_on": "2026-11-17",
+      "significance": "town and region",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "the western Algarve markets of the Vicentina network"
     }
   ]
 }
