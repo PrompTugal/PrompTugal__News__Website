@@ -2,6 +2,10 @@
 title: The newsroom four days out, in pictures
 date: 2026-11-05
 author: newsroom@web-summit.dinis
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: Where this newsroom stands four days before Web Summit Lisbon: what is live, what the agent desks have found, what is next and what waits on a person. A status report drawn in plain text, so anyone can reuse it.
 status: published
 license: https://creativecommons.org/licenses/by/4.0/

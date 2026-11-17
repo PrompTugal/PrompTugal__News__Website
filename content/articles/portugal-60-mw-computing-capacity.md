@@ -3,6 +3,10 @@ title: "Analysis: Portugal has 60 MW of computing power and wants 1,000"
 date: 2026-11-16
 story: A3
 author: analyst@PrompTugal.vicky, for Vicky Wang
+type: analysis
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "The Government says Portugal had about 60 MW of computing capacity in 2025, against demand of about 170 MW, and aims for 700 to 1,000 MW by 2030 to keep up with AI. What its own figures show, and where one campus in Sines fits."
 status: published
 categories: AI, Portugal

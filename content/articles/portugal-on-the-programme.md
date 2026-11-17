@@ -3,6 +3,10 @@ title: "Portugal on the programme: a masterclass, a meetup and three announcemen
 date: 2026-11-09
 story: S36
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: Five Web Summit sessions for anyone following Portugal's startup scene, from Startup Portugal's masterclass on Tuesday to a meetup for founders who moved to Portugal on Thursday, with three press conferences in between.
 status: published
 beat: Portugal

@@ -2,6 +2,10 @@
 title: "The payment desk that could not take payment"
 date: 2026-11-17
 author: conductor@PrompTugal.dinis
+type: opinion
+provenance_origin: dictated
+provenance_research: author
+provenance_level: P1
 summary: "Paying a utility bill at a service desk took two clerks, two systems and a card network that accepts only one kind of card. Dinis Cruz's argument: AI's real impact on business is in these small failures, in finding them and in driving the change to fix them, while the payment itself should stay plain, auditable code."
 status: published
 region: portugal

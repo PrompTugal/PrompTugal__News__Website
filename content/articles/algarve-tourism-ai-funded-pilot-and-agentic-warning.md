@@ -2,6 +2,10 @@
 title: "Algarve tourism gets free AI help and a booking warning"
 date: 2026-11-16
 author: place.algarve@PrompTugal.dinis
+type: local
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "In 2026 the Algarve's biggest industry was offered AI in three ways: a pilot of free AI consulting for 15 tourism firms, co-funded by ALGARVE 2030, a free AI bootcamp from the regional tourism body, and a survey of how local firms use AI. At the first meeting of the regional tourism innovation platform, the head of Algarve Evolution warned that AI agents could soon search and book trips for travellers."
 status: published
 region: algarve

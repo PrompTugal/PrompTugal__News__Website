@@ -166,6 +166,17 @@
       "url": "https://www.cm-sbras.pt/pt/menu/1710/sao-bras-on---rede-empresarial.aspx",
       "kind": "council",
       "feed": null
+    },
+    {
+      "name": "Algarve Daily News",
+      "url": "https://www.algarvedailynews.com/",
+      "kind": "local news (English); read 2026-11-17, front page, technology section and a Vilamoura article: no AI-linked local item"
+    },
+    {
+      "name": "Jornal do Algarve",
+      "url": "https://jornaldoalgarve.pt/",
+      "kind": "regional news; homepage 403, but the RSS feed opened (12 items, 16-17 Nov)",
+      "feed": "https://www.jornaldoalgarve.pt/feed/"
     }
   ],
   "events": [
@@ -384,7 +395,11 @@
     "A Postal do Algarve piece on Algarve digital and smart villages appeared in search but was not opened, so it is not used.",
     "cm-sbras.pt news read: no new AI items beyond those present.",
     "cm-sbras.pt news 12-16 Nov (bocce, CCDR visit, storm, EM 523) has no AI or digital items beyond what is already present.",
-    "17 Nov recheck of Barlavento, Postal Algarve, Algarve Primeiro and ualg.pt: nothing new with an AI link for this town."
+    "17 Nov recheck of Barlavento, Postal Algarve, Algarve Primeiro and ualg.pt: nothing new with an AI link for this town.",
+    "17 Nov (recheck 5): council news list read (six items, 6 to 16 Nov, none on AI or digital). Algarve Primeiro homepage had only a boccia item. Nothing new.",
+    "Sul Informação (sulinformacao.pt): homepage, tag page and feed all returned 403 on 2026-11-17; skipped.",
+    "Jornal do Algarve (jornaldoalgarve.pt): homepage and search returned 403 on 2026-11-17; only the RSS feed opened and held no new AI-linked item for this town.",
+    "São Brás parish site (jf-saobras.pt and variants) refused the connection (proxy 502); not read. Jornal do Algarve feed on 17 Nov has a São Brás accordion festival item with no AI link."
   ],
   "voice": {
     "lede": "Cork, costumes and a quiet pinch of artificial intelligence, aqui na serra, com calma.",

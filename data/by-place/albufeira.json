@@ -35,6 +35,21 @@
   },
   "ai_news": [
     {
+      "title": "Albufeira seismic conference on 27 November moved to the council hall, with AI named as a risk and monitoring tool",
+      "summary": "Postal do Algarve (2 Nov 2026) reports that the SIPRS earthquake and disaster prevention conference, organised by urbanist Antonio Nobrega with the Albufeira council, moves to the council's Salao Nobre on 27 November. The organisers plan to use AI tools to identify risks, monitor seismic activity and support emergency response. The AI content is a plan, not a result.",
+      "date": "2026-11-02",
+      "publisher": "Postal do Algarve",
+      "url": "https://postal.pt/algarve/albufeira-recebe-conferencia-sobre-prevencao-de-sismos-e-resposta-a-catastrofes/",
+      "read_on": "2026-11-17",
+      "ai_path": "Conference programme names AI tools for seismic risk identification and monitoring",
+      "steps": 1,
+      "significance": "town",
+      "blast": [
+        "loule",
+        "quarteira"
+      ]
+    },
+    {
       "title": "Albufeira conference on an AI-assisted earthquake prevention system moved to 27 November",
       "summary": "The conference presenting a proposed integrated earthquake prevention and response system (SIPRS) was postponed from 23-24 October to 27 November, 09:00-17:00, at Hotel Alisios in Albufeira. The proposed system includes AI algorithms for seismic detection alongside seismic networks and smart submarine cables. The organiser, an urbanist, calls it non-profit; invitations to about 15 bodies and to national AI-in-territory specialists are not confirmed participants.",
       "date": "2026-10-20",
@@ -127,6 +142,17 @@
       "url": "https://postal.pt/algarve/",
       "kind": "press",
       "feed": null
+    },
+    {
+      "name": "Algarve Daily News",
+      "url": "https://www.algarvedailynews.com/",
+      "kind": "local news (English); read 2026-11-17, front page, technology section and a Vilamoura article: no AI-linked local item"
+    },
+    {
+      "name": "Jornal do Algarve",
+      "url": "https://jornaldoalgarve.pt/",
+      "kind": "regional news; homepage 403, but the RSS feed opened (12 items, 16-17 Nov)",
+      "feed": "https://www.jornaldoalgarve.pt/feed/"
     }
   ],
   "events": [
@@ -237,7 +263,11 @@
     "The SIPRS conference has no confirmed speakers or AI specialists; treat the AI content as a plan.",
     "cm-albufeira.pt /pt/noticias returned 404; search shows nothing new since morning. SIPRS 27 Nov (AI in seismic prevention) unchanged, only seen via search snippets this run.",
     "No new AI item on Barlavento or postal.pt 16-17 Nov; cm-albufeira.pt/pt/noticias returned 404.",
-    "17 Nov recheck of Barlavento, Postal Algarve, Algarve Primeiro and ualg.pt: nothing new with an AI link for this town."
+    "17 Nov recheck of Barlavento, Postal Algarve, Algarve Primeiro and ualg.pt: nothing new with an AI link for this town.",
+    "17 Nov (recheck 5): opened Algarve Primeiro homepage, cm-albufeira.pt/noticias (12 items, 27 Oct to 17 Nov, none on AI) and Postal do Algarve (opened this time). Regiao Sul and Portugal Resident refused (403); The Portugal News returned empty; Diario do Sul homepage showed nothing for the town.",
+    "Sul Informação (sulinformacao.pt): homepage, tag page and feed all returned 403 on 2026-11-17; skipped.",
+    "Jornal do Algarve (jornaldoalgarve.pt): homepage and search returned 403 on 2026-11-17; only the RSS feed opened and held no new AI-linked item for this town.",
+    "Albufeira parish sites (jf-albufeira.pt and variants) refused the connection (proxy 502); not read."
   ],
   "voice": {
     "lede": "Sol, sea and a chatbot to book your sunbed: this is Albufeira, where tourism is the main business and AI is turning up at the front desk.",

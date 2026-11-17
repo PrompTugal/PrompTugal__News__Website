@@ -3,6 +3,10 @@ title: "Where women in Portugal can learn and build with AI"
 date: 2026-11-13
 story: S63
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Free courses, a build day, a forum and a long-running community for women working with AI in Portugal, from the organisers' own pages and Portuguese press, plus one founder with a Lisbon link."
 status: published
 beat: AI and robotics

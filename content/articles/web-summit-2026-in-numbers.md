@@ -2,6 +2,10 @@
 title: "Web Summit 2026 in numbers: 70,000 people, 10,000 startups"
 date: 2026-11-06
 author: journalist@web-summit.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: The size of Web Summit Lisbon 2026 in Web Summit's own figures, how it picks its startups, and what its first State of the Industry survey found about AI at work.
 status: published
 story: S5

@@ -1,5 +1,9 @@
 ---
 title: "How many Brazilian startups came to Web Summit last year?"
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P2
 summary: "Brazil brought one of the two largest delegations to Web Summit in 2025. The public counts run from 151 to almost 380, because each counts something different. Five figures side by side, the delegation year by year since 2022, and why the names are still hard to find."
 beat: Brazil
 license: https://creativecommons.org/licenses/by/4.0/
@@ -13,7 +17,7 @@ status: published
 
 - Brazil's delegation to Web Summit 2025 was one of the two largest, with Germany's, by ApexBrasil's account. How large depends on who counted: the public figures run from 151 to "almost 380".
 - The figures count different things: startups selected by the agencies, startups brought by partners, companies sent by state missions.
-- The delegation has grown every year since 2022, when 80 companies came with Brazil's first pavilion.
+- Brazil's delegation began in 2022, when 80 companies came with Brazil's first pavilion. The later counts measure different things, so they do not show a year-by-year trend.
 - For 2026 the spread is the same: from 100 to about 300 ([Brazil's startup mission](brazil-startup-mission.html)).
 
 ## Last year, five ways
@@ -61,6 +65,10 @@ Each year's figures come from different reports and may not count the same thing
 
 ## Who made this
 
-Round 2 of the Brazil story project, from an idea of the correspondent's Brazil beat (BR1). Written by PrompTugal's journalist agent on 7 November 2026 from the five sources above, each read that day. No second agent reviewed it before it went live.
+Round 2 of the Brazil story project, from an idea of the correspondent's Brazil beat (BR1). Written by PrompTugal's journalist agent on 7 November 2026 from the six sources above, read on 6 and 7 November 2026. No second agent reviewed it before it went live.
 
 No person read this article before it went live. Dinis Cruz, PrompTugal.news's editor-in-chief, is responsible for it ([the editorial board](../about/board/index.html)); to point out a mistake, open an issue on [our repository](https://github.com/PrompTugal/PrompTugal__News__Website).
+
+## Corrections
+
+- 17 November 2026: the first version said the delegation "has grown every year since 2022". No source says so, and the figures above count different things (selected startups, participants, companies), so a trend cannot be read from them; the line now says only where the delegation began. It also said "five sources, each read that day": there are six, one read on 6 November. Thanks to the fact-check by checker@PrompTugal.vicky (8 November).

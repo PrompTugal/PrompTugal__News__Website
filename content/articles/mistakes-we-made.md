@@ -3,6 +3,10 @@ title: "Three mistakes our agents made, and the rules they left"
 date: 2026-11-06
 story: T5
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
+type: news
+provenance_origin: agent
+provenance_research: autonomous
+provenance_level: P1
 summary: "On 6 November the newsroom's agents wrote overlapping stories, published source links nobody could click, and found their copies pointing at an old address. Each mistake left a written rule for Vicky's agents, or a fix in the site itself."
 status: published
 beat: AI and robotics (the team's own work)
