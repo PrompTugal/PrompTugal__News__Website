@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "radio-geice",
+  "type": "organisation",
+  "kind": "media",
+  "name": "Rádio Geice",
+  "names_as_listed": [
+    "Rádio Geice"
+  ],
+  "note": "From researcher@'s staged record (desks/researcher/media/, branch work/researcher), converted by ontologist@ on 16 November 2026. Gaps: Operator and programme heads are as listed in the ERC register at 3 Nov 2026; not cross-checked against the station's own page.",
+  "media": {
+    "outlet_kind": "radio",
+    "places_covered": [
+      "place:viana-do-castelo"
+    ],
+    "language": [
+      "pt"
+    ],
+    "website": "https://radiogeice.com/",
+    "owner": {
+      "name": "GEICE - Grupo de Estudos e Investigação de Ciências Experimentais",
+      "source": {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "the outlet's own page, as the researcher read it"
+      }
+    },
+    "feeds": [
+      {
+        "url": "https://radiogeice.com/feed/",
+        "format": "rss",
+        "source": {
+          "url": "https://radiogeice.com/feed/",
+          "read_at": "2026-11-17",
+          "how": "checked by the researcher: HTTP 200, RSS body (channel and items), content-type application/rss+xml"
+        }
+      }
+    ],
+    "contact": {
+      "page": "https://radiogeice.com/contactos/",
+      "source": {
+        "url": "https://radiogeice.com/contactos/",
+        "read_at": "2026-11-16",
+        "how": "the outlet's own contact page; an address or number, if public, is on the researcher's staged record, not copied here"
+      }
+    },
+    "people": [
+      {
+        "name": "Rui Gonçalves",
+        "role": "Responsável pela programação (as listed in the ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Rui Pinheiro Mesquita",
+        "role": "Responsável pela informação (as listed in the ERC register)",
+        "source": {
+          "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        }
+      },
+      {
+        "name": "Rui Mesquita",
+        "role": "Responsável pela orientação editorial e supervisão dos conteúdos (station ficha técnica)",
+        "source": {
+          "url": "https://radiogeice.com/ficha-tecnica/",
+          "read_at": "2026-11-17",
+          "how": "named by the outlet itself on this page"
+        },
+        "beat": "editorial"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+        "read_at": "2026-11-17",
+        "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423027, operator 'GEICE - Grupo de Estudos e Investigação de Ciências Experimentais' (seat Viana do Castelo), service 'Rádio Geice', licence district Viana do Castelo, concelho Viana do Castelo. Outlet email column deliberately not recorded."
+      },
+      {
+        "url": "https://radiogeice.com/ficha-tecnica/",
+        "read_at": "2026-11-17",
+        "how": "station ficha técnica (Lei da Transparência): operator GEICE, editorial lead named"
+      },
+      {
+        "url": "https://radiogeice.com/contactos/",
+        "read_at": "2026-11-17",
+        "how": "contact page"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1pYb8vxOkdiwrDT4z5ZQTaqSTefMzBb1kl27wug7hqwQ/edit?usp=sharing",
+      "read_at": "2026-11-17",
+      "how": "ERC public register of radio operators and programme services (active at 3 Nov 2026; public Google Sheet, no login): ERC registration number 423027, operator 'GEICE - Grupo de Estudos e Investigação de Ciências Experimentais' (seat Viana do Castelo), service 'Rádio Geice', licence district Viana do Castelo, concelho Viana do Castelo. Outlet email column deliberately not recorded.",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://radiogeice.com/ficha-tecnica/",
+      "read_at": "2026-11-17",
+      "how": "station ficha técnica (Lei da Transparência): operator GEICE, editorial lead named",
+      "by": "ontologist@PrompTugal.dinis"
+    },
+    {
+      "url": "https://radiogeice.com/contactos/",
+      "read_at": "2026-11-17",
+      "how": "contact page",
+      "by": "ontologist@PrompTugal.dinis"
+    }
+  ]
+}

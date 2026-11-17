@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Viseu: AI and technology in Viseu, a district capital of the Beira interior whose centre of gravity is its polytechnic university, the council's public-sector AI work and a regional industry that is just starting to talk about AI, and what reaches Viseu from Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -399,6 +399,16 @@
       "read_on": "2026-11-16",
       "ai_path": "Robotics company linked to a Viseu centre that works on AI: its own AI work is not shown.",
       "steps": 2
+    },
+    {
+      "name": "Flowbotic",
+      "type": "company",
+      "url": "https://starinstitute.pt/associados-do-star/",
+      "what": "Portuguese firm making autonomous mobile robots and intralogistics vehicles, described on the STAR Institute associates page as working on AI for Industry 4.0. The page gives no city, so its base in Viseu is not confirmed.",
+      "source_url": "https://starinstitute.pt/associados-do-star/",
+      "read_on": "2026-11-17",
+      "ai_path": "Robotics firm tied to a Viseu centre and described as working on AI for industry: one step from AI. Base not stated.",
+      "steps": 1
     }
   ],
   "extras": [
@@ -414,8 +424,8 @@
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
-    "No AI company or startup headquartered in Viseu that we could name. The STAR Institute says one startup on its premises is tied to AI and one to cybersecurity, but none of its pages we opened names them. The AIRV incubated-firms page loaded with no readable names. The STAR associates page and the AIRV member list are the sources to read next.",
-    "Council news now loads and carries no AI item since the February 2025 AI4PA event. Its RSS address answers with an empty template, so there is no working council feed. The council's AI4PA project sheet was not read.",
+    "No AI company or startup headquartered in Viseu that we could name. The STAR Institute says one startup on its premises is tied to AI and one to cybersecurity, but none of its pages we opened names them. The AIRV incubated-firms page loaded with no readable names. The STAR associates page and the AIRV member list are the sources to read next. Third pass (17 Nov): the STAR associates page lists 23 associates, none labelled a cybersecurity startup; Flowbotic (AI for Industry 4.0, autonomous robots) is the only clear AI entry, with no city given, so it is on the map with its base unconfirmed. The two on-site startups remain unnamed.",
+    "Council news now loads and carries no AI item since the February 2025 AI4PA event. Its RSS address answers with an empty template, so there is no working council feed. The council's AI4PA project sheet was not read. Third pass (17 Nov): the council news and Gabinete do Investidor pages now answer 403 to our fetch, so they could not be re-read; the council RSS is still not working.",
     "RiskMap's RTP page shows no publication date, only that the presentation was on a Friday, so the news item carries the year only.",
     "Critical Software (320,000 euros and about 200 future jobs, 27 November 2025), UAVision (up to 5 million euros for a high-altitude unmanned aircraft system, 15 September 2026) and Empowered Startups (an agreement with the polytechnic, September 2025) all invest or partner in Viseu, but the pages we read do not mention AI, so they are left off the map.",
     "ViTeB's PRR sheet ends on 15 June 2026 and its site shows no news since 2023, so whether the test bed still takes projects is not confirmed. Its Visa AI project page was not opened.",
@@ -425,7 +435,8 @@
     "Start a company: we did not open pages for Startup Portugal's national programmes, the Empresa na Hora counter or the CIM's incubator network and social innovation incubator (found in a search, not opened), so those routes are not listed. The council's V21 technology incubation centre appeared only in a 2020 article, so its status is unknown.",
     "IBM, Bizdirect and Softinsa appear as investors or partners in Viseu on the council and CISeD pages, but no page we opened ties them to AI work in Viseu, so they are not on the map.",
     "Not yet looked for: the Observatório Beira's AI debate (named in an opinion column, no page opened), the AI4PA hub's later sessions, and the district's other municipalities. The STAR Institute's own project list loads as headings only.",
-    "Talent: no people listed. We listed institutions only and did not find a public profile of a Viseu AI practitioner who has agreed to be named."
+    "Talent: no people listed. We listed institutions only and did not find a public profile of a Viseu AI practitioner who has agreed to be named.",
+    "Third pass (17 Nov): the polytechnic, Diário de Viseu, Mais Beiras and STAR feeds all answer. No item about AI in Viseu was published since 16 Nov (latest items: UPV technology transfer office visit to Gumervias, STAR event of 26 Oct), so no AI news was added."
   ],
   "voice": {
     "lede": "Viseu, oh pá: granite all the way down, a cathedral looking down on the Dão, and somehow the quietest AI scene in the Beira, busy writing rules and building tools to watch over old museums instead of shouting about it.",

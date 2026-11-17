@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Guarda: AI and technology in Guarda, a district capital of the interior whose centre of gravity is the Politécnico da Guarda, its data science and AI degree, its incubator and its business-digitalisation projects, and what reaches Guarda from Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -106,7 +106,7 @@
       "name": "Politécnico da Guarda: news",
       "url": "https://politecnicoguarda.pt",
       "kind": "university",
-      "feed": null
+      "feed": "https://politecnicoguarda.pt/feed/"
     },
     {
       "name": "Politécnico da Guarda: degree applications",
@@ -136,7 +136,7 @@
       "name": "Município da Guarda: news",
       "url": "https://mun-guarda.pt/noticias/",
       "kind": "council",
-      "feed": null
+      "feed": "https://mun-guarda.pt/feed/"
     },
     {
       "name": "Município da Guarda: agenda of events",
@@ -148,7 +148,7 @@
       "name": "Universidade Politécnica da Guarda: news",
       "url": "https://politecnicoguarda.pt/noticias/",
       "kind": "university",
-      "feed": null
+      "feed": "https://politecnicoguarda.pt/feed/"
     }
   ],
   "events": [
@@ -260,7 +260,9 @@
     "The conversion from universidade politécnica to universidade is only an approved motion of 17 September 2026 and needs a decree-law, so it must not be reported as done.",
     "The 2026/2027 intake for the data science and AI degree is 20, 14 and 10 places over three phases (44 in all, from the UPG applications page). We found no page of the degree itself under the new name and did not read an earlier DGES figure of 20 places.",
     "Not reached: the Guarda health unit's AI use (nothing found), the UPG research centres beyond the names in its menu, and investors in Guarda companies. The Loja de Cidadão da Guarda page on gov.pt lists no Espaço Empresa or Empresa na Hora counter, so where to register a company in person in Guarda is unconfirmed. Startup Portugal has no Guarda page we could read.",
-    "Local talent is not filled. No source lists anyone and nobody has agreed to be listed here. The Poliempreende page names staff contacts, which we did not copy."
+    "Local talent is not filled. No source lists anyone and nobody has agreed to be listed here. The Poliempreende page names staff contacts, which we did not copy.",
+    "Third pass, 17 November 2026: no AI news since 16 November. The UPG news page (latest item 13 November, a health notice) and the council news page (latest 16 November, a Christmas market) hold nothing on AI; only headlines and excerpts were visible, so article bodies were not checked. The other gaps above are unchanged: we did not re-open the council minutes, procurement notices, PTCentroDiH or the Poliempreende pages in this pass.",
+    "Feeds tested on 17 November 2026 and working: https://politecnicoguarda.pt/feed/ and https://mun-guarda.pt/feed/ (both RSS 2.0), now recorded in sources; the earlier gap saying no feed was found is out of date for these two. No local outlet feed was found."
   ],
   "voice": {
     "lede": "Guarda, ó pá: cold enough to freeze a server, stubborn as granite, and home to a polytechnic that quietly teaches machines and taught a few students to read the PDM before the architects could.",
@@ -316,6 +318,14 @@
       "source_url": "https://politecnicoguarda.pt/universidade-politecnica-da-guarda-regista-tres-patentes-apos-ter-lancado-formacao-em-propriedade-industrial/",
       "read_on": "2026-11-16",
       "kind": "mentoring"
+    },
+    {
+      "name": "ARRISCA C, 15th national business-idea competition (announced by UPG)",
+      "what": "National competition for business ideas based on science and technology, open for applications until 18 December 2026 at 23:59, with cash prizes of up to 2,500 euros depending on category and service prizes such as incubation, mentoring, consulting, training and business plan support. Details and the form are on arriscac.pt, which we did not read.",
+      "url": "https://politecnicoguarda.pt/inscricoes-abertas-para-a-15-a-edicao-do-concurso-de-ideias-de-negocio-arrisca-c/",
+      "source_url": "https://politecnicoguarda.pt/inscricoes-abertas-para-a-15-a-edicao-do-concurso-de-ideias-de-negocio-arrisca-c/",
+      "read_on": "2026-11-17",
+      "kind": "funding"
     }
   ],
   "investors": [
