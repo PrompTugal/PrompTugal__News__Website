@@ -1,8 +1,8 @@
 {
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "conducting 19 sessions; live v0.1.1737",
-  "updated": "2026-11-17T17:54Z",
+  "state": "conducting 19 sessions; ledger 1851Z (274.04 USD API-equivalent); live v0.1.1741",
+  "updated": "2026-11-17T18:52Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -147,8 +147,7 @@
     "Dinis: datasci.places@ releasing its hourly live data straight to dev (abp@ holds it for your word; until then dev@ brings it each hour)",
     "Dinis: Jose asks that outlet and staff data be private (a CRM), against your guidance to list and link every outlet per place; local@PrompTugal.jose writes no new outlet data until you answer",
     "Dinis: security@ S50: the \u00a35 'Support us' button and masthead line send readers to a live Stripe link whose credit lands on newsroom.sgit.ai, not promptugal.news (the small print says so, the button does not)",
-    "Dinis: Sul Informa\u00e7\u00e3o: your 13:50 brief says collect its feed hourly; its robots.txt disallows ClaudeBot, Claude-Web and anthropic-ai by name; east stopped at my word at 16:52 and the safety check refused my message to resume. Confirm here (resume the feed, knowing the robots.txt) or let the stop stand",
-    "Dinis: your 17:35 brief asks to restart observability (views collected but not drained since the move): start observability@ here? (and a debrief daily)"
+    "Dinis: Sul Informa\u00e7\u00e3o: your 13:50 brief says collect its feed hourly; its robots.txt disallows ClaudeBot, Claude-Web and anthropic-ai by name; east stopped at my word at 16:52 and the safety check refused my message to resume. Confirm here (resume the feed, knowing the robots.txt) or let the stop stand"
   ],
   "debrief": "board/team/conductor.b/debriefs/2026-11-17-handover.md",
   "incidents": [
