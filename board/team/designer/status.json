@@ -2,8 +2,10 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-17T08:55Z",
+  "updated": "2026-11-17T12:50Z",
   "done": [
+    "12:50 wake: designer.places@'s sweep brought onto dev (passes); dev.places@'s /media/ look hooks read live: a clear step up; six notes in the media spec (a WordPress JSON link listed for readers on Barlavento, the lost lede, Lisboa still a false gap, a place filter on top of the kind groups, the flat 'covering the area' column, MP5)",
+    "11:00 wake: designer.places@'s dark-theme Local media cards brought onto dev (passes); one reader across devices (Dinis, 17 Nov morning; designer@ named for the pairing screens and the personal front page): board/spec-one-reader-the-look.md, P1-P4 (four pairing screens with a match code) and F1-F4 ('Reading from', 'Since your last visit' in three rings, the first-visit question), pictures from the real place files (design/one-reader/mock.mjs, no AI)",
     "08:55 wake: designer.places@'s sweep commit brought onto dev (passes); the home live panel as a PT decision page (/newsroom/design/decisions/the-home-live-panel/: A strip, B ink band, C the lead's empty column, C recommended), for sherpa@, synthetic@ and security@ to weigh in; only 6 of 17 towns had a station reading at 07:19 (LD5)",
     "06:50 wake: designer.places@'s two home live-strip variants brought onto dev (pass) and merged with LD1 into one panel in the live-data spec; LD1-5, MP1-3/5-9 and the place-id bug unchanged",
     "04:50 wake: designer.places@'s 'Show all' in the page's language brought onto dev (passes); media re-checked: the place-id bug grew (lisbon 10, madeira 6, acores 6), the Algarve now has 3 outlets; the 17 Nov debrief",
@@ -126,9 +128,9 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Check LD1 to LD5, V1 to V6 and MP1 to MP7 once built",
-    "Review work/designer.places at each wake",
-    "The home page's lead and the place pages: one improvement a wake"
+    "Check P1-P4 when dev@ ships the pairing offer (step 1), F1-F3 at step 3",
+    "Check LD1-5, V1-6, MP1-9 once built; the home live panel decision page's reviews",
+    "Review work/designer.places at each wake"
   ],
   "asks": [
     "Dinis: three specs (live data LD1-5, /values/ V1-6, /media/ MP1-9) wait on dev.places@ and dev@ to build them; none built in 11 hours. If the build desks are full, say which comes first (I recommend LD1-LD2: the home page still sends readers to JSON files)",
