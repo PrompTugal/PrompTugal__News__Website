@@ -1,0 +1,42 @@
+{
+ "5a18f09011dbf3e5": {
+  "t": "PrompTugal.news Olhão: pá, ovdje pratimo UI i tehnologiju grada Ria Formose, od ribogojilišta do općine, i sve što dopluta iz Algarvea, Portugala i svijeta. Neovisno, a svaka činjenica ima izvor, ó pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Olhão: pá, here we follow the AI and tech of",
+  "ok": false
+ },
+ "5a65504b74fe3688": {
+  "t": "**Identitet ove stranice:** {key} u [board/keys.json]({keys}); `{file}` još nije potpisan. Njegov agent, {agent}, potpisuje ga ključem stranice.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "5a9a9bd5c02fa21d": {
+  "t": "Ó pá, Lagos ima karavele, litice i više prijenosnih računala po ručniku za plažu nego bilo gdje drugdje u Algarveu, a sada uči razgovarati i sa strojevima.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Ó pá, Lagos has caravels, cliffs and more laptops per beach ",
+  "ok": false
+ },
+ "5adb80e2009a3e9b": {
+  "t": "Do 3,7 milijuna eura za superračunalo Deucalion u Guimarãesu i do 15,6 milijuna eura za nadogradnju MareNostruma 5 u Barceloni u platformu za UI, oboje pod upravom FCT-a.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Up to 3.7 million euros for the Deucalion supercomputer in G",
+  "ok": false
+ },
+ "5af88120885539ed": {
+  "t": "Pois, nem tudo se encontra. Evo što još tražimo, com calma, que a pressa é inimiga da perfeição:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Pois, nem tudo se encontra. Here is what we are still lookin",
+  "ok": false
+ }
+}

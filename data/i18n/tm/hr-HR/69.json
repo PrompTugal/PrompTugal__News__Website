@@ -1,0 +1,34 @@
+{
+ "690fcfd22acf1835": {
+  "t": "Venture Lab otvara besplatan natječaj za mentorstvo čije teme uključuju tehnologiju i UI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Venture Lab opens a free mentoring call whose topics include",
+  "ok": false
+ },
+ "694151e7c32d3ab4": {
+  "t": "PrompTugal.news Viana do Castelo: umjetna inteligencija i tehnologija u Viani do Castelo, lučkom gradu čije je težište politehnika, laboratorij za podatkovne inovacije i nova tvornica opreme za podatkovne centre, te ono što do Viane do Castelo stiže iz Alto Minha, Portugala i svijeta. Neovisno; svaka činjenica ima izvor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Viana do Castelo: AI and technology in Viana",
+  "ok": false
+ },
+ "69568bc882f07217": {
+  "t": "CoLagos, općinski coworking prostor, treću godinu zaredom osvaja regionalnu nagradu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "CoLagos, the council's coworking space, wins a regional awar",
+  "ok": false
+ },
+ "69932eb3fcd93dc9": {
+  "t": "Startup Braga vodi 15 startupova na Web Summit, četiri od njih izgrađena na UI-ju",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Startup Braga takes 15 startups to Web Summit, four of them ",
+  "ok": false
+ }
+}

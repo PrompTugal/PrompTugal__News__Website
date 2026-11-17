@@ -1,0 +1,26 @@
+{
+ "366bb797fee927fe": {
+  "t": "Godišnji strateški sastanak INESC TEC-a održan je na UTAD-u 11. rujna, prvi put pod vodstvom mreže mladih istraživača BEAR. UI je bio jedna od dvije teme, s glavnim govorom o njegovoj budućnosti i radnim skupinama.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "INESC TEC's annual strategic meeting was held at UTAD on 11 ",
+  "ok": false
+ },
+ "36a4b0a59ce2073a": {
+  "t": "Eish, evo što nismo mogli pronaći, a poštena prazna mreža također je nalaz.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Eish, here is what we could not find, and an honest empty ne",
+  "ok": false
+ },
+ "36c2305f6f0c6b41": {
+  "t": "Nautiber, brodogradilište u Vila Real de Santo Antóniu, kaže da planira novu jedinicu za gradnju plovila za obrambeni sektor, usmjerenu na besposadne sustave i platforme. Već je s partnerom isporučio konstrukciju četiriju površinskih dronova i udružio bi se s brodogradilištem iz Lagosa, a nije odlučio između VRSA-a, Portimãoa i Lagosa. Tekst je sponzorirani sadržaj, pa su to tvrdnje same tvrtke.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Nautiber, the shipyard in Vila Real de Santo António, says i",
+  "ok": false
+ }
+}
