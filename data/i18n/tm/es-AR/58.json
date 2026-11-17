@@ -1,4 +1,13 @@
 {
+ "581d3ea310737759": {
+  "t": "Coímbra presenta su primer estand conjunto en Web Summit, con la nueva agencia Go Coimbra y cuatro startups",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Coimbra takes its first joint stand to Web Summit, with the ",
+  "ok": false,
+  "from": "es-ES"
+ },
  "582d1192093c3585": {
   "t": "En la sesión del día municipal del ayuntamiento, el 24 de junio de 2026, la empresa de software Mind presentó un proyecto de urbanismo digital por fases. El sistema documental se está introduciendo ahora. Una fase posterior añade un servicio de urbanismo en línea con IA que ayuda a la gente a completar las solicitudes antes de que lleguen al personal del ayuntamiento. Las fechas son el plan del propio proveedor.",
   "by": "translator@PrompTugal.dinis",

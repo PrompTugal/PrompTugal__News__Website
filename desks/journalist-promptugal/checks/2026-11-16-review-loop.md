@@ -118,3 +118,10 @@ Checked and fine meanwhile: ScaleUp Porto's channel (the programme's email as pu
 | west, central, east, partner desks | nothing new | none |
 
 - The duplicate key ids now cover nine district sites (each old key keeps the id of its successor). The gate matches by fingerprint, so nothing breaks; place.districts@ to rename the old ones `-0`.
+
+## The 03:40 wake (17 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.districts` | `58caf3989`: the nine capitals' site keys get unique ids (`-2`), files re-signed | **brought onto dev**: no duplicate ids left in board/keys.json, gate green. Closes the ask of 00:40 and 02:40 |
+| west, central, east, partner desks | nothing new | none |

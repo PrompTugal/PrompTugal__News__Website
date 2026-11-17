@@ -451,7 +451,13 @@ function hourly() {
             if (!inGrant(who, f) && !inGrant(reviewedAs(who, c.subject), f)) a.outside.push({ f: `${c.sha} ${f}`, after: isAfter, review: reviewedAs(who, c.subject) !== who })
         }
     }
+    // v1.14.1: a run's report is filed before its last commit, and a writer's report reaches dev with its branch: count a report ended within 3 hours before the window as well
     const reported = new Set(runs.map(r => r.agent))
+    { const early = new Date(Date.parse(since) - 3 * 3600e3).toISOString()
+      for (const r of fs.existsSync(path.join(ROOT, 'board', 'runs')) ? fs.readdirSync(path.join(ROOT, 'board', 'runs')) : [])
+          for (const f of fs.readdirSync(path.join(ROOT, 'board', 'runs', r)).filter(f => f.endsWith('.json'))) {
+              try { const j = JSON.parse(fs.readFileSync(path.join(ROOT, 'board', 'runs', r, f), 'utf8')); if (j.agent && j.ended >= early) reported.add(j.agent) } catch { }
+          } }
     for (const [label, a] of Object.entries(agents)) {
         const after = a.outside.filter(x => x.after), before = a.outside.filter(x => !x.after)
         if (after.length) findings.push({ sev: 'breach', what: `${label}: ${after.length} file(s) outside its grant: ${after.slice(0, 6).map(x => x.f).join(', ')}${after.length > 6 ? ' …' : ''}` })
