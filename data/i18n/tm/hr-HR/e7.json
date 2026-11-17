@@ -1,0 +1,42 @@
+{
+ "e72981ce21809675": {
+  "t": "Ainda não sabemos tudo, pá. Evo što nam Faro još nije rekao:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Ainda não sabemos tudo, pá. Here is what Faro has not told u",
+  "ok": false
+ },
+ "e7908f114d56ddcd": {
+  "t": "Viana do Castelo, ai Jesus: bazilika na brdu, rijeka koja se ne može odlučiti gdje stati i općina koja tiho uči računalo čitati dozvole dok cijeli grad gleda luku.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Viana do Castelo, ai Jesus: a basilica on the hill, a river ",
+  "ok": false
+ },
+ "e7bebd39ad02304e": {
+  "t": "Umjetnička izložba ./logSinapses u Loulé uzela je UI i algoritamsko posredovanje kao temu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Loulé art exhibition ./logSinapses took AI and algorithmic m",
+  "ok": false
+ },
+ "e7f26edd2ea41eb9": {
+  "t": "Vlada planira pilot u malom broju općina koje su već tehnološki spremne, s UI-jem kao jedinstvenim pristupnim slojem preko općinskih platformi, počevši od građevinskih dozvola. Coimbra je imenovana kao dio prve faze, a njezin je gradonačelnik rekao da UI može ubrzati postupke uz poštovanje urbanističkih pravila i bez dehumanizacije javnih službi.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The government plans a pilot in a small number of municipali",
+  "ok": false
+ },
+ "e7f72e1b48d63a7d": {
+  "t": "Visualforma, tvrtka iz Fara, opisala je sustav upravljanja navodnjavanjem zelenih površina razvijen s Itelmatisom i Sveučilištem u Algarveu i testiran u Loulé, koji koristi podatke s terena za optimizaciju zalijevanja, uz planirani modul UI-ja i strojnog učenja. Ovo je starija vijest, iz travnja 2023.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Visualforma, a Faro company, described a green-spaces irriga",
+  "ok": false
+ }
+}

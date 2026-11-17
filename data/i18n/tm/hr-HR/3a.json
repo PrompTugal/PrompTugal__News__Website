@@ -1,0 +1,26 @@
+{
+ "3a0840a368567048": {
+  "t": "PrompTugal.news São Brás de Alportel: umjetna inteligencija i tehnologija u São Brásu de Alportel, brdskom gradu baštine plute, muzeja nošnji i općinskog poticaja digitalizaciji, te ono što do São Brása de Alportel stiže iz Algarvea, Portugala i svijeta. Neovisno; svaka činjenica ima izvor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news São Brás de Alportel: AI and technology in S",
+  "ok": false
+ },
+ "3a3ce85c327ffbdf": {
+  "t": "**Javite nam se:** ispravak, pitanje ili priča koju smo propustili šalju se iz okvira na dnu ove stranice, zapečaćeni za redakciju. Ako ste prijavljeni, odgovor dobivate na [svojoj stranici za razgovor]({talk}).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "**Talk to us:** a correction, a question or a story we misse",
+  "ok": false
+ },
+ "3ad18ea33c3678fa": {
+  "t": "Panel u UAlg TEC Campusu: ako vas UI ne preporuči, tko će?",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Panel at UAlg TEC Campus: if AI does not recommend you, who ",
+  "ok": false
+ }
+}

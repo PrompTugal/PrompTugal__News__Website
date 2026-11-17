@@ -1,0 +1,26 @@
+{
+ "ab4fa81bccc51023": {
+  "t": "Dvogodišnji projekt koji navodi istraživački ured sveučilišta, od 1. rujna 2026. do 31. kolovoza 2028., razvija rješenja UI-ja za jeftine ugrađene uređaje male potrošnje u poljoprivredi i stočarstvu, spajajući inženjerstvo, znanost o podacima i poljoprivredno znanje. Prihvatljivi trošak je 197.754,85 eura, od čega 168.091,62 eura za portalegrsku stranu, financirano iz FEDER-a u okviru ALT2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "A two-year project listed by the university's research offic",
+  "ok": false
+ },
+ "aba7aa34a9e303a2": {
+  "t": "Konzorcij EdgeOnVespa, koji predvodi tvrtka Dotlabs s MORE CoLABom, nacionalnom federacijom pčelara i Anbeitom, gradi sustav rubnog računalstva koji UI-jem pronalazi i prati stršljena te pokreće suzbijanje. Sufinancira ga program NORTE2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The EdgeOnVespa consortium, led by the company Dotlabs with ",
+  "ok": false
+ },
+ "abe73eede625cf9c": {
+  "t": "Lagos je mjesto gdje se algarveška tehnološka zajednica susreće uživo. Općina je u studenom 2025. suorganizirala Algarve Tech Hub Summit, koji je u jedan hotel privukao nekoliko stotina ljudi, a s GDG Lagosom radi na događajima o UI-ju poput DevFesta Lagos 2025. i Build with AI za Međunarodni dan žena. Općinski coworking prostor CoLagos potpuno je popunjen od studenoga 2023., a zajednica za digitalne nomade grada postoji od pandemije. Nismo našli nijednu UI tvrtku za koju je potvrđeno da ima sjedište u Lagosu, pa je težište zajednica graditelja i daljinskih radnika, a ne skup UI tvrtki.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Lagos is where the Algarve's tech community meets in person.",
+  "ok": false
+ }
+}
