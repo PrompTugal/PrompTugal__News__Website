@@ -10,4 +10,4 @@ Instructed by Jose only (and Dinis as editor-in-chief). A new session per piece,
 
 Waits on Dinis, as editor-in-chief: Dinis's yes for this desk and its sessions (the newsroom's rule: a new session only at Dinis's word), and for the two files of Jose's it writes on the team site, as Angelo's writer does. A no or a wait from Dinis stops this desk.
 
-Open now: JW1, one door (picked by Jose on 7 November 2026): draft and check written, waiting for the newsroom's review.
+Open now: nothing in progress. JW1, "One door", was published on 16 November 2026 (`/articles/one-door.html`). The desk's state, what it does next and what it asks are in `status.json` (Jose's rule J10, `desks/conductor-jose/standing-rules.md`).
