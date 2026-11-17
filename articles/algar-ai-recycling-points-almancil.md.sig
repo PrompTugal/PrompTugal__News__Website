@@ -1,4 +1,5 @@
 {
-  "signature": "l7D/MuaDJGMFLUQIP9oUtSU5vGzUWFyUPkFY1//rR+fvKtu60jnYFHDioCpnEGt4Fi33x2sasK+mMhQjBJ3dsw==",
-  "fingerprint": "sha256:e871f19c052070cc"
+  "signature": "ouYdHi4nS5ortY1DB7ZnUWl7iS24ozNb3ycvwE5zTbbbuzY2iKiOghUV7KetwifqVvkVpKI9/8yOhJfeeRC9bw==",
+  "fingerprint": "sha256:d0cea9074eee68f7",
+  "form": "twin-without-version-or-builder/2"
 }

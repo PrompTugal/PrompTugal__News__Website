@@ -57,6 +57,21 @@
       ]
     },
     {
+      "title": "NERA brings 25 businesswomen to Faro to explore AI tools for customer satisfaction",
+      "summary": "On 10 November 2026 NERA, the Algarve business association, held an INTREPIDA pro Lunch & Learn at CRIA, University of the Algarve in Faro. A sales specialist showed AI tools for collecting and analysing customer feedback, including survey and satisfaction forms.",
+      "date": "2026-11-12",
+      "publisher": "Postal do Algarve",
+      "url": "https://postal.pt/economia/nera-reune-25-empresarias-em-faro-para-explorar-inteligencia-artificial-nos-negocios/",
+      "read_on": "2026-11-17",
+      "ai_path": "Directly about AI: practical AI tools for small business customer analysis, run at the University of the Algarve.",
+      "steps": 0,
+      "significance": "region",
+      "blast": [
+        "loule",
+        "olhao"
+      ]
+    },
+    {
       "title": "DevFest in Faro spends two days on agentic AI",
       "summary": "GDG Faro's free conference runs on 27 and 28 November at the University of Algarve's Campus da Penha, with workshops and talks on building, securing and scaling AI applications.",
       "date": "2026-11-06",
@@ -159,6 +174,21 @@
       "read_on": "2026-11-15",
       "ai_path": "A business panel in Faro on how AI systems recommend companies: directly about AI.",
       "steps": 0
+    },
+    {
+      "title": "Panel at UAlg TEC Campus: if AI does not recommend you, who will?",
+      "summary": "A free English-language panel in Faro on how AI answer tools (ChatGPT, Gemini, Claude, Perplexity, Google AI Overviews) change online search and company visibility, with talks on AEO and GEO. Organised by Flow Productions with Algarve STP.",
+      "date": "2026-07-17",
+      "publisher": "Postal do Algarve",
+      "url": "https://postal.pt/cultura/ensino/faro-recebe-painel-sobre-inteligencia-artificial-e-visibilidade-das-empresas-no-ualg-tec-campus/",
+      "read_on": "2026-11-17",
+      "ai_path": "Event is directly about AI assistants and search recommendation of local firms",
+      "steps": 0,
+      "significance": "town",
+      "blast": [
+        "loule",
+        "olhao"
+      ]
     },
     {
       "title": "Algarve STP picks 12 firms for its first Venture Lab, AI among the sectors",
@@ -290,6 +320,18 @@
         "sao-bras-de-alportel",
         "loule"
       ]
+    },
+    {
+      "title": "AI4YouthWork workshop on AI literacy for youth workers held in Faro",
+      "summary": "An Erasmus+ project workshop at UAlg TEC Campus brought technology professionals and social workers together on responsible AI use; it presented a competence framework and 48 open educational resources.",
+      "date": "2025-06-17",
+      "publisher": "Postal do Algarve",
+      "url": "https://postal.pt/europedirectalgarve/conectar-dois-mundos-tecnologia-e-youth-work-unidos-para-moldar-o-futuro-da-ia-reunem-se-em-faro/",
+      "read_on": "2026-11-17",
+      "ai_path": "Workshop directly on AI literacy; older item (event 2 April 2025)",
+      "steps": 0,
+      "significance": "town",
+      "blast": []
     },
     {
       "title": "AI4Youth Work brings an Erasmus+ project on AI for youth workers to UALG TEC Campus",
@@ -743,7 +785,8 @@
     "UAlg agenda for November lists no AI event; its Faro neighbours' AI items (Olhao Bairros Digitais, Loule, Sao Bras) belong to their own town files: the Bairros Digitais article does not mention AI.",
     "Barlavento tag page and feed returned only a JPEG (unreadable). cm-faro.pt latest news has nothing on AI (a 3 Nov accessibility app item does not call itself AI). ualg.pt news first page has no new AI item beyond the already-listed schools talks. DevFest Faro 27-28 Nov: no update found.",
     "cm-faro.pt news 16 Nov (type 1 diabetes training) and 3 Nov (Map4Accessibility with a 'virtual assistant', no AI stated) do not pass the test.",
-    "No GDG Faro DevFest 2026 listing page found (gdg.community.dev); only Algarve Evolution and the existing Barlavento item."
+    "No GDG Faro DevFest 2026 listing page found (gdg.community.dev); only Algarve Evolution and the existing Barlavento item.",
+    "17 Nov recheck: Barlavento, Postal Algarve, Algarve Primeiro, ualg.pt news and cm-faro.pt news lists show no other new AI item. The 10 Nov NERA session is added; its sister listing in loule.json events points at the same event."
   ],
   "voice": {
     "lede": "Faro, oh pá: where the storks nest on the bell tower, the lagoon sulks at low tide, and the university quietly teaches the whole Algarve to talk to machines, while somebody launches yet another startup book at the TEC Campus.",

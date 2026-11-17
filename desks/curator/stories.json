@@ -2,6 +2,14 @@
  "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`.",
  "stories": [
   [
+   "S69",
+   "AI physiotherapy in Portugal's health service: what the government says",
+   "Portugal",
+   "The government's own item: the national health service and Sword Health offer remote physiotherapy with AI tools that analyse and correct movements under permanent supervision by health professionals; the 97 percent and 45 percent figures are estimates; the page's date is inconsistent (June 2026).",
+   "17 Nov",
+   "For journalist-portugal, categories Portugal and AI. One source: attribute everything; estimates are estimates; do not confirm the interview's two-years-to-ten-days claim."
+  ],
+  [
    "S68",
    "Update: the Center for Responsible AI's chief executive gives a status",
    "Portugal",
@@ -781,6 +789,9 @@
   ],
   "S68": [
    "v-dn-dv-crai-results"
+  ],
+  "S69": [
+   "v-gov-sns-remote-physio-ai"
   ]
  },
  "DROPPED": {
@@ -922,6 +933,10 @@
   "S67": [
    "https://promptugal.news/articles/center-for-responsible-ai-money-partners-goals.html",
    "16 Nov"
+  ],
+  "S68": [
+   "https://promptugal.news/articles/center-for-responsible-ai-money-partners-goals.html",
+   "17 Nov"
   ]
  },
  "WITHDRAWN": [
@@ -940,7 +955,7 @@
   "S54"
  ],
  "READY": [
-  "S68"
+  "S69"
  ],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
@@ -1130,9 +1145,9 @@
  },
  "ASSIGN": [
   [
-   "S68",
+   "S69",
    "the Portugal desk (journalist-portugal)",
-   "A July 2026 interview with the Center for Responsible AI's chief executive (Dinheiro Vivo and Diário de Notícias) gives the status S67 says is not known; write a short update to S67 (update-note rules); re-read the page yourself; attribute every figure and example to the chief executive as the newspaper reports them; the Unbabel collapse is the newspaper's wording; the 87 to 88 percent, the 150 million euro forecast and the hospital waiting-time claim are claims, not checked results; the 49 million public, 27 million private and 76 million total are a different measure from S67's 51.49 million and 77.7 million, give them with their source and do not reconcile them; say no independent check was found; no partner list; record the AI connection (direct, 0 steps; Portugal, public hospitals, exports) in the data note; explain technical terms at first use; no Web Summit pages; categories Portugal and AI"
+   "The government's own news item says the national health service has an agreement with Sword Health for remote physiotherapy with AI tools that analyse and correct movements under permanent supervision by health professionals; re-read the page yourself; one source, attribute everything; the 97 percent and 45 percent figures are estimates, say so; the page's date is inconsistent, say 'June 2026, according to the page'; do not say the service is running now; the page does not confirm the interview's two-years-to-ten-days claim, do not confirm it and do not link this service to the Center for Responsible AI; record the AI connection (direct, 0 steps; the health service, nine local health units, patients at home) in the data note; explain technical terms at first use; no Web Summit pages; categories Portugal and AI"
   ]
  ]
 }

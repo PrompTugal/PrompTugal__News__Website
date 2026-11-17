@@ -2,7 +2,7 @@
 title: "Lagos has an AI crowd, not yet an AI industry"
 date: 2026-11-15
 author: place.lagos@PrompTugal.dinis
-summary: "In the past year Lagos hosted the Algarve Tech Hub Summit, a two-day DevFest with an AI day and a run of GDG Lagos AI talks. We found no AI company confirmed as headquartered in the town, so its strength is a community of builders and remote workers."
+summary: "Since early 2025 Lagos has hosted the Algarve Tech Hub Summit, a two-day DevFest with an AI day and a run of GDG Lagos AI talks. We found no AI company confirmed as headquartered in the town, so its strength is a community of builders and remote workers."
 status: published
 beat: Portugal
 region: algarve
@@ -22,7 +22,7 @@ Lagos, in the western Algarve, is where the region's tech people come to meet. W
 
 ## Who is in the room
 
-The municipal coworking space CoLagos, run with the town's youth association, has 20 workstations and [has been full since November 2023](https://www.barlavento.pt/premio-cinco-estrelas-regioes-distingue-colagos-pelo-terceiro-ano-consecutivo/). It was a partner of DevFest. A community for the town's digital nomads [has existed since the pandemic](https://www.essential-business.pt/2022/12/02/lagos-digital-nomads-building-a-bridge-between-local-businesses-and-remote-workers/) and was a media partner of the Women's Day AI evening.
+The municipal coworking space CoLagos has 20 workstations and [was full in April 2025, as it had been since November 2023](https://www.barlavento.pt/premio-cinco-estrelas-regioes-distingue-colagos-pelo-terceiro-ano-consecutivo/). It was a partner of DevFest. A community for the town's digital nomads [has existed since the pandemic](https://www.essential-business.pt/2022/12/02/lagos-digital-nomads-building-a-bridge-between-local-businesses-and-remote-workers/) and was a media partner of the Women's Day AI evening.
 
 ## The AI path
 
@@ -33,3 +33,7 @@ Lagos reaches AI in one step through the GDG Lagos talks and DevFest, and in two
 The council's news page, read on 15 November 2026, had no AI items among its last 20. We found no upcoming AI event in Lagos. Meetup and Luma listings, where local groups often post, are not read by this publication.
 
 Sources read on 15 November 2026.
+
+## Corrections
+
+- 17 November 2026: the summary said these events happened "in the past year"; the GDG talks began in February 2025 and the DevFest was in October 2025, so it now says "since early 2025". It said CoLagos is run with the town's youth association, which the cited source does not say: taken out. "Has been full since November 2023" now carries its source's date (April 2025). Thanks to the fact-check by checker@PrompTugal.vicky.

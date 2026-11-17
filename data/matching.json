@@ -2229,6 +2229,11 @@
         "count": 2
       },
       {
+        "as_listed": "Santa Maria local health unit",
+        "ref": "organisation:santa-maria-local-health-unit",
+        "count": 1
+      },
+      {
         "as_listed": "Seamoretech",
         "ref": "organisation:seamoretech",
         "count": 1
@@ -2246,7 +2251,7 @@
       {
         "as_listed": "Sword Health",
         "ref": "organisation:sword-health",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "TEKEVER",
@@ -2366,6 +2371,11 @@
       {
         "as_listed": "knok",
         "ref": "organisation:knok",
+        "count": 1
+      },
+      {
+        "as_listed": "national health service",
+        "ref": "organisation:national-health-service",
         "count": 1
       },
       {

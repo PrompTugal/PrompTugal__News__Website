@@ -17,7 +17,15 @@ image_width: 1200
 image_height: 630
 image_alt: "A card: Portugal's Center for Responsible AI. 51.49 million euros from the Recovery and Resilience Plan, as the State's transparency portal shows."
 ---
-> **Update, 17 November 2026.** This article said the Center for Responsible AI's status after 30 June 2026 was not known. A July 2026 interview now gives one account. In [an interview with Dinheiro Vivo and Diário de Notícias](https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes), published on 18 July 2026, the Center's chief executive said coordination had moved to Sword Health. The newspaper reports that Unbabel collapsed financially and that its assets were bought by US capital in August 2025. He said Unbabel finished and sold its products and that they stayed in Portugal. He put the execution rate, how much of the plan was delivered, at "around 87% to 88%". He gave public investment as about 49 million euros and private investment as about 27 million, 76 million in three and a half years. He said the consortium expected turnover of 150 million euros by the end of this year, mostly from exports. His examples were legal search software, hospital coding software, the Halo voice tool for patients with a neurodegenerative disease, and Sword Health's physiotherapy system. He said it cut waiting time for physiotherapy at a Porto hospital from two years to ten days. These are his statements as the newspaper reports them. The newsroom found no independent check. The funding figures measure something different from the 51.49 and 77.7 million euros below, and the note does not reconcile them.
+> **Update, 17 November 2026.** We had said the Center's status after June 2026 was unknown. In [a July interview with Dinheiro Vivo and Diário de Notícias](https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes), published on 18 July 2026, its chief executive gave his account:
+>
+> - **Coordination has moved to Sword Health.** The newspaper reports that Unbabel collapsed financially and that US investors bought its assets in August 2025. He said Unbabel's products were finished and stayed in Portugal.
+> - **About 87% to 88% of the plan was delivered.**
+> - **Investment:** about €49 million public and €27 million private, €76 million over three and a half years. These are counted differently from the €51.49 million and €77.7 million in the article below.
+> - **Expected sales:** €150 million by the end of 2026, mostly exports.
+> - **Examples he gave:** legal search software, hospital coding software, Halo (a voice tool for patients with a neurodegenerative disease) and Sword Health's physiotherapy system, which he said cut a Porto hospital's waiting time from two years to ten days.
+>
+> These are his statements as the newspaper reports them. We have not checked them independently.
 
 ## In short
 

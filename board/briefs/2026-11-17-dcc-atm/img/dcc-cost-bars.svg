@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">
+  <title>The same 200 euros, three prices: ECB reference rate 166.90 pounds, the card's bank 167.12 pounds, the ATM's conversion 189.68 pounds, 22.56 pounds more.</title>
+  <rect width="960" height="560" fill="#f6f3ec"/>
+  <text x="48" y="58" font-size="15" font-weight="700" letter-spacing="2" fill="#006600">PROMPTUGAL.NEWS · EVIDENCE</text>
+  <text x="48" y="100" font-family="Newsreader, Georgia, serif" font-size="34" font-weight="700" fill="#121317">The same €200, three prices</text>
+  <text x="48" y="132" font-size="17" fill="#3f424a">A cash withdrawal at a Portuguese ATM with a UK card, 17 November 2026</text>
+  <!-- axis -->
+  <line x1="300" y1="170" x2="300" y2="470" stroke="#d8d4cb" stroke-width="2"/>
+  <!-- scale: 0 to 200 pounds over 600 px: 3 px per pound -->
+  <g font-size="17" fill="#121317">
+    <text x="48" y="212" font-weight="700">ECB reference rate</text>
+    <text x="48" y="234" fill="#3f424a" font-size="14">1 EUR = 0.83450 GBP (16 Nov)</text>
+    <rect x="300" y="190" height="44" width="0" fill="#8a8f98" rx="3">
+      <animate attributeName="width" from="0" to="500.7" dur="1.2s" begin="0.3s" fill="freeze"/>
+    </rect>
+    <text x="812" y="219" font-weight="700" opacity="0">£166.90<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.4s" fill="freeze"/></text>
+
+    <text x="48" y="302" font-weight="700">The card's bank</text>
+    <text x="48" y="324" fill="#3f424a" font-size="14">£1 ≈ €1.1967 (what was charged)</text>
+    <rect x="300" y="280" height="44" width="0" fill="#006600" rx="3">
+      <animate attributeName="width" from="0" to="501.4" dur="1.2s" begin="0.8s" fill="freeze"/>
+    </rect>
+    <text x="812" y="309" font-weight="700" opacity="0">£167.12<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.9s" fill="freeze"/></text>
+
+    <text x="48" y="392" font-weight="700" fill="#c52830">The ATM's "guaranteed" rate</text>
+    <text x="48" y="414" fill="#3f424a" font-size="14">1 EUR = 0.94840 GBP (offered twice)</text>
+    <rect x="300" y="370" height="44" width="0" fill="#c52830" rx="3">
+      <animate attributeName="width" from="0" to="569" dur="1.6s" begin="1.4s" fill="freeze"/>
+    </rect>
+    <text x="880" y="399" font-weight="700" fill="#c52830" opacity="0">£189.68<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3s" fill="freeze"/></text>
+  </g>
+  <!-- the gap -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="3.2s" fill="freeze"/>
+    <rect x="801.4" y="364" width="67.6" height="56" fill="none" stroke="#121317" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="48" y="508" font-family="Newsreader, Georgia, serif" font-size="26" font-weight="700" fill="#121317">+£22.56 for the "guaranteed" rate: a 13.6% mark-up over the ECB rate</text>
+    <text x="48" y="536" font-size="14" fill="#3f424a">Sources: the ATM's screens and the bank's app (photographed by Dinis Cruz); ECB euro reference rates, 16 Nov 2026.</text>
+  </g>
+</svg>
