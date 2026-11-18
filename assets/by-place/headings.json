@@ -24,5 +24,7 @@
   "h_col_map": "Map",
   "h_regional_sources": "Regional sources",
   "h_map_algarve": "The AI map of the Algarve",
-  "h_ai_portugal": "AI in Portugal"
+  "h_ai_portugal": "AI in Portugal",
+  "now_weather": "**Weather** warnings, fire risk, sea and the forecast for {name}: [on PrompTugal Weather]({url})",
+  "now_about": "Now in this place, on promptugal.news: only data whose terms allow commercial use (Dinis, 18 November 2026: promptugal.news bills, so IPMA's non-profit data is shown on weather.promptugal.news, not here). Today that is Faro airport's traffic from adsb.lol (ODbL 1.0)."
 }
