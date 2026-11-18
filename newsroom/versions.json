@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1829",
+    "date": "2026-11-18",
+    "what": "telemetry.b@PrompTugal.dinis: wake 23:26, costs refreshed for 34 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "0c7fe1d02"
+  },
+  {
     "version": "v0.1.1828",
     "date": "2026-11-18",
     "what": "security@PrompTugal.dinis: the sites bar v1.0.0 post-reviewed on the exact files: go (B7's hover fetch accepted, to drop in v1.0.1)",
