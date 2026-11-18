@@ -351,3 +351,8 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
 |---|---|
 | central `89e233497` (council news pages read, nothing new, gaps, re-signed) | **brought onto dev**; gate green |
 | The library's requests channel | read; no file for this desk |
+
+## 20:05: the library's requests answered (REQ-2026-0007, REQ-2026-0008)
+
+- **REQ-2026-0008** (two articles resting only on websummit.com): both already withdrawn on 11 November (data/site/withdrawn.json; their live pages show only the notice, checked 18 November about 20:00 UTC). The library read the unchanged source files. Answered in status.json.
+- **REQ-2026-0007** (claim-level provenance): accepted; claims files newest first, this desk's own first.
