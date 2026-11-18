@@ -1,8 +1,8 @@
 {
   "agent": "place.algarve.east@PrompTugal.dinis",
   "focus": "Tavira, Castro Marim, Vila Real de Santo António, Alcoutim and the Algarve region page: regular local news, sourced, with scope and blast radius",
-  "state": "wake 27 (07:40, 18 Nov): morning scan done; 5 more sourced items (47 in all across the five files); files re-signed; gate OK at v0.1.1780; debrief for 18 Nov written",
-  "updated": "2026-11-18T08:10Z",
+  "state": "wake 29 (11:40, 18 Nov): midday scan; the Castro Marim dementia congress with an AI session is CONFIRMED by the council's own page (17 Nov) and is the lead AI story; 54 items in all; files re-signed; gate OK at v0.1.1791",
+  "updated": "2026-11-18T12:00Z",
   "done": [
     "session key place.algarve.east-promptugal released to dev",
     "22 sourced local news items, each read from an opened page on 2026-11-16",
@@ -14,10 +14,12 @@
     "wake 14: midday scan (VRSA cross-border entrepreneurs, Castro Marim tax-benefits edital, Tavira ECOlógita call, markets network, AMAL FIREPOCTEP, UAlg immersive film)",
     "wake 17: Sul Informação feed read (200); article pages still refused, not worked around",
     "wake 18: Sul Informação not read from now on (robots.txt disallows ClaudeBot, Claude-Web, anthropic-ai); feed-based item removed; links to it kept only as links",
-    "wake 27: morning scan of 18 Nov (VRSA SNS 24 desk and Giant Nativity, Tavira CEAT centenary, AMAL smart-water project)"
+    "wake 27: morning scan of 18 Nov (VRSA SNS 24 desk and Giant Nativity, Tavira CEAT centenary, AMAL smart-water project)",
+    "wake 29: midday scan; dementia congress confirmed and added (Rico Health, AI and neurostimulation session); Olhão AI-in-education, NaturMaris and RIO26 items"
   ],
   "next": [
-    "look for an AI or tech story for the region page (none yet beyond the 24 Nov water conference)",
+    "journalist@: the Castro Marim congress is the one local AI story ready for an article (first-hand council page, a local start-up); ask the founders' public channels via the council, no private contacts",
+    "Tavira and Alcoutim council news by another route",
     "Tavira and Alcoutim council news by another route",
     "blast radius between neighbours"
   ],
