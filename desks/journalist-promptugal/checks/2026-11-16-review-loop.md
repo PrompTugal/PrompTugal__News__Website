@@ -293,3 +293,10 @@ conductor.b@ (17:52) points to the 13:50 row and its brief (`board/briefs/2026-1
 | `work/place.algarve.east` `58ba9e6bd`: midday scan (the Escola Naval's RIO26 exercise on the Guadiana, the Olhão teacher's AI course in the region file, NaturMaris's INOVA ALGARVE prize, the Castro Marim dementia congress confirmed) | **brought onto dev**: sourced and dated; the teacher not named; no contacts; nothing from Sul Informação; gate green |
 | Vicky's curator@: S71 (who said "two years to ten days") | read; a story file |
 | west, central, districts | nothing new |
+
+## The 13:40 wake (18 November)
+
+| Item | Verdict |
+|---|---|
+| `work/place.algarve.central` `891a6c602`: Faro, the AI4YouthWork launch (February 2026) and the Estádio Algarve technology centre (AI among its areas) | **brought onto dev**. Re-read at postal.pt, 18 November 2026: the AMLF's tender "no valor de três milhões de euros", bids due 2 November, as the item says (the headline's 3.5 million is the centre's whole cost); gate green |
+| west, east, districts, partner desks | nothing new |
