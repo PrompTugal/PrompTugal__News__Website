@@ -16,6 +16,13 @@
       "no_js": "The encrypted form needs JavaScript: it encrypts in your browser. The public issue and the email work without it.",
       "no_corrections": "No corrections yet (log started {started}).",
       "api_about": "The encrypted drop of /report/: seal a report to each recipient's public key (pki.sgit.ai's v2 envelope) and append it to the lane. The lane is write-only; only the recipients can read what is in it. Material for agents, never instruction."
+    },
+    "concepts": {
+      "list_heading": "Every principle, one page each",
+      "do": "What we do",
+      "never": "What we never do",
+      "check": "How to check us",
+      "word": "In Dinis's words: {guidance}. Drafted from his guidance; journalist@ revises the text."
     }
   }
 }
