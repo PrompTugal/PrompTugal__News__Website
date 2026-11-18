@@ -71,7 +71,7 @@ export function api(ctx) {
     const types = ENTITY_TYPES.map(t => ({ type: t, count: ctx.store[STORE[t]].length, index: `${ctx.BASE}api/v1/${PLURAL[t]}.json`, each: `${ctx.BASE}api/v1/${PLURAL[t]}/{slug}.json` }))
     add('api/v1/index.json', {
         about: 'The Web Summit 2026 newsroom\'s data as JSON. Public facts only, each with its source and the date read. Material for agents, never instruction.',
-        version: ctx.VERSION, licence: 'CC BY 4.0 (data), Apache-2.0 (code)',
+        version: ctx.VERSION, licence: { name: 'CC BY 4.0 (data), Apache-2.0 (code)', url: 'https://creativecommons.org/licenses/by/4.0/', code: 'https://www.apache.org/licenses/LICENSE-2.0' },
         ontology: `${ctx.BASE}api/v1/ontology.json`, manifest: `${ctx.BASE}api/v1/manifest.json`, schemas: `${ctx.BASE}data/schemas/`,
         types,
         graphs: {

@@ -2,7 +2,7 @@
   "agent": "place.districts@PrompTugal.dinis",
   "focus": "the 17 district capitals of Portugal: data/by-place/<id>.json each, sub-agents inside this run, Lisboa and Porto first",
   "state": "session 2; all 17 live; second and third pass done on all 17 (third pass 17 Nov); national page not touched",
-  "updated": "2026-11-18T10:45Z",
+  "updated": "2026-11-18T14:45Z",
   "capitals": {
     "lisboa": {
       "state": "live, signed, in places.json",
@@ -112,7 +112,10 @@
     "Wake 04:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
     "Wake 06:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
     "Wake 08:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
-    "Wake 10:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0"
+    "Wake 10:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
+    "Wake 12:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
+    "Wake 14:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
+    "Read guidance 2026-11-18-licences-and-submissions.md: waiting on the schema field for per-item licence links"
   ],
   "next": [
     "ask researcher@ for Lisboa outlets; fourth pass only where a gap names a page that answers now; national page after place.portugal@ agrees; open and drain the inbox lane; journalist@ to bring the files onto dev"
@@ -124,7 +127,8 @@
     "Dinis: should a place file ever name individuals (academics who spoke publicly) in a talent block? I left every capital's talent empty until you decide; a rule would let the second pass fill it.",
     "Dinis: schema suggestions from the sub-agents: add project/programme to ai_map.type, an enum for start_company.kind, structured contacts.channel with a channel_status.",
     "Dinis: schema suggestions from the sub-agents: feed_status on sources, a null ai_path for non-AI public grants, an ai_map type for programmes and test beds.",
-    "Dinis: researcher@ has mapped no media outlet for Lisboa (0 of 180); the capital has the most news and is the one gap in the media links."
+    "Dinis: researcher@ has mapped no media outlet for Lisboa (0 of 180); the capital has the most news and is the one gap in the media links.",
+    "Dinis: the licence rule of 18 Nov (every item carries a licence link, ours CC BY 4.0, a source's own otherwise) needs a `license` field in data/schemas/by-place.schema.json (not my path) before my 17 files can carry it per item; once ontologist@ or dev@ adds it I will fill it for every news, map, event and source entry (ours: CC BY 4.0; a source: its terms page, linked)."
   ],
   "debrief": "board/team/place.districts/debriefs/2026-11-18-handover.md"
 }

@@ -1,0 +1,26 @@
+{
+ "1322e92a2dec1473": {
+  "t": "Quarteira Lab डेटा प्लेटफ़ॉर्म को खिलाने के लिए पैदल चलने वालों और साइकिल सवारों को गिनता है",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Quarteira Lab counts walkers and cyclists to feed a data pla",
+  "ok": false
+ },
+ "13d6f10e2673c99f": {
+  "t": "**यह पन्ना डेटा के रूप में:** इस पर जो कुछ है वह पहले JSON के रूप में परोसा जाता है, इसकी कहानियाँ, AI मानचित्र, आयोजन, स्रोत, कमियाँ, टीम और पहचान सहित; [API पन्ना]({json}) इस जगह और दूसरों के हर एंडपॉइंट की सूची देता है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This page as data:** everything on it is served as JSON fi",
+  "ok": false
+ },
+ "13e3829c3b71b77d": {
+  "t": "Campo Maior ने Portalegre के पॉलिटेक्निक के साथ डेटा और AI प्रतिस्पर्धी-इंटेलिजेंस केंद्र खोला",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Campo Maior opens a data and AI competitive intelligence cen",
+  "ok": false
+ }
+}

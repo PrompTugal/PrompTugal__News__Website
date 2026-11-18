@@ -1,0 +1,34 @@
+{
+ "a8341588a894764c": {
+  "t": "मंत्रिपरिषद के एक प्रस्ताव ने रिकवरी योजना से 1.8 मिलियन यूरो जोड़े, जिससे परियोजना की लागत 7.3 मिलियन यूरो हो गई, और इसका लक्ष्य AMALIA को प्रोटोटाइप से नागरिक सेवाओं में ले जाना है। प्रशिक्षण योजना में एजेंट टूल और छवि तथा वाणी शामिल हैं, और सरकार अभिलेखागार तक पहुंच के लिए मीडिया कंपनियों से बात करना चाहेगी। लेख में लिखा है कि पत्रकार संघ ने पहले चरण में Arquivo.pt डेटा के उपयोग पर आपत्ति जताई। ये घोषित इरादे हैं, डिलीवरी नहीं।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A Council of Ministers resolution adds 1.8 million euros fro",
+  "ok": false
+ },
+ "a84694d202347526": {
+  "t": "Inetum के प्रमुख का कहना है कि AI परियोजना टीमों को छोटा कर रहा है, जिसमें Bragança का सर्विस सेंटर नेटवर्क भी शामिल है",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Inetum's chief says AI is shrinking project teams, including",
+  "ok": false
+ },
+ "a8ba089e242e6644": {
+  "t": "PrompTugal.news Setúbal, a cidade do Sado: Setúbal में AI और टेक, जहां बंदरगाह, Politécnico और Mitrena की लुगदी मिलें बड़े किरदार हैं, साथ में पुर्तगाल, यूरोप और दुनिया से आने वाली हर खबर। Independente, और हर तथ्य के साथ रसीद है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Setúbal, a cidade do Sado: AI and tech in Se",
+  "ok": false
+ },
+ "a8dcd1153a708a4e": {
+  "t": "Bragança की AI गतिविधि दो पड़ोसियों के आसपास है: पॉलिटेक्निक (IPB, जिसे उसकी नई वेबसाइट अब Universidade Politécnica de Bragança कहती है, और जिसे सरकार Universidade de Bragança e do Norte Interior में बदल रही है) और Brigantia EcoPark, वह विज्ञान और टेक्नोलॉजी हब जिसमें MORE CoLAB शोध प्रयोगशाला है। शोध केंद्र CeDRI, AI कोर्स और सेमिनार, और BSC AI Factory पर अप्रैल 2026 का सत्र, सब इसी जोड़ी से आते हैं, नगर परिषद सहयोगी के रूप में। नगर परिषद के अपने समाचार पेज पर AI की कोई खबर नहीं है, इसलिए केंद्र सिटी हॉल नहीं, शोध और पार्क है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Bragança's AI activity sits around two neighbours: the polyt",
+  "ok": false
+ }
+}

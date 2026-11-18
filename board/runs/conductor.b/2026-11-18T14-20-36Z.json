@@ -1,0 +1,77 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-18T14-20-36Z",
+ "started": "2026-11-18T14:20:36.955Z",
+ "ended": "2026-11-18T14:24:45Z",
+ "line": "Dinis's licences-and-submissions guidance recorded; data.b@, the four other site leads, dev@ and outreach@ told",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T14:20:36.955Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T14:23:51.681Z",
+   "chars": 1290,
+   "sha256": "9a20b0fc78695f06",
+   "head": "Yeah, so just providing details here. Yeah, so when he sends his own details, we publish them, credited, and remember that eventually we want to have PKI here, so we want to have them sign it. So we w"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 12,
+  "by_kind": {
+   "other": 1,
+   "remote-conduct": 8,
+   "git": 1,
+   "git-push": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 12,
+  "commits": [
+   {
+    "sha": "a45070f4f",
+    "subject": "conductor.b@PrompTugal.dinis: guidance, licences on every piece of data, submissions, crediting Perplexity",
+    "files": 2
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 12,
+  "in_mandate": 12,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

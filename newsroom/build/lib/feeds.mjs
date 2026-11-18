@@ -4,6 +4,7 @@
 //   <dir>/feed.xml    RSS 2.0
 // An item is either our own article (its link is our page) or a local story we found (its link is the publisher's own
 // page, its author the publisher, our line on why it is AI news in the summary): we link, they report.
+import { ours, of as licenceOf } from './licence.mjs'
 const xml = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 const isDay = d => /^\d{4}-\d{2}-\d{2}/.test(String(d || ''))
 const okUrl = u => typeof u === 'string' && /^https?:\/\/\S+$/i.test(u.trim())
@@ -18,7 +19,10 @@ export function feedFiles({ dir, base, title, description, home, items, language
         version: 'https://jsonfeed.org/version/1.1', title, home_page_url: home, feed_url: `${base}${dir}feed.json`, description, language,
         items: list.map(i => ({ id: i.id || i.url, url: i.url, title: i.title, summary: i.summary || undefined, content_text: i.summary || i.title,
             date_published: iso(i.date), authors: i.author ? [{ name: i.author }] : undefined, tags: i.tags && i.tags.length ? i.tags : undefined,
-            _promptugal: { kind: i.kind, ...(i.via ? { via: i.via } : {}) } })),
+            _promptugal: { kind: i.kind, ...(i.via ? { via: i.via } : {}) },
+            // every item's licence (Dinis, 18 Nov): ours for our articles, the source's for what it reported
+            _license: i.kind === 'article' ? ours() : (licenceOf(i.url) || ours()) })),
+        _license: { ...ours(), scope: 'the feed and our articles; each item carries its own license' },
     }
     const rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -28,6 +32,7 @@ export function feedFiles({ dir, base, title, description, home, items, language
 <atom:link href="${xml(`${base}${dir}feed.xml`)}" rel="self" type="application/rss+xml"/>
 <description>${xml(description)}</description>
 <language>${xml(language)}</language>
+<copyright>${xml(`PrompTugal.news articles: CC BY 4.0 (${ours().url}). Stories reported by others: under their sources' terms, each linked to its outlet.`)}</copyright>
 ${list.map(i => `<item><title>${xml(i.title)}</title><link>${xml(i.url)}</link><guid isPermaLink="${i.id ? 'false' : 'true'}">${xml(i.id || i.url)}</guid><pubDate>${rfc(i.date)}</pubDate>${i.author ? `<dc:creator>${xml(i.author)}</dc:creator>` : ''}<description>${xml(i.summary || '')}</description>${(i.tags || []).map(t => `<category>${xml(t)}</category>`).join('')}</item>`).join('\n')}
 </channel>
 </rss>

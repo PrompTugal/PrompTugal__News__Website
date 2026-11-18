@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/series.schema.json",
+  "title": "An event series: an event that comes back, with its editions (data/series/<slug>/series.json)",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "name",
+    "organised_by",
+    "editions",
+    "sources"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "id": {
+      "$ref": "common.schema.json#/$defs/slug"
+    },
+    "type": {
+      "const": "series"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "organised_by": {
+      "$ref": "common.schema.json#/$defs/org_ref",
+      "description": "an organisation or company, never a person"
+    },
+    "recurrence": {
+      "enum": [
+        "annual",
+        "biannual",
+        "monthly",
+        "weekly",
+        "irregular"
+      ]
+    },
+    "place": {
+      "$ref": "common.schema.json#/$defs/place_ref",
+      "description": "where it is usually held, where that is stable"
+    },
+    "editions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "event",
+          "edition"
+        ],
+        "properties": {
+          "event": {
+            "$ref": "common.schema.json#/$defs/event_ref"
+          },
+          "edition": {
+            "type": "string",
+            "minLength": 1,
+            "description": "the edition's label as the organiser gives it (a year, a number)"
+          }
+        },
+        "additionalProperties": false
+      },
+      "description": "every edition, past and coming: an event is never deleted when it ends, it stays here"
+    },
+    "note": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "url",
+          "read_at",
+          "by",
+          "how"
+        ],
+        "properties": {
+          "url": {
+            "$ref": "common.schema.json#/$defs/url"
+          },
+          "read_at": {
+            "$ref": "common.schema.json#/$defs/read_at"
+          },
+          "by": {
+            "$ref": "common.schema.json#/$defs/agent"
+          },
+          "how": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "derived": {
+      "$ref": "common.schema.json#/$defs/derived"
+    }
+  },
+  "additionalProperties": false
+}
