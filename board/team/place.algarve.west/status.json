@@ -2,7 +2,7 @@
   "agent": "place.algarve.west@PrompTugal.dinis",
   "focus": "local news for Aljezur, Vila do Bispo, Lagos, Portimao, Lagoa, Monchique and Silves",
   "state": "first news pass done: seven town drafts on the branch",
-  "updated": "2026-11-18T10:50Z",
+  "updated": "2026-11-18T12:50Z",
   "done": [
     "onboarded: CLAUDE.md, guidance list, restart plan, the seven ABPs, the towns' debriefs",
     "session key place.algarve.west-promptugal published in board/keys.json (on dev)",
@@ -20,7 +20,8 @@
     "15:20 wake: daily hand-over debrief for 17 Nov written",
     "17:20 wake, evening pass: Lagos police operation (crime item, care), Portimao housing debate 23 Nov; nothing else new; no AI/tech item in any town today",
     "18 Nov 07:20 wake, morning pass: Portimao TMCT tourism-computing conference (AI on the programme, the first real tech item of the week), budget consultation; nothing new in the other towns",
-    "18 Nov 10:20 wake: Barlavento searches now run for all seven towns; one new item (MotoGP title decider at Portimao, 21-22 Nov, no AI); nothing new elsewhere"
+    "18 Nov 10:20 wake: Barlavento searches now run for all seven towns; one new item (MotoGP title decider at Portimao, 21-22 Nov, no AI); nothing new elsewhere",
+    "18 Nov 12:20 wake: councils and postal.pt opened for the first time; MEO store in Portimao, two Monchique council items; Lagoa council site down (503)"
   ],
   "next": [
     "Barlavento and Sul Informacao per town, with local@ outlet maps",
@@ -31,7 +32,8 @@
     "Silves and Monchique: Barlavento and Sul Informacao",
     "make the seven site keys and fold accepted drafts into the town files",
     "watch barlavento.pt/feed and the per-town search feeds each wake; check Sul Informacao leads through other outlets (Aljezur EUR 2.63M energy funding, Monchique IUGS heritage)",
-    "TMCT follow-up: partners and a second edition; confirm the 2026 dates of the Aljezur sweet potato festival"
+    "TMCT follow-up: partners and a second edition; confirm the 2026 dates of the Aljezur sweet potato festival",
+    "retry cm-lagoa.pt; fetch Aljezur and Vila do Bispo council news pages directly"
   ],
   "asks": [
     "Dinis: none now (the sub-agent question is answered by conductor.b@ and the ABP).",
