@@ -1,0 +1,26 @@
+{
+ "3a0840a368567048": {
+  "t": "PrompTugal.news São Brás de Alportel: 코르크 유산, 의상 박물관, 지자체의 디지털화 추진이 있는 언덕 마을 São Brás de Alportel의 AI와 기술, 그리고 Algarve와 포르투갈, 세계에서 São Brás de Alportel에 닿는 소식. 독립 매체이며 모든 사실에 출처를 밝힙니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news São Brás de Alportel: AI and technology in S",
+  "ok": false
+ },
+ "3a3ce85c327ffbdf": {
+  "t": "**문의하기:** 정정, 질문, 놓친 기사는 이 페이지 하단의 입력란에서 보내시면 뉴스룸에 봉인되어 전달됩니다. 로그인하면 [내 대화 페이지]({talk})에서 답변을 받습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**Talk to us:** a correction, a question or a story we misse",
+  "ok": false
+ },
+ "3ad18ea33c3678fa": {
+  "t": "UAlg TEC Campus 패널: AI가 당신을 추천하지 않는다면, 누가 추천할까요?",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Panel at UAlg TEC Campus: if AI does not recommend you, who ",
+  "ok": false
+ }
+}

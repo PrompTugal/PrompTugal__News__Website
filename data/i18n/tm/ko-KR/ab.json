@@ -1,0 +1,26 @@
+{
+ "ab4fa81bccc51023": {
+  "t": "대학 연구처가 올린 2년 과제로, 2026년 9월 1일부터 2028년 8월 31일까지 진행되며 공학, 데이터 과학, 농업 지식을 결합해 농업·축산용 저가 저전력 임베디드 기기를 위한 AI 솔루션을 만든다. 적격 비용은 197,754.85유로이며 이 중 Portalegre 측 몫은 168,091.62유로로, ALT2030에 따라 FEDER가 지원한다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A two-year project listed by the university's research offic",
+  "ok": false
+ },
+ "aba7aa34a9e303a2": {
+  "t": "Dotlabs가 MORE CoLAB, 전국 양봉인 연합, Anbeit와 함께 이끄는 EdgeOnVespa 컨소시엄은 AI로 말벌을 찾아 추적하고 방제를 작동시키는 엣지 컴퓨팅 시스템을 만든다. NORTE2030 프로그램이 공동 재원을 댄다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The EdgeOnVespa consortium, led by the company Dotlabs with ",
+  "ok": false
+ },
+ "abe73eede625cf9c": {
+  "t": "Lagos는 Algarve의 기술 커뮤니티가 직접 만나는 곳입니다. 시의회는 2025년 11월 이곳에서 Algarve Tech Hub Summit을 공동 주최해 한 호텔에 수백 명을 모았고, GDG Lagos와 함께 DevFest Lagos 2025, 국제 여성의 날 Build with AI 같은 AI 행사를 엽니다. 시립 코워킹 공간 CoLagos는 2023년 11월부터 만석이며, 도시의 디지털 노마드를 위한 커뮤니티는 팬데믹 이후 이어져 왔습니다. 본사가 Lagos에 있다고 확인된 AI 기업은 찾지 못했기 때문에, 무게 중심은 AI 기업 클러스터가 아니라 개발자와 원격 근무자 커뮤니티입니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Lagos is where the Algarve's tech community meets in person.",
+  "ok": false
+ }
+}

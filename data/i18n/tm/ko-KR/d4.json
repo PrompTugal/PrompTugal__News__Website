@@ -1,0 +1,90 @@
+{
+ "d424221c84eed8aa": {
+  "t": "포르투갈의 AI 이야기는 무엇보다 국가 정책이며, 대부분 유럽 기금으로 이뤄진 4억 유로 이상이 뒷받침하는 2026~2030 국가 AI 의제가 있습니다. 그 주변에는 국가 지원의 유럽 포르투갈어 오픈 언어 모델(AMALIA), FCT를 통해 운영되는 공공 슈퍼컴퓨팅, 그리고 2026년에 여러 차례 투자를 유치한 스타트업 씬이 있으며 특히 Porto와 리스본에 있습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portugal's AI story is national policy first, with a Nationa",
+  "ok": false
+ },
+ "d42cb125a90e00b6": {
+  "t": "인터뷰에서 Inetum 포르투갈 법인 대표는 회사가 이제 프로젝트 규모를 산정할 때 AI 도구에 의존하기 때문에 팀이 줄어든다고 하면서도, 사람을 AI로 대체하지는 않았다고 강조했다. Bragança는 4개 서비스 센터 중 하나이며, 가격보다 대학과의 연계 때문에 유지된다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "In an interview, the head of Inetum's Portuguese arm said th",
+  "ok": false
+ },
+ "d431d208322bd1ac": {
+  "t": "Castro Marim 시의회, Mind와 함께 도시계획 부서 로드맵에 AI 포함",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Castro Marim's council puts AI into its planning office road",
+  "ok": false
+ },
+ "d433d5f738a25f31": {
+  "t": "Alcoutim, 시 서비스 디지털화에 45만 6천 유로 투자",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Alcoutim invests 456 thousand euros in digitising its munici",
+  "ok": false
+ },
+ "d43f68e2d669835b": {
+  "t": "코임브라 대학교, AI·데이터 과학 학사 및 석사 과정 개설",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "University of Coimbra opens an AI and Data Science bachelor'",
+  "ok": false
+ },
+ "d44858530e9136df": {
+  "t": "Loulé와 Quarteira의 디지털 상업 지구: 온라인 상점, 와이파이, 디지털 디스플레이, 아직 AI는 없음",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Digital Commercial Neighbourhoods of Loulé and Quarteira: on",
+  "ok": false
+ },
+ "d45aa1cda74a1860": {
+  "t": "Bragança, ó pá: 천수각이 밤나무 위를 지키고, 겨울이 매섭게 물며, 폴리테크닉이 북부 전체에 기계와 대화하는 법을 조용히 가르치는 곳. 과학 단지는 슈퍼컴퓨터를 단축 다이얼에 걸어 두고 있습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Bragança, ó pá: where the keep stands guard over the chestnu",
+  "ok": false
+ },
+ "d4908b4fd6bb7256": {
+  "t": "PACT, 로보틱스용 AI 교육으로 500명 넘게 교육한 뒤 AIRA 프로젝트 종료",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PACT closes its AIRA project after training more than 500 pe",
+  "ok": false
+ },
+ "d4c8b7180dbcc316": {
+  "t": "Unbabel의 붕괴 이후 현재 Sword Health가 이끄는, 공적 자금으로 운영되는 컨소시엄 Center for Responsible AI는 공공 투자 약 4900만 유로와 민간 투자 2700만 유로를 보고하며 2026년 말까지 1억 5천만 유로의 매출을 예상한다. 파트너에는 Priberam과 NeuralShift가 있다. 기사만으로는 어느 파트너가 Lisboa에서 일하는지 알 수 없다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Center for Responsible AI, a publicly funded consortium ",
+  "ok": false
+ },
+ "d4d71054d0c7b8b7": {
+  "t": "GDG Faro, Build with Gemma AI 해커톤 개최",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "GDG Faro holds a Build with Gemma AI hackathon",
+  "ok": false
+ },
+ "d4ec9af2e630ad10": {
+  "t": "PrompTugal.news Aveiro: Universidade de Aveiro, Instituto de Telecomunicações, 시의회의 Aveiro Tech City 추진이 무게 중심인 대학·통신 도시 Aveiro의 AI와 기술, 그리고 포르투갈, 브라질, 세계에서 Aveiro로 전해지는 소식. 독립 매체이며, 모든 사실에 출처를 밝힙니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Aveiro: AI and technology in Aveiro, a unive",
+  "ok": false
+ }
+}
