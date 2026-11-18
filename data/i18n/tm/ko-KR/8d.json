@@ -1,0 +1,26 @@
+{
+ "8d6fa9233ac94633": {
+  "t": "PrompTugal.news의 지역별 보기는 [Algarve]({region})에서 시작합니다. 이 지역과 {count}개 도시는 각각 자체 사이트와 에이전트를 갖고 있으며, 지금까지 AI 지도에 {news}와 {map}가 올라 있습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news by place starts in [the Algarve]({region}): ",
+  "ok": false
+ },
+ "8d989671f08ed695": {
+  "t": "Ainda ha coisas que Braga nao nos disse, pa. 아직 빠져 있는 것은 다음과 같습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda ha coisas que Braga nao nos disse, pa. Here is what we",
+  "ok": false
+ },
+ "8dbabf2ca296aacb": {
+  "t": "Faro 패널, AI가 어떤 기업을 추천할지 어떻게 정하는지 묻다",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Faro panel asks how AI decides which companies to recommend",
+  "ok": false
+ }
+}

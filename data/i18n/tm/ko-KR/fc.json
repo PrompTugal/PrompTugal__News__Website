@@ -1,0 +1,26 @@
+{
+ "fc00ddd291017b54": {
+  "t": "PrompTugal.news Albufeira: 해변, 바, 예약의 도시 Albufeira의 AI와 기술, 그리고 Algarve, 포르투갈, 세계에서 밀려드는 소식을 따라갑니다. 독립 매체이며, 모든 사실에 출처가 있고, 햇볕 화상은 없습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Albufeira: we follow the AI and tech in Albu",
+  "ok": false
+ },
+ "fc5c8736a3e9b7b2": {
+  "t": "Elife Portugal, Porto에 오프라인 공간을 둔 AI 커뮤니티 AIhub 개소",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Elife Portugal opens AIhub, an AI community with a physical ",
+  "ok": false
+ },
+ "fccae70e24743955": {
+  "t": "지역 보건 단위, 보건 서비스 내 AI에 관한 웨비나 개최",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Regional health unit holds a webinar on AI in the health ser",
+  "ok": false
+ }
+}

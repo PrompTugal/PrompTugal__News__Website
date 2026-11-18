@@ -1,0 +1,42 @@
+{
+ "df09dbbb93e6a84c": {
+  "t": "Viseu 병원 그룹, PRR 지원으로 해당되는 경우 AI가 포함된 스캐너 구매",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Viseu hospital group buys PRR-funded scanners that include A",
+  "ok": false
+ },
+ "df2d4bd6a5812b21": {
+  "t": "코임브라의 Critical Software, 유럽 미사일 프로젝트용 AI 플랫폼 구축",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Critical Software of Coimbra builds the AI platform for a Eu",
+  "ok": false
+ },
+ "df3370ad9243e3fb": {
+  "t": "이 연구소는 대기업, 사모펀드, 정부 기관을 위한 맞춤형 AI 솔루션을 만든다. 라운드 규모는 공개되지 않았다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The lab builds custom AI solutions for large companies, priv",
+  "ok": false
+ },
+ "dfd17296d59d381a": {
+  "t": "PrompTugal.news Santarém: 농식품 과학과 새 Campus Tejo가 무게 중심인 Tejo 강변의 지역 중심지 Santarém의 AI와 기술, 그리고 포르투갈, 유럽, 세계에서 Santarém으로 전해지는 소식. 독립 매체이며, 모든 사실에 출처를 밝힙니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Santarém: AI and technology in Santarém, a d",
+  "ok": false
+ },
+ "dff763ff9196306b": {
+  "t": "2024년 6월 28일 IBM 자회사인 계약업체 Softinsa는 시의회에 매달 4,000통이 넘게 들어오는 이메일을 적절한 부서로 분류하기 위해 IBM의 watsonx 플랫폼을 사용한 6주간의 개념 검증 결과를 발표했다. 2026년 항목들보다 오래된 소식이다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "On 28 June 2024 the contractor Softinsa, an IBM subsidiary, ",
+  "ok": false
+ }
+}

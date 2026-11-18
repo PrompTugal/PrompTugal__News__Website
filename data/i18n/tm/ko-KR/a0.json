@@ -1,0 +1,50 @@
+{
+ "a02ffddc6a7859dd": {
+  "t": "Viana는 세 가지 묘수의 도시입니다. Câmara는 AI가 이미 건축 허가를 돕는다고 하고, Politécnico는 AI를 토론하고 가르치며 학생의 AI 아이디어를 전국 결선에 보내고, 항구에서는 데이터센터 장비 공장이 교대 근무를 시작했습니다. Bonito, pá. 공장의 서류에 AI에 관한 말이 있었으면 좋겠다는 아쉬움뿐입니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Viana is a city of three tricks. The Câmara says AI already ",
+  "ok": false
+ },
+ "a05cd27604ae2f2e": {
+  "t": "Contextos와 Algarve STP가 2025년 4월 2일 Faro에서 청소년 지도자들이 AI 도구를 활용하도록 돕는 영어 공동 창작 세션을 열었으며, 윤리와 디지털 포용이 의제에 올랐다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Contextos and Algarve STP ran an English-language co-creatio",
+  "ok": false
+ },
+ "a08c54ae7db3d122": {
+  "t": "Santarém 지역 보건 단위, 보건 분야 AI에 관한 WHO 콘퍼런스에 참여",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Santarém's local health unit joins a WHO conference on AI in",
+  "ok": false
+ },
+ "a09e63aba13e4aba": {
+  "t": "Castelo Branco의 AI 활동은 2026년 8월 1일 Universidade Politécnica de Castelo Branco가 된 폴리테크닉과 그곳이 길러 내는 사람들을 중심으로 이뤄집니다. 보건대학은 보건 분야 AI 데이 행사를 열고, 공학 교수 두 명은 산불 드론 스타트업 Axtron Systems를 세웠으며, 지역 폐기물 기술 기업과 IT 컨설팅 회사가 주요 민간 이름입니다. 2026년에는 시의회도 AI를 이야기하기 시작해 AI 콘퍼런스로 새 학기를 열고 AI 아카데미를 검토 중이라고 밝혔으며, Odin Systems라는 기업과 드론·국방 기술 허브를 승인했습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Castelo Branco's AI activity sits around the polytechnic, wh",
+  "ok": false
+ },
+ "a0b7f4ddc8d2385c": {
+  "t": "시청과 University of Algarve, 지식·혁신 협약 준비",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Town hall and University of Algarve prepare a knowledge and ",
+  "ok": false
+ },
+ "a0d37ad2b10c1b7a": {
+  "t": "Setúbal 폴리테크닉, CCG/ZGDV 연구소의 첫 국가 거점 개설",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Setúbal's polytechnic opens the first national pole of the C",
+  "ok": false
+ }
+}
