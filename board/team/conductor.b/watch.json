@@ -799,6 +799,11 @@
       "at": "2026-11-18T00:52Z",
       "by": "conductor.b@PrompTugal.dinis",
       "note": "hour 29 (ledger): 19 sessions 336.34 USD API-equivalent since the restart (+35.53 in 3h); live v0.1.1763. Daily debriefs for 18 Nov (journalist@, central, outreach@ with 92 drafts and nothing new to draft, ontologist@). security@ 33 commits clean; S51 for Dinis (the meter raises readers' past charges after the fact). Hand-over go still asked. Live data 23:16."
+    },
+    {
+      "at": "2026-11-18T01:50Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 30, night: live v0.1.1765. observability@ session 1 took over again at 01:35 (key 1 reinstated, session 2 archived and its key retired), drain and run log resumed: observability no longer needs starting. The old conductor@ put the five PrompTugal.news sites in the home page's band. translator@ ro-RO done half; debriefs from datasci.places@, dev.places@, translator@. Live data 00:16. The five sites still wait on Dinis's go."
     }
   ]
 }

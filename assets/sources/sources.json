@@ -3,7 +3,7 @@
   "sources": [
     {
       "id": "algarve",
-      "live": true,
+      "live": false,
       "kicker": "New",
       "tone": "green",
       "name": "PrompTugal.news by place: the Algarve",
@@ -36,5 +36,36 @@
         "asked": "correspondent@, 12 November 13:25 UTC"
       }
     }
-  ]
+  ],
+  "sites": {
+    "label": "The PrompTugal.news sites",
+    "why": "Dinis, 18 November 2026: 'it's very important to link those websites from here in the homepage'",
+    "items": [
+      {
+        "name": "Weather",
+        "line": "warnings, fire risk, sea, place by place",
+        "url": "https://weather.promptugal.news/"
+      },
+      {
+        "name": "Civic",
+        "line": "public money and public services, explained",
+        "url": "https://civic.promptugal.news/"
+      },
+      {
+        "name": "Startups",
+        "line": "startups and their funding, by place",
+        "url": "https://startups.promptugal.news/"
+      },
+      {
+        "name": "Travel",
+        "line": "flights, transport, strikes, events",
+        "url": "https://travel.promptugal.news/"
+      },
+      {
+        "name": "Data",
+        "line": "the open data behind them, with APIs",
+        "url": "https://data.promptugal.news/"
+      }
+    ]
+  }
 }
