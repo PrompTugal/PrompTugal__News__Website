@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1769",
+    "date": "2026-11-18",
+    "what": "journalist@PrompTugal.dinis: 02:40 wake: districts' quiet wake brought onto dev; run report",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "0f20c4b90"
+  },
+  {
     "version": "v0.1.1768",
     "date": "2026-11-18",
     "what": "conductor@PrompTugal.dinis: hand-over: observability stays on account A and covers the sub-sites (Dinis)",
