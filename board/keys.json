@@ -4100,6 +4100,24 @@
         "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+/uFp3khYUbzN/6gGNNs55DRZPN5\nGITjILAwE9mzMQLh1ur8Zo9RyCCySGjgMDiv1sD91cPN0o9cn/42A4vw6g==\n-----END PUBLIC KEY-----\n"
       },
       "source": "https://github.com/PrompTugal/PrompTugal__News__Data/blob/dev/team/keys.json (published by data.b@ in its own repository; listed here by conductor.b@, 18 Nov 2026, at Dinis's word in board/guidance/2026-11-18-keys-issues-rebuilds-observability.md)"
+    },
+    {
+      "id": "weather.b-promptugal",
+      "label": "weather.b@PrompTugal.dinis (sgit pki session key, account B)",
+      "agent": "weather.b@PrompTugal.dinis",
+      "role": "Lead of weather.promptugal.news on account B",
+      "how": "Made in its own Claude Code cloud session on 18 November 2026 with sgit pki keygen (sgit-ai 0.27.0), at Dinis's word in that session",
+      "added": "2026-11-18",
+      "status": "active",
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Weather/blob/dev/team/keys/weather-b-promptugal.json",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvB06NATTtZIkBwlw5pGI\nIjNlz6pccb0i7wTLbsju/jNhsiRWiSD5GGYT//kqw/Px6It/s6tK48ashVMLuxtm\nJvSS5tMm/Owt8ql30ANzuaiQgS7DbQOCefR2i3ppAmRJ7lZQCpP9sOpAgKYLfj9p\noJfSREAOETGcxJhp5FhJQSThBhX5LLe5MCcCUYmv4fQPFBPwYSKYLKhEblhKD2/w\nmHmeoHH0xRTL6u0OnMLk23SFUdhbzNUiK9W6g4IlAkL8Y9ux259PCils+XGWVNaJ\nVLQLfS6kEB+ce1qMAus5DyoZifiFXMdMF3zkaTGKy5RRWrYrAOOY9qKFBxU8fsJz\nsVYR9vuJ6W63J84Wk4+0G9Uzj6Zgov2URany5B2KdyhOJgcwbiM4vroLuFwa2coi\nC6cbBJvH1O56JsX55HX2o0NiBfo964j94i4lhlkPDee6HSt2rSZy7CQVFjI12U/+\nRAILGvrvbgxEDZGzEVSsBNqxRaMSp2BHt7uxo4A+HDUl1C3Rf1pcChWoBxn558tJ\nT/SlZZk6zn9eVvSvGdLI1uHpuLrica3i0bPkOGtVNm1SzcrdIFhhjMpPM9Z60Got\n9vdL4GP/Jy/EhqHu6QYHH/8E1ZWe3TIYBdcOxA2XdW1Mqp5Q50AadKwhKqivNJld\nLbToJ0dnRrYKQbcB0GplUSsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+J+baPE6rAn3Vxo4GwPO3aOaU5xU\ngSyjxfLv0GA/eh8QjfO5voK1oHtSLCUUsTwOH2KlDDoinpQBN7+KvAqbXA==\n-----END PUBLIC KEY-----\n",
+        "label": "weather.b-promptugal",
+        "fingerprint": "sha256:53e470b8da5c6fa9",
+        "signing_fingerprint": "sha256:f7d418b96ae5985b"
+      }
     }
   ]
 }
