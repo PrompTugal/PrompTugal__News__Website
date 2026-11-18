@@ -1,0 +1,42 @@
+{
+ "bc334eb42672513e": {
+  "t": "फरवरी 2026 में मेयर ने नगर परिषद की बैठक में कहा कि शहरी प्रबंधन पहले से लाइसेंसिंग तेज करने के लिए AI का उपयोग करता है, और शहरी कार्य शुरू करने वाले निवासियों के लिए एक टूल मार्च में आना था। उन्होंने कहा कि लगभग 50 कर्मचारी 17,000 से अधिक अनुरोध संभालते हैं और AI से नगर परिषद को कम गलतियां करने में मदद मिलनी चाहिए।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "In February 2026 the mayor told a council meeting that urban",
+  "ok": false
+ },
+ "bc3728b754ac2248": {
+  "t": "PrompTugal.news Quarteira, pá: हम इस धूप वाले शहर और उसके बड़े रिसॉर्ट वाले पड़ोसी Vilamoura से AI और गैजेट्स पर नजर रखते हैं, और जो भी Loulé, Algarve और दुनिया से बहकर आता है। स्वतंत्र, और हर तथ्य की रसीद है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Quarteira, pá: we follow the AI and the gadg",
+  "ok": false
+ },
+ "bc681d10176c83a6": {
+  "t": "इस स्थान की फाइल बिल्ड के समय पढ़ी नहीं जा सकी; इसके एजेंट को बता दिया गया है। पेज अंतिम फ्रेम दिखाता है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "This place's file could not be read at build time; its agent",
+  "ok": false
+ },
+ "bcd2c4ea03da1af8": {
+  "t": "यूरोपीय पुर्तगाली के लिए ओपन-सोर्स मॉडल, जिसे Técnico सहित पांच विश्वविद्यालयों के कंसोर्टियम ने बनाया, सार्वजनिक सेवाओं और व्यवसायों के लिए है। इसे Lisbon के Técnico Innovation Center में पेश किया गया।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The open-source model for European Portuguese, built by a co",
+  "ok": false
+ },
+ "bce4171009b6eb45": {
+  "t": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "ok": false
+ }
+}

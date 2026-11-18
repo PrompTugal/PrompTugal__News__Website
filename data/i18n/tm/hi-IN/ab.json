@@ -1,0 +1,26 @@
+{
+ "ab4fa81bccc51023": {
+  "t": "विश्वविद्यालय के शोध कार्यालय द्वारा सूचीबद्ध दो साल की परियोजना, जो 1 सितंबर 2026 से 31 अगस्त 2028 तक चलेगी, खेती और पशुपालन के सस्ते, कम बिजली वाले एम्बेडेड उपकरणों के लिए AI समाधान बनाती है, जिसमें इंजीनियरिंग, डेटा साइंस और कृषि ज्ञान जुड़ते हैं। इसकी पात्र लागत 197,754.85 यूरो है, जिसमें Portalegre पक्ष के लिए 168,091.62 यूरो हैं, और यह ALT2030 के तहत FEDER से वित्तपोषित है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A two-year project listed by the university's research offic",
+  "ok": false
+ },
+ "aba7aa34a9e303a2": {
+  "t": "EdgeOnVespa कंसोर्टियम, जिसका नेतृत्व कंपनी Dotlabs करती है और जिसमें MORE CoLAB, राष्ट्रीय मधुमक्खी पालक महासंघ और Anbeit हैं, एक एज-कंप्यूटिंग सिस्टम बनाता है जो हॉर्नेट को खोजने, ट्रैक करने और नियंत्रण शुरू करने के लिए AI का उपयोग करता है। इसे NORTE2030 कार्यक्रम से सह-वित्तपोषण मिला है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The EdgeOnVespa consortium, led by the company Dotlabs with ",
+  "ok": false
+ },
+ "abe73eede625cf9c": {
+  "t": "Lagos वह जगह है जहां Algarve का टेक समुदाय आमने-सामने मिलता है। नगर परिषद ने नवंबर 2025 में यहां Algarve Tech Hub Summit का सह-आयोजन किया, जिसने एक होटल में कई सौ लोगों को खींचा, और वह DevFest Lagos 2025 और International Women's Day Build with AI जैसे AI आयोजनों पर GDG Lagos के साथ काम करती है। नगरपालिका कोवर्किंग स्पेस CoLagos नवंबर 2023 से पूरी तरह भरा हुआ है, और शहर के डिजिटल नोमैड्स के लिए बना समुदाय महामारी के समय से मौजूद है। हमें Lagos में मुख्यालय वाली कोई पुष्ट AI कंपनी नहीं मिली, इसलिए केंद्र AI कंपनियों का समूह नहीं, बनाने वालों और रिमोट वर्कर्स का समुदाय है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Lagos is where the Algarve's tech community meets in person.",
+  "ok": false
+ }
+}
