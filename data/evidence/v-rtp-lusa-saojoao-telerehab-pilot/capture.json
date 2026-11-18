@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-rtp-lusa-saojoao-telerehab-pilot",
+  "type": "evidence",
+  "source_url": "https://www.rtp.pt/noticias/pais/futura-uls-sao-joao-tera-projeto-piloto-de-telerreabilitacao-pos-cirurgica_n1538412",
+  "beat": "Portugal",
+  "group": "S70",
+  "names": [
+    {
+      "as_listed": "ULS São João",
+      "ref": "organisation:uls-sao-joao"
+    },
+    {
+      "as_listed": "Sword Health",
+      "ref": "organisation:sword-health"
+    },
+    {
+      "as_listed": "Center for Responsible AI",
+      "ref": "organisation:center-for-responsible-ai"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-18-0750.json",
+  "run": "2026-11-18T07:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-18-0750.json"
+    ]
+  }
+}

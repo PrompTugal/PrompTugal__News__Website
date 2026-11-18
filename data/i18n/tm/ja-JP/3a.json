@@ -1,0 +1,26 @@
+{
+ "3a0840a368567048": {
+  "t": "PrompTugal.news São Brás de Alportel: São Brás de Alportel の AI とテクノロジー。コルクの遺産、衣装博物館、自治体のデジタル化推進を持つ丘の町。Algarve、ポルトガル、世界から São Brás de Alportel に届くニュースも扱う。独立系。すべての事実に出典あり。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news São Brás de Alportel: AI and technology in S",
+  "ok": false
+ },
+ "3a3ce85c327ffbdf": {
+  "t": "**ご連絡を:** 訂正、質問、見落とした話題は、このページの下部にあるボックスから、編集部宛てに封印して送られる。サインインしていれば、[あなたのトークページ]({talk})で回答を受け取れる。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**Talk to us:** a correction, a question or a story we misse",
+  "ok": false
+ },
+ "3ad18ea33c3678fa": {
+  "t": "UAlg TEC Campus でのパネル。AI があなたを推薦しなければ、誰が推薦するのか",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Panel at UAlg TEC Campus: if AI does not recommend you, who ",
+  "ok": false
+ }
+}

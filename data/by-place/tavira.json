@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "by": "place.tavira@PrompTugal.dinis",
   "mandate": "PrompTugal.news Tavira: AI and technology in Tavira, a town whose digital footprint today is public-sector data platforms and a small tech community, and what reaches Tavira from the Algarve, Portugal and the world. Independent, and every fact sourced.",
   "gravity": {
@@ -286,7 +286,8 @@
     "cm-tavira.pt returned HTTP 403 on 16 November, so no council press release, minutes or official contact page was read; the six new items come from Barlavento and Postal. Next: gov.pt, Diário da República, CCDR Algarve and IPMA for the flood-risk coverage.",
     "Seen only as headlines, not opened: flood-risk zones in Tavira (Postal, 11 November), a missing man and a seized boat near Cabanas, the 2026 council budget (a search snippet says 61.5 million euros, unchecked) and the Regulamento de Mobilidade Sustentável (Edital 120/2026).",
     "The APA flood-risk classification and RCM 63/2024 are known through Postal only; check apambiente.pt and Diário da República. No storm damage report for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim was found on the official pages read.",
-    "cm-tavira.pt still answered 403 on 17 November, and Postal and Barlavento carried no new Tavira item for 14 to 17 November beyond the ones listed."
+    "cm-tavira.pt still answered 403 on 17 November, and Postal and Barlavento carried no new Tavira item for 14 to 17 November beyond the ones listed.",
+    "Nothing new from cm-tavira.pt (403 again) on 18 November."
   ],
   "voice": {
     "lede": "Tavira, ó pá, where the river is calmer than any server room and the seven arches have seen more migrations than your cloud provider.",
@@ -395,6 +396,17 @@
       "url": "https://postal.pt/algarve/festival-ecologita-de-tavira-procura-projetos-e-ideias-para-edicao-de-2027/",
       "read_on": "2026-11-17",
       "significance": "town and neighbours",
+      "ai_path": "no AI",
+      "steps": 0
+    },
+    {
+      "title": "Tavira marks the centenary of the CEAT with a debate on the Algarve's native livestock breeds",
+      "summary": "Opens the centenary celebrations of the Centro de Experimentação Agrária de Tavira, the site of the Polo de Inovação. Known only from Postal's headline and listing blurb, not the article body.",
+      "date": "2026-11-17",
+      "publisher": "Postal",
+      "url": "https://postal.pt/algarve/tavira-assinala-centenario-do-ceat-com-debate-sobre-futuro-das-racas-autoctones-do-algarve/",
+      "read_on": "2026-11-18",
+      "significance": "neighbours and region",
       "ai_path": "no AI",
       "steps": 0
     }

@@ -1,0 +1,10 @@
+{
+ "375953d9a9efce76": {
+  "t": "PrompTugal.news {name}: その土地のページに掲載されている調査。リストはビルド時に検証済み(http(s) のリンクのみ、記事は新しい順)で、サイトのアイデンティティは検証済みのとおり",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news {name}: the place's research as served on it",
+  "ok": false
+ }
+}
