@@ -7,11 +7,11 @@ Read: `board/guidance/2026-11-18-cameras-provenance-and-bulletins.md`. Dinis's t
 
 1. **K1: click to load.** The page shows a still and a "Load the live camera from <operator>" button. The iframe is created only when the reader clicks, so no third-party request is made on page load.
 2. **K2: a contained iframe.**
-   - \`sandbox="allow-scripts allow-same-origin allow-presentation"\`: no top navigation, no popups, no forms.
-   - \`referrerpolicy="no-referrer"\` and \`loading="lazy"\`.
-   - \`allow\` names nothing beyond fullscreen.
+   - `sandbox="allow-scripts allow-same-origin allow-presentation"`: no top navigation, no popups, no forms.
+   - `referrerpolicy="no-referrer"` and `loading="lazy"`.
+   - `allow` names nothing beyond fullscreen.
    - The src host is checked against a list of the operators' embed hosts. That list is one file, and the gate checks every iframe in the built HTML against it.
-3. **K3: CSP where a page carries embeds.** \`frame-src\` lists only those operators' hosts, so nothing else can be framed.
+3. **K3: CSP where a page carries embeds.** `frame-src` lists only those operators' hosts, so nothing else can be framed.
 4. **K4: no recording, no frames kept** (Dinis). No screenshot of a camera is stored or published unless Dinis says so case by case. Faces and number plates in a still are a private person's data: a still shown before the click is the operator's own published poster image, never one we captured.
 5. **K5: Windy's API.**
    - A key, if one is needed, comes from Dinis through the environment's settings, never in a file. It is used only by a server-side collector, never in the reader's browser.
