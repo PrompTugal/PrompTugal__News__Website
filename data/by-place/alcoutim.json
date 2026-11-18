@@ -208,7 +208,12 @@
       "title": "9th Jornadas da Rede de Museus do Algarve, Espaço Guadiana",
       "date": "2026-11-20",
       "url": "https://postal.pt/algarve/alcoutim-recebe-jornadas-da-rede-de-museus-do-algarve-dedicadas-a-arqueologia/",
-      "read_on": "2026-11-16"
+      "read_on": "2026-11-16",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      }
     }
   ],
   "ai_map": [
@@ -493,7 +498,12 @@
       "read_on": "2026-11-16",
       "significance": "town and neighbours",
       "ai_path": "no AI",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      }
     },
     {
       "title": "TANG brings art, videomapping and a mural to Alcoutim on 13 and 14 November",
@@ -505,7 +515,12 @@
       "significance": "town and neighbours",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "Sanlúcar de Guadiana (Spain), Mértola"
+      "blast_radius": "Sanlúcar de Guadiana (Spain), Mértola",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      }
     },
     {
       "title": "Alcoutim hosts the 9th Jornadas da Rede de Museus do Algarve on 20 November",
@@ -516,7 +531,12 @@
       "read_on": "2026-11-16",
       "significance": "town and region",
       "ai_path": "no AI",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      }
     },
     {
       "title": "Alcoutim approves a 264,619 euro project to modernise its municipal market and joins a regional market network",
@@ -528,7 +548,12 @@
       "significance": "town and region",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "the western Algarve markets of the Vicentina network"
+      "blast_radius": "the western Algarve markets of the Vicentina network",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      }
     },
     {
       "title": "The regional local-markets network turns three and becomes 'De Sagres a Alcoutim'",
@@ -540,7 +565,12 @@
       "significance": "neighbours and region",
       "ai_path": "No AI stated: a local-commerce app (Bairros Digitais) used in the markets; the article gives no technical detail.",
       "steps": 2,
-      "blast_radius": "Silves, Olhão and the Vicentina markets"
+      "blast_radius": "Silves, Olhão and the Vicentina markets",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      }
     },
     {
       "title": "The Escola Naval's RIO26 exercise on the Guadiana, 16 to 20 November",
@@ -552,7 +582,12 @@
       "significance": "town and neighbours",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "Mértola, Alcoutim, Vila Real de Santo António"
+      "blast_radius": "Mértola, Alcoutim, Vila Real de Santo António",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      }
     }
   ]
 }

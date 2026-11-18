@@ -1,0 +1,89 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "abp@PrompTugal.dinis",
+ "run": "2026-11-18T15-25-23Z",
+ "started": "2026-11-18T15:25:23.293Z",
+ "ended": "2026-11-18T15:30:54Z",
+ "line": "v1.15.0: telemetry.b, site leads, lifecycle, case studies",
+ "policy": {
+  "version": "1.15.0",
+  "sha256": "4edb86f5bc960c59"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T15:25:58.789Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T15:28:58.759Z",
+   "chars": 1184,
+   "sha256": "8a7f24a76191bbad",
+   "head": "<task-notification>\n<task-id>bqay3l1o2</task-id>\n<tool-use-id>toolu_01SwNBTDVY6yiHbtx6taZTgk</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/1f71f596-c8c7-5883-99c9-7ffd5"
+  },
+  {
+   "t": "2026-11-18T15:29:02.249Z",
+   "chars": 636,
+   "sha256": "c9d1a490dfa985e1",
+   "head": "<task-notification>\n<task-id>b23vqeeiu</task-id>\n<tool-use-id>toolu_01QQfTic3YRGtmDHyHRu5oHi</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/1f71f596-c8c7-5883-99c9-7ffd5"
+  },
+  {
+   "t": "2026-11-18T15:29:02.295Z",
+   "chars": 619,
+   "sha256": "74ea52c9432cffd5",
+   "head": "<task-notification>\n<task-id>bqrnqwi88</task-id>\n<tool-use-id>toolu_01MSQ2SnHstDyn9Kve8KvAtL</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/1f71f596-c8c7-5883-99c9-7ffd5"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 9,
+  "by_kind": {
+   "other": 3,
+   "release": 2,
+   "git": 1,
+   "shell": 3
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 9,
+  "commits": [
+   {
+    "sha": "2657ec782",
+    "subject": "abp@PrompTugal.dinis: v1.14.1, sub-agents for the inner passes in the active roles (Dinis, 18 Nov 15:05, recorded in guidance)",
+    "files": 64
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 4,
+  "tool_calls": 9,
+  "in_mandate": 9,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
