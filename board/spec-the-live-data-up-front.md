@@ -50,3 +50,6 @@ Checked at v0.1.1690: LD1 to LD5 still not built; the home page still links `api
 
 ## 17 Nov, 08:50 UTC
 LD1 and LD2 are now a PT decision page, `/newsroom/design/decisions/the-home-live-panel/` (options A, B, C in full; C recommended, the default unless a reviewer objects by the next wake). LD5 matters more: at 07:19 UTC only 6 of 17 towns had a reading from their own station.
+
+## Checked 18 Nov, 02:45 UTC (v0.1.1767)
+The five sites' band under the masthead (conductor@, 5525d8ae7) reads well at 1280 and 390, and pages fit. LD1 still open: the lead's right half is empty on a desktop; the live line is still one small line. LD2: see the links listed in this wake's commit. A wording slip in the live line: "Faro airport: 1 airline flights near" (singular when 1).

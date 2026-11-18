@@ -18,11 +18,13 @@ const lineOf = s => { const f = s.line_for; if (!f || !(Date.now() < Date.parse(
     return { line: esc(f.line), until: ` data-until="${esc(f.until)}" data-line="${esc(s.line)}"` } }
 function strip(rel) {
     let d; try { d = JSON.parse(fs.readFileSync(R('assets/sources/sources.json'), 'utf8')) } catch { return '' }
-    const on = (d.sources || []).filter(s => s.live && /^https:\/\//.test(s.url)); if (!on.length) return ''
+    const on = (d.sources || []).filter(s => s.live && /^https:\/\//.test(s.url))
+    const sites = d.sites && (d.sites.items || []).length ? put(item('sites'), { label: esc(d.sites.label), '#sites': d.sites.items.map(x => put(item('site'), { url: esc(x.url), name: esc(x.name), line: esc(x.line) })).join('') }) : ''
+    if (!on.length && !sites) return ''
     return put(part('strip'), { '#items': on.map(s => put(item('source'), { tone: esc(s.tone), url: esc(s.url), kicker: esc(s.kicker), name: esc(s.name), ...lineOf(s),
         host: esc(new URL(s.url).host), updated: s.updated ? ` data-updated="${esc(s.updated)}"` : '' })
         // our own page for the source, from every page but itself (the home page always links the storm page, whatever leads)
-        + (s.here && s.here !== rel ? put(item('here'), { href: esc(s.here), name: esc(s.here_name) }) : '')).join('') })
+        + (s.here && s.here !== rel ? put(item('here'), { href: esc(s.here), name: esc(s.here_name) }) : '')).join('') + sites })
 }
 export function decorate(p) {
     if (!PAGES.includes(p.rel)) return
