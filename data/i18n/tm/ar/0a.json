@@ -1,0 +1,34 @@
+{
+ "0a19facbd98f5c16": {
+  "t": "Despacho 91/2025، الموقّع في 10 December 2025، يضع توجيهات لاستخدام الذكاء الاصطناعي في المجتمع الأكاديمي، مستشهدًا بقانون الذكاء الاصطناعي الأوروبي، ويهدف إلى استخدام تربوي وإبداعي وآمن مع حماية النزاهة الأكاديمية والبيانات الشخصية.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Despacho 91/2025, signed on 10 December 2025, sets out guide",
+  "ok": false
+ },
+ "0a25a694e0d350f0": {
+  "t": "- **البرتغال:** [promptugal.news]({portugal})، مع أوروبا والعالم\n- **Algarve:** هذه الصفحة\n- **البلدات:** {count} موقعًا تحتها\n\nتتدفق الأخبار **نزولًا** (أخبار الذكاء الاصطناعي الوطنية والدولية، منتقاة لما تعنيه هنا) و**صعودًا** (مصادر محلية، ترتفع حين تكون مهمة).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "- **Portugal:** [promptugal.news]({portugal}), with Europe a",
+  "ok": false
+ },
+ "0a3a7e1517d2e2b4": {
+  "t": "أموال أوروبية لإدخال الذكاء الاصطناعي والروبوتات إلى 15 شركة سياحة في Algarve",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "European funds to bring AI and robotics to 15 Algarve touris",
+  "ok": false
+ },
+ "0af2ef8726963e81": {
+  "t": "AMALIA تحصل على مرحلة ثانية: 1.8 مليون يورو إضافية، وأدوات الوكلاء مخططة بنهاية 2026",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AMALIA gets a second phase: 1.8 million euros more, agent to",
+  "ok": false
+ }
+}

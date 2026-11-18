@@ -7,6 +7,14 @@
   "src": "A Faro software firm tested its smart irrigation in Loulé, w",
   "ok": false
  },
+ "1c5396fa89f81c7e": {
+  "t": "Estadio Algarveにマルチテクノロジーセンター、AIが展示分野の一つに",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Estadio Algarve to get a multitechnology centre with AI amon",
+  "ok": false
+ },
  "1c77a443b6a6c396": {
   "t": "O Algarve Económico が再掲した Lusa の記事によると、大学の執行部と市当局は、Barranco do Rodrigo のキャンパスに向けて、大学の Horizonte2030 計画を市の基本計画と整合させるために会合した。2028年の目標は維持され、投資額は約800万ユーロとされる(2025年1月の報道では約1,500万ユーロだった)。入札には触れておらず、この記事は AI にも言及していない。",
   "by": "translator@PrompTugal.dinis",

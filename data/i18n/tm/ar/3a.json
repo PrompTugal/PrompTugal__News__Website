@@ -1,0 +1,26 @@
+{
+ "3a0840a368567048": {
+  "t": "PrompTugal.news São Brás de Alportel: الذكاء الاصطناعي والتكنولوجيا في São Brás de Alportel، بلدة تلال بتراث الفلين ومتحف أزياء ودفعة بلدية نحو الرقمنة، وما يصل إلى São Brás de Alportel من Algarve والبرتغال والعالم. مستقل؛ كل واقعة موثّقة بمصدرها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news São Brás de Alportel: AI and technology in S",
+  "ok": false
+ },
+ "3a3ce85c327ffbdf": {
+  "t": "**تحدّث إلينا:** تصحيح أو سؤال أو قصة فاتتنا، يُرسَل من الصندوق أسفل هذه الصفحة، مختومًا إلى غرفة الأخبار. وعند تسجيل الدخول تصلك الإجابة في [صفحة حوارك]({talk}).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**Talk to us:** a correction, a question or a story we misse",
+  "ok": false
+ },
+ "3ad18ea33c3678fa": {
+  "t": "ندوة في UAlg TEC Campus: إذا لم يوصِ بك الذكاء الاصطناعي، فمن سيوصي؟",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Panel at UAlg TEC Campus: if AI does not recommend you, who ",
+  "ok": false
+ }
+}

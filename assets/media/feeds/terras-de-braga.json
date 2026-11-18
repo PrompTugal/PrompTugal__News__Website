@@ -1,0 +1,32 @@
+{
+ "id": "terras-de-braga",
+ "feed": "https://terrasdebraga.sapo.pt/feed/",
+ "read_at": "2026-11-18T15:05Z",
+ "items": [
+  {
+   "title": "Hospital de Braga realizou cirurgias de implante coclear assistidas por braço robótico",
+   "link": "https://terrasdebraga.sapo.pt/noticias/hospital-de-braga-realizou-cirurgias-de-implante-coclear-assistidas-por-braco-robotico",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Atletas do SC Braga em ação na vitória de Portugal Sub-17 frente à Sérvia",
+   "link": "https://terrasdebraga.sapo.pt/noticias/atletas-do-sc-braga-em-acao-na-vitoria-de-portugal-sub-17-frente-a-servia",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Atleta do SC Braga em destaque no Cross Internacional de Sória",
+   "link": "https://terrasdebraga.sapo.pt/noticias/atleta-do-sc-braga-em-destaque-no-cross-internacional-de-soria",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Escola EB2/3 de Nogueira distinguida com o Selo Escola Azul",
+   "link": "https://terrasdebraga.sapo.pt/noticias/escola-eb2-3-de-nogueira-distinguida-com-o-selo-escola-azul",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Gverreiros vencem Ferreira do Zêzere e somam três pontos na Liga Placard",
+   "link": "https://terrasdebraga.sapo.pt/noticias/gverreiros-vencem-ferreira-do-zezere-e-somam-tres-pontos-na-liga-placard",
+   "date": "2026-11-16"
+  }
+ ]
+}

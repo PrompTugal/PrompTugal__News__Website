@@ -1,0 +1,32 @@
+{
+ "id": "viana-tv",
+ "feed": "https://www.vianatv.pt/feed/",
+ "read_at": "2026-11-18T15:05Z",
+ "items": [
+  {
+   "title": "Empresas e centros de investigação debatem investimento em energias renováveis em Viana",
+   "link": "https://vianatv.pt/empresas-e-centros-de-investigacao-debatem-investimento-em-energias-renovaveis-em-viana/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Santa Luzia visita Quinta Sobrado na 3.ª eliminatória da Taça de Portugal",
+   "link": "https://vianatv.pt/santa-luzia-visita-quinta-sobrado-na-3-a-eliminatoria-da-taca-de-portugal/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Viana do Castelo recebe segunda edição do doutoramento em Design para a Inovação Regional",
+   "link": "https://vianatv.pt/viana-do-castelo-recebe-segunda-edicao-do-doutoramento-em-design-para-a-inovacao-regional/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Monção reuniu famílias e profissionais da educação para esclarecer dúvidas sobre a entrada no 1.º ano",
+   "link": "https://vianatv.pt/moncao-reuniu-familias-e-profissionais-da-educacao-para-esclarecer-duvidas-sobre-a-entrada-no-1-o-ano/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Encontro de Escritores Valencianos regressa à Biblioteca Municipal a 21 de novembro",
+   "link": "https://vianatv.pt/encontro-de-escritores-valencianos-regressa-a-biblioteca-municipal-a-21-de-novembro/",
+   "date": "2026-11-18"
+  }
+ ]
+}

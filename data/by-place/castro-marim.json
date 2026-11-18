@@ -149,13 +149,23 @@
       "title": "Vila Coração Christmas programme opens, Praça 1.º de Maio (17:30)",
       "date": "2026-11-28",
       "url": "https://cm-castromarim.pt/site/noticia/castro-marim-inaugura-quadra-natalicia-com-uma-nova-marca-e-uma-nova-essencia-vila-coracao",
-      "read_on": "2026-11-17"
+      "read_on": "2026-11-17",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://cm-castromarim.pt/"
+      }
     },
     {
       "title": "The Great World Race stop in Altura (18:00)",
       "date": "2026-11-19",
       "url": "https://postal.pt/algarve/mau-tempo-na-antartida-altera-horario-de-corrida-mundial-em-altura/",
-      "read_on": "2026-11-17"
+      "read_on": "2026-11-17",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      }
     }
   ],
   "ai_map": [
@@ -289,7 +299,12 @@
       "significance": "town, neighbours and region",
       "ai_path": "Public data from sensors and care records (Rico Health's monitoring), analytics and AI training tools (the congress session on AI and neurostimulation), clinicians and carers (the José Cabrita residence and the University of Algarve). The council page names the talk and the platform, not their AI methods.",
       "steps": 3,
-      "blast_radius": "Vila Real de Santo António, Tavira, and the whole Algarve (regional congress)"
+      "blast_radius": "Vila Real de Santo António, Tavira, and the whole Algarve (regional congress)",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://cm-castromarim.pt/"
+      }
     },
     {
       "title": "Castro Marim renews the quay of the Sapal nature reserve, with FEDER funding",
@@ -301,7 +316,12 @@
       "significance": "town and neighbours",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "Vila Real de Santo António (shared reserve)"
+      "blast_radius": "Vila Real de Santo António (shared reserve)",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://cm-castromarim.pt/"
+      }
     },
     {
       "title": "Works start on the Castro Marim health centre, backed by Algarve 2030",
@@ -312,7 +332,12 @@
       "read_on": "2026-11-16",
       "significance": "town and region",
       "ai_path": "no AI",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://cm-castromarim.pt/"
+      }
     },
     {
       "title": "Castro Marim's basic school climbs 264 places in the national 9th-grade ranking",
@@ -323,7 +348,12 @@
       "read_on": "2026-11-16",
       "significance": "town and country",
       "ai_path": "No AI stated: council and school grouping, University of Algarve digital platform, pupils.",
-      "steps": 2
+      "steps": 2,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://cm-castromarim.pt/"
+      }
     },
     {
       "title": "'Jovens pelo Ambiente' wins first place in the Algarve youth-volunteering award",
@@ -334,7 +364,12 @@
       "read_on": "2026-11-16",
       "significance": "town and region",
       "ai_path": "no AI",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://cm-castromarim.pt/"
+      }
     },
     {
       "title": "Castro Marim closed non-essential council services on 11 November for storm Charles",
@@ -345,7 +380,12 @@
       "read_on": "2026-11-16",
       "significance": "town, region and country",
       "ai_path": "no AI",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://cm-castromarim.pt/"
+      }
     },
     {
       "title": "Castro Marim's alert notice for storm Charles lists red wind, orange rain and orange sea warnings for 11 November",
@@ -357,7 +397,12 @@
       "significance": "town, region and country",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "Vila Real de Santo António and Alcoutim under the same warnings"
+      "blast_radius": "Vila Real de Santo António and Alcoutim under the same warnings",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://cm-castromarim.pt/"
+      }
     },
     {
       "title": "Castro Marim launches 'Vila Coração', a new Christmas brand, from 28 November",
@@ -368,7 +413,12 @@
       "read_on": "2026-11-17",
       "significance": "town",
       "ai_path": "no AI",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://cm-castromarim.pt/"
+      }
     },
     {
       "title": "The Great World Race now stops in Altura on 19 November at 18:00",
@@ -379,7 +429,12 @@
       "read_on": "2026-11-17",
       "significance": "town and country",
       "ai_path": "no AI",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      }
     },
     {
       "title": "Castro Marim's José Cabrita residence for neurodegenerative diseases has 70 users",
@@ -391,7 +446,12 @@
       "significance": "town, neighbours and region",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "Vila Real de Santo António, Tavira"
+      "blast_radius": "Vila Real de Santo António, Tavira",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      }
     },
     {
       "title": "Castro Marim opens the procedure to draft a regulation on municipal tax benefits",
@@ -402,7 +462,28 @@
       "read_on": "2026-11-17",
       "significance": "town",
       "ai_path": "no AI",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://cm-castromarim.pt/"
+      }
+    },
+    {
+      "title": "Castro Marim celebrates São Martinho with its salt and flor de sal across the municipality",
+      "summary": "Events of 7 to 15 November used Castro Marim salt and flor de sal; the 'one of the best in the world' claim about the salt is the council's own.",
+      "date": "2026-11-17",
+      "publisher": "Município de Castro Marim",
+      "url": "https://cm-castromarim.pt/site/noticia/tradicao-do-sao-martinho-temperada-com-sal-e-flor-de-sal-de-castro-marim-em-todo-o-concelho",
+      "read_on": "2026-11-18",
+      "significance": "town",
+      "ai_path": "no AI",
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms: its footer says all rights reserved (read 2026-11-18); only a short factual summary with the link is shown",
+        "url": "https://cm-castromarim.pt/"
+      }
     }
   ]
 }
