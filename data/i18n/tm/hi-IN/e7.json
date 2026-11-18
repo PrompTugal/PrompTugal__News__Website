@@ -1,0 +1,42 @@
+{
+ "e72981ce21809675": {
+  "t": "Ainda não sabemos tudo, pá. यह है जो Faro ने अभी हमें नहीं बताया:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda não sabemos tudo, pá. Here is what Faro has not told u",
+  "ok": false
+ },
+ "e7908f114d56ddcd": {
+  "t": "Viana do Castelo, ai Jesus: पहाड़ी पर एक बेसिलिका, एक नदी जो तय नहीं कर पाती कि कहां रुके, और एक नगर परिषद जो चुपचाप कंप्यूटर को लाइसेंस पढ़ना सिखाती है जबकि पूरा शहर बंदरगाह को देख रहा है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Viana do Castelo, ai Jesus: a basilica on the hill, a river ",
+  "ok": false
+ },
+ "e7bebd39ad02304e": {
+  "t": "Loulé की कला प्रदर्शनी ./logSinapses ने AI और एल्गोरिदमिक मध्यस्थता को विषय बनाया",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Loulé art exhibition ./logSinapses took AI and algorithmic m",
+  "ok": false
+ },
+ "e7f26edd2ea41eb9": {
+  "t": "सरकार उन गिनी-चुनी नगरपालिकाओं में पायलट की योजना बना रही है जो पहले से तकनीकी रूप से तैयार हैं, जिसमें AI नगर परिषद प्लेटफॉर्मों पर एकल एक्सेस परत का काम करेगा, शुरुआत निर्माण लाइसेंस से। Coimbra को पहले चरण का हिस्सा बताया गया है, और उसके मेयर ने कहा कि AI नियोजन नियमों का सम्मान करते हुए और सार्वजनिक सेवाओं को अमानवीय बनाए बिना प्रक्रियाओं को तेज कर सकता है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The government plans a pilot in a small number of municipali",
+  "ok": false
+ },
+ "e7f72e1b48d63a7d": {
+  "t": "Faro की कंपनी Visualforma ने Itelmatis और University of Algarve के साथ विकसित और Loulé में परीक्षित हरित क्षेत्र सिंचाई नियंत्रण प्रणाली का वर्णन किया, जो सिंचाई को अनुकूल करने के लिए खेत के डेटा का उपयोग करती है, और AI तथा मशीन लर्निंग मॉड्यूल की योजना है। यह अप्रैल 2023 की पुरानी खबर है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Visualforma, a Faro company, described a green-spaces irriga",
+  "ok": false
+ }
+}

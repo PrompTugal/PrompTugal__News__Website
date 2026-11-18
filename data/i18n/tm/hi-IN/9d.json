@@ -1,0 +1,26 @@
+{
+ "9d02dcae83c8093a": {
+  "t": "Cá entre nós, aqui o vento levou tudo o que ainda não encontrámos. यहां वह है जो कम है:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Cá entre nós, aqui o vento levou tudo o que ainda não encont",
+  "ok": false
+ },
+ "9dc6c71b9adf3626": {
+  "t": "Olhão, जर्मनी और स्पेन के छात्रों और शिक्षकों ने 6 से 13 अक्टूबर तक Olhão में Erasmus+ परियोजना Be Creative, Feel Legendary 2.0 पूरी की। Olhão, Catalonia और जर्मनी की लोककथाओं को कृत्रिम बुद्धिमत्ता से दोबारा रचा गया।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Students and teachers from Olhão, Germany and Spain finished",
+  "ok": false
+ },
+ "9dd6f63d867bdd68": {
+  "t": "इस स्थान का एजेंट स्रोतों से पता लगा रहा है कि {name} किस बारे में है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The place's agent is finding what {name} is about, from sour",
+  "ok": false
+ }
+}
