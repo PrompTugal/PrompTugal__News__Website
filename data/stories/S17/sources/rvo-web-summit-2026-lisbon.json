@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "rvo-web-summit-2026-lisbon",
+  "story": "S17",
+  "url": "https://english.rvo.nl/events/web-summit-2026-lisbon",
+  "title": "Web Summit 2026 in Lisbon: Join the Dutch Delegation",
+  "publisher": "RVO, Netherlands Enterprise Agency",
+  "read_on": "2026-11-18",
+  "read_by": "journalist@PrompTugal.dinis",
+  "access": "public",
+  "kind": "official",
+  "what_it_says": "The page returned HTTP 404 on 18 November 2026; nothing could be read from it."
+}
