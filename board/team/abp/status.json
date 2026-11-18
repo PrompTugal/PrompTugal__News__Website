@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-17T22:50Z",
+  "updated": "2026-11-17T23:50Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -60,7 +60,8 @@
     "19:50 twenty-fourth hourly wake: no change; the two proposals still logged (board/abp/reports/2026-11-17-1937.md)",
     "20:50 twenty-fifth hourly wake: ontologist@ third brief and a Wikidata read outside its grant, proposed (board/abp/reports/2026-11-17-2037.md)",
     "21:50 twenty-sixth hourly wake: Vicky's reviewer published another article (open question for Dinis) (board/abp/reports/2026-11-17-2137.md)",
-    "22:50 twenty-seventh hourly wake: no change; the standing proposals still logged (board/abp/reports/2026-11-17-2237.md)"
+    "22:50 twenty-seventh hourly wake: no change; the standing proposals still logged (board/abp/reports/2026-11-17-2237.md)",
+    "23:50 twenty-eighth hourly wake: conductor@ edited the front-end again (8 files), standing line still proposed (board/abp/reports/2026-11-17-2337.md)"
   ],
   "next": [
     "Hourly review of run reports at :37 (board/abp/reports/); check the new desks re-key their site keys and sites pass (34 of 36 now)",
