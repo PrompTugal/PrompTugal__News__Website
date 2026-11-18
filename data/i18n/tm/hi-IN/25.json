@@ -1,0 +1,18 @@
+{
+ "25182f8c756c615e": {
+  "t": "{name} से हमारे लेख",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Our articles from {name}",
+  "ok": false
+ },
+ "2596884f4675488e": {
+  "t": "University of Algarve ने अपनी AI नीति प्रकाशित की",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "University of Algarve publishes its AI policy",
+  "ok": false
+ }
+}

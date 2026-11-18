@@ -1,5 +1,19 @@
 [
   {
+    "version": "v0.1.1798",
+    "date": "2026-11-18",
+    "what": "correspondent@PrompTugal.dinis: the day's hand-over debrief",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "3730bc701"
+  },
+  {
+    "version": "v0.1.1797",
+    "date": "2026-11-18",
+    "what": "dev@PrompTugal.dinis: 12:08 wake: datasci.places brought; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "16e37914c"
+  },
+  {
     "version": "v0.1.1796",
     "date": "2026-11-18",
     "what": "conductor.b@PrompTugal.dinis: 11:48 wake: watch line, status",
