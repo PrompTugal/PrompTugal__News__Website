@@ -1,0 +1,42 @@
+{
+ "ac20f6a95ba5b51e": {
+  "t": "Lagoa는 관광으로 살아가며 와인(Lagoa DOC), Ferragudo·Carvoeiro·Benagil의 어업 과거, 그리고 성장하는 학술대회·행사 사업을 갖고 있습니다. 이곳의 AI는 대부분 공공 부문입니다. 시의회는 Smart City 포털을 운영하고, IT 팀은 데이터 보호와 처리 한계를 염두에 두고 AI를 연구해 왔으며, freguesia 한 곳은 웹사이트에 AI 도우미를 올렸습니다. 민간에서는 AI 에이전트를 판매하는 Lagoa의 IT 기업 한 곳과 2026년 2월 청소년 AI 해커톤을 연 영국계 학교 한 곳을 확인했습니다. Ó pá, 해변의 땅치고 나쁘지 않습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing p",
+  "ok": false
+ },
+ "ac318ac4853050a0": {
+  "t": "교사와 학교장 약 600명이 2026년 9월 10일 교육 속 AI를 주제로 한 세션에 모였다. 시장은 시의회가 청소년과 성인을 위한 과정인 Academia IA를 검토 중이라고 말하고 책임 있는 디지털 소양을 촉구했다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "About 600 teachers and school heads met on 10 September 2026",
+  "ok": false
+ },
+ "ac65ddf0253d7aed": {
+  "t": "폴리테크닉 캠퍼스의 기술·혁신 센터가 2026년 5월 22일 총리가 참석한 가운데 개소했다. 센터는 인력 40명, R&D 프로젝트 15건, 지원 기업 20곳 이상, 스핀오프 1곳, 스타트업 2곳을 보고하며, Observador 보도는 스타트업 하나는 AI, 다른 하나는 사이버보안과 연관돼 있다고 전한다. 센터 사이트는 디지털화 항목 아래 AI를 가장 먼저 올리고 AI를 탑재한 휴머노이드와 사족보행 로봇을 제공한다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The technology and innovation centre on the polytechnic's ca",
+  "ok": false
+ },
+ "ac813a3161253af4": {
+  "t": "포르투갈의 새 연구혁신청(AI²)은 2026년 1월 1일 출범 예정이었다",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portugal's new Agency for Research and Innovation (AI²) was ",
+  "ok": false
+ },
+ "acf78f0164d5f4ca": {
+  "t": "포르투갈 납세자 번호를 가진 EU 등록 AI 스타트업과 중소기업을 위한 무료 슈퍼컴퓨팅 이용(MareNostrum 5 포함), 멘토링, 교육이 2026년 10월 5일부터 2027년 3월 30일까지 진행된다. 신청은 9월 15일에 마감됐다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Free supercomputing access (including MareNostrum 5), mentor",
+  "ok": false
+ }
+}

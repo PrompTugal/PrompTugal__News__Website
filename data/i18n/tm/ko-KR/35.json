@@ -1,0 +1,50 @@
+{
+ "3513a62a97aaf4b7": {
+  "t": "Lisboa, pá: 일곱 언덕, 몹시 분주한 트램 한 대, 그리고 Belém의 pastéis de nata보다 많은 제곱킬로미터당 AI 콘퍼런스.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Lisboa, pá: seven hills, one very busy tram, and more AI con",
+  "ok": false
+ },
+ "3535afc1b30d539d": {
+  "t": "AlgarveSTP의 First Venture Lab, 기업 12곳 선정, 멘토링 메뉴에 AI 도입 포함",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "First Venture Lab by AlgarveSTP picks 12 companies, with AI ",
+  "ok": false
+ },
+ "353b7c6b8e2138d0": {
+  "t": "감귤을 위한 AI와 로봇: Universidade do Algarve의 ATTENTIA 프로젝트",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AI and robots for citrus: the ATTENTIA project, with the Uni",
+  "ok": false
+ },
+ "35683239cf1272c2": {
+  "t": "이곳의 AI는 차고보다 사무실에 더 많이 삽니다, meu. câmara는 인허가 서류를 풀기 위해 AI 도구를 구입했다고 밝혔고, NERA는 시내에서 기업에 사용법을 가르치며, 시청은 Faro와 함께 Estádio Algarve에 AI를 명시한 기술 센터를 입찰에 부치고 있습니다. 지금까지 진짜 AI 기업은 SPIC 하나뿐이어서 지도는 짧고, 그 점에 정직합니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Here AI lives more in offices than in garages, meu. The câma",
+  "ok": false
+ },
+ "356ea07c73f9328a": {
+  "t": "PrompTugal.news Algarve: Sagres에서 Vila Real까지 Algarve 전역의 AI와 기술, 그리고 포르투갈과 세계에서 우리에게 닿는 소식. 독립 매체이며 모든 사실에는 fonte가 있습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Algarve: AI and technology across the whole ",
+  "ok": false
+ },
+ "357b89658091781d": {
+  "t": "시청은 Barranco do Rodrigo의 새 캠퍼스를 위해 UAlg와 협약을 맺었으며, 부지와 설계는 시청이 제공합니다. 중점 분야는 디지털, 데이터, 인공지능이며 2028년 완공, 2029년 개강을 목표로 하고, 총 약 1,500만 유로로 추산되지만 당시에는 전액이 확보되지 않았습니다. 당시 UAlg는 Portimão에 학생 400명 넘게를 두었고 3년 뒤 약 1,500명을 목표로 합니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council signed a protocol with UAlg for a new campus at ",
+  "ok": false
+ }
+}

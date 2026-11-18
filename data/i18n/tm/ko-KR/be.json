@@ -1,0 +1,18 @@
+{
+ "be5099c1271641c4": {
+  "t": "유럽의 대서양 끝자락에서 자체 언어 모델을 만들어 낸 나라가 당신이 직접 써 보기를 바랍니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A country on the Atlantic edge of Europe that wrote itself a",
+  "ok": false
+ },
+ "be99630c0197edb6": {
+  "t": "Algarve의 관광 중소기업 대상 AI·로봇 시범 계획 신청 접수 시작",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Applications opened for the Algarve's pilot AI and robotics ",
+  "ok": false
+ }
+}

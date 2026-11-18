@@ -6,7 +6,7 @@ Kept by curator@PrompTugal.vicky (until 6 November curator@web-summit.vicky), Vi
 
 **Connections** (from 5 November, at Dinis's direction): stories that link startups and companies at Web Summit so each gets the most out of the week: startups in the same field, startups and the investors or programmes that back that field, companies on the same stage or day, Portuguese startups and the European ones they could work with. They are marked "Connections" in the beat. Each link is the curator's suggestion from public facts: no source says these organisations plan to meet, and no story should say so. Organisations only; nothing private about anyone.
 
-Last updated: Wednesday 18 November 2026, 07:37 UTC.
+Last updated: Wednesday 18 November 2026, 09:47 UTC.
 
 **Categories** (Vicky, 10 November 2026): the curator assigns every article its main categories from `desks/curator/categories.json` (one or more of Web Summit 2026, Startups & Scaleups, AI, Portugal, The newsroom, Brazil, Europe, Corporate) when commissioning it, and adds its line to that file before the article is published. A new main category only with Vicky's approval; routine corrections are the curator's. Corporate versus Startups & Scaleups by the story's subject and angle, never by size, valuation, funding round or headcount. No article file is edited for this.
 
@@ -30,7 +30,7 @@ Last updated: Wednesday 18 November 2026, 07:37 UTC.
 
 | Id | Title | Beat | Added |
 |---|---|---|---|
-| S70 | Update: a 2023 pilot at São João came out of the Center | Portugal | 18 Nov |
+| S70 | Update: a 2023 pilot at São João came out of the Center (drafted, awaiting review) | Portugal | 18 Nov |
 | S69 | AI physiotherapy in Portugal's health service: what the government says (published 17 Nov) | Portugal | 17 Nov |
 | S68 | Update: the Center for Responsible AI's chief executive gives a status (published 17 Nov) | Portugal | 17 Nov |
 | S67 | Portugal's Center for Responsible AI: the money, partners and goals (published 16 Nov) | Portugal | 16 Nov |
@@ -124,7 +124,7 @@ Portugal, added 16 Nov. The State's project sheet, the programme's own sheet (le
 
 Sources:
 
-- [the Portuguese State's transparency portal (official project sheet for the Recovery and Resilience Plan), "PRR Project: Center for Responsible AI (project sheet)"](https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC645008882-00000055/), read 16 November 2026
+- [the Portuguese State's transparency portal (official project sheet for the Recovery and Resilience Plan), "PRR Project: Center for Responsible AI (project sheet)"](https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC6450%308882-00000055/), read 16 November 2026
 - [INESC-ID (research institute; the programme's beneficiary entity), PDF on its own site, "Center for Responsible AI: agenda project sheet (PDF)"](https://www.inesc-id.pt/wp-content/uploads/2026/02/crai_edited_projectsheet.pdf), read 16 November 2026
 - [Diário de Notícias (national newspaper), "Já criámos 145 postos de trabalho altamente qualificados e temos 50 doutoramentos e mestrados em curso"](https://www.dn.pt/sociedade/ja-criamos-145-postos-de-trabalho-altamente-qualificados-e-temos-50-doutoramentos-e-mestrados-em-curso), read 16 November 2026
 
@@ -664,11 +664,10 @@ For the five journalists, in priority order (standing answers 20 and 22, the des
 
 Ready to write now:
 
-1. S70, Update: a 2023 pilot at São João came out of the Center: for the Portugal desk (journalist-portugal). A December 2023 RTP report (from Lusa) says a telerehabilitation pilot at São João, promoted by the health service's executive board, was created out of the Center for Responsible AI consortium and monitored on a Sword Health platform; write a short update note on S69 in the standing answer 95 format (one new point: a dated intro line, then one or two plain sentences); re-read the page yourself; it is a planned pilot in 2023 with no results, a different project from the 2026 agreement; attribute the Center link to the report; do not say the pilot became the service or confirm the ten-days claim; say the 2026 sources do not mention it; no wait-time figure; do not name the hospital doctor; record the AI connection (one step: the Center builds AI products; the pilot's platform is not said to use AI) in the data note; categories Portugal and AI.
 
 Already published, not to be written again: S61 (https://promptugal.news/articles/humanos-road-2-web-summit-winner.html); S60 (https://promptugal.news/articles/pagerduty-agents-in-production.html); S59 (https://promptugal.news/articles/discord-lisbon-engineering-hub.html); S58 (https://promptugal.news/articles/thursday-last-day-guide.html); S37 (https://promptugal.news/articles/teamworks-coaches-agent.html); S38 (https://promptugal.news/articles/glovo-restaurant-agents-getvocal.html); S39 (https://promptugal.news/articles/wpp-call-transcripts-to-jira.html); S40 (https://promptugal.news/articles/gravitee-agent-security-survey.html); S42 (https://promptugal.news/articles/what-lovable-deleted.html); S49 (https://promptugal.news/articles/europe-in-pavilion-4.html); S56 (https://promptugal.news/articles/digital-fairness-act-ai-agents.html); S53 (https://promptugal.news/articles/eu-election-guidelines-generative-ai.html); S55 (https://promptugal.news/articles/tiktok-for-you-dsa-preliminary-finding.html); S52 (https://promptugal.news/articles/konecta-lisbon-delivery-centre.html); S54 (https://promptugal.news/articles/breakout-startups-thursday-centre-stage.html); S46 (https://promptugal.news/articles/zalando-ai-coding-agents.html); S48 (https://promptugal.news/articles/manus-2-0-agents-own-email-phone-wallet.html); S50 (https://promptugal.news/articles/ai-act-first-harmonised-standard.html); S51 (https://promptugal.news/articles/getting-around-lisbon-wednesday.html); S45 (https://promptugal.news/articles/web-summit-day-2-refunds.html); S41 (https://promptugal.news/articles/red-wind-warning-lisbon-wednesday.html); S28 (https://promptugal.news/articles/five-ai-builders-to-know.html); S29 (https://promptugal.news/articles/who-builds-the-parts-of-an-ai-agent.html); S30 (https://promptugal.news/articles/health-startups-by-problem.html); S31 (https://promptugal.news/articles/road-2-web-summit-beyond-lisbon.html); S33 (https://promptugal.news/articles/ibm-sports-tech-challenge.html); S34 (https://promptugal.news/articles/where-to-find-portugal.html); S35 (https://promptugal.news/articles/press-conferences-day-by-day.html); S36 (https://promptugal.news/articles/portugal-on-the-programme.html); S65 (https://promptugal.news/articles/best-number-one-3wx-loule.html); S64 (https://promptugal.news/articles/amalia-and-ania-portugal-ai-plans.html); S66 (https://promptugal.news/articles/neuraspace-coimbra-raises-15-6-million.html); S67 (https://promptugal.news/articles/center-for-responsible-ai-money-partners-goals.html); S68 (https://promptugal.news/articles/center-for-responsible-ai-money-partners-goals.html); S69 (https://promptugal.news/articles/ai-physiotherapy-portugal-health-service.html).
 
-Already drafted, not to be written again: S44 (drafted, awaiting review); S47 (published as an update).
+Already drafted, not to be written again: S44 (drafted, awaiting review); S47 (published as an update); S70 (drafted, awaiting review).
 
 No assignment this run: the summit, Europe, AI and connections desks (PagerDuty's production-agents post is held for the rest of the post and a second source). Reasons and the evidence wanted from the researcher are in the latest map.
 

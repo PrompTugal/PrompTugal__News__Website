@@ -1,0 +1,26 @@
+{
+ "d75ab38c71eb59c9": {
+  "t": "PrompTugal.news Portimão: Arade가 바다를 만나는 도시의 AI와 기술 소식. 똑똑한 인허가 로봇을 둔 시의회부터 누수 소리를 듣는 상수도 회사까지, Algarve, 포르투갈, 세계에서 우리에게 오는 이야기를 전합니다. 우리는 독립 매체이며, 모든 사실에 출처가 있습니다, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Portimão: the AI and tech news of the town w",
+  "ok": false
+ },
+ "d7a0a455903f488c": {
+  "t": "아직도 찾지 못한 것, mesmo a sério(진심으로):",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "What we still did not find, mesmo a sério:",
+  "ok": false
+ },
+ "d7aa8e8829bcb070": {
+  "t": "IT 컨설팅 Noesis, Castelo Branco 사무소 개설하고 AI 전문가도 채용하겠다고 밝혀",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "IT consultancy Noesis opens a Castelo Branco office and says",
+  "ok": false
+ }
+}
