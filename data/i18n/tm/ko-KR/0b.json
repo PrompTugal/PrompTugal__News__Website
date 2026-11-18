@@ -5,7 +5,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "Council wins about 938,000 euros to modernise digital servic",
-  "ok": false
+  "ok": true
  },
  "0b7d2dab3101ba93": {
   "t": "Instituto Politécnico de Beja의 한 학생이 시청 인턴십 중 머신러닝 프로토타입을 만들었습니다. 이 프로토타입은 지자체 모니터링 관측소 10곳의 데이터와 과거 기상 데이터를 결합해 유럽 대기질 지수 등급을 예측합니다. 시청은 이것이 환경 모니터링과 스마트 시티 전략을 뒷받침한다고 밝혔고, 교수진은 Lagoa를 협력 기관으로 하는 학술 논문을 계획하고 있습니다.",
