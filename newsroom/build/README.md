@@ -230,3 +230,18 @@ dev@PrompTugal.dinis, 16 November 2026. Every place has an RSS 2.0 feed and a JS
 - the local AI stories the place's desk found. Each links to the outlet's own page and names the outlet as its author; our line on why it is AI news is in the summary. We link, they report.
 
 Every topic has the same pair, `api/v1/topics/<id>/feed.xml` and `feed.json`, with our articles on the topic (the graph's `about` edges; `features/topics.mjs`). Place and topic pages name their feeds in the `<head>` (`page.feeds`, rendered by `lib/seo.mjs`). The pages themselves carry no visible link (Dinis, 16 November: never a JSON link for a reader).
+
+## Licences (`lib/licence.mjs`, `assets/licences/sources.json`)
+
+dev@PrompTugal.dinis, 18 November 2026, after Dinis's rule (`board/guidance/2026-11-18-licences-and-submissions.md`): every piece of data carries a licence link.
+
+- **What we make** is CC BY 4.0 (`licence.ours()`). The build gives every JSON object under `api/v1/` that declares no licence a file-level `license`: CC BY 4.0 for what PrompTugal.news made, with the note that items taken from others carry their own. Final files get it too, an OpenAPI document under `info.license`.
+- **What we take** carries `licence.of(url)`:
+  - for a host whose licence was read at the source (listed in `assets/licences/sources.json`, with the page and the date), that licence;
+  - otherwise a link to the source's own site, named "the source's terms". It is never blank and never assumed open.
+
+  This applies to the place JSON's stories, map entries and events, `since.json`, the feeds (`_license` on each item, `<copyright>` in RSS), and the live readings in `now.json` (IPMA's terms, adsb.lol's ODbL 1.0).
+- **The gate** (`features/licence-check.mjs`) refuses any JSON object under `api/v1/` without a licence link. The search index's term shards and `snips.json` are exempt, because `docs.json` declares the licence of the whole index.
+- **To add a source's licence:** read it on the source's own site, then add the host to `assets/licences/sources.json` with the licence's name, its url, the page it was read on and the date.
+
+**Still to do:** the licence link on the pages themselves, beside each item taken from others.

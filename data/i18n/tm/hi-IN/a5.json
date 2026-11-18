@@ -1,0 +1,50 @@
+{
+ "a51f96c2293bce6d": {
+  "t": "AI और सेंसर Portimão के नदी किनारे को इंटरैक्टिव लाइट शो में बदल देते हैं",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AI and sensors turn Portimão's riverside into an interactive",
+  "ok": false
+ },
+ "a540cb47bbba9f83": {
+  "t": "पॉलिटेक्निक ने AI टूल के लिए अपने नियम जारी किए",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The polytechnic issues its rules for AI tools",
+  "ok": false
+ },
+ "a59069bec2b29c00": {
+  "t": "Leiria की AI फूड-फैक्ट्री स्टार्टअप Brainr अपने रिकॉर्ड सीड राउंड को बढ़ाती है",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Brainr, the Leiria AI food-factory startup, extends its reco",
+  "ok": false
+ },
+ "a59f1749796b2268": {
+  "t": "APDC और Google ने सरकारी कर्मचारियों के लिए AI कोर्स शुरू किया, जिसकी शुरुआत Coimbra में हुई",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "APDC and Google start an AI course for civil servants, kicke",
+  "ok": false
+ },
+ "a5e56e75b8fadd24": {
+  "t": "सच कहें तो, meu amigo, यह है जो हमें नहीं मिला, और बहुत कुछ है, अगस्त की दोपहर दो बजे छांव ढूंढने जैसा:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Honestly, meu amigo, here is what we could not find, and it ",
+  "ok": false
+ },
+ "a5f2c7318be1c9ed": {
+  "t": "**इस साइट की पहचान:** PrompTugal.news {name} की अपनी कुंजी {key} है (हस्ताक्षर फिंगरप्रिंट {fp}), जो [board/keys.json]({keys}) में प्रकाशित है। इसकी शोध फाइल `{file}` को {agent} रखता है और इसी कुंजी से हस्ताक्षरित है, और हस्ताक्षर इसके विरुद्ध सत्यापित होता है: **हस्ताक्षर वैध**।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** PrompTugal.news {name} has its own",
+  "ok": false
+ }
+}

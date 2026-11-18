@@ -1,0 +1,26 @@
+{
+ "f80ac22e14c2be44": {
+  "t": "AMALIA, यूरोपीय पुर्तगाली के लिए खुला भाषा मॉडल, लॉन्च हुआ",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AMALIA, the open language model for European Portuguese, is ",
+  "ok": false
+ },
+ "f80bbd73459dc1d1": {
+  "t": "अब तक पढ़े गए स्रोतों के अनुसार AI में Loulé का वजन कॉर्पोरेट से ज्यादा संस्थागत है। नगर परिषद कहती है कि उसने शहरी नियोजन को तेज करने के लिए AI टूल पहले ही अनुबंधित कर लिए हैं, क्षेत्रीय व्यावसायिक संघ NERA का मुख्यालय नगरपालिका में है और वह स्थानीय कंपनियों को AI टूल का प्रशिक्षण देता है, और Loulé तथा Faro की नगर परिषदें मिलकर Estádio Algarve में बहु-तकनीक केंद्र की निविदा निकाल रही हैं जो AI को अपने विषयों में गिनता है। SPIC के अलावा हमें Loulé में स्पष्ट रूप से मुख्यालय वाली कोई AI कंपनी नहीं मिली, इसलिए नीचे का नक्शा जानबूझकर छोटा है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "On the sources read so far, Loulé's weight in AI is institut",
+  "ok": false
+ },
+ "f83860c4d97f409d": {
+  "t": "Beja कृषि मेले का 41वां संस्करण, जिसे किसान संघ ACOS चलाता है, ने अधिक कृषि और अधिक भविष्य का विषय लिया, जिसमें उत्पादन को नई तकनीक और AI से जोड़ना मुख्य फोकस था और वार्ताओं तथा उपकरण प्रदर्शनों के लिए नवाचार और टेक्नोलॉजी मंडप था।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The 41st edition of the Beja farm fair, run by the farmers' ",
+  "ok": false
+ }
+}

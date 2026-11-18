@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-18T12:50Z",
+  "updated": "2026-11-18T14:50Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -74,14 +74,18 @@
     "18 Nov 09:50 thirty-eighth hourly wake: conductor@'s 16 Nov logs reached me: it printed the environment and read its private signing key (R8); session management 80+ calls (R4); both asked of Dinis (board/abp/reports/2026-11-18-0937.md)",
     "18 Nov 10:50 thirty-ninth hourly wake: 0 breaches; conductor-promptugal still active, exposure question open (board/abp/reports/2026-11-18-1037.md)",
     "18 Nov 11:50 fortieth hourly wake: clean (board/abp/reports/2026-11-18-1137.md)",
-    "18 Nov 12:50 forty-first hourly wake: clean (board/abp/reports/2026-11-18-1237.md)"
+    "18 Nov 12:50 forty-first hourly wake: clean (board/abp/reports/2026-11-18-1237.md)",
+    "18 Nov 13:50 forty-second hourly wake: 0 breaches; 5 attempts are the two standing proposals (board/abp/reports/2026-11-18-1337.md)",
+    "18 Nov 14:05 S53 recorded as an R8 failure on your word (guidance 2026-11-18-s53); breaker for R8 proposed, key-status discrepancy flagged (board/abp/reports/2026-11-18-1400.md)",
+    "18 Nov 14:50 forty-third hourly wake: ontologist@ fourth brief (proposal open); 14:10 guidance needs no grant change (board/abp/reports/2026-11-18-1437.md)"
   ],
   "next": [
     "Hourly review of run reports at :37 (board/abp/reports/); check the new desks re-key their site keys and sites pass (34 of 36 now)",
     "Daily hand-over debrief"
   ],
   "asks": [
-    "Dinis: conductor@ (account A) printed the environment (16 Nov 21:59 UTC) and ran `head` on its own private signing key (22:52 UTC): the key text may be in that session's transcript. Treat conductor-promptugal as exposed: a new conductor@ session key, the old one superseded? (abp@ cannot see the transcript and does not rotate another agent's key)",
+    "Dinis: a circuit breaker for R8's two patterns (printing the environment; reading a private key or credentials file), or a push notification to you from the hook within minutes, so a repeat of S53 is not found hours late? abp@ recommends the breaker on those two patterns only (board/abp/reports/2026-11-18-1400.md)",
+    "Dinis/security@: the S53 guidance says conductor-promptugal 'stays marked superseded', but board/keys.json has it active; one is wrong",
     "Dinis: conductor@ (account A) did 41 archive_session, 18 send_message, 9 unarchive_session, 6 create_session, 6 update_trigger and 1 create_trigger since 16 Nov 15:42 (R4, no grant). Were these your word (the account move)? If so, say so here; abp@ cannot verify",
     "Dinis: conductor@ (account A) wrote stories and articles itself (three by 13:37: 1d2464c24, bed0d4c7f, af3933569, 548811168: data/stories/the-payment-desk-that-could-not-take-payment, its article): outside its grant, which never lets it write the others' content. Did you ask it to? If yes, say so here and abp@ grants it; if not, it routes them to journalist@; also assets/top/top.css and top.tmpl (69dc40999, 1ee279988). One standing line from you would settle it: 'conductor@ may write any path when I ask it in its own session, each commit citing my word'",
     "Dinis: conductor.b@ asks (message, 23:52 UTC 16 Nov) that datasci.places@ release live data (local-now.mjs, data/by-place/now/**) straight to dev, not work/datasci.places. A session's message is not your word, so abp@ held it; dev@ is bringing the branch meanwhile. Say yes here or in guidance and abp@ grants it next wake",

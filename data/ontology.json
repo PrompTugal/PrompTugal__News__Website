@@ -39,7 +39,8 @@
     { "id": "idea", "label": "Idea", "world": "newsroom", "page": null, "meaning": "One of Dinis's ideas in the ledger." },
     { "id": "question", "label": "Question", "world": "newsroom", "page": null, "meaning": "A question Dinis asked, or one put to him." },
     { "id": "file", "label": "File", "world": "newsroom", "page": null, "meaning": "A file of the repository (a board file, a desk's file, a schema), by its path." },
-    { "id": "vault", "label": "Vault", "world": "newsroom", "page": null, "meaning": "An SG/Send vault, by its name; never its key." }
+    { "id": "vault", "label": "Vault", "world": "newsroom", "page": null, "meaning": "An SG/Send vault, by its name; never its key." },
+    { "id": "series", "label": "Series", "world": "summit", "page": null, "meaning": "An event that comes back (Web Summit, Portugal Tech Week, a monthly meetup): its organiser and its editions, past and coming. An event is never deleted when it ends; it stays as an edition." }
   ],
   "verbs": [
     { "verb": "listed_under", "inverse": "lists", "from": ["person"], "to": ["company", "organisation"], "world": "people", "reads": "{from} is listed under {to}", "reads_inverse": "{to} lists {from}", "meaning": "A source lists the person under this organisation (a speaker card, an attendee page). Not an employment claim: it is what the listing says." },
@@ -78,7 +79,8 @@
     { "verb": "cites", "inverse": "cited_by", "from": ["agent", "pass", "finding", "decision", "idea", "question", "file", "vault", "article", "story"], "to": ["agent", "pass", "finding", "decision", "idea", "question", "file", "vault", "article", "story", "source", "company", "organisation", "event"], "world": "newsroom", "reads": "{from} cites {to}", "reads_inverse": "{to} is cited by {from}", "meaning": "A holding names another by path, id or URL." },
     { "verb": "derived_from", "inverse": "source_of", "from": ["file"], "to": ["file"], "world": "newsroom", "reads": "{from} is derived from {to}", "reads_inverse": "{to} is the source of {from}", "meaning": "A generated file and the file it came from (a derived file's derived.from)." },
     { "verb": "held_in", "inverse": "holds", "from": ["file", "finding", "idea"], "to": ["vault"], "world": "newsroom", "reads": "{from} is held in {to}", "reads_inverse": "{to} holds {from}", "meaning": "Where a holding's full text or image lives, by the vault's name." },
-    { "verb": "see_also", "inverse": "also_seen_from", "from": ["agent", "pass", "finding", "decision", "idea", "question", "file", "vault"], "to": ["agent", "pass", "finding", "decision", "idea", "question", "file", "vault"], "world": "newsroom", "reads": "{from}: see also {to}", "reads_inverse": "{to} is seen from {from}", "meaning": "A related holding worth reading with this one; stored once and read both ways, never a reciprocal verb." }
+    { "verb": "see_also", "inverse": "also_seen_from", "from": ["agent", "pass", "finding", "decision", "idea", "question", "file", "vault"], "to": ["agent", "pass", "finding", "decision", "idea", "question", "file", "vault"], "world": "newsroom", "reads": "{from}: see also {to}", "reads_inverse": "{to} is seen from {from}", "meaning": "A related holding worth reading with this one; stored once and read both ways, never a reciprocal verb." },
+    { "verb": "edition_of", "inverse": "has_edition", "from": ["event"], "to": ["series"], "world": "summit", "reads": "{from} is an edition of {to}", "reads_inverse": "{to} has the edition {from}", "meaning": "The event is one edition of a series that comes back; the series lists them all, past and coming." }
   ],
   "forbidden": [
     { "verb": "related_to", "why": "Symmetric, so it would be its own inverse, and it constrains nothing. Related companies are paths (a shared topic, a shared event), shown with the path." },

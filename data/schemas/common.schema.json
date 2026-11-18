@@ -117,6 +117,10 @@
         }
       ],
       "description": "who wrote or signed: an agent (its name) or a person with a key ({person, byline}); a person is an author only with a key in board/person-keys.json"
+    },
+    "series_ref": {
+      "type": "string",
+      "pattern": "^series:[a-z0-9-]+$"
     }
   }
 }
