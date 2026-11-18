@@ -1,0 +1,155 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-18T18-50-47Z",
+ "started": "2026-11-18T18:50:47.934Z",
+ "ended": "2026-11-18T19:49:09Z",
+ "line": "19:48 wake: roster checked (main v0.1.1820), fact-checker finding routed to journalist@, watch line, status asks updated",
+ "policy": {
+  "version": "1.15.2",
+  "sha256": "f889a86033a7c585"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T18:52:52.030Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T19:01:12.333Z",
+   "chars": 2535,
+   "sha256": "0a8016b9e34f5f14",
+   "head": "Yes, official cameras only, embeds only, and of course your link, never record unless absolutely. Yes, include the mail through their official cams, also embed through an iframe. You know, always do t"
+  },
+  {
+   "t": "2026-11-18T19:05:46.895Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T19:13:14.705Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T19:18:23.238Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T19:31:48.542Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T19:32:22.137Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T19:38:08.335Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T19:44:12.127Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T19:48:43.681Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-18T18:58:01.000Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-18T19:13:14.423Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-18T19:18:22.951Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-18T19:31:48.272Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-18T19:38:08.053Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-18T19:44:11.860Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 20,
+  "by_kind": {
+   "git-push": 4,
+   "other": 9,
+   "remote-conduct": 6,
+   "git": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 20,
+  "commits": [
+   {
+    "sha": "c520d59f0",
+    "subject": "conductor.b@PrompTugal.dinis: list live.b-promptugal's public key (sgit pki)",
+    "files": 1
+   },
+   {
+    "sha": "cb5b5d55b",
+    "subject": "conductor.b@PrompTugal.dinis: guidance, cameras decided, provenance on everything, bulletins proposed",
+    "files": 2
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 10,
+  "tool_calls": 20,
+  "in_mandate": 20,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
