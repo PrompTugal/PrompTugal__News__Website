@@ -1,0 +1,26 @@
+{
+ "e94ec82166240854": {
+  "t": "PrompTugal.news Beja: UI i tehnologija u Beji, okružnom glavnom gradu Baixo Alentejoa čije je težište njegovo politehničko sveučilište i rad na UI-ju u poljoprivredi i zdravstvu oko njega, te što do Beje stiže iz Alentejoa, Portugala i svijeta. Neovisno; svaka činjenica ima izvor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Beja: AI and technology in Beja, the Baixo A",
+  "ok": false
+ },
+ "e9abc17d4066b58f": {
+  "t": "UAlg osvaja 31,5 milijuna eura za europski baštinski centar u kojem je UI na prvom mjestu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "UAlg wins 31.5 million euros for an AI-first European herita",
+  "ok": false
+ },
+ "e9f81a8e238017af": {
+  "t": "{name}: {local}, {map} na karti UI-ja",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "{name}: {local}, {map} on the AI map",
+  "ok": false
+ }
+}

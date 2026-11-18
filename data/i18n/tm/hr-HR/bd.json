@@ -1,0 +1,18 @@
+{
+ "bd29a002a1eb5342": {
+  "t": "UI i tehnologija diljem Algarvea i njegovih {count} gradova: {local} i {map} na regionalnoj karti UI-ja, svaka činjenica s izvorom.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "AI and technology across the Algarve and its {count} towns: ",
+  "ok": false
+ },
+ "bdc8cd12e99136dd": {
+  "t": "Školski projekt iz Olhãoa uz pomoć UI-ja ponovno stvara lokalne legende u razmjeni Erasmus+",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Olhão school project recreates local legends with AI in an E",
+  "ok": false
+ }
+}

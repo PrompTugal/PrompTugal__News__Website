@@ -1,0 +1,66 @@
+{
+ "5d506e2834f29e75": {
+  "t": "Ainda não sabemos tudo, ó pá. Evo što nam Leiria još nije rekla:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Ainda não sabemos tudo, ó pá. Here is what Leiria has not to",
+  "ok": false
+ },
+ "5d85648672241449": {
+  "t": "Projekt financiran iz PRR-a daje trgovcima u Quarteiri platforme za mrežnu prodaju, dodatni Wi-Fi, digitalne ulične zaslone i vaučere za digitalne usluge. Članak ne spominje UI. Za nas je važan kao digitalna osnova na kojoj bi se kasnije nalazili alati UI-ja.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "A PRR-funded project gives Quarteira's merchants online sale",
+  "ok": false
+ },
+ "5d86f172e5b4beb9": {
+  "t": "Okvir usmjerava nastavnike kada i kako koristiti UI, odbacuje zabrane i detektore UI-ja u korist transparentne uporabe vezane uz procijenjene vještine te upućuje na zajednicu prakse od 120 nastavnika i radionice AcademIA UA. Vlastiti pravilnik sveučilišta navodi ga kao Despacho n.º 65-REIT/2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The framework guides teachers on when and how to use AI, rej",
+  "ok": false
+ },
+ "5d97ee52fae5fa6b": {
+  "t": "Hospital de Évora počinje koristiti UI u probiru raka vrata maternice",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Hospital de Évora starts using AI in cervical cancer screeni",
+  "ok": false
+ },
+ "5db55f2433d7005b": {
+  "t": "PrompTugal.news po mjestima: svako mjesto, njegov status, njegov agent, njegovi brojevi, njegova stranica i njegov vlastiti JSON (api/v1/by-place/<id>.json)",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news by place: each place, its status, its agent,",
+  "ok": false
+ },
+ "5dd868165a4a1766": {
+  "t": "Radionica AI4YouthWork o pismenosti o UI-ju za radnike s mladima održana u Faru",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "AI4YouthWork workshop on AI literacy for youth workers held ",
+  "ok": false
+ },
+ "5df87418dfc0bba9": {
+  "t": "Prognoze i upozorenja za {name}: [IPMA](https://www.ipma.pt/en/), portugalska meteorološka služba.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Forecasts and warnings for {name}: [IPMA](https://www.ipma.p",
+  "ok": false
+ },
+ "5dfba29d80269e68": {
+  "t": "Turismo do Algarve zakazuje bootcampove o UI-ju i vodi s ugostiteljskim školama, uključujući Faro",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Turismo do Algarve schedules AI and water bootcamps with hos",
+  "ok": false
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "f80ac22e14c2be44": {
+  "t": "AMALIA, otvoreni jezični model za europski portugalski, je pokrenut",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "AMALIA, the open language model for European Portuguese, is ",
+  "ok": false
+ },
+ "f80bbd73459dc1d1": {
+  "t": "Prema izvorima pročitanima do sada, težina Loulé u UI-ju više je institucionalna nego korporativna. Općina kaže da je već ugovorila alate UI-ja za ubrzanje urbanističkog planiranja, regionalna poslovna udruga NERA ima sjedište u općini i osposobljava lokalne tvrtke za alate UI-ja, a općine Loulé i Faro zajedno raspisuju natječaj za multitehnološki centar na Estádio Algarve koji među temama navodi UI. Osim SPIC-a nismo našli UI tvrtku s jasnim sjedištem u Loulé, pa je karta ispod namjerno kratka.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "On the sources read so far, Loulé's weight in AI is institut",
+  "ok": false
+ },
+ "f83860c4d97f409d": {
+  "t": "41. izdanje poljoprivrednog sajma u Beji, koje vodi udruga poljoprivrednika ACOS, imalo je temu više poljoprivrede i više budućnosti, s proizvodnjom povezanom s novom tehnologijom i UI-jem kao glavnim fokusom te paviljonom inovacija i tehnologije za predavanja i demonstracije opreme.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The 41st edition of the Beja farm fair, run by the farmers' ",
+  "ok": false
+ }
+}

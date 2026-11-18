@@ -1,0 +1,18 @@
+{
+ "328eae672fdfb43c": {
+  "t": "Portugal bi kupovao računalno vrijeme s do 200 milijuna eura u prvoj fazi, uz jednak iznos od EuroHPC-a. Portugalska komponenta procjenjuje se na oko 4 milijarde eura. Izvor ne navodi lokaciju u Portugalu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Portugal would buy computing time with up to 200 million eur",
+  "ok": false
+ },
+ "32e38f205d404c47": {
+  "t": "Sada pošten dio, que se não houver não se inventa: ono što smo tražili gore u Serri, a nismo našli.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Now the honest part, que se não houver não se inventa: the t",
+  "ok": false
+ }
+}

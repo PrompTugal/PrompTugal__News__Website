@@ -1,0 +1,50 @@
+{
+ "6c168f956a2e83d1": {
+  "t": "Inovacijski hub u Taviri pokreće se s 23 partnera i planiranim centrom digitalne terapije",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Tavira's innovation hub launches with 23 partners and a digi",
+  "ok": false
+ },
+ "6c359279139d1103": {
+  "t": "Strojni prijevod ({culture}) agenata UI-ja PrompTugal.news iz zajedničke prevoditeljske memorije; sve što još nije prevedeno ostaje na engleskom. [Engleski izvornik]({original}).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Machine translation ({culture}) by PrompTugal.news's AI agen",
+  "ok": false
+ },
+ "6c8bf7c213d7f90e": {
+  "t": "Općina Braga planira 1,5 milijuna eura za uvođenje UI-ja u svakodnevnu upravu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Braga council plans 1.5 million euros to bring AI into its d",
+  "ok": false
+ },
+ "6caddd1e6a0570e5": {
+  "t": "Nacionalni portal plana oporavka navodi projekt u Viani do Castelo, koji vodi politehnika s Data CoLAB-om, a koristi UI, obradu prirodnog jezika, generativnu UI i znanost o podacima za izgradnju interaktivnog digitalnog sustava. Trajao je od 1. svibnja 2025. do 31. siječnja 2026. uz oko 39.800 eura financiranja.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The national recovery-plan portal lists a project in Viana d",
+  "ok": false
+ },
+ "6cc2bdab90a9cd8b": {
+  "t": "Vijeće ministara sastalo se u Bragançi 9. rujna 2026. i poduzelo sljedeći korak prema pretvaranju politehnike u sveučilište. Isti sastanak odobrio je novi okvir sustava znanosti i inovacija koji UI navodi kao stratešku prioritet. Stranica ne daje proračun za sveučilište.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The Council of Ministers met in Bragança on 9 September 2026",
+  "ok": false
+ },
+ "6cc66b24e4ff82d0": {
+  "t": "Startup koristi UI da pomogne malim i srednjim tvrtkama pronaći javna sredstva, pripremiti prijave i upravljati projektima. Krug je predvodio 3XP Global s novcem Banco Português de Fomento, a tim planira više nego udvostručenje do kraja godine i ulazak u Španjolsku, Njemačku i Italiju.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "The startup uses AI to help small and medium firms find publ",
+  "ok": false
+ }
+}

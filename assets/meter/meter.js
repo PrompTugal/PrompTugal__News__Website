@@ -139,9 +139,9 @@
         var b = m.state.balance
         a.classList.toggle('is-low', b < 100)
         a.classList.toggle('is-neg', b < 0)
-        a.replaceChildren('Free credit')   // no ticking amount (designer@'s A2): it is in the title, the label and /account/
+        a.replaceChildren(h('span', { class: 'meter-label' }, 'Pay for what you read · '), m.money(b))   // the balance, going down as you read (Dinis, 17 November 2026: "I need to see the value of my budget, always")
         a.setAttribute('aria-label', 'Reading credit ' + m.money(b) + ', kept in this browser: your account')
-        a.title = b < 0 ? 'You have read ' + m.money(-b) + ' more than your credit. Nothing is blocked; top up whenever it feels fair. Kept in this browser only.' : 'Free to read: nothing is charged. Credit left: ' + m.money(b) + ', kept in this browser only; top up only if you want to'
+        a.title = b < 0 ? 'You have read ' + m.money(-b) + ' more than your credit. Nothing is blocked; top up whenever it feels fair. Kept in this browser only.' : 'Pay for what you read. Credit left: ' + m.money(b) + ', kept in this browser only: your reading account'
     }
 
     var REASONS = [['clickbait', 'The headline promised more than the page gave'], ['not-relevant', 'Not relevant to me'], ['did-not-read', 'I did not really read it'], ['other', 'Another reason']]
@@ -155,7 +155,7 @@
         var e = m.entry, s = m.state
         // one line, collapsed (designer@'s A2, board/spec-the-reading-credit.md): the numbers open on a tap
         var wasOpen = line.querySelector('details.nr-foot') && line.querySelector('details.nr-foot').open
-        var fold = function (kids) { return h('details', { class: 'nr-foot', open: wasOpen }, h('summary', {}, 'Free to read. ', h('a', { href: at(m.cfg.links.account) }, 'How the reading credit works')), h('div', { class: 'nr-foot-in' }, kids)) }
+        var fold = function (kids) { return h('details', { class: 'nr-foot', open: wasOpen }, h('summary', {}, 'Pay for what you read. ', h('a', { href: at(m.cfg.links.account) }, 'How the reading credit works')), h('div', { class: 'nr-foot-in' }, kids)) }
         var bal = h('span', {}, 'Balance ', h('a', { href: at(m.cfg.links.account) }, h('b', {}, m.money(s.balance))))
         if (m.status === 'declined' || e.declined) {
             var why = (REASONS.find(function (r) { return r[0] === (e.declined && e.declined.reason) }) || ['', 'no reason given'])[1]
@@ -221,6 +221,8 @@
                 h('div', { class: 'actions' },
                     h('a', { class: 'btn primary', href: at(m.cfg.links.topup) }, 'Top up ' + m.money(m.cfg.topup.amount)),
                     h('button', { type: 'button', class: 'btn quiet', onclick: function () { if (window.__vault) window.__vault.open('vault') } }, 'Carry it to another device'))),
+            h('h2', { id: 'graph' }, 'Your reading graph'),
+            readingGraph(log) || h('p', { class: 'empty' }, 'Read a few pages to see it.'),
             h('h2', { id: 'history' }, 'What you have read'),
             rows.length
                 ? h('div', { class: 'table' }, h('table', { class: 'ledger' },
@@ -236,6 +238,54 @@
                 h('button', { type: 'button', class: 'btn quiet', id: 'nr-export', onclick: function () { exportJson(m) } }, 'Export as JSON'),
                 h('label', { class: 'btn quiet', for: 'nr-restore-file' }, 'Restore from a file'), file),
             out)
+    }
+
+    // ------------------------------------------------------------ the reading graph (Dinis, 17 November 2026: "the graph is so powerful of what the person has been reading")
+    // Drawn in this browser from the meter's own log: each page read, linked to its section and its subject (a place, a
+    // company, a topic) taken from its address, and to the page read before it (the reading path). Nothing is sent anywhere.
+    var SUBJECT_SECTIONS = { algarve: 1, portugal: 1, places: 1, companies: 1, people: 1, topics: 1, organisations: 1, events: 1, storm: 1 }
+    var KIND_COLOUR = { article: '#c52830', place: '#006600', site: '#3f424a', story: '#9a6700', data: '#1a4fa0', company: '#5b2ca0', topic: '#5b2ca0', event: '#9a6700', person: '#7a5c00', organisation: '#5b2ca0' }
+    function readingGraph(log) {
+        var NS = 'http://www.w3.org/2000/svg', W = 760, H = 440
+        var sv = function (tag, attrs, kids) { var e = document.createElementNS(NS, tag); for (var k in attrs || {}) e.setAttribute(k, attrs[k]); (kids || []).forEach(function (c) { if (c) e.append(c) }); return e }
+        var seen = {}, pages = []
+        log.slice().reverse().forEach(function (e) { if (!e.path || seen[e.path]) return; seen[e.path] = 1; pages.push(e) })
+        pages = pages.slice(-60)
+        if (pages.length < 2) return null
+        var nodes = [], byId = {}, links = []
+        var node = function (id, o) { if (!byId[id]) { o.id = id; o.x = W / 2 + (Math.random() - .5) * W * .6; o.y = H / 2 + (Math.random() - .5) * H * .6; o.vx = 0; o.vy = 0; byId[id] = o; nodes.push(o) } return byId[id] }
+        var label = function (seg) { return decodeURIComponent(seg).replace(/\.html$/, '').replace(/-/g, ' ') }
+        pages.forEach(function (e, i) {
+            var pn = node('p:' + e.path, { type: 'page', title: e.title || e.path, href: e.path, kind: e.kind })
+            var segs = String(e.path).replace(/^\/+|\/+$/g, '').split('/').filter(Boolean)
+            if (segs.length) {
+                var sec = node('s:' + segs[0], { type: 'concept', title: label(segs[0]) }); links.push([pn, sec, 'c'])
+                if (SUBJECT_SECTIONS[segs[0]] && segs[1] && !/^index/.test(segs[1])) { var sub = node('t:' + segs[0] + '/' + segs[1], { type: 'concept', title: label(segs[1]) }); links.push([pn, sub, 'c']); links.push([sub, sec, 'c']) }
+            } else { var home = node('s:home', { type: 'concept', title: 'front page' }); links.push([pn, home, 'c']) }
+            if (i > 0) links.push([byId['p:' + pages[i - 1].path], pn, 'r'])
+        })
+        for (var it = 0; it < 400; it++) {                                   // a small force layout, run once
+            var cool = 1 - it / 400
+            for (var i = 0; i < nodes.length; i++) for (var j = i + 1; j < nodes.length; j++) {
+                var A = nodes[i], B = nodes[j], dx = A.x - B.x, dy = A.y - B.y, d = Math.sqrt(dx * dx + dy * dy) + .1, f = Math.min(8, 2400 / (d * d))
+                A.vx += dx / d * f; A.vy += dy / d * f; B.vx -= dx / d * f; B.vy -= dy / d * f
+            }
+            links.forEach(function (l) { var A = l[0], B = l[1], dx = B.x - A.x, dy = B.y - A.y, d = Math.sqrt(dx * dx + dy * dy) + .1, f = (d - (l[2] === 'r' ? 90 : 60)) * (l[2] === 'r' ? .02 : .06); A.vx += dx / d * f; A.vy += dy / d * f; B.vx -= dx / d * f; B.vy -= dy / d * f })
+            nodes.forEach(function (n) { n.vx += (W / 2 - n.x) * .01; n.vy += (H / 2 - n.y) * .01; n.x += Math.max(-10, Math.min(10, n.vx)) * cool; n.y += Math.max(-10, Math.min(10, n.vy)) * cool; n.vx *= .5; n.vy *= .5; n.x = Math.max(40, Math.min(W - 40, n.x)); n.y = Math.max(24, Math.min(H - 28, n.y)) })
+        }
+        var g = sv('svg', { viewBox: '0 0 ' + W + ' ' + H, class: 'nr-graph', role: 'img', 'aria-label': 'Your reading graph: ' + pages.length + ' pages and what they are about' })
+        links.forEach(function (l) { g.append(sv('line', { x1: l[0].x.toFixed(1), y1: l[0].y.toFixed(1), x2: l[1].x.toFixed(1), y2: l[1].y.toFixed(1), stroke: l[2] === 'r' ? '#c52830' : '#b9b3a6', 'stroke-width': l[2] === 'r' ? 1.2 : 1, 'stroke-dasharray': l[2] === 'r' ? '3 3' : '', opacity: l[2] === 'r' ? .55 : .8 })) })
+        nodes.forEach(function (n) {
+            if (n.type === 'concept') {
+                var t = sv('text', { x: n.x.toFixed(1), y: (n.y + 20).toFixed(1), 'text-anchor': 'middle', 'font-size': 12, 'font-weight': 600, fill: '#121317' }); t.textContent = n.title
+                g.append(sv('g', {}, [sv('circle', { cx: n.x.toFixed(1), cy: n.y.toFixed(1), r: 7, fill: '#f6f3ec', stroke: '#121317', 'stroke-width': 1.5 }), t]))
+            } else {
+                var tt = sv('title', {}); tt.textContent = n.title
+                var a = sv('a', { href: n.href }, [sv('circle', { cx: n.x.toFixed(1), cy: n.y.toFixed(1), r: 5, fill: KIND_COLOUR[n.kind] || '#3f424a' }), tt])
+                g.append(a)
+            }
+        })
+        return h('figure', { class: 'nr-graph-fig' }, g, h('figcaption', { class: 'meta' }, pages.length + ' pages read, linked to their subjects; dashed: the order read. Made in this browser.'))
     }
     function exportJson(m) {
         var blob = new Blob([JSON.stringify(m.state, null, 1)], { type: 'application/json' })
@@ -299,6 +349,16 @@
         catch (e) { console.warn('reading meter: no config (' + e.message + '); nothing is charged'); return null }
         cfg.root = ROOT.href
         window.SG_METER_CONFIG = cfg
+        try {                                                         // prices are now at least 1p (Dinis, 17 November 2026): lift older charges to the floor, once
+            var raw = localStorage.getItem(cfg.storageKey), st = raw && JSON.parse(raw)
+            if (st && Array.isArray(st.log) && !st.floor1) {
+                var fix = 0
+                st.log.forEach(function (e) { if (!e.declined && e.cost > 0 && e.cost < 1) { fix += 1 - e.cost; e.cost = 1 } if (typeof e.price === 'number' && e.price < 1) e.price = 1 })
+                fix = Math.round(fix * 10) / 10
+                st.balance = Math.round((st.balance - fix) * 10) / 10; st.spent = Math.round(((st.spent || 0) + fix) * 10) / 10; st.floor1 = new Date().toISOString()
+                localStorage.setItem(cfg.storageKey, JSON.stringify(st))
+            }
+        } catch (e) { /* no storage: nothing to lift */ }
         var mod = await import(at(CORE))
         var m = mod.meter
         api.meter = m
