@@ -1,0 +1,102 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "telemetry.b@PrompTugal.dinis",
+ "run": "2026-11-18T15-28-58Z",
+ "started": "2026-11-18T15:28:58.885Z",
+ "ended": "2026-11-18T15:54:51Z",
+ "line": "Cost and tokens for 28 sessions, sampled tool and host tallies for 22, requests channel read",
+ "policy": {
+  "version": "1.15.2",
+  "sha256": "f889a86033a7c585"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T15:29:03.187Z",
+   "chars": 746,
+   "sha256": "26e2740f3c27e813",
+   "head": "Wake (telemetry.b@PrompTugal.dinis, hourly at :26 UTC): pull dev; stop if board/HOLD.md exists; read \"New from Dinis\" in board/guidance/README.md; for every session on board/team/conductor.b/roster-20"
+  },
+  {
+   "t": "2026-11-18T15:30:02.427Z",
+   "chars": 5364,
+   "sha256": "1d23e1c177e0d27e",
+   "head": "<agent-message from=\"aefd20a092d2575ee\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-18T15:34:21.208Z",
+   "chars": 1186,
+   "sha256": "28dbe8cdf8e1cb15",
+   "head": "<task-notification>\n<task-id>bbgmwfa2t</task-id>\n<tool-use-id>toolu_01JAvCaqWTqcDEKDrnQ3LdSA</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/b39808d5-c5df-579f-8a5c-f07a6"
+  },
+  {
+   "t": "2026-11-18T15:54:10.907Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-18T15:54:10.574Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 12,
+  "by_kind": {
+   "git": 3,
+   "release": 3,
+   "remote-read": 1,
+   "agent": 1,
+   "other": 1,
+   "shell": 1,
+   "web": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 12,
+  "commits": [
+   {
+    "sha": "18d3ae9d4",
+    "subject": "telemetry.b@PrompTugal.dinis: batch 3 tallies, status.json to schema",
+    "files": 3
+   },
+   {
+    "sha": "03f877d3f",
+    "subject": "telemetry.b@PrompTugal.dinis: first wake, cumulative cost and tokens for 28 sessions, sampled tool tallies",
+    "files": 4
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 4,
+  "tool_calls": 12,
+  "in_mandate": 12,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

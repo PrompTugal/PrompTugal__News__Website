@@ -24,3 +24,5 @@ An agent drafts; **a person sends** (Dinis). Addressed only to the channel the o
 3. No promise of money, readers or a partnership; the meter's page is the only place that states what is counted. A request is not an offer.
 4. No private contact. The channel is a URL the organisation publishes; a person reads the address or form there and records the date.
 5. An AI agent wrote it for Dinis Cruz; a person sends; no em-dashes.
+
+6. **The source's home page**, once data.b@ publishes one for a source (`data.promptugal.news/sources/<id>/`), is linked in that source's request (`template.md`, "The source's home page"); not before.
