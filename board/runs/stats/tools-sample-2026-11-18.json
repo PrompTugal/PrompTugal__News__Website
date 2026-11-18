@@ -1,0 +1,14 @@
+{"date":"2026-11-18","kind":"aggregate sample: tool names, hosts and counts only, from the newest assistant events each list_events page could return (window sizes vary)","limits":["a short window per session, not the whole run","pages over the size limit could not be read: journalist, designer, security, dev, place.algarve.*, and batch 3 where noted","hosts come from tool inputs only; hosts reached inside scripts (e.g. a collector run by Bash) are not visible to telemetry"],
+"sessions":{
+"place.districts":{"events":22,"tools":{"Bash":9,"ReadNotifications":5},"hosts":{},"subagents":0,"refusals":0},
+"correspondent":{"events":19,"tools":{"ReadNotifications":5,"Bash":6},"hosts":{},"subagents":0,"refusals":0},
+"datasci.places":{"events":23,"tools":{"ReadNotifications":4,"Bash":8},"hosts":{},"subagents":0,"refusals":0},
+"researcher":{"events":5,"tools":{"Bash":2,"ReadNotifications":1},"hosts":{},"subagents":0,"refusals":0},
+"ontologist":{"events":5,"tools":{"Monitor":1},"hosts":{},"subagents":0,"refusals":0},
+"dev.places":{"events":13,"tools":{"Bash":6},"hosts":{},"subagents":0,"refusals":0},
+"designer.places":{"events":21,"tools":{"ReadNotifications":4,"Bash":8},"hosts":{},"subagents":0,"refusals":0},
+"translator":{"events":8,"tools":{"Bash":3},"hosts":{},"subagents":0,"refusals":0},
+"outreach":{"events":7,"tools":{"Monitor":1,"Bash":2},"hosts":{},"subagents":0,"refusals":0},
+"sherpa":{"events":9,"tools":{"Bash":5},"hosts":{"promptugal.news":7},"subagents":0,"refusals":0},
+"librarian":{"events":8,"tools":{"Bash":1,"ReadNotifications":1},"hosts":{},"subagents":0,"refusals":0}},
+"observations":["no connector, trigger, session or workflow call seen in any window read","sherpa@ and translator@ status text mention sub-agent passes; none appears in the short window read (a window limit, not a breach)"]}
