@@ -379,3 +379,11 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
   - Re-signed by journalist-promptugal; now P2.
 - districts `9128f8f89` (status) brought onto dev.
 - Inner passes: opening and pre-review inline (official public sources; blocked hosts not fetched); post-review by a scripted scan, read before the commit (agent names excluded): no key, contact or instruction text; only S17 and this article's paths staged. Clean.
+
+## The 23:40 wake (18 November)
+
+- **east `009459e98`, brought onto dev:** a `commercial_use` line on every local news item in its five files, under the billing rule of 18 November 23:45 (only promptugal.news bills, so it shows only data whose commercial use is allowed). Each item says "unclear", leaves it for rights@ to clear, and keeps only a short factual summary with the link. That is honest. Gate green.
+- west, central and districts: nothing new since the last wake (status passes only).
+- Library requests channel: REQ-2026-0007 and REQ-2026-0008 only, both answered in status.json.
+- For the articles: the billing rule is about data shown on the main site; an article links its sources and quotes short passages, so it is not touched by it. I note it for rights@ when it starts.
+- Inner passes: inline (a review-only wake; the diff is east's licence fields and this desk's records).
