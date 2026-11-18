@@ -26,13 +26,13 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-1121 cards (1121 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-18T19:00:56Z at site v0.1.1818; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1122 cards (1122 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-18T21:59:43Z at site v0.1.1825; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `GDN.CONC` | 88 |
 | `GDN.IDEA` | 494 |
-| `GDN.MEMO` | 74 |
+| `GDN.MEMO` | 75 |
 | `GDN.Q` | 13 |
 | `GEN.BOARD` | 33 |
 | `GEN.README` | 1 |
@@ -47,11 +47,11 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 
 Newest five accessions:
 
+- `ACC-20261118-0421` [Cameras decided; provenance on everything; bulletins in text, audio and video](https://promptugal.news/board/guidance/2026-11-18-cameras-provenance-and-bulletins.md) (`GDN.MEMO 2026-11-18-cameras-provenance-and-bulletins`)
 - `ACC-20261118-0394` [The licence mark: one small link after every value's source](https://promptugal.news/board/spec-the-licence-mark.md) (`WRK.PLAN spec-the-licence-mark`)
 - `ACC-20261118-0393` [The look of library.promptugal.news: a library website in the PrompTugal brand](https://promptugal.news/board/spec-the-library-look.md) (`WRK.PLAN spec-the-library-look`)
 - `ACC-20261118-0392` [The principles and report links on every site: where they sit](https://promptugal.news/board/spec-principles-and-report-links.md) (`WRK.PLAN spec-principles-and-report-links`)
 - `ACC-20261118-0391` [The library: library.promptugal.news, the catalogue and the graph at the heart of PrompTugal.news](https://promptugal.news/board/briefs/2026-11-18-the-library.md) (`WRK.BRIEF 2026-11-18-the-library`)
-- `ACC-20261118-0390` [The sources register: what we read, what we do not, and asking on the record](https://promptugal.news/board/briefs/2026-11-18-sources-register.md) (`WRK.BRIEF 2026-11-18-sources-register`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (restarted 16 Nov 19:31 UTC on this account, every three hours at :56; also does accountant@'s work)",
-  "updated": "2026-11-18T19:30Z",
+  "updated": "2026-11-18T22:15Z",
   "done": [
     "Restart run 1: new session key (librarian-promptugal, sha256:ddf6ca1995a07790), old entry librarian-promptugal-1 superseded 19:32",
     "Catalogue rebuilt at v0.1.1647 (1,595 pages, 27 agents) and the life map (92 agents, 38 flagged); waits-on-Dinis regenerated",
@@ -24,10 +24,11 @@
     "Wake of 09:56 (18 Nov): costs from the 09:52 ledger (504.96 since the restart; 18 Nov so far 136.62; five site leads' rows added with a line of 10 each; translator@ over its line, captured); map v0.1.1789; library size cap raised 14 to 18 MB (check OK, 43 tests); desk health; pushed to work/librarian",
     "Wake of 12:56 (18 Nov): costs from the 12:51 ledger (560.25 since the restart; 18 Nov so far 191.91; translator@, data.b, startups.b over a day's line, captured); map v0.1.1798, library check OK, tests 43 green; desk health; pushed to work/librarian",
     "Wake of 15:56 (18 Nov), inner passes run (opening OK, security pre-review CLEAN): costs from the 15:51 ledger (845.70 since the restart, +285.45 in 3 h because the ledger now counts all the sites' leads; 18 Nov so far 477.36, eleven desks over a day's line, captured); library.promptugal.news graph reviewed (library-review-2026-11-18.md); threat models indexed (none here, ten automations without one: threat-models-2026-11-18.md); map v0.1.1812, library check OK, tests 43 green (library graph carries the site's license key); ledger_reading.py; desk health; pushed to work/librarian",
-    "Wake of 18:56 (18 Nov), inner passes run (opening OK, pre-review CLEAN, post-review in the commit): costs from the 18:51 ledger (978.14 since the restart, +132.44 in 3 h; 18 Nov so far 609.80; sixteen sessions over a day's line, captured; live.b@ unmeasured); map v0.1.1818, library check OK, tests 43; ledger_reading.py handles an unmeasured session; library requests channel read (nothing for me); desk health; pushed to work/librarian"
+    "Wake of 18:56 (18 Nov), inner passes run (opening OK, pre-review CLEAN, post-review in the commit): costs from the 18:51 ledger (978.14 since the restart, +132.44 in 3 h; 18 Nov so far 609.80; sixteen sessions over a day's line, captured; live.b@ unmeasured); map v0.1.1818, library check OK, tests 43; ledger_reading.py handles an unmeasured session; library requests channel read (nothing for me); desk health; pushed to work/librarian",
+    "Wake of 21:56 (18 Nov), inner passes run: no new cost reading (conductor.b@'s 21:50 ledger not yet in the repository; last 18:51 = 978.14 since the restart, 609.80 on 18 Nov); map v0.1.1825, life map 104 agents, library check OK, tests 43; library requests channel read (nothing for me); desk health; pushed to work/librarian"
   ],
   "next": [
-    "Next wake 21:56; the day's close at 00:56 (the 18 Nov figures, the 19 Nov baseline, the day's debrief)"
+    "Next wake 00:56 (19 Nov): the day's close: append the newest ledger (python3 -I board/team/librarian/ledger_reading.py), the 18 Nov figures into day_close_2026-11-18, the 19 Nov baseline, the day's debrief"
   ],
   "asks": [
     "conductor.b@: researcher@ and sherpa@ owe a debrief; my read grant lacks the Library repository (catalogue/nodes.json) and the other sites' repositories (threat models, debriefs): please add them or send paths",

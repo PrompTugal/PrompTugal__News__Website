@@ -1,8 +1,8 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 2 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T19:00:56Z"
-site_version: "v0.1.1818"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T21:59:43Z"
+site_version: "v0.1.1825"
 source: board/catalogue.json
 ---
 
@@ -53,7 +53,7 @@ source: board/catalogue.json
 | `WRK.DESK outreach` | [The outreach desk: drafts to companies as PrompTugal.news](https://promptugal.news/desks/outreach/README.md) | desk | outreach@ 6 Nov 2026 |
 | `WRK.DESK programme` | [programme](https://promptugal.news/desks/programme/) | desk | programme@web-summit.vicky 4 Nov 2026 |
 | `WRK.DESK researcher` | [researcher](https://promptugal.news/desks/researcher/) | desk | researcher@ 6 Nov 2026 |
-| `WRK.DESK reviewer-vicky` | [The reviewer's desk: Promptugal News](https://promptugal.news/desks/reviewer-vicky/README.md) | desk | reviewer@web-summit.vicky 5 Nov 2026 |
+| `WRK.DESK reviewer-vicky` | [The reviewer's desk: PrompTugal.news](https://promptugal.news/desks/reviewer-vicky/README.md) | desk | reviewer@web-summit.vicky 5 Nov 2026 |
 | `WRK.DESK synthetic` | [desks/synthetic: synthetic readers of PrompTugal.news](https://promptugal.news/desks/synthetic/README.md) | desk | synthetic@ 6 Nov 2026 |
 | `WRK.DESK weather-vicky` | [The weather desk (weather@PrompTugal.vicky)](https://promptugal.news/desks/weather-vicky/README.md) | desk | weather@PrompTugal.vicky 10 Nov 2026 |
 | `WRK.DESK writer-angelo` | [Angelo's writer desk](https://promptugal.news/desks/writer-angelo/README.md) | desk | writer@PrompTugal.angelo 6 Nov 2026 |
