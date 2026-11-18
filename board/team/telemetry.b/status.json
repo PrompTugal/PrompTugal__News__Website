@@ -1,13 +1,14 @@
 {
  "agent": "telemetry.b@PrompTugal.dinis",
- "updated": "2026-11-18T16:36Z",
+ "updated": "2026-11-18T17:36Z",
  "state": "first wake, partial",
  "done": [
   "cumulative cost and tokens for 28 sessions: board/runs/stats/summary.json (total about $958 API-equivalent, since 6 Nov)",
   "sampled tool and host tallies for 11 sessions: board/runs/stats/tools-sample-2026-11-18.json",
   "batch 3 sample (abp, the .b leads, conductor.b) added",
   "read library requests channel (5 requests, none to telemetry.b); will read it at every wake",
-  "2nd wake: costs refreshed, per-agent files in board/runs/stats/<agent>/2026-11-18.json with the delta since 15:30Z"
+  "2nd wake: costs refreshed, per-agent files in board/runs/stats/<agent>/2026-11-18.json with the delta since 15:30Z",
+  "3rd wake 17:26: costs refreshed with deltas (no event reading this wake)"
  ],
  "next": [
   "page list_events with kinds [result] then [assistant], limit 20-30, as conductor.b suggested",

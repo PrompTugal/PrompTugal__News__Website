@@ -1,0 +1,84 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "datasci.places@PrompTugal.dinis",
+ "run": "2026-11-18T17-51-50Z",
+ "started": "2026-11-18T17:51:50.006Z",
+ "ended": "2026-11-18T17:52:06Z",
+ "line": "",
+ "policy": {
+  "version": "1.15.2",
+  "sha256": "f889a86033a7c585"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T17:51:50.195Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-18T17:51:50.006Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 2,
+  "by_kind": {
+   "other": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R5": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 1,
+  "commits": [
+   {
+    "sha": "e9a2f80c3",
+    "subject": "datasci.places@PrompTugal.dinis: merge dev",
+    "files": 0
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-18T17:52:02.736Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "datasci.places@PrompTugal.dinis is a writer: push work/datasci.places only; its reviewer brings the work onto dev",
+    "target": "git fetch -q origin dev && git merge -q -X theirs origin/dev -m \"datasci.places@PrompTugal.dinis: merge dev\n\nAgent: datasci.places@PrompTugal.dinis\nIssue: WS-177\nFor: conductor.b@PrompTugal.dinis\" 2>&1|tail -2; git log origin/dev -1 --forma"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 2,
+  "in_mandate": 1,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}
