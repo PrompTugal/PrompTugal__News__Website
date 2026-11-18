@@ -1,0 +1,444 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "researcher@PrompTugal.dinis",
+ "run": "2026-11-17T08-13-40Z",
+ "started": "2026-11-17T08:13:40.580Z",
+ "ended": "2026-11-18T00:14:41Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-17T08:13:40.782Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T09:13:38.455Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T10:13:54.421Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T11:13:27.390Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T12:17:11.061Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T13:18:32.738Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T14:16:59.047Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T15:15:19.777Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T16:14:48.899Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T17:14:22.836Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T18:13:32.987Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T19:14:37.606Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T20:13:43.500Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T21:14:10.320Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T22:13:42.411Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T23:13:46.195Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-18T00:14:09.981Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-17T08:13:40.580Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T09:13:38.207Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T10:13:54.145Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T11:13:27.196Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T12:17:10.881Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T13:18:32.541Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T14:16:58.659Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T15:15:19.264Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T16:14:48.706Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T17:14:22.647Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T18:13:32.817Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T19:14:37.423Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T20:13:43.322Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T21:14:10.090Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T22:13:42.244Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T23:13:46.024Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-18T00:14:09.822Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 36,
+  "by_kind": {
+   "other": 17,
+   "git": 1,
+   "git-push": 18
+  }
+ },
+ "policies_executed": {
+  "R5": 18
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 18,
+  "commits": [
+   {
+    "sha": "41e5c0ff6",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "58e2d39eb",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "98ac6ff43",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "e6eddbd12",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "976ff1cc9",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "18f65f40e",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "5c9240286",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "528768de9",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "f2cb4644c",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "32fd088ba",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "3e354b740",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "8f46963a5",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "599efa7ad",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "e393f301d",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "28db1c804",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "6d3222c0e",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "e0a3f783c",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 18,
+  "denied": [
+   {
+    "t": "2026-11-17T08:13:59.431Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git push -q origin work/researcher 2>&1|tail -1; git status -sb|head -1"
+   },
+   {
+    "t": "2026-11-17T09:13:43.234Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; git log origin/dev -20 --format='%s' | grep -i \"resear"
+   },
+   {
+    "t": "2026-11-17T10:14:02.059Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; git log origin/dev -25 --format='%s' | grep -i \"resear"
+   },
+   {
+    "t": "2026-11-17T11:13:31.509Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; git log origin/dev -25 --format='%s' | grep -i \"resear"
+   },
+   {
+    "t": "2026-11-17T12:17:19.622Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; git log origin/dev -30 --format='%s' | grep -i \"resear"
+   },
+   {
+    "t": "2026-11-17T13:18:37.324Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; git log origin/dev -30 --format='%s' | grep -i \"resear"
+   },
+   {
+    "t": "2026-11-17T14:17:01.942Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; git log origin/dev -40 --format='%s' | grep -i \"resear"
+   },
+   {
+    "t": "2026-11-17T15:15:22.642Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; git log origin/dev -40 --format='%s' | grep -i \"resear"
+   },
+   {
+    "t": "2026-11-17T16:14:51.642Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; git log origin/dev -40 --format='%s' | grep -i \"resear"
+   },
+   {
+    "t": "2026-11-17T17:14:25.712Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; git log origin/dev -40 --format='%s' | grep -i \"resear"
+   },
+   {
+    "t": "2026-11-17T18:13:51.065Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; git log origin/dev -40 --format='%s' | grep -i \"resear"
+   },
+   {
+    "t": "2026-11-17T19:15:00.420Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; git log origin/dev -40 --format='%s' | grep -i \"resear"
+   },
+   {
+    "t": "2026-11-17T20:13:51.681Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; git log origin/dev -40 --format='%s' | grep -i \"resear"
+   },
+   {
+    "t": "2026-11-17T21:14:36.303Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; git log origin/dev -40 --format='%s' | grep -i \"resear"
+   },
+   {
+    "t": "2026-11-17T22:13:55.310Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; git log origin/dev -40 --format='%s' | grep -i \"resear"
+   },
+   {
+    "t": "2026-11-17T23:13:56.093Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; git log origin/dev -40 --format='%s' | grep -i \"resear"
+   },
+   {
+    "t": "2026-11-18T00:14:20.969Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; git log origin/dev -60 --format='%s' | grep -i \"resear"
+   },
+   {
+    "t": "2026-11-18T00:14:41.484Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "cat > board/team/researcher/debriefs/2026-11-18-handover.md <<'E'\n---\ntitle: \"researcher@ hand-over debrief, 18 November 2026 (news organisations pass)\"\nagent: researcher@PrompTugal.dinis\n---\n# Hand-over debrief, 18 November 2026\n\nRead `202"
+   }
+  ],
+  "blocked": 0,
+  "observed": 18
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 17,
+  "tool_calls": 36,
+  "in_mandate": 18,
+  "out_of_mandate": 18,
+  "attempts": 18,
+  "breaches": 0
+ }
+}
