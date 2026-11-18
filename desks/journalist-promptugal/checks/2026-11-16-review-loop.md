@@ -333,3 +333,12 @@ Inner passes: opening and pre-review (clean), the work, post-review, closing.
 | The library's requests channel | read; still no file for this desk |
 | Principle pages | **second text**: `desks/journalist-promptugal/principles/licences.md` (from Dinis's rule of 14:25, LICENSE, the articles' and place files' licence fields), for dev@ to place |
 - **Security post-review:** clean. Its two notes checked: the only article without a `license` line is the articles index page (not an article); but **only 56 of the 1,246 sourced items in data/by-place carry a `license` field** (counted 18 November, about 17:55 UTC). The licences page now says the rule is being applied and gives that count, instead of claiming every item has one. Asked of the place desks through conductor.b@.
+
+## The 18:40 wake (18 November)
+
+Inner passes inline this hour (a status-only diff): the opening check against the guidance and grant, a scripted pre- and post-review of the diff (no file outside the desks' paths; no key, contact, Sul Informação or instruction text), the closing pass. Clean.
+
+| Item | Verdict |
+|---|---|
+| central `d34a79a8a` (the Marafado masthead checked, gap notes, re-signed), districts `5efb467b0` (status) | **brought onto dev**; gate green |
+| The library's requests channel | read; still no file for this desk |

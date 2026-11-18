@@ -25,14 +25,17 @@ export function api(ctx) {
     for (const p of ctx.pages) {
         if (!/^articles\/[^/]+\.html$/.test(p.rel) || p.rel === 'articles/index.html' || p.withdrawn || !p.meta) continue
         const d = day(p.meta.date), place = p.meta.town || p.meta.region || null
-        if (d && d >= cutoff && d <= ctx.TODAY) items.push({ kind: 'article', date: d, title: p.meta.title, url: `${ctx.BASE}${p.rel}`, place, rings: place ? chain(place) : ['portugal'], license: ours() })
+        if (d && d >= cutoff && d <= ctx.TODAY) items.push({ kind: 'article', date: d, title: p.meta.title, url: `${ctx.BASE}${p.rel}`, place, rings: place ? chain(place) : ['portugal'], license: ours(),
+            // provenance on every item (Dinis, 18 Nov 19:00): who wrote it, its signed twin and the signature
+            provenance: { written_by: p.meta.author || null, published: d, file: `${ctx.BASE}${p.rel.replace(/\.html$/, '.md')}`, signature: `${ctx.BASE}${p.rel.replace(/\.html$/, '.md')}.sig`, kind: 'article' } })
     }
     for (const pl of places) {
         let f; try { f = ctx.readJSON(`data/by-place/${pl.id}.json`) } catch { continue }
         for (const [kind, list] of [['story', f.ai_news]]) for (const x of list || []) {   // events are dated by when they happen, not when we published: left out
             const d = day(x.date)
             if (!d || d < cutoff || d > ctx.TODAY || !/^https?:\/\//.test(x.url || '')) continue
-            items.push({ kind, date: d, title: x.title, url: x.url, publisher: x.publisher || null, place: pl.id, rings: chain(pl.id), page: `${ctx.BASE}${pl.path}`, license: licenceOf(x.url) })
+            items.push({ kind, date: d, title: x.title, url: x.url, publisher: x.publisher || null, place: pl.id, rings: chain(pl.id), page: `${ctx.BASE}${pl.path}`, license: licenceOf(x.url),
+                provenance: { source_url: x.url, publisher: x.publisher || null, published: d, read_on: x.read_on || null, read_by: pl.agent || null, file: `${ctx.BASE}data/by-place/${pl.id}.json`, kind } })
         }
     }
     // one entry per (url, place): the same story filed by two places is listed under each
@@ -43,4 +46,11 @@ export function api(ctx) {
         version: ctx.VERSION, built: ctx.TODAY, days: DAYS,
         places: places.map(p => ({ id: p.id, name: p.name, kind: p.kind, parent: p.parent || null, page: `${ctx.BASE}${p.path}` })),
         items: rows } }]
+}
+
+// provenance on every item (Dinis, 18 November 2026, about 19:00 UTC: board/guidance/2026-11-18-cameras-provenance-and-bulletins.md)
+export function validate(gate) {
+    let d; try { d = gate.json('api/v1/since.json') } catch { return [] }
+    const bad = (d.items || []).filter(x => !x.provenance || !(x.provenance.file || x.provenance.source_url))
+    return bad.length ? [`api/v1/since.json: ${bad.length} item(s) without provenance (first: ${bad[0].url})`] : []
 }
