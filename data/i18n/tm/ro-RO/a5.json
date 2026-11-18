@@ -1,0 +1,50 @@
+{
+ "a51f96c2293bce6d": {
+  "t": "AI și senzorii transformă malul râului din Portimão într-un spectacol interactiv de lumini",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AI and sensors turn Portimão's riverside into an interactive",
+  "ok": false
+ },
+ "a540cb47bbba9f83": {
+  "t": "Politehnicul publică regulile sale pentru instrumentele de AI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The polytechnic issues its rules for AI tools",
+  "ok": false
+ },
+ "a59069bec2b29c00": {
+  "t": "Brainr, startup-ul de AI pentru fabrici de alimente din Leiria, își extinde runda seed record",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Brainr, the Leiria AI food-factory startup, extends its reco",
+  "ok": false
+ },
+ "a59f1749796b2268": {
+  "t": "APDC și Google lansează un curs de AI pentru funcționari publici, început la Coimbra",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "APDC and Google start an AI course for civil servants, kicke",
+  "ok": false
+ },
+ "a5e56e75b8fadd24": {
+  "t": "Sincer, meu amigo, iată ce nu am găsit, și e mult, ca atunci când cauți umbră la două după-amiaza în august:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Honestly, meu amigo, here is what we could not find, and it ",
+  "ok": false
+ },
+ "a5f2c7318be1c9ed": {
+  "t": "**Identitatea acestui site:** PrompTugal.news {name} are propria cheie, {key} (amprentă de semnare {fp}), publicată în [board/keys.json]({keys}). Fișierul său de cercetare, `{file}`, este ținut de {agent} și semnat cu această cheie, iar semnătura se verifică în raport cu ea: **semnătură validă**.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** PrompTugal.news {name} has its own",
+  "ok": false
+ }
+}

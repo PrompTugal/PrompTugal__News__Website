@@ -1,0 +1,18 @@
+{
+ "4d3e04b864186034": {
+  "t": "Articolele proprii ale PrompTugal.news despre {name} (front matter town: sau region:), fiecare semnat.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news's own articles about {name} (front matter to",
+  "ok": false
+ },
+ "4def806991338441": {
+  "t": "CitiLink transformă procesele-verbale lungi ale consiliilor în informații structurate despre teme, poziții și decizii. Construit de INESC TEC, Universitatea din Porto și UBI între 2024 și începutul lui 2026, a implicat Porto și alte cinci municipii, precum și Porto Digital. Juriul a lăudat potențialul său pentru transparență.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "CitiLink turns long municipal minutes into structured inform",
+  "ok": false
+ }
+}
