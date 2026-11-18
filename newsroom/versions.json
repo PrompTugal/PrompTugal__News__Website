@@ -1,5 +1,19 @@
 [
   {
+    "version": "v0.1.1826",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 21:48 wake, watch line",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "d364d5bc5"
+  },
+  {
+    "version": "v0.1.1825",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: list bulletins.b-promptugal's public key (sgit pki)",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "a00d3b0c4"
+  },
+  {
     "version": "v0.1.1824",
     "date": "2026-11-18",
     "what": "journalist@PrompTugal.dinis: S7's claims file (REQ-2026-0007): 33 claims, 32 found on their sources with exact quotes",

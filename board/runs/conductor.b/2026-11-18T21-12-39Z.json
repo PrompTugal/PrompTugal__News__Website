@@ -1,0 +1,77 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-18T21-12-39Z",
+ "started": "2026-11-18T21:12:39.570Z",
+ "ended": "2026-11-18T21:49:08Z",
+ "line": "21:48 wake: roster checked (main v0.1.1825), journalist@ nudged on REQ-0008, watch line",
+ "policy": {
+  "version": "1.15.3",
+  "sha256": "ae025145b9f916e5"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T21:48:36.832Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-18T21:48:36.525Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 7,
+  "by_kind": {
+   "shell": 1,
+   "git-push": 2,
+   "remote-conduct": 2,
+   "other": 1,
+   "git": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 7,
+  "commits": [
+   {
+    "sha": "a00d3b0c4",
+    "subject": "conductor.b@PrompTugal.dinis: list bulletins.b-promptugal's public key (sgit pki)",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 7,
+  "in_mandate": 7,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
