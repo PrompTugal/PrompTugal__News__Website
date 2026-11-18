@@ -1,0 +1,32 @@
+{
+ "id": "tribuna-alentejo",
+ "feed": "https://www.tribunaalentejo.pt/feed/",
+ "read_at": "2026-11-18T15:05Z",
+ "items": [
+  {
+   "title": "Porto de Sines quer duplicar quota de mercado na Península Ibérica",
+   "link": "https://www.tribunaalentejo.pt/artigos/porto-de-sines-quer-duplicar-quota-de-mercado-na-peninsula-iberica",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Évora bate recorde de inscritos na Meia Maratona. Já são mais de 5 mil atletas",
+   "link": "https://www.tribunaalentejo.pt/artigos/evora-bate-recorde-de-inscritos-na-meia-maratona-ja-sao-mais-de-5-mil-atletas",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Fortaleza e Castelo de Juromenha vencem prémio nacional de reabilitação",
+   "link": "https://www.tribunaalentejo.pt/artigos/fortaleza-e-castelo-de-juromenha-vencem-premio-nacional-de-reabilitacao",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Regantes falam em 5 mil milhões de euros de prejuízos com atrasos na estratégia do Governo para a água. Especialistas estão reunidos hoje e amanhã em Reguengos de Monsaraz",
+   "link": "https://www.tribunaalentejo.pt/artigos/regantes-reunidos-em-reguengos-de-monsaraz-exigem-celeridade-ao-governo-na-execucao-da-estrategia-da-agua-para-evitar-prejuizos-de-5-mil-milhoes-de-euros",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Há 7 262 idosos sozinhos, isolados ou vulneráveis no Alentejo. É o resultado do mais recente censos da GNR",
+   "link": "https://www.tribunaalentejo.pt/artigos/ha-7-262-idosos-sozinhos-isolados-ou-vulneraveis-no-alentejo-e-o-resultado-do-censos-da-gnr",
+   "date": "2026-11-18"
+  }
+ ]
+}
