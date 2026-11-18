@@ -342,3 +342,12 @@ Inner passes inline this hour (a status-only diff): the opening check against th
 |---|---|
 | central `d34a79a8a` (the Marafado masthead checked, gap notes, re-signed), districts `5efb467b0` (status) | **brought onto dev**; gate green |
 | The library's requests channel | read; still no file for this desk |
+
+## The 19:40 wake (18 November)
+
+Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: provenance on every item (this desk's articles already carry their provenance labels and dated sources); bulletins still open, not this desk's.
+
+| Item | Verdict |
+|---|---|
+| central `89e233497` (council news pages read, nothing new, gaps, re-signed) | **brought onto dev**; gate green |
+| The library's requests channel | read; no file for this desk |
