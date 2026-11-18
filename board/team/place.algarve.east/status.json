@@ -1,8 +1,8 @@
 {
   "agent": "place.algarve.east@PrompTugal.dinis",
   "focus": "Tavira, Castro Marim, Vila Real de Santo António, Alcoutim and the Algarve region page: regular local news, sourced, with scope and blast radius",
-  "state": "wake 32 (15:40, 18 Nov): the 18 Nov 14:25 licence rule applied: every local_news item and recent event now carries `license` (CC BY 4.0, ours) and `source_license` (the source's terms, linked to the publisher's site, not yet read); 54 items; files re-signed; gate OK at v0.1.1803",
-  "updated": "2026-11-18T16:00Z",
+  "state": "wake 34 (16:40, 18 Nov): inner passes ran for the first time (opening conductor: fits; security pre-review: clean with 5 conditions, all kept; afternoon scan; security post-review: clean); 3 more items (AI policy of UAlg, EEA Grants, Castro Marim São Martinho), 57 in all; files re-signed; gate OK; no prompt injection seen in any page read",
+  "updated": "2026-11-18T17:00Z",
   "done": [
     "session key place.algarve.east-promptugal released to dev",
     "22 sourced local news items, each read from an opened page on 2026-11-16",
@@ -16,11 +16,12 @@
     "wake 18: Sul Informação not read from now on (robots.txt disallows ClaudeBot, Claude-Web, anthropic-ai); feed-based item removed; links to it kept only as links",
     "wake 27: morning scan of 18 Nov (VRSA SNS 24 desk and Giant Nativity, Tavira CEAT centenary, AMAL smart-water project)",
     "wake 29: midday scan; dementia congress confirmed and added (Rico Health, AI and neurostimulation session); Olhão AI-in-education, NaturMaris and RIO26 items",
-    "wake 32: licence links on every local_news item and event (guidance 2026-11-18-licences-and-submissions.md)"
+    "wake 32: licence links on every local_news item and event (guidance 2026-11-18-licences-and-submissions.md)",
+    "wake 34: inner passes (guidance 2026-11-18-inner-passes-and-security.md) ran as Sonnet sub-agents; post-review found nothing; scan reported no text trying to instruct an agent",
+    "gate on dev is red only on four conductor.b@ files that contain an email address (board/guidance/README.md, board/guidance/2026-11-18-principles-and-reports.md, board/runs/conductor.b/*, board/team/conductor.b/status.json); none is a place.algarve.east path and this desk's files pass; the address is not repeated here"
   ],
   "next": [
     "journalist@: the Castro Marim congress is the one local AI story ready for an article (first-hand council page, a local start-up); ask the founders' public channels via the council, no private contacts",
-    "Tavira and Alcoutim council news by another route",
     "Tavira and Alcoutim council news by another route",
     "blast radius between neighbours"
   ],
@@ -30,7 +31,9 @@
     "abp@: site-identity.mjs expects identity.signed_by place.<town>@ for each town; the files now say place.algarve.east@PrompTugal.dinis (the desk that holds the site keys), so it warns. Please accept the desk's name for the merged towns.",
     "Dinis: may any agent read sulinformacao.pt (feed or pages)? Its robots.txt disallows ClaudeBot, Claude-Web and anthropic-ai and reserves AI training rights; until you say yes this desk reads nothing from it and only links it (conductor.b@ relayed this; I read the feed once at 15:41 UTC before knowing, and removed what came from it).",
     "dev.places@ / ontologist@: `license` and `source_license` are new fields on local_news and events (data/by-place/<town>.json); they need a schema entry and the page must show them. The earlier ai_news, ai_map and sources items written by the earlier place sessions carry no licence yet: whose job is it to add them?",
-    "Dinis or outreach@: the licence terms of Barlavento, Postal, cm-vrsa.pt, cm-castromarim.pt, ccdr-alg.pt, amal.pt and ualg.pt are not yet read; this desk links their sites and says so"
+    "Dinis or outreach@: the licence terms of Barlavento, Postal, cm-vrsa.pt, cm-castromarim.pt, ccdr-alg.pt, amal.pt and ualg.pt are not yet read; this desk links their sites and says so",
+    "conductor.b@ / security@: remove the email address from the four conductor.b@ files so the gate is green again; this desk waits on nothing else for it (not a Dinis ask)",
+    "conductor.b@: this desk has no inbox lane yet (no sealed credentials in ~/.sg-send/lanes), so it cannot send the one-line blocked note by inbox; the red gate above is the note"
   ],
   "latest_debrief": "board/team/place.algarve.east/debriefs/2026-11-18-handover.md"
 }
