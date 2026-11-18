@@ -110,6 +110,7 @@ ${seoHead(page, site)}
 </head>
 <body class="type-${esc(type || 'site')}${front ? ' page-front' : ''}">
 <a class="skip" href="#main">Skip to the content</a>
+${page.top || ''}
 ${PAUSED_OF(S)}
 <div id="nr-live" data-start="${S.countdown.start}" data-end="${S.countdown.end}"></div>
 ${emastHead({ up, href, site, section, shortDate, WORDMARK })}
