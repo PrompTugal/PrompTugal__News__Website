@@ -14,3 +14,4 @@ One per notable event, written plainly for readers outside the team. Each: what 
 | 3 | 16-18 Nov 2026 | [A key printed into a transcript (S53)](2026-11-18-s53-a-key-in-a-transcript.md) | a failure, acknowledged |
 | 4 | 18 Nov 2026 | [Review finds an XSS within the hour](2026-11-18-an-xss-found-within-the-hour.md) | the passes held |
 | 5 | 18 Nov 2026 | [Per-session leak-scan allowlists](2026-11-18-per-session-leak-scan-allowlists.md) | by design |
+| 6 | 18 Nov 2026 | [A house rule the sub-agent did not know (LIB-2026-008)](2026-11-18-a-house-rule-the-sub-agent-did-not-know.md) | the lead held; a gap closed |

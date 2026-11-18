@@ -83,6 +83,9 @@ export function rel(abs, project = PROJECT) {
     return (!r.startsWith('..') && !path.isAbsolute(r)) ? r.split(path.sep).join('/') : null
 }
 
+
+// v1.15.2: hosts we do not read by machine (Dinis: 11 Nov websummit.com-only comes off; 18 Nov events guidance: not eventbrite.*, lu.ma, luma.com, meetup.com by machine; LIB-2026-008)
+const deniedReadHost = (url, P) => { try { const h = new URL(/^https?:/i.test(url) ? url : 'https://' + url).hostname.toLowerCase(); return (P.common.read_deny_hosts || []).find(d => d.endsWith('.*') ? new RegExp('(^|\\.)' + d.slice(0, -2).replace(/\./g, '\\.') + '\\.[a-z.]+$').test(h) : (h === d || h.endsWith('.' + d))) } catch { return null } }
 export function grantOf(who, P = loadPolicy()) {
     const g = { writes: [], send: [...P.common.send_hosts], subagents: false, notify_dinis: false, remote_read: false, remote_conduct: false }
     if (who.kind === 'team') {
@@ -257,6 +260,8 @@ export function checkBash(who, command, cwd, P = loadPolicy()) {
             if (!okSub && !api) return deny('R7', `gh ${args.slice(0, 2).join(' ')}: gh only for reading and search (no writes, comments, merges or workflow runs)`, 'github')
         }
         if (verb === 'curl' || verb === 'wget') {
+            const dh = [...seg.matchAll(/https?:\/\/([^/\s'":?]+)/g)].map(m => deniedReadHost(m[1], P)).find(Boolean)
+            if (dh) return deny('R2', `${verb} reads ${dh}: a host we do not read by machine (the register of sources we do not access; board/guidance/2026-11-18-sources-we-do-not-access.md)`, 'host')
             const x = args.findIndex(a => /^(-X|--request|--method)$/.test(a))
             const method = x >= 0 ? (args[x + 1] || '').toUpperCase() : ''
             const sends = args.some(a => SEND_FLAGS.test(a)) || (method && !['GET', 'HEAD', 'OPTIONS'].includes(method))
@@ -343,6 +348,7 @@ export function decide(input, who = whoAmI(), P = loadPolicy()) {
         return allow('read')
     }
     if (tool === 'Bash') return checkBash(who, String(ti.command || ''), input.cwd, P)
+    if (tool === 'WebFetch') { const dh = deniedReadHost(ti.url || '', P); if (dh) return deny('R2', `WebFetch of ${dh}: a host we do not read by machine (the register of sources we do not access)`, 'host') }
     if (tool === 'WebFetch' || tool === 'WebSearch') return allow('web')
     return allow('other')
 }

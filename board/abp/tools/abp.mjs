@@ -62,6 +62,7 @@ ${r.place && P.site_identity ? `\n## Site identity (since ${P.site_identity.sinc
 - Comments, issues, pull requests, merges, files or workflow runs through GitHub's API; publishing artifacts; email; posts; any send to a host not listed (R7).
 - Printing the environment or a secret variable; reading a private key or a credentials file into the conversation (R8).
 - Committing or releasing under another agent's name (R9).
+- Reading by machine (fetch, curl, a sub-agent's fetch) the hosts on the register of sources we do not access: ${(P.common.read_deny_hosts || []).join(', ')} (Dinis, 11 and 18 Nov 2026; house rule, case study LIB-2026-008). It reaches your sub-agents' prompts too.
 ${r.relax_candidates ? '\n## Relaxations proposed to Dinis (not granted)\n\n' + r.relax_candidates.map(x => '- ' + x).join('\n') + '\n' : ''}
 ## Core rules (every agent)
 
@@ -138,6 +139,11 @@ function test() {
         [T('telemetry.b'), w('board/team/telemetry/status.json'), 'allow', 'telemetry.b writes its own folder under the short name'],
         [T('conductor.b'), bash('cd ~/.sg-send/lanes/obs && cat > civic.enc <<EOF\nabc\nEOF'), 'allow', 'a redirect target is written, not read'],
         [T('conductor.b'), bash('cat ~/.sg-send/lanes/obs/civic.enc'), 'deny', 'reading a lane file is still denied'],
+        [T('library.b'), { tool_name: 'WebFetch', tool_input: { url: 'https://websummit.com/speakers' } }, 'deny', 'a host we do not read by machine (LIB-2026-008)'],
+        [T('library.b'), { tool_name: 'WebFetch', tool_input: { url: 'https://www.eventbrite.co.uk/e/123' } }, 'deny', 'eventbrite.* is not read by machine'],
+        [T('library.b'), { tool_name: 'WebFetch', tool_input: { url: 'https://example.org/a' } }, 'allow', 'another host is read'],
+        [T('library.b'), bash('curl -s https://lu.ma/event'), 'deny', 'curl of lu.ma'],
+        [T('library.b'), bash('curl -s https://eventbrite.com/x'), 'deny', 'curl of eventbrite.com'],
         [T('civic.b'), w('content/articles/x.md'), 'deny', 'a site lead writes this repository outside its folders'],
         [T('civic.b'), w('board/team/civic.b/status.json'), 'allow', 'a site lead writes its own folder here'],
         [T('civic.b'), { tool_name: 'Agent', tool_input: {} }, 'allow', 'a site lead runs sub-agents'],
