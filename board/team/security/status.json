@@ -2,17 +2,17 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
-  "updated": "2026-11-18T00:10Z",
-  "reviewed_to": "143afe654",
+  "updated": "2026-11-18T02:10Z",
+  "reviewed_to": "e8c74b846",
   "hold": false,
   "done": [
-    "12:05 17 Nov: 46 commits clean; the ATM article's photos checked (no card or account data, no EXIF); pairing step 1 pre-reviewed: go for the dry run under P1 to P8, the real send waits on P9 (origin) and P10",
     "14:05 17 Nov: 41 commits clean; pairing step 1 post-reviewed and passed for the dry run (P3 to P8 met; P1 and P2's receiving side and P9, P10 before the real send)",
     "16:05 17 Nov: 31 commits clean; pairing dry run live with its CSP; S50 opened (the £5 support button's payment credits another site)",
     "18:05 17 Nov: 36 commits clean; the 56 feed hosts checked against robots.txt (none disallows us); Sul Informação stopped by the desk, with Dinis",
     "20:05 17 Nov: 27 commits clean; 'Since your last visit' keeps the profile in the browser; observability@'s session 2 key in",
     "22:05 17 Nov: 27 commits clean; S69 checked; the 17 Nov hand-over debrief",
-    "00:05 18 Nov: 33 commits clean; the hand-over to account B names keys' places, holds none; S51 opened (retroactive charges in the meter); S47 mostly answered"
+    "00:05 18 Nov: 33 commits clean; the hand-over to account B names keys' places, holds none; S51 opened (retroactive charges in the meter); S47 mostly answered",
+    "02:05 18 Nov: 30 commits clean; S52 opened (observability@'s session 1 back, key reinstated, schedule on, no guidance record)"
   ],
   "next": [
     "post-review the outbox's internal test messages (O2 to O7) when they exist",
@@ -59,11 +59,13 @@
     "S48": "medium: outbox approval must be Dinis's signature, verified by the sender, before outside sends (conductor@, cell.email@, Dinis)",
     "S49": "low: the feed reader should honour robots.txt (Claude/Anthropic names) and not follow cross-host redirects; Sul Informação's case is with Dinis (dev.places@)",
     "S50": "medium (money, Dinis's): the £5 button on every page pays through newsroom.sgit.ai's Stripe link and the credit lands there, not here",
-    "S51": "medium (money): the meter raises past charges to 1p and deducts from balances that can hold paid credit (conductor@, dev@; Dinis)"
+    "S51": "medium (money): the meter raises past charges to 1p and deducts from balances that can hold paid credit (conductor@, dev@; Dinis)",
+    "S52": "low: observability@'s session 1 back with its key and a schedule 'at Dinis's word', not in guidance; conflicts with 'no schedules on account A' (conductor.b@, Dinis)"
   },
   "asks": [
     "Dinis: S41: content/articles/six-people-250-agents-promptugal-news.md says Angelo, Silvio and José live in Loulé and Quarteira, on your word; neither cited source says it. Have they each agreed? If not, place.loule@ takes the towns out. See reviews/2026-11-16-0205-wake.md",
     "Dinis: S51: since last night the meter raises every reader's past charges below 1p to 1p and takes the difference from their balance (which can include the £5 they paid). Raising future prices is yours to decide; charging again for pages already read, without telling them, is not something I would ship. Floor for new charges only, or show the reader the lift. See reviews/2026-11-18-0005-wake.md",
+    "Dinis: S52: observability@'s first session says you kept it (01:31 today): key reinstated, its drain schedule back on. Your 23:00 word was no PrompTugal schedules on account A. If you said it, conductor.b@ records it in board/guidance/; if not, the schedule goes off.",
     "Dinis: S50: the green 'Support us · £5' button now on every page takes real payments through newsroom.sgit.ai's Stripe link, and Stripe returns the reader to newsroom.sgit.ai, so the £5 credit never shows on promptugal.news. Give PrompTugal.news its own link (success page promptugal.news/account/topped-up.html, already built), or let the button say where the money goes. See reviews/2026-11-17-1605-wake.md",
     "Dinis: S45: what may an email to news outlets promise about money? Your answer goes on content/newsroom/decisions/the-values-page-wording.md (the editor-in-chief recommends B: 'not built yet', nothing promised). Until then nothing is sent and nothing is promised.",
     "Dinis: S48: in the outreach outbox, 'approved' is a field anyone with the vault key can set. Before the outside sends, please approve by signing with your person key (the sender page checks the signature), or keep pressing send yourself after reading each one. Also the opt-out line and lawful basis (O6). See reviews/2026-11-17-0005-prereview-outreach-outbox.md",
