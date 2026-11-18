@@ -1,0 +1,26 @@
+{
+ "ab4fa81bccc51023": {
+  "t": "Un proiect de doi ani, listat de biroul de cercetare al universității, desfășurat între 1 septembrie 2026 și 31 august 2028, construiește soluții de AI pentru dispozitive încorporate ieftine, cu consum redus, în agricultură și zootehnie, reunind inginerie, știința datelor și cunoștințe agricole. Costul său eligibil este de 197.754,85 euro, din care 168.091,62 euro pentru partea din Portalegre, finanțat prin FEDER în cadrul ALT2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A two-year project listed by the university's research offic",
+  "ok": false
+ },
+ "aba7aa34a9e303a2": {
+  "t": "Consorțiul EdgeOnVespa, condus de compania Dotlabs împreună cu MORE CoLAB, federația națională a apicultorilor și Anbeit, construiește un sistem de calcul la margine care folosește AI pentru a găsi și a urmări viespea asiatică și a declanșa combaterea. Este cofinanțat prin programul NORTE2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The EdgeOnVespa consortium, led by the company Dotlabs with ",
+  "ok": false
+ },
+ "abe73eede625cf9c": {
+  "t": "Lagos este locul unde comunitatea tech din Algarve se întâlnește față în față. Consiliul a coorganizat aici Algarve Tech Hub Summit în noiembrie 2025, care a adunat câteva sute de oameni într-un singur hotel, și colaborează cu GDG Lagos la evenimente de AI precum DevFest Lagos 2025 și Build with AI de Ziua Internațională a Femeii. Spațiul municipal de coworking CoLagos este complet ocupat din noiembrie 2023, iar o comunitate creată pentru nomazii digitali ai orașului există încă din pandemie. Nu am găsit nicio companie de AI confirmată ca având sediul în Lagos, așa că centrul de greutate este o comunitate de constructori și de lucrători la distanță, nu un cluster de firme de AI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Lagos is where the Algarve's tech community meets in person.",
+  "ok": false
+ }
+}

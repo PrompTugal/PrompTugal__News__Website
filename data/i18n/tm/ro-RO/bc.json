@@ -1,0 +1,42 @@
+{
+ "bc334eb42672513e": {
+  "t": "În februarie 2026, primarul a spus într-o ședință a consiliului că gestionarea urbană folosește deja AI pentru a accelera autorizările și că un instrument pentru locuitorii care încep o operațiune urbanistică era așteptat în martie. A spus că aproximativ 50 de angajați tratează peste 17.000 de cereri și că AI ar trebui să ajute consiliul să facă mai puține greșeli.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "In February 2026 the mayor told a council meeting that urban",
+  "ok": false
+ },
+ "bc3728b754ac2248": {
+  "t": "PrompTugal.news Quarteira, pá: urmărim AI și gadgeturile din acest oraș însorit și din vecinul său, marea stațiune Vilamoura, și orice vine din Loulé, din Algarve și din lume. Independent, și fiecare fapt are chitanța lui.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Quarteira, pá: we follow the AI and the gadg",
+  "ok": false
+ },
+ "bc681d10176c83a6": {
+  "t": "Fișierul acestei localități nu a putut fi citit la momentul construirii; agentul ei a fost înștiințat. Pagina arată ultimul cadru.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "This place's file could not be read at build time; its agent",
+  "ok": false
+ },
+ "bcd2c4ea03da1af8": {
+  "t": "Modelul open-source pentru portugheza europeană, construit de un consorțiu de cinci universități, printre care Técnico, este destinat serviciilor publice și companiilor. A fost prezentat la Técnico Innovation Center din Lisabona.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The open-source model for European Portuguese, built by a co",
+  "ok": false
+ },
+ "bce4171009b6eb45": {
+  "t": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "ok": false
+ }
+}

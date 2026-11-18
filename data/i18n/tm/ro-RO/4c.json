@@ -1,0 +1,26 @@
+{
+ "4c0d30adf1b09c9f": {
+  "t": "Activitatea de inteligență artificială din Braga se află în patru locuri pe care sursele le arată alături: cercetarea (grupul de inteligență artificială al Universității din Minho, spin-off-ul OmniumAI, născut la Minho, și laboratorul iberic de nanotehnologie INL), cercetarea-dezvoltarea companiilor (primul centru de inteligență artificială al Cegid în Portugalia și noua unitate eBike a Bosch, al cărei software antifurt folosește învățarea automată), folosirea inteligenței artificiale de către consiliu (un pilot cu camere în autobuze, cu Hayden AI, și un proiect de 1,5 milioane de euro pentru a aduce inteligența artificială în administrația municipală) și un strat de startup-uri în jurul Startup Braga și InvestBraga, care a dus 15 startup-uri la Web Summit 2026. Spre deosebire de orașele din Algarve, Braga nu depinde de o singură instituție, iar ce am putut citi arată o administrație orășenească care cumpără și testează inteligența artificială, nu doar găzduiește evenimente despre ea.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Braga's AI activity sits in four places that the sources sho",
+  "ok": false
+ },
+ "4c20ecf29e33e8c3": {
+  "t": "Activitatea de inteligență artificială din Évora se află în trei locuri. Universidade de Évora predă o licență în inteligență artificială și știința datelor, și-a scris propriile reguli pentru inteligența artificială în predare și spune că a construit modele în limba portugheză. PACT, parcul științific și tehnologic din Alentejo, ține formări în inteligență artificială și găzduiește firme de tehnologie. Hospital de Évora este primul spital public portughez care folosește un sistem de inteligență artificială pentru screeningul cervical, după propria relatare a unității sale de sănătate. A sosit și bani privați mai noi, o companie de centre de date cumpărând un amplasament de 1 MW în oraș. Site-ul consiliului nu arată nicio folosire a inteligenței artificiale pe care să o fi putut citi, așa că universitatea, parcul și spitalul, nu primăria, sunt centrul de greutate.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Évora's AI activity sits in three places. The Universidade d",
+  "ok": false
+ },
+ "4c2d5aebc2b28ff3": {
+  "t": "Pe 1 octombrie 2025, INCO Academy și unitatea de alfabetizare digitală a politehnicii din Santarém au convenit să organizeze NewFutures: AI, circa 40 de ore în patru săptămâni, online, cu un modul de bază despre inteligența artificială generativă plus trasee precum marketing, finanțe și TIC. Cele două părți plănuiesc și să exploreze o comunitate de practică în inteligență artificială.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "On 1 October 2025 INCO Academy and the digital literacy unit",
+  "ok": false
+ }
+}
