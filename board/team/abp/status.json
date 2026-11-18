@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-18T10:50Z",
+  "updated": "2026-11-18T12:50Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -72,7 +72,9 @@
     "18 Nov 07:50 thirty-sixth hourly wake: 0 breaches; 6 attempts are the two standing proposals (board/abp/reports/2026-11-18-0737.md)",
     "18 Nov 08:50 thirty-seventh hourly wake: clean (board/abp/reports/2026-11-18-0837.md)",
     "18 Nov 09:50 thirty-eighth hourly wake: conductor@'s 16 Nov logs reached me: it printed the environment and read its private signing key (R8); session management 80+ calls (R4); both asked of Dinis (board/abp/reports/2026-11-18-0937.md)",
-    "18 Nov 10:50 thirty-ninth hourly wake: 0 breaches; conductor-promptugal still active, exposure question open (board/abp/reports/2026-11-18-1037.md)"
+    "18 Nov 10:50 thirty-ninth hourly wake: 0 breaches; conductor-promptugal still active, exposure question open (board/abp/reports/2026-11-18-1037.md)",
+    "18 Nov 11:50 fortieth hourly wake: clean (board/abp/reports/2026-11-18-1137.md)",
+    "18 Nov 12:50 forty-first hourly wake: clean (board/abp/reports/2026-11-18-1237.md)"
   ],
   "next": [
     "Hourly review of run reports at :37 (board/abp/reports/); check the new desks re-key their site keys and sites pass (34 of 36 now)",

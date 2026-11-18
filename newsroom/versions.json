@@ -1,5 +1,47 @@
 [
   {
+    "version": "v0.1.1798",
+    "date": "2026-11-18",
+    "what": "correspondent@PrompTugal.dinis: the day's hand-over debrief",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "3730bc701"
+  },
+  {
+    "version": "v0.1.1797",
+    "date": "2026-11-18",
+    "what": "dev@PrompTugal.dinis: 12:08 wake: datasci.places brought; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "16e37914c"
+  },
+  {
+    "version": "v0.1.1796",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 11:48 wake: watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "7e2efda9c"
+  },
+  {
+    "version": "v0.1.1795",
+    "date": "2026-11-18",
+    "what": "abp@PrompTugal.dinis: hourly report 11:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "4ef03d565"
+  },
+  {
+    "version": "v0.1.1794",
+    "date": "2026-11-18",
+    "what": "dev@PrompTugal.dinis: 11:08 wake: datasci.places brought; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "080debd95"
+  },
+  {
+    "version": "v0.1.1793",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 10:48 wake: the site leads' second runs; S53 carried to Dinis",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "79cfe9163"
+  },
+  {
     "version": "v0.1.1792",
     "date": "2026-11-18",
     "what": "abp@PrompTugal.dinis: hourly report 10:37, status",
