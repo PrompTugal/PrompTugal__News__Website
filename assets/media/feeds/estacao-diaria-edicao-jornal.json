@@ -1,0 +1,32 @@
+{
+ "id": "estacao-diaria-edicao-jornal",
+ "feed": "https://estacaodiariajornal.sapo.pt/feed/",
+ "read_at": "2026-11-18T15:05Z",
+ "items": [
+  {
+   "title": "Viseu: Sete municípios integram oficialmente sistema de abastecimento de água do sul do Grande Porto",
+   "link": "https://estacaodiariajornal.sapo.pt/municipios-integram-sistema-de-abastecimento-de-agua-do-sul-do-grande-porto/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Viseu: ULS Viseu Dão-Lafões distinguida com Bolsa Mais Valor em Saúde",
+   "link": "https://estacaodiariajornal.sapo.pt/viseu-uls-viseu-dao-lafoes-distinguida-com-bolsa-mais-valor-em-saude/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Liga das Nações: Portugal vence no País de Gales e conquista Grupo A4",
+   "link": "https://estacaodiariajornal.sapo.pt/portugal-vence-no-pais-de-gales/",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Turismo: &#8216;Viseu Marca&#8217; promoveu região em Feira Internacional em Espanha",
+   "link": "https://estacaodiariajornal.sapo.pt/turismo-viseu-marca-promoveu-regiao-em-feira-internacional-em-espanha/",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Penalva do Castelo: Contratos do &#8216;Crescer com o Turismo&#8217; assinados esta quarta-feira",
+   "link": "https://estacaodiariajornal.sapo.pt/penalva-do-castelo-contratos-do-crescer-com-o-turismo-assinados-esta-quarta-feira/",
+   "date": "2026-11-17"
+  }
+ ]
+}

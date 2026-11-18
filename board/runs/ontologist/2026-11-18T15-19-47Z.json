@@ -1,0 +1,100 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "ontologist@PrompTugal.dinis",
+ "run": "2026-11-18T15-19-47Z",
+ "started": "2026-11-18T15:19:47.552Z",
+ "ended": "2026-11-18T15:41:33Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T15:21:18.131Z",
+   "chars": 497,
+   "sha256": "daae8cad2ebefd38",
+   "head": "<task-notification>\n<task-id>ba9kpemmn</task-id>\n<tool-use-id>toolu_01FLx2BvknWVa7aMNZGKVycN</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/445d920f-1516-57c9-8358-2a32b"
+  },
+  {
+   "t": "2026-11-18T15:24:36.829Z",
+   "chars": 1183,
+   "sha256": "508af5f6563db9ff",
+   "head": "<task-notification>\n<task-id>byqani7xr</task-id>\n<tool-use-id>toolu_01F6DMzrRoXzoxKHaCCjqcSD</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/445d920f-1516-57c9-8358-2a32b"
+  },
+  {
+   "t": "2026-11-18T15:24:41.566Z",
+   "chars": 900,
+   "sha256": "7ad4a430e098115c",
+   "head": "<task-notification>\n<task-id>bkf4xhidp</task-id>\n<tool-use-id>toolu_01P2cN1AL57mvviuaJfkz2sU</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/445d920f-1516-57c9-8358-2a32b"
+  },
+  {
+   "t": "2026-11-18T15:40:57.338Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-18T15:40:57.090Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 5,
+  "by_kind": {
+   "other": 2,
+   "web": 1,
+   "shell": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 5,
+  "commits": [
+   {
+    "sha": "21ca63d43",
+    "subject": "ontologist@PrompTugal.dinis: the library's catalogue on the ontology (item and collection proposed)",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "21ca63d43 wrote board/briefs/2026-11-18-library-catalogue-and-the-ontology.md",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 4,
+  "tool_calls": 5,
+  "in_mandate": 5,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 1
+ }
+}

@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
   "state": "working (the restart of 16 November, this account; hourly at :40)",
-  "updated": "2026-11-18T10:55Z",
+  "updated": "2026-11-18T16:00Z",
   "done": [
     "checker@PrompTugal.vicky's findings on five Algarve articles (Faro, Olhão, Lagos, Alcoutim, Almancil) all taken: corrected, a dated Corrections note on each, sources made links, re-signed. Answer: desks/journalist-promptugal/checks/2026-11-17-checker-findings-answer.md.",
     "11:40 wake: central's two older Faro AI items brought onto dev; conductor@'s two articles of this morning (the ATM mark-up, the payment desk) reviewed after publication: both stand, the 13.6% re-checked against the ECB rate.",
@@ -17,9 +17,12 @@
     "19:40 to 23:40 wakes: quiet; districts' status wakes brought onto dev; Vicky's S69 checked and labelled.",
     "23:52: conductor.b@ confirmed the Algarve desks are running hourly; a quiet evening, not stuck. Ask closed.",
     "00:40 wake (18 Nov): central's and districts' daily debriefs brought onto dev; this desk's hand-over debrief for 18 November.",
-    "10:40 wake (18 Nov): west, central and districts brought onto dev; checker@ confirmed this desk's nine corrections; conductor@'s ATM piece lowered to P1 for six open findings."
+    "10:40 wake (18 Nov): west, central and districts brought onto dev; checker@ confirmed this desk's nine corrections; conductor@'s ATM piece lowered to P1 for six open findings.",
+    "15:05: Dinis's inner passes guidance read (New from Dinis, 18 Nov 15:05); taken up from the next wake.",
+    "15:40 wake: the first with the inner passes; west's patient-detail withdrawal, central's recheck, east's licence links and three items, districts' status brought onto dev; gate green."
   ],
   "next": [
+    "Every wake: the inner passes (opening conductor and security pre-review, the work, security post-review of the diff, closing pass), as Sonnet sub-agents; the result named in the commit.",
     "Work the correction queue (20 articles with open checker@ findings): this desk's own first (brazil-*, italy-and-portugal-in-beato, daily-newsletter, mistakes-we-made, how-agents-avoid-collisions), then the partner and place desks' through their owners; raise each to P2 as it clears.",
     "Provenance spec step 7: the Opinion and Editorial sections and the daily editorial (waits on Dinis's answer to the spec's question 3).",
     "Every wake: the review loop (git cherry origin/dev origin/work/<desk> shows what is new even after a cherry-pick); the place desks write local_news; publish signed articles once a desk proposes one with an AI path.",

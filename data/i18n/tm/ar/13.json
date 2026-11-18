@@ -1,0 +1,26 @@
+{
+ "1322e92a2dec1473": {
+  "t": "Quarteira Lab يعدّ المشاة وراكبي الدراجات لتغذية منصة بيانات",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Quarteira Lab counts walkers and cyclists to feed a data pla",
+  "ok": false
+ },
+ "13d6f10e2673c99f": {
+  "t": "**هذه الصفحة كبيانات:** كل ما فيها يُقدَّم بصيغة JSON أولًا، بما في ذلك قصصها وخريطة الذكاء الاصطناعي والفعاليات والمصادر والثغرات والفريق والهوية؛ و[صفحة API]({json}) تسرد كل نقطة وصول لهذا المكان والأماكن الأخرى.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This page as data:** everything on it is served as JSON fi",
+  "ok": false
+ },
+ "13e3829c3b71b77d": {
+  "t": "Campo Maior تفتتح مركز ذكاء تنافسي للبيانات والذكاء الاصطناعي مع بوليتكنيك Portalegre",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Campo Maior opens a data and AI competitive intelligence cen",
+  "ok": false
+ }
+}

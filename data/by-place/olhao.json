@@ -467,7 +467,8 @@
     "Sul Informação (sulinformacao.pt): homepage, tag page and feed all returned 403 on 2026-11-17; skipped.",
     "Jornal do Algarve (jornaldoalgarve.pt): homepage and search returned 403 on 2026-11-17; only the RSS feed opened and held no new AI-linked item for this town.",
     "Postal Algarve and Barlavento feeds checked 17-18 Nov: only the already-held Olhao teacher AI item; nothing new.",
-    "18 Nov: cm-olhao.pt/pt/noticias returned 404 again. Barlavento 16 Nov Bairros Digitais mention already held. Search found only an undated Rotary AI conference (Barlavento p=344439, held)."
+    "18 Nov: cm-olhao.pt/pt/noticias returned 404 again. Barlavento 16 Nov Bairros Digitais mention already held. Search found only an undated Rotary AI conference (Barlavento p=344439, held).",
+    "18 Nov: cm-olhao.pt homepage returned no readable news text. Jornal do Algarve piece on an October Olhao seminar on AI and children returned 403, not claimed. LEDEX Olhao conference (15 Oct) already on file."
   ],
   "voice": {
     "lede": "Olhão, where the fish are smarter than the brochures and the algorithms are still learning to gut a sardine.",

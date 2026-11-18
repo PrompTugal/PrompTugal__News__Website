@@ -83,6 +83,9 @@ export function rel(abs, project = PROJECT) {
     return (!r.startsWith('..') && !path.isAbsolute(r)) ? r.split(path.sep).join('/') : null
 }
 
+
+// v1.15.2: hosts we do not read by machine (Dinis: 11 Nov websummit.com-only comes off; 18 Nov events guidance: not eventbrite.*, lu.ma, luma.com, meetup.com by machine; LIB-2026-008)
+const deniedReadHost = (url, P) => { try { const h = new URL(/^https?:/i.test(url) ? url : 'https://' + url).hostname.toLowerCase(); return (P.common.read_deny_hosts || []).find(d => d.endsWith('.*') ? new RegExp('(^|\\.)' + d.slice(0, -2).replace(/\./g, '\\.') + '\\.[a-z.]+$').test(h) : (h === d || h.endsWith('.' + d))) } catch { return null } }
 export function grantOf(who, P = loadPolicy()) {
     const g = { writes: [], send: [...P.common.send_hosts], subagents: false, notify_dinis: false, remote_read: false, remote_conduct: false }
     if (who.kind === 'team') {
@@ -92,7 +95,7 @@ export function grantOf(who, P = loadPolicy()) {
         g.worker = (!!base && !(P.roles[who.role] && P.roles[who.role].releases_to_dev)) || !!(P.roles[who.role] && P.roles[who.role].work_branch)   // work_branch (v1.14.0): a writer of the restart pushes work/<role>; a reviewer brings it onto dev
         g.writes = [...P.common.writes, ...(r.writes || [])]
         g.send.push(...(r.send_hosts || []))
-        g.subagents = !!r.subagents; g.notify_dinis = !!r.notify_dinis; g.remote_read = !!r.remote_read; g.remote_conduct = !!r.remote_conduct
+        g.subagents = !!r.subagents; g.notify_dinis = !!r.notify_dinis; g.remote_read = !!r.remote_read; g.remote_conduct = !!r.remote_conduct; g.remote_transcripts = !!r.remote_transcripts
         g.known = !!P.roles[who.role]
     } else if (who.kind === 'external') {
         const own = (P.external.by_agent || {})[who.agent]
@@ -257,6 +260,8 @@ export function checkBash(who, command, cwd, P = loadPolicy()) {
             if (!okSub && !api) return deny('R7', `gh ${args.slice(0, 2).join(' ')}: gh only for reading and search (no writes, comments, merges or workflow runs)`, 'github')
         }
         if (verb === 'curl' || verb === 'wget') {
+            const dh = [...seg.matchAll(/https?:\/\/([^/\s'":?]+)/g)].map(m => deniedReadHost(m[1], P)).find(Boolean)
+            if (dh) return deny('R2', `${verb} reads ${dh}: a host we do not read by machine (the register of sources we do not access; board/guidance/2026-11-18-sources-we-do-not-access.md)`, 'host')
             const x = args.findIndex(a => /^(-X|--request|--method)$/.test(a))
             const method = x >= 0 ? (args[x + 1] || '').toUpperCase() : ''
             const sends = args.some(a => SEND_FLAGS.test(a)) || (method && !['GET', 'HEAD', 'OPTIONS'].includes(method))
@@ -273,7 +278,9 @@ export function checkBash(who, command, cwd, P = loadPolicy()) {
         if (['echo', 'printf'].includes(verb) && SECRET_VAR.test(seg)) return deny('R8', `${verb} of a secret variable`, 'secret')
         if (['cat', 'head', 'tail', 'less', 'more', 'xxd', 'od', 'hexdump', 'base64', 'strings', 'bat', 'nl', 'awk', 'sed', 'grep', 'jq'].includes(verb)) {
             // grep, sed, awk and jq take a pattern or a script first (unless given with -e/-f): that is not a path (security@'s grep, 10:xx)
-            let pos = args.filter(a => !a.startsWith('-'))
+            // v1.15.1: a redirect target is written, not read (conductor.b@'s `cat > lane.enc <<EOF`, 18 Nov: six false positives)
+            const noRedirect = []; for (let i = 0; i < args.length; i++) { if (/^\d?>>?$/.test(args[i])) { i++; continue } if (/^\d?>>?./.test(args[i])) continue; noRedirect.push(args[i]) }
+            let pos = noRedirect.filter(a => !a.startsWith('-'))
             if (['grep', 'sed', 'awk', 'jq'].includes(verb) && !args.some(a => /^-(e|f|-regexp|-file)$/.test(a))) pos = pos.slice(1)
             const hit = pos.find(a => /[/.~]/.test(a) && isSecretPath(path.resolve(here, a.replace(/^~(?=\/)/, HOME))))
             if (hit) return deny('R8', `${verb} ${hit}: a private key or credentials file is never read into the conversation`, 'secret')
@@ -316,6 +323,7 @@ export function decide(input, who = whoAmI(), P = loadPolicy()) {
         if (server === 'claude-code-remote') {
             if (name === 'add_repo' && ti.access === 'push') return deny('R2', 'add_repo with push access: only this repository, already attached', 'remote')
             if (P.tools.remote_allowed_all.includes(name)) return allow('remote-read')
+            if ((P.tools.remote_transcripts_by_grant || []).includes(name)) return g.remote_transcripts ? allow('remote-transcripts') : deny('R2', `${name} reads another session's transcript: only telemetry.b@ may (Dinis, 18 Nov 2026, board/guidance/2026-11-18-telemetry-and-sub-agents.md)`, 'remote')
             if (P.tools.remote_read_by_grant.includes(name)) return (g.remote_read || who.kind === 'unidentified') ? allow('remote-read') : deny('R2', `${name} reads other sessions: not in ${who.agent || 'this session'}'s grant`, 'remote')
             if ((P.tools.remote_conduct_by_grant || []).includes(name) && g.remote_conduct) return allow('remote-conduct')
             return deny('R4', `${name}: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session`, 'session')
@@ -340,6 +348,7 @@ export function decide(input, who = whoAmI(), P = loadPolicy()) {
         return allow('read')
     }
     if (tool === 'Bash') return checkBash(who, String(ti.command || ''), input.cwd, P)
+    if (tool === 'WebFetch') { const dh = deniedReadHost(ti.url || '', P); if (dh) return deny('R2', `WebFetch of ${dh}: a host we do not read by machine (the register of sources we do not access)`, 'host') }
     if (tool === 'WebFetch' || tool === 'WebSearch') return allow('web')
     return allow('other')
 }

@@ -1,0 +1,32 @@
+{
+ "id": "jornal-economico",
+ "feed": "https://jornaleconomico.sapo.pt/feed/",
+ "read_at": "2026-11-18T15:05Z",
+ "items": [
+  {
+   "title": "Eletrodomésticos: volume de negócios dos grossistas supera 1,84 mil milhões em 2025",
+   "link": "https://jornaleconomico.sapo.pt/noticias/eletrodomesticos-volume-de-negocios-dos-grossistas-supera-184-mil-milhoes-em-2025/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Novo GTA já causou 33 reclamações no Portal da Queixa",
+   "link": "https://jornaleconomico.sapo.pt/noticias/novo-gta-ja-causou-33-reclamacoes-no-portal-da-queixa/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Wall Street abre mista, entusiasmada com os resultados da Nvidia",
+   "link": "https://jornaleconomico.sapo.pt/noticias/wall-street-abre-mista-entusiasmada-com-os-resultados-da-nvidia/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "&#8220;Era mentira&#8221;: Oposição em Lisboa acusa autarquia de esconder relatórios sobre Elevador da Glória",
+   "link": "https://jornaleconomico.sapo.pt/noticias/era-mentira-oposicao-em-lisboa-acusa-autarquia-de-esconder-relatorios-sobre-elevador-da-gloria/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Inflação em Angola: consultora prevê subida para 10,8% no próximo ano",
+   "link": "https://jornaleconomico.sapo.pt/noticias/inflacao-em-angola-consultora-preve-subida-para-108-no-proximo-ano/",
+   "date": "2026-11-18"
+  }
+ ]
+}
