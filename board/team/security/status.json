@@ -2,17 +2,17 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
   "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
-  "updated": "2026-11-18T23:10Z",
-  "reviewed_to": "4e90689d4",
+  "updated": "2026-11-18T23:55Z",
+  "reviewed_to": "5517c32ec",
   "hold": false,
   "done": [
-    "19:05 18 Nov: hourly sweep clean; Live repository added (clean); camera embeds pre-reviewed (K1 to K5: click to load, sandboxed operator iframes, no recording)",
     "20:05 18 Nov: hourly sweep clean; live.promptugal.news's first version meets K1 to K5, gate-enforced",
     "21:05 18 Nov: hourly sweep clean; Cyber and Bulletins added (full history clean); Cyber's threat models meet the limits for advisories, C1 and C4 to add before exposure data",
     "22:05 18 Nov: hourly sweep clean; Bulletins' collector read (clean)",
     "22:15 18 Nov: the sites bar pre-reviewed (B1 to B8: registry as checked data, exact host check, textContent, previews as img only, build-time copy, vendored and pinned, no cross-site scripts, one registry writer)",
     "22:55 18 Nov: the sites bar v1.0.0 post-reviewed on the exact files (hashes checked): go; B7's per-hover version.json fetch accepted, to drop in v1.0.1 (dev@)",
-    "23:05 18 Nov: hourly sweep of 13 repositories clean (Videos added); ENISA's clearance withdrawn (robots disallows ClaudeBot), with Dinis"
+    "23:05 18 Nov: hourly sweep of 13 repositories clean (Videos added); ENISA's clearance withdrawn (robots disallows ClaudeBot), with Dinis",
+    "23:55 18 Nov: the sites bar v1.1.0 post-reviewed on the exact files (three hashes checked, attack URLs tested): go"
   ],
   "next": [
     "each wake: new commits in all eight repositories (heads in repo_heads)",
