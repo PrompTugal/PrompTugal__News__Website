@@ -13,7 +13,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Starting a company in {name}",
-  "ok": false
+  "ok": true
  },
  "78dc9cc4a08684d2": {
   "t": "Startups em estágio inicial que constroem ou usam intensivamente IA podiam se candidatar à incubação de abril a setembro de 2026, com apoio técnico em IA e mentoria. Portugal participa por meio da FCT e do Centro Nacional de Computação Avançada.",

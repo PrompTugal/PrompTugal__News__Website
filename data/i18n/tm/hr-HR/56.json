@@ -1,10 +1,11 @@
 {
  "567f6eb8a3f356e8": {
-  "t": "Beyond Vision, lisabonska tvrtka koja izrađuje besposadne zrakoplovne sustave, osigurala je više od 28 milijuna eura u zajedničkom vodstvu Índico Capital Partners i Lince Capital. Dio novca namijenjen je povećanju proizvodnje i ubrzanju njezine UI i roj tehnologije.",
+  "t": "Beyond Vision, lisabonska tvrtka koja izrađuje besposadne zrakoplovne sustave, osigurala je više od 28 milijuna eura uz zajedničko vodstvo tvrtki Índico Capital Partners i Lince Capital. Dio novca namijenjen je povećanju proizvodnje i ubrzanju njezine tehnologije UI-ja i roja.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-17",
   "src": "Beyond Vision, a Lisbon company making unmanned aerial syste",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  }
 }

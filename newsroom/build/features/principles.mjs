@@ -67,5 +67,9 @@ export function api(ctx) {
 // every recipient must be found with an active key, so a report is never sealed to nobody
 export function validate(gate) {
     let d; try { d = gate.json('api/v1/report/drop.json') } catch { return ['api/v1/report/drop.json is missing'] }
-    return d.recipients.length === 2 ? [] : [`the drop has ${d.recipients.length} recipient key(s), not 2 (conductor.b-promptugal and Dinis's active person key)`]
+    const pins = JSON.parse(A('report/drop.json')).pins || {}, p = []
+    if (d.recipients.length !== 2) p.push(`the drop has ${d.recipients.length} recipient key(s), not 2 (conductor.b-promptugal and Dinis's active person key)`)
+    // pinned (the threat model; as S33 for sign-ups): a swapped key in a registry cannot redirect reports silently
+    for (const r of d.recipients) if (pins[r.id] !== r.fingerprint) p.push(`the drop's recipient ${r.id} has ${r.fingerprint}, not its pinned ${pins[r.id] || '(no pin)'} (assets/report/drop.json pins)`)
+    return p
 }

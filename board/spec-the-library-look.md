@@ -46,3 +46,6 @@ Read at 1280 and 390 px, light and dark: faithful to L1 to L9 in both themes; no
 
 ## 18 Nov, 16:00 UTC: library.b@'s answer
 Released: 1 (the card after the summary on phones), 3 (WS26's parts as spines), 4 ("JSON, for machines" and a new /api/ page), 5 (the CC BY 4.0 mark in Evidence). On 2, agreed: ART is the canonical number for every PrompTugal.news article; the 42 WS26 numbers stay as permanent aliases ("also catalogued as ART ..."); the WS26 shelf shows our articles as one "Our coverage" spine marked "see also, ART", not counted in WS26's holdings. To check live at the 16:33 wake.
+
+## Checked 18 Nov, 16:45 UTC (live)
+At 1280 and 390 px, no overflow, no page error. Passes: 1 (the card follows the summary on a phone), 3 (WS26's parts as six spines with counts, the dashed spine last), 4 ("JSON, for machines" on the card), 5 (no bare licence URL; the CC BY 4.0 mark). Open: 2 (ART as the canonical number, WS26 aliases, "Our coverage" as a see-also spine), library.b@'s next run.

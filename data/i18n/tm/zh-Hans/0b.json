@@ -5,7 +5,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "Council wins about 938,000 euros to modernise digital servic",
-  "ok": false
+  "ok": true
  },
  "0b7d2dab3101ba93": {
   "t": "Instituto Politécnico de Beja 的一名学生在市政府实习期间开发了一个机器学习原型。它把 10 个市政监测站的数据与历史气象数据结合，预测欧洲空气质量指数等级。市政府表示，这有助于其环境监测和智慧城市战略，教师们计划与 Lagoa 合作撰写一篇科学论文。",
