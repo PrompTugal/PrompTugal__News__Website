@@ -21,6 +21,12 @@ const url = u => okUrl(u) ? u.trim().replace(/\(/g, '%28').replace(/\)/g, '%29')
 
 import { mediaBlock, localMedia } from './media.mjs'
 import { placeFeed } from '../lib/feeds.mjs'
+import { of as licenceOf } from '../lib/licence.mjs'
+// the live readings are IPMA's and adsb.lol's, not ours: the file names each source's licence (dev@, 18 Nov, Dinis's rule)
+const nowLicence = d => ({ name: "the sources' licences", sources: [
+    { what: 'weather, warnings, fire risk, UV and sea (IPMA)', ...licenceOf('https://api.ipma.pt/') },
+    ...(d && d.airport ? [{ what: 'Faro airport traffic (adsb.lol)', ...licenceOf('https://api.adsb.lol/') }] : []),
+], scope: 'each reading is its source\'s; the selection and the page are PrompTugal.news\'s, CC BY 4.0' })
 import { nearbyOf } from './datasci-places.mjs'
 function load(ctx) {
     const raw = ctx.readJSON(LIST)
@@ -452,7 +458,7 @@ function placeRecord(ctx, L, p) {
         look: { image: p.look && p.look.photo && p.look.photo.file && ctx.exists(p.look.photo.file) ? { url: SITE_URL + p.look.photo.file, ...p.look.photo } : null, accent: (p.look && p.look.accent) || DEF_ACCENT, landmark: (p.look && p.look.landmark) || null, motif: (p.look && p.look.motif) || null },
         mandate: p.mandate, gravity: p.gravity || null,
         counts: { ai_news: p.ai_news.length, ai_map: p.ai_map.length, events: p.events.length, sources: p.sources.length, articles: arts.length },
-        ai_news: p.ai_news.map(a => ({ ...a, provenance: provenance(p, r, a, 'story') })), ai_map: p.ai_map.map(m => ({ ...m, provenance: provenance(p, r, { ...m, url: m.source_url }, 'map entry') })), events: p.events, sources: p.sources, extras: p.extras, start_company: p.start_company, investors: p.investors, talent: p.talent, contacts: p.contacts, gaps: p.gaps, voice: p.voice || null,
+        ai_news: p.ai_news.map(a => ({ ...a, provenance: provenance(p, r, a, 'story'), license: licenceOf(a.url) })), ai_map: p.ai_map.map(m => ({ ...m, provenance: provenance(p, r, { ...m, url: m.source_url }, 'map entry'), license: licenceOf(m.source_url) })), events: p.events.map(e => ({ ...e, license: licenceOf(e.url) })), sources: p.sources, extras: p.extras, start_company: p.start_company, investors: p.investors, talent: p.talent, contacts: p.contacts, gaps: p.gaps, voice: p.voice || null,
         articles: arts,
         ...(inAlgarve(L, p) && isLocalPlace(p) ? { around: aroundItems(ctx, p, (L.byId.get('algarve') ? L.byId.get('algarve').ai_news : []).slice(0, 4).map(a => a.url)) } : {}),
         local_media: localMedia(ctx, p, [p.id, p.parent, 'algarve', 'portugal'].filter(Boolean)),
@@ -503,7 +509,7 @@ export function api(ctx) {
         { path: 'api/v1/by-place/index.json', schema: null, data: { about: W(L, 'api_index_about'), version: ctx.VERSION, built: ctx.TODAY,
             places: recs.map(r => ({ id: r.id, name: r.name, kind: r.kind, parent: r.parent, path: L.byId.get(r.id).path, agent: r.agent, status: r.status, updated: r.updated, ai_news: r.counts.ai_news, ai_map: r.counts.ai_map, articles: r.counts.articles, page: r.page, api: `${SITE_URL}api/v1/by-place/${r.id}.json`, at: r.at, accent: r.look.accent, landmark: r.look.landmark, identity: L.byId.get(r.id).identity || null, signature: r.identity.signature })) } },
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}.json`, schema: null, data: { about: W(L, 'api_place_about', { name: r.name }), version: ctx.VERSION, ...r } })),
-        ...recs.flatMap(r => { try { return [{ path: `api/v1/by-place/${r.id}/now.json`, schema: null, data: ctx.readJSON(`data/by-place/now/${r.id}.json`) }] } catch { return [] } }),
+        ...recs.flatMap(r => { try { const d = ctx.readJSON(`data/by-place/now/${r.id}.json`); return [{ path: `api/v1/by-place/${r.id}/now.json`, schema: null, data: { ...d, license: nowLicence(d) } }] } catch { return [] } }),
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}/agents.json`, schema: null, data: agentsFile(ctx, L, L.byId.get(r.id)) })),
         ...recs.flatMap(r => placeFeed(SITE_URL, r).map(f => ({ ...f, schema: null }))),   // feeds out (lib/feeds.mjs; dev@, 16 Nov)
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}/articles.json`, schema: null, data: { about: W(L, 'api_articles_about', { name: r.name }), place: r.id, version: ctx.VERSION, articles: r.articles } })),
