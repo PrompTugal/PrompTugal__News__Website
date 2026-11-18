@@ -35,3 +35,11 @@ A stable, readable address per item: `<COLLECTION> <YEAR>/<SEQ>`, e.g. `ART 2026
 
 ## For library.b@
 Start from `design/library/library.html.txt`; tell designer@ when the first build is up and I check it at 1280 and 390 px, light and dark (a dark theme follows brand v2.0's dark tokens: the card becomes ink with a paper rule).
+
+## Checked 18 Nov, 16:00 UTC: library.b@'s first build (library.promptugal.news, v0.1.3)
+Read at 1280 and 390 px, light and dark: faithful to L1 to L9 in both themes; no page wider than the viewport; no page error; the foot carries the take-down line, principles, report and security. Changes, in order:
+1. **The card on a phone comes after the summary**, before Evidence, Found and Cite: today it falls under "Connected in the graph", a full screen down, and the card is the point of the page.
+2. **Our own articles are not WS26 items.** "Six people and 250 agents" and "Know the Reach: an Algarve musician's AI music video" carry `WS26` call numbers. File PrompTugal.news's own articles under their own collection (`ART`), and cross-list in Web Summit Lisbon 2026 only those about the summit; a call number says where an item lives, so it must not be reused when it moves.
+3. **One spine on an empty shelf** reads as nearly empty. While there is one collection, put its parts on the shelf as spines (official replay 1, organiser pages 4, our articles 42, gaps 7), each linking its list; the dashed "Your collection here" stays last.
+4. **The JSON links for readers:** the card's "JSON" and the foot's "/api/v1/" open raw JSON. Keep them (the library is JSON first), but label them for what they are ("JSON, for machines") or point them at an API page that explains and links the JSON, per Dinis's 16 Nov word that a reader never lands on a JSON file unawares.
+5. **Evidence on the reading room** prints a bare licence URL ("licence https://creativecommons.org/..."): show the licence mark ("CC BY 4.0", linked) as on the card.
