@@ -13,7 +13,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-17",
   "src": "Starting a company in {name}",
-  "ok": false
+  "ok": true
  },
  "78dc9cc4a08684d2": {
   "t": "Startupovi u ranoj fazi koji grade ili intenzivno koriste UI mogli su se prijaviti za inkubaciju od travnja do rujna 2026., uz tehničku podršku za UI i mentorstvo. Portugal sudjeluje preko FCT-a i Nacionalnog centra za napredno računalstvo.",

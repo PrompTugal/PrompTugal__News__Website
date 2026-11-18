@@ -263,6 +263,11 @@
     },
     {
       "column": "For agents",
+      "label": "Every PrompTugal API",
+      "href": "apis/index.html"
+    },
+    {
+      "column": "For agents",
       "label": "Source code",
       "href": "https://github.com/PrompTugal/PrompTugal__News__Website"
     },

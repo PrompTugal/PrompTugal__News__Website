@@ -1,8 +1,18 @@
 {
  "id": "o-mirante",
  "feed": "https://rss.impresa.pt/feed/latest/mirante.rss",
- "read_at": "2026-11-18T15:05Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
+  {
+   "title": "Abaixo-assinado com 500 assinaturas reclama melhores transportes em Alenquer",
+   "link": "https://omirante.pt/sociedade/2026-11-18-abaixo-assinado-com-500-assinaturas-reclama-melhores-transportes-em-alenquer-fa0165b7",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "ABEI promove esta quinta-feira em VFX a II Tertúlia da Inclusão",
+   "link": "https://omirante.pt/sociedade/2026-11-18-abei-promove-esta-quinta-feira-em-vfx-a-ii-tertulia-da-inclusao-fdd14ea7",
+   "date": "2026-11-18"
+  },
   {
    "title": "Natação da Viver Santarém com vinte pódios no campeonato distrital",
    "link": "https://omirante.pt/desporto/2026-11-18-natacao-da-viver-santarem-com-vinte-podios-no-campeonato-distrital-419bc77d",
@@ -16,16 +26,6 @@
   {
    "title": "Caminhada de Natal promete pôr Santarém a mexer",
    "link": "https://omirante.pt/desporto/2026-11-18-caminhada-de-natal-promete-por-santarem-a-mexer-09767b22",
-   "date": "2026-11-18"
-  },
-  {
-   "title": "Abrantes quer acabar com o pagamento das refeições escolares a partir de Janeiro de 2027",
-   "link": "https://omirante.pt/politica/2026-11-18-abrantes-quer-acabar-com-o-pagamento-das-refeicoes-escolares-a-partir-de-janeiro-de-2027-7a3d36fb",
-   "date": "2026-11-18"
-  },
-  {
-   "title": "Colheita de sangue aberta à população na Escola Secundária do Forte da Casa",
-   "link": "https://omirante.pt/sociedade/2026-11-18-colheita-de-sangue-aberta-a-populacao-na-escola-secundaria-do-forte-da-casa-6b00bce9",
    "date": "2026-11-18"
   }
  ]

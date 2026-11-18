@@ -1,8 +1,13 @@
 {
  "id": "rtp-noticias",
  "feed": "https://www.rtp.pt/noticias/rss",
- "read_at": "2026-11-18T15:05Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
+  {
+   "title": "Ex-guarda-redes do Sporting Antonio Adán termina carreira aos 39 anos",
+   "link": "https://www.rtp.pt/noticias/sporting/ex-guarda-redes-do-sporting-antonio-adan-termina-carreira-aos-39-anos_d1780004",
+   "date": "2026-11-18"
+  },
   {
    "title": "Greve dos tripulantes de cabine da easyJet prevista para dezembro desconvocada",
    "link": "https://www.rtp.pt/noticias/economia/greve-dos-tripulantes-de-cabine-da-easyjet-prevista-para-dezembro-desconvocada_n1780001",
@@ -21,11 +26,6 @@
   {
    "title": "Antigos sem-abrigo protagonizam peça sobre habitação",
    "link": "https://www.rtp.pt/noticias/cultura/antigos-sem-abrigo-protagonizam-peca-sobre-habitacao_v1779999",
-   "date": "2026-11-18"
-  },
-  {
-   "title": "Nova incursão de tanques em Gaza. Ataques israelitas matam três palestinianos",
-   "link": "https://www.rtp.pt/noticias/mundo/nova-incursao-de-tanques-em-gaza-ataques-israelitas-matam-tres-palestinianos_n1779998",
    "date": "2026-11-18"
   }
  ]

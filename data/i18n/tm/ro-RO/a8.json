@@ -16,12 +16,13 @@
   "ok": false
  },
  "a8ba089e242e6644": {
-  "t": "PrompTugal.news Setúbal, a cidade do Sado: AI și tehnologie în Setúbal, cu portul, Politécnico și fabricile de celuloză din Mitrena drept marile personaje, plus orice veste ajunge pe apă din Portugalia, din Europa și din lume. Independente, e cada facto vem com recibo.",
+  "t": "PrompTugal.news Setúbal, a cidade do Sado: AI și tehnologie în Setúbal, cu portul, Politécnico și fabricile de celuloză din Mitrena drept marile personaje, plus orice veste ajunge pe apă din Portugalia, din Europa și din lume. Independente, iar fiecare fapt vine cu chitanță.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "PrompTugal.news Setúbal, a cidade do Sado: AI and tech in Se",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  },
  "a8dcd1153a708a4e": {
   "t": "Activitatea de AI din Bragança se grupează în jurul a doi vecini: politehnicul (IPB, pe care noul său site îl numește acum Universidade Politécnica de Bragança și pe care guvernul îl transformă în Universidade de Bragança e do Norte Interior) și Brigantia EcoPark, hubul științific și tehnologic care găzduiește laboratorul de cercetare MORE CoLAB. Centrul de cercetare CeDRI, cursurile și seminarele de AI și sesiunea din aprilie 2026 despre BSC AI Factory provin toate din această pereche, cu consiliul ca sprijinitor. Pagina de știri a consiliului nu arată nicio știre despre AI, așa că cercetarea și parcul, nu primăria, sunt centrul de greutate.",

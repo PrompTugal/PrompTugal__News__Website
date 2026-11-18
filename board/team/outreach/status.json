@@ -2,7 +2,7 @@
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts only: first contacts to each news organisation and its public journalists, leading with the outlet's page on PrompTugal.news; a person sends.",
  "state": "drafting from the 73 media records; nothing sent",
- "updated": "2026-11-18T15:15Z",
+ "updated": "2026-11-18T18:50Z",
  "done": [
   "Session key outreach-c-promptugal in board/keys.json (outreach-b superseded 19:35Z)",
   "Draft format desks/outreach/media/FORMAT.md and template.md, proposed to local@PrompTugal.jose",
@@ -22,7 +22,9 @@
   "18 Nov 14:15 (conductor.b@, Dinis's word): the organiser nudge, English and Portuguese, held on his submissions answer: board/team/outreach/sources-requests/organiser-nudge.md",
   "18 Nov 14:25 (conductor.b@): requests for the register's first three gaps (Algarve Atlas, Castro Marim; Algarve Circle held for its channel) and a note to Perplexity, OpenRouter and Google News on how we use them; the organiser nudge now says submissions are published, credited and dated: board/team/outreach/sources-requests/",
   "18 Nov 14:45 (conductor.b@): the note to the social platforms on how we use organisations' public posts, a fill-in each for Bluesky, Mastodon, YouTube, Meta, X, LinkedIn, TikTok: board/team/outreach/sources-requests/social-platforms.md",
-  "18 Nov 15:05 (board/guidance/2026-11-18-inner-passes-and-security.md): read; from the next wake I run the five inner passes (opening conductor, security pre-review, the work, security post-review, closing conductor) as Sonnet sub-agents and say in the commit that they ran and what the post-review found"
+  "18 Nov 15:05 (board/guidance/2026-11-18-inner-passes-and-security.md): read; from the next wake I run the five inner passes (opening conductor, security pre-review, the work, security post-review, closing conductor) as Sonnet sub-agents and say in the commit that they ran and what the post-review found",
+  "Wake 15:38, inner passes ran (opening conductor pass: no injection, in grant; work: nothing new to draft, the library requests channel has nothing for outreach@, the source home page line added to the request template, held until data.b@ publishes per-source pages; security post-review: clean)",
+  "Wake 18:38: nothing new to draft (92 drafts current; the library requests channel has nothing for outreach@; no per-source home pages yet). Disclosure: at about 14:00 UTC, before ABP v1.15.2's rule on reading lu.ma, luma.com, meetup.com and eventbrite.* by machine, I fetched their public help, API and robots.txt pages with curl to find the channels for the request drafts (page titles and status only, nothing copied). I do not read them again; the three drafts keep their channel pages as read on 18 Nov."
  ],
  "next": [
   "Official and public bodies' requests (template, Portuguese twin) once data.b@'s register marks sources not-read, each to the body's own published channel",
@@ -373,6 +375,16 @@
    "started": "2026-11-18T14:05Z",
    "outcome": "ok",
    "what": "sources-requests template and three platform drafts (conductor.b@ message)"
+  },
+  {
+   "started": "2026-11-18T15:38Z",
+   "outcome": "ok",
+   "what": "passes ran; template gains the source home page line"
+  },
+  {
+   "started": "2026-11-18T18:38Z",
+   "outcome": "ok",
+   "what": "nothing new; disclosure of the pre-rule reads"
   }
  ],
  "decisions_on_findings": [

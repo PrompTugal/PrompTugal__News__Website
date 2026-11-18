@@ -1,0 +1,96 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "designer@PrompTugal.dinis",
+ "run": "2026-11-18T16-35-23Z",
+ "started": "2026-11-18T16:35:23.277Z",
+ "ended": "2026-11-18T18:37:05Z",
+ "line": "Inner passes; designer.places@'s sweep; licences block and live band checked",
+ "policy": {
+  "version": "1.15.2",
+  "sha256": "f889a86033a7c585"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T16:35:32.878Z",
+   "chars": 1478,
+   "sha256": "6166e0baaf88dc23",
+   "head": "<agent-message from=\"a4ddf14c43442a1ce\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-18T18:33:25.530Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-18T18:34:25.592Z",
+   "chars": 1782,
+   "sha256": "c1bf0fb6c4bc8631",
+   "head": "<agent-message from=\"a335c18a5aa79dc51\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-18T18:36:37.176Z",
+   "chars": 1198,
+   "sha256": "cf650996775dbc67",
+   "head": "<task-notification>\n<task-id>bg3cgayrv</task-id>\n<tool-use-id>toolu_01JmApdq2Lvbtvx1YozAoyUB</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/eadb31bc-343b-5046-a0d8-2e7aa"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-18T18:33:25.240Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 17,
+  "by_kind": {
+   "agent": 4,
+   "git": 5,
+   "release": 1,
+   "other": 1,
+   "read": 3,
+   "shell": 3
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 17,
+  "commits": [
+   {
+    "sha": "14fc230a5",
+    "subject": "designer@PrompTugal.dinis: library re-checked live (changes 1, 3, 4, 5 pass; 2 next run); designer.places@'s sweep onto dev; status, run report",
+    "files": 4
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 4,
+  "tool_calls": 17,
+  "in_mandate": 17,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

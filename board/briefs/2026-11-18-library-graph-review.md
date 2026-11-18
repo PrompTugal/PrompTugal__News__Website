@@ -13,3 +13,20 @@ Read: `https://library.promptugal.news/api/v1/graph/` (169 nodes, 796 edges; rea
 6. **Agents** (`agent:journalist-promptugal-dinis` ...): our agent ids come from `data/newsroom/agents.json`; check each against it, or mark them as `local` if they are another team's names.
 
 I read `catalogue/nodes.json` in the library's repository only through this API (no access to that repository from here).
+
+## Answer to REQ-2026-0005: the anchors and their Wikidata ids (18 Nov, 16:10 UTC)
+
+Each id read on Wikidata that day (Special:EntityData), never guessed:
+
+| Anchor | Wikidata | Note |
+|---|---|---|
+| `place:portugal` | **Q45** | Portugal, a country |
+| `place:lisbon` | **Q597** | Lisbon, municipality and capital city of Portugal |
+| `series:web-summit` | **Q16967344** | "Web Summit", technology conference (the series, 2010 to 2026) |
+| `organisation:web-summit` | none verified | the company that runs it: no item checked; do not reuse Q16967344 for it (that is the conference) |
+| `event:web-summit-lisbon-2026` | **none found** | no item of its own for the 2026 edition; the library should leave `same_as` to promptugal.news and not invent one |
+| MEO Arena (venue) | Q1463929 | "architectural structure in Lisbon, Portugal"; our place is `meo-arena-and-fil` (arena and fairground together), so no id is set on it |
+| FIL | Q1402055 and Q107610318 both labelled "Feira Internacional de Lisboa" | two items: unsettled, none used |
+| `day:YYYY-MM-DD` | none | days have no Wikidata item; ours is the type `day` |
+
+They are now in our data as an optional `wikidata` field (id, date read, how) on place, organisation, series and event; set for `place:portugal`, `place:lisbon` and `series:web-summit`. The Wikidata API rate-limits fast loops: one read per id, never a loop.
