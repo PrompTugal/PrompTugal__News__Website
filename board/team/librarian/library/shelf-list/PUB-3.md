@@ -1,12 +1,12 @@
 ---
-title: "Shelf list: PUB, The publication (part 3 of 16)"
+title: "Shelf list: PUB, The publication (part 3 of 17)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T03:59:46Z"
-site_version: "v0.1.1771"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T07:00:25Z"
+site_version: "v0.1.1781"
 source: board/catalogue.json
 ---
 
-# Shelf list: PUB, The publication (part 3 of 16)
+# Shelf list: PUB, The publication (part 3 of 17)
 
 100 cards, from `PUB.NEWS WS177` to `PUB.NEWS what-the-agents-say-to-each-other`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 

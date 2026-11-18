@@ -1,14 +1,14 @@
 ---
-title: "Shelf list: PUB, The publication (part 4 of 16)"
+title: "Shelf list: PUB, The publication (part 4 of 17)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T03:59:46Z"
-site_version: "v0.1.1771"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T07:00:25Z"
+site_version: "v0.1.1781"
 source: board/catalogue.json
 ---
 
-# Shelf list: PUB, The publication (part 4 of 16)
+# Shelf list: PUB, The publication (part 4 of 17)
 
-100 cards, from `PUB.NEWS what-the-agents-say-to-each-other:2` to `PUB.SITE algarve:11`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.NEWS what-the-agents-say-to-each-other:2` to `PUB.SITE algarve-primeiro`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 301 to 325**
 
@@ -90,6 +90,7 @@ source: board/catalogue.json
 | `PUB.SITE albufeira:16` | [PrompTugal.news Albufeira](https://promptugal.news/pl-PL/algarve/albufeira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE albufeira:17` | [PrompTugal.news Albufeira](https://promptugal.news/hr-HR/algarve/albufeira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE albufeira:18` | [PrompTugal.news Albufeira](https://promptugal.news/ro-RO/algarve/albufeira/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE albufeira:19` | [PrompTugal.news Albufeira](https://promptugal.news/zh-Hans/algarve/albufeira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE albufeira:2` | [PrompTugal.news Albufeira](https://promptugal.news/algarve/albufeira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE albufeira:3` | [PrompTugal.news Albufeira](https://promptugal.news/de-CH/algarve/albufeira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE albufeira:4` | [PrompTugal.news Albufeira](https://promptugal.news/de-DE/algarve/albufeira/) | site | dev@ 6 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `PUB.SITE albufeira:7` | [PrompTugal.news Albufeira](https://promptugal.news/es-MX/algarve/albufeira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE albufeira:8` | [PrompTugal.news Albufeira](https://promptugal.news/fr-CA/algarve/albufeira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE albufeira:9` | [PrompTugal.news Albufeira](https://promptugal.news/fr-FR/algarve/albufeira/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE alcoutim` | [The proof layer: Alcoutim](https://promptugal.news/agentic-system/proof/alcoutim/) | site |  |
 
 **Cards 376 to 400**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE alcoutim` | [The proof layer: Alcoutim](https://promptugal.news/agentic-system/proof/alcoutim/) | site |  |
 | `PUB.SITE alcoutim:10` | [PrompTugal.news Alcoutim](https://promptugal.news/it-IT/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE alcoutim:11` | [PrompTugal.news Alcoutim](https://promptugal.news/nl-NL/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE alcoutim:12` | [PrompTugal.news Alcoutim](https://promptugal.news/pt-BR/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
@@ -113,6 +114,7 @@ source: board/catalogue.json
 | `PUB.SITE alcoutim:16` | [PrompTugal.news Alcoutim](https://promptugal.news/pl-PL/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE alcoutim:17` | [PrompTugal.news Alcoutim](https://promptugal.news/hr-HR/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE alcoutim:18` | [PrompTugal.news Alcoutim](https://promptugal.news/ro-RO/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE alcoutim:19` | [PrompTugal.news Alcoutim](https://promptugal.news/zh-Hans/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE alcoutim:2` | [PrompTugal.news Alcoutim](https://promptugal.news/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE alcoutim:3` | [PrompTugal.news Alcoutim](https://promptugal.news/de-CH/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE alcoutim:4` | [PrompTugal.news Alcoutim](https://promptugal.news/de-DE/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE algarve-evolution:2` | [Algarve Evolution, drawn](https://promptugal.news/graph/algarve-evolution/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE algarve-evolution:3` | [Algarve Evolution, connected](https://promptugal.news/query/decks/algarve-evolution/) | site |  |
 | `PUB.SITE algarve-primeiro` | [Algarve Primeiro](https://promptugal.news/media/algarve-primeiro/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE algarve:10` | [PrompTugal.news The Algarve](https://promptugal.news/es-ES/algarve/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE algarve:11` | [PrompTugal.news The Algarve](https://promptugal.news/es-MX/algarve/) | site | dev@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-3.md) | [Next part](PUB-5.md)
