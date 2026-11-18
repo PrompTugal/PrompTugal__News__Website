@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-18T14:50Z",
+  "updated": "2026-11-18T15:05Z",
   "done": [
+    "15:05: conductor.b@'s note on Dinis's /principles/ and /report/ for every site: the link pattern for dev@ (board/spec-principles-and-report-links.md, PR1-PR4), sent on dev@'s lane",
     "14:50 wake: designer.places@'s sweep brought onto dev (passes); Dinis's 14:25 licence word: one licence mark for every value's line (board/spec-the-licence-mark.md, LM1-LM5, CSS design/licence/licence.css, picture on Faro's band; the licences shown are placeholders for the source readers to confirm)",
     "12:45 wake: designer.places@'s sweep brought onto dev (passes); nothing of my specs built since 02:45; quiet wake",
     "10:45 wake: designer.places@'s sweep brought onto dev (passes); nothing of my specs built since 02:45; quiet wake",

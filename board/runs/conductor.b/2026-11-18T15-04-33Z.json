@@ -1,0 +1,131 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-18T15-04-33Z",
+ "started": "2026-11-18T15:04:33.358Z",
+ "ended": "2026-11-18T15:13:15Z",
+ "line": "signals.b@ started on PrompTugal__News__Signals (session and 3-hourly wake at Dinis's word); security findings guidance routed to security@, dev@ and the site leads; gate fix pushed",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T15:04:33.358Z",
+   "chars": 470,
+   "sha256": "5002ada441c7e5dd",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>3 unread notifications (message from another Claude session: 3)</summary>\nNotifications are que"
+  },
+  {
+   "t": "2026-11-18T15:05:29.567Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T15:07:53.614Z",
+   "chars": 1490,
+   "sha256": "80abc3e368b2a59c",
+   "head": "Cool. So when you finished all that, then can you take a look at this and see, and this is kind of related to that topic of, it will also be super powerful for us to have this whole thing where whoeve"
+  },
+  {
+   "t": "2026-11-18T15:08:44.613Z",
+   "chars": 470,
+   "sha256": "5002ada441c7e5dd",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>3 unread notifications (message from another Claude session: 3)</summary>\nNotifications are que"
+  },
+  {
+   "t": "2026-11-18T15:09:40.325Z",
+   "chars": 743,
+   "sha256": "5787a9e28ae82c63",
+   "head": "<task-notification>\n<task-id>bgbjdnhe3</task-id>\n<tool-use-id>toolu_01PMdWFQhJLP5KAeyUvbrCTU</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/515926cf-81d6-5749-b4f9-7f55f"
+  },
+  {
+   "t": "2026-11-18T15:11:37.153Z",
+   "chars": 681,
+   "sha256": "868fae3c255f9596",
+   "head": "Great. Can you make sure that these vulnerabilities and bugs and report are published on the website? Somewhere around there, because I think that's important information, and we should basically keep"
+  },
+  {
+   "t": "2026-11-18T15:12:31.818Z",
+   "chars": 87,
+   "sha256": "f2e08767eed989c8",
+   "head": "I've heard the library repo is being created. It should be live in a couple of minutes."
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 35,
+  "by_kind": {
+   "other": 3,
+   "secret": 1,
+   "remote-conduct": 20,
+   "git": 3,
+   "shell": 3,
+   "git-push": 3,
+   "read": 1,
+   "remote-read": 1
+  }
+ },
+ "policies_executed": {
+  "R8": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 34,
+  "commits": [
+   {
+    "sha": "d38670850",
+    "subject": "conductor.b@PrompTugal.dinis: guidance, security findings published on every site",
+    "files": 2
+   },
+   {
+    "sha": "f3d10f6ea",
+    "subject": "conductor.b@PrompTugal.dinis: fix the gate, an email address in four board files written as words",
+    "files": 4
+   },
+   {
+    "sha": "950b24989",
+    "subject": "conductor.b@PrompTugal.dinis: list events.b-promptugal's public key (sgit pki, at Dinis's word in its session)",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-18T15:05:00.372Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "cat events.enc: a private key or credentials file is never read into the conversation",
+    "target": "cd ~/.sg-send/lanes/obs && umask 077 && cat > events.enc <<'EOF'\neyJ2IjogMiwgInciOiAibUlibGhMQUJZaHNVcmhMSlpPeitRY0MrTDUxMnVYNDJuRFd5V3NZRWJZQVVBcndTc0Z6S0E4bnIzczIzQXFrRFdHMWtSTW81VTNzcDB3QlRRM1VMbzk2U2tsV0dkdTcxZnlESSt2TER5bEdaSTl0dGxFSDB"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 7,
+  "tool_calls": 35,
+  "in_mandate": 34,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}
