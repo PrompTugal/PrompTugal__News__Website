@@ -1,0 +1,34 @@
+{
+ "4f04e2eccec547c2": {
+  "t": "Un profesor de informatică din Olhão se întoarce de la un curs Erasmus+ din Praga despre inteligența artificială avansată în educație",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Olhao computer science teacher returns from a Prague Erasmus",
+  "ok": false
+ },
+ "4f3e97f9e66ccaa9": {
+  "t": "ALGAR, compania de gestionare a deșeurilor din Algarve, cu sediul în Almancil, a construit împreună cu start-up-ul NILG.AI un instrument care folosește inteligența artificială pentru a alege unde să pună punctele de reciclare, testat în Lagoa. A preselectat 14 amplasamente în patru ore și a redus cu 83% timpul până la o propunere finală și a câștigat premiul Data Changemaker of the Year. Acestea sunt rezultatele raportate de parteneri.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "ALGAR, the Algarve's waste-management company headquartered ",
+  "ok": false
+ },
+ "4f4dbd7e2eb935a3": {
+  "t": "Un șantier naval de pe Guadiana plănuiește o unitate de apărare orientată spre nave fără echipaj",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A Guadiana shipyard plans a defence unit aimed at unmanned v",
+  "ok": false
+ },
+ "4f865dca2c572101": {
+  "t": "Vicepreședintele pentru educație al CCDR Algarve a vizitat rețeaua școlară a orașului pe 4 noiembrie 2026. Liceul are un centru tehnologic specializat în informatică, descris ca primul de acest fel din regiune. Primarul a spus că o extindere școlară de 6 milioane de euro încă așteaptă un răspuns la cererea din planul de redresare. Relatarea nu menționează inteligența artificială.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The vice-president for education of CCDR Algarve toured the ",
+  "ok": false
+ }
+}

@@ -1,5 +1,26 @@
 [
   {
+    "version": "v0.1.1764",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 00:48 wake: ledger 0051Z; S51 carried",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "458ff3dcc"
+  },
+  {
+    "version": "v0.1.1763",
+    "date": "2026-11-18",
+    "what": "outreach@PrompTugal.dinis: the daily hand-over debrief (92 drafts, nothing new to draft)",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "a1877f660"
+  },
+  {
+    "version": "v0.1.1762",
+    "date": "2026-11-18",
+    "what": "security@PrompTugal.dinis: 00:05 wake: 33 commits clean; S51 (the meter raises readers' past charges after the fact), for Dinis",
+    "by": "security@PrompTugal.dinis",
+    "from": "1aa1c7d2a"
+  },
+  {
     "version": "v0.1.1761",
     "date": "2026-11-17",
     "what": "journalist@PrompTugal.dinis: status: the Algarve desks are running (conductor.b@, 23:52); ask closed",

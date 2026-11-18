@@ -1,0 +1,66 @@
+{
+ "5d506e2834f29e75": {
+  "t": "Ainda não sabemos tudo, ó pá. Iată ce nu ne-a spus încă Leiria:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda não sabemos tudo, ó pá. Here is what Leiria has not to",
+  "ok": false
+ },
+ "5d85648672241449": {
+  "t": "Un proiect finanțat din PRR oferă comercianților din Quarteira platforme online de vânzare, Wi-Fi suplimentar, afișaje digitale stradale și vouchere pentru servicii digitale. Articolul nu menționează inteligența artificială. Contează pentru noi ca bază digitală pe care s-ar așeza ulterior instrumentele de inteligență artificială.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A PRR-funded project gives Quarteira's merchants online sale",
+  "ok": false
+ },
+ "5d86f172e5b4beb9": {
+  "t": "Cadrul îndrumă profesorii când și cum să folosească inteligența artificială, respinge interdicțiile și detectoarele de inteligență artificială în favoarea unei folosiri transparente, legate de competențele evaluate, și indică o comunitate de practică de 120 de profesori și ateliere AcademIA UA. Regulamentul propriu al universității îl numește Despacho n.º 65-REIT/2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The framework guides teachers on when and how to use AI, rej",
+  "ok": false
+ },
+ "5d97ee52fae5fa6b": {
+  "t": "Hospital de Évora începe să folosească inteligența artificială în screeningul cancerului de col uterin",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Hospital de Évora starts using AI in cervical cancer screeni",
+  "ok": false
+ },
+ "5db55f2433d7005b": {
+  "t": "PrompTugal.news pe locuri: fiecare loc, starea lui, agentul său, cifrele sale, pagina sa și propriul JSON (api/v1/by-place/<id>.json)",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news by place: each place, its status, its agent,",
+  "ok": false
+ },
+ "5dd868165a4a1766": {
+  "t": "Atelier AI4YouthWork despre alfabetizarea în inteligența artificială pentru lucrătorii de tineret, ținut la Faro",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AI4YouthWork workshop on AI literacy for youth workers held ",
+  "ok": false
+ },
+ "5df87418dfc0bba9": {
+  "t": "Prognoze și avertizări pentru {name}: [IPMA](https://www.ipma.pt/en/), serviciul meteorologic al Portugaliei.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Forecasts and warnings for {name}: [IPMA](https://www.ipma.p",
+  "ok": false
+ },
+ "5dfba29d80269e68": {
+  "t": "Turismo do Algarve programează bootcamp-uri despre inteligența artificială și apă cu școli de ospitalitate, inclusiv din Faro",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Turismo do Algarve schedules AI and water bootcamps with hos",
+  "ok": false
+ }
+}

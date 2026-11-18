@@ -1,0 +1,26 @@
+{
+ "262e51b4f72873db": {
+  "t": "Alcoutim este un municipiu din interior, pe Guadiana, la granița cu Spania, iar investițiile sale publice privesc infrastructura și serviciile de bază: un pod spre Sanlúcar de Guadiana, o rețea de apă reconstruită în Martim Longo, locuințe sociale și un site al consiliului mai accesibil. Povestea sa tehnologică de azi este de tip public: este unul dintre cele șase municipii din Algarve care construiesc o platformă comună de senzori și date și găzduiește centrul național care studiază deșertificarea. Un oraș de această mărime nu are companii de inteligență artificială pe care să le fi putut găsi, așa că drumul spre inteligența artificială trece mai întâi prin date și conectivitate.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Alcoutim is an inland municipality on the Guadiana, on the b",
+  "ok": false
+ },
+ "26da359c2f02f4b2": {
+  "t": "Setúbal își face inteligența artificială așa cum face tot, cu casca pe cap. Portul învață șaptezeci de muncitori să folosească un chatbot, Politécnico găzduiește un întreg institut de tehnologie și se înscrie într-o rețea națională de inteligență artificială, iar Navigator spune că și mașinile sale de la Mitrena învață. Câmara, Doamne ferește, găzduiește o discuție foarte civilizată despre biblioteci și inteligență artificială, iar nicio scenă de startup-uri nu s-a arătat încă.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Setúbal does its AI the way it does everything, with a hard ",
+  "ok": false
+ },
+ "26e658997c3d9bf1": {
+  "t": "InnoWave, o companie tech cu un hub la Beja, investește 3,8 milioane de euro în inteligență artificială",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "InnoWave, a tech company with a hub in Beja, puts 3.8 millio",
+  "ok": false
+ }
+}
