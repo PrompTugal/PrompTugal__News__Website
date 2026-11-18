@@ -1,0 +1,26 @@
+{
+ "766c539b915e4350": {
+  "t": "Aveiro 大学、AI 時代の評価の枠組みを承認",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "University of Aveiro approves a framework for assessment in ",
+  "ok": false
+ },
+ "76c522282590fa75": {
+  "t": "Parque de Ciência e Inovação は、startUP23 と Turismo de Portugal とともに Rocket Booster Acceleration の公募を実施し、観光、スマートデスティネーション、モビリティ向けの AI ソリューションを持つスタートアップを対象とした。ページ自体のステータス欄は応募終了と示しているが、本文は募集中のように読めるため、期限は不明だ。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Parque de Ciência e Inovação ran the Rocket Booster Acce",
+  "ok": false
+ },
+ "76d474040aeede69": {
+  "t": "Startup Leiria の Leiria Experience Lab プログラムを受けて、市当局は Leiria Concierge(5,000ユーロ、AI の旅程アシスタント)と Guide Sofia(2,500ユーロ、AI 音声ガイドで、最初は Leiria 城)に7,500ユーロを投じる。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "After the Leiria Experience Lab programme of Startup Leiria,",
+  "ok": false
+ }
+}

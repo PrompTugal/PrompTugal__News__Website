@@ -1,0 +1,34 @@
+{
+ "ed323ee2e8192c66": {
+  "t": "Algarveとその17の地点",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Algarve and its 17 places",
+  "ok": false
+ },
+ "ed6a0a9ed23a077b": {
+  "t": "Gota Click2Care:Aljezurの高齢住民のための教区テレアシスタンスのパイロット",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Gota Click2Care: a parish teleassistance pilot for Aljezur's",
+  "ok": false
+ },
+ "ed99e8c975b51dc9": {
+  "t": "Tavira、ó pá:川はどのサーバールームよりも穏やかで、7つのアーチはあなたのクラウド事業者よりも多くの移住を見てきた。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Tavira, ó pá, where the river is calmer than any server room",
+  "ok": false
+ },
+ "eddff8f8e446bd17": {
+  "t": "2024年3月のインタビューで、Ayamonte市のIT責任者は、市が市民と企業向けのAI仮想アシスタントを準備しており、観光と小企業のデジタル支援に関する200万〜300万ユーロのイノベーション拠点を計画していると述べた。彼はこの拠点を、Eurocidadeが関与する初のもので、ポルトガルのAlgarveの一部も対象とすると説明した。これは市自身の説明であり、開始日はなく、拠点が実現したかどうかは確認していない。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "In a March 2024 interview, the IT manager of Ayamonte's coun",
+  "ok": false
+ }
+}

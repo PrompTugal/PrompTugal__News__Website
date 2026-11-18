@@ -1,0 +1,18 @@
+{
+ "00843a929e71fc67": {
+  "t": "Algarve の16の自治体と Quarteira の町。それぞれが独自のサイトと独自のエージェントを持つ。各サイトは同じニュースを見るレンズであり、地元のニュースは大きく、国内外の AI ニュースはその土地にとっての意味に沿って選んでいる。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The 16 municipalities of the Algarve and the city of Quartei",
+  "ok": false
+ },
+ "009c048f02412558": {
+  "t": "Alcoutim、高齢者向け遠隔支援サービスの費用を自前で負担",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Alcoutim pays for its senior teleassistance service itself",
+  "ok": false
+ }
+}

@@ -1,0 +1,120 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-18T07:50Z",
+  "for": "journalist-portugal via newsroom@web-summit.dinis (an update to the published S69)",
+  "covers": {
+    "vault": "41j3e9s9, pulled 18 Nov 2026 at 07:38 UTC: the researcher's 07:15 capture of RTP's December 2023 report (Lusa) on a telerehabilitation pilot at São João.",
+    "inputs": "Five themes; PrompTugal test; standing answers 95 to 98 (nothing new for the curator). No hold. decisions.md read to standing answer 98.",
+    "overlap_checked": "18 Nov 07:50: S69 is published (ai-physiotherapy-portugal-health-service, 17 Nov) and says no claim links the 2026 service to other Sword Health work in Portugal; S67 (with its update) is published. The 2023 pilot appears in neither."
+  },
+  "rules": "RULES-11NOV applies. Source: RTP (public broadcaster), 21 December 2023, citing Lusa. The curator added no fact.",
+  "captures": [
+    {
+      "id": "v-rtp-lusa-saojoao-telerehab-pilot",
+      "file": "vault 41j3e9s9, captures/2026-11-18-rtp-lusa-saojoao-telerehab-pilot.md",
+      "source_url": "https://www.rtp.pt/noticias/pais/futura-uls-sao-joao-tera-projeto-piloto-de-telerreabilitacao-pos-cirurgica_n1538412",
+      "beat": "Portugal",
+      "names": [
+        "ULS São João",
+        "Sword Health",
+        "Center for Responsible AI"
+      ],
+      "what_is_new": "RTP/Lusa, 21 Dec 2023: a telerehabilitation pilot at São João (people recovering from surgery do physiotherapy at home, a hybrid format, six months, about 300 patients), promoted by the health service's executive board, monitored on a Sword Health online platform with alerts supervised by the rehabilitation doctor, and 'created out of the Center for Responsible AI consortium' (of which the hospital centre and Sword Health are members); no results, no wait-time figure; needs some digital literacy.",
+      "is_story": true,
+      "group": "S70"
+    }
+  ],
+  "groups": {
+    "S70": [
+      "v-rtp-lusa-saojoao-telerehab-pilot"
+    ]
+  },
+  "duplicates_and_noise": [],
+  "published_check": {
+    "S69": "published (ai-physiotherapy-portugal-health-service)",
+    "S67": "published (center-for-responsible-ai-money-partners-goals)"
+  },
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "The summit beat is finished."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing new on Europe and AI policy."
+    },
+    "portugal": {
+      "assignment": "S70",
+      "ready": true,
+      "reader_angle": "Readers of S69 and S67: where the health service's AI physiotherapy started, per an older report, and what it did and did not report.",
+      "source_ids": [
+        "v-rtp-lusa-saojoao-telerehab-pilot"
+      ],
+      "duplicate_check": "Run 18 Nov 07:50: the 2023 pilot is in no article or draft."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "Nothing new on agents in real work or humans and AI."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "No new cross-cutting theme."
+    }
+  },
+  "story_candidates": [
+    {
+      "id": "S70",
+      "kind": "update",
+      "title": "Update: a 2023 pilot at São João came out of the Center",
+      "beat": "Portugal",
+      "categories": [
+        "Portugal",
+        "AI"
+      ],
+      "ai_path": {
+        "connection": "One step away: the report links the pilot to a consortium that builds AI products; the captured quotes do not say the pilot's platform uses AI. (The 2026 service in S69 is direct.)",
+        "steps_away": "1.",
+        "places": "A hospital local health unit in Porto (São João) and patients at home."
+      },
+      "angle": "A short update note for the published S69, using the standing answer 95 format: a December 2023 RTP report (from Lusa) says a telerehabilitation pilot at São João, promoted by the health service's executive board, was created out of the Center for Responsible AI consortium, whose members include the hospital centre and Sword Health: six months, about 300 patients, monitored on a Sword Health platform with alerts supervised by a rehabilitation doctor. It reported no results. It is a different project from the 2026 national agreement, and the 2026 sources do not mention it.",
+      "rests_on": [
+        "v-rtp-lusa-saojoao-telerehab-pilot"
+      ],
+      "ready": true,
+      "note": "For journalist-portugal. Ready. Conditions: a single new point, so one or two plain sentences after the dated intro line (standing answer 95); re-read the page yourself; it is a December 2023 report of a planned pilot, not of results or of the 2026 roll-out; the 'created from the Center' statement is the report's, attributed; the report names the hospital centre and Sword Health as consortium members; the S69 bullet 'No claim links this service to other Sword Health work in Portugal' stays true of the 2026 sources: the update should say the 2023 report links an earlier pilot to the Center, and that neither 2026 source mentions it; do not say the pilot became the service or that the 'ten days' claim is confirmed; no wait-time figure exists in the sources; the AI connection of this item is weaker (one step: the Center builds AI products; the pilot's platform is not said to use AI) and goes in the data note; categories Portugal and AI."
+    }
+  ],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S70",
+      "what": "An older report of a planned pilot; only the captured quotes were read; no results; no statement that the pilot's platform uses AI. It names the hospital centre's director of physical medicine by role in the report; do not name him."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S69",
+      "change": "Published (ai-physiotherapy-portugal-health-service); off the ready list."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "portugal",
+      "priority": 1,
+      "gap": "Whether the São João pilot ran and what it found; whether the 2026 service started and any results.",
+      "reader_angle": "What happened after the pilot and the agreement.",
+      "sources_wanted": "The hospital centre, the health service's executive board, Sword Health, Portuguese press.",
+      "why_not_a_duplicate": "Only the 2023 announcement and the June 2026 launch coverage are captured."
+    },
+    {
+      "desk": "portugal",
+      "priority": 2,
+      "gap": "The Center's partner list and formal close; ARTE's release and the ANIA documents; an investor's post on the 2026 Neuraspace round.",
+      "reader_angle": "Primary sources for earlier stories.",
+      "sources_wanted": "Programme or member pages; ARTE, FCT; Armilar, Lince Capital.",
+      "why_not_a_duplicate": "Not captured."
+    }
+  ],
+  "urgent": "None"
+}
