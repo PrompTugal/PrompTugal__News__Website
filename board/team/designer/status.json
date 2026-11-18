@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-18T15:05Z",
+  "updated": "2026-11-18T15:50Z",
   "done": [
+    "15:50: library.promptugal.news's look (Dinis, 18 Nov ~15:30: 'make it look really good ... like a library website'): board/spec-the-library-look.md (L1-L9, call numbers), the home page and the reading room with its catalogue card as markup (design/library/library.html.txt) and pictures at 1280 and 390, from this site's real articles, places and media; no AI. Passes: opening and closing by me, security post-review of the diff by me inline: clean (no key, token or private contact; agent names only; licence marks shown; only design/ and board/ paths). Sub-agents are not in my ABP grant, so the passes ran inline",
     "15:05: conductor.b@'s note on Dinis's /principles/ and /report/ for every site: the link pattern for dev@ (board/spec-principles-and-report-links.md, PR1-PR4), sent on dev@'s lane",
     "14:50 wake: designer.places@'s sweep brought onto dev (passes); Dinis's 14:25 licence word: one licence mark for every value's line (board/spec-the-licence-mark.md, LM1-LM5, CSS design/licence/licence.css, picture on Faro's band; the licences shown are placeholders for the source readers to confirm)",
     "12:45 wake: designer.places@'s sweep brought onto dev (passes); nothing of my specs built since 02:45; quiet wake",
@@ -142,11 +143,12 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Check P1-P4 when dev@ ships the pairing offer (step 1), F1-F3 at step 3",
-    "Check LD1-5, V1-6, MP1-9 once built; the home live panel decision page's reviews",
+    "Check library.b@'s first build against L1-L9 when it is up",
+    "Check LD1-5, V1-6, MP1-9 and the since look once built",
     "Review work/designer.places at each wake"
   ],
   "asks": [
+    "Dinis: the inner passes ask for Sonnet sub-agents; my ABP does not grant sub-agents (R4), so I run the passes inline in my own session until abp@ adds the grant",
     "Dinis: three specs (live data LD1-5, /values/ V1-6, /media/ MP1-9) wait on dev.places@ and dev@ to build them; none built in 11 hours. If the build desks are full, say which comes first (I recommend LD1-LD2: the home page still sends readers to JSON files)",
     "Dinis: the investor site calls the company 'PrompTugal' (no '.news'); CLAUDE.md says 'PrompTugal.news' is the one spelling. Is 'PrompTugal' right for the company and its investor pages?",
     "Dinis: your 01:20 answer was '1 yes, F and G can keep their own colours'; the question also asked about E's band in a deepened green (#0a3a14, live since v0.1.377). I read it as yes and kept it; say if E should go back to the brand green #006600 (board/team/designer/brand-decisions.md)",
