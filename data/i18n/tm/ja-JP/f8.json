@@ -1,0 +1,26 @@
+{
+ "f80ac22e14c2be44": {
+  "t": "欧州ポルトガル語のオープン言語モデルAMALIA、公開",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AMALIA, the open language model for European Portuguese, is ",
+  "ok": false
+ },
+ "f80bbd73459dc1d1": {
+  "t": "これまでに読んだ情報源では、LouléのAIにおける重みは、企業よりも機関にある。市はすでに都市計画を迅速化するAIツールを契約したと述べ、地域の事業者団体NERAは自治体に本部を置いて地元企業にAIツールを研修しており、LouléとFaroの市は共同で、AIをテーマの一つに挙げるEstádio Algarveのマルチテクノロジーセンターを入札している。SPIC以外に、Louléに本社があると明確に言えるAI企業は見つからなかったため、下の地図はあえて短くしてある。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "On the sources read so far, Loulé's weight in AI is institut",
+  "ok": false
+ },
+ "f83860c4d97f409d": {
+  "t": "農家協会ACOSが運営する第41回Bejaの農業フェアは、「より多くの農業、より多くの未来」をテーマに、生産と新技術およびAIの結びつきを主要な焦点とし、講演と機器の実演のためのイノベーション・技術パビリオンを設けた。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The 41st edition of the Beja farm fair, run by the farmers' ",
+  "ok": false
+ }
+}

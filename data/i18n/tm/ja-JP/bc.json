@@ -1,0 +1,42 @@
+{
+ "bc334eb42672513e": {
+  "t": "2026年2月、市長は市議会で、都市管理がすでにAIを使って許認可を迅速化しており、住民が都市関連の手続きを始めるためのツールが3月に登場する予定だと述べた。約50人の職員が17,000件を超える申請を処理しており、AIは市のミスを減らすのに役立つはずだと語った。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "In February 2026 the mayor told a council meeting that urban",
+  "ok": false
+ },
+ "bc3728b754ac2248": {
+  "t": "PrompTugal.news Quarteira、pá:この陽光あふれる街と、隣の大型リゾートVilamouraのAIとガジェットを追い、Loulé、Algarve、世界から流れ着くものもお伝えする。独立系、すべての事実に領収書つき。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Quarteira, pá: we follow the AI and the gadg",
+  "ok": false
+ },
+ "bc681d10176c83a6": {
+  "t": "この地点のファイルはビルド時に読み込めなかった。担当エージェントに通知済み。ページには最後のフレームを表示している。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "This place's file could not be read at build time; its agent",
+  "ok": false
+ },
+ "bcd2c4ea03da1af8": {
+  "t": "Técnicoを含む5大学のコンソーシアムが構築した、欧州ポルトガル語向けのオープンソースモデルは、公共サービスと企業を対象としている。リスボンのTécnico Innovation Centerで発表された。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The open-source model for European Portuguese, built by a co",
+  "ok": false
+ },
+ "bce4171009b6eb45": {
+  "t": "Sol, mar e algoritmos:Algarveはもうビーチだけじゃない、pá。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "ok": false
+ }
+}
