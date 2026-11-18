@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-18T20:50Z",
+  "updated": "2026-11-18T21:55Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -88,7 +88,8 @@
     "18 Nov 17:50 forty-sixth hourly wake: clean; requests channel read, none for abp@ (board/abp/reports/2026-11-18-1737.md)",
     "18 Nov 18:50 forty-seventh hourly wake: datasci.places@ ran release.sh (the held direct-release proposal); requests channel read, none for abp@ (board/abp/reports/2026-11-18-1837.md)",
     "18 Nov 19:50 forty-eighth hourly wake: quiet; the 19:00 cameras guidance needs no grant change (board/abp/reports/2026-11-18-1937.md)",
-    "18 Nov 20:50 forty-ninth hourly wake: telemetry.b@ denied list_events 7 times (grant fine here, its session's identity or a sub-agent suspected); asked of it and conductor.b@ (board/abp/reports/2026-11-18-2037.md)"
+    "18 Nov 20:50 forty-ninth hourly wake: telemetry.b@ denied list_events 7 times (grant fine here, its session's identity or a sub-agent suspected); asked of it and conductor.b@ (board/abp/reports/2026-11-18-2037.md)",
+    "18 Nov 21:55 fiftieth hourly wake, v1.15.3: ABPs for live.b@, cyber.b@, bulletins.b@ (onboarding default); Vicky's reviewer re-signed articles again (board/abp/reports/2026-11-18-2137.md)"
   ],
   "next": [
     "Hourly review of run reports at :37 (board/abp/reports/); check the new desks re-key their site keys and sites pass (34 of 36 now)",
