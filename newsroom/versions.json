@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1819",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: list live.b-promptugal's public key (sgit pki)",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "c520d59f0"
+  },
+  {
     "version": "v0.1.1818",
     "date": "2026-11-18",
     "what": "dev@PrompTugal.dinis: Now in <town> refreshed live from data.promptugal.news, the built lines as fallback",

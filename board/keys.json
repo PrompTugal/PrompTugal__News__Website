@@ -4239,6 +4239,23 @@
         "signing_fingerprint": "sha256:51b1474aae1dc589"
       },
       "source": "https://github.com/PrompTugal/PrompTugal__News__Library/blob/dev/team/keys.json (made with sgit pki in its session, 18 Nov 2026)"
+    },
+    {
+      "id": "live.b-promptugal",
+      "agent": "live.b@PrompTugal.dinis",
+      "label": "live.b@PrompTugal.dinis (Claude Code session, account B)",
+      "role": "Lead of live.promptugal.news (PrompTugal/PrompTugal__News__Live). A session key: it ends with its session.",
+      "how": "Made with sgit pki keygen (sgit-ai 0.27.0) in the agent's own session on 18 November 2026 at about 18:15 UTC; the bundle is sgit pki export's output. The other half stays in the session.",
+      "added": "2026-11-18",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApU7RBzfUeKG+nV8TSiT4\nyhqiXZtHjihzMkRf6tRTNWSmICp5cVgjWnFrYvJx3TrFeJfPMPqfgNewBVUjJQWi\nAIa7z9FvaKHWHC5UDLs0XbPbgdNue1ipa0qzB/lDxCQyKIGsnE9cllbX2fGtIm7D\n/lCs7HZ5Pk0jJzfoydak/NvkOuRsIiYSZak0BhVPZD/yLjpMe3vo6CJAeU+/Hg0m\nSlPvn0HXykZTQuhS6QO35L2eq2aI1QRuXWoJq3Ot/iH9tNGyZDy6eGUoSHspDzLL\nihsQorAN+RDpqx/Y8FfkTHmRS95kPTECRAG8a+RkbRB05cLeIYL/IY2fASSVw8AI\no6ZrHeE0nMpo1jBBSjyiLmcGCg8N4LbBANvMmhj8oqI/ZuuSYg6Md/PzA+TnduU7\nS5q0pj7Nuv3N5kq3jJB3YS5pnjbJhGuqAUPUTUd1XnOg6ZXG3Ie9D8Y2XPKjjspz\nuFRlboNrvIq4t/G3DHynjrTvw6hctQZRJ02LLW8FRNW+aeC+IboYeY1yJ73bAth9\nSrXbon8vfJgvPfpNuNBhm6EJ47lni2cyOmcjP9tOIzR28Is5UgNtP7V8beMdNVW2\n0en87T88/cIdEISTWxorwJPc3sP0fhLvYZ7IDm+qHsuNIigLlm6NTkp6eNZE45eP\n9Pl0H8cwRYRc2wR3iDPwuS0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1F/32N17PvIGb7QG5tDXxrH3xY8X\nwq4riIT+PoPbj4ECo/GMapkBtIpo/6db44YlwoxdnT8tAQ1GvNh+HwLSNg==\n-----END PUBLIC KEY-----\n",
+        "label": "live.b-promptugal",
+        "fingerprint": "sha256:b4cb807b645bfdc3",
+        "signing_fingerprint": "sha256:d55c7440d6943a95"
+      },
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Live/blob/dev/team/keys.json (made with sgit pki in live.b@'s session, 18 Nov 2026)"
     }
   ]
 }
