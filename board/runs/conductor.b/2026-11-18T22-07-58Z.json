@@ -4,7 +4,7 @@
  "run": "2026-11-18T22-07-58Z",
  "started": "2026-11-18T22:07:58.704Z",
  "ended": "2026-11-18T22:11:09Z",
- "line": "cells.b@AgentiCCells.dinis started at Dinis's word with his prompt (no schedule); roster updated; sites bar previews 11 of 12",
+ "line": "cells.b (AgentiCCells) started at Dinis's word with his prompt (no schedule); roster updated; sites bar previews 11 of 12",
  "policy": {
   "version": "1.15.3",
   "sha256": "ae025145b9f916e5"
@@ -63,7 +63,7 @@
    "t": "2026-11-18T22:10:08.825Z",
    "chars": 3616,
    "sha256": "9ab62600c3489c81",
-   "head": "Thanks, can you create this agent here, which will be part of the ones you help me manage\n\n----\n\nYou are cells.b@AgentiCCells.dinis: the cells@ agent (it runs the AgentiCCells site factory for Dinis C"
+   "head": "Thanks, can you create this agent here, which will be part of the ones you help me manage\n\n----\n\nYou are cells.b (AgentiCCells): the cells@ agent (it runs the AgentiCCells site factory for Dinis C"
   }
  ],
  "session_events": [],
