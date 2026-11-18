@@ -1,0 +1,8 @@
+{
+  "about": "Words for the 'Licences on this page' note the build adds to every page that shows items taken from others (Dinis, 18 November 2026: every piece of data carries its licence link). Read by newsroom/build/features/licence-note.mjs. dev@PrompTugal.dinis.",
+  "heading": "Licences on this page",
+  "ours": "What PrompTugal.news wrote and made here: {ours}.",
+  "known": "Taken from others, under their published licence:",
+  "rest": "Everything else linked here ({n} other sources) stays under each source's own terms: follow the item's link to its source. We never assume a source is open.",
+  "how": "How we treat licences: [Licences]({principle})."
+}
