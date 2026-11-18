@@ -1,0 +1,83 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-18T14-41-41Z",
+ "started": "2026-11-18T14:41:41.328Z",
+ "ended": "2026-11-18T14:46:52Z",
+ "line": "Dinis's answers (keygen everywhere, GitHub issues, rebuilds and dynamic data, disclaimer, observability tokens on B) recorded and sent to all six site leads",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T14:41:41.328Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T14:45:49.572Z",
+   "chars": 1564,
+   "sha256": "820664e53f79e934",
+   "head": "Okay, so the other agent is creating the signals, which should be soon, repos should be live soon, including the AWS mapping, and again, you should be having it mapped to your GitHub account. Let me a"
+  },
+  {
+   "t": "2026-11-18T14:46:18.577Z",
+   "chars": 152,
+   "sha256": "c41e88bb2146f1a5",
+   "head": "Now here's another question, right? You can search YouTube here, correct? Or actually, probably Perplexity can search YouTube here. Let me get a second."
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 11,
+  "by_kind": {
+   "other": 1,
+   "remote-conduct": 7,
+   "git-push": 2,
+   "shell": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 11,
+  "commits": [
+   {
+    "sha": "74a20385e",
+    "subject": "conductor.b@PrompTugal.dinis: guidance, keys in every session, GitHub issues for organisers, rebuilds, disclaimer, observability tokens on account B",
+    "files": 2
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 11,
+  "in_mandate": 11,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

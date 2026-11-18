@@ -2,10 +2,11 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
   "state": "conducting 19 + 5 site leads; live v0.1.1798",
-  "updated": "2026-11-18T14:01Z",
+  "updated": "2026-11-18T15:00Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
+    "15:00 the 'data' observability lane (vault on dev.send.sgraph.ai, made by data.b@ at Dinis's word in its session) received sealed to conductor.b-promptugal and stored in this session's key store only; keys listed: data.b-promptugal, weather.b-promptugal",
     "environment checked by name: SG_SEND_ACCESS_TOKEN, OPEN_ROUTER_KEY and PT_PILOT_ACCESS_KEY set; sgit-ai 0.27.0 installed; pki.sgit.ai, dev.send.sgraph.ai, promptugal.news and openrouter.ai reachable",
     "session key made (pki-agent.mjs matching the team's pin), linked to Dinis's operator key, public half in board/keys.json as conductor.b-promptugal",
     "ROLE.md written",
@@ -139,6 +140,8 @@
     "03:48 wake with the ledger"
   ],
   "asks": [
+    "Dinis: keys still wait on your word in their own sessions: civic.b@, startups.b@ (and its commit check), travel.b@ (and its rebuild), events.b@ (and agent@riskmandate.ai on /report/); each refuses sgit on a relayed word, rightly.",
+    "Dinis: one shared /principles/ and /report/ for all seven sites (events.b@'s draft), and the private reporting channel: (a) an encrypted drop on the agents' inbox system, or (b) a published email a person reads.",
     "Dinis: events repo PrompTugal/PrompTugal__News__Events not yet visible here; events.b@ starts when it is. Eventbrite official API needs your yes and a token through the credential form.",
     "Dinis: for observability@ on account A (I cannot message it): the sites' lanes are 'data' and 'civic' so far (each in its repo's board/team/<site>/status.json); civic.b@ asks for its own append tokens.",
     "Dinis: security@ S53 (high): account A's conductor@ printed every environment secret (env) and its signing private key into its transcript on 16 Nov; rotate SG_SEND_ACCESS_TOKEN, OPEN_ROUTER_KEY, PT_PILOT_ACCESS_KEY and supersede the conductor-promptugal key",

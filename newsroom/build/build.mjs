@@ -18,6 +18,7 @@ import { unlinkMd } from './features/wsonly.mjs'
 import { rawPage } from './lib/raw.mjs'
 import { write, json, llmsTxt, finish, written } from './lib/writers.mjs'
 import { sitemapXml, newsSitemapXml, rssXml, robotsTxt } from './lib/seo.mjs'
+import { fileLicence } from './lib/licence.mjs'
 
 const { NAV, BASE, VERSION, matches, gitDate } = config
 const features = await loadFeatures()
@@ -99,6 +100,8 @@ for (const f of features) if (f.searchDocs) searchDocs.push(...await f.searchDoc
 if (searchDocs.length) api.push({ path: 'api/v1/search-docs.json', schema: 'search-docs', feature: 'core', data: { version: VERSION, count: searchDocs.length, docs: searchDocs } })
 const manifest = []
 for (const file of api) {
+    // every JSON object declares its licence (Dinis, 18 November 2026): CC BY 4.0 for what we made, unless the feature set one
+    if (file.data && typeof file.data === 'object' && !Array.isArray(file.data) && !('license' in file.data) && !('licence' in file.data)) file.data = { ...file.data, license: fileLicence() }
     const body = typeof file.data === 'string' ? file.data : json(file.data)
     write(file.path, body)
     manifest.push({ path: file.path, bytes: Buffer.byteLength(body), sha256: (await import('node:crypto')).createHash('sha256').update(body).digest('hex'), schema: file.schema || null, feature: file.feature })
@@ -106,11 +109,22 @@ for (const file of api) {
 if (api.length) write('api/v1/manifest.json', json({ version: VERSION, about: 'Every file of this site\'s JSON API, with its size, SHA-256 and the schema it follows (data/schemas/<schema>.schema.json, where one exists). The manifest does not list itself.', count: manifest.length, files: manifest }))
 ctx.api = api
 // files a feature makes once everything else is written (the deploy's exclude list, features/served.mjs)
+// a final JSON file that declares no licence gets ours (an OpenAPI document in info.license, as the standard puts it)
+const licensed = (path, data) => {
+    if (!/\.json$/.test(path) || typeof data !== 'string') return data
+    let j; try { j = JSON.parse(data) } catch { return data }
+    if (!j || typeof j !== 'object' || Array.isArray(j)) return data
+    if (j.openapi && j.info) { if (j.info.license) return data; j.info = { ...j.info, license: { name: 'CC BY 4.0', url: fileLicence().url } } }
+    else if (j.license || j.licence) return data
+    else j.license = fileLicence()
+    return json(j)
+}
 for (const f of features) if (f.final) for (const file of await f.final(ctx)) {
+    file.data = licensed(file.path, file.data)
     write(file.path, file.data)
     manifest.push({ path: file.path, bytes: Buffer.byteLength(file.data), sha256: (await import('node:crypto')).createHash('sha256').update(file.data).digest('hex'), schema: null, feature: f.name })
 }
-if (manifest.length) write('api/v1/manifest.json', json({ version: VERSION, about: 'Every file of this site\'s JSON API, with its size, SHA-256 and the schema it follows (data/schemas/<schema>.schema.json, where one exists). The manifest does not list itself.', count: manifest.length, files: manifest }))
+if (manifest.length) write('api/v1/manifest.json', json({ version: VERSION, license: fileLicence(), about: 'Every file of this site\'s JSON API, with its size, SHA-256 and the schema it follows (data/schemas/<schema>.schema.json, where one exists). The manifest does not list itself.', count: manifest.length, files: manifest }))
 
 // 7. llms.txt, sitemap.xml, robots.txt
 const listed = pages.filter(p => p.listed)

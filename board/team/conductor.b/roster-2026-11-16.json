@@ -38,8 +38,9 @@
       "model": "Opus",
       "does": "pre/post reviews, contacts line",
       "session": "session_01Kw9UwF2TrbbV5BhUjFGupN",
-      "cron": "3 */2 * * *",
-      "trigger": "trig_0182A4zLmnsQHPhJchAPdsgv"
+      "cron": "CRON_TZ=Europe/Lisbon 3 0,3,6-23 * * *",
+      "trigger": "trig_0182A4zLmnsQHPhJchAPdsgv",
+      "cron_changed": "2026-11-18T15:01Z at Dinis's word (board/guidance/2026-11-18-inner-passes-and-security.md); scope widened to every PrompTugal repo by message (its wake prompt can only be edited from its own session)"
     },
     {
       "agent": "place.algarve.west@PrompTugal.dinis",
@@ -210,6 +211,17 @@
       "cron": "CRON_TZ=Europe/Lisbon 53 7-22/3 * * *",
       "trigger": "trig_01FGGrXusXSQiihwp3tWVKcX",
       "started": "2026-11-18T09:28Z"
+    },
+    {
+      "agent": "events.b@PrompTugal.dinis",
+      "model": "Opus (Sonnet sub-agents)",
+      "does": "lead of PrompTugal__News__Events (events.promptugal.news)",
+      "repo": "PrompTugal/PrompTugal__News__Events",
+      "session": "session_01Kw9UwFXMRMbjVXqFeQTc4G",
+      "cron": "CRON_TZ=Europe/Lisbon 33 7-22/3 * * *",
+      "trigger": "trig_01DpRRQXkD1bxuPnQB3huwR5",
+      "started": "2026-11-18T14:32Z",
+      "word": "board/guidance/2026-11-18-s53-and-the-events-site.md; Dinis in conductor.b@'s session ~14:30 UTC: 'repo is created'"
     }
   ]
 }

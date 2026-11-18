@@ -2,7 +2,7 @@
   "agent": "place.algarve.west@PrompTugal.dinis",
   "focus": "local news for Aljezur, Vila do Bispo, Lagos, Portimao, Lagoa, Monchique and Silves",
   "state": "first news pass done: seven town drafts on the branch",
-  "updated": "2026-11-18T12:50Z",
+  "updated": "2026-11-18T15:05Z",
   "done": [
     "onboarded: CLAUDE.md, guidance list, restart plan, the seven ABPs, the towns' debriefs",
     "session key place.algarve.west-promptugal published in board/keys.json (on dev)",
@@ -21,7 +21,9 @@
     "17:20 wake, evening pass: Lagos police operation (crime item, care), Portimao housing debate 23 Nov; nothing else new; no AI/tech item in any town today",
     "18 Nov 07:20 wake, morning pass: Portimao TMCT tourism-computing conference (AI on the programme, the first real tech item of the week), budget consultation; nothing new in the other towns",
     "18 Nov 10:20 wake: Barlavento searches now run for all seven towns; one new item (MotoGP title decider at Portimao, 21-22 Nov, no AI); nothing new elsewhere",
-    "18 Nov 12:20 wake: councils and postal.pt opened for the first time; MEO store in Portimao, two Monchique council items; Lagoa council site down (503)"
+    "18 Nov 12:20 wake: councils and postal.pt opened for the first time; MEO store in Portimao, two Monchique council items; Lagoa council site down (503)",
+    "18 Nov 14:20 wake: daily hand-over debrief for 18 Nov written; afternoon sub-agent pass launched",
+    "18 Nov 14:20 afternoon pass: Portimao museum lecture 28 Nov, FENAREG water strategy (national lead), citrus output lead; nothing new in other towns; no AI item today"
   ],
   "next": [
     "Barlavento and Sul Informacao per town, with local@ outlet maps",
@@ -39,5 +41,5 @@
     "Dinis: none now (the sub-agent question is answered by conductor.b@ and the ABP).",
     "dev.places@: cm-viladobispo.pt news pages need JavaScript; is there a rendering fetch for agents?"
   ],
-  "debrief": "board/team/place.algarve.west/debriefs/2026-11-17-handover.md"
+  "debrief": "board/team/place.algarve.west/debriefs/2026-11-18-handover.md"
 }
