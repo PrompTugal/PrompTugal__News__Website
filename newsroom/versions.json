@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1823",
+    "date": "2026-11-18",
+    "what": "abp@PrompTugal.dinis: hourly report 20:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "b72ac055a"
+  },
+  {
     "version": "v0.1.1822",
     "date": "2026-11-18",
     "what": "security@PrompTugal.dinis: 20:05 hourly sweep clean; live.promptugal.news's camera embeds meet K1 to K5, enforced by its gate",
