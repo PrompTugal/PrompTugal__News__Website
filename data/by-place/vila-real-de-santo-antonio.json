@@ -169,25 +169,45 @@
       "title": "Monte Gordo Sand Race, FIM Sand Races World Championship stage 4",
       "date": "2026-11-27",
       "url": "https://www.cm-vrsa.pt/pt/noticias/68390/monte-gordo-recebe-quarta-etapa-do-campeonato-do-mundo-de-corridas-em-areia.aspx",
-      "read_on": "2026-11-16"
+      "read_on": "2026-11-16",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-vrsa.pt/"
+      }
     },
     {
       "title": "Natal a Ganhar draw, Vila Natal, Praça Marquês de Pombal",
       "date": "2026-12-30",
       "url": "https://www.cm-vrsa.pt/pt/noticias/68392/campanha-natal-a-ganhar-regressa-para-apoiar-e-dinamizar-o-comercio-local-de-vila-real-de-santo-antonio.aspx",
-      "read_on": "2026-11-16"
+      "read_on": "2026-11-16",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-vrsa.pt/"
+      }
     },
     {
       "title": "Cross-border meeting of women entrepreneurs, Ayamonte (10:30 Spanish time)",
       "date": "2026-11-19",
       "url": "https://www.cm-vrsa.pt/pt/noticias/68406/eurocidade-do-guadiana-promove-encontro-transfronteirico-de-mulheres-empreendedoras.aspx",
-      "read_on": "2026-11-17"
+      "read_on": "2026-11-17",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-vrsa.pt/"
+      }
     },
     {
       "title": "Giant Nativity opens, Centro Cultural António Aleixo",
       "date": "2026-11-28",
       "url": "https://www.cm-vrsa.pt/pt/noticias/68414/presepio-gigante-de-vila-real-de-santo-antonio-volta-a-surpreender-com-mais-de-6000-figuras.aspx",
-      "read_on": "2026-11-18"
+      "read_on": "2026-11-18",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-vrsa.pt/"
+      }
     }
   ],
   "ai_map": [
@@ -333,7 +353,12 @@
       "read_on": "2026-11-16",
       "significance": "town",
       "ai_path": "No AI stated: a digital marketplace with automatic receipt validation, the data groundwork of the PRR VRSA Digital project.",
-      "steps": 3
+      "steps": 3,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-vrsa.pt/"
+      }
     },
     {
       "title": "Monte Gordo hosts the 4th stage of the FIM Sand Races World Championship, 27 to 29 November",
@@ -345,7 +370,12 @@
       "significance": "town and region",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "Castro Marim and Ayamonte, a few minutes away"
+      "blast_radius": "Castro Marim and Ayamonte, a few minutes away",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-vrsa.pt/"
+      }
     },
     {
       "title": "Eurocidade do Guadiana promotes the Orquestra do Algarve concert in Ayamonte",
@@ -357,7 +387,12 @@
       "significance": "neighbours and region",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "Ayamonte (Spain), Castro Marim"
+      "blast_radius": "Ayamonte (Spain), Castro Marim",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-vrsa.pt/"
+      }
     },
     {
       "title": "VRSA's civil protection commission meets to prepare for storm Charles",
@@ -368,7 +403,12 @@
       "read_on": "2026-11-16",
       "significance": "town and region",
       "ai_path": "no AI",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-vrsa.pt/"
+      }
     },
     {
       "title": "VRSA closed schools and non-essential services for the 11 November alert",
@@ -380,7 +420,12 @@
       "significance": "town and country",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "Castro Marim, Ayamonte"
+      "blast_radius": "Castro Marim, Ayamonte",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-vrsa.pt/"
+      }
     },
     {
       "title": "VRSA's schools took part in the national earthquake drill 'A Terra Treme' on 5 November",
@@ -391,7 +436,12 @@
       "read_on": "2026-11-16",
       "significance": "town and country",
       "ai_path": "no AI",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-vrsa.pt/"
+      }
     },
     {
       "title": "VRSA closes its São Martinho market programme with a magusto on 14 November",
@@ -402,7 +452,12 @@
       "read_on": "2026-11-17",
       "significance": "town",
       "ai_path": "no AI",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-vrsa.pt/"
+      }
     },
     {
       "title": "Eurocidade do Guadiana promotes a cross-border meeting of women entrepreneurs on 19 November",
@@ -414,7 +469,12 @@
       "significance": "town and neighbours",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "Ayamonte (Spain), Castro Marim"
+      "blast_radius": "Ayamonte (Spain), Castro Marim",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-vrsa.pt/"
+      }
     },
     {
       "title": "VRSA opens an SNS 24 desk at its municipal health office",
@@ -426,7 +486,12 @@
       "significance": "town and neighbours",
       "ai_path": "No AI: a digital public-service desk (national SNS 24 platform) run by council staff.",
       "steps": 1,
-      "blast_radius": "Castro Marim and Alcoutim residents also use the VRSA services"
+      "blast_radius": "Castro Marim and Alcoutim residents also use the VRSA services",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-vrsa.pt/"
+      }
     },
     {
       "title": "VRSA's 24th Giant Nativity opens on 28 November with more than 6,000 figures",
@@ -438,7 +503,12 @@
       "significance": "town and neighbours",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "Ayamonte, Castro Marim"
+      "blast_radius": "Ayamonte, Castro Marim",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-vrsa.pt/"
+      }
     },
     {
       "title": "The Escola Naval's RIO26 exercise on the Guadiana, 16 to 20 November",
@@ -450,7 +520,12 @@
       "significance": "town and neighbours",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "Mértola, Alcoutim, Vila Real de Santo António"
+      "blast_radius": "Mértola, Alcoutim, Vila Real de Santo António",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      }
     }
   ],
   "contacts": [

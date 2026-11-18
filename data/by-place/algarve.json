@@ -408,13 +408,23 @@
       "date": "2026-12-02 and 2026-12-03",
       "url": "https://ccmar.ualg.pt/",
       "read_on": "2026-11-16",
-      "ai_path": "DeepLabCut is a deep-learning tool for tracking movement in video: the listing names the tool but does not describe the course, 1 step"
+      "ai_path": "DeepLabCut is a deep-learning tool for tracking movement in video: the listing names the tool but does not describe the course, 1 step",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://ccmar.ualg.pt/"
+      }
     },
     {
       "title": "Conference on AI and water management, University of Algarve, Faro",
       "date": "2026-11-24",
       "url": "https://postal.pt/europedirectalgarve/faro-recebe-conferencia-sobre-inteligencia-artificial-e-gestao-da-agua-no-algarve/",
-      "read_on": "2026-11-16"
+      "read_on": "2026-11-16",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      }
     }
   ],
   "ai_map": [
@@ -854,7 +864,12 @@
       "read_on": "2026-11-16",
       "significance": "region and country",
       "ai_path": "Sensors and consumption data from supply networks, then AI or analytics to find losses and anomalies, then operators act on them (the conference topics).",
-      "steps": 3
+      "steps": 3,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      }
     },
     {
       "title": "Storm Charles brought gusts near 100 km/h and flood risk to the Algarve on 11 November",
@@ -865,7 +880,12 @@
       "read_on": "2026-11-16",
       "significance": "region and country",
       "ai_path": "no AI",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      }
     },
     {
       "title": "CCDR Algarve closed its services on 11 November because of the declared alert",
@@ -876,7 +896,12 @@
       "read_on": "2026-11-16",
       "significance": "region",
       "ai_path": "no AI",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.ccdr-alg.pt/"
+      }
     },
     {
       "title": "A Loulé agency launches the Best Number One start-page platform at Web Summit",
@@ -888,7 +913,12 @@
       "significance": "town and country",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "Loulé"
+      "blast_radius": "Loulé",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      }
     },
     {
       "title": "CCDR Algarve's Matéria Adentro turns local cane, oyster shell and clay into products",
@@ -899,7 +929,12 @@
       "read_on": "2026-11-16",
       "significance": "region",
       "ai_path": "no AI",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.ccdr-alg.pt/"
+      }
     },
     {
       "title": "CCDR Algarve presents the results of POCTEP 2021-2027 cross-border projects",
@@ -911,7 +946,12 @@
       "significance": "region and neighbours",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "Andalusia (Huelva)"
+      "blast_radius": "Andalusia (Huelva)",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.ccdr-alg.pt/"
+      }
     },
     {
       "title": "IPMA has a yellow sea-agitation warning for the Algarve from 18 to 20 November",
@@ -923,7 +963,12 @@
       "significance": "region",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "the west coast first (Aljezur, Vila do Bispo, Lagos)"
+      "blast_radius": "the west coast first (Aljezur, Vila do Bispo, Lagos)",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://api.ipma.pt/"
+      }
     },
     {
       "title": "AMAL holds its 100th training action of 2026",
@@ -934,7 +979,12 @@
       "read_on": "2026-11-17",
       "significance": "region",
       "ai_path": "no AI",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://amal.pt/"
+      }
     },
     {
       "title": "The University of the Algarve relaunches Equipa UAlg with 81 school talks",
@@ -945,7 +995,12 @@
       "read_on": "2026-11-17",
       "significance": "region",
       "ai_path": "no AI",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.ualg.pt/"
+      }
     },
     {
       "title": "AMAL attends the FIREPOCTEP AVANZA wildfire-prevention project meeting in Cáceres",
@@ -957,7 +1012,12 @@
       "significance": "region and neighbours",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "the interior councils, Alcoutim first"
+      "blast_radius": "the interior councils, Alcoutim first",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://amal.pt/"
+      }
     },
     {
       "title": "University of Algarve researchers build 'Walking on Ice', an interactive immersive film, with about 300,000 euros",
@@ -968,7 +1028,12 @@
       "read_on": "2026-11-17",
       "significance": "region and country",
       "ai_path": "No AI stated: immersive and interactive media (XR) research at the university.",
-      "steps": 1
+      "steps": 1,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.ualg.pt/"
+      }
     },
     {
       "title": "AMAL's 9 million euro smart-water project is approved under Algarve 2030",
@@ -980,7 +1045,12 @@
       "significance": "region",
       "ai_path": "Smart meters and telemetry produce consumption and flow data, analytics find leaks and balance water, the 24 November conference adds AI on top; the AMAL page itself does not mention AI.",
       "steps": 3,
-      "blast_radius": "every Algarve council's water utility"
+      "blast_radius": "every Algarve council's water utility",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://amal.pt/"
+      }
     },
     {
       "title": "Olhão teacher returns from a Prague Erasmus+ course on AI in education with chatbots and draft school rules",
@@ -992,7 +1062,12 @@
       "significance": "neighbours and region",
       "ai_path": "Erasmus+ training course, a teacher, classroom chatbots and a student app, draft school rules for AI use.",
       "steps": 3,
-      "blast_radius": "Olhão is next to Tavira and Faro"
+      "blast_radius": "Olhão is next to Tavira and Faro",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      }
     },
     {
       "title": "NaturMaris wins the sea-economy category of INOVA ALGARVE + DIVERSIFICAR at NERA in Loulé",
@@ -1004,7 +1079,12 @@
       "significance": "region",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "the Ria Formosa from Faro to Tavira"
+      "blast_radius": "the Ria Formosa from Faro to Tavira",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      }
     },
     {
       "title": "The Escola Naval's RIO26 exercise runs on the Guadiana from 16 to 20 November",
@@ -1016,7 +1096,12 @@
       "significance": "neighbours",
       "ai_path": "no AI",
       "steps": 0,
-      "blast_radius": "Mértola, Alcoutim, Vila Real de Santo António"
+      "blast_radius": "Mértola, Alcoutim, Vila Real de Santo António",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      }
     }
   ],
   "contacts": [
