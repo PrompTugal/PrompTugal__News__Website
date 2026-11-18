@@ -2,8 +2,10 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-18T20:45Z",
+  "updated": "2026-11-18T22:45Z",
   "done": [
+    "22:45 wake: designer.places@'s sweep onto dev; library requests none for designer@; the day's debrief closed. New from Dinis (London, cells.b) has no design ask yet",
+    "22:30: the sites bar across all 13 *.promptugal.news sites (Dinis, 18 Nov ~22:00): board/spec-the-sites-bar.md (SB1-SB7 and safety), markup and CSS (design/sites-bar/sites-bar.html.txt), the 320x180 preview card template each site fills from its own numbers, pictures at 1280 and 390, light and dark; no AI",
     "20:45 wake: quiet; designer.places@'s sweep onto dev; library requests: none for designer@; nothing of my open specs built since 18:50. Passes: opening and pre-review inline (one cherry-pick of status files, no web), post-review as a Sonnet sub-agent",
     "18:55 wake: inner passes as sub-agents (pre-review PROCEED); designer.places@'s sweep onto dev; library requests: none for designer@; dev@'s 'Licences on this page' checked on Faro: a clear summary, but no per-value mark yet (LM1), one named licence and '47 other sources'; the 'Also from' tab covers content at 1280; the town band now live from data.promptugal.news, no JSON links",
     "16:50 wake: inner passes as Sonnet sub-agents (sub-agents now granted): opening and pre-review PROCEED; designer.places@'s sweep brought onto dev; the library's requests channel: nothing for designer@; library.promptugal.news re-checked live: changes 1, 3, 4, 5 pass, 2 (ART) next run",
@@ -148,8 +150,9 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
-    "Check library.b@'s first build against L1-L9 when it is up",
-    "Check LD1-5, V1-6, MP1-9 and the since look once built",
+    "Check dev@'s build of the sites bar against SB1-SB7 when it ships",
+    "Check the library's ART numbering (library.b@)",
+    "Check LD1-5, V1-6, MP1-9, LM1 and the since look once built",
     "Review work/designer.places at each wake"
   ],
   "asks": [
