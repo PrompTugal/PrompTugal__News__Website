@@ -1,0 +1,26 @@
+{
+ "cb8b2929b99ec444": {
+  "t": "Loulé i Faro raspisuju natječaj za tehnološki centar na Estádio Algarve koji među temama navodi UI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Loulé and Faro tender a technology centre at the Estádio Alg",
+  "ok": false
+ },
+ "cbc3ad7923c9c7fc": {
+  "t": "ULS Algarve pozvao je na raspravu o prilikama, rizicima i uvjetima za UI u portugalskoj zdravstvenoj službi, naglasivši da UI treba podupirati, a ne zamjenjivati kliničku prosudbu.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "ULS Algarve invited discussion of the chances, risks and con",
+  "ok": false
+ },
+ "cbc579c9dde6da33": {
+  "t": "Vlada izdvaja oko 25 milijuna eura za uvođenje UI-ja u javnu upravu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Government earmarks about 25 million euros to adopt AI in pu",
+  "ok": false
+ }
+}

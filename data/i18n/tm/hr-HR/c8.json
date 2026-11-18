@@ -1,0 +1,26 @@
+{
+ "c80d31aa3fd60fd7": {
+  "t": "PrompTugal.news Monchique, iz hladovine Serre: UI i tehnologija u zelenom planinskom concelhu u kojem briga zbog požara nikad ne spava, a mali inkubator drži svjetla upaljenima, uz sve što se uspne iz Algarvea, Portugala i svijeta. Neovisno, i svaka činjenica ima svoj izvor, ó freguês.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Monchique, from the cool of the Serra: AI an",
+  "ok": false
+ },
+ "c896571781f3b30f": {
+  "t": "PrompTugal.news Porto: UI i tehnologija u Portu, sveučilišnom i startup gradu čije je težište UPTEC, znanstveni park Sveučilišta u Portu, njegovi startupi UI-ja i istraživački instituti, te što do Porta stiže iz Portugala, Europe i svijeta. Neovisno, i svaka činjenica ima izvor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Porto: AI and technology in Porto, a univers",
+  "ok": false
+ },
+ "c8c02cb5cf3f018e": {
+  "t": "PrompTugal.news Porto, a Invicta: UI i tehnologija u Portu, s UPTEC-om kao strojarnicom uz brda Asprele, uz sve vijesti koje stignu iz Portugala, Europe i svijeta. Independente, i svaka činjenica dolazi s potvrdom, na tripeiro način.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "PrompTugal.news Porto, a Invicta: AI and tech in Porto, with",
+  "ok": false
+ }
+}

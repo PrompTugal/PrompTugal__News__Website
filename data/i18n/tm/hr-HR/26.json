@@ -1,0 +1,26 @@
+{
+ "262e51b4f72873db": {
+  "t": "Alcoutim je unutarnja općina na Guadiani, na granici sa Španjolskom, a njezina javna ulaganja odnose se na infrastrukturu i osnovne usluge: most prema Sanlúcaru de Guadiana, obnovljenu vodovodnu mrežu u Martim Longu, socijalno stanovanje i pristupačniju web stranicu općine. Njezina tehnološka priča danas je javna: jedna je od šest općina Algarvea koje grade zajedničku platformu senzora i podataka i ugošćuje nacionalni centar koji proučava dezertifikaciju. Mjesto ove veličine nema tvrtki za UI koje smo mogli naći, pa put do UI-ja prvo vodi preko podataka i povezivosti.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Alcoutim is an inland municipality on the Guadiana, on the b",
+  "ok": false
+ },
+ "26da359c2f02f4b2": {
+  "t": "Setúbal radi svoj UI kao i sve ostalo, sa zaštitnom kacigom na glavi. Luka uči sedamdeset radnika koristiti chatbot, Politécnico ugošćuje cijeli tehnološki institut i pristupa nacionalnoj mreži za UI, a Navigator kaže da i njegovi strojevi u Mitreni uče. Câmara, blago njoj, ugošćuje vrlo uljudan razgovor o knjižnicama i UI-ju, a startup scena se još nije pokazala.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "Setúbal does its AI the way it does everything, with a hard ",
+  "ok": false
+ },
+ "26e658997c3d9bf1": {
+  "t": "InnoWave, tehnološka tvrtka s hubom u Beji, ulaže 3,8 milijuna eura u UI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-17",
+  "src": "InnoWave, a tech company with a hub in Beja, puts 3.8 millio",
+  "ok": false
+ }
+}
