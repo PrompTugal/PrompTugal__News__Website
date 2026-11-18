@@ -299,6 +299,17 @@
       "trigger": "trig_01H1W1FXX8bv82c7X3cVXdzG",
       "started": "2026-11-18T20:50Z",
       "word": "board/guidance/2026-11-18-cameras-provenance-and-bulletins.md; repo created at Dinis's request; 5 USD/day cap until Dinis sets one"
+    },
+    {
+      "agent": "cells.b@AgentiCCells.dinis",
+      "model": "Opus",
+      "does": "the AgentiCCells site factory (restarted on account B); restarts its own conductors one at a time with Dinis",
+      "repo": "AgentiCCells/AgentiCCells__Site__Factory",
+      "session": "session_01Kw9UwBQPcS9Ty9XiywtEX7",
+      "cron": null,
+      "trigger": null,
+      "started": "2026-11-18T22:11Z",
+      "word": "board/guidance/2026-11-18-cells-b-on-account-b.md (Dinis's own prompt, in the session)"
     }
   ]
 }

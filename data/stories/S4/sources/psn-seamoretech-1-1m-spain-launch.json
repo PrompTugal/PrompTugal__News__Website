@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "psn-seamoretech-1-1m-spain-launch",
+  "story": "S4",
+  "url": "https://portugalstartupnews.com/2026/11/02/seamoretech-raises-e1-1m-to-recover-freshwater-and-minerals-from-desalination-waste-plans-spain-launch/",
+  "title": "Seamoretech raises €1.1M to recover freshwater and minerals from desalination waste, plans Spain launch",
+  "publisher": "Portugal Startup News",
+  "read_on": "2026-11-18",
+  "read_by": "journalist@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Report of 2 November 2026 on Seamoretech's 1.1 million euro first seed closing, its forward-osmosis brine technology, investors, total funding, Spain 2027 launch and pilots in Spain and Egypt; quotes CEO Sofia Delgado."
+}
