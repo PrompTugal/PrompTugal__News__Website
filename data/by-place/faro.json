@@ -144,6 +144,21 @@
       "steps": 0
     },
     {
+      "title": "Estadio Algarve to get a multitechnology centre with AI among its showcase areas",
+      "summary": "The Loule/Faro municipal association launched a tender of about 3 million euros for an E-Sports Hub and living lab under the stadium stand, meant for companies and startups, with AI listed among solution areas it could showcase. Bids were due 2 November.",
+      "date": "2026-09-24",
+      "publisher": "Postal do Algarve",
+      "url": "https://postal.pt/algarve/estadio-algarve-vai-ter-centro-tecnologico-de-35-milhoes-para-atrair-empresas-e-startups/",
+      "read_on": "2026-11-18",
+      "ai_path": "Centre for startups and tech testing; AI is one named solution area (stadium run jointly by Faro and Loule).",
+      "steps": 2,
+      "significance": "region",
+      "blast": [
+        "loule",
+        "quarteira"
+      ]
+    },
+    {
       "title": "Regional health unit holds a webinar on AI in the health service",
       "summary": "ULS Algarve invited discussion of the chances, risks and conditions for AI in Portugal's health service, stressing that AI should support and not replace clinical judgement.",
       "date": "2026-09-10",
@@ -319,6 +334,21 @@
         "olhao",
         "sao-bras-de-alportel",
         "loule"
+      ]
+    },
+    {
+      "title": "AI4YouthWork project launches free AI resources for youth workers in Faro",
+      "summary": "The Erasmus+ AI4YouthWork project presented a map of 24 AI tools for youth work, a toolkit of 16 AI literacy workshop plans and an AI competence framework, launched in Faro. The article is dated 16 February 2026 and places the launch in Faro in November (the year is not stated in the text).",
+      "date": "2026-02-16",
+      "publisher": "Postal do Algarve",
+      "url": "https://postal.pt/tech/projeto-europeu-lanca-em-faro-recursos-gratuitos-sobre-ia-para-tecnicos-de-juventude/",
+      "read_on": "2026-11-18",
+      "ai_path": "Free AI tools, training and competence framework for youth workers, launched in Faro.",
+      "steps": 0,
+      "significance": "region",
+      "blast": [
+        "loule",
+        "olhao"
       ]
     },
     {
@@ -807,7 +837,8 @@
     "Jornal do Algarve (jornaldoalgarve.pt): homepage and search returned 403 on 2026-11-17; only the RSS feed opened and held no new AI-linked item for this town.",
     "Jornal do Algarve feed (16 Nov) carries the UAlg 81 free school activities item already on the map from Barlavento; no new item.",
     "Algarve Daily News 16-17 Nov: Faro housing protest and Ria Formosa villas pieces have no AI link; not added.",
-    "ualg.pt news (pt) opened 2026-11-18: 16 items 2-18 Nov, none mentions AI in title or summary; no new Faro AI item found."
+    "ualg.pt news (pt) opened 2026-11-18: 16 items 2-18 Nov, none mentions AI in title or summary; no new Faro AI item found.",
+    "18 Nov: cm-faro.pt/pt/noticias opened (18, 16 Nov items, no AI). Algarve Primeiro 18 Nov items (Rede de Cidades que Caminham, UAlg theatre study) have no AI link."
   ],
   "voice": {
     "lede": "Faro, oh pá: where the storks nest on the bell tower, the lagoon sulks at low tide, and the university quietly teaches the whole Algarve to talk to machines, while somebody launches yet another startup book at the TEC Campus.",
