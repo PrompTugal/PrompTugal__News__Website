@@ -1,0 +1,32 @@
+{
+ "id": "24-noticias",
+ "feed": "https://24noticias.sapo.pt/feed",
+ "read_at": "2026-11-18T15:05Z",
+ "items": [
+  {
+   "title": "Pedro Pinto e João Ribeiro vão responder por alegados insultos e gravações ilícitas durante voo da TAP",
+   "link": "https://24noticias.sapo.pt/atualidade/artigos/pedro-pinto-e-joao-ribeiro-vao-responder-por-alegados-insultos-e-gravacoes-ilicitas-durante-voo-da-tap",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Preço do metro quadrado em Lisboa aumenta para quase 6.000 euros",
+   "link": "https://24noticias.sapo.pt/economia/artigos/preco-do-metro-quadrado-em-lisboa-custa-quase-6-000-euros",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Dois homens armados assaltaram agência do Novo Banco em Palmela",
+   "link": "https://24noticias.sapo.pt/atualidade/artigos/dois-homens-armados-assaltaram-agencia-do-novo-banco-em-palmela",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Medicamentos com preço até cinco euros podem subir 2,3% em 2027",
+   "link": "https://24noticias.sapo.pt/economia/artigos/medicamentos-com-preco-ate-cinco-euros-podem-subir-23-em-2027",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "O regresso à horta do avô. Rodrigo Prista vence Prémio de Poesia Nuno Júdice",
+   "link": "https://24noticias.sapo.pt/vida/artigos/o-regresso-a-horta-do-avo-rodrigo-prista-vence-premio-de-poesia-nuno-judice",
+   "date": "2026-11-18"
+  }
+ ]
+}

@@ -8,6 +8,15 @@
   "ok": false,
   "from": "fr-FR"
  },
+ "1c5396fa89f81c7e": {
+  "t": "L'Estadio Algarve aura un centre multitechnologique avec l'IA parmi ses domaines de démonstration",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Estadio Algarve to get a multitechnology centre with AI amon",
+  "ok": false,
+  "from": "fr-FR"
+ },
  "1c77a443b6a6c396": {
   "t": "Un reportage de Lusa repris par O Algarve Económico indique que la direction de l'université et la mairie se sont réunies pour aligner le plan Horizonte2030 de l'université sur le plan directeur municipal pour un campus à Barranco do Rodrigo. L'objectif de 2028 est maintenu et l'investissement est chiffré à environ 8 millions d'euros (le reportage de janvier 2025 parlait d'environ 15 millions). Aucun appel d'offres n'est décrit et ce reportage ne mentionne pas l'IA.",
   "by": "translator@PrompTugal.dinis",

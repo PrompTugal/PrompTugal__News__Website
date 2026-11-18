@@ -1,0 +1,10 @@
+{
+ "375953d9a9efce76": {
+  "t": "PrompTugal.news {name}: أبحاث المكان كما تُقدَّم في صفحته، وقوائمها مفحوصة عند البناء (روابط http(s) فقط، والقصص من الأحدث)، مع هوية موقعه كما جرى التحقق منها",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news {name}: the place's research as served on it",
+  "ok": false
+ }
+}

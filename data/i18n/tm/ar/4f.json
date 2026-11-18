@@ -1,0 +1,34 @@
+{
+ "4f04e2eccec547c2": {
+  "t": "معلم علوم حاسوب من Olhão يعود من دورة Erasmus+ في Prague عن الذكاء الاصطناعي المتقدم في التعليم",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Olhao computer science teacher returns from a Prague Erasmus",
+  "ok": false
+ },
+ "4f3e97f9e66ccaa9": {
+  "t": "ALGAR، شركة إدارة النفايات في Algarve ومقرها Almancil، بنت مع الشركة الناشئة NILG.AI أداة تستخدم الذكاء الاصطناعي لاختيار مواقع نقاط إعادة التدوير، جُرّبت في Lagoa. اختارت مسبقًا 14 موقعًا في أربع ساعات وخفّضت الوقت إلى مقترح نهائي بنسبة 83%، وفازت بجائزة Data Changemaker of the Year. هذه نتائج أبلغ عنها الشريكان.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "ALGAR, the Algarve's waste-management company headquartered ",
+  "ok": false
+ },
+ "4f4dbd7e2eb935a3": {
+  "t": "حوض بناء سفن في Guadiana يخطط لوحدة دفاعية تستهدف السفن غير المأهولة",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A Guadiana shipyard plans a defence unit aimed at unmanned v",
+  "ok": false
+ },
+ "4f865dca2c572101": {
+  "t": "قام نائب رئيس CCDR Algarve للتعليم بجولة في شبكة مدارس البلدة في 4 November 2026. وفي المدرسة الثانوية مركز تقني متخصص في المعلوماتية، موصوف بأنه الأول من نوعه في المنطقة. وقال رئيس البلدية إن توسعة مدرسية بقيمة 6 ملايين يورو ما زالت تنتظر ردًا على طلبها من خطة التعافي. ولا يذكر التقرير الذكاء الاصطناعي.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The vice-president for education of CCDR Algarve toured the ",
+  "ok": false
+ }
+}
