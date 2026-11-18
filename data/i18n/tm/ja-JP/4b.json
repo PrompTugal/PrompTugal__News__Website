@@ -1,0 +1,34 @@
+{
+ "4b4540e5f91d0d06": {
+  "t": "PrompTugal.news Tavira: テラコッタ屋根の町 Tavira の AI とテックに目を配り、Algarve、ポルトガル、世界から届くものも見守る。独立系で、すべての事実に領収書つき。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Tavira: we keep an eye on AI and tech in Tav",
+  "ok": false
+ },
+ "4bb857da624ce035": {
+  "t": "IT 会議の第3回は2026年10月21日に Mercado Santana と Teatro Miguel Franco で開かれ、新設の LINKA.LAB で6つのマスタークラスが満席となった。ページには公開日がないため、サイトの記事一覧にある日付を用いている。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The third edition of the IT conference ran on 21 October 202",
+  "ok": false
+ },
+ "4bc344e1b99f0186": {
+  "t": "Vale do Lobo、AI デジタルコンシェルジュ Oliver を開始",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Vale do Lobo launches Oliver, an AI digital concierge",
+  "ok": false
+ },
+ "4bd6423c0c52571d": {
+  "t": "Grupo Lusiadas Saude は、Faro(Lejana de Baixo)に建設する6,000万ユーロの病院を発表した。2027年末の開院予定で、約500人の雇用を見込む。最高経営責任者は、人工知能、ロボティクス、先進的な診断にネイティブな病院になると述べた。記事は、どの AI システムかという詳細を示していない。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Grupo Lusiadas Saude presented a 60 million euro hospital in",
+  "ok": false
+ }
+}
