@@ -1,0 +1,26 @@
+{
+ "0f03ca01715fc750": {
+  "t": "DevFest Faro 用两天时间实战构建人工智能智能体",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "DevFest Faro gives two days to building AI agents in practic",
+  "ok": false
+ },
+ "0f1974d078687ca1": {
+  "t": "Ainda há muito por contar, pá。以下是 Setúbal 尚未告诉我们的事：",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda há muito por contar, pá. Here is what Setúbal has not ",
+  "ok": false
+ },
+ "0f37953a7650369c": {
+  "t": "这家公司由该大学的信息学讲师和一位管理专家创办，把人工智能嵌入企业和工业软件，使其了解每家公司自己的数据和规则。首批客户定位为中小企业。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The company, set up by informatics lecturers and a managemen",
+  "ok": false
+ }
+}

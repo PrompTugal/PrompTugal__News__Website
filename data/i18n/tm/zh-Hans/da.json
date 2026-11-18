@@ -1,0 +1,26 @@
+{
+ "da40d828158b0f3f": {
+  "t": "园区董事会启动了一项价值30.8万欧元加增值税的公开招标，用于设计Brigantia EcoPark 2。报道称园区有82家公司、两个研究中心和约430名员工，入驻率接近98%。页面没有提到人工智能。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The park's board opened a public tender worth 308,000 euros ",
+  "ok": false
+ },
+ "da8ebf652ad46ed4": {
+  "t": "Eh pá，Silves：在时髦之前就已是Algarve的首府，仍守着它的laranjas，守在一座颜色如熟橘子的城堡里。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Eh pá, Silves: a capital of the Algarve before it was cool, ",
+  "ok": false
+ },
+ "dab047fa0598eb82": {
+  "t": "INESC TEC研究人员在UTAD聚会，探讨人工智能与科研职业",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "INESC TEC researchers meet at UTAD to talk AI and scientific",
+  "ok": false
+ }
+}

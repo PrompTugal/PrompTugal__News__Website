@@ -1,0 +1,34 @@
+{
+ "0a19facbd98f5c16": {
+  "t": "2025 年 12 月 10 日签署的 Despacho 91/2025 为学术界制定了人工智能使用指引，援引欧盟《人工智能法案》，旨在促进教学性、创造性和安全的使用，同时保护学术诚信和个人数据。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Despacho 91/2025, signed on 10 December 2025, sets out guide",
+  "ok": false
+ },
+ "0a25a694e0d350f0": {
+  "t": "- **葡萄牙：**[promptugal.news]({portugal})，涵盖欧洲和世界\n- **阿尔加维：**本页\n- **各市镇：**其下有 {count} 个网站\n\n新闻**向下**流动（全国和国际人工智能新闻，按其对当地的意义筛选），也**向上**流动（本地来源，在重要时上升）。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "- **Portugal:** [promptugal.news]({portugal}), with Europe a",
+  "ok": false
+ },
+ "0a3a7e1517d2e2b4": {
+  "t": "欧洲资金将把人工智能和机器人技术带给 15 家阿尔加维旅游企业",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "European funds to bring AI and robotics to 15 Algarve touris",
+  "ok": false
+ },
+ "0af2ef8726963e81": {
+  "t": "AMALIA 进入第二阶段：再增加 180 万欧元，计划于 2026 年底前推出智能体工具",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AMALIA gets a second phase: 1.8 million euros more, agent to",
+  "ok": false
+ }
+}

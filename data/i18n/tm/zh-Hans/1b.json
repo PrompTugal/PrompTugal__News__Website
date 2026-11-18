@@ -1,0 +1,50 @@
+{
+ "1b20915116109e4f": {
+  "t": "PrompTugal.news Vila Real de Santo António：VRSA 的人工智能与科技。这座整洁的庞巴尔式小镇双脚踩在 Guadiana 河里，一只眼睛望着西班牙，另有从阿尔加维、葡萄牙和世界传来的各类消息。独立，每个事实都有来源，pá。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Vila Real de Santo António: AI and technolog",
+  "ok": false
+ },
+ "1b40ab688416c336": {
+  "t": "UTAD 项目构建人工智能辅助急诊分诊，举办了 200 人的活动",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "UTAD project builds AI to help triage in emergency rooms, wi",
+  "ok": false
+ },
+ "1b5149ba4f0f71b7": {
+  "t": "在 Portalegre 的一场闭幕会上，PACT 表示，欧盟资助的 AIRA 项目培训了 500 多人，学习把人工智能应用于机器人。三个创意在其创意竞赛中赢得技术券，其中包括一个利用计算机视觉和语言模型自动控制舞台灯光的系统，以及一个利用计算机视觉的飞机检查系统。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "At a closing session in Portalegre, PACT said the EU-funded ",
+  "ok": false
+ },
+ "1b5f94fde02d4cb7": {
+  "t": "PrompTugal.news Beja, a capital do Baixo Alentejo：Beja 的人工智能与科技，以这座白墙小城里的“大脑”大学为核心，另有从阿连特茹、葡萄牙和世界传来的各类新闻。Independente，每个事实都附有凭证。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Beja, a capital do Baixo Alentejo: AI and te",
+  "ok": false
+ },
+ "1babc44c91bf5cc8": {
+  "t": "PrompTugal.news Silves：Silves 的人工智能与科技。这里是橙子之都，也是阿尔加维的旧都；本站也报道从阿尔加维、葡萄牙和世界冒出来的人工智能消息。我们是独立的，每个事实都有来源，pá。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Silves: AI and technology in Silves, the ora",
+  "ok": false
+ },
+ "1bd080c0c263efa5": {
+  "t": "Monchique 是一个山区市镇，其公共议程受森林和山火风险塑造。Serra 在 2018 年的大火中损失惨重，研究项目 BRIDGE（IST、LNEC 和阿尔加维大学，由 FCT 资助，2021 年至 2024 年）把 Monchique 作为社区降低火灾风险的试点案例，随后是 AGIF 资助的 InnoBRIDGE。2026 年 7 月 25 日 Marmelete 的一场火灾出动了近百名作业人员。在科技方面，市政府运营一个企业孵化器，其最知名的入驻企业是 Invisible CFO，一家产品使用人工智能的金融科技公司。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Monchique is a mountain municipality whose public agenda is ",
+  "ok": false
+ }
+}

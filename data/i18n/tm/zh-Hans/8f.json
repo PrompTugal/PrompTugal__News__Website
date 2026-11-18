@@ -1,0 +1,50 @@
+{
+ "8f3b7d507ba8778d": {
+  "t": "Setúbal和里斯本港口启动人工智能项目，并计划建设数据中心",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Setúbal and Lisbon ports start an AI project and plan a data",
+  "ok": false
+ },
+ "8f429062903b2dfa": {
+  "t": "市政府支持阿尔加维大学的一场人工智能工作坊",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Council backs an AI workshop at the University of Algarve",
+  "ok": false
+ },
+ "8f6bfc3f243d5363": {
+  "t": "Postal介绍了总部设在Olhão的Sparos：其数字营养板块收集并分析数据以推荐投喂方案，产品包括HatchTools（孵化场网络应用）和OptiFeeSH（与希腊公司I2S合作的AquaManager软件投喂方案模块）。它使用算法按生长阶段预测饲料需求。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Postal profiles Sparos, based in Olhão: its Digital Nutritio",
+  "ok": false
+ },
+ "8f8393c1b7217470": {
+  "t": "Viseu理工学院展示RISKMAP，一款守护遗产建筑的人工智能工具",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Politécnico de Viseu shows RISKMAP, an AI tool that watches ",
+  "ok": false
+ },
+ "8f890cc585bd0e34": {
+  "t": "理工学院农学院的一场会议上，山地研究中心CIMO和CeDRI的研究人员介绍了用于农场决策的传感器与图像、田间机器人、无人机和卫星图像。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A session at the polytechnic's agrarian school heard researc",
+  "ok": false
+ },
+ "8fe07e1630031ef4": {
+  "t": "科英布拉的人工智能活动源自其大学。科英布拉大学把课程重组为人工智能与数据科学学位及硕士课程，其INESCC研究单位牵头一个获国防资助、针对混合威胁的人工智能项目，而源自大学研究的葡萄牙人工智能公司Feedzai总部就设在这座城市。大学周围有Instituto Pedro Nunes，它运营孵化器并把人工智能列为服务项目，还有市政机构Go Coimbra，把人工智能列为五大优先领域之一。市政府还作为城市许可中人工智能的第一阶段试点出现，因此在这里，市政管理而不仅仅是研究，也是故事的一部分。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Coimbra's AI activity grows out of its university. The Unive",
+  "ok": false
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "3851d984faf9d02a": {
+  "t": "波尔图的 CitiLink 项目用人工智能整理市政会议纪要，获国家奖项",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Porto's CitiLink project, AI that structures council meeting",
+  "ok": false
+ },
+ "3856b4c778bcdc4a": {
+  "t": "PrompTugal.news Portimão：Portimão 的人工智能与科技。市政府和一家供水公司把人工智能用于公共服务，另有智慧城市孵化器和一所私立高等教育机构；本站也报道从阿尔加维、葡萄牙和世界传到 Portimão 的消息。独立；每个事实都有来源。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Portimão: AI and technology in Portimão, a c",
+  "ok": false
+ },
+ "3857de4a8f72f925": {
+  "t": "UNIPS，即报道中所称的 Universidade Politécnica de Setúbal，加入了由 Coimbra 大学牵头、于 2026 年 10 月 15 日启动的 GeSI 和 DEFIA Portugal 网络，该网络旨在推动高等教育中负责任地使用人工智能和提升人工智能素养。其技术学院的一位计算机科学讲师代表该校出席。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "UNIPS, the Universidade Politécnica de Setúbal as the paper ",
+  "ok": false
+ },
+ "385da7e88a11498d": {
+  "t": "Vila Real 的儿童议会辩论人工智能",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Vila Real's children's assembly debates AI",
+  "ok": false
+ },
+ "38726af755a9041b": {
+  "t": "**本站身份：**{key} 见 [board/keys.json]({keys})；对 `{file}` 的签名无法核验。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "38818d41208825e0": {
+  "t": "市政府正在历史中心安装免费 Wi-Fi 和 16 台行人流量监测器，随后还会有护柱和信息亭，这是 PRR 资助、价值约 89.5 万欧元的数字商店街区项目的一部分，目标是约 200 家商户。计数器只提供统计数据，不采集图像、视频或声音。一个在线市场已列出一百多家商户。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council is installing free Wi-Fi and 16 pedestrian flow ",
+  "ok": false
+ },
+ "388e89e55b08d337": {
+  "t": "市政府与阿尔加维大学于 2026 年 4 月会面，将合作扩大到教学、培训和研究，包括通过高等教育短期课程建立学校与企业的联系。双方同意在未来几个月内推动一项协定。报道没有提到人工智能。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council and the University of Algarve met in April 2026 ",
+  "ok": false
+ },
+ "38d3e7192f1cc031": {
+  "t": "Aqui no fim do mundo, o vento é que manda, e a IA ainda está a chegar de bicicleta.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Aqui no fim do mundo, o vento e que manda, e a IA ainda esta",
+  "ok": false
+ },
+ "38e7219a32ca1e76": {
+  "t": "SNS 患者可在家做理疗，由人工智能纠正动作，ULS Algarve 为其中的单位之一",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "SNS patients can do physiotherapy at home with AI correcting",
+  "ok": false
+ }
+}

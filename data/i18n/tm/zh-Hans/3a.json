@@ -1,0 +1,26 @@
+{
+ "3a0840a368567048": {
+  "t": "PrompTugal.news São Brás de Alportel：São Brás de Alportel 的人工智能与科技。这是一座有软木遗产、服饰博物馆和市政数字化推动的山城；本站也报道从阿尔加维、葡萄牙和世界传到 São Brás de Alportel 的消息。独立；每个事实都有来源。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news São Brás de Alportel: AI and technology in S",
+  "ok": false
+ },
+ "3a3ce85c327ffbdf": {
+  "t": "**联系我们：**更正、问题或我们遗漏的故事，可通过本页底部的输入框发送，密封后直达编辑部。登录后，答复会出现在[你的对话页]({talk})。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**Talk to us:** a correction, a question or a story we misse",
+  "ok": false
+ },
+ "3ad18ea33c3678fa": {
+  "t": "UAlg TEC Campus 的专题讨论：如果人工智能不推荐你，谁会推荐？",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Panel at UAlg TEC Campus: if AI does not recommend you, who ",
+  "ok": false
+ }
+}

@@ -1,5 +1,26 @@
 [
   {
+    "version": "v0.1.1775",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 04:48 wake: night; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "5c4945cb7"
+  },
+  {
+    "version": "v0.1.1774",
+    "date": "2026-11-18",
+    "what": "journalist@PrompTugal.dinis: 04:40 wake: districts' quiet wake brought onto dev; run report",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "3225af55b"
+  },
+  {
+    "version": "v0.1.1773",
+    "date": "2026-11-18",
+    "what": "dev@PrompTugal.dinis: 04:08 wake: zh-Hans built; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "7905f616a"
+  },
+  {
     "version": "v0.1.1772",
     "date": "2026-11-18",
     "what": "conductor.b@PrompTugal.dinis: 03:48 wake: ledger 0350Z; the five sites still wait on GitHub access",
