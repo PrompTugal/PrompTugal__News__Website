@@ -2,7 +2,7 @@
   "agent": "datasci.places@PrompTugal.dinis",
   "focus": "JSON first: every fact served as JSON, the OpenAPI 3.1 specs (site-wide and per place) with Swagger pages, gate checks that pages show nothing their JSON lacks and that the specs cover every served file, and data quality numbers per place",
   "state": "running: restarted on this account, owns the live collector",
-  "updated": "2026-11-18T16:16Z",
+  "updated": "2026-11-18T17:52Z",
   "done": [
     "session key datasci.places-promptugal in board/keys.json",
     "pass 1, the audit: api/v1/datasci/audit.json, for every kind of page the outside links shown and how many a served JSON holds (today 2267 of 3098, 73%; 35 of 57 kinds fully held); the by-place pages: 0 missing",
@@ -63,7 +63,8 @@
     "18 Nov 13:17: wake 43: IPMA read (obs 12:00), 18 files; airport read OK (2 airline flights); pushed to work/datasci.places (ABP branch-only)",
     "18 Nov 14:17: wake 44: IPMA read (obs 13:00), 18 files; airport read OK (4 airline flights, 1 other); pushed to work/datasci.places (ABP branch-only)",
     "18 Nov 15:04: wake 45: IPMA read (obs 14:00), 18 files; airport read OK (2 airline flights). Inner passes (guidance 2026-11-18-inner-passes-and-security.md, relayed by conductor.b@): ran inline by me, not as sub-agents (ABP R4/v1.14.0 grants none): opening check (one piece of work, in grant), pre-review (hosts api.ipma.pt and api.adsb.lol only, no keys), post-review of the diff: only data/by-place/now/*.json, no secret, no personal data or contact, nothing outside my paths; every value keeps its source and read time",
-    "18 Nov 16:16: wake 47: IPMA read (obs 15:00), 18 files; airport read OK (2 airline flights); ABP now v1.15.2, grant unchanged (branch-only, two hosts); pushed to work/datasci.places"
+    "18 Nov 16:16: wake 47: IPMA read (obs 15:00), 18 files; airport read OK (2 airline flights); ABP now v1.15.2, grant unchanged (branch-only, two hosts); pushed to work/datasci.places",
+    "18 Nov 17:52: conductor.b@ reports the live-now copy on promptugal.news looks stale (16:15 UTC reading at 17:51). Cause, from my side: I refresh every wake (last 17:17, IPMA obs 16:00) but my ABP lets me push only to work/datasci.places, so the live site shows a reading only when dev@ brings that branch onto dev; I cannot release it myself. I support the proposal that live-now read data.promptugal.news /api/v1/ipma-observations/, ipma-warnings/ and by-place/ (the CI collectors, twice an hour); that host is outside my ABP, so it needs Dinis and dev@. I did not reply by send_message (outside my grant)"
   ],
   "next": [
     "more keyless public sources per place (board/briefs/2026-11-16-storm-local-data.md)",
@@ -75,7 +76,8 @@
     "Dinis: I cannot drain my inbox (needs the team site repository in the session).",
     "Dinis: ABP v1.14.0 says push only to work/datasci.places, never release.sh or dev, while my hourly task says release with release.sh. I follow the ABP; someone (dev@/conductor.b@) must bring work/datasci.places onto dev for the live data to publish.",
     "Dinis: the inner passes (conductor.b@ relays your yes of 18 Nov ~15:05) want Sonnet sub-agents and a threat model at docs/threat-models/local-now.md; my ABP v1.14.0 grants neither sub-agents (R4) nor that path. I ran the passes inline and wrote no threat model. abp@ to grant both if you want them; until then the threat model waits.",
-    "Dinis: conductor.b@ relays your word (18 Nov ~16:00) to read library.promptugal.news/api/v1/requests/ at every wake and to follow the pipeline standard for each source. My ABP v1.14.0 lets me reach only api.ipma.pt and api.adsb.lol (and the inboxes), so I have not fetched the library. abp@ to add the host if you want me to read it; until then I answer nothing there."
+    "Dinis: the live-now data on promptugal.news is only as fresh as dev@ bringing work/datasci.places onto dev (my ABP v1.15.2 forbids release.sh and dev). Choose: (a) abp@ lets me release.sh to dev again, or (b) the site reads data.promptugal.news /api/v1/ipma-observations/, ipma-warnings/ and by-place/ (conductor.b@ and dev@ propose this), and I stop being the live path."
   ],
-  "debrief": "board/team/datasci.places/debriefs/2026-11-18-handover.md"
+  "debrief": "board/team/datasci.places/debriefs/2026-11-18-handover.md",
+  "answers": []
 }
