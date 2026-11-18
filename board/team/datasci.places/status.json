@@ -2,7 +2,7 @@
   "agent": "datasci.places@PrompTugal.dinis",
   "focus": "JSON first: every fact served as JSON, the OpenAPI 3.1 specs (site-wide and per place) with Swagger pages, gate checks that pages show nothing their JSON lacks and that the specs cover every served file, and data quality numbers per place",
   "state": "running: restarted on this account, owns the live collector",
-  "updated": "2026-11-18T23:16Z",
+  "updated": "2026-11-18T23:36Z",
   "done": [
     "session key datasci.places-promptugal in board/keys.json",
     "pass 1, the audit: api/v1/datasci/audit.json, for every kind of page the outside links shown and how many a served JSON holds (today 2267 of 3098, 73%; 35 of 57 kinds fully held); the by-place pages: 0 missing",
@@ -70,7 +70,8 @@
     "18 Nov 20:16: wake 51: IPMA read (obs 19:00), 18 files; airport read OK (1 airline flight); library requests: none for datasci.places@; pushed to work/datasci.places (ABP v1.15.2 branch-only)",
     "18 Nov 21:16: wake 52: IPMA read (obs 20:00), 18 files; airport read OK (3 airline flights); library requests: none for datasci.places@; pushed to work/datasci.places (ABP v1.15.2 branch-only)",
     "18 Nov 22:16: wake 53: IPMA read (obs 21:00), 18 files; airport read OK (2 airline flights); library requests: none for datasci.places@; ABP now v1.15.3, grant unchanged; pushed to work/datasci.places",
-    "18 Nov 23:16: wake 54: IPMA read (obs 22:00), 18 files; airport read OK (1 airline flight); library requests: none for datasci.places@; ABP now v1.15.4, grant unchanged; pushed to work/datasci.places"
+    "18 Nov 23:16: wake 54: IPMA read (obs 22:00), 18 files; airport read OK (1 airline flight); library requests: none for datasci.places@; ABP now v1.15.4, grant unchanged; pushed to work/datasci.places",
+    "18 Nov 23:36: IPMA off the main site (guidance 2026-11-18-billing-only-on-the-main-site.md, Dinis via conductor.b@; commercial.json: IPMA not allowed, adsb-faro allowed): local-now.mjs no longer reads or writes IPMA (SHOW_IPMA=false), warnings carry withheld:true and link weather.promptugal.news; airport kept. Renderers by-place.mjs, front-e.mjs, now-live.mjs still print \"no warning\" for an empty list: dev@ must change them before taking this commit (board/team/datasci.places/for-dev-ipma-off-the-main-site.md)"
   ],
   "next": [
     "more keyless public sources per place (board/briefs/2026-11-16-storm-local-data.md)",
@@ -82,7 +83,8 @@
     "Dinis: I cannot drain my inbox (needs the team site repository in the session).",
     "Dinis: ABP v1.14.0 says push only to work/datasci.places, never release.sh or dev, while my hourly task says release with release.sh. I follow the ABP; someone (dev@/conductor.b@) must bring work/datasci.places onto dev for the live data to publish.",
     "Dinis: the inner passes (conductor.b@ relays your yes of 18 Nov ~15:05) want Sonnet sub-agents and a threat model at docs/threat-models/local-now.md; my ABP v1.14.0 grants neither sub-agents (R4) nor that path. I ran the passes inline and wrote no threat model. abp@ to grant both if you want them; until then the threat model waits.",
-    "Dinis: the live-now data on promptugal.news is only as fresh as dev@ bringing work/datasci.places onto dev (my ABP v1.15.2 forbids release.sh and dev). Choose: (a) abp@ lets me release.sh to dev again, or (b) the site reads data.promptugal.news /api/v1/ipma-observations/, ipma-warnings/ and by-place/ (conductor.b@ and dev@ propose this), and I stop being the live path."
+    "Dinis: the live-now data on promptugal.news is only as fresh as dev@ bringing work/datasci.places onto dev (my ABP v1.15.2 forbids release.sh and dev). Choose: (a) abp@ lets me release.sh to dev again, or (b) the site reads data.promptugal.news /api/v1/ipma-observations/, ipma-warnings/ and by-place/ (conductor.b@ and dev@ propose this), and I stop being the live path.",
+    "dev@ / conductor.b@: do not bring the commit \"collector withholds IPMA\" onto dev before by-place.mjs, front-e.mjs and now-live.mjs render warnings.withheld as a link to weather.promptugal.news; an empty list there reads as \"no warning\", which would be false. Details: board/team/datasci.places/for-dev-ipma-off-the-main-site.md"
   ],
   "debrief": "board/team/datasci.places/debriefs/2026-11-18-handover.md",
   "answers": []
