@@ -2,24 +2,25 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
-  "updated": "2026-11-18T14:00Z",
-  "reviewed_to": "cb96737d5",
+  "updated": "2026-11-18T14:10Z",
+  "reviewed_to": "d7d37f3db",
   "hold": false,
   "done": [
-    "02:05 18 Nov: 30 commits clean; S52 opened (observability@'s session 1 back, key reinstated, schedule on, no guidance record)",
     "04:05 18 Nov: 26 commits clean; S52 closed (Dinis's word recorded); observability@'s counts checked (no reader identified)",
     "06:05 18 Nov: 21 commits clean, a quiet night",
     "08:05 18 Nov: 28 commits clean; S70's map entry names organisations only",
     "10:05 18 Nov: 27 commits clean; S53 opened (high): conductor@ printed the environment and its signing key into its transcript on 16 Nov (abp@'s log)",
     "12:05 18 Nov: 33 commits clean; S53 still open (the key active; five articles signed by it to re-sign after rotation)",
-    "14:00 18 Nov: S53 closed as Dinis decided (acknowledged, no rotation); the key's status in keys.json (active, not superseded) noted for conductor@"
+    "14:00 18 Nov: S53 closed as Dinis decided (acknowledged, no rotation); the key's status in keys.json (active, not superseded) noted for conductor@",
+    "14:05 18 Nov: no commits since 14:00; the events collection pre-reviewed (go under E1 to E7: robots.txt and terms checked by the reader, no attendees, organisers as organisations, outside text escaped, server-side reads)"
   ],
   "next": [
     "post-review the outbox's internal test messages (O2 to O7) when they exist",
     "S44: the outlet-domain email check",
     "read my inbox once re-issued to security-promptugal-2",
     "S43: dev@'s gate check for duplicate ids and dropped key bundles",
-    "pairing step 4 (the real send): P1 on A, P2 on A, P9 the origin, P10"
+    "pairing step 4 (the real send): P1 on A, P2 on A, P9 the origin, P10",
+    "post-review the first events collection run and page against E1 to E7"
   ],
   "findings_open": {
     "S2": "decided: rotate now (observability@)",
