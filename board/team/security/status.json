@@ -2,17 +2,17 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
   "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
-  "updated": "2026-11-18T19:10Z",
-  "reviewed_to": "cb5b5d55b",
+  "updated": "2026-11-18T20:10Z",
+  "reviewed_to": "7faf4daa8",
   "hold": false,
   "done": [
-    "15:50 18 Nov: KEV and CVE.org may run now (public catalogues, escaped text, a short threat model within a day); non-commercial sources (CNPD, Shadowserver, Cloudflare Radar, RIPEstat) wait on Dinis's licence call; abuse.ch only as aggregates if at all",
     "16:00 18 Nov: S60 recorded (library.b@'s websummit.com breach, self-reported, fixed); S61 opened (two Library items rest only on websummit.com)",
     "16:05 18 Nov: the library's request REQ-2026-0004 answered: its 8 findings in the central log (S60, S62-S68), its 3 threat models reviewed (good; one line to correct)",
     "16:05 18 Nov: hourly sweep of all nine repositories (tools/sweep.sh): clean; two organisations' published addresses",
     "17:05 18 Nov: hourly sweep of nine repositories clean; Civic's live table built safely; the library's request closed",
     "18:05 18 Nov: hourly sweep clean; S69 opened (now-live.js sets href from another site's API unchecked)",
-    "19:05 18 Nov: hourly sweep clean; Live repository added (clean); camera embeds pre-reviewed (K1 to K5: click to load, sandboxed operator iframes, no recording)"
+    "19:05 18 Nov: hourly sweep clean; Live repository added (clean); camera embeds pre-reviewed (K1 to K5: click to load, sandboxed operator iframes, no recording)",
+    "20:05 18 Nov: hourly sweep clean; live.promptugal.news's first version meets K1 to K5, gate-enforced"
   ],
   "next": [
     "each wake: new commits in all eight repositories (heads in repo_heads)",
