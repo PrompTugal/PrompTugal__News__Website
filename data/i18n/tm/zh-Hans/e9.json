@@ -1,0 +1,26 @@
+{
+ "e94ec82166240854": {
+  "t": "PrompTugal.news Beja：Beja的人工智能与科技。这是Baixo Alentejo的区首府，重心在于其理工大学以及周边的农业和健康人工智能工作；本站也报道从Alentejo、葡萄牙和世界传到Beja的消息。独立报道，每条事实均注明来源。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Beja: AI and technology in Beja, the Baixo A",
+  "ok": false
+ },
+ "e9abc17d4066b58f": {
+  "t": "UAlg获3150万欧元，建设以人工智能为先的欧洲遗产中心",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "UAlg wins 31.5 million euros for an AI-first European herita",
+  "ok": false
+ },
+ "e9f81a8e238017af": {
+  "t": "{name}：{local}，{map}登上人工智能地图",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "{name}: {local}, {map} on the AI map",
+  "ok": false
+ }
+}

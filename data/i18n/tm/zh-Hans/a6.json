@@ -1,0 +1,18 @@
+{
+ "a60fab8528afa5b0": {
+  "t": "Quarteira：沙丁鱼退休了，高尔夫球来了，而机器人还在海滩酒吧排队。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Quarteira: where the sardines retired, the golf balls arrive",
+  "ok": false
+ },
+ "a623e7151e2e6722": {
+  "t": "Colégio Internacional de Vilamoura于5月9日举办了教育创新峰会，设有关于人工智能如何影响教与学的专题讨论。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Colégio Internacional de Vilamoura held an Innovation in",
+  "ok": false
+ }
+}

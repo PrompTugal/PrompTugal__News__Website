@@ -1,0 +1,26 @@
+{
+ "ab4fa81bccc51023": {
+  "t": "大学研究办公室列出的一个为期两年的项目，从2026年9月1日持续到2028年8月31日，为农牧业中廉价、低功耗的嵌入式设备构建人工智能方案，结合工程、数据科学和农业知识。其合资格成本为197,754.85欧元，其中Portalegre方面为168,091.62欧元，由FEDER在ALT2030框架下出资。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A two-year project listed by the university's research offic",
+  "ok": false
+ },
+ "aba7aa34a9e303a2": {
+  "t": "EdgeOnVespa联合体由Dotlabs公司牵头，成员有MORE CoLAB、全国养蜂人联合会和Anbeit，构建一套边缘计算系统，利用人工智能发现和追踪大黄蜂并触发防治。该项目由NORTE2030计划共同出资。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The EdgeOnVespa consortium, led by the company Dotlabs with ",
+  "ok": false
+ },
+ "abe73eede625cf9c": {
+  "t": "Lagos是Algarve科技社区线下聚会的地方。市政府于2025年11月共同主办了Algarve Tech Hub Summit，数百人聚集在一家酒店；并与GDG Lagos合作举办DevFest Lagos 2025和国际妇女节Build with AI等人工智能活动。市政联合办公空间CoLagos自2023年11月起一直满员，为该镇数字游民打造的社区自疫情以来便已存在。我们没有发现确认总部设在Lagos的人工智能公司，因此其重心是一个由开发者和远程工作者组成的社区，而不是一群人工智能企业。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Lagos is where the Algarve's tech community meets in person.",
+  "ok": false
+ }
+}

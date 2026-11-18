@@ -1,0 +1,26 @@
+{
+ "d8006b8f7850afec": {
+  "t": "Faro的Cáritas发问：人工智能让谁受益",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Faro's Cáritas asks who benefits from AI",
+  "ok": false
+ },
+ "d89c3b61de8d1239": {
+  "t": "Vilamoura的学校主办人工智能教育峰会",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Vilamoura school hosts an education summit on AI",
+  "ok": false
+ },
+ "d8de90262eca523a": {
+  "t": "该平台把大宗商品价格和运费等市场数据与公司自身成本联系起来，帮助采购和定价。由VentureFriends和Semapa Next共同领投。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The platform links market data such as commodity prices and ",
+  "ok": false
+ }
+}

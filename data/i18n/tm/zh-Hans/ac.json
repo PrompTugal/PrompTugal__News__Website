@@ -1,0 +1,42 @@
+{
+ "ac20f6a95ba5b51e": {
+  "t": "Lagoa以旅游业为生，有葡萄酒（Lagoa DOC）、Ferragudo、Carvoeiro和Benagil的渔业往昔，以及日益兴旺的会议和活动产业。它的人工智能主要在公共部门：市政府运营Smart City门户，IT团队一直在研究人工智能，并留意数据保护和处理方面的限制，一个教区也在网站上放了人工智能助手。在私营领域，我们确认有一家Lagoa的IT公司销售人工智能智能体，还有一所英国学校在2026年2月举办了青少年人工智能黑客松，ó pá，对一片海滩之地来说不算差。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Lagoa lives on tourism, with wine (a Lagoa DOC), a fishing p",
+  "ok": false
+ },
+ "ac318ac4853050a0": {
+  "t": "2026年9月10日，约600名教师和校长齐聚一场围绕教育中人工智能的活动。市长说，市政府正在考虑设立Academia IA，面向青年和成年人的课程，并呼吁负责任的数字素养。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "About 600 teachers and school heads met on 10 September 2026",
+  "ok": false
+ },
+ "ac65ddf0253d7aed": {
+  "t": "理工学院校园内的技术与创新中心于2026年5月22日落成，总理出席。它称有40人、15个研发项目、服务20多家公司、1家衍生企业和2家初创企业，Observador的报道称其中一家初创企业与人工智能有关，另一家与网络安全有关。其官网在数字化项下把人工智能列在首位，并提供一台人形机器人和一台搭载人工智能的四足机器人。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The technology and innovation centre on the polytechnic's ca",
+  "ok": false
+ },
+ "ac813a3161253af4": {
+  "t": "葡萄牙新的研究与创新署（AI²）原定于2026年1月1日启动",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portugal's new Agency for Research and Innovation (AI²) was ",
+  "ok": false
+ },
+ "acf78f0164d5f4ca": {
+  "t": "为在欧盟注册并拥有葡萄牙税号的人工智能初创企业和中小企业提供免费超算使用（包括MareNostrum 5）、辅导和培训，时间为2026年10月5日至2027年3月30日。申请已于9月15日截止。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Free supercomputing access (including MareNostrum 5), mentor",
+  "ok": false
+ }
+}

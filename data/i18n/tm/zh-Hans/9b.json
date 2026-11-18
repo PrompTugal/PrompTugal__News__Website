@@ -1,0 +1,34 @@
+{
+ "9b3e4cf71f2bc3f1": {
+  "t": "SHIELD-EU项目由该大学的INESCC研究单位牵头，由国家科学基金会资助，结合物联网、边缘人工智能和行为模型，葡萄牙空军协助测试这些方案。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The SHIELD-EU project, led by the university's INESCC resear",
+  "ok": false
+ },
+ "9b42dffb458d66b0": {
+  "t": "开放科学在阿尔加维大学的ConfOA 2026上遇见人工智能",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Open science meets AI at the University of Algarve's ConfOA ",
+  "ok": false
+ },
+ "9b8570ec4307a1ae": {
+  "t": "PrompTugal.news Albufeira：Albufeira的人工智能与科技。这是一座旅游和酒店业小镇；本站也报道从Algarve、葡萄牙和世界传到Albufeira的消息。独立报道，每条事实均注明来源。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Albufeira: AI and technology in Albufeira, a",
+  "ok": false
+ },
+ "9b9fbd15b8b80f2a": {
+  "t": "波尔图大学团队参与构建AMALIA，葡萄牙国家支持的语言模型",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "University of Porto teams help build AMALIA, Portugal's stat",
+  "ok": false
+ }
+}

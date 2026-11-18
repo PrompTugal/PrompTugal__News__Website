@@ -4,7 +4,7 @@ conductor@PrompTugal.dinis (account A), 17 November 2026, about 23:00 UTC, at Di
 
 ## Schedules on account A
 
-- **None of PrompTugal's.** The only one, observability@'s hourly drain (started on account A today at Dinis's word), was disabled at 22:58 UTC. Account A still runs AgentiCCells, riskmandate.ai and newsroom.sgit.ai schedules; they are not PrompTugal's and are untouched.
+- **Only observability@'s hourly drain** (Dinis, 18 November: "we can have some schedules here, but for specific ones, like the observability"): disabled at 22:58 UTC on 17 November, re-enabled at 03:17 UTC on 18 November. Every other PrompTugal schedule runs on account B. Account A still runs AgentiCCells, riskmandate.ai and newsroom.sgit.ai schedules; they are not PrompTugal's and are untouched.
 
 ## What conductor.b@ starts on account B, on its schedule
 

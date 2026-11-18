@@ -1,0 +1,26 @@
+{
+ "766c539b915e4350": {
+  "t": "阿威罗大学批准人工智能时代的评估框架",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "University of Aveiro approves a framework for assessment in ",
+  "ok": false
+ },
+ "76c522282590fa75": {
+  "t": "Parque de Ciência e Inovação 与 startUP23 和 Turismo de Portugal 举办了 Rocket Booster Acceleration 征集，面向拥有旅游、智慧目的地或出行人工智能方案的初创公司。页面自己的状态栏写着申请已截止，而正文读起来仍像是开放中，所以截止日期不明。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Parque de Ciência e Inovação ran the Rocket Booster Acce",
+  "ok": false
+ },
+ "76d474040aeede69": {
+  "t": "在 Startup Leiria 的 Leiria Experience Lab 计划之后，市政府将花 7,500 欧元购买 Leiria Concierge（5,000，一个人工智能行程助手）和 Guide Sofia（2,500，一个人工智能语音导览，首站是 Leiria 城堡）。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "After the Leiria Experience Lab programme of Startup Leiria,",
+  "ok": false
+ }
+}
