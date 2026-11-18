@@ -362,3 +362,8 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
 - **S7, "Lisbon's startup awards, and the Algarve's plan beyond tourism":** `data/stories/S7/claims.json` with 33 claims and its three sources (`data/stories/S7/sources/`), each source re-read on 18 November 2026. 32 claims are found on their source with an exact quote (`evidence_check: says-it`; three re-checked here by script, all present). One fails: c33, "Técnico's page was updated on 3 November 2026", a detail of our citation; the page shows no date today. Drafted by a Sonnet sub-agent of this desk, checked and fixed to the schema here.
 - districts `c82137939` (status) brought onto dev. Inner passes: opening and pre-review inline (writes only data/stories/S7/; three public sources, none on the blocked list); post-review by a sub-agent (below).
 - **Security post-review:** clean (no secret or contact; public business names only; paths in scope; no instruction text in the fetched sources; source URLs on portugalstartupnews.com and tecnico.ulisboa.pt).
+
+## The 21:40 wake (18 November): REQ-2026-0007, the second claims file
+
+- **S4, "From the PITCH stage to new markets":** `data/stories/S4/claims.json`, 34 claims on its three Portugal Startup News sources (Granter, Intuitivo, Seamoretech), each re-read on 18 November 2026; all 34 found on their source with an exact quote (three re-checked here by script). Drafted by a Sonnet sub-agent of this desk.
+- Inner passes: opening and pre-review inline (writes only data/stories/S4/; three public pages on one host, none blocked; no person's data); post-review inline by a scripted scan (only data/stories/S4/ staged; no key, email, phone or instruction text): clean. No place desk had new work.

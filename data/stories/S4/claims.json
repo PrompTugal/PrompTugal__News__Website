@@ -1,0 +1,484 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "S4",
+  "kept_by": "journalist@PrompTugal.dinis",
+  "updated": "2026-11-18",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "Granter, a Portuguese startup, raised 1.6 million euros in an investment round to support international expansion; the report is dated 3 November 2026.",
+      "kind": "fact",
+      "source": "psn-granter-1-6m-expansion",
+      "quote": "has raised €1.6 million in an investment round to support its international expansion",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c02",
+      "text": "Granter uses AI to help organisations identify funding opportunities, prepare applications and manage approved projects.",
+      "kind": "fact",
+      "source": "psn-granter-1-6m-expansion",
+      "quote": "uses artificial intelligence to help organizations identify funding opportunities, prepare applications, and manage approved projects",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c03",
+      "text": "The round was led by 3xP Global through its Impact Innovation Fund, under the FdCR Venture Capital Program, managed by Banco Português de Fomento.",
+      "kind": "fact",
+      "source": "psn-granter-1-6m-expansion",
+      "quote": "the round was led by 3xP Global through its Impact Innovation Fund, under the Venture Capital Program of the Capitalization and Resilience Fund (FdCR), managed by Banco Português de Fomento",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c04",
+      "text": "Celtis Venture Partners, Gateway Ventures and Deel also took part.",
+      "kind": "fact",
+      "source": "psn-granter-1-6m-expansion",
+      "quote": "Other participants included Celtis Venture Partners, Gateway Ventures",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c05",
+      "text": "Granter had earlier raised 400,000 euros from Techstars, Mission and Angels Way, bringing its total funding to 2 million euros.",
+      "kind": "fact",
+      "source": "psn-granter-1-6m-expansion",
+      "quote": "The investment follows €400,000 previously raised from Techstars, Mission, and Angels Way, bringing Granter’s total funding to €2 million.",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c06",
+      "text": "The new capital lets Granter more than double its team by the end of 2026 and expand into Spain, Germany and Italy.",
+      "kind": "fact",
+      "source": "psn-granter-1-6m-expansion",
+      "quote": "will allow Granter to more than double its team by the end of 2026 and accelerate its expansion into Spain, Germany, and Italy",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c07",
+      "text": "The United States is a medium-term priority and Portugal remains Granter's main market.",
+      "kind": "fact",
+      "source": "psn-granter-1-6m-expansion",
+      "quote": "The United States is also a medium-term priority. Portugal remains the company’s main market.",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c08",
+      "text": "Granter won PITCH, Web Summit's startup competition, in November 2025.",
+      "kind": "fact",
+      "source": "psn-granter-1-6m-expansion",
+      "quote": "won PITCH, Web Summit’s startup competition, in November 2025",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c09",
+      "text": "Granter says it has supported more than 140 businesses in applications for over 30 million euros in funding (the company's own figure).",
+      "kind": "fact",
+      "source": "psn-granter-1-6m-expansion",
+      "quote": "the company says it has supported more than 140 businesses in applications for over €30 million in funding",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c10",
+      "text": "Granter is relaunching its AI Grant Consultant with a chat-based interface in which organisations work with an AI agent.",
+      "kind": "fact",
+      "source": "psn-granter-1-6m-expansion",
+      "quote": "Granter is relaunching its AI Grant Consultant with a more intuitive, chat-based interface",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c11",
+      "text": "According to Granter, tasks that took weeks can now be completed in under an hour (the company's claim).",
+      "kind": "fact",
+      "source": "psn-granter-1-6m-expansion",
+      "quote": "can now be completed in “under an hour.”",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c12",
+      "text": "Intuitivo, a Portuguese edtech startup, raised 1.35 million euros in seed funding to expand into Brazil; the report is dated 23 October 2026.",
+      "kind": "fact",
+      "source": "psn-intuitivo-1-35m-brazil",
+      "quote": "has raised €1.35 million in seed funding to expand into Brazil",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c13",
+      "text": "The round was led by Caixa Capital and the Impact Innovation Fund managed by 3xP Global, under the FdCR Venture Capital Program.",
+      "kind": "fact",
+      "source": "psn-intuitivo-1-35m-brazil",
+      "quote": "the funding round was led by Caixa Capital and the Impact Innovation Fund, managed by 3xP Global",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c14",
+      "text": "Techstars, COREangels Lisboa, COREangels Porto and Angels Way also participated.",
+      "kind": "fact",
+      "source": "psn-intuitivo-1-35m-brazil",
+      "quote": "Techstars, COREangels Lisboa, and COREangels Porto also participated, alongside Angels Way",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c15",
+      "text": "Intuitivo was founded in Porto in 2021 and helps teachers create, administer and grade assessments.",
+      "kind": "fact",
+      "source": "psn-intuitivo-1-35m-brazil",
+      "quote": "Founded in Porto in 2021, Intuitivo supports teachers",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c16",
+      "text": "Intuitivo has signed more than 200 contracts covering more than 500 schools in Portugal.",
+      "kind": "fact",
+      "source": "psn-intuitivo-1-35m-brazil",
+      "quote": "has signed more than 200 contracts with municipalities, school clusters, and private schools in Portugal, covering more than 500 schools",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c17",
+      "text": "The platform has 75,000 registered teachers.",
+      "kind": "fact",
+      "source": "psn-intuitivo-1-35m-brazil",
+      "quote": "The platform now counts 75,000 registered teachers.",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c18",
+      "text": "Intuitivo's AI generates draft tests from a topic, year group and difficulty level set by the teacher.",
+      "kind": "fact",
+      "source": "psn-intuitivo-1-35m-brazil",
+      "quote": "generates draft tests based on a topic, year group, and difficulty level specified by the teacher",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c19",
+      "text": "AI-supported grading of open responses is planned for the 2026/27 school year.",
+      "kind": "fact",
+      "source": "psn-intuitivo-1-35m-brazil",
+      "quote": "AI-supported grading for open responses is planned for the 2026/27 school year",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c20",
+      "text": "Intuitivo estimates a potential market of 2.2 million teachers in Brazil.",
+      "kind": "fact",
+      "source": "psn-intuitivo-1-35m-brazil",
+      "quote": "where it estimates a potential market of 2.2 million teachers",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c21",
+      "text": "The investment will grow Intuitivo's team from 11 to 20 people by the end of 2026.",
+      "kind": "fact",
+      "source": "psn-intuitivo-1-35m-brazil",
+      "quote": "grow its team from 11 to 20 people by the end of 2026",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c22",
+      "text": "João Guimarães is co-founder and CEO of Intuitivo.",
+      "kind": "fact",
+      "source": "psn-intuitivo-1-35m-brazil",
+      "quote": "co-founder and CEO of Intuitivo",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c23",
+      "text": "João Guimarães said: \"Our goal is simple: to give time back to those who teach\".",
+      "kind": "testimony",
+      "source": "psn-intuitivo-1-35m-brazil",
+      "quote": "“Our goal is simple: to give time back to those who teach",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c24",
+      "text": "Intuitivo won the PITCH competition at Web Summit in 2024.",
+      "kind": "fact",
+      "source": "psn-intuitivo-1-35m-brazil",
+      "quote": "won the PITCH competition at Web Summit in 2024",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c25",
+      "text": "Seamoretech, a Porto-based cleantech startup, raised 1.1 million euros in the first closing of its seed round; the report is dated 2 November 2026.",
+      "kind": "fact",
+      "source": "psn-seamoretech-1-1m-spain-launch",
+      "quote": "has raised €1.1 million in the first closing of its seed round",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c26",
+      "text": "Seamoretech was founded in 2021 as a spin-off of the University of Porto's Faculty of Engineering (FEUP).",
+      "kind": "fact",
+      "source": "psn-seamoretech-1-1m-spain-launch",
+      "quote": "Founded in 2021 as a spin-off of the University of Porto’s Faculty of Engineering (FEUP)",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c27",
+      "text": "Seamoretech turns desalination brine into freshwater and minerals, using forward osmosis in containerised units.",
+      "kind": "fact",
+      "source": "psn-seamoretech-1-1m-spain-launch",
+      "quote": "containerized, plug-and-play technology that uses forward osmosis to recover purified freshwater and minerals from brine",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c28",
+      "text": "The financing included Rypples, Seven Seas Capital and Crédito Agrícola.",
+      "kind": "fact",
+      "source": "psn-seamoretech-1-1m-spain-launch",
+      "quote": "the financing included participation from Rypples, Seven Seas Capital, and Crédito Agrícola",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c29",
+      "text": "The closing brings Seamoretech's total funding to 3 million euros.",
+      "kind": "fact",
+      "source": "psn-seamoretech-1-1m-spain-launch",
+      "quote": "brings Seamoretech’s total funding to €3 million",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c30",
+      "text": "Seamoretech plans a market launch in Spain in 2027.",
+      "kind": "fact",
+      "source": "psn-seamoretech-1-1m-spain-launch",
+      "quote": "a planned market launch in Spain in 2027",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c31",
+      "text": "Seamoretech is building a pipeline of pilot opportunities in Spain and Egypt.",
+      "kind": "fact",
+      "source": "psn-seamoretech-1-1m-spain-launch",
+      "quote": "including Spain and Egypt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c32",
+      "text": "Sofia Delgado is co-founder and CEO of Seamoretech.",
+      "kind": "fact",
+      "source": "psn-seamoretech-1-1m-spain-launch",
+      "quote": "Sofia Delgado (CEO)",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c33",
+      "text": "Delgado said the aim is to \"produce freshwater at a lower cost\".",
+      "kind": "testimony",
+      "source": "psn-seamoretech-1-1m-spain-launch",
+      "quote": "“produce freshwater at a lower cost.”",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c34",
+      "text": "3xP Global's Impact Innovation Fund, under the FdCR programme, led Granter's round and co-led Intuitivo's.",
+      "kind": "fact",
+      "source": "psn-intuitivo-1-35m-brazil",
+      "quote": "led by Caixa Capital and the Impact Innovation Fund, managed by 3xP Global",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "Intuitivo page says it; Granter's lead is c03 on its own source"
+      },
+      "read_on": "2026-11-18"
+    }
+  ]
+}
