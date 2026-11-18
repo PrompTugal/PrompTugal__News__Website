@@ -1,0 +1,10 @@
+{
+ "375953d9a9efce76": {
+  "t": "PrompTugal.news {name}: cercetarea locului așa cum este servită pe pagina sa, cu listele verificate la construire (doar linkuri http(s), poveștile cele mai noi primele), cu identitatea site-ului verificată",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news {name}: the place's research as served on it",
+  "ok": false
+ }
+}

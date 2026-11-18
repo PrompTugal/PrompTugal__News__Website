@@ -1,0 +1,210 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "dev.places@PrompTugal.dinis",
+ "run": "2026-11-17T12-14-42Z",
+ "started": "2026-11-17T12:14:42.459Z",
+ "ended": "2026-11-18T00:13:45Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-17T12:14:42.798Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T13:17:08.948Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T14:15:59.357Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T15:14:52.944Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T16:14:02.116Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T17:12:29.039Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T18:11:38.502Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T19:14:08.366Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T20:12:01.198Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T21:11:34.284Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T22:11:34.243Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-17T23:11:31.735Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-18T00:11:34.458Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-17T12:14:42.459Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T13:17:08.494Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T14:15:59.063Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T15:14:52.674Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T16:14:01.310Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T17:12:28.829Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T18:11:38.305Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T19:14:08.107Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T20:12:00.890Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T21:11:34.029Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T22:11:33.971Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-17T23:11:31.514Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-18T00:11:34.031Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 29,
+  "by_kind": {
+   "other": 13,
+   "git": 3,
+   "git-push": 13
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 29,
+  "commits": [
+   {
+    "sha": "9db3d94bd",
+    "subject": "dev.places@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "dc0d6a062",
+    "subject": "dev.places@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "4812fc161",
+    "subject": "dev.places@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "8b243d284",
+    "subject": "dev.places@PrompTugal.dinis: merge dev",
+    "files": 0
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 13,
+  "tool_calls": 29,
+  "in_mandate": 29,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

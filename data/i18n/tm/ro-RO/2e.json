@@ -1,0 +1,50 @@
+{
+ "2e08790bc444c605": {
+  "t": "Un profesor de informatică a spus agenției Lusa că modelele portugheze, mai mici și deschise, ale universității ating performanțe comparabile cu modelele marilor companii tech la unele sarcini și că un model portughez și galițian este deja disponibil companiilor.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A professor of informatics told Lusa that the university's s",
+  "ok": false
+ },
+ "2e513ec94d637d09": {
+  "t": "Braga, ai ai ai: un oraș care trage clopotele pentru arhiepiscop duminica și își antrenează modelele luni, cu un autobuz plin de camere cu inteligență artificială care numără cine a parcat în stația de autobuz.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Braga, ai ai ai: a city that rings its bells for the archbis",
+  "ok": false
+ },
+ "2e7c775df10f0748": {
+  "t": "Proiectul SiARA combină inteligența artificială, un robot autonom de câmp numit EVAbot și o rețea de senzori pentru a colecta date despre culturi, sol, pășuni și fauna sălbatică din stepa Campo Branco. A început în noiembrie 2025, iar primele lucrări de teren au avut loc pe 3 martie 2026. Proiectul a fost recunoscut în categoria de cercetare-dezvoltare mobilizatoare a programului Promove.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The SiARA project combines AI, an autonomous field robot cal",
+  "ok": false
+ },
+ "2ecaf3860065acde": {
+  "t": "PrompTugal.news Braga, a cidade dos arcebispos e das startups: inteligență artificială și tehnologie în Braga, cu Minho, universitatea, INL și laboratoarele companiilor gândind, plus orice știri ajung la noi din Minho, Portugalia și lume. Independente, iar fiecare fapt are chitanță.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Braga, a cidade dos arcebispos e das startup",
+  "ok": false
+ },
+ "2ece8b1cdbda1ec5": {
+  "t": "Évora, ó pá: un oraș de var alb, stejari de plută și pietre vechi, unde mașinile învață să vorbească portugheza, încet, calminha, cum se face în Alentejo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Évora, ó pá: a city of whitewash, cork oaks and old stones w",
+  "ok": false
+ },
+ "2ed694a2fcc0cf7e": {
+  "t": "PrompTugal.news Lisboa, a capital que nunca dorme: inteligență artificială și tehnologie în Lisboa, cu universitățile și Unicorn Factory ca mari minți, plus orice știri ajung din Portugalia, Europa și lume. Independente, iar fiecare fapt vine cu chitanță.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Lisboa, a capital que nunca dorme: AI and te",
+  "ok": false
+ }
+}

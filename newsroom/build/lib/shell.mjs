@@ -111,7 +111,6 @@ ${seoHead(page, site)}
 <body class="type-${esc(type || 'site')}${front ? ' page-front' : ''}">
 <a class="skip" href="#main">Skip to the content</a>
 ${PAUSED_OF(S)}
-<p class="getapp"><a href="https://testflight.apple.com/join/2afhStnX" target="_blank" rel="noopener"><b>Get the PrompTugal app</b> for iPhone and iPad, free on TestFlight <span aria-hidden="true">›</span></a></p>
 <div id="nr-live" data-start="${S.countdown.start}" data-end="${S.countdown.end}"></div>
 ${emastHead({ up, href, site, section, shortDate, WORDMARK })}
 ${ctopHead({ up, href, site, section, shortDate, WORDMARK })}
