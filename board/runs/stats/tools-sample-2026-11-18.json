@@ -1,14 +1,255 @@
-{"date":"2026-11-18","kind":"aggregate sample: tool names, hosts and counts only, from the newest assistant events each list_events page could return (window sizes vary)","limits":["a short window per session, not the whole run","pages over the size limit could not be read: journalist, designer, security, dev, place.algarve.*, and batch 3 where noted","hosts come from tool inputs only; hosts reached inside scripts (e.g. a collector run by Bash) are not visible to telemetry"],
-"sessions":{
-"place.districts":{"events":22,"tools":{"Bash":9,"ReadNotifications":5},"hosts":{},"subagents":0,"refusals":0},
-"correspondent":{"events":19,"tools":{"ReadNotifications":5,"Bash":6},"hosts":{},"subagents":0,"refusals":0},
-"datasci.places":{"events":23,"tools":{"ReadNotifications":4,"Bash":8},"hosts":{},"subagents":0,"refusals":0},
-"researcher":{"events":5,"tools":{"Bash":2,"ReadNotifications":1},"hosts":{},"subagents":0,"refusals":0},
-"ontologist":{"events":5,"tools":{"Monitor":1},"hosts":{},"subagents":0,"refusals":0},
-"dev.places":{"events":13,"tools":{"Bash":6},"hosts":{},"subagents":0,"refusals":0},
-"designer.places":{"events":21,"tools":{"ReadNotifications":4,"Bash":8},"hosts":{},"subagents":0,"refusals":0},
-"translator":{"events":8,"tools":{"Bash":3},"hosts":{},"subagents":0,"refusals":0},
-"outreach":{"events":7,"tools":{"Monitor":1,"Bash":2},"hosts":{},"subagents":0,"refusals":0},
-"sherpa":{"events":9,"tools":{"Bash":5},"hosts":{"promptugal.news":7},"subagents":0,"refusals":0},
-"librarian":{"events":8,"tools":{"Bash":1,"ReadNotifications":1},"hosts":{},"subagents":0,"refusals":0}},
-"observations":["no connector, trigger, session or workflow call seen in any window read","sherpa@ and translator@ status text mention sub-agent passes; none appears in the short window read (a window limit, not a breach)"]}
+{
+ "date": "2026-11-18",
+ "kind": "aggregate sample: tool names, hosts and counts only, from the newest assistant events each list_events page could return (window sizes vary)",
+ "limits": [
+  "a short window per session, not the whole run",
+  "pages over the size limit could not be read: journalist, designer, security, dev, place.algarve.*, and batch 3 where noted",
+  "hosts come from tool inputs only; hosts reached inside scripts (e.g. a collector run by Bash) are not visible to telemetry"
+ ],
+ "sessions": {
+  "place.districts": {
+   "events": 22,
+   "tools": {
+    "Bash": 9,
+    "ReadNotifications": 5
+   },
+   "hosts": {},
+   "subagents": 0,
+   "refusals": 0
+  },
+  "correspondent": {
+   "events": 19,
+   "tools": {
+    "ReadNotifications": 5,
+    "Bash": 6
+   },
+   "hosts": {},
+   "subagents": 0,
+   "refusals": 0
+  },
+  "datasci.places": {
+   "events": 23,
+   "tools": {
+    "ReadNotifications": 4,
+    "Bash": 8
+   },
+   "hosts": {},
+   "subagents": 0,
+   "refusals": 0
+  },
+  "researcher": {
+   "events": 5,
+   "tools": {
+    "Bash": 2,
+    "ReadNotifications": 1
+   },
+   "hosts": {},
+   "subagents": 0,
+   "refusals": 0
+  },
+  "ontologist": {
+   "events": 5,
+   "tools": {
+    "Monitor": 1
+   },
+   "hosts": {},
+   "subagents": 0,
+   "refusals": 0
+  },
+  "dev.places": {
+   "events": 13,
+   "tools": {
+    "Bash": 6
+   },
+   "hosts": {},
+   "subagents": 0,
+   "refusals": 0
+  },
+  "designer.places": {
+   "events": 21,
+   "tools": {
+    "ReadNotifications": 4,
+    "Bash": 8
+   },
+   "hosts": {},
+   "subagents": 0,
+   "refusals": 0
+  },
+  "translator": {
+   "events": 8,
+   "tools": {
+    "Bash": 3
+   },
+   "hosts": {},
+   "subagents": 0,
+   "refusals": 0
+  },
+  "outreach": {
+   "events": 7,
+   "tools": {
+    "Monitor": 1,
+    "Bash": 2
+   },
+   "hosts": {},
+   "subagents": 0,
+   "refusals": 0
+  },
+  "sherpa": {
+   "events": 9,
+   "tools": {
+    "Bash": 5
+   },
+   "hosts": {
+    "promptugal.news": 7
+   },
+   "subagents": 0,
+   "refusals": 0
+  },
+  "librarian": {
+   "events": 8,
+   "tools": {
+    "Bash": 1,
+    "ReadNotifications": 1
+   },
+   "hosts": {},
+   "subagents": 0,
+   "refusals": 0
+  },
+  "abp": {
+   "events": 9,
+   "tools": {
+    "Monitor": 2,
+    "ReadNotifications": 1,
+    "Bash": 1
+   },
+   "hosts": {},
+   "subagents": 0,
+   "refusals": 0
+  },
+  "data.b": {
+   "events": 11,
+   "tools": {
+    "Bash": 4,
+    "Agent": 1,
+    "send_message": 1
+   },
+   "hosts": {
+    "public sites (20 hosts, .pt government, councils, universities, tourism; curl by a sub-agent)": 20
+   },
+   "subagents": 1,
+   "refusals": 0
+  },
+  "weather.b": {
+   "events": 13,
+   "tools": {
+    "send_message": 1,
+    "ReadNotifications": 1,
+    "Bash": 3
+   },
+   "hosts": {},
+   "subagents": 0,
+   "refusals": 0
+  },
+  "civic.b": {
+   "events": 10,
+   "tools": {
+    "send_message": 2,
+    "ReadNotifications": 1,
+    "Bash": 3
+   },
+   "hosts": {},
+   "subagents": 0,
+   "refusals": 0
+  },
+  "startups.b": {
+   "events": 3,
+   "tools": {
+    "Bash": 1,
+    "send_message": 1
+   },
+   "hosts": {},
+   "subagents": 0,
+   "refusals": 0
+  },
+  "travel.b": {
+   "events": 7,
+   "tools": {
+    "Bash": 3,
+    "send_message": 1
+   },
+   "hosts": {
+    "localhost": 1
+   },
+   "subagents": 0,
+   "refusals": 0
+  },
+  "events.b": {
+   "events": 7,
+   "tools": {
+    "Bash": 3,
+    "send_message": 1
+   },
+   "hosts": {
+    "events.promptugal.news": 2
+   },
+   "subagents": 0,
+   "refusals": 0
+  },
+  "signals.b": {
+   "events": 12,
+   "tools": {
+    "Bash": 7
+   },
+   "hosts": {},
+   "subagents": 0,
+   "refusals": 0
+  },
+  "library.b": {
+   "events": 14,
+   "tools": {
+    "Bash": 2,
+    "WebSearch": 2,
+    "WebFetch": 4,
+    "Write": 1
+   },
+   "hosts": {
+    "www.youtube.com": 1,
+    "www.euronews.com": 1,
+    "thenextweb.com": 1,
+    "www.irishtimes.com": 1,
+    "www.portugalresident.com": 1,
+    "promptugal.news": 2,
+    "websummit.com": 2
+   },
+   "subagents": 1,
+   "refusals": 0
+  },
+  "videos.b": {
+   "events": 13,
+   "tools": {
+    "Bash": 6,
+    "SubagentHandback": 1
+   },
+   "hosts": {},
+   "subagents": 1,
+   "refusals": 0
+  },
+  "conductor.b": {
+   "events": 7,
+   "tools": {
+    "ReadNotifications": 1,
+    "send_message": 1
+   },
+   "hosts": {},
+   "subagents": 0,
+   "refusals": 0
+  }
+ },
+ "observations": [
+  "no connector, trigger, session or workflow call seen in any window read",
+  "sherpa@ and translator@ status text mention sub-agent passes; none appears in the short window read (a window limit, not a breach)",
+  "send_message (claude-code-remote) to another session seen from conductor.b and 6 site leads; whether the grants allow it is for abp@ to decide",
+  "library.b main session curled websummit.com twice (status codes); a pre-review in its batch said no machine reads of websummit.com: for abp@ to review",
+  "data.b sub-agent curled about 20 public hosts (government, councils, universities, tourism)"
+ ]
+}

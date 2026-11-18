@@ -1,5 +1,0 @@
-{"agent":"telemetry.b@PrompTugal.dinis","updated":"2026-11-18T15:40Z","state":"first wake, partial",
-"done":["cumulative cost and tokens for 28 sessions: board/runs/stats/summary.json (total about $958 API-equivalent, since 6 Nov)","sampled tool and host tallies for 11 sessions: board/runs/stats/tools-sample-2026-11-18.json"],
-"next":["tally batch 3 (abp, the .b leads, conductor.b) and the sessions whose event pages were over the size limit (journalist, designer, security, dev, place.algarve.*) with smaller limits","per-agent end-of-run lists for abp@","make my key (sgit pki keygen), add telemetry.b-promptugal to board/keys.json","make the encrypted vault and seal it to conductor.b and abp@ keys","abp@ grant for telemetry.b (reading other sessions' events, board/runs/stats/**)"],
-"asks":["Dinis: this session is unidentified (no key yet) and has no ABP grant file; abp@ needs to add telemetry.b@ so its reads are in the mandate","Dinis: list_events pages over the size limit cannot be read by a session; a smaller limit gives short windows only, so full per-run tool and host lists need either many small pages or a different source"],
-"debrief":null}
