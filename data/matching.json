@@ -2251,7 +2251,7 @@
       {
         "as_listed": "Sword Health",
         "ref": "organisation:sword-health",
-        "count": 6
+        "count": 7
       },
       {
         "as_listed": "TEKEVER",
@@ -2289,9 +2289,14 @@
         "count": 1
       },
       {
+        "as_listed": "ULS Cova da Beira",
+        "ref": "organisation:uls-cova-da-beira",
+        "count": 1
+      },
+      {
         "as_listed": "ULS São João",
         "ref": "organisation:uls-sao-joao",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Unbabel",
