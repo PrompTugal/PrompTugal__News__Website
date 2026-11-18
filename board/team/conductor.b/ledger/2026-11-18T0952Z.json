@@ -1,0 +1,110 @@
+{
+  "about": "Usage on account B, API-equivalent dollars (not real costs), cumulative per session since its start: the 19 sessions restarted 16 Nov ~19:28 UTC, the five site leads started 18 Nov 09:28 UTC; conductor.b@ cumulative since 6 Nov.",
+  "account": "B",
+  "read_at": "2026-11-18T09:52Z",
+  "previous": "2026-11-18T0651Z.json (404.71)",
+  "restarted_sessions_total_usd": 435.64,
+  "site_leads_total_usd": 28.24,
+  "rows": [
+    {
+      "agent": "conductor.b",
+      "api_equivalent_usd": 213.28
+    },
+    {
+      "agent": "journalist",
+      "api_equivalent_usd": 32.97
+    },
+    {
+      "agent": "dev",
+      "api_equivalent_usd": 43.55
+    },
+    {
+      "agent": "designer",
+      "api_equivalent_usd": 53.64
+    },
+    {
+      "agent": "security",
+      "api_equivalent_usd": 57.63
+    },
+    {
+      "agent": "place.algarve.west",
+      "api_equivalent_usd": 18.59
+    },
+    {
+      "agent": "place.algarve.central",
+      "api_equivalent_usd": 17.78
+    },
+    {
+      "agent": "place.algarve.east",
+      "api_equivalent_usd": 15.51
+    },
+    {
+      "agent": "place.districts",
+      "api_equivalent_usd": 26.01
+    },
+    {
+      "agent": "correspondent",
+      "api_equivalent_usd": 12.18
+    },
+    {
+      "agent": "datasci.places",
+      "api_equivalent_usd": 9.47
+    },
+    {
+      "agent": "researcher",
+      "api_equivalent_usd": 22.1
+    },
+    {
+      "agent": "ontologist",
+      "api_equivalent_usd": 22.02
+    },
+    {
+      "agent": "dev.places",
+      "api_equivalent_usd": 16.98
+    },
+    {
+      "agent": "designer.places",
+      "api_equivalent_usd": 15.01
+    },
+    {
+      "agent": "translator",
+      "api_equivalent_usd": 27.89
+    },
+    {
+      "agent": "outreach",
+      "api_equivalent_usd": 11.65
+    },
+    {
+      "agent": "sherpa",
+      "api_equivalent_usd": 9.94
+    },
+    {
+      "agent": "librarian",
+      "api_equivalent_usd": 13.45
+    },
+    {
+      "agent": "abp",
+      "api_equivalent_usd": 9.27
+    },
+    {
+      "agent": "data.b",
+      "api_equivalent_usd": 9.04
+    },
+    {
+      "agent": "weather.b",
+      "api_equivalent_usd": 3.95
+    },
+    {
+      "agent": "civic.b",
+      "api_equivalent_usd": 4.67
+    },
+    {
+      "agent": "startups.b",
+      "api_equivalent_usd": 5.3
+    },
+    {
+      "agent": "travel.b",
+      "api_equivalent_usd": 5.28
+    }
+  ]
+}
