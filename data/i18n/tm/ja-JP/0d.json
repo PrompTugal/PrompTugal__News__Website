@@ -1,0 +1,50 @@
+{
+ "0d16df2ddd409a64": {
+  "t": "旧市街の市営コワーキングスペースには20の作業席があり、2023年11月から満席が続いている。GDG Lagos と組んで AI イベントも開いている。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The municipal coworking space in the old town has 20 worksta",
+  "ok": false
+ },
+ "0d2fe9cc4f8c4c95": {
+  "t": "AI 回答ツール(ChatGPT、Gemini、Claude、Perplexity、Google AI Overviews)がオンライン検索と企業の可視性をどう変えるかを、AEO と GEO の講演とともに論じる、Faro での英語による無料パネル。Flow Productions が Algarve STP と共催する。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A free English-language panel in Faro on how AI answer tools",
+  "ok": false
+ },
+ "0d6afb2528c7f8d1": {
+  "t": "NOVA の社会科学部が主導し、Gulbenkian Foundation が後援した調査は、ジャーナリスト295人の回答に基づき、報道現場で AI を責任をもって使うための10の措置を提案している。UTAD の講師がプロジェクトチームに加わった。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A study led by NOVA's social sciences faculty and promoted b",
+  "ok": false
+ },
+ "0d8fb3014c735381": {
+  "t": "市当局はデジタル都市管理プラットフォームを導入しており、その AI モジュールは書類の提出時に内容を確認し、不備のある案件を保留する。市当局によると、許認可担当部署の処分の約7割は書類の訂正を求めるもので、年間約5,000件の許可申請を受けている。職員研修は7月に始まり、数か月以内に全面運用に入る見込みだ。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council is rolling out a digital urban-management platfo",
+  "ok": false
+ },
+ "0dbee8cf4d00067c": {
+  "t": "Neuraspace、AI による宇宙交通インテリジェンスで1,560万ユーロを調達",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Neuraspace raises 15.6 million euros for AI space-traffic in",
+  "ok": false
+ },
+ "0de436ae73ac7694": {
+  "t": "UTAD が主導する AITriage4SU プロジェクトは1月31日に Porto で約200人が参加する科学会合を開き、成人の救急トリアージにおける AI を議論した。チームは、大規模言語モデルが自由記述のトリアージ主訴を標準化する様子を、最初の成果とともに示した。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The AITriage4SU project, led from UTAD, held a scientific me",
+  "ok": false
+ }
+}

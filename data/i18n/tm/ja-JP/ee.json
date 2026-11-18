@@ -1,0 +1,34 @@
+{
+ "ee4c08b01103b577": {
+  "t": "経営者たちがCNEMAに集まり、AIはどう輸出を押し上げられるかを問う",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Bosses meet at CNEMA to ask how AI can lift exports",
+  "ok": false
+ },
+ "ee729e277a3b251e": {
+  "t": "Faroの新しいLusíadas病院、AIネイティブをうたう",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "New Lusiadas hospital in Faro is billed as native to AI",
+  "ok": false
+ },
+ "eee11811f1446db3": {
+  "t": "Despacho n.º 34/2026は、教師と学生に、AIの利用について透明性を保ち、課題で申告し、個人データを保護するよう求めている。作業部会と学術コミュニティからの37件の意見を経たもので、第2学期の後に見直される予定である。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Despacho n.º 34/2026 asks teachers and students to be transp",
+  "ok": false
+ },
+ "eef27e94e29eb6bc": {
+  "t": "FCTは、救急外来での成人患者のトリアージ判断を支えるAIモデルを探る、総予算約12万4000ユーロのプロジェクトを承認した。パートナーには、INESC TECのUTAD拠点、INEGI、ポルトの病院ユニットが含まれる。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The FCT approved a project to explore AI models that support",
+  "ok": false
+ }
+}

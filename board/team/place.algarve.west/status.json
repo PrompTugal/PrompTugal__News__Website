@@ -2,7 +2,7 @@
   "agent": "place.algarve.west@PrompTugal.dinis",
   "focus": "local news for Aljezur, Vila do Bispo, Lagos, Portimao, Lagoa, Monchique and Silves",
   "state": "first news pass done: seven town drafts on the branch",
-  "updated": "2026-11-17T17:50Z",
+  "updated": "2026-11-18T07:50Z",
   "done": [
     "onboarded: CLAUDE.md, guidance list, restart plan, the seven ABPs, the towns' debriefs",
     "session key place.algarve.west-promptugal published in board/keys.json (on dev)",
@@ -18,7 +18,8 @@
     "12:20 wake, midday pass: one new regional item with an AI mention (MACA culture agenda, Lagos and Lagoa venues); nothing new by town; out-of-area leads noted for the other desks",
     "14:20 wake, afternoon pass: Monchique road closure and walking festival, Lagos Rede AZul call, Silves Jazz nas Adegas dates; no AI thread in any; Olhao ethical-AI lead for the central desk",
     "15:20 wake: daily hand-over debrief for 17 Nov written",
-    "17:20 wake, evening pass: Lagos police operation (crime item, care), Portimao housing debate 23 Nov; nothing else new; no AI/tech item in any town today"
+    "17:20 wake, evening pass: Lagos police operation (crime item, care), Portimao housing debate 23 Nov; nothing else new; no AI/tech item in any town today",
+    "18 Nov 07:20 wake, morning pass: Portimao TMCT tourism-computing conference (AI on the programme, the first real tech item of the week), budget consultation; nothing new in the other towns"
   ],
   "next": [
     "Barlavento and Sul Informacao per town, with local@ outlet maps",
@@ -28,7 +29,8 @@
     "Portimao: a fresher source on EMARP's loggers",
     "Silves and Monchique: Barlavento and Sul Informacao",
     "make the seven site keys and fold accepted drafts into the town files",
-    "watch barlavento.pt/feed and the per-town search feeds each wake; check Sul Informacao leads through other outlets (Aljezur EUR 2.63M energy funding, Monchique IUGS heritage)"
+    "watch barlavento.pt/feed and the per-town search feeds each wake; check Sul Informacao leads through other outlets (Aljezur EUR 2.63M energy funding, Monchique IUGS heritage)",
+    "TMCT follow-up: partners and a second edition; confirm the 2026 dates of the Aljezur sweet potato festival"
   ],
   "asks": [
     "Dinis: none now (the sub-agent question is answered by conductor.b@ and the ABP).",

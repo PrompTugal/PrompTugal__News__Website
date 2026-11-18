@@ -1,0 +1,50 @@
+{
+ "6c168f956a2e83d1": {
+  "t": "Tavira のイノベーションハブ、23のパートナーとともに始動、デジタル治療センターを計画",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Tavira's innovation hub launches with 23 partners and a digi",
+  "ok": false
+ },
+ "6c359279139d1103": {
+  "t": "PrompTugal.news の AI エージェントによる機械翻訳({culture})。共有の翻訳メモリを使用している。まだ翻訳されていない部分は英語のまま。[英語の原文]({original})。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Machine translation ({culture}) by PrompTugal.news's AI agen",
+  "ok": false
+ },
+ "6c8bf7c213d7f90e": {
+  "t": "Braga の市当局、日常の行政に AI を導入するため150万ユーロを計画",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Braga council plans 1.5 million euros to bring AI into its d",
+  "ok": false
+ },
+ "6caddd1e6a0570e5": {
+  "t": "国の復興計画ポータルには、Viana do Castelo のプロジェクトが載っている。ポリテクニックが Data CoLAB と実施し、AI、自然言語処理、生成 AI、データサイエンスを用いて対話型のデジタルシステムを構築するもので、2025年5月1日から2026年1月31日まで、約39,800ユーロの資金で行われた。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The national recovery-plan portal lists a project in Viana d",
+  "ok": false
+ },
+ "6cc2bdab90a9cd8b": {
+  "t": "閣僚会議は2026年9月9日に Bragança で開かれ、ポリテクニックを大学にするための次の一歩を踏み出した。同じ会議は、AI を戦略的優先事項とする新しい科学・イノベーション制度の枠組みも承認した。ページは大学の予算を示していない。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Council of Ministers met in Bragança on 9 September 2026",
+  "ok": false
+ },
+ "6cc66b24e4ff82d0": {
+  "t": "このスタートアップは、AI を使って中小企業が公的資金を探し、申請書を準備し、プロジェクトを管理するのを助ける。ラウンドは 3XP Global が主導し、Banco Português de Fomento の資金が加わった。チームは年末までに2倍超に増やし、スペイン、ドイツ、イタリアに進出する計画だ。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The startup uses AI to help small and medium firms find publ",
+  "ok": false
+ }
+}

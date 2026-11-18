@@ -1,0 +1,50 @@
+{
+ "a51f96c2293bce6d": {
+  "t": "AIとセンサーが、Portimãoの川岸をインタラクティブなライトショーに変える",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AI and sensors turn Portimão's riverside into an interactive",
+  "ok": false
+ },
+ "a540cb47bbba9f83": {
+  "t": "ポリテクニック、AIツールに関する規則を発表",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The polytechnic issues its rules for AI tools",
+  "ok": false
+ },
+ "a59069bec2b29c00": {
+  "t": "Leiria のAI食品工場スタートアップBrainr、記録的なシードラウンドを拡大",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Brainr, the Leiria AI food-factory startup, extends its reco",
+  "ok": false
+ },
+ "a59f1749796b2268": {
+  "t": "APDCとGoogle、公務員向けAIコースを開始、Coimbraで始動",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "APDC and Google start an AI course for civil servants, kicke",
+  "ok": false
+ },
+ "a5e56e75b8fadd24": {
+  "t": "正直に言うよ、amigo。見つけられなかったことは多い。8月の午後2時に日陰を探すようなものだ:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Honestly, meu amigo, here is what we could not find, and it ",
+  "ok": false
+ },
+ "a5f2c7318be1c9ed": {
+  "t": "**このサイトのアイデンティティ:** PrompTugal.news {name}は独自の鍵{key}(署名フィンガープリント{fp})を持ち、[board/keys.json]({keys})で公開されている。調査ファイル`{file}`は{agent}が保管し、この鍵で署名されていて、署名はこの鍵で検証される。**署名は有効**。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** PrompTugal.news {name} has its own",
+  "ok": false
+ }
+}

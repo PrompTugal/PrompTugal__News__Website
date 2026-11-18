@@ -1,0 +1,26 @@
+{
+ "e2d661426a0261de": {
+  "t": "Universidade Politécnica de SantarémのEscola Superior de Educaçãoは、2026年10月7日に、社会教育専攻の1年生向けに、AIで作られたテキストがどのように意味と論証を生むかを、ブラジルのテキスト言語学の観点から解説する公開授業を、地域の誰もが参加できる形で開いた。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Escola Superior de Educação of the Universidade Politécn",
+  "ok": false
+ },
+ "e2ddef7c68fb2893": {
+  "t": "地域紙協会、Vila Realで編集部におけるAIを議論",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Regional press association debates AI in newsrooms in Vila R",
+  "ok": false
+ },
+ "e2e77efaff9108b6": {
+  "t": "Loulé市が進めるQuarteira Labの脱炭素プロジェクトの一環として、Avenida Dr. Carlos Mota Pintoの交差点に、人と自転車のカウンターが設置された。データは集約プラットフォームに送られ、デジタルパネルとモバイルアプリに届けられる予定である。記事にAIへの言及はない。文脈のために残している古い項目である。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "As part of the Quarteira Lab decarbonisation project run by ",
+  "ok": false
+ }
+}
