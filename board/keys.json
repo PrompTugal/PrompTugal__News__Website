@@ -4188,6 +4188,23 @@
       },
       "status": "active",
       "source": "https://github.com/PrompTugal/PrompTugal__News__Travel/blob/dev/team/keys.json (made with sgit pki at Dinis's word in its session, 18 Nov 2026)"
+    },
+    {
+      "id": "signals.b-promptugal",
+      "label": "signals.b@PrompTugal.dinis (Claude Code session)",
+      "agent": "signals.b@PrompTugal.dinis",
+      "role": "Lead of signals.promptugal.news (PrompTugal/PrompTugal__News__Signals). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 18 November 2026 with the installed `sgit pki keygen` (sgit-ai v0.27.0), at Dinis's word of 18 November 2026 (board/guidance/2026-11-18-keys-issues-rebuilds-observability.md in PrompTugal__News__Website); public bundle from `sgit pki export`. Not yet listed in PrompTugal__News__Website's board/keys.json, kept at team/keys.json here because this repository's leak scan allows public keys only there (conductor.b@ lists it).",
+      "added": "2026-11-18",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1m3DVXJXHN/zSCGZAXxf\nDCGQvslwKRgrz2T/uxNwpk+kiD+R/rua3r9VvuqylvEDAqRHvwsYv+Q24/ger1zC\nHRWCOqJn6f3o8vUQBY7EWZlzPWRuXEalDma+Mgkr9KGb4lN+7GYfLdrF+2xQdlOA\nvKgIXPBW60SAlx0ZHeWtyK0CJSkqvW+7tzhDbkqNGN+k2VuHk/CayKwEhIGtEcm2\nNy5eKrrDRh1BLUi6Ef3TTzacgNSfOLypDKYowU8rVGdvxqjLIVi2fo6/yLjDvDtS\nPanCjjzXJdL9YStmf/NidrRunkcC+K9Xrb2n5cJBxUbe6tZI1DWa/kSSagGZ8shq\nv6I4VAtm9CdP+FLe6eRis5oGdQ+lX+LEXlqBXF95lMByzYCVJD9dRdIsPFBFjHvN\n0XDpQmj9cLeqFi4Oy+GPPU52bOWU1Upjb7TaX9PUE3DHL547iOlxyHLQBk3Fltk+\nV+G6qWqr+LKR9kPKGQCL2izUi7ayM0flCubxb4+4uVtzkFu2eKn095BEDWEjr56z\nyJOvaDNH0QygLkq4gsOynyBgkYMx/I8L02cIuLoI1EyNtmMDM1tFI/MBMAiGeZbT\nyK4WqOAiKZIOSuNUFGBOg9A2DNwwJqqqWV8CXuvMcBgQ2pev1Lb1CFhCTCaj05Gw\n9tIdnsNL8f2yMQQgdRHXL6UCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyzcNQUFI64aEfwOExUdli21TBK3j\nhngqzce6gWBronCb2azOLzVgNweTQ99LqrMMzplDD3nSAEuGCfZj9nuOIw==\n-----END PUBLIC KEY-----\n",
+        "label": "signals.b-promptugal",
+        "fingerprint": "sha256:618f6465dbb2ae65",
+        "signing_fingerprint": "sha256:e10f171e56b8faf6"
+      },
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Signals/blob/dev/team/keys.json (made with sgit pki in signals.b@'s session, 18 Nov 2026, under Dinis's keys guidance)"
     }
   ]
 }
