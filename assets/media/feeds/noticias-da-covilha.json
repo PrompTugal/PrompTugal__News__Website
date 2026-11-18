@@ -1,32 +1,32 @@
 {
  "id": "noticias-da-covilha",
  "feed": "https://noticiasdacovilha.pt/feed/",
- "read_at": "2026-11-17T00:13Z",
+ "read_at": "2026-11-18T15:05Z",
  "items": [
+  {
+   "title": "“Míscaros” é no Alcaide",
+   "link": "https://noticiasdacovilha.pt/miscaros-e-no-alcaide/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Passe social único de 30 euros vai ter que esperar",
+   "link": "https://noticiasdacovilha.pt/passe-social-unico-de-30-euros-vai-ter-que-esperar/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Faculdade de Ciências da Saúde distinguida",
+   "link": "https://noticiasdacovilha.pt/faculdade-de-ciencias-da-saude-distinguida/",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Santa Bebiana regressa ao Paul",
+   "link": "https://noticiasdacovilha.pt/santa-bebiana-regressa-ao-paul/",
+   "date": "2026-11-17"
+  },
   {
    "title": "Quase 200 na rua por uma casa na Covilhã",
    "link": "https://noticiasdacovilha.pt/quase-200-na-rua-por-uma-casa-na-covilha/",
    "date": "2026-11-16"
-  },
-  {
-   "title": "Natal na Covilhã volta a ter “mega bolo” Nevão",
-   "link": "https://noticiasdacovilha.pt/natal-na-covilha-volta-a-ter-mega-bolo-nevao/",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "Alunos criam uma “nova” Covilhã",
-   "link": "https://noticiasdacovilha.pt/alunos-criam-uma-nova-covilha/",
-   "date": "2026-11-12"
-  },
-  {
-   "title": "“LATA 65 leva Arte às aldeias” da Covilhã",
-   "link": "https://noticiasdacovilha.pt/lata-65-leva-arte-as-aldeias-da-covilha/",
-   "date": "2026-11-12"
-  },
-  {
-   "title": "Leão volta a cair no fim da primeira volta",
-   "link": "https://noticiasdacovilha.pt/leao-volta-a-cair-no-fim-da-primeira-volta/",
-   "date": "2026-11-09"
   }
  ]
 }

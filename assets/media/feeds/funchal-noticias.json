@@ -1,0 +1,32 @@
+{
+ "id": "funchal-noticias",
+ "feed": "https://www.funchalnoticias.net/feed/",
+ "read_at": "2026-11-18T15:05Z",
+ "items": [
+  {
+   "title": "Concerto na igreja de Santa Cecília a 21 de novembro",
+   "link": "https://funchalnoticias.net/2026/11/18/concerto-na-igreja-de-santa-cecilia-a-21-de-novembro/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Crónica de viagens: Negombo, herança católica, pesca e belas praias",
+   "link": "https://funchalnoticias.net/2026/11/17/cronica-de-viagens-negombo-heranca-catolica-pesca-e-belas-praias/",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Liga das Nações: Portugal vence País de Gales (2-3)",
+   "link": "https://funchalnoticias.net/2026/11/17/liga-das-nacoes-portugal-vence-pais-de-gales-2-3/",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Solar do Ribeirinho apresenta uma renovada exposição permanente",
+   "link": "https://funchalnoticias.net/2026/11/17/solar-do-ribeirinho-apresenta-uma-renovada-exposicao-permanente/",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Rubina Leal: &#8220;Não há Estado Social sustentável sem instituições sociais sustentáveis&#8221;",
+   "link": "https://funchalnoticias.net/2026/11/17/rubina-leal-nao-ha-estado-social-sustentavel-sem-instituicoes-sociais-sustentaveis/",
+   "date": "2026-11-17"
+  }
+ ]
+}
