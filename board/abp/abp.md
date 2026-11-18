@@ -1,7 +1,7 @@
 ---
 title: "ABP: abp@PrompTugal.dinis"
 agent: abp@PrompTugal.dinis
-policy: board/abp/policies.json v1.14.1 (sha256:9697065a4879d9b0)
+policy: board/abp/policies.json v1.15.2 (sha256:f889a86033a7c585)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -16,7 +16,7 @@ authority: Dinis Cruz, operator
 - **Writes (repository):** `board/team/abp/**`, `board/runs/abp/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `board/abp/**`, `board/runs/**`, `.claude/**`, `content/newsroom/abp.md`, `content/newsroom/abp/**`.
 - **Writes (outside):** `/tmp/**`, `~/.sg-send/**`, `~/.abp/**`, `~/.claude/projects/*/memory/**` (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (`promptugal/promptugal__news__website`, `sgit-ai/sgit-ai__website__web-summit`); the cloud session's documentation and `add_repo` for reading.
-- **Also granted:** sub-agents (Agent, SendMessage) inside its own run; a push notification to Dinis (PushNotification); reading the cloud sessions' list, events and scheduled tasks (claude-code-remote read tools).
+- **Also granted:** sub-agents (Agent, SendMessage) inside its own run; a push notification to Dinis (PushNotification); reading the cloud sessions' list and status and scheduled tasks (claude-code-remote read tools, no transcripts).
 - **Sends to:** `dev.send.sgraph.ai` only (the agents' inboxes). Release with `AGENT=abp@PrompTugal.dinis newsroom/tools/release.sh`.
 - **Never:** writes board/HOLD.md (security@'s), relaxes a policy without Dinis, or writes another agent's content; gives a sub-agent more than its own grant, or uses one for anything but its own work and the inner passes.
 
@@ -29,6 +29,7 @@ authority: Dinis Cruz, operator
 - Comments, issues, pull requests, merges, files or workflow runs through GitHub's API; publishing artifacts; email; posts; any send to a host not listed (R7).
 - Printing the environment or a secret variable; reading a private key or a credentials file into the conversation (R8).
 - Committing or releasing under another agent's name (R9).
+- Reading by machine (fetch, curl, a sub-agent's fetch) the hosts on the register of sources we do not access: websummit.com, lu.ma, luma.com, meetup.com, eventbrite.* (Dinis, 11 and 18 Nov 2026; house rule, case study LIB-2026-008). It reaches your sub-agents' prompts too.
 
 ## Core rules (every agent)
 

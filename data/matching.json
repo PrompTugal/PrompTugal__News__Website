@@ -1804,6 +1804,11 @@
         "count": 1
       },
       {
+        "as_listed": "Administração Central do Sistema de Saúde",
+        "ref": "organisation:administracao-central-do-sistema-de-saude",
+        "count": 1
+      },
+      {
         "as_listed": "AgiBot",
         "ref": "organisation:agibot",
         "count": 2
@@ -2252,6 +2257,11 @@
         "as_listed": "Sword Health",
         "ref": "organisation:sword-health",
         "count": 7
+      },
+      {
+        "as_listed": "Sword Health Physio",
+        "ref": "organisation:sword-health-physio",
+        "count": 1
       },
       {
         "as_listed": "TEKEVER",

@@ -1,7 +1,7 @@
 ---
 title: "ABP: data.places@PrompTugal.dinis"
 agent: data.places@PrompTugal.dinis
-policy: board/abp/policies.json v1.14.1 (sha256:9697065a4879d9b0)
+policy: board/abp/policies.json v1.15.2 (sha256:f889a86033a7c585)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -28,6 +28,7 @@ authority: Dinis Cruz, operator
 - Comments, issues, pull requests, merges, files or workflow runs through GitHub's API; publishing artifacts; email; posts; any send to a host not listed (R7).
 - Printing the environment or a secret variable; reading a private key or a credentials file into the conversation (R8).
 - Committing or releasing under another agent's name (R9).
+- Reading by machine (fetch, curl, a sub-agent's fetch) the hosts on the register of sources we do not access: websummit.com, lu.ma, luma.com, meetup.com, eventbrite.* (Dinis, 11 and 18 Nov 2026; house rule, case study LIB-2026-008). It reaches your sub-agents' prompts too.
 
 ## Core rules (every agent)
 

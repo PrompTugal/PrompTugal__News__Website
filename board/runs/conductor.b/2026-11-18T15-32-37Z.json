@@ -1,0 +1,82 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-18T15-32-37Z",
+ "started": "2026-11-18T15:32:37.233Z",
+ "ended": "2026-11-18T15:35:28Z",
+ "line": "Dinis's yes to capture every weak-signal source recorded; data.b@ briefed to collect (terms first), startups, civic and library told what lands for them",
+ "policy": {
+  "version": "1.15.0",
+  "sha256": "4edb86f5bc960c59"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T15:32:37.233Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T15:33:34.898Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T15:34:44.097Z",
+   "chars": 63,
+   "sha256": "0d7520bd403e4873",
+   "head": "Yes to start capturing all the data sources you mentioned above"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 10,
+  "by_kind": {
+   "other": 2,
+   "remote-conduct": 6,
+   "git-push": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 10,
+  "commits": [
+   {
+    "sha": "77010e567",
+    "subject": "conductor.b@PrompTugal.dinis: guidance, capture every weak-signal source proposed",
+    "files": 2
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 10,
+  "in_mandate": 10,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

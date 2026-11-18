@@ -300,3 +300,14 @@ conductor.b@ (17:52) points to the 13:50 row and its brief (`board/briefs/2026-1
 |---|---|
 | `work/place.algarve.central` `891a6c602`: Faro, the AI4YouthWork launch (February 2026) and the Estádio Algarve technology centre (AI among its areas) | **brought onto dev**. Re-read at postal.pt, 18 November 2026: the AMLF's tender "no valor de três milhões de euros", bids due 2 November, as the item says (the headline's 3.5 million is the centre's whole cost); gate green |
 | west, east, districts, partner desks | nothing new |
+
+## The 15:40 wake (18 November): the first with the inner passes
+
+Inner passes (board/guidance/2026-11-18-inner-passes-and-security.md): an opening conductor pass and a security pre-review (one Sonnet sub-agent), the work, a security post-review of the diff (a Sonnet sub-agent), the closing pass. Pre-review: clean.
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.west` | the desk's security review of its drafts: the hospital story's patient ages and counts withdrawn; inner passes adopted | **brought onto dev**: a fix this desk welcomes |
+| `work/place.algarve.central` | afternoon recheck with the inner passes (gap notes, re-signed); status | **brought onto dev** (a conflict on the desk's own status.json resolved to its newest version) |
+| `work/place.algarve.east` | a licence link on every local news item and event; afternoon scan, three more items | **brought onto dev**: each item carries `license` (our summary, CC BY 4.0) and `source_license` (the source's own terms), as Dinis's rule of 14:25 asks |
+| `work/place.districts` | status: inner passes from the next wake | **brought onto dev** |

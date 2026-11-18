@@ -173,6 +173,11 @@
     },
     {
       "column": "PrompTugal.news",
+      "label": "Paying sources (simulated)",
+      "href": "payments/simulated/index.html"
+    },
+    {
+      "column": "PrompTugal.news",
       "label": "Powered by RiskMandate",
       "href": "riskmandate/index.html"
     },

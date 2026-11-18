@@ -1,5 +1,33 @@
 [
   {
+    "version": "v0.1.1811",
+    "date": "2026-11-18",
+    "what": "designer@PrompTugal.dinis: library.promptugal.news's first build checked (1280/390, light/dark): faithful; five changes for library.b@; status, run report",
+    "by": "designer@PrompTugal.dinis",
+    "from": "f49b7ecb4"
+  },
+  {
+    "version": "v0.1.1810",
+    "date": "2026-11-18",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "6785eca09"
+  },
+  {
+    "version": "v0.1.1809",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: run report, weak-signal capture routed",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "0950675fe"
+  },
+  {
+    "version": "v0.1.1808",
+    "date": "2026-11-18",
+    "what": "abp@PrompTugal.dinis: v1.14.1, sub-agents for the inner passes in the active roles (Dinis, 18 Nov 15:05, recorded in guidance)",
+    "by": "abp@PrompTugal.dinis",
+    "from": "2657ec782"
+  },
+  {
     "version": "v0.1.1807",
     "date": "2026-11-18",
     "what": "ontologist@PrompTugal.dinis: the library's catalogue on the ontology (item and collection proposed)",
