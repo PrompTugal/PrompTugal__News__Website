@@ -1,5 +1,40 @@
 [
   {
+    "version": "v0.1.1773",
+    "date": "2026-11-18",
+    "what": "dev@PrompTugal.dinis: 04:08 wake: zh-Hans built; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "7905f616a"
+  },
+  {
+    "version": "v0.1.1772",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 03:48 wake: ledger 0350Z; the five sites still wait on GitHub access",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "02725b124"
+  },
+  {
+    "version": "v0.1.1771",
+    "date": "2026-11-18",
+    "what": "dev@PrompTugal.dinis: 03:08 wake: datasci.places brought; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "f134f1efd"
+  },
+  {
+    "version": "v0.1.1770",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 02:48 wake: observability reconciled with account A's hand-over; the five sites wait on GitHub access",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "94e596d91"
+  },
+  {
+    "version": "v0.1.1769",
+    "date": "2026-11-18",
+    "what": "journalist@PrompTugal.dinis: 02:40 wake: districts' quiet wake brought onto dev; run report",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "0f20c4b90"
+  },
+  {
     "version": "v0.1.1768",
     "date": "2026-11-18",
     "what": "conductor@PrompTugal.dinis: hand-over: observability stays on account A and covers the sub-sites (Dinis)",

@@ -1,0 +1,42 @@
+{
+ "4a40428649b3f526": {
+  "t": "波尔图带着两场人工智能讲座前往巴塞罗那 Smart City Expo",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Porto takes two AI talks to the Smart City Expo in Barcelona",
+  "ok": false
+ },
+ "4a60c4fe3a36c18c": {
+  "t": "在 CCDR Algarve 关于数字化和信息通信技术的创新会议上，SmartCity:Lagoa 的协调员介绍了把人工智能引入地方政府的局限：处理能力、数据保护法、离线数据处理，以及对数据中心的需求。议程还列出一场关于面向阿尔加维各市政府的大语言模型方案的讲座。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "At a CCDR Algarve innovation meeting on digitalisation and I",
+  "ok": false
+ },
+ "4a77daff9895e8f8": {
+  "t": "自 2027 年底起，共享基础设施 2.3 亿欧元，第二座 200 MW 大楼 4.65 亿欧元，紧邻已规划在此的 12,600 块 Blackwell Ultra GPU。Start Campus 负责建设和运营该站点。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "From late 2027, with 230 million euros for shared infrastruc",
+  "ok": false
+ },
+ "4abf0dd6aff0e9b8": {
+  "t": "它把 FCT 和国家创新局合并为一个覆盖整个创新链条的公共机构。仅有这一篇文章在其法令公布之前对此作出描述，因此细节应视为暂定。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "It merges FCT and the National Innovation Agency into one pu",
+  "ok": false
+ },
+ "4aef917b1931fc70": {
+  "t": "阿尔加维大学的 ICArEHB 研究中心获得 3,150 万欧元，其中 1,500 万欧元来自 Horizon Europe 的 Teaming for Excellence，1,650 万欧元来自国家，用于创建 UAlgTec Heritage。它采取人工智能优先的方式保护和研究考古遗产，合作伙伴包括基尔大学、ERA Arqueologia 和 Zartis，预计六年内创造 70 多个高技能岗位。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The University of Algarve's ICArEHB research centre secured ",
+  "ok": false
+ }
+}

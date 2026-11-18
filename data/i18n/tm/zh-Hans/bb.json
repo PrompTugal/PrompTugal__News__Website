@@ -1,0 +1,18 @@
+{
+ "bb8bd70fbb29c9f1": {
+  "t": "Alcoutim把旧EPAC粮仓改建为商务与联合办公中心",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Alcoutim turns the old EPAC granary into a business and cowo",
+  "ok": false
+ },
+ "bbb39214a180b3f3": {
+  "t": "在一场数百名规划专业人士参加的会议上，Loulé市政府宣布了包括人工智能工具在内的多项措施，以减少许可审批的延误。市长说，只要内部官僚障碍还在，单靠技术解决不了问题。文章没有点名这些工具或供应商。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "At a meeting with hundreds of planning professionals, the Lo",
+  "ok": false
+ }
+}

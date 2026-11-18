@@ -1,0 +1,42 @@
+{
+ "1f09eb23683b4117": {
+  "t": "Startup Leiria 计划在市场内设立实体人工智能实验室",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Startup Leiria plans a Physical AI lab in the city's market",
+  "ok": false
+ },
+ "1f89d6a198ce804b": {
+  "t": "这一新业务领域为 Bosch eBikes 构建安全、连接和数字服务。起步约 20 人，预计到 2026 年底翻一番，目标是 2027 年超过 50 人，空缺职位中包括数据科学家。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The new business area builds security, connectivity and digi",
+  "ok": false
+ },
+ "1fa8474f449c05ca": {
+  "t": "市政府支持了 2024 年 3 月一场关于食品质量传感的深度学习工作坊，由大学电子研究中心和一个欧洲研究网络共同组织，有九位国际专家和约 40 名参与者。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council supported a March 2024 workshop on deep learning",
+  "ok": false
+ },
+ "1fc45385ca174033": {
+  "t": "复苏计划中最大的技术议程现由 Sword Health 牵头。该联盟预计今年营业额约 1.5 亿欧元，大部分来自出口，并将 Priberam 和 NeuralShift 列为其产品。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The largest recovery-plan technology agenda is now led by Sw",
+  "ok": false
+ },
+ "1fe47731592596f5": {
+  "t": "Olhão，这里的鱼比宣传册更聪明，而算法还在学着给沙丁鱼开膛。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Olhão, where the fish are smarter than the brochures and the",
+  "ok": false
+ }
+}

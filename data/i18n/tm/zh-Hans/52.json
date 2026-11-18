@@ -1,0 +1,26 @@
+{
+ "52a3442ebff23e77": {
+  "t": "Portalegre，ó pá：一座由花岗岩和挂毯构成的山城，羊毛在这里被手工染色了几个世纪，如今理工学院教传感器和聊天机器人在农场里安家，而西班牙就在山那边礼貌地等着。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portalegre, ó pá: a hill town of granite and tapestry where ",
+  "ok": false
+ },
+ "52c7ce0be499b3ee": {
+  "t": "Algarve Evolution 开放其面向旅游中小企业的人工智能与机器人试点申请",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Algarve Evolution opens applications for its AI and robotics",
+  "ok": false
+ },
+ "52ca0f56bcbd27af": {
+  "t": "UTAD 加入一个为期 36 个月、用人工智能对抗亚洲大黄蜂的项目",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "UTAD joins a 36-month project using AI to fight the Asian ho",
+  "ok": false
+ }
+}
