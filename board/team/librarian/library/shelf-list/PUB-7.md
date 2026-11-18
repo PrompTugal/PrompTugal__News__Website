@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: PUB, The publication (part 7 of 18)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T16:00:04Z"
-site_version: "v0.1.1812"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T19:00:56Z"
+site_version: "v0.1.1818"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 7 of 18)
 
-100 cards, from `PUB.SITE braganca:22` to `PUB.SITE coimbra:9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE braganca:21` to `PUB.SITE coimbra:8`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 601 to 625**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE braganca:21` | [PrompTugal.news Bragança](https://promptugal.news/ko-KR/portugal/braganca/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE braganca:22` | [PrompTugal.news Bragança](https://promptugal.news/ar/portugal/braganca/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE braganca:23` | [PrompTugal.news Bragança](https://promptugal.news/hi-IN/portugal/braganca/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE braganca:3` | [PrompTugal.news Bragança](https://promptugal.news/de-DE/portugal/braganca/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `PUB.SITE castelo-branco:10` | [PrompTugal.news Castelo Branco](https://promptugal.news/nl-NL/portugal/castelo-branco/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE castelo-branco:11` | [PrompTugal.news Castelo Branco](https://promptugal.news/portugal/castelo-branco/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE castelo-branco:12` | [PrompTugal.news Castelo Branco](https://promptugal.news/pt-BR/portugal/castelo-branco/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE castelo-branco:13` | [PrompTugal.news Castelo Branco](https://promptugal.news/pt-PT/portugal/castelo-branco/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
 **Cards 626 to 650**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE castelo-branco:13` | [PrompTugal.news Castelo Branco](https://promptugal.news/pt-PT/portugal/castelo-branco/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE castelo-branco:14` | [Castelo Branco: the data](https://promptugal.news/query/castelo-branco/) | site |  |
 | `PUB.SITE castelo-branco:15` | [Castelo Branco: AI in context](https://promptugal.news/query/decks/castelo-branco/) | site |  |
 | `PUB.SITE castelo-branco:16` | [PrompTugal.news Castelo Branco](https://promptugal.news/pl-PL/portugal/castelo-branco/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `PUB.SITE castro-marim:12` | [PrompTugal.news Castro Marim](https://promptugal.news/pt-BR/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE castro-marim:13` | [PrompTugal.news Castro Marim](https://promptugal.news/pt-PT/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE castro-marim:14` | [Castro Marim: the data](https://promptugal.news/query/castro-marim/) | site |  |
-| `PUB.SITE castro-marim:15` | [Castro Marim: AI in context](https://promptugal.news/query/decks/castro-marim/) | site |  |
 
 **Cards 651 to 675**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE castro-marim:15` | [Castro Marim: AI in context](https://promptugal.news/query/decks/castro-marim/) | site |  |
 | `PUB.SITE castro-marim:16` | [PrompTugal.news Castro Marim](https://promptugal.news/pl-PL/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE castro-marim:17` | [PrompTugal.news Castro Marim](https://promptugal.news/hr-HR/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE castro-marim:18` | [PrompTugal.news Castro Marim](https://promptugal.news/ro-RO/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `PUB.SITE charles` | [Web Summit Day 2 will not take place](https://promptugal.news/storm/charles/) | site | dev@PrompTugal.vicky 10 Nov 2026 |
 | `PUB.SITE cidade-fm` | [Cidade FM](https://promptugal.news/media/cidade-fm/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE cidade-hoje` | [Cidade Hoje](https://promptugal.news/media/cidade-hoje/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE civic.b` | [civic.b@promptugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/civic.b/) | site |  |
 
 **Cards 676 to 700**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE civic.b` | [civic.b@promptugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/civic.b/) | site |  |
 | `PUB.SITE cloud-centres` | [The cloud centres](https://promptugal.news/graph/cloud-centres/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE cnn-portugal` | [CNN Portugal](https://promptugal.news/media/cnn-portugal/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE coimbra` | [The proof layer: Coimbra](https://promptugal.news/agentic-system/proof/coimbra/) | site |  |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE coimbra:6` | [PrompTugal.news Coimbra](https://promptugal.news/es-MX/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE coimbra:7` | [PrompTugal.news Coimbra](https://promptugal.news/fr-CA/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE coimbra:8` | [PrompTugal.news Coimbra](https://promptugal.news/fr-FR/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE coimbra:9` | [PrompTugal.news Coimbra](https://promptugal.news/it-IT/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-6.md) | [Next part](PUB-8.md)

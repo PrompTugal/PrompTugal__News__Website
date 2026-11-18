@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 12 of 36)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T16:00:04Z"
-site_version: "v0.1.1812"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T19:00:56Z"
+site_version: "v0.1.1818"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 12 of 36)
 
-100 cards, from `TEAM.ROLE 2026-11-07-handover:19` to `TEAM.ROLE 2026-11-10-0805-wake`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ROLE 2026-11-07-handover:17` to `TEAM.ROLE 2026-11-10-0405-wake`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1101 to 1125**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-07-handover:17` | [conductor.b@PrompTugal.dinis: hand-over, 7 November 2026 (session 2, account B)](https://promptugal.news/board/team/conductor.b/debriefs/2026-11-07-handover.md) | team | conductor.b@ 7 Nov 2026 |
+| `TEAM.ROLE 2026-11-07-handover:18` | [Hand-over debrief, journalist@, 7 November 2026](https://promptugal.news/board/team/journalist/debriefs/2026-11-07-handover.md) | team | journalist@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07-handover:19` | [Hand-over: dev.verify@PrompTugal.dinis, 7 November 2026](https://promptugal.news/board/team/dev.verify/debriefs/2026-11-07-handover.md) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07-handover:2` | [Hand-over: correspondent@PrompTugal.dinis, 7 November 2026 (account B)](https://promptugal.news/board/team/correspondent/debriefs/2026-11-07-handover.md) | team | correspondent@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07-handover:20` | [dev.graphs@ hand-over debrief, 7 November 2026 (session 2, account B)](https://promptugal.news/board/team/dev.graphs/debriefs/2026-11-07-handover.md) | team | dev@ 7 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-07T1250Z` | [2026-11-07T1250Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-07T1250Z.json) (withdrawn) | team | accountant@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07T1512Z` | [2026-11-07T1512Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-07T1512Z.json) (withdrawn) | team | conductor.b@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07T1550Z` | [2026-11-07T1550Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-07T1550Z.json) (withdrawn) | team | accountant@ 7 Nov 2026 |
-| `TEAM.ROLE 2026-11-07T1812Z` | [2026-11-07T1812Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-07T1812Z.json) (withdrawn) | team | conductor.b@ 7 Nov 2026 |
-| `TEAM.ROLE 2026-11-07T2112Z` | [2026-11-07T2112Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-07T2112Z.json) (withdrawn) | team | conductor.b@ 7 Nov 2026 |
 
 **Cards 1126 to 1150**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-07T1812Z` | [2026-11-07T1812Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-07T1812Z.json) (withdrawn) | team | conductor.b@ 7 Nov 2026 |
+| `TEAM.ROLE 2026-11-07T2112Z` | [2026-11-07T2112Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-07T2112Z.json) (withdrawn) | team | conductor.b@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-08-2005-catch-up` | [Catch-up, 8 November 20:05: 290 agent commits since 266f2b0fd (28 hours unreviewed), persona.js post-reviewed, outside operators' code on the production…](https://promptugal.news/board/team/security/reviews/2026-11-08-2005-catch-up.md) | team | security@ 8 Nov 2026 |
 | `TEAM.ROLE 2026-11-08-conductor-android` | [Seed brief for conductor.android@PrompTugal.dinis: the Android apps, RiskMandate first, CI to device end to end](https://promptugal.news/board/team/conductor.b/briefs/2026-11-08-conductor-android.md) (superseded) | team | conductor.b@ 8 Nov 2026 |
 | `TEAM.ROLE 2026-11-08-handover` | [abp@PrompTugal.dinis: hand-over, 8 November 2026](https://promptugal.news/board/team/abp/debriefs/2026-11-08-handover.md) | team | abp@ 8 Nov 2026 |
@@ -67,13 +69,13 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-08-the-appliance-as-oem` | [Memo 7: the appliance as an OEM and white-label offer for other companies' products](https://promptugal.news/board/team/conductor.b/memos/2026-11-08-the-appliance-as-oem.md) | team | conductor.b@ 8 Nov 2026 |
 | `TEAM.ROLE 2026-11-08-the-appliance-oem-offer` | [The appliance as an OEM offer: your product, delivered as a governed device (draft for Dinis)](https://promptugal.news/board/team/conductor.b/briefs/2026-11-08-the-appliance-oem-offer.md) | team | conductor.b@ 8 Nov 2026 |
 | `TEAM.ROLE 2026-11-08-the-appliances-on-android` | [The two appliances on Android phones and tablets: what it would take](https://promptugal.news/board/team/conductor.b/briefs/2026-11-08-the-appliances-on-android.md) | team | conductor.b@ 8 Nov 2026 |
-| `TEAM.ROLE 2026-11-08-the-device-product-strategy` | [The device product strategy: product, commercial and release (draft for Dinis)](https://promptugal.news/board/team/conductor.b/briefs/2026-11-08-the-device-product-strategy.md) | team | conductor.b@ 8 Nov 2026 |
-| `TEAM.ROLE 2026-11-08-the-device-product-strategy:2` | [Memo 5: the devices as a product line: Android first, a store, launched at Web Summit](https://promptugal.news/board/team/conductor.b/memos/2026-11-08-the-device-product-strategy.md) | team | conductor.b@ 8 Nov 2026 |
 
 **Cards 1151 to 1175**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-08-the-device-product-strategy` | [The device product strategy: product, commercial and release (draft for Dinis)](https://promptugal.news/board/team/conductor.b/briefs/2026-11-08-the-device-product-strategy.md) | team | conductor.b@ 8 Nov 2026 |
+| `TEAM.ROLE 2026-11-08-the-device-product-strategy:2` | [Memo 5: the devices as a product line: Android first, a store, launched at Web Summit](https://promptugal.news/board/team/conductor.b/memos/2026-11-08-the-device-product-strategy.md) | team | conductor.b@ 8 Nov 2026 |
 | `TEAM.ROLE 2026-11-08-the-riskmandate-agent-ipad` | [Memo 2: the RiskMandate agent iPad, a product to sell at the summit](https://promptugal.news/board/team/conductor.b/memos/2026-11-08-the-riskmandate-agent-ipad.md) | team | conductor.b@ 8 Nov 2026 |
 | `TEAM.ROLE 2026-11-08-the-riskmandate-agent-ipad:2` | [Brief 6: the RiskMandate agent iPad (Dinis, 8 November 2026, about 13:35 UTC, relayed by conductor.b@ in memo 2)](https://promptugal.news/board/team/customers/briefs/2026-11-08-the-riskmandate-agent-ipad.md) | team | customers@ 8 Nov 2026 |
 | `TEAM.ROLE 2026-11-08-the-riskmandate-appliance-experience` | [Memo 6: the RiskMandate Appliance experience: a local model, and the ABP shown in every layer on one device](https://promptugal.news/board/team/conductor.b/memos/2026-11-08-the-riskmandate-appliance-experience.md) | team | conductor.b@ 8 Nov 2026 |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-09-close` | [2026-11-09-close.json](https://promptugal.news/board/team/accountant/ledger/2026-11-09-close.json) (withdrawn) | team | accountant@ 10 Nov 2026 |
 | `TEAM.ROLE 2026-11-09-handover` | [Hand-over: accountant@, 9 November 2026](https://promptugal.news/board/team/accountant/debriefs/2026-11-09-handover.md) | team | accountant@ 9 Nov 2026 |
 | `TEAM.ROLE 2026-11-09-handover:10` | [dev.portugal@PrompTugal.dinis: hand-over debrief, 9 November 2026](https://promptugal.news/board/team/dev.portugal/debriefs/2026-11-09-handover.md) | team | dev@ 9 Nov 2026 |
-| `TEAM.ROLE 2026-11-09-handover:11` | [Hand-over: dev.pages@PrompTugal.dinis, 9 November 2026 (account B)](https://promptugal.news/board/team/dev.pages/debriefs/2026-11-09-handover.md) | team | dev@ 9 Nov 2026 |
-| `TEAM.ROLE 2026-11-09-handover:12` | [Hand-over: the ontologist, 9 November 2026](https://promptugal.news/board/team/ontologist/debriefs/2026-11-09-handover.md) | team | ontologist@ 9 Nov 2026 |
 
 **Cards 1176 to 1200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-09-handover:11` | [Hand-over: dev.pages@PrompTugal.dinis, 9 November 2026 (account B)](https://promptugal.news/board/team/dev.pages/debriefs/2026-11-09-handover.md) | team | dev@ 9 Nov 2026 |
+| `TEAM.ROLE 2026-11-09-handover:12` | [Hand-over: the ontologist, 9 November 2026](https://promptugal.news/board/team/ontologist/debriefs/2026-11-09-handover.md) | team | ontologist@ 9 Nov 2026 |
 | `TEAM.ROLE 2026-11-09-handover:13` | [conductor.b@PrompTugal.dinis: hand-over, 9 November 2026 (account B)](https://promptugal.news/board/team/conductor.b/debriefs/2026-11-09-handover.md) | team | conductor.b@ 9 Nov 2026 |
 | `TEAM.ROLE 2026-11-09-handover:2` | [dev.graphs@ hand-over debrief, 9 November 2026 (session 2, account B)](https://promptugal.news/board/team/dev.graphs/debriefs/2026-11-09-handover.md) | team | dev@ 9 Nov 2026 |
 | `TEAM.ROLE 2026-11-09-handover:3` | [Hand-over debrief, journalist@, 9 November 2026](https://promptugal.news/board/team/journalist/debriefs/2026-11-09-handover.md) | team | journalist@ 9 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-09T2150Z` | [2026-11-09T2150Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-09T2150Z.json) (withdrawn) | team | accountant@ 9 Nov 2026 |
 | `TEAM.ROLE 2026-11-09T2152Z` | [2026-11-09T2152Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-09T2152Z.json) (withdrawn) | team | conductor.b@ 9 Nov 2026 |
 | `TEAM.ROLE 2026-11-10-0405-wake` | [Wake 04:05, 10 November: 69 commits since a4fda2af5 (the big stop and the restart), clean; S33 and S34 closed; conditions ahead for GAMMA-Ray's company scores](https://promptugal.news/board/team/security/reviews/2026-11-10-0405-wake.md) | team | security@ 10 Nov 2026 |
-| `TEAM.ROLE 2026-11-10-0605-wake` | [Wake 06:05, 10 November: 15 commits since 417e26958, clean; Dinis confirmed GAMMA-Ray scores under conditions that match mine](https://promptugal.news/board/team/security/reviews/2026-11-10-0605-wake.md) | team | security@ 10 Nov 2026 |
-| `TEAM.ROLE 2026-11-10-0805-wake` | [Wake 08:05, 10 November: 14 commits since 2345638da, clean; GAMMA-Ray cards as links only](https://promptugal.news/board/team/security/reviews/2026-11-10-0805-wake.md) | team | security@ 10 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-11.md) | [Next part](TEAM-13.md)

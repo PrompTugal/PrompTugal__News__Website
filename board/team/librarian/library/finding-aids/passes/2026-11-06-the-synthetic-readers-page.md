@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: pass 2026-11-06-the-synthetic-readers-page"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T16:00:04Z"
-site_version: "v0.1.1812"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T19:00:56Z"
+site_version: "v0.1.1818"
 source: board/catalogue.json
 ---
 

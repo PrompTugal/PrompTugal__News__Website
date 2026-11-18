@@ -1,19 +1,24 @@
 ---
 title: "Shelf list: PUB, The publication (part 14 of 18)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T16:00:04Z"
-site_version: "v0.1.1812"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T19:00:56Z"
+site_version: "v0.1.1818"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 14 of 18)
 
-100 cards, from `PUB.SITE portimao:5` to `PUB.SITE quarteira:16`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE portimao:21` to `PUB.SITE quarteira:11`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1301 to 1325**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE portimao:21` | [PrompTugal.news Portimão](https://promptugal.news/ko-KR/algarve/portimao/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE portimao:22` | [PrompTugal.news Portimão](https://promptugal.news/ar/algarve/portimao/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE portimao:23` | [PrompTugal.news Portimão](https://promptugal.news/hi-IN/algarve/portimao/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE portimao:3` | [PrompTugal.news Portimão](https://promptugal.news/de-CH/algarve/portimao/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE portimao:4` | [PrompTugal.news Portimão](https://promptugal.news/de-DE/algarve/portimao/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE portimao:5` | [PrompTugal.news Portimão](https://promptugal.news/es-AR/algarve/portimao/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE portimao:6` | [PrompTugal.news Portimão](https://promptugal.news/es-ES/algarve/portimao/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE portimao:7` | [PrompTugal.news Portimão](https://promptugal.news/es-MX/algarve/portimao/) | site | dev@ 6 Nov 2026 |
@@ -34,16 +39,16 @@ source: board/catalogue.json
 | `PUB.SITE porto:20` | [PrompTugal.news Porto](https://promptugal.news/ja-JP/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE porto:21` | [PrompTugal.news Porto](https://promptugal.news/ko-KR/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE porto:22` | [PrompTugal.news Porto](https://promptugal.news/ar/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE porto:23` | [PrompTugal.news Porto](https://promptugal.news/hi-IN/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE porto:3` | [PrompTugal.news Porto](https://promptugal.news/de-DE/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE porto:4` | [PrompTugal.news Porto](https://promptugal.news/es-AR/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE porto:5` | [PrompTugal.news Porto](https://promptugal.news/es-ES/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE porto:6` | [PrompTugal.news Porto](https://promptugal.news/es-MX/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
 **Cards 1326 to 1350**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE porto:23` | [PrompTugal.news Porto](https://promptugal.news/hi-IN/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE porto:3` | [PrompTugal.news Porto](https://promptugal.news/de-DE/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE porto:4` | [PrompTugal.news Porto](https://promptugal.news/es-AR/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE porto:5` | [PrompTugal.news Porto](https://promptugal.news/es-ES/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE porto:6` | [PrompTugal.news Porto](https://promptugal.news/es-MX/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE porto:7` | [PrompTugal.news Porto](https://promptugal.news/fr-CA/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE porto:8` | [PrompTugal.news Porto](https://promptugal.news/fr-FR/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE porto:9` | [PrompTugal.news Porto](https://promptugal.news/it-IT/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -64,16 +69,16 @@ source: board/catalogue.json
 | `PUB.SITE provenance:12` | [Évora: provenance](https://promptugal.news/query/evora/provenance/) | site |  |
 | `PUB.SITE provenance:13` | [Faro: provenance](https://promptugal.news/query/faro/provenance/) | site |  |
 | `PUB.SITE provenance:14` | [Guarda: provenance](https://promptugal.news/query/guarda/provenance/) | site |  |
-| `PUB.SITE provenance:15` | [Lagoa: provenance](https://promptugal.news/query/lagoa/provenance/) | site |  |
-| `PUB.SITE provenance:16` | [Lagos: provenance](https://promptugal.news/query/lagos/provenance/) | site |  |
-| `PUB.SITE provenance:17` | [Leiria: provenance](https://promptugal.news/query/leiria/provenance/) | site |  |
-| `PUB.SITE provenance:18` | [Lisboa: provenance](https://promptugal.news/query/lisboa/provenance/) | site |  |
-| `PUB.SITE provenance:19` | [Loulé: provenance](https://promptugal.news/query/loule/provenance/) | site |  |
 
 **Cards 1351 to 1375**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE provenance:15` | [Lagoa: provenance](https://promptugal.news/query/lagoa/provenance/) | site |  |
+| `PUB.SITE provenance:16` | [Lagos: provenance](https://promptugal.news/query/lagos/provenance/) | site |  |
+| `PUB.SITE provenance:17` | [Leiria: provenance](https://promptugal.news/query/leiria/provenance/) | site |  |
+| `PUB.SITE provenance:18` | [Lisboa: provenance](https://promptugal.news/query/lisboa/provenance/) | site |  |
+| `PUB.SITE provenance:19` | [Loulé: provenance](https://promptugal.news/query/loule/provenance/) | site |  |
 | `PUB.SITE provenance:2` | [Alcoutim: provenance](https://promptugal.news/query/alcoutim/provenance/) | site |  |
 | `PUB.SITE provenance:20` | [Monchique: provenance](https://promptugal.news/query/monchique/provenance/) | site |  |
 | `PUB.SITE provenance:21` | [Olhão: provenance](https://promptugal.news/query/olhao/provenance/) | site |  |
@@ -94,16 +99,16 @@ source: board/catalogue.json
 | `PUB.SITE provenance:35` | [Vila Real: provenance](https://promptugal.news/query/vila-real/provenance/) | site |  |
 | `PUB.SITE provenance:36` | [Viseu: provenance](https://promptugal.news/query/viseu/provenance/) | site |  |
 | `PUB.SITE provenance:4` | [Aljezur: provenance](https://promptugal.news/query/aljezur/provenance/) | site |  |
-| `PUB.SITE provenance:5` | [Aveiro: provenance](https://promptugal.news/query/aveiro/provenance/) | site |  |
-| `PUB.SITE provenance:6` | [Beja: provenance](https://promptugal.news/query/beja/provenance/) | site |  |
-| `PUB.SITE provenance:7` | [Braga: provenance](https://promptugal.news/query/braga/provenance/) | site |  |
-| `PUB.SITE provenance:8` | [Bragança: provenance](https://promptugal.news/query/braganca/provenance/) | site |  |
-| `PUB.SITE provenance:9` | [Castelo Branco: provenance](https://promptugal.news/query/castelo-branco/provenance/) | site |  |
 
 **Cards 1376 to 1400**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE provenance:5` | [Aveiro: provenance](https://promptugal.news/query/aveiro/provenance/) | site |  |
+| `PUB.SITE provenance:6` | [Beja: provenance](https://promptugal.news/query/beja/provenance/) | site |  |
+| `PUB.SITE provenance:7` | [Braga: provenance](https://promptugal.news/query/braga/provenance/) | site |  |
+| `PUB.SITE provenance:8` | [Bragança: provenance](https://promptugal.news/query/braganca/provenance/) | site |  |
+| `PUB.SITE provenance:9` | [Castelo Branco: provenance](https://promptugal.news/query/castelo-branco/provenance/) | site |  |
 | `PUB.SITE pt` | [PrompTugal: a tese de investimento](https://promptugal.news/investors/decks/1-the-investment-case/pt/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE pt-jornal` | [PT Jornal](https://promptugal.news/media/pt-jornal/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE pt:10` | [PrompTugal: o mapa das apresentações](https://promptugal.news/investors/decks/0-the-map/pt/) | site | investors@ 7 Nov 2026 |
@@ -124,10 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE quarteira` | [The proof layer: Quarteira](https://promptugal.news/agentic-system/proof/quarteira/) | site |  |
 | `PUB.SITE quarteira:10` | [PrompTugal.news Quarteira](https://promptugal.news/it-IT/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE quarteira:11` | [PrompTugal.news Quarteira](https://promptugal.news/nl-NL/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE quarteira:12` | [PrompTugal.news Quarteira](https://promptugal.news/pt-BR/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE quarteira:13` | [PrompTugal.news Quarteira](https://promptugal.news/pt-PT/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE quarteira:14` | [Quarteira: AI in context](https://promptugal.news/query/decks/quarteira/) | site |  |
-| `PUB.SITE quarteira:15` | [Quarteira: the data](https://promptugal.news/query/quarteira/) | site |  |
-| `PUB.SITE quarteira:16` | [PrompTugal.news Quarteira](https://promptugal.news/pl-PL/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-13.md) | [Next part](PUB-15.md)

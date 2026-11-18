@@ -27,28 +27,28 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-3615 cards (1326 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-18T16:00:04Z at site v0.1.1812; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+3623 cards (1334 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-18T19:00:56Z at site v0.1.1818; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `RDR.SHERPA` | 31 |
 | `RDR.SYN` | 5 |
-| `TEAM.ABP` | 169 |
+| `TEAM.ABP` | 171 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
 | `TEAM.INBOX` | 162 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 2006 |
+| `TEAM.ROLE` | 2012 |
 | `TEAM.RUN` | 1210 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261118-0385` [runs/telemetry.b/](https://promptugal.news/board/runs/telemetry.b/) (`TEAM.RUN telemetry`)
-- `ACC-20261118-0384` [runs/stats/](https://promptugal.news/board/runs/stats/) (`TEAM.RUN stats`)
-- `ACC-20261118-0383` [The request on the record: template](https://promptugal.news/board/team/outreach/sources-requests/template.md) (`TEAM.ROLE template`)
-- `ACC-20261118-0382` [status.json](https://promptugal.news/board/team/telemetry.b/status.json) (`TEAM.ROLE status:59`)
-- `ACC-20261118-0381` [Telling the social platforms how we use organisations' public posts, on the record](https://promptugal.news/board/team/outreach/sources-requests/social-platforms.md) (`TEAM.ROLE social-platforms`)
+- `ACC-20261118-0420` [sweep.sh](https://promptugal.news/board/team/security/tools/sweep.sh) (`TEAM.ROLE sweep`)
+- `ACC-20261118-0419` [Threat model: "Now in <town>" live from data.promptugal.news (dev@PrompTugal.dinis, 18 November 2026)](https://promptugal.news/board/team/dev/threat-models/now-live.md) (`TEAM.ROLE now-live`)
+- `ACC-20261118-0418` [telemetry.b@ hand-over debrief, 18 November 2026](https://promptugal.news/board/team/telemetry.b/debriefs/2026-11-18-handover.md) (`TEAM.ROLE 2026-11-18-handover:16`)
+- `ACC-20261118-0417` [security@ wake, 18 November 2026, 18:05 UTC (hourly, every repository)](https://promptugal.news/board/team/security/reviews/2026-11-18-1805-wake.md) (`TEAM.ROLE 2026-11-18-1805-wake`)
+- `ACC-20261118-0416` [security@ wake, 18 November 2026, 17:05 UTC (hourly, every repository)](https://promptugal.news/board/team/security/reviews/2026-11-18-1705-wake.md) (`TEAM.ROLE 2026-11-18-1705-wake`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

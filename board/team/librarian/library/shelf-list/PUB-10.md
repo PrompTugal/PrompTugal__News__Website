@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: PUB, The publication (part 10 of 18)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T16:00:04Z"
-site_version: "v0.1.1812"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T19:00:56Z"
+site_version: "v0.1.1818"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 10 of 18)
 
-100 cards, from `PUB.SITE guarda:19` to `PUB.SITE lagos:7`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE guarda:17` to `PUB.SITE lagos:4`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 901 to 925**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE guarda:17` | [PrompTugal.news Guarda](https://promptugal.news/hr-HR/portugal/guarda/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE guarda:18` | [PrompTugal.news Guarda](https://promptugal.news/ro-RO/portugal/guarda/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE guarda:19` | [PrompTugal.news Guarda](https://promptugal.news/zh-Hans/portugal/guarda/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE guarda:2` | [PrompTugal.news Guarda](https://promptugal.news/de-CH/portugal/guarda/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE guarda:20` | [PrompTugal.news Guarda](https://promptugal.news/ja-JP/portugal/guarda/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -36,14 +38,15 @@ source: board/catalogue.json
 | `PUB.SITE how-we-publish` | [How we publish: PrompTugal.news's publish workflow](https://promptugal.news/how-we-publish/) | site | dev@PrompTugal.vicky 6 Nov 2026 |
 | `PUB.SITE idealista-news` | [Idealista News](https://promptugal.news/media/idealista-news/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE industry` | [The industry map](https://promptugal.news/graph/industry/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE invest` | [Invierta en una empresa de noticias que ya funciona](https://promptugal.news/investors/es/invest/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE invest:2` | [Investir dans une entreprise d'information qui tourne déjà](https://promptugal.news/investors/fr/invest/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE invest:3` | [Invest in a news company that already runs](https://promptugal.news/investors/invest/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE inner-passes` | [Inner passes at every wake](https://promptugal.news/principles/inner-passes/) | site | dev@ 18 Nov 2026 |
 
 **Cards 926 to 950**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE invest` | [Invierta en una empresa de noticias que ya funciona](https://promptugal.news/investors/es/invest/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE invest:2` | [Investir dans une entreprise d'information qui tourne déjà](https://promptugal.news/investors/fr/invest/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE invest:3` | [Invest in a news company that already runs](https://promptugal.news/investors/invest/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE invest:4` | [Invista numa empresa de notícias que já funciona](https://promptugal.news/investors/pt/invest/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE investors` | [PrompTugal for investors and partners](https://promptugal.news/investors/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE investors.packs` | [investors.packs@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/investors.packs/) | site |  |
@@ -66,14 +69,14 @@ source: board/catalogue.json
 | `PUB.SITE jornal-de-noticias` | [Jornal de Notícias](https://promptugal.news/media/jornal-de-noticias/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE jornal-de-portalegre` | [Jornal de Portalegre](https://promptugal.news/media/jornal-de-portalegre/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE jornal-de-santarem` | [Jornal de Santarém](https://promptugal.news/media/jornal-de-santarem/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE jornal-do-centro` | [Jornal do Centro](https://promptugal.news/media/jornal-do-centro/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE jornal-economico` | [Jornal Económico](https://promptugal.news/media/jornal-economico/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE jornal-nordeste` | [Jornal Nordeste](https://promptugal.news/media/jornal-nordeste/) | site | dev.places@ 16 Nov 2026 |
 
 **Cards 951 to 975**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE jornal-do-centro` | [Jornal do Centro](https://promptugal.news/media/jornal-do-centro/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE jornal-economico` | [Jornal Económico](https://promptugal.news/media/jornal-economico/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE jornal-nordeste` | [Jornal Nordeste](https://promptugal.news/media/jornal-nordeste/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE jornal-o-despertar` | [Jornal O Despertar](https://promptugal.news/media/jornal-o-despertar/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE jornal-reconquista` | [Jornal Reconquista](https://promptugal.news/media/jornal-reconquista/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE jornal-torrejano` | [Jornal Torrejano](https://promptugal.news/media/jornal-torrejano/) | site | dev.places@ 16 Nov 2026 |
@@ -96,14 +99,14 @@ source: board/catalogue.json
 | `PUB.SITE lagoa:21` | [PrompTugal.news Lagoa](https://promptugal.news/ko-KR/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE lagoa:22` | [PrompTugal.news Lagoa](https://promptugal.news/ar/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE lagoa:23` | [PrompTugal.news Lagoa](https://promptugal.news/hi-IN/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE lagoa:3` | [PrompTugal.news Lagoa](https://promptugal.news/de-CH/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE lagoa:4` | [PrompTugal.news Lagoa](https://promptugal.news/de-DE/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE lagoa:5` | [PrompTugal.news Lagoa](https://promptugal.news/es-AR/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
 
 **Cards 976 to 1000**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE lagoa:3` | [PrompTugal.news Lagoa](https://promptugal.news/de-CH/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE lagoa:4` | [PrompTugal.news Lagoa](https://promptugal.news/de-DE/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE lagoa:5` | [PrompTugal.news Lagoa](https://promptugal.news/es-AR/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE lagoa:6` | [PrompTugal.news Lagoa](https://promptugal.news/es-ES/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE lagoa:7` | [PrompTugal.news Lagoa](https://promptugal.news/es-MX/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE lagoa:8` | [PrompTugal.news Lagoa](https://promptugal.news/fr-CA/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
@@ -126,8 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE lagos:23` | [PrompTugal.news Lagos](https://promptugal.news/hi-IN/algarve/lagos/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE lagos:3` | [PrompTugal.news Lagos](https://promptugal.news/de-CH/algarve/lagos/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE lagos:4` | [PrompTugal.news Lagos](https://promptugal.news/de-DE/algarve/lagos/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE lagos:5` | [PrompTugal.news Lagos](https://promptugal.news/es-AR/algarve/lagos/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE lagos:6` | [PrompTugal.news Lagos](https://promptugal.news/es-ES/algarve/lagos/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE lagos:7` | [PrompTugal.news Lagos](https://promptugal.news/es-MX/algarve/lagos/) | site | dev@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-9.md) | [Next part](PUB-11.md)

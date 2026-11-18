@@ -1,8 +1,8 @@
 ---
 title: "Finding aid: Work in hand"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T16:00:04Z"
-site_version: "v0.1.1812"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T19:00:56Z"
+site_version: "v0.1.1818"
 source: board/catalogue.json
 ---
 
@@ -43,7 +43,7 @@ Special collection: S3 (17 cards). Dinis's guidance has its own guide: [guidance
 
 ## See also
 
-- [Agents, roles, keys](TEAM.md) (541 connections from this collection)
+- [Agents, roles, keys](TEAM.md) (542 connections from this collection)
 - [Guidance (special)](GDN.md) (175 connections from this collection)
 - [The publication](PUB.md) (123 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph

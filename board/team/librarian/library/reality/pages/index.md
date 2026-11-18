@@ -29,7 +29,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-2768 cards (2011 current, 0 superseded, 757 withdrawn), from the catalogue generated 2026-11-18T16:00:04Z at site v0.1.1812; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+2783 cards (2026 current, 0 superseded, 757 withdrawn), from the catalogue generated 2026-11-18T19:00:56Z at site v0.1.1818; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -41,15 +41,15 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 1458 |
+| `PUB.SITE` | 1473 |
 
 Newest five accessions:
 
-- `ACC-20261118-0327` [weather.b@promptugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/weather.b/) (`PUB.SITE weather.b`)
-- `ACC-20261118-0326` [PrompTugal.news Viseu](https://promptugal.news/hi-IN/portugal/viseu/) (`PUB.SITE viseu:23`)
-- `ACC-20261118-0325` [PrompTugal.news Viseu](https://promptugal.news/ar/portugal/viseu/) (`PUB.SITE viseu:22`)
-- `ACC-20261118-0324` [PrompTugal.news Vila Real de Santo António](https://promptugal.news/hi-IN/algarve/vila-real-de-santo-antonio/) (`PUB.SITE vila-real-de-santo-antonio:23`)
-- `ACC-20261118-0323` [PrompTugal.news Vila Real de Santo António](https://promptugal.news/ar/algarve/vila-real-de-santo-antonio/) (`PUB.SITE vila-real-de-santo-antonio:22`)
+- `ACC-20261118-0412` [Threat models for what runs on its own](https://promptugal.news/principles/threat-models/) (`PUB.SITE threat-models`)
+- `ACC-20261118-0411` [The pipeline standard](https://promptugal.news/principles/the-pipeline-standard/) (`PUB.SITE the-pipeline-standard`)
+- `ACC-20261118-0410` [Agent Behaviour Policies](https://promptugal.news/principles/the-abp/) (`PUB.SITE the-abp`)
+- `ACC-20261118-0409` [Telemetry](https://promptugal.news/principles/telemetry/) (`PUB.SITE telemetry`)
+- `ACC-20261118-0408` [Take-downs and corrections](https://promptugal.news/principles/take-downs/) (`PUB.SITE take-downs`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

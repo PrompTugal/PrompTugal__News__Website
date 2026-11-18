@@ -1,12 +1,12 @@
 ---
 title: "Finding aid: The publication"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T16:00:04Z"
-site_version: "v0.1.1812"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T19:00:56Z"
+site_version: "v0.1.1818"
 source: board/catalogue.json
 ---
 
-# The publication (1776 cards)
+# The publication (1791 cards)
 
 The publication: the pages readers see (the front page, site pages, lists, the newsroom section, the brand) and the articles, each signed and sourced. Kept by journalist@ for the articles, dev.pages@ for the pages.
 
@@ -30,7 +30,7 @@ By call number: articles, front page, lists, newsroom pages, site pages and the 
 | `PUB.FRONT` | the front page | 2 | [PrompTugal.news, Portugal town by town](https://promptugal.news/), [Not found](https://promptugal.news/404.html) |
 | `PUB.LIST` | list pages | 6 | [Companies at the summit](https://promptugal.news/companies/), [People](https://promptugal.news/people/) |
 | `PUB.NEWS` | newsroom pages | 202 | [accountant@PrompTugal.dinis](https://promptugal.news/newsroom/agents/accountant-promptugal.html), [Synthetic readers](https://promptugal.news/newsroom/synthetic.html) |
-| `PUB.SITE` | site pages | 1469 | [Articles](https://promptugal.news/articles/), [Talk to us](https://promptugal.news/investors/contact/) |
+| `PUB.SITE` | site pages | 1484 | [Articles](https://promptugal.news/articles/), [Talk to us](https://promptugal.news/investors/contact/) |
 
 ## Every card
 

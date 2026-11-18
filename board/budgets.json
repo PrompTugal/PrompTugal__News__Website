@@ -2,7 +2,7 @@
  "about": "The budgets of PrompTugal.news: per agent per day, per pass, per loop, kept by accountant@PrompTugal.dinis. Confirmed by Dinis at about 10:15 UTC as a measure; never a reason to stop an agent (about 10:10). Every dollar figure here is API-equivalent: the team runs on a Claude subscription, so it compares runs and agents and is not money spent. Real limits: the subscription's usage limits and the OpenRouter credit (below). Schema: data/schemas/budgets.schema.json (ontologist@).",
  "by": "accountant@PrompTugal.dinis",
  "written": "2026-11-06T03:50Z",
- "updated": "2026-11-18T15:51Z",
+ "updated": "2026-11-18T18:51Z",
  "issue": "WS-177",
  "units": {
   "day": "the UTC day, 00:00 to 24:00; every per_day budget starts again at 00:00 UTC",
@@ -4942,6 +4942,279 @@
      "library.b",
      "videos.b",
      "telemetry.b"
+    ],
+    "note": "conductor.b@ share = cumulative minus 172.20; captured, nothing stops; a row new to the readings gets the default line (10; 30 for abp and conductor.b)"
+   },
+   {
+    "read_at": "2026-11-18T18:51Z",
+    "window": "16 Nov 19:28 to 2026-11-18 18:51 UTC (today = since the 18 Nov 00:51 baseline)",
+    "source": "board/team/conductor.b/ledger/2026-11-18T1851Z.json",
+    "total_usd": 978.14,
+    "since_previous_usd": 132.44,
+    "today_total_usd": 609.8,
+    "rows": [
+     {
+      "agent": "journalist",
+      "usd": 46.5,
+      "today_usd": 18.09,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 0.6
+     },
+     {
+      "agent": "dev",
+      "usd": 64.18,
+      "today_usd": 27.93,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 0.93
+     },
+     {
+      "agent": "designer",
+      "usd": 77.03,
+      "today_usd": 36.07,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 1.2
+     },
+     {
+      "agent": "security",
+      "usd": 81.77,
+      "today_usd": 38.98,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 1.3
+     },
+     {
+      "agent": "place.algarve.west",
+      "usd": 24.08,
+      "today_usd": 8.83,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.88
+     },
+     {
+      "agent": "place.algarve.central",
+      "usd": 25.87,
+      "today_usd": 12.11,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 1.21
+     },
+     {
+      "agent": "place.algarve.east",
+      "usd": 21.16,
+      "today_usd": 9.13,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.91
+     },
+     {
+      "agent": "place.districts",
+      "usd": 32.02,
+      "today_usd": 10.46,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 1.05
+     },
+     {
+      "agent": "correspondent",
+      "usd": 16.05,
+      "today_usd": 6.92,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.69
+     },
+     {
+      "agent": "datasci.places",
+      "usd": 12.28,
+      "today_usd": 5.74,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.57
+     },
+     {
+      "agent": "researcher",
+      "usd": 24.26,
+      "today_usd": 5.71,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.57
+     },
+     {
+      "agent": "ontologist",
+      "usd": 32.17,
+      "today_usd": 14.99,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 1.5
+     },
+     {
+      "agent": "dev.places",
+      "usd": 20.52,
+      "today_usd": 8.27,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.83
+     },
+     {
+      "agent": "designer.places",
+      "usd": 18.5,
+      "today_usd": 8.08,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.81
+     },
+     {
+      "agent": "translator",
+      "usd": 43.46,
+      "today_usd": 25.59,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 2.56
+     },
+     {
+      "agent": "outreach",
+      "usd": 17.82,
+      "today_usd": 8.76,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.88
+     },
+     {
+      "agent": "sherpa",
+      "usd": 13.4,
+      "today_usd": 5.84,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.58
+     },
+     {
+      "agent": "librarian",
+      "usd": 19.77,
+      "today_usd": 9.97,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 1.0
+     },
+     {
+      "agent": "abp",
+      "usd": 20.21,
+      "today_usd": 13.24,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 0.44
+     },
+     {
+      "agent": "data.b",
+      "usd": 73.05,
+      "today_usd": 73.05,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 7.3
+     },
+     {
+      "agent": "weather.b",
+      "usd": 34.63,
+      "today_usd": 34.63,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 3.46
+     },
+     {
+      "agent": "civic.b",
+      "usd": 30.8,
+      "today_usd": 30.8,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 3.08
+     },
+     {
+      "agent": "startups.b",
+      "usd": 31.15,
+      "today_usd": 31.15,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 3.11
+     },
+     {
+      "agent": "travel.b",
+      "usd": 33.47,
+      "today_usd": 33.47,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 3.35
+     },
+     {
+      "agent": "events.b",
+      "usd": 19.17,
+      "today_usd": 19.17,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 1.92
+     },
+     {
+      "agent": "signals.b",
+      "usd": 11.98,
+      "today_usd": 11.98,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 1.2
+     },
+     {
+      "agent": "library.b",
+      "usd": 23.52,
+      "today_usd": 23.52,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 2.35
+     },
+     {
+      "agent": "videos.b",
+      "usd": 17.23,
+      "today_usd": 17.23,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 1.72
+     },
+     {
+      "agent": "telemetry.b",
+      "usd": 4.12,
+      "today_usd": 4.12,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.41
+     },
+     {
+      "agent": "conductor.b",
+      "usd": 87.97,
+      "today_usd": 55.97,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 1.87
+     }
+    ],
+    "over_a_day_line_today": [
+     "designer",
+     "security",
+     "place.algarve.central",
+     "place.districts",
+     "ontologist",
+     "translator",
+     "data.b",
+     "weather.b",
+     "civic.b",
+     "startups.b",
+     "travel.b",
+     "events.b",
+     "signals.b",
+     "library.b",
+     "videos.b",
+     "conductor.b"
+    ],
+    "new_rows": [],
+    "unmeasured": [
+     "live.b"
     ],
     "note": "conductor.b@ share = cumulative minus 172.20; captured, nothing stops; a row new to the readings gets the default line (10; 30 for abp and conductor.b)"
    }
