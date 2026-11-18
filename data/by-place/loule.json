@@ -474,7 +474,8 @@
     "Sul Informação (sulinformacao.pt): homepage, tag page and feed all returned 403 on 2026-11-17; skipped.",
     "Jornal do Algarve (jornaldoalgarve.pt): homepage and search returned 403 on 2026-11-17; only the RSS feed opened and held no new AI-linked item for this town.",
     "Algarve Daily News 16-17 Nov: Faro housing protest and Ria Formosa villas pieces have no AI link; not added.",
-    "Jornal do Algarve RSS, Barlavento feed, Postal Algarve and Algarve Daily News front pages (17-18 Nov) show no new AI or technology item for this town."
+    "Jornal do Algarve RSS, Barlavento feed, Postal Algarve and Algarve Daily News front pages (17-18 Nov) show no new AI or technology item for this town.",
+    "18 Nov: cm-loule.pt news opened (first 100k chars): only Som Riscado AI piano (held) and GIS Day (no AI). Barlavento 18 Nov kickboxing and Postal Best Number One items have no AI link."
   ],
   "voice": {
     "lede": "Oi, pá! Loulé, where the market has domes and the council has algorithms.",
