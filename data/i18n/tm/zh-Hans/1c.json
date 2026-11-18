@@ -1,0 +1,34 @@
+{
+ "1c1453fcec54f79d": {
+  "t": "Faro 一家软件公司在 Loulé 测试其智能灌溉，计划加入人工智能模块",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A Faro software firm tested its smart irrigation in Loulé, w",
+  "ok": false
+ },
+ "1c77a443b6a6c396": {
+  "t": "O Algarve Económico 转载的一篇 Lusa 报道称，大学领导层与市政府会面，使大学的 Horizonte2030 计划与市政总体规划对接，用于 Barranco do Rodrigo 的校区。报道保持 2028 年的目标，并将投资额定为约 800 万欧元（2025 年 1 月的报道称约为 1,500 万欧元）。没有描述任何招标，且该报道未提及人工智能。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A Lusa report republished by O Algarve Económico says the un",
+  "ok": false
+ },
+ "1c92b9e98dd3ba1e": {
+  "t": "Ainda não sabemos tudo, pá。以下是 Santarém 尚未告诉我们的事：",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda não sabemos tudo, pá. Here is what Santarém has not to",
+  "ok": false
+ },
+ "1cbb54a360cf8c15": {
+  "t": "由 Norte 2030 出资的 Intelligence4Administration 项目，旨在把人工智能引入市政服务管理，并将向市民提供的服务数字化。文章在开头几行之后需要付费阅读，因此具体工具没有描述。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Intelligence4Administration project, financed by Norte 2",
+  "ok": false
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "5d506e2834f29e75": {
+  "t": "Ainda não sabemos tudo, ó pá。以下是 Leiria 尚未告诉我们的事：",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda não sabemos tudo, ó pá. Here is what Leiria has not to",
+  "ok": false
+ },
+ "5d85648672241449": {
+  "t": "一个由 PRR 资助的项目为 Quarteira 的商户提供在线销售平台、额外的 Wi-Fi、数字街头显示屏和数字服务代金券。文章没有提到人工智能。对我们来说，它的意义在于这是日后人工智能工具所依托的数字基础。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A PRR-funded project gives Quarteira's merchants online sale",
+  "ok": false
+ },
+ "5d86f172e5b4beb9": {
+  "t": "该框架指导教师何时以及如何使用人工智能，反对禁用和人工智能检测器，主张与所评估技能相关联的透明使用，并指向一个 120 名教师的实践社群和 AcademIA UA 工作坊。大学自己的规章将其列为 Despacho n.º 65-REIT/2026。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The framework guides teachers on when and how to use AI, rej",
+  "ok": false
+ },
+ "5d97ee52fae5fa6b": {
+  "t": "Hospital de Évora 开始在宫颈癌筛查中使用人工智能",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Hospital de Évora starts using AI in cervical cancer screeni",
+  "ok": false
+ },
+ "5db55f2433d7005b": {
+  "t": "PrompTugal.news 按地方：每个地方、其状态、其智能体、其计数、其页面及其自己的 JSON（api/v1/by-place/<id>.json）",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news by place: each place, its status, its agent,",
+  "ok": false
+ },
+ "5dd868165a4a1766": {
+  "t": "面向青年工作者的人工智能素养 AI4YouthWork 工作坊在 Faro 举行",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AI4YouthWork workshop on AI literacy for youth workers held ",
+  "ok": false
+ },
+ "5df87418dfc0bba9": {
+  "t": "{name} 的预报和警报：葡萄牙气象机构 [IPMA](https://www.ipma.pt/en/)。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Forecasts and warnings for {name}: [IPMA](https://www.ipma.p",
+  "ok": false
+ },
+ "5dfba29d80269e68": {
+  "t": "Turismo do Algarve 与酒店学校合作安排人工智能和水资源训练营，包括 Faro",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Turismo do Algarve schedules AI and water bootcamps with hos",
+  "ok": false
+ }
+}

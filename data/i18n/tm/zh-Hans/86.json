@@ -1,0 +1,66 @@
+{
+ "861340a39322787c": {
+  "t": "Faro是Universidade do Algarve的所在地，其在城中的校区是本地区大部分人工智能活动的根基：研究方面有一座将使用人工智能的3150万欧元考古创新中心，教学方面有已发布的大学人工智能政策和与一家健康科技公司合作的医疗人工智能高管课程，还有举办人工智能商务活动的UALG TEC Campus。社区层面同样在这里：GDG Faro举办全市关于智能体人工智能的开发者大会，Algarve Evolution、Algarve STP和市政府则增添活动和项目。从我们读到的内容看，市政当局本身很少使用人工智能，因此Faro的重心是创新与研究，而不是市政管理。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Faro is home to the Universidade do Algarve, whose campuses ",
+  "ok": false
+ },
+ "862a47ccd096007f": {
+  "t": "一个名为QI 4.0的项目利用传感器和机器学习模型监测Queijo Serpa DOP奶酪的熟成过程，并为一款仍在开发中的应用提供数据，当熟成室条件出现偏差时向生产者发出预警。该项目原定于2026年11月14日在科尔多瓦发布。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A project called QI 4.0 uses sensors and machine-learning mo",
+  "ok": false
+ },
+ "863d8453056fae11": {
+  "t": "市政府在一场路演日上向波尔图的初创企业和大学开放八个数字项目",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council opens eight digital projects to Porto's startups",
+  "ok": false
+ },
+ "867572ff80be5e8d": {
+  "t": "Algarve地图，共有{count}个地点，每个都链接到其网站",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Map of the Algarve with its {count} places, each linked to i",
+  "ok": false
+ },
+ "867d7d84af293cda": {
+  "t": "在2021年的签约仪式上，23家合作伙伴加入了设在CEAT的地中海饮食研究与培训中心。计划包括与约翰斯·霍普金斯大学和Algarve Biomedical Center共建数字疗法中心、虚拟现实培训、城市花园以及一座Ciência Viva科学中心。文中未提及人工智能。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "At the 2021 signing, 23 partners joined a Mediterranean Diet",
+  "ok": false
+ },
+ "86ad806b1bec465d": {
+  "t": "Ó pá，Lagoa：阳光、美酒、一座洞顶开了个洞的海蚀洞，如今还有一个向机器人请教空气质量的市政府。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ó pá, Lagoa: sun, wine, a sea cave with a hole in its roof, ",
+  "ok": false
+ },
+ "86c335ec6671a38b": {
+  "t": "Portimão的企业家聚会，探讨领导力、创新与人工智能",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portimão entrepreneurs meet to talk leadership, innovation a",
+  "ok": false
+ },
+ "86db666b9311af7d": {
+  "t": "市长在访谈中说，Santarém的Campus Tejo是Tejo河上的一座田野实验室",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Santarém's Campus Tejo is a field lab on the Tejo, the mayor",
+  "ok": false
+ }
+}

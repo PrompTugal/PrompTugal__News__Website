@@ -1,0 +1,34 @@
+{
+ "fe45a6197a4bdd3a": {
+  "t": "Ferragudo教区委员会为其网站配备名为Ferrukas的人工智能助手",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ferragudo's parish council gives its website an AI assistant",
+  "ok": false
+ },
+ "fe4f663d0603356d": {
+  "t": "该试点是INOVA ALGARVE 3.0的一部分，由NERA牵头，大学、旅游机构、CCDR Algarve、KIPT和Tertúlia Algarvia参与，为15家旅游企业提供咨询。申请时间为2026年2月20日至4月30日。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Part of INOVA ALGARVE 3.0, led by NERA with the university, ",
+  "ok": false
+ },
+ "feaaf525ecc46a19": {
+  "t": "Rádio Portalegre于2026年11月16日报道，该大学牵头这一项目，合资格投资额为5.9万欧元，85%由欧盟共同出资，旨在促进林农业领域的创新与数字化。报道没有提到人工智能。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Rádio Portalegre reports on 16 November 2026 that the univer",
+  "ok": false
+ },
+ "feee2e234a37da04": {
+  "t": "PrompTugal.news Alcoutim：人工智能与科技，bem lá no interior，在Guadiana充当边界、网络得学会游泳的地方。也报道从Algarve、葡萄牙和世界传到我们这里的消息。独立，每条事实都有来源，pois claro。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Alcoutim: AI and technology, bem la no inter",
+  "ok": false
+ }
+}

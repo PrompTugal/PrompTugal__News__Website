@@ -1,0 +1,42 @@
+{
+ "2b08c105c78338e0": {
+  "t": "波尔图的人工智能活动集中在波尔图大学的科学园 UPTEC 周围：2025 年的一份报告在这里发现了至少五家做健康、工业和餐饮的人工智能初创公司；葡萄牙与欧洲的超算计划（BSC AI Factory）于 2026 年 10 月在此开启人工智能孵化轮；Granter 于 11 月在此融资 160 万欧元。周围还有波尔图的风险基金（33N）、商学院（Porto Business School）、营销人工智能社区（AIhub），以及该市的数字机构 Porto Digital，它描述了在“无黑箱”规则下用于交通和人流预测的人工智能，并于 2026 年 11 月把两场人工智能讲座带到了巴塞罗那的 Smart City Expo。《2026 全球创业生态系统报告》将人工智能列为四大增长动力之一。更广泛的大学和研究基础还包括 FEUP 实验室 LIACC、研究所 INESC TEC（于 2026 年 10 月在波尔图举办了人工智能、数据与机器人论坛）以及 Fraunhofer Portugal AICOS。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Porto's AI activity clusters around UPTEC, the science park ",
+  "ok": false
+ },
+ "2b512e47e2ed717b": {
+  "t": "Coimbra 举办关于智慧旅游目的地人工智能的国际会议",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Coimbra hosts an international session on AI for smart touri",
+  "ok": false
+ },
+ "2b7b9ad9a81e640c": {
+  "t": "Santarém 的科技故事是农业食品。市政府与 Universidade Politécnica de Santarém，连同 ISLA Santarém、INIAV 和 CNEMA 展览场地，正在建设 Campus Tejo，一个聚焦水、农业和生命科学的科技园，于 2026 年 11 月 12 日在 Web Summit Lisbon 上发布。我们读到的页面没有说 Campus Tejo 使用人工智能，所以它与人工智能的联系只是经由精准农业和数字化的一个简短推断。直接的人工智能活动规模较小且分散：ISLA Santarém 一个由 PRR 资助 10 万欧元的人工智能项目，CNEMA 的商业和健康活动，以及蓝莓种植者聚会上的农业人工智能计划。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Santarém's technology story is agri-food. The council and th",
+  "ok": false
+ },
+ "2b849e5e92cfc33b": {
+  "t": "Guarda，ó pá：冷得能冻住服务器，像花岗岩一样倔强，这里的理工学院悄悄地教机器学习，还教会了几名学生在建筑师之前读懂 PDM。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Guarda, ó pá: cold enough to freeze a server, stubborn as gr",
+  "ok": false
+ },
+ "2bfcc1a9bf2f5a48": {
+  "t": "其学生和教职工通过 FCT 的 IAedu 服务免费使用三款大语言模型的专业版，该机构称这是迈向负责任、协作式使用人工智能的一步。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Its students and staff get free access to the pro versions o",
+  "ok": false
+ }
+}

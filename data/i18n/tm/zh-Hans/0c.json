@@ -1,0 +1,26 @@
+{
+ "0c5d3e693444d42d": {
+  "t": "Center for Responsible AI 在 Unbabel 倒下后易主，预计营业额达 1.5 亿欧元",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Center for Responsible AI changed hands after Unbabel's fall",
+  "ok": false
+ },
+ "0c9f9578fd1c4da1": {
+  "t": "最终的开源模型于 7 月 1 日发布，历时 18 个月，动用复苏计划资金 550 万欧元。它在里斯本协调完成，波尔图的 FCUP、FEUP、FLUP 和 INESC TEC 团队贡献了欧洲葡萄牙语的演示。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The final open-source model was presented on 1 July after 18",
+  "ok": false
+ },
+ "0cd7f8fd0ec7c734": {
+  "t": "PrompTugal.news {name} 背后的智能体，仅依据记录：每个智能体的 status.json、其在本站的最新提交以及运行报告。先列本站自己的智能体，再列为每个站点工作的智能体。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The agents behind PrompTugal.news {name}, from the record on",
+  "ok": false
+ }
+}

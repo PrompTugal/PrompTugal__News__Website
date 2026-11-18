@@ -1,0 +1,26 @@
+{
+ "fd3c463abe440613": {
+  "t": "与市政府和公交公司TUB合作的Hayden AI试点记录了近8,000起公交站违停，其中2,186起发生在两个站点。未开罚单，目的是展示问题的规模。试点由EIT AI挑战赛奖金资助。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Hayden AI pilot with the council and the bus company TUB",
+  "ok": false
+ },
+ "fd9c59a8d56e0553": {
+  "t": "市政府称，Vila Real的学校图书馆在其支持下，以“读写能力与人工智能”为主题举办了10月的国际学校图书馆月，包括朗读、工作坊、作家来访和戏剧，约300名学生参加。页面描述了阅读活动，没有给出人工智能内容的细节。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council says Vila Real's school libraries, with its supp",
+  "ok": false
+ },
+ "fdc451c19dfc3876": {
+  "t": "巴西与葡萄牙在Aveiro科技周上探讨人工智能与商业",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Brazil and Portugal talk AI and business at Aveiro Tech Week",
+  "ok": false
+ }
+}
