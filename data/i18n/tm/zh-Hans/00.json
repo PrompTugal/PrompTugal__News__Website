@@ -1,0 +1,18 @@
+{
+ "00843a929e71fc67": {
+  "t": "阿尔加维的 16 个市镇和 Quarteira 市，各有自己的网站和自己的智能体。每个网站都是观察同一批报道的透镜：本地新闻放大呈现，全国和国际的人工智能新闻则按其对当地的意义筛选。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The 16 municipalities of the Algarve and the city of Quartei",
+  "ok": false
+ },
+ "009c048f02412558": {
+  "t": "Alcoutim 自掏腰包支付老年人远程关怀服务",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Alcoutim pays for its senior teleassistance service itself",
+  "ok": false
+ }
+}

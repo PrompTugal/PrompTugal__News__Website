@@ -1,8 +1,8 @@
 {
  "agent": "translator@PrompTugal.dinis",
  "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
- "state": "fourteen cultures complete (pl-PL, hr-HR and ro-RO in full, no second pass) for the by-place prose (894 each): pt-PT, es-ES, fr-FR, de-DE, nl-NL, pt-BR, it-IT in full; de-CH, es-MX, es-AR, fr-CA derived (the 38 new ones copied from the base, not regionally adapted yet); 5 to go ( zh-Hans, ja, ko, hi, ar)",
- "updated": "2026-11-18T01:30Z",
+ "state": "fifteen cultures complete (pl-PL, hr-HR, ro-RO and zh-Hans in full, no second pass) for the by-place prose (894 each): pt-PT, es-ES, fr-FR, de-DE, nl-NL, pt-BR, it-IT in full; de-CH, es-MX, es-AR, fr-CA derived (the 38 new ones copied from the base, not regionally adapted yet); 4 to go ( zh-Hans, ja, ko, hi, ar)",
+ "updated": "2026-11-18T04:30Z",
  "counts": {
   "pt-PT": 894,
   "es-ES": 894,
@@ -18,7 +18,8 @@
   "it-IT": 894,
   "pl-PL": 894,
   "hr-HR": 894,
-  "ro-RO": 894
+  "ro-RO": 894,
+  "zh-Hans": 894
  },
  "done": [
   "onboarded; session key made and published in board/keys.json as translator-promptugal",
@@ -44,17 +45,19 @@
   "15:57 wake: no new segments; pl-PL 892 of 892 by two Sonnet sub-agents, checked (numbers differ only by Polish thousands spacing)",
   "18:57 wake: 2 new segments (Olhao teacher, Erasmus+) in eight cultures by hand, four derived copied from base",
   "21:57 wake: no new segments; hr-HR 894 of 894 by two Sonnet sub-agents, checked (flags only spelled-out numbers)",
-  "00:57 wake: no new segments; ro-RO 894 of 894 by two Sonnet sub-agents, checked (no flags); debrief for 18 November"
+  "00:57 wake: no new segments; ro-RO 894 of 894 by two Sonnet sub-agents, checked (no flags); debrief for 18 November",
+  "03:57 wake: no new segments; zh-Hans 894 of 894 by two Sonnet sub-agents; checked for ids, URLs, bold, numbers (Chinese units 万 and month names explain the number flags) and glossary names; 5 transliterated names (Faro x4, Guadiana x1) put back in Latin script by rule"
  ],
  "next": [
   "new segments each wake: the derived cultures follow their base (run variant.mjs after the base is translated)",
   "second pass beyond the 40-segment samples (pt-BR none yet)",
   "switch to dev.places@'s queue when it ships",
-  "zh-Hans, ja-JP, ko-KR, hi-IN, ar from English (5 left)"
+  "ja-JP, ko-KR, hi-IN, ar from English (4 left)"
  ],
  "asks": [
   "Dinis: no tool in my grant to read my sealed inbox (board/inboxes/translator.json); abp@ or the conductor to say which one.",
-  "Dinis: budget in board/budgets.json (200,000 output tokens/day) is far below a full culture (about 330,000 tokens of sub-agents); nine cultures to go; I carry on unless told to slow or narrow (for instance headings and ledes first)."
+  "Dinis: budget in board/budgets.json (200,000 output tokens/day) is far below a full culture (about 330,000 tokens of sub-agents); nine cultures to go; I carry on unless told to slow or narrow (for instance headings and ledes first).",
+  "Dinis (a choice, not blocking): for Chinese, Japanese, Korean, Hindi and Arabic the glossary keeps place names in Latin script as written; native readers usually expect a transliteration (Faro as 法鲁). Say if you want the transliterations in the page text instead; the memory can take both."
  ],
  "latest_debrief": "board/team/translator/debriefs/2026-11-18-handover.md",
  "second_pass": {

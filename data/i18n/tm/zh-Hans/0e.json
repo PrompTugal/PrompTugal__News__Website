@@ -1,0 +1,18 @@
+{
+ "0e8918261c04a038": {
+  "t": "STAR Institute 在 Viseu 开业，人工智能是其核心领域之一，园内有两家初创公司入驻",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "STAR Institute opens in Viseu with AI among its core areas a",
+  "ok": false
+ },
+ "0ee9d1a32b46f135": {
+  "t": "市政府自己的新闻页宣布，AI4PA Portugal 中心五场培训活动的第一场将于 2025 年 2 月 26 日在 Viseu 的 Museu do Quartzo 举行，主题是生成式人工智能和人工智能驱动的公共服务，由时任市长致开幕辞。活动页面将市政府列为共同主办方。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The municipality's own news page announced that the first of",
+  "ok": false
+ }
+}

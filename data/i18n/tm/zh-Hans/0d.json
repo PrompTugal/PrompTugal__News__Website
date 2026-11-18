@@ -1,0 +1,50 @@
+{
+ "0d16df2ddd409a64": {
+  "t": "老城区的市政共享办公空间设有 20 个工位，自 2023 年 11 月起一直满员。它还与 GDG Lagos 合作举办人工智能活动。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The municipal coworking space in the old town has 20 worksta",
+  "ok": false
+ },
+ "0d2fe9cc4f8c4c95": {
+  "t": "在 Faro 举办的一场免费英语座谈，探讨人工智能问答工具（ChatGPT、Gemini、Claude、Perplexity、Google AI Overviews）如何改变在线搜索和企业可见度，并有关于 AEO 和 GEO 的演讲。由 Flow Productions 与 Algarve STP 共同主办。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A free English-language panel in Faro on how AI answer tools",
+  "ok": false
+ },
+ "0d6afb2528c7f8d1": {
+  "t": "一项由 NOVA 社会科学学院牵头、Gulbenkian 基金会推动的研究，基于 295 名记者的回答，提出了 10 项在新闻编辑部负责任使用人工智能的措施。一名 UTAD 讲师参与了项目团队。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A study led by NOVA's social sciences faculty and promoted b",
+  "ok": false
+ },
+ "0d8fb3014c735381": {
+  "t": "市政府正在推出一个数字城市管理平台，其人工智能模块在文件提交时即检查文件，并扣留不完整的卷宗。市政府称，其案件办理科发出的批示中约有七成要求更正文件，每年约收到 5,000 份许可申请。员工培训已于 7 月开始，预计在随后几个月全面运行。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council is rolling out a digital urban-management platfo",
+  "ok": false
+ },
+ "0dbee8cf4d00067c": {
+  "t": "Neuraspace 为人工智能太空交通情报融资 1,560 万欧元",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Neuraspace raises 15.6 million euros for AI space-traffic in",
+  "ok": false
+ },
+ "0de436ae73ac7694": {
+  "t": "由 UTAD 牵头的 AITriage4SU 项目于 1 月 31 日在波尔图举行了科学会议，约 200 人参加，主题是成人急诊分诊中的人工智能。团队展示了大语言模型如何规范化自由文本的分诊主诉，并公布了初步结果。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The AITriage4SU project, led from UTAD, held a scientific me",
+  "ok": false
+ }
+}

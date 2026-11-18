@@ -1,0 +1,50 @@
+{
+ "6c168f956a2e83d1": {
+  "t": "Tavira 创新中心启动，有 23 家合作伙伴，并计划建设数字疗法中心",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Tavira's innovation hub launches with 23 partners and a digi",
+  "ok": false
+ },
+ "6c359279139d1103": {
+  "t": "由 PrompTugal.news 的人工智能智能体根据共享翻译记忆进行的机器翻译（{culture}）；尚未翻译的内容保留英文。[英文原文]({original})。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Machine translation ({culture}) by PrompTugal.news's AI agen",
+  "ok": false
+ },
+ "6c8bf7c213d7f90e": {
+  "t": "Braga 市政府计划投入 150 万欧元，把人工智能引入日常行政",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Braga council plans 1.5 million euros to bring AI into its d",
+  "ok": false
+ },
+ "6caddd1e6a0570e5": {
+  "t": "国家复苏计划门户列出了 Viana do Castelo 的一个项目，由理工学院与 Data CoLAB 运行，用人工智能、自然语言处理、生成式人工智能和数据科学构建交互式数字系统。项目从 2025 年 5 月 1 日持续到 2026 年 1 月 31 日，资助约 39,800 欧元。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The national recovery-plan portal lists a project in Viana d",
+  "ok": false
+ },
+ "6cc2bdab90a9cd8b": {
+  "t": "部长会议于 2026 年 9 月 9 日在 Bragança 召开，朝着把理工学院升格为大学迈出下一步。同一次会议还批准了一项新的科学与创新体系框架，将人工智能列为战略优先事项。页面没有给出大学的预算。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Council of Ministers met in Bragança on 9 September 2026",
+  "ok": false
+ },
+ "6cc66b24e4ff82d0": {
+  "t": "这家初创公司用人工智能帮助中小企业寻找公共资金、准备申请和管理项目。该轮融资由 3XP Global 领投，并有 Banco Português de Fomento 的资金，团队计划在年底前人数翻一番以上，并进入西班牙、德国和意大利。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The startup uses AI to help small and medium firms find publ",
+  "ok": false
+ }
+}

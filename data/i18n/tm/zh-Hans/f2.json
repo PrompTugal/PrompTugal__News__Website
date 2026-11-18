@@ -1,0 +1,26 @@
+{
+ "f286c40d54dd940a": {
+  "t": "Vila Real，ó pá：Marão挡住风，葡萄藤爬上梯田，大学在午饭前就悄悄地教整个北方与机器对话。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Vila Real, ó pá: where the Marão keeps the wind out, the vin",
+  "ok": false
+ },
+ "f2b3de0137a397b3": {
+  "t": "PrompTugal.news Portalegre：Portalegre的人工智能与科技。这是Alto Alentejo的首府，重心在于其理工大学以及周边的物联网、农业和国防科技雄心；本站也报道从Alentejo、葡萄牙和世界传到Portalegre的消息。独立报道，每条事实均注明来源。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Portalegre: AI and technology in Portalegre,",
+  "ok": false
+ },
+ "f2e6d54a12a3da5d": {
+  "t": "Portimão水务公司用人工智能传感器查找漏水",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portimão's water company uses AI sensors to hunt leaks",
+  "ok": false
+ }
+}

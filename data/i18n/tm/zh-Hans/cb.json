@@ -1,0 +1,26 @@
+{
+ "cb8b2929b99ec444": {
+  "t": "Loulé和Faro为Estádio Algarve的一座科技中心招标，主题中包括人工智能",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Loulé and Faro tender a technology centre at the Estádio Alg",
+  "ok": false
+ },
+ "cbc3ad7923c9c7fc": {
+  "t": "ULS Algarve邀请就人工智能在葡萄牙卫生系统中的机会、风险和条件展开讨论，强调人工智能应辅助而非取代临床判断。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "ULS Algarve invited discussion of the chances, risks and con",
+  "ok": false
+ },
+ "cbc579c9dde6da33": {
+  "t": "政府划拨约2500万欧元，用于在公共行政中采用人工智能",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Government earmarks about 25 million euros to adopt AI in pu",
+  "ok": false
+ }
+}

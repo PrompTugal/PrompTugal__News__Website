@@ -1,0 +1,18 @@
+{
+ "be5099c1271641c4": {
+  "t": "一个位于欧洲大西洋边缘的国家，给自己写了一个语言模型，并希望你来试试。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A country on the Atlantic edge of Europe that wrote itself a",
+  "ok": false
+ },
+ "be99630c0197edb6": {
+  "t": "Algarve面向旅游中小企业的人工智能与机器人试点计划开始接受申请",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Applications opened for the Algarve's pilot AI and robotics ",
+  "ok": false
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "375953d9a9efce76": {
+  "t": "PrompTugal.news {name}：该地方的调研，按其页面所呈现，其列表在构建时经过检查（仅限 http(s) 链接，报道按最新排序），并附已验证的站点身份",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news {name}: the place's research as served on it",
+  "ok": false
+ }
+}

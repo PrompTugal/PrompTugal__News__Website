@@ -1,0 +1,50 @@
+{
+ "191fc67990205870": {
+  "t": "PrompTugal.news Évora, a nossa cidade branca do Alentejo：Évora 的人工智能与科技，由 Universidade de Évora、PACT 园区和医院担起重任，另有从阿连特茹、葡萄牙和世界传来的各类新闻。Independente，每个事实都附有凭证。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Évora, a nossa cidade branca do Alentejo: AI",
+  "ok": false
+ },
+ "19351ee4e93740f0": {
+  "t": "**本站身份：**PrompTugal.news {name} 有自己的密钥 {key}，已公布在 [board/keys.json]({keys}) 中，但对 `{file}` 的签名无法通过验证：该文件在签名后被改动。已请其智能体 {agent} 重新签名。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** PrompTugal.news {name} has its own",
+  "ok": false
+ },
+ "197990ab5ba89370": {
+  "t": "我们没找到的东西，一本正经地说，配上一块 pastel de nata：",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "What we did not find, said with a straight face and a pastel",
+  "ok": false
+ },
+ "198269aaf1071bc9": {
+  "t": "2026 年 2 月 21 日的教育日汇集了专家、校长、市长、警察、儿童保护委员会、教师、家长和学生。议题包括数字安全、技术素养和人工智能的使用。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The education days on 21 February 2026 brought together expe",
+  "ok": false
+ },
+ "19ae71b00c1928c8": {
+  "t": "Ó pá，我们这儿的山里栗树比数据中心多，但 medronho 酒够烈，孵化器里的 Wi-Fi 也够强。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ó pá, up here on the Serra we have more chestnut trees than ",
+  "ok": false
+ },
+ "19e3bc5dac4015f3": {
+  "t": "Noesis 于 2025 年 2 月在 Guarda 和 Castelo Branco 开设办公室，计划招聘约 30 人，主要在质量、DevOps、自动化和低代码领域。公司补充说，在其区域扩张中也欢迎数据分析和人工智能方面的人才。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Noesis opened offices in Guarda and Castelo Branco in Februa",
+  "ok": false
+ }
+}

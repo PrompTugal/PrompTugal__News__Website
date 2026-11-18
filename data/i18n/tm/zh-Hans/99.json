@@ -1,0 +1,26 @@
+{
+ "99a71106aa482450": {
+  "t": "Aljezur是Algarve的大西洋边缘：一个面积广大、人口稀少的市镇（2011年人口普查时约323平方公里、5,884名居民），分四个教区，位于Southwest Alentejo and Vicentine Coast自然公园内。它的特色是自然、Arrifana等海滩的冲浪，以及一个把自然旅游称为本地经济战略驱动力的市政府。能源是第二支柱：EDP运营24兆瓦的Bordeira风电场，并于2025年在旁边增建了一座15.3兆瓦的太阳能电站。它不是人工智能中心：我们发现的是一个提供在线服务和地理门户的市政府、一个面向老年居民的教区远程陪护试点，以及Aljezur企业可以参加的面向旅游企业的区域人工智能项目。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Aljezur is the Algarve's Atlantic edge: a large, thinly popu",
+  "ok": false
+ },
+ "99c102dd36cca038": {
+  "t": "Rádio Portalegre报道了该理工学院约20万欧元、由FEDER资助的项目，该项目把人工智能模型放在能就地处理数据的传感器上，并以试点农场进行验证。报道称涉及工程、数据科学、农学和信息系统等领域，结束日期为2028年8月。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Rádio Portalegre reports the polytechnic's roughly 200,000 e",
+  "ok": false
+ },
+ "99ea56e3b843dfcf": {
+  "t": "Equipa UAlg重返校园，举办81场免费讲座，其中包括人工智能和网络安全",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Equipa UAlg returns to schools with 81 free talks, AI and cy",
+  "ok": false
+ }
+}
