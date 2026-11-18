@@ -9,5 +9,10 @@
     "Nationwide, including Lisbon"
   ],
   "source": "data/companies/",
-  "note": "Named as a company's country in the team's company map, and as where Portugal Tech Week happens."
+  "note": "Named as a company's country in the team's company map, and as where Portugal Tech Week happens.",
+  "wikidata": {
+    "id": "Q45",
+    "read_at": "2026-11-18T16:10Z",
+    "how": "Special:EntityData/Q45 read: label Portugal, a country"
+  }
 }
