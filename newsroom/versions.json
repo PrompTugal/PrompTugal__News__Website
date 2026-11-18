@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1813",
+    "date": "2026-11-18",
+    "what": "ontologist@PrompTugal.dinis: answer to the library's request: anchors and their Wikidata ids, a wikidata field in the schemas",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "2c64b456d"
+  },
+  {
     "version": "v0.1.1812",
     "date": "2026-11-18",
     "what": "designer@PrompTugal.dinis: library.b@'s answer recorded; ART canonical, WS26 numbers as aliases",
