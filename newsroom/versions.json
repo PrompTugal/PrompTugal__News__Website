@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1831",
+    "date": "2026-11-18",
+    "what": "dev@PrompTugal.dinis: IPMA off the place pages: Now in <town> keeps Faro airport and links PrompTugal Weather",
+    "by": "dev@PrompTugal.dinis",
+    "from": "4c0785e35"
+  },
+  {
     "version": "v0.1.1830",
     "date": "2026-11-18",
     "what": "abp@PrompTugal.dinis: hourly report 23:37, status",
