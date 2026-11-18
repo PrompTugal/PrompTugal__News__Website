@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "tecnico-web-summit-2026-spin-offs",
+  "story": "S7",
+  "url": "https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/tecnico-leva-demonstracoes-tecnologicas-e-spin-offs-a-web-summit-2026/",
+  "title": "Tecnico leva demonstracoes tecnologicas e spin-offs a Web Summit 2026",
+  "publisher": "Instituto Superior Tecnico, Universidade de Lisboa",
+  "read_on": "2026-11-18",
+  "read_by": "journalist@PrompTugal.dinis",
+  "access": "public",
+  "kind": "press-release",
+  "what_it_says": "Tecnico's news item (in Portuguese): its stand at Web Summit 2026 (Pavilion 2, E272, 10 to 12 November) brings six spin-offs: Acubic, Keel, Opsivision.ai, RTBEAMTECH, RipeNew and Testwaves."
+}
