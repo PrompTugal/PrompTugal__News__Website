@@ -1,0 +1,50 @@
+{
+ "2e08790bc444c605": {
+  "t": "情報学の教授は Lusa に対し、大学の小型でオープンなポルトガル語モデルは、一部のタスクでビッグテックのモデルに匹敵する性能に達しており、ポルトガル語とガリシア語のモデルはすでに企業向けに提供されていると語った。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A professor of informatics told Lusa that the university's s",
+  "ok": false
+ },
+ "2e513ec94d637d09": {
+  "t": "Braga、ai ai ai。日曜には大司教のために鐘を鳴らし、月曜にはモデルを訓練する街で、バス停に駐車した人を数える AI カメラ付きのバスが走る。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Braga, ai ai ai: a city that rings its bells for the archbis",
+  "ok": false
+ },
+ "2e7c775df10f0748": {
+  "t": "SiARA プロジェクトは、AI、EVAbot と呼ばれる自律型の野外ロボット、センサーネットワークを組み合わせ、Campo Branco のステップ地帯で作物、土壌、牧草地、野生生物のデータを収集する。2025年11月に始まり、最初の現地作業は2026年3月3日だった。プロジェクトは Promove プログラムの動員型 R&D 部門で評価された。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The SiARA project combines AI, an autonomous field robot cal",
+  "ok": false
+ },
+ "2ecaf3860065acde": {
+  "t": "PrompTugal.news Braga, a cidade dos arcebispos e das startups: Braga の AI とテック。Minho 大学、INL、企業ラボが頭脳を担い、Minho、ポルトガル、世界から届くニュースも。Independente、すべての事実に領収書つき。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Braga, a cidade dos arcebispos e das startup",
+  "ok": false
+ },
+ "2ece8b1cdbda1ec5": {
+  "t": "Évora、ó pá。白壁とコルクガシと古い石の街で、機械が少しずつ、calminha、Alentejo らしくポルトガル語を覚えている。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Évora, ó pá: a city of whitewash, cork oaks and old stones w",
+  "ok": false
+ },
+ "2ed694a2fcc0cf7e": {
+  "t": "PrompTugal.news Lisboa, a capital que nunca dorme: Lisboa の AI とテック。大学と Unicorn Factory が大きな頭脳となり、ポルトガル、ヨーロッパ、世界から届くニュースも。Independente、すべての事実に領収書つき。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Lisboa, a capital que nunca dorme: AI and te",
+  "ok": false
+ }
+}

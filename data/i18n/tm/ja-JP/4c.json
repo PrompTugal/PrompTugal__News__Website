@@ -1,0 +1,26 @@
+{
+ "4c0d30adf1b09c9f": {
+  "t": "Braga の AI 活動は、情報源が並べて示す4つの場所にある。研究(Minho 大学の AI グループ、Minho 発のスピンオフ OmniumAI、イベリア・ナノテクノロジー研究所 INL)、企業の研究開発(ポルトガル初の Cegid の AI センターと、盗難防止ソフトウェアに機械学習を使う Bosch の新しい eBike 部門)、市当局自身の AI 利用(Hayden AI とのバスカメラのパイロットと、市の行政に AI を導入する150万ユーロのプロジェクト)、そして Startup Braga と InvestBraga を軸とするスタートアップの層で、後者は15社を Web Summit 2026 に連れて行った。Algarve の町々と違い、Braga は1つの機関に頼らず、私たちが読めた範囲では、市当局は AI をめぐるイベントを開くだけでなく、AI を購入し試す姿勢を見せている。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Braga's AI activity sits in four places that the sources sho",
+  "ok": false
+ },
+ "4c20ecf29e33e8c3": {
+  "t": "Évora の AI 活動は3つの場所にある。Universidade de Évora は AI・データサイエンスの学位を教え、教育における AI の独自の規則を定め、ポルトガル語のモデルを構築したと述べている。Alentejo の科学技術公園 PACT は AI の研修を実施し、技術企業を受け入れている。Hospital de Évora は、自らの保健ユニットの説明では、子宮頸部のスクリーニングに AI システムを使うポルトガル初の公立病院だ。新しい民間資金も到来しており、データセンター企業が市内の1 MW の施設を買収した。市当局のサイトには、私たちが読める範囲で AI の利用は見当たらず、重心は市役所ではなく、大学、公園、病院にある。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Évora's AI activity sits in three places. The Universidade d",
+  "ok": false
+ },
+ "4c2d5aebc2b28ff3": {
+  "t": "2025年10月1日、INCO Academy と Santarém ポリテクニックのデジタルリテラシー部門は、オンラインで4週間、約40時間の NewFutures: AI を実施することで合意した。生成 AI の中核モジュールに、マーケティング、財務、ICT などのトラックが加わる。両者は AI の実践コミュニティの検討も計画している。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "On 1 October 2025 INCO Academy and the digital literacy unit",
+  "ok": false
+ }
+}
