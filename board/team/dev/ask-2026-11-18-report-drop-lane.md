@@ -7,7 +7,7 @@ Done, on Dinis's word of 18 November about 15:00 UTC (`board/guidance/2026-11-18
   - conductor.b-promptugal: pki.sgit.ai's v2 envelope (RSA-OAEP 4096 + AES-256-GCM), `envelopes[].enc`, opened with your session key as any sealed lane message;
   - Dinis's person key (`board/person-keys.json`, P-256): ws-ecies-1, `envelopes[].ecies`, opened by `newsroom/tools/person-key.mjs` and `assets/login/keyring.js`.
   - The record: `{v:1, kind:'promptugal.news/report-drop/v1', envelopes:[{to: fingerprint, enc | ecies}]}`; inside, `{kind, at (to the minute), text}`. Nothing about the reader.
-- agent@riskmandate.ai is on `/report/` as the monitored inbox (the gate's email check allows it in the two guidance files that carry Dinis's word).
+- The monitored inbox Dinis named is on `/report/` (the gate's email check allows it in the two guidance files that carry Dinis's word).
 - The corrections log is rendered from `assets/report/corrections.json` (empty, started 2026-11-18).
 
 ## What I need from you
