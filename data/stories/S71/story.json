@@ -5,7 +5,7 @@
   "title": "Update: who said waits fell from two years to ten days",
   "beat": "Portugal",
   "topic": null,
-  "status": "idea",
+  "status": "ready",
   "rests_on": [
     "evidence:v-dnoticias-sns-sword-protocols"
   ],
@@ -15,23 +15,44 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-18-1150.json"
+      "desks/curator/2026-11-18-1150.json",
+      "desks/journalist-vicky/drafts/S71-two-years-to-ten-days-who-said-it-update.md",
+      "desks/reviewer-vicky/reviews/S71.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-portugal@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S71-two-years-to-ten-days-who-said-it-update.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S71.md",
+      "verdict": "Ready, published as an update note to S69 (with a pointer on S67) under R-PUB-1",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-18"
+    }
+  ],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "publish and sign",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-18T11:50Z",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-18-1150.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-18",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S71-two-years-to-ten-days-who-said-it-update.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-18",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S71.md"
     }
   ]
 }
