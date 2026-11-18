@@ -1,6 +1,6 @@
 {
  "place": "alcoutim",
- "read_at": "2026-11-18T20:16:10Z",
+ "read_at": "2026-11-18T21:16:38Z",
  "by": "board/tools/local-now.mjs (conductor@PrompTugal.dinis)",
  "about": "Now in this place, from IPMA's open data and (for Faro) adsb.lol: each value with its source and the time read. Not a warning service: follow IPMA (https://www.ipma.pt/) and ANEPC.",
  "station": {
@@ -8,13 +8,13 @@
   "id": 1210865,
   "km": 26,
   "reading": {
-   "at": "2026-11-18T19:00Z",
-   "temp_c": 19.1,
-   "humidity_pct": 85,
-   "wind_kmh": 16.9,
+   "at": "2026-11-18T20:00Z",
+   "temp_c": 18.6,
+   "humidity_pct": 91,
+   "wind_kmh": 14.8,
    "wind_dir_id": 6,
    "rain_mm": 0,
-   "pressure_hpa": 1015.4
+   "pressure_hpa": 1015.5
   },
   "page": "https://www.ipma.pt/en/otempo/obs.superficie/",
   "source": "https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json"
@@ -34,30 +34,30 @@
    },
    {
     "date": "2026-11-19",
-    "t_min_c": 10.6,
-    "t_max_c": 19.5,
-    "rain_prob_pct": 8,
+    "t_min_c": 10.5,
+    "t_max_c": 19.7,
+    "rain_prob_pct": 0,
     "weather_type": 2
    },
    {
     "date": "2026-11-20",
-    "t_min_c": 9.7,
-    "t_max_c": 18.7,
+    "t_min_c": 9.2,
+    "t_max_c": 18.4,
     "rain_prob_pct": 0,
-    "weather_type": 3
+    "weather_type": 2
    },
    {
     "date": "2026-11-21",
-    "t_min_c": 10.3,
-    "t_max_c": 18.7,
-    "rain_prob_pct": 82,
+    "t_min_c": 10.2,
+    "t_max_c": 18.8,
+    "rain_prob_pct": 96,
     "weather_type": 6
    },
    {
     "date": "2026-11-22",
-    "t_min_c": 9.4,
+    "t_min_c": 9.7,
     "t_max_c": 18.3,
-    "rain_prob_pct": 2,
+    "rain_prob_pct": 0,
     "weather_type": 2
    }
   ],
@@ -109,62 +109,62 @@
  "reads": {
   "warnings": {
    "url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-   "at": "2026-11-18T20:15:46Z",
+   "at": "2026-11-18T21:16:14Z",
    "status": 200
   },
   "observations": {
    "url": "https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json",
-   "at": "2026-11-18T20:15:48Z",
+   "at": "2026-11-18T21:16:16Z",
    "status": 200
   },
   "city-daily-1080500": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080500.json",
-   "at": "2026-11-18T20:15:50Z",
+   "at": "2026-11-18T21:16:18Z",
    "status": 200
   },
   "city-daily-1080800": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080800.json",
-   "at": "2026-11-18T20:15:52Z",
+   "at": "2026-11-18T21:16:20Z",
    "status": 200
   },
   "city-daily-1081100": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081100.json",
-   "at": "2026-11-18T20:15:55Z",
+   "at": "2026-11-18T21:16:22Z",
    "status": 200
   },
   "city-daily-1081505": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081505.json",
-   "at": "2026-11-18T20:15:57Z",
+   "at": "2026-11-18T21:16:25Z",
    "status": 200
   },
   "fire-risk-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d0.json",
-   "at": "2026-11-18T20:15:59Z",
+   "at": "2026-11-18T21:16:27Z",
    "status": 200
   },
   "fire-risk-d1": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d1.json",
-   "at": "2026-11-18T20:16:01Z",
+   "at": "2026-11-18T21:16:29Z",
    "status": 200
   },
   "fire-risk-d2": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d2.json",
-   "at": "2026-11-18T20:16:03Z",
+   "at": "2026-11-18T21:16:31Z",
    "status": 200
   },
   "uv": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/uv/uv.json",
-   "at": "2026-11-18T20:16:05Z",
+   "at": "2026-11-18T21:16:33Z",
    "status": 200
   },
   "sea-forecast-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/oceanography/daily/hp-daily-sea-forecast-day0.json",
-   "at": "2026-11-18T20:16:07Z",
+   "at": "2026-11-18T21:16:35Z",
    "status": 200
   },
   "adsb": {
    "url": "https://api.adsb.lol/v2/point/37.0144/-7.9659/40",
-   "at": "2026-11-18T20:16:10Z",
+   "at": "2026-11-18T21:16:38Z",
    "status": 200
   }
  }
