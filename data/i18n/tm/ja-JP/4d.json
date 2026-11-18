@@ -1,0 +1,18 @@
+{
+ "4d3e04b864186034": {
+  "t": "{name} についての PrompTugal.news 自身の記事(フロントマターの town: または region:)、すべて署名つき。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news's own articles about {name} (front matter to",
+  "ok": false
+ },
+ "4def806991338441": {
+  "t": "CitiLink は、長い市議会議事録を、議題、立場、決定についての構造化された情報に変える。INESC TEC、Porto 大学、UBI が2024年から2026年初めにかけて構築し、Porto と他の5自治体、Porto Digital が関わった。審査員は、透明性への可能性を高く評価した。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "CitiLink turns long municipal minutes into structured inform",
+  "ok": false
+ }
+}

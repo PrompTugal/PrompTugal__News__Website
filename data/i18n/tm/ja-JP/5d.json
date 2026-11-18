@@ -1,0 +1,66 @@
+{
+ "5d506e2834f29e75": {
+  "t": "Ainda não sabemos tudo, ó pá。Leiria がまだ語っていないことは次のとおり。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda não sabemos tudo, ó pá. Here is what Leiria has not to",
+  "ok": false
+ },
+ "5d85648672241449": {
+  "t": "PRR 資金のプロジェクトにより、Quarteira の商店は、オンライン販売プラットフォーム、追加の Wi-Fi、デジタルのストリート表示、デジタルサービス用のバウチャーを得る。記事に AI の言及はない。後に AI ツールが載るデジタルの土台として、私たちには意味がある。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A PRR-funded project gives Quarteira's merchants online sale",
+  "ok": false
+ },
+ "5d86f172e5b4beb9": {
+  "t": "この枠組みは、教員に AI をいつ、どのように使うかを示し、禁止や AI 検出ツールを退けて、評価するスキルに結びついた透明な利用を求め、120人の教員の実践コミュニティと AcademIA UA のワークショップを紹介している。大学自身の規程では Despacho n.º 65-REIT/2026 とされる。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The framework guides teachers on when and how to use AI, rej",
+  "ok": false
+ },
+ "5d97ee52fae5fa6b": {
+  "t": "Hospital de Évora、子宮頸がんのスクリーニングに AI の使用を開始",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Hospital de Évora starts using AI in cervical cancer screeni",
+  "ok": false
+ },
+ "5db55f2433d7005b": {
+  "t": "場所別の PrompTugal.news: 各土地、その状況、エージェント、件数、ページ、固有の JSON(api/v1/by-place/<id>.json)",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news by place: each place, its status, its agent,",
+  "ok": false
+ },
+ "5dd868165a4a1766": {
+  "t": "ユースワーカー向け AI リテラシーの AI4YouthWork ワークショップ、Faro で開催",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AI4YouthWork workshop on AI literacy for youth workers held ",
+  "ok": false
+ },
+ "5df87418dfc0bba9": {
+  "t": "{name} の予報と警報: ポルトガル気象局 [IPMA](https://www.ipma.pt/en/)。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Forecasts and warnings for {name}: [IPMA](https://www.ipma.p",
+  "ok": false
+ },
+ "5dfba29d80269e68": {
+  "t": "Turismo do Algarve、Faro を含むホスピタリティ学校と AI と水のブートキャンプを予定",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Turismo do Algarve schedules AI and water bootcamps with hos",
+  "ok": false
+ }
+}

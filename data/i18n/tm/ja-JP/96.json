@@ -1,0 +1,18 @@
+{
+ "96b646265713332b": {
+  "t": "Portimão、建築許可書類の確認にAIを使用",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portimão uses AI to check building-permit documents",
+  "ok": false
+ },
+ "96bbec2b19a93006": {
+  "t": "Algarveの廃棄物事業者ALGARは、人口密度やアクセスのしやすさなどの要素を比較検討するこのツールを、スタートアップのNILG.AIと共同で開発した。パイロットはSociedade Ponto Verdeのプログラムの下でLagoaで実施されている。ALGARによると、4時間で14の候補地が見つかり、判断までの時間は12日から2日に短縮された。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Algarve waste operator ALGAR built the tool with the sta",
+  "ok": false
+ }
+}

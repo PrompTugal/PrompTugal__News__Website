@@ -1,0 +1,34 @@
+{
+ "0a19facbd98f5c16": {
+  "t": "2025年12月10日に署名された Despacho 91/2025 は、EU AI 規則を引用しつつ、学術コミュニティ向けの AI 利用指針を定めている。教育的、創造的で安全な利用を目指し、学術的誠実性と個人データを保護する。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Despacho 91/2025, signed on 10 December 2025, sets out guide",
+  "ok": false
+ },
+ "0a25a694e0d350f0": {
+  "t": "- **ポルトガル:** [promptugal.news]({portugal})、ヨーロッパと世界も\n- **Algarve:** このページ\n- **各町:** この下に {count} のサイト\n\nニュースは**下へ**(国内外の AI ニュースを、ここでの意味に沿って選別)、そして**上へ**(地元の情報源が、重要になったときに浮上)と流れる。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "- **Portugal:** [promptugal.news]({portugal}), with Europe a",
+  "ok": false
+ },
+ "0a3a7e1517d2e2b4": {
+  "t": "欧州の資金で Algarve の観光企業15社に AI とロボティクスを導入",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "European funds to bring AI and robotics to 15 Algarve touris",
+  "ok": false
+ },
+ "0af2ef8726963e81": {
+  "t": "AMALIA に第2段階、180万ユーロを追加、エージェントツールは2026年末までに計画",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AMALIA gets a second phase: 1.8 million euros more, agent to",
+  "ok": false
+ }
+}

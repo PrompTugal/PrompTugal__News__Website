@@ -1,0 +1,35 @@
+{
+ "de2e4b94f72efbdd": {
+  "t": "行政、リスボンの大学研究者とのパイロットでAIを試験",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Public administration tests AI in pilots with Lisbon univers",
+  "ok": false
+ },
+ "de7a070000c11649": {
+  "t": "市、Castelo Brancoのドローン・防衛テクノロジー拠点を承認",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council approves a drone and defence technology hub for ",
+  "ok": false
+ },
+ "de993d4fe58354fc": {
+  "t": "Algarveの地域保健ユニットは、9月15日に、医療でAIを使う機会、リスク、条件をテーマにウェビナーを開き、臨床、技術、管理の職員向けに、ガバナンス、データ保護、サイバーセキュリティ、患者の信頼を扱った。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Algarve's local health unit ran a webinar on 15 Septembe",
+  "ok": false
+ },
+ "deeaee853be58992": {
+  "t": "Olhãoの拠点は2021年5月に開設され、Universidade do Algarveとともに進行中のプロジェクトがあり、その中には網膜研究のためのAIアルゴリズムがある。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Olhão hub opened in May 2021 with projects under way alo",
+  "ok": false,
+  "rev": "glossary name restored by rule"
+ }
+}

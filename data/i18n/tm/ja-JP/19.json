@@ -1,0 +1,50 @@
+{
+ "191fc67990205870": {
+  "t": "PrompTugal.news Évora, a nossa cidade branca do Alentejo: Évora の AI とテック。Universidade de Évora、PACT 公園、病院が中心を担い、Alentejo、ポルトガル、世界から届くニュースも。Independente、すべての事実に領収書つき。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Évora, a nossa cidade branca do Alentejo: AI",
+  "ok": false
+ },
+ "19351ee4e93740f0": {
+  "t": "**このサイトのアイデンティティ:** PrompTugal.news {name} は独自の鍵 {key} を持ち、[board/keys.json]({keys})で公開されているが、`{file}` への署名は検証に通らない。署名後にファイルが変更されたためである。担当エージェントの {agent} に再署名を依頼している。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** PrompTugal.news {name} has its own",
+  "ok": false
+ },
+ "197990ab5ba89370": {
+  "t": "見つからなかったことを、真顔で、pastel de nata を片手に。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "What we did not find, said with a straight face and a pastel",
+  "ok": false
+ },
+ "198269aaf1071bc9": {
+  "t": "2026年2月21日の教育デーには、専門家、校長、市長、警察、児童保護委員会、教員、保護者、生徒が集まった。テーマにはデジタルの安全、技術リテラシー、AI の利用が含まれた。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The education days on 21 February 2026 brought together expe",
+  "ok": false
+ },
+ "19ae71b00c1928c8": {
+  "t": "Ó pá、ここ Serra にはデータセンターより栗の木のほうが多いが、medronho は強く、インキュベーターの Wi-Fi も強い。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ó pá, up here on the Serra we have more chestnut trees than ",
+  "ok": false
+ },
+ "19e3bc5dac4015f3": {
+  "t": "Noesis は2025年2月に Guarda と Castelo Branco に事務所を開設し、主に品質、DevOps、自動化、ローコードで約30人の採用を計画している。地域展開にあたり、データ分析や AI の人材にも門戸を開いていると付け加えている。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Noesis opened offices in Guarda and Castelo Branco in Februa",
+  "ok": false
+ }
+}
