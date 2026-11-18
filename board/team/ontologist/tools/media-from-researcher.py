@@ -5,6 +5,7 @@ Contacts: only the outlet's own contact PAGE is kept; an address or number stays
 Run from the repository root:  python3 -I board/team/ontologist/tools/media-from-researcher.py [ref]"""
 import json, os, re, subprocess, sys
 ref = sys.argv[1] if len(sys.argv) > 1 else 'origin/work/researcher'
+if not re.fullmatch(r'[A-Za-z0-9_][\w./-]*', ref): sys.exit('bad ref')   # never a git option
 NOW = '2026-11-16'
 ADOPT = {'eco', 'jornal-economico', 'tvi'}   # derived listings that are outlets: taken over by hand
 BY = 'ontologist@PrompTugal.dinis'
@@ -35,7 +36,12 @@ names = [n for n in subprocess.check_output(['git','ls-tree','--name-only',ref,'
 made = 0
 for n in names:
     d = json.loads(subprocess.check_output(['git','show',f'{ref}:{n}'],text=True))
-    i = d['id']; path = f'data/organisations/{i}/organisation.json'
+    i = d['id']
+    if not re.fullmatch(r'[a-z0-9]+(-[a-z0-9]+)*', str(i)): print('skip (bad id):', repr(i)[:40]); continue   # the id becomes a folder name
+    path = f'data/organisations/{i}/organisation.json'
+    urls = [d.get('website'), d.get('contact_page_url')] + [f.get('url') for f in d.get('feeds', [])] + [s.get('url') for s in d['sources']]
+    if any(u and not re.fullmatch(r'https?://[^\s@]+', u) for u in urls): print('skip (a url that is not plain http(s), or carries an address):', i); continue
+    if BAD.search(d['name']) or any(BAD.search(n) for n in d.get('names_as_listed', [])): print('skip (a contact shape in the name):', i); continue
     keep_names, keep_srcs = [], []
     if os.path.exists(path):
         ex = json.load(open(path))

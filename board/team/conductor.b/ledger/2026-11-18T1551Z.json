@@ -1,0 +1,191 @@
+{
+  "stamp": "2026-11-18T15:51Z",
+  "about": "API-equivalent usage per restarted session (get_session cost; not real money spent). Read by a Haiku sub-agent; no transcripts read.",
+  "rows": [
+    {
+      "agent": "journalist@PrompTugal.dinis",
+      "session": "session_01Kw9UwFKhT1TCw8TU2SWTrR",
+      "api_equivalent_usd": 39.46921046,
+      "status_bucket": "SESSION_STATUS_BUCKET_WORKING"
+    },
+    {
+      "agent": "dev@PrompTugal.dinis",
+      "session": "session_01Kw9UwEA7TFC7iKpVctAi2t",
+      "api_equivalent_usd": 60.03129586,
+      "status_bucket": "SESSION_STATUS_BUCKET_COMPLETED"
+    },
+    {
+      "agent": "designer@PrompTugal.dinis",
+      "session": "session_01Kw9UwEq1n6W1EdcdvX5uGE",
+      "api_equivalent_usd": 68.73797374,
+      "status_bucket": "SESSION_STATUS_BUCKET_WORKING"
+    },
+    {
+      "agent": "security@PrompTugal.dinis",
+      "session": "session_01Kw9UwF2TrbbV5BhUjFGupN",
+      "api_equivalent_usd": 76.91728234,
+      "status_bucket": "SESSION_STATUS_BUCKET_WORKING"
+    },
+    {
+      "agent": "place.algarve.west@PrompTugal.dinis",
+      "session": "session_01Kw9UwB48Tyf66NWE1NBaPm",
+      "api_equivalent_usd": 22.58524864,
+      "status_bucket": "SESSION_STATUS_BUCKET_COMPLETED"
+    },
+    {
+      "agent": "place.algarve.central@PrompTugal.dinis",
+      "session": "session_01Kw9UwCFSNqiuFPDYCZTsXJ",
+      "api_equivalent_usd": 21.70156492,
+      "status_bucket": "SESSION_STATUS_BUCKET_REVIEW_READY"
+    },
+    {
+      "agent": "place.algarve.east@PrompTugal.dinis",
+      "session": "session_01Kw9UwCgQJVtiZNb3HKc1Rt",
+      "api_equivalent_usd": 20.09056082,
+      "status_bucket": "SESSION_STATUS_BUCKET_REVIEW_READY"
+    },
+    {
+      "agent": "place.districts@PrompTugal.dinis",
+      "session": "session_01Kw9UwD5cJhhjJEfERLHju6",
+      "api_equivalent_usd": 29.87752872,
+      "status_bucket": "SESSION_STATUS_BUCKET_REVIEW_READY"
+    },
+    {
+      "agent": "correspondent@PrompTugal.dinis",
+      "session": "session_01Kw9UwD8Vhfy61uBa4EkATR",
+      "api_equivalent_usd": 14.83708644,
+      "status_bucket": "SESSION_STATUS_BUCKET_REVIEW_READY"
+    },
+    {
+      "agent": "datasci.places@PrompTugal.dinis",
+      "session": "session_01Kw9UwByjKtkJhJ74tTYo5q",
+      "api_equivalent_usd": 11.05964388,
+      "status_bucket": "SESSION_STATUS_BUCKET_COMPLETED"
+    },
+    {
+      "agent": "researcher@PrompTugal.dinis",
+      "session": "session_01Kw9UwBzj6Y59uTXa4AiLNG",
+      "api_equivalent_usd": 23.57348984,
+      "status_bucket": "SESSION_STATUS_BUCKET_COMPLETED"
+    },
+    {
+      "agent": "ontologist@PrompTugal.dinis",
+      "session": "session_01Kw9UwCqzmCPurcVkEeQXcK",
+      "api_equivalent_usd": 29.3990586,
+      "status_bucket": "SESSION_STATUS_BUCKET_COMPLETED"
+    },
+    {
+      "agent": "dev.places@PrompTugal.dinis",
+      "session": "session_01Kw9UwB6BEdDPqoqfv9ZyAU",
+      "api_equivalent_usd": 19.5385637,
+      "status_bucket": "SESSION_STATUS_BUCKET_COMPLETED"
+    },
+    {
+      "agent": "designer.places@PrompTugal.dinis",
+      "session": "session_01Kw9UwBYDu2r96UdBWpHX4p",
+      "api_equivalent_usd": 18.16233812,
+      "status_bucket": "SESSION_STATUS_BUCKET_REVIEW_READY"
+    },
+    {
+      "agent": "translator@PrompTugal.dinis",
+      "session": "session_01Kw9UwCg9Rj5tfjTcrSJZxT",
+      "api_equivalent_usd": 40.38555254,
+      "status_bucket": "SESSION_STATUS_BUCKET_COMPLETED"
+    },
+    {
+      "agent": "outreach@PrompTugal.dinis",
+      "session": "session_01Kw9UwF1LeWq2vFcL2ntTSr",
+      "api_equivalent_usd": 15.63402634,
+      "status_bucket": "SESSION_STATUS_BUCKET_COMPLETED"
+    },
+    {
+      "agent": "sherpa@PrompTugal.dinis",
+      "session": "session_01Kw9UwFbJYpQ44VurDMAQJr",
+      "api_equivalent_usd": 12.0865971,
+      "status_bucket": "SESSION_STATUS_BUCKET_BLOCKED"
+    },
+    {
+      "agent": "librarian@PrompTugal.dinis",
+      "session": "session_01Kw9UwEN53pY1UeTB8yoASM",
+      "api_equivalent_usd": 17.73543196,
+      "status_bucket": "SESSION_STATUS_BUCKET_REVIEW_READY"
+    },
+    {
+      "agent": "abp@PrompTugal.dinis",
+      "session": "session_01Kw9UwC3EfbmHL8QUj8KypP",
+      "api_equivalent_usd": 17.34693966,
+      "status_bucket": "SESSION_STATUS_BUCKET_WORKING"
+    },
+    {
+      "agent": "data.b@PrompTugal.dinis",
+      "session": "session_01Kw9UwFhY6bP96yMHhpD5N5",
+      "api_equivalent_usd": 57.41987258,
+      "status_bucket": "SESSION_STATUS_BUCKET_WORKING"
+    },
+    {
+      "agent": "weather.b@PrompTugal.dinis",
+      "session": "session_01Kw9UwB9LVh52kiZLXo5ytn",
+      "api_equivalent_usd": 21.34268318,
+      "status_bucket": "SESSION_STATUS_BUCKET_REVIEW_READY"
+    },
+    {
+      "agent": "civic.b@PrompTugal.dinis",
+      "session": "session_01Kw9UwFiE2Jj4TWwvPzCQgv",
+      "api_equivalent_usd": 24.8867258,
+      "status_bucket": "SESSION_STATUS_BUCKET_REVIEW_READY"
+    },
+    {
+      "agent": "startups.b@PrompTugal.dinis",
+      "session": "session_01Kw9UwDwd8Doa7xVxJJeuxU",
+      "api_equivalent_usd": 27.510076145,
+      "status_bucket": "SESSION_STATUS_BUCKET_COMPLETED"
+    },
+    {
+      "agent": "travel.b@PrompTugal.dinis",
+      "session": "session_01Kw9UwC8NE5V9W3SENTUy9V",
+      "api_equivalent_usd": 29.9757379,
+      "status_bucket": "SESSION_STATUS_BUCKET_COMPLETED"
+    },
+    {
+      "agent": "events.b@PrompTugal.dinis",
+      "session": "session_01Kw9UwFXMRMbjVXqFeQTc4G",
+      "api_equivalent_usd": 15.90511778,
+      "status_bucket": "SESSION_STATUS_BUCKET_REVIEW_READY"
+    },
+    {
+      "agent": "signals.b@PrompTugal.dinis",
+      "session": "session_01Kw9UwEffTac7VwEfavnErf",
+      "api_equivalent_usd": 9.16615134,
+      "status_bucket": "SESSION_STATUS_BUCKET_COMPLETED"
+    },
+    {
+      "agent": "library.b@PrompTugal.dinis",
+      "session": "session_01Kw9UwFNC1sX4AKoWo4XhEP",
+      "api_equivalent_usd": 13.11285652,
+      "status_bucket": "SESSION_STATUS_BUCKET_COMPLETED"
+    },
+    {
+      "agent": "videos.b@PrompTugal.dinis",
+      "session": "session_01Kw9UwFJqMq1EbsP5vGN31f",
+      "api_equivalent_usd": 9.31544006,
+      "status_bucket": "SESSION_STATUS_BUCKET_COMPLETED"
+    },
+    {
+      "agent": "telemetry.b@PrompTugal.dinis",
+      "session": "session_01Kw9UwFW8GCEutK2aV83rcS",
+      "api_equivalent_usd": 2.25157224,
+      "status_bucket": "SESSION_STATUS_BUCKET_REVIEW_READY"
+    },
+    {
+      "agent": "conductor.b@PrompTugal.dinis",
+      "session": "session_01Kw9UwFbo4iCoohkgnZar9k",
+      "api_equivalent_usd": 247.808592675,
+      "status_bucket": "SESSION_STATUS_BUCKET_WORKING"
+    }
+  ],
+  "restarted_sessions_total_usd": 559.17,
+  "site_leads_total_usd": 210.89,
+  "conductor_b_usd": 247.81,
+  "previous": "2026-11-18T1251Z.json",
+  "all_total_usd": 1017.87
+}

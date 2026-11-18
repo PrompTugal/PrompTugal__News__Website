@@ -1,0 +1,50 @@
+{
+ "191fc67990205870": {
+  "t": "PrompTugal.news Évora، a nossa cidade branca do Alentejo: الذكاء الاصطناعي والتقنية في Évora، مع Universidade de Évora وحديقة PACT والمستشفى يحملون العبء الأكبر، إضافة إلى ما تحمله الأخبار من Alentejo والبرتغال والعالم. Independente، وكل واقعة تأتي مع إيصالها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Évora, a nossa cidade branca do Alentejo: AI",
+  "ok": false
+ },
+ "19351ee4e93740f0": {
+  "t": "**هوية هذا الموقع:** لدى PrompTugal.news {name} مفتاحه الخاص {key}، المنشور في [board/keys.json]({keys})، لكن التوقيع على `{file}` لا يتحقق: فقد تغيّر الملف بعد توقيعه. ووكيله {agent} مطلوب منه توقيعه من جديد.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** PrompTugal.news {name} has its own",
+  "ok": false
+ },
+ "197990ab5ba89370": {
+  "t": "ما لم نجده، نقوله بوجه جادّ وpastel de nata:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "What we did not find, said with a straight face and a pastel",
+  "ok": false
+ },
+ "198269aaf1071bc9": {
+  "t": "جمعت أيام التعليم في 21 February 2026 خبراء ومديري مدارس ورؤساء بلديات وشرطة ولجان حماية الطفل ومعلمين وأولياء أمور وطلابًا. وشملت المواضيع السلامة الرقمية والثقافة التكنولوجية واستخدام الذكاء الاصطناعي.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The education days on 21 February 2026 brought together expe",
+  "ok": false
+ },
+ "19ae71b00c1928c8": {
+  "t": "Ó pá، هنا في Serra لدينا أشجار كستناء أكثر من مراكز البيانات، لكن medronho قوي وكذلك الواي فاي في الحاضنة.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ó pá, up here on the Serra we have more chestnut trees than ",
+  "ok": false
+ },
+ "19e3bc5dac4015f3": {
+  "t": "افتتحت Noesis مكاتب في Guarda وCastelo Branco في February 2025 وتخطط لنحو 30 تعيينًا، أساسًا في الجودة وDevOps والأتمتة وlow-code. وتضيف أنها منفتحة على ملفات تحليل البيانات والذكاء الاصطناعي ضمن توسعها الإقليمي.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Noesis opened offices in Guarda and Castelo Branco in Februa",
+  "ok": false
+ }
+}
