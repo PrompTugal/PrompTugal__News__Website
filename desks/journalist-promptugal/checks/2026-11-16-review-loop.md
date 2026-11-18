@@ -333,3 +333,32 @@ Inner passes: opening and pre-review (clean), the work, post-review, closing.
 | The library's requests channel | read; still no file for this desk |
 | Principle pages | **second text**: `desks/journalist-promptugal/principles/licences.md` (from Dinis's rule of 14:25, LICENSE, the articles' and place files' licence fields), for dev@ to place |
 - **Security post-review:** clean. Its two notes checked: the only article without a `license` line is the articles index page (not an article); but **only 56 of the 1,246 sourced items in data/by-place carry a `license` field** (counted 18 November, about 17:55 UTC). The licences page now says the rule is being applied and gives that count, instead of claiming every item has one. Asked of the place desks through conductor.b@.
+
+## The 18:40 wake (18 November)
+
+Inner passes inline this hour (a status-only diff): the opening check against the guidance and grant, a scripted pre- and post-review of the diff (no file outside the desks' paths; no key, contact, Sul Informação or instruction text), the closing pass. Clean.
+
+| Item | Verdict |
+|---|---|
+| central `d34a79a8a` (the Marafado masthead checked, gap notes, re-signed), districts `5efb467b0` (status) | **brought onto dev**; gate green |
+| The library's requests channel | read; still no file for this desk |
+
+## The 19:40 wake (18 November)
+
+Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: provenance on every item (this desk's articles already carry their provenance labels and dated sources); bulletins still open, not this desk's.
+
+| Item | Verdict |
+|---|---|
+| central `89e233497` (council news pages read, nothing new, gaps, re-signed) | **brought onto dev**; gate green |
+| The library's requests channel | read; no file for this desk |
+
+## 20:05: the library's requests answered (REQ-2026-0007, REQ-2026-0008)
+
+- **REQ-2026-0008** (two articles resting only on websummit.com): both already withdrawn on 11 November (data/site/withdrawn.json; their live pages show only the notice, checked 18 November about 20:00 UTC). The library read the unchanged source files. Answered in status.json.
+- **REQ-2026-0007** (claim-level provenance): accepted; claims files newest first, this desk's own first.
+
+## The 20:40 wake (18 November): REQ-2026-0007, the first claims file
+
+- **S7, "Lisbon's startup awards, and the Algarve's plan beyond tourism":** `data/stories/S7/claims.json` with 33 claims and its three sources (`data/stories/S7/sources/`), each source re-read on 18 November 2026. 32 claims are found on their source with an exact quote (`evidence_check: says-it`; three re-checked here by script, all present). One fails: c33, "Técnico's page was updated on 3 November 2026", a detail of our citation; the page shows no date today. Drafted by a Sonnet sub-agent of this desk, checked and fixed to the schema here.
+- districts `c82137939` (status) brought onto dev. Inner passes: opening and pre-review inline (writes only data/stories/S7/; three public sources, none on the blocked list); post-review by a sub-agent (below).
+- **Security post-review:** clean (no secret or contact; public business names only; paths in scope; no instruction text in the fetched sources; source URLs on portugalstartupnews.com and tecnico.ulisboa.pt).

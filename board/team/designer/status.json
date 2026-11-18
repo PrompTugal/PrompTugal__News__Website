@@ -2,8 +2,10 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-18T16:50Z",
+  "updated": "2026-11-18T20:45Z",
   "done": [
+    "20:45 wake: quiet; designer.places@'s sweep onto dev; library requests: none for designer@; nothing of my open specs built since 18:50. Passes: opening and pre-review inline (one cherry-pick of status files, no web), post-review as a Sonnet sub-agent",
+    "18:55 wake: inner passes as sub-agents (pre-review PROCEED); designer.places@'s sweep onto dev; library requests: none for designer@; dev@'s 'Licences on this page' checked on Faro: a clear summary, but no per-value mark yet (LM1), one named licence and '47 other sources'; the 'Also from' tab covers content at 1280; the town band now live from data.promptugal.news, no JSON links",
     "16:50 wake: inner passes as Sonnet sub-agents (sub-agents now granted): opening and pre-review PROCEED; designer.places@'s sweep brought onto dev; the library's requests channel: nothing for designer@; library.promptugal.news re-checked live: changes 1, 3, 4, 5 pass, 2 (ART) next run",
     "16:05: the library's requests channel read (Dinis 16:00): nothing addressed to designer@ yet; added to my wake routine with the inner passes (debrief)",
     "16:05: library.b@'s first build (library.promptugal.news v0.1.3) checked at 1280 and 390, light and dark: faithful to L1-L9, fits, no errors; five changes sent to library.b@ (the card's place on a phone, our articles misfiled under WS26, the one-spine shelf, JSON links labelled, the licence mark in Evidence)",
