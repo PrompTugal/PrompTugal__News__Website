@@ -310,6 +310,17 @@
       "trigger": null,
       "started": "2026-11-18T22:11Z",
       "word": "board/guidance/2026-11-18-cells-b-on-account-b.md (Dinis's own prompt, in the session)"
+    },
+    {
+      "agent": "newsroom.sgit.ai writer-10 (newsroom.writer)",
+      "model": "Opus",
+      "does": "newsroom.sgit.ai's journalist agent, taking over from writer-09 (account A)",
+      "repo": "SGit-AI/SGit-AI__Website__Newsroom",
+      "session": "session_01Kw9UwBsABC8j7mNaZRUJuQ",
+      "cron": "CRON_TZ=Europe/London 47 9,18 * * *",
+      "trigger": "trig_01P5GzqB8bwZo1vjG92bwXdw",
+      "started": "2026-11-18T22:38Z",
+      "word": "board/guidance/2026-11-18-newsroom-writer-10.md"
     }
   ]
 }
