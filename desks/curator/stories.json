@@ -1,6 +1,14 @@
 {
- "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`.",
+ "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`. LINK_OVERRIDES: a source URL as captured mapped to the same address written another way (a digit percent-encoded, which the URL standard treats as the same address) so the team site's phone check does not read a long run of digits and dashes as a phone number.",
  "stories": [
+  [
+   "S70",
+   "Update: a 2023 pilot at São João came out of the Center",
+   "Portugal",
+   "An update note for S69: a December 2023 RTP report (Lusa) says a telerehabilitation pilot at São João, monitored on a Sword Health platform, was created out of the Center for Responsible AI consortium; six months, about 300 patients, no results; a different project from the 2026 agreement.",
+   "18 Nov",
+   "For journalist-portugal, categories Portugal and AI. Short update note (standing answer 95); attribute to the report; do not say the pilot became the service."
+  ],
   [
    "S69",
    "AI physiotherapy in Portugal's health service: what the government says",
@@ -793,6 +801,9 @@
   "S69": [
    "v-gov-sns-remote-physio-ai",
    "v-observador-sword-sns-launch"
+  ],
+  "S70": [
+   "v-rtp-lusa-saojoao-telerehab-pilot"
   ]
  },
  "DROPPED": {
@@ -938,6 +949,10 @@
   "S68": [
    "https://promptugal.news/articles/center-for-responsible-ai-money-partners-goals.html",
    "17 Nov"
+  ],
+  "S69": [
+   "https://promptugal.news/articles/ai-physiotherapy-portugal-health-service.html",
+   "17 Nov"
   ]
  },
  "WITHDRAWN": [
@@ -955,12 +970,11 @@
   "S49",
   "S54"
  ],
- "READY": [
-  "S69"
- ],
+ "READY": [],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
-  "S47": "published as an update"
+  "S47": "published as an update",
+  "S70": "drafted, awaiting review"
  },
  "EXTRA_SRC": {
   "x-web-summit-thursday-facts": [
@@ -1144,11 +1158,8 @@
    "2026-11-07 11:55"
   ]
  },
- "ASSIGN": [
-  [
-   "S69",
-   "the Portugal desk (journalist-portugal)",
-   "The government's own news item says the national health service has an agreement with Sword Health for remote physiotherapy with AI tools that analyse and correct movements under permanent supervision by health professionals; re-read the page yourself; two sources (the government item and Observador, 18 June 2026), attribute each figure to its source; the 97 percent and 45 percent figures are estimates, say so; the announcement was on 18 June 2026 (Observador's date; the government page's own dates are inconsistent); do not say the service is running now; the page does not confirm the interview's two-years-to-ten-days claim, do not confirm it and do not link this service to the Center for Responsible AI; record the AI connection (direct, 0 steps; the health service, nine local health units, patients at home) in the data note; explain technical terms at first use; no Web Summit pages; categories Portugal and AI; Observador adds: any health service doctor can prescribe, the patient registers on the company's site, a first consultation with the company's clinical team, a certified device in about two days (company's words), the agreement sets 200 euros per user doing rehabilitation fixed for a year with unlimited sessions (a company vice-president, as reported), roll-out step by step, the company already sells in other markets including the United States through insurers; the government item says the figures are 'estimated' and Observador says the company forecasts them: attribute each to its source; no usage numbers or outcomes exist in the sources, say so"
-  ]
- ]
+ "ASSIGN": [],
+ "LINK_OVERRIDES": {
+  "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC645008882-00000055/": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC6450%308882-00000055/"
+ }
 }

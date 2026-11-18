@@ -1,0 +1,34 @@
+{
+ "a8341588a894764c": {
+  "t": "閣僚会議の決議により、復興計画から180万ユーロが追加され、プロジェクトの費用は730万ユーロとなり、AMALIAをプロトタイプから市民向けサービスへ移すことを目指す。研修計画はエージェントツール、画像、音声を対象とし、政府はアーカイブへのアクセスについてメディア企業との協議を求める方針である。記事によると、ジャーナリスト組合は第1段階でのArquivo.ptデータの使用に異議を唱えた。これは表明された意図であり、成果ではない。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A Council of Ministers resolution adds 1.8 million euros fro",
+  "ok": false
+ },
+ "a84694d202347526": {
+  "t": "Inetumのトップ、AIがプロジェクトチームを縮小させていると語る。Bragançaのサービスセンターネットワークも例外ではない",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Inetum's chief says AI is shrinking project teams, including",
+  "ok": false
+ },
+ "a8ba089e242e6644": {
+  "t": "PrompTugal.news Setúbal、a cidade do Sado:SetúbalのAIとテクノロジー。大きな顔ぶれは港、Politécnico、Mitrenaのパルプ工場、そしてポルトガル、欧州、世界から届くニュース。Independente、すべての事実に領収書つき。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Setúbal, a cidade do Sado: AI and tech in Se",
+  "ok": false
+ },
+ "a8dcd1153a708a4e": {
+  "t": "BragançaのAI活動は、2つの隣人を軸にしている。ポリテクニック(IPB。新しいウェブサイトではUniversidade Politécnica de Bragançaと呼び、政府はこれをUniversidade de Bragança e do Norte Interiorにしようとしている)と、研究ラボMORE CoLABを擁する科学技術拠点Brigantia EcoParkである。研究センターCeDRI、AIの講座とセミナー、BSC AI Factoryに関する2026年4月のセッションはいずれもこの2者から生まれており、市は支援役である。市のニュースページにAI関連の項目はなく、重心は市役所ではなく、研究とパークにある。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Bragança's AI activity sits around two neighbours: the polyt",
+  "ok": false
+ }
+}

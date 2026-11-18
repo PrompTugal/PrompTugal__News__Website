@@ -1,0 +1,43 @@
+{
+ "f30e26d27493f31a": {
+  "t": "2026年3月5日、novobancoとAEPがPortugal Export +60'30の一環として開いたワーキングランチには、約30人の経営者が集まり、AIと輸出を議論した。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A working lunch on 5 March 2026, run by novobanco and AEP as",
+  "ok": false
+ },
+ "f37a88821b4aa063": {
+  "t": "Castro Marimの塩田の取り組みから生まれたプラットフォームは、手作りの海塩の収穫、ラボ、在庫、販売、トレーサビリティを、スマートフォンやパソコンで管理する。報道によると、運用上の質問に答えるデジタルアシスタントと、水門と塩分濃度の管理ツールが含まれる。生産者向けに無料トライアルがある。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A platform built from the work of a Castro Marim salt works ",
+  "ok": false
+ },
+ "f3854196e6a12089": {
+  "t": "Portimãoの公募ALGARVE-2025-13への申請は承認され、総投資額は約938,717ユーロである。自治体の技術インフラ、プラットフォームのセキュリティ、Wi-Fi管理、行政手続きの自動化を対象とする。記事はプロジェクトの分野にAIを挙げているが、どのように使うかの詳細はない。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portimão's application under call ALGARVE-2025-13 was approv",
+  "ok": false
+ },
+ "f3a9aa9b9b891fc5": {
+  "t": "NERA、Universidade do Algarveで顧客分析のためのAIツールをテーマにLunch & Learnを開催",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "NERA hosts a Lunch & Learn on AI tools for customer analysis",
+  "ok": false,
+  "rev": "glossary name restored by rule"
+ },
+ "f3c9364ad7b2bbb0": {
+  "t": "開くことができた情報源では、Taviraの重心は商業AIではなく、公的研究と公共データにある。復興計画による136万ユーロのプロジェクト、Polo de Inovação de Taviraは、地中海式ダイエット、保健、気候適応に関する研究・技術移転拠点を築く。市は、Algarve東部の6自治体によるAlgarve 6.0都市データ・プラットフォームの一員であり、2026年に接続型の駐車センサーを設置し、Tavira Worksのコミュニティは地域のテックネットワークに属している。自治体に本社を置くAI企業は見つからなかった。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "On the sources we could open, Tavira's centre of gravity is ",
+  "ok": false
+ }
+}

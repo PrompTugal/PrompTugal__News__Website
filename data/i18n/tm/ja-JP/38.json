@@ -1,0 +1,74 @@
+{
+ "3851d984faf9d02a": {
+  "t": "Porto の CitiLink プロジェクト、市議会議事録を構造化する AI が全国賞を受賞",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Porto's CitiLink project, AI that structures council meeting",
+  "ok": false
+ },
+ "3856b4c778bcdc4a": {
+  "t": "PrompTugal.news Portimão: Portimão の AI とテクノロジー。公共サービスに AI を活用する市当局と水道会社、スマートシティ・インキュベーター、私立の高等教育機関があり、Algarve、ポルトガル、世界から Portimão に届くニュースも扱う。独立系。すべての事実に出典あり。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Portimão: AI and technology in Portimão, a c",
+  "ok": false
+ },
+ "3857de4a8f72f925": {
+  "t": "UNIPS、記事の呼び方では Universidade Politécnica de Setúbal は、Coimbra 大学が主導し2026年10月15日に始動した GeSI と DEFIA Portugal のネットワークに加わった。高等教育における責任ある AI 利用と AI リテラシーを目指すもので、技術学校の情報工学の講師が代表を務めた。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "UNIPS, the Universidade Politécnica de Setúbal as the paper ",
+  "ok": false
+ },
+ "385da7e88a11498d": {
+  "t": "Vila Real の子ども議会、AI を議論",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Vila Real's children's assembly debates AI",
+  "ok": false
+ },
+ "38726af755a9041b": {
+  "t": "**このサイトのアイデンティティ:** [board/keys.json]({keys})の {key}。`{file}` への署名は確認できなかった。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "38818d41208825e0": {
+  "t": "市当局は、歴史地区に無料 Wi-Fi と16台の歩行者流量モニターを設置し、続いてボラードと案内キオスクを設ける。約89万5千ユーロの PRR 資金によるデジタル商店街事業の一環で、約200の事業者が対象だ。カウンターは統計のみを出し、画像、映像、音声は取得しない。オンラインのマーケットプレイスにはすでに100を超える事業者が載っている。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council is installing free Wi-Fi and 16 pedestrian flow ",
+  "ok": false
+ },
+ "388e89e55b08d337": {
+  "t": "市当局とアルガルヴェ大学は2026年4月に会合し、提携を教育、研修、研究へと広げることで合意した。高等教育の短期コースを通じた学校や企業とのつながりも含む。数か月以内に協定を目指すことで一致した。記事は AI に言及していない。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council and the University of Algarve met in April 2026 ",
+  "ok": false
+ },
+ "38d3e7192f1cc031": {
+  "t": "Aqui no fim do mundo, o vento é que manda, e a IA ainda está a chegar de bicicleta.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Aqui no fim do mundo, o vento e que manda, e a IA ainda esta",
+  "ok": false
+ },
+ "38e7219a32ca1e76": {
+  "t": "SNS の患者は、AI が動きを補正する在宅理学療法を受けられる。ULS Algarve も対象ユニットのひとつ",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "SNS patients can do physiotherapy at home with AI correcting",
+  "ok": false
+ }
+}

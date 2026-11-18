@@ -1,0 +1,18 @@
+{
+ "7c68c12b20c281b6": {
+  "t": "さて、ここからが正直な話だよ、amigo。アルゴリズムがまだオレンジ畑にたどり着いていない場所の話だ。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Now the honest part, meu amigo: where the algorithms have no",
+  "ok": false
+ },
+ "7ca1e09bcf45f77f": {
+  "t": "Évoraは急がないが、ちゃんとたどり着く。大学は機械にポルトガル語を教え、その使い方の決まりも書く。PACTは人を育て、企業の明かりを灯し続ける。病院ではAIがスライドの要注意箇所を指し示し、最終判断は専門医が下す。さらにデータセンター企業が1 MWの部屋をひっそり買った。市役所は、残念ながらまだAIをやっている現場を押さえられなかった。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Évora does not rush, but it gets there. The university teach",
+  "ok": false
+ }
+}

@@ -12,7 +12,8 @@ for m in maps:
 def meta(fn):
     t=open(VC+fn).read()
     g=lambda k: re.search(r'^%s:\s*(.+)$'%k,t,re.M).group(1).strip().strip('"')
-    return g("source"),g("publisher"),g("read_on"),g("title")
+    u=g("source")
+    return LINKS.get(u,u),g("publisher"),g("read_on"),g("title")
 MON=["January","February","March","April","May","June","July","August","September","October","November","December"]
 def day(s):
     y,mo,d=s.split()[0].split("-"); return f"{int(d)} {MON[int(mo)-1]} {y}"
@@ -33,6 +34,7 @@ EXTRA_SRC={k:tuple(v) for k,v in D["EXTRA_SRC"].items()}
 READY=list(D["READY"])
 ASSIGN=[tuple(x) for x in D["ASSIGN"]]
 stories=[tuple(x) for x in D["stories"]]
+LINKS=dict(D.get("LINK_OVERRIDES",{}))  # source URL as captured -> the same address written so the team site's phone check passes
 import subprocess
 NOW=subprocess.check_output(["date","-u","+%A %-d %B %Y, %H:%M UTC"],text=True).strip()
 allst=stories

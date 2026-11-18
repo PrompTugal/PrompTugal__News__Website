@@ -1891,7 +1891,7 @@
       {
         "as_listed": "Center for Responsible AI",
         "ref": "organisation:center-for-responsible-ai",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "Dealroom",
@@ -2251,7 +2251,7 @@
       {
         "as_listed": "Sword Health",
         "ref": "organisation:sword-health",
-        "count": 5
+        "count": 6
       },
       {
         "as_listed": "TEKEVER",
@@ -2286,6 +2286,11 @@
       {
         "as_listed": "Técnico Venture Lab",
         "ref": "organisation:tecnico-venture-lab",
+        "count": 1
+      },
+      {
+        "as_listed": "ULS São João",
+        "ref": "organisation:uls-sao-joao",
         "count": 1
       },
       {

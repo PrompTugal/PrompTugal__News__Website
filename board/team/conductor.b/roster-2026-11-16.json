@@ -160,6 +160,56 @@
       "session": "session_01Kw9UwC3EfbmHL8QUj8KypP",
       "cron": "37 * * * *",
       "trigger": "trig_01JYM9r17ncWJixUr5ToUVB5"
+    },
+    {
+      "agent": "data.b@PrompTugal.dinis",
+      "model": "Opus (Sonnet sub-agents)",
+      "does": "lead of PrompTugal__News__Data",
+      "repo": "PrompTugal/PrompTugal__News__Data",
+      "session": "session_01Kw9UwFhY6bP96yMHhpD5N5",
+      "cron": "CRON_TZ=Europe/Lisbon 3 7-22/3 * * *",
+      "trigger": "trig_015JvCsBVG1yT9Z5SxfHL7qy",
+      "started": "2026-11-18T09:28Z"
+    },
+    {
+      "agent": "weather.b@PrompTugal.dinis",
+      "model": "Opus (Sonnet sub-agents)",
+      "does": "lead of PrompTugal__News__Weather",
+      "repo": "PrompTugal/PrompTugal__News__Weather",
+      "session": "session_01Kw9UwB9LVh52kiZLXo5ytn",
+      "cron": "CRON_TZ=Europe/Lisbon 13 7-22/3 * * *",
+      "trigger": "trig_01DLFoeRw8p48Ghe7ghoKMji",
+      "started": "2026-11-18T09:28Z"
+    },
+    {
+      "agent": "civic.b@PrompTugal.dinis",
+      "model": "Opus (Sonnet sub-agents)",
+      "does": "lead of PrompTugal__News__Civic",
+      "repo": "PrompTugal/PrompTugal__News__Civic",
+      "session": "session_01Kw9UwFiE2Jj4TWwvPzCQgv",
+      "cron": "CRON_TZ=Europe/Lisbon 23 7-22/3 * * *",
+      "trigger": "trig_01FSxsymr77iqikqiupS6rxd",
+      "started": "2026-11-18T09:28Z"
+    },
+    {
+      "agent": "startups.b@PrompTugal.dinis",
+      "model": "Opus (Sonnet sub-agents)",
+      "does": "lead of PrompTugal__News__Startups",
+      "repo": "PrompTugal/PrompTugal__News__Startups",
+      "session": "session_01Kw9UwDwd8Doa7xVxJJeuxU",
+      "cron": "CRON_TZ=Europe/Lisbon 43 7-22/3 * * *",
+      "trigger": "trig_01PqyrscTLK4BKEqQ7xwgYqE",
+      "started": "2026-11-18T09:28Z"
+    },
+    {
+      "agent": "travel.b@PrompTugal.dinis",
+      "model": "Opus (Sonnet sub-agents)",
+      "does": "lead of PrompTugal__News__Travel",
+      "repo": "PrompTugal/PrompTugal__News__Travel",
+      "session": "session_01Kw9UwC8NE5V9W3SENTUy9V",
+      "cron": "CRON_TZ=Europe/Lisbon 53 7-22/3 * * *",
+      "trigger": "trig_01FGGrXusXSQiihwp3tWVKcX",
+      "started": "2026-11-18T09:28Z"
     }
   ]
 }
