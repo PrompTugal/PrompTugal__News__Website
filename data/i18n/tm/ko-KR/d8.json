@@ -1,0 +1,26 @@
+{
+ "d8006b8f7850afec": {
+  "t": "Faro의 Cáritas, AI의 수혜자가 누구인지 묻다",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Faro's Cáritas asks who benefits from AI",
+  "ok": false
+ },
+ "d89c3b61de8d1239": {
+  "t": "Vilamoura의 학교, AI를 주제로 교육 서밋 개최",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Vilamoura school hosts an education summit on AI",
+  "ok": false
+ },
+ "d8de90262eca523a": {
+  "t": "이 플랫폼은 원자재 가격과 운임 같은 시장 데이터를 기업 자체 비용과 연결해 구매와 가격 책정을 돕는다. VentureFriends와 Semapa Next가 공동 주도했다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The platform links market data such as commodity prices and ",
+  "ok": false
+ }
+}

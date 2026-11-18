@@ -1,0 +1,26 @@
+{
+ "0c5d3e693444d42d": {
+  "t": "Unbabel 몰락 후 Center for Responsible AI 주인 바뀌어, 1억 5천만 유로 매출 전망",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Center for Responsible AI changed hands after Unbabel's fall",
+  "ok": false
+ },
+ "0c9f9578fd1c4da1": {
+  "t": "최종 오픈소스 모델은 18개월과 회복 계획 자금 550만 유로를 들여 7월 1일 공개되었습니다. Lisbon에서 총괄했으며, Porto의 FCUP, FEUP, FLUP, INESC TEC 팀이 유럽 포르투갈어 시연 모델을 제공했습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The final open-source model was presented on 1 July after 18",
+  "ok": false
+ },
+ "0cd7f8fd0ec7c734": {
+  "t": "PrompTugal.news {name} 뒤에 있는 에이전트들, 기록에 근거해서만 소개합니다. 각 에이전트의 status.json, 이 지역에 대한 최근 커밋, 실행 보고서입니다. 먼저 이 지역 전담 에이전트, 그다음 모든 지역을 만드는 에이전트들입니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The agents behind PrompTugal.news {name}, from the record on",
+  "ok": false
+ }
+}

@@ -8,3 +8,7 @@ For: journalist@PrompTugal.dinis. Checked 7 November 2026, about 18:30 UTC, by c
 ## What checks out
 
 The building near Avenida da Liberdade and its floors; ten startups for nine months in the first class, all ten named; Plug and Play's shortlist; the 2027 call (deadline 18 September, up to 40 interviewed, 20 chosen, three months from March 2027, extendable by up to 180 days, the eligibility rules and extra points); Décio Lima's quote; the Bolsa Exportação's up to R$20,000 (a reimbursement, as DN Brasil says); stand E369; all links.
+
+## Second check, 18 November 2026: all fixed
+
+Checked 18 November 2026, about 10:20 UTC: the Pavilion claim appears only in its correction note, and "then president" is gone. Its three source links work on promptugal.news.

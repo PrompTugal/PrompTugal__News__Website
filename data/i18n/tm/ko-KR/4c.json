@@ -1,0 +1,26 @@
+{
+ "4c0d30adf1b09c9f": {
+  "t": "Braga의 AI 활동은 출처가 나란히 보여 주는 네 곳에 자리합니다. 연구(Minho 대학의 AI 그룹, Minho에서 태어난 스핀오프 OmniumAI, 이베리아 나노기술 연구소 INL), 기업 R&D(Cegid의 포르투갈 첫 AI 센터와, 도난 방지 소프트웨어에 머신러닝을 쓰는 Bosch의 새 eBike 부문), 시청 자체의 AI 활용(Hayden AI와의 버스 카메라 시범 사업과, 지자체 행정에 AI를 도입하는 150만 유로 프로젝트), 그리고 Web Summit 2026에 스타트업 15곳을 데려간 Startup Braga와 InvestBraga를 둘러싼 스타트업 계층입니다. Algarve의 다른 도시와 달리 Braga는 한 기관에 의존하지 않으며, 우리가 읽은 자료는 AI에 대한 행사만 여는 것이 아니라 AI를 구매하고 시범 운영하는 시 정부의 모습을 보여 줍니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Braga's AI activity sits in four places that the sources sho",
+  "ok": false
+ },
+ "4c20ecf29e33e8c3": {
+  "t": "Évora의 AI 활동은 세 곳에 자리합니다. Universidade de Évora는 AI 및 데이터 과학 학위 과정을 운영하고 교육 속 AI에 관한 자체 규칙을 마련했으며 포르투갈어 모델을 구축했다고 밝힙니다. Alentejo 과학기술 단지 PACT는 AI 교육을 운영하고 기술 기업을 유치합니다. Hospital de Évora는 보건 단위의 자체 설명에 따르면 자궁경부 검진에 AI 시스템을 사용하는 포르투갈 최초의 공공 병원입니다. 더 최근에는 데이터센터 기업이 시내의 1 MW 부지를 인수하며 민간 자금도 들어왔습니다. 시청 자체 사이트에서는 우리가 읽을 수 있는 AI 활용이 보이지 않아, 중심은 시청이 아니라 대학, 단지, 병원입니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Évora's AI activity sits in three places. The Universidade d",
+  "ok": false
+ },
+ "4c2d5aebc2b28ff3": {
+  "t": "2025년 10월 1일 INCO Academy와 Santarém 폴리테크닉의 디지털 소양 부서는 4주간 온라인으로 약 40시간 진행되는 NewFutures: AI를 운영하기로 합의했으며, 핵심 생성형 AI 모듈과 마케팅, 금융, ICT 같은 트랙으로 구성됩니다. 양측은 AI 실천 공동체도 함께 모색할 계획입니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "On 1 October 2025 INCO Academy and the digital literacy unit",
+  "ok": false
+ }
+}

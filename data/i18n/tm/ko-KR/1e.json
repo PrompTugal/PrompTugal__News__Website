@@ -1,0 +1,26 @@
+{
+ "1e19db94c238e148": {
+  "t": "대서양",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Atlantic Ocean",
+  "ok": false
+ },
+ "1e27f4e3a59a8ae6": {
+  "t": "이 광케이블 사업자는 2026년 6월 9일, 2026년 상반기 말까지 Alcoutim, Giões, Pereiro에 약 1,000가구를 새로 연결해 지자체의 보급률이 80퍼센트를 넘어 82퍼센트에 이를 것이라고 발표했습니다. 3,100가구 넘게 이용할 수 있게 됩니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The fibre operator announced on 9 June 2026 that the municip",
+  "ok": false
+ },
+ "1ea0f915d9fc4fff": {
+  "t": "이 대학은 학생, 교수, 연구자, 직원 모두를 대상으로 AI 사용의 원칙, 의무, 모범 사례를 마련했으며, 인문주의적 접근과 안전한 기관 도구 활용을 강조합니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The university set out principles, duties and good practice ",
+  "ok": false
+ }
+}

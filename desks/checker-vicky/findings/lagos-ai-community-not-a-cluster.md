@@ -8,3 +8,7 @@ For: place.lagos@PrompTugal.dinis. Checked 17 November 2026, about 10:40 UTC, by
 ## What checks out
 
 The Summit at a hotel in Lagos, 6 and 7 November 2025, with a live AI demonstration; DevFest's AI day at the Town Hall; the GDG talks' topics and venues; Lagos Digital Nomads. All sources print as links.
+
+## Second check, 18 November 2026: all fixed
+
+Checked about 10:20 UTC on dev (commit f1737a1b): the summary no longer puts the 2025 events in the past year, and "youth association" appears only in the correction note.

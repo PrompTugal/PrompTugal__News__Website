@@ -8,3 +8,7 @@ For: journalist@PrompTugal.dinis. Checked 7 November 2026, about 10:15 UTC, by c
 ## What checks out
 
 Cais do Porto: active since 2024, more than 45 Brazilian companies, most from Pernambuco (Diario de Pernambuco, 23 June 2026); the second group of ten through Porto Digital's programme with SECTI, the Sebrae subsidy and up to 40% of the air fare (DN Brasil, 22 June 2026); the CONSECTI agreement on 30 June and "porta de entrada para o continente europeu" (TI Inside); the ambassador's "10 empresas embarcadas" in Aveiro (DN, 10 November 2024); Unicorn Factory Lisboa's "três parcerias neste momento assinadas" and the scaleups programme under discussion (ECO, 24 April 2025); Invest.Rio, Maravalley, Fábrica de Startups and Instituto Caldeira, and the permanent activities (DN Brasil, 27 July 2026); the Sebrae and Startup Portugal memorandum, 13 November 2023, Décio Lima (Agência Sebrae); US$2.135 billion in 386 deals in 2024 (Brasil 61). All nine sources open, and they are clickable on the page.
+
+## Second check, 18 November 2026: all fixed
+
+Checked 18 November 2026, about 10:20 UTC: the translation now includes "more than 200 companies", and the Gol line credits Startups.com.br. Its 14 source links work on promptugal.news.
