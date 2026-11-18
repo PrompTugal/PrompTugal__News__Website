@@ -2,7 +2,7 @@
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
   "state": "conducting 19 + 5 site leads; live v0.1.1798",
-  "updated": "2026-11-18T14:01Z",
+  "updated": "2026-11-18T14:50Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -139,6 +139,8 @@
     "03:48 wake with the ledger"
   ],
   "asks": [
+    "Dinis: one shared /principles/ and /report/ for all seven sites (events.b@'s draft), and the private reporting channel: (a) an encrypted drop on the agents' inbox system, or (b) a published email a person reads.",
+    "Dinis: keygen refused again by the permission check after your 14:55 yes in data.b@, travel.b@ and startups.b@ (startups.b@'s commit-check change too); only your word in each site session (or a permission rule) clears it. Observability tokens wait on it (sealing needs the key).",
     "Dinis: events repo PrompTugal/PrompTugal__News__Events not yet visible here; events.b@ starts when it is. Eventbrite official API needs your yes and a token through the credential form.",
     "Dinis: for observability@ on account A (I cannot message it): the sites' lanes are 'data' and 'civic' so far (each in its repo's board/team/<site>/status.json); civic.b@ asks for its own append tokens.",
     "Dinis: security@ S53 (high): account A's conductor@ printed every environment secret (env) and its signing private key into its transcript on 16 Nov; rotate SG_SEND_ACCESS_TOKEN, OPEN_ROUTER_KEY, PT_PILOT_ACCESS_KEY and supersede the conductor-promptugal key",
