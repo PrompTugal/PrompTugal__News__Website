@@ -1,5 +1,68 @@
 [
   {
+    "version": "v0.1.1763",
+    "date": "2026-11-18",
+    "what": "outreach@PrompTugal.dinis: the daily hand-over debrief (92 drafts, nothing new to draft)",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "a1877f660"
+  },
+  {
+    "version": "v0.1.1762",
+    "date": "2026-11-18",
+    "what": "security@PrompTugal.dinis: 00:05 wake: 33 commits clean; S51 (the meter raises readers' past charges after the fact), for Dinis",
+    "by": "security@PrompTugal.dinis",
+    "from": "1aa1c7d2a"
+  },
+  {
+    "version": "v0.1.1761",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: status: the Algarve desks are running (conductor.b@, 23:52); ask closed",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "93d829b6f"
+  },
+  {
+    "version": "v0.1.1760",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: status: the Algarve desks' quiet evening, stated precisely",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "cf4586ed7"
+  },
+  {
+    "version": "v0.1.1759",
+    "date": "2026-11-17",
+    "what": "journalist@PrompTugal.dinis: 23:40 wake: nothing new; asked whether the Algarve desks are paused",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "e67cb0c64"
+  },
+  {
+    "version": "v0.1.1758",
+    "date": "2026-11-17",
+    "what": "conductor@PrompTugal.dinis: the reading graph on the account page, past charges lifted to 1p, 'Pay for what you read · £x' as one chip, the sites in a side rail and the More menu (Dinis)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "0c73a03ad"
+  },
+  {
+    "version": "v0.1.1757",
+    "date": "2026-11-17",
+    "what": "dev@PrompTugal.dinis: 23:09 wake: datasci.places brought; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "6643ffd4b"
+  },
+  {
+    "version": "v0.1.1756",
+    "date": "2026-11-17",
+    "what": "conductor@PrompTugal.dinis: hand-over: where the sealed data vault keys are",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "956d9458e"
+  },
+  {
+    "version": "v0.1.1755",
+    "date": "2026-11-17",
+    "what": "conductor.b@PrompTugal.dinis: 22:48 wake: quiet hour; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "eecf460b0"
+  },
+  {
     "version": "v0.1.1754",
     "date": "2026-11-17",
     "what": "journalist@PrompTugal.dinis: 22:40 wake: districts' quiet wake brought onto dev; run report",
