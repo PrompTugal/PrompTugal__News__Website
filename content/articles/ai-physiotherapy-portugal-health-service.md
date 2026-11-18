@@ -21,6 +21,15 @@ image_width: 1200
 image_height: 630
 image_alt: "A card: AI physiotherapy at home, in Portugal's national health service, free to patients. A 97% shorter wait to start treatment, a government estimate, from portugal.gov.pt."
 ---
+> **Update, 18 November 2026.** A report from RTP, based on Lusa, dated 21 December 2023, links an earlier pilot to the [Center for Responsible AI](center-for-responsible-ai-money-partners-goals.html). It describes a different project from the 2026 agreement:
+>
+> - **The pilot.** A trial at São João in Porto for people recovering from surgery. Treatment was to begin in person and continue with physiotherapy at home. It was planned for six months and about 300 patients.
+> - **The link.** The report says the project "was created out of" the Center. It names the São João hospital centre and Sword Health as members of the consortium.
+> - **The supervision.** Progress was to be monitored on a Sword Health online platform, with alerts supervised by a rehabilitation doctor. The report does not say the platform used AI.
+> - **The 2026 sources.** Neither the government's item nor Observador mentions this pilot.
+>
+> The 2023 report is about a planned pilot. It gives no results and no waiting-time figure. We do not say the pilot became the 2026 service.
+
 ## In short
 
 - The government says the national health service (SNS) and Sword Health, a Portuguese company, agreed to offer remote physiotherapy. It was presented on 18 June 2026 and is free to patients.
