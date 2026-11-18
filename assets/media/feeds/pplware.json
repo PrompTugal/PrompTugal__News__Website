@@ -1,8 +1,13 @@
 {
  "id": "pplware",
  "feed": "https://pplware.sapo.pt/feed/",
- "read_at": "2026-11-18T15:05Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
+  {
+   "title": "Como o Governo português quer reduzir em mais de 50% o consumo de gasolina e gasóleo",
+   "link": "https://pplware.sapo.pt/motores/como-o-governo-portugues-quer-reduzir-em-mais-de-50-o-consumo-de-gasolina-e-gasoleo/",
+   "date": "2026-11-18"
+  },
   {
    "title": "As piores passwords em Portugal foram reveladas e a sua pode estar nesta lista",
    "link": "https://pplware.sapo.pt/internet/seguranca/as-piores-passwords-em-portugal-foram-reveladas-e-a-sua-pode-estar-nesta-lista/",
@@ -21,11 +26,6 @@
   {
    "title": "BMW i3 percorreu quase 6000 km pela Europa com menos de 3h de carregamento",
    "link": "https://pplware.sapo.pt/motores/bmw-i3-percorreu-quase-6000-km-pela-europa-com-menos-de-3h-de-carregamento/",
-   "date": "2026-11-18"
-  },
-  {
-   "title": "OPPO Bubble: já conhece este pequeno ecrã magnético?",
-   "link": "https://pplware.sapo.pt/gadgets/oppo-bubble-ja-conhece-este-pequeno-ecra-magnetico/",
    "date": "2026-11-18"
   }
  ]
