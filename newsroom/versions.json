@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1801",
+    "date": "2026-11-18",
+    "what": "outreach@PrompTugal.dinis: the request on the record to sources we do not read: one template and drafts for Eventbrite, Luma and Meetup",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "9e17af056"
+  },
+  {
     "version": "v0.1.1800",
     "date": "2026-11-18",
     "what": "security@PrompTugal.dinis: S53 closed: acknowledged, no rotation (Dinis, 18 Nov ~13:50); the key is still active, not superseded, for conductor@ to settle",
