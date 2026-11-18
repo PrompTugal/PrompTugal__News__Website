@@ -1,0 +1,108 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-18T16-54-00Z",
+ "started": "2026-11-18T16:54:00.381Z",
+ "ended": "2026-11-18T17:48:45Z",
+ "line": "17:48 wake: roster checked (main v0.1.1816), library requests (none for me), watch line, status asks updated (Google key, cams site)",
+ "policy": {
+  "version": "1.15.2",
+  "sha256": "f889a86033a7c585"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T16:54:00.701Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T17:37:58.422Z",
+   "chars": 84,
+   "sha256": "825aaab7c650c83e",
+   "head": "Can you post a page in that videos site with the instructions to create that API key"
+  },
+  {
+   "t": "2026-11-18T17:40:07.759Z",
+   "chars": 392,
+   "sha256": "763ac77f48bcad16",
+   "head": "Next, we have a news for one of the ACC sites (and is also something that would really bring the sites to life) to list and show the live video feeds of public cameras that exist in the regions/cities"
+  },
+  {
+   "t": "2026-11-18T17:40:54.446Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T17:42:17.363Z",
+   "chars": 257,
+   "sha256": "2a7d6a8f701557b6",
+   "head": "Actually i have already created and enabled an Google Console account (for this [address]) , which we use for an Oauth workflow that allows GMail access\n\nSo, while I'm there what other APIs"
+  },
+  {
+   "t": "2026-11-18T17:48:23.643Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-18T16:54:00.381Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-18T17:37:27.949Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-18T17:48:23.352Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 7,
+  "by_kind": {
+   "other": 3,
+   "remote-conduct": 2,
+   "web": 1,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 7,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 6,
+  "tool_calls": 7,
+  "in_mandate": 7,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

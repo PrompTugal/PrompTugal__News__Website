@@ -9,10 +9,26 @@
   "pick": "Site",
   "no_js": "The picker needs JavaScript. The documents are linked above, one per site.",
   "sites": [
-    { "name": "promptugal.news", "spec": "../api/v1/openapi.json" },
-    { "name": "data.promptugal.news", "spec": "https://data.promptugal.news/api/v1/openapi.json" },
-    { "name": "civic.promptugal.news", "spec": "https://civic.promptugal.news/api/v1/openapi.json" }
+    {
+      "name": "promptugal.news",
+      "spec": "../api/v1/openapi.json"
+    },
+    {
+      "name": "data.promptugal.news",
+      "spec": "https://data.promptugal.news/api/v1/openapi.json"
+    },
+    {
+      "name": "civic.promptugal.news",
+      "spec": "https://civic.promptugal.news/api/v1/openapi.json"
+    }
   ],
-  "waiting": ["events.promptugal.news", "weather.promptugal.news", "startups.promptugal.news", "travel.promptugal.news"],
+  "waiting": [
+    "events.promptugal.news",
+    "weather.promptugal.news",
+    "startups.promptugal.news",
+    "travel.promptugal.news",
+    "library.promptugal.news",
+    "signals.promptugal.news"
+  ],
   "waiting_label": "Not published yet"
 }
