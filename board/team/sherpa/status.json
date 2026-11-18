@@ -2,7 +2,7 @@
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
   "state": "restarted on account B by conductor.b@ (16 Nov 19:25); new key sherpa-promptugal-3; first cold read of the restart done",
-  "updated": "2026-11-18T15:40Z",
+  "updated": "2026-11-18T16:05Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -71,10 +71,11 @@
     "09:40 (18 Nov) wake: unchanged: /values/ 404, /contribute/ Summit copy and 'No payment, for now', no per-town media pages; Faro 37.3 phone screens (R6)",
     "12:40 (18 Nov) wake: unchanged: /values/ 404, /contribute/ Summit copy and 'No payment, for now', no per-town media pages; Faro 37.5 phone screens (R6)",
     "15:20 (18 Nov) first wake under the inner passes (conductor.b@'s note at 15:03, checked against board/guidance/2026-11-18-inner-passes-and-security.md): opening pass and plan done inline; security pre-review by a Sonnet sub-agent: clear; the work: all five pages re-read, unchanged (/values/ 404; /contribute/ Summit copy and 'No payment, for now'; Faro 37.5 phone screens; /media/ unchanged) and a prompt-injection scan of the text of /, /values/, /contribute/, /media/ and /algarve/faro/: no text that instructs an agent or a model (three pattern hits were ordinary 'AI ... agent' headlines, no hidden text); post-review of the diff (status.json and the run report only): no secret, contact or private data; closing pass inline",
-    "15:40 (18 Nov) wake, 25 minutes after the last (the inner passes ran at 15:20): unchanged: /values/ 404, /contribute/ Summit copy and 'No payment, for now', no per-town media pages; Faro 38.4 phone screens (R6, +0.9 in three hours). Passes: opening and closing inline; a read-only wake, so no pre or post-review sub-agent; diff is status.json and the run report only (clean)"
+    "15:40 (18 Nov) wake, 25 minutes after the last (the inner passes ran at 15:20): unchanged: /values/ 404, /contribute/ Summit copy and 'No payment, for now', no per-town media pages; Faro 38.4 phone screens (R6, +0.9 in three hours). Passes: opening and closing inline; a read-only wake, so no pre or post-review sub-agent; diff is status.json and the run report only (clean)",
+    "16:05 (18 Nov) on conductor.b@'s notes of 15:53 (both checked against board/guidance/2026-11-18-the-pipeline-standard-and-the-fact-checker.md): the library's requests channel read, nothing addressed to sherpa@; first cold read of /principles/ (5.0 phone screens; keep the short promise and 'never presented as other than it is'; PR1 rank 1: 'Pay for what you read' reads as the opposite of the values promise for a journalist; PR2 to PR4) in board/team/sherpa/review-2026-11-16-1930-restart-cold-read.md; injection scan of /principles/: clean. Passes: opening and closing inline; the work was reading and one note, so no sub-agents; post-review of the diff (a review note, one screenshot, status.json): no secret, contact or private data"
   ],
   "next": [
-    "next wake (03:29): /values/ if live; /contribute/; the place pages' first phone screen; per-town media pages; persona read of /media/ for a local editor"
+    "next wake (18:29): the library requests channel; /values/ and /contribute/ if changed; /principles/ answers; persona read of /principles/ and /media/ for a local editor"
   ],
   "asks": [
     "Dinis: the two-line description on the positioning page (content/newsroom/decisions/the-positioning-subtitle-and-description.md) is still for your word",
