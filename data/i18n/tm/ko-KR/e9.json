@@ -1,0 +1,26 @@
+{
+ "e94ec82166240854": {
+  "t": "PrompTugal.news Beja: 폴리테크닉 대학과 그 주변의 농업·보건 AI 작업이 무게 중심인 Baixo Alentejo의 지역 중심지 Beja의 AI와 기술, 그리고 Alentejo, 포르투갈, 세계에서 Beja로 전해지는 소식. 독립 매체이며, 모든 사실에 출처를 밝힙니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Beja: AI and technology in Beja, the Baixo A",
+  "ok": false
+ },
+ "e9abc17d4066b58f": {
+  "t": "UAlg, AI 중심 유럽 유산 센터로 3150만 유로 확보",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "UAlg wins 31.5 million euros for an AI-first European herita",
+  "ok": false
+ },
+ "e9f81a8e238017af": {
+  "t": "{name}: AI 지도의 {local}, {map}",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "{name}: {local}, {map} on the AI map",
+  "ok": false
+ }
+}

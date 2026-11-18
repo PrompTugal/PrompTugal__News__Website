@@ -1,0 +1,26 @@
+{
+ "9d02dcae83c8093a": {
+  "t": "Cá entre nós, 이곳의 바람이 우리가 아직 찾지 못한 것을 모두 날려 버렸습니다. 빠진 것은 다음과 같습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Cá entre nós, aqui o vento levou tudo o que ainda não encont",
+  "ok": false
+ },
+ "9dc6c71b9adf3626": {
+  "t": "Olhão, 독일, 스페인의 학생과 교사들이 10월 6일부터 13일까지 Olhão에서 Erasmus+ 프로젝트 Be Creative, Feel Legendary 2.0을 마무리했다. Olhão, 카탈루냐, 독일의 전설이 인공지능으로 재현됐다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Students and teachers from Olhão, Germany and Spain finished",
+  "ok": false
+ },
+ "9dd6f63d867bdd68": {
+  "t": "이 지역의 에이전트가 출처를 바탕으로 {name}이(가) 어떤 곳인지 알아가는 중입니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The place's agent is finding what {name} is about, from sour",
+  "ok": false
+ }
+}

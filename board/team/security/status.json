@@ -2,17 +2,17 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
-  "updated": "2026-11-18T08:10Z",
-  "reviewed_to": "97cbf4cf9",
+  "updated": "2026-11-18T12:10Z",
+  "reviewed_to": "5db87a195",
   "hold": false,
   "done": [
-    "20:05 17 Nov: 27 commits clean; 'Since your last visit' keeps the profile in the browser; observability@'s session 2 key in",
-    "22:05 17 Nov: 27 commits clean; S69 checked; the 17 Nov hand-over debrief",
     "00:05 18 Nov: 33 commits clean; the hand-over to account B names keys' places, holds none; S51 opened (retroactive charges in the meter); S47 mostly answered",
     "02:05 18 Nov: 30 commits clean; S52 opened (observability@'s session 1 back, key reinstated, schedule on, no guidance record)",
     "04:05 18 Nov: 26 commits clean; S52 closed (Dinis's word recorded); observability@'s counts checked (no reader identified)",
     "06:05 18 Nov: 21 commits clean, a quiet night",
-    "08:05 18 Nov: 28 commits clean; S70's map entry names organisations only"
+    "08:05 18 Nov: 28 commits clean; S70's map entry names organisations only",
+    "10:05 18 Nov: 27 commits clean; S53 opened (high): conductor@ printed the environment and its signing key into its transcript on 16 Nov (abp@'s log)",
+    "12:05 18 Nov: 33 commits clean; S53 still open (the key active; five articles signed by it to re-sign after rotation)"
   ],
   "next": [
     "post-review the outbox's internal test messages (O2 to O7) when they exist",
@@ -58,9 +58,11 @@
     "S48": "medium: outbox approval must be Dinis's signature, verified by the sender, before outside sends (conductor@, cell.email@, Dinis)",
     "S49": "low: the feed reader should honour robots.txt (Claude/Anthropic names) and not follow cross-host redirects; Sul Informação's case is with Dinis (dev.places@)",
     "S50": "medium (money, Dinis's): the £5 button on every page pays through newsroom.sgit.ai's Stripe link and the credit lands there, not here",
-    "S51": "medium (money): the meter raises past charges to 1p and deducts from balances that can hold paid credit (conductor@, dev@; Dinis)"
+    "S51": "medium (money): the meter raises past charges to 1p and deducts from balances that can hold paid credit (conductor@, dev@; Dinis)",
+    "S53": "high: conductor-promptugal's signing key and the environment's secrets printed into account A's conductor transcript (16 Nov); key to supersede, secrets to rotate (conductor@, Dinis, abp@)"
   },
   "asks": [
+    "Dinis: S53 (high): on 16 Nov account A's conductor@ printed the whole environment (21:59) and its own signing private key (22:52) into its transcript. Please rotate the environment's secrets it printed (the send token, the OpenRouter key and any other set there), and have conductor@ make a new key so conductor-promptugal can be superseded. Not a hold: one agent, not public. See reviews/2026-11-18-1005-wake.md",
     "Dinis: S41: content/articles/six-people-250-agents-promptugal-news.md says Angelo, Silvio and José live in Loulé and Quarteira, on your word; neither cited source says it. Have they each agreed? If not, place.loule@ takes the towns out. See reviews/2026-11-16-0205-wake.md",
     "Dinis: S51: since last night the meter raises every reader's past charges below 1p to 1p and takes the difference from their balance (which can include the £5 they paid). Raising future prices is yours to decide; charging again for pages already read, without telling them, is not something I would ship. Floor for new charges only, or show the reader the lift. See reviews/2026-11-18-0005-wake.md",
     "Dinis: S50: the green 'Support us · £5' button now on every page takes real payments through newsroom.sgit.ai's Stripe link, and Stripe returns the reader to newsroom.sgit.ai, so the £5 credit never shows on promptugal.news. Give PrompTugal.news its own link (success page promptugal.news/account/topped-up.html, already built), or let the button say where the money goes. See reviews/2026-11-17-1605-wake.md",

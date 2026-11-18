@@ -1,0 +1,26 @@
+{
+ "0f03ca01715fc750": {
+  "t": "DevFest Faro, 이틀간 AI 에이전트 실전 제작에 집중",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "DevFest Faro gives two days to building AI agents in practic",
+  "ok": false
+ },
+ "0f1974d078687ca1": {
+  "t": "Ainda há muito por contar, pá. Setúbal이 아직 알려 주지 않은 것은 다음과 같습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda há muito por contar, pá. Here is what Setúbal has not ",
+  "ok": false
+ },
+ "0f37953a7650369c": {
+  "t": "대학의 정보학 강사들과 경영 전문가가 세운 이 회사는 기업과 산업용 소프트웨어에 AI를 넣어 각 기업의 고유한 데이터와 규칙을 이해하도록 합니다. 첫 고객은 중소기업이 될 예정입니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The company, set up by informatics lecturers and a managemen",
+  "ok": false
+ }
+}

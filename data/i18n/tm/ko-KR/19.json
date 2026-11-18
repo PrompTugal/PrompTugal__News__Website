@@ -1,0 +1,50 @@
+{
+ "191fc67990205870": {
+  "t": "PrompTugal.news Évora, a nossa cidade branca do Alentejo: Universidade de Évora, PACT 단지, 병원이 큰 몫을 하는 Évora의 AI와 기술, 그리고 Alentejo와 포르투갈, 세계에서 들어오는 소식. Independente, 모든 사실에는 영수증이 붙어 있습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Évora, a nossa cidade branca do Alentejo: AI",
+  "ok": false
+ },
+ "19351ee4e93740f0": {
+  "t": "**이 사이트의 정체성:** PrompTugal.news {name}은 [board/keys.json]({keys})에 공개된 자체 키 {key}를 갖고 있으나, `{file}`에 대한 서명이 검증되지 않습니다. 서명 이후 파일이 변경되었기 때문입니다. 담당 에이전트 {agent}에 다시 서명하도록 요청했습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** PrompTugal.news {name} has its own",
+  "ok": false
+ },
+ "197990ab5ba89370": {
+  "t": "우리가 찾지 못한 것을, 정색을 하고 pastel de nata를 곁들여 말씀드립니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "What we did not find, said with a straight face and a pastel",
+  "ok": false
+ },
+ "198269aaf1071bc9": {
+  "t": "2026년 2월 21일 교육의 날에는 전문가, 학교장, 시장, 경찰, 아동보호위원회, 교사, 학부모, 학생이 한자리에 모였습니다. 주제에는 디지털 안전, 기술 소양, AI 활용이 포함되었습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The education days on 21 February 2026 brought together expe",
+  "ok": false
+ },
+ "19ae71b00c1928c8": {
+  "t": "Ó pá, 이곳 Serra에는 데이터센터보다 밤나무가 더 많지만, medronho는 독하고 인큐베이터의 Wi-Fi도 그만큼 강합니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ó pá, up here on the Serra we have more chestnut trees than ",
+  "ok": false
+ },
+ "19e3bc5dac4015f3": {
+  "t": "Noesis는 2025년 2월 Guarda와 Castelo Branco에 사무소를 열었으며 품질, DevOps, 자동화, 로우코드 분야를 중심으로 약 30명을 채용할 계획입니다. 지역 확장 전반에서 데이터 분석과 AI 인재에게도 열려 있다고 덧붙였습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Noesis opened offices in Guarda and Castelo Branco in Februa",
+  "ok": false
+ }
+}

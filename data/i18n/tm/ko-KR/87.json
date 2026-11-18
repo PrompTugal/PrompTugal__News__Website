@@ -1,0 +1,34 @@
+{
+ "8709611da6ed567d": {
+  "t": "자, Aljezur입니다. 서버보다 파도가 많고 와이파이보다 바람이 많은데도, 그래도 인공지능을 바라보고 있습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ora pois, Aljezur: mais ondas do que servidores, mais vento ",
+  "ok": false
+ },
+ "8720c87cfd89ec25": {
+  "t": "Leiria, pá: 언덕 위의 성, 골짜기의 금형 공장, 그리고 요즘은 시장으로 가는 길목의 로봇 연구실. 이 도시는 물건을 만들고, 이제는 그것에 생각하는 법을 가르치는 모양입니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Leiria, pá: a castle on the hill, moulds in the valley and, ",
+  "ok": false
+ },
+ "87853f834b85e989": {
+  "t": "코임브라에 본사를 둔 이 소프트웨어 기업은 26개 회원으로 구성된 컨소시엄의 유일한 포르투갈 파트너로서, AI 모델을 미사일 시스템 소프트웨어에 적용하기 위한 머신러닝 운영 플랫폼을 설계한다. 3년 규모의 이 프로젝트는 2025년 4분기에 시작될 예정이었다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Coimbra-based software company is the only Portuguese pa",
+  "ok": false
+ },
+ "87ff377857174ef8": {
+  "t": "PrompTugal.news Viana do Castelo, Princesa do Lima: Viana의 AI와 기술. 똑똑한 두뇌는 Politécnico와 Data CoLAB이며, 데이터센터를 위해 새 공장이 힘차게 돌아가고 있습니다. Alto Minho, 포르투갈, 세계에서 흘러드는 소식도 전합니다. Independente, 그리고 모든 사실에는 영수증이 붙어 있습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Viana do Castelo, a Princesa do Lima: AI and",
+  "ok": false
+ }
+}

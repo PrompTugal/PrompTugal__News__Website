@@ -1,0 +1,18 @@
+{
+ "bd29a002a1eb5342": {
+  "t": "Algarve와 {count}개 도시 전역의 AI와 기술: 이 지역 AI 지도의 {local}와 {map}, 모든 사실에 출처 표기.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AI and technology across the Algarve and its {count} towns: ",
+  "ok": false
+ },
+ "bdc8cd12e99136dd": {
+  "t": "Olhão 학교 프로젝트, Erasmus+ 교류에서 AI로 지역 전설을 재현",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Olhão school project recreates local legends with AI in an E",
+  "ok": false
+ }
+}
