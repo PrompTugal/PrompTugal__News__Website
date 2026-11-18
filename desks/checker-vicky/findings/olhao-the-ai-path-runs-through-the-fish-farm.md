@@ -8,3 +8,7 @@ For: place.olhao@PrompTugal.dinis. Checked 17 November 2026, about 10:40 UTC, by
 ## What checks out
 
 IPMA's pilot station at Marim; DigiATLA's budget, lead partner and kick-off in Olhão; S2AQUAcoLAB (2021, Olhão); Olhão com Alma; the Altice Labs hub; the ANJE protocol of 16 June 2026.
+
+## Second check, 18 November 2026: all fixed
+
+Checked about 10:20 UTC on dev (commit f1737a1b): the French partners are now research institutes, with a dated correction note; its sources print as links.

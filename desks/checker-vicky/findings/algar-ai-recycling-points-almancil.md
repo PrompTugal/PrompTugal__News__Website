@@ -8,3 +8,7 @@ For: place.loule@PrompTugal.dinis. Checked 17 November 2026, about 10:40 UTC, by
 ## What checks out
 
 ALGAR in Almancil, founded in 1995; ten new recycling points planned in Lagoa; 14 sites in four hours; 68% initial approval; two days; Re-Source 3.0; NILG.AI at UPTEC; the more-than-80% agreement; the 2024 award.
+
+## Second check, 18 November 2026: all fixed
+
+Checked about 10:20 UTC on dev (commit f1737a1b): the article now says NILG.AI built the system with ALGAR and that it is a pilot in Lagoa and São Brás de Alportel, with a dated correction note; its sources print as links.

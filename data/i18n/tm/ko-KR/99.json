@@ -1,0 +1,26 @@
+{
+ "99a71106aa482450": {
+  "t": "Aljezur는 Algarve의 대서양 끝자락으로, 4개 freguesia로 이뤄지고 Southwest Alentejo and Vicentine Coast Natural Park 안에 있는 넓고 인구가 적은 자치단체입니다(면적 약 323제곱킬로미터, 2011년 인구조사 기준 주민 5,884명). 이곳의 정체성은 자연, Arrifana 같은 해변의 서핑, 그리고 자연 관광을 지역 경제의 전략적 동력이라 부르는 시의회입니다. 에너지가 두 번째 축입니다. EDP는 24MW Bordeira 풍력 단지를 운영하며 2025년 그 옆에 15.3MW 태양광 발전소를 추가했습니다. AI 허브는 아닙니다. 우리가 찾은 것은 온라인 서비스와 지리 포털을 갖춘 시의회, 고령 주민을 위한 freguesia 원격 지원 시범 사업, 그리고 Aljezur 기업들이 참여할 수 있는 관광업체 대상 지역 AI 프로그램입니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Aljezur is the Algarve's Atlantic edge: a large, thinly popu",
+  "ok": false
+ },
+ "99c102dd36cca038": {
+  "t": "Rádio Portalegre는 현장에서 데이터를 처리할 수 있는 센서에 AI 모델을 탑재하고 시범 농장에서 이를 검증하는 폴리테크닉의 약 20만 유로 FEDER 지원 프로젝트를 보도했다. 관련 분야로 공학, 데이터 과학, 농학, 정보 시스템을 꼽았으며 종료 시점은 2028년 8월이다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Rádio Portalegre reports the polytechnic's roughly 200,000 e",
+  "ok": false
+ },
+ "99ea56e3b843dfcf": {
+  "t": "Equipa UAlg, 무료 강연 81건으로 학교 복귀... AI와 사이버보안 포함",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Equipa UAlg returns to schools with 81 free talks, AI and cy",
+  "ok": false
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "2e08790bc444c605": {
+  "t": "정보학 교수는 Lusa에, 대학의 더 작고 개방된 포르투갈어 모델이 일부 과제에서 빅테크 모델에 견줄 성능에 이르며 포르투갈어와 갈리시아어 모델은 이미 기업이 이용할 수 있다고 말했습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A professor of informatics told Lusa that the university's s",
+  "ok": false
+ },
+ "2e513ec94d637d09": {
+  "t": "Braga, ai ai ai: 일요일에는 대주교를 위해 종을 울리고 월요일에는 모델을 학습시키는 도시, 버스 정류장에 주차한 차를 세는 AI 카메라를 가득 실은 버스가 다니는 곳.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Braga, ai ai ai: a city that rings its bells for the archbis",
+  "ok": false
+ },
+ "2e7c775df10f0748": {
+  "t": "SiARA 프로젝트는 AI, EVAbot이라는 자율 야외 로봇, 센서 네트워크를 결합해 Campo Branco 스텝 지대의 작물, 토양, 목초지, 야생동물 데이터를 수집합니다. 2025년 11월에 시작해 2026년 3월 3일 첫 현장 작업을 했습니다. 이 프로젝트는 Promove 프로그램의 동원형 R&D 부문에서 인정받았습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The SiARA project combines AI, an autonomous field robot cal",
+  "ok": false
+ },
+ "2ecaf3860065acde": {
+  "t": "PrompTugal.news Braga, a cidade dos arcebispos e das startups: Minho 대학, INL, 기업 연구소가 사고를 맡는 Braga의 AI와 기술, 그리고 Minho와 포르투갈, 세계에서 우리에게 닿는 소식. Independente, 모든 사실에는 영수증이 붙어 있습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Braga, a cidade dos arcebispos e das startup",
+  "ok": false
+ },
+ "2ece8b1cdbda1ec5": {
+  "t": "Évora, ó pá: 석회벽, 코르크나무, 오래된 돌의 도시에서 기계들이 포르투갈어를 천천히, calminha, Alentejo 방식으로 배우고 있습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Évora, ó pá: a city of whitewash, cork oaks and old stones w",
+  "ok": false
+ },
+ "2ed694a2fcc0cf7e": {
+  "t": "PrompTugal.news Lisboa, a capital que nunca dorme: 대학과 Unicorn Factory가 큰 두뇌인 Lisboa의 AI와 기술, 그리고 포르투갈, 유럽, 세계에서 흘러드는 소식. Independente, 모든 사실에는 영수증이 붙어 있습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Lisboa, a capital que nunca dorme: AI and te",
+  "ok": false
+ }
+}
