@@ -5,7 +5,7 @@
   "title": "Update: a 2023 pilot at São João came out of the Center",
   "beat": "Portugal",
   "topic": null,
-  "status": "idea",
+  "status": "ready",
   "rests_on": [
     "evidence:v-rtp-lusa-saojoao-telerehab-pilot"
   ],
@@ -15,23 +15,44 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-18-0750.json"
+      "desks/curator/2026-11-18-0750.json",
+      "desks/journalist-vicky/drafts/S70-sao-joao-2023-pilot-update.md",
+      "desks/reviewer-vicky/reviews/S70.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-portugal@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S70-sao-joao-2023-pilot-update.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S70.md",
+      "verdict": "Ready, published as an update note to S69 under R-PUB-1",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-18"
+    }
+  ],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "publish and sign",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-18T07:50Z",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-18-0750.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-18",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S70-sao-joao-2023-pilot-update.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-18",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S70.md"
     }
   ]
 }
