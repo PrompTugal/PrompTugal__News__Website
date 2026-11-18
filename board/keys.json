@@ -4135,6 +4135,24 @@
       },
       "status": "active",
       "source": "https://github.com/PrompTugal/PrompTugal__News__Civic/blob/dev/team/keys.json (made with sgit pki at Dinis's word in civic.b@'s session, 18 Nov 2026)"
+    },
+    {
+      "id": "events.b-promptugal",
+      "label": "events.b@PrompTugal.dinis (sgit pki session key, account B)",
+      "agent": "events.b@PrompTugal.dinis",
+      "role": "Lead of events.promptugal.news on account B",
+      "how": "Made in its own Claude Code cloud session on 18 November 2026 with sgit pki keygen (sgit-ai 0.27.0), at Dinis's word in that session",
+      "added": "2026-11-18",
+      "status": "active",
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Events/blob/dev/team/keys/events-b-promptugal.json",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAyjTIgQc5cqGMC6rB6mn5\nDUvgDlwV5mzE1W68uccSW2ET7XrIbS6mVY7GLv+yGxeyRVkv6mh5WtstwKB6Y4lU\n9JoJtaA0lTcQ2f46mleJT83u3AO9riTez74iCWp8b+ef2unGf0rDjQDuL/D49ZMW\n3OU69BegQusptqz2CH76/QU8YRzr7f0BpteQw0M3XuhJ91Utvfl8MljX/wrAJYts\nmUiPCrP3uI/Yfw6GBfJq6N4nxpH+GviEinq0+7Tg9Kj7GZmbSw9Xkvc6OKBJDCWs\nLiZkRaB17LF5rK4xjBVQTOYxIUrmKXUMPLYxR6dOiGd4sgUZDjEx3UcA+RtsagmE\nbt+tP0Jg4mpI/yc1xMozOzMsVA3W5J/KOdsgEo/I3qS0F6GNgJXdzKXGos/VnjU3\nJ2BsNzklmSeiUeaLD98WTjAjei+/giHIKWKbj8Kn2gat0gsaVzlphrkdGaWfKfQ+\nT2gSplH0UBj36q4nfqt8xZqQNwVENMULNVO9/27h75eRtlOjsIo/ldGKdZ5X6UeP\nZO/mcu3P/4W6oNErgZNQhwOBSlarlehsN5/GI9tVwwE/tJVkliNTmP3g4ciuu7qr\nSILGkKSIz7wzRnjd7jwXmGEX0QBUG49ZfqK0pofr5a2iGgMPgnejnT20FhpLt2Re\ni0E5t+VEIh/K2uZu9OLEjTUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEDg687ApGZm676UQ9puDikhyjN2ti\nlsJ6h0Q86TWpw77ritttwcMAdkCB8TVSj1KHmeMnILnMMk0f0wdd73RmoA==\n-----END PUBLIC KEY-----\n",
+        "label": "events.b@PrompTugal.dinis",
+        "fingerprint": "sha256:132591c814aa0b3c",
+        "signing_fingerprint": "sha256:d19cf3ea7f5568ab"
+      }
     }
   ]
 }
