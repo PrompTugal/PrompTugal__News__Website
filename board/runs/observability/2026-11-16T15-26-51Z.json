@@ -1,0 +1,97 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "observability@PrompTugal.dinis",
+ "run": "2026-11-16T15-26-51Z",
+ "started": "2026-11-16T15:26:51.051Z",
+ "ended": "2026-11-18T01:31:19Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-17T23:00:37.934Z",
+   "chars": 100,
+   "sha256": "463528d7204d51df",
+   "head": "Hi, do you have the key for this? Hi, can you drain it? Because we should have to continue draining."
+  },
+  {
+   "t": "2026-11-17T23:03:58.682Z",
+   "chars": 112,
+   "sha256": "70c97376afe43efa",
+   "head": "And can you also give me an ASCII art view of the latest stats? And if you're able to get the data and drain it."
+  },
+  {
+   "t": "2026-11-18T01:29:15.035Z",
+   "chars": 352,
+   "sha256": "131b5fe14224d436",
+   "head": "Okay, I think we should continue here since you're doing all right. Why don't you take over as being the official, set up your schedule, and then I'll archive the other session. It was actually a mist"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-17T23:00:32.630Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-18T01:27:48.519Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 20,
+  "by_kind": {
+   "release": 1,
+   "git": 14,
+   "shell": 3,
+   "remote-read": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 20,
+  "commits": [
+   {
+    "sha": "9ab2f84ad",
+    "subject": "observability@PrompTugal.dinis: hand-over debrief for the move to another account",
+    "files": 2
+   },
+   {
+    "sha": "af022eb20",
+    "subject": "observability@PrompTugal.dinis: 12 Nov debrief: drains go on under the hold's exception; the summit closes at 112 reader views",
+    "files": 2
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 20,
+  "in_mandate": 20,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

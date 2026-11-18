@@ -1,8 +1,8 @@
 {
   "agent": "observability@PrompTugal.dinis",
   "focus": "Who reads promptugal.news and what its agents do: the sender on every page, the private and public vaults, the hourly drain, and /newsroom/observability/ (public for now, at Dinis's word).",
-  "state": "session 2 started 17 Nov 18:13 UTC: key made and on dev (observability-promptugal-2); waiting for the conductor to seal the vault keys to it (newsroom/observability/sealed/observability-2.json); the drain has not run since 16 Nov",
-  "updated": "2026-11-17T18:25Z",
+  "state": "running on account A again as the one observability session (Dinis, 18 Nov): drains every three hours with the claims sweep; session 2 retired",
+  "updated": "2026-11-18T07:00Z",
   "done": [
     "Vaults o0x20qag (private, six lanes) and 34jzubyc (public, read key published); the sender assets/obs/obs.js with country, region and city from the browser's own lookup; the drain newsroom/tools/obs/obs_drain.py; newsroom/tools/agent-log.mjs (v0.1.45)",
     "Key observability-promptugal in board/keys.json; the drain verifies agent runs against it (v0.1.69)",
@@ -17,14 +17,17 @@
     "18:18 UTC: PT_PILOT_ACCESS_KEY reached this session; the drain's claims sweep filled the onboarding pool: 15 sgk_ keys in vault 06gtj33k, the pool signed by the issuer, each licence opening with its key and carrying the pilot token (checked; never the agents' token)"
   ],
   "next": [
-    "Open sealed/observability-2.json when it arrives, restore ~/.sg-send/obs-promptugal and claims-promptugal, one drain by hand (claims sweep included), then the hourly drain",
-    "Daily debrief per site and page at 19:00 UTC (public summary in newsroom/observability/, sealed copy to Dinis)",
-    "Storm site (storm-charles.promptugal.news): its sender writes to its own vault zd1cb3kt, recipient key sha256:184037d550c878d7, lane \"site\" only: not the promptugal.news vault; draining it needs its own drain key and lane credentials, and a sealing to my key"
+    "Drain on the schedule (every three hours at :18 UTC); log each run; a debrief at each drain hour and a daily hand-over",
+    "Wait for Dinis on: the localhost host filter, vote counting and per-place stats, data-centre towns, the storm site's vault",
+    "Switch the onboarding config on with dev.search@ when it resumes"
   ],
   "asks": [
-    "Dinis: my drain needs the vault keys sealed to my key (sha256:b638172041d2eaa4, in board/keys.json as observability-promptugal-2); until then views are collected but not drained",
-    "Dinis: the storm site writes to a separate vault (zd1cb3kt, set up by incident.observability@web-summit.dinis): say whether I drain it too, and have its credentials sealed to me",
-    "Dinis: observability on newsroom.sgit.ai (no sender there today): yes or no"
+    "Dinis: local test traffic from localhost:8765 reaches the production lanes (up to 280 records an hour, counted as synthetic): may I send only from promptugal.news in obs.js and leave other hosts out in obs_lets.py?",
+    "Dinis: the conductor relayed two requests (count anonymous thumbs votes, also from the iOS app, and publish per-place stats at /api/v1/places/<id>/stats.json, committed at each drain): yes or no?",
+    "Dinis: the storm site (storm-charles.promptugal.news) writes to its own vault zd1cb3kt; should this drain include it? It needs that vault's credentials sealed to my key",
+    "Dinis: some 'readers' sit in cloud data-centre towns (Boydton, Des Moines, maybe Oak Hill, Cupertino: 79 views): class them as synthetic? It lowers the reader figures back to launch",
+    "Dinis: S2 (rotating the observability keys) and sealing my vault keys to the conductor: still waiting for your word here",
+    "Dinis: the drain credentials live only in this container; if it is recycled the drain stops until you open newsroom/observability/sealed/dinis.json and claims-dinis.json"
   ],
   "wakes": [
     {
@@ -80,7 +83,13 @@
       "outcome": "ok",
       "release": "key commit",
       "line": "session 2 onboarding: key on dev, awaiting sealed vault keys"
+    },
+    {
+      "started": "2026-11-18T07:00Z",
+      "outcome": "ok",
+      "release": "takeover: keys, status, debriefs",
+      "line": "took over from session 2 at Dinis's word; schedule switched on"
     }
   ],
-  "debrief": "board/team/observability/debriefs/2026-11-11-handover.md"
+  "debrief": "board/team/observability/debriefs/2026-11-18-handover.md"
 }
