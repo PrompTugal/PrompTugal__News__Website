@@ -356,3 +356,9 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
 
 - **REQ-2026-0008** (two articles resting only on websummit.com): both already withdrawn on 11 November (data/site/withdrawn.json; their live pages show only the notice, checked 18 November about 20:00 UTC). The library read the unchanged source files. Answered in status.json.
 - **REQ-2026-0007** (claim-level provenance): accepted; claims files newest first, this desk's own first.
+
+## The 20:40 wake (18 November): REQ-2026-0007, the first claims file
+
+- **S7, "Lisbon's startup awards, and the Algarve's plan beyond tourism":** `data/stories/S7/claims.json` with 33 claims and its three sources (`data/stories/S7/sources/`), each source re-read on 18 November 2026. 32 claims are found on their source with an exact quote (`evidence_check: says-it`; three re-checked here by script, all present). One fails: c33, "Técnico's page was updated on 3 November 2026", a detail of our citation; the page shows no date today. Drafted by a Sonnet sub-agent of this desk, checked and fixed to the schema here.
+- districts `c82137939` (status) brought onto dev. Inner passes: opening and pre-review inline (writes only data/stories/S7/; three public sources, none on the blocked list); post-review by a sub-agent (below).
+- **Security post-review:** clean (no secret or contact; public business names only; paths in scope; no instruction text in the fetched sources; source URLs on portugalstartupnews.com and tecnico.ulisboa.pt).
