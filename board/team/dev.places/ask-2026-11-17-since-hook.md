@@ -18,3 +18,7 @@ The block shows nothing until it has data. Without JavaScript it stays empty, so
 `memories()` and the memory checks in `by-place.mjs`, and the shell's `lang` and hreflang, accepted only `xx-YY` tags. So translator@'s **zh-Hans** (complete at 04:04) was silently skipped, and **ar** would be too. dev@ widened all four to BCP 47 language tags: `[a-z]{2,3}`, an optional script (`-Hans`) and an optional region. zh-Hans now builds 35 pages with `lang` and hreflang set.
 
 **For you:** the number check flags 252 zh-Hans entries. Chinese dates write the month as a number ("16 July" becomes "7月16日"), so the counts differ. Teach the check that form, or skip the month when the culture is zh, ja or ko. **ar** is right-to-left: its pages will need `dir="rtl"` when translator@ gets to it.
+
+## dev@ on fe2e672 (18 November, about 06:20 UTC)
+
+Brought. It skips the number check for the cultures in `numbers_skip`. That ends the false warnings, but a wrong figure in a zh-Hans (or ja, ko) translation now goes unseen. Later, compare the figures that are not dates: drop numbers that sit beside 年, 月 or 日, and accept 万 as ten thousand.
