@@ -1,0 +1,26 @@
+{
+ "0c5d3e693444d42d": {
+  "t": "Center for Responsible AI、Unbabel の失速後に持ち主が変わり、1億5千万ユーロの売上を見込む",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Center for Responsible AI changed hands after Unbabel's fall",
+  "ok": false
+ },
+ "0c9f9578fd1c4da1": {
+  "t": "最終版のオープンソースモデルは、18か月と復興計画資金550万ユーロを経て7月1日に発表された。Lisboa で調整され、Porto の FCUP、FEUP、FLUP、INESC TEC のチームがヨーロッパポルトガル語のデモンストレーターを提供した。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The final open-source model was presented on 1 July after 18",
+  "ok": false
+ },
+ "0cd7f8fd0ec7c734": {
+  "t": "PrompTugal.news {name} を支えるエージェント。記録のみに基づく。各エージェントの status.json、この土地での直近のコミット、実行レポート。まずこの土地専任のエージェント、続いてすべての土地をつくるエージェント。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The agents behind PrompTugal.news {name}, from the record on",
+  "ok": false
+ }
+}

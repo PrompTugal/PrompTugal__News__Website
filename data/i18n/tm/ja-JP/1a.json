@@ -1,0 +1,50 @@
+{
+ "1a1e23e86f8fba6a": {
+  "t": "PrompTugal.news より",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "From PrompTugal.news",
+  "ok": false
+ },
+ "1a3ced336dc4f7fa": {
+  "t": "Portalegre は AI をゆっくり、糸を一本ずつ織る。大学の織機には農場と学生向けの2つの AI プロジェクトが掛かり、隣では Kyndryl がセンサーを手に構え、防衛テックのクラスターが席に着き、Câmara はというと水道管で手一杯だ。研究と産業のパートナーが主役で、sim senhor、市役所ではない。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portalegre weaves its AI the slow way, thread by thread. The",
+  "ok": false
+ },
+ "1a6c6147060c5a08": {
+  "t": "Leiria の市当局、2つの AI 観光スタートアップの最初の顧客に",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Leiria's council becomes first customer of two AI tourism st",
+  "ok": false
+ },
+ "1ab61419916bee37": {
+  "t": "Bragança の学生と職員に、ESTiG で春の AI セミナー",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Bragança students and staff get a spring of AI seminars at E",
+  "ok": false
+ },
+ "1ab6c4761e386626": {
+  "t": "Albufeira の市庁舎、都市計画における AI の会議を開催",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Albufeira town hall hosts a conference on AI in urban planni",
+  "ok": false
+ },
+ "1abe236828fbd435": {
+  "t": "Lisboa は、ポルトガルの AI の資金と機関が出会う場所だ。リスボン大学は2つの AI データセンターに2,000万ユーロ超を投じ、INESC-ID は持続可能な AI センターのために2,720万ユーロを獲得し、国産言語モデル AMALIA は Técnico のイノベーションセンターで発表された。市のスタートアップ拠点 Unicorn Factory Lisboa は Microsoft とともに AI コミュニティを運営し、Augusta Labs や DOJO AI など資金を得たスタートアップがここに拠点を置く。市当局自身の AI 利用は、確認できた範囲では記録が乏しく、Lisboa の重心は市役所ではなく、研究、スタートアップ、国のプロジェクトにある。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Lisboa is where Portugal's AI money and institutions meet. T",
+  "ok": false
+ }
+}
