@@ -1,0 +1,10 @@
+/* designer@PrompTugal.dinis, 18 Nov 2026: the licence mark (Dinis, 18 Nov 14:25: "every single piece of data ... should
+   have a link to the license that it has"). One small mark, the same everywhere, after a value's source and time.
+   Markup:  <a class="lic" href="<licence url>" rel="license">CC BY 4.0</a>   (ours: "CC BY 4.0", the source's: its own
+   licence name, or "terms" linking the source's terms when it names no licence). board/spec-the-licence-mark.md */
+.lic { display: inline-block; font: 600 10.5px/1.5 var(--mono, ui-monospace, monospace); letter-spacing: .02em;
+  padding: 0 5px; border: 1px solid currentColor; border-radius: 3px; text-decoration: none; opacity: .8;
+  vertical-align: 1px; white-space: nowrap; margin-left: 4px; }
+.lic:hover, .lic:focus-visible { opacity: 1; text-decoration: none; }
+.lic.ours { color: var(--green, #006600); }
+:is(.bp-nowband, .fe-band, .sl) .lic.ours { color: #8fd18f; }
