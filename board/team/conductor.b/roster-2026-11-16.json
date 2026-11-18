@@ -277,6 +277,28 @@
       "trigger": "trig_01Mqr8hBph795zfEUUuv5gUy",
       "started": "2026-11-18T18:49Z",
       "word": "board/guidance/2026-11-18-people-blogs-cyber-and-simulated-payments.md (the live cameras site; repo created at Dinis's request)"
+    },
+    {
+      "agent": "cyber.b@PrompTugal.dinis",
+      "model": "Opus (Sonnet sub-agents)",
+      "does": "lead of PrompTugal__News__Cyber (cyber.promptugal.news)",
+      "repo": "PrompTugal/PrompTugal__News__Cyber",
+      "session": "session_01Kw9UwDxnKcmYhgso8fqEG5",
+      "cron": "CRON_TZ=Europe/Lisbon 18 7-22/3 * * *",
+      "trigger": "trig_01VU1WtpQyHEKrhw8rfBpeA6",
+      "started": "2026-11-18T20:50Z",
+      "word": "board/guidance/2026-11-18-people-blogs-cyber-and-simulated-payments.md; board/guidance/2026-11-18-the-pipeline-standard-and-the-fact-checker.md (Cyber); repo created at Dinis's request"
+    },
+    {
+      "agent": "bulletins.b@PrompTugal.dinis",
+      "model": "Opus (Sonnet sub-agents)",
+      "does": "lead of PrompTugal__News__Bulletins (bulletins.promptugal.news)",
+      "repo": "PrompTugal/PrompTugal__News__Bulletins",
+      "session": "session_01Kw9UwEwArsTwsHK8qeZgW5",
+      "cron": "CRON_TZ=Europe/Lisbon 58 7-22/3 * * *",
+      "trigger": "trig_01H1W1FXX8bv82c7X3cVXdzG",
+      "started": "2026-11-18T20:50Z",
+      "word": "board/guidance/2026-11-18-cameras-provenance-and-bulletins.md; repo created at Dinis's request; 5 USD/day cap until Dinis sets one"
     }
   ]
 }

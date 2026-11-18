@@ -21,6 +21,13 @@ image_width: 1200
 image_height: 630
 image_alt: "A card: AI physiotherapy at home, in Portugal's national health service, free to patients. A 97% shorter wait to start treatment, a government estimate, from portugal.gov.pt."
 ---
+> **Update, 18 November 2026.** A launch-day report in [DNOTICIAS](https://www.dnoticias.pt/2026/6/18/496006-medicos-vao-poder-prescrever-fisioterapeuta-em-casa-com-inteligencia-artificial/), published on 18 June 2026, adds two points:
+>
+> - **The nine units.** The protocols were signed for the local health units of Santa Maria, Algarve, Alto Ave, Baixo Mondego, Cova da Beira, Matosinhos, São João, Almada Seixal and São José. The report says the model may extend to others that ask.
+> - **The waiting-time figure.** The report says Cova da Beira was the first unit to give patients the devices, in 2025. It says, citing the unit's board president, that the average wait to start physiotherapy there fell from two years to 10 days after hospital referral. Our [update on the Center for Responsible AI article](center-for-responsible-ai-money-partners-goals.html) gave the same figure as the Center's chief executive's claim about a Porto hospital.
+>
+> The two accounts differ. We have not checked either, and we do not say which is right.
+
 > **Update, 18 November 2026.** A [report from RTP](https://www.rtp.pt/noticias/pais/futura-uls-sao-joao-tera-projeto-piloto-de-telerreabilitacao-pos-cirurgica_n1538412), based on Lusa, dated 21 December 2023, links an earlier pilot to the [Center for Responsible AI](center-for-responsible-ai-money-partners-goals.html). It describes a different project from the 2026 agreement:
 >
 > - **The pilot.** A trial at São João in Porto for people recovering from surgery. Treatment was to begin in person and continue with physiotherapy at home. It was planned for six months and about 300 patients.

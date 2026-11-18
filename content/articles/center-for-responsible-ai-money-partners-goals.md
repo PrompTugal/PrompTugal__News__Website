@@ -21,6 +21,8 @@ image_width: 1200
 image_height: 630
 image_alt: "A card: Portugal's Center for Responsible AI. 51.49 million euros from the Recovery and Resilience Plan, as the State's transparency portal shows."
 ---
+> **Update, 18 November 2026.** A launch-day report in [DNOTICIAS](https://www.dnoticias.pt/2026/6/18/496006-medicos-vao-poder-prescrever-fisioterapeuta-em-casa-com-inteligencia-artificial/), published on 18 June 2026, attributes the "two years to ten days" waiting-time figure below to the Cova da Beira local health unit. The two accounts differ, and we do not say which is right. See the [update on the AI physiotherapy article](ai-physiotherapy-portugal-health-service.html).
+
 > **Update, 17 November 2026.** We had said the Center's status after June 2026 was unknown. In [a July interview with Dinheiro Vivo and Diário de Notícias](https://dinheirovivo.dn.pt/economia/aps-a-queda-da-unbabel-a-ia-nacional-resiste-e-prepara-150-milhes-em-exportaes), published on 18 July 2026, its chief executive gave his account:
 >
 > - **Coordination has moved to Sword Health.** The newspaper reports that Unbabel collapsed financially and that US investors bought its assets in August 2025. He said Unbabel's products were finished and stayed in Portugal.
