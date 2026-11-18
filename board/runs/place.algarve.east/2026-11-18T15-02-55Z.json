@@ -1,0 +1,103 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.algarve.east@PrompTugal.dinis",
+ "run": "2026-11-18T15-02-55Z",
+ "started": "2026-11-18T15:02:55.081Z",
+ "ended": "2026-11-18T15:09:55Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T15:02:55.381Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T15:04:06.415Z",
+   "chars": 1910,
+   "sha256": "88a19161b0bb6d2a",
+   "head": "<agent-message from=\"a8bdbd4cb11d6ec23\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-18T15:04:12.427Z",
+   "chars": 2206,
+   "sha256": "cf446245b72e883e",
+   "head": "<agent-message from=\"a5946b1bfbadd6592\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-18T15:07:02.250Z",
+   "chars": 8815,
+   "sha256": "6ef4a108854c5900",
+   "head": "<agent-message from=\"ab1ee3df140df8d59\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-18T15:08:02.000Z",
+   "chars": 2049,
+   "sha256": "7793d3f43c8cc9cc",
+   "head": "<agent-message from=\"afc98fa0dc1f47261\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-18T15:09:43.182Z",
+   "chars": 1843,
+   "sha256": "f81d4ab7b1e8b3db",
+   "head": "<agent-message from=\"a5e10787af2bf2a76\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-18T15:02:55.081Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 45,
+  "by_kind": {
+   "other": 2,
+   "git": 7,
+   "agent": 10,
+   "shell": 5,
+   "read": 4,
+   "git-push": 2,
+   "web": 15
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 45,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 6,
+  "tool_calls": 45,
+  "in_mandate": 45,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
