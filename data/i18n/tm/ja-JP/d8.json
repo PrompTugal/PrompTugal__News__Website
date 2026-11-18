@@ -1,0 +1,26 @@
+{
+ "d8006b8f7850afec": {
+  "t": "FaroのCáritas、AIで誰が得をするのかを問う",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Faro's Cáritas asks who benefits from AI",
+  "ok": false
+ },
+ "d89c3b61de8d1239": {
+  "t": "Vilamouraの学校、AIをテーマにした教育サミットを開催",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Vilamoura school hosts an education summit on AI",
+  "ok": false
+ },
+ "d8de90262eca523a": {
+  "t": "このプラットフォームは、商品価格や運賃などの市場データを企業自身のコストと結びつけ、調達と価格設定を支援する。VentureFriendsとSemapa Nextが共同で主導した。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The platform links market data such as commodity prices and ",
+  "ok": false
+ }
+}

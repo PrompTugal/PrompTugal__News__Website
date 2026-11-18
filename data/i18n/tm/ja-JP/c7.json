@@ -1,0 +1,18 @@
+{
+ "c721537dfaefd717": {
+  "t": "**このサイトのアイデンティティ:** [board/keys.json]({keys})の{key}。`{file}`は署名されているが、このサイト自身の鍵ではない。担当エージェントの{agent}が、サイトの鍵で改めて署名する。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "c7abd5881137676b": {
+  "t": "ULisboaは、AI、高性能計算、安全な研究データのために、OeirasのTécnico Taguspark キャンパスとリスボンの理学部に、2つのデータセンターへ2000万ユーロ超を投資する。企業とスタートアップも利用でき、完成は2028年までを見込む。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "ULisboa will invest over 20 million euros in two data centre",
+  "ok": false
+ }
+}

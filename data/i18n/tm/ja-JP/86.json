@@ -1,0 +1,66 @@
+{
+ "861340a39322787c": {
+  "t": "FaroにはUniversity of Algarveがあり、市内のキャンパスが地域のAI活動の大半を支えている。研究(AIを使う3150万ユーロの考古学イノベーションセンター)、教育(公表された大学のAI方針、ヘルステック企業との医療AIエグゼクティブコース)、そしてAIに関するビジネスイベントが開かれるUALG TEC Campusである。コミュニティ層もここにある。GDG Faroは市の開発者向けカンファレンスをエージェント型AIをテーマに開き、Algarve Evolution、Algarve STP、市がイベントやプログラムを加えている。市当局自体は、読み取れた範囲ではAIの利用がほとんど見られず、Faroの重心は市政ではなくイノベーションと研究にある。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Faro is home to the Universidade do Algarve, whose campuses ",
+  "ok": false
+ },
+ "862a47ccd096007f": {
+  "t": "QI 4.0というプロジェクトは、センサーと機械学習モデルでQueijo Serpa DOPの熟成を監視し、熟成室の状態が基準から外れると生産者に警告するアプリ(開発中)に情報を送る。2026年11月14日にCórdobaで発表される予定だった。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A project called QI 4.0 uses sensors and machine-learning mo",
+  "ok": false
+ },
+ "863d8453056fae11": {
+  "t": "市、ピッチデーでポルトのスタートアップと大学に8つのデジタルプロジェクトを開放",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council opens eight digital projects to Porto's startups",
+  "ok": false
+ },
+ "867572ff80be5e8d": {
+  "t": "Algarveの地図。{count}の地点それぞれが各サイトにリンクしている",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Map of the Algarve with its {count} places, each linked to i",
+  "ok": false
+ },
+ "867d7d84af293cda": {
+  "t": "2021年の調印で、23のパートナーがCEATの地中海式ダイエットの研究・研修拠点に加わった。計画には、Johns Hopkins UniversityおよびAlgarve Biomedical Centerとのデジタル治療センター、バーチャルリアリティ研修、都市菜園、Ciência Vivaの科学センターが含まれていた。AIへの言及はない。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "At the 2021 signing, 23 partners joined a Mediterranean Diet",
+  "ok": false
+ },
+ "86ad806b1bec465d": {
+  "t": "Ó pá、Lagoa:太陽、ワイン、天井に穴の開いた海の洞窟、そして今度はロボットに空気のことを尋ねる市役所。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ó pá, Lagoa: sun, wine, a sea cave with a hole in its roof, ",
+  "ok": false
+ },
+ "86c335ec6671a38b": {
+  "t": "Portimãoの起業家たちが集い、リーダーシップ、イノベーション、AIを語る",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portimão entrepreneurs meet to talk leadership, innovation a",
+  "ok": false
+ },
+ "86db666b9311af7d": {
+  "t": "Santarémの Campus Tejo はTejo川の野外ラボだと、市長がインタビューで語る",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Santarém's Campus Tejo is a field lab on the Tejo, the mayor",
+  "ok": false
+ }
+}

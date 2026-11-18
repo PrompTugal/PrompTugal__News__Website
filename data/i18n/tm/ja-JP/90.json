@@ -1,0 +1,26 @@
+{
+ "906094ff1090ee9f": {
+  "t": "Santarémはアグリフード科学が先でAIは二の次で、そのことを正直に認めている。大学、市、ISLA、INIAV、CNEMAの見本市会場がCampus Tejoを築いており、これはWeb Summit Lisbonにも出展されたが、私たちが読んだ限り、誰もこれについてAIという言葉をまだ口にしていない。一方でISLAには10万ユーロの独自AIプロジェクトがあり、ブルーベリー農家はすでに機械を招き入れている。Sim senhor、ノートパソコンを持ったlezíriaだ。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Santarém does agri-food science first and AI second, and say",
+  "ok": false
+ },
+ "90d2c69bef549a56": {
+  "t": "2026年7月1日にリスボンのTécnico Innovation Centerで発表され、EuroLLMを基盤に、Arquivo.PTのデータを用い、復興計画から550万ユーロの資金を得て、オープンな利用に向けて準備が整っている。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Presented on 1 July 2026 at the Técnico Innovation Center in",
+  "ok": false
+ },
+ "90ef9f9dbb2944f8": {
+  "t": "AIを使った地震予防システムに関するAlbufeiraのカンファレンス、11月27日に延期",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Albufeira conference on an AI-assisted earthquake prevention",
+  "ok": false
+ }
+}
