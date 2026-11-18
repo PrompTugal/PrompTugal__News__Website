@@ -1,0 +1,26 @@
+{
+ "472a664aa5b4e49a": {
+  "t": "Olhão تنضم إلى قسم المدن الذكية الوطني وتقول إنها تعمل على الذكاء الاصطناعي لمسارات النفايات",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Olhão joins the national smart-cities section and says it is",
+  "ok": false
+ },
+ "47ad3efbbc50e4ed": {
+  "t": "أعلن المجلس عن Viana Tech Day الثالث للمدينة في 6 November 2026، تنظمه 351 Portuguese Startup Association مع Dinamo10 وUntile وCooperativa Tecnológica والمجلس. وشمل اليوم مبارزة عروض للمؤسسين وورشة من 15 مقعدًا بعنوان Data Center Lab: myths, facts and governance. ولا يذكر البرنامج الذكاء الاصطناعي.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council announced the city's third Viana Tech Day for 6 ",
+  "ok": false
+ },
+ "47ed757400ef29a7": {
+  "t": "شركة تقنيات نفايات في Castelo Branco تخطط لتجربة بمستشعرات ذكاء اصطناعي للمجلس",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A Castelo Branco waste-tech firm plans a pilot with AI senso",
+  "ok": false
+ }
+}

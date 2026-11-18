@@ -31,7 +31,7 @@ function build() {
     const entries = [...Object.entries(P.roles), ...workers.map(wk => [wk, { ...P.roles[wk.split('.')[0]], focus: `a ${wk.split('.')[0]} worker (${wk.split('.').slice(1).join('.')}), on Sonnet: ${P.workers.about.split(': ')[1] || ''}`.replace(/\.$/, ''), relax_candidates: null, never: `pushes to dev or merges its own work (${wk.split('.')[0]}@ reviews it)` }])]
     for (const [role, r] of entries) {
         const g = abp.grantOf({ kind: 'team', role, agent: `${role}@PrompTugal.dinis` }, P)
-        const flags = [g.subagents && 'sub-agents (Agent, SendMessage) inside its own run', g.notify_dinis && 'a push notification to Dinis (PushNotification)', g.remote_read && "reading the cloud sessions' list, events and scheduled tasks (claude-code-remote read tools)", g.remote_conduct && "conducting the team's sessions and scheduled tasks (claude-code-remote: create_session, send_message, create_trigger, update_trigger, fire_trigger, set_session_title, set_session_tags), only at Dinis's recorded word given in its own session (R4)"].filter(Boolean)
+        const flags = [g.subagents && 'sub-agents (Agent, SendMessage) inside its own run', g.notify_dinis && 'a push notification to Dinis (PushNotification)', g.remote_read && "reading the cloud sessions' list and status and scheduled tasks (claude-code-remote read tools, no transcripts)", g.remote_transcripts && "reading other sessions' transcripts (list_events, get_event): this agent only (Dinis, 18 Nov 2026)", g.remote_conduct && "conducting the team's sessions and scheduled tasks (claude-code-remote: create_session, send_message, create_trigger, update_trigger, fire_trigger, set_session_title, set_session_tags), only at Dinis's recorded word given in its own session (R4)"].filter(Boolean)
         const md = `---
 title: "ABP: ${role}@PrompTugal.dinis"
 agent: ${role}@PrompTugal.dinis
@@ -50,7 +50,7 @@ authority: Dinis Cruz, operator
 - **Writes (repository):** ${g.writes.map(w => '`' + w.replace('{role}', role) + '`').join(', ')}.
 - **Writes (outside):** ${P.common.writes_outside_repo.map(w => '`' + w.replace('{home}', '~') + '`').join(', ')} (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (\`${P.tools.github_repos.join('`, `')}\`); the cloud session's documentation and \`add_repo\` for reading.${flags.length ? '\n- **Also granted:** ' + flags.join('; ') + '.' : ''}
-- **Sends to:** ${g.send.map(h => '`' + h + '`').join(', ')} only (the agents' inboxes${g.send.length > 1 ? ', and the hosts named' : ''}). ${g.worker ? `Push only to your branch: \`git push -u origin work/${role}\`; never \`release.sh\`, never \`dev\`.` : `Release with \`AGENT=${role}@PrompTugal.dinis newsroom/tools/release.sh\`.`}
+${r.repo ? `- **Its own repository:** \`${r.repo}\`: ${r.repo_note || 'its paths there are in its own copy of this ABP and hooks (board/abp/site-lead-spec.md); here it writes only its own folders.'}\n` : ''}- **Sends to:** ${g.send.map(h => '`' + h + '`').join(', ')} only (the agents' inboxes${g.send.length > 1 ? ', and the hosts named' : ''}). ${g.worker ? `Push only to your branch: \`git push -u origin work/${role}\`; never \`release.sh\`, never \`dev\`.` : `Release with \`AGENT=${role}@PrompTugal.dinis newsroom/tools/release.sh\`.`}
 - **Never:** ${r.never}.
 ${r.place && P.site_identity ? `\n## Site identity (since ${P.site_identity.since})\n\n${P.site_identity.rule.replace(/<id>/g, r.place)}\n\n${P.site_identity.how.map(h => '- ' + h.replace(/<id>/g, r.place).replace(/<path>/g, r.site.replace('https://promptugal.news/', ''))).join('\n')}\n\nChecked by \`node board/abp/tools/site-identity.mjs\` (a warning in the gate tonight, a failure later at Dinis's word).\n` : ''}
 ## Outside the mandate (logged; blocked only by a circuit breaker), among them
@@ -129,7 +129,15 @@ function test() {
         [T('dev'), { tool_name: 'mcp__claude-code-remote__request_credential', tool_input: {} }, 'deny', 'credential'],
         [T('dev'), { tool_name: 'mcp__claude-code-remote__read_documentation', tool_input: {} }, 'allow', 'documentation'],
         [T('dev'), { tool_name: 'mcp__claude-code-remote__list_events', tool_input: {} }, 'deny', 'dev reads sessions'],
-        [T('conductor'), { tool_name: 'mcp__claude-code-remote__list_events', tool_input: {} }, 'allow', 'conductor reads sessions'],
+        [T('conductor'), { tool_name: 'mcp__claude-code-remote__list_events', tool_input: {} }, 'deny', "no one reads another session's transcript but telemetry.b@ (Dinis, 18 Nov)"],
+        [T('conductor'), { tool_name: 'mcp__claude-code-remote__list_sessions', tool_input: {} }, 'allow', 'conductor reads the session list'],
+        [T('telemetry.b'), { tool_name: 'mcp__claude-code-remote__list_events', tool_input: {} }, 'allow', 'telemetry.b reads transcripts'],
+        [T('telemetry.b'), { tool_name: 'mcp__claude-code-remote__get_event', tool_input: {} }, 'allow', 'telemetry.b reads an event'],
+        [T('abp'), { tool_name: 'mcp__claude-code-remote__get_event', tool_input: {} }, 'deny', 'abp@ no longer reads transcripts (telemetry.b@ sends it the run lists)'],
+        [T('telemetry.b'), w('board/runs/stats/a.json'), 'allow', 'telemetry.b writes aggregates'],
+        [T('civic.b'), w('content/articles/x.md'), 'deny', 'a site lead writes this repository outside its folders'],
+        [T('civic.b'), w('board/team/civic.b/status.json'), 'allow', 'a site lead writes its own folder here'],
+        [T('civic.b'), { tool_name: 'Agent', tool_input: {} }, 'allow', 'a site lead runs sub-agents'],
         [T('dev'), { tool_name: 'mcp__claude-code-remote__add_repo', tool_input: { owner: 'a', repo: 'b', access: 'push' } }, 'deny', 'add_repo push'],
         [T('dev'), { tool_name: 'mcp__github__get_file_contents', tool_input: { owner: 'PrompTugal', repo: 'PrompTugal__News__Website' } }, 'allow', 'github read'],
         [T('dev'), { tool_name: 'mcp__github__get_file_contents', tool_input: { owner: 'someone', repo: 'else' } }, 'deny', 'github other repo'],
@@ -141,7 +149,7 @@ function test() {
         [T('dev'), { tool_name: 'Workflow', tool_input: {} }, 'deny', 'workflow'],
         [T('dev'), { tool_name: 'CronCreate', tool_input: {} }, 'deny', 'cron'],
         [T('dev'), { tool_name: 'ScheduleWakeup', tool_input: {} }, 'deny', 'wake-up'],
-        [T('dev'), { tool_name: 'Agent', tool_input: {} }, 'deny', 'dev starts a sub-agent'],
+        [T('dev'), { tool_name: 'Agent', tool_input: {} }, 'allow', 'dev runs the inner passes as sub-agents (v1.14.1)'],
         [T('correspondent'), { tool_name: 'Agent', tool_input: {} }, 'allow', 'correspondent sub-agents'],
         [T('dev'), { tool_name: 'PushNotification', tool_input: {} }, 'deny', 'dev notifies'],
         [T('security'), { tool_name: 'PushNotification', tool_input: {} }, 'allow', 'security notifies'],
@@ -216,6 +224,9 @@ function test() {
         [T('dev.places'), w('assets/viz/x.js'), 'allow', 'dev.places writes viz (viz.places folded in)'],
         [T('dev.places'), w('.github/workflows/deploy-pages.yml'), 'deny', 'dev.places writes CI'],
         [T('dev.places'), bash('git push origin dev'), 'deny', 'dev.places pushes dev'],
+        [T('designer'), { tool_name: 'Agent', tool_input: {} }, 'allow', 'designer runs the inner passes as sub-agents (v1.14.1, Dinis 18 Nov 15:05)'],
+        [T('outreach'), { tool_name: 'Agent', tool_input: {} }, 'allow', 'outreach runs the inner passes as sub-agents'],
+        [T('dev.search'), { tool_name: 'Agent', tool_input: {} }, 'deny', 'a worker still starts no sub-agent'],
         [T('designer.places'), w('design/brand/logo.svg'), 'deny', 'designer.places changes the brand'],
         [T('designer.places'), w('design/experiments/a.html'), 'allow', 'designer.places writes experiments'],
         [T('designer.places'), bash('curl -s https://openrouter.ai/api/v1/models'), 'allow', 'designer.places reaches openrouter.ai'],
@@ -268,6 +279,9 @@ function test() {
         [T('dev.places'), bash('git push origin work/dev.places'), 'allow', 'dev.places pushes its work branch (v1.14.0: a writer; dev@ reviews)'],
         [T('designer.places'), w('assets/by-place/town.css'), 'allow', 'designer.places writes the by-place assets'],
         [T('designer.places'), w('design/places/faro.md'), 'allow', 'designer.places writes design'],
+        [T('designer'), { tool_name: 'Agent', tool_input: {} }, 'allow', 'designer runs the inner passes as sub-agents (v1.14.1, Dinis 18 Nov 15:05)'],
+        [T('outreach'), { tool_name: 'Agent', tool_input: {} }, 'allow', 'outreach runs the inner passes as sub-agents'],
+        [T('dev.search'), { tool_name: 'Agent', tool_input: {} }, 'deny', 'a worker still starts no sub-agent'],
         [T('designer.places'), w('design/brand/logo.svg'), 'deny', 'designer.places writes the brand'],
         [T('designer.places'), w('newsroom/build/build.mjs'), 'deny', 'designer.places writes build code'],
         [T('outreach'), { ...bash('cd /home/user/PrompTugal__News__Website && sed -n 1,20p desks/synthetic/to/x.md'), cwd: os.homedir() + '/.sg-send/lanes' }, 'allow', 'a cd into the repo first (08:39 false positive)'],

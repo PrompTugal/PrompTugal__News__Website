@@ -1,7 +1,7 @@
 ---
 title: "ABP: observability@PrompTugal.dinis"
 agent: observability@PrompTugal.dinis
-policy: board/abp/policies.json v1.14.0 (sha256:fa8c1f4abe024264)
+policy: board/abp/policies.json v1.15.0 (sha256:4edb86f5bc960c59)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -16,14 +16,14 @@ authority: Dinis Cruz, operator
 - **Writes (repository):** `board/team/observability/**`, `board/runs/observability/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `newsroom/observability/**`, `assets/obs/**`, `newsroom/tools/obs/**`, `newsroom/tools/agent-log.mjs`, `content/newsroom/observability/**`, `content/newsroom/observability.md`.
 - **Writes (outside):** `/tmp/**`, `~/.sg-send/**`, `~/.abp/**`, `~/.claude/projects/*/memory/**` (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (`promptugal/promptugal__news__website`, `sgit-ai/sgit-ai__website__web-summit`); the cloud session's documentation and `add_repo` for reading.
-- **Also granted:** reading the cloud sessions' list, events and scheduled tasks (claude-code-remote read tools).
+- **Also granted:** sub-agents (Agent, SendMessage) inside its own run; reading the cloud sessions' list and status and scheduled tasks (claude-code-remote read tools, no transcripts).
 - **Sends to:** `dev.send.sgraph.ai` only (the agents' inboxes). Release with `AGENT=observability@PrompTugal.dinis newsroom/tools/release.sh`.
-- **Never:** records anything that identifies a reader.
+- **Never:** records anything that identifies a reader; gives a sub-agent more than its own grant, or uses one for anything but its own work and the inner passes.
 
 ## Outside the mandate (logged; blocked only by a circuit breaker), among them
 
 - Any connector: Gmail, Google Drive, Calendar, Claude Docs, any MCP server but GitHub's read tools (R3).
-- New sessions, agents, scheduled tasks, wake-ups, triggers, environments, credentials, workflows (R4).
+- New sessions, agents beyond its own sub-agents, scheduled tasks, wake-ups, triggers, environments, credentials, workflows (R4).
 - Pushing anywhere but `dev`; force-push, branch deletion, tags, history rewrites, empty commits (R5).
 - Writing outside the paths above; `.claude/` and `board/abp/` (abp@'s), `board/HOLD.md` (security@'s), `version.txt` and `versions.json` (CI's), `design/brand/` (Dinis's yes) (R6).
 - Comments, issues, pull requests, merges, files or workflow runs through GitHub's API; publishing artifacts; email; posts; any send to a host not listed (R7).

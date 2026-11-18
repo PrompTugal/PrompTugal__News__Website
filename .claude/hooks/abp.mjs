@@ -92,7 +92,7 @@ export function grantOf(who, P = loadPolicy()) {
         g.worker = (!!base && !(P.roles[who.role] && P.roles[who.role].releases_to_dev)) || !!(P.roles[who.role] && P.roles[who.role].work_branch)   // work_branch (v1.14.0): a writer of the restart pushes work/<role>; a reviewer brings it onto dev
         g.writes = [...P.common.writes, ...(r.writes || [])]
         g.send.push(...(r.send_hosts || []))
-        g.subagents = !!r.subagents; g.notify_dinis = !!r.notify_dinis; g.remote_read = !!r.remote_read; g.remote_conduct = !!r.remote_conduct
+        g.subagents = !!r.subagents; g.notify_dinis = !!r.notify_dinis; g.remote_read = !!r.remote_read; g.remote_conduct = !!r.remote_conduct; g.remote_transcripts = !!r.remote_transcripts
         g.known = !!P.roles[who.role]
     } else if (who.kind === 'external') {
         const own = (P.external.by_agent || {})[who.agent]
@@ -316,6 +316,7 @@ export function decide(input, who = whoAmI(), P = loadPolicy()) {
         if (server === 'claude-code-remote') {
             if (name === 'add_repo' && ti.access === 'push') return deny('R2', 'add_repo with push access: only this repository, already attached', 'remote')
             if (P.tools.remote_allowed_all.includes(name)) return allow('remote-read')
+            if ((P.tools.remote_transcripts_by_grant || []).includes(name)) return g.remote_transcripts ? allow('remote-transcripts') : deny('R2', `${name} reads another session's transcript: only telemetry.b@ may (Dinis, 18 Nov 2026, board/guidance/2026-11-18-telemetry-and-sub-agents.md)`, 'remote')
             if (P.tools.remote_read_by_grant.includes(name)) return (g.remote_read || who.kind === 'unidentified') ? allow('remote-read') : deny('R2', `${name} reads other sessions: not in ${who.agent || 'this session'}'s grant`, 'remote')
             if ((P.tools.remote_conduct_by_grant || []).includes(name) && g.remote_conduct) return allow('remote-conduct')
             return deny('R4', `${name}: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session`, 'session')
