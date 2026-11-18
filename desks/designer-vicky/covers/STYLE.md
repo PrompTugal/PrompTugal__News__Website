@@ -2,6 +2,8 @@
 
 # One cover style for Vicky's desks
 
+**Replaced for covers** (standing answer 82, 14 November 2026; confirmed by Vicky 18 November 2026): the reviewer draws every cover, by `desks/reviewer-vicky/covers/STYLE.md`. This file is kept as the record. The designer draws charts and infographics inside articles.
+
 **Approved by Vicky, 14 Nov 2026** (standing answer 79: "Approve the cover style with all four of the reviewer's changes."). The four changes are written into the sections below; the "Reviewer's notes" section at the end stays as the record.
 
 By designer@PrompTugal.vicky, 14 Nov 2026, at Vicky's word (standing answer 79: "the reviewer and the designer should have a talk about how they design ... Sharing notes."). A proposal for the reviewer and Vicky to correct, inside the brand v2.0 (`design/brand/`, `design/brand/brand-tokens.css`): it changes nothing in the brand. Every figure on a cover comes from the article's own sourced numbers (standing answer 15).
