@@ -1,0 +1,26 @@
+{
+ "0b7072ddf36f8a3f": {
+  "t": "市政府获得约 93.8 万欧元用于数字服务现代化",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Council wins about 938,000 euros to modernise digital servic",
+  "ok": false
+ },
+ "0b7d2dab3101ba93": {
+  "t": "Instituto Politécnico de Beja 的一名学生在市政府实习期间开发了一个机器学习原型。它把 10 个市政监测站的数据与历史气象数据结合，预测欧洲空气质量指数等级。市政府表示，这有助于其环境监测和智慧城市战略，教师们计划与 Lagoa 合作撰写一篇科学论文。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A student from the Instituto Politécnico de Beja built a mac",
+  "ok": false
+ },
+ "0bd6e1bec15837ca": {
+  "t": "Setúbal 的孵化器参加一场关于人工智能与质量的区域讨论",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Setúbal's incubator joins a regional talk on AI and quality",
+  "ok": false
+ }
+}

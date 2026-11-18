@@ -1,0 +1,34 @@
+{
+ "8c9ceb3b857d4880": {
+  "t": "SpaceXAI在Forum Braga为葡萄牙中小企业举办免费的两天人工智能实验室",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "SpaceXAI runs a free two-day AI lab for Portuguese SMEs at F",
+  "ok": false
+ },
+ "8cbf35676eb8da8f": {
+  "t": "Ó pá，Portimão：烤架上的沙丁鱼、悬崖上的阳光，还有，信不信由你，一个让机器人检查你建筑文件的市政府。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ó pá, Portimão: sardines on the grill, sun on the cliffs and",
+  "ok": false
+ },
+ "8cd4dd8460cd02e1": {
+  "t": "在里斯本的BTL（2025年3月12日至16日）上，Loulé市政展台为参观者提供了借助人工智能打造的本地沉浸式体验。文章没有说明制作者是谁。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "At the BTL in Lisbon (12 to 16 March 2025) the Loulé municip",
+  "ok": false
+ },
+ "8cf6a8a6bbd4b38d": {
+  "t": "GDG Lagos与市政府于2025年10月17日和18日举办了DevFest。第一天走进学校，接触了约150名学生。第二天在市政厅举行，主题为“人工智能：从理论到行动”，共有120人报名。CoLagos和Fábrica do Empreendedor为合作伙伴。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "GDG Lagos and the council ran DevFest on 17 and 18 October 2",
+  "ok": false
+ }
+}

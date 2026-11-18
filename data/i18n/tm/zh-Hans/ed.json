@@ -1,0 +1,34 @@
+{
+ "ed323ee2e8192c66": {
+  "t": "Algarve及其17个地点",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Algarve and its 17 places",
+  "ok": false
+ },
+ "ed6a0a9ed23a077b": {
+  "t": "Gota Click2Care：Aljezur老年居民的教区远程陪护试点",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Gota Click2Care: a parish teleassistance pilot for Aljezur's",
+  "ok": false
+ },
+ "ed99e8c975b51dc9": {
+  "t": "Tavira，ó pá，这里的河比任何服务器机房都平静，七孔桥见过的迁徙比你的云服务商还多。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Tavira, ó pá, where the river is calmer than any server room",
+  "ok": false
+ },
+ "eddff8f8e446bd17": {
+  "t": "在2024年3月的一次采访中，Ayamonte市政府的IT经理说，市政府正在为市民和企业筹备人工智能虚拟助手，并计划建设一个200万至300万欧元的创新节点，涉及旅游和对小企业的数字支持。他称该节点是首个涉及Eurocidade的节点，覆盖葡萄牙Algarve的部分地区。这是市政府自己的说法，没有上线日期，我们也未确认该节点是否已实施。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "In a March 2024 interview, the IT manager of Ayamonte's coun",
+  "ok": false
+ }
+}

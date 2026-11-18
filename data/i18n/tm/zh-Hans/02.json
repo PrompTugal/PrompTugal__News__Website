@@ -1,0 +1,42 @@
+{
+ "021f2431b9f8e34f": {
+  "t": "PrompTugal.news Alcoutim：Alcoutim 的人工智能与科技。这是 Guadiana 河畔一个地处内陆、人口密度低的市镇，连接、传感器和数字包容是通往人工智能的道路；本站也报道从阿尔加维、葡萄牙和世界传到 Alcoutim 的消息。独立报道，每个事实都有来源。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Alcoutim: AI and technology in Alcoutim, an ",
+  "ok": false
+ },
+ "021f688c56ed7c04": {
+  "t": "该高管课程于 2026 年 4 月 20 日在Faro的阿尔加维大学开课，部分学员获得 PRR 资助的奖学金。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The executive course ran on 20 April 2026 at the University ",
+  "ok": false
+ },
+ "02b79e48c8bc0c17": {
+  "t": "Silves 是一个面积很大、以乡村为主的 concelho，有 6 个 freguesia，面积约 680 平方公里，是阿尔加维的橙子之都，也是该王国的旧都，所以它从不让人忘记这一点。橙子是主角：2026 年 11 月，柑橘经营者协会称，Silves 占该地区受保护产地标志（IGP）柑橘种植面积的 43%，约 4,733 公顷、419 个农场。câmara 表示，企业集中在 Algoz、Alcantarilha 和 São Bartolomeu de Messines 的工业园区，并有 GEL 办公室提供协助。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Silves is a big, mostly countryside concelho with six fregue",
+  "ok": false
+ },
+ "02d1234834fc64ae": {
+  "t": "该市的数字机构 Porto Digital 介绍了面向城市创新的人工智能研究，以及一场关于让生成式人工智能值得城市系统信赖的黑客松。市政府表示，波尔图目前担任数字权利城市联盟（Cities Coalition for Digital Rights）的秘书长一职，该联盟涵盖负责任的人工智能。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The city's digital body Porto Digital presented AI research ",
+  "ok": false
+ },
+ "02f1a682005c5cfd": {
+  "t": "ScaleUp Porto 公布了在 Web Summit 2026 上接触的 13 家与波尔图相关的初创公司，其中 6 家做人工智能",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "ScaleUp Porto names 13 Porto-linked startups it met at Web S",
+  "ok": false
+ }
+}

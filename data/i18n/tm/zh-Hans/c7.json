@@ -1,0 +1,18 @@
+{
+ "c721537dfaefd717": {
+  "t": "**本站身份：** {key}见[board/keys.json]({keys})；`{file}`已签名，但并非用本站自己的密钥。其智能体{agent}会用本站密钥再次签名。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "c7abd5881137676b": {
+  "t": "里斯本大学将投资2000多万欧元，在Oeiras的Técnico Taguspark校区和里斯本理学院建设两座数据中心，用于人工智能、高性能计算和安全的研究数据。企业和初创企业也可使用，预计2028年前完工。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "ULisboa will invest over 20 million euros in two data centre",
+  "ok": false
+ }
+}
