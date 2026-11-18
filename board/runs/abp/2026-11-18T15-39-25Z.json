@@ -1,0 +1,83 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "abp@PrompTugal.dinis",
+ "run": "2026-11-18T15-39-25Z",
+ "started": "2026-11-18T15:39:25.577Z",
+ "ended": "2026-11-18T15:47:28Z",
+ "line": "v1.15.2 host deny-list",
+ "policy": {
+  "version": "1.15.2",
+  "sha256": "f889a86033a7c585"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T15:44:44.293Z",
+   "chars": 1184,
+   "sha256": "3af1f7c883b170cd",
+   "head": "<task-notification>\n<task-id>b4f0wz02x</task-id>\n<tool-use-id>toolu_014xsTfc4uj8eVfbiAs1TUXo</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/1f71f596-c8c7-5883-99c9-7ffd5"
+  },
+  {
+   "t": "2026-11-18T15:44:48.932Z",
+   "chars": 579,
+   "sha256": "cb86614223870e10",
+   "head": "<task-notification>\n<task-id>b89e5u390</task-id>\n<tool-use-id>toolu_0138bPzxfJ31WkNWombA4MvT</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/1f71f596-c8c7-5883-99c9-7ffd5"
+  },
+  {
+   "t": "2026-11-18T15:46:45.233Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 8,
+  "by_kind": {
+   "other": 2,
+   "git": 2,
+   "shell": 3,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 8,
+  "commits": [
+   {
+    "sha": "7f926947e",
+    "subject": "abp@PrompTugal.dinis: hourly report 16:37, v1.15.1 (telemetry.b@ short-name folders, redirect targets are not reads)",
+    "files": 75
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 8,
+  "in_mandate": 8,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

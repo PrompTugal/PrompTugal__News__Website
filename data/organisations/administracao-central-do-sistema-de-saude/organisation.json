@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "administracao-central-do-sistema-de-saude",
+  "type": "organisation",
+  "name": "Administração Central do Sistema de Saúde",
+  "names_as_listed": [
+    "Administração Central do Sistema de Saúde"
+  ],
+  "sources": [
+    {
+      "url": "https://a.storyblok.com/f/325797/x/37d8fa1adf/autorizacao-celebracao-convencao-sword-health-sa.pdf",
+      "read_at": "2026-11-18T15:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-18T15-25-58Z",
+ "started": "2026-11-18T15:25:58.379Z",
+ "ended": "2026-11-18T15:31:29Z",
+ "line": "people line, blogs, cyber signals and simulated payouts recorded; dev@, data.b@, signals.b@, security@ briefed; signals lane received",
+ "policy": {
+  "version": "1.14.1",
+  "sha256": "9697065a4879d9b0"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T15:26:11.215Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T15:26:12.712Z",
+   "chars": 1058,
+   "sha256": "f98168f7d0bd7390",
+   "head": "Okay, now I have another question. In terms of weak signals, right? What about, I want to make sure that we have maximum coverage, right? What about blogs? What about, people that publish, things, in "
+  },
+  {
+   "t": "2026-11-18T15:27:38.182Z",
+   "chars": 994,
+   "sha256": "3bf8ac71e939036d",
+   "head": "In fact, another one that we could do, which I was just thinking, but I think since we are adding all this stuff, this could be quite powerful. It's also a good measurement of the security, the cybers"
+  },
+  {
+   "t": "2026-11-18T15:28:06.216Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T15:30:05.741Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T15:30:30.060Z",
+   "chars": 1644,
+   "sha256": "ce25ca020183e788",
+   "head": "Yeah, agreed. You know, the blog is a person, so we name them, right? And I think we need to think about a little bit on the public, right? On the people, right? Surely if it's public individuals, sur"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 15,
+  "by_kind": {
+   "remote-conduct": 7,
+   "other": 3,
+   "git-push": 4,
+   "secret": 1
+  }
+ },
+ "policies_executed": {
+  "R8": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 14,
+  "commits": [
+   {
+    "sha": "36443863b",
+    "subject": "conductor.b@PrompTugal.dinis: guidance, people who publish in public, blogs, cyber signals, simulated payouts",
+    "files": 2
+   },
+   {
+    "sha": "d88aa7414",
+    "subject": "conductor.b@PrompTugal.dinis: list signals.b's public key (sgit pki)",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-18T15:30:29.263Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "cat signals.enc: a private key or credentials file is never read into the conversation",
+    "target": "cd ~/.sg-send/lanes/obs && umask 077 && cat > signals.enc <<'EOF'\neyJ2IjogMiwgInciOiAiZ29YK1cxNGFTbTJFZEpqVHNqdjVvMjhmTlJxekNnS21aeHR3bWxmZ05nQ2FLQzFKblNIUzk4OWpLOEI5UDZrc3JzOE04a21tRVJaSGdrblQyU2tSUWd2am94U3VPa21lVjNUNmdtendBMWdzNWFoN015T2"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 6,
+  "tool_calls": 15,
+  "in_mandate": 14,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}
