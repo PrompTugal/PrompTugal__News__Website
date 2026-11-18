@@ -8,12 +8,13 @@
   "ok": false
  },
  "82a0eca4fc1f25ec": {
-  "t": "University of Algarve、AIを活用する考古学センターで3150万ユーロを獲得",
+  "t": "Universidade do Algarve、AIを活用する考古学センターで3150万ユーロを獲得",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "University of Algarve wins 31.5 million euros for an AI-usin",
-  "ok": false
+  "ok": false,
+  "rev": "glossary name restored by rule"
  },
  "82ba4e0c19a506cd": {
   "t": "Bejaの心理士たち、AIが職業をどう変えているのかを問う",

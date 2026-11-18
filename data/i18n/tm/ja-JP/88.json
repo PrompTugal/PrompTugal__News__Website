@@ -1,11 +1,12 @@
 {
  "881ad9c52223ef5d": {
-  "t": "PortimãoとUniversity of Algarve、AIを中核に据えたテクノロジーキャンパスを計画",
+  "t": "PortimãoとUniversidade do Algarve、AIを中核に据えたテクノロジーキャンパスを計画",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "Portimão and the University of Algarve plan a technology cam",
-  "ok": false
+  "ok": false,
+  "rev": "glossary name restored by rule"
  },
  "88719a84e47762d8": {
   "t": "見つけられなかったこと、dito com franqueza(率直に言おう):",

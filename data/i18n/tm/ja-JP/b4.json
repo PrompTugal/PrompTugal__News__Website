@@ -8,12 +8,13 @@
   "ok": false
  },
  "b42cef3de7a70802": {
-  "t": "Programa Regional Algarve 2030は、新聞Públicoとともに、水の循環をテーマとする第3回カンファレンスを、FaroのCampus da PenhaにあるUniversity of Algarveで14時から18時まで開く。パネルはスマートな水管理とスマートシティを扱い、登壇者には水道事業者、ポルトガル環境庁、自治体が含まれる。記事にOlhãoの名はない。",
+  "t": "Programa Regional Algarve 2030は、新聞Públicoとともに、水の循環をテーマとする第3回カンファレンスを、FaroのCampus da PenhaにあるUniversidade do Algarveで14時から18時まで開く。パネルはスマートな水管理とスマートシティを扱い、登壇者には水道事業者、ポルトガル環境庁、自治体が含まれる。記事にOlhãoの名はない。",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "The Programa Regional Algarve 2030, with the newspaper Publi",
-  "ok": false
+  "ok": false,
+  "rev": "glossary name restored by rule"
  },
  "b451405df1008a6b": {
   "t": "ポリテクニックは、ADSI、NERGA、Capital Douroとともに24か月のプロジェクトを率い、総額は999,614ユーロで大半をCOMPETE 2030が出資し、Centro地域の小企業とスタートアップのビジネスモデルにAI、IoT、ブロックチェーンを取り入れる。Forbes Portugalは2026年4月5日に4月開始と報じ、キックオフセッションは4月9日にポリテクニックで行われる。",

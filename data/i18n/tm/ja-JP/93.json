@@ -24,12 +24,13 @@
   "ok": false
  },
  "93971d0ea68a7c34": {
-  "t": "Google Developer Groups Faroは、11月27日と28日にUniversity of AlgarveのPenhaキャンパスで無料の2日間カンファレンスを開き、Google GeminiとGoogle Cloudを使ったAIアプリケーションとエージェントの構築、保護、拡張を扱う。Algarve Evolutionはパートナーである。",
+  "t": "Google Developer Groups Faroは、11月27日と28日にUniversidade do AlgarveのPenhaキャンパスで無料の2日間カンファレンスを開き、Google GeminiとGoogle Cloudを使ったAIアプリケーションとエージェントの構築、保護、拡張を扱う。Algarve Evolutionはパートナーである。",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "Google Developer Groups Faro runs a free two-day conference ",
-  "ok": false
+  "ok": false,
+  "rev": "glossary name restored by rule"
  },
  "93de986c2599107d": {
   "t": "観光業従事者向けの無料の認定ブートキャンプが2つ。4月9日にFaroで水の効率利用、4月17日にPortimãoで観光に応用するAI。",

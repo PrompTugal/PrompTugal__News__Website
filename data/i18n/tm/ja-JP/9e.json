@@ -1,11 +1,12 @@
 {
  "9e07934d1f4a185b": {
-  "t": "Monchiqueは山とともに生き、山は火とともに生きる。Serraは2018年にひどく焼け、BRIDGEプロジェクト(IST、LNEC、University of Algarve)は、隣人同士が協力して火災リスクを下げる方法を学ぶためにMonchiqueを選んだ。一方、市のインキュベーターではInvisible CFOが、少しのAIを使って他人のお金を預かっている。ハム、蜂蜜、温泉で有名な土地にしては悪くない。",
+  "t": "Monchiqueは山とともに生き、山は火とともに生きる。Serraは2018年にひどく焼け、BRIDGEプロジェクト(IST、LNEC、Universidade do Algarve)は、隣人同士が協力して火災リスクを下げる方法を学ぶためにMonchiqueを選んだ。一方、市のインキュベーターではInvisible CFOが、少しのAIを使って他人のお金を預かっている。ハム、蜂蜜、温泉で有名な土地にしては悪くない。",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "Monchique lives with the mountain and the mountain lives wit",
-  "ok": false
+  "ok": false,
+  "rev": "glossary name restored by rule"
  },
  "9e14c2a9e059fd1c": {
   "t": "Algarve Evolution、地元企業のAI導入に関する調査を開始",

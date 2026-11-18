@@ -1,10 +1,11 @@
 {
  "83c2b6b5c4403524": {
-  "t": "GDG Faroの無料カンファレンスは11月27日と28日、University of AlgarveのCampus da Penhaで開かれ、AIアプリケーションの構築、保護、拡張に関するワークショップと講演が行われる。",
+  "t": "GDG Faroの無料カンファレンスは11月27日と28日、Universidade do AlgarveのCampus da Penhaで開かれ、AIアプリケーションの構築、保護、拡張に関するワークショップと講演が行われる。",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "GDG Faro's free conference runs on 27 and 28 November at the",
-  "ok": false
+  "ok": false,
+  "rev": "glossary name restored by rule"
  }
 }

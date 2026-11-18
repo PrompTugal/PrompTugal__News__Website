@@ -8,12 +8,13 @@
   "ok": false
  },
  "9b42dffb458d66b0": {
-  "t": "University of AlgarveのConfOA 2026で、オープンサイエンスがAIと出会う",
+  "t": "Universidade do AlgarveのConfOA 2026で、オープンサイエンスがAIと出会う",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "Open science meets AI at the University of Algarve's ConfOA ",
-  "ok": false
+  "ok": false,
+  "rev": "glossary name restored by rule"
  },
  "9b8570ec4307a1ae": {
   "t": "PrompTugal.news Albufeira:観光とホスピタリティの町AlbufeiraのAIとテクノロジー、そしてAlgarve、ポルトガル、世界からAlbufeiraに届くもの。独立系で、すべての事実に出典あり。",

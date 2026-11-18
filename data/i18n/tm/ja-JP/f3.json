@@ -24,12 +24,13 @@
   "ok": false
  },
  "f3a9aa9b9b891fc5": {
-  "t": "NERA、University of Algarveで顧客分析のためのAIツールをテーマにLunch & Learnを開催",
+  "t": "NERA、Universidade do Algarveで顧客分析のためのAIツールをテーマにLunch & Learnを開催",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "NERA hosts a Lunch & Learn on AI tools for customer analysis",
-  "ok": false
+  "ok": false,
+  "rev": "glossary name restored by rule"
  },
  "f3c9364ad7b2bbb0": {
   "t": "開くことができた情報源では、Taviraの重心は商業AIではなく、公的研究と公共データにある。復興計画による136万ユーロのプロジェクト、Polo de Inovação de Taviraは、地中海式ダイエット、保健、気候適応に関する研究・技術移転拠点を築く。市は、Algarve東部の6自治体によるAlgarve 6.0都市データ・プラットフォームの一員であり、2026年に接続型の駐車センサーを設置し、Tavira Worksのコミュニティは地域のテックネットワークに属している。自治体に本社を置くAI企業は見つからなかった。",

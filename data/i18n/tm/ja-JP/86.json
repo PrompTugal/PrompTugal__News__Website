@@ -1,11 +1,12 @@
 {
  "861340a39322787c": {
-  "t": "FaroにはUniversity of Algarveがあり、市内のキャンパスが地域のAI活動の大半を支えている。研究(AIを使う3150万ユーロの考古学イノベーションセンター)、教育(公表された大学のAI方針、ヘルステック企業との医療AIエグゼクティブコース)、そしてAIに関するビジネスイベントが開かれるUALG TEC Campusである。コミュニティ層もここにある。GDG Faroは市の開発者向けカンファレンスをエージェント型AIをテーマに開き、Algarve Evolution、Algarve STP、市がイベントやプログラムを加えている。市当局自体は、読み取れた範囲ではAIの利用がほとんど見られず、Faroの重心は市政ではなくイノベーションと研究にある。",
+  "t": "FaroにはUniversidade do Algarveがあり、市内のキャンパスが地域のAI活動の大半を支えている。研究(AIを使う3150万ユーロの考古学イノベーションセンター)、教育(公表された大学のAI方針、ヘルステック企業との医療AIエグゼクティブコース)、そしてAIに関するビジネスイベントが開かれるUALG TEC Campusである。コミュニティ層もここにある。GDG Faroは市の開発者向けカンファレンスをエージェント型AIをテーマに開き、Algarve Evolution、Algarve STP、市がイベントやプログラムを加えている。市当局自体は、読み取れた範囲ではAIの利用がほとんど見られず、Faroの重心は市政ではなくイノベーションと研究にある。",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "Faro is home to the Universidade do Algarve, whose campuses ",
-  "ok": false
+  "ok": false,
+  "rev": "glossary name restored by rule"
  },
  "862a47ccd096007f": {
   "t": "QI 4.0というプロジェクトは、センサーと機械学習モデルでQueijo Serpa DOPの熟成を監視し、熟成室の状態が基準から外れると生産者に警告するアプリ(開発中)に情報を送る。2026年11月14日にCórdobaで発表される予定だった。",
