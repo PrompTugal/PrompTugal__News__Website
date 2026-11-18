@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "by": "place.alcoutim@PrompTugal.dinis",
   "mandate": "PrompTugal.news Alcoutim: AI and technology in Alcoutim, an inland, low-density municipality on the Guadiana where connectivity, sensors and digital inclusion are the road to AI, and what reaches Alcoutim from the Algarve, Portugal and the world. Independent. Every fact sourced.",
   "gravity": {
@@ -382,7 +382,8 @@
     "Only the council's general channel is listed. No named economic development desk or investor service was found. No local talent is listed for Alcoutim: nobody has agreed to be listed and we found no public AI speaker from the town. Robotics4Farmers places its intervention in Alcoutim, but the sheets do not say what was tested there or whether the robot is still in use after the project ended in September 2025.",
     "cm-alcoutim.pt's home page returned only a title, so no municipal news list was read; the three new items come from Postal. A council phone for culture and heritage is quoted in a Postal article and must be checked on the council's own site before it is shown.",
     "No new AI or tech item for Alcoutim after 1 November.",
-    "cm-alcoutim.pt still returned only a page skeleton on 17 November; the Barlavento item on the regional markets' three-year mark was seen only as a headline."
+    "cm-alcoutim.pt still returned only a page skeleton on 17 November; the Barlavento item on the regional markets' three-year mark was seen only as a headline.",
+    "cm-alcoutim.pt loaded without news content on 18 November; Postal and Barlavento carried no new Alcoutim item beyond the naval-school exercise headline."
   ],
   "voice": {
     "lede": "Ai, Alcoutim: a vila onde o rio e quase Espanha e a fibra ainda vem devagarinho, mas os sensores ja chegaram.",
