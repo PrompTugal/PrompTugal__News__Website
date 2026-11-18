@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "by": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
   "mandate": "PrompTugal.news Vila Real de Santo António: AI and technology in Vila Real de Santo António, a Pombaline border town on the Guadiana where cross-border projects count, and what reaches it from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -182,6 +182,12 @@
       "date": "2026-11-19",
       "url": "https://www.cm-vrsa.pt/pt/noticias/68406/eurocidade-do-guadiana-promove-encontro-transfronteirico-de-mulheres-empreendedoras.aspx",
       "read_on": "2026-11-17"
+    },
+    {
+      "title": "Giant Nativity opens, Centro Cultural António Aleixo",
+      "date": "2026-11-28",
+      "url": "https://www.cm-vrsa.pt/pt/noticias/68414/presepio-gigante-de-vila-real-de-santo-antonio-volta-a-surpreender-com-mais-de-6000-figuras.aspx",
+      "read_on": "2026-11-18"
     }
   ],
   "ai_map": [
@@ -409,6 +415,30 @@
       "ai_path": "no AI",
       "steps": 0,
       "blast_radius": "Ayamonte (Spain), Castro Marim"
+    },
+    {
+      "title": "VRSA opens an SNS 24 desk at its municipal health office",
+      "summary": "Staff at the Gabinete Municipal de Saúde guide residents through the national health digital services (booking, teleconsultation, results, prescriptions); a second phase would reach the Espaços Cidadão in VRSA, Monte Gordo and Vila Nova de Cacela. Teleconsultations stay at the main desk only.",
+      "date": "2026-11-17",
+      "publisher": "Município de Vila Real de Santo António",
+      "url": "https://www.cm-vrsa.pt/pt/noticias/68410/vila-real-de-santo-antonio-ja-disponibiliza-balcao-sns-24.aspx",
+      "read_on": "2026-11-18",
+      "significance": "town and neighbours",
+      "ai_path": "No AI: a digital public-service desk (national SNS 24 platform) run by council staff.",
+      "steps": 1,
+      "blast_radius": "Castro Marim and Alcoutim residents also use the VRSA services"
+    },
+    {
+      "title": "VRSA's 24th Giant Nativity opens on 28 November with more than 6,000 figures",
+      "summary": "At the Centro Cultural António Aleixo until 6 January 2027: 240 m2 with LED lighting and recycled water, and a new piece referencing Ayamonte; entry 1 euro from age 4.",
+      "date": "2026-11-17",
+      "publisher": "Município de Vila Real de Santo António",
+      "url": "https://www.cm-vrsa.pt/pt/noticias/68414/presepio-gigante-de-vila-real-de-santo-antonio-volta-a-surpreender-com-mais-de-6000-figuras.aspx",
+      "read_on": "2026-11-18",
+      "significance": "town and neighbours",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "Ayamonte, Castro Marim"
     }
   ],
   "contacts": [
