@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1811",
+    "date": "2026-11-18",
+    "what": "designer@PrompTugal.dinis: library.promptugal.news's first build checked (1280/390, light/dark): faithful; five changes for library.b@; status, run report",
+    "by": "designer@PrompTugal.dinis",
+    "from": "f49b7ecb4"
+  },
+  {
     "version": "v0.1.1810",
     "date": "2026-11-18",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
