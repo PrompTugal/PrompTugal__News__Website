@@ -34,9 +34,20 @@ export function pages(ctx) {
     const drop = JSON.parse(A('report/drop.json')), log = JSON.parse(A('report/corrections.json')), W = drop.pages
     const lane = drop.lane && drop.lane.endpoint ? drop.lane.endpoint : null
     const csp = `default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'${lane ? ' ' + lane : ''}; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'`
+    // one page per principle and concept (Dinis, 18 November 2026, about 16:00 UTC: board/guidance/2026-11-18-the-pipeline-standard-and-the-fact-checker.md),
+    // drafted from his guidance in assets/principles/concepts.json for journalist@ to revise; listed on /principles/
+    const C = JSON.parse(A('principles/concepts.json')), GH = 'https://github.com/promptugal/promptugal__news__website/blob/dev/'
+    const H = W.concepts
+    const list = `## ${H.list_heading} {#concepts}\n\n${C.intro}\n\n` + C.concepts.map(c => `- [${c.title}](${c.id}/index.html): ${c.summary}`).join('\n')
+    const concept = c => ({ rel: `principles/${c.id}/index.html`, src: 'assets/principles/concepts.json', type: 'site', title: c.title, summary: c.summary,
+        crumbs: [['principles/index.html', W.principles.title], [null, c.title]],
+        md: [c.summary, `## ${H.do}`, c.do.map(x => `- ${x}`).join('\n'), `## ${H.never}`, c.never.map(x => `- ${x}`).join('\n'),
+            `## ${H.check}`, c.check.map(x => `- [${x.text}](${x.href})`).join('\n'),
+            H.word.replace('{guidance}', `[${c.guidance.replace(/^board\/guidance\//, '')}](${GH}${c.guidance})`)].join('\n\n') })
     return [
         { rel: 'principles/index.html', src: 'assets/principles/principles.md', type: 'site', title: W.principles.title, summary: W.principles.summary,
-          md: A('principles/principles.md') },
+          md: A('principles/principles.md') + '\n\n' + list },
+        ...C.concepts.map(concept),
         { rel: 'report/index.html', src: 'assets/report/report.md', type: 'site', bare: true,
           head: `<meta http-equiv="Content-Security-Policy" content="${esc(csp)}">\n<meta name="referrer" content="no-referrer">`,
           title: W.report.title, summary: W.report.summary,

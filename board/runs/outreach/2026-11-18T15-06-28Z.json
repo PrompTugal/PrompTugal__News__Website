@@ -1,0 +1,118 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "outreach@PrompTugal.dinis",
+ "run": "2026-11-18T15-06-28Z",
+ "started": "2026-11-18T15:06:28.852Z",
+ "ended": "2026-11-18T15:54:45Z",
+ "line": "",
+ "policy": {
+  "version": "1.15.2",
+  "sha256": "f889a86033a7c585"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T15:08:47.863Z",
+   "chars": 458,
+   "sha256": "a243741c8d2c2a01",
+   "head": "<task-notification>\n<task-id>bshl5x5x2</task-id>\n<tool-use-id>toolu_01WQJAA8VE9bitzbGTNtCWkA</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/f2441678-63a4-5791-8b55-79fb9"
+  },
+  {
+   "t": "2026-11-18T15:08:47.930Z",
+   "chars": 724,
+   "sha256": "5553e27fe8ac53c3",
+   "head": "<task-notification>\n<task-id>bovvop77v</task-id>\n<tool-use-id>toolu_01BiCtdXjG7GfMqyJ94fnnwN</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/f2441678-63a4-5791-8b55-79fb9"
+  },
+  {
+   "t": "2026-11-18T15:08:52.968Z",
+   "chars": 703,
+   "sha256": "786708d72e0d6e31",
+   "head": "<task-notification>\n<task-id>b7mivn43n</task-id>\n<tool-use-id>toolu_01S4mm5zaDrUpjaKVYHhiMgT</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/f2441678-63a4-5791-8b55-79fb9"
+  },
+  {
+   "t": "2026-11-18T15:38:33.274Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-18T15:39:29.310Z",
+   "chars": 1912,
+   "sha256": "cee29f5115f7d02d",
+   "head": "<agent-message from=\"ae3c22d7b9569387e\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-18T15:41:31.380Z",
+   "chars": 1156,
+   "sha256": "0ad60926b7fa6d74",
+   "head": "<task-notification>\n<task-id>bgxtkeuj6</task-id>\n<tool-use-id>toolu_01JAaSy9bZdeL3P7P8HggUCC</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/f2441678-63a4-5791-8b55-79fb9"
+  },
+  {
+   "t": "2026-11-18T15:53:41.102Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T15:54:39.211Z",
+   "chars": 1231,
+   "sha256": "7bd44c934d5243dc",
+   "head": "<agent-message from=\"adbad799b37eaf335\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-18T15:38:32.940Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-18T15:53:40.787Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 28,
+  "by_kind": {
+   "git": 8,
+   "other": 4,
+   "release": 2,
+   "shell": 7,
+   "agent": 4,
+   "web": 3
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 28,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 8,
+  "tool_calls": 28,
+  "in_mandate": 28,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
