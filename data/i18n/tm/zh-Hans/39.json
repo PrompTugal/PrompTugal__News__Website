@@ -1,0 +1,34 @@
+{
+ "39033e9b262f6880": {
+  "t": "Porto，carago：这座城市在 Lisboa 说话时埋头干活，桥是铁的，瓷砖是蓝的，机器正在学着吃 francesinha 而不洒酱汁。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Porto, carago: the city that works while Lisbon talks, where",
+  "ok": false
+ },
+ "391d157ac2945de1": {
+  "t": "São Brás de Alportel 是一个内陆小市镇，它的身份建立在遗产（Museu do Traje、软木工业，以及现在的户外工业遗产空间 Praça 1914）和以 Globalfire 为首的制造业基础之上，Globalfire 是一家火灾探测技术制造商，被称为当地最大的雇主和出口商。它的人工智能故事尚处早期，由公共部门主导：市政府是市际 Algarve 6.0 智慧区域项目的合作伙伴，运营一个共享办公空间和一个创业者办公室，并支持阿尔加维大学的研究。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "São Brás de Alportel is a small inland municipality whose id",
+  "ok": false
+ },
+ "394a80e5b4139b41": {
+  "t": "São Brás de Alportel 与 Olhão、Loulé、Tavira、Vila Real de Santo António 和 Alcoutim 一起，是一个由国家复苏计划资助的市际项目的合作伙伴，该项目旨在建立城市管理平台和其他数字工具。报道没有提到人工智能。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "São Brás de Alportel is a partner, with Olhão, Loulé, Tavira",
+  "ok": false
+ },
+ "394f8c88674a2c72": {
+  "t": "拥有 Albufeira 度假村的 AP Hotels & Resorts 集团采用人工智能收益管理",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AP Hotels & Resorts, a group with Albufeira resorts, adopts ",
+  "ok": false
+ }
+}

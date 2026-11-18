@@ -1,0 +1,26 @@
+{
+ "4c0d30adf1b09c9f": {
+  "t": "Braga 的人工智能活动分布在来源并列显示的四个地方：研究（Minho 大学的人工智能小组、从 Minho 孵化出来的衍生公司 OmniumAI，以及伊比利亚纳米技术实验室 INL）、企业研发（Cegid 在葡萄牙的首个人工智能中心，以及 Bosch 新的 eBike 单元，其防盗软件使用机器学习）、市政府自身对人工智能的使用（与 Hayden AI 合作的公交摄像头试点，以及一个 150 万欧元、把人工智能引入市政管理的项目），以及围绕 Startup Braga 和 InvestBraga 的初创层，后者带了 15 家初创公司参加 Web Summit 2026。与阿尔加维的城镇不同，Braga 不依赖单一机构，我们读到的资料显示这是一个购买并试点人工智能、而不只是举办相关活动的市政府。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Braga's AI activity sits in four places that the sources sho",
+  "ok": false
+ },
+ "4c20ecf29e33e8c3": {
+  "t": "Évora 的人工智能活动分布在三处。Universidade de Évora 开设人工智能与数据科学学位，已为教学中的人工智能制定了自己的规则，并称已建成葡萄牙语模型。阿连特茹科技园 PACT 开展人工智能培训并接纳科技公司。Hospital de Évora 据其卫生单位自述，是葡萄牙第一家使用人工智能系统进行宫颈筛查的公立医院。较新的私人资金也已到来，一家数据中心公司在该市购入了一处 1 MW 的场地。市政府自己的网站上，我们没有读到任何人工智能的使用，所以重心是大学、园区和医院，而不是市政厅。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Évora's AI activity sits in three places. The Universidade d",
+  "ok": false
+ },
+ "4c2d5aebc2b28ff3": {
+  "t": "2025 年 10 月 1 日，INCO Academy 与 Santarém 理工学院的数字素养单位商定开设 NewFutures: AI，在线四周共约 40 学时，设有生成式人工智能核心模块，以及营销、金融和信息通信技术等方向。双方还计划探索建立人工智能实践社群。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "On 1 October 2025 INCO Academy and the digital literacy unit",
+  "ok": false
+ }
+}

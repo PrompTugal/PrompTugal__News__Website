@@ -1,0 +1,50 @@
+{
+ "6304c8d358e1ea1e": {
+  "t": "Nordic Epod 是 CTS Group 与 Eaton 的合资企业，在 2026 年 9 月 4 日前约两周开始运营其新工厂，实行两班制。它制造用于数据中心的大型电气设备，预计扩产后有约 500 个岗位，订单已排到 2027 年 6 月。文章没有提到人工智能。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Nordic Epod, a CTS Group and Eaton venture, began operating ",
+  "ok": false
+ },
+ "6365da11a6beb2f0": {
+  "t": "PrompTugal.news Castro Marim：Castro Marim 的人工智能与科技。这是一座有盐田、位于 Guadiana 边境的小镇，人工智能存在于市政府的规划办公室和盐场里；本站也报道从阿尔加维、葡萄牙和世界传到 Castro Marim 的消息。独立，每个事实都有来源。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Castro Marim: AI and technology in Castro Ma",
+  "ok": false
+ },
+ "6372101a1953abe4": {
+  "t": "里斯本应用人工智能实验室 Augusta Labs 完成首轮融资，规模 5,000 万欧元",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Lisbon applied AI lab Augusta Labs closes its first round at",
+  "ok": false
+ },
+ "639755d2bc9c63be": {
+  "t": "Aljezur 的 freguesia 委员会与 Tecnologias Imaginadas 公司启动了一项 15 人的免费试点，每人配备一台远程关怀设备，包括护士监护、定位、自动跌倒警报和 SOS 按钮。来源没有说明该系统使用人工智能。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Aljezur parish council and the company Tecnologias Imagi",
+  "ok": false
+ },
+ "63c1378d5de86f2e": {
+  "t": "Politécnico de Leiria 带着 20 多个项目前往马德里，其中两个使用人工智能",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Politécnico de Leiria takes more than 20 projects to Madrid,",
+  "ok": false
+ },
+ "63e5eb9a2ca1e1e8": {
+  "t": "PrompTugal.news Portalegre, a nossa capital do Alto Alentejo：Portalegre 的人工智能与科技，以理工学院为大织机，另有从阿连特茹、葡萄牙和世界传来的各类新闻。Independente，每个事实都附有凭证。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Portalegre, a nossa capital do Alto Alentejo",
+  "ok": false
+ }
+}

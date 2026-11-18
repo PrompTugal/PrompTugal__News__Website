@@ -1,0 +1,26 @@
+{
+ "1322e92a2dec1473": {
+  "t": "Quarteira Lab 统计步行者和骑行者，为数据平台提供数据",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Quarteira Lab counts walkers and cyclists to feed a data pla",
+  "ok": false
+ },
+ "13d6f10e2673c99f": {
+  "t": "**本页即数据：**页面上的一切都首先以 JSON 提供，包括报道、人工智能地图、活动、来源、空白、团队和身份；[API 页面]({json})列出了本站及其他站点的所有端点。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This page as data:** everything on it is served as JSON fi",
+  "ok": false
+ },
+ "13e3829c3b71b77d": {
+  "t": "Campo Maior 与 Portalegre 理工学院联合设立数据与人工智能竞争情报中心",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Campo Maior opens a data and AI competitive intelligence cen",
+  "ok": false
+ }
+}

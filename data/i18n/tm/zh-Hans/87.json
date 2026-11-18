@@ -1,0 +1,34 @@
+{
+ "8709611da6ed567d": {
+  "t": "Ora pois，Aljezur：浪比服务器多，风比wi-fi大，可即便如此，还是在望向人工智能。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ora pois, Aljezur: mais ondas do que servidores, mais vento ",
+  "ok": false
+ },
+ "8720c87cfd89ec25": {
+  "t": "Leiria，pá：山上一座城堡，谷里一排模具厂，近来在去市场的路上又添了一间机器人实验室，看来这座城市既会造东西，如今还教它们思考。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Leiria, pá: a castle on the hill, moulds in the valley and, ",
+  "ok": false
+ },
+ "87853f834b85e989": {
+  "t": "这家总部设在科英布拉的软件公司是一个26个成员组成的联合体中唯一的葡萄牙伙伴，将设计一个机器学习运维平台，把人工智能模型接入导弹系统的软件。这个为期三年的项目原定于2025年第四季度启动。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Coimbra-based software company is the only Portuguese pa",
+  "ok": false
+ },
+ "87ff377857174ef8": {
+  "t": "PrompTugal.news Viana do Castelo, a Princesa do Lima：Viana的人工智能与科技，有作为聪明头脑的Politécnico和Data CoLAB，有一座为数据中心嗡嗡运转的崭新工厂，还有从Alto Minho、葡萄牙和世界各地漂来的新闻。Independente，每条事实都有凭据。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Viana do Castelo, a Princesa do Lima: AI and",
+  "ok": false
+ }
+}
