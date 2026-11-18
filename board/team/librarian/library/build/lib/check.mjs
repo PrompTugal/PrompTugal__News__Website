@@ -12,7 +12,7 @@ import { loadDomains, readExists, MARK_BEGIN, MARK_END } from './reality.mjs'
 import { validateShape, checkPresets } from './graph.mjs'
 
 const REGISTER_LIMIT = 4 * 1024 * 1024  // the accession register's own budget (1.8 MB on 12 November, about 0.25 MB a day)
-const SIZE_LIMIT = 14 * 1024 * 1024  // raised from 7 MB (6 November, 16:40) to 12, then to 14 on 10 November, 13:30, only after bulk machine-made board material was described per series that morning: what grows now is real holdings and the pieces' provenance
+const SIZE_LIMIT = 18 * 1024 * 1024  // raised from 7 MB (6 November, 16:40) to 12, to 14 on 10 November, 13:30, then to 18 on 18 November, 09:56 (the restart: every translated place page and each desk's board files are real holdings with a card each; 14.7 MB of 18 on that day), only after bulk machine-made board material was described per series that morning: what grows now is real holdings and the pieces' provenance
 
 export function libraryFiles(libDir) {
   const names = ['accession-register.jsonl', 'cards.json', 'shelf-list.md', 'classification.json', 'README.md', 'index.md', 'reading-room.htm']

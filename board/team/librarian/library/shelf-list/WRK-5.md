@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 5 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T07:00:25Z"
-site_version: "v0.1.1781"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T10:00:29Z"
+site_version: "v0.1.1789"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 5 of 5)
 
-8 cards, from `WRK.TASK brazil-3` to `WRK.TASK external-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+9 cards, from `WRK.TASK brazil-2` to `WRK.TASK external-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
-**Cards 401 to 408**
+**Cards 401 to 409**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.TASK brazil-2` | [brazil-2: Brazilian companies with a LIS26 appearance page](https://promptugal.news/board/tasks/brazil-2.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-3` | [brazil-3: Press releases and posts naming who is coming](https://promptugal.news/board/tasks/brazil-3.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-4` | [brazil-4: State missions: North and Northeast](https://promptugal.news/board/tasks/brazil-4.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-5` | [brazil-5: State missions: Centre-West, Southeast and South](https://promptugal.news/board/tasks/brazil-5.md) | board | correspondent@ 6 Nov 2026 |

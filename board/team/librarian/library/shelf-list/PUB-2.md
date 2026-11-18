@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: PUB, The publication (part 2 of 17)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T07:00:25Z"
-site_version: "v0.1.1781"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T10:00:29Z"
+site_version: "v0.1.1789"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 2 of 17)
 
-100 cards, from `PUB.LIST events` to `PUB.NEWS WS125`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.LIST events` to `PUB.NEWS WK1`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 101 to 125**
 
@@ -120,6 +120,7 @@ source: board/catalogue.json
 | `PUB.NEWS S68` | [S68: Update: the Center for Responsible AI's chief executive gives a status](https://promptugal.news/newsroom/stories/S68/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S69` | [S69: AI physiotherapy in Portugal's health service: what the government says](https://promptugal.news/newsroom/stories/S69/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S7` | [S7: The Portugal banner: awards, funding and the Algarve's plan](https://promptugal.news/newsroom/stories/S7/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
+| `PUB.NEWS S70` | [S70: Update: a 2023 pilot at São João came out of the Center](https://promptugal.news/newsroom/stories/S70/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S8` | [S8: Técnico brings robots and six spin-offs to Web Summit](https://promptugal.news/newsroom/stories/S8/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S9` | [S9: About 200 Brazilian companies come to Lisbon for Web Summit](https://promptugal.news/newsroom/stories/S9/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS T1` | [T1: Angelo's communication graph: watch our agents talk](https://promptugal.news/newsroom/stories/T1/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `PUB.NEWS T4` | [T4: Many agents, one newsroom: how they avoid collisions](https://promptugal.news/newsroom/stories/T4/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS T5` | [T5: Three mistakes our agents made, and the rules they left](https://promptugal.news/newsroom/stories/T5/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS WK1` | [WK1: Plan your week by field: which summit day is yours](https://promptugal.news/newsroom/stories/WK1/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS WS125` | [WS125: Starting with AI agents: a setup guide for everybody else](https://promptugal.news/newsroom/stories/WS125/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-1.md) | [Next part](PUB-3.md)

@@ -29,27 +29,27 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-2611 cards (1854 current, 0 superseded, 757 withdrawn), from the catalogue generated 2026-11-18T07:00:25Z at site v0.1.1781; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+2647 cards (1890 current, 0 superseded, 757 withdrawn), from the catalogue generated 2026-11-18T10:00:29Z at site v0.1.1789; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `DAT.CO` | 120 |
 | `DAT.EV` | 259 |
-| `DAT.ORG` | 492 |
+| `DAT.ORG` | 493 |
 | `DAT.PE` | 295 |
 | `DAT.PL` | 115 |
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 1305 |
+| `PUB.SITE` | 1340 |
 
 Newest five accessions:
 
-- `ACC-20261118-0133` [PrompTugal.news Viseu](https://promptugal.news/zh-Hans/portugal/viseu/) (`PUB.SITE viseu:19`)
-- `ACC-20261118-0132` [PrompTugal.news Vila Real de Santo António](https://promptugal.news/zh-Hans/algarve/vila-real-de-santo-antonio/) (`PUB.SITE vila-real-de-santo-antonio:19`)
-- `ACC-20261118-0131` [PrompTugal.news Vila Real](https://promptugal.news/zh-Hans/portugal/vila-real/) (`PUB.SITE vila-real:19`)
-- `ACC-20261118-0130` [PrompTugal.news Vila do Bispo](https://promptugal.news/zh-Hans/algarve/vila-do-bispo/) (`PUB.SITE vila-do-bispo:18`)
-- `ACC-20261118-0129` [PrompTugal.news Viana do Castelo](https://promptugal.news/zh-Hans/portugal/viana-do-castelo/) (`PUB.SITE viana-do-castelo:19`)
+- `ACC-20261118-0175` [PrompTugal.news Viseu](https://promptugal.news/ja-JP/portugal/viseu/) (`PUB.SITE viseu:20`)
+- `ACC-20261118-0174` [PrompTugal.news Vila Real de Santo António](https://promptugal.news/ja-JP/algarve/vila-real-de-santo-antonio/) (`PUB.SITE vila-real-de-santo-antonio:20`)
+- `ACC-20261118-0173` [PrompTugal.news Vila Real](https://promptugal.news/ja-JP/portugal/vila-real/) (`PUB.SITE vila-real:20`)
+- `ACC-20261118-0172` [PrompTugal.news Vila do Bispo](https://promptugal.news/ja-JP/algarve/vila-do-bispo/) (`PUB.SITE vila-do-bispo:19`)
+- `ACC-20261118-0171` [PrompTugal.news Viana do Castelo](https://promptugal.news/ja-JP/portugal/viana-do-castelo/) (`PUB.SITE viana-do-castelo:20`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

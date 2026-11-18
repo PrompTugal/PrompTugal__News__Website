@@ -26,7 +26,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-1096 cards (1096 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-18T07:00:25Z at site v0.1.1781; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1097 cards (1097 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-18T10:00:29Z at site v0.1.1789; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -36,7 +36,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `GDN.Q` | 13 |
 | `GEN.BOARD` | 33 |
 | `GEN.README` | 1 |
-| `WRK.BRIEF` | 93 |
+| `WRK.BRIEF` | 94 |
 | `WRK.DEC` | 17 |
 | `WRK.DESK` | 22 |
 | `WRK.FIND` | 177 |
@@ -47,11 +47,11 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 
 Newest five accessions:
 
+- `ACC-20261118-0182` [The data site carries everything the Storm site built](https://promptugal.news/board/briefs/2026-11-18-data-site-and-the-storm.md) (`WRK.BRIEF 2026-11-18-data-site-and-the-storm`)
 - `ACC-20261118-0049` [The five sites' teams start on account B, named .b, each with observability; the main site's observability stays on the other account](https://promptugal.news/board/guidance/2026-11-18-five-sites-on-account-b.md) (`GDN.MEMO 2026-11-18-five-sites-on-account-b`)
 - `ACC-20261118-0048` [Hand-over to account B: what conductor.b@ picks up from account A](https://promptugal.news/board/briefs/2026-11-17-handover-to-account-b.md) (`WRK.BRIEF 2026-11-17-handover-to-account-b`)
 - `ACC-20261117-0368` [The five PrompTugal sites: what they share](https://promptugal.news/board/briefs/2026-11-17-the-five-sites.md) (`WRK.BRIEF 2026-11-17-the-five-sites`)
 - `ACC-20261117-0367` [Neighbours of the Algarve's municipalities: a first check (ontologist@, 17 November 2026)](https://promptugal.news/board/briefs/2026-11-17-neighbours-check.md) (`WRK.BRIEF 2026-11-17-neighbours-check`)
-- `ACC-20261117-0360` [The masthead on a phone: every page scrolls sideways since 'Pay for what you read'](https://promptugal.news/board/spec-the-masthead-on-a-phone.md) (`WRK.PLAN spec-the-masthead-on-a-phone`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).
