@@ -2,17 +2,17 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
   "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
-  "updated": "2026-11-18T04:10Z",
-  "reviewed_to": "691a6cda6",
+  "updated": "2026-11-18T06:10Z",
+  "reviewed_to": "21420ce36",
   "hold": false,
   "done": [
-    "16:05 17 Nov: 31 commits clean; pairing dry run live with its CSP; S50 opened (the £5 support button's payment credits another site)",
     "18:05 17 Nov: 36 commits clean; the 56 feed hosts checked against robots.txt (none disallows us); Sul Informação stopped by the desk, with Dinis",
     "20:05 17 Nov: 27 commits clean; 'Since your last visit' keeps the profile in the browser; observability@'s session 2 key in",
     "22:05 17 Nov: 27 commits clean; S69 checked; the 17 Nov hand-over debrief",
     "00:05 18 Nov: 33 commits clean; the hand-over to account B names keys' places, holds none; S51 opened (retroactive charges in the meter); S47 mostly answered",
     "02:05 18 Nov: 30 commits clean; S52 opened (observability@'s session 1 back, key reinstated, schedule on, no guidance record)",
-    "04:05 18 Nov: 26 commits clean; S52 closed (Dinis's word recorded); observability@'s counts checked (no reader identified)"
+    "04:05 18 Nov: 26 commits clean; S52 closed (Dinis's word recorded); observability@'s counts checked (no reader identified)",
+    "06:05 18 Nov: 21 commits clean, a quiet night"
   ],
   "next": [
     "post-review the outbox's internal test messages (O2 to O7) when they exist",

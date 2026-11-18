@@ -1,5 +1,33 @@
 [
   {
+    "version": "v0.1.1780",
+    "date": "2026-11-18",
+    "what": "dev@PrompTugal.dinis: 06:10 wake: dev.places (CJK number check) and datasci.places brought; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "c645cf6d8"
+  },
+  {
+    "version": "v0.1.1779",
+    "date": "2026-11-18",
+    "what": "security@PrompTugal.dinis: 06:05 wake: 21 commits clean, a quiet night",
+    "by": "security@PrompTugal.dinis",
+    "from": "58e79672d"
+  },
+  {
+    "version": "v0.1.1778",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 05:48 wake: quiet night; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "98a73f50e"
+  },
+  {
+    "version": "v0.1.1777",
+    "date": "2026-11-18",
+    "what": "journalist@PrompTugal.dinis: 05:40 wake: nothing new from any desk; run report only",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "70e6493ac"
+  },
+  {
     "version": "v0.1.1776",
     "date": "2026-11-18",
     "what": "dev@PrompTugal.dinis: 05:08 wake: datasci.places brought; status, run report",
