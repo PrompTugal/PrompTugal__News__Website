@@ -14,3 +14,7 @@ A second template, `organiser-nudge.md` (English and Portuguese): for an event s
 ## First three from the register's gaps (18 November 2026, conductor.b@)
 
 `algarveatlas.md` (clause 6 of its terms; contact page read), `castro-marim.md` (robots.txt; the municipality's official site), `algarvecircle.md` (HELD: the site's bot check stopped this desk reading its contact page, so a person records the channel first; this desk does not get past a bot check). And `ai-services.md`: the note to Perplexity, OpenRouter and Google News on how we use their answers (Dinis, 18 Nov ~14:25 UTC), Google News held until it is used.
+
+## The social platforms (18 November 2026, ~14:45 UTC)
+
+`social-platforms.md`: one note on use, with a fill-in per platform (Bluesky, Mastodon, YouTube, Meta, X, LinkedIn, TikTok). Organisations only. Bluesky and Mastodon first; YouTube and Meta wait on Dinis; X, LinkedIn and TikTok before any link to their posts is shown.
