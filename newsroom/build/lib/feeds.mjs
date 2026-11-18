@@ -21,7 +21,12 @@ export function feedFiles({ dir, base, title, description, home, items, language
             date_published: iso(i.date), authors: i.author ? [{ name: i.author }] : undefined, tags: i.tags && i.tags.length ? i.tags : undefined,
             _promptugal: { kind: i.kind, ...(i.via ? { via: i.via } : {}) },
             // every item's licence (Dinis, 18 Nov): ours for our articles, the source's for what it reported
-            _license: i.kind === 'article' ? ours() : (licenceOf(i.url) || ours()) })),
+            _license: i.kind === 'article' ? ours() : (licenceOf(i.url) || ours()),
+            // and its provenance (Dinis, 18 Nov 19:00): the caller's when it has one; else our article's twin and
+            // signature, or the story's own page and who reported it
+            _provenance: i.provenance || (i.kind === 'article'
+                ? { written_by: i.author || null, published: String(i.date).slice(0, 10), file: i.url.replace(/\.html$/, '.md'), signature: i.url.replace(/\.html$/, '.md.sig'), kind: 'article' }
+                : { source_url: i.url, publisher: i.author || null, published: String(i.date).slice(0, 10), ...(i.via ? { file: i.via } : {}), kind: i.kind || 'story' }) })),
         _license: { ...ours(), scope: 'the feed and our articles; each item carries its own license' },
     }
     const rss = `<?xml version="1.0" encoding="UTF-8"?>

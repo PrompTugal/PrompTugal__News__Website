@@ -478,7 +478,9 @@
     "18 Nov: cm-loule.pt news opened (first 100k chars): only Som Riscado AI piano (held) and GIS Day (no AI). Barlavento 18 Nov kickboxing and Postal Best Number One items have no AI link.",
     "18 Nov: cm-loule.pt/pt/noticias.aspx returned 404. Barlavento 16 Nov Naturmaris animal supplements prize in Loule has no AI link in what was read, not added.",
     "Barlavento 16 Nov Naturmaris item opened: no AI mention, rejected.",
-    "cm-loule.pt news page: only 100000 of 120218 characters read; only known Som Riscado AI piano item (already in file) and a GIS Day for schools (18 Nov, GeoLoule mapping, no AI, rejected)."
+    "cm-loule.pt news page: only 100000 of 120218 characters read; only known Som Riscado AI piano item (already in file) and a GIS Day for schools (18 Nov, GeoLoule mapping, no AI, rejected).",
+    "postal.pt/algarve 18 Nov Loulé arrest story has no AI link; skipped.",
+    "cm-loule.pt/pt/noticias opened: 5 news items plus 10 highlights, no dates shown, newest id 64925 (kickboxing title); only AI item is the Som Riscado piano one already in the file; GIS Day item (18 Nov) is mapping, no AI stated; final 20k characters of page not read."
   ],
   "voice": {
     "lede": "Oi, pá! Loulé, where the market has domes and the council has algorithms.",

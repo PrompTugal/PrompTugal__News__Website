@@ -53,3 +53,6 @@ LD1 and LD2 are now a PT decision page, `/newsroom/design/decisions/the-home-liv
 
 ## Checked 18 Nov, 02:45 UTC (v0.1.1767)
 The five sites' band under the masthead (conductor@, 5525d8ae7) reads well at 1280 and 390, and pages fit. LD1 still open: the lead's right half is empty on a desktop; the live line is still one small line. LD2 still fails: the live line links `api.ipma.pt/.../observations.json`, `.../warnings_www.json` and `api.adsb.lol`, 40 hours after Dinis asked (sent to dev.places@ on its lane). A wording slip in the live line: "Faro airport: 1 airline flights near" (singular when 1).
+
+## Checked 18 Nov, 18:50 UTC (v0.1.1818)
+dev@'s 2589626c5: the town band now refreshes live from data.promptugal.news, the built lines as fallback; on Faro the band reads current (20.9 °C, read this hour) and links no JSON (0 `.json` links in `.bp-nowband`). LD3 and LD4 look unchanged; LD1 and LD2 on the home page not re-checked this wake.
