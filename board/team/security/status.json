@@ -2,17 +2,17 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
   "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
-  "updated": "2026-11-18T22:10Z",
-  "reviewed_to": "63f67196b",
+  "updated": "2026-11-18T22:20Z",
+  "reviewed_to": "117b76c91",
   "hold": false,
   "done": [
-    "16:05 18 Nov: hourly sweep of all nine repositories (tools/sweep.sh): clean; two organisations' published addresses",
     "17:05 18 Nov: hourly sweep of nine repositories clean; Civic's live table built safely; the library's request closed",
     "18:05 18 Nov: hourly sweep clean; S69 opened (now-live.js sets href from another site's API unchecked)",
     "19:05 18 Nov: hourly sweep clean; Live repository added (clean); camera embeds pre-reviewed (K1 to K5: click to load, sandboxed operator iframes, no recording)",
     "20:05 18 Nov: hourly sweep clean; live.promptugal.news's first version meets K1 to K5, gate-enforced",
     "21:05 18 Nov: hourly sweep clean; Cyber and Bulletins added (full history clean); Cyber's threat models meet the limits for advisories, C1 and C4 to add before exposure data",
-    "22:05 18 Nov: hourly sweep clean; Bulletins' collector read (clean)"
+    "22:05 18 Nov: hourly sweep clean; Bulletins' collector read (clean)",
+    "22:15 18 Nov: the sites bar pre-reviewed (B1 to B8: registry as checked data, exact host check, textContent, previews as img only, build-time copy, vendored and pinned, no cross-site scripts, one registry writer)"
   ],
   "next": [
     "each wake: new commits in all eight repositories (heads in repo_heads)",
@@ -23,7 +23,8 @@
     "post-review the first events collection run and page against E1 to E7",
     "review /payments/simulated/ when built: nothing about the reader leaves the browser",
     "each wake: read https://library.promptugal.news/api/v1/requests/security-at-promptugal.dinis.json and answer",
-    "Cyber: C1 and C4 in the threat model before any exposure or incident source"
+    "Cyber: C1 and C4 in the threat model before any exposure or incident source",
+    "post-review dev@'s sites bar and its first two installs against B1 to B8"
   ],
   "findings_open": {
     "S2": "decided: rotate now (observability@)",
