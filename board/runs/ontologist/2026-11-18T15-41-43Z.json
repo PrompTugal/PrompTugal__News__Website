@@ -1,0 +1,101 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "ontologist@PrompTugal.dinis",
+ "run": "2026-11-18T15-41-43Z",
+ "started": "2026-11-18T15:41:43.155Z",
+ "ended": "2026-11-18T15:56:23Z",
+ "line": "",
+ "policy": {
+  "version": "1.15.2",
+  "sha256": "f889a86033a7c585"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T15:43:08.614Z",
+   "chars": 469,
+   "sha256": "a6930e4e4eec78be",
+   "head": "<task-notification>\n<task-id>babnjozg6</task-id>\n<tool-use-id>toolu_01PEre7xPupTs8HRkEY7psP2</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/445d920f-1516-57c9-8358-2a32b"
+  },
+  {
+   "t": "2026-11-18T15:44:44.966Z",
+   "chars": 1176,
+   "sha256": "943fccc4a73cfd50",
+   "head": "<task-notification>\n<task-id>bbtbr3k7c</task-id>\n<tool-use-id>toolu_01KZRazmw1f4DYdMbiqpwUXV</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/445d920f-1516-57c9-8358-2a32b"
+  },
+  {
+   "t": "2026-11-18T15:53:24.715Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-18T15:53:24.411Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 10,
+  "by_kind": {
+   "other": 2,
+   "web": 2,
+   "send": 2,
+   "shell": 2,
+   "git": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R7": 2
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 8,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-18T15:53:52.552Z",
+    "tool": "Bash",
+    "rule": "R7",
+    "what": "curl sends data to www.wikidata.org: sends only to dev.send.sgraph.ai, openrouter.ai",
+    "target": "cd /tmp && for q in \"Web Summit\" \"Lisbon\" \"Portugal\" \"MEO Arena\" \"Feira Internacional de Lisboa\"; do echo \"== $q\"; curl -sS -m 20 -G \"https://www.wikidata.org/w/api.php\" --data-urlencode \"action=wbsearchentities\" --data-urlencode \"search=$q"
+   },
+   {
+    "t": "2026-11-18T15:53:57.198Z",
+    "tool": "Bash",
+    "rule": "R7",
+    "what": "curl sends data to www.wikidata.org: sends only to dev.send.sgraph.ai, openrouter.ai",
+    "target": "cd /tmp && curl -sS -m 20 -G \"https://www.wikidata.org/w/api.php\" --data-urlencode \"action=wbsearchentities\" --data-urlencode \"search=Web Summit\" --data-urlencode \"language=en\" --data-urlencode \"format=json\" -A \"PrompTugalNewsBot/1.0\" -w \"\\"
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 10,
+  "in_mandate": 8,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 0
+ }
+}

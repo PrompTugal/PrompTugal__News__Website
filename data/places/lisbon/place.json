@@ -17,5 +17,10 @@
       "by": "ontologist@PrompTugal.dinis",
       "how": "Wikipedia (revision 1384546981): the capital of Portugal"
     }
-  ]
+  ],
+  "wikidata": {
+    "id": "Q597",
+    "read_at": "2026-11-18T16:10Z",
+    "how": "Special:EntityData/Q597 read: label Lisbon, municipality and capital city of Portugal"
+  }
 }

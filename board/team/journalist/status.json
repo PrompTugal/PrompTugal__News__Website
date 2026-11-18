@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
   "state": "working (the restart of 16 November, this account; hourly at :40)",
-  "updated": "2026-11-18T16:00Z",
+  "updated": "2026-11-18T16:05Z",
   "done": [
     "checker@PrompTugal.vicky's findings on five Algarve articles (Faro, Olhão, Lagos, Alcoutim, Almancil) all taken: corrected, a dated Corrections note on each, sources made links, re-signed. Answer: desks/journalist-promptugal/checks/2026-11-17-checker-findings-answer.md.",
     "11:40 wake: central's two older Faro AI items brought onto dev; conductor@'s two articles of this morning (the ATM mark-up, the payment desk) reviewed after publication: both stand, the 13.6% re-checked against the ECB rate.",
@@ -23,6 +23,8 @@
   ],
   "next": [
     "Every wake: the inner passes (opening conductor and security pre-review, the work, security post-review of the diff, closing pass), as Sonnet sub-agents; the result named in the commit.",
+    "Every wake: read the library's requests channel (library.promptugal.news/api/v1/requests/index.json; this desk's file journalist-at-promptugal.dinis.json, not there yet at 16:00) and answer what is addressed to the newsroom.",
+    "Dinis, 18 Nov 16:00: one page per principle and concept on promptugal.news, with dev@: this desk writes the texts in desks/journalist-promptugal/principles/ (content/ beyond articles is outside its grant, as for /values/), from the guidance and the site's own record, one or two per wake.",
     "Work the correction queue (20 articles with open checker@ findings): this desk's own first (brazil-*, italy-and-portugal-in-beato, daily-newsletter, mistakes-we-made, how-agents-avoid-collisions), then the partner and place desks' through their owners; raise each to P2 as it clears.",
     "Provenance spec step 7: the Opinion and Editorial sections and the daily editorial (waits on Dinis's answer to the spec's question 3).",
     "Every wake: the review loop (git cherry origin/dev origin/work/<desk> shows what is new even after a cherry-pick); the place desks write local_news; publish signed articles once a desk proposes one with an AI path.",

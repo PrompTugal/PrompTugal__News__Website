@@ -1,0 +1,42 @@
+{
+ "df09dbbb93e6a84c": {
+  "t": "مجموعة مستشفيات Viseu تشتري أجهزة تصوير ممولة من PRR تتضمن الذكاء الاصطناعي حيثما ينطبق",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Viseu hospital group buys PRR-funded scanners that include A",
+  "ok": false
+ },
+ "df2d4bd6a5812b21": {
+  "t": "Critical Software من كويمبرا تبني منصة الذكاء الاصطناعي لمشروع صواريخ أوروبي",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Critical Software of Coimbra builds the AI platform for a Eu",
+  "ok": false
+ },
+ "df3370ad9243e3fb": {
+  "t": "يبني المختبر حلول ذكاء اصطناعي مخصصة للشركات الكبرى وشركات الأسهم الخاصة والوكالات الحكومية. ولم يُكشف عن حجم الجولة.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The lab builds custom AI solutions for large companies, priv",
+  "ok": false
+ },
+ "dfd17296d59d381a": {
+  "t": "PrompTugal.news Santarém: الذكاء الاصطناعي والتقنية في Santarém، عاصمة منطقة على Tejo مركز ثقلها علوم الأغذية الزراعية وCampus Tejo الجديد، وما يصل إلى Santarém من البرتغال وأوروبا والعالم. مستقل؛ وكل معلومة موثقة بمصدرها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Santarém: AI and technology in Santarém, a d",
+  "ok": false
+ },
+ "dff763ff9196306b": {
+  "t": "في 28 يونيو 2024 عرض المقاول Softinsa، التابعة لـ IBM، على البلدية نتائج إثبات مفهوم لمدة ستة أسابيع باستخدام منصة IBM watsonx على أكثر من 4,000 بريد إلكتروني شهرياً تتلقاها البلدية، لتوجيهها إلى الخدمة المناسبة. أقدم من بنود 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "On 28 June 2024 the contractor Softinsa, an IBM subsidiary, ",
+  "ok": true
+ }
+}

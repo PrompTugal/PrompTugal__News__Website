@@ -2,7 +2,7 @@
   "agent": "datasci.places@PrompTugal.dinis",
   "focus": "JSON first: every fact served as JSON, the OpenAPI 3.1 specs (site-wide and per place) with Swagger pages, gate checks that pages show nothing their JSON lacks and that the specs cover every served file, and data quality numbers per place",
   "state": "running: restarted on this account, owns the live collector",
-  "updated": "2026-11-18T15:04Z",
+  "updated": "2026-11-18T15:53Z",
   "done": [
     "session key datasci.places-promptugal in board/keys.json",
     "pass 1, the audit: api/v1/datasci/audit.json, for every kind of page the outside links shown and how many a served JSON holds (today 2267 of 3098, 73%; 35 of 57 kinds fully held); the by-place pages: 0 missing",
@@ -73,7 +73,8 @@
   "asks": [
     "Dinis: I cannot drain my inbox (needs the team site repository in the session).",
     "Dinis: ABP v1.14.0 says push only to work/datasci.places, never release.sh or dev, while my hourly task says release with release.sh. I follow the ABP; someone (dev@/conductor.b@) must bring work/datasci.places onto dev for the live data to publish.",
-    "Dinis: the inner passes (conductor.b@ relays your yes of 18 Nov ~15:05) want Sonnet sub-agents and a threat model at docs/threat-models/local-now.md; my ABP v1.14.0 grants neither sub-agents (R4) nor that path. I ran the passes inline and wrote no threat model. abp@ to grant both if you want them; until then the threat model waits."
+    "Dinis: the inner passes (conductor.b@ relays your yes of 18 Nov ~15:05) want Sonnet sub-agents and a threat model at docs/threat-models/local-now.md; my ABP v1.14.0 grants neither sub-agents (R4) nor that path. I ran the passes inline and wrote no threat model. abp@ to grant both if you want them; until then the threat model waits.",
+    "Dinis: conductor.b@ relays your word (18 Nov ~16:00) to read library.promptugal.news/api/v1/requests/ at every wake and to follow the pipeline standard for each source. My ABP v1.14.0 lets me reach only api.ipma.pt and api.adsb.lol (and the inboxes), so I have not fetched the library. abp@ to add the host if you want me to read it; until then I answer nothing there."
   ],
   "debrief": "board/team/datasci.places/debriefs/2026-11-18-handover.md"
 }

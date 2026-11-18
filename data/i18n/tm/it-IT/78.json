@@ -13,7 +13,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "Starting a company in {name}",
-  "ok": false
+  "ok": true
  },
  "78dc9cc4a08684d2": {
   "t": "Le startup in fase iniziale che sviluppano o usano intensivamente l'IA potevano candidarsi all'incubazione da aprile a settembre 2026, con supporto tecnico sull'IA e mentoring. Il Portogallo partecipa tramite la FCT e il Centro Nazionale di Calcolo Avanzato.",

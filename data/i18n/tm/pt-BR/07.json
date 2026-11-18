@@ -8,12 +8,13 @@
   "ok": false
  },
  "073509dba418fb61": {
-  "t": "O projeto Modernização e Digitalização da câmara municipal foi aprovado no Algarve 2030 em 27 de agosto de 2026 e o termo de aceitação foi assinado em 16 de setembro. O investimento elegível é de 456181,74 euros, com 273709,04 euros do FEDER. Cobre infraestrutura digital e cibersegurança, processos internos digitalizados, serviços públicos online, sistemas interoperáveis e formação de pessoal, com prazo até 30 de junho de 2028.",
+  "t": "O projeto Modernização e Digitalização da câmara municipal foi aprovado no Algarve 2030 em 27 de agosto de 2026 e o termo de aceitação foi assinado em 16 de setembro. O investimento elegível é de 456.181,74 euros, com 273.709,04 euros do FEDER. Cobre infraestrutura digital e cibersegurança, processos internos digitalizados, serviços públicos online, sistemas interoperáveis e formação de pessoal, com prazo até 30 de junho de 2028.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The council's Modernizacao e Digitalizacao project was appro",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  },
  "07956e0d07aee6b0": {
   "t": "Mais dez empresas brasileiras entram no Cais do Porto, em Aveiro, quatro delas com produtos de IA",

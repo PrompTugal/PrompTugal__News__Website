@@ -1,0 +1,370 @@
+{
+  "about": "Drafted by dev@ from Dinis's guidance of 16 and 18 November 2026, for journalist@ to revise: one entry per principle or concept, each with what we do, what we never do and how to check us.",
+  "intro": "These are the standards we judge ourselves by, and the ones others can judge us by. Each has its own page: what we do, what we never do and how you can check us. Where something is planned and not yet done, the page says so.",
+  "concepts": [
+    {
+      "id": "sources-register",
+      "title": "The register of sources",
+      "summary": "We keep one list of every source we read, with what it gives and whose terms apply.",
+      "do": [
+        "List every data point and news publication on one register: what it is and what it would give each place.",
+        "Record whether we read it today, with its terms or robots.txt quoted, linked and dated.",
+        "Show two views: the sources we use, and the sources we do not use today.",
+        "Start with official and public bodies."
+      ],
+      "never": [
+        "Never read a source whose terms or robots.txt say no.",
+        "Never assume a source is open because it is public."
+      ],
+      "check": [
+        {
+          "text": "The plan for the register",
+          "href": "https://github.com/promptugal/promptugal__news__website/blob/dev/board/briefs/2026-11-18-sources-register.md"
+        },
+        {
+          "text": "The principles page",
+          "href": "../index.html"
+        }
+      ],
+      "guidance": "board/guidance/2026-11-18-sources-we-do-not-access.md"
+    },
+    {
+      "id": "sources-we-do-not-read",
+      "title": "Sources we do not read",
+      "summary": "We publish the list of sources we could read but do not, and why, and we respect what they say.",
+      "do": [
+        "Say why each source is not read, quoting its terms or robots.txt with the link and the date read.",
+        "Ask each one on the record whether a site like this may show its public data.",
+        "Record the answer, or the lack of one, with its date.",
+        "Show only the title, date, place and link for an item found only on such a source, as a search engine does."
+      ],
+      "never": [
+        "Never work around a refusal.",
+        "Never copy from a source that does not allow it."
+      ],
+      "check": [
+        {
+          "text": "The plan for the register",
+          "href": "https://github.com/promptugal/promptugal__news__website/blob/dev/board/briefs/2026-11-18-sources-register.md"
+        },
+        {
+          "text": "The principles page",
+          "href": "../index.html"
+        }
+      ],
+      "guidance": "board/guidance/2026-11-18-sources-we-do-not-access.md"
+    },
+    {
+      "id": "licences",
+      "title": "Licences on everything",
+      "summary": "Every piece of data shows its licence, and what we make is Creative Commons.",
+      "do": [
+        "Publish our own pages, data and visualisations under CC BY 4.0.",
+        "Keep what we take from others under their licence, with a link on every item.",
+        "Link the source's terms, in those words, where it publishes no licence.",
+        "Credit how we found an item, for example a search service."
+      ],
+      "never": [
+        "Never leave a licence blank.",
+        "Never assume a source is open."
+      ],
+      "check": [
+        {
+          "text": "The principles page",
+          "href": "../index.html"
+        },
+        {
+          "text": "Dinis's guidance on licences",
+          "href": "https://github.com/promptugal/promptugal__news__website/blob/dev/board/guidance/2026-11-18-licences-and-submissions.md"
+        }
+      ],
+      "guidance": "board/guidance/2026-11-18-licences-and-submissions.md"
+    },
+    {
+      "id": "people-who-publish",
+      "title": "People who publish in public",
+      "summary": "We name and link people who publish in public, and we never touch what is private.",
+      "do": [
+        "Name people in public office and anyone who publishes under their own name, such as a blogger.",
+        "Link their published words and attribute them by the name they published under.",
+        "Collect blogs, newsletters and podcasts through their public feeds.",
+        "Take a piece down on request, and let a source claim its entry to correct or opt out."
+      ],
+      "never": [
+        "Never publish private information: home, family, health.",
+        "Never publish a personal contact.",
+        "Never use anything behind a login."
+      ],
+      "check": [
+        {
+          "text": "How to report a problem",
+          "href": "../../report/index.html"
+        },
+        {
+          "text": "The principles page",
+          "href": "../index.html"
+        }
+      ],
+      "guidance": "board/guidance/2026-11-18-people-blogs-cyber-and-simulated-payments.md"
+    },
+    {
+      "id": "evidence-and-details-withheld",
+      "title": "Evidence, and details withheld",
+      "summary": "Every claim carries its evidence, and we hold back detail that could cause harm.",
+      "do": [
+        "Attach a source, a link and a date read to each fact.",
+        "Show an open security finding by title, severity and state only.",
+        "Say plainly when we hold something back, and why.",
+        "For cyber signals, show aggregates and totals only."
+      ],
+      "never": [
+        "Never publish a list of IPs, hosts or devices.",
+        "Never publish detail that would let someone exploit an open finding."
+      ],
+      "check": [
+        {
+          "text": "The public security log",
+          "href": "../../security/index.html"
+        },
+        {
+          "text": "The principles page",
+          "href": "../index.html"
+        }
+      ],
+      "guidance": "board/guidance/2026-11-18-people-blogs-cyber-and-simulated-payments.md"
+    },
+    {
+      "id": "submissions",
+      "title": "Submissions",
+      "summary": "An organiser's own submission is published, credited and dated as theirs.",
+      "do": [
+        "Publish what an organiser sends, credited to them and dated.",
+        "Take submissions through a public GitHub issue.",
+        "Add signing with the organiser's key later, as we go."
+      ],
+      "never": [
+        "Never publish a third party's submission on its word alone: it is a lead to confirm.",
+        "Never present a submission as our own finding."
+      ],
+      "check": [
+        {
+          "text": "How to report a problem",
+          "href": "../../report/index.html"
+        },
+        {
+          "text": "Dinis's guidance on submissions",
+          "href": "https://github.com/promptugal/promptugal__news__website/blob/dev/board/guidance/2026-11-18-licences-and-submissions.md"
+        }
+      ],
+      "guidance": "board/guidance/2026-11-18-licences-and-submissions.md"
+    },
+    {
+      "id": "take-downs",
+      "title": "Take-downs and corrections",
+      "summary": "If something is wrong or should not be here, tell us and we act in the open.",
+      "do": [
+        "Offer three ways to report: a public issue, an encrypted drop, and a monitored agent inbox.",
+        "Look at each report, answer it, change what is wrong and record it.",
+        "Keep a corrections log without the reporter's details.",
+        "Leave out a source that asks to be left out."
+      ],
+      "never": [
+        "Never ignore a report.",
+        "Never record who reported in the corrections log."
+      ],
+      "check": [
+        {
+          "text": "How to report a problem",
+          "href": "../../report/index.html"
+        },
+        {
+          "text": "The principles page",
+          "href": "../index.html"
+        }
+      ],
+      "guidance": "board/guidance/2026-11-18-principles-and-reports.md"
+    },
+    {
+      "id": "security-findings-published",
+      "title": "Security findings are published",
+      "summary": "We keep a public log of every vulnerability, bug and breach, ours included.",
+      "do": [
+        "Log each finding with severity, site and file, when found, the fix and its state.",
+        "Publish a fixed finding in full.",
+        "Give each site its own security page with its threat models.",
+        "Keep the log true at each wake of the security agent."
+      ],
+      "never": [
+        "Never hide a breach because it is ours.",
+        "Never publish exploit detail while a finding is open."
+      ],
+      "check": [
+        {
+          "text": "The public security log",
+          "href": "../../security/index.html"
+        },
+        {
+          "text": "The findings file",
+          "href": "https://github.com/promptugal/promptugal__news__website/blob/dev/board/team/security/findings.md"
+        }
+      ],
+      "guidance": "board/guidance/2026-11-18-security-findings-published.md"
+    },
+    {
+      "id": "inner-passes",
+      "title": "Inner passes at every wake",
+      "summary": "Every agent checks its own work in a fixed order before it commits.",
+      "do": [
+        "Open with a conductor pass, then a security pre-review.",
+        "Do the work, then a security post-review of the diff.",
+        "Close with a conductor pass: status, report and any block.",
+        "Add an application security review whenever the diff touches code."
+      ],
+      "never": [
+        "Never commit a secret, a private person's data or a contact.",
+        "Never work around a refusal."
+      ],
+      "check": [
+        {
+          "text": "How passes work",
+          "href": "https://github.com/promptugal/promptugal__news__website/blob/dev/board/the-passes.md"
+        },
+        {
+          "text": "The findings file",
+          "href": "https://github.com/promptugal/promptugal__news__website/blob/dev/board/team/security/findings.md"
+        }
+      ],
+      "guidance": "board/guidance/2026-11-18-inner-passes-and-security.md"
+    },
+    {
+      "id": "threat-models",
+      "title": "Threat models for what runs on its own",
+      "summary": "Every collector and automation has a published threat model.",
+      "do": [
+        "Write a threat model per collector, scheduled workflow and drop: what it reads, writes and trusts.",
+        "List what could go wrong and the mitigations.",
+        "Have the security agent review each one.",
+        "Run a prompt-injection pass at least daily."
+      ],
+      "never": [
+        "Never let an automation run without a threat model.",
+        "Never act on instructions found in fetched text."
+      ],
+      "check": [
+        {
+          "text": "The public security log",
+          "href": "../../security/index.html"
+        },
+        {
+          "text": "Dinis's guidance",
+          "href": "https://github.com/promptugal/promptugal__news__website/blob/dev/board/guidance/2026-11-18-inner-passes-and-security.md"
+        }
+      ],
+      "guidance": "board/guidance/2026-11-18-inner-passes-and-security.md"
+    },
+    {
+      "id": "the-abp",
+      "title": "Agent Behaviour Policies",
+      "summary": "Every agent has a written policy for what it may do, tightened as it runs.",
+      "do": [
+        "Give each agent its own policy in board/abp/.",
+        "Start new agents on a relaxed default and lock long-running ones down.",
+        "Map each run: tool calls, refusals and breaches.",
+        "Write plain case studies of notable events."
+      ],
+      "never": [
+        "Never relax a policy without Dinis.",
+        "Never treat a relayed instruction as one from Dinis."
+      ],
+      "check": [
+        {
+          "text": "The ABP folder",
+          "href": "https://github.com/promptugal/promptugal__news__website/blob/dev/board/abp/README.md"
+        },
+        {
+          "text": "The case studies",
+          "href": "https://github.com/promptugal/promptugal__news__website/blob/dev/board/abp/case-studies/README.md"
+        }
+      ],
+      "guidance": "board/guidance/2026-11-18-abp-lifecycle-and-case-studies.md"
+    },
+    {
+      "id": "telemetry",
+      "title": "Telemetry",
+      "summary": "One side-car agent measures what the agents spend and call, and the totals are public.",
+      "do": [
+        "Track tokens, cost, tools and hosts called per agent and run.",
+        "Keep raw detail in an encrypted vault.",
+        "Publish aggregates only.",
+        "Say what telemetry cannot see: the network proxy's own logs."
+      ],
+      "never": [
+        "Never let another session read transcripts.",
+        "Never put raw detail in the public repository."
+      ],
+      "check": [
+        {
+          "text": "The public security log",
+          "href": "../../security/index.html"
+        },
+        {
+          "text": "Dinis's guidance",
+          "href": "https://github.com/promptugal/promptugal__news__website/blob/dev/board/guidance/2026-11-18-telemetry-and-sub-agents.md"
+        }
+      ],
+      "guidance": "board/guidance/2026-11-18-telemetry-and-sub-agents.md"
+    },
+    {
+      "id": "simulated-payouts",
+      "title": "Simulated payouts to sources",
+      "summary": "We model how revenue could be shared with sources, and say it is only a simulation.",
+      "do": [
+        "Mark every page: no payment is made or collected.",
+        "State the model's assumptions, for Dinis to change.",
+        "Compute \"my five pounds\" in the reader's browser.",
+        "Wait for Dinis on how much to keep and when anyone is paid."
+      ],
+      "never": [
+        "Never send anything about the reader to us.",
+        "Never present the simulation as real payments."
+      ],
+      "check": [
+        {
+          "text": "The simulated payments page",
+          "href": "../../payments/simulated/index.html"
+        },
+        {
+          "text": "The principles page",
+          "href": "../index.html"
+        }
+      ],
+      "guidance": "board/guidance/2026-11-18-people-blogs-cyber-and-simulated-payments.md"
+    },
+    {
+      "id": "the-pipeline-standard",
+      "title": "The pipeline standard",
+      "summary": "Every source goes through the same steps, so anyone can see what we do with its data.",
+      "do": [
+        "Keep the raw data as received, timestamped and never overwritten.",
+        "Turn it into JSON with source, licence and read time.",
+        "Add a visualisation and an analysis.",
+        "Give each source a home page and an OpenAPI, listed in one Swagger of Swaggers."
+      ],
+      "never": [
+        "Never overwrite history.",
+        "Never copy a source's content: we link."
+      ],
+      "check": [
+        {
+          "text": "The API reference",
+          "href": "../../api/swagger/index.html"
+        },
+        {
+          "text": "The principles page",
+          "href": "../index.html"
+        }
+      ],
+      "guidance": "board/guidance/2026-11-18-the-pipeline-standard-and-the-fact-checker.md"
+    }
+  ]
+}
