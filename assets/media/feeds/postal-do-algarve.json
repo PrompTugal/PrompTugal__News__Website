@@ -1,13 +1,8 @@
 {
  "id": "postal-do-algarve",
  "feed": "https://postal.pt/feed/",
- "read_at": "2026-11-18T15:15Z",
+ "read_at": "2026-11-18T15:05Z",
  "items": [
-  {
-   "title": "O novo Deus e os seus Sacerdotes &#124; Por Luís Ganhão",
-   "link": "https://postal.pt/opiniao/o-novo-deus-e-os-seus-sacerdotes-por-luis-ganhao/",
-   "date": "2026-11-18"
-  },
   {
    "title": "Portimão pode consagrar Marc Márquez campeão mundial de MotoGP já no sábado",
    "link": "https://postal.pt/algarve/portimao-pode-consagrar-marc-marquez-campeao-mundial-de-motogp-ja-no-sabado/",
@@ -26,6 +21,11 @@
   {
    "title": "Faro recebe torneio solidário de padel para apoiar a luta contra o cancro infantil",
    "link": "https://postal.pt/algarve/faro-recebe-torneio-solidario-de-padel-para-apoiar-a-luta-contra-o-cancro-infantil/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Medicamentos até 5 euros podem ficar mais caros em 2027: nova portaria já foi publicada",
+   "link": "https://postal.pt/saude/medicamentos-ate-5-euros-podem-ficar-mais-caros-em-2027-nova-portaria-ja-foi-publicada/",
    "date": "2026-11-18"
   }
  ]

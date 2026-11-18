@@ -1,0 +1,74 @@
+{
+ "3851d984faf9d02a": {
+  "t": "مشروع CitiLink في Porto، ذكاء اصطناعي يهيكل محاضر اجتماعات المجالس البلدية، يفوز بجائزة وطنية",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Porto's CitiLink project, AI that structures council meeting",
+  "ok": false
+ },
+ "3856b4c778bcdc4a": {
+  "t": "PrompTugal.news Portimão: الذكاء الاصطناعي والتكنولوجيا في Portimão، مجلس وشركة مياه توظفان الذكاء الاصطناعي في الخدمات العامة، وحاضنة مدينة ذكية ومعهد تعليم عالٍ خاص، وما يصل إلى Portimão من Algarve والبرتغال والعالم. مستقل؛ كل واقعة موثّقة بمصدرها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Portimão: AI and technology in Portimão, a c",
+  "ok": false
+ },
+ "3857de4a8f72f925": {
+  "t": "UNIPS، أي Universidade Politécnica de Setúbal كما تسميها الصحيفة، انضمت إلى شبكة GeSI وDEFIA Portugal بقيادة جامعة Coimbra، التي أُطلقت في 15 October 2026، وتهدف إلى استخدام مسؤول للذكاء الاصطناعي ومحو الأمية في الذكاء الاصطناعي في التعليم العالي. ومثّلها محاضر علوم حاسوب في مدرستها التقنية.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "UNIPS, the Universidade Politécnica de Setúbal as the paper ",
+  "ok": false
+ },
+ "385da7e88a11498d": {
+  "t": "جمعية الأطفال في Vila Real تناقش الذكاء الاصطناعي",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Vila Real's children's assembly debates AI",
+  "ok": false
+ },
+ "38726af755a9041b": {
+  "t": "**هوية هذا الموقع:** {key} في [board/keys.json]({keys}); تعذّر التحقق من التوقيع على `{file}`.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "38818d41208825e0": {
+  "t": "يركّب المجلس واي فاي مجانيًا و16 جهاز مراقبة لتدفق المشاة في المركز التاريخي، تتبعها أعمدة حماية وأكشاك معلومات، ضمن حي المتاجر الرقمي الممول من PRR بنحو 895 ألف يورو والذي يستهدف نحو 200 نشاط تجاري. تعطي العدّادات إحصاءات فقط ولا تلتقط صورة أو فيديو أو صوتًا. ويسرد سوق إلكتروني بالفعل أكثر من مئة نشاط تجاري.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council is installing free Wi-Fi and 16 pedestrian flow ",
+  "ok": false
+ },
+ "388e89e55b08d337": {
+  "t": "اجتمع المجلس وUniversidade do Algarve في April 2026 لتوسيع شراكتهما إلى التدريس والتدريب والبحث، بما في ذلك روابط المدارس والأعمال عبر دورات قصيرة في التعليم العالي. واتفقا على العمل نحو ميثاق في الأشهر المقبلة. ولا يذكر التقرير الذكاء الاصطناعي.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council and the University of Algarve met in April 2026 ",
+  "ok": false
+ },
+ "38d3e7192f1cc031": {
+  "t": "Aqui no fim do mundo, o vento e que manda, e a IA ainda esta a chegar de bicicleta.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Aqui no fim do mundo, o vento e que manda, e a IA ainda esta",
+  "ok": false
+ },
+ "38e7219a32ca1e76": {
+  "t": "مرضى SNS يستطيعون ممارسة العلاج الطبيعي في المنزل مع ذكاء اصطناعي يصحّح حركاتهم، وULS Algarve بين الوحدات",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "SNS patients can do physiotherapy at home with AI correcting",
+  "ok": false
+ }
+}

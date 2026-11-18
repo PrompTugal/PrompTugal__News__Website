@@ -1,13 +1,8 @@
 {
  "id": "acores-9",
  "feed": "https://jornalacores9.pt/feed/",
- "read_at": "2026-11-18T15:15Z",
+ "read_at": "2026-11-18T15:05Z",
  "items": [
-  {
-   "title": "Açores querem atingir nível Platina da certificação EarthCheck em 2028",
-   "link": "https://jornalacores9.pt/2026/11/18/acores-querem-atingir-nivel-platina-da-certificacao-earthcheck-em-2028/",
-   "date": "2026-11-18"
-  },
   {
    "title": "Geoparque Açores prepara revalidação de estatuto mundial em 2027",
    "link": "https://jornalacores9.pt/2026/11/17/geoparque-acores-prepara-revalidacao-de-estatuto-mundial-em-2027/",
@@ -26,6 +21,11 @@
   {
    "title": "Francisco César alerta que empresas turísticas açorianas passam “enormes dificuldades”",
    "link": "https://jornalacores9.pt/2026/11/17/francisco-cesar-alerta-que-empresas-turisticas-acorianas-passam-enormes-dificuldades/",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Tripulantes de cabine da Azores Airlines vão fazer greve em dezembro",
+   "link": "https://jornalacores9.pt/2026/11/17/tripulantes-de-cabine-da-azores-airlines-vao-fazer-greve-em-dezembro/",
    "date": "2026-11-17"
   }
  ]

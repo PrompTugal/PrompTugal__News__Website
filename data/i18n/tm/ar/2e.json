@@ -1,0 +1,50 @@
+{
+ "2e08790bc444c605": {
+  "t": "قال أستاذ معلوماتية لوكالة Lusa إن نماذج الجامعة البرتغالية الأصغر والمفتوحة تبلغ أداءً مماثلًا لنماذج شركات التقنية الكبرى في بعض المهام، وإن نموذجًا برتغاليًا وغاليسيًا متاح بالفعل للشركات.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A professor of informatics told Lusa that the university's s",
+  "ok": false
+ },
+ "2e513ec94d637d09": {
+  "t": "Braga، ai ai ai: مدينة تقرع أجراسها للأسقف يوم الأحد وتدرّب نماذجها يوم الاثنين، مع حافلة مليئة بكاميرات الذكاء الاصطناعي تحصي من أوقف سيارته على موقف الحافلات.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Braga, ai ai ai: a city that rings its bells for the archbis",
+  "ok": false
+ },
+ "2e7c775df10f0748": {
+  "t": "يجمع مشروع SiARA بين الذكاء الاصطناعي وروبوت حقلي ذاتي القيادة اسمه EVAbot وشبكة مستشعرات لجمع بيانات عن المحاصيل والتربة والمراعي والحياة البرية في سهل Campo Branco. بدأ في November 2025 وكان أول عمل ميداني له في 3 March 2026. ونال المشروع تقديرًا في فئة البحث والتطوير المحفّز ضمن برنامج Promove.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The SiARA project combines AI, an autonomous field robot cal",
+  "ok": false
+ },
+ "2ecaf3860065acde": {
+  "t": "PrompTugal.news Braga، a cidade dos arcebispos e das startups: الذكاء الاصطناعي والتقنية في Braga، مع جامعة Minho وINL ومختبرات الشركات تقوم بالتفكير، إضافة إلى ما يصلنا من Minho والبرتغال والعالم. Independente، ولكل واقعة إيصالها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Braga, a cidade dos arcebispos e das startup",
+  "ok": false
+ },
+ "2ece8b1cdbda1ec5": {
+  "t": "Évora، ó pá: مدينة الجير الأبيض وأشجار البلوط الفليني والأحجار القديمة حيث تتعلم الآلات التحدث بالبرتغالية، ببطء، calminha، كما يفعل المرء في Alentejo.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Évora, ó pá: a city of whitewash, cork oaks and old stones w",
+  "ok": false
+ },
+ "2ed694a2fcc0cf7e": {
+  "t": "PrompTugal.news Lisboa، a capital que nunca dorme: الذكاء الاصطناعي والتقنية في Lisboa، مع الجامعات وUnicorn Factory عقولًا كبيرة، إضافة إلى ما تبحر به الأخبار من البرتغال وأوروبا والعالم. Independente، وكل واقعة تأتي مع إيصالها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Lisboa, a capital que nunca dorme: AI and te",
+  "ok": false
+ }
+}

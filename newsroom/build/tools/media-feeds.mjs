@@ -16,7 +16,11 @@ export function parse(xml) {
     return blocks.map(b => {
         const link = un(tag(b, 'link')) || (b.match(/<link[^>]*href="([^"]+)"/i) || [])[1] || ''
         const d = un(tag(b, 'pubDate') || tag(b, 'published') || tag(b, 'updated')), t = d ? new Date(d) : null
+<<<<<<< HEAD
         return { title: clean(un(un(tag(b, 'title')))).slice(0, 200), link: link.length <= 500 && !/[\s<>"]/.test(link) ? link : '', date: t && !isNaN(t) ? t.toISOString().slice(0, 10) : null }
+=======
+        return { title: clean(un(tag(b, 'title'))).slice(0, 200), link: link.length <= 500 && !/[\s<>"]/.test(link) ? link : '', date: t && !isNaN(t) ? t.toISOString().slice(0, 10) : null }
+>>>>>>> origin/dev
     }).filter(i => i.title && /^https?:\/\//.test(i.link)).slice(0, 5)
 }
 const now = new Date().toISOString().slice(0, 16) + 'Z'
@@ -27,8 +31,13 @@ for (const id of readdirSync(ROOT + 'data/organisations')) {
     const f = (o.media.feeds || []).find(x => ['rss', 'atom'].includes(x.format) && /^https?:\/\//.test(x.url))
     if (!f) continue
     try {
+<<<<<<< HEAD
         const xml = execFileSync('curl', ['-sSL', '-m', '20', '--proto', '=http,https', '--proto-redir', '=http,https', '--max-redirs', '5', '--max-filesize', '5000000', '-A', UA, '--', f.url], { maxBuffer: 6e6, stdio: ['ignore', 'pipe', 'ignore'] })
         const items = parse(decode(xml))
+=======
+        const xml = execFileSync('curl', ['-sSL', '-m', '20', '--proto', '=http,https', '--proto-redir', '=http,https', '--max-redirs', '5', '--max-filesize', '5000000', '-A', UA, '--', f.url], { encoding: 'utf8', maxBuffer: 6e6, stdio: ['ignore', 'pipe', 'ignore'] })
+        const items = parse(xml)
+>>>>>>> origin/dev
         if (!items.length) throw new Error('no items')
         writeFileSync(`${ROOT}assets/media/feeds/${id}.json`, JSON.stringify({ id, feed: f.url, read_at: now, items }, null, 1) + '\n'); ok++
     } catch { bad++ }

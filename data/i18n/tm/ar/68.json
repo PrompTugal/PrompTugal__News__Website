@@ -1,0 +1,18 @@
+{
+ "6841582999ce66c7": {
+  "t": "CCDR Algarve توافق على أعمال مركز الابتكار في Tavira، مع شبكة ري تتحكم بها المستشعرات",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "CCDR Algarve approves the works at Tavira's innovation hub, ",
+  "ok": false
+ },
+ "6891ccd80a8acefe": {
+  "t": "يقول بيان صحفي من مورّد إن AP Hotels & Resorts تعتمد على LodgIQ، منصة تسعير وتنبؤ بالطلب قائمة على الذكاء الاصطناعي، في منتجعاتها وفنادق مدنها. ويدرج البيان وحدات منها منتجعات يضعها في Albufeira لكنه لا يقول أي الوحدات تستخدم النظام.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A supplier press release says AP Hotels & Resorts relies on ",
+  "ok": false
+ }
+}

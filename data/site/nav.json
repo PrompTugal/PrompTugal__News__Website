@@ -158,6 +158,21 @@
     },
     {
       "column": "PrompTugal.news",
+      "label": "Our principles",
+      "href": "principles/index.html"
+    },
+    {
+      "column": "PrompTugal.news",
+      "label": "Report a mistake",
+      "href": "report/index.html"
+    },
+    {
+      "column": "PrompTugal.news",
+      "label": "Security log",
+      "href": "security/index.html"
+    },
+    {
+      "column": "PrompTugal.news",
       "label": "Powered by RiskMandate",
       "href": "riskmandate/index.html"
     },

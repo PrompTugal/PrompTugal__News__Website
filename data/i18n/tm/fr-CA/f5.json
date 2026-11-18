@@ -1,4 +1,13 @@
 {
+ "f51424f7700d624a": {
+  "t": "Le projet Erasmus+ AI4YouthWork a présenté une carte de 24 outils d'IA pour le travail de jeunesse, une trousse de 16 plans d'ateliers de culture de l'IA et un cadre de compétences en IA, lancés à Faro. L'article est daté du 16 février 2026 et situe le lancement à Faro en novembre (l'année n'est pas indiquée dans le texte).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Erasmus+ AI4YouthWork project presented a map of 24 AI t",
+  "ok": false,
+  "from": "fr-FR"
+ },
  "f56ffc6c84b1b996": {
   "t": "PrompTugal.news Vila do Bispo : l'IA et la technologie à Vila do Bispo, de Sagres et du cap Saint-Vincent à la mer et au vent, et ce qui arrive à Vila do Bispo depuis l'Algarve, le Portugal et le monde. Indépendant; chaque fait est sourcé.",
   "by": "translator@PrompTugal.dinis",
@@ -8,6 +17,15 @@
   "ok": false,
   "from": "fr-FR",
   "adapted": true
+ },
+ "f58f83a9413ce2b4": {
+  "t": "Le projet AI4YouthWork lance des ressources d'IA gratuites pour les professionnels de la jeunesse à Faro",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AI4YouthWork project launches free AI resources for youth wo",
+  "ok": false,
+  "from": "fr-FR"
  },
  "f5c4b6076c6b6263": {
   "t": "Chaque article d’ici passe **le test PrompTugal** : il parle d’IA, directement ou à deux ou trois pas, et le chemin est écrit noir sur blanc. Le lieu décide où l’article apparaît et avec quelle importance; l’IA décide s’il est des nôtres, tout simplement. Chaque fait renvoie à sa source avec la date de lecture. Rien ne vient du site de Web Summit. Les contacts ne sont affichés que lorsqu’un organisme public ou une organisation les publie sur son propre site, avec un lien vers cette page et la date de lecture; jamais ceux d’un particulier. Cette page est un regard sur [le graphe partagé de la publication]({graph}); [PrompTugal.news par lieu]({region}) explique les niveaux.",
