@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-18T16:45Z",
+  "updated": "2026-11-18T18:50Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -84,7 +84,9 @@
     "18 Nov 16:45 forty-fourth hourly wake, v1.15.1: telemetry.b@'s short-name folders granted; six R8 false positives (redirect targets of conductor.b@'s lane files) fixed in the hook; ontologist@ fifth brief (board/abp/reports/2026-11-18-1637.md)",
     "18 Nov 16:05 v1.15.2: host deny-list (websummit.com, lu.ma, luma.com, meetup.com, eventbrite.*) in the hooks and every ABP, case study 6 (LIB-2026-008) (board/abp/reports/2026-11-18-1600.md)",
     "18 Nov 16:00 the library's requests channel (Dinis, ~16:00) is a wake duty in every ABP; none addressed to abp@ (board/abp/reports/2026-11-18-1555.md)",
-    "18 Nov 16:45 forty-fifth hourly wake: telemetry.b@ send_message denied, inbox lanes proposed; requests channel read, none for abp@ (board/abp/reports/2026-11-18-1637.md)"
+    "18 Nov 16:45 forty-fifth hourly wake: telemetry.b@ send_message denied, inbox lanes proposed; requests channel read, none for abp@ (board/abp/reports/2026-11-18-1637.md)",
+    "18 Nov 17:50 forty-sixth hourly wake: clean; requests channel read, none for abp@ (board/abp/reports/2026-11-18-1737.md)",
+    "18 Nov 18:50 forty-seventh hourly wake: datasci.places@ ran release.sh (the held direct-release proposal); requests channel read, none for abp@ (board/abp/reports/2026-11-18-1837.md)"
   ],
   "next": [
     "Hourly review of run reports at :37 (board/abp/reports/); check the new desks re-key their site keys and sites pass (34 of 36 now)",
