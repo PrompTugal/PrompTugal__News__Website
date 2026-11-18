@@ -30,19 +30,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-201 cards (201 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-18T10:00:29Z at site v0.1.1789; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+202 cards (202 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-18T12:59:36Z at site v0.1.1798; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `PUB.NEWS` | 201 |
+| `PUB.NEWS` | 202 |
 
 Newest five accessions:
 
+- `ACC-20261118-0184` [S71: Update: who said waits fell from two years to ten days](https://promptugal.news/newsroom/stories/S71/) (`PUB.NEWS S71`)
 - `ACC-20261118-0140` [S70: Update: a 2023 pilot at São João came out of the Center](https://promptugal.news/newsroom/stories/S70/) (`PUB.NEWS S70`)
 - `ACC-20261117-0300` [who-wrote-this-who-checked-it-who-signs-it: Who wrote this, who checked it, and who signs it](https://promptugal.news/newsroom/stories/who-wrote-this-who-checked-it-who-signs-it/) (`PUB.NEWS who-wrote-this-who-checked-it-who-signs-it`)
 - `ACC-20261117-0276` [the-payment-desk-that-could-not-take-payment: The payment desk that could not take payment](https://promptugal.news/newsroom/stories/the-payment-desk-that-could-not-take-payment/) (`PUB.NEWS the-payment-desk-that-could-not-take-payment`)
 - `ACC-20261117-0275` [atm-currency-conversion-portugal-mark-up: A Portuguese ATM offered a 13.6% mark-up, twice, with a flag](https://promptugal.news/newsroom/stories/atm-currency-conversion-portugal-mark-up/) (`PUB.NEWS atm-currency-conversion-portugal-mark-up`)
-- `ACC-20261117-0274` [S69: AI physiotherapy in Portugal's health service: what the government says](https://promptugal.news/newsroom/stories/S69/) (`PUB.NEWS S69`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

@@ -1,12 +1,12 @@
 ---
 title: "Finding aid: Data and the ontology"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T10:00:29Z"
-site_version: "v0.1.1789"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T12:59:36Z"
+site_version: "v0.1.1798"
 source: board/catalogue.json
 ---
 
-# Data and the ontology (1299 cards)
+# Data and the ontology (1300 cards)
 
 Data and the ontology: the pages of companies, events, people, organisations, places and topics, and the schemas and ontology that give them their shape. The entity pages are catalogued but are not single nodes in the library graph; a connection to one ends at its collection. Kept by ontologist@.
 
@@ -28,7 +28,7 @@ By call number: one subclass for each kind of entity, then the entity's own shor
 |---|---|---|---|
 | `DAT.CO` | companies | 120 | [Just Travel](https://promptugal.news/companies/just-travel/), [Mobile Brain](https://promptugal.news/companies/mobile-brain/) |
 | `DAT.EV` | events | 259 | [Web Summit 2010, Dublin](https://promptugal.news/events/web-summit-dublin-2010/), [Algarve Digital Innovators: the launch in Lagos](https://promptugal.news/events/algarve-digital-innovators-launch-2025/) |
-| `DAT.ORG` | organisations | 493 | [Algarve Evolution](https://promptugal.news/organisations/algarve-evolution/), [A Voz do Algarve](https://promptugal.news/organisations/a-voz-do-algarve/) |
+| `DAT.ORG` | organisations | 494 | [Algarve Evolution](https://promptugal.news/organisations/algarve-evolution/), [A Voz do Algarve](https://promptugal.news/organisations/a-voz-do-algarve/) |
 | `DAT.PE` | people | 295 |  |
 | `DAT.PL` | places | 115 | [Azores](https://promptugal.news/places/acores/), [Albufeira](https://promptugal.news/places/albufeira/) |
 | `DAT.TOP` | topics | 17 | [Artificial intelligence](https://promptugal.news/topics/ai/), [AI agents](https://promptugal.news/topics/ai-agents/) |

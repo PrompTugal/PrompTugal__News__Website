@@ -1,19 +1,25 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 16 of 36)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T10:00:29Z"
-site_version: "v0.1.1789"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T12:59:36Z"
+site_version: "v0.1.1798"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 16 of 36)
 
-100 cards, from `TEAM.ROLE README:3` to `TEAM.ROLE claims:29`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ROLE README:17` to `TEAM.ROLE claims:23`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1501 to 1525**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE README:17` | [Materials for the visualisers: the platform-terms rule](https://promptugal.news/board/team/journalist.newsroom/materials/the-terms/README.md) | team | journalist.newsroom@ 11 Nov 2026 |
+| `TEAM.ROLE README:18` | [Materials for the visualisers: Vicky's team handover](https://promptugal.news/board/team/journalist.newsroom/materials/the-handover/README.md) | team | journalist.newsroom@ 11 Nov 2026 |
+| `TEAM.ROLE README:19` | [abp@ session session_018yvwtPpzq2TZ2mzv8KqvhB (from 15 November 2026, 21:45 UTC)](https://promptugal.news/board/team/abp/sessions/session_018yvwtPpzq2TZ2mzv8KqvhB/README.md) | team | abp@ 15 Nov 2026 |
+| `TEAM.ROLE README:2` | ["I am interested, contact me": the interest message](https://promptugal.news/board/team/customers/interest/README.md) | team | customers@ 6 Nov 2026 |
+| `TEAM.ROLE README:20` | [README.md](https://promptugal.news/board/team/correspondent/sessions/session_01Kw9UwD8Vhfy61uBa4EkATR/README.md) | team | correspondent@ 16 Nov 2026 |
+| `TEAM.ROLE README:21` | [journalist@ session notes: session_01Kw9UwFKhT1TCw8TU2SWTrR](https://promptugal.news/board/team/journalist/sessions/session_01Kw9UwFKhT1TCw8TU2SWTrR/README.md) | team | journalist@ 16 Nov 2026 |
 | `TEAM.ROLE README:3` | [Notes of the account B correspondent session](https://promptugal.news/board/team/correspondent/sessions/session_01Kw9UwBo8qpbApP4teBf7qK/README.md) | team | correspondent@ 6 Nov 2026 |
 | `TEAM.ROLE README:4` | [designer@PrompTugal.dinis, session 3 (account B)](https://promptugal.news/board/team/designer/sessions/session_01Kw9UwBz3RCCiGVDcir6TJ4/README.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE README:5` | [dev.data account B session (2d7ed5e8)](https://promptugal.news/board/team/dev.data/sessions/2d7ed5e8/README.md) | team | dev@ 7 Nov 2026 |
@@ -33,17 +39,17 @@ source: board/catalogue.json
 | `TEAM.ROLE ROLE:18` | [outreach@PrompTugal.dinis](https://promptugal.news/board/team/outreach/ROLE.md) | team | outreach@ 6 Nov 2026 |
 | `TEAM.ROLE ROLE:19` | [researcher@PrompTugal.dinis (Sonnet)](https://promptugal.news/board/team/researcher/ROLE.md) | team | researcher@ 6 Nov 2026 |
 | `TEAM.ROLE ROLE:2` | [accountant@PrompTugal.dinis](https://promptugal.news/board/team/accountant/ROLE.md) | team | accountant@ 6 Nov 2026 |
+
+**Cards 1526 to 1550**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE ROLE:20` | [security@PrompTugal.dinis](https://promptugal.news/board/team/security/ROLE.md) | team | security@ 6 Nov 2026 |
 | `TEAM.ROLE ROLE:21` | [conductor.b@PrompTugal.dinis](https://promptugal.news/board/team/conductor.b/ROLE.md) | team | conductor.b@ 6 Nov 2026 |
 | `TEAM.ROLE ROLE:22` | [investors@PrompTugal.dinis](https://promptugal.news/board/team/investors/ROLE.md) | team | investors@ 6 Nov 2026 |
 | `TEAM.ROLE ROLE:23` | [social.watch@PrompTugal.dinis](https://promptugal.news/board/team/social.watch/ROLE.md) | team | social.watch@ 10 Nov 2026 |
 | `TEAM.ROLE ROLE:3` | [backup@PrompTugal.dinis](https://promptugal.news/board/team/backup/ROLE.md) | team | backup@ 6 Nov 2026 |
 | `TEAM.ROLE ROLE:4` | [correspondent@PrompTugal.dinis](https://promptugal.news/board/team/correspondent/ROLE.md) | team | correspondent@ 6 Nov 2026 |
-
-**Cards 1526 to 1550**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE ROLE:5` | [customers@PrompTugal.dinis](https://promptugal.news/board/team/customers/ROLE.md) | team | customers@ 6 Nov 2026 |
 | `TEAM.ROLE ROLE:6` | [designer.experiments@PrompTugal.dinis](https://promptugal.news/board/team/designer.experiments/ROLE.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE ROLE:7` | [designer@PrompTugal.dinis](https://promptugal.news/board/team/designer/ROLE.md) | team | designer@ 6 Nov 2026 |
@@ -63,17 +69,17 @@ source: board/catalogue.json
 | `TEAM.ROLE actors:7` | [actors.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-terms/actors.json) | team | journalist.newsroom@ 11 Nov 2026 |
 | `TEAM.ROLE actors:8` | [actors.json](https://promptugal.news/board/team/journalist.newsroom/materials/the-handover/actors.json) | team | journalist.newsroom@ 11 Nov 2026 |
 | `TEAM.ROLE ae-network` | [ae-network.jpg](https://promptugal.news/board/team/investors/decks/shots/ae-network.jpg) | team | investors@ 7 Nov 2026 |
+
+**Cards 1551 to 1575**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE ae-timeline` | [ae-timeline.jpg](https://promptugal.news/board/team/investors/decks/shots/ae-timeline.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE afternoon-items` | [Afternoon pass, 17 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-17/afternoon-items.md) | team | place.algarve.west@ 17 Nov 2026 |
 | `TEAM.ROLE agent-sessions-lost-to-the-storm` | [The agent sessions lost to the storm (Wednesday 11 November 2026)](https://promptugal.news/board/team/social.watch/agent-sessions-lost-to-the-storm.md) | team | social.watch@ 10 Nov 2026 |
 | `TEAM.ROLE agents` | [agents.json](https://promptugal.news/board/team/customers/inventory/agents.json) | team | customers@ 6 Nov 2026 |
 | `TEAM.ROLE algarve` | [algarve.jpg](https://promptugal.news/board/team/investors/decks/shots/algarve.jpg) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE aljezur` | [Aljezur: local news, read 16 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-16/aljezur.md) | team | place.algarve.west@ 16 Nov 2026 |
-
-**Cards 1551 to 1575**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE an-algarvian-newsroom.en` | [An Algarvian newsroom, for Portugal and for Europe](https://promptugal.news/board/team/investors/site/articles/an-algarvian-newsroom.en.md) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE an-algarvian-newsroom.es` | [Una redacción del Algarve, para Portugal y para Europa](https://promptugal.news/board/team/investors/site/articles/an-algarvian-newsroom.es.md) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE an-algarvian-newsroom.fr` | [Une rédaction de l'Algarve, pour le Portugal et pour l'Europe](https://promptugal.news/board/team/investors/site/articles/an-algarvian-newsroom.fr.md) (withdrawn) | team | investors@ 7 Nov 2026 |
@@ -93,17 +99,17 @@ source: board/catalogue.json
 | `TEAM.ROLE brand-decisions` | [Brand decisions: Dinis's answers on the brand v2.0, one row each](https://promptugal.news/board/team/designer/brand-decisions.md) | team | designer@ 7 Nov 2026 |
 | `TEAM.ROLE brief-2026-11-06-claims-and-provenance` | [Brief to conductor@ and outreach@: permission, the maturity scale and a provenance agent](https://promptugal.news/board/team/designer.experiments/brief-2026-11-06-claims-and-provenance.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE business-plan.en` | [Investors: the business plan](https://promptugal.news/board/team/investors/site/md/business-plan.en.md) (withdrawn) | team | investors@ 7 Nov 2026 |
+
+**Cards 1576 to 1600**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE business-plan.es` | [Inversores: el plan de negocio](https://promptugal.news/board/team/investors/site/md/business-plan.es.md) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE business-plan.fr` | [Investisseurs : le business plan](https://promptugal.news/board/team/investors/site/md/business-plan.fr.md) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE business-plan.pt` | [Investidores: o plano de negócio](https://promptugal.news/board/team/investors/site/md/business-plan.pt.md) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE capacity-2026-11-06` | [Capacity for tonight: the work Dinis has asked for, who carries it, and which agents to add](https://promptugal.news/board/team/conductor/capacity-2026-11-06.md) | team | conductor@ 6 Nov 2026 |
 | `TEAM.ROLE capture` | [capture.mjs](https://promptugal.news/board/team/data.places/tools/capture.mjs) | team | data.places@ 15 Nov 2026 |
 | `TEAM.ROLE card-brazil` | [card-brazil.png](https://promptugal.news/board/team/investors/decks/img/card-brazil.png) (withdrawn) | team | investors@ 7 Nov 2026 |
-
-**Cards 1576 to 1600**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE case-agents-that-save-tokens` | [Agents that pay for themselves: the cost case from our own record](https://promptugal.news/board/team/accountant/case-agents-that-save-tokens.md) | team | accountant@ 10 Nov 2026 |
 | `TEAM.ROLE changelog.en` | [Investors: what changed in the decks](https://promptugal.news/board/team/investors/site/md/changelog.en.md) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE chatgpt-first-prompt` | [First prompt for chatgpt@PrompTugal.dinis (paste into a ChatGPT project; set the schedule there)](https://promptugal.news/board/team/conductor/external-agents/chatgpt-first-prompt.md) | team | conductor@ 6 Nov 2026 |
@@ -123,11 +129,5 @@ source: board/catalogue.json
 | `TEAM.ROLE claims:21` | [claims.json](https://promptugal.news/board/team/dev.verify/records/web-summit-ten-lisbon-years/claims.json) (withdrawn) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE claims:22` | [claims.json](https://promptugal.news/board/team/dev.verify/records/wednesday-11-november-going-abroad/claims.json) (withdrawn) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE claims:23` | [claims.json](https://promptugal.news/board/team/dev.verify/records/angelos-communication-graph/claims.json) (withdrawn) | team | dev@ 7 Nov 2026 |
-| `TEAM.ROLE claims:24` | [claims.json](https://promptugal.news/board/team/dev.verify/records/how-agents-avoid-collisions/claims.json) (withdrawn) | team | dev@ 7 Nov 2026 |
-| `TEAM.ROLE claims:25` | [claims.json](https://promptugal.news/board/team/dev.verify/records/how-the-agents-talk/claims.json) (withdrawn) | team | dev@ 7 Nov 2026 |
-| `TEAM.ROLE claims:26` | [claims.json](https://promptugal.news/board/team/dev.verify/records/mistakes-we-made/claims.json) (withdrawn) | team | dev@ 7 Nov 2026 |
-| `TEAM.ROLE claims:27` | [claims.json](https://promptugal.news/board/team/dev.verify/records/rio-ten-startups-to-lisbon/claims.json) (withdrawn) | team | dev@ 7 Nov 2026 |
-| `TEAM.ROLE claims:28` | [claims.json](https://promptugal.news/board/team/dev.verify/records/who-does-the-work/claims.json) (withdrawn) | team | dev@ 7 Nov 2026 |
-| `TEAM.ROLE claims:29` | [claims.json](https://promptugal.news/board/team/dev.verify/records/agent-setup-guide/claims.json) (withdrawn) | team | dev@ 7 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-15.md) | [Next part](TEAM-17.md)

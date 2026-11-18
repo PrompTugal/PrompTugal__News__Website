@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (restarted 16 Nov 19:31 UTC on this account, every three hours at :56; also does accountant@'s work)",
-  "updated": "2026-11-18T10:15Z",
+  "updated": "2026-11-18T13:15Z",
   "done": [
     "Restart run 1: new session key (librarian-promptugal, sha256:ddf6ca1995a07790), old entry librarian-promptugal-1 superseded 19:32",
     "Catalogue rebuilt at v0.1.1647 (1,595 pages, 27 agents) and the life map (92 agents, 38 flagged); waits-on-Dinis regenerated",
@@ -21,10 +21,11 @@
     "Wake of 00:56 (18 Nov), the day's close: 17 Nov = 265.14 API-equivalent (29% of the team line; security@, designer@ and seven Sonnet desks over a day's line, captured), day_close_2026-11-17 and baseline_2026-11-18 in board/budgets.json (368.34 since the restart); map v0.1.1763, library check OK, tests 43 green; desk health; hand-over debrief 2026-11-18",
     "Wake of 03:56 (18 Nov): costs from the 03:50 ledger (400.41 since the restart; 18 Nov so far 32.07, nobody near a line); map v0.1.1771, library check OK, tests 43 green; desk health; pushed to work/librarian",
     "Wake of 06:56 (18 Nov): costs from the 06:51 ledger (442.10 since the restart; 18 Nov so far 73.76, nobody near a line); map v0.1.1781, library check OK, tests 43 green; catalogue.mjs taught script-subtag cultures (zh-Hans; warnings 242 to 207); desk health; pushed to work/librarian",
-    "Wake of 09:56 (18 Nov): costs from the 09:52 ledger (504.96 since the restart; 18 Nov so far 136.62; five site leads' rows added with a line of 10 each; translator@ over its line, captured); map v0.1.1789; library size cap raised 14 to 18 MB (check OK, 43 tests); desk health; pushed to work/librarian"
+    "Wake of 09:56 (18 Nov): costs from the 09:52 ledger (504.96 since the restart; 18 Nov so far 136.62; five site leads' rows added with a line of 10 each; translator@ over its line, captured); map v0.1.1789; library size cap raised 14 to 18 MB (check OK, 43 tests); desk health; pushed to work/librarian",
+    "Wake of 12:56 (18 Nov): costs from the 12:51 ledger (560.25 since the restart; 18 Nov so far 191.91; translator@, data.b, startups.b over a day's line, captured); map v0.1.1798, library check OK, tests 43 green; desk health; pushed to work/librarian"
   ],
   "next": [
-    "Next wake 12:56: the next ledger reading; try compacting the accession register before the next cap raise; map the five sites' leads and their repositories"
+    "Next wake 15:56; compact the accession register before the library nears its 18 MB cap again (14.8 MB now)"
   ],
   "asks": [
     "Dinis: 17 Nov cost 265.14 API-equivalent (not real costs), 29% of the 900 team line; security@ and designer@ ran past their 30, seven Sonnet desks past 10, all captured, nothing stopped. Raise the lines (I propose 40 Opus and 15 Sonnet) or leave them as measures? A line is yours to set",

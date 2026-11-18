@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 10 of 13)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T10:00:29Z"
-site_version: "v0.1.1789"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T12:59:36Z"
+site_version: "v0.1.1798"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 10 of 13)
 
-100 cards, from `DAT.PE art-gilliland` to `DAT.PE jim-edwards`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.PE arjun-kharpal` to `DAT.PE jill-kramer`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 901 to 925**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE arjun-kharpal` | [Arjun Kharpal](https://promptugal.news/people/arjun-kharpal/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE art-gilliland` | [Art Gilliland](https://promptugal.news/people/art-gilliland/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE arvind-jain` | [Arvind Jain](https://promptugal.news/people/arvind-jain/) (withdrawn) | person | programme@web-summit.vicky 6 Nov 2026 |
 | `DAT.PE astrid-maier` | [Astrid Maier](https://promptugal.news/people/astrid-maier/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `DAT.PE carolin-wais` | [Carolin Wais](https://promptugal.news/people/carolin-wais/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE casey-lau` | [Casey Lau](https://promptugal.news/people/casey-lau/) (withdrawn) | person | programme@PrompTugal.vicky 7 Nov 2026 |
 | `DAT.PE charles-pellegrin` | [Charles Pellegrin](https://promptugal.news/people/charles-pellegrin/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE charlie-wells` | [Charlie Wells](https://promptugal.news/people/charlie-wells/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 926 to 950**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE charlie-wells` | [Charlie Wells](https://promptugal.news/people/charlie-wells/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE chon-tang` | [Chon Tang](https://promptugal.news/people/chon-tang/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE christos-rizos` | [Christos Rizos](https://promptugal.news/people/christos-rizos/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE chung-yan-chow` | [Chung-Yan Chow](https://promptugal.news/people/chung-yan-chow/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `DAT.PE duncan-crabtree-ireland` | [Duncan Crabtree-Ireland](https://promptugal.news/people/duncan-crabtree-ireland/) (withdrawn) | person | programme@PrompTugal.vicky 7 Nov 2026 |
 | `DAT.PE dylan-barrell` | [Dylan Barrell](https://promptugal.news/people/dylan-barrell/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE edith-harbaugh` | [Edith Harbaugh](https://promptugal.news/people/edith-harbaugh/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE eleanor-pringle` | [Eleanor Pringle](https://promptugal.news/people/eleanor-pringle/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 951 to 975**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE eleanor-pringle` | [Eleanor Pringle](https://promptugal.news/people/eleanor-pringle/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE elena-poughia` | [Elena Poughia](https://promptugal.news/people/elena-poughia/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE erika-whitmore` | [Erika Whitmore](https://promptugal.news/people/erika-whitmore/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE ethan-byrd` | [Ethan Byrd](https://promptugal.news/people/ethan-byrd/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `DAT.PE grzegorz-lipke` | [Grzegorz Lipke](https://promptugal.news/people/grzegorz-lipke/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE haakon-rlmann` | [Haakon Rølmann](https://promptugal.news/people/haakon-rlmann/) (withdrawn) | person | programme@PrompTugal.vicky 8 Nov 2026 |
 | `DAT.PE hanh-nguyen` | [Hanh Nguyen](https://promptugal.news/people/hanh-nguyen/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE harry-mccracken` | [Harry McCracken](https://promptugal.news/people/harry-mccracken/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 976 to 1000**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE harry-mccracken` | [Harry McCracken](https://promptugal.news/people/harry-mccracken/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE haz-hubble` | [Haz Hubble](https://promptugal.news/people/haz-hubble/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE henna-virkkunen` | [Henna Virkkunen](https://promptugal.news/people/henna-virkkunen/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE henry-farrell` | [Henry Farrell](https://promptugal.news/people/henry-farrell/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.PE jeremy-goldman` | [Jeremy Goldman](https://promptugal.news/people/jeremy-goldman/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE jianhua-li` | [Jianhua Li](https://promptugal.news/people/jianhua-li/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE jill-kramer` | [Jill Kramer](https://promptugal.news/people/jill-kramer/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE jim-edwards` | [Jim Edwards](https://promptugal.news/people/jim-edwards/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-9.md) | [Next part](DAT-11.md)

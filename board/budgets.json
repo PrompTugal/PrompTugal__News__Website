@@ -2,7 +2,7 @@
  "about": "The budgets of PrompTugal.news: per agent per day, per pass, per loop, kept by accountant@PrompTugal.dinis. Confirmed by Dinis at about 10:15 UTC as a measure; never a reason to stop an agent (about 10:10). Every dollar figure here is API-equivalent: the team runs on a Claude subscription, so it compares runs and agents and is not money spent. Real limits: the subscription's usage limits and the OpenRouter credit (below). Schema: data/schemas/budgets.schema.json (ontologist@).",
  "by": "accountant@PrompTugal.dinis",
  "written": "2026-11-06T03:50Z",
- "updated": "2026-11-18T09:52Z",
+ "updated": "2026-11-18T12:51Z",
  "issue": "WS-177",
  "units": {
   "day": "the UTC day, 00:00 to 24:00; every per_day budget starts again at 00:00 UTC",
@@ -4456,6 +4456,223 @@
      "travel.b"
     ],
     "note": "conductor.b@ share = cumulative minus 172.20; captured, nothing stops; new rows data.b, weather.b, civic.b, startups.b, travel.b are the five sites' leads started on account B (Dinis, 17 Nov 23:00; ledger site_leads_total_usd 28.24): line 10 a day each (accountant@'s Sonnet line, a PT decision), baseline 0"
+   },
+   {
+    "read_at": "2026-11-18T12:51Z",
+    "window": "16 Nov 19:28 to 2026-11-18 12:51 UTC (today = since the 18 Nov 00:51 baseline)",
+    "source": "board/team/conductor.b/ledger/2026-11-18T1251Z.json",
+    "total_usd": 560.25,
+    "since_previous_usd": 55.29,
+    "today_total_usd": 191.91,
+    "rows": [
+     {
+      "agent": "conductor.b",
+      "usd": 44.21,
+      "today_usd": 12.21,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 0.41
+     },
+     {
+      "agent": "journalist",
+      "usd": 35.13,
+      "today_usd": 6.72,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 0.22
+     },
+     {
+      "agent": "dev",
+      "usd": 45.57,
+      "today_usd": 9.32,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 0.31
+     },
+     {
+      "agent": "designer",
+      "usd": 60.04,
+      "today_usd": 19.08,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 0.64
+     },
+     {
+      "agent": "security",
+      "usd": 65.64,
+      "today_usd": 22.85,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 0.76
+     },
+     {
+      "agent": "place.algarve.west",
+      "usd": 20.35,
+      "today_usd": 5.1,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.51
+     },
+     {
+      "agent": "place.algarve.central",
+      "usd": 18.78,
+      "today_usd": 5.02,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.5
+     },
+     {
+      "agent": "place.algarve.east",
+      "usd": 17.03,
+      "today_usd": 5.0,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.5
+     },
+     {
+      "agent": "place.districts",
+      "usd": 28.37,
+      "today_usd": 6.81,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.68
+     },
+     {
+      "agent": "correspondent",
+      "usd": 13.0,
+      "today_usd": 3.87,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.39
+     },
+     {
+      "agent": "datasci.places",
+      "usd": 10.12,
+      "today_usd": 3.58,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.36
+     },
+     {
+      "agent": "researcher",
+      "usd": 22.42,
+      "today_usd": 3.87,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.39
+     },
+     {
+      "agent": "ontologist",
+      "usd": 24.56,
+      "today_usd": 7.38,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.74
+     },
+     {
+      "agent": "dev.places",
+      "usd": 17.47,
+      "today_usd": 5.22,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.52
+     },
+     {
+      "agent": "designer.places",
+      "usd": 16.0,
+      "today_usd": 5.58,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.56
+     },
+     {
+      "agent": "translator",
+      "usd": 31.48,
+      "today_usd": 13.61,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 1.36
+     },
+     {
+      "agent": "outreach",
+      "usd": 12.74,
+      "today_usd": 3.68,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.37
+     },
+     {
+      "agent": "sherpa",
+      "usd": 10.78,
+      "today_usd": 3.22,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.32
+     },
+     {
+      "agent": "librarian",
+      "usd": 14.93,
+      "today_usd": 5.13,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.51
+     },
+     {
+      "agent": "abp",
+      "usd": 10.52,
+      "today_usd": 3.55,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 0.12
+     },
+     {
+      "agent": "data.b",
+      "usd": 11.58,
+      "today_usd": 11.58,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 1.16
+     },
+     {
+      "agent": "weather.b",
+      "usd": 5.94,
+      "today_usd": 5.94,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.59
+     },
+     {
+      "agent": "civic.b",
+      "usd": 5.62,
+      "today_usd": 5.62,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.56
+     },
+     {
+      "agent": "startups.b",
+      "usd": 10.28,
+      "today_usd": 10.28,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 1.03
+     },
+     {
+      "agent": "travel.b",
+      "usd": 7.69,
+      "today_usd": 7.69,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.77
+     }
+    ],
+    "over_a_day_line_today": [
+     "translator",
+     "data.b",
+     "startups.b"
+    ],
+    "new_rows": [],
+    "note": "conductor.b@ share = cumulative minus 172.20; captured, nothing stops"
    }
   ],
   "day_close_2026-11-17": {

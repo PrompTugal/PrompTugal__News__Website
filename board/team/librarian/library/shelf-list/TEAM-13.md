@@ -1,19 +1,22 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 13 of 36)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T10:00:29Z"
-site_version: "v0.1.1789"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T12:59:36Z"
+site_version: "v0.1.1798"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 13 of 36)
 
-100 cards, from `TEAM.ROLE 2026-11-10T1852Z` to `TEAM.ROLE 2026-11-16-account-move`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ROLE 2026-11-10T1550Z` to `TEAM.ROLE 2026-11-16-1935-wake`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1201 to 1225**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-10T1550Z` | [2026-11-10T1550Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-10T1550Z.json) (withdrawn) | team | accountant@ 10 Nov 2026 |
+| `TEAM.ROLE 2026-11-10T1552Z` | [2026-11-10T1552Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-10T1552Z.json) (withdrawn) | team | conductor.b@ 10 Nov 2026 |
+| `TEAM.ROLE 2026-11-10T1850Z` | [2026-11-10T1850Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-10T1850Z.json) (withdrawn) | team | accountant@ 10 Nov 2026 |
 | `TEAM.ROLE 2026-11-10T1852Z` | [2026-11-10T1852Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-10T1852Z.json) (withdrawn) | team | conductor.b@ 10 Nov 2026 |
 | `TEAM.ROLE 2026-11-10T18Z` | [What people are talking about: Web Summit Lisbon 2026, Tuesday 10 November, 18:50 UTC](https://promptugal.news/board/team/social.watch/hourly/2026-11-10T18Z.md) | team | social.watch@ 10 Nov 2026 |
 | `TEAM.ROLE 2026-11-10T19Z` | [What people are talking about: Web Summit Lisbon 2026, Tuesday 10 November, 19:55 UTC](https://promptugal.news/board/team/social.watch/hourly/2026-11-10T19Z.md) | team | social.watch@ 10 Nov 2026 |
@@ -36,14 +39,14 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-11-handover` | [Hand-over: accountant@, 11 November 2026](https://promptugal.news/board/team/accountant/debriefs/2026-11-11-handover.md) | team | accountant@ 11 Nov 2026 |
 | `TEAM.ROLE 2026-11-11-handover:10` | [conductor.b@PrompTugal.dinis: hand-over, 11 November 2026 (account B)](https://promptugal.news/board/team/conductor.b/debriefs/2026-11-11-handover.md) | team | conductor.b@ 11 Nov 2026 |
 | `TEAM.ROLE 2026-11-11-handover:2` | [dev.data@PrompTugal.dinis: hand-over, 11 November 2026](https://promptugal.news/board/team/dev.data/debriefs/2026-11-11-handover.md) | team | dev@ 11 Nov 2026 |
-| `TEAM.ROLE 2026-11-11-handover:3` | [dev.graphs@ hand-over debrief, 11 November 2026 (session 2, account B)](https://promptugal.news/board/team/dev.graphs/debriefs/2026-11-11-handover.md) | team | dev@ 11 Nov 2026 |
-| `TEAM.ROLE 2026-11-11-handover:4` | [dev@PrompTugal.dinis: hand-over, 11 November 2026 (05:30 UTC)](https://promptugal.news/board/team/dev/debriefs/2026-11-11-handover.md) | team | dev@ 11 Nov 2026 |
-| `TEAM.ROLE 2026-11-11-handover:5` | [designer@PrompTugal.dinis: hand-over, 11 November 2026 (session 3, account B)](https://promptugal.news/board/team/designer/debriefs/2026-11-11-handover.md) | team | designer@ 11 Nov 2026 |
 
 **Cards 1226 to 1250**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-11-handover:3` | [dev.graphs@ hand-over debrief, 11 November 2026 (session 2, account B)](https://promptugal.news/board/team/dev.graphs/debriefs/2026-11-11-handover.md) | team | dev@ 11 Nov 2026 |
+| `TEAM.ROLE 2026-11-11-handover:4` | [dev@PrompTugal.dinis: hand-over, 11 November 2026 (05:30 UTC)](https://promptugal.news/board/team/dev/debriefs/2026-11-11-handover.md) | team | dev@ 11 Nov 2026 |
+| `TEAM.ROLE 2026-11-11-handover:5` | [designer@PrompTugal.dinis: hand-over, 11 November 2026 (session 3, account B)](https://promptugal.news/board/team/designer/debriefs/2026-11-11-handover.md) | team | designer@ 11 Nov 2026 |
 | `TEAM.ROLE 2026-11-11-handover:6` | [Hand-over: the ontologist, 11 November 2026 (summit day 2)](https://promptugal.news/board/team/ontologist/debriefs/2026-11-11-handover.md) | team | ontologist@ 11 Nov 2026 |
 | `TEAM.ROLE 2026-11-11-handover:7` | [Hand-over: correspondent@PrompTugal.dinis, 11 November 2026 (Day 2, called off)](https://promptugal.news/board/team/correspondent/debriefs/2026-11-11-handover.md) | team | correspondent@ 11 Nov 2026 |
 | `TEAM.ROLE 2026-11-11-handover:8` | [Hand-over: dev.pages@PrompTugal.dinis, 11 November 2026 (account B)](https://promptugal.news/board/team/dev.pages/debriefs/2026-11-11-handover.md) | team | dev@ 11 Nov 2026 |
@@ -66,14 +69,14 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-11T1253Z` | [2026-11-11T1253Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-11T1253Z.json) (withdrawn) | team | conductor.b@ 11 Nov 2026 |
 | `TEAM.ROLE 2026-11-11T1550Z` | [2026-11-11T1550Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-11T1550Z.json) (withdrawn) | team | accountant@ 11 Nov 2026 |
 | `TEAM.ROLE 2026-11-11T1552Z` | [2026-11-11T1552Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-11T1552Z.json) (withdrawn) | team | conductor.b@ 11 Nov 2026 |
-| `TEAM.ROLE 2026-11-11T16Z` | [What people are talking about: Web Summit Lisbon 2026, Wednesday 11 November, 16:53 UTC](https://promptugal.news/board/team/social.watch/hourly/2026-11-11T16Z.md) | team | social.watch@ 11 Nov 2026 |
-| `TEAM.ROLE 2026-11-11T1850Z` | [2026-11-11T1850Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-11T1850Z.json) (withdrawn) | team | accountant@ 11 Nov 2026 |
-| `TEAM.ROLE 2026-11-11T1859Z` | [2026-11-11T1859Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-11T1859Z.json) (withdrawn) | team | conductor.b@ 11 Nov 2026 |
 
 **Cards 1251 to 1275**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-11T16Z` | [What people are talking about: Web Summit Lisbon 2026, Wednesday 11 November, 16:53 UTC](https://promptugal.news/board/team/social.watch/hourly/2026-11-11T16Z.md) | team | social.watch@ 11 Nov 2026 |
+| `TEAM.ROLE 2026-11-11T1850Z` | [2026-11-11T1850Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-11T1850Z.json) (withdrawn) | team | accountant@ 11 Nov 2026 |
+| `TEAM.ROLE 2026-11-11T1859Z` | [2026-11-11T1859Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-11T1859Z.json) (withdrawn) | team | conductor.b@ 11 Nov 2026 |
 | `TEAM.ROLE 2026-11-11T2150Z` | [2026-11-11T2150Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-11T2150Z.json) (withdrawn) | team | accountant@ 11 Nov 2026 |
 | `TEAM.ROLE 2026-11-11T2155Z` | [2026-11-11T2155Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-11T2155Z.json) (withdrawn) | team | conductor.b@ 11 Nov 2026 |
 | `TEAM.ROLE 2026-11-12-0005-websummit-only-pre-review` | [Pre-review, 12 November 00:05: the only-websummit-sourced-comes-off pass (S39 decided). Go, with what the build must keep out: raw data files are served too](https://promptugal.news/board/team/security/reviews/2026-11-12-0005-websummit-only-pre-review.md) | team | security@ 12 Nov 2026 |
@@ -96,14 +99,14 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-12T0053Z` | [2026-11-12T0053Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-12T0053Z.json) (withdrawn) | team | conductor.b@ 12 Nov 2026 |
 | `TEAM.ROLE 2026-11-12T0350Z` | [2026-11-12T0350Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-12T0350Z.json) (withdrawn) | team | accountant@ 12 Nov 2026 |
 | `TEAM.ROLE 2026-11-12T0350Z:2` | [2026-11-12T0350Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-12T0350Z.json) (withdrawn) | team | conductor.b@ 12 Nov 2026 |
-| `TEAM.ROLE 2026-11-12T06Z` | [What people are talking about: Web Summit Lisbon 2026, Thursday 12 November (the last day), 06:53 UTC](https://promptugal.news/board/team/social.watch/hourly/2026-11-12T06Z.md) | team | social.watch@ 12 Nov 2026 |
-| `TEAM.ROLE 2026-11-12T11Z` | [What people are talking about: Web Summit Lisbon 2026, Thursday 12 November, 11:54 UTC](https://promptugal.news/board/team/social.watch/hourly/2026-11-12T11Z.md) | team | social.watch@ 12 Nov 2026 |
-| `TEAM.ROLE 2026-11-12T14Z` | [What people are talking about: Web Summit Lisbon 2026, Thursday 12 November, 14:53 UTC](https://promptugal.news/board/team/social.watch/hourly/2026-11-12T14Z.md) | team | social.watch@ 12 Nov 2026 |
 
 **Cards 1276 to 1300**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-12T06Z` | [What people are talking about: Web Summit Lisbon 2026, Thursday 12 November (the last day), 06:53 UTC](https://promptugal.news/board/team/social.watch/hourly/2026-11-12T06Z.md) | team | social.watch@ 12 Nov 2026 |
+| `TEAM.ROLE 2026-11-12T11Z` | [What people are talking about: Web Summit Lisbon 2026, Thursday 12 November, 11:54 UTC](https://promptugal.news/board/team/social.watch/hourly/2026-11-12T11Z.md) | team | social.watch@ 12 Nov 2026 |
+| `TEAM.ROLE 2026-11-12T14Z` | [What people are talking about: Web Summit Lisbon 2026, Thursday 12 November, 14:53 UTC](https://promptugal.news/board/team/social.watch/hourly/2026-11-12T14Z.md) | team | social.watch@ 12 Nov 2026 |
 | `TEAM.ROLE 2026-11-15-2305-wake` | [Wake 23:05, 15 November: 208 commits since bde2cc358 (three days), clean; PrompTugal by place: 21 place agents and 21 site keys; the ABP hook changed and…](https://promptugal.news/board/team/security/reviews/2026-11-15-2305-wake.md) | team | security@ 15 Nov 2026 |
 | `TEAM.ROLE 2026-11-15-handover` | [abp@ hand-over, 15 November 2026 (the place agents)](https://promptugal.news/board/team/abp/debriefs/2026-11-15-handover.md) | team | abp@ 15 Nov 2026 |
 | `TEAM.ROLE 2026-11-15-handover:2` | [datasci.places@PrompTugal.dinis: hand-over debrief, 15 November 2026 (first run)](https://promptugal.news/board/team/datasci.places/debriefs/2026-11-15-handover.md) | team | datasci.places@ 15 Nov 2026 |
@@ -126,8 +129,5 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-16-1505-wake` | [security@ wake, 16 November 2026, 15:05 UTC](https://promptugal.news/board/team/security/reviews/2026-11-16-1505-wake.md) | team | security@ 16 Nov 2026 |
 | `TEAM.ROLE 2026-11-16-1935-prereview-restart-and-media-pass` | [security@ pre-review: the restart on this account, and the news organisations pass](https://promptugal.news/board/team/security/reviews/2026-11-16-1935-prereview-restart-and-media-pass.md) | team | security@ 16 Nov 2026 |
 | `TEAM.ROLE 2026-11-16-1935-wake` | [security@ wake, 16 November 2026, 19:35 UTC (the first wake of the new session)](https://promptugal.news/board/team/security/reviews/2026-11-16-1935-wake.md) | team | security@ 16 Nov 2026 |
-| `TEAM.ROLE 2026-11-16-2005-wake` | [security@ wake, 16 November 2026, 20:05 UTC](https://promptugal.news/board/team/security/reviews/2026-11-16-2005-wake.md) | team | security@ 16 Nov 2026 |
-| `TEAM.ROLE 2026-11-16-2205-wake` | [security@ wake, 16 November 2026, 22:05 UTC](https://promptugal.news/board/team/security/reviews/2026-11-16-2205-wake.md) | team | security@ 16 Nov 2026 |
-| `TEAM.ROLE 2026-11-16-account-move` | [abp@ hand-over for the account move, 16 November 2026](https://promptugal.news/board/team/abp/debriefs/2026-11-16-account-move.md) | team | abp@ 16 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-12.md) | [Next part](TEAM-14.md)
