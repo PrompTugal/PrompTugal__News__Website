@@ -148,6 +148,8 @@ function test() {
         [T('library.b'), { tool_name: 'WebFetch', tool_input: { url: 'https://example.org/a' } }, 'allow', 'another host is read'],
         [T('library.b'), bash('curl -s https://lu.ma/event'), 'deny', 'curl of lu.ma'],
         [T('library.b'), bash('curl -s https://eventbrite.com/x'), 'deny', 'curl of eventbrite.com'],
+        [T('bulletins.b'), w('content/articles/x.md'), 'deny', 'bulletins.b writes this repository outside its folders'],
+        [T('live.b'), w('board/team/live.b/status.json'), 'allow', 'live.b writes its own folder here'],
         [T('civic.b'), w('content/articles/x.md'), 'deny', 'a site lead writes this repository outside its folders'],
         [T('civic.b'), w('board/team/civic.b/status.json'), 'allow', 'a site lead writes its own folder here'],
         [T('civic.b'), { tool_name: 'Agent', tool_input: {} }, 'allow', 'a site lead runs sub-agents'],

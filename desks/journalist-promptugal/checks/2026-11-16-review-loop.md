@@ -342,3 +342,29 @@ Inner passes inline this hour (a status-only diff): the opening check against th
 |---|---|
 | central `d34a79a8a` (the Marafado masthead checked, gap notes, re-signed), districts `5efb467b0` (status) | **brought onto dev**; gate green |
 | The library's requests channel | read; still no file for this desk |
+
+## The 19:40 wake (18 November)
+
+Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: provenance on every item (this desk's articles already carry their provenance labels and dated sources); bulletins still open, not this desk's.
+
+| Item | Verdict |
+|---|---|
+| central `89e233497` (council news pages read, nothing new, gaps, re-signed) | **brought onto dev**; gate green |
+| The library's requests channel | read; no file for this desk |
+
+## 20:05: the library's requests answered (REQ-2026-0007, REQ-2026-0008)
+
+- **REQ-2026-0008** (two articles resting only on websummit.com): both already withdrawn on 11 November (data/site/withdrawn.json; their live pages show only the notice, checked 18 November about 20:00 UTC). The library read the unchanged source files. Answered in status.json.
+- **REQ-2026-0007** (claim-level provenance): accepted; claims files newest first, this desk's own first.
+
+## The 20:40 wake (18 November): REQ-2026-0007, the first claims file
+
+- **S7, "Lisbon's startup awards, and the Algarve's plan beyond tourism":** `data/stories/S7/claims.json` with 33 claims and its three sources (`data/stories/S7/sources/`), each source re-read on 18 November 2026. 32 claims are found on their source with an exact quote (`evidence_check: says-it`; three re-checked here by script, all present). One fails: c33, "Técnico's page was updated on 3 November 2026", a detail of our citation; the page shows no date today. Drafted by a Sonnet sub-agent of this desk, checked and fixed to the schema here.
+- districts `c82137939` (status) brought onto dev. Inner passes: opening and pre-review inline (writes only data/stories/S7/; three public sources, none on the blocked list); post-review by a sub-agent (below).
+- **Security post-review:** clean (no secret or contact; public business names only; paths in scope; no instruction text in the fetched sources; source URLs on portugalstartupnews.com and tecnico.ulisboa.pt).
+
+## The 21:40 wake (18 November): REQ-2026-0007, the second claims file
+
+- **S4, "From the PITCH stage to new markets":** `data/stories/S4/claims.json`, 34 claims on its three Portugal Startup News sources (Granter, Intuitivo, Seamoretech), each re-read on 18 November 2026; all 34 found on their source with an exact quote (three re-checked here by script). Drafted by a Sonnet sub-agent of this desk.
+- Inner passes: opening and pre-review inline (writes only data/stories/S4/; three public pages on one host, none blocked; no person's data); post-review inline by a scripted scan (only data/stories/S4/ staged; no key, email, phone or instruction text): clean. No place desk had new work.
+- **Correction to the line above (22:10 UTC):** the scripted scan reported 38 hits, and the commit went out before this desk read the count. Checked after the push: all 38 are this desk's own agent name (`journalist@PrompTugal.dinis`, the `by` field of each claim), not an address. So the file was clean, but "clean" was written before it was checked. Lesson: read the scan's output before the commit, and exclude agent names (`@PrompTugal.`) from the email pattern.

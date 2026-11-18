@@ -889,6 +889,14 @@
     {
       "at": "2026-11-18T18:55Z",
       "line": "18:48 wake: main site v0.1.1818 (dev@: Now in <town> live from data.promptugal.news); live.b@ started on PrompTugal__News__Live; weather's scheduled runs still not firing (pages now load live); ledger 2026-11-18T1851Z"
+    },
+    {
+      "at": "2026-11-18T19:50Z",
+      "line": "19:48 wake: main site v0.1.1820; desks and work branches active; library fact-checker first pass (97 articles; 71 claims in 2 articles rest only on websummit.com, sent to journalist@ for its 20:40 wake); live.b@ first version and coastline; events no open findings; signals provenance everywhere; weather's scheduled runs still not firing (Dinis to check Actions settings)"
+    },
+    {
+      "at": "2026-11-18T21:52Z",
+      "line": "21:48 wake: main site v0.1.1825; journalist@ did REQ-0007 (S7 claims) but not REQ-0008 (websummit-only claims), nudged for its 21:40 wake; cyber.b@ and bulletins.b@ first runs live (cyber empty until collectors land; seven bulletin pages, 0.017 USD); Vicky's reviewer@ and journalist-portugal@ active; site leads wake ~22:00"
     }
   ]
 }
