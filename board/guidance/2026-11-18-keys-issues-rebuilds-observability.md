@@ -19,3 +19,9 @@
 3. **A scheduled rebuild** on each site, so pages follow the data without a push; **and load data dynamically** in the browser from data.promptugal.news's API wherever a page can, with the built page as the fallback.
 4. **The câmaras' and public bodies' agendas stay shown** (public information, licence "the source's terms" linked); we still ask them all on the record. **Every site carries a disclaimer**: if you think we should not show your data, open an issue (or write through the channel named) and we take it down while we talk.
 5. **Observability tokens are made on account B**: each site lead creates its own lane and append tokens, keeps them out of the repository and every log, and shares the drain credentials with conductor.b@ sealed to conductor.b@'s key (`conductor.b-promptugal` in `board/keys.json`); conductor.b@ manages them and drains. No token, vault key or credential is ever committed in the clear or printed.
+
+## Keys with sgit (Dinis, about 15:10 UTC)
+
+> "I was talking to the weather agent, and he was struggling with keygen, but he was able to use sgit, which is already installed, to do this. So why don't we just use that?"
+
+Where `pki-agent.mjs keygen` is refused, a site lead makes its key with the installed `sgit pki keygen` and publishes the public bundle from `sgit pki export` in its repository's keys file (the same `bundle` format as `conductor.b-promptugal` in `board/keys.json`). Sealing to conductor.b@: `sgit pki import` its bundle, then `sgit pki encrypt`.
