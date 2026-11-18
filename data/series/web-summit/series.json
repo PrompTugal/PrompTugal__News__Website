@@ -1,0 +1,87 @@
+{
+  "$schema": "../../schemas/series.schema.json",
+  "id": "web-summit",
+  "type": "series",
+  "name": "Web Summit",
+  "organised_by": "organisation:web-summit",
+  "recurrence": "annual",
+  "editions": [
+    {
+      "event": "event:web-summit-dublin-2010",
+      "edition": "2010"
+    },
+    {
+      "event": "event:web-summit-dublin-2011",
+      "edition": "2011"
+    },
+    {
+      "event": "event:web-summit-dublin-2012",
+      "edition": "2012"
+    },
+    {
+      "event": "event:web-summit-dublin-2013",
+      "edition": "2013"
+    },
+    {
+      "event": "event:web-summit-dublin-2014",
+      "edition": "2014"
+    },
+    {
+      "event": "event:web-summit-dublin-2015",
+      "edition": "2015"
+    },
+    {
+      "event": "event:web-summit-lisbon-2016",
+      "edition": "2016"
+    },
+    {
+      "event": "event:web-summit-lisbon-2017",
+      "edition": "2017"
+    },
+    {
+      "event": "event:web-summit-lisbon-2018",
+      "edition": "2018"
+    },
+    {
+      "event": "event:web-summit-lisbon-2019",
+      "edition": "2019"
+    },
+    {
+      "event": "event:web-summit-online-2020",
+      "edition": "2020"
+    },
+    {
+      "event": "event:web-summit-lisbon-2021",
+      "edition": "2021"
+    },
+    {
+      "event": "event:web-summit-lisbon-2022",
+      "edition": "2022"
+    },
+    {
+      "event": "event:web-summit-lisbon-2023",
+      "edition": "2023"
+    },
+    {
+      "event": "event:web-summit-lisbon-2024",
+      "edition": "2024"
+    },
+    {
+      "event": "event:web-summit-lisbon-2025",
+      "edition": "2025"
+    },
+    {
+      "event": "event:web-summit-lisbon-2026",
+      "edition": "2026"
+    }
+  ],
+  "note": "The editions are the events data/events/web-summit-<place>-<year> (2010 Dublin to 2026 Lisbon, 2020 online); each is sourced on its own record.",
+  "sources": [
+    {
+      "url": "https://websummit.com/",
+      "read_at": "2026-11-18T15:00Z",
+      "by": "ontologist@PrompTugal.dinis",
+      "how": "the organiser's home page; the editions are each event's own record"
+    }
+  ]
+}

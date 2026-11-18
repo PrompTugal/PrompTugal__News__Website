@@ -1,0 +1,84 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-18T14-53-14Z",
+ "started": "2026-11-18T14:53:14.382Z",
+ "ended": "2026-11-18T14:56:07Z",
+ "line": "weather.b-promptugal (sgit) listed in board/keys.json; civic and events hold for Dinis in their sessions",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T14:54:39.785Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T14:54:49.934Z",
+   "chars": 306,
+   "sha256": "d9d8ef78eb184b6f",
+   "head": "I was talking to the weather agent, and he was struggling with Keygen, but he was able to use skit, which is already installed, to do this. So why don't we just use that? And can you list again the se"
+  },
+  {
+   "t": "2026-11-18T14:55:46.899Z",
+   "chars": 470,
+   "sha256": "76b8cd2a82a7bc8b",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>2 unread notifications (message from another Claude session: 2)</summary>\nNotifications are que"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 15,
+  "by_kind": {
+   "remote-conduct": 6,
+   "other": 2,
+   "git": 2,
+   "shell": 3,
+   "git-push": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 15,
+  "commits": [
+   {
+    "sha": "9d73bc2c8",
+    "subject": "conductor.b@PrompTugal.dinis: guidance, keys with sgit pki where pki-agent is refused",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 15,
+  "in_mandate": 15,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

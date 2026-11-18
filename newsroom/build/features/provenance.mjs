@@ -5,6 +5,7 @@
 // and the story rail: the signed markdown twin stays as signed. The filters and the radar follow. dev@PrompTugal.dinis.
 import { readFileSync } from 'node:fs'
 import { render } from '../lib/markdown.mjs'
+import { ours } from '../lib/licence.mjs'
 export const order = 20   // runs before story-rail (21), so the address sits above this strip
 export const assets = { css: ['assets/provenance/provenance.css'] }
 let W = null
@@ -49,7 +50,7 @@ export function api(ctx) {
     const rows = ctx.pages.filter(isArticle).map(p => {
         const m = p.meta || {}, v = provenanceOf(m)
         return { url: p.rel, title: m.title, date: m.date, type: String(m.type || '').toLowerCase() || null, origin: m.provenance_origin || null,
-            research: m.provenance_research || null, level: v ? v.level : null, words: v }
+            research: m.provenance_research || null, level: v ? v.level : null, words: v, license: ours() }
     }).sort((a, b) => String(b.date).localeCompare(String(a.date)))
     return [{ path: 'api/v1/articles/provenance.json', schema: null, data: { about: w.about_api, version: ctx.VERSION, built: ctx.TODAY,
         filters: w.filters, ladder: w.level, articles: rows } }]
