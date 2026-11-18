@@ -1,0 +1,136 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "telemetry.b@PrompTugal.dinis",
+ "run": "2026-11-18T20-26-36Z",
+ "started": "2026-11-18T20:26:36.690Z",
+ "ended": "2026-11-18T20:27:45Z",
+ "line": "Cost refresh, tool and host sample for 7 more sessions",
+ "policy": {
+  "version": "1.15.2",
+  "sha256": "f889a86033a7c585"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T20:26:37.018Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-18T20:27:31.650Z",
+   "chars": 1691,
+   "sha256": "a70f391eabf329a0",
+   "head": "<agent-message from=\"a35fee3fef4f40dbc\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-18T20:27:31.732Z",
+   "chars": 2472,
+   "sha256": "16896277b4565c80",
+   "head": "<agent-message from=\"a10a3525adff66a49\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-18T20:26:36.690Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 43,
+  "by_kind": {
+   "other": 1,
+   "git": 1,
+   "agent": 4,
+   "remote-read": 29,
+   "remote": 7,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R2": 7
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 36,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 7,
+  "denied": [
+   {
+    "t": "2026-11-18T20:27:13.766Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads another session's transcript: only telemetry.b@ may (Dinis, 18 Nov 2026, board/guidance/2026-11-18-telemetry-and-sub-agents.md)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-18T20:27:14.449Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads another session's transcript: only telemetry.b@ may (Dinis, 18 Nov 2026, board/guidance/2026-11-18-telemetry-and-sub-agents.md)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-18T20:27:15.286Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads another session's transcript: only telemetry.b@ may (Dinis, 18 Nov 2026, board/guidance/2026-11-18-telemetry-and-sub-agents.md)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-18T20:27:16.051Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads another session's transcript: only telemetry.b@ may (Dinis, 18 Nov 2026, board/guidance/2026-11-18-telemetry-and-sub-agents.md)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-18T20:27:16.815Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads another session's transcript: only telemetry.b@ may (Dinis, 18 Nov 2026, board/guidance/2026-11-18-telemetry-and-sub-agents.md)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-18T20:27:17.737Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads another session's transcript: only telemetry.b@ may (Dinis, 18 Nov 2026, board/guidance/2026-11-18-telemetry-and-sub-agents.md)",
+    "target": ""
+   },
+   {
+    "t": "2026-11-18T20:27:18.497Z",
+    "tool": "mcp__claude-code-remote__list_events",
+    "rule": "R2",
+    "what": "list_events reads another session's transcript: only telemetry.b@ may (Dinis, 18 Nov 2026, board/guidance/2026-11-18-telemetry-and-sub-agents.md)",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 7
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 43,
+  "in_mandate": 36,
+  "out_of_mandate": 7,
+  "attempts": 7,
+  "breaches": 0
+ }
+}
