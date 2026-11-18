@@ -1,20 +1,49 @@
 ---
 title: "Shelf list: PUB, The publication (part 13 of 16)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T01:00:02Z"
-site_version: "v0.1.1763"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T03:59:46Z"
+site_version: "v0.1.1771"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 13 of 16)
 
-100 cards, from `PUB.SITE provenance:20` to `PUB.SITE regiao-de-leiria`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE porto:8` to `PUB.SITE radio-hertz`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1201 to 1225**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE porto:8` | [PrompTugal.news Porto](https://promptugal.news/fr-FR/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE porto:9` | [PrompTugal.news Porto](https://promptugal.news/it-IT/portugal/porto/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE portugal` | [PrompTugal.news Portugal](https://promptugal.news/portugal/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE portugal-resident` | [Portugal Resident](https://promptugal.news/media/portugal-resident/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE portugal:2` | [The proof layer: Portugal](https://promptugal.news/agentic-system/proof/portugal/) | site |  |
+| `PUB.SITE portugal:3` | [Portugal: AI in context](https://promptugal.news/query/decks/portugal/) | site |  |
+| `PUB.SITE portugal:4` | [Portugal: the data](https://promptugal.news/query/portugal/) | site |  |
+| `PUB.SITE postal-do-algarve` | [Postal do Algarve](https://promptugal.news/media/postal-do-algarve/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE pplware` | [Pplware](https://promptugal.news/media/pplware/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE pressnet` | [Pressnet](https://promptugal.news/media/pressnet/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE profile` | [Your profile](https://promptugal.news/profile/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE proof` | [The proof layer: every story's chain of custody](https://promptugal.news/agentic-system/proof/) | site | viz.places@ 16 Nov 2026 |
+| `PUB.SITE provenance` | [Albufeira: provenance](https://promptugal.news/query/albufeira/provenance/) | site |  |
+| `PUB.SITE provenance:10` | [Castro Marim: provenance](https://promptugal.news/query/castro-marim/provenance/) | site |  |
+| `PUB.SITE provenance:11` | [Coimbra: provenance](https://promptugal.news/query/coimbra/provenance/) | site |  |
+| `PUB.SITE provenance:12` | [Évora: provenance](https://promptugal.news/query/evora/provenance/) | site |  |
+| `PUB.SITE provenance:13` | [Faro: provenance](https://promptugal.news/query/faro/provenance/) | site |  |
+| `PUB.SITE provenance:14` | [Guarda: provenance](https://promptugal.news/query/guarda/provenance/) | site |  |
+| `PUB.SITE provenance:15` | [Lagoa: provenance](https://promptugal.news/query/lagoa/provenance/) | site |  |
+| `PUB.SITE provenance:16` | [Lagos: provenance](https://promptugal.news/query/lagos/provenance/) | site |  |
+| `PUB.SITE provenance:17` | [Leiria: provenance](https://promptugal.news/query/leiria/provenance/) | site |  |
+| `PUB.SITE provenance:18` | [Lisboa: provenance](https://promptugal.news/query/lisboa/provenance/) | site |  |
+| `PUB.SITE provenance:19` | [Loulé: provenance](https://promptugal.news/query/loule/provenance/) | site |  |
+| `PUB.SITE provenance:2` | [Alcoutim: provenance](https://promptugal.news/query/alcoutim/provenance/) | site |  |
 | `PUB.SITE provenance:20` | [Monchique: provenance](https://promptugal.news/query/monchique/provenance/) | site |  |
+
+**Cards 1226 to 1250**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `PUB.SITE provenance:21` | [Olhão: provenance](https://promptugal.news/query/olhao/provenance/) | site |  |
 | `PUB.SITE provenance:22` | [Portalegre: provenance](https://promptugal.news/query/portalegre/provenance/) | site |  |
 | `PUB.SITE provenance:23` | [Portimão: provenance](https://promptugal.news/query/portimao/provenance/) | site |  |
@@ -39,12 +68,12 @@ source: board/catalogue.json
 | `PUB.SITE provenance:8` | [Bragança: provenance](https://promptugal.news/query/braganca/provenance/) | site |  |
 | `PUB.SITE provenance:9` | [Castelo Branco: provenance](https://promptugal.news/query/castelo-branco/provenance/) | site |  |
 | `PUB.SITE pt` | [PrompTugal: a tese de investimento](https://promptugal.news/investors/decks/1-the-investment-case/pt/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE pt-jornal` | [PT Jornal](https://promptugal.news/media/pt-jornal/) | site | dev.places@ 16 Nov 2026 |
 
-**Cards 1226 to 1250**
+**Cards 1251 to 1275**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
-| `PUB.SITE pt-jornal` | [PT Jornal](https://promptugal.news/media/pt-jornal/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE pt:10` | [PrompTugal: o mapa das apresentações](https://promptugal.news/investors/decks/0-the-map/pt/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE pt:11` | [PrompTugal para investidores e parceiros](https://promptugal.news/investors/pt/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE pt:2` | [PrompTugal: o setor das notícias, e a direção certa](https://promptugal.news/investors/decks/2-the-industry/pt/) | site | investors@ 7 Nov 2026 |
@@ -69,8 +98,9 @@ source: board/catalogue.json
 | `PUB.SITE quarteira:15` | [Quarteira: the data](https://promptugal.news/query/quarteira/) | site |  |
 | `PUB.SITE quarteira:16` | [PrompTugal.news Quarteira](https://promptugal.news/pl-PL/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE quarteira:17` | [PrompTugal.news Quarteira](https://promptugal.news/hr-HR/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE quarteira:18` | [PrompTugal.news Quarteira](https://promptugal.news/ro-RO/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
 
-**Cards 1251 to 1275**
+**Cards 1276 to 1300**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
@@ -99,35 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE radio-fronteira` | [Rádio Fronteira](https://promptugal.news/media/radio-fronteira/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE radio-geice` | [Rádio Geice](https://promptugal.news/media/radio-geice/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE radio-hertz` | [Rádio Hertz](https://promptugal.news/media/radio-hertz/) | site | dev.places@ 16 Nov 2026 |
-
-**Cards 1276 to 1300**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
-| `PUB.SITE radio-jornal-do-centro` | [Rádio Jornal do Centro](https://promptugal.news/media/radio-jornal-do-centro/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-m80-aveiro` | [M80 Aveiro](https://promptugal.news/media/radio-m80-aveiro/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-m80-braganca` | [M80 Bragança](https://promptugal.news/media/radio-m80-braganca/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-m80-coimbra` | [M80 Coimbra](https://promptugal.news/media/radio-m80-coimbra/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-m80-leiria` | [M80 Leiria](https://promptugal.news/media/radio-m80-leiria/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-m80-porto` | [M80 Porto](https://promptugal.news/media/radio-m80-porto/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-m80-vila-real` | [M80 Vila Real](https://promptugal.news/media/radio-m80-vila-real/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-mega-hits` | [Mega Hits](https://promptugal.news/media/radio-mega-hits/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-mega-hits-aveiro` | [Mega Hits Aveiro](https://promptugal.news/media/radio-mega-hits-aveiro/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-mega-hits-braga` | [Mega Hits Braga](https://promptugal.news/media/radio-mega-hits-braga/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-mega-hits-coimbra` | [Mega Hits - Coimbra](https://promptugal.news/media/radio-mega-hits-coimbra/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-mega-hits-viseu` | [Mega Hits Viseu](https://promptugal.news/media/radio-mega-hits-viseu/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-observador-leiria` | [Rádio Observador Leiria](https://promptugal.news/media/radio-observador-leiria/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-pax` | [Rádio Pax](https://promptugal.news/media/radio-pax/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-portalegre` | [Rádio Portalegre](https://promptugal.news/media/radio-portalegre/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-rci` | [RCI](https://promptugal.news/media/radio-rci/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-record-leiria` | [Record Leiria](https://promptugal.news/media/radio-record-leiria/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-record-santarem` | [Record Santarém](https://promptugal.news/media/radio-record-santarem/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-smooth-fm-lisboa` | [Smooth FM Lisboa](https://promptugal.news/media/radio-smooth-fm-lisboa/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-smooth-fm-santarem` | [Smooth FM Santarém](https://promptugal.news/media/radio-smooth-fm-santarem/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-valdevez` | [Rádio Valdevez](https://promptugal.news/media/radio-valdevez/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-voz-do-marao` | [Rádio Voz do Marão](https://promptugal.news/media/radio-voz-do-marao/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE rede-regional` | [Rede Regional](https://promptugal.news/media/rede-regional/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE regiao-de-coimbra` | [Região de Coimbra](https://promptugal.news/media/regiao-de-coimbra/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE regiao-de-leiria` | [Região de Leiria](https://promptugal.news/media/regiao-de-leiria/) | site | dev.places@ 16 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-12.md) | [Next part](PUB-14.md)

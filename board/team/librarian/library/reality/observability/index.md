@@ -18,19 +18,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-9 cards (9 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-18T01:00:02Z at site v0.1.1763; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+12 cards (12 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-18T03:59:46Z at site v0.1.1771; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `RDR.OBS` | 9 |
+| `RDR.OBS` | 12 |
 
 Newest five accessions:
 
+- `ACC-20261118-0088` [observability@PrompTugal.dinis: hand-over debrief, 18 November 2026 (01:35 UTC)](https://promptugal.news/board/team/observability/debriefs/2026-11-18-handover.md) (`RDR.OBS 2026-11-18-handover`)
+- `ACC-20261118-0087` [observability@PrompTugal.dinis: hand-over debrief for a new session on another account (16 November 2026, 15:40 UTC)](https://promptugal.news/board/team/observability/debriefs/2026-11-16-account-move.md) (`RDR.OBS 2026-11-16-account-move`)
+- `ACC-20261118-0086` [observability@PrompTugal.dinis: hand-over debrief, 12 November 2026 (18:30 UTC)](https://promptugal.news/board/team/observability/debriefs/2026-11-12-handover.md) (`RDR.OBS 2026-11-12-handover`)
 - `ACC-20261117-0349` [observability session 2 (17 November 2026)](https://promptugal.news/board/team/observability/sessions/s2/notes.md) (`RDR.OBS notes`)
 - `ACC-20261117-0348` [observability@PrompTugal.dinis: hand-over debrief, 17 November 2026 (session 2, 18:30 UTC)](https://promptugal.news/board/team/observability/debriefs/2026-11-17-handover.md) (`RDR.OBS 2026-11-17-handover`)
-- `ACC-20261111-0141` [observability@PrompTugal.dinis: hand-over debrief, 11 November 2026 (18:30 UTC)](https://promptugal.news/board/team/observability/debriefs/2026-11-11-handover.md) (`RDR.OBS 2026-11-11-handover`)
-- `ACC-20261110-0291` [observability@PrompTugal.dinis: hand-over debrief, 10 November 2026 (19:30 UTC)](https://promptugal.news/board/team/observability/debriefs/2026-11-10-handover.md) (`RDR.OBS 2026-11-10-handover`)
-- `ACC-20261109-0479` [observability@PrompTugal.dinis: hand-over debrief, 9 November 2026 (19:30 UTC)](https://promptugal.news/board/team/observability/debriefs/2026-11-09-handover.md) (`RDR.OBS 2026-11-09-handover`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

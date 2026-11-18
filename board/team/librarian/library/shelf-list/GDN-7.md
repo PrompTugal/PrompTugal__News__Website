@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: GDN, Guidance (special) (part 7 of 7)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T01:00:02Z"
-site_version: "v0.1.1763"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T03:59:46Z"
+site_version: "v0.1.1771"
 source: board/catalogue.json
 ---
 
 # Shelf list: GDN, Guidance (special) (part 7 of 7)
 
-53 cards, from `GDN.MEMO 2026-11-06-the-ideas-ledger` to `GDN.Q Q9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+54 cards, from `GDN.MEMO 2026-11-06-the-ideas-ledger` to `GDN.Q Q9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 601 to 625**
 
@@ -58,6 +58,7 @@ source: board/catalogue.json
 | `GDN.MEMO 2026-11-16-the-home-page-is-the-places-and-the-districts` | [The home page is the places; a Portugal map; every district capital; summit material to national and international; links and connections everywhere](https://promptugal.news/board/guidance/2026-11-16-the-home-page-is-the-places-and-the-districts.md) | guidance | conductor@ 16 Nov 2026 |
 | `GDN.MEMO 2026-11-16-translators-and-a-translation-memory` | [Translators for the content, with a translation memory so nothing is translated twice](https://promptugal.news/board/guidance/2026-11-16-translators-and-a-translation-memory.md) | guidance | conductor@ 16 Nov 2026 |
 | `GDN.MEMO 2026-11-17-one-reader-across-devices` | [One reader across devices, and the personal PrompTugal.news](https://promptugal.news/board/guidance/2026-11-17-one-reader-across-devices.md) | guidance | conductor@ 17 Nov 2026 |
+| `GDN.MEMO 2026-11-18-five-sites-on-account-b` | [The five sites' teams start on account B, named .b, each with observability; the main site's observability stays on the other account](https://promptugal.news/board/guidance/2026-11-18-five-sites-on-account-b.md) | guidance | conductor.b@ 18 Nov 2026 |
 | `GDN.MEMO README` | [Dinis's guidance for PrompTugal.news](https://promptugal.news/board/guidance/README.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.Q Q1` | [how many files and gigabytes of data they already have, and the runs, and how often they're doing the runs](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q10` | [who actually has read this?" (the synthetic findings)](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `GDN.Q Q3` | [I have a bunch of ideas on how to do this, but let's iterate](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q4` | [The only question is whether it gets captured and it gets saved](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q5` | [The user area's name ("you", "logged in", "user")](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
-| `GDN.Q Q6` | [A graphs agent, "a roof.sgit agent ... or maybe we have both](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 
-**Cards 651 to 653**
+**Cards 651 to 654**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `GDN.Q Q6` | [A graphs agent, "a roof.sgit agent ... or maybe we have both](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q7` | [a UX expert, you know, do we need that? You know, like, do we have enough coverage of these domains?](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q8` | [He named "news.sgit.ai" as the model for the articles page](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q9` | [Do we have those hourly articles](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |

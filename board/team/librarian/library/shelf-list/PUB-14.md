@@ -1,16 +1,46 @@
 ---
 title: "Shelf list: PUB, The publication (part 14 of 16)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T01:00:02Z"
-site_version: "v0.1.1763"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T03:59:46Z"
+site_version: "v0.1.1771"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 14 of 16)
 
-100 cards, from `PUB.SITE regiao-de-lisboa` to `PUB.SITE summit`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE radio-jornal-do-centro` to `PUB.SITE setubal:4`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1301 to 1325**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
+| `PUB.SITE radio-jornal-do-centro` | [Rádio Jornal do Centro](https://promptugal.news/media/radio-jornal-do-centro/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-m80-aveiro` | [M80 Aveiro](https://promptugal.news/media/radio-m80-aveiro/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-m80-braganca` | [M80 Bragança](https://promptugal.news/media/radio-m80-braganca/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-m80-coimbra` | [M80 Coimbra](https://promptugal.news/media/radio-m80-coimbra/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-m80-leiria` | [M80 Leiria](https://promptugal.news/media/radio-m80-leiria/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-m80-porto` | [M80 Porto](https://promptugal.news/media/radio-m80-porto/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-m80-vila-real` | [M80 Vila Real](https://promptugal.news/media/radio-m80-vila-real/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-mega-hits` | [Mega Hits](https://promptugal.news/media/radio-mega-hits/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-mega-hits-aveiro` | [Mega Hits Aveiro](https://promptugal.news/media/radio-mega-hits-aveiro/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-mega-hits-braga` | [Mega Hits Braga](https://promptugal.news/media/radio-mega-hits-braga/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-mega-hits-coimbra` | [Mega Hits - Coimbra](https://promptugal.news/media/radio-mega-hits-coimbra/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-mega-hits-viseu` | [Mega Hits Viseu](https://promptugal.news/media/radio-mega-hits-viseu/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-observador-leiria` | [Rádio Observador Leiria](https://promptugal.news/media/radio-observador-leiria/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-pax` | [Rádio Pax](https://promptugal.news/media/radio-pax/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-portalegre` | [Rádio Portalegre](https://promptugal.news/media/radio-portalegre/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-rci` | [RCI](https://promptugal.news/media/radio-rci/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-record-leiria` | [Record Leiria](https://promptugal.news/media/radio-record-leiria/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-record-santarem` | [Record Santarém](https://promptugal.news/media/radio-record-santarem/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-smooth-fm-lisboa` | [Smooth FM Lisboa](https://promptugal.news/media/radio-smooth-fm-lisboa/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-smooth-fm-santarem` | [Smooth FM Santarém](https://promptugal.news/media/radio-smooth-fm-santarem/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-valdevez` | [Rádio Valdevez](https://promptugal.news/media/radio-valdevez/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-voz-do-marao` | [Rádio Voz do Marão](https://promptugal.news/media/radio-voz-do-marao/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE rede-regional` | [Rede Regional](https://promptugal.news/media/rede-regional/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE regiao-de-coimbra` | [Região de Coimbra](https://promptugal.news/media/regiao-de-coimbra/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE regiao-de-leiria` | [Região de Leiria](https://promptugal.news/media/regiao-de-leiria/) | site | dev.places@ 16 Nov 2026 |
+
+**Cards 1326 to 1350**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
@@ -40,10 +70,11 @@ source: board/catalogue.json
 | `PUB.SITE santarem:16` | [PrompTugal.news Santarém](https://promptugal.news/pl-PL/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE santarem:17` | [PrompTugal.news Santarém](https://promptugal.news/hr-HR/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
-**Cards 1326 to 1350**
+**Cards 1351 to 1375**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE santarem:18` | [PrompTugal.news Santarém](https://promptugal.news/ro-RO/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE santarem:2` | [PrompTugal.news Santarém](https://promptugal.news/de-CH/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE santarem:3` | [PrompTugal.news Santarém](https://promptugal.news/de-DE/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE santarem:4` | [PrompTugal.news Santarém](https://promptugal.news/es-AR/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -61,19 +92,20 @@ source: board/catalogue.json
 | `PUB.SITE sao-bras-de-alportel:15` | [São Brás de Alportel: the data](https://promptugal.news/query/sao-bras-de-alportel/) | site |  |
 | `PUB.SITE sao-bras-de-alportel:16` | [PrompTugal.news São Brás de Alportel](https://promptugal.news/pl-PL/algarve/sao-bras-de-alportel/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE sao-bras-de-alportel:17` | [PrompTugal.news São Brás de Alportel](https://promptugal.news/hr-HR/algarve/sao-bras-de-alportel/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE sao-bras-de-alportel:18` | [PrompTugal.news São Brás de Alportel](https://promptugal.news/ro-RO/algarve/sao-bras-de-alportel/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE sao-bras-de-alportel:2` | [PrompTugal.news São Brás de Alportel](https://promptugal.news/algarve/sao-bras-de-alportel/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE sao-bras-de-alportel:3` | [PrompTugal.news São Brás de Alportel](https://promptugal.news/de-CH/algarve/sao-bras-de-alportel/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE sao-bras-de-alportel:4` | [PrompTugal.news São Brás de Alportel](https://promptugal.news/de-DE/algarve/sao-bras-de-alportel/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE sao-bras-de-alportel:5` | [PrompTugal.news São Brás de Alportel](https://promptugal.news/es-AR/algarve/sao-bras-de-alportel/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE sao-bras-de-alportel:6` | [PrompTugal.news São Brás de Alportel](https://promptugal.news/es-ES/algarve/sao-bras-de-alportel/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE sao-bras-de-alportel:7` | [PrompTugal.news São Brás de Alportel](https://promptugal.news/es-MX/algarve/sao-bras-de-alportel/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE sao-bras-de-alportel:8` | [PrompTugal.news São Brás de Alportel](https://promptugal.news/fr-CA/algarve/sao-bras-de-alportel/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE sao-bras-de-alportel:9` | [PrompTugal.news São Brás de Alportel](https://promptugal.news/fr-FR/algarve/sao-bras-de-alportel/) | site | dev@ 6 Nov 2026 |
 
-**Cards 1351 to 1375**
+**Cards 1376 to 1400**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE sao-bras-de-alportel:8` | [PrompTugal.news São Brás de Alportel](https://promptugal.news/fr-CA/algarve/sao-bras-de-alportel/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE sao-bras-de-alportel:9` | [PrompTugal.news São Brás de Alportel](https://promptugal.news/fr-FR/algarve/sao-bras-de-alportel/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE sao-miguel-news` | [São Miguel News](https://promptugal.news/media/sao-miguel-news/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE search` | [Search](https://promptugal.news/search/) | site | newsroom-interact@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE security` | [security@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/security/) | site |  |
@@ -93,41 +125,9 @@ source: board/catalogue.json
 | `PUB.SITE setubal:15` | [Setúbal: the data](https://promptugal.news/query/setubal/) | site |  |
 | `PUB.SITE setubal:16` | [PrompTugal.news Setúbal](https://promptugal.news/pl-PL/portugal/setubal/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE setubal:17` | [PrompTugal.news Setúbal](https://promptugal.news/hr-HR/portugal/setubal/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE setubal:18` | [PrompTugal.news Setúbal](https://promptugal.news/ro-RO/portugal/setubal/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE setubal:2` | [PrompTugal.news Setúbal](https://promptugal.news/de-CH/portugal/setubal/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE setubal:3` | [PrompTugal.news Setúbal](https://promptugal.news/de-DE/portugal/setubal/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE setubal:4` | [PrompTugal.news Setúbal](https://promptugal.news/es-AR/portugal/setubal/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE setubal:5` | [PrompTugal.news Setúbal](https://promptugal.news/es-ES/portugal/setubal/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE setubal:6` | [PrompTugal.news Setúbal](https://promptugal.news/es-MX/portugal/setubal/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE setubal:7` | [PrompTugal.news Setúbal](https://promptugal.news/fr-CA/portugal/setubal/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-
-**Cards 1376 to 1400**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
-| `PUB.SITE setubal:8` | [PrompTugal.news Setúbal](https://promptugal.news/fr-FR/portugal/setubal/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE setubal:9` | [PrompTugal.news Setúbal](https://promptugal.news/it-IT/portugal/setubal/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE sherpa` | [sherpa@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/sherpa/) | site |  |
-| `PUB.SITE shifter` | [Shifter](https://promptugal.news/media/shifter/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE sic-noticias` | [SIC Notícias](https://promptugal.news/media/sic-noticias/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE silves` | [The proof layer: Silves](https://promptugal.news/agentic-system/proof/silves/) | site |  |
-| `PUB.SITE silves:10` | [PrompTugal.news Silves](https://promptugal.news/it-IT/algarve/silves/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE silves:11` | [PrompTugal.news Silves](https://promptugal.news/nl-NL/algarve/silves/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE silves:12` | [PrompTugal.news Silves](https://promptugal.news/pt-BR/algarve/silves/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE silves:13` | [PrompTugal.news Silves](https://promptugal.news/pt-PT/algarve/silves/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE silves:14` | [Silves: AI in context](https://promptugal.news/query/decks/silves/) | site |  |
-| `PUB.SITE silves:15` | [Silves: the data](https://promptugal.news/query/silves/) | site |  |
-| `PUB.SITE silves:16` | [PrompTugal.news Silves](https://promptugal.news/pl-PL/algarve/silves/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE silves:17` | [PrompTugal.news Silves](https://promptugal.news/hr-HR/algarve/silves/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE silves:2` | [PrompTugal.news Silves](https://promptugal.news/algarve/silves/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE silves:3` | [PrompTugal.news Silves](https://promptugal.news/de-CH/algarve/silves/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE silves:4` | [PrompTugal.news Silves](https://promptugal.news/de-DE/algarve/silves/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE silves:5` | [PrompTugal.news Silves](https://promptugal.news/es-AR/algarve/silves/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE silves:6` | [PrompTugal.news Silves](https://promptugal.news/es-ES/algarve/silves/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE silves:7` | [PrompTugal.news Silves](https://promptugal.news/es-MX/algarve/silves/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE silves:8` | [PrompTugal.news Silves](https://promptugal.news/fr-CA/algarve/silves/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE silves:9` | [PrompTugal.news Silves](https://promptugal.news/fr-FR/algarve/silves/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE social.watch` | [social.watch@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/social.watch/) | site |  |
-| `PUB.SITE stories` | [The best of the graph](https://promptugal.news/graph/stories/) | site | newsroom-graph@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE summit` | [The summit](https://promptugal.news/summit/) | site | newsroom@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-13.md) | [Next part](PUB-15.md)

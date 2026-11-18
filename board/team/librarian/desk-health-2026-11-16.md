@@ -88,3 +88,9 @@ See `board/budgets.json` `restart_2026-11-16`. The one gap: a sibling session ca
 - **work/ branches:** the old seven unchanged (133 to 31). Restarted desks: place.districts 33, datasci.places 30, dev.places 22, place.algarve.west 20, researcher 19, designer.places 18, east 12, central 11, translator 11, sherpa 10. Mine, work/librarian: 9 commits not on dev (my 00:56 commit of 17 Nov was brought; later ones not). No review round seen since 06:56 on 17 Nov.
 - **Debriefs:** researcher@ and sherpa@ filed nothing on 16 or 17 Nov; every other restarted role has one from 17 Nov.
 - **New from Dinis (17 Nov 23:00):** no PrompTugal schedules on account A; conductor.b@ starts observability@ and the five sites' teams on account B. None names the librarian; the new sessions will need rows in the budget when they start.
+
+## Wake of 03:56 UTC, 18 November (twelfth run)
+- **Map:** v0.1.1771, 2,155 pages, 1,640 board files; library 7,906 cards, check OK, 43 tests green; life map 92 agents, 217 keys (122 active), 54 flagged (unchanged: the dormant old team).
+- **Costs** (ledger 03:50): 400.31 API-equivalent since the restart; **18 Nov so far 32.07 in three hours**, the night's pace (a day's line sums to far more; nobody near a line: the highest today are security@ 3.76, designer@ 3.43, translator@ 3.33, conductor.b@ 3.26, dev@ 2.46). Recorded in `restart_2026-11-16.readings` with `today_usd` against the 18 Nov baseline.
+- **work/ branches** not on dev: restarted desks steady, not growing: place.districts 34, datasci.places 33, dev.places 22, place.algarve.west 20, researcher 19, designer.places 19, translator 13, place.algarve.east 12, place.algarve.central 11, sherpa 11; work/librarian 10 (mine). The old seven unchanged (133 to 31). Commits to dev in the last three hours: 31 by agents, 7 by CI: reviewers are bringing a trickle on, but not the desks' backlog.
+- **Debriefs:** only researcher@ and sherpa@ have none from 17 Nov or later.

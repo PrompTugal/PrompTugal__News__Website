@@ -1,19 +1,29 @@
 ---
 title: "Shelf list: PUB, The publication (part 7 of 16)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T01:00:02Z"
-site_version: "v0.1.1763"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T03:59:46Z"
+site_version: "v0.1.1771"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 7 of 16)
 
-100 cards, from `PUB.SITE castro-marim:6` to `PUB.SITE designer`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE castro-marim:13` to `PUB.SITE costs:9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 601 to 625**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE castro-marim:13` | [PrompTugal.news Castro Marim](https://promptugal.news/pt-PT/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE castro-marim:14` | [Castro Marim: the data](https://promptugal.news/query/castro-marim/) | site |  |
+| `PUB.SITE castro-marim:15` | [Castro Marim: AI in context](https://promptugal.news/query/decks/castro-marim/) | site |  |
+| `PUB.SITE castro-marim:16` | [PrompTugal.news Castro Marim](https://promptugal.news/pl-PL/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE castro-marim:17` | [PrompTugal.news Castro Marim](https://promptugal.news/hr-HR/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE castro-marim:18` | [PrompTugal.news Castro Marim](https://promptugal.news/ro-RO/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE castro-marim:2` | [PrompTugal.news Castro Marim](https://promptugal.news/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE castro-marim:3` | [PrompTugal.news Castro Marim](https://promptugal.news/de-CH/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE castro-marim:4` | [PrompTugal.news Castro Marim](https://promptugal.news/de-DE/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE castro-marim:5` | [PrompTugal.news Castro Marim](https://promptugal.news/es-AR/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE castro-marim:6` | [PrompTugal.news Castro Marim](https://promptugal.news/es-ES/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE castro-marim:7` | [PrompTugal.news Castro Marim](https://promptugal.news/es-MX/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE castro-marim:8` | [PrompTugal.news Castro Marim](https://promptugal.news/fr-CA/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
@@ -29,6 +39,11 @@ source: board/catalogue.json
 | `PUB.SITE cloud-centres` | [The cloud centres](https://promptugal.news/graph/cloud-centres/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE cnn-portugal` | [CNN Portugal](https://promptugal.news/media/cnn-portugal/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE coimbra` | [The proof layer: Coimbra](https://promptugal.news/agentic-system/proof/coimbra/) | site |  |
+
+**Cards 626 to 650**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `PUB.SITE coimbra:10` | [PrompTugal.news Coimbra](https://promptugal.news/nl-NL/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE coimbra:11` | [PrompTugal.news Coimbra](https://promptugal.news/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE coimbra:12` | [PrompTugal.news Coimbra](https://promptugal.news/pt-BR/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -37,13 +52,9 @@ source: board/catalogue.json
 | `PUB.SITE coimbra:15` | [Coimbra: AI in context](https://promptugal.news/query/decks/coimbra/) | site |  |
 | `PUB.SITE coimbra:16` | [PrompTugal.news Coimbra](https://promptugal.news/pl-PL/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE coimbra:17` | [PrompTugal.news Coimbra](https://promptugal.news/hr-HR/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE coimbra:18` | [PrompTugal.news Coimbra](https://promptugal.news/ro-RO/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE coimbra:2` | [PrompTugal.news Coimbra](https://promptugal.news/de-CH/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE coimbra:3` | [PrompTugal.news Coimbra](https://promptugal.news/de-DE/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-
-**Cards 626 to 650**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `PUB.SITE coimbra:4` | [PrompTugal.news Coimbra](https://promptugal.news/es-AR/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE coimbra:5` | [PrompTugal.news Coimbra](https://promptugal.news/es-ES/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE coimbra:6` | [PrompTugal.news Coimbra](https://promptugal.news/es-MX/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -58,6 +69,11 @@ source: board/catalogue.json
 | `PUB.SITE conductor.b` | [conductor.b@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/conductor.b/) | site |  |
 | `PUB.SITE conductor.fringe` | [conductor.fringe@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/conductor.fringe/) | site |  |
 | `PUB.SITE contact` | [Talk to us](https://promptugal.news/investors/contact/) | site | investors@ 7 Nov 2026 |
+
+**Cards 651 to 675**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `PUB.SITE contact:2` | [Hable con nosotros](https://promptugal.news/investors/es/contact/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE contact:3` | [Parlez-nous](https://promptugal.news/investors/fr/contact/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE contact:4` | [Fale connosco](https://promptugal.news/investors/pt/contact/) | site | investors@ 7 Nov 2026 |
@@ -69,11 +85,6 @@ source: board/catalogue.json
 | `PUB.SITE correio-alentejo` | [Correio Alentejo](https://promptugal.news/media/correio-alentejo/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE correio-da-manha` | [Correio da Manhã (CM)](https://promptugal.news/media/correio-da-manha/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE correio-do-minho` | [Correio do Minho](https://promptugal.news/media/correio-do-minho/) | site | dev.places@ 16 Nov 2026 |
-
-**Cards 651 to 675**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `PUB.SITE correio-do-ribatejo` | [Correio do Ribatejo](https://promptugal.news/media/correio-do-ribatejo/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE correio-dos-acores` | [Correio dos Açores](https://promptugal.news/media/correio-dos-acores/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE correspondent` | [correspondent@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/correspondent/) | site |  |
@@ -88,6 +99,11 @@ source: board/catalogue.json
 | `PUB.SITE costs:17` | [What Vila do Bispo's agents cost](https://promptugal.news/algarve/vila-do-bispo/costs/) | site | accountant@ 16 Nov 2026 |
 | `PUB.SITE costs:18` | [What Vila Real de Santo António's agents cost](https://promptugal.news/algarve/vila-real-de-santo-antonio/costs/) | site | accountant@ 16 Nov 2026 |
 | `PUB.SITE costs:19` | [What Aveiro's agents cost](https://promptugal.news/portugal/aveiro/costs/) | site | accountant@ 16 Nov 2026 |
+
+**Cards 676 to 700**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `PUB.SITE costs:2` | [What Alcoutim's agents cost](https://promptugal.news/algarve/alcoutim/costs/) | site | accountant@ 16 Nov 2026 |
 | `PUB.SITE costs:20` | [What Beja's agents cost](https://promptugal.news/portugal/beja/costs/) | site | accountant@ 16 Nov 2026 |
 | `PUB.SITE costs:21` | [What Braga's agents cost](https://promptugal.news/portugal/braga/costs/) | site | accountant@ 16 Nov 2026 |
@@ -99,11 +115,6 @@ source: board/catalogue.json
 | `PUB.SITE costs:27` | [What Guarda's agents cost](https://promptugal.news/portugal/guarda/costs/) | site | accountant@ 16 Nov 2026 |
 | `PUB.SITE costs:28` | [What Leiria's agents cost](https://promptugal.news/portugal/leiria/costs/) | site | accountant@ 16 Nov 2026 |
 | `PUB.SITE costs:29` | [What Lisboa's agents cost](https://promptugal.news/portugal/lisboa/costs/) | site | accountant@ 16 Nov 2026 |
-
-**Cards 676 to 700**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `PUB.SITE costs:3` | [What Aljezur's agents cost](https://promptugal.news/algarve/aljezur/costs/) | site | accountant@ 16 Nov 2026 |
 | `PUB.SITE costs:30` | [What Portalegre's agents cost](https://promptugal.news/portugal/portalegre/costs/) | site | accountant@ 16 Nov 2026 |
 | `PUB.SITE costs:31` | [What Porto's agents cost](https://promptugal.news/portugal/porto/costs/) | site | accountant@ 16 Nov 2026 |
@@ -118,16 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE costs:7` | [What Lagoa's agents cost](https://promptugal.news/algarve/lagoa/costs/) | site | accountant@ 16 Nov 2026 |
 | `PUB.SITE costs:8` | [What Lagos's agents cost](https://promptugal.news/algarve/lagos/costs/) | site | accountant@ 16 Nov 2026 |
 | `PUB.SITE costs:9` | [What Loulé's agents cost](https://promptugal.news/algarve/loule/costs/) | site | accountant@ 16 Nov 2026 |
-| `PUB.SITE customers` | [customers@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/customers/) | site |  |
-| `PUB.SITE data.places` | [data.places@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/data.places/) | site |  |
-| `PUB.SITE datasci` | [Data quality, place by place](https://promptugal.news/datasci/) | site | datasci.places@ 15 Nov 2026 |
-| `PUB.SITE datasci.places` | [datasci.places@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/datasci.places/) | site |  |
-| `PUB.SITE days` | [The days](https://promptugal.news/days/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE decks` | [The decks](https://promptugal.news/investors/decks/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE decks:2` | [Las presentaciones](https://promptugal.news/investors/es/decks/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE decks:3` | [Les decks](https://promptugal.news/investors/fr/decks/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE decks:4` | [As apresentações](https://promptugal.news/investors/pt/decks/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE decks:5` | [Decks from the data](https://promptugal.news/query/decks/) | site | data.places@ 15 Nov 2026 |
-| `PUB.SITE designer` | [designer@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/designer/) | site |  |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-6.md) | [Next part](PUB-8.md)
