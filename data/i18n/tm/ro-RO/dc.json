@@ -1,0 +1,34 @@
+{
+ "dc01b07203158782": {
+  "t": "În cercetare",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Researching",
+  "ok": false
+ },
+ "dc743f8b8d06b601": {
+  "t": "La 29 octombrie 2026, organismul intermunicipal CIM Viseu Dão Lafões a prezentat SMART REGION, două platforme (una regională de cunoaștere și una de gestionare urbană) care încrucișează date dispersate, precum fluxurile de vizitatori, mobilitatea și deșeurile, pentru a ajuta consiliile să înțeleagă nevoile locale. Un al doilea reportaj, de la Mais Aguiar da Beira din 31 octombrie, spune că Platforma de Gestionare Urbană oferă instrumente de AI pentru analiză și sprijin decizional și că CIM și MOBI.E au semnat un protocol privind ticketingul inteligent. Niciunul dintre reportaje nu numește modelele folosite.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "On 29 October 2026 the intermunicipal body CIM Viseu Dão Laf",
+  "ok": false
+ },
+ "dc863485c179d3fc": {
+  "t": "Oi, pá! Loulé, unde piața are cupole, iar consiliul are algoritmi.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Oi, pá! Loulé, where the market has domes and the council ha",
+  "ok": false
+ },
+ "dceaf782b95ea2a7": {
+  "t": "Tavira este una dintre cele șase municipalități din platforma urbană de date Algarve 6.0",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Tavira is one of six municipalities in the Algarve 6.0 urban",
+  "ok": false
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "d8006b8f7850afec": {
+  "t": "Cáritas din Faro întreabă cine câștigă de pe urma AI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Faro's Cáritas asks who benefits from AI",
+  "ok": false
+ },
+ "d89c3b61de8d1239": {
+  "t": "O școală din Vilamoura găzduiește un summit al educației despre AI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Vilamoura school hosts an education summit on AI",
+  "ok": false
+ },
+ "d8de90262eca523a": {
+  "t": "Platforma leagă datele de piață, precum prețurile mărfurilor și tarifele de transport, de costurile proprii ale unei companii pentru a ajuta achizițiile și stabilirea prețurilor. Coordonată de VentureFriends și Semapa Next.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The platform links market data such as commodity prices and ",
+  "ok": false
+ }
+}

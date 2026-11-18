@@ -34,3 +34,6 @@ Still 434 px at 390 (v0.1.1745).
 
 ## 22:45 UTC
 Still 434 px at 390 (v0.1.1753), seven and a half hours after it began.
+
+## Closed, 18 Nov 00:45 UTC
+Pages fit again at 390 and 360 px (v0.1.1762), after conductor@'s top-bar rework (d6c05dc20, 0c73a03ad). The date reads on one line; Search, EN, App and Ask fit. Keep a check: no built page wider than the viewport at 390.

@@ -1,0 +1,26 @@
+{
+ "e2d661426a0261de": {
+  "t": "Escola Superior de Educação a Universidade Politécnica de Santarém a ținut la 7 octombrie 2026 o lecție deschisă, pentru întreaga comunitate, despre cum textele produse cu AI generează sens și argument, din perspectiva lingvisticii textuale braziliene, pentru studenții din anul întâi la educație socială.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Escola Superior de Educação of the Universidade Politécn",
+  "ok": false
+ },
+ "e2ddef7c68fb2893": {
+  "t": "Asociația presei regionale dezbate AI în redacții la Vila Real",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Regional press association debates AI in newsrooms in Vila R",
+  "ok": false
+ },
+ "e2e77efaff9108b6": {
+  "t": "În cadrul proiectului de decarbonizare Quarteira Lab, condus de consiliul din Loulé, a fost instalat un contor pentru persoane și biciclete la o intersecție de pe Avenida Dr. Carlos Mota Pinto. Datele merg către o platformă de agregare și urmează să ajungă la panouri digitale și la o aplicație mobilă. Articolul nu menționează AI. Este o știre mai veche, păstrată pentru context.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "As part of the Quarteira Lab decarbonisation project run by ",
+  "ok": false
+ }
+}

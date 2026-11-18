@@ -1,0 +1,26 @@
+{
+ "1322e92a2dec1473": {
+  "t": "Quarteira Lab numără pietonii și bicicliștii pentru a alimenta o platformă de date",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Quarteira Lab counts walkers and cyclists to feed a data pla",
+  "ok": false
+ },
+ "13d6f10e2673c99f": {
+  "t": "**Această pagină ca date:** tot ce se află pe ea este servit mai întâi ca JSON, inclusiv poveștile, harta inteligenței artificiale, evenimentele, sursele, lacunele, echipa și identitatea; [pagina API]({json}) listează fiecare endpoint pentru acest loc și pentru celelalte.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This page as data:** everything on it is served as JSON fi",
+  "ok": false
+ },
+ "13e3829c3b71b77d": {
+  "t": "Campo Maior deschide un centru de inteligență competitivă bazat pe date și inteligență artificială, împreună cu politehnica din Portalegre",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Campo Maior opens a data and AI competitive intelligence cen",
+  "ok": false
+ }
+}
