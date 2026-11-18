@@ -241,6 +241,30 @@
                 (l.first || '').slice(5).replace('T', ' '), (l.last || '').slice(5).replace('T', ' ')]), [1, 2, 3, 6]))
         if (!J.links.length) out.append(h('p', { class: 'obsv-m', text: 'None yet.' }))
     }
+    // Dinis, 18 November: count the anonymous thumbs and publish them as they come (latest/votes.json), per place too
+    // (latest/places-stats.json); keep the test traffic visible (latest/sites.json); class data-centre towns synthetic
+    // and show why (latest/datacentre.json). The explanations are in those files, not here.
+    V.votes = async out => {
+        let J, PS; try { J = await readJson('latest/votes.json'); PS = await readJson('latest/places-stats.json') } catch { J = null }
+        if (!J) return out.append(h('p', { class: 'obsv-m', text: 'None yet.' }))
+        const T = J.totals, cell = (c = {}) => `${c.up || 0} up, ${c.down || 0} down`
+        out.append(h('p', { class: 'obsv-m', text: J.about }),
+            table(['Where', 'Thumbs'], ['web', 'ios', 'test'].map(c => [c, cell(T[c])])),
+            h('h3', { text: 'Pages' }), table(['Page', 'web', 'ios', 'test'], J.pages.map(p => [pageLink(p.page), cell(p.web), cell(p.ios), cell(p.test)])),
+            h('h3', { text: 'Stories' }), table(['Story', 'Up', 'Down'], J.stories.map(x => [x.story, fmt(x.up), fmt(x.down)]), [1, 2]),
+            h('h3', { text: 'Places' }), h('p', { class: 'obsv-m', text: PS.about }),
+            table(['Place', 'Readers', 'Views', 'Reads', 'Read s', 'web', 'ios', 'test'], Object.values(PS.places).sort((a, b) => b.views - a.views).map(p =>
+                [h('a', { href: p.path, text: p.id }), fmt(p.tabs), fmt(p.views), fmt(p.reads), fmt(p.read_s_avg), cell((p.votes || {}).web), cell((p.votes || {}).ios), cell((p.votes || {}).test)]), [1, 2, 3, 4]))
+    }
+    V.sites = async out => {
+        const J = await readJson('latest/sites.json'); let D = null; try { D = await readJson('latest/datacentre.json') } catch { }
+        out.append(h('p', { class: 'obsv-m', text: J.about }),
+            table(['Site', 'Kind', 'Tabs', 'Readers', 'Team', 'Synthetic', 'Crawlers', 'Reads', 'First', 'Last'], J.sites.map(x => [x.site, x.class, fmt(x.tabs), fmt(x.views.readers), fmt(x.views.team), fmt(x.views.synthetic), fmt(x.views.crawlers), fmt(x.reads),
+                (x.first || '').slice(5).replace('T', ' '), (x.last || '').slice(5).replace('T', ' ')]), [2, 3, 4, 5, 6, 7]))
+        if (D) out.append(h('h3', { text: 'Data-centre towns' }), h('p', { class: 'obsv-m', text: D.rule }),
+            table(['Town', 'Tabs', 'LA zone', 'en-US', 'Desktop', 'No referrer', 'One page', 'Median s'], D.towns.map(t => [t.town, fmt(t.tabs), fmt(t.same_fingerprint.tz_los_angeles), fmt(t.same_fingerprint.en_us), fmt(t.same_fingerprint.desktop),
+                fmt(t.same_fingerprint.no_referrer), fmt(t.same_fingerprint.one_page), t.median_visible_s ?? '']), [1, 2, 3, 4, 5, 6]))
+    }
     V.pages = async (out, s) => {
         const P = await readJson('latest/pages.json')
         out.append(h('h3', { text: `Every page (${P.pages.length})` + (s.group ? `, with ${LABEL[s.group]} views` : '') }),
@@ -393,7 +417,7 @@
         const refresh = h('select', { class: 'obsx-ref', title: 'auto-refresh', onchange: e => { try { localStorage.setItem('pt.obsx.refresh', e.target.value) } catch { } armRefresh() } }, [['0', '⟳ off'], ['60', '⟳ 60 s'], ['300', '⟳ 5 min']].map(([v, l]) => h('option', { value: v, text: l, selected: refreshSecs() === +v ? '' : null })))
         const stamp = h('span', { class: 'obsx-stamp' })
         readJson('latest/summary.json').then(S => { stamp.textContent = `as of ${S.generated.slice(11)} · ${rel(S.generated)}`; if (Date.now() - Date.parse(S.generated.replace('Z', ':00Z')) > 70 * 60000) stamp.classList.add('old') })
-        const views = h('span', { class: 'obsx-views' }, [['', 'Overview'], ['dash', 'Policies'], ['graph', 'Graph'], ['agents', 'Agents'], ['pages', 'Pages'], ['places', 'Places'], ['links', 'Links'], ['people', 'People']].map(([v, l]) => h('a', { href: href(v ? { view: v } : {}), class: (s.view || '') === v ? 'on' : '', text: l })))
+        const views = h('span', { class: 'obsx-views' }, [['', 'Overview'], ['dash', 'Policies'], ['graph', 'Graph'], ['agents', 'Agents'], ['pages', 'Pages'], ['places', 'Places'], ['links', 'Links'], ['votes', 'Votes'], ['sites', 'Sites'], ['people', 'People']].map(([v, l]) => h('a', { href: href(v ? { view: v } : {}), class: (s.view || '') === v ? 'on' : '', text: l })))
         const keys = Object.keys(s).filter(k => !['view', 'range', 'groups'].includes(k))
         const chipsRow = keys.length ? h('span', { class: 'obsx-chips' }, keys.map(k => h('a', { href: href(Object.fromEntries(Object.entries(s).filter(([x]) => x !== k))), title: 'remove this filter', text: `${k}: ${s[k]} ✕` }))) : null
         return h('div', { class: 'obsx-bar' }, [h('div', { class: 'row' }, [seg, dayPick, pills, q, dl, h('span', { class: 'grow' }), refresh, stamp, openControl, drainControl]), h('div', { class: 'row' }, [views, chipsRow])])
