@@ -1,0 +1,26 @@
+{
+ "f779f016725feeb7": {
+  "t": "UTAD、畜産におけるAIとスキルをテーマにワークショップを開催",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "UTAD hosts a workshop on AI and skills in animal production",
+  "ok": false
+ },
+ "f7d28b3eb969ec12": {
+  "t": "Vila Realは、UTAD(Universidade de Trás-os-Montes e Alto Douro)の所在地で、同大学はAIセミナーを開き、AI研究コンソーシアムに参加し、国のIAeduパイロットにも加わっている。隣には、約160社が入る科学技術パークRegia Douro Parkがあり、企業向けAIをテーマとするDTech 2026カンファレンスを後援した。市は、このイベントの支援者として、またIBMが発表したイノベーションセンターの過去のパートナーとしてAIの話に登場するが、読み取れた範囲では、市のニュースページにAIの利用は見られなかった。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Vila Real is the seat of UTAD, the University of Trás-os-Mon",
+  "ok": false
+ },
+ "f7e27f16eaf60e40": {
+  "t": "同じ一覧にある別のプロジェクトも、2026年9月1日から2028年8月31日まで実施され、生成AIに基づく仮想アシスタントを備えた学生のメンタルヘルス・プラットフォームを開発する。対象費用は106,936.75ユーロで、うちポルタレグレ側は90,896.23ユーロ、ALT2030の下でFEDERが出資する。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Another project on the same list, also running from 1 Septem",
+  "ok": false
+ }
+}

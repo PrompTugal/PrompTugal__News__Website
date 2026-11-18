@@ -1,0 +1,34 @@
+{
+ "1c1453fcec54f79d": {
+  "t": "Faro のソフトウェア企業、Loulé でスマート灌漑を試験、AI モジュールを計画",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A Faro software firm tested its smart irrigation in Loulé, w",
+  "ok": false
+ },
+ "1c77a443b6a6c396": {
+  "t": "O Algarve Económico が再掲した Lusa の記事によると、大学の執行部と市当局は、Barranco do Rodrigo のキャンパスに向けて、大学の Horizonte2030 計画を市の基本計画と整合させるために会合した。2028年の目標は維持され、投資額は約800万ユーロとされる(2025年1月の報道では約1,500万ユーロだった)。入札には触れておらず、この記事は AI にも言及していない。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A Lusa report republished by O Algarve Económico says the un",
+  "ok": false
+ },
+ "1c92b9e98dd3ba1e": {
+  "t": "Ainda não sabemos tudo, pá. Santarém がまだ語っていないことは次のとおり。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda não sabemos tudo, pá. Here is what Santarém has not to",
+  "ok": false
+ },
+ "1cbb54a360cf8c15": {
+  "t": "Norte 2030 が資金を出す Intelligence4Administration プロジェクトは、自治体サービスの管理に AI を導入し、市民向けサービスをデジタル化することを目指す。記事は数行で有料の壁があるため、具体的なツールは説明されていない。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Intelligence4Administration project, financed by Norte 2",
+  "ok": false
+ }
+}

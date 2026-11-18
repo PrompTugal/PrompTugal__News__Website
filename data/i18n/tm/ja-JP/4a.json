@@ -1,0 +1,42 @@
+{
+ "4a40428649b3f526": {
+  "t": "Porto、Barcelona の Smart City Expo に2件の AI 講演を持ち込む",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Porto takes two AI talks to the Smart City Expo in Barcelona",
+  "ok": false
+ },
+ "4a60c4fe3a36c18c": {
+  "t": "デジタル化と ICT をめぐる CCDR Algarve のイノベーション会合で、SmartCity:Lagoa のコーディネーターは、地方自治体に AI を導入する際の限界を述べた。処理能力、データ保護法、オフラインでのデータの扱い、データセンターの必要性である。プログラムには、Algarve の自治体向け大規模言語モデルのソリューションについての講演も載っている。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "At a CCDR Algarve innovation meeting on digitalisation and I",
+  "ok": false
+ },
+ "4a77daff9895e8f8": {
+  "t": "2027年後半から、共有インフラに2億3千万ユーロ、200 MW の第2棟に4億6,500万ユーロを投じ、すでに計画されている1万2,600基の Blackwell Ultra GPU に加える。Start Campus が施設を建設・運営する。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "From late 2027, with 230 million euros for shared infrastruc",
+  "ok": false
+ },
+ "4abf0dd6aff0e9b8": {
+  "t": "FCT と国家イノベーション庁を統合し、イノベーションの連鎖全体を担う1つの公的機関とする。この記事は政令の公布前にそれを説明した唯一のものであり、詳細は暫定的なものとして扱いたい。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "It merges FCT and the National Innovation Agency into one pu",
+  "ok": false
+ },
+ "4aef917b1931fc70": {
+  "t": "アルガルヴェ大学の研究センター ICArEHB は、Horizon Europe の Teaming for Excellence から1,500万ユーロ、国から1,650万ユーロの計3,150万ユーロを確保し、UAlgTec Heritage を創設する。考古遺産の保護と研究に AI ファーストで取り組み、Kiel 大学、ERA Arqueologia、Zartis などが提携先で、6年間で70を超える高度人材の雇用を見込む。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The University of Algarve's ICArEHB research centre secured ",
+  "ok": false
+ }
+}

@@ -1,5 +1,40 @@
 [
   {
+    "version": "v0.1.1786",
+    "date": "2026-11-18",
+    "what": "abp@PrompTugal.dinis: hourly report 08:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "9c94166f9"
+  },
+  {
+    "version": "v0.1.1785",
+    "date": "2026-11-18",
+    "what": "security@PrompTugal.dinis: 08:05 wake: 28 commits clean",
+    "by": "security@PrompTugal.dinis",
+    "from": "cccfdcfd8"
+  },
+  {
+    "version": "v0.1.1784",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 07:48 wake: the morning passes; watch line, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "64420ba93"
+  },
+  {
+    "version": "v0.1.1783",
+    "date": "2026-11-18",
+    "what": "abp@PrompTugal.dinis: hourly report 07:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "7a15c6fc2"
+  },
+  {
+    "version": "v0.1.1782",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 06:48 wake: ledger 0651Z; quiet night",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "91b2ef3bb"
+  },
+  {
     "version": "v0.1.1781",
     "date": "2026-11-18",
     "what": "journalist@PrompTugal.dinis: 06:40 wake: districts' quiet wake brought onto dev; run report",

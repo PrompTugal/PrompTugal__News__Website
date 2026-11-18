@@ -1,0 +1,35 @@
+{
+ "9b3e4cf71f2bc3f1": {
+  "t": "大学の研究ユニットINESCCが率い、国の科学財団が資金を出すSHIELD-EUプロジェクトは、モノのインターネット、エッジAI、行動モデルを組み合わせ、ポルトガル空軍がソリューションの試験に協力している。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The SHIELD-EU project, led by the university's INESCC resear",
+  "ok": false
+ },
+ "9b42dffb458d66b0": {
+  "t": "Universidade do AlgarveのConfOA 2026で、オープンサイエンスがAIと出会う",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Open science meets AI at the University of Algarve's ConfOA ",
+  "ok": false,
+  "rev": "glossary name restored by rule"
+ },
+ "9b8570ec4307a1ae": {
+  "t": "PrompTugal.news Albufeira:観光とホスピタリティの町AlbufeiraのAIとテクノロジー、そしてAlgarve、ポルトガル、世界からAlbufeiraに届くもの。独立系で、すべての事実に出典あり。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Albufeira: AI and technology in Albufeira, a",
+  "ok": false
+ },
+ "9b9fbd15b8b80f2a": {
+  "t": "University of Portoのチーム、国が支援するポルトガルの言語モデルAMALIAの構築に協力",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "University of Porto teams help build AMALIA, Portugal's stat",
+  "ok": false
+ }
+}
