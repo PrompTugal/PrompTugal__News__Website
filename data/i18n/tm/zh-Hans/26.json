@@ -1,0 +1,26 @@
+{
+ "262e51b4f72873db": {
+  "t": "Alcoutim 是 Guadiana 河畔的内陆市镇，与西班牙接壤，其公共投资集中在基础设施和基本服务：通往 Sanlucar de Guadiana 的桥、Martim Longo 重建的供水网络、社会住房，以及更便于使用的市政府网站。它今天的科技故事属于公共性质：它是阿尔加维六个共同建设传感器和数据平台的市镇之一，也设有研究荒漠化的国家中心。这么大的小镇，我们没找到任何人工智能公司，所以通往人工智能的路首先要经过数据和连接。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Alcoutim is an inland municipality on the Guadiana, on the b",
+  "ok": false
+ },
+ "26da359c2f02f4b2": {
+  "t": "Setúbal 做人工智能的方式和做其他事一样，戴着安全帽。港口在教七十名工人使用聊天机器人，Politécnico 设有整个技术研究所并加入国家人工智能网络，Navigator 说它在 Mitrena 的机器也在学习。Câmara，天佑它，举办了一场关于图书馆和人工智能的非常文明的讲座，而初创公司圈子尚未露面。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Setúbal does its AI the way it does everything, with a hard ",
+  "ok": false
+ },
+ "26e658997c3d9bf1": {
+  "t": "InnoWave 是一家在 Beja 设有中心的科技公司，向人工智能投入 380 万欧元",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "InnoWave, a tech company with a hub in Beja, puts 3.8 millio",
+  "ok": false
+ }
+}

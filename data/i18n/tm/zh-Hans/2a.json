@@ -1,0 +1,34 @@
+{
+ "2a64c34075cf2dd6": {
+  "t": "在 Porto Innovation Hub，市政府介绍了数字服务、行政现代化、智慧城市和就业能力方面的八个市政项目，邀请企业和大学提出解决方案。页面没有说明哪些项目使用了人工智能。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "At the Porto Innovation Hub the council presented eight muni",
+  "ok": false
+ },
+ "2a76a80ec09f2c59": {
+  "t": "AITRAS 于 3 月 5 日和 6 日在 UTAD 的农业与兽医学院举行，有来自多所欧洲大学的演讲者，以及来自畜牧生产、林业、葡萄栽培和农业食品行业的案例。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AITRAS ran on 5 and 6 March at UTAD's agrarian and veterinar",
+  "ok": false
+ },
+ "2aed6185a7d900cb": {
+  "t": "Coimbra 是首批在城市许可中试用人工智能的市政府之一",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Coimbra is among the first councils to test AI in urban lice",
+  "ok": false
+ },
+ "2af0fa78e77b7dc6": {
+  "t": "SalOS 也被介绍为一个为欧盟数字产品护照做好准备的可追溯平台",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "SalOS is also covered as a traceability platform ready for t",
+  "ok": false
+ }
+}

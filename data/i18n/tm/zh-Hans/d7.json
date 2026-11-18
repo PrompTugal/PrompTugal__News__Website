@@ -1,0 +1,26 @@
+{
+ "d75ab38c71eb59c9": {
+  "t": "PrompTugal.news Portimão：Arade河入海之处这座小镇的人工智能与科技新闻，从一个有聪明许可机器人的市政府，到一家能听出漏水的水务公司，还有从Algarve、葡萄牙和世界传到我们这里的消息。我们是独立的，每条事实都有来源，pá。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Portimão: the AI and tech news of the town w",
+  "ok": false
+ },
+ "d7a0a455903f488c": {
+  "t": "我们仍然没找到的内容，mesmo a sério：",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "What we still did not find, mesmo a sério:",
+  "ok": false
+ },
+ "d7aa8e8829bcb070": {
+  "t": "IT咨询公司Noesis在Castelo Branco开设办公室，称也将招聘人工智能专家",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "IT consultancy Noesis opens a Castelo Branco office and says",
+  "ok": false
+ }
+}

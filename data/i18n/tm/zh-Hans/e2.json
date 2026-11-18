@@ -1,0 +1,26 @@
+{
+ "e2d661426a0261de": {
+  "t": "Universidade Politécnica de Santarém的教育学院于2026年10月7日举办了一堂面向全社区开放的公开课，从巴西文本语言学的角度，讲解借助人工智能产生的文本如何生成意义和论证，对象是社会教育专业的一年级学生。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Escola Superior de Educação of the Universidade Politécn",
+  "ok": false
+ },
+ "e2ddef7c68fb2893": {
+  "t": "地方新闻协会在Vila Real讨论新闻编辑部中的人工智能",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Regional press association debates AI in newsrooms in Vila R",
+  "ok": false
+ },
+ "e2e77efaff9108b6": {
+  "t": "作为Loulé市政府开展的Quarteira Lab脱碳项目的一部分，在Avenida Dr. Carlos Mota Pinto的一个路口安装了行人和自行车计数器。数据传送至汇总平台，并计划接入数字面板和手机应用。文章没有提到人工智能。这是为提供背景而保留的旧条目。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "As part of the Quarteira Lab decarbonisation project run by ",
+  "ok": false
+ }
+}

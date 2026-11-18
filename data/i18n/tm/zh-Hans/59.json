@@ -1,0 +1,26 @@
+{
+ "59d03424a0a7d0d2": {
+  "t": "Olhão 是 Ria Formosa 上的渔港，它的科技故事要经过大海。IPMA 的养鱼试验站、协作实验室 S2AQUAcoLAB 和水产饲料公司 SPAROS 都在这个市镇，渔港里正在建设服务海洋经济的 Blue Hub。人工智能的路径真实但狭窄：精准营养和数字水产养殖，以及一个谈到过用人工智能优化垃圾路线的市政府。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Olhão is a fishing port on the Ria Formosa, and its technolo",
+  "ok": false
+ },
+ "59ec641f83c3c308": {
+  "t": "这场为期两天的峰会于 2025 年 11 月 6 日和 7 日在 Lagos 一家酒店举行。预告提到第一天有现场演示如何构建专用的 ChatGPT。Barlavento 后来统计，第一天约 450 人，第二天 570 人。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The two-day summit ran at a Lagos hotel on 6 and 7 November ",
+  "ok": false
+ },
+ "59ed91899d661901": {
+  "t": "Calma，ainda não sabemos tudo, pá。以下是 Porto 尚未告诉我们的事：",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Calma, ainda não sabemos tudo, pá. Here is what Porto has no",
+  "ok": false
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "3513a62a97aaf4b7": {
+  "t": "Lisboa，pá：七座山丘，一辆忙得不可开交的电车，以及每平方公里比 Belém 的 pastéis de nata 还多的人工智能会议。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Lisboa, pá: seven hills, one very busy tram, and more AI con",
+  "ok": false
+ },
+ "3535afc1b30d539d": {
+  "t": "AlgarveSTP 的首期 Venture Lab 选出 12 家公司，辅导菜单上有人工智能采用",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "First Venture Lab by AlgarveSTP picks 12 companies, with AI ",
+  "ok": false
+ },
+ "353b7c6b8e2138d0": {
+  "t": "柑橘的人工智能和机器人：ATTENTIA 项目，与阿尔加维大学合作",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AI and robots for citrus: the ATTENTIA project, with the Uni",
+  "ok": false
+ },
+ "35683239cf1272c2": {
+  "t": "在这里，人工智能更多住在办公室而不是车库里，meu。câmara 说已经买了人工智能工具来理顺规划文件，NERA 就在镇上教企业如何使用，并且市政府与 Faro 一起为 Estádio Algarve 的一个提到人工智能的科技中心招标。到目前为止只有一家真正的人工智能公司 SPIC，所以地图很短，而且坦诚。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Here AI lives more in offices than in garages, meu. The câma",
+  "ok": false
+ },
+ "356ea07c73f9328a": {
+  "t": "PrompTugal.news Algarve：整个阿尔加维的人工智能与科技，从 Sagres 到 Vila Real，以及从葡萄牙和世界传来的消息。独立，每个事实都有 fonte。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Algarve: AI and technology across the whole ",
+  "ok": false
+ },
+ "357b89658091781d": {
+  "t": "市政府与 UAlg 签署了一份议定书，将在 Barranco do Rodrigo 建设新校区，土地和设计由市政府提供。重点领域是数字、数据和人工智能，目标 2028 年完工、2029 年开课，估计总投资约 1,500 万欧元，当时尚未完全落实。UAlg 当时在 Portimão 有 400 多名学生，目标是三年后达到约 1,500 人。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council signed a protocol with UAlg for a new campus at ",
+  "ok": false
+ }
+}

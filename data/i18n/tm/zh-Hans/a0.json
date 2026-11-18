@@ -1,0 +1,50 @@
+{
+ "a02ffddc6a7859dd": {
+  "t": "Viana是个三招的城市。Câmara说人工智能已在协助建筑许可，Politécnico一边讨论、一边教授，还把一个学生的人工智能创意送入全国决赛，而在港口，一家数据中心设备工厂已开始排班生产。Bonito，pá。只可惜工厂的文件里没怎么提到人工智能。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Viana is a city of three tricks. The Câmara says AI already ",
+  "ok": false
+ },
+ "a05cd27604ae2f2e": {
+  "t": "Contextos和Algarve STP于2025年4月2日在Faro举办了一场英语共创活动，主题是帮助青年工作者使用人工智能工具，议程包括伦理和数字包容。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Contextos and Algarve STP ran an English-language co-creatio",
+  "ok": false
+ },
+ "a08c54ae7db3d122": {
+  "t": "Santarém地方卫生单位参加世卫组织关于健康领域人工智能的会议",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Santarém's local health unit joins a WHO conference on AI in",
+  "ok": false
+ },
+ "a09e63aba13e4aba": {
+  "t": "Castelo Branco的人工智能活动围绕理工学院及其培养的人才展开，该学院于2026年8月1日升格为Universidade Politécnica de Castelo Branco。其健康学院举办健康人工智能日，两位工程学教授创立了森林火灾无人机初创企业Axtron Systems，而一家本地垃圾处理科技公司和一家IT咨询公司是主要的私营企业。2026年，市政府本身也开始谈论人工智能，以一场人工智能会议拉开学年序幕，并表示正在考虑设立人工智能学院，还批准了与一家名为Odin Systems的公司共建无人机与国防科技中心。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Castelo Branco's AI activity sits around the polytechnic, wh",
+  "ok": false
+ },
+ "a0b7f4ddc8d2385c": {
+  "t": "市政府与阿尔加维大学筹备知识与创新公约",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Town hall and University of Algarve prepare a knowledge and ",
+  "ok": false
+ },
+ "a0d37ad2b10c1b7a": {
+  "t": "Setúbal理工学院开设CCG/ZGDV研究所的全国首个分部",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Setúbal's polytechnic opens the first national pole of the C",
+  "ok": false
+ }
+}
