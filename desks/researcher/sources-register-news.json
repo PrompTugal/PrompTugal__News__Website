@@ -1,0 +1,5893 @@
+{
+ "about": "News publications mapped by researcher@PrompTugal.dinis for the sources register (board/briefs/2026-11-18-sources-register.md), one entry per outlet in the media kind, with the evidence of what was read or not. Nothing here asks any publisher for anything; the request on the record is outreach@ and a person. Each robots.txt line is quoted from the URL given, read on the date given. Public and official bodies are not in this file (the place desks and data.b@ cover them).",
+ "read_at": "2026-11-18",
+ "by": "researcher@PrompTugal.dinis",
+ "count": 199,
+ "counts": {
+  "read": 162,
+  "not-read": 37
+ },
+ "ai_crawler_restricted": 26,
+ "items": [
+  {
+   "id": "24-noticias",
+   "name": "24 Notícias",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Portugal (national news with local sections such as Porto; newsroom in Lisboa)"
+   ],
+   "url": "https://24noticias.sapo.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/24-noticias.json (data/organisations/24-noticias/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://24noticias.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-content/plugins/",
+     "Disallow: /wp-content/uploads/",
+     "Disallow: /wp-admin/",
+     "Disallow: /wp-login.php",
+     "Disallow: /search/",
+     "Disallow: /?s=",
+     "Disallow: /page/*/?s=",
+     "Disallow: /pesquisar",
+     "Disallow: /*?s=",
+     "Disallow: /*?pagina=",
+     "User-agent: bingbot"
+    ]
+   }
+  },
+  {
+   "id": "a-aurora-do-lima",
+   "name": "A Aurora do Lima",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Viana do Castelo (Alto Minho)"
+   ],
+   "url": "https://auroradolima.com/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/a-aurora-do-lima.json (data/organisations/a-aurora-do-lima/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://auroradolima.com/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-Agent: *",
+     "Disallow: /wp-admin/",
+     "User-agent: Googlebot-news",
+     "User-agent: *",
+     "Disallow: /wp-content/uploads/wc-logs/",
+     "Disallow: /wp-content/uploads/woocommerce_transient_files/",
+     "Disallow: /wp-content/uploads/woocommerce_uploads/",
+     "Disallow: /*?add-to-cart=",
+     "Disallow: /*?*add-to-cart="
+    ]
+   }
+  },
+  {
+   "id": "a-defesa-de-evora",
+   "name": "Quinzenário A Defesa",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Évora (sections: Local, Regional, Cultura, Desporto, Sociedade)"
+   ],
+   "url": "https://adefesa.org/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/a-defesa-de-evora.json (data/organisations/a-defesa-de-evora/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://adefesa.org/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-content/uploads/wc-logs/",
+     "Disallow: /wp-content/uploads/woocommerce_transient_files/",
+     "Disallow: /wp-content/uploads/woocommerce_uploads/",
+     "Disallow: /*?add-to-cart=",
+     "Disallow: /*?*add-to-cart=",
+     "Disallow: /wp-admin/",
+     "User-agent: *",
+     "Disallow: /wp-content/uploads/wpo/wpo-plugins-tables-list.json"
+    ]
+   }
+  },
+  {
+   "id": "a-guarda",
+   "name": "A Guarda",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Guarda (editorial seat per ERC register; Regional scope, Papel, Semanal)"
+   ],
+   "url": "https://www.jornalaguarda.com",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/a-guarda.json (data/organisations/a-guarda/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 403 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://www.jornalaguarda.com/robots.txt",
+    "http": "403",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   },
+   "researcher_notes": [
+    "Website listed in the ERC register did not return HTTP 200 from this environment (403); feed and contact not verified"
+   ]
+  },
+  {
+   "id": "a-voz-de-braganca",
+   "name": "A Voz de Bragança",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Bragança (Bragança district); regional daily (working days), online"
+   ],
+   "url": "https://avozdebraganca.sapo.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/a-voz-de-braganca.json (data/organisations/a-voz-de-braganca/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://avozdebraganca.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /vendor/",
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot"
+    ]
+   }
+  },
+  {
+   "id": "a-voz-de-castelo-branco",
+   "name": "A Voz de Castelo Branco",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Castelo Branco (Castelo Branco district); regional daily (working days), online"
+   ],
+   "url": "https://avozdecastelobranco.sapo.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/a-voz-de-castelo-branco.json (data/organisations/a-voz-de-castelo-branco/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://avozdecastelobranco.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /vendor/",
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot"
+    ]
+   }
+  },
+  {
+   "id": "a-voz-de-evora",
+   "name": "A Voz de Évora",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Évora (Évora district); regional daily (working days), online"
+   ],
+   "url": "https://avozdeevora.sapo.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/a-voz-de-evora.json (data/organisations/a-voz-de-evora/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://avozdeevora.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /vendor/",
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot"
+    ]
+   }
+  },
+  {
+   "id": "a-voz-de-tras-os-montes",
+   "name": "A Voz de Trás-os-Montes",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Vila Real, Alto Tâmega"
+   ],
+   "url": "https://www.avozdetrasosmontes.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/a-voz-de-tras-os-montes.json (data/organisations/a-voz-de-tras-os-montes/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.avozdetrasosmontes.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/",
+     "Disallow: /wp-content/uploads/wc-logs/",
+     "Disallow: /wp-content/uploads/woocommerce_transient_files/",
+     "Disallow: /wp-content/uploads/woocommerce_uploads/",
+     "Disallow: /*?add-to-cart=",
+     "Disallow: /*?*add-to-cart=",
+     "Disallow: /vtm-admin/",
+     "Disallow: */webmaster",
+     "Disallow: /wp-content/uploads/epaper/",
+     "Disallow: /wp-json/",
+     "Disallow: /feed/"
+    ]
+   }
+  },
+  {
+   "id": "abrilabril",
+   "name": "AbrilAbril",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Lisboa (editorial seat per ERC register; Nacional scope, Online, Diária)"
+   ],
+   "url": "https://www.abrilabril.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/abrilabril.json (data/organisations/abrilabril/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.abrilabril.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /core/",
+     "Disallow: /profiles/",
+     "Disallow: /README.md",
+     "Disallow: /composer/Metapackage/README.txt",
+     "Disallow: /composer/Plugin/ProjectMessage/README.md",
+     "Disallow: /composer/Plugin/Scaffold/README.md"
+    ]
+   }
+  },
+  {
+   "id": "acores-9",
+   "name": "Açores 9",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Ponta Delgada (editorial seat per ERC register; Regional scope, Online, Diária)"
+   ],
+   "url": "https://jornalacores9.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/acores-9.json (data/organisations/acores-9/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://jornalacores9.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow:"
+    ]
+   }
+  },
+  {
+   "id": "acoriano-oriental",
+   "name": "Açoriano Oriental",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Ponta Delgada / Açores"
+   ],
+   "url": "https://www.acorianooriental.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/acoriano-oriental.json (data/organisations/acoriano-oriental/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.acorianooriental.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /cgi-bin/",
+     "Disallow: /pagina/edicao-impressa",
+     "Disallow: /pagina/edicao-impressa/*",
+     "Disallow: /programas/emissoes/*",
+     "Disallow: /admin",
+     "Disallow: /articles/searchPage",
+     "Disallow: /search",
+     "User-agent: Fasterfox",
+     "Disallow: /",
+     "User-agent: aipbot",
+     "Disallow: /"
+    ]
+   }
+  },
+  {
+   "id": "alentejo-atual",
+   "name": "Alentejo Atual (O Atual)",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Baixo Alentejo: Beja, Aljustrel, Almodôvar, Alvito, Barrancos, Castro Verde, Cuba, Ferreira do Alentejo, Mértola, Moura, Odemira, Ourique, Serpa, Vidigueira (the site's local menu)"
+   ],
+   "url": "https://www.oatual.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/alentejo-atual.json (data/organisations/alentejo-atual/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.oatual.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow:"
+    ]
+   }
+  },
+  {
+   "id": "alto-alentejo",
+   "name": "Alto Alentejo",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Portalegre (editorial seat per ERC register; Regional scope, Papel/Online, Semanal)"
+   ],
+   "url": "https://www.jornalaltoalentejo.com",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/alto-alentejo.json (data/organisations/alto-alentejo/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 000 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://www.jornalaltoalentejo.com/robots.txt",
+    "http": "000",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "antena-minho",
+   "name": "Antena Minho",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "regional",
+   "places": [
+    "Braga"
+   ],
+   "url": "https://antenaminho.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/antena-minho.json (data/organisations/antena-minho/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://antenaminho.pt/robots.txt",
+    "http": "404",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "aveiromag",
+   "name": "AveiroMag",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Aveiro"
+   ],
+   "url": "https://www.aveiromag.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/aveiromag.json (data/organisations/aveiromag/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.aveiromag.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /",
+     "User-agent: Bytespider",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: Diffbot"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "beira-baixa-tv",
+   "name": "Beira Baixa TV",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Castelo Branco (editorial seat per ERC register; Regional scope, Online, Diária)"
+   ],
+   "url": "http://beirabaixatv.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/beira-baixa-tv.json (data/organisations/beira-baixa-tv/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "http://beirabaixatv.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/",
+     "User-agent: *",
+     "Disallow: /wp-content/uploads/wpo/wpo-plugins-tables-list.json"
+    ]
+   }
+  },
+  {
+   "id": "beira-pt",
+   "name": "beira.pt",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Beiras; seat Guarda; regional portal, daily"
+   ],
+   "url": "https://beira.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/beira-pt.json (data/organisations/beira-pt/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://beira.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "braga-tv",
+   "name": "Braga TV",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Braga e Cávado/Ave municipalities"
+   ],
+   "url": "https://bragatv.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/braga-tv.json (data/organisations/braga-tv/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://bragatv.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: facebookexternalhit",
+     "Disallow: /wp-admin/",
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "campeao-das-provincias",
+   "name": "Campeão das Províncias",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Coimbra",
+    "Aveiro (historical)"
+   ],
+   "url": "https://www.campeaoprovincias.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/campeao-das-provincias.json (data/organisations/campeao-das-provincias/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.campeaoprovincias.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /",
+     "User-agent: Bytespider",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: Diffbot"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "canal-alentejo",
+   "name": "Canal Alentejo",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Alentejo; seat Portalegre (Campus do Politécnico); regional daily, TV news online"
+   ],
+   "url": "https://canalalentejo.sapo.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/canal-alentejo.json (data/organisations/canal-alentejo/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://canalalentejo.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-content/plugins/",
+     "Disallow: /wp-content/uploads/",
+     "Disallow: /wp-admin/",
+     "Disallow: /search/",
+     "Disallow: /?s=",
+     "Disallow: /wp-login.php"
+    ]
+   },
+   "researcher_notes": [
+    "site returned a bot-check page on the first fetch: ficha técnica and contact page not read"
+   ]
+  },
+  {
+   "id": "canalcentral",
+   "name": "CanalCentral",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Aveiro (editorial seat per ERC register; Regional scope, Online, Diária)"
+   ],
+   "url": "https://www.canalcentral.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/canalcentral.json (data/organisations/canalcentral/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.canalcentral.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "central-press",
+   "name": "Central Press",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Coimbra (editorial seat per ERC register; Regional scope, Online, Diária)"
+   ],
+   "url": "https://www.centralpress.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/central-press.json (data/organisations/central-press/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.centralpress.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "User-agent: *",
+     "Disallow: /admin",
+     "Disallow: /dashboard",
+     "Disallow: /widgets",
+     "Disallow: /tudo-aqui",
+     "Disallow: /manager",
+     "Disallow: /signup/confirm",
+     "Disallow: /confirmEmail"
+    ]
+   }
+  },
+  {
+   "id": "cidade-fm",
+   "name": "Cidade FM",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "national",
+   "places": [
+    "Lisboa (head office); local frequencies in the ERC register include Viseu 102.8, Lisboa 91.6, Aveiro 105.6, Algarve 99.7, Centro 99.7, Minho 104.4, Ribatejo 99.3, Tejo 106.2, Vale de Cambra 101.0; music-themed"
+   ],
+   "url": "https://www.cidade.fm/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/cidade-fm.json (data/organisations/cidade-fm/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.cidade.fm/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /api/",
+     "Disallow: /xsl_files/",
+     "Disallow: /scripts/",
+     "Disallow: /static/",
+     "Disallow: /styles/",
+     "Disallow: /includes/",
+     "Disallow: /webservices/"
+    ]
+   }
+  },
+  {
+   "id": "cidade-hoje",
+   "name": "Cidade Hoje",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "local",
+   "places": [
+    "Vila Nova de Famalicão (Braga district)"
+   ],
+   "url": "https://www.cidadehoje.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/cidade-hoje.json (data/organisations/cidade-hoje/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.cidadehoje.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-content/plugins/",
+     "Disallow: /wp-content/uploads/",
+     "Disallow: /wp-admin/",
+     "Disallow: /search/",
+     "Disallow: /?s=",
+     "Disallow: /wp-login.php"
+    ]
+   }
+  },
+  {
+   "id": "cnn-portugal",
+   "name": "CNN Portugal",
+   "kind": "news publication",
+   "media_kind": "tv",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://cnnportugal.iol.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/cnn-portugal.json (data/organisations/cnn-portugal/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://cnnportugal.iol.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /search",
+     "Disallow: /7811748",
+     "Disallow: /300x100",
+     "Disallow: /320x50",
+     "Disallow: /LDB1",
+     "Disallow: /embedemissao/*",
+     "Disallow: /_preview",
+     "User-agent: OpenAI",
+     "Disallow: /",
+     "User-agent: ChatGPT-User",
+     "Disallow: /"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "GPTBot"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (GPTBot). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "correio-alentejo",
+   "name": "Correio Alentejo",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Baixo Alentejo; seat Castro Verde; fortnightly, paper and online"
+   ],
+   "url": "https://correioalentejo.com/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/correio-alentejo.json (data/organisations/correio-alentejo/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://correioalentejo.com/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot",
+     "User-agent: *"
+    ]
+   }
+  },
+  {
+   "id": "correio-da-manha",
+   "name": "Correio da Manhã (CM)",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://www.cmjornal.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/correio-da-manha.json (data/organisations/correio-da-manha/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.cmjornal.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: OpenAI-Crawler",
+     "Disallow: /",
+     "User-agent: Googlebot-Bard",
+     "Disallow: /",
+     "User-agent: GPTBot",
+     "Disallow: /",
+     "User-agent: ChatGPT-User",
+     "Disallow: /",
+     "User-agent: Google-Extended",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "CCBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (CCBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "correio-do-minho",
+   "name": "Correio do Minho",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Braga",
+    "Cávado e Vale do Ave (sections)"
+   ],
+   "url": "https://www.correiodominho.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/correio-do-minho.json (data/organisations/correio-do-minho/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.correiodominho.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-Agent: *",
+     "Disallow:"
+    ]
+   }
+  },
+  {
+   "id": "correio-do-ribatejo",
+   "name": "Correio do Ribatejo",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Santarém (editorial seat per ERC register; Regional scope, Papel/Online, Semanal)"
+   ],
+   "url": "https://www.correiodoribatejo.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/correio-do-ribatejo.json (data/organisations/correio-do-ribatejo/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.correiodoribatejo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "correio-dos-acores",
+   "name": "Correio dos Açores",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Ponta Delgada / Açores"
+   ],
+   "url": "https://correiodosacores.pt/",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/correio-dos-acores.json (data/organisations/correio-dos-acores/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 000 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://correiodosacores.pt/robots.txt",
+    "http": "000",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   },
+   "researcher_notes": [
+    "feed not verified (timeout)",
+    "Feed re-check 2026-11-17T07:20Z: no connection (000); treat the feed as unverified until re-read."
+   ]
+  },
+  {
+   "id": "diana-fm",
+   "name": "Diana FM",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Évora; 94.1 FM, generalist"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/diana-fm.json (data/organisations/diana-fm/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "diario-as-beiras",
+   "name": "Diário As Beiras",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Coimbra",
+    "Figueira da Foz"
+   ],
+   "url": "https://www.asbeiras.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/diario-as-beiras.json (data/organisations/diario-as-beiras/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.asbeiras.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-content/uploads/wc-logs/",
+     "Disallow: /wp-content/uploads/woocommerce_transient_files/",
+     "Disallow: /wp-content/uploads/woocommerce_uploads/",
+     "Disallow: /*?add-to-cart=",
+     "Disallow: /*?*add-to-cart=",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "diario-de-aveiro",
+   "name": "Diário de Aveiro",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Aveiro"
+   ],
+   "url": "https://www.diarioaveiro.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/diario-de-aveiro.json (data/organisations/diario-de-aveiro/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.diarioaveiro.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-content/uploads/sites/6/wc-logs/",
+     "Disallow: /wp-content/uploads/sites/6/woocommerce_transient_files/",
+     "Disallow: /wp-content/uploads/sites/6/woocommerce_uploads/",
+     "Disallow: /*?add-to-cart=",
+     "Disallow: /*?*add-to-cart=",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "diario-de-coimbra",
+   "name": "Diário de Coimbra",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Coimbra",
+    "Figueira da Foz",
+    "Cantanhede"
+   ],
+   "url": "https://www.diariocoimbra.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/diario-de-coimbra.json (data/organisations/diario-de-coimbra/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.diariocoimbra.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-content/uploads/wc-logs/",
+     "Disallow: /wp-content/uploads/woocommerce_transient_files/",
+     "Disallow: /wp-content/uploads/woocommerce_uploads/",
+     "Disallow: /*?add-to-cart=",
+     "Disallow: /*?*add-to-cart=",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "diario-de-leiria",
+   "name": "Diário de Leiria",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Leiria"
+   ],
+   "url": "https://www.diarioleiria.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/diario-de-leiria.json (data/organisations/diario-de-leiria/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.diarioleiria.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-content/uploads/sites/7/wc-logs/",
+     "Disallow: /wp-content/uploads/sites/7/woocommerce_transient_files/",
+     "Disallow: /wp-content/uploads/sites/7/woocommerce_uploads/",
+     "Disallow: /*?add-to-cart=",
+     "Disallow: /*?*add-to-cart=",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "diario-de-noticias-madeira",
+   "name": "Diário de Notícias (Madeira) / DNOTICIAS.PT",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Funchal / Madeira"
+   ],
+   "url": "https://www.dnoticias.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/diario-de-noticias-madeira.json (data/organisations/diario-de-noticias-madeira/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.dnoticias.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: Twitterbot",
+     "User-agent: Googlebot",
+     "User-agent: Bingbot",
+     "User-agent: facebookexternalhit",
+     "User-agent: *",
+     "Disallow: /structure/",
+     "Disallow: /dashboard/",
+     "Disallow: /users/",
+     "Disallow: /notifications/",
+     "Disallow: /news/",
+     "Disallow: /taxonomy/",
+     "Disallow: /app/"
+    ]
+   }
+  },
+  {
+   "id": "diario-de-noticias",
+   "name": "Diário de Notícias (DN)",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://www.dn.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/diario-de-noticias.json (data/organisations/diario-de-noticias/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.dn.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *"
+    ]
+   }
+  },
+  {
+   "id": "diario-de-tras-os-montes",
+   "name": "Diário de Trás-os-Montes",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Vila Real e Trás-os-Montes"
+   ],
+   "url": "https://www.diariodetrasosmontes.com/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/diario-de-tras-os-montes.json (data/organisations/diario-de-tras-os-montes/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.diariodetrasosmontes.com/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-Agent: *",
+     "Disallow: /search",
+     "Disallow: /login",
+     "Disallow: /password/",
+     "Disallow: /pre-visualizar/",
+     "User-Agent: GPTBot",
+     "User-Agent: Google-Extended",
+     "User-Agent: CCBot",
+     "User-Agent: ClaudeBot",
+     "Disallow: /"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (CCBot, ClaudeBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "diario-de-viseu",
+   "name": "Diário de Viseu",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Viseu"
+   ],
+   "url": "https://www.diarioviseu.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/diario-de-viseu.json (data/organisations/diario-de-viseu/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.diarioviseu.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-content/uploads/sites/8/wc-logs/",
+     "Disallow: /wp-content/uploads/sites/8/woocommerce_transient_files/",
+     "Disallow: /wp-content/uploads/sites/8/woocommerce_uploads/",
+     "Disallow: /*?add-to-cart=",
+     "Disallow: /*?*add-to-cart=",
+     "Disallow: /wp-admin/",
+     "User-agent: facebookexternalhit"
+    ]
+   }
+  },
+  {
+   "id": "diario-digital-castelo-branco",
+   "name": "Diário Digital Castelo Branco",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Castelo Branco (editorial seat per ERC register; Regional scope, Online, Diária)"
+   ],
+   "url": "https://www.diariodigitalcastelobranco.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/diario-digital-castelo-branco.json (data/organisations/diario-digital-castelo-branco/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.diariodigitalcastelobranco.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: facebookexternalhit",
+     "User-agent: *"
+    ]
+   }
+  },
+  {
+   "id": "diario-do-alentejo",
+   "name": "Diário do Alentejo",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Beja (Baixo Alentejo)"
+   ],
+   "url": "https://diariodoalentejo.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/diario-do-alentejo.json (data/organisations/diario-do-alentejo/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://diariodoalentejo.pt/robots.txt",
+    "http": "404",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "diario-do-distrito",
+   "name": "Diário do Distrito",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Lisboa (editorial seat per ERC register; Nacional scope, Online, Diária)"
+   ],
+   "url": "https://www.diariodistrito.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/diario-do-distrito.json (data/organisations/diario-do-distrito/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.diariodistrito.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/",
+     "User-agent: facebookexternalhit",
+     "User-agent: facebot"
+    ]
+   }
+  },
+  {
+   "id": "diario-do-minho",
+   "name": "Diário do Minho",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Braga"
+   ],
+   "url": "https://www.diariodominho.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/diario-do-minho.json (data/organisations/diario-do-minho/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.diariodominho.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /admin/",
+     "Disallow: /livewire/message/front.pubs.",
+     "User-agent: facebookexternalhit",
+     "Disallow: /admin/",
+     "User-agent: Facebot",
+     "Disallow: /admin/"
+    ]
+   }
+  },
+  {
+   "id": "diario-do-sul",
+   "name": "Diário do Sul",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Évora (Alentejo)"
+   ],
+   "url": "https://diariodosul.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/diario-do-sul.json (data/organisations/diario-do-sul/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://diariodosul.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow:"
+    ]
+   }
+  },
+  {
+   "id": "diario-dos-acores",
+   "name": "Diário dos Açores",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Ponta Delgada / Açores"
+   ],
+   "url": "https://diariodosacores.pt/",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/diario-dos-acores.json (data/organisations/diario-dos-acores/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 000 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://diariodosacores.pt/robots.txt",
+    "http": "000",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   },
+   "researcher_notes": [
+    "Feed re-check 2026-11-17T07:20Z: no connection (000); treat the feed as unverified until re-read."
+   ]
+  },
+  {
+   "id": "dinheiro-vivo",
+   "name": "Dinheiro Vivo",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Portugal (economy, business and finance; the economy section of Diario de Noticias)"
+   ],
+   "url": "https://dinheirovivo.dn.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/dinheiro-vivo.json (data/organisations/dinheiro-vivo/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://dinheirovivo.dn.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *"
+    ]
+   },
+   "researcher_notes": [
+    "RSS not verified: /rss and /feed returned HTTP 403 to the research client (bot protection)."
+   ]
+  },
+  {
+   "id": "douro-interior-jornal",
+   "name": "Douro Interior Jornal",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Vila Real (editorial seat per ERC register; Regional scope, Papel/Online, Mensal)"
+   ],
+   "url": "https://www.dourointeriorjornal.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/douro-interior-jornal.json (data/organisations/douro-interior-jornal/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.dourointeriorjornal.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /vendor/",
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot"
+    ]
+   }
+  },
+  {
+   "id": "eco",
+   "name": "ECO (eco.sapo.pt)",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://eco.sapo.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/eco.json (data/organisations/eco/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://eco.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/",
+     "Disallow: /?s=",
+     "Disallow: /trackback/",
+     "Disallow: /*/feed/",
+     "Disallow: /*/amp/",
+     "Disallow: /embed/",
+     "Disallow: /?p=",
+     "Disallow: /page/",
+     "Disallow: /*/page/"
+    ]
+   }
+  },
+  {
+   "id": "estacao-diaria-edicao-jornal",
+   "name": "Estação Diária Edição Jornal",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Viseu (editorial seat per ERC register; Regional scope, Online, Diária)"
+   ],
+   "url": "https://estacaodiariajornal.sapo.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/estacao-diaria-edicao-jornal.json (data/organisations/estacao-diaria-edicao-jornal/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://estacaodiariajornal.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-content/plugins/",
+     "Disallow: /wp-content/uploads/",
+     "Disallow: /wp-admin/",
+     "Disallow: /search/",
+     "Disallow: /?s=",
+     "Disallow: /wp-login.php"
+    ]
+   }
+  },
+  {
+   "id": "executive-digest",
+   "name": "Executive Digest",
+   "kind": "news publication",
+   "media_kind": "magazine",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://executivedigest.sapo.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/executive-digest.json (data/organisations/executive-digest/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://executivedigest.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/",
+     "Disallow: /wp-login.php"
+    ]
+   }
+  },
+  {
+   "id": "expresso",
+   "name": "Expresso",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://expresso.pt",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/expresso.json (data/organisations/expresso/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 403 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://expresso.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: AI2Bot",
+     "User-agent: Ai2Bot-Dolma",
+     "User-agent: aiHitBot",
+     "User-agent: Amazonbot",
+     "User-agent: Andibot",
+     "User-agent: anthropic-ai",
+     "User-agent: Applebot",
+     "User-agent: Applebot-Extended",
+     "User-agent: Awario",
+     "User-agent: bedrockbot",
+     "User-agent: Brightbot 1.0",
+     "User-agent: Bytespider"
+    ]
+   },
+   "researcher_notes": [
+    "Site could not be read (bot protection); owner, masthead, contacts, feed all unverified",
+    "https://expresso.pt/rss returned 403",
+    "Expresso tecnologia section and RSS returned HTTP 403 to this client; no tech bylines read. (read 2026-11-16)",
+    "Expresso site blocked (403) from this environment: current tech, economy and politics editors not found; Hugo Séneca byline dates from 2022 and should be re-checked (2026-11-17)"
+   ]
+  },
+  {
+   "id": "funchal-noticias",
+   "name": "Funchal Notícias",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Funchal (editorial seat per ERC register; Regional scope, Online, Diária)"
+   ],
+   "url": "https://www.funchalnoticias.net",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/funchal-noticias.json (data/organisations/funchal-noticias/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.funchalnoticias.net/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "futuro-da-guarda",
+   "name": "Futuro da Guarda",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Guarda (editorial seat per ERC register; Regional scope, Online, Mensal)"
+   ],
+   "url": "https://www.futurodaguarda.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/futuro-da-guarda.json (data/organisations/futuro-da-guarda/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.futurodaguarda.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "gazeta-das-caldas",
+   "name": "Gazeta das Caldas",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Caldas da Rainha"
+   ],
+   "url": "https://gazetadascaldas.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/gazeta-das-caldas.json (data/organisations/gazeta-das-caldas/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://gazetadascaldas.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: Baiduspider",
+     "Disallow: /",
+     "User-agent: AhrefsBot",
+     "Disallow: /",
+     "User-agent: MJ12bot",
+     "Disallow: /",
+     "User-agent: BLEXBot",
+     "Disallow: /",
+     "User-agent: DotBot",
+     "Disallow: /",
+     "User-agent: SemrushBot",
+     "Disallow: /"
+    ]
+   }
+  },
+  {
+   "id": "gazeta-do-interior",
+   "name": "Gazeta do Interior",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Castelo Branco (editorial seat per ERC register; Regional scope, Papel/Online, Semanal)"
+   ],
+   "url": "https://www.gazetadointerior.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/gazeta-do-interior.json (data/organisations/gazeta-do-interior/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.gazetadointerior.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "global-news",
+   "name": "Global News",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Porto (editorial seat per ERC register; Regional scope, Online, Diária)"
+   ],
+   "url": "http://globalnews.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/global-news.json (data/organisations/global-news/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "http://globalnews.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/",
+     "Disallow: /invictacrew",
+     "Disallow: /wp-snapshots",
+     "User-agent: asterias",
+     "Disallow:/",
+     "User-agent: BackDoorBot/1.0",
+     "Disallow:/",
+     "User-agent: Black Hole",
+     "Disallow:/",
+     "User-agent: BlowFish/1.0",
+     "Disallow:/"
+    ]
+   }
+  },
+  {
+   "id": "idealista-news",
+   "name": "Idealista News",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://www.idealista.pt/news",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/idealista-news.json (data/organisations/idealista-news/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 403 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://www.idealista.pt/robots.txt",
+    "http": "403",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   },
+   "researcher_notes": [
+    "https://idealista.pt/news/feed returned 403 (bot protection); feed unverified",
+    "idealista/news about page returned 403 to direct fetch; names come from search-result snippets of the site pages (2026-11-17)"
+   ]
+  },
+  {
+   "id": "it-insight",
+   "name": "IT Insight",
+   "kind": "news publication",
+   "media_kind": "magazine",
+   "reach": "national",
+   "places": [
+    "Portugal (IT management; free monthly interactive digital magazine and weekly newsletter for ICT professionals)"
+   ],
+   "url": "https://www.itinsight.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/it-insight.json (data/organisations/it-insight/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.itinsight.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /lagoa/"
+    ]
+   }
+  },
+  {
+   "id": "jm",
+   "name": "JM",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Funchal (editorial seat per ERC register; Regional scope, Papel/Online, Diária)"
+   ],
+   "url": "https://www.jm.pt",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/jm.json (data/organisations/jm/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 000 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://www.jm.pt/robots.txt",
+    "http": "000",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "jornal-da-beira",
+   "name": "Jornal da Beira",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Viseu (editorial seat per ERC register; Regional scope, Papel/Online, Semanal)"
+   ],
+   "url": "https://www.jornaldabeira.web.pt",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/jornal-da-beira.json (data/organisations/jornal-da-beira/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 000 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://www.jornaldabeira.web.pt/robots.txt",
+    "http": "000",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "jornal-das-caldas",
+   "name": "Jornal das Caldas",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Caldas da Rainha",
+    "Nazaré"
+   ],
+   "url": "https://jornaldascaldas.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/jornal-das-caldas.json (data/organisations/jornal-das-caldas/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://jornaldascaldas.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /",
+     "User-agent: Bytespider",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: Diffbot"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "jornal-de-beja",
+   "name": "Jornal de Beja",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Beja (Beja district); regional daily (working days), online"
+   ],
+   "url": "https://jornaldebeja.sapo.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/jornal-de-beja.json (data/organisations/jornal-de-beja/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://jornaldebeja.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /vendor/",
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot"
+    ]
+   }
+  },
+  {
+   "id": "jornal-de-leiria",
+   "name": "Jornal de Leiria",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Leiria"
+   ],
+   "url": "https://jornaldeleiria.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/jornal-de-leiria.json (data/organisations/jornal-de-leiria/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://jornaldeleiria.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /api/",
+     "User-agent: *",
+     "Disallow: /dashboard/"
+    ]
+   }
+  },
+  {
+   "id": "jornal-de-negocios",
+   "name": "Jornal de Negócios",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "national",
+   "places": [
+    "Portugal (economy, markets, companies; newsroom in Lisboa and a delegation in Porto)"
+   ],
+   "url": "https://www.jornaldenegocios.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/jornal-de-negocios.json (data/organisations/jornal-de-negocios/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.jornaldenegocios.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "Disallow: /",
+     "User-agent: Googlebot-Bard",
+     "Disallow: /",
+     "User-agent: GPTBot",
+     "Disallow: /",
+     "User-agent: ChatGPT-User",
+     "Disallow: /",
+     "User-agent: Google-Extended",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /",
+     "User-agent: *"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "CCBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (CCBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "jornal-de-noticias",
+   "name": "Jornal de Notícias",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "national",
+   "places": [
+    "Porto / Grande Porto / Norte"
+   ],
+   "url": "https://www.jn.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/jornal-de-noticias.json (data/organisations/jornal-de-noticias/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.jn.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /embed/",
+     "Disallow: /_next/",
+     "Disallow: /api/",
+     "Disallow: /*?utm_*",
+     "Disallow: /*?fbclid*",
+     "Disallow: /*?gclid*",
+     "User-agent: Googlebot",
+     "User-agent: Googlebot-News",
+     "User-agent: Googlebot-Video",
+     "User-agent: Googlebot-Image",
+     "User-agent: Bingbot"
+    ]
+   },
+   "researcher_notes": [
+    "RSS: /rss returned 403 to curl; not verified"
+   ]
+  },
+  {
+   "id": "jornal-de-portalegre",
+   "name": "Jornal de Portalegre",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Portalegre (Portalegre district); regional daily (working days), online"
+   ],
+   "url": "https://jornaldeportalegre.sapo.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/jornal-de-portalegre.json (data/organisations/jornal-de-portalegre/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://jornaldeportalegre.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /vendor/",
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot"
+    ]
+   }
+  },
+  {
+   "id": "jornal-de-santarem",
+   "name": "Jornal de Santarém",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Santarém (editorial seat per ERC register; Regional scope, Online, Diária (dias úteis))"
+   ],
+   "url": "https://jornaldesantarem.sapo.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/jornal-de-santarem.json (data/organisations/jornal-de-santarem/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://jornaldesantarem.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /vendor/",
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot"
+    ]
+   }
+  },
+  {
+   "id": "jornal-do-centro",
+   "name": "Jornal do Centro",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Viseu",
+    "Região Centro"
+   ],
+   "url": "https://www.jornaldocentro.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/jornal-do-centro.json (data/organisations/jornal-do-centro/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.jornaldocentro.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/",
+     "Disallow: /imunify-bot-check"
+    ]
+   }
+  },
+  {
+   "id": "jornal-economico",
+   "name": "Jornal Económico",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://jornaleconomico.sapo.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/jornal-economico.json (data/organisations/jornal-economico/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://jornaleconomico.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-content/plugins/",
+     "Disallow: /wp-content/uploads/",
+     "Disallow: /wp-admin/",
+     "Disallow: /search/",
+     "Disallow: /?s=",
+     "Disallow: /wp-login.php",
+     "User-agent: *",
+     "Disallow: /wp-json/",
+     "Disallow: /?rest_route="
+    ]
+   }
+  },
+  {
+   "id": "jornal-nordeste",
+   "name": "Jornal Nordeste",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Bragança, Trás-os-Montes"
+   ],
+   "url": "https://www.jornalnordeste.com/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/jornal-nordeste.json (data/organisations/jornal-nordeste/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.jornalnordeste.com/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /api/"
+    ]
+   }
+  },
+  {
+   "id": "jornal-o-despertar",
+   "name": "Jornal O Despertar",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Coimbra (editorial seat per ERC register; Regional scope, Papel/Online, Semanal)"
+   ],
+   "url": "https://www.odespertar.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/jornal-o-despertar.json (data/organisations/jornal-o-despertar/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.odespertar.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "jornal-reconquista",
+   "name": "Jornal Reconquista",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Castelo Branco (editorial seat per ERC register; Regional scope, Papel/Online, Semanal)"
+   ],
+   "url": "https://www.reconquista.pt",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/jornal-reconquista.json (data/organisations/jornal-reconquista/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 403 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://www.reconquista.pt/robots.txt",
+    "http": "403",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   },
+   "researcher_notes": [
+    "Website listed in the ERC register did not return HTTP 200 from this environment (403); feed and contact not verified"
+   ]
+  },
+  {
+   "id": "jornal-torrejano",
+   "name": "Jornal Torrejano",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "local",
+   "places": [
+    "Torres Novas",
+    "Alcanena",
+    "Entroncamento",
+    "Golegã"
+   ],
+   "url": "https://jornaltorrejano.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/jornal-torrejano.json (data/organisations/jornal-torrejano/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://jornaltorrejano.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "jpn-jornalismoportonet",
+   "name": "JPN - JornalismoPortoNet",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "local",
+   "places": [
+    "Porto (news, podcasts and interactive specials by the journalism course of the Universidade do Porto)"
+   ],
+   "url": "https://www.jpn.up.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/jpn-jornalismoportonet.json (data/organisations/jpn-jornalismoportonet/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.jpn.up.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /",
+     "User-agent: Bytespider",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: Diffbot"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "leiria-informacao",
+   "name": "Leiria Informação",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Leiria (editorial seat per ERC register; Regional scope, Online, Diária (dias úteis))"
+   ],
+   "url": "https://www.leiriainformacao.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/leiria-informacao.json (data/organisations/leiria-informacao/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.leiriainformacao.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /vendor/",
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot"
+    ]
+   }
+  },
+  {
+   "id": "lidador-noticias",
+   "name": "Lidador Notícias",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Beja (Baixo Alentejo); regional daily, general information"
+   ],
+   "url": "https://lidadornoticias.pt/",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/lidador-noticias.json (data/organisations/lidador-noticias/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 000 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://lidadornoticias.pt/robots.txt",
+    "http": "000",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "link-to-leaders",
+   "name": "Link to Leaders",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://linktoleaders.com",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/link-to-leaders.json (data/organisations/link-to-leaders/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://linktoleaders.com/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow:"
+    ]
+   }
+  },
+  {
+   "id": "lisboa-para-pessoas",
+   "name": "LPP - Lisboa Para Pessoas",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Lisboa and the Lisbon metropolitan area"
+   ],
+   "url": "https://lisboaparapessoas.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/lisboa-para-pessoas.json (data/organisations/lisboa-para-pessoas/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://lisboaparapessoas.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "lusa",
+   "name": "Lusa - Agência de Notícias de Portugal",
+   "kind": "news publication",
+   "media_kind": "news-agency",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://www.lusa.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/lusa.json (data/organisations/lusa/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.lusa.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "Disallow: /",
+     "User-agent: OpenAI-Crawler",
+     "Disallow: /",
+     "User-agent: ChatGPT-User",
+     "Disallow: /",
+     "User-agent: GPTBot",
+     "Disallow: /",
+     "User-agent: Googlebot",
+     "Disallow: /Admin/",
+     "Disallow: /App_Code/",
+     "Disallow: /App_Data/",
+     "Disallow: /bin/"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "GPTBot"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (GPTBot). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "mais-ribatejo",
+   "name": "Mais Ribatejo",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Santarém",
+    "Ribatejo"
+   ],
+   "url": "https://maisribatejo.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/mais-ribatejo.json (data/organisations/mais-ribatejo/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://maisribatejo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /",
+     "User-agent: Bytespider",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: Diffbot"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "medio-tejo",
+   "name": "Médio Tejo",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Médio Tejo",
+    "Tomar",
+    "Abrantes",
+    "Santarém"
+   ],
+   "url": "https://mediotejo.net",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/medio-tejo.json (data/organisations/medio-tejo/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://mediotejo.net/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-content/uploads/wc-logs/",
+     "Disallow: /wp-content/uploads/woocommerce_transient_files/",
+     "Disallow: /wp-content/uploads/woocommerce_uploads/",
+     "Disallow: /*?add-to-cart=",
+     "Disallow: /*?*add-to-cart=",
+     "Disallow: /wp-admin/",
+     "User-agent: *",
+     "Disallow:"
+    ]
+   }
+  },
+  {
+   "id": "mensageiro-de-braganca",
+   "name": "Mensageiro de Bragança",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Bragança diocese"
+   ],
+   "url": "https://mdb.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/mensageiro-de-braganca.json (data/organisations/mensageiro-de-braganca/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://mdb.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /",
+     "User-agent: Bytespider",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: Diffbot"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "mensagem-de-lisboa",
+   "name": "Mensagem de Lisboa",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Lisboa"
+   ],
+   "url": "https://www.amensagem.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/mensagem-de-lisboa.json (data/organisations/mensagem-de-lisboa/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.amensagem.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-content/uploads/wc-logs/",
+     "Disallow: /wp-content/uploads/woocommerce_transient_files/",
+     "Disallow: /wp-content/uploads/woocommerce_uploads/",
+     "Disallow: /*?add-to-cart=",
+     "Disallow: /*?*add-to-cart=",
+     "Disallow: /wp-admin/",
+     "User-agent: *",
+     "Disallow:"
+    ]
+   },
+   "researcher_notes": [
+    "amensagem.pt returned HTTP 403 to this client for every page (home, feed, contactos, sobre, ficha-tecnica): contact page, feed and team not read."
+   ]
+  },
+  {
+   "id": "noticias-ao-minuto",
+   "name": "Notícias ao Minuto",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://www.noticiasaominuto.com",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/noticias-ao-minuto.json (data/organisations/noticias-ao-minuto/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.noticiasaominuto.com/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /cgi-bin/",
+     "Disallow: /api",
+     "Disallow: /eyeblaster",
+     "Disallow: /addineyeV2.html",
+     "Disallow: /n",
+     "Disallow: /preview",
+     "Disallow: /home-sandbox",
+     "Disallow: /trackandgo",
+     "Disallow: /pesquisa",
+     "Disallow: /cdn-cgi",
+     "Disallow: /livewire/"
+    ]
+   }
+  },
+  {
+   "id": "noticias-da-covilha",
+   "name": "Notícias da Covilhã",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Covilhã"
+   ],
+   "url": "https://noticiasdacovilha.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/noticias-da-covilha.json (data/organisations/noticias-da-covilha/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://noticiasdacovilha.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow:"
+    ]
+   }
+  },
+  {
+   "id": "noticias-de-aveiro",
+   "name": "Notícias de Aveiro",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Aveiro (editorial seat per ERC register; Regional scope, Online, Diária)"
+   ],
+   "url": "https://www.noticiasdeaveiro.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/noticias-de-aveiro.json (data/organisations/noticias-de-aveiro/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.noticiasdeaveiro.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow:"
+    ]
+   }
+  },
+  {
+   "id": "noticias-de-coimbra",
+   "name": "Notícias de Coimbra (NDC)",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Coimbra"
+   ],
+   "url": "https://www.noticiasdecoimbra.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/noticias-de-coimbra.json (data/organisations/noticias-de-coimbra/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.noticiasdecoimbra.pt/robots.txt",
+    "http": "404",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "noticias-de-viana",
+   "name": "Notícias de Viana",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Viana do Castelo (distrito)"
+   ],
+   "url": "https://noticiasdeviana.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/noticias-de-viana.json (data/organisations/noticias-de-viana/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://noticiasdeviana.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-content/uploads/wc-logs/",
+     "Disallow: /wp-content/uploads/woocommerce_transient_files/",
+     "Disallow: /wp-content/uploads/woocommerce_uploads/",
+     "Disallow: /*?add-to-cart=",
+     "Disallow: /*?*add-to-cart=",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "noticias-de-vila-real",
+   "name": "Notícias de Vila Real",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Vila Real"
+   ],
+   "url": "https://noticiasdevilareal.sapo.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/noticias-de-vila-real.json (data/organisations/noticias-de-vila-real/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://noticiasdevilareal.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-content/plugins/",
+     "Disallow: /wp-content/uploads/",
+     "Disallow: /wp-admin/",
+     "Disallow: /search/",
+     "Disallow: /?s=",
+     "Disallow: /wp-login.php"
+    ]
+   }
+  },
+  {
+   "id": "o-digital",
+   "name": "ODigital",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Alentejo (Alto Alentejo, Alentejo Central, Baixo Alentejo, Alentejo Litoral sections); seat Vila Viçosa"
+   ],
+   "url": "https://odigital.sapo.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/o-digital.json (data/organisations/o-digital/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://odigital.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "o-interior",
+   "name": "O Interior",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Guarda",
+    "Serra da Estrela"
+   ],
+   "url": "https://www.ointerior.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/o-interior.json (data/organisations/o-interior/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.ointerior.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "o-minho",
+   "name": "O MINHO",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Braga e Minho"
+   ],
+   "url": "https://ominho.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/o-minho.json (data/organisations/o-minho/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://ominho.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/",
+     "Disallow: /wp-login.php",
+     "Disallow: /wp-signup.php",
+     "Disallow: /xmlrpc.php",
+     "Disallow: /trackback/",
+     "Disallow: /wp-json/",
+     "Disallow: /search/",
+     "Disallow: /*?s=*",
+     "Disallow: /*&s=*",
+     "User-agent: Googlebot-Image",
+     "Disallow: /wp-content/uploads/ominho-watermark/"
+    ]
+   }
+  },
+  {
+   "id": "o-mirante",
+   "name": "O Mirante",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Santarém",
+    "Ribatejo"
+   ],
+   "url": "https://omirante.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/o-mirante.json (data/organisations/o-mirante/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://omirante.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *"
+    ]
+   }
+  },
+  {
+   "id": "o-primeiro-de-janeiro",
+   "name": "O Primeiro de Janeiro",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Porto (editorial seat per ERC register; Nacional scope, Online, Diária)"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/o-primeiro-de-janeiro.json (data/organisations/o-primeiro-de-janeiro/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   },
+   "researcher_notes": [
+    "Website withheld: the register lists https://www.oprimeirodejaneiro.com.pt, which served a casino-spam page on 2026-11-16 (domain appears taken over); do not link until re-checked."
+   ]
+  },
+  {
+   "id": "o-setubalense",
+   "name": "O Setubalense",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Setúbal, Palmela, Seixal, Sesimbra, Almada, Barreiro, Moita, Montijo, Alcochete (publicity offices listed)"
+   ],
+   "url": "https://osetubalense.com/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/o-setubalense.json (data/organisations/o-setubalense/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://osetubalense.com/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "observador",
+   "name": "Observador",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://observador.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/observador.json (data/organisations/observador/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://observador.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/",
+     "Disallow: */embed/",
+     "User-agent: Google-Extended",
+     "User-agent: AI2Bot",
+     "User-agent: Ai2Bot-Dolma",
+     "User-agent: Amazonbot",
+     "User-agent: anthropic-ai",
+     "User-agent: Applebot",
+     "User-agent: Applebot-Extended",
+     "User-agent: CCBot",
+     "User-agent: ChatGPT-User"
+    ]
+   }
+  },
+  {
+   "id": "pagina-um",
+   "name": "Página Um",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Lisboa (editorial seat per ERC register; Nacional scope, Online, Diária)"
+   ],
+   "url": "https://www.paginaum.pt",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/pagina-um.json (data/organisations/pagina-um/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 429 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://www.paginaum.pt/robots.txt",
+    "http": "429",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "pcguia",
+   "name": "PCGuia",
+   "kind": "news publication",
+   "media_kind": "magazine",
+   "reach": "national",
+   "places": [
+    "Portugal (national ICT and technology news; monthly paper and online)"
+   ],
+   "url": "https://www.pcguia.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/pcguia.json (data/organisations/pcguia/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.pcguia.pt/robots.txt",
+    "http": "404",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "perspetiva",
+   "name": "Perspetiva",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Elvas and the Alto Alentejo (seat Elvas); regional daily"
+   ],
+   "url": "https://www.perspetiva.com/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/perspetiva.json (data/organisations/perspetiva/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.perspetiva.com/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *"
+    ]
+   }
+  },
+  {
+   "id": "portugal-resident",
+   "name": "Portugal Resident",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://www.portugalresident.com",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/portugal-resident.json (data/organisations/portugal-resident/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 403 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://www.portugalresident.com/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /",
+     "User-agent: Bytespider",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: Diffbot"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record.",
+   "researcher_notes": [
+    "About page blocked by Cloudflare; owner, masthead, contacts unread"
+   ]
+  },
+  {
+   "id": "pplware",
+   "name": "Pplware",
+   "kind": "news publication",
+   "media_kind": "blog",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://pplware.sapo.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/pplware.json (data/organisations/pplware/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://pplware.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot",
+     "User-agent: Yandex",
+     "User-Agent: bingbot",
+     "User-Agent: sentibot",
+     "Disallow: /wp-content/themes/namek/pub.html",
+     "Disallow: /geoips.php",
+     "Disallow: /wp-comments-post.php",
+     "Disallow: /parceiros/KasperskyLAB/Mail-Consumers-PT.html",
+     "Disallow: /google_chrome/features.htm",
+     "User-agent: *",
+     "Disallow:"
+    ]
+   }
+  },
+  {
+   "id": "pressnet",
+   "name": "Pressnet",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Braga (editorial seat per ERC register; Nacional scope, Online, Diária)"
+   ],
+   "url": "https://www.pressnet.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/pressnet.json (data/organisations/pressnet/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.pressnet.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp/wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "pt-jornal",
+   "name": "PT Jornal",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Funchal (editorial seat per ERC register; Nacional scope, Online, Diária)"
+   ],
+   "url": "https://ptjornal.com",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/pt-jornal.json (data/organisations/pt-jornal/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://ptjornal.com/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /",
+     "User-agent: Bytespider",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: Diffbot"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "publico",
+   "name": "PÚBLICO",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://www.publico.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/publico.json (data/organisations/publico/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.publico.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: AddSearchBot",
+     "User-agent: AgentTimes",
+     "User-agent: AI2Bot",
+     "User-agent: AI2Bot-DeepResearchEval",
+     "User-agent: Ai2Bot-Dolma",
+     "User-agent: aiHitBot",
+     "User-agent: AliyunSecBot",
+     "User-agent: amazon-kendra",
+     "User-agent: amazon-kendra-",
+     "User-agent: Amazonbot",
+     "User-agent: AmazonBuyForMe",
+     "User-agent: Amzn-SearchBot"
+    ]
+   }
+  },
+  {
+   "id": "radio-afifense",
+   "name": "Rádio Afifense",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Viana do Castelo; 87.6 FM; Generalista; ERC area of coverage: Local"
+   ],
+   "url": "https://radioafifense.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-afifense.json (data/organisations/radio-afifense/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://radioafifense.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "radio-altitude",
+   "name": "Rádio Altitude",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Guarda; 90.9 FM; Generalista; ERC area of coverage: Local"
+   ],
+   "url": "https://www.altitude.fm/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-altitude.json (data/organisations/radio-altitude/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.altitude.fm/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "radio-alto-minho",
+   "name": "Rádio Alto Minho",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Viana do Castelo"
+   ],
+   "url": "https://radioaltominho.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-alto-minho.json (data/organisations/radio-alto-minho/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://radioaltominho.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "radio-amalia-de-setubal",
+   "name": "Rádio Amália de Setúbal",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Setúbal; 100.6 FM, musical thematic"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-amalia-de-setubal.json (data/organisations/radio-amalia-de-setubal/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "radio-atlantida",
+   "name": "Rádio Atlântida",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Ponta Delgada; 88.5 FM; Generalista; ERC area of coverage: Local"
+   ],
+   "url": "https://www.radioatlantida.net/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-atlantida.json (data/organisations/radio-atlantida/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.radioatlantida.net/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /",
+     "User-agent: Bytespider",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: Diffbot"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "radio-azul",
+   "name": "Rádio Azul",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Setúbal; 98.9 FM, generalist"
+   ],
+   "url": "https://radioazul.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-azul.json (data/organisations/radio-azul/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://radioazul.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow:"
+    ]
+   },
+   "researcher_notes": [
+    "The /sobre/ page returned a bot-check page to the research client; not read."
+   ]
+  },
+  {
+   "id": "radio-brigantia",
+   "name": "Rádio Brigantia",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Bragança (97.3 and 97.7 FM)"
+   ],
+   "url": "https://www.brigantia.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-brigantia.json (data/organisations/radio-brigantia/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.brigantia.pt/robots.txt",
+    "http": "404",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "radio-cidade-fm-aveiro",
+   "name": "Cidade FM Aveiro",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Aveiro; 105.6 FM; Temático - Musical; ERC area of coverage: Local"
+   ],
+   "url": "https://cidade.fm/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-cidade-fm-aveiro.json (data/organisations/radio-cidade-fm-aveiro/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://cidade.fm/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /api/",
+     "Disallow: /xsl_files/",
+     "Disallow: /scripts/",
+     "Disallow: /static/",
+     "Disallow: /styles/",
+     "Disallow: /includes/",
+     "Disallow: /webservices/"
+    ]
+   }
+  },
+  {
+   "id": "radio-cidade-fm-lisboa",
+   "name": "Cidade FM Lisboa",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Lisboa; 91.6 FM; Temático - Musical; ERC area of coverage: Local"
+   ],
+   "url": "https://cidade.fm/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-cidade-fm-lisboa.json (data/organisations/radio-cidade-fm-lisboa/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://cidade.fm/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /api/",
+     "Disallow: /xsl_files/",
+     "Disallow: /scripts/",
+     "Disallow: /static/",
+     "Disallow: /styles/",
+     "Disallow: /includes/",
+     "Disallow: /webservices/"
+    ]
+   }
+  },
+  {
+   "id": "radio-cidade-fm-viseu",
+   "name": "Cidade FM Viseu",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Viseu; 102.8 FM; Temático - Musical; ERC area of coverage: Local"
+   ],
+   "url": "https://cidade.fm/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-cidade-fm-viseu.json (data/organisations/radio-cidade-fm-viseu/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://cidade.fm/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /api/",
+     "Disallow: /xsl_files/",
+     "Disallow: /scripts/",
+     "Disallow: /static/",
+     "Disallow: /styles/",
+     "Disallow: /includes/",
+     "Disallow: /webservices/"
+    ]
+   }
+  },
+  {
+   "id": "radio-clube",
+   "name": "Rádio Clube",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Funchal; 106.8 FM; Generalista; ERC area of coverage: Local"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-clube.json (data/organisations/radio-clube/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "radio-cm-90-4",
+   "name": "CM Rádio 90.4",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Lisboa; 90.4 FM; Temático - Informativo; ERC area of coverage: Local"
+   ],
+   "url": "https://www.cmjornal.pt/cmr/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-cm-90-4.json (data/organisations/radio-cm-90-4/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.cmjornal.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: OpenAI-Crawler",
+     "Disallow: /",
+     "User-agent: Googlebot-Bard",
+     "Disallow: /",
+     "User-agent: GPTBot",
+     "Disallow: /",
+     "User-agent: ChatGPT-User",
+     "Disallow: /",
+     "User-agent: Google-Extended",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "CCBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (CCBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "radio-cm-94-8",
+   "name": "CM Rádio 94.8",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Porto; 94.8 FM; Temático - Informativo; ERC area of coverage: Local"
+   ],
+   "url": "https://www.cmjornal.pt/cmr/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-cm-94-8.json (data/organisations/radio-cm-94-8/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.cmjornal.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: OpenAI-Crawler",
+     "Disallow: /",
+     "User-agent: Googlebot-Bard",
+     "Disallow: /",
+     "User-agent: GPTBot",
+     "Disallow: /",
+     "User-agent: ChatGPT-User",
+     "Disallow: /",
+     "User-agent: Google-Extended",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "CCBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (CCBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "radio-comercial-dos-acores",
+   "name": "Rádio Comercial dos Açores",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Ponta Delgada; 99.4 FM; Temático - Informativo; ERC area of coverage: Local"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-comercial-dos-acores.json (data/organisations/radio-comercial-dos-acores/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "radio-condestavel",
+   "name": "Rádio Condestável",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Sertã",
+    "Cernache do Bonjardim"
+   ],
+   "url": "https://www.radiocondestavel.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-condestavel.json (data/organisations/radio-condestavel/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.radiocondestavel.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: CazoodleBot",
+     "Disallow: /",
+     "User-agent: MJ12bot",
+     "Disallow: /",
+     "User-agent: MJ12bot/v1.4.0",
+     "Disallow: /",
+     "User-agent: MJ12bot/v1.2.4",
+     "Disallow: /",
+     "User-agent: MJ12bot/v1.2.3",
+     "Disallow: /",
+     "User-agent: MJ12bot/v1.0.8",
+     "Disallow: /"
+    ]
+   }
+  },
+  {
+   "id": "radio-estacao-madeira-tsf-madeira",
+   "name": "Estação Rádio Madeira - TSF Madeira",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Funchal; 100.0 FM; Temático - Informativo; ERC area of coverage: Local"
+   ],
+   "url": "https://www.tsfmadeira.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-estacao-madeira-tsf-madeira.json (data/organisations/radio-estacao-madeira-tsf-madeira/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.tsfmadeira.pt/robots.txt",
+    "http": "404",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "radio-f",
+   "name": "Rádio F",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Guarda; 105.8 FM; Generalista; ERC area of coverage: Local"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-f.json (data/organisations/radio-f/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "radio-fronteira",
+   "name": "Rádio Fronteira",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Almeida",
+    "Sabugal",
+    "Figueira de Castelo Rodrigo",
+    "Pinhel",
+    "Guarda"
+   ],
+   "url": "https://radiofronteira.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-fronteira.json (data/organisations/radio-fronteira/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://radiofronteira.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "radio-geice",
+   "name": "Rádio Geice",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Viana do Castelo; 90.8 FM; Generalista; ERC area of coverage: Local"
+   ],
+   "url": "https://radiogeice.com/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-geice.json (data/organisations/radio-geice/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://radiogeice.com/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/",
+     "Disallow: /wp-login.php",
+     "Disallow: /fm"
+    ]
+   }
+  },
+  {
+   "id": "radio-hertz",
+   "name": "Rádio Hertz",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Tomar",
+    "Médio Tejo"
+   ],
+   "url": "https://radiohertz.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-hertz.json (data/organisations/radio-hertz/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://radiohertz.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow:"
+    ]
+   },
+   "researcher_notes": [
+    "Feed re-check 2026-11-17T07:20Z: HTTP 403; treat the feed as unverified until re-read."
+   ]
+  },
+  {
+   "id": "radio-jm-fm",
+   "name": "JM - FM",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Funchal; 88.8 FM; Generalista; ERC area of coverage: Local"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-jm-fm.json (data/organisations/radio-jm-fm/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "radio-jornal-de-setubal",
+   "name": "Rádio Jornal de Setúbal",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Setúbal; 88.6 FM, generalist"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-jornal-de-setubal.json (data/organisations/radio-jornal-de-setubal/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "radio-jornal-do-centro",
+   "name": "Rádio Jornal do Centro",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "regional",
+   "places": [
+    "Viseu"
+   ],
+   "url": "https://www.radiojornaldocentro.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-jornal-do-centro.json (data/organisations/radio-jornal-do-centro/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.radiojornaldocentro.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *"
+    ]
+   },
+   "researcher_notes": [
+    "surprising: the page text of the site contained injected foreign-language casino spam (SEO injection) when read on 2026-11-16; treat the site as possibly compromised"
+   ]
+  },
+  {
+   "id": "radio-jovem",
+   "name": "Rádio Jovem",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Évora; 105.4 FM; Temático - Informativo; ERC area of coverage: Local"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-jovem.json (data/organisations/radio-jovem/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "radio-m80-aveiro",
+   "name": "M80 Aveiro",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Aveiro; 94.4 FM; Temático - Musical; ERC area of coverage: Local"
+   ],
+   "url": "https://m80.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-m80-aveiro.json (data/organisations/radio-m80-aveiro/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://m80.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /api/",
+     "Disallow: /xsl_files/",
+     "Disallow: /scripts/",
+     "Disallow: /static/",
+     "Disallow: /styles/",
+     "Disallow: /includes/"
+    ]
+   }
+  },
+  {
+   "id": "radio-m80-braganca",
+   "name": "M80 Bragança",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Bragança; 89.2 FM; Temático - Musical; ERC area of coverage: Local"
+   ],
+   "url": "https://m80.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-m80-braganca.json (data/organisations/radio-m80-braganca/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://m80.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /api/",
+     "Disallow: /xsl_files/",
+     "Disallow: /scripts/",
+     "Disallow: /static/",
+     "Disallow: /styles/",
+     "Disallow: /includes/"
+    ]
+   }
+  },
+  {
+   "id": "radio-m80-coimbra",
+   "name": "M80 Coimbra",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Coimbra; 98.4 FM; Temático - Musical; ERC area of coverage: Local"
+   ],
+   "url": "https://m80.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-m80-coimbra.json (data/organisations/radio-m80-coimbra/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://m80.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /api/",
+     "Disallow: /xsl_files/",
+     "Disallow: /scripts/",
+     "Disallow: /static/",
+     "Disallow: /styles/",
+     "Disallow: /includes/"
+    ]
+   }
+  },
+  {
+   "id": "radio-m80-leiria",
+   "name": "M80 Leiria",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Leiria; 93.0 FM; Temático - Musical; ERC area of coverage: Local"
+   ],
+   "url": "https://m80.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-m80-leiria.json (data/organisations/radio-m80-leiria/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://m80.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /api/",
+     "Disallow: /xsl_files/",
+     "Disallow: /scripts/",
+     "Disallow: /static/",
+     "Disallow: /styles/",
+     "Disallow: /includes/"
+    ]
+   }
+  },
+  {
+   "id": "radio-m80-porto",
+   "name": "M80 Porto",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Porto; 90 FM; Temático - Musical; ERC area of coverage: Local"
+   ],
+   "url": "https://m80.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-m80-porto.json (data/organisations/radio-m80-porto/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://m80.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /api/",
+     "Disallow: /xsl_files/",
+     "Disallow: /scripts/",
+     "Disallow: /static/",
+     "Disallow: /styles/",
+     "Disallow: /includes/"
+    ]
+   }
+  },
+  {
+   "id": "radio-m80-vila-real",
+   "name": "M80 Vila Real",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Vila Real; 97.4 FM; Temático - Musical; ERC area of coverage: Local"
+   ],
+   "url": "https://m80.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-m80-vila-real.json (data/organisations/radio-m80-vila-real/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://m80.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /api/",
+     "Disallow: /xsl_files/",
+     "Disallow: /scripts/",
+     "Disallow: /static/",
+     "Disallow: /styles/",
+     "Disallow: /includes/"
+    ]
+   }
+  },
+  {
+   "id": "radio-mega-hits-aveiro",
+   "name": "Mega Hits Aveiro",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Aveiro; 96.5 FM; Temático - Musical; ERC area of coverage: Local"
+   ],
+   "url": "https://megahits.fm/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-mega-hits-aveiro.json (data/organisations/radio-mega-hits-aveiro/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://megahits.fm/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: GPTBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: anthropic-ai",
+     "Disallow: /",
+     "User-agent: Google-Extended",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended",
+    "anthropic-ai"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended, anthropic-ai). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "radio-mega-hits-braga",
+   "name": "Mega Hits Braga",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Braga; 92.9 FM; Temático - Musical; ERC area of coverage: Local"
+   ],
+   "url": "https://megahits.fm/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-mega-hits-braga.json (data/organisations/radio-mega-hits-braga/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://megahits.fm/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: GPTBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: anthropic-ai",
+     "Disallow: /",
+     "User-agent: Google-Extended",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended",
+    "anthropic-ai"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended, anthropic-ai). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "radio-mega-hits-coimbra",
+   "name": "Mega Hits - Coimbra",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Coimbra; 90.0 FM; Temático - Musical; ERC area of coverage: Local"
+   ],
+   "url": "https://megahits.fm/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-mega-hits-coimbra.json (data/organisations/radio-mega-hits-coimbra/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://megahits.fm/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: GPTBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: anthropic-ai",
+     "Disallow: /",
+     "User-agent: Google-Extended",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended",
+    "anthropic-ai"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended, anthropic-ai). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "radio-mega-hits-viseu",
+   "name": "Mega Hits Viseu",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Viseu; 106.4 FM; Temático - Musical; ERC area of coverage: Local"
+   ],
+   "url": "https://megahits.fm/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-mega-hits-viseu.json (data/organisations/radio-mega-hits-viseu/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://megahits.fm/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: GPTBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: anthropic-ai",
+     "Disallow: /",
+     "User-agent: Google-Extended",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended",
+    "anthropic-ai"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended, anthropic-ai). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "radio-mega-hits",
+   "name": "Mega Hits",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Lisboa; 92.4 FM; Temático - Musical; ERC area of coverage: Local"
+   ],
+   "url": "https://megahits.fm/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-mega-hits.json (data/organisations/radio-mega-hits/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://megahits.fm/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: GPTBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: anthropic-ai",
+     "Disallow: /",
+     "User-agent: Google-Extended",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended",
+    "anthropic-ai"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended, anthropic-ai). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "radio-nova",
+   "name": "Rádio Nova",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Porto; 98.9 FM; Temático - Musical; ERC area of coverage: Local"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-nova.json (data/organisations/radio-nova/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "radio-observador-leiria",
+   "name": "Rádio Observador Leiria",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Leiria; 94 FM; Temático - Informativo; ERC area of coverage: Local"
+   ],
+   "url": "https://observador.pt/radio/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-observador-leiria.json (data/organisations/radio-observador-leiria/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://observador.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/",
+     "Disallow: */embed/",
+     "User-agent: Google-Extended",
+     "User-agent: AI2Bot",
+     "User-agent: Ai2Bot-Dolma",
+     "User-agent: Amazonbot",
+     "User-agent: anthropic-ai",
+     "User-agent: Applebot",
+     "User-agent: Applebot-Extended",
+     "User-agent: CCBot",
+     "User-agent: ChatGPT-User"
+    ]
+   }
+  },
+  {
+   "id": "radio-oxigenio",
+   "name": "Oxigénio (102.6 FM)",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Oeiras / Linha de Cascais (licensing concelho Oeiras; studio address Lisboa); 102.6 FM, musical thematic"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-oxigenio.json (data/organisations/radio-oxigenio/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "radio-pax",
+   "name": "Rádio Pax",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Beja; 101.4 FM, generalist"
+   ],
+   "url": "https://www.radiopax.com/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-pax.json (data/organisations/radio-pax/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.radiopax.com/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "radio-portalegre",
+   "name": "Rádio Portalegre",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Portalegre; 100.5 FM and 104.5 FM, generalist"
+   ],
+   "url": "https://radioportalegre.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-portalegre.json (data/organisations/radio-portalegre/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://radioportalegre.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   },
+   "researcher_notes": [
+    "Fonte Nova (Portalegre weekly): fontenova.pt and www.fontenova.pt did not connect from this client; not mapped. The ERC press sheet lists Portalegre titles such as 'Alto Alentejo' (125037, jornalaltoalentejo.com, also unreachable) and 'Jornal de Portalegre' (127859, jornaldeportalegre.sapo.pt)."
+   ]
+  },
+  {
+   "id": "radio-posto-emissor-do-funchal-canal-2",
+   "name": "Posto Emissor do Funchal - Canal 2",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Funchal; 92.00 FM; Generalista; ERC area of coverage: Local"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-posto-emissor-do-funchal-canal-2.json (data/organisations/radio-posto-emissor-do-funchal-canal-2/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "radio-racab-castelo-branco",
+   "name": "RACAB - Rádio Castelo Branco",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Castelo Branco; 92.00 FM; Generalista; ERC area of coverage: Local"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-racab-castelo-branco.json (data/organisations/radio-racab-castelo-branco/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "radio-rci",
+   "name": "RCI",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Viseu; 105.5 FM; Generalista; ERC area of coverage: Local"
+   ],
+   "url": "https://rci.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-rci.json (data/organisations/radio-rci/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://rci.pt/robots.txt",
+    "http": "404",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "radio-record-leiria",
+   "name": "Record Leiria",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Leiria; 101.4 FM; Generalista; ERC area of coverage: Local"
+   ],
+   "url": "https://www.recordfm.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-record-leiria.json (data/organisations/radio-record-leiria/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.recordfm.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "radio-record-santarem",
+   "name": "Record Santarém",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Santarém; 101.7 FM; Generalista; ERC area of coverage: Local"
+   ],
+   "url": "https://www.recordfm.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-record-santarem.json (data/organisations/radio-record-santarem/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.recordfm.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "radio-smooth-fm-lisboa",
+   "name": "Smooth FM Lisboa",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Lisboa; 96.6 FM; Temático - Musical; ERC area of coverage: Local"
+   ],
+   "url": "https://smoothfm.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-smooth-fm-lisboa.json (data/organisations/radio-smooth-fm-lisboa/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://smoothfm.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /api/",
+     "Disallow: /xsl_files/",
+     "Disallow: /scripts/",
+     "Disallow: /static/",
+     "Disallow: /styles/",
+     "Disallow: /includes/"
+    ]
+   }
+  },
+  {
+   "id": "radio-smooth-fm-santarem",
+   "name": "Smooth FM Santarém",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Santarém; 97.7 FM; Temático - Musical; ERC area of coverage: Local"
+   ],
+   "url": "https://smoothfm.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-smooth-fm-santarem.json (data/organisations/radio-smooth-fm-santarem/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://smoothfm.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /api/",
+     "Disallow: /xsl_files/",
+     "Disallow: /scripts/",
+     "Disallow: /static/",
+     "Disallow: /styles/",
+     "Disallow: /includes/"
+    ]
+   }
+  },
+  {
+   "id": "radio-telefonia-do-alentejo",
+   "name": "Rádio Telefonia do Alentejo",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Évora; 103.2 FM; Generalista; ERC area of coverage: Local"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-telefonia-do-alentejo.json (data/organisations/radio-telefonia-do-alentejo/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "radio-urbana-fm",
+   "name": "Urbana FM",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Castelo Branco; 100.8 FM; Generalista; ERC area of coverage: Local"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-urbana-fm.json (data/organisations/radio-urbana-fm/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "radio-valdevez",
+   "name": "Rádio Valdevez",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Arcos de Valdevez (Alto Minho)"
+   ],
+   "url": "https://www.radiovaldevez.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-valdevez.json (data/organisations/radio-valdevez/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.radiovaldevez.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "radio-voz-da-planicie",
+   "name": "Rádio Voz da Planície",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Beja; 104.5 FM, generalist"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-voz-da-planicie.json (data/organisations/radio-voz-da-planicie/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "radio-voz-do-marao",
+   "name": "Rádio Voz do Marão",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Vila Real; 96.3 FM; Generalista; ERC area of coverage: Local"
+   ],
+   "url": "https://radiovozdomarao.com/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/radio-voz-do-marao.json (data/organisations/radio-voz-do-marao/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://radiovozdomarao.com/robots.txt",
+    "http": "404",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "rede-regional",
+   "name": "Rede Regional",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Santarém (editorial seat per ERC register; Regional scope, Online, Diária)"
+   ],
+   "url": "https://www.rederegional.com",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/rede-regional.json (data/organisations/rede-regional/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 403 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://www.rederegional.com/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /",
+     "User-agent: Bytespider",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: Diffbot"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record.",
+   "researcher_notes": [
+    "Website listed in the ERC register did not return HTTP 200 from this environment (403); feed and contact not verified"
+   ]
+  },
+  {
+   "id": "regiao-de-coimbra",
+   "name": "Região de Coimbra",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Viseu (editorial seat per ERC register; Regional scope, Online, Diária (dias úteis))"
+   ],
+   "url": "https://www.regiaodecoimbra.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/regiao-de-coimbra.json (data/organisations/regiao-de-coimbra/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.regiaodecoimbra.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /vendor/",
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot"
+    ]
+   }
+  },
+  {
+   "id": "regiao-de-leiria",
+   "name": "Região de Leiria",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Leiria"
+   ],
+   "url": "https://www.regiaodeleiria.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/regiao-de-leiria.json (data/organisations/regiao-de-leiria/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.regiaodeleiria.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *"
+    ]
+   }
+  },
+  {
+   "id": "regiao-de-lisboa",
+   "name": "Região de Lisboa",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Lisboa (registered region: Lisboa)"
+   ],
+   "url": "https://regiaodelisboa.sapo.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/regiao-de-lisboa.json (data/organisations/regiao-de-lisboa/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://regiaodelisboa.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /vendor/",
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot"
+    ]
+   }
+  },
+  {
+   "id": "renascenca",
+   "name": "Rádio Renascença",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://rr.pt",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/renascenca.json (data/organisations/renascenca/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 403 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://rr.pt/robots.txt",
+    "http": "403",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   },
+   "researcher_notes": [
+    "Outlet site returned 403 (rr.pt) and 410 (rr.sapo.pt); masthead, contacts, feed unverified",
+    "rr.pt/fichatecnica blocked (403): Director de Informação not named in any source reached; Pedro Leal was director of information in an older university interview, not confirmed current (2026-11-17)"
+   ]
+  },
+  {
+   "id": "revela-arrabida",
+   "name": "Revela Arrábida",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Setúbal, Palmela and Sesimbra (the site's sections); daily on working days"
+   ],
+   "url": "https://revelaarrabida.pt/",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/revela-arrabida.json (data/organisations/revela-arrabida/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 000 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://revelaarrabida.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow:"
+    ]
+   }
+  },
+  {
+   "id": "rtp-antena-1",
+   "name": "RTP Antena 1",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "national",
+   "places": [
+    "Portugal (national service; Antena 1 also has Açores and Madeira regional services)"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/rtp-antena-1.json (data/organisations/rtp-antena-1/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "rtp-antena-3",
+   "name": "RTP Antena 3",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "national",
+   "places": [
+    "Portugal (national service; Antena 1 also has Açores and Madeira regional services)"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/rtp-antena-3.json (data/organisations/rtp-antena-3/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "rtp-noticias",
+   "name": "RTP Notícias (Rádio e Televisão de Portugal)",
+   "kind": "news publication",
+   "media_kind": "tv",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://www.rtp.pt/noticias",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/rtp-noticias.json (data/organisations/rtp-noticias/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.rtp.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /play/pesquisa",
+     "User-agent: SemrushBot",
+     "Disallow: /",
+     "User-agent: BLEXBot",
+     "Disallow: /",
+     "User-agent: AhrefsBot",
+     "Disallow: /",
+     "User-agent: ADmantX",
+     "Disallow: /",
+     "User-agent: PetalBot",
+     "Disallow: /"
+    ]
+   }
+  },
+  {
+   "id": "rua-direita",
+   "name": "Rua Direita",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Viseu (editorial seat per ERC register; Nacional scope, Online, Diária)"
+   ],
+   "url": "https://www.ruadireita.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/rua-direita.json (data/organisations/rua-direita/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.ruadireita.pt/robots.txt",
+    "http": "404",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "ruc-radio-universidade-de-coimbra",
+   "name": "RUC - Rádio Universidade de Coimbra",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Coimbra"
+   ],
+   "url": "https://www.ruc.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/ruc-radio-universidade-de-coimbra.json (data/organisations/ruc-radio-universidade-de-coimbra/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.ruc.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /",
+     "User-agent: Bytespider",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: Diffbot"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "rum-radio-universitaria-do-minho",
+   "name": "RUM - Rádio Universitária do Minho",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Braga"
+   ],
+   "url": "https://www.rum.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/rum-radio-universitaria-do-minho.json (data/organisations/rum-radio-universitaria-do-minho/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.rum.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /",
+     "User-agent: Bytespider",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: Diffbot"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "sabado",
+   "name": "SÁBADO",
+   "kind": "news publication",
+   "media_kind": "magazine",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://www.sabado.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/sabado.json (data/organisations/sabado/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.sabado.pt/robots.txt",
+    "http": "404",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "sao-miguel-news",
+   "name": "São Miguel News",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Ponta Delgada (editorial seat per ERC register; Regional scope, Online, Mensal)"
+   ],
+   "url": "https://saomiguelnews.net",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/sao-miguel-news.json (data/organisations/sao-miguel-news/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://saomiguelnews.net/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /",
+     "User-agent: Bytespider",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: Diffbot"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  },
+  {
+   "id": "semmais",
+   "name": "Semmais (S+)",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Setúbal and Alentejo regions; seat Setúbal; weekly paper and online"
+   ],
+   "url": "https://semmais.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/semmais.json (data/organisations/semmais/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://semmais.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/",
+     "Disallow: /?s=",
+     "Disallow: /page/*/?s=",
+     "Disallow: /search/",
+     "User-agent: *",
+     "Disallow: /wp-content/uploads/wpo/wpo-plugins-tables-list.json"
+    ]
+   }
+  },
+  {
+   "id": "setubal-informacao",
+   "name": "Setúbal Informação",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Setúbal (Setúbal district); regional daily (working days), online"
+   ],
+   "url": "https://setubalinformacao.sapo.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/setubal-informacao.json (data/organisations/setubal-informacao/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://setubalinformacao.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /vendor/",
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot"
+    ]
+   }
+  },
+  {
+   "id": "setubal-mais",
+   "name": "Setúbal Mais",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Setúbal district (Setúbal, Montijo, Palmela, Litoral Alentejano); fortnightly"
+   ],
+   "url": "https://setubalmais.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/setubal-mais.json (data/organisations/setubal-mais/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://setubalmais.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "shifter",
+   "name": "Shifter",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://shifter.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/shifter.json (data/organisations/shifter/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://shifter.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-content/uploads/wc-logs/",
+     "Disallow: /wp-content/uploads/woocommerce_transient_files/",
+     "Disallow: /wp-content/uploads/woocommerce_uploads/",
+     "Disallow: /wp-content/uploads/wpo/wpo-plugins-tables-list.json",
+     "Disallow: /?*add-to-cart=",
+     "Disallow: /?*add-to-cart-",
+     "Disallow: /wp-admin/",
+     "Disallow: /*?doing_wp_cron*",
+     "Disallow: /*?amp*",
+     "Disallow: /*?product_shipping_class*"
+    ]
+   }
+  },
+  {
+   "id": "sic-noticias",
+   "name": "SIC Notícias",
+   "kind": "news publication",
+   "media_kind": "tv",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://sicnoticias.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/sic-noticias.json (data/organisations/sic-noticias/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://sicnoticias.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: AI2Bot",
+     "User-agent: Ai2Bot-Dolma",
+     "User-agent: aiHitBot",
+     "User-agent: Amazonbot",
+     "User-agent: Andibot",
+     "User-agent: anthropic-ai",
+     "User-agent: Applebot",
+     "User-agent: Applebot-Extended",
+     "User-agent: Awario",
+     "User-agent: bedrockbot",
+     "User-agent: Brightbot 1.0",
+     "User-agent: Bytespider"
+    ]
+   },
+   "researcher_notes": [
+    "https://sicnoticias.pt/rss returned 403"
+   ]
+  },
+  {
+   "id": "tal-qual",
+   "name": "Tal&Qual",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "national",
+   "places": [
+    "Porto (editorial seat per ERC register; Nacional scope, Papel, Semanal)"
+   ],
+   "url": null,
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/tal-qual.json (data/organisations/tal-qual/organisation.json)",
+   "how": null,
+   "why": "No website in the register entry; the outlet's own pages could not be read (2026-11-18).",
+   "robots_txt": {
+    "url": null,
+    "http": null,
+    "read_at": "2026-11-18",
+    "is_robots_file": null,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "tb-todas-as-beiras",
+   "name": "TB - Todas As Beiras",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Guarda (editorial seat per ERC register; Regional scope, Online, Diária)"
+   ],
+   "url": "http://www.todasasbeiras.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/tb-todas-as-beiras.json (data/organisations/tb-todas-as-beiras/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "http://www.todasasbeiras.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow:"
+    ]
+   }
+  },
+  {
+   "id": "tds-televisao-do-sul",
+   "name": "TDS (Televisão do Sul)",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Alentejo; seat Évora; daily web TV and radio news platform"
+   ],
+   "url": "https://televisaodosul.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/tds-televisao-do-sul.json (data/organisations/tds-televisao-do-sul/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://televisaodosul.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "tek-sapo",
+   "name": "SAPO TEK",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://tek.sapo.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/tek-sapo.json (data/organisations/tek-sapo/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://tek.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-content/plugins/",
+     "Disallow: /wp-content/uploads/",
+     "Disallow: /wp-admin/",
+     "Disallow: /wp-login.php",
+     "Disallow: /search/",
+     "Disallow: /?s=",
+     "Disallow: /page/*/?s=",
+     "Disallow: /search/",
+     "Disallow: /pesquisar",
+     "Disallow: /*?s=",
+     "Disallow: /*?pagina="
+    ]
+   }
+  },
+  {
+   "id": "terras-da-guarda",
+   "name": "Terras da Guarda",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Guarda (Guarda district); regional daily (working days), online"
+   ],
+   "url": "https://terrasdaguarda.sapo.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/terras-da-guarda.json (data/organisations/terras-da-guarda/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://terrasdaguarda.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /vendor/",
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot"
+    ]
+   }
+  },
+  {
+   "id": "terras-de-braga",
+   "name": "Terras de Braga",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Braga (editorial seat per ERC register; Regional scope, Online, Diária (dias úteis))"
+   ],
+   "url": "https://terrasdebraga.sapo.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/terras-de-braga.json (data/organisations/terras-de-braga/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://terrasdebraga.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /vendor/",
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot"
+    ]
+   }
+  },
+  {
+   "id": "terras-de-viana-do-castelo",
+   "name": "Terras de Viana do Castelo",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Viana do Castelo (editorial seat per ERC register; Regional scope, Online, Diária (dias úteis))"
+   ],
+   "url": "https://terrasdevianadocastelo.sapo.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/terras-de-viana-do-castelo.json (data/organisations/terras-de-viana-do-castelo/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://terrasdevianadocastelo.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /vendor/",
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot"
+    ]
+   }
+  },
+  {
+   "id": "terras-de-viseu",
+   "name": "Terras de Viseu",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Viseu (Viseu district); regional daily (working days), online"
+   ],
+   "url": "https://terrasdeviseu.sapo.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/terras-de-viseu.json (data/organisations/terras-de-viseu/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://terrasdeviseu.sapo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /vendor/",
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot"
+    ]
+   }
+  },
+  {
+   "id": "terras-do-homem",
+   "name": "Terras do Homem",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Braga (editorial seat per ERC register; Regional scope, Papel/Online, Quinzenal)"
+   ],
+   "url": "https://www.terrasdohomem.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/terras-do-homem.json (data/organisations/terras-do-homem/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.terrasdohomem.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow:"
+    ]
+   }
+  },
+  {
+   "id": "the-portugal-news",
+   "name": "The Portugal News",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://www.theportugalnews.com",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/the-portugal-news.json (data/organisations/the-portugal-news/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.theportugalnews.com/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /cms",
+     "Disallow: /news/search"
+    ]
+   }
+  },
+  {
+   "id": "time-out-lisboa",
+   "name": "Time Out Lisboa",
+   "kind": "news publication",
+   "media_kind": "magazine",
+   "reach": "national",
+   "places": [
+    "Lisboa, Porto (adjunta Porto), Cascais edition"
+   ],
+   "url": "https://www.timeout.pt/lisboa/pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/time-out-lisboa.json (data/organisations/time-out-lisboa/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.timeout.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /*/pages/*/zone/",
+     "Disallow: /graffiti/v1/",
+     "Disallow: /user/ajax/",
+     "Disallow: */pages-ajax",
+     "Disallow: */paginate",
+     "Disallow: /user/mtoPopupLogin",
+     "Disallow: /ajax/mastercard-theme",
+     "Disallow: */user/sign-up",
+     "Disallow: */user/myAccount",
+     "Disallow: */user/forgotPassword",
+     "Disallow: */user/email/review"
+    ]
+   }
+  },
+  {
+   "id": "tribuna-alentejo",
+   "name": "Tribuna Alentejo",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Alentejo (Alto Alentejo, Alentejo Central, Baixo Alentejo, Alentejo Litoral); seat Évora, delegation Portalegre"
+   ],
+   "url": "https://www.tribunaalentejo.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/tribuna-alentejo.json (data/organisations/tribuna-alentejo/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.tribunaalentejo.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /?q=admin/",
+     "Disallow: /?q=comment/reply/",
+     "Disallow: /?q=filter/tips/",
+     "Disallow: /?q=node/add/",
+     "Disallow: /?q=search/",
+     "Disallow: /?q=user/password/",
+     "Disallow: /?q=user/register/",
+     "Disallow: /?q=user/login/",
+     "Disallow: /?q=user/logout/",
+     "Disallow: /?",
+     "Disallow: /?page="
+    ]
+   },
+   "researcher_notes": [
+    "the ficha técnica names João da Costa as Diretor Executivo while the ERC register names Luís Carapinha as director: both recorded as published"
+   ]
+  },
+  {
+   "id": "tribuna-da-madeira",
+   "name": "Tribuna da Madeira",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Funchal (editorial seat per ERC register; Regional scope, Papel/Online, Semanal)"
+   ],
+   "url": "https://www.tribunadamadeira.pt",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/tribuna-da-madeira.json (data/organisations/tribuna-da-madeira/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 403 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://www.tribunadamadeira.pt/robots.txt",
+    "http": "403",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   },
+   "researcher_notes": [
+    "Website listed in the ERC register did not return HTTP 200 from this environment (403); feed and contact not verified"
+   ]
+  },
+  {
+   "id": "tsf",
+   "name": "TSF Rádio Notícias",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://www.tsf.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/tsf.json (data/organisations/tsf/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.tsf.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /embed/",
+     "Disallow: /_next/",
+     "Disallow: /api/",
+     "Disallow: /*?utm_*",
+     "Disallow: /*?fbclid*",
+     "Disallow: /*?gclid*",
+     "User-agent: Googlebot",
+     "User-agent: Googlebot-News",
+     "User-agent: Googlebot-Video",
+     "User-agent: Googlebot-Image",
+     "User-agent: Bingbot"
+    ]
+   },
+   "researcher_notes": [
+    "TSF not in the ERC periodicals sheet (radio register separate) and ficha técnica blocked (403); no new names (2026-11-17)"
+   ]
+  },
+  {
+   "id": "tugatech",
+   "name": "TugaTech",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Portugal (technology news and forum; founded 2010; based in Coimbra)"
+   ],
+   "url": "https://tugatech.com.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/tugatech.json (data/organisations/tugatech/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://tugatech.com.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /admgt/",
+     "Disallow: /admin/",
+     "Disallow: /modcp/",
+     "Disallow: /login",
+     "Disallow: /register",
+     "Disallow: /profile",
+     "Disallow: /memberlist",
+     "Disallow: /groups",
+     "Disallow: /privmsg/",
+     "Disallow: /post",
+     "Disallow: /abuse"
+    ]
+   }
+  },
+  {
+   "id": "tvi",
+   "name": "TVI",
+   "kind": "news publication",
+   "media_kind": "tv",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://tvi.iol.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/tvi.json (data/organisations/tvi/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://tvi.iol.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /search",
+     "Disallow: /7811748",
+     "Disallow: /300x100",
+     "Disallow: /320x50",
+     "Disallow: /LDB1",
+     "Disallow: /_preview",
+     "Disallow: /goucha/noticias",
+     "Disallow: /doisas10/noticias",
+     "Disallow: /bigbrother/noticias",
+     "Disallow: /aexperiencia/noticias",
+     "Disallow: /otriangulo/noticias"
+    ]
+   }
+  },
+  {
+   "id": "universidade-fm",
+   "name": "Universidade FM",
+   "kind": "news publication",
+   "media_kind": "radio",
+   "reach": "local",
+   "places": [
+    "Vila Real, parts of Bragança and Viseu districts"
+   ],
+   "url": "https://www.universidade.fm/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/universidade-fm.json (data/organisations/universidade-fm/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.universidade.fm/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   }
+  },
+  {
+   "id": "via-rapida",
+   "name": "Via Rápida",
+   "kind": "news publication",
+   "media_kind": "newspaper",
+   "reach": "regional",
+   "places": [
+    "Viseu (editorial seat per ERC register; Regional scope, Papel/Online, Quinzenal)"
+   ],
+   "url": "https://www.jornalviarapida.com",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/via-rapida.json (data/organisations/via-rapida/organisation.json)",
+   "how": "RSS/Atom feed (none found) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.jornalviarapida.com/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "viana-ao-minuto",
+   "name": "Viana ao Minuto",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Viana do Castelo (editorial seat per ERC register; Regional scope, Online, Diária)"
+   ],
+   "url": "https://vianaaominuto.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/viana-ao-minuto.json (data/organisations/viana-ao-minuto/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://vianaaominuto.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "viana-tv",
+   "name": "Viana TV",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Viana do Castelo (editorial seat per ERC register; Regional scope, Online, Diária)"
+   ],
+   "url": "https://www.vianatv.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/viana-tv.json (data/organisations/viana-tv/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://www.vianatv.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: facebookexternalhit",
+     "User-agent: Facebot",
+     "User-agent: meta-externalagent",
+     "User-agent: meta-externalfetcher",
+     "User-agent: *"
+    ]
+   }
+  },
+  {
+   "id": "vila-tv-a-realidade-comeca-aqui",
+   "name": "Vila TV - A realidade começa aqui",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Vila Real (editorial seat per ERC register; Regional scope, Online, Diária)"
+   ],
+   "url": "https://vilatv.pt",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/vila-tv-a-realidade-comeca-aqui.json (data/organisations/vila-tv-a-realidade-comeca-aqui/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 404 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://vilatv.pt/robots.txt",
+    "http": "404",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   }
+  },
+  {
+   "id": "visao",
+   "name": "Visão",
+   "kind": "news publication",
+   "media_kind": "magazine",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://visao.sapo.pt",
+   "status": "not-read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/visao.json (data/organisations/visao/organisation.json)",
+   "how": null,
+   "why": "Its home page answered HTTP 000 to an identified plain fetch on 2026-11-18 (403 or Cloudflare challenge, 429, 5xx or no connection); no terms or robots.txt could be read, and we did not try to get round it.",
+   "robots_txt": {
+    "url": "https://visao.sapo.pt/robots.txt",
+    "http": "000",
+    "read_at": "2026-11-18",
+    "is_robots_file": false,
+    "quoted_rules": []
+   },
+   "researcher_notes": [
+    "Technology and business reporters of Visão not found: site blocked from this environment; only the ERC direction is recorded (2026-11-17)"
+   ]
+  },
+  {
+   "id": "viseu-now",
+   "name": "Viseu Now",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "regional",
+   "places": [
+    "Viseu region (Viseu, Tondela, Lamego, Mangualde, Nelas, Vouzela and other concelhos in the site's menu)"
+   ],
+   "url": "https://viseunow.pt/",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/viseu-now.json (data/organisations/viseu-now/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://viseunow.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "Disallow: /wp-admin/"
+    ]
+   },
+   "researcher_notes": [
+    "ficha técnica page behind a bot check on fetch, not read"
+   ]
+  },
+  {
+   "id": "zap",
+   "name": "ZAP",
+   "kind": "news publication",
+   "media_kind": "online",
+   "reach": "national",
+   "places": [
+    "Portugal"
+   ],
+   "url": "https://zap.aeiou.pt",
+   "status": "read",
+   "read_at": "2026-11-18",
+   "record": "desks/researcher/media/zap.json (data/organisations/zap/organisation.json)",
+   "how": "RSS/Atom feed (verified) and the outlet's own public pages (ficha tecnica, contact page), read by a plain, identified fetch",
+   "robots_txt": {
+    "url": "https://zap.aeiou.pt/robots.txt",
+    "http": "200",
+    "read_at": "2026-11-18",
+    "is_robots_file": true,
+    "quoted_rules": [
+     "User-agent: *",
+     "User-agent: Amazonbot",
+     "Disallow: /",
+     "User-agent: Applebot-Extended",
+     "Disallow: /",
+     "User-agent: Bytespider",
+     "Disallow: /",
+     "User-agent: CCBot",
+     "Disallow: /",
+     "User-agent: ClaudeBot",
+     "Disallow: /",
+     "User-agent: Diffbot"
+    ]
+   },
+   "ai_crawlers_disallowed": [
+    "Bytespider",
+    "CCBot",
+    "ClaudeBot",
+    "GPTBot",
+    "Google-Extended"
+   ],
+   "ai_note": "Its robots.txt disallows named AI crawlers (Bytespider, CCBot, ClaudeBot, GPTBot, Google-Extended). Our agents are AI; Dinis or data.b@ to decide whether this limits reading its feed or pages; until then, flag and ask on the record."
+  }
+ ]
+}

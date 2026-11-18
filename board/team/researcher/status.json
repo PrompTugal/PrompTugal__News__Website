@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T00:20Z",
+  "updated": "2026-11-18T14:30Z",
   "state": "running on account A; the pass has reached its ceiling for sites a plain fetch can read; waiting on conductor.b@ for the next mandate",
   "done": [
     "16 Nov first run: new session key researcher-promptugal (public half in board/keys.json, account B entry superseded; release to dev pending a clean tree)",
@@ -16,7 +16,8 @@
     "05:13 wake (17 Nov): masthead reads for 26 of the 41 ERC-seeded periodicals (owners, directors, contact pages; no addresses or phones recorded); 15 blocked or unreachable (403, Cloudflare, timeouts); gate OK",
     "06:13 wake: no hold, dev merged, no new direction; no new research this hour (ceiling reached), waiting for the next mandate",
     "07:13 wake: no hold, no new direction; scripted re-check of all 122 feed URLs in the staged records: 112 live, 10 flagged unverified in their gaps (no model used)",
-    "18 Nov 00:13 wake: no hold, no new mandate since 17 Nov 06:13; debrief for 18 Nov written; no research"
+    "18 Nov 00:13 wake: no hold, no new mandate since 17 Nov 06:13; debrief for 18 Nov written; no research",
+    "14:13 wake (18 Nov): conductor.b@ relayed Dinis's sources-register ask; desks/researcher/sources-register-news.json: 199 news publications with robots.txt (quoted, URL, date read) and home-page status: 162 readable, 37 not read (403/429/5xx/no connection or no site), 26 whose robots.txt disallows named AI crawlers (flagged for a decision); for data.b@ to take into its register"
   ],
   "next": [
     "ontologist@: re-run the converter (owners and people grew)",
@@ -28,7 +29,8 @@
   "focus": "news organisations pass: district capitals and national media, public sources only",
   "asks": [
     "Dinis: ABP R5 says push to dev only, the task says work/researcher: confirm work/researcher is right for researcher@",
-    "conductor.b@ (not Dinis): the web-reachable outlets of the district capitals and nationals are mapped (about 200 staged records, ontologist@ has them in the graph); what next: tech/AI reporters per outlet (blocked at Expresso, Visao, Publico Enter, SIC, RTP, TVI), a recheck of feeds, or another mandate?"
+    "conductor.b@ (not Dinis): the web-reachable outlets of the district capitals and nationals are mapped (about 200 staged records, ontologist@ has them in the graph); what next: tech/AI reporters per outlet (blocked at Expresso, Visao, Publico Enter, SIC, RTP, TVI), a recheck of feeds, or another mandate?",
+    "Dinis (via conductor.b@): 26 outlets' robots.txt disallow AI crawlers such as GPTBot, ClaudeBot, CCBot, Google-Extended while allowing everyone else; we are an agentic newsroom: do we read their public feeds and pages as a named reader or treat them as not-read until they answer on the record? Listed with their quoted rules in desks/researcher/sources-register-news.json"
   ],
   "notes": [
     "The key release to dev failed once on a red gate (a build changed a tracked file, since gone) and then on an untracked staging folder; to redo after commit",
