@@ -6,13 +6,29 @@
   "currency": "GBP",
   "symbol": "£",
   "example_spend": 5,
-  "kept_for_costs": 0.30,
-  "minimum_payout": 1.00,
+  "kept_for_costs": 0.3,
+  "minimum_payout": 1.0,
   "weights": {
-    "cited": { "weight": 1.0, "label": "Cited fact", "about": "a link in an article's text or sources: the fact came from there" },
-    "quoted": { "weight": 1.5, "label": "Quoted words", "about": "a link inside a quotation: their words, not only their facts" },
-    "data": { "weight": 1.0, "label": "Data set", "about": "live or open data shown on a place page (weather, flights)" },
-    "evidence": { "weight": 0.5, "label": "Discovery evidence", "about": "a story or listing on a place page that links to where it was found" }
+    "cited": {
+      "weight": 1.0,
+      "label": "Cited fact",
+      "about": "a link in an article's text or sources: the fact came from there"
+    },
+    "quoted": {
+      "weight": 1.5,
+      "label": "Quoted words",
+      "about": "a link inside a quotation: their words, not only their facts"
+    },
+    "data": {
+      "weight": 1.0,
+      "label": "Data set",
+      "about": "live or open data shown on a place page (weather, flights)"
+    },
+    "evidence": {
+      "weight": 0.5,
+      "label": "Discovery evidence",
+      "about": "a story or listing on a place page that links to where it was found"
+    }
   },
   "intro": [
     "PrompTugal.news is built on other people's work: outlets, writers, public bodies and data providers. Dinis asked how the money readers spend here would be shared with them. Nothing is paid yet; this page simulates it, with every assumption shown.",
@@ -32,7 +48,8 @@
     "Articles: every link to an outside site is a cited fact; a link inside a quotation counts as quoted words. Images and our own sites are left out.",
     "Place pages: every story or listing's source is discovery evidence; the live weather and flights are data sets.",
     "A source is the site's host name (an outlet, a blog, a public body, a data provider). Where one person publishes on a shared platform, they are counted under the platform until the register names them.",
-    "The full ledger is open data: [api/v1/payments/attribution.json](../../api/v1/payments/attribution.json)."
+    "The full ledger is open data: [api/v1/payments/attribution.json](../../api/v1/payments/attribution.json).",
+    "The data site keeps its own side, for the data sets it collects (data.b@, also simulated): [data.promptugal.news/api/v1/sources/attribution.json](https://data.promptugal.news/api/v1/sources/attribution.json). Its weights are its own assumption (appearances plus twice the citations); the two ledgers are shown side by side, not added, until Dinis settles one model."
   ],
   "api_about": "The simulated attribution ledger of promptugal.news: for each page (by its address, as the meter logs it), the outside sources behind it with their weights; and per source its appearances and weight. A simulation: no money moves."
 }
