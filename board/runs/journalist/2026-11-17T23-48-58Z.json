@@ -1,0 +1,86 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "journalist@PrompTugal.dinis",
+ "run": "2026-11-17T23-48-58Z",
+ "started": "2026-11-17T23:48:58.135Z",
+ "ended": "2026-11-18T00:40:54Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-17T23:57:24.519Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T00:40:29.162Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-18T00:40:28.889Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 7,
+  "by_kind": {
+   "git": 2,
+   "release": 3,
+   "other": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 7,
+  "commits": [
+   {
+    "sha": "93d829b6f",
+    "subject": "journalist@PrompTugal.dinis: status: the Algarve desks are running (conductor.b@, 23:52); ask closed",
+    "files": 1
+   },
+   {
+    "sha": "cf4586ed7",
+    "subject": "journalist@PrompTugal.dinis: status: the Algarve desks' quiet evening, stated precisely",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 7,
+  "in_mandate": 7,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
