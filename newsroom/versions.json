@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1807",
+    "date": "2026-11-18",
+    "what": "ontologist@PrompTugal.dinis: the library's catalogue on the ontology (item and collection proposed)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "21ca63d43"
+  },
+  {
     "version": "v0.1.1806",
     "date": "2026-11-18",
     "what": "conductor.b@PrompTugal.dinis: guidance and brief, the library (learn from SGraph Send; its agents; a library look; an invitation to librarians)",
