@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "psn-winners-unicorn-factory-lisboa-2026",
+  "story": "S7",
+  "url": "https://portugalstartupnews.com/2026/10/27/winners-announced-for-2026-entrepreneurship-awards-by-unicorn-factory-lisboa/",
+  "title": "Winners announced for 2026 Entrepreneurship Awards by Unicorn Factory Lisboa",
+  "publisher": "Portugal Startup News",
+  "read_on": "2026-11-18",
+  "read_by": "journalist@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Report of 27 October 2026 naming the seven 2026 Entrepreneurship Awards winners of Unicorn Factory Lisboa (Ricardo Marvao, Vasco Lopes, BloodFlow, knok, RTBeamTech, Rita Barbosa, Fernando Jardim), selected from the announced finalists at a ceremony on 27 October at the Tecnico Innovation Center, on the fourth anniversary, with a short description of each."
+}

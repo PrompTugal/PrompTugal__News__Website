@@ -1,5 +1,33 @@
 [
   {
+    "version": "v0.1.1826",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 21:48 wake, watch line",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "d364d5bc5"
+  },
+  {
+    "version": "v0.1.1825",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: list bulletins.b-promptugal's public key (sgit pki)",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "a00d3b0c4"
+  },
+  {
+    "version": "v0.1.1824",
+    "date": "2026-11-18",
+    "what": "journalist@PrompTugal.dinis: S7's claims file (REQ-2026-0007): 33 claims, 32 found on their sources with exact quotes",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "6b5e9ed9e"
+  },
+  {
+    "version": "v0.1.1823",
+    "date": "2026-11-18",
+    "what": "abp@PrompTugal.dinis: hourly report 20:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "b72ac055a"
+  },
+  {
     "version": "v0.1.1822",
     "date": "2026-11-18",
     "what": "security@PrompTugal.dinis: 20:05 hourly sweep clean; live.promptugal.news's camera embeds meet K1 to K5, enforced by its gate",

@@ -1,0 +1,472 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "S7",
+  "kept_by": "journalist@PrompTugal.dinis",
+  "updated": "2026-11-18",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "Unicorn Factory Lisboa announced the winners of its 2026 Entrepreneurship Awards on 27 October, at the Técnico Innovation Center, on its fourth anniversary.",
+      "kind": "fact",
+      "source": "psn-winners-unicorn-factory-lisboa-2026",
+      "quote": "revealed during a ceremony held on October 27 at the Técnico Innovation Center in Lisbon, coinciding with Unicorn Factory Lisboa’s fourth anniversary",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c02",
+      "text": "The winners were selected from the finalists Unicorn Factory Lisboa had previously announced.",
+      "kind": "fact",
+      "source": "psn-winners-unicorn-factory-lisboa-2026",
+      "quote": "The winners were selected from among the",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c03",
+      "text": "Ricardo Marvão won the Ecosystem Award; he is co-founder of Beta-i, an innovation consultancy, and of Singularity University Portugal and European Innovation Academy Portugal.",
+      "kind": "fact",
+      "source": "psn-winners-unicorn-factory-lisboa-2026",
+      "quote": "including Singularity University Portugal and European Innovation Academy Portugal",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c04",
+      "text": "Vasco Lopes won Entrepreneur of the Year (João Vasconcelos Award); he is former CEO of DeepNeuronic, which built AI computer vision on existing camera networks and was acquired by Motorola Solutions, and is now head of vertical AI solutions there.",
+      "kind": "fact",
+      "source": "psn-winners-unicorn-factory-lisboa-2026",
+      "quote": "acquired by Motorola Solutions that developed AI-powered computer vision systems using existing camera networks",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c05",
+      "text": "Vasco Lopes is now head of vertical AI solutions at Motorola Solutions.",
+      "kind": "fact",
+      "source": "psn-winners-unicorn-factory-lisboa-2026",
+      "quote": "He is now head of vertical AI solutions at",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c06",
+      "text": "BloodFlow won Most Promising Startup; it offers a clinical decision-support system that works inside electronic medical records.",
+      "kind": "fact",
+      "source": "psn-winners-unicorn-factory-lisboa-2026",
+      "quote": "clinical decision-support system that processes patient records and generates evidence-based outputs directly within electronic medical record systems",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c07",
+      "text": "The report describes BloodFlow without the word AI.",
+      "kind": "fact",
+      "source": "psn-winners-unicorn-factory-lisboa-2026",
+      "quote": "BloodFlow offers a clinical decision-support system",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c08",
+      "text": "knok won Most Impactful Startup; it is a digital healthcare platform connecting patients, professionals and providers.",
+      "kind": "fact",
+      "source": "psn-winners-unicorn-factory-lisboa-2026",
+      "quote": "digital healthcare platform connecting patients, healthcare professionals, and providers",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c09",
+      "text": "RTBeamTech won the Youth Startup Award; it is a spin-off from LIP and Instituto Superior Técnico measuring radiation beams for ultra-high-dose-rate (FLASH) radiotherapy.",
+      "kind": "fact",
+      "source": "psn-winners-unicorn-factory-lisboa-2026",
+      "quote": "scientific spin-off from LIP and Instituto Superior Técnico developing beam-monitoring technologies for ultra-high-dose-rate radiotherapy, including FLASH radiotherapy",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c10",
+      "text": "Rita Barbosa won the Rising Female Award; she is founder of Guardian Labs EU, real-time AI to detect and stop scam campaigns and fraudulent calls.",
+      "kind": "fact",
+      "source": "psn-winners-unicorn-factory-lisboa-2026",
+      "quote": "real-time AI technology designed to detect and prevent scam campaigns and fraudulent calls",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c11",
+      "text": "Fernando Jardim won the International Personality Award; he is co-founder and adviser at the 351 Portuguese Startup Association.",
+      "kind": "fact",
+      "source": "psn-winners-unicorn-factory-lisboa-2026",
+      "quote": "co-founder and advisor at",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c12",
+      "text": "Two of the seven winners work on AI, as the report describes them (Vasco Lopes's former company and Rita Barbosa's Guardian Labs EU).",
+      "kind": "fact",
+      "source": "psn-winners-unicorn-factory-lisboa-2026",
+      "quote": "AI-powered computer vision systems",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c13",
+      "text": "Algarve Evolution is a Faro-based organisation that aims to support 500 companies, help create 150 startups and reach 50,000 people across the region by 2032.",
+      "kind": "fact",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "support 500 companies, help create 150 new startups, and impact 50,000 people across the region by 2032",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c14",
+      "text": "Algarve Evolution's aim is not to replace tourism but to broaden the region's economy.",
+      "kind": "fact",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "not to replace tourism but to broaden the economic opportunities",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c15",
+      "text": "Algarve Evolution began in 2018 as a small group of local entrepreneurs.",
+      "kind": "fact",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "traces its origins to 2018, when a small group of local entrepreneurs",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c16",
+      "text": "Antonio Guerreiro, executive director of Algarve Evolution, told Portugal Startup News: \"We have built the ecosystem. We now need to actually make the ecosystem work.\"",
+      "kind": "testimony",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "We have built the ecosystem. We now need to actually make the ecosystem work,",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c17",
+      "text": "An Informa D&B study presented in November 2025 found 115 startups in the Algarve in 2024.",
+      "kind": "fact",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "presented in November 2025, found that the Algarve had 115 startups in 2024",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c18",
+      "text": "Of the 115 startups, 78% were information technology and communications businesses.",
+      "kind": "fact",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "accounted for 78% of the startups identified in the study",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c19",
+      "text": "The startups generated about 25 million euros in turnover and employed 365 people.",
+      "kind": "fact",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "approximately €25 million in annual turnover, employed 365 people",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c20",
+      "text": "95% of the startups were microenterprises with fewer than 10 people.",
+      "kind": "fact",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "95% of Algarve startups were microenterprises employing fewer than 10 people",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c21",
+      "text": "Their turnover grew 29% a year from 2021 to 2024, against 24.2% for startups nationally.",
+      "kind": "fact",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "compound annual turnover growth of 29% between 2021 and 2024, compared with 24.2% for startups nationally",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c22",
+      "text": "Algarve Evolution has 118 members, whose businesses together turn over about 100 million euros and employ about 1,000 people (the members' figures, not jobs it created).",
+      "kind": "fact",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "118 active members, whose businesses collectively generate approximately €100 million in annual turnover and account for around 1,000 direct jobs",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c23",
+      "text": "The 118-member figures reflect the association's membership and activities, not revenue or jobs directly generated by Algarve Evolution.",
+      "kind": "fact",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "These figures reflect the association’s membership and activities, not revenue or jobs directly generated by Algarve Evolution.",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c24",
+      "text": "Founder2Founder, launched in October 2026, selected eight companies from 41 applications for its first cohort.",
+      "kind": "fact",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "selected eight companies from 41 applications for its inaugural cohort",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c25",
+      "text": "Founder2Founder is a six-month programme; each company has a mentor and a growth plan based on three measurable performance indicators.",
+      "kind": "fact",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "based on three measurable performance indicators",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c26",
+      "text": "Founder2Founder does not take equity.",
+      "kind": "fact",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "The program does not take equity.",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c27",
+      "text": "The Algarve Evolution incubator was officially recognised by Startup Portugal in January 2026.",
+      "kind": "fact",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "officially recognized by Startup Portugal in January 2026",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c28",
+      "text": "Through INOVA ALGARVE 3.0, Algarve Evolution leads a Digital Transition Program for Algarve tourism companies, with a pilot offering free, personalised consultancy on AI and robotics to 20 tourism SMEs.",
+      "kind": "fact",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "free, personalized technical consultancy on AI and robotics adoption to 20 tourism SMEs",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c29",
+      "text": "Algarve Digital Innovators has identified 24 communities across the region's 16 municipalities with 5,839 memberships, 144 consultants and mentors and 18 potential investors.",
+      "kind": "fact",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "identified 24 communities with a combined 5,839 memberships, alongside 144 consultants and mentors and 18 potential investors",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c30",
+      "text": "The network's targets to 2030 depend on securing funding.",
+      "kind": "fact",
+      "source": "psn-algarve-evolution-500-companies-2032",
+      "quote": "These ADI-specific targets depend on securing funding and coordinating with regional partners.",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c31",
+      "text": "RTBeamTech is one of six Técnico spin-offs on the university's stand at Web Summit, 10 to 12 November.",
+      "kind": "fact",
+      "source": "tecnico-web-summit-2026-spin-offs",
+      "quote": "RTBEAMTECH",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18",
+      "quote_language": "pt"
+    },
+    {
+      "id": "c32",
+      "text": "Técnico brings six spin-offs to its Web Summit 2026 stand; the stand runs 10 to 12 November.",
+      "kind": "fact",
+      "source": "tecnico-web-summit-2026-spin-offs",
+      "quote": "De 10 a 12 de novembro",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18",
+      "quote_language": "pt"
+    },
+    {
+      "id": "c33",
+      "text": "Técnico's page was updated on 3 November 2026.",
+      "kind": "fact",
+      "source": "tecnico-web-summit-2026-spin-offs",
+      "evidence_check": {
+        "status": "fails",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "not found on the source on 18 November 2026 (no update date visible in the page text)"
+      },
+      "read_on": "2026-11-18",
+      "quote_language": "pt"
+    }
+  ]
+}
