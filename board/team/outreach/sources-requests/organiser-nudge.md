@@ -3,7 +3,7 @@ title: "The organiser nudge: a short note to an event's organiser when its detai
 kept_by: outreach@PrompTugal.dinis
 since: 2026-11-18
 for: conductor.b@PrompTugal.dinis (Dinis, 18 Nov ~14:15 UTC; plan board/briefs/2026-11-18-events-discovery-and-the-graph.md)
-status: template, two languages; held until Dinis answers the submissions question (below). A person sends. Organisations only.
+status: template, two languages; submissions answered by Dinis (18 Nov, 14:25 UTC); held only for a place to receive details. A person sends. Organisations only.
 ---
 # The organiser nudge
 
@@ -21,7 +21,7 @@ PrompTugal.news is a newsroom for Portugal's places made by AI agents, with ever
 
 We found your event "{{event}}" ({{date}}, {{place}}) on {{platform}}: {{evidence_url}}. We list it on our {{place}} page, with the name, the date, the place and a link to that listing: {{place_url}}
 
-{{platform}}'s terms do not let us copy the rest, so we show nothing else. If you would like the details shown, send them to us (what it is, when, where, how to take part, and a link of your own) and we will publish them as yours, credited to you and dated. If you would rather we did not list it at all, say so and we will take it down.
+{{platform}}'s terms do not let us copy the rest, so we show nothing else. If you would like the details shown, reply to this message with them (what it is, when, where, how to take part, and a link of your own) and we will publish them as yours, credited to you and dated. If you would rather we did not list it at all, say so and we will take it down.
 
 We have no way to read the details ourselves, and we would not take them from a place that has not allowed it.
 
@@ -41,7 +41,7 @@ O PrompTugal.news é uma redação para os lugares de Portugal feita por agentes
 
 Encontrámos o vosso evento "{{event}}" ({{date}}, {{place}}) em {{platform}}: {{evidence_url}}. Listamo-lo na nossa página de {{place}}, só com o nome, a data, o local e uma ligação a essa listagem: {{place_url}}
 
-Os termos de {{platform}} não nos deixam copiar mais, por isso não mostramos mais nada. Se quiserem que os detalhes apareçam, enviem-nos (o que é, quando, onde, como participar e uma ligação vossa) e publicamo-los como vossos, com crédito e data. Se preferirem que não listemos o evento, digam e retiramo-lo.
+Os termos de {{platform}} não nos deixam copiar mais, por isso não mostramos mais nada. Se quiserem que os detalhes apareçam, respondam a esta mensagem com eles (o que é, quando, onde, como participar e uma ligação vossa) e publicamo-los como vossos, com crédito e data. Se preferirem que não listemos o evento, digam e retiramo-lo.
 
 Não temos forma de ler os detalhes e não os tiraríamos de um sítio que não o permitiu.
 
@@ -53,6 +53,7 @@ Escrito por um agente de IA para Dinis Cruz, revisto e enviado por uma pessoa. E
 
 ## Holds
 
-- "We will publish them as yours, credited and dated" is **Dinis's submissions question** (events brief, question 1: an organiser's own details are published as the organiser's, a third party's are only a lead). The note goes out only after his yes, and only with a way to send the details that exists on the site (today there is none: it would be a reply to the person who sent the note).
-- Showing an event's name, date, place and link to the listing is **his question 3** (proposed: yes, as a search engine would). Until answered, a note is not drafted for a live event.
+- **Answered:** an organiser's own submission is published, credited and dated as theirs; later signed with PKI (Dinis, 18 Nov ~14:25 UTC, `board/guidance/2026-11-18-licences-and-submissions.md`), so the note may say so. A third party's submission is only a lead (still open); the note goes to organisations only.
+- A way to send the details must exist: today there is none on the site, so the note says "reply to this message with them" until `/contribute/` (or a submit page) takes events.
+- Showing an event's title, date, place and link, crediting how it was found, is **answered** (rule 4 of the same guidance): yes, as a search engine does. The note may say we list it that way.
 - "Details withheld" wording on the page is data.b@'s and events.b@'s; the note quotes what the page says.

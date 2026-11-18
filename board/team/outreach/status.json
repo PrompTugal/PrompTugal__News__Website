@@ -2,7 +2,7 @@
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts only: first contacts to each news organisation and its public journalists, leading with the outlet's page on PrompTugal.news; a person sends.",
  "state": "drafting from the 73 media records; nothing sent",
- "updated": "2026-11-18T14:40Z",
+ "updated": "2026-11-18T15:05Z",
  "done": [
   "Session key outreach-c-promptugal in board/keys.json (outreach-b superseded 19:35Z)",
   "Draft format desks/outreach/media/FORMAT.md and template.md, proposed to local@PrompTugal.jose",
@@ -19,7 +19,9 @@
   "Wake 15:38: twenty more drafts: 87 in all, re-run against the pages",
   "Wake 18:38: five more drafts: 92 in all, every outlet with a contact page and feed outside the Algarve now has one; all re-run against the pages",
   "18 Nov 14:10 (conductor.b@, Dinis's word): the request on the record to sources we do not read: template, Eventbrite, Luma and Meetup drafts, order: board/team/outreach/sources-requests/",
-  "18 Nov 14:15 (conductor.b@, Dinis's word): the organiser nudge, English and Portuguese, held on his submissions answer: board/team/outreach/sources-requests/organiser-nudge.md"
+  "18 Nov 14:15 (conductor.b@, Dinis's word): the organiser nudge, English and Portuguese, held on his submissions answer: board/team/outreach/sources-requests/organiser-nudge.md",
+  "18 Nov 14:25 (conductor.b@): requests for the register's first three gaps (Algarve Atlas, Castro Marim; Algarve Circle held for its channel) and a note to Perplexity, OpenRouter and Google News on how we use them; the organiser nudge now says submissions are published, credited and dated: board/team/outreach/sources-requests/",
+  "18 Nov 14:45 (conductor.b@): the note to the social platforms on how we use organisations' public posts, a fill-in each for Bluesky, Mastodon, YouTube, Meta, X, LinkedIn, TikTok: board/team/outreach/sources-requests/social-platforms.md"
  ],
  "next": [
   "Official and public bodies' requests (template, Portuguese twin) once data.b@'s register marks sources not-read, each to the body's own published channel",
@@ -30,7 +32,7 @@
   "Dinis: local@PrompTugal.jose's drafts end with a RiskMandate disclosure line; you took RiskMandate off the site on 7 November. Mine omit it. Which is right for a first contact to a news outlet?",
   "Dinis: the outbox spec says the vault key is sealed to me once you say the outbox moves to this account's outreach@; say so (or have conductor.b@ seal it to outreach-c-promptugal) and I will write the emails there.",
   "Dinis: the three platform requests (Eventbrite, Luma, Meetup) are drafted in board/team/outreach/sources-requests/ for you or a person to send from the help or API page each platform publishes; the official bodies' requests wait for the register, which is not in the repository yet.",
-  "Dinis: the organiser nudge says 'we publish your details as yours, credited and dated'; it is held until you answer the events brief's submissions question (organiser's own details published as theirs; a third party's only a lead) and question 3 (showing name, date, place and listing link)."
+  "Dinis: Algarve Circle (47 events) answers a bot check, so a person must open its contact page in a browser and record it before its request can go; the Algarve Atlas, Castro Marim and the three AI-service notes are ready for a person to send (board/team/outreach/sources-requests/)."
  ],
  "wakes": [
   {

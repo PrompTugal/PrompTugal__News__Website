@@ -4,6 +4,7 @@
 // files' local stories (not events: they are dated by when they happen), each with its place, its region and its date (a day: the files keep days).
 // dev@PrompTugal.dinis, 17 November 2026. The block on the front page follows, with designer@.
 export const order = 86
+import { ours, of as licenceOf } from '../lib/licence.mjs'
 const DAYS = 45
 
 // the block, on the "You" page first (content/profile.md's .pt-since hook), as the spec orders
@@ -24,14 +25,14 @@ export function api(ctx) {
     for (const p of ctx.pages) {
         if (!/^articles\/[^/]+\.html$/.test(p.rel) || p.rel === 'articles/index.html' || p.withdrawn || !p.meta) continue
         const d = day(p.meta.date), place = p.meta.town || p.meta.region || null
-        if (d && d >= cutoff && d <= ctx.TODAY) items.push({ kind: 'article', date: d, title: p.meta.title, url: `${ctx.BASE}${p.rel}`, place, rings: place ? chain(place) : ['portugal'] })
+        if (d && d >= cutoff && d <= ctx.TODAY) items.push({ kind: 'article', date: d, title: p.meta.title, url: `${ctx.BASE}${p.rel}`, place, rings: place ? chain(place) : ['portugal'], license: ours() })
     }
     for (const pl of places) {
         let f; try { f = ctx.readJSON(`data/by-place/${pl.id}.json`) } catch { continue }
         for (const [kind, list] of [['story', f.ai_news]]) for (const x of list || []) {   // events are dated by when they happen, not when we published: left out
             const d = day(x.date)
             if (!d || d < cutoff || d > ctx.TODAY || !/^https?:\/\//.test(x.url || '')) continue
-            items.push({ kind, date: d, title: x.title, url: x.url, publisher: x.publisher || null, place: pl.id, rings: chain(pl.id), page: `${ctx.BASE}${pl.path}` })
+            items.push({ kind, date: d, title: x.title, url: x.url, publisher: x.publisher || null, place: pl.id, rings: chain(pl.id), page: `${ctx.BASE}${pl.path}`, license: licenceOf(x.url) })
         }
     }
     // one entry per (url, place): the same story filed by two places is listed under each

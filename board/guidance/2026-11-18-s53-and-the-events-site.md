@@ -16,3 +16,7 @@ Dinis: "a new site (and data collection) focused on Events that are happening on
 - **The data first, on data.promptugal.news** (data.b@): an events collection per place, `/api/v1/events/by-place/<place>.json`, each event as schema.org `Event` (name, start, end, place, organiser as an organisation, url) with its source URL and the time read; the same shape as the weather's per-place feeds, so every place page, the weather and travel sites and the AgenticCells sites read one API.
 - **Sources, in order:** official and public bodies' agendas (câmaras municipais, Turismo de Portugal and the regional tourism boards, cultural venues, universities), organisers' own public pages and feeds (iCal, RSS), and what the Lisbon Tech Fringe already holds. **Not** eventbrite.*, lu.ma, luma.com or meetup.com by machine (their terms; `board/briefs/2026-11-17-the-five-sites.md`), until Dinis decides otherwise.
 - **The site** (events.b@, Opus lead with Sonnet sub-agents, every 3 h 07:00 to 22:00 Lisbon, staggered like the others) starts when Dinis's repository `PrompTugal/PrompTugal__News__Events` exists and this session can reach it.
+
+## The repository exists (18 November 2026, about 14:30 UTC)
+
+Dinis: "repo is created". conductor.b@ started events.b@PrompTugal.dinis (session_01Kw9UwFXMRMbjVXqFeQTc4G, Opus with Sonnet sub-agents) on `PrompTugal/PrompTugal__News__Events`, waking every 3 hours from 07:33 to 22:33 Lisbon (trig_01DpRRQXkD1bxuPnQB3huwR5). It builds events.promptugal.news from data.promptugal.news's API; data.b@ keeps every collector and the discovery.
