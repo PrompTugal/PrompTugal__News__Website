@@ -5,7 +5,7 @@
   "kind": "region",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "by": "place.algarve@PrompTugal.dinis",
   "mandate": "PrompTugal.news The Algarve: AI and technology across the Algarve and its 17 towns, centred on Faro's university and innovation community and on tourism and health, and what reaches the region from Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -834,7 +834,9 @@
     "The Castro Marim dementia congress claim has now failed a second check: no official page shows it, and search found only the 2024 first edition. Treated as not true until a page we can open shows it.",
     "algarve2030.gov.pt did not resolve from this session on 17 November, and ccdr-alg.pt had nothing dated 14 to 17 November. Seen only as headlines: ICCAT tuna meeting in Vilamoura (Barlavento), a housing march in Faro, a regional investment conference with 300 participants (Postal, 15 November), and national water-cut and E-REDES power-cut lists for 17 and 18 November (whether any of the five places is listed was not checked).",
     "The UAlg page on its AI rules and principles is undated in the listing, so it is not used as news.",
-    "On 17 November the national water-cut list (5 councils) and the E-REDES power-cut list for 17 and 18 November named none of Tavira, Castro Marim, Vila Real de Santo António or Alcoutim. The NaturMaris prize in Loulé (Barlavento, 16 November) was read from the front-page excerpt only, so it is not used. CCDR Algarve had nothing new after 10 November and no funding call with a deadline."
+    "On 17 November the national water-cut list (5 councils) and the E-REDES power-cut list for 17 and 18 November named none of Tavira, Castro Marim, Vila Real de Santo António or Alcoutim. The NaturMaris prize in Loulé (Barlavento, 16 November) was read from the front-page excerpt only, so it is not used. CCDR Algarve had nothing new after 10 November and no funding call with a deadline.",
+    "On 18 November the 24 November water-cycle conference page on ccdr-alg.pt still showed no registration link. IPMA's feed shows only the yellow sea warning (18 November 12:00 to 20 November 09:00); all other warning types are green through 21 November 03:00. Seen only as headlines: an Olhão teacher's Erasmus+ AI course (Postal, 17 November) and a naval-school exercise on the Guadiana through Mértola, Alcoutim and Vila Real de Santo António (Barlavento).",
+    "The CCDR Algarve front page also mentions a third Algarve 2030 water-cycle conference with Público on technology and AI in water management, with no date given."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
@@ -967,6 +969,18 @@
       "significance": "region and country",
       "ai_path": "No AI stated: immersive and interactive media (XR) research at the university.",
       "steps": 1
+    },
+    {
+      "title": "AMAL's 9 million euro smart-water project is approved under Algarve 2030",
+      "summary": "'Inteligência no Ciclo Urbano da Água em baixa no Algarve': smart meters and telemetry to improve flow and consumption data, detect leaks and support water balances. Eligible investment 9,053,081.15 euros, FEDER 5,869,477.82 euros, completion expected 31 December 2027. It sits behind the 24 November UAlg and CCDR conference on digitalising the water cycle; the page itself makes no AI claim. Published 4 November, outside the last two days but the best data-and-AI hook for the region page.",
+      "date": "2026-11-04",
+      "publisher": "AMAL",
+      "url": "https://amal.pt/amal-tem-mais-uma-candidatura-aprovada-do-programa-algarve-2030",
+      "read_on": "2026-11-18",
+      "significance": "region",
+      "ai_path": "Smart meters and telemetry produce consumption and flow data, analytics find leaks and balance water, the 24 November conference adds AI on top; the AMAL page itself does not mention AI.",
+      "steps": 3,
+      "blast_radius": "every Algarve council's water utility"
     }
   ],
   "contacts": [
