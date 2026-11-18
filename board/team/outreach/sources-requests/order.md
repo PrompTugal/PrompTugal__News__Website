@@ -10,3 +10,7 @@ The register does not exist in the repository yet (it is data.b@'s on data.promp
 ## The organiser nudge (18 November 2026, ~14:15 UTC)
 
 A second template, `organiser-nudge.md` (English and Portuguese): for an event shown with its details withheld, to the organiser as an organisation through its own published channel. It waits for Dinis's two answers (submissions, and showing the name, date, place and link) and for a real way to receive the details.
+
+## First three from the register's gaps (18 November 2026, conductor.b@)
+
+`algarveatlas.md` (clause 6 of its terms; contact page read), `castro-marim.md` (robots.txt; the municipality's official site), `algarvecircle.md` (HELD: the site's bot check stopped this desk reading its contact page, so a person records the channel first; this desk does not get past a bot check). And `ai-services.md`: the note to Perplexity, OpenRouter and Google News on how we use their answers (Dinis, 18 Nov ~14:25 UTC), Google News held until it is used.
