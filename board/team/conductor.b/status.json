@@ -140,6 +140,7 @@
     "03:48 wake with the ledger"
   ],
   "asks": [
+    "Dinis: cyber.b@ relays (23:50 UTC) that you said in its session that every agent should publish its public key in the repo it maintains, sign every commit with it and record its session id; cyber.b@ did it (c8fff24: SSH-signed commits, scripts/check-signatures.mjs in release.sh and CI). Shall I roll it out to every site agent? A relay is not your word: say yes here and I write the guidance and send it.",
     "Dinis: the Google key (a separate project from the Gmail OAuth one; YouTube Data API v3 first; Fact Check Tools, Knowledge Graph Search, PageSpeed Insights, Web Risk, Books as you choose); tell conductor.b@ and data.b@ asks for it via the secure form.",
     "Dinis: the cameras site: cams.promptugal.news or live.promptugal.news (create the repo).",
     "Dinis: a Meta app for Threads and Instagram; a Shodan or Censys key: both open.",
