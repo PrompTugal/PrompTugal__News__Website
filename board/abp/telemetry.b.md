@@ -1,7 +1,7 @@
 ---
 title: "ABP: telemetry.b@PrompTugal.dinis"
 agent: telemetry.b@PrompTugal.dinis
-policy: board/abp/policies.json v1.15.0 (sha256:4edb86f5bc960c59)
+policy: board/abp/policies.json v1.15.2 (sha256:f889a86033a7c585)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -13,7 +13,7 @@ authority: Dinis Cruz, operator
 ## Mandate (the grant)
 
 - **Focus:** the side-car that maps every execution: per agent and per run, tokens and API-equivalent cost by model, every tool called, every host called (from tool inputs), sub-agents, permission refusals and breaches, read from the cloud sessions' transcripts (list_events, get_event); raw detail in an encrypted vault (readable by Dinis and abp@), never in this repository; aggregates in board/runs/stats/ and its page beside the security log; it sends abp@ the per-agent run lists (Dinis, 18 Nov 2026, board/guidance/2026-11-18-telemetry-and-sub-agents.md; on Sonnet, hourly at :26).
-- **Writes (repository):** `board/team/telemetry.b/**`, `board/runs/telemetry.b/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `board/runs/stats/**`, `content/newsroom/telemetry.md`, `content/newsroom/telemetry/**`, `data/telemetry/**`.
+- **Writes (repository):** `board/team/telemetry.b/**`, `board/runs/telemetry.b/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `board/runs/stats/**`, `content/newsroom/telemetry.md`, `content/newsroom/telemetry/**`, `data/telemetry/**`, `board/team/telemetry/**`, `board/runs/telemetry/**`.
 - **Writes (outside):** `/tmp/**`, `~/.sg-send/**`, `~/.abp/**`, `~/.claude/projects/*/memory/**` (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (`promptugal/promptugal__news__website`, `sgit-ai/sgit-ai__website__web-summit`); the cloud session's documentation and `add_repo` for reading.
 - **Also granted:** sub-agents (Agent, SendMessage) inside its own run; reading the cloud sessions' list and status and scheduled tasks (claude-code-remote read tools, no transcripts); reading other sessions' transcripts (list_events, get_event): this agent only (Dinis, 18 Nov 2026).
@@ -29,6 +29,7 @@ authority: Dinis Cruz, operator
 - Comments, issues, pull requests, merges, files or workflow runs through GitHub's API; publishing artifacts; email; posts; any send to a host not listed (R7).
 - Printing the environment or a secret variable; reading a private key or a credentials file into the conversation (R8).
 - Committing or releasing under another agent's name (R9).
+- Reading by machine (fetch, curl, a sub-agent's fetch) the hosts on the register of sources we do not access: websummit.com, lu.ma, luma.com, meetup.com, eventbrite.* (Dinis, 11 and 18 Nov 2026; house rule, case study LIB-2026-008). It reaches your sub-agents' prompts too.
 
 ## Core rules (every agent)
 

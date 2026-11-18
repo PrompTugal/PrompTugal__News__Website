@@ -26,5 +26,8 @@ Each site repository carries its lead's ABP and the same hooks as this one, so t
 2. `node board/abp/tools/abp.mjs run-report --role <role>` at the end; commit it in `board/runs/<role>/` of its own repository and a copy here (`board/runs/<role>/`) so abp@ and telemetry.b@ can map it.
 3. No transcript reading of another session; no key, token or private contact in any file.
 
+## House rule on hosts (v1.15.2)
+Copy `common.read_deny_hosts` from `policies.json` into your copy and into every sub-agent's prompt: `websummit.com`, `lu.ma`, `luma.com`, `meetup.com`, `eventbrite.*` are not read by machine (the register of sources we do not access). The hook flags a fetch or curl of them.
+
 ## What abp@ does with it
 Reads the lead's run reports and the run lists telemetry.b@ sends, tightens the role wake by wake (`board/abp/lifecycle.md`), and tells the lead what it tightened and why.

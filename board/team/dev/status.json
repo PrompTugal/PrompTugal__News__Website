@@ -1,9 +1,10 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ restarted on this account (16 Nov, 19:25 UTC, session_01Kw9UwEA7TFC7iKpVctAi2t): the release queue first, then review and bring work/dev.places, work/translator, work/designer.places onto dev; feeds per place and topic; /media/<id>/ pages; dev.places@s brief every-story-has-an-address.",
-  "state": "/security/ live (the public log from security@'s ledger); /principles/ and /report/ live, the drop off until conductor.b@ names its lane",
-  "updated": "2026-11-18T15:18Z",
+  "state": "/payments/simulated/ live (ledger, model, Your £5 in the browser); /security/, /principles/, /report/ live; the drop off until conductor.b@ names its lane",
+  "updated": "2026-11-18T15:38Z",
   "done": [
+    "15:35 (Dinis via conductor.b@, guidance verified): /payments/simulated/ with the banner on page, result and API; the attribution ledger (504 sources behind 112 pages: articles' outside links as cited or quoted, place pages' sources as evidence, live data as data) at api/v1/payments/attribution.json; the model's assumptions in assets/payments/model.json (30% kept, £1 minimum, weights 1/1.5/1/0.5: placeholders for Dinis); Your £5 from the meter's local log, nothing sent (bare page, CSP connect-src self; checked in Chromium: no outside request). Threat models: board/team/dev/threat-models/payments-simulated.md and report-drop.md (docs/ is outside my grant). AppSec post-review inline: textContent only, hosts parsed by URL, no send, no secret, no person named",
     "15:08 wake: brought dev.places@ feed hardening (AppSec read: curl protocols and redirects pinned, size capped, control and bidi characters stripped, link shape checked; passes), translator@ 4 segments and ar first half, datasci.places@ live now (newer read_at); /security/ and api/v1/security/findings.json from board/team/security/findings.md (fixed in full, others as title, severity, owner, state); took the conductor.b@ email allowance back out of the gate (it cleaned its files). Inner passes inline: pre-review (in grant, Dinis word verified in board/guidance), post-review of my diff: no secret, no contact, no private data, nothing outside my paths, ledger text is repo content already public; no prompt injection seen",
     "/principles/ and /report/ (Dinis 18 Nov 15:00): pages, footer links, the encrypted drop sealed in the browser to conductor.b-promptugal (pki v2) and Dinis (ws-ecies-1), the monitored inbox Dinis named, the corrections log; the gate email check allows Dinis's guidance files (it was red for everyone since bc1ad7af)",
     "14:25 (18 Nov, Dinis s licence rule via conductor.b@): every api/v1 JSON object carries a licence link (ours CC BY 4.0, a source s where read: adsb.lol ODbL 1.0, IPMA terms; else the source s terms); per item on place JSON, since.json, feeds, now.json; a gate check refuses any without",
@@ -12,10 +13,11 @@
     "wake 12:08 (18 Nov): brought datasci.places 731a6af; nothing else new",
     "wake 11:08 (18 Nov): brought datasci.places 0a0aad9; designer.places 8fb5018 (a sweep) waits for designer@; ko-KR already in",
     "wake 10:08 (18 Nov): brought translator ko-KR (c08a057, 63ddbaa: 35 Korean pages, lang ko-KR) and datasci.places 82a15a9; nothing else new",
-    "wake 09:09 (18 Nov): brought datasci.places da4b0ad; designer.places 540778f (a sweep) waits for designer@; the 08:50 guidance (the data site carries the Storm site) is the data team s, not this repository",
-    "wake 08:09 (18 Nov): brought datasci.places b03a69e; nothing else new (ja-JP already in)"
+    "wake 09:09 (18 Nov): brought datasci.places da4b0ad; designer.places 540778f (a sweep) waits for designer@; the 08:50 guidance (the data site carries the Storm site) is the data team s, not this repository"
   ],
   "next": [
+    "page-view counts into the payments ledger once observability publishes anonymous per-page counts; data.b@'s data-site side",
+    "gate: pin the two drop recipients' fingerprints (threat model, as S33)",
     "the report drop lane once conductor.b@ names it (board/team/dev/ask-2026-11-18-report-drop-lane.md)",
     "threat models for my collectors and automations (docs/threat-models/<name>.md, linked from /how/): release.sh, the obs lane, the report drop, the feeds",
     "each site's /security/ link as its page goes up",
@@ -37,7 +39,9 @@
     "conductor.b@: please add a row to board/guidance/README.md (your path, not mine) telling every agent that release.sh is now a queue (newsroom/build/README.md, Releasing: the queue): nothing changes in how they call it; writers push to work/<role>, reviewers bring to dev",
     "conductor.b@: re-issue the lanes (board/inbox.json, board/inboxes/dev.json) for the new dev-promptugal key",
     "Dinis: the reading top-up in euros (your 12:50 word, board/team/investors/decks/FACTS.md) needs a euro Stripe Payment Link that only you can create; send it (or its address) and I move the meter, data/billing/topup.json, the account and pricing pages to euros in one release. Until then the live product stays in pounds, so no reader sees euros and pays pounds.",
-    "Dinis: a repository in the SGit-AI organisation for the old host's redirect (web-summit.newsroom.sgit.ai), with Pages on; I push the files"
+    "Dinis: a repository in the SGit-AI organisation for the old host's redirect (web-summit.newsroom.sgit.ai), with Pages on; I push the files",
+    "security@: review board/team/dev/threat-models/payments-simulated.md and report-drop.md",
+    "Dinis: the simulated payout's numbers (30% kept, £1 minimum, the four weights) are placeholders in assets/payments/model.json; yours to change"
   ],
   "wakes": [
     {
