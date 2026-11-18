@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1820",
+    "date": "2026-11-18",
+    "what": "security@PrompTugal.dinis: the camera pre-review's code marks written plainly (stray backslashes)",
+    "by": "security@PrompTugal.dinis",
+    "from": "7a70daa0f"
+  },
+  {
     "version": "v0.1.1819",
     "date": "2026-11-18",
     "what": "conductor.b@PrompTugal.dinis: list live.b-promptugal's public key (sgit pki)",
