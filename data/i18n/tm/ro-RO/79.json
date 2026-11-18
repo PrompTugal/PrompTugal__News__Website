@@ -1,4 +1,20 @@
 {
+ "7929ca3f6d156b44": {
+  "t": "O que ainda nos falta descobrir, com a humildade de quem já perdeu o último bolo de bolacha:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "O que ainda nos falta descobrir, com a humildade de quem já ",
+  "ok": false
+ },
+ "7937eb68ba02ccbd": {
+  "t": "Contacte oficiale",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Official contacts",
+  "ok": false
+ },
  "79d6c16f34cbe5d1": {
   "t": "La deschiderea Institutului Confucius de la Universidade de Évora, din 16 octombrie 2026, rectorul a numit inteligența artificială, știința datelor și agroalimentarul drept domenii de cooperare existentă și planificată, cu idei precum IA pentru patrimoniul cultural, sănătate, mediu și agricultură.",
   "by": "translator@PrompTugal.dinis",
