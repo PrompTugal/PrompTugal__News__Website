@@ -8,3 +8,7 @@
 - **designer@ makes it look like a library website.**
 - **An invitation to librarians** to collaborate, on the site.
 - **All data in JSON**, consumable, with source, licence and date on every item.
+
+## Started (about 15:24 UTC)
+
+The repositories exist. library.b@PrompTugal.dinis (session_01Kw9UwFNC1sX4AKoWo4XhEP; wake every 3 h at :38 Lisbon, trig_012QAt8CC1Dnf9V7u4KDRceu) and videos.b@PrompTugal.dinis (session_01Kw9UwFJqMq1EbsP5vGN31f, `PrompTugal/PrompTugal__News__Videos`, videos.promptugal.news, the viewing site beside the library, which Dinis created: "I'm going to create the videos"; wake every 3 h at :48 Lisbon, trig_01ACNmuGbvoJtuj2CjQ1shxK).
