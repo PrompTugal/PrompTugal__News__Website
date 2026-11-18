@@ -1,0 +1,26 @@
+{
+ "1322e92a2dec1473": {
+  "t": "Quarteira Lab, 보행자와 자전거 이용자를 세어 데이터 플랫폼에 공급",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Quarteira Lab counts walkers and cyclists to feed a data pla",
+  "ok": false
+ },
+ "13d6f10e2673c99f": {
+  "t": "**데이터로서의 이 페이지:** 이 페이지의 모든 내용은 JSON으로 먼저 제공됩니다. 기사, AI 지도, 행사, 출처, 공백, 팀, 정체성이 모두 포함되며, [API 페이지]({json})에 이곳과 다른 지역의 모든 엔드포인트가 나와 있습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This page as data:** everything on it is served as JSON fi",
+  "ok": false
+ },
+ "13e3829c3b71b77d": {
+  "t": "Campo Maior, Portalegre 폴리테크닉과 함께 데이터 및 AI 경쟁 정보 센터 개소",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Campo Maior opens a data and AI competitive intelligence cen",
+  "ok": false
+ }
+}

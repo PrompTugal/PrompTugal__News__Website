@@ -1,0 +1,26 @@
+{
+ "c80d31aa3fd60fd7": {
+  "t": "PrompTugal.news Monchique, 시원한 Serra에서: 화재 걱정이 잠들지 않고 작은 인큐베이터가 불을 밝히는 푸른 산악 concelho의 AI와 기술, 그리고 Algarve, 포르투갈, 세계에서 올라오는 소식. Independente, 모든 사실에는 출처가 있습니다, ó freguês.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Monchique, from the cool of the Serra: AI an",
+  "ok": false
+ },
+ "c896571781f3b30f": {
+  "t": "PrompTugal.news Porto: 포르투 대학교의 과학 단지 UPTEC, AI 스타트업, 연구소가 무게 중심인 대학·스타트업 도시 Porto의 AI와 기술, 그리고 포르투갈, 유럽, 세계에서 Porto로 전해지는 소식. 독립 매체이며, 모든 사실에 출처를 밝힙니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Porto: AI and technology in Porto, a univers",
+  "ok": false
+ },
+ "c8c02cb5cf3f018e": {
+  "t": "PrompTugal.news Porto, a Invicta: Asprela 언덕의 기관실 UPTEC를 중심으로 한 Porto의 AI와 기술, 그리고 포르투갈, 유럽, 세계에서 오는 소식. Independente, 그리고 모든 사실에는 tripeiro 방식의 영수증이 붙어 있습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Porto, a Invicta: AI and tech in Porto, with",
+  "ok": false
+ }
+}

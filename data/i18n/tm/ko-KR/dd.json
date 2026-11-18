@@ -1,0 +1,18 @@
+{
+ "ddd9c693aaa1cc5e": {
+  "t": "Universidade de Évora, 포르투갈어 AI 모델을 구축했다고 밝혀",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Universidade de Évora says it has built Portuguese-language ",
+  "ok": false
+ },
+ "dded4f00e6d60967": {
+  "t": "먼저 대부분 유럽 자금으로 이뤄진 4억 유로 이상의 국가 계획, 그다음 AMALIA, 슈퍼컴퓨터, 그리고 Porto와 리스본에서 계속 투자를 유치하는 스타트업 씬.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "First the national plan, over 400 million euros of mostly Eu",
+  "ok": false
+ }
+}

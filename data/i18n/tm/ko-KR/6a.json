@@ -1,0 +1,50 @@
+{
+ "6a44c07f76c1d587": {
+  "t": "Aveiro 대학교 과학 단지, 관광 AI 액셀러레이터 운영",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "University of Aveiro's science park runs an accelerator for ",
+  "ok": false
+ },
+ "6a54fc65d47bc36b": {
+  "t": "마케팅 팀에 AI 에이전트 시스템을 판매하는 포르투갈 스타트업으로, 매출 대부분이 미국에서 나옵니다. 시드 라운드는 Armilar가 주도했습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A Portuguese startup selling an AI agent system to marketing",
+  "ok": false
+ },
+ "6a5b544478ac32f9": {
+  "t": "허브의 생태계가 Web Summit Lisbon에 참여하며, 이 중 아홉 곳은 InvestBraga의 혁신 허브에서 인큐베이팅되었습니다. 기사는 ASOagentAI(AI 앱 성장 에이전트), eDynamics(움직임 데이터를 부상 위험 알림으로), LogisticsWMS(AI 창고 시스템), Zixago(AI용 합성 인프라)를 꼽습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The hub's ecosystem is at Web Summit Lisbon, nine of them in",
+  "ok": false
+ },
+ "6ac839ef0c02d8e8": {
+  "t": "GDG Faro 커뮤니티 페이지에는 11월 27일과 28일 DevFest에 앞서 2026년 7월 18일에 열리는 무료 해커톤 Build with Gemma: GDG Faro AI Hackathon이 올라 있습니다. 페이지는 장소, 연사, 결과를 밝히지 않습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "GDG Faro's community page lists a free hackathon, Build with",
+  "ok": false
+ },
+ "6ad8263eac434a48": {
+  "t": "총리, 더 안전한 첨단 AI를 촉구하는 국제 성명에 서명",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Prime Minister signs an international call for safer advance",
+  "ok": false
+ },
+ "6ae1602a04a24cb6": {
+  "t": "제24회 EPIA 인공지능 콘퍼런스는 2025년 10월 1일부터 3일까지 Gambelas 캠퍼스에서 Universidade do Algarve 주최, 포르투갈 AI 협회 후원으로 열렸으며, 의료 AI와 생성형 AI부터 농업의 AI와 IoT, 운송 AI까지 16개 트랙이 있었습니다. 9월 29일과 30일에는 AI 스쿨이 먼저 열렸습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The 24th EPIA Conference on Artificial Intelligence ran from",
+  "ok": false
+ }
+}

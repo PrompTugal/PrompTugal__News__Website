@@ -21,7 +21,7 @@ image_width: 1200
 image_height: 630
 image_alt: "A card: AI physiotherapy at home, in Portugal's national health service, free to patients. A 97% shorter wait to start treatment, a government estimate, from portugal.gov.pt."
 ---
-> **Update, 18 November 2026.** A report from RTP, based on Lusa, dated 21 December 2023, links an earlier pilot to the [Center for Responsible AI](center-for-responsible-ai-money-partners-goals.html). It describes a different project from the 2026 agreement:
+> **Update, 18 November 2026.** A [report from RTP](https://www.rtp.pt/noticias/pais/futura-uls-sao-joao-tera-projeto-piloto-de-telerreabilitacao-pos-cirurgica_n1538412), based on Lusa, dated 21 December 2023, links an earlier pilot to the [Center for Responsible AI](center-for-responsible-ai-money-partners-goals.html). It describes a different project from the 2026 agreement:
 >
 > - **The pilot.** A trial at São João in Porto for people recovering from surgery. Treatment was to begin in person and continue with physiotherapy at home. It was planned for six months and about 300 patients.
 > - **The link.** The report says the project "was created out of" the Center. It names the São João hospital centre and Sword Health as members of the consortium.

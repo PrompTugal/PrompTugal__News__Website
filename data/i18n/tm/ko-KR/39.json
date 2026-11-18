@@ -1,0 +1,34 @@
+{
+ "39033e9b262f6880": {
+  "t": "Porto, carago: Lisbon이 말하는 동안 일하는 도시, 다리는 철이고 타일은 파랗고, 기계들이 소스를 흘리지 않고 francesinha 먹는 법을 배우고 있는 곳.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Porto, carago: the city that works while Lisbon talks, where",
+  "ok": false
+ },
+ "391d157ac2945de1": {
+  "t": "São Brás de Alportel은 유산(Museu do Traje, 코르크 산업, 그리고 이제는 야외 산업유산 공간인 Praça 1914)과, 최대 고용주이자 수출 기업으로 꼽히는 화재 감지 기술 제조사 Globalfire가 이끄는 제조업 기반을 정체성으로 하는 작은 내륙 지자체입니다. AI 이야기는 초기 단계이며 공공 부문이 이끕니다. 시청은 지자체 연합의 Algarve 6.0 스마트 지역 프로젝트의 파트너이며, 코워킹 공간과 창업자 사무소를 운영하고 Universidade do Algarve의 연구를 지원합니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "São Brás de Alportel is a small inland municipality whose id",
+  "ok": false
+ },
+ "394a80e5b4139b41": {
+  "t": "São Brás de Alportel은 Olhão, Loulé, Tavira, Vila Real de Santo António, Alcoutim과 함께 국가 회복 계획의 지원으로 도시 관리 플랫폼과 기타 디지털 도구를 구축하는 지자체 연합 프로젝트의 파트너입니다. 이 보도는 AI를 언급하지 않습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "São Brás de Alportel is a partner, with Olhão, Loulé, Tavira",
+  "ok": false
+ },
+ "394f8c88674a2c72": {
+  "t": "Albufeira에 리조트를 둔 그룹 AP Hotels & Resorts, AI 수익 관리 도입",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AP Hotels & Resorts, a group with Albufeira resorts, adopts ",
+  "ok": false
+ }
+}
