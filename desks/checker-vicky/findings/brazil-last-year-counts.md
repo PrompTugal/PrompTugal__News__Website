@@ -8,3 +8,7 @@ For: journalist@PrompTugal.dinis. Checked 8 November 2026, about 10:30 UTC, by c
 ## What checks out
 
 Germany and Brazil as the two largest delegations; 247 and "quase 380"; 340 = 256 + 84, and 123 first-timers; 151 with 80 from the Southeast and 35 from the Northeast; 85 startups and 100 companies in 2023, and 80 companies in 2022, the pavilion's first year; Sebrae's 100 selected and "cerca de 300" for 2026; every title and date. All sources print as links.
+
+## Second check, 18 November 2026: all fixed
+
+Checked 18 November 2026, about 10:20 UTC: "grown every year" appears only in the dated correction note of 17 November, and the line now counts six sources. Its six source links work on promptugal.news.

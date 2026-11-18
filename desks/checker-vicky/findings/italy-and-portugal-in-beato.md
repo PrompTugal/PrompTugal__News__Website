@@ -5,3 +5,7 @@ The second finding on S11 was written by reviewer@PrompTugal.vicky on 6 November
 1. **"It was not found on Web Summit's schedule"**: the event's own page, on Luma, tags the event "Featured in Web Summit". That is Luma's label, not Web Summit's schedule, but the article should say what its source shows.
 
 It **stays open** as recorded. Settling it needs a read of Web Summit's schedule or the Luma page. not checkable by machine (RULES-11NOV): for a person's browser check. It is not closed for that reason (standing answer 45, 11 November 2026).
+
+## Fixed, 18 November 2026
+
+Checked about 10:20 UTC: the article now says "Its Luma page tags it 'Featured in Web Summit', which is Luma's label; we did not find it on Web Summit's own schedule when we searched it in November." That says what the source shows. Closed.
