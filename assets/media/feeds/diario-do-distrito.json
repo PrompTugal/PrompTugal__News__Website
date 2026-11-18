@@ -1,0 +1,32 @@
+{
+ "id": "diario-do-distrito",
+ "feed": "https://www.diariodistrito.pt/feed/",
+ "read_at": "2026-11-18T15:05Z",
+ "items": [
+  {
+   "title": "Carlos Moedas propõe empresa metropolitana para enfrentar crise da habitação",
+   "link": "https://diariodistrito.sapo.pt/carlos-moedas-propoe-empresa-metropolitana-para-enfrentar-crise-da-habitacao/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Rua Padre Cruz, em Brejos de Azeitão, vai ter passeios em toda a extensão",
+   "link": "https://diariodistrito.sapo.pt/rua-padre-cruz-em-brejos-de-azeitao-vai-ter-passeios-em-toda-a-extensao/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "CRD das Cavaquinhas recebe 8.º Festival de Grupos Corais e Instrumentais do Concelho do Seixal",
+   "link": "https://diariodistrito.sapo.pt/crd-das-cavaquinhas-recebe-8-o-festival-de-grupos-corais-e-instrumentais-do-concelho-do-seixal/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Porto de Sines quer duplicar quota de mercado ibérico até 2030",
+   "link": "https://diariodistrito.sapo.pt/porto-de-sines-quer-duplicar-quota-de-mercado-iberico-ate-2030/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Portos de Setúbal e Sesimbra estabelecem parceria com Castelo Branco para criar plataforma logística",
+   "link": "https://diariodistrito.sapo.pt/portos-de-setubal-e-sesimbra-estabelecem-parceria-com-castelo-branco-para-criar-plataforma-logistica/",
+   "date": "2026-11-18"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "0d16df2ddd409a64": {
+  "t": "مساحة coworking البلدية في البلدة القديمة فيها 20 مكان عمل وهي ممتلئة منذ November 2023. كما تتشارك مع GDG Lagos في فعاليات الذكاء الاصطناعي.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The municipal coworking space in the old town has 20 worksta",
+  "ok": false
+ },
+ "0d2fe9cc4f8c4c95": {
+  "t": "ندوة مجانية بالإنجليزية في Faro حول كيف تغيّر أدوات الإجابة بالذكاء الاصطناعي (ChatGPT وGemini وClaude وPerplexity وGoogle AI Overviews) البحث على الإنترنت وظهور الشركات، مع مداخلات عن AEO وGEO. تنظمها Flow Productions مع Algarve STP.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A free English-language panel in Faro on how AI answer tools",
+  "ok": false
+ },
+ "0d6afb2528c7f8d1": {
+  "t": "دراسة بقيادة كلية العلوم الاجتماعية في NOVA وبرعاية مؤسسة Gulbenkian، استنادًا إلى إجابات 295 صحافيًا، تقترح 10 تدابير لاستخدام مسؤول للذكاء الاصطناعي في غرف الأخبار. وكان محاضر من UTAD ضمن فريق المشروع.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A study led by NOVA's social sciences faculty and promoted b",
+  "ok": false
+ },
+ "0d8fb3014c735381": {
+  "t": "يطلق المجلس البلدي منصة رقمية لإدارة المدينة، وحدة الذكاء الاصطناعي فيها تفحص الوثائق لحظة تقديمها وتوقف الملفات الناقصة. ويقول المجلس إن نحو سبعة من كل عشرة قرارات من قسم معالجة الملفات تطلب تصحيح الوثائق، وإنه يتلقى نحو 5,000 طلب ترخيص سنويًا. بدأ تدريب الموظفين في July ومن المتوقع التشغيل الكامل في الأشهر التالية.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council is rolling out a digital urban-management platfo",
+  "ok": false
+ },
+ "0dbee8cf4d00067c": {
+  "t": "Neuraspace تجمع 15.6 مليون يورو لذكاء حركة الفضاء بالذكاء الاصطناعي",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Neuraspace raises 15.6 million euros for AI space-traffic in",
+  "ok": false
+ },
+ "0de436ae73ac7694": {
+  "t": "عقد مشروع AITriage4SU، بقيادة UTAD، اجتماعًا علميًا في 31 January في Porto بنحو 200 مشارك حول الذكاء الاصطناعي لفرز حالات الطوارئ للبالغين. وأظهر الفريق كيف تقوم النماذج اللغوية الكبيرة بتوحيد شكاوى الفرز النصية الحرة، مع نتائج أولى.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The AITriage4SU project, led from UTAD, held a scientific me",
+  "ok": false
+ }
+}

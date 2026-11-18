@@ -233,6 +233,39 @@
       "trigger": "trig_01LstFMiyBcFySW9VEo4jJwF",
       "started": "2026-11-18T15:13Z",
       "word": "board/guidance/2026-11-18-social-signals.md; Dinis ~14:50 UTC: the signals repo created at his request"
+    },
+    {
+      "agent": "library.b@PrompTugal.dinis",
+      "model": "Opus (Sonnet sub-agents)",
+      "does": "lead of PrompTugal__News__Library (library.promptugal.news)",
+      "repo": "PrompTugal/PrompTugal__News__Library",
+      "session": "session_01Kw9UwFNC1sX4AKoWo4XhEP",
+      "cron": "CRON_TZ=Europe/Lisbon 38 7-22/3 * * *",
+      "trigger": "trig_012QAt8CC1Dnf9V7u4KDRceu",
+      "started": "2026-11-18T15:24Z",
+      "word": "board/guidance/2026-11-18-the-library.md"
+    },
+    {
+      "agent": "videos.b@PrompTugal.dinis",
+      "model": "Opus (Sonnet sub-agents)",
+      "does": "lead of PrompTugal__News__Videos (videos.promptugal.news)",
+      "repo": "PrompTugal/PrompTugal__News__Videos",
+      "session": "session_01Kw9UwFJqMq1EbsP5vGN31f",
+      "cron": "CRON_TZ=Europe/Lisbon 48 7-22/3 * * *",
+      "trigger": "trig_01ACNmuGbvoJtuj2CjQ1shxK",
+      "started": "2026-11-18T15:24Z",
+      "word": "Dinis ~15:20 UTC: 'I'm going to create the videos'; 'the videos repo has been created'"
+    },
+    {
+      "agent": "telemetry.b@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "side-car: the only reader of other sessions' transcripts; tokens, tools, hosts per agent per run",
+      "repo": "PrompTugal/PrompTugal__News__Website",
+      "session": "session_01Kw9UwFW8GCEutK2aV83rcS",
+      "cron": "26 * * * *",
+      "trigger": "trig_01EURz5tSWeAudJLfMDf1W6F",
+      "started": "2026-11-18T15:25Z",
+      "word": "board/guidance/2026-11-18-telemetry-and-sub-agents.md"
     }
   ]
 }
