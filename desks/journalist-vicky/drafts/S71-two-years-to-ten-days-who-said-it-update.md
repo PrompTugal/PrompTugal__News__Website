@@ -4,7 +4,7 @@ date: 2026-11-18
 story: S71
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: "An update note for the published 'AI physiotherapy in Portugal's health service: what the government says' (content/articles/ai-physiotherapy-portugal-health-service.md): a launch-day report names the nine health units and gives a different source for the waiting-time figure."
-status: draft
+status: approved
 beat: Portugal
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: portugal, ai, health, sword health, national health service, physiotherapy, update
