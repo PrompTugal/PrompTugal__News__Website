@@ -1,0 +1,38 @@
+{
+  "about": "The simulated payout model for promptugal.news/payments/simulated/ (Dinis, 18 November 2026, about 15:35 UTC: board/guidance/2026-11-18-people-blogs-cyber-and-simulated-payments.md, 'A simulated payout to sources'). Every number here is an assumption, shown on the page and Dinis's to change. No payment is made or collected; no money moves. dev@PrompTugal.dinis.",
+  "banner": "Simulated. No payment is made or collected; no money moves.",
+  "title": "Paying the sources: a simulation",
+  "summary": "How the money a reader spends on PrompTugal.news would be shared with the outlets, writers, public bodies and data providers behind what they read. A simulation: no money moves.",
+  "currency": "GBP",
+  "symbol": "£",
+  "example_spend": 5,
+  "kept_for_costs": 0.30,
+  "minimum_payout": 1.00,
+  "weights": {
+    "cited": { "weight": 1.0, "label": "Cited fact", "about": "a link in an article's text or sources: the fact came from there" },
+    "quoted": { "weight": 1.5, "label": "Quoted words", "about": "a link inside a quotation: their words, not only their facts" },
+    "data": { "weight": 1.0, "label": "Data set", "about": "live or open data shown on a place page (weather, flights)" },
+    "evidence": { "weight": 0.5, "label": "Discovery evidence", "about": "a story or listing on a place page that links to where it was found" }
+  },
+  "intro": [
+    "PrompTugal.news is built on other people's work: outlets, writers, public bodies and data providers. Dinis asked how the money readers spend here would be shared with them. Nothing is paid yet; this page simulates it, with every assumption shown.",
+    "**The model.** Revenue comes in (a reader's spend; later, traffic). A share is kept for costs. The rest is split across the sources behind the pages that were read, by the weight of what each source gave the page. A source is paid only once its share passes a minimum; until then it carries over.",
+    "How much is kept, the weights, the minimum and when anyone is paid are Dinis's to decide. When it becomes real, it becomes a decision page for him first."
+  ],
+  "assumptions_heading": "The assumptions",
+  "mine_heading": "Your £5",
+  "mine_about": "Worked out in this browser from the reading log the meter already keeps on your device. Nothing about you or what you read is sent to us.",
+  "mine_no_js": "This part needs JavaScript: it reads your reading log on your device and never sends it.",
+  "mine_empty": "No pages in this browser's reading log yet, or none with sources we can see. Read a few articles or place pages and come back.",
+  "ledger_heading": "The ledger: every source, every page",
+  "ledger_about": "From the links and source fields the pages already carry, counted at each release. Appearances: pages that use the source. Weight: the sum of what it gave them. Page-view counts join when the anonymous counts are published.",
+  "ledger_top": 60,
+  "how_heading": "How this is counted",
+  "how": [
+    "Articles: every link to an outside site is a cited fact; a link inside a quotation counts as quoted words. Images and our own sites are left out.",
+    "Place pages: every story or listing's source is discovery evidence; the live weather and flights are data sets.",
+    "A source is the site's host name (an outlet, a blog, a public body, a data provider). Where one person publishes on a shared platform, they are counted under the platform until the register names them.",
+    "The full ledger is open data: [api/v1/payments/attribution.json](../../api/v1/payments/attribution.json)."
+  ],
+  "api_about": "The simulated attribution ledger of promptugal.news: for each page (by its address, as the meter logs it), the outside sources behind it with their weights; and per source its appearances and weight. A simulation: no money moves."
+}
