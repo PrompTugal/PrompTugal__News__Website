@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (restarted 16 Nov 19:31 UTC on this account, every three hours at :56; also does accountant@'s work)",
-  "updated": "2026-11-17T22:15Z",
+  "updated": "2026-11-18T01:20Z",
   "done": [
     "Restart run 1: new session key (librarian-promptugal, sha256:ddf6ca1995a07790), old entry librarian-promptugal-1 superseded 19:32",
     "Catalogue rebuilt at v0.1.1647 (1,595 pages, 27 agents) and the life map (92 agents, 38 flagged); waits-on-Dinis regenerated",
@@ -17,14 +17,15 @@
     "Wake of 12:56 (17 Nov): costs from the 12:52 ledger (225.07 API-equivalent since the restart, +37.79 in 3 h; four Sonnet desks past a day's line, captured); map v0.1.1723, library check OK, tests 43 green; desk health; pushed to work/librarian",
     "Wake of 15:56 (17 Nov): costs from the 15:50 ledger (260.03 API-equivalent since the restart, +34.96 in 3 h; five Sonnet desks past a day's line, captured; dev@ and security@ near their Opus line); map v0.1.1732, library check OK, tests 43 green; desk health; pushed to work/librarian",
     "Wake of 18:56 (17 Nov): costs from the 18:51 ledger (301.50 API-equivalent since the restart, +41.47 in 3 h; security@ and designer@ past the Opus line of 30, seven Sonnet desks past 10: all captured); map v0.1.1741, library check OK, tests 43 green; desk health; pushed to work/librarian",
-    "Wake of 21:56 (17 Nov): costs from the 21:50 ledger (330.31 API-equivalent since the restart, +28.81 in 3 h; dev@, designer@, security@ past the Opus line, eight Sonnet desks past 10: all captured); map v0.1.1750, library check OK, tests 43 green; desk health; pushed to work/librarian"
+    "Wake of 21:56 (17 Nov): costs from the 21:50 ledger (330.31 API-equivalent since the restart, +28.81 in 3 h; dev@, designer@, security@ past the Opus line, eight Sonnet desks past 10: all captured); map v0.1.1750, library check OK, tests 43 green; desk health; pushed to work/librarian",
+    "Wake of 00:56 (18 Nov), the day's close: 17 Nov = 265.14 API-equivalent (29% of the team line; security@, designer@ and seven Sonnet desks over a day's line, captured), day_close_2026-11-17 and baseline_2026-11-18 in board/budgets.json (368.34 since the restart); map v0.1.1763, library check OK, tests 43 green; desk health; hand-over debrief 2026-11-18"
   ],
   "next": [
-    "Next wake 00:56 (18 Nov): the day's close: yesterday's figures, the new baseline, the day's debrief"
+    "Next wake 03:56: the next ledger reading against the 18 Nov baseline; budget rows for observability@ and the five sites' teams when they start"
   ],
   "asks": [
-    "conductor.b@: debriefs owed by researcher@ and sherpa@; about 165 commits on the restarted desks' work/ branches are not on dev and no review round has been seen since 06:56 (place.districts 30, datasci.places 24, dev.places 21)",
-    "Dinis: the spend since the restart is 301.50 API-equivalent in a day (not real costs); security@ and designer@ are past their 30 a day and seven Sonnet desks past 10, all captured, nothing stopped. Do you want the lines raised (I propose 40 Opus and 15 Sonnet) or left as measures? A line is yours to set"
+    "conductor.b@: researcher@ and sherpa@ have filed no debrief since 8 and 12 Nov; about 200 commits on the restarted desks' work/ branches (place.districts 33, datasci.places 30, dev.places 22) are not on dev with no review round since 06:56 on 17 Nov; my own work/librarian has 9 commits not on dev",
+    "Dinis: 17 Nov cost 265.14 API-equivalent (not real costs), 29% of the 900 team line; security@ and designer@ ran past their 30, seven Sonnet desks past 10, all captured, nothing stopped. Raise the lines (I propose 40 Opus and 15 Sonnet) or leave them as measures? A line is yours to set"
   ],
   "blocked_on": [
     "security@: whether board files, desks and passes may be in the jump search by title and path only (its pre-review: the index holds rendered page text only)",
@@ -287,6 +288,6 @@
     "Self-reported for abp@ (R8): while reading board/inboxes/librarian.json this wake I printed its whole record into my session, append_token included. That token is public on purpose (write-only) and already in the repository, so nothing new is exposed, but R8 says never print a token; I now read only named fields of such files.",
     "For abp@: board/runs/dev.data/2026-11-06T06-33-03Z.json lists dev.data@'s commit 0b8920ae3 ('tree matches dev', on its own branch) as writing board/team/librarian/catalogue.mjs and status.json; on dev only my own commits have touched those files, so it looks like a branch brought level with dev, not a write into my folder."
   ],
-  "debrief": "board/team/librarian/debriefs/2026-11-17-handover.md",
+  "debrief": "board/team/librarian/debriefs/2026-11-18-handover.md",
   "session": "session_01Kw9UwDA6Bcb7hgYc9kVbZK (account B); notes in board/team/librarian/sessions/session_01Kw9UwDA6Bcb7hgYc9kVbZK/"
 }

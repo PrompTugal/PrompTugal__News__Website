@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 4 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T21:59:17Z"
-site_version: "v0.1.1750"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T01:00:02Z"
+site_version: "v0.1.1763"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 4 of 5)
 
-100 cards, from `WRK.FIND 2026-11-06-the-top-of-the-page-6` to `WRK.TASK brazil-3`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.FIND 2026-11-06-the-top-of-the-page-5` to `WRK.TASK brazil-2`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 301 to 325**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.FIND 2026-11-06-the-top-of-the-page-5` | [T3 The top is 35% of a phone's first screen (230 of 664 px; the front page's first headline at 460 px) and 25 to 33% of a desktop's; the logo is centred](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-top-of-the-page-6` | [T4 'Powered by RiskMandate' in the masthead of all 9 pages, with no word on what it is](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-top-of-the-page-7` | [T5 The card's tagline 'People and AI agents, reporting together.' is on no page; the edition can move to the dateline](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-top-of-the-page-8` | [T6 The credit is the third of five pills on a desktop, not top right; on a phone a bare '£5.00' reads as a price, not a credit (pounds or euros: Dinis's call)](https://promptugal.news/board/passes/2026-11-06-the-top-of-the-page.md) | finding | conductor@ 6 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `WRK.PASS 2026-11-06-sections-as-sub-sites` | [2026-11-06-sections-as-sub-sites](https://promptugal.news/board/passes/2026-11-06-sections-as-sub-sites.md) | pass | conductor@ 6 Nov 2026 |
 | `WRK.PASS 2026-11-06-signed-in-views` | [2026-11-06-signed-in-views](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | pass | conductor@ 6 Nov 2026 |
 | `WRK.PASS 2026-11-06-the-articles-page` | [2026-11-06-the-articles-page](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md) | pass | conductor@ 6 Nov 2026 |
-| `WRK.PASS 2026-11-06-the-big-graphs` | [2026-11-06-the-big-graphs](https://promptugal.news/board/passes/2026-11-06-the-big-graphs.md) | pass | conductor@ 6 Nov 2026 |
 
 **Cards 326 to 350**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.PASS 2026-11-06-the-big-graphs` | [2026-11-06-the-big-graphs](https://promptugal.news/board/passes/2026-11-06-the-big-graphs.md) | pass | conductor@ 6 Nov 2026 |
 | `WRK.PASS 2026-11-06-the-companies-page` | [2026-11-06-the-companies-page](https://promptugal.news/board/passes/2026-11-06-the-companies-page.md) | pass | conductor@ 6 Nov 2026 |
 | `WRK.PASS 2026-11-06-the-front-page` | [2026-11-06-the-front-page](https://promptugal.news/board/passes/2026-11-06-the-front-page.md) | pass | conductor@ 6 Nov 2026 |
 | `WRK.PASS 2026-11-06-the-graph-explorer-next` | [2026-11-06-the-graph-explorer-next](https://promptugal.news/board/passes/2026-11-06-the-graph-explorer-next.md) | pass | conductor@ 6 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `WRK.PLAN spec-contribute-page` | [/contribute/: the rules of the game and the collaborators' wall, in brand v2.0](https://promptugal.news/board/spec-contribute-page.md) | board | designer@ 9 Nov 2026 |
 | `WRK.PLAN spec-dashboard-messages` | [Spec: a Messages panel on Dinis's dashboard, from security@'s comms.json](https://promptugal.news/board/spec-dashboard-messages.md) | board | security@ 6 Nov 2026 |
 | `WRK.PLAN spec-decisions-pages` | [Spec: decisions as pages, /newsroom/decisions/](https://promptugal.news/board/spec-decisions-pages.md) | board | conductor@ 6 Nov 2026 |
-| `WRK.PLAN spec-external-agents` | [Spec: agents outside Claude: a ChatGPT agent and a Perplexity agent, then others](https://promptugal.news/board/spec-external-agents.md) | board | conductor@ 6 Nov 2026 |
 
 **Cards 351 to 375**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.PLAN spec-external-agents` | [Spec: agents outside Claude: a ChatGPT agent and a Perplexity agent, then others](https://promptugal.news/board/spec-external-agents.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.PLAN spec-front-page-e` | [The home page as Silvio's mock E: the brand mapping and the acceptance check](https://promptugal.news/board/spec-front-page-e.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-home-page-designs` | [The home page in eight designs: each in the brand, its checks, the picker's pictures](https://promptugal.news/board/spec-home-page-designs.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-investor-decks-brand` | [The investor decks against brand v2.0: four small fixes](https://promptugal.news/board/spec-investor-decks-brand.md) | board | designer@ 7 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `WRK.PLAN spec-the-not-everything-note` | [The websummit-only pass: the note on every affected page and list, and the recovery page](https://promptugal.news/board/spec-the-not-everything-note.md) | board | designer@ 11 Nov 2026 |
 | `WRK.PLAN spec-the-reading-credit` | [The reading credit, said plainly: one line on a page, the details on the account page](https://promptugal.news/board/spec-the-reading-credit.md) | board | designer@ 8 Nov 2026 |
 | `WRK.PLAN spec-the-storm-page-e` | [/storm/charles/ in design E: four polish notes](https://promptugal.news/board/spec-the-storm-page-e.md) | board | designer@ 11 Nov 2026 |
-| `WRK.PLAN spec-the-summit-days` | [The summit's days, round 1: the strip, a past day, a future day; what dev@, the correspondent and the historian build](https://promptugal.news/board/spec-the-summit-days.md) | board | designer@ 6 Nov 2026 |
 
 **Cards 376 to 400**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.PLAN spec-the-summit-days` | [The summit's days, round 1: the strip, a past day, a future day; what dev@, the correspondent and the historian build](https://promptugal.news/board/spec-the-summit-days.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-the-synthetic-readers-page` | [The synthetic readers page, the designer's round: the scoreboard as tiles (S9), a card per reader (S5)](https://promptugal.news/board/spec-the-synthetic-readers-page.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-the-top-of-the-page` | [The top of every page, round 1: the quick fixes for dev@, and four mock-ups for Dinis to choose from](https://promptugal.news/board/spec-the-top-of-the-page.md) | board | designer@ 6 Nov 2026 |
 | `WRK.PLAN spec-the-values-page` | [The look of /values/](https://promptugal.news/board/spec-the-values-page.md) | board | designer@ 16 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `WRK.TASK brazil-12` | [brazil-12: 10 November: the Lisbon incubator's 2027 class](https://promptugal.news/board/tasks/brazil-12.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-13` | [brazil-13: Websites and cities of the 225 new Brazilian startups on the LIS26 listing](https://promptugal.news/board/tasks/brazil-13.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-2` | [brazil-2: Brazilian companies with a LIS26 appearance page](https://promptugal.news/board/tasks/brazil-2.md) | board | correspondent@ 6 Nov 2026 |
-| `WRK.TASK brazil-3` | [brazil-3: Press releases and posts naming who is coming](https://promptugal.news/board/tasks/brazil-3.md) | board | correspondent@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](WRK-3.md) | [Next part](WRK-5.md)

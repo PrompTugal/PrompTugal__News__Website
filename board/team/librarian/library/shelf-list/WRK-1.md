@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 1 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T21:59:17Z"
-site_version: "v0.1.1750"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T01:00:02Z"
+site_version: "v0.1.1763"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 1 of 5)
 
-100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.DEC the-budgets-after-the-first-day`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.DEC riskmandate-what-we-say`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -97,13 +97,14 @@ source: board/catalogue.json
 | `WRK.BRIEF 2026-11-16T1050Z-then-and-now` | [2026-11-16T1050Z-then-and-now.jpg](https://promptugal.news/board/editor-briefs/img/2026-11-16T1050Z-then-and-now.jpg) | board | conductor@ 16 Nov 2026 |
 | `WRK.BRIEF 2026-11-16T1050Z:2` | [2026-11-16T1050Z.pdf](https://promptugal.news/board/editor-briefs/2026-11-16T1050Z.pdf) | board | conductor@ 16 Nov 2026 |
 | `WRK.BRIEF 2026-11-17-data-site-and-focused-newsrooms` | [Brief: the PrompTugal data site, and focused newsrooms on top](https://promptugal.news/board/briefs/2026-11-17-data-site-and-focused-newsrooms.md) | brief | conductor@ 17 Nov 2026 |
+| `WRK.BRIEF 2026-11-17-handover-to-account-b` | [Hand-over to account B: what conductor.b@ picks up from account A](https://promptugal.news/board/briefs/2026-11-17-handover-to-account-b.md) | brief | conductor@ 17 Nov 2026 |
 | `WRK.BRIEF 2026-11-17-neighbours-check` | [Neighbours of the Algarve's municipalities: a first check (ontologist@, 17 November 2026)](https://promptugal.news/board/briefs/2026-11-17-neighbours-check.md) | brief | ontologist@ 17 Nov 2026 |
-| `WRK.BRIEF 2026-11-17-provenance-schema` | [The provenance and claims schema: what is in the gate (ontologist@, 17 November 2026)](https://promptugal.news/board/briefs/2026-11-17-provenance-schema.md) | brief | ontologist@ 17 Nov 2026 |
 
 **Cards 76 to 100**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.BRIEF 2026-11-17-provenance-schema` | [The provenance and claims schema: what is in the gate (ontologist@, 17 November 2026)](https://promptugal.news/board/briefs/2026-11-17-provenance-schema.md) | brief | ontologist@ 17 Nov 2026 |
 | `WRK.BRIEF 2026-11-17-sul-informacao` | [Sul Informação: how we read it today, and how to read it properly](https://promptugal.news/board/briefs/2026-11-17-sul-informacao.md) | brief | conductor@ 17 Nov 2026 |
 | `WRK.BRIEF 2026-11-17-the-five-sites` | [The five PrompTugal sites: what they share](https://promptugal.news/board/briefs/2026-11-17-the-five-sites.md) | brief | conductor@ 17 Nov 2026 |
 | `WRK.BRIEF README` | [The conductor's briefs](https://promptugal.news/board/editor-briefs/README.md) | board | conductor@ 6 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `WRK.DEC promptugal-for-investors` | [For Dinis: does PrompTugal.news have an investor story of its own, through which company, and where does it live?](https://promptugal.news/newsroom/decisions/promptugal-for-investors/) | decision | investors@ 6 Nov 2026 |
 | `WRK.DEC registering-and-the-press-pass` | [For Dinis: registering PrompTugal.news, and who applies for the press pass](https://promptugal.news/newsroom/decisions/registering-and-the-press-pass/) | decision | journalist@ 6 Nov 2026 |
 | `WRK.DEC riskmandate-what-we-say` | [For Dinis: what PrompTugal.news says about RiskMandate, and where](https://promptugal.news/newsroom/decisions/riskmandate-what-we-say/) | decision | synthetic@ 6 Nov 2026 |
-| `WRK.DEC the-budgets-after-the-first-day` | [The budgets after the first day: what to measure, and the one real limit](https://promptugal.news/newsroom/decisions/the-budgets-after-the-first-day/) | decision | accountant@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](WRK-2.md)

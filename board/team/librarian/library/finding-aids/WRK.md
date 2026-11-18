@@ -1,12 +1,12 @@
 ---
 title: "Finding aid: Work in hand"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T21:59:17Z"
-site_version: "v0.1.1750"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T01:00:02Z"
+site_version: "v0.1.1763"
 source: board/catalogue.json
 ---
 
-# Work in hand (407 cards)
+# Work in hand (408 cards)
 
 Work in hand: passes (focused rounds of work) and their findings, decisions, plans, briefs, tasks, desks and the story projects. Kept by conductor@.
 
@@ -26,7 +26,7 @@ By call number: passes, findings, decisions, plans, briefs, tasks, desks and sto
 
 | Container | What it holds | Cards | Cards worth opening |
 |---|---|---|---|
-| `WRK.BRIEF` | briefs | 92 | [The place agents: one agent per place (Portugal, the Algarve, each of its 17 towns), each running its own research and publish loop, under an ABP from the…](https://promptugal.news/board/briefs/2026-11-15-the-place-agents.md), [The place research spec: the fields of data/by-place/<id>.json and how to fill them](https://promptugal.news/board/briefs/2026-11-15-place-research-spec.md) |
+| `WRK.BRIEF` | briefs | 93 | [The place agents: one agent per place (Portugal, the Algarve, each of its 17 towns), each running its own research and publish loop, under an ABP from the…](https://promptugal.news/board/briefs/2026-11-15-the-place-agents.md), [The place research spec: the fields of data/by-place/<id>.json and how to fill them](https://promptugal.news/board/briefs/2026-11-15-place-research-spec.md) |
 | `WRK.DEC` | decisions | 17 | [For Dinis: two appliances for the summit, the RiskMandate Appliance and the PrompTugal Field Reporter](https://promptugal.news/newsroom/decisions/the-riskmandate-agent-ipad/), [PT decision: how to make a printed secret impossible, after a token was printed to a transcript](https://promptugal.news/newsroom/decisions/an-agent-printed-its-own-lane-token/) |
 | `WRK.DESK` | desks | 22 | [The curator's story candidates](https://promptugal.news/desks/curator/README.md), [researcher](https://promptugal.news/desks/researcher/) |
 | `WRK.FIND` | findings of a pass | 177 | [Index rendered pages only: no board/inbox.json token, no sealed envelope, no key bundle, no desks/outreach rank or priority](https://promptugal.news/board/passes/2026-11-06-the-newsroom-search.md), [An agent's read counts as that agent only when signed with its key from board/keys.json; a declared name alone is a claim](https://promptugal.news/board/passes/2026-11-06-agent-reads-and-visibility.md) |
@@ -43,7 +43,7 @@ Special collection: S3 (17 cards). Dinis's guidance has its own guide: [guidance
 
 ## See also
 
-- [Agents, roles, keys](TEAM.md) (519 connections from this collection)
+- [Agents, roles, keys](TEAM.md) (533 connections from this collection)
 - [Guidance (special)](GDN.md) (153 connections from this collection)
 - [The publication](PUB.md) (121 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph

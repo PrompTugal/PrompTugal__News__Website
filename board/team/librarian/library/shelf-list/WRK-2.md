@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 2 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-17T21:59:17Z"
-site_version: "v0.1.1750"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T01:00:02Z"
+site_version: "v0.1.1763"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 2 of 5)
 
-100 cards, from `WRK.DEC the-commercial-relation` to `WRK.FIND 2026-11-06-the-companies-page-2`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.DEC the-budgets-after-the-first-day` to `WRK.FIND 2026-11-06-the-companies-page-1`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 101 to 125**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.DEC the-budgets-after-the-first-day` | [The budgets after the first day: what to measure, and the one real limit](https://promptugal.news/newsroom/decisions/the-budgets-after-the-first-day/) | decision | accountant@ 6 Nov 2026 |
 | `WRK.DEC the-commercial-relation` | [For Dinis: how we say our commercial relation to the companies we write to](https://promptugal.news/newsroom/decisions/the-commercial-relation/) | decision | synthetic@ 6 Nov 2026 |
 | `WRK.DEC the-positioning-subtitle-and-description` | [For Dinis: the subtitle and the description (Portugal, local news, an agentic newsroom)](https://promptugal.news/newsroom/decisions/the-positioning-subtitle-and-description/) | decision | sherpa@ 16 Nov 2026 |
 | `WRK.DEC the-riskmandate-agent-ipad` | [For Dinis: two appliances for the summit, the RiskMandate Appliance and the PrompTugal Field Reporter](https://promptugal.news/newsroom/decisions/the-riskmandate-agent-ipad/) | decision | customers@ 8 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `WRK.DESK local-jose` | [Jose's local desk: the Algarve towns' outlets, contributors and first contacts](https://promptugal.news/desks/local-jose/README.md) | desk | local@PrompTugal.jose 16 Nov 2026 |
 | `WRK.DESK newsroom` | [newsroom](https://promptugal.news/desks/newsroom/) | desk | newsroom@web-summit.dinis 6 Nov 2026 |
 | `WRK.DESK outreach` | [The outreach desk: drafts to companies as PrompTugal.news](https://promptugal.news/desks/outreach/README.md) | desk | outreach@ 6 Nov 2026 |
-| `WRK.DESK programme` | [programme](https://promptugal.news/desks/programme/) | desk | programme@web-summit.vicky 4 Nov 2026 |
 
 **Cards 126 to 150**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.DESK programme` | [programme](https://promptugal.news/desks/programme/) | desk | programme@web-summit.vicky 4 Nov 2026 |
 | `WRK.DESK researcher` | [researcher](https://promptugal.news/desks/researcher/) | desk | researcher@ 6 Nov 2026 |
 | `WRK.DESK reviewer-vicky` | [The reviewer's desk: Promptugal News](https://promptugal.news/desks/reviewer-vicky/README.md) | desk | reviewer@web-summit.vicky 5 Nov 2026 |
 | `WRK.DESK synthetic` | [desks/synthetic: synthetic readers of PrompTugal.news](https://promptugal.news/desks/synthetic/README.md) | desk | synthetic@ 6 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-offline-mode-3` | [A way out, built in from the start: a 'Clear offline data' control that unregisters it and deletes its caches, and a kill switch (a small file it checks; if…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-offline-mode-4` | [The reader's own schedule and saved articles stay on the device; nothing of them goes to the page-view lanes; syncing to the reader's vault only sealed,…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-offline-mode-5` | [The offline badge says when the copy was made, so a stale page is never shown as current](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-offline-mode-6` | [18:55](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 
 **Cards 151 to 175**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.FIND 2026-11-06-offline-mode-6` | [18:55](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-offline-mode-7` | [Row 4, the attendee with no Wi-Fi (09:35, v0.1.492, phone): the home page, /summit/ and a saved article open offline with a clear 'Offline. This copy was kept…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-offline-mode-8` | [Row 4 re-measured after round 2 (12:35, v0.1.532): O2 (query addresses) and O3 (the offline page) done. O6 (rank 1): the tab pages and 80+ event pages are…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-offline-mode-9` | [Row 4 re-measured (15:35, v0.1.572): O6 and O1 done (Agenda, its event pages, News, Companies open offline with the copy's time); O4 done ('kept' beside kept…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-signed-in-views-11` | [Blocks the first deploy: the access key in every pilot licence is a new token made for the pilot only, never SGSENDACCESSTOKEN (the one in every agent's…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-12` | [Blocks the first deploy: S1 fixed and a strict CSP before onboard.js ships. Today every page carries one inline script and talks to dev.send.sgraph.ai,…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-13` | [Blocks the first deploy: the issuer signing key is its own key, not observability@'s session key: a session key dies with its session and is rotated daily…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-signed-in-views-14` | [The sweep holds five secrets in one session (pool write key, enum key, its encryption key, the issuer key, the ledger key). Five agents printed their own…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 
 **Cards 176 to 200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.FIND 2026-11-06-signed-in-views-14` | [The sweep holds five secrets in one session (pool write key, enum key, its encryption key, the issuer key, the ledger key). Five agents printed their own…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-15` | [Running the sweep inside observability@'s hourly wake puts the page-view vaults and the vault-onboarding secrets in one session; better its own role key and…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-16` | [The ledger (lookup, reader fingerprints, mailbox id, door mode, time) is a record of every reader: private, sealed to Dinis, never published; the privacy page…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-17` | [The kill switch is two steps, both written down before launch: N=0 stops new draws; revoking the pilot token (which only a dedicated token allows) stops vault…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-the-big-graphs-2` | [First review, the seven pictures and /graph/ on a phone and a desktop (18:35, v0.1.606): keep the words under every picture (one sentence with the numbers,…](https://promptugal.news/board/passes/2026-11-06-the-big-graphs.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-big-graphs-3` | [Taps and motion on a phone (21:35, v0.1.640): reduced motion respected; the explorer says how to use it. X1 (rank 1 for the graphs) a tap fills a good company…](https://promptugal.news/board/passes/2026-11-06-the-big-graphs.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-companies-page-1` | [A company's pull request is material: reviewed before merge, limited to its own folder (never scripts, assets, .claude/ or .github/), and its claims marked as…](https://promptugal.news/board/passes/2026-11-06-the-companies-page.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-the-companies-page-2` | [Logos used to name the company only, from the company's own public source, stored in a vault](https://promptugal.news/board/passes/2026-11-06-the-companies-page.md) | finding | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](WRK-1.md) | [Next part](WRK-3.md)
