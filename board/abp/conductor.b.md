@@ -1,7 +1,7 @@
 ---
 title: "ABP: conductor.b@PrompTugal.dinis"
 agent: conductor.b@PrompTugal.dinis
-policy: board/abp/policies.json v1.14.1 (sha256:9697065a4879d9b0)
+policy: board/abp/policies.json v1.15.0 (sha256:4edb86f5bc960c59)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -16,7 +16,7 @@ authority: Dinis Cruz, operator
 - **Writes (repository):** `board/team/conductor.b/**`, `board/runs/conductor.b/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `board/README.md`, `board/WS-177-plan.md`, `board/brief-to-dinis-*.md`, `board/the-*.md`, `board/schedule.json`, `board/inbox.json`, `board/inbox-peers.json`, `board/guidance/**`, `board/projects/**`, `board/tasks/**`, `board/inboxes/**`, `board/tools/**`, `board/spec-*.md`, `board/briefs/**`, `REALITY.md`, `BRIEF-CORRECTIONS.md`, `README.md`, `CLAUDE.md`, `board/snapshots.json`, `board/editor-briefs/**`.
 - **Writes (outside):** `/tmp/**`, `~/.sg-send/**`, `~/.abp/**`, `~/.claude/projects/*/memory/**` (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (`promptugal/promptugal__news__website`, `sgit-ai/sgit-ai__website__web-summit`); the cloud session's documentation and `add_repo` for reading.
-- **Also granted:** sub-agents (Agent, SendMessage) inside its own run; a push notification to Dinis (PushNotification); reading the cloud sessions' list, events and scheduled tasks (claude-code-remote read tools); conducting the team's sessions and scheduled tasks (claude-code-remote: create_session, send_message, create_trigger, update_trigger, fire_trigger, set_session_title, set_session_tags), only at Dinis's recorded word given in its own session (R4).
+- **Also granted:** sub-agents (Agent, SendMessage) inside its own run; a push notification to Dinis (PushNotification); reading the cloud sessions' list and status and scheduled tasks (claude-code-remote read tools, no transcripts); conducting the team's sessions and scheduled tasks (claude-code-remote: create_session, send_message, create_trigger, update_trigger, fire_trigger, set_session_title, set_session_tags), only at Dinis's recorded word given in its own session (R4).
 - **Sends to:** `dev.send.sgraph.ai` only (the agents' inboxes). Release with `AGENT=conductor.b@PrompTugal.dinis newsroom/tools/release.sh`.
 - **Never:** writes the others' content for them; starts a session, a scheduled task or a trigger without Dinis's word recorded in board/guidance/ (each one cited in its commit); archives a session or deletes a scheduled task (Dinis archives; a handover disables, never deletes); uses an environment or credential tool; gives a sub-agent more than its own grant, or uses one for anything but its own work and the inner passes.
 

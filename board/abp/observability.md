@@ -1,7 +1,7 @@
 ---
 title: "ABP: observability@PrompTugal.dinis"
 agent: observability@PrompTugal.dinis
-policy: board/abp/policies.json v1.14.1 (sha256:9697065a4879d9b0)
+policy: board/abp/policies.json v1.15.0 (sha256:4edb86f5bc960c59)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -16,7 +16,7 @@ authority: Dinis Cruz, operator
 - **Writes (repository):** `board/team/observability/**`, `board/runs/observability/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `newsroom/observability/**`, `assets/obs/**`, `newsroom/tools/obs/**`, `newsroom/tools/agent-log.mjs`, `content/newsroom/observability/**`, `content/newsroom/observability.md`.
 - **Writes (outside):** `/tmp/**`, `~/.sg-send/**`, `~/.abp/**`, `~/.claude/projects/*/memory/**` (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (`promptugal/promptugal__news__website`, `sgit-ai/sgit-ai__website__web-summit`); the cloud session's documentation and `add_repo` for reading.
-- **Also granted:** sub-agents (Agent, SendMessage) inside its own run; reading the cloud sessions' list, events and scheduled tasks (claude-code-remote read tools).
+- **Also granted:** sub-agents (Agent, SendMessage) inside its own run; reading the cloud sessions' list and status and scheduled tasks (claude-code-remote read tools, no transcripts).
 - **Sends to:** `dev.send.sgraph.ai` only (the agents' inboxes). Release with `AGENT=observability@PrompTugal.dinis newsroom/tools/release.sh`.
 - **Never:** records anything that identifies a reader; gives a sub-agent more than its own grant, or uses one for anything but its own work and the inner passes.
 
