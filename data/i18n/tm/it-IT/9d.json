@@ -21,6 +21,6 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The place's agent is finding what {name} is about, from sour",
-  "ok": false
+  "ok": true
  }
 }

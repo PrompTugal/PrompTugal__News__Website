@@ -13,7 +13,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "Starting a company in {name}",
-  "ok": false
+  "ok": true
  },
  "78dc9cc4a08684d2": {
   "t": "AI बनाने या गहनता से उपयोग करने वाले शुरुआती चरण के स्टार्टअप April से September 2026 तक इनक्यूबेशन के लिए आवेदन कर सकते थे, तकनीकी AI सहायता और मेंटरिंग के साथ। Portugal FCT और National Center for Advanced Computing के ज़रिए भाग लेता है।",
