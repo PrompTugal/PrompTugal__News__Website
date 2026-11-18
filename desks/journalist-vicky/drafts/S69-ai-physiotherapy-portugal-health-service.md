@@ -4,7 +4,7 @@ date: 2026-11-17
 story: S69
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: The government says Portugal's national health service and Sword Health offer remote physiotherapy, free to patients, with AI tools that correct movements under supervision by health professionals. The 97 percent shorter wait is an estimate, not a result.
-status: draft
+status: published
 beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/
 tags: portugal, ai, health, sword health, national health service, physiotherapy, telerehabilitation
