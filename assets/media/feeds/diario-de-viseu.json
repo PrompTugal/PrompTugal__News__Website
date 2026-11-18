@@ -1,8 +1,13 @@
 {
  "id": "diario-de-viseu",
  "feed": "https://www.diarioviseu.pt/feed/",
- "read_at": "2026-11-18T15:05Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
+  {
+   "title": "“O mercado ibérico é mais forte se tivermos um Portugal e Espanha mais forte”",
+   "link": "https://www.diarioviseu.pt/2026/11/18/o-mercado-iberico-e-mais-forte-se-tivermos-um-portugal-e-espanha-mais-forte/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=o-mercado-iberico-e-mais-forte-se-tivermos-um-portugal-e-espanha-mais-forte",
+   "date": "2026-11-18"
+  },
   {
    "title": "Vinhos do Dão reforçam ligação ao território, aos produtores e aos consumidores",
    "link": "https://www.diarioviseu.pt/2026/11/18/vinhos-do-dao-reforcam-ligacao-ao-territorio-aos-produtores-e-aos-consumidores/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=vinhos-do-dao-reforcam-ligacao-ao-territorio-aos-produtores-e-aos-consumidores",
@@ -21,11 +26,6 @@
   {
    "title": "IPMA regista recordes de chuva para novembro",
    "link": "https://www.diarioviseu.pt/2026/11/18/ipma-regista-recordes-de-chuva-para-novembro/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ipma-regista-recordes-de-chuva-para-novembro",
-   "date": "2026-11-18"
-  },
-  {
-   "title": "Armamar Futsal Clube quer apoiar atletas nos estudos",
-   "link": "https://www.diarioviseu.pt/2026/11/18/armamar-futsal-clube-quer-apoiar-atletas-nos-estudos/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=armamar-futsal-clube-quer-apoiar-atletas-nos-estudos",
    "date": "2026-11-18"
   }
  ]

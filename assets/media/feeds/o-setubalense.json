@@ -1,8 +1,13 @@
 {
  "id": "o-setubalense",
  "feed": "https://osetubalense.com/feed/",
- "read_at": "2026-11-18T15:05Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
+  {
+   "title": "Último dia de greve total na Metro Transportes do Sul decorre com forte adesão",
+   "link": "https://osetubalense.com/sociedade/ultimo-dia-de-greve-total-na-metro-transportes-do-sul-decorre-com-forte-adesao/",
+   "date": "2026-11-18"
+  },
   {
    "title": "Assalto à Casa da Sorte na madrugada de hoje causa prejuízo de 300 euros",
    "link": "https://osetubalense.com/ultimas/assalto-a-casa-da-sorte-na-madrugada-de-hoje-causa-prejuizo-de-300-euros/",
@@ -21,11 +26,6 @@
   {
    "title": "Marinha Portuguesa vai ajudar a preservar coleção de História Natural do Liceu de Setúbal",
    "link": "https://osetubalense.com/ultimas/marinha-portuguesa-vai-ajudar-a-preservar-colecao-de-historia-natural-do-liceu-de-setubal/",
-   "date": "2026-11-18"
-  },
-  {
-   "title": "Porto de Sines quer duplicar quota de mercado na Península Ibérica até 2030",
-   "link": "https://osetubalense.com/local/sines/porto-de-sines-quer-duplicar-quota-de-mercado-na-peninsula-iberica-ate-2030/",
    "date": "2026-11-18"
   }
  ]

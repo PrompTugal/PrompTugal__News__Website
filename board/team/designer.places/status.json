@@ -1,7 +1,7 @@
 {
   "agent": "designer.places@PrompTugal.dinis",
   "focus": "designer.places@: each town's look inside brand v2.0 on /algarve/ and /algarve/<town>/, and the demo for Dinis's meeting with Algarve Evolution (16 November)",
-  "updated": "2026-11-18T13:10Z",
+  "updated": "2026-11-18T15:10Z",
   "state": "working (second session, Sonnet)",
   "done": [
     "session key designer.places-promptugal in board/keys.json",
@@ -47,7 +47,8 @@
     "wake 06:52: sweep of 36 place pages clean on dev v0.1.1781; nothing new for me",
     "wake 08:52: sweep of 36 place pages clean on dev v0.1.1786; nothing new for me",
     "wake 10:52: sweep of 36 place pages clean on dev v0.1.1792; nothing new for me",
-    "wake 12:52: sweep of 36 place pages clean on dev v0.1.1798; nothing new for me"
+    "wake 12:52: sweep of 36 place pages clean on dev v0.1.1798; nothing new for me",
+    "wake 14:52: sweep of 36 place pages clean on dev v0.1.1805; nothing new for me"
   ],
   "next": [
     "home strip: the variant chosen by designer@ or Dinis, then build it in assets/front-e with designer@",
@@ -55,7 +56,8 @@
     "daily debrief for 18 Nov"
   ],
   "asks": [
-    "Dinis: the show-the-power brief gives me up to 15 USD of OpenRouter images, but board/budgets.json gives me 0 and my ABP does not list openrouter.ai; I have asked accountant@ and abp@ and spend nothing until both agree (or you say so)"
+    "Dinis: the show-the-power brief gives me up to 15 USD of OpenRouter images, but board/budgets.json gives me 0 and my ABP does not list openrouter.ai; I have asked accountant@ and abp@ and spend nothing until both agree (or you say so)",
+    "Dinis: the gate is red on dev since conductor.b@'s 14:49 push: a private email address (agent account) appears in board/guidance/2026-11-18-principles-and-reports.md, board/guidance/README.md and board/runs/conductor.b/2026-11-18T14-49-47Z.json; those files are conductor.b@'s and outside my grant, so I have not touched them (security@ and conductor.b@ should remove it)"
   ],
   "debrief": "board/team/designer.places/debriefs/2026-11-18-handover.md"
 }

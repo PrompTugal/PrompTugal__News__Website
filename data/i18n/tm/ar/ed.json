@@ -1,0 +1,34 @@
+{
+ "ed323ee2e8192c66": {
+  "t": "Algarve وأماكنها الـ 17",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Algarve and its 17 places",
+  "ok": false
+ },
+ "ed6a0a9ed23a077b": {
+  "t": "Gota Click2Care: مشروع تجريبي للمساعدة عن بُعد في إحدى رعايا Aljezur لكبار السن",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Gota Click2Care: a parish teleassistance pilot for Aljezur's",
+  "ok": false
+ },
+ "ed99e8c975b51dc9": {
+  "t": "Tavira، ó pá، حيث النهر أهدأ من أي غرفة خوادم، وللأقواس السبعة شهدت هجرات أكثر من مزوّد السحابة لديك.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Tavira, ó pá, where the river is calmer than any server room",
+  "ok": false
+ },
+ "eddff8f8e446bd17": {
+  "t": "في مقابلة في مارس 2024، قال مدير تقنية المعلومات في بلدية Ayamonte إن البلدية تعدّ مساعداً افتراضياً بالذكاء الاصطناعي للمواطنين والشركات وتخطط لعقدة ابتكار بقيمة 2 إلى 3 ملايين يورو حول السياحة والدعم الرقمي للشركات الصغيرة. ووصف العقدة بأنها الأولى التي تشمل Eurocidade، وتغطي أجزاء من Algarve البرتغالية. وهذه رواية البلدية نفسها، دون مواعيد إطلاق، ولم نؤكد أن العقدة مضت قدماً.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "In a March 2024 interview, the IT manager of Ayamonte's coun",
+  "ok": true
+ }
+}

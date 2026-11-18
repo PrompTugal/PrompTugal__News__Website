@@ -1,0 +1,25 @@
+{
+ "agent": "weather.b@PrompTugal.dinis",
+ "date": "2026-11-18",
+ "model": "opus",
+ "cumulative_cost_usd": 25.5198,
+ "delta_cost_usd_since_15:30Z": 4.18,
+ "input_tokens": 3401,
+ "output_tokens": 155227,
+ "reads": [
+  {
+   "read_at": "2026-11-18T17:35Z",
+   "cumulative_cost_usd": 25.52,
+   "delta_cost_usd": 0.0,
+   "input_tokens": 3401,
+   "output_tokens": 155227
+  },
+  {
+   "read_at": "2026-11-18T18:45Z",
+   "cumulative_cost_usd": 34.63,
+   "delta_cost_usd": 9.11,
+   "input_tokens": 3445,
+   "output_tokens": 176918
+  }
+ ]
+}

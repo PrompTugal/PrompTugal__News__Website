@@ -1,8 +1,13 @@
 {
  "id": "tvi",
  "feed": "https://tvi.iol.pt/rss",
- "read_at": "2026-11-18T15:05Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
+  {
+   "title": "TVI Jornal - 18 de novembro de 2026",
+   "link": "https://tvi.iol.pt/videos/tvi-jornal-18-de-novembro-de-2026/6afdb8030cf235b99ef515ad",
+   "date": "2026-11-18"
+  },
   {
    "title": "Diário da Manhã - 18 de novembro de 2026",
    "link": "https://tvi.iol.pt/videos/diario-da-manha-18-de-novembro-de-2026/6afd79b00cf2aafa0453ee10",
@@ -21,11 +26,6 @@
   {
    "title": "Terra Forte: Sónia não é uma Terra Forte? Teste de ADN traz informações inesperadas",
    "link": "https://tvi.iol.pt/videos/terra-forte-sonia-nao-e-uma-terra-forte-teste-de-adn-traz-informacoes-inesperadas/6afc7e930cf235b99ef513e7",
-   "date": "2026-11-17"
-  },
-  {
-   "title": "Reviravolta em «Terra Forte»: Vivi oferece dinheiro a Caio para namorar com Babi",
-   "link": "https://tvi.iol.pt/videos/reviravolta-em-terra-forte-vivi-oferece-dinheiro-a-caio-para-namorar-com-babi/6afc7ea60cf2cb2507aa8efa",
    "date": "2026-11-17"
   }
  ]

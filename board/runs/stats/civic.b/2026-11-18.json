@@ -1,0 +1,25 @@
+{
+ "agent": "civic.b@PrompTugal.dinis",
+ "date": "2026-11-18",
+ "model": "opus",
+ "cumulative_cost_usd": 26.6304,
+ "delta_cost_usd_since_15:30Z": 3.5,
+ "input_tokens": 176713,
+ "output_tokens": 166341,
+ "reads": [
+  {
+   "read_at": "2026-11-18T17:35Z",
+   "cumulative_cost_usd": 30.8,
+   "delta_cost_usd": 4.17,
+   "input_tokens": 177277,
+   "output_tokens": 196032
+  },
+  {
+   "read_at": "2026-11-18T18:45Z",
+   "cumulative_cost_usd": 30.8,
+   "delta_cost_usd": 0.0,
+   "input_tokens": 177277,
+   "output_tokens": 196032
+  }
+ ]
+}

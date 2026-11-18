@@ -8,12 +8,13 @@
   "ok": false
  },
  "073509dba418fb61": {
-  "t": "Il progetto Modernizacao e Digitalizacao del comune è stato approvato nell'ambito di Algarve 2030 il 27 agosto 2026 e il termine di accettazione è stato firmato il 16 settembre. L'investimento ammissibile è di 456.181,74 euro, con 273.709,04 euro dal FESR. Riguarda infrastrutture digitali e cybersicurezza, processi interni digitalizzati, servizi pubblici online, sistemi interoperabili e formazione del personale, da concludersi entro il 30 giugno 2028.",
+  "t": "Il progetto Modernizacao e Digitalizacao del comune è stato approvato nell'ambito di Algarve 2030 il 27 agosto 2026 e l'atto di accettazione è stato firmato il 16 settembre. L'investimento ammissibile è di 456.181,74 euro, con 273.709,04 euro dal FESR. Riguarda infrastrutture digitali e cybersicurezza, processi interni digitalizzati, servizi pubblici online, sistemi interoperabili e formazione del personale, da concludersi entro il 30 giugno 2028.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "The council's Modernizacao e Digitalizacao project was appro",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  },
  "07956e0d07aee6b0": {
   "t": "Altre dieci aziende brasiliane si uniscono a Cais do Porto ad Aveiro, quattro con prodotti di IA",
