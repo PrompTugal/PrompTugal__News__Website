@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "hadea-web-summit-2026",
+  "story": "S17",
+  "url": "https://hadea.ec.europa.eu/events/web-summit-2026-2026-11-09_en",
+  "title": "Web Summit 2026",
+  "publisher": "HaDEA, European Health and Digital Executive Agency",
+  "read_on": "2026-11-18",
+  "read_by": "journalist@PrompTugal.dinis",
+  "access": "public",
+  "kind": "official",
+  "what_it_says": "Event page for HaDEA's workshop on EU funding with four EU-funded projects and its stand E418 in Pavilion 4; carries an update that the workshop moved from 11 November to Thursday 12 November at 16:00 because of severe weather in Lisbon."
+}
