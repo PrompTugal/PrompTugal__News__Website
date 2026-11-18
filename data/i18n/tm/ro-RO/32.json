@@ -1,0 +1,18 @@
+{
+ "328eae672fdfb43c": {
+  "t": "Portugalia ar cumpăra timp de calcul cu până la 200 de milioane de euro în prima fază, cu aceeași sumă din partea EuroHPC. Componenta portugheză este estimată la circa 4 miliarde de euro. Sursa nu indică niciun amplasament în Portugalia.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portugal would buy computing time with up to 200 million eur",
+  "ok": false
+ },
+ "32e38f205d404c47": {
+  "t": "Acum partea cinstită, que se não houver não se inventa: lucrurile pe care le-am căutat în Serra și nu le-am găsit.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Now the honest part, que se não houver não se inventa: the t",
+  "ok": false
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "0d16df2ddd409a64": {
+  "t": "Spațiul municipal de coworking din orașul vechi are 20 de posturi de lucru și este plin din noiembrie 2023. Este și partener al GDG Lagos la evenimente despre inteligența artificială.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The municipal coworking space in the old town has 20 worksta",
+  "ok": false
+ },
+ "0d2fe9cc4f8c4c95": {
+  "t": "Un panel gratuit, în limba engleză, la Faro, despre cum instrumentele de răspuns cu inteligență artificială (ChatGPT, Gemini, Claude, Perplexity, Google AI Overviews) schimbă căutarea online și vizibilitatea companiilor, cu discuții despre AEO și GEO. Organizat de Flow Productions cu Algarve STP.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A free English-language panel in Faro on how AI answer tools",
+  "ok": false
+ },
+ "0d6afb2528c7f8d1": {
+  "t": "Un studiu condus de facultatea de științe sociale a NOVA și promovat de Fundația Gulbenkian, pe baza răspunsurilor a 295 de jurnaliști, propune 10 măsuri pentru folosirea responsabilă a inteligenței artificiale în redacții. Un lector de la UTAD a făcut parte din echipa proiectului.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A study led by NOVA's social sciences faculty and promoted b",
+  "ok": false
+ },
+ "0d8fb3014c735381": {
+  "t": "Consiliul lansează o platformă digitală de gestiune urbană al cărei modul de inteligență artificială verifică documentele în momentul depunerii și reține dosarele incomplete. Consiliul spune că aproximativ șapte din zece dispoziții ale secției de gestionare a cazurilor cer documente corectate și că primește circa 5.000 de cereri de autorizare pe an. Instruirea personalului a început în iulie, iar funcționarea deplină este așteptată în lunile următoare.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council is rolling out a digital urban-management platfo",
+  "ok": false
+ },
+ "0dbee8cf4d00067c": {
+  "t": "Neuraspace atrage 15,6 milioane de euro pentru inteligență artificială în traficul spațial",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Neuraspace raises 15.6 million euros for AI space-traffic in",
+  "ok": false
+ },
+ "0de436ae73ac7694": {
+  "t": "Proiectul AITriage4SU, condus de la UTAD, a ținut o întâlnire științifică pe 31 ianuarie la Porto, cu aproximativ 200 de participanți, despre inteligența artificială pentru triajul adulților în urgență. Echipa a arătat cum modelele lingvistice mari normalizează plângerile de triaj în text liber, cu primele rezultate.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The AITriage4SU project, led from UTAD, held a scientific me",
+  "ok": false
+ }
+}

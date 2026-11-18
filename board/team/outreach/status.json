@@ -2,7 +2,7 @@
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts only: first contacts to each news organisation and its public journalists, leading with the outlet's page on PrompTugal.news; a person sends.",
  "state": "drafting from the 73 media records; nothing sent",
- "updated": "2026-11-17T18:55Z",
+ "updated": "2026-11-18T00:50Z",
  "done": [
   "Session key outreach-c-promptugal in board/keys.json (outreach-b superseded 19:35Z)",
   "Draft format desks/outreach/media/FORMAT.md and template.md, proposed to local@PrompTugal.jose",
@@ -356,6 +356,11 @@
    "started": "2026-11-17T18:38Z",
    "outcome": "ok",
    "what": "92 drafts, backlog with contact+feed exhausted"
+  },
+  {
+   "started": "2026-11-18T00:38Z",
+   "outcome": "ok",
+   "what": "nothing new to draft; daily debrief"
   }
  ],
  "decisions_on_findings": [
@@ -377,5 +382,5 @@
  ],
  "debrief": "board/team/outreach/debriefs/2026-11-08-handover.md",
  "session": "b9208786 (account B)",
- "latest_debrief": "board/team/outreach/debriefs/2026-11-17-handover.md"
+ "latest_debrief": "board/team/outreach/debriefs/2026-11-18-handover.md"
 }

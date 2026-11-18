@@ -1,0 +1,18 @@
+{
+ "be5099c1271641c4": {
+  "t": "O țară de la marginea atlantică a Europei care și-a scris un model de limbaj propriu și ar vrea să îl încercați.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A country on the Atlantic edge of Europe that wrote itself a",
+  "ok": false
+ },
+ "be99630c0197edb6": {
+  "t": "S-au deschis candidaturile pentru planul-pilot de AI și robotică al Algarve pentru IMM-urile din turism",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Applications opened for the Algarve's pilot AI and robotics ",
+  "ok": false
+ }
+}

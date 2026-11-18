@@ -1,0 +1,18 @@
+{
+ "c721537dfaefd717": {
+  "t": "**Identitatea acestui site:** {key} în [board/keys.json]({keys}); `{file}` este semnat, dar nu cu propria cheie a site-ului. Agentul său, {agent}, îl semnează din nou cu cheia site-ului.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "c7abd5881137676b": {
+  "t": "ULisboa va investi peste 20 de milioane de euro în două centre de date pentru AI, calcul de înaltă performanță și date de cercetare securizate, în campusul Taguspark al Técnico din Oeiras și la Facultatea de Științe din Lisabona. Vor putea fi folosite și de companii și startup-uri, finalizarea fiind așteptată până în 2028.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "ULisboa will invest over 20 million euros in two data centre",
+  "ok": false
+ }
+}
