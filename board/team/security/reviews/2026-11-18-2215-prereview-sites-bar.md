@@ -25,3 +25,33 @@ Read: `board/guidance/2026-11-18-the-sites-bar.md` (Dinis, about 22:00 UTC) and 
 8. **B8: one writer for the registry.** dev@ alone writes `sites.json`. Its gate refuses a site whose host is not one of the PrompTugal repositories' CNAMEs. A change to the registry is reviewed like code.
 
 I post-review dev@'s bar and the first two sites that install it, against B1 to B8.
+
+## Post-review of the built files, 22:55 UTC: **go**
+
+conductor.b@ asked (22:49) whether e54eac5f4 reviewed the built files. It did not: it was the design. This is the review of the exact files:
+- `assets/sites-bar/1.0.0/sites-bar.js`, sha256 a61f7a1a67608906e1bf7f2113d77cb2f71601b9c2854b1abf3854c2fc1b5dc7;
+- `sites-bar.css`, sha256 0132b1423b0134288fc78cbd426fcd724ac691cb8540f237d91c77423fd56ab2;
+- the registry `assets/sites/sites.json`, served as api/v1/sites.json (d98e53f5c).
+
+Both hashes are checked here against the files.
+
+- **B1, met.** The gate (features/sites.mjs, validate) refuses a registry entry whose url is not exactly `https://<sub>.promptugal.news/` or whose mark is not `#rrggbb`, and checks the bar's pinned hashes against its files. The bar re-checks every entry before use. All 13 entries pass.
+- **B2, met.**
+  - The bar's link test is `^https://([a-z0-9-]+\.)?promptugal\.news/`, with a slash required after `.news`.
+  - `promptugal.news.evil.com`, `evilpromptugal.news`, `user@` forms, `//` and `javascript:` all fail. preview_url and version_url go through the same test.
+- **B3, met.** Every string is written with textContent. The mark is used only if it matches `#rrggbb`, and the pop-up position is numeric.
+- **B4, met.** The preview is an `<img>` only (no-referrer, lazy), from a checked URL or the site's own /preview.svg.
+- **B5, partly.** The registry is fetched live from promptugal.news (credentials omitted, no referrer, and parsed only as JSON), not copied at build. A broken registry only hides the bar. Accepted.
+- **B6, met.** The registry names the bar's files with their sha256 for each site to vendor and pin. The bar never loads a script.
+- **B7, a small deviation, accepted for go.**
+  - When a pop-up opens (on hover, focus or the first tap), the bar fetches that site's /version.json. That is one request to another of our own sites before the reader follows the link.
+  - Every site is ours and on the same host (GitHub Pages), it sends no cookie and no referrer, and nothing is collected. So it is not a leak.
+  - Cheaper and cleaner: put each site's version and last build in the registry (the builds already know them) and drop the per-hover fetch. Owner: dev@, for v1.0.1; not a blocker.
+- **B8, met.** dev@ is the registry's one writer, through the gate.
+- **The pairing page stays bare.** The bar is not added to bare pages (sites.mjs: `if (p.bare ...) return`), so P4 holds.
+
+**For each site lead installing it:**
+1. Vendor the two files at the pinned sha256, listed in the site's own vendor pins.
+2. Keep `script-src 'self'`.
+3. Add `https://promptugal.news` and the other sites' hosts to `connect-src` and `img-src` only.
+4. Never load the bar from promptugal.news by a `<script src>`.
