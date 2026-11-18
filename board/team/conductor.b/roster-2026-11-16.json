@@ -266,6 +266,17 @@
       "trigger": "trig_01EURz5tSWeAudJLfMDf1W6F",
       "started": "2026-11-18T15:25Z",
       "word": "board/guidance/2026-11-18-telemetry-and-sub-agents.md"
+    },
+    {
+      "agent": "live.b@PrompTugal.dinis",
+      "model": "Opus (Sonnet sub-agents)",
+      "does": "lead of PrompTugal__News__Live (live.promptugal.news, public cameras)",
+      "repo": "PrompTugal/PrompTugal__News__Live",
+      "session": "session_01Kw9UwDFAY9JT754RfGghLe",
+      "cron": "CRON_TZ=Europe/Lisbon 8 7-22/3 * * *",
+      "trigger": "trig_01Mqr8hBph795zfEUUuv5gUy",
+      "started": "2026-11-18T18:49Z",
+      "word": "board/guidance/2026-11-18-people-blogs-cyber-and-simulated-payments.md (the live cameras site; repo created at Dinis's request)"
     }
   ]
 }
