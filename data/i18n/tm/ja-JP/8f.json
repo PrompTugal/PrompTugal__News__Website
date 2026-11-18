@@ -1,0 +1,50 @@
+{
+ "8f3b7d507ba8778d": {
+  "t": "SetúbalとLisbonの港、AIプロジェクトを開始しデータセンターを計画",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Setúbal and Lisbon ports start an AI project and plan a data",
+  "ok": false
+ },
+ "8f429062903b2dfa": {
+  "t": "市、University of AlgarveのAIワークショップを支援",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Council backs an AI workshop at the University of Algarve",
+  "ok": false
+ },
+ "8f6bfc3f243d5363": {
+  "t": "Postalは、Olhãoに拠点を置くSparosを紹介している。同社のDigital Nutrition部門はデータを収集・分析して給餌計画を提案し、HatchTools(孵化場向けのウェブアプリ)とOptiFeeSH(ギリシャ企業I2Sと開発した、AquaManagerソフトウェア向けの給餌計画モジュール)がある。アルゴリズムで成長段階ごとの飼料の必要量を予測する。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Postal profiles Sparos, based in Olhão: its Digital Nutritio",
+  "ok": false
+ },
+ "8f8393c1b7217470": {
+  "t": "Politécnico de Viseu、文化遺産の建物を見守るAIツールRISKMAPを披露",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Politécnico de Viseu shows RISKMAP, an AI tool that watches ",
+  "ok": false
+ },
+ "8f890cc585bd0e34": {
+  "t": "ポリテクニックの農学部でのセッションでは、山岳研究センターCIMOとCeDRIの研究者が、農場の意思決定のためのセンサーと画像、フィールドロボティクス、ドローン、衛星画像について講演した。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A session at the polytechnic's agrarian school heard researc",
+  "ok": false
+ },
+ "8fe07e1630031ef4": {
+  "t": "CoimbraのAI活動は大学から育っている。University of Coimbraは課程をAI・データサイエンスの学士・修士に再編し、研究ユニットINESCCは防衛資金によるハイブリッド脅威向けのAIプロジェクトを率い、大学の研究から生まれたポルトガルのAI企業Feedzaiは本社を市内に置く。大学の周りには、インキュベーターを運営しAIをサービスに挙げるInstituto Pedro Nunesと、AIを5つの優先分野の一つとする市の機関Go Coimbraがある。市はまた、都市許認可へのAI導入の第1段階パイロットにも名を連ねており、ここでは研究だけでなく市政もこの話の一部である。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Coimbra's AI activity grows out of its university. The Unive",
+  "ok": false
+ }
+}

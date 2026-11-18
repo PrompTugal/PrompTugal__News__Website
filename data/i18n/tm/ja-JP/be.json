@@ -1,0 +1,18 @@
+{
+ "be5099c1271641c4": {
+  "t": "欧州の大西洋の端にある国が、自前の言語モデルを書き上げ、ぜひ試してほしいと言っている。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A country on the Atlantic edge of Europe that wrote itself a",
+  "ok": false
+ },
+ "be99630c0197edb6": {
+  "t": "観光中小企業向けのAlgarveのAI・ロボティクス・パイロット計画の公募が開始",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Applications opened for the Algarve's pilot AI and robotics ",
+  "ok": false
+ }
+}

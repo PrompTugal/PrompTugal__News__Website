@@ -1,0 +1,42 @@
+{
+ "e72981ce21809675": {
+  "t": "Ainda não sabemos tudo, pá. Faroがまだ教えてくれていないことはこちら:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda não sabemos tudo, pá. Here is what Faro has not told u",
+  "ok": false
+ },
+ "e7908f114d56ddcd": {
+  "t": "Viana do Castelo、ai Jesus:丘の上のバジリカ、どこで止まるか決められない川、そして町じゅうが港を見つめているあいだに、静かにコンピューターに許可証の読み方を教えている市役所。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Viana do Castelo, ai Jesus: a basilica on the hill, a river ",
+  "ok": false
+ },
+ "e7bebd39ad02304e": {
+  "t": "Louléの美術展./logSinapses、AIとアルゴリズムによる媒介をテーマに据える",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Loulé art exhibition ./logSinapses took AI and algorithmic m",
+  "ok": false
+ },
+ "e7f26edd2ea41eb9": {
+  "t": "政府は、すでに技術的に準備が整っている少数の自治体でパイロットを行う計画で、AIが自治体のプラットフォームの上の単一のアクセス層として働き、建築許可から始める。Coimbraは第1段階に名を連ねており、市長は、AIは計画規則を守り、公共サービスを非人間化することなく、手続きを迅速化できると述べた。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The government plans a pilot in a small number of municipali",
+  "ok": false
+ },
+ "e7f72e1b48d63a7d": {
+  "t": "Faroの企業Visualformaは、ItelmatisおよびUniversity of Algarveと開発し、Louléで試験した緑地の灌漑制御システムについて説明した。現場データを使って散水を最適化し、AIと機械学習のモジュールを計画している。2023年4月の古いニュースである。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Visualforma, a Faro company, described a green-spaces irriga",
+  "ok": false
+ }
+}

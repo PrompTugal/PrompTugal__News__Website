@@ -1,0 +1,26 @@
+{
+ "af014c36595f1b1d": {
+  "t": "PortalegreのAI活動は高等教育機関にある。同機関は自身のサイトで現在Universidade Politécnica de Portalegreと称しており、その研究室は2026年9月開始の2つのAIプロジェクトを掲載している。一つは農業と畜産向け、もう一つは学生のメンタルヘルス向けである。周囲には、2023年にポリテクニックと設立したKyndrylのイノベーションセンター、インキュベーターを運営する事業者団体、関心分野にAIを挙げる新しい防衛・デュアルユース技術クラスターがある。市のニュースにAIの利用は見られず、Portalegreの重心は市役所ではなく、研究、産業パートナー、地域の人材育成にある。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portalegre's AI activity sits in its higher education instit",
+  "ok": false
+ },
+ "afb2831eb2361f71": {
+  "t": "Alcoutimの Radar Social、ジオリファレンス・システムで危機にある人々を地図化",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Alcoutim's Radar Social maps people at risk with a georefere",
+  "ok": false
+ },
+ "affdf3bdd317ab79": {
+  "t": "Baixo Guadianaを代表するOdianaは、2026年9月22日と23日にCórdobaで始動した206万ユーロのスペイン・ポルトガル共同プロジェクトAgrosocial Plusのポルトガル側パートナーである。リビングラボでは、人工知能、モノのインターネット、スマート灌漑などのソリューションを試す計画だ。記事は、ページに町のタグが付いているものの、Vila Real de Santo Antónioが参加するかどうかには触れていない。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Odiana, which represents the Baixo Guadiana, is the Portugue",
+  "ok": false
+ }
+}
