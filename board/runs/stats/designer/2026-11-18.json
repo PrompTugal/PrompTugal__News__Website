@@ -5,5 +5,14 @@
  "cumulative_cost_usd": 70.0035,
  "delta_cost_usd_since_15:30Z": 2.4,
  "input_tokens": 2071,
- "output_tokens": 141992
+ "output_tokens": 141992,
+ "reads": [
+  {
+   "read_at": "2026-11-18T17:35Z",
+   "cumulative_cost_usd": 71.49,
+   "delta_cost_usd": 1.49,
+   "input_tokens": 2098,
+   "output_tokens": 147940
+  }
+ ]
 }
