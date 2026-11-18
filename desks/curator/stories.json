@@ -2,6 +2,14 @@
  "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`. LINK_OVERRIDES: a source URL as captured mapped to the same address written another way (a digit percent-encoded, which the URL standard treats as the same address) so the team site's phone check does not read a long run of digits and dashes as a phone number.",
  "stories": [
   [
+   "S71",
+   "Update: who said waits fell from two years to ten days",
+   "Portugal",
+   "An update note for S69 (and a pointer from S67's update): a launch-day DNOTICIAS report attaches the 'two years to ten days' wait to the Cova da Beira unit's board president; S67's update gave it as the Center's chief executive's claim about a Porto hospital; the accounts differ and neither is checked. Also the nine units that signed.",
+   "18 Nov",
+   "For journalist-portugal, categories Portugal and AI. Short update (standing answer 95); say the sources differ; do not decide."
+  ],
+  [
    "S70",
    "Update: a 2023 pilot at São João came out of the Center",
    "Portugal",
@@ -804,6 +812,9 @@
   ],
   "S70": [
    "v-rtp-lusa-saojoao-telerehab-pilot"
+  ],
+  "S71": [
+   "v-dnoticias-sns-sword-protocols"
   ]
  },
  "DROPPED": {
@@ -953,6 +964,10 @@
   "S69": [
    "https://promptugal.news/articles/ai-physiotherapy-portugal-health-service.html",
    "17 Nov"
+  ],
+  "S70": [
+   "https://promptugal.news/articles/ai-physiotherapy-portugal-health-service.html",
+   "18 Nov"
   ]
  },
  "WITHDRAWN": [
@@ -970,11 +985,12 @@
   "S49",
   "S54"
  ],
- "READY": [],
+ "READY": [
+  "S71"
+ ],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
-  "S47": "published as an update",
-  "S70": "drafted, awaiting review"
+  "S47": "published as an update"
  },
  "EXTRA_SRC": {
   "x-web-summit-thursday-facts": [
@@ -1158,7 +1174,13 @@
    "2026-11-07 11:55"
   ]
  },
- "ASSIGN": [],
+ "ASSIGN": [
+  [
+   "S71",
+   "the Portugal desk (journalist-portugal)",
+   "A launch-day DNOTICIAS report (18 June 2026) attaches the 'two years to ten days' wait to the Cova da Beira unit's board president and lists the nine units that signed; write a short update note on S69 in the standing answer 95 format (dated intro line with the source, one to three short points, the caveat once at the end); re-read the page yourself; S67's update gives the same figure as the Center's chief executive's claim about a Porto hospital: say the two accounts differ and neither was checked, do not decide; the 97 percent and 45 percent are the founder's estimate in this report; the nine units are the report's list; 'last year' is the report's wording; do not name the board president or the founder; record the AI connection (direct, 0 steps) in the data note; categories Portugal and AI"
+  ]
+ ],
  "LINK_OVERRIDES": {
   "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC645008882-00000055/": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC6450%308882-00000055/"
  }
