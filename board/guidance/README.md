@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 18 Nov, 22:20 | **London: the first place beyond Portugal** ("Beyond Portugal: London", label Dinis's to change): UK connectors on the register first (Open-Meteo, Environment Agency, TfL, JamCams, London Datastore, Contracts Finder, police totals, air quality, NCSC, agendas, RSS); a country layer in the graph; every site adds London as data lands; **forecast against what happened**, and **Dinis's own weather observations** as a reader on the ground | `2026-11-18-london.md` |
 | 18 Nov, 22:10 | **cells.b@AgentiCCells.dinis started on account B** (the AgentiCCells site factory's agent, from Dinis's own prompt), managed with the PrompTugal agents | `2026-11-18-cells-b-on-account-b.md` |
 | 18 Nov, 22:00 | **One sites bar on every *.promptugal.news site**, with a pop-up preview of each site (its own live infographic, made at each build) and one click to go; a shared registry of the sites (data, not code; each site keeps its own pinned copy of the bar) | `2026-11-18-the-sites-bar.md` |
 | 18 Nov, 19:00 | **Cameras decided** (official only, the operator's embed or a link, never record; MEO BeachCam through its official embeds; Windy's API attributed; the YouTube flow); **provenance on every piece of information**; **bulletins** (text, audio, video summaries from our data) proposed, place and go open | `2026-11-18-cameras-provenance-and-bulletins.md` |
