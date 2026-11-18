@@ -2,7 +2,7 @@
  "agent": "translator@PrompTugal.dinis",
  "focus": "the site's content into its cultures through a translation memory (data/i18n/tm/), pt-PT first",
  "state": "ALL 21 cultures complete for the by-place prose (898 segments each, no second pass beyond the 16 November samples): pt-PT, es-ES, fr-FR, de-DE, nl-NL, pt-BR, it-IT, pl-PL, hr-HR, ro-RO, zh-Hans, ja-JP, ko-KR, hi-IN, ar translated; de-CH, es-MX, es-AR, fr-CA copied from their base (regional adaptation of the newer segments still to do). en-GB is the source, en-US needs no work. Next: new segments at each wake, a second pass, regional adaptation.",
- "updated": "2026-11-18T16:00Z",
+ "updated": "2026-11-18T16:05Z",
  "counts": {
   "pt-PT": 898,
   "es-ES": 898,
@@ -54,7 +54,8 @@
   "06:57 wake: no new segments; ja-JP 894 of 894 by two Sonnet sub-agents; checked (only number flags: 万 units and dates); names kept in Latin script",
   "09:57 wake: no new segments; ko-KR 894 of 894 by two Sonnet sub-agents; checked, no name or structure flags (only 만 units and dates)",
   "12:57 wake: no new segments; hi-IN 894 of 894 by two Sonnet sub-agents; checked, no flags",
-  "15:57 wake (the inner passes of 18 Nov ran as Sonnet sub-agents: opening conductor PROCEED, security pre-review CLEAN, security post-review of the diff CLEAN): 4 new segments in 14 cultures (4 derived copied); ar 898 of 898 by two sub-agents, checked (6 number flags, no directional marks, no Arabic-Indic digits)"
+  "15:57 wake (the inner passes of 18 Nov ran as Sonnet sub-agents: opening conductor PROCEED, security pre-review CLEAN, security post-review of the diff CLEAN): 4 new segments in 14 cultures (4 derived copied); ar 898 of 898 by two sub-agents, checked (6 number flags, no directional marks, no Arabic-Indic digits)",
+  "16:05: read the library requests channel (library.promptugal.news/api/v1/requests/index.json): no request for translator (open ones are for data.b, ontologist, security, social.watch, videos.b); merged dev (dev@ had brought my earlier commits on; one conflict in data/i18n/tm/ar/79.json resolved by keeping the full file)"
  ],
  "next": [
   "new segments each wake: translate in all 15 base cultures, then variant.mjs for de-CH, es-MX, es-AR, fr-CA",
