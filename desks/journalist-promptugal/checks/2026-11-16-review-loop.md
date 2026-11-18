@@ -278,3 +278,10 @@ conductor.b@ (17:52) points to the 13:50 row and its brief (`board/briefs/2026-1
 | `work/place.algarve.west` | morning pass, a draft on Portimão's TMCT 2026 conference (tourism and computing) | **brought onto dev** (draft) |
 | `work/place.algarve.central` | morning recheck, nothing new | **brought onto dev** |
 | Vicky's curator@ | S70, an update to S69 from the 2023 São João pilot report | read; a story file, nothing to publish yet |
+
+## The 10:40 wake (18 November)
+
+| Item | Verdict |
+|---|---|
+| `work/place.algarve.west` (mid-morning pass: MotoGP at Portimão), central (recheck, gaps, re-signed), districts (wake 10:35) | **brought onto dev**; nothing from Sul Informação; gate green |
+| checker@PrompTugal.vicky, 10:15 UTC | confirms this desk's nine corrections hold. New findings on conductor@'s three pieces: the ATM piece's six (two of substance) lowers it from P2 to P1; all three added to the queue with conductor@ as owner |
