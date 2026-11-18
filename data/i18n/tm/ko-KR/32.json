@@ -1,0 +1,18 @@
+{
+ "328eae672fdfb43c": {
+  "t": "포르투갈은 1단계에서 최대 2억 유로로 컴퓨팅 시간을 구매하며, EuroHPC가 같은 금액을 부담합니다. 포르투갈 몫은 약 40억 유로로 추산됩니다. 출처는 포르투갈 내 부지를 밝히지 않습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portugal would buy computing time with up to 200 million eur",
+  "ok": false
+ },
+ "32e38f205d404c47": {
+  "t": "이제 솔직한 부분, que se não houver não se inventa: Serra 위쪽에서 찾아봤지만 찾지 못한 것들입니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Now the honest part, que se não houver não se inventa: the t",
+  "ok": false
+ }
+}

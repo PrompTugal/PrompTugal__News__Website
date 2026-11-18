@@ -831,12 +831,12 @@
     "Faro airport traffic for November, IPMA warning levels, algarve2030.gov.pt, amal.pt and ualg.pt were not opened on 16 November; the October airport figure seen in a search snippet is not verified.",
     "Seen only as headlines: Olhão teachers on Erasmus+ AI and VR training (Postal, 5 November), and CCDR items of 26 October (Matéria Adentro, POCTEP 2021-2027, citrus innovation).",
     "IPMA warnings for today could not be read: the ipma.pt warnings page the sub-agent tried returned a 404. Check ipma.pt directly. The CCDR notice of 11 November and its 24 November water conference were read from the list page only.",
-    "The Castro Marim dementia congress claim has now failed a second check: no official page shows it, and search found only the 2024 first edition. Treated as not true until a page we can open shows it.",
     "algarve2030.gov.pt did not resolve from this session on 17 November, and ccdr-alg.pt had nothing dated 14 to 17 November. Seen only as headlines: ICCAT tuna meeting in Vilamoura (Barlavento), a housing march in Faro, a regional investment conference with 300 participants (Postal, 15 November), and national water-cut and E-REDES power-cut lists for 17 and 18 November (whether any of the five places is listed was not checked).",
     "The UAlg page on its AI rules and principles is undated in the listing, so it is not used as news.",
     "On 17 November the national water-cut list (5 councils) and the E-REDES power-cut list for 17 and 18 November named none of Tavira, Castro Marim, Vila Real de Santo António or Alcoutim. The NaturMaris prize in Loulé (Barlavento, 16 November) was read from the front-page excerpt only, so it is not used. CCDR Algarve had nothing new after 10 November and no funding call with a deadline.",
     "On 18 November the 24 November water-cycle conference page on ccdr-alg.pt still showed no registration link. IPMA's feed shows only the yellow sea warning (18 November 12:00 to 20 November 09:00); all other warning types are green through 21 November 03:00. Seen only as headlines: an Olhão teacher's Erasmus+ AI course (Postal, 17 November) and a naval-school exercise on the Guadiana through Mértola, Alcoutim and Vila Real de Santo António (Barlavento).",
-    "The CCDR Algarve front page also mentions a third Algarve 2030 water-cycle conference with Público on technology and AI in water management, with no date given."
+    "The CCDR Algarve front page also mentions a third Algarve 2030 water-cycle conference with Público on technology and AI in water management, with no date given.",
+    "Correction of 18 November: the Castro Marim dementia congress of 12 and 13 November, with an AI session, is real; the council's own page of 17 November confirms it (see the Castro Marim file). Earlier gaps that said it was unconfirmed were wrong because the council page was not yet readable."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
@@ -981,6 +981,42 @@
       "ai_path": "Smart meters and telemetry produce consumption and flow data, analytics find leaks and balance water, the 24 November conference adds AI on top; the AMAL page itself does not mention AI.",
       "steps": 3,
       "blast_radius": "every Algarve council's water utility"
+    },
+    {
+      "title": "Olhão teacher returns from a Prague Erasmus+ course on AI in education with chatbots and draft school rules",
+      "summary": "An Erasmus+ course, 'Advanced Artificial Intelligence for Education', 2 to 6 November: AI agents, prompting, AI-content detectors and image, audio and video tools; participants drafted rules for AI use in schools, and the teacher built educational chatbots and started a prototype student app. Postal, Europe Direct Algarve section.",
+      "date": "2026-11-17",
+      "publisher": "Postal",
+      "url": "https://postal.pt/europedirectalgarve/professora-de-olhao-aposta-na-inteligencia-artificial-etica-e-criativa-apos-formacao-em-praga/",
+      "read_on": "2026-11-18",
+      "significance": "neighbours and region",
+      "ai_path": "Erasmus+ training course, a teacher, classroom chatbots and a student app, draft school rules for AI use.",
+      "steps": 3,
+      "blast_radius": "Olhão is next to Tavira and Faro"
+    },
+    {
+      "title": "NaturMaris wins the sea-economy category of INOVA ALGARVE + DIVERSIFICAR at NERA in Loulé",
+      "summary": "A project turning marine by-products into natural pet supplements won 2,500 euros on 13 November; the contest is run by NERA with Algarve Evolution, CCDR Algarve, the tourism board and the University of Algarve, as part of INOVA ALGARVE 3.0 co-financed by Algarve 2030. Companies from the Ria Formosa (Naturafish, MSP, Necton, Sparos and the shellfish nursery cooperative) took part in the sessions.",
+      "date": "2026-11-16",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/naturmaris-suplementos-animais-premio-loule-nera-inova-algarve/",
+      "read_on": "2026-11-18",
+      "significance": "region",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "the Ria Formosa from Faro to Tavira"
+    },
+    {
+      "title": "The Escola Naval's RIO26 exercise runs on the Guadiana from 16 to 20 November",
+      "summary": "76 cadets and 45 military personnel; a river descent in rescue boats from Mértola to Alcoutim and a mass-rescue simulation near Vila Real de Santo António.",
+      "date": "2026-11-17",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/escola-naval-leva-76-cadetes-ao-guadiana-para-exercicio-de-cinco-dias/",
+      "read_on": "2026-11-18",
+      "significance": "neighbours",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "Mértola, Alcoutim, Vila Real de Santo António"
     }
   ],
   "contacts": [

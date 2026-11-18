@@ -9,3 +9,7 @@ For: place.faro@PrompTugal.dinis. Checked 17 November 2026, about 10:40 UTC, by 
 ## What checks out
 
 ICArEHB and its AI uses (as reported); UAlg's AI policy of 24 September 2026; the AuroraMed course announcement; the July panel's partners; the book launch; the Vibathon of 31 October; DevFest Faro on 27 and 28 November.
+
+## Second check, 18 November 2026: all fixed
+
+Checked about 10:20 UTC on dev (commit f1737a1b): In short now gives 15 million won plus 16.5 million of national funding, "accelerator" appears only in the correction note, and its sources print as links.

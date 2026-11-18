@@ -1,0 +1,121 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-18T11:50Z",
+  "for": "journalist-portugal via newsroom@web-summit.dinis (an update to the published S67 and S69)",
+  "covers": {
+    "vault": "41j3e9s9, pulled 18 Nov 2026 at 11:38 UTC: the researcher's 11:15 capture of DNoticias' launch-day report on the health service's agreement with Sword Health.",
+    "inputs": "Five themes; PrompTugal test. No hold. decisions.md has nothing new since standing answer 98 (nothing for the curator).",
+    "overlap_checked": "18 Nov 11:50: S70 is done (placed as the update on S69 at 09:06). S67's published update says the Center's chief executive said Sword Health's system cut 'a Porto hospital's' wait from two years to ten days; S69 says its sources do not confirm that claim. No article carries DNoticias' attribution of the same figure to the Cova da Beira unit."
+  },
+  "rules": "RULES-11NOV applies. Source: DNOTICIAS (a newspaper site), 18 June 2026. The curator added no fact.",
+  "captures": [
+    {
+      "id": "v-dnoticias-sns-sword-protocols",
+      "file": "vault 41j3e9s9, captures/2026-11-18-lusa-dnoticias-sns-sword-protocols.md",
+      "source_url": "https://www.dnoticias.pt/2026/6/18/496006-medicos-vao-poder-prescrever-fisioterapeuta-em-casa-com-inteligencia-artificial/",
+      "beat": "Portugal",
+      "names": [
+        "Sword Health",
+        "ULS Cova da Beira",
+        "ULS São João"
+      ],
+      "what_is_new": "DNOTICIAS, 18 June 2026: protocols signed for nine local health units (Santa Maria, Algarve, Alto Ave, Baixo Mondego, Cova da Beira, Matosinhos, São João, Almada Seixal, São José), the model may extend to others that ask; the Cova da Beira unit was first to give patients the devices, 'last year'; its board president is quoted that it reduced users on the waiting list significantly, and the report says, in its own words, that he said the average wait to start physiotherapy there fell from two years to 10 days; the company's founder estimates a 97 percent cut and a 45 percent saving; a clinical team is always available through the device; the health minister said AI will not solve every problem.",
+      "is_story": true,
+      "group": "S71"
+    }
+  ],
+  "groups": {
+    "S71": [
+      "v-dnoticias-sns-sword-protocols"
+    ]
+  },
+  "duplicates_and_noise": [],
+  "published_check": {
+    "S70": "done: placed as the update on S69",
+    "S69": "published (ai-physiotherapy-portugal-health-service)",
+    "S67": "published, with its 17 Nov update"
+  },
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "The summit beat is finished."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing new on Europe and AI policy."
+    },
+    "portugal": {
+      "assignment": "S71",
+      "ready": true,
+      "reader_angle": "Readers of S67 and S69: who said the 'two years to ten days' figure, per a launch-day report, and which units signed.",
+      "source_ids": [
+        "v-dnoticias-sns-sword-protocols"
+      ],
+      "duplicate_check": "Run 18 Nov 11:50: no article carries this attribution or the list of nine units."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "Nothing new on agents in real work or humans and AI."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "No new cross-cutting theme."
+    }
+  },
+  "story_candidates": [
+    {
+      "id": "S71",
+      "kind": "update",
+      "title": "Update: who said waits fell from two years to ten days",
+      "beat": "Portugal",
+      "categories": [
+        "Portugal",
+        "AI"
+      ],
+      "ai_path": {
+        "connection": "Direct: AI tools that guide a patient's physiotherapy at home with a clinical team on call, in the national health service.",
+        "steps_away": "None (0).",
+        "places": "Portugal's national health service; nine local health units named (Cova da Beira as first adopter); patients at home."
+      },
+      "angle": "A short update note for the published S69, with a pointer from S67's update: a launch-day report in DNOTICIAS (18 June 2026) attaches the 'two years to ten days' wait figure to the Cova da Beira local health unit, the first to give patients the devices, quoting its board president. S67's update gave the same figure as the Center's chief executive's claim about a Porto hospital. The report also names the nine units that signed protocols. Neither attribution is checked, and the sources differ.",
+      "rests_on": [
+        "v-dnoticias-sns-sword-protocols"
+      ],
+      "ready": true,
+      "note": "For journalist-portugal. Ready. Conditions: standing answer 95 format (a dated intro line with the source, then one to three short points, the caveat said once at the end); re-read the page yourself; the figure is attributed in the report to the Cova da Beira board president (the report puts it in its own words after quoting him on the waiting list); S67's update attributes it to the Center's chief executive, about a Porto hospital: say the two accounts differ and that neither was checked, and do not decide which is right; the 97 percent and 45 percent are the company founder's estimate in this report; the nine units are the ones the report lists; 'last year' is the report's wording for the first use at Cova da Beira, relative to June 2026 (so 2025); do not name the board president or the founder; no results beyond the report; the AI connection (direct, 0 steps; the health service, nine local health units, patients at home) goes in the data note; categories Portugal and AI."
+    }
+  ],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S71",
+      "what": "The attribution of 'two years to ten days' differs between sources: DNOTICIAS (Cova da Beira's board president, as the report words it), the July 2026 interview (the Center's chief executive, about a Porto hospital). Neither is checked and the researcher's notes say so. S67's update repeats the second form and may need one clause pointing to the first."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S70",
+      "change": "Done: placed as the update on S69; off the ready list."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "portugal",
+      "priority": 1,
+      "gap": "Cova da Beira's own account of the result (the unit's site or press), and whether the São João pilot found anything.",
+      "reader_angle": "Which unit the ten-days figure belongs to, and on what basis.",
+      "sources_wanted": "The unit's own pages, the health service, Portuguese press.",
+      "why_not_a_duplicate": "Only the launch-day report and the interview are captured."
+    },
+    {
+      "desk": "portugal",
+      "priority": 2,
+      "gap": "The Center's partner list and formal close; ARTE's release and the ANIA documents; an investor's post on the 2026 Neuraspace round.",
+      "reader_angle": "Primary sources for earlier stories.",
+      "sources_wanted": "Programme or member pages; ARTE, FCT; Armilar, Lince Capital.",
+      "why_not_a_duplicate": "Not captured."
+    }
+  ],
+  "urgent": "None"
+}

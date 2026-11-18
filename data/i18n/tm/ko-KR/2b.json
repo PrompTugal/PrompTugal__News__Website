@@ -1,0 +1,42 @@
+{
+ "2b08c105c78338e0": {
+  "t": "Porto의 AI 활동은 Universidade do Porto의 과학 단지 UPTEC를 중심으로 모여 있습니다. 2025년 보고서는 이곳에서 보건, 산업, 외식 분야의 AI 스타트업을 최소 다섯 곳 확인했고, 포르투갈과 유럽의 슈퍼컴퓨팅 프로그램(BSC AI Factory)은 2026년 10월 이곳에서 AI 인큐베이션 라운드를 시작했으며, Granter는 11월에 160만 유로를 유치했습니다. 주변에는 Porto의 벤처 펀드(33N), 경영대학원(Porto Business School), 마케팅 AI 커뮤니티(AIhub), 그리고 블랙박스 금지 원칙 아래 교통과 흐름 예측용 AI를 설명하고 2026년 11월 Barcelona의 Smart City Expo에 AI 강연 두 건을 가져간 도시의 디지털 기관 Porto Digital이 있습니다. Global Startup Ecosystem Report 2026은 AI를 네 가지 성장 동력의 하나로 꼽습니다. 더 넓은 대학과 연구 기반에는 FEUP 연구실 LIACC, 연구소 INESC TEC(2026년 10월 Porto에서 AI, Data and Robotics Forum 개최), Fraunhofer Portugal AICOS가 더해집니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Porto's AI activity clusters around UPTEC, the science park ",
+  "ok": false
+ },
+ "2b512e47e2ed717b": {
+  "t": "Coimbra, 스마트 관광지를 위한 AI 국제 세션 개최",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Coimbra hosts an international session on AI for smart touri",
+  "ok": false
+ },
+ "2b7b9ad9a81e640c": {
+  "t": "Santarém의 기술 이야기는 농식품입니다. 시청과 Universidade Politécnica de Santarém은 ISLA Santarém, INIAV, CNEMA 박람회장과 함께 물, 농업, 생명과학을 다루는 과학기술 단지 Campus Tejo를 조성하고 있으며, 이는 2026년 11월 12일 Web Summit Lisbon에서 소개되었습니다. 우리가 읽은 페이지들은 Campus Tejo가 AI를 쓴다고 밝히지 않아, AI와의 연결은 정밀 농업과 디지털화를 통한 짧은 추론에 그칩니다. 직접적인 AI 활동은 더 작고 흩어져 있습니다. ISLA Santarém의 10만 유로 PRR 지원 AI 프로젝트, CNEMA의 비즈니스와 보건 세션, 블루베리 재배자 모임의 농업 AI 프로그램입니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Santarém's technology story is agri-food. The council and th",
+  "ok": false
+ },
+ "2b849e5e92cfc33b": {
+  "t": "Guarda, ó pá: 서버도 얼릴 만큼 춥고, 화강암처럼 고집스러우며, 조용히 기계를 가르치는 폴리테크닉이 있고, 건축가들보다 먼저 몇몇 학생에게 PDM 읽는 법을 가르친 곳.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Guarda, ó pá: cold enough to freeze a server, stubborn as gr",
+  "ok": false
+ },
+ "2bfcc1a9bf2f5a48": {
+  "t": "학생과 직원은 FCT의 IAedu 서비스를 통해 대규모 언어 모델 세 가지의 프로 버전을 무료로 이용할 수 있으며, 기관은 이를 책임 있고 협력적인 AI 사용을 향한 한 걸음이라고 부릅니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Its students and staff get free access to the pro versions o",
+  "ok": false
+ }
+}
