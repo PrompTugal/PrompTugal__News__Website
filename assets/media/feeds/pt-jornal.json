@@ -1,0 +1,32 @@
+{
+ "id": "pt-jornal",
+ "feed": "https://ptjornal.com/feed/",
+ "read_at": "2026-11-18T15:15Z",
+ "items": [
+  {
+   "title": "Lisboa arrefece mercado residencial: valorização anual abranda para 6,2% e vendas recuam 12,9%",
+   "link": "https://ptjornal.com/lisboa-arrefece-mercado-residencial-valorizacao-anual-abranda-para-62-e-vendas-recuam-129-549590",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "18 de novembro, dia da Lotaria Nacional",
+   "link": "https://ptjornal.com/18-de-novembro-a-selecao-portuguesa-de-futebol-estreia-se-oficialmente-12368",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Portugal cai para 39.º no ranking digital e de Inteligência Artificial",
+   "link": "https://ptjornal.com/portugal-cai-para-39-o-no-ranking-digital-e-de-inteligencia-artificial-549586",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Após 20 anos, estudo nacional vai atualizar os dados sobre a prevalência da DPOC",
+   "link": "https://ptjornal.com/apos-20-anos-estudo-nacional-vai-atualizar-os-dados-sobre-a-prevalencia-da-dpoc-549584",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "A sustentabilidade pode ser o próximo motor de crescimento das PME do Norte",
+   "link": "https://ptjornal.com/a-sustentabilidade-pode-ser-o-proximo-motor-de-crescimento-das-pme-do-norte-549581",
+   "date": "2026-11-17"
+  }
+ ]
+}

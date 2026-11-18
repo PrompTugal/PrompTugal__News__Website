@@ -16,12 +16,13 @@
   "ok": false
  },
  "a8ba089e242e6644": {
-  "t": "PrompTugal.news Setúbal, a cidade do Sado: IA e tecnologia a Setúbal, con il porto, il Politécnico e le cartiere di Mitrena come grandi protagonisti, più le notizie che arrivano navigando dal Portogallo, dall'Europa e dal mondo. Independente, e ogni fatto ha la sua ricevuta.",
+  "t": "PrompTugal.news Setúbal, a cidade do Sado: IA e tecnologia a Setúbal, con il porto, il Politécnico e gli stabilimenti di cellulosa di Mitrena come grandi protagonisti, più le notizie che arrivano navigando dal Portogallo, dall'Europa e dal mondo. Independente, e ogni fatto ha la sua ricevuta.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "PrompTugal.news Setúbal, a cidade do Sado: AI and tech in Se",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  },
  "a8dcd1153a708a4e": {
   "t": "L'attività di IA di Bragança ruota attorno a due vicini: il politecnico (l'IPB, che il suo nuovo sito chiama ora Universidade Politécnica de Bragança e che il governo sta trasformando nella Universidade de Bragança e do Norte Interior) e il Brigantia EcoPark, il polo scientifico e tecnologico che ospita il laboratorio di ricerca MORE CoLAB. Il centro di ricerca CeDRI, i corsi e i seminari di IA e la sessione di aprile 2026 sulla BSC AI Factory vengono tutti da questa coppia, con il comune come sostenitore. La pagina di notizie del comune non mostra voci sull'IA, quindi il centro di gravità sono la ricerca e il parco, non il municipio.",

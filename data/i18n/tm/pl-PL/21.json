@@ -16,11 +16,12 @@
   "ok": false
  },
  "21fba0404aa5b8be": {
-  "t": "Konferencję prezentującą proponowany zintegrowany system zapobiegania trzęsieniom ziemi i reagowania na nie (SIPRS) przełożono z 23-24 października na 27 listopada, 9:00-17:00, w Hotel Alisios w Albufeira. Proponowany system obejmuje algorytmy AI do wykrywania sejsmicznego obok sieci sejsmicznych i inteligentnych kabli podmorskich. Organizator, urbanista, nazywa to przedsięwzięciem non-profit; zaproszenia do około 15 organów i do krajowych specjalistów od AI w terytorium nie są potwierdzonymi uczestnikami.",
+  "t": "Konferencję prezentującą proponowany zintegrowany system zapobiegania trzęsieniom ziemi i reagowania na nie (SIPRS) przełożono z 23-24 października na 27 listopada, 9:00-17:00, w hotelu Alisios w Albufeira. Proponowany system obejmuje algorytmy AI do wykrywania wstrząsów sejsmicznych obok sieci sejsmicznych i inteligentnych kabli podmorskich. Organizator, urbanista, nazywa to przedsięwzięciem non-profit; zaproszenia do około 15 podmiotów i do krajowych specjalistów od AI w zarządzaniu terytorium nie oznaczają potwierdzonych uczestników.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-17",
   "src": "The conference presenting a proposed integrated earthquake p",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  }
 }

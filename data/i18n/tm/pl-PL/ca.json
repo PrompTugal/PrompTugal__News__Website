@@ -1,11 +1,12 @@
 {
  "ca129ac5a7c65d66": {
-  "t": "Poranny wykład 6 listopada 2026 roku w miejskiej bibliotece publicznej, w ramach pierwszego Festival Literário de Azeitão e Setúbal, wysłuchał pisarza mówiącego, że AI pomaga w zadaniach faktograficznych, ale potrafi zmyślać informacje, a używanie jej do tworzenia tekstu odbiera pisaniu sens. Moderowała szefowa miejskich usług bibliotecznych.",
+  "t": "Poranny wykład 6 listopada 2026 roku w miejskiej bibliotece publicznej, w ramach pierwszego Festival Literário de Azeitão e Setúbal, wysłuchał pisarza mówiącego, że AI pomaga w zadaniach faktograficznych, ale potrafi zmyślać informacje, a używanie jej do tworzenia tekstu odbiera pisaniu sens. Spotkanie moderowała osoba kierująca miejskimi usługami bibliotecznymi.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-17",
   "src": "A morning talk on 6 November 2026 at the municipal public li",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  },
  "ca3b22542ba1ebc7": {
   "t": "Kierunek International Business Management szkoły biznesu zorganizował cykl IBM Seminars 2026 z sesjami o AI w całym procesie badawczym (8 maja) i o przekształcaniu danych rynkowych w strategię dzięki analizie wspomaganej AI (20 maja), w sali 106 kampusu Santa Apolónia.",

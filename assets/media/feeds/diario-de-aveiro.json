@@ -1,8 +1,13 @@
 {
  "id": "diario-de-aveiro",
  "feed": "https://www.diarioaveiro.pt/feed/",
- "read_at": "2026-11-18T15:05Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
+  {
+   "title": "“O mercado ibérico é mais forte se tivermos um Portugal e Espanha mais forte”",
+   "link": "https://www.diarioaveiro.pt/2026/11/18/o-mercado-iberico-e-mais-forte-se-tivermos-um-portugal-e-espanha-mais-forte/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=o-mercado-iberico-e-mais-forte-se-tivermos-um-portugal-e-espanha-mais-forte",
+   "date": "2026-11-18"
+  },
   {
    "title": "GNR sinaliza quase 43 mil idosos em situação de vulnerabilidade",
    "link": "https://www.diarioaveiro.pt/2026/11/18/gnr-sinaliza-quase-43-mil-idosos-em-situacao-de-vulnerabilidade/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gnr-sinaliza-quase-43-mil-idosos-em-situacao-de-vulnerabilidade",
@@ -21,11 +26,6 @@
   {
    "title": "Feira com 1 ME para Perlim ter 18 shows, 400 drones, 2 mercados, circo e gelo",
    "link": "https://www.diarioaveiro.pt/2026/11/18/feira-com-1-me-para-perlim-ter-18-shows-400-drones-2-mercados-circo-e-gelo/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=feira-com-1-me-para-perlim-ter-18-shows-400-drones-2-mercados-circo-e-gelo",
-   "date": "2026-11-18"
-  },
-  {
-   "title": "Morreu Maria Inês Amorim, historiadora ligada a Aveiro",
-   "link": "https://www.diarioaveiro.pt/2026/11/18/morreu-maria-ines-amorim-historiadora-ligada-a-aveiro/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=morreu-maria-ines-amorim-historiadora-ligada-a-aveiro",
    "date": "2026-11-18"
   }
  ]
