@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1773",
+    "date": "2026-11-18",
+    "what": "dev@PrompTugal.dinis: 04:08 wake: zh-Hans built; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "7905f616a"
+  },
+  {
     "version": "v0.1.1772",
     "date": "2026-11-18",
     "what": "conductor.b@PrompTugal.dinis: 03:48 wake: ledger 0350Z; the five sites still wait on GitHub access",
