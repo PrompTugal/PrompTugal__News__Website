@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1818",
+    "date": "2026-11-18",
+    "what": "dev@PrompTugal.dinis: Now in <town> refreshed live from data.promptugal.news, the built lines as fallback",
+    "by": "dev@PrompTugal.dinis",
+    "from": "2589626c5"
+  },
+  {
     "version": "v0.1.1817",
     "date": "2026-11-18",
     "what": "conductor.b@PrompTugal.dinis: IPMA freshness diagnosed, Google APIs page and the live site recorded",
