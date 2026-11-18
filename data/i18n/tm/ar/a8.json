@@ -1,0 +1,34 @@
+{
+ "a8341588a894764c": {
+  "t": "قرار لمجلس الوزراء يضيف 1.8 مليون يورو من خطة التعافي، ليصل كلفة المشروع إلى 7.3 مليون يورو، ويهدف إلى نقل AMALIA من النموذج الأولي إلى خدمات المواطنين. وتشمل خطة التدريب أدوات الوكلاء والصورة والكلام، وستسعى الحكومة إلى محادثات مع شركات الإعلام للوصول إلى الأرشيف. ويشير المقال إلى أن نقابة الصحفيين اعترضت على استخدام بيانات Arquivo.pt في المرحلة الأولى. هذه نوايا معلنة لا منجزات.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A Council of Ministers resolution adds 1.8 million euros fro",
+  "ok": false
+ },
+ "a84694d202347526": {
+  "t": "رئيس Inetum يقول إن الذكاء الاصطناعي يقلّص فرق المشاريع، ومنها في شبكة مراكز الخدمة في Bragança",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Inetum's chief says AI is shrinking project teams, including",
+  "ok": false
+ },
+ "a8ba089e242e6644": {
+  "t": "PrompTugal.news Setúbal، a cidade do Sado: الذكاء الاصطناعي والتقنية في Setúbal، مع الميناء وPolitécnico ومصانع اللب في Mitrena كأبرز الشخصيات، إضافة إلى كل ما يبحر من البرتغال وأوروبا والعالم. Independente، وكل معلومة تأتي مع إيصالها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Setúbal, a cidade do Sado: AI and tech in Se",
+  "ok": false
+ },
+ "a8dcd1153a708a4e": {
+  "t": "نشاط الذكاء الاصطناعي في Bragança يدور حول جارين: البوليتكنيك (IPB، الذي يسميه موقعه الجديد الآن Universidade Politécnica de Bragança، والذي تحوّله الحكومة إلى Universidade de Bragança e do Norte Interior) وBrigantia EcoPark، مركز العلوم والتقنية الذي يضم مختبر MORE CoLAB البحثي. ومركز البحث CeDRI ودورات الذكاء الاصطناعي وحلقاته وجلسة أبريل 2026 عن BSC AI Factory كلها تأتي من ذلك الثنائي، والبلدية داعمة. وصفحة أخبار البلدية نفسها لا تُظهر أي بند عن الذكاء الاصطناعي، فالبحث والحديقة، لا مبنى البلدية، هما مركز الثقل.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Bragança's AI activity sits around two neighbours: the polyt",
+  "ok": false
+ }
+}

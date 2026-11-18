@@ -1,0 +1,42 @@
+{
+ "f51424f7700d624a": {
+  "t": "قدّم مشروع Erasmus+ AI4YouthWork خريطة لـ 24 أداة ذكاء اصطناعي للعمل مع الشباب، وحقيبة أدوات من 16 خطة ورشة لمحو أمية الذكاء الاصطناعي وإطار كفاءات للذكاء الاصطناعي، أُطلقت في Faro. والمقال مؤرخ في 16 فبراير 2026 ويضع الإطلاق في Faro في نوفمبر (ولا تذكر السنة في النص).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Erasmus+ AI4YouthWork project presented a map of 24 AI t",
+  "ok": false
+ },
+ "f56ffc6c84b1b996": {
+  "t": "PrompTugal.news Vila do Bispo: الذكاء الاصطناعي والتقنية في Vila do Bispo، من Sagres وCape St Vincent إلى البحر والريح، وما يصل إلى Vila do Bispo من Algarve والبرتغال والعالم. مستقل؛ وكل معلومة موثقة بمصدرها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Vila do Bispo: AI and technology in Vila do ",
+  "ok": false
+ },
+ "f58f83a9413ce2b4": {
+  "t": "مشروع AI4YouthWork يطلق موارد ذكاء اصطناعي مجانية للعاملين مع الشباب في Faro",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AI4YouthWork project launches free AI resources for youth wo",
+  "ok": false
+ },
+ "f5c4b6076c6b6263": {
+  "t": "كل قصة هنا تجتاز **اختبار PrompTugal**: فهي عن الذكاء الاصطناعي، مباشرة أو بعد خطوتين أو ثلاث، والمسار مكتوب معها. المكان يحدد أين تظهر القصة وبأي حجم؛ والذكاء الاصطناعي يحدد ما إذا كانت قصتنا أصلاً. وكل معلومة تربط بمصدرها مع تاريخ قراءتها. لا شيء يأتي من موقع Web Summit. ولا تُعرض جهات الاتصال إلا حين تنشرها جهة عامة أو مؤسسة على موقعها، مع رابط إلى تلك الصفحة وتاريخ القراءة؛ ولا تُعرض أبداً لشخص خاص. هذه الصفحة عدسة واحدة على [الرسم البياني المشترك للمنشور]({graph}); و[PrompTugal.news حسب المكان]({region}) تشرح المستويات.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Every story here passes **the PrompTugal test**: it is about",
+  "ok": false
+ },
+ "f5cb47601a008050": {
+  "t": "Ainda há muito por saber، pá. هذا ما لم تخبرنا به Guarda بعد:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda há muito por saber, pá. Here is what Guarda has not to",
+  "ok": false
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "ca129ac5a7c65d66": {
+  "t": "في حديث صباحي يوم 6 نوفمبر 2026 في المكتبة العامة البلدية، ضمن أول Festival Literário de Azeitão e Setúbal، سمع الحضور كاتباً يقول إن الذكاء الاصطناعي يساعد في المهام الواقعية لكنه قد يختلق معلومات، وإن استخدامه لإنشاء نص يزيل غاية الكتابة. وأدار الحديث رئيس خدمات المكتبات في المدينة.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A morning talk on 6 November 2026 at the municipal public li",
+  "ok": false
+ },
+ "ca3b22542ba1ebc7": {
+  "t": "نظّمت شهادة إدارة الأعمال الدولية في كلية الأعمال دورة IBM Seminars 2026 بجلسات عن الذكاء الاصطناعي عبر عملية البحث (8 مايو) وعن تحويل بيانات السوق إلى استراتيجية بتحليل بمساعدة الذكاء الاصطناعي (20 مايو)، في القاعة 106 بحرم Santa Apolónia.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The business school's International Business Management degr",
+  "ok": false
+ },
+ "cab5e5c75e6df999": {
+  "t": "طالب في Beja يعلّم نموذج ذكاء اصطناعي التنبؤ بجودة الهواء لبلدية Lagoa في Algarve",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A Beja student teaches an AI model to forecast air quality f",
+  "ok": false
+ },
+ "cad83a22b662fb5f": {
+  "t": "Beja تستضيف يومين عن الذكاء الاصطناعي في المهن الصحية",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Beja hosts two days on AI in the health professions",
+  "ok": false
+ },
+ "caf7fe643a08ef5f": {
+  "t": "Coalex.ai تجمع جولة من المستثمرين الملائكة للإشراف على وكلاء الذكاء الاصطناعي",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Coalex.ai raises an angel round to supervise AI agents",
+  "ok": false
+ }
+}

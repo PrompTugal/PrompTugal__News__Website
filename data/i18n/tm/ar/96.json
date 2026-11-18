@@ -1,0 +1,18 @@
+{
+ "96b646265713332b": {
+  "t": "Portimão تستخدم الذكاء الاصطناعي لفحص وثائق تراخيص البناء",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portimão uses AI to check building-permit documents",
+  "ok": false
+ },
+ "96bbec2b19a93006": {
+  "t": "مشغّل النفايات في Algarve، ALGAR، بنى الأداة مع الشركة الناشئة NILG.AI، وهي تزن عوامل مثل الكثافة السكانية وسهولة الوصول. ويعمل المشروع التجريبي في Lagoa ضمن برنامج لـ Sociedade Ponto Verde. وتفيد ALGAR بالعثور على 14 موقعاً مرشحاً في أربع ساعات، وانخفاض زمن القرار من 12 يوماً إلى 2.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Algarve waste operator ALGAR built the tool with the sta",
+  "ok": false
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "8910bd341cbf7e23": {
+  "t": "مركز ثقل Leiria مثلث كثيف من حاضنة وبوليتكنيك واقتصاد مصانع. تقول Startup Leiria إن في مجتمعها نحو 220 شركة وإنها تضيف قرابة 2,000 متر مربع لمختبر للذكاء الاصطناعي المادي. أما Politécnico de Leiria، الذي سيصبح Universidade de Leiria e Oeste، فلديه سياسته الخاصة للذكاء الاصطناعي سارية منذ 1 سبتمبر 2026 وأول شركة منبثقة عنه في الذكاء الاصطناعي. وشركات محلية مثل Brainr (ذكاء اصطناعي لمصانع الأغذية) وTekever (مركز هندسة الطائرات المسيّرة) تربط الذكاء الاصطناعي بصناعة المنطقة من القوالب والبلاستيك والزجاج والخزف. وتعمل البلدية زبوناً أول للشركات الناشئة في الذكاء الاصطناعي، ولم نجد استراتيجية بلدية أوسع للذكاء الاصطناعي.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Leiria's centre of gravity is a dense triangle of an incubat",
+  "ok": false
+ },
+ "892ab15502c274f4": {
+  "t": "شركة الطائرات المسيّرة من Lisbon، Beyond Vision، تجمع أكثر من 28 مليون يورو لتسريع تقنيات الذكاء الاصطناعي والأسراب",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Lisbon drone maker Beyond Vision raises over 28 million euro",
+  "ok": false
+ },
+ "898f0bfe208f08c4": {
+  "t": "بوليتكنيك Portalegre وFulbright يتفقان على جائزة لعلوم الحاسوب لثلاث سنوات",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portalegre's polytechnic and Fulbright agree a three-year Co",
+  "ok": false
+ },
+ "89c91e34617c7ae5": {
+  "t": "بلدية Loulé تحمل تجربة غامرة بالذكاء الاصطناعي إلى معرض BTL السياحي",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Loulé's council takes an AI immersive experience to the BTL ",
+  "ok": false
+ },
+ "89c9da5778a63051": {
+  "t": "شبكة CAIRNE الأوروبية لأبحاث الذكاء الاصطناعي تفتتح مركزها البرتغالي في Guimarães",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "European AI research network CAIRNE opens its Portuguese hub",
+  "ok": false
+ }
+}
