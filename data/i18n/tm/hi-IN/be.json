@@ -1,0 +1,18 @@
+{
+ "be5099c1271641c4": {
+  "t": "यूरोप के अटलांटिक किनारे पर बसा एक देश जिसने अपना खुद का भाषा मॉडल लिखा, और चाहता है कि आप उसे आजमाएं।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A country on the Atlantic edge of Europe that wrote itself a",
+  "ok": false
+ },
+ "be99630c0197edb6": {
+  "t": "पर्यटन SME के लिए Algarve की पायलट AI और रोबोटिक्स योजना के आवेदन खुले",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Applications opened for the Algarve's pilot AI and robotics ",
+  "ok": false
+ }
+}

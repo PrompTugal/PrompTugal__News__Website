@@ -1,0 +1,26 @@
+{
+ "99a71106aa482450": {
+  "t": "Aljezur, Algarve का अटलांटिक किनारा है: चार freguesia वाली एक बड़ी, कम आबादी की नगरपालिका (लगभग 323 वर्ग किलोमीटर और 2011 की जनगणना में 5,884 निवासी), जो Southwest Alentejo और Vicentine Coast प्राकृतिक पार्क के भीतर है। इसकी पहचान प्रकृति, Arrifana जैसे समुद्र तटों पर सर्फिंग, और ऐसी नगर परिषद है जो प्रकृति पर्यटन को स्थानीय अर्थव्यवस्था का रणनीतिक चालक कहती है। ऊर्जा दूसरा स्तंभ है: EDP 24 MW का Bordeira विंड फार्म चलाती है और 2025 में उसके बगल में 15.3 MW का सोलर प्लांट जोड़ा। यह AI हब नहीं है: हमें जो मिला वह ऑनलाइन सेवाओं और जियो पोर्टल वाली नगर परिषद, बुजुर्ग निवासियों के लिए एक freguesia टेलीअसिस्टेंस पायलट, और पर्यटन कंपनियों के लिए क्षेत्रीय AI कार्यक्रम हैं जिनमें Aljezur के व्यवसाय शामिल हो सकते हैं।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Aljezur is the Algarve's Atlantic edge: a large, thinly popu",
+  "ok": false
+ },
+ "99c102dd36cca038": {
+  "t": "Rádio Portalegre पॉलिटेक्निक की लगभग 200,000 यूरो की, FEDER-वित्तपोषित परियोजना की खबर देता है, जो AI मॉडल को ऐसे सेंसरों में डालती है जो डेटा को मौके पर प्रोसेस कर सकते हैं, और सत्यापन के लिए पायलट खेत हैं। इसमें शामिल क्षेत्र इंजीनियरिंग, डेटा साइंस, कृषि विज्ञान और सूचना प्रणाली बताए गए हैं और समाप्ति अगस्त 2028।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Rádio Portalegre reports the polytechnic's roughly 200,000 e",
+  "ok": false
+ },
+ "99ea56e3b843dfcf": {
+  "t": "Equipa UAlg 81 निःशुल्क वार्ताओं के साथ स्कूलों में लौटी, जिनमें AI और साइबर सुरक्षा शामिल हैं",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Equipa UAlg returns to schools with 81 free talks, AI and cy",
+  "ok": false
+ }
+}
