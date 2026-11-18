@@ -1,8 +1,18 @@
 {
  "id": "diario-de-noticias-madeira",
  "feed": "https://www.dnoticias.pt/rss.xml",
- "read_at": "2026-11-18T15:05Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
+  {
+   "title": "DRAS promove acção de sensibilização dedicada à saúde masculina",
+   "link": "http://www.dnoticias.pt/2026/11/18/513394-dras-promove-accao-de-sensibilizacao-dedicada-a-saude-masculina/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Miguel Abibe prepara última prova do ano com os olhos postos no Mr. Olympia",
+   "link": "http://www.dnoticias.pt/2026/11/18/513393-miguel-abibe-prepara-ultima-prova-do-ano-com-os-olhos-postos-no-mr-olympia/",
+   "date": "2026-11-18"
+  },
   {
    "title": "IFCN reabre 24 percursos pedestres",
    "link": "http://www.dnoticias.pt/2026/11/18/513392-ifcn-reabre-24-percursos-pedestres/",
@@ -16,16 +26,6 @@
   {
    "title": "ADN questiona repetição das adjudicações das refeições escolares",
    "link": "http://www.dnoticias.pt/2026/11/18/513387-adn-questiona-repeticao-das-adjudicacoes-das-refeicoes-escolares/",
-   "date": "2026-11-18"
-  },
-  {
-   "title": "'Merlin' assegura transporte urgente de dois doentes",
-   "link": "http://www.dnoticias.pt/2026/11/18/513388-merlin-assegura-transporte-urgente-de-dois-doentes/",
-   "date": "2026-11-18"
-  },
-  {
-   "title": "ERC actua junto da Meta sobre limitações aos media",
-   "link": "http://www.dnoticias.pt/2026/11/18/513386-erc-actua-junto-da-meta-sobre-limitacoes-aos-media/",
    "date": "2026-11-18"
   }
  ]

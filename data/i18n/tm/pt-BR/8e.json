@@ -1,11 +1,12 @@
 {
  "8e0758eec1466fc9": {
-  "t": "Em junho de 2026, o instituto de Coimbra começou a operar a aceleradora nacional dentro da rede de inovação em defesa da OTAN. A inteligência artificial é a primeira área prioritária listada, e duas startups incubadas no IPN, uma delas a empresa de IA Neuraspace, tinham acabado de ser escolhidas nacionalmente.",
+  "t": "Em junho de 2026, o instituto de Coimbra começou a operar a aceleradora nacional dentro da rede de inovação em defesa da Otan. A inteligência artificial é a primeira área prioritária listada, e duas startups incubadas no IPN, uma delas a empresa de IA Neuraspace, tinham acabado de ser escolhidas nacionalmente.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "In June 2026 the Coimbra institute began operating the natio",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  },
  "8e11d3d8c11ed4de": {
   "t": "Uma conferência de um dia no salão principal da câmara municipal, em 15 de junho de 2026, tratou do novo decreto do urbanismo e do efeito da IA e da tomada de decisão automática nos processos urbanos, com um palestrante da Universidade do Porto sobre IA na gestão do território.",

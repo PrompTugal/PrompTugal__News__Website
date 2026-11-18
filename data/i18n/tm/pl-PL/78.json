@@ -13,7 +13,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-17",
   "src": "Starting a company in {name}",
-  "ok": false
+  "ok": true
  },
  "78dc9cc4a08684d2": {
   "t": "Startupy na wczesnym etapie, budujące AI lub intensywnie jej używające, mogły aplikować o inkubację od kwietnia do września 2026 roku, z techniczną pomocą AI i mentoringiem. Portugalia uczestniczy przez FCT i Narodowe Centrum Zaawansowanych Obliczeń.",
