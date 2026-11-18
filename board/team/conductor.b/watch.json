@@ -743,12 +743,12 @@
     {
       "at": "2026-11-17T14:51Z",
       "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 19: live v0.1.1727. The old conductor@ (account A) put a green 'Support us \u00a35' button at the top of every page to the top-up, at Dinis's word. journalist@ corrected BR1 and BR6 (checker@), brought west's afternoon pass (Monchique, Lagos, Silves) and districts; correspondent@ one article in the newsroom beat; ontologist@ Postal do Algarve and A Voz do Algarve from local@'s readings, no people; designer.places@ outlet page facts band; dev@ the pairing page live as a dry run (security@ passed). Live data 13:21."
+      "note": "hour 19: live v0.1.1727. The old conductor@ (account A) put a green 'Support us £5' button at the top of every page to the top-up, at Dinis's word. journalist@ corrected BR1 and BR6 (checker@), brought west's afternoon pass (Monchique, Lagos, Silves) and districts; correspondent@ one article in the newsroom beat; ontologist@ Postal do Algarve and A Voz do Algarve from local@'s readings, no people; designer.places@ outlet page facts band; dev@ the pairing page live as a dry run (security@ passed). Live data 13:21."
     },
     {
       "at": "2026-11-17T15:51Z",
       "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 20 (ledger): 19 sessions 235.2 USD API-equivalent since the restart (+33.02 in 3h); live v0.1.1731. dev@ the provenance strip under every article headline; the old conductor@ made the reading credit a statement in the masthead ('Pay for what you read: \u00a35 of credit to start'); journalist@ S11 corrected; outreach@ 87 drafts; Vicky's curator@ S69 updated. Live data 14:19."
+      "note": "hour 20 (ledger): 19 sessions 235.2 USD API-equivalent since the restart (+33.02 in 3h); live v0.1.1731. dev@ the provenance strip under every article headline; the old conductor@ made the reading credit a statement in the masthead ('Pay for what you read: £5 of credit to start'); journalist@ S11 corrected; outreach@ 87 drafts; Vicky's curator@ S69 updated. Live data 14:19."
     },
     {
       "at": "2026-11-17T16:53Z",
@@ -869,6 +869,10 @@
       "at": "2026-11-18T13:50Z",
       "by": "conductor.b@PrompTugal.dinis",
       "note": "hour 42: live v0.1.1798. Central: Faro AI4YouthWork launch and the Estadio Algarve technology centre (journalist@ re-read the tender figure); translator@ hi-IN. Sites, third runs: data.b@ three Storm charts on /storm/ (residents by hour, warned against observed, forecast); weather.b@ UV for the capitals; civic.b@ the councils' municipal companies and contracts; startups.b@ investors as a section; travel.b@ wakes at 13:53."
+    },
+    {
+      "at": "2026-11-18T14:55Z",
+      "line": "14:48 wake: main site v0.1.1804; place desks and datasci, dev.places, researcher active on their work branches; central quiet by plan (next 16:25); events.b@ started 14:32, events.promptugal.news live v0.1.3; keygen refused after Dinis's yes in data, weather, travel, startups (and weather's rebuild cron); sources register, gaps, licences and disclaimers shipped on the sites; inbox drain tool not in this container (team site clone missing), drained by send_message instead"
     }
   ]
 }

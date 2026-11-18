@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-18T14:05Z",
+  "updated": "2026-11-18T14:50Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -76,7 +76,8 @@
     "18 Nov 11:50 fortieth hourly wake: clean (board/abp/reports/2026-11-18-1137.md)",
     "18 Nov 12:50 forty-first hourly wake: clean (board/abp/reports/2026-11-18-1237.md)",
     "18 Nov 13:50 forty-second hourly wake: 0 breaches; 5 attempts are the two standing proposals (board/abp/reports/2026-11-18-1337.md)",
-    "18 Nov 14:05 S53 recorded as an R8 failure on your word (guidance 2026-11-18-s53); breaker for R8 proposed, key-status discrepancy flagged (board/abp/reports/2026-11-18-1400.md)"
+    "18 Nov 14:05 S53 recorded as an R8 failure on your word (guidance 2026-11-18-s53); breaker for R8 proposed, key-status discrepancy flagged (board/abp/reports/2026-11-18-1400.md)",
+    "18 Nov 14:50 forty-third hourly wake: ontologist@ fourth brief (proposal open); 14:10 guidance needs no grant change (board/abp/reports/2026-11-18-1437.md)"
   ],
   "next": [
     "Hourly review of run reports at :37 (board/abp/reports/); check the new desks re-key their site keys and sites pass (34 of 36 now)",
