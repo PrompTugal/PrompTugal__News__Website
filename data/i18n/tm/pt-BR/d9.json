@@ -24,12 +24,13 @@
   "ok": false
  },
  "d98cdb0f3f825638": {
-  "t": "O ATTENTIA, projeto transfronteiriço Interreg, aplica IA e robótica à gestão de culturas de citrinos na Andaluzia e na região Algarve-Alentejo. É liderado pela Universidade de Huelva com a Universidade do Algarve e a Universidade de Sevilha, e vai de 1.º de setembro de 2023 a 31 de dezembro de 2026. A ficha do projeto não cita Silves.",
+  "t": "O ATTENTIA, projeto transfronteiriço Interreg, aplica IA e robótica à gestão de culturas de citrinos na Andaluzia e na região Algarve-Alentejo. É liderado pela Universidade de Huelva com a Universidade do Algarve e a Universidade de Sevilha, e vai de 1º de setembro de 2023 a 31 de dezembro de 2026. A ficha do projeto não cita Silves.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-16",
   "src": "ATTENTIA, a cross-border Interreg project, applies AI and ro",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  },
  "d9a432cdf6dc6af8": {
   "t": "Notícia mais ampla: a Floresta Limpa usa dados de satélite e aprendizado de máquina para vigiar faixas de gestão de combustível (ainda não em Monchique)",

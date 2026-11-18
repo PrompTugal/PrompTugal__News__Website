@@ -48,12 +48,13 @@
   "ok": false
  },
  "388e89e55b08d337": {
-  "t": "市当局とアルガルヴェ大学は2026年4月に会合し、提携を教育、研修、研究へと広げることで合意した。高等教育の短期コースを通じた学校や企業とのつながりも含む。数か月以内に協定を目指すことで一致した。記事は AI に言及していない。",
+  "t": "市当局と Universidade do Algarve は2026年4月に会合し、提携を教育、研修、研究へと広げることで合意した。高等教育の短期コースを通じた学校や企業とのつながりも含む。数か月以内に協定を目指すことで一致した。記事は AI に言及していない。",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "The council and the University of Algarve met in April 2026 ",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  },
  "38d3e7192f1cc031": {
   "t": "Aqui no fim do mundo, o vento é que manda, e a IA ainda está a chegar de bicicleta.",
