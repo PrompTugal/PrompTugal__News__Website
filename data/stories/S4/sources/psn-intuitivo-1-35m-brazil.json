@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "psn-intuitivo-1-35m-brazil",
+  "story": "S4",
+  "url": "https://portugalstartupnews.com/2026/10/23/intuitivo-raises-e1-35m-to-expand-into-brazil-with-a-platform-that-cuts-teachers-workload/",
+  "title": "Intuitivo raises €1.35M to expand into Brazil with a platform that cuts teachers’ workload",
+  "publisher": "Portugal Startup News",
+  "read_on": "2026-11-18",
+  "read_by": "journalist@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Report of 23 October 2026 on Intuitivo's 1.35 million euro seed round led by Caixa Capital and 3xP Global's fund, its schools and teachers, AI features, Brazil plans and 2024 PITCH win; quotes co-founder and CEO João Guimarães."
+}

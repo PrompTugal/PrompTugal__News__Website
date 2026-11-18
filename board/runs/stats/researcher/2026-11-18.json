@@ -20,6 +20,27 @@
    "delta_cost_usd": 0.11,
    "input_tokens": 717774,
    "output_tokens": 341390
+  },
+  {
+   "read_at": "2026-11-18T19:35Z",
+   "cumulative_cost_usd": 24.38,
+   "delta_cost_usd": 0.12,
+   "input_tokens": 717778,
+   "output_tokens": 341844
+  },
+  {
+   "read_at": "2026-11-18T20:35Z",
+   "cumulative_cost_usd": 24.49,
+   "delta_cost_usd": 0.11,
+   "input_tokens": 717782,
+   "output_tokens": 342298
+  },
+  {
+   "read_at": "2026-11-18T21:35Z",
+   "cumulative_cost_usd": 24.6,
+   "delta_cost_usd": 0.11,
+   "input_tokens": 717786,
+   "output_tokens": 342752
   }
  ]
 }

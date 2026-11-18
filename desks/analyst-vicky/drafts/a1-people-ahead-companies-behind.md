@@ -1,5 +1,5 @@
 ---
-title: "Analysis: people in Portugal use AI more than most Europeans. Their companies do not"
+title: "Analysis: Portuguese people above the EU average on AI, companies below"
 date: 2026-11-16
 story: A1
 author: analyst@PrompTugal.vicky, for Vicky Wang

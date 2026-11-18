@@ -4239,6 +4239,60 @@
         "signing_fingerprint": "sha256:51b1474aae1dc589"
       },
       "source": "https://github.com/PrompTugal/PrompTugal__News__Library/blob/dev/team/keys.json (made with sgit pki in its session, 18 Nov 2026)"
+    },
+    {
+      "id": "live.b-promptugal",
+      "agent": "live.b@PrompTugal.dinis",
+      "label": "live.b@PrompTugal.dinis (Claude Code session, account B)",
+      "role": "Lead of live.promptugal.news (PrompTugal/PrompTugal__News__Live). A session key: it ends with its session.",
+      "how": "Made with sgit pki keygen (sgit-ai 0.27.0) in the agent's own session on 18 November 2026 at about 18:15 UTC; the bundle is sgit pki export's output. The other half stays in the session.",
+      "added": "2026-11-18",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApU7RBzfUeKG+nV8TSiT4\nyhqiXZtHjihzMkRf6tRTNWSmICp5cVgjWnFrYvJx3TrFeJfPMPqfgNewBVUjJQWi\nAIa7z9FvaKHWHC5UDLs0XbPbgdNue1ipa0qzB/lDxCQyKIGsnE9cllbX2fGtIm7D\n/lCs7HZ5Pk0jJzfoydak/NvkOuRsIiYSZak0BhVPZD/yLjpMe3vo6CJAeU+/Hg0m\nSlPvn0HXykZTQuhS6QO35L2eq2aI1QRuXWoJq3Ot/iH9tNGyZDy6eGUoSHspDzLL\nihsQorAN+RDpqx/Y8FfkTHmRS95kPTECRAG8a+RkbRB05cLeIYL/IY2fASSVw8AI\no6ZrHeE0nMpo1jBBSjyiLmcGCg8N4LbBANvMmhj8oqI/ZuuSYg6Md/PzA+TnduU7\nS5q0pj7Nuv3N5kq3jJB3YS5pnjbJhGuqAUPUTUd1XnOg6ZXG3Ie9D8Y2XPKjjspz\nuFRlboNrvIq4t/G3DHynjrTvw6hctQZRJ02LLW8FRNW+aeC+IboYeY1yJ73bAth9\nSrXbon8vfJgvPfpNuNBhm6EJ47lni2cyOmcjP9tOIzR28Is5UgNtP7V8beMdNVW2\n0en87T88/cIdEISTWxorwJPc3sP0fhLvYZ7IDm+qHsuNIigLlm6NTkp6eNZE45eP\n9Pl0H8cwRYRc2wR3iDPwuS0CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1F/32N17PvIGb7QG5tDXxrH3xY8X\nwq4riIT+PoPbj4ECo/GMapkBtIpo/6db44YlwoxdnT8tAQ1GvNh+HwLSNg==\n-----END PUBLIC KEY-----\n",
+        "label": "live.b-promptugal",
+        "fingerprint": "sha256:b4cb807b645bfdc3",
+        "signing_fingerprint": "sha256:d55c7440d6943a95"
+      },
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Live/blob/dev/team/keys.json (made with sgit pki in live.b@'s session, 18 Nov 2026)"
+    },
+    {
+      "id": "cyber.b-promptugal",
+      "agent": "cyber.b@PrompTugal.dinis",
+      "label": "cyber.b@PrompTugal.dinis (Claude Code session, account B)",
+      "role": "Lead of cyber.promptugal.news (PrompTugal/PrompTugal__News__Cyber). A session key: it ends with its session.",
+      "how": "Made by the agent in its own session on 18 November 2026 with the installed `sgit pki keygen` (sgit-ai v0.27.0), at Dinis's word of 18 November 2026 (PrompTugal__News__Website board/guidance/2026-11-18-keys-issues-rebuilds-observability.md); public bundle from `sgit pki export`. Kept at team/keys.json because this repository's leak scan allows public keys only there; conductor.b@ lists it in PrompTugal__News__Website board/keys.json. Not linked to an operator's key.",
+      "added": "2026-11-18",
+      "status": "active",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAhVmAGQxxhQ77J1w/GZ9m\n8cR9gMvIlf+mDsqlEFU3SDPeVEsYiPmDPw95nNHzLMkANaaN45xGyNiYo2rsMwb/\nXkZMvUM4Ai4MpJ9+RvtBU2hjX+dZ4LrfQfvx9wWhtEDDmilfbPkQuwMN/hgpfUBo\nVJ4ZQnavKiU6VddjBv9eMyqDCbmNI93qYRkhqm1CZvkRLspisHdCpjB0dIVGqgUw\nsnsXWB9jVTcurgnLJP6j2Gs15RnYl+rRDLQxRtMjyeHwHWMdGdggbJKRf68chjwe\n+w3rqO61CBzTNekNYQAWBtDgX4AJUES1EY/JYqwzKwbDhFjzMB/EshoJxuRbNw2+\nTXA+KIBoRp3Tl9+vHcX+td9jgdRu2L3P23tnAnzYmI0klGVNdjilYeOU+2gtp7Wk\nhc4pMEUZppdtv/jRrt5JzDMHrSHReq0mjlv/ECT9KWM1D9jSbXlPN9r+BQG9ghk9\nJedu7z+43rJdjc+b+0gz+xMV1b2fTXClA3Q8SNSSUsuK3LOM7CbrIbVIUoWNTY1h\nMD9hLrkGyqSl9WgtOM80YUyX577JZxAHVqq74gRsNz46mk2I7Uk8DkJxKvxfoiCZ\nqEfEyIAP24qCWhorZRiTLkFTZbOCGNtcTmZ93eLh5IVvUbEarYtge5RVl0JbkhCZ\nGQuqq9V4vNTrteb/uPeLQA8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQLtUDAuqrIkqVhHISPIgeRrEKf37\nDSS3HOLButq9SAaoi/zuw5B5cERtWFDE4Re4P027HSDRpx6UZq7CIZhBAQ==\n-----END PUBLIC KEY-----\n",
+        "label": "cyber.b@PrompTugal.dinis",
+        "fingerprint": "sha256:cc44cd97ce4c8ac2",
+        "signing_fingerprint": "sha256:c726b219f62e8657"
+      },
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Cyber/blob/dev/team/keys.json (made with sgit pki in cyber.b@'s session, 18 Nov 2026)"
+    },
+    {
+      "agent": "bulletins.b@PrompTugal.dinis",
+      "label": "bulletins.b-promptugal",
+      "made": "2026-11-18",
+      "made_with": "sgit pki keygen (sgit-ai 0.27.0)",
+      "encryption_fingerprint": "sha256:c047364aaf9cc081",
+      "signing_fingerprint": "sha256:d34b1e5c106568dd",
+      "status": "current",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApKslNnyzZgUyznAENikl\nb3IiggN8I2GAEmLnVlWxkcf/9iZDv54J4jdSU+galDvH013jU89o/mv6ALhC/Ubz\nLldOGjAmC8I2FDpiOj65yalcQa51b23VB31kwG2yZPL3tqUfdyLKREM2ZCpsdx7U\nM+baiSdRPNWhE8T/fW7mUNN6wOkbbH+1iTq0TszPmwgpjF8Ax+qjlEkEcH0eSAR/\n/v49c5YBSUmmcs+EqlSDGg9lHwFkj29SvARjEHnh0Xp8TOPAokAsoPHx5mY2pY5p\nwr7xRI9g8dO5DBPKo7SAVKfPw8cKcC1VfvO07VMYiXslShzlN4Lxer9a9/EyLa7x\nmuS3m475ee/3juJoYi963gcDGVup9PRM3YXmENQdhDy0PSLEjAsLmCMbvamttQnv\nRcY+/TmDXb+NPzcfidxlDWK9Iu24Q+dFfAE2zDScN28w7nze5AYo4TMPnpUluSv5\nLcnJfM1Soh5lUkPWZi/i+Ih6Uyq7vv6NTZMCVLapKE9/azzwf/kJ66XrvmCmdC5V\nxXzotwA+0s3UsZBxLAQPG7XlxLpR7c7v0oWHtUL+4WZbZlEr8kNOeC8fICuMGTLu\nfK/1a4p6H21vW7/1FGZvtlF4pSoEN+paVjsRADHWDkal4l6b8cbjVkHLDcs1/DeG\nOVPywFzMKrFHmndNoshIQfUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE81vvpXvxJm4EVOk2PL5GSnw9JL7h\njxnDj6zEjc8mwTt+6luVMQELO/4sBh6V7L+IRPvBky343tJE0forq+VRQQ==\n-----END PUBLIC KEY-----\n",
+        "label": "bulletins.b-promptugal",
+        "fingerprint": "sha256:c047364aaf9cc081",
+        "signing_fingerprint": "sha256:d34b1e5c106568dd"
+      },
+      "id": "bulletins.b-promptugal",
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Bulletins/blob/dev/team/keys.json (made with sgit pki in bulletins.b@'s session, 18 Nov 2026; id given by conductor.b@, the entry there has none)"
     }
   ]
 }
