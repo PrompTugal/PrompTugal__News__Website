@@ -1,32 +1,32 @@
 {
  "id": "rtp-noticias",
  "feed": "https://www.rtp.pt/noticias/rss",
- "read_at": "2026-11-17T00:13Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
   {
-   "title": "23h Presidente da Câmara do Porto: são possíveis políticas para garantir a todos o direito de viver na cidade",
-   "link": "https://www.rtp.pt/noticias/noticiario-antena1/23h-presidente-da-camara-do-porto-sao-possiveis-politicas-para-garantir-a-todos-o-direito-de-viver-na-cidade_a1_1779657",
-   "date": "2026-11-16"
+   "title": "Ex-guarda-redes do Sporting Antonio Adán termina carreira aos 39 anos",
+   "link": "https://www.rtp.pt/noticias/sporting/ex-guarda-redes-do-sporting-antonio-adan-termina-carreira-aos-39-anos_d1780004",
+   "date": "2026-11-18"
   },
   {
-   "title": "22h Ministro da Educação lamenta agressão a uma aluna numa escola em Lisboa",
-   "link": "https://www.rtp.pt/noticias/noticiario-antena1/22h-ministro-da-educacao-lamenta-agressao-a-uma-aluna-numa-escola-em-lisboa_a1_1779656",
-   "date": "2026-11-16"
+   "title": "Greve dos tripulantes de cabine da easyJet prevista para dezembro desconvocada",
+   "link": "https://www.rtp.pt/noticias/economia/greve-dos-tripulantes-de-cabine-da-easyjet-prevista-para-dezembro-desconvocada_n1780001",
+   "date": "2026-11-18"
   },
   {
-   "title": "Brasil recebe 7,59 milhões de turistas estrangeiros até outubro e supera meta anual",
-   "link": "https://www.rtp.pt/noticias/economia/brasil-recebe-7-59-milhoes-de-turistas-estrangeiros-ate-outubro-e-supera-meta-anual_n1779604",
-   "date": "2026-11-16"
+   "title": "Doença Pulmonar. Crises agudas custam 11 milhões",
+   "link": "https://www.rtp.pt/noticias/pais/doenca-pulmonar-crises-agudas-custam-11-milhoes_v1780002",
+   "date": "2026-11-18"
   },
   {
-   "title": "Mota-Engil assina contratos de 1.200 milhões de euros no México e Colômbia",
-   "link": "https://www.rtp.pt/noticias/economia/mota-engil-assina-contratos-de-1-200-milhoes-de-euros-no-mexico-e-colombia_n1779650",
-   "date": "2026-11-16"
+   "title": "Documentário revela digressão de Carminho ao Japão",
+   "link": "https://www.rtp.pt/noticias/cultura/documentario-revela-digressao-de-carminho-ao-japao_v1780000",
+   "date": "2026-11-18"
   },
   {
-   "title": "Painéis de São Vicente com restauro concluído em abril de 2027 para apresentação pública",
-   "link": "https://www.rtp.pt/noticias/cultura/paineis-de-sao-vicente-com-restauro-concluido-em-abril-de-2027-para-apresentacao-publica_n1779591",
-   "date": "2026-11-16"
+   "title": "Antigos sem-abrigo protagonizam peça sobre habitação",
+   "link": "https://www.rtp.pt/noticias/cultura/antigos-sem-abrigo-protagonizam-peca-sobre-habitacao_v1779999",
+   "date": "2026-11-18"
   }
  ]
 }

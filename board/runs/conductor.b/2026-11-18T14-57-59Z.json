@@ -1,0 +1,119 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-18T14-57-59Z",
+ "started": "2026-11-18T14:57:59.189Z",
+ "ended": "2026-11-18T15:04:12Z",
+ "line": "security@ wake made hourly 07-23 Lisbon (3-hourly overnight) at Dinis's word; inner passes, AppSec reviews, threat models and the prompt-injection pass sent to all 25 agents (wake prompts cannot be edited from this session); civic key and lane received",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T14:57:59.189Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T14:59:54.507Z",
+   "chars": 1268,
+   "sha256": "8614898a3913ebb3",
+   "head": "Small little thing. Can you not put the data in the table because I can't copy in your UI? So if you just do as before, you do the link and then the dash with the text. That makes it easy for me. Anot"
+  },
+  {
+   "t": "2026-11-18T15:00:22.352Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T15:00:47.427Z",
+   "chars": 3,
+   "sha256": "85a39ab345d672ff",
+   "head": "Yes"
+  },
+  {
+   "t": "2026-11-18T15:01:56.265Z",
+   "chars": 677,
+   "sha256": "2c0d8a6faad32431",
+   "head": "Can you also add special instructions to any agent that writes code to make sure that you do a security review pass from an AppSec sort of security focus? And the same thing for the global security. I"
+  },
+  {
+   "t": "2026-11-18T15:02:16.325Z",
+   "chars": 51,
+   "sha256": "3df448eada8193b6",
+   "head": "Okay, any more sessions that need a nudge from me?."
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 40,
+  "by_kind": {
+   "other": 3,
+   "secret": 1,
+   "git": 1,
+   "git-push": 3,
+   "remote-read": 2,
+   "remote-conduct": 28,
+   "shell": 2
+  }
+ },
+ "policies_executed": {
+  "R8": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 39,
+  "commits": [
+   {
+    "sha": "8ab437cd1",
+    "subject": "conductor.b@PrompTugal.dinis: guidance, AppSec reviews of code, threat models for automation, prompt-injection pass",
+    "files": 2
+   },
+   {
+    "sha": "a58181087",
+    "subject": "conductor.b@PrompTugal.dinis: guidance, inner passes at every wake and security@ hourly across every repo; civic.b-promptugal key listed",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-18T15:00:46.563Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "cat civic.enc: a private key or credentials file is never read into the conversation",
+    "target": "cd ~/.sg-send/lanes/obs && umask 077 && cat > civic.enc <<'EOF'\neyJ2IjogMiwgInciOiAiVk1qazUvQlhWdmJoQmgwYjJERXdxUitqbXBFZktBZ1dUbytVYjMwT3dJdGFOZ2dwbzVWa2dCb2VoQ2ZPU28yRDA2bzdGY1FKbnA2dFlaejBQVWVSdkdlZmFjeFFvbW9GcUNvRHR3SFdrZEkveTJZVStFcHZj"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 6,
+  "tool_calls": 40,
+  "in_mandate": 39,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

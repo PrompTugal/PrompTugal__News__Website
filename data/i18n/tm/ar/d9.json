@@ -1,0 +1,42 @@
+{
+ "d90c2407addca87e": {
+  "t": "رئيس وزراء البرتغال وقّع، مع أكثر من 30 قائداً، نداءً لوضع بروتوكولات سلامة ومعايير مشتركة وآليات دولية لنماذج الذكاء الاصطناعي المتقدمة.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portugal's Prime Minister signed, with more than 30 leaders,",
+  "ok": false
+ },
+ "d92bc830220595fe": {
+  "t": "هيئة التنمية الإقليمية تزور مدارس São Brás، ومنها مركز متخصص في المعلوماتية",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Regional development body visits São Brás schools, including",
+  "ok": false
+ },
+ "d9604c6005b9efcc": {
+  "t": "PrompTugal.news Viseu، a cidade do Grão Vasco: الذكاء الاصطناعي والتقنية في Viseu، مع البوليتكنيك عقلاً كبيراً على التل، والبلدية وCIM تجعلان البيانات تتكلم، إضافة إلى كل ما يصل من البرتغال والعالم. Independente، وكل معلومة تأتي مع إيصالها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Viseu, a cidade do Grão Vasco: AI and tech i",
+  "ok": false
+ },
+ "d98cdb0f3f825638": {
+  "t": "ATTENTIA، مشروع Interreg عابر للحدود، يطبّق الذكاء الاصطناعي والروبوتات على إدارة محاصيل الحمضيات في Andalusia ومنطقة Algarve-Alentejo. يقوده University of Huelva مع جامعة Algarve وUniversity of Seville، ويمتد من 1 سبتمبر 2023 إلى 31 ديسمبر 2026. ولا تسمّي ورقة المشروع Silves.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "ATTENTIA, a cross-border Interreg project, applies AI and ro",
+  "ok": true
+ },
+ "d9a432cdf6dc6af8": {
+  "t": "أخبار أوسع: Floresta Limpa تستخدم بيانات الأقمار الاصطناعية والتعلّم الآلي لمراقبة شرائط إدارة الوقود (ليس بعد في Monchique)",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Wider news: Floresta Limpa uses satellite data and machine l",
+  "ok": false
+ }
+}

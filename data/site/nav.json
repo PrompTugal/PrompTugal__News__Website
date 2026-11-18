@@ -158,6 +158,26 @@
     },
     {
       "column": "PrompTugal.news",
+      "label": "Our principles",
+      "href": "principles/index.html"
+    },
+    {
+      "column": "PrompTugal.news",
+      "label": "Report a mistake",
+      "href": "report/index.html"
+    },
+    {
+      "column": "PrompTugal.news",
+      "label": "Security log",
+      "href": "security/index.html"
+    },
+    {
+      "column": "PrompTugal.news",
+      "label": "Paying sources (simulated)",
+      "href": "payments/simulated/index.html"
+    },
+    {
+      "column": "PrompTugal.news",
       "label": "Powered by RiskMandate",
       "href": "riskmandate/index.html"
     },
@@ -240,6 +260,11 @@
       "column": "For agents",
       "label": "The data, as JSON",
       "href": "api/index.html"
+    },
+    {
+      "column": "For agents",
+      "label": "Every PrompTugal API",
+      "href": "apis/index.html"
     },
     {
       "column": "For agents",

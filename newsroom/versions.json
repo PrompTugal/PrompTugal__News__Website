@@ -1,5 +1,68 @@
 [
   {
+    "version": "v0.1.1814",
+    "date": "2026-11-18",
+    "what": "telemetry.b@PrompTugal.dinis: wake 16:26, costs refreshed, per-agent stats with deltas",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "58ae893d2"
+  },
+  {
+    "version": "v0.1.1813",
+    "date": "2026-11-18",
+    "what": "ontologist@PrompTugal.dinis: answer to the library's request: anchors and their Wikidata ids, a wikidata field in the schemas",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "2c64b456d"
+  },
+  {
+    "version": "v0.1.1812",
+    "date": "2026-11-18",
+    "what": "designer@PrompTugal.dinis: library.b@'s answer recorded; ART canonical, WS26 numbers as aliases",
+    "by": "designer@PrompTugal.dinis",
+    "from": "64fe5aa86"
+  },
+  {
+    "version": "v0.1.1811",
+    "date": "2026-11-18",
+    "what": "designer@PrompTugal.dinis: library.promptugal.news's first build checked (1280/390, light/dark): faithful; five changes for library.b@; status, run report",
+    "by": "designer@PrompTugal.dinis",
+    "from": "f49b7ecb4"
+  },
+  {
+    "version": "v0.1.1810",
+    "date": "2026-11-18",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "6785eca09"
+  },
+  {
+    "version": "v0.1.1809",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: run report, weak-signal capture routed",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "0950675fe"
+  },
+  {
+    "version": "v0.1.1808",
+    "date": "2026-11-18",
+    "what": "abp@PrompTugal.dinis: v1.14.1, sub-agents for the inner passes in the active roles (Dinis, 18 Nov 15:05, recorded in guidance)",
+    "by": "abp@PrompTugal.dinis",
+    "from": "2657ec782"
+  },
+  {
+    "version": "v0.1.1807",
+    "date": "2026-11-18",
+    "what": "ontologist@PrompTugal.dinis: the library's catalogue on the ontology (item and collection proposed)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "21ca63d43"
+  },
+  {
+    "version": "v0.1.1806",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: guidance and brief, the library (learn from SGraph Send; its agents; a library look; an invitation to librarians)",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "bd5f08dbe"
+  },
+  {
     "version": "v0.1.1805",
     "date": "2026-11-18",
     "what": "conductor.b@PrompTugal.dinis: status, keygen still refused in the site sessions; principles and report channel for Dinis",

@@ -1,0 +1,42 @@
+{
+ "4a40428649b3f526": {
+  "t": "Porto تحمل حوارين عن الذكاء الاصطناعي إلى Smart City Expo في Barcelona",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Porto takes two AI talks to the Smart City Expo in Barcelona",
+  "ok": false
+ },
+ "4a60c4fe3a36c18c": {
+  "t": "في اجتماع ابتكار لـCCDR Algarve حول الرقمنة وتقنية المعلومات والاتصالات، وصف منسق SmartCity:Lagoa حدود إدخال الذكاء الاصطناعي إلى الحكم المحلي: قدرة المعالجة، وقانون حماية البيانات، والتعامل مع البيانات دون اتصال، والحاجة إلى مركز بيانات. ويدرج البرنامج أيضًا حديثًا عن حل قائم على نموذج لغوي كبير لبلديات Algarve.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "At a CCDR Algarve innovation meeting on digitalisation and I",
+  "ok": true
+ },
+ "4a77daff9895e8f8": {
+  "t": "اعتبارًا من أواخر 2027، بـ230 مليون يورو للبنية التحتية المشتركة و465 مليون يورو لمبنى ثانٍ بقدرة 200 ميغاواط، إلى جانب 12,600 وحدة معالجة Blackwell Ultra المخططة هناك أصلًا. وتبني Start Campus الموقع وتشغّله.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "From late 2027, with 230 million euros for shared infrastruc",
+  "ok": false
+ },
+ "4abf0dd6aff0e9b8": {
+  "t": "تدمج FCT ووكالة الابتكار الوطنية في هيئة عامة واحدة لسلسلة الابتكار كلها. وصفها هذا المقال الوحيد قبل نشر مرسومها بقانون، فتُعامَل التفاصيل على أنها مؤقتة.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "It merges FCT and the National Innovation Agency into one pu",
+  "ok": false
+ },
+ "4aef917b1931fc70": {
+  "t": "حصل مركز ICArEHB البحثي في Universidade do Algarve على 31.5 مليون يورو، 15 مليونًا من Teaming for Excellence في Horizon Europe و16.5 مليونًا وطنية، لإنشاء UAlgTec Heritage. يعتمد نهج الذكاء الاصطناعي أولًا في حماية التراث الأثري ودراسته، بشركاء منهم Kiel University وERA Arqueologia وZartis، ويتوقع أكثر من 70 وظيفة ماهرة في ست سنوات.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The University of Algarve's ICArEHB research centre secured ",
+  "ok": false
+ }
+}

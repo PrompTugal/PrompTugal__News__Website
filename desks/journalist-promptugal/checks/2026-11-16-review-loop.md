@@ -300,3 +300,25 @@ conductor.b@ (17:52) points to the 13:50 row and its brief (`board/briefs/2026-1
 |---|---|
 | `work/place.algarve.central` `891a6c602`: Faro, the AI4YouthWork launch (February 2026) and the Estádio Algarve technology centre (AI among its areas) | **brought onto dev**. Re-read at postal.pt, 18 November 2026: the AMLF's tender "no valor de três milhões de euros", bids due 2 November, as the item says (the headline's 3.5 million is the centre's whole cost); gate green |
 | west, east, districts, partner desks | nothing new |
+
+## The 15:40 wake (18 November): the first with the inner passes
+
+Inner passes (board/guidance/2026-11-18-inner-passes-and-security.md): an opening conductor pass and a security pre-review (one Sonnet sub-agent), the work, a security post-review of the diff (a Sonnet sub-agent), the closing pass. Pre-review: clean.
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.west` | the desk's security review of its drafts: the hospital story's patient ages and counts withdrawn; inner passes adopted | **brought onto dev**: a fix this desk welcomes |
+| `work/place.algarve.central` | afternoon recheck with the inner passes (gap notes, re-signed); status | **brought onto dev** (a conflict on the desk's own status.json resolved to its newest version) |
+| `work/place.algarve.east` | a licence link on every local news item and event; afternoon scan, three more items | **brought onto dev**: each item carries `license` (our summary, CC BY 4.0) and `source_license` (the source's own terms), as Dinis's rule of 14:25 asks |
+| `work/place.districts` | status: inner passes from the next wake | **brought onto dev** |
+
+## The 16:40 wake (18 November)
+
+Inner passes: opening conductor and security pre-review (clean), the work, security post-review (below), closing pass.
+
+| Item | Verdict |
+|---|---|
+| west `184ba0d73`, central `4dc528ab9` and `4bb0ccaa7`, districts `c3fdaa763` and `a0cf80cf9` | **brought onto dev**: status and gap notes; central holds a lead (a regional outlet's report of 29 May 2026 that a mayor would contract an AI planning platform) for want of a primary source: right call |
+| The library's requests channel | read; no file for this desk yet (404); nothing in the index addressed to the newsroom |
+| Dinis's "every principle and concept on the website" (16:00) | **first text written**: `desks/journalist-promptugal/principles/what-we-do-not-read.md`, for dev@ to place, resting only on the guidance of 14:10, the sources-register brief and the house rule |
+- **Security post-review:** clean on secrets, contacts, paths, Sul Informação and instruction text. On the principle page it listed seven claims beyond the two files first cited; each is now cited to its own source on the record (the Sul Informação brief, the inner-passes guidance, the 14:45 row, CLAUDE.md's Content rule, /about/#rules), and "we link to them" for the event platforms, which no source states, is taken out.

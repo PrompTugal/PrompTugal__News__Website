@@ -1,0 +1,42 @@
+{
+ "33007913833e3259": {
+  "t": "منتدى المجلس يضع شركة تقنية معلومات محلية وشركة تقنية طبية على المنصة",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Council forum puts a local IT firm and a medical-technology ",
+  "ok": true
+ },
+ "330bf5c4b2e10426": {
+  "t": "Go Coimbra، الوكالة البلدية الجديدة، تسمّي الذكاء الاصطناعي قطاعًا ذا أولوية",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Go Coimbra, the new municipal agency, names AI as a priority",
+  "ok": false
+ },
+ "332cf1204959dda4": {
+  "t": "PrompTugal.news Castro Marim: نحن آخر بلدة قبل Espanha، فنراقب الذكاء الاصطناعي قادمًا عبر Guadiana كطائر النحام يراقب المدّ. أحواض ملح، ومجلس بمكتب تخطيط ذكي، وعائلة علّمت مملحة أن تردّ الكلام. وما يأتي من Algarve والبرتغال والعالم يُوزن هنا كـflor de sal، بالغرام. مستقل، ولكل واقعة مصدرها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Castro Marim: we are the last town before Es",
+  "ok": false
+ },
+ "3386001e14ab5d16": {
+  "t": "WordPress Faro Meetup يسأل كيف يغيّر الذكاء الاصطناعي طريقة استخدام الناس للمواقع",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "WordPress Faro Meetup asks how AI changes the way people use",
+  "ok": false
+ },
+ "3398caa6a144473d": {
+  "t": "تقود وحدة البحث، المرتبطة بـTécnico، مركز تميّز في الذكاء الاصطناعي المستدام والموثوق، بتمويل 13 مليون يورو من Teaming for Excellence في Horizon Europe و14.2 مليون من أموال وطنية. وشريكاها Max Planck Institute for Software Systems وGerman Research Center for Artificial Intelligence.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The research unit, associated with Técnico, leads a centre o",
+  "ok": false
+ }
+}

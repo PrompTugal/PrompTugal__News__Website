@@ -1,0 +1,32 @@
+{
+ "id": "sao-miguel-news",
+ "feed": "https://saomiguelnews.net/feed/",
+ "read_at": "2026-11-18T15:15Z",
+ "items": [
+  {
+   "title": "Câmara Municipal de Ponta Delgada aprova voto de congratulação aos Clube Desportivo e Cultural Juventude Ilha Verde",
+   "link": "https://saomiguelnews.net/camara-municipal-de-ponta-delgada-aprova-voto-de-congratulacao-aos-clube-desportivo-e-cultural-juventude-ilha-verde/",
+   "date": "2026-03-11"
+  },
+  {
+   "title": "APonta Delgada aprova voto de congratulação à equipa masculina Juventude Ilha Verde pela subida à II Divisão Masculina em Atletismo",
+   "link": "https://saomiguelnews.net/aponta-delgada-aprova-voto-de-congratulacao-a-equipa-masculina-juventude-ilha-verde-pela-subida-a-ii-divisao-masculina-em-atletismo/",
+   "date": "2026-03-06"
+  },
+  {
+   "title": "Ponta Delgada envia contentor solidário para apoiar vítimas das tempestades no Continente",
+   "link": "https://saomiguelnews.net/ponta-delgada-envia-contentor-solidario-para-apoiar-vitimas-das-tempestades-no-continente/",
+   "date": "2026-03-03"
+  },
+  {
+   "title": "Ribeira Grande acolheu sessão sobre políticas públicas para a habitação",
+   "link": "https://saomiguelnews.net/ribeira-grande-acolheu-sessao-sobre-politicas-publicas-para-a-habitacao/",
+   "date": "2026-02-25"
+  },
+  {
+   "title": "XXIV Semana da Educação Física na Escola Secundária da Ribeira Grande",
+   "link": "https://saomiguelnews.net/xxiv-semana-da-educacao-fisica-na-escola-secundaria-da-ribeira-grande/",
+   "date": "2026-02-18"
+  }
+ ]
+}

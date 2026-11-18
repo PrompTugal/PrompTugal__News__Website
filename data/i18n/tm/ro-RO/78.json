@@ -13,7 +13,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "Starting a company in {name}",
-  "ok": false
+  "ok": true
  },
  "78dc9cc4a08684d2": {
   "t": "Startup-urile aflate în fază incipientă, care construiesc sau folosesc intens inteligența artificială, puteau aplica pentru incubare din aprilie până în septembrie 2026, cu sprijin tehnic în inteligență artificială și mentorat. Portugalia participă prin FCT și Centrul Național pentru Calcul Avansat.",

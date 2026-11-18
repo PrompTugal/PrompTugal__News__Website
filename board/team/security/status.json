@@ -1,26 +1,29 @@
 {
   "agent": "security@PrompTugal.dinis",
-  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 10 Nov 18:25 (Dinis, on Vicky's request): also Vicky's temporary team (@PrompTugal.vicky), incl. reviewer@'s five S41 lead keys in front-page.json.",
+  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
   "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
-  "updated": "2026-11-18T14:10Z",
-  "reviewed_to": "d7d37f3db",
+  "updated": "2026-11-18T16:15Z",
+  "reviewed_to": "03dc0db36",
   "hold": false,
   "done": [
-    "04:05 18 Nov: 26 commits clean; S52 closed (Dinis's word recorded); observability@'s counts checked (no reader identified)",
-    "06:05 18 Nov: 21 commits clean, a quiet night",
-    "08:05 18 Nov: 28 commits clean; S70's map entry names organisations only",
-    "10:05 18 Nov: 27 commits clean; S53 opened (high): conductor@ printed the environment and its signing key into its transcript on 16 Nov (abp@'s log)",
-    "12:05 18 Nov: 33 commits clean; S53 still open (the key active; five articles signed by it to re-sign after rotation)",
-    "14:00 18 Nov: S53 closed as Dinis decided (acknowledged, no rotation); the key's status in keys.json (active, not superseded) noted for conductor@",
-    "14:05 18 Nov: no commits since 14:00; the events collection pre-reviewed (go under E1 to E7: robots.txt and terms checked by the reader, no attendees, organisers as organisations, outside text escaped, server-side reads)"
+    "16:10 18 Nov: AppSec across the repositories: innerHTML clean (flightmap escapes), S55 (no javascript:-href gate except Travel's), Data's threat models reviewed (good), S56 (unhashed install beside secrets); conductor.b@'s address slip recorded and closed",
+    "16:20 18 Nov: findings.md made ready for the public log (Dinis 15:15); S57, S58, S59 added as fixed; Data's observability lane checked (made at Dinis's word, not a workaround)",
+    "15:45 18 Nov: cyber signals pre-reviewed (go for the register step under C1 to C9: cells under 5 suppressed, no raw data in public vaults, private reports to CERT.PT/CNCS, threat model before the first run); the people line noted for every site; S54 half done (sub-agents granted)",
+    "15:50 18 Nov: KEV and CVE.org may run now (public catalogues, escaped text, a short threat model within a day); non-commercial sources (CNPD, Shadowserver, Cloudflare Radar, RIPEstat) wait on Dinis's licence call; abuse.ch only as aggregates if at all",
+    "16:00 18 Nov: S60 recorded (library.b@'s websummit.com breach, self-reported, fixed); S61 opened (two Library items rest only on websummit.com)",
+    "16:05 18 Nov: the library's request REQ-2026-0004 answered: its 8 findings in the central log (S60, S62-S68), its 3 threat models reviewed (good; one line to correct)",
+    "16:05 18 Nov: hourly sweep of all nine repositories (tools/sweep.sh): clean; two organisations' published addresses"
   ],
   "next": [
-    "post-review the outbox's internal test messages (O2 to O7) when they exist",
-    "S44: the outlet-domain email check",
-    "read my inbox once re-issued to security-promptugal-2",
+    "each wake: new commits in all eight repositories (heads in repo_heads)",
+    "AppSec read of each collector and CI workflow, one or two a wake; threat models as written",
+    "daily prompt-injection pass",
     "S43: dev@'s gate check for duplicate ids and dropped key bundles",
     "pairing step 4 (the real send): P1 on A, P2 on A, P9 the origin, P10",
-    "post-review the first events collection run and page against E1 to E7"
+    "post-review the first events collection run and page against E1 to E7",
+    "review /payments/simulated/ when built: nothing about the reader leaves the browser",
+    "review the cyber collector's threat model (C8) before its first run",
+    "each wake: read https://library.promptugal.news/api/v1/requests/security-at-promptugal.dinis.json and answer"
   ],
   "findings_open": {
     "S2": "decided: rotate now (observability@)",
@@ -59,7 +62,11 @@
     "S48": "medium: outbox approval must be Dinis's signature, verified by the sender, before outside sends (conductor@, cell.email@, Dinis)",
     "S49": "low: the feed reader should honour robots.txt (Claude/Anthropic names) and not follow cross-host redirects; Sul Informação's case is with Dinis (dev.places@)",
     "S50": "medium (money, Dinis's): the £5 button on every page pays through newsroom.sgit.ai's Stripe link and the credit lands there, not here",
-    "S51": "medium (money): the meter raises past charges to 1p and deducts from balances that can hold paid credit (conductor@, dev@; Dinis)"
+    "S51": "medium (money): the meter raises past charges to 1p and deducts from balances that can hold paid credit (conductor@, dev@; Dinis)",
+    "S54": "low, half done: sub-agents granted (v1.14.1); the other repositories still to be named in my grant (abp@)",
+    "S55": "medium: a gate line refusing javascript:/data:/vbscript: hrefs in every repository (only Travel has it) (dev@ and the site leads)",
+    "S56": "low: Data's workflow installs sgit-ai unhashed beside two secrets (data.b@)",
+    "S61": "low (legal): two Library items rest only on websummit.com (library.b@)"
   },
   "asks": [
     "Dinis: S41: content/articles/six-people-250-agents-promptugal-news.md says Angelo, Silvio and José live in Loulé and Quarteira, on your word; neither cited source says it. Have they each agreed? If not, place.loule@ takes the towns out. See reviews/2026-11-16-0205-wake.md",
@@ -67,7 +74,8 @@
     "Dinis: S50: the green 'Support us · £5' button now on every page takes real payments through newsroom.sgit.ai's Stripe link, and Stripe returns the reader to newsroom.sgit.ai, so the £5 credit never shows on promptugal.news. Give PrompTugal.news its own link (success page promptugal.news/account/topped-up.html, already built), or let the button say where the money goes. See reviews/2026-11-17-1605-wake.md",
     "Dinis: S45: what may an email to news outlets promise about money? Your answer goes on content/newsroom/decisions/the-values-page-wording.md (the editor-in-chief recommends B: 'not built yet', nothing promised). Until then nothing is sent and nothing is promised.",
     "Dinis: S48: in the outreach outbox, 'approved' is a field anyone with the vault key can set. Before the outside sends, please approve by signing with your person key (the sender page checks the signature), or keep pressing send yourself after reading each one. Also the opt-out line and lawful basis (O6). See reviews/2026-11-17-0005-prereview-outreach-outbox.md",
-    "conductor.b@ (not Dinis): re-issue my lane and inbox sealed to security-promptugal-2; add the pki-agent sha256 pin to every first prompt (S24)"
+    "conductor.b@ (not Dinis): re-issue my lane and inbox sealed to security-promptugal-2; add the pki-agent sha256 pin to every first prompt (S24)",
+    "Dinis: cyber sources: CNPD, Shadowserver, Cloudflare Radar and RIPEstat allow only non-commercial use; PrompTugal.news takes payments. May we use them at all? Until you say, they are not collected. See reviews/2026-11-18-1545-prereview-cyber-signals.md (addendum)"
   ],
   "wakes": [
     {
@@ -154,5 +162,6 @@
   "handover": "board/team/security/debriefs/2026-11-16-account-move.md",
   "last_review": "board/team/security/reviews/2026-11-16-1505-wake.md",
   "session": "board/team/security/sessions/session_01Kw9UwF2TrbbV5BhUjFGupN/",
-  "debrief": "board/team/security/debriefs/2026-11-17-handover.md"
+  "debrief": "board/team/security/debriefs/2026-11-17-handover.md",
+  "repo_heads": "board/team/security/sessions/session_01Kw9UwF2TrbbV5BhUjFGupN/repo-heads.txt"
 }

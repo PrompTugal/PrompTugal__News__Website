@@ -1,10 +1,26 @@
 {
+ "f51424f7700d624a": {
+  "t": "Erasmus+のAI4YouthWorkプロジェクトは、ユースワーク向けAIツール24件のマップ、AIリテラシー・ワークショップ計画16件のツールキット、AIコンピテンシー・フレームワークをFaroで発表した。記事の日付は2026年2月16日で、発表の場所は11月のFaroとされている（本文に年の記載はない）。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Erasmus+ AI4YouthWork project presented a map of 24 AI t",
+  "ok": true
+ },
  "f56ffc6c84b1b996": {
   "t": "PrompTugal.news Vila do Bispo:SagresとCape St Vincentから海と風まで、Vila do BispoのAIとテクノロジー、そしてAlgarve、ポルトガル、世界からVila do Bispoに届くもの。独立系で、すべての事実に出典あり。",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "PrompTugal.news Vila do Bispo: AI and technology in Vila do ",
+  "ok": false
+ },
+ "f58f83a9413ce2b4": {
+  "t": "AI4YouthWorkプロジェクト、Faroでユースワーカー向けの無料AIリソースを公開",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AI4YouthWork project launches free AI resources for youth wo",
   "ok": false
  },
  "f5c4b6076c6b6263": {

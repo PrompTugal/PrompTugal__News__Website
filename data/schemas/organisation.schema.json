@@ -383,6 +383,28 @@
         }
       },
       "additionalProperties": false
+    },
+    "wikidata": {
+      "type": "object",
+      "required": [
+        "id",
+        "read_at"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^Q[0-9]+$"
+        },
+        "read_at": {
+          "$ref": "common.schema.json#/$defs/read_at"
+        },
+        "how": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false,
+      "description": "the Wikidata item this is the same thing as (https://www.wikidata.org/wiki/<id>), read on the date; never guessed: no item, no field"
     }
   },
   "additionalProperties": false

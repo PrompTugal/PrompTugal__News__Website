@@ -7,6 +7,14 @@
   "src": "A Faro software firm tested its smart irrigation in Loulé, w",
   "ok": false
  },
+ "1c5396fa89f81c7e": {
+  "t": "O Estadio Algarve vai ganhar um centro multitecnológico com a IA entre as áreas de demonstração",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Estadio Algarve to get a multitechnology centre with AI amon",
+  "ok": false
+ },
  "1c77a443b6a6c396": {
   "t": "Uma reportagem da Lusa republicada pelo O Algarve Económico diz que a direção da universidade e a câmara municipal se reuniram para alinhar o plano Horizonte2030 da universidade com o plano diretor municipal para um campus em Barranco do Rodrigo. Mantém a meta de 2028 e estima o investimento em cerca de 8 milhões de euros (a reportagem de janeiro de 2025 dizia cerca de 15 milhões). Nenhuma licitação é descrita e esta reportagem não menciona IA.",
   "by": "translator@PrompTugal.dinis",

@@ -1,0 +1,32 @@
+{
+ "id": "tugatech",
+ "feed": "https://tugatech.com.pt/feed/",
+ "read_at": "2026-11-18T15:15Z",
+ "items": [
+  {
+   "title": "Rufus 4.16 chega para resolver falha de firmware que afeta milhões de PCs",
+   "link": "https://tugatech.com.pt/t94802-rufus-4-16-chega-para-resolver-falha-de-firmware-que-afeta-milhoes-de-pcs",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "SQL Server Management Studio 22.12.1 chega com contentores locais e proteção contra fechos acidentais",
+   "link": "https://tugatech.com.pt/t94801-sql-server-management-studio-22-12-1-chega-com-contentores-locais-e-protecao-contra-fechos-acidentais",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Mozilla abre linha telefónica para quem está farto do Microsoft Edge no Windows",
+   "link": "https://tugatech.com.pt/t94800-mozilla-abre-linha-telefonica-para-quem-esta-farto-do-microsoft-edge-no-windows",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Microsoft testa compilador AMD ACO na Xbox Series X e S com ganhos até 16%",
+   "link": "https://tugatech.com.pt/t94799-microsoft-testa-compilador-amd-aco-na-xbox-series-x-e-s-com-ganhos-ate-16",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Temu não convence Bruxelas e arrisca nova multa milionária na Europa",
+   "link": "https://tugatech.com.pt/t94798-temu-nao-convence-bruxelas-e-arrisca-nova-multa-milionaria-na-europa",
+   "date": "2026-11-17"
+  }
+ ]
+}

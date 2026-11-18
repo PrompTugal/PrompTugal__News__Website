@@ -1,0 +1,32 @@
+{
+ "id": "terras-de-viseu",
+ "feed": "https://terrasdeviseu.sapo.pt/feed/",
+ "read_at": "2026-11-18T15:15Z",
+ "items": [
+  {
+   "title": "AF Viseu abre inscrições para Formação Contínua de Futebol",
+   "link": "https://terrasdeviseu.sapo.pt/noticias/af-viseu-abre-inscricoes-para-formacao-continua-de-futebol",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Concurso “Quadras de São Martinho” premeia 49 trabalhos apresentados",
+   "link": "https://terrasdeviseu.sapo.pt/noticias/concurso-quadras-de-sao-martinho-premeia-49-trabalhos-apresentados",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Presidente da AF Viseu marcou presença no Plenário das Associações Distritais",
+   "link": "https://terrasdeviseu.sapo.pt/noticias/presidente-da-af-viseu-marcou-presenca-no-plenario-das-associacoes-distritais",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Município promove sessões de esclarecimento do Roteiro da Reabilitação Urbana em Viseu",
+   "link": "https://terrasdeviseu.sapo.pt/noticias/municipio-promove-sessoes-de-esclarecimento-do-roteiro-da-reabilitacao-urbana-em-viseu",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Avança construção de Estação Elevatória de Águas Residuais Domésticas em Pousamaria",
+   "link": "https://terrasdeviseu.sapo.pt/noticias/avanca-construcao-de-estacao-elevatoria-de-aguas-residuais-domesticas-em-pousamaria",
+   "date": "2026-11-13"
+  }
+ ]
+}

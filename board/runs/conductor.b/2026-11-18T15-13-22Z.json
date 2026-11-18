@@ -1,0 +1,102 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-18T15-13-22Z",
+ "started": "2026-11-18T15:13:22.528Z",
+ "ended": "2026-11-18T15:16:03Z",
+ "line": "library guidance and brief (learn from SGraph Send; sub-agents; library look; invitation to librarians); designer@, librarian@, ontologist@ told; gate red on dev@'s missing drop.json, told; startups and travel keys listed and lanes received",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T15:13:35.065Z",
+   "chars": 470,
+   "sha256": "f20890d2391c2937",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>9 unread notifications (message from another Claude session: 9)</summary>\nNotifications are que"
+  },
+  {
+   "t": "2026-11-18T15:14:44.478Z",
+   "chars": 1678,
+   "sha256": "e956a9bfa46989fa",
+   "head": "on the library, can you ask that agent when it fires up to really take the time to review the work that we've done on the sgsend, so sgraph__send project, which you should have referenced somewhere he"
+  },
+  {
+   "t": "2026-11-18T15:15:41.145Z",
+   "chars": 688,
+   "sha256": "c2ab63fadb85994c",
+   "head": "<task-notification>\n<task-id>b37xwljpq</task-id>\n<tool-use-id>toolu_01X94GLoYtv96CXsTXG26RHW</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/515926cf-81d6-5749-b4f9-7f55f"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 18,
+  "by_kind": {
+   "remote-conduct": 5,
+   "other": 1,
+   "secret": 1,
+   "git-push": 3,
+   "read": 1,
+   "shell": 4,
+   "remote-read": 2,
+   "git": 1
+  }
+ },
+ "policies_executed": {
+  "R8": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 17,
+  "commits": [
+   {
+    "sha": "bd5f08dbe",
+    "subject": "conductor.b@PrompTugal.dinis: guidance and brief, the library (learn from SGraph Send; its agents; a library look; an invitation to librarians)",
+    "files": 3
+   },
+   {
+    "sha": "2e8b7e0c1",
+    "subject": "conductor.b@PrompTugal.dinis: list startups.b-promptugal and travel.b-promptugal public keys (sgit pki, at Dinis's word in their sessions)",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-18T15:14:17.636Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "cat startups.enc: a private key or credentials file is never read into the conversation",
+    "target": "cd ~/.sg-send/lanes/obs && umask 077 && cat > startups.enc <<'EOF'\neyJ2IjogMiwgInciOiAiY2dtTkxHNDdJT1Bza21IRFgyRjhtRVhjV2cvd21QdXFDcUdwb3UyRVJrMnNQQUIwT3BFb0dxcERBQTdRM2FpVEw3TzczSnR3eU1JZ2l5Y1BZOEZJMHlMdllJZWI1bi9uYjdQYUFjeW9jS0lqUjd2ei9HZ"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 18,
+  "in_mandate": 17,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

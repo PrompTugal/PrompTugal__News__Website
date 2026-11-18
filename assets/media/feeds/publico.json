@@ -1,32 +1,32 @@
 {
  "id": "publico",
  "feed": "https://feeds.feedburner.com/PublicoRSS",
- "read_at": "2026-11-17T00:13Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
   {
-   "title": "Painéis de São Vicente com restauro concluído em Abril de 2027 para apresentação pública",
-   "link": "https://www.publico.pt/2026/11/16/culturaipsilon/noticia/paineis-sao-vicente-restauro-concluido-abril-2027-apresentacao-publica-2195190",
-   "date": "2026-11-16"
+   "title": "Gourmet ou especial? Café brasileiro é tudo isso e muito mais — e conquista Portugal",
+   "link": "https://www.publico.pt/2026/11/18/publico-brasil/noticia/gourmet-especial-cafe-brasileiro-mais-conquista-portugal-2195281",
+   "date": "2026-11-18"
   },
   {
-   "title": "Perguntar ao vento, esse hábito tão português",
-   "link": "https://www.publico.pt/2026/11/16/p3/cronica/perguntar-vento-habito-tao-portugues-2195134",
-   "date": "2026-11-16"
+   "title": "Há um plano para limpar o ar de Portugal. Mas quem fiscaliza e com que dinheiro?",
+   "link": "https://www.publico.pt/2026/11/18/azul/noticia/ha-plano-limpar-ar-portugal-fiscaliza-dinheiro-2195226",
+   "date": "2026-11-18"
   },
   {
-   "title": "Trump, que apoiou Jensen Huang após a queda, lucrou milhões com acções da Nvidia",
-   "link": "https://www.publico.pt/2026/11/16/mundo/noticia/trump-apoiou-jensen-huang-apos-queda-lucrou-milhoes-accoes-nvidia-2195166",
-   "date": "2026-11-16"
+   "title": "Rodrigo Prista vence segunda edição do Prémio de Poesia Nuno Júdice",
+   "link": "https://www.publico.pt/2026/11/18/culturaipsilon/noticia/rodrigo-prista-vence-segunda-edicao-premio-poesia-nuno-judice-2195360",
+   "date": "2026-11-18"
   },
   {
-   "title": "Califórnia processa OpenAI após incidentes com agentes de IA",
-   "link": "https://www.publico.pt/2026/11/16/enter/noticia/california-processa-openai-apos-incidentes-agentes-ia-2195183",
-   "date": "2026-11-16"
+   "title": "A trufa branca de Alba voltou: cinco sítios onde a provar",
+   "link": "https://www.publico.pt/2026/11/18/fugas/noticia/trufa-branca-alba-voltou-quatro-sitios-onde-provar-2195231",
+   "date": "2026-11-18"
   },
   {
-   "title": "Samba, semba, Baile Charme, poesia e capoeira na Festa da Consciência Negra em Lisboa",
-   "link": "https://www.publico.pt/2026/11/16/publico-brasil/noticia/samba-semba-baile-charme-poesia-capoeira-festa-consciencia-negra-lisboa-2195187",
-   "date": "2026-11-16"
+   "title": "BCE vê “paralelo” entre a IA e as bolhas do subprime e das tecnológicas",
+   "link": "https://www.publico.pt/2026/11/18/economia/noticia/bce-ve-paralelo-ia-bolhas-subprime-tecnologicas-2195354",
+   "date": "2026-11-18"
   }
  ]
 }

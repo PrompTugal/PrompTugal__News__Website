@@ -1,0 +1,42 @@
+{
+ "7862b73cf59b4d2c": {
+  "t": "Viseu Dão Lafões تعقد أول Smart Region Summit وتعرض منصة بيانات وذكاء اصطناعي لرؤساء البلديات",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Viseu Dão Lafões holds its first Smart Region Summit and sho",
+  "ok": false
+ },
+ "78bee850bc310c70": {
+  "t": "تأسيس شركة في {name}",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Starting a company in {name}",
+  "ok": true
+ },
+ "78dc9cc4a08684d2": {
+  "t": "كان بإمكان الشركات الناشئة في مراحلها المبكرة التي تبني الذكاء الاصطناعي أو تستخدمه بكثافة التقدم للاحتضان من April إلى September 2026، مع دعم تقني وإرشاد في الذكاء الاصطناعي. وتشارك البرتغال عبر FCT والمركز الوطني للحوسبة المتقدمة.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Early-stage startups building or intensively using AI could ",
+  "ok": false
+ },
+ "78e0284d3a099cdd": {
+  "t": "إنضاج جبن Serpa يحصل على مستشعرات وتعلم آلي، مع جامعة Beja شريكة",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Queijo Serpa curing gets sensors and machine learning, with ",
+  "ok": false
+ },
+ "78fba34193dcd135": {
+  "t": "برنامج Algarve STP لـ12 شركة ناشئة وصغيرة ومتوسطة في Algarve، ضمن Algarve Empreende 2026، أدرج التكنولوجيا والذكاء الاصطناعي بين مواضيع الإرشاد، مع UAlg وAMAL وNERA وANJE وAlgarve Evolution شركاء. أُغلق التقديم في 24 June 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Algarve STP's programme for 12 Algarve startups and SMEs, un",
+  "ok": false
+ }
+}

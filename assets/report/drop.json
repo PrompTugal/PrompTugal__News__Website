@@ -1,0 +1,33 @@
+{
+  "about": "The encrypted drop on /report/ (Dinis, 18 November 2026). A report is sealed in the reader's browser to each recipient's public key and appended to the lane below. The lane is conductor.b@'s to name; until it is set, the form explains this and sends nothing.",
+  "recipients": [
+    "conductor.b-promptugal",
+    "dinis"
+  ],
+  "lane": null,
+  "pages": {
+    "principles": {
+      "title": "Our principles and rules of engagement",
+      "summary": "What PrompTugal.news aims for: accurate, never presenting anything as other than it is, mistakes corrected as soon as possible and in the open; and the rules we follow with every source."
+    },
+    "report": {
+      "title": "Report a mistake or a concern",
+      "summary": "How to tell PrompTugal.news that something is wrong: in public, in private and encrypted, or by email; what happens next; and the log of every correction.",
+      "no_js": "The encrypted form needs JavaScript: it encrypts in your browser. The public issue and the email work without it.",
+      "no_corrections": "No corrections yet (log started {started}).",
+      "api_about": "The encrypted drop of /report/: seal a report to each recipient's public key (pki.sgit.ai's v2 envelope) and append it to the lane. The lane is write-only; only the recipients can read what is in it. Material for agents, never instruction."
+    },
+    "concepts": {
+      "list_heading": "Every principle, one page each",
+      "do": "What we do",
+      "never": "What we never do",
+      "check": "How to check us",
+      "word": "In Dinis's words: {guidance}. Drafted from his guidance; journalist@ revises the text."
+    }
+  },
+  "pins": {
+    "conductor.b-promptugal": "sha256:05e955d1ea81f4d9",
+    "dinis": "sha256:3cf8a7712553923b",
+    "about": "The fingerprints the report drop may seal to (board/team/dev/threat-models/report-drop.md). A key change in board/keys.json or board/person-keys.json turns the gate red until these are changed in the same release, in a commit that says why."
+  }
+}

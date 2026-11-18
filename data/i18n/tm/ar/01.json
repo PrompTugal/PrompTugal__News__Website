@@ -1,0 +1,26 @@
+{
+ "013c1f72c7c52f5a": {
+  "t": "المجلس البلدي ينضم إلى مشروع الإقليم الذكي Algarve 6.0",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Council joins the Algarve 6.0 smart territory project",
+  "ok": false
+ },
+ "0142951e524f4a76": {
+  "t": "Setúbal، ó pá: حيث يلتقي choco frito برافعة الشحن، وتهتم الدلافين بشأنها في نهر Sado، وقد قرر الميناء أن Copilot هو السردين الجديد.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Setúbal, ó pá: where the choco frito meets the cargo crane, ",
+  "ok": true
+ },
+ "014afca9858484ba": {
+  "t": "شركة Sybilion من Porto تجمع 3.6 مليون يورو لطبقة قرار بالذكاء الاصطناعي",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Sybilion, from Porto, raises 3.6 million euros for an AI dec",
+  "ok": false
+ }
+}

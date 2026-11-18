@@ -1,0 +1,32 @@
+{
+ "id": "global-news",
+ "feed": "http://globalnews.pt/feed/",
+ "read_at": "2026-11-18T15:15Z",
+ "items": [
+  {
+   "title": "SOCORRO VOLTOU À ACÇÃO COM LLAMA VIRGEM E BALEIA BALEIA BALEIA",
+   "link": "https://globalnews.pt/cultura/socorro-voltou-a-accao-com-llama-virgem-e-baleia-baleia-baleia/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Porto/Post/Doc 2026 &#8211; o que vai ser?",
+   "link": "https://globalnews.pt/cultura/porto-post-doc-2026-o-que-vai-ser/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "GURRIERS NO MOUCO: UM CAOS DELICIOSO SEMPRE EM ALTA ROTAÇÃO",
+   "link": "https://globalnews.pt/cultura/gurriers-no-mouco-um-caos-delicioso-sempre-em-alta-rotacao/",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "FC Porto goleia CE Lleida e conquista a Taça Continental",
+   "link": "https://globalnews.pt/desporto/fc-porto-goleia-ce-lleida-e-conquista-a-taca-continental/",
+   "date": "2026-11-15"
+  },
+  {
+   "title": "FC Porto na final da Taça Continental",
+   "link": "https://globalnews.pt/desporto/fc-porto-na-final-da-taca-continental/",
+   "date": "2026-11-14"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "5d506e2834f29e75": {
+  "t": "Ainda não sabemos tudo، ó pá. إليكم ما لم تخبرنا به Leiria بعد:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda não sabemos tudo, ó pá. Here is what Leiria has not to",
+  "ok": true
+ },
+ "5d85648672241449": {
+  "t": "مشروع ممول من PRR يمنح تجار Quarteira منصات بيع عبر الإنترنت وواي فاي إضافيًا وشاشات شوارع رقمية وقسائم لخدمات رقمية. ولا يذكر المقال الذكاء الاصطناعي. ويهمنا بوصفه القاعدة الرقمية التي ستقوم عليها أدوات الذكاء الاصطناعي لاحقًا.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A PRR-funded project gives Quarteira's merchants online sale",
+  "ok": false
+ },
+ "5d86f172e5b4beb9": {
+  "t": "يرشد الإطار المعلمين إلى متى وكيف يستخدمون الذكاء الاصطناعي، ويرفض الحظر وكواشف الذكاء الاصطناعي لصالح استخدام شفاف مرتبط بالمهارات المقيَّمة، ويشير إلى مجتمع ممارسة من 120 معلمًا وورش AcademIA UA. وتورده لائحة الجامعة نفسها باسم Despacho n.º 65-REIT/2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The framework guides teachers on when and how to use AI, rej",
+  "ok": false
+ },
+ "5d97ee52fae5fa6b": {
+  "t": "Hospital de Évora يبدأ استخدام الذكاء الاصطناعي في فحص سرطان عنق الرحم",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Hospital de Évora starts using AI in cervical cancer screeni",
+  "ok": false
+ },
+ "5db55f2433d7005b": {
+  "t": "PrompTugal.news حسب المكان: كل مكان وحالته ووكيله وأعداده وصفحته وملف JSON الخاص به (api/v1/by-place/<id>.json)",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news by place: each place, its status, its agent,",
+  "ok": false
+ },
+ "5dd868165a4a1766": {
+  "t": "ورشة AI4YouthWork عن محو الأمية في الذكاء الاصطناعي للعاملين مع الشباب تُقام في Faro",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AI4YouthWork workshop on AI literacy for youth workers held ",
+  "ok": false
+ },
+ "5df87418dfc0bba9": {
+  "t": "التوقعات والتحذيرات لـ{name}: [IPMA](https://www.ipma.pt/en/)، دائرة الأرصاد الجوية في البرتغال.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Forecasts and warnings for {name}: [IPMA](https://www.ipma.p",
+  "ok": false
+ },
+ "5dfba29d80269e68": {
+  "t": "Turismo do Algarve تجدول معسكرات للذكاء الاصطناعي والمياه مع مدارس الضيافة، بينها Faro",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Turismo do Algarve schedules AI and water bootcamps with hos",
+  "ok": false
+ }
+}

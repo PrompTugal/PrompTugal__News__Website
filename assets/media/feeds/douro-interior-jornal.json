@@ -1,0 +1,32 @@
+{
+ "id": "douro-interior-jornal",
+ "feed": "https://www.dourointeriorjornal.pt/feed/",
+ "read_at": "2026-11-18T15:15Z",
+ "items": [
+  {
+   "title": "GD Boticas conquista Supertaça de Futsal Sénior Masculino",
+   "link": "https://www.dourointeriorjornal.pt/noticias/gd-boticas-conquista-supertaca-de-futsal-senior-masculino",
+   "date": "2026-09-14"
+  },
+  {
+   "title": "Vila Real e a UTAD assumem protocolo no desenvolvimento do território",
+   "link": "https://www.dourointeriorjornal.pt/noticias/vila-real-e-a-utad-assumem-protocolo-no-desenvolvimento-do-territorio",
+   "date": "2026-09-14"
+  },
+  {
+   "title": "Atividade operacional do Comando Distrital de Vila Real",
+   "link": "https://www.dourointeriorjornal.pt/noticias/atividade-operacional-do-comando-distrital-de-vila-real-1789058200",
+   "date": "2026-09-11"
+  },
+  {
+   "title": "Concluídas obras de pavimentação da Rua Miguel Torga",
+   "link": "https://www.dourointeriorjornal.pt/noticias/concluidas-obras-de-pavimentacao-da-rua-miguel-torga",
+   "date": "2026-09-11"
+  },
+  {
+   "title": "Piscina Municipal Coberta reabre ao público dia 14 de setembro",
+   "link": "https://www.dourointeriorjornal.pt/noticias/piscina-municipal-coberta-reabre-ao-publico-dia-14-de-setembro",
+   "date": "2026-09-10"
+  }
+ ]
+}

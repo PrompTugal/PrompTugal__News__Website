@@ -1,0 +1,32 @@
+{
+ "id": "jornal-economico",
+ "feed": "https://jornaleconomico.sapo.pt/feed/",
+ "read_at": "2026-11-18T15:15Z",
+ "items": [
+  {
+   "title": "Escritor Mia Couto nomeado para Prémio Literário de Dublin",
+   "link": "https://jornaleconomico.sapo.pt/noticias/escritor-mia-couto-nomeado-para-premio-literario-de-dublin/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "&#8220;Derrama estadual tem os anos contados&#8221;, garante ministro da Economia",
+   "link": "https://jornaleconomico.sapo.pt/noticias/derrama-estadual-tem-os-anos-contados-garante-ministro-da-economia/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "ERC atua junto da Meta sobre limitações aos media e pede colaboração com regulador irlandês",
+   "link": "https://jornaleconomico.sapo.pt/noticias/erc-atua-junto-da-meta-sobre-limitacoes-aos-media-e-pede-colaboracao-com-regulador-irlandes/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Nenhum PPR conservador ou moderado bateu a inflação em cinco anos. Só 12 de 64 conseguiram",
+   "link": "https://jornaleconomico.sapo.pt/noticias/nenhum-ppr-conservador-ou-moderado-bateu-a-inflacao-em-cinco-anos-so-12-de-64-conseguiram/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Eletrodomésticos: volume de negócios dos grossistas supera 1,84 mil milhões em 2025",
+   "link": "https://jornaleconomico.sapo.pt/noticias/eletrodomesticos-volume-de-negocios-dos-grossistas-supera-184-mil-milhoes-em-2025/",
+   "date": "2026-11-18"
+  }
+ ]
+}

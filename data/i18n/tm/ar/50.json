@@ -1,0 +1,42 @@
+{
+ "504078283eadeeb4": {
+  "t": "شارك خمسة وأربعون تلميذًا من الصفين الثالث والرابع في الجمعية البلدية للأطفال التابعة للمجلس، حيث اتخذت كل مدرسة الذكاء الاصطناعي موضوعًا وكتب التلاميذ 12 اقتراحًا حول استخدامه بالتفكير النقدي. وتحدث فيها نائب رئيس المجلس.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Forty-five pupils from years 3 and 4 took part in the counci",
+  "ok": false
+ },
+ "5066aa75096a3dbe": {
+  "t": "FuriosaAI، شركة ناشئة كورية جنوبية لرقائق الذكاء الاصطناعي، تفتتح مكتبها الأوروبي الرئيسي في Lisbon",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "FuriosaAI, a South Korean AI chip start-up, sets up its Euro",
+  "ok": false
+ },
+ "5070993ad7db0e90": {
+  "t": "استضافت جمعية الأعمال الإقليمية NERA جلسة في CRIA، قسم ريادة الأعمال في Universidade do Algarve في Faro، حول استخدام أدوات الذكاء الاصطناعي لتحويل ملاحظات العملاء إلى قرارات أعمال. أُقيمت في 10 November ضمن مشروع INTREPIDA pro العابر للحدود.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The regional business association NERA hosted a session at C",
+  "ok": false
+ },
+ "50849a820822daab": {
+  "t": "PrompTugal.news Aveiro، a cidade dos canais: الذكاء الاصطناعي والتقنية في Aveiro، مع Universidade de Aveiro وInstituto de Telecomunicações عقلين كبيرين، والـCâmara تقيم Tech Week، وما تبحر به الأخبار من البرتغال والبرازيل والعالم. Independente، وكل واقعة تأتي بإيصالها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Aveiro, a cidade dos canais: AI and tech in ",
+  "ok": false
+ },
+ "509b72800fc577e3": {
+  "t": "رئيس ميناء Setúbal: الذكاء الاصطناعي ينقل الموانئ من رد الفعل إلى التنبؤ",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Setúbal's port chief says AI is moving ports from reactive t",
+  "ok": true
+ }
+}

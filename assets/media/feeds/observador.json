@@ -1,32 +1,32 @@
 {
  "id": "observador",
  "feed": "https://observador.pt/feed/",
- "read_at": "2026-11-17T00:13Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
   {
-   "title": "As notícias das 00h",
-   "link": "https://observador.pt/programas/noticiario/as-noticias-das-00h-2475/",
-   "date": "2026-11-17"
+   "title": "As notícias das 15h",
+   "link": "https://observador.pt/programas/noticiario/as-noticias-das-15h-2520/",
+   "date": "2026-11-18"
   },
   {
-   "title": "O “ministro penumbra” do Chega e a política da indignação",
-   "link": "https://observador.pt/opiniao/defesa-nacional-o-ministro-penumbra-do-chega-e-a-politica-da-indignacao-permanente/",
-   "date": "2026-11-17"
+   "title": "Germano de Sousa: Entre o legado do pai e o futuro do neg...",
+   "link": "https://observador.pt/programas/negocios-de-familia/germano-de-sousa-entre-o-legado-do-pai-e-o-futuro-do-negocio/",
+   "date": "2026-11-18"
   },
   {
-   "title": "O Santo Ofício da esquerda e a heresia de votar à direita",
-   "link": "https://observador.pt/opiniao/o-santo-oficio-da-esquerda-e-a-heresia-de-votar-a-direita/",
-   "date": "2026-11-17"
+   "title": "Dacia prossegue revolução eléctrica \"low-cost\"",
+   "link": "https://observador.pt/2026/11/18/dacia-prossegue-revolucao-electrica-low-cost-sandero-e-o-senhor-que-se-segue/",
+   "date": "2026-11-18"
   },
   {
-   "title": "Falência não devia ser pena perpétua",
-   "link": "https://observador.pt/opiniao/a-falencia-nao-devia-ser-uma-pena-perpetua-para-o-pequeno-empresario/",
-   "date": "2026-11-17"
+   "title": "Arruda dos Vinhos prioriza reconstrução",
+   "link": "https://observador.pt/2026/11/18/arruda-dos-vinhos-prioriza-reconstrucao-no-orcamento-para-2027/",
+   "date": "2026-11-18"
   },
   {
-   "title": "A Inteligência Artificial e a Estupidez Natural",
-   "link": "https://observador.pt/opiniao/a-inteligencia-artificial-e-a-estupidez-natural/",
-   "date": "2026-11-17"
+   "title": "SATA estima que greves vão custar 14 milhões de euros",
+   "link": "https://observador.pt/2026/11/18/sata-estima-que-greves-dos-tripulantes-e-handling-vao-custar-14-milhoes-de-euros/",
+   "date": "2026-11-18"
   }
  ]
 }

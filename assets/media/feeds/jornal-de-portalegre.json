@@ -1,0 +1,32 @@
+{
+ "id": "jornal-de-portalegre",
+ "feed": "https://jornaldeportalegre.sapo.pt/feed/",
+ "read_at": "2026-11-18T15:15Z",
+ "items": [
+  {
+   "title": "Dupla do Atletismo Clube de Portalegre vence em Nisa",
+   "link": "https://jornaldeportalegre.sapo.pt/noticias/dupla-do-atletismo-clube-de-portalegre-vence-em-nisa",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Profissionais da ULS Alto Alentejo distinguidos no Congresso da APEO",
+   "link": "https://jornaldeportalegre.sapo.pt/noticias/profissionais-da-uls-alto-alentejo-distinguidos-no-congresso-da-apeo",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "CD Portalegrense Sub-18 vence mais uma jornada do Campeonato Distrital",
+   "link": "https://jornaldeportalegre.sapo.pt/noticias/cd-portalegrense-sub-18-vencemais-uma-jornada-do-campeonato-distrital",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Portalegre recebeu reunião mensal do Conselho Intermunicipal da CIMAA",
+   "link": "https://jornaldeportalegre.sapo.pt/noticias/portalegre-recebeu-reuniao-mensal-do-conselho-intermunicipal-da-cimaa",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Portalegre promove Passeio micológico com Degustação de Cogumelos",
+   "link": "https://jornaldeportalegre.sapo.pt/noticias/portalegre-promove-passeio-micologico-com-degustacao-de-cogumelos",
+   "date": "2026-11-13"
+  }
+ ]
+}

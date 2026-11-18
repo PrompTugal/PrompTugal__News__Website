@@ -1,0 +1,27 @@
+{
+ "id": "radio-azul",
+ "feed": "https://radioazul.pt/feed/",
+ "read_at": "2026-11-18T15:10Z",
+ "items": [
+  {
+   "title": "Nuno Maia da AISET falou sobre a Península de Setúbal e o seu futuro",
+   "link": "https://radioazul.pt/nuno-maia-da-aiset-falou-sobre-a-peninsula-de-setubal-e-o-seu-futuro/",
+   "date": "2026-07-15"
+  },
+  {
+   "title": "Pedro Dominguinhos afirma que fundos europeus são importantes para desenvolvimento da região de Setúbal",
+   "link": "https://radioazul.pt/pedro-dominguinhos-afirma-que-fundos-europeus-sao-importantes-para-desenvolvimento-da-regiao-de-setubal/",
+   "date": "2026-07-15"
+  },
+  {
+   "title": "Vitor Caldeirinha da administração dos Portos esteve em entrevista",
+   "link": "https://radioazul.pt/vitor-caldeirinha-da-administracao-dos-portos-esteve-em-entrevista/",
+   "date": "2026-06-30"
+  },
+  {
+   "title": "Paulo Ribeiro da administração interna foi o 1º convidado de &#8220;Momentos&#8221;",
+   "link": "https://radioazul.pt/paulo-ribeiro-da-administracao-interna-foi-o-1o-convidado-de-momentos/",
+   "date": "2026-06-18"
+  }
+ ]
+}

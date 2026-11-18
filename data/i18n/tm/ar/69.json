@@ -1,0 +1,34 @@
+{
+ "690fcfd22acf1835": {
+  "t": "Venture Lab تفتح دعوة إرشاد مجانية من مواضيعها التكنولوجيا والذكاء الاصطناعي",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Venture Lab opens a free mentoring call whose topics include",
+  "ok": false
+ },
+ "694151e7c32d3ab4": {
+  "t": "PrompTugal.news Viana do Castelo: الذكاء الاصطناعي والتكنولوجيا في Viana do Castelo، مدينة ميناء مركز ثقلها بوليتكنيكها ومختبر لابتكار البيانات ومصنع جديد لمعدات مراكز البيانات، وما يصل إلى Viana do Castelo من Alto Minho والبرتغال والعالم. مستقل؛ كل واقعة موثّقة بمصدرها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Viana do Castelo: AI and technology in Viana",
+  "ok": false
+ },
+ "69568bc882f07217": {
+  "t": "CoLagos، مساحة coworking التابعة للمجلس، تفوز بجائزة إقليمية للعام الثالث",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "CoLagos, the council's coworking space, wins a regional awar",
+  "ok": false
+ },
+ "69932eb3fcd93dc9": {
+  "t": "Startup Braga تحمل 15 شركة ناشئة إلى Web Summit، أربع منها مبنية على الذكاء الاصطناعي",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Startup Braga takes 15 startups to Web Summit, four of them ",
+  "ok": true
+ }
+}

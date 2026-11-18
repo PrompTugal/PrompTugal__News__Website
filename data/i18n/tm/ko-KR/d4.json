@@ -48,12 +48,13 @@
   "ok": false
  },
  "d45aa1cda74a1860": {
-  "t": "Bragança, ó pá: 천수각이 밤나무 위를 지키고, 겨울이 매섭게 물며, 폴리테크닉이 북부 전체에 기계와 대화하는 법을 조용히 가르치는 곳. 과학 단지는 슈퍼컴퓨터를 단축 다이얼에 걸어 두고 있습니다.",
+  "t": "Bragança, ó pá: 성탑이 밤나무 위를 지키고, 겨울이 매섭게 물며, 폴리테크닉이 북부 전체에 기계와 대화하는 법을 조용히 가르치는 곳. 과학 단지는 슈퍼컴퓨터를 단축 다이얼에 걸어 두고 있습니다.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "Bragança, ó pá: where the keep stands guard over the chestnu",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  },
  "d4908b4fd6bb7256": {
   "t": "PACT, 로보틱스용 AI 교육으로 500명 넘게 교육한 뒤 AIRA 프로젝트 종료",

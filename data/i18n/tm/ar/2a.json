@@ -1,0 +1,34 @@
+{
+ "2a64c34075cf2dd6": {
+  "t": "في Porto Innovation Hub قدّم المجلس ثمانية مشاريع بلدية في الخدمات الرقمية وتحديث الإدارة والمدينة الذكية والتوظيف، طالبًا من الشركات والجامعات اقتراح حلول. ولا تقول الصفحة أي المشاريع يستخدم الذكاء الاصطناعي.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "At the Porto Innovation Hub the council presented eight muni",
+  "ok": false
+ },
+ "2a76a80ec09f2c59": {
+  "t": "أُقيم AITRAS يومي 5 و6 March في كلية الزراعة والبيطرة في UTAD، بمتحدثين من عدة جامعات أوروبية وحالات من الإنتاج الحيواني والحراجة وزراعة الكروم وقطاع الأغذية الزراعية.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AITRAS ran on 5 and 6 March at UTAD's agrarian and veterinar",
+  "ok": false
+ },
+ "2aed6185a7d900cb": {
+  "t": "Coimbra بين أوائل المجالس التي تجرّب الذكاء الاصطناعي في ترخيص البناء الحضري",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Coimbra is among the first councils to test AI in urban lice",
+  "ok": false
+ },
+ "2af0fa78e77b7dc6": {
+  "t": "SalOS مشمول أيضًا كمنصة تتبّع جاهزة لجواز المنتج الرقمي في الاتحاد الأوروبي",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "SalOS is also covered as a traceability platform ready for t",
+  "ok": true
+ }
+}

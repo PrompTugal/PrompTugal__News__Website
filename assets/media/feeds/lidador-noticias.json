@@ -1,0 +1,32 @@
+{
+ "id": "lidador-noticias",
+ "feed": "https://lidadornoticias.pt/feed/",
+ "read_at": "2026-11-18T15:15Z",
+ "items": [
+  {
+   "title": "Sete/ Castro Verde: Novo relvado sintético inaugurado a 28 de novembro.",
+   "link": "https://lidadornoticias.pt/sete-castro-verde-novo-relvado-sintetico-inaugurado-a-28-de-novembro/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "PARA ALÉM DO CARTÃO PROFISSIONAL, CONHECIMENTO, COMPETÊNCIA E RESPONSABILIDADE",
+   "link": "https://lidadornoticias.pt/para-alem-do-cartao-profissional-conhecimento-competencia-e-responsabilidade/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Vidigueira: Prisão preventiva para dois suspeitos de tráfico de droga em Selmes.",
+   "link": "https://lidadornoticias.pt/vidigueira-prisao-preventiva-para-dois-suspeitos-de-trafico-de-droga-em-selmes/",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "(Última hora) Beja: Greve dos guardas prisionais adia julgamentos. Casal que atirou idoso a poço, pode não conhecer hoje decisão.",
+   "link": "https://lidadornoticias.pt/ultima-hora-beja-greve-dos-guardas-prisionais-adia-julgamentos-casal-que-atirou-idoso-a-poco-pode-nao-conhecer-hoje-decisao/",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Beja: Comunidade de biotecnologia agroalimentar reúne sob o tema “Biotecnologia ao Serviço de uma Agricultura Resiliente”.",
+   "link": "https://lidadornoticias.pt/beja-comunidade-de-biotecnologia-agroalimentar-reune-sob-o-tema-biotecnologia-ao-servico-de-uma-agricultura-resiliente/",
+   "date": "2026-11-17"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "200767ac0638a929": {
+  "t": "مؤتمر في مكتبة Olhão يسأل ماذا يعني الذكاء الاصطناعي للصحة والاقتصاد والتعليم",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Conference at Olhão's library asks what AI means for health,",
+  "ok": false
+ },
+ "202d2e7e12f65bf7": {
+  "t": "الذكاء الاصطناعي والتكنولوجيا في {name}، في Algarve: {local}، و{map} على خريطة الذكاء الاصطناعي، وكل واقعة موثّقة بمصدرها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AI and technology in {name}, in the Algarve: {local}, {map} ",
+  "ok": false
+ },
+ "20a05a374ef6d424": {
+  "t": "شركة مراكز البيانات NxN تشتري موقعًا بقدرة 1 ميغاواط في Évora",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Data centre firm NxN buys a 1 MW site in Évora",
+  "ok": false
+ }
+}

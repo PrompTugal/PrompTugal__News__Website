@@ -1,0 +1,18 @@
+{
+  "about": "The Swagger of Swaggers on promptugal.news/apis/ (Dinis, 18 November 2026, about 16:00 UTC: board/guidance/2026-11-18-the-pipeline-standard-and-the-fact-checker.md): every PrompTugal site's OpenAPI document, one picker, the vendored Swagger UI. A site is listed once its document answers. dev@PrompTugal.dinis.",
+  "title": "Every PrompTugal API",
+  "summary": "One page for the APIs of every PrompTugal site: pick a site and call its endpoints. GET only, all public, no key.",
+  "md": [
+    "Every PrompTugal site publishes its data as JSON with an OpenAPI document. Pick a site below and its endpoints load here, ready to call. They are all plain GET calls on public files: no key, no account.",
+    "Each document is fetched by your browser straight from that site. A site joins the list once its document is published."
+  ],
+  "pick": "Site",
+  "no_js": "The picker needs JavaScript. The documents are linked above, one per site.",
+  "sites": [
+    { "name": "promptugal.news", "spec": "../api/v1/openapi.json" },
+    { "name": "data.promptugal.news", "spec": "https://data.promptugal.news/api/v1/openapi.json" },
+    { "name": "civic.promptugal.news", "spec": "https://civic.promptugal.news/api/v1/openapi.json" }
+  ],
+  "waiting": ["events.promptugal.news", "weather.promptugal.news", "startups.promptugal.news", "travel.promptugal.news"],
+  "waiting_label": "Not published yet"
+}
