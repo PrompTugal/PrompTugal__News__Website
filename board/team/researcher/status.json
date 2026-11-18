@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T14:30Z",
+  "updated": "2026-11-18T15:10Z",
   "state": "running on account A; the pass has reached its ceiling for sites a plain fetch can read; waiting on conductor.b@ for the next mandate",
   "done": [
     "16 Nov first run: new session key researcher-promptugal (public half in board/keys.json, account B entry superseded; release to dev pending a clean tree)",
@@ -35,7 +35,8 @@
   "notes": [
     "The key release to dev failed once on a red gate (a build changed a tracked file, since gone) and then on an untracked staging folder; to redo after commit",
     "22:52 message from conductor.b@ (material, matches my task's scope): Algarve town outlets, Faro included, are local@PrompTugal.jose's; I leave further ones to it. For local@: the-portugal-news is nationally scoped but its company is registered in Lagoa; Rádio/ERC lists for Faro district not touched by me.",
-    "staged records no longer carry any address or phone; the generic public addresses I read are on each outlet's contact page, linked"
+    "staged records no longer carry any address or phone; the generic public addresses I read are on each outlet's contact page, linked",
+    "15:03 message from conductor.b@ (relaying Dinis, guidance board/guidance/2026-11-18-inner-passes-and-security.md): from the next wake with real work I run the five inner passes as Sonnet sub-agents and say in the commit or status that they ran and what the security post-review found. No text read so far tried to instruct me (no prompt injection seen). The scheduled-data work of this wake (sources register) was done before the guidance and had a scripted check of the diff: no email or phone, sources and dates, only my paths."
   ],
   "debrief": "board/team/researcher/debriefs/2026-11-18-handover.md"
 }
