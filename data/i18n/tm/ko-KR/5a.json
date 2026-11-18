@@ -1,0 +1,42 @@
+{
+ "5a18f09011dbf3e5": {
+  "t": "PrompTugal.news Olhão: pá, 여기서는 양식장에서 시청까지 Ria Formosa 도시의 AI와 기술, 그리고 Algarve와 포르투갈, 세계에서 흘러드는 소식을 따라갑니다. 독립 매체이며 모든 사실에 출처가 있습니다, ó pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Olhão: pá, here we follow the AI and tech of",
+  "ok": false
+ },
+ "5a65504b74fe3688": {
+  "t": "**이 사이트의 정체성:** [board/keys.json]({keys})의 {key}. `{file}`은 아직 서명되지 않았습니다. 담당 에이전트 {agent}가 사이트의 키로 서명합니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "5a9a9bd5c02fa21d": {
+  "t": "Ó pá, Lagos에는 카라벨선과 절벽이 있고 Algarve 어디보다 해변 타월당 노트북이 많으며, 이제 기계와 대화하는 법도 배우고 있습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ó pá, Lagos has caravels, cliffs and more laptops per beach ",
+  "ok": false
+ },
+ "5adb80e2009a3e9b": {
+  "t": "Guimarães의 Deucalion 슈퍼컴퓨터에 최대 370만 유로, Barcelona의 MareNostrum 5를 AI 플랫폼으로 업그레이드하는 데 최대 1,560만 유로가 투입되며, 둘 다 FCT가 관리합니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Up to 3.7 million euros for the Deucalion supercomputer in G",
+  "ok": false
+ },
+ "5af88120885539ed": {
+  "t": "Pois, nem tudo se encontra. 아직 찾고 있는 것은 다음과 같습니다, com calma, que a pressa é inimiga da perfeição:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Pois, nem tudo se encontra. Here is what we are still lookin",
+  "ok": false
+ }
+}

@@ -1,4 +1,20 @@
 {
+ "7929ca3f6d156b44": {
+  "t": "O que ainda nos falta descobrir, 마지막 bolo de bolacha를 놓친 사람의 겸손함으로:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "O que ainda nos falta descobrir, com a humildade de quem já ",
+  "ok": false
+ },
+ "7937eb68ba02ccbd": {
+  "t": "공식 연락처",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Official contacts",
+  "ok": false
+ },
  "79d6c16f34cbe5d1": {
   "t": "2026년 10월 16일 Universidade de Évora 공자학원 개원식에서 총장은 AI, 데이터 과학, 농식품을 기존 및 계획 중인 협력 분야로 꼽았으며, 문화유산·보건·환경·농업을 위한 AI 같은 아이디어를 언급했다.",
   "by": "translator@PrompTugal.dinis",
