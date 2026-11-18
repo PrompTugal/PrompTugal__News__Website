@@ -352,10 +352,9 @@
         "fingerprint": "sha256:2be4372a9ba5de94",
         "signing_fingerprint": "sha256:510645ab1d366802"
       },
-      "status": "superseded",
-      "superseded_at": "2026-11-17T18:15Z",
-      "superseded_by": "observability-promptugal-2",
-      "superseded_note": "The first observability session stopped at the account move on 16 November; session 2 took over on 17 November at Dinis's word (conductor@)."
+      "status": "active",
+      "reinstated_at": "2026-11-18T07:00Z",
+      "reinstated_note": "Superseded on 17 November when session 2 was started; Dinis then chose to keep this session (18 November), because it still holds the drain's credentials. Session 2 (observability-promptugal-2) is retired."
     },
     {
       "id": "historian-promptugal",
@@ -4081,7 +4080,10 @@
         "fingerprint": "sha256:b638172041d2eaa4",
         "signing_fingerprint": "sha256:b0c9c8a018107f20"
       },
-      "status": "active"
+      "status": "superseded",
+      "superseded_at": "2026-11-18T07:00Z",
+      "superseded_by": "observability-promptugal",
+      "superseded_note": "Session 2 was started by mistake on 17 November (the first session still existed and held the drain's credentials); at Dinis's word on 18 November session 1 carries on and this key is retired. Nothing was sealed to it."
     }
   ]
 }

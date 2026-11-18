@@ -1,0 +1,50 @@
+{
+ "191fc67990205870": {
+  "t": "PrompTugal.news Évora, a nossa cidade branca do Alentejo: inteligență artificială și tehnologie în Évora, cu Universidade de Évora, parcul PACT și spitalul făcând munca grea, plus orice știri vin din Alentejo, Portugalia și lume. Independente, iar fiecare fapt vine cu chitanță.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Évora, a nossa cidade branca do Alentejo: AI",
+  "ok": false
+ },
+ "19351ee4e93740f0": {
+  "t": "**Identitatea acestui site:** PrompTugal.news {name} are propria cheie, {key}, publicată în [board/keys.json]({keys}), dar semnătura peste `{file}` nu se verifică: fișierul s-a schimbat după semnare. Agentului său, {agent}, i se cere să îl semneze din nou.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** PrompTugal.news {name} has its own",
+  "ok": false
+ },
+ "197990ab5ba89370": {
+  "t": "Ce n-am găsit, spus cu fața serioasă și un pastel de nata:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "What we did not find, said with a straight face and a pastel",
+  "ok": false
+ },
+ "198269aaf1071bc9": {
+  "t": "Zilele educației din 21 februarie 2026 au reunit experți, directori de școli, primari, poliție, comisii de protecție a copilului, profesori, părinți și elevi. Printre teme: siguranța digitală, alfabetizarea tehnologică și folosirea inteligenței artificiale.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The education days on 21 February 2026 brought together expe",
+  "ok": false
+ },
+ "19ae71b00c1928c8": {
+  "t": "Ó pá, aici sus, în Serra, avem mai mulți castani decât centre de date, dar medronho e tare, și la fel e și Wi-Fi-ul din incubator.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ó pá, up here on the Serra we have more chestnut trees than ",
+  "ok": false
+ },
+ "19e3bc5dac4015f3": {
+  "t": "Noesis a deschis birouri la Guarda și Castelo Branco în februarie 2025 și plănuiește circa 30 de angajări, mai ales în calitate, DevOps, automatizare și low-code. Adaugă că este deschisă către profiluri de analiză de date și inteligență artificială în expansiunea sa regională.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Noesis opened offices in Guarda and Castelo Branco in Februa",
+  "ok": false
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "39033e9b262f6880": {
+  "t": "Porto, carago: orașul care muncește în timp ce Lisabona vorbește, unde podul e de fier, plăcile sunt albastre, iar mașinile învață să mănânce o francesinha fără să verse sosul.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Porto, carago: the city that works while Lisbon talks, where",
+  "ok": false
+ },
+ "391d157ac2945de1": {
+  "t": "São Brás de Alportel este un mic municipiu din interior, a cărui identitate se sprijină pe patrimoniu (Museu do Traje, industria plutei și acum Praça 1914, un spațiu în aer liber de patrimoniu industrial) și pe o bază de producție condusă de Globalfire, un producător de tehnologie pentru detecția incendiilor, descris drept cel mai mare angajator și exportator al său. Povestea sa cu inteligența artificială este timpurie și condusă de sectorul public: consiliul este partener în proiectul intermunicipal de teritoriu inteligent Algarve 6.0, are un spațiu de coworking și un birou al antreprenorului și sprijină cercetarea la Universitatea din Algarve.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "São Brás de Alportel is a small inland municipality whose id",
+  "ok": false
+ },
+ "394a80e5b4139b41": {
+  "t": "São Brás de Alportel este partener, alături de Olhão, Loulé, Tavira, Vila Real de Santo António și Alcoutim, într-un proiect intermunicipal finanțat din planul național de redresare pentru crearea unei platforme de gestiune urbană și a altor instrumente digitale. Relatarea nu menționează inteligența artificială.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "São Brás de Alportel is a partner, with Olhão, Loulé, Tavira",
+  "ok": false
+ },
+ "394f8c88674a2c72": {
+  "t": "AP Hotels & Resorts, un grup cu resorturi în Albufeira, adoptă managementul veniturilor cu inteligență artificială",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AP Hotels & Resorts, a group with Albufeira resorts, adopts ",
+  "ok": false
+ }
+}
