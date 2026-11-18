@@ -38,8 +38,9 @@
       "model": "Opus",
       "does": "pre/post reviews, contacts line",
       "session": "session_01Kw9UwF2TrbbV5BhUjFGupN",
-      "cron": "3 */2 * * *",
-      "trigger": "trig_0182A4zLmnsQHPhJchAPdsgv"
+      "cron": "CRON_TZ=Europe/Lisbon 3 0,3,6-23 * * *",
+      "trigger": "trig_0182A4zLmnsQHPhJchAPdsgv",
+      "cron_changed": "2026-11-18T15:01Z at Dinis's word (board/guidance/2026-11-18-inner-passes-and-security.md); scope widened to every PrompTugal repo by message (its wake prompt can only be edited from its own session)"
     },
     {
       "agent": "place.algarve.west@PrompTugal.dinis",
