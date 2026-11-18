@@ -1,0 +1,42 @@
+{
+ "e72981ce21809675": {
+  "t": "Ainda não sabemos tudo, pá. Faro가 아직 말해 주지 않은 것은 다음과 같습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda não sabemos tudo, pá. Here is what Faro has not told u",
+  "ok": false
+ },
+ "e7908f114d56ddcd": {
+  "t": "Viana do Castelo, ai Jesus: 언덕 위의 대성당, 어디서 멈출지 정하지 못하는 강, 그리고 온 도시가 항구를 바라보는 사이 컴퓨터에게 허가증 읽는 법을 조용히 가르치는 시의회.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Viana do Castelo, ai Jesus: a basilica on the hill, a river ",
+  "ok": false
+ },
+ "e7bebd39ad02304e": {
+  "t": "Loulé 미술 전시 ./logSinapses, AI와 알고리즘 매개를 주제로 삼다",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Loulé art exhibition ./logSinapses took AI and algorithmic m",
+  "ok": false
+ },
+ "e7f26edd2ea41eb9": {
+  "t": "정부는 이미 기술적으로 준비된 소수의 자치단체에서 시범 사업을 계획하며, AI가 시 플랫폼 위의 단일 접근 계층으로 기능하고 건축 허가부터 시작한다. 코임브라는 1단계에 포함돼 있으며 시장은 AI가 도시계획 규정을 지키면서 공공 서비스의 인간미를 잃지 않고 절차를 빠르게 할 수 있다고 말했다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The government plans a pilot in a small number of municipali",
+  "ok": false
+ },
+ "e7f72e1b48d63a7d": {
+  "t": "Faro의 기업 Visualforma는 Itelmatis 및 University of Algarve와 함께 개발해 Loulé에서 시험한 녹지 관개 제어 시스템을 소개했다. 현장 데이터로 급수를 최적화하며 AI와 머신러닝 모듈이 계획돼 있다. 2023년 4월의 오래된 소식이다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Visualforma, a Faro company, described a green-spaces irriga",
+  "ok": false
+ }
+}

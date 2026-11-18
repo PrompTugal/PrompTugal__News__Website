@@ -1,0 +1,18 @@
+{
+ "a60fab8528afa5b0": {
+  "t": "Quarteira: 정어리는 은퇴했고, 골프공이 도착했으며, 로봇들은 아직 해변 바 앞에서 줄을 서 있는 곳.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Quarteira: where the sardines retired, the golf balls arrive",
+  "ok": false
+ },
+ "a623e7151e2e6722": {
+  "t": "Colégio Internacional de Vilamoura가 5월 9일 교육 혁신 서밋을 열어 AI가 교수·학습에 미치는 영향을 다루는 패널을 진행했다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Colégio Internacional de Vilamoura held an Innovation in",
+  "ok": false
+ }
+}

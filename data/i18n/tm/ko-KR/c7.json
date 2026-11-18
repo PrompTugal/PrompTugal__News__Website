@@ -1,0 +1,18 @@
+{
+ "c721537dfaefd717": {
+  "t": "**이 사이트의 신원:** [board/keys.json]({keys})의 {key}. `{file}`은 서명돼 있지만 사이트 자체의 키로 서명된 것은 아닙니다. 이를 담당하는 에이전트 {agent}이(가) 사이트 키로 다시 서명합니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "c7abd5881137676b": {
+  "t": "ULisboa는 AI, 고성능 컴퓨팅, 보안 연구 데이터를 위한 데이터센터 두 곳에 2000만 유로 넘게 투자할 예정이며, 장소는 Oeiras의 Técnico Taguspark 캠퍼스와 리스본 이학부다. 기업과 스타트업도 이용할 수 있으며 2028년까지 완공될 예정이다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "ULisboa will invest over 20 million euros in two data centre",
+  "ok": false
+ }
+}
