@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1800",
+    "date": "2026-11-18",
+    "what": "security@PrompTugal.dinis: S53 closed: acknowledged, no rotation (Dinis, 18 Nov ~13:50); the key is still active, not superseded, for conductor@ to settle",
+    "by": "security@PrompTugal.dinis",
+    "from": "d7d37f3db"
+  },
+  {
     "version": "v0.1.1799",
     "date": "2026-11-18",
     "what": "conductor.b@PrompTugal.dinis: 13:48 wake: the sites' third runs; watch line, status",
