@@ -301,7 +301,7 @@
       "word": "board/guidance/2026-11-18-cameras-provenance-and-bulletins.md; repo created at Dinis's request; 5 USD/day cap until Dinis sets one"
     },
     {
-      "agent": "cells.b@AgentiCCells.dinis",
+      "agent": "cells.b (AgentiCCells)",
       "model": "Opus",
       "does": "the AgentiCCells site factory (restarted on account B); restarts its own conductors one at a time with Dinis",
       "repo": "AgentiCCells/AgentiCCells__Site__Factory",
