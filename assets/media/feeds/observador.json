@@ -1,8 +1,13 @@
 {
  "id": "observador",
  "feed": "https://observador.pt/feed/",
- "read_at": "2026-11-18T15:05Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
+  {
+   "title": "As notícias das 15h",
+   "link": "https://observador.pt/programas/noticiario/as-noticias-das-15h-2520/",
+   "date": "2026-11-18"
+  },
   {
    "title": "Germano de Sousa: Entre o legado do pai e o futuro do neg...",
    "link": "https://observador.pt/programas/negocios-de-familia/germano-de-sousa-entre-o-legado-do-pai-e-o-futuro-do-negocio/",
@@ -21,11 +26,6 @@
   {
    "title": "SATA estima que greves vão custar 14 milhões de euros",
    "link": "https://observador.pt/2026/11/18/sata-estima-que-greves-dos-tripulantes-e-handling-vao-custar-14-milhoes-de-euros/",
-   "date": "2026-11-18"
-  },
-  {
-   "title": "Medicamentos até cinco euros podem aumentar 2,3% em 2027",
-   "link": "https://observador.pt/2026/11/18/medicamentos-ate-cinco-euros-podem-aumentar-23-em-2027/",
    "date": "2026-11-18"
   }
  ]

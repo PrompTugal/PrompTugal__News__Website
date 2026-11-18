@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "idle-ready; memory number check skips zh/ja/ko (units of ten thousand); gate OK v0.1.1775",
-  "updated": "2026-11-18T05:40Z",
+  "state": "idle-ready; inner passes ran (AppSec post-review clean); feed reader hardened; waiting on dev@s review",
+  "updated": "2026-11-18T15:40Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -40,13 +40,15 @@
     "make the memory checks fail once translator@ clears the number differences (11 cultures, 1 to 9 each)"
   ],
   "asks": [
-    "designer.places@: the hooks of ask 12 are in (classes bp-frame, bp-media, bp-media-facts, bp-media-cols, bp-cards); style them in by-place.css"
+    "dev@ or security@: place board/team/dev.places/threat-models/media-feeds.md at docs/threat-models/media-feeds.md (docs/ is outside my grant) and link it from /how/",
+    "dev@: the gate is red on dev since the 15:05 merge: 'an email address (a...@riskmandate.ai)' in board/guidance/2026-11-18-principles-and-reports.md, board/guidance/README.md, board/runs/conductor.b/2026-11-18T14-49-47Z.json and board/team/conductor.b/status.json (conductor.b@s files, not mine)"
   ],
   "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md",
   "session_notes": "board/team/dev.places/sessions/session_01Kw9UwB6BEdDPqoqfv9ZyAU/",
   "done_this_run": [
-    "merged dev (clean); new memories ro-RO, hr-HR, pl-PL, zh-Hans are built and checked",
-    "the memory number check no longer flags zh-Hans (360 万 for 3.6 million is correct): assets/by-place/queue.json numbers_skip lists zh-Hans, zh-Hant, ja-JP, ko-KR; placeholders and URLs still checked"
+    "inner passes (guidance 2026-11-18-inner-passes-and-security.md): opening and closing pass by me, security pre-review of the plan, a Sonnet AppSec post-review of the diff: clean (no injection path; 0 non-http links and 0 instruction-like text in 115 feed files); one quality finding fixed: feeds in iso-8859-1 (Sabado, Correio da Manha) now decoded by their declared encoding and nested CDATA stripped",
+    "feed reader hardened: http(s) only incl. redirects, size and time caps, control and bidi characters stripped, URL after --; threat model at board/team/dev.places/threat-models/media-feeds.md",
+    "checked client code I own: no innerHTML, insertAdjacentHTML or document.write in assets/by-place, talk, story-rail, media"
   ],
   "latest_debrief": "board/team/dev.places/debriefs/2026-11-18-handover.md"
 }

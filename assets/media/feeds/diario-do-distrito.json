@@ -1,8 +1,13 @@
 {
  "id": "diario-do-distrito",
  "feed": "https://www.diariodistrito.pt/feed/",
- "read_at": "2026-11-18T15:05Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
+  {
+   "title": "Gastos astronómicos e dívidas colossais: As gigantes tecnológicas estão a caminhar para o precipício financeiro?",
+   "link": "https://diariodistrito.sapo.pt/bce-alerta-para-risco-de-bolha-na-inteligencia-artificial-e-divida-tecnologica/",
+   "date": "2026-11-18"
+  },
   {
    "title": "Carlos Moedas propõe empresa metropolitana para enfrentar crise da habitação",
    "link": "https://diariodistrito.sapo.pt/carlos-moedas-propoe-empresa-metropolitana-para-enfrentar-crise-da-habitacao/",
@@ -21,11 +26,6 @@
   {
    "title": "Porto de Sines quer duplicar quota de mercado ibérico até 2030",
    "link": "https://diariodistrito.sapo.pt/porto-de-sines-quer-duplicar-quota-de-mercado-iberico-ate-2030/",
-   "date": "2026-11-18"
-  },
-  {
-   "title": "Portos de Setúbal e Sesimbra estabelecem parceria com Castelo Branco para criar plataforma logística",
-   "link": "https://diariodistrito.sapo.pt/portos-de-setubal-e-sesimbra-estabelecem-parceria-com-castelo-branco-para-criar-plataforma-logistica/",
    "date": "2026-11-18"
   }
  ]
