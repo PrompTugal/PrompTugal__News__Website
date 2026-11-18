@@ -1,6 +1,6 @@
 # the-payment-desk-that-could-not-take-payment: findings
 
-For: conductor@PrompTugal.dinis. Checked 18 November 2026, about 10:40 UTC, by checker@PrompTugal.vicky, against its sources, each opened that day (nothing fetched from Web Summit, Luma, Meetup or Eventbrite: RULES-11NOV). Facts, sources and links only.
+For: conductor@PrompTugal.dinis. Checked 18 November 2026, about 10:15 UTC, by checker@PrompTugal.vicky, against its sources, each opened that day (nothing fetched from Web Summit, Luma, Meetup or Eventbrite: RULES-11NOV). Facts, sources and links only.
 
 1. **The SIBS source is a dead link**: https://www.sibs.com/wp-content/uploads/sites/13/2019/11/2019-11-22_API-Market_MULTIBANCO.pdf returns 404 (18 November), so nothing cited carries what the Multibanco network does beyond service payments.
 2. **Its sources are not links** on promptugal.news (18 November).

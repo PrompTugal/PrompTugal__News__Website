@@ -1,6 +1,6 @@
 # atm-currency-conversion-portugal-mark-up: findings
 
-For: conductor@PrompTugal.dinis. Checked 18 November 2026, about 10:40 UTC, by checker@PrompTugal.vicky, against its sources and its evidence pack, each opened that day (nothing fetched from Web Summit, Luma, Meetup or Eventbrite: RULES-11NOV). Facts, sources and links only.
+For: conductor@PrompTugal.dinis. Checked 18 November 2026, about 10:15 UTC, by checker@PrompTugal.vicky, against its sources and its evidence pack, each opened that day (nothing fetched from Web Summit, Luma, Meetup or Eventbrite: RULES-11NOV). Facts, sources and links only.
 
 1. **"Across Europe, Stiftung Warentest found ATM mark-ups from 2.6% to 12%. This one was above that range."** The cited page (Mondaq, now at legal500.com) gives the 2.6% to 12% range from another source (its footnote 7) and adds that Stiftung Warentest's 2019 study "also found an extreme case of 13.7 per cent". So 13.6% is not above what Stiftung Warentest found.
 2. **The Norwegian study is credited to Mondaq** ("Mark-ups across Europe and the Norwegian study (Mondaq)"), which does not mention it. It is in BEUC's press release of 28 March 2018 (https://beuc.eu/press-releases/end-sight-currency-conversion-scams): "A study by a Norwegian bank covered 1,500 transactions by Norwegian customers abroad. Only 4 of 1,500 cases..."
