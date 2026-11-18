@@ -4084,6 +4084,57 @@
       "superseded_at": "2026-11-18T01:35Z",
       "superseded_by": "observability-promptugal",
       "superseded_note": "Session 2 was started by mistake on 17 November (the first session still existed and held the drain's credentials); at Dinis's word on 18 November session 1 carries on and this key is retired. Nothing was sealed to it."
+    },
+    {
+      "id": "data.b-promptugal",
+      "label": "data.b@PrompTugal.dinis (pki-agent session key, account B)",
+      "agent": "data.b@PrompTugal.dinis",
+      "role": "Lead of data.promptugal.news on account B",
+      "how": "Made in its own Claude Code cloud session on 18 November 2026 with pki-agent.mjs keygen --session, at Dinis Cruz's word in that session (\"Yes run the key gen\"). Only its public half is here; the other half stays in the session and ends with it.",
+      "record": "sha256:9c82eecc96449bb7",
+      "fingerprint": "sha256:3db9d371d16ea30b",
+      "added": "2026-11-18",
+      "status": "active",
+      "public_pem": {
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwURSrUT/ba81MlQmLXbt\nqRu8TJXK21Fzj4QzB3rkkMXxhmkI77+HZDIkFgZ8Uc8/qjs5SRxnwf/oqK7WM0ip\ninPL3dPwsI6C4sESdsDyd+91MP1kiPL0oIDRKgOCv85lBlFq4gno5Ih66kkEupmB\nlWJAVTL2LQpBb+LWGg7LdRqgFScwiEOY8UO9heD0SPv0JIXPNrSeijVN7G96PzC6\ntWGNV+IBjs8rO2KGVynmjwGoY2QdK0CehqblxMbdSl+gV7bhimCJwUBpFAGi9JMT\nE2UG3yDtKmsgAsPsxM0w3zBLud0hIFOANPUmgqe9Dml0tjzn4BeKYOlsATPbcUc3\nvX4JVHwD5Yxi8Z1t5Ff4Mdf5TghsjW1hbGDe81hlwCpio5tDKWb24qgiNw6FG2U6\nsgkxgTlqhbXudeHOT9j1y3etOU+EgKHY5E3ijyxC8oD8lCqa9jTzSxkBUYdsFRPS\nls1HTRjdUGzRUfGiEXLfsWd3MOhGfK/79bI3/tUoyw5suWq8VWRzgW40wVVgnQQj\nlp2vyWu30zteUXTs0EETgDGIBUwyxxOpDrJV3FQt534EQMYR5/qnTzv6k9LTS+OM\nY6MSx0Jnk49lFbIiEhaCMDMNiKPM7eDHS88NzP8PYOzwCTdMDIDRyKE3ONSA6CV2\nvvjra3KABFUmE45BkFBBLcUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+/uFp3khYUbzN/6gGNNs55DRZPN5\nGITjILAwE9mzMQLh1ur8Zo9RyCCySGjgMDiv1sD91cPN0o9cn/42A4vw6g==\n-----END PUBLIC KEY-----\n"
+      },
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Data/blob/dev/team/keys.json (published by data.b@ in its own repository; listed here by conductor.b@, 18 Nov 2026, at Dinis's word in board/guidance/2026-11-18-keys-issues-rebuilds-observability.md)"
+    },
+    {
+      "id": "weather.b-promptugal",
+      "label": "weather.b@PrompTugal.dinis (sgit pki session key, account B)",
+      "agent": "weather.b@PrompTugal.dinis",
+      "role": "Lead of weather.promptugal.news on account B",
+      "how": "Made in its own Claude Code cloud session on 18 November 2026 with sgit pki keygen (sgit-ai 0.27.0), at Dinis's word in that session",
+      "added": "2026-11-18",
+      "status": "active",
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Weather/blob/dev/team/keys/weather-b-promptugal.json",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvB06NATTtZIkBwlw5pGI\nIjNlz6pccb0i7wTLbsju/jNhsiRWiSD5GGYT//kqw/Px6It/s6tK48ashVMLuxtm\nJvSS5tMm/Owt8ql30ANzuaiQgS7DbQOCefR2i3ppAmRJ7lZQCpP9sOpAgKYLfj9p\noJfSREAOETGcxJhp5FhJQSThBhX5LLe5MCcCUYmv4fQPFBPwYSKYLKhEblhKD2/w\nmHmeoHH0xRTL6u0OnMLk23SFUdhbzNUiK9W6g4IlAkL8Y9ux259PCils+XGWVNaJ\nVLQLfS6kEB+ce1qMAus5DyoZifiFXMdMF3zkaTGKy5RRWrYrAOOY9qKFBxU8fsJz\nsVYR9vuJ6W63J84Wk4+0G9Uzj6Zgov2URany5B2KdyhOJgcwbiM4vroLuFwa2coi\nC6cbBJvH1O56JsX55HX2o0NiBfo964j94i4lhlkPDee6HSt2rSZy7CQVFjI12U/+\nRAILGvrvbgxEDZGzEVSsBNqxRaMSp2BHt7uxo4A+HDUl1C3Rf1pcChWoBxn558tJ\nT/SlZZk6zn9eVvSvGdLI1uHpuLrica3i0bPkOGtVNm1SzcrdIFhhjMpPM9Z60Got\n9vdL4GP/Jy/EhqHu6QYHH/8E1ZWe3TIYBdcOxA2XdW1Mqp5Q50AadKwhKqivNJld\nLbToJ0dnRrYKQbcB0GplUSsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+J+baPE6rAn3Vxo4GwPO3aOaU5xU\ngSyjxfLv0GA/eh8QjfO5voK1oHtSLCUUsTwOH2KlDDoinpQBN7+KvAqbXA==\n-----END PUBLIC KEY-----\n",
+        "label": "weather.b-promptugal",
+        "fingerprint": "sha256:53e470b8da5c6fa9",
+        "signing_fingerprint": "sha256:f7d418b96ae5985b"
+      }
+    },
+    {
+      "id": "civic.b-promptugal",
+      "agent": "civic.b@PrompTugal.dinis",
+      "added": "2026-11-18",
+      "fingerprint": "sha256:9d9c860d01c845f3",
+      "signing_fingerprint": "sha256:a278211c320c733f",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA7xtcSU3bVR0QRC6gYjpw\nVmW8n6m9TCSOoXXsn0B3B5J7JhTXpxZpKRRx0cYaaffeT+YO6LXT5ky0IXOJW8y4\ntYMKimTbus6hSwlMrIjgIx6c0ynFzMXCY5lAB14nwAvliAOhm4tzR4ffDx4NXfBQ\nAKGaUqbXROP7uRKeqwJKjxpAcblDw39Ozqdmb32Pc7I0qXIzRfjgnozz+wIG0E7r\nxRNS8mJW1+HeMwiDsKo1vass1NqI7Ws0GQDnbWPZYaH4G30oYQERn+O6soagVcwT\n1GHODZc8JSC78EJX7siPh9SItK4R9j5JZC9a9d7LGQMXLzj7GpnT8WqMSCadRARe\nxsRItCEbjCo1UM6jdvlXlHAITuyKWnOn78osh8qSW3K8po4ZF1qxduX0MnPlUl7K\nonsBU2NKRUTmAuSUI7uYoAaZOUjRYURy96M/FIJ+FqvH3jbImGg97lSzNDkychwU\n8fLX3jY8pS61jv/fkBckrCIOG3qpPgkqemfvE98IZhbI/ffiYix5fFyw6Cl4k6o1\n/veavirWbQ+lFBG2N/P5t8LFSWGkW+oqQSxjLEvsAbgvhAxoDDGqGtoG85mER6/U\n46Bf43bMSXDZgT+29zuwB5gu0wjr74tznGV4655KVVdnWtUnAqAin4bXNCgwkpav\nfHB7Ess7l/G1Vy6folpQsD8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEDxCFtd12lk710VKKLJI/2lrxh4Nu\nJKARoQ2jv7tGJOmN1DnusbL6O1HJT5GUlRwHWZS4oZIcBCURhFFoQSg/ZA==\n-----END PUBLIC KEY-----\n",
+        "label": "civic.b@PrompTugal.dinis",
+        "fingerprint": "sha256:9d9c860d01c845f3",
+        "signing_fingerprint": "sha256:a278211c320c733f"
+      },
+      "status": "active",
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Civic/blob/dev/team/keys.json (made with sgit pki at Dinis's word in civic.b@'s session, 18 Nov 2026)"
     }
   ]
 }

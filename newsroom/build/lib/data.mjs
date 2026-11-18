@@ -17,6 +17,7 @@ export const TYPES = {   // type -> its folder under data/ and its main file
     topic: { dir: 'topics', file: 'topic.json' },
     story: { dir: 'stories', file: 'story.json' },
     evidence: { dir: 'evidence', file: 'capture.json' },
+    series: { dir: 'series', file: 'series.json' },
 }
 const strip = ({ $schema, ...x }) => x
 
@@ -95,12 +96,12 @@ export function loadData({ raw = false } = {}) {
         matching: fs.existsSync(R('data/matching.json')) ? strip(readJSON('data/matching.json')) : null,
         companies: readCompanies(),
         events: readFolder('event'), people: readFolder('person'), organisations: readFolder('organisation'),
-        places: readFolder('place'), topics: readFolder('topic'), stories: readFolder('story').filter(s => !withdrawn().stories.has(s.id)), evidence: readFolder('evidence'),
+        places: readFolder('place'), topics: readFolder('topic'), stories: readFolder('story').filter(s => !withdrawn().stories.has(s.id)), evidence: readFolder('evidence'), series: readFolder('series'),
     }
     if (!raw) wsApply(store)   // the websummit-only pass (the data check reads raw): a no-op while its switch is off (lib/wsonly.mjs)
     store.topics.sort((a, b) => a.order - b.order || a.id.localeCompare(b.id))
     const byRef = new Map()
-    const plural = { company: 'companies', event: 'events', person: 'people', organisation: 'organisations', place: 'places', topic: 'topics', story: 'stories', evidence: 'evidence' }
+    const plural = { company: 'companies', event: 'events', person: 'people', organisation: 'organisations', place: 'places', topic: 'topics', story: 'stories', evidence: 'evidence', series: 'series' }
     for (const [type, list] of Object.entries(plural)) for (const x of store[list]) byRef.set(`${type}:${x.id}`, x)
     store.get = ref => byRef.get(ref)
     store.has = ref => byRef.has(ref)

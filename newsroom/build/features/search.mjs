@@ -130,6 +130,7 @@ function makeIndex(ctx) {
         syn: ix.syn, shards: Object.keys(ix.shards).sort(),
         // the summaries live in snips.json, one per row in the same order, loaded only for the results shown, so docs.json, the
         // first file a reader loads, stays small as the site grows (dev@PrompTugal.dinis, 17 November 2026: 333 KB with them)
+        license: { name: 'CC BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/', by: 'PrompTugal.news', scope: 'this index and its terms/ shards and snips.json' },
         snips: 'snips.json', docs: ix.docs.map(r => { const c = r.slice(); c[3] = ''; return c }),
     }
     const files = [{ path: 'api/v1/search/docs.json', data: JSON.stringify(docs) + '\n' }]

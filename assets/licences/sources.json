@@ -1,0 +1,9 @@
+{
+  "about": "The licence of every piece of data PrompTugal.news publishes (Dinis, 18 November 2026: board/guidance/2026-11-18-licences-and-submissions.md). What we make is CC BY 4.0. What we take stays under its source's published licence. Where the source publishes none, or none is found yet, the item links to the source's own site labelled 'the source's terms': never blank, never assumed open. Hosts are added here only as their licence is read at the source, with the page and the date. Read by newsroom/build/lib/licence.mjs.",
+  "ours": { "name": "CC BY 4.0", "url": "https://creativecommons.org/licenses/by/4.0/", "by": "PrompTugal.news" },
+  "hosts": {
+    "adsb.lol": { "name": "ODbL 1.0", "url": "https://opendatacommons.org/licenses/odbl/1-0/", "source": "https://www.adsb.lol/docs/open-data/api/", "read": "2026-11-18" },
+    "ipma.pt": { "name": "the source's terms", "url": "https://api.ipma.pt/", "source": "https://api.ipma.pt/", "read": "2026-11-18", "note": "IPMA's open data page carries its own Termos e condições" }
+  },
+  "unknown": "the source's terms"
+}
