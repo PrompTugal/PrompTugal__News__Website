@@ -1,0 +1,34 @@
+{
+ "b834edd0f1f69fba": {
+  "t": "Invest Porto报道称，《2026年全球创业生态系统报告》称波尔图是欧洲增长最快的创业生态系统之一，软件、医疗健康、金融科技和人工智能是主要驱动力。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Invest Porto reports that the Global Startup Ecosystem Repor",
+  "ok": false
+ },
+ "b866f8bf4e207849": {
+  "t": "理工学院研究人员在Bragança展示农业人工智能",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Polytechnic researchers present AI for farming in Bragança",
+  "ok": false
+ },
+ "b8a706657fb9b6f2": {
+  "t": "Instituto Pedro Nunes运营葡萄牙的北约DIANA加速器",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Instituto Pedro Nunes runs Portugal's NATO DIANA accelerator",
+  "ok": false
+ },
+ "b8e85a89c6074af1": {
+  "t": "PrompTugal.news Loulé：来自这座有漂亮市场的小镇的人工智能与科技，这里的市政府已经给自己买了些人工智能，Algarve商业协会也设在这里。我们告诉你从Algarve、葡萄牙和世界传到Loulé的消息，每条事实都有来源，pois claro。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Loulé: AI and tech from the town with the pr",
+  "ok": false
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "328eae672fdfb43c": {
+  "t": "葡萄牙在第一阶段将以最高 2 亿欧元购买算力时间，EuroHPC 提供同等配套。葡萄牙部分估计约为 40 亿欧元。来源没有给出在葡萄牙的选址。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portugal would buy computing time with up to 200 million eur",
+  "ok": false
+ },
+ "32e38f205d404c47": {
+  "t": "现在说实话，que se não houver não se inventa：我们在 Serra 上找过却没有找到的东西。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Now the honest part, que se não houver não se inventa: the t",
+  "ok": false
+ }
+}

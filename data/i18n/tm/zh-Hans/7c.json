@@ -1,0 +1,18 @@
+{
+ "7c68c12b20c281b6": {
+  "t": "现在说说实话，meu amigo：算法还没有来到橙子园。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Now the honest part, meu amigo: where the algorithms have no",
+  "ok": false
+ },
+ "7ca1e09bcf45f77f": {
+  "t": "Évora不着急，但总能到达。大学教机器学葡萄牙语，并为它们制定家规；PACT培训人才，为企业保驾护航；医院让人工智能先在切片上标出可疑处，再由专家定夺；一家数据中心公司则悄悄买下了一间1兆瓦的机房。至于市政厅，抱歉，我们还没抓到它用人工智能。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Évora does not rush, but it gets there. The university teach",
+  "ok": false
+ }
+}

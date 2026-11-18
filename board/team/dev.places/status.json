@@ -1,8 +1,8 @@
 {
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
-  "state": "idle-ready; everything built; waiting for dev@s review, designer.places@s styling and translator@s number fixes",
-  "updated": "2026-11-18T00:30Z",
+  "state": "idle-ready; memory number check skips zh/ja/ko (units of ten thousand); gate OK v0.1.1775",
+  "updated": "2026-11-18T05:40Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -45,8 +45,8 @@
   "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md",
   "session_notes": "board/team/dev.places/sessions/session_01Kw9UwB6BEdDPqoqfv9ZyAU/",
   "done_this_run": [
-    "merged dev (clean); no new review since 07:15, no new designer ask",
-    "debrief updated (11:15)"
+    "merged dev (clean); new memories ro-RO, hr-HR, pl-PL, zh-Hans are built and checked",
+    "the memory number check no longer flags zh-Hans (360 万 for 3.6 million is correct): assets/by-place/queue.json numbers_skip lists zh-Hans, zh-Hant, ja-JP, ko-KR; placeholders and URLs still checked"
   ],
   "latest_debrief": "board/team/dev.places/debriefs/2026-11-18-handover.md"
 }

@@ -1,0 +1,18 @@
+{
+ "6d5312b8ebc3c227": {
+  "t": "Pombal 于 1773 年用方格网画出了这座小镇，到 1776 年就建成了，比我们大多数人喝完一杯 bica 还快。沙丁鱼和金枪鱼让位给了旅游业，不少人过河去 Ayamonte 附近上班。如今小镇想成为全国蓝色经济之都：Guadiana 河上的一家船厂造过一艘用来测试机器人的船，还想设一个无人艇单元；与另外五个市政府共享的 PRR 传感器平台；市中心的 Wi-Fi 和人流计数器；以及与 Ayamonte 和 Castro Marim 共建、孕育跨境点子的 Eurocidade do Guadiana。总部设在这里的人工智能公司？还没有，caramba。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Pombal drew this town on a grid from 1773 and it was done by",
+  "ok": false
+ },
+ "6d9059975da156b0": {
+  "t": "这家公司销售用于追踪卫星和管理太空交通的人工智能，完成了一轮融资，来自三位私人投资者和国家复苏资金。它将用这笔钱发展其人工智能平台、自有光学传感器和国防分支。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The company, which sells AI for tracking satellites and mana",
+  "ok": false
+ }
+}

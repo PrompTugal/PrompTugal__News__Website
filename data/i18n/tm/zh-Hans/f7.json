@@ -1,0 +1,26 @@
+{
+ "f779f016725feeb7": {
+  "t": "UTAD主办动物生产中人工智能与技能工作坊",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "UTAD hosts a workshop on AI and skills in animal production",
+  "ok": false
+ },
+ "f7d28b3eb969ec12": {
+  "t": "Vila Real是UTAD（Trás-os-Montes e Alto Douro大学）的所在地，该校举办人工智能研讨会，参加人工智能研究联合体，并参与国家IAedu试点。紧邻的是Regia Douro Park，一座拥有约160家公司的科技园，它支持了关于商业人工智能的DTech 2026大会。市政府在人工智能故事中是该活动的支持者，也是IBM曾宣布的创新中心的过往合作伙伴，而就我们读到的内容，其自身新闻页面没有显示人工智能应用。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Vila Real is the seat of UTAD, the University of Trás-os-Mon",
+  "ok": false
+ },
+ "f7e27f16eaf60e40": {
+  "t": "同一清单上的另一个项目，同样从2026年9月1日持续到2028年8月31日，开发一个带有基于生成式人工智能的虚拟助手的学生心理健康平台。合资格成本为106,936.75欧元，其中Portalegre方面为90,896.23欧元，由FEDER在ALT2030框架下出资。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Another project on the same list, also running from 1 Septem",
+  "ok": false
+ }
+}

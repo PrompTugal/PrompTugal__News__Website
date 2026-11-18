@@ -1,0 +1,26 @@
+{
+ "a264b612529f59a0": {
+  "t": "PrompTugal.news Monchique：Monchique的人工智能与科技。这是一个森林覆盖的山区市镇，山火风险和一座小型市政企业孵化器决定着议程；本站也报道从Algarve、葡萄牙和世界传到Monchique的消息。独立报道，每条事实均注明来源。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Monchique: AI and technology in Monchique, a",
+  "ok": false
+ },
+ "a27279fca09f828a": {
+  "t": "2026年9月29日至10月1日在Montebelo Viseu Congress Hotel举行的一场工业与技术大会，由理工学院机械工程与工业管理系联合市政府、商业协会AIRV和Viseu Marca组织。人工智能是核心主题，包括维护与人工智能。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "An industrial and technology conference at the Montebelo Vis",
+  "ok": false
+ },
+ "a2d583ad4bcfc91d": {
+  "t": "本地电台报道AI4PRIME：为网络不佳的农场打造的低功耗人工智能",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Local radio reports AI4PRIME: low-power AI for farms with po",
+  "ok": false
+ }
+}

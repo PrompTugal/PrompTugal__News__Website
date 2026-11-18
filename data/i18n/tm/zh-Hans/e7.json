@@ -1,0 +1,42 @@
+{
+ "e72981ce21809675": {
+  "t": "Ainda não sabemos tudo，pá。以下是Faro尚未告诉我们的内容：",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda não sabemos tudo, pá. Here is what Faro has not told u",
+  "ok": false
+ },
+ "e7908f114d56ddcd": {
+  "t": "Viana do Castelo，ai Jesus：山上一座大教堂，一条拿不定主意在哪里止步的河，还有一个在全镇都盯着港口时悄悄教电脑读许可证的市政府。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Viana do Castelo, ai Jesus: a basilica on the hill, a river ",
+  "ok": false
+ },
+ "e7bebd39ad02304e": {
+  "t": "Loulé艺术展./logSinapses以人工智能和算法中介为主题",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Loulé art exhibition ./logSinapses took AI and algorithmic m",
+  "ok": false
+ },
+ "e7f26edd2ea41eb9": {
+  "t": "政府计划在少数技术上已就绪的市镇开展试点，让人工智能作为市政平台之上的统一接入层，从建筑许可开始。科英布拉被列为第一阶段之一，其市长表示，人工智能可以加快流程，同时遵守规划规则，并且不使公共服务失去人情味。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The government plans a pilot in a small number of municipali",
+  "ok": false
+ },
+ "e7f72e1b48d63a7d": {
+  "t": "Faro公司Visualforma介绍了一套与Itelmatis和阿尔加维大学共同开发、在Loulé测试的绿地灌溉控制系统，利用现场数据优化浇水，并计划加入人工智能和机器学习模块。这是2023年4月的旧闻。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Visualforma, a Faro company, described a green-spaces irriga",
+  "ok": false
+ }
+}
