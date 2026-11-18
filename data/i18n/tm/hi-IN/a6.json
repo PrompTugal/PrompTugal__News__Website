@@ -1,0 +1,18 @@
+{
+ "a60fab8528afa5b0": {
+  "t": "Quarteira: जहां सार्डिन रिटायर हो गईं, गोल्फ गेंदें आ गईं, और रोबोट अब भी बीच बार पर कतार में खड़े हैं।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Quarteira: where the sardines retired, the golf balls arrive",
+  "ok": false
+ },
+ "a623e7151e2e6722": {
+  "t": "Colégio Internacional de Vilamoura ने 9 मई को Innovation in Education Summit आयोजित किया, जिसमें AI शिक्षण और सीखने को कैसे प्रभावित करता है, इस पर पैनल हुए।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Colégio Internacional de Vilamoura held an Innovation in",
+  "ok": false
+ }
+}

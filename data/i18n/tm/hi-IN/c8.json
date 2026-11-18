@@ -1,0 +1,26 @@
+{
+ "c80d31aa3fd60fd7": {
+  "t": "PrompTugal.news Monchique, Serra की ठंडक से: हरे पहाड़ी concelho में AI और टेक्नोलॉजी, जहां आग की चिंता कभी नहीं सोती और छोटा इन्क्यूबेटर बत्ती जलाए रखता है, साथ में Algarve, पुर्तगाल और दुनिया से जो भी ऊपर बहकर आता है। स्वतंत्र, और हर तथ्य का स्रोत है, ó freguês.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Monchique, from the cool of the Serra: AI an",
+  "ok": false
+ },
+ "c896571781f3b30f": {
+  "t": "PrompTugal.news Porto: Porto में AI और टेक्नोलॉजी, विश्वविद्यालय और स्टार्टअप का शहर जिसका केंद्र UPTEC, University of Porto का साइंस पार्क, उसके AI स्टार्टअप और शोध संस्थान हैं, और पुर्तगाल, यूरोप और दुनिया से Porto तक क्या पहुंचता है। स्वतंत्र, और हर तथ्य का स्रोत दिया गया है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Porto: AI and technology in Porto, a univers",
+  "ok": false
+ },
+ "c8c02cb5cf3f018e": {
+  "t": "PrompTugal.news Porto, a Invicta: Porto में AI और टेक, जहां UPTEC Asprela की पहाड़ियों के पास इंजन रूम है, साथ में पुर्तगाल, यूरोप और दुनिया से आने वाली हर खबर। Independente, और हर तथ्य के साथ रसीद है, tripeiro अंदाज में।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Porto, a Invicta: AI and tech in Porto, with",
+  "ok": false
+ }
+}
