@@ -1,0 +1,26 @@
+{
+ "99a71106aa482450": {
+  "t": "Aljezur este marginea atlantică a Algarve: o municipalitate mare, slab populată (aproximativ 323 de kilometri pătrați și 5.884 de locuitori la recensământul din 2011), cu patru parohii, în interiorul Parcului Natural Sud-Vest Alentejano și Costa Vicentina. Identitatea sa este natura, surful pe plaje precum Arrifana și un consiliu care numește turismul de natură un motor strategic al economiei locale. Energia este al doilea pilon: EDP operează parcul eolian Bordeira de 24 MW și a adăugat alături o centrală solară de 15,3 MW în 2025. Nu este un hub de AI: ceea ce am găsit este un consiliu cu servicii online și un portal geografic, un pilot de teleasistență parohială pentru vârstnici și programe regionale de AI pentru firmele din turism, la care s-ar putea alătura afacerile din Aljezur.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Aljezur is the Algarve's Atlantic edge: a large, thinly popu",
+  "ok": false
+ },
+ "99c102dd36cca038": {
+  "t": "Rádio Portalegre relatează despre proiectul politehnicului, de aproximativ 200.000 de euro, finanțat prin FEDER, care pune modele de AI pe senzori capabili să proceseze datele pe loc, cu ferme pilot pentru validare. Numește ingineria, știința datelor, agronomia și sistemele informatice drept domeniile implicate și august 2028 ca dată de încheiere.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Rádio Portalegre reports the polytechnic's roughly 200,000 e",
+  "ok": false
+ },
+ "99ea56e3b843dfcf": {
+  "t": "Equipa UAlg se întoarce în școli cu 81 de prelegeri gratuite, printre ele despre AI și securitate cibernetică",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Equipa UAlg returns to schools with 81 free talks, AI and cy",
+  "ok": false
+ }
+}

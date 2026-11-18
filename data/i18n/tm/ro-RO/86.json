@@ -1,0 +1,66 @@
+{
+ "861340a39322787c": {
+  "t": "Faro găzduiește Universidade do Algarve, ale cărei campusuri din oraș ancorează cea mai mare parte a activității de inteligență artificială din regiune: cercetare (un centru de inovare arheologică de 31,5 milioane de euro care va folosi AI), învățământ (o politică universitară de AI publicată, un curs executiv de AI în sănătate cu o firmă de tehnologie medicală) și UALG TEC Campus, unde se țin evenimente de afaceri despre AI. Aici se află și stratul comunitar: GDG Faro organizează conferința dezvoltatorilor din oraș despre AI agentică, iar Algarve Evolution, Algarve STP și consiliul adaugă evenimente și programe. Municipalitatea în sine arată puțină utilizare a AI în ceea ce am putut citi, așa că inovarea și cercetarea, nu administrația orașului, sunt centrul de greutate al orașului Faro.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Faro is home to the Universidade do Algarve, whose campuses ",
+  "ok": false
+ },
+ "862a47ccd096007f": {
+  "t": "Un proiect numit QI 4.0 folosește senzori și modele de învățare automată pentru a urmări maturarea brânzei Queijo Serpa DOP și alimentează o aplicație, încă în dezvoltare, care avertizează producătorii când condițiile din camera de maturare se abat. Urma să fie prezentat la Córdoba, la 14 noiembrie 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A project called QI 4.0 uses sensors and machine-learning mo",
+  "ok": false
+ },
+ "863d8453056fae11": {
+  "t": "Consiliul deschide opt proiecte digitale către startup-urile și universitățile din Porto, la o zi de pitch",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council opens eight digital projects to Porto's startups",
+  "ok": false
+ },
+ "867572ff80be5e8d": {
+  "t": "Harta Algarve cu cele {count} localități ale sale, fiecare legată de site-ul ei",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Map of the Algarve with its {count} places, each linked to i",
+  "ok": false
+ },
+ "867d7d84af293cda": {
+  "t": "La semnarea din 2021, 23 de parteneri s-au alăturat unui centru de cercetare și formare privind Dieta Mediteraneană la CEAT. Planurile includeau un centru de terapii digitale cu Universitatea Johns Hopkins și Algarve Biomedical Center, formare prin realitate virtuală, o grădină urbană și un centru științific Ciência Viva. Nu se menționează AI.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "At the 2021 signing, 23 partners joined a Mediterranean Diet",
+  "ok": false
+ },
+ "86ad806b1bec465d": {
+  "t": "Ó pá, Lagoa: soare, vin, o peșteră marină cu o gaură în tavan și, acum, un consiliu care întreabă roboții despre aer.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ó pá, Lagoa: sun, wine, a sea cave with a hole in its roof, ",
+  "ok": false
+ },
+ "86c335ec6671a38b": {
+  "t": "Antreprenorii din Portimão se întâlnesc să discute despre leadership, inovare și AI",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portimão entrepreneurs meet to talk leadership, innovation a",
+  "ok": false
+ },
+ "86db666b9311af7d": {
+  "t": "Campus Tejo din Santarém este un laborator de teren pe Tejo, spune primarul într-un interviu",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Santarém's Campus Tejo is a field lab on the Tejo, the mayor",
+  "ok": false
+ }
+}

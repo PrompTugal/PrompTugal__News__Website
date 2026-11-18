@@ -1,0 +1,26 @@
+{
+ "f80ac22e14c2be44": {
+  "t": "AMALIA, modelul lingvistic deschis pentru portugheza europeană, este lansat",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AMALIA, the open language model for European Portuguese, is ",
+  "ok": false
+ },
+ "f80bbd73459dc1d1": {
+  "t": "Din sursele citite până acum, greutatea orașului Loulé în AI este mai degrabă instituțională decât corporativă. Consiliul spune că a contractat deja instrumente de AI pentru a accelera urbanismul, asociația patronală regională NERA are sediul în municipalitate și instruiește firmele locale în instrumente de AI, iar consiliile din Loulé și Faro scot împreună la licitație un centru multi-tehnologic la Estádio Algarve, care listează AI printre temele sale. Nu am găsit nicio companie de AI cu sediul clar în Loulé în afară de SPIC, așa că harta de mai jos este scurtă intenționat.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "On the sources read so far, Loulé's weight in AI is institut",
+  "ok": false
+ },
+ "f83860c4d97f409d": {
+  "t": "A 41-a ediție a târgului agricol din Beja, organizat de asociația fermierilor ACOS, a avut tema mai multă agricultură și mai mult viitor, cu producția legată de noile tehnologii și AI ca focus principal și un pavilion de inovare și tehnologie pentru prezentări și demonstrații de echipamente.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The 41st edition of the Beja farm fair, run by the farmers' ",
+  "ok": false
+ }
+}

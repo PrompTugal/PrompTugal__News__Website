@@ -1,0 +1,18 @@
+{
+ "6841582999ce66c7": {
+  "t": "CCDR Algarve aprobă lucrările la hub-ul de inovare din Tavira, cu o rețea de irigare controlată de senzori",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "CCDR Algarve approves the works at Tavira's innovation hub, ",
+  "ok": false
+ },
+ "6891ccd80a8acefe": {
+  "t": "Un comunicat de presă al unui furnizor spune că AP Hotels & Resorts se bazează pe LodgIQ, o platformă de prețuri și prognoză a cererii bazată pe inteligență artificială, în hotelurile sale de resort și de oraș. Comunicatul listează unități, printre care resorturi pe care le plasează în Albufeira, dar nu spune care unități folosesc sistemul.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A supplier press release says AP Hotels & Resorts relies on ",
+  "ok": false
+ }
+}
