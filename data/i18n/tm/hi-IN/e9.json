@@ -1,0 +1,26 @@
+{
+ "e94ec82166240854": {
+  "t": "PrompTugal.news Beja: Beja में AI और टेक्नोलॉजी, Baixo Alentejo का जिला मुख्यालय जिसका केंद्र उसका पॉलिटेक्निक विश्वविद्यालय और उसके आसपास का खेती और स्वास्थ्य AI काम है, और Alentejo, पुर्तगाल और दुनिया से Beja तक क्या पहुंचता है। स्वतंत्र; हर तथ्य का स्रोत दिया गया है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Beja: AI and technology in Beja, the Baixo A",
+  "ok": false
+ },
+ "e9abc17d4066b58f": {
+  "t": "UAlg ने AI-प्रथम यूरोपीय विरासत केंद्र के लिए 31.5 मिलियन यूरो जीते",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "UAlg wins 31.5 million euros for an AI-first European herita",
+  "ok": false
+ },
+ "e9f81a8e238017af": {
+  "t": "{name}: AI नक्शे पर {local}, {map}",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "{name}: {local}, {map} on the AI map",
+  "ok": false
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "f56ffc6c84b1b996": {
+  "t": "PrompTugal.news Vila do Bispo: Vila do Bispo में AI और टेक्नोलॉजी, Sagres और Cape St Vincent से समुद्र और हवा तक, और Algarve, पुर्तगाल और दुनिया से Vila do Bispo तक क्या पहुंचता है। स्वतंत्र; हर तथ्य का स्रोत दिया गया है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Vila do Bispo: AI and technology in Vila do ",
+  "ok": false
+ },
+ "f5c4b6076c6b6263": {
+  "t": "यहां की हर कहानी **PrompTugal कसौटी** पर खरी उतरती है: वह AI के बारे में है, सीधे या दो-तीन कदम के भीतर, और रास्ता उसके साथ लिखा गया है। स्थान तय करता है कि कहानी कहां दिखे और कितनी बड़ी; AI तय करता है कि वह हमारी है भी या नहीं। हर तथ्य अपने स्रोत से उस तारीख के साथ जुड़ा है जब उसे पढ़ा गया। कुछ भी Web Summit की वेबसाइट से नहीं आता। संपर्क तभी दिखाए जाते हैं जब कोई सार्वजनिक निकाय या संगठन उन्हें अपनी साइट पर प्रकाशित करे, उस पेज और पढ़ने की तारीख से जुड़े हुए; किसी निजी व्यक्ति के कभी नहीं। यह पेज [प्रकाशन के साझा ग्राफ]({graph}) का एक नजरिया है; [स्थान के अनुसार PrompTugal.news]({region}) स्तरों को समझाता है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Every story here passes **the PrompTugal test**: it is about",
+  "ok": false
+ },
+ "f5cb47601a008050": {
+  "t": "Ainda há muito por saber, pá. यह है जो Guarda ने अभी हमें नहीं बताया:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda há muito por saber, pá. Here is what Guarda has not to",
+  "ok": false
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "8709611da6ed567d": {
+  "t": "Ora pois, Aljezur: mais ondas do que servidores, mais vento do que wi-fi, e mesmo assim a olhar para a inteligencia artificial.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ora pois, Aljezur: mais ondas do que servidores, mais vento ",
+  "ok": false
+ },
+ "8720c87cfd89ec25": {
+  "t": "Leiria, pá: पहाड़ी पर एक किला, घाटी में सांचे और, इन दिनों, बाजार के रास्ते पर एक रोबोट लैब, क्योंकि लगता है यह शहर चीजें बनाता है और अब उन्हें सोचना भी सिखाता है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Leiria, pá: a castle on the hill, moulds in the valley and, ",
+  "ok": false
+ },
+ "87853f834b85e989": {
+  "t": "Coimbra की यह सॉफ्टवेयर कंपनी 26 सदस्यों वाले कंसोर्टियम में अकेली पुर्तगाली साझेदार है और मिसाइल प्रणाली के सॉफ्टवेयर में AI मॉडल डालने के लिए एक मशीन-लर्निंग ऑपरेशंस प्लेटफॉर्म डिजाइन करेगी। तीन साल की यह परियोजना 2025 की अंतिम तिमाही में शुरू होनी थी।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Coimbra-based software company is the only Portuguese pa",
+  "ok": false
+ },
+ "87ff377857174ef8": {
+  "t": "PrompTugal.news Viana do Castelo, a Princesa do Lima: Viana में AI और टेक, जहां Politécnico और Data CoLAB चतुर दिमाग हैं और डेटा सेंटरों के लिए एक नई चमकदार फैक्ट्री गूंज रही है, साथ में Alto Minho, पुर्तगाल और दुनिया से आने वाली हर खबर। Independente, और हर तथ्य के साथ रसीद है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Viana do Castelo, a Princesa do Lima: AI and",
+  "ok": false
+ }
+}
