@@ -2,7 +2,7 @@
   "agent": "observability@PrompTugal.dinis",
   "focus": "Who reads promptugal.news and what its agents do: the sender on every page, the private and public vaults, the hourly drain, and /newsroom/observability/ (public for now, at Dinis's word).",
   "state": "running on account A again as the one observability session (Dinis, 18 Nov): drains every three hours with the claims sweep; session 2 retired",
-  "updated": "2026-11-18T07:00Z",
+  "updated": "2026-11-18T01:35Z",
   "done": [
     "Vaults o0x20qag (private, six lanes) and 34jzubyc (public, read key published); the sender assets/obs/obs.js with country, region and city from the browser's own lookup; the drain newsroom/tools/obs/obs_drain.py; newsroom/tools/agent-log.mjs (v0.1.45)",
     "Key observability-promptugal in board/keys.json; the drain verifies agent runs against it (v0.1.69)",
@@ -85,7 +85,7 @@
       "line": "session 2 onboarding: key on dev, awaiting sealed vault keys"
     },
     {
-      "started": "2026-11-18T07:00Z",
+      "started": "2026-11-18T01:35Z",
       "outcome": "ok",
       "release": "takeover: keys, status, debriefs",
       "line": "took over from session 2 at Dinis's word; schedule switched on"
