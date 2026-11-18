@@ -1,0 +1,26 @@
+{
+ "906094ff1090ee9f": {
+  "t": "Santarém تقدّم علوم الأغذية الزراعية أولاً والذكاء الاصطناعي ثانياً، وتقول ذلك بصراحة. الجامعة والبلدية وISLA وINIAV وساحة معارض CNEMA تبني Campus Tejo، الذي ذهب إلى Web Summit Lisbon، مع أن أحداً ممن قرأنا لم يقل كلمة الذكاء الاصطناعي عنه بعد. وفي الأثناء لدى ISLA مشروعها الخاص للذكاء الاصطناعي بقيمة 100,000 يورو، ومزارعو التوت الأزرق دعوا الآلات بالفعل. Sim senhor، a lezíria com um laptop.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Santarém does agri-food science first and AI second, and say",
+  "ok": false
+ },
+ "90d2c69bef549a56": {
+  "t": "قُدّم يوم 1 يوليو 2026 في Técnico Innovation Center في Lisbon، مبنياً على EuroLLM ببيانات من Arquivo.PT، وبتمويل 5.5 مليون يورو من خطة التعافي، وجاهز للاستخدام المفتوح.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Presented on 1 July 2026 at the Técnico Innovation Center in",
+  "ok": false
+ },
+ "90ef9f9dbb2944f8": {
+  "t": "مؤتمر في Albufeira حول نظام للوقاية من الزلازل بمساعدة الذكاء الاصطناعي يُنقل إلى 27 نوفمبر",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Albufeira conference on an AI-assisted earthquake prevention",
+  "ok": false
+ }
+}

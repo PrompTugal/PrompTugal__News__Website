@@ -1,0 +1,26 @@
+{
+ "f80ac22e14c2be44": {
+  "t": "إطلاق AMALIA، النموذج اللغوي المفتوح للبرتغالية الأوروبية",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AMALIA, the open language model for European Portuguese, is ",
+  "ok": false
+ },
+ "f80bbd73459dc1d1": {
+  "t": "في المصادر المقروءة حتى الآن، ثقل Loulé في الذكاء الاصطناعي مؤسسي أكثر منه شركاتي. تقول البلدية إنها تعاقدت بالفعل على أدوات ذكاء اصطناعي لتسريع التخطيط العمراني، ومقر جمعية الأعمال الإقليمية NERA في البلدية وهي تدرّب الشركات المحلية على أدوات الذكاء الاصطناعي، وبلديتا Loulé وFaro معاً تطرحان مناقصة لمركز متعدد التقنيات في Estádio Algarve يدرج الذكاء الاصطناعي بين موضوعاته. لم نجد شركة ذكاء اصطناعي مقرها واضح في Loulé سوى SPIC، فالخريطة أدناه قصيرة عن قصد.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "On the sources read so far, Loulé's weight in AI is institut",
+  "ok": false
+ },
+ "f83860c4d97f409d": {
+  "t": "اتخذت الدورة الـ 41 لمعرض Beja الزراعي، التي تديرها جمعية المزارعين ACOS، موضوع مزيد من الزراعة ومزيد من المستقبل، مع ربط الإنتاج بالتقنية الجديدة والذكاء الاصطناعي محوراً رئيسياً وجناح للابتكار والتقنية للجلسات وعروض المعدات.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The 41st edition of the Beja farm fair, run by the farmers' ",
+  "ok": false
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "ab4fa81bccc51023": {
+  "t": "مشروع مدته عامان أدرجه مكتب البحث في الجامعة، يمتد من 1 سبتمبر 2026 إلى 31 أغسطس 2028، يبني حلول ذكاء اصطناعي لأجهزة مضمّنة رخيصة منخفضة الطاقة في الزراعة وتربية الماشية، جامعاً بين الهندسة وعلوم البيانات والمعرفة الزراعية. تبلغ كلفته المؤهلة 197,754.85 يورو، منها 168,091.62 يورو لجانب Portalegre، بتمويل من FEDER ضمن ALT2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A two-year project listed by the university's research offic",
+  "ok": false
+ },
+ "aba7aa34a9e303a2": {
+  "t": "تحالف EdgeOnVespa، بقيادة شركة Dotlabs مع MORE CoLAB والاتحاد الوطني لمربي النحل وAnbeit، يبني نظام حوسبة طرفية يستخدم الذكاء الاصطناعي لاكتشاف الدبور وتتبعه وتشغيل المكافحة. ويموَّل جزئياً من برنامج NORTE2030.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The EdgeOnVespa consortium, led by the company Dotlabs with ",
+  "ok": false
+ },
+ "abe73eede625cf9c": {
+  "t": "Lagos هي حيث يلتقي مجتمع التقنية في Algarve وجهاً لوجه. شاركت البلدية في تنظيم Algarve Tech Hub Summit هنا في نوفمبر 2025، الذي جذب بضع مئات من الأشخاص إلى فندق واحد، وتعمل مع GDG Lagos على فعاليات للذكاء الاصطناعي مثل DevFest Lagos 2025 وBuild with AI في اليوم العالمي للمرأة. ومساحة العمل المشتركة البلدية CoLagos ممتلئة بالكامل منذ نوفمبر 2023، ويوجد منذ الجائحة مجتمع بُني للرحّل الرقميين في البلدة. لم نجد شركة ذكاء اصطناعي مؤكد أن مقرها في Lagos، فمركز الثقل مجتمع من البنّائين والعاملين عن بُعد، لا عنقود شركات ذكاء اصطناعي.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Lagos is where the Algarve's tech community meets in person.",
+  "ok": false
+ }
+}
