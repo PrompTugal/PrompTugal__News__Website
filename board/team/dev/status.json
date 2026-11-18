@@ -1,9 +1,10 @@
 {
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ restarted on this account (16 Nov, 19:25 UTC, session_01Kw9UwEA7TFC7iKpVctAi2t): the release queue first, then review and bring work/dev.places, work/translator, work/designer.places onto dev; feeds per place and topic; /media/<id>/ pages; dev.places@s brief every-story-has-an-address.",
-  "state": "/principles/ and /report/ live with the encrypted drop (off until conductor.b@ names the lane); the corrections log from assets/report/corrections.json",
-  "updated": "2026-11-18T15:04Z",
+  "state": "/security/ live (the public log from security@'s ledger); /principles/ and /report/ live, the drop off until conductor.b@ names its lane",
+  "updated": "2026-11-18T15:18Z",
   "done": [
+    "15:08 wake: brought dev.places@ feed hardening (AppSec read: curl protocols and redirects pinned, size capped, control and bidi characters stripped, link shape checked; passes), translator@ 4 segments and ar first half, datasci.places@ live now (newer read_at); /security/ and api/v1/security/findings.json from board/team/security/findings.md (fixed in full, others as title, severity, owner, state); took the conductor.b@ email allowance back out of the gate (it cleaned its files). Inner passes inline: pre-review (in grant, Dinis word verified in board/guidance), post-review of my diff: no secret, no contact, no private data, nothing outside my paths, ledger text is repo content already public; no prompt injection seen",
     "/principles/ and /report/ (Dinis 18 Nov 15:00): pages, footer links, the encrypted drop sealed in the browser to conductor.b-promptugal (pki v2) and Dinis (ws-ecies-1), the monitored inbox Dinis named, the corrections log; the gate email check allows Dinis's guidance files (it was red for everyone since bc1ad7af)",
     "14:25 (18 Nov, Dinis s licence rule via conductor.b@): every api/v1 JSON object carries a licence link (ours CC BY 4.0, a source s where read: adsb.lol ODbL 1.0, IPMA terms; else the source s terms); per item on place JSON, since.json, feeds, now.json; a gate check refuses any without",
     "wake 14:09 (18 Nov): brought datasci.places 694ed90; nothing else new; the 14:10 sources register is data.b@s (data.promptugal.news), the main site links to /sources/ once it exists",
@@ -16,6 +17,8 @@
   ],
   "next": [
     "the report drop lane once conductor.b@ names it (board/team/dev/ask-2026-11-18-report-drop-lane.md)",
+    "threat models for my collectors and automations (docs/threat-models/<name>.md, linked from /how/): release.sh, the obs lane, the report drop, the feeds",
+    "each site's /security/ link as its page goes up",
     "licences on the pages: a licence link beside each item taken from others (place pages, media pages, Around, Since your last visit), and in the footer for ours; ask researcher@/ontologist@ to record publishers terms pages in assets/licences/sources.json as they read them",
     "the provenance radar (O, R, C, V, E) on each article once ontologist@s claims and review fields exist; then the human signature with security@ (step 5)",
     "one-reader step 3 on the front page: ask dev.places@ (content/index.md) for a .pt-since hook and designer@ for the look; ontologist@ for profile v2 (home, follows, last_seen per device)",
@@ -26,6 +29,7 @@
     "link data.promptugal.news/sources/ and /sources/not-read/ from the main site (footer and place pages) once data.b@ publishes them"
   ],
   "asks": [
+    "Dinis or abp@: the inner passes (Dinis 15:05) ask for Sonnet sub-agents in my session; my ABP grant does not list sub-agents (R4), so I run the passes inline until abp@ writes them into the grant",
     "conductor.b@: name the /report/ drop lane (endpoint, vault_id, append_token) and let its drain take unsigned payloads (board/team/dev/ask-2026-11-18-report-drop-lane.md)",
     "ontologist@: a schema or home in data/ for the corrections log (now assets/report/corrections.json)",
     "Dinis: a pilot vault access key (data/billing/vault.json access_key is not-issued): the pairing lane (one reader across devices, step 1) needs a device vault, and the vault server creates one only with that key; until then pairing works up to the hello and stops (board/passes/2026-11-17-pairing-step-1.md)",
