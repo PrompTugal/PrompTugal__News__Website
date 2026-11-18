@@ -133,7 +133,12 @@ const AGENT_NAME = /@(web-summit|PrompTugal)\.(dinis|vicky|indi|silvio|jose|ange
 // dinis.agent@promptugal.news, because that already exists"; board/team/investors/dinis-2026-11-07-my-feeds.md). Nowhere else.
 const ALLOWED = { 'content/investors.md': ['dinis.agent@promptugal.news'],
     // security@'s S31 finding quotes the made-up addresses that passed the earlier rule (no mailbox, no person)
-    'board/team/security/reviews/2026-11-09-0805-wake.md': ['someone@promptugal.io', 'someone@web-summit.com', 'someone@promptugal.example-mail.com'] }
+    'board/team/security/reviews/2026-11-09-0805-wake.md': ['someone@promptugal.io', 'someone@web-summit.com', 'someone@promptugal.example-mail.com'],
+    // the monitored inbox for reports, published at Dinis's word (18 November 2026, about 15:00 UTC: "you can also put the
+    // agent at riskmandate.ai as the inbox, because that's been monitored"; board/guidance/2026-11-18-principles-and-reports.md)
+    'board/guidance/2026-11-18-principles-and-reports.md': ['agent@riskmandate.ai'], 'board/guidance/README.md': ['agent@riskmandate.ai'] }
+// conductor.b@ relays that word (its status and run reports); the same one address, in its own two folders only
+const RELAYS = /^board\/(team|runs)\/conductor\.b\//
 // board/ too (security@'s S21, 9 November 2026: it is served and public forever), where the team's own words may also
 // name agent handles in their newer forms (risk-mandate@promptugal.ai.dinis, x@ios.PrompTugal.dinis), the publication's
 // own addresses (promptugal.news, promptugal.ai: roles and Dinis's published contact) and placeholders (example.*,
@@ -161,7 +166,7 @@ function officialContacts(f) {
 for (const f of files.filter(f => /^(content|data|desks|board)\//.test(rel(f)) && !secrets.BINARY.test(f))) {   // desks/ is served as is, so it is checked too; the verifier's records quote pages (security@'s S21, S28, S28b)
     const board = rel(f).startsWith('board/')
     const official = officialContacts(f)
-    for (const m of text(f).matchAll(EMAIL)) if (!AGENT_NAME.test(m[0]) && !(board && BOARD_OK.test(m[0])) && !/^actions@github\.com$/.test(m[0]) && !(ALLOWED[rel(f)] || []).includes(m[0]) && !official.emails.has(m[0])) errors.push(`${rel(f)}: an email address (${m[0].replace(/^(.).*@/, '$1…@')})`)
+    for (const m of text(f).matchAll(EMAIL)) if (!AGENT_NAME.test(m[0]) && !(board && BOARD_OK.test(m[0])) && !/^actions@github\.com$/.test(m[0]) && !(ALLOWED[rel(f)] || []).includes(m[0]) && !(RELAYS.test(rel(f)) && m[0] === 'agent@riskmandate.ai') && !official.emails.has(m[0])) errors.push(`${rel(f)}: an email address (${m[0].replace(/^(.).*@/, '$1…@')})`)
     for (const m of text(f).matchAll(PHONE)) if (!official.phones.has(m[0])) errors.push(`${rel(f)}: a phone-number shape`)
 }
 
