@@ -8,7 +8,8 @@
   "batch 3 sample (abp, the .b leads, conductor.b) added",
   "read library requests channel (5 requests, none to telemetry.b); will read it at every wake",
   "2nd wake: costs refreshed, per-agent files in board/runs/stats/<agent>/2026-11-18.json with the delta since 15:30Z",
-  "3rd wake 17:26: costs refreshed with deltas (no event reading this wake)"
+  "3rd wake 17:26: costs refreshed with deltas (no event reading this wake)",
+  "4th wake 18:26: costs refreshed, daily debrief written"
  ],
  "next": [
   "page list_events with kinds [result] then [assistant], limit 20-30, as conductor.b suggested",
