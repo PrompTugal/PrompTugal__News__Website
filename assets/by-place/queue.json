@@ -9,5 +9,12 @@
     "placeholders": "translation memory {culture}: {n} entries change a {placeholder} (first: {id}); the translator keeps every placeholder as it is",
     "urls": "translation memory {culture}: {n} entries change or drop a URL (first: {id})",
     "numbers": "translation memory {culture}: {n} entries add, drop or change a number (first: {id}); a date or a figure must read the same in every language"
-  }
+  },
+  "numbers_skip": [
+    "zh-Hans",
+    "zh-Hant",
+    "ja-JP",
+    "ko-KR"
+  ],
+  "numbers_skip_note": "These languages count in units of ten thousand (3.6 million is 360 万), so their digits legitimately differ from the English; placeholders and URLs are still checked."
 }
