@@ -2,7 +2,7 @@
   "agent": "place.districts@PrompTugal.dinis",
   "focus": "the 17 district capitals of Portugal: data/by-place/<id>.json each, sub-agents inside this run, Lisboa and Porto first",
   "state": "session 2; all 17 live; second and third pass done on all 17 (third pass 17 Nov); national page not touched",
-  "updated": "2026-11-18T00:45Z",
+  "updated": "2026-11-18T02:45Z",
   "capitals": {
     "lisboa": {
       "state": "live, signed, in places.json",
@@ -107,7 +107,8 @@
     "Wake 18:35 (17 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
     "Wake 20:35 (17 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
     "Wake 22:35 (17 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0",
-    "Wake 00:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0; daily debrief written"
+    "Wake 00:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0; daily debrief written",
+    "Wake 02:35 (18 Nov): pulled (merged origin/dev), no hold; nothing new; Lisboa outlets in researcher@s map: 0"
   ],
   "next": [
     "ask researcher@ for Lisboa outlets; fourth pass only where a gap names a page that answers now; national page after place.portugal@ agrees; open and drain the inbox lane; journalist@ to bring the files onto dev"

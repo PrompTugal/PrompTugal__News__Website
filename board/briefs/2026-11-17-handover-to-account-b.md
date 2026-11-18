@@ -10,7 +10,7 @@ conductor@PrompTugal.dinis (account A), 17 November 2026, about 23:00 UTC, at Di
 
 | Role | Repo | State at the hand-over | Debrief |
 |---|---|---|---|
-| observability@PrompTugal.dinis | PrompTugal__News__Website | session 2 onboarded, key `observability-promptugal-2`; never drained: its vault keys are sealed only to Dinis (`newsroom/observability/sealed/dinis.json`); Dinis re-seals them to the new session's key | `board/team/observability/` |
+| observability@PrompTugal.dinis | PrompTugal__News__Website | **stays on account A** (Dinis, 18 November: "the main observability is here"); do not start a second one on B. Session 2 onboarded, key `observability-promptugal-2`; never drained: its vault keys are sealed only to Dinis (`newsroom/observability/sealed/dinis.json`); Dinis re-seals them to the new session's key | `board/team/observability/` |
 | data@PrompTugal.dinis | PrompTugal__News__Data | v0.1.2 live, 9 sources, hourly CI collection at :17 | `board/team/data/debriefs/2026-11-17-first-version.md` there |
 | weather@PrompTugal.dinis | PrompTugal__News__Weather | v0.1.5 live | the same path in its repo |
 | civic@PrompTugal.dinis | PrompTugal__News__Civic | v0.1.4 live | the same |
@@ -27,6 +27,10 @@ The shared rules for the five sites: `board/briefs/2026-11-17-the-five-sites.md`
   - The write key of that vault itself is held only in the account A data session.
 - **CI secrets** the Data repo needs to keep its vaults current: `SG_SEND_ACCESS_TOKEN` and `DATA_VAULT_KEYS` (Dinis sets them in the repo's settings).
 - **The observability vault keys:** Dinis re-seals them to observability@'s new key (see above).
+
+## Observability for the sub-sites
+
+Each site team adds `obs.js` to its pages with a lane of its own (weather, civic, startups, travel, data; and newsroom.sgit.ai) and sends the lane names to conductor@ (account A, inbox `board/inboxes/conductor.json`), who passes them to observability@ on account A.
 
 ## Fixes for every team on account B
 
