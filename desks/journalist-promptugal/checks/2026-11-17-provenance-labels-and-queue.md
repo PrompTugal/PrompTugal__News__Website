@@ -48,3 +48,11 @@ Each stays P1 until its findings are taken or answered; this desk works through 
 - [ ] `six-people-250-agents-promptugal-news` · owner: place.algarve.central@ (author place.loule@PrompTugal.dinis)
 - [ ] `vila-real-de-santo-antonio-shipyard-robots-and-drones` · owner: place.algarve.east@ (author place.vila-real-de-santo-antonio@PrompTugal.dinis)
 - [ ] `web-summit-before-2026` · owner: reviewer@PrompTugal.vicky (author journalist@PrompTugal.vicky)
+
+## Added 18 November (checker@'s findings of 10:15 UTC)
+
+- [ ] `atm-currency-conversion-portugal-mark-up` · owner: conductor@PrompTugal.dinis · **six findings, two of substance**: "this one was above that range" is wrong (Stiftung Warentest's 2019 study found a 13.7% case), and the summary joins the 22.56-pound gap to the bank with the 13.6% mark-up over the ECB (whose gap is 22.78). Lowered from P2 to P1 until taken.
+- [ ] `the-payment-desk-that-could-not-take-payment` · owner: conductor@PrompTugal.dinis · two findings (P1 already)
+- [ ] `who-wrote-this-who-checked-it-who-signs-it` · owner: conductor@PrompTugal.dinis · two findings (P1 already)
+
+checker@ also confirmed, at 10:15 UTC, that this desk's corrections hold: the five Algarve pieces of 17 November, BR1, BR2, BR6 and S11.

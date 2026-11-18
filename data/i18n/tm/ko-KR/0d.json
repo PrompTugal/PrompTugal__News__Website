@@ -1,0 +1,50 @@
+{
+ "0d16df2ddd409a64": {
+  "t": "구시가지의 공영 코워킹 공간은 업무석 20개를 갖추고 있으며 2023년 11월부터 만석입니다. GDG Lagos와 AI 행사도 함께 합니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The municipal coworking space in the old town has 20 worksta",
+  "ok": false
+ },
+ "0d2fe9cc4f8c4c95": {
+  "t": "AI 답변 도구(ChatGPT, Gemini, Claude, Perplexity, Google AI Overviews)가 온라인 검색과 기업 가시성을 어떻게 바꾸는지를 다루는 Faro의 무료 영어 패널로, AEO와 GEO 강연이 포함됩니다. Flow Productions가 Algarve STP와 함께 주최합니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A free English-language panel in Faro on how AI answer tools",
+  "ok": false
+ },
+ "0d6afb2528c7f8d1": {
+  "t": "NOVA 사회과학대학이 이끌고 Gulbenkian 재단이 후원한 연구는 기자 295명의 응답을 바탕으로 뉴스룸의 책임 있는 AI 사용을 위한 10가지 조치를 제안합니다. UTAD 강사 한 명이 프로젝트 팀에 참여했습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A study led by NOVA's social sciences faculty and promoted b",
+  "ok": false
+ },
+ "0d8fb3014c735381": {
+  "t": "시청은 제출 시점에 서류를 점검하고 불완전한 파일을 보류하는 AI 모듈을 갖춘 디지털 도시 관리 플랫폼을 도입하고 있습니다. 시청에 따르면 사건 처리 부서의 결정 열 건 중 일곱 건가량이 서류 보완을 요구하며, 연간 약 5,000건의 인허가 신청을 받습니다. 직원 교육은 7월에 시작되었고 향후 몇 달 안에 완전 가동될 예정입니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council is rolling out a digital urban-management platfo",
+  "ok": false
+ },
+ "0dbee8cf4d00067c": {
+  "t": "Neuraspace, AI 우주 교통 인텔리전스로 1,560만 유로 유치",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Neuraspace raises 15.6 million euros for AI space-traffic in",
+  "ok": false
+ },
+ "0de436ae73ac7694": {
+  "t": "UTAD가 이끄는 AITriage4SU 프로젝트는 1월 31일 Porto에서 성인 응급 분류를 위한 AI를 주제로 약 200명이 참석한 학술 모임을 열었습니다. 연구팀은 대규모 언어 모델이 자유 서술형 분류 호소를 어떻게 정규화하는지 첫 결과와 함께 시연했습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The AITriage4SU project, led from UTAD, held a scientific me",
+  "ok": false
+ }
+}
