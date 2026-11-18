@@ -15,11 +15,13 @@
 @media (max-width: 767px) { .ls-src-l { display: none; } .ls-src-a { flex-basis: 100%; padding: 8px 0; } .ls-src-a + .ls-src-a { border-top: 1px solid var(--rule); } }
 .ls-src-here { align-self: center; font: 600 13px var(--sans, system-ui); white-space: nowrap; color: inherit; }
 /* the PrompTugal.news sites, one row in the sand band on the home page (Dinis, 18 November 2026) */
-.ls-sites { flex: 1 1 100%; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; padding: 10px 0; }
-.ls-sites-k { font: 700 11.5px var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--brand-green); margin-right: 6px; }
+.ls-sites { flex: 1 1 100%; display: flex; flex-wrap: wrap; align-items: stretch; gap: 6px 10px; padding: 10px 0; }
+.ls-sites-k { align-self: center; font: 700 11.5px var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--brand-green); margin-right: 6px; }
 .ls-site { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 1px; padding: 7px 12px; background: var(--paper, #f6f3ec); border: 1px solid var(--rule); border-radius: 10px; color: var(--ink); text-decoration: none; }
 .ls-site b { font: 600 16px/1.2 var(--serif); }
 .ls-site span { font-size: 12.5px; color: var(--ink-2); }
 .ls-site:hover, .ls-site:focus-visible { border-color: var(--brand-green); }
 @media (max-width: 1180px) { .ls-sites-k { flex-basis: 100%; } }
 @media (max-width: 767px) { .ls-sites { gap: 6px; padding: 8px 0; } .ls-site { flex: 1 1 28%; padding: 6px 10px; } .ls-site b { font-size: 15px; } .ls-site span { display: none; } }
+/* the band already lists the sites on the pages that carry it: no side rail there */
+.em-net { display: none !important; }
