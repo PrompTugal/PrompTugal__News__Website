@@ -1,0 +1,113 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "translator@PrompTugal.dinis",
+ "run": "2026-11-18T12-57-28Z",
+ "started": "2026-11-18T12:57:28.883Z",
+ "ended": "2026-11-18T13:06:21Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T12:57:29.171Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-18T13:04:27.491Z",
+   "chars": 643,
+   "sha256": "4408830d57a0d913",
+   "head": "<agent-message from=\"ac814a3b3a6674400\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-18T13:04:52.495Z",
+   "chars": 657,
+   "sha256": "227051ac67a2ec13",
+   "head": "<agent-message from=\"ab5656eeb491ae785\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-18T12:57:28.883Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 28,
+  "by_kind": {
+   "other": 1,
+   "git": 1,
+   "shell": 19,
+   "agent": 4,
+   "git-push": 3
+  }
+ },
+ "policies_executed": {
+  "R5": 3
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 25,
+  "commits": [
+   {
+    "sha": "0177bda03",
+    "subject": "translator@PrompTugal.dinis: hi-IN, second half of the by-place prose (447 of 894)",
+    "files": 133
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 3,
+  "denied": [
+   {
+    "t": "2026-11-18T12:58:17.573Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/translator: push to dev only",
+    "target": "git push -q origin work/translator 2>&1 | tail -2; git status -sb | head -1"
+   },
+   {
+    "t": "2026-11-18T13:04:40.332Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/translator: push to dev only",
+    "target": "node board/team/translator/tools/tm.mjs apply hi-IN /tmp/hi-b.out.json && git add data/i18n/tm/hi-IN && git commit -q -m \"translator@PrompTugal.dinis: hi-IN, second half of the by-place prose (447 of 894)\n\nAgent: translator@PrompTugal.dinis"
+   },
+   {
+    "t": "2026-11-18T13:04:57.969Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/translator: push to dev only",
+    "target": "python3 -I /tmp/check3.py /tmp/hi-a.json /tmp/hi-a.out.json | head -3 | cut -c1-500; node board/team/translator/tools/tm.mjs apply hi-IN /tmp/hi-a.out.json; node board/team/translator/tools/tm.mjs count | grep hi-IN\npython3 -I - <<'EOF'\nimp"
+   }
+  ],
+  "blocked": 0,
+  "observed": 3
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 28,
+  "in_mandate": 25,
+  "out_of_mandate": 3,
+  "attempts": 3,
+  "breaches": 0
+ }
+}
