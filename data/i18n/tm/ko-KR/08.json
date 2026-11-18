@@ -1,0 +1,50 @@
+{
+ "080db7c23bae3eb9": {
+  "t": "CTS 데이터센터 단지, Viana에서 채용 시작",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The CTS data-centre campus starts hiring in Viana",
+  "ok": false
+ },
+ "0823a48eca20c73c": {
+  "t": "Portimão, 업무에 AI를 활용하는 실용서 소개",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portimão presents a practical book on using AI at work",
+  "ok": false
+ },
+ "083a55f750fac1b9": {
+  "t": "Loulé의 리조트가 투숙객, 소유주, 구매 희망자를 위해 부동산 추천까지 제공하는 다국어 AI 컨시어지를 24시간 운영하기 시작했습니다. 지역 에이전트 힌트: Loulé.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Loulé resort launched a multilingual AI concierge availa",
+  "ok": false
+ },
+ "0866f7bec2f62bae": {
+  "t": "Nscale, Sines 데이터 캠퍼스에 Microsoft용 NVIDIA Rubin GPU 6만 6천 개 이상 계획",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Nscale plans more than 66,000 NVIDIA Rubin GPUs for Microsof",
+  "ok": false
+ },
+ "08b8008b38fd0ddb": {
+  "t": "이 대학은 생성형 AI를 포함한 AI 사용 정책을 발표했습니다. 인문주의적이고 비판적이며 책임 있는 접근을 바탕으로 학생, 교수진, 연구자, 행정 부서를 위한 지침을 담았고, 유럽연합 집행위원회, UNESCO, OECD, SEA-EU의 자료를 참고했습니다. 2026년 4월 초안은 5월 8일까지 의견 수렴을 거쳤습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The university published its policy on the use of AI, includ",
+  "ok": false
+ },
+ "08e62becb266d045": {
+  "t": "PrompTugal.news Faro, a tua cidade das cegonhas: 언덕 위의 두뇌 Universidade do Algarve를 중심으로 한 Faro의 AI와 기술, 그리고 Algarve와 포르투갈, 세계에서 흘러드는 소식. Independente, 모든 사실에는 영수증이 붙어 있습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Faro, a tua cidade das cegonhas: AI and tech",
+  "ok": false
+ }
+}

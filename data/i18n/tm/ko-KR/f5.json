@@ -1,0 +1,26 @@
+{
+ "f56ffc6c84b1b996": {
+  "t": "PrompTugal.news Vila do Bispo: Sagres와 성 빈센트 곶에서 바다와 바람에 이르는 Vila do Bispo의 AI와 기술, 그리고 Algarve, 포르투갈, 세계에서 Vila do Bispo로 전해지는 소식. 독립 매체이며, 모든 사실에 출처를 밝힙니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Vila do Bispo: AI and technology in Vila do ",
+  "ok": false
+ },
+ "f5c4b6076c6b6263": {
+  "t": "여기 실린 모든 이야기는 **PrompTugal 테스트**를 통과합니다. 직접 또는 두세 단계 안에서 AI와 관련이 있고, 그 경로가 함께 기록돼 있습니다. 장소가 이야기가 어디에 얼마나 크게 나올지를 정하고, AI가 우리의 이야기인지 아닌지를 정합니다. 모든 사실은 읽은 날짜와 함께 출처로 연결됩니다. Web Summit의 웹사이트에서 가져온 것은 없습니다. 연락처는 공공기관이나 단체가 자체 사이트에 게시한 경우에만, 해당 페이지와 읽은 날짜를 링크해 보여 드리며 개인의 연락처는 절대 싣지 않습니다. 이 페이지는 [이 매체의 공유 그래프]({graph})를 보는 하나의 렌즈이며, [PrompTugal.news 지역별 보기]({region})가 단계를 설명합니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Every story here passes **the PrompTugal test**: it is about",
+  "ok": false
+ },
+ "f5cb47601a008050": {
+  "t": "Ainda há muito por saber, pá. Guarda가 아직 말해 주지 않은 것은 다음과 같습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda há muito por saber, pá. Here is what Guarda has not to",
+  "ok": false
+ }
+}

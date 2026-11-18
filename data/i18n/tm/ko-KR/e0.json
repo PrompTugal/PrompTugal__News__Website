@@ -1,0 +1,34 @@
+{
+ "e08c06bc65abb642": {
+  "t": "{name}에서 AI로 가는 길을 가진 기업, 기관, 커뮤니티를 각각 공개 출처와 함께 정리했습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The companies, institutions and communities in {name} with a",
+  "ok": false
+ },
+ "e08fafe93f5830d8": {
+  "t": "우리가 열어 볼 수 있었던 출처에 따르면 이 자치단체의 기술 이야기는 바다와 바람입니다. Sagres에는 Porto da Baleeira의 해양 바이오기술 기업, 같은 항구의 대학 해양 연구소, 수심 20미터에서 해양 데이터를 실시간으로 기록하는 카메라·센서 스테이션인 MARREAL 수중 관측소가 있습니다. INEGI와 APREN의 풍력 단지 목록에는 2025년 리파워링을 포함해 이 자치단체의 풍력 단지가 올라 있습니다. AI 소식은 찾지 못했는데, 이것이 이 페이지의 첫 번째 발견이지만, AI로 가는 길이 나타날 가능성이 가장 큰 곳은 해양 데이터 스테이션입니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "On the sources we could open, the municipality's technology ",
+  "ok": false
+ },
+ "e0e5f037ff99adf0": {
+  "t": "이 포르투갈 스타트업은 자율 AI 에이전트를 모니터링하고, 위험한 출력을 사람이 검토하도록 표시하며, 0에서 100까지 점수를 매긴다. 투자자는 Angels Way이다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Portuguese startup monitors autonomous AI agents, flags ",
+  "ok": false
+ },
+ "e0efee49767bd1db": {
+  "t": "공공행정 직원을 위한 국가 교육 프로그램 Estado em Acção가 2026년 9월 18일 코임브라에서 무료 세션으로 시작했으며, 이후 전국에서 열 차례 세션이 이어질 예정이었다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A national training programme called Estado em Acção, for pu",
+  "ok": false
+ }
+}

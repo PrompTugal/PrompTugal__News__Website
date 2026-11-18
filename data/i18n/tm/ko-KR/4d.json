@@ -1,0 +1,18 @@
+{
+ "4d3e04b864186034": {
+  "t": "{name}에 관한 PrompTugal.news의 자체 기사(머리말의 town: 또는 region:), 각각 서명되어 있습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news's own articles about {name} (front matter to",
+  "ok": false
+ },
+ "4def806991338441": {
+  "t": "CitiLink는 긴 지자체 회의록을 주제, 입장, 결정에 대한 구조화된 정보로 바꿉니다. INESC TEC, Universidade do Porto, UBI가 2024년부터 2026년 초까지 개발했으며 Porto와 다른 다섯 지자체, Porto Digital이 참여했습니다. 심사위원단은 투명성에 대한 잠재력을 높이 평가했습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "CitiLink turns long municipal minutes into structured inform",
+  "ok": false
+ }
+}

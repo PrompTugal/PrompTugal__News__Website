@@ -1,0 +1,42 @@
+{
+ "7862b73cf59b4d2c": {
+  "t": "Viseu Dão Lafões, 첫 Smart Region Summit 개최, 시장을 위한 데이터 및 AI 플랫폼 선보여",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Viseu Dão Lafões holds its first Smart Region Summit and sho",
+  "ok": false
+ },
+ "78bee850bc310c70": {
+  "t": "{name}에서 회사 설립하기",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Starting a company in {name}",
+  "ok": false
+ },
+ "78dc9cc4a08684d2": {
+  "t": "AI를 개발하거나 집중적으로 활용하는 초기 단계 스타트업은 2026년 4월부터 9월까지 기술적 AI 지원과 멘토링을 갖춘 인큐베이션에 신청할 수 있었습니다. 포르투갈은 FCT와 국가 첨단 컴퓨팅 센터를 통해 참여합니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Early-stage startups building or intensively using AI could ",
+  "ok": false
+ },
+ "78e0284d3a099cdd": {
+  "t": "Queijo Serpa 숙성에 센서와 머신러닝 도입, Beja 대학이 파트너",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Queijo Serpa curing gets sensors and machine learning, with ",
+  "ok": false
+ },
+ "78fba34193dcd135": {
+  "t": "Algarve Empreende 2026에 따른 Algarve STP의 Algarve 스타트업 및 중소기업 12곳 대상 프로그램은 멘토링 주제에 기술과 인공지능을 올렸으며, UAlg, AMAL, NERA, ANJE, Algarve Evolution이 파트너입니다. 신청은 2026년 6월 24일 마감되었습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Algarve STP's programme for 12 Algarve startups and SMEs, un",
+  "ok": false
+ }
+}

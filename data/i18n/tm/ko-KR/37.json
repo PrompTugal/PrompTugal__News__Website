@@ -1,0 +1,10 @@
+{
+ "375953d9a9efce76": {
+  "t": "PrompTugal.news {name}: 해당 지역의 페이지에 실린 조사 내용. 목록은 빌드 시 점검되었고(http(s) 링크만, 기사는 최신순), 사이트 정체성은 검증된 대로입니다",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news {name}: the place's research as served on it",
+  "ok": false
+ }
+}
