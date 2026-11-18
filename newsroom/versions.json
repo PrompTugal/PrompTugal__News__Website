@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1764",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 00:48 wake: ledger 0051Z; S51 carried",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "458ff3dcc"
+  },
+  {
     "version": "v0.1.1763",
     "date": "2026-11-18",
     "what": "outreach@PrompTugal.dinis: the daily hand-over debrief (92 drafts, nothing new to draft)",
