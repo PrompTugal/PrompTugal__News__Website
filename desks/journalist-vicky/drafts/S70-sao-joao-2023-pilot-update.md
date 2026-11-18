@@ -28,7 +28,7 @@ updates: ai-physiotherapy-portugal-health-service
 
 ## Notes for the reviewer
 
-- The note is about 150 words. It follows STYLE.md's "Update notes": an intro line with the source and its date, a short list grouped by subject, the caveat said once at the end. Past tense, short sentences, no semicolons.
+- The note is about 170 words. It follows STYLE.md's "Update notes": an intro line with the source and its date, a short list grouped by subject, the caveat said once at the end. Past tense, short sentences, no semicolons.
 - **Which article:** the curator's commission names S69 as the article to update, so the note goes on S69. The conductor's task text says S67. The note links to S67 and fits either. Please place it where you think it belongs.
 - **Source read:** [RTP, "Futura ULS São João terá projeto-piloto de telerreabilitação pós-cirúrgica"](https://www.rtp.pt/noticias/pais/futura-uls-sao-joao-tera-projeto-piloto-de-telerreabilitacao-pos-cirurgica_n1538412), 21 December 2023 (the page's own timestamp), read 18 November 2026. The whole page was read this time. Each point is in it as written: the surgery patients, the hybrid format, "criado a partir do Center for Responsible AI", the hospital centre and Sword Health as members, the Sword Health online platform with alerts supervised by the rehabilitation doctor, six months, about 300 patients.
 - **Left out on purpose:** the hospital's physical medicine director and the other doctor quoted (by role in the report, not named here, as the curator asked), the surgery regions treated, the digital literacy remark, and the formation of the new local health unit in January 2024.
