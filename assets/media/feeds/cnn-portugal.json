@@ -1,7 +1,7 @@
 {
  "id": "cnn-portugal",
  "feed": "https://cnnportugal.iol.pt/rss",
- "read_at": "2026-11-18T15:05Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
   {
    "title": "Sabores de Portugal conquistam o Rio de Janeiro",
@@ -14,6 +14,11 @@
    "date": "2026-11-18"
   },
   {
+   "title": "Altimira sobre a chegada de Paulo Fonseca: «Sabe do nosso potencial»",
+   "link": "https://cnnportugal.iol.pt/videos/altimira-sobre-a-chegada-de-paulo-fonseca-sabe-do-nosso-potencial/6afdbaad0cf2cb2507aa909d",
+   "date": "2026-11-18"
+  },
+  {
    "title": "Portugueses estão a comprar menos antibióticos. Será que aprenderam a usá-los melhor?",
    "link": "https://cnnportugal.iol.pt/videos/portugueses-estao-a-comprar-menos-antibioticos-sera-que-aprenderam-a-usa-los-melhor/6afda5250cf2aafa0453eeb6",
    "date": "2026-11-18"
@@ -21,11 +26,6 @@
   {
    "title": "Elevador da Glória: oposição acusa Câmara de Lisboa de mentir e esconder relatórios",
    "link": "https://cnnportugal.iol.pt/elevador-da-gloria/seguranca/elevador-da-gloria-oposicao-acusa-camara-de-lisboa-de-mentir-e-esconder-relatorios/20261118/6afdb184d34e5a653d734953",
-   "date": "2026-11-18"
-  },
-  {
-   "title": "Docentes da Universidade Técnica do Porto avançam para greve dia 3 de dezembro",
-   "link": "https://cnnportugal.iol.pt/universidade-tecnica-do-porto/docentes/docentes-da-universidade-tecnica-do-porto-avancam-para-greve-dia-3-de-dezembro/20261118/6afdb076d34e9ce6f1b44cb7",
    "date": "2026-11-18"
   }
  ]

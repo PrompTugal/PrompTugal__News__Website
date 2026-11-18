@@ -1,11 +1,12 @@
 {
  "33007913833e3259": {
-  "t": "Forum rady stawia na scenie lokalną firmę IT i firmę technologii medycznych",
+  "t": "Forum rady wprowadza na scenę lokalną firmę IT i firmę technologii medycznych",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-17",
   "src": "Council forum puts a local IT firm and a medical-technology ",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  },
  "330bf5c4b2e10426": {
   "t": "Go Coimbra, nowa agencja miejska, wymienia AI jako sektor priorytetowy",

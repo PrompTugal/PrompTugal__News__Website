@@ -24,5 +24,10 @@
       "check": "How to check us",
       "word": "In Dinis's words: {guidance}. Drafted from his guidance; journalist@ revises the text."
     }
+  },
+  "pins": {
+    "conductor.b-promptugal": "sha256:05e955d1ea81f4d9",
+    "dinis": "sha256:3cf8a7712553923b",
+    "about": "The fingerprints the report drop may seal to (board/team/dev/threat-models/report-drop.md). A key change in board/keys.json or board/person-keys.json turns the gate red until these are changed in the same release, in a commit that says why."
   }
 }

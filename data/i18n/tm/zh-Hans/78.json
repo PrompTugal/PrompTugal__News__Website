@@ -13,7 +13,7 @@
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "Starting a company in {name}",
-  "ok": false
+  "ok": true
  },
  "78dc9cc4a08684d2": {
   "t": "构建或大量使用人工智能的早期初创公司可在 2026 年 4 月至 9 月申请孵化，获得人工智能技术支持和辅导。葡萄牙通过 FCT 和国家高级计算中心参与。",

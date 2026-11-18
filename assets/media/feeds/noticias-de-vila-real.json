@@ -1,8 +1,13 @@
 {
  "id": "noticias-de-vila-real",
  "feed": "https://noticiasdevilareal.sapo.pt/feed/",
- "read_at": "2026-11-18T15:05Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
+  {
+   "title": "Arrancaram os trabalhos para a construção do Museu do Barro Preto de Bisalhães",
+   "link": "https://noticiasdevilareal.sapo.pt/arrancaram-os-trabalhos-para-a-construcao-do-museu-do-barro-preto-de-bisalhaes/",
+   "date": "2026-11-18"
+  },
   {
    "title": "Câmara de Vila Real esclarece aumento previsto de 90 cêntimos no passe urbano para 2027",
    "link": "https://noticiasdevilareal.sapo.pt/camara-de-vila-real-esclarece-aumento-previsto-de-90-centimos-no-passe-urbano-para-2027/",
@@ -21,11 +26,6 @@
   {
    "title": "CCDR Norte debateu futuro da região e defende crescimento económico aliado à coesão territorial",
    "link": "https://noticiasdevilareal.sapo.pt/ccdr-norte-debateu-futuro-da-regiao-e-defende-crescimento-economico-aliado-a-coesao-territorial/",
-   "date": "2026-11-17"
-  },
-  {
-   "title": "Homem com pulseira eletrónica suspeito de assaltar café a 200 metros da PSP de Vila Real",
-   "link": "https://noticiasdevilareal.sapo.pt/homem-com-pulseira-eletronica-suspeito-de-assaltar-cafe-a-200-metros-da-psp-de-vila-real/",
    "date": "2026-11-17"
   }
  ]

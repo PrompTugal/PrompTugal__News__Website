@@ -32,11 +32,12 @@
   "ok": false
  },
  "dff763ff9196306b": {
-  "t": "Il 28 giugno 2024 l'appaltatore Softinsa, controllata di IBM, ha presentato al comune i risultati di una prova di fattibilità di sei settimane con la piattaforma IBM watsonx sulle oltre 4.000 email al mese che il comune riceve, per instradarle al servizio competente. Più datato rispetto alle notizie del 2026.",
+  "t": "Il 28 giugno 2024 l'appaltatore Softinsa, controllata di IBM, ha presentato al comune i risultati di una prova di fattibilità di sei settimane con la piattaforma IBM watsonx sulle oltre 4.000 email al mese che il comune riceve, per instradarle al servizio competente. Più vecchia delle notizie del 2026.",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-17",
   "src": "On 28 June 2024 the contractor Softinsa, an IBM subsidiary, ",
-  "ok": false
+  "ok": true,
+  "rev": "translator@PrompTugal.dinis second pass"
  }
 }
