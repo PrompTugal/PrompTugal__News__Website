@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1815",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 16:48 wake, watch line and status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "ac8241d9d"
+  },
+  {
     "version": "v0.1.1814",
     "date": "2026-11-18",
     "what": "telemetry.b@PrompTugal.dinis: wake 16:26, costs refreshed, per-agent stats with deltas",
