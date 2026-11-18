@@ -1,0 +1,18 @@
+{
+ "6841582999ce66c7": {
+  "t": "CCDR Algarve, Tavira 혁신 허브 공사 승인, 센서로 제어하는 관개망 포함",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "CCDR Algarve approves the works at Tavira's innovation hub, ",
+  "ok": false
+ },
+ "6891ccd80a8acefe": {
+  "t": "공급업체 보도자료에 따르면 AP Hotels & Resorts는 리조트와 도시 호텔 전반에서 AI 기반 가격 책정 및 수요 예측 플랫폼 LodgIQ를 사용합니다. 보도자료는 Albufeira에 둔 리조트를 포함한 시설을 열거하지만 어느 시설이 이 시스템을 쓰는지는 밝히지 않습니다.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A supplier press release says AP Hotels & Resorts relies on ",
+  "ok": false
+ }
+}

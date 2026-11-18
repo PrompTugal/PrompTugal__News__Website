@@ -1,0 +1,141 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "translator@PrompTugal.dinis",
+ "run": "2026-11-18T07-05-51Z",
+ "started": "2026-11-18T07:05:51.911Z",
+ "ended": "2026-11-18T10:06:22Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T09:57:53.997Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-18T10:04:14.442Z",
+   "chars": 698,
+   "sha256": "818ca76cf01526b7",
+   "head": "<agent-message from=\"a7c3bb25866164223\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-18T10:04:42.697Z",
+   "chars": 673,
+   "sha256": "d372c07ea86eb5ba",
+   "head": "<agent-message from=\"ab9e6900dd48a4e65\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-18T09:57:53.779Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 29,
+  "by_kind": {
+   "shell": 18,
+   "git-push": 4,
+   "other": 1,
+   "git": 1,
+   "agent": 4,
+   "read": 1
+  }
+ },
+ "policies_executed": {
+  "R5": 4
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 25,
+  "commits": [
+   {
+    "sha": "c08a057e6",
+    "subject": "translator@PrompTugal.dinis: ko-KR, second half of the by-place prose (447 of 894)",
+    "files": 133
+   },
+   {
+    "sha": "19aa38a17",
+    "subject": "translator@PrompTugal.dinis: ja-JP, the glossary name Universidade do Algarve restored",
+    "files": 16
+   },
+   {
+    "sha": "83dde40b5",
+    "subject": "translator@PrompTugal.dinis: ja-JP complete (894 of 894), status, run report",
+    "files": 135
+   },
+   {
+    "sha": "91a3a39be",
+    "subject": "translator@PrompTugal.dinis: ja-JP, first half of the by-place prose (447 of 894)",
+    "files": 119
+   },
+   {
+    "sha": "a2df6d318",
+    "subject": "translator@PrompTugal.dinis: ja-JP, the glossary name Universidade do Algarve restored",
+    "files": 16
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 4,
+  "denied": [
+   {
+    "t": "2026-11-18T07:05:58.104Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/translator: push to dev only",
+    "target": "python3 -I - <<'EOF'\nimport json,glob\nn=0\nfor f in glob.glob('data/i18n/tm/ja-JP/*.json'):\n    d=json.load(open(f));ch=False\n    for k,v in d.items():\n        if 'University of Algarve' in v['t'] or 'University of the Algarve' in v['t']:\n  "
+   },
+   {
+    "t": "2026-11-18T09:58:41.719Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/translator: push to dev only",
+    "target": "git push -q origin work/translator 2>&1 | tail -2; git status -sb | head -1"
+   },
+   {
+    "t": "2026-11-18T10:04:23.783Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/translator: push to dev only",
+    "target": "python3 -I -c \"\nimport json\ns=json.load(open('/tmp/ko-b.json'));o=json.load(open('/tmp/ko-b.out.json'))\nprint(sum('University of' in v for v in s.values()), sum('University of' in o[k] and 'University of' not in s[k] for k in s))\"; node boa"
+   },
+   {
+    "t": "2026-11-18T10:04:48.619Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/translator: push to dev only",
+    "target": "python3 -I /tmp/check3.py /tmp/ko-a.json /tmp/ko-a.out.json | sed -n 2,3p; python3 -I -c \"\nimport json\ns=json.load(open('/tmp/ko-a.json'));o=json.load(open('/tmp/ko-a.out.json'))\nprint(sum('University of' in o[k] and 'University of' not in "
+   }
+  ],
+  "blocked": 0,
+  "observed": 4
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 29,
+  "in_mandate": 25,
+  "out_of_mandate": 4,
+  "attempts": 4,
+  "breaches": 0
+ }
+}
