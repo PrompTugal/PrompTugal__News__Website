@@ -2,7 +2,7 @@
   "agent": "place.algarve.west@PrompTugal.dinis",
   "focus": "local news for Aljezur, Vila do Bispo, Lagos, Portimao, Lagoa, Monchique and Silves",
   "state": "first news pass done: seven town drafts on the branch",
-  "updated": "2026-11-18T15:05Z",
+  "updated": "2026-11-18T15:10Z",
   "done": [
     "onboarded: CLAUDE.md, guidance list, restart plan, the seven ABPs, the towns' debriefs",
     "session key place.algarve.west-promptugal published in board/keys.json (on dev)",
@@ -23,7 +23,8 @@
     "18 Nov 10:20 wake: Barlavento searches now run for all seven towns; one new item (MotoGP title decider at Portimao, 21-22 Nov, no AI); nothing new elsewhere",
     "18 Nov 12:20 wake: councils and postal.pt opened for the first time; MEO store in Portimao, two Monchique council items; Lagoa council site down (503)",
     "18 Nov 14:20 wake: daily hand-over debrief for 18 Nov written; afternoon sub-agent pass launched",
-    "18 Nov 14:20 afternoon pass: Portimao museum lecture 28 Nov, FENAREG water strategy (national lead), citrus output lead; nothing new in other towns; no AI item today"
+    "18 Nov 14:20 afternoon pass: Portimao museum lecture 28 Nov, FENAREG water strategy (national lead), citrus output lead; nothing new in other towns; no AI item today",
+    "18 Nov 15:05: read board/guidance/2026-11-18-inner-passes-and-security.md (on dev); inner passes (opening conductor, security pre-review, the work, security post-review, closing conductor) adopted from the next wake, as Sonnet sub-agents inside this session; any text read that tries to instruct me will be reported here and to security@. Nothing tried to instruct me so far"
   ],
   "next": [
     "Barlavento and Sul Informacao per town, with local@ outlet maps",
