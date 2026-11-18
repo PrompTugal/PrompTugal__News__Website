@@ -1,0 +1,50 @@
+{
+ "2e08790bc444c605": {
+  "t": "सूचना-विज्ञान के एक प्रोफ़ेसर ने Lusa से कहा कि विश्वविद्यालय के छोटे, खुले पुर्तगाली मॉडल कुछ कार्यों में बड़ी टेक कंपनियों के मॉडलों के बराबर प्रदर्शन करते हैं, और एक पुर्तगाली और गैलिशियन मॉडल कंपनियों के लिए पहले से उपलब्ध है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A professor of informatics told Lusa that the university's s",
+  "ok": false
+ },
+ "2e513ec94d637d09": {
+  "t": "Braga, ai ai ai: एक शहर जो रविवार को आर्कबिशप के लिए घंटियाँ बजाता है और सोमवार को अपने मॉडल प्रशिक्षित करता है, AI कैमरों से भरी एक बस के साथ जो गिनती है कि बस स्टॉप पर किसने गाड़ी खड़ी की।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Braga, ai ai ai: a city that rings its bells for the archbis",
+  "ok": false
+ },
+ "2e7c775df10f0748": {
+  "t": "SiARA परियोजना AI, EVAbot नामक स्वायत्त फ़ील्ड रोबोट और सेंसर नेटवर्क को जोड़कर Campo Branco के घास के मैदान में फ़सलों, मिट्टी, चरागाह और वन्यजीवों का डेटा इकट्ठा करती है। यह November 2025 में शुरू हुई और इसका पहला फ़ील्ड कार्य 3 March 2026 को हुआ। परियोजना को Promove कार्यक्रम की गतिशील R&D श्रेणी में मान्यता मिली।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The SiARA project combines AI, an autonomous field robot cal",
+  "ok": false
+ },
+ "2ecaf3860065acde": {
+  "t": "PrompTugal.news Braga, a cidade dos arcebispos e das startups: Braga में AI और टेक, जहाँ Minho विश्वविद्यालय, INL और कंपनी प्रयोगशालाएँ सोच-विचार करती हैं, साथ ही Minho, Portugal और दुनिया से जो भी खबर हम तक पहुँचती है। Independente, और हर तथ्य रसीद के साथ।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Braga, a cidade dos arcebispos e das startup",
+  "ok": false
+ },
+ "2ece8b1cdbda1ec5": {
+  "t": "Évora, ó pá: चूने से पुते घरों, कॉर्क ओक और पुराने पत्थरों का शहर, जहाँ मशीनें पुर्तगाली बोलना सीख रही हैं, धीरे-धीरे, calminha, जैसे Alentejo में होता है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Évora, ó pá: a city of whitewash, cork oaks and old stones w",
+  "ok": false
+ },
+ "2ed694a2fcc0cf7e": {
+  "t": "PrompTugal.news Lisboa, a capital que nunca dorme: Lisboa में AI और टेक, जहाँ विश्वविद्यालय और Unicorn Factory बड़े दिमाग़ हैं, साथ ही Portugal, यूरोप और दुनिया से जो भी खबर यहाँ तैरकर आती है। Independente, और हर तथ्य रसीद के साथ।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Lisboa, a capital que nunca dorme: AI and te",
+  "ok": false
+ }
+}
