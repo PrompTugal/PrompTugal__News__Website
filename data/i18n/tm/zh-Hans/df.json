@@ -1,0 +1,42 @@
+{
+ "df09dbbb93e6a84c": {
+  "t": "Viseu医院集团购入由PRR资助的扫描设备，其中适用之处含有人工智能",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Viseu hospital group buys PRR-funded scanners that include A",
+  "ok": false
+ },
+ "df2d4bd6a5812b21": {
+  "t": "科英布拉的Critical Software为一个欧洲导弹项目构建人工智能平台",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Critical Software of Coimbra builds the AI platform for a Eu",
+  "ok": false
+ },
+ "df3370ad9243e3fb": {
+  "t": "该实验室为大型企业、私募股权公司和政府机构构建定制人工智能方案。融资规模未披露。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The lab builds custom AI solutions for large companies, priv",
+  "ok": false
+ },
+ "dfd17296d59d381a": {
+  "t": "PrompTugal.news Santarém：Santarém的人工智能与科技。这是Tejo河畔的一座区首府，重心在于农业食品科学和新的Campus Tejo；本站也报道从葡萄牙、欧洲和世界传到Santarém的消息。独立报道，每条事实均注明来源。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Santarém: AI and technology in Santarém, a d",
+  "ok": false
+ },
+ "dff763ff9196306b": {
+  "t": "2024年6月28日，承包商Softinsa（IBM子公司）向市政府介绍了为期六周的概念验证结果，该验证在IBM的watsonx平台上处理市政府每月收到的4,000多封电子邮件，并将其分派到合适的部门。比2026年的条目更早。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "On 28 June 2024 the contractor Softinsa, an IBM subsidiary, ",
+  "ok": false
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "f05962c7aae4d443": {
+  "t": "2026年11月9日发表的Observador访谈把Campus Tejo描述为分布在几个中心：农学院的实验室、一座400公顷的试验农场、CNEMA的企业空间，以及市中心的总部。该文字稿标注为机器生成，可能有错误。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "An Observador interview, published on 9 November 2026, descr",
+  "ok": false
+ },
+ "f0d9fc2463812edc": {
+  "t": "PrompTugal.news Coimbra, a cidade dos estudantes：Coimbra的人工智能与科技，Universidade是山上的大脑，IPN是温室，Feedzai是引以为傲的老校友，还有从葡萄牙、欧洲和世界飘来的消息。Independente，每条事实都有凭据。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Coimbra, a cidade dos estudantes: AI and tec",
+  "ok": false
+ },
+ "f0dc268a9716ec6c": {
+  "t": "Viana市政府称人工智能已在协助处理建筑许可",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Viana's council says AI already helps it process building li",
+  "ok": false
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "0321b9546f7812fc": {
+  "t": "Web Summit 在里斯本开幕，人形机器人登台演讲，聚焦实体人工智能",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Web Summit opens in Lisbon with humanoid robots as speakers ",
+  "ok": false
+ },
+ "03958186d4659f01": {
+  "t": "Algarve Evolution 面向旅游企业发起人工智能与机器人征集，联合体由总部位于 Loulé 的 NERA 牵头",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Algarve Evolution opens an AI and robotics call for tourism ",
+  "ok": false
+ }
+}

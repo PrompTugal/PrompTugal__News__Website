@@ -1,0 +1,50 @@
+{
+ "080db7c23bae3eb9": {
+  "t": "CTS 数据中心园区在 Viana 开始招聘",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The CTS data-centre campus starts hiring in Viana",
+  "ok": false
+ },
+ "0823a48eca20c73c": {
+  "t": "Portimão 推出一本关于在工作中使用人工智能的实用书籍",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portimão presents a practical book on using AI at work",
+  "ok": false
+ },
+ "083a55f750fac1b9": {
+  "t": "这家 Loulé 度假村推出了多语言人工智能礼宾服务，全天候为住客、业主和潜在买家提供服务，包括房产推荐。本地智能体提示：Loulé。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Loulé resort launched a multilingual AI concierge availa",
+  "ok": false
+ },
+ "0866f7bec2f62bae": {
+  "t": "Nscale 计划在 Sines 数据园区为 Microsoft 部署超过 66,000 块 NVIDIA Rubin GPU",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Nscale plans more than 66,000 NVIDIA Rubin GPUs for Microsof",
+  "ok": false
+ },
+ "08b8008b38fd0ddb": {
+  "t": "该大学发布了其人工智能（包括生成式人工智能）使用政策：采取人文、批判和负责任的态度，为学生、教师、研究人员和行政部门提供指引，并参考了欧盟委员会、联合国教科文组织、经合组织和 SEA-EU 的文件。2026 年 4 月的草案曾公开征求意见，截止至 5 月 8 日。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The university published its policy on the use of AI, includ",
+  "ok": false
+ },
+ "08e62becb266d045": {
+  "t": "PrompTugal.news Faro, a tua cidade das cegonhas：Faro 的人工智能与科技，以山上的“大脑”Universidade do Algarve 为核心，另有从阿尔加维、葡萄牙和世界驶来的各类新闻。Independente，每个事实都附有凭证。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Faro, a tua cidade das cegonhas: AI and tech",
+  "ok": false
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "fc00ddd291017b54": {
+  "t": "PrompTugal.news Albufeira：我们关注Albufeira这座海滩、酒吧和预订之城的人工智能与科技，以及从Algarve、葡萄牙和世界冲刷而来的一切。独立，每条事实均注明来源，不晒伤。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Albufeira: we follow the AI and tech in Albu",
+  "ok": false
+ },
+ "fc5c8736a3e9b7b2": {
+  "t": "Elife Portugal在Porto开设AIhub，一个拥有实体空间的人工智能社区",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Elife Portugal opens AIhub, an AI community with a physical ",
+  "ok": false
+ },
+ "fccae70e24743955": {
+  "t": "地方卫生单位举办关于卫生服务中人工智能的网络研讨会",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Regional health unit holds a webinar on AI in the health ser",
+  "ok": false
+ }
+}

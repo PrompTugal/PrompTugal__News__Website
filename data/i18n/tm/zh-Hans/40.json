@@ -1,0 +1,26 @@
+{
+ "403e316ed5565506": {
+  "t": "Nexxt Leiria 为十个项目颁奖，其中数个以人工智能为核心",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Nexxt Leiria awards ten projects, with AI at the heart of se",
+  "ok": false
+ },
+ "403fe61355405625": {
+  "t": "Faro 的 DevFest 用两天探讨代理式人工智能",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "DevFest in Faro spends two days on agentic AI",
+  "ok": false
+ },
+ "40ef0497fa27c17e": {
+  "t": "Old Course Vilamoura 新增 Trackman 球追踪系统，为阿尔加维首家",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Old Course Vilamoura adds Trackman ball tracking, first in t",
+  "ok": false
+ }
+}

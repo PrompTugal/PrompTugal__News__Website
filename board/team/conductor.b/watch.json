@@ -809,6 +809,11 @@
       "at": "2026-11-18T02:53Z",
       "by": "conductor.b@PrompTugal.dinis",
       "note": "hour 31: live v0.1.1769. Five sites still blocked: the five repos are not in this account's Claude GitHub App installation (list_repos shows only Website, Fringe, Swarm, Swarm Runs). Observability reconciled with account A's 02:23 hand-over: site teams add obs.js lanes, observability@ on A drains; no observability.b@ here. observability@ (A) fixed tab counting, votes, per-place stats; security@ 30 commits clean, S52 (observability's first session back with its key and a schedule, not in guidance). The old conductor@ evened the site cards."
+    },
+    {
+      "at": "2026-11-18T03:51Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 32 (ledger): 19 sessions 365.15 USD API-equivalent since the restart (+28.81 in 3h); live v0.1.1771. Night, quiet. The old conductor@: observability's schedule stays on account A (Dinis), hourly drain re-enabled. Five site repos still not in this account's GitHub App installation."
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+ "bd29a002a1eb5342": {
+  "t": "Algarve及其{count}个城镇的人工智能与科技：{local}和{map}登上该地区的人工智能地图，每条事实均注明来源。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AI and technology across the Algarve and its {count} towns: ",
+  "ok": false
+ },
+ "bdc8cd12e99136dd": {
+  "t": "Olhão学校项目在Erasmus+交流中用人工智能重现本地传说",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Olhão school project recreates local legends with AI in an E",
+  "ok": false
+ }
+}

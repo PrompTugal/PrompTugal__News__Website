@@ -1,0 +1,26 @@
+{
+ "1e19db94c238e148": {
+  "t": "大西洋",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Atlantic Ocean",
+  "ok": false
+ },
+ "1e27f4e3a59a8ae6": {
+  "t": "这家光纤运营商于 2026 年 6 月 9 日宣布，该市镇的覆盖率将超过 80%，达到 82%，到 2026 年上半年末，Alcoutim、Giões 和 Pereiro 将新增约 1,000 户。超过 3,100 个家庭将能够接入。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The fibre operator announced on 9 June 2026 that the municip",
+  "ok": false
+ },
+ "1ea0f915d9fc4fff": {
+  "t": "该大学为学生、教师、研究人员和员工制定了使用人工智能的原则、义务和良好做法，采取人文主义的态度，并推动使用安全的机构内工具。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The university set out principles, duties and good practice ",
+  "ok": false
+ }
+}

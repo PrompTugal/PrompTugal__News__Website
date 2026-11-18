@@ -1,0 +1,50 @@
+{
+ "a12fbf70db1d3fde": {
+  "t": "波尔图的这家中心与一家平台公司和葡萄酒庄合作，构建计算机视觉和人工智能模型，能从田间照片识别约200种葡萄牙本土葡萄品种并发现葡萄病害。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Porto centre builds computer vision and AI models that r",
+  "ok": false
+ },
+ "a15c51f0c0f7e462": {
+  "t": "CIM在Viseu召集240名教师，讨论学校中的人工智能",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The CIM gathers 240 teachers in Viseu to debate AI in school",
+  "ok": false
+ },
+ "a196dbfe4dac84e7": {
+  "t": "PrompTugal.news Lisboa：Lisboa的人工智能与科技。这座首都的重心在于大学和研究机构、Unicorn Factory创业中心以及国家人工智能项目；本站也报道从葡萄牙、欧洲和世界传到Lisboa的消息。独立报道，每条事实均注明来源。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Lisboa: AI and technology in Lisboa, the cap",
+  "ok": false
+ },
+ "a1ba7f75dfeca8c2": {
+  "t": "Santarém，pá：这座“哥特之都”从Portas do Sol俯瞰Tejo河，斗牛在两场集市之间歇息，而在蓝莓与小麦之间的某处，这座城市正悄悄发明一座科学园。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Santarém, pá: the Capital do Gótico gazes over the Tejo from",
+  "ok": false
+ },
+ "a1de29d6ac647913": {
+  "t": "Guarda学生开发Imo Harmonia，一款读取市政总体规划的人工智能工具",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Guarda students build Imo Harmonia, an AI tool that reads mu",
+  "ok": false
+ },
+ "a1ead2bfddf5ea25": {
+  "t": "2026年3月，环境部创建了APIS（Áreas Protegidas Inteligentes e Seguras，智能安全保护区），由ICNF协调，由Fundo Ambiental出资，2026年和2027年每个地点最高12.5万欧元。两个试点是Alvão自然公园和Serra do Açor保护景观区，利用人工智能、数字化和自动化进行早期探测。报道没有提到Algarve或Monchique。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "In March 2026 the Environment Ministry created APIS (Áreas P",
+  "ok": false
+ }
+}

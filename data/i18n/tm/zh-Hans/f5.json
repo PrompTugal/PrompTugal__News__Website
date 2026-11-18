@@ -1,0 +1,26 @@
+{
+ "f56ffc6c84b1b996": {
+  "t": "PrompTugal.news Vila do Bispo：Vila do Bispo的人工智能与科技，从Sagres和圣文森特角到大海和风；本站也报道从Algarve、葡萄牙和世界传到Vila do Bispo的消息。独立报道，每条事实均注明来源。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Vila do Bispo: AI and technology in Vila do ",
+  "ok": false
+ },
+ "f5c4b6076c6b6263": {
+  "t": "这里的每篇报道都通过**PrompTugal检验**：它与人工智能直接相关，或相隔两三步，并且路径会连同报道一并写明。地点决定报道出现在哪里以及篇幅多大；人工智能决定它是否属于我们。每条事实都链接到其来源并注明阅读日期。没有任何内容来自Web Summit的网站。只有当公共机构或组织在自己的网站上公布联系方式时才会显示，并链接到该页面且注明阅读日期；绝不显示私人联系方式。本页是[本刊共享图谱]({graph})的一个视角；[PrompTugal.news按地点]({region})解释各个层级。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Every story here passes **the PrompTugal test**: it is about",
+  "ok": false
+ },
+ "f5cb47601a008050": {
+  "t": "Ainda há muito por saber，pá。以下是Guarda尚未告诉我们的内容：",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda há muito por saber, pá. Here is what Guarda has not to",
+  "ok": false
+ }
+}

@@ -82,7 +82,7 @@ export function htmlPage(page, site) {
     const [y, mo, d] = site.TODAY.split('-')
     const shortDate = new Date(Date.UTC(+y, +mo - 1, +d)).toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', timeZone: 'UTC' }).replace(',', '')
     return `<!doctype html>
-<html lang="${/^[a-z]{2}-[A-Z]{2}$/.test(page.lang || "") ? page.lang : "en-GB"}">
+<html lang="${/^[a-z]{2,3}(?:-[A-Z][a-z]{3})?(?:-[A-Z]{2})?$/.test(page.lang || "") ? page.lang : "en-GB"}">
 <head>
 <meta charset="utf-8">${csp}
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -90,7 +90,7 @@ export function htmlPage(page, site) {
 <meta name="description" content="${esc(summary || '')}">
 <meta name="page-type" content="${esc(type || 'site')}">
 <meta name="page-date" content="${esc(date || '')}">
-<link rel="canonical" href="${site.BASE}${rel}">${(page.alternates || []).filter(x => /^([a-z]{2}-[A-Z]{2}|en-GB|x-default)$/.test(x.lang)).map(x => `\n<link rel="alternate" hreflang="${x.lang}" href="${site.BASE}${x.rel}">`).join('')}
+<link rel="canonical" href="${site.BASE}${rel}">${(page.alternates || []).filter(x => /^([a-z]{2,3}(?:-[A-Z][a-z]{3})?(?:-[A-Z]{2})?|x-default)$/.test(x.lang)).map(x => `\n<link rel="alternate" hreflang="${x.lang}" href="${site.BASE}${x.rel}">`).join('')}
 <meta property="og:url" content="${site.BASE}${rel}">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(summary || '')}">
