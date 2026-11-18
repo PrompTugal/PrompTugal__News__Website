@@ -251,5 +251,77 @@
   "send_message (claude-code-remote) to another session seen from conductor.b and 6 site leads; whether the grants allow it is for abp@ to decide",
   "library.b main session curled websummit.com twice (status codes); a pre-review in its batch said no machine reads of websummit.com: for abp@ to review",
   "data.b sub-agent curled about 20 public hosts (government, councils, universities, tourism)"
+ ],
+ "later_samples": [
+  {
+   "read_at": "2026-11-18T20:35Z",
+   "window": "newest 20 assistant events per session",
+   "sessions": {
+    "journalist": {
+     "tools": {
+      "Bash": 3
+     },
+     "hosts": {
+      "promptugal.news": 1
+     },
+     "subagents": 0
+    },
+    "dev": {
+     "tools": {
+      "Bash": 4
+     },
+     "hosts": {},
+     "subagents": 0
+    },
+    "designer": {
+     "tools": {
+      "Agent": 1,
+      "Bash": 1
+     },
+     "hosts": {},
+     "subagents": 1
+    },
+    "security": {
+     "tools": {
+      "Bash": 5
+     },
+     "hosts": {
+      "library.promptugal.news": 1
+     },
+     "subagents": 0
+    },
+    "place.algarve.west": {
+     "tools": {
+      "ReadNotifications": 1,
+      "Bash": 1
+     },
+     "hosts": {
+      "library.promptugal.news": 1
+     },
+     "subagents": 0
+    },
+    "place.algarve.central": {
+     "tools": {
+      "ReadNotifications": 1,
+      "Bash": 1
+     },
+     "hosts": {
+      "library.promptugal.news": 1
+     },
+     "subagents": 0
+    },
+    "place.algarve.east": {
+     "tools": {
+      "ReadNotifications": 1,
+      "Bash": 1
+     },
+     "hosts": {
+      "library.promptugal.news": 1
+     },
+     "subagents": 0
+    }
+   },
+   "note": "no connector, trigger, session or workflow call and no refusal visible in these windows"
+  }
  ]
 }

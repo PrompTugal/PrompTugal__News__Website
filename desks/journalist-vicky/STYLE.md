@@ -1,6 +1,6 @@
 # Promptugal News: house style for Vicky's journalists
 
-Read this before every draft and every review. Vicky changes it; nobody else does.
+Read this before every draft and every review. Vicky changes it; nobody else does. The adjustable numbers and lists (word ranges, title limit, bullets, banned words, statuses) live in `people/vicky/tools/lint_rules.yaml` on the team site, read by `draft_lint.py` and `publish_check.py`; this file points to it instead of repeating them (Vicky, 18 November 2026).
 
 ## Beats
 - journalist@PrompTugal.vicky (summit): Web Summit itself, practical guides, its numbers and reports, delegations.
@@ -18,7 +18,7 @@ Read this before every draft and every review. Vicky changes it; nobody else doe
 
 ## Format
 - Front matter: title, date, author, summary, status: draft, story, beat, license: https://creativecommons.org/licenses/by/4.0/, tags. Any value containing a colon goes in double quotes.
-- A title under 12 words. "In short": 3 to 5 bullets. The story. "What this does not claim". "Where this comes from": every source linked, with the date read.
+- A title within the word limit, and "In short" with the number of bullets, set in `people/vicky/tools/lint_rules.yaml` on the team site. The story. "What this does not claim". "Where this comes from": every source linked, with the date read.
 
 ## Match the published format
 The technical format only, as journalist@PrompTugal.dinis publishes it (from the articles in content/articles/, 6 November 2026), so a draft goes live with no changes. The writing itself follows our own house style, below.
@@ -43,7 +43,7 @@ Vicky, 6 November 2026; covers changed 14 November 2026.
 
 ## Style
 - Short, plain sentences. British spelling. No em-dashes.
-- **Length** (standing answer 92, Vicky, 16 November 2026: "no fixed word count. Length follows the story: usually 400 to 900 words for analysis and 300 to 700 for news, longer only with a reason; no repetition, no padding; the reviewer judges."): no fixed word count. Length follows the story, usually 300 to 700 words for news and 400 to 900 for analysis. Longer only with a reason, given in "Notes for the reviewer". No padding.
+- **Length** (standing answer 92, Vicky, 16 November 2026: "no fixed word count. Length follows the story: usually 400 to 900 words for analysis and 300 to 700 for news, longer only with a reason; no repetition, no padding; the reviewer judges."): no fixed word count. Length follows the story, within the usual ranges for news and analysis in `people/vicky/tools/lint_rules.yaml` on the team site. Longer only with a reason, given in "Notes for the reviewer". No padding.
 - If a source doesn't say which pronoun someone uses, use their name.
 - Positive and fair: lead with what is good and new; never invent enthusiasm, quotes or numbers.
 - Where it fits, say where to find the people or the work the story is about. The summit is over: no closing line on who could connect with whom there.
@@ -52,7 +52,7 @@ Vicky, 6 November 2026; covers changed 14 November 2026.
 
 - Say each fact once. "In short" sums up; "The story" does not repeat it. No closing paragraph that restates the piece. Standing answer 89 (Vicky, 16 November 2026: "I don't want repetition in any of my articles"): no sentence or paragraph that restates an earlier one in other words, and a number stated once, then referred to.
 - Short sentences, one idea each. Split long ones. No semicolons.
-- No filler: "notably", "it's worth noting", "underscores", "highlights", "landscape", "a testament to", "plays a key role", "navigate", "robust", "seamless", "ever-evolving", "delve", "in a move that".
+- No filler: the banned words are listed in `people/vicky/tools/lint_rules.yaml` on the team site (`banned_words`); draft_lint warns on each.
 - No sentences ending in a trailing "-ing" clause (", highlighting ...").
 - No lists of three just for rhythm. No stacked adjectives.
 - Names, numbers and dates instead of adjectives.
@@ -93,7 +93,7 @@ The example (S67, 17 November 2026):
 - No claims for RiskMandate beyond riskmandate.ai and the team's site. Nothing private from the team.
 
 ## Status
-The `status:` in a draft's front matter, and who sets each one (Vicky, 6 November 2026):
+The `status:` in a draft's front matter: the allowed values are `statuses` in `people/vicky/tools/lint_rules.yaml` on the team site. Who sets each one (Vicky, 6 November 2026):
 - `draft`: the writer.
 - `in-review`, `fix` and `ready`: the reviewer or the checker.
 - `approved`: the editor only, or an agent recording the editor's word.
@@ -111,5 +111,5 @@ On Vicky's desks, the reviewer publishes factual work that passes its source che
 - The newsroom repository is PrompTugal/PrompTugal__News__Website. Never push to the old SGit-AI address.
 - Push only to dev, through release.sh. Never to main, never to a session's own branch, never with --force.
 - If your local dev is out of date, reset it to origin/dev; never rewrite anything on GitHub.
-- When a draft is ready for review, address its commit For: reviewer@PrompTugal.vicky (the hand-off; the reviewer also reviews every draft in desks/journalist-vicky/drafts/). Routine review and publication of our drafts go through the reviewer only; a cross-desk piece Vicky has specifically authorised follows that authorisation.
+- Before handing a draft over, run `python3 -I <team site>/people/vicky/tools/draft_lint.py <draft>` in the newsroom clone; hand it over only when it shows no errors (standing answer 99). When a draft is ready for review, address its commit For: reviewer@PrompTugal.vicky (the hand-off; the reviewer also reviews every draft in desks/journalist-vicky/drafts/). Routine review and publication of our drafts go through the reviewer only; a cross-desk piece Vicky has specifically authorised follows that authorisation.
 - After each draft or review, add a line to your report in people/vicky/reports/ on the team site.
