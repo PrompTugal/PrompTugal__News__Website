@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-dnoticias-sns-sword-protocols",
+  "type": "evidence",
+  "source_url": "https://www.dnoticias.pt/2026/6/18/496006-medicos-vao-poder-prescrever-fisioterapeuta-em-casa-com-inteligencia-artificial/",
+  "beat": "Portugal",
+  "group": "S71",
+  "names": [
+    {
+      "as_listed": "Sword Health",
+      "ref": "organisation:sword-health"
+    },
+    {
+      "as_listed": "ULS Cova da Beira",
+      "ref": "organisation:uls-cova-da-beira"
+    },
+    {
+      "as_listed": "ULS São João",
+      "ref": "organisation:uls-sao-joao"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-18-1150.json",
+  "run": "2026-11-18T11:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-18-1150.json"
+    ]
+  }
+}
