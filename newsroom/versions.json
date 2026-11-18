@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1826",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 21:48 wake, watch line",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "d364d5bc5"
+  },
+  {
     "version": "v0.1.1825",
     "date": "2026-11-18",
     "what": "conductor.b@PrompTugal.dinis: list bulletins.b-promptugal's public key (sgit pki)",
