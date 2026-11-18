@@ -1,0 +1,18 @@
+{
+ "311ec510fafeb612": {
+  "t": "أطلقت شركة الاستشارات الكندية، التي لديها أكثر من 2,000 موظف في البرتغال، المركز في May 2026. ولا يذكر المصدر مدينة له.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Canadian consulting firm, with over 2,000 staff in Portu",
+  "ok": false
+ },
+ "317c4adf0ece68f9": {
+  "t": "AuroraMed، شركة تقنية صحية برتغالية تركز على الذكاء الاصطناعي في الإدارة السريرية، وكلية الطب في Universidade do Algarve أطلقتا دورة تنفيذية في Faro في 20 April لصانعي القرار في الصحة، مع منح ممولة من PRR.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AuroraMed, a Portuguese healthtech focused on AI in clinical",
+  "ok": false
+ }
+}

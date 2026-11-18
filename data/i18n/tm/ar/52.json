@@ -1,0 +1,26 @@
+{
+ "52a3442ebff23e77": {
+  "t": "Portalegre، ó pá: بلدة تلال من الغرانيت والنسيج حيث صُبغ الصوف يدويًا لقرون، وحيث يعلّم البوليتكنيك الآن المستشعرات وروبوتات المحادثة العيش في مزرعة، بينما تنتظر إسبانيا بأدب خلف التل.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portalegre, ó pá: a hill town of granite and tapestry where ",
+  "ok": false
+ },
+ "52c7ce0be499b3ee": {
+  "t": "Algarve Evolution تفتح باب التقديم لتجربتها في الذكاء الاصطناعي والروبوتات للشركات الصغيرة والمتوسطة في السياحة",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Algarve Evolution opens applications for its AI and robotics",
+  "ok": false
+ },
+ "52ca0f56bcbd27af": {
+  "t": "UTAD تنضم إلى مشروع من 36 شهرًا يستخدم الذكاء الاصطناعي لمحاربة الدبور الآسيوي",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "UTAD joins a 36-month project using AI to fight the Asian ho",
+  "ok": false
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "0f03ca01715fc750": {
+  "t": "DevFest Faro يخصص يومين لبناء وكلاء الذكاء الاصطناعي عمليًا",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "DevFest Faro gives two days to building AI agents in practic",
+  "ok": false
+ },
+ "0f1974d078687ca1": {
+  "t": "Ainda há muito por contar، pá. إليكم ما لم تخبرنا به Setúbal بعد:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda há muito por contar, pá. Here is what Setúbal has not ",
+  "ok": false
+ },
+ "0f37953a7650369c": {
+  "t": "الشركة، التي أسسها محاضرون في المعلوماتية وأخصائي إدارة من الجامعة، تدمج الذكاء الاصطناعي في برمجيات الأعمال والصناعة ليعرف بيانات كل شركة وقواعدها الخاصة. ومن المقرر أن يكون أوائل زبائنها من الشركات الصغيرة والمتوسطة.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The company, set up by informatics lecturers and a managemen",
+  "ok": false
+ }
+}
