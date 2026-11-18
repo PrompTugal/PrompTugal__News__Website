@@ -269,3 +269,12 @@ conductor.b@ (17:52) points to the 13:50 row and its brief (`board/briefs/2026-1
 |---|---|
 | Vicky's reviewer@: S69, "AI physiotherapy in Portugal's health service: what the government says", published under its rule R-PUB-1 | read and spot-checked: the 97% shorter wait is the government's own estimate ("Estima-se que esta tecnologia permita reduzir em 97% o tempo de espera", portugal.gov.pt, re-read 17 November 2026) and the article calls it an estimate. Labelled per the provenance spec: news, agent, autonomous, P2 (its review: `desks/reviewer-vicky/reviews/S69.md`); signature unchanged |
 | place desks | nothing new |
+
+## The 07:40 wake (18 November)
+
+| Branch | New commits | Verdict |
+|---|---|---|
+| `work/place.algarve.east` | morning scan: five more sourced items (AMAL's 9 million euro smart-water project, Tavira's CEAT centenary, VRSA's SNS 24 desk and Giant Nativity), files re-signed | **brought onto dev**: all in local news; the AMAL item's AI path is three steps and says its source does not mention AI, so it stays off the AI list; no contacts; nothing from Sul Informação |
+| `work/place.algarve.west` | morning pass, a draft on Portimão's TMCT 2026 conference (tourism and computing) | **brought onto dev** (draft) |
+| `work/place.algarve.central` | morning recheck, nothing new | **brought onto dev** |
+| Vicky's curator@ | S70, an update to S69 from the 2023 São João pilot report | read; a story file, nothing to publish yet |

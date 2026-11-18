@@ -1,6 +1,6 @@
 {
  "place": "algarve",
- "read_at": "2026-11-18T05:16:22Z",
+ "read_at": "2026-11-18T08:16:52Z",
  "by": "board/tools/local-now.mjs (conductor@PrompTugal.dinis)",
  "about": "Now in the Algarve: IPMA's warnings for the Faro district, Faro airport, and each place's nearest station. Not a warning service.",
  "warnings": {
@@ -22,9 +22,9 @@
   "icao": "LPFR",
   "name": "Faro airport",
   "within_nm": 40,
-  "at": "2026-11-18T05:16:22Z",
+  "at": "2026-11-18T08:16:52Z",
   "airline": [],
-  "other_aircraft": 0,
+  "other_aircraft": 1,
   "page": "https://globe.adsb.lol/?lat=37.014&lon=-7.966&zoom=9",
   "source": "https://api.adsb.lol/",
   "note": "What adsb.lol's community receivers saw within 40 nautical miles at the time read. Airline flights by callsign; other aircraft only counted."
@@ -58,7 +58,7 @@
   {
    "place": "vila-real-de-santo-antonio",
    "station": "Vila Real de S. António",
-   "temp_c": 19.4
+   "temp_c": 19.3
   },
   {
    "place": "portimao",
@@ -73,7 +73,7 @@
   {
    "place": "olhao",
    "station": "Olhão, EPPO",
-   "temp_c": null
+   "temp_c": 19.9
   },
   {
    "place": "albufeira",
@@ -88,7 +88,7 @@
   {
    "place": "monchique",
    "station": "Fóia",
-   "temp_c": 15.8
+   "temp_c": 16.1
   },
   {
    "place": "aljezur",
@@ -113,68 +113,68 @@
   {
    "place": "sao-bras-de-alportel",
    "station": "Olhão, EPPO",
-   "temp_c": null
+   "temp_c": 19.9
   }
  ],
  "reads": {
   "warnings": {
    "url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
-   "at": "2026-11-18T05:15:58Z",
+   "at": "2026-11-18T08:16:27Z",
    "status": 200
   },
   "observations": {
    "url": "https://api.ipma.pt/open-data/observation/meteorology/stations/observations.json",
-   "at": "2026-11-18T05:16:00Z",
+   "at": "2026-11-18T08:16:30Z",
    "status": 200
   },
   "city-daily-1080500": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080500.json",
-   "at": "2026-11-18T05:16:03Z",
+   "at": "2026-11-18T08:16:32Z",
    "status": 200
   },
   "city-daily-1080800": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1080800.json",
-   "at": "2026-11-18T05:16:05Z",
+   "at": "2026-11-18T08:16:34Z",
    "status": 200
   },
   "city-daily-1081100": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081100.json",
-   "at": "2026-11-18T05:16:07Z",
+   "at": "2026-11-18T08:16:36Z",
    "status": 200
   },
   "city-daily-1081505": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1081505.json",
-   "at": "2026-11-18T05:16:09Z",
+   "at": "2026-11-18T08:16:38Z",
    "status": 200
   },
   "fire-risk-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d0.json",
-   "at": "2026-11-18T05:16:11Z",
+   "at": "2026-11-18T08:16:40Z",
    "status": 200
   },
   "fire-risk-d1": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d1.json",
-   "at": "2026-11-18T05:16:13Z",
+   "at": "2026-11-18T08:16:42Z",
    "status": 200
   },
   "fire-risk-d2": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d2.json",
-   "at": "2026-11-18T05:16:15Z",
+   "at": "2026-11-18T08:16:45Z",
    "status": 200
   },
   "uv": {
    "url": "https://api.ipma.pt/open-data/forecast/meteorology/uv/uv.json",
-   "at": "2026-11-18T05:16:17Z",
+   "at": "2026-11-18T08:16:47Z",
    "status": 200
   },
   "sea-forecast-d0": {
    "url": "https://api.ipma.pt/open-data/forecast/oceanography/daily/hp-daily-sea-forecast-day0.json",
-   "at": "2026-11-18T05:16:20Z",
+   "at": "2026-11-18T08:16:49Z",
    "status": 200
   },
   "adsb": {
    "url": "https://api.adsb.lol/v2/point/37.0144/-7.9659/40",
-   "at": "2026-11-18T05:16:22Z",
+   "at": "2026-11-18T08:16:52Z",
    "status": 200
   }
  }

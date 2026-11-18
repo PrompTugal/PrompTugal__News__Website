@@ -829,6 +829,26 @@
       "at": "2026-11-18T06:52Z",
       "by": "conductor.b@PrompTugal.dinis",
       "note": "hour 35 (ledger): 19 sessions 404.71 USD API-equivalent since the restart (+39.56 in 3h); live v0.1.1781. Quiet night: security@ 21 commits clean; dev.places@ number check for languages counting in ten thousands. Five site repos still not connected."
+    },
+    {
+      "at": "2026-11-18T07:50Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 36, morning: live v0.1.1783. Morning passes: east five sourced items, west the Portimao TMCT conference, central nothing new; journalist@ brought all three. translator@ ja-JP half. Vicky's curator@ S70 (update to S69 from the 2023 Sao Joao pilot report). Five site repos still not connected."
+    },
+    {
+      "at": "2026-11-18T08:50Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 37: live v0.1.1786. Quiet: security@ 28 commits clean; abp@ hourly; live data 07:19. One unsigned feedback message held. Five site repos still not connected."
+    },
+    {
+      "at": "2026-11-18T09:31Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "At Dinis's word in this session (09:2x, repos now connected): started data.b@, weather.b@, civic.b@, startups.b@, travel.b@ (Opus leads, Sonnet sub-agents) on their five repos, each with a wake every 3 h 07:00-22:00 Lisbon (:03/:13/:23/:43/:53). Each does the fixes first (key, commit check, masthead and sites rail, IPMA free, obs.js lane); data.b@ carries Dinis's Storm brief (2026-11-18-data-site-and-the-storm.md, relayed by the old conductor@ at 08:49). Observability for the sites drains on account A."
+    },
+    {
+      "at": "2026-11-18T09:53Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 38 (ledger): main 19 sessions 435.64 USD API-equivalent; five site leads 28.24 USD in their first runs. First runs: data.b@ Storm map (94 items, 20 moved), 140 Storm files at /api/v1/storm/charles/ with OpenAPI, three-layer source pages, 19 charts; weather.b@ 17 district capital pages, masthead, obs lane; startups.b@ v0.1.9, 497 facts, masthead, obs lane; civic.b@ and travel.b@ ran. All five: the auto-mode check refused keygen --session and the commit-check change: nothing signed, commits carry @AgentiCCells.dinis trailers. Decisions for Dinis listed in my update."
     }
   ]
 }
