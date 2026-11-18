@@ -273,7 +273,9 @@ export function checkBash(who, command, cwd, P = loadPolicy()) {
         if (['echo', 'printf'].includes(verb) && SECRET_VAR.test(seg)) return deny('R8', `${verb} of a secret variable`, 'secret')
         if (['cat', 'head', 'tail', 'less', 'more', 'xxd', 'od', 'hexdump', 'base64', 'strings', 'bat', 'nl', 'awk', 'sed', 'grep', 'jq'].includes(verb)) {
             // grep, sed, awk and jq take a pattern or a script first (unless given with -e/-f): that is not a path (security@'s grep, 10:xx)
-            let pos = args.filter(a => !a.startsWith('-'))
+            // v1.15.1: a redirect target is written, not read (conductor.b@'s `cat > lane.enc <<EOF`, 18 Nov: six false positives)
+            const noRedirect = []; for (let i = 0; i < args.length; i++) { if (/^\d?>>?$/.test(args[i])) { i++; continue } if (/^\d?>>?./.test(args[i])) continue; noRedirect.push(args[i]) }
+            let pos = noRedirect.filter(a => !a.startsWith('-'))
             if (['grep', 'sed', 'awk', 'jq'].includes(verb) && !args.some(a => /^-(e|f|-regexp|-file)$/.test(a))) pos = pos.slice(1)
             const hit = pos.find(a => /[/.~]/.test(a) && isSecretPath(path.resolve(here, a.replace(/^~(?=\/)/, HOME))))
             if (hit) return deny('R8', `${verb} ${hit}: a private key or credentials file is never read into the conversation`, 'secret')
