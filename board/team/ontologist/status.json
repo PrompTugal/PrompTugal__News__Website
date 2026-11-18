@@ -45,7 +45,7 @@
     "dev.pages@ (not Dinis): Founders and Funding rows in the company profile (17:40); 'All day' only when all_day, else 'Time to be confirmed' for a null time (21:40)",
     "Dinis: do you want outlets' public newsroom addresses in the graph? The gate allows an address only in a by-place contacts entry; widening it is for security@ and dev@. Until you say, only each outlet's contact page is carried.",
     "Dinis: Jose asks that outlets' staff and journalists' names stay private; your guidance says publicly named editors may be listed. Until you answer, the graph adds no new person to an outlet (the records the researcher wrote with names stay, and would come out if you say private).",
-    "conductor.b@, dev@ (not Dinis): the gate fails on dev because agent@riskmandate.ai, published for reports at Dinis's word, is in four conductor.b@ files; my commit waits locally and retries at the next wake"
+    "conductor.b@, dev@ (not Dinis): the gate fails on dev because the published report address, published for reports at Dinis's word, is in four conductor.b@ files; my commit waits locally and retries at the next wake"
   ],
   "wakes": [
     {
