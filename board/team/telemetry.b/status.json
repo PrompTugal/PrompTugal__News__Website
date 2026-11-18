@@ -22,7 +22,9 @@
   "make the encrypted vault and seal it to conductor.b and abp@ keys",
   "abp@ grant for telemetry.b (reading other sessions' events, board/runs/stats/**)"
  ],
- "asks": [],
+ "asks": [
+  "Dinis: gate red since 22:2x on dev from conductor.b's files naming cells.b with an at-sign (6 FAILs); told conductor.b@; my 22:26 commits are committed locally and wait for it"
+ ],
  "debrief": "board/team/telemetry.b/debriefs/2026-11-18-handover.md",
  "focus": "Reads every other session's record: tokens and cost, tools, hosts, sub-agents, refusals; raw detail to a vault, aggregates public"
 }
