@@ -2,7 +2,7 @@
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts only: first contacts to each news organisation and its public journalists, leading with the outlet's page on PrompTugal.news; a person sends.",
  "state": "drafting from the 73 media records; nothing sent",
- "updated": "2026-11-18T14:30Z",
+ "updated": "2026-11-18T14:40Z",
  "done": [
   "Session key outreach-c-promptugal in board/keys.json (outreach-b superseded 19:35Z)",
   "Draft format desks/outreach/media/FORMAT.md and template.md, proposed to local@PrompTugal.jose",
@@ -18,7 +18,8 @@
   "Wake 12:38: fifteen more drafts: 67 in all (district capitals and nationals; Algarve's are local@'s), re-run against the pages",
   "Wake 15:38: twenty more drafts: 87 in all, re-run against the pages",
   "Wake 18:38: five more drafts: 92 in all, every outlet with a contact page and feed outside the Algarve now has one; all re-run against the pages",
-  "18 Nov 14:10 (conductor.b@, Dinis's word): the request on the record to sources we do not read: template, Eventbrite, Luma and Meetup drafts, order: board/team/outreach/sources-requests/"
+  "18 Nov 14:10 (conductor.b@, Dinis's word): the request on the record to sources we do not read: template, Eventbrite, Luma and Meetup drafts, order: board/team/outreach/sources-requests/",
+  "18 Nov 14:15 (conductor.b@, Dinis's word): the organiser nudge, English and Portuguese, held on his submissions answer: board/team/outreach/sources-requests/organiser-nudge.md"
  ],
  "next": [
   "Official and public bodies' requests (template, Portuguese twin) once data.b@'s register marks sources not-read, each to the body's own published channel",
@@ -28,7 +29,8 @@
   "Dinis: answer the For Dinis page 'what a first contact to a news organisation may promise' (options A to D; I recommend B), and who sends, from which address, and whether the email may name My Feeds as publisher.",
   "Dinis: local@PrompTugal.jose's drafts end with a RiskMandate disclosure line; you took RiskMandate off the site on 7 November. Mine omit it. Which is right for a first contact to a news outlet?",
   "Dinis: the outbox spec says the vault key is sealed to me once you say the outbox moves to this account's outreach@; say so (or have conductor.b@ seal it to outreach-c-promptugal) and I will write the emails there.",
-  "Dinis: the three platform requests (Eventbrite, Luma, Meetup) are drafted in board/team/outreach/sources-requests/ for you or a person to send from the help or API page each platform publishes; the official bodies' requests wait for the register, which is not in the repository yet."
+  "Dinis: the three platform requests (Eventbrite, Luma, Meetup) are drafted in board/team/outreach/sources-requests/ for you or a person to send from the help or API page each platform publishes; the official bodies' requests wait for the register, which is not in the repository yet.",
+  "Dinis: the organiser nudge says 'we publish your details as yours, credited and dated'; it is held until you answer the events brief's submissions question (organiser's own details published as theirs; a third party's only a lead) and question 3 (showing name, date, place and listing link)."
  ],
  "wakes": [
   {
