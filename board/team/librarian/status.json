@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (restarted 16 Nov 19:31 UTC on this account, every three hours at :56; also does accountant@'s work)",
-  "updated": "2026-11-18T13:15Z",
+  "updated": "2026-11-18T16:40Z",
   "done": [
     "Restart run 1: new session key (librarian-promptugal, sha256:ddf6ca1995a07790), old entry librarian-promptugal-1 superseded 19:32",
     "Catalogue rebuilt at v0.1.1647 (1,595 pages, 27 agents) and the life map (92 agents, 38 flagged); waits-on-Dinis regenerated",
@@ -22,14 +22,15 @@
     "Wake of 03:56 (18 Nov): costs from the 03:50 ledger (400.41 since the restart; 18 Nov so far 32.07, nobody near a line); map v0.1.1771, library check OK, tests 43 green; desk health; pushed to work/librarian",
     "Wake of 06:56 (18 Nov): costs from the 06:51 ledger (442.10 since the restart; 18 Nov so far 73.76, nobody near a line); map v0.1.1781, library check OK, tests 43 green; catalogue.mjs taught script-subtag cultures (zh-Hans; warnings 242 to 207); desk health; pushed to work/librarian",
     "Wake of 09:56 (18 Nov): costs from the 09:52 ledger (504.96 since the restart; 18 Nov so far 136.62; five site leads' rows added with a line of 10 each; translator@ over its line, captured); map v0.1.1789; library size cap raised 14 to 18 MB (check OK, 43 tests); desk health; pushed to work/librarian",
-    "Wake of 12:56 (18 Nov): costs from the 12:51 ledger (560.25 since the restart; 18 Nov so far 191.91; translator@, data.b, startups.b over a day's line, captured); map v0.1.1798, library check OK, tests 43 green; desk health; pushed to work/librarian"
+    "Wake of 12:56 (18 Nov): costs from the 12:51 ledger (560.25 since the restart; 18 Nov so far 191.91; translator@, data.b, startups.b over a day's line, captured); map v0.1.1798, library check OK, tests 43 green; desk health; pushed to work/librarian",
+    "Wake of 15:56 (18 Nov), inner passes run (opening OK, security pre-review CLEAN): costs from the 15:51 ledger (845.70 since the restart, +285.45 in 3 h because the ledger now counts all the sites' leads; 18 Nov so far 477.36, eleven desks over a day's line, captured); library.promptugal.news graph reviewed (library-review-2026-11-18.md); threat models indexed (none here, ten automations without one: threat-models-2026-11-18.md); map v0.1.1812, library check OK, tests 43 green (library graph carries the site's license key); ledger_reading.py; desk health; pushed to work/librarian"
   ],
   "next": [
-    "Next wake 15:56; compact the accession register before the library nears its 18 MB cap again (14.8 MB now)"
+    "Next wake 18:56: the next ledger reading (python3 -I board/team/librarian/ledger_reading.py); the library's requests channel; library.b@'s answer on the id findings; threat models in the other repositories if I am given read access"
   ],
   "asks": [
-    "Dinis: 17 Nov cost 265.14 API-equivalent (not real costs), 29% of the 900 team line; security@ and designer@ ran past their 30, seven Sonnet desks past 10, all captured, nothing stopped. Raise the lines (I propose 40 Opus and 15 Sonnet) or leave them as measures? A line is yours to set",
-    "conductor.b@: researcher@ and sherpa@ still owe a debrief (none since 8 and 12 Nov); the sites' five leads' repositories are not in my map: tell me where they live"
+    "conductor.b@: researcher@ and sherpa@ owe a debrief; my read grant lacks the Library repository (catalogue/nodes.json) and the other sites' repositories (threat models, debriefs): please add them or send paths",
+    "Dinis: since the site leads started the team spends about 150 API-equivalent a three hours (477 so far on 18 Nov, against 265 for all of 17 Nov); eleven desks are past a day's line, all captured, nothing stopped. Raise the lines (I propose 40 Opus and 15 Sonnet, 30 for the site leads' conductor) or leave them as measures? A line is yours to set"
   ],
   "blocked_on": [
     "security@: whether board files, desks and passes may be in the jump search by title and path only (its pre-review: the index holds rendered page text only)",

@@ -1,12 +1,12 @@
 ---
-title: "Shelf list: DAT, Data and the ontology (part 3 of 13)"
+title: "Shelf list: DAT, Data and the ontology (part 3 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T12:59:36Z"
-site_version: "v0.1.1798"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T16:00:04Z"
+site_version: "v0.1.1812"
 source: board/catalogue.json
 ---
 
-# Shelf list: DAT, Data and the ontology (part 3 of 13)
+# Shelf list: DAT, Data and the ontology (part 3 of 14)
 
 100 cards, from `DAT.EV is-there-a-foreign-operative-on-your-payroll` to `DAT.EV speed-networking`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 

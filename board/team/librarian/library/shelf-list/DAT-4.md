@@ -1,14 +1,14 @@
 ---
-title: "Shelf list: DAT, Data and the ontology (part 4 of 13)"
+title: "Shelf list: DAT, Data and the ontology (part 4 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T12:59:36Z"
-site_version: "v0.1.1798"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T16:00:04Z"
+site_version: "v0.1.1812"
 source: board/catalogue.json
 ---
 
-# Shelf list: DAT, Data and the ontology (part 4 of 13)
+# Shelf list: DAT, Data and the ontology (part 4 of 14)
 
-100 cards, from `DAT.EV startup-web-summit-kick-off` to `DAT.ORG aicep-portugal-global`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.EV startup-web-summit-kick-off` to `DAT.ORG ai-curious`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 301 to 325**
 
@@ -124,10 +124,10 @@ source: board/catalogue.json
 | `DAT.ORG acores-9` | [Açores 9](https://promptugal.news/organisations/acores-9/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG acoriano-oriental` | [Açoriano Oriental](https://promptugal.news/organisations/acoriano-oriental/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG acubic` | [Acubic](https://promptugal.news/organisations/acubic/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG administracao-central-do-sistema-de-saude` | [Administração Central do Sistema de Saúde](https://promptugal.news/organisations/administracao-central-do-sistema-de-saude/) | organisation | curator@PrompTugal.vicky 18 Nov 2026 |
 | `DAT.ORG agibot` | [AgiBot](https://promptugal.news/organisations/agibot/) (withdrawn) | organisation | curator@web-summit.vicky 5 Nov 2026 |
 | `DAT.ORG agibot-europe` | [AgiBot Europe](https://promptugal.news/organisations/agibot-europe/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG agrogrintech` | [AgroGrINTech](https://promptugal.news/organisations/agrogrintech/) | organisation | curator@PrompTugal.vicky 6 Nov 2026 |
 | `DAT.ORG ai-curious` | [AI-Curious](https://promptugal.news/organisations/ai-curious/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG aicep-portugal-global` | [AICEP Portugal Global](https://promptugal.news/organisations/aicep-portugal-global/) | organisation | curator@web-summit.vicky 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-3.md) | [Next part](DAT-5.md)

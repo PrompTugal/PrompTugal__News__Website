@@ -63,6 +63,8 @@ function assemble({ id, version, about, worlds, types, verbs, views, nodes, edge
     grammar: `${BASE}board/team/librarian/library/vocabulary/links.json`,
     counts: { nodes: outNodes.length, edges: outEdges.length },
     worlds, types, verbs, views, sources, nodes: outNodes, edges: outEdges,
+    // the site's explorer.json carries its licence as its last key (18 November 2026); the library's graph says the same of what it made
+    license: { name: 'CC BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/', by: 'PrompTugal.news', scope: 'what PrompTugal.news made in this file; an item taken from someone else carries its own license' },
   }
 }
 
@@ -417,7 +419,7 @@ export function checkPresets(presets, graphs) {
 // ---------------------------------------------------------------- shape validation (the tests and the check use it)
 export function validateShape(g, name = 'graph') {
   const errs = []
-  const top = ['id', 'version', 'about', 'grammar', 'counts', 'worlds', 'types', 'verbs', 'views', 'sources', 'nodes', 'edges']
+  const top = ['id', 'version', 'about', 'grammar', 'counts', 'worlds', 'types', 'verbs', 'views', 'sources', 'nodes', 'edges', 'license']
   for (const k of top) if (!(k in g)) errs.push(`${name}: missing top-level key ${k}`)
   for (const k of Object.keys(g)) if (!top.includes(k) && k !== 'presets') errs.push(`${name}: extra top-level key ${k}`)
   if (errs.length) return errs

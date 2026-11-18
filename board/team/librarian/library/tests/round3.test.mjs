@@ -124,7 +124,7 @@ test('the explorer engine reads the library graph: a path from an agent to a fin
 test('shape validation catches an out-of-bounds edge, a wrong count, a missing key and an unknown type', () => {
   const base = { id: 'x', version: 'v', about: 'a', grammar: 'g', counts: { nodes: 2, edges: 1 }, worlds: [{ id: 'w', label: 'W', types: ['t'] }], types: [{ id: 't', label: 'T', world: 'w' }],
     verbs: [{ verb: 'v', inverse: 'i', world: 'w', bridge: false, reads: 'a', reads_inverse: 'b' }], views: [], sources: ['s'],
-    nodes: [{ id: 'a', type: 't', label: 'A', src: 0, deg: 1, bc: 0, pr: 1, x: 0, y: 0 }, { id: 'b', type: 't', label: 'B', src: -1, deg: 1, bc: 0, pr: 1, x: 0, y: 0 }], edges: [[0, 1, 0, -1, 0, 0]] }
+    license: { name: 'CC BY 4.0' }, nodes: [{ id: 'a', type: 't', label: 'A', src: 0, deg: 1, bc: 0, pr: 1, x: 0, y: 0 }, { id: 'b', type: 't', label: 'B', src: -1, deg: 1, bc: 0, pr: 1, x: 0, y: 0 }], edges: [[0, 1, 0, -1, 0, 0]] }
   assert.deepEqual(validateShape(base), [])
   const bad = (f) => { const c = JSON.parse(JSON.stringify(base)); f(c); return validateShape(c).join('\n') }
   assert.match(bad((c) => { c.edges[0][1] = 9 }), /endpoint out of bounds/)

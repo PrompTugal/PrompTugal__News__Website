@@ -1,24 +1,26 @@
 ---
-title: "Shelf list: DAT, Data and the ontology (part 9 of 13)"
+title: "Shelf list: DAT, Data and the ontology (part 9 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T12:59:36Z"
-site_version: "v0.1.1798"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T16:00:04Z"
+site_version: "v0.1.1812"
 source: board/catalogue.json
 ---
 
-# Shelf list: DAT, Data and the ontology (part 9 of 13)
+# Shelf list: DAT, Data and the ontology (part 9 of 14)
 
-100 cards, from `DAT.ORG spangle` to `DAT.PE arba-kokalari`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG south-china-morning-post` to `DAT.PE anthony-grieco`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 801 to 825**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG south-china-morning-post` | [South China Morning Post](https://promptugal.news/organisations/south-china-morning-post/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG spangle` | [Spangle](https://promptugal.news/organisations/spangle/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG stanford-hai` | [Stanford HAI](https://promptugal.news/organisations/stanford-hai/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG stanford-university` | [Stanford University](https://promptugal.news/organisations/stanford-university/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG sumcap` | [Sumcap](https://promptugal.news/organisations/sumcap/) (withdrawn) | organisation | programme@PrompTugal.vicky 10 Nov 2026 |
 | `DAT.ORG sword-health` | [Sword Health](https://promptugal.news/organisations/sword-health/) | organisation | curator@PrompTugal.vicky 16 Nov 2026 |
+| `DAT.ORG sword-health-physio` | [Sword Health Physio](https://promptugal.news/organisations/sword-health-physio/) | organisation | curator@PrompTugal.vicky 18 Nov 2026 |
 | `DAT.ORG sygaldry-technologies` | [Sygaldry Technologies](https://promptugal.news/organisations/sygaldry-technologies/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG talkdesk` | [Talkdesk](https://promptugal.news/organisations/talkdesk/) | organisation | curator@web-summit.vicky 5 Nov 2026 |
 | `DAT.ORG tb-todas-as-beiras` | [TB - Todas As Beiras](https://promptugal.news/organisations/tb-todas-as-beiras/) | organisation | ontologist@ 17 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `DAT.ORG testwaves` | [Testwaves](https://promptugal.news/organisations/testwaves/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG the-portugal-news` | [The Portugal News](https://promptugal.news/organisations/the-portugal-news/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG tiktok` | [TikTok](https://promptugal.news/organisations/tiktok/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG time` | [TIME](https://promptugal.news/organisations/time/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG time-out-lisboa` | [Time Out Lisboa](https://promptugal.news/organisations/time-out-lisboa/) | organisation | ontologist@ 16 Nov 2026 |
 
 **Cards 826 to 850**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG time` | [TIME](https://promptugal.news/organisations/time/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG time-out-lisboa` | [Time Out Lisboa](https://promptugal.news/organisations/time-out-lisboa/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG tribuna-alentejo` | [Tribuna Alentejo](https://promptugal.news/organisations/tribuna-alentejo/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG tribuna-da-madeira` | [Tribuna da Madeira](https://promptugal.news/organisations/tribuna-da-madeira/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG true-ventures` | [True Ventures](https://promptugal.news/organisations/true-ventures/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -67,13 +69,13 @@ source: board/catalogue.json
 | `DAT.ORG university-of-algarve` | [University of Algarve](https://promptugal.news/organisations/university-of-algarve/) | organisation | ontologist@ 6 Nov 2026 |
 | `DAT.ORG university-of-austin-texas` | [University of Austin Texas](https://promptugal.news/organisations/university-of-austin-texas/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG university-of-coimbra` | [University of Coimbra](https://promptugal.news/organisations/university-of-coimbra/) | organisation | curator@PrompTugal.vicky 9 Nov 2026 |
-| `DAT.ORG university-of-minho` | [University of Minho](https://promptugal.news/organisations/university-of-minho/) | organisation | curator@PrompTugal.vicky 14 Nov 2026 |
-| `DAT.ORG university-of-porto` | [University of Porto](https://promptugal.news/organisations/university-of-porto/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 851 to 875**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG university-of-minho` | [University of Minho](https://promptugal.news/organisations/university-of-minho/) | organisation | curator@PrompTugal.vicky 14 Nov 2026 |
+| `DAT.ORG university-of-porto` | [University of Porto](https://promptugal.news/organisations/university-of-porto/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG unleash-football` | [Unleash Football](https://promptugal.news/organisations/unleash-football/) (withdrawn) | organisation | programme@web-summit.vicky 6 Nov 2026 |
 | `DAT.ORG us-government` | [The US Government](https://promptugal.news/organisations/us-government/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG vatican` | [The Vatican](https://promptugal.news/organisations/vatican/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `DAT.ORG zalando` | [Zalando](https://promptugal.news/organisations/zalando/) | organisation | curator@PrompTugal.vicky 11 Nov 2026 |
 | `DAT.ORG zap` | [ZAP](https://promptugal.news/organisations/zap/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG zoyk` | [Zoyk](https://promptugal.news/organisations/zoyk/) | organisation | curator@PrompTugal.vicky 14 Nov 2026 |
-| `DAT.PE abhinav-gupta` | [Abhinav Gupta](https://promptugal.news/people/abhinav-gupta/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE abigail-slater` | [Abigail Slater](https://promptugal.news/people/abigail-slater/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 876 to 900**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE abhinav-gupta` | [Abhinav Gupta](https://promptugal.news/people/abhinav-gupta/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE abigail-slater` | [Abigail Slater](https://promptugal.news/people/abigail-slater/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE adam-kobeissi` | [Adam Kobeissi](https://promptugal.news/people/adam-kobeissi/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE adam-leventhal` | [Adam Leventhal](https://promptugal.news/people/adam-leventhal/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE adam-schwartz` | [Adam Schwartz](https://promptugal.news/people/adam-schwartz/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `DAT.PE anne-bertucio-de-hollembeak` | [Anne Bertucio de Hollembeak](https://promptugal.news/people/anne-bertucio-de-hollembeak/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE anni-chen` | [Anni Chen](https://promptugal.news/people/anni-chen/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE anthony-grieco` | [Anthony Grieco](https://promptugal.news/people/anthony-grieco/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE anton-osika` | [Anton Osika](https://promptugal.news/people/anton-osika/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE arba-kokalari` | [Arba Kokalari](https://promptugal.news/people/arba-kokalari/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-8.md) | [Next part](DAT-10.md)

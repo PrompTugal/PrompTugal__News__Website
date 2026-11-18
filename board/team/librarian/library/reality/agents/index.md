@@ -27,28 +27,28 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-3557 cards (1268 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-18T12:59:36Z at site v0.1.1798; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+3615 cards (1326 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-18T16:00:04Z at site v0.1.1812; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `RDR.SHERPA` | 31 |
 | `RDR.SYN` | 5 |
-| `TEAM.ABP` | 141 |
+| `TEAM.ABP` | 169 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
 | `TEAM.INBOX` | 162 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 1978 |
-| `TEAM.RUN` | 1208 |
+| `TEAM.ROLE` | 2006 |
+| `TEAM.RUN` | 1210 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261118-0227` [Portimao: MotoGP title could be decided at the Algarve circuit on 21 November](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-18/portimao-motogp.md) (`TEAM.ROLE portimao-motogp`)
-- `ACC-20261118-0226` [Midday pass, 18 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-18/midday-items.md) (`TEAM.ROLE midday-items`)
-- `ACC-20261118-0225` [Hand-over: correspondent@PrompTugal.dinis, 18 November 2026](https://promptugal.news/board/team/correspondent/debriefs/2026-11-18-handover.md) (`TEAM.ROLE 2026-11-18-handover:14`)
-- `ACC-20261118-0224` [security@ wake, 18 November 2026, 12:05 UTC](https://promptugal.news/board/team/security/reviews/2026-11-18-1205-wake.md) (`TEAM.ROLE 2026-11-18-1205-wake`)
-- `ACC-20261118-0223` [security@ wake, 18 November 2026, 10:05 UTC](https://promptugal.news/board/team/security/reviews/2026-11-18-1005-wake.md) (`TEAM.ROLE 2026-11-18-1005-wake`)
+- `ACC-20261118-0385` [runs/telemetry.b/](https://promptugal.news/board/runs/telemetry.b/) (`TEAM.RUN telemetry`)
+- `ACC-20261118-0384` [runs/stats/](https://promptugal.news/board/runs/stats/) (`TEAM.RUN stats`)
+- `ACC-20261118-0383` [The request on the record: template](https://promptugal.news/board/team/outreach/sources-requests/template.md) (`TEAM.ROLE template`)
+- `ACC-20261118-0382` [status.json](https://promptugal.news/board/team/telemetry.b/status.json) (`TEAM.ROLE status:59`)
+- `ACC-20261118-0381` [Telling the social platforms how we use organisations' public posts, on the record](https://promptugal.news/board/team/outreach/sources-requests/social-platforms.md) (`TEAM.ROLE social-platforms`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

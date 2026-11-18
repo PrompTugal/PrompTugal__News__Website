@@ -26,32 +26,32 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-1097 cards (1097 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-18T12:59:36Z at site v0.1.1798; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1121 cards (1121 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-18T16:00:04Z at site v0.1.1812; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `GDN.CONC` | 88 |
 | `GDN.IDEA` | 494 |
-| `GDN.MEMO` | 59 |
+| `GDN.MEMO` | 74 |
 | `GDN.Q` | 13 |
 | `GEN.BOARD` | 33 |
 | `GEN.README` | 1 |
-| `WRK.BRIEF` | 94 |
+| `WRK.BRIEF` | 100 |
 | `WRK.DEC` | 17 |
 | `WRK.DESK` | 22 |
 | `WRK.FIND` | 177 |
 | `WRK.PASS` | 31 |
-| `WRK.PLAN` | 49 |
+| `WRK.PLAN` | 52 |
 | `WRK.STORY` | 4 |
 | `WRK.TASK` | 15 |
 
 Newest five accessions:
 
-- `ACC-20261118-0182` [The data site carries everything the Storm site built](https://promptugal.news/board/briefs/2026-11-18-data-site-and-the-storm.md) (`WRK.BRIEF 2026-11-18-data-site-and-the-storm`)
-- `ACC-20261118-0049` [The five sites' teams start on account B, named .b, each with observability; the main site's observability stays on the other account](https://promptugal.news/board/guidance/2026-11-18-five-sites-on-account-b.md) (`GDN.MEMO 2026-11-18-five-sites-on-account-b`)
-- `ACC-20261118-0048` [Hand-over to account B: what conductor.b@ picks up from account A](https://promptugal.news/board/briefs/2026-11-17-handover-to-account-b.md) (`WRK.BRIEF 2026-11-17-handover-to-account-b`)
-- `ACC-20261117-0368` [The five PrompTugal sites: what they share](https://promptugal.news/board/briefs/2026-11-17-the-five-sites.md) (`WRK.BRIEF 2026-11-17-the-five-sites`)
-- `ACC-20261117-0367` [Neighbours of the Algarve's municipalities: a first check (ontologist@, 17 November 2026)](https://promptugal.news/board/briefs/2026-11-17-neighbours-check.md) (`WRK.BRIEF 2026-11-17-neighbours-check`)
+- `ACC-20261118-0394` [The licence mark: one small link after every value's source](https://promptugal.news/board/spec-the-licence-mark.md) (`WRK.PLAN spec-the-licence-mark`)
+- `ACC-20261118-0393` [The look of library.promptugal.news: a library website in the PrompTugal brand](https://promptugal.news/board/spec-the-library-look.md) (`WRK.PLAN spec-the-library-look`)
+- `ACC-20261118-0392` [The principles and report links on every site: where they sit](https://promptugal.news/board/spec-principles-and-report-links.md) (`WRK.PLAN spec-principles-and-report-links`)
+- `ACC-20261118-0391` [The library: library.promptugal.news, the catalogue and the graph at the heart of PrompTugal.news](https://promptugal.news/board/briefs/2026-11-18-the-library.md) (`WRK.BRIEF 2026-11-18-the-library`)
+- `ACC-20261118-0390` [The sources register: what we read, what we do not, and asking on the record](https://promptugal.news/board/briefs/2026-11-18-sources-register.md) (`WRK.BRIEF 2026-11-18-sources-register`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

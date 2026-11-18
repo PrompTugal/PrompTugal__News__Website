@@ -1,19 +1,21 @@
 ---
-title: "Shelf list: DAT, Data and the ontology (part 12 of 13)"
+title: "Shelf list: DAT, Data and the ontology (part 12 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T12:59:36Z"
-site_version: "v0.1.1798"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T16:00:04Z"
+site_version: "v0.1.1812"
 source: board/catalogue.json
 ---
 
-# Shelf list: DAT, Data and the ontology (part 12 of 13)
+# Shelf list: DAT, Data and the ontology (part 12 of 14)
 
-100 cards, from `DAT.PE rainer-markle` to `DAT.PL faro`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.PE philip-rathle` to `DAT.PL estadio-da-tapadinha`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1101 to 1125**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE philip-rathle` | [Philip Rathle](https://promptugal.news/people/philip-rathle/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE philippe-botteri` | [Philippe Botteri](https://promptugal.news/people/philippe-botteri/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE rainer-markle` | [Rainer Märkle](https://promptugal.news/people/rainer-markle/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE raphael-auphan` | [Raphael Auphan](https://promptugal.news/people/raphael-auphan/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE rebecca-ruiz` | [Rebecca Ruiz](https://promptugal.news/people/rebecca-ruiz/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `DAT.PE sam-liang` | [Sam Liang](https://promptugal.news/people/sam-liang/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE sam-pasupalak` | [Sam Pasupalak](https://promptugal.news/people/sam-pasupalak/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE sam-stephenson` | [Sam Stephenson](https://promptugal.news/people/sam-stephenson/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE samudra-gupta` | [Samudra Gupta](https://promptugal.news/people/samudra-gupta/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE sara-fischer` | [Sara Fischer](https://promptugal.news/people/sara-fischer/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 1126 to 1150**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE samudra-gupta` | [Samudra Gupta](https://promptugal.news/people/samudra-gupta/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE sara-fischer` | [Sara Fischer](https://promptugal.news/people/sara-fischer/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE sarah-kunst` | [Sarah Kunst](https://promptugal.news/people/sarah-kunst/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE sarakshi-rai` | [Sarakshi Rai](https://promptugal.news/people/sarakshi-rai/) (withdrawn) | person | programme@PrompTugal.vicky 10 Nov 2026 |
 | `DAT.PE satya-nitta` | [Satya Nitta](https://promptugal.news/people/satya-nitta/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -67,13 +69,13 @@ source: board/catalogue.json
 | `DAT.PE tariq-krim` | [Tariq Krim](https://promptugal.news/people/tariq-krim/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE teresa-fiuza` | [Teresa Fiuza](https://promptugal.news/people/teresa-fiuza/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE terry-martin` | [Terry Martin](https://promptugal.news/people/terry-martin/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE thibaut-courtois` | [Thibaut Courtois](https://promptugal.news/people/thibaut-courtois/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE thomas-fazi` | [Thomas Fazi](https://promptugal.news/people/thomas-fazi/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 1151 to 1175**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE thibaut-courtois` | [Thibaut Courtois](https://promptugal.news/people/thibaut-courtois/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PE thomas-fazi` | [Thomas Fazi](https://promptugal.news/people/thomas-fazi/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE thomas-froment` | [Thomas Froment](https://promptugal.news/people/thomas-froment/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE timothy-young` | [Timothy Young](https://promptugal.news/people/timothy-young/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE tom-stackpole` | [Tom Stackpole](https://promptugal.news/people/tom-stackpole/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `DAT.PL alcoutim` | [Alcoutim](https://promptugal.news/places/alcoutim/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL algarve` | [Algarve](https://promptugal.news/places/algarve/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL aljezur` | [Aljezur](https://promptugal.news/places/aljezur/) | place | ontologist@ 16 Nov 2026 |
-| `DAT.PL almancil` | [Almancil](https://promptugal.news/places/almancil/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL armenia` | [Armenia](https://promptugal.news/places/armenia/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 1176 to 1200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL almancil` | [Almancil](https://promptugal.news/places/almancil/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL armenia` | [Armenia](https://promptugal.news/places/armenia/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL australia` | [Australia](https://promptugal.news/places/australia/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL austria` | [Austria](https://promptugal.news/places/austria/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL aveiro` | [Aveiro](https://promptugal.news/places/aveiro/) | place | ontologist@ 16 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `DAT.PL disco-bar` | [Disco Bar](https://promptugal.news/places/disco-bar/) (withdrawn) | place | ontologist@ 9 Nov 2026 |
 | `DAT.PL dublin` | [Dublin](https://promptugal.news/places/dublin/) | place | ontologist@ 6 Nov 2026 |
 | `DAT.PL estadio-da-tapadinha` | [Estádio da Tapadinha](https://promptugal.news/places/estadio-da-tapadinha/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL evora` | [Évora](https://promptugal.news/places/evora/) | place | ontologist@ 16 Nov 2026 |
-| `DAT.PL faro` | [Faro](https://promptugal.news/places/faro/) | place | ontologist@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-11.md) | [Next part](DAT-13.md)

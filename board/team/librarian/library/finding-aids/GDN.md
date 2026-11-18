@@ -1,12 +1,12 @@
 ---
 title: "Finding aid: Guidance (special)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T12:59:36Z"
-site_version: "v0.1.1798"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T16:00:04Z"
+site_version: "v0.1.1812"
 source: board/catalogue.json
 ---
 
-# Guidance (special) (654 cards)
+# Guidance (special) (669 cards)
 
 Guidance, a special collection: Dinis's night memos, the ideas ledger with each idea in his words, the open questions and the named concepts. His words are never edited. Kept by conductor@ for the ledger.
 
@@ -15,8 +15,8 @@ Guidance, a special collection: Dinis's night memos, the ideas ledger with each 
 ## Start here
 
 - [Dinis's guidance for PrompTugal.news](https://promptugal.news/board/guidance/README.md) (`GDN.MEMO README`): Dinis's own words to the team about what this site is, the thinking behind it and where it is going, one file per piece (YYYY-MM-DD-<topic>.md)…
+- [The pipeline standard, a fact-checker in the library, the library's requests channel, universities, Wikipedia, and today's answers](https://promptugal.news/board/guidance/2026-11-18-the-pipeline-standard-and-the-fact-checker.md) (`GDN.MEMO 2026-11-18-the-pipeline-standard-and-the-fact-checker`): Dinis, in conductor.b@'s session, 18 November 2026, about 16:00 UTC. Recorded by conductor.b@PrompTugal.dinis.
 - [The ideas ledger: every idea, concept and direction Dinis gave on the night of 5 to 6 November 2026, with its status and its owner](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) (`GDN.MEMO 2026-11-06-the-ideas-ledger`): Every distinct idea Dinis gave in the night's memos and in the 18:00 stand-up of 5 November, one row each, with when it is meant…
-- [Go: start every agent on this account; aggregate the towns by the news; public contacts yes, personal ones to the CRM only; Jose's conductor and local@ go…](https://promptugal.news/board/guidance/2026-11-16-restart-here-go.md) (`GDN.MEMO 2026-11-16-restart-here-go`): "Yes, go for step one ... Aggregate them, depending on the news and depending on what's happening ... you could put contacts as long as…
 
 ## How it is arranged
 
@@ -28,19 +28,19 @@ By call number: memos, ideas, questions and concepts each have a subclass; an id
 |---|---|---|---|
 | `GDN.CONC` | concepts | 88 | [a folder per session](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md), [a signal in itself](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) |
 | `GDN.IDEA` | ideas | 494 | [Circuit breakers](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md), [In the UK becoming a publisher is cheap: register an organisation and have policies](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) |
-| `GDN.MEMO` | memos | 59 | [Dinis's guidance for PrompTugal.news](https://promptugal.news/board/guidance/README.md), [The ideas ledger: every idea, concept and direction Dinis gave on the night of 5 to 6 November 2026, with its status and its owner](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) |
+| `GDN.MEMO` | memos | 74 | [Dinis's guidance for PrompTugal.news](https://promptugal.news/board/guidance/README.md), [The pipeline standard, a fact-checker in the library, the library's requests channel, universities, Wikipedia, and today's answers](https://promptugal.news/board/guidance/2026-11-18-the-pipeline-standard-and-the-fact-checker.md) |
 | `GDN.Q` | open questions | 13 | [I'm going to give you a whole bunch of brief now on the quality gates and the sort of the research and going deep](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md), [how many files and gigabytes of data they already have, and the runs, and how often they're doing the runs](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) |
 
 ## Every card
 
 The shelf list (the cards in call-number order, 25 to a table): [part 1](../shelf-list/GDN-1.md), [part 2](../shelf-list/GDN-2.md), [part 3](../shelf-list/GDN-3.md), [part 4](../shelf-list/GDN-4.md), [part 5](../shelf-list/GDN-5.md), [part 6](../shelf-list/GDN-6.md), [part 7](../shelf-list/GDN-7.md).
 
-Special collection: S1 (566 cards). Dinis's guidance has its own guide: [guidance](../special/guidance.md).
+Special collection: S1 (581 cards). Dinis's guidance has its own guide: [guidance](../special/guidance.md).
 
 ## See also
 
-- [Agents, roles, keys](TEAM.md) (288 connections from this collection)
-- [Work in hand](WRK.md) (154 connections from this collection)
+- [Agents, roles, keys](TEAM.md) (402 connections from this collection)
+- [Work in hand](WRK.md) (175 connections from this collection)
 - [The library](LIB.md) (29 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph
 

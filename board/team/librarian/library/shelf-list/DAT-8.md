@@ -1,19 +1,20 @@
 ---
-title: "Shelf list: DAT, Data and the ontology (part 8 of 13)"
+title: "Shelf list: DAT, Data and the ontology (part 8 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T12:59:36Z"
-site_version: "v0.1.1798"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T16:00:04Z"
+site_version: "v0.1.1812"
 source: board/catalogue.json
 ---
 
-# Shelf list: DAT, Data and the ontology (part 8 of 13)
+# Shelf list: DAT, Data and the ontology (part 8 of 14)
 
-100 cards, from `DAT.ORG portugal-startup-news` to `DAT.ORG south-china-morning-post`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG portugal-resident` to `DAT.ORG somewhere-on-earth-the-tech-global-podcast`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 701 to 725**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG portugal-resident` | [Portugal Resident](https://promptugal.news/organisations/portugal-resident/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG portugal-startup-news` | [Portugal Startup News](https://promptugal.news/organisations/portugal-startup-news/) | organisation | curator@PrompTugal.vicky 9 Nov 2026 |
 | `DAT.ORG portugal-ventures` | [Portugal Ventures](https://promptugal.news/organisations/portugal-ventures/) | organisation | ontologist@ 7 Nov 2026 |
 | `DAT.ORG portuguese-catholic-university` | [Portuguese Catholic University](https://promptugal.news/organisations/portuguese-catholic-university/) | organisation | curator@PrompTugal.vicky 6 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `DAT.ORG radio-cidade-fm-viseu` | [Cidade FM Viseu](https://promptugal.news/organisations/radio-cidade-fm-viseu/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG radio-cm-90-4` | [CM Rádio 90.4](https://promptugal.news/organisations/radio-cm-90-4/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG radio-cm-94-8` | [CM Rádio 94.8](https://promptugal.news/organisations/radio-cm-94-8/) | organisation | ontologist@ 17 Nov 2026 |
-| `DAT.ORG radio-condestavel` | [Rádio Condestável](https://promptugal.news/organisations/radio-condestavel/) | organisation | ontologist@ 16 Nov 2026 |
 
 **Cards 726 to 750**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG radio-condestavel` | [Rádio Condestável](https://promptugal.news/organisations/radio-condestavel/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG radio-estacao-madeira-tsf-madeira` | [Estação Rádio Madeira - TSF Madeira](https://promptugal.news/organisations/radio-estacao-madeira-tsf-madeira/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG radio-fronteira` | [Rádio Fronteira](https://promptugal.news/organisations/radio-fronteira/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG radio-geice` | [Rádio Geice](https://promptugal.news/organisations/radio-geice/) | organisation | ontologist@ 17 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `DAT.ORG radio-record-santarem` | [Record Santarém](https://promptugal.news/organisations/radio-record-santarem/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG radio-renascenca` | [Rádio Renascença](https://promptugal.news/organisations/radio-renascenca/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG radio-smooth-fm-lisboa` | [Smooth FM Lisboa](https://promptugal.news/organisations/radio-smooth-fm-lisboa/) | organisation | ontologist@ 17 Nov 2026 |
-| `DAT.ORG radio-smooth-fm-santarem` | [Smooth FM Santarém](https://promptugal.news/organisations/radio-smooth-fm-santarem/) | organisation | ontologist@ 17 Nov 2026 |
 
 **Cards 751 to 775**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG radio-smooth-fm-santarem` | [Smooth FM Santarém](https://promptugal.news/organisations/radio-smooth-fm-santarem/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG radio-valdevez` | [Rádio Valdevez](https://promptugal.news/organisations/radio-valdevez/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG radio-voz-do-marao` | [Rádio Voz do Marão](https://promptugal.news/organisations/radio-voz-do-marao/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG reddit` | [Reddit](https://promptugal.news/organisations/reddit/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `DAT.ORG samepage-ai` | [Samepage.ai](https://promptugal.news/organisations/samepage-ai/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG santa-maria-local-health-unit` | [Santa Maria local health unit](https://promptugal.news/organisations/santa-maria-local-health-unit/) | organisation | curator@PrompTugal.vicky 17 Nov 2026 |
 | `DAT.ORG santarem-polytechnic-university` | [Santarém Polytechnic University](https://promptugal.news/organisations/santarem-polytechnic-university/) (withdrawn) | organisation | programme@web-summit.vicky 6 Nov 2026 |
-| `DAT.ORG sao-miguel-news` | [São Miguel News](https://promptugal.news/organisations/sao-miguel-news/) | organisation | ontologist@ 17 Nov 2026 |
 
 **Cards 776 to 800**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG sao-miguel-news` | [São Miguel News](https://promptugal.news/organisations/sao-miguel-news/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG scoreplay` | [ScorePlay](https://promptugal.news/organisations/scoreplay/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG seamoretech` | [Seamoretech](https://promptugal.news/organisations/seamoretech/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG sebrae-paraiba` | [SEBRAE PARAIBA](https://promptugal.news/organisations/sebrae-paraiba/) (withdrawn) | organisation | programme@PrompTugal.vicky 9 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.ORG skyfall-ai` | [Skyfall AI](https://promptugal.news/organisations/skyfall-ai/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG smartex-ai` | [Smartex.ai](https://promptugal.news/organisations/smartex-ai/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG somewhere-on-earth-the-tech-global-podcast` | [Somewhere on Earth: The Tech Global Podcast](https://promptugal.news/organisations/somewhere-on-earth-the-tech-global-podcast/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG south-china-morning-post` | [South China Morning Post](https://promptugal.news/organisations/south-china-morning-post/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-7.md) | [Next part](DAT-9.md)

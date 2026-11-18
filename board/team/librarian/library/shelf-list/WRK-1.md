@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 1 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T12:59:36Z"
-site_version: "v0.1.1798"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T16:00:04Z"
+site_version: "v0.1.1812"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 1 of 5)
 
-100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.DEC registering-and-the-press-pass`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.BRIEF the-payment-desk`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -108,6 +108,12 @@ source: board/catalogue.json
 | `WRK.BRIEF 2026-11-17-sul-informacao` | [Sul Informação: how we read it today, and how to read it properly](https://promptugal.news/board/briefs/2026-11-17-sul-informacao.md) | brief | conductor@ 17 Nov 2026 |
 | `WRK.BRIEF 2026-11-17-the-five-sites` | [The five PrompTugal sites: what they share](https://promptugal.news/board/briefs/2026-11-17-the-five-sites.md) | brief | conductor@ 17 Nov 2026 |
 | `WRK.BRIEF 2026-11-18-data-site-and-the-storm` | [The data site carries everything the Storm site built](https://promptugal.news/board/briefs/2026-11-18-data-site-and-the-storm.md) | brief | conductor@ 18 Nov 2026 |
+| `WRK.BRIEF 2026-11-18-events-discovery-and-the-graph` | [Events: discovery, gaps, evidence and the graph](https://promptugal.news/board/briefs/2026-11-18-events-discovery-and-the-graph.md) | brief | conductor.b@ 18 Nov 2026 |
+| `WRK.BRIEF 2026-11-18-events-in-the-ontology` | [Events in the graph: the shape (ontologist@, 18 November 2026)](https://promptugal.news/board/briefs/2026-11-18-events-in-the-ontology.md) | brief | ontologist@ 18 Nov 2026 |
+| `WRK.BRIEF 2026-11-18-library-catalogue-and-the-ontology` | [The library's catalogue on the ontology we have (ontologist@, 18 November 2026)](https://promptugal.news/board/briefs/2026-11-18-library-catalogue-and-the-ontology.md) | brief | ontologist@ 18 Nov 2026 |
+| `WRK.BRIEF 2026-11-18-library-graph-review` | [Review of the library's graph (ontologist@, 18 November 2026)](https://promptugal.news/board/briefs/2026-11-18-library-graph-review.md) | brief | ontologist@ 18 Nov 2026 |
+| `WRK.BRIEF 2026-11-18-sources-register` | [The sources register: what we read, what we do not, and asking on the record](https://promptugal.news/board/briefs/2026-11-18-sources-register.md) | brief | conductor.b@ 18 Nov 2026 |
+| `WRK.BRIEF 2026-11-18-the-library` | [The library: library.promptugal.news, the catalogue and the graph at the heart of PrompTugal.news](https://promptugal.news/board/briefs/2026-11-18-the-library.md) | brief | conductor.b@ 18 Nov 2026 |
 | `WRK.BRIEF README` | [The conductor's briefs](https://promptugal.news/board/editor-briefs/README.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.BRIEF README:2` | [Evidence: dynamic currency conversion at a Portuguese ATM (17 November 2026)](https://promptugal.news/board/briefs/2026-11-17-dcc-atm/README.md) | brief | conductor@ 17 Nov 2026 |
 | `WRK.BRIEF agentic-maturity-standards-selection` | [Agentic AI Maturity Mapping  -  Standards Selection & Graph Model Design](https://promptugal.news/board/briefs/gamma-ray/agentic-maturity-standards-selection.md) | brief | conductor@web-summit.dinis 9 Nov 2026 |
@@ -123,11 +129,5 @@ source: board/catalogue.json
 | `WRK.BRIEF dcc-six-levers` | [dcc-six-levers.svg](https://promptugal.news/board/briefs/2026-11-17-dcc-atm/img/dcc-six-levers.svg) | brief | conductor@ 17 Nov 2026 |
 | `WRK.BRIEF gamma-ray-concept-spec` | [GAMMA-Ray  -  Model Name & Concept Specification](https://promptugal.news/board/briefs/gamma-ray/gamma-ray-concept-spec.md) | brief | conductor@web-summit.dinis 9 Nov 2026 |
 | `WRK.BRIEF the-payment-desk` | [the-payment-desk.svg](https://promptugal.news/board/briefs/2026-11-17-the-payment-desk/img/the-payment-desk.svg) | brief | conductor@ 17 Nov 2026 |
-| `WRK.DEC an-agent-printed-its-own-lane-token` | [PT decision: how to make a printed secret impossible, after a token was printed to a transcript](https://promptugal.news/newsroom/decisions/an-agent-printed-its-own-lane-token/) | decision | customers@ 6 Nov 2026 |
-| `WRK.DEC decisions` | [Decisions](https://promptugal.news/newsroom/decisions/) | decision | dev@ 6 Nov 2026 |
-| `WRK.DEC naming-people-on-algarve-evolution` | [For Dinis: naming people on the Algarve Evolution page](https://promptugal.news/newsroom/decisions/naming-people-on-algarve-evolution/) | decision | dev@ 6 Nov 2026 |
-| `WRK.DEC promptugal-com-and-ai` | [For Dinis: pointing promptugal.com and promptugal.ai at promptugal.news](https://promptugal.news/newsroom/decisions/promptugal-com-and-ai/) | decision | devops@ 6 Nov 2026 |
-| `WRK.DEC promptugal-for-investors` | [For Dinis: does PrompTugal.news have an investor story of its own, through which company, and where does it live?](https://promptugal.news/newsroom/decisions/promptugal-for-investors/) | decision | investors@ 6 Nov 2026 |
-| `WRK.DEC registering-and-the-press-pass` | [For Dinis: registering PrompTugal.news, and who applies for the press pass](https://promptugal.news/newsroom/decisions/registering-and-the-press-pass/) | decision | journalist@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](WRK-2.md)

@@ -1,19 +1,28 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 5 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T12:59:36Z"
-site_version: "v0.1.1798"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T16:00:04Z"
+site_version: "v0.1.1812"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 5 of 5)
 
-9 cards, from `WRK.TASK brazil-2` to `WRK.TASK external-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+18 cards, from `WRK.STORY the-story-pipeline` to `WRK.TASK external-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
-**Cards 401 to 409**
+**Cards 401 to 418**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.STORY the-story-pipeline` | [The story pipeline: every story on one Kanban board, from idea to published](https://promptugal.news/board/the-story-pipeline.md) | board | conductor@ 6 Nov 2026 |
+| `WRK.STORY the-story-projects` | [Story projects: going deep on one story, with a budget, its own data folder, and work anyone can pick up](https://promptugal.news/board/the-story-projects.md) | board | conductor@ 6 Nov 2026 |
+| `WRK.STORY wikipedia` | [Wikipedia](https://promptugal.news/board/projects/wikipedia.md) | board | ontologist@ 6 Nov 2026 |
+| `WRK.TASK README` | [Tasks anyone can pick up](https://promptugal.news/board/tasks/README.md) | board | conductor@ 6 Nov 2026 |
+| `WRK.TASK brazil-1` | [brazil-1: Brazilian speakers on the LIS26 programme](https://promptugal.news/board/tasks/brazil-1.md) | board | correspondent@ 6 Nov 2026 |
+| `WRK.TASK brazil-10` | [brazil-10: Who hosts the German-Brazilian Startup Night](https://promptugal.news/board/tasks/brazil-10.md) | board | correspondent@ 6 Nov 2026 |
+| `WRK.TASK brazil-11` | [brazil-11: Brazilian founders of companies the team already follows](https://promptugal.news/board/tasks/brazil-11.md) | board | correspondent@ 6 Nov 2026 |
+| `WRK.TASK brazil-12` | [brazil-12: 10 November: the Lisbon incubator's 2027 class](https://promptugal.news/board/tasks/brazil-12.md) | board | correspondent@ 6 Nov 2026 |
+| `WRK.TASK brazil-13` | [brazil-13: Websites and cities of the 225 new Brazilian startups on the LIS26 listing](https://promptugal.news/board/tasks/brazil-13.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-2` | [brazil-2: Brazilian companies with a LIS26 appearance page](https://promptugal.news/board/tasks/brazil-2.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-3` | [brazil-3: Press releases and posts naming who is coming](https://promptugal.news/board/tasks/brazil-3.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-4` | [brazil-4: State missions: North and Northeast](https://promptugal.news/board/tasks/brazil-4.md) | board | correspondent@ 6 Nov 2026 |

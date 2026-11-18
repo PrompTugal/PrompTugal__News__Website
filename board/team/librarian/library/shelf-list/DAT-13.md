@@ -1,19 +1,21 @@
 ---
-title: "Shelf list: DAT, Data and the ontology (part 13 of 13)"
+title: "Shelf list: DAT, Data and the ontology (part 13 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T12:59:36Z"
-site_version: "v0.1.1798"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T16:00:04Z"
+site_version: "v0.1.1812"
 source: board/catalogue.json
 ---
 
-# Shelf list: DAT, Data and the ontology (part 13 of 13)
+# Shelf list: DAT, Data and the ontology (part 13 of 14)
 
-100 cards, from `DAT.PL fil` to `DAT.TOP the-summit`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.PL evora` to `DAT.TOP security`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1201 to 1225**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL evora` | [Évora](https://promptugal.news/places/evora/) | place | ontologist@ 16 Nov 2026 |
+| `DAT.PL faro` | [Faro](https://promptugal.news/places/faro/) | place | ontologist@ 6 Nov 2026 |
 | `DAT.PL fil` | [FIL](https://promptugal.news/places/fil/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL france` | [France](https://promptugal.news/places/france/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL gale-patio` | [Gale patio](https://promptugal.news/places/gale-patio/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `DAT.PL luxembourg` | [Luxembourg](https://promptugal.news/places/luxembourg/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL madeira` | [Madeira](https://promptugal.news/places/madeira/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL masterclass-1` | [Masterclass 1](https://promptugal.news/places/masterclass-1/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL masterclass-2` | [Masterclass 2](https://promptugal.news/places/masterclass-2/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL masterclass-3` | [Masterclass 3](https://promptugal.news/places/masterclass-3/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 1226 to 1250**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL masterclass-2` | [Masterclass 2](https://promptugal.news/places/masterclass-2/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL masterclass-3` | [Masterclass 3](https://promptugal.news/places/masterclass-3/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL masterclass-4` | [Masterclass 4](https://promptugal.news/places/masterclass-4/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL meetup-1` | [Meetup 1](https://promptugal.news/places/meetup-1/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL meetup-2` | [Meetup 2](https://promptugal.news/places/meetup-2/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -67,13 +69,13 @@ source: board/catalogue.json
 | `DAT.PL portugal` | [Portugal](https://promptugal.news/places/portugal/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL ptw-palace` | [PTW Palace](https://promptugal.news/places/ptw-palace/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL quarteira` | [Quarteira](https://promptugal.news/places/quarteira/) | place | ontologist@ 16 Nov 2026 |
-| `DAT.PL quiosque-lisboa-praca-sao-paulo` | [Quiosque Lisboa, Praça São Paulo](https://promptugal.news/places/quiosque-lisboa-praca-sao-paulo/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL quiosque-lisboa-principe-real` | [Quiosque Lisboa, Príncipe Real](https://promptugal.news/places/quiosque-lisboa-principe-real/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 1251 to 1275**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL quiosque-lisboa-praca-sao-paulo` | [Quiosque Lisboa, Praça São Paulo](https://promptugal.news/places/quiosque-lisboa-praca-sao-paulo/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL quiosque-lisboa-principe-real` | [Quiosque Lisboa, Príncipe Real](https://promptugal.news/places/quiosque-lisboa-principe-real/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL royal-dublin-society` | [Royal Dublin Society](https://promptugal.news/places/royal-dublin-society/) | place | ontologist@ 6 Nov 2026 |
 | `DAT.PL rua-das-portas-de-santo-antao` | [Rua das Portas de Santo Antão](https://promptugal.news/places/rua-das-portas-de-santo-antao/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL santarem` | [Santarém](https://promptugal.news/places/santarem/) | place | ontologist@ 16 Nov 2026 |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `DAT.PL stage-8` | [Stage 8](https://promptugal.news/places/stage-8/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL stage-9` | [Stage 9](https://promptugal.news/places/stage-9/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL sweden` | [Sweden](https://promptugal.news/places/sweden/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL switzerland` | [Switzerland](https://promptugal.news/places/switzerland/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL tavira` | [Tavira](https://promptugal.news/places/tavira/) | place | ontologist@ 6 Nov 2026 |
 
 **Cards 1276 to 1300**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL switzerland` | [Switzerland](https://promptugal.news/places/switzerland/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL tavira` | [Tavira](https://promptugal.news/places/tavira/) | place | ontologist@ 6 Nov 2026 |
 | `DAT.PL unicorn-factory-lisboa` | [Unicorn Factory Lisboa](https://promptugal.news/places/unicorn-factory-lisboa/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL united-kingdom` | [United Kingdom](https://promptugal.news/places/united-kingdom/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL united-states` | [United States](https://promptugal.news/places/united-states/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `DAT.TOP portugal` | [Portugal](https://promptugal.news/topics/portugal/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP portugal-startup` | [Portuguese startups](https://promptugal.news/topics/portugal-startup/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP security` | [Security](https://promptugal.news/topics/security/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.TOP startups` | [Startups](https://promptugal.news/topics/startups/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.TOP the-summit` | [The summit](https://promptugal.news/topics/the-summit/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
-[Back to the shelf list](../shelf-list.md) | [Previous part](DAT-12.md)
+[Back to the shelf list](../shelf-list.md) | [Previous part](DAT-12.md) | [Next part](DAT-14.md)
