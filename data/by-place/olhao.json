@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "by": "place.olhao@PrompTugal.dinis",
   "mandate": "PrompTugal.news Olhão: AI and technology in Olhão, a fishing port and Ria Formosa town where the sea, aquaculture and biotech lead, and what reaches Olhão from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -247,6 +247,11 @@
       "url": "https://jf-olhao.pt/",
       "kind": "parish council news; opened 2026-11-17, only cultural, market and notice items, no AI",
       "feed": "https://jf-olhao.pt/feed/"
+    },
+    {
+      "name": "Jornal do Algarve RSS",
+      "url": "https://www.jornaldoalgarve.pt/feed/",
+      "kind": "press"
     }
   ],
   "events": [
@@ -460,7 +465,8 @@
     "17 Nov recheck: Algarve Primeiro 16 Nov Bela Formosa (350 flats, hotel) has no AI link; Barlavento 16 Nov Bairros Digitais mention already noted. No new item.",
     "17 Nov (recheck 5): Algarve Primeiro homepage opened (Christmas fair and Bela Formosa, no AI). cm-olhao.pt shows only a loading screen. Searches surfaced only items already on file or without AI (SmartVITATUR launch, Postal 18 Nov 2025, read in full, does not mention AI, rejected). Regiao Sul refused (403).",
     "Sul Informação (sulinformacao.pt): homepage, tag page and feed all returned 403 on 2026-11-17; skipped.",
-    "Jornal do Algarve (jornaldoalgarve.pt): homepage and search returned 403 on 2026-11-17; only the RSS feed opened and held no new AI-linked item for this town."
+    "Jornal do Algarve (jornaldoalgarve.pt): homepage and search returned 403 on 2026-11-17; only the RSS feed opened and held no new AI-linked item for this town.",
+    "Postal Algarve and Barlavento feeds checked 17-18 Nov: only the already-held Olhao teacher AI item; nothing new."
   ],
   "voice": {
     "lede": "Olhão, where the fish are smarter than the brochures and the algorithms are still learning to gut a sardine.",
