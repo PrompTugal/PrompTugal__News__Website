@@ -1,0 +1,26 @@
+{
+ "e60af3e61e062de8": {
+  "t": "PrompTugal.news Vila do Bispo:Sagresとサン・ヴィンセント岬を大西洋の風が吹き抜ける、欧州の果てからのAIとテクノロジーのニュース。独立系で、すべての事実に出典がある、pa。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Vila do Bispo: the AI and technology news fr",
+  "ok": false
+ },
+ "e6603d0278995e39": {
+  "t": "Ainda há muito por saber, pá. Bragançaがまだ教えてくれていないことはこちら:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda há muito por saber, pá. Here is what Bragança has not ",
+  "ok": false
+ },
+ "e69ef1c8fee7da75": {
+  "t": "UPTEC発のAI資金調達アシスタントGranter、160万ユーロを調達",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Granter, an AI funding assistant from UPTEC, raises 1.6 mill",
+  "ok": false
+ }
+}

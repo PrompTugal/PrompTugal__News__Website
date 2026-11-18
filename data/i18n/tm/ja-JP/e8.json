@@ -1,0 +1,18 @@
+{
+ "e816116cfda136b0": {
+  "t": "2026年2月21日の、教育におけるデジタルの課題に関するカンファレンスには150人超が参加し、デジタル安全、テクノロジーのリテラシー、人工知能の利用が議題に含まれていた。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "More than 150 people attended the 21 February 2026 conferenc",
+  "ok": false
+ },
+ "e8db8674d792a747": {
+  "t": "公の場で発言した人、または掲載に同意した人。公的で職業上の事実のみ。個人の連絡先は載せない。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "People who have spoken publicly or agreed to be listed. Publ",
+  "ok": false
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "33007913833e3259": {
+  "t": "市の会合で、地元の IT 企業と医療技術企業が登壇",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Council forum puts a local IT firm and a medical-technology ",
+  "ok": false
+ },
+ "330bf5c4b2e10426": {
+  "t": "市の新しい機関 Go Coimbra、AI を重点分野に挙げる",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Go Coimbra, the new municipal agency, names AI as a priority",
+  "ok": false
+ },
+ "332cf1204959dda4": {
+  "t": "PrompTugal.news Castro Marim: 私たちは Espanha 手前の最後の町で、Guadiana 川を越えて来る AI を、潮を見るフラミンゴのように見守っている。塩田、賢い都市計画課を持つ市当局、そして塩づくりの現場に口答えを教えた一家。Algarve、ポルトガル、世界から届くものは、flor de sal のようにグラム単位でここで量られる。独立系。すべての事実に出典あり。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Castro Marim: we are the last town before Es",
+  "ok": false
+ },
+ "3386001e14ab5d16": {
+  "t": "WordPress Faro Meetup、AI は人々のウェブサイトの使い方をどう変えるかを問う",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "WordPress Faro Meetup asks how AI changes the way people use",
+  "ok": false
+ },
+ "3398caa6a144473d": {
+  "t": "Técnico と提携するこの研究ユニットは、Horizon Europe の Teaming for Excellence から1,300万ユーロ、国の資金から1,420万ユーロを得て、持続可能で信頼できる AI の卓越拠点を率いる。Max Planck Institute for Software Systems とドイツ人工知能研究センターが提携先だ。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The research unit, associated with Técnico, leads a centre o",
+  "ok": false
+ }
+}

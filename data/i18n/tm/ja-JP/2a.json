@@ -1,0 +1,34 @@
+{
+ "2a64c34075cf2dd6": {
+  "t": "Porto Innovation Hub で、市当局はデジタルサービス、行政の近代化、スマートシティ、雇用に関する8つの市のプロジェクトを紹介し、企業と大学に解決策の提案を求めた。ページには、どのプロジェクトが AI を使うかは書かれていない。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "At the Porto Innovation Hub the council presented eight muni",
+  "ok": false
+ },
+ "2a76a80ec09f2c59": {
+  "t": "AITRAS は3月5日と6日、UTAD の農学・獣医学部で開かれ、欧州各地の大学の講演者が登壇し、畜産、林業、ブドウ栽培、アグリフード分野の事例が紹介された。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AITRAS ran on 5 and 6 March at UTAD's agrarian and veterinar",
+  "ok": false
+ },
+ "2aed6185a7d900cb": {
+  "t": "Coimbra、都市の許認可で AI を試す最初期の自治体のひとつに",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Coimbra is among the first councils to test AI in urban lice",
+  "ok": false
+ },
+ "2af0fa78e77b7dc6": {
+  "t": "SalOS は、EU のデジタル製品パスポートに対応したトレーサビリティプラットフォームとしても取り上げられている",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "SalOS is also covered as a traceability platform ready for t",
+  "ok": false
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "e94ec82166240854": {
+  "t": "PrompTugal.news Beja:Baixo Alentejoの県都BejaのAIとテクノロジー。重心はUniversidade Politécnicaと、その周りの農業と保健のAIの取り組みで、Alentejo、ポルトガル、世界からBejaに届くものもお伝えする。独立系で、すべての事実に出典あり。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Beja: AI and technology in Beja, the Baixo A",
+  "ok": false
+ },
+ "e9abc17d4066b58f": {
+  "t": "UAlg、AIを第一とする欧州遺産センターで3150万ユーロを獲得",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "UAlg wins 31.5 million euros for an AI-first European herita",
+  "ok": false
+ },
+ "e9f81a8e238017af": {
+  "t": "{name}:{local}、AIマップ上に{map}",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "{name}: {local}, {map} on the AI map",
+  "ok": false
+ }
+}
