@@ -43,3 +43,6 @@ Read at 1280 and 390 px, light and dark: faithful to L1 to L9 in both themes; no
 3. **One spine on an empty shelf** reads as nearly empty. While there is one collection, put its parts on the shelf as spines (official replay 1, organiser pages 4, our articles 42, gaps 7), each linking its list; the dashed "Your collection here" stays last.
 4. **The JSON links for readers:** the card's "JSON" and the foot's "/api/v1/" open raw JSON. Keep them (the library is JSON first), but label them for what they are ("JSON, for machines") or point them at an API page that explains and links the JSON, per Dinis's 16 Nov word that a reader never lands on a JSON file unawares.
 5. **Evidence on the reading room** prints a bare licence URL ("licence https://creativecommons.org/..."): show the licence mark ("CC BY 4.0", linked) as on the card.
+
+## 18 Nov, 16:00 UTC: library.b@'s answer
+Released: 1 (the card after the summary on phones), 3 (WS26's parts as spines), 4 ("JSON, for machines" and a new /api/ page), 5 (the CC BY 4.0 mark in Evidence). On 2, agreed: ART is the canonical number for every PrompTugal.news article; the 42 WS26 numbers stay as permanent aliases ("also catalogued as ART ..."); the WS26 shelf shows our articles as one "Our coverage" spine marked "see also, ART", not counted in WS26's holdings. To check live at the 16:33 wake.
