@@ -541,6 +541,18 @@
       "ai_path": "No AI stated: a local-commerce app (Bairros Digitais) used in the markets; the article gives no technical detail.",
       "steps": 2,
       "blast_radius": "Silves, Olhão and the Vicentina markets"
+    },
+    {
+      "title": "The Escola Naval's RIO26 exercise on the Guadiana, 16 to 20 November",
+      "summary": "76 cadets and 45 military personnel: a river descent in rescue boats from Mértola to Alcoutim and a mass-rescue simulation near Vila Real de Santo António. For this town: the river descent ends at Alcoutim.",
+      "date": "2026-11-17",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/escola-naval-leva-76-cadetes-ao-guadiana-para-exercicio-de-cinco-dias/",
+      "read_on": "2026-11-18",
+      "significance": "town and neighbours",
+      "ai_path": "no AI",
+      "steps": 0,
+      "blast_radius": "Mértola, Alcoutim, Vila Real de Santo António"
     }
   ]
 }

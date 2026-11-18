@@ -215,7 +215,7 @@
   "gaps": [
     "AI news is thin: in a search of the council's news pages (September to November 2026) we found no headline about AI or technology. The two local AI stories both come from July 2026 and one rests on the vendor's own page.",
     "SalOS's press coverage (Barlavento, Jornal Económico) reports an AI assistant (Marnoto AI) and a water support tool, but neither salos.net's Spanish page nor its main page mentions AI (they list automatic DOP validation and FIFO allocation). We should ask the company before treating the AI claim as settled.",
-    "We could not open Jornal do Algarve (403), Postal do Algarve (bot challenge) or Sul Informação (403), so their Castro Marim coverage is missing. Search results point to Sul Informação items we have not read: a robotics and programming holiday camp run by a youth association in August 2026, and an Algarve dementia congress held in Castro Marim on 12 and 13 November 2026 with an AI and neurostimulation session. Both are leads, not facts, until a page we can open confirms them.",
+    "We could not open Jornal do Algarve (403), Postal do Algarve (bot challenge) or Sul Informação (403), so their Castro Marim coverage is missing. The Sul Informação leads are not followed: that site is not read by this desk.",
     "The council site has no RSS or Atom feed that we could find, so Castro Marim cannot be followed automatically yet.",
     "University of Algarve work in the salt pans (CCMAR's SAL+) and CRIA's 2022 blue innovation contest are real local innovation but we saw no AI in them, so they stay out of the map for now.",
     "No AI or tech events found in Castro Marim: the council agenda lists only cultural, sporting and local events. No Algarve Evolution member or startup base found in the municipality yet.",
@@ -223,7 +223,6 @@
     "The council's incubation space (Edifício Multifuncional de Empresas) describes itself as for innovative, scalable projects but its page mentions no digital, tech or AI focus, and we found no company in it with an AI link.",
     "Investors: we found no investor, fund or investment in a Castro Marim company in public sources. The only funding trace is council projects, so the investment map is empty here, which is itself a finding.",
     "Local talent: we found no publicly speaking AI or tech person tied to Castro Marim, and the council business page names no desk or contact for entrepreneurs beyond its general office. A named business-support contact would help a founder starting here.",
-    "The Algarve dementia congress said to be held in Castro Marim on 12 and 13 November with an AI session is not confirmed: the council's news list for 2 to 16 November has no such item. Not a fact until a page we can open shows it.",
     "No council meeting decisions and no new salt or SalOS item on the pages opened on 16 November; the fetch tool summarises pages, so dates should be rechecked on the live pages.",
     "A police investigation into a death in Altura (Postal, 15 November) is not used: a crime story about a private individual.",
     "cm-castromarim.pt answered 403 on 18 November (it loaded on 16 and 17 November); no new Castro Marim item was found."
@@ -280,6 +279,18 @@
     }
   ],
   "local_news": [
+    {
+      "title": "Castro Marim hosts the third Algarve Alzheimer and dementia congress, with an AI and cognitive-training session and a local care-technology start-up",
+      "summary": "On 12 and 13 November, in the Biblioteca Municipal auditorium, full house, theme 'Demências: Ciência que orienta, Intervenção que transforma', organised by the José Cabrita residence with the council and the University of Algarve. Day one included a talk on 'Inteligência Artificial e Neuroestimulação: Aplicações Clínicas e Futuro do Treino Cognitivo' and one on assistive technology; the council highlights Rico Health, a system and digital platform made by two Castro Marim founders to support active ageing, monitoring of elderly or isolated people and the work of carers. The council page does not describe how the AI session or Rico Health use AI; the talk title is the only AI claim.",
+      "date": "2026-11-17",
+      "publisher": "Município de Castro Marim",
+      "url": "https://cm-castromarim.pt/site/noticia/terceira-edicao-do-congresso-do-algarve-de-alzheimer-e-outras-demencias-na-biblioteca",
+      "read_on": "2026-11-18",
+      "significance": "town, neighbours and region",
+      "ai_path": "Public data from sensors and care records (Rico Health's monitoring), analytics and AI training tools (the congress session on AI and neurostimulation), clinicians and carers (the José Cabrita residence and the University of Algarve). The council page names the talk and the platform, not their AI methods.",
+      "steps": 3,
+      "blast_radius": "Vila Real de Santo António, Tavira, and the whole Algarve (regional congress)"
+    },
     {
       "title": "Castro Marim renews the quay of the Sapal nature reserve, with FEDER funding",
       "summary": "Total investment 683,599.01 euros (594,175.47 eligible), FEDER up to 60%. The same application covers a salt-pan warehouse, the Revelim interpretation centre and a Biosphere Reserve candidacy for the reserve, which Vila Real de Santo António shares.",
