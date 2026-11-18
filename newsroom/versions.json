@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1810",
+    "date": "2026-11-18",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "6785eca09"
+  },
+  {
     "version": "v0.1.1809",
     "date": "2026-11-18",
     "what": "conductor.b@PrompTugal.dinis: run report, weak-signal capture routed",
