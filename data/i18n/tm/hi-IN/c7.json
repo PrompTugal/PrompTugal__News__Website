@@ -1,0 +1,18 @@
+{
+ "c721537dfaefd717": {
+  "t": "**इस साइट की पहचान:** {key}, [board/keys.json]({keys}) में; `{file}` हस्ताक्षरित है, पर साइट की अपनी कुंजी से नहीं। इसका एजेंट, {agent}, इसे साइट की कुंजी से फिर हस्ताक्षरित करता है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "c7abd5881137676b": {
+  "t": "ULisboa AI, हाई-परफॉर्मेंस कंप्यूटिंग और सुरक्षित शोध डेटा के लिए दो डेटा सेंटरों में 20 मिलियन यूरो से अधिक निवेश करेगा, Oeiras में Técnico के Taguspark कैंपस पर और Lisbon की Faculty of Sciences में। कंपनियां और स्टार्टअप भी इनका उपयोग कर सकेंगे, और पूरा होने की उम्मीद 2028 तक है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "ULisboa will invest over 20 million euros in two data centre",
+  "ok": false
+ }
+}

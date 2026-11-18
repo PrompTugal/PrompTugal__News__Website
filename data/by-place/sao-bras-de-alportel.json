@@ -405,7 +405,8 @@
     "Sul Informação (sulinformacao.pt): homepage, tag page and feed all returned 403 on 2026-11-17; skipped.",
     "Jornal do Algarve (jornaldoalgarve.pt): homepage and search returned 403 on 2026-11-17; only the RSS feed opened and held no new AI-linked item for this town.",
     "São Brás parish site (jf-saobras.pt and variants) refused the connection (proxy 502); not read. Jornal do Algarve feed on 17 Nov has a São Brás accordion festival item with no AI link.",
-    "cm-sbras.pt news opened 2026-11-18: latest items (12-16 Nov) are boccia, CCDR school visit (already held), storm Charles, EM 523 road; nothing new on AI or technology."
+    "cm-sbras.pt news opened 2026-11-18: latest items (12-16 Nov) are boccia, CCDR school visit (already held), storm Charles, EM 523 road; nothing new on AI or technology.",
+    "18 Nov: no Sao Bras item on any homepage opened; nothing new."
   ],
   "voice": {
     "lede": "Cork, costumes and a quiet pinch of artificial intelligence, aqui na serra, com calma.",

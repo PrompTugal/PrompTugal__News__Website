@@ -273,7 +273,8 @@
     "Sul Informação (sulinformacao.pt): homepage, tag page and feed all returned 403 on 2026-11-17; skipped.",
     "Jornal do Algarve (jornaldoalgarve.pt): homepage and search returned 403 on 2026-11-17; only the RSS feed opened and held no new AI-linked item for this town.",
     "Albufeira parish sites (jf-albufeira.pt and variants) refused the connection (proxy 502); not read.",
-    "Jornal do Algarve RSS, Barlavento feed, Postal Algarve and Algarve Daily News front pages (17-18 Nov) show no new AI or technology item for this town."
+    "Jornal do Algarve RSS, Barlavento feed, Postal Algarve and Algarve Daily News front pages (17-18 Nov) show no new AI or technology item for this town.",
+    "18 Nov: cm-albufeira.pt/noticias opened (12 items, 27 Oct-17 Nov), no AI item. DevFest Faro 27-28 Nov: no update found."
   ],
   "voice": {
     "lede": "Sol, sea and a chatbot to book your sunbed: this is Albufeira, where tourism is the main business and AI is turning up at the front desk.",

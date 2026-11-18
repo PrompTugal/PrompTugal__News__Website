@@ -27,6 +27,7 @@ export const KINDS = [
     [/^data\/events\/[^/]+\/event\.json$/, 'event'],
     [/^data\/people\/[^/]+\/person\.json$/, 'person'],
     [/^data\/organisations\/[^/]+\/organisation\.json$/, 'organisation'],
+    [/^data\/series\/[^/]+\/series\.json$/, 'series'],
     [/^data\/organisations\/[^/]+\/network\.json$/, 'organisation-network'],
     [/^data\/places\/[^/]+\/place\.json$/, 'place'],
     [/^data\/topics\/[^/]+\/topic\.json$/, 'topic'],
@@ -125,6 +126,8 @@ export function checkData() {
     }
     for (const p of s.people) { need(`data/people/${p.id}`, p.org); for (const l of p.listings) { need(`data/people/${p.id}`, l.org); need(`data/people/${p.id}`, l.event) } }
     for (const p of s.places) need(`data/places/${p.id}`, p.located_in)
+    for (const x of s.series) { const w = `data/series/${x.id}`; need(w, x.organised_by); need(w, x.place); for (const d of x.editions) need(w, d.event) }
+    for (const e of s.events) need(`data/events/${e.id}`, e.series)
     // a news outlet (kind media)
     for (const o of s.organisations) {
         const w = `data/organisations/${o.id}`

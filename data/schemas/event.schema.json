@@ -269,6 +269,66 @@
         "additionalProperties": false
       },
       "description": "Further public sources (the websummit-only pass, 11 Nov 2026): a fact with one of these is not websummit-only."
+    },
+    "series": {
+      "$ref": "common.schema.json#/$defs/series_ref"
+    },
+    "edition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "found",
+        "confirmed",
+        "published",
+        "past",
+        "cancelled"
+      ],
+      "description": "found: named by a discovery source; confirmed: details read from a readable source; published; past; cancelled (an event stays in the graph)"
+    },
+    "details_from": {
+      "type": "string",
+      "minLength": 1,
+      "description": "the url of the readable source the details were taken from, one of evidence[]"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "url",
+          "readable",
+          "read_at"
+        ],
+        "properties": {
+          "url": {
+            "$ref": "common.schema.json#/$defs/url"
+          },
+          "readable": {
+            "enum": [
+              "yes",
+              "no",
+              "unknown"
+            ],
+            "description": "whether the sources register lets us read and use the page"
+          },
+          "register": {
+            "type": "string",
+            "minLength": 1,
+            "description": "the entry's id in the sources register (data.promptugal.news /api/v1/sources/)"
+          },
+          "read_at": {
+            "$ref": "common.schema.json#/$defs/read_at"
+          },
+          "how": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      },
+      "description": "the cited URLs the event rests on, readable or not, with the time read"
     }
   },
   "additionalProperties": false
