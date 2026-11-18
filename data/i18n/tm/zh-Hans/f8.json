@@ -1,0 +1,26 @@
+{
+ "f80ac22e14c2be44": {
+  "t": "面向欧洲葡萄牙语的开放语言模型AMALIA发布",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AMALIA, the open language model for European Portuguese, is ",
+  "ok": false
+ },
+ "f80bbd73459dc1d1": {
+  "t": "就目前读过的来源而言，Loulé在人工智能上的分量更多是机构性的，而非企业性的。市政府称已签约购买人工智能工具以加快城市规划，区域商业协会NERA总部设在该市镇并培训本地企业使用人工智能工具，Loulé和Faro两个市政府还共同为Estádio Algarve的一座多技术中心招标，主题中包括人工智能。除SPIC外，我们没有发现明确总部设在Loulé的人工智能公司，因此下面的地图有意做得很短。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "On the sources read so far, Loulé's weight in AI is institut",
+  "ok": false
+ },
+ "f83860c4d97f409d": {
+  "t": "由农民协会ACOS举办的第41届Beja农业博览会以“更多农业，更多未来”为主题，把生产与新技术联系起来，人工智能是重点，并设有用于讲座和设备演示的创新与技术展馆。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The 41st edition of the Beja farm fair, run by the farmers' ",
+  "ok": false
+ }
+}

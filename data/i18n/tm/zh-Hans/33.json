@@ -1,0 +1,42 @@
+{
+ "33007913833e3259": {
+  "t": "市政论坛让一家本地信息技术公司和一家医疗技术公司登台",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Council forum puts a local IT firm and a medical-technology ",
+  "ok": false
+ },
+ "330bf5c4b2e10426": {
+  "t": "新成立的市政机构 Go Coimbra 把人工智能列为优先领域",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Go Coimbra, the new municipal agency, names AI as a priority",
+  "ok": false
+ },
+ "332cf1204959dda4": {
+  "t": "PrompTugal.news Castro Marim：我们是 Espanha 之前的最后一座小镇，所以我们看着人工智能越过 Guadiana 河而来，就像火烈鸟看着潮水。盐田，一个有着聪明规划办公室的市政府，还有一个教会盐场开口说话的家族。从阿尔加维、葡萄牙和世界传来的东西，在这里像 flor de sal 一样一克一克地称量。独立，每个事实都有来源。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Castro Marim: we are the last town before Es",
+  "ok": false
+ },
+ "3386001e14ab5d16": {
+  "t": "WordPress Faro Meetup 探讨人工智能如何改变人们使用网站的方式",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "WordPress Faro Meetup asks how AI changes the way people use",
+  "ok": false
+ },
+ "3398caa6a144473d": {
+  "t": "这个与 Técnico 有关联的研究单位牵头一个可持续、可信赖人工智能卓越中心，获得 Horizon Europe 的 Teaming for Excellence 1,300 万欧元和 1,420 万欧元国家资金。Max Planck Institute for Software Systems 和 German Research Center for Artificial Intelligence 是合作伙伴。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The research unit, associated with Técnico, leads a centre o",
+  "ok": false
+ }
+}

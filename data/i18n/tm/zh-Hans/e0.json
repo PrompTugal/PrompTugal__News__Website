@@ -1,0 +1,34 @@
+{
+ "e08c06bc65abb642": {
+  "t": "{name}有哪些通向人工智能的公司、机构和社区，均来自公开来源。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The companies, institutions and communities in {name} with a",
+  "ok": false
+ },
+ "e08fafe93f5830d8": {
+  "t": "就我们能打开的来源而言，该市镇的科技故事是大海和风。Sagres在Porto da Baleeira有一家海洋生物技术公司，同一港口有一座大学海洋实验室，还有MARREAL水下观测站，这是一座位于20米水深的摄像头和传感器站，实时记录海洋数据。INEGI和APREN的风电场清单列出了该市镇内的风电场，包括2025年的改造扩容。我们没有发现人工智能新闻，这是本页的第一个发现，但海洋数据站是最可能出现人工智能路径的地方。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "On the sources we could open, the municipality's technology ",
+  "ok": false
+ },
+ "e0e5f037ff99adf0": {
+  "t": "这家葡萄牙初创企业监测自主人工智能智能体，把有风险的输出标出供人工复核，并按0到100分打分。投资方是Angels Way。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Portuguese startup monitors autonomous AI agents, flags ",
+  "ok": false
+ },
+ "e0efee49767bd1db": {
+  "t": "一个面向公共行政人员的全国培训项目Estado em Acção于2026年9月18日在科英布拉以免费活动启动，后续将在全国举行十场活动。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A national training programme called Estado em Acção, for pu",
+  "ok": false
+ }
+}

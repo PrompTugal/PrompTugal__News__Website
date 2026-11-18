@@ -1,0 +1,50 @@
+{
+ "2e08790bc444c605": {
+  "t": "一位信息学教授对 Lusa 表示，该大学规模较小的开放葡萄牙语模型在某些任务上的表现可与大型科技公司的模型相当，而且一个葡萄牙语和加利西亚语模型已向企业开放。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A professor of informatics told Lusa that the university's s",
+  "ok": false
+ },
+ "2e513ec94d637d09": {
+  "t": "Braga，ai ai ai：一座周日为大主教敲钟、周一训练模型的城市，还有一辆装满人工智能摄像头的公交车，在数谁把车停在了公交站上。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Braga, ai ai ai: a city that rings its bells for the archbis",
+  "ok": false
+ },
+ "2e7c775df10f0748": {
+  "t": "SiARA 项目把人工智能、一台名为 EVAbot 的自主田间机器人和传感器网络结合起来，在 Campo Branco 草原上收集作物、土壤、牧场和野生动物的数据。项目于 2025 年 11 月启动，首次田间工作在 2026 年 3 月 3 日。该项目在 Promove 计划的动员型研发类别中获得认可。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The SiARA project combines AI, an autonomous field robot cal",
+  "ok": false
+ },
+ "2ecaf3860065acde": {
+  "t": "PrompTugal.news Braga, a cidade dos arcebispos e das startups：Braga 的人工智能与科技，由 Minho 大学、INL 和企业实验室负责动脑，另有从 Minho、葡萄牙和世界传来的各类新闻。Independente，每个事实都有凭证。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Braga, a cidade dos arcebispos e das startup",
+  "ok": false
+ },
+ "2ece8b1cdbda1ec5": {
+  "t": "Évora，ó pá：一座有白墙、栓皮栎和古老石头的城市，机器在这里学说葡萄牙语，慢慢来，calminha，阿连特茹人都是这么做的。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Évora, ó pá: a city of whitewash, cork oaks and old stones w",
+  "ok": false
+ },
+ "2ed694a2fcc0cf7e": {
+  "t": "PrompTugal.news Lisboa, a capital que nunca dorme：Lisboa 的人工智能与科技，以各大学和 Unicorn Factory 为“大脑”，另有从葡萄牙、欧洲和世界驶来的各类新闻。Independente，每个事实都附有凭证。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Lisboa, a capital que nunca dorme: AI and te",
+  "ok": false
+ }
+}

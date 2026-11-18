@@ -338,7 +338,7 @@ const tmNorm = s => s.normalize('NFC').replace(/\r\n?/g, '\n').replace(/[ \t\u00
 const tmKey = s => crypto.createHash('sha256').update(tmNorm(s)).digest('hex').slice(0, 16)
 function memories(ctx) {
     const out = []
-    let cultures = []; try { cultures = fs.readdirSync(ctx.R(TM_DIR)).filter(c => /^[a-z]{2}-[A-Z]{2}$/.test(c)).sort() } catch { return out }
+    let cultures = []; try { cultures = fs.readdirSync(ctx.R(TM_DIR)).filter(c => /^[a-z]{2,3}(?:-[A-Z][a-z]{3})?(?:-[A-Z]{2})?$/.test(c)).sort() } catch { return out }
     for (const c of cultures) {
         const m = new Map()
         for (const f of fs.readdirSync(ctx.R(`${TM_DIR}/${c}`)).filter(f => f.endsWith('.json'))) {
@@ -531,7 +531,7 @@ function memoryChecks(gate) {
     let EN = {}; try { EN = JSON.parse(gate.text('api/v1/i18n/segments.json')) } catch { return out }
     const num = x => (x.replace(/(\d)[.,\u202f\u00a0'](?=\d)/g, '$1').replace(/(\d) (?=\d{3}\b)/g, '$1').match(/\d+/g) || []).sort()
     const dir = path.join(gate.ROOT, TM_DIR)
-    let cultures = []; try { cultures = fs.readdirSync(dir).filter(c => /^[a-z]{2}-[A-Z]{2}$/.test(c)).sort() } catch { return out }
+    let cultures = []; try { cultures = fs.readdirSync(dir).filter(c => /^[a-z]{2,3}(?:-[A-Z][a-z]{3})?(?:-[A-Z]{2})?$/.test(c)).sort() } catch { return out }
     for (const culture of cultures) {
         const bad = { placeholders: [], urls: [], numbers: [] }
         for (const f of fs.readdirSync(path.join(dir, culture)).filter(f => f.endsWith('.json'))) {

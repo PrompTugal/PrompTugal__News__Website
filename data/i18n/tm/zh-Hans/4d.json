@@ -1,0 +1,18 @@
+{
+ "4d3e04b864186034": {
+  "t": "PrompTugal.news 自己撰写的关于 {name} 的文章（前置信息中的 town: 或 region:），每篇均已签名。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news's own articles about {name} (front matter to",
+  "ok": false
+ },
+ "4def806991338441": {
+  "t": "CitiLink 把冗长的市政会议纪要转化为关于议题、立场和决定的结构化信息。它由 INESC TEC、波尔图大学和 UBI 在 2024 年至 2026 年初构建，波尔图和其他五个市政府以及 Porto Digital 参与其中。评审团称赞它在提高透明度方面的潜力。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "CitiLink turns long municipal minutes into structured inform",
+  "ok": false
+ }
+}

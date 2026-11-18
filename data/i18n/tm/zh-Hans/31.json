@@ -1,0 +1,18 @@
+{
+ "311ec510fafeb612": {
+  "t": "这家在葡萄牙拥有 2,000 多名员工的加拿大咨询公司于 2026 年 5 月启用了该中心。来源没有说明它位于哪座城市。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Canadian consulting firm, with over 2,000 staff in Portu",
+  "ok": false
+ },
+ "317c4adf0ece68f9": {
+  "t": "葡萄牙医疗科技公司 AuroraMed 专注于临床管理中的人工智能，它与阿尔加维大学医学院于 4 月 20 日在Faro为医疗决策者推出了一门高管课程，设有 PRR 资助的奖学金。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AuroraMed, a Portuguese healthtech focused on AI in clinical",
+  "ok": false
+ }
+}

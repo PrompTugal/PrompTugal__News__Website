@@ -1,0 +1,34 @@
+{
+ "4b4540e5f91d0d06": {
+  "t": "PrompTugal.news Tavira：我们关注这座红瓦屋顶之镇 Tavira 的人工智能与科技，也关注从阿尔加维、葡萄牙和世界传来的一切。独立，每个事实都附凭证。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Tavira: we keep an eye on AI and tech in Tav",
+  "ok": false
+ },
+ "4bb857da624ce035": {
+  "t": "第三届信息技术大会于 2026 年 10 月 21 日在 Mercado Santana 和 Teatro Miguel Franco 举行，在全新的 LINKA.LAB 中举办了六场座无虚席的大师班。该页面没有给出发布日期，所以采用网站文章列表中的日期。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The third edition of the IT conference ran on 21 October 202",
+  "ok": false
+ },
+ "4bc344e1b99f0186": {
+  "t": "Vale do Lobo 推出人工智能数字礼宾 Oliver",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Vale do Lobo launches Oliver, an AI digital concierge",
+  "ok": false
+ },
+ "4bd6423c0c52571d": {
+  "t": "Grupo Lusiadas Saude 介绍了位于 Faro（Lejana de Baixo）的一家 6,000 万欧元的医院，计划 2027 年底开业，约有 500 个岗位。其首席执行官说，这将是一家原生于人工智能、机器人和先进诊断的医院。文章没有说明具体使用哪些人工智能系统。",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Grupo Lusiadas Saude presented a 60 million euro hospital in",
+  "ok": false
+ }
+}
