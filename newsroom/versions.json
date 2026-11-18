@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1782",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 06:48 wake: ledger 0651Z; quiet night",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "91b2ef3bb"
+  },
+  {
     "version": "v0.1.1781",
     "date": "2026-11-18",
     "what": "journalist@PrompTugal.dinis: 06:40 wake: districts' quiet wake brought onto dev; run report",
