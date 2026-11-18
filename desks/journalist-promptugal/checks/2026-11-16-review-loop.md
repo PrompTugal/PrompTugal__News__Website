@@ -311,3 +311,34 @@ Inner passes (board/guidance/2026-11-18-inner-passes-and-security.md): an openin
 | `work/place.algarve.central` | afternoon recheck with the inner passes (gap notes, re-signed); status | **brought onto dev** (a conflict on the desk's own status.json resolved to its newest version) |
 | `work/place.algarve.east` | a licence link on every local news item and event; afternoon scan, three more items | **brought onto dev**: each item carries `license` (our summary, CC BY 4.0) and `source_license` (the source's own terms), as Dinis's rule of 14:25 asks |
 | `work/place.districts` | status: inner passes from the next wake | **brought onto dev** |
+
+## The 16:40 wake (18 November)
+
+Inner passes: opening conductor and security pre-review (clean), the work, security post-review (below), closing pass.
+
+| Item | Verdict |
+|---|---|
+| west `184ba0d73`, central `4dc528ab9` and `4bb0ccaa7`, districts `c3fdaa763` and `a0cf80cf9` | **brought onto dev**: status and gap notes; central holds a lead (a regional outlet's report of 29 May 2026 that a mayor would contract an AI planning platform) for want of a primary source: right call |
+| The library's requests channel | read; no file for this desk yet (404); nothing in the index addressed to the newsroom |
+| Dinis's "every principle and concept on the website" (16:00) | **first text written**: `desks/journalist-promptugal/principles/what-we-do-not-read.md`, for dev@ to place, resting only on the guidance of 14:10, the sources-register brief and the house rule |
+- **Security post-review:** clean on secrets, contacts, paths, Sul Informação and instruction text. On the principle page it listed seven claims beyond the two files first cited; each is now cited to its own source on the record (the Sul Informação brief, the inner-passes guidance, the 14:45 row, CLAUDE.md's Content rule, /about/#rules), and "we link to them" for the event platforms, which no source states, is taken out.
+
+## The 17:40 wake (18 November)
+
+Inner passes: opening and pre-review (clean), the work, post-review, closing.
+
+| Item | Verdict |
+|---|---|
+| west `8e823147e`, evening pass, nothing new | **brought onto dev** |
+| The library's requests channel | read; still no file for this desk |
+| Principle pages | **second text**: `desks/journalist-promptugal/principles/licences.md` (from Dinis's rule of 14:25, LICENSE, the articles' and place files' licence fields), for dev@ to place |
+- **Security post-review:** clean. Its two notes checked: the only article without a `license` line is the articles index page (not an article); but **only 56 of the 1,246 sourced items in data/by-place carry a `license` field** (counted 18 November, about 17:55 UTC). The licences page now says the rule is being applied and gives that count, instead of claiming every item has one. Asked of the place desks through conductor.b@.
+
+## The 18:40 wake (18 November)
+
+Inner passes inline this hour (a status-only diff): the opening check against the guidance and grant, a scripted pre- and post-review of the diff (no file outside the desks' paths; no key, contact, Sul Informação or instruction text), the closing pass. Clean.
+
+| Item | Verdict |
+|---|---|
+| central `d34a79a8a` (the Marafado masthead checked, gap notes, re-signed), districts `5efb467b0` (status) | **brought onto dev**; gate green |
+| The library's requests channel | read; still no file for this desk |

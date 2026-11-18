@@ -31,3 +31,9 @@
 - **The model, with its assumptions stated and Dinis's to change:** revenue in (a reader's spend, traffic), a share kept for costs (shown as an assumption), the rest split across the sources behind what was read, by weight (cited fact, quoted words, data set, discovery evidence), with a minimum before a payout.
 - **"My £5" in the browser:** a reader's own reading log stays on their device (the meter already keeps one); the page computes, in the browser, how that reader's £5 would be split across the sources behind what they read, and shows it. Nothing about the reader is sent to us.
 - How much to keep and when anyone is paid is Dinis's alone (a "For Dinis" decision page when it is real).
+
+## The live cameras site and the Google APIs (Dinis, about 17:30 to 17:55 UTC)
+
+- Dinis on public cameras: a site to list and show the live public camera feeds in the places we cover; the AgentiCCells factory is creating the repository (the live site). conductor.b@'s rules, proposed: official cameras of public bodies and operators' own embeds or links only; never re-host, record or store frames; no face or plate recognition; metadata and status history only; never an unsecured private camera (Insecam-style); take-down on request.
+- Dinis: "add those free Google API keys to the web page with instructions": videos.b@ extends videos.promptugal.news/how/ with YouTube Data, Fact Check Tools, Knowledge Graph Search, PageSpeed Insights, Books and Web Risk, in a Google Cloud project separate from the Gmail OAuth one.
+- Dinis: "see what is going on with the IPMA data ... the data is not being refreshed": data.promptugal.news's IPMA collectors were fresh (read 17:41 UTC); promptugal.news's live-now (refreshed only by datasci.places@'s session, last 16:15) and weather.promptugal.news (last built 16:19, its hourly rebuild not running) were stale; owners told to read data.promptugal.news live.

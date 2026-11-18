@@ -1,31 +1,31 @@
 {
  "id": "jornal-de-leiria",
  "feed": "https://jornaldeleiria.pt/rss-feed",
- "read_at": "2026-11-18T15:05Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
   {
+   "title": "Governo foi à Nazaré anunciar investimento de 814 ME para o mar",
+   "link": "https://www.jornaldeleiria.pt/noticia/governo-foi-a-nazare-anunciar-investimento-de-814-me-para-o-mar",
+   "date": "2026-11-18"
+  },
+  {
    "title": "Capital Portuguesa da Cultura. Óbidos anuncia Pilar del Río, Leiria tem 27 nomes e apresenta candidatura dia 29",
-   "link": "https://jornaldeleiria.pt/noticia/capital-portuguesa-da-cultura-obidos-anuncia-pilar-del-rio-leiria-tem-27-nomes-e-apresenta-candidatura-dia-29",
+   "link": "https://www.jornaldeleiria.pt/noticia/capital-portuguesa-da-cultura-obidos-anuncia-pilar-del-rio-leiria-tem-27-nomes-e-apresenta-candidatura-dia-29",
    "date": "2026-11-18"
   },
   {
    "title": "Emprego em Leiria: Oportunidades, Desafios e Conselhos",
-   "link": "https://jornaldeleiria.pt/noticia/emprego-em-leiria-oportunidades-desafios-e-conselhos",
+   "link": "https://www.jornaldeleiria.pt/noticia/emprego-em-leiria-oportunidades-desafios-e-conselhos",
    "date": "2026-11-18"
   },
   {
    "title": "Alcobaça. Mostra de Doces e Licores Conventuais está de regresso ao Mosteiro",
-   "link": "https://jornaldeleiria.pt/noticia/alcobaca-mostra-de-doces-e-licores-conventuais-esta-de-regresso-ao-mosteiro",
+   "link": "https://www.jornaldeleiria.pt/noticia/alcobaca-mostra-de-doces-e-licores-conventuais-esta-de-regresso-ao-mosteiro",
    "date": "2026-11-18"
   },
   {
    "title": "Homem detido por caçar aves atraindo-as com cola e sistema de gravação",
-   "link": "https://jornaldeleiria.pt/noticia/homem-detido-por-cacar-aves-atraindo-as-com-cola-e-sistema-de-gravacao",
-   "date": "2026-11-18"
-  },
-  {
-   "title": "Trocado por miúdos | Somos todos uns fascistas",
-   "link": "https://jornaldeleiria.pt/opiniao/trocado-por-miudos-or-somos-todos-uns-fascistas",
+   "link": "https://www.jornaldeleiria.pt/noticia/homem-detido-por-cacar-aves-atraindo-as-com-cola-e-sistema-de-gravacao",
    "date": "2026-11-18"
   }
  ]

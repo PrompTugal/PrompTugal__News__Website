@@ -1,7 +1,7 @@
 {
   "agent": "designer.places@PrompTugal.dinis",
   "focus": "designer.places@: each town's look inside brand v2.0 on /algarve/ and /algarve/<town>/, and the demo for Dinis's meeting with Algarve Evolution (16 November)",
-  "updated": "2026-11-18T13:10Z",
+  "updated": "2026-11-18T17:10Z",
   "state": "working (second session, Sonnet)",
   "done": [
     "session key designer.places-promptugal in board/keys.json",
@@ -47,7 +47,9 @@
     "wake 06:52: sweep of 36 place pages clean on dev v0.1.1781; nothing new for me",
     "wake 08:52: sweep of 36 place pages clean on dev v0.1.1786; nothing new for me",
     "wake 10:52: sweep of 36 place pages clean on dev v0.1.1792; nothing new for me",
-    "wake 12:52: sweep of 36 place pages clean on dev v0.1.1798; nothing new for me"
+    "wake 12:52: sweep of 36 place pages clean on dev v0.1.1798; nothing new for me",
+    "wake 14:52: sweep of 36 place pages clean on dev v0.1.1805; nothing new for me",
+    "wake 16:52: inner passes (guidance 18 Nov): opening and closing passes run by me in-session; no sub-agents spawned because the wake changed no file but my own status (no code or data diff to review; the post-review is that diff: no secret, no personal data, nothing outside my paths). Library requests channel read: nothing addressed to designer.places@. Sweep of 36 place pages clean on dev v0.1.1814; gate green again"
   ],
   "next": [
     "home strip: the variant chosen by designer@ or Dinis, then build it in assets/front-e with designer@",

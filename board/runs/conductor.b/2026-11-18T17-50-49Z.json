@@ -1,0 +1,64 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-18T17-50-49Z",
+ "started": "2026-11-18T17:50:49.116Z",
+ "ended": "2026-11-18T17:51:57Z",
+ "line": "IPMA freshness diagnosed (data site fresh; main live-now and weather stale); weather.b@, datasci.places@, dev@ told; Google APIs page extension asked of videos.b@; live site recorded",
+ "policy": {
+  "version": "1.15.2",
+  "sha256": "f889a86033a7c585"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T17:50:49.116Z",
+   "chars": 319,
+   "sha256": "327c7440f508e29e",
+   "head": "Ok the ACC factory team will create the live site in the next couple minutes \n\nCan you add those free Google API keys to get to the web page with instructions \n\nAnd can you see what is going on with t"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 10,
+  "by_kind": {
+   "remote-conduct": 4,
+   "web": 5,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 10,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 10,
+  "in_mandate": 10,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

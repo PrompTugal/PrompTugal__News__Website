@@ -1,8 +1,13 @@
 {
  "id": "executive-digest",
  "feed": "https://executivedigest.sapo.pt/feed/",
- "read_at": "2026-11-18T15:05Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
+  {
+   "title": "Violência ameaça escalar na Escola Delfim Santos: PSP intervém perante receios de represálias e remete caso ao Ministério Público",
+   "link": "https://executivedigest.sapo.pt/violencia-ameaca-escalar-na-escola-delfim-santos-psp-intervem-perante-receios-de-represalias-e-remete-caso-ao-ministerio-publico/",
+   "date": "2026-11-18"
+  },
   {
    "title": "UE chega a acordo para acelerar licenciamento de projetos de energias renováveis",
    "link": "https://executivedigest.sapo.pt/ue-chega-a-acordo-para-acelerar-licenciamento-de-projetos-de-energias-renovaveis/",
@@ -21,11 +26,6 @@
   {
    "title": "Seis em cada dez CEO já não conseguem prever de quanto escritório vão precisar e a IA está a aumentar a incerteza",
    "link": "https://executivedigest.sapo.pt/seis-em-cada-dez-ceo-ja-nao-conseguem-prever-de-quanto-escritorio-vao-precisar-e-a-ia-esta-a-aumentar-a-incerteza/",
-   "date": "2026-11-18"
-  },
-  {
-   "title": "Black Friday: rede de 10 mil lojas falsas imita 166 marcas conhecidas e consegue enganar a Inteligência Artificial",
-   "link": "https://executivedigest.sapo.pt/black-friday-rede-de-10-mil-lojas-falsas-imita-166-marcas-conhecidas-e-consegue-enganar-a-inteligencia-artificial/",
    "date": "2026-11-18"
   }
  ]

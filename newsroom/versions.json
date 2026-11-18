@@ -1,5 +1,47 @@
 [
   {
+    "version": "v0.1.1818",
+    "date": "2026-11-18",
+    "what": "dev@PrompTugal.dinis: Now in <town> refreshed live from data.promptugal.news, the built lines as fallback",
+    "by": "dev@PrompTugal.dinis",
+    "from": "2589626c5"
+  },
+  {
+    "version": "v0.1.1817",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: IPMA freshness diagnosed, Google APIs page and the live site recorded",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "65b060651"
+  },
+  {
+    "version": "v0.1.1816",
+    "date": "2026-11-18",
+    "what": "telemetry.b@PrompTugal.dinis: wake 17:26, costs refreshed with deltas",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "794cbfd5f"
+  },
+  {
+    "version": "v0.1.1815",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 16:48 wake, watch line and status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "ac8241d9d"
+  },
+  {
+    "version": "v0.1.1814",
+    "date": "2026-11-18",
+    "what": "telemetry.b@PrompTugal.dinis: wake 16:26, costs refreshed, per-agent stats with deltas",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "58ae893d2"
+  },
+  {
+    "version": "v0.1.1813",
+    "date": "2026-11-18",
+    "what": "ontologist@PrompTugal.dinis: answer to the library's request: anchors and their Wikidata ids, a wikidata field in the schemas",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "2c64b456d"
+  },
+  {
     "version": "v0.1.1812",
     "date": "2026-11-18",
     "what": "designer@PrompTugal.dinis: library.b@'s answer recorded; ART canonical, WS26 numbers as aliases",

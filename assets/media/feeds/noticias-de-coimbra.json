@@ -1,11 +1,21 @@
 {
  "id": "noticias-de-coimbra",
  "feed": "https://www.noticiasdecoimbra.pt/feed/",
- "read_at": "2026-11-18T15:05Z",
+ "read_at": "2026-11-18T15:15Z",
  "items": [
+  {
+   "title": "Bombeiros de Penela despedem-se de homem que dedicou oito anos da vida à associação",
+   "link": "https://www.noticiasdecoimbra.pt/bombeiros-de-penela-despedem-se-de-homem-que-dedicou-oito-anos-da-vida-a-associacao/",
+   "date": "2026-11-18"
+  },
   {
    "title": "Homem tenta matar mulher e filha durante discussão à hora de jantar",
    "link": "https://www.noticiasdecoimbra.pt/homem-tenta-matar-mulher-e-filha-durante-discussao-a-hora-de-jantar/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "As muralhas do Castelo Mágico de Montemor-o-Velho vão esconder um mundo de fantasia durante um mês",
+   "link": "https://www.noticiasdecoimbra.pt/as-muralhas-do-castelo-magico-de-montemor-o-velho-vao-esconder-um-mundo-de-fantasia-durante-um-mes/",
    "date": "2026-11-18"
   },
   {
@@ -16,16 +26,6 @@
   {
    "title": "Homem morre após cair ao mar na praia da Baleia",
    "link": "https://www.noticiasdecoimbra.pt/homem-morre-apos-cair-ao-mar-na-praia-da-baleia/",
-   "date": "2026-11-18"
-  },
-  {
-   "title": "O mundo prepara-se para 2027. Estes são os 10 acontecimentos que podem mudar tudo",
-   "link": "https://www.noticiasdecoimbra.pt/o-mundo-prepara-se-para-2027-estes-sao-os-10-acontecimentos-que-podem-mudar-tudo/",
-   "date": "2026-11-18"
-  },
-  {
-   "title": "O mel é da Serra, as castanhas também e a festa vai durar até domingo à noite na Lousã",
-   "link": "https://www.noticiasdecoimbra.pt/o-mel-e-da-serra-as-castanhas-tambem-e-a-festa-vai-durar-ate-domingo-a-noite-na-lousa/",
    "date": "2026-11-18"
   }
  ]

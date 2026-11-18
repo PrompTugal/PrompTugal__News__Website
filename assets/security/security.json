@@ -7,7 +7,12 @@
     "**How we disclose.** A finding that is fixed is shown in full: what it was, who owned it, the fix and the reviews that found and checked it. A finding that is still open, in progress or accepted is shown by its title, severity, owner and state only, without the detail that would help someone use it, until it is fixed.",
     "Found something? Tell us on [the report page](../report/index.html). The full ledger, as security@ writes it, is in [the repository](https://github.com/promptugal/promptugal__news__website/blob/dev/board/team/security/findings.md)."
   ],
-  "states": { "fixed": "Fixed", "progress": "In progress", "accepted": "Accepted or decided", "open": "Open" },
+  "states": {
+    "fixed": "Fixed",
+    "progress": "In progress",
+    "accepted": "Accepted or decided",
+    "open": "Open"
+  },
   "fixed_heading": "Fixed",
   "fixed_about": "Shown in full, as security@ recorded the fix.",
   "other_heading": "Open, in progress or accepted",
@@ -16,12 +21,54 @@
   "sites_about": "Each PrompTugal site publishes its own findings and threat models on its /security/ page, built by its site lead. A site shows here as a link once its page is up.",
   "sites_waiting": "page not up yet",
   "sites": [
-    { "name": "data.promptugal.news", "url": "https://data.promptugal.news/security/", "live": false },
-    { "name": "events.promptugal.news", "url": "https://events.promptugal.news/security/", "live": false },
-    { "name": "weather.promptugal.news", "url": "https://weather.promptugal.news/security/", "live": false },
-    { "name": "civic.promptugal.news", "url": "https://civic.promptugal.news/security/", "live": false },
-    { "name": "startups.promptugal.news", "url": "https://startups.promptugal.news/security/", "live": false },
-    { "name": "travel.promptugal.news", "url": "https://travel.promptugal.news/security/", "live": false }
+    {
+      "name": "data.promptugal.news",
+      "url": "https://data.promptugal.news/security/",
+      "live": true,
+      "checked": "2026-11-18T17:10Z"
+    },
+    {
+      "name": "events.promptugal.news",
+      "url": "https://events.promptugal.news/security/",
+      "live": true,
+      "checked": "2026-11-18T17:10Z"
+    },
+    {
+      "name": "weather.promptugal.news",
+      "url": "https://weather.promptugal.news/security/",
+      "live": true,
+      "checked": "2026-11-18T17:10Z"
+    },
+    {
+      "name": "civic.promptugal.news",
+      "url": "https://civic.promptugal.news/security/",
+      "live": true,
+      "checked": "2026-11-18T17:10Z"
+    },
+    {
+      "name": "startups.promptugal.news",
+      "url": "https://startups.promptugal.news/security/",
+      "live": true,
+      "checked": "2026-11-18T17:10Z"
+    },
+    {
+      "name": "travel.promptugal.news",
+      "url": "https://travel.promptugal.news/security/",
+      "live": true,
+      "checked": "2026-11-18T17:10Z"
+    },
+    {
+      "name": "library.promptugal.news",
+      "url": "https://library.promptugal.news/security/",
+      "live": true,
+      "checked": "2026-11-18T17:10Z"
+    },
+    {
+      "name": "signals.promptugal.news",
+      "url": "https://signals.promptugal.news/security/",
+      "live": true,
+      "checked": "2026-11-18T17:10Z"
+    }
   ],
   "api_about": "The public security log of promptugal.news, from security@'s ledger (board/team/security/findings.md): fixed findings in full, the others as id, severity, title, owner and state."
 }
