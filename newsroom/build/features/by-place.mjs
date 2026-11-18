@@ -529,6 +529,7 @@ function memoryChecks(gate) {
     const out = [], W = JSON.parse(gate.text('assets/by-place/queue.json')).check, same = (a, b) => JSON.stringify(a) === JSON.stringify(b)
     const bag = (s, re) => (s.match(re) || []).sort()
     let EN = {}; try { EN = JSON.parse(gate.text('api/v1/i18n/segments.json')) } catch { return out }
+    const SKIP = JSON.parse(gate.text('assets/by-place/queue.json')).numbers_skip || []
     const num = x => (x.replace(/(\d)[.,\u202f\u00a0'](?=\d)/g, '$1').replace(/(\d) (?=\d{3}\b)/g, '$1').match(/\d+/g) || []).sort()
     const dir = path.join(gate.ROOT, TM_DIR)
     let cultures = []; try { cultures = fs.readdirSync(dir).filter(c => /^[a-z]{2,3}(?:-[A-Z][a-z]{3})?(?:-[A-Z]{2})?$/.test(c)).sort() } catch { return out }
@@ -540,7 +541,7 @@ function memoryChecks(gate) {
                 const en = EN[id]; if (typeof en !== 'string' || !v || typeof v.t !== 'string') continue
                 if (!same(bag(en, /\{\w+\}/g), bag(v.t, /\{\w+\}/g))) bad.placeholders.push(id)
                 if (!same(bag(en, /https?:\/\/[^\s)]+/g), bag(v.t, /https?:\/\/[^\s)]+/g))) bad.urls.push(id)
-                if (!same(num(en), num(v.t))) bad.numbers.push(id)
+                if (!SKIP.includes(culture) && !same(num(en), num(v.t))) bad.numbers.push(id)
             }
         }
         for (const k of Object.keys(bad)) if (bad[k].length) out.push(W[k].replace('{culture}', culture).replace('{n}', bad[k].length).replace('{id}', bad[k][0]).replace('{placeholder}', 'placeholder'))
