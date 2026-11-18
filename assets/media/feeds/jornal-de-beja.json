@@ -1,0 +1,32 @@
+{
+ "id": "jornal-de-beja",
+ "feed": "https://jornaldebeja.sapo.pt/feed/",
+ "read_at": "2026-11-18T15:05Z",
+ "items": [
+  {
+   "title": "Cidade de Beja é palco do Congresso de História e Património Vitivinícola do Alentejo",
+   "link": "https://jornaldebeja.sapo.pt/noticias/cidade-de-beja-e-palco-do-congresso-de-historia-e-patrimonio-vitivinicola-do-alentejo",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Beja recebe Dia Aberto Agroalimentar dedicado à biotecnologia na agricultura",
+   "link": "https://jornaldebeja.sapo.pt/noticias/beja-recebe-dia-aberto-agroalimentar-dedicado-a-biotecnologia-na-agricultura",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "CCRD Santa Vitória garante três pontos na reta final da partida",
+   "link": "https://jornaldebeja.sapo.pt/noticias/ccrd-santa-vitoria-garante-tres-pontos-na-reta-final-da-partida",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Beja levou a gastronomia e o enoturismo à INTUR 2026",
+   "link": "https://jornaldebeja.sapo.pt/noticias/beja-levou-a-gastronomia-e-o-enoturismo-a-intur-2026",
+   "date": "2026-11-16"
+  },
+  {
+   "title": "Pax Julia é palco da IV Gala do Desporto de Beja 2026 esta sexta-feira",
+   "link": "https://jornaldebeja.sapo.pt/noticias/pax-julia-e-palco-da-iv-gala-do-desporto-de-beja-2026-esta-sexta-feira",
+   "date": "2026-11-13"
+  }
+ ]
+}

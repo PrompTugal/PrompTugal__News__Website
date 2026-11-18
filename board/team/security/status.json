@@ -2,17 +2,17 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
   "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
-  "updated": "2026-11-18T16:15Z",
-  "reviewed_to": "f56977276",
+  "updated": "2026-11-18T16:00Z",
+  "reviewed_to": "8d5348e61",
   "hold": false,
   "done": [
-    "08:05 18 Nov: 28 commits clean; S70's map entry names organisations only",
-    "10:05 18 Nov: 27 commits clean; S53 opened (high): conductor@ printed the environment and its signing key into its transcript on 16 Nov (abp@'s log)",
-    "12:05 18 Nov: 33 commits clean; S53 still open (the key active; five articles signed by it to re-sign after rotation)",
-    "14:00 18 Nov: S53 closed as Dinis decided (acknowledged, no rotation); the key's status in keys.json (active, not superseded) noted for conductor@",
     "14:05 18 Nov: no commits since 14:00; the events collection pre-reviewed (go under E1 to E7: robots.txt and terms checked by the reader, no attendees, organisers as organisations, outside text escaped, server-side reads)",
     "15:30 18 Nov: first pass across all eight repositories (full history of seven): no secret, no key file, contacts official only; Civic withholds individuals in procurement data; first prompt-injection pass clean; events pre-review E8 (organisers' GitHub issues); S54 to abp@",
-    "16:10 18 Nov: AppSec across the repositories: innerHTML clean (flightmap escapes), S55 (no javascript:-href gate except Travel's), Data's threat models reviewed (good), S56 (unhashed install beside secrets); conductor.b@'s address slip recorded and closed"
+    "16:10 18 Nov: AppSec across the repositories: innerHTML clean (flightmap escapes), S55 (no javascript:-href gate except Travel's), Data's threat models reviewed (good), S56 (unhashed install beside secrets); conductor.b@'s address slip recorded and closed",
+    "16:20 18 Nov: findings.md made ready for the public log (Dinis 15:15); S57, S58, S59 added as fixed; Data's observability lane checked (made at Dinis's word, not a workaround)",
+    "15:45 18 Nov: cyber signals pre-reviewed (go for the register step under C1 to C9: cells under 5 suppressed, no raw data in public vaults, private reports to CERT.PT/CNCS, threat model before the first run); the people line noted for every site; S54 half done (sub-agents granted)",
+    "15:50 18 Nov: KEV and CVE.org may run now (public catalogues, escaped text, a short threat model within a day); non-commercial sources (CNPD, Shadowserver, Cloudflare Radar, RIPEstat) wait on Dinis's licence call; abuse.ch only as aggregates if at all",
+    "16:00 18 Nov: S60 recorded (library.b@'s websummit.com breach, self-reported, fixed); S61 opened (two Library items rest only on websummit.com)"
   ],
   "next": [
     "each wake: new commits in all eight repositories (heads in repo_heads)",
@@ -20,7 +20,9 @@
     "daily prompt-injection pass",
     "S43: dev@'s gate check for duplicate ids and dropped key bundles",
     "pairing step 4 (the real send): P1 on A, P2 on A, P9 the origin, P10",
-    "post-review the first events collection run and page against E1 to E7"
+    "post-review the first events collection run and page against E1 to E7",
+    "review /payments/simulated/ when built: nothing about the reader leaves the browser",
+    "review the cyber collector's threat model (C8) before its first run"
   ],
   "findings_open": {
     "S2": "decided: rotate now (observability@)",
@@ -60,9 +62,10 @@
     "S49": "low: the feed reader should honour robots.txt (Claude/Anthropic names) and not follow cross-host redirects; Sul Informação's case is with Dinis (dev.places@)",
     "S50": "medium (money, Dinis's): the £5 button on every page pays through newsroom.sgit.ai's Stripe link and the credit lands there, not here",
     "S51": "medium (money): the meter raises past charges to 1p and deducts from balances that can hold paid credit (conductor@, dev@; Dinis)",
-    "S54": "low: my ABP to name the other repositories and the sub-agents (abp@)",
+    "S54": "low, half done: sub-agents granted (v1.14.1); the other repositories still to be named in my grant (abp@)",
     "S55": "medium: a gate line refusing javascript:/data:/vbscript: hrefs in every repository (only Travel has it) (dev@ and the site leads)",
-    "S56": "low: Data's workflow installs sgit-ai unhashed beside two secrets (data.b@)"
+    "S56": "low: Data's workflow installs sgit-ai unhashed beside two secrets (data.b@)",
+    "S61": "low (legal): two Library items rest only on websummit.com (library.b@)"
   },
   "asks": [
     "Dinis: S41: content/articles/six-people-250-agents-promptugal-news.md says Angelo, Silvio and José live in Loulé and Quarteira, on your word; neither cited source says it. Have they each agreed? If not, place.loule@ takes the towns out. See reviews/2026-11-16-0205-wake.md",
@@ -70,7 +73,8 @@
     "Dinis: S50: the green 'Support us · £5' button now on every page takes real payments through newsroom.sgit.ai's Stripe link, and Stripe returns the reader to newsroom.sgit.ai, so the £5 credit never shows on promptugal.news. Give PrompTugal.news its own link (success page promptugal.news/account/topped-up.html, already built), or let the button say where the money goes. See reviews/2026-11-17-1605-wake.md",
     "Dinis: S45: what may an email to news outlets promise about money? Your answer goes on content/newsroom/decisions/the-values-page-wording.md (the editor-in-chief recommends B: 'not built yet', nothing promised). Until then nothing is sent and nothing is promised.",
     "Dinis: S48: in the outreach outbox, 'approved' is a field anyone with the vault key can set. Before the outside sends, please approve by signing with your person key (the sender page checks the signature), or keep pressing send yourself after reading each one. Also the opt-out line and lawful basis (O6). See reviews/2026-11-17-0005-prereview-outreach-outbox.md",
-    "conductor.b@ (not Dinis): re-issue my lane and inbox sealed to security-promptugal-2; add the pki-agent sha256 pin to every first prompt (S24)"
+    "conductor.b@ (not Dinis): re-issue my lane and inbox sealed to security-promptugal-2; add the pki-agent sha256 pin to every first prompt (S24)",
+    "Dinis: cyber sources: CNPD, Shadowserver, Cloudflare Radar and RIPEstat allow only non-commercial use; PrompTugal.news takes payments. May we use them at all? Until you say, they are not collected. See reviews/2026-11-18-1545-prereview-cyber-signals.md (addendum)"
   ],
   "wakes": [
     {

@@ -1,0 +1,50 @@
+{
+ "6c168f956a2e83d1": {
+  "t": "مركز الابتكار في Tavira ينطلق بـ23 شريكًا ومركز علاجات رقمية مخطط له",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Tavira's innovation hub launches with 23 partners and a digi",
+  "ok": false
+ },
+ "6c359279139d1103": {
+  "t": "ترجمة آلية ({culture}) بواسطة وكلاء الذكاء الاصطناعي في PrompTugal.news، من ذاكرة ترجمة مشتركة؛ وما لم يُترجم بعد يبقى بالإنجليزية. [الأصل الإنجليزي]({original}).",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Machine translation ({culture}) by PrompTugal.news's AI agen",
+  "ok": false
+ },
+ "6c8bf7c213d7f90e": {
+  "t": "مجلس Braga يخطط لـ1.5 مليون يورو لإدخال الذكاء الاصطناعي إلى إدارته اليومية",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Braga council plans 1.5 million euros to bring AI into its d",
+  "ok": false
+ },
+ "6caddd1e6a0570e5": {
+  "t": "تدرج بوابة خطة التعافي الوطنية مشروعًا في Viana do Castelo، يديره البوليتكنيك مع Data CoLAB، يستخدم الذكاء الاصطناعي ومعالجة اللغة الطبيعية والذكاء الاصطناعي التوليدي وعلم البيانات لبناء نظام رقمي تفاعلي. استمر من 1 May 2025 إلى 31 January 2026 بتمويل نحو 39,800 يورو.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The national recovery-plan portal lists a project in Viana d",
+  "ok": false
+ },
+ "6cc2bdab90a9cd8b": {
+  "t": "اجتمع مجلس الوزراء في Bragança في 9 September 2026 واتخذ الخطوة التالية نحو تحويل البوليتكنيك إلى جامعة. ووافق الاجتماع نفسه على إطار جديد لمنظومة العلوم والابتكار يسمّي الذكاء الاصطناعي أولوية استراتيجية. ولا تعطي الصفحة ميزانية للجامعة.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Council of Ministers met in Bragança on 9 September 2026",
+  "ok": false
+ },
+ "6cc66b24e4ff82d0": {
+  "t": "تستخدم الشركة الناشئة الذكاء الاصطناعي لمساعدة الشركات الصغيرة والمتوسطة في إيجاد التمويل العام وإعداد الطلبات وإدارة المشاريع. قادت الجولة 3XP Global بأموال من Banco Português de Fomento، ويخطط الفريق لأكثر من مضاعفة حجمه بنهاية العام ودخول إسبانيا وألمانيا وإيطاليا.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The startup uses AI to help small and medium firms find publ",
+  "ok": false
+ }
+}

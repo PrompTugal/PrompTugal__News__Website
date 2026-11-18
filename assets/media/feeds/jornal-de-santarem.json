@@ -1,0 +1,32 @@
+{
+ "id": "jornal-de-santarem",
+ "feed": "https://jornaldesantarem.sapo.pt/feed/",
+ "read_at": "2026-11-18T15:05Z",
+ "items": [
+  {
+   "title": "SN Sub-18 Masculina vence EUA no Campo Chã das Padeiras",
+   "link": "https://jornaldesantarem.sapo.pt/noticias/sn-sub-18-masculina-vence-eua-no-campo-cha-das-padeiras",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Autarquia inicia recolha seletiva de biorresíduos nas escolas do concelho",
+   "link": "https://jornaldesantarem.sapo.pt/noticias/autarquia-inicia-recolha-seletiva-de-biorresiduos-nas-escolas-do-concelho",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Iniciativa da valorização dos recursos naturais regressa ao Arneiro das Milhariças",
+   "link": "https://jornaldesantarem.sapo.pt/noticias/iniciativa-da-valorizacao-dos-recursos-naturais-regressa-ao-arneiro-das-milharicas",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "AF Santarém promove 2ª jornada da Taça Nacional de Walking Football",
+   "link": "https://jornaldesantarem.sapo.pt/noticias/af-santarem-promove-2-jornada-da-taca-nacional-de-walking-football",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Equipa do CA Ouriense ruma à 4ª eliminatória da Taça de Portugal Feminina",
+   "link": "https://jornaldesantarem.sapo.pt/noticias/equipa-do-ca-ouriense-ruma-a-4-eliminatoria-da-taca-de-portugal-feminina",
+   "date": "2026-11-16"
+  }
+ ]
+}
