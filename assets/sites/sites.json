@@ -1,98 +1,98 @@
 {
-  "about": "The registry of every *.promptugal.news site (Dinis, 18 November 2026, about 22:00 UTC: board/guidance/2026-11-18-the-sites-bar.md), published at promptugal.news/api/v1/sites.json and read by the sites bar on every site. Data, not code. Each site's version and last change are read from its own /version.json; its preview is its own /preview.svg. dev@PrompTugal.dinis keeps the list; a site lead asks to change its line or mark.",
+  "about": "The registry of every *.promptugal.news site (Dinis, 18 November 2026, about 22:00 UTC: board/guidance/2026-11-18-the-sites-bar.md), published at promptugal.news/api/v1/sites.json and read by the sites bar on every site. Data, not code. Each site's version and last change are read from its own /version.json; its preview is its own /preview.svg. dev@PrompTugal.dinis keeps the list; a site lead asks to change its line or mark. The one lines are designer@'s (design/sites-bar/sites-bar.html.txt).",
   "title": "Every PrompTugal site",
   "summary": "The PrompTugal.news family: one newsroom and the sites that hold its data, its places, its live feeds and its library. One bar on every site to move between them.",
   "sites": [
     {
       "id": "news",
-      "name": "PrompTugal.news",
+      "name": "News",
       "url": "https://promptugal.news/",
-      "line": "The newsroom: technology and AI in Portugal, every fact sourced.",
-      "mark": "#c8102e"
+      "line": "Portugal's news, town by town",
+      "accent": "#006600"
     },
     {
       "id": "data",
       "name": "Data",
       "url": "https://data.promptugal.news/",
-      "line": "The raw public data behind every site: collectors, cards and APIs.",
-      "mark": "#1f6feb"
+      "line": "the open data behind every site, with APIs",
+      "accent": "#1f6feb"
     },
     {
       "id": "weather",
       "name": "Weather",
       "url": "https://weather.promptugal.news/",
-      "line": "IPMA's weather, warnings, sea and fire risk, per place.",
-      "mark": "#0e8a9c"
+      "line": "warnings, fire risk, sea, place by place",
+      "accent": "#0e8a9c"
     },
     {
       "id": "civic",
       "name": "Civic",
       "url": "https://civic.promptugal.news/",
-      "line": "Councils, public contracts and what public bodies publish.",
-      "mark": "#6f42c1"
+      "line": "public money and public services, explained",
+      "accent": "#6f42c1"
     },
     {
       "id": "startups",
       "name": "Startups",
       "url": "https://startups.promptugal.news/",
-      "line": "Portugal's startups, investors and programmes, sourced.",
-      "mark": "#d4761a"
+      "line": "startups and their funding, by place",
+      "accent": "#d4761a"
     },
     {
       "id": "travel",
       "name": "Travel",
       "url": "https://travel.promptugal.news/",
-      "line": "Getting around: flights, roads and the places to see.",
-      "mark": "#2e8b57"
+      "line": "flights, transport, strikes, events",
+      "accent": "#2e8b57"
     },
     {
       "id": "events",
       "name": "Events",
       "url": "https://events.promptugal.news/",
-      "line": "What is on, per place, from official agendas and organisers.",
-      "mark": "#b5179e"
+      "line": "what is on, and where we found it",
+      "accent": "#b5179e"
     },
     {
       "id": "signals",
       "name": "Signals",
       "url": "https://signals.promptugal.news/",
-      "line": "Weak signals: organisations' public posts, blogs and feeds.",
-      "mark": "#8a6d00"
+      "line": "weak signals from public sources",
+      "accent": "#8a6d00"
     },
     {
       "id": "library",
       "name": "Library",
       "url": "https://library.promptugal.news/",
-      "line": "The catalogue of everything, the fact-checker and the requests channel.",
-      "mark": "#5a5a5a"
+      "line": "the catalogue at the heart of everything",
+      "accent": "#5a5a5a"
     },
     {
       "id": "videos",
       "name": "Videos",
       "url": "https://videos.promptugal.news/",
-      "line": "Talks and videos, by their official embeds and chapters.",
-      "mark": "#e5484d"
+      "line": "talks and replays, by link",
+      "accent": "#e5484d"
     },
     {
       "id": "live",
       "name": "Live",
       "url": "https://live.promptugal.news/",
-      "line": "Official live cameras, embedded from their operators.",
-      "mark": "#0a7d4f"
+      "line": "what is happening now",
+      "accent": "#0a7d4f"
     },
     {
       "id": "cyber",
       "name": "Cyber",
       "url": "https://cyber.promptugal.news/",
-      "line": "Cyber signals for Portugal: aggregates only, never a target list.",
-      "mark": "#3d3d9e"
+      "line": "security news and advisories",
+      "accent": "#3d3d9e"
     },
     {
       "id": "bulletins",
       "name": "Bulletins",
       "url": "https://bulletins.promptugal.news/",
-      "line": "Short bulletins of what changed, in text, audio and video.",
-      "mark": "#a0522d"
+      "line": "the daily bulletins",
+      "accent": "#a0522d"
     }
   ],
   "preview_spec": [
@@ -107,15 +107,16 @@
     "preview_heading": "Each site's preview",
     "table": "| Site | What it is |"
   },
-  "bar_install": "Copy both files into your site at the same version, check their sha256 against these, and load them on every page (a <link> and a <script defer>). Never load them from promptugal.news.",
+  "bar_install": "Copy the three files of this version into your site, check each sha256 against these, never load them from promptugal.news. At build: import render from sites-bar-render.mjs, render(the registry, { here: your hostname }) and put the HTML first in <body>, above your masthead; refuse to publish the bar if it returns ''. On every page: the CSS in <head> and sites-bar.js with defer. Serve your own /preview.svg (320 by 180, the template in design/sites-bar/preview-template.svg.txt) as image/svg+xml with nosniff, and /version.json.",
   "preview": {
-    "tagline": "Technology and AI in Portugal, every fact sourced",
+    "site": "PROMPTUGAL.NEWS",
+    "line": "Portugal's news, town by town",
     "labels": [
-      "articles, each sourced and signed",
-      "places, from the country to each town",
-      "outside sources behind the pages",
-      "pages, each with its markdown twin"
+      "articles, each signed",
+      "places with their own page",
+      "Algarve towns"
     ],
-    "desc": "Preview of promptugal.news, built {built} from the site's own build (articles: content/articles; places: data/by-place/places.json; sources: api/v1/payments/attribution.json; pages: the build). License CC BY 4.0, https://creativecommons.org/licenses/by/4.0/, PrompTugal.news."
+    "licence": "CC BY 4.0",
+    "desc": "From this site's build: articles (content/articles), places (data/by-place/places.json), Algarve towns (places whose parent is the Algarve). Licence CC BY 4.0, https://creativecommons.org/licenses/by/4.0/, PrompTugal.news."
   }
 }
