@@ -1,0 +1,18 @@
+{
+ "ddd9c693aaa1cc5e": {
+  "t": "Universidade de Évora का कहना है कि उसने पुर्तगाली भाषा के AI मॉडल बनाए हैं",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Universidade de Évora says it has built Portuguese-language ",
+  "ok": false
+ },
+ "dded4f00e6d60967": {
+  "t": "पहले राष्ट्रीय योजना, 400 मिलियन यूरो से अधिक जो ज्यादातर यूरोपीय पैसा है, फिर AMALIA, सुपरकंप्यूटर और स्टार्टअप परिदृश्य जो Porto और Lisbon में राउंड पर राउंड जुटाता रहता है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "First the national plan, over 400 million euros of mostly Eu",
+  "ok": false
+ }
+}

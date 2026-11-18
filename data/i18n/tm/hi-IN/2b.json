@@ -1,0 +1,42 @@
+{
+ "2b08c105c78338e0": {
+  "t": "Porto की AI गतिविधि UPTEC के आसपास जुटी है, जो University of Porto का विज्ञान पार्क है, जहाँ 2025 की एक रिपोर्ट में स्वास्थ्य, उद्योग और रेस्तराँ में कम से कम पाँच AI स्टार्टअप मिले, जहाँ एक पुर्तगाली-और-यूरोपीय सुपरकंप्यूटिंग कार्यक्रम (BSC AI Factory) ने October 2026 में AI इनक्यूबेशन का दौर शुरू किया, और जहाँ Granter ने November में 1.6 मिलियन यूरो जुटाए। इसके आसपास Porto का एक वेंचर फ़ंड (33N), एक बिज़नेस स्कूल (Porto Business School), एक मार्केटिंग AI समुदाय (AIhub) और शहर की डिजिटल संस्था Porto Digital हैं, जो ट्रैफ़िक और प्रवाह के अनुमान के लिए 'कोई ब्लैक बॉक्स नहीं' नियम के तहत AI का वर्णन करती है और November 2026 में Barcelona के Smart City Expo में दो AI वार्ताएँ ले गई। Global Startup Ecosystem Report 2026 AI को चार विकास कारकों में से एक बताती है। व्यापक विश्वविद्यालय और शोध आधार में FEUP की प्रयोगशाला LIACC, शोध संस्थान INESC TEC (जिसने October 2026 में Porto में AI, Data and Robotics Forum की मेज़बानी की) और Fraunhofer Portugal AICOS जुड़ते हैं।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Porto's AI activity clusters around UPTEC, the science park ",
+  "ok": false
+ },
+ "2b512e47e2ed717b": {
+  "t": "Coimbra स्मार्ट पर्यटन स्थलों के लिए AI पर अंतरराष्ट्रीय सत्र की मेज़बानी करता है",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Coimbra hosts an international session on AI for smart touri",
+  "ok": false
+ },
+ "2b7b9ad9a81e640c": {
+  "t": "Santarém की टेक्नोलॉजी कहानी कृषि-खाद्य की है। नगर परिषद और Universidade Politécnica de Santarém, ISLA Santarém, INIAV और CNEMA मेला मैदान के साथ, Campus Tejo बना रही हैं, जल, कृषि और जीवन विज्ञान पर एक विज्ञान और प्रौद्योगिकी पार्क, जिसे 12 November 2026 को Web Summit Lisbon में पेश किया गया। हमारे पढ़े पन्ने यह नहीं कहते कि Campus Tejo AI का उपयोग करता है, इसलिए उसका AI से रिश्ता सटीक खेती और डिजिटलीकरण के रास्ते से एक छोटा अनुमान है। सीधी AI गतिविधि छोटी और बिखरी है: ISLA Santarém में PRR-वित्त-पोषित 100,000 यूरो की AI परियोजना, CNEMA में व्यापार और स्वास्थ्य सत्र, और ब्लूबेरी उत्पादकों की बैठक में खेती में AI का कार्यक्रम।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Santarém's technology story is agri-food. The council and th",
+  "ok": false
+ },
+ "2b849e5e92cfc33b": {
+  "t": "Guarda, ó pá: इतना ठंडा कि सर्वर जम जाए, ग्रेनाइट जितना ज़िद्दी, और एक पॉलिटेक्निक का घर जो चुपचाप मशीनों को पढ़ाता है और जिसने कुछ छात्रों को वास्तुकारों से पहले PDM पढ़ना सिखा दिया।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Guarda, ó pá: cold enough to freeze a server, stubborn as gr",
+  "ok": false
+ },
+ "2bfcc1a9bf2f5a48": {
+  "t": "इसके छात्रों और कर्मचारियों को FCT की IAedu सेवा के ज़रिए तीन बड़े भाषा मॉडलों के प्रो संस्करणों तक निःशुल्क पहुँच मिलती है, जिसे संस्था ज़िम्मेदार और सहयोगी AI उपयोग की ओर एक क़दम कहती है।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Its students and staff get free access to the pro versions o",
+  "ok": false
+ }
+}

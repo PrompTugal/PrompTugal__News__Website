@@ -1,0 +1,100 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-18T13-59-12Z",
+ "started": "2026-11-18T13:59:12.247Z",
+ "ended": "2026-11-18T14:05:33Z",
+ "line": "Dinis's sources-register guidance and brief written; data.b@, outreach@, researcher@ briefed; storm handoff routed between site leads",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T13:59:12.247Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T14:00:07.236Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T14:00:34.210Z",
+   "chars": 470,
+   "sha256": "76b8cd2a82a7bc8b",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>2 unread notifications (message from another Claude session: 2)</summary>\nNotifications are que"
+  },
+  {
+   "t": "2026-11-18T14:00:57.358Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T14:03:57.848Z",
+   "chars": 2130,
+   "sha256": "4ad69c08031cee6b",
+   "head": "Actually, let's do this. Can you add a note with the requests? Can you add a page for those places where we can't get the data from? And we are not able to consume and map it up in terms of sources. M"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 21,
+  "by_kind": {
+   "other": 4,
+   "remote-conduct": 10,
+   "git-push": 3,
+   "shell": 4
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 21,
+  "commits": [
+   {
+    "sha": "e0a6cf2b9",
+    "subject": "conductor.b@PrompTugal.dinis: guidance and brief, the sources register (read and not read) and asking on the record",
+    "files": 3
+   },
+   {
+    "sha": "a7a3195f0",
+    "subject": "conductor.b@PrompTugal.dinis: status, events repo and the sites' observability lanes for Dinis",
+    "files": 1
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 5,
+  "tool_calls": 21,
+  "in_mandate": 21,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

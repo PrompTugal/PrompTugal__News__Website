@@ -1,0 +1,10 @@
+{
+ "375953d9a9efce76": {
+  "t": "PrompTugal.news {name}: इस जगह का शोध जैसा उसके पन्ने पर परोसा गया है, उसकी सूचियाँ बिल्ड के समय जाँची गईं (केवल http(s) लिंक, कहानियाँ नवीनतम पहले), और उसकी साइट पहचान सत्यापित के रूप में",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news {name}: the place's research as served on it",
+  "ok": false
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "ed323ee2e8192c66": {
+  "t": "Algarve और उसके 17 स्थान",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Algarve and its 17 places",
+  "ok": false
+ },
+ "ed6a0a9ed23a077b": {
+  "t": "Gota Click2Care: Aljezur के बुजुर्ग निवासियों के लिए freguesia टेलीअसिस्टेंस पायलट",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Gota Click2Care: a parish teleassistance pilot for Aljezur's",
+  "ok": false
+ },
+ "ed99e8c975b51dc9": {
+  "t": "Tavira, ó pá, जहां नदी किसी भी सर्वर रूम से ज्यादा शांत है और सात मेहराबों ने आपके क्लाउड प्रदाता से ज्यादा प्रवास देखे हैं।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Tavira, ó pá, where the river is calmer than any server room",
+  "ok": false
+ },
+ "eddff8f8e446bd17": {
+  "t": "मार्च 2024 के एक साक्षात्कार में Ayamonte की नगर परिषद के IT प्रबंधक ने कहा कि नगर परिषद नागरिकों और कंपनियों के लिए AI वर्चुअल सहायक तैयार कर रही थी और पर्यटन तथा छोटी कंपनियों के लिए डिजिटल सहायता पर 2 से 3 मिलियन यूरो के नवाचार केंद्र की योजना बना रही थी। उन्होंने उस केंद्र को Eurocidade को शामिल करने वाला पहला बताया, जो पुर्तगाली Algarve के कुछ हिस्से कवर करता है। यह नगर परिषद का अपना बयान है, बिना लॉन्च तारीखों के, और हमने पुष्टि नहीं की कि केंद्र आगे बढ़ा।",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "In a March 2024 interview, the IT manager of Ayamonte's coun",
+  "ok": false
+ }
+}
