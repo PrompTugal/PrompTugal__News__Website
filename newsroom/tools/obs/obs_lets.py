@@ -34,6 +34,12 @@ SITE = 'promptugal.news'
 CITY_MIN = 5
 GROUPS = ['readers', 'team', 'synthetic', 'crawlers']
 CRAWLERS = {'googlebot', 'bingbot', 'bot'}
+# Cloud and data-centre towns (Dinis, 18 November 2026: "cloud data center towns as synthetic, especially if you can correlate
+# them"): a tab whose own place lookup says one of these is automation, not a reader. The correlation is published in
+# latest/datacentre.json, per town: how many of its tabs share one browser fingerprint (the Pacific time zone, en-US, a
+# desktop screen, no referrer, one page, a few seconds), which no real reader group does.
+DC_TOWNS = {'Boydton', 'Des Moines', 'Oak Hill', 'Cupertino', 'Ashburn', 'Council Bluffs', 'The Dalles', 'Quincy', 'Manassas',
+            'Chase City', 'Reston', 'Prineville', 'Boardman', 'Moncks Corner', 'Lenoir', 'Santa Clara'}
 
 def norm(path):
     """/x/index.html and /x/ are one page."""
@@ -145,18 +151,24 @@ def all_hours(vault):
 
 # ---------------------------------------------------------------- the groups (a tab's group, kept across hours)
 def update_sessions(vault, rows):
-    st = jload(os.path.join(vault, 'state', 'sessions.json'), {})
+    # Rebuilt from the rows each time (18 November 2026, observability@PrompTugal.dinis): transform() passes ALL rows on every
+    # drain, and this used to add to the saved counts, so each tab's views grew by its true views at every drain; after about
+    # 40 drains every old tab passed the "more than 40 views" line and a recount classed it a crawler (stored views were 10 to
+    # 100 times the real ones). The raw records were never touched.
+    st = {}
     for r in rows:
         if r.get('type') not in ('view', 'read') or not r.get('sid'): continue
         s = st.setdefault(r['sid'], {'first': r.get('ts', ''), 'tz': r.get('tz', ''), 'lang': r.get('lang', ''), 'agents': [], 'verified': False, 'views': 0})
         if str(r.get('ts', '')) < s['first']: s.update(first=r.get('ts', ''), tz=r.get('tz', ''), lang=r.get('lang', ''))
         if r.get('agent') and r['agent'] not in s['agents']: s['agents'].append(r['agent'])
+        if r.get('city') and not s.get('city'): s['city'] = r['city']         # the tab's own place lookup, kept to class data-centre towns
         if r.get('verified'): s['verified'] = True
         if r.get('type') == 'view': s['views'] += 1
     for s in st.values():
         a = set(s['agents'])
         s['group'] = ('crawlers' if a & CRAWLERS else 'synthetic' if a & {'webdriver', 'headless'} else 'team' if s['verified']
-                      else 'crawlers' if s['views'] > 40 else 'synthetic' if s['tz'] in ('UTC', 'Etc/UTC', '') or str(s['lang']).endswith('@posix') else 'readers')
+                      else 'crawlers' if s['views'] > 40 else 'synthetic' if s['tz'] in ('UTC', 'Etc/UTC', '') or str(s['lang']).endswith('@posix')
+                      or s.get('city') in DC_TOWNS else 'readers')
     jsave(os.path.join(vault, 'state', 'sessions.json'), st)
     return {k: v['group'] for k, v in st.items()}
 
@@ -261,6 +273,107 @@ def save_drains(data_vault, pub_vault, entry):
     dl = jload(os.path.join(data_vault, 'state', 'drains.json'), []) + [entry]
     jsave(os.path.join(data_vault, 'state', 'drains.json'), dl[-1000:])
     jsave(os.path.join(pub_vault, 'latest', 'drains.json'), {'v': 1, 'generated': entry['at'], 'drains': dl[-200:][::-1]})
+
+# ---------------------------------------------------------------- sites, votes, places, data-centre towns (counts only)
+def site_class(site):
+    """web: this site; ios: the iPhone app (its site field starts ios.app.); test: anything else (a local build or a preview)."""
+    s = str(site or '')
+    return 'web' if s == SITE else 'ios' if s.startswith('ios.app.') else 'test'
+
+def place_of(path):
+    """/algarve/ and its own pages (costs, api, newsroom) are 'algarve'; /algarve/<town>/... is that town; /portugal/... is 'portugal'."""
+    parts = [x for x in norm(str(path).split('#')[0].split('?')[0]).split('/') if x]
+    if not parts: return None
+    if parts[0] == 'algarve': return parts[1] if len(parts) > 1 and parts[1] not in ('api', 'costs', 'newsroom') else 'algarve'
+    return 'portugal' if parts[0] == 'portugal' else None
+
+def place_path(pid): return '/algarve/' if pid == 'algarve' else '/portugal/' if pid == 'portugal' else f'/algarve/{pid}/'
+
+def vote_of(r):
+    v = r.get('vote')
+    return 1 if v in (1, '1', '+1', 'up') else -1 if v in (-1, '-1', 'down') else 0
+
+def extras(data_vault, pub_vault, hours, groups, gen):
+    """The counts Dinis asked for on 18 November 2026: every site that sends (his local test builds stay visible), anonymous thumbs
+    (type 'vote', +1 or -1, per page and place, web and iOS app apart), per-place stats (readers on this site only) and the evidence
+    for classing data-centre towns as synthetic. Counts only: no tab id, no time finer than the day, nothing that names a reader."""
+    import statistics
+    L = os.path.join(pub_vault, 'latest')
+    sites = collections.defaultdict(lambda: {'tabs': set(), 'views': zero(), 'reads': 0, 'first': '', 'last': ''})
+    V = {'by_class': collections.defaultdict(lambda: {'up': 0, 'down': 0}), 'pages': collections.defaultdict(lambda: collections.defaultdict(lambda: {'up': 0, 'down': 0})),
+         'stories': collections.defaultdict(lambda: {'up': 0, 'down': 0}), 'days': collections.defaultdict(lambda: collections.defaultdict(lambda: {'up': 0, 'down': 0}))}
+    seen_v, seen_r = set(), set()
+    seqs = collections.defaultdict(list)                                    # production readers: tab -> [(ts, path)]
+    PV = collections.defaultdict(lambda: {'views': 0, 'reads': 0, 'visible_s': 0, 'tabs': set(), 'pages': collections.Counter(), 'flows': collections.Counter(),
+                                          'votes': collections.defaultdict(lambda: {'up': 0, 'down': 0}), 'vote_pages': collections.Counter()})
+    tabs = {}
+    for day, hh in hours:
+        for r in hour_rows(data_vault, day, hh):
+            t = r.get('type'); sid = r.get('sid'); ts = str(r.get('ts', ''))
+            if t == 'vote':
+                v = vote_of(r); on = str(r.get('voted_on') or '')
+                if not v or not on: continue
+                k = (ts, on, v, r.get('site'), sid)
+                if k in seen_v: continue
+                seen_v.add(k)
+                page, _, story = on.partition('#'); cls = site_class(r.get('site')); d = 'up' if v > 0 else 'down'
+                V['by_class'][cls][d] += 1; V['pages'][norm(page)][cls][d] += 1; V['days'][ts[:10]][cls][d] += 1
+                if story: V['stories'][story[:300]][d] += 1
+                pl = place_of(page)
+                if pl: PV[pl]['votes'][cls][d] += 1; PV[pl]['vote_pages'][norm(page)] += 1
+                continue
+            if t not in ('view', 'read') or not r.get('path') or not sid: continue
+            if t == 'read':
+                k = (sid, t, r.get('path'), ts, r.get('visible_s'), r.get('scroll'), r.get('src'))
+                if k in seen_r: continue
+                seen_r.add(k)
+            g = groups.get(sid, 'readers'); cls = site_class(r.get('site')); path = norm(r['path'])
+            S = sites[str(r.get('site') or '(none)')]; S['tabs'].add(sid); S['first'] = min([x for x in (S['first'], ts) if x] or ['']); S['last'] = max(S['last'], ts)
+            if t == 'view': S['views'][g] += 1
+            else: S['reads'] += 1
+            tb = tabs.setdefault(sid, {'city': r.get('city', ''), 'tz': r.get('tz', ''), 'lang': r.get('lang', ''), 'screen': r.get('screen', ''), 'ref': False, 'views': 0, 'vis': []})
+            if t == 'view':
+                tb['views'] += 1; tb['ref'] = tb['ref'] or bool(r.get('ref') and r['ref'] != SITE)
+            else: tb['vis'].append(r.get('visible_s', 0))
+            if cls == 'web' and g == 'readers':
+                pl = place_of(path)
+                if t == 'view':
+                    seqs[sid].append((ts, path))
+                    if pl: PV[pl]['views'] += 1; PV[pl]['tabs'].add(sid); PV[pl]['pages'][path] += 1
+                elif pl: PV[pl]['reads'] += 1; PV[pl]['visible_s'] += r.get('visible_s', 0)
+    for sid, seq in seqs.items():                                           # the flow between pages, from one tab's consecutive views
+        seq.sort(key=lambda x: x[0])
+        for (_, a), (_, b) in zip(seq, seq[1:]):
+            if a == b: continue
+            for pl in {place_of(a), place_of(b)} - {None}: PV[pl]['flows'][(a, b)] += 1
+    jsave(os.path.join(L, 'sites.json'), {'v': 1, 'generated': gen,
+        'about': 'Every site that sends to this lane, by the host its browser reports. promptugal.news is the site; ios.app.* is the iPhone app; anything else (localhost:..., a preview) is a test build, kept visible on purpose (Dinis, 18 November 2026). Counts only.',
+        'sites': sorted([{'site': k, 'class': site_class(k), 'tabs': len(v['tabs']), 'views': v['views'], 'reads': v['reads'], 'first': v['first'], 'last': v['last']} for k, v in sites.items()],
+                        key=lambda s: -sum(s['views'].values()))})
+    jsave(os.path.join(L, 'votes.json'), {'v': 1, 'generated': gen,
+        'about': 'Anonymous thumbs (type vote, +1 or -1): no person, no key, no tab id. web is promptugal.news, ios the iPhone app (site ios.app.*), test any other host. A story vote carries its source URL after #.',
+        'totals': V['by_class'], 'days': V['days'], 'pages': [{'page': p, **c} for p, c in sorted(V['pages'].items(), key=lambda x: -sum(sum(y.values()) for y in x[1].values()))[:100]],
+        'stories': [{'story': s, **c} for s, c in sorted(V['stories'].items(), key=lambda x: -(x[1]['up'] + x[1]['down']))[:100]]})
+    places = {}
+    for pid, p in PV.items():
+        places[pid] = {'id': pid, 'path': place_path(pid), 'generated': gen, 'scope': 'readers on promptugal.news only; votes by class (web, ios, test)',
+                       'tabs': len(p['tabs']), 'views': p['views'], 'reads': p['reads'], 'read_s_avg': round(p['visible_s'] / p['reads']) if p['reads'] else 0,
+                       'pages': [[a, n] for a, n in p['pages'].most_common(20)], 'flows': [[a, b, n] for (a, b), n in p['flows'].most_common(20)],
+                       'votes': {c: dict(v) for c, v in p['votes'].items()}, 'vote_pages': [[a, n] for a, n in p['vote_pages'].most_common(20)]}
+        jsave(os.path.join(L, 'places', pid + '.json'), places[pid])
+    jsave(os.path.join(L, 'places-stats.json'), {'v': 1, 'generated': gen, 'about': 'Per place (/portugal/, /algarve/ and each /algarve/<town>/): readers, reads, the pages opened, the flow between pages, and anonymous thumbs. Counts only.',
+                                                  'places': places})
+    dc = collections.defaultdict(lambda: {'tabs': 0, 'tz_la': 0, 'en_us': 0, 'desktop': 0, 'no_referrer': 0, 'one_page': 0, 'vis': [], 'groups': collections.Counter()})
+    for sid, tb in tabs.items():
+        if tb['city'] not in DC_TOWNS: continue
+        c = dc[tb['city']]; c['tabs'] += 1; c['groups'][groups.get(sid, 'readers')] += 1
+        c['tz_la'] += tb['tz'] == 'America/Los_Angeles'; c['en_us'] += tb['lang'] == 'en-US'; c['desktop'] += tb['screen'] == 'desktop'
+        c['no_referrer'] += not tb['ref']; c['one_page'] += tb['views'] <= 1; c['vis'] += tb['vis']
+    jsave(os.path.join(L, 'datacentre.json'), {'v': 1, 'generated': gen,
+        'rule': 'A tab whose own place lookup names one of these cloud and data-centre towns is classed synthetic. The correlation below: the share of each town\'s tabs with the same fingerprint (Pacific time zone, en-US, desktop screen, no referrer, one page), which the real reader groups do not show.',
+        'towns_listed': sorted(DC_TOWNS),
+        'towns': [{'town': k, 'tabs': c['tabs'], 'groups': dict(c['groups']), 'same_fingerprint': {'tz_los_angeles': c['tz_la'], 'en_us': c['en_us'], 'desktop': c['desktop'], 'no_referrer': c['no_referrer'], 'one_page': c['one_page']},
+                   'median_visible_s': statistics.median(c['vis']) if c['vis'] else None} for k, c in sorted(dc.items(), key=lambda x: -x[1]['tabs'])]})
 
 def transform(data_vault, pub_vault, dirty, now_hour, roster=()):
     """Recompute the dirty hours (and the current hour), their days, and latest/. Returns what was computed."""
@@ -489,6 +602,7 @@ def transform(data_vault, pub_vault, dirty, now_hour, roster=()):
     dl += DRAINS; DRAINS.clear()
     jsave(os.path.join(data_vault, 'state', 'drains.json'), dl[-1000:])
     jsave(os.path.join(L, 'drains.json'), {'v': 1, 'generated': gen, 'drains': dl[-200:][::-1]})
+    extras(data_vault, pub_vault, hours, groups, gen)
     idx.update(v=1, generated=gen, days=days)
     jsave(os.path.join(L, 'index.json'), idx)
     return {'hours': len(todo), 'days': len(dirty_days), 'agents': len(agents), 'pages': len(pages)}

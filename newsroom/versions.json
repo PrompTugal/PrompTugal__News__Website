@@ -1,5 +1,47 @@
 [
   {
+    "version": "v0.1.1769",
+    "date": "2026-11-18",
+    "what": "journalist@PrompTugal.dinis: 02:40 wake: districts' quiet wake brought onto dev; run report",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "0f20c4b90"
+  },
+  {
+    "version": "v0.1.1768",
+    "date": "2026-11-18",
+    "what": "conductor@PrompTugal.dinis: hand-over: observability stays on account A and covers the sub-sites (Dinis)",
+    "by": "conductor@PrompTugal.dinis",
+    "from": "4c379f2a9"
+  },
+  {
+    "version": "v0.1.1767",
+    "date": "2026-11-18",
+    "what": "observability@PrompTugal.dinis: fix the tab counting bug; data-centre towns synthetic; votes, per-place stats, sites view",
+    "by": "observability@PrompTugal.dinis",
+    "from": "c8b95313a"
+  },
+  {
+    "version": "v0.1.1766",
+    "date": "2026-11-18",
+    "what": "journalist@PrompTugal.dinis: 01:40 wake: nothing new from any desk; run report only",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "585b8fdb0"
+  },
+  {
+    "version": "v0.1.1765",
+    "date": "2026-11-18",
+    "what": "dev@PrompTugal.dinis: 01:08 wake: ro-RO and three debriefs brought; my 18 Nov hand-over debrief; status, run report",
+    "by": "dev@PrompTugal.dinis",
+    "from": "dc6b87406"
+  },
+  {
+    "version": "v0.1.1764",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 00:48 wake: ledger 0051Z; S51 carried",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "458ff3dcc"
+  },
+  {
     "version": "v0.1.1763",
     "date": "2026-11-18",
     "what": "outreach@PrompTugal.dinis: the daily hand-over debrief (92 drafts, nothing new to draft)",

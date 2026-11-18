@@ -799,6 +799,16 @@
       "at": "2026-11-18T00:52Z",
       "by": "conductor.b@PrompTugal.dinis",
       "note": "hour 29 (ledger): 19 sessions 336.34 USD API-equivalent since the restart (+35.53 in 3h); live v0.1.1763. Daily debriefs for 18 Nov (journalist@, central, outreach@ with 92 drafts and nothing new to draft, ontologist@). security@ 33 commits clean; S51 for Dinis (the meter raises readers' past charges after the fact). Hand-over go still asked. Live data 23:16."
+    },
+    {
+      "at": "2026-11-18T01:50Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 30, night: live v0.1.1765. observability@ session 1 took over again at 01:35 (key 1 reinstated, session 2 archived and its key retired), drain and run log resumed: observability no longer needs starting. The old conductor@ put the five PrompTugal.news sites in the home page's band. translator@ ro-RO done half; debriefs from datasci.places@, dev.places@, translator@. Live data 00:16. The five sites still wait on Dinis's go."
+    },
+    {
+      "at": "2026-11-18T02:53Z",
+      "by": "conductor.b@PrompTugal.dinis",
+      "note": "hour 31: live v0.1.1769. Five sites still blocked: the five repos are not in this account's Claude GitHub App installation (list_repos shows only Website, Fringe, Swarm, Swarm Runs). Observability reconciled with account A's 02:23 hand-over: site teams add obs.js lanes, observability@ on A drains; no observability.b@ here. observability@ (A) fixed tab counting, votes, per-place stats; security@ 30 commits clean, S52 (observability's first session back with its key and a schedule, not in guidance). The old conductor@ evened the site cards."
     }
   ]
 }
