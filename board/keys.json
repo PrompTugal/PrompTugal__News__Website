@@ -4118,6 +4118,23 @@
         "fingerprint": "sha256:53e470b8da5c6fa9",
         "signing_fingerprint": "sha256:f7d418b96ae5985b"
       }
+    },
+    {
+      "id": "civic.b-promptugal",
+      "agent": "civic.b@PrompTugal.dinis",
+      "added": "2026-11-18",
+      "fingerprint": "sha256:9d9c860d01c845f3",
+      "signing_fingerprint": "sha256:a278211c320c733f",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA7xtcSU3bVR0QRC6gYjpw\nVmW8n6m9TCSOoXXsn0B3B5J7JhTXpxZpKRRx0cYaaffeT+YO6LXT5ky0IXOJW8y4\ntYMKimTbus6hSwlMrIjgIx6c0ynFzMXCY5lAB14nwAvliAOhm4tzR4ffDx4NXfBQ\nAKGaUqbXROP7uRKeqwJKjxpAcblDw39Ozqdmb32Pc7I0qXIzRfjgnozz+wIG0E7r\nxRNS8mJW1+HeMwiDsKo1vass1NqI7Ws0GQDnbWPZYaH4G30oYQERn+O6soagVcwT\n1GHODZc8JSC78EJX7siPh9SItK4R9j5JZC9a9d7LGQMXLzj7GpnT8WqMSCadRARe\nxsRItCEbjCo1UM6jdvlXlHAITuyKWnOn78osh8qSW3K8po4ZF1qxduX0MnPlUl7K\nonsBU2NKRUTmAuSUI7uYoAaZOUjRYURy96M/FIJ+FqvH3jbImGg97lSzNDkychwU\n8fLX3jY8pS61jv/fkBckrCIOG3qpPgkqemfvE98IZhbI/ffiYix5fFyw6Cl4k6o1\n/veavirWbQ+lFBG2N/P5t8LFSWGkW+oqQSxjLEvsAbgvhAxoDDGqGtoG85mER6/U\n46Bf43bMSXDZgT+29zuwB5gu0wjr74tznGV4655KVVdnWtUnAqAin4bXNCgwkpav\nfHB7Ess7l/G1Vy6folpQsD8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEDxCFtd12lk710VKKLJI/2lrxh4Nu\nJKARoQ2jv7tGJOmN1DnusbL6O1HJT5GUlRwHWZS4oZIcBCURhFFoQSg/ZA==\n-----END PUBLIC KEY-----\n",
+        "label": "civic.b@PrompTugal.dinis",
+        "fingerprint": "sha256:9d9c860d01c845f3",
+        "signing_fingerprint": "sha256:a278211c320c733f"
+      },
+      "status": "active",
+      "source": "https://github.com/PrompTugal/PrompTugal__News__Civic/blob/dev/team/keys.json (made with sgit pki at Dinis's word in civic.b@'s session, 18 Nov 2026)"
     }
   ]
 }
