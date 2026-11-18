@@ -24,11 +24,12 @@
   "ok": false
  },
  "deeaee853be58992": {
-  "t": "Olhãoの拠点は2021年5月に開設され、University of Algarveとともに進行中のプロジェクトがあり、その中には網膜研究のためのAIアルゴリズムがある。",
+  "t": "Olhãoの拠点は2021年5月に開設され、Universidade do Algarveとともに進行中のプロジェクトがあり、その中には網膜研究のためのAIアルゴリズムがある。",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "The Olhão hub opened in May 2021 with projects under way alo",
-  "ok": false
+  "ok": false,
+  "rev": "glossary name restored by rule"
  }
 }

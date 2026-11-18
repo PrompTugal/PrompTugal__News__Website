@@ -8,12 +8,13 @@
   "ok": false
  },
  "8f429062903b2dfa": {
-  "t": "市、University of AlgarveのAIワークショップを支援",
+  "t": "市、Universidade do AlgarveのAIワークショップを支援",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "Council backs an AI workshop at the University of Algarve",
-  "ok": false
+  "ok": false,
+  "rev": "glossary name restored by rule"
  },
  "8f6bfc3f243d5363": {
   "t": "Postalは、Olhãoに拠点を置くSparosを紹介している。同社のDigital Nutrition部門はデータを収集・分析して給餌計画を提案し、HatchTools(孵化場向けのウェブアプリ)とOptiFeeSH(ギリシャ企業I2Sと開発した、AquaManagerソフトウェア向けの給餌計画モジュール)がある。アルゴリズムで成長段階ごとの飼料の必要量を予測する。",

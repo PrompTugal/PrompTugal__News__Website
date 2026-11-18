@@ -8,12 +8,13 @@
   "ok": false
  },
  "c92d4e3132ecb884": {
-  "t": "AlgarveのAI活動は、University of AlgarveとAlgarve Evolutionを軸にFaroに集中し、主に地域の二大産業である観光と保健に向けられ、大学は遺産、食、海洋研究を加えている。CCDR Algarve、NERA、Turismo do AlgarveといったAlgarveの機関がAIの導入に資金を出し教えており、2026年に大学はAIを第一とする遺産センターのために3150万ユーロを獲得した。",
+  "t": "AlgarveのAI活動は、Universidade do AlgarveとAlgarve Evolutionを軸にFaroに集中し、主に地域の二大産業である観光と保健に向けられ、大学は遺産、食、海洋研究を加えている。CCDR Algarve、NERA、Turismo do AlgarveといったAlgarveの機関がAIの導入に資金を出し教えており、2026年に大学はAIを第一とする遺産センターのために3150万ユーロを獲得した。",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "The Algarve's AI activity is concentrated in Faro around the",
-  "ok": false
+  "ok": false,
+  "rev": "glossary name restored by rule"
  },
  "c94b9bc9bbb87fa9": {
   "t": "SetúbalのAI活動は、港とポリテクニックにある。SetúbalとLisboaの港湾当局は、職員に生成AIアシスタントを教えるAIプロジェクトを始め、社内手続きの自動化を計画している。Politécnico de Setúbalは、コンピュータビジョン、AI、医用画像を重点分野とする技術研究所CCG/ZGDVの国内初の拠点を擁し、高等教育におけるAIの国内ネットワークにも加わった。産業面では、Mitrenaのパルプ・製紙コンプレックスを持つNavigator Companyが、そこで機械学習プロジェクトを運用していると述べている。市はAIを議論の題材(2026年11月の図書館会議)として示しているが、自身のサービスにおけるAIの利用は見つからなかった。",

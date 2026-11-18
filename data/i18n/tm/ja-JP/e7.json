@@ -32,11 +32,12 @@
   "ok": false
  },
  "e7f72e1b48d63a7d": {
-  "t": "Faroの企業Visualformaは、ItelmatisおよびUniversity of Algarveと開発し、Louléで試験した緑地の灌漑制御システムについて説明した。現場データを使って散水を最適化し、AIと機械学習のモジュールを計画している。2023年4月の古いニュースである。",
+  "t": "Faroの企業Visualformaは、ItelmatisおよびUniversidade do Algarveと開発し、Louléで試験した緑地の灌漑制御システムについて説明した。現場データを使って散水を最適化し、AIと機械学習のモジュールを計画している。2023年4月の古いニュースである。",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "Visualforma, a Faro company, described a green-spaces irriga",
-  "ok": false
+  "ok": false,
+  "rev": "glossary name restored by rule"
  }
 }

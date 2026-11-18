@@ -8,12 +8,13 @@
   "ok": false
  },
  "db9bbf298f87a42a": {
-  "t": "University of Algarveの2026/2027年度の学校向けアウトリーチ・カタログは、保健、教育、数学に応用するAIやサイバーセキュリティを含む16分野で、無料の講演と活動を81件掲載しており、UAlgの教員と研究者が学校、キャンパス、オンラインで提供する。",
+  "t": "Universidade do Algarveの2026/2027年度の学校向けアウトリーチ・カタログは、保健、教育、数学に応用するAIやサイバーセキュリティを含む16分野で、無料の講演と活動を81件掲載しており、UAlgの教員と研究者が学校、キャンパス、オンラインで提供する。",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "The University of Algarve's 2026/2027 school outreach catalo",
-  "ok": false
+  "ok": false,
+  "rev": "glossary name restored by rule"
  },
  "dbdb6f4a004a9647": {
   "t": "Coimbra、ó pá:マントがはためき、Mondegoがのんびり流れ、教授だらけの丘が機械にfaculdade式で読むことを教え続け、その傍らで一頭のユニコーンが丘の下でひっそりと家賃を払っている。",

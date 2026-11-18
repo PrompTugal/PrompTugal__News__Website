@@ -32,12 +32,13 @@
   "ok": false
  },
  "a0b7f4ddc8d2385c": {
-  "t": "市役所とUniversity of Algarve、知識とイノベーションの協定を準備",
+  "t": "市役所とUniversidade do Algarve、知識とイノベーションの協定を準備",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "Town hall and University of Algarve prepare a knowledge and ",
-  "ok": false
+  "ok": false,
+  "rev": "glossary name restored by rule"
  },
  "a0d37ad2b10c1b7a": {
   "t": "Setúbalのポリテクニック、CCG/ZGDV研究所の国内初の拠点を開設",

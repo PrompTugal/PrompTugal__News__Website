@@ -24,12 +24,13 @@
   "ok": false
  },
  "d98cdb0f3f825638": {
-  "t": "国境を越えるInterregプロジェクトATTENTIAは、アンダルシアとAlgarve-Alentejo地域の柑橘栽培管理にAIとロボティクスを応用する。Huelva大学が主導し、University of Algarveとセビリア大学が参加、2023年9月1日から2026年12月31日まで実施される。プロジェクトの資料にSilvesの名はない。",
+  "t": "国境を越えるInterregプロジェクトATTENTIAは、アンダルシアとAlgarve-Alentejo地域の柑橘栽培管理にAIとロボティクスを応用する。Huelva大学が主導し、Universidade do Algarveとセビリア大学が参加、2023年9月1日から2026年12月31日まで実施される。プロジェクトの資料にSilvesの名はない。",
   "by": "translator@PrompTugal.dinis",
   "model": "claude-sonnet-5-5",
   "at": "2026-11-18",
   "src": "ATTENTIA, a cross-border Interreg project, applies AI and ro",
-  "ok": false
+  "ok": false,
+  "rev": "glossary name restored by rule"
  },
  "d9a432cdf6dc6af8": {
   "t": "広域ニュース:Floresta Limpa、衛星データと機械学習で燃料管理帯を監視(Monchiqueではまだ)",
