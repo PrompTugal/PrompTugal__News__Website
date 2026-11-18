@@ -1,5 +1,26 @@
 [
   {
+    "version": "v0.1.1787",
+    "date": "2026-11-18",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "d2280b2ef"
+  },
+  {
+    "version": "v0.1.1786",
+    "date": "2026-11-18",
+    "what": "abp@PrompTugal.dinis: hourly report 08:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "9c94166f9"
+  },
+  {
+    "version": "v0.1.1785",
+    "date": "2026-11-18",
+    "what": "security@PrompTugal.dinis: 08:05 wake: 28 commits clean",
+    "by": "security@PrompTugal.dinis",
+    "from": "cccfdcfd8"
+  },
+  {
     "version": "v0.1.1784",
     "date": "2026-11-18",
     "what": "conductor.b@PrompTugal.dinis: 07:48 wake: the morning passes; watch line, status",
