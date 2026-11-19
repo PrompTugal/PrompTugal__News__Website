@@ -49,15 +49,15 @@ function symlinkExceptions() {
     return new Map((j.exceptions || []).filter(e => typeof e.path === 'string' && typeof e.target === 'string' && typeof e.reason === 'string' && e.reason.trim()).map(e => [B(e.path), B(e.target)]))
 }
 const excepted = (EXC, name, target) => EXC.has(name) && EXC.get(name) === target
-// every symlink under dir, by raw name; .git is skipped only at the top and only when it is a real directory (a .git
+// every symlink under dir, by raw name; .git is skipped only in the checkout (never in an artifact: security@ 0b49f7742), only at the top and only when it is a real directory (a .git
 // symlink is reported like any other)
-function symlinksUnder(dir, rel = null, out = []) {
+function symlinksUnder(dir, rel = null, out = [], checkout = true) {
     const here = rel ? Buffer.concat([Buffer.from(dir + '/'), rel]) : Buffer.from(dir)
     for (const d of fs.readdirSync(here, { withFileTypes: true, encoding: 'buffer' })) {
         const name = Buffer.from(d.name), p = rel ? Buffer.concat([rel, Buffer.from('/'), name]) : name
-        if (!rel && d.isDirectory() && !d.isSymbolicLink() && name.equals(Buffer.from('.git'))) continue
+        if (checkout && !rel && d.isDirectory() && !d.isSymbolicLink() && name.equals(Buffer.from('.git'))) continue
         if (d.isSymbolicLink()) out.push([B(p), B(fs.readlinkSync(Buffer.concat([Buffer.from(dir + '/'), p]), { encoding: 'buffer' }))])
-        else if (d.isDirectory()) symlinksUnder(dir, p, out)
+        else if (d.isDirectory()) symlinksUnder(dir, p, out, checkout)
     }
     return out
 }
@@ -103,7 +103,7 @@ export function checkSignatures(range) {
     const t = gitB('ls-tree', '-r', '-z', '--full-tree', end).toString('latin1').split('\0').filter(Boolean)
     for (const e of t) { const m = /^(\d{6}) blob ([0-9a-f]+)\t([\s\S]+)$/.exec(e); if (m && m[1] === '120000' && !excepted(EXC, m[3], gitB('cat-file', 'blob', m[2]).toString('latin1'))) fails.push(`${end.slice(0, 9)}'s tree holds a symlink, ${show(m[3])} (control 10)`) }
     for (const [p, tg] of symlinksUnder(ROOT)) if (!excepted(EXC, p, tg)) fails.push(`the checked-out tree holds a symlink, ${show(p)} (control 10)`)
-    if (process.env.CHECK_ARTIFACT) for (const [p] of symlinksUnder(path.resolve(process.env.CHECK_ARTIFACT))) fails.push(`the artifact holds a symlink, ${show(p)} (control 10)`)
+    if (process.env.CHECK_ARTIFACT) for (const [p] of symlinksUnder(path.resolve(process.env.CHECK_ARTIFACT), null, [], false)) fails.push(`the artifact holds a symlink, ${show(p)} (control 10)`)
     return { fails, warns }
 }
 

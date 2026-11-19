@@ -94,6 +94,8 @@ r = trusted(C1); ok(r.status !== 0 && /control 10/.test(r.stdout), 'a symlink wi
 reset(); { const W = path.join(T, 'wt'); sh(T, 'clone', '-q', `file://${R}`, W); fs.renameSync(path.join(W, '.git'), path.join(T, 'wt.git')); fs.symlinkSync(path.join(T, 'wt.git'), path.join(W, '.git'))
   const rr = spawnSync(process.execPath, [path.join(W, 'newsroom/tools/check-signatures.mjs')], { cwd: W, encoding: 'utf8', env: { ...process.env, CHECK_ROOT: W } }); ok(rr.status !== 0 && /"\.git"/.test(rr.stdout), 'a .git that is a symlink at the root is reported, not skipped') }
 reset(); const ART = path.join(T, 'artifact'); fs.mkdirSync(ART); fs.symlinkSync('/etc/hostname', path.join(ART, 'index.html'))
+{ const A2 = path.join(T, 'artifact2'); fs.mkdirSync(path.join(A2, '.git'), { recursive: true }); fs.symlinkSync('/etc/hostname', path.join(A2, '.git', 'config'))
+  const r2 = run('check-signatures-trusted.mjs', R, { ANCHOR: C1, CHECK_ARTIFACT: A2 }); ok(r2.status !== 0 && /artifact holds a symlink, "\.git\/config"/.test(r2.stdout), 'a symlink under a .git folder in an artifact fails (.git is skipped only in the checkout)') }
 r = run('check-signatures-trusted.mjs', R, { ANCHOR: C1, CHECK_ARTIFACT: ART }); ok(r.status !== 0 && /artifact holds a symlink/.test(r.stdout), 'a symlink in a downloaded artifact fails')
 fs.rmSync(T, { recursive: true, force: true })
 if (fails) { console.log(`${fails} failed`); process.exit(1) } else console.log('signatures.test: all passed')
