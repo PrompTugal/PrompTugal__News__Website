@@ -14,5 +14,14 @@
     "id": "Q730706",
     "read_at": "2026-11-18T22:40Z",
     "how": "Wikidata query (instances of London borough, Q211690), read 18 Nov 2026; label \"London Borough of Southwark\""
+  },
+  "at": [
+    -0.0806,
+    51.5033
+  ],
+  "at_source": {
+    "url": "https://www.wikidata.org/wiki/Q730706",
+    "read_at": "2026-11-19T20:05Z",
+    "how": "Wikidata coordinate location (P625), read by query"
   }
 }

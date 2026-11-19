@@ -39,5 +39,14 @@
         "how": "CAOP 2025 (Continente), official: the boundary segments (cont_trocos) with a freguesia of each municipality on either side, summed"
       }
     }
-  ]
+  ],
+  "at": [
+    -7.935,
+    37.019
+  ],
+  "at_source": {
+    "url": "data/by-place/places.json",
+    "read_at": "2026-11-19T20:05Z",
+    "how": "the place's seat as the by-place list gives it (the map's own point)"
+  }
 }
