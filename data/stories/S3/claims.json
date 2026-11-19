@@ -1,0 +1,334 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "S3",
+  "kept_by": "journalist@PrompTugal.dinis",
+  "updated": "2026-11-19",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "Road 2 Web Summit is in its eleventh edition and is run by Startup Portugal and Web Summit.",
+      "kind": "fact",
+      "source": [
+        "executive-digest-r2ws",
+        "tek-r2ws"
+      ],
+      "quote": "lançaram a 11.ª edição do Road 2 Web Summit (R2WS)",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "Executive Digest says it; Tek Noticias also says 'Esta e a 11.a edicao do programa promovido pela Startup Portugal e pela Web Summit'"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c02",
+      "text": "The programme selects up to 125 Portuguese startups for this year's summit.",
+      "kind": "fact",
+      "source": [
+        "executive-digest-r2ws",
+        "tek-r2ws"
+      ],
+      "quote": "serão selecionadas até 125 empresas portuguesas",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "both articles say up to 125"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c03",
+      "text": "Web Summit runs in Lisbon from 9 to 12 November 2026.",
+      "kind": "fact",
+      "source": "executive-digest-r2ws",
+      "quote": "decorre em Lisboa entre 9 e 12 de novembro de 2026",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "says it"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c04",
+      "text": "Selected startups get a bootcamp in Porto and Lisbon, with investors, founders, pitch specialists and Web Summit representatives, focused on strategic preparation for the conference.",
+      "kind": "fact",
+      "source": [
+        "executive-digest-r2ws",
+        "tek-r2ws"
+      ],
+      "quote": "bootcamp intensivo de preparação, a realizar no Porto e em Lisboa",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "Executive Digest lists investors, founders, pitch specialists and Web Summit staff; Tek says the same"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c05",
+      "text": "Selected startups get 50% off Web Summit's ALPHA or BETA packages.",
+      "kind": "fact",
+      "source": [
+        "executive-digest-r2ws",
+        "tek-r2ws"
+      ],
+      "quote": "desconto de 50% no valor dos pacotes ALPHA ou BETA",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "both say it"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c06",
+      "text": "The ALPHA and BETA packages include exhibition space and the chance to enter official competitions such as PITCH and the Startup Showcase.",
+      "kind": "fact",
+      "source": "executive-digest-r2ws",
+      "quote": "espaço físico de exibição e a possibilidade de participação em competições oficiais, como o PITCH e o Startup Showcase",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "says it"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c07",
+      "text": "Selected startups also get extra exhibition space on Portugal's stand.",
+      "kind": "fact",
+      "source": [
+        "executive-digest-r2ws",
+        "tek-r2ws"
+      ],
+      "quote": "espaço adicional de exibição no stand de Portugal",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "both say it"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c08",
+      "text": "Galp sponsors the programme again, with 15,000 euros for the Most Promising Startup and 5,000 euros for the Best Performing Startup.",
+      "kind": "fact",
+      "source": [
+        "executive-digest-r2ws",
+        "tek-r2ws"
+      ],
+      "quote": "15 mil euros para a Startup Mais Promissora e cinco mil euros para a Startup com Melhor Desempenho",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "both say it; Tek adds 'A Galp renova o patrocínio'"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c09",
+      "text": "Last year's prizes went to Enhanced Fertility, in health, and Teemy, in hospitality.",
+      "kind": "fact",
+      "source": [
+        "executive-digest-r2ws",
+        "tek-r2ws"
+      ],
+      "quote": "os prémios foram para a Enhanced Fertility, do setor da saúde, e para a Teemy, da área da hospitalidade",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "Executive Digest names the two winners and their categories; the sectors (health, hospitality) come from Tek Notícias"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c10",
+      "text": "In 2024 the prizes went to Framedrop.ai, from Coimbra, which uses AI to help creators edit videocasts and podcasts, and to Deeploy, a tech recruitment platform.",
+      "kind": "fact",
+      "source": "jornal-negocios-2024",
+      "quote": "A startup de Coimbra usa inteligência artificial para ajudar criadores na edição e pós-produção de videocasts e podcasts",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "dated 14 November 2024; Deeploy described as 'uma plataforma de recrutamento na área tecnológica'; Framedrop.ai won Most Promising (15,000 euros), Deeploy Best Performing (5,000)"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c11",
+      "text": "Since 2016 the programme has supported more than 1,200 Portuguese startups, according to the announcement.",
+      "kind": "fact",
+      "source": [
+        "executive-digest-r2ws",
+        "tek-r2ws"
+      ],
+      "quote": "Desde 2016, o Road 2 Web Summit já apoiou mais de 1200 startups portuguesas",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "both say it"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c12",
+      "text": "In 2025 the programme supported 115 startups, which together raised 40 million euros.",
+      "kind": "fact",
+      "source": [
+        "executive-digest-r2ws",
+        "tek-r2ws"
+      ],
+      "quote": "Só em 2025, foram apoiadas 115 empresas, que, no conjunto, captaram 40 milhões de euros em investimento",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "says it; the article itself notes the 40 million is the announcement's figure and not checked independently"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c13",
+      "text": "Three Portuguese startups have won Web Summit's PITCH competition in the last five editions: Smartex, Intuitivo and, most recently, Granter.",
+      "kind": "fact",
+      "source": [
+        "executive-digest-r2ws",
+        "tek-r2ws"
+      ],
+      "quote": "3 startups portuguesas venceram a competição PITCH da Web Summit nas últimas 5 edições: Smartex, Intuitivo e, na edição mais recente, a Granter",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "Executive Digest quotes Margarida David; Tek states it in its own voice"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c14",
+      "text": "Miguel d'Aguiar, Executive Director of Startup Portugal, said the aim is not only to take startups to Web Summit but to help them arrive better prepared and more competitive and able to raise investment, clients and partners.",
+      "kind": "testimony",
+      "source": "executive-digest-r2ws",
+      "quote": "não é apenas levá-las à Web Summit, mas ajudá-las a chegar mais preparadas, mais competitivas",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "says it; title 'Diretor Executivo da Startup Portugal'"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c15",
+      "text": "Margarida David, Startups Manager at Web Summit, called the programme 'um motor central' of the ecosystem's growth since the summit moved to Portugal in 2016.",
+      "kind": "testimony",
+      "source": "executive-digest-r2ws",
+      "quote": "o Road2WebSummit tem sido um motor central desse percurso",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "says it; she is 'Startups Manager da Web Summit'"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c16",
+      "text": "Web Summit's schedule lists 'Press conference: Road 2 Web Summit 2026 Winner' on Thursday 12 November, 12:30 to 12:50 Lisbon time, on Stage 2, with Miguel d'Aguiar.",
+      "kind": "fact",
+      "source": "websummit-press-conference",
+      "evidence_check": {
+        "status": "fails",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "rests only on websummit.com, which we do not read by machine (rule of 11 November 2026); not checked; taken off the article on 19 November 2026 (see its Updates)"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c17",
+      "text": "The 2026 winner is announced at a press conference on Thursday 12 November, at 12:30 on Stage 2.",
+      "kind": "fact",
+      "source": "websummit-press-conference",
+      "evidence_check": {
+        "status": "fails",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "rests only on websummit.com, which we do not read by machine (rule of 11 November 2026); not checked; taken off the article on 19 November 2026 (see its Updates)"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c18",
+      "text": "In November 2024, António Dias Martins, named by Jornal de Negócios as Startup Portugal's CEO, said the programme had boosted more than 800 startups.",
+      "kind": "testimony",
+      "source": "jornal-negocios-2024",
+      "quote": "já tendo impulsionado mais de 800 startups no país",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "says it, naming 'António Dias Martins, CEO da Startup Portugal'; note the page's byline tag spells the name 'António Sousa Martins', so the name varies on that page"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c19",
+      "text": "Startup Portugal has published the class of 2026: 78 startups, from 24 sectors and 14 places in Portugal.",
+      "kind": "fact",
+      "source": "startup-portugal-r2ws",
+      "quote": "R2WS Class of 2026 junta 78 startups portuguesas de 24 setores e 14 localidades",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "read on the Portuguese programme page; the update's link /pt/programs/road-2-web-summit/ 301-redirects to /pt/programa/road-2-web-summit/ and answers 200. The startup booklet the update also cites was not opened in this check"
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c20",
+      "text": "Startup Portugal's programme page says the programme was designed with Web Summit to promote and support startups based in Portugal in taking part in the event.",
+      "kind": "fact",
+      "source": "startup-portugal-r2ws",
+      "quote": "desenhado em colaboração com a Web Summit para promover e apoiar startups sediadas em Portugal",
+      "quote_language": "pt",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "says it"
+      },
+      "read_on": "2026-11-19"
+    }
+  ]
+}

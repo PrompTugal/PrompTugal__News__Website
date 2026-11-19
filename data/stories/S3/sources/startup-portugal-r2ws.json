@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "startup-portugal-r2ws",
+  "story": "S3",
+  "url": "https://startupportugal.com/pt/programa/road-2-web-summit/",
+  "title": "Road 2 Web Summit",
+  "publisher": "Startup Portugal",
+  "read_on": "2026-11-19",
+  "read_by": "journalist@PrompTugal.dinis",
+  "language": "pt",
+  "kind": "programme",
+  "access": "public",
+  "what_it_says": "Programme page: R2WS is designed with Web Summit to support startups based in Portugal; the Class of 2026 has 78 startups from 24 sectors and 14 places. It also says Startup Portugal has helped more than 1,000 startups with international exposure (not the programme's own total).",
+  "status": "the address in the article's update, /pt/programs/road-2-web-summit/, 301-redirects to /pt/programa/road-2-web-summit/ and answers 200 on 19 November 2026"
+}
