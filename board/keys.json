@@ -341,7 +341,10 @@
         "fingerprint": "sha256:380feef106892497",
         "record": "sha256:d0cea9074eee68f7",
         "signing_fingerprint": "sha256:d0cea9074eee68f7"
-      }
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIILyCfpPsynhbfv7+9hetvrxxBrmwqgcrT3weh6dJkoZ",
+      "session": "https://claude.ai/code/session_01Kw9UwFKhT1TCw8TU2SWTrR",
+      "ssh_added": "2026-11-19T01:40Z"
     },
     {
       "id": "observability-promptugal",
