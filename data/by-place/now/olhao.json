@@ -1,6 +1,6 @@
 {
  "place": "olhao",
- "read_at": "2026-11-19T07:16:05Z",
+ "read_at": "2026-11-19T08:16:09Z",
  "by": "board/tools/local-now.mjs (conductor@PrompTugal.dinis)",
  "about": "Now in this place: (for Faro) adsb.lol (ODbL), with its source and the time read. IPMA weather is on weather.promptugal.news, not here. Not a warning service: follow IPMA (https://www.ipma.pt/) and ANEPC.",
  "station": {
@@ -32,9 +32,34 @@
   "icao": "LPFR",
   "name": "Faro airport",
   "within_nm": 40,
-  "at": "2026-11-19T07:16:05Z",
-  "airline": [],
-  "other_aircraft": 0,
+  "at": "2026-11-19T08:16:09Z",
+  "airline": [
+   {
+    "callsign": "EWG71L",
+    "airline": "EWG",
+    "type": "A320",
+    "alt_ft": 37000,
+    "on_ground": false,
+    "ground_speed_kt": 417.2
+   },
+   {
+    "callsign": "RYR14UW",
+    "airline": "RYR",
+    "type": "B738",
+    "alt_ft": 36000,
+    "on_ground": false,
+    "ground_speed_kt": 451.8
+   },
+   {
+    "callsign": "TRA67C",
+    "airline": "TRA",
+    "type": "B738",
+    "alt_ft": 39000,
+    "on_ground": false,
+    "ground_speed_kt": 406.1
+   }
+  ],
+  "other_aircraft": 1,
   "page": "https://globe.adsb.lol/?lat=37.014&lon=-7.966&zoom=9",
   "source": "https://api.adsb.lol/",
   "note": "What adsb.lol's community receivers saw within 40 nautical miles at the time read. Airline flights by callsign; other aircraft only counted."
@@ -42,62 +67,62 @@
  "reads": {
   "warnings": {
    "url": null,
-   "at": "2026-11-19T07:16:02Z",
+   "at": "2026-11-19T08:16:06Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "observations": {
    "url": null,
-   "at": "2026-11-19T07:16:02Z",
+   "at": "2026-11-19T08:16:06Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1080500": {
    "url": null,
-   "at": "2026-11-19T07:16:02Z",
+   "at": "2026-11-19T08:16:06Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1080800": {
    "url": null,
-   "at": "2026-11-19T07:16:02Z",
+   "at": "2026-11-19T08:16:06Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1081100": {
    "url": null,
-   "at": "2026-11-19T07:16:02Z",
+   "at": "2026-11-19T08:16:06Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1081505": {
    "url": null,
-   "at": "2026-11-19T07:16:02Z",
+   "at": "2026-11-19T08:16:06Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d0": {
    "url": null,
-   "at": "2026-11-19T07:16:02Z",
+   "at": "2026-11-19T08:16:06Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d1": {
    "url": null,
-   "at": "2026-11-19T07:16:02Z",
+   "at": "2026-11-19T08:16:06Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d2": {
    "url": null,
-   "at": "2026-11-19T07:16:02Z",
+   "at": "2026-11-19T08:16:06Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "uv": {
    "url": null,
-   "at": "2026-11-19T07:16:02Z",
+   "at": "2026-11-19T08:16:06Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "sea-forecast-d0": {
    "url": null,
-   "at": "2026-11-19T07:16:02Z",
+   "at": "2026-11-19T08:16:06Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "adsb": {
    "url": "https://api.adsb.lol/v2/point/37.0144/-7.9659/40",
-   "at": "2026-11-19T07:16:05Z",
+   "at": "2026-11-19T08:16:09Z",
    "status": 200
   }
  }
