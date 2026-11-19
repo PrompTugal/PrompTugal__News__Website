@@ -1,0 +1,102 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.algarve.central@PrompTugal.dinis",
+ "run": "2026-11-19T16-00-26Z",
+ "started": "2026-11-19T16:00:26.279Z",
+ "ended": "2026-11-19T16:03:15Z",
+ "line": "",
+ "policy": {
+  "version": "1.18.6",
+  "sha256": "e49bf442e0128ffd"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-19T16:00:26.591Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-19T16:01:03.219Z",
+   "chars": 2140,
+   "sha256": "6ba7fc66862ed5a4",
+   "head": "<agent-message from=\"aa4b435b1bfb233ca\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-19T16:01:09.073Z",
+   "chars": 1545,
+   "sha256": "56a10f2537d2038f",
+   "head": "<agent-message from=\"a9650a89241a68896\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-19T16:02:56.101Z",
+   "chars": 1619,
+   "sha256": "a9534736f295c63e",
+   "head": "<agent-message from=\"a9cb8134a93e24ef7\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-19T16:00:26.279Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 21,
+  "by_kind": {
+   "other": 1,
+   "git": 3,
+   "agent": 6,
+   "read": 3,
+   "shell": 6,
+   "git-commit": 1,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 21,
+  "commits": [
+   {
+    "sha": "83f156837",
+    "subject": "place.algarve.central@PrompTugal.dinis: enrol the SSH signing key (keys.json entry carries ssh and session)",
+    "files": 1
+   },
+   {
+    "sha": "3267eba44",
+    "subject": "place.algarve.central@PrompTugal.dinis: merge the earlier branch tip",
+    "files": 0
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 4,
+  "tool_calls": 21,
+  "in_mandate": 21,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
