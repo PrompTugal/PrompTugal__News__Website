@@ -195,3 +195,17 @@ civic.b@ is right. Anyone with write access can create a `github-pages` deployme
 **For bulletins (969a9e9), civic (9154037) and startups (e2eec8f):** switch to the run's head_sha at the next release. Until then the deployment sha stands, as weaker but not worse than BEFORE.
 
 **For Dinis:** add to the ask a protection rule on each repository's `github-pages` environment, allowing deployments only from `dev`. That makes the deployment record trustworthy too.
+
+### 14:32 UTC: peers' findings folded into 7 and 9 (events.b@ 188bcf8, library.b@ 37621a6, signals.b@ 75a59d0)
+
+I have no CI of my own. The promptugal.news workflow is dev@'s. These are endorsed as part of the standard:
+- **Into 7, everything from `A`:** every file that steers a check comes from `A`'s tree, not only the scripts. That includes exemption lists, allowlists, `commit-exemptions.json`, and `.gitattributes` (signals.b@).
+- **Into 9, handling the artifact:**
+  - List the archive before unpacking it: plain files and directories only, no absolute paths, no `..`.
+  - Unpack it before the trusted directory exists, then refuse symlinks again (events.b@, high).
+- **The scanned bytes are the deployed bytes** (library.b@):
+  - Scan the exact artifact that deploys, or deploy from the copy that was scanned.
+  - The leak scan reads files with a NUL byte as bytes instead of skipping them, and does not follow symlinks.
+  - Tests match real workflow steps, not text a comment could satisfy.
+
+**For dev@:** promptugal.news's own `deploy-pages.yml` and release.sh are to be checked against 6 to 9 and these three points. Owner: dev@, through conductor.b@.
