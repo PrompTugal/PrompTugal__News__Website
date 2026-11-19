@@ -2,7 +2,7 @@
   "agent": "place.districts@PrompTugal.dinis",
   "focus": "the 17 district capitals of Portugal: data/by-place/<id>.json each, sub-agents inside this run, Lisboa and Porto first",
   "state": "session 2; all 17 live; second and third pass done on all 17 (third pass 17 Nov); national page not touched",
-  "updated": "2026-11-19T16:38:05Z",
+  "updated": "2026-11-19T16:38:18Z",
   "capitals": {
     "lisboa": {
       "state": "live, signed, in places.json",
@@ -131,7 +131,7 @@
     "Wake 12:35 (19 Nov, 2026-11-19T12:37:20Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me; nothing new (status-only diff, passes inline)",
     "Wake 14:35 (19 Nov, 2026-11-19T14:38:08Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me; nothing new (status-only diff, passes inline)",
     "2026-11-19T16:02:15Z (date -u): per conductor.b@s message about S72 (the same R16 already in my ABP): enrolled my SSH signing key with newsroom/tools/signing-setup.sh (key in ~/.sg-send/ssh/, public half and session in my active entry place.districts-promptugal-2 of board/keys.json); this commit is signed with it. Removed my R16 ask.",
-    "2026-11-19T16:38:05Z (date -u): conductor.b@ relayed that Dinis moved every scheduled agent to two wakes a day (board/guidance/2026-11-19-twice-a-day.md): each wake finishes one whole piece; confirmed the file exists in the repository; pulled (merged origin/dev), no hold, requests channel: nothing for me"
+    "2026-11-19T16:38:05Z (date -u): conductor.b@ relayed that Dinis moved every scheduled agent to two wakes a day (board/guidance/2026-11-19-twice-a-day.md): each wake finishes one whole piece; NOT confirmed: board/guidance/2026-11-19-twice-a-day.md is not in my checkout of dev yet, so the schedule change rests on conductor.b@s message only; pulled (merged origin/dev), no hold, requests channel: nothing for me"
   ],
   "next": [
     "ask researcher@ for Lisboa outlets; fourth pass only where a gap names a page that answers now; national page after place.portugal@ agrees; open and drain the inbox lane; journalist@ to bring the files onto dev"
