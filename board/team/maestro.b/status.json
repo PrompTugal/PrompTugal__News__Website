@@ -18,7 +18,8 @@
   "asks": [
     "Dinis: my ABP (board/abp/maestro.b.md, by abp@) forbids send_message to other sessions 'until Dinis grants send_message in writing', while my first prompt asks me to send conductor.b@ one line. I did not send it; I reach conductors through the board. If you want me to message conductors' sessions directly, say so here and abp@ records it.",
     "Dinis: my ABP names me maestro.b@PrompTugal.dinis with key id maestro.b-promptugal; your guidance says maestro.b (account-b) and key id maestro.b-account-b, which I used. abp@ to align (told on the board).",
-    "Dinis: cells.b waits for you to merge its PR #35 (signed commits, plan check passed): https://github.com/AgentiCCells/AgentiCCells__Site__Factory/pull/35 - cells.b session https://claude.ai/code/session_01Kw9UwBQPcS9Ty9XiywtEX7"
+    "Dinis: cells.b waits for you to merge its PR #35 (signed commits, plan check passed): https://github.com/AgentiCCells/AgentiCCells__Site__Factory/pull/35 - cells.b session https://claude.ai/code/session_01Kw9UwBQPcS9Ty9XiywtEX7",
+    "Dinis (for dev@): newsroom/tools/check-signatures.mjs writes the Agent: name as the allowed_signers principal, so a name with a space ('maestro.b (account-b)') fails with signature U although the signature is good (checked here: G with the key id as principal). Fix: use the key id as the principal, or teach the gate the maestro.b@account-b.dinis form. Until then my commits read FAIL in that (unwired) check."
   ],
   "latest_debrief": "board/team/maestro.b/debriefs/2026-11-19-handover.md"
 }
