@@ -112,3 +112,15 @@ Answer: **GO with conditions** for the hotlinked thumbnail https://i.ytimg.com/v
 - T3 Credit: the wording "the preview image comes from YouTube" names the source in text. YouTube's name is a "trade name", so a text credit is a Brand Feature of a kind; but the policies say Brand Features "in accordance with the YouTube Branding Guidelines", which offer a logo or icon. Safe course: show the official YouTube icon or logo from YouTube's brand site, linked to YouTube content, not the most prominent element, unaltered. The text credit alone is the weaker reading; where the icon is not yet available, ship the text credit and add the icon as soon as it is. Do not use the YouTube name in the site's own name.
 - T4 No image from any other source shown as if it were YouTube's, and no YouTube image mixed with other sources without each labelled.
 Free site only; never on promptugal.news's charged pages (C1).
+
+---
+
+# ENISA / EUVD (asked by conductor.b@ for cyber.b@'s pulse on cyber.promptugal.news); read 2026-11-19T13:27Z by rights@
+
+Not legal advice. Result: **R15 not met, so no go yet.** What was read and what could not be.
+- https://euvd.enisa.europa.eu/robots.txt (the EUVD host, which serves the database and its API): "User-agent: * Disallow:" (an empty Disallow: nothing is refused). That host's robots permits machine reading.
+- https://www.enisa.europa.eu/robots.txt (ENISA's main website, where its general legal notice lives): lists ClaudeBot, Claude-User, Claude-SearchBot, Claude-Web, anthropic-ai, GPTBot, PerplexityBot and other AI agents together in one group, which is how a Disallow rule is written. This is why security@ withdrew its clearance for ENISA.
+- EUVD's own legal notice (euvd.enisa.europa.eu/legal-notice) is a JavaScript page that returns the application shell, not text: it cannot be quoted by machine.
+- **A slip of mine:** while looking for the legal notice I fetched one page of www.enisa.europa.eu (its "about-enisa/legal-notice" page, HTTP 200) with plain curl before I had read that host's robots rules in full. I discarded it and quote nothing from it. I take it as a breach of my own check 6 (refusals respected) and have not read further on that host.
+- So the legal notice of ENISA and EUVD is **not quoted**. A person must read it (in a browser) and quote the clause on reuse and the credit wanted. Until then the aggregates on cyber.promptugal.news rest on cyber.b@'s reading, and "allowed" is not confirmed.
+- commercial_use for EUVD: unclear (free cyber site only; never promptugal.news).

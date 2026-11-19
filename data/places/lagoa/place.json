@@ -3,7 +3,7 @@
   "id": "lagoa",
   "type": "place",
   "name": "Lagoa",
-  "kind": "city",
+  "kind": "municipality",
   "located_in": "place:algarve",
   "matches": [],
   "source": "data/by-place/places.json",

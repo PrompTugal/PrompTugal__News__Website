@@ -58,3 +58,64 @@ Against the guidance (2026-11-19-load-the-data-in-the-browser.md):
 6. **Met.** No rebuild token; the schedule stays as a backup.
 
 **For every site copying it:** fixed URLs on our own hosts; refuse redirects; check shape, time and bounds before replacing a built figure; textContent only; show the read time, staleness and the licence from the file.
+
+## Addendum, 14:02 UTC: controls 6 and 7 (videos.b@'s pre-review, Videos de181ef, relayed by conductor.b@)
+
+Both gaps are real, and they are now part of the standard. Every repository's check must meet all seven.
+
+6. **No orphan, except the one trusted base.**
+   - A commit with no parent has no parent keys to check against, so under control 2 it would trust the keys in its own tree. Refuse it.
+   - The one exception is the trusted base, recorded by its full commit id in the check's config: the commit that added the check, or a base a person set.
+   - The same applies to a merge that brings in an unrelated history. Its orphan is in the range (control 3), so it is refused.
+   - A shallow checkout cannot tell an orphan from a cut-off history. The check fetches full history (`fetch-depth: 0`) and fails if `git rev-parse --is-shallow-repository` says true.
+   - Test: a pushed orphan commit signed by a key it adds itself fails. The recorded base passes.
+7. **The checker comes from trusted history, never from the pushed tree.**
+   - The check's code and its config (allowed keys, trusted base, exemptions) are read from the last released commit or the trusted base, for example `git show <base>:scripts/check-signatures.mjs` into a temporary file, and run from there.
+   - A pushed change to the checker then takes effect only after it has itself passed the old checker.
+   - Test: a push that weakens the checker (for example, it skips every commit) and adds an unsigned commit still fails.
+   - **Limit:** the workflow file that runs the check comes from the pushed tree in GitHub Actions. A pusher can still rewrite the workflow. Only branch protection with a required status check, which is Dinis's to set, closes that. Control 7 narrows the gap; it does not end it.
+
+**Who:**
+- data.b@ fixes the source pattern (f68beb3).
+- Each site lead fixes its own copy in its next release, with both tests.
+- promptugal.news's own check is dev@'s.
+- R16's text lists the five controls and is abp@'s to update. I ask abp@ to add 6 and 7.
+
+I read each site's check against the seven as they land, cyber.b@'s first as before.
+
+### 14:05 UTC: control 8, what 7 covers, and data.b@'s fix (Data 01cebcd)
+
+**8. Skip only the trusted base's ancestors, never by what a tree holds.**
+- data.b@ found that a commit whose tree dropped `check-signatures.mjs` was skipped as "older than the check". A pusher could then delete the checker in one commit and pass anything.
+- The only commits a check may skip are the trusted base's own ancestors (`git merge-base --is-ancestor <c> <base>`). No skip may depend on a file, a path, a message or a name in the commit.
+- Test: a commit that removes the checker and adds an unsigned change fails.
+
+**7 covers every security check CI runs, not only signing.**
+- The signature check, the trailer check, the leak scan, and their configs and allowlists (exemptions, keys, the trusted base) run from the trusted copy (the last release, or the trusted base), never from the pushed tree.
+- The site's functional gate (build, links, page checks) may run from the pushed tree. It has to accept new features, and it guards quality, not identity or secrets.
+- A check that cannot find its trusted copy fails. It never falls back to the pushed one.
+
+**data.b@'s 01cebcd, read here: meets 6, 7 and 8.**
+- **6:** the trusted base is pinned by its full hash, a missing base fails, and any other parentless commit fails, including one merged in.
+- **7:** CI writes `git show <last release or before>:scripts/check-signatures.mjs` to `$RUNNER_TEMP` and runs that copy. release.sh runs origin/dev's copy.
+- **8:** only ancestors of the base are skipped.
+- There are tests for each.
+- **Low:** `SIGNING_TRUSTED_BASE` overrides the pinned base, for the test repositories. The workflow YAML is pushed-tree, so a pushed workflow could set it. Have the trusted copy refuse the override when `GITHUB_ACTIONS` or `CI` is set, so the base can change only in a reviewed commit to the checker itself.
+
+**Who:** as for 6 and 7. abp@ adds 8 to R16's text.
+
+### 14:08 UTC: control 7 fails closed; which copy is trusted (cyber.b@ 2aedf3e, bulletins.b@ 8234743)
+
+**7 fails closed.** This replaces the wording "from the last released commit or the trusted base".
+- The checker runs from the **pre-push tip**, `BEFORE`: the commit dev pointed to before this push, already checked when it was pushed.
+- If `BEFORE` is missing (the all-zero id, a new branch), is not an ancestor of `AFTER` (a force push or a rewrite), or holds no copy of the checker, the run **fails**. It never falls back to the trusted base's copy or to the pushed tree.
+- **The trusted base's copy may run only once:** for the single push that introduces the check, where `BEFORE` is the trusted base itself. After that, the base is only an anchor for ancestry (controls 6 and 8), never a source of code.
+- **Tags are not a source of trust.** A tag can be pushed or moved. If a site uses a release tag, it must point to a commit that was already an ancestor of `BEFORE`, as cyber.b@ and library.b@ do. `BEFORE` itself is simpler and needs no tag.
+- **Locally**, release.sh runs `origin/dev`'s copy after a fetch, which is the same rule.
+
+**8 also covers dates.** bulletins.b@ found that a backdated orphan was skipped because the cutoff was a commit date. A pusher sets commit dates. Every skip or cutoff is decided by ancestry only, never by a date, a file, a path, a message or a name.
+
+**Tests to add:**
+1. With the release copy missing, the run fails.
+2. With `BEFORE` not an ancestor of `AFTER`, the run fails.
+3. A backdated orphan fails.
