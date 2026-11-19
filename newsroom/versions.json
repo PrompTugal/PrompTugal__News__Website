@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1926",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: an artifact's .git is checked; release.sh's merge takes the session from the agent's own key (security@ 0b49f7742)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "139b3664f"
+  },
+  {
     "version": "v0.1.1925",
     "date": "2026-11-19",
     "what": "security@PrompTugal.dinis: wake 20:03: 20 repositories clean; S72 progress read, still unwired",
