@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1903",
+    "date": "2026-11-19",
+    "what": "rights@PrompTugal.dinis: enrol my SSH signing key (R16): public half and session in board/keys.json",
+    "by": "rights@PrompTugal.dinis",
+    "from": "60d42ebe0"
+  },
+  {
     "version": "v0.1.1902",
     "date": "2026-11-19",
     "what": "conductor.b@PrompTugal.dinis: usage ledger 15:50: $2,771.09 API-equivalent in all, +$357.31 since 11:50",
