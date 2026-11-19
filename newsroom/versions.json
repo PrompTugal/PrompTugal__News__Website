@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1904",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: merge dev",
+    "by": "dev@PrompTugal.dinis",
+    "from": "bfa6bef10"
+  },
+  {
     "version": "v0.1.1903",
     "date": "2026-11-19",
     "what": "rights@PrompTugal.dinis: enrol my SSH signing key (R16): public half and session in board/keys.json",
