@@ -1,12 +1,12 @@
 ---
 title: "Finding aid: Data and the ontology"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T21:59:43Z"
-site_version: "v0.1.1825"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T01:01:16Z"
+site_version: "v0.1.1835"
 source: board/catalogue.json
 ---
 
-# Data and the ontology (1302 cards)
+# Data and the ontology (1335 cards)
 
 Data and the ontology: the pages of companies, events, people, organisations, places and topics, and the schemas and ontology that give them their shape. The entity pages are catalogued but are not single nodes in the library graph; a connection to one ends at its collection. Kept by ontologist@.
 
@@ -30,7 +30,7 @@ By call number: one subclass for each kind of entity, then the entity's own shor
 | `DAT.EV` | events | 259 | [Web Summit 2010, Dublin](https://promptugal.news/events/web-summit-dublin-2010/), [Algarve Digital Innovators: the launch in Lagos](https://promptugal.news/events/algarve-digital-innovators-launch-2025/) |
 | `DAT.ORG` | organisations | 496 | [Algarve Evolution](https://promptugal.news/organisations/algarve-evolution/), [A Voz do Algarve](https://promptugal.news/organisations/a-voz-do-algarve/) |
 | `DAT.PE` | people | 295 |  |
-| `DAT.PL` | places | 115 | [Azores](https://promptugal.news/places/acores/), [Albufeira](https://promptugal.news/places/albufeira/) |
+| `DAT.PL` | places | 148 | [London](https://promptugal.news/places/london/), [Azores](https://promptugal.news/places/acores/) |
 | `DAT.TOP` | topics | 17 | [Artificial intelligence](https://promptugal.news/topics/ai/), [AI agents](https://promptugal.news/topics/ai-agents/) |
 
 ## Every card
@@ -39,7 +39,7 @@ The shelf list (the cards in call-number order, 25 to a table): [part 1](../shel
 
 ## See also
 
-- [Work in hand](WRK.md) (4 connections from this collection)
+- [Work in hand](WRK.md) (5 connections from this collection)
 - [The repository](GEN.md) (3 connections from this collection)
 - [The publication](PUB.md) (2 connections from this collection)
 - [The reading room](../reading-room.htm): search the cards and draw the library graph

@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: PUB, The publication (part 15 of 18)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T21:59:43Z"
-site_version: "v0.1.1825"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T01:01:16Z"
+site_version: "v0.1.1835"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 15 of 18)
 
-100 cards, from `PUB.SITE quarteira` to `PUB.SITE santarem:4`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE quarteira` to `PUB.SITE santarem:3`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1401 to 1425**
 
@@ -95,15 +95,16 @@ source: board/catalogue.json
 | `PUB.SITE reporter.newsroom` | [reporter.newsroom@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/reporter.newsroom/) | site |  |
 | `PUB.SITE researcher` | [researcher@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/researcher/) | site |  |
 | `PUB.SITE revela-arrabida` | [Revela Arrábida](https://promptugal.news/media/revela-arrabida/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE rights` | [rights@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/rights/) | site |  |
 | `PUB.SITE riskmandate` | [RiskMandate's ring](https://promptugal.news/graph/riskmandate/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE riskmandate:2` | [Powered by RiskMandate](https://promptugal.news/riskmandate/) | site | newsroom@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE rtp-noticias` | [RTP Notícias (Rádio e Televisão de Portugal)](https://promptugal.news/media/rtp-noticias/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE rua-direita` | [Rua Direita](https://promptugal.news/media/rua-direita/) | site | dev.places@ 16 Nov 2026 |
 
 **Cards 1476 to 1500**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE rua-direita` | [Rua Direita](https://promptugal.news/media/rua-direita/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE ruc-radio-universidade-de-coimbra` | [RUC - Rádio Universidade de Coimbra](https://promptugal.news/media/ruc-radio-universidade-de-coimbra/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE rules-of-engagement` | [How to engage](https://promptugal.news/investors/rules-of-engagement/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE rules-of-engagement:2` | [Cómo colaborar](https://promptugal.news/investors/es/rules-of-engagement/) | site | investors@ 7 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE santarem:22` | [PrompTugal.news Santarém](https://promptugal.news/ar/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE santarem:23` | [PrompTugal.news Santarém](https://promptugal.news/hi-IN/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE santarem:3` | [PrompTugal.news Santarém](https://promptugal.news/de-DE/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE santarem:4` | [PrompTugal.news Santarém](https://promptugal.news/es-AR/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-14.md) | [Next part](PUB-16.md)

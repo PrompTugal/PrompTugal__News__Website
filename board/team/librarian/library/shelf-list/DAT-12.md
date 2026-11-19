@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 12 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T21:59:43Z"
-site_version: "v0.1.1825"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T01:01:16Z"
+site_version: "v0.1.1835"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 12 of 14)
 
-100 cards, from `DAT.PE philip-rathle` to `DAT.PL estadio-da-tapadinha`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.PE philip-rathle` to `DAT.PL coimbra`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1101 to 1125**
 
@@ -109,12 +109,18 @@ source: board/catalogue.json
 | `DAT.PL australia` | [Australia](https://promptugal.news/places/australia/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL austria` | [Austria](https://promptugal.news/places/austria/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL aveiro` | [Aveiro](https://promptugal.news/places/aveiro/) | place | ontologist@ 16 Nov 2026 |
+| `DAT.PL barking-and-dagenham` | [Barking and Dagenham](https://promptugal.news/places/barking-and-dagenham/) | place | ontologist@ 18 Nov 2026 |
+| `DAT.PL barnet` | [Barnet](https://promptugal.news/places/barnet/) | place | ontologist@ 18 Nov 2026 |
 | `DAT.PL beato-innovation-district` | [Beato Innovation District](https://promptugal.news/places/beato-innovation-district/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL beja` | [Beja](https://promptugal.news/places/beja/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL belgium` | [Belgium](https://promptugal.news/places/belgium/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL bexley` | [Bexley](https://promptugal.news/places/bexley/) | place | ontologist@ 18 Nov 2026 |
 | `DAT.PL braga` | [Braga](https://promptugal.news/places/braga/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL braganca` | [Bragança](https://promptugal.news/places/braganca/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL brazil` | [Brazil](https://promptugal.news/places/brazil/) | place | ontologist@ 6 Nov 2026 |
+| `DAT.PL brent` | [Brent](https://promptugal.news/places/brent/) | place | ontologist@ 18 Nov 2026 |
+| `DAT.PL bromley` | [Bromley](https://promptugal.news/places/bromley/) | place | ontologist@ 18 Nov 2026 |
+| `DAT.PL camden` | [Camden](https://promptugal.news/places/camden/) | place | ontologist@ 18 Nov 2026 |
 | `DAT.PL canada` | [Canada](https://promptugal.news/places/canada/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL castelo-branco` | [Castelo Branco](https://promptugal.news/places/castelo-branco/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL castro-marim` | [Castro Marim](https://promptugal.news/places/castro-marim/) | place | ontologist@ 16 Nov 2026 |
@@ -123,11 +129,5 @@ source: board/catalogue.json
 | `DAT.PL centro-vasco-de-gama` | [Centro Vasco de Gama](https://promptugal.news/places/centro-vasco-de-gama/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL china` | [China](https://promptugal.news/places/china/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL coimbra` | [Coimbra](https://promptugal.news/places/coimbra/) | place | ontologist@ 16 Nov 2026 |
-| `DAT.PL colombia` | [Colombia](https://promptugal.news/places/colombia/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL czechia` | [Czechia](https://promptugal.news/places/czechia/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL developer-lounge` | [Developer Lounge](https://promptugal.news/places/developer-lounge/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL disco-bar` | [Disco Bar](https://promptugal.news/places/disco-bar/) (withdrawn) | place | ontologist@ 9 Nov 2026 |
-| `DAT.PL dublin` | [Dublin](https://promptugal.news/places/dublin/) | place | ontologist@ 6 Nov 2026 |
-| `DAT.PL estadio-da-tapadinha` | [Estádio da Tapadinha](https://promptugal.news/places/estadio-da-tapadinha/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-11.md) | [Next part](DAT-13.md)

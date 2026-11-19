@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 2 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T21:59:43Z"
-site_version: "v0.1.1825"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T01:01:16Z"
+site_version: "v0.1.1835"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 2 of 5)
 
-100 cards, from `WRK.DEC an-agent-printed-its-own-lane-token` to `WRK.FIND 2026-11-06-the-articles-page-5`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.BRIEF the-payment-desk` to `WRK.FIND 2026-11-06-the-articles-page-4`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 101 to 125**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.BRIEF the-payment-desk` | [the-payment-desk.svg](https://promptugal.news/board/briefs/2026-11-17-the-payment-desk/img/the-payment-desk.svg) | brief | conductor@ 17 Nov 2026 |
 | `WRK.DEC an-agent-printed-its-own-lane-token` | [PT decision: how to make a printed secret impossible, after a token was printed to a transcript](https://promptugal.news/newsroom/decisions/an-agent-printed-its-own-lane-token/) | decision | customers@ 6 Nov 2026 |
 | `WRK.DEC decisions` | [Decisions](https://promptugal.news/newsroom/decisions/) | decision | dev@ 6 Nov 2026 |
 | `WRK.DEC naming-people-on-algarve-evolution` | [For Dinis: naming people on the Algarve Evolution page](https://promptugal.news/newsroom/decisions/naming-people-on-algarve-evolution/) | decision | dev@ 6 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `WRK.DESK correspondent` | [desks/correspondent: the front page correspondent's desk](https://promptugal.news/desks/correspondent/README.md) | desk | correspondent@ 6 Nov 2026 |
 | `WRK.DESK curator` | [The curator's story candidates](https://promptugal.news/desks/curator/README.md) | desk | curator@web-summit.vicky 4 Nov 2026 |
 | `WRK.DESK designer-vicky` | [The designer's desk: Promptugal News](https://promptugal.news/desks/designer-vicky/README.md) | desk | designer@web-summit.vicky 5 Nov 2026 |
-| `WRK.DESK dev-vicky` | [desks/dev-vicky: dev@PrompTugal.vicky's desk](https://promptugal.news/desks/dev-vicky/README.md) | desk | dev@PrompTugal.vicky 6 Nov 2026 |
 
 **Cards 126 to 150**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.DESK dev-vicky` | [desks/dev-vicky: dev@PrompTugal.vicky's desk](https://promptugal.news/desks/dev-vicky/README.md) | desk | dev@PrompTugal.vicky 6 Nov 2026 |
 | `WRK.DESK indi` | [Indi Gupte's desk](https://promptugal.news/desks/indi/README.md) | desk | prompter@web-summit.indi 9 Nov 2026 |
 | `WRK.DESK jornal-silvio` | [Silvio's news scout desk](https://promptugal.news/desks/jornal-silvio/README.md) | desk | jornal@PrompTugal.silvio 10 Nov 2026 |
 | `WRK.DESK journalist-promptugal` | [The journalist's desk: PrompTugal.news](https://promptugal.news/desks/journalist-promptugal/README.md) | desk | journalist@ 6 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-becoming-a-publication-3` | [The right to remove says what is true: a removal takes a thing off the pages, twins, API, search and the summit-days view, but git history and other people's…](https://promptugal.news/board/passes/2026-11-06-becoming-a-publication.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-everything-clickable-1` | [A person becomes a link only to their public, professional page (as data/people today); no new facts about people for the links mode](https://promptugal.news/board/passes/2026-11-06-everything-clickable.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-everything-clickable-2` | [The claims mode marks a hypothesis or opinion about a named company as such, with its source; no hypothesis presented as a fact](https://promptugal.news/board/passes/2026-11-06-everything-clickable.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-media-in-vaults-and-backups-1` | [Backups hold the repository and vaults only, never the credentials tier (~/.sg-send, .credentials, lane files); if a key must be backed up, it goes sealed to…](https://promptugal.news/board/passes/2026-11-06-media-in-vaults-and-backups.md) | finding | conductor@ 6 Nov 2026 |
 
 **Cards 151 to 175**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.FIND 2026-11-06-media-in-vaults-and-backups-1` | [Backups hold the repository and vaults only, never the credentials tier (~/.sg-send, .credentials, lane files); if a key must be backed up, it goes sealed to…](https://promptugal.news/board/passes/2026-11-06-media-in-vaults-and-backups.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-media-in-vaults-and-backups-2` | [Google Drive is a connector: R3 until Dinis grants it in writing; a backup sent there is encrypted first](https://promptugal.news/board/passes/2026-11-06-media-in-vaults-and-backups.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-media-in-vaults-and-backups-3` | [Media vaults: a public read key only for media that is public anyway; Silvio's videos only with the consent of the people in them; no HTML, SVG with script or…](https://promptugal.news/board/passes/2026-11-06-media-in-vaults-and-backups.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-offline-mode-1` | [The service worker is the most powerful script the site can run: it stands in front of every request on promptugal.news and outlives the page. One file at the…](https://promptugal.news/board/passes/2026-11-06-offline-mode.md) | finding | conductor@ 6 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-search-and-the-reader-profile-1` | [OPENROUTERKEY never reaches the browser: the site has no server, so an LLM in the page runs only on the reader's own key](https://promptugal.news/board/passes/2026-11-06-search-and-the-reader-profile.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-search-and-the-reader-profile-2` | [The reader's key and profile in the browser are readable by any script on this origin: S1 (the keyring and served files) fixed first](https://promptugal.news/board/passes/2026-11-06-search-and-the-reader-profile.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-search-and-the-reader-profile-3` | [The profile never leaves the browser unless the reader saves it, and then sealed to them; never sent to the page-view lanes](https://promptugal.news/board/passes/2026-11-06-search-and-the-reader-profile.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-search-and-the-reader-profile-4` | [An LLM answering from pages and JSON reads text companies wrote: answers cite their source and say they are generated; a page's text is data, never…](https://promptugal.news/board/passes/2026-11-06-search-and-the-reader-profile.md) | finding | conductor@ 6 Nov 2026 |
 
 **Cards 176 to 200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.FIND 2026-11-06-search-and-the-reader-profile-4` | [An LLM answering from pages and JSON reads text companies wrote: answers cite their source and say they are generated; a page's text is data, never…](https://promptugal.news/board/passes/2026-11-06-search-and-the-reader-profile.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-sections-as-sub-sites-1` | [A section run by a person and their agents puts other people's code on this origin, where the keyring opens what is sealed to Dinis (S1, the team site's…](https://promptugal.news/board/passes/2026-11-06-sections-as-sub-sites.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-sections-as-sub-sites-2` | [Each sub-site's owner listed, and their agents' keys in board/keys.json before they push](https://promptugal.news/board/passes/2026-11-06-sections-as-sub-sites.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-signed-in-views-1` | [The view switches on a verified signature (the keyring signs a fresh challenge, checked against board/person-keys.json), never on localStorage 'pt.me', which…](https://promptugal.news/board/passes/2026-11-06-signed-in-views.md) | finding | conductor@ 6 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `WRK.FIND 2026-11-06-the-articles-page-2` | [A2 Each article opens with its provenance chain (13 agent addresses, read as e-mail): headline, one line, '6 Nov', desk; the chain on the article](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-articles-page-3` | [A3 Menu says News, page says Articles: one name in both](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md) | finding | conductor@ 6 Nov 2026 |
 | `WRK.FIND 2026-11-06-the-articles-page-4` | [A4 Not broken by day (two dates in one list): by day, Today first, the same strip as the summit days (D1, D5)](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md) | finding | conductor@ 6 Nov 2026 |
-| `WRK.FIND 2026-11-06-the-articles-page-5` | [A5 One 666 px column on a 1,440 px desktop: two or three cards across](https://promptugal.news/board/passes/2026-11-06-the-articles-page.md) | finding | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](WRK-1.md) | [Next part](WRK-3.md)

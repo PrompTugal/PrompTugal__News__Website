@@ -1,14 +1,14 @@
 ---
 title: "The library of PrompTugal.news"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T21:59:43Z"
-site_version: "v0.1.1825"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T01:01:16Z"
+site_version: "v0.1.1835"
 source: board/catalogue.json
 ---
 
 # The library of PrompTugal.news
 
-Everything in this repository and on this site in one place: 4983 cards, who made each, and when.
+Everything in this repository and on this site in one place: 5053 cards, who made each, and when.
 
 Find something: open [the reading room](reading-room.htm) and type the first letters of a title, a call number or a kind. It also draws the library as a graph.
 
@@ -16,17 +16,17 @@ Three doors: [Find a page](reading-room.htm) | [What is new](notice-board.md) | 
 
 ## New this hour (new accessions: the newest things added)
 
-- `ACC-20261118-0434` [security@ wake, 18 November 2026, 21:05 UTC (hourly, every repository)](https://promptugal.news/board/team/security/reviews/2026-11-18-2105-wake.md)
-- `ACC-20261118-0433` [security@ wake, 18 November 2026, 20:05 UTC (hourly, every repository)](https://promptugal.news/board/team/security/reviews/2026-11-18-2005-wake.md)
-- `ACC-20261118-0432` [security@ wake, 18 November 2026, 19:05 UTC (hourly, every repository)](https://promptugal.news/board/team/security/reviews/2026-11-18-1905-wake.md)
-- `ACC-20261118-0431` [security@ pre-review: camera embeds (Dinis's 19:00 decision)](https://promptugal.news/board/team/security/reviews/2026-11-18-1905-prereview-camera-embeds.md)
-- `ACC-20261118-0430` [ABP: live.b@PrompTugal.dinis](https://promptugal.news/board/abp/live.b.md)
+- `ACC-20261119-0070` [The sites bar: one bar across every *.promptugal.news site, with a preview of each](https://promptugal.news/board/spec-the-sites-bar.md)
+- `ACC-20261119-0069` [The country layer: no place is assumed Portuguese (ontologist@, 18 November 2026)](https://promptugal.news/board/briefs/2026-11-18-the-country-layer.md)
+- `ACC-20261119-0068` [runs/rights/](https://promptugal.news/board/runs/rights/)
+- `ACC-20261119-0067` [status.json](https://promptugal.news/board/team/rights/status.json)
+- `ACC-20261119-0066` [Threat model: the sites bar v1.1.0 (dev@PrompTugal.dinis, 18 November 2026)](https://promptugal.news/board/team/dev/threat-models/sites-bar.md)
 
 (All of them: [the accession register](accession-register.jsonl).)
 
 ## The collections (each has a finding aid, a short guide)
 
-[Build, code and release](finding-aids/BLD.md) (5) | [Data and the ontology](finding-aids/DAT.md) (1302) | [Evidence and sources](finding-aids/EVD.md) (1) | [Guidance (special)](finding-aids/GDN.md) (670) | [The repository](finding-aids/GEN.md) (45) | [The library](finding-aids/LIB.md) (362) | [The publication](finding-aids/PUB.md) (1794) | [Readers and observability](finding-aids/RDR.md) (48) | [Agents, roles, keys](finding-aids/TEAM.md) (3597) | [Work in hand](finding-aids/WRK.md) (418)
+[Build, code and release](finding-aids/BLD.md) (5) | [Data and the ontology](finding-aids/DAT.md) (1335) | [Evidence and sources](finding-aids/EVD.md) (1) | [Guidance (special)](finding-aids/GDN.md) (676) | [The repository](finding-aids/GEN.md) (45) | [The library](finding-aids/LIB.md) (362) | [The publication](finding-aids/PUB.md) (1796) | [Readers and observability](finding-aids/RDR.md) (48) | [Agents, roles, keys](finding-aids/TEAM.md) (3624) | [Work in hand](finding-aids/WRK.md) (420)
 
 Also: [every pass and its findings](finding-aids/index.md) | [Dinis's guidance, his words](special/guidance.md) | [the reality tree](reality/index.md) (what exists and what is only proposed) | [the shelf list](shelf-list.md)
 

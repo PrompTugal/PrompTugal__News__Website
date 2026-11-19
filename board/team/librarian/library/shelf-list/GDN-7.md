@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: GDN, Guidance (special) (part 7 of 7)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-18T21:59:43Z"
-site_version: "v0.1.1825"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T01:01:16Z"
+site_version: "v0.1.1835"
 source: board/catalogue.json
 ---
 
 # Shelf list: GDN, Guidance (special) (part 7 of 7)
 
-70 cards, from `GDN.MEMO 2026-11-06-the-ideas-ledger` to `GDN.Q Q9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+76 cards, from `GDN.MEMO 2026-11-06-the-ideas-ledger` to `GDN.Q Q9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 601 to 625**
 
@@ -59,27 +59,33 @@ source: board/catalogue.json
 | `GDN.MEMO 2026-11-16-translators-and-a-translation-memory` | [Translators for the content, with a translation memory so nothing is translated twice](https://promptugal.news/board/guidance/2026-11-16-translators-and-a-translation-memory.md) | guidance | conductor@ 16 Nov 2026 |
 | `GDN.MEMO 2026-11-17-one-reader-across-devices` | [One reader across devices, and the personal PrompTugal.news](https://promptugal.news/board/guidance/2026-11-17-one-reader-across-devices.md) | guidance | conductor@ 17 Nov 2026 |
 | `GDN.MEMO 2026-11-18-abp-lifecycle-and-case-studies` | [ABP: relaxed for new agents, locked down over time for long-running ones, every execution mapped, case studies](https://promptugal.news/board/guidance/2026-11-18-abp-lifecycle-and-case-studies.md) | guidance | conductor.b@ 18 Nov 2026 |
+| `GDN.MEMO 2026-11-18-billing-only-on-the-main-site` | [Billing only on promptugal.news; the data's commercial line; a release and a tag for every commit](https://promptugal.news/board/guidance/2026-11-18-billing-only-on-the-main-site.md) | guidance | conductor.b@ 18 Nov 2026 |
 | `GDN.MEMO 2026-11-18-cameras-provenance-and-bulletins` | [Cameras decided; provenance on everything; bulletins in text, audio and video](https://promptugal.news/board/guidance/2026-11-18-cameras-provenance-and-bulletins.md) | guidance | conductor.b@ 18 Nov 2026 |
 | `GDN.MEMO 2026-11-18-capture-the-weak-signals` | [Yes: capture every weak-signal source proposed](https://promptugal.news/board/guidance/2026-11-18-capture-the-weak-signals.md) | guidance | conductor.b@ 18 Nov 2026 |
+| `GDN.MEMO 2026-11-18-cells-b-on-account-b` | [cells.b (AgentiCCells) on account B, conducted from here](https://promptugal.news/board/guidance/2026-11-18-cells-b-on-account-b.md) | guidance | conductor.b@ 18 Nov 2026 |
 | `GDN.MEMO 2026-11-18-events-in-two-phases` | [Events in two phases: look with Perplexity, publish what we may; the graph, the gaps and the evidence](https://promptugal.news/board/guidance/2026-11-18-events-in-two-phases.md) | guidance | conductor.b@ 18 Nov 2026 |
 | `GDN.MEMO 2026-11-18-five-sites-on-account-b` | [The five sites' teams start on account B, named .b, each with observability; the main site's observability stays on the other account](https://promptugal.news/board/guidance/2026-11-18-five-sites-on-account-b.md) | guidance | conductor.b@ 18 Nov 2026 |
 | `GDN.MEMO 2026-11-18-inner-passes-and-security` | [Inner passes at every wake, and security@ hourly across every repository](https://promptugal.news/board/guidance/2026-11-18-inner-passes-and-security.md) | guidance | conductor.b@ 18 Nov 2026 |
 | `GDN.MEMO 2026-11-18-keys-issues-rebuilds-observability` | [Keys in every session, organisers through GitHub issues, rebuilds, a disclaimer, and observability tokens made here](https://promptugal.news/board/guidance/2026-11-18-keys-issues-rebuilds-observability.md) | guidance | conductor.b@ 18 Nov 2026 |
 | `GDN.MEMO 2026-11-18-licences-and-submissions` | [Every piece of data carries its licence; ours is Creative Commons; submissions are published, credited, and later signed](https://promptugal.news/board/guidance/2026-11-18-licences-and-submissions.md) | guidance | conductor.b@ 18 Nov 2026 |
-| `GDN.MEMO 2026-11-18-people-blogs-cyber-and-simulated-payments` | [People who publish in public, blogs, the cyber signals, and a simulated payout to sources](https://promptugal.news/board/guidance/2026-11-18-people-blogs-cyber-and-simulated-payments.md) | guidance | conductor.b@ 18 Nov 2026 |
-| `GDN.MEMO 2026-11-18-principles-and-reports` | [One set of principles and one way to report, for every site; an encrypted drop and a monitored inbox](https://promptugal.news/board/guidance/2026-11-18-principles-and-reports.md) | guidance | conductor.b@ 18 Nov 2026 |
-| `GDN.MEMO 2026-11-18-s53-and-the-events-site` | [S53 closed without rotation; the events site](https://promptugal.news/board/guidance/2026-11-18-s53-and-the-events-site.md) | guidance | conductor.b@ 18 Nov 2026 |
+| `GDN.MEMO 2026-11-18-london` | [London: the first place beyond Portugal, and Dinis checking the weather on the ground](https://promptugal.news/board/guidance/2026-11-18-london.md) | guidance | conductor.b@ 18 Nov 2026 |
 
-**Cards 651 to 670**
+**Cards 651 to 675**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `GDN.MEMO 2026-11-18-newsroom-writer-10` | [newsroom.sgit.ai's writer moves to account B (writer-10)](https://promptugal.news/board/guidance/2026-11-18-newsroom-writer-10.md) | guidance | conductor.b@ 18 Nov 2026 |
+| `GDN.MEMO 2026-11-18-people-blogs-cyber-and-simulated-payments` | [People who publish in public, blogs, the cyber signals, and a simulated payout to sources](https://promptugal.news/board/guidance/2026-11-18-people-blogs-cyber-and-simulated-payments.md) | guidance | conductor.b@ 18 Nov 2026 |
+| `GDN.MEMO 2026-11-18-principles-and-reports` | [One set of principles and one way to report, for every site; an encrypted drop and a monitored inbox](https://promptugal.news/board/guidance/2026-11-18-principles-and-reports.md) | guidance | conductor.b@ 18 Nov 2026 |
+| `GDN.MEMO 2026-11-18-rights` | [rights@PrompTugal.dinis: a licensing side-car across every site](https://promptugal.news/board/guidance/2026-11-18-rights.md) | guidance | conductor.b@ 18 Nov 2026 |
+| `GDN.MEMO 2026-11-18-s53-and-the-events-site` | [S53 closed without rotation; the events site](https://promptugal.news/board/guidance/2026-11-18-s53-and-the-events-site.md) | guidance | conductor.b@ 18 Nov 2026 |
 | `GDN.MEMO 2026-11-18-security-findings-published` | [Security findings are published on the sites](https://promptugal.news/board/guidance/2026-11-18-security-findings-published.md) | guidance | conductor.b@ 18 Nov 2026 |
 | `GDN.MEMO 2026-11-18-social-signals` | [Social signals: organisations' public posts, through official interfaces, to connect the dots](https://promptugal.news/board/guidance/2026-11-18-social-signals.md) | guidance | conductor.b@ 18 Nov 2026 |
 | `GDN.MEMO 2026-11-18-sources-we-do-not-access` | [Every source we know of, including the ones we do not read, and asking them on the record](https://promptugal.news/board/guidance/2026-11-18-sources-we-do-not-access.md) | guidance | conductor.b@ 18 Nov 2026 |
 | `GDN.MEMO 2026-11-18-telemetry-and-sub-agents` | [Telemetry: one side-car session that reads every session's record; sub-agents allowed for the passes](https://promptugal.news/board/guidance/2026-11-18-telemetry-and-sub-agents.md) | guidance | conductor.b@ 18 Nov 2026 |
 | `GDN.MEMO 2026-11-18-the-library` | [The library: library.promptugal.news](https://promptugal.news/board/guidance/2026-11-18-the-library.md) | guidance | conductor.b@ 18 Nov 2026 |
 | `GDN.MEMO 2026-11-18-the-pipeline-standard-and-the-fact-checker` | [The pipeline standard, a fact-checker in the library, the library's requests channel, universities, Wikipedia, and today's answers](https://promptugal.news/board/guidance/2026-11-18-the-pipeline-standard-and-the-fact-checker.md) | guidance | conductor.b@ 18 Nov 2026 |
+| `GDN.MEMO 2026-11-18-the-sites-bar` | [One navigation bar across every *.promptugal.news site, with a preview of each](https://promptugal.news/board/guidance/2026-11-18-the-sites-bar.md) | guidance | conductor.b@ 18 Nov 2026 |
 | `GDN.MEMO README` | [Dinis's guidance for PrompTugal.news](https://promptugal.news/board/guidance/README.md) | guidance | conductor@ 6 Nov 2026 |
 | `GDN.Q Q1` | [how many files and gigabytes of data they already have, and the runs, and how often they're doing the runs](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q10` | [who actually has read this?" (the synthetic findings)](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
@@ -93,6 +99,11 @@ source: board/catalogue.json
 | `GDN.Q Q6` | [A graphs agent, "a roof.sgit agent ... or maybe we have both](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q7` | [a UX expert, you know, do we need that? You know, like, do we have enough coverage of these domains?](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 | `GDN.Q Q8` | [He named "news.sgit.ai" as the model for the articles page](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
+
+**Cards 676 to 676**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `GDN.Q Q9` | [Do we have those hourly articles](https://promptugal.news/board/guidance/2026-11-06-the-ideas-ledger.md) | question | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](GDN-6.md)
