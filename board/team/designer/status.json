@@ -2,8 +2,10 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-19T02:45Z",
+  "updated": "2026-11-19T04:36Z",
   "done": [
+    "04:36 wake: designer.places@'s midnight fix onto dev; library requests none; dev@'s one-way build checked: SB8, SB9, SB12 pass; the phone row (SB10) still to build",
+    "03:20: the one switcher on every site (Dinis 19 Nov ~03:18): sites bar v1.2 in board/spec-the-sites-bar.md (SB8-SB13: replaces em-net and the side tab; same tab; a sideways row on a phone with the current site centred; all at a glance on desktop; promptugal.news first); phone pictures redrawn",
     "02:45 wake: designer.places@'s slim one-value band onto dev (passes); told it the one-paragraph trailer rule and how to sign (R16); library requests none for designer@",
     "01:55: rights@'s design GO on the free replays page recorded (FR8 nothing overlaps the player, FR9 a logo only if it links to YouTube and is never the most prominent, FR10 no 'YouTube' or 'YT' in our names); R16: my SSH signing key made with newsroom/tools/signing-setup.sh (private half only in ~/.sg-send/ssh/), its public half and my session published on designer-promptugal-4 in board/keys.json; this commit is the first signed one",
     "02:15: Dinis's 'show the past' and 'every prediction kept and checked' (19 Nov): the one way every site draws them, board/spec-past-and-forecast.md (PF1-PF9: observed solid, forecast hatched, today marked, gaps as gaps, the record's first day, what we said in green outline beside what happened with the gap in plain units, a computed track record line), pictures at 1280 and 390, light and dark, illustrative values only; for weather.b@ first",

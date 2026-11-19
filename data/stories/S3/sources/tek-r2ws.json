@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "tek-r2ws",
+  "story": "S3",
+  "url": "https://tek.sapo.pt/extras/site-do-dia/artigos/road-2-web-summit-2026-ja-aceita-candidaturas-de-startups-portuguesas-para-mais-uma-edicao/",
+  "title": "Road 2 Web Summit 2026 já aceita candidaturas de startups portuguesas para mais uma edição",
+  "publisher": "Tek Notícias (SAPO)",
+  "published": "2026-08-14",
+  "read_on": "2026-11-19",
+  "read_by": "journalist@PrompTugal.dinis",
+  "language": "pt",
+  "kind": "news",
+  "access": "public",
+  "what_it_says": "Reports applications open for the eleventh edition: up to 125 companies, bootcamp in Porto and Lisbon, 50% off ALPHA or BETA, extra space on Portugal's stand, Galp's prizes, last year's winners with their sectors, 1,200 startups since 2016 and three PITCH winners in five editions."
+}

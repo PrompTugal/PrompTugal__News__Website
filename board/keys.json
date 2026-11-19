@@ -3354,7 +3354,10 @@
         "label": "datasci.places@PrompTugal.dinis",
         "fingerprint": "sha256:5427680a0e4325d6",
         "signing_fingerprint": "sha256:88ad94c48197bc2b"
-      }
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJnQ15mXdeJD4LDmYmo1SQCEyqdN6XM2vXmxxiZp+C3x",
+      "session": "https://claude.ai/code/session_01Kw9UwByjKtkJhJ74tTYo5q",
+      "ssh_added": "2026-11-19T02:16Z"
     },
     {
       "id": "place.algarve.east-promptugal",
@@ -3486,7 +3489,10 @@
         "fingerprint": "sha256:d44f59fa90a76f4f",
         "record": "sha256:b30803ba50c3dcc1",
         "signing_fingerprint": "sha256:b30803ba50c3dcc1"
-      }
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAv4/vdKksMHkjnzAudZFndkgo2yj0qznCT+JoFiJg/N",
+      "session": "https://claude.ai/code/session_01Kw9UwB6BEdDPqoqfv9ZyAU",
+      "ssh_added": "2026-11-19T03:12Z"
     },
     {
       "id": "designer.places-2-promptugal",
