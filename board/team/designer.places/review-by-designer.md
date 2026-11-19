@@ -31,3 +31,4 @@ Held back: nothing so far. Next for this lane: LD3 (the five days under the band
 | 18 Nov 20:45 | 62a4f5fcd (passes, library requests none, sweep clean) | passes; on dev |
 | 18 Nov 22:45 | 388f9bc38 (guidance read, library requests none, sweep clean) | passes; on dev |
 | 19 Nov 00:45 | 58a916fda (library requests none, sweep clean) | passes; on dev |
+| 19 Nov 02:45 | ef7de3a36 (a one-value 'Now in' band as a slim row; daily debrief) | passes; on dev. Its trailers are split across two paragraphs, so the signature check reads no Agent:; told it on its lane, with the signing set-up |

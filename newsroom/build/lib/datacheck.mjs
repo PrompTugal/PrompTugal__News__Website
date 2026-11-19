@@ -179,7 +179,8 @@ export function checkData() {
     }
     // the board's machine-read files (board/the-team-setup.md, board/spec-budgets-schema.md), against data/schemas/
     const board = (r, kind) => { if (!fs.existsSync(R(r))) return null; let v; try { v = JSON.parse(fs.readFileSync(R(r), 'utf8')) } catch { errors.push(`${r}: not JSON`); return null } for (const e of validate(v, `${kind}.schema.json`, reg)) errors.push(`${r}: ${e}`); return v }
-    const mine = (r, a, role) => { if (a && a !== `${role}@PrompTugal.dinis`) errors.push(`${r}: agent ${a} != folder`) }
+    // the folder is the role; Dinis's other agent domains are the same role (the maestro, maestro.b@account-b.dinis, 19 Nov; the cells, @AgentiCCells.dinis)
+    const mine = (r, a, role) => { if (a && ![`${role}@PrompTugal.dinis`, `${role}@account-b.dinis`, `${role}@AgentiCCells.dinis`].includes(a)) errors.push(`${r}: agent ${a} != folder`) }
     const teamDir = R('board/team')
     if (fs.existsSync(teamDir)) for (const role of fs.readdirSync(teamDir).filter(d => fs.statSync(path.join(teamDir, d)).isDirectory())) {
         const sr = `board/team/${role}/status.json`, rr = `board/team/${role}/ROLE.md`
