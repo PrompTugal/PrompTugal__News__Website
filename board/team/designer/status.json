@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-19T08:37Z",
+  "updated": "2026-11-19T10:34Z",
   "done": [
+    "10:34 wake: quiet; designer.places@'s sweep onto dev; library requests none; no new design asks",
     "08:37 wake: designer.places@'s age-tag fix for the live band onto dev (passes; checked rendered, no loop, no error); library requests none",
     "06:36 wake: designer.places@'s sweep onto dev; library requests none; dev@'s sites bar v1.2.0 checked: the phone row (SB10) and desktop line (SB11) pass; the switcher is done as designed",
     "04:36 wake: designer.places@'s midnight fix onto dev; library requests none; dev@'s one-way build checked: SB8, SB9, SB12 pass; the phone row (SB10) still to build",

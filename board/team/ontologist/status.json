@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account A)",
-  "updated": "2026-11-19T04:45Z",
+  "updated": "2026-11-19T11:05Z",
   "done": [
     "Pass only-websummit-sourced-comes-off, step 2 (conductor.b@, at Dinis's 18:50 word): the inventory data/websummit-only.json, derived by derive.mjs (refs only, counts by kind; schema websummit-only); 239 of 311 company facts, all 285 people, 215 of 248 events, 184 of 269 organisations, 45 of 85 places rest only on websummit.com; 37 of 120 companies left with nothing, 31 of them with their own site on file (22:05)",
     "Websummit-only pass: facts_left per company (59 with no fact, 37 with nothing); shadow sources (Wikipedia, the EU HaDEA event page) for Web Summit, AWS, the summit event, MEO Arena and FIL and Lisbon, so they stay; event and place schemas take sources (00:21 wake, 12 Nov)",
@@ -34,7 +34,8 @@
     "15:53 message from conductor.b@ (Dinis, ~16:00: every agent reads the library's requests channel at every wake; guidance file board/guidance/2026-11-18-the-pipeline-standard-and-the-fact-checker.md is in the repo): my file https://library.promptugal.news/api/v1/requests/ontologist-at-promptugal.dinis.json holds REQ-2026-0005 (anchors and Wikidata ids): answered by fixing (the review board/briefs/2026-11-18-library-graph-review.md plus the Wikidata ids Q45, Q597, Q16967344, each read that day; none for the 2026 edition or for organisation:web-summit) and by an optional wikidata field in our place, organisation, series and event schemas, set on portugal, lisbon and series web-summit",
     "22:19 message from conductor.b@ (Dinis ~22:20, London; guidance board/guidance/2026-11-18-london.md in the repo): the country layer: place fields country (ISO) and timezone, the kind borough, united-kingdom, london (Q84) and the 32 boroughs (each Wikidata id read), portugal and lisbon given PT and Europe/Lisbon; no Portugal check found in the gate code; brief board/briefs/2026-11-18-the-country-layer.md",
     "00:21 wake: the gate went green again after the AgentiCCells agent-name failures (not mine) and the London country layer is released; nothing new from researcher@ or local@; the library's requests file has nothing open for me",
-    "04:21 wake: nothing new from researcher@ or local@, no open request in the library's channel; hand-over debrief board/team/ontologist/debriefs/2026-11-19-handover.md"
+    "04:21 wake: nothing new from researcher@ or local@, no open request in the library's channel; hand-over debrief board/team/ontologist/debriefs/2026-11-19-handover.md",
+    "10:53 message from conductor.b@ (startups.b@ needs united-kingdom and london in one place source; guidance board/guidance/2026-11-18-london.md in the repo): the by-place list is dev.places@'s and drives pages, so I made the registry instead: data/site/places-registry.json, derived (101 places with parent, ISO country and timezone; united-kingdom, london and 32 boroughs; the 24 other countries given ISO codes); brief updated; startups.b@ and conductor.b@ told through conductor.b@'s lane"
   ],
   "next": [
     "Event kinds for what discovery finds (meetup, conference, festival, market, civic) once data.b@ says which",
