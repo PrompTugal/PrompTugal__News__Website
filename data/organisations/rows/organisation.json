@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "rows",
+  "type": "organisation",
+  "name": "Rows",
+  "names_as_listed": [
+    "Rows"
+  ],
+  "sources": [
+    {
+      "url": "https://blog.superhuman.com/superhuman-to-acquire-rows/",
+      "read_at": "2026-11-19T07:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    },
+    {
+      "url": "https://rows.com/blog/post/rows-is-joining-superhuman",
+      "read_at": "2026-11-19T07:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

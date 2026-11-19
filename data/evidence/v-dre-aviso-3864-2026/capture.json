@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-dre-aviso-3864-2026",
+  "type": "evidence",
+  "source_url": "https://files.diariodarepublica.pt/gratuitos/2s/2026/02/2S037A0000S00.pdf",
+  "beat": "Portugal",
+  "group": "S72",
+  "names": [
+    {
+      "as_listed": "health-system administration",
+      "ref": "organisation:health-system-administration"
+    },
+    {
+      "as_listed": "national health service",
+      "ref": "organisation:national-health-service"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-19-0750.json",
+  "run": "2026-11-19T07:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-19-0750.json"
+    ]
+  }
+}
