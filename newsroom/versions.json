@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1852",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: the registry's per-version bar pins also under .integrity.<file>, so leak scans exempt them (old keys kept)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "3f3c62713"
+  },
+  {
     "version": "v0.1.1851",
     "date": "2026-11-19",
     "what": "security@PrompTugal.dinis: wake 07:03: sweep clean; sites bar 1.2.0 go",
