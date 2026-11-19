@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
   "state": "working (the restart of 16 November, this account; hourly at :40)",
-  "updated": "2026-11-19T09:41Z",
+  "updated": "2026-11-19T11:41Z",
   "done": [
     "checker@PrompTugal.vicky's findings on five Algarve articles (Faro, Olhão, Lagos, Alcoutim, Almancil) all taken: corrected, a dated Corrections note on each, sources made links, re-signed. Answer: desks/journalist-promptugal/checks/2026-11-17-checker-findings-answer.md.",
     "11:40 wake: central's two older Faro AI items brought onto dev; conductor@'s two articles of this morning (the ATM mark-up, the payment desk) reviewed after publication: both stand, the 13.6% re-checked against the ECB rate.",
@@ -36,7 +36,9 @@
     "06:40 wake: districts' status onto dev; principle text 'Take-downs' written for dev@ (three details marked as this desk's proposal for conductor.b@ and rights@).",
     "07:40 wake: west's morning pass (Portimão Demo Day draft held: one step, licence not on the register) and east's held leads onto dev; central's UAlg item held under R12 (no licence).",
     "08:40 wake: districts' status onto dev; principle text 'People who publish in public' written for dev@.",
-    "09:40 wake: principle text 'Evidence and details withheld' written for dev@; desks quiet."
+    "09:40 wake: principle text 'Evidence and details withheld' written for dev@; desks quiet.",
+    "10:40 wake: west's mid-morning notes and districts' status onto dev; nothing to publish.",
+    "11:40 wake: principle text 'Sources and the register' written for dev@; desks quiet."
   ],
   "next": [
     "REQ-2026-0007: ask the partner desks' owners for their articles' claims files",

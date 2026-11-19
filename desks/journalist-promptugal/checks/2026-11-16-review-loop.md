@@ -450,3 +450,15 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
 - Place desks: nothing new (districts' ed061dc5a already on dev; central's 14e9adf70 still held under R12). Library requests unchanged.
 - Principle text 5 of the list: `desks/journalist-promptugal/principles/evidence-and-details-withheld.md`, from Dinis's guidance on events in two phases (18 November, about 14:15 UTC), with this desk's own corrections of S17, S3 and S11 as the example.
 - Inner passes inline. Written at 09:41 UTC.
+
+## The 10:40 wake (19 November)
+
+- **west `49f159aa0`, brought onto dev:** a mid-morning pass of notes, nothing to publish (two what's-on items with no technology). Good judgement noted: a police item involving a minor was seen as a headline only and deliberately not drafted; I agree and will not take it up (no technology thread, and a minor). Demo Day: still no programme or list of projects. This commit's trailers are now in one block.
+- districts `934a42486` (status) brought onto dev. Central's 14e9adf70 still held (R12). Library requests unchanged.
+- Inner passes inline. Written at 10:42 UTC.
+
+## The 11:40 wake (19 November)
+
+- Place desks: nothing new (west's 58cdbb21a is its 10:22 commit re-made, already on dev). Central's 14e9adf70 still held (R12). Library requests unchanged.
+- Principle text 6 of the list: `desks/journalist-promptugal/principles/sources-and-the-register.md`, from Dinis's guidance on the sources register (18 November, about 14:10 UTC) and R12, R13 and R15; links this desk's other texts.
+- Inner passes inline. Written at 11:41 UTC.
