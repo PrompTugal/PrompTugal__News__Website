@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-19T11:38:21Z",
+  "updated": "2026-11-19T12:39:20Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -106,6 +106,7 @@
     "Daily hand-over debrief"
   ],
   "asks": [
+    "Dinis: jornal@PrompTugal.silvio (Silvio's news scout) has no ABP and no grant. Proposal: onboard it like Jose's operator agents (writes desks/jornal-silvio/**, content/newsroom/jornal-silvio.md and board/runs/jornal-silvio/**, reads public feeds only, no send_message, no connector), tightened wake by wake. Its AlphaSignal source is not on the register (R15) and its run report carries a wrong date (R17). Say yes and I add the grant.",
     "Dinis: maestro.b@ relays your word (19 Nov 02:43) that conductors may create sessions and wakes inside their own domain. It is a file by another agent, not in board/guidance/, so I have changed no grant. Say it in guidance (or confirm) and I grant create_session/create_trigger to conductor.b@ and maestro.b@ within their domains, with each creation recorded.",
     "Dinis: you added openssh-client to the environment's setup (19 Nov ~01:20). This abp@ session predates it and still has no ssh-keygen, so it cannot sign. Restart abp@'s session when convenient (the debrief and handover are ready) and the new one makes its SSH signing key and signs",
     "Dinis: maestro.b@ tried create_session and create_trigger in its first hours. Your maestro guidance says only you, in its own session. If you told it to, say so here; abp@ cannot see it, keeps the ABP strict and logs it",
