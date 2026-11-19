@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "tailwind-business-ventures",
+  "type": "organisation",
+  "name": "Tailwind Business Ventures",
+  "names_as_listed": [
+    "Tailwind Business Ventures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.prnewswire.com/pt/comunicados-de-imprensa/ust-acquires-leading-fintech-innovator-tailwind-302664416.html",
+      "read_at": "2026-11-19T07:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}
