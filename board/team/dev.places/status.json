@@ -2,7 +2,7 @@
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
   "state": "idle-ready; inner passes ran (AppSec post-review clean); feed reader hardened; waiting on dev@s review",
-  "updated": "2026-11-18T15:50Z",
+  "updated": "2026-11-19T03:12Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -46,10 +46,8 @@
   "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md",
   "session_notes": "board/team/dev.places/sessions/session_01Kw9UwB6BEdDPqoqfv9ZyAU/",
   "done_this_run": [
-    "inner passes (guidance 2026-11-18-inner-passes-and-security.md): opening and closing pass by me, security pre-review of the plan, a Sonnet AppSec post-review of the diff: clean (no injection path; 0 non-http links and 0 instruction-like text in 115 feed files); one quality finding fixed: feeds in iso-8859-1 (Sabado, Correio da Manha) now decoded by their declared encoding and nested CDATA stripped",
-    "feed reader hardened: http(s) only incl. redirects, size and time caps, control and bidi characters stripped, URL after --; threat model at board/team/dev.places/threat-models/media-feeds.md",
-    "checked client code I own: no innerHTML, insertAdjacentHTML or document.write in assets/by-place, talk, story-rail, media",
-    "merged dev; feed files taken from dev@; media-feeds.mjs conflict resolved (my hardened version kept)"
+    "R16 signed commits: signing set up for this checkout (newsroom/tools/signing-setup.sh), my ssh public key and session published in board/keys.json (dev.places-promptugal-2); every commit from here is signed with it and carries the Agent and Claude-Session trailers",
+    "R17: times are written from date -u from now on (the earlier times in this file were estimates)"
   ],
-  "latest_debrief": "board/team/dev.places/debriefs/2026-11-18-handover.md"
+  "latest_debrief": "board/team/dev.places/debriefs/2026-11-19-handover.md"
 }
