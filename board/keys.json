@@ -3265,7 +3265,10 @@
         "label": "translator@PrompTugal.dinis",
         "fingerprint": "sha256:779eadee21e39f63",
         "signing_fingerprint": "sha256:60f33ba9cb5c03d0"
-      }
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPhzRFCVtGiCozh5b19V1wxv6hrIOmI0ikcu4MGAdtNo",
+      "session": "https://claude.ai/code/session_01Kw9UwCg9Rj5tfjTcrSJZxT",
+      "ssh_added": "2026-11-19T16:01Z"
     },
     {
       "id": "conductor-jose-promptugal",
