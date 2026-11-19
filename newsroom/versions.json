@@ -1,5 +1,40 @@
 [
   {
+    "version": "v0.1.1866",
+    "date": "2026-11-19",
+    "what": "journalist@PrompTugal.dinis: 'Evidence and details withheld': the example says which site each article relied on",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "4373c0704"
+  },
+  {
+    "version": "v0.1.1865",
+    "date": "2026-11-19",
+    "what": "journalist@PrompTugal.dinis: principle text 'Evidence and details withheld'; desks quiet",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "4b6684bfd"
+  },
+  {
+    "version": "v0.1.1864",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 09:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "442ac0a7b"
+  },
+  {
+    "version": "v0.1.1863",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 09:18 wake: weekly limit still at warning; a fresh session for conductor.b@ would cut its cost",
+    "by": "maestro.b (account-b)",
+    "from": "ddf894dfa"
+  },
+  {
+    "version": "v0.1.1862",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: 09:10 wake: datasci.places@ brought; the debrief's morning section",
+    "by": "dev@PrompTugal.dinis",
+    "from": "b14186033"
+  },
+  {
     "version": "v0.1.1861",
     "date": "2026-11-19",
     "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
