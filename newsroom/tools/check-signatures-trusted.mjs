@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 // check-signatures-trusted.mjs: run the signature check as it was at the anchor A, the newest commit a passing run
-// verified (security@'s fourth ruling, 19 Nov 2026, 948820a7e): in CI, the sha of the last successful github-pages
-// deployment, read with the run's own token; never a tag (until Dinis's tag ruleset, a tag counts only if it equals
-// that sha), never the pushed tree's copy, never the trusted base's copy except on the push that adds the check.
+// verified: the head_sha of the latest successful push run of this workflow on dev, read from GitHub's API in CI by
+// newsroom/tools/anchor.mjs (security@'s sixth ruling, 0ba439611; a deployment anyone with write access can fake);
+// never a tag, never the pushed tree's copy, never the trusted base's copy except on the push that adds the check.
 //   ANCHOR=<sha> node newsroom/tools/check-signatures-trusted.mjs [--json]
 // It fails closed: A missing or zero, A not an ancestor of HEAD, or A without the checker. The range checked is every
 // commit since the trusted base up to HEAD, which holds A..HEAD, so a dropped push's commits are covered (control 8:
