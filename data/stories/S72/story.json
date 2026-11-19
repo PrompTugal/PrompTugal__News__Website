@@ -5,7 +5,7 @@
   "title": "Update: the health service's remote physiotherapy is open to any provider",
   "beat": "Portugal",
   "topic": null,
-  "status": "draft",
+  "status": "ready",
   "rests_on": [
     "evidence:v-dre-aviso-3864-2026",
     "evidence:v-acss-letter-sword-convention"
@@ -17,7 +17,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-19-0750.json",
-      "desks/journalist-vicky/drafts/S72-remote-physiotherapy-open-to-any-provider-update.md"
+      "desks/journalist-vicky/drafts/S72-remote-physiotherapy-open-to-any-provider-update.md",
+      "desks/reviewer-vicky/reviews/S72.md"
     ]
   },
   "assignee": "journalist-portugal@PrompTugal.vicky",
@@ -25,9 +26,16 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S72-remote-physiotherapy-open-to-any-provider-update.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S72.md",
+      "verdict": "Ready, published as an update note to S69 under R-PUB-1",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-19"
+    }
+  ],
   "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "next": "publish and sign",
   "history": [
     {
       "column": "idea",
@@ -40,6 +48,12 @@
       "at": "2026-11-19",
       "by": "journalist-portugal@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S72-remote-physiotherapy-open-to-any-provider-update.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-19",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S72.md"
     }
   ]
 }
