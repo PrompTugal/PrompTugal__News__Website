@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-19T14:35Z",
+  "updated": "2026-11-19T17:44Z",
   "done": [
+    "17:44: twice-a-day guidance read: the stale threshold moves to about 13 hours (asked designer.places@ for by-place.js); conductor.b@'s camera and map word is not yet on dev (board/guidance/2026-11-19-cameras-as-links-and-the-map.md missing at 17:44), so the shared map look waits for it",
     "14:35 wake: quiet; designer.places@'s sweep onto dev; library requests none; no new design asks",
     "12:34 wake: quiet; designer.places@'s sweep onto dev; library requests none; no new design asks",
     "10:34 wake: quiet; designer.places@'s sweep onto dev; library requests none; no new design asks",
@@ -162,6 +163,7 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
+    "The shared map look (Portugal big, London and Brussels/EU as small insets) once board/guidance/2026-11-19-cameras-as-links-and-the-map.md is on dev",
     "Check each site's /preview.svg in the bar's pop-up as the site leads add them (SB6)",
     "Check the library's ART numbering (library.b@)",
     "Check LD1-5, V1-6, MP1-9, LM1 and the since look once built",

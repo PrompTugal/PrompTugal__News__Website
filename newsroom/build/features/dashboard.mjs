@@ -37,6 +37,8 @@ export function model(ctx) {
     const hours = Array.from({ length: 24 }, (_, i) => new Date(Math.floor(now / 3600e3) * 3600e3 - (23 - i) * 3600e3))
     const names = [...new Set([...schedule.tasks.map(t => short(t.agent)), ...roles])].sort()
     const agents = names.map(role => {
+        // agents wake twice a day (Dinis, 19 Nov, board/guidance/2026-11-19-twice-a-day.md): stale after 13 hours
+        const STALE_AFTER = 13 * 3600e3
         const s = status[role] || {}, task = schedule.tasks.find(t => short(t.agent) === role) || null
         const wakes = (s.wakes || []).map(w => ({ ...w, t: new Date(String(w.started || '').replace(/Z?$/, 'Z')) })).filter(w => !isNaN(w.t))
         const mine = recent.filter(c => short(c.agent) === role)
@@ -45,7 +47,7 @@ export function model(ctx) {
         return {
             role, agent: s.agent || task?.agent || `${role}@PrompTugal.dinis`, focus: s.focus || null, state: s.state || null,
             minute: task ? task.minute : null, scheduled: !!task && task.state === 'enabled', updated: s.updated || null,
-            stale: !!task && task.state === 'enabled' && (!updated || now - updated > 2 * 3600e3 + 15 * 60e3),
+            stale: !!task && task.state === 'enabled' && (!updated || now - updated > STALE_AFTER),
             last_wake: wakes.length ? { started: wakes[wakes.length - 1].started, outcome: wakes[wakes.length - 1].outcome, release: wakes[wakes.length - 1].release || null, line: wakes[wakes.length - 1].line || null } : null,
             done: s.done || [], next: s.next || [], asks: s.asks || [], commits_24h: mine.length, grid: grid.join(''),
         }

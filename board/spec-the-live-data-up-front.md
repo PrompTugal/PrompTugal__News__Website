@@ -59,3 +59,6 @@ dev@'s 2589626c5: the town band now refreshes live from data.promptugal.news, th
 
 ## 19 Nov, 00:50 UTC: what changed
 Dinis, 18 Nov about 23:45 UTC: billing only on promptugal.news, which shows only data whose licence allows commercial use; IPMA comes off it (dev@, 4c0785e35, 27d9026ea). The town band keeps Faro airport and links PrompTugal Weather. So LD1's 17-town temperatures, LD3's five days and LD4's warning now belong to **weather.promptugal.news**, not to this site; LD2 is met here by removal. This spec stays as the design for the weather site's place pages and its home panel.
+
+## 19 Nov, 17:44 UTC: twice a day
+board/guidance/2026-11-19-twice-a-day.md: data is collected twice a day, so "stale" moves from 3 hours to about 13 hours on every band (sent to designer.places@ for assets/by-place/by-place.js's `mins > 180`). The check above, "the read time under three hours", becomes "under thirteen hours".
