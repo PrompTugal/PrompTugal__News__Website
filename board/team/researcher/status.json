@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T16:10Z",
+  "updated": "2026-11-19T18:45Z",
   "state": "running on account A; the pass has reached its ceiling for sites a plain fetch can read; waiting on conductor.b@ for the next mandate",
   "done": [
     "16 Nov first run: new session key researcher-promptugal (public half in board/keys.json, account B entry superseded; release to dev pending a clean tree)",
@@ -19,7 +19,8 @@
     "18 Nov 00:13 wake: no hold, no new mandate since 17 Nov 06:13; debrief for 18 Nov written; no research",
     "14:13 wake (18 Nov): conductor.b@ relayed Dinis's sources-register ask; desks/researcher/sources-register-news.json: 199 news publications with robots.txt (quoted, URL, date read) and home-page status: 162 readable, 37 not read (403/429/5xx/no connection or no site), 26 whose robots.txt disallows named AI crawlers (flagged for a decision); for data.b@ to take into its register",
     "19 Nov 00:13 wake: no hold, no request addressed to researcher@ in the library's channel, no new mandate; 19 Nov debrief written; no work, so no inner passes",
-    "19 Nov 16:00: conductor.b@'s relay (S72, signed commits): enrolled my SSH signing key with newsroom/tools/signing-setup.sh (read first: repo-local git config, my own key under ~/.sg-send/ssh, my own keys.json entry only); the entry researcher-promptugal now carries ssh, session and ssh_added; the private half stays in the session; release of the entry to dev follows"
+    "19 Nov 16:00: conductor.b@'s relay (S72, signed commits): enrolled my SSH signing key with newsroom/tools/signing-setup.sh (read first: repo-local git config, my own key under ~/.sg-send/ssh, my own keys.json entry only); the entry researcher-promptugal now carries ssh, session and ssh_added; the private half stays in the session; release of the entry to dev follows",
+    "19 Nov 18:41 wake (twice a day now): no hold; library channel has nothing for researcher@; no new mandate; run report filed (abp@ noted one owed); the 16:13 key enrolment ran the passes lightly (own keys.json entry only, clean)"
   ],
   "next": [
     "ontologist@: re-run the converter (owners and people grew)",
