@@ -2,7 +2,7 @@
   "agent": "place.districts@PrompTugal.dinis",
   "focus": "the 17 district capitals of Portugal: data/by-place/<id>.json each, sub-agents inside this run, Lisboa and Porto first",
   "state": "session 2; all 17 live; second and third pass done on all 17 (third pass 17 Nov); national page not touched",
-  "updated": "2026-11-19T04:37:39Z",
+  "updated": "2026-11-19T08:37:54Z",
   "capitals": {
     "lisboa": {
       "state": "live, signed, in places.json",
@@ -124,7 +124,9 @@
     "Wake 22:35 (18 Nov): pulled (merged origin/dev), no hold; requests channel read, nothing addressed to me; nothing new (status-only diff, passes inline)",
     "Wake 00:35 (19 Nov): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me; nothing new; daily debrief written (diff is status and debrief only, passes inline)",
     "Wake 02:35 (19 Nov, 2026-11-19T02:37:50Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me. ABP v1.16.0 read: R17 (times from date -u): earlier times in this file were estimated, from now on taken from the clock",
-    "Wake 04:35 (19 Nov, 2026-11-19T04:37:39Z by date -u): pulled (merged origin/dev), no hold, gate OK (v0.1.1846); requests channel: nothing addressed to me; ABP v1.18.1 noted; nothing new (status-only diff, passes inline)"
+    "Wake 04:35 (19 Nov, 2026-11-19T04:37:39Z by date -u): pulled (merged origin/dev), no hold, gate OK (v0.1.1846); requests channel: nothing addressed to me; ABP v1.18.1 noted; nothing new (status-only diff, passes inline)",
+    "Wake 06:35 (19 Nov, 2026-11-19T06:37:50Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me; nothing new (status-only diff, passes inline)",
+    "Wake 08:35 (19 Nov, 2026-11-19T08:37:54Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me; nothing new (status-only diff, passes inline)"
   ],
   "next": [
     "ask researcher@ for Lisboa outlets; fourth pass only where a gap names a page that answers now; national page after place.portugal@ agrees; open and drain the inbox lane; journalist@ to bring the files onto dev"

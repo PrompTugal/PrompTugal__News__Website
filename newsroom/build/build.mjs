@@ -42,15 +42,18 @@ let whole
 ctx.graph = () => whole || (whole = buildGraph(ctx.store, ctx))
 
 // 1. pages, from every feature in order
+// BUILD_PROFILE=1: each feature's time per phase, printed at the end (dev@, 19 Nov: the gate outgrew CI's 5 minutes)
+const PROF = process.env.BUILD_PROFILE ? new Map() : null
+const timed = async (phase, f, fn) => { if (!PROF) return fn(); const t = performance.now(); try { return await fn() } finally { const k = `${phase} ${f.name}`; PROF.set(k, (PROF.get(k) || 0) + performance.now() - t) } }
 const pages = []
-for (const f of features) if (f.pages) for (const p of await f.pages(ctx)) pages.push({ ...p, feature: p.feature || f.name })
+for (const f of features) if (f.pages) for (const p of await timed('pages', f, () => f.pages(ctx))) pages.push({ ...p, feature: p.feature || f.name })
 const seen = new Map()
 for (const p of pages) {
     if (seen.has(p.rel)) throw new Error(`${p.rel} is made twice (by ${seen.get(p.rel)} and ${p.feature})`)
     seen.set(p.rel, p.feature)
 }
 // 2. features may decorate any page (the articles feature adds the byline to articles, for example)
-for (const f of features) if (f.decorate) for (const p of pages) f.decorate(p, ctx)
+for (const f of features) if (f.decorate) await timed('decorate', f, () => { for (const p of pages) f.decorate(p, ctx) })
 // 3. defaults every page gets: its section, its llms.txt group, its type and date, its crumbs
 const groupOf = rel => (NAV.llms_groups.find(g => matches(rel, g.match)) || { group: 'Other' }).group
 for (const p of pages) {
@@ -94,7 +97,7 @@ for (const p of pages) {
 
 // 6. the JSON API: every feature's files, each with its schema name, then the search documents and the manifest
 const api = []
-for (const f of features) if (f.api) for (const file of await f.api(ctx)) api.push({ ...file, feature: f.name })
+for (const f of features) if (f.api) for (const file of await timed('api', f, () => f.api(ctx))) api.push({ ...file, feature: f.name })
 const searchDocs = []
 for (const f of features) if (f.searchDocs) searchDocs.push(...await f.searchDocs(ctx))
 if (searchDocs.length) api.push({ path: 'api/v1/search-docs.json', schema: 'search-docs', feature: 'core', data: { version: VERSION, count: searchDocs.length, docs: searchDocs } })
@@ -119,7 +122,7 @@ const licensed = (path, data) => {
     else j.license = fileLicence()
     return json(j)
 }
-for (const f of features) if (f.final) for (const file of await f.final(ctx)) {
+for (const f of features) if (f.final) for (const file of await timed('final', f, () => f.final(ctx))) {
     file.data = licensed(file.path, file.data)
     write(file.path, file.data)
     manifest.push({ path: file.path, bytes: Buffer.byteLength(file.data), sha256: (await import('node:crypto')).createHash('sha256').update(file.data).digest('hex'), schema: null, feature: f.name })
@@ -141,3 +144,4 @@ write('robots.txt', robotsTxt(site))
 
 finish()
 console.log(`built ${pages.length} pages (${written.size} files) at ${VERSION}`)
+if (PROF) console.error([...PROF].sort((a, b) => b[1] - a[1]).slice(0, 25).map(([k, v]) => `${(v / 1000).toFixed(1).padStart(6)} s  ${k}`).join('\n'))

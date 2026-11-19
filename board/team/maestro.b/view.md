@@ -1,11 +1,11 @@
 # Account B: every active session (ASCII view)
 
-Written by maestro.b (account-b) at 2026-11-19T06:18Z from list_sessions, get_session and list_triggers (status and cost only, never transcripts). Rewritten at each wake.
+Written by maestro.b (account-b) at 2026-11-19T07:19Z from list_sessions, get_session and list_triggers (status and cost only, never transcripts). Rewritten at each wake.
 
 ```
 +============================================================================================+
 | ACCOUNT B: EVERY ACTIVE SESSION, ITS STATE, BLOCKERS AND SCHEDULE                          |
-| maestro.b (account-b), 2026-11-19T06:18Z                                                   |
+| maestro.b (account-b), 2026-11-19T07:19Z                                                   |
 | from list_sessions, get_session, list_triggers (status only, never transcripts)            |
 +============================================================================================+
   >> working   ok idle, last turn done   !! blocked: waits on a person   XX failed
@@ -13,82 +13,84 @@ Written by maestro.b (account-b) at 2026-11-19T06:18Z from list_sessions, get_se
 
      session                                last  wake                         cost
   .-- FOCUSED CONDUCTORS --------------------------------------------------------------------
-  | >> conductor.b@                       02:18Z  hourly :48 UTC               $329
-  | ok conductor.b@AgentiCCells           06:07Z  hourly :06 UTC                $12
+  | >> conductor.b@                       07:18Z  hourly :48 UTC               $351
+  | !! conductor.b@AgentiCCells           07:07Z  hourly :06 UTC                $12
+  |    '-> - https://claude.ai/code/session_01Kw9UwFgyMuNDYCnrW1ZKkm - Dinis: should conducto
   | ok cells.b (AgentiCCells)             03:19Z  -- none --                    $25
   | !! writer-10 (newsroom.sgit.ai)       03:19Z  09:47+18:47 London            $19
-  |    '-> confirm: refuse every commit but the writer and CI version commits; choose CI opti
+  |    '-> confirm the reading (refuse all commits except writer and CI version commits), and
   '------------------------------------------------------------------------------------------
 
   .-- AGENTICCELLS (cells.b's own conductors) -----------------------------------------------
+  | !! conductor.agenticcells-ai@         04:55Z  -- none --                       
+  |    '-> Dinis to decide the 10 items in team/rounds/5.md (home page, £50 price, contact ad
+  | !! hub.b@                             03:19Z  -- none --                       
+  |    '-> pick option 1 (allow hub.b@ in the CI check) or option 2 (re-sign commit as hub-b@
+  | >> cells.b conductor (private project 07:17Z  -- none --                       
   | !! conductor.evals@                   03:06Z  -- none --                       
-  |    '-> approve its two repository attach requests; provider 2 domain and key name
+  |    '-> approve the two repo attaches when requested; give provider 2's domain and key env
   | ok cells.b conductor (private project 02:18Z  -- none --                       
-  | >> hub.b@                             03:08Z  -- none --                       
-  | >> cells.b conductor (private project 03:17Z  -- none --                       
   '------------------------------------------------------------------------------------------
 
   .-- SIDE-CARS -----------------------------------------------------------------------------
-  | ok telemetry.b@                       01:29Z  hourly :26 UTC                 $9
-  | ok abp@                               02:06Z  hourly :37 UTC                   
-  | ok rights@                            02:08Z  hourly :45 UTC                   
-  | ok security@                          03:14Z  1h day/3h night :03              
+  | !! telemetry.b@                       06:29Z  hourly :26 UTC                 $9
+  |    '-> Dinis to vouch for telemetry.b's key entry (encrypted vault still open)
+  | ok abp@                               06:47Z  hourly :37 UTC                   
+  | ok rights@                            06:45Z  hourly :45 UTC                   
+  | ok security@                          07:17Z  1h day/3h night :03              
   '------------------------------------------------------------------------------------------
 
   .-- PROMPTUGAL MAIN TEAM (under conductor.b@) ---------------------------------------------
-  | ok journalist@                        01:48Z  hourly :40 UTC                   
-  | ok dev@                               02:17Z  hourly :08 UTC                   
-  | ok designer@                          01:41Z  2h :33 UTC                       
-  | ok correspondent@                     00:52Z  2h :44 UTC                       
-  | ok ontologist@                        00:31Z  2h :21 UTC                       
-  | ok researcher@                        02:14Z  hourly :13 UTC                   
-  | ok datasci.places@                    02:16Z  hourly :15 UTC                   
-  | ok dev.places@                        02:12Z  hourly :11 UTC                   
-  | ok designer.places@                   01:00Z  2h :52 UTC                       
-  | ok translator@                        00:59Z  3h :57 UTC                       
-  | ok outreach@                          00:49Z  3h :38 UTC                       
-  | !! sherpa@                            00:30Z  3h :29 UTC                       
-  |    '-> provide the missing sgit inbox token
-  | ok librarian@                         01:03Z  3h :56 UTC                       
-  | ok place.algarve.west@                01:21Z  hourly :20 UTC                   
-  | ok place.algarve.central@             01:26Z  hourly :25 UTC                   
-  | ok place.algarve.east@                01:42Z  hourly :30 UTC                   
-  | ok place.districts@                   00:38Z  2h :35 UTC                       
+  | ok journalist@                        06:51Z  hourly :40 UTC                   
+  | >> dev@                               07:18Z  hourly :08 UTC                   
+  | ok designer@                          06:39Z  2h :33 UTC                       
+  | ok correspondent@                     06:44Z  2h :44 UTC                       
+  | ok ontologist@                        06:22Z  2h :21 UTC                       
+  | ok researcher@                        07:14Z  hourly :13 UTC                   
+  | ok datasci.places@                    07:16Z  hourly :15 UTC                   
+  | ok dev.places@                        07:12Z  hourly :11 UTC                   
+  | ok designer.places@                   07:00Z  2h :52 UTC                       
+  | ok translator@                        06:58Z  3h :57 UTC                       
+  | ok outreach@                          06:50Z  3h :38 UTC                       
+  | !! sherpa@                            06:30Z  3h :29 UTC                       
+  |    '-> provide the missing sgit inbox token; if the signed commit is refused, a person or
+  | ok librarian@                         07:02Z  3h :56 UTC                       
+  | ok place.algarve.west@                06:20Z  hourly :20 UTC                   
+  | ok place.algarve.central@             06:26Z  hourly :25 UTC                   
+  | ok place.algarve.east@                06:43Z  hourly :30 UTC                   
+  | ok place.districts@                   06:38Z  2h :35 UTC                       
   '------------------------------------------------------------------------------------------
 
   .-- PROMPTUGAL SITE LEADS (under conductor.b@) --------------------------------------------
-  | !! data.b@                            03:10Z  hourly :03 Lis                   
-  |    '-> EPSS source; Met Office key; raw-history vault secrets; branch protection
-  | ok weather.b@                         02:15Z  3h 07-22 Lis :13                 
-  | ok civic.b@                           02:16Z  3h 07-22 Lis :23                 
-  | ok startups.b@                        02:15Z  3h 07-22 Lis :43                 
-  | ok travel.b@                          02:16Z  3h 07-22 Lis :53                 
-  | ok events.b@                          02:16Z  3h 07-22 Lis :33                 
-  | ok signals.b@                         02:18Z  3h 07-22 Lis :28                 
-  | ok library.b@                         02:18Z  3h 07-22 Lis :38                 
-  | ok videos.b@                          02:16Z  3h 07-22 Lis :48                 
-  | !! live.b@                            02:17Z  3h 07-22 Lis :08                 
-  |    '-> - May outreach@ draft the request to MEO for its BeachCam feeds?
-  | ok cyber.b@                           02:17Z  3h 07-22 Lis :18                 
-  | !! bulletins.b@                       02:18Z  3h 07-22 Lis :58                 
-  |    '-> Answer: format (front page, radio script, or top stories first); audio now? (Eleve
+  | >> data.b@                            07:18Z  hourly :03 Lis                   
+  | >> weather.b@                         07:18Z  3h 07-22 Lis :13                 
+  | >> civic.b@                           07:18Z  3h 07-22 Lis :23                 
+  | >> startups.b@                        07:18Z  3h 07-22 Lis :43                 
+  | >> travel.b@                          07:18Z  3h 07-22 Lis :53                 
+  | >> events.b@                          07:18Z  3h 07-22 Lis :33                 
+  | >> signals.b@                         07:18Z  3h 07-22 Lis :28                 
+  | >> library.b@                         07:18Z  3h 07-22 Lis :38                 
+  | >> videos.b@                          07:18Z  3h 07-22 Lis :48                 
+  | >> live.b@                            07:18Z  3h 07-22 Lis :08                 
+  | >> cyber.b@                           07:18Z  3h 07-22 Lis :18                 
+  | >> bulletins.b@                       07:18Z  3h 07-22 Lis :58                 
   '------------------------------------------------------------------------------------------
 
   .-- THIS SESSION --------------------------------------------------------------------------
-  | >> maestro.b (account-b)              02:18Z  hourly :18 UTC                   
+  | >> maestro.b (account-b)              07:18Z  hourly :18 UTC                   
   '------------------------------------------------------------------------------------------
 
   .-- DORMANT: idle since before 18 Nov, no enabled wake -----------------------------------
-  | 61 sessions: the Fringe swarm (11-14 Nov), the iOS team and night push (7-11 Nov),
+  | 57 sessions: the Fringe swarm (11-14 Nov), the iOS team and night push (7-11 Nov),
   | the first account-B dev.* workers, backup, historian, customers, investors.packs (7-13 Nov).
-  | 18 still read 'blocked', most on a board/HOLD.md that no longer exists: stale, not live.
+  | 15 still read 'blocked', most on a board/HOLD.md that no longer exists: stale, not live.
   | None has a wake, so none costs anything while idle. Archiving them is Dinis's call.
   '------------------------------------------------------------------------------------------
 
   +----------------------------------------------------------------------------------------+
-  | active: 42   blocked on a person: 6   active with no wake: 5                           |
+  | active: 43   blocked on a person: 7   active with no wake: 6                           |
   | enabled wakes: 34 recurring + 1 one-shot; none points at a dead session                |
-  | cost: telemetry.b@'s last count, about $1,722 for 35 sessions (+$170 in its last hour) |
+  | cost: telemetry.b@'s last count, $2,073 for 36 sessions at 06:35 (+$13.55 in its last hour) |
   +----------------------------------------------------------------------------------------+
 
   WAKE CLOCK: the minute past each hour (UTC unless *; * = Lisbon time: 3-hourly 07-22, data.b hourly)
