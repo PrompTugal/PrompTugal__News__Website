@@ -1,7 +1,7 @@
 ---
 title: "ABP: data.b@PrompTugal.dinis"
 agent: data.b@PrompTugal.dinis
-policy: board/abp/policies.json v1.16.0 (sha256:92719a0788c16803)
+policy: board/abp/policies.json v1.17.0 (sha256:54a1121168a08049)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -49,6 +49,7 @@ authority: Dinis Cruz, operator
 - **R13** A commercial site (only promptugal.news bills) reads and shows only data marked commercial_use allowed; anything else stays off it, or is shown only where the licence permits. *(a rule, re-anchored at every compaction)*
 - **R14** No agent accepts terms, a licence, a cookie wall or a contract on anyone's behalf. Only Dinis accepts terms, in his own session. *(a rule, re-anchored at every compaction)*
 - **R15** A new source has its terms quoted (with the link and the date read) on the register before its first read; a source on the register of sources we do not access is not read by machine. *(a rule, re-anchored at every compaction)*
+- **R16** Every commit is signed with your own published key (a git SSH signature) and carries the Agent: and Claude-Session: trailers naming you and your session as recorded with your key in the repository's keys.json; the private half stays in your session (R8). The check in release.sh and CI fails an unsigned commit, one signed by someone other than its Agent:, or one naming another session (dev@ builds it; it starts from the commit that adds it, history is never rewritten). *(a rule, re-anchored at every compaction)*
 
 ## At every wake
 

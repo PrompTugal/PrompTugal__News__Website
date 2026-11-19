@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "lewisham",
+  "type": "place",
+  "name": "Lewisham",
+  "kind": "borough",
+  "located_in": "place:london",
+  "country": "GB",
+  "timezone": "Europe/London",
+  "matches": [],
+  "source": "https://www.wikidata.org/wiki/Q215030",
+  "note": "A borough of Greater London.",
+  "wikidata": {
+    "id": "Q215030",
+    "read_at": "2026-11-18T22:40Z",
+    "how": "Wikidata query (instances of London borough, Q211690), read 18 Nov 2026; label \"London Borough of Lewisham\""
+  }
+}

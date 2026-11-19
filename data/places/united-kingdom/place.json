@@ -7,5 +7,12 @@
   "located_in": null,
   "matches": [],
   "source": "data/companies/",
-  "note": "Named as a company's country in the team's company map."
+  "note": "Named as a company's country in the team's company map.",
+  "country": "GB",
+  "timezone": "Europe/London",
+  "wikidata": {
+    "id": "Q145",
+    "read_at": "2026-11-18T22:40Z",
+    "how": "Special:EntityData/Q145 read: United Kingdom, island country in north-west Europe"
+  }
 }

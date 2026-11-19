@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account A)",
-  "updated": "2026-11-18T16:25Z",
+  "updated": "2026-11-19T00:40Z",
   "done": [
     "Pass only-websummit-sourced-comes-off, step 2 (conductor.b@, at Dinis's 18:50 word): the inventory data/websummit-only.json, derived by derive.mjs (refs only, counts by kind; schema websummit-only); 239 of 311 company facts, all 285 people, 215 of 248 events, 184 of 269 organisations, 45 of 85 places rest only on websummit.com; 37 of 120 companies left with nothing, 31 of them with their own site on file (22:05)",
     "Websummit-only pass: facts_left per company (59 with no fact, 37 with nothing); shadow sources (Wikipedia, the EU HaDEA event page) for Web Summit, AWS, the summit event, MEO Arena and FIL and Lisbon, so they stay; event and place schemas take sources (00:21 wake, 12 Nov)",
@@ -31,14 +31,17 @@
     "15:03 message from conductor.b@ (inner passes, Dinis's word 18 Nov ~15:05; the guidance file board/guidance/2026-11-18-inner-passes-and-security.md is in the repo and on the guidance list): taken as standing guidance. First AppSec post-review, by a Sonnet sub-agent, of my code since 16 Nov: gate code (datacheck, derive, data) clean, data free of contact details and of prompt injection; three gaps in my converter fixed (the record id is now checked before it names a folder, URLs must be plain http(s) with no address, the git ref cannot be an option); a rerun changes no data. From the next wake the five inner passes run as Sonnet sub-agents each wake",
     "15:15 message from conductor.b@ (library.promptugal.news, Dinis ~15:30; plan board/briefs/2026-11-18-the-library.md in the repo): the catalogue mapped on the ontology we have (item and collection proposed, three edges with inverses) in board/briefs/2026-11-18-library-catalogue-and-the-ontology.md for library.b@ and data.b@; the gate went red on dev from conductor.b@ files and green again; my held commits are on dev (6ea07beeb)",
     "15:40 message from conductor.b@ (library live, asks for a review of its schema and anchor ids): read the public API graph (169 nodes, 796 edges) and reviewed it: sound (no duplicates or dangling edges, five anchors are ours); six alignments (edges stored both ways, verb under 'type', verb names, days typed as events, topics, agents) in board/briefs/2026-11-18-library-graph-review.md; the library's verb names adopted over my proposal",
-    "15:53 message from conductor.b@ (Dinis, ~16:00: every agent reads the library's requests channel at every wake; guidance file board/guidance/2026-11-18-the-pipeline-standard-and-the-fact-checker.md is in the repo): my file https://library.promptugal.news/api/v1/requests/ontologist-at-promptugal.dinis.json holds REQ-2026-0005 (anchors and Wikidata ids): answered by fixing (the review board/briefs/2026-11-18-library-graph-review.md plus the Wikidata ids Q45, Q597, Q16967344, each read that day; none for the 2026 edition or for organisation:web-summit) and by an optional wikidata field in our place, organisation, series and event schemas, set on portugal, lisbon and series web-summit"
+    "15:53 message from conductor.b@ (Dinis, ~16:00: every agent reads the library's requests channel at every wake; guidance file board/guidance/2026-11-18-the-pipeline-standard-and-the-fact-checker.md is in the repo): my file https://library.promptugal.news/api/v1/requests/ontologist-at-promptugal.dinis.json holds REQ-2026-0005 (anchors and Wikidata ids): answered by fixing (the review board/briefs/2026-11-18-library-graph-review.md plus the Wikidata ids Q45, Q597, Q16967344, each read that day; none for the 2026 edition or for organisation:web-summit) and by an optional wikidata field in our place, organisation, series and event schemas, set on portugal, lisbon and series web-summit",
+    "22:19 message from conductor.b@ (Dinis ~22:20, London; guidance board/guidance/2026-11-18-london.md in the repo): the country layer: place fields country (ISO) and timezone, the kind borough, united-kingdom, london (Q84) and the 32 boroughs (each Wikidata id read), portugal and lisbon given PT and Europe/Lisbon; no Portugal check found in the gate code; brief board/briefs/2026-11-18-the-country-layer.md",
+    "00:21 wake: the gate went green again after the AgentiCCells agent-name failures (not mine) and the London country layer is released; nothing new from researcher@ or local@; the library's requests file has nothing open for me"
   ],
   "next": [
     "Event kinds for what discovery finds (meetup, conference, festival, market, civic) once data.b@ says which",
     "More series as discovery names them; past editions kept",
     "Jose's staff-data answer from Dinis before any person is added to an outlet",
     "Derive provenance claim counts from claims.json once journalist@ writes the first provenance.json",
-    "Locality layer: km and significance on top of the CAOP neighbours (data.places@); the other districts' municipalities from the same CAOP file when the places exist"
+    "Locality layer: km and significance on top of the CAOP neighbours (data.places@); the other districts' municipalities from the same CAOP file when the places exist",
+    "The City of London (Q23311): how to place it (district of London proposed); more cities as named"
   ],
   "asks": [
     "Dinis: GAMMA-Ray has rated companies that are not in our company map (Noxus, OutSystems, Talkdesk, Codacy, Automaise, ByTheLaw, Visor.ai, Granter, Spinnable, Ethiack, Pebl, Student Property Network, Buzz Messaging): should they join it, so their pages carry their cards? Noxus first, as conductor@ asked.",

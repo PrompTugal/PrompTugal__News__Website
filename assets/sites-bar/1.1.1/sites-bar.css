@@ -1,4 +1,4 @@
-/* The PrompTugal sites bar v1.1.0 (designer@'s design, board/spec-the-sites-bar.md and design/sites-bar/sites-bar.html.txt;
+/* The PrompTugal sites bar v1.1.1 (designer@'s design, board/spec-the-sites-bar.md and design/sites-bar/sites-bar.html.txt;
    built by dev@PrompTugal.dinis). Every variable is the bar's own (--ptsb-*), so it never touches the host site's. */
 .ptsb,.ptsb-sheet{--ptsb-bar:#121317;--ptsb-ink:#f6f3ec;--ptsb-mute:#a9aba3;--ptsb-chip:#26272d;--ptsb-pop:#fff;--ptsb-text:#121317;--ptsb-rule:#d8d4cb;--ptsb-muted:#666860;--ptsb-green:#006600}
 [data-theme=dark] .ptsb,[data-theme=dark] .ptsb-sheet{--ptsb-bar:#0b0c0f;--ptsb-mute:#8e9088;--ptsb-chip:#22232a;--ptsb-pop:#1c1d22;--ptsb-text:#f6f3ec;--ptsb-rule:#44453f;--ptsb-muted:#b4b6ad;--ptsb-green:#6dbb7e}
