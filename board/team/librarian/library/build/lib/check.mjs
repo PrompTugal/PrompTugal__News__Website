@@ -135,7 +135,11 @@ export function check(ctx) {
     if (JSON.stringify(r).match(/"(encrypt|sign|bundle|how)"/)) errors.push(`authority ${r.id}: carries a field not allowed from keys.json`)
   }
   const keys = (readJson(path.join(root, 'board/keys.json'), { keys: [] }).keys) || []
-  for (const k of keys) if (!aids.has(authIdOf(k.agent))) errors.push(`authority: no record for the agent of key ${k.id}`)
+  for (const k of keys) {
+    // a key whose `agent` is not a handle (name@operator) gets no authority record: a warning for its owner, not an error (19 November 2026: maestro.b-account-b, agent "maestro.b (account-b)")
+    if (authIdOf(k.agent) === null) { warnings.push(`authority: key ${k.id} names no handle (agent "${String(k.agent).slice(0, 40)}"): no authority record, so no card links to it`); continue }
+    if (!aids.has(authIdOf(k.agent))) errors.push(`authority: no record for the agent of key ${k.id}`)
+  }
   stats.authority = { agent: auth.records.length }
   for (const kind of ['company', 'person', 'organisation', 'place', 'topic', 'concept']) {
     const fname = kind === 'concept' ? 'concepts' : kind

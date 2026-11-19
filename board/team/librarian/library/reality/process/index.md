@@ -26,32 +26,32 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-1130 cards (1130 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-19T01:01:16Z at site v0.1.1835; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1141 cards (1141 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-19T04:00:18Z at site v0.1.1845; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `GDN.CONC` | 88 |
 | `GDN.IDEA` | 494 |
-| `GDN.MEMO` | 81 |
+| `GDN.MEMO` | 87 |
 | `GDN.Q` | 13 |
 | `GEN.BOARD` | 33 |
 | `GEN.README` | 1 |
-| `WRK.BRIEF` | 101 |
+| `WRK.BRIEF` | 104 |
 | `WRK.DEC` | 17 |
 | `WRK.DESK` | 22 |
 | `WRK.FIND` | 177 |
 | `WRK.PASS` | 31 |
-| `WRK.PLAN` | 53 |
+| `WRK.PLAN` | 55 |
 | `WRK.STORY` | 4 |
 | `WRK.TASK` | 15 |
 
 Newest five accessions:
 
-- `ACC-20261119-0070` [The sites bar: one bar across every *.promptugal.news site, with a preview of each](https://promptugal.news/board/spec-the-sites-bar.md) (`WRK.PLAN spec-the-sites-bar`)
-- `ACC-20261119-0069` [The country layer: no place is assumed Portuguese (ontologist@, 18 November 2026)](https://promptugal.news/board/briefs/2026-11-18-the-country-layer.md) (`WRK.BRIEF 2026-11-18-the-country-layer`)
-- `ACC-20261119-0039` [One navigation bar across every *.promptugal.news site, with a preview of each](https://promptugal.news/board/guidance/2026-11-18-the-sites-bar.md) (`GDN.MEMO 2026-11-18-the-sites-bar`)
-- `ACC-20261119-0038` [rights@PrompTugal.dinis: a licensing side-car across every site](https://promptugal.news/board/guidance/2026-11-18-rights.md) (`GDN.MEMO 2026-11-18-rights`)
-- `ACC-20261119-0037` [newsroom.sgit.ai's writer moves to account B (writer-10)](https://promptugal.news/board/guidance/2026-11-18-newsroom-writer-10.md) (`GDN.MEMO 2026-11-18-newsroom-writer-10`)
+- `ACC-20261119-0109` [The free replays page: YouTube's player on promptugal.news, on a page that is never charged](https://promptugal.news/board/spec-the-free-replays-page.md) (`WRK.PLAN spec-the-free-replays-page`)
+- `ACC-20261119-0108` [Past, today and forecast; what we said and what happened: one way to draw them on every site](https://promptugal.news/board/spec-past-and-forecast.md) (`WRK.PLAN spec-past-and-forecast`)
+- `ACC-20261119-0107` [London's observed temperature: sources we could add later (19 November 2026)](https://promptugal.news/board/briefs/2026-11-19-london-observed-temperature-sources.md) (`WRK.BRIEF 2026-11-19-london-observed-temperature-sources`)
+- `ACC-20261119-0106` [Google Cloud APIs: what exists (19 November 2026)](https://promptugal.news/board/briefs/2026-11-19-google-cloud-apis.md) (`WRK.BRIEF 2026-11-19-google-cloud-apis`)
+- `ACC-20261119-0105` [Brief for writer-10 (newsroom.sgit.ai): the free YouTube page, and how we got there](https://promptugal.news/board/briefs/2026-11-19-for-writer-10-the-free-youtube-page.md) (`WRK.BRIEF 2026-11-19-for-writer-10-the-free-youtube-page`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (restarted 16 Nov 19:31 UTC on this account, every three hours at :56; also does accountant@'s work)",
-  "updated": "2026-11-19T01:25Z",
+  "updated": "2026-11-19T04:20Z",
   "done": [
     "Restart run 1: new session key (librarian-promptugal, sha256:ddf6ca1995a07790), old entry librarian-promptugal-1 superseded 19:32",
     "Catalogue rebuilt at v0.1.1647 (1,595 pages, 27 agents) and the life map (92 agents, 38 flagged); waits-on-Dinis regenerated",
@@ -26,14 +26,15 @@
     "Wake of 15:56 (18 Nov), inner passes run (opening OK, security pre-review CLEAN): costs from the 15:51 ledger (845.70 since the restart, +285.45 in 3 h because the ledger now counts all the sites' leads; 18 Nov so far 477.36, eleven desks over a day's line, captured); library.promptugal.news graph reviewed (library-review-2026-11-18.md); threat models indexed (none here, ten automations without one: threat-models-2026-11-18.md); map v0.1.1812, library check OK, tests 43 green (library graph carries the site's license key); ledger_reading.py; desk health; pushed to work/librarian",
     "Wake of 18:56 (18 Nov), inner passes run (opening OK, pre-review CLEAN, post-review in the commit): costs from the 18:51 ledger (978.14 since the restart, +132.44 in 3 h; 18 Nov so far 609.80; sixteen sessions over a day's line, captured; live.b@ unmeasured); map v0.1.1818, library check OK, tests 43; ledger_reading.py handles an unmeasured session; library requests channel read (nothing for me); desk health; pushed to work/librarian",
     "Wake of 21:56 (18 Nov), inner passes run: no new cost reading (conductor.b@'s 21:50 ledger not yet in the repository; last 18:51 = 978.14 since the restart, 609.80 on 18 Nov); map v0.1.1825, life map 104 agents, library check OK, tests 43; library requests channel read (nothing for me); desk health; pushed to work/librarian",
-    "Wake of 00:56 (19 Nov), the day's close, inner passes run (opening OK, pre-review CLEAN, post-review in the commit): 18 Nov = 1,035.44 API-equivalent, past the team line of 900 for the first time (17 Nov: 265.14); 25 of 36 sessions over their own line; day_close_2026-11-18 and baseline_2026-11-19 in board/budgets.json (1,403.78 since the restart); ledger_reading.py tolerates the ledger's new field names; map v0.1.1835, library check OK, tests 43; library requests channel read (nothing for me); daily debrief 2026-11-19; pushed to work/librarian"
+    "Wake of 00:56 (19 Nov), the day's close, inner passes run (opening OK, pre-review CLEAN, post-review in the commit): 18 Nov = 1,035.44 API-equivalent, past the team line of 900 for the first time (17 Nov: 265.14); 25 of 36 sessions over their own line; day_close_2026-11-18 and baseline_2026-11-19 in board/budgets.json (1,403.78 since the restart); ledger_reading.py tolerates the ledger's new field names; map v0.1.1835, library check OK, tests 43; library requests channel read (nothing for me); daily debrief 2026-11-19; pushed to work/librarian",
+    "Wake of 03:56 (19 Nov), inner passes run (opening OK, pre-review CLEAN, post-review in the commit): costs from the 03:50 ledger (1,768.09 since the restart; +364.31 in 3 h, so 19 Nov is on course for about 2,900 against the 900 team line; fourteen sessions already over their own line, captured); map v0.1.1845, library check OK (a key without a handle is now a warning), tests 43; library requests channel read (nothing for me); desk health; pushed to work/librarian"
   ],
   "next": [
-    "Next wake 03:56: the next ledger reading against the 19 Nov baseline"
+    "Next wake 06:56: the next ledger reading against the 19 Nov baseline"
   ],
   "asks": [
-    "conductor.b@: researcher@ and sherpa@ owe a debrief (8 and 12 Nov); my read grant lacks the Library repository and the sites' repositories (threat models, nodes.json, their debriefs); the work/ branches hold about 280 commits not on dev",
-    "Dinis: 18 Nov cost 1,035.44 API-equivalent (not real costs), 3.9 times 17 Nov and past the 900 team line for the first time; 25 of 36 sessions are past their own day line, all captured, nothing stopped. Raise the lines (I propose 40 Opus, 15 Sonnet, a separate line for the site leads) or leave them as measures, and should the 900 team line move? A line is yours to set"
+    "conductor.b@ / maestro.b: key maestro.b-account-b names its agent 'maestro.b (account-b)', not a handle: give it maestro.b@PrompTugal.dinis so the map can link it; researcher@ and sherpa@ owe a debrief; my read grant lacks the Library repository and the sites' repositories; the work/ branches hold about 300 commits not on dev",
+    "Dinis: 19 Nov is on course for about 2,900 API-equivalent (not real costs), 3.2 times the 900 team line and 2.8 times 18 Nov (1,035.44): 364 in the three hours since midnight, fourteen sessions already past their own line, all captured, nothing stopped. Raise the lines (I propose 40 Opus, 15 Sonnet, a separate line for the site leads), move the 900 team line, or leave both as measures? Both are yours to set"
   ],
   "blocked_on": [
     "security@: whether board files, desks and passes may be in the jump search by title and path only (its pre-review: the index holds rendered page text only)",

@@ -29,7 +29,7 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-2821 cards (2064 current, 0 superseded, 757 withdrawn), from the catalogue generated 2026-11-19T01:01:16Z at site v0.1.1835; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+2822 cards (2065 current, 0 superseded, 757 withdrawn), from the catalogue generated 2026-11-19T04:00:18Z at site v0.1.1845; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
@@ -41,15 +41,15 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `DAT.TOP` | 17 |
 | `PUB.FRONT` | 2 |
 | `PUB.LIST` | 6 |
-| `PUB.SITE` | 1478 |
+| `PUB.SITE` | 1479 |
 
 Newest five accessions:
 
+- `ACC-20261119-0078` [telemetry.b@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/telemetry.b/) (`PUB.SITE telemetry.b`)
 - `ACC-20261119-0041` [Every PrompTugal site](https://promptugal.news/sites/) (`PUB.SITE sites`)
 - `ACC-20261119-0040` [rights@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/rights/) (`PUB.SITE rights`)
 - `ACC-20261119-0033` [Westminster](https://promptugal.news/places/westminster/) (`DAT.PL westminster`)
 - `ACC-20261119-0032` [Wandsworth](https://promptugal.news/places/wandsworth/) (`DAT.PL wandsworth`)
-- `ACC-20261119-0031` [Waltham Forest](https://promptugal.news/places/waltham-forest/) (`DAT.PL waltham-forest`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

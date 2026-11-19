@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 1 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T01:01:16Z"
-site_version: "v0.1.1835"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T04:00:18Z"
+site_version: "v0.1.1845"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 1 of 5)
 
-100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.BRIEF gamma-ray-concept-spec`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.BRIEF 2026-11-06-brazil` to `WRK.BRIEF dcc-cost-bars`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -115,6 +115,9 @@ source: board/catalogue.json
 | `WRK.BRIEF 2026-11-18-sources-register` | [The sources register: what we read, what we do not, and asking on the record](https://promptugal.news/board/briefs/2026-11-18-sources-register.md) | brief | conductor.b@ 18 Nov 2026 |
 | `WRK.BRIEF 2026-11-18-the-country-layer` | [The country layer: no place is assumed Portuguese (ontologist@, 18 November 2026)](https://promptugal.news/board/briefs/2026-11-18-the-country-layer.md) | brief | ontologist@ 18 Nov 2026 |
 | `WRK.BRIEF 2026-11-18-the-library` | [The library: library.promptugal.news, the catalogue and the graph at the heart of PrompTugal.news](https://promptugal.news/board/briefs/2026-11-18-the-library.md) | brief | conductor.b@ 18 Nov 2026 |
+| `WRK.BRIEF 2026-11-19-for-writer-10-the-free-youtube-page` | [Brief for writer-10 (newsroom.sgit.ai): the free YouTube page, and how we got there](https://promptugal.news/board/briefs/2026-11-19-for-writer-10-the-free-youtube-page.md) | brief | conductor.b@ 19 Nov 2026 |
+| `WRK.BRIEF 2026-11-19-google-cloud-apis` | [Google Cloud APIs: what exists (19 November 2026)](https://promptugal.news/board/briefs/2026-11-19-google-cloud-apis.md) | brief | conductor.b@ 19 Nov 2026 |
+| `WRK.BRIEF 2026-11-19-london-observed-temperature-sources` | [London's observed temperature: sources we could add later (19 November 2026)](https://promptugal.news/board/briefs/2026-11-19-london-observed-temperature-sources.md) | brief | conductor.b@ 19 Nov 2026 |
 | `WRK.BRIEF README` | [The conductor's briefs](https://promptugal.news/board/editor-briefs/README.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.BRIEF README:2` | [Evidence: dynamic currency conversion at a Portuguese ATM (17 November 2026)](https://promptugal.news/board/briefs/2026-11-17-dcc-atm/README.md) | brief | conductor@ 17 Nov 2026 |
 | `WRK.BRIEF agentic-maturity-standards-selection` | [Agentic AI Maturity Mapping  -  Standards Selection & Graph Model Design](https://promptugal.news/board/briefs/gamma-ray/agentic-maturity-standards-selection.md) | brief | conductor@web-summit.dinis 9 Nov 2026 |
@@ -126,8 +129,5 @@ source: board/catalogue.json
 | `WRK.BRIEF cmp-companies` | [cmp-companies.jpg](https://promptugal.news/board/briefs/img/2026-11-09-mockups-vs-live/cmp-companies.jpg) | brief | conductor@ 9 Nov 2026 |
 | `WRK.BRIEF cmp-people` | [cmp-people.jpg](https://promptugal.news/board/briefs/img/2026-11-09-mockups-vs-live/cmp-people.jpg) | brief | conductor@ 9 Nov 2026 |
 | `WRK.BRIEF dcc-cost-bars` | [dcc-cost-bars.svg](https://promptugal.news/board/briefs/2026-11-17-dcc-atm/img/dcc-cost-bars.svg) | brief | conductor@ 17 Nov 2026 |
-| `WRK.BRIEF dcc-money-flow` | [dcc-money-flow.svg](https://promptugal.news/board/briefs/2026-11-17-dcc-atm/img/dcc-money-flow.svg) | brief | conductor@ 17 Nov 2026 |
-| `WRK.BRIEF dcc-six-levers` | [dcc-six-levers.svg](https://promptugal.news/board/briefs/2026-11-17-dcc-atm/img/dcc-six-levers.svg) | brief | conductor@ 17 Nov 2026 |
-| `WRK.BRIEF gamma-ray-concept-spec` | [GAMMA-Ray  -  Model Name & Concept Specification](https://promptugal.news/board/briefs/gamma-ray/gamma-ray-concept-spec.md) | brief | conductor@web-summit.dinis 9 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](WRK-2.md)
