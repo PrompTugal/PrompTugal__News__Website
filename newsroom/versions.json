@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1879",
+    "date": "2026-11-19",
+    "what": "jornal@PrompTugal.silvio: add AlphaSignal as a lead source and a daily digest to Vicky and Dinis",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "03e451de2"
+  },
+  {
     "version": "v0.1.1878",
     "date": "2026-11-19",
     "what": "dev@PrompTugal.dinis: 12:10 wake: datasci.places@ brought",
