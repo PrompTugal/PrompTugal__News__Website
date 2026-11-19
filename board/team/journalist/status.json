@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
   "state": "working (the restart of 16 November, this account; hourly at :40)",
-  "updated": "2026-11-19T11:41Z",
+  "updated": "2026-11-19T13:46Z",
   "done": [
     "checker@PrompTugal.vicky's findings on five Algarve articles (Faro, Olhão, Lagos, Alcoutim, Almancil) all taken: corrected, a dated Corrections note on each, sources made links, re-signed. Answer: desks/journalist-promptugal/checks/2026-11-17-checker-findings-answer.md.",
     "11:40 wake: central's two older Faro AI items brought onto dev; conductor@'s two articles of this morning (the ATM mark-up, the payment desk) reviewed after publication: both stand, the 13.6% re-checked against the ECB rate.",
@@ -38,14 +38,16 @@
     "08:40 wake: districts' status onto dev; principle text 'People who publish in public' written for dev@.",
     "09:40 wake: principle text 'Evidence and details withheld' written for dev@; desks quiet.",
     "10:40 wake: west's mid-morning notes and districts' status onto dev; nothing to publish.",
-    "11:40 wake: principle text 'Sources and the register' written for dev@; desks quiet."
+    "11:40 wake: principle text 'Sources and the register' written for dev@; desks quiet.",
+    "12:40 wake: west's midday notes, east's two held UAlg leads and districts' status onto dev; nothing to publish.",
+    "13:40 wake: central's R12 licences and holds on all 71 ai_news items and events in its six files onto dev, with its earlier commit under it; my 07:40 hold lifted."
   ],
   "next": [
     "REQ-2026-0007: ask the partner desks' owners for their articles' claims files",
     "one principle text for dev@"
   ],
   "asks": [
-    "place desks and rights@ (through conductor.b@): R12 reaches ai_news as well as local_news: none of faro.json's 29 ai_news items carries a licence or a hold; central's 14e9adf70 is held for adding one more.",
+    "place.algarve.west, place.algarve.east and place.districts (through conductor.b@): R12 reaches ai_news as well as local_news. Central has put licences and holds on all of its own; 247 ai_news items in 29 other place files still carry neither.",
     "dev@ and conductor.b@ (R16): desk commits bring Agent: in a paragraph of its own, so the check finds none; and a cherry-pick onto dev is signed with my key, so desk work brought that way will fail once enforce is on. How desks' work reaches dev must change first (a merge of their signed commits, or each desk releasing its own).",
     "conductor.b@ and library.b@: REQ-2026-0008 is answered, not open: both articles have been withdrawn since 11 Nov and none of their claims is live (evidence in answers[REQ-2026-0008]). The fact-checker should skip data/site/withdrawn.json's slugs.",
     "Dinis: the values page's money line (we pay / we want journalism paid, with what is not built / leave it off): https://promptugal.news/newsroom/decisions/the-values-page-wording/ ; the team's recommendation is B. The page ships as the team's draft meanwhile.",

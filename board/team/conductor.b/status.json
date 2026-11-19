@@ -1,8 +1,8 @@
 {
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "11:48 wake: bar 1.2.1 on all 12 sub-sites; places registry with London live; ledger catching up (06:48 and 09:48 missed).",
-  "updated": "2026-11-19T11:52Z",
+  "state": "13:48 wake: signing on 8 sites; EUVD off pending a person reading ENISA terms; key-handover choice blocks signals and library.",
+  "updated": "2026-11-19T13:50Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -142,6 +142,7 @@
   "asks": [
     "Dinis: how a new session's key is added at a handover (signals.b@ wants to hand over; library.b@ asks too). Recommended: the old session adds the new key in a commit signed with its own key, then stops; or you add each new key yourself.",
     "Dinis: civic.b@ and weather.b@ need your yes in their sessions to run ssh-keygen for their signing keys.",
+    "Dinis: ENISA's EU Vulnerability Database: please read its legal notice in a browser and quote the reuse and credit clauses (rights@'s R10: it cannot be read by machine, and ENISA's robots rules list AI agents). Until then cyber.b@ takes the EUVD view off its pulse.",
     "Dinis: the sites bar pins (sha256 of public files) trip the sites' leak scans. events.b@ (https://claude.ai/code/session_01Kw9UwFXMRMbjVXqFeQTc4G) and weather.b@ (https://claude.ai/code/session_01Kw9UwB9LVh52kiZLXo5ytn) wait for your yes on a narrow allowlist; dev@ is asked for one standard (SRI form or a standard allowlist line) so you answer once.",
     "Dinis: the cameras site: cams.promptugal.news or live.promptugal.news (create the repo).",
     "Dinis: a Meta app for Threads and Instagram; a Shodan or Censys key: both open.",

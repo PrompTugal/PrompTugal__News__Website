@@ -3,7 +3,7 @@
   "id": "vila-real-de-santo-antonio",
   "type": "place",
   "name": "Vila Real de Santo António",
-  "kind": "city",
+  "kind": "municipality",
   "located_in": "place:algarve",
   "matches": [],
   "source": "data/by-place/places.json",
