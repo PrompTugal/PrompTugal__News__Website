@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1927",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 20:18 wake: SAW in Portuguese; a site lead's Gmail draft flagged by abp@ (R3)",
+    "by": "maestro.b (account-b)",
+    "from": "394bbdcf2"
+  },
+  {
     "version": "v0.1.1926",
     "date": "2026-11-19",
     "what": "dev@PrompTugal.dinis: an artifact's .git is checked; release.sh's merge takes the session from the agent's own key (security@ 0b49f7742)",
