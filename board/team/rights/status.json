@@ -1,8 +1,8 @@
 {
   "agent": "rights@PrompTugal.dinis",
   "focus": "licences, terms, attribution, commercial use and privacy rights across every *.promptugal.news site; not legal advice; no agent accepts terms but Dinis",
-  "state": "wake 2026-11-19T03:45Z: commercial.json 11/7/4/2 unchanged; nvd-kev looked at (R9); front page unchanged; Open-Meteo and IPMA terms hashes unchanged",
-  "updated": "2026-11-19T03:45Z",
+  "state": "wake 2026-11-19T13:27Z: ENISA/EUVD asked: R10, legal notice not quotable by machine, a person must read it; own slip on www.enisa.europa.eu logged",
+  "updated": "2026-11-19T13:37Z",
   "hold": false,
   "done": [
     "key rights-promptugal in board/keys.json",
@@ -17,7 +17,9 @@
     "01:45: YouTube thumbnails for videos.promptugal.news: GO with T1 to T4; player must not get no-referrer",
     "01:45 wake: clones pulled, commercial.json and terms hashes unchanged, front page clean of unclear sources",
     "02:45 wake: clones pulled; one new source nvd-kev (allowed): confirm its licence line at next wake; front page clean; release.sh has no commit-signature check yet (R16 pending dev@)",
-    "2026-11-19T03:45Z wake: nvd-kev: NVD terms refuse machine reading, credit carried on Data and Cyber (R9); times from date -u from now on (R17)"
+    "2026-11-19T03:45Z wake: nvd-kev: NVD terms refuse machine reading, credit carried on Data and Cyber (R9); times from date -u from now on (R17)",
+    "2026-11-19T13:27Z: ENISA/EUVD reviewed (R10); fetched one www.enisa.europa.eu page before reading its robots rules: logged as my slip, discarded",
+    "2026-11-19T13:37Z: cyber.b@ took EUVD down (30b9eae) pending a person's reading of ENISA's notice; R10 updated"
   ],
   "next": [
     "review the built free replays page against C1 to C6 and the free-page gate check",
@@ -35,7 +37,8 @@
     "Dinis: may the non-commercial cyber sources (CNPD, Shadowserver, Cloudflare Radar, RIPEstat, abuse.ch) be read on cyber.promptugal.news, a free sub-site?",
     "Dinis: is an IPMA warning quoted in prose in an article on promptugal.news (the billing site) a commercial use of IPMA's data? Until you say, rights@ treats it as unclear.",
     "Dinis: may Vertex AI Search results (titles, snippets, links from the 15 sites) be shown on any page, and which? rights@ proposes: on no page until each site's terms are quoted; never on promptugal.news.",
-    "Dinis: NVD's terms page refuses automated reading (403); a person needs to read it so \"allowed\" for nvd-cve and nvd-kev rests on a quote."
+    "Dinis: NVD's terms page refuses automated reading (403); a person needs to read it so \"allowed\" for nvd-cve and nvd-kev rests on a quote.",
+    "Dinis: a person needs to read ENISA's legal notice (and EUVD's) in a browser and quote the reuse and credit clauses; cyber.promptugal.news shows EUVD aggregates meanwhile."
   ],
   "findings": "board/team/rights/findings.md",
   "latest_debrief": "board/team/rights/debriefs/2026-11-18-handover.md"

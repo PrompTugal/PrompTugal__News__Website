@@ -10,7 +10,10 @@ import fs from 'node:fs'
 import os from 'node:os'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..')
+// the checker's own folder holds its config and signing program; the trusted launcher runs a copy of all three taken
+// from the last release (control 7), so ROOT (the repository checked) can be given apart: CHECK_ROOT
+const TOOLS = path.dirname(fileURLToPath(import.meta.url))
+const ROOT = process.env.CHECK_ROOT ? path.resolve(process.env.CHECK_ROOT) : path.resolve(TOOLS, '../..')
 const git = (...a) => execFileSync('git', a, { cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] })
 
 // CI's version commits are exempt only by what they change, never by a name anyone can set (signals.b@'s review, 19 Nov):
@@ -40,14 +43,18 @@ function signers(h, tmp) {
 }
 
 export function checkSignatures(range) {
-    const C = JSON.parse(fs.readFileSync(path.join(ROOT, 'newsroom/tools/signing.json'), 'utf8'))
+    const C = JSON.parse(fs.readFileSync(path.join(TOOLS, 'signing.json'), 'utf8'))
+    // control 6: a shallow checkout cannot be checked (its boundary looks like an orphan and hides history)
+    if (git('rev-parse', '--is-shallow-repository').trim() === 'true') return { fails: ['signatures: a shallow checkout; fetch the full history (fetch-depth 0, or git fetch --unshallow)'], warns: [] }
     try { git('cat-file', '-e', `${C.start}^{commit}`) } catch { return { fails: [], warns: [`signatures: the start commit ${C.start.slice(0, 9)} is not in this checkout; nothing checked`] } }
-    const r = range || `${C.start}..HEAD`, tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'sig-')), prog = path.join(ROOT, 'newsroom/tools/sshsig.mjs'), SEP = '\x1f'
+    const r = range || `${C.start}..HEAD`, tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'sig-')), prog = path.join(TOOLS, 'sshsig.mjs'), SEP = '\x1f'
     // every commit in the range, side branches and merges included (security@'s control 3)
-    const list = git('log', `--format=%H${SEP}%s${SEP}%(trailers:key=Agent,valueonly,separator=;)${SEP}%(trailers:key=Claude-Session,valueonly,separator=;)%x1e`, r)
+    const list = git('log', `--format=%H${SEP}%P${SEP}%s${SEP}%(trailers:key=Agent,valueonly,separator=;)${SEP}%(trailers:key=Claude-Session,valueonly,separator=;)%x1e`, r)
     const fails = [], warns = []
     for (const rec of list.split('\x1e').map(x => x.trim()).filter(Boolean)) {
-        const [h, subj, agentT, sessT] = rec.split(SEP), id = h.slice(0, 9)
+        const [h, parents, subj, agentT, sessT] = rec.split(SEP), id = h.slice(0, 9)
+        // control 6: every orphan commit is refused, a merged unrelated history included; only the trusted base, by full id
+        if (!parents.trim() && h !== C.trusted_base) { fails.push(`${id}: an orphan commit (no parent) that is not the trusted base`); continue }
         if (isVersionCommit(h, subj, C)) continue
         const agent = (agentT || '').split(';')[0].trim(), sess = (sessT || '').split(';')[0].trim()
         if (!agent) { fails.push(`${id}: no Agent: trailer (${subj.slice(0, 60)})`); continue }
