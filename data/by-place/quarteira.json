@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "loule",
   "status": "live",
-  "updated": "2026-11-19",
+  "updated": "2026-11-18",
   "by": "place.quarteira@PrompTugal.dinis",
   "mandate": "PrompTugal.news Quarteira: AI and technology in Quarteira, a beach and golf city whose parish holds Vilamoura, and what reaches Quarteira from Loulé, the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -37,7 +37,14 @@
       "url": "https://www.barlavento.pt/?p=405832",
       "read_on": "2026-11-15",
       "ai_path": "The council that governs Quarteira has contracted AI tools to process planning files, so permits in Quarteira are handled with AI support.",
-      "steps": 1
+      "steps": 1,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Loulé is installing 60 cameras around Vilamoura's hotel ring, extension to Quarteira planned; no AI stated",
@@ -51,7 +58,14 @@
         "loule"
       ],
       "ai_path": "Camera networks are the usual place where automatic image analysis is added later, so this is a watch item. No AI is claimed by the source.",
-      "steps": 3
+      "steps": 3,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "EU funds to bring AI and robotics to 15 Algarve tourism firms",
@@ -67,7 +81,14 @@
         "faro"
       ],
       "ai_path": "Quarteira and Vilamoura live on tourism and golf, so any of its hotels or operators that join this regional AI programme, or that prepare for AI booking agents, would use AI. The article does not say who was selected.",
-      "steps": 2
+      "steps": 2,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Digital Commercial Neighbourhoods of Loulé and Quarteira: online shops, Wi-Fi, digital displays, no AI yet",
@@ -77,7 +98,14 @@
       "url": "https://www.barlavento.pt/bairros-comerciais-digitais-loule-quarteira/",
       "read_on": "2026-11-15",
       "ai_path": "Local shops moving online produce customer and sales data and need digital skills, the ground on which AI tools for retail are adopted. No AI is claimed by the project.",
-      "steps": 3
+      "steps": 3,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Old Course Vilamoura adds Trackman ball tracking, first in the Algarve",
@@ -87,7 +115,14 @@
       "url": "https://thegolfwire.com/vilamoura-trackman-algarve",
       "read_on": "2026-11-15",
       "ai_path": "Radar sensors turn every shot into data, the raw material of analytics and coaching models. No AI is claimed by the source.",
-      "steps": 3
+      "steps": 3,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://thegolfwire.com/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Quarteira Lab counts walkers and cyclists to feed a data platform",
@@ -97,7 +132,14 @@
       "url": "https://www.barlavento.pt/quarteira-lab-implementa-sistema-de-contagem-de-pessoas-e-bicicletas/",
       "read_on": "2026-11-15",
       "ai_path": "Street sensors feed a data platform, and such platforms are what analytics and AI models are trained and run on. No AI is claimed by the project.",
-      "steps": 3
+      "steps": 3,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     }
   ],
   "sources": [
@@ -318,8 +360,7 @@
     "WebSearch found nothing new for Quarteira or Vilamoura in November 2026.",
     "jf-quarteira.pt not opened this run.",
     "No new AI item found.",
-    "No Quarteira-specific council page; covered via Loule council page (see loule) and Barlavento/Postal front pages: nothing new.",
-    "No Quarteira-specific official item found on cm-loule.pt news page; nothing added."
+    "No Quarteira-specific council page; covered via Loule council page (see loule) and Barlavento/Postal front pages: nothing new."
   ],
   "voice": {
     "lede": "Quarteira: where the sardines retired, the golf balls arrived, and the robots are still queuing at the beach bar.",

@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-19",
+  "updated": "2026-11-18",
   "by": "place.olhao@PrompTugal.dinis",
   "mandate": "PrompTugal.news Olhão: AI and technology in Olhão, a fishing port and Ria Formosa town where the sea, aquaculture and biotech lead, and what reaches Olhão from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -46,7 +46,14 @@
       "significance": "town",
       "blast": [
         "faro"
-      ]
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Algarve 2030 conference in Faro on 24 November: AI and water management",
@@ -63,7 +70,14 @@
         "faro",
         "tavira",
         "sao-bras-de-alportel"
-      ]
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Olhão school project recreates local legends with AI in an Erasmus+ exchange",
@@ -75,7 +89,14 @@
       "ai_path": "A school at Agrupamento de Escolas Dr. Francisco Fernandes Lopes used AI directly to recreate legends. A small school-level use, not a company or policy.",
       "steps": 0,
       "significance": "town",
-      "blast": []
+      "blast": [],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Sparos, the Olhão feed company, sells digital nutrition tools for fish farms",
@@ -90,7 +111,14 @@
       "blast": [
         "faro",
         "tavira"
-      ]
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Algarve EduTalks in Sao Bras de Alportel: 150 people discuss digital safety and the use of AI in schools",
@@ -106,7 +134,14 @@
         "olhao",
         "faro",
         "tavira"
-      ]
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Olhão's aquaculture lab leads a EUR 2.1 million digital project and awaits its new Blue Hub home",
@@ -116,7 +151,14 @@
       "url": "https://www.barlavento.pt/?p=393061",
       "read_on": "2026-11-15",
       "ai_path": "The lab lists AI among its research lines (2022 report), and DigiATLA brings Industry 4.0 and precision nutrition to fish farms, the same ground where SPAROS is adding AI. The article itself does not mention AI.",
-      "steps": 2
+      "steps": 2,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "AquaVAN mobile lab to serve Sotavento fish farms, with focus on the Ria Formosa",
@@ -131,7 +173,14 @@
       "blast": [
         "faro",
         "tavira"
-      ]
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "DigiATLA kicks off in Olhão: seven partners start work on digital aquaculture",
@@ -141,7 +190,14 @@
       "url": "https://www.atlanticarea.eu/news-events/news/digiatla-project-holds-kick-off-meeting-in-olhao-portugal",
       "read_on": "2026-11-15",
       "ai_path": "Digital and Industry 4.0 tools for fish farms, led from Olhão with SPAROS (which runs its own AI project) as a partner. Neither the programme nor Barlavento mentions AI.",
-      "steps": 2
+      "steps": 2,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.atlanticarea.eu/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Conference at Olhão's library asks what AI means for health, economy and education",
@@ -151,7 +207,14 @@
       "url": "https://www.barlavento.pt/?p=344439",
       "read_on": "2026-11-15",
       "ai_path": "An event about AI itself, held in Olhão.",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Olhão joins the national smart-cities section and says it is working on AI for waste routes",
@@ -161,7 +224,14 @@
       "url": "https://www.barlavento.pt/?p=251038",
       "read_on": "2026-11-15",
       "ai_path": "A council stating it uses AI to plan waste collection. A 2023 statement of intent: we found no later report on its progress.",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Altice Labs opens its Algarve hub in Olhão with an AI retina project already running",
@@ -171,7 +241,14 @@
       "url": "https://www.barlavento.pt/?p=273323",
       "read_on": "2026-11-15",
       "ai_path": "An R&D hub in Olhão reporting AI work directly. Older than 2025: we found no later update.",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     }
   ],
   "sources": [
@@ -262,7 +339,13 @@
       "venue": "Auditorio 1.4, Campus da Penha, University of Algarve, Faro",
       "note": "In Faro, not Olhao; panels on smart water management and smart cities. Registration not stated in the article.",
       "url": "https://postal.pt/europedirectalgarve/faro-recebe-conferencia-sobre-inteligencia-artificial-e-gestao-da-agua-no-algarve/",
-      "read_on": "2026-11-16"
+      "read_on": "2026-11-16",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
     }
   ],
   "ai_map": [
@@ -474,8 +557,7 @@
     "WebSearch hints not opened and undated or old: Iberian Technology Summit in Olhao, Postal 26 Oct 2026 book on AI with an Olhao researcher; worth a later look.",
     "Iberian Technology Summit: Barlavento article (https://www.barlavento.pt/olhao-estreou-primeira-iberian-technology-summit/, 4 May 2023) is the 2023 first edition and mentions no AI; rejected, no 2026 edition found.",
     "26 Oct 2026 AI book: WebSearch found no Olhão AI book in Oct 2026; the AI and arbitration book is a Lisbon seminar, Oct 2025; rejected.",
-    "cm-olhao.pt homepage opened: only a loading shell, no news list (JavaScript-rendered); /pt/noticias returned 404. No council news read.",
-    "cm-olhao.pt homepage returned only a JavaScript shell (Aguarde...), no news; /pt/noticias returned 404. Nothing read."
+    "cm-olhao.pt homepage opened: only a loading shell, no news list (JavaScript-rendered); /pt/noticias returned 404. No council news read."
   ],
   "voice": {
     "lede": "Olhão, where the fish are smarter than the brochures and the algorithms are still learning to gut a sardine.",

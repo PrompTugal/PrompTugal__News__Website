@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-19",
+  "updated": "2026-11-18",
   "by": "place.sao-bras-de-alportel@PrompTugal.dinis",
   "mandate": "PrompTugal.news São Brás de Alportel: AI and technology in São Brás de Alportel, a hill town of cork heritage, a costume museum and a municipal push to digitise, and what reaches São Brás de Alportel from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -49,7 +49,14 @@
         "tavira"
       ],
       "ai_path": "An informatics training centre is where local students would learn the skills AI work builds on. The council page does not say AI is taught.",
-      "steps": 3
+      "steps": 3,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-sbras.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Council forum puts a local IT firm and a medical-technology firm on stage",
@@ -59,7 +66,14 @@
       "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
       "read_on": "2026-11-16",
       "ai_path": "Local IT and medical-technology firms are the likeliest local adopters or builders of AI. The council names them but does not say they use AI.",
-      "steps": 3
+      "steps": 3,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-sbras.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Town hall and University of Algarve prepare a knowledge and innovation pact",
@@ -69,7 +83,14 @@
       "url": "https://www.barlavento.pt/?p=398233",
       "read_on": "2026-11-15",
       "ai_path": "A research and training pact with the university that runs AI work in the region could carry AI courses and projects into the town, but nothing in the report says it will.",
-      "steps": 3
+      "steps": 3,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Algarve EduTalks in São Brás puts AI in education on the agenda",
@@ -79,7 +100,14 @@
       "url": "https://www.barlavento.pt/?p=393395",
       "read_on": "2026-11-15",
       "ai_path": "AI use in schools was a named topic of a conference held in the town.",
-      "steps": 1
+      "steps": 1,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Council joins the Algarve 6.0 smart territory project",
@@ -89,7 +117,14 @@
       "url": "https://www.barlavento.pt/sao-bras-de-alportel-aposta-na-inovacao-tecnologica-e-modernizacao-de-servicos/",
       "read_on": "2026-11-15",
       "ai_path": "An urban management platform pools municipal data, which is the base any AI analytics would later run on.",
-      "steps": 2
+      "steps": 2,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Digital Commerce Accelerator reaches local shops, restaurants and service firms",
@@ -99,7 +134,14 @@
       "url": "https://www.barlavento.pt/aceleradora-de-comercio-digital-do-algarve-apresenta-se-em-sao-bras-de-alportel/",
       "read_on": "2026-11-15",
       "ai_path": "Getting small firms online is the first step before they can use AI tools for sales and service. The report does not mention AI.",
-      "steps": 3
+      "steps": 3,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Council backs an AI workshop at the University of Algarve",
@@ -109,7 +151,14 @@
       "url": "https://www.barlavento.pt/sao-bras-de-alportel-apoia-workshop-de-inteligencia-artificial-na-ualg/",
       "read_on": "2026-11-15",
       "ai_path": "The workshop itself is about AI (deep learning), and the municipality funded part of it.",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     }
   ],
   "sources": [
@@ -190,14 +239,26 @@
       "date": "2026-11-21",
       "url": "https://www.cm-sbras.pt/pt/agenda/38214/sabados-no-mercado.aspx",
       "read_on": "2026-11-16",
-      "ai_path": null
+      "ai_path": null,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-sbras.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
     },
     {
       "title": "VI Fórum Ideias de Negócios (held 27 October 2026, Cineteatro Jaime Pinto): local business panels incl. IT and medical technology",
       "date": "2026-10-27",
       "url": "https://www.cm-sbras.pt/pt/noticias/38178/forum-ideias-de-negocios-deu-visibilidade-ao-empreendedorismo-sao-brasense.aspx",
       "read_on": "2026-11-16",
-      "ai_path": "Local IT and medical-technology firms presented, no AI mention (3 steps)"
+      "ai_path": "Local IT and medical-technology firms presented, no AI mention (3 steps)",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-sbras.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
     }
   ],
   "ai_map": [
@@ -411,8 +472,7 @@
     "cm-sbras.pt news listing opened: six November items, none on AI or digital.",
     "WebSearch: nothing new.",
     "Council news page not opened; no new item found elsewhere.",
-    "cm-sbras.pt/pt/noticias-listagem.aspx opened: page 1 of 5, 6 items, newest 2026-11-16; nothing AI beyond items already in the file.",
-    "Opened cm-sbras.pt/pt/noticias-listagem.aspx: 6 items on page 1, newest 2026-11-16; none AI. Existing 16 Nov item (school park visit) already present."
+    "cm-sbras.pt/pt/noticias-listagem.aspx opened: page 1 of 5, 6 items, newest 2026-11-16; nothing AI beyond items already in the file."
   ],
   "voice": {
     "lede": "Cork, costumes and a quiet pinch of artificial intelligence, aqui na serra, com calma.",
