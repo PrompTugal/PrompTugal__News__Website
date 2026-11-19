@@ -33,6 +33,7 @@
         "region",
         "city",
         "district",
+        "municipality",
         "borough",
         "street",
         "venue",
@@ -186,6 +187,13 @@
       "type": "string",
       "pattern": "^[A-Za-z_]+/[A-Za-z_]+$",
       "description": "the IANA time zone (Europe/Lisbon, Europe/London)"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/slug"
+      },
+      "description": "other ids another list uses for this place (for example the by-place list calls place:lisbon lisboa), so two lists meet without renaming either"
     }
   },
   "additionalProperties": false
