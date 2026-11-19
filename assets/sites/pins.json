@@ -34,6 +34,10 @@
     "1.0.0": {
       "ptmap.js": "sha384-DTKT78bHZnXubTm1EQf8kV/djRJ+A9XX/EuLNM9mk+ErXcqcqACz0uhrLs047c1+",
       "ptmap.css": "sha384-6BPLIDsviq+W+7Lh+zVwzn4LHF32T+NG82aKVbhcm71nguK3gJu7RqHHYLhU59rQ"
+    },
+    "1.0.1": {
+      "ptmap.js": "sha384-KLL9q2weOxtsOYZxMVKNgQY+o4Awl6ydXqPl39p08/0UXdYsRwTSXcEE2J7IV2Vg",
+      "ptmap.css": "sha384-nFj5yaibLdzQtqG/sUT69VPtf5jioZd0IVPvt1QJPgFshstN4wex0shfxuo1Yxg4"
     }
   }
 }
