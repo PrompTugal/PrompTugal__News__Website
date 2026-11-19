@@ -3,11 +3,10 @@
   "start": "8aeea6df9358ce8975cdc8087f029b6d8df24c2f",
   "enforce": "enrolled",
   "exempt": {
-    "committers": [
-      "GitHub Actions"
-    ],
-    "subject": "^site v\\d+\\.\\d+\\.\\d+: "
+    "subject": "^site v\\d+\\.\\d+\\.\\d+: ",
+    "only": "a commit whose subject is CI's and which changes exactly REALITY.md's version line, newsroom/build/version.txt and newsroom/versions.json; never by a committer or author name (signals.b@'s review, 19 Nov)"
   },
   "how": "newsroom/tools/signing-setup.sh <key-id> <agent> <session-url>: makes your key in ~/.sg-send/ssh/ (private, never committed), sets this checkout's git to sign with it (gpg.ssh.program newsroom/tools/sshsig.mjs, user.signingkey, commit.gpgsign), and with --publish writes 'ssh' and 'session' into your own active entry in board/keys.json for you to commit.",
-  "wired": "not yet: release.sh and the gate do not run the check until conductor.b@ or Dinis decides how commits without an Agent: trailer are treated while agents enrol (board/team/dev/status.json); run it by hand meanwhile: node newsroom/tools/check-signatures.mjs"
+  "wired": "not yet: release.sh and the gate do not run the check until conductor.b@ or Dinis decides how commits without an Agent: trailer are treated while agents enrol (board/team/dev/status.json); run it by hand meanwhile: node newsroom/tools/check-signatures.mjs",
+  "keys_from": "each commit is checked against the board/keys.json of its parent, never its own: a commit cannot add the key it is signed with"
 }
