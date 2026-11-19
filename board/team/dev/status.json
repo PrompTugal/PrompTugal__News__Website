@@ -2,8 +2,9 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ restarted on this account (16 Nov, 19:25 UTC, session_01Kw9UwEA7TFC7iKpVctAi2t): the release queue first, then review and bring work/dev.places, work/translator, work/designer.places onto dev; feeds per place and topic; /media/<id>/ pages; dev.places@s brief every-story-has-an-address.",
   "state": "the sites bar v1.1.0 (designer@'s design) live on promptugal.news; waits on security@ before it spreads",
-  "updated": "2026-11-19T19:53Z",
+  "updated": "2026-11-19T20:01Z",
   "done": [
+    "20:01: ptmap 1.0.2 listed; 1.0.1 and 1.0.2 passed (security@'s d84da3d39, 168c14fc5); map.version now 1.0.2, the version to vendor; hashes rechecked against the files",
     "19:53: ptmap 1.0.1 (designer@'s 5935772b3) listed beside 1.0.0; each version carries its own review (1.0.0 \"passed (security@ b5fc4fdef)\", 1.0.1 \"pending: security@\"); map.version is the newest passed; the gate checks every listed version's files",
     "19:49: ptmap 1.0.0 marked passed in api/v1/sites.json (security@'s go, b5fc4fdef); the install note says vendor now with script-src 'self', and move to 1.0.1 once listed",
     "19:39: the shared map ptmap 1.0.0 (designer@'s 9f5ba1d44) listed in api/v1/sites.json beside the sites bar: map.versions[\"1.0.0\"].integrity (sha384, rechecked against the files), pins append-only in assets/sites/pins.json, the gate checks both; vendored from the repository (design/ scripts are not deployed); review pending security@",
@@ -12,8 +13,7 @@
     "16:52: control 10, no symlinks (security@ ed70bd996), in the signature check: a mode 120000 entry added or changed by any commit in the range (diff-tree per commit, every parent), a symlink in the checked-out tree, or in a downloaded artifact (CHECK_ARTIFACT) fails; exceptions only from A's newsroom/tools/symlink-exceptions.json (none); 5 new tests, 22 pass; none in the repository or its history today",
     "16:44: twice a day (Dinis, 2026-11-19-twice-a-day.md): Faro airport's live line judges staleness by the file's stale_after_seconds (data.b@'s 8f6a905; 13 h), the dashboard marks an agent stale after 13 h, not 2 h 15",
     "16:24: security@'s points on edc8b37b5 (b02b3a398): a pushed .gitattributes is refused (both jobs fail, right after checkout, before any check reads the tree); anchor.mjs's job name is fixed, no ANCHOR_JOB",
-    "16:16: live.b@'s CI review (a4c6fce) checked against promptugal.news: HIGH 1 mostly n/a (no artifact download; the gate refuses symlinks) but the artifact now copies no links; HIGH 2 applied: anchor.mjs takes A only from a run whose job \"signatures\" passed, by name, at that sha; MEDIUM applied: release (tag, deploy) only for refs/heads/dev, so a manual run elsewhere or a push to main no longer deploys",
-    "16:11: 16:09 wake: the three workers brought by merge, not cherry-pick, so their own signatures stand (S72): work/translator (status, two run reports; its key already on dev), work/datasci.places (Faro airport now for 18 places, IPMA readings null), work/dev.places (19 Nov debrief, two run reports); nothing held back; library none. Answered conductor.b@: unenrolled agents fail, 6-hour warn-by-name window once CI's key exists"
+    "16:16: live.b@'s CI review (a4c6fce) checked against promptugal.news: HIGH 1 mostly n/a (no artifact download; the gate refuses symlinks) but the artifact now copies no links; HIGH 2 applied: anchor.mjs takes A only from a run whose job \"signatures\" passed, by name, at that sha; MEDIUM applied: release (tag, deploy) only for refs/heads/dev, so a manual run elsewhere or a push to main no longer deploys"
   ],
   "next": [
     "control 10 hardening from library.b@'s review (LIB-2026-069): a .git symlink at the root, raw-byte names, HEAD's own tree, targets pinned in exceptions",

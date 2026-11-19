@@ -123,7 +123,8 @@
   "map_install": "The shared map, ptmap (designer@'s, Dinis's word of 19 Nov 17:40: Portugal big, London and the EU (Brussels) small; board/spec-the-shared-map.md). Copy design/shared-map/<version>/ptmap.js and ptmap.css from this repository into your site and check each against map.versions[\"<version>\"].integrity (sha384 SRI, the full string); never load them from promptugal.news (design/ scripts are not deployed). Call PTMap.render(el, {places, current, london, eu, label}); links go only to https://*.promptugal.news. Vendor a version once its review starts \"passed\" (security@), with script-src 'self'; move to a newer version once it is listed.",
   "map_review": {
     "1.0.0": "passed (security@ b5fc4fdef)",
-    "1.0.1": "pending: security@"
+    "1.0.1": "passed (security@ d84da3d39)",
+    "1.0.2": "passed (security@ 168c14fc5)"
   },
-  "map_review_note": "map.version is the newest version security@ has passed, and map.review is its review; each version under map.versions carries its own review. The 1.0.0 review: board/team/security/reviews/2026-11-19-1936-ptmap-1.0.0.md. 1.0.1 (designer@'s 5935772b3) fixes its two lows: Object.keys in el(), the outline's notice."
+  "map_review_note": "map.version is the newest version security@ has passed (1.0.2, its version to vendor: the outline's full ISC notice, rights@'s 083881123), and map.review is its review; each version under map.versions carries its own review. The reviews: board/team/security/reviews/2026-11-19-1936-ptmap-1.0.0.md (1.0.0, then the post-reviews of 1.0.1 and 1.0.2)."
 }

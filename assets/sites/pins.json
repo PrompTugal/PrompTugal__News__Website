@@ -38,6 +38,10 @@
     "1.0.1": {
       "ptmap.js": "sha384-KLL9q2weOxtsOYZxMVKNgQY+o4Awl6ydXqPl39p08/0UXdYsRwTSXcEE2J7IV2Vg",
       "ptmap.css": "sha384-nFj5yaibLdzQtqG/sUT69VPtf5jioZd0IVPvt1QJPgFshstN4wex0shfxuo1Yxg4"
+    },
+    "1.0.2": {
+      "ptmap.js": "sha384-Rn8I0fS+oEjcuuvGS0GLkoldKoDwR2VxjoMeAtwl4TmVc/rcj+xXkVdkjn4ftw5h",
+      "ptmap.css": "sha384-Ji68i1PNka7ujjhJLdOOubmPrwb0k1ECIMOE0GlPDOWK51y5TmfRt7TP1NL4OY4t"
     }
   }
 }
