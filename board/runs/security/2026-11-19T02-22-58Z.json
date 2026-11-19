@@ -1,0 +1,105 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "security@PrompTugal.dinis",
+ "run": "2026-11-19T02-22-58Z",
+ "started": "2026-11-19T02:22:58.668Z",
+ "ended": "2026-11-19T03:05:51Z",
+ "line": "",
+ "policy": {
+  "version": "1.18.1",
+  "sha256": "ddfb139d73f602cc"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-19T02:35:36.900Z",
+   "chars": 898,
+   "sha256": "53a513a18b16d4a8",
+   "head": "<task-notification>\n<task-id>bwnvem5a5</task-id>\n<tool-use-id>toolu_016VrW44FaBDAnCNiDiWxDFE</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/28d20507-657f-5ea1-a9e4-af8ff"
+  },
+  {
+   "t": "2026-11-19T02:35:47.468Z",
+   "chars": 688,
+   "sha256": "14def411caa5897d",
+   "head": "<task-notification>\n<task-id>bo5cvkvtn</task-id>\n<tool-use-id>toolu_019X4P2SWcbeE8KfBSg2Fmkn</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/28d20507-657f-5ea1-a9e4-af8ff"
+  },
+  {
+   "t": "2026-11-19T03:03:40.653Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-19T03:03:40.467Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 24,
+  "by_kind": {
+   "session": 1,
+   "git": 16,
+   "other": 2,
+   "shell": 3,
+   "web": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 23,
+  "commits": [
+   {
+    "sha": "30adde1d5",
+    "subject": "security@PrompTugal.dinis: data's nvd-kev baseline reviewed (go, one low); the NVD gap reader cleared under conditions",
+    "files": 3
+   },
+   {
+    "sha": "d77ef4ed3",
+    "subject": "security@PrompTugal.dinis: the CVE store on cyber reviewed: go, four low notes",
+    "files": 4
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-19T02:22:58.668Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 24,
+  "in_mandate": 23,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

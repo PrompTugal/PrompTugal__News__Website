@@ -1,11 +1,11 @@
 # Account B: every active session (ASCII view)
 
-Written by maestro.b (account-b) at 2026-11-19T02:19Z from list_sessions, get_session and list_triggers (status and cost only, never transcripts). Rewritten at each wake.
+Written by maestro.b (account-b) at 2026-11-19T03:19Z from list_sessions, get_session and list_triggers (status and cost only, never transcripts). Rewritten at each wake.
 
 ```
 +============================================================================================+
 | ACCOUNT B: EVERY ACTIVE SESSION, ITS STATE, BLOCKERS AND SCHEDULE                          |
-| maestro.b (account-b), 2026-11-19T02:19Z                                                   |
+| maestro.b (account-b), 2026-11-19T03:19Z                                                   |
 | from list_sessions, get_session, list_triggers (status only, never transcripts)            |
 +============================================================================================+
   >> working   ok idle, last turn done   !! blocked: waits on a person   XX failed
@@ -14,23 +14,26 @@ Written by maestro.b (account-b) at 2026-11-19T02:19Z from list_sessions, get_se
      session                                last  wake                         cost
   .-- FOCUSED CONDUCTORS --------------------------------------------------------------------
   | >> conductor.b@                       02:18Z  hourly :48 UTC               $324
-  | !! cells.b (AgentiCCells)             02:17Z  one-shot 02:04 (PR #35 c      $17
+  | ok conductor.b@AgentiCCells           03:16Z  hourly :06 UTC                   
+  | !! cells.b (AgentiCCells)             03:15Z  -- none --                    $17
   |    '-> 6 asks: write access, PR #35, App permission, browser storage, two project items
-  | >> writer-10 (newsroom.sgit.ai)       02:15Z  09:47+18:47 London            $18
+  | !! writer-10 (newsroom.sgit.ai)       02:29Z  09:47+18:47 London            $18
+  |    '-> relay of an AgentiCCells brief (to whom); non-writer commits warn or fail; branch 
   '------------------------------------------------------------------------------------------
 
   .-- AGENTICCELLS (cells.b's own conductors) -----------------------------------------------
-  | !! conductor.evals@                   02:17Z  -- none --                       
-  |    '-> grant the agent's GitHub account write access to the AgentiCCells site repositorie
-  | >> cells.b conductor (private project 02:16Z  -- none --                       
+  | !! conductor.evals@                   03:06Z  -- none --                       
+  |    '-> approve its two repository attach requests; provider 2 domain and key name
+  | ok cells.b conductor (private project 02:18Z  -- none --                       
+  | >> hub.b@                             03:08Z  -- none --                       
+  | >> cells.b conductor (private project 03:17Z  -- none --                       
   '------------------------------------------------------------------------------------------
 
   .-- SIDE-CARS -----------------------------------------------------------------------------
   | ok telemetry.b@                       01:29Z  hourly :26 UTC                 $9
   | ok abp@                               02:06Z  hourly :37 UTC                   
-  | !! rights@                            02:08Z  hourly :45 UTC                   
-  |    '-> Decide: (1) may CNPD, Shadowserver, Cloudflare Radar, RIPEstat and abuse.ch be rea
-  | >> security@                          02:16Z  1h day/3h night :03              
+  | ok rights@                            02:08Z  hourly :45 UTC                   
+  | ok security@                          03:14Z  1h day/3h night :03              
   '------------------------------------------------------------------------------------------
 
   .-- PROMPTUGAL MAIN TEAM (under conductor.b@) ---------------------------------------------
@@ -55,7 +58,8 @@ Written by maestro.b (account-b) at 2026-11-19T02:19Z from list_sessions, get_se
   '------------------------------------------------------------------------------------------
 
   .-- PROMPTUGAL SITE LEADS (under conductor.b@) --------------------------------------------
-  | ok data.b@                            02:17Z  hourly :03 Lis                   
+  | !! data.b@                            03:10Z  hourly :03 Lis                   
+  |    '-> EPSS source; Met Office key; raw-history vault secrets; branch protection
   | ok weather.b@                         02:15Z  3h 07-22 Lis :13                 
   | ok civic.b@                           02:16Z  3h 07-22 Lis :23                 
   | ok startups.b@                        02:15Z  3h 07-22 Lis :43                 
@@ -66,7 +70,7 @@ Written by maestro.b (account-b) at 2026-11-19T02:19Z from list_sessions, get_se
   | ok videos.b@                          02:16Z  3h 07-22 Lis :48                 
   | !! live.b@                            02:17Z  3h 07-22 Lis :08                 
   |    '-> - May outreach@ draft the request to MEO for its BeachCam feeds?
-  | >> cyber.b@                           02:17Z  3h 07-22 Lis :18                 
+  | ok cyber.b@                           02:17Z  3h 07-22 Lis :18                 
   | !! bulletins.b@                       02:18Z  3h 07-22 Lis :58                 
   |    '-> Answer: format (front page, radio script, or top stories first); audio now? (Eleve
   '------------------------------------------------------------------------------------------
@@ -83,13 +87,13 @@ Written by maestro.b (account-b) at 2026-11-19T02:19Z from list_sessions, get_se
   '------------------------------------------------------------------------------------------
 
   +----------------------------------------------------------------------------------------+
-  | active: 39   blocked on a person: 6   active with no wake: 2                           |
+  | active: 42   blocked on a person: 7   active with no wake: 5                           |
   | enabled wakes: 34 recurring + 1 one-shot; none points at a dead session                |
   | cost: telemetry.b@'s last count, about $1,722 for 35 sessions (+$170 in its last hour) |
   +----------------------------------------------------------------------------------------+
 
   WAKE CLOCK: the minute past each hour (UTC unless *; * = Lisbon time: 3-hourly 07-22, data.b hourly)
-   :00 | 03 data.b*+security  08 live.b*+dev
+   :00 | 03 data.b*+security  06 conductor.b  08 live.b*+dev
    :10 | 11 dev.places  13 weather.b*+researcher  15 datasci.places  18 maestro.b+cyber.b*
    :20 | 20 place.algarve.west  21 ontologist  23 civic.b*  25 place.algarve.central  26 telemetry.b  28 signals.b*  29 sherpa
    :30 | 30 place.algarve.east  33 events.b*+designer  35 place.districts  37 abp  38 library.b*+outreach
