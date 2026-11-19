@@ -21,6 +21,15 @@ image_width: 1200
 image_height: 630
 image_alt: "A card: AI physiotherapy at home, in Portugal's national health service, free to patients. A 97% shorter wait to start treatment, a government estimate, from portugal.gov.pt."
 ---
+> **Update, 19 November 2026.** The [official gazette](https://files.diariodarepublica.pt/gratuitos/2s/2026/02/2S037A0000S00.pdf) published the standard terms of the service on 23 February 2026 (Aviso 3864/2026/2). They show it works through a convention, a standard contract between the health system's central administration and a provider, which any provider that meets its terms can join:
+>
+> - **Open to join.** Any person or company, with or without profit, that provides this kind of rehabilitation care and meets the terms can join, by applying with the forms attached to them. Joining a convention means accepting its published terms as they stand.
+> - **Who it covers.** Health service patients whose doctor refers them and who have the digital skills to use the equipment on their own.
+> - **AI.** The terms do not require it. If a provider's device or platform includes AI, they require it to document its accuracy and limits and to have a risk-management system. They also require that health professionals can interpret, override or reverse automated decisions.
+> - **Sword Health Physio.** A letter dated 1 June 2026, on the letterhead of the health system's central administration, authorises it to join for 12 months, renewable. We found the letter online as [a copy](https://a.storyblok.com/f/325797/x/37d8fa1adf/autorizacao-celebracao-convencao-sword-health-sa.pdf) and have not checked it.
+>
+> We found no source saying whether any other provider has joined.
+
 > **Update, 18 November 2026.** A launch-day report in [DNOTICIAS](https://www.dnoticias.pt/2026/6/18/496006-medicos-vao-poder-prescrever-fisioterapeuta-em-casa-com-inteligencia-artificial/), published on 18 June 2026, adds two points:
 >
 > - **The nine units.** The protocols were signed for the local health units of Santa Maria, Algarve, Alto Ave, Baixo Mondego, Cova da Beira, Matosinhos, São João, Almada Seixal and São José. The report says the model may extend to others that ask.
