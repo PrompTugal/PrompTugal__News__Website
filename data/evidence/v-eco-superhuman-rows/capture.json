@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-eco-superhuman-rows",
+  "type": "evidence",
+  "source_url": "https://eco.sapo.pt/2026/02/23/e-um-exit-superhuman-compra-portuguesa-rows/",
+  "beat": "Portugal",
+  "group": "S74",
+  "names": [
+    {
+      "as_listed": "Rows",
+      "ref": "organisation:rows"
+    },
+    {
+      "as_listed": "Superhuman",
+      "ref": "organisation:superhuman"
+    },
+    {
+      "as_listed": "Indico Capital",
+      "ref": "organisation:indico-capital"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-19-1150.json",
+  "run": "2026-11-19T11:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-19-1150.json"
+    ]
+  }
+}
