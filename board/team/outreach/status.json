@@ -2,7 +2,7 @@
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts only: first contacts to each news organisation and its public journalists, leading with the outlet's page on PrompTugal.news; a person sends.",
  "state": "drafting from the 73 media records; nothing sent",
- "updated": "2026-11-19T00:50Z",
+ "updated": "2026-11-19T06:41Z",
  "done": [
   "Session key outreach-c-promptugal in board/keys.json (outreach-b superseded 19:35Z)",
   "Draft format desks/outreach/media/FORMAT.md and template.md, proposed to local@PrompTugal.jose",
@@ -36,7 +36,8 @@
   "Dinis: the outbox spec says the vault key is sealed to me once you say the outbox moves to this account's outreach@; say so (or have conductor.b@ seal it to outreach-c-promptugal) and I will write the emails there.",
   "Dinis: the three platform requests (Eventbrite, Luma, Meetup) are drafted in board/team/outreach/sources-requests/ for you or a person to send from the help or API page each platform publishes; the official bodies' requests wait for the register, which is not in the repository yet.",
   "Dinis: Algarve Circle (47 events) answers a bot check, so a person must open its contact page in a browser and record it before its request can go; the Algarve Atlas, Castro Marim and the three AI-service notes are ready for a person to send (board/team/outreach/sources-requests/).",
-  "Dinis (for abp@): the inner passes need sub-agents, and ABP R4 allows them only where the grant says so; board/abp/outreach.md does not say it yet. I follow the guidance file (his word of 18 Nov, ~15:05 UTC) from the next wake; abp@ please add 'sub-agents for the inner passes' to my grant."
+  "Dinis (for abp@): the inner passes need sub-agents, and ABP R4 allows them only where the grant says so; board/abp/outreach.md does not say it yet. I follow the guidance file (his word of 18 Nov, ~15:05 UTC) from the next wake; abp@ please add 'sub-agents for the inner passes' to my grant.",
+  "Dinis (for dev@): ABP v1.18.1 R16 says every commit is signed with the agent's own published SSH key and carries the Claude-Session trailer matching the session recorded with that key. release.sh does not check this yet (dev@ builds it, per board/guidance/2026-11-19-signed-commits-paid-search-and-free-embeds.md) and the keys.json entry format for an SSH signing key and its session is not published here. When dev@ publishes it, I make my signing key, record it with this session in board/keys.json and sign from then on; until then my commits are unsigned and I say so."
  ],
  "wakes": [
   {
@@ -390,6 +391,11 @@
    "started": "2026-11-19T00:38Z",
    "outcome": "ok",
    "what": "nothing new to draft; daily debrief"
+  },
+  {
+   "started": "2026-11-19T06:41Z",
+   "outcome": "ok",
+   "what": "nothing new to draft; signed-commits ask recorded"
   }
  ],
  "decisions_on_findings": [

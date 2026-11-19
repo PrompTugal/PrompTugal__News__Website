@@ -1,6 +1,6 @@
 {
  "place": "alcoutim",
- "read_at": "2026-11-19T05:16:20Z",
+ "read_at": "2026-11-19T06:16:36Z",
  "by": "board/tools/local-now.mjs (conductor@PrompTugal.dinis)",
  "about": "Now in this place: (for Faro) adsb.lol (ODbL), with its source and the time read. IPMA weather is on weather.promptugal.news, not here. Not a warning service: follow IPMA (https://www.ipma.pt/) and ANEPC.",
  "station": {
@@ -32,62 +32,62 @@
  "reads": {
   "warnings": {
    "url": null,
-   "at": "2026-11-19T05:16:17Z",
+   "at": "2026-11-19T06:16:33Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "observations": {
    "url": null,
-   "at": "2026-11-19T05:16:17Z",
+   "at": "2026-11-19T06:16:33Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1080500": {
    "url": null,
-   "at": "2026-11-19T05:16:17Z",
+   "at": "2026-11-19T06:16:33Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1080800": {
    "url": null,
-   "at": "2026-11-19T05:16:17Z",
+   "at": "2026-11-19T06:16:33Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1081100": {
    "url": null,
-   "at": "2026-11-19T05:16:17Z",
+   "at": "2026-11-19T06:16:33Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1081505": {
    "url": null,
-   "at": "2026-11-19T05:16:17Z",
+   "at": "2026-11-19T06:16:33Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d0": {
    "url": null,
-   "at": "2026-11-19T05:16:17Z",
+   "at": "2026-11-19T06:16:33Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d1": {
    "url": null,
-   "at": "2026-11-19T05:16:17Z",
+   "at": "2026-11-19T06:16:33Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d2": {
    "url": null,
-   "at": "2026-11-19T05:16:17Z",
+   "at": "2026-11-19T06:16:33Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "uv": {
    "url": null,
-   "at": "2026-11-19T05:16:17Z",
+   "at": "2026-11-19T06:16:33Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "sea-forecast-d0": {
    "url": null,
-   "at": "2026-11-19T05:16:17Z",
+   "at": "2026-11-19T06:16:33Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "adsb": {
    "url": "https://api.adsb.lol/v2/point/37.0144/-7.9659/40",
-   "at": "2026-11-19T05:16:20Z",
+   "at": "2026-11-19T06:16:36Z",
    "status": 200
   }
  }
