@@ -32,3 +32,26 @@ Until each of the fifteen sites' terms are quoted on the register and Dinis sett
 - fact-check-tools: per item (each ClaimReview is its publisher's)
 - pagespeed-insights: unclear (terms not found)
 - vertex-search results: unclear, not shown on any page yet
+
+---
+
+# YouTube developer policies: quoted for the free case-study page on promptugal.news (read 19 Nov 2026 about 01:30 UTC; every page last updated 2026-11-06 UTC)
+
+Sources: https://developers.google.com/youtube/terms/developer-policies (DP), https://developers.google.com/youtube/terms/required-minimum-functionality (RMF), https://developers.google.com/youtube/terms/api-services-terms-of-service (ToS). Not legal advice; only Dinis accepts terms (R14).
+
+1. **No charging, no gating (DP, Playback Integrity):** "API Clients must not charge users to watch content in an embedded YouTube player. API Clients must not otherwise gate access to a video by requiring a user to take an action other than clicking the play button to view or continue playing YouTube audiovisual content."
+2. **Advertising and sponsorship (DP):** an API client must not "sell advertising, sponsorships, or promotions that are placed on or within YouTube audiovisual content or the YouTube player without YouTube's prior written approval; or sell advertising, sponsorships, or promotions on any page or screen that contains YouTube API Data unless other data, content, or material not obtained from YouTube appears on the same page and offers enough independent value to justify such sales if the YouTube API Data were removed."
+3. **Attribution (DP):** "You and your API Clients must not ... interfere with or obscure any attribution provided by YouTube, including attribution provided via or shown in embedded YouTube players. Your API Clients must display applicable YouTube Brand Features and any other YouTube-provided attribution on all types of devices."
+4. **Player (RMF):** "Embedded players must have a viewport that is at least 200px by 200px ... We recommend 16:9 players be at least 480 pixels wide and 270 pixels tall." "You must not display overlays, frames, or other visual elements in front of any part of a YouTube embedded player, including player controls ... or use overlays, frames or other visual elements to obscure any part of an embedded player." "You must not make changes to the YouTube player that are not explicitly described by the API documentation." "You must not use mouseovers or touch events on a YouTube player to initiate any action on the user's behalf."
+5. **Storage (DP):** non-authorized data may be stored "no longer than 30 calendar days. After 30 calendar days, the API Client must either delete or refresh the stored data." Autoplay rules are in RMF (not until visible).
+6. **YouTube's terms linked:** the ToS defines the YouTube Terms as https://www.youtube.com/t/terms; link it where the player is shown. The branding guidelines page (https://developers.google.com/youtube/terms/branding-guidelines) is to be read before the page's design is final.
+
+## Verdict on the free-page design (Dinis, via conductor.b@, 19 Nov about 01:10 UTC): GO, with these conditions
+The design is within the quoted policies **if and only if** the page:
+- **C1** is never charged and never gated: no paywall, sign-in, cookie wall, meter count or "pay to continue" between the reader and the play button (quote 1). The page is flagged free in the billing data and the gate fails any charged page that carries a YouTube embed.
+- **C2** carries **no advertising, sponsorship or promotion** on or around the player; if the "Support us" banner is shown on the page, it is a plain request for support, not a sale of advertising (quote 2). dev@ to keep ads off the page; if the site ever sells ads, this page and every YouTube page stays out of it unless other, non-YouTube content gives the page independent value (the case-study text may do that; rights@ re-checks).
+- **C3** uses YouTube's own iframe player (youtube-nocookie), at least 200px by 200px and, by recommendation, 480 by 270 for 16:9, with nothing laid over any part of it, no mouseover actions, and no change to the player beyond the documented parameters (quote 4).
+- **C4** credits YouTube and links https://www.youtube.com/t/terms next to the player, and does not hide YouTube's own attribution (quotes 3 and 6).
+- **C5** stores nothing from the API for more than 30 days (data.b@'s collector already deletes at 25).
+- **C6** does not create a metered "read" for the page in the reading log or the simulated payments model, so the bill never counts it.
+Nothing is published until dev@ shows rights@ the built page against C1 to C6; rights@ then says "published, within the policies" or names what must change. Branding guidelines to be quoted in that review.
