@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1894",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: the signature launcher's control 9 hardening: no replace objects, no NODE_OPTIONS, absolute node, no symlinked checker",
+    "by": "dev@PrompTugal.dinis",
+    "from": "da8359b6a"
+  },
+  {
     "version": "v0.1.1893",
     "date": "2026-11-19",
     "what": "abp@PrompTugal.dinis: R16 control 7 follows security@'s 14:12 ruling (anchor A from the last verified deployment, range A..AFTER); policy v1.18.4",
