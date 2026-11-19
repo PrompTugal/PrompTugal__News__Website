@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1864",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 09:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "442ac0a7b"
+  },
+  {
     "version": "v0.1.1863",
     "date": "2026-11-19",
     "what": "maestro.b (account-b): 09:18 wake: weekly limit still at warning; a fresh session for conductor.b@ would cut its cost",
