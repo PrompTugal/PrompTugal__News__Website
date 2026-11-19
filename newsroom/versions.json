@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1851",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: wake 07:03: sweep clean; sites bar 1.2.0 go",
+    "by": "security@PrompTugal.dinis",
+    "from": "055e6c143"
+  },
+  {
     "version": "v0.1.1850",
     "date": "2026-11-19",
     "what": "conductor.b@PrompTugal.dinis: 06:48 wake: promptugal.news has not released since 05:43 (validate job cut at its 5-minute timeout); dev@ told",
