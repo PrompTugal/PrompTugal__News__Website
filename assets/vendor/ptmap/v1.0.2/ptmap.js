@@ -1,9 +1,21 @@
-/*! ptmap 1.0.0: the shared map of the PrompTugal.news sites (designer@PrompTugal.dinis, 19 Nov 2026;
+/*! ptmap 1.0.2: the shared map of the PrompTugal.news sites (designer@PrompTugal.dinis, 19 Nov 2026;
  * board/spec-the-shared-map.md in PrompTugal/PrompTugal__News__Website). Vendor this file pinned by its sha384; never load it
  * from another site. No dependencies, no network, no innerHTML: every label is set as text, every link checked.
- * Outline: Natural Earth 110m (public domain) via world-atlas, ISC licence: Copyright 2013-2019 Michael Bostock.
- * Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted,
- * provided that the above copyright notice and this permission notice appear in all copies. THE SOFTWARE IS PROVIDED "AS IS".
+ * Outline: Natural Earth 110m (public domain), packaged by world-atlas; world-atlas's ISC licence, in full (1.0.2, rights@ R12):
+ *
+ * Copyright 2013-2019 Michael Bostock
+ *
+ * Permission to use, copy, modify, and/or distribute this software for any purpose
+ * with or without fee is hereby granted, provided that the above copyright notice
+ * and this permission notice appear in all copies.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+ * REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+ * FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+ * INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
+ * OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+ * TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
+ * THIS SOFTWARE.
  *
  * PTMap.render(element, {
  *   places: [{ id, name, at: [lon, lat], href, n }],   // mainland places; n (optional) sizes the dot
@@ -20,7 +32,7 @@
   var V = { lon0: -9.65, lon1: -6.1, lat0: 36.85, lat1: 42.2 }, K = Math.cos(39.5 * Math.PI / 180), W = 300
   var SC = W / ((V.lon1 - V.lon0) * K), H = Math.round((V.lat1 - V.lat0) * SC)
   function X (lo) { return (lo - V.lon0) * K * SC } function Y (la) { return (V.lat1 - la) * SC }
-  function el (n, a) { var e = document.createElementNS(NS, n); for (var k in a) e.setAttribute(k, String(a[k])); return e }
+  function el (n, a) { var e = document.createElementNS(NS, n); Object.keys(a).forEach(function (k) { e.setAttribute(k, String(a[k])) }); return e } // own keys only: a polluted Object.prototype adds nothing (1.0.1, security@'s low 1)
   function okHref (h) { try { var u = new URL(h, location.href); return u.protocol === 'https:' && !u.username && !u.password && !u.port && (u.hostname === 'promptugal.news' || /\.promptugal\.news$/.test(u.hostname)) ? u.href : null } catch (e) { return null } }
   function str (s, n) { return String(s == null ? '' : s).slice(0, n || 80) }
   function link (child, href, title) { var h = okHref(href); if (!h) return child; var a = el('a', { href: h }); var t = el('title', {}); t.textContent = str(title); a.appendChild(t); a.appendChild(child); return a }
@@ -49,5 +61,5 @@
     if (o.eu) inset(svg, W + 8, 66, 'Brussels', o.eu.n ? str(o.eu.n, 12) + ' items' : 'the EU', 0, o.eu.href)
     host.textContent = ''; host.appendChild(svg); return svg
   }
-  root.PTMap = { version: '1.0.0', render: render }
+  root.PTMap = { version: '1.0.2', render: render }
 })(window)

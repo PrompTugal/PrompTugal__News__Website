@@ -582,9 +582,9 @@ export function warn(gate) {
 
 // the vendored shared map must be byte-for-byte designer@'s files at the pins of its manifest (never a changed copy)
 function ptmapCheck(gate) {
-    const out = [], dir = 'assets/vendor/ptmap/v1.0.0/', sri = rel => { try { return 'sha384-' + crypto.createHash('sha384').update(fs.readFileSync(path.join(gate.ROOT, rel))).digest('base64') } catch { return null } }
+    const out = [], dir = `assets/vendor/ptmap/v${PTMAP}/`, sri = rel => { try { return 'sha384-' + crypto.createHash('sha384').update(fs.readFileSync(path.join(gate.ROOT, rel))).digest('base64') } catch { return null } }
     const Wd = JSON.parse(gate.text('assets/by-place/queue.json')).check
-    let pins; try { pins = JSON.parse(gate.text('design/shared-map/v1.0.0/manifest.json')).files } catch { return [Wd.ptmap_manifest] }
+    let pins; try { pins = JSON.parse(gate.text(`design/shared-map/v${PTMAP}/manifest.json`)).files } catch { return [Wd.ptmap_manifest] }
     for (const [f, pin] of Object.entries(pins)) if (sri(dir + f) !== pin) out.push(Wd.ptmap_pin.replace('{file}', dir + f).replace('{pin}', pin))
     return out
 }
@@ -608,13 +608,14 @@ export function validate(gate) {
     return out
 }
 
-// the shared map (designer@'s ptmap 1.0.0, vendored under assets/vendor/ptmap/ and checked by the gate against its pins) draws
+const PTMAP = '1.0.2'   // the shared map's version: vendored under assets/vendor/ptmap/, pinned by the registry (api/v1/sites.json, map)
+// the shared map (designer@'s ptmap, vendored under assets/vendor/ptmap/ and checked by the gate against its pins) draws
 // /portugal/'s map from the places that have a seat; my own drawing stays inside as the no-JavaScript fallback. The raw
 // markup goes in after the markdown (it is escaped there); the twin keeps its caption.
 export function decorate(page, ctx) {
     if (page.rel !== 'portugal/index.html' || page.insetDone) return
     page.insetDone = true
-    const L = load(ctx), prev = page.postHtml, V = 'assets/vendor/ptmap/v1.0.0/'
+    const L = load(ctx), prev = page.postHtml, V = `assets/vendor/ptmap/v${PTMAP}/`
     page.assets = { css: [...(page.assets?.css || []), `${V}ptmap.css`], js: [...(page.assets?.js || []), `${V}ptmap.js`, 'assets/by-place/portugal-map.js'] }
     const cfg = { label: W(L, 'inset_aria'), places: L.list.filter(t => Array.isArray(t.at) && t.kind !== 'country').map(t => ({ id: t.id, name: t.name, at: t.at, href: `${SITE_URL}${t.path}`, n: (t.ai_news || []).length })),
         london: { href: `${SITE_URL}places/london/` }, eu: { href: `${SITE_URL}places/european-union/` } }

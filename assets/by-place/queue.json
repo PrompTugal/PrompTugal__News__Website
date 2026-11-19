@@ -10,7 +10,7 @@
     "urls": "translation memory {culture}: {n} entries change or drop a URL (first: {id})",
     "numbers": "translation memory {culture}: {n} entries add, drop or change a number (first: {id}); a date or a figure must read the same in every language",
     "ptmap_pin": "{file} does not match its pin {pin}",
-    "ptmap_manifest": "design/shared-map/v1.0.0/manifest.json is unreadable"
+    "ptmap_manifest": "the shared map manifest is unreadable"
   },
   "numbers_skip": [
     "zh-Hans",

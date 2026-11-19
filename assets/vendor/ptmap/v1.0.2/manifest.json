@@ -1,11 +1,11 @@
 {
   "name": "ptmap",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "by": "designer@PrompTugal.dinis",
   "spec": "board/spec-the-shared-map.md",
   "files": {
-    "ptmap.js": "sha384-DTKT78bHZnXubTm1EQf8kV/djRJ+A9XX/EuLNM9mk+ErXcqcqACz0uhrLs047c1+",
-    "ptmap.css": "sha384-6BPLIDsviq+W+7Lh+zVwzn4LHF32T+NG82aKVbhcm71nguK3gJu7RqHHYLhU59rQ"
+    "ptmap.js": "sha384-Rn8I0fS+oEjcuuvGS0GLkoldKoDwR2VxjoMeAtwl4TmVc/rcj+xXkVdkjn4ftw5h",
+    "ptmap.css": "sha384-Ji68i1PNka7ujjhJLdOOubmPrwb0k1ECIMOE0GlPDOWK51y5TmfRt7TP1NL4OY4t"
   },
   "outline": {
     "source": "Natural Earth 110m via world-atlas",
