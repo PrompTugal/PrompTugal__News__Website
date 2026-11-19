@@ -3,7 +3,7 @@
   "id": "sao-bras-de-alportel",
   "type": "place",
   "name": "São Brás de Alportel",
-  "kind": "city",
+  "kind": "municipality",
   "located_in": "place:algarve",
   "matches": [],
   "source": "data/by-place/places.json",

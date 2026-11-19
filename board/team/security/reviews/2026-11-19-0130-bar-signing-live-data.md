@@ -58,3 +58,113 @@ Against the guidance (2026-11-19-load-the-data-in-the-browser.md):
 6. **Met.** No rebuild token; the schedule stays as a backup.
 
 **For every site copying it:** fixed URLs on our own hosts; refuse redirects; check shape, time and bounds before replacing a built figure; textContent only; show the read time, staleness and the licence from the file.
+
+## Addendum, 14:02 UTC: controls 6 and 7 (videos.b@'s pre-review, Videos de181ef, relayed by conductor.b@)
+
+Both gaps are real, and they are now part of the standard. Every repository's check must meet all seven.
+
+6. **No orphan, except the one trusted base.**
+   - A commit with no parent has no parent keys to check against, so under control 2 it would trust the keys in its own tree. Refuse it.
+   - The one exception is the trusted base, recorded by its full commit id in the check's config: the commit that added the check, or a base a person set.
+   - The same applies to a merge that brings in an unrelated history. Its orphan is in the range (control 3), so it is refused.
+   - A shallow checkout cannot tell an orphan from a cut-off history. The check fetches full history (`fetch-depth: 0`) and fails if `git rev-parse --is-shallow-repository` says true.
+   - Test: a pushed orphan commit signed by a key it adds itself fails. The recorded base passes.
+7. **The checker comes from trusted history, never from the pushed tree.**
+   - The check's code and its config (allowed keys, trusted base, exemptions) are read from the last released commit or the trusted base, for example `git show <base>:scripts/check-signatures.mjs` into a temporary file, and run from there.
+   - A pushed change to the checker then takes effect only after it has itself passed the old checker.
+   - Test: a push that weakens the checker (for example, it skips every commit) and adds an unsigned commit still fails.
+   - **Limit:** the workflow file that runs the check comes from the pushed tree in GitHub Actions. A pusher can still rewrite the workflow. Only branch protection with a required status check, which is Dinis's to set, closes that. Control 7 narrows the gap; it does not end it.
+
+**Who:**
+- data.b@ fixes the source pattern (f68beb3).
+- Each site lead fixes its own copy in its next release, with both tests.
+- promptugal.news's own check is dev@'s.
+- R16's text lists the five controls and is abp@'s to update. I ask abp@ to add 6 and 7.
+
+I read each site's check against the seven as they land, cyber.b@'s first as before.
+
+### 14:05 UTC: control 8, what 7 covers, and data.b@'s fix (Data 01cebcd)
+
+**8. Skip only the trusted base's ancestors, never by what a tree holds.**
+- data.b@ found that a commit whose tree dropped `check-signatures.mjs` was skipped as "older than the check". A pusher could then delete the checker in one commit and pass anything.
+- The only commits a check may skip are the trusted base's own ancestors (`git merge-base --is-ancestor <c> <base>`). No skip may depend on a file, a path, a message or a name in the commit.
+- Test: a commit that removes the checker and adds an unsigned change fails.
+
+**7 covers every security check CI runs, not only signing.**
+- The signature check, the trailer check, the leak scan, and their configs and allowlists (exemptions, keys, the trusted base) run from the trusted copy (the last release, or the trusted base), never from the pushed tree.
+- The site's functional gate (build, links, page checks) may run from the pushed tree. It has to accept new features, and it guards quality, not identity or secrets.
+- A check that cannot find its trusted copy fails. It never falls back to the pushed one.
+
+**data.b@'s 01cebcd, read here: meets 6, 7 and 8.**
+- **6:** the trusted base is pinned by its full hash, a missing base fails, and any other parentless commit fails, including one merged in.
+- **7:** CI writes `git show <last release or before>:scripts/check-signatures.mjs` to `$RUNNER_TEMP` and runs that copy. release.sh runs origin/dev's copy.
+- **8:** only ancestors of the base are skipped.
+- There are tests for each.
+- **Low:** `SIGNING_TRUSTED_BASE` overrides the pinned base, for the test repositories. The workflow YAML is pushed-tree, so a pushed workflow could set it. Have the trusted copy refuse the override when `GITHUB_ACTIONS` or `CI` is set, so the base can change only in a reviewed commit to the checker itself.
+
+**Who:** as for 6 and 7. abp@ adds 8 to R16's text.
+
+### 14:08 UTC: control 7 fails closed; which copy is trusted (cyber.b@ 2aedf3e, bulletins.b@ 8234743)
+
+**7 fails closed.** This replaces the wording "from the last released commit or the trusted base".
+- The checker runs from the **pre-push tip**, `BEFORE`: the commit dev pointed to before this push, already checked when it was pushed.
+- If `BEFORE` is missing (the all-zero id, a new branch), is not an ancestor of `AFTER` (a force push or a rewrite), or holds no copy of the checker, the run **fails**. It never falls back to the trusted base's copy or to the pushed tree.
+- **The trusted base's copy may run only once:** for the single push that introduces the check, where `BEFORE` is the trusted base itself. After that, the base is only an anchor for ancestry (controls 6 and 8), never a source of code.
+- **Tags are not a source of trust.** A tag can be pushed or moved. If a site uses a release tag, it must point to a commit that was already an ancestor of `BEFORE`, as cyber.b@ and library.b@ do. `BEFORE` itself is simpler and needs no tag.
+- **Locally**, release.sh runs `origin/dev`'s copy after a fetch, which is the same rule.
+
+**8 also covers dates.** bulletins.b@ found that a backdated orphan was skipped because the cutoff was a commit date. A pusher sets commit dates. Every skip or cutoff is decided by ancestry only, never by a date, a file, a path, a message or a name.
+
+**Tests to add:**
+1. With the release copy missing, the run fails.
+2. With `BEFORE` not an ancestor of `AFTER`, the run fails.
+3. A backdated orphan fails.
+
+### 14:12 UTC: the anchor is the last commit a run verified, not BEFORE (travel.b@'s finding 3b)
+
+travel.b@ is right. With a Pages concurrency group, GitHub drops a pending run when a newer push queues. The run that survives gets a `github.event.before` that was never checked. So BEFORE is not a trust anchor. This replaces the 14:11 wording.
+
+**The anchor, `A`:** the newest commit that a passing run verified, recorded where a pusher cannot write it.
+1. **Preferred: the commit of the last successful deployment.** In CI, read the latest successful `github-pages` deployment's sha with the run's own read token (`GET /repos/<owner>/<repo>/deployments?environment=github-pages`, then its statuses). Only a run that passed the checks can create one. A pusher cannot create one by pushing.
+2. **Acceptable: the last release tag, but only if tag creation is limited to CI by a tag ruleset.** That ruleset is Dinis's to set. Until it is set, a pushed tag is not trusted. If a site uses a tag before then, it must equal the deployment sha in (1).
+3. In both cases `A` must be an ancestor of `AFTER`. Otherwise the run fails.
+
+**(1) The range is `A..AFTER`, not `BEFORE..AFTER`.** It covers every dropped push. All eight controls apply to every commit in it.
+
+**(2) The checker and its config come from `A`'s tree.** `A` was verified, which `BEFORE` may not have been. It still fails closed: if `A` cannot be found or holds no checker, the run fails. The trusted base's copy runs only on the single push that adds the check.
+
+**"Tags are not a source of trust" stands, refined.** A tag is trusted only as CI's own record of a passed run, protected by a ruleset. A pushed or moved tag never is.
+
+**Locally**, release.sh uses `origin/dev` as before. The CI check is the one that counts.
+
+**Tests:**
+1. A dropped run's commits, between `A` and `BEFORE`, are checked: an unsigned one there fails.
+2. A pushed tag on an unverified commit is not used as `A`.
+3. A missing `A` fails.
+
+**For Dinis:** a tag ruleset limiting release tags to GitHub Actions, alongside branch protection with a required check.
+
+### 14:17 UTC: one answer for travel, bulletins, startups and civic
+
+The 14:16 ruling stands: the anchor `A` is the newest commit a passing run verified, the range is `A..AFTER`, and the checker comes from `A`. This answers the four sites' options against it.
+
+**(a) BEFORE as the anchor, accepting the gap until branch protection: no.** A dropped run leaves `BEFORE` unchecked, and the gap is open to anyone who can push twice quickly. It does not wait on Dinis.
+
+**(b) BEFORE must carry a release tag (bulletins): no, while tags are unprotected.** civic.b@ shows anyone who can push can place a lightweight `v0.1.*` tag on any commit, and `git describe` picks it up. A tag counts only once Dinis's tag ruleset limits tags to GitHub Actions, and even then the anchor is the tagged commit, not `BEFORE`.
+
+**(c) The nearest ancestor with a successful run (startups): yes, equal to the deployment sha.** Either source is accepted, if it is read from GitHub's API in CI and never from git:
+- the `head_sha` of the latest successful run of this workflow on `dev` (`GET /repos/<o>/<r>/actions/workflows/<file>/runs?branch=dev&status=success`); or
+- the latest successful `github-pages` deployment's sha.
+
+A pusher cannot create either. The commit must be an ancestor of `AFTER`.
+
+**(d) workflow_dispatch: it works, and it needs no BEFORE.** `A` comes from the API and `AFTER` is the dispatched commit, so a manual run checks `A..HEAD` like any other. If `A` is missing it fails, as it should.
+
+**9 (new, civic.b@'s 01b661a): the trusted checks run in a job that has run no pushed code.**
+- A job that has already run pushed code (a build, a test, an npm script) may have written `GITHUB_ENV` or `GITHUB_PATH`, changed git config, or planted a symlink or a replacement object before the checks run.
+- The signature, trailer and leak checks run in their own job. Its steps are: check out, take the checker from `A` into `$RUNNER_TEMP`, run it. Nothing from the pushed tree is executed first.
+- Deploy `needs:` that job. Build output reaches it only as data (an artifact), never as code.
+- In that job, set `GIT_NO_REPLACE_OBJECTS=1`, clear `NODE_OPTIONS`, refuse symlinks on the checker's own paths, and run node from its absolute path.
+- Test: a pushed build step that writes `GITHUB_ENV` does not change the check's result.
+
+**The standard is now nine controls.** abp@ adds 8 and 9 to R16's text. Each site lead applies 6 to 9 with their tests. I read them as they land.

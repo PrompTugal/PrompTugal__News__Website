@@ -8,24 +8,27 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
       "id": "albufeira",
       "name": "Albufeira",
-      "kind": "city",
+      "kind": "municipality",
       "parent": "place:algarve",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
       "id": "alcoutim",
       "name": "Alcoutim",
-      "kind": "city",
+      "kind": "municipality",
       "parent": "place:algarve",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -35,15 +38,17 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
       "id": "aljezur",
       "name": "Aljezur",
-      "kind": "city",
+      "kind": "municipality",
       "parent": "place:algarve",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -53,6 +58,7 @@
       "parent": "place:algarve",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -62,6 +68,7 @@
       "parent": null,
       "country": "AM",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -71,6 +78,7 @@
       "parent": null,
       "country": "AU",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -80,6 +88,7 @@
       "parent": null,
       "country": "AT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -89,6 +98,7 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -98,6 +108,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q205358"
     },
     {
@@ -107,6 +118,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q151048"
     },
     {
@@ -116,6 +128,7 @@
       "parent": "place:lisbon",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -125,6 +138,7 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -134,6 +148,7 @@
       "parent": null,
       "country": "BE",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -143,6 +158,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q207208"
     },
     {
@@ -152,6 +168,7 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -161,6 +178,7 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -170,6 +188,7 @@
       "parent": null,
       "country": "BR",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -179,6 +198,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q207201"
     },
     {
@@ -188,6 +208,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q208201"
     },
     {
@@ -197,6 +218,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q202088"
     },
     {
@@ -206,6 +228,7 @@
       "parent": null,
       "country": "CA",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -215,15 +238,17 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
       "id": "castro-marim",
       "name": "Castro Marim",
-      "kind": "city",
+      "kind": "municipality",
       "parent": "place:algarve",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -233,6 +258,7 @@
       "parent": null,
       "country": "CN",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -242,6 +268,7 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -251,6 +278,7 @@
       "parent": null,
       "country": "CO",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -260,6 +288,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q26888"
     },
     {
@@ -269,6 +298,7 @@
       "parent": null,
       "country": "CZ",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -278,6 +308,7 @@
       "parent": "place:ireland",
       "country": "IE",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -287,6 +318,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q207218"
     },
     {
@@ -296,6 +328,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q210531"
     },
     {
@@ -305,15 +338,17 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
       "id": "faro",
       "name": "Faro",
-      "kind": "city",
+      "kind": "municipality",
       "parent": "place:algarve",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -323,6 +358,7 @@
       "parent": null,
       "country": "FR",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -332,6 +368,7 @@
       "parent": null,
       "country": "DE",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -341,6 +378,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q693450"
     },
     {
@@ -350,6 +388,7 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -359,6 +398,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q205679"
     },
     {
@@ -368,6 +408,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q40478"
     },
     {
@@ -377,6 +418,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q213560"
     },
     {
@@ -386,6 +428,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q210476"
     },
     {
@@ -395,6 +438,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q215038"
     },
     {
@@ -404,6 +448,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q205690"
     },
     {
@@ -413,6 +458,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q214162"
     },
     {
@@ -422,6 +468,7 @@
       "parent": null,
       "country": "HU",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -431,6 +478,7 @@
       "parent": null,
       "country": "IN",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -440,6 +488,7 @@
       "parent": null,
       "country": "IE",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -449,6 +498,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q205817"
     },
     {
@@ -458,6 +508,7 @@
       "parent": null,
       "country": "IL",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -467,6 +518,7 @@
       "parent": null,
       "country": "IT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -476,6 +528,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q188801"
     },
     {
@@ -485,24 +538,27 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q32508"
     },
     {
       "id": "lagoa",
       "name": "Lagoa",
-      "kind": "city",
+      "kind": "municipality",
       "parent": "place:algarve",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
       "id": "lagos",
       "name": "Lagos",
-      "kind": "city",
+      "kind": "municipality",
       "parent": "place:algarve",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -512,6 +568,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q202059"
     },
     {
@@ -521,6 +578,7 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -530,6 +588,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q215030"
     },
     {
@@ -539,6 +598,9 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": "Europe/Lisbon",
+      "aliases": [
+        "lisboa"
+      ],
       "wikidata": "Q597"
     },
     {
@@ -548,6 +610,7 @@
       "parent": null,
       "country": "LT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -557,15 +620,17 @@
       "parent": "place:united-kingdom",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q84"
     },
     {
       "id": "loule",
       "name": "Loulé",
-      "kind": "city",
+      "kind": "municipality",
       "parent": "place:algarve",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -575,6 +640,7 @@
       "parent": null,
       "country": "LU",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -584,6 +650,7 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -593,15 +660,17 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q32504"
     },
     {
       "id": "monchique",
       "name": "Monchique",
-      "kind": "city",
+      "kind": "municipality",
       "parent": "place:algarve",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -611,6 +680,7 @@
       "parent": null,
       "country": "NL",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -620,6 +690,7 @@
       "parent": null,
       "country": "NZ",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -629,15 +700,17 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q208139"
     },
     {
       "id": "olhao",
       "name": "Olhão",
-      "kind": "city",
+      "kind": "municipality",
       "parent": "place:algarve",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -647,6 +720,7 @@
       "parent": "place:lisbon",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -656,15 +730,17 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
       "id": "portimao",
       "name": "Portimão",
-      "kind": "city",
+      "kind": "municipality",
       "parent": "place:algarve",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -674,6 +750,7 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -683,15 +760,17 @@
       "parent": null,
       "country": "PT",
       "timezone": "Europe/Lisbon",
+      "aliases": [],
       "wikidata": "Q45"
     },
     {
       "id": "quarteira",
       "name": "Quarteira",
       "kind": "city",
-      "parent": "place:portugal",
+      "parent": "place:loule",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -701,6 +780,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q208955"
     },
     {
@@ -710,6 +790,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q32515"
     },
     {
@@ -719,15 +800,17 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
       "id": "sao-bras-de-alportel",
       "name": "São Brás de Alportel",
-      "kind": "city",
+      "kind": "municipality",
       "parent": "place:algarve",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -737,15 +820,17 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
       "id": "silves",
       "name": "Silves",
-      "kind": "city",
+      "kind": "municipality",
       "parent": "place:algarve",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -755,6 +840,7 @@
       "parent": null,
       "country": "SG",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -764,6 +850,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q730706"
     },
     {
@@ -773,6 +860,7 @@
       "parent": null,
       "country": "ES",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -782,6 +870,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q320378"
     },
     {
@@ -791,6 +880,7 @@
       "parent": null,
       "country": "SE",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -800,15 +890,17 @@
       "parent": null,
       "country": "CH",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
       "id": "tavira",
       "name": "Tavira",
-      "kind": "city",
+      "kind": "municipality",
       "parent": "place:algarve",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -818,6 +910,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q208152"
     },
     {
@@ -827,6 +920,7 @@
       "parent": null,
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q145"
     },
     {
@@ -836,6 +930,7 @@
       "parent": null,
       "country": "US",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -845,15 +940,17 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
       "id": "vila-do-bispo",
       "name": "Vila do Bispo",
-      "kind": "city",
+      "kind": "municipality",
       "parent": "place:algarve",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -863,15 +960,17 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
       "id": "vila-real-de-santo-antonio",
       "name": "Vila Real de Santo António",
-      "kind": "city",
+      "kind": "municipality",
       "parent": "place:algarve",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -881,6 +980,7 @@
       "parent": "place:portugal",
       "country": "PT",
       "timezone": null,
+      "aliases": [],
       "wikidata": null
     },
     {
@@ -890,6 +990,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q40608"
     },
     {
@@ -899,6 +1000,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q210563"
     },
     {
@@ -908,6 +1010,7 @@
       "parent": "place:london",
       "country": "GB",
       "timezone": "Europe/London",
+      "aliases": [],
       "wikidata": "Q179351"
     }
   ],
