@@ -1,0 +1,920 @@
+{
+  "$schema": "../schemas/places-registry.schema.json",
+  "places": [
+    {
+      "id": "acores",
+      "name": "Azores",
+      "kind": "region",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "albufeira",
+      "name": "Albufeira",
+      "kind": "city",
+      "parent": "place:algarve",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "alcoutim",
+      "name": "Alcoutim",
+      "kind": "city",
+      "parent": "place:algarve",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "algarve",
+      "name": "Algarve",
+      "kind": "region",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "aljezur",
+      "name": "Aljezur",
+      "kind": "city",
+      "parent": "place:algarve",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "almancil",
+      "name": "Almancil",
+      "kind": "city",
+      "parent": "place:algarve",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "armenia",
+      "name": "Armenia",
+      "kind": "country",
+      "parent": null,
+      "country": "AM",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "kind": "country",
+      "parent": null,
+      "country": "AU",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "austria",
+      "name": "Austria",
+      "kind": "country",
+      "parent": null,
+      "country": "AT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "aveiro",
+      "name": "Aveiro",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "barking-and-dagenham",
+      "name": "Barking and Dagenham",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q205358"
+    },
+    {
+      "id": "barnet",
+      "name": "Barnet",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q151048"
+    },
+    {
+      "id": "beato-innovation-district",
+      "name": "Beato Innovation District",
+      "kind": "district",
+      "parent": "place:lisbon",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "beja",
+      "name": "Beja",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "belgium",
+      "name": "Belgium",
+      "kind": "country",
+      "parent": null,
+      "country": "BE",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "bexley",
+      "name": "Bexley",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q207208"
+    },
+    {
+      "id": "braga",
+      "name": "Braga",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "braganca",
+      "name": "Bragança",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "kind": "country",
+      "parent": null,
+      "country": "BR",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "brent",
+      "name": "Brent",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q207201"
+    },
+    {
+      "id": "bromley",
+      "name": "Bromley",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q208201"
+    },
+    {
+      "id": "camden",
+      "name": "Camden",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q202088"
+    },
+    {
+      "id": "canada",
+      "name": "Canada",
+      "kind": "country",
+      "parent": null,
+      "country": "CA",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "castelo-branco",
+      "name": "Castelo Branco",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "castro-marim",
+      "name": "Castro Marim",
+      "kind": "city",
+      "parent": "place:algarve",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "china",
+      "name": "China",
+      "kind": "country",
+      "parent": null,
+      "country": "CN",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "coimbra",
+      "name": "Coimbra",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "colombia",
+      "name": "Colombia",
+      "kind": "country",
+      "parent": null,
+      "country": "CO",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "croydon",
+      "name": "Croydon",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q26888"
+    },
+    {
+      "id": "czechia",
+      "name": "Czechia",
+      "kind": "country",
+      "parent": null,
+      "country": "CZ",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "dublin",
+      "name": "Dublin",
+      "kind": "city",
+      "parent": "place:ireland",
+      "country": "IE",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "ealing",
+      "name": "Ealing",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q207218"
+    },
+    {
+      "id": "enfield",
+      "name": "Enfield",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q210531"
+    },
+    {
+      "id": "evora",
+      "name": "Évora",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "faro",
+      "name": "Faro",
+      "kind": "city",
+      "parent": "place:algarve",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "france",
+      "name": "France",
+      "kind": "country",
+      "parent": null,
+      "country": "FR",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "germany",
+      "name": "Germany",
+      "kind": "country",
+      "parent": null,
+      "country": "DE",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "greenwich",
+      "name": "Greenwich",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q693450"
+    },
+    {
+      "id": "guarda",
+      "name": "Guarda",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "hackney",
+      "name": "Hackney",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q205679"
+    },
+    {
+      "id": "hammersmith-and-fulham",
+      "name": "Hammersmith and Fulham",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q40478"
+    },
+    {
+      "id": "haringey",
+      "name": "Haringey",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q213560"
+    },
+    {
+      "id": "harrow",
+      "name": "Harrow",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q210476"
+    },
+    {
+      "id": "havering",
+      "name": "Havering",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q215038"
+    },
+    {
+      "id": "hillingdon",
+      "name": "Hillingdon",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q205690"
+    },
+    {
+      "id": "hounslow",
+      "name": "Hounslow",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q214162"
+    },
+    {
+      "id": "hungary",
+      "name": "Hungary",
+      "kind": "country",
+      "parent": null,
+      "country": "HU",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "india",
+      "name": "India",
+      "kind": "country",
+      "parent": null,
+      "country": "IN",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "ireland",
+      "name": "Ireland",
+      "kind": "country",
+      "parent": null,
+      "country": "IE",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "islington",
+      "name": "Islington",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q205817"
+    },
+    {
+      "id": "israel",
+      "name": "Israel",
+      "kind": "country",
+      "parent": null,
+      "country": "IL",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "italy",
+      "name": "Italy",
+      "kind": "country",
+      "parent": null,
+      "country": "IT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "kensington-and-chelsea",
+      "name": "Kensington and Chelsea",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q188801"
+    },
+    {
+      "id": "kingston-upon-thames",
+      "name": "Kingston upon Thames",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q32508"
+    },
+    {
+      "id": "lagoa",
+      "name": "Lagoa",
+      "kind": "city",
+      "parent": "place:algarve",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "lagos",
+      "name": "Lagos",
+      "kind": "city",
+      "parent": "place:algarve",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "lambeth",
+      "name": "Lambeth",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q202059"
+    },
+    {
+      "id": "leiria",
+      "name": "Leiria",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "lewisham",
+      "name": "Lewisham",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q215030"
+    },
+    {
+      "id": "lisbon",
+      "name": "Lisbon",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": "Europe/Lisbon",
+      "wikidata": "Q597"
+    },
+    {
+      "id": "lithuania",
+      "name": "Lithuania",
+      "kind": "country",
+      "parent": null,
+      "country": "LT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "kind": "city",
+      "parent": "place:united-kingdom",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q84"
+    },
+    {
+      "id": "loule",
+      "name": "Loulé",
+      "kind": "city",
+      "parent": "place:algarve",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "luxembourg",
+      "name": "Luxembourg",
+      "kind": "country",
+      "parent": null,
+      "country": "LU",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "madeira",
+      "name": "Madeira",
+      "kind": "region",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "merton",
+      "name": "Merton",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q32504"
+    },
+    {
+      "id": "monchique",
+      "name": "Monchique",
+      "kind": "city",
+      "parent": "place:algarve",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "netherlands",
+      "name": "Netherlands",
+      "kind": "country",
+      "parent": null,
+      "country": "NL",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "new-zealand",
+      "name": "New Zealand",
+      "kind": "country",
+      "parent": null,
+      "country": "NZ",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "newham",
+      "name": "Newham",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q208139"
+    },
+    {
+      "id": "olhao",
+      "name": "Olhão",
+      "kind": "city",
+      "parent": "place:algarve",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "parque-das-nacoes",
+      "name": "Parque das Nações",
+      "kind": "district",
+      "parent": "place:lisbon",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "portalegre",
+      "name": "Portalegre",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "portimao",
+      "name": "Portimão",
+      "kind": "city",
+      "parent": "place:algarve",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "porto",
+      "name": "Porto",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "portugal",
+      "name": "Portugal",
+      "kind": "country",
+      "parent": null,
+      "country": "PT",
+      "timezone": "Europe/Lisbon",
+      "wikidata": "Q45"
+    },
+    {
+      "id": "quarteira",
+      "name": "Quarteira",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "redbridge",
+      "name": "Redbridge",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q208955"
+    },
+    {
+      "id": "richmond-upon-thames",
+      "name": "Richmond upon Thames",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q32515"
+    },
+    {
+      "id": "santarem",
+      "name": "Santarém",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "sao-bras-de-alportel",
+      "name": "São Brás de Alportel",
+      "kind": "city",
+      "parent": "place:algarve",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "setubal",
+      "name": "Setúbal",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "silves",
+      "name": "Silves",
+      "kind": "city",
+      "parent": "place:algarve",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "kind": "country",
+      "parent": null,
+      "country": "SG",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "southwark",
+      "name": "Southwark",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q730706"
+    },
+    {
+      "id": "spain",
+      "name": "Spain",
+      "kind": "country",
+      "parent": null,
+      "country": "ES",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "sutton",
+      "name": "Sutton",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q320378"
+    },
+    {
+      "id": "sweden",
+      "name": "Sweden",
+      "kind": "country",
+      "parent": null,
+      "country": "SE",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "switzerland",
+      "name": "Switzerland",
+      "kind": "country",
+      "parent": null,
+      "country": "CH",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "tavira",
+      "name": "Tavira",
+      "kind": "city",
+      "parent": "place:algarve",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "tower-hamlets",
+      "name": "Tower Hamlets",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q208152"
+    },
+    {
+      "id": "united-kingdom",
+      "name": "United Kingdom",
+      "kind": "country",
+      "parent": null,
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q145"
+    },
+    {
+      "id": "united-states",
+      "name": "United States",
+      "kind": "country",
+      "parent": null,
+      "country": "US",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "viana-do-castelo",
+      "name": "Viana do Castelo",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "vila-do-bispo",
+      "name": "Vila do Bispo",
+      "kind": "city",
+      "parent": "place:algarve",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "vila-real",
+      "name": "Vila Real",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "vila-real-de-santo-antonio",
+      "name": "Vila Real de Santo António",
+      "kind": "city",
+      "parent": "place:algarve",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "viseu",
+      "name": "Viseu",
+      "kind": "city",
+      "parent": "place:portugal",
+      "country": "PT",
+      "timezone": null,
+      "wikidata": null
+    },
+    {
+      "id": "waltham-forest",
+      "name": "Waltham Forest",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q40608"
+    },
+    {
+      "id": "wandsworth",
+      "name": "Wandsworth",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q210563"
+    },
+    {
+      "id": "westminster",
+      "name": "Westminster",
+      "kind": "borough",
+      "parent": "place:london",
+      "country": "GB",
+      "timezone": "Europe/London",
+      "wikidata": "Q179351"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "data/places/"
+    ]
+  }
+}

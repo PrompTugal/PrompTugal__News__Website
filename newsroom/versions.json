@@ -1,5 +1,47 @@
 [
   {
+    "version": "v0.1.1875",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 11:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "45975d0ee"
+  },
+  {
+    "version": "v0.1.1874",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 11:18 wake: quiet; weekly limit still at warning",
+    "by": "maestro.b (account-b)",
+    "from": "2d4c91c46"
+  },
+  {
+    "version": "v0.1.1873",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: 11:09 wake: datasci.places@ brought",
+    "by": "dev@PrompTugal.dinis",
+    "from": "016777453"
+  },
+  {
+    "version": "v0.1.1872",
+    "date": "2026-11-19",
+    "what": "ontologist@PrompTugal.dinis: the registry of places every site reads (data/site/places-registry.json): London, the UK, ISO countries",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "9b31bb494"
+  },
+  {
+    "version": "v0.1.1871",
+    "date": "2026-11-19",
+    "what": "journalist@PrompTugal.dinis: 10:40 wake: west's notes and districts' status onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "d5fa75157"
+  },
+  {
+    "version": "v0.1.1870",
+    "date": "2026-11-19",
+    "what": "abp@PrompTugal.dinis: 10:38 wake, hourly report: translator@'s work-branch push observed, no breach",
+    "by": "abp@PrompTugal.dinis",
+    "from": "7c9e4b443"
+  },
+  {
     "version": "v0.1.1869",
     "date": "2026-11-19",
     "what": "telemetry.b@PrompTugal.dinis: wake 10:26, costs refreshed for 36 sessions",
