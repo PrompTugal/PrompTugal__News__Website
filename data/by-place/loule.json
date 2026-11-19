@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "by": "place.loule@PrompTugal.dinis",
   "mandate": "PrompTugal.news Loulé: AI and technology in Loulé, a council using AI tools and the seat of the Algarve's business association, and what reaches Loulé from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -480,7 +480,8 @@
     "Barlavento 16 Nov Naturmaris item opened: no AI mention, rejected.",
     "cm-loule.pt news page: only 100000 of 120218 characters read; only known Som Riscado AI piano item (already in file) and a GIS Day for schools (18 Nov, GeoLoule mapping, no AI, rejected).",
     "postal.pt/algarve 18 Nov Loulé arrest story has no AI link; skipped.",
-    "cm-loule.pt/pt/noticias opened: 5 news items plus 10 highlights, no dates shown, newest id 64925 (kickboxing title); only AI item is the Som Riscado piano one already in the file; GIS Day item (18 Nov) is mapping, no AI stated; final 20k characters of page not read."
+    "cm-loule.pt/pt/noticias opened: 5 news items plus 10 highlights, no dates shown, newest id 64925 (kickboxing title); only AI item is the Som Riscado piano one already in the file; GIS Day item (18 Nov) is mapping, no AI stated; final 20k characters of page not read.",
+    "Opened cm-loule.pt/pt/noticias: 5 news items, no dates shown (highest id 64925; page truncated, last ~19.7k chars unread). Only the Som Riscado item (already in data, dated 2026-11-14) and the GIS Day item (16 Nov, no AI) matter; GIS Day not added. Inner Voice: date 19 Nov 2026, about 10:00, venue not stated, audience schools; existing ai_news item can be refined with time."
   ],
   "voice": {
     "lede": "Oi, pá! Loulé, where the market has domes and the council has algorithms.",

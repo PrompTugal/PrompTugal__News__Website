@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "by": "place.faro@PrompTugal.dinis",
   "mandate": "PrompTugal.news Faro: AI and technology in Faro, a university city whose centre of gravity is the Universidade do Algarve, its research and its startup campus, and what reaches Faro from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -54,6 +54,23 @@
         "sao-bras-de-alportel",
         "loule",
         "tavira"
+      ]
+    },
+    {
+      "title": "Equipa UAlg 2026/27: 81 free school talks across 16 areas, with AI (health, teaching, maths) and cybersecurity among topics",
+      "summary": "The university announced its free outreach programme for schools, run at schools, on campus or online. Individual talk dates are not given.",
+      "date": "2026-11-16",
+      "publisher": "Universidade do Algarve",
+      "url": "https://www.ualg.pt/equipa-ualg-renova-se-e-regressa-escolas-com-81-palestras",
+      "read_on": "2026-11-19",
+      "ai_path": "AI listed as a talk topic",
+      "steps": 1,
+      "significance": "region",
+      "blast": [
+        "loule",
+        "olhao",
+        "albufeira",
+        "sao-bras-de-alportel"
       ]
     },
     {
@@ -845,7 +862,8 @@
     "Postal Dengun and WordPress Meetup Faro pages opened are 2025 or July 2026, not new; library AI-health talk is March 2025.",
     "ualg.pt/pt/noticias: only 'Investigadores da UAlg exploram narrativas imersivas' (17 Nov 2026), no AI stated; not added.",
     "algarveprimeiro Faro items 16-18 Nov (walking cities network, tourism debate, diabetes training) have no AI link.",
-    "cm-faro.pt/pt/noticias opened: 3 items, newest 2026-11-18 (walking cities network); none AI. Agenda lists 'Mentes artificiais, ola Futuro' and 'Novembro Digital' as events but no date or detail was read and a web search found nothing, so not added."
+    "cm-faro.pt/pt/noticias opened: 3 items, newest 2026-11-18 (walking cities network); none AI. Agenda lists 'Mentes artificiais, ola Futuro' and 'Novembro Digital' as events but no date or detail was read and a web search found nothing, so not added.",
+    "Opened cm-faro.pt/pt/noticias/: 3 items, newest 2026-11-18, none AI (urban platform update in Destaques, 2026-10-01, not AI). Agenda pages for both events opened. Opened ualg.pt/pt/noticias: 16 items on page 1, newest 2026-11-18; only Equipa UAlg has an AI link. Narrativas imersivas (17 Nov) opened: no AI, skipped; Equipa UAlg already in data via Barlavento, official source added here."
   ],
   "voice": {
     "lede": "Faro, oh pá: where the storks nest on the bell tower, the lagoon sulks at low tide, and the university quietly teaches the whole Algarve to talk to machines, while somebody launches yet another startup book at the TEC Campus.",
