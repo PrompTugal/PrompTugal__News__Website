@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1923",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: ptmap 1.0.2 post-reviewed: go, the version to vendor",
+    "by": "security@PrompTugal.dinis",
+    "from": "168c14fc5"
+  },
+  {
     "version": "v0.1.1922",
     "date": "2026-11-19",
     "what": "security@PrompTugal.dinis: ptmap 1.0.1 post-reviewed: go",
