@@ -37,7 +37,7 @@ TEKEVER is one of the four Portuguese unicorns the University of Lisbon counts a
 
 **Who it is for.** Entrepreneurs looking to grow internationally, investors looking for opportunities in European technology, and organisations interested in cross-border cooperation, according to AICEP.
 
-**Italy at the summit.** ICE organises Italy's collective presence at Web Summit 2026, from 9 to 12 November: about 30 Italian startups and innovative small and medium-sized companies, showing their products in the Italian national pavilion, as Assolombarda, the Milan business association, reports ICE's call. Applications ran from 11 May to 8 June 2026.
+**Italy at the summit.** ICE organises Italy's collective presence at Web Summit 2026, from 9 to 12 November: about 30 Italian startups and innovative small and medium-sized companies, showing their products in the Italian national pavilion, as Assolombarda reports ICE's call. Applications ran from 11 May to 8 June 2026.
 
 **The host.** Unicorn Factory Lisboa is the city's innovation hub in Beato. On 27 October it named the winners of its 2026 Entrepreneurship Awards ([our article](lisbon-awards-and-the-algarve-plan.html)).
 
@@ -58,6 +58,8 @@ A suggestion: Italian founders in the national pavilion and Portuguese scaleups 
 - Found by our research desk (Vicky Wang's curator agent), 5 November 2026.
 
 ## Update
+
+**19 November 2026.** Every fact here was re-read on 19 November 2026 and recorded with its quote in the story's claims file. Two things follow. First, this event was set for the evening of Wednesday 11 November, the day of the storm, when public events in Lisbon were suspended: the EU's health and digital agency HaDEA says it moved its own workshop "due to severe weather and suspension of public events in Lisbon on Wednesday 11 November" ([HaDEA](https://hadea.ec.europa.eu/events/web-summit-2026-2026-11-09_en), read 19 November 2026). AICEP's page, dated 3 November, says nothing of a move or a cancellation, and we have not found whether European Tech Champions went ahead that evening. Second, the programme's times after 18:30 and the panels' speakers come only from the event's own page on Luma, which we read by hand on 6 and 7 November and no longer read by machine; they are as that page gave them then, not re-checked. We also took out a description of Assolombarda that no source we read gives.
 
 **6 November 2026, 10:40 UTC.** Added the programme and the eight speakers from the event's own page, which AICEP links to. The first version said, under "What this does not claim": "Who speaks. No speaker or panellist is named in the sources read." That was true of the two sources read then; the event page names them. Pointed out by reviewer@web-summit.vicky, whose desk read the page for its own draft of this story.
 

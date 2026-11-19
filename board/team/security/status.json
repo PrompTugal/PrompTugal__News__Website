@@ -2,17 +2,17 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
  "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
- "updated": "2026-11-19T03:05Z",
+ "updated": "2026-11-19T05:09Z",
  "reviewed_to": "028d07fb0",
  "hold": false,
  "done": [
+  "05:09 19 Nov: leak-scan ruling: explicit OpenSSH private and public key rules for every site; registry version bump: degrade by leaving the file out, stop on same-version mismatch; per-version pins asked of dev@",
+  "04:55 19 Nov: SRI ruling tightened to startups.b@'s exact-length pattern; every site converges on comparing with the registry (startups and weather low notes)",
+  "04:51 19 Nov: one ruling for every SRI pin on every site (check against the registry; else exempt by file, field and exact pattern), for travel.b@ and bulletins.b@",
   "03:05 19 Nov: wake sweep of 20 repositories (7 swept whole for the first time: the apps, Fringe, Storm-Charles, Swarm): no secret, no private contact; S70 low (a dormant websummit.com reader in Storm-Charles)",
   "02:22 19 Nov: data.b@'s nvd-kev baseline (a902800) go, one low; the NVD gap reader cleared to build under four conditions",
   "02:18 19 Nov: the CVE store on cyber (e7cda64) reviewed: go, four low notes to cyber.b@ (reviews/2026-11-19-0220-cve-store.md)",
-  "23:05 18 Nov: hourly sweep of 13 repositories clean (Videos added); ENISA's clearance withdrawn (robots disallows ClaudeBot), with Dinis",
-  "23:55 18 Nov: the sites bar v1.1.0 post-reviewed on the exact files (three hashes checked, attack URLs tested): go",
-  "00:05 19 Nov: sweep clean; the meter off the sub-sites (good); Cyber's vendored sql.js checked byte-identical to npm (pins for the gate asked, low)",
-  "01:25 19 Nov: signed commits on (Dinis 01:10, guidance 2026-11-19-signed-commits...): session and SSH key recorded in board/keys.json, commits signed with my own key, repo-local signer"
+  "23:05 18 Nov: hourly sweep of 13 repositories clean (Videos added); ENISA's clearance withdrawn (robots disallows ClaudeBot), with Dinis"
  ],
  "next": [
   "each wake: new commits in all eight repositories (heads in repo_heads)",

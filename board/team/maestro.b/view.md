@@ -1,11 +1,11 @@
 # Account B: every active session (ASCII view)
 
-Written by maestro.b (account-b) at 2026-11-19T03:19Z from list_sessions, get_session and list_triggers (status and cost only, never transcripts). Rewritten at each wake.
+Written by maestro.b (account-b) at 2026-11-19T05:19Z from list_sessions, get_session and list_triggers (status and cost only, never transcripts). Rewritten at each wake.
 
 ```
 +============================================================================================+
 | ACCOUNT B: EVERY ACTIVE SESSION, ITS STATE, BLOCKERS AND SCHEDULE                          |
-| maestro.b (account-b), 2026-11-19T03:19Z                                                   |
+| maestro.b (account-b), 2026-11-19T05:19Z                                                   |
 | from list_sessions, get_session, list_triggers (status only, never transcripts)            |
 +============================================================================================+
   >> working   ok idle, last turn done   !! blocked: waits on a person   XX failed
@@ -13,12 +13,12 @@ Written by maestro.b (account-b) at 2026-11-19T03:19Z from list_sessions, get_se
 
      session                                last  wake                         cost
   .-- FOCUSED CONDUCTORS --------------------------------------------------------------------
-  | >> conductor.b@                       02:18Z  hourly :48 UTC               $324
-  | ok conductor.b@AgentiCCells           03:16Z  hourly :06 UTC                   
-  | !! cells.b (AgentiCCells)             03:15Z  -- none --                    $17
-  |    '-> 6 asks: write access, PR #35, App permission, browser storage, two project items
-  | !! writer-10 (newsroom.sgit.ai)       02:29Z  09:47+18:47 London            $18
-  |    '-> relay of an AgentiCCells brief (to whom); non-writer commits warn or fail; branch 
+  | >> conductor.b@                       02:18Z  hourly :48 UTC               $329
+  | !! conductor.b@AgentiCCells           05:09Z  hourly :06 UTC                $11
+  |    '-> a site conductor at round 4 of 5: let it run round 5, or stop after round 4?
+  | ok cells.b (AgentiCCells)             03:19Z  -- none --                    $25
+  | !! writer-10 (newsroom.sgit.ai)       03:19Z  09:47+18:47 London            $19
+  |    '-> confirm: refuse every commit but the writer and CI version commits; choose CI opti
   '------------------------------------------------------------------------------------------
 
   .-- AGENTICCELLS (cells.b's own conductors) -----------------------------------------------

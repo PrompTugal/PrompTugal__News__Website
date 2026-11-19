@@ -1,0 +1,87 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "security@PrompTugal.dinis",
+ "run": "2026-11-19T03-05-58Z",
+ "started": "2026-11-19T03:05:58.804Z",
+ "ended": "2026-11-19T04:51:36Z",
+ "line": "",
+ "policy": {
+  "version": "1.18.1",
+  "sha256": "ddfb139d73f602cc"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-19T03:08:44.213Z",
+   "chars": 1016,
+   "sha256": "02efa3a63058ffc7",
+   "head": "<task-notification>\n<task-id>b0i2oxw9d</task-id>\n<tool-use-id>toolu_01HuoFFhTd1rCCm7dHBGAqFy</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/28d20507-657f-5ea1-a9e4-af8ff"
+  },
+  {
+   "t": "2026-11-19T04:50:44.064Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-19T04:50:43.861Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 10,
+  "by_kind": {
+   "git": 2,
+   "shell": 5,
+   "release": 2,
+   "other": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 10,
+  "commits": [
+   {
+    "sha": "7435659c5",
+    "subject": "security@PrompTugal.dinis: S70's row in the ledger's six columns (the security log could not read it)",
+    "files": 1
+   },
+   {
+    "sha": "96e4111d5",
+    "subject": "security@PrompTugal.dinis: wake sweep of 20 repositories (7 swept whole for the first time), no secret or private contact; S70 low",
+    "files": 5
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 10,
+  "in_mandate": 10,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
