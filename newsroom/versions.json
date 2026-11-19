@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1890",
+    "date": "2026-11-19",
+    "what": "abp@PrompTugal.dinis: R16 gets security@'s controls 6 and 7 (orphans, shallow checkout, checker from the last release); policy v1.18.2",
+    "by": "abp@PrompTugal.dinis",
+    "from": "50060be3c"
+  },
+  {
     "version": "v0.1.1889",
     "date": "2026-11-19",
     "what": "ontologist@PrompTugal.dinis: the registry settles startups.b@'s three differences: aliases, Quarteira under Loule, the municipality kind",
