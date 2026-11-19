@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1863",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 09:18 wake: weekly limit still at warning; a fresh session for conductor.b@ would cut its cost",
+    "by": "maestro.b (account-b)",
+    "from": "ddf894dfa"
+  },
+  {
     "version": "v0.1.1862",
     "date": "2026-11-19",
     "what": "dev@PrompTugal.dinis: 09:10 wake: datasci.places@ brought; the debrief's morning section",
