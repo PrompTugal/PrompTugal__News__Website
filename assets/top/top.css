@@ -133,6 +133,4 @@ main .kicker, main .eyebrow { font: 700 12px var(--sans); letter-spacing: .08em;
 @media (max-width: 640px) { .em-pay-more { display: none; } .em-dl .em-pay { margin-left: 8px; font-size: 12px; } }
 
 /* The PrompTugal.news sites: a vertical rail at the right edge on wide screens, in the More menu on narrow ones, so the front page keeps its height (Dinis, 17 November 2026) */
-.cmore-net { border-top: 1px solid var(--rule-2, #d8d4cb); margin-top: 8px; padding-top: 8px; display: flex; flex-wrap: wrap; gap: 6px 14px; }
-.cmore-net::before { content: "Also from PrompTugal.news"; width: 100%; font: 600 11px var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--green, #006600); }
 .nr-graph { width: 100%; height: auto; background: #fff; border: 1px solid var(--rule-2, #d8d4cb); border-radius: 10px; }
