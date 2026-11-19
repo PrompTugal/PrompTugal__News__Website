@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1880",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 12:18 wake: a partner desk's new source is not on the register (R15), for rights@",
+    "by": "maestro.b (account-b)",
+    "from": "2b4bec799"
+  },
+  {
     "version": "v0.1.1879",
     "date": "2026-11-19",
     "what": "jornal@PrompTugal.silvio: add AlphaSignal as a lead source and a daily digest to Vicky and Dinis",
