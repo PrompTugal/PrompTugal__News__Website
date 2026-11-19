@@ -2874,7 +2874,10 @@
         "fingerprint": "sha256:3faada86b02dabc6",
         "record": "sha256:622e5570ade43f2b",
         "signing_fingerprint": "sha256:622e5570ade43f2b"
-      }
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBzBaaYuDwFGt0LRq686zsxaozkoP+uISXPBvlbXwxfk",
+      "session": "https://claude.ai/code/session_01Kw9UwD5cJhhjJEfERLHju6",
+      "ssh_added": "2026-11-19T16:02Z"
     },
     {
       "id": "site.lisboa-promptugal",
