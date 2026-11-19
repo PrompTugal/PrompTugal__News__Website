@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1855",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: pins.json append-only against every committed version of it, not only HEAD (security@'s S71)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "2a058d0ed"
+  },
+  {
     "version": "v0.1.1854",
     "date": "2026-11-19",
     "what": "security@PrompTugal.dinis: sites bar 1.2.1 post-reviewed: go; S71 low",
