@@ -5,8 +5,8 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-19T18:19Z",
-  "state": "2026-11-19T18:19Z wake: SAW has HTTPS on 4 of its 5 sites, deck v1 and the Kickstarter page plan committed; AgentiCCells asks dot or hyphen in agent names",
+  "updated": "2026-11-19T19:19Z",
+  "state": "2026-11-19T19:19Z 19:18 fuller brief (briefs/2026-11-19-1918.md): SAW has five sites on HTTPS and five home page designs waiting for Dinis's pick; agenticcells.ai refactored (preview v0.1.282)",
   "done": [
     "2026-11-19T02:01Z onboarding: read CLAUDE.md, New from Dinis, the maestro guidance, conductor.b@'s status, debrief 2026-11-18 and roster; key maestro.b-account-b made with sgit pki keygen, public bundle and ssh signing key in board/keys.json with this session; git set repo-locally to sign with newsroom/tools/signing-setup.sh",
     "2026-11-19T02:01Z read get_session for conductor.b@, cells.b, writer-10 and telemetry.b@ (status and cost only, no transcripts) and the status.json of rights@, security@, abp@, telemetry.b@",
@@ -36,12 +36,15 @@
     "2026-11-19T16:19Z 16:18 wake: no hold, no new guidance; telemetry.b@ $2,745.34 at 15:35 (+$91.17); PrompTugal: abp@, ontologist@, correspondent@ enrolled SSH signing keys, dev@'s release.sh now merges dev when a worker came in by merge (the signed history is kept), live.b@'s CI review applied; SAW: conductor ($12.45) attached sovereignwebsite__site, __website and __org, the factory seeds a site in one commit and gives the agents' team push, and it is adding branch protection and HTTPS to the pipeline",
     "2026-11-19T16:39Z read conductor.b@'s relay of Dinis's twice-a-day word and checked it: the guidance file exists and my trigger reads CRON_TZ=Europe/Lisbon 18 10,21; about 560 wakes a day become about 76; the SAW conductor's wake is now twice a day too (09:03 to 09:56 and 20:03 to 20:56 Lisbon)",
     "2026-11-19T17:31Z at Dinis's word: three wakes back to hourly (maestro.b :18, SAW conductor :31, AgentiCCells conductor :06); briefs sent by send_message to the AgentiCCells conductor (refactor agenticcells.ai to agentic web and agentic cells, SAW as the smallest cell and one example) and the SAW conductor (launch tomorrow, positioning, work with the AgentiCCells conductor); record board/team/maestro.b/decisions/2026-11-19-full-speed-and-the-refactor.md",
-    "2026-11-19T18:19Z 18:18 wake: no hold; new guidance 17:40 (cameras as credited links unless we have full right; London and the EU on every site's map) is PrompTugal's, and its 'embed only what we have full right to use' is a common standard for SAW and AgentiCCells sites too; SAW conductor ($38): HTTPS live on 4 of 5 sites, deck v1 in PrompTugal's investment-case structure and the Kickstarter page plan (2f4dd18), the vault base at vault.sovereignwebsite.site, the family bar, its debrief; AgentiCCells conductor ($24) asks dot or hyphen for agent names; telemetry.b@ $2,868.69 at 16:35 (+$123.35)"
+    "2026-11-19T18:19Z 18:18 wake: no hold; new guidance 17:40 (cameras as credited links unless we have full right; London and the EU on every site's map) is PrompTugal's, and its 'embed only what we have full right to use' is a common standard for SAW and AgentiCCells sites too; SAW conductor ($38): HTTPS live on 4 of 5 sites, deck v1 in PrompTugal's investment-case structure and the Kickstarter page plan (2f4dd18), the vault base at vault.sovereignwebsite.site, the family bar, its debrief; AgentiCCells conductor ($24) asks dot or hyphen for agent names; telemetry.b@ $2,868.69 at 16:35 (+$123.35)",
+    "2026-11-19T19:19Z 19:18 fuller brief; SAW conductor $42.50 (five home designs at sovereignwebsite.ai/designs/), AgentiCCells conductor $24.43 (agenticcells.ai refactor preview v0.1.282; requests for a tools hub and five tool sites), writer-10 $95.03"
   ],
   "next": [
     "18:18 wake and hourly: watch the SAW launch and the agenticcells.ai refactor; full briefs at 19:18 and 07:18"
   ],
   "asks": [
+    "Dinis: SAW: pick a home page design (or a combination) at https://sovereignwebsite.ai/designs/; yes or no on the Google Maps example and its name; the licence for the principles on sovereignwebsite.org; yes or no on adding migration.b to its policy: https://claude.ai/code/session_01Kw9UwDCS5Px4dXRJUGP9Qu",
+    "Dinis: AgentiCCells: review the refactored agenticcells.ai preview (v0.1.282): https://claude.ai/code/session_01Kw9UwFgyMuNDYCnrW1ZKkm",
     "Dinis: dot or hyphen in agent names (hub.b@ vs hub-b@)? It decides how every signature check reads names, across projects (the same issue as maestro.b's space): https://claude.ai/code/session_01Kw9UwAyhZUpFxFhs4wQhuP",
     "Dinis: SAW: change the three domains' nameservers at the old registrar to the Route 53 ones (public DNS still answers from worldnic.com at 15:53); remove the name-only subject line from the AWS role's trust policy; set the apply environment (FACTORY_APP_ID, FACTORY_APP_PRIVATE_KEY); branch protection on dev and main: https://claude.ai/code/session_01Kw9UwDCS5Px4dXRJUGP9Qu",
     "Dinis: dev@'s S72: wiring the signed-commit check into promptugal.news's release would fail 219 of today's commits (from before agents enrolled); how it is wired is yours (conductor.b@ https://claude.ai/code/session_01Kw9UwFbo4iCoohkgnZar9k)",
