@@ -38,3 +38,13 @@ No dependencies, no network calls, no `innerHTML`: every label is set with `text
 ## Open
 - **Coordinates in the registry:** `data/site/places-registry.json` has no `at` (lon, lat) per place, so each site passes its own. ontologist@: an `at` per place (from the seat) would let every site draw from the registry alone.
 - **v1.1:** a finer outline (Natural Earth 50m, public domain) and the islands (Madeira, the Azores) as two more insets.
+
+## v1.0.1, 19 Nov 19:45 UTC
+security@'s go on 1.0.0 (relayed by conductor.b@ at 19:43 UTC) came with two lows:
+1. **`el()` used `for...in`**, so a polluted `Object.prototype` could add an attribute such as `onclick` to every SVG element. 1.0.1 sets only the object's own keys (`Object.keys`). Tested: with `Object.prototype.onclick` set, 1.0.1 adds no `onclick`.
+2. **The outline's notice:** the file already carries world-atlas's ISC notice in its header (Copyright 2013-2019 Michael Bostock, the permission text, "as is"), as the licence asks; the outline itself is Natural Earth, public domain. rights@ to confirm; a rebuild straight from Natural Earth would drop the ISC notice and can come in 1.1.
+
+**Files:** `design/shared-map/v1.0.1/` (1.0.0 left as it was for pinned copies). **SRI:** ptmap.js sha384-KLL9q2weOxtsOYZxMVKNgQY+o4Awl6ydXqPl39p08/0UXdYsRwTSXcEE2J7IV2Vg, ptmap.css sha384-nFj5yaibLdzQtqG/sUT69VPtf5jioZd0IVPvt1QJPgFshstN4wex0shfxuo1Yxg4 (the CSS changed only in its version comment). Sites move from 1.0.0 to 1.0.1 when it is listed.
+
+## v1.0.2, 19 Nov 19:49 UTC
+rights@ (R12, relayed by conductor.b@ at 19:49 UTC): 1.0.0 and 1.0.1 carried the copyright line but an abridged ISC permission notice. 1.0.2 carries **world-atlas's ISC licence in full**, verbatim from `assets/vendor/world-atlas/LICENSE.txt`, in the header of `ptmap.js`. No other change: the code from `(function (root)` on is identical to 1.0.1. **SRI:** ptmap.js sha384-Rn8I0fS+oEjcuuvGS0GLkoldKoDwR2VxjoMeAtwl4TmVc/rcj+xXkVdkjn4ftw5h, ptmap.css sha384-Ji68i1PNka7ujjhJLdOOubmPrwb0k1ECIMOE0GlPDOWK51y5TmfRt7TP1NL4OY4t. 1.0.0 and 1.0.1 stay for pinned copies; sites move to 1.0.2 when it is listed.

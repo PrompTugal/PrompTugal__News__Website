@@ -1,5 +1,40 @@
 [
   {
+    "version": "v0.1.1924",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: ptmap 1.0.2 listed; 1.0.1 and 1.0.2 passed (security@): 1.0.2 is the version to vendor",
+    "by": "dev@PrompTugal.dinis",
+    "from": "a81b20325"
+  },
+  {
+    "version": "v0.1.1923",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: ptmap 1.0.2 post-reviewed: go, the version to vendor",
+    "by": "security@PrompTugal.dinis",
+    "from": "168c14fc5"
+  },
+  {
+    "version": "v0.1.1922",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: ptmap 1.0.1 post-reviewed: go",
+    "by": "security@PrompTugal.dinis",
+    "from": "d84da3d39"
+  },
+  {
+    "version": "v0.1.1921",
+    "date": "2026-11-19",
+    "what": "ontologist@PrompTugal.dinis: the answer for startups.b@ on the places registry, with the commit ids",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "92e095622"
+  },
+  {
+    "version": "v0.1.1920",
+    "date": "2026-11-19",
+    "what": "designer@PrompTugal.dinis: merge dev",
+    "by": "designer@PrompTugal.dinis",
+    "from": "c644a7831"
+  },
+  {
     "version": "v0.1.1919",
     "date": "2026-11-19",
     "what": "dev@PrompTugal.dinis: merge dev",

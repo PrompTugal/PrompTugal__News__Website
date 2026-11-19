@@ -33,7 +33,10 @@ const reg = () => JSON.parse(R('assets/sites/sites.json'))
 // every version's pin, append-only (assets/sites/pins.json; security@, 19 Nov): a site checks its own version's pin
 const PINS = () => JSON.parse(R('assets/sites/pins.json'))
 // the shared map's current version and its files' sha384 (the SRI designer@ published in its manifest)
-const MAPV = '1.0.0', MAPDIR = `design/shared-map/v${MAPV}`
+const MAPREV = () => reg().map_review || {}
+const MAPV = () => Object.keys(PINS().map || {}).filter(v => /^passed\b/.test(MAPREV()[v] || '')).sort((a, b) => a.localeCompare(b, 'en', { numeric: true })).pop() || null
+const GH = 'https://github.com/promptugal/promptugal__news__website'
+const mapDir = v => `design/shared-map/v${v}`
 const sha384 = p => 'sha384-' + createHash('sha384').update(R(p)).digest('base64')
 // the registry as served: each site's version_url and preview (promptugal.news's under api/v1/ until the root paths are in .gitignore)
 const registry = () => ({ sites: reg().sites.map(s => s.id === 'news' ? { ...s, version_url: `${s.url}api/v1/version.json`, preview: `${s.url}api/v1/preview.svg` }
@@ -62,9 +65,9 @@ export function api(ctx) {
             versions: Object.fromEntries(Object.entries(PINS().obs_tz).map(([v, x]) => [v, { integrity: { 'tz-country.json': x.integrity }, sha256: x.integrity }])) },
         // the shared map, ptmap (designer@'s design/shared-map/; Dinis, 19 Nov 17:40): vendored from this repository, never
         // loaded from promptugal.news (design/ scripts are not deployed); review: security@'s, before any site vendors it
-        map: { version: MAPV, files: `https://github.com/promptugal/promptugal__news__website/tree/dev/${MAPDIR}`, spec: 'https://github.com/promptugal/promptugal__news__website/blob/dev/board/spec-the-shared-map.md',
-            review: 'pending: security@ (asked 19 Nov)', install: S.map_install,
-            versions: Object.fromEntries(Object.entries(PINS().map || {}).map(([v, x]) => [v, { integrity: { ...x } }])) } } }, ...previewFiles(ctx)]
+        map: { version: MAPV(), files: MAPV() && `${GH}/tree/dev/${mapDir(MAPV())}`, spec: `${GH}/blob/dev/board/spec-the-shared-map.md`,
+            review: MAPV() && MAPREV()[MAPV()], review_note: S.map_review_note, install: S.map_install,
+            versions: Object.fromEntries(Object.entries(PINS().map || {}).map(([v, x]) => [v, { files: `${GH}/tree/dev/${mapDir(v)}`, review: MAPREV()[v] || 'pending: security@', integrity: { ...x } }])) } } }, ...previewFiles(ctx)]
 }
 
 const TPL = () => R('design/sites-bar/preview-template.svg.txt').toString()
@@ -96,8 +99,9 @@ export function validate(gate) {
     const P = PINS(), TZV = JSON.parse(R('assets/obs/tz-country.json')).version
     if (JSON.stringify(P.bar[BAR]) !== JSON.stringify({ js: sha(JS), css: sha(CSS), render: sha(RENDER) })) p.push(`assets/sites/pins.json: the sites bar ${BAR} is not listed with its files' integrity (a new version needs a new number)`)
     if (!P.obs_tz[TZV] || P.obs_tz[TZV].integrity !== sha('assets/obs/tz-country.json')) p.push(`assets/sites/pins.json: tz-country ${TZV} is not listed with its integrity (a new version needs a new number)`)
-    const MP = (P.map || {})[MAPV] || {}
-    for (const f of ['ptmap.js', 'ptmap.css']) if (MP[f] !== sha384(`${MAPDIR}/${f}`)) p.push(`assets/sites/pins.json: the shared map ${MAPV}'s ${f} is not listed with its file's integrity (a new version needs a new number)`)
+    // every listed version of the shared map matches its files (a version never changes bytes)
+    for (const [v, MP] of Object.entries(P.map || {})) for (const f of ['ptmap.js', 'ptmap.css']) { let h = null; try { h = sha384(`${mapDir(v)}/${f}`) } catch { }
+        if (MP[f] !== h) p.push(`assets/sites/pins.json: the shared map ${v}'s ${f} is not listed with its file's integrity (a new version needs a new number)`) }
     // append-only against EVERY committed version of the file, not only HEAD (security@'s S71): an old pin rewritten
     // and committed still fails, however many commits ago
     const ROOT_ = new URL('../../../', import.meta.url).pathname, run = a => execFileSync('git', a, { cwd: ROOT_, stdio: ['ignore', 'pipe', 'ignore'] }).toString()
