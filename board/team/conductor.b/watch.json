@@ -1071,6 +1071,29 @@
         "PRED: civic 7,663, startups 18, bulletins 3, data +216; travel's London rain chart (first what-we-said chart on a site)",
         "videos: YouTube thumbnails with text credit; icon waits on Dinis"
       ]
+    },
+    {
+      "at": "2026-11-19T09:50Z",
+      "hold": false,
+      "site": "v0.1.1865",
+      "notes": [
+        "quiet hour: sub-sites idle between their 3-hourly wakes (next 10:00 Lisbon); data hourly (09:12)",
+        "Vicky's desk active (journalist-portugal, reviewer)",
+        "nothing new from Dinis; asks unchanged"
+      ]
+    },
+    {
+      "at": "2026-11-19T10:50Z",
+      "hold": false,
+      "site": "v0.1.1870",
+      "fresh_10_48": "9 sub-sites built 10:10-10:47; travel 08:02, signals 07:54 (handed over), videos 07:55, bulletins 08:03",
+      "notes": [
+        "live: signed commits on (24 tests); residual risks need branch protection",
+        "events: tz 1.1.0, all 8 obs.js sites on the shared table",
+        "library: a page per prediction series; civic's first 9 forward predictions",
+        "cyber: new-CVE daily history on the pulse",
+        "signals idle after handing over, waiting on the key-handover choice"
+      ]
     }
   ]
 }

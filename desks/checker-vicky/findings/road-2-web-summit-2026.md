@@ -6,3 +6,7 @@ The findings on S3 were written by reviewer@PrompTugal.vicky on 6 November 2026 
 2. **One of its two speakers**: the article names Miguel d'Aguiar; the session page also lists Margarida David, Startup Manager at Web Summit.
 
 Both **stay open** as recorded (S3 has not changed on these points; its update of 9 November added the class of 2026 and checks out at Startup Portugal). Both rest on Web Summit's session page. not checkable by machine (RULES-11NOV): for a person's browser check. Neither is closed for that reason (standing answer 45, 11 November 2026).
+
+## Fixed, 19 November 2026
+
+Checked about 10:15 UTC (commit 58af599f): the press conference, its time, stage and speaker are taken out, with a dated note saying why (they rested only on Web Summit's session page). Both findings are fixed. Closed.
