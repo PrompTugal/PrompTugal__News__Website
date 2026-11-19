@@ -148,7 +148,9 @@ BP_W.more = function (n) { var all = { en: 'Show all', pt: 'Ver todos', es: 'Ver
     Array.prototype.forEach.call(ems, function (em) {
         var m = /\b(\d{2}):(\d{2}) UTC\b/.exec(em.textContent); if (!m) return
         var t = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), +m[1], +m[2])
-        var mins = Math.round((now.getTime() - t) / 60000); if (mins < 0 || mins > 24 * 60) return
+        var mins = Math.round((now.getTime() - t) / 60000)
+        if (mins < 0) mins += 24 * 60 // a reading from yesterday evening, seen just after midnight UTC
+        if (mins < 0 || mins > 24 * 60) return
         var s = document.createElement('span'); s.className = 'bp-age'
         s.textContent = ' · ' + (mins < 60 ? BP_W.min(mins) : BP_W.hr(Math.floor(mins / 60)))
         em.appendChild(s)

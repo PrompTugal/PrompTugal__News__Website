@@ -1,7 +1,7 @@
 {
   "agent": "designer.places@PrompTugal.dinis",
   "focus": "designer.places@: each town's look inside brand v2.0 on /algarve/ and /algarve/<town>/, and the demo for Dinis's meeting with Algarve Evolution (16 November)",
-  "updated": "2026-11-19T01:15Z",
+  "updated": "2026-11-19T05:10Z",
   "state": "working (second session, Sonnet)",
   "done": [
     "session key designer.places-promptugal in board/keys.json",
@@ -53,10 +53,11 @@
     "wake 18:52: inner passes: opening and closing in-session, no sub-agents (the only diff is my status file: no secret, no personal data, inside my paths); library requests read: none for designer.places@; sweep of 36 place pages clean on dev v0.1.1818 (dev@ made 'Now in <town>' refresh live from data.promptugal.news: renders fine)",
     "wake 20:52: guidance read (cameras, provenance on every item, bulletins: nothing assigned to me; designer@ already shows the licence mark and source on each value); library requests: none for designer.places@; inner passes in-session, no sub-agents (only my status file changed); sweep of 36 place pages clean on dev v0.1.1823",
     "wake 22:52: library requests: none for designer.places@; inner passes in-session, no sub-agents (only my status file changed); sweep of 36 place pages clean on dev v0.1.1827 (the sites bar included)",
-    "wake 00:52: dev@ moved IPMA off the place pages ('Now in <town>' keeps Faro airport and a PrompTugal Weather pointer): a one-value band is now a slim row (CSS only, checked on Lagos and Faro at phone width); sweep of 36 place pages clean on dev v0.1.1835; library requests: none for me; passes: opening and closing in-session; security post-review of the CSS-only diff by me: no secret, no personal data, only assets/by-place; daily debrief written"
+    "wake 00:52: dev@ moved IPMA off the place pages ('Now in <town>' keeps Faro airport and a PrompTugal Weather pointer): a one-value band is now a slim row (CSS only, checked on Lagos and Faro at phone width); sweep of 36 place pages clean on dev v0.1.1835; library requests: none for me; passes: opening and closing in-session; security post-review of the CSS-only diff by me: no secret, no personal data, only assets/by-place; daily debrief written",
+    "wake 02:52: the freshness tag ('N min ago') was missing after midnight UTC (a reading from yesterday evening looked like the future): fixed in by-place.js with a 24 h wrap, rule checked (23:36 read at 00:53 = 77 min); sweep of 36 place pages clean on dev v0.1.1842; library requests: none for me; passes: opening and closing in-session, post-review of the two-line JS diff by me (arithmetic only, no network, no markup injected, no secret, inside assets/by-place)",
+    "wake 04:52: designer@ brought my slim-band and age-tag fixes onto dev; library requests: none for me; passes in-session (only my status file changed); sweep of 36 place pages clean on dev v0.1.1847 (sites bar v1.2 included)"
   ],
   "next": [
-    "the Faro airport age tag no longer shows: check by-place.js's freshness block against the new markup",
     "the home strip, now that live values sit on the Weather site",
     "companies page variations"
   ],

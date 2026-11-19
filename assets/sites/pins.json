@@ -1,0 +1,28 @@
+{
+  "about": "Every published version of the shared pieces and its pin, append-only (security@, 19 November 2026: a site checks its own version against its own pin and rarely needs to degrade). A version, once listed, never changes or goes: the gate refuses it. dev@PrompTugal.dinis.",
+  "bar": {
+    "1.1.0": {
+      "js": "sha256-vJeoIKj0+9pg/2XDBzvm/nmy0dPulUJX46WbynQp6bA=",
+      "css": "sha256-MC4lROs049bOjY4U/ikYyfZYpYf2LUfUyiCytPP3hU0=",
+      "render": "sha256-ubUK4y/V3CNLpum0ZgBhr7JVVLVCocd59o0djGGpjbw="
+    },
+    "1.1.1": {
+      "js": "sha256-CocgHABQfdAOZrH/4dwXFz0kdfQtd8dfQfUNG9Cd4zM=",
+      "css": "sha256-xz+fEE+rY1AK+9NgKEz+qBRUgeuirUoTBuDWfXFPB1U=",
+      "render": "sha256-qi/wub3SbA90q6Ab+p5TtTd6ewAuMtiDA1L6e3nzou4="
+    },
+    "1.2.0": {
+      "js": "sha256-q453DfQ1nN+6NwDIxodgmBCmN2nSqI2XBlpqJY7r36Y=",
+      "css": "sha256-I+znlJf/6T2Z5HTw9HUzCUJdqF4LWVSMGZ2QGlkvbr8=",
+      "render": "sha256-fXQVo7N8M9mqAbCTltbVrqU410HbD2j0GmR7cWiFg7I="
+    }
+  },
+  "obs_tz": {
+    "1.0.0": {
+      "integrity": "sha256-mF2obgKbjMH+Xu9eV1rZieDUuh0DnIVzuqKGQAKFJJc="
+    },
+    "1.1.0": {
+      "integrity": "sha256-/BaJcFmDrDzKbdp5sF54mcbqH37YRyeiAk9oDnuNXp4="
+    }
+  }
+}

@@ -1,11 +1,11 @@
-/*! The PrompTugal sites bar v1.1.1, the behaviour (dev@PrompTugal.dinis, from designer@'s board/spec-the-sites-bar.md, SB3 to SB5).
+/*! The PrompTugal sites bar v1.2.0, the behaviour (dev@PrompTugal.dinis, from designer@'s board/spec-the-sites-bar.md, SB3 to SB5).
  * The bar's links are in the page already (rendered at build by sites-bar-render.mjs). This adds: the pop-up per site
  * (hover after 150 ms, focus, tap; Escape closes and returns focus), with the site's /preview.svg as an <img> only, and its
  * version and update time from its /version.json (JSON only, credentials omitted, each value matched to a strict pattern);
- * on a phone the "Sites" sheet (scrim, Escape, focus trapped while open). Every string by textContent; nothing stored or sent. */
+ * on a phone one row that scrolls sideways with the current site centred, and no pop-up (SB9, SB10). Every string by textContent; nothing stored or sent. */
 (function () {
     var nav = document.querySelector('nav.ptsb'); if (!nav || nav.__ptsb) return; nav.__ptsb = 1
-    var links = [].slice.call(nav.querySelectorAll('ul a[data-host]'))
+    var links = [].slice.call(nav.querySelectorAll('ul a[data-host]')), phone = matchMedia('(max-width: 760px)')
     function el(t, c, x) { var e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = String(x); return e }
     function same(u, host) { try { var x = new URL(u); return x.protocol === 'https:' && x.hostname === host && !x.port && !x.username && !x.password } catch (e) { return false } }   // 1.1.1: no user info (LIB-2026-026)
     var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
@@ -36,27 +36,15 @@
         }).catch(function () { })
     }
     links.forEach(function (a) {
-        a.addEventListener('mouseenter', function () { clearTimeout(t); t = setTimeout(function () { show(a) }, 150) })
+        a.addEventListener('mouseenter', function () { if (phone.matches) return; clearTimeout(t); t = setTimeout(function () { show(a) }, 150) })
         a.addEventListener('mouseleave', function () { clearTimeout(t) })
-        a.addEventListener('focus', function () { show(a) })
-        a.addEventListener('click', function (e) { if (matchMedia('(hover: none)').matches && open !== a) { e.preventDefault(); show(a) } })
+        a.addEventListener('focus', function () { if (!phone.matches) show(a) })
     })
     nav.addEventListener('mouseleave', function () { clearTimeout(t); t = setTimeout(function () { close(false) }, 250) })
     pop.addEventListener('mouseenter', function () { clearTimeout(t) })
-    // the phone sheet
-    var all = nav.querySelector('.ptsb-all'), scrim = el('div', 'ptsb-scrim'), sheet = el('div', 'ptsb-sheet')
-    scrim.hidden = sheet.hidden = true; sheet.setAttribute('role', 'dialog'); sheet.setAttribute('aria-modal', 'true'); sheet.setAttribute('aria-label', 'The PrompTugal.news sites'); sheet.id = 'ptsb-sheet'
-    sheet.appendChild(el('div', 'grab')); sheet.appendChild(el('h3', '', 'The PrompTugal.news sites'))
-    var ul = el('ul'); links.forEach(function (a) { var li = el('li'), x = el('a'); x.href = a.href; x.rel = 'noopener noreferrer'; if (a.target) x.target = a.target; if (a.getAttribute('aria-current')) x.setAttribute('aria-current', 'page'); x.append(el('b', '', a.getAttribute('data-name')), el('span', '', a.getAttribute('data-line'))); li.appendChild(x); ul.appendChild(li) })
-    sheet.appendChild(ul); document.body.append(scrim, sheet)
-    function shut() { sheet.hidden = scrim.hidden = true; if (all) all.focus() }
-    if (all) all.addEventListener('click', function (e) { e.preventDefault(); sheet.hidden = scrim.hidden = false; var f = sheet.querySelector('a'); if (f) f.focus() })
-    scrim.addEventListener('click', shut)
-    var y0 = null; sheet.addEventListener('touchstart', function (e) { y0 = e.touches[0].clientY }, { passive: true })
-    sheet.addEventListener('touchend', function (e) { if (y0 != null && e.changedTouches[0].clientY - y0 > 60) shut(); y0 = null })
-    document.addEventListener('keydown', function (e) {
-        if (e.key === 'Escape') { if (!sheet.hidden) shut(); else close(true) }
-        if (e.key === 'Tab' && !sheet.hidden) { var f = sheet.querySelectorAll('a'), first = f[0], last = f[f.length - 1]; if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus() } else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus() } }
-    })
+    // a phone (SB10): one row, the current site scrolled to the centre; no pop-up, one tap goes (SB9)
+    var cur = nav.querySelector('ul a[aria-current]')
+    if (cur && phone.matches) try { cur.scrollIntoView({ inline: 'center', block: 'nearest' }) } catch (e) { }
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(true) })
     document.addEventListener('click', function (e) { if (!nav.contains(e.target)) close(false) })
 })()
