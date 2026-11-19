@@ -1094,6 +1094,30 @@
         "cyber: new-CVE daily history on the pulse",
         "signals idle after handing over, waiting on the key-handover choice"
       ]
+    },
+    {
+      "at": "2026-11-19T11:52Z",
+      "hold": false,
+      "site": "v0.1.1876",
+      "fresh_11_48": "10 sub-sites built 10:17-11:11; signals 07:54 (handed over)",
+      "notes": [
+        "sites bar 1.2.1 on all 12 sub-sites (videos last, 10:58)",
+        "ontologist@: data/site/places-registry.json with London, the UK, ISO countries, for every site",
+        "bulletins: first outcomes (Faro held, London rain missed twice); held/missed rule waits on Dinis",
+        "library: requests channel fixed (case-sensitive filenames)",
+        "London forecast 6-hourly by design (Open-Meteo 429 on hourly); file now carries its own cadence",
+        "missed the 06:48 and 09:48 ledgers; catching up at 11:48"
+      ]
+    },
+    {
+      "at": "2026-11-19T12:50Z",
+      "hold": false,
+      "site": "v0.1.1882",
+      "notes": [
+        "quiet hour: sub-sites between their 3-hourly wakes (next 13:00 Lisbon); data hourly (12:24)",
+        "place desks and security, abp, telemetry active",
+        "asks for Dinis unchanged"
+      ]
     }
   ]
 }

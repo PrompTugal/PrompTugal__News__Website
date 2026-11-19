@@ -75,6 +75,7 @@ Standing answer 95 (Vicky, 17 November 2026: "update notes may use a short list 
 - **The attribution or caveat is said once, at the end.** No repeated "he said" on every line.
 - Past tense, short sentences and no semicolons still apply.
 - The reviewer checks every update note against this section before publishing it.
+- **Limits** (standing answer 100, Vicky, 19 November 2026): at most one update note per article per day and at most two per article; the numbers are `update_notes` in `people/vicky/tools/lint_rules.yaml` on the team site. More than that becomes a short follow-up article, and the original gets one line at the top linking to it.
 
 The example (S67, 17 November 2026):
 

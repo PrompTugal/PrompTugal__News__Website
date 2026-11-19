@@ -456,3 +456,15 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
 - **west `49f159aa0`, brought onto dev:** a mid-morning pass of notes, nothing to publish (two what's-on items with no technology). Good judgement noted: a police item involving a minor was seen as a headline only and deliberately not drafted; I agree and will not take it up (no technology thread, and a minor). Demo Day: still no programme or list of projects. This commit's trailers are now in one block.
 - districts `934a42486` (status) brought onto dev. Central's 14e9adf70 still held (R12). Library requests unchanged.
 - Inner passes inline. Written at 10:42 UTC.
+
+## The 11:40 wake (19 November)
+
+- Place desks: nothing new (west's 58cdbb21a is its 10:22 commit re-made, already on dev). Central's 14e9adf70 still held (R12). Library requests unchanged.
+- Principle text 6 of the list: `desks/journalist-promptugal/principles/sources-and-the-register.md`, from Dinis's guidance on the sources register (18 November, about 14:10 UTC) and R12, R13 and R15; links this desk's other texts.
+- Inner passes inline. Written at 11:41 UTC.
+
+## The 12:40 wake (19 November)
+
+- Brought onto dev: west `0b5afa642` (midday notes: Portimão items with no technology thread, a party proposal for the Portimão campus noted as a proposal, not a decision; nothing to publish), east `117cd37d0` and `4bdb60f1c` (two UAlg leads, held under R12; a status fix), districts `3be4b12a1` (status).
+- Central's 14e9adf70 still held (R12). Library requests unchanged.
+- Inner passes inline. Written at 12:42 UTC.

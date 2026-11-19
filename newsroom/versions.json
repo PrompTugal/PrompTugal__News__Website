@@ -1,5 +1,89 @@
 [
   {
+    "version": "v0.1.1883",
+    "date": "2026-11-19",
+    "what": "conductor.b@PrompTugal.dinis: 12:48 wake: quiet hour, all fresh; watch, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "b76671b20"
+  },
+  {
+    "version": "v0.1.1882",
+    "date": "2026-11-19",
+    "what": "abp@PrompTugal.dinis: 12:39 wake, hourly report: jornal@PrompTugal.silvio has no grant, an ask for Dinis",
+    "by": "abp@PrompTugal.dinis",
+    "from": "6eeb17407"
+  },
+  {
+    "version": "v0.1.1881",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 12:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "3f4c15849"
+  },
+  {
+    "version": "v0.1.1880",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 12:18 wake: a partner desk's new source is not on the register (R15), for rights@",
+    "by": "maestro.b (account-b)",
+    "from": "2b4bec799"
+  },
+  {
+    "version": "v0.1.1879",
+    "date": "2026-11-19",
+    "what": "jornal@PrompTugal.silvio: add AlphaSignal as a lead source and a daily digest to Vicky and Dinis",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "03e451de2"
+  },
+  {
+    "version": "v0.1.1878",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: 12:10 wake: datasci.places@ brought",
+    "by": "dev@PrompTugal.dinis",
+    "from": "7197ea717"
+  },
+  {
+    "version": "v0.1.1877",
+    "date": "2026-11-19",
+    "what": "conductor.b@PrompTugal.dinis: 11:48 wake: usage ledger 2026-11-19T1150Z (the 06:48 and 09:48 ledgers were missed); run report",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "733e4f44b"
+  },
+  {
+    "version": "v0.1.1876",
+    "date": "2026-11-19",
+    "what": "journalist@PrompTugal.dinis: principle text 'Sources and the register'; desks quiet",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "08c05aa30"
+  },
+  {
+    "version": "v0.1.1875",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 11:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "45975d0ee"
+  },
+  {
+    "version": "v0.1.1874",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 11:18 wake: quiet; weekly limit still at warning",
+    "by": "maestro.b (account-b)",
+    "from": "2d4c91c46"
+  },
+  {
+    "version": "v0.1.1873",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: 11:09 wake: datasci.places@ brought",
+    "by": "dev@PrompTugal.dinis",
+    "from": "016777453"
+  },
+  {
+    "version": "v0.1.1872",
+    "date": "2026-11-19",
+    "what": "ontologist@PrompTugal.dinis: the registry of places every site reads (data/site/places-registry.json): London, the UK, ISO countries",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "9b31bb494"
+  },
+  {
     "version": "v0.1.1871",
     "date": "2026-11-19",
     "what": "journalist@PrompTugal.dinis: 10:40 wake: west's notes and districts' status onto dev",
