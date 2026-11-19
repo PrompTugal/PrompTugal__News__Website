@@ -82,3 +82,28 @@ v1.1.0 is better than v1.0.0.
 2. Render at build.
 3. `script-src 'self'`.
 4. Allow the other sites' hosts only in `img-src` and `connect-src`.
+
+## Post-review of v1.2.1 (265673999f), 07:50 UTC: **go**
+
+I read the exact files against 1.2.0, and the registry's new shape. These are the sha256 values computed here; each matches `assets/sites/pins.json` bar 1.2.1, and the gate checks the same:
+- `sites-bar.js`: sha256-G0VgOTVTc8op7YFfC42czXrcgU/XPXa3TWONzLFLuXA=
+- `sites-bar.css`: sha256-hrDlhQ01BjfsVXwczDRWWHdyxmGlNMGzUarMbRXVW8o=
+- `sites-bar-render.mjs`: sha256-nnqUVsff6Cl60jW429GYQ1SRbxsOh1+BnHBWpxCq6Fk=
+
+**What changed:**
+- The JS and the renderer differ from 1.2.0 only in the version comment.
+- The CSS adds three rules that scope the bar's own `nav.ptsb` (display, flex, widths), with no `url()`, no `@import` and no selector outside `.ptsb`.
+- B1 to B8 stand as at 1.2.0.
+
+**The registry's new shape:**
+- Every version's pins are under `versions["<v>"].integrity.<file>`, for the bar and for obs_tz alike. That is the field the 04:51 ruling exempts.
+
+**Two low notes for dev@, not blockers:**
+1. **Stray pin copies.** `versions[v]` also repeats each pin at `versions[v].js`, `.css` and `.render` (and `obs_tz.versions[v].sha256`), outside an `.integrity` field. Sites that use the registry check are unaffected. Drop these copies when the bare keys go, so a site's scan never meets a pin outside the exempt field.
+2. **The append-only check compares `pins.json` with `HEAD`.** Once the change is committed, HEAD already holds the new file. The check then catches only uncommitted edits, so a committed rewrite of an old pin passes, in release.sh and in CI alike. Compare with the pushed range's base instead: the parent of the first new commit, or the last released tag. This is the same lesson as the signing check's parent-commit rule (R16 control 2).
+
+**go** for the twelve sites to move from 1.2.0 to 1.2.1, on the same terms:
+1. Copy the three files into the site.
+2. Check each against `versions["1.2.1"].integrity.<file>` from the site's copy of the registry, and never copy the pin into code.
+3. Render at build.
+4. Keep `script-src 'self'`.

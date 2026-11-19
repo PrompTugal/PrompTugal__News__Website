@@ -1,9 +1,12 @@
-/* The PrompTugal sites bar v1.2.0 (designer@'s design, board/spec-the-sites-bar.md and design/sites-bar/sites-bar.html.txt;
+/* The PrompTugal sites bar v1.2.1 (designer@'s design, board/spec-the-sites-bar.md and design/sites-bar/sites-bar.html.txt;
    built by dev@PrompTugal.dinis). Every variable is the bar's own (--ptsb-*), so it never touches the host site's. */
 .ptsb{--ptsb-bar:#121317;--ptsb-ink:#f6f3ec;--ptsb-mute:#a9aba3;--ptsb-chip:#26272d;--ptsb-pop:#fff;--ptsb-text:#121317;--ptsb-rule:#d8d4cb;--ptsb-muted:#666860;--ptsb-green:#006600}
 [data-theme=dark] .ptsb{--ptsb-bar:#0b0c0f;--ptsb-mute:#8e9088;--ptsb-chip:#22232a;--ptsb-pop:#1c1d22;--ptsb-text:#f6f3ec;--ptsb-rule:#44453f;--ptsb-muted:#b4b6ad;--ptsb-green:#6dbb7e}
 @media (prefers-color-scheme: dark){:root:not([data-theme=light]) .ptsb{--ptsb-bar:#0b0c0f;--ptsb-mute:#8e9088;--ptsb-chip:#22232a;--ptsb-pop:#1c1d22;--ptsb-text:#f6f3ec;--ptsb-rule:#44453f;--ptsb-muted:#b4b6ad;--ptsb-green:#6dbb7e}}
 .ptsb,.ptsb *{box-sizing:border-box}
+/* 1.2.1: the host's own nav rules (display:flex, wrap, widths) never reach the bar (data.b@'s 824 px row at 375 px) */
+nav.ptsb{display:block!important;flex:none!important;width:auto!important;max-width:100%!important;min-width:0!important;overflow:visible}
+.ptsb .ptsb-w{min-width:0;max-width:min(1152px,100%)}.ptsb ul{min-width:0;max-width:100%}
 .ptsb{background:var(--ptsb-bar);color:var(--ptsb-ink);font:500 12.5px/1 'IBM Plex Sans',Arial,sans-serif;position:relative;z-index:40;margin:0}
 .ptsb-w{max-width:1152px;margin:0 auto;padding:0 16px;display:flex;align-items:center;gap:2px;min-height:36px}
 .ptsb-mark{font:600 13px Newsreader,Georgia,serif;margin-right:10px;white-space:nowrap;color:var(--ptsb-ink)}.ptsb-mark b{color:#e0575d;font-weight:600}.ptsb-mark i{font-style:normal;color:#6dbb7e}

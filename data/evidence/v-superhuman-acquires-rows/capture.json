@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-superhuman-acquires-rows",
+  "type": "evidence",
+  "source_url": "https://blog.superhuman.com/superhuman-to-acquire-rows/",
+  "beat": "Portugal",
+  "group": "S73",
+  "names": [
+    {
+      "as_listed": "Superhuman",
+      "ref": "organisation:superhuman"
+    },
+    {
+      "as_listed": "Rows",
+      "ref": "organisation:rows"
+    },
+    {
+      "as_listed": "Grammarly",
+      "ref": "organisation:grammarly"
+    },
+    {
+      "as_listed": "Coda",
+      "ref": "organisation:coda"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-19-0750.json",
+  "run": "2026-11-19T07:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-19-0750.json"
+    ]
+  }
+}
