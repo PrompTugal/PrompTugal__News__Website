@@ -3312,7 +3312,10 @@
         "fingerprint": "sha256:dbb44ad4587f83d6",
         "signing_fingerprint": "sha256:3e41c4eee33a53d8"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII93IErsx721q1psFnJSWBAPO4BATQsjRU/lwFf6y+1O",
+      "session": "https://claude.ai/code/session_01Kw9UwD8Vhfy61uBa4EkATR",
+      "ssh_added": "2026-11-19T16:01Z"
     },
     {
       "id": "place.algarve.west-promptugal",
