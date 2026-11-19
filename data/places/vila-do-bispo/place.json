@@ -3,7 +3,7 @@
   "id": "vila-do-bispo",
   "type": "place",
   "name": "Vila do Bispo",
-  "kind": "city",
+  "kind": "municipality",
   "located_in": "place:algarve",
   "matches": [],
   "source": "data/by-place/places.json",

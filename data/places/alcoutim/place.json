@@ -3,7 +3,7 @@
   "id": "alcoutim",
   "type": "place",
   "name": "Alcoutim",
-  "kind": "city",
+  "kind": "municipality",
   "located_in": "place:algarve",
   "matches": [],
   "source": "data/by-place/places.json",

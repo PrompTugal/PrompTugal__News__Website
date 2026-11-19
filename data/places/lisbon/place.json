@@ -24,5 +24,8 @@
     "how": "Special:EntityData/Q597 read: label Lisbon, municipality and capital city of Portugal"
   },
   "country": "PT",
-  "timezone": "Europe/Lisbon"
+  "timezone": "Europe/Lisbon",
+  "aliases": [
+    "lisboa"
+  ]
 }

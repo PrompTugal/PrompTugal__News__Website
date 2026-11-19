@@ -3,7 +3,7 @@
   "id": "lagos",
   "type": "place",
   "name": "Lagos",
-  "kind": "city",
+  "kind": "municipality",
   "located_in": "place:algarve",
   "matches": [
     "Lagos, Algarve"

@@ -3,7 +3,7 @@
   "id": "silves",
   "type": "place",
   "name": "Silves",
-  "kind": "city",
+  "kind": "municipality",
   "located_in": "place:algarve",
   "matches": [],
   "source": "data/by-place/places.json",

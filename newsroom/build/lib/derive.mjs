@@ -316,9 +316,9 @@ export function derive({ agenda, curator, companies, places, topics, handEvents,
         for (const pl of o.media.places_covered) (byPlace[pl] ||= []).push({ org: `organisation:${o.id}`, name: o.name, outlet_kind: o.media.outlet_kind, website: o.media.website, feeds: (o.media.feeds || []).length })
     files['data/media/by-place.json'] = { $schema: '../schemas/media-by-place.schema.json', outlets: handOrgs.filter(o => o.media).length, places: Object.fromEntries(Object.entries(byPlace).sort(([a], [b]) => byKey(a, b))), derived: { by: BY, from: ['data/organisations/'] } }
     // the registry of places every site reads: where a place is (country, time zone), by the ontology's places, no site keeps its own list
-    const KEEP = new Set(['country', 'region', 'city', 'district', 'borough'])
+    const KEEP = new Set(['country', 'region', 'city', 'district', 'municipality', 'borough'])
     const countryOf = id => { for (let x = places.find(p => p.id === id), n = 0; x && n < 12; x = places.find(p => p.id === String(x.located_in || '').replace(/^place:/, '')), n++) { if (x.country) return x.country } return null }
-    files['data/site/places-registry.json'] = { $schema: '../schemas/places-registry.schema.json', places: places.filter(p => KEEP.has(p.kind)).sort((a, b) => byKey(a.id, b.id)).map(p => ({ id: p.id, name: p.name, kind: p.kind, parent: p.located_in || null, country: p.country || countryOf(p.id), timezone: p.timezone || null, wikidata: p.wikidata ? p.wikidata.id : null })), derived: { by: BY, from: ['data/places/'] } }
+    files['data/site/places-registry.json'] = { $schema: '../schemas/places-registry.schema.json', places: places.filter(p => KEEP.has(p.kind)).sort((a, b) => byKey(a.id, b.id)).map(p => ({ id: p.id, name: p.name, kind: p.kind, parent: p.located_in || null, country: p.country || countryOf(p.id), timezone: p.timezone || null, aliases: p.aliases || [], wikidata: p.wikidata ? p.wikidata.id : null })), derived: { by: BY, from: ['data/places/'] } }
     files['data/websummit-only.json'] = websummitOnly({ files, companies, places, handEvents, handOrgs, handPeople })
     return { files }
 }
