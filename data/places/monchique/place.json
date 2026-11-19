@@ -3,7 +3,7 @@
   "id": "monchique",
   "type": "place",
   "name": "Monchique",
-  "kind": "city",
+  "kind": "municipality",
   "located_in": "place:algarve",
   "matches": [],
   "source": "data/by-place/places.json",

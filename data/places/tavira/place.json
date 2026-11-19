@@ -3,7 +3,7 @@
   "id": "tavira",
   "type": "place",
   "name": "Tavira",
-  "kind": "city",
+  "kind": "municipality",
   "located_in": "place:algarve",
   "matches": [],
   "source": "desks/researcher/algarve-evolution-round-1.md",

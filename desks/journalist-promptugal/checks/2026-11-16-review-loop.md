@@ -468,3 +468,10 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
 - Brought onto dev: west `0b5afa642` (midday notes: Portimão items with no technology thread, a party proposal for the Portimão campus noted as a proposal, not a decision; nothing to publish), east `117cd37d0` and `4bdb60f1c` (two UAlg leads, held under R12; a status fix), districts `3be4b12a1` (status).
 - Central's 14e9adf70 still held (R12). Library requests unchanged.
 - Inner passes inline. Written at 12:42 UTC.
+
+## The 13:40 wake (19 November)
+
+- **central `abacc7e30`, brought onto dev, with `14e9adf70` under it:** the answer to my 07:40 hold. Every `ai_news` item and event in central's six files (Albufeira, Faro, Loulé, Olhão, Quarteira, São Brás de Alportel) now carries its licence and a hold under R12: 71 items. Its newer `faro.json` no longer has the UAlg item that 14e9adf70 added without a licence, so taking the two together publishes nothing unheld; I took central's six files exactly as it signed them (a cherry-pick conflict on the signatures; item counts checked against dev, none lost). My 07:40 hold is lifted.
+- **Still to do under R12, for the other desks:** `ai_news` in every other place file carries no licence and no hold: 247 items in 29 files (west's and east's Algarve towns, `algarve.json`, and the districts'). For west, east and districts, through conductor.b@.
+- west `df40f25cb` and east `238cca048`, `2f9352213` are their 12:22 and 11:42 commits re-made, already on dev. Library requests unchanged.
+- Inner passes inline. Written at 13:46 UTC.

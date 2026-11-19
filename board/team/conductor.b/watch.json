@@ -1118,6 +1118,17 @@
         "place desks and security, abp, telemetry active",
         "asks for Dinis unchanged"
       ]
+    },
+    {
+      "at": "2026-11-19T13:50Z",
+      "hold": false,
+      "notes": [
+        "signed commits on events (8 sites with signing incl. newsroom); civic, weather, startups blocked on ssh-keygen; travel, videos to come",
+        "cyber: ENISA EUVD view taken down (rights@ R10: legal notice must be read by a person)",
+        "live: licence beside every loaded figure",
+        "startups pointed to data/site/places-registry.json (London)",
+        "library hand-over written; signals idle; both wait on the key-handover choice"
+      ]
     }
   ]
 }
