@@ -1,0 +1,34 @@
+{
+ "ee4c08b01103b577": {
+  "t": "أصحاب الأعمال يجتمعون في CNEMA ليسألوا كيف يستطيع الذكاء الاصطناعي رفع الصادرات",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Bosses meet at CNEMA to ask how AI can lift exports",
+  "ok": false
+ },
+ "ee729e277a3b251e": {
+  "t": "مستشفى Lusiadas الجديد في Faro يُقدَّم على أنه أصيل في الذكاء الاصطناعي",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "New Lusiadas hospital in Faro is billed as native to AI",
+  "ok": false
+ },
+ "eee11811f1446db3": {
+  "t": "يطلب Despacho n.º 34/2026 من المعلمين والطلاب الشفافية بشأن استخدام الذكاء الاصطناعي، والإفصاح عنه في الأعمال الدراسية، وحماية البيانات الشخصية. وقد جاء بعد مجموعة عمل و37 تعليقاً من المجتمع الأكاديمي وسيُراجع بعد الفصل الدراسي الثاني.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Despacho n.º 34/2026 asks teachers and students to be transp",
+  "ok": false
+ },
+ "eef27e94e29eb6bc": {
+  "t": "وافقت FCT على مشروع لاستكشاف نماذج ذكاء اصطناعي تدعم قرارات فرز البالغين في غرف الطوارئ، بميزانية إجمالية نحو 124 ألف يورو وشركاء منهم قطب UTAD في INESC TEC وINEGI ووحدة مستشفى في Porto.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The FCT approved a project to explore AI models that support",
+  "ok": false
+ }
+}

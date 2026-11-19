@@ -1,0 +1,18 @@
+{
+ "e816116cfda136b0": {
+  "t": "حضر أكثر من 150 شخصاً مؤتمر 21 فبراير 2026 حول التحديات الرقمية في التعليم، الذي كان من موضوعاته السلامة الرقمية ومحو الأمية التقنية واستخدام الذكاء الاصطناعي.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "More than 150 people attended the 21 February 2026 conferenc",
+  "ok": false
+ },
+ "e8db8674d792a747": {
+  "t": "أشخاص تحدثوا علناً أو وافقوا على إدراجهم. حقائق عامة ومهنية فقط؛ ولا جهات اتصال شخصية.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "People who have spoken publicly or agreed to be listed. Publ",
+  "ok": false
+ }
+}

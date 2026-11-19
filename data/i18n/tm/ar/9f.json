@@ -1,0 +1,26 @@
+{
+ "9f0ef3c5a4f18619": {
+  "t": "PrompTugal.news Portugal: الذكاء الاصطناعي والتقنية من حافة أوروبا، والخريطة الوطنية، والبرامج الوطنية، وما يتسرب نحو Algarve وكل منطقة. مستقل، وكل معلومة لها مصدرها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Portugal: AI and tech from the edge of Europ",
+  "ok": false
+ },
+ "9f1c67d8dc675f05": {
+  "t": "PrompTugal.news Silves: الذكاء الاصطناعي والتقنية في Silves، عاصمة البرتقال في Algarve وعاصمة المنطقة القديمة، وما يصل إلى Silves من Algarve والبرتغال والعالم. مستقل؛ وكل معلومة موثقة بمصدرها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Silves: AI and technology in Silves, the Alg",
+  "ok": false
+ },
+ "9f93562e264601fb": {
+  "t": "مؤتمر إدارة الصحة في CNEMA يضع الذكاء الاصطناعي على جدول أعماله",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Health management congress at CNEMA puts AI on its agenda",
+  "ok": false
+ }
+}

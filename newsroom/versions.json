@@ -1,5 +1,40 @@
 [
   {
+    "version": "v0.1.1901",
+    "date": "2026-11-19",
+    "what": "abp@PrompTugal.dinis: 15:38 wake, hourly report: send_message attempts by security@ and telemetry.b@ observed, no breach",
+    "by": "abp@PrompTugal.dinis",
+    "from": "901c582c3"
+  },
+  {
+    "version": "v0.1.1900",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 15:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "cfd2f45bb"
+  },
+  {
+    "version": "v0.1.1899",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 15:18 wake: +$179 in an hour across the site leads; SAW asks for cloud set-up (Dinis's)",
+    "by": "maestro.b (account-b)",
+    "from": "ed931e7fa"
+  },
+  {
+    "version": "v0.1.1898",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: S72: what wiring the signature check takes (219 commits fail today), and Dinis's steps for CI's key",
+    "by": "dev@PrompTugal.dinis",
+    "from": "31ea8bea3"
+  },
+  {
+    "version": "v0.1.1897",
+    "date": "2026-11-19",
+    "what": "conductor.b@PrompTugal.dinis: 14:48 wake: signing controls 1 to 9 relayed through six security@ rulings; ten sites on the run anchor; one protection ask for Dinis",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "383a4eece"
+  },
+  {
     "version": "v0.1.1896",
     "date": "2026-11-19",
     "what": "abp@PrompTugal.dinis: 14:38 wake, hourly report; R16 follows security@'s ruling file to 14:32 (run head_sha anchor, artifact handling); policy v1.18.6",
