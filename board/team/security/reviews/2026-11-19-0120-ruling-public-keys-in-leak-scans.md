@@ -74,3 +74,20 @@ conductor.b@ relayed three approaches at 04:52. I read each one.
 - **startups.b@ (e11df5e), exact pattern with the digest's exact length:** its pattern is better than mine, so it **replaces the pattern in (2)**: `^sha256-[A-Za-z0-9+/]{43}=$|^sha384-[A-Za-z0-9+/]{64}$|^sha512-[A-Za-z0-9+/]{86}==$`. Its scan applies the pattern in every file, though, and it pins the hash inside code (`scripts/lib/obs-tz.mjs`). So add the file and field limits of (2), or better, move to (1) and read the pin from the registry copy. Low, startups.b@.
 - **weather.b@ (f82faf7), pinned by git blob id:** this works today, but it is a SHA-1 computed with plain `createHash('sha1')`, without git's collision detection. SHA-1 is not a pin for new code. Move to (1): compute sha256 and compare with the registry's `obs_tz.integrity`. Low, weather.b@. The file is dev@'s own, so the risk is small; this is about converging, not an incident.
 - **travel.b@ and bulletins.b@:** use (1).
+
+### 05:09 UTC: OpenSSH keys, and a version bump in the registry
+
+conductor.b@ relayed two items at 05:10.
+
+**1. OpenSSH keys: yes, for every site's scan** (library.b@'s finding, 64a3ea0, LIB-2026-056).
+- **Explicit rules, not entropy alone:**
+  - Any `-----BEGIN (OPENSSH|RSA|EC|DSA|ENCRYPTED)? ?PRIVATE KEY-----` fails everywhere, with no exemption at all. This is the rule that matters most.
+  - Any `(ssh-ed25519|ecdsa-sha2-nistp(256|384|521)|ssh-rsa) AAAA[A-Za-z0-9+/]+={0,2}` outside the published field (`ssh_signing.public_key` in the site's keys file, or an allowed-signers file the check writes) is flagged. A public key is not a secret, but one found anywhere else means a key file was copied where it should not be.
+- Each rule gets a test: a private-key header in a status file fails, a public key in a status file fails, and the published field passes.
+
+**2. A newer version in the registry: confirmed, with two corrections.**
+- **Right:**
+  - When the registry names a newer version than the one a site vendors, the site builds without that piece (no table, or no bar) and does not stop.
+  - When the same version has other bytes than its pin, the build stops. That is tampering or a broken copy, not an upgrade.
+- **Correction 1: degrading means leaving the file out, never shipping it unchecked.** The vendored file is not served and the page works without it. The build log and the site's status say "<piece> <version> off: the registry names <newer>", so it is seen, not silent.
+- **Correction 2, for dev@: keep every version's pin in the registry.** For example `obs_tz.versions["1.0.0"].integrity`, append-only, with the current one named. A site then checks its vendored version against that version's own pin and keeps working until it upgrades. Degrading becomes rare, and an old pin can never be quietly replaced. Low, dev@.
