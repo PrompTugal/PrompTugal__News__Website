@@ -1,8 +1,8 @@
 {
   "agent": "place.algarve.east@PrompTugal.dinis",
   "focus": "Tavira, Castro Marim, Vila Real de Santo António, Alcoutim and the Algarve region page: regular local news, sourced, with scope and blast radius",
-  "state": "wake 41 (00:40, 19 Nov): the 23:45 billing rule applied: every local_news item carries commercial_use (IPMA's 'not allowed', the rest 'unclear' until rights@ clears them); files re-signed; gate OK at v0.1.1829; security post-review clean (softened one phrase); no new news overnight",
-  "updated": "2026-11-19T00:55Z",
+  "state": "wake 42 (01:40, 19 Nov): new rules R12 to R15 in the ABP (v1.16.0): all 56 local_news items are now marked `hold` (R12: source licence not yet read or cleared); files re-signed; gate OK at v0.1.1839; nothing new scanned overnight",
+  "updated": "2026-11-19T02:00Z",
   "done": [
     "session key place.algarve.east-promptugal released to dev",
     "22 sourced local news items, each read from an opened page on 2026-11-16",
@@ -19,7 +19,8 @@
     "wake 32: licence links on every local_news item and event (guidance 2026-11-18-licences-and-submissions.md)",
     "wake 34: inner passes (guidance 2026-11-18-inner-passes-and-security.md) ran as Sonnet sub-agents; post-review found nothing; scan reported no text trying to instruct an agent",
     "gate on dev is red only on four conductor.b@ files that contain an email address (board/guidance/README.md, board/guidance/2026-11-18-principles-and-reports.md, board/runs/conductor.b/*, board/team/conductor.b/status.json); none is a place.algarve.east path and this desk's files pass; the address is not repeated here",
-    "wake 41: commercial_use on every local_news item (guidance 2026-11-18-billing-only-on-the-main-site.md); inner passes: post-review clean"
+    "wake 41: commercial_use on every local_news item (guidance 2026-11-18-billing-only-on-the-main-site.md); inner passes: post-review clean",
+    "wake 42: R12 hold flag on every local_news item (inner passes: metadata-only change, no sub-agent post-review this wake; the diff adds one string per item and re-signs)"
   ],
   "next": [
     "journalist@: the Castro Marim congress is the one local AI story ready for an article (first-hand council page, a local start-up); ask the founders' public channels via the council, no private contacts",
@@ -35,7 +36,8 @@
     "Dinis or outreach@: the licence terms of Barlavento, Postal, cm-vrsa.pt, cm-castromarim.pt, ccdr-alg.pt, amal.pt and ualg.pt are not yet read; this desk links their sites and says so",
     "conductor.b@ / security@: remove the email address from the four conductor.b@ files so the gate is green again; this desk waits on nothing else for it (not a Dinis ask)",
     "conductor.b@: this desk has no inbox lane yet (no sealed credentials in ~/.sg-send/lanes), so it cannot send the one-line blocked note by inbox; the red gate above is the note",
-    "rights@ / dev.places@: `commercial_use` is a new field on local_news (data/by-place/<town>.json); the main site must show only items whose use is allowed, so none of this desk's items qualifies until rights@ clears each source (Barlavento, Postal, the councils, CCDR, AMAL, UAlg); the sub-sites may show them with their licence"
+    "rights@ / dev.places@: `commercial_use` is a new field on local_news (data/by-place/<town>.json); the main site must show only items whose use is allowed, so none of this desk's items qualifies until rights@ clears each source (Barlavento, Postal, the councils, CCDR, AMAL, UAlg); the sub-sites may show them with their licence",
+    "rights@ / journalist@ / dev@: 10 Tavira local_news items (and the same kind of items in the other four files) are already on dev from earlier waves; under R12 they should not be published until each source is cleared. This desk now marks every item `hold`; please check what the site shows and clear or remove sources (Barlavento, Postal, cm-vrsa.pt, cm-castromarim.pt, ccdr-alg.pt, amal.pt, ualg.pt, IPMA)"
   ],
   "latest_debrief": "board/team/place.algarve.east/debriefs/2026-11-18-handover.md"
 }

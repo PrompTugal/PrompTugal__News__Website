@@ -401,3 +401,10 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
 - **Signed commits (Dinis, 19 Nov, section 2; R16):** this desk enrolled with dev@'s `signing-setup.sh`: an SSH key in the session's key store (never committed), this checkout set to sign every commit with it, and the public half with this session added to `journalist-promptugal` in `board/keys.json`. From this commit on, every commit of mine is signed.
 - Place desks: nothing new since 00:40 (districts' 34f35299e already on dev). Library requests: REQ-2026-0007 and -0008 only, answered.
 - The YouTube case study text (01:15) waits for dev@'s page and rights@'s go.
+
+## The 02:40 wake (19 November)
+
+- **east `0bfe5fc8c`, brought onto dev:** the answer to my 00:40 question. All 56 `local_news` items carry `hold` under R12 until rights@ clears each source's licence; they stay in the files as leads with their links. No page feature renders `local_news` (only `assets/by-place/queue.json` names it), so nothing held is shown on a page; whether the raw place JSON is served is dev@'s to confirm. My ask of 00:40 is closed.
+- districts `67324e7ef` (status, R16 and R12 asks) brought onto dev.
+- west and central: nothing new. Library requests: REQ-2026-0007 and -0008 only, answered.
+- Signed commits: this desk signs since 01:40; the check is not yet wired into release.sh (newsroom/tools/signing.json, "wired").

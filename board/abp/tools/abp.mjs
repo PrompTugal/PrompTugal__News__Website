@@ -476,7 +476,9 @@ function hourly() {
     // c.at is the author date in ISO with offset; compare as UTC
     for (const c of commits) {
         if (/^site v\d/.test(c.subject)) continue
-        const m = /^([a-z][a-z0-9.-]*?)@([A-Za-z0-9.-]+):/.exec(c.subject)
+        let m = /^([a-z][a-z0-9.-]*?)@([A-Za-z0-9.-]+):/.exec(c.subject)
+        // v1.18.2: the account-b form "maestro.b (account-b): ..." (guidance 2026-11-19-the-maestro.md writes the name apart until the gate learns it) is that role under PrompTugal.dinis
+        if (!m) { const a = /^([a-z][a-z0-9.-]*) \(account-b\):/.exec(c.subject); if (a) m = [a[0], a[1], 'PrompTugal.dinis'] }
         if (!m) { findings.push({ sev: 'attempt', what: `${c.sha} has no agent name in its subject (${c.subject.slice(0, 60)})` }); continue }
         const label = `${m[1]}@${m[2]}`
         const who = /^PrompTugal\.dinis$/.test(m[2]) ? { kind: 'team', role: m[1], agent: label } : { kind: 'external', role: m[1], agent: label }
