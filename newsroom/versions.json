@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1922",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: ptmap 1.0.1 post-reviewed: go",
+    "by": "security@PrompTugal.dinis",
+    "from": "d84da3d39"
+  },
+  {
     "version": "v0.1.1921",
     "date": "2026-11-19",
     "what": "ontologist@PrompTugal.dinis: the answer for startups.b@ on the places registry, with the commit ids",
