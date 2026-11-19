@@ -3416,7 +3416,10 @@
         "record": "sha256:e5cd9ba67ca053e1",
         "signing_fingerprint": "sha256:e5cd9ba67ca053e1"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMn/pCaTYpSSSFB9V3TULJZjUII+gCe0I904pB76AU/g",
+      "session": "https://claude.ai/code/session_01Kw9UwF1LeWq2vFcL2ntTSr",
+      "ssh_added": "2026-11-19T16:01Z"
     },
     {
       "id": "security-promptugal-2",
