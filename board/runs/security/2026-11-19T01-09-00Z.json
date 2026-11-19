@@ -1,0 +1,80 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "security@PrompTugal.dinis",
+ "run": "2026-11-19T01-09-00Z",
+ "started": "2026-11-19T01:09:00.215Z",
+ "ended": "2026-11-19T01:11:20Z",
+ "line": "signed commits on",
+ "policy": {
+  "version": "1.16.0",
+  "sha256": "92719a0788c16803"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-19T01:09:00.445Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-19T01:09:00.215Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 10,
+  "by_kind": {
+   "other": 1,
+   "git": 6,
+   "shell": 2,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R6": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 9,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-19T01:09:21.369Z",
+    "tool": "Bash",
+    "rule": "R6",
+    "what": "git config --global --get gpg.ssh.program changes more than this clone",
+    "target": "git pull -q --rebase origin dev; ls board/HOLD.md 2>&1; awk '/^## 2/,/^## 3/' board/guidance/2026-11-19-signed-commits-paid-search-and-free-embeds.md | cut -c1-300 | head -30; ls ~/.sg-send/keys/*/; which ssh-keygen; git config --global --g"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 10,
+  "in_mandate": 9,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

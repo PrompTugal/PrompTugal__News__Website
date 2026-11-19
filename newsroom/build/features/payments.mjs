@@ -51,6 +51,7 @@ export function ledger(model) {
     }
     for (const f of readdirSync(new URL('content/articles/', ROOT)).filter(f => f.endsWith('.md'))) {
         const md = R(`content/articles/${f}`), t = (md.match(/^title:\s*"?(.*?)"?\s*$/m) || [])[1] || f
+        if (/^free:\s*true\s*$/m.test(md.split('\n---')[0])) continue   // a free page is never in the simulated payments (rights@'s C6)
         put(pathOf(`articles/${f.replace(/\.md$/, '.html')}`), t, fromArticle(md))
     }
     let places = []; try { places = JSON.parse(R('data/by-place/places.json')).places } catch { }
