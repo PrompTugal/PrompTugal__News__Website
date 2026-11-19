@@ -23,7 +23,7 @@ let HTML = null
 export function decorate(p) {
     if (p.bare || p.raw || p.sitesBar || !p.md) return
     p.sitesBar = true
-    if (HTML === null) HTML = render(registry(), { here: 'promptugal.news', newTab: true })
+    if (HTML === null) HTML = render(registry(), { here: 'promptugal.news' })   // the sister sites open in the same tab (Dinis, 19 Nov 03:18)
     if (!HTML) return
     p.top = HTML
     p.assets = { ...(p.assets || {}), css: [...((p.assets && p.assets.css) || []), CSS], js: [...((p.assets && p.assets.js) || []), JS] }
@@ -49,7 +49,7 @@ export function api(ctx) {
             install: S.bar_install },
         preview_spec: S.preview_spec,
         // the one time-zone-to-country table for every site's page views (Dinis, 19 Nov 03:15: no IP lookup)
-        obs_tz: { file: 'https://promptugal.news/assets/obs/tz-country.json', integrity: sha('assets/obs/tz-country.json'), version: JSON.parse(R('assets/obs/tz-country.json')).version } } }, ...previewFiles(ctx)]
+        obs_tz: { file: 'https://promptugal.news/assets/obs/tz-country.json', integrity: sha('assets/obs/tz-country.json'), version: JSON.parse(R('assets/obs/tz-country.json')).version, zones: Object.keys(JSON.parse(R('assets/obs/tz-country.json')).zones).length, install: S.obs_tz_install } } }, ...previewFiles(ctx)]
 }
 
 const TPL = () => R('design/sites-bar/preview-template.svg.txt').toString()

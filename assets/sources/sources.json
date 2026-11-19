@@ -37,35 +37,5 @@
       }
     }
   ],
-  "sites": {
-    "label": "The PrompTugal.news sites",
-    "why": "Dinis, 18 November 2026: 'it's very important to link those websites from here in the homepage'",
-    "items": [
-      {
-        "name": "Weather",
-        "line": "warnings, fire risk, sea, place by place",
-        "url": "https://weather.promptugal.news/"
-      },
-      {
-        "name": "Civic",
-        "line": "public money and public services, explained",
-        "url": "https://civic.promptugal.news/"
-      },
-      {
-        "name": "Startups",
-        "line": "startups and their funding, by place",
-        "url": "https://startups.promptugal.news/"
-      },
-      {
-        "name": "Travel",
-        "line": "flights, transport, strikes, events",
-        "url": "https://travel.promptugal.news/"
-      },
-      {
-        "name": "Data",
-        "line": "the open data behind them, with APIs",
-        "url": "https://data.promptugal.news/"
-      }
-    ]
-  }
+  "sites_moved": "The five-site band that was here is gone (Dinis, 19 November 2026, about 03:18 UTC: board/guidance/2026-11-18-the-sites-bar.md, 'One way to move between the sites'): every page now shows every site from the registry, api/v1/sites.json, in the sites bar."
 }
