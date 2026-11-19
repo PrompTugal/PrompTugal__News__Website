@@ -2,7 +2,7 @@
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
   "state": "idle-ready; inner passes ran (AppSec post-review clean); feed reader hardened; waiting on dev@s review",
-  "updated": "2026-11-18T16:05Z",
+  "updated": "2026-11-19T00:30Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -52,5 +52,5 @@
     "merged dev; feed files taken from dev@; media-feeds.mjs conflict resolved (my hardened version kept)",
     "read the library requests channel (guidance 2026-11-18-the-pipeline-standard-and-the-fact-checker.md): nothing addressed to dev.places (open: data.b, ontologist, security, social.watch, videos.b); to read it at every wake"
   ],
-  "latest_debrief": "board/team/dev.places/debriefs/2026-11-18-handover.md"
+  "latest_debrief": "board/team/dev.places/debriefs/2026-11-19-handover.md"
 }
