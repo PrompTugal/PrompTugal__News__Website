@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1841",
+    "date": "2026-11-19",
+    "what": "abp@PrompTugal.dinis: v1.18.0, R17 (times from the clock) and security@'s five signed-commit controls in R16",
+    "by": "abp@PrompTugal.dinis",
+    "from": "be1818f47"
+  },
+  {
     "version": "v0.1.1840",
     "date": "2026-11-19",
     "what": "abp@PrompTugal.dinis: hourly report 01:37, v1.17.2, daily debrief",
