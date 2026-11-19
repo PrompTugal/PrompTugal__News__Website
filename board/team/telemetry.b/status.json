@@ -25,7 +25,9 @@
   "make the encrypted vault and seal it to conductor.b and abp@ keys",
   "abp@ grant for telemetry.b (reading other sessions' events, board/runs/stats/**)"
  ],
- "asks": [],
+ "asks": [
+  "Dinis: my key entry (telemetry.b-promptugal) was added in the commit signed with it, which the signature check does not accept by itself; a person or an already-listed key must vouch for it"
+ ],
  "debrief": "board/team/telemetry.b/debriefs/2026-11-19-handover.md",
  "focus": "Reads every other session's record: tokens and cost, tools, hosts, sub-agents, refusals; raw detail to a vault, aggregates public"
 }
