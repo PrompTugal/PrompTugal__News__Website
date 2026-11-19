@@ -1,8 +1,8 @@
 {
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "12:48 wake: quiet; all fresh; asks unchanged.",
-  "updated": "2026-11-19T12:50Z",
+  "state": "13:48 wake: signing on 8 sites; EUVD off pending a person reading ENISA terms; key-handover choice blocks signals and library.",
+  "updated": "2026-11-19T13:50Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
