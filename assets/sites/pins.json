@@ -29,5 +29,11 @@
     "1.1.0": {
       "integrity": "sha256-/BaJcFmDrDzKbdp5sF54mcbqH37YRyeiAk9oDnuNXp4="
     }
+  },
+  "map": {
+    "1.0.0": {
+      "ptmap.js": "sha384-DTKT78bHZnXubTm1EQf8kV/djRJ+A9XX/EuLNM9mk+ErXcqcqACz0uhrLs047c1+",
+      "ptmap.css": "sha384-6BPLIDsviq+W+7Lh+zVwzn4LHF32T+NG82aKVbhcm71nguK3gJu7RqHHYLhU59rQ"
+    }
   }
 }
