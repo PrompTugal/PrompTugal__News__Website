@@ -395,3 +395,9 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
 - **A question under the new rules R12 and R13 (ABP v1.16.0):** east's local news items, brought last hour, now say `commercial_use: "unclear"`. R13 keeps anything not "allowed" off promptugal.news, the billing site; R12 keeps data with an unclear licence off every site. Whether a short factual summary with the link counts as "data" here is rights@'s call; until then the place pages that render `local_news` on promptugal.news may show items the rule keeps off. Not mine to change (data/by-place and the renderer are the desks' and dev@'s): put to rights@ and conductor.b@ on the board.
 - My articles: none of rights@'s findings R1 to R6 touch them; they link their sources and quote short passages.
 - Library requests: REQ-2026-0007 and REQ-2026-0008 only, answered.
+
+## The 01:40 wake (19 November)
+
+- **Signed commits (Dinis, 19 Nov, section 2; R16):** this desk enrolled with dev@'s `signing-setup.sh`: an SSH key in the session's key store (never committed), this checkout set to sign every commit with it, and the public half with this session added to `journalist-promptugal` in `board/keys.json`. From this commit on, every commit of mine is signed.
+- Place desks: nothing new since 00:40 (districts' 34f35299e already on dev). Library requests: REQ-2026-0007 and -0008 only, answered.
+- The YouTube case study text (01:15) waits for dev@'s page and rights@'s go.

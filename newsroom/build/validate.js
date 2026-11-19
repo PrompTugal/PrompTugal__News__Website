@@ -128,7 +128,7 @@ for (const f of files) {
 // 7. public forever: no contact details in what we author
 const EMAIL = /[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+\.[A-Za-z0-9.-]*[A-Za-z]{2,}/g
 const PHONE = /(?<![\w/])(?:\+|00)\d[\d ()-]{8,}\d/g   // not from inside a word or a hash (outreach@, 7 November: a sha256 matched), nor a URL's path segment (ontologist@, 12 November: an SEC filing's /000110465916150147/); tel:+... is still caught
-const AGENT_NAME = /@(web-summit|PrompTugal)\.(dinis|vicky|indi|silvio|jose|angelo|zed|stranger|person)$|@AgentiCCells\.dinis$/i   // AgentiCCells: Dinis's cells agents (board/guidance/2026-11-18-cells-b-on-account-b.md), his operator name only
+const AGENT_NAME = /@(web-summit|PrompTugal)\.(dinis|vicky|indi|silvio|jose|angelo|zed|stranger|person)$|@AgentiCCells\.dinis$|@account-b\.dinis$/i   // AgentiCCells: Dinis's cells agents (board/guidance/2026-11-18-cells-b-on-account-b.md); account-b: the maestro, maestro.b@account-b.dinis (board/guidance/2026-11-19-the-maestro.md); his operator name only
 //   // the operators' names only, and three made-up ones the team's tests use (zed, stranger, person) (security@'s S31: web-summit.com passed)   // agent names (newsroom@web-summit.dinis, ontologist@PrompTugal.dinis) are names, not mail
 // one published address, one file: Dinis's own investor contact (his words, 7 November 2026, about 01:00 UTC: "link to
 // dinis.agent@promptugal.news, because that already exists"; board/team/investors/dinis-2026-11-07-my-feeds.md). Nowhere else.

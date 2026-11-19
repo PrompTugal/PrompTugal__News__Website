@@ -1,0 +1,81 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "abp@PrompTugal.dinis",
+ "run": "2026-11-19T01-10-44Z",
+ "started": "2026-11-19T01:10:44.249Z",
+ "ended": "2026-11-19T01:15:30Z",
+ "line": "v1.17.1 R16 tightened",
+ "policy": {
+  "version": "1.17.1",
+  "sha256": "53e7851b88ade3bb"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-19T01:15:05.424Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-19T01:15:18.407Z",
+   "chars": 1181,
+   "sha256": "431a8b1bb274609a",
+   "head": "<task-notification>\n<task-id>bso4a3nki</task-id>\n<tool-use-id>toolu_015Z83EziTZZz1bUv1FDjLa2</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/1f71f596-c8c7-5883-99c9-7ffd5"
+  },
+  {
+   "t": "2026-11-19T01:15:18.528Z",
+   "chars": 579,
+   "sha256": "eafd892e901bd54b",
+   "head": "<task-notification>\n<task-id>b9kiw010s</task-id>\n<tool-use-id>toolu_01BJL9GJdNdLMa6qBdVwWhyv</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/1f71f596-c8c7-5883-99c9-7ffd5"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 4,
+  "by_kind": {
+   "other": 2,
+   "release": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 4,
+  "commits": [
+   {
+    "sha": "e9e4968e8",
+    "subject": "abp@PrompTugal.dinis: v1.17.0, rule R16 (signed commits, Dinis 19 Nov); abp@ cannot sign yet: no ssh-keygen, asked of Dinis",
+    "files": 79
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 4,
+  "in_mandate": 4,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
