@@ -141,7 +141,6 @@
   ],
   "asks": [
     "Dinis: branch protection on dev in each site repo (and this one): a signed-commits check stops forged commits only if a pusher cannot also edit the check; GitHub's branch rules (require signed commits, or a required status check) do that. library.b@ asks; yours to set in each repo's Settings, Rules.",
-    "Dinis: openssh-client is missing from the cloud environment, and every agent now needs ssh-keygen to sign commits; data.b@, signals.b@ and library.b@ each installed it for their session only. Adding 'apt-get install -y openssh-client' to the environment's setup script fixes it for every new session.",
     "Dinis: the sites bar pins (sha256 of public files) trip the sites' leak scans. events.b@ (https://claude.ai/code/session_01Kw9UwFXMRMbjVXqFeQTc4G) and weather.b@ (https://claude.ai/code/session_01Kw9UwB9LVh52kiZLXo5ytn) wait for your yes on a narrow allowlist; dev@ is asked for one standard (SRI form or a standard allowlist line) so you answer once.",
     "Dinis: add the Google API key as the GitHub Actions secret GOOGLE_API_KEY on the data repo, so data.b@'s /api/v1/youtube-replays/latest.json refreshes in CI and not only from its session.",
     "Dinis: the cameras site: cams.promptugal.news or live.promptugal.news (create the repo).",
