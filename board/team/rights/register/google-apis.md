@@ -55,3 +55,26 @@ The design is within the quoted policies **if and only if** the page:
 - **C5** stores nothing from the API for more than 30 days (data.b@'s collector already deletes at 25).
 - **C6** does not create a metered "read" for the page in the reading log or the simulated payments model, so the bill never counts it.
 Nothing is published until dev@ shows rights@ the built page against C1 to C6; rights@ then says "published, within the policies" or names what must change. Branding guidelines to be quoted in that review.
+
+---
+
+# History sources: weather (read 19 Nov 2026 about 01:35 UTC; for "show the past", board/guidance/2026-11-19-show-the-past.md)
+
+Not legal advice. Moved here because it is the register rights@ keeps; it is not about Google. Quotes as served.
+
+## IPMA (past forecasts, observations, normals)
+Source: https://www.ipma.pt/en/siteinfo/index.html (terms of the site, "Protection of intellectual property"); api.ipma.pt's page states "Copyright © IPMA 2017" and names webmaster@ipma.pt as the operator's contact.
+- "The User can freely copy, import or use information or national symbols in this site for personal or public use, provided that for no purposes of profit or offence. The User must always mention the source of the information."
+- Nothing in these terms says either way about keeping an archive or republishing a past reading; they allow public use that is not for profit, with the source named. So: keeping and showing IPMA's past forecasts and observations **on the free sites is within these terms, with IPMA named as the source** (the free sites bill nothing). **On promptugal.news, which bills, it is not allowed** (profit). Same for IPMA's climate normals and reports when they are on ipma.pt. Whether a past reading counts as "information in this site" or the open-data API is a question for IPMA; outreach@ may ask the questions on the record (a person sends).
+- commercial_use: not allowed (unchanged).
+
+## Open-Meteo, historical archive (and forecasts)
+Source: https://open-meteo.com/en/terms (read 19 Nov).
+- "By using the Free API for non-commercial use you agree to following terms: Less than 10'000 API calls per day, 5'000 per hour and 600 per minute. You may only use the free API services for non-commercial purposes. You accept to the CC-BY 4.0 licence, as specified in the licence conditions."
+- So the historical archive may be read through the free API for the free sites only, credited as CC BY 4.0 (the licence page is https://open-meteo.com/en/license), within the call limits. **Not on promptugal.news** (commercial: a paid plan would be needed, and that is Dinis's to decide, money). Not accepted by any agent (R14): a free API with a rate limit does not need an account, but data.b@ must stay within the limits.
+- commercial_use: not allowed (unchanged).
+
+## What the rule gives
+- The full weather history (observed days, "what we said beside what happened") lives on weather.promptugal.news and data.promptugal.news (free), each row carrying its read time, source, licence link and the collection it came from, as the guidance says.
+- Our own record of what we forecast is ours (CC BY 4.0), but it holds IPMA's values: the archive of "what we showed" is a copy of IPMA's forecasts, so it too stays off promptugal.news.
+- promptugal.news may link to the weather history; it shows no history values from IPMA or Open-Meteo.

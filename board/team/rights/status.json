@@ -2,7 +2,7 @@
   "agent": "rights@PrompTugal.dinis",
   "focus": "licences, terms, attribution, commercial use and privacy rights across every *.promptugal.news site; not legal advice; no agent accepts terms but Dinis",
   "state": "wake 19 Nov 00:45 UTC: R1 narrowed, R6 checked on the main site",
-  "updated": "2026-11-19T01:40Z",
+  "updated": "2026-11-19T01:45Z",
   "hold": false,
   "done": [
     "key rights-promptugal in board/keys.json",
@@ -11,7 +11,8 @@
     "terms baselines: Open-Meteo, IPMA (NVD refused, 403)",
     "00:45 wake: clones pulled; promptugal.news front page has no IPMA data; YouTube terms quoted by data.b@ (30-day storage, credit, no charging for embedded player)",
     "01:15: Google APIs terms quoted (register/google-apis.md); R7: Books forbids a fee, Vertex results not shown until the 15 sites' terms are on the register",
-    "01:30: YouTube developer policies quoted; conditional GO for the free case-study page (C1 to C6)"
+    "01:30: YouTube developer policies quoted; conditional GO for the free case-study page (C1 to C6)",
+    "01:35: history sources quoted (IPMA, Open-Meteo archive): free sites only, never promptugal.news; R8"
   ],
   "next": [
     "review dev@'s built YouTube page against C1 to C6; quote YouTube's branding guidelines",
