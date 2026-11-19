@@ -1,0 +1,76 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "abp@PrompTugal.dinis",
+ "run": "2026-11-19T14-45-45Z",
+ "started": "2026-11-19T14:45:45.263Z",
+ "ended": "2026-11-19T15:38:57Z",
+ "line": "",
+ "policy": {
+  "version": "1.18.6",
+  "sha256": "e49bf442e0128ffd"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-19T14:45:45.263Z",
+   "chars": 570,
+   "sha256": "b98ebd37da4caa74",
+   "head": "<task-notification>\n<task-id>bbxvm0oo5</task-id>\n<tool-use-id>toolu_01V96vtevq4VbzaDbV9iwFWf</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/1f71f596-c8c7-5883-99c9-7ffd5"
+  },
+  {
+   "t": "2026-11-19T15:37:58.276Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-19T15:37:57.833Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 4,
+  "by_kind": {
+   "other": 1,
+   "git": 1,
+   "shell": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 4,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 4,
+  "in_mandate": 4,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

@@ -1,5 +1,19 @@
 [
   {
+    "version": "v0.1.1901",
+    "date": "2026-11-19",
+    "what": "abp@PrompTugal.dinis: 15:38 wake, hourly report: send_message attempts by security@ and telemetry.b@ observed, no breach",
+    "by": "abp@PrompTugal.dinis",
+    "from": "901c582c3"
+  },
+  {
+    "version": "v0.1.1900",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 15:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "cfd2f45bb"
+  },
+  {
     "version": "v0.1.1899",
     "date": "2026-11-19",
     "what": "maestro.b (account-b): 15:18 wake: +$179 in an hour across the site leads; SAW asks for cloud set-up (Dinis's)",
