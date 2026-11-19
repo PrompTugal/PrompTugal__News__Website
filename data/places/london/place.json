@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "london",
+  "type": "place",
+  "name": "London",
+  "kind": "city",
+  "located_in": "place:united-kingdom",
+  "country": "GB",
+  "timezone": "Europe/London",
+  "matches": [],
+  "source": "https://www.wikidata.org/wiki/Q84",
+  "note": "The first place beyond Portugal (Dinis, 18 November 2026: board/guidance/2026-11-18-london.md).",
+  "wikidata": {
+    "id": "Q84",
+    "read_at": "2026-11-18T22:40Z",
+    "how": "Special:EntityData/Q84 read: London, capital and largest city of England and the United Kingdom"
+  }
+}

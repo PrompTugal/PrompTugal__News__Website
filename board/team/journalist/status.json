@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
   "state": "working (the restart of 16 November, this account; hourly at :40)",
-  "updated": "2026-11-18T23:50Z",
+  "updated": "2026-11-19T00:50Z",
   "done": [
     "checker@PrompTugal.vicky's findings on five Algarve articles (Faro, Olhão, Lagos, Alcoutim, Almancil) all taken: corrected, a dated Corrections note on each, sources made links, re-signed. Answer: desks/journalist-promptugal/checks/2026-11-17-checker-findings-answer.md.",
     "11:40 wake: central's two older Faro AI items brought onto dev; conductor@'s two articles of this morning (the ATM mark-up, the payment desk) reviewed after publication: both stand, the 13.6% re-checked against the ECB rate.",
@@ -25,7 +25,8 @@
     "20:40 wake: REQ-2026-0007 begun: data/stories/S7/claims.json (33 claims, 32 found on their sources with exact quotes, 1 failing: a citation date) and its three sources, each re-read on 18 Nov.",
     "21:40 wake: REQ-2026-0007: data/stories/S4/claims.json (34 claims, all found on their sources).",
     "22:40 wake: REQ-2026-0007: S17's claims file (25 claims, 21 found); the article corrected for what it found (HaDEA moved its workshop to 12 November for the storm; two Web Summit-only facts taken off; RVO's page gone), re-signed.",
-    "23:40 wake: east's commercial_use lines (009459e98) brought onto dev; the other place desks quiet; requests channel unchanged."
+    "23:40 wake: east's commercial_use lines (009459e98) brought onto dev; the other place desks quiet; requests channel unchanged.",
+    "00:40 wake (19 Nov): central's and districts' debriefs onto dev; flagged that east's local news items marked commercial_use 'unclear' may sit on promptugal.news against R12/R13."
   ],
   "next": [
     "REQ-2026-0007: the next claims files, newest first",
@@ -33,6 +34,7 @@
     "the 19 November debrief"
   ],
   "asks": [
+    "rights@ and conductor.b@: under R12/R13 (ABP v1.16.0), place.algarve.east's local news items carry commercial_use 'unclear' and the place pages on promptugal.news render local_news; does a short factual summary with its link count as data the rule keeps off? (desks/journalist-promptugal/checks/2026-11-16-review-loop.md, 00:40 wake)",
     "conductor.b@ and library.b@: REQ-2026-0008 is answered, not open: both articles have been withdrawn since 11 Nov and none of their claims is live (evidence in answers[REQ-2026-0008]). The fact-checker should skip data/site/withdrawn.json's slugs.",
     "Dinis: the values page's money line (we pay / we want journalism paid, with what is not built / leave it off): https://promptugal.news/newsroom/decisions/the-values-page-wording/ ; the team's recommendation is B. The page ships as the team's draft meanwhile.",
     "Dinis (or abp@): /about/#rules still says 'We never publish contact details', against your contact rule of 15 and 16 November. conductor.b@ reads content/about/ as this desk's, but it is not in this desk's grant (board/abp/journalist.md); add content/about/** and content/values/** to the grant and this desk rewrites the line at the next wake.",

@@ -56,3 +56,6 @@ The five sites' band under the masthead (conductor@, 5525d8ae7) reads well at 12
 
 ## Checked 18 Nov, 18:50 UTC (v0.1.1818)
 dev@'s 2589626c5: the town band now refreshes live from data.promptugal.news, the built lines as fallback; on Faro the band reads current (20.9 °C, read this hour) and links no JSON (0 `.json` links in `.bp-nowband`). LD3 and LD4 look unchanged; LD1 and LD2 on the home page not re-checked this wake.
+
+## 19 Nov, 00:50 UTC: what changed
+Dinis, 18 Nov about 23:45 UTC: billing only on promptugal.news, which shows only data whose licence allows commercial use; IPMA comes off it (dev@, 4c0785e35, 27d9026ea). The town band keeps Faro airport and links PrompTugal Weather. So LD1's 17-town temperatures, LD3's five days and LD4's warning now belong to **weather.promptugal.news**, not to this site; LD2 is met here by removal. This spec stays as the design for the weather site's place pages and its home panel.

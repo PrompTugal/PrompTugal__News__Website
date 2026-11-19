@@ -14,5 +14,7 @@
     "id": "Q45",
     "read_at": "2026-11-18T16:10Z",
     "how": "Special:EntityData/Q45 read: label Portugal, a country"
-  }
+  },
+  "country": "PT",
+  "timezone": "Europe/Lisbon"
 }
