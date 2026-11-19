@@ -1,0 +1,3 @@
+open-meteo.com/en/terms  read 2026-11-19T01:50Z  HTTP 200  sha256:f702cf6699afca64  (unchanged since 18 Nov)
+api.ipma.pt/  read 2026-11-19T01:50Z  HTTP 200  sha256:32e9d7337a162fc4  (unchanged)
+www.ipma.pt/en/siteinfo/index.html  read 2026-11-19T01:50Z  HTTP 200  sha256:c36988e0eeab2e3f  (first baseline; its intellectual-property paragraph quoted in register/google-apis.md)

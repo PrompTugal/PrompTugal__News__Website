@@ -923,6 +923,83 @@
         "dev@ took IPMA off the place pages (4c0785e352): rights@ R1 in progress",
         "gate green again (v0.1.1828-1830 deployed)"
       ]
+    },
+    {
+      "at": "2026-11-19T00:55Z",
+      "hold": false,
+      "site": "v0.1.1834",
+      "commits_since_23_48": {
+        "dev": 4,
+        "conductor.b": 3,
+        "security": 2,
+        "rights": 2,
+        "ontologist": 2,
+        "journalist": 2,
+        "datasci.places": 2,
+        "designer": 1,
+        "outreach": 1,
+        "correspondent": 1,
+        "abp": 1,
+        "telemetry.b": 1,
+        "place.*": 3,
+        "designer.places": 1
+      },
+      "notes": [
+        "security@ go on sites bar v1.1.0 (90dfdd3baf), hashes checked; install note sent to the 12 site leads",
+        "Google key live (videos.b@); data.b@ serves YouTube replays, no chapters; rights@ R6 for YouTube's API terms",
+        "ledger 2026-11-19T0050Z: $1,575.97 API-equivalent; blocked buckets: translator, sherpa, data.b, bulletins.b, cells.b, writer-10 (most wait on Dinis)"
+      ]
+    },
+    {
+      "at": "2026-11-19T01:52Z",
+      "hold": false,
+      "site": "v0.1.1840",
+      "commits_since_00_48": {
+        "conductor.b": 15,
+        "rights": 7,
+        "dev": 6,
+        "designer": 4,
+        "security": 3,
+        "abp": 3,
+        "journalist": 2,
+        "datasci.places": 2,
+        "translator": 1,
+        "telemetry.b": 1
+      },
+      "freshness_01_48": {
+        "data": "v0.1.71 built 01:39",
+        "weather": "v0.1.39, data read 01:28",
+        "civic": "v0.1.40",
+        "startups": "v0.1.34",
+        "travel": "v0.1.47, data read 00:51",
+        "events": "v0.1.30, data read 01:34",
+        "signals": "v0.1.20",
+        "library": "v0.1.25",
+        "videos": "v0.1.19 built 00:12",
+        "live": "v0.1.24",
+        "cyber": "v0.1.23",
+        "bulletins": "v0.1.19",
+        "promptugal.news": "no /version.json at root (known open, dev@)"
+      },
+      "notes": [
+        "Dinis 01:05-01:22: signed commits for all, paid search with videos.b@, YouTube only on a free page, load data in the browser, every run from a commit (data.b@ hourly 24h), show the past, keep and check every prediction",
+        "security@ go: sites bar 1.1.1, five signing controls, leak-scan ruling, data in the browser (cyber)",
+        "sites bar 1.1.0 on 11 of 12 (videos to come); signed commits on data, signals, bulletins, library, cyber, newsroom (writer-10); timers off on data, startups, weather, signals, events",
+        "first what-was-said/what-happened live on library (WS26)"
+      ]
+    },
+    {
+      "at": "2026-11-19T02:50Z",
+      "hold": false,
+      "site": "v0.1.1842",
+      "gate": "green again after the maestro's folder broke it ~02:20 (fixed by maestro.b and dev@ b26954063b)",
+      "fresh_02_48": "all 12 sub-sites built 01:43-02:22",
+      "notes": [
+        "maestro.b (account-b) started 01:59 (first session failed at the setup script, fixed by Dinis); it started conductor.b@AgentiCCells.dinis at Dinis's word ~02:30",
+        "security@: CVE store go, nvd-kev go, NVD gap reader cleared to build",
+        "signing tests committed: data, bulletins, library, signals",
+        "writer-10's article on the free YouTube page live on newsroom.sgit.ai"
+      ]
     }
   ]
 }

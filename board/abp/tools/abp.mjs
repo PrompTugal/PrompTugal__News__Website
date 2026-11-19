@@ -153,6 +153,14 @@ function test() {
         [T('rights'), w('board/rights/findings.md'), 'allow', 'rights writes its findings'],
         [T('rights'), w('content/articles/x.md'), 'deny', 'rights writes no article'],
         [T('rights'), { tool_name: 'Agent', tool_input: {} }, 'allow', 'rights runs sub-agents'],
+        [T('security'), bash('git config --global --get gpg.ssh.program'), 'allow', 'reading a global git setting is not changing it (v1.17.2)'],
+        [T('security'), bash('git config --global gpg.ssh.program x'), 'deny', 'writing a global git setting is denied'],
+        [T('maestro.b'), w('board/team/maestro.b/status.json'), 'allow', 'maestro.b writes its own folder'],
+        [T('maestro.b'), w('content/articles/x.md'), 'deny', 'maestro.b writes no content'],
+        [T('maestro.b'), { tool_name: 'mcp__claude-code-remote__get_session', tool_input: {} }, 'allow', 'maestro.b reads session status'],
+        [T('maestro.b'), { tool_name: 'mcp__claude-code-remote__list_events', tool_input: {} }, 'deny', 'maestro.b reads no transcript'],
+        [T('maestro.b'), { tool_name: 'mcp__claude-code-remote__send_message', tool_input: {} }, 'deny', 'maestro.b has no send_message until Dinis grants it'],
+        [T('maestro.b'), { tool_name: 'mcp__claude-code-remote__create_session', tool_input: {} }, 'deny', 'maestro.b starts no session'],
         [T('civic.b'), w('content/articles/x.md'), 'deny', 'a site lead writes this repository outside its folders'],
         [T('civic.b'), w('board/team/civic.b/status.json'), 'allow', 'a site lead writes its own folder here'],
         [T('civic.b'), { tool_name: 'Agent', tool_input: {} }, 'allow', 'a site lead runs sub-agents'],
@@ -468,7 +476,9 @@ function hourly() {
     // c.at is the author date in ISO with offset; compare as UTC
     for (const c of commits) {
         if (/^site v\d/.test(c.subject)) continue
-        const m = /^([a-z][a-z0-9.-]*?)@([A-Za-z0-9.-]+):/.exec(c.subject)
+        let m = /^([a-z][a-z0-9.-]*?)@([A-Za-z0-9.-]+):/.exec(c.subject)
+        // v1.18.2: the account-b form "maestro.b (account-b): ..." (guidance 2026-11-19-the-maestro.md writes the name apart until the gate learns it) is that role under PrompTugal.dinis
+        if (!m) { const a = /^([a-z][a-z0-9.-]*) \(account-b\):/.exec(c.subject); if (a) m = [a[0], a[1], 'PrompTugal.dinis'] }
         if (!m) { findings.push({ sev: 'attempt', what: `${c.sha} has no agent name in its subject (${c.subject.slice(0, 60)})` }); continue }
         const label = `${m[1]}@${m[2]}`
         const who = /^PrompTugal\.dinis$/.test(m[2]) ? { kind: 'team', role: m[1], agent: label } : { kind: 'external', role: m[1], agent: label }

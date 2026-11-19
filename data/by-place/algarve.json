@@ -5,7 +5,7 @@
   "kind": "region",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "by": "place.algarve@PrompTugal.dinis",
   "mandate": "PrompTugal.news The Algarve: AI and technology across the Algarve and its 17 towns, centred on Faro's university and innovation community and on tourism and health, and what reaches the region from Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -871,7 +871,8 @@
         "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
         "url": "https://postal.pt/"
       },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Storm Charles brought gusts near 100 km/h and flood risk to the Algarve on 11 November",
@@ -888,7 +889,8 @@
         "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
         "url": "https://postal.pt/"
       },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "CCDR Algarve closed its services on 11 November because of the declared alert",
@@ -905,7 +907,8 @@
         "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
         "url": "https://www.ccdr-alg.pt/"
       },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "A Loulé agency launches the Best Number One start-page platform at Web Summit",
@@ -923,7 +926,8 @@
         "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
         "url": "https://postal.pt/"
       },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "CCDR Algarve's Matéria Adentro turns local cane, oyster shell and clay into products",
@@ -940,7 +944,8 @@
         "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
         "url": "https://www.ccdr-alg.pt/"
       },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "CCDR Algarve presents the results of POCTEP 2021-2027 cross-border projects",
@@ -958,7 +963,8 @@
         "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
         "url": "https://www.ccdr-alg.pt/"
       },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "IPMA has a yellow sea-agitation warning for the Algarve from 18 to 20 November",
@@ -976,7 +982,8 @@
         "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
         "url": "https://api.ipma.pt/"
       },
-      "commercial_use": "not allowed: IPMA's data is for non-profit use only (data.promptugal.news/api/v1/sources/commercial.json, read 2026-11-18); keep it off promptugal.news's billing pages; the free sub-sites may show it with its licence (guidance of 18 Nov 2026, 23:45 UTC)"
+      "commercial_use": "not allowed: IPMA's data is for non-profit use only (data.promptugal.news/api/v1/sources/commercial.json, read 2026-11-18); keep it off promptugal.news's billing pages; the free sub-sites may show it with its licence (guidance of 18 Nov 2026, 23:45 UTC)",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "AMAL holds its 100th training action of 2026",
@@ -993,7 +1000,8 @@
         "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
         "url": "https://amal.pt/"
       },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "The University of the Algarve relaunches Equipa UAlg with 81 school talks",
@@ -1010,7 +1018,8 @@
         "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
         "url": "https://www.ualg.pt/"
       },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "AMAL attends the FIREPOCTEP AVANZA wildfire-prevention project meeting in Cáceres",
@@ -1028,7 +1037,8 @@
         "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
         "url": "https://amal.pt/"
       },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "University of Algarve researchers build 'Walking on Ice', an interactive immersive film, with about 300,000 euros",
@@ -1045,7 +1055,8 @@
         "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
         "url": "https://www.ualg.pt/"
       },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "AMAL's 9 million euro smart-water project is approved under Algarve 2030",
@@ -1063,7 +1074,8 @@
         "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
         "url": "https://amal.pt/"
       },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Olhão teacher returns from a Prague Erasmus+ course on AI in education with chatbots and draft school rules",
@@ -1081,7 +1093,8 @@
         "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
         "url": "https://postal.pt/"
       },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "NaturMaris wins the sea-economy category of INOVA ALGARVE + DIVERSIFICAR at NERA in Loulé",
@@ -1099,7 +1112,8 @@
         "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
         "url": "https://www.barlavento.pt/"
       },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "The Escola Naval's RIO26 exercise runs on the Guadiana from 16 to 20 November",
@@ -1117,7 +1131,8 @@
         "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
         "url": "https://www.barlavento.pt/"
       },
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "The University of Algarve sets rules and principles for the use of AI",
@@ -1135,7 +1150,8 @@
         "url": "https://www.ualg.pt/"
       },
       "blast_radius": "every Algarve school and company that works with UAlg",
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "EEA Grants roadshow at CCDR Algarve: Portugal's allocation is 126.3 million euros, 57.6 million for blue growth",
@@ -1153,7 +1169,8 @@
         "url": "https://www.ccdr-alg.pt/"
       },
       "blast_radius": "the Ria Formosa and Guadiana coast, Tavira and Vila Real de Santo António first",
-      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     }
   ],
   "contacts": [

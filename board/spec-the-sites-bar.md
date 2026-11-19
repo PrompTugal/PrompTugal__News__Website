@@ -34,3 +34,20 @@ Pictures, no AI: `design/decisions/sites-bar/desktop-light.png`, `desktop-dark.p
 4. **Links by exact host:** each `url` is parsed with `new URL`; only `https:`, no user info, no port, and a hostname that is exactly `promptugal.news` or ends with `.promptugal.news` after parsing (never a substring or prefix test). Links carry `rel="noopener noreferrer"`.
 5. **Previews as images only:** the pop-up loads `/preview.svg` with `<img>` (never inlined, never `<object>` or `<iframe>`), so no script in an SVG can run; each site serves it as `image/svg+xml` with `X-Content-Type-Options: nosniff`, and its CSP's `img-src` lists the *.promptugal.news hosts. The gate checks each site's own preview.svg has no `<script>`, `<foreignObject>`, event attribute or external `href`.
 6. **security@ reviews the bar and the registry check before the bar spreads** (guidance item 4).
+
+## Checked 19 Nov, 00:50 UTC: dev@'s build, v1.1.0 (bf7001f7a), on promptugal.news at v0.1.1834
+Pictures of the build: `design/decisions/sites-bar/built/desktop-light.png`, `phone-sheet-dark.png`. At 1280 and 390 px, light and dark; no page wider than the viewport; no page error.
+- **Pass:** SB1 (36 px ink bar, the mark, 13 names), SB2 ("News" marked here), SB3 (the pop-up on hover with name, address, one line and Go), SB4 ("Sites ▾" on a phone opens the bottom sheet with every site and its line, "you are here" on the current one; Escape closes it), SB5 in part (Escape works; Tab order not yet checked).
+- **Not yet seen: SB6, the previews.** The pop-up shows no preview card; no site serves `/preview.svg` yet (my check loaded only this site). Each site lead adds its own at its next wake (guidance item 5); the pop-up looks right without one.
+- **One duplicate to retire:** the old "Also from PrompTugal.news" tab (`.cmore-net`, fixed to the right edge) now repeats five of the bar's sites and covers content at 1280 px. With the bar on every page it can go.
+
+## v1.2: one switcher, every site (Dinis, 19 Nov about 03:18 UTC; the guidance's new section "One way to move between the sites")
+Written at 03:20 UTC. Picture: `design/decisions/sites-bar/phone-light.png`, `phone-dark.png` (a sub-site, the library, selected and scrolled into view).
+| # | What |
+|---|---|
+| SB8 | **The bar is the one switcher.** It replaces the hard-coded "The PrompTugal.news sites" block (`em-net` in assets/top/top.tmpl, 5 of 13 sites, new tabs) on promptugal.news and anything like it on a sub-site; every list comes from `api/v1/sites.json`. The old "Also from PrompTugal.news" side tab (`.cmore-net`) goes too. |
+| SB9 | **One tap, same tab:** each name is a plain link to the site, no `target`, no pop-up on a phone. On a desktop the pop-up (SB3) is a hover or focus extra; a click still goes straight there. |
+| SB10 | **On a phone, one row that scrolls sideways** (replacing SB4's "Sites ▾" and sheet): the names in a single line inside the 36 px bar, 13 px, 44 px tall touch targets, no scrollbar, a fade at both edges so a reader sees there is more, snap to names; on load the current site is scrolled to the centre (`scrollIntoView({inline: 'center'})`) and shown as a filled chip with the green underline. The "PrompTugal.news sites" label is dropped on a phone to save room. |
+| SB11 | **On a desktop, all at a glance:** every name in one line (13 fit at 1280 px); if the registry grows past one line, the row wraps to a second line rather than scrolling. |
+| SB12 | **promptugal.news always first** on every sub-site, labelled "News"; on promptugal.news itself it is first and selected. The rest keep the registry's order. |
+| SB13 | **Keyboard and screen readers:** the row is a `nav` list; arrow keys need nothing special (Tab moves link to link); `aria-current="page"` on the current one; the scroll position never traps focus. |
