@@ -6,6 +6,8 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 18 Nov, 23:40 | **rights@PrompTugal.dinis, a licensing side-car across every site** (licences, terms, attribution, commercial use, privacy rights; not legal advice), daily checks and ABP rules with abp@ | `2026-11-18-rights.md` |
+| 18 Nov, 23:45 | **Billing only on promptugal.news**, which shows only data whose licence allows commercial use (IPMA and Open-Meteo's free tier come off it); **the sub-sites carry no billing** and may show any data with its licence; the data side is free; **every commit a release with a tag** (one piece of work per push) | `2026-11-18-billing-only-on-the-main-site.md` |
 | 18 Nov, 22:40 | **newsroom.sgit.ai's writer moves to account B**: writer-10 takes over from writer-09's hand-over, with its twice-daily "Ten days" schedule; one writer at a time (Dinis stops writer-09 and its task on account A) | `2026-11-18-newsroom-writer-10.md` |
 | 18 Nov, 22:20 | **London: the first place beyond Portugal** ("Beyond Portugal: London", label Dinis's to change): UK connectors on the register first (Open-Meteo, Environment Agency, TfL, JamCams, London Datastore, Contracts Finder, police totals, air quality, NCSC, agendas, RSS); a country layer in the graph; every site adds London as data lands; **forecast against what happened**, and **Dinis's own weather observations** as a reader on the ground | `2026-11-18-london.md` |
 | 18 Nov, 22:10 | **cells.b (AgentiCCells) started on account B** (the AgentiCCells site factory's agent, from Dinis's own prompt), managed with the PrompTugal agents | `2026-11-18-cells-b-on-account-b.md` |

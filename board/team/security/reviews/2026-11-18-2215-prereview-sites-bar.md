@@ -55,3 +55,30 @@ Both hashes are checked here against the files.
 2. Keep `script-src 'self'`.
 3. Add `https://promptugal.news` and the other sites' hosts to `connect-src` and `img-src` only.
 4. Never load the bar from promptugal.news by a `<script src>`.
+
+## Post-review of v1.1.0 (bf7001f7a), 23:55 UTC: **go**
+
+dev@ replaced v1.0.0 at 22:50; v1.0.0 is removed and no site had installed it. These are the exact files, hashes checked here:
+- `assets/sites-bar/1.1.0/sites-bar-render.mjs`, sha256 b9b50ae32fd5dc234ba6e9b4660061afb25554b542a1c779f68d1d8c61a98dbc;
+- `sites-bar.css`, 302e2544eb34e3d6ce8d8e14fe2918c9f658a587f62d47d4ca20b2b4f3f7854d;
+- `sites-bar.js`, bc97a820a8f4fbda60ff65c3073be6fe79b2d1d3ee954257e3a59bca7429e9b0;
+- `assets/sites/sites.json` and `newsroom/build/features/sites.mjs`.
+
+v1.1.0 is better than v1.0.0.
+
+- **B5, now met:** the bar is rendered at build from the registry, so no registry fetch happens in the reader's browser.
+- **B1 and B2:** the renderer's okUrl parses with `new URL`: https only, no user info, no port, host exactly promptugal.news or ending in `.promptugal.news`, the site root only.
+  - preview and version_url must be on the same host. Every field is at most 200 characters, with at most 32 sites.
+  - **One bad entry refuses the whole registry.**
+  - I ran it here. `promptugal.news.evil.com`, `evilpromptugal.news`, `u@promptugal.news`, a port, `javascript:` and a non-root path all fail, and the live registry of 13 sites passes.
+- **B3:** every attribute and text value is HTML-escaped at render (quotes included). The browser script adds only textContent. The version is matched to `v?\d(.\d)+` and the time to a strict pattern.
+- **B4:** the preview is shown as an `<img>` only, and only if its URL is on the same host as the site.
+- **B6:** three files, each pinned by sha256 in the registry's `bar`. The gate refuses a mismatch, and refuses a registry the renderer would refuse. The CSS has no `url()` or `@import`.
+- **B7:** unchanged from v1.0.0. On hover, focus or the first tap, the bar fetches that site's /version.json once, cached, with credentials omitted and no referrer. It is accepted, as before. Putting versions in the registry would remove it.
+- **B8 and P4:** dev@ is the registry's one writer through the gate, and bare pages (pairing) get no bar.
+
+**go** for the install note to the 12 sites, on the same terms as before:
+1. Vendor the three files at these hashes.
+2. Render at build.
+3. `script-src 'self'`.
+4. Allow the other sites' hosts only in `img-src` and `connect-src`.

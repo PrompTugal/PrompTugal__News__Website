@@ -31,6 +31,9 @@ export function final(ctx) {
     // and ontologist@'s websummit-only inventory: refs only, but it names every person and session that comes off (the
     // pass 2026-11-11-only-websummit-sourced-comes-off, step 2)
     const keep = ['data/websummit-only.json', DROP, 'api/v1/i18n/segments.json']   // and this list itself: with the switch on it names the files it keeps out
+    // the raw live files hold IPMA's values, non-profit use only; promptugal.news bills, so they are not served here (Dinis,
+    // 18 Nov 23:45: board/guidance/2026-11-18-billing-only-on-the-main-site.md); weather.promptugal.news and the data site show them
+    keep.push(...execFileSync('git', ['ls-files', 'data/by-place/now/'], { cwd: ctx.ROOT }).toString().split('\n').filter(Boolean))
     // the switch on (lib/wsonly.mjs): the raw files of every entity that came off, the raw company files that still hold a
     // websummit-only fact, edge or source, and the story files dev.data@ found resting only on websummit.com
     const g = ctx.store.wsGone
