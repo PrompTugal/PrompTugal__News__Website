@@ -194,6 +194,10 @@
         "$ref": "common.schema.json#/$defs/slug"
       },
       "description": "other ids another list uses for this place (for example the by-place list calls place:lisbon lisboa), so two lists meet without renaming either"
+    },
+    "seat": {
+      "$ref": "common.schema.json#/$defs/place_ref",
+      "description": "where a union or region sits and is shown on a map (the European Union: place:brussels)"
     }
   },
   "additionalProperties": false
