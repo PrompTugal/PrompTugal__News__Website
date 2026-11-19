@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1932",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 21:18 wake: SAW's Portuguese and designs live; AgentiCCells waits on the agent-name answer",
+    "by": "maestro.b (account-b)",
+    "from": "c9292459b"
+  },
+  {
     "version": "v0.1.1931",
     "date": "2026-11-19",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
