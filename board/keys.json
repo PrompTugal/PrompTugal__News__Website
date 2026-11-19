@@ -4327,6 +4327,29 @@
         "fingerprint": "sha256:b5c08abdbfa0f04b",
         "signing_fingerprint": "sha256:90b3fc894fb3185d"
       }
+    },
+    {
+      "id": "maestro.b-account-b",
+      "agent": "maestro.b (account-b)",
+      "label": "maestro.b (account-b): Dinis's main conductor on account B (Claude Code session)",
+      "role": "The conductor of the conductors on account B (board/guidance/2026-11-19-the-maestro.md). A session key: it ends with its session.",
+      "made": "2026-11-19",
+      "made_with": "sgit pki keygen (sgit-ai 0.27.0), in its own session; public bundle from sgit pki export; private half only in that session",
+      "added": "2026-11-19T02:01Z",
+      "encryption_fingerprint": "sha256:3fa8f0c3e915cf6d",
+      "signing_fingerprint": "sha256:856ff3f56ae32658",
+      "status": "active",
+      "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAndCxhyTJZK1cgipUes0U\ndNle809vkOyRg2L1o1ZTOzGw0gZsMJ+89P5RhpbpcsUVuwuPbFAaeuqmG8OXZKHI\ngBDXY0atylyWddcjTa5TnJNcc8nZO7OxvVS7sNWwO8kyeiqwtBD1EWbA5hWPkAF4\nruf12XlFurqg9ZSgZNENBv8Zm3PBlNuyUNYYvtUM1ld80ttRbd/C+caU4JbcZ02P\nMBzLKEEIN2q31Dt0SJCiQvgKBKi0EBK0MuEylx3B/KReA1dQav2a4xmGCstg/kW+\nU6CdDnK+SQlAaPRFmUWql5l0IfGagCF78jZslixjfQH57R4CdEvYrgei3ueAULnu\nH161W2u4LCPB+SAvZzho7/WmBpy9JJmj7d+TRkMz446B8wrKZpCFtQUUcBdatFa2\ne6GyeCi0JAXg54xV1tVjAZNWxHkCsVH1xt+PBCt5Gl/TzxmzhvzxC7gMlCP9POZ/\nHhsSh8LLErlfSL1wGJjpi9+clACAK9EWgZbIRof5MDo7SeUnHFHCHQlMzMKF4cRb\n0oDyu1t+JrsaaboqCKDIIVr3Vs6BY7OYn02DjMHbZJvArlO2R2eGS8LQLVluWdNV\nD6AOCQOefafH761KdgmRoqVSn1S75LOV9yOrpS1m6zjjuzUsdiXHhYa1DIoIz9v1\ndQFG3yln/huoC8JhZhr5gtsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE9kbGTuiGIEcM95iZltLWaAJDENVw\nN1V/G5ZAIU7sU4941y+DQlZNeYmuOosvj/ud7B6JEGQIt4VmMfO9O3xiMQ==\n-----END PUBLIC KEY-----\n",
+        "label": "maestro.b-account-b",
+        "fingerprint": "sha256:3fa8f0c3e915cf6d",
+        "signing_fingerprint": "sha256:856ff3f56ae32658"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH5gO2oqdb0tysEGL283u9OV9wSs4engIAwvleJs/Bqr",
+      "ssh_added": "2026-11-19T02:01Z"
     }
   ]
 }
