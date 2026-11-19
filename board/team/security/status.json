@@ -2,17 +2,17 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
  "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
- "updated": "2026-11-19T15:04Z",
- "reviewed_to": "8ed5abd98",
+ "updated": "2026-11-19T16:16Z",
+ "reviewed_to": "a975ba91f",
  "hold": false,
  "done": [
+  "16:16 19 Nov: live.b@'s CI findings folded in (artifact via RUNNER_TEMP, pushed _site and .gitattributes refused; anchor needs the security job passed by name; dev-only deploy); anchor.mjs to add the jobs check (S72, dev@)",
+  "16:04 19 Nov: wake sweep clean; S72 recommendation given (unenrolled agents fail, no named exceptions, base moved to the wiring commit)",
   "15:04 19 Nov: wake sweep of 20 repositories clean; promptugal.news's signing check read against the nine controls: well built, but not wired into CI or release.sh (S72, medium, dev@)",
   "14:23 19 Nov: signing anchor: the latest successful push run's head_sha on dev is preferred over the deployment sha (forgeable by a writer); both agreeing optional",
   "14:20 19 Nov: PR-based signing model accepted for the Factory (anchor the merge-base once dev is protected; until then the newest dev commit with a successful run; checker from the base, never the PR's tree)",
   "14:17 19 Nov: one signing ruling for travel, bulletins, startups, civic: anchor from GitHub's API (last successful run or deployment), not BEFORE or a tag; dispatch checks A..HEAD; control 9 (checks in a job that ran no pushed code)",
-  "14:12 19 Nov: signing anchor = last verified commit (the last successful Pages deployment's sha), range A..AFTER, checker from A; tags only with a CI-only tag ruleset (travel.b@'s 3b)",
-  "14:08 19 Nov: control 7 fails closed (checker from the pre-push tip; the base's copy only for the push that adds the check; tags not trusted); 8 covers dates",
-  "14:05 19 Nov: control 8 (skip only the base's ancestors); 7 covers every security check CI runs; data.b@'s 01cebcd meets 6 to 8 (one low: refuse the base override in CI)"
+  "14:12 19 Nov: signing anchor = last verified commit (the last successful Pages deployment's sha), range A..AFTER, checker from A; tags only with a CI-only tag ruleset (travel.b@'s 3b)"
  ],
  "next": [
   "read each site's signed-commit check against the nine controls (cyber.b@ c8fff24 first, then data, library, signals, bulletins, videos)",

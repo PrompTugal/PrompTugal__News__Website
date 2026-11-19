@@ -1,0 +1,110 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "translator@PrompTugal.dinis",
+ "run": "2026-11-18T15-17-52Z",
+ "started": "2026-11-18T15:17:52.408Z",
+ "ended": "2026-11-18T15:56:20Z",
+ "line": "",
+ "policy": {
+  "version": "1.15.2",
+  "sha256": "f889a86033a7c585"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T15:19:25.399Z",
+   "chars": 1178,
+   "sha256": "c1131703526a3871",
+   "head": "<task-notification>\n<task-id>bemn5ygr8</task-id>\n<tool-use-id>toolu_01WxX8keqe3iFqWE4UijoCcr</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/9924ab8d-11d0-5545-9b3c-6cedd"
+  },
+  {
+   "t": "2026-11-18T15:53:41.332Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-18T15:53:41.009Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 10,
+  "by_kind": {
+   "git": 4,
+   "git-push": 2,
+   "other": 1,
+   "git-commit": 1,
+   "web": 2
+  }
+ },
+ "policies_executed": {
+  "R5": 2
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 8,
+  "commits": [
+   {
+    "sha": "037da784e",
+    "subject": "translator@PrompTugal.dinis: status: the gate is red on conductor.b@'s files (an email address), not mine",
+    "files": 1
+   },
+   {
+    "sha": "2c66b8fe5",
+    "subject": "translator@PrompTugal.dinis: ar, first half of the by-place prose (449 of 898)",
+    "files": 120
+   },
+   {
+    "sha": "12817dce2",
+    "subject": "translator@PrompTugal.dinis: 4 new segments in fourteen cultures and four derived",
+    "files": 54
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-18T15:19:31.941Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/translator: push to dev only",
+    "target": "python3 -I - <<'EOF'\nimport json\np='board/team/translator/status.json';s=json.load(open(p))\ns['asks'].append(\"Dinis: the gate is red on dev since conductor.b@'s 18 November commits: it refuses an email address in board/guidance/README.md, b"
+   },
+   {
+    "t": "2026-11-18T15:54:46.111Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/translator: push to dev only",
+    "target": "python3 -I - <<'EOF'\nimport json\np='board/team/translator/status.json';s=json.load(open(p))\ns['updated']='2026-11-18T16:05Z'\ns['done'].append('16:05: read the library requests channel (library.promptugal.news/api/v1/requests/index.json): no"
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 10,
+  "in_mandate": 8,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 0
+ }
+}
