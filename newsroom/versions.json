@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1878",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: 12:10 wake: datasci.places@ brought",
+    "by": "dev@PrompTugal.dinis",
+    "from": "7197ea717"
+  },
+  {
     "version": "v0.1.1877",
     "date": "2026-11-19",
     "what": "conductor.b@PrompTugal.dinis: 11:48 wake: usage ledger 2026-11-19T1150Z (the 06:48 and 09:48 ledgers were missed); run report",
