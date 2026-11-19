@@ -123,6 +123,7 @@ errors.push(...secrets.selfTest())
 for (const f of files) {
     if (secrets.BINARY.test(f)) continue
     for (const what of secrets.keyHits(text(f))) errors.push(`${rel(f)}: contains ${what}`)
+    for (const what of secrets.strayPublicKeys(rel(f), text(f))) errors.push(`${rel(f)}: contains ${what}`)
 }
 
 // 7. public forever: no contact details in what we author

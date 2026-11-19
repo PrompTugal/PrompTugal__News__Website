@@ -7,6 +7,7 @@
 // The bar itself (assets/sites-bar/<version>/) goes on every page that is not bare. dev@PrompTugal.dinis.
 import { readFileSync } from 'node:fs'
 import { createHash } from 'node:crypto'
+import { execFileSync } from 'node:child_process'
 import { ledger } from './payments.mjs'
 export const order = 992
 export const BAR = '1.1.1'
@@ -29,6 +30,8 @@ export function decorate(p) {
     p.assets = { ...(p.assets || {}), css: [...((p.assets && p.assets.css) || []), CSS], js: [...((p.assets && p.assets.js) || []), JS] }
 }
 const reg = () => JSON.parse(R('assets/sites/sites.json'))
+// every version's pin, append-only (assets/sites/pins.json; security@, 19 Nov): a site checks its own version's pin
+const PINS = () => JSON.parse(R('assets/sites/pins.json'))
 // the registry as served: each site's version_url and preview (promptugal.news's under api/v1/ until the root paths are in .gitignore)
 const registry = () => ({ sites: reg().sites.map(s => s.id === 'news' ? { ...s, version_url: `${s.url}api/v1/version.json`, preview: `${s.url}api/v1/preview.svg` }
     : { ...s, version_url: `${s.url}version.json`, preview: `${s.url}preview.svg` }) })
@@ -46,10 +49,10 @@ export function api(ctx) {
     return [{ path: 'api/v1/sites.json', schema: null, data: {
         about: S.about, version: ctx.VERSION, sites: registry().sites,
         bar: { version: BAR, js: `https://promptugal.news/${JS}`, css: `https://promptugal.news/${CSS}`, integrity: { js: sha(JS), css: sha(CSS), render: sha(RENDER) }, render: `https://promptugal.news/${RENDER}`, spec: 'https://github.com/promptugal/promptugal__news__website/blob/dev/board/spec-the-sites-bar.md',
-            install: S.bar_install },
+            install: S.bar_install, versions: PINS().bar },
         preview_spec: S.preview_spec,
         // the one time-zone-to-country table for every site's page views (Dinis, 19 Nov 03:15: no IP lookup)
-        obs_tz: { file: 'https://promptugal.news/assets/obs/tz-country.json', integrity: sha('assets/obs/tz-country.json'), version: JSON.parse(R('assets/obs/tz-country.json')).version, zones: Object.keys(JSON.parse(R('assets/obs/tz-country.json')).zones).length, install: S.obs_tz_install } } }, ...previewFiles(ctx)]
+        obs_tz: { file: 'https://promptugal.news/assets/obs/tz-country.json', integrity: sha('assets/obs/tz-country.json'), version: JSON.parse(R('assets/obs/tz-country.json')).version, zones: Object.keys(JSON.parse(R('assets/obs/tz-country.json')).zones).length, install: S.obs_tz_install, versions: PINS().obs_tz } } }, ...previewFiles(ctx)]
 }
 
 const TPL = () => R('design/sites-bar/preview-template.svg.txt').toString()
@@ -77,6 +80,12 @@ export function validate(gate) {
     const p = []
     if (d.bar.integrity.js !== sha(JS) || d.bar.integrity.css !== sha(CSS) || d.bar.integrity.render !== sha(RENDER)) p.push('the sites bar\'s published integrity does not match its files')
     if (!render(d, { here: 'promptugal.news' })) p.push('sites.json: the bar\'s renderer refuses the registry (an entry fails its checks)')
+    // pins.json: append-only, and the current versions listed with their true hashes (a version never changes bytes)
+    const P = PINS(), TZV = JSON.parse(R('assets/obs/tz-country.json')).version
+    if (JSON.stringify(P.bar[BAR]) !== JSON.stringify({ js: sha(JS), css: sha(CSS), render: sha(RENDER) })) p.push(`assets/sites/pins.json: the sites bar ${BAR} is not listed with its files' integrity (a new version needs a new number)`)
+    if (!P.obs_tz[TZV] || P.obs_tz[TZV].integrity !== sha('assets/obs/tz-country.json')) p.push(`assets/sites/pins.json: tz-country ${TZV} is not listed with its integrity (a new version needs a new number)`)
+    let before = null; try { before = JSON.parse(execFileSync('git', ['show', 'HEAD:assets/sites/pins.json'], { cwd: new URL('../../../', import.meta.url).pathname, stdio: ['ignore', 'pipe', 'ignore'] }).toString()) } catch { }
+    if (before) for (const piece of ['bar', 'obs_tz']) for (const [v, pin] of Object.entries(before[piece] || {})) if (JSON.stringify((P[piece] || {})[v]) !== JSON.stringify(pin)) p.push(`assets/sites/pins.json: ${piece} ${v} was changed or removed (the list is append-only)`)
     // the page-view script's built-in table is the published one
     const T = JSON.parse(R('assets/obs/tz-country.json')).zones, js = R('assets/obs/obs.js').toString(), m = js.match(/const TZ = Object\.assign\(Object\.create\(null\), (\{[^}]*\})\)/)
     if (!m || JSON.stringify(Object.entries(JSON.parse(m[1])).sort()) !== JSON.stringify(Object.entries(T).sort())) p.push('assets/obs/obs.js: its time-zone table is not assets/obs/tz-country.json')
