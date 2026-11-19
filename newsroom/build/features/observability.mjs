@@ -45,7 +45,7 @@ export function pages(ctx) {
 
 | Part | Where | What it does |
 |---|---|---|
-| The sender | \`assets/obs/obs.js\`, \`assets/obs/obs.json\`, on every page | a **view** when a page loads, a **read** the first time the tab is hidden or closed; the place once per tab (${(obs.geo || []).map(u => new URL(u).host).join(', then ')}, 2.5 s, country, region and city only); sealed to the drain key (${obs.recipient.fingerprint}) and written to one of ${obs.lanes.site.length} append lanes |
+| The sender | \`assets/obs/obs.js\`, \`assets/obs/obs.json\`, on every page | a **view** when a page loads, a **read** the first time the tab is hidden or closed; the country only, from the browser's time zone through a fixed table (no network call, no IP seen by anyone; the IP lookup was removed at Dinis's word, 19 November 2026); sealed to the drain key (${obs.recipient.fingerprint}) and written to one of ${obs.lanes.site.length} append lanes |
 | The agents' lane | \`newsroom/tools/agent-log.mjs\` | one record per agent run (what it read, what it did), signed with the agent's session key, into one of ${obs.lanes.agents.length} lanes |
 | The data vault | \`${obs.vault_id}\`, **private** | the lanes, the drain key, every record by the hour it happened; private because its read key would give out the lanes' enum key and the drain key, and its rows hold the city of each tab |
 | The drain | \`newsroom/tools/obs/obs_drain.py\`, hourly | load (list, fetch), extract (open, verify), save raw, transform each new hour once, save public: the team site's LETS (\`newsroom/tools/obs/obs_lets.py\`, copied) |

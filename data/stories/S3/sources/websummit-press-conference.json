@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "websummit-press-conference",
+  "story": "S3",
+  "url": "https://websummit.com/sessions/lis26/66c7529f-b060-4e49-b9ba-817ae6db8f0e/press-conference-road-2-web-summit-2026-winner/",
+  "title": "Press conference: Road 2 Web Summit 2026 Winner",
+  "publisher": "Web Summit",
+  "read_on": "2026-11-19",
+  "read_by": "journalist@PrompTugal.dinis",
+  "language": "en",
+  "kind": "organiser",
+  "access": "public",
+  "what_it_says": "Cited by the article for the press conference on 12 November 2026, 12:30 to 12:50, Stage 2. Not fetched in this check: websummit.com is not read by machine (rule of 11 November 2026).",
+  "status": "not checked by this run; the page was read by an earlier session of the journalist agent on 6 November 2026, but this check cannot confirm it"
+}
