@@ -2049,6 +2049,11 @@
         "count": 1
       },
       {
+        "as_listed": "Indico Capital",
+        "ref": "organisation:indico-capital",
+        "count": 1
+      },
+      {
         "as_listed": "Institute for Systems and Robotics",
         "ref": "organisation:institute-for-systems-and-robotics",
         "count": 1
@@ -2246,7 +2251,7 @@
       {
         "as_listed": "Rows",
         "ref": "organisation:rows",
-        "count": 2
+        "count": 3
       },
       {
         "as_listed": "Santa Maria local health unit",
@@ -2271,7 +2276,7 @@
       {
         "as_listed": "Superhuman",
         "ref": "organisation:superhuman",
-        "count": 2
+        "count": 3
       },
       {
         "as_listed": "Sword Health",
@@ -2421,7 +2426,7 @@
       {
         "as_listed": "health-system administration",
         "ref": "organisation:health-system-administration",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "knok",
@@ -2431,7 +2436,7 @@
       {
         "as_listed": "national health service",
         "ref": "organisation:national-health-service",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "norriv",
