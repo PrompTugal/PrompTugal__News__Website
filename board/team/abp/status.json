@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-19T00:50Z",
+  "updated": "2026-11-19T02:39Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -93,13 +93,21 @@
     "18 Nov 22:55 fifty-first hourly wake, v1.15.4: ABPs for cells.b@ and writer-10 (onboarding default); designer@ send_message denied, inbox lanes proposed (board/abp/reports/2026-11-18-2237.md)",
     "18 Nov 23:50 fifty-second hourly wake: quiet; billing-on-main-site guidance needs no grant change (board/abp/reports/2026-11-18-2337.md)",
     "19 Nov 00:05 v1.16.0: rights@'s ABP and core rules R12-R15 on Dinis's recorded word (guidance 2026-11-18-rights.md); not hook-enforceable, re-anchored and reviewed (board/abp/reports/2026-11-19-0000.md)",
-    "19 Nov 00:50 fifty-third hourly wake: rights@ send_message, the pattern of three agents; ontologist@ seventh brief (board/abp/reports/2026-11-19-0037.md)"
+    "19 Nov 00:50 fifty-third hourly wake: rights@ send_message, the pattern of three agents; ontologist@ seventh brief (board/abp/reports/2026-11-19-0037.md)",
+    "19 Nov 01:25 v1.17.0: core rule R16 (signed commits) in every ABP on Dinis's recorded word; abp@ cannot sign (no ssh-keygen), asked of Dinis",
+    "19 Nov 01:45 v1.17.1: R16 carries two controls from signals.b@'s review (no exemption by committer string; check against the parent commit's keys) (board/abp/reports/2026-11-19-0140.md)",
+    "19 Nov 01:55 fifty-fourth hourly wake, v1.17.2: git config --get no longer a false positive; debrief refreshed; openssh-client noted (board/abp/reports/2026-11-19-0137.md)",
+    "19 Nov 01:49 v1.18.0: R17 (times from date -u; abp@'s own earlier reports rounded up) and security@'s five controls in R16 (board/abp/reports/2026-11-19-0150.md)",
+    "19 Nov 01:57 v1.18.1: ABP for maestro.b (Dinis's maestro guidance); no send_message, run-report works",
+    "19 Nov 02:39 fifty-fifth hourly wake: maestro.b@ create_session and create_trigger (R4) asked of Dinis; its 'maestro.b (account-b):' commit subjects now attributed in the report; rights@ and security@ send_message again (board/abp/reports/2026-11-19-0239.md)"
   ],
   "next": [
     "Hourly review of run reports at :37 (board/abp/reports/); check the new desks re-key their site keys and sites pass (34 of 36 now)",
     "Daily hand-over debrief"
   ],
   "asks": [
+    "Dinis: you added openssh-client to the environment's setup (19 Nov ~01:20). This abp@ session predates it and still has no ssh-keygen, so it cannot sign. Restart abp@'s session when convenient (the debrief and handover are ready) and the new one makes its SSH signing key and signs",
+    "Dinis: maestro.b@ tried create_session and create_trigger in its first hours. Your maestro guidance says only you, in its own session. If you told it to, say so here; abp@ cannot see it, keeps the ABP strict and logs it",
     "Dinis: how should the ABPs and hooks carry the inner passes (your 15:05 yes)? abp@ proposes a `passes` field in each run report, an 'Inner passes' section in every ABP, and a logged (not blocked) AppSec check on code commits; and sub-agents for outreach@, researcher@ and correspondent@, who cannot run the passes without them (board/abp/reports/2026-11-18-1510.md)",
     "Dinis: a circuit breaker for R8's two patterns (printing the environment; reading a private key or credentials file), or a push notification to you from the hook within minutes, so a repeat of S53 is not found hours late? abp@ recommends the breaker on those two patterns only (board/abp/reports/2026-11-18-1400.md)",
     "Dinis/security@: the S53 guidance says conductor-promptugal 'stays marked superseded', but board/keys.json has it active; one is wrong",
@@ -131,7 +139,8 @@
     "Dinis: ontologist@ read query.wikidata.org and www.wikidata.org (neighbours check, 061a27785): not in its grant; may it, for reads of public data (nothing private sent)?",
     "Dinis: the five site teams you started on account B (data.b@, weather.b@, civic.b@, startups.b@, travel.b@) and observability.b@ work in other repositories, outside this repository's ABP and hooks. May abp@ write their ABPs and put the hooks in each repository once they are reachable from this account (as the ios.places@ ask)?",
     "Dinis: telemetry.b@ tried send_message to reach abp@ with its run lists. abp@ proposes the sealed inbox lanes (agent_inboxes.py) or board/runs/stats/ files instead, which need no new grant; or say if you want session messages for it",
-    "Dinis: three agents (telemetry.b@, designer@, rights@) tried send_message to reach another session. May abp@ add one line to every ABP naming the channel (sealed inbox lanes for agents, status.json asks for you)? It restates existing rules, no new grant (board/abp/reports/2026-11-19-0037.md)"
+    "Dinis: three agents (telemetry.b@, designer@, rights@) tried send_message to reach another session. May abp@ add one line to every ABP naming the channel (sealed inbox lanes for agents, status.json asks for you)? It restates existing rules, no new grant (board/abp/reports/2026-11-19-0037.md)",
+    "Dinis: maestro.b may not send_message (the only flag that grants it also grants create_session and triggers). Do you want it to message conductors' sessions? abp@ would add a narrower send_message-only grant; until then it uses the sealed inbox lanes"
   ],
   "wakes": [
     {
@@ -364,5 +373,5 @@
     }
   ],
   "debrief": "board/team/abp/debriefs/2026-11-08-handover.md",
-  "latest_debrief": "board/team/abp/debriefs/2026-11-18-handover.md"
+  "latest_debrief": "board/team/abp/debriefs/2026-11-19-handover.md"
 }

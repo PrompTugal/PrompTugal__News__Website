@@ -1,4 +1,4 @@
-/*! The PrompTugal sites bar v1.1.0, the behaviour (dev@PrompTugal.dinis, from designer@'s board/spec-the-sites-bar.md, SB3 to SB5).
+/*! The PrompTugal sites bar v1.1.1, the behaviour (dev@PrompTugal.dinis, from designer@'s board/spec-the-sites-bar.md, SB3 to SB5).
  * The bar's links are in the page already (rendered at build by sites-bar-render.mjs). This adds: the pop-up per site
  * (hover after 150 ms, focus, tap; Escape closes and returns focus), with the site's /preview.svg as an <img> only, and its
  * version and update time from its /version.json (JSON only, credentials omitted, each value matched to a strict pattern);
@@ -7,7 +7,7 @@
     var nav = document.querySelector('nav.ptsb'); if (!nav || nav.__ptsb) return; nav.__ptsb = 1
     var links = [].slice.call(nav.querySelectorAll('ul a[data-host]'))
     function el(t, c, x) { var e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = String(x); return e }
-    function same(u, host) { try { var x = new URL(u); return x.protocol === 'https:' && x.hostname === host && !x.port } catch (e) { return false } }
+    function same(u, host) { try { var x = new URL(u); return x.protocol === 'https:' && x.hostname === host && !x.port && !x.username && !x.password } catch (e) { return false } }   // 1.1.1: no user info (LIB-2026-026)
     var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
     function when(s) { var d = new Date(s); return isNaN(d) ? '' : d.getUTCDate() + ' ' + MON[d.getUTCMonth()] + ', ' + ('0' + d.getUTCHours()).slice(-2) + ':' + ('0' + d.getUTCMinutes()).slice(-2) + ' UTC' }
     var pop = el('div', 'ptsb-pop'); pop.setAttribute('role', 'dialog'); pop.hidden = true; nav.appendChild(pop)
@@ -26,7 +26,7 @@
         pop.style.left = left + 'px'; pop.style.setProperty('--ptsb-arrow', Math.max(12, Math.min(r.left - b.left - left + 14, 320)) + 'px'); pop.hidden = false
         var vu = a.getAttribute('data-version')
         if (!same(vu, host)) return
-        var p = cache[vu] || (cache[vu] = fetch(vu, { credentials: 'omit', referrerPolicy: 'no-referrer' }).then(function (r) { if (!r.ok) throw 0; return r.json() }))
+        var p = cache[vu] || (cache[vu] = fetch(vu, { credentials: 'omit', referrerPolicy: 'no-referrer', redirect: 'error' }).then(function (r) { if (!r.ok) throw 0; return r.json() }))
         p.then(function (v) {
             if (open !== a || !v) return
             var ver = typeof v.version === 'string' && /^v?\d{1,4}(\.\d{1,6}){1,3}$/.test(v.version) ? v.version.replace(/^v?/, 'v') : ''

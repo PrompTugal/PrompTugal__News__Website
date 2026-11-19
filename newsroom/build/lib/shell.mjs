@@ -64,11 +64,15 @@ export function htmlPage(page, site) {
     const utility = (site.utility || []).map(u => `<a href="${href(u.href)}"${section === u.id ? ' aria-current="page"' : ''}>${esc(u.label)}</a>`).join(' · ')
     const crumb = crumbs.length ? `<nav class="crumbs" aria-label="Breadcrumb"><a href="${up}index.html">Home</a>${crumbs.map(([h, t]) => ` / ${h ? `<a href="${up}${h}">${esc(t)}</a>` : esc(t)}`).join('')}</nav>` : ''
     const tocHtml = toc.length > 2 && !front ? `<details class="toc" open><summary>On this page</summary><ul>${toc.map(([id, t]) => `<li><a href="#${id}">${inline(t)}</a></li>`).join('')}</ul></details>` : ''
-    const css = [...(site.assets?.css || []), ...(page.assets?.css || [])].map(c => `\n<link rel="stylesheet" href="${href(c)}">`).join('')
+    const css = [...(site.assets?.css || []).filter(c => !((page.free || page.meta?.free) && /^assets\/meter\//.test(c))), ...(page.assets?.css || [])].map(c => `\n<link rel="stylesheet" href="${href(c)}">`).join('')
     // a bare page (the pairing page: security@'s P4, board/passes/2026-11-17-pairing-step-1.md) carries none of the
     // site-wide scripts (obs.js and the rest), no inline script, and a meta CSP; its own scripts only, modules allowed
     const bare = !!page.bare
-    const js = [...(bare ? [] : site.assets?.js || []), ...(page.assets?.js || [])].map(s => `\n<script defer src="${href(s)}"></script>`).join('') +
+    // a free page (Dinis, 19 Nov 01:10: YouTube only on a page that is never charged) loads no meter: never charged, never
+    // in the reading log, never in the simulated payments (rights@'s C1 and C6); features/free-pages.mjs checks it
+    const free = !!(page.free || page.meta?.free)
+    const METERED = /^assets\/meter\//
+    const js = [...(bare ? [] : (site.assets?.js || []).filter(s => !(free && METERED.test(s)))), ...(page.assets?.js || [])].map(s => `\n<script defer src="${href(s)}"></script>`).join('') +
         (page.assets?.module || []).map(s => `\n<script type="module" src="${href(s)}"></script>`).join('')
     const csp = bare && page.head ? `\n${page.head}` : ''   // the bare page's own head lines (its CSP)
     // a page's own scripts that must run before the body is drawn (a switch between two layouts, so neither flashes)
@@ -88,7 +92,7 @@ export function htmlPage(page, site) {
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(title)} · ${esc(S.name)}</title>
 <meta name="description" content="${esc(summary || '')}">
-<meta name="page-type" content="${esc(type || 'site')}">
+<meta name="page-type" content="${esc(type || 'site')}">${(page.free || page.meta?.free) ? '\n<meta name="page-free" content="never charged">' : ''}
 <meta name="page-date" content="${esc(date || '')}">
 <link rel="canonical" href="${site.BASE}${rel}">${(page.alternates || []).filter(x => /^([a-z]{2,3}(?:-[A-Z][a-z]{3})?(?:-[A-Z]{2})?|x-default)$/.test(x.lang)).map(x => `\n<link rel="alternate" hreflang="${x.lang}" href="${site.BASE}${x.rel}">`).join('')}
 <meta property="og:url" content="${site.BASE}${rel}">
