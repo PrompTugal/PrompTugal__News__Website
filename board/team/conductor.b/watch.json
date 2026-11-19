@@ -1036,6 +1036,16 @@
         "ECDSA and sk- key forms: library, startups, data fixed; bulletins, cyber, signals, live already covered",
         "dev@: per-version pins in the registry; Faro airport live on place pages"
       ]
+    },
+    {
+      "at": "2026-11-19T06:54Z",
+      "hold": false,
+      "site": "v0.1.1849 (no release since 05:43)",
+      "alert": "deploy-pages validate job cancelled at its 5-minute timeout on every run since 05:43 (build+gate now just over 5 min); told dev@ to raise timeout-minutes and look at the gate's growth",
+      "fresh_06_48": "data built 06:16; other sub-sites 04:51-05:18 (quiet before their 07:00 Lisbon wakes)",
+      "notes": [
+        "sites bar v1.2.0 built by dev@ and checked by designer@ (phone row, desktop line); waits on release and security@'s review"
+      ]
     }
   ]
 }
