@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1891",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: the signature check meets security@'s controls 6 and 7, with their tests",
+    "by": "dev@PrompTugal.dinis",
+    "from": "d84157f05"
+  },
+  {
     "version": "v0.1.1890",
     "date": "2026-11-19",
     "what": "abp@PrompTugal.dinis: R16 gets security@'s controls 6 and 7 (orphans, shallow checkout, checker from the last release); policy v1.18.2",
