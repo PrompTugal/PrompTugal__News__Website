@@ -1,0 +1,26 @@
+{
+ "af014c36595f1b1d": {
+  "t": "نشاط الذكاء الاصطناعي في Portalegre يقع في مؤسسة التعليم العالي فيها، التي تُسمى الآن على موقعها Universidade Politécnica de Portalegre، ويدرج مكتب البحث فيها مشروعين للذكاء الاصطناعي يبدآن في سبتمبر 2026، أحدهما للزراعة وتربية الماشية والآخر للصحة النفسية للطلاب. وحولها مركز ابتكار Kyndryl أُنشئ مع البوليتكنيك في 2023، وجمعية أعمال تدير حاضنة، وعنقود جديد لتقنيات الدفاع والاستخدام المزدوج يدرج الذكاء الاصطناعي بين اهتماماته. وأخبار البلدية نفسها لا تُظهر أي استخدام للذكاء الاصطناعي، فالبحث وشركاء الصناعة والتدريب الإقليمي، لا مبنى البلدية، هي مركز ثقل Portalegre.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portalegre's AI activity sits in its higher education instit",
+  "ok": false
+ },
+ "afb2831eb2361f71": {
+  "t": "Radar Social في Alcoutim يرسم خريطة للأشخاص المعرضين للخطر بنظام ترميز جغرافي",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Alcoutim's Radar Social maps people at risk with a georefere",
+  "ok": false
+ },
+ "affdf3bdd317ab79": {
+  "t": "Odiana، التي تمثل Baixo Guadiana، هي الشريك البرتغالي في Agrosocial Plus، مشروع إسباني برتغالي بقيمة 2.06 مليون يورو أُطلق في Córdoba يومي 22 و23 سبتمبر 2026. ومن المخطط أن تختبر مختبراته الحية حلولاً منها الذكاء الاصطناعي وإنترنت الأشياء والري الذكي. ولا يذكر المقال ما إذا كانت Vila Real de Santo António تشارك، مع أن الصفحة موسومة باسم البلدة.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Odiana, which represents the Baixo Guadiana, is the Portugue",
+  "ok": false
+ }
+}

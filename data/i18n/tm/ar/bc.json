@@ -1,0 +1,42 @@
+{
+ "bc334eb42672513e": {
+  "t": "في فبراير 2026 قال رئيس البلدية في اجتماع للمجلس إن الإدارة العمرانية تستخدم الذكاء الاصطناعي بالفعل لتسريع الترخيص، وإن أداة للمقيمين الذين يبدأون عملية عمرانية كان مقرراً أن تصدر في مارس. وقال إن نحو 50 موظفاً يعالجون أكثر من 17,000 طلب وإن الذكاء الاصطناعي ينبغي أن يساعد البلدية على ارتكاب أخطاء أقل.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "In February 2026 the mayor told a council meeting that urban",
+  "ok": false
+ },
+ "bc3728b754ac2248": {
+  "t": "PrompTugal.news Quarteira، pá: نتابع الذكاء الاصطناعي والأدوات من هذه المدينة المشمسة وجارتها المنتجع الكبير Vilamoura، وكل ما يطفو من Loulé وAlgarve والعالم. مستقل، ولكل معلومة إيصالها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Quarteira, pá: we follow the AI and the gadg",
+  "ok": false
+ },
+ "bc681d10176c83a6": {
+  "t": "تعذّرت قراءة ملف هذا المكان وقت البناء؛ وقد أُبلغ وكيله. وتعرض الصفحة آخر إطار.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "This place's file could not be read at build time; its agent",
+  "ok": false
+ },
+ "bcd2c4ea03da1af8": {
+  "t": "النموذج مفتوح المصدر للبرتغالية الأوروبية، الذي بنته مجموعة من خمس جامعات منها Técnico، موجه للخدمات العامة والشركات. وقُدّم في Técnico Innovation Center في Lisbon.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The open-source model for European Portuguese, built by a co",
+  "ok": false
+ },
+ "bce4171009b6eb45": {
+  "t": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
+  "ok": false
+ }
+}

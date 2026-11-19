@@ -1,0 +1,34 @@
+{
+ "dc01b07203158782": {
+  "t": "قيد البحث",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Researching",
+  "ok": false
+ },
+ "dc743f8b8d06b601": {
+  "t": "يوم 29 أكتوبر 2026 قدّمت الهيئة بين البلدية CIM Viseu Dão Lafões منصة SMART REGION، وهما منصتان (إحداهما للمعرفة الإقليمية والأخرى للإدارة الحضرية) تقاطعان بيانات متفرقة مثل تدفقات الزوار والتنقل والنفايات لمساعدة البلديات على فهم الاحتياجات المحلية. ويقول تقرير ثانٍ من Mais Aguiar da Beira في 31 أكتوبر إن منصة الإدارة الحضرية تقدم أدوات ذكاء اصطناعي للتحليل ودعم القرار وإن CIM وMOBI.E وقّعتا بروتوكولاً حول التذاكر الذكية. ولا يسمّي أي من التقريرين النماذج المستخدمة.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "On 29 October 2026 the intermunicipal body CIM Viseu Dão Laf",
+  "ok": false
+ },
+ "dc863485c179d3fc": {
+  "t": "Oi، pá! Loulé، حيث للسوق قباب وللبلدية خوارزميات.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Oi, pá! Loulé, where the market has domes and the council ha",
+  "ok": false
+ },
+ "dceaf782b95ea2a7": {
+  "t": "Tavira واحدة من ست بلديات في منصة بيانات Algarve 6.0 الحضرية",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Tavira is one of six municipalities in the Algarve 6.0 urban",
+  "ok": false
+ }
+}

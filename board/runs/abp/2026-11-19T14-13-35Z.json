@@ -1,0 +1,65 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "abp@PrompTugal.dinis",
+ "run": "2026-11-19T14-13-35Z",
+ "started": "2026-11-19T14:13:35.664Z",
+ "ended": "2026-11-19T14:18:09Z",
+ "line": "",
+ "policy": {
+  "version": "1.18.3",
+  "sha256": "e449dd3b5d019781"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-19T14:17:54.171Z",
+   "chars": 282,
+   "sha256": "1a0c7bb9e9488b87",
+   "head": "<task-notification>\n<task-id>bj3zsxlry</task-id>\n<summary>Monitor event: \"Wait for release.sh\"</summary>\n<event>[Monitor expired after 10m with no events delivered. Re-arm it if you still need the wat"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 6,
+  "by_kind": {
+   "git": 2,
+   "shell": 1,
+   "other": 1,
+   "release": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 6,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 6,
+  "in_mandate": 6,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

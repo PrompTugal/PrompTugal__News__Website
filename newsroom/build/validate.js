@@ -37,7 +37,10 @@ function walk(dir, out = []) {
     for (const name of fs.readdirSync(dir)) {
         if (['.git', 'node_modules', '.sg_vault', '.credentials'].includes(name)) continue
         const p = path.join(dir, name)
-        if (fs.statSync(p).isDirectory()) walk(p, out); else out.push(p)
+        // never follow a symlink (library.b@'s LIB-2026-067, via conductor.b@): one in the tree is an error, not a path to read
+        const st = fs.lstatSync(p)
+        if (st.isSymbolicLink()) { errors.push(`${path.relative(ROOT, p)}: a symlink (refused)`); continue }
+        if (st.isDirectory()) walk(p, out); else out.push(p)
     }
     return out
 }
@@ -121,9 +124,10 @@ for (const f of html) {
 const secrets = require('./secrets.cjs')
 errors.push(...secrets.selfTest())
 for (const f of files) {
-    if (secrets.BINARY.test(f)) continue
-    for (const what of secrets.keyHits(text(f))) errors.push(`${rel(f)}: contains ${what}`)
-    for (const what of secrets.strayPublicKeys(rel(f), text(f))) errors.push(`${rel(f)}: contains ${what}`)
+    // every file, a binary one too, read as raw bytes (a key in a .png or a file with a NUL byte is still a key: LIB-2026-067)
+    const t = secrets.BINARY.test(f) ? fs.readFileSync(f).toString('latin1') : text(f)
+    for (const what of secrets.keyHits(t)) errors.push(`${rel(f)}: contains ${what}`)
+    for (const what of secrets.strayPublicKeys(rel(f), t)) errors.push(`${rel(f)}: contains ${what}`)
 }
 
 // 7. public forever: no contact details in what we author

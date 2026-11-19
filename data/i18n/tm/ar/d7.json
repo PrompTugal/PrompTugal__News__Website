@@ -1,0 +1,26 @@
+{
+ "d75ab38c71eb59c9": {
+  "t": "PrompTugal.news Portimão: أخبار الذكاء الاصطناعي والتقنية من البلدة التي يلتقي فيها Arade بالبحر، من بلدية بروبوت ترخيص ذكي إلى شركة مياه بآذان تلتقط التسربات، إضافة إلى ما يصلنا من Algarve والبرتغال والعالم. نحن مستقلون، ولكل معلومة مصدرها، pá.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Portimão: the AI and tech news of the town w",
+  "ok": false
+ },
+ "d7a0a455903f488c": {
+  "t": "ما لم نجده بعد، mesmo a sério:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "What we still did not find, mesmo a sério:",
+  "ok": false
+ },
+ "d7aa8e8829bcb070": {
+  "t": "شركة الاستشارات التقنية Noesis تفتح مكتباً في Castelo Branco وتقول إنها ستوظف متخصصين في الذكاء الاصطناعي أيضاً",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "IT consultancy Noesis opens a Castelo Branco office and says",
+  "ok": false
+ }
+}

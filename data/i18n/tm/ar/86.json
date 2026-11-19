@@ -1,0 +1,66 @@
+{
+ "861340a39322787c": {
+  "t": "تضم Faro جامعة Universidade do Algarve، التي تُرسّخ حرمها في المدينة معظم نشاط الذكاء الاصطناعي في المنطقة: البحث (مركز ابتكار أثري بقيمة 31.5 مليون يورو سيستخدم الذكاء الاصطناعي)، والتدريس (سياسة منشورة للجامعة في الذكاء الاصطناعي، ودورة تنفيذية في الذكاء الاصطناعي الصحي مع شركة تقنية صحية)، وUALG TEC Campus الذي تُقام فيه فعاليات الأعمال حول الذكاء الاصطناعي. وطبقة المجتمع هنا أيضاً: GDG Faro ينظّم مؤتمر المدينة للمطورين حول الذكاء الاصطناعي الوكيلي، وتضيف Algarve Evolution وAlgarve STP والبلدية فعاليات وبرامج. أما البلدية نفسها فتُظهر استخداماً قليلاً للذكاء الاصطناعي فيما استطعنا قراءته، لذا فالابتكار والبحث، لا إدارة المدينة، هما مركز ثقل Faro.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Faro is home to the Universidade do Algarve, whose campuses ",
+  "ok": false
+ },
+ "862a47ccd096007f": {
+  "t": "يستخدم مشروع اسمه QI 4.0 مستشعرات ونماذج تعلّم آلي لمراقبة نضج جبن Queijo Serpa DOP، ويغذّي تطبيقاً لا يزال قيد التطوير ينبّه المنتجين عندما تنحرف ظروف غرفة النضج. وكان من المقرر عرضه في Córdoba يوم 14 نوفمبر 2026.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A project called QI 4.0 uses sensors and machine-learning mo",
+  "ok": false
+ },
+ "863d8453056fae11": {
+  "t": "البلدية تفتح ثمانية مشاريع رقمية أمام الشركات الناشئة والجامعات في بورتو في يوم عروض",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council opens eight digital projects to Porto's startups",
+  "ok": false
+ },
+ "867572ff80be5e8d": {
+  "t": "خريطة Algarve بأماكنها الـ {count}، كل منها مرتبط بموقعه",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Map of the Algarve with its {count} places, each linked to i",
+  "ok": false
+ },
+ "867d7d84af293cda": {
+  "t": "في توقيع عام 2021، انضم 23 شريكاً إلى مركز بحث وتدريب حول النظام الغذائي المتوسطي في CEAT. وشملت الخطط مركزاً للعلاج الرقمي مع Johns Hopkins University وAlgarve Biomedical Center، وتدريباً بالواقع الافتراضي، وحديقة حضرية، ومركزاً علمياً من Ciência Viva. لا يُذكر الذكاء الاصطناعي.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "At the 2021 signing, 23 partners joined a Mediterranean Diet",
+  "ok": false
+ },
+ "86ad806b1bec465d": {
+  "t": "Ó pá، Lagoa: شمس ونبيذ وكهف بحري في سقفه ثقب، والآن بلدية تسأل الروبوتات عن الهواء.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ó pá, Lagoa: sun, wine, a sea cave with a hole in its roof, ",
+  "ok": false
+ },
+ "86c335ec6671a38b": {
+  "t": "رواد أعمال Portimão يلتقون للحديث عن القيادة والابتكار والذكاء الاصطناعي",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Portimão entrepreneurs meet to talk leadership, innovation a",
+  "ok": false
+ },
+ "86db666b9311af7d": {
+  "t": "Campus Tejo في Santarém مختبر ميداني على نهر Tejo، كما يقول رئيس البلدية في مقابلة",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Santarém's Campus Tejo is a field lab on the Tejo, the mayor",
+  "ok": false
+ }
+}

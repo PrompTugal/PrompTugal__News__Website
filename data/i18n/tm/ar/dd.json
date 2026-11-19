@@ -1,0 +1,18 @@
+{
+ "ddd9c693aaa1cc5e": {
+  "t": "Universidade de Évora تقول إنها بنت نماذج ذكاء اصطناعي باللغة البرتغالية",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Universidade de Évora says it has built Portuguese-language ",
+  "ok": false
+ },
+ "dded4f00e6d60967": {
+  "t": "أولاً الخطة الوطنية، أكثر من 400 مليون يورو معظمها مال أوروبي، ثم AMALIA والحواسيب الفائقة ومشهد شركات ناشئة لا يتوقف عن جمع الجولات في Porto وLisbon.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "First the national plan, over 400 million euros of mostly Eu",
+  "ok": false
+ }
+}
