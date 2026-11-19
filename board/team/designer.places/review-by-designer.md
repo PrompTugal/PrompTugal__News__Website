@@ -29,3 +29,4 @@ Held back: nothing so far. Next for this lane: LD3 (the five days under the band
 | 18 Nov 16:45 | a29955790 (sweep clean; flags the red gate on dev, since fixed) | passes; on dev |
 | 18 Nov 18:45 | 21834ac32 (inner passes, library requests read, sweep clean) | passes; on dev |
 | 18 Nov 20:45 | 62a4f5fcd (passes, library requests none, sweep clean) | passes; on dev |
+| 18 Nov 22:45 | 388f9bc38 (guidance read, library requests none, sweep clean) | passes; on dev |

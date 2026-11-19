@@ -1,0 +1,356 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "S17",
+  "kept_by": "journalist@PrompTugal.dinis",
+  "updated": "2026-11-18",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "Four of the seven Commission and agency sessions on the Commission's agenda are on 11 November; two are on 10 November and one on 12 November.",
+      "kind": "fact",
+      "source": "ec-digitaleu-web-summit-2026",
+      "quote": "11 November",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "agenda lists 2 sessions on 10 Nov, 4 on 11 Nov, 1 on 12 Nov"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c02",
+      "text": "The Commission's agenda lists a DG CONNECT masterclass, 'Building AI in Europe: Practical Support for Innovators', on 11 November from 14:30 to 15:15.",
+      "kind": "fact",
+      "source": "ec-digitaleu-web-summit-2026",
+      "quote": "14:30-15:15 – DG CONNECT Masterclass",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c03",
+      "text": "The masterclass covers EU support from regulatory guidance to access to infrastructure and funding; the Commission's news text adds testing facilities, expertise and tools.",
+      "kind": "fact",
+      "source": "ec-digitaleu-web-summit-2026",
+      "quote": "including regulatory guidance, testing facilities, infrastructure, expertise, funding and tools",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c04",
+      "text": "HaDEA's session 'Investing in technological sovereignty: EU funding for your project' was listed for 11 November at 15:30 to 16:15.",
+      "kind": "fact",
+      "source": "ec-digitaleu-web-summit-2026",
+      "quote": "15:30-16:15 – HaDEA Masterclass",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the Commission's page still lists it on 11 November"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c05",
+      "text": "HaDEA's workshop will feature representatives of four EU-funded projects.",
+      "kind": "fact",
+      "source": "hadea-web-summit-2026",
+      "quote": "representatives of four EU-funded projects",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c06",
+      "text": "HaDEA's workshop is on 11 November at 15:30, as the article states.",
+      "kind": "fact",
+      "source": "hadea-web-summit-2026",
+      "quote": "On 11 November at 15.30, the European Health and Digital Executive Agency (HaDEA) will host a workshop",
+      "evidence_check": {
+        "status": "fails",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "HaDEA's page now carries an update: the workshop moved to Thursday 12 November at 16:00 (WET) because of severe weather and suspended public events in Lisbon on 11 November. The article's day, the overlap with EuroHPC and the afternoon plan need correcting."
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c07",
+      "text": "HaDEA says its representatives and EU-funded projects are available at stand E418 in Pavilion 4 throughout Web Summit.",
+      "kind": "fact",
+      "source": "hadea-web-summit-2026",
+      "quote": "Throughout Web Summit, HaDEA representatives and EU-funded projects will also be available at",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c08",
+      "text": "HaDEA is at stand E418 in Pavilion 4.",
+      "kind": "fact",
+      "source": "ec-digitaleu-web-summit-2026",
+      "quote": "HaDEA at stand E418, both in Pavilion 4",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c09",
+      "text": "EuroHPC's masterclass 'Level up for free: Access EU supercomputing, AI & quantum resources' is listed for 11 November from 16:00 to 16:45.",
+      "kind": "fact",
+      "source": "ec-digitaleu-web-summit-2026",
+      "quote": "16:00-16:45 – EuroHPC Masterclass",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c10",
+      "text": "The EuroHPC session is about how industry can access Europe's supercomputers, AI Factories and quantum computers for free.",
+      "kind": "fact",
+      "source": "ec-digitaleu-web-summit-2026",
+      "quote": "how industry can access Europe’s supercomputers, AI Factories and quantum computers for free",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c11",
+      "text": "Attendance at the EuroHPC session is first come, first served.",
+      "kind": "fact",
+      "source": "ec-digitaleu-web-summit-2026",
+      "quote": "attendance is first-come, first-served",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c12",
+      "text": "HaDEA's (15:30 to 16:15) and EuroHPC's (16:00 to 16:45) sessions overlap by a quarter of an hour.",
+      "kind": "fact",
+      "source": "ec-digitaleu-web-summit-2026",
+      "quote": "15:30-16:15 – HaDEA Masterclass",
+      "evidence_check": {
+        "status": "fails",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "times arithmetic holds on the Commission's page, but HaDEA's own page now moves its workshop to 12 November at 16:00, so on 11 November there is no overlap."
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c13",
+      "text": "The EUIPO panel on IP-backed finance is on 11 November at 12:10.",
+      "kind": "fact",
+      "source": "ec-digitaleu-web-summit-2026",
+      "quote": "12:10 – 12:30 – EUIPO Panel",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c14",
+      "text": "The panel examines how IP-backed finance can help innovative companies access capital and scale their businesses.",
+      "kind": "fact",
+      "source": "ec-digitaleu-web-summit-2026",
+      "quote": "how IP-backed finance can help innovative companies access capital and scale their businesses",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c15",
+      "text": "The Commission's agenda gives no room for the HaDEA, EuroHPC and EUIPO sessions.",
+      "kind": "fact",
+      "source": "ec-digitaleu-web-summit-2026",
+      "quote": "AGENDA",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the agenda lists times and titles but no rooms or stages for these sessions"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c16",
+      "text": "The Dutch delegation's provisional programme includes a networking event on 11 November, run by RVO, the Netherlands Enterprise Agency.",
+      "kind": "fact",
+      "source": "rvo-web-summit-2026-lisbon",
+      "quote": "Web Summit 2026 in Lisbon",
+      "evidence_check": {
+        "status": "fails",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the RVO page returned HTTP 404 today; nothing to quote. The claim rests on a page we could not read."
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c17",
+      "text": "European Tech Champions, Italy and Portugal, is on 11 November 2026 in Lisbon, bringing together founders, investors, corporate leaders and institutional representatives.",
+      "kind": "fact",
+      "source": "aicep-italy-portugal-tech-growth",
+      "quote": "on 11 November 2026, bringing together founders, investors, corporate leaders and institutional representatives",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c18",
+      "text": "The event is organised by Unicorn Factory Lisboa, the Embassy of Italy in Portugal and the Italian Trade Agency (ICE).",
+      "kind": "fact",
+      "source": "aicep-italy-portugal-tech-growth",
+      "quote": "The event is organised by Unicorn Factory Lisboa, the Embassy of Italy in Portugal and the Italian Trade Agency (ICE)",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c19",
+      "text": "The event is held at Unicorn Stage, in Lisbon's Beato Innovation District, with two panel discussions.",
+      "kind": "fact",
+      "source": "aicep-italy-portugal-tech-growth",
+      "quote": "Held at Unicorn Stage, in Lisbon’s Beato Innovation District, the event will feature two panel discussions",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c20",
+      "text": "The programme includes a networking session for Portuguese and Italian startups and investors.",
+      "kind": "fact",
+      "source": "aicep-italy-portugal-tech-growth",
+      "quote": "The programme will also include a networking session",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c21",
+      "text": "The event starts at 18:30, with welcome and registration.",
+      "kind": "fact",
+      "source": "aicep-italy-portugal-tech-growth",
+      "quote": "The event starts at 18:30, with welcome and registration.",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c22",
+      "text": "The discussions focus on raising capital and scaling for European technology companies.",
+      "kind": "fact",
+      "source": "aicep-italy-portugal-tech-growth",
+      "quote": "how European technology companies can raise capital, compete internationally and scale beyond their domestic markets",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the link resolves and the page says it"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c23",
+      "text": "'The next digital frontier' is on 11 November at 10:30 to 10:50 on Stage 11, with Portugal's Secretary of State for Digitalisation and São Paulo state's Secretary of Science, Technology and Innovation among others.",
+      "kind": "fact",
+      "source": "websummit-schedule",
+      "evidence_check": {
+        "status": "fails",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "rests on a source we do not read"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c24",
+      "text": "The AI masterclass is in Masterclass 3 on Web Summit's schedule.",
+      "kind": "fact",
+      "source": "websummit-schedule",
+      "evidence_check": {
+        "status": "fails",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "rests on a source we do not read"
+      },
+      "read_on": "2026-11-18"
+    },
+    {
+      "id": "c25",
+      "text": "Beato is away from the summit's venue, so the evening needs travel time.",
+      "kind": "opinion",
+      "source": "aicep-italy-portugal-tech-growth",
+      "quote": "Beato Innovation District",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-18",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "the page places the event in Beato; the travel-time judgement is ours"
+      },
+      "read_on": "2026-11-18"
+    }
+  ]
+}

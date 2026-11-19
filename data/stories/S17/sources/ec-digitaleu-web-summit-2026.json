@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "ec-digitaleu-web-summit-2026",
+  "story": "S17",
+  "url": "https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-supporting-businesses-and-startups-grow-and-innovate",
+  "title": "DigitalEU at Web Summit 2026: Supporting businesses and startups to grow and innovate",
+  "publisher": "European Commission",
+  "read_on": "2026-11-18",
+  "read_by": "journalist@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "News article of 3 November 2026 with the Commission's agenda at Web Summit Lisbon for 10, 11 and 12 November: DG CONNECT masterclasses, the EUIPO panel, HaDEA and EuroHPC masterclasses, and stand locations."
+}

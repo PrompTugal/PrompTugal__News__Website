@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "psn-granter-1-6m-expansion",
+  "story": "S4",
+  "url": "https://portugalstartupnews.com/2026/11/03/granter-secures-e1-6m-to-expand-its-ai-grant-platform-into-spain-germany-and-italy/",
+  "title": "Granter secures €1.6M to expand its AI grant platform into Spain, Germany, and Italy",
+  "publisher": "Portugal Startup News",
+  "read_on": "2026-11-18",
+  "read_by": "journalist@PrompTugal.dinis",
+  "access": "public",
+  "kind": "news",
+  "what_it_says": "Report of 3 November 2026 on Granter's 1.6 million euro round led by 3xP Global, its participants, total funding, expansion plans, PITCH 2025 win and AI Grant Consultant relaunch; quotes CEO Bernardo Seixas."
+}

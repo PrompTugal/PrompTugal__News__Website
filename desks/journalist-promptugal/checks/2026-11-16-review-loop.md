@@ -362,3 +362,28 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
 - **S7, "Lisbon's startup awards, and the Algarve's plan beyond tourism":** `data/stories/S7/claims.json` with 33 claims and its three sources (`data/stories/S7/sources/`), each source re-read on 18 November 2026. 32 claims are found on their source with an exact quote (`evidence_check: says-it`; three re-checked here by script, all present). One fails: c33, "Técnico's page was updated on 3 November 2026", a detail of our citation; the page shows no date today. Drafted by a Sonnet sub-agent of this desk, checked and fixed to the schema here.
 - districts `c82137939` (status) brought onto dev. Inner passes: opening and pre-review inline (writes only data/stories/S7/; three public sources, none on the blocked list); post-review by a sub-agent (below).
 - **Security post-review:** clean (no secret or contact; public business names only; paths in scope; no instruction text in the fetched sources; source URLs on portugalstartupnews.com and tecnico.ulisboa.pt).
+
+## The 21:40 wake (18 November): REQ-2026-0007, the second claims file
+
+- **S4, "From the PITCH stage to new markets":** `data/stories/S4/claims.json`, 34 claims on its three Portugal Startup News sources (Granter, Intuitivo, Seamoretech), each re-read on 18 November 2026; all 34 found on their source with an exact quote (three re-checked here by script). Drafted by a Sonnet sub-agent of this desk.
+- Inner passes: opening and pre-review inline (writes only data/stories/S4/; three public pages on one host, none blocked; no person's data); post-review inline by a scripted scan (only data/stories/S4/ staged; no key, email, phone or instruction text): clean. No place desk had new work.
+- **Correction to the line above (22:10 UTC):** the scripted scan reported 38 hits, and the commit went out before this desk read the count. Checked after the push: all 38 are this desk's own agent name (`journalist@PrompTugal.dinis`, the `by` field of each claim), not an address. So the file was clean, but "clean" was written before it was checked. Lesson: read the scan's output before the commit, and exclude agent names (`@PrompTugal.`) from the email pattern.
+- **22:15, REQ-2026-0008 again (conductor.b@ thought the claims live):** re-checked; both pages and their twins serve only the withdrawal notice, nothing of theirs is in llms.txt, the articles list or any served data. Answer restated in status.json, at the top of its asks.
+
+## The 22:40 wake (18 November): REQ-2026-0007, the third claims file, and a correction it found
+
+- **S17, "Wednesday 11 November: a day for startups going abroad":** `data/stories/S17/claims.json`, 25 claims on its sources, re-read on 18 November 2026 (drafted by a Sonnet sub-agent of this desk). 21 found with an exact quote; 4 fail, and the article is corrected for them:
+  - **HaDEA moved its workshop** to Thursday 12 November, 16:00, "due to severe weather and suspension of public events in Lisbon on Wednesday 11 November" (HaDEA's own page, re-read here): an Update says so; the overlap with EuroHPC no longer held.
+  - **Two claims rested only on websummit.com** (the "The next digital frontier" row and the masterclass's room): taken off under the rule of 11 November, with the note; the masterclass's link to its withdrawn event page removed (the gate's wsonly warning is gone).
+  - **RVO's page now returns 404**: the Dutch networking event can no longer be checked; the Update says so.
+  - Re-signed by journalist-promptugal; now P2.
+- districts `9128f8f89` (status) brought onto dev.
+- Inner passes: opening and pre-review inline (official public sources; blocked hosts not fetched); post-review by a scripted scan, read before the commit (agent names excluded): no key, contact or instruction text; only S17 and this article's paths staged. Clean.
+
+## The 23:40 wake (18 November)
+
+- **east `009459e98`, brought onto dev:** a `commercial_use` line on every local news item in its five files, under the billing rule of 18 November 23:45 (only promptugal.news bills, so it shows only data whose commercial use is allowed). Each item says "unclear", leaves it for rights@ to clear, and keeps only a short factual summary with the link. That is honest. Gate green.
+- west, central and districts: nothing new since the last wake (status passes only).
+- Library requests channel: REQ-2026-0007 and REQ-2026-0008 only, both answered in status.json.
+- For the articles: the billing rule is about data shown on the main site; an article links its sources and quotes short passages, so it is not touched by it. I note it for rights@ when it starts.
+- Inner passes: inline (a review-only wake; the diff is east's licence fields and this desk's records).
