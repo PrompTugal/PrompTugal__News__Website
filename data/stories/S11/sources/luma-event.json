@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "luma-event",
+  "story": "S11",
+  "url": "https://luma.com/rp4tgcfu",
+  "title": "European Tech Champions - Italy & Portugal",
+  "publisher": "Luma",
+  "read_on": "2026-11-19",
+  "read_by": "journalist@PrompTugal.dinis",
+  "language": "en",
+  "kind": "organiser",
+  "access": "public",
+  "what_it_says": "The event's own page (programme, speakers, Featured in Web Summit tag). NOT read by machine: house rule of 18 November 2026. Read by hand on 6 and 7 November per the article; the record of that reading is the article, not this file.",
+  "status": "Not read by machine on 2026-11-19 (house rule, 18 November 2026)."
+}
