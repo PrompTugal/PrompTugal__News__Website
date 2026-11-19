@@ -3,7 +3,7 @@
 // Claude-Session: recorded on that key (Dinis, 19 November 2026; newsroom/tools/signing.json). Run by release.sh over the
 // commits it is about to push, and by the gate over every commit since signing.json's start.
 //   node newsroom/tools/check-signatures.mjs [<range>] [--json]      default range: <start>..HEAD
-// Each commit against its parent's keys; CI's version commits exempt only by their content. Exit 1 if a commit fails; warnings (an agent with no ssh key published yet, while enforce is "enrolled") print but pass.
+// Each commit against its parent's keys; skips by ancestry only (control 8). Exit 1 if a commit fails; warnings (an agent with no ssh key published yet, while enforce is "enrolled") print but pass.
 // dev@PrompTugal.dinis.
 import { execFileSync } from 'node:child_process'
 import fs from 'node:fs'
@@ -16,19 +16,9 @@ const TOOLS = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = process.env.CHECK_ROOT ? path.resolve(process.env.CHECK_ROOT) : path.resolve(TOOLS, '../..')
 const git = (...a) => execFileSync('git', a, { cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] })
 
-// CI's version commits are exempt only by what they change, never by a name anyone can set (signals.b@'s review, 19 Nov):
-// exactly the version files, and in REALITY.md only its version line
-const CI_FILES = ['REALITY.md', 'newsroom/build/version.txt', 'newsroom/versions.json']
-const VLINE = /^[-+]# Reality: what exists \(site v\d+\.\d+\.\d+\)$/
-function isVersionCommit(h, subj, C) {
-    if (!new RegExp(C.exempt.subject).test(subj)) return false
-    const files = git('diff-tree', '--no-commit-id', '--name-only', '-r', h).split('\n').filter(Boolean)
-    if (!files.length || files.some(f => !CI_FILES.includes(f))) return false
-    if (!files.includes('REALITY.md')) return true
-    const d = git('diff-tree', '-p', '--no-commit-id', '-U0', h, '--', 'REALITY.md').split('\n').filter(l => /^[-+]/.test(l) && !/^(\+\+\+|---) /.test(l))
-    return d.length > 0 && d.every(l => VLINE.test(l))
-}
-
+// control 8 (security@, 19 Nov): a commit is skipped only by ancestry (an ancestor of the trusted base is outside the
+// range), never by what it changes, its message, date, path or name; CI's version commits are checked like any other
+// (they need CI's own published key: Dinis)
 // each commit is checked against the keys of its PARENT's board/keys.json, never its own: a commit cannot add the key it
 // is signed with (signals.b@'s review); a new or rotated key comes in a commit signed by a key already listed, or by a person
 const signersOf = new Map()
@@ -47,7 +37,8 @@ export function checkSignatures(range) {
     // control 6: a shallow checkout cannot be checked (its boundary looks like an orphan and hides history)
     if (git('rev-parse', '--is-shallow-repository').trim() === 'true') return { fails: ['signatures: a shallow checkout; fetch the full history (fetch-depth 0, or git fetch --unshallow)'], warns: [] }
     try { git('cat-file', '-e', `${C.start}^{commit}`) } catch { return { fails: [], warns: [`signatures: the start commit ${C.start.slice(0, 9)} is not in this checkout; nothing checked`] } }
-    const r = range || `${C.start}..HEAD`, tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'sig-')), prog = path.join(TOOLS, 'sshsig.mjs'), SEP = '\x1f'
+    // the range is always the trusted base's descendants: start..HEAD, or the given range cut to them
+    const r = range ? `${C.trusted_base}..${range.split('..').pop() || 'HEAD'}` : `${C.trusted_base}..HEAD`, tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'sig-')), prog = path.join(TOOLS, 'sshsig.mjs'), SEP = '\x1f'
     // every commit in the range, side branches and merges included (security@'s control 3)
     const list = git('log', `--format=%H${SEP}%P${SEP}%s${SEP}%(trailers:key=Agent,valueonly,separator=;)${SEP}%(trailers:key=Claude-Session,valueonly,separator=;)%x1e`, r)
     const fails = [], warns = []
@@ -55,7 +46,6 @@ export function checkSignatures(range) {
         const [h, parents, subj, agentT, sessT] = rec.split(SEP), id = h.slice(0, 9)
         // control 6: every orphan commit is refused, a merged unrelated history included; only the trusted base, by full id
         if (!parents.trim() && h !== C.trusted_base) { fails.push(`${id}: an orphan commit (no parent) that is not the trusted base`); continue }
-        if (isVersionCommit(h, subj, C)) continue
         const agent = (agentT || '').split(';')[0].trim(), sess = (sessT || '').split(';')[0].trim()
         if (!agent) { fails.push(`${id}: no Agent: trailer (${subj.slice(0, 60)})`); continue }
         const S = signers(h, tmp)

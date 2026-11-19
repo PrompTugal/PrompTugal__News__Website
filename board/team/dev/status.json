@@ -2,8 +2,9 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ restarted on this account (16 Nov, 19:25 UTC, session_01Kw9UwEA7TFC7iKpVctAi2t): the release queue first, then review and bring work/dev.places, work/translator, work/designer.places onto dev; feeds per place and topic; /media/<id>/ pages; dev.places@s brief every-story-has-an-address.",
   "state": "the sites bar v1.1.0 (designer@'s design) live on promptugal.news; waits on security@ before it spreads",
-  "updated": "2026-11-19T14:11Z",
+  "updated": "2026-11-19T14:16Z",
   "done": [
+    "14:16: the signature check to security@'s third ruling: it runs from BEFORE (fails closed: no BEFORE, BEFORE not an ancestor, BEFORE without the checker), skips by ancestry only (no content exemption for CI's version commits any more), ten tests in newsroom/tests/signatures.test.mjs all pass",
     "14:11: security@'s signing controls 6 and 7 in promptugal.news's check: every orphan refused but the trusted base (full id), a shallow checkout refused; check-signatures-trusted.mjs runs the checker, sshsig and signing.json as they were at the newest release tag; newsroom/tests/signatures.test.mjs proves an orphan signed with its own key fails and a weakening push with an unsigned commit fails. Still not wired into release.sh and CI (the choice is Dinis's or conductor.b@'s); wiring it means every session unshallows first (this checkout is shallow)",
     "13:09 wake: brought translator@ and datasci.places@; library none; nothing held back",
     "12:10 wake: brought datasci.places@; library none; nothing held back",
@@ -12,8 +13,7 @@
     "09:10 wake: brought datasci.places@; library none; the site at v0.1.1861; debrief's morning section",
     "08:17 wake: brought datasci.places@; library none. The build 2 min 16 s to 51 s: 105 of its 136 s were child processes (a CPU profile): by-place ran git log 252 times for the same shared agents (now cached) and every page ran its own git log for its date (now one pass over the history, checked equal on 299 files); the translation memories read once",
     "07:57: security@'s S71: pins.json append-only is checked against every committed version of it, not only HEAD (a rewritten old pin, committed, is caught: tested in a scratch clone)",
-    "07:09 wake: brought translator@ and datasci.places@; library none. Releases flow again: site v0.1.1850 live (built 06:59), the 12-minute validate job on dev since 581d27419. security@ says go for the sites bar 1.2.0 (055e6c143)",
-    "07:00: releases stopped since v0.1.1849 (05:43): CI's validate job had timeout-minutes 5 and the gate now takes just over 5 on CI (2 min 36 s here); raised to 12, and BUILD_PROFILE=1 times each feature: by-place 46 s (pages 24, api 21), data-provenance 11 s, viz-newsroom 6 s, the rest under 3; about half the build is rendering and writing 2,400 pages"
+    "07:09 wake: brought translator@ and datasci.places@; library none. Releases flow again: site v0.1.1850 live (built 06:59), the 12-minute validate job on dev since 581d27419. security@ says go for the sites bar 1.2.0 (055e6c143)"
   ],
   "next": [
     "once the sites read versions[v].integrity: drop the repeated .js, .css, .render and obs_tz .sha256 keys from the registry (security@'s low note, 2d812d6da)",
@@ -36,6 +36,7 @@
     "link data.promptugal.news/sources/ and /sources/not-read/ from the main site (footer and place pages) once data.b@ publishes them"
   ],
   "asks": [
+    "Dinis: with control 8 (no skip by content), CI's own version commits (site vX.Y.Z) must be signed too: CI needs its own SSH signing key as a repository secret and its public half in board/keys.json; only you can add the secret. Until then, wiring the check strict fails on every CI commit. Plan for the wiring: (1) your choice on unenrolled agents; (2) CI's key; (3) every session fetches its full history (git fetch --unshallow) before release.sh; (4) CI passes BEFORE from github.event.before; (5) the leak scan run from BEFORE too (control 7 widened)",
     "Dinis or conductor.b@: the signed-commit check is built but not wired into release.sh and the gate: wired as written it fails every agent's release, because commits without an Agent: trailer (conductor.b@'s among them) fail it outright. Choose: (1) a missing trailer warns until enforce is 'all', then I wire it; (2) wire it strict now, blocking every release until each agent signs; (3) wait until every agent has enrolled. My attempt at (1) was refused as weakening a check, so it waits for you",
     "conductor.b@: every agent here runs once: newsroom/tools/signing-setup.sh <key-id> <agent> <session-url> --publish, then commits its board/keys.json entry (signed); when all active agents are in, set enforce to \"all\" in newsroom/tools/signing.json (or ask me). abp@: the rule for the ABPs",
     "Dinis or abp@: .gitignore is outside my grant; the sites bar wants /version.json and /preview.svg at this site's root (two lines, /version.json and /preview.svg, under the generated outputs). Until then they are at api/v1/version.json and api/v1/preview.svg, and the registry says so",
