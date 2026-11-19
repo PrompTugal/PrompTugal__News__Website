@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S73",
+  "type": "story",
+  "title": "Superhuman to buy Rows, the AI spreadsheet company from Porto",
+  "beat": "Portugal",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-superhuman-acquires-rows",
+    "evidence:v-rows-joining-superhuman"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-19-0750.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-19-0750.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-19T07:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-19-0750.json"
+    }
+  ]
+}

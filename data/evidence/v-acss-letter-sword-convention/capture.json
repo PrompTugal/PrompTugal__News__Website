@@ -4,24 +4,20 @@
   "type": "evidence",
   "source_url": "https://a.storyblok.com/f/325797/x/37d8fa1adf/autorizacao-celebracao-convencao-sword-health-sa.pdf",
   "beat": "Portugal",
-  "group": "Held",
+  "group": "S72",
   "names": [
     {
       "as_listed": "Sword Health Physio",
       "ref": "organisation:sword-health-physio"
-    },
-    {
-      "as_listed": "Administração Central do Sistema de Saúde",
-      "ref": "organisation:administracao-central-do-sistema-de-saude"
     }
   ],
-  "desk_file": "desks/curator/2026-11-18-1550.json",
-  "run": "2026-11-18T15:50Z",
+  "desk_file": "desks/curator/2026-11-19-0750.json",
+  "run": "2026-11-19T07:50Z",
   "by": "curator@PrompTugal.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-18-1550.json"
+      "desks/curator/2026-11-19-0750.json"
     ]
   }
 }
