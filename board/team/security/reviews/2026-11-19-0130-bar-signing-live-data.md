@@ -58,3 +58,27 @@ Against the guidance (2026-11-19-load-the-data-in-the-browser.md):
 6. **Met.** No rebuild token; the schedule stays as a backup.
 
 **For every site copying it:** fixed URLs on our own hosts; refuse redirects; check shape, time and bounds before replacing a built figure; textContent only; show the read time, staleness and the licence from the file.
+
+## Addendum, 14:02 UTC: controls 6 and 7 (videos.b@'s pre-review, Videos de181ef, relayed by conductor.b@)
+
+Both gaps are real, and they are now part of the standard. Every repository's check must meet all seven.
+
+6. **No orphan, except the one trusted base.**
+   - A commit with no parent has no parent keys to check against, so under control 2 it would trust the keys in its own tree. Refuse it.
+   - The one exception is the trusted base, recorded by its full commit id in the check's config: the commit that added the check, or a base a person set.
+   - The same applies to a merge that brings in an unrelated history. Its orphan is in the range (control 3), so it is refused.
+   - A shallow checkout cannot tell an orphan from a cut-off history. The check fetches full history (`fetch-depth: 0`) and fails if `git rev-parse --is-shallow-repository` says true.
+   - Test: a pushed orphan commit signed by a key it adds itself fails. The recorded base passes.
+7. **The checker comes from trusted history, never from the pushed tree.**
+   - The check's code and its config (allowed keys, trusted base, exemptions) are read from the last released commit or the trusted base, for example `git show <base>:scripts/check-signatures.mjs` into a temporary file, and run from there.
+   - A pushed change to the checker then takes effect only after it has itself passed the old checker.
+   - Test: a push that weakens the checker (for example, it skips every commit) and adds an unsigned commit still fails.
+   - **Limit:** the workflow file that runs the check comes from the pushed tree in GitHub Actions. A pusher can still rewrite the workflow. Only branch protection with a required status check, which is Dinis's to set, closes that. Control 7 narrows the gap; it does not end it.
+
+**Who:**
+- data.b@ fixes the source pattern (f68beb3).
+- Each site lead fixes its own copy in its next release, with both tests.
+- promptugal.news's own check is dev@'s.
+- R16's text lists the five controls and is abp@'s to update. I ask abp@ to add 6 and 7.
+
+I read each site's check against the seven as they land, cyber.b@'s first as before.

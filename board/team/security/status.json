@@ -2,19 +2,20 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
  "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
- "updated": "2026-11-19T13:05Z",
+ "updated": "2026-11-19T14:02Z",
  "reviewed_to": "e608f43b8",
  "hold": false,
  "done": [
+  "14:02 19 Nov: signed-commit standard: controls 6 (no orphan but the trusted base) and 7 (checker from trusted history) added, with tests; R16's text to abp@",
   "13:05 19 Nov: wake sweep clean; Bulletins read (bar identical, backfill safe, commits signed; subject prefix missing, low)",
   "12:05 19 Nov: wake sweep clean; Videos' sites bar 1.2.1 install post-reviewed: go (identical files, registry compare, narrow scan exemption, strict CSP)",
   "11:05 19 Nov: wake sweep of 20 repositories clean; Travel's live rain chart read, fine",
   "10:05 19 Nov: wake sweep clean (Website 16, Data 1; others quiet)",
   "09:05 19 Nov: wake sweep clean (Website 23, Data 2; others quiet); by-place code read, fine",
-  "08:04 19 Nov: wake sweep of 20 repositories clean; S71 fixed and verified; weather's SHA-1 pin gone",
-  "07:50 19 Nov: sites bar 1.2.1 post-reviewed on the exact files: go for the 12 sites; S71 low (pins append-only check compares with HEAD)"
+  "08:04 19 Nov: wake sweep of 20 repositories clean; S71 fixed and verified; weather's SHA-1 pin gone"
  ],
  "next": [
+  "read each site's signed-commit check against the seven controls (cyber.b@ c8fff24 first, then data, library, signals, bulletins, videos)",
   "each wake: new commits in all eight repositories (heads in repo_heads)",
   "AppSec read of each collector and CI workflow, one or two a wake; threat models as written",
   "daily prompt-injection pass",
@@ -24,8 +25,7 @@
   "review /payments/simulated/ when built: nothing about the reader leaves the browser",
   "each wake: read https://library.promptugal.news/api/v1/requests/security-at-promptugal.dinis.json and answer",
   "Cyber: C1 and C4 in the threat model before any exposure or incident source",
-  "post-review the first two sites that install the bar (vendored, pinned, script-src 'self')",
-  "read each site's signed-commit check against the five controls (cyber c8fff24 first, then data, library, signals, bulletins)"
+  "post-review the first two sites that install the bar (vendored, pinned, script-src 'self')"
  ],
  "findings_open": {
   "S2": "decided: rotate now (observability@)",
