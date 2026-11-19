@@ -1,6 +1,6 @@
 {
  "place": "faro",
- "read_at": "2026-11-19T09:16:08Z",
+ "read_at": "2026-11-19T10:15:55Z",
  "by": "board/tools/local-now.mjs (conductor@PrompTugal.dinis)",
  "about": "Now in this place: (for Faro) adsb.lol (ODbL), with its source and the time read. IPMA weather is on weather.promptugal.news, not here. Not a warning service: follow IPMA (https://www.ipma.pt/) and ANEPC.",
  "station": {
@@ -32,39 +32,63 @@
   "icao": "LPFR",
   "name": "Faro airport",
   "within_nm": 40,
-  "at": "2026-11-19T09:16:08Z",
+  "at": "2026-11-19T10:15:55Z",
   "airline": [
    {
-    "callsign": "DTA651",
-    "airline": "DTA",
-    "type": "B77W",
-    "alt_ft": 28725,
-    "on_ground": false,
-    "ground_speed_kt": 519
-   },
-   {
-    "callsign": "EZY28TY",
-    "airline": "EZY",
+    "callsign": "BAW668",
+    "airline": "BAW",
     "type": "A320",
-    "alt_ft": 37000,
+    "alt_ft": 33000,
     "on_ground": false,
-    "ground_speed_kt": 411.2
+    "ground_speed_kt": 436.2
    },
    {
-    "callsign": "OCN5GX",
-    "airline": "OCN",
-    "type": "A320",
-    "alt_ft": 37025,
-    "on_ground": false,
-    "ground_speed_kt": 422.8
-   },
-   {
-    "callsign": "RUK66ED",
-    "airline": "RUK",
+    "callsign": "EXS1XK",
+    "airline": "EXS",
     "type": "B738",
     "alt_ft": 37000,
     "on_ground": false,
-    "ground_speed_kt": 426.2
+    "ground_speed_kt": 410.2
+   },
+   {
+    "callsign": "EZY64HA",
+    "airline": "EZY",
+    "type": "A21N",
+    "alt_ft": 35000,
+    "on_ground": false,
+    "ground_speed_kt": 418
+   },
+   {
+    "callsign": "SUI236",
+    "airline": "SUI",
+    "type": "AS32",
+    "alt_ft": 8000,
+    "on_ground": false,
+    "ground_speed_kt": 104.5
+   },
+   {
+    "callsign": "TFL9CK",
+    "airline": "TFL",
+    "type": "B38M",
+    "alt_ft": 37000,
+    "on_ground": false,
+    "ground_speed_kt": 411.1
+   },
+   {
+    "callsign": "TRA3P",
+    "airline": "TRA",
+    "type": "A21N",
+    "alt_ft": 21625,
+    "on_ground": false,
+    "ground_speed_kt": 371.2
+   },
+   {
+    "callsign": "VLG7BZ",
+    "airline": "VLG",
+    "type": "A320",
+    "alt_ft": 36325,
+    "on_ground": false,
+    "ground_speed_kt": 493.1
    }
   ],
   "other_aircraft": 0,
@@ -75,62 +99,62 @@
  "reads": {
   "warnings": {
    "url": null,
-   "at": "2026-11-19T09:16:06Z",
+   "at": "2026-11-19T10:15:52Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "observations": {
    "url": null,
-   "at": "2026-11-19T09:16:06Z",
+   "at": "2026-11-19T10:15:52Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1080500": {
    "url": null,
-   "at": "2026-11-19T09:16:06Z",
+   "at": "2026-11-19T10:15:52Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1080800": {
    "url": null,
-   "at": "2026-11-19T09:16:06Z",
+   "at": "2026-11-19T10:15:52Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1081100": {
    "url": null,
-   "at": "2026-11-19T09:16:06Z",
+   "at": "2026-11-19T10:15:52Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1081505": {
    "url": null,
-   "at": "2026-11-19T09:16:06Z",
+   "at": "2026-11-19T10:15:52Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d0": {
    "url": null,
-   "at": "2026-11-19T09:16:06Z",
+   "at": "2026-11-19T10:15:52Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d1": {
    "url": null,
-   "at": "2026-11-19T09:16:06Z",
+   "at": "2026-11-19T10:15:52Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d2": {
    "url": null,
-   "at": "2026-11-19T09:16:06Z",
+   "at": "2026-11-19T10:15:52Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "uv": {
    "url": null,
-   "at": "2026-11-19T09:16:06Z",
+   "at": "2026-11-19T10:15:52Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "sea-forecast-d0": {
    "url": null,
-   "at": "2026-11-19T09:16:06Z",
+   "at": "2026-11-19T10:15:52Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "adsb": {
    "url": "https://api.adsb.lol/v2/point/37.0144/-7.9659/40",
-   "at": "2026-11-19T09:16:08Z",
+   "at": "2026-11-19T10:15:55Z",
    "status": 200
   }
  }
