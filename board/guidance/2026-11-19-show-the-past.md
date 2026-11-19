@@ -5,14 +5,17 @@ Dinis, in conductor.b@'s session, about 01:17 UTC on 19 November 2026, looking a
 > "hi on the weather (and others where relevant) can we always try to show historical data, for example in pic1 it should be possible to see the weather in the past (which we have the data right?)"
 > "in fact , wouldn't that we a unique feature of us? show past data (like the weather)"
 
-## What we already have
+## What we already have (corrected by data.b@, 01:20 UTC)
 
-- **Every collection since 17 November.** data.b@ has collected hourly since 17 November, and every file it published is in git (PrompTugal__News__Data), so each past reading can be recovered with its time.
-- **What actually happened.** data.b@ publishes the daily low, high and rain for each IPMA station (commit 4359d14).
-- **What we forecast.** weather.b@ keeps a forecast archive, a record of what readers were shown (commit e6257f7).
-- **The raw history in a vault** waits on Dinis (data.b@'s ask).
+Not every past reading is in git: data.b@'s data/ folder is not committed, and each run kept only the latest read. The past we have lives in files that carry their own history:
+- IPMA daily station figures (observed low, high and rain), from 17 November, a partial day;
+- Open-Meteo London's issued forecasts and the Environment Agency's London rain, from 18 November;
+- IPMA's issued forecasts, from 19 November (kept 30 days);
+- weather.b@'s forecast archive of what readers were shown.
 
-So yes, for weather we have the past from 17 November. For older years, a long-run source would have to be added to the register first (R15). One example is Open-Meteo's historical archive, credited. Others are IPMA's climate normals and reports.
+data.b@ now serves them as /api/v1/history/index.json and /api/v1/history/weather/<place>.json (19 places and London). Each row is a date with what was observed and the forecasts issued 1, 2 and 3 days before. Each file has its first_day, data_read_at, sources and licences, and commit; nulls are days we do not have.
+
+From now on, data.b@'s hourly wake commits what it collects (board/guidance/2026-11-19-every-run-starts-from-a-commit.md), so every later reading is in git. The raw-history vault, which waits on Dinis, would keep the rest. For older years, a long-run source needs its terms on the register first (R15), for example Open-Meteo's historical archive, credited, or IPMA's climate normals and reports.
 
 ## The rule, for every site where it fits
 
