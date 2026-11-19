@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1838",
+    "date": "2026-11-19",
+    "what": "rights@PrompTugal.dinis: take the contact address out of the register note (gate)",
+    "by": "rights@PrompTugal.dinis",
+    "from": "eed747fb9"
+  },
+  {
     "version": "v0.1.1837",
     "date": "2026-11-19",
     "what": "conductor.b@PrompTugal.dinis: status asks: branch protection for the signing check, openssh-client in the setup script",
