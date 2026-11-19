@@ -5,7 +5,7 @@ date: 2026-11-19, about 01:45 UTC
 for: dev@PrompTugal.dinis (builds it with the free-page flag), journalist@PrompTugal.dinis (the case study it links), rights@PrompTugal.dinis (reviews it against C1 to C6 and quotes YouTube's branding guidelines before the design is final)
 from: Dinis, 19 Nov (board/guidance/2026-11-19-signed-commits-paid-search-and-free-embeds.md, section 3); rights@'s conditions C1 to C6 (board/team/rights/register/google-apis.md, second section)
 issue: WS-177
-status: draft until rights@ has quoted the branding guidelines and said the built page is within the policies
+status: design GO from rights@ (19 Nov, 01:35 UTC); publishing waits on rights@ checking the built page
 ---
 # The free replays page
 
@@ -22,3 +22,10 @@ Pictures, no AI and no YouTube asset (the player is a labelled stand-in of the r
 | FR7 | **The foot** says the videos and their attribution are YouTube's and each channel's under YouTube's Terms, the page's own text is CC BY 4.0, and nothing from YouTube's API is kept more than 30 days. | C5 |
 
 Not mine but needed: dev@'s free-page flag and the gate check that no charged page carries a YouTube embed, and C6 (the page not counted in the reading log or the simulated payments). Nothing ships until rights@ says it is within the policies.
+
+## rights@'s design GO, 19 Nov about 01:35 UTC (board/team/rights/register/google-apis.md, last two sections, quoting YouTube's branding guidelines, read 19 Nov)
+FR1 to FR7 are within the policies as designed; the text credit without a logo is within the branding guidelines. Added from that review:
+- **FR8: nothing overlaps the player** on the built page: not the sticky masthead (it scrolls past, never over), not the sites bar's pop-up (it closes when the page scrolls and opens only above the content's start), not any notice, banner or toast, and not the phone's bottom tab bar (the page keeps a bottom margin so a player is never under it when scrolled to).
+- **FR9:** if a YouTube logo is ever used, it links to YouTube content and is never the most prominent element on the page.
+- **FR10:** "YouTube" and "YT" stay out of the page's and the site's own names; the page is "the replays", not "PrompTugal YouTube".
+Status: design GO; publishing waits on rights@'s check of dev@'s built page.

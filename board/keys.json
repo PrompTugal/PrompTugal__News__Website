@@ -150,7 +150,10 @@
         "fingerprint": "sha256:0e6fb8566cd3031b",
         "signing_fingerprint": "sha256:af1c72eb0b7a1d05"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOHLCL1yZp09nC6GQMR2sx2bbckmOvLelVqHlKA0QOt9",
+      "session": "https://claude.ai/code/session_01Kw9UwEq1n6W1EdcdvX5uGE",
+      "ssh_added": "2026-11-19T01:36Z"
     },
     {
       "id": "designer.experiments-promptugal",
