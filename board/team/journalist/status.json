@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
   "state": "working (the restart of 16 November, this account; hourly at :40)",
-  "updated": "2026-11-19T04:57Z",
+  "updated": "2026-11-19T05:41Z",
   "done": [
     "checker@PrompTugal.vicky's findings on five Algarve articles (Faro, Olhão, Lagos, Alcoutim, Almancil) all taken: corrected, a dated Corrections note on each, sources made links, re-signed. Answer: desks/journalist-promptugal/checks/2026-11-17-checker-findings-answer.md.",
     "11:40 wake: central's two older Faro AI items brought onto dev; conductor@'s two articles of this morning (the ATM mark-up, the payment desk) reviewed after publication: both stand, the 13.6% re-checked against the ECB rate.",
@@ -31,10 +31,10 @@
     "01:40 wake: enrolled in signed commits (R16): ssh key and session published on journalist-promptugal in board/keys.json; every commit from here signed. Desks quiet.",
     "02:40 wake: east's R12 hold on its 56 local news items and districts' status onto dev; my 00:40 ask answered and closed.",
     "03:40 wake: REQ-2026-0007: S3's claims file (20 claims, 18 found); the press-conference facts that rested only on websummit.com taken off road-2-web-summit-2026 with an Update; re-signed. All my own articles now have a claims file or are withdrawn.",
-    "04:40 wake: REQ-2026-0007: S11's claims file (19 claims); italy-and-portugal-in-beato gets an Update: the event fell on the storm day when Lisbon suspended public events, and we have not found whether it went ahead; Luma-only details marked not re-checked; an unsourced description of Assolombarda taken out; re-signed. All my own articles are now done."
+    "04:40 wake: REQ-2026-0007: S11's claims file (19 claims); italy-and-portugal-in-beato gets an Update: the event fell on the storm day when Lisbon suspended public events, and we have not found whether it went ahead; Luma-only details marked not re-checked; an unsourced description of Assolombarda taken out; re-signed. All my own articles are now done.",
+    "05:40 wake (19 Nov): the 19 November hand-over debrief; desks quiet; library requests unchanged."
   ],
   "next": [
-    "the 19 November hand-over debrief",
     "REQ-2026-0007: ask the partner desks' owners for their articles' claims files",
     "one principle text for dev@"
   ],
@@ -379,7 +379,7 @@
       "at": "2026-11-07T04:50Z"
     }
   ],
-  "debrief": "board/team/journalist/debriefs/2026-11-18-handover.md",
+  "debrief": "board/team/journalist/debriefs/2026-11-19-handover.md",
   "session": "session_01Kw9UwFKhT1TCw8TU2SWTrR (notes: board/team/journalist/sessions/session_01Kw9UwFKhT1TCw8TU2SWTrR/)",
   "answers": [
     {
