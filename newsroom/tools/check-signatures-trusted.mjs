@@ -28,6 +28,9 @@ for (const f of FILES) { try { git('cat-file', '-e', `${before}:newsroom/tools/$
 for (const f of FILES) { const mode = git('ls-tree', before, `newsroom/tools/${f}`).toString().split(/\s/)[0]; if (mode !== '100644' && mode !== '100755') fail(`newsroom/tools/${f} in the anchor is not a plain file (mode ${mode || 'none'}): a symlink or other is refused`) }
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'sigtrusted-'))
 for (const f of FILES) fs.writeFileSync(path.join(tmp, f), git('show', `${before}:newsroom/tools/${f}`))
+// control 10's exceptions come from A's tree only (absent there: none); a path listed only in the pushed tree counts from the next anchor
+{ const E = 'newsroom/tools/symlink-exceptions.json', mode = git('ls-tree', before, E).toString().split(/\s/)[0]
+  if (mode) { if (mode !== '100644' && mode !== '100755') fail(`${E} in the anchor is not a plain file (mode ${mode})`); fs.writeFileSync(path.join(tmp, 'symlink-exceptions.json'), git('show', `${before}:${E}`)) } }
 fs.chmodSync(path.join(tmp, 'sshsig.mjs'), 0o755)
 if (!path.isAbsolute(process.execPath)) fail('node is not run by an absolute path')
 const r = spawnSync(process.execPath, [path.join(tmp, 'check-signatures.mjs'), ...process.argv.slice(2)], { cwd: ROOT, env: { ...ENV, CHECK_ROOT: ROOT }, stdio: 'inherit' })

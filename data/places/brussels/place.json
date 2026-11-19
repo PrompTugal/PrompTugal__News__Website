@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "brussels",
+  "type": "place",
+  "name": "Brussels",
+  "kind": "city",
+  "located_in": "place:belgium",
+  "country": "BE",
+  "timezone": "Europe/Brussels",
+  "matches": [],
+  "source": "https://www.wikidata.org/wiki/Q239",
+  "note": "Capital of Belgium and the seat the EU is shown by on the maps (Dinis, 19 November 2026, relayed by conductor.b@).",
+  "wikidata": {
+    "id": "Q239",
+    "read_at": "2026-11-19T17:55Z",
+    "how": "Special:EntityData/Q239 read: Brussels, municipality in the Brussels-Capital Region and capital of Belgium"
+  }
+}

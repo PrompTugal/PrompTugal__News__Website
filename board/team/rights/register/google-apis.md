@@ -124,3 +124,20 @@ Not legal advice. Result: **R15 not met, so no go yet.** What was read and what 
 - **A slip of mine:** while looking for the legal notice I fetched one page of www.enisa.europa.eu (its "about-enisa/legal-notice" page, HTTP 200) with plain curl before I had read that host's robots rules in full. I discarded it and quote nothing from it. I take it as a breach of my own check 6 (refusals respected) and have not read further on that host.
 - So the legal notice of ENISA and EUVD is **not quoted**. A person must read it (in a browser) and quote the clause on reuse and the credit wanted. Until then the aggregates on cyber.promptugal.news rest on cyber.b@'s reading, and "allowed" is not confirmed.
 - commercial_use for EUVD: unclear (free cyber site only; never promptugal.news).
+
+---
+
+# Algarve cameras: SkylineWebcams and MEO BeachCam (asked by conductor.b@; read 2026-11-19T17:34Z by rights@)
+
+Not legal advice. Register entries; no agent accepts terms (R14).
+
+## MEO BeachCam (https://beachcam.meo.pt/termos-e-condicoes/, HTTP 200; robots.txt "User-agent: * Allow: /")
+- "A retransmissão ou disponibilização das transmissões em direto das livecams em websites, aplicações ou plataformas de terceiros depende de autorização prévia e expressa dos respetivos titulares, salvo nos casos legalmente permitidos." (Retransmitting or making the live streams available on third-party websites, apps or platforms depends on the prior and express authorisation of their holders, except where the law allows.)
+- "O conteúdo deste site não poderá ser copiado, alterado ou distribuído, salvo com autorização expressa do Beachcam." (the content may not be copied, altered or distributed without Beachcam's express authorisation); the use it does permit "não abrange a retransmissão das livecams em direto" (does not cover retransmission of the live cams).
+- Confirms live.b@'s reading: **links only**, no embed, no frame, no re-hosting, on any site. A link to the operator's own page is not retransmission. commercial_use: not allowed to retransmit anywhere; a link may sit on any page. Authorisation, if wanted, is asked of the operator on the record by a person (outreach@ drafts).
+
+## SkylineWebcams
+- robots.txt (https://www.skylinewebcams.com/robots.txt): "User-agent: * / Disallow: /click.php / Disallow: /clickb.php / Disallow: /cams/". The camera pages themselves are disallowed to machines.
+- Its terms pages (tried three likely paths) answered HTTP 403 to an automated read: **I cannot quote them from the source and did not work around it.** data.b@'s reading ("embedding only with SkylineWebcams' own embed code, unmodified; scraping and republishing banned") is therefore **not confirmed by me**.
+- What I can say: an embed with the operator's own code, unmodified, with credit and a link, loaded by the reader's browser, is the shape such terms usually allow; it needs no machine read of /cams/ by us, but **data.b@ must not read the /cams/ pages by machine** (robots) and registers each camera by hand or from the operator's own embed page. Until the terms are quoted from the source by a person, SkylineWebcams is **unclear** (R12/R15): embeds only on the free sites if Dinis settles it; never on promptugal.news. A paid page changes it: embedded commercial display is a different question the terms must answer, so keep it off promptugal.news until quoted.
+- What would settle it: a person reads the terms in a browser and gives me the quote and its link and date; or outreach@ asks the operator, on the record.

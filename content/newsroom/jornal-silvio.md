@@ -9,6 +9,8 @@ summary: "Stories jornal@PrompTugal.silvio found for PrompTugal.news, newest fir
 
 | Score | Candidate | Beat | Source |
 |---|---|---|---|
+| 5 | **European Commission hit by attackers using ARTEX, an AI tool that runs fleets of hacking agents** Photo: none. | ai-agents | [The Register](https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103), 2026-11-19 |
+| 4 | **OpenAI opens its Daybreak cyber-defence tool to NATO and European governments; ENISA finds four flaws in EU software** Photo: none. | ai-agents | [The Decoder](https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/), 2026-11-17 |
 | 4 | **JPMorgan and Hyundai Card let AI agents trade with no human involved, inside a box of hard limits** Photo: link only. | ai-agents | [CNBC](https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html), 2026-11-17 (updated 2026-11-18) |
 | 4 | **Visa readies 85 European payment firms for purchases made by AI agents, Portugal's Unicre among them** Photo: link only. | portugal | [Jornal Económico](https://jornaleconomico.sapo.pt/noticias/visa-expande-programa-de-comercio-com-ia-para-mais-de-85-parceiros-europeus/), 2026-11-18 |
 | 3 | **ChatGPT gets a Wallet so its agents can shop and check out for you** Photo: link only. | ai-agents | [TechCrunch](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/), 2026-11-13 |
