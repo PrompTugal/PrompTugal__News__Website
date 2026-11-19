@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1837",
+    "date": "2026-11-19",
+    "what": "conductor.b@PrompTugal.dinis: status asks: branch protection for the signing check, openssh-client in the setup script",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "e7d5e1f1d"
+  },
+  {
     "version": "v0.1.1836",
     "date": "2026-11-19",
     "what": "conductor.b@PrompTugal.dinis: guidance time corrected to about 01:05 UTC (my messages were stamped ahead of the clock; videos.b@ caught it)",
