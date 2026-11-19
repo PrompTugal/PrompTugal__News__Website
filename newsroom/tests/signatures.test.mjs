@@ -1,7 +1,7 @@
 // The signature check's controls 6 and 7 (security@, 19 Nov 2026), in a throwaway repository:
 //   a good signed commit passes; an orphan signed with its own key fails (6); a merged unrelated history fails (6);
 //   a shallow clone is refused (6); a push that weakens the checker and adds an unsigned commit still fails when the
-//   checker is run as released (7). node newsroom/tests/signatures.test.mjs   dev@PrompTugal.dinis.
+//   checker is run as released (7); no symlinks except A's listed ones (10). node newsroom/tests/signatures.test.mjs   dev@PrompTugal.dinis.
 import { execFileSync, spawnSync } from 'node:child_process'
 import fs from 'node:fs'
 import os from 'node:os'
@@ -70,5 +70,20 @@ const sym = sh(R, 'rev-parse', 'HEAD').trim(); r = trusted(sym); ok(r.status !==
 reset(); fs.writeFileSync(path.join(R, 'f.txt'), 'f'); sh(R, 'add', 'f.txt'); sh(R, '-c', 'commit.gpgsign=false', 'commit', '-q', '-m', msg('unsigned, to be hidden'))
 const bad = sh(R, 'rev-parse', 'HEAD').trim(); sh(R, 'replace', bad, C1)
 r = trusted(C1); ok(r.status !== 0 && r.stdout.includes(bad.slice(0, 9)), 'a replace object does not hide an unsigned commit'); sh(R, 'replace', '-d', bad)
+// control 10 (security@, ed70bd996): no symlinks, except those listed in A's symlink-exceptions.json
+const EXC = path.join(R, 'newsroom/tools/symlink-exceptions.json'), exc = paths => fs.writeFileSync(EXC, JSON.stringify({ exceptions: paths.map(p => ({ path: p, reason: 'a test' })) }))
+const link = (name, msgText) => { fs.symlinkSync('a.txt', path.join(R, name)); sh(R, 'add', '-A'); sh(R, 'commit', '-q', '-S', '-m', msg(msgText)) }
+reset(); link('pushed-link', 'a pushed symlink')
+r = trusted(C1); ok(r.status !== 0 && /pushed-link \(control 10\)/.test(r.stdout), 'a pushed symlink fails (control 10)')
+reset(); fs.symlinkSync('a.txt', path.join(R, 'gone-link')); sh(R, 'add', '-A'); sh(R, 'commit', '-q', '-S', '-m', msg('a symlink, removed in the next commit'))
+fs.rmSync(path.join(R, 'gone-link')); sh(R, 'add', '-A'); sh(R, 'commit', '-q', '-S', '-m', msg('remove it'))
+r = trusted(C1); ok(r.status !== 0 && /gone-link/.test(r.stdout), 'a symlink added and removed again still fails: every commit is read, not only the final tree')
+reset(); exc(['ok-link']); sh(R, 'add', '-A'); sh(R, 'commit', '-q', '-S', '-m', msg('list ok-link as an exception')); const X = sh(R, 'rev-parse', 'HEAD').trim()
+link('ok-link', 'the listed symlink')
+r = trusted(X); ok(r.status === 0, 'a symlink listed in the anchor\'s exceptions passes')
+reset(); exc(['ok-link']); fs.symlinkSync('a.txt', path.join(R, 'ok-link')); sh(R, 'add', '-A'); sh(R, 'commit', '-q', '-S', '-m', msg('list it and add it in one push'))
+r = trusted(C1); ok(r.status !== 0 && /ok-link \(control 10\)/.test(r.stdout), 'a symlink listed only in the pushed tree fails (it counts from the next anchor)')
+reset(); const ART = path.join(T, 'artifact'); fs.mkdirSync(ART); fs.symlinkSync('/etc/hostname', path.join(ART, 'index.html'))
+r = run('check-signatures-trusted.mjs', R, { ANCHOR: C1, CHECK_ARTIFACT: ART }); ok(r.status !== 0 && /artifact holds a symlink/.test(r.stdout), 'a symlink in a downloaded artifact fails')
 fs.rmSync(T, { recursive: true, force: true })
 if (fails) { console.log(`${fails} failed`); process.exit(1) } else console.log('signatures.test: all passed')
