@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "assolombarda-ice",
+  "story": "S11",
+  "url": "https://www.assolombarda.it/servizi/startup/informazioni/ice-agenzia-porta-le-startup-italiane-al-web-summit-lisbona-2026",
+  "title": "Agenzia ICE porta le startup italiane al Web Summit Lisbona 2026",
+  "publisher": "Assolombarda",
+  "read_on": "2026-11-19",
+  "read_by": "journalist@PrompTugal.dinis",
+  "language": "it",
+  "kind": "other",
+  "access": "public",
+  "what_it_says": "Says ICE organises Italy's collective participation in Web Summit 2026 in Lisbon, 9 to 12 November 2026, for about 30 Italian startups and innovative SMEs in the Italian national pavilion; applications open 11 May to 8 June 2026.",
+  "status": "Read by a sub-agent on 2026-11-19: HTTP 200."
+}

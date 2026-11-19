@@ -1,0 +1,286 @@
+{
+  "$schema": "../../schemas/story-claims.schema.json",
+  "story": "S11",
+  "kept_by": "journalist@PrompTugal.dinis",
+  "updated": "2026-11-19",
+  "claims": [
+    {
+      "id": "c01",
+      "text": "European Tech Champions, Italy and Portugal, takes place in Lisbon on 11 November 2026.",
+      "kind": "fact",
+      "source": "aicep-event",
+      "quote": "Lisbon will host European Tech Champions – Italy & Portugal on 11 November 2026",
+      "quote_language": "en",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "AICEP says it. No mention of a move or cancellation (page dated 3 November 2026; read 19 November). A sub-agent read it."
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c02",
+      "text": "11 November 2026 is a Wednesday.",
+      "kind": "fact",
+      "source": "aicep-event",
+      "evidence_check": {
+        "status": "resolves",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "Calendar fact computed from the date AICEP gives; not stated by the page. A sub-agent read it."
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c03",
+      "text": "The event is held at Unicorn Stage in Lisbon's Beato Innovation District.",
+      "kind": "fact",
+      "source": "aicep-event",
+      "quote": "Held at Unicorn Stage, in Lisbon’s Beato Innovation District",
+      "quote_language": "en",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "AICEP says it. A sub-agent read it."
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c04",
+      "text": "The event starts at 18:30 with welcome and registration.",
+      "kind": "fact",
+      "source": "aicep-event",
+      "quote": "The event starts at 18:30, with welcome and registration.",
+      "quote_language": "en",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "AICEP says it. A sub-agent read it."
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c05",
+      "text": "It is organised by Unicorn Factory Lisboa, the Embassy of Italy in Portugal and the Italian Trade Agency (ICE), as part of the programme around Web Summit 2026.",
+      "kind": "fact",
+      "source": "aicep-event",
+      "quote": "organised by Unicorn Factory Lisboa, the Embassy of Italy in Portugal and the Italian Trade Agency (ICE)",
+      "quote_language": "en",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "AICEP says it, including 'as part of the programme taking place during Web Summit 2026'. A sub-agent read it."
+      },
+      "read_on": "2026-11-19",
+      "about": [
+        "organisation:unicorn-factory-lisboa"
+      ]
+    },
+    {
+      "id": "c06",
+      "text": "The event brings together founders, investors, corporate leaders and institutional representatives to discuss how European tech companies raise capital, compete internationally and scale beyond domestic markets.",
+      "kind": "fact",
+      "source": "aicep-event",
+      "quote": "founders, investors, corporate leaders and institutional representatives",
+      "quote_language": "en",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "AICEP says it. A sub-agent read it."
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c07",
+      "text": "There are two panel discussions with scaleups, investors and institutional leaders from Italy, Portugal and elsewhere in Europe.",
+      "kind": "fact",
+      "source": "aicep-event",
+      "quote": "two panel discussions with scaleups, investors and institutional leaders from Italy, Portugal and across Europe",
+      "quote_language": "en",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "AICEP says it. A sub-agent read it."
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c08",
+      "text": "A networking session follows for Portuguese and Italian startups, investors at Web Summit and the wider European tech community.",
+      "kind": "fact",
+      "source": "aicep-event",
+      "quote": "a networking session, offering an opportunity for Portuguese and Italian startups, investors attending Web Summit",
+      "quote_language": "en",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "AICEP says it. A sub-agent read it."
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c09",
+      "text": "It is aimed at entrepreneurs seeking international growth, investors looking for opportunities in European technology, and organisations interested in cross-border cooperation.",
+      "kind": "fact",
+      "source": "aicep-event",
+      "quote": "aimed at entrepreneurs seeking international growth, investors looking for opportunities",
+      "quote_language": "en",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "AICEP says it. A sub-agent read it."
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c10",
+      "text": "AICEP says registration is through the event's website; it does not say whether registration is open or free.",
+      "kind": "fact",
+      "source": "aicep-event",
+      "quote": "Registration is available through the event website.",
+      "quote_language": "en",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "AICEP says it and links the event website (the Luma page, not fetched). It says nothing on open or free. A sub-agent read it."
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c11",
+      "text": "The programme starts with welcome and registration at 18:30, Panel 1 at 19:00, Panel 2 at 19:20 and networking at 20:00.",
+      "kind": "fact",
+      "source": "luma-event",
+      "evidence_check": {
+        "status": "not-checked",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "rests on the event's Luma page, which we do not read by machine (house rule, 18 November 2026); read by hand on 6 and 7 November per the article. AICEP confirms only the 18:30 start."
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c12",
+      "text": "Panel 1 is titled 'The Role of Institutions in Fostering European Innovation' and its speakers are Claudio Miscia, Ambassador of Italy to Portugal; Vitor Pimentel Nogueira, Acting Head of Representation of the European Commission in Portugal; and Marco Corsini, representative of the Italian Trade Agency; moderated by Unicorn Factory Lisboa.",
+      "kind": "fact",
+      "source": "luma-event",
+      "evidence_check": {
+        "status": "not-checked",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "rests on the event's Luma page, which we do not read by machine (house rule, 18 November 2026); read by hand on 6 and 7 November per the article."
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c13",
+      "text": "Panel 2 is titled 'From Startup to Champion: How Europe's Unicorns are Doing it' and its speakers are Giovanni Alberto Falcione (Exein), Alexandre Matoso (European Investment Fund), Giulia Giovannini (United Ventures), Pedro Petiz (TEKEVER), moderated by Gian Volpicelli of Bloomberg.",
+      "kind": "fact",
+      "source": "luma-event",
+      "evidence_check": {
+        "status": "not-checked",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "rests on the event's Luma page, which we do not read by machine (house rule, 18 November 2026); read by hand on 6 and 7 November per the article."
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c14",
+      "text": "The event's Luma page tags it 'Featured in Web Summit', which is Luma's label.",
+      "kind": "fact",
+      "source": "luma-event",
+      "evidence_check": {
+        "status": "not-checked",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "rests on the event's Luma page, which we do not read by machine (house rule, 18 November 2026); read by hand on 6 and 7 November per the article."
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c15",
+      "text": "ICE organises Italy's collective presence at Web Summit 2026, which runs 9 to 12 November.",
+      "kind": "fact",
+      "source": "assolombarda-ice",
+      "quote": "organizza la partecipazione collettiva italiana al Web Summit 2026, in programma a Lisbona dal 9 al 12 novembre 2026",
+      "quote_language": "it",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "Assolombarda says it. A sub-agent read it."
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c16",
+      "text": "About 30 Italian startups and innovative small and medium-sized companies show their products in the Italian national pavilion.",
+      "kind": "fact",
+      "source": "assolombarda-ice",
+      "quote": "circa 30 startup e PMI innovative italiane",
+      "quote_language": "it",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "Assolombarda says it ('circa 30'); an approximate number. A sub-agent read it."
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c17",
+      "text": "Applications for the Italian pavilion ran from 11 May to 8 June 2026.",
+      "kind": "fact",
+      "source": "assolombarda-ice",
+      "quote": "Le candidature saranno aperte dall’11 maggio all’8 giugno 2026",
+      "quote_language": "it",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "Assolombarda says it (future tense, written before the window). A sub-agent read it."
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c18",
+      "text": "Assolombarda reports ICE's call.",
+      "kind": "fact",
+      "source": "assolombarda-ice",
+      "quote": "L'Agenzia ICE organizza una partecipazione collettiva alla fiera WEB SUMMIT 2026",
+      "quote_language": "it",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "The page reports the ICE call. A sub-agent read it. The article's description of Assolombarda as 'the Milan business association' was not on any source read and is taken out (19 November 2026)."
+      },
+      "read_on": "2026-11-19"
+    },
+    {
+      "id": "c19",
+      "text": "Public events in Lisbon were suspended on Wednesday 11 November 2026 because of severe weather, and HaDEA moved its own workshop to 12 November.",
+      "kind": "fact",
+      "source": "hadea-web-summit-2026",
+      "quote": "due to severe weather and suspension of public events in Lisbon on Wednesday 11 November",
+      "quote_language": "en",
+      "evidence_check": {
+        "status": "says-it",
+        "checked_on": "2026-11-19",
+        "by": "journalist@PrompTugal.dinis",
+        "note": "Read by the journalist on 19 November 2026; added to the article's Update of 19 November."
+      },
+      "read_on": "2026-11-19"
+    }
+  ]
+}

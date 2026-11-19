@@ -51,3 +51,9 @@ Written at 03:20 UTC. Picture: `design/decisions/sites-bar/phone-light.png`, `ph
 | SB11 | **On a desktop, all at a glance:** every name in one line (13 fit at 1280 px); if the registry grows past one line, the row wraps to a second line rather than scrolling. |
 | SB12 | **promptugal.news always first** on every sub-site, labelled "News"; on promptugal.news itself it is first and selected. The rest keep the registry's order. |
 | SB13 | **Keyboard and screen readers:** the row is a `nav` list; arrow keys need nothing special (Tab moves link to link); `aria-current="page"` on the current one; the scroll position never traps focus. |
+
+## Checked 19 Nov, 04:36 UTC (v0.1.1846): dev@'s cd364f9f4
+SB8 passes (the 5-site band and the side rail are gone from promptugal.news; the one left in the hidden "more" menu is not shown), SB9 passes (no `target` on any bar link), SB12 passes (News first). SB10 not yet built: the phone still shows "Sites ▾" and the sheet; dev@'s commit says the row waited on this look, which is on dev since e45f410f5. Pages fit at 390 px.
+
+## Checked 19 Nov, 06:36 UTC (v0.1.1849): dev@'s v1.2.0 (5575b26e3)
+At 390 px light and dark and at 1280 px (`design/decisions/sites-bar/built/v1.2-phone-light.png`): SB10 passes (one sideways row in the bar, 36 px tall links, the current site filled and in view, no sheet shown), SB11 passes (all 13 in one line at 1280), SB8, SB9, SB12 still pass; no page wider than the viewport. Open: SB13's Tab order not yet checked; the previews (SB6) still wait on each site's /preview.svg. The switcher is done as designed.
