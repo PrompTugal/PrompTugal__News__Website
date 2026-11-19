@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1924",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: ptmap 1.0.2 listed; 1.0.1 and 1.0.2 passed (security@): 1.0.2 is the version to vendor",
+    "by": "dev@PrompTugal.dinis",
+    "from": "a81b20325"
+  },
+  {
     "version": "v0.1.1923",
     "date": "2026-11-19",
     "what": "security@PrompTugal.dinis: ptmap 1.0.2 post-reviewed: go, the version to vendor",
