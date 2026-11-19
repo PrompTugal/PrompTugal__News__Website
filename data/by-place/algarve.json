@@ -849,7 +849,8 @@
     "Correction of 18 November: the Castro Marim dementia congress of 12 and 13 November, with an AI session, is real; the council's own page of 17 November confirms it (see the Castro Marim file). Earlier gaps that said it was unconfirmed were wrong because the council page was not yet readable.",
     "The afternoon scan of 18 November found no new startup, AI or digital-services item for 17 and 18 November. Seen only as listing lines, not opened: the VRSA Youth Participatory Budget (voting to 13 December), the SamhainBaucogna film festival (24 to 29 November), World Diabetes Day at Monte Gordo, the UAlg participatory budget (9 November) and Longevity Society award (9 November), AMAL's 2027 budget and waste-study contract, and CCDR's 13 November waste conference. Barlavento and Postal were not read in the afternoon scan. The fetch of cm-alcoutim.pt returned no news content again (probably rendered by JavaScript); not retried.",
     "19 November, 06:40 UTC scan: almost nothing new was published overnight; Castro Marim and Alcoutim had no item from 18 or 19 November (cm-alcoutim.pt returned only a skip link again). Every new item above is held under R12 and most are listing only.",
-    "19 November, 11:40 UTC scan: nothing dated 18 or 19 November for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim beyond the items already held; cm-alcoutim.pt returned an empty page and its /pt/noticias a 404, so Alcoutim is unchecked at source. A privately run giant nativity at Monte Francisco (Castro Marim, opens 1 December, Postal 18 November) is not listed: its page gives the private promoter's contact and it is marginal."
+    "19 November, 11:40 UTC scan: nothing dated 18 or 19 November for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim beyond the items already held; cm-alcoutim.pt returned an empty page and its /pt/noticias a 404, so Alcoutim is unchecked at source. A privately run giant nativity at Monte Francisco (Castro Marim, opens 1 December, Postal 18 November) is not listed: its page gives the private promoter's contact and it is marginal.",
+    "19 November, 16:40 UTC scan: no new item for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim from the councils (cm-alcoutim.pt empty again); the new items are regional. Seen only as headlines: Jornadas Ibéricas de Turismo do Interior (November 2027), a PS budget proposal on linking reservoirs in Beja and Faro, a CCMAR zebrafish study, Santander grants for UAlg teaching students, two VRSA notices (a CPCJ seminar on 25 November, a swimming championship on 21 and 22 November). The IPMA feed fetch returned no Faro entries this time, so no warning content is reported."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
@@ -1264,6 +1265,44 @@
       },
       "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
       "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+    },
+    {
+      "title": "Rural fires in the Algarve rose 56% in 2026 but the burned area fell",
+      "summary": "Provisional DECIR balance for 1 January to 31 October, presented on 18 November to the Faro district civil protection commission: 370 fires (+56%), 1,340.89 hectares burned (862 fewer than in 2025), 98.1% controlled within 90 minutes, average dispatch 54 seconds. Alcoutim had 49.24 hectares burned.",
+      "date": "2026-11-19",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/incendios-rurais-algarve-aumento-area-ardida-2026/",
+      "read_on": "2026-11-19",
+      "significance": "region",
+      "ai_path": "no AI",
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms: its footer says all rights reserved (read 2026-11-19); only a short factual summary with the link is shown",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link",
+      "blast_radius": "Alcoutim, Loulé, Silves, Faro"
+    },
+    {
+      "title": "The Socialist Party proposes state funding for the University of Algarve's Portimão campus in the 2027 budget",
+      "summary": "A party proposal, not a decision: an amendment to cover the national share of the campus, with transfers from 2027 and completion aimed at 2029 alongside Algarve 2030 funds.",
+      "date": "2026-11-19",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/ps-oe2027-campus-portimao-conclusao-2029/",
+      "read_on": "2026-11-19",
+      "significance": "region",
+      "ai_path": "no AI",
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms: its footer says all rights reserved (read 2026-11-19); only a short factual summary with the link is shown",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link",
+      "blast_radius": "Portimão, Lagoa, Lagos"
     }
   ],
   "contacts": [
