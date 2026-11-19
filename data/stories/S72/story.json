@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S72",
+  "type": "story",
+  "title": "Update: the health service's remote physiotherapy is open to any provider",
+  "beat": "Portugal",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-dre-aviso-3864-2026",
+    "evidence:v-acss-letter-sword-convention"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-19-0750.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-19-0750.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-19T07:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-19-0750.json"
+    }
+  ]
+}

@@ -88,8 +88,12 @@ export function validate(gate) {
     const P = PINS(), TZV = JSON.parse(R('assets/obs/tz-country.json')).version
     if (JSON.stringify(P.bar[BAR]) !== JSON.stringify({ js: sha(JS), css: sha(CSS), render: sha(RENDER) })) p.push(`assets/sites/pins.json: the sites bar ${BAR} is not listed with its files' integrity (a new version needs a new number)`)
     if (!P.obs_tz[TZV] || P.obs_tz[TZV].integrity !== sha('assets/obs/tz-country.json')) p.push(`assets/sites/pins.json: tz-country ${TZV} is not listed with its integrity (a new version needs a new number)`)
-    let before = null; try { before = JSON.parse(execFileSync('git', ['show', 'HEAD:assets/sites/pins.json'], { cwd: new URL('../../../', import.meta.url).pathname, stdio: ['ignore', 'pipe', 'ignore'] }).toString()) } catch { }
-    if (before) for (const piece of ['bar', 'obs_tz']) for (const [v, pin] of Object.entries(before[piece] || {})) if (JSON.stringify((P[piece] || {})[v]) !== JSON.stringify(pin)) p.push(`assets/sites/pins.json: ${piece} ${v} was changed or removed (the list is append-only)`)
+    // append-only against EVERY committed version of the file, not only HEAD (security@'s S71): an old pin rewritten
+    // and committed still fails, however many commits ago
+    const ROOT_ = new URL('../../../', import.meta.url).pathname, run = a => execFileSync('git', a, { cwd: ROOT_, stdio: ['ignore', 'pipe', 'ignore'] }).toString()
+    let revs = []; try { revs = run(['log', '--format=%H', '--', 'assets/sites/pins.json']).split('\n').filter(Boolean) } catch { }
+    for (const h of revs) { let old; try { old = JSON.parse(run(['show', `${h}:assets/sites/pins.json`])) } catch { continue }
+        for (const piece of ['bar', 'obs_tz']) for (const [v, pin] of Object.entries(old[piece] || {})) if (JSON.stringify((P[piece] || {})[v]) !== JSON.stringify(pin)) p.push(`assets/sites/pins.json: ${piece} ${v} differs from its pin in ${h.slice(0, 9)} (the list is append-only)`) }
     // the page-view script's built-in table is the published one
     const T = JSON.parse(R('assets/obs/tz-country.json')).zones, js = R('assets/obs/obs.js').toString(), m = js.match(/const TZ = Object\.assign\(Object\.create\(null\), (\{[^}]*\})\)/)
     if (!m || JSON.stringify(Object.entries(JSON.parse(m[1])).sort()) !== JSON.stringify(Object.entries(T).sort())) p.push('assets/obs/obs.js: its time-zone table is not assets/obs/tz-country.json')

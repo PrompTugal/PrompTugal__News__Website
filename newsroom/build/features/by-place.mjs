@@ -337,7 +337,10 @@ function regionPage(ctx, L) {
 const TM_DIR = 'data/i18n/tm'
 const tmNorm = s => s.normalize('NFC').replace(/\r\n?/g, '\n').replace(/[ \t\u00a0]+/g, ' ').replace(/ ?\n ?/g, '\n').replace(/\n{3,}/g, '\n\n').trim()
 const tmKey = s => crypto.createHash('sha256').update(tmNorm(s)).digest('hex').slice(0, 16)
+// read once per build (it was read three times: pages, segments and the API; dev@, 19 Nov, the gate's time)
+const MEMO = new WeakMap()
 function memories(ctx) {
+    if (MEMO.has(ctx)) return MEMO.get(ctx)
     const out = []
     let cultures = []; try { cultures = fs.readdirSync(ctx.R(TM_DIR)).filter(c => /^[a-z]{2,3}(?:-[A-Z][a-z]{3})?(?:-[A-Z]{2})?$/.test(c)).sort() } catch { return out }
     for (const c of cultures) {
@@ -347,6 +350,7 @@ function memories(ctx) {
         }
         if (m.size) out.push({ culture: c, m })
     }
+    MEMO.set(ctx, out)
     return out
 }
 function translateDeep(v, m, skip) {
@@ -473,7 +477,14 @@ function placeRecord(ctx, L, p) {
 // agents panel: the place's own agent first, then the shared agents who build every place
 const SHARED = ['conductor@PrompTugal.dinis', 'abp@PrompTugal.dinis', 'dev.places@PrompTugal.dinis', 'designer.places@PrompTugal.dinis', 'viz.places@PrompTugal.dinis', 'data.places@PrompTugal.dinis', 'detective.places@PrompTugal.dinis']
 const readJ = (ctx, f) => { try { return ctx.readJSON(f) } catch { return null } }
+// cached: the shared agents' commits are the same for every place (252 identical git calls, 64 s of the build; dev@, 19 Nov)
+const COMMITS = new Map()
 function commitsOf(ctx, paths, n = 10) {
+    const key = `${n}\x1f${paths.join('\x1f')}`
+    if (COMMITS.has(key)) return COMMITS.get(key)
+    const v = commitsOf0(ctx, paths, n); COMMITS.set(key, v); return v
+}
+function commitsOf0(ctx, paths, n) {
     try {
         return execFileSync('git', ['log', `-${n}`, '--format=%H%x1f%cI%x1f%s', '--', ...paths], { cwd: ctx.ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] })
             .trim().split('\n').filter(Boolean).map(l => { const [hash, date, subject] = l.split('\x1f'); return { hash: hash.slice(0, 9), date, subject, url: `https://github.com/PrompTugal/PrompTugal__News__Website/commit/${hash}` } })

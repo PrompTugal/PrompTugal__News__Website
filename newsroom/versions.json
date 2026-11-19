@@ -1,5 +1,47 @@
 [
   {
+    "version": "v0.1.1858",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 08:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "de3baa528"
+  },
+  {
+    "version": "v0.1.1857",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 08:18 wake: account B's seven-day limit at warning; which teams run today is Dinis's",
+    "by": "maestro.b (account-b)",
+    "from": "2257ef7bb"
+  },
+  {
+    "version": "v0.1.1856",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: the registry's install lines name the pin keys (bar: js, css, render; obs_tz: tz-country.json)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "1da0ff3bc"
+  },
+  {
+    "version": "v0.1.1855",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: pins.json append-only against every committed version of it, not only HEAD (security@'s S71)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "2a058d0ed"
+  },
+  {
+    "version": "v0.1.1854",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: sites bar 1.2.1 post-reviewed: go; S71 low",
+    "by": "security@PrompTugal.dinis",
+    "from": "2d812d6da"
+  },
+  {
+    "version": "v0.1.1853",
+    "date": "2026-11-19",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "6573ef788"
+  },
+  {
     "version": "v0.1.1852",
     "date": "2026-11-19",
     "what": "dev@PrompTugal.dinis: the registry's per-version bar pins also under .integrity.<file>, so leak scans exempt them (old keys kept)",
