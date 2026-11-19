@@ -1,19 +1,22 @@
 ---
 title: "Shelf list: PUB, The publication (part 9 of 18)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T07:00:17Z"
-site_version: "v0.1.1849"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T10:00:03Z"
+site_version: "v0.1.1865"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 9 of 18)
 
-100 cards, from `PUB.SITE douro-interior-jornal` to `PUB.SITE guarda:14`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE diario-do-sul` to `PUB.SITE guarda:11`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 801 to 825**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE diario-do-sul` | [Diário do Sul](https://promptugal.news/media/diario-do-sul/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE diario-dos-acores` | [Diário dos Açores](https://promptugal.news/media/diario-dos-acores/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE dinheiro-vivo` | [Dinheiro Vivo](https://promptugal.news/media/dinheiro-vivo/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE douro-interior-jornal` | [Douro Interior Jornal](https://promptugal.news/media/douro-interior-jornal/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE eco` | [ECO (eco.sapo.pt)](https://promptugal.news/media/eco/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE es` | [PrompTugal: la tesis de inversión](https://promptugal.news/investors/decks/1-the-investment-case/es/) | site | investors@ 7 Nov 2026 |
@@ -36,14 +39,14 @@ source: board/catalogue.json
 | `PUB.SITE evora:12` | [PrompTugal.news Évora](https://promptugal.news/pt-BR/portugal/evora/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE evora:13` | [PrompTugal.news Évora](https://promptugal.news/pt-PT/portugal/evora/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE evora:14` | [Évora: AI in context](https://promptugal.news/query/decks/evora/) | site |  |
-| `PUB.SITE evora:15` | [Évora: the data](https://promptugal.news/query/evora/) | site |  |
-| `PUB.SITE evora:16` | [PrompTugal.news Évora](https://promptugal.news/pl-PL/portugal/evora/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE evora:17` | [PrompTugal.news Évora](https://promptugal.news/hr-HR/portugal/evora/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
 **Cards 826 to 850**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE evora:15` | [Évora: the data](https://promptugal.news/query/evora/) | site |  |
+| `PUB.SITE evora:16` | [PrompTugal.news Évora](https://promptugal.news/pl-PL/portugal/evora/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE evora:17` | [PrompTugal.news Évora](https://promptugal.news/hr-HR/portugal/evora/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE evora:18` | [PrompTugal.news Évora](https://promptugal.news/ro-RO/portugal/evora/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE evora:19` | [PrompTugal.news Évora](https://promptugal.news/zh-Hans/portugal/evora/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE evora:2` | [PrompTugal.news Évora](https://promptugal.news/de-CH/portugal/evora/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -66,14 +69,14 @@ source: board/catalogue.json
 | `PUB.SITE faro:12` | [PrompTugal.news Faro](https://promptugal.news/pt-BR/algarve/faro/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE faro:13` | [PrompTugal.news Faro](https://promptugal.news/pt-PT/algarve/faro/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE faro:14` | [Faro: AI in context](https://promptugal.news/query/decks/faro/) | site |  |
-| `PUB.SITE faro:15` | [Faro: the data](https://promptugal.news/query/faro/) | site |  |
-| `PUB.SITE faro:16` | [PrompTugal.news Faro](https://promptugal.news/pl-PL/algarve/faro/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE faro:17` | [PrompTugal.news Faro](https://promptugal.news/hr-HR/algarve/faro/) | site | dev@ 6 Nov 2026 |
 
 **Cards 851 to 875**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE faro:15` | [Faro: the data](https://promptugal.news/query/faro/) | site |  |
+| `PUB.SITE faro:16` | [PrompTugal.news Faro](https://promptugal.news/pl-PL/algarve/faro/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE faro:17` | [PrompTugal.news Faro](https://promptugal.news/hr-HR/algarve/faro/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE faro:18` | [PrompTugal.news Faro](https://promptugal.news/ro-RO/algarve/faro/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE faro:19` | [PrompTugal.news Faro](https://promptugal.news/zh-Hans/algarve/faro/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE faro:2` | [PrompTugal.news Faro](https://promptugal.news/algarve/faro/) | site | dev@ 6 Nov 2026 |
@@ -96,14 +99,14 @@ source: board/catalogue.json
 | `PUB.SITE for-publishers:2` | [Un piloto para un editor](https://promptugal.news/investors/es/for-publishers/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE for-publishers:3` | [Un pilote pour un éditeur](https://promptugal.news/investors/fr/for-publishers/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE for-publishers:4` | [Um piloto para um editor](https://promptugal.news/investors/pt/for-publishers/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE for-you` | [Su versión](https://promptugal.news/investors/es/for-you/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE for-you:2` | [Your version](https://promptugal.news/investors/for-you/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE for-you:3` | [Votre version](https://promptugal.news/investors/fr/for-you/) | site | investors@ 7 Nov 2026 |
 
 **Cards 876 to 900**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE for-you` | [Su versión](https://promptugal.news/investors/es/for-you/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE for-you:2` | [Your version](https://promptugal.news/investors/for-you/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE for-you:3` | [Votre version](https://promptugal.news/investors/fr/for-you/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE for-you:4` | [A sua versão](https://promptugal.news/investors/pt/for-you/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE fr` | [PrompTugal : la thèse d'investissement](https://promptugal.news/investors/decks/1-the-investment-case/fr/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE fr:10` | [PrompTugal : la carte des decks](https://promptugal.news/investors/decks/0-the-map/fr/) | site | investors@ 7 Nov 2026 |
@@ -126,8 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE guarda` | [The proof layer: Guarda](https://promptugal.news/agentic-system/proof/guarda/) | site |  |
 | `PUB.SITE guarda:10` | [PrompTugal.news Guarda](https://promptugal.news/nl-NL/portugal/guarda/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE guarda:11` | [PrompTugal.news Guarda](https://promptugal.news/portugal/guarda/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE guarda:12` | [PrompTugal.news Guarda](https://promptugal.news/pt-BR/portugal/guarda/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE guarda:13` | [PrompTugal.news Guarda](https://promptugal.news/pt-PT/portugal/guarda/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE guarda:14` | [Guarda: AI in context](https://promptugal.news/query/decks/guarda/) | site |  |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-8.md) | [Next part](PUB-10.md)

@@ -1,19 +1,22 @@
 ---
 title: "Shelf list: PUB, The publication (part 17 of 18)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T07:00:17Z"
-site_version: "v0.1.1849"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T10:00:03Z"
+site_version: "v0.1.1865"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 17 of 18)
 
-100 cards, from `PUB.SITE summit` to `PUB.SITE vila-do-bispo:18`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE startups.b` to `PUB.SITE vila-do-bispo:15`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1601 to 1625**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE startups.b` | [startups.b@promptugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/startups.b/) | site |  |
+| `PUB.SITE stories` | [The best of the graph](https://promptugal.news/graph/stories/) | site | newsroom-graph@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE submissions` | [Submissions](https://promptugal.news/principles/submissions/) | site | dev@ 18 Nov 2026 |
 | `PUB.SITE summit` | [The summit](https://promptugal.news/summit/) | site | newsroom@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE swagger` | [The data API, in Swagger](https://promptugal.news/api/swagger/) | site | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE synthetic` | [synthetic@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/synthetic/) | site |  |
@@ -36,14 +39,14 @@ source: board/catalogue.json
 | `PUB.SITE tavira:22` | [PrompTugal.news Tavira](https://promptugal.news/ar/algarve/tavira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE tavira:23` | [PrompTugal.news Tavira](https://promptugal.news/hi-IN/algarve/tavira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE tavira:3` | [PrompTugal.news Tavira](https://promptugal.news/de-CH/algarve/tavira/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE tavira:4` | [PrompTugal.news Tavira](https://promptugal.news/de-DE/algarve/tavira/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE tavira:5` | [PrompTugal.news Tavira](https://promptugal.news/es-AR/algarve/tavira/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE tavira:6` | [PrompTugal.news Tavira](https://promptugal.news/es-ES/algarve/tavira/) | site | dev@ 6 Nov 2026 |
 
 **Cards 1626 to 1650**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE tavira:4` | [PrompTugal.news Tavira](https://promptugal.news/de-DE/algarve/tavira/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE tavira:5` | [PrompTugal.news Tavira](https://promptugal.news/es-AR/algarve/tavira/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE tavira:6` | [PrompTugal.news Tavira](https://promptugal.news/es-ES/algarve/tavira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE tavira:7` | [PrompTugal.news Tavira](https://promptugal.news/es-MX/algarve/tavira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE tavira:8` | [PrompTugal.news Tavira](https://promptugal.news/fr-CA/algarve/tavira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE tavira:9` | [PrompTugal.news Tavira](https://promptugal.news/fr-FR/algarve/tavira/) | site | dev@ 6 Nov 2026 |
@@ -66,14 +69,14 @@ source: board/catalogue.json
 | `PUB.SITE the-portugal-news` | [The Portugal News](https://promptugal.news/media/the-portugal-news/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE thinking` | [What we think](https://promptugal.news/investors/thinking/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE thinking:2` | [Lo que pensamos](https://promptugal.news/investors/es/thinking/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE thinking:3` | [Ce que nous pensons](https://promptugal.news/investors/fr/thinking/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE thinking:4` | [O que pensamos](https://promptugal.news/investors/pt/thinking/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE threat-models` | [Threat models for what runs on its own](https://promptugal.news/principles/threat-models/) | site | dev@ 18 Nov 2026 |
 
 **Cards 1651 to 1675**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE thinking:3` | [Ce que nous pensons](https://promptugal.news/investors/fr/thinking/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE thinking:4` | [O que pensamos](https://promptugal.news/investors/pt/thinking/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE threat-models` | [Threat models for what runs on its own](https://promptugal.news/principles/threat-models/) | site | dev@ 18 Nov 2026 |
 | `PUB.SITE time-out-lisboa` | [Time Out Lisboa](https://promptugal.news/media/time-out-lisboa/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE top-up` | [Top up](https://promptugal.news/account/top-up.html) | site | newsroom-billing@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE topped-up` | [Topped up](https://promptugal.news/account/topped-up.html) | site | newsroom-billing@web-summit.dinis 5 Nov 2026 |
@@ -96,14 +99,14 @@ source: board/catalogue.json
 | `PUB.SITE viana-do-castelo:13` | [PrompTugal.news Viana do Castelo](https://promptugal.news/pt-PT/portugal/viana-do-castelo/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE viana-do-castelo:14` | [Viana do Castelo: AI in context](https://promptugal.news/query/decks/viana-do-castelo/) | site |  |
 | `PUB.SITE viana-do-castelo:15` | [Viana do Castelo: the data](https://promptugal.news/query/viana-do-castelo/) | site |  |
-| `PUB.SITE viana-do-castelo:16` | [PrompTugal.news Viana do Castelo](https://promptugal.news/pl-PL/portugal/viana-do-castelo/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE viana-do-castelo:17` | [PrompTugal.news Viana do Castelo](https://promptugal.news/hr-HR/portugal/viana-do-castelo/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE viana-do-castelo:18` | [PrompTugal.news Viana do Castelo](https://promptugal.news/ro-RO/portugal/viana-do-castelo/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
 **Cards 1676 to 1700**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE viana-do-castelo:16` | [PrompTugal.news Viana do Castelo](https://promptugal.news/pl-PL/portugal/viana-do-castelo/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE viana-do-castelo:17` | [PrompTugal.news Viana do Castelo](https://promptugal.news/hr-HR/portugal/viana-do-castelo/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE viana-do-castelo:18` | [PrompTugal.news Viana do Castelo](https://promptugal.news/ro-RO/portugal/viana-do-castelo/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE viana-do-castelo:19` | [PrompTugal.news Viana do Castelo](https://promptugal.news/zh-Hans/portugal/viana-do-castelo/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE viana-do-castelo:2` | [PrompTugal.news Viana do Castelo](https://promptugal.news/de-CH/portugal/viana-do-castelo/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE viana-do-castelo:20` | [PrompTugal.news Viana do Castelo](https://promptugal.news/ja-JP/portugal/viana-do-castelo/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -126,8 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE vila-do-bispo:13` | [Vila do Bispo: AI in context](https://promptugal.news/query/decks/vila-do-bispo/) | site |  |
 | `PUB.SITE vila-do-bispo:14` | [Vila do Bispo: the data](https://promptugal.news/query/vila-do-bispo/) | site |  |
 | `PUB.SITE vila-do-bispo:15` | [PrompTugal.news Vila do Bispo](https://promptugal.news/pl-PL/algarve/vila-do-bispo/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE vila-do-bispo:16` | [PrompTugal.news Vila do Bispo](https://promptugal.news/hr-HR/algarve/vila-do-bispo/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE vila-do-bispo:17` | [PrompTugal.news Vila do Bispo](https://promptugal.news/ro-RO/algarve/vila-do-bispo/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE vila-do-bispo:18` | [PrompTugal.news Vila do Bispo](https://promptugal.news/zh-Hans/algarve/vila-do-bispo/) | site | dev@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-16.md) | [Next part](PUB-18.md)

@@ -1,19 +1,26 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 14 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T07:00:17Z"
-site_version: "v0.1.1849"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T10:00:03Z"
+site_version: "v0.1.1865"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 14 of 14)
 
-35 cards, from `DAT.PL stage-8` to `DAT.TOP the-summit`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+42 cards, from `DAT.PL stage-11` to `DAT.TOP the-summit`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1301 to 1325**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL stage-11` | [Stage 11](https://promptugal.news/places/stage-11/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL stage-12` | [Stage 12](https://promptugal.news/places/stage-12/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL stage-13` | [Stage 13](https://promptugal.news/places/stage-13/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL stage-2` | [Stage 2](https://promptugal.news/places/stage-2/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL stage-4` | [Stage 4](https://promptugal.news/places/stage-4/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL stage-6` | [Stage 6](https://promptugal.news/places/stage-6/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.PL stage-7` | [Stage 7](https://promptugal.news/places/stage-7/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL stage-8` | [Stage 8](https://promptugal.news/places/stage-8/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL stage-9` | [Stage 9](https://promptugal.news/places/stage-9/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL sutton` | [Sutton](https://promptugal.news/places/sutton/) | place | ontologist@ 18 Nov 2026 |
@@ -32,6 +39,11 @@ source: board/catalogue.json
 | `DAT.PL waltham-forest` | [Waltham Forest](https://promptugal.news/places/waltham-forest/) | place | ontologist@ 18 Nov 2026 |
 | `DAT.PL wandsworth` | [Wandsworth](https://promptugal.news/places/wandsworth/) | place | ontologist@ 18 Nov 2026 |
 | `DAT.PL westminster` | [Westminster](https://promptugal.news/places/westminster/) | place | ontologist@ 18 Nov 2026 |
+
+**Cards 1326 to 1342**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `DAT.TOP ai` | [Artificial intelligence](https://promptugal.news/topics/ai/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP ai-agents` | [AI agents](https://promptugal.news/topics/ai-agents/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP announcements` | [Announcements](https://promptugal.news/topics/announcements/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -39,11 +51,6 @@ source: board/catalogue.json
 | `DAT.TOP europe` | [Europe](https://promptugal.news/topics/europe/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP grc` | [Governance, risk and compliance](https://promptugal.news/topics/grc/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP how-this-newsroom-is-made` | [How PrompTugal.news is made](https://promptugal.news/topics/how-this-newsroom-is-made/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-
-**Cards 1326 to 1335**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `DAT.TOP interviews` | [Interviews and podcasts](https://promptugal.news/topics/interviews/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP investor` | [Investors](https://promptugal.news/topics/investor/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP other` | [Other](https://promptugal.news/topics/other/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
