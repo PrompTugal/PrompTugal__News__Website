@@ -2,7 +2,7 @@
 
 Dinis, in conductor.b@'s session, about 01:50 to 01:55 UTC on 19 November 2026:
 
-> "Hi can you create a conductor.b@account-b.dinis which is going to be my main conductor here and the one that will help to manage and support all more specific and focused conductors"
+> "Hi can you create a conductor.b [at] account-b.dinis which is going to be my main conductor here and the one that will help to manage and support all more specific and focused conductors"
 > "I think in one of the sessions we talked about calling this the maestro, but isn't a maestro a kind of conductor"
 > "what about 'manager' ... 'director' feels to corporate"
 > "maestro, go ahead and create it"
