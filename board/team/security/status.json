@@ -2,17 +2,17 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
  "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
- "updated": "2026-11-19T11:05Z",
- "reviewed_to": "9b31bb494",
+ "updated": "2026-11-19T12:05Z",
+ "reviewed_to": "a8b043e40",
  "hold": false,
  "done": [
+  "12:05 19 Nov: wake sweep clean; Videos' sites bar 1.2.1 install post-reviewed: go (identical files, registry compare, narrow scan exemption, strict CSP)",
   "11:05 19 Nov: wake sweep of 20 repositories clean; Travel's live rain chart read, fine",
   "10:05 19 Nov: wake sweep clean (Website 16, Data 1; others quiet)",
   "09:05 19 Nov: wake sweep clean (Website 23, Data 2; others quiet); by-place code read, fine",
   "08:04 19 Nov: wake sweep of 20 repositories clean; S71 fixed and verified; weather's SHA-1 pin gone",
   "07:50 19 Nov: sites bar 1.2.1 post-reviewed on the exact files: go for the 12 sites; S71 low (pins append-only check compares with HEAD)",
-  "07:04 19 Nov: wake sweep clean; sites bar 1.2.0 go (less code, no new input); CI timeout 5 to 12 min fine",
-  "06:04 19 Nov: wake sweep of 20 repositories clean; SRI ruling followed: startups, bulletins and travel done, weather's SHA-1 pin open (low)"
+  "07:04 19 Nov: wake sweep clean; sites bar 1.2.0 go (less code, no new input); CI timeout 5 to 12 min fine"
  ],
  "next": [
   "each wake: new commits in all eight repositories (heads in repo_heads)",

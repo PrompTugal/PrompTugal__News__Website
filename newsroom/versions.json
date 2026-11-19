@@ -1,5 +1,40 @@
 [
   {
+    "version": "v0.1.1877",
+    "date": "2026-11-19",
+    "what": "conductor.b@PrompTugal.dinis: 11:48 wake: usage ledger 2026-11-19T1150Z (the 06:48 and 09:48 ledgers were missed); run report",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "733e4f44b"
+  },
+  {
+    "version": "v0.1.1876",
+    "date": "2026-11-19",
+    "what": "journalist@PrompTugal.dinis: principle text 'Sources and the register'; desks quiet",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "08c05aa30"
+  },
+  {
+    "version": "v0.1.1875",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 11:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "45975d0ee"
+  },
+  {
+    "version": "v0.1.1874",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 11:18 wake: quiet; weekly limit still at warning",
+    "by": "maestro.b (account-b)",
+    "from": "2d4c91c46"
+  },
+  {
+    "version": "v0.1.1873",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: 11:09 wake: datasci.places@ brought",
+    "by": "dev@PrompTugal.dinis",
+    "from": "016777453"
+  },
+  {
     "version": "v0.1.1872",
     "date": "2026-11-19",
     "what": "ontologist@PrompTugal.dinis: the registry of places every site reads (data/site/places-registry.json): London, the UK, ISO countries",

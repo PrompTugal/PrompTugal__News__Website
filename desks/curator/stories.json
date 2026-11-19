@@ -2,6 +2,22 @@
  "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`. LINK_OVERRIDES: a source URL as captured mapped to the same address written another way (a digit percent-encoded, which the URL standard treats as the same address) so the team site's phone check does not read a long run of digits and dashes as a phone number.",
  "stories": [
   [
+   "S75",
+   "What the health service pays for remote physiotherapy at home",
+   "Portugal",
+   "A follow-up to S69 and S72 (S69 is at the update limit): the gazette's standard terms set a base of 200 euros for 12 months per treated patient, seven groups of eligible conditions, service levels, and, where AI is used, human oversight, documented accuracy and limits, and limits on training with patient data. Parts of the terms were not read.",
+   "19 Nov",
+   "For journalist-portugal, categories Portugal and AI. A follow-up article, not an update note (standing answer 100); state nothing from the parts not read."
+  ],
+  [
+   "S74",
+   "Update: a Portuguese report says the Rows team in the North stays",
+   "Portugal",
+   "An update note for S73 (its first): ECO, 23 February 2026, says Rows 'has just been bought' by Superhuman (value undisclosed), that its team of more than ten people in the North 'stays', and gives its funding history; the statements are ECO's.",
+   "19 Nov",
+   "For journalist-portugal, categories Portugal, AI and Corporate. Short update (standing answers 95 and 100); correct S73's no-independent-report and no-headcount lines."
+  ],
+  [
    "S73",
    "Superhuman to buy Rows, the AI spreadsheet company from Porto",
    "Portugal",
@@ -839,6 +855,14 @@
   "S73": [
    "v-superhuman-acquires-rows",
    "v-rows-joining-superhuman"
+  ],
+  "S74": [
+   "v-eco-superhuman-rows"
+  ],
+  "S75": [
+   "v-dre-aviso-3864-2026",
+   "v-observador-sword-sns-launch",
+   "v-gov-sns-remote-physio-ai"
   ]
  },
  "DROPPED": {
@@ -996,6 +1020,14 @@
   "S71": [
    "https://promptugal.news/articles/ai-physiotherapy-portugal-health-service.html",
    "18 Nov"
+  ],
+  "S72": [
+   "https://promptugal.news/articles/ai-physiotherapy-portugal-health-service.html",
+   "19 Nov"
+  ],
+  "S73": [
+   "https://promptugal.news/articles/superhuman-to-buy-rows-porto.html",
+   "19 Nov"
   ]
  },
  "WITHDRAWN": [
@@ -1014,8 +1046,8 @@
   "S54"
  ],
  "READY": [
-  "S72",
-  "S73"
+  "S74",
+  "S75"
  ],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
@@ -1205,14 +1237,14 @@
  },
  "ASSIGN": [
   [
-   "S73",
+   "S74",
    "the Portugal desk (journalist-portugal)",
-   "Superhuman's own blog (23 Feb 2026) and Rows' own post (22 Feb 2026) say Superhuman agreed to acquire Rows, whose team is based in Porto; re-read both yourself; two company sources, no independent report, attribute everything; the news is about nine months old, give the dates and say the sources do not state whether the deal closed or whether the Rows product ended on 31 May; the usage figures are Rows' own claims; Rows' post does not mention Porto, Superhuman's does; no price, headcount or Porto hiring plan, say so and do not infer; no personal details; record the AI connection (direct, 0 steps; Porto, Superhuman's other hubs) in the data note; explain technical terms at first use; categories Portugal, AI and Corporate"
+   "ECO (23 Feb 2026) reports that Rows 'has just been bought' by Superhuman for an undisclosed value and that its team of more than ten people in the North 'stays'; write a short update note on S73 (its first note, standing answers 95 and 100); re-read the page yourself; attribute the headcount and the funding figures to ECO; it is a February source, say whether the deal closed and what followed is still not confirmed by a later source; correct S73's no-independent-report and no-headcount lines; record the AI connection (direct, 0 steps) in the data note; categories Portugal, AI and Corporate"
   ],
   [
-   "S72",
+   "S75",
    "the Portugal desk (journalist-portugal)",
-   "A short update note on S69 (standing answer 95 format): the gazette's standard terms (23 Feb 2026, Aviso 3864/2026/2) make the service an accession convention any health-sector provider can join, for referred patients with enough digital literacy; the researcher read clauses 1 to 12, 26 and 27 only, state nothing from the annexes or prices; the letter dated 1 June 2026 authorising Sword Health Physio for 12 months is an unchecked copy, use it attributed or leave it out; do not say Sword is the only provider or that others joined; explain 'convention' and 'accession' at first use; record the AI connection (one step: AI regulated only if present) in the data note; categories Portugal and AI"
+   "A follow-up article (S69 is at its update limit) on the official gazette's standard terms for the health service's remote physiotherapy: the base of 200 euros for 12 months per treated patient, unlimited sessions in the year if needed, 100 euros for a later programme in a different body area, seven groups of eligible conditions, service levels, and, where AI is used, human oversight, documented accuracy and limits, no training on patient data without consent or anonymisation; re-read the gazette yourself; state nothing from clauses 13 to 25 (beyond the first paragraph of 13), annexes I and II or the separate price table, which were not read; the gazette confirms Observador's 200 euros; no claim about total payments, patient numbers or other providers; explain 'convention', 'accession' and 'class IIa medical device' at first use; AI rules are conditional, do not say more than S69's sources about the service using AI; record the AI connection (one step) in the data note; length follows the story; categories Portugal and AI"
   ]
  ],
  "LINK_OVERRIDES": {
