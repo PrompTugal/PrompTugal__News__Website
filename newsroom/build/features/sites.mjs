@@ -23,7 +23,7 @@ let HTML = null
 export function decorate(p) {
     if (p.bare || p.raw || p.sitesBar || !p.md) return
     p.sitesBar = true
-    if (HTML === null) HTML = render(registry(), { here: 'promptugal.news', newTab: true })
+    if (HTML === null) HTML = render(registry(), { here: 'promptugal.news' })   // the sister sites open in the same tab (Dinis, 19 Nov 03:18)
     if (!HTML) return
     p.top = HTML
     p.assets = { ...(p.assets || {}), css: [...((p.assets && p.assets.css) || []), CSS], js: [...((p.assets && p.assets.js) || []), JS] }
