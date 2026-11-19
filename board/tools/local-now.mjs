@@ -26,7 +26,13 @@ const RCM = { 1: 'low', 2: 'moderate', 3: 'high', 4: 'very high', 5: 'maximum' }
 const now = () => new Date().toISOString().replace(/\.\d+Z$/, 'Z')
 const sleep = ms => new Promise(r => setTimeout(r, ms))
 const read = {}
+// Dinis, 18 Nov 2026 (board/guidance/2026-11-18-billing-only-on-the-main-site.md): only promptugal.news bills, so it shows only data whose
+// commercial_use is "allowed" (data.promptugal.news/api/v1/sources/commercial.json). IPMA is "not allowed": it is not read or written here;
+// IPMA stays on weather.promptugal.news. adsb.lol (ODbL) is allowed.
+const SHOW_IPMA = false
+const WEATHER = 'https://weather.promptugal.news/'
 async function get(name, url) {
+    if (!SHOW_IPMA && url.startsWith(IPMA)) { read[name] = { url: null, at: now(), status: 'withheld: IPMA is non-commercial use only' }; return null }
     await sleep(2000)
     try { const r = await fetch(url, { headers: { 'user-agent': 'PrompTugal.news local-now (https://promptugal.news/)' } }); read[name] = { url, at: now(), status: r.status }
         return r.ok ? await r.json() : null } catch (e) { read[name] = { url, at: now(), status: 'error' }; return null }
@@ -72,10 +78,10 @@ for (const m of MAP) {
     const f = daily[m.forecast_id]
     const out = {
         place: m.place, read_at: now(), by: 'board/tools/local-now.mjs (conductor@PrompTugal.dinis)',
-        about: 'Now in this place, from IPMA\'s open data and (for Faro) adsb.lol: each value with its source and the time read. Not a warning service: follow IPMA (https://www.ipma.pt/) and ANEPC.',
+        about: 'Now in this place: (for Faro) adsb.lol (ODbL), with its source and the time read. IPMA weather is on weather.promptugal.news, not here. Not a warning service: follow IPMA (https://www.ipma.pt/) and ANEPC.',
         station: { name: m.station, id: m.station_id, km: m.station_km, reading: station(m.station_id), page: PAGE.station, source: IPMA + 'observation/meteorology/stations/observations.json' },
         forecast: f ? { place: FORECAST[m.forecast_id], id: m.forecast_id, km: m.forecast_km, page: PAGE.forecast, days: (f.data || []).slice(0, 5).map(d => ({ date: d.forecastDate, t_min_c: num(d.tMin), t_max_c: num(d.tMax), rain_prob_pct: num(d.precipitaProb), weather_type: num(d.idWeatherType) })), source: `${IPMA}forecast/meteorology/cities/daily/${m.forecast_id}.json` } : null,
-        warnings: { area: 'FAR (the Faro district)', active, page: PAGE.warnings, source: IPMA + 'forecast/warnings/warnings_www.json' },
+        warnings: { withheld: true, area: 'FAR (the Faro district)', active, why: 'IPMA data is for non-commercial use only, so it is not shown here. Warnings are on weather.promptugal.news and at ipma.pt; follow IPMA and ANEPC.', page: WEATHER, source: WEATHER },
         fire_risk: { municipality: m.dico, days: fire(m.dico), page: PAGE.fire, source: IPMA + 'forecast/meteorology/rcm/rcm-d0.json' },
         uv: (() => { const id = WEST.has(m.place) ? 1081525 : 1080500, u = uvOf(id); return u ? { place: id === 1081525 ? 'Sagres' : 'Faro', ...u, page: PAGE.uv, source: IPMA + 'forecast/meteorology/uv/uv.json' } : null })(),
         sea: INLAND.has(m.place) ? null : (() => { const id = WEST.has(m.place) || m.place === 'portimao' || m.place === 'lagoa' ? SEA.sagres : SEA.faro, s = seaOf(id); return s ? { coast: id === SEA.sagres ? 'Sagres coast' : 'Faro coast', ...s, page: PAGE.sea, source: IPMA + 'forecast/oceanography/daily/hp-daily-sea-forecast-day0.json' } : null })(),
@@ -86,7 +92,7 @@ for (const m of MAP) {
 }
 // the region: the warnings and the airport, and each place's station temperature
 const region = { place: 'algarve', read_at: now(), by: 'board/tools/local-now.mjs (conductor@PrompTugal.dinis)', about: 'Now in the Algarve: IPMA\'s warnings for the Faro district, Faro airport, and each place\'s nearest station. Not a warning service.',
-    warnings: { area: 'FAR (the Faro district)', active, page: PAGE.warnings, source: IPMA + 'forecast/warnings/warnings_www.json' }, airport,
+    warnings: { withheld: true, area: 'FAR (the Faro district)', active, why: 'IPMA data is for non-commercial use only, so it is not shown here. Warnings are on weather.promptugal.news and at ipma.pt; follow IPMA and ANEPC.', page: WEATHER, source: WEATHER }, airport,
     places: MAP.map(m => ({ place: m.place, station: m.station, temp_c: station(m.station_id)?.temp_c ?? null })), reads: read }
 fs.writeFileSync(path.join(OUT, 'algarve.json'), JSON.stringify(region, null, 1) + '\n')
 console.log(`local-now: ${written.length + 1} files at ${now()}; observations ${lastObs || 'none'}; warnings active ${active.length}; airport ${airport ? airport.airline.length + ' airline, ' + airport.other_aircraft + ' other' : 'not read'}`)

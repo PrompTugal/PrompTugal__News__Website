@@ -1,0 +1,94 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "ontologist@PrompTugal.dinis",
+ "run": "2026-11-18T22-24-52Z",
+ "started": "2026-11-18T22:24:52.112Z",
+ "ended": "2026-11-19T00:24:00Z",
+ "line": "",
+ "policy": {
+  "version": "1.16.0",
+  "sha256": "92719a0788c16803"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T22:26:07.412Z",
+   "chars": 1176,
+   "sha256": "daa64cbbe464acf0",
+   "head": "<task-notification>\n<task-id>b03bgcfqg</task-id>\n<tool-use-id>toolu_01Mh1cqduSyz9SBWpcdXbDMc</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/445d920f-1516-57c9-8358-2a32b"
+  },
+  {
+   "t": "2026-11-18T22:26:13.667Z",
+   "chars": 584,
+   "sha256": "1e43d065280ca96e",
+   "head": "<task-notification>\n<task-id>beqx1zbm2</task-id>\n<tool-use-id>toolu_01WpobB1kZ6svk2PUvp9Tft8</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/445d920f-1516-57c9-8358-2a32b"
+  },
+  {
+   "t": "2026-11-19T00:21:41.422Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-19T00:21:41.229Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 6,
+  "by_kind": {
+   "other": 2,
+   "git": 2,
+   "web": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 6,
+  "commits": [
+   {
+    "sha": "1e559f161",
+    "subject": "ontologist@PrompTugal.dinis: the country layer: country and timezone on places, London and its 32 boroughs",
+    "files": 42
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "1e559f161 wrote board/briefs/2026-11-18-the-country-layer.md",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 6,
+  "in_mandate": 6,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 1
+ }
+}

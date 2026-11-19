@@ -848,7 +848,7 @@
     {
       "at": "2026-11-18T09:53Z",
       "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 38 (ledger): main 19 sessions 435.64 USD API-equivalent; five site leads 28.24 USD in their first runs. First runs: data.b@ Storm map (94 items, 20 moved), 140 Storm files at /api/v1/storm/charles/ with OpenAPI, three-layer source pages, 19 charts; weather.b@ 17 district capital pages, masthead, obs lane; startups.b@ v0.1.9, 497 facts, masthead, obs lane; civic.b@ and travel.b@ ran. All five: the auto-mode check refused keygen --session and the commit-check change: nothing signed, commits carry @AgentiCCells.dinis trailers. Decisions for Dinis listed in my update."
+      "note": "hour 38 (ledger): main 19 sessions 435.64 USD API-equivalent; five site leads 28.24 USD in their first runs. First runs: data.b@ Storm map (94 items, 20 moved), 140 Storm files at /api/v1/storm/charles/ with OpenAPI, three-layer source pages, 19 charts; weather.b@ 17 district capital pages, masthead, obs lane; startups.b@ v0.1.9, 497 facts, masthead, obs lane; civic.b@ and travel.b@ ran. All five: the auto-mode check refused keygen --session and the commit-check change: nothing signed, commits carry  (AgentiCCells) trailers. Decisions for Dinis listed in my update."
     },
     {
       "at": "2026-11-18T10:51Z",
@@ -897,6 +897,58 @@
     {
       "at": "2026-11-18T21:52Z",
       "line": "21:48 wake: main site v0.1.1825; journalist@ did REQ-0007 (S7 claims) but not REQ-0008 (websummit-only claims), nudged for its 21:40 wake; cyber.b@ and bulletins.b@ first runs live (cyber empty until collectors land; seven bulletin pages, 0.017 USD); Vicky's reviewer@ and journalist-portugal@ active; site leads wake ~22:00"
+    },
+    {
+      "at": "2026-11-18T22:55Z",
+      "line": "22:48 wake: main site v0.1.1827, gate green; sites bar v1.0.0 and registry live on promptugal.news, install held for security@'s review of the built files; all 12 previews done; London under way (UK sources registering); writer-10 and cells.b waiting on Dinis; library corrected its websummit finding (withdrawn articles); debrief written"
+    },
+    {
+      "at": "2026-11-18T23:55Z",
+      "hold": false,
+      "commits_since_22_48": {
+        "conductor.b": 5,
+        "dev": 3,
+        "security": 2,
+        "datasci.places": 2,
+        "abp": 2,
+        "translator": 1,
+        "telemetry.b": 1,
+        "rights": 1,
+        "place.districts": 1,
+        "journalist": 1
+      },
+      "site": "v0.1.1830",
+      "notes": [
+        "security@ go on sites bar v1.0.0, but dev@ replaced it with v1.1.0 at 22:50; asked security@ to post-review v1.1.0; install note held",
+        "dev@ took IPMA off the place pages (4c0785e352): rights@ R1 in progress",
+        "gate green again (v0.1.1828-1830 deployed)"
+      ]
+    },
+    {
+      "at": "2026-11-19T00:55Z",
+      "hold": false,
+      "site": "v0.1.1834",
+      "commits_since_23_48": {
+        "dev": 4,
+        "conductor.b": 3,
+        "security": 2,
+        "rights": 2,
+        "ontologist": 2,
+        "journalist": 2,
+        "datasci.places": 2,
+        "designer": 1,
+        "outreach": 1,
+        "correspondent": 1,
+        "abp": 1,
+        "telemetry.b": 1,
+        "place.*": 3,
+        "designer.places": 1
+      },
+      "notes": [
+        "security@ go on sites bar v1.1.0 (90dfdd3baf), hashes checked; install note sent to the 12 site leads",
+        "Google key live (videos.b@); data.b@ serves YouTube replays, no chapters; rights@ R6 for YouTube's API terms",
+        "ledger 2026-11-19T0050Z: $1,575.97 API-equivalent; blocked buckets: translator, sherpa, data.b, bulletins.b, cells.b, writer-10 (most wait on Dinis)"
+      ]
     }
   ]
 }

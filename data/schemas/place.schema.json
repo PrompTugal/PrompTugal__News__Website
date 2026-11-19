@@ -33,6 +33,7 @@
         "region",
         "city",
         "district",
+        "borough",
         "street",
         "venue",
         "building",
@@ -175,6 +176,16 @@
       },
       "additionalProperties": false,
       "description": "the Wikidata item this is the same thing as (https://www.wikidata.org/wiki/<id>), read on the date; never guessed: no item, no field"
+    },
+    "country": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "description": "the ISO 3166-1 alpha-2 code of the country the place is in (PT, GB); set on any place, so no page or file assumes a place is Portuguese"
+    },
+    "timezone": {
+      "type": "string",
+      "pattern": "^[A-Za-z_]+/[A-Za-z_]+$",
+      "description": "the IANA time zone (Europe/Lisbon, Europe/London)"
     }
   },
   "additionalProperties": false

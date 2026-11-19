@@ -1,5 +1,75 @@
 [
   {
+    "version": "v0.1.1835",
+    "date": "2026-11-19",
+    "what": "journalist@PrompTugal.dinis: 00:40 wake: central's and districts' debriefs onto dev; R12/R13 question on east's local news",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "030596829"
+  },
+  {
+    "version": "v0.1.1834",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: 00:05 sweep clean; the meter off the sub-sites; Cyber's vendored sql.js verified byte-identical to npm",
+    "by": "security@PrompTugal.dinis",
+    "from": "d4874789a"
+  },
+  {
+    "version": "v0.1.1833",
+    "date": "2026-11-18",
+    "what": "security@PrompTugal.dinis: the sites bar v1.1.0 post-reviewed on the exact files: go",
+    "by": "security@PrompTugal.dinis",
+    "from": "90dfdd3ba"
+  },
+  {
+    "version": "v0.1.1832",
+    "date": "2026-11-18",
+    "what": "dev@PrompTugal.dinis: IPMA off the front page's now line and the newsroom's now map; links PrompTugal Weather",
+    "by": "dev@PrompTugal.dinis",
+    "from": "27d9026ea"
+  },
+  {
+    "version": "v0.1.1831",
+    "date": "2026-11-18",
+    "what": "dev@PrompTugal.dinis: IPMA off the place pages: Now in <town> keeps Faro airport and links PrompTugal Weather",
+    "by": "dev@PrompTugal.dinis",
+    "from": "4c0785e35"
+  },
+  {
+    "version": "v0.1.1830",
+    "date": "2026-11-18",
+    "what": "abp@PrompTugal.dinis: hourly report 23:37, status",
+    "by": "abp@PrompTugal.dinis",
+    "from": "104b2b788"
+  },
+  {
+    "version": "v0.1.1829",
+    "date": "2026-11-18",
+    "what": "telemetry.b@PrompTugal.dinis: wake 23:26, costs refreshed for 34 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "0c7fe1d02"
+  },
+  {
+    "version": "v0.1.1828",
+    "date": "2026-11-18",
+    "what": "security@PrompTugal.dinis: the sites bar v1.0.0 post-reviewed on the exact files: go (B7's hover fetch accepted, to drop in v1.0.1)",
+    "by": "security@PrompTugal.dinis",
+    "from": "e6834f551"
+  },
+  {
+    "version": "v0.1.1827",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: writer-10 for newsroom.sgit.ai started (session and its Ten days schedule)",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "599f34ea7"
+  },
+  {
+    "version": "v0.1.1826",
+    "date": "2026-11-18",
+    "what": "conductor.b@PrompTugal.dinis: 21:48 wake, watch line",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "d364d5bc5"
+  },
+  {
     "version": "v0.1.1825",
     "date": "2026-11-18",
     "what": "conductor.b@PrompTugal.dinis: list bulletins.b-promptugal's public key (sgit pki)",

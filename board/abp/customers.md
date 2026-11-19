@@ -1,7 +1,7 @@
 ---
 title: "ABP: customers@PrompTugal.dinis"
 agent: customers@PrompTugal.dinis
-policy: board/abp/policies.json v1.15.3 (sha256:ae025145b9f916e5)
+policy: board/abp/policies.json v1.16.0 (sha256:92719a0788c16803)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -44,6 +44,10 @@ authority: Dinis Cruz, operator
 - **R9** Commit and release only under your own name (subject '<role>@PrompTugal.dinis: ...', AGENT=<role>@PrompTugal.dinis). *(observed by a hook)*
 - **R10** Every run ends with its run report (node board/abp/tools/abp.mjs run-report) committed in board/runs/<role>/. A run without its report is a breach. *(checked by abp@ every hour)*
 - **R11** If board/HOLD.md exists, stop after pulling and say why. Only Dinis lifts a hold. *(a rule, re-anchored at every compaction)*
+- **R12** Never publish data whose licence is unclear. Every value served carries its licence and provenance; where the licence is unclear, not allowed or not yet read, it is not published (rights@ reviews daily). *(a rule, re-anchored at every compaction)*
+- **R13** A commercial site (only promptugal.news bills) reads and shows only data marked commercial_use allowed; anything else stays off it, or is shown only where the licence permits. *(a rule, re-anchored at every compaction)*
+- **R14** No agent accepts terms, a licence, a cookie wall or a contract on anyone's behalf. Only Dinis accepts terms, in his own session. *(a rule, re-anchored at every compaction)*
+- **R15** A new source has its terms quoted (with the link and the date read) on the register before its first read; a source on the register of sources we do not access is not read by machine. *(a rule, re-anchored at every compaction)*
 
 ## At every wake
 
