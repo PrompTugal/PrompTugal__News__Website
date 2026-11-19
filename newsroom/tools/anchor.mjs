@@ -4,13 +4,13 @@
 // a "successful deployment" anyone with write access can fake. Read from GitHub's API, never from git. Prints the sha,
 // or fails (no anchor, no answer) with nothing printed on stdout, so the caller fails closed.
 //   GITHUB_TOKEN=<the run's own token> GITHUB_REPOSITORY=owner/repo node newsroom/tools/anchor.mjs [workflow-file]
-// A run counts only if the security job, by its name (ANCHOR_JOB, default "signatures"), ran in it and concluded
+// A run counts only if the security job, by its fixed name "signatures" (never from the environment, security@ b02b3a398), ran in it and concluded
 // success: a pushed workflow that drops the job still "succeeds", so the run's conclusion alone is not enough (live.b@'s
 // review a4c6fce, HIGH 2). A workflow that keeps the name but weakens the job is closed only by branch protection.
 // The caller then requires A to be an ancestor of AFTER (check-signatures-trusted.mjs does). dev@PrompTugal.dinis.
 const repo = process.env.GITHUB_REPOSITORY || 'PrompTugal/PrompTugal__News__Website'
 const wf = process.argv[2] || 'deploy-pages.yml', path_ = `.github/workflows/${wf}`
-const JOB = process.env.ANCHOR_JOB || 'signatures'
+const JOB = 'signatures'
 const headers = { 'User-Agent': 'promptugal-news-signature-check', Accept: 'application/vnd.github+json' }   // GitHub answers 403 without a User-Agent (cyber.b@)
 if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`
 const url = `https://api.github.com/repos/${repo}/actions/workflows/${encodeURIComponent(wf)}/runs?branch=dev&event=push&status=success&per_page=20`

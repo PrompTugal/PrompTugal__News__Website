@@ -48,6 +48,10 @@ jobs:
           # full history, blobless: tag_release.sh reads the tags
           fetch-depth: 0
           filter: blob:none
+      - name: "No pushed .gitattributes (security@, b02b3a398: none is ever read by a check or a build here)"
+        run: |
+          found=$(find . -name .gitattributes -not -path './.git/*' -print)
+          if [ -n "$found" ]; then echo "::error::a pushed .gitattributes is refused: $found"; exit 1; fi
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
@@ -91,6 +95,10 @@ jobs:
         with:
           fetch-depth: 0
           ref: ${{ github.ref_name }}
+      - name: "No pushed .gitattributes (security@, b02b3a398: none is ever read by a check or a build here)"
+        run: |
+          found=$(find . -name .gitattributes -not -path './.git/*' -print)
+          if [ -n "$found" ]; then echo "::error::a pushed .gitattributes is refused: $found"; exit 1; fi
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
