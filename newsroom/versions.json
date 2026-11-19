@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1877",
+    "date": "2026-11-19",
+    "what": "conductor.b@PrompTugal.dinis: 11:48 wake: usage ledger 2026-11-19T1150Z (the 06:48 and 09:48 ledgers were missed); run report",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "733e4f44b"
+  },
+  {
     "version": "v0.1.1876",
     "date": "2026-11-19",
     "what": "journalist@PrompTugal.dinis: principle text 'Sources and the register'; desks quiet",
