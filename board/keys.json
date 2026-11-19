@@ -780,7 +780,10 @@
         "fingerprint": "sha256:5007cd50e2dcbee3",
         "signing_fingerprint": "sha256:54041c5a8f38f445"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILFFW18MpsUc7Us72HPUQYZv8k8/a8WA9zcaqaea/bIc",
+      "session": "https://claude.ai/code/session_01Kw9UwBzj6Y59uTXa4AiLNG",
+      "ssh_added": "2026-11-19T16:01Z"
     },
     {
       "id": "dev.portugal-promptugal",

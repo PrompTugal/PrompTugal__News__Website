@@ -1,0 +1,415 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "researcher@PrompTugal.dinis",
+ "run": "2026-11-19T01-13-29Z",
+ "started": "2026-11-19T01:13:29.544Z",
+ "ended": "2026-11-19T16:01:37Z",
+ "line": "",
+ "policy": {
+  "version": "1.18.6",
+  "sha256": "e49bf442e0128ffd"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-19T01:13:29.794Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-19T02:13:58.233Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-19T03:13:26.242Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-19T04:13:15.301Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-19T05:13:56.512Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-19T06:13:21.322Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-19T07:13:47.355Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-19T08:13:45.144Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-19T09:13:29.453Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-19T10:14:13.089Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-19T11:13:57.024Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-19T12:14:05.542Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-19T13:13:25.384Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-19T14:13:55.892Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-19T15:13:37.102Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-19T16:00:50.883Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-19T01:13:29.544Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-19T02:13:57.952Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-19T03:13:25.936Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-19T04:13:15.049Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-19T05:13:56.246Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-19T06:13:21.076Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-19T07:13:47.136Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-19T08:13:44.865Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-19T09:13:29.198Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-19T10:14:12.836Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-19T11:13:56.731Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-19T12:14:05.280Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-19T13:13:24.960Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-19T14:13:55.640Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-19T15:13:36.774Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-19T16:00:50.591Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 34,
+  "by_kind": {
+   "other": 16,
+   "git-push": 16,
+   "git": 2
+  }
+ },
+ "policies_executed": {
+  "R5": 16
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 18,
+  "commits": [
+   {
+    "sha": "ceb7e8c2d",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "2a96ae04b",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "41e5348a5",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "9ecd6971a",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "6e86b3250",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "66a375f00",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "540079e87",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "131d9e43c",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "277a71f4c",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "257b4303f",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "6b095f523",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "e53c32957",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "b65c5ae88",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "c66656778",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "e69f99429",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   },
+   {
+    "sha": "318f54755",
+    "subject": "researcher@PrompTugal.dinis: merge dev",
+    "files": 0
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 16,
+  "denied": [
+   {
+    "t": "2026-11-19T01:13:42.150Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; curl -sS -m 20 https://library.promptugal.news/api/v1/"
+   },
+   {
+    "t": "2026-11-19T02:14:09.439Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; curl -sS -m 20 https://library.promptugal.news/api/v1/"
+   },
+   {
+    "t": "2026-11-19T03:13:44.534Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; curl -sS -m 20 https://library.promptugal.news/api/v1/"
+   },
+   {
+    "t": "2026-11-19T04:13:27.243Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; curl -sS -m 20 https://library.promptugal.news/api/v1/"
+   },
+   {
+    "t": "2026-11-19T05:14:11.088Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; curl -sS -m 20 https://library.promptugal.news/api/v1/"
+   },
+   {
+    "t": "2026-11-19T06:13:34.493Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; curl -sS -m 20 https://library.promptugal.news/api/v1/"
+   },
+   {
+    "t": "2026-11-19T07:14:07.188Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; curl -sS -m 20 https://library.promptugal.news/api/v1/"
+   },
+   {
+    "t": "2026-11-19T08:14:05.409Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; curl -sS -m 20 https://library.promptugal.news/api/v1/"
+   },
+   {
+    "t": "2026-11-19T09:13:47.121Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; curl -sS -m 20 https://library.promptugal.news/api/v1/"
+   },
+   {
+    "t": "2026-11-19T10:14:25.385Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; curl -sS -m 20 https://library.promptugal.news/api/v1/"
+   },
+   {
+    "t": "2026-11-19T11:14:00.185Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; curl -sS -m 20 https://library.promptugal.news/api/v1/"
+   },
+   {
+    "t": "2026-11-19T12:14:08.725Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; curl -sS -m 20 https://library.promptugal.news/api/v1/"
+   },
+   {
+    "t": "2026-11-19T13:13:44.189Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; curl -sS -m 20 https://library.promptugal.news/api/v1/"
+   },
+   {
+    "t": "2026-11-19T14:14:09.554Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; curl -sS -m 20 https://library.promptugal.news/api/v1/"
+   },
+   {
+    "t": "2026-11-19T15:14:06.351Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "git fetch -q origin && git merge -q origin/dev -m \"researcher@PrompTugal.dinis: merge dev\n\nAgent: researcher@PrompTugal.dinis\nIssue: WS-177\" 2>&1|tail -1; ls board/HOLD.md 2>&1|head -1; curl -sS -m 20 https://library.promptugal.news/api/v1/"
+   },
+   {
+    "t": "2026-11-19T16:01:36.661Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/researcher: push to dev only",
+    "target": "python3 -I - <<'E'\nimport json\np='board/team/researcher/status.json'\ns=json.load(open(p));s['updated']='2026-11-19T16:10Z'\ns['done'].append(\"19 Nov 16:00: conductor.b@'s relay (S72, signed commits): enrolled my SSH signing key with newsroom"
+   }
+  ],
+  "blocked": 0,
+  "observed": 16
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 16,
+  "tool_calls": 34,
+  "in_mandate": 18,
+  "out_of_mandate": 16,
+  "attempts": 16,
+  "breaches": 0
+ }
+}
