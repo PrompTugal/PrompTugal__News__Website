@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-19",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Braga: AI and technology in Braga, a university and industry city whose centre of gravity is the University of Minho, the nanotechnology laboratory INL, company R&D centres and the Startup Braga hub, and what reaches Braga from the Minho, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -44,6 +44,16 @@
     "motif": "Granite and baroque warm stone, church bells, a Roman-founded city that now builds chips, bikes and startups"
   },
   "ai_news": [
+    {
+      "title": "New University of Minho student ombudsman says the academy should embrace AI, not fear it",
+      "summary": "José Alberto Lencastre, a professor at the Institute of Education with almost four decades in teacher training and educational technology, took office on 18 November as the UMinho Student Ombudsman. He argues AI is an opportunity to transform higher education and that students should not be presumed to use it only to copy.",
+      "date": "2026-11-18",
+      "publisher": "RUM - Rádio Universitária do Minho",
+      "url": "https://www.rum.pt/novo-provedor-da-uminho-desafia-academia-a-mudar-perante-a-inteligencia-artificial/",
+      "read_on": "2026-11-19",
+      "ai_path": "About AI directly: the university's new student ombudsman states a position on AI in teaching and academic integrity.",
+      "steps": 0
+    },
     {
       "title": "Startup Braga takes 15 startups to Web Summit, four of them built on AI",
       "summary": "The hub's ecosystem is at Web Summit Lisbon, nine of them incubated at InvestBraga's innovation hub. The article names ASOagentAI (an AI app-growth agent), eDynamics (movement data into injury-risk alerts), LogisticsWMS (an AI warehouse system) and Zixago (synthetic infrastructure for AI).",

@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-19",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Aveiro: AI and technology in Aveiro, a university and telecoms city whose centre of gravity is the Universidade de Aveiro, the Instituto de Telecomunicações and the council's Aveiro Tech City push, and what reaches Aveiro from Portugal, Brazil and the world. Independent; every fact sourced.",
   "gravity": {
@@ -215,6 +215,13 @@
       "url": "https://appia.pt/eaia2026/",
       "read_on": "2026-11-16",
       "ai_path": "A national AI school hosted in Aveiro: directly about AI. Already held."
+    },
+    {
+      "title": "Inovações Tecnológicas: Cais do Porto showcase (Aveiro Tech Week, Parque de Exposições)",
+      "date": "2026-11-17",
+      "url": "https://techweek.aveirotechcity.pt/events/inovacoes-tecnologicas-cais-do-porto/",
+      "read_on": "2026-11-19",
+      "ai_path": "About 20 companies exhibit, several with AI products (UAIFY, SMARTTALKS, VIA, IFRIEND, VENT, IT NEXT): directly about AI for those exhibitors."
     }
   ],
   "ai_map": [

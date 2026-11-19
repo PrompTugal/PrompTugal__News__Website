@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-19",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Lisboa: AI and technology in Lisboa, the capital whose centre of gravity is its universities and research institutes, the Unicorn Factory startup hub and the national AI projects, and what reaches Lisboa from Portugal, Europe and the world. Independent; every fact sourced.",
   "gravity": {
@@ -39,6 +39,16 @@
     "motif": "Azulejo blue, Tagus light, seven hills, a capital full of conferences and startups"
   },
   "ai_news": [
+    {
+      "title": "Government funds press archives to be made available to the Portuguese AI model AMALIA",
+      "summary": "On 19 November the Council of Ministers approved a programme in which Visapress, the collective-rights body for press publishers, pays news outlets to digitise archives (9 million euros, possibly up to 15 million) and to let the AMALIA model and state-run research use them (6 million euros). The article does not mention Lisbon.",
+      "date": "2026-11-19",
+      "publisher": "ECO",
+      "url": "https://eco.sapo.pt/2026/11/19/visapress-vai-gerir-apoio-para-levar-arquivos-dos-media-ao-amalia/",
+      "read_on": "2026-11-19",
+      "ai_path": "National funding to supply training and research data to AMALIA, the open Portuguese language model presented in Lisbon (see the AMALIA entry): one step from AI, and the Lisbon link is only through AMALIA, not stated on the page.",
+      "steps": 1
+    },
     {
       "title": "Web Summit opens in Lisbon with humanoid robots as speakers and a focus on physical AI",
       "summary": "AICEP reports that the tenth Web Summit opened in Lisbon on 9 November with a stronger focus on physical AI. Humanoid robots from Chinese companies take part as official speakers, including a wheeled two-armed robot by Galbot made for shifts in shops, pharmacies and factories. Delegations from China's Ministry of Commerce and Cyberspace Administration attend, and about 300 Brazilian start-ups take part. The programme covers AI agents, AI-supported research, digital regulation and new working models.",
@@ -610,7 +620,8 @@
     "The AIhub member list shows names and one-line descriptions but not each firm's headquarters, so the members are listed as AIhub community members, not as Lisboa-based. Sword Health, Priberam, Feedzai, Unbabel and Farfetch are still not placed in Lisboa by a page we opened.",
     "Investors are still thin. Armilar's base city is not stated on a page we opened, and Portugal Ventures, Lince Capital and Índico gave us no page of their own (the Unicorn Factory home page links lince-capital.com, not opened). The Banco de Fomento's new fund of funds is still unconfirmed.",
     "Missing: Lisbon hospitals' AI use, the ISCTE, NOVA SBE and Católica AI centres, and the Unicorn Factory startup list as data (the startups page is about 1.2 MB of markup and was not parsed). The Soft Landing Program terms are not published at any address we reached (see its entry). Discord's new Lisbon engineering hub (AICEP, 12 November) is not AI news by our test and is left out.",
-    "Talent is not filled, by decision pending from Dinis on naming individuals."
+    "Talent is not filled, by decision pending from Dinis on naming individuals.",
+    "Fourth pass, 19 November: ECO feed (works) and AICEP news list checked. Only one item added (Visapress and AMALIA). Left out: Kodly (AICEP, 19 November) is described as founded in Porto, not Lisbon; Priberam and Kenya APB webinar (AICEP, 19 November) does not place Priberam in Lisbon and is online. Nothing Lisbon-specific found dated 17 to 18 November. The council sites were not retried."
   ],
   "voice": {
     "lede": "Lisboa, pá: seven hills, one very busy tram, and more AI conferences per square kilometre than there are pastéis de nata in Belém.",

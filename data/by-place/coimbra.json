@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-19",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Coimbra: AI and technology in Coimbra, a university city whose centre of gravity is the University of Coimbra, its research centres, the Instituto Pedro Nunes incubator and the fraud-detection company Feedzai, and what reaches Coimbra from Portugal, Europe and the world. Independent; every fact sourced.",
   "gravity": {
@@ -39,6 +39,16 @@
     "motif": "old gold, student capes, the river Mondego, a hill of books and a startup scene at its feet"
   },
   "ai_news": [
+    {
+      "title": "Coimbra presents Simplex Coimbra, 50 measures including an AI licensing pilot and a CISUC project",
+      "summary": "The council presented the first Simplex Coimbra on 18 November: 50 measures to cut bureaucracy, chosen from 170 proposals. Measure 34, LicencIA Coimbra, has the council join the national pilot that tests AI in the first check of urban licensing documents, depending on the national platform and terms agreed with the Government; technical assessment and decision stay with the competent officials. Measure 43 has the council and the CISUC research centre of the University of Coimbra test a common path to register, route and follow requests on existing municipal systems. The Secretary of State for Simplification thanked Coimbra for taking part as a pilot of LicencIA.",
+      "date": "2026-11-18",
+      "publisher": "Câmara Municipal de Coimbra (coimbra.pt)",
+      "url": "https://www.coimbra.pt/2026/11/coimbra-apresenta-50-medidas-para-reduzir-burocracia-e-acelerar-servicos-municipais/",
+      "read_on": "2026-11-19",
+      "ai_path": "A council programme that names AI in licensing (measure 34) and a university AI and informatics research centre (CISUC) in request handling (measure 43): directly about AI in a public service, in Coimbra.",
+      "steps": 0
+    },
     {
       "title": "Coimbra takes its first joint stand to Web Summit, with the new Go Coimbra agency and four startups",
       "summary": "The council, Go Coimbra, the Coimbra metropolitan region, the University of Coimbra and the Instituto Pedro Nunes opened a shared stand at Web Summit Lisbon on 10 November 2026, with the space cluster Coimbra Supernova on the programme. The council names four startups on show: AirSafe, Noytrall, Sim4Safety and FiberSight. Meetings were held with Swedish, German, Chinese and United States representatives. The page does not give an AI programme.",
@@ -711,7 +721,8 @@
     "The AI startups added from IPN's incubator list rest on that one page: we did not open each company's own site, and the page does not say which are active or graduated. Connect Robotics, a DIANA pick, is placed at IPN by one outlet and at UPTEC in Porto by another, so it is left out. IPN's news feed (ipn.pt/en/feed/) now returns only items up to April 2025, so it is not a live news source; the council's feed and the ESA BIC feed still work.",
     "Still missing from the map for lack of an opened source: IPN's ATTRACT accelerator for AI and high-performance computing startups (the IPN site's search finds nothing and the guessed page returns 404), CISUC's spin-offs, the Coimbra hospital group's AI use (a search found none), the other university faculties, and the members of Coimbra Supernova beyond its five named reference companies. LASI (the lab) was not found: the lasi.pt site is an unrelated defence electronics company in Barcarena and is not used.",
     "Critical Software's base in Coimbra rests on a Lusa report, its IPN listing and now its place among Coimbra Supernova's reference companies. Feedzai's round page does not name investors or say where its headquarters is. The council's Web Summit page names AirSafe, Noytrall, Sim4Safety and FiberSight as the four startups; only AirSafe is on the AI map, and we did not check the other three.",
-    "Local talent is not filled (an open question for Dinis). We did not find where the Empresa na Hora counters in Coimbra are, nor the details of IPN's application and DIANA 2027 call deadlines. The council's women's entrepreneurship prize (3,000 euros for a project, 2,000 for a career, applications to 19 November 2026) is a municipal grant for any sector with no AI link, so it is not added to the investors list."
+    "Local talent is not filled (an open question for Dinis). We did not find where the Empresa na Hora counters in Coimbra are, nor the details of IPN's application and DIANA 2027 call deadlines. The council's women's entrepreneurship prize (3,000 euros for a project, 2,000 for a career, applications to 19 November 2026) is a municipal grant for any sector with no AI link, so it is not added to the investors list.",
+    "19 November: the council's own account of the AI licensing pilot now exists (the Simplex Coimbra item of 18 November, measure 34), which closes the earlier gap that no council page described it; it says the pilot depends on the national platform and terms with the Government, so no start date or scope is public. The CISUC measure (43) is not described as AI on the page. Fourth pass found no other AI item dated 17 to 19 November in the council, Diário de Coimbra, As Beiras, Campeão das Províncias or ESA BIC feeds (the IPN feed holds only old items; noticias.uc.pt still returns 403). The Campeão item of 18 November repeats the council news and was not added separately."
   ],
   "voice": {
     "lede": "Coimbra, ó pá: where the capes flap, the Mondego dawdles, and a hill full of professors keeps teaching the machines to read faculdade-style, while a unicorn quietly pays its rent down the slope.",

@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-16",
+  "updated": "2026-11-19",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Leiria: AI and technology in Leiria, the district capital of Portugal's Centro region, whose centre of gravity is the Startup Leiria incubator, the polytechnic that is becoming the Universidade de Leiria e Oeste, and an industrial economy now adding AI, and what reaches Leiria from Portugal, Europe and the world. Independent; every fact sourced.",
   "gravity": {
@@ -237,6 +237,20 @@
       "url": "https://hlink.pt/linka-te-2026-it-conference/",
       "read_on": "2026-11-16",
       "ai_path": "An IT conference with AI as a central topic: directly about AI."
+    },
+    {
+      "title": "Open Day Industry, ULO and UPCA research shown to firms, 9:30 to 13:00 at the ESTG, Campus 2 (registration closed 13 November)",
+      "date": "2026-11-20",
+      "url": "https://www.ipleiria.pt/ulo-promove-open-day-industry-20-de-novembro-2026-inscricoes-abertas/",
+      "read_on": "2026-11-19",
+      "ai_path": "A university-industry day whose programme includes a pitch of CARE-WEAR DEM, a wearable AI platform for dementia monitoring: one step from AI."
+    },
+    {
+      "title": "EPIES 2026, 2nd meeting of professionals for innovation in higher education, at the ESTG, Campus 2 (theme: people, AI and professional identities)",
+      "date": "2026-11-25",
+      "url": "https://www.ipleiria.pt/25-de-novembro-2-o-encontro-de-profissionais-para-a-inovacao-no-ensino-superior-epies-2026-inscricoes-abertas/",
+      "read_on": "2026-11-19",
+      "ai_path": "A higher-education meeting whose title names AI and whose text discusses its growing integration: directly about AI."
     }
   ],
   "ai_map": [
