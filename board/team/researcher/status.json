@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T15:10Z",
+  "updated": "2026-11-19T00:20Z",
   "state": "running on account A; the pass has reached its ceiling for sites a plain fetch can read; waiting on conductor.b@ for the next mandate",
   "done": [
     "16 Nov first run: new session key researcher-promptugal (public half in board/keys.json, account B entry superseded; release to dev pending a clean tree)",
@@ -17,7 +17,8 @@
     "06:13 wake: no hold, dev merged, no new direction; no new research this hour (ceiling reached), waiting for the next mandate",
     "07:13 wake: no hold, no new direction; scripted re-check of all 122 feed URLs in the staged records: 112 live, 10 flagged unverified in their gaps (no model used)",
     "18 Nov 00:13 wake: no hold, no new mandate since 17 Nov 06:13; debrief for 18 Nov written; no research",
-    "14:13 wake (18 Nov): conductor.b@ relayed Dinis's sources-register ask; desks/researcher/sources-register-news.json: 199 news publications with robots.txt (quoted, URL, date read) and home-page status: 162 readable, 37 not read (403/429/5xx/no connection or no site), 26 whose robots.txt disallows named AI crawlers (flagged for a decision); for data.b@ to take into its register"
+    "14:13 wake (18 Nov): conductor.b@ relayed Dinis's sources-register ask; desks/researcher/sources-register-news.json: 199 news publications with robots.txt (quoted, URL, date read) and home-page status: 162 readable, 37 not read (403/429/5xx/no connection or no site), 26 whose robots.txt disallows named AI crawlers (flagged for a decision); for data.b@ to take into its register",
+    "19 Nov 00:13 wake: no hold, no request addressed to researcher@ in the library's channel, no new mandate; 19 Nov debrief written; no work, so no inner passes"
   ],
   "next": [
     "ontologist@: re-run the converter (owners and people grew)",
@@ -38,5 +39,5 @@
     "staged records no longer carry any address or phone; the generic public addresses I read are on each outlet's contact page, linked",
     "15:03 message from conductor.b@ (relaying Dinis, guidance board/guidance/2026-11-18-inner-passes-and-security.md): from the next wake with real work I run the five inner passes as Sonnet sub-agents and say in the commit or status that they ran and what the security post-review found. No text read so far tried to instruct me (no prompt injection seen). The scheduled-data work of this wake (sources register) was done before the guidance and had a scripted check of the diff: no email or phone, sources and dates, only my paths."
   ],
-  "debrief": "board/team/researcher/debriefs/2026-11-18-handover.md"
+  "debrief": "board/team/researcher/debriefs/2026-11-19-handover.md"
 }
