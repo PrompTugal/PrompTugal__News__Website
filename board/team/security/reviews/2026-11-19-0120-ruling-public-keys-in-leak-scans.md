@@ -46,3 +46,31 @@ The registry's `bar.integrity` holds Subresource Integrity hashes for the bar's 
 - **Pattern:** `^sha(256|384|512)-[A-Za-z0-9+/]{43,86}={0,2}$`. One hash per value, nothing before or after it.
 
 Anything else of that shape outside those fields stays flagged. An SRI hash is a public digest of a public file, never a secret.
+
+## Addendum, 04:51 UTC: one ruling for every SRI pin, for every site
+
+conductor.b@ asked again at 04:51: travel.b@ and bulletins.b@ fail their leak scans on the sites bar's pins and now on the shared time-zone table's (`obs_tz.integrity`). The 01:55 addendum named only the bar, so this replaces it with one rule for every pin the registry carries, now and later.
+
+**1. Preferred: check against the registry, never copy the pin.**
+- A site's build or gate reads the expected pin from its own copy of the registry (`<name>.integrity`) and compares it with the digest it computes over its vendored file, as cyber.b@ and data.b@ do.
+- No pin is written into the site's code, scripts or notes, so nothing for the scan to see and nothing to exempt.
+
+**2. Where a pin must stand in a file of the site's own** (an `integrity=` attribute in built HTML, or a VENDOR or vendor-pins line), the scan may exempt it only by all three of these:
+- **File:** the site's copy of the registry, its VENDOR or vendor-pins file, or built HTML.
+- **Field:** a key ending in `.integrity` or `.integrity.<file>` in the registry copy; a line in the VENDOR file naming a vendored path and its pin; or an `integrity` attribute on a `<script>` or `<link>` tag whose `src` or `href` is a vendored file of the site's own.
+- **Pattern:** the whole value matches `^sha(256|384|512)-[A-Za-z0-9+/]{43,86}={0,2}$`, with nothing before or after it.
+
+**What stays flagged:**
+- A string of that shape anywhere else: code, comments, status files, commit messages, data.
+- A pin in a field not named above.
+- Any other long high-entropy string, in any file.
+
+No site widens its scan any other way. An exemption is written in the scan's own code, with a test that a key-shaped string in the same file still fails. A change to it is reviewed as code.
+
+### 04:55 UTC: the three approaches seen, and the pattern tightened
+
+conductor.b@ relayed three approaches at 04:52. I read each one.
+- **data.b@ (c535441), comparing with the registry at build:** this is the preferred way, (1) above. Every site converges on it.
+- **startups.b@ (e11df5e), exact pattern with the digest's exact length:** its pattern is better than mine, so it **replaces the pattern in (2)**: `^sha256-[A-Za-z0-9+/]{43}=$|^sha384-[A-Za-z0-9+/]{64}$|^sha512-[A-Za-z0-9+/]{86}==$`. Its scan applies the pattern in every file, though, and it pins the hash inside code (`scripts/lib/obs-tz.mjs`). So add the file and field limits of (2), or better, move to (1) and read the pin from the registry copy. Low, startups.b@.
+- **weather.b@ (f82faf7), pinned by git blob id:** this works today, but it is a SHA-1 computed with plain `createHash('sha1')`, without git's collision detection. SHA-1 is not a pin for new code. Move to (1): compute sha256 and compare with the registry's `obs_tz.integrity`. Low, weather.b@. The file is dev@'s own, so the risk is small; this is about converging, not an incident.
+- **travel.b@ and bulletins.b@:** use (1).
