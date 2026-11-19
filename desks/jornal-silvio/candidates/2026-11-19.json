@@ -124,6 +124,71 @@
         "licence": null,
         "reuse": "link only"
       }
+    },
+    {
+      "id": "js-2026-11-19-05",
+      "title": "European Commission hit by attackers using ARTEX, an AI tool that runs fleets of hacking agents",
+      "summary": "Hackers using ARTEX, a publicly available AI-powered penetration-testing framework (per Politico's sources), targeted the European Commission's internal IT, causing over ten days of disruption: Sysper (payslips, timesheets, leave) and MyPMO (medical reimbursements) were taken offline, and staff personal data may have been exposed. ARTEX's developer pulled it from GitHub in October but forks spread; CERT-EU warned of ARTEX-assisted attacks on 5 November, and the FBI says researchers found over 1,600 ARTEX consoles exposed online, with some attacks reaching privileged access in under three hours.",
+      "why_it_matters": "Agents with no mandate at all, aimed at the institution writing Europe's AI rules: the gap at its widest, the week after the AI Act's enforcement powers took effect.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103",
+          "publisher": "The Register",
+          "published": "2026-11-19",
+          "read": "2026-11-19T18:09Z"
+        }
+      ],
+      "quote": {
+        "text": "Individual systems were targeted and, in line with our standard practice, we have informed those concerned.",
+        "by": "Thomas Regnier, Commission spokesperson, quoted via Politico by The Register",
+        "source": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103"
+      },
+      "claims_to_check": [
+        "The ARTEX attribution is Politico's sources, reported by The Register: check the Commission, CERT-EU's 5 November warning and the FBI advisory",
+        "Whether staff data was accessed: not said by the Commission"
+      ],
+      "importance": {
+        "score": 5,
+        "reason": "A same-day agentic cyberattack on the European Commission itself."
+      },
+      "photo": {
+        "url": null,
+        "description": "none identified",
+        "credit": null,
+        "licence": null,
+        "reuse": "link only"
+      }
+    },
+    {
+      "id": "js-2026-11-19-06",
+      "title": "OpenAI opens its Daybreak cyber-defence tool to NATO and European governments; ENISA finds four flaws in EU software",
+      "summary": "OpenAI gave NATO's Communications and Information Agency, France, Germany and Poland access to Daybreak, which lets defence teams use its models to audit software and find and patch flaws; Ukraine uses it to protect civilian infrastructure. ENISA used the models to find four vulnerabilities in software used by EU institutions, and in a joint report with CERT-EU on 27 projects 95% of 88 reported issues were real bugs.",
+      "why_it_matters": "The defensive side of the same week: agents used under human oversight to find flaws before attackers' agents do, and a US lab inside Europe's cyber defence, a sovereignty question too.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/",
+          "publisher": "The Decoder",
+          "published": "2026-11-17",
+          "read": "2026-11-19T18:09Z"
+        }
+      ],
+      "claims_to_check": [
+        "ENISA and CERT-EU's joint report (the 4 flaws, 88 issues, 95%)",
+        "NCIA's own statement"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "European institutions adopting agentic cyber defence; two days old; pairs with the Commission attack."
+      },
+      "photo": {
+        "url": null,
+        "description": "none credited",
+        "credit": null,
+        "licence": null,
+        "reuse": "link only"
+      }
     }
   ],
   "skipped": [
@@ -134,6 +199,10 @@
     {
       "what": "Satya Nadella on agents and web ad economics (TechCrunch, 18 November); Sequel $15M; Daydream's stylist agent",
       "why": "below the bar"
+    },
+    {
+      "what": "KPMG put 100+ AI agents alongside a UK audit team (The Decoder); Adecco: agent use at work up to 74% (Jornal de Negócios)",
+      "why": "below the bar today"
     }
   ],
   "wakes": [
@@ -141,6 +210,11 @@
       "at": "2026-11-19T14:02Z",
       "added": 4,
       "note": "manual run at Silvio's word: the first daily digest (digests/2026-11-19.md); the scheduled task is still disabled"
+    },
+    {
+      "at": "2026-11-19T18:09Z",
+      "added": 2,
+      "note": "scheduled daily wake (18:07 Lisbon); digest updated"
     }
   ]
 }
