@@ -41,7 +41,7 @@ The links are there, so you can go and read the details at their source yourself
 
 ## An example from our own record
 
-Before 11 November, some of our articles gave times, rooms and speakers taken only from the Web Summit website. Since then we do not read that site by machine. On 18 and 19 November, re-checking our articles claim by claim, we took those details off two of them and said so in a dated update on each; a third now says which of its details come only from a page we no longer read and have not been re-checked. The events are still there, with what other sources confirm; the details that rested only on that site are withheld.
+Before 11 November, some of our articles gave times, rooms and speakers taken only from the Web Summit website, which we no longer read by machine. On 18 and 19 November, re-checking our articles claim by claim, we took those details off two of them and said so in a dated update on each; the events are still there, with what other sources confirm. A third article took its programme from the event's page on Luma, another site we no longer read by machine: it now says which details come only from that page and have not been re-checked.
 
 ## Why
 
