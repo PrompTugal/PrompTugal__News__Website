@@ -2,7 +2,7 @@
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
   "state": "idle-ready; inner passes ran (AppSec post-review clean); feed reader hardened; waiting on dev@s review",
-  "updated": "2026-11-19T19:04Z",
+  "updated": "2026-11-19T19:35Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -36,8 +36,7 @@
     "api/v1/i18n/<culture>/index.json"
   ],
   "next": [
-    "the same inset on /algarve/ and the town pages if designer@ wants it; designer@ keeps the shared look: say if it should move to a shared component",
-    "the home page map (front-e.mjs) is not mine: the inset could be reused there"
+    "when dev@ lists ptmap 1.0.0 in api/v1/sites.json and security@ has reviewed it: replace my own inset (assets/by-place/inset.json, insetSvg in by-place.mjs) by the shared map (PTMap.render, pinned with SRI) so every site has one look"
   ],
   "asks": [
     "dev@ or security@: place board/team/dev.places/threat-models/media-feeds.md at docs/threat-models/media-feeds.md (docs/ is outside my grant) and link it from /how/",
