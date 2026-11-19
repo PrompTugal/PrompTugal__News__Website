@@ -142,20 +142,26 @@ BP_W.more = function (n) { var all = { en: 'Show all', pt: 'Ver todos', es: 'Ver
 
 // How fresh each live value is (designer.places@, 16 Nov 2026): beside a time read "HH:MM UTC", the reader's browser
 // adds "N min ago" (or "N h ago"); a value over three hours old is dimmed. Only for times of today, by UTC.
+// It runs again when the band changes (a value loaded live from the data site replaces the built line), 19 Nov 2026.
 ;(function () {
-    var ems = document.querySelectorAll('.bp-frame .bp-nowband ul.bp-now > li > em')
-    var now = new Date()
-    Array.prototype.forEach.call(ems, function (em) {
-        var m = /\b(\d{2}):(\d{2}) UTC\b/.exec(em.textContent); if (!m) return
-        var t = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), +m[1], +m[2])
-        var mins = Math.round((now.getTime() - t) / 60000)
-        if (mins < 0) mins += 24 * 60 // a reading from yesterday evening, seen just after midnight UTC
-        if (mins < 0 || mins > 24 * 60) return
-        var s = document.createElement('span'); s.className = 'bp-age'
-        s.textContent = ' · ' + (mins < 60 ? BP_W.min(mins) : BP_W.hr(Math.floor(mins / 60)))
-        em.appendChild(s)
-        if (mins > 180) em.parentNode.classList.add('bp-stale')
-    })
+    var band = document.querySelector('.bp-frame .bp-nowband'); if (!band) return
+    function age() {
+        var ems = band.querySelectorAll('ul.bp-now > li > em'), now = new Date()
+        Array.prototype.forEach.call(ems, function (em) {
+            if (em.querySelector('.bp-age')) return
+            var m = /\b(\d{2}):(\d{2}) UTC\b/.exec(em.textContent); if (!m) return
+            var t = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), +m[1], +m[2])
+            var mins = Math.round((now.getTime() - t) / 60000)
+            if (mins < 0) mins += 24 * 60 // a reading from yesterday evening, seen just after midnight UTC
+            if (mins < 0 || mins > 24 * 60) return
+            var s = document.createElement('span'); s.className = 'bp-age'
+            s.textContent = ' \u00b7 ' + (mins < 60 ? BP_W.min(mins) : BP_W.hr(Math.floor(mins / 60)))
+            em.appendChild(s)
+            em.parentNode.classList.toggle('bp-stale', mins > 180)
+        })
+    }
+    age()
+    if (window.MutationObserver) new MutationObserver(function () { age() }).observe(band, { childList: true, subtree: true })
 })()
 
 // Local media (designer.places@, 16 Nov 2026): the plain list becomes a grid of small cards (name, kind chip, the
