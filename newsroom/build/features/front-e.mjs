@@ -122,10 +122,11 @@ function ptMap(ctx, PR) {
 function nowLine(ctx) {
     const rd = f => { try { return JSON.parse(fs.readFileSync(path.join(ctx.ROOT, f), 'utf8')) } catch { return null } }
     const R = rd('data/by-place/now/algarve.json'), F = rd('data/by-place/now/faro.json'); if (!R) return ''
-    const esc = ctx.md.esc, r = F && F.station && F.station.reading, fr = F && F.fire_risk && F.fire_risk.days[0], w = R.warnings.active
-    const bits = [r && put(item('nowlink'), { href: esc(F.station.source), text: `Faro ${r.temp_c} °C` }), fr && esc(`fire risk ${fr.level}`),
-        put(item('nowlink'), { href: esc(R.warnings.source), text: w.length ? esc('IPMA: ' + w.map(x => `${x.level} ${x.type} from ${String(x.start).slice(5, 10)}`).join(', ')) : 'IPMA: no warning' }),
-        R.airport && put(item('nowlink'), { href: esc(R.airport.source), text: `Faro airport: ${R.airport.airline.length} airline flights near` })].filter(Boolean)
+    // promptugal.news bills, so no IPMA values here (Dinis, 18 Nov 23:45: board/guidance/2026-11-18-billing-only-on-the-main-site.md):
+    // Faro airport (adsb.lol, ODbL) and a link to the weather on weather.promptugal.news
+    const esc = ctx.md.esc, ap = (F && F.airport) || R.airport
+    const bits = [ap && put(item('nowlink'), { href: esc(ap.source), text: `Faro airport: ${ap.airline.length} airline flights near` }),
+        put(item('nowlink'), { href: 'https://weather.promptugal.news/places/algarve/', text: 'the weather and IPMA warnings: PrompTugal Weather' })].filter(Boolean)
     return put(item('now'), { bits: bits.join(' · '), at: esc(String(R.read_at).slice(11, 16)) })
 }
 

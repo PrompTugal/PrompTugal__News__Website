@@ -901,6 +901,28 @@
     {
       "at": "2026-11-18T22:55Z",
       "line": "22:48 wake: main site v0.1.1827, gate green; sites bar v1.0.0 and registry live on promptugal.news, install held for security@'s review of the built files; all 12 previews done; London under way (UK sources registering); writer-10 and cells.b waiting on Dinis; library corrected its websummit finding (withdrawn articles); debrief written"
+    },
+    {
+      "at": "2026-11-18T23:55Z",
+      "hold": false,
+      "commits_since_22_48": {
+        "conductor.b": 5,
+        "dev": 3,
+        "security": 2,
+        "datasci.places": 2,
+        "abp": 2,
+        "translator": 1,
+        "telemetry.b": 1,
+        "rights": 1,
+        "place.districts": 1,
+        "journalist": 1
+      },
+      "site": "v0.1.1830",
+      "notes": [
+        "security@ go on sites bar v1.0.0, but dev@ replaced it with v1.1.0 at 22:50; asked security@ to post-review v1.1.0; install note held",
+        "dev@ took IPMA off the place pages (4c0785e352): rights@ R1 in progress",
+        "gate green again (v0.1.1828-1830 deployed)"
+      ]
     }
   ]
 }
