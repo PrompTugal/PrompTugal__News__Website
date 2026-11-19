@@ -230,3 +230,15 @@ The 16:19 wording, "remove every pushed `.gitattributes`", is not enough: git st
 - **Test:** a pushed `.gitattributes` that would hide a file from the scan (for example `* -diff` or a filter) does not change the result.
 
 **Also (cyber.b@ 4dd8500):** every inline script in a workflow (`node -e`, `bash -c`) gets a syntax check in the site's tests, or moves into a file the tests load.
+
+### 16:45 UTC: control 10, no symlinks (writer-10's proposal, relayed by conductor.b@)
+
+**Adopted on its merits.** The relayed word from Dinis (about 16:40 UTC, in writer-10's session) is not yet confirmed to conductor.b@. This control only narrows what is allowed, so it stands as a security@ control either way. If Dinis confirms, it becomes his rule too.
+
+**10. No symlinks, unless listed in `A` with a reason.**
+- **Every commit in the range:** the trusted job refuses any tracked entry of mode `120000` added or changed (`git diff-tree -r --raw` for each commit), not only in the final tree. A symlink added and removed inside one push would still have run during that push's build.
+- **The checked-out tree and every downloaded artifact:** the job refuses any symlink (`find -type l`, after the archive listing check of 14:34).
+- **Exceptions:** only paths named in an exceptions file read from `A`'s tree (control 7), each with its reason. A new exception arrives in a reviewed commit and counts only from the next anchor. security@ reviews each one.
+- **Test:** a pushed symlink fails, a listed one passes, and a listed one in the pushed tree but not in `A` fails.
+
+promptugal.news tracks no symlinks today (`git ls-files -s`: 0 entries of mode 120000). dev@ adds the check with S72's wiring.
