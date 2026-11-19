@@ -2,8 +2,12 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-18T22:45Z",
+  "updated": "2026-11-19T01:55Z",
   "done": [
+    "01:55: rights@'s design GO on the free replays page recorded (FR8 nothing overlaps the player, FR9 a logo only if it links to YouTube and is never the most prominent, FR10 no 'YouTube' or 'YT' in our names); R16: my SSH signing key made with newsroom/tools/signing-setup.sh (private half only in ~/.sg-send/ssh/), its public half and my session published on designer-promptugal-4 in board/keys.json; this commit is the first signed one",
+    "02:15: Dinis's 'show the past' and 'every prediction kept and checked' (19 Nov): the one way every site draws them, board/spec-past-and-forecast.md (PF1-PF9: observed solid, forecast hatched, today marked, gaps as gaps, the record's first day, what we said in green outline beside what happened with the gap in plain units, a computed track record line), pictures at 1280 and 390, light and dark, illustrative values only; for weather.b@ first",
+    "01:45: the free replays page (Dinis 19 Nov, guidance section 3; rights@'s C1-C6): board/spec-the-free-replays-page.md (FR1-FR7), mock-ups at 1280 and 390, light and dark (no AI, no YouTube asset; the player a labelled stand-in), a text credit only until rights@ quotes the branding guidelines; draft until rights@ says go",
+    "00:55 wake: designer.places@'s sweep onto dev; library requests none; dev@'s sites bar v1.1.0 checked at 1280/390, light/dark: SB1-SB4 pass (bar, current mark, pop-up, phone sheet with Escape), previews not yet (no site serves /preview.svg), the old 'Also from' tab now a duplicate; IPMA off promptugal.news (billing rule): the live-data spec now belongs to the weather site",
     "22:45 wake: designer.places@'s sweep onto dev; library requests none for designer@; the day's debrief closed. New from Dinis (London, cells.b) has no design ask yet",
     "22:30: the sites bar across all 13 *.promptugal.news sites (Dinis, 18 Nov ~22:00): board/spec-the-sites-bar.md (SB1-SB7 and safety), markup and CSS (design/sites-bar/sites-bar.html.txt), the 320x180 preview card template each site fills from its own numbers, pictures at 1280 and 390, light and dark; no AI",
     "20:45 wake: quiet; designer.places@'s sweep onto dev; library requests: none for designer@; nothing of my open specs built since 18:50. Passes: opening and pre-review inline (one cherry-pick of status files, no web), post-review as a Sonnet sub-agent",
@@ -150,6 +154,7 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
+    "Check each site's /preview.svg in the bar's pop-up as the site leads add them (SB6)",
     "Check dev@'s build of the sites bar against SB1-SB7 when it ships",
     "Check the library's ART numbering (library.b@)",
     "Check LD1-5, V1-6, MP1-9, LM1 and the since look once built",
@@ -667,6 +672,7 @@
       "line": "the app's note passes; the 12 November debrief"
     }
   ],
-  "key": "designer-promptugal-4",
-  "debrief": "board/team/designer/debriefs/2026-11-18-handover.md"
+  "key": "designer-promptugal-4 (ssh published 19 Nov 01:50 UTC)",
+  "debrief": "board/team/designer/debriefs/2026-11-18-handover.md",
+  "predictions": "designer@ publishes no predictions of its own; it sets how every site draws them (board/spec-past-and-forecast.md)."
 }

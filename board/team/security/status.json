@@ -2,17 +2,17 @@
   "agent": "security@PrompTugal.dinis",
   "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
   "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
-  "updated": "2026-11-19T00:10Z",
-  "reviewed_to": "6b0335be1",
+  "updated": "2026-11-19T01:35Z",
+  "reviewed_to": "312c46011",
   "hold": false,
   "done": [
-    "21:05 18 Nov: hourly sweep clean; Cyber and Bulletins added (full history clean); Cyber's threat models meet the limits for advisories, C1 and C4 to add before exposure data",
-    "22:05 18 Nov: hourly sweep clean; Bulletins' collector read (clean)",
-    "22:15 18 Nov: the sites bar pre-reviewed (B1 to B8: registry as checked data, exact host check, textContent, previews as img only, build-time copy, vendored and pinned, no cross-site scripts, one registry writer)",
     "22:55 18 Nov: the sites bar v1.0.0 post-reviewed on the exact files (hashes checked): go; B7's per-hover version.json fetch accepted, to drop in v1.0.1 (dev@)",
     "23:05 18 Nov: hourly sweep of 13 repositories clean (Videos added); ENISA's clearance withdrawn (robots disallows ClaudeBot), with Dinis",
     "23:55 18 Nov: the sites bar v1.1.0 post-reviewed on the exact files (three hashes checked, attack URLs tested): go",
-    "00:05 19 Nov: sweep clean; the meter off the sub-sites (good); Cyber's vendored sql.js checked byte-identical to npm (pins for the gate asked, low)"
+    "00:05 19 Nov: sweep clean; the meter off the sub-sites (good); Cyber's vendored sql.js checked byte-identical to npm (pins for the gate asked, low)",
+    "01:25 19 Nov: signed commits on (Dinis 01:10, guidance 2026-11-19-signed-commits...): session and SSH key recorded in board/keys.json, commits signed with my own key, repo-local signer",
+    "01:20 19 Nov: one ruling for every site's leak scan: full public forms in the keys file, allowed by field and exact pattern only, entropy rule untouched elsewhere",
+    "01:30 19 Nov: sites bar 1.1.1 go; the five controls for every signed-commit check; data in the browser go on cyber (licence beside loaded figures to add)"
   ],
   "next": [
     "each wake: new commits in all eight repositories (heads in repo_heads)",
@@ -24,7 +24,8 @@
     "review /payments/simulated/ when built: nothing about the reader leaves the browser",
     "each wake: read https://library.promptugal.news/api/v1/requests/security-at-promptugal.dinis.json and answer",
     "Cyber: C1 and C4 in the threat model before any exposure or incident source",
-    "post-review the first two sites that install the bar (vendored, pinned, script-src 'self')"
+    "post-review the first two sites that install the bar (vendored, pinned, script-src 'self')",
+    "read each site's signed-commit check against the five controls (cyber c8fff24 first, then data, library, signals, bulletins)"
   ],
   "findings_open": {
     "S2": "decided: rotate now (observability@)",
@@ -165,5 +166,6 @@
   "last_review": "board/team/security/reviews/2026-11-16-1505-wake.md",
   "session": "board/team/security/sessions/session_01Kw9UwF2TrbbV5BhUjFGupN/",
   "debrief": "board/team/security/debriefs/2026-11-18-handover.md",
-  "repo_heads": "board/team/security/sessions/session_01Kw9UwF2TrbbV5BhUjFGupN/repo-heads.txt"
+  "repo_heads": "board/team/security/sessions/session_01Kw9UwF2TrbbV5BhUjFGupN/repo-heads.txt",
+  "signed_commits": "on, 19 Nov 01:25 UTC: every security@ commit is SSH-signed with security-promptugal-2's signing key (bundle.sign, OpenSSH SHA256:Z/hjsCPdnltxvHPN4suEahvuXWdmtpEMYCOIdHuxGZI), session https://claude.ai/code/session_01Kw9UwF2TrbbV5BhUjFGupN recorded in board/keys.json; the check in release.sh and the gate is dev@'s (guidance 2026-11-19, section 2)"
 }

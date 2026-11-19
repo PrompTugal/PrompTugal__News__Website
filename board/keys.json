@@ -73,7 +73,10 @@
         "fingerprint": "sha256:a4b21ae0138b4c91",
         "signing_fingerprint": "sha256:b3a6380b12a80e7d"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKNhX5RJLFkXUuoSB4JVglG6RpYrXNIdcTqcgTFPCNsi",
+      "session": "https://claude.ai/code/session_01Kw9UwEA7TFC7iKpVctAi2t",
+      "ssh_added": "2026-11-19T01:10Z"
     },
     {
       "id": "designer-promptugal",
@@ -147,7 +150,10 @@
         "fingerprint": "sha256:0e6fb8566cd3031b",
         "signing_fingerprint": "sha256:af1c72eb0b7a1d05"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOHLCL1yZp09nC6GQMR2sx2bbckmOvLelVqHlKA0QOt9",
+      "session": "https://claude.ai/code/session_01Kw9UwEq1n6W1EdcdvX5uGE",
+      "ssh_added": "2026-11-19T01:36Z"
     },
     {
       "id": "designer.experiments-promptugal",
@@ -3416,7 +3422,14 @@
         "record": "sha256:0eb02bbb48ac2517",
         "signing_fingerprint": "sha256:0eb02bbb48ac2517"
       },
-      "status": "active"
+      "status": "active",
+      "session": "https://claude.ai/code/session_01Kw9UwF2TrbbV5BhUjFGupN",
+      "ssh_signing": {
+        "public_key": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAPakiwXTz+fJ1qblvRB7eHZo3NpLpTelsgKljVNvucpyk82qBtD/3qbGdRNfp0YwvhYBnD1Mnwb/MB0+p2g1YE=",
+        "fingerprint": "SHA256:Z/hjsCPdnltxvHPN4suEahvuXWdmtpEMYCOIdHuxGZI",
+        "from": "bundle.sign (the same ECDSA P-256 key, in OpenSSH form)",
+        "since": "2026-11-19T01:25Z"
+      }
     },
     {
       "id": "abp-promptugal-c",

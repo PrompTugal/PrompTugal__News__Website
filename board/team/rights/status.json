@@ -1,25 +1,35 @@
 {
   "agent": "rights@PrompTugal.dinis",
   "focus": "licences, terms, attribution, commercial use and privacy rights across every *.promptugal.news site; not legal advice; no agent accepts terms but Dinis",
-  "state": "first run 18 Nov 2026 23:45 UTC: key made (rights-promptugal), first findings written",
-  "updated": "2026-11-19T00:25Z",
+  "state": "wake 19 Nov 00:45 UTC: R1 narrowed, R6 checked on the main site",
+  "updated": "2026-11-19T02:00Z",
   "hold": false,
   "done": [
     "key rights-promptugal in board/keys.json",
     "commercial.json read: 8 allowed, 7 not allowed, 3 per item, 2 unclear",
     "R1: promptugal.news still shows IPMA data (not allowed on the billing site); dev@ told",
-    "terms baselines: Open-Meteo, IPMA (NVD refused, 403)"
+    "terms baselines: Open-Meteo, IPMA (NVD refused, 403)",
+    "00:45 wake: clones pulled; promptugal.news front page has no IPMA data; YouTube terms quoted by data.b@ (30-day storage, credit, no charging for embedded player)",
+    "01:15: Google APIs terms quoted (register/google-apis.md); R7: Books forbids a fee, Vertex results not shown until the 15 sites' terms are on the register",
+    "01:30: YouTube developer policies quoted; conditional GO for the free case-study page (C1 to C6)",
+    "01:35: history sources quoted (IPMA, Open-Meteo archive): free sites only, never promptugal.news; R8",
+    "01:40: YouTube branding guidelines quoted; designer@'s free replays spec: design GO, built page still to review",
+    "01:45: YouTube thumbnails for videos.promptugal.news: GO with T1 to T4; player must not get no-referrer"
   ],
   "next": [
-    "YouTube API terms (R6): quote the terms from the source, set commercial_use, check the four conditions on library, videos, data and promptugal.news",
-    "R1 follow-up once dev@ moves IPMA off promptugal.news",
-    "licence entries per host with commercial_use in assets/licences/sources.json (R2)",
-    "read-only clones of the sibling repositories, then checks 1 and 4 across them",
-    "with abp@: ABP rules (no unclear licence published; commercial site reads only allowed; no agent accepts terms; terms quoted before first read)",
-    "re-read terms a few sources per wake"
+    "review the built free replays page against C1 to C6 and the free-page gate check",
+    "review dev@'s built YouTube page against C1 to C6; quote YouTube's branding guidelines",
+    "R7: quote the 15 sites' terms and robots (Vertex AI Search sources); read Google Cloud service terms for Vertex; find PageSpeed's terms",
+    "R1 residual: IPMA quoted in prose on /algarve/ (ask Dinis)",
+    "per-site check: every value's licence field present (spot checks, then a script in board/team/rights/tools/)",
+    "Videos pages: YouTube credit and terms link",
+    "ABP rules R12 to R15 are now in policy v1.16.0 (abp@): check they match the guidance",
+    "re-read terms of a few sources (NVD refused: 403)"
   ],
   "asks": [
-    "Dinis: may the non-commercial cyber sources (CNPD, Shadowserver, Cloudflare Radar, RIPEstat, abuse.ch) be read on cyber.promptugal.news, a free sub-site?"
+    "Dinis: may the non-commercial cyber sources (CNPD, Shadowserver, Cloudflare Radar, RIPEstat, abuse.ch) be read on cyber.promptugal.news, a free sub-site?",
+    "Dinis: is an IPMA warning quoted in prose in an article on promptugal.news (the billing site) a commercial use of IPMA's data? Until you say, rights@ treats it as unclear.",
+    "Dinis: may Vertex AI Search results (titles, snippets, links from the 15 sites) be shown on any page, and which? rights@ proposes: on no page until each site's terms are quoted; never on promptugal.news."
   ],
   "findings": "board/team/rights/findings.md",
   "latest_debrief": "board/team/rights/debriefs/2026-11-18-handover.md"

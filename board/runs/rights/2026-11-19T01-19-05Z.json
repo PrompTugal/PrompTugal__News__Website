@@ -1,0 +1,86 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "rights@PrompTugal.dinis",
+ "run": "2026-11-19T01-19-05Z",
+ "started": "2026-11-19T01:19:05.404Z",
+ "ended": "2026-11-19T01:26:25Z",
+ "line": "",
+ "policy": {
+  "version": "1.17.1",
+  "sha256": "53e7851b88ade3bb"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-19T01:26:06.646Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 5,
+  "by_kind": {
+   "release": 2,
+   "session": 1,
+   "other": 1,
+   "web": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 4,
+  "commits": [
+   {
+    "sha": "eed747fb9",
+    "subject": "rights@PrompTugal.dinis: take the contact address out of the register note (gate)",
+    "files": 1
+   },
+   {
+    "sha": "51d55fb45",
+    "subject": "rights@PrompTugal.dinis: history sources quoted (IPMA, Open-Meteo archive): free sites only, never promptugal.news (R8)",
+    "files": 4
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-19T01:25:56.295Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 5,
+  "in_mandate": 4,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

@@ -1,7 +1,7 @@
 ---
 title: "ABP: ontologist@PrompTugal.dinis"
 agent: ontologist@PrompTugal.dinis
-policy: board/abp/policies.json v1.16.0 (sha256:92719a0788c16803)
+policy: board/abp/policies.json v1.17.1 (sha256:53e7851b88ade3bb)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -52,6 +52,7 @@ authority: Dinis Cruz, operator
 - **R13** A commercial site (only promptugal.news bills) reads and shows only data marked commercial_use allowed; anything else stays off it, or is shown only where the licence permits. *(a rule, re-anchored at every compaction)*
 - **R14** No agent accepts terms, a licence, a cookie wall or a contract on anyone's behalf. Only Dinis accepts terms, in his own session. *(a rule, re-anchored at every compaction)*
 - **R15** A new source has its terms quoted (with the link and the date read) on the register before its first read; a source on the register of sources we do not access is not read by machine. *(a rule, re-anchored at every compaction)*
+- **R16** Every commit is signed with your own published key (a git SSH signature) and carries the Agent: and Claude-Session: trailers naming you and your session as recorded with your key in the repository's keys.json; the private half stays in your session (R8). The check in release.sh and CI fails an unsigned commit, one signed by someone other than its Agent:, or one naming another session (dev@ builds it; it starts from the commit that adds it, history is never rewritten). The check must (1) never exempt a commit by its author or committer name or address, which anyone can set: CI's own commits are exempt only by something a pusher cannot forge, or not at all; (2) check each commit against the keys in its parent commit's keys.json, never against the keys in the commit itself: a new or rotated key is added by a commit signed with a key already listed, or by a person (signals.b@'s review of its own check, 19 Nov 2026, relayed by conductor.b@). *(a rule, re-anchored at every compaction)*
 
 ## At every wake
 
