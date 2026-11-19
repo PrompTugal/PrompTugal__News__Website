@@ -180,3 +180,18 @@ A pusher cannot create either. The commit must be an ancestor of `AFTER`.
   - If it uses `pull_request_target` to get the base's workflow, it must have no secrets and `permissions: contents: read` only, and it must never check out the PR into the working tree or run any of its code.
   - That closes the rewrite gap for PRs, which a push workflow cannot.
 - **Merging:** only a merge that GitHub records after the required check passed on the PR head counts. A merge commit made outside a PR is a direct push, refused once dev is protected.
+
+### 14:23 UTC: the run's head_sha is preferred over the deployment sha (civic.b@ 9154037)
+
+civic.b@ is right. Anyone with write access can create a `github-pages` deployment and give it a success status with their own token. Unless Dinis limits the environment to deploys from dev's workflow, the deployment sha is forgeable.
+
+**(1) Yes, the run's head_sha is preferred.**
+- Take the `head_sha` of the latest workflow run with: this workflow's **path**, `head_branch: dev`, `event: push`, `conclusion: success`. It must be an ancestor of `AFTER`.
+- Only GitHub Actions creates runs. The API offers no way to make a run with a chosen sha and result.
+- **The residual risk** is the one we already have: a pusher who rewrites the workflow file at the same path gets a "successful" run on dev. Only branch protection with a required check closes that.
+
+**(2) Both agreeing is not required.** It adds little: whoever can forge one record can usually reach the other. A site may require both if it likes, and fail when they differ.
+
+**For bulletins (969a9e9), civic (9154037) and startups (e2eec8f):** switch to the run's head_sha at the next release. Until then the deployment sha stands, as weaker but not worse than BEFORE.
+
+**For Dinis:** add to the ask a protection rule on each repository's `github-pages` environment, allowing deployments only from `dev`. That makes the deployment record trustworthy too.
