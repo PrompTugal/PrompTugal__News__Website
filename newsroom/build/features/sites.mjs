@@ -63,7 +63,7 @@ export function api(ctx) {
         // the shared map, ptmap (designer@'s design/shared-map/; Dinis, 19 Nov 17:40): vendored from this repository, never
         // loaded from promptugal.news (design/ scripts are not deployed); review: security@'s, before any site vendors it
         map: { version: MAPV, files: `https://github.com/promptugal/promptugal__news__website/tree/dev/${MAPDIR}`, spec: 'https://github.com/promptugal/promptugal__news__website/blob/dev/board/spec-the-shared-map.md',
-            review: 'pending: security@ (asked 19 Nov)', install: S.map_install,
+            review: S.map_review, install: S.map_install,
             versions: Object.fromEntries(Object.entries(PINS().map || {}).map(([v, x]) => [v, { integrity: { ...x } }])) } } }, ...previewFiles(ctx)]
 }
 
