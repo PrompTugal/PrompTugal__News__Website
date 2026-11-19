@@ -88,7 +88,19 @@ GATED_OVER=""
 ATTEMPTS=${RELEASE_ATTEMPTS:-30}
 for attempt in $(seq 1 "$ATTEMPTS"); do
   git fetch -q origin "$BRANCH"
-  if ! git rebase -q "origin/$BRANCH"; then
+  if git merge-base --is-ancestor "origin/$BRANCH" HEAD; then
+    :  # already on top of dev: nothing to replay
+  elif [ -n "$(git rev-list --merges "origin/$BRANCH..HEAD")" ]; then
+    # a worker's branch came in by merge: a rebase would flatten it and re-sign the worker's commits under
+    # another key (security@'s S72), so dev is merged in instead, with the releasing agent's trailers
+    SESSION=$(git log -1 --format='%(trailers:key=Claude-Session,valueonly)' --author-date-order "origin/$BRANCH..HEAD" | head -1)
+    if ! git merge -q --no-ff "origin/$BRANCH" -m "${AGENT}: merge dev
+
+Agent: ${AGENT}${SESSION:+
+Claude-Session: ${SESSION}}"; then
+      echo "release.sh: your merge conflicts with dev; resolve it by hand:"; git diff --name-only --diff-filter=U; git merge --abort; exit 1
+    fi
+  elif ! git rebase -q "origin/$BRANCH"; then
     # appends to board/keys.json on both sides are merged by id; anything else stops for a person
     while rebasing && resolve_keys; do GIT_EDITOR=true git rebase --continue >/dev/null 2>&1 || true; done
   fi
