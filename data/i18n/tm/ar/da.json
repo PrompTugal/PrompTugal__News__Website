@@ -1,0 +1,26 @@
+{
+ "da40d828158b0f3f": {
+  "t": "فتح مجلس إدارة الحديقة مناقصة عامة بقيمة 308,000 يورو زائد ضريبة القيمة المضافة لتصميم Brigantia EcoPark 2. ويحصي التقرير 82 شركة ومركزي بحث ونحو 430 عاملاً، بإشغال قرابة 98 في المئة. ولا تذكر الصفحة الذكاء الاصطناعي.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The park's board opened a public tender worth 308,000 euros ",
+  "ok": false
+ },
+ "da8ebf652ad46ed4": {
+  "t": "Eh pá، Silves: عاصمة Algarve قبل أن يصبح ذلك رائجاً، لا تزال تحرس laranjas من قلعة بلون اليوسفي الناضج.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Eh pá, Silves: a capital of the Algarve before it was cool, ",
+  "ok": false
+ },
+ "dab047fa0598eb82": {
+  "t": "باحثو INESC TEC يجتمعون في UTAD للحديث عن الذكاء الاصطناعي والمسارات العلمية",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "INESC TEC researchers meet at UTAD to talk AI and scientific",
+  "ok": false
+ }
+}

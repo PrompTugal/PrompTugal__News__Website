@@ -1,0 +1,18 @@
+{
+ "be5099c1271641c4": {
+  "t": "بلد على حافة أوروبا الأطلسية كتب لنفسه نموذجاً لغوياً خاصاً به، ويتمنى أن تجرّبوه.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "A country on the Atlantic edge of Europe that wrote itself a",
+  "ok": false
+ },
+ "be99630c0197edb6": {
+  "t": "فُتح التقديم لخطة Algarve التجريبية للذكاء الاصطناعي والروبوتات للشركات الصغيرة والمتوسطة في السياحة",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Applications opened for the Algarve's pilot AI and robotics ",
+  "ok": false
+ }
+}
