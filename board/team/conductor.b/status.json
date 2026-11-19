@@ -1,8 +1,8 @@
 {
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "06:48 wake: promptugal.news stuck at v0.1.1849 since 05:43: the validate job hits its 5-minute timeout; dev@ told. Sub-sites fine.",
-  "updated": "2026-11-19T06:54Z",
+  "state": "09:48 wake: quiet; all fresh; asks for Dinis unchanged.",
+  "updated": "2026-11-19T09:50Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -140,6 +140,8 @@
     "03:48 wake with the ledger"
   ],
   "asks": [
+    "Dinis: how a new session's key is added at a handover (signals.b@ wants to hand over; library.b@ asks too). Recommended: the old session adds the new key in a commit signed with its own key, then stops; or you add each new key yourself.",
+    "Dinis: civic.b@ and weather.b@ need your yes in their sessions to run ssh-keygen for their signing keys.",
     "Dinis: the sites bar pins (sha256 of public files) trip the sites' leak scans. events.b@ (https://claude.ai/code/session_01Kw9UwFXMRMbjVXqFeQTc4G) and weather.b@ (https://claude.ai/code/session_01Kw9UwB9LVh52kiZLXo5ytn) wait for your yes on a narrow allowlist; dev@ is asked for one standard (SRI form or a standard allowlist line) so you answer once.",
     "Dinis: the cameras site: cams.promptugal.news or live.promptugal.news (create the repo).",
     "Dinis: a Meta app for Threads and Instagram; a Shodan or Censys key: both open.",

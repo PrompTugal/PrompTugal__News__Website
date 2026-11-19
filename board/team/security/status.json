@@ -2,17 +2,17 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
  "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
- "updated": "2026-11-19T06:04Z",
- "reviewed_to": "f40aa1fe2",
+ "updated": "2026-11-19T09:05Z",
+ "reviewed_to": "3ee650040",
  "hold": false,
  "done": [
+  "09:05 19 Nov: wake sweep clean (Website 23, Data 2; others quiet); by-place code read, fine",
+  "08:04 19 Nov: wake sweep of 20 repositories clean; S71 fixed and verified; weather's SHA-1 pin gone",
+  "07:50 19 Nov: sites bar 1.2.1 post-reviewed on the exact files: go for the 12 sites; S71 low (pins append-only check compares with HEAD)",
+  "07:04 19 Nov: wake sweep clean; sites bar 1.2.0 go (less code, no new input); CI timeout 5 to 12 min fine",
   "06:04 19 Nov: wake sweep of 20 repositories clean; SRI ruling followed: startups, bulletins and travel done, weather's SHA-1 pin open (low)",
   "05:09 19 Nov: leak-scan ruling: explicit OpenSSH private and public key rules for every site; registry version bump: degrade by leaving the file out, stop on same-version mismatch; per-version pins asked of dev@",
-  "04:55 19 Nov: SRI ruling tightened to startups.b@'s exact-length pattern; every site converges on comparing with the registry (startups and weather low notes)",
-  "04:51 19 Nov: one ruling for every SRI pin on every site (check against the registry; else exempt by file, field and exact pattern), for travel.b@ and bulletins.b@",
-  "03:05 19 Nov: wake sweep of 20 repositories (7 swept whole for the first time: the apps, Fringe, Storm-Charles, Swarm): no secret, no private contact; S70 low (a dormant websummit.com reader in Storm-Charles)",
-  "02:22 19 Nov: data.b@'s nvd-kev baseline (a902800) go, one low; the NVD gap reader cleared to build under four conditions",
-  "02:18 19 Nov: the CVE store on cyber (e7cda64) reviewed: go, four low notes to cyber.b@ (reviews/2026-11-19-0220-cve-store.md)"
+  "04:55 19 Nov: SRI ruling tightened to startups.b@'s exact-length pattern; every site converges on comparing with the registry (startups and weather low notes)"
  ],
  "next": [
   "each wake: new commits in all eight repositories (heads in repo_heads)",

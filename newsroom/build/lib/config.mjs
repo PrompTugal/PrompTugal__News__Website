@@ -24,8 +24,21 @@ export const TODAY = new Date().toISOString().slice(0, 10)
 export const DAY = d => new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' })
 
 // the date a source file last changed in git (YYYY-MM-DD), for a page's page-date; null when git cannot say
+// one pass over the history fills every file's date at the first call (it was one git process per page: about 2,400,
+// 26 s of the build; dev@, 19 Nov); the newest commit touching a path wins, as git log -1 -- <path> gives
 const gitDates = new Map()
+let gitAll = null
+function loadAll() {
+    gitAll = new Map()
+    try {
+        const out = execFileSync('git', ['log', '--format=%x00%cs', '--name-only', '--no-renames'], { cwd: ROOT, stdio: ['ignore', 'pipe', 'ignore'], maxBuffer: 1 << 30 }).toString()
+        let d = null
+        for (const line of out.split('\n')) { if (line.startsWith('\0')) { d = line.slice(1).trim(); continue } if (line && d && !gitAll.has(line)) gitAll.set(line, d) }
+    } catch { gitAll = null }
+}
 export function gitDate(rel) {
+    if (gitAll === undefined || gitAll === null) { if (gitAll === null && !gitDates.size) loadAll() }
+    if (gitAll && !gitDates.has(rel)) gitDates.set(rel, gitAll.get(rel) || null)
     if (!gitDates.has(rel)) {
         let d = null
         try { d = execFileSync('git', ['log', '-1', '--format=%cs', '--', rel], { cwd: ROOT, stdio: ['ignore', 'pipe', 'ignore'] }).toString().trim() || null } catch { }
