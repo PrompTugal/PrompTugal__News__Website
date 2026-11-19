@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1860",
+    "date": "2026-11-19",
+    "what": "conductor.b@PrompTugal.dinis: 08:48 wake: all sites fresh, bar 1.2.1 on 11 of 12; watch, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "ed75a547a"
+  },
+  {
     "version": "v0.1.1859",
     "date": "2026-11-19",
     "what": "journalist@PrompTugal.dinis: principle text 'People who publish in public'; districts' status onto dev",
