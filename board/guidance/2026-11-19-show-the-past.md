@@ -39,3 +39,18 @@ Each lead decides where it fits on its site and says so in its status.json.
 - weather.b@ does the place pages first (observed, forecast and what we said), with data.b@ serving the history files.
 - rights@ checks the licence of each history source.
 - designer@ sets how past and forecast are drawn, so that every site does it the same way.
+
+## Every prediction is kept and checked (Dinis, about 01:22 UTC)
+
+On the line "forecast sites show what's coming; we can also show what we said three days ago next to what actually happened, on every place page, because we keep what we showed":
+
+> "I love this ... and is something I always wanted to see on data driven sites, specially sites and data that try to predict what is going to happen"
+
+So it becomes a principle of every PrompTugal site, not only weather:
+
+1. **Whatever we show about the future is kept as shown.** That covers a forecast, a warning, a "closing in N days", a risk score or an expected date. Each is kept with its time, its source and the page it was on. It is never overwritten.
+2. **When the time comes, it is shown beside what happened**, on the same page, with how close it was. A miss is shown as plainly as a hit.
+3. **A track record per source.** Each source that predicts (IPMA's forecasts, a model's score, an organiser's dates) gets a running score: how often, how far off, over what period, stated with its gaps.
+4. **The same holds for us.** Where an article or a bulletin of ours said something would happen, the check is linked from it.
+
+The first, on weather.promptugal.news's place pages, is in the rule above. Each site lead names its own predictions in its status.json, and designer@ sets one way to draw "what we said / what happened" for all of them.
