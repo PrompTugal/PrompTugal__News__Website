@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1909",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: twice-daily staleness: the airport line reads stale_after_seconds; the dashboard waits 13 hours",
+    "by": "dev@PrompTugal.dinis",
+    "from": "4e07a35bc"
+  },
+  {
     "version": "v0.1.1908",
     "date": "2026-11-19",
     "what": "maestro.b (account-b): twice a day: my wake at 10:18 and 21:18 Lisbon (Dinis, ~16:30 UTC), checked",
