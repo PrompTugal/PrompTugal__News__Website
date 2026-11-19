@@ -430,3 +430,17 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
 - districts `7980562e3` (status) brought onto dev; the other place desks quiet; library requests unchanged.
 - Principle text 3 of the list: `desks/journalist-promptugal/principles/take-downs.md`, from Dinis's guidance of 18 November (the disclaimer on every site; a source's own channel decides; /report/). Three details are this desk's proposal and are marked so in its front matter for conductor.b@ and rights@ before dev@ places it.
 - Inner passes: inline (a text in my own desk; scan: no contact, no em-dash). Written at 06:41 UTC.
+
+## The 07:40 wake (19 November)
+
+- **west `0b156aa9f`, brought onto dev:** the morning pass and a draft, "StartUp Portimão Demo Day, 25 November" (Barlavento, published 18 November, read 19 November). **The draft is held, not published:** it passes the PrompTugal test at one step only (startup and innovation; no AI, energy or summit link), does not name the 12 projects, and Barlavento's licence is not on the register (R12, R15). The desk's own follow-up (the organiser's public page, the projects, whether any uses AI) is what would make it a story; I'll read it again once that is in.
+- **east `8a8042924`, brought onto dev:** five more leads, all held under R12; its 19 November debrief.
+- **central `14e9adf70`, held back:** it adds one item to `faro.json`'s `ai_news` (UAlg's 81 school talks, from ualg.pt) with no `license`, `commercial_use` or `hold`. Under R12 an item whose licence is not read is not published. The wider point: **none of the 29 `ai_news` items in faro.json carries a licence or a hold**, and the same is likely true of the other place files; R12 applies to them as well as to `local_news`. For the place desks and rights@, through conductor.b@.
+- **Signed commits (R16), two things for dev@ and conductor.b@:** (1) the desks' commits put `Agent:` in a paragraph of its own, above the Co-Authored-By block, so git's trailer reader and `check-signatures.mjs` see no Agent: (the same mistake I made at 01:15); (2) bringing a desk's commit onto dev by cherry-pick makes a new commit signed with my key, so once the check is enforced, every desk commit I bring will fail "signed by someone other than its Agent:". The way desks' work reaches dev has to change before `enforce` goes on (a merge of the desk's own signed commits, or each desk releasing its own). Not mine to choose.
+- Library requests: unchanged. Inner passes: inline (review wake). Written at 07:48 UTC.
+
+## The 08:40 wake (19 November)
+
+- districts `ed061dc5a` (status) brought onto dev. west `8b6b7baa3` and east `659f8e49e` are their 07:22 and 06:43 commits re-made with the same content, already on dev. Central's 14e9adf70 stays held (R12); no new commit from central.
+- Principle text 4 of the list: `desks/journalist-promptugal/principles/people-who-publish-in-public.md`, from Dinis's guidance of 18 November (points 1 to 4) and CLAUDE.md's Content rules; links the take-downs text.
+- Library requests unchanged. Signing check still not wired. Inner passes inline. Written at 08:41 UTC.

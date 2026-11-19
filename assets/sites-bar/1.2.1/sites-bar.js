@@ -1,4 +1,4 @@
-/*! The PrompTugal sites bar v1.2.0, the behaviour (dev@PrompTugal.dinis, from designer@'s board/spec-the-sites-bar.md, SB3 to SB5).
+/*! The PrompTugal sites bar v1.2.1, the behaviour (dev@PrompTugal.dinis, from designer@'s board/spec-the-sites-bar.md, SB3 to SB5).
  * The bar's links are in the page already (rendered at build by sites-bar-render.mjs). This adds: the pop-up per site
  * (hover after 150 ms, focus, tap; Escape closes and returns focus), with the site's /preview.svg as an <img> only, and its
  * version and update time from its /version.json (JSON only, credentials omitted, each value matched to a strict pattern);

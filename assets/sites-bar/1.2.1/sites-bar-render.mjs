@@ -1,4 +1,4 @@
-/*! The PrompTugal sites bar v1.2.0, the build-time renderer (dev@PrompTugal.dinis, from designer@'s board/spec-the-sites-bar.md).
+/*! The PrompTugal sites bar v1.2.1, the build-time renderer (dev@PrompTugal.dinis, from designer@'s board/spec-the-sites-bar.md).
  * Each site vendors this file (pinned by version and sha256, as listed in promptugal.news/api/v1/sites.json `bar`), reads the
  * registry at build time and calls render(registry, { here }) to get the bar's HTML for every page. Safety (the spec's):
  * at most 32 sites, every field at most 200 characters; each url parsed with new URL: https only, no user info, no port,
