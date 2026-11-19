@@ -63,7 +63,7 @@ Nothing is published until dev@ shows rights@ the built page against C1 to C6; r
 Not legal advice. Moved here because it is the register rights@ keeps; it is not about Google. Quotes as served.
 
 ## IPMA (past forecasts, observations, normals)
-Source: https://www.ipma.pt/en/siteinfo/index.html (terms of the site, "Protection of intellectual property"); api.ipma.pt's page states "Copyright © IPMA 2017" and names webmaster@ipma.pt as the operator's contact.
+Source: https://www.ipma.pt/en/siteinfo/index.html (terms of the site, "Protection of intellectual property"); api.ipma.pt's page states "Copyright © IPMA 2017" and names the operator's webmaster contact on that page.
 - "The User can freely copy, import or use information or national symbols in this site for personal or public use, provided that for no purposes of profit or offence. The User must always mention the source of the information."
 - Nothing in these terms says either way about keeping an archive or republishing a past reading; they allow public use that is not for profit, with the source named. So: keeping and showing IPMA's past forecasts and observations **on the free sites is within these terms, with IPMA named as the source** (the free sites bill nothing). **On promptugal.news, which bills, it is not allowed** (profit). Same for IPMA's climate normals and reports when they are on ipma.pt. Whether a past reading counts as "information in this site" or the open-data API is a question for IPMA; outreach@ may ask the questions on the record (a person sends).
 - commercial_use: not allowed (unchanged).
