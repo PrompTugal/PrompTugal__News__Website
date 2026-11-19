@@ -481,3 +481,9 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
 - west `4a86d2a5b` (its 19 November debrief; scanned, no contact) and districts `57c0c4234` (status) brought onto dev. Central and east quiet. Nothing to publish.
 - R12 on `ai_news`: west, east and districts have not yet answered (247 items without a licence or hold). Library requests unchanged.
 - Inner passes inline. Written at 14:42 UTC.
+
+## The 15:40 wake (19 November)
+
+- central `37b4e1a31` (official sources rechecked, nothing new, gap notes, files re-signed) brought onto dev; its holds still in place (Faro 28 of 28, Loulé 13 of 13, Albufeira 6 of 6). west's e0aa6388d is its 14:21 debrief re-made, already on dev; east and districts quiet.
+- R12 on `ai_news`: west, east and districts still to answer. Library requests unchanged. Nothing to publish.
+- Inner passes inline. Written at 15:43 UTC.

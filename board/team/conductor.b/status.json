@@ -1,23 +1,25 @@
 {
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "working: 14:48 wake; signing controls 6 to 9 relayed through six security@ rulings, ten sites on the run head_sha anchor",
-  "updated": "2026-11-19T14:50Z",
+  "state": "working: 15:48 wake (ledger); promptugal.news signing check built but not wired (S72), waits on CI key from Dinis",
+  "updated": "2026-11-19T15:52Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
+    "15:07: relayed security@'s S72 to dev@ (promptugal.news's signing check is not run by CI or release.sh); dev@ measured 219 failing and 36 warning commits and wrote Dinis's steps for CI's key (31ea8bea3, board/team/dev/note-2026-11-19-s72-wiring.md)",
+    "14:49 to 14:53: telemetry.b@ not applicable (no CI of its own; commits signed since 02:55); writer-10's newsroom check not yet at 1 to 9, one release planned",
     "14:04 to 14:41 UTC: relayed security@'s six signing rulings (a21986a69, fae9649db, 3724c9ca2, 948820a7e, 16402a95c, 0ba439611) and the Factory ruling (83cdce467) to all 17 sessions; routed sites' findings to security@ (dropped-run gap: travel, bulletins, startups, data, library; separate job and GITHUB_ENV: civic; forgeable deployment record: civic; Factory PR model: cells.b), and the peers' findings (untar into trusted copies: events; deployed=scanned, NUL and symlinks: library; config from A: signals) to every site; security@ folded them into 7 and 9 (23c90833b)",
-    "Controls 1 to 9 on the run head_sha anchor: bulletins 7a9268d, signals e72eb8f, cyber 1a56abc, live 0741a59, data d2e5b3b, library 138cb88, videos b7a2ed7, events 485cdd0; civic 819f1f7 and startups b3ffabd for the checks they run (signing waits on Dinis's key); Factory on PR #36 99b5440 (waits on Dinis's merge); weather 45b1eeb with 6 and 8 (7 and 9 need Dinis's pages.yml edit); travel builds at 16:53; promptugal.news dev@ commits 54b17e0, 2c0b3ea, 07bd878 (asked to confirm 1 to 9)",
-    "Clock slips flagged: events.b@ (stamps up to 27 min ahead, owned and fixed in REALITY.md), bulletins.b@ and data.b@ (owned)"
+    "Controls 1 to 9 on the run head_sha anchor: bulletins 7a9268d, signals e72eb8f, cyber 1a56abc, live 0741a59, data d2e5b3b, library 138cb88, videos b7a2ed7, events 485cdd0; civic 819f1f7 and startups b3ffabd for the checks they run (signing waits on Dinis's key); Factory on PR #36 99b5440 (waits on Dinis's merge); weather 45b1eeb with 6 and 8 (7 and 9 need Dinis's pages.yml edit); travel builds at 16:53; promptugal.news dev@ commits 54b17e0, 2c0b3ea, 07bd878 (asked to confirm 1 to 9)"
   ],
   "next": [
-    "15:48 wake with the usage ledger",
-    "Collect dev@, writer-10 and telemetry.b@ answers on controls 1 to 9",
-    "Relay civic's unique artifact name idea to the sites and its ACTIONS_RUNTIME_TOKEN note to security@",
-    "travel's 16:53 release"
+    "Ledger written at this wake",
+    "security@'s view on warn or fail for unenrolled agents after S72 wiring",
+    "writer-10's release; travel's 16:53 release",
+    "Relay civic's unique artifact name and ACTIONS_RUNTIME_TOKEN note"
   ],
   "asks": [
     "Dinis: one setting closes the last signing gap on every repo: branch protection on dev with the CI check required (no direct pushes), a tag ruleset limiting v* tags to GitHub Actions, and the github-pages environment accepting deployments only from dev. Until then a pushed rewrite of the workflow file can still choose what CI runs (security@, every site lead). The Factory also needs PR #36 merged: https://github.com/AgentiCCells/AgentiCCells__Site__Factory/pull/36",
+    "Dinis: CI's signing key for promptugal.news (security@'s S72): make an ed25519 key on your machine, add its private half as the repository secret CI_SIGNING_KEY, give dev@ the public half. Exact steps in board/team/dev/note-2026-11-19-s72-wiring.md; dev@'s session: https://claude.ai/code/session_01Kw9UwEA7TFC7iKpVctAi2t",
     "Dinis: how a new session's key is added at a handover (signals.b@ wants to hand over; library.b@ asks too). Recommended: the old session adds the new key in a commit signed with its own key, then stops; or you add each new key yourself.",
     "Dinis: civic.b@ and weather.b@ need your yes in their sessions to run ssh-keygen for their signing keys.",
     "Dinis: ENISA's EU Vulnerability Database: please read its legal notice in a browser and quote the reuse and credit clauses (rights@'s R10: it cannot be read by machine, and ENISA's robots rules list AI agents). Until then cyber.b@ takes the EUVD view off its pulse.",
