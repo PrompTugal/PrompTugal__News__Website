@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 19 Nov, 03:15 | **No IP-based location anywhere** (obs.js asks no third party; the country stays, from the browser's time zone); **predictions are one collection in the library**; cyber stays on KEV; the newsroom refuses commits that are not the writer's or CI's; London temperature later (sources listed); branch protection later | `2026-11-19-no-ip-lookup-predictions-and-small-decisions.md` |
 | 19 Nov, 01:55 | **The maestro**: maestro.b (account-b), Dinis's main conductor on account B, manages and supports every focused conductor (conductor.b@ for PrompTugal, cells.b for AgentiCCells, writer-10 for the newsroom); one view of the account and one brief to Dinis; never does a conductor's work | `2026-11-19-the-maestro.md` |
 | 19 Nov, 01:20 | **Every run starts from a commit**: no GitHub workflow on a timer (schedule blocks removed; provenance, determinism, explainability); data.b@ collects hourly in its own wake, day and night, and commits the data; conductor.b@ double-checks freshness every hour; openssh-client added to the setup script | `2026-11-19-every-run-starts-from-a-commit.md` |
 | 19 Nov, 01:17 | **Show the past, not only the forecast** ("a unique feature of us"): every forecast chart also shows the days observed, what we forecast beside what happened, history as data with gaps shown; weather's place pages first, then every site where it fits | `2026-11-19-show-the-past.md` |
