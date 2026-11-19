@@ -1,6 +1,6 @@
 # Load the data in the browser (19 November 2026)
 
-Dinis, in conductor.b@'s session, about 01:15 UTC on 19 November 2026:
+Dinis, in conductor.b@'s session, about 01:13 UTC on 19 November 2026:
 
 > "yes, option 1, load the data in the browser"
 > "since that is also the most scalable way"
