@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1849",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: the public-key leak rule covers ecdsa-sha2-* and the sk- security-key forms, with a test per key type",
+    "by": "dev@PrompTugal.dinis",
+    "from": "75162436a"
+  },
+  {
     "version": "v0.1.1848",
     "date": "2026-11-19",
     "what": "security@PrompTugal.dinis: SRI ruling: the three approaches read, the pattern tightened, every site to compare with the registry",
