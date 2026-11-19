@@ -1,0 +1,42 @@
+{
+ "e72981ce21809675": {
+  "t": "Ainda não sabemos tudo، pá. هذا ما لم تخبرنا به Faro بعد:",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Ainda não sabemos tudo, pá. Here is what Faro has not told u",
+  "ok": false
+ },
+ "e7908f114d56ddcd": {
+  "t": "Viana do Castelo، ai Jesus: بازيليكا على التل، ونهر لا يقرر أين يتوقف، وبلدية تعلّم حاسوباً بهدوء قراءة الرخص بينما البلدة كلها تراقب الميناء.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Viana do Castelo, ai Jesus: a basilica on the hill, a river ",
+  "ok": false
+ },
+ "e7bebd39ad02304e": {
+  "t": "معرض الفن في Loulé ./logSinapses اتخذ الذكاء الاصطناعي والوساطة الخوارزمية موضوعاً",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Loulé art exhibition ./logSinapses took AI and algorithmic m",
+  "ok": false
+ },
+ "e7f26edd2ea41eb9": {
+  "t": "تخطط الحكومة لتجربة في عدد قليل من البلديات الجاهزة تقنياً بالفعل، يعمل فيها الذكاء الاصطناعي طبقة وصول واحدة فوق منصات البلديات، بدءاً برخص البناء. وتُسمّى Coimbra ضمن المرحلة الأولى، وقال رئيس بلديتها إن الذكاء الاصطناعي يستطيع تسريع الإجراءات مع احترام قواعد التخطيط ودون نزع الطابع الإنساني عن الخدمات العامة.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The government plans a pilot in a small number of municipali",
+  "ok": false
+ },
+ "e7f72e1b48d63a7d": {
+  "t": "وصفت Visualforma، شركة من Faro، نظاماً للتحكم في ري المساحات الخضراء طُوّر مع Itelmatis وجامعة Algarve واختُبر في Loulé، يستخدم بيانات الحقل لتحسين السقي، مع وحدة ذكاء اصطناعي وتعلّم آلي مخطط لها. وهذا خبر أقدم، من أبريل 2023.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Visualforma, a Faro company, described a green-spaces irriga",
+  "ok": false
+ }
+}

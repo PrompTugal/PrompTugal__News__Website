@@ -1,0 +1,18 @@
+{
+ "a60fab8528afa5b0": {
+  "t": "Quarteira: حيث تقاعد السردين، ووصلت كرات الغولف، وما زالت الروبوتات تنتظر في الطابور عند حانة الشاطئ.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Quarteira: where the sardines retired, the golf balls arrive",
+  "ok": false
+ },
+ "a623e7151e2e6722": {
+  "t": "أقام Colégio Internacional de Vilamoura قمة الابتكار في التعليم يوم 9 مايو بحلقات نقاش حول كيف يؤثر الذكاء الاصطناعي في التدريس والتعلّم.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The Colégio Internacional de Vilamoura held an Innovation in",
+  "ok": false
+ }
+}

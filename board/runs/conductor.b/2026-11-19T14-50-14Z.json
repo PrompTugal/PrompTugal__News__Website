@@ -1,0 +1,111 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-19T14-50-14Z",
+ "started": "2026-11-19T14:50:14.829Z",
+ "ended": "2026-11-19T15:49:43Z",
+ "line": "",
+ "policy": {
+  "version": "1.18.6",
+  "sha256": "e49bf442e0128ffd"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-19T14:52:48.319Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-19T15:00:09.563Z",
+   "chars": 1113,
+   "sha256": "a1564c53f1b7bec7",
+   "head": "<task-notification>\n<task-id>bwjoxh2q6</task-id>\n<tool-use-id>toolu_018ooxuicpLHH1aCvh9rgxia</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/515926cf-81d6-5749-b4f9-7f55f"
+  },
+  {
+   "t": "2026-11-19T15:00:14.291Z",
+   "chars": 631,
+   "sha256": "74d2afb14a599252",
+   "head": "<task-notification>\n<task-id>b1xsvqspt</task-id>\n<tool-use-id>toolu_019adYvEGsfGv2AwzKKi9qZ2</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/515926cf-81d6-5749-b4f9-7f55f"
+  },
+  {
+   "t": "2026-11-19T15:07:07.108Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-19T15:48:16.583Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-19T15:07:06.816Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-19T15:48:16.309Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 64,
+  "by_kind": {
+   "release": 2,
+   "git": 7,
+   "other": 5,
+   "remote-conduct": 2,
+   "shell": 5,
+   "agent": 2,
+   "web": 1,
+   "read": 1,
+   "remote-read": 37,
+   "write-outside": 1,
+   "git-commit": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 64,
+  "commits": [
+   {
+    "sha": "383a4eece",
+    "subject": "conductor.b@PrompTugal.dinis: 14:48 wake: signing controls 1 to 9 relayed through six security@ rulings; ten sites on the run anchor; one protection ask for Din",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 5,
+  "tool_calls": 64,
+  "in_mandate": 64,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

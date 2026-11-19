@@ -1,0 +1,26 @@
+{
+ "d8006b8f7850afec": {
+  "t": "Cáritas في Faro تسأل: من المستفيد من الذكاء الاصطناعي؟",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Faro's Cáritas asks who benefits from AI",
+  "ok": false
+ },
+ "d89c3b61de8d1239": {
+  "t": "مدرسة في Vilamoura تستضيف قمة تعليمية عن الذكاء الاصطناعي",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Vilamoura school hosts an education summit on AI",
+  "ok": false
+ },
+ "d8de90262eca523a": {
+  "t": "تربط المنصة بيانات السوق، مثل أسعار السلع وأسعار الشحن، بتكاليف الشركة نفسها للمساعدة في المشتريات والتسعير. شارك في قيادتها VentureFriends وSemapa Next.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The platform links market data such as commodity prices and ",
+  "ok": false
+ }
+}
