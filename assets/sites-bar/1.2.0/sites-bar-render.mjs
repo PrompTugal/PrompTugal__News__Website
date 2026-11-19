@@ -1,4 +1,4 @@
-/*! The PrompTugal sites bar v1.1.1, the build-time renderer (dev@PrompTugal.dinis, from designer@'s board/spec-the-sites-bar.md).
+/*! The PrompTugal sites bar v1.2.0, the build-time renderer (dev@PrompTugal.dinis, from designer@'s board/spec-the-sites-bar.md).
  * Each site vendors this file (pinned by version and sha256, as listed in promptugal.news/api/v1/sites.json `bar`), reads the
  * registry at build time and calls render(registry, { here }) to get the bar's HTML for every page. Safety (the spec's):
  * at most 32 sites, every field at most 200 characters; each url parsed with new URL: https only, no user info, no port,
@@ -28,10 +28,9 @@ export function render(reg, { here = '', newTab = false } = {}) {
     const s = check(reg); if (!s) return ''
     const link = e => {
         const host = new URL(e.url).hostname, cur = host === here
-        return h('li', null, h('a', { href: e.url, target: newTab && !cur ? '_blank' : null, rel: 'noopener noreferrer', 'aria-current': cur ? 'page' : null, 'aria-haspopup': 'dialog',
-            'data-name': e.name, 'data-host': host, 'data-line': e.line, 'data-preview': e.preview || new URL('preview.svg', e.url).href, 'data-version': e.version_url || new URL('version.json', e.url).href }, esc(e.name)))
+        return h('li', null, h('a', { href: e.url, target: newTab && !cur ? '_blank' : null, rel: 'noopener noreferrer', 'aria-current': cur ? 'page' : null,             'data-name': e.name, 'data-host': host, 'data-line': e.line, 'data-preview': e.preview || new URL('preview.svg', e.url).href, 'data-version': e.version_url || new URL('version.json', e.url).href }, esc(e.name)))
     }
     const mark = h('span', { class: 'ptsb-mark' }, 'Promp' + h('b', null, 'T') + h('i', null, 'ugal') + '.news sites')
     return h('nav', { class: 'ptsb', 'aria-label': 'The PrompTugal.news sites' }, h('div', { class: 'ptsb-w' },
-        mark + h('ul', null, s.map(link).join('')) + h('a', { class: 'ptsb-all', href: '#ptsb-sheet', 'aria-haspopup': 'dialog' }, 'Sites ▾')))
+        mark + h('ul', null, s.map(link).join(''))))
 }
