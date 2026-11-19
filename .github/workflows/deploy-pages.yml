@@ -71,8 +71,9 @@ jobs:
     # tag and build about 30s, a deploy of at most 8 minutes (a second only after a fast refusal), 30 s asking the live site
     timeout-minutes: 12
     needs: [validate]
-    # Never from a PR or a worker's branch. One release at a time; a pending run may be dropped, which is harmless.
-    if: github.event_name != 'pull_request' && !startsWith(github.ref_name, 'work/')
+    # Only dev is production: never from a PR, a worker's branch, main, or a manual run on any other branch
+    # (live.b@'s review a4c6fce, MEDIUM). One release at a time; a pending run may be dropped, which is harmless.
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/dev'
     concurrency:
       group: release
       cancel-in-progress: false
@@ -102,10 +103,11 @@ jobs:
       - name: Build (a manual dispatch, no number)
         if: github.event_name != 'push'
         run: node newsroom/build/build.mjs && node newsroom/build/validate.js
-      - name: Assemble the site artifact (the tree just built and checked)
+      - name: Assemble the site artifact (the tree just built and checked; no symlink ever goes in, live.b@'s HIGH 1)
         run: |
+          test ! -e /tmp/site && test ! -L /tmp/site
           mkdir -p /tmp/site
-          rsync -a ./ /tmp/site/ --exclude '.git' --exclude '.github' --exclude '.sg_vault' --exclude 'content' --exclude 'newsroom/build' --exclude 'newsroom/tools' --exclude '.generated.txt' --exclude-from=api/v1/deploy-exclude.txt --exclude '/desks/**.js' --exclude '/desks/**.mjs' --exclude '/desks/**.cjs' --exclude '/desks/**.py' --exclude '/desks/**.sh' --exclude '/desks/**.htm' --exclude '/desks/**.html' --exclude '/desks/**.xhtml' --exclude '/desks/**.wasm' --exclude '/data/**.js' --exclude '/data/**.mjs' --exclude '/data/**.cjs' --exclude '/data/**.py' --exclude '/data/**.sh' --exclude '/data/**.htm' --exclude '/data/**.html' --exclude '/data/**.xhtml' --exclude '/data/**.wasm' --exclude '/board/**.js' --exclude '/board/**.mjs' --exclude '/board/**.cjs' --exclude '/board/**.py' --exclude '/board/**.sh' --exclude '/board/**.htm' --exclude '/board/**.html' --exclude '/board/**.xhtml' --exclude '/board/**.wasm' --exclude '/design/**.js' --exclude '/design/**.mjs' --exclude '/design/**.cjs' --exclude '/design/**.py' --exclude '/design/**.sh' --exclude '/design/**.htm' --exclude '/design/**.html' --exclude '/design/**.xhtml' --exclude '/design/**.wasm'
+          rsync -a --no-links ./ /tmp/site/ --exclude '.git' --exclude '.github' --exclude '.sg_vault' --exclude 'content' --exclude 'newsroom/build' --exclude 'newsroom/tools' --exclude '.generated.txt' --exclude-from=api/v1/deploy-exclude.txt --exclude '/desks/**.js' --exclude '/desks/**.mjs' --exclude '/desks/**.cjs' --exclude '/desks/**.py' --exclude '/desks/**.sh' --exclude '/desks/**.htm' --exclude '/desks/**.html' --exclude '/desks/**.xhtml' --exclude '/desks/**.wasm' --exclude '/data/**.js' --exclude '/data/**.mjs' --exclude '/data/**.cjs' --exclude '/data/**.py' --exclude '/data/**.sh' --exclude '/data/**.htm' --exclude '/data/**.html' --exclude '/data/**.xhtml' --exclude '/data/**.wasm' --exclude '/board/**.js' --exclude '/board/**.mjs' --exclude '/board/**.cjs' --exclude '/board/**.py' --exclude '/board/**.sh' --exclude '/board/**.htm' --exclude '/board/**.html' --exclude '/board/**.xhtml' --exclude '/board/**.wasm' --exclude '/design/**.js' --exclude '/design/**.mjs' --exclude '/design/**.cjs' --exclude '/design/**.py' --exclude '/design/**.sh' --exclude '/design/**.htm' --exclude '/design/**.html' --exclude '/design/**.xhtml' --exclude '/design/**.wasm'
       - uses: actions/upload-pages-artifact@v3
         with:
           path: /tmp/site
