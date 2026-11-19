@@ -10,10 +10,10 @@ Dinis, in maestro.b (account-b)'s session (https://claude.ai/code/session_01Kw9U
 - The organisation's repositories are not visible to account B's sessions yet (the GitHub App is not installed on SovereignWebsite).
 
 ## What maestro.b does at this word
-- Starts **one focused conductor**, conductor.b@SovereignWebsite.dinis (Opus), for this workflow: the strategy map, the team, the end-to-end pipeline. Its team (architect, designer, developer, security, writer, deck) runs as sub-agents in its run; it may start sessions within its own domain under Dinis's 02:40 rule, each recorded and reported. Hourly wake at :31 UTC during the push.
+- Starts **one focused conductor**, conductor.b (SovereignWebsite) (Opus), for this workflow: the strategy map, the team, the end-to-end pipeline. Its team (architect, designer, developer, security, writer, deck) runs as sub-agents in its run; it may start sessions within its own domain under Dinis's 02:40 rule, each recorded and reported. Hourly wake at :31 UTC during the push.
 - Fewer sessions, more sub-agents (CLAUDE.md), and account B's seven-day limit is at warning: the conductor keeps a budget and reports cost each wake.
 - Moving the existing websites across, wiring the repositories and DNS: planned by the conductor, done by Dinis when he is back.
 
 ## Made (2026-11-19T13:05Z)
-- Session: https://claude.ai/code/session_01Kw9UwDCS5Px4dXRJUGP9Qu (conductor.b@SovereignWebsite.dinis, Opus), started 13:04 UTC on SGit-AI/SGit-AI__Website__Newsroom (dev) to read the SAW articles; it writes nowhere until a SovereignWebsite repository is reachable.
+- Session: https://claude.ai/code/session_01Kw9UwDCS5Px4dXRJUGP9Qu (conductor.b (SovereignWebsite), Opus), started 13:04 UTC on SGit-AI/SGit-AI__Website__Newsroom (dev) to read the SAW articles; it writes nowhere until a SovereignWebsite repository is reachable.
 - Hourly wake at :31 UTC: trig_015LDYEmyDkQNBjbiWuPnBc9 (first 13:31 UTC).
