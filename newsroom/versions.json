@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1840",
+    "date": "2026-11-19",
+    "what": "abp@PrompTugal.dinis: hourly report 01:37, v1.17.2, daily debrief",
+    "by": "abp@PrompTugal.dinis",
+    "from": "1fa1821e8"
+  },
+  {
     "version": "v0.1.1839",
     "date": "2026-11-19",
     "what": "dev@PrompTugal.dinis: 01:22 wake: translator@ and datasci.places@ brought; next: data in the browser, the free-page flag",
