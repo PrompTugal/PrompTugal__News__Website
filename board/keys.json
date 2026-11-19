@@ -283,7 +283,10 @@
         "fingerprint": "sha256:53345c3fd5d4a73d",
         "signing_fingerprint": "sha256:b0a110df3e787e6d"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGVNKZ3jCjdtOfNoX3o1KSm7+mtM/QIx1bUI+seJjPTX",
+      "session": "https://claude.ai/code/session_01Kw9UwCqzmCPurcVkEeQXcK",
+      "ssh_added": "2026-11-19T16:02Z"
     },
     {
       "id": "journalist-promptugal-0",
