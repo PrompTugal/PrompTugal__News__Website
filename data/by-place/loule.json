@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "by": "place.loule@PrompTugal.dinis",
   "mandate": "PrompTugal.news Loulé: AI and technology in Loulé, a council using AI tools and the seat of the Algarve's business association, and what reaches Loulé from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -47,7 +47,14 @@
       "blast": [
         "quarteira",
         "albufeira"
-      ]
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.algarveprimeiro.com/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Loulé's Som Riscado festival features an AI-supported piano recital for schools",
@@ -59,7 +66,14 @@
       "ai_path": "culture",
       "steps": 1,
       "significance": "town",
-      "blast": []
+      "blast": [],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.cm-loule.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Loulé and Faro tender a technology centre at the Estádio Algarve that lists AI among its themes",
@@ -69,7 +83,14 @@
       "url": "https://www.barlavento.pt/lancado-concurso-instalar-centro-multitecnologico-estadio-algarve/",
       "read_on": "2026-11-15",
       "ai_path": "A centre for tech firms jointly run by the Loulé and Faro councils that names AI as one of its themes: the centre, then the AI firms it may host.",
-      "steps": 1
+      "steps": 1,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Algarve marks World Tourism Day 2026 under an AI theme, with a tourism-tech tour that starts at NERA in Loulé",
@@ -85,7 +106,14 @@
         "faro",
         "albufeira",
         "silves"
-      ]
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Loulé council says it has already bought AI tools for urban planning",
@@ -95,7 +123,14 @@
       "url": "https://www.barlavento.pt/?p=405832",
       "read_on": "2026-11-15",
       "ai_path": "The council itself uses AI tools in its planning process.",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Algarve Evolution opens an AI and robotics call for tourism firms, in a consortium led by Loulé-based NERA",
@@ -105,7 +140,14 @@
       "url": "https://www.algarveevolution.pt/blog/ae-articles-8/algarve-evolution-opens-call-for-algarvian-tourism-smes-13",
       "read_on": "2026-11-15",
       "ai_path": "An AI and robotics programme whose consortium is led by an association based in Loulé.",
-      "steps": 1
+      "steps": 1,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.algarveevolution.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "NERA's DIBEST programme gave Algarve microenterprises AI mentoring among other digital topics",
@@ -120,7 +162,14 @@
       "blast": [
         "faro",
         "albufeira"
-      ]
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Loulé art exhibition ./logSinapses took AI and algorithmic mediation as a theme",
@@ -132,7 +181,14 @@
       "ai_path": "A Loulé cultural venue hosted an exhibition with AI as a named theme.",
       "steps": 1,
       "significance": "town",
-      "blast": []
+      "blast": [],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Loulé's council takes an AI immersive experience to the BTL tourism fair",
@@ -142,7 +198,14 @@
       "url": "https://www.barlavento.pt/loule-leva-a-btl-2025-experiencia-imersiva-atraves-de-inteligencia-artificial/",
       "read_on": "2026-11-15",
       "ai_path": "The council used AI in its tourism promotion.",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "ALGAR and NILG.AI win an award for an AI tool that picks sites for recycling points",
@@ -152,7 +215,14 @@
       "url": "https://www.algarveprimeiro.com/d/algar-e-nilgai-recebem-premio-com-projeto-inovador-na-gestao-de-residuos/60124-85",
       "read_on": "2026-11-15",
       "ai_path": "A company based in the Loulé municipality built and uses an AI tool.",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.algarveprimeiro.com/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Loulé's Som Riscado festival let an AI program direct 25 musicians",
@@ -162,7 +232,14 @@
       "url": "https://www.barlavento.pt/festival-som-riscado-traz-imagens-do-espaco-e-inteligencia-artificial-a-loule/",
       "read_on": "2026-11-16",
       "ai_path": "AI was the conductor of a concert at a council-run venue in Loulé.",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "A Loulé studio put a band's late member back on stage with an AI hologram",
@@ -172,7 +249,14 @@
       "url": "https://www.ualg.pt/banda-dzrt-regressou-aos-palcos-com-tecnologia-de-ia-desenvolvida-pela-spic",
       "read_on": "2026-11-15",
       "ai_path": "A Loulé company built an AI system.",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.ualg.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "A Faro software firm tested its smart irrigation in Loulé, with an AI module planned",
@@ -182,7 +266,14 @@
       "url": "https://www.barlavento.pt/visualforma-abre-caminho-as-novas-tecnologias-para-smart-cities/",
       "read_on": "2026-11-15",
       "ai_path": "Loulé was the test site for a smart irrigation system, and its planned AI module is the AI step.",
-      "steps": 1
+      "steps": 1,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     }
   ],
   "sources": [
@@ -287,21 +378,39 @@
       "date": "2026-11-10",
       "url": "https://nera.pt",
       "read_on": "2026-11-15",
-      "ai_path": "A training session on AI tools, run by the Loulé-based business association."
+      "ai_path": "A training session on AI tools, run by the Loulé-based business association.",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://nera.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
     },
     {
       "title": "NERA online course: AI Social Content Lab (November 2026)",
       "date": "November 2026",
       "url": "https://nera.pt",
       "read_on": "2026-11-15",
-      "ai_path": "A training course on using AI for social content, run by NERA."
+      "ai_path": "A training course on using AI for social content, run by NERA.",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://nera.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
     },
     {
       "title": "SPA Innovation Tour (KIPT CoLAB), starting at NERA in Loulé, 24 to 26 September 2026 (past)",
       "date": "2026-09-24",
       "url": "https://postal.pt/algarve/algarve-assinala-dia-mundial-do-turismo-com-inovacao-natureza-e-sabores-da-regiao/",
       "read_on": "2026-11-16",
-      "ai_path": "Part of an AI-themed World Tourism Day programme; the tour's own AI content is not stated."
+      "ai_path": "Part of an AI-themed World Tourism Day programme; the tour's own AI content is not stated.",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
     }
   ],
   "ai_map": [
@@ -480,7 +589,8 @@
     "Barlavento 16 Nov Naturmaris item opened: no AI mention, rejected.",
     "cm-loule.pt news page: only 100000 of 120218 characters read; only known Som Riscado AI piano item (already in file) and a GIS Day for schools (18 Nov, GeoLoule mapping, no AI, rejected).",
     "postal.pt/algarve 18 Nov Loulé arrest story has no AI link; skipped.",
-    "cm-loule.pt/pt/noticias opened: 5 news items plus 10 highlights, no dates shown, newest id 64925 (kickboxing title); only AI item is the Som Riscado piano one already in the file; GIS Day item (18 Nov) is mapping, no AI stated; final 20k characters of page not read."
+    "cm-loule.pt/pt/noticias opened: 5 news items plus 10 highlights, no dates shown, newest id 64925 (kickboxing title); only AI item is the Som Riscado piano one already in the file; GIS Day item (18 Nov) is mapping, no AI stated; final 20k characters of page not read.",
+    "Opened cm-loule.pt/pt/noticias: 5 items without publication dates, newest tied to 18 Nov (GIS Day in schools, no AI stated; judged too far from AI); Som Riscado item already in file. Page truncated at 100000 of 119081 chars."
   ],
   "voice": {
     "lede": "Oi, pá! Loulé, where the market has domes and the council has algorithms.",

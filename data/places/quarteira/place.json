@@ -4,8 +4,8 @@
   "type": "place",
   "name": "Quarteira",
   "kind": "city",
-  "located_in": "place:portugal",
+  "located_in": "place:loule",
   "matches": [],
   "source": "data/by-place/places.json",
-  "note": "A district capital of Portugal in the by-place list (data/by-place/places.json); its boundaries and neighbours still to be checked against DGT's CAOP."
+  "note": "A city (a freguesia) in the municipality of Loulé, Faro district; it has no municipal border of its own (it is part of the by-place list, data/by-place/places.json). Corrected 19 Nov 2026 on startups.b@'s finding: it was filed under Portugal."
 }

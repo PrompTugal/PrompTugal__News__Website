@@ -1,0 +1,146 @@
+{
+  "desk": "jornal-silvio",
+  "kept_by": "jornal@PrompTugal.silvio",
+  "date": "2026-11-19",
+  "status": "candidates, not published, waiting for the editor and for Silvio",
+  "candidates": [
+    {
+      "id": "js-2026-11-19-01",
+      "title": "JPMorgan and Hyundai Card let AI agents trade with no human involved, inside a box of hard limits",
+      "summary": "JPMorgan's Kinexys unit and Hyundai Card ran a simulated foreign-exchange trade carried out by AI agents end to end, with no person in the loop. Kinexys's framework restricts each agent to predefined parameters and automatically rejects anything beyond its authorised limit (an agent cleared for $5 million is blocked above it). Testing with several interacting agents is planned for the first half of 2027; no commercial date.",
+      "why_it_matters": "A bank writing an agent's mandate as machine-enforced limits, and saying the obstacle is governance and accountability, not technology: reach, mandate and gap in one sentence.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html",
+          "publisher": "CNBC",
+          "published": "2026-11-17 (updated 2026-11-18)",
+          "read": "2026-11-19T14:02Z"
+        }
+      ],
+      "quote": {
+        "text": "You are going to draw a box around the agent.",
+        "by": "Wee Kee Toh, global head of Kinexys Insights, quoted by CNBC",
+        "source": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html"
+      },
+      "claims_to_check": [
+        "JPMorgan/Kinexys's own announcement"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "Agents moving money with no human, under explicit limits; two days old."
+      },
+      "photo": {
+        "url": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html",
+        "description": "lead photo",
+        "credit": "Marcin Golba/NurPhoto via Getty Images",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
+    },
+    {
+      "id": "js-2026-11-19-02",
+      "title": "Visa readies 85 European payment firms for purchases made by AI agents, Portugal's Unicre among them",
+      "summary": "Visa extended its Agentic Ready programme to merchants' side of payments, starting with more than 85 European participants (Adyen, Stripe, PayPal, Worldline, Checkout.com and Portugal's Unicre among them), on top of 40 issuers already in it. Participants test how AI agents are recognised and authenticated, and how their transactions are processed and protected against fraud; more are expected to join through 2027.",
+      "why_it_matters": "The rails for agents that pay are being laid in Europe now, with a Portuguese processor in the first group: who authenticates the agent is where its mandate gets checked.",
+      "beat": "portugal",
+      "sources": [
+        {
+          "url": "https://jornaleconomico.sapo.pt/noticias/visa-expande-programa-de-comercio-com-ia-para-mais-de-85-parceiros-europeus/",
+          "publisher": "Jornal Económico",
+          "published": "2026-11-18",
+          "read": "2026-11-19T14:02Z"
+        }
+      ],
+      "claims_to_check": [
+        "Visa's own release for the partner list"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "Agentic payments in Europe with a Portuguese participant; one day old."
+      },
+      "photo": {
+        "url": "https://jornaleconomico.sapo.pt/noticias/visa-expande-programa-de-comercio-com-ia-para-mais-de-85-parceiros-europeus/",
+        "description": "Gonçalo Santos Lopes, Visa's country manager in Portugal",
+        "credit": "not stated",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
+    },
+    {
+      "id": "js-2026-11-19-03",
+      "title": "ChatGPT gets a Wallet so its agents can shop and check out for you",
+      "summary": "OpenAI launched a Wallet in ChatGPT that lets its agents complete purchases, first for a limited number of US ChatGPT Pro subscribers aged 18 and over. It comes a week after OpenAI let businesses run their own agents inside ChatGPT.",
+      "why_it_matters": "Agents that hold a means of payment: the EU's Digital Fairness Act proposal (purchase approval, sponsored suggestions) is aimed squarely at this.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-13",
+          "read": "search summary only, not opened"
+        }
+      ],
+      "claims_to_check": [
+        "Open the article and OpenAI's announcement: controls on spending and approval"
+      ],
+      "importance": {
+        "score": 3,
+        "reason": "Big launch but six days old and US-only."
+      },
+      "photo": {
+        "url": null,
+        "description": "not checked",
+        "credit": null,
+        "licence": null,
+        "reuse": "link only"
+      }
+    },
+    {
+      "id": "js-2026-11-19-04",
+      "title": "Apple adds Mac security controls aimed at AI agents acting across files and apps",
+      "summary": "Apple announced security changes for macOS 27.3 aimed at AI agents, which unlike chatbots run on the device and can act across the operating system, files and apps on the user's behalf.",
+      "why_it_matters": "The operating system starts to define what an agent may reach on a personal machine: the reach of the reach, mandate and gap triad.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
+          "publisher": "TechCrunch",
+          "published": "2026-11-16",
+          "read": "search summary only, not opened"
+        }
+      ],
+      "claims_to_check": [
+        "Open the article and Apple's own notes for what the controls are"
+      ],
+      "importance": {
+        "score": 3,
+        "reason": "Platform-level controls for agents; three days old."
+      },
+      "photo": {
+        "url": null,
+        "description": "not checked",
+        "credit": null,
+        "licence": null,
+        "reuse": "link only"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "what": "AlphaSignal (alphasignal.ai) as a source",
+      "why": "its Terms (effective 12 May 2026, s.6 and s.7.2) forbid automated access and allow only personal, non-commercial use: not read by machine; see the README"
+    },
+    {
+      "what": "Satya Nadella on agents and web ad economics (TechCrunch, 18 November); Sequel $15M; Daydream's stylist agent",
+      "why": "below the bar"
+    }
+  ],
+  "wakes": [
+    {
+      "at": "2026-11-19T14:02Z",
+      "added": 4,
+      "note": "manual run at Silvio's word: the first daily digest (digests/2026-11-19.md); the scheduled task is still disabled"
+    }
+  ]
+}

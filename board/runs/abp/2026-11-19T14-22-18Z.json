@@ -1,0 +1,77 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "abp@PrompTugal.dinis",
+ "run": "2026-11-19T14-22-18Z",
+ "started": "2026-11-19T14:22:18.991Z",
+ "ended": "2026-11-19T14:24:08Z",
+ "line": "",
+ "policy": {
+  "version": "1.18.5",
+  "sha256": "83515ff0afffb48f"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-19T14:22:18.991Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-19T14:23:29.119Z",
+   "chars": 282,
+   "sha256": "e8d7fa7d687510a7",
+   "head": "<task-notification>\n<task-id>b3p7mf1ah</task-id>\n<summary>Monitor event: \"Wait for release.sh\"</summary>\n<event>[Monitor expired after 10m with no events delivered. Re-arm it if you still need the wat"
+  },
+  {
+   "t": "2026-11-19T14:23:42.863Z",
+   "chars": 282,
+   "sha256": "b46fb61fb82dbc98",
+   "head": "<task-notification>\n<task-id>by39b4och</task-id>\n<summary>Monitor event: \"Wait for release.sh\"</summary>\n<event>[Monitor expired after 10m with no events delivered. Re-arm it if you still need the wat"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 7,
+  "by_kind": {
+   "other": 2,
+   "release": 2,
+   "git": 1,
+   "shell": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 7,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 7,
+  "in_mandate": 7,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

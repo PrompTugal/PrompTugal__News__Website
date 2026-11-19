@@ -1,0 +1,119 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-19T15:50Z",
+  "for": "journalist-portugal (S75 updated before it is written)",
+  "covers": {
+    "vault": "41j3e9s9, pulled 19 Nov 2026 at 15:38 UTC: the researcher's 15:15 run: the order with the price table (Despacho 1573/2026, new) and the gazette's standard terms extended (clauses 19 to 23).",
+    "inputs": "Five themes; PrompTugal test; standing answer 100. No hold. decisions.md has nothing new since standing answer 100 (nothing for the curator).",
+    "overlap_checked": "19 Nov 15:50: S74 and S75 are commissioned and not yet drafted; no article covers the convention's price or rules. The new captures are primary sources for S75, not a new story."
+  },
+  "rules": "RULES-11NOV applies. Source: the official gazette (two issues). The curator added no fact.",
+  "captures": [
+    {
+      "id": "v-dre-despacho-1573-2026",
+      "file": "vault 41j3e9s9, captures/2026-11-19-dre-despacho-1573-2026-telerehab-prices.md",
+      "source_url": "https://files.diariodarepublica.pt/gratuitos/2s/2026/02/2S027A0000S00.pdf",
+      "beat": "Portugal",
+      "names": [
+        "Secretary of State for Health Management"
+      ],
+      "what_is_new": "The order (signed 3 Feb, published 9 Feb 2026) that supplies the price table the terms refer to: 'Tabela da Área G': an initial 12-month programme at 200.00 and subsequent 12-month programmes at 100.00 (the currency is not printed in the lines read); in effect the day after publication; no mention of AI, providers or results.",
+      "is_story": true,
+      "group": "S75"
+    },
+    {
+      "id": "v-dre-aviso-3864-2026",
+      "file": "vault 41j3e9s9, captures/2026-11-19-dre-aviso-3864-2026-telerehab-terms.md",
+      "source_url": "https://files.diariodarepublica.pt/gratuitos/2s/2026/02/2S037A0000S00.pdf",
+      "beat": "Portugal",
+      "names": [
+        "health-system administration",
+        "national health service"
+      ],
+      "what_is_new": "The standard terms, now also clauses 19 to 23 (clinical team, service requirements, AI validation, insurance, penalties). Read: notice, clauses 1 to 12, the first paragraph of 13, 19 to 23, 26 and 27, annexes III and IV. Not read: the rest of 13, clauses 14 to 18, 24 and 25, annexes I and II.",
+      "is_story": true,
+      "group": "S75"
+    }
+  ],
+  "groups": {
+    "S75": [
+      "v-dre-despacho-1573-2026",
+      "v-dre-aviso-3864-2026"
+    ]
+  },
+  "duplicates_and_noise": [],
+  "published_check": {
+    "S74": "commissioned, not yet drafted",
+    "S75": "commissioned, not yet drafted"
+  },
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "The summit beat is finished."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing new on Europe and AI policy."
+    },
+    "portugal": {
+      "assignment": "S75 (updated, no new story)",
+      "ready": true,
+      "reader_angle": "Unchanged, with the price table's order as a second primary source and more of the terms read.",
+      "source_ids": [
+        "v-dre-despacho-1573-2026",
+        "v-dre-aviso-3864-2026"
+      ],
+      "duplicate_check": "Run 19 Nov 15:50: S75 not yet drafted."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "Nothing new on agents in real work or humans and AI."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "No new cross-cutting theme."
+    }
+  },
+  "story_candidates": [],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S75",
+      "what": "The price order's lines read do not print a currency; annex IV of the terms says euros (200,00 € and 100,00 €). Say 'euros' on the terms' authority and that the order shows the same two amounts. Clauses 14 to 18, 24, 25, the rest of 13 and annexes I and II are still unread."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S75",
+      "change": "Rests on four captures (the terms, the price order, Observador, the government item); the read parts are now clauses 1 to 12, the first paragraph of 13, 19 to 23, 26 and 27 and annexes III and IV; the price order is a second primary source for the 200 and 100 figures."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "portugal",
+      "priority": 1,
+      "gap": "Whether other providers joined the convention; the unread clauses 14 to 18, 24, 25, the rest of 13 and annexes I and II.",
+      "reader_angle": "Who offers the service and on what terms.",
+      "sources_wanted": "The gazette, the health-system administration's pages.",
+      "why_not_a_duplicate": "Parts of the terms were not read."
+    },
+    {
+      "desk": "portugal",
+      "priority": 2,
+      "gap": "Whether the Rows deal closed and what followed in Porto; UST's Lisbon activity.",
+      "reader_angle": "What happened after the announcement.",
+      "sources_wanted": "Superhuman, Rows, UST pages; tech press.",
+      "why_not_a_duplicate": "Only February and January sources are captured."
+    },
+    {
+      "desk": "portugal",
+      "priority": 3,
+      "gap": "Cova da Beira's own account; the Center's partner list and close; ARTE's release and the ANIA documents.",
+      "reader_angle": "Primary sources for earlier stories.",
+      "sources_wanted": "Unit and programme pages; ARTE, FCT.",
+      "why_not_a_duplicate": "Not captured."
+    }
+  ],
+  "urgent": "None"
+}

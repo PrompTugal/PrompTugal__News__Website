@@ -3,7 +3,7 @@
   "id": "castro-marim",
   "type": "place",
   "name": "Castro Marim",
-  "kind": "city",
+  "kind": "municipality",
   "located_in": "place:algarve",
   "matches": [],
   "source": "data/by-place/places.json",

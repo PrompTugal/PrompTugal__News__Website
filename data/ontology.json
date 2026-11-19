@@ -106,7 +106,7 @@
       { "id": "programme", "label": "Programme", "meaning": "A programme's public moment: a launch, a cohort, a roadshow." },
       { "id": "competition", "label": "Competition", "meaning": "A selection run by others, such as a regional call to send startups to the summit."}
     ],
-    "place_kind": ["country", "region", "city", "district", "borough", "street", "venue", "building", "stage", "room"],
+    "place_kind": ["country", "region", "city", "district", "municipality", "borough", "street", "venue", "building", "stage", "room"],
     "topic_kind": [
       { "id": "field", "label": "Field", "meaning": "An industry field: the category the team's company map files each company under." },
       { "id": "beat", "label": "Beat", "meaning": "One of PrompTugal.news's beats (brief 3)." },
