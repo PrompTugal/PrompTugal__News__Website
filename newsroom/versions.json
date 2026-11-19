@@ -1,5 +1,201 @@
 [
   {
+    "version": "v0.1.1929",
+    "date": "2026-11-19",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "adf69bdb1"
+  },
+  {
+    "version": "v0.1.1928",
+    "date": "2026-11-19",
+    "what": "abp@PrompTugal.dinis: 20:38 wake: R16 follows security@'s ruling to 19:47 (controls 8 to 10); hand-over debrief; policy v1.18.7",
+    "by": "abp@PrompTugal.dinis",
+    "from": "b2e463d9b"
+  },
+  {
+    "version": "v0.1.1927",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 20:18 wake: SAW in Portuguese; a site lead's Gmail draft flagged by abp@ (R3)",
+    "by": "maestro.b (account-b)",
+    "from": "394bbdcf2"
+  },
+  {
+    "version": "v0.1.1926",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: an artifact's .git is checked; release.sh's merge takes the session from the agent's own key (security@ 0b49f7742)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "139b3664f"
+  },
+  {
+    "version": "v0.1.1925",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: wake 20:03: 20 repositories clean; S72 progress read, still unwired",
+    "by": "security@PrompTugal.dinis",
+    "from": "0b49f7742"
+  },
+  {
+    "version": "v0.1.1924",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: ptmap 1.0.2 listed; 1.0.1 and 1.0.2 passed (security@): 1.0.2 is the version to vendor",
+    "by": "dev@PrompTugal.dinis",
+    "from": "a81b20325"
+  },
+  {
+    "version": "v0.1.1923",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: ptmap 1.0.2 post-reviewed: go, the version to vendor",
+    "by": "security@PrompTugal.dinis",
+    "from": "168c14fc5"
+  },
+  {
+    "version": "v0.1.1922",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: ptmap 1.0.1 post-reviewed: go",
+    "by": "security@PrompTugal.dinis",
+    "from": "d84da3d39"
+  },
+  {
+    "version": "v0.1.1921",
+    "date": "2026-11-19",
+    "what": "ontologist@PrompTugal.dinis: the answer for startups.b@ on the places registry, with the commit ids",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "92e095622"
+  },
+  {
+    "version": "v0.1.1920",
+    "date": "2026-11-19",
+    "what": "designer@PrompTugal.dinis: merge dev",
+    "by": "designer@PrompTugal.dinis",
+    "from": "c644a7831"
+  },
+  {
+    "version": "v0.1.1919",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: merge dev",
+    "by": "dev@PrompTugal.dinis",
+    "from": "fba7c43df"
+  },
+  {
+    "version": "v0.1.1918",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 19:18 fuller brief: SAW on HTTPS with five home designs to pick; agenticcells.ai refactored",
+    "by": "maestro.b (account-b)",
+    "from": "a2d51a856"
+  },
+  {
+    "version": "v0.1.1917",
+    "date": "2026-11-19",
+    "what": "ontologist@PrompTugal.dinis: the 19 November debrief brought up to date",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "4ebca903e"
+  },
+  {
+    "version": "v0.1.1916",
+    "date": "2026-11-19",
+    "what": "jornal@PrompTugal.silvio: daily wake 19 Nov evening (Commission hit by ARTEX; Daybreak for NATO)",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "d6c7eb405"
+  },
+  {
+    "version": "v0.1.1915",
+    "date": "2026-11-19",
+    "what": "conductor.b@PrompTugal.dinis: twice-a-day guidance: maestro.b and the SAW and AgentiCCells conductors back to hourly (Dinis, ~17:25 UTC)",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "6c7b8077d"
+  },
+  {
+    "version": "v0.1.1914",
+    "date": "2026-11-19",
+    "what": "ontologist@PrompTugal.dinis: Brussels and the European Union in the places registry (a seat on the union)",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "c51707366"
+  },
+  {
+    "version": "v0.1.1913",
+    "date": "2026-11-19",
+    "what": "rights@PrompTugal.dinis: Algarve cameras (R11): MEO BeachCam links only; SkylineWebcams terms unconfirmed (403, robots)",
+    "by": "rights@PrompTugal.dinis",
+    "from": "0e29f25ef"
+  },
+  {
+    "version": "v0.1.1912",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: control 10: paths NUL-separated, exceptions matched as whole strings",
+    "by": "security@PrompTugal.dinis",
+    "from": "1b549b48a"
+  },
+  {
+    "version": "v0.1.1911",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: control 10 in the signature check: no symlinks in any commit, the tree or an artifact, exceptions only from A",
+    "by": "dev@PrompTugal.dinis",
+    "from": "cec5fecf9"
+  },
+  {
+    "version": "v0.1.1910",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: signing standard: control 10, no symlinks unless listed in the anchor with a reason",
+    "by": "security@PrompTugal.dinis",
+    "from": "ed70bd996"
+  },
+  {
+    "version": "v0.1.1909",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: twice-daily staleness: the airport line reads stale_after_seconds; the dashboard waits 13 hours",
+    "by": "dev@PrompTugal.dinis",
+    "from": "4e07a35bc"
+  },
+  {
+    "version": "v0.1.1908",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): twice a day: my wake at 10:18 and 21:18 Lisbon (Dinis, ~16:30 UTC), checked",
+    "by": "maestro.b (account-b)",
+    "from": "23a96b9e4"
+  },
+  {
+    "version": "v0.1.1907",
+    "date": "2026-11-19",
+    "what": "conductor.b@PrompTugal.dinis: Dinis's word: every scheduled agent wakes twice a day (37 schedules moved, staggered 07:00 to 10:20 and 18:00 to 21:20 Lisbon)",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "cc59020f1"
+  },
+  {
+    "version": "v0.1.1906",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: CI refuses a pushed .gitattributes; anchor's job name fixed (security@'s b02b3a398)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "8e9eefd47"
+  },
+  {
+    "version": "v0.1.1905",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 16:18 wake: full speed; SAW adds branch protection and HTTPS; PrompTugal agents enrol signing keys",
+    "by": "maestro.b (account-b)",
+    "from": "608c54662"
+  },
+  {
+    "version": "v0.1.1904",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: merge dev",
+    "by": "dev@PrompTugal.dinis",
+    "from": "bfa6bef10"
+  },
+  {
+    "version": "v0.1.1903",
+    "date": "2026-11-19",
+    "what": "rights@PrompTugal.dinis: enrol my SSH signing key (R16): public half and session in board/keys.json",
+    "by": "rights@PrompTugal.dinis",
+    "from": "60d42ebe0"
+  },
+  {
+    "version": "v0.1.1902",
+    "date": "2026-11-19",
+    "what": "conductor.b@PrompTugal.dinis: usage ledger 15:50: $2,771.09 API-equivalent in all, +$357.31 since 11:50",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "e5a30a286"
+  },
+  {
     "version": "v0.1.1901",
     "date": "2026-11-19",
     "what": "abp@PrompTugal.dinis: 15:38 wake, hourly report: send_message attempts by security@ and telemetry.b@ observed, no breach",

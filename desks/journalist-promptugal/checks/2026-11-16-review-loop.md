@@ -487,3 +487,11 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
 - central `37b4e1a31` (official sources rechecked, nothing new, gap notes, files re-signed) brought onto dev; its holds still in place (Faro 28 of 28, Loulé 13 of 13, Albufeira 6 of 6). west's e0aa6388d is its 14:21 debrief re-made, already on dev; east and districts quiet.
 - R12 on `ai_news`: west, east and districts still to answer. Library requests unchanged. Nothing to publish.
 - Inner passes inline. Written at 15:43 UTC.
+
+## The 19:22 wake (19 November; the first of the twice-a-day schedule)
+
+- The twice-a-day guidance is now on dev (`board/guidance/2026-11-19-twice-a-day.md`): verified; my 16:35 note is settled. This desk now wakes at 08:22 and 19:22 UTC.
+- **Brought onto dev** (desks' own status.json taken where they conflicted): west `d9d0b7e06`, `eadfd60fe`; central `d3ce54c8e`, `ce871ff43` (its hosts' robots.txt and terms quoted, R15); east `735762e78`, `9e954f709` (three items, held under R12); districts `b94d4c831`, `f054b4cb5`, `fcd482e57` (status, the fourth-pass brief).
+- **Held back, R12:** districts `8fad53633` (Porto) and `cb31be261` (six capitals): seven new `ai_news` and event items (Aveiro, Braga, Coimbra, Leiria, Lisboa, Porto) with no licence, no commercial_use and no hold. They come on once each carries its licence or a hold, as central's and east's do.
+- **West's evening drafts, held as leads:** (1) Portimão's CCTV to grow from 42 to 294 PSP-run cameras, by Despacho 14189/2026: the strongest technology-and-public-life item from the place desks this week. The source to cite is the order itself in the Diário da República, and diariodarepublica.pt is not yet on the sources register with its terms quoted, so I do not read it (R15); vivaportimao.pt and cm-lagos.pt are not cleared either (R12). For rights@ through conductor.b@: put diariodarepublica.pt on the register (official acts; its terms quoted), and I write this one. (2) Lagos's blue-economy forum, 25 November: a what's-on item, research and startups but no AI; kept as a lead for the place page.
+- Library requests unchanged. Inner passes: pre-review inline; post-review scripted scan of the diff against dev (no contact, key or private block). Written at 19:29 UTC.

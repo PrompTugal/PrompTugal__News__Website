@@ -28,3 +28,16 @@ Compared the whole by-place list with `data/places/` (36 against ours): these we
 3. **Kind:** the 16 Algarve municipalities are now kind `municipality` (a new kind in the schema, the ontology's `place_kind` and the registry), as in by-place.
 
 Everything else matched (id, name, kind, parent) for the 36. The registry now has 101 places; `quarteira`'s border question stands (a parish of Loulé has no border of its own).
+
+## 19 Nov, 18:00 UTC: Brussels and the European Union are in the registry
+
+For the site leads, designer@ and conductor.b@ (the map: Portugal big, London small, the EU small, represented by Brussels). `brussels` (city, `place:belgium`, BE, Europe/Brussels, Wikidata Q239) and `european-union` (kind `region`, no country code because it is not a country, Wikidata Q458) are in `data/places/` and in `data/site/places-registry.json` (103 places). The EU carries `seat: place:brussels`: draw it as a marker at Brussels. A new optional `seat` on a place, and in the registry, says where a union or region is shown. Both ids were read on Wikidata that day. (The guidance file the message named, `board/guidance/2026-11-19-cameras-as-links-and-the-map.md`, was not in my checkout when I did this; the request is the same data, small and reversible.)
+
+## 19 Nov, 20:10 UTC: coordinates in the registry (for the shared map, ptmap 1.0.0)
+
+Asked by conductor.b@ for designer@'s `PTMap.render`. Each place in `data/site/places-registry.json` now has **`at`: [longitude, latitude]** (the same order and form as the map's `places[].at`), or null. 69 of 103 have one:
+- **34 Portuguese places:** the by-place list's own point (`data/by-place/places.json`), the same one the map already draws;
+- **34 others** (London, its 32 boroughs, Brussels, and the rest that have a Wikidata item): Wikidata's coordinate location (P625), read by query on 19 Nov; each place's `at_source` says which and when;
+- **the European Union** takes its seat's point (Brussels), so a site can draw the EU inset from the registry alone.
+
+**Null on purpose:** countries (a country has no single point; Wikidata gives Lisbon for Portugal and a geographic centre for the UK, which a map must not mix), and seven places with no point yet (`algarve`, `acores`, `madeira`, `almancil`, `dublin`, `beato-innovation-district`, `parque-das-nacoes`): say which you need and I read it. A site that needs a country's point draws it from the places inside it.

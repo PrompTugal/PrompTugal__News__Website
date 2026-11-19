@@ -5,7 +5,7 @@
   "title": "What the health service pays for remote physiotherapy at home",
   "beat": "Portugal",
   "topic": null,
-  "status": "idea",
+  "status": "draft",
   "rests_on": [
     "evidence:v-dre-aviso-3864-2026",
     "evidence:v-observador-sword-sns-launch",
@@ -17,23 +17,30 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-19-1150.json"
+      "desks/curator/2026-11-19-1150.json",
+      "desks/journalist-vicky/drafts/S75-health-service-pays-remote-physiotherapy.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-portugal@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S75-health-service-pays-remote-physiotherapy.md",
   "check": null,
   "reviews": [],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "the fact-check: every fact re-opened at its source",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-19T11:50Z",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-19-1150.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-19",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S75-health-service-pays-remote-physiotherapy.md"
     }
   ]
 }

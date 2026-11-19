@@ -52,8 +52,9 @@
       "steps": 3,
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-sbras.pt/"
+        "note": "robots.txt returned 404 (no rules) on 2026-11-19; no terms page found (only a privacy policy); no reuse sentence. Only a short own-words summary with the link is held here; rights@ to clear.",
+        "url": "https://www.cm-sbras.pt/",
+        "legal_page_url": "https://www.cm-sbras.pt/pt/menu/1135/politica-de-privacidade.aspx"
       },
       "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
       "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
@@ -69,8 +70,9 @@
       "steps": 3,
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-sbras.pt/"
+        "note": "robots.txt returned 404 (no rules) on 2026-11-19; no terms page found (only a privacy policy); no reuse sentence. Only a short own-words summary with the link is held here; rights@ to clear.",
+        "url": "https://www.cm-sbras.pt/",
+        "legal_page_url": "https://www.cm-sbras.pt/pt/menu/1135/politica-de-privacidade.aspx"
       },
       "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
       "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
@@ -242,8 +244,9 @@
       "ai_path": null,
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-sbras.pt/"
+        "note": "robots.txt returned 404 (no rules) on 2026-11-19; no terms page found (only a privacy policy); no reuse sentence. Only a short own-words summary with the link is held here; rights@ to clear.",
+        "url": "https://www.cm-sbras.pt/",
+        "legal_page_url": "https://www.cm-sbras.pt/pt/menu/1135/politica-de-privacidade.aspx"
       },
       "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
     },
@@ -255,8 +258,9 @@
       "ai_path": "Local IT and medical-technology firms presented, no AI mention (3 steps)",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-sbras.pt/"
+        "note": "robots.txt returned 404 (no rules) on 2026-11-19; no terms page found (only a privacy policy); no reuse sentence. Only a short own-words summary with the link is held here; rights@ to clear.",
+        "url": "https://www.cm-sbras.pt/",
+        "legal_page_url": "https://www.cm-sbras.pt/pt/menu/1135/politica-de-privacidade.aspx"
       },
       "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
     }
@@ -473,7 +477,8 @@
     "WebSearch: nothing new.",
     "Council news page not opened; no new item found elsewhere.",
     "cm-sbras.pt/pt/noticias-listagem.aspx opened: page 1 of 5, 6 items, newest 2026-11-16; nothing AI beyond items already in the file.",
-    "Opened cm-sbras.pt/pt/noticias-listagem.aspx page 1 of 5: 6 items, newest 16 Nov, none AI; CCDR visit already in file. Other pages not seen."
+    "Opened cm-sbras.pt/pt/noticias-listagem.aspx page 1 of 5: 6 items, newest 16 Nov, none AI; CCDR visit already in file. Other pages not seen.",
+    "cm-sbras.pt listing 6-16 Nov: nothing with AI; the 16 Nov CCDR item already in file"
   ],
   "voice": {
     "lede": "Cork, costumes and a quiet pinch of artificial intelligence, aqui na serra, com calma.",

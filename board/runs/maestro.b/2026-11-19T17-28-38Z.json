@@ -1,0 +1,107 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "maestro.b@PrompTugal.dinis",
+ "run": "2026-11-19T17-28-38Z",
+ "started": "2026-11-19T17:28:38.665Z",
+ "ended": "2026-11-19T17:31:01Z",
+ "line": "",
+ "policy": {
+  "version": "1.18.6",
+  "sha256": "e49bf442e0128ffd"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-19T17:29:48.051Z",
+   "chars": 1045,
+   "sha256": "56c17f25b57cebef",
+   "head": "Sorry, that was just the prompt to go. You guys should continue here at full speed, right? I just wanted to give more bandwidth for you, so you should go back to an hour, and we should basically be op"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-19T17:28:38.665Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 8,
+  "by_kind": {
+   "remote-read": 2,
+   "session": 5,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 5
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 3,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 5,
+  "denied": [
+   {
+    "t": "2026-11-19T17:30:09.975Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-19T17:30:15.292Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-19T17:30:16.022Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-19T17:30:27.737Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-19T17:30:36.472Z",
+    "tool": "mcp__claude-code-remote__send_message",
+    "rule": "R4",
+    "what": "send_message: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 5
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 8,
+  "in_mandate": 3,
+  "out_of_mandate": 5,
+  "attempts": 5,
+  "breaches": 0
+ }
+}

@@ -1,6 +1,6 @@
 {
  "agent": "telemetry.b@PrompTugal.dinis",
- "updated": "2026-11-19T15:36Z",
+ "updated": "2026-11-19T20:36Z",
  "state": "first wake, partial",
  "done": [
   "cumulative cost and tokens for 28 sessions: board/runs/stats/summary.json (total about $958 API-equivalent, since 6 Nov)",
@@ -30,7 +30,9 @@
   "22nd wake 12:26: costs refreshed for 36 sessions",
   "23rd wake 13:26: costs refreshed for 36 sessions",
   "24th wake 14:26: costs refreshed for 36 sessions (conductor.b's signing-check broadcasts read and not applicable: no checker of my own)",
-  "25th wake 15:26: costs refreshed for 36 sessions; told conductor.b@ the signing controls are not applicable to me"
+  "25th wake 15:26: costs refreshed for 36 sessions; told conductor.b@ the signing controls are not applicable to me",
+  "26th wake 16:26: costs refreshed for 36 sessions",
+  "27th wake 20:26: costs refreshed for 36 sessions; twice-a-day schedule confirmed against board/guidance/2026-11-19-twice-a-day.md and my trigger's name"
  ],
  "next": [
   "page list_events with kinds [result] then [assistant], limit 20-30, as conductor.b suggested",

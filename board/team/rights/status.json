@@ -1,8 +1,8 @@
 {
   "agent": "rights@PrompTugal.dinis",
   "focus": "licences, terms, attribution, commercial use and privacy rights across every *.promptugal.news site; not legal advice; no agent accepts terms but Dinis",
-  "state": "wake 2026-11-19T13:27Z: ENISA/EUVD asked: R10, legal notice not quotable by machine, a person must read it; own slip on www.enisa.europa.eu logged",
-  "updated": "2026-11-19T13:37Z",
+  "state": "wake 2026-11-19T20:46Z: commercial.json 12/7/4/2: new contracts-finder wrongly labelled ours (R13); cameras recorded as links only",
+  "updated": "2026-11-19T20:46Z",
   "hold": false,
   "done": [
     "key rights-promptugal in board/keys.json",
@@ -19,7 +19,12 @@
     "02:45 wake: clones pulled; one new source nvd-kev (allowed): confirm its licence line at next wake; front page clean; release.sh has no commit-signature check yet (R16 pending dev@)",
     "2026-11-19T03:45Z wake: nvd-kev: NVD terms refuse machine reading, credit carried on Data and Cyber (R9); times from date -u from now on (R17)",
     "2026-11-19T13:27Z: ENISA/EUVD reviewed (R10); fetched one www.enisa.europa.eu page before reading its robots rules: logged as my slip, discarded",
-    "2026-11-19T13:37Z: cyber.b@ took EUVD down (30b9eae) pending a person's reading of ENISA's notice; R10 updated"
+    "2026-11-19T13:37Z: cyber.b@ took EUVD down (30b9eae) pending a person's reading of ENISA's notice; R10 updated",
+    "2026-11-19T16:03Z: SSH signing key enrolled for rights-promptugal (public half and session in board/keys.json; private half only in this session); commits signed from now (R16)",
+    "2026-11-19T17:34Z: camera terms (R11): MEO BeachCam links only, confirmed; SkylineWebcams terms refuse automated reading, unconfirmed",
+    "2026-11-19T19:45Z: ptmap outline licence reviewed (R12): ISC and public domain, commercial allowed; full ISC text wanted in 1.0.1",
+    "2026-11-19T19:53Z: R12 closed: ptmap 1.0.2 carries the full ISC text, verified verbatim against the source",
+    "2026-11-19T20:46Z wake: R13 contracts-finder licence is OGL v3.0, not CC BY 4.0 ours; R11 cameras links only recorded"
   ],
   "next": [
     "review the built free replays page against C1 to C6 and the free-page gate check",
@@ -30,7 +35,6 @@
     "Videos pages: YouTube credit and terms link",
     "ABP rules R12 to R15 are now in policy v1.16.0 (abp@): check they match the guidance",
     "re-read terms of a few sources (NVD refused: 403)",
-    "signed commits (guidance 19 Nov 01:05): set up signing for rights@ when the pattern is in release.sh",
     "confirm nvd-kev's licence and terms quote (R15)"
   ],
   "asks": [
@@ -38,7 +42,9 @@
     "Dinis: is an IPMA warning quoted in prose in an article on promptugal.news (the billing site) a commercial use of IPMA's data? Until you say, rights@ treats it as unclear.",
     "Dinis: may Vertex AI Search results (titles, snippets, links from the 15 sites) be shown on any page, and which? rights@ proposes: on no page until each site's terms are quoted; never on promptugal.news.",
     "Dinis: NVD's terms page refuses automated reading (403); a person needs to read it so \"allowed\" for nvd-cve and nvd-kev rests on a quote.",
-    "Dinis: a person needs to read ENISA's legal notice (and EUVD's) in a browser and quote the reuse and credit clauses; cyber.promptugal.news shows EUVD aggregates meanwhile."
+    "Dinis: a person needs to read ENISA's legal notice (and EUVD's) in a browser and quote the reuse and credit clauses; cyber.promptugal.news shows EUVD aggregates meanwhile.",
+    "Dinis: SkylineWebcams' terms (403 to machines): links only is set; the quote is only wanted if an embed is ever proposed.",
+    "Dinis: Contracts Finder's terms say 'You must agree to these to use the services'; no agent accepts terms (R14). Are you content that we read its public feeds?"
   ],
   "findings": "board/team/rights/findings.md",
   "latest_debrief": "board/team/rights/debriefs/2026-11-18-handover.md"
