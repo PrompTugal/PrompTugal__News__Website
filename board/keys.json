@@ -283,7 +283,10 @@
         "fingerprint": "sha256:53345c3fd5d4a73d",
         "signing_fingerprint": "sha256:b0a110df3e787e6d"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGVNKZ3jCjdtOfNoX3o1KSm7+mtM/QIx1bUI+seJjPTX",
+      "session": "https://claude.ai/code/session_01Kw9UwCqzmCPurcVkEeQXcK",
+      "ssh_added": "2026-11-19T16:02Z"
     },
     {
       "id": "journalist-promptugal-0",
@@ -3309,7 +3312,10 @@
         "fingerprint": "sha256:dbb44ad4587f83d6",
         "signing_fingerprint": "sha256:3e41c4eee33a53d8"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII93IErsx721q1psFnJSWBAPO4BATQsjRU/lwFf6y+1O",
+      "session": "https://claude.ai/code/session_01Kw9UwD8Vhfy61uBa4EkATR",
+      "ssh_added": "2026-11-19T16:01Z"
     },
     {
       "id": "place.algarve.west-promptugal",
@@ -3465,7 +3471,10 @@
         "record": "sha256:32c611f1e6f59181",
         "signing_fingerprint": "sha256:32c611f1e6f59181"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILybcmZa+uoX2LPXTz+WiKbW3ikoWmlDeLFK72/tZe0h",
+      "session": "https://claude.ai/code/session_01Kw9UwC3EfbmHL8QUj8KypP",
+      "ssh_added": "2026-11-19T16:01Z"
     },
     {
       "id": "local-jose-promptugal",
