@@ -79,7 +79,7 @@ const CSS = `
 .sheet li a b{font:600 16px Newsreader,Georgia,serif}.sheet li a span{font-size:12.5px;color:var(--muted);text-align:right}
 .sheet li a[aria-current=page] b:after{content:" · you are here";font:500 11px 'IBM Plex Mono',monospace;color:var(--green)}
 .scrim{position:fixed;inset:0;background:rgba(0,0,0,.35)}
-@media(max-width:760px){.ptsb ul{display:none}.ptsb .ptsb-all{display:block;color:var(--bar-ink)!important;border:1px solid #3a3b42}}
+@media(max-width:760px){.ptsb-mark{display:none}.ptsb-w{padding:0}.ptsb ul{overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:none;padding:0 12px;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 28px),transparent)}.ptsb ul::-webkit-scrollbar{display:none}.ptsb li{scroll-snap-align:center}.ptsb a{padding:9px 11px;font-size:13px}.ptsb a[aria-current=page]{background:var(--chip)}}
 /* a stand-in for the host site underneath */
 .host{max-width:1152px;margin:0 auto;padding:22px 16px}.host .wm{font:600 40px Newsreader,Georgia,serif;text-align:center;margin:8px 0 14px}.host .wm b{color:#c52830}.host .wm i{color:var(--green);font-style:normal}
 .host p{color:var(--muted);font:15px 'IBM Plex Sans',Arial,sans-serif;max-width:640px}`
@@ -98,8 +98,8 @@ writeFileSync('design/sites-bar/preview-template.svg.txt', TEMPLATE + '\n')
 const b = await chromium.launch()
 for (const theme of ['light', 'dark']) {
   for (const [w, tag] of [[1280, 'desktop'], [390, 'phone']]) {
-    const body = w > 760 ? `${bar('library')}<div style="position:relative;max-width:1152px;margin:0 auto">${pop(96, SITES[0])}</div>${host}` : `${bar('library')}${host}${sheet('library')}`
-    const p = await b.newPage({ viewport: { width: w, height: w > 760 ? 420 : 844 } })
+    const body = w > 760 ? `${bar('library')}<div style="position:relative;max-width:1152px;margin:0 auto">${pop(96, SITES[0])}</div>${host}` : `${bar('library')}${host}<script>document.querySelector('.ptsb a[aria-current]').scrollIntoView({inline:'center',block:'nearest'})</script>`
+    const p = await b.newPage({ viewport: { width: w, height: w > 760 ? 420 : 300 } })
     await p.route('http://localhost:8765/__sites-bar', r => r.fulfill({ body: page(theme, body), contentType: 'text/html; charset=utf-8' }))
     await p.goto('http://localhost:8765/__sites-bar', { waitUntil: 'load' }); await p.evaluate(() => document.fonts.ready); await p.waitForTimeout(300)
     await p.screenshot({ path: `design/decisions/sites-bar/${tag}-${theme}.png` })

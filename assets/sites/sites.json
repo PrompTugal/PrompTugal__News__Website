@@ -96,10 +96,10 @@
     }
   ],
   "preview_spec": [
-    "Each site makes its own preview at every build, from its own numbers: /preview.svg, 1200 by 630, an infographic of what is live there now (events this week, cameras up, contracts in 90 days, the pulse), with the site's name and mark, the version and the time built.",
+    "Each site makes its own preview at every build, from its own numbers: /preview.svg, 320 by 180 (designer@'s SB6, the template in design/sites-bar/preview-template.svg.txt), three numbers that say what the site is for today, with the site's name, accent, the time read and the licence.",
     "It carries its provenance and licence inside: an SVG <title> and <desc> naming the files the numbers come from and the licence (CC BY 4.0 for what we make).",
     "No script, no external reference, no font file in the SVG: system fonts only, so any site can show it as an <img>.",
-    "/preview.png, the same picture for social cards (og:image), when the site's build can render one; until then the SVG alone."
+    "/preview.png, 1200 by 630, for social cards (og:image), when the site's build can render one; until then the SVG alone."
   ],
   "page": {
     "bar_heading": "The sites bar",
@@ -107,7 +107,7 @@
     "preview_heading": "Each site's preview",
     "table": "| Site | What it is |"
   },
-  "bar_install": "Copy the three files of this version into your site and check each against its sha256 here (all 64 hex characters; if your leak scan refuses long hex runs, keep the pins in VENDOR.md and let the scan allow that file, rather than shortening them); never load them from promptugal.news. At build: import render from sites-bar-render.mjs, render(the registry, { here: your hostname }) and put the HTML first in <body>, above your masthead; refuse to publish the bar if it returns ''. On every page: the CSS in <head> and sites-bar.js with defer. Serve your own /preview.svg (320 by 180, the template in design/sites-bar/preview-template.svg.txt) and /version.json. On GitHub Pages the .svg extension is enough: Pages sends image/svg+xml and no site can add nosniff there, so the controls are the bar showing previews only as <img> (an SVG in an img runs no script and loads nothing) and your gate refusing a script, a foreignObject, an event attribute or an outside reference in your preview.svg.",
+  "bar_install": "Copy the three files of this version into your site and check each against its pin in bar.integrity (SRI form, sha256-<base64> of the whole file: node -e \"console.log('sha256-'+require('crypto').createHash('sha256').update(require('fs').readFileSync(process.argv[1])).digest('base64'))\" <file>), the full pin, never a part of it; it has no long hex run for a leak scan to flag; never load them from promptugal.news. At build: import render from sites-bar-render.mjs, render(the registry, { here: your hostname }) and put the HTML first in <body>, above your masthead; refuse to publish the bar if it returns ''. On every page: the CSS in <head> and sites-bar.js with defer. Serve your own /preview.svg (320 by 180, the template in design/sites-bar/preview-template.svg.txt) and /version.json. On GitHub Pages the .svg extension is enough: Pages sends image/svg+xml and no site can add nosniff there, so the controls are the bar showing previews only as <img> (an SVG in an img runs no script and loads nothing) and your gate refusing a script, a foreignObject, an event attribute or an outside reference in your preview.svg.",
   "preview": {
     "site": "PROMPTUGAL.NEWS",
     "line": "Portugal's news, town by town",
@@ -118,5 +118,6 @@
     ],
     "licence": "CC BY 4.0",
     "desc": "From this site's build: articles (content/articles), places (data/by-place/places.json), Algarve towns (places whose parent is the Algarve). Licence CC BY 4.0, https://creativecommons.org/licenses/by/4.0/, PrompTugal.news."
-  }
+  },
+  "obs_tz_install": "Copy assets/obs/tz-country.json of this version into your site and check it against obs_tz.integrity (the full SRI string). In your page-view script, build the table as a null-prototype map (Object.assign(Object.create(null), zones)), look the browser's zone up only as an own key, accept only two letters A to Z, and send no country otherwise. No network call for the place, no IP lookup, no region or city. Missing a zone? Ask dev@ to add it: one table for every site, so every site reports the same countries."
 }

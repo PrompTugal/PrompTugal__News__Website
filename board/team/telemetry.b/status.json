@@ -1,6 +1,6 @@
 {
  "agent": "telemetry.b@PrompTugal.dinis",
- "updated": "2026-11-19T00:36Z",
+ "updated": "2026-11-19T03:36Z",
  "state": "first wake, partial",
  "done": [
   "cumulative cost and tokens for 28 sessions: board/runs/stats/summary.json (total about $958 API-equivalent, since 6 Nov)",
@@ -15,16 +15,20 @@
   "7th wake 21:26: costs refreshed; live.b and cyber.b added to the roster read (bulletins.b has no usage yet)",
   "8th wake 22:26: costs refreshed for 33 sessions (bulletins.b and cells.b added)",
   "9th wake 23:26: costs refreshed for 34 sessions (newsroom.writer added)",
-  "10th wake 00:26 (19 Nov): costs refreshed for 35 sessions (rights added); daily debrief for the 19th"
+  "10th wake 00:26 (19 Nov): costs refreshed for 35 sessions (rights added); daily debrief for the 19th",
+  "11th wake 01:26: costs refreshed for 35 sessions",
+  "12th wake 02:26: costs refreshed; key made (telemetry.b-promptugal in board/keys.json, ssh signing set up, private halves in ~/.sg-send only)",
+  "13th wake 03:26: costs refreshed for 36 sessions (maestro.b added)"
  ],
  "next": [
   "page list_events with kinds [result] then [assistant], limit 20-30, as conductor.b suggested",
   "per-agent end-of-run lists for abp@",
-  "make my key (sgit pki keygen), add telemetry.b-promptugal to board/keys.json",
   "make the encrypted vault and seal it to conductor.b and abp@ keys",
   "abp@ grant for telemetry.b (reading other sessions' events, board/runs/stats/**)"
  ],
- "asks": [],
+ "asks": [
+  "Dinis: my key entry (telemetry.b-promptugal) was added in the commit signed with it, which the signature check does not accept by itself; a person or an already-listed key must vouch for it"
+ ],
  "debrief": "board/team/telemetry.b/debriefs/2026-11-19-handover.md",
  "focus": "Reads every other session's record: tokens and cost, tools, hosts, sub-agents, refusals; raw detail to a vault, aggregates public"
 }

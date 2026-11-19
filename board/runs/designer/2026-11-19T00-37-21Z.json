@@ -1,0 +1,85 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "designer@PrompTugal.dinis",
+ "run": "2026-11-19T00-37-21Z",
+ "started": "2026-11-19T00:37:21.997Z",
+ "ended": "2026-11-19T01:19:45Z",
+ "line": "The free replays page: spec FR1-FR7 and mock-ups (no AI), draft for rights@",
+ "policy": {
+  "version": "1.17.0",
+  "sha256": "54a1121168a08049"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-19T00:37:32.136Z",
+   "chars": 872,
+   "sha256": "23bd10113db9620f",
+   "head": "<agent-message from=\"a28011ca4e44bd11c\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-19T01:15:57.840Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-19T01:15:57.602Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 21,
+  "by_kind": {
+   "agent": 2,
+   "git": 4,
+   "shell": 6,
+   "read": 6,
+   "release": 1,
+   "other": 1,
+   "write": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 21,
+  "commits": [
+   {
+    "sha": "24aee643e",
+    "subject": "designer@PrompTugal.dinis: dev@'s sites bar v1.1.0 checked (bar, current mark, pop-up, phone sheet pass; previews await each site; the old 'Also from' tab a dup",
+    "files": 7
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 21,
+  "in_mandate": 21,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

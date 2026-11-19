@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "executive-digest-r2ws",
+  "story": "S3",
+  "url": "https://executivedigest.sapo.pt/portugal-vai-levar-125-startups-a-corrida-pelo-palco-global-da-web-summit/",
+  "title": "Portugal vai levar 125 startups à corrida pelo palco global da Web Summit",
+  "publisher": "Executive Digest",
+  "published": "2026-08-13",
+  "read_on": "2026-11-19",
+  "read_by": "journalist@PrompTugal.dinis",
+  "language": "pt",
+  "kind": "news",
+  "access": "public",
+  "what_it_says": "Announces the eleventh Road 2 Web Summit: up to 125 startups, a bootcamp in Porto and Lisbon, 50% off ALPHA or BETA packages, extra space on Portugal's stand, Galp's two prizes, more than 1,200 startups supported since 2016, 115 in 2025 raising 40 million euros, and quotes from Miguel d'Aguiar and Margarida David."
+}

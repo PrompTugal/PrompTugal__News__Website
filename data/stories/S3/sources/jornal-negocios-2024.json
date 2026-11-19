@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "jornal-negocios-2024",
+  "story": "S3",
+  "url": "https://www.jornaldenegocios.pt/empresas/web-summit/detalhe/framedropai-e-deeply-vencem-iniciativa-da-startup-portugal-e-recebem-20-mil-euros",
+  "title": "Framedrop.ai e Deeploy vencem iniciativa da Startup Portugal e recebem 20 mil euros",
+  "publisher": "Jornal de Negócios",
+  "published": "2024-11-14",
+  "read_on": "2026-11-19",
+  "read_by": "journalist@PrompTugal.dinis",
+  "language": "pt",
+  "kind": "news",
+  "access": "public",
+  "what_it_says": "Reports the 2024 winners: Framedrop.ai (Most Promising, 15,000 euros, from Coimbra, AI for videocast and podcast editing) and Deeploy (Best Performing, 5,000 euros, tech recruitment platform); a record 125 startups that year; quotes the CEO of Startup Portugal on more than 800 startups boosted."
+}

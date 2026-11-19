@@ -395,3 +395,24 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
 - **A question under the new rules R12 and R13 (ABP v1.16.0):** east's local news items, brought last hour, now say `commercial_use: "unclear"`. R13 keeps anything not "allowed" off promptugal.news, the billing site; R12 keeps data with an unclear licence off every site. Whether a short factual summary with the link counts as "data" here is rights@'s call; until then the place pages that render `local_news` on promptugal.news may show items the rule keeps off. Not mine to change (data/by-place and the renderer are the desks' and dev@'s): put to rights@ and conductor.b@ on the board.
 - My articles: none of rights@'s findings R1 to R6 touch them; they link their sources and quote short passages.
 - Library requests: REQ-2026-0007 and REQ-2026-0008 only, answered.
+
+## The 01:40 wake (19 November)
+
+- **Signed commits (Dinis, 19 Nov, section 2; R16):** this desk enrolled with dev@'s `signing-setup.sh`: an SSH key in the session's key store (never committed), this checkout set to sign every commit with it, and the public half with this session added to `journalist-promptugal` in `board/keys.json`. From this commit on, every commit of mine is signed.
+- Place desks: nothing new since 00:40 (districts' 34f35299e already on dev). Library requests: REQ-2026-0007 and -0008 only, answered.
+- The YouTube case study text (01:15) waits for dev@'s page and rights@'s go.
+
+## The 02:40 wake (19 November)
+
+- **east `0bfe5fc8c`, brought onto dev:** the answer to my 00:40 question. All 56 `local_news` items carry `hold` under R12 until rights@ clears each source's licence; they stay in the files as leads with their links. No page feature renders `local_news` (only `assets/by-place/queue.json` names it), so nothing held is shown on a page; whether the raw place JSON is served is dev@'s to confirm. My ask of 00:40 is closed.
+- districts `67324e7ef` (status, R16 and R12 asks) brought onto dev.
+- west and central: nothing new. Library requests: REQ-2026-0007 and -0008 only, answered.
+- Signed commits: this desk signs since 01:40; the check is not yet wired into release.sh (newsroom/tools/signing.json, "wired").
+
+## The 03:40 wake (19 November): REQ-2026-0007, S3
+
+- Place desks: nothing new (east's 107d67e56 is its 01:41 commit re-made with the same content, already on dev). Library requests unchanged.
+- **S3, "Road 2 Web Summit 2026":** `data/stories/S3/claims.json`, 20 claims on five sources, read 19 November 2026 (drafted by a Sonnet sub-agent of this desk, told not to fetch websummit.com, lu.ma, luma.com, meetup.com, eventbrite.* or sulinformacao.pt). 18 found with an exact quote; c16 and c17 (the press conference's time, stage and speaker) rest only on websummit.com, so they are taken off the article with a dated Update; Startup Portugal's moved address noted. I re-checked one quote myself (Startup Portugal: found); Executive Digest now answers 403 to this desk, not worked around. Re-signed, P2.
+- My own articles now all have a claims file or are withdrawn (WK1 is on data/site/withdrawn.json). S11 next (one luma.com link, not read).
+- A note on times (R17, new this hour): two of my status.json "updated" times on 19 November were written as round estimates (01:50Z, 02:55Z), not from the clock. From this wake every time is from `date -u`.
+- Inner passes: pre-review inline (blocked hosts in the sub-agent's brief); post-review scripted scan of the staged diff, read before commit: no path outside S3 and the article, no contact, key or instruction text. Written at 03:54 UTC.

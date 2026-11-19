@@ -73,7 +73,10 @@
         "fingerprint": "sha256:a4b21ae0138b4c91",
         "signing_fingerprint": "sha256:b3a6380b12a80e7d"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKNhX5RJLFkXUuoSB4JVglG6RpYrXNIdcTqcgTFPCNsi",
+      "session": "https://claude.ai/code/session_01Kw9UwEA7TFC7iKpVctAi2t",
+      "ssh_added": "2026-11-19T01:10Z"
     },
     {
       "id": "designer-promptugal",
@@ -147,7 +150,10 @@
         "fingerprint": "sha256:0e6fb8566cd3031b",
         "signing_fingerprint": "sha256:af1c72eb0b7a1d05"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOHLCL1yZp09nC6GQMR2sx2bbckmOvLelVqHlKA0QOt9",
+      "session": "https://claude.ai/code/session_01Kw9UwEq1n6W1EdcdvX5uGE",
+      "ssh_added": "2026-11-19T01:36Z"
     },
     {
       "id": "designer.experiments-promptugal",
@@ -335,7 +341,10 @@
         "fingerprint": "sha256:380feef106892497",
         "record": "sha256:d0cea9074eee68f7",
         "signing_fingerprint": "sha256:d0cea9074eee68f7"
-      }
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIILyCfpPsynhbfv7+9hetvrxxBrmwqgcrT3weh6dJkoZ",
+      "session": "https://claude.ai/code/session_01Kw9UwFKhT1TCw8TU2SWTrR",
+      "ssh_added": "2026-11-19T01:40Z"
     },
     {
       "id": "observability-promptugal",
@@ -3345,7 +3354,10 @@
         "label": "datasci.places@PrompTugal.dinis",
         "fingerprint": "sha256:5427680a0e4325d6",
         "signing_fingerprint": "sha256:88ad94c48197bc2b"
-      }
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJnQ15mXdeJD4LDmYmo1SQCEyqdN6XM2vXmxxiZp+C3x",
+      "session": "https://claude.ai/code/session_01Kw9UwByjKtkJhJ74tTYo5q",
+      "ssh_added": "2026-11-19T02:16Z"
     },
     {
       "id": "place.algarve.east-promptugal",
@@ -3416,7 +3428,14 @@
         "record": "sha256:0eb02bbb48ac2517",
         "signing_fingerprint": "sha256:0eb02bbb48ac2517"
       },
-      "status": "active"
+      "status": "active",
+      "session": "https://claude.ai/code/session_01Kw9UwF2TrbbV5BhUjFGupN",
+      "ssh_signing": {
+        "public_key": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAPakiwXTz+fJ1qblvRB7eHZo3NpLpTelsgKljVNvucpyk82qBtD/3qbGdRNfp0YwvhYBnD1Mnwb/MB0+p2g1YE=",
+        "fingerprint": "SHA256:Z/hjsCPdnltxvHPN4suEahvuXWdmtpEMYCOIdHuxGZI",
+        "from": "bundle.sign (the same ECDSA P-256 key, in OpenSSH form)",
+        "since": "2026-11-19T01:25Z"
+      }
     },
     {
       "id": "abp-promptugal-c",
@@ -4311,6 +4330,49 @@
         "fingerprint": "sha256:b5c08abdbfa0f04b",
         "signing_fingerprint": "sha256:90b3fc894fb3185d"
       }
+    },
+    {
+      "id": "maestro.b-account-b",
+      "agent": "maestro.b (account-b)",
+      "label": "maestro.b (account-b): Dinis's main conductor on account B (Claude Code session)",
+      "role": "The conductor of the conductors on account B (board/guidance/2026-11-19-the-maestro.md). A session key: it ends with its session.",
+      "made": "2026-11-19",
+      "made_with": "sgit pki keygen (sgit-ai 0.27.0), in its own session; public bundle from sgit pki export; private half only in that session",
+      "added": "2026-11-19T02:01Z",
+      "encryption_fingerprint": "sha256:3fa8f0c3e915cf6d",
+      "signing_fingerprint": "sha256:856ff3f56ae32658",
+      "status": "active",
+      "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAndCxhyTJZK1cgipUes0U\ndNle809vkOyRg2L1o1ZTOzGw0gZsMJ+89P5RhpbpcsUVuwuPbFAaeuqmG8OXZKHI\ngBDXY0atylyWddcjTa5TnJNcc8nZO7OxvVS7sNWwO8kyeiqwtBD1EWbA5hWPkAF4\nruf12XlFurqg9ZSgZNENBv8Zm3PBlNuyUNYYvtUM1ld80ttRbd/C+caU4JbcZ02P\nMBzLKEEIN2q31Dt0SJCiQvgKBKi0EBK0MuEylx3B/KReA1dQav2a4xmGCstg/kW+\nU6CdDnK+SQlAaPRFmUWql5l0IfGagCF78jZslixjfQH57R4CdEvYrgei3ueAULnu\nH161W2u4LCPB+SAvZzho7/WmBpy9JJmj7d+TRkMz446B8wrKZpCFtQUUcBdatFa2\ne6GyeCi0JAXg54xV1tVjAZNWxHkCsVH1xt+PBCt5Gl/TzxmzhvzxC7gMlCP9POZ/\nHhsSh8LLErlfSL1wGJjpi9+clACAK9EWgZbIRof5MDo7SeUnHFHCHQlMzMKF4cRb\n0oDyu1t+JrsaaboqCKDIIVr3Vs6BY7OYn02DjMHbZJvArlO2R2eGS8LQLVluWdNV\nD6AOCQOefafH761KdgmRoqVSn1S75LOV9yOrpS1m6zjjuzUsdiXHhYa1DIoIz9v1\ndQFG3yln/huoC8JhZhr5gtsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE9kbGTuiGIEcM95iZltLWaAJDENVw\nN1V/G5ZAIU7sU4941y+DQlZNeYmuOosvj/ud7B6JEGQIt4VmMfO9O3xiMQ==\n-----END PUBLIC KEY-----\n",
+        "label": "maestro.b-account-b",
+        "fingerprint": "sha256:3fa8f0c3e915cf6d",
+        "signing_fingerprint": "sha256:856ff3f56ae32658"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH5gO2oqdb0tysEGL283u9OV9wSs4engIAwvleJs/Bqr",
+      "ssh_added": "2026-11-19T02:01Z"
+    },
+    {
+      "id": "telemetry.b-promptugal",
+      "label": "telemetry.b@PrompTugal.dinis (Claude Code session, account B)",
+      "agent": "telemetry.b@PrompTugal.dinis",
+      "role": "The telemetry side-car: tokens, cost, tools and hosts per agent and run, from the sessions' records (board/guidance/2026-11-18-telemetry-and-sub-agents.md)",
+      "how": "Made by the agent in its own session on 19 November 2026 at about 02:50 UTC with sgit pki keygen; the private half stays in the session (~/.sg-send/), never in this repository",
+      "added": "2026-11-19",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAifBoAzgnApB/FyJhhbXH\njnVa7Vb+Lbw663TbeM2c0FDNCxd2HJnydqkSvyFemKS+8SOmBfEb56uCm6O+pS+x\nMCyW7TkvydQQ8cTkdhqfoovUbMmKK3DVLPiHmEwYDa0QCs4Fla7TWqG70KcppzC5\nO9emJECSGsQjBuK0QxLNFpwNUl4B7ssZn/sQiXzir11kkBFwgU85ci0HKZ8p+iHz\nmma8UlovMbil0l1s58dNM6ZIanfTOUrHCS292Mndsc8K4ZIcsv1a5CELpqmHjQEb\nqvkFkuiuZlP87RpY64LzVLIvlv2BcSUGymAXcUqkoD8kTNMD+zZPVOpMox1Eac/T\nvzV53MxJYl4NZ/VfiTiX4ZNtV0EwVXY4pKiLIPfchxSh5ZErtFF9U3AkvF3CUq8x\naQoe/aBzFykSrOVh5vs3mr1/jDqXkZ2DgQgBzDEpf6p19UElceCyAt+yGp8WtFKF\nLz06Aj3kTaoBQ7XIqV5PUNlyOu/qsnKjk2MynkNOGa73cN+VB7UX0VYCN8zmP8NG\nszj5/5ZS4mjknHwmIVH/yp7n3eDNAHWudIY00LQOptLKW44YJV+lGUElLriO0jf6\nwx0vE0coZo6eMjm28yR1Rq8oYbOxVilJGMWO8cZWpvPoawYLzUBbNREV8hsWiDub\nhzWv2cUZI7Oj+W+69vFeSPcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEw7wLl0+6Vm9mbqB+hB+4Ut12ucaE\n27aH++WnqaFSxBj+Lq2CSlxydWN1uWnxN1T7ckzwpcxvE6TBk6rbcW6gFA==\n-----END PUBLIC KEY-----\n",
+        "label": "telemetry.b@PrompTugal.dinis",
+        "fingerprint": "sha256:d000a96f5c0d0660",
+        "signing_fingerprint": "sha256:50071cb838f3b9ad"
+      },
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINfg7WSPDgYb07ni3SRaJe8hvI3p3Fd5QF+WsGhYcKoI",
+      "session": "https://claude.ai/code/session_01Kw9UwFW8GCEutK2aV83rcS",
+      "ssh_added": "2026-11-19T02:30Z"
     }
   ]
 }

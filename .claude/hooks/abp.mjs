@@ -235,7 +235,7 @@ export function checkBash(who, command, cwd, P = loadPolicy()) {
                 if (who.kind === 'team' && m && m[1].toLowerCase() !== who.role) return deny('R9', `commit under ${m[1]}@PrompTugal.dinis from ${who.agent}: commit only under your own name`, 'git-commit')
             }
             if (['filter-branch', 'filter-repo', 'replace', 'update-ref'].includes(sub)) return deny('R5', `git ${sub} rewrites history`, 'git')
-            if (sub === 'config' && rest.some(a => /^(core\.hooksPath|--global|--system)$/.test(a))) return deny('R6', `git config ${rest.join(' ')} changes more than this clone`, 'git')
+            if (sub === 'config' && !rest.some(a => /^(--get|--get-all|--get-regexp|--list|-l)$/.test(a)) && rest.some(a => /^(core\.hooksPath|--global|--system)$/.test(a))) return deny('R6', `git config ${rest.join(' ')} changes more than this clone`, 'git')
         }
         // R9: release under your own name
         const ag = /(?:^|\s)AGENT=["']?([a-z][a-z0-9.-]*)@PrompTugal\.dinis/i.exec(seg)
