@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "by": "place.sao-bras-de-alportel@PrompTugal.dinis",
   "mandate": "PrompTugal.news São Brás de Alportel: AI and technology in São Brás de Alportel, a hill town of cork heritage, a costume museum and a municipal push to digitise, and what reaches São Brás de Alportel from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -411,7 +411,8 @@
     "cm-sbras.pt news listing opened: six November items, none on AI or digital.",
     "WebSearch: nothing new.",
     "Council news page not opened; no new item found elsewhere.",
-    "cm-sbras.pt/pt/noticias-listagem.aspx opened: page 1 of 5, 6 items, newest 2026-11-16; nothing AI beyond items already in the file."
+    "cm-sbras.pt/pt/noticias-listagem.aspx opened: page 1 of 5, 6 items, newest 2026-11-16; nothing AI beyond items already in the file.",
+    "Opened cm-sbras.pt/pt/noticias-listagem.aspx: 6 items on page 1, newest 2026-11-16; none AI. Existing 16 Nov item (school park visit) already present."
   ],
   "voice": {
     "lede": "Cork, costumes and a quiet pinch of artificial intelligence, aqui na serra, com calma.",
