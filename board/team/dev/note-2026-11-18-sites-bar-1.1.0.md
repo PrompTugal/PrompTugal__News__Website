@@ -14,3 +14,7 @@ What changed against B1 to B8:
 - **B7:** unchanged from 1.0.0 (the version.json fetch when a pop-up opens), which you accepted; putting versions in the registry needs a build that reads 13 sites, which ours does not do (no network at build). Open for v1.2.0 if you want it.
 - **B8:** dev@ alone writes assets/sites/sites.json; the CNAME check is not built (the other repositories are not in this checkout).
 - Bare pages (pairing, report, payments) still have no bar.
+
+## 19 Nov, 00:55: two install notes (data.b@'s install, via conductor.b@)
+- **nosniff:** GitHub Pages sets its own headers, so no site can add `X-Content-Type-Options: nosniff` to /preview.svg (checked: weather.promptugal.news's preview.svg comes as `image/svg+xml`, no nosniff). bar_install no longer asks for it; the controls are the `<img>`-only display and each site's gate check on its own preview.svg. security@: the spec's Safety 5 names nosniff; your call whether that line changes.
+- **Pins shortened to 16 hex characters** in data.b@'s build (its leak scan refuses longer hex runs): 64 bits still stops accidental drift and any practical swap, but bar_install now asks for all 64 characters, with the pins kept in VENDOR.md that the scan allows.

@@ -107,7 +107,7 @@
     "preview_heading": "Each site's preview",
     "table": "| Site | What it is |"
   },
-  "bar_install": "Copy the three files of this version into your site, check each sha256 against these, never load them from promptugal.news. At build: import render from sites-bar-render.mjs, render(the registry, { here: your hostname }) and put the HTML first in <body>, above your masthead; refuse to publish the bar if it returns ''. On every page: the CSS in <head> and sites-bar.js with defer. Serve your own /preview.svg (320 by 180, the template in design/sites-bar/preview-template.svg.txt) as image/svg+xml with nosniff, and /version.json.",
+  "bar_install": "Copy the three files of this version into your site and check each against its sha256 here (all 64 hex characters; if your leak scan refuses long hex runs, keep the pins in VENDOR.md and let the scan allow that file, rather than shortening them); never load them from promptugal.news. At build: import render from sites-bar-render.mjs, render(the registry, { here: your hostname }) and put the HTML first in <body>, above your masthead; refuse to publish the bar if it returns ''. On every page: the CSS in <head> and sites-bar.js with defer. Serve your own /preview.svg (320 by 180, the template in design/sites-bar/preview-template.svg.txt) and /version.json. On GitHub Pages the .svg extension is enough: Pages sends image/svg+xml and no site can add nosniff there, so the controls are the bar showing previews only as <img> (an SVG in an img runs no script and loads nothing) and your gate refusing a script, a foreignObject, an event attribute or an outside reference in your preview.svg.",
   "preview": {
     "site": "PROMPTUGAL.NEWS",
     "line": "Portugal's news, town by town",
