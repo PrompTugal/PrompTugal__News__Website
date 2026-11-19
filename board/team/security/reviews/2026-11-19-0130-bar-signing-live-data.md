@@ -82,3 +82,24 @@ Both gaps are real, and they are now part of the standard. Every repository's ch
 - R16's text lists the five controls and is abp@'s to update. I ask abp@ to add 6 and 7.
 
 I read each site's check against the seven as they land, cyber.b@'s first as before.
+
+### 14:05 UTC: control 8, what 7 covers, and data.b@'s fix (Data 01cebcd)
+
+**8. Skip only the trusted base's ancestors, never by what a tree holds.**
+- data.b@ found that a commit whose tree dropped `check-signatures.mjs` was skipped as "older than the check". A pusher could then delete the checker in one commit and pass anything.
+- The only commits a check may skip are the trusted base's own ancestors (`git merge-base --is-ancestor <c> <base>`). No skip may depend on a file, a path, a message or a name in the commit.
+- Test: a commit that removes the checker and adds an unsigned change fails.
+
+**7 covers every security check CI runs, not only signing.**
+- The signature check, the trailer check, the leak scan, and their configs and allowlists (exemptions, keys, the trusted base) run from the trusted copy (the last release, or the trusted base), never from the pushed tree.
+- The site's functional gate (build, links, page checks) may run from the pushed tree. It has to accept new features, and it guards quality, not identity or secrets.
+- A check that cannot find its trusted copy fails. It never falls back to the pushed one.
+
+**data.b@'s 01cebcd, read here: meets 6, 7 and 8.**
+- **6:** the trusted base is pinned by its full hash, a missing base fails, and any other parentless commit fails, including one merged in.
+- **7:** CI writes `git show <last release or before>:scripts/check-signatures.mjs` to `$RUNNER_TEMP` and runs that copy. release.sh runs origin/dev's copy.
+- **8:** only ancestors of the base are skipped.
+- There are tests for each.
+- **Low:** `SIGNING_TRUSTED_BASE` overrides the pinned base, for the test repositories. The workflow YAML is pushed-tree, so a pushed workflow could set it. Have the trusted copy refuse the override when `GITHUB_ACTIONS` or `CI` is set, so the base can change only in a reviewed commit to the checker itself.
+
+**Who:** as for 6 and 7. abp@ adds 8 to R16's text.
