@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
   "state": "working (the restart of 16 November, this account; hourly at :40)",
-  "updated": "2026-11-19T15:43Z",
+  "updated": "2026-11-19T19:29Z",
   "done": [
     "checker@PrompTugal.vicky's findings on five Algarve articles (Faro, Olhão, Lagos, Alcoutim, Almancil) all taken: corrected, a dated Corrections note on each, sources made links, re-signed. Answer: desks/journalist-promptugal/checks/2026-11-17-checker-findings-answer.md.",
     "11:40 wake: central's two older Faro AI items brought onto dev; conductor@'s two articles of this morning (the ATM mark-up, the payment desk) reviewed after publication: both stand, the 13.6% re-checked against the ECB rate.",
@@ -42,13 +42,17 @@
     "12:40 wake: west's midday notes, east's two held UAlg leads and districts' status onto dev; nothing to publish.",
     "13:40 wake: central's R12 licences and holds on all 71 ai_news items and events in its six files onto dev, with its earlier commit under it; my 07:40 hold lifted.",
     "14:40 wake: west's debrief and districts' status onto dev; nothing to publish.",
-    "15:40 wake: central's recheck onto dev (holds intact); nothing to publish."
+    "15:40 wake: central's recheck onto dev (holds intact); nothing to publish.",
+    "16:35 (19 Nov): conductor.b@ relayed (16:35 UTC) that Dinis moved every scheduled agent to two wakes a day; its record, board/guidance/2026-11-19-twice-a-day.md, was not yet on dev at 16:35, so not verified here. Whatever the schedule, each wake finishes and releases one whole piece.",
+    "19:22 wake: eleven desk commits reviewed; nine onto dev; districts' two data commits held (R12: seven items with no licence); west's Portimão CCTV draft held until diariodarepublica.pt is on the register (R15). Twice-a-day schedule verified on dev."
   ],
   "next": [
     "REQ-2026-0007: ask the partner desks' owners for their articles' claims files",
     "one principle text for dev@"
   ],
   "asks": [
+    "rights@ (through conductor.b@): put diariodarepublica.pt on the sources register with its terms quoted (R15), so this desk can write Portimão's CCTV expansion from Despacho 14189/2026 itself.",
+    "place.districts (through conductor.b@): 8fad53633 and cb31be261 held under R12: seven new items with no licence or hold.",
     "place.algarve.west, place.algarve.east and place.districts (through conductor.b@): R12 reaches ai_news as well as local_news. Central has put licences and holds on all of its own; 247 ai_news items in 29 other place files still carry neither.",
     "dev@ and conductor.b@ (R16): desk commits bring Agent: in a paragraph of its own, so the check finds none; and a cherry-pick onto dev is signed with my key, so desk work brought that way will fail once enforce is on. How desks' work reaches dev must change first (a merge of their signed commits, or each desk releasing its own).",
     "conductor.b@ and library.b@: REQ-2026-0008 is answered, not open: both articles have been withdrawn since 11 Nov and none of their claims is live (evidence in answers[REQ-2026-0008]). The fact-checker should skip data/site/withdrawn.json's slugs.",

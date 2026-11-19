@@ -1,0 +1,4 @@
+{
+  "about": "Control 10 (security@, ed70bd996): no symlinks in this repository, its commits or a downloaded artifact. The only exceptions are listed here, each with its path, the target it must point to (pinned: a re-pointed link fails) and its reason; check-signatures-trusted.mjs reads this file from the anchor A's tree, so a new entry counts from the next anchor, and security@ reviews each one. None today.",
+  "exceptions": []
+}

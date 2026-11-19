@@ -8,3 +8,6 @@ Finish by checking the file parses (`node -e "JSON.parse(require('fs').readFileS
 
 ## Third pass (17 Nov)
 Same rules. Today is 2026-11-17 (use it as the date read). Add AI news since 16 Nov if any (dated, sourced), then take the file's `gaps` one by one: open the named page if reachable (council pages may hold content after ~100,000 characters of menu: fetch with an offset), close the gap or restate it with the reason. Check the sources' feeds still work. Do not duplicate entries; do not remove existing facts unless found wrong (say so in gaps).
+
+## Fourth pass (19 Nov): news since the last pass only
+Today is 2026-11-19; use it as the date read. Look for AI news, events and programmes dated 17 to 19 Nov that are not yet in the file: the sources' feeds first (tested ones in `sources`), then the capital's local press and the university or polytechnic news page. Add only what you opened and can source (url, date read), with the PrompTugal test and the ai_path. If there is nothing new, change nothing except `updated`, and say so. Never open websummit.com, lu.ma, luma.com, meetup.com or eventbrite.* (the register of sources we do not access). Never put an email address or phone number anywhere in the file, except a contact copied from a public body's official page, and even then prefer the page link only (the gate rejects emails). Do not touch `identity`.

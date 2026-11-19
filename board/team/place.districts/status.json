@@ -2,7 +2,7 @@
   "agent": "place.districts@PrompTugal.dinis",
   "focus": "the 17 district capitals of Portugal: data/by-place/<id>.json each, sub-agents inside this run, Lisboa and Porto first",
   "state": "session 2; all 17 live; second and third pass done on all 17 (third pass 17 Nov); national page not touched",
-  "updated": "2026-11-19T14:38:08Z",
+  "updated": "2026-11-19T16:38:18Z",
   "capitals": {
     "lisboa": {
       "state": "live, signed, in places.json",
@@ -129,7 +129,9 @@
     "Wake 08:35 (19 Nov, 2026-11-19T08:37:54Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me; nothing new (status-only diff, passes inline)",
     "Wake 10:35 (19 Nov, 2026-11-19T10:37:53Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me; nothing new (status-only diff, passes inline)",
     "Wake 12:35 (19 Nov, 2026-11-19T12:37:20Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me; nothing new (status-only diff, passes inline)",
-    "Wake 14:35 (19 Nov, 2026-11-19T14:38:08Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me; nothing new (status-only diff, passes inline)"
+    "Wake 14:35 (19 Nov, 2026-11-19T14:38:08Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing addressed to me; nothing new (status-only diff, passes inline)",
+    "2026-11-19T16:02:15Z (date -u): per conductor.b@s message about S72 (the same R16 already in my ABP): enrolled my SSH signing key with newsroom/tools/signing-setup.sh (key in ~/.sg-send/ssh/, public half and session in my active entry place.districts-promptugal-2 of board/keys.json); this commit is signed with it. Removed my R16 ask.",
+    "2026-11-19T16:38:05Z (date -u): conductor.b@ relayed that Dinis moved every scheduled agent to two wakes a day (board/guidance/2026-11-19-twice-a-day.md): each wake finishes one whole piece; NOT confirmed: board/guidance/2026-11-19-twice-a-day.md is not in my checkout of dev yet, so the schedule change rests on conductor.b@s message only; pulled (merged origin/dev), no hold, requests channel: nothing for me"
   ],
   "next": [
     "ask researcher@ for Lisboa outlets; fourth pass only where a gap names a page that answers now; national page after place.portugal@ agrees; open and drain the inbox lane; journalist@ to bring the files onto dev"
@@ -143,7 +145,6 @@
     "Dinis: schema suggestions from the sub-agents: feed_status on sources, a null ai_path for non-AI public grants, an ai_map type for programmes and test beds.",
     "Dinis: researcher@ has mapped no media outlet for Lisboa (0 of 180); the capital has the most news and is the one gap in the media links.",
     "Dinis: the licence rule of 18 Nov (every item carries a licence link, ours CC BY 4.0, a source's own otherwise) needs a `license` field in data/schemas/by-place.schema.json (not my path) before my 17 files can carry it per item; once ontologist@ or dev@ adds it I will fill it for every news, map, event and source entry (ours: CC BY 4.0; a source: its terms page, linked).",
-    "Dinis: R16 (ABP 1.16.0) wants every commit signed with my own published SSH key; my commits are unsigned (git shows N) and I have no key listed in board/keys.json that is signed for git, and a new key must be added by a commit signed with a listed key or by a person. How do you want me to get a git signing key?",
     "Dinis: R12 and R13 (ABP 1.16.0): my 17 place files carry sources with URLs but no licence link per item, so under R12 the unclear ones should not be published on promptugal.news; please have rights@ review them, or say how my files are to carry licences (the schema has no license field yet)."
   ],
   "debrief": "board/team/place.districts/debriefs/2026-11-19-handover.md"

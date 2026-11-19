@@ -38,3 +38,4 @@ Held back: nothing so far. Next for this lane: LD3 (the five days under the band
 | 19 Nov 10:34 | a1e178027 (library requests none, sweep clean) | passes; on dev |
 | 19 Nov 12:34 | c24084a91 (library requests none, sweep clean) | passes; on dev |
 | 19 Nov 14:35 | d6e824a8b (library requests none, sweep clean) | passes; on dev |
+| 19 Nov 19:37 | c973b7ad0, 25c04e93d (its SSH key on designer.places-2-promptugal only), c55f8a969, ac454ce81 (stale dimming 3 h to 13 h), 6facbb6c5 | pass; on dev by merge (ec2594e2f), not cherry-pick, so its signatures stay (release.sh merges since dev@'s 4e94b6b96) |

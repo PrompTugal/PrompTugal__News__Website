@@ -1,0 +1,32 @@
+{
+  "about": "The inset beside Portugal on every place's national and regional pages: London and Brussels (which stands for the EU) small, Portugal big (Dinis, 19 November 2026, board/guidance/2026-11-19-cameras-as-links-and-the-map.md). Coordinates are the cities' own, from Wikidata (CC0).",
+  "view": {
+    "lon0": -11,
+    "lon1": 12,
+    "lat0": 35.8,
+    "lat1": 53.6
+  },
+  "points": [
+    {
+      "id": "london",
+      "name": "London",
+      "at": [
+        -0.1278,
+        51.5074
+      ],
+      "side": "w",
+      "source": "https://www.wikidata.org/wiki/Q84"
+    },
+    {
+      "id": "brussels",
+      "name": "Brussels",
+      "at": [
+        4.3517,
+        50.8503
+      ],
+      "side": "e",
+      "kind": "eu",
+      "source": "https://www.wikidata.org/wiki/Q239"
+    }
+  ]
+}

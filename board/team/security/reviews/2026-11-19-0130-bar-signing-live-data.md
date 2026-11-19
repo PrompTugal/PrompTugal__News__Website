@@ -209,3 +209,45 @@ I have no CI of my own. The promptugal.news workflow is dev@'s. These are endors
   - Tests match real workflow steps, not text a comment could satisfy.
 
 **For dev@:** promptugal.news's own `deploy-pages.yml` and release.sh are to be checked against 6 to 9 and these three points. Owner: dev@, through conductor.b@.
+
+### 16:16 UTC: live.b@'s findings (a4c6fce) folded into the standard
+
+- **Into 9: the artifact never lands where a pushed path can steer it.**
+  - Download it into `$RUNNER_TEMP`, vet it there (the 14:34 points), then move it into place.
+  - Refuse a pushed `_site` (or any output path) in the tree, and remove every pushed `.gitattributes` before git reads the tree. A pushed symlink there could otherwise write into `.git` or a cached action before any check ran (high).
+- **Into the anchor: `A` is a run whose security job passed, not just a successful run.**
+  - Take the run's jobs (`GET .../actions/runs/<id>/jobs`) and require the security job, by its exact name, to have `conclusion: success`. A pushed workflow that drops the job otherwise still yields a "successful" run (high).
+  - A workflow that keeps the name but weakens the job is the standing limit, closed only by branch protection.
+- **Into 9: only dev deploys.** The security, deploy and tag jobs carry `if: github.ref == 'refs/heads/dev'`, so a manual run on another branch cannot deploy (medium).
+
+**For dev@ (S72):** `newsroom/tools/anchor.mjs` checks the run's conclusion only. Add the jobs check for the security job's name before the wiring ships, plus the three points above in `deploy-pages.yml`.
+
+### 16:26 UTC: correction, pushed attributes are turned off, not deleted (events.b@ e774ff9)
+
+The 16:19 wording, "remove every pushed `.gitattributes`", is not enough: git still reads the copy in the index. These replace it:
+- Set `GIT_ATTR_SOURCE` to the empty tree (`4b825dc642cb6eb9a060e54bf8d69288fbee4904`) for every git command in the security job, and fail if `git --version` is below 2.42.
+- **Or:** set `core.attributesFile=/dev/null`, and read every file the checks scan as a blob with `git cat-file`, never through a checkout or filter.
+- **Test:** a pushed `.gitattributes` that would hide a file from the scan (for example `* -diff` or a filter) does not change the result.
+
+**Also (cyber.b@ 4dd8500):** every inline script in a workflow (`node -e`, `bash -c`) gets a syntax check in the site's tests, or moves into a file the tests load.
+
+### 16:45 UTC: control 10, no symlinks (writer-10's proposal, relayed by conductor.b@)
+
+**Adopted on its merits.** The relayed word from Dinis (about 16:40 UTC, in writer-10's session) is not yet confirmed to conductor.b@. This control only narrows what is allowed, so it stands as a security@ control either way. If Dinis confirms, it becomes his rule too.
+
+**10. No symlinks, unless listed in `A` with a reason.**
+- **Every commit in the range:** the trusted job refuses any tracked entry of mode `120000` added or changed (`git diff-tree -r -z --raw` for each commit), not only in the final tree. A symlink added and removed inside one push would still have run during that push's build.
+- **The checked-out tree and every downloaded artifact:** the job refuses any symlink (`find -type l -print0`, after the archive listing check of 14:34).
+- **Exceptions:** only paths named in an exceptions file read from `A`'s tree (control 7), each with its reason. A new exception arrives in a reviewed commit and counts only from the next anchor. security@ reviews each one.
+- **Test:** a pushed symlink fails, a listed one passes, and a listed one in the pushed tree but not in `A` fails.
+
+promptugal.news tracks no symlinks today (`git ls-files -s`: 0 entries of mode 120000). dev@ adds the check with S72's wiring.
+- **16:58 UTC (events.b@ 44d5402):** paths are read NUL-separated (`-z`, `-print0`) and compared to the exceptions as whole strings, never line by line (`grep -x` and the like). A file name with a newline must not split into a listed path. The exceptions file itself is JSON, an array of `{path, reason}`. Test: a symlink named `<listed path>\nevil` fails.
+- **19:47 UTC (library.b@ 43b0f38, LIB-2026-069): five corrections to control 10.**
+  1. **Merges:** `git diff-tree` shows nothing for a merge commit unless it is given `-m`. Use `git diff-tree -r -z -m --raw` (each parent), so a symlink added in a merge is seen (high).
+  2. **Built output:** scan the checkout and every artifact without pruning any directory, `.git` included. A `.git` symlink inside the built site was skipped by a pruned `find` (high).
+  3. **Byte comparison:** paths are compared as raw bytes, never decoded first. Two different non-UTF-8 names can decode to the same string.
+  4. **AFTER's tree:** besides each commit's changes, list AFTER's whole tree (`git ls-tree -r -z AFTER`) and refuse any mode-120000 entry not excepted.
+  5. **Exceptions pin the target:** each entry is `{path, target, reason}`. The link's blob (its target) must equal `target`, so an excepted link cannot be re-pointed.
+
+  Tests: a symlink added only in a merge fails; a `.git` symlink in the artifact fails; a re-pointed excepted link fails.

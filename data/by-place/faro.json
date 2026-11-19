@@ -149,8 +149,9 @@
       "blast": [],
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.ualg.pt/"
+        "note": "robots.txt read 2026-11-19: it disallows named AI crawlers (among them GPTBot, CCBot, anthropic-ai, Google-Extended, cohere-ai); no terms page found (only a privacy policy and a ficha tecnica). This desk therefore reads ualg.pt by machine no more until rights@ rules; the item is held and kept only as a short own-words summary with the link.",
+        "url": "https://www.ualg.pt/",
+        "legal_page_url": "https://www.ualg.pt/ficha-tecnica"
       },
       "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
       "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
@@ -183,8 +184,9 @@
       "steps": 0,
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.ualg.pt/"
+        "note": "robots.txt read 2026-11-19: it disallows named AI crawlers (among them GPTBot, CCBot, anthropic-ai, Google-Extended, cohere-ai); no terms page found (only a privacy policy and a ficha tecnica). This desk therefore reads ualg.pt by machine no more until rights@ rules; the item is held and kept only as a short own-words summary with the link.",
+        "url": "https://www.ualg.pt/",
+        "legal_page_url": "https://www.ualg.pt/ficha-tecnica"
       },
       "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
       "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
@@ -200,8 +202,9 @@
       "steps": 0,
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.ualg.pt/"
+        "note": "robots.txt read 2026-11-19: it disallows named AI crawlers (among them GPTBot, CCBot, anthropic-ai, Google-Extended, cohere-ai); no terms page found (only a privacy policy and a ficha tecnica). This desk therefore reads ualg.pt by machine no more until rights@ rules; the item is held and kept only as a short own-words summary with the link.",
+        "url": "https://www.ualg.pt/",
+        "legal_page_url": "https://www.ualg.pt/ficha-tecnica"
       },
       "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
       "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
@@ -699,8 +702,9 @@
       "ai_path": "A month-long library event whose title points to AI, and the page gives no programme, so directly about AI as far as the title shows.",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-faro.pt/"
+        "note": "Terms read 2026-11-19 (https://www.cm-faro.pt/pt/menu/1394/termos-e-condicoes-de-utilizacao.aspx): reproduction of content is authorised with indication of the source, unless otherwise indicated; robots.txt blocks only /upload_files/. Only a short own-words summary with the link and the source named is held here.",
+        "url": "https://www.cm-faro.pt/",
+        "terms_url": "https://www.cm-faro.pt/pt/menu/1394/termos-e-condicoes-de-utilizacao.aspx"
       },
       "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
     },
@@ -712,8 +716,9 @@
       "ai_path": "An exhibition about AI listed on the council's agenda: directly about AI.",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "source_license": {
-        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
-        "url": "https://www.cm-faro.pt/"
+        "note": "Terms read 2026-11-19 (https://www.cm-faro.pt/pt/menu/1394/termos-e-condicoes-de-utilizacao.aspx): reproduction of content is authorised with indication of the source, unless otherwise indicated; robots.txt blocks only /upload_files/. Only a short own-words summary with the link and the source named is held here.",
+        "url": "https://www.cm-faro.pt/",
+        "terms_url": "https://www.cm-faro.pt/pt/menu/1394/termos-e-condicoes-de-utilizacao.aspx"
       },
       "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
     },
@@ -1078,7 +1083,8 @@
     "ualg.pt/pt/noticias: only 'Investigadores da UAlg exploram narrativas imersivas' (17 Nov 2026), no AI stated; not added.",
     "algarveprimeiro Faro items 16-18 Nov (walking cities network, tourism debate, diabetes training) have no AI link.",
     "cm-faro.pt/pt/noticias opened: 3 items, newest 2026-11-18 (walking cities network); none AI. Agenda lists 'Mentes artificiais, ola Futuro' and 'Novembro Digital' as events but no date or detail was read and a web search found nothing, so not added.",
-    "Opened cm-faro.pt/pt/noticias (2 items in window, newest 18 Nov: walkable cities network, diabetes training; no AI) and /pt/agenda/ (titles only; AI events Mentes artificiais and Novembro Digital already in file). ualg.pt/pt/noticias page 1: 10 items 16-19 Nov, newest 19 Nov; opened MetaRed TIC and immersive narratives items, neither mentions AI; Equipa UAlg already in file."
+    "Opened cm-faro.pt/pt/noticias (2 items in window, newest 18 Nov: walkable cities network, diabetes training; no AI) and /pt/agenda/ (titles only; AI events Mentes artificiais and Novembro Digital already in file). ualg.pt/pt/noticias page 1: 10 items 16-19 Nov, newest 19 Nov; opened MetaRed TIC and immersive narratives items, neither mentions AI; Equipa UAlg already in file.",
+    "cm-faro.pt news 16-18 Nov (Rede de Cidades que Caminham, diabetes training): no AI; agenda items Mentes artificiais and Novembro Digital already in file; ualg.pt 17-19 Nov items (MetaRed TIC meeting, Walking on Ice immersive film): articles do not mention AI, not added; UAlg news 16 Nov (Equipa UAlg) already present"
   ],
   "voice": {
     "lede": "Faro, oh pá: where the storks nest on the bell tower, the lagoon sulks at low tide, and the university quietly teaches the whole Algarve to talk to machines, while somebody launches yet another startup book at the TEC Campus.",

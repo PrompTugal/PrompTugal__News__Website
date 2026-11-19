@@ -194,6 +194,40 @@
         "$ref": "common.schema.json#/$defs/slug"
       },
       "description": "other ids another list uses for this place (for example the by-place list calls place:lisbon lisboa), so two lists meet without renaming either"
+    },
+    "seat": {
+      "$ref": "common.schema.json#/$defs/place_ref",
+      "description": "where a union or region sits and is shown on a map (the European Union: place:brussels)"
+    },
+    "at": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 2,
+      "maxItems": 2,
+      "description": "[longitude, latitude] of the place (public geography), for maps; set with at_source; not set on countries or unions (a country has no one point: draw it from its places)"
+    },
+    "at_source": {
+      "type": "object",
+      "required": [
+        "url",
+        "read_at",
+        "how"
+      ],
+      "properties": {
+        "url": {
+          "$ref": "common.schema.json#/$defs/url_or_path"
+        },
+        "read_at": {
+          "$ref": "common.schema.json#/$defs/read_at"
+        },
+        "how": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
     }
   },
   "additionalProperties": false

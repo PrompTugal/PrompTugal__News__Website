@@ -23,6 +23,8 @@
           "country",
           "timezone",
           "aliases",
+          "seat",
+          "at",
           "wikidata"
         ],
         "properties": {
@@ -93,6 +95,32 @@
               "$ref": "common.schema.json#/$defs/slug"
             },
             "description": "other ids another list uses for the place (lisboa for lisbon)"
+          },
+          "seat": {
+            "anyOf": [
+              {
+                "$ref": "common.schema.json#/$defs/place_ref"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "at": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "[longitude, latitude]; a union (the EU) takes its seat's point; null where none is set (countries)"
           }
         },
         "additionalProperties": false

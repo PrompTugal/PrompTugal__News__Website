@@ -7,5 +7,14 @@
   "located_in": "place:portugal",
   "matches": [],
   "source": "data/by-place/places.json",
-  "note": "A district capital of Portugal in the by-place list (data/by-place/places.json); its boundaries and neighbours still to be checked against DGT's CAOP."
+  "note": "A district capital of Portugal in the by-place list (data/by-place/places.json); its boundaries and neighbours still to be checked against DGT's CAOP.",
+  "at": [
+    -8.807,
+    39.744
+  ],
+  "at_source": {
+    "url": "data/by-place/places.json",
+    "read_at": "2026-11-19T20:05Z",
+    "how": "the place's seat as the by-place list gives it (the map's own point)"
+  }
 }
