@@ -73,7 +73,10 @@
         "fingerprint": "sha256:a4b21ae0138b4c91",
         "signing_fingerprint": "sha256:b3a6380b12a80e7d"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKNhX5RJLFkXUuoSB4JVglG6RpYrXNIdcTqcgTFPCNsi",
+      "session": "https://claude.ai/code/session_01Kw9UwEA7TFC7iKpVctAi2t",
+      "ssh_added": "2026-11-19T01:10Z"
     },
     {
       "id": "designer-promptugal",

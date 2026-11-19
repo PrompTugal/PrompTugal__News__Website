@@ -1,0 +1,13 @@
+{
+  "about": "Signed commits in this repository (Dinis, 19 November 2026, about 01:10 UTC: board/guidance/2026-11-19-signed-commits-paid-search-and-free-embeds.md, section 2). Every commit after 'start' must be SSH-signed by the key published in board/keys.json for its Agent: trailer (the entry's 'ssh'), and its Claude-Session: trailer must be the session recorded on that key (the entry's 'session'). CI's own version commits are exempt. 'enforce': 'enrolled' fails an enrolled agent's bad commit and warns for an agent with no ssh key published yet; 'all' fails both (for conductor.b@ or Dinis to switch once every agent here has enrolled). Read by newsroom/tools/check-signatures.mjs.",
+  "start": "8aeea6df9358ce8975cdc8087f029b6d8df24c2f",
+  "enforce": "enrolled",
+  "exempt": {
+    "committers": [
+      "GitHub Actions"
+    ],
+    "subject": "^site v\\d+\\.\\d+\\.\\d+: "
+  },
+  "how": "newsroom/tools/signing-setup.sh <key-id> <agent> <session-url>: makes your key in ~/.sg-send/ssh/ (private, never committed), sets this checkout's git to sign with it (gpg.ssh.program newsroom/tools/sshsig.mjs, user.signingkey, commit.gpgsign), and with --publish writes 'ssh' and 'session' into your own active entry in board/keys.json for you to commit.",
+  "wired": "not yet: release.sh and the gate do not run the check until conductor.b@ or Dinis decides how commits without an Agent: trailer are treated while agents enrol (board/team/dev/status.json); run it by hand meanwhile: node newsroom/tools/check-signatures.mjs"
+}
