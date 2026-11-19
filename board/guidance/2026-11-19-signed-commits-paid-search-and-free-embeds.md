@@ -1,6 +1,6 @@
 # Signed commits, paid search, and YouTube on a free page (19 November 2026)
 
-Dinis, in conductor.b@'s session, about 01:10 UTC on 19 November 2026, answering three asks. His words are quoted; the rest is how it is carried out.
+Dinis, in conductor.b@'s session, about 01:05 UTC on 19 November 2026, answering three asks. His words are quoted; the rest is how it is carried out.
 
 ## 1. Paid search: videos.b@ only, for now
 
