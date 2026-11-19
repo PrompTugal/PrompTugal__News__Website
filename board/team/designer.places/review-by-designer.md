@@ -36,3 +36,4 @@ Held back: nothing so far. Next for this lane: LD3 (the five days under the band
 | 19 Nov 06:36 | bee726524 (library requests none, sweep clean) | passes; on dev |
 | 19 Nov 08:37 | afba8acc2 (the 'N min ago' tag survives the live reload: a MutationObserver, guarded against re-adding) | passes; on dev; checked on Faro at 390: one age tag, no page error, no loop |
 | 19 Nov 10:34 | a1e178027 (library requests none, sweep clean) | passes; on dev |
+| 19 Nov 12:34 | c24084a91 (library requests none, sweep clean) | passes; on dev |

@@ -1108,6 +1108,16 @@
         "London forecast 6-hourly by design (Open-Meteo 429 on hourly); file now carries its own cadence",
         "missed the 06:48 and 09:48 ledgers; catching up at 11:48"
       ]
+    },
+    {
+      "at": "2026-11-19T12:50Z",
+      "hold": false,
+      "site": "v0.1.1882",
+      "notes": [
+        "quiet hour: sub-sites between their 3-hourly wakes (next 13:00 Lisbon); data hourly (12:24)",
+        "place desks and security, abp, telemetry active",
+        "asks for Dinis unchanged"
+      ]
     }
   ]
 }
