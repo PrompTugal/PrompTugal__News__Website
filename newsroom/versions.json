@@ -1,5 +1,26 @@
 [
   {
+    "version": "v0.1.1844",
+    "date": "2026-11-19",
+    "what": "conductor.b@PrompTugal.dinis: guidance: one way to move between the sites, from the registry, the current one selected (Dinis, 19 Nov ~03:18 UTC)",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "f44df8577"
+  },
+  {
+    "version": "v0.1.1843",
+    "date": "2026-11-19",
+    "what": "journalist@PrompTugal.dinis: 02:40 wake: east's R12 hold and districts' status onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "34a7c4940"
+  },
+  {
+    "version": "v0.1.1842",
+    "date": "2026-11-19",
+    "what": "abp@PrompTugal.dinis: hourly report, maestro.b@ session and trigger attempts asked of Dinis; its commit subjects attributed",
+    "by": "abp@PrompTugal.dinis",
+    "from": "59782fe22"
+  },
+  {
     "version": "v0.1.1841",
     "date": "2026-11-19",
     "what": "abp@PrompTugal.dinis: v1.18.0, R17 (times from the clock) and security@'s five signed-commit controls in R16",
