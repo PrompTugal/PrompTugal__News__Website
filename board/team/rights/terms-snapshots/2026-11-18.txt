@@ -1,0 +1,3 @@
+open-meteo.com/en/terms  read 2026-11-18T23:42Z  HTTP 200  sha256:f702cf6699afca64
+api.ipma.pt/  read 2026-11-18T23:42Z  HTTP 200  sha256:32e9d7337a162fc4
+nvd.nist.gov/developers/terms-of-use  read 2026-11-18T23:42Z  HTTP 403 (refused; not read, not worked around)

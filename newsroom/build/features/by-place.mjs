@@ -21,12 +21,11 @@ const url = u => okUrl(u) ? u.trim().replace(/\(/g, '%28').replace(/\)/g, '%29')
 
 import { mediaBlock, localMedia } from './media.mjs'
 import { placeFeed } from '../lib/feeds.mjs'
-import { of as licenceOf } from '../lib/licence.mjs'
+import { of as licenceOf, ours } from '../lib/licence.mjs'
 // the live readings are IPMA's and adsb.lol's, not ours: the file names each source's licence (dev@, 18 Nov, Dinis's rule)
-const nowLicence = d => ({ name: "the sources' licences", sources: [
-    { what: 'weather, warnings, fire risk, UV and sea (IPMA)', ...licenceOf('https://api.ipma.pt/') },
-    ...(d && d.airport ? [{ what: 'Faro airport traffic (adsb.lol)', ...licenceOf('https://api.adsb.lol/') }] : []),
-], scope: 'each reading is its source\'s; the selection and the page are PrompTugal.news\'s, CC BY 4.0' })
+// promptugal.news keeps only Faro airport's (adsb.lol, ODbL 1.0); a place without it carries only what we made: ours
+const nowLicence = d => d && d.airport ? { name: "the sources' licences", sources: [{ what: 'Faro airport traffic (adsb.lol)', ...licenceOf('https://api.adsb.lol/') }],
+    scope: 'each reading is its source\'s; the selection and the page are PrompTugal.news\'s, CC BY 4.0' } : ours()
 import { nearbyOf } from './datasci-places.mjs'
 function load(ctx) {
     const raw = ctx.readJSON(LIST)
@@ -152,21 +151,17 @@ function entries(ctx, items, cls, extra) {
     return `{.bp-entries${cls ? ' .' + cls : ''}}\n` + items.map(x => `- ${url(x.url) ? `[${esc(ctx, x.name)}](${url(x.url)})` : `**${esc(ctx, x.name)}**`}${extra ? extra(x) : ''}${x.what ? ` ${esc(ctx, x.what)}` : ''} *${url(x.source_url) ? `[${esc(ctx, host(x.source_url))}](${url(x.source_url)})` : ''}${x.read_on ? `, read ${esc(ctx, dmy(x.read_on))}` : ''}*`).join('\n') + '\n\n'
 }
 
-// Now in <town> (Dinis, 16 Nov: the storm's local data, refreshed): data/by-place/now/<id>.json, written by
-// board/tools/local-now.mjs from IPMA and adsb.lol; every line links its source and says when it was read
+// Now in <town>: data/by-place/now/<id>.json, written by board/tools/local-now.mjs. promptugal.news bills, so it shows
+// only data whose terms allow commercial use (Dinis, 18 Nov 23:45: board/guidance/2026-11-18-billing-only-on-the-main-site.md;
+// data.promptugal.news/api/v1/sources/commercial.json): IPMA's values (non-profit use only) are left out and the block
+// links the place's page on weather.promptugal.news instead; Faro airport (adsb.lol, ODbL 1.0) stays.
+const WEATHER = id => `https://weather.promptugal.news/places/${id}/`
+const NOT_HERE = ['station', 'forecast', 'warnings', 'fire_risk', 'sea', 'uv']
 function nowBlock(ctx, p, L) {
     let d; try { d = ctx.readJSON(`data/by-place/now/${p.id}.json`) } catch { return '' }
     const t = s => String(s || '').slice(11, 16) + ' UTC', out = []
-    const r = d.station && d.station.reading
-    if (r) out.push(`- **Now** ${r.temp_c ?? '?'} °C · humidity ${r.humidity_pct ?? '?'}% · wind ${r.wind_kmh ?? '?'} km/h *[${esc(ctx, d.station.name)}](${d.station.page || d.station.source}), ${d.station.km} km, ${t(r.at)}*`)
-    const f = d.forecast && d.forecast.days && d.forecast.days[0]
-    if (f) out.push(`- **Today** ${f.t_min_c ?? '?'} to ${f.t_max_c ?? '?'} °C · rain ${f.rain_prob_pct ?? '?'}% *[IPMA, ${esc(ctx, d.forecast.place)}](${d.forecast.page || d.forecast.source})${d.forecast.km > 5 ? `, ${d.forecast.km} km` : ''}*`)
-    const w = d.warnings && d.warnings.active || []
-    out.push(w.length ? w.map(x => `- **Warning** ${esc(ctx, String(x.level).replace(/^./, c => c.toUpperCase()))}: ${esc(ctx, x.type)} from ${esc(ctx, String(x.start).slice(0, 16).replace('T', ' '))} *[IPMA](${d.warnings.page || d.warnings.source})*`).join('\n') : `- **Warnings** none *[IPMA](${d.warnings.page || d.warnings.source})*`)
-    const fr = d.fire_risk && d.fire_risk.days && d.fire_risk.days[0]
-    if (fr) out.push(`- **Fire risk** ${esc(ctx, fr.level)} *[IPMA](${d.fire_risk.page || d.fire_risk.source})*`)
-    if (d.sea) out.push(`- **Sea** waves ${d.sea.waves_max_m ?? '?'} m · ${d.sea.sea_temp_max_c ?? '?'} °C *[IPMA, ${esc(ctx, d.sea.coast)}](${d.sea.page || d.sea.source})*`)
     if (d.airport) out.push(`- **Faro airport** ${d.airport.airline.length} airline, ${d.airport.other_aircraft} other, ${d.airport.within_nm} nm${d.airport.airline.length ? ` (${d.airport.airline.slice(0, 6).map(a => esc(ctx, a.callsign)).join(', ')})` : ''} *[adsb.lol](${d.airport.page || d.airport.source}), ${d.airport.stale ? 'last read ' : ''}${t(d.airport.at)}*`)   // stale: the collector kept the last read (dev@, 17 Nov)
+    out.push(`- ${W(L, 'now_weather', { name: esc(ctx, p.name), url: WEATHER(p.id) })}`)
     return `{.mini-h}\n${W(L, 'h_now', { name: esc(ctx, p.name) })}\n\n{.bp-now}\n${out.join('\n')}\n\n`
 }
 
@@ -509,7 +504,7 @@ export function api(ctx) {
         { path: 'api/v1/by-place/index.json', schema: null, data: { about: W(L, 'api_index_about'), version: ctx.VERSION, built: ctx.TODAY,
             places: recs.map(r => ({ id: r.id, name: r.name, kind: r.kind, parent: r.parent, path: L.byId.get(r.id).path, agent: r.agent, status: r.status, updated: r.updated, ai_news: r.counts.ai_news, ai_map: r.counts.ai_map, articles: r.counts.articles, page: r.page, api: `${SITE_URL}api/v1/by-place/${r.id}.json`, at: r.at, accent: r.look.accent, landmark: r.look.landmark, identity: L.byId.get(r.id).identity || null, signature: r.identity.signature })) } },
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}.json`, schema: null, data: { about: W(L, 'api_place_about', { name: r.name }), version: ctx.VERSION, ...r } })),
-        ...recs.flatMap(r => { try { const d = ctx.readJSON(`data/by-place/now/${r.id}.json`); return [{ path: `api/v1/by-place/${r.id}/now.json`, schema: null, data: { ...d, license: nowLicence(d) } }] } catch { return [] } }),
+        ...recs.flatMap(r => { try { const d = ctx.readJSON(`data/by-place/now/${r.id}.json`); const keep = Object.fromEntries(Object.entries(d).filter(([k]) => !NOT_HERE.includes(k) && k !== 'reads')); return [{ path: `api/v1/by-place/${r.id}/now.json`, schema: null, data: { ...keep, about: W(L, "now_about"), weather: WEATHER(r.id), license: nowLicence(d) } }] } catch { return [] } }),
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}/agents.json`, schema: null, data: agentsFile(ctx, L, L.byId.get(r.id)) })),
         ...recs.flatMap(r => placeFeed(SITE_URL, r).map(f => ({ ...f, schema: null }))),   // feeds out (lib/feeds.mjs; dev@, 16 Nov)
         ...recs.map(r => ({ path: `api/v1/by-place/${r.id}/articles.json`, schema: null, data: { about: W(L, 'api_articles_about', { name: r.name }), place: r.id, version: ctx.VERSION, articles: r.articles } })),
