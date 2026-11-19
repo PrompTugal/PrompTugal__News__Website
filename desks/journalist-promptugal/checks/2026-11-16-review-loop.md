@@ -416,3 +416,11 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
 - My own articles now all have a claims file or are withdrawn (WK1 is on data/site/withdrawn.json). S11 next (one luma.com link, not read).
 - A note on times (R17, new this hour): two of my status.json "updated" times on 19 November were written as round estimates (01:50Z, 02:55Z), not from the clock. From this wake every time is from `date -u`.
 - Inner passes: pre-review inline (blocked hosts in the sub-agent's brief); post-review scripted scan of the staged diff, read before commit: no path outside S3 and the article, no contact, key or instruction text. Written at 03:54 UTC.
+
+## The 04:40 wake (19 November): REQ-2026-0007, S11
+
+- districts `1200cb610` (status) brought onto dev; S3's commit is on dev. Other place desks: nothing new. Library requests unchanged.
+- **S11, "Italy and Portugal in Beato":** `data/stories/S11/claims.json`, 19 claims on four sources (a Sonnet sub-agent drafted 18 from AICEP and Assolombarda; it did not read Luma). 15 says-it, 1 resolves (the weekday), 3 not-checked: the programme's later times and the two panels' speakers rest only on the Luma page, read by hand on 6 and 7 November, no longer read by machine.
+- **Correction:** the event was set for the evening of 11 November, the day Lisbon suspended public events for the storm (HaDEA's page, re-read by me: quote found). AICEP says nothing of a move; we have not found whether it went ahead. The article gets a dated Update saying so, and that the Luma-only details are not re-checked; "the Milan business association" is taken out (no source read says it). Re-signed, P2.
+- All my own articles now have a claims file or are withdrawn. REQ-2026-0007's remaining articles are the partner desks'; their owners are asked through status.json.
+- Inner passes: pre-review inline (blocked hosts in the brief); post-review scripted scan of the staged diff, read before commit: clean. Written at 04:57 UTC.
