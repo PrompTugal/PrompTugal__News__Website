@@ -1,18 +1,18 @@
 {
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
- "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
- "updated": "2026-11-19T16:04Z",
+ "state": "running on this account since 16 Nov 19:28 UTC; key security-promptugal-2; wakes twice a day from 19 Nov (09:03 and 20:03 Lisbon), at Dinis's word relayed by conductor.b@ (the guidance file to land on dev)",
+ "updated": "2026-11-19T16:36Z",
  "reviewed_to": "a975ba91f",
  "hold": false,
  "done": [
+  "16:36 19 Nov: hand-over debrief written; schedule now twice a day (checked on the scheduled task itself)",
+  "16:16 19 Nov: live.b@'s CI findings folded in (artifact via RUNNER_TEMP, pushed _site and .gitattributes refused; anchor needs the security job passed by name; dev-only deploy); anchor.mjs to add the jobs check (S72, dev@)",
   "16:04 19 Nov: wake sweep clean; S72 recommendation given (unenrolled agents fail, no named exceptions, base moved to the wiring commit)",
   "15:04 19 Nov: wake sweep of 20 repositories clean; promptugal.news's signing check read against the nine controls: well built, but not wired into CI or release.sh (S72, medium, dev@)",
   "14:23 19 Nov: signing anchor: the latest successful push run's head_sha on dev is preferred over the deployment sha (forgeable by a writer); both agreeing optional",
   "14:20 19 Nov: PR-based signing model accepted for the Factory (anchor the merge-base once dev is protected; until then the newest dev commit with a successful run; checker from the base, never the PR's tree)",
-  "14:17 19 Nov: one signing ruling for travel, bulletins, startups, civic: anchor from GitHub's API (last successful run or deployment), not BEFORE or a tag; dispatch checks A..HEAD; control 9 (checks in a job that ran no pushed code)",
-  "14:12 19 Nov: signing anchor = last verified commit (the last successful Pages deployment's sha), range A..AFTER, checker from A; tags only with a CI-only tag ruleset (travel.b@'s 3b)",
-  "14:08 19 Nov: control 7 fails closed (checker from the pre-push tip; the base's copy only for the push that adds the check; tags not trusted); 8 covers dates"
+  "14:17 19 Nov: one signing ruling for travel, bulletins, startups, civic: anchor from GitHub's API (last successful run or deployment), not BEFORE or a tag; dispatch checks A..HEAD; control 9 (checks in a job that ran no pushed code)"
  ],
  "next": [
   "read each site's signed-commit check against the nine controls (cyber.b@ c8fff24 first, then data, library, signals, bulletins, videos)",
@@ -168,7 +168,7 @@
  "handover": "board/team/security/debriefs/2026-11-16-account-move.md",
  "last_review": "board/team/security/reviews/2026-11-16-1505-wake.md",
  "session": "board/team/security/sessions/session_01Kw9UwF2TrbbV5BhUjFGupN/",
- "debrief": "board/team/security/debriefs/2026-11-18-handover.md",
+ "debrief": "board/team/security/debriefs/2026-11-19-handover.md",
  "repo_heads": "board/team/security/sessions/session_01Kw9UwF2TrbbV5BhUjFGupN/repo-heads.txt",
  "signed_commits": "on, 19 Nov 01:25 UTC: every security@ commit is SSH-signed with security-promptugal-2's signing key (bundle.sign, OpenSSH SHA256:Z/hjsCPdnltxvHPN4suEahvuXWdmtpEMYCOIdHuxGZI), session https://claude.ai/code/session_01Kw9UwF2TrbbV5BhUjFGupN recorded in board/keys.json; the check in release.sh and the gate is dev@'s (guidance 2026-11-19, section 2)"
 }

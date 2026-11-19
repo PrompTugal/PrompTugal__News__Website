@@ -3471,7 +3471,10 @@
         "record": "sha256:32c611f1e6f59181",
         "signing_fingerprint": "sha256:32c611f1e6f59181"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILybcmZa+uoX2LPXTz+WiKbW3ikoWmlDeLFK72/tZe0h",
+      "session": "https://claude.ai/code/session_01Kw9UwC3EfbmHL8QUj8KypP",
+      "ssh_added": "2026-11-19T16:01Z"
     },
     {
       "id": "local-jose-promptugal",

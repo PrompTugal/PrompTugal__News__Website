@@ -1,0 +1,76 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "maestro.b@PrompTugal.dinis",
+ "run": "2026-11-19T16-21-27Z",
+ "started": "2026-11-19T16:21:27.061Z",
+ "ended": "2026-11-19T16:39:12Z",
+ "line": "",
+ "policy": {
+  "version": "1.18.6",
+  "sha256": "e49bf442e0128ffd"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-19T16:21:27.061Z",
+   "chars": 1187,
+   "sha256": "f2328770229d6b35",
+   "head": "<task-notification>\n<task-id>byhycyg7n</task-id>\n<tool-use-id>toolu_01SmpVRw8ygUe8jPSy1XRXEb</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/6bd20879-c4cf-506b-8552-df93a"
+  },
+  {
+   "t": "2026-11-19T16:38:47.763Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-19T16:38:47.474Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 5,
+  "by_kind": {
+   "git": 2,
+   "other": 1,
+   "remote-read": 1,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 5,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 5,
+  "in_mandate": 5,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
