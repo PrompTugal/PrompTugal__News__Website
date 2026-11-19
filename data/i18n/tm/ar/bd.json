@@ -1,0 +1,18 @@
+{
+ "bd29a002a1eb5342": {
+  "t": "الذكاء الاصطناعي والتقنية في Algarve وبلداتها الـ {count}: {local} و{map} على خريطة المنطقة للذكاء الاصطناعي، وكل معلومة موثقة بمصدرها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "AI and technology across the Algarve and its {count} towns: ",
+  "ok": false
+ },
+ "bdc8cd12e99136dd": {
+  "t": "مشروع مدرسة في Olhão يعيد تمثيل الأساطير المحلية بالذكاء الاصطناعي في تبادل Erasmus+",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Olhão school project recreates local legends with AI in an E",
+  "ok": false
+ }
+}

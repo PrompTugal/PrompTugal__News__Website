@@ -1129,6 +1129,53 @@
         "startups pointed to data/site/places-registry.json (London)",
         "library hand-over written; signals idle; both wait on the key-handover choice"
       ]
+    },
+    {
+      "at": "2026-11-19T14:50Z",
+      "live": "v0.1.1896",
+      "hold": false,
+      "sites": {
+        "data": "v0.1.110",
+        "startups": "v0.1.65",
+        "civic": "v0.1.72",
+        "weather": "v0.1.53",
+        "travel": "v0.1.70",
+        "events": "v0.1.59",
+        "signals": "v0.1.42",
+        "library": "v0.1.56",
+        "videos": "v0.1.33",
+        "live": "v0.1.46",
+        "cyber": "v0.1.58",
+        "bulletins": "v0.1.46"
+      },
+      "notes": [
+        "signing controls 1 to 9 on ten sites through six security@ rulings, anchor = latest successful push run on dev",
+        "waits on Dinis: branch protection, tag ruleset, dev-only github-pages environment; Factory PR #36",
+        "asked dev@, writer-10, telemetry.b@ to confirm"
+      ]
+    },
+    {
+      "at": "2026-11-19T15:52Z",
+      "live": "v0.1.1901",
+      "hold": false,
+      "sites": {
+        "data": "v0.1.111",
+        "startups": "v0.1.65",
+        "civic": "v0.1.72",
+        "weather": "v0.1.53",
+        "travel": "v0.1.70",
+        "events": "v0.1.59",
+        "signals": "v0.1.42",
+        "library": "v0.1.56",
+        "videos": "v0.1.33",
+        "live": "v0.1.46",
+        "cyber": "v0.1.58",
+        "bulletins": "v0.1.46"
+      },
+      "notes": [
+        "S72: promptugal.news's signing check not wired; CI key is Dinis's",
+        "site sites unchanged since 14:50 except data"
+      ]
     }
   ]
 }

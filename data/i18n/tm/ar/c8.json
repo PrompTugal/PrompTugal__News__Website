@@ -1,0 +1,26 @@
+{
+ "c80d31aa3fd60fd7": {
+  "t": "PrompTugal.news Monchique، من برودة Serra: الذكاء الاصطناعي والتقنية في concelho جبلي أخضر لا ينام فيه قلق الحرائق وتُبقي الحاضنة الصغيرة الأضواء مضاءة، إضافة إلى كل ما يصعد من Algarve والبرتغال والعالم. مستقل، ولكل معلومة مصدرها، ó freguês.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Monchique, from the cool of the Serra: AI an",
+  "ok": false
+ },
+ "c896571781f3b30f": {
+  "t": "PrompTugal.news Porto: الذكاء الاصطناعي والتقنية في Porto، مدينة جامعة وشركات ناشئة مركز ثقلها UPTEC، الحديقة العلمية لجامعة بورتو، وشركاتها الناشئة في الذكاء الاصطناعي ومعاهدها البحثية، وما يصل إلى Porto من البرتغال وأوروبا والعالم. مستقل، وكل معلومة موثقة بمصدرها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Porto: AI and technology in Porto, a univers",
+  "ok": false
+ },
+ "c8c02cb5cf3f018e": {
+  "t": "PrompTugal.news Porto، a Invicta: الذكاء الاصطناعي والتقنية في Porto، مع UPTEC غرفة المحركات عند تلال Asprela، إضافة إلى كل ما يصل من البرتغال وأوروبا والعالم. Independente، وكل معلومة تأتي مع إيصالها، على طريقة tripeiro.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "PrompTugal.news Porto, a Invicta: AI and tech in Porto, with",
+  "ok": false
+ }
+}
