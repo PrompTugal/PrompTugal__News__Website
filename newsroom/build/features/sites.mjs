@@ -49,7 +49,9 @@ export function api(ctx) {
     return [{ path: 'api/v1/sites.json', schema: null, data: {
         about: S.about, version: ctx.VERSION, sites: registry().sites,
         bar: { version: BAR, js: `https://promptugal.news/${JS}`, css: `https://promptugal.news/${CSS}`, integrity: { js: sha(JS), css: sha(CSS), render: sha(RENDER) }, render: `https://promptugal.news/${RENDER}`, spec: 'https://github.com/promptugal/promptugal__news__website/blob/dev/board/spec-the-sites-bar.md',
-            install: S.bar_install, versions: PINS().bar },
+            install: S.bar_install,
+            // each version's pins under .integrity.<file> (the key every site's leak scan exempts: security@, 19 Nov); the bare js, css and render keys stay until the sites move
+            versions: Object.fromEntries(Object.entries(PINS().bar).map(([v, x]) => [v, { integrity: { ...x }, ...x }])) },
         preview_spec: S.preview_spec,
         // the one time-zone-to-country table for every site's page views (Dinis, 19 Nov 03:15: no IP lookup)
         obs_tz: { file: 'https://promptugal.news/assets/obs/tz-country.json', integrity: sha('assets/obs/tz-country.json'), version: JSON.parse(R('assets/obs/tz-country.json')).version, zones: Object.keys(JSON.parse(R('assets/obs/tz-country.json')).zones).length, install: S.obs_tz_install, versions: PINS().obs_tz } } }, ...previewFiles(ctx)]
