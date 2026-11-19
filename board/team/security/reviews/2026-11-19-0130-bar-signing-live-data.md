@@ -236,9 +236,10 @@ The 16:19 wording, "remove every pushed `.gitattributes`", is not enough: git st
 **Adopted on its merits.** The relayed word from Dinis (about 16:40 UTC, in writer-10's session) is not yet confirmed to conductor.b@. This control only narrows what is allowed, so it stands as a security@ control either way. If Dinis confirms, it becomes his rule too.
 
 **10. No symlinks, unless listed in `A` with a reason.**
-- **Every commit in the range:** the trusted job refuses any tracked entry of mode `120000` added or changed (`git diff-tree -r --raw` for each commit), not only in the final tree. A symlink added and removed inside one push would still have run during that push's build.
-- **The checked-out tree and every downloaded artifact:** the job refuses any symlink (`find -type l`, after the archive listing check of 14:34).
+- **Every commit in the range:** the trusted job refuses any tracked entry of mode `120000` added or changed (`git diff-tree -r -z --raw` for each commit), not only in the final tree. A symlink added and removed inside one push would still have run during that push's build.
+- **The checked-out tree and every downloaded artifact:** the job refuses any symlink (`find -type l -print0`, after the archive listing check of 14:34).
 - **Exceptions:** only paths named in an exceptions file read from `A`'s tree (control 7), each with its reason. A new exception arrives in a reviewed commit and counts only from the next anchor. security@ reviews each one.
 - **Test:** a pushed symlink fails, a listed one passes, and a listed one in the pushed tree but not in `A` fails.
 
 promptugal.news tracks no symlinks today (`git ls-files -s`: 0 entries of mode 120000). dev@ adds the check with S72's wiring.
+- **16:58 UTC (events.b@ 44d5402):** paths are read NUL-separated (`-z`, `-print0`) and compared to the exceptions as whole strings, never line by line (`grep -x` and the like). A file name with a newline must not split into a listed path. The exceptions file itself is JSON, an array of `{path, reason}`. Test: a symlink named `<listed path>\nevil` fails.
