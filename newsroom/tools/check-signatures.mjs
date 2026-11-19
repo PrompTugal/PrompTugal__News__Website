@@ -68,9 +68,12 @@ export function checkSignatures(range) {
         // control 6: every orphan commit is refused, a merged unrelated history included; only the trusted base, by full id
         if (!parents.trim() && h !== C.trusted_base) { fails.push(`${id}: an orphan commit (no parent) that is not the trusted base`); continue }
         // control 10: a symlink added or changed by this commit, against each parent (a merge's too)
-        for (const line of git('diff-tree', '-r', '--raw', '-m', '--no-commit-id', '--no-renames', '--root', h).split('\n')) {
-            const m = /^:\d{6} (\d{6}) \S+ \S+ \S+\t(.+)$/.exec(line)
-            if (m && m[1] === '120000' && !EXC.has(m[2])) fails.push(`${id}: adds or changes a symlink, ${m[2]} (control 10)`)
+        // read NUL-separated (-z) and compared as whole strings, so a path holding a newline cannot slip past (events.b@'s 44d5402)
+        const z = git('diff-tree', '-z', '-r', '--raw', '-m', '--no-commit-id', '--no-renames', '--root', h).split('\0')
+        for (let i = 0; i + 1 < z.length; i++) {
+            const m = /^:\d{6} (\d{6}) [0-9a-f]+ [0-9a-f]+ [A-Z]\d*$/.exec(z[i]); if (!m) continue
+            const p = z[++i]
+            if (m[1] === '120000' && !EXC.has(p)) fails.push(`${id}: adds or changes a symlink, ${JSON.stringify(p)} (control 10)`)
         }
         const agent = (agentT || '').split(';')[0].trim(), sess = (sessT || '').split(';')[0].trim()
         if (!agent) { fails.push(`${id}: no Agent: trailer (${subj.slice(0, 60)})`); continue }
