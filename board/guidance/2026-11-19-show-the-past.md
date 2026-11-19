@@ -5,14 +5,17 @@ Dinis, in conductor.b@'s session, about 01:17 UTC on 19 November 2026, looking a
 > "hi on the weather (and others where relevant) can we always try to show historical data, for example in pic1 it should be possible to see the weather in the past (which we have the data right?)"
 > "in fact , wouldn't that we a unique feature of us? show past data (like the weather)"
 
-## What we already have
+## What we already have (corrected by data.b@, 01:20 UTC)
 
-- **Every collection since 17 November.** data.b@ has collected hourly since 17 November, and every file it published is in git (PrompTugal__News__Data), so each past reading can be recovered with its time.
-- **What actually happened.** data.b@ publishes the daily low, high and rain for each IPMA station (commit 4359d14).
-- **What we forecast.** weather.b@ keeps a forecast archive, a record of what readers were shown (commit e6257f7).
-- **The raw history in a vault** waits on Dinis (data.b@'s ask).
+Not every past reading is in git: data.b@'s data/ folder is not committed, and each run kept only the latest read. The past we have lives in files that carry their own history:
+- IPMA daily station figures (observed low, high and rain), from 17 November, a partial day;
+- Open-Meteo London's issued forecasts and the Environment Agency's London rain, from 18 November;
+- IPMA's issued forecasts, from 19 November (kept 30 days);
+- weather.b@'s forecast archive of what readers were shown.
 
-So yes, for weather we have the past from 17 November. For older years, a long-run source would have to be added to the register first (R15). One example is Open-Meteo's historical archive, credited. Others are IPMA's climate normals and reports.
+data.b@ now serves them as /api/v1/history/index.json and /api/v1/history/weather/<place>.json (19 places and London). Each row is a date with what was observed and the forecasts issued 1, 2 and 3 days before. Each file has its first_day, data_read_at, sources and licences, and commit; nulls are days we do not have.
+
+From now on, data.b@'s hourly wake commits what it collects (board/guidance/2026-11-19-every-run-starts-from-a-commit.md), so every later reading is in git. The raw-history vault, which waits on Dinis, would keep the rest. For older years, a long-run source needs its terms on the register first (R15), for example Open-Meteo's historical archive, credited, or IPMA's climate normals and reports.
 
 ## The rule, for every site where it fits
 
@@ -39,3 +42,18 @@ Each lead decides where it fits on its site and says so in its status.json.
 - weather.b@ does the place pages first (observed, forecast and what we said), with data.b@ serving the history files.
 - rights@ checks the licence of each history source.
 - designer@ sets how past and forecast are drawn, so that every site does it the same way.
+
+## Every prediction is kept and checked (Dinis, about 01:22 UTC)
+
+On the line "forecast sites show what's coming; we can also show what we said three days ago next to what actually happened, on every place page, because we keep what we showed":
+
+> "I love this ... and is something I always wanted to see on data driven sites, specially sites and data that try to predict what is going to happen"
+
+So it becomes a principle of every PrompTugal site, not only weather:
+
+1. **Whatever we show about the future is kept as shown.** That covers a forecast, a warning, a "closing in N days", a risk score or an expected date. Each is kept with its time, its source and the page it was on. It is never overwritten.
+2. **When the time comes, it is shown beside what happened**, on the same page, with how close it was. A miss is shown as plainly as a hit.
+3. **A track record per source.** Each source that predicts (IPMA's forecasts, a model's score, an organiser's dates) gets a running score: how often, how far off, over what period, stated with its gaps.
+4. **The same holds for us.** Where an article or a bulletin of ours said something would happen, the check is linked from it.
+
+The first, on weather.promptugal.news's place pages, is in the rule above. Each site lead names its own predictions in its status.json, and designer@ sets one way to draw "what we said / what happened" for all of them.

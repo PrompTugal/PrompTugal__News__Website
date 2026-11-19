@@ -332,6 +332,18 @@
       "trigger": "trig_01TzJJzkMnhbnyPTrtJRsXEC",
       "started": "2026-11-18T23:39Z",
       "word": "board/guidance/2026-11-18-rights.md"
+    },
+    {
+      "model": "claude-opus-5-5",
+      "session": "session_01Kw9UwEbwyWMbZ7yCr81Dq9",
+      "trigger": "trig_01KAHAJ6W64yF8RHW6o62p2p",
+      "role": "maestro.b (account-b)",
+      "name": "maestro.b (account-b)",
+      "session_id": "session_01Kw9UwEbwyWMbZ7yCr81Dq9",
+      "schedule": "hourly at :18 UTC",
+      "started": "2026-11-19T01:59Z",
+      "word": "board/guidance/2026-11-19-the-maestro.md",
+      "note": "first session (session_01Kw9UwCh2knuPjA9NnADMfe) failed at the setup script, archived by Dinis; its task trig_01KAHAJ6W64yF8RHW6o62p2p disabled; restarted at Dinis word ~02:00 UTC"
     }
   ]
 }
