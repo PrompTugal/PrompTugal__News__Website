@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1862",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: 09:10 wake: datasci.places@ brought; the debrief's morning section",
+    "by": "dev@PrompTugal.dinis",
+    "from": "b14186033"
+  },
+  {
     "version": "v0.1.1861",
     "date": "2026-11-19",
     "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
