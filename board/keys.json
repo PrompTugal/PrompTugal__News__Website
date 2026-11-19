@@ -3374,7 +3374,10 @@
         "label": "place.algarve.east@PrompTugal.dinis",
         "fingerprint": "sha256:9a78d6adf3ea14b1",
         "signing_fingerprint": "sha256:9c4500898a248e2f"
-      }
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILCb40FKTSKUhDcd+fL5o28ETXfuaULPBB8X9PL16WI0",
+      "session": "https://claude.ai/code/session_01Kw9UwCgQJVtiZNb3HKc1Rt",
+      "ssh_added": "2026-11-19T16:00Z"
     },
     {
       "id": "place.algarve.central-promptugal",

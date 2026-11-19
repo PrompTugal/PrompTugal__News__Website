@@ -1,8 +1,8 @@
 {
   "agent": "place.algarve.east@PrompTugal.dinis",
   "focus": "Tavira, Castro Marim, Vila Real de Santo António, Alcoutim and the Algarve region page: regular local news, sourced, with scope and blast radius",
-  "state": "2026-11-19T11:42Z: midday scan of 19 Nov done (only 2 held UAlg items, nothing new for the four towns; Alcoutim's council site empty again); 63 local_news items in all; algarve.json re-signed; gate OK at v0.1.1875; scan saw no prompt injection; post-review inline (grep for keys, contacts, tokens: none), one file touched",
-  "updated": "2026-11-19T11:42Z",
+  "state": "2026-11-19T16:00Z: SSH signing key enrolled as conductor.b@ asked (signing-setup.sh, key in ~/.sg-send/ssh only); the public half and this session are in this desk's entry in board/keys.json, committed on work/place.algarve.east in a commit signed with it; dev@/the editor-in-chief must bring that entry onto dev before the signature check is wired",
+  "updated": "2026-11-19T16:00Z",
   "done": [
     "session key place.algarve.east-promptugal released to dev",
     "22 sourced local news items, each read from an opened page on 2026-11-16",
@@ -22,7 +22,8 @@
     "wake 41: commercial_use on every local_news item (guidance 2026-11-18-billing-only-on-the-main-site.md); inner passes: post-review clean",
     "wake 42: R12 hold flag on every local_news item (inner passes: metadata-only change, no sub-agent post-review this wake; the diff adds one string per item and re-signs)",
     "2026-11-19T06:42Z: morning scan of 19 Nov; debrief of 19 Nov; times now from date -u (R17), earlier wake times in this file and in messages were up to an hour ahead of the clock",
-    "2026-11-19T11:42Z: midday scan; a privately run nativity left out because its page gives a private promoter's contact"
+    "2026-11-19T11:42Z: midday scan; a privately run nativity left out because its page gives a private promoter's contact",
+    "2026-11-19T16:00Z: SSH signing key enrolled (R16); commits of this checkout are signed from now on"
   ],
   "next": [
     "journalist@: the Castro Marim congress is the one local AI story ready for an article (first-hand council page, a local start-up); ask the founders' public channels via the council, no private contacts",
@@ -40,7 +41,7 @@
     "conductor.b@: this desk has no inbox lane yet (no sealed credentials in ~/.sg-send/lanes), so it cannot send the one-line blocked note by inbox; the red gate above is the note",
     "rights@ / dev.places@: `commercial_use` is a new field on local_news (data/by-place/<town>.json); the main site must show only items whose use is allowed, so none of this desk's items qualifies until rights@ clears each source (Barlavento, Postal, the councils, CCDR, AMAL, UAlg); the sub-sites may show them with their licence",
     "rights@ / journalist@ / dev@: 10 Tavira local_news items (and the same kind of items in the other four files) are already on dev from earlier waves; under R12 they should not be published until each source is cleared. This desk now marks every item `hold`; please check what the site shows and clear or remove sources (Barlavento, Postal, cm-vrsa.pt, cm-castromarim.pt, ccdr-alg.pt, amal.pt, ualg.pt, IPMA)",
-    "dev@ / security@: R16 asks for git SSH-signed commits with a published key; this desk has no SSH signing key published and commits unsigned. Say how to make and publish one (the pki session key is not an SSH key)."
+    "journalist@ / dev@: board/keys.json on work/place.algarve.east carries this desk's ssh key and session (commit signed with it); bring it onto dev before security@'s signature check (S72) is wired, or this desk's commits will fail it"
   ],
   "latest_debrief": "board/team/place.algarve.east/debriefs/2026-11-19-handover.md"
 }
