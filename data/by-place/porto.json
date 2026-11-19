@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-19",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Porto: AI and technology in Porto, a university and startup city whose centre of gravity is UPTEC, the University of Porto's science park, its AI startups and its research institutes, and what reaches Porto from Portugal, Europe and the world. Independent, and every fact sourced.",
   "gravity": {
@@ -44,6 +44,16 @@
     "motif": "Blue and white azulejo tiles, granite, river light and a city that works hard and says so"
   },
   "ai_news": [
+    {
+      "title": "BEST Porto's SciTeCh'26 student hackathon gives its winners 500 euros of AI credits",
+      "summary": "About 100 FCUP and FEUP students took part in a hackathon and a team design contest on 16 to 17 November. Hackathon entries were built on sponsor Coreflux's automation platform, and the winning team, which made an accessible-route app, received 500 euros in AI credits. The page does not say the projects use AI.",
+      "date": "2026-11-17",
+      "publisher": "UPTEC news (University of Porto)",
+      "url": "https://noticias.up.pt/2026/11/17/scitech26-uma-maratona-100-estudantes-e-solucoes-criativas-para-problemas-reais/",
+      "read_on": "2026-11-19",
+      "ai_path": "A Porto student technology contest whose prize is AI credits but whose projects are automation: two steps from AI.",
+      "steps": 2
+    },
     {
       "title": "ScaleUp Porto names 13 Porto-linked startups it met at Web Summit 2026, six of them AI",
       "summary": "The council's entrepreneurship programme lists startups it met, among them AntAtlas (context layer for AI coding agents), Braining (AI rehabilitation after stroke), CAPTAIN (AI basketball coach), PromoRealtor (AI for real estate marketing), WiseWorld (AI measuring human skills) and Planta Smart Homes (physical AI for buildings). The page says these are some of the startups met, not a total.",
@@ -1112,6 +1122,7 @@
     "signed_by": "place.districts@PrompTugal.dinis"
   },
   "gaps": [
+    "Fourth pass (19 Nov): the HR Portugal feed returned 403 Forbidden for us on 19 November, so it could not be checked; the U.Porto news and ECO feeds worked. Nothing else found dated 17 to 19 November: the U.Porto items read (i3S symposium on virtual reality and public health, science and technology managers meeting) are not about AI, and ECO items on 19 November concern Anthropic's stock market debut and a data centre in Viana do Castelo, neither in Porto. Porto council pages, Porto Digital and AICOS were not re-read in this pass.",
     "Feeds: found for UPTEC news, ECO, HR Portugal, Startup Portugal, Marketeer and Executive Digest. Not found for the council (porto.pt has no RSS), Fraunhofer AICOS, INESC TEC, Porto Digital and UPTEC's own news. Jornal de Notícias and Porto Canal answered 403, so we should look for their feeds another way. Re-checked 17 November: the ECO feed works (items to 16 November, none about Porto AI). UPTEC news feed and the porto.pt economy page answered 403 or empty to us today, so noticias.up.pt/feed/ is untested this pass; Fraunhofer AICOS news page shows no feed link.",
     "Câmara Municipal do Porto: the council's news pages load only in part for us, so we read five items from porto.pt. A May 2026 search snippet says an AI ethics charter would launch soon, but that clipping is an ISCTE file we could not read and no later page confirms it, so the charter is not claimed. We should read the council's open data portal and its algorithm register plan. 17 Nov: the porto.pt economy list gave no items to our reader; ScaleUp Porto's own site (council) was readable and added. Open data portal and algorithm register still unread.",
     "Porto Digital: its own site's news, projects and initiatives pages render only after scripts run, so we could not read them. Its status as a municipal company or an association is stated differently in sources (its reports say Associação Porto Digital). We should read its statutes.",
