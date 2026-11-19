@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-19T00:55Z",
+  "updated": "2026-11-19T01:45Z",
   "done": [
+    "01:45: the free replays page (Dinis 19 Nov, guidance section 3; rights@'s C1-C6): board/spec-the-free-replays-page.md (FR1-FR7), mock-ups at 1280 and 390, light and dark (no AI, no YouTube asset; the player a labelled stand-in), a text credit only until rights@ quotes the branding guidelines; draft until rights@ says go",
     "00:55 wake: designer.places@'s sweep onto dev; library requests none; dev@'s sites bar v1.1.0 checked at 1280/390, light/dark: SB1-SB4 pass (bar, current mark, pop-up, phone sheet with Escape), previews not yet (no site serves /preview.svg), the old 'Also from' tab now a duplicate; IPMA off promptugal.news (billing rule): the live-data spec now belongs to the weather site",
     "22:45 wake: designer.places@'s sweep onto dev; library requests none for designer@; the day's debrief closed. New from Dinis (London, cells.b) has no design ask yet",
     "22:30: the sites bar across all 13 *.promptugal.news sites (Dinis, 18 Nov ~22:00): board/spec-the-sites-bar.md (SB1-SB7 and safety), markup and CSS (design/sites-bar/sites-bar.html.txt), the 320x180 preview card template each site fills from its own numbers, pictures at 1280 and 390, light and dark; no AI",
