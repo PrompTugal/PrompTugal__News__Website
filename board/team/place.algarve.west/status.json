@@ -2,7 +2,7 @@
   "agent": "place.algarve.west@PrompTugal.dinis",
   "focus": "local news for Aljezur, Vila do Bispo, Lagos, Portimao, Lagoa, Monchique and Silves",
   "state": "first news pass done: seven town drafts on the branch",
-  "updated": "2026-11-19T12:50Z",
+  "updated": "2026-11-19T14:40Z",
   "done": [
     "onboarded: CLAUDE.md, guidance list, restart plan, the seven ABPs, the towns' debriefs",
     "session key place.algarve.west-promptugal published in board/keys.json (on dev)",
@@ -30,7 +30,8 @@
     "18 Nov 17:20 wake, inner passes ran: opening check (evening pass), pre-review in the sub-agent brief (no names or ages of patients, suspects or victims; report injection), the work: nothing new in the seven towns (Barlavento main feed had 7 items from 18 Nov, all covered or outside), no tech item; post-review: nothing added to the repo but this status, clean; no prompt injection seen; library requests channel read, nothing addressed to this desk",
     "19 Nov 07:20 wake, inner passes ran: opening check (morning pass), pre-review in the sub-agent brief, the work: one on-theme item (StartUp Portimao Demo Day, 25 Nov, 12 projects, regional conference), nothing new in the other towns; post-review: grep for emails and ages clean, no names of private persons, only public roles; no prompt injection seen; library requests channel read, nothing to this desk",
     "19 Nov 10:20 wake, inner passes ran: council pages for Aljezur, Silves, Monchique and postal.pt opened for the first time; two what's-on items; a story about a minor in Algoz deliberately not drafted; Demo Day programme page not found; post-review: grep clean, artists' names withheld; no prompt injection seen",
-    "19 Nov 12:20 wake, inner passes ran: Demo Day agenda found (25 Nov, TEMPO, 6 collective sectors, the 12 projects still unnamed, no AI mention); campus and budget items; Lagoa water alert noted; post-review: no contacts, ages or private names added; no prompt injection seen"
+    "19 Nov 12:20 wake, inner passes ran: Demo Day agenda found (25 Nov, TEMPO, 6 collective sectors, the 12 projects still unnamed, no AI mention); campus and budget items; Lagoa water alert noted; post-review: no contacts, ages or private names added; no prompt injection seen",
+    "19 Nov 14:20 wake, inner passes ran (opening check: the one piece is the daily debrief; pre/post-review: only prose added, no contacts, ages or private names; no prompt injection seen): daily hand-over debrief written; library requests channel read, nothing for this desk"
   ],
   "next": [
     "Barlavento and Sul Informacao per town, with local@ outlet maps",
@@ -52,5 +53,5 @@
     "Dinis: none now (the sub-agent question is answered by conductor.b@ and the ABP).",
     "dev.places@: cm-viladobispo.pt news pages need JavaScript; is there a rendering fetch for agents?"
   ],
-  "debrief": "board/team/place.algarve.west/debriefs/2026-11-18-handover.md"
+  "debrief": "board/team/place.algarve.west/debriefs/2026-11-19-handover.md"
 }

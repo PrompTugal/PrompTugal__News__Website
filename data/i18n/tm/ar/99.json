@@ -1,0 +1,26 @@
+{
+ "99a71106aa482450": {
+  "t": "Aljezur هي الحافة الأطلسية لـ Algarve: بلدية كبيرة قليلة السكان (نحو 323 كيلومتراً مربعاً و5,884 نسمة في إحصاء 2011) من أربع رعايا، داخل Southwest Alentejo and Vicentine Coast Natural Park. هويتها الطبيعة وركوب الأمواج في شواطئ مثل Arrifana، وبلدية تعدّ سياحة الطبيعة محركاً استراتيجياً للاقتصاد المحلي. والطاقة ركيزة ثانية: تدير EDP مزرعة رياح Bordeira بقدرة 24 ميغاواط وأضافت بجانبها محطة شمسية بقدرة 15.3 ميغاواط في 2025. وليست مركزاً للذكاء الاصطناعي: فما وجدناه بلدية لها خدمات على الإنترنت وبوابة جغرافية، ومشروعاً تجريبياً للمساعدة عن بُعد في الرعايا لكبار السن، وبرامج إقليمية للذكاء الاصطناعي لشركات السياحة يمكن لأعمال Aljezur الانضمام إليها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Aljezur is the Algarve's Atlantic edge: a large, thinly popu",
+  "ok": false
+ },
+ "99c102dd36cca038": {
+  "t": "تفيد Rádio Portalegre بمشروع البوليتكنيك بنحو 200,000 يورو الممول من FEDER، الذي يضع نماذج ذكاء اصطناعي على مستشعرات قادرة على معالجة البيانات في الموقع، مع مزارع تجريبية للتحقق منه. وتذكر الهندسة وعلوم البيانات وعلم الزراعة ونظم المعلومات مجالات معنية، وتاريخ انتهاء في أغسطس 2028.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Rádio Portalegre reports the polytechnic's roughly 200,000 e",
+  "ok": false
+ },
+ "99ea56e3b843dfcf": {
+  "t": "Equipa UAlg تعود إلى المدارس بـ 81 حديثاً مجانياً، منها الذكاء الاصطناعي والأمن السيبراني",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Equipa UAlg returns to schools with 81 free talks, AI and cy",
+  "ok": false
+ }
+}

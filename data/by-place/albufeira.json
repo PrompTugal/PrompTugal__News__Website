@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "by": "place.albufeira@PrompTugal.dinis",
   "mandate": "PrompTugal.news Albufeira: AI and technology in Albufeira, a tourism and hospitality town, and what reaches Albufeira from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -47,7 +47,14 @@
       "blast": [
         "loule",
         "quarteira"
-      ]
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Albufeira conference on an AI-assisted earthquake prevention system moved to 27 November",
@@ -63,7 +70,14 @@
         "loule",
         "silves",
         "lagoa"
-      ]
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Albufeira council says it runs an AI-based urban management platform",
@@ -73,7 +87,14 @@
       "url": "https://www.barlavento.pt/?p=402125",
       "read_on": "2026-11-15",
       "ai_path": "The council itself says it uses AI in urban management.",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "Albufeira town hall hosts a conference on AI in urban planning",
@@ -83,7 +104,14 @@
       "url": "https://www.barlavento.pt/?p=401664",
       "read_on": "2026-11-15",
       "ai_path": "The conference was partly about AI in urban processes.",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "AP Hotels & Resorts, a group with Albufeira resorts, adopts AI revenue management",
@@ -93,7 +121,14 @@
       "url": "https://en.10minhotel.com/2026/02/24/ap-hotels-resorts-relies-on-lodgiq-to-boost-revenue-performance-across-portuguese-portfolio/",
       "read_on": "2026-11-15",
       "ai_path": "Hotel group with Albufeira resorts uses an AI platform to set prices.",
-      "steps": 1
+      "steps": 1,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://en.10minhotel.com/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     },
     {
       "title": "A hotel group with an Albufeira hotel adopts an AI guest-messaging app",
@@ -103,7 +138,14 @@
       "url": "https://www.quinta.im/blog/ai-has-landed-on-jupiter-hotel-group/",
       "read_on": "2026-11-15",
       "ai_path": "A hospitality group with an Albufeira hotel uses an AI app to talk to guests.",
-      "steps": 1
+      "steps": 1,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://www.quinta.im/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.18.1): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     }
   ],
   "sources": [
@@ -170,7 +212,13 @@
       "url": "https://postal.pt/algarve/conferencia-sobre-sismos-em-albufeira-adiada-para-27-de-novembro-com-programa-alargado/",
       "read_on": "2026-11-16",
       "ai_path": "Proposed system uses AI algorithms for seismic detection; AI specialists are invited, not confirmed.",
-      "steps": 0
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
+        "url": "https://postal.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here"
     }
   ],
   "ai_map": [
@@ -282,7 +330,8 @@
     "18 Nov: a lead from Algarve Marafado (29 May 2026) says the mayor stated he would contract an AI-based platform for planning applications. The page was read and is public; the site looks like a regional outlet (daily items, archive to 2016, an editorial statute link) but its publisher was not verified and no primary source (council notice, minutes, contract) was found. Held as a lead, not published as fact; Barlavento's reports of the council's AI urban-management platform stay the source.",
     "No new AI item found on Barlavento, Postal, Algarve Primeiro or Algarve Daily News homepages.",
     "18 Nov, Algarve Marafado checked further: its Ficha Tecnica e Estatuto Editorial (https://www.algarvemarafado.com/ficha-tecnica/, read 2026-11-18, linked from its home page) describes an independent regional online daily with ERC registration no. 127013 and a named editorial team; the owner is an individual, not a company. That settles that it is a registered outlet. The 29 May claim that the mayor would contract an AI planning platform still has no primary source (council notice, minutes, contract), so it stays a held lead, usable only as an attributed secondary source.",
-    "cm-albufeira.pt/noticias opened: 12 items, newest 2026-11-17 (Sao Silvestre run); none touches AI or technology; 'Carregar Mais' not followed."
+    "cm-albufeira.pt/noticias opened: 12 items, newest 2026-11-17 (Sao Silvestre run); none touches AI or technology; 'Carregar Mais' not followed.",
+    "Opened cm-albufeira.pt/noticias on retry (first try HTTP 503): newest item 17 Nov 2026 (São Silvestre race, no AI); next 12 Nov. Nothing new with an AI link."
   ],
   "voice": {
     "lede": "Sol, sea and a chatbot to book your sunbed: this is Albufeira, where tourism is the main business and AI is turning up at the front desk.",

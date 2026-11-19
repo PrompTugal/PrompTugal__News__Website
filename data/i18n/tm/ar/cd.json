@@ -1,0 +1,26 @@
+{
+ "cd337f06fade32ec": {
+  "t": "يدرج برنامج ريادة الأعمال في البلدية شركات ناشئة التقت بها، منها AntAtlas (طبقة سياق لوكلاء برمجة الذكاء الاصطناعي) وBraining (إعادة تأهيل بالذكاء الاصطناعي بعد السكتة الدماغية) وCAPTAIN (مدرب كرة سلة بالذكاء الاصطناعي) وPromoRealtor (ذكاء اصطناعي للتسويق العقاري) وWiseWorld (ذكاء اصطناعي يقيس المهارات البشرية) وPlanta Smart Homes (ذكاء اصطناعي مادي للمباني). وتقول الصفحة إن هذه بعض الشركات الناشئة التي التقت بها، لا مجموعها.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The council's entrepreneurship programme lists startups it m",
+  "ok": false
+ },
+ "cdb0370fb3ca2954": {
+  "t": "أدرج المؤتمر الرابع للإدارة وريادة الأعمال في الصحة، يومي 25 و26 سبتمبر في ساحة معارض CNEMA، الذكاء الاصطناعي والتحول الرقمي بين موضوعاته، مع مدير استراتيجية في Siemens Healthineers Portugal متحدثاً.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "The fourth Congress of Management and Entrepreneurship in He",
+  "ok": false
+ },
+ "cdddce6f8601aeb5": {
+  "t": "Feedzai وجامعة كويمبرا توسّعان شراكتهما من أجل Startup Capital Summit",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "Feedzai and the University of Coimbra widen their partnershi",
+  "ok": false
+ }
+}

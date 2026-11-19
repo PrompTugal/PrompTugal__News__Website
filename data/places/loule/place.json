@@ -3,7 +3,7 @@
   "id": "loule",
   "type": "place",
   "name": "Loulé",
-  "kind": "city",
+  "kind": "municipality",
   "located_in": "place:algarve",
   "matches": [],
   "source": "data/by-place/places.json",
