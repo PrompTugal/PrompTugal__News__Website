@@ -10,7 +10,7 @@ import { createHash } from 'node:crypto'
 import { execFileSync } from 'node:child_process'
 import { ledger } from './payments.mjs'
 export const order = 992
-export const BAR = '1.1.1'
+export const BAR = '1.2.0'
 const ROOT = new URL('../../../', import.meta.url)
 const R = p => readFileSync(new URL(p, ROOT))
 // pins in SRI form (sha256-<base64>): what browsers use, and no long hex run for the sites' leak scans (1.1.1)

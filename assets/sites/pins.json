@@ -10,6 +10,11 @@
       "js": "sha256-CocgHABQfdAOZrH/4dwXFz0kdfQtd8dfQfUNG9Cd4zM=",
       "css": "sha256-xz+fEE+rY1AK+9NgKEz+qBRUgeuirUoTBuDWfXFPB1U=",
       "render": "sha256-qi/wub3SbA90q6Ab+p5TtTd6ewAuMtiDA1L6e3nzou4="
+    },
+    "1.2.0": {
+      "js": "sha256-q453DfQ1nN+6NwDIxodgmBCmN2nSqI2XBlpqJY7r36Y=",
+      "css": "sha256-I+znlJf/6T2Z5HTw9HUzCUJdqF4LWVSMGZ2QGlkvbr8=",
+      "render": "sha256-fXQVo7N8M9mqAbCTltbVrqU410HbD2j0GmR7cWiFg7I="
     }
   },
   "obs_tz": {

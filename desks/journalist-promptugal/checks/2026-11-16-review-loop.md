@@ -424,3 +424,9 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
 - **Correction:** the event was set for the evening of 11 November, the day Lisbon suspended public events for the storm (HaDEA's page, re-read by me: quote found). AICEP says nothing of a move; we have not found whether it went ahead. The article gets a dated Update saying so, and that the Luma-only details are not re-checked; "the Milan business association" is taken out (no source read says it). Re-signed, P2.
 - All my own articles now have a claims file or are withdrawn. REQ-2026-0007's remaining articles are the partner desks'; their owners are asked through status.json.
 - Inner passes: pre-review inline (blocked hosts in the brief); post-review scripted scan of the staged diff, read before commit: clean. Written at 04:57 UTC.
+
+## The 06:40 wake (19 November)
+
+- districts `7980562e3` (status) brought onto dev; the other place desks quiet; library requests unchanged.
+- Principle text 3 of the list: `desks/journalist-promptugal/principles/take-downs.md`, from Dinis's guidance of 18 November (the disclaimer on every site; a source's own channel decides; /report/). Three details are this desk's proposal and are marked so in its front matter for conductor.b@ and rights@ before dev@ places it.
+- Inner passes: inline (a text in my own desk; scan: no contact, no em-dash). Written at 06:41 UTC.
