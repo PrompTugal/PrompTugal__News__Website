@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-dre-despacho-1573-2026",
+  "type": "evidence",
+  "source_url": "https://files.diariodarepublica.pt/gratuitos/2s/2026/02/2S027A0000S00.pdf",
+  "beat": "Portugal",
+  "group": "S75",
+  "names": [
+    {
+      "as_listed": "Secretary of State for Health Management",
+      "ref": "organisation:secretary-of-state-for-health-management"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-19-1550.json",
+  "run": "2026-11-19T15:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-19-1550.json"
+    ]
+  }
+}
