@@ -1,8 +1,8 @@
 {
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "03:48 wake: IP lookup gone from every site; predictions collection live; one-switcher sites bar v1.2 designed, with dev@; all sites fresh.",
-  "updated": "2026-11-19T03:52Z",
+  "state": "05:48 wake: night of security rulings applied across the sites; all fresh; next fuller update 08:48.",
+  "updated": "2026-11-19T05:50Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [

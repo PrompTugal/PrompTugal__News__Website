@@ -1013,6 +1013,29 @@
         "designer@ sites bar v1.2 spec (one switcher) with dev@",
         "PR #35 merged (cells.b confirmed)"
       ]
+    },
+    {
+      "at": "2026-11-19T04:51Z",
+      "hold": false,
+      "site": "v0.1.1846",
+      "notes": [
+        "quiet night hour; site leads wake from 07:00 Lisbon; data.b@ hourly (built 04:10)",
+        "dev@: the 5-site blocks removed, sites bar opens in the same tab (cd364f9f46); phone row SB10 to come",
+        "obs_tz live in the registry (143 zones); sent to the 8 sites with obs.js",
+        "maestro.b 04:18: quiet; abp@ needs Dinis's own line for the domain rule"
+      ]
+    },
+    {
+      "at": "2026-11-19T05:50Z",
+      "hold": false,
+      "site": "v0.1.1849",
+      "fresh_05_48": "11 sites built 04:51-05:18; videos 03:19 (no change since)",
+      "notes": [
+        "security@: one SRI ruling (registry compare preferred; narrow exact-pattern exemption), key rules (private headers always fail; public keys only in their field), degrade on version bumps",
+        "tz table 1.1.0 (487 zones) on data, startups, live, signals, civic, travel; weather on 1.0.0",
+        "ECDSA and sk- key forms: library, startups, data fixed; bulletins, cyber, signals, live already covered",
+        "dev@: per-version pins in the registry; Faro airport live on place pages"
+      ]
     }
   ]
 }

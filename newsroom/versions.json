@@ -1,5 +1,26 @@
 [
   {
+    "version": "v0.1.1849",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: the public-key leak rule covers ecdsa-sha2-* and the sk- security-key forms, with a test per key type",
+    "by": "dev@PrompTugal.dinis",
+    "from": "75162436a"
+  },
+  {
+    "version": "v0.1.1848",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: SRI ruling: the three approaches read, the pattern tightened, every site to compare with the registry",
+    "by": "security@PrompTugal.dinis",
+    "from": "714836910"
+  },
+  {
+    "version": "v0.1.1847",
+    "date": "2026-11-19",
+    "what": "abp@PrompTugal.dinis: 04:38 wake, hourly report: quiet, no breach",
+    "by": "abp@PrompTugal.dinis",
+    "from": "82eb72c71"
+  },
+  {
     "version": "v0.1.1846",
     "date": "2026-11-19",
     "what": "journalist@PrompTugal.dinis: S3's claims file; road-2-web-summit-2026 loses its Web Summit-only facts",
