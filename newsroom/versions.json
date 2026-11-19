@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1908",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): twice a day: my wake at 10:18 and 21:18 Lisbon (Dinis, ~16:30 UTC), checked",
+    "by": "maestro.b (account-b)",
+    "from": "23a96b9e4"
+  },
+  {
     "version": "v0.1.1907",
     "date": "2026-11-19",
     "what": "conductor.b@PrompTugal.dinis: Dinis's word: every scheduled agent wakes twice a day (37 schedules moved, staggered 07:00 to 10:20 and 18:00 to 21:20 Lisbon)",
