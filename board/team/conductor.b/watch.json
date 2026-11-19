@@ -1058,6 +1058,19 @@
         "signed commits blocked on weather and civic (ssh-keygen refused in their sessions); key handover question open (signals, library)",
         "PRED: civic 7,663 pairs; data +216"
       ]
+    },
+    {
+      "at": "2026-11-19T08:50Z",
+      "hold": false,
+      "site": "v0.1.1859",
+      "fresh_08_48": "all 12 sub-sites built 07:54-08:09",
+      "notes": [
+        "sites bar 1.2.1 on 11 of 12 sub-sites (videos to come), security@ go 07:56",
+        "registry reshaped (versions[v].integrity.<file>)",
+        "signed commits blocked on weather, civic, startups (ssh-keygen refused); key handover question open (signals wants to hand over)",
+        "PRED: civic 7,663, startups 18, bulletins 3, data +216; travel's London rain chart (first what-we-said chart on a site)",
+        "videos: YouTube thumbnails with text credit; icon waits on Dinis"
+      ]
     }
   ]
 }
