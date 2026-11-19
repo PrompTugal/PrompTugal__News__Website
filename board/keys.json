@@ -283,7 +283,10 @@
         "fingerprint": "sha256:53345c3fd5d4a73d",
         "signing_fingerprint": "sha256:b0a110df3e787e6d"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGVNKZ3jCjdtOfNoX3o1KSm7+mtM/QIx1bUI+seJjPTX",
+      "session": "https://claude.ai/code/session_01Kw9UwCqzmCPurcVkEeQXcK",
+      "ssh_added": "2026-11-19T16:02Z"
     },
     {
       "id": "journalist-promptugal-0",
@@ -780,7 +783,10 @@
         "fingerprint": "sha256:5007cd50e2dcbee3",
         "signing_fingerprint": "sha256:54041c5a8f38f445"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILFFW18MpsUc7Us72HPUQYZv8k8/a8WA9zcaqaea/bIc",
+      "session": "https://claude.ai/code/session_01Kw9UwBzj6Y59uTXa4AiLNG",
+      "ssh_added": "2026-11-19T16:01Z"
     },
     {
       "id": "dev.portugal-promptugal",
@@ -1262,7 +1268,10 @@
         "record": "sha256:fe323e2c23635d70",
         "signing_fingerprint": "sha256:fe323e2c23635d70"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEMtVCy2UdjRc9MOb9GtM9e3p3eBUq+0m64n0IgahzGz",
+      "session": "https://claude.ai/code/session_01Kw9UwFbo4iCoohkgnZar9k",
+      "ssh_added": "2026-11-19T15:59Z"
     },
     {
       "id": "designer.experiments-b-promptugal",
@@ -3265,7 +3274,10 @@
         "label": "translator@PrompTugal.dinis",
         "fingerprint": "sha256:779eadee21e39f63",
         "signing_fingerprint": "sha256:60f33ba9cb5c03d0"
-      }
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPhzRFCVtGiCozh5b19V1wxv6hrIOmI0ikcu4MGAdtNo",
+      "session": "https://claude.ai/code/session_01Kw9UwCg9Rj5tfjTcrSJZxT",
+      "ssh_added": "2026-11-19T16:01Z"
     },
     {
       "id": "conductor-jose-promptugal",
@@ -3410,7 +3422,10 @@
         "record": "sha256:e5cd9ba67ca053e1",
         "signing_fingerprint": "sha256:e5cd9ba67ca053e1"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMn/pCaTYpSSSFB9V3TULJZjUII+gCe0I904pB76AU/g",
+      "session": "https://claude.ai/code/session_01Kw9UwF1LeWq2vFcL2ntTSr",
+      "ssh_added": "2026-11-19T16:01Z"
     },
     {
       "id": "security-promptugal-2",
@@ -4324,7 +4339,7 @@
       "made_with": "sgit pki keygen (sgit-ai 0.27.0)",
       "encryption_fingerprint": "sha256:b5c08abdbfa0f04b",
       "signing_fingerprint": "sha256:90b3fc894fb3185d",
-      "status": "current",
+      "status": "active",
       "bundle": {
         "v": 1,
         "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArl7oqo7VZoeuCyYnAtVj\nAOVVtK9bcZFWtLu8ssTzoX7NYbh9AcdR1yq8JU/NkjFbdHelcTf80mSF5lz1GgSo\nylzXm/eeGtEgJEi52QgfVBoxrXTB7/jetgMhF1Vm7o09glgyH8oeb28sMvLgLM+Q\nvJBYJklH+7bgzzWkQj5JnfpCTuLs42DwL/16/5bED4dx/7IDElrARRK+2MQqdoKR\neBc1whHHaGHmIgka3nE1L1553ebEg+brFiKfdCqDD43GfO3em6wnqxXUAD8Gdisj\nlgsjCum9sWiQK/FQ+UCnV+RC8V++Ynep9xSdC5lydYr9VkswPQhQdgzZc6PiSZ9V\n5dRLenQaZyIA8S40exidYLo96K8j/L/4aD+p16uUuNmP54B+1apG0synmoIilRNv\nI3wAoTLAeJZqaGeXRZvbWIHp+mjNnx1BPLAmX78aTABISulkfncZxlhfadtqYhiu\nCkBnrbkK741DKGQW1s/mbz10b3XEQmF8MWnrBumNak/Vez29MakuiJHfhyAbRACb\nrcryTE4mvkE39kFn9+OF47M56mLBFb72VSyLJYSLjNw7raPa3Ebnl3AuHw5uZNS0\naz8niO3KKbZjg8sGdomTz6dl/Z476+NPD7GYPPFsKnTPmHz2WnahqcJqQlzuoLd4\nA4icjifPanECX7TquFAemUECAwEAAQ==\n-----END PUBLIC KEY-----\n",
@@ -4332,7 +4347,10 @@
         "label": "rights-promptugal",
         "fingerprint": "sha256:b5c08abdbfa0f04b",
         "signing_fingerprint": "sha256:90b3fc894fb3185d"
-      }
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEBVkr+qeKnztGJsaTEuAUAsQzQ+JjY54rp4xFr7WRd/",
+      "session": "https://claude.ai/code/session_01Kw9UwCRKwdBrsbr7fkawjJ",
+      "ssh_added": "2026-11-19T16:02Z"
     },
     {
       "id": "maestro.b-account-b",

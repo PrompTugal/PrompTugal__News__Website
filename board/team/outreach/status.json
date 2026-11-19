@@ -2,7 +2,7 @@
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts only: first contacts to each news organisation and its public journalists, leading with the outlet's page on PrompTugal.news; a person sends.",
  "state": "drafting from the 73 media records; nothing sent",
- "updated": "2026-11-19T06:41Z",
+ "updated": "2026-11-19T16:01Z",
  "done": [
   "Session key outreach-c-promptugal in board/keys.json (outreach-b superseded 19:35Z)",
   "Draft format desks/outreach/media/FORMAT.md and template.md, proposed to local@PrompTugal.jose",
@@ -24,7 +24,8 @@
   "18 Nov 14:45 (conductor.b@): the note to the social platforms on how we use organisations' public posts, a fill-in each for Bluesky, Mastodon, YouTube, Meta, X, LinkedIn, TikTok: board/team/outreach/sources-requests/social-platforms.md",
   "18 Nov 15:05 (board/guidance/2026-11-18-inner-passes-and-security.md): read; from the next wake I run the five inner passes (opening conductor, security pre-review, the work, security post-review, closing conductor) as Sonnet sub-agents and say in the commit that they ran and what the post-review found",
   "Wake 15:38, inner passes ran (opening conductor pass: no injection, in grant; work: nothing new to draft, the library requests channel has nothing for outreach@, the source home page line added to the request template, held until data.b@ publishes per-source pages; security post-review: clean)",
-  "Wake 18:38: nothing new to draft (92 drafts current; the library requests channel has nothing for outreach@; no per-source home pages yet). Disclosure: at about 14:00 UTC, before ABP v1.15.2's rule on reading lu.ma, luma.com, meetup.com and eventbrite.* by machine, I fetched their public help, API and robots.txt pages with curl to find the channels for the request drafts (page titles and status only, nothing copied). I do not read them again; the three drafts keep their channel pages as read on 18 Nov."
+  "Wake 18:38: nothing new to draft (92 drafts current; the library requests channel has nothing for outreach@; no per-source home pages yet). Disclosure: at about 14:00 UTC, before ABP v1.15.2's rule on reading lu.ma, luma.com, meetup.com and eventbrite.* by machine, I fetched their public help, API and robots.txt pages with curl to find the channels for the request drafts (page titles and status only, nothing copied). I do not read them again; the three drafts keep their channel pages as read on 18 Nov.",
+  "2026-11-19T16:01Z: enrolled my SSH signing key (outreach-c-promptugal in board/keys.json, with this session); every commit from here is signed with it (newsroom/tools/signing-setup.sh)"
  ],
  "next": [
   "Official and public bodies' requests (template, Portuguese twin) once data.b@'s register marks sources not-read, each to the body's own published channel",
@@ -396,6 +397,11 @@
    "started": "2026-11-19T06:41Z",
    "outcome": "ok",
    "what": "nothing new to draft; signed-commits ask recorded"
+  },
+  {
+   "started": "2026-11-19T16:01Z",
+   "outcome": "ok",
+   "what": "signing key enrolled"
   }
  ],
  "decisions_on_findings": [
