@@ -12,7 +12,6 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..')
 const git = (...a) => execFileSync('git', a, { cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] })
-const sid = s => (String(s || '').match(/session_[A-Za-z0-9]+/) || [String(s || '').trim()])[0]
 
 // CI's version commits are exempt only by what they change, never by a name anyone can set (signals.b@'s review, 19 Nov):
 // exactly the version files, and in REALITY.md only its version line
@@ -44,12 +43,13 @@ export function checkSignatures(range) {
     const C = JSON.parse(fs.readFileSync(path.join(ROOT, 'newsroom/tools/signing.json'), 'utf8'))
     try { git('cat-file', '-e', `${C.start}^{commit}`) } catch { return { fails: [], warns: [`signatures: the start commit ${C.start.slice(0, 9)} is not in this checkout; nothing checked`] } }
     const r = range || `${C.start}..HEAD`, tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'sig-')), prog = path.join(ROOT, 'newsroom/tools/sshsig.mjs'), SEP = '\x1f'
-    const list = git('log', '--no-merges', `--format=%H${SEP}%s${SEP}%(trailers:key=Agent,valueonly,separator=;)${SEP}%(trailers:key=Claude-Session,valueonly,separator=;)%x1e`, r)
+    // every commit in the range, side branches and merges included (security@'s control 3)
+    const list = git('log', `--format=%H${SEP}%s${SEP}%(trailers:key=Agent,valueonly,separator=;)${SEP}%(trailers:key=Claude-Session,valueonly,separator=;)%x1e`, r)
     const fails = [], warns = []
     for (const rec of list.split('\x1e').map(x => x.trim()).filter(Boolean)) {
         const [h, subj, agentT, sessT] = rec.split(SEP), id = h.slice(0, 9)
         if (isVersionCommit(h, subj, C)) continue
-        const agent = (agentT || '').split(';')[0].trim(), sess = sid((sessT || '').split(';')[0])
+        const agent = (agentT || '').split(';')[0].trim(), sess = (sessT || '').split(';')[0].trim()
         if (!agent) { fails.push(`${id}: no Agent: trailer (${subj.slice(0, 60)})`); continue }
         const S = signers(h, tmp)
         if (!S) { fails.push(`${id}: no parent board/keys.json to check against`); continue }
@@ -57,7 +57,8 @@ export function checkSignatures(range) {
         if (!ks) { (C.enforce === 'all' ? fails : warns).push(`${id}: ${agent} has no ssh key in its parent's board/keys.json yet (newsroom/tools/signing-setup.sh)`); continue }
         const [g, gs] = git('-c', `gpg.ssh.allowedSignersFile=${S.file}`, '-c', `gpg.ssh.program=${prog}`, '-c', 'gpg.format=ssh', 'log', '-1', `--format=%G?${SEP}%GS`, h).trim().split(SEP)
         if (g !== 'G' || gs !== agent) { fails.push(`${id}: not signed by ${agent}'s published key (${g === 'N' ? 'unsigned' : `signature ${g}${gs ? ' by ' + gs : ''}`})`); continue }
-        if (!ks.some(k => sid(k.session) === sess)) fails.push(`${id}: Claude-Session ${sess || '(none)'} is not the session published with ${agent}'s key`)
+        // the Claude-Session: trailer equals the session published with the signing key, the full URL compared exactly (control 5)
+        if (!ks.some(k => k.session === sess && k.ssh)) fails.push(`${id}: Claude-Session ${sess || '(none)'} is not the session published with ${agent}'s key`)
     }
     fs.rmSync(tmp, { recursive: true, force: true })
     return { fails, warns }
