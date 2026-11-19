@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1854",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: sites bar 1.2.1 post-reviewed: go; S71 low",
+    "by": "security@PrompTugal.dinis",
+    "from": "2d812d6da"
+  },
+  {
     "version": "v0.1.1853",
     "date": "2026-11-19",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
