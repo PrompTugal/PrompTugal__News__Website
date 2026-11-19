@@ -22,3 +22,7 @@ Before the change: about 560 wakes a day, roughly 90 USD an hour API-equivalent 
 - To go back, one call per task restores the old cron; the old schedules are in this repository's history (board/team/conductor.b/watch.json and this file's commit).
 
 Why: there are no readers yet, the work of the last days is built and live, and the next steps wait on Dinis's time and on partners.
+
+## Exception (Dinis, about 17:25 UTC, in maestro.b's session)
+
+Twice a day stays for the PrompTugal team. Three wakes went back to hourly for the launch of the agentic cells work on 20 November: maestro.b (:18 UTC), conductor.b@SovereignWebsite (:31 UTC) and conductor.b@AgentiCCells (:06 UTC). Record: board/team/maestro.b/decisions/2026-11-19-full-speed-and-the-refactor.md.

@@ -9,6 +9,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -19,6 +20,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -29,6 +31,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -39,6 +42,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -49,6 +53,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -59,6 +64,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -69,6 +75,7 @@
       "country": "AM",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -79,6 +86,7 @@
       "country": "AU",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -89,6 +97,7 @@
       "country": "AT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -99,6 +108,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -109,6 +119,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q205358"
     },
     {
@@ -119,6 +130,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q151048"
     },
     {
@@ -129,6 +141,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -139,6 +152,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -149,6 +163,7 @@
       "country": "BE",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -159,6 +174,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q207208"
     },
     {
@@ -169,6 +185,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -179,6 +196,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -189,6 +207,7 @@
       "country": "BR",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -199,6 +218,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q207201"
     },
     {
@@ -209,7 +229,19 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q208201"
+    },
+    {
+      "id": "brussels",
+      "name": "Brussels",
+      "kind": "city",
+      "parent": "place:belgium",
+      "country": "BE",
+      "timezone": "Europe/Brussels",
+      "aliases": [],
+      "seat": null,
+      "wikidata": "Q239"
     },
     {
       "id": "camden",
@@ -219,6 +251,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q202088"
     },
     {
@@ -229,6 +262,7 @@
       "country": "CA",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -239,6 +273,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -249,6 +284,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -259,6 +295,7 @@
       "country": "CN",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -269,6 +306,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -279,6 +317,7 @@
       "country": "CO",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -289,6 +328,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q26888"
     },
     {
@@ -299,6 +339,7 @@
       "country": "CZ",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -309,6 +350,7 @@
       "country": "IE",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -319,6 +361,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q207218"
     },
     {
@@ -329,7 +372,19 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q210531"
+    },
+    {
+      "id": "european-union",
+      "name": "European Union",
+      "kind": "region",
+      "parent": null,
+      "country": null,
+      "timezone": null,
+      "aliases": [],
+      "seat": "place:brussels",
+      "wikidata": "Q458"
     },
     {
       "id": "evora",
@@ -339,6 +394,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -349,6 +405,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -359,6 +416,7 @@
       "country": "FR",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -369,6 +427,7 @@
       "country": "DE",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -379,6 +438,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q693450"
     },
     {
@@ -389,6 +449,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -399,6 +460,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q205679"
     },
     {
@@ -409,6 +471,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q40478"
     },
     {
@@ -419,6 +482,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q213560"
     },
     {
@@ -429,6 +493,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q210476"
     },
     {
@@ -439,6 +504,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q215038"
     },
     {
@@ -449,6 +515,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q205690"
     },
     {
@@ -459,6 +526,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q214162"
     },
     {
@@ -469,6 +537,7 @@
       "country": "HU",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -479,6 +548,7 @@
       "country": "IN",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -489,6 +559,7 @@
       "country": "IE",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -499,6 +570,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q205817"
     },
     {
@@ -509,6 +581,7 @@
       "country": "IL",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -519,6 +592,7 @@
       "country": "IT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -529,6 +603,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q188801"
     },
     {
@@ -539,6 +614,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q32508"
     },
     {
@@ -549,6 +625,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -559,6 +636,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -569,6 +647,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q202059"
     },
     {
@@ -579,6 +658,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -589,6 +669,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q215030"
     },
     {
@@ -601,6 +682,7 @@
       "aliases": [
         "lisboa"
       ],
+      "seat": null,
       "wikidata": "Q597"
     },
     {
@@ -611,6 +693,7 @@
       "country": "LT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -621,6 +704,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q84"
     },
     {
@@ -631,6 +715,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -641,6 +726,7 @@
       "country": "LU",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -651,6 +737,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -661,6 +748,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q32504"
     },
     {
@@ -671,6 +759,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -681,6 +770,7 @@
       "country": "NL",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -691,6 +781,7 @@
       "country": "NZ",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -701,6 +792,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q208139"
     },
     {
@@ -711,6 +803,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -721,6 +814,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -731,6 +825,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -741,6 +836,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -751,6 +847,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -761,6 +858,7 @@
       "country": "PT",
       "timezone": "Europe/Lisbon",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q45"
     },
     {
@@ -771,6 +869,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -781,6 +880,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q208955"
     },
     {
@@ -791,6 +891,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q32515"
     },
     {
@@ -801,6 +902,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -811,6 +913,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -821,6 +924,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -831,6 +935,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -841,6 +946,7 @@
       "country": "SG",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -851,6 +957,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q730706"
     },
     {
@@ -861,6 +968,7 @@
       "country": "ES",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -871,6 +979,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q320378"
     },
     {
@@ -881,6 +990,7 @@
       "country": "SE",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -891,6 +1001,7 @@
       "country": "CH",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -901,6 +1012,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -911,6 +1023,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q208152"
     },
     {
@@ -921,6 +1034,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q145"
     },
     {
@@ -931,6 +1045,7 @@
       "country": "US",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -941,6 +1056,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -951,6 +1067,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -961,6 +1078,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -971,6 +1089,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -981,6 +1100,7 @@
       "country": "PT",
       "timezone": null,
       "aliases": [],
+      "seat": null,
       "wikidata": null
     },
     {
@@ -991,6 +1111,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q40608"
     },
     {
@@ -1001,6 +1122,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q210563"
     },
     {
@@ -1011,6 +1133,7 @@
       "country": "GB",
       "timezone": "Europe/London",
       "aliases": [],
+      "seat": null,
       "wikidata": "Q179351"
     }
   ],

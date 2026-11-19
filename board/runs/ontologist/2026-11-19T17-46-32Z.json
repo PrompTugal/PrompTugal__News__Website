@@ -1,0 +1,93 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "ontologist@PrompTugal.dinis",
+ "run": "2026-11-19T17-46-32Z",
+ "started": "2026-11-19T17:46:32.886Z",
+ "ended": "2026-11-19T18:52:26Z",
+ "line": "",
+ "policy": {
+  "version": "1.18.6",
+  "sha256": "e49bf442e0128ffd"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-19T17:48:03.475Z",
+   "chars": 590,
+   "sha256": "f60c834a7a0f8ace",
+   "head": "<task-notification>\n<task-id>b7ufn3zyr</task-id>\n<tool-use-id>toolu_014sh1h6CGHN9qNM7cVDdtwb</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/445d920f-1516-57c9-8358-2a32b"
+  },
+  {
+   "t": "2026-11-19T17:54:27.835Z",
+   "chars": 1186,
+   "sha256": "e57919a7483e2578",
+   "head": "<task-notification>\n<task-id>bpgslijc7</task-id>\n<tool-use-id>toolu_01G9pbQCCwASR98gYN7tLdwV</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/445d920f-1516-57c9-8358-2a32b"
+  },
+  {
+   "t": "2026-11-19T18:51:52.353Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-19T18:51:52.062Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 4,
+  "by_kind": {
+   "other": 2,
+   "web": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 4,
+  "commits": [
+   {
+    "sha": "c51707366",
+    "subject": "ontologist@PrompTugal.dinis: Brussels and the European Union in the places registry (a seat on the union)",
+    "files": 10
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "c51707366 wrote board/briefs/2026-11-18-the-country-layer.md",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 4,
+  "in_mandate": 4,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 1
+ }
+}
