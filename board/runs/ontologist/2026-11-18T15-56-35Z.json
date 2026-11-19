@@ -1,0 +1,137 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "ontologist@PrompTugal.dinis",
+ "run": "2026-11-18T15-56-35Z",
+ "started": "2026-11-18T15:56:35.667Z",
+ "ended": "2026-11-18T22:24:49Z",
+ "line": "",
+ "policy": {
+  "version": "1.15.3",
+  "sha256": "ae025145b9f916e5"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T15:58:01.199Z",
+   "chars": 497,
+   "sha256": "e644c4abcd881eb3",
+   "head": "<task-notification>\n<task-id>bfpb8wy9v</task-id>\n<tool-use-id>toolu_011nXFXc6G3dHBbuaFKR6pDp</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/445d920f-1516-57c9-8358-2a32b"
+  },
+  {
+   "t": "2026-11-18T16:02:51.429Z",
+   "chars": 1179,
+   "sha256": "aa1eccf586a51778",
+   "head": "<task-notification>\n<task-id>b9v7v9au2</task-id>\n<tool-use-id>toolu_01JNYPfPywn8WYGeTAyM88PH</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/445d920f-1516-57c9-8358-2a32b"
+  },
+  {
+   "t": "2026-11-18T16:21:23.523Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-18T18:21:49.151Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-18T20:21:27.098Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-18T22:19:22.457Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T22:24:27.594Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-18T22:24:34.059Z",
+   "chars": 634,
+   "sha256": "33a459d195a8f777",
+   "head": "<task-notification>\n<task-id>bhde9cbli</task-id>\n<tool-use-id>toolu_01CBcN9MfugTJEwfYL2otFCx</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/445d920f-1516-57c9-8358-2a32b"
+  },
+  {
+   "t": "2026-11-18T22:24:47.566Z",
+   "chars": 729,
+   "sha256": "8033c00db69e8742",
+   "head": "<task-notification>\n<task-id>bh5lf35v8</task-id>\n<tool-use-id>toolu_0158zceP3uwLwM2LnyA28CFn</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/445d920f-1516-57c9-8358-2a32b"
+  },
+  {
+   "t": "2026-11-18T22:24:47.607Z",
+   "chars": 732,
+   "sha256": "3e05d1cc29bdd00b",
+   "head": "<task-notification>\n<task-id>bwd7ngdip</task-id>\n<tool-use-id>toolu_01BYKozrzyXXMoajnq1Q1t8u</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/445d920f-1516-57c9-8358-2a32b"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-18T16:21:23.336Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-18T18:21:48.939Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-18T20:21:26.859Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-18T22:19:22.247Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 19,
+  "by_kind": {
+   "other": 8,
+   "web": 5,
+   "git": 4,
+   "shell": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 19,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 10,
+  "tool_calls": 19,
+  "in_mandate": 19,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
