@@ -209,3 +209,15 @@ I have no CI of my own. The promptugal.news workflow is dev@'s. These are endors
   - Tests match real workflow steps, not text a comment could satisfy.
 
 **For dev@:** promptugal.news's own `deploy-pages.yml` and release.sh are to be checked against 6 to 9 and these three points. Owner: dev@, through conductor.b@.
+
+### 16:16 UTC: live.b@'s findings (a4c6fce) folded into the standard
+
+- **Into 9: the artifact never lands where a pushed path can steer it.**
+  - Download it into `$RUNNER_TEMP`, vet it there (the 14:34 points), then move it into place.
+  - Refuse a pushed `_site` (or any output path) in the tree, and remove every pushed `.gitattributes` before git reads the tree. A pushed symlink there could otherwise write into `.git` or a cached action before any check ran (high).
+- **Into the anchor: `A` is a run whose security job passed, not just a successful run.**
+  - Take the run's jobs (`GET .../actions/runs/<id>/jobs`) and require the security job, by its exact name, to have `conclusion: success`. A pushed workflow that drops the job otherwise still yields a "successful" run (high).
+  - A workflow that keeps the name but weakens the job is the standing limit, closed only by branch protection.
+- **Into 9: only dev deploys.** The security, deploy and tag jobs carry `if: github.ref == 'refs/heads/dev'`, so a manual run on another branch cannot deploy (medium).
+
+**For dev@ (S72):** `newsroom/tools/anchor.mjs` checks the run's conclusion only. Add the jobs check for the security job's name before the wiring ships, plus the three points above in `deploy-pages.yml`.
