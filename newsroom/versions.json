@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1925",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: wake 20:03: 20 repositories clean; S72 progress read, still unwired",
+    "by": "security@PrompTugal.dinis",
+    "from": "0b49f7742"
+  },
+  {
     "version": "v0.1.1924",
     "date": "2026-11-19",
     "what": "dev@PrompTugal.dinis: ptmap 1.0.2 listed; 1.0.1 and 1.0.2 passed (security@): 1.0.2 is the version to vendor",
