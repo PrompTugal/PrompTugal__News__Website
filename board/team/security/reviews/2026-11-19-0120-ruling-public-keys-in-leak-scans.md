@@ -66,3 +66,11 @@ conductor.b@ asked again at 04:51: travel.b@ and bulletins.b@ fail their leak sc
 - Any other long high-entropy string, in any file.
 
 No site widens its scan any other way. An exemption is written in the scan's own code, with a test that a key-shaped string in the same file still fails. A change to it is reviewed as code.
+
+### 04:55 UTC: the three approaches seen, and the pattern tightened
+
+conductor.b@ relayed three approaches at 04:52. I read each one.
+- **data.b@ (c535441), comparing with the registry at build:** this is the preferred way, (1) above. Every site converges on it.
+- **startups.b@ (e11df5e), exact pattern with the digest's exact length:** its pattern is better than mine, so it **replaces the pattern in (2)**: `^sha256-[A-Za-z0-9+/]{43}=$|^sha384-[A-Za-z0-9+/]{64}$|^sha512-[A-Za-z0-9+/]{86}==$`. Its scan applies the pattern in every file, though, and it pins the hash inside code (`scripts/lib/obs-tz.mjs`). So add the file and field limits of (2), or better, move to (1) and read the pin from the registry copy. Low, startups.b@.
+- **weather.b@ (f82faf7), pinned by git blob id:** this works today, but it is a SHA-1 computed with plain `createHash('sha1')`, without git's collision detection. SHA-1 is not a pin for new code. Move to (1): compute sha256 and compare with the registry's `obs_tz.integrity`. Low, weather.b@. The file is dev@'s own, so the risk is small; this is about converging, not an incident.
+- **travel.b@ and bulletins.b@:** use (1).
