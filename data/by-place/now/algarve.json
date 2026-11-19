@@ -1,6 +1,6 @@
 {
  "place": "algarve",
- "read_at": "2026-11-19T13:16:35Z",
+ "read_at": "2026-11-19T14:16:02Z",
  "by": "board/tools/local-now.mjs (conductor@PrompTugal.dinis)",
  "about": "Now in the Algarve: IPMA's warnings for the Faro district, Faro airport, and each place's nearest station. Not a warning service.",
  "warnings": {
@@ -15,39 +15,39 @@
   "icao": "LPFR",
   "name": "Faro airport",
   "within_nm": 40,
-  "at": "2026-11-19T13:16:35Z",
+  "at": "2026-11-19T14:16:02Z",
   "airline": [
    {
-    "callsign": "AYR1MF",
-    "airline": "AYR",
-    "type": "P28A",
-    "alt_ft": 7000,
-    "on_ground": false,
-    "ground_speed_kt": 90.3
-   },
-   {
-    "callsign": "EZS92WT",
-    "airline": "EZS",
-    "type": "A20N",
-    "alt_ft": 39000,
-    "on_ground": false,
-    "ground_speed_kt": 375.4
-   },
-   {
-    "callsign": "IBS16SM",
-    "airline": "IBS",
+    "callsign": "EXS6DR",
+    "airline": "EXS",
     "type": "A21N",
+    "alt_ft": 20900,
+    "on_ground": false,
+    "ground_speed_kt": 389
+   },
+   {
+    "callsign": "EXS9PC",
+    "airline": "EXS",
+    "type": "B738",
     "alt_ft": 36000,
     "on_ground": false,
-    "ground_speed_kt": 507.5
+    "ground_speed_kt": 480.7
    },
    {
-    "callsign": "JEI444",
-    "airline": "JEI",
-    "type": "LJ35",
-    "alt_ft": 12950,
+    "callsign": "RYR139E",
+    "airline": "RYR",
+    "type": "B38M",
+    "alt_ft": 12300,
     "on_ground": false,
-    "ground_speed_kt": 343.1
+    "ground_speed_kt": 335.7
+   },
+   {
+    "callsign": "VLG61PC",
+    "airline": "VLG",
+    "type": "A320",
+    "alt_ft": 30450,
+    "on_ground": false,
+    "ground_speed_kt": 355.8
    }
   ],
   "other_aircraft": 0,
@@ -145,62 +145,62 @@
  "reads": {
   "warnings": {
    "url": null,
-   "at": "2026-11-19T13:16:32Z",
+   "at": "2026-11-19T14:15:59Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "observations": {
    "url": null,
-   "at": "2026-11-19T13:16:32Z",
+   "at": "2026-11-19T14:15:59Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1080500": {
    "url": null,
-   "at": "2026-11-19T13:16:32Z",
+   "at": "2026-11-19T14:15:59Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1080800": {
    "url": null,
-   "at": "2026-11-19T13:16:32Z",
+   "at": "2026-11-19T14:15:59Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1081100": {
    "url": null,
-   "at": "2026-11-19T13:16:32Z",
+   "at": "2026-11-19T14:15:59Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1081505": {
    "url": null,
-   "at": "2026-11-19T13:16:32Z",
+   "at": "2026-11-19T14:15:59Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d0": {
    "url": null,
-   "at": "2026-11-19T13:16:32Z",
+   "at": "2026-11-19T14:15:59Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d1": {
    "url": null,
-   "at": "2026-11-19T13:16:32Z",
+   "at": "2026-11-19T14:15:59Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d2": {
    "url": null,
-   "at": "2026-11-19T13:16:32Z",
+   "at": "2026-11-19T14:15:59Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "uv": {
    "url": null,
-   "at": "2026-11-19T13:16:32Z",
+   "at": "2026-11-19T14:15:59Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "sea-forecast-d0": {
    "url": null,
-   "at": "2026-11-19T13:16:32Z",
+   "at": "2026-11-19T14:15:59Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "adsb": {
    "url": "https://api.adsb.lol/v2/point/37.0144/-7.9659/40",
-   "at": "2026-11-19T13:16:35Z",
+   "at": "2026-11-19T14:16:02Z",
    "status": 200
   }
  }
