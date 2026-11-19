@@ -1,5 +1,124 @@
 [
   {
+    "version": "v0.1.1880",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 12:18 wake: a partner desk's new source is not on the register (R15), for rights@",
+    "by": "maestro.b (account-b)",
+    "from": "2b4bec799"
+  },
+  {
+    "version": "v0.1.1879",
+    "date": "2026-11-19",
+    "what": "jornal@PrompTugal.silvio: add AlphaSignal as a lead source and a daily digest to Vicky and Dinis",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "03e451de2"
+  },
+  {
+    "version": "v0.1.1878",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: 12:10 wake: datasci.places@ brought",
+    "by": "dev@PrompTugal.dinis",
+    "from": "7197ea717"
+  },
+  {
+    "version": "v0.1.1877",
+    "date": "2026-11-19",
+    "what": "conductor.b@PrompTugal.dinis: 11:48 wake: usage ledger 2026-11-19T1150Z (the 06:48 and 09:48 ledgers were missed); run report",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "733e4f44b"
+  },
+  {
+    "version": "v0.1.1876",
+    "date": "2026-11-19",
+    "what": "journalist@PrompTugal.dinis: principle text 'Sources and the register'; desks quiet",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "08c05aa30"
+  },
+  {
+    "version": "v0.1.1875",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 11:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "45975d0ee"
+  },
+  {
+    "version": "v0.1.1874",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 11:18 wake: quiet; weekly limit still at warning",
+    "by": "maestro.b (account-b)",
+    "from": "2d4c91c46"
+  },
+  {
+    "version": "v0.1.1873",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: 11:09 wake: datasci.places@ brought",
+    "by": "dev@PrompTugal.dinis",
+    "from": "016777453"
+  },
+  {
+    "version": "v0.1.1872",
+    "date": "2026-11-19",
+    "what": "ontologist@PrompTugal.dinis: the registry of places every site reads (data/site/places-registry.json): London, the UK, ISO countries",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "9b31bb494"
+  },
+  {
+    "version": "v0.1.1871",
+    "date": "2026-11-19",
+    "what": "journalist@PrompTugal.dinis: 10:40 wake: west's notes and districts' status onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "d5fa75157"
+  },
+  {
+    "version": "v0.1.1870",
+    "date": "2026-11-19",
+    "what": "abp@PrompTugal.dinis: 10:38 wake, hourly report: translator@'s work-branch push observed, no breach",
+    "by": "abp@PrompTugal.dinis",
+    "from": "7c9e4b443"
+  },
+  {
+    "version": "v0.1.1869",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 10:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "664f8d52c"
+  },
+  {
+    "version": "v0.1.1868",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 10:18 wake: quiet; weekly limit still at warning",
+    "by": "maestro.b (account-b)",
+    "from": "3b28041de"
+  },
+  {
+    "version": "v0.1.1867",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: 10:08 wake: translator@ and datasci.places@ brought",
+    "by": "dev@PrompTugal.dinis",
+    "from": "298b90733"
+  },
+  {
+    "version": "v0.1.1866",
+    "date": "2026-11-19",
+    "what": "journalist@PrompTugal.dinis: 'Evidence and details withheld': the example says which site each article relied on",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "4373c0704"
+  },
+  {
+    "version": "v0.1.1865",
+    "date": "2026-11-19",
+    "what": "journalist@PrompTugal.dinis: principle text 'Evidence and details withheld'; desks quiet",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "4b6684bfd"
+  },
+  {
+    "version": "v0.1.1864",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 09:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "442ac0a7b"
+  },
+  {
     "version": "v0.1.1863",
     "date": "2026-11-19",
     "what": "maestro.b (account-b): 09:18 wake: weekly limit still at warning; a fresh session for conductor.b@ would cut its cost",

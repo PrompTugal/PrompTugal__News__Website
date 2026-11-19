@@ -18,7 +18,12 @@ At Silvio's word (10 November 2026), the leading tech and AI sites of every regi
 - **Europe:** Sifted, Tech.eu, The Next Web, EU-Startups, The Decoder, The Register.
 - **United States:** TechCrunch, CNBC, Axios, VentureBeat.
 - **China and Asia:** South China Morning Post, TechNode, KrASIA, Pandaily, Rest of World.
+- **Aggregators (leads only, never a source to cite):** AlphaSignal (https://alphasignal.ai/, added 19 November 2026 at Silvio's word): an AI news front page ranked by upvotes, readable without login (items marked "Pro" are not used). A lead from it becomes a candidate only after the original source is read.
 - **Primary sources first:** a company's own release or blog, the parliament or the regulator, Web Summit's own pages.
+
+## The daily digest (from 19 November 2026, at Silvio's word)
+
+Once a day, at the last wake of the day, the desk writes `digests/<YYYY-MM-DD>.md`: the day's candidates by score, each with its original source, and sends a short note pointing to it, sealed, to Vicky's curator (`board/inboxes/curator-vicky-3.json`) and to PrompTugal's conductor on account B for Dinis (`board/inboxes/conductor.b.json`). They decide what goes on PrompTugal.news; this desk never publishes.
 
 ## The shared coverage map
 
