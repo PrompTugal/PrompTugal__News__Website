@@ -5,8 +5,8 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-19T21:19Z",
-  "state": "2026-11-19T21:19Z wake: SAW's Portuguese and five designs live on sovereignwebsite.ai, the hosted-site path next; AgentiCCells waits on the agent-name answer; $3,265 API-equivalent on the account (conductor.b@'s 20:50 ledger)",
+  "updated": "2026-11-19T22:19Z",
+  "state": "2026-11-19T22:19Z wake: quiet night; SAW's hosted-site request path is built (factory ff99033) and its first run waits on Dinis's yes; AgentiCCells still waits on the agent-name answer",
   "done": [
     "2026-11-19T02:01Z onboarding: read CLAUDE.md, New from Dinis, the maestro guidance, conductor.b@'s status, debrief 2026-11-18 and roster; key maestro.b-account-b made with sgit pki keygen, public bundle and ssh signing key in board/keys.json with this session; git set repo-locally to sign with newsroom/tools/signing-setup.sh",
     "2026-11-19T02:01Z read get_session for conductor.b@, cells.b, writer-10 and telemetry.b@ (status and cost only, no transcripts) and the status.json of rights@, security@, abp@, telemetry.b@",
@@ -39,12 +39,14 @@
     "2026-11-19T18:19Z 18:18 wake: no hold; new guidance 17:40 (cameras as credited links unless we have full right; London and the EU on every site's map) is PrompTugal's, and its 'embed only what we have full right to use' is a common standard for SAW and AgentiCCells sites too; SAW conductor ($38): HTTPS live on 4 of 5 sites, deck v1 in PrompTugal's investment-case structure and the Kickstarter page plan (2f4dd18), the vault base at vault.sovereignwebsite.site, the family bar, its debrief; AgentiCCells conductor ($24) asks dot or hyphen for agent names; telemetry.b@ $2,868.69 at 16:35 (+$123.35)",
     "2026-11-19T19:19Z 19:18 fuller brief; SAW conductor $42.50 (five home designs at sovereignwebsite.ai/designs/), AgentiCCells conductor $24.43 (agenticcells.ai refactor preview v0.1.282; requests for a tools hub and five tool sites), writer-10 $95.03",
     "2026-11-19T20:19Z 20:18 wake: no hold, no new guidance; SAW conductor ($46.68) pushed Portuguese for the ten main pages under /pt/ with EN|PT switches; AgentiCCells conductor ($25.43) waits on the agent-name question; PrompTugal: ptmap 1.0.2 (the shared map) passed security@ and rights@, signing control 10 hardened; abp@ 20:09 finding: live.b@'s MEO permission request drawn up as a Gmail draft, a connector without a written grant (R3), unverified (board/abp/reports/2026-11-19-2009-live-gmail.md)",
-    "2026-11-19T21:19Z 21:18 wake: no hold, no new guidance; telemetry.b@ $3,241.66 at 20:35 (+$372.97 over four hours); conductor.b@'s ledger 20:50: $3,265.35 in all; SAW conductor $47.55 (PT and designs live, next: the path for a hosted site); AgentiCCells conductor $26.07, idle on the agent-name question (about $0.65 per idle wake); Vicky's desk S74, S75"
+    "2026-11-19T21:19Z 21:18 wake: no hold, no new guidance; telemetry.b@ $3,241.66 at 20:35 (+$372.97 over four hours); conductor.b@'s ledger 20:50: $3,265.35 in all; SAW conductor $47.55 (PT and designs live, next: the path for a hosted site); AgentiCCells conductor $26.07, idle on the agent-name question (about $0.65 per idle wake); Vicky's desk S74, S75",
+    "2026-11-19T22:19Z 22:18 wake: no hold, no new guidance; PrompTugal quiet (twice a day); SAW conductor $48.82: the hosted-site request path pushed as factory commit ff99033, the first request (pipeline-demo.sovereignwebsite.site) held for Dinis's yes; AgentiCCells conductor $26.74, idle"
   ],
   "next": [
     "18:18 wake and hourly: watch the SAW launch and the agenticcells.ai refactor; full briefs at 19:18 and 07:18"
   ],
   "asks": [
+    "Dinis: SAW: say yes to the first hosted-site request, pipeline-demo.sovereignwebsite.site (the request path is factory commit ff99033): https://claude.ai/code/session_01Kw9UwDCS5Px4dXRJUGP9Qu",
     "Dinis: abp@ flags live.b@ preparing the MEO permission request as a Gmail draft (a connector, R3, no written grant). Yes to drafts only, or a file in its repository that a person sends (abp@'s proposal)? https://claude.ai/code/session_01Kw9UwDFAY9JT754RfGghLe",
     "Dinis: SAW: confirm the Portuguese wording and number formats (/pt/), pick a home page design (or a combination) at https://sovereignwebsite.ai/designs/; yes or no on the Google Maps example and its name; the licence for the principles on sovereignwebsite.org; yes or no on adding migration.b to its policy: https://claude.ai/code/session_01Kw9UwDCS5Px4dXRJUGP9Qu",
     "Dinis: AgentiCCells: review the refactored agenticcells.ai preview (v0.1.282): https://claude.ai/code/session_01Kw9UwFgyMuNDYCnrW1ZKkm",
