@@ -1,171 +1,171 @@
 {
-  "agent": "security@PrompTugal.dinis",
-  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
-  "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
-  "updated": "2026-11-19T01:35Z",
-  "reviewed_to": "312c46011",
-  "hold": false,
-  "done": [
-    "22:55 18 Nov: the sites bar v1.0.0 post-reviewed on the exact files (hashes checked): go; B7's per-hover version.json fetch accepted, to drop in v1.0.1 (dev@)",
-    "23:05 18 Nov: hourly sweep of 13 repositories clean (Videos added); ENISA's clearance withdrawn (robots disallows ClaudeBot), with Dinis",
-    "23:55 18 Nov: the sites bar v1.1.0 post-reviewed on the exact files (three hashes checked, attack URLs tested): go",
-    "00:05 19 Nov: sweep clean; the meter off the sub-sites (good); Cyber's vendored sql.js checked byte-identical to npm (pins for the gate asked, low)",
-    "01:25 19 Nov: signed commits on (Dinis 01:10, guidance 2026-11-19-signed-commits...): session and SSH key recorded in board/keys.json, commits signed with my own key, repo-local signer",
-    "01:20 19 Nov: one ruling for every site's leak scan: full public forms in the keys file, allowed by field and exact pattern only, entropy rule untouched elsewhere",
-    "01:30 19 Nov: sites bar 1.1.1 go; the five controls for every signed-commit check; data in the browser go on cyber (licence beside loaded figures to add)"
-  ],
-  "next": [
-    "each wake: new commits in all eight repositories (heads in repo_heads)",
-    "AppSec read of each collector and CI workflow, one or two a wake; threat models as written",
-    "daily prompt-injection pass",
-    "S43: dev@'s gate check for duplicate ids and dropped key bundles",
-    "pairing step 4 (the real send): P1 on A, P2 on A, P9 the origin, P10",
-    "post-review the first events collection run and page against E1 to E7",
-    "review /payments/simulated/ when built: nothing about the reader leaves the browser",
-    "each wake: read https://library.promptugal.news/api/v1/requests/security-at-promptugal.dinis.json and answer",
-    "Cyber: C1 and C4 in the threat model before any exposure or incident source",
-    "post-review the first two sites that install the bar (vendored, pinned, script-src 'self')",
-    "read each site's signed-commit check against the five controls (cyber c8fff24 first, then data, library, signals, bulletins)"
-  ],
-  "findings_open": {
-    "S2": "decided: rotate now (observability@)",
-    "S3": "decided: the pages say it (observability@, journalist@)",
-    "S4": "decided: ranking to the CRM (outreach@)",
-    "S5": "low: ws-ecies-1 envelopes unsigned (dev@, observability@)",
-    "S6": "low: the drain installs sgit-ai unpinned (devops@, observability@)",
-    "S7": "low: the synthetic vault's read key is public; screenshots unchecked (synthetic@)",
-    "S8": "low: the public inbox lane can be filled (conductor@)",
-    "S9": "decided by Dinis (04:45): vaults are ephemeral for now; a recovery vault he holds, later",
-    "S10": "low: board times ahead of the clock (conductor@)",
-    "S11": "decided yes: signing step and gate check (dev@), the rule (conductor@)",
-    "S12": "mostly done: five inboxes re-issued 16:55; the old vaults to retire (drain, delete on the server)",
-    "S13": "accepted by Dinis 06:20: the conductor holds every vault key; my recommendation on record",
-    "S14": "low: a schedule written into the wrong session (conductor@)",
-    "S15": "high, half done: the hook loads no other code and checks its pin (abp@); the gate check on .claude/ commits is not built (dev@)",
-    "S17": "granted by Dinis 12:30 (abp@ to write it)",
-    "S18": "done 22:40: the setup script installs hash-checked; to confirm in a fresh session",
-    "S19": "decided: stays in the environment; the ABP controls access (abp@)",
-    "S22": "account B's transcripts unscanned (conductor.b@)",
-    "S23": "decided with S19 (abp@)",
-    "S24": "low, recurred 16 Nov: the restart's first prompts omit the pki-agent pin (conductor.b@)",
-    "S25": "decided by Dinis 9 Nov 10:55: everyone on the team trusted to push and publish; reviewed after",
-    "S26": "medium, half done: librarian@'s inbox re-issued 02:52; the old vault to retire and a silent open command (conductor@)",
-    "S30": "decided with S25; open: a key for dev.venues@PrompTugal.angelo",
-    "S32": "low: the iOS conductor commits without a key or the convention (conductor@)",
-    "S36": "low: S41 lead cancellation claim without a source URL (reviewer@PrompTugal.vicky)",
-    "S38": "low: the satellite loop's stop-gap fetches from EUMETSAT in the reader's browser; serve frames from our origin (dev@PrompTugal.vicky)",
-    "S40": "low, recurred 15 Nov: dev@PrompTugal.vicky writes front-page.json outside any recorded grant (abp@, Vicky's conductor)",
-    "S41": "medium (privacy): an article names where three team members live, on Dinis's word only (Dinis)",
-    "S43": "low: data fixed 17 Nov 04:54; the gate check for duplicate ids and dropped bundles still owed (dev@)",
-    "S44": "medium, partly met (ontologist@'s check): still the email on the outlet's domain with source and date (dev@, ontologist@)",
-    "S45": "mitigated: values draft says not built yet, For Dinis page open, outreach holds sends; template's meter line to reword (outreach@)",
-    "S46": "low: conductor.b@'s remote_conduct grant (sessions, scheduled tasks) to stay scoped and be reviewed after the restart (abp@, Dinis)",
-    "S47": "low, mostly answered: no PrompTugal schedules on account A since 17 Nov 23:00 (Dinis)",
-    "S48": "medium: outbox approval must be Dinis's signature, verified by the sender, before outside sends (conductor@, cell.email@, Dinis)",
-    "S49": "low: the feed reader should honour robots.txt (Claude/Anthropic names) and not follow cross-host redirects; Sul Informação's case is with Dinis (dev.places@)",
-    "S50": "medium (money, Dinis's): the £5 button on every page pays through newsroom.sgit.ai's Stripe link and the credit lands there, not here",
-    "S51": "medium (money): the meter raises past charges to 1p and deducts from balances that can hold paid credit (conductor@, dev@; Dinis)",
-    "S54": "low, half done: sub-agents granted (v1.14.1); the other repositories still to be named in my grant (abp@)",
-    "S55": "medium: a gate line refusing javascript:/data:/vbscript: hrefs in every repository (only Travel has it) (dev@ and the site leads)",
-    "S56": "low: Data's workflow installs sgit-ai unhashed beside two secrets (data.b@)",
-    "S61": "low (legal): two Library items rest only on websummit.com (library.b@)",
-    "S69": "medium: now-live.js sets an href from data.promptugal.news unchecked (dev@)"
+ "agent": "security@PrompTugal.dinis",
+ "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
+ "state": "running on this account from 16 Nov 19:28 UTC (the restart, Dinis's go 19:25); new key security-promptugal-2; wakes every two hours at :03 from conductor.b@",
+ "updated": "2026-11-19T02:22Z",
+ "reviewed_to": "be1818f47",
+ "hold": false,
+ "done": [
+  "02:22 19 Nov: data.b@'s nvd-kev baseline (a902800) go, one low; the NVD gap reader cleared to build under four conditions",
+  "02:18 19 Nov: the CVE store on cyber (e7cda64) reviewed: go, four low notes to cyber.b@ (reviews/2026-11-19-0220-cve-store.md)",
+  "23:05 18 Nov: hourly sweep of 13 repositories clean (Videos added); ENISA's clearance withdrawn (robots disallows ClaudeBot), with Dinis",
+  "23:55 18 Nov: the sites bar v1.1.0 post-reviewed on the exact files (three hashes checked, attack URLs tested): go",
+  "00:05 19 Nov: sweep clean; the meter off the sub-sites (good); Cyber's vendored sql.js checked byte-identical to npm (pins for the gate asked, low)",
+  "01:25 19 Nov: signed commits on (Dinis 01:10, guidance 2026-11-19-signed-commits...): session and SSH key recorded in board/keys.json, commits signed with my own key, repo-local signer",
+  "01:20 19 Nov: one ruling for every site's leak scan: full public forms in the keys file, allowed by field and exact pattern only, entropy rule untouched elsewhere"
+ ],
+ "next": [
+  "each wake: new commits in all eight repositories (heads in repo_heads)",
+  "AppSec read of each collector and CI workflow, one or two a wake; threat models as written",
+  "daily prompt-injection pass",
+  "S43: dev@'s gate check for duplicate ids and dropped key bundles",
+  "pairing step 4 (the real send): P1 on A, P2 on A, P9 the origin, P10",
+  "post-review the first events collection run and page against E1 to E7",
+  "review /payments/simulated/ when built: nothing about the reader leaves the browser",
+  "each wake: read https://library.promptugal.news/api/v1/requests/security-at-promptugal.dinis.json and answer",
+  "Cyber: C1 and C4 in the threat model before any exposure or incident source",
+  "post-review the first two sites that install the bar (vendored, pinned, script-src 'self')",
+  "read each site's signed-commit check against the five controls (cyber c8fff24 first, then data, library, signals, bulletins)"
+ ],
+ "findings_open": {
+  "S2": "decided: rotate now (observability@)",
+  "S3": "decided: the pages say it (observability@, journalist@)",
+  "S4": "decided: ranking to the CRM (outreach@)",
+  "S5": "low: ws-ecies-1 envelopes unsigned (dev@, observability@)",
+  "S6": "low: the drain installs sgit-ai unpinned (devops@, observability@)",
+  "S7": "low: the synthetic vault's read key is public; screenshots unchecked (synthetic@)",
+  "S8": "low: the public inbox lane can be filled (conductor@)",
+  "S9": "decided by Dinis (04:45): vaults are ephemeral for now; a recovery vault he holds, later",
+  "S10": "low: board times ahead of the clock (conductor@)",
+  "S11": "decided yes: signing step and gate check (dev@), the rule (conductor@)",
+  "S12": "mostly done: five inboxes re-issued 16:55; the old vaults to retire (drain, delete on the server)",
+  "S13": "accepted by Dinis 06:20: the conductor holds every vault key; my recommendation on record",
+  "S14": "low: a schedule written into the wrong session (conductor@)",
+  "S15": "high, half done: the hook loads no other code and checks its pin (abp@); the gate check on .claude/ commits is not built (dev@)",
+  "S17": "granted by Dinis 12:30 (abp@ to write it)",
+  "S18": "done 22:40: the setup script installs hash-checked; to confirm in a fresh session",
+  "S19": "decided: stays in the environment; the ABP controls access (abp@)",
+  "S22": "account B's transcripts unscanned (conductor.b@)",
+  "S23": "decided with S19 (abp@)",
+  "S24": "low, recurred 16 Nov: the restart's first prompts omit the pki-agent pin (conductor.b@)",
+  "S25": "decided by Dinis 9 Nov 10:55: everyone on the team trusted to push and publish; reviewed after",
+  "S26": "medium, half done: librarian@'s inbox re-issued 02:52; the old vault to retire and a silent open command (conductor@)",
+  "S30": "decided with S25; open: a key for dev.venues@PrompTugal.angelo",
+  "S32": "low: the iOS conductor commits without a key or the convention (conductor@)",
+  "S36": "low: S41 lead cancellation claim without a source URL (reviewer@PrompTugal.vicky)",
+  "S38": "low: the satellite loop's stop-gap fetches from EUMETSAT in the reader's browser; serve frames from our origin (dev@PrompTugal.vicky)",
+  "S40": "low, recurred 15 Nov: dev@PrompTugal.vicky writes front-page.json outside any recorded grant (abp@, Vicky's conductor)",
+  "S41": "medium (privacy): an article names where three team members live, on Dinis's word only (Dinis)",
+  "S43": "low: data fixed 17 Nov 04:54; the gate check for duplicate ids and dropped bundles still owed (dev@)",
+  "S44": "medium, partly met (ontologist@'s check): still the email on the outlet's domain with source and date (dev@, ontologist@)",
+  "S45": "mitigated: values draft says not built yet, For Dinis page open, outreach holds sends; template's meter line to reword (outreach@)",
+  "S46": "low: conductor.b@'s remote_conduct grant (sessions, scheduled tasks) to stay scoped and be reviewed after the restart (abp@, Dinis)",
+  "S47": "low, mostly answered: no PrompTugal schedules on account A since 17 Nov 23:00 (Dinis)",
+  "S48": "medium: outbox approval must be Dinis's signature, verified by the sender, before outside sends (conductor@, cell.email@, Dinis)",
+  "S49": "low: the feed reader should honour robots.txt (Claude/Anthropic names) and not follow cross-host redirects; Sul Informação's case is with Dinis (dev.places@)",
+  "S50": "medium (money, Dinis's): the £5 button on every page pays through newsroom.sgit.ai's Stripe link and the credit lands there, not here",
+  "S51": "medium (money): the meter raises past charges to 1p and deducts from balances that can hold paid credit (conductor@, dev@; Dinis)",
+  "S54": "low, half done: sub-agents granted (v1.14.1); the other repositories still to be named in my grant (abp@)",
+  "S55": "medium: a gate line refusing javascript:/data:/vbscript: hrefs in every repository (only Travel has it) (dev@ and the site leads)",
+  "S56": "low: Data's workflow installs sgit-ai unhashed beside two secrets (data.b@)",
+  "S61": "low (legal): two Library items rest only on websummit.com (library.b@)",
+  "S69": "medium: now-live.js sets an href from data.promptugal.news unchecked (dev@)"
+ },
+ "asks": [
+  "Dinis: S41: content/articles/six-people-250-agents-promptugal-news.md says Angelo, Silvio and José live in Loulé and Quarteira, on your word; neither cited source says it. Have they each agreed? If not, place.loule@ takes the towns out. See reviews/2026-11-16-0205-wake.md",
+  "Dinis: S51: since last night the meter raises every reader's past charges below 1p to 1p and takes the difference from their balance (which can include the £5 they paid). Raising future prices is yours to decide; charging again for pages already read, without telling them, is not something I would ship. Floor for new charges only, or show the reader the lift. See reviews/2026-11-18-0005-wake.md",
+  "Dinis: S50: the green 'Support us · £5' button now on every page takes real payments through newsroom.sgit.ai's Stripe link, and Stripe returns the reader to newsroom.sgit.ai, so the £5 credit never shows on promptugal.news. Give PrompTugal.news its own link (success page promptugal.news/account/topped-up.html, already built), or let the button say where the money goes. See reviews/2026-11-17-1605-wake.md",
+  "Dinis: S45: what may an email to news outlets promise about money? Your answer goes on content/newsroom/decisions/the-values-page-wording.md (the editor-in-chief recommends B: 'not built yet', nothing promised). Until then nothing is sent and nothing is promised.",
+  "Dinis: S48: in the outreach outbox, 'approved' is a field anyone with the vault key can set. Before the outside sends, please approve by signing with your person key (the sender page checks the signature), or keep pressing send yourself after reading each one. Also the opt-out line and lawful basis (O6). See reviews/2026-11-17-0005-prereview-outreach-outbox.md",
+  "conductor.b@ (not Dinis): re-issue my lane and inbox sealed to security-promptugal-2; add the pki-agent sha256 pin to every first prompt (S24)",
+  "Dinis: cyber sources: CNPD, Shadowserver, Cloudflare Radar and RIPEstat allow only non-commercial use; PrompTugal.news takes payments. May we use them at all? Until you say, they are not collected. See reviews/2026-11-18-1545-prereview-cyber-signals.md (addendum)"
+ ],
+ "wakes": [
+  {
+   "started": "2026-11-06T03:42Z",
+   "outcome": "ok",
+   "release": "v0.1.94",
+   "line": "first run: key, ROLE.md, the first review (no hold; 4 medium, 4 low), pre-reviews of three passes: go with conditions"
   },
-  "asks": [
-    "Dinis: S41: content/articles/six-people-250-agents-promptugal-news.md says Angelo, Silvio and José live in Loulé and Quarteira, on your word; neither cited source says it. Have they each agreed? If not, place.loule@ takes the towns out. See reviews/2026-11-16-0205-wake.md",
-    "Dinis: S51: since last night the meter raises every reader's past charges below 1p to 1p and takes the difference from their balance (which can include the £5 they paid). Raising future prices is yours to decide; charging again for pages already read, without telling them, is not something I would ship. Floor for new charges only, or show the reader the lift. See reviews/2026-11-18-0005-wake.md",
-    "Dinis: S50: the green 'Support us · £5' button now on every page takes real payments through newsroom.sgit.ai's Stripe link, and Stripe returns the reader to newsroom.sgit.ai, so the £5 credit never shows on promptugal.news. Give PrompTugal.news its own link (success page promptugal.news/account/topped-up.html, already built), or let the button say where the money goes. See reviews/2026-11-17-1605-wake.md",
-    "Dinis: S45: what may an email to news outlets promise about money? Your answer goes on content/newsroom/decisions/the-values-page-wording.md (the editor-in-chief recommends B: 'not built yet', nothing promised). Until then nothing is sent and nothing is promised.",
-    "Dinis: S48: in the outreach outbox, 'approved' is a field anyone with the vault key can set. Before the outside sends, please approve by signing with your person key (the sender page checks the signature), or keep pressing send yourself after reading each one. Also the opt-out line and lawful basis (O6). See reviews/2026-11-17-0005-prereview-outreach-outbox.md",
-    "conductor.b@ (not Dinis): re-issue my lane and inbox sealed to security-promptugal-2; add the pki-agent sha256 pin to every first prompt (S24)",
-    "Dinis: cyber sources: CNPD, Shadowserver, Cloudflare Radar and RIPEstat allow only non-commercial use; PrompTugal.news takes payments. May we use them at all? Until you say, they are not collected. See reviews/2026-11-18-1545-prereview-cyber-signals.md (addendum)"
-  ],
-  "wakes": [
-    {
-      "started": "2026-11-06T03:42Z",
-      "outcome": "ok",
-      "release": "v0.1.94",
-      "line": "first run: key, ROLE.md, the first review (no hold; 4 medium, 4 low), pre-reviews of three passes: go with conditions"
-    },
-    {
-      "started": "2026-11-06T04:04Z",
-      "outcome": "ok",
-      "release": "",
-      "line": "11 commits clean; eight pre-reviews; BR5 answered; first keys-and-vaults map; S9, S10"
-    },
-    {
-      "started": "2026-11-06T04:24Z",
-      "outcome": "ok",
-      "release": "",
-      "line": "at Dinis's word: the agents' messages mapped on /newsroom/security/; S11 to S14"
-    },
-    {
-      "started": "2026-11-06T06:03Z",
-      "outcome": "ok",
-      "release": "v0.1.146",
-      "line": "59 commits clean; 16 pre-reviews; S15 (high), S16, S17"
-    },
-    {
-      "started": "2026-11-06T08:04Z",
-      "outcome": "ok",
-      "release": "v0.1.171",
-      "line": "50 commits clean; S15 half done; the recovery runbook"
-    },
-    {
-      "started": "2026-11-06T10:03Z",
-      "outcome": "ok",
-      "release": "v0.1.197",
-      "line": "70 commits clean; hook and CI post-reviewed; findings ledger"
-    },
-    {
-      "started": "2026-11-06T12:05Z",
-      "outcome": "ok",
-      "release": "v0.1.237",
-      "line": "102 commits clean; memos read; S16 closed"
-    },
-    {
-      "started": "2026-11-06T12:30Z",
-      "outcome": "ok",
-      "release": "v0.1.260",
-      "line": "Dinis's decisions recorded and routed; the key rotation map"
-    },
-    {
-      "started": "2026-11-06T14:03Z",
-      "outcome": "ok",
-      "release": "",
-      "line": "inbox read (13/13 signed); S12 three cases; S18; passkey and feedback pre-reviews"
-    },
-    {
-      "started": "2026-11-06T16:05Z",
-      "outcome": "ok",
-      "release": "v0.1.291",
-      "line": "transcript scan: S12 in five agents; map redrawn; S20, S21"
-    },
-    {
-      "started": "2026-11-06T18:03Z",
-      "outcome": "ok",
-      "release": "v0.1.307",
-      "line": "S1 post-review, S1b; offline mode pre-review; hand-over debrief; transcript scan clean"
-    },
-    {
-      "started": "2026-11-06T20:03Z",
-      "outcome": "ok",
-      "release": "v0.1.334",
-      "line": "S1b fixed; offline worker post-reviewed"
-    },
-    {
-      "started": "2026-11-06T22:03Z",
-      "outcome": "ok",
-      "release": "",
-      "line": "83 commits clean; transcripts clean; the account move: S22, S23, S24"
-    }
-  ],
-  "relayed": "Items (a) to (d) are Dinis's words relayed by conductor@PrompTugal.dinis at 03:44 UTC (session message); recorded as material, done as my standing work.",
-  "blocks": [],
-  "handover": "board/team/security/debriefs/2026-11-16-account-move.md",
-  "last_review": "board/team/security/reviews/2026-11-16-1505-wake.md",
-  "session": "board/team/security/sessions/session_01Kw9UwF2TrbbV5BhUjFGupN/",
-  "debrief": "board/team/security/debriefs/2026-11-18-handover.md",
-  "repo_heads": "board/team/security/sessions/session_01Kw9UwF2TrbbV5BhUjFGupN/repo-heads.txt",
-  "signed_commits": "on, 19 Nov 01:25 UTC: every security@ commit is SSH-signed with security-promptugal-2's signing key (bundle.sign, OpenSSH SHA256:Z/hjsCPdnltxvHPN4suEahvuXWdmtpEMYCOIdHuxGZI), session https://claude.ai/code/session_01Kw9UwF2TrbbV5BhUjFGupN recorded in board/keys.json; the check in release.sh and the gate is dev@'s (guidance 2026-11-19, section 2)"
+  {
+   "started": "2026-11-06T04:04Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "11 commits clean; eight pre-reviews; BR5 answered; first keys-and-vaults map; S9, S10"
+  },
+  {
+   "started": "2026-11-06T04:24Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "at Dinis's word: the agents' messages mapped on /newsroom/security/; S11 to S14"
+  },
+  {
+   "started": "2026-11-06T06:03Z",
+   "outcome": "ok",
+   "release": "v0.1.146",
+   "line": "59 commits clean; 16 pre-reviews; S15 (high), S16, S17"
+  },
+  {
+   "started": "2026-11-06T08:04Z",
+   "outcome": "ok",
+   "release": "v0.1.171",
+   "line": "50 commits clean; S15 half done; the recovery runbook"
+  },
+  {
+   "started": "2026-11-06T10:03Z",
+   "outcome": "ok",
+   "release": "v0.1.197",
+   "line": "70 commits clean; hook and CI post-reviewed; findings ledger"
+  },
+  {
+   "started": "2026-11-06T12:05Z",
+   "outcome": "ok",
+   "release": "v0.1.237",
+   "line": "102 commits clean; memos read; S16 closed"
+  },
+  {
+   "started": "2026-11-06T12:30Z",
+   "outcome": "ok",
+   "release": "v0.1.260",
+   "line": "Dinis's decisions recorded and routed; the key rotation map"
+  },
+  {
+   "started": "2026-11-06T14:03Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "inbox read (13/13 signed); S12 three cases; S18; passkey and feedback pre-reviews"
+  },
+  {
+   "started": "2026-11-06T16:05Z",
+   "outcome": "ok",
+   "release": "v0.1.291",
+   "line": "transcript scan: S12 in five agents; map redrawn; S20, S21"
+  },
+  {
+   "started": "2026-11-06T18:03Z",
+   "outcome": "ok",
+   "release": "v0.1.307",
+   "line": "S1 post-review, S1b; offline mode pre-review; hand-over debrief; transcript scan clean"
+  },
+  {
+   "started": "2026-11-06T20:03Z",
+   "outcome": "ok",
+   "release": "v0.1.334",
+   "line": "S1b fixed; offline worker post-reviewed"
+  },
+  {
+   "started": "2026-11-06T22:03Z",
+   "outcome": "ok",
+   "release": "",
+   "line": "83 commits clean; transcripts clean; the account move: S22, S23, S24"
+  }
+ ],
+ "relayed": "Items (a) to (d) are Dinis's words relayed by conductor@PrompTugal.dinis at 03:44 UTC (session message); recorded as material, done as my standing work.",
+ "blocks": [],
+ "handover": "board/team/security/debriefs/2026-11-16-account-move.md",
+ "last_review": "board/team/security/reviews/2026-11-16-1505-wake.md",
+ "session": "board/team/security/sessions/session_01Kw9UwF2TrbbV5BhUjFGupN/",
+ "debrief": "board/team/security/debriefs/2026-11-18-handover.md",
+ "repo_heads": "board/team/security/sessions/session_01Kw9UwF2TrbbV5BhUjFGupN/repo-heads.txt",
+ "signed_commits": "on, 19 Nov 01:25 UTC: every security@ commit is SSH-signed with security-promptugal-2's signing key (bundle.sign, OpenSSH SHA256:Z/hjsCPdnltxvHPN4suEahvuXWdmtpEMYCOIdHuxGZI), session https://claude.ai/code/session_01Kw9UwF2TrbbV5BhUjFGupN recorded in board/keys.json; the check in release.sh and the gate is dev@'s (guidance 2026-11-19, section 2)"
 }

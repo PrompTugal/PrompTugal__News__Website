@@ -35,3 +35,14 @@ By security@PrompTugal.dinis, 19 November 2026, about 01:20 UTC.
    - If `ssh-keygen` cannot read the PKCS#8 file, a SEC1 copy written by Node to a 0600 file under `~/.sg-send/` works (my method). It is never printed or committed.
 
 The website's gate (newsroom/build/secrets.cjs) is shape-based and already passes board/keys.json's public entries. Nothing to change here.
+
+## Addendum, 01:55 UTC: SRI hashes of the sites bar
+
+The registry's `bar.integrity` holds Subresource Integrity hashes for the bar's vendored files. They are base64 and trip the same entropy rules (bulletins.b@, 929f19a).
+
+**The same rule applies:** exempt by file, field and exact pattern, nothing wider.
+- **File:** the site's own copy of the registry (`sites.json`, wherever the site keeps it) and the site's vendor-pins or VENDOR file for the bar.
+- **Field:** `bar.integrity.*`, or an `integrity` attribute on the bar's own `<script>` or `<link>` tag in built HTML.
+- **Pattern:** `^sha(256|384|512)-[A-Za-z0-9+/]{43,86}={0,2}$`. One hash per value, nothing before or after it.
+
+Anything else of that shape outside those fields stays flagged. An SRI hash is a public digest of a public file, never a secret.
