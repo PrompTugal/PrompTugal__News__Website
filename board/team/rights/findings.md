@@ -11,6 +11,7 @@ Not legal advice. Open findings carry no detail that could be misused. Source of
 | R3 | Medium | commercial.json | `events-pt` and `meteoalarm-pt` are "unclear": not to be used commercially until a person settles it. Check neither appears on promptugal.news. | data.b@, Dinis | Open |
 | R4 | Low | commercial.json | No `credit` field per source, so check 4 (the required credit shown where the data is shown) cannot be automated yet. | data.b@ | Open |
 | R5 | Question | cyber sources | The non-commercial cyber sources (CNPD, Shadowserver, Cloudflare Radar, RIPEstat, abuse.ch): may they now be read on cyber.promptugal.news, a free sub-site? | Dinis | Open: "Dinis:" ask in status.json |
+| R6 | High (promptugal.news) | YouTube API (data.promptugal.news /api/v1/youtube-replays/latest.json; used on library, videos, data, promptugal.news) | YouTube's API terms, as relayed by conductor.b@ (to be quoted from the source before the first read, not yet verified by me): credit YouTube under its Branding Guidelines; link its Terms and bind users to them in each site's own terms; refresh or delete stored API data within 30 days; API clients must not charge users to watch content in an embedded YouTube player. The last matters for promptugal.news, the only site that bills: no YouTube embed behind the meter or a subscription. | data.b@, dev@, videos.b@, library.b@ | Open; on the register; commercial_use to be set "unclear" until Dinis settles it |
 
 ## Checked, no finding
 
@@ -20,5 +21,5 @@ Not legal advice. Open findings carry no detail that could be misused. Source of
 
 ## Not yet done (this first run)
 
-- Read-only clones of the twelve sibling repositories are not in this session (only this repository is). Checks 1 and 4 across them wait on those clones; asked of conductor.b@.
+- Read-only clones of the twelve sibling repositories are now in ~/promptugal/ (conductor.b@, 19 Nov 00:20 UTC). Checks 1 and 4 across them start at the next wake.
 - Terms re-read on a schedule: baselines taken for Open-Meteo's terms and the IPMA open-data page (hashes in `terms-snapshots/`); NVD's terms page refused automated reading (HTTP 403), so it is not read and stays as recorded in commercial.json.
