@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1912",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: control 10: paths NUL-separated, exceptions matched as whole strings",
+    "by": "security@PrompTugal.dinis",
+    "from": "1b549b48a"
+  },
+  {
     "version": "v0.1.1911",
     "date": "2026-11-19",
     "what": "dev@PrompTugal.dinis: control 10 in the signature check: no symlinks in any commit, the tree or an artifact, exceptions only from A",
