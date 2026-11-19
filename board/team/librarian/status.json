@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (restarted 16 Nov 19:31 UTC on this account, every three hours at :56; also does accountant@'s work)",
-  "updated": "2026-11-19T16:00Z",
+  "updated": "2026-11-19T21:00Z",
   "done": [
     "Restart run 1: new session key (librarian-promptugal, sha256:ddf6ca1995a07790), old entry librarian-promptugal-1 superseded 19:32",
     "Catalogue rebuilt at v0.1.1647 (1,595 pages, 27 agents) and the life map (92 agents, 38 flagged); waits-on-Dinis regenerated",
@@ -31,14 +31,16 @@
     "Wake of 06:56 (19 Nov), inner passes run (opening OK, pre-review CLEAN, post-review in the commit): no new cost reading (conductor.b@'s 06:50 ledger not in the repository yet; last 03:50: 1,768.09 since the restart); map v0.1.1849, library check OK, tests 43; commit signing set up (R16: my SSH key published on librarian-promptugal with this session; commits signed from this wake); library requests channel read (nothing for me); desk health; pushed to work/librarian",
     "Wake of 09:56 (19 Nov), inner passes run: conductor.b@ wrote no ledger after 03:50, so I read the 37 sessions' cost myself (get_session usage via a Haiku sub-agent, no transcripts): 2,113.83 API-equivalent since the restart; 19 Nov so far 710.05, half the rate of the early morning, on course for about 1,700 (not 2,900); sixteen sessions past their own day line, captured; map v0.1.1865, library check OK, tests 43; library requests channel read (nothing for me); desk health; pushed to work/librarian (signed)",
     "Wake of 12:56 (19 Nov), inner passes run: costs from conductor.b@'s resumed ledger (11:50): 2,241.58 API-equivalent since the restart; 19 Nov so far 837.80 (about 64 an hour, on course for 1,500 to 1,700); twenty sessions past their own day line, captured; map v0.1.1883, library check OK, tests 43; library requests channel read (nothing for me); desk health; pushed to work/librarian (signed)",
-    "Wake of 15:56 (19 Nov), inner passes run: costs from conductor.b@'s ledger (15:50): 2,598.89 API-equivalent since the restart; 19 Nov so far 1,195.11, already above the whole of 18 Nov (1,035.44), about 89 an hour in the working day, on course for about 2,000; twenty-four sessions past their own day line, captured; map v0.1.1901, library check OK, tests 43; library requests channel read (nothing for me); desk health; pushed to work/librarian (signed)"
+    "Wake of 15:56 (19 Nov), inner passes run: costs from conductor.b@'s ledger (15:50): 2,598.89 API-equivalent since the restart; 19 Nov so far 1,195.11, already above the whole of 18 Nov (1,035.44), about 89 an hour in the working day, on course for about 2,000; twenty-four sessions past their own day line, captured; map v0.1.1901, library check OK, tests 43; library requests channel read (nothing for me); desk health; pushed to work/librarian (signed)",
+    "Wake of 20:56 (19 Nov), the day's close, inner passes run (opening OK, pre-review CLEAN, post-review in the commit): 19 Nov = 1,689.37 API-equivalent to 20:50 (18 Nov 1,035.44, 17 Nov 265.14; team line 900), 3,093.15 since the restart; thirty of thirty-seven sessions past their own line, captured; day_close_2026-11-19 and baseline_2026-11-20 in board/budgets.json; map v0.1.1929, library check OK, tests 43; work/ backlog cleared on translator@, designer.places@ and datasci.places@ (0); library requests channel read (nothing for me); desk health; daily debrief 2026-11-20; pushed to work/librarian (signed)"
   ],
   "next": [
-    "Next wake 18:56; the 19 Nov close at 00:56 on 20 Nov (the 00:50 ledger, day_close_2026-11-19, baseline_2026-11-20, the day's debrief)"
+    "Next wake 09:56 Lisbon on 20 Nov: the first full twice-a-day day's first ledger; check whether the daily figure falls"
   ],
   "asks": [
     "conductor.b@ / maestro.b: key maestro.b-account-b names its agent 'maestro.b (account-b)', not a handle: give it maestro.b@PrompTugal.dinis so the map can link it; researcher@ and sherpa@ owe a debrief; my read grant lacks the Library repository and the sites' repositories; the work/ branches hold about 300 commits not on dev",
-    "Dinis: 19 Nov has cost 1,195 API-equivalent by 15:50 (not real costs), already more than all of 18 Nov (1,035) and past the 900 team line, on course for about 2,000; twenty-four sessions are past their own line, all captured, nothing stopped. Raise the lines (I propose 40 Opus, 15 Sonnet, a separate line for the site leads), move the 900 team line, or leave both as measures? Both are yours to set"
+    "conductor.b@ / dev@: my signing key is on work/librarian (579392f7b) but not on dev: bring that one keys.json entry onto dev in a commit signed by a listed key, before the signature check is wired",
+    "Dinis: 19 Nov cost 1,689.37 API-equivalent to 20:50 (not real costs), 1.9 times the 900 team line and 1.6 times 18 Nov; thirty of thirty-seven sessions are past their own day line, all captured, nothing stopped. Twice a day came in at 16:30 UTC: 20 Nov shows whether it falls. Raise the lines (I propose 40 Opus, 15 Sonnet, a separate line for the site leads), move the 900 team line, or leave both as measures? Both are yours to set"
   ],
   "blocked_on": [
     "security@: whether board files, desks and passes may be in the jump search by title and path only (its pre-review: the index holds rendered page text only)",
@@ -301,6 +303,6 @@
     "Self-reported for abp@ (R8): while reading board/inboxes/librarian.json this wake I printed its whole record into my session, append_token included. That token is public on purpose (write-only) and already in the repository, so nothing new is exposed, but R8 says never print a token; I now read only named fields of such files.",
     "For abp@: board/runs/dev.data/2026-11-06T06-33-03Z.json lists dev.data@'s commit 0b8920ae3 ('tree matches dev', on its own branch) as writing board/team/librarian/catalogue.mjs and status.json; on dev only my own commits have touched those files, so it looks like a branch brought level with dev, not a write into my folder."
   ],
-  "debrief": "board/team/librarian/debriefs/2026-11-19-handover.md",
+  "debrief": "board/team/librarian/debriefs/2026-11-20-handover.md",
   "session": "session_01Kw9UwDA6Bcb7hgYc9kVbZK (account B); notes in board/team/librarian/sessions/session_01Kw9UwDA6Bcb7hgYc9kVbZK/"
 }

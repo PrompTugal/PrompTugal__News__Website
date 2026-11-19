@@ -1,8 +1,8 @@
 ---
 title: "Shelf list: PUB, The publication (part 3 of 19)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T15:59:42Z"
-site_version: "v0.1.1901"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T20:59:38Z"
+site_version: "v0.1.1929"
 source: board/catalogue.json
 ---
 

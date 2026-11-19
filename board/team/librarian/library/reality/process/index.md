@@ -26,13 +26,13 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-1141 cards (1141 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-19T15:59:42Z at site v0.1.1901; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+1144 cards (1144 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-19T20:59:38Z at site v0.1.1929; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `GDN.CONC` | 88 |
 | `GDN.IDEA` | 494 |
-| `GDN.MEMO` | 87 |
+| `GDN.MEMO` | 89 |
 | `GDN.Q` | 13 |
 | `GEN.BOARD` | 33 |
 | `GEN.README` | 1 |
@@ -41,17 +41,17 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 | `WRK.DESK` | 22 |
 | `WRK.FIND` | 177 |
 | `WRK.PASS` | 31 |
-| `WRK.PLAN` | 55 |
+| `WRK.PLAN` | 56 |
 | `WRK.STORY` | 4 |
 | `WRK.TASK` | 15 |
 
 Newest five accessions:
 
+- `ACC-20261119-0179` [The shared map: Portugal big, London and the EU small, one piece every site vendors](https://promptugal.news/board/spec-the-shared-map.md) (`WRK.PLAN spec-the-shared-map`)
+- `ACC-20261119-0164` [Twice a day](https://promptugal.news/board/guidance/2026-11-19-twice-a-day.md) (`GDN.MEMO 2026-11-19-twice-a-day`)
+- `ACC-20261119-0163` [Cameras as links, and the map: Portugal big, London and the EU small](https://promptugal.news/board/guidance/2026-11-19-cameras-as-links-and-the-map.md) (`GDN.MEMO 2026-11-19-cameras-as-links-and-the-map`)
 - `ACC-20261119-0109` [The free replays page: YouTube's player on promptugal.news, on a page that is never charged](https://promptugal.news/board/spec-the-free-replays-page.md) (`WRK.PLAN spec-the-free-replays-page`)
 - `ACC-20261119-0108` [Past, today and forecast; what we said and what happened: one way to draw them on every site](https://promptugal.news/board/spec-past-and-forecast.md) (`WRK.PLAN spec-past-and-forecast`)
-- `ACC-20261119-0107` [London's observed temperature: sources we could add later (19 November 2026)](https://promptugal.news/board/briefs/2026-11-19-london-observed-temperature-sources.md) (`WRK.BRIEF 2026-11-19-london-observed-temperature-sources`)
-- `ACC-20261119-0106` [Google Cloud APIs: what exists (19 November 2026)](https://promptugal.news/board/briefs/2026-11-19-google-cloud-apis.md) (`WRK.BRIEF 2026-11-19-google-cloud-apis`)
-- `ACC-20261119-0105` [Brief for writer-10 (newsroom.sgit.ai): the free YouTube page, and how we got there](https://promptugal.news/board/briefs/2026-11-19-for-writer-10-the-free-youtube-page.md) (`WRK.BRIEF 2026-11-19-for-writer-10-the-free-youtube-page`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

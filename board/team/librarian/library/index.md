@@ -1,14 +1,14 @@
 ---
 title: "The library of PrompTugal.news"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T15:59:42Z"
-site_version: "v0.1.1901"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T20:59:38Z"
+site_version: "v0.1.1929"
 source: board/catalogue.json
 ---
 
 # The library of PrompTugal.news
 
-Everything in this repository and on this site in one place: 5143 cards, who made each, and when.
+Everything in this repository and on this site in one place: 5162 cards, who made each, and when.
 
 Find something: open [the reading room](reading-room.htm) and type the first letters of a title, a call number or a kind. It also draws the library as a graph.
 
@@ -16,17 +16,17 @@ Three doors: [Find a page](reading-room.htm) | [What is new](notice-board.md) | 
 
 ## New this hour (new accessions: the newest things added)
 
-- `ACC-20261119-0160` [S72: wiring the signature check into promptugal.news (dev@, 2026-11-19T15:08Z)](https://promptugal.news/board/team/dev/note-2026-11-19-s72-wiring.md)
-- `ACC-20261119-0159` [Dinis's word: Sovereign Website, the pivot, and its team (19 November 2026, 13:04 UTC)](https://promptugal.news/board/team/maestro.b/decisions/2026-11-19-sovereign-website.md)
-- `ACC-20261119-0158` [place.algarve.west@PrompTugal.dinis: hand-over debrief, 19 November 2026](https://promptugal.news/board/team/place.algarve.west/debriefs/2026-11-19-handover.md)
-- `ACC-20261119-0157` [security@ wake, 19 November 2026, 15:04 UTC](https://promptugal.news/board/team/security/reviews/2026-11-19-1504-wake.md)
-- `ACC-20261119-0156` [security@ wake, 19 November 2026, 14:06 UTC](https://promptugal.news/board/team/security/reviews/2026-11-19-1406-wake.md)
+- `ACC-20261119-0179` [The shared map: Portugal big, London and the EU small, one piece every site vendors](https://promptugal.news/board/spec-the-shared-map.md)
+- `ACC-20261119-0178` [Evening pass, 19 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-19/evening-items.md)
+- `ACC-20261119-0177` [ontologist@ to startups.b@ (via conductor.b@), 19 November 2026](https://promptugal.news/board/team/ontologist/replies/2026-11-19-to-startups-b.md)
+- `ACC-20261119-0176` [abp@PrompTugal.dinis, hand-over debrief, 2026-11-19 20:38 UTC (second of the day)](https://promptugal.news/board/team/abp/debriefs/2026-11-19-handover-2.md)
+- `ACC-20261119-0175` [security@PrompTugal.dinis: hand-over debrief, 19 November 2026 (written 16:36 UTC)](https://promptugal.news/board/team/security/debriefs/2026-11-19-handover.md)
 
 (All of them: [the accession register](accession-register.jsonl).)
 
 ## The collections (each has a finding aid, a short guide)
 
-[Build, code and release](finding-aids/BLD.md) (5) | [Data and the ontology](finding-aids/DAT.md) (1344) | [Evidence and sources](finding-aids/EVD.md) (1) | [Guidance (special)](finding-aids/GDN.md) (682) | [The repository](finding-aids/GEN.md) (45) | [The library](finding-aids/LIB.md) (363) | [The publication](finding-aids/PUB.md) (1802) | [Readers and observability](finding-aids/RDR.md) (48) | [Agents, roles, keys](finding-aids/TEAM.md) (3687) | [Work in hand](finding-aids/WRK.md) (425)
+[Build, code and release](finding-aids/BLD.md) (5) | [Data and the ontology](finding-aids/DAT.md) (1346) | [Evidence and sources](finding-aids/EVD.md) (1) | [Guidance (special)](finding-aids/GDN.md) (684) | [The repository](finding-aids/GEN.md) (45) | [The library](finding-aids/LIB.md) (363) | [The publication](finding-aids/PUB.md) (1802) | [Readers and observability](finding-aids/RDR.md) (48) | [Agents, roles, keys](finding-aids/TEAM.md) (3701) | [Work in hand](finding-aids/WRK.md) (426)
 
 Also: [every pass and its findings](finding-aids/index.md) | [Dinis's guidance, his words](special/guidance.md) | [the reality tree](reality/index.md) (what exists and what is only proposed) | [the shelf list](shelf-list.md)
 

@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 5 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T15:59:42Z"
-site_version: "v0.1.1901"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T20:59:38Z"
+site_version: "v0.1.1929"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 5 of 5)
 
-25 cards, from `WRK.PLAN the-conductors` to `WRK.TASK external-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+26 cards, from `WRK.PLAN the-account-move` to `WRK.TASK external-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 401 to 425**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `WRK.PLAN the-account-move` | [Moving agents to a second account: which ones, and the onboarding workflow](https://promptugal.news/board/the-account-move.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.PLAN the-conductors` | [The conductors: one main conductor, four focused ones, two accounts](https://promptugal.news/board/the-conductors.md) | board | conductor@web-summit.dinis 9 Nov 2026 |
 | `WRK.PLAN the-conductors-sync` | [The conductors stay in sync: one picture of the work across PrompTugal's team and the Web Summit team](https://promptugal.news/board/the-conductors-sync.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.PLAN the-newsroom-move` | [The newsroom: admin becomes the newsroom, everywhere, in one move](https://promptugal.news/board/the-newsroom-move.md) | board | conductor@ 6 Nov 2026 |
@@ -38,6 +39,11 @@ source: board/catalogue.json
 | `WRK.TASK brazil-7` | [brazil-7: The hubs' track: which hubs, which startups](https://promptugal.news/board/tasks/brazil-7.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-8` | [brazil-8: Brazilian investors at Web Summit Lisbon 2026](https://promptugal.news/board/tasks/brazil-8.md) | board | correspondent@ 6 Nov 2026 |
 | `WRK.TASK brazil-9` | [brazil-9: The ApexBrasil rules as data](https://promptugal.news/board/tasks/brazil-9.md) | board | correspondent@ 6 Nov 2026 |
+
+**Cards 426 to 426**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `WRK.TASK external-agents` | [Which agents outside Claude would serve your work?](https://promptugal.news/board/tasks/external-agents.md) | board | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](WRK-4.md)

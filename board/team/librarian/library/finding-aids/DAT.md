@@ -1,12 +1,12 @@
 ---
 title: "Finding aid: Data and the ontology"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T15:59:42Z"
-site_version: "v0.1.1901"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T20:59:38Z"
+site_version: "v0.1.1929"
 source: board/catalogue.json
 ---
 
-# Data and the ontology (1344 cards)
+# Data and the ontology (1346 cards)
 
 Data and the ontology: the pages of companies, events, people, organisations, places and topics, and the schemas and ontology that give them their shape. The entity pages are catalogued but are not single nodes in the library graph; a connection to one ends at its collection. Kept by ontologist@.
 
@@ -30,7 +30,7 @@ By call number: one subclass for each kind of entity, then the entity's own shor
 | `DAT.EV` | events | 259 | [Web Summit 2010, Dublin](https://promptugal.news/events/web-summit-dublin-2010/), [Algarve Digital Innovators: the launch in Lagos](https://promptugal.news/events/algarve-digital-innovators-launch-2025/) |
 | `DAT.ORG` | organisations | 505 | [Algarve Evolution](https://promptugal.news/organisations/algarve-evolution/), [A Voz do Algarve](https://promptugal.news/organisations/a-voz-do-algarve/) |
 | `DAT.PE` | people | 295 |  |
-| `DAT.PL` | places | 148 | [London](https://promptugal.news/places/london/), [Azores](https://promptugal.news/places/acores/) |
+| `DAT.PL` | places | 150 | [London](https://promptugal.news/places/london/), [Azores](https://promptugal.news/places/acores/) |
 | `DAT.TOP` | topics | 17 | [Artificial intelligence](https://promptugal.news/topics/ai/), [AI agents](https://promptugal.news/topics/ai-agents/) |
 
 ## Every card

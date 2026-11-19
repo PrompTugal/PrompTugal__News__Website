@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: WRK, Work in hand (part 4 of 5)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T15:59:42Z"
-site_version: "v0.1.1901"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T20:59:38Z"
+site_version: "v0.1.1929"
 source: board/catalogue.json
 ---
 
 # Shelf list: WRK, Work in hand (part 4 of 5)
 
-100 cards, from `WRK.FIND 2026-11-06-the-top-of-the-page-22` to `WRK.PLAN the-account-move`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `WRK.FIND 2026-11-06-the-top-of-the-page-22` to `WRK.PLAN spec-vaults-images-and-before-after`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 301 to 325**
 
@@ -119,6 +119,7 @@ source: board/catalogue.json
 | `WRK.PLAN spec-the-media-pages` | [The look of /media/ and /media/<id>/](https://promptugal.news/board/spec-the-media-pages.md) | board | designer@ 16 Nov 2026 |
 | `WRK.PLAN spec-the-not-everything-note` | [The websummit-only pass: the note on every affected page and list, and the recovery page](https://promptugal.news/board/spec-the-not-everything-note.md) | board | designer@ 11 Nov 2026 |
 | `WRK.PLAN spec-the-reading-credit` | [The reading credit, said plainly: one line on a page, the details on the account page](https://promptugal.news/board/spec-the-reading-credit.md) | board | designer@ 8 Nov 2026 |
+| `WRK.PLAN spec-the-shared-map` | [The shared map: Portugal big, London and the EU small, one piece every site vendors](https://promptugal.news/board/spec-the-shared-map.md) | board | designer@ 19 Nov 2026 |
 | `WRK.PLAN spec-the-sites-bar` | [The sites bar: one bar across every *.promptugal.news site, with a preview of each](https://promptugal.news/board/spec-the-sites-bar.md) | board | designer@ 18 Nov 2026 |
 | `WRK.PLAN spec-the-storm-page-e` | [/storm/charles/ in design E: four polish notes](https://promptugal.news/board/spec-the-storm-page-e.md) | board | designer@ 11 Nov 2026 |
 | `WRK.PLAN spec-the-summit-days` | [The summit's days, round 1: the strip, a past day, a future day; what dev@, the correspondent and the historian build](https://promptugal.news/board/spec-the-summit-days.md) | board | designer@ 6 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `WRK.PLAN spec-translations` | [Translations: every page in the languages we support, never translating the same text twice](https://promptugal.news/board/spec-translations.md) | board | conductor@ 16 Nov 2026 |
 | `WRK.PLAN spec-vault-onboarding` | [Spec: vault onboarding for PrompTugal.news readers (key pool, claim lane, mailbox)](https://promptugal.news/board/spec-vault-onboarding.md) | board | conductor@ 6 Nov 2026 |
 | `WRK.PLAN spec-vaults-images-and-before-after` | [Images out of git: the designer's vault, a page that maps every vault, an image queue (OpenRouter and ChatGPT), and a before and after article for every…](https://promptugal.news/board/spec-vaults-images-and-before-after.md) | board | designer@ 6 Nov 2026 |
-| `WRK.PLAN the-account-move` | [Moving agents to a second account: which ones, and the onboarding workflow](https://promptugal.news/board/the-account-move.md) | board | conductor@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](WRK-3.md) | [Next part](WRK-5.md)
