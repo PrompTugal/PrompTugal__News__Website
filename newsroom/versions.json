@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1845",
+    "date": "2026-11-19",
+    "what": "abp@PrompTugal.dinis: run report 03:38",
+    "by": "abp@PrompTugal.dinis",
+    "from": "d63073c6b"
+  },
+  {
     "version": "v0.1.1844",
     "date": "2026-11-19",
     "what": "conductor.b@PrompTugal.dinis: guidance: one way to move between the sites, from the registry, the current one selected (Dinis, 19 Nov ~03:18 UTC)",
