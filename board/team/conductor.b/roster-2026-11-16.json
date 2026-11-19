@@ -321,6 +321,17 @@
       "trigger": "trig_01P5GzqB8bwZo1vjG92bwXdw",
       "started": "2026-11-18T22:38Z",
       "word": "board/guidance/2026-11-18-newsroom-writer-10.md"
+    },
+    {
+      "agent": "rights@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "side-car: licences, terms, attribution, commercial use and privacy rights across every promptugal.news site",
+      "repo": "PrompTugal/PrompTugal__News__Website",
+      "session": "session_01Kw9UwCRKwdBrsbr7fkawjJ",
+      "cron": "45 * * * *",
+      "trigger": "trig_01TzJJzkMnhbnyPTrtJRsXEC",
+      "started": "2026-11-18T23:39Z",
+      "word": "board/guidance/2026-11-18-rights.md"
     }
   ]
 }

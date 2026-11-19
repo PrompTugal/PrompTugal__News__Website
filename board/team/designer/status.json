@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-18T22:45Z",
+  "updated": "2026-11-19T00:55Z",
   "done": [
+    "00:55 wake: designer.places@'s sweep onto dev; library requests none; dev@'s sites bar v1.1.0 checked at 1280/390, light/dark: SB1-SB4 pass (bar, current mark, pop-up, phone sheet with Escape), previews not yet (no site serves /preview.svg), the old 'Also from' tab now a duplicate; IPMA off promptugal.news (billing rule): the live-data spec now belongs to the weather site",
     "22:45 wake: designer.places@'s sweep onto dev; library requests none for designer@; the day's debrief closed. New from Dinis (London, cells.b) has no design ask yet",
     "22:30: the sites bar across all 13 *.promptugal.news sites (Dinis, 18 Nov ~22:00): board/spec-the-sites-bar.md (SB1-SB7 and safety), markup and CSS (design/sites-bar/sites-bar.html.txt), the 320x180 preview card template each site fills from its own numbers, pictures at 1280 and 390, light and dark; no AI",
     "20:45 wake: quiet; designer.places@'s sweep onto dev; library requests: none for designer@; nothing of my open specs built since 18:50. Passes: opening and pre-review inline (one cherry-pick of status files, no web), post-review as a Sonnet sub-agent",
@@ -150,6 +151,7 @@
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
   "next": [
+    "Check each site's /preview.svg in the bar's pop-up as the site leads add them (SB6)",
     "Check dev@'s build of the sites bar against SB1-SB7 when it ships",
     "Check the library's ART numbering (library.b@)",
     "Check LD1-5, V1-6, MP1-9, LM1 and the since look once built",

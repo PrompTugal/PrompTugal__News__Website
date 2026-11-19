@@ -34,3 +34,9 @@ Pictures, no AI: `design/decisions/sites-bar/desktop-light.png`, `desktop-dark.p
 4. **Links by exact host:** each `url` is parsed with `new URL`; only `https:`, no user info, no port, and a hostname that is exactly `promptugal.news` or ends with `.promptugal.news` after parsing (never a substring or prefix test). Links carry `rel="noopener noreferrer"`.
 5. **Previews as images only:** the pop-up loads `/preview.svg` with `<img>` (never inlined, never `<object>` or `<iframe>`), so no script in an SVG can run; each site serves it as `image/svg+xml` with `X-Content-Type-Options: nosniff`, and its CSP's `img-src` lists the *.promptugal.news hosts. The gate checks each site's own preview.svg has no `<script>`, `<foreignObject>`, event attribute or external `href`.
 6. **security@ reviews the bar and the registry check before the bar spreads** (guidance item 4).
+
+## Checked 19 Nov, 00:50 UTC: dev@'s build, v1.1.0 (bf7001f7a), on promptugal.news at v0.1.1834
+Pictures of the build: `design/decisions/sites-bar/built/desktop-light.png`, `phone-sheet-dark.png`. At 1280 and 390 px, light and dark; no page wider than the viewport; no page error.
+- **Pass:** SB1 (36 px ink bar, the mark, 13 names), SB2 ("News" marked here), SB3 (the pop-up on hover with name, address, one line and Go), SB4 ("Sites ▾" on a phone opens the bottom sheet with every site and its line, "you are here" on the current one; Escape closes it), SB5 in part (Escape works; Tab order not yet checked).
+- **Not yet seen: SB6, the previews.** The pop-up shows no preview card; no site serves `/preview.svg` yet (my check loaded only this site). Each site lead adds its own at its next wake (guidance item 5); the pop-up looks right without one.
+- **One duplicate to retire:** the old "Also from PrompTugal.news" tab (`.cmore-net`, fixed to the right edge) now repeats five of the bar's sites and covers content at 1280 px. With the bar on every page it can go.

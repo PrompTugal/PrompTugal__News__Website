@@ -1,0 +1,227 @@
+{
+  "stamp": "2026-11-19T00:50Z",
+  "about": "API-equivalent usage per session (get_session cost; not real money spent). Read by a Haiku sub-agent; no transcripts read.",
+  "rows": [
+    {
+      "name": "journalist@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwFKhT1TCw8TU2SWTrR",
+      "cost_usd": 59.54,
+      "status_bucket": "working"
+    },
+    {
+      "name": "dev@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwEA7TFC7iKpVctAi2t",
+      "cost_usd": 74.25,
+      "status_bucket": "review_ready"
+    },
+    {
+      "name": "designer@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwEq1n6W1EdcdvX5uGE",
+      "cost_usd": 94.98,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "security@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwF2TrbbV5BhUjFGupN",
+      "cost_usd": 91.72,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "place.algarve.west@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwB48Tyf66NWE1NBaPm",
+      "cost_usd": 25.18,
+      "status_bucket": "review_ready"
+    },
+    {
+      "name": "place.algarve.central@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwCFSNqiuFPDYCZTsXJ",
+      "cost_usd": 28.48,
+      "status_bucket": "review_ready"
+    },
+    {
+      "name": "place.algarve.east@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwCgQJVtiZNb3HKc1Rt",
+      "cost_usd": 23.01,
+      "status_bucket": "review_ready"
+    },
+    {
+      "name": "place.districts@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwD5cJhhjJEfERLHju6",
+      "cost_usd": 36.22,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "correspondent@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwD8Vhfy61uBa4EkATR",
+      "cost_usd": 18.02,
+      "status_bucket": "working"
+    },
+    {
+      "name": "datasci.places@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwByjKtkJhJ74tTYo5q",
+      "cost_usd": 14.33,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "researcher@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwBzj6Y59uTXa4AiLNG",
+      "cost_usd": 25.05,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "ontologist@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwCqzmCPurcVkEeQXcK",
+      "cost_usd": 38.92,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "dev.places@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwB6BEdDPqoqfv9ZyAU",
+      "cost_usd": 21.72,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "designer.places@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwBYDu2r96UdBWpHX4p",
+      "cost_usd": 22.03,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "translator@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwCg9Rj5tfjTcrSJZxT",
+      "cost_usd": 46.48,
+      "status_bucket": "blocked"
+    },
+    {
+      "name": "outreach@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwF1LeWq2vFcL2ntTSr",
+      "cost_usd": 20.52,
+      "status_bucket": "review_ready"
+    },
+    {
+      "name": "sherpa@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwFbJYpQ44VurDMAQJr",
+      "cost_usd": 15.54,
+      "status_bucket": "blocked"
+    },
+    {
+      "name": "librarian@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwEN53pY1UeTB8yoASM",
+      "cost_usd": 24.69,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "abp@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwC3EfbmHL8QUj8KypP",
+      "cost_usd": 26.02,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "data.b@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwFhY6bP96yMHhpD5N5",
+      "cost_usd": 120.78,
+      "status_bucket": "blocked"
+    },
+    {
+      "name": "weather.b@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwB9LVh52kiZLXo5ytn",
+      "cost_usd": 52.06,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "civic.b@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwFiE2Jj4TWwvPzCQgv",
+      "cost_usd": 51.46,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "startups.b@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwDwd8Doa7xVxJJeuxU",
+      "cost_usd": 49.17,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "travel.b@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwC8NE5V9W3SENTUy9V",
+      "cost_usd": 54.97,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "events.b@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwFXMRMbjVXqFeQTc4G",
+      "cost_usd": 34.27,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "signals.b@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwEffTac7VwEfavnErf",
+      "cost_usd": 28.7,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "library.b@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwFNC1sX4AKoWo4XhEP",
+      "cost_usd": 45.85,
+      "status_bucket": "review_ready"
+    },
+    {
+      "name": "videos.b@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwFJqMq1EbsP5vGN31f",
+      "cost_usd": 47.14,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "telemetry.b@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwFW8GCEutK2aV83rcS",
+      "cost_usd": 8.38,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "live.b@PrompTugal.dinis",
+      "session_id": "session_01Kw9UwDFAY9JT754RfGghLe",
+      "cost_usd": 29.77,
+      "status_bucket": "completed"
+    },
+    {
+      "name": "rights",
+      "session_id": "session_01Kw9UwCRKwdBrsbr7fkawjJ",
+      "cost_usd": 0.72,
+      "status_bucket": "working"
+    },
+    {
+      "name": "cyber.b",
+      "session_id": "session_01Kw9UwDxnKcmYhgso8fqEG5",
+      "cost_usd": 20.82,
+      "status_bucket": "review_ready"
+    },
+    {
+      "name": "bulletins.b",
+      "session_id": "session_01Kw9UwEwArsTwsHK8qeZgW5",
+      "cost_usd": 10.33,
+      "status_bucket": "blocked"
+    },
+    {
+      "name": "cells.b",
+      "session_id": "session_01Kw9UwBQPcS9Ty9XiywtEX7",
+      "cost_usd": 5.86,
+      "status_bucket": "blocked"
+    },
+    {
+      "name": "writer-10",
+      "session_id": "session_01Kw9UwBsABC8j7mNaZRUJuQ",
+      "cost_usd": 6.33,
+      "status_bucket": "blocked"
+    },
+    {
+      "name": "conductor.b",
+      "session_id": "session_01Kw9UwFbo4iCoohkgnZar9k",
+      "cost_usd": 302.67,
+      "status_bucket": "working"
+    }
+  ],
+  "restarted_sessions_total_usd": 727.98,
+  "site_leads_total_usd": 545.32,
+  "conductor_b_usd": 302.67,
+  "previous": "2026-11-18T1851Z.json",
+  "all_total_usd": 1575.97
+}

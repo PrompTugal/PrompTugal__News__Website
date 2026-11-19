@@ -257,6 +257,9 @@ function treeTwin(ctx) {
 // town's IPMA forecast for today, from data/by-place/now/<id>.json (the site's own hourly collector, no model)
 const nowOf = (ctx, id) => { try { return ctx.readJSON(`data/by-place/now/${id}.json`) } catch { return null } }
 function nowRows(ctx) {
+    // off promptugal.news since Dinis's word of 18 Nov 23:45 (board/guidance/2026-11-18-billing-only-on-the-main-site.md):
+    // the map is IPMA's forecast, non-profit use only, and this site bills; it lives on weather.promptugal.news
+    return []
     return places(ctx).filter(t => placesAt(ctx).has(t.id)).map(t => { const n = nowOf(ctx, t.id), d = n && n.forecast && arr(n.forecast.days)[0]; return d ? { t, n, d } : null }).filter(Boolean)
 }
 function nowMapHtml(ctx, region) {
