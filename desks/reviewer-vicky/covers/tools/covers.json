@@ -112,5 +112,19 @@
   ],
   "tfig": "Porto",
   "tts": 62
+ },
+ {
+  "slug": "health-service-pays-remote-physiotherapy",
+  "title": "Remote physiotherapy",
+  "sub": "What Portugal's health service pays",
+  "fig": "€200 for 12 months",
+  "line": "per patient treated, by the official terms",
+  "src": "Figures: Diário da República, Feb 2026",
+  "alt": "A card: what Portugal's health service pays for remote physiotherapy. 200 euros for 12 months per patient treated, from the standard terms in the official gazette, February 2026.",
+  "ttitle": [
+   "Remote",
+   "physio"
+  ],
+  "tfig": "€200"
  }
 ]

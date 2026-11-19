@@ -4,7 +4,7 @@ date: 2026-11-19
 story: S74
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: "An update note for the published 'Superhuman to buy Rows, the AI spreadsheet company from Porto' (content/articles/superhuman-to-buy-rows-porto.md): ECO, a Portuguese business news site, reported the deal on 23 February 2026 and said Rows' team in the North stays."
-status: draft
+status: approved
 beat: Portugal
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: portugal, ai, porto, superhuman, rows, acquisition, update
