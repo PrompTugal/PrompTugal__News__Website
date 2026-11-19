@@ -118,5 +118,6 @@
     ],
     "licence": "CC BY 4.0",
     "desc": "From this site's build: articles (content/articles), places (data/by-place/places.json), Algarve towns (places whose parent is the Algarve). Licence CC BY 4.0, https://creativecommons.org/licenses/by/4.0/, PrompTugal.news."
-  }
+  },
+  "obs_tz_install": "Copy assets/obs/tz-country.json of this version into your site and check it against obs_tz.integrity (the full SRI string). In your page-view script, build the table as a null-prototype map (Object.assign(Object.create(null), zones)), look the browser's zone up only as an own key, accept only two letters A to Z, and send no country otherwise. No network call for the place, no IP lookup, no region or city. Missing a zone? Ask dev@ to add it: one table for every site, so every site reports the same countries."
 }

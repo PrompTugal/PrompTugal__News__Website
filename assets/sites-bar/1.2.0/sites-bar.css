@@ -1,0 +1,24 @@
+/* The PrompTugal sites bar v1.2.0 (designer@'s design, board/spec-the-sites-bar.md and design/sites-bar/sites-bar.html.txt;
+   built by dev@PrompTugal.dinis). Every variable is the bar's own (--ptsb-*), so it never touches the host site's. */
+.ptsb{--ptsb-bar:#121317;--ptsb-ink:#f6f3ec;--ptsb-mute:#a9aba3;--ptsb-chip:#26272d;--ptsb-pop:#fff;--ptsb-text:#121317;--ptsb-rule:#d8d4cb;--ptsb-muted:#666860;--ptsb-green:#006600}
+[data-theme=dark] .ptsb{--ptsb-bar:#0b0c0f;--ptsb-mute:#8e9088;--ptsb-chip:#22232a;--ptsb-pop:#1c1d22;--ptsb-text:#f6f3ec;--ptsb-rule:#44453f;--ptsb-muted:#b4b6ad;--ptsb-green:#6dbb7e}
+@media (prefers-color-scheme: dark){:root:not([data-theme=light]) .ptsb{--ptsb-bar:#0b0c0f;--ptsb-mute:#8e9088;--ptsb-chip:#22232a;--ptsb-pop:#1c1d22;--ptsb-text:#f6f3ec;--ptsb-rule:#44453f;--ptsb-muted:#b4b6ad;--ptsb-green:#6dbb7e}}
+.ptsb,.ptsb *{box-sizing:border-box}
+.ptsb{background:var(--ptsb-bar);color:var(--ptsb-ink);font:500 12.5px/1 'IBM Plex Sans',Arial,sans-serif;position:relative;z-index:40;margin:0}
+.ptsb-w{max-width:1152px;margin:0 auto;padding:0 16px;display:flex;align-items:center;gap:2px;min-height:36px}
+.ptsb-mark{font:600 13px Newsreader,Georgia,serif;margin-right:10px;white-space:nowrap;color:var(--ptsb-ink)}.ptsb-mark b{color:#e0575d;font-weight:600}.ptsb-mark i{font-style:normal;color:#6dbb7e}
+.ptsb ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:2px}   /* SB11: all at a glance; a second line if the registry grows */
+.ptsb li{margin:0;padding:0}
+.ptsb a,.ptsb a:visited{color:var(--ptsb-mute);text-decoration:none;padding:6px 9px;border-radius:4px;display:block;white-space:nowrap;border:0}
+.ptsb a:hover,.ptsb a:focus-visible{color:var(--ptsb-ink);background:var(--ptsb-chip);outline:2px solid #6dbb7e;outline-offset:-2px}
+.ptsb a:hover{outline:none}
+.ptsb a[aria-current=page]{color:var(--ptsb-ink);box-shadow:inset 0 -2px 0 #6dbb7e}
+.ptsb-pop{position:absolute;top:40px;width:340px;max-width:calc(100vw - 16px);background:var(--ptsb-pop);color:var(--ptsb-text);border:1px solid var(--ptsb-rule);border-radius:8px;box-shadow:0 16px 36px rgba(0,0,0,.18);padding:10px 10px 12px;font:400 13px/1.4 'IBM Plex Sans',Arial,sans-serif}
+.ptsb-pop[hidden]{display:none}
+.ptsb-pop:before{content:"";position:absolute;top:-6px;left:var(--ptsb-arrow,28px);width:10px;height:10px;background:var(--ptsb-pop);border-left:1px solid var(--ptsb-rule);border-top:1px solid var(--ptsb-rule);transform:rotate(45deg)}
+.ptsb-pop img{display:block;width:100%;aspect-ratio:320/180;height:auto;border-radius:6px;background:#f6f3ec}
+.ptsb-pop h4{font:600 17px/1.25 Newsreader,Georgia,serif;margin:10px 4px 2px;color:var(--ptsb-text)}.ptsb-pop p{margin:0 4px;font-size:13px;color:var(--ptsb-muted)}
+.ptsb-pop .go{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:10px 4px 0;font-size:12px;color:var(--ptsb-muted)}
+.ptsb-pop .go a,.ptsb-pop .go a:visited{color:var(--ptsb-text);font-weight:600;font-size:13px;text-decoration:none;padding:0;background:none}
+/* SB10, designer@ (e45f410f5): on a phone one row that scrolls sideways, the current site centred, faded edges */
+@media(max-width:760px){.ptsb-mark{display:none}.ptsb-w{padding:0}.ptsb ul{flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:none;padding:0 12px;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 28px),transparent)}.ptsb ul::-webkit-scrollbar{display:none}.ptsb li{scroll-snap-align:center;flex:none}.ptsb a{padding:9px 11px;font-size:13px;min-height:36px}.ptsb a[aria-current=page]{background:var(--ptsb-chip)}.ptsb-pop{display:none!important}}
