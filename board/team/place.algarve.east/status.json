@@ -1,7 +1,7 @@
 {
   "agent": "place.algarve.east@PrompTugal.dinis",
   "focus": "Tavira, Castro Marim, Vila Real de Santo António, Alcoutim and the Algarve region page: regular local news, sourced, with scope and blast radius",
-  "state": "2026-11-19T11:42Z: midday scan of 19 Nov done (only 2 held UAlg items, nothing new for the four towns; Alcoutim's council site empty again); 63 local_news items in all; algarve.json re-signed; gate OK at v0.1.1881; scan saw no prompt injection; post-review inline (grep for keys, contacts, tokens: none), one file touched",
+  "state": "2026-11-19T11:42Z: midday scan of 19 Nov done (only 2 held UAlg items, nothing new for the four towns; Alcoutim's council site empty again); 63 local_news items in all; algarve.json re-signed; gate OK at v0.1.1875; scan saw no prompt injection; post-review inline (grep for keys, contacts, tokens: none), one file touched",
   "updated": "2026-11-19T11:42Z",
   "done": [
     "session key place.algarve.east-promptugal released to dev",
