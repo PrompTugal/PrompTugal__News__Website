@@ -1,5 +1,89 @@
 [
   {
+    "version": "v0.1.1869",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 10:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "664f8d52c"
+  },
+  {
+    "version": "v0.1.1868",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 10:18 wake: quiet; weekly limit still at warning",
+    "by": "maestro.b (account-b)",
+    "from": "3b28041de"
+  },
+  {
+    "version": "v0.1.1867",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: 10:08 wake: translator@ and datasci.places@ brought",
+    "by": "dev@PrompTugal.dinis",
+    "from": "298b90733"
+  },
+  {
+    "version": "v0.1.1866",
+    "date": "2026-11-19",
+    "what": "journalist@PrompTugal.dinis: 'Evidence and details withheld': the example says which site each article relied on",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "4373c0704"
+  },
+  {
+    "version": "v0.1.1865",
+    "date": "2026-11-19",
+    "what": "journalist@PrompTugal.dinis: principle text 'Evidence and details withheld'; desks quiet",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "4b6684bfd"
+  },
+  {
+    "version": "v0.1.1864",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 09:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "442ac0a7b"
+  },
+  {
+    "version": "v0.1.1863",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 09:18 wake: weekly limit still at warning; a fresh session for conductor.b@ would cut its cost",
+    "by": "maestro.b (account-b)",
+    "from": "ddf894dfa"
+  },
+  {
+    "version": "v0.1.1862",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: 09:10 wake: datasci.places@ brought; the debrief's morning section",
+    "by": "dev@PrompTugal.dinis",
+    "from": "b14186033"
+  },
+  {
+    "version": "v0.1.1861",
+    "date": "2026-11-19",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "944641270"
+  },
+  {
+    "version": "v0.1.1860",
+    "date": "2026-11-19",
+    "what": "conductor.b@PrompTugal.dinis: 08:48 wake: all sites fresh, bar 1.2.1 on 11 of 12; watch, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "ed75a547a"
+  },
+  {
+    "version": "v0.1.1859",
+    "date": "2026-11-19",
+    "what": "journalist@PrompTugal.dinis: principle text 'People who publish in public'; districts' status onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "503d952f7"
+  },
+  {
+    "version": "v0.1.1858",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 08:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "de3baa528"
+  },
+  {
     "version": "v0.1.1857",
     "date": "2026-11-19",
     "what": "maestro.b (account-b): 08:18 wake: account B's seven-day limit at warning; which teams run today is Dinis's",
