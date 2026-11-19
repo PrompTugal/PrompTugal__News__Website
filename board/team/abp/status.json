@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-19T01:45Z",
+  "updated": "2026-11-19T01:55Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -95,14 +95,15 @@
     "19 Nov 00:05 v1.16.0: rights@'s ABP and core rules R12-R15 on Dinis's recorded word (guidance 2026-11-18-rights.md); not hook-enforceable, re-anchored and reviewed (board/abp/reports/2026-11-19-0000.md)",
     "19 Nov 00:50 fifty-third hourly wake: rights@ send_message, the pattern of three agents; ontologist@ seventh brief (board/abp/reports/2026-11-19-0037.md)",
     "19 Nov 01:25 v1.17.0: core rule R16 (signed commits) in every ABP on Dinis's recorded word; abp@ cannot sign (no ssh-keygen), asked of Dinis",
-    "19 Nov 01:45 v1.17.1: R16 carries two controls from signals.b@'s review (no exemption by committer string; check against the parent commit's keys) (board/abp/reports/2026-11-19-0140.md)"
+    "19 Nov 01:45 v1.17.1: R16 carries two controls from signals.b@'s review (no exemption by committer string; check against the parent commit's keys) (board/abp/reports/2026-11-19-0140.md)",
+    "19 Nov 01:55 fifty-fourth hourly wake, v1.17.2: git config --get no longer a false positive; debrief refreshed; openssh-client noted (board/abp/reports/2026-11-19-0137.md)"
   ],
   "next": [
     "Hourly review of run reports at :37 (board/abp/reports/); check the new desks re-key their site keys and sites pass (34 of 36 now)",
     "Daily hand-over debrief"
   ],
   "asks": [
-    "Dinis: signed commits (your 01:10 yes): R16 is in every ABP, but abp@ cannot sign: this container has no ssh-keygen (apt: no installation candidate) and the environment's signer uses the environment's key. Choose: (1) add openssh-client to the environment's setup, (2) dev@ ships a Node gpg.ssh.program that writes SSH signatures from a key kept in the session, or (3) another format. abp@ has not said 'signed commits on' and made no key (board/abp/reports/2026-11-19-0120.md)",
+    "Dinis: you added openssh-client to the environment's setup (19 Nov ~01:20). This abp@ session predates it and still has no ssh-keygen, so it cannot sign. Restart abp@'s session when convenient (the debrief and handover are ready) and the new one makes its SSH signing key and signs",
     "Dinis: how should the ABPs and hooks carry the inner passes (your 15:05 yes)? abp@ proposes a `passes` field in each run report, an 'Inner passes' section in every ABP, and a logged (not blocked) AppSec check on code commits; and sub-agents for outreach@, researcher@ and correspondent@, who cannot run the passes without them (board/abp/reports/2026-11-18-1510.md)",
     "Dinis: a circuit breaker for R8's two patterns (printing the environment; reading a private key or credentials file), or a push notification to you from the hook within minutes, so a repeat of S53 is not found hours late? abp@ recommends the breaker on those two patterns only (board/abp/reports/2026-11-18-1400.md)",
     "Dinis/security@: the S53 guidance says conductor-promptugal 'stays marked superseded', but board/keys.json has it active; one is wrong",
@@ -367,5 +368,5 @@
     }
   ],
   "debrief": "board/team/abp/debriefs/2026-11-08-handover.md",
-  "latest_debrief": "board/team/abp/debriefs/2026-11-18-handover.md"
+  "latest_debrief": "board/team/abp/debriefs/2026-11-19-handover.md"
 }

@@ -153,6 +153,8 @@ function test() {
         [T('rights'), w('board/rights/findings.md'), 'allow', 'rights writes its findings'],
         [T('rights'), w('content/articles/x.md'), 'deny', 'rights writes no article'],
         [T('rights'), { tool_name: 'Agent', tool_input: {} }, 'allow', 'rights runs sub-agents'],
+        [T('security'), bash('git config --global --get gpg.ssh.program'), 'allow', 'reading a global git setting is not changing it (v1.17.2)'],
+        [T('security'), bash('git config --global gpg.ssh.program x'), 'deny', 'writing a global git setting is denied'],
         [T('civic.b'), w('content/articles/x.md'), 'deny', 'a site lead writes this repository outside its folders'],
         [T('civic.b'), w('board/team/civic.b/status.json'), 'allow', 'a site lead writes its own folder here'],
         [T('civic.b'), { tool_name: 'Agent', tool_input: {} }, 'allow', 'a site lead runs sub-agents'],
