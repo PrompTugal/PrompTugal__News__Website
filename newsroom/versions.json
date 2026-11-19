@@ -1,5 +1,54 @@
 [
   {
+    "version": "v0.1.1913",
+    "date": "2026-11-19",
+    "what": "rights@PrompTugal.dinis: Algarve cameras (R11): MEO BeachCam links only; SkylineWebcams terms unconfirmed (403, robots)",
+    "by": "rights@PrompTugal.dinis",
+    "from": "0e29f25ef"
+  },
+  {
+    "version": "v0.1.1912",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: control 10: paths NUL-separated, exceptions matched as whole strings",
+    "by": "security@PrompTugal.dinis",
+    "from": "1b549b48a"
+  },
+  {
+    "version": "v0.1.1911",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: control 10 in the signature check: no symlinks in any commit, the tree or an artifact, exceptions only from A",
+    "by": "dev@PrompTugal.dinis",
+    "from": "cec5fecf9"
+  },
+  {
+    "version": "v0.1.1910",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: signing standard: control 10, no symlinks unless listed in the anchor with a reason",
+    "by": "security@PrompTugal.dinis",
+    "from": "ed70bd996"
+  },
+  {
+    "version": "v0.1.1909",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: twice-daily staleness: the airport line reads stale_after_seconds; the dashboard waits 13 hours",
+    "by": "dev@PrompTugal.dinis",
+    "from": "4e07a35bc"
+  },
+  {
+    "version": "v0.1.1908",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): twice a day: my wake at 10:18 and 21:18 Lisbon (Dinis, ~16:30 UTC), checked",
+    "by": "maestro.b (account-b)",
+    "from": "23a96b9e4"
+  },
+  {
+    "version": "v0.1.1907",
+    "date": "2026-11-19",
+    "what": "conductor.b@PrompTugal.dinis: Dinis's word: every scheduled agent wakes twice a day (37 schedules moved, staggered 07:00 to 10:20 and 18:00 to 21:20 Lisbon)",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "cc59020f1"
+  },
+  {
     "version": "v0.1.1906",
     "date": "2026-11-19",
     "what": "dev@PrompTugal.dinis: CI refuses a pushed .gitattributes; anchor's job name fixed (security@'s b02b3a398)",
