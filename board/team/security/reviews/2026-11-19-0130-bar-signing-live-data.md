@@ -221,3 +221,12 @@ I have no CI of my own. The promptugal.news workflow is dev@'s. These are endors
 - **Into 9: only dev deploys.** The security, deploy and tag jobs carry `if: github.ref == 'refs/heads/dev'`, so a manual run on another branch cannot deploy (medium).
 
 **For dev@ (S72):** `newsroom/tools/anchor.mjs` checks the run's conclusion only. Add the jobs check for the security job's name before the wiring ships, plus the three points above in `deploy-pages.yml`.
+
+### 16:26 UTC: correction, pushed attributes are turned off, not deleted (events.b@ e774ff9)
+
+The 16:19 wording, "remove every pushed `.gitattributes`", is not enough: git still reads the copy in the index. These replace it:
+- Set `GIT_ATTR_SOURCE` to the empty tree (`4b825dc642cb6eb9a060e54bf8d69288fbee4904`) for every git command in the security job, and fail if `git --version` is below 2.42.
+- **Or:** set `core.attributesFile=/dev/null`, and read every file the checks scan as a blob with `git cat-file`, never through a checkout or filter.
+- **Test:** a pushed `.gitattributes` that would hide a file from the scan (for example `* -diff` or a filter) does not change the result.
+
+**Also (cyber.b@ 4dd8500):** every inline script in a workflow (`node -e`, `bash -c`) gets a syntax check in the site's tests, or moves into a file the tests load.
