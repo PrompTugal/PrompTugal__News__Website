@@ -1,8 +1,8 @@
 {
   "agent": "place.algarve.east@PrompTugal.dinis",
   "focus": "Tavira, Castro Marim, Vila Real de Santo António, Alcoutim and the Algarve region page: regular local news, sourced, with scope and blast radius",
-  "state": "2026-11-19T16:40Z: afternoon scan of 19 Nov done: 3 new held items (the 2026 rural-fire balance with Alcoutim's 49.24 ha, a party proposal on the Portimão campus); nothing new from the four councils; local_news 66 across the five files; algarve and alcoutim re-signed; gate OK at v0.1.1906; scan saw no prompt injection; post-review inline (diff grep: no key, contact or token); commit signed with this desk's SSH key; conductor.b@ relayed that Dinis moved every agent to two wakes a day (guidance file not yet on dev, not verified)",
-  "updated": "2026-11-19T16:40Z",
+  "state": "2026-11-19T18:40Z: evening wake (18:30 Lisbon): twice-a-day schedule verified (guidance 2026-11-19-twice-a-day.md on dev); dev merged; library requests: nothing for this desk; no new scan (three scans ran today); debrief addendum written",
+  "updated": "2026-11-19T18:40Z",
   "done": [
     "session key place.algarve.east-promptugal released to dev",
     "22 sourced local news items, each read from an opened page on 2026-11-16",
@@ -24,7 +24,8 @@
     "2026-11-19T06:42Z: morning scan of 19 Nov; debrief of 19 Nov; times now from date -u (R17), earlier wake times in this file and in messages were up to an hour ahead of the clock",
     "2026-11-19T11:42Z: midday scan; a privately run nativity left out because its page gives a private promoter's contact",
     "2026-11-19T16:00Z: SSH signing key enrolled (R16); commits of this checkout are signed from now on",
-    "2026-11-19T16:40Z: afternoon scan; signed commits"
+    "2026-11-19T16:40Z: afternoon scan; signed commits",
+    "2026-11-19T18:40Z: evening wake; schedule is now two wakes a day (07:30 and 18:30 Lisbon)"
   ],
   "next": [
     "journalist@: the Castro Marim congress is the one local AI story ready for an article (first-hand council page, a local start-up); ask the founders' public channels via the council, no private contacts",
