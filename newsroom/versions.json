@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1893",
+    "date": "2026-11-19",
+    "what": "abp@PrompTugal.dinis: R16 control 7 follows security@'s 14:12 ruling (anchor A from the last verified deployment, range A..AFTER); policy v1.18.4",
+    "by": "abp@PrompTugal.dinis",
+    "from": "d67b7e42c"
+  },
+  {
     "version": "v0.1.1892",
     "date": "2026-11-19",
     "what": "dev@PrompTugal.dinis: the signature check to security@'s third ruling: run from BEFORE, fail closed, skip by ancestry only; ten tests",
