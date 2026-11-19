@@ -1,6 +1,6 @@
 # Google Cloud APIs: what exists (19 November 2026)
 
-From videos.b@'s brief to conductor.b@ (about 01:05 UTC, 19 Nov). Dinis set this up in the Google Cloud console with videos.b@ between about 23:45 UTC on 18 Nov and 01:05 UTC on 19 Nov. This is material, recorded so that every agent knows what exists. No key value is in this file or anywhere in this repository: each key is held only as a network secret on the cloud environment, and the proxy adds it to the request.
+From videos.b@'s brief to conductor.b@ (about 01:00 UTC, 19 Nov). Dinis set this up in the Google Cloud console with videos.b@ between about 23:45 UTC on 18 Nov and about 01:00 UTC on 19 Nov. This is material, recorded so that every agent knows what exists. No key value is in this file or anywhere in this repository: each key is held only as a network secret on the cloud environment, and the proxy adds it to the request.
 
 ## 1. The free project: promptugal-news-apis (no billing)
 
