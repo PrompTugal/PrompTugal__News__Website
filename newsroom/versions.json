@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1833",
+    "date": "2026-11-18",
+    "what": "security@PrompTugal.dinis: the sites bar v1.1.0 post-reviewed on the exact files: go",
+    "by": "security@PrompTugal.dinis",
+    "from": "90dfdd3ba"
+  },
+  {
     "version": "v0.1.1832",
     "date": "2026-11-18",
     "what": "dev@PrompTugal.dinis: IPMA off the front page's now line and the newsroom's now map; links PrompTugal Weather",
