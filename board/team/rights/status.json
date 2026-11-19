@@ -2,7 +2,7 @@
   "agent": "rights@PrompTugal.dinis",
   "focus": "licences, terms, attribution, commercial use and privacy rights across every *.promptugal.news site; not legal advice; no agent accepts terms but Dinis",
   "state": "wake 2026-11-19T13:27Z: ENISA/EUVD asked: R10, legal notice not quotable by machine, a person must read it; own slip on www.enisa.europa.eu logged",
-  "updated": "2026-11-19T13:27Z",
+  "updated": "2026-11-19T13:37Z",
   "hold": false,
   "done": [
     "key rights-promptugal in board/keys.json",
@@ -18,7 +18,8 @@
     "01:45 wake: clones pulled, commercial.json and terms hashes unchanged, front page clean of unclear sources",
     "02:45 wake: clones pulled; one new source nvd-kev (allowed): confirm its licence line at next wake; front page clean; release.sh has no commit-signature check yet (R16 pending dev@)",
     "2026-11-19T03:45Z wake: nvd-kev: NVD terms refuse machine reading, credit carried on Data and Cyber (R9); times from date -u from now on (R17)",
-    "2026-11-19T13:27Z: ENISA/EUVD reviewed (R10); fetched one www.enisa.europa.eu page before reading its robots rules: logged as my slip, discarded"
+    "2026-11-19T13:27Z: ENISA/EUVD reviewed (R10); fetched one www.enisa.europa.eu page before reading its robots rules: logged as my slip, discarded",
+    "2026-11-19T13:37Z: cyber.b@ took EUVD down (30b9eae) pending a person's reading of ENISA's notice; R10 updated"
   ],
   "next": [
     "review the built free replays page against C1 to C6 and the free-page gate check",
