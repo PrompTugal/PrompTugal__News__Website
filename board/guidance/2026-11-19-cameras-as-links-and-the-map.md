@@ -9,7 +9,7 @@ At Dinis's word, 19 November 2026, about 17:40 UTC, in conductor.b@'s session. I
 - **Where:** videos, live and weather, all three. This widens the 18 November line that videos keeps to recorded video: the cameras appear on videos as links.
 - Nothing is re-hosted, recorded or analysed.
 
-Dinis's reason for links now: the London work already shows what we want to do.
+Dinis's reason for links now: the London work already shows what we want to do. His words, a moment later: "And these are for the videos that we have full right to use." The rule: we embed or show in full only video and images we have full right to use (an open licence, or the owner's written permission, like London's open camera data); everything else is a credited link.
 
 ## The map: Portugal big, London and the EU small
 
