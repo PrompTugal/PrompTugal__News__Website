@@ -1,0 +1,150 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "translator@PrompTugal.dinis",
+ "run": "2026-11-18T15-03-44Z",
+ "started": "2026-11-18T15:03:44.636Z",
+ "ended": "2026-11-18T15:17:29Z",
+ "line": "",
+ "policy": {
+  "version": "1.14.0",
+  "sha256": "fa8c1f4abe024264"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-18T15:03:44.856Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-18T15:05:03.216Z",
+   "chars": 1505,
+   "sha256": "b549d857f8495635",
+   "head": "<agent-message from=\"a24e6f544ba7590b5\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-18T15:05:09.225Z",
+   "chars": 1882,
+   "sha256": "13b9d55c189f7b8c",
+   "head": "<agent-message from=\"a866c96ec12a94d3f\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-18T15:06:44.377Z",
+   "chars": 539,
+   "sha256": "eb1c773cc6b2aad7",
+   "head": "<agent-message from=\"a447b2f890019e92e\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-18T15:12:06.896Z",
+   "chars": 719,
+   "sha256": "c40ad75dc816e4be",
+   "head": "<agent-message from=\"a48c016886b6266d6\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-18T15:14:38.903Z",
+   "chars": 671,
+   "sha256": "6d8e4888e3f124e4",
+   "head": "<agent-message from=\"add469483f773fa4f\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-18T15:15:15.075Z",
+   "chars": 1080,
+   "sha256": "b0192192ead66e67",
+   "head": "<agent-message from=\"a8a65f01e1ba2bc64\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-18T15:03:44.636Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 50,
+  "by_kind": {
+   "other": 1,
+   "git": 4,
+   "shell": 28,
+   "agent": 12,
+   "web": 1,
+   "git-push": 4
+  }
+ },
+ "policies_executed": {
+  "R5": 4
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 46,
+  "commits": [
+   {
+    "sha": "03a37b18f",
+    "subject": "translator@PrompTugal.dinis: ar, first half of the by-place prose (449 of 898)",
+    "files": 120
+   },
+   {
+    "sha": "7272fbcd9",
+    "subject": "translator@PrompTugal.dinis: 4 new segments in fourteen cultures and four derived",
+    "files": 54
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 4,
+  "denied": [
+   {
+    "t": "2026-11-18T15:04:54.649Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/translator: push to dev only",
+    "target": "git push -q origin work/translator 2>&1 | tail -2; git status -sb | head -1"
+   },
+   {
+    "t": "2026-11-18T15:06:57.567Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/translator: push to dev only",
+    "target": "for c in pt-PT pt-BR es-ES fr-FR de-DE nl-NL it-IT pl-PL hr-HR ro-RO zh-Hans ja-JP ko-KR hi-IN; do node board/team/translator/tools/tm.mjs apply $c /tmp/n4-$c.json; done | tr '\\n' ' '; for p in de-CH:de-DE es-MX:es-ES es-AR:es-ES fr-CA:fr-F"
+   },
+   {
+    "t": "2026-11-18T15:12:15.212Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/translator: push to dev only",
+    "target": "node board/team/translator/tools/tm.mjs apply ar /tmp/ar-a.out.json && git add data/i18n/tm/ar && git commit -q -m \"translator@PrompTugal.dinis: ar, first half of the by-place prose (449 of 898)\n\nAgent: translator@PrompTugal.dinis\nIssue: WS"
+   },
+   {
+    "t": "2026-11-18T15:15:30.371Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "git push work/translator: push to dev only",
+    "target": "python3 -I - <<'EOF'\nimport json\np='board/team/translator/status.json';s=json.load(open(p))\ns['updated']='2026-11-18T16:00Z'\nfor c in list(s['counts']):\n    if c!='it-IT' or True:\n        if isinstance(s['counts'][c],int): s['counts'][c]=89"
+   }
+  ],
+  "blocked": 0,
+  "observed": 4
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 7,
+  "tool_calls": 50,
+  "in_mandate": 46,
+  "out_of_mandate": 4,
+  "attempts": 4,
+  "breaches": 0
+ }
+}

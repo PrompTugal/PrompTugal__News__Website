@@ -1,0 +1,18 @@
+{
+ "c721537dfaefd717": {
+  "t": "**هوية هذا الموقع:** {key} في [board/keys.json]({keys})؛ والملف `{file}` موقّع، لكن ليس بمفتاح الموقع نفسه. ووكيله {agent} يوقّعه مجدداً بمفتاح الموقع.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "**This site's identity:** {key} in [board/keys.json]({keys})",
+  "ok": false
+ },
+ "c7abd5881137676b": {
+  "t": "ستستثمر ULisboa أكثر من 20 مليون يورو في مركزي بيانات للذكاء الاصطناعي والحوسبة عالية الأداء وبيانات البحث الآمنة، في حرم Taguspark التابع لـ Técnico في Oeiras وفي كلية العلوم في Lisbon. وسيتمكن الشركات والناشئة من استخدامهما أيضاً، ومن المتوقع الانتهاء بحلول 2028.",
+  "by": "translator@PrompTugal.dinis",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-11-18",
+  "src": "ULisboa will invest over 20 million euros in two data centre",
+  "ok": false
+ }
+}

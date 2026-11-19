@@ -1,10 +1,12 @@
 #!/usr/bin/env node
-// check-signatures-trusted.mjs: run the signature check as it was at BEFORE, the commit dev pointed to before this
-// push, which was already checked (security@'s control 7, third ruling, 19 Nov 2026). Never the pushed tree's copy, never
-// a tag, never the trusted base's copy except on the one push that adds the check (where BEFORE is the base).
-//   BEFORE=<sha> node newsroom/tools/check-signatures-trusted.mjs [--json]      (CI: github.event.before)
-// It fails closed: BEFORE missing or all zeros (a new branch), BEFORE not an ancestor of HEAD (a force push), or BEFORE
-// without the checker. The range checked is everything since the trusted base up to HEAD (control 8: by ancestry only).
+// check-signatures-trusted.mjs: run the signature check as it was at the anchor A, the newest commit a passing run
+// verified: the head_sha of the latest successful push run of this workflow on dev, read from GitHub's API in CI by
+// newsroom/tools/anchor.mjs (security@'s sixth ruling, 0ba439611; a deployment anyone with write access can fake);
+// never a tag, never the pushed tree's copy, never the trusted base's copy except on the push that adds the check.
+//   ANCHOR=<sha> node newsroom/tools/check-signatures-trusted.mjs [--json]
+// It fails closed: A missing or zero, A not an ancestor of HEAD, or A without the checker. The range checked is every
+// commit since the trusted base up to HEAD, which holds A..HEAD, so a dropped push's commits are covered (control 8:
+// by ancestry only).
 // Limit (security@'s): the workflow file itself comes from the pushed tree; branch protection closes that. dev@PrompTugal.dinis.
 import { execFileSync, spawnSync } from 'node:child_process'
 import fs from 'node:fs'
@@ -12,18 +14,23 @@ import os from 'node:os'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..')
-const git = (...a) => execFileSync('git', a, { cwd: ROOT, stdio: ['ignore', 'pipe', 'ignore'] })
+// control 9's hardening (security@'s fifth ruling, 16402a95c): git ignores replace objects; node runs by its absolute
+// path with NODE_OPTIONS cleared; a checker path that is a symlink in the anchor's tree is refused
+const ENV = { ...process.env, GIT_NO_REPLACE_OBJECTS: '1' }; delete ENV.NODE_OPTIONS
+const git = (...a) => execFileSync('git', a, { cwd: ROOT, env: ENV, stdio: ['ignore', 'pipe', 'ignore'] })
 const fail = m => { console.log('FAIL signatures: ' + m); process.exit(1) }
 const FILES = ['check-signatures.mjs', 'sshsig.mjs', 'signing.json']
-const before = String(process.env.BEFORE || '').trim()
-if (!/^[0-9a-f]{40}$/.test(before) || /^0+$/.test(before)) fail('no BEFORE commit (a new branch, or none given): nothing already checked to run the checker from')
-try { git('cat-file', '-e', `${before}^{commit}`) } catch { fail(`BEFORE ${before.slice(0, 9)} is not in this checkout`) }
-try { git('merge-base', '--is-ancestor', before, 'HEAD') } catch { fail(`BEFORE ${before.slice(0, 9)} is not an ancestor of HEAD (a force push)`) }
-for (const f of FILES) { try { git('cat-file', '-e', `${before}:newsroom/tools/${f}`) } catch { fail(`BEFORE ${before.slice(0, 9)} has no newsroom/tools/${f}: no trusted checker to run`) } }
+const before = String(process.env.ANCHOR || '').trim()
+if (!/^[0-9a-f]{40}$/.test(before) || /^0+$/.test(before)) fail('no anchor (ANCHOR: the last verified deployment\'s commit): nothing already verified to run the checker from')
+try { git('cat-file', '-e', `${before}^{commit}`) } catch { fail(`the anchor ${before.slice(0, 9)} is not in this checkout`) }
+try { git('merge-base', '--is-ancestor', before, 'HEAD') } catch { fail(`the anchor ${before.slice(0, 9)} is not an ancestor of HEAD (a force push)`) }
+for (const f of FILES) { try { git('cat-file', '-e', `${before}:newsroom/tools/${f}`) } catch { fail(`the anchor ${before.slice(0, 9)} has no newsroom/tools/${f}: no trusted checker to run`) } }
+for (const f of FILES) { const mode = git('ls-tree', before, `newsroom/tools/${f}`).toString().split(/\s/)[0]; if (mode !== '100644' && mode !== '100755') fail(`newsroom/tools/${f} in the anchor is not a plain file (mode ${mode || 'none'}): a symlink or other is refused`) }
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'sigtrusted-'))
 for (const f of FILES) fs.writeFileSync(path.join(tmp, f), git('show', `${before}:newsroom/tools/${f}`))
 fs.chmodSync(path.join(tmp, 'sshsig.mjs'), 0o755)
-const r = spawnSync(process.execPath, [path.join(tmp, 'check-signatures.mjs'), ...process.argv.slice(2)], { cwd: ROOT, env: { ...process.env, CHECK_ROOT: ROOT }, stdio: 'inherit' })
+if (!path.isAbsolute(process.execPath)) fail('node is not run by an absolute path')
+const r = spawnSync(process.execPath, [path.join(tmp, 'check-signatures.mjs'), ...process.argv.slice(2)], { cwd: ROOT, env: { ...ENV, CHECK_ROOT: ROOT }, stdio: 'inherit' })
 fs.rmSync(tmp, { recursive: true, force: true })
-if (!process.argv.includes('--json')) console.log(`signatures: checked with the checker of ${before.slice(0, 9)} (BEFORE)`)
+if (!process.argv.includes('--json')) console.log(`signatures: checked with the checker of ${before.slice(0, 9)} (the anchor)`)
 process.exit(r.status ?? 1)
