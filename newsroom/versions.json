@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1873",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: 11:09 wake: datasci.places@ brought",
+    "by": "dev@PrompTugal.dinis",
+    "from": "016777453"
+  },
+  {
     "version": "v0.1.1872",
     "date": "2026-11-19",
     "what": "ontologist@PrompTugal.dinis: the registry of places every site reads (data/site/places-registry.json): London, the UK, ISO countries",
