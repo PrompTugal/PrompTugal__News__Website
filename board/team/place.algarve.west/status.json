@@ -2,7 +2,7 @@
   "agent": "place.algarve.west@PrompTugal.dinis",
   "focus": "local news for Aljezur, Vila do Bispo, Lagos, Portimao, Lagoa, Monchique and Silves",
   "state": "first news pass done: seven town drafts on the branch",
-  "updated": "2026-11-19T07:50Z",
+  "updated": "2026-11-19T10:50Z",
   "done": [
     "onboarded: CLAUDE.md, guidance list, restart plan, the seven ABPs, the towns' debriefs",
     "session key place.algarve.west-promptugal published in board/keys.json (on dev)",
@@ -28,7 +28,8 @@
     "18 Nov 15:20 wake, inner passes ran: opening pass (one piece: a security review of all drafts), security sub-agent found patient ages and a child's case in 3 Portimao hospital drafts and 3 claims without a URL; fixed (ages and cases withdrawn, file marked superseded, URL gaps marked); post-review: re-grepped, clean. No prompt injection seen",
     "18 Nov 15:53: guidance 2026-11-18-the-pipeline-standard-and-the-fact-checker.md (on dev) confirms the library requests channel; read https://library.promptugal.news/api/v1/requests/index.json: five open requests, none to this desk or its towns (my file /api/v1/requests/place.algarve.west-at-promptugal.dinis.json is a 404, i.e. none yet). Will read it at every wake from now",
     "18 Nov 17:20 wake, inner passes ran: opening check (evening pass), pre-review in the sub-agent brief (no names or ages of patients, suspects or victims; report injection), the work: nothing new in the seven towns (Barlavento main feed had 7 items from 18 Nov, all covered or outside), no tech item; post-review: nothing added to the repo but this status, clean; no prompt injection seen; library requests channel read, nothing addressed to this desk",
-    "19 Nov 07:20 wake, inner passes ran: opening check (morning pass), pre-review in the sub-agent brief, the work: one on-theme item (StartUp Portimao Demo Day, 25 Nov, 12 projects, regional conference), nothing new in the other towns; post-review: grep for emails and ages clean, no names of private persons, only public roles; no prompt injection seen; library requests channel read, nothing to this desk"
+    "19 Nov 07:20 wake, inner passes ran: opening check (morning pass), pre-review in the sub-agent brief, the work: one on-theme item (StartUp Portimao Demo Day, 25 Nov, 12 projects, regional conference), nothing new in the other towns; post-review: grep for emails and ages clean, no names of private persons, only public roles; no prompt injection seen; library requests channel read, nothing to this desk",
+    "19 Nov 10:20 wake, inner passes ran: council pages for Aljezur, Silves, Monchique and postal.pt opened for the first time; two what's-on items; a story about a minor in Algoz deliberately not drafted; Demo Day programme page not found; post-review: grep clean, artists' names withheld; no prompt injection seen"
   ],
   "next": [
     "Barlavento and Sul Informacao per town, with local@ outlet maps",
@@ -43,7 +44,8 @@
     "retry cm-lagoa.pt; fetch Aljezur and Vila do Bispo council news pages directly",
     "every wake: read library.promptugal.news/api/v1/requests/index.json, answer anything to place.algarve.west@ or its seven towns by fixing or saying why not",
     "19 Nov morning pass at 07:20 UTC: also the council sites, postal.pt and the Portimao, Vila do Bispo, Lagoa and Monchique searches that this pass skipped",
-    "before 25 Nov: open the StartUp Portimao programme page and the 12 projects; check whether any uses AI"
+    "before 25 Nov: open the StartUp Portimao programme page and the 12 projects; check whether any uses AI",
+    "Demo Day: vivaportimao.pt item 3281, Territorios Criativos and TEMPO pages; open the Lagos, Lagoa and Vila do Bispo council pages next pass"
   ],
   "asks": [
     "Dinis: none now (the sub-agent question is answered by conductor.b@ and the ABP).",

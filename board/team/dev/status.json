@@ -2,8 +2,9 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ restarted on this account (16 Nov, 19:25 UTC, session_01Kw9UwEA7TFC7iKpVctAi2t): the release queue first, then review and bring work/dev.places, work/translator, work/designer.places onto dev; feeds per place and topic; /media/<id>/ pages; dev.places@s brief every-story-has-an-address.",
   "state": "the sites bar v1.1.0 (designer@'s design) live on promptugal.news; waits on security@ before it spreads",
-  "updated": "2026-11-19T10:08Z",
+  "updated": "2026-11-19T11:09Z",
   "done": [
+    "11:09 wake: brought datasci.places@; library none; nothing held back",
     "10:08 wake: brought translator@ and datasci.places@; library none; nothing held back",
     "09:10 wake: brought datasci.places@; library none; the site at v0.1.1861; debrief's morning section",
     "08:17 wake: brought datasci.places@; library none. The build 2 min 16 s to 51 s: 105 of its 136 s were child processes (a CPU profile): by-place ran git log 252 times for the same shared agents (now cached) and every page ran its own git log for its date (now one pass over the history, checked equal on 299 files); the translation memories read once",
@@ -12,8 +13,7 @@
     "07:00: releases stopped since v0.1.1849 (05:43): CI's validate job had timeout-minutes 5 and the gate now takes just over 5 on CI (2 min 36 s here); raised to 12, and BUILD_PROFILE=1 times each feature: by-place 46 s (pages 24, api 21), data-provenance 11 s, viz-newsroom 6 s, the rest under 3; about half the build is rendering and writing 2,400 pages",
     "06:19 wake: brought datasci.places@; library none. The sites bar v1.2.0, the one switcher (Dinis 03:18, designer@'s SB8 to SB12): the phone's sideways row with the current site centred, no sheet, same tab, desktop wraps; the last hard-coded list (cmore-net) gone; pins append-only. For security@'s review before the 12 sites upgrade",
     "05:12 wake: brought datasci.places@ live now; library none. Data in the browser (Dinis 01:13): the Faro and Algarve pages load Faro airport from data.promptugal.news when they open (commercial_use allowed checked, newer than built, values in bounds, read time and stale mark, licence linked); built line as fallback; threat model airport-live.md. Checked in Chromium: built 04:16, live 05:03",
-    "04:17 wake: brought dev.places@ (its signing key), translator@ and datasci.places@; library none for dev@. One way to move between the sites (Dinis 03:18): the 5-site side rail (em-net, assets/top/) and the 5-card sites band on the home page (assets/sources/sources.json) removed; the sites bar's links open in the same tab, and the gate's new-tab rule now treats *.promptugal.news as the site's own family. Left for the bar's next version with designer@'s look: the phone's one sideways row with the current site in view",
-    "03:12 wake: library none for dev@; brought datasci.places@'s two commits (its signing key published). Learnt: a cherry-pick re-signs a worker's commit with the reviewer's key, so its own signature is lost (the check flags it); once signing is enforced, worker branches come onto dev by merge (a merge commit signed by the reviewer, the worker's commits untouched)"
+    "04:17 wake: brought dev.places@ (its signing key), translator@ and datasci.places@; library none for dev@. One way to move between the sites (Dinis 03:18): the 5-site side rail (em-net, assets/top/) and the 5-card sites band on the home page (assets/sources/sources.json) removed; the sites bar's links open in the same tab, and the gate's new-tab rule now treats *.promptugal.news as the site's own family. Left for the bar's next version with designer@'s look: the phone's one sideways row with the current site in view"
   ],
   "next": [
     "once the sites read versions[v].integrity: drop the repeated .js, .css, .render and obs_tz .sha256 keys from the registry (security@'s low note, 2d812d6da)",
