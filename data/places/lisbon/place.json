@@ -27,5 +27,14 @@
   "timezone": "Europe/Lisbon",
   "aliases": [
     "lisboa"
-  ]
+  ],
+  "at": [
+    -9.139,
+    38.722
+  ],
+  "at_source": {
+    "url": "data/by-place/places.json",
+    "read_at": "2026-11-19T20:05Z",
+    "how": "the place's seat as the by-place list gives it (the map's own point)"
+  }
 }

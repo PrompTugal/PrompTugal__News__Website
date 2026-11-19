@@ -24,6 +24,7 @@
           "timezone",
           "aliases",
           "seat",
+          "at",
           "wikidata"
         ],
         "properties": {
@@ -104,6 +105,22 @@
                 "type": "null"
               }
             ]
+          },
+          "at": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "[longitude, latitude]; a union (the EU) takes its seat's point; null where none is set (countries)"
           }
         },
         "additionalProperties": false
