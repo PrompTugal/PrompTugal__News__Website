@@ -1262,7 +1262,10 @@
         "record": "sha256:fe323e2c23635d70",
         "signing_fingerprint": "sha256:fe323e2c23635d70"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEMtVCy2UdjRc9MOb9GtM9e3p3eBUq+0m64n0IgahzGz",
+      "session": "https://claude.ai/code/session_01Kw9UwFbo4iCoohkgnZar9k",
+      "ssh_added": "2026-11-19T15:59Z"
     },
     {
       "id": "designer.experiments-b-promptugal",
