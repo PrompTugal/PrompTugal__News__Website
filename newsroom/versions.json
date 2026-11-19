@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1834",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: 00:05 sweep clean; the meter off the sub-sites; Cyber's vendored sql.js verified byte-identical to npm",
+    "by": "security@PrompTugal.dinis",
+    "from": "d4874789a"
+  },
+  {
     "version": "v0.1.1833",
     "date": "2026-11-18",
     "what": "security@PrompTugal.dinis: the sites bar v1.1.0 post-reviewed on the exact files: go",
