@@ -5,7 +5,7 @@
   "title": "Superhuman to buy Rows, the AI spreadsheet company from Porto",
   "beat": "Portugal",
   "topic": null,
-  "status": "idea",
+  "status": "draft",
   "rests_on": [
     "evidence:v-superhuman-acquires-rows",
     "evidence:v-rows-joining-superhuman"
@@ -16,23 +16,30 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-19-0750.json"
+      "desks/curator/2026-11-19-0750.json",
+      "desks/journalist-vicky/drafts/S73-superhuman-to-buy-rows-porto.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-portugal@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/S73-superhuman-to-buy-rows-porto.md",
   "check": null,
   "reviews": [],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "the fact-check: every fact re-opened at its source",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-19T07:50Z",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-19-0750.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-19",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S73-superhuman-to-buy-rows-porto.md"
     }
   ]
 }
