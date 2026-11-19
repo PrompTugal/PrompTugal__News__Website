@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "european-union",
+  "type": "place",
+  "name": "European Union",
+  "kind": "region",
+  "located_in": null,
+  "seat": "place:brussels",
+  "matches": [],
+  "source": "https://www.wikidata.org/wiki/Q458",
+  "note": "A union of 27 states, not a country: no country code. Shown small on the maps, represented by Brussels, wherever we have EU data.",
+  "wikidata": {
+    "id": "Q458",
+    "read_at": "2026-11-19T17:55Z",
+    "how": "Special:EntityData/Q458 read: European Union, political and economic union of 27 European states"
+  }
+}

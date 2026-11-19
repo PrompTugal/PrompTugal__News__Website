@@ -23,6 +23,7 @@
           "country",
           "timezone",
           "aliases",
+          "seat",
           "wikidata"
         ],
         "properties": {
@@ -93,6 +94,16 @@
               "$ref": "common.schema.json#/$defs/slug"
             },
             "description": "other ids another list uses for the place (lisboa for lisbon)"
+          },
+          "seat": {
+            "anyOf": [
+              {
+                "$ref": "common.schema.json#/$defs/place_ref"
+              },
+              {
+                "type": "null"
+              }
+            ]
           }
         },
         "additionalProperties": false

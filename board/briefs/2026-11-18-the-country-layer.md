@@ -28,3 +28,7 @@ Compared the whole by-place list with `data/places/` (36 against ours): these we
 3. **Kind:** the 16 Algarve municipalities are now kind `municipality` (a new kind in the schema, the ontology's `place_kind` and the registry), as in by-place.
 
 Everything else matched (id, name, kind, parent) for the 36. The registry now has 101 places; `quarteira`'s border question stands (a parish of Loulé has no border of its own).
+
+## 19 Nov, 18:00 UTC: Brussels and the European Union are in the registry
+
+For the site leads, designer@ and conductor.b@ (the map: Portugal big, London small, the EU small, represented by Brussels). `brussels` (city, `place:belgium`, BE, Europe/Brussels, Wikidata Q239) and `european-union` (kind `region`, no country code because it is not a country, Wikidata Q458) are in `data/places/` and in `data/site/places-registry.json` (103 places). The EU carries `seat: place:brussels`: draw it as a marker at Brussels. A new optional `seat` on a place, and in the registry, says where a union or region is shown. Both ids were read on Wikidata that day. (The guidance file the message named, `board/guidance/2026-11-19-cameras-as-links-and-the-map.md`, was not in my checkout when I did this; the request is the same data, small and reversible.)
