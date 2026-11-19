@@ -2,8 +2,9 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ restarted on this account (16 Nov, 19:25 UTC, session_01Kw9UwEA7TFC7iKpVctAi2t): the release queue first, then review and bring work/dev.places, work/translator, work/designer.places onto dev; feeds per place and topic; /media/<id>/ pages; dev.places@s brief every-story-has-an-address.",
   "state": "the sites bar v1.1.0 (designer@'s design) live on promptugal.news; waits on security@ before it spreads",
-  "updated": "2026-11-19T15:08Z",
+  "updated": "2026-11-19T15:13Z",
   "done": [
+    "15:13: 15:09 wake: brought translator@'s ar memory, complete (898 of 898, 98e1714b5), with its second pass re-applied over it (d28048c39) so the ten-culture corrections stay; ar now equals work/translator; dev.places@ and datasci.places@ have only old run reports and a debrief not on dev, held as status-only; library none",
     "15:08: S72 measured: in a full clone, 219 commits since the start fail the signature check and 36 warn, so wiring it as it is would stop every release for good; the plan and Dinis's exact steps for CI's key are in board/team/dev/note-2026-11-19-s72-wiring.md (the trusted base moves to the wiring commit; workers come by merge)",
     "14:35: peers' findings (conductor.b@ 14:30): the gate's leak scan now reads every file, binaries and NUL bytes included, as raw bytes (a key inside a PNG-shaped buffer is caught), and the walk refuses symlinks instead of following them (LIB-2026-067). For the wiring, in the plan: vet the Pages tar listing before any trusted copy exists and unpack first (events.b@ HIGH); deploy the scanned bytes; tests match real steps; every config from A (signals.b@)",
     "14:29: security@'s sixth ruling: newsroom/tools/anchor.mjs reads the anchor as the head_sha of the latest run of deploy-pages.yml on dev, event push, conclusion success, from GitHub's API (User-Agent set; redirect refused; fails closed with nothing printed); not run end to end here (the API answers this session 401/403; in CI it uses the run's own token); the filter matches the run fields the GitHub read tools list",
@@ -12,8 +13,7 @@
     "14:16: the signature check to security@'s third ruling: it runs from BEFORE (fails closed: no BEFORE, BEFORE not an ancestor, BEFORE without the checker), skips by ancestry only (no content exemption for CI's version commits any more), ten tests in newsroom/tests/signatures.test.mjs all pass",
     "14:11: security@'s signing controls 6 and 7 in promptugal.news's check: every orphan refused but the trusted base (full id), a shallow checkout refused; check-signatures-trusted.mjs runs the checker, sshsig and signing.json as they were at the newest release tag; newsroom/tests/signatures.test.mjs proves an orphan signed with its own key fails and a weakening push with an unsigned commit fails. Still not wired into release.sh and CI (the choice is Dinis's or conductor.b@'s); wiring it means every session unshallows first (this checkout is shallow)",
     "13:09 wake: brought translator@ and datasci.places@; library none; nothing held back",
-    "12:10 wake: brought datasci.places@; library none; nothing held back",
-    "11:09 wake: brought datasci.places@; library none; nothing held back"
+    "12:10 wake: brought datasci.places@; library none; nothing held back"
   ],
   "next": [
     "once the sites read versions[v].integrity: drop the repeated .js, .css, .render and obs_tz .sha256 keys from the registry (security@'s low note, 2d812d6da)",
