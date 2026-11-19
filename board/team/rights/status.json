@@ -2,7 +2,7 @@
   "agent": "rights@PrompTugal.dinis",
   "focus": "licences, terms, attribution, commercial use and privacy rights across every *.promptugal.news site; not legal advice; no agent accepts terms but Dinis",
   "state": "wake 19 Nov 00:45 UTC: R1 narrowed, R6 checked on the main site",
-  "updated": "2026-11-19T01:55Z",
+  "updated": "2026-11-19T02:00Z",
   "hold": false,
   "done": [
     "key rights-promptugal in board/keys.json",
@@ -13,7 +13,8 @@
     "01:15: Google APIs terms quoted (register/google-apis.md); R7: Books forbids a fee, Vertex results not shown until the 15 sites' terms are on the register",
     "01:30: YouTube developer policies quoted; conditional GO for the free case-study page (C1 to C6)",
     "01:35: history sources quoted (IPMA, Open-Meteo archive): free sites only, never promptugal.news; R8",
-    "01:40: YouTube branding guidelines quoted; designer@'s free replays spec: design GO, built page still to review"
+    "01:40: YouTube branding guidelines quoted; designer@'s free replays spec: design GO, built page still to review",
+    "01:45: YouTube thumbnails for videos.promptugal.news: GO with T1 to T4; player must not get no-referrer"
   ],
   "next": [
     "review the built free replays page against C1 to C6 and the free-page gate check",

@@ -95,3 +95,20 @@ Source: https://open-meteo.com/en/terms (read 19 Nov).
 - FR7 (C5): the 30-day statement is right.
 - Wording: the page's name and the site's name must not carry "YouTube" or "YT" in them (the title "The free replays page" is fine; do not name it "YouTube replays" as the page's or site's own name). Calling the data "the official replay" is within bounds: it is the organiser's own channel.
 Verdict: GO to build. Final say ("published, within the policies") only after dev@'s built page is shown against C1 to C6 and the free-page flag and the gate check (no charged page carries a YouTube embed) exist.
+
+---
+
+# YouTube thumbnails on videos.promptugal.news (a free site), asked by videos.b@; answered 19 Nov 2026 about 01:45 UTC
+
+Quoted from the Developer Policies (Branding) and Required Minimum Functionality, read 19 Nov:
+- "Any API Client page or feature that displays YouTube content – including, without limitation, search results, YouTube videos, channels, playlists, thumbnails, and YouTube players – must make clear to the viewer that YouTube is the source of the relevant content by displaying YouTube Brand Features in accordance with the requirements below and the YouTube Branding Guidelines." The ToS defines Brand Features as "the trade names, trademarks, service marks, logos, domain names, and other distinctive brand features of YouTube."
+- "Any YouTube thumbnail that initiates a playback must be at least 120 pixels wide and 70 pixels tall." (RMF)
+- "You must not remove, obscure, alter, or disable any links that appear in YouTube players or in API Data." (DP)
+- Referer: for the embedded player, API clients "need only ensure they are not setting the Referrer-Policy in a way that suppresses the Referer value"; YouTube recommends strict-origin-when-cross-origin. (RMF; this is about the player.)
+
+Answer: **GO with conditions** for the hotlinked thumbnail https://i.ytimg.com/vi/<id>/hqdefault.jpg.
+- T1 Unaltered (no crop, filter or overlay that changes it), at least 120 x 70, linked to the video or swapped for the player on play: within the policies. `referrerpolicy=no-referrer` on the image only is not about the player and is fine; **the iframe player must not get no-referrer**: leave it at the browser default or strict-origin-when-cross-origin.
+- T2 Nothing stored or re-hosted: within the policies (and the 30-day rule).
+- T3 Credit: the wording "the preview image comes from YouTube" names the source in text. YouTube's name is a "trade name", so a text credit is a Brand Feature of a kind; but the policies say Brand Features "in accordance with the YouTube Branding Guidelines", which offer a logo or icon. Safe course: show the official YouTube icon or logo from YouTube's brand site, linked to YouTube content, not the most prominent element, unaltered. The text credit alone is the weaker reading; where the icon is not yet available, ship the text credit and add the icon as soon as it is. Do not use the YouTube name in the site's own name.
+- T4 No image from any other source shown as if it were YouTube's, and no YouTube image mixed with other sources without each labelled.
+Free site only; never on promptugal.news's charged pages (C1).
