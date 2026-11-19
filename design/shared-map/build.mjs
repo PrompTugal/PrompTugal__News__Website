@@ -8,7 +8,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { createHash } from 'node:crypto'
 import { createRequire } from 'node:module'
-const VERSION = '1.0.0'
+const VERSION = '1.0.1'
 const O = JSON.parse(readFileSync('assets/portugal/portugal-outline.json', 'utf8')).countries
 const r3 = n => Math.round(n * 1000) / 1000
 const OUTLINE = { pt: O.Portugal.map(p => p.map(r => r.map(([a, b]) => [r3(a), r3(b)]))), es: O.Spain.map(p => p.map(r => r.map(([a, b]) => [r3(a), r3(b)]))) }
@@ -35,7 +35,7 @@ const JS = `/*! ptmap ${VERSION}: the shared map of the PrompTugal.news sites (d
   var V = { lon0: -9.65, lon1: -6.1, lat0: 36.85, lat1: 42.2 }, K = Math.cos(39.5 * Math.PI / 180), W = 300
   var SC = W / ((V.lon1 - V.lon0) * K), H = Math.round((V.lat1 - V.lat0) * SC)
   function X (lo) { return (lo - V.lon0) * K * SC } function Y (la) { return (V.lat1 - la) * SC }
-  function el (n, a) { var e = document.createElementNS(NS, n); for (var k in a) e.setAttribute(k, String(a[k])); return e }
+  function el (n, a) { var e = document.createElementNS(NS, n); Object.keys(a).forEach(function (k) { e.setAttribute(k, String(a[k])) }); return e } // own keys only: a polluted Object.prototype adds nothing (1.0.1, security@'s low 1)
   function okHref (h) { try { var u = new URL(h, location.href); return u.protocol === 'https:' && !u.username && !u.password && !u.port && (u.hostname === 'promptugal.news' || /\\.promptugal\\.news$/.test(u.hostname)) ? u.href : null } catch (e) { return null } }
   function str (s, n) { return String(s == null ? '' : s).slice(0, n || 80) }
   function link (child, href, title) { var h = okHref(href); if (!h) return child; var a = el('a', { href: h }); var t = el('title', {}); t.textContent = str(title); a.appendChild(t); a.appendChild(child); return a }
