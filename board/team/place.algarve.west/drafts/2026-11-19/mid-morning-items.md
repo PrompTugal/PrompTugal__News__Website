@@ -22,3 +22,10 @@ The municipal page shows nothing (homepage last updated 27 Oct). No programme, n
 
 ## Gaps
 Lagos, Lagoa and Vila do Bispo council sites not opened this pass. postal.pt's listing page has template errors (some entries link to the same Loule court article).
+
+## Midday additions (19 Nov, Portimao, Barlavento, none with a technology thread)
+- PS proposes state funding for the Portimao university campus, with completion in 2029: https://www.barlavento.pt/ps-oe2027-campus-portimao-conclusao-2029/ (19 Nov). A party proposal, not a decision: town and region. Not opened in full.
+- The council is studying the opposition's proposals for the 2027 budget: https://www.barlavento.pt/camara-portimao-contributos-oposicao-orcamento-municipal-2027/ (19 Nov), probably the same story as the 16 Nov budget consultation item.
+- Lagoa: a council alert dated 19 Nov, temporary interruption of the water supply (area and times unknown, not opened). A practical notice for residents.
+- Out of area, science, no AI: CCMAR and Shanghai researchers on an RNA essential to zebrafish development, https://www.barlavento.pt (19 Nov), not opened.
+- Nothing new in Lagos (newest news 17 Nov), Vila do Bispo and Aljezur (council sites unreadable, Barlavento searches page 1 only), Monchique, Silves. No injection seen.

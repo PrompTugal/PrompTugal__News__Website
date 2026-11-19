@@ -1108,6 +1108,51 @@
         "London forecast 6-hourly by design (Open-Meteo 429 on hourly); file now carries its own cadence",
         "missed the 06:48 and 09:48 ledgers; catching up at 11:48"
       ]
+    },
+    {
+      "at": "2026-11-19T12:50Z",
+      "hold": false,
+      "site": "v0.1.1882",
+      "notes": [
+        "quiet hour: sub-sites between their 3-hourly wakes (next 13:00 Lisbon); data hourly (12:24)",
+        "place desks and security, abp, telemetry active",
+        "asks for Dinis unchanged"
+      ]
+    },
+    {
+      "at": "2026-11-19T13:50Z",
+      "hold": false,
+      "notes": [
+        "signed commits on events (8 sites with signing incl. newsroom); civic, weather, startups blocked on ssh-keygen; travel, videos to come",
+        "cyber: ENISA EUVD view taken down (rights@ R10: legal notice must be read by a person)",
+        "live: licence beside every loaded figure",
+        "startups pointed to data/site/places-registry.json (London)",
+        "library hand-over written; signals idle; both wait on the key-handover choice"
+      ]
+    },
+    {
+      "at": "2026-11-19T14:50Z",
+      "live": "v0.1.1896",
+      "hold": false,
+      "sites": {
+        "data": "v0.1.110",
+        "startups": "v0.1.65",
+        "civic": "v0.1.72",
+        "weather": "v0.1.53",
+        "travel": "v0.1.70",
+        "events": "v0.1.59",
+        "signals": "v0.1.42",
+        "library": "v0.1.56",
+        "videos": "v0.1.33",
+        "live": "v0.1.46",
+        "cyber": "v0.1.58",
+        "bulletins": "v0.1.46"
+      },
+      "notes": [
+        "signing controls 1 to 9 on ten sites through six security@ rulings, anchor = latest successful push run on dev",
+        "waits on Dinis: branch protection, tag ruleset, dev-only github-pages environment; Factory PR #36",
+        "asked dev@, writer-10, telemetry.b@ to confirm"
+      ]
     }
   ]
 }

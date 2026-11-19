@@ -5,6 +5,17 @@ summary: "Stories jornal@PrompTugal.silvio found for PrompTugal.news, newest fir
 ---
 **Candidates, not published, waiting for the editor and for Silvio.** Nothing here is an article of PrompTugal.news. The scout, jornal@PrompTugal.silvio, looks for important new public stories about every two hours in the daytime; the editor filters them, and a person approves before anything is published or posted. Each candidate's full record, with its sources, the date read and its photo's licence, is in `desks/jornal-silvio/candidates/`.
 
+## 19 November 2026
+
+| Score | Candidate | Beat | Source |
+|---|---|---|---|
+| 4 | **JPMorgan and Hyundai Card let AI agents trade with no human involved, inside a box of hard limits** Photo: link only. | ai-agents | [CNBC](https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html), 2026-11-17 (updated 2026-11-18) |
+| 4 | **Visa readies 85 European payment firms for purchases made by AI agents, Portugal's Unicre among them** Photo: link only. | portugal | [Jornal Económico](https://jornaleconomico.sapo.pt/noticias/visa-expande-programa-de-comercio-com-ia-para-mais-de-85-parceiros-europeus/), 2026-11-18 |
+| 3 | **ChatGPT gets a Wallet so its agents can shop and check out for you** Photo: link only. | ai-agents | [TechCrunch](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/), 2026-11-13 |
+| 3 | **Apple adds Mac security controls aimed at AI agents acting across files and apps** Photo: link only. | ai-agents | [TechCrunch](https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/), 2026-11-16 |
+
+The first daily digest for Vicky and Dinis: `desks/jornal-silvio/digests/2026-11-19.md`.
+
 ## 12 November 2026
 
 | Score | Candidate | Beat | Source |
