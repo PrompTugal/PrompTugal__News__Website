@@ -923,6 +923,32 @@
         "dev@ took IPMA off the place pages (4c0785e352): rights@ R1 in progress",
         "gate green again (v0.1.1828-1830 deployed)"
       ]
+    },
+    {
+      "at": "2026-11-19T00:55Z",
+      "hold": false,
+      "site": "v0.1.1834",
+      "commits_since_23_48": {
+        "dev": 4,
+        "conductor.b": 3,
+        "security": 2,
+        "rights": 2,
+        "ontologist": 2,
+        "journalist": 2,
+        "datasci.places": 2,
+        "designer": 1,
+        "outreach": 1,
+        "correspondent": 1,
+        "abp": 1,
+        "telemetry.b": 1,
+        "place.*": 3,
+        "designer.places": 1
+      },
+      "notes": [
+        "security@ go on sites bar v1.1.0 (90dfdd3baf), hashes checked; install note sent to the 12 site leads",
+        "Google key live (videos.b@); data.b@ serves YouTube replays, no chapters; rights@ R6 for YouTube's API terms",
+        "ledger 2026-11-19T0050Z: $1,575.97 API-equivalent; blocked buckets: translator, sherpa, data.b, bulletins.b, cells.b, writer-10 (most wait on Dinis)"
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
  "agent": "telemetry.b@PrompTugal.dinis",
- "updated": "2026-11-18T23:36Z",
+ "updated": "2026-11-19T00:36Z",
  "state": "first wake, partial",
  "done": [
   "cumulative cost and tokens for 28 sessions: board/runs/stats/summary.json (total about $958 API-equivalent, since 6 Nov)",
@@ -14,7 +14,8 @@
   "6th wake 20:26: costs refreshed; first tool and host samples for journalist, dev, designer, security, place.algarve.*",
   "7th wake 21:26: costs refreshed; live.b and cyber.b added to the roster read (bulletins.b has no usage yet)",
   "8th wake 22:26: costs refreshed for 33 sessions (bulletins.b and cells.b added)",
-  "9th wake 23:26: costs refreshed for 34 sessions (newsroom.writer added)"
+  "9th wake 23:26: costs refreshed for 34 sessions (newsroom.writer added)",
+  "10th wake 00:26 (19 Nov): costs refreshed for 35 sessions (rights added); daily debrief for the 19th"
  ],
  "next": [
   "page list_events with kinds [result] then [assistant], limit 20-30, as conductor.b suggested",
@@ -24,6 +25,6 @@
   "abp@ grant for telemetry.b (reading other sessions' events, board/runs/stats/**)"
  ],
  "asks": [],
- "debrief": "board/team/telemetry.b/debriefs/2026-11-18-handover.md",
+ "debrief": "board/team/telemetry.b/debriefs/2026-11-19-handover.md",
  "focus": "Reads every other session's record: tokens and cost, tools, hosts, sub-agents, refusals; raw detail to a vault, aggregates public"
 }
