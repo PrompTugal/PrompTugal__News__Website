@@ -1,6 +1,6 @@
 {
  "place": "faro",
- "read_at": "2026-11-19T14:16:02Z",
+ "read_at": "2026-11-19T15:16:58Z",
  "by": "board/tools/local-now.mjs (conductor@PrompTugal.dinis)",
  "about": "Now in this place: (for Faro) adsb.lol (ODbL), with its source and the time read. IPMA weather is on weather.promptugal.news, not here. Not a warning service: follow IPMA (https://www.ipma.pt/) and ANEPC.",
  "station": {
@@ -32,39 +32,55 @@
   "icao": "LPFR",
   "name": "Faro airport",
   "within_nm": 40,
-  "at": "2026-11-19T14:16:02Z",
+  "at": "2026-11-19T15:16:58Z",
   "airline": [
    {
-    "callsign": "EXS6DR",
-    "airline": "EXS",
-    "type": "A21N",
-    "alt_ft": 20900,
+    "callsign": "AEA89HM",
+    "airline": "AEA",
+    "type": "B789",
+    "alt_ft": 41000,
     "on_ground": false,
-    "ground_speed_kt": 389
+    "ground_speed_kt": 379.8
    },
    {
-    "callsign": "EXS9PC",
-    "airline": "EXS",
+    "callsign": "AYR1NG",
+    "airline": "AYR",
+    "type": "P28A",
+    "alt_ft": 10025,
+    "on_ground": false,
+    "ground_speed_kt": 149.1
+   },
+   {
+    "callsign": "CXI8QV",
+    "airline": "CXI",
     "type": "B738",
     "alt_ft": 36000,
     "on_ground": false,
-    "ground_speed_kt": 480.7
+    "ground_speed_kt": 514.8
    },
    {
-    "callsign": "RYR139E",
-    "airline": "RYR",
-    "type": "B38M",
-    "alt_ft": 12300,
-    "on_ground": false,
-    "ground_speed_kt": 335.7
-   },
-   {
-    "callsign": "VLG61PC",
-    "airline": "VLG",
+    "callsign": "EIN708",
+    "airline": "EIN",
     "type": "A320",
-    "alt_ft": 30450,
+    "alt_ft": 36950,
     "on_ground": false,
-    "ground_speed_kt": 355.8
+    "ground_speed_kt": 451
+   },
+   {
+    "callsign": "EZY14WU",
+    "airline": "EZY",
+    "type": "A320",
+    "alt_ft": 36000,
+    "on_ground": false,
+    "ground_speed_kt": 460.3
+   },
+   {
+    "callsign": "TOM680",
+    "airline": "TOM",
+    "type": "B38M",
+    "alt_ft": 39000,
+    "on_ground": false,
+    "ground_speed_kt": 429.9
    }
   ],
   "other_aircraft": 0,
@@ -75,62 +91,62 @@
  "reads": {
   "warnings": {
    "url": null,
-   "at": "2026-11-19T14:15:59Z",
+   "at": "2026-11-19T15:16:55Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "observations": {
    "url": null,
-   "at": "2026-11-19T14:15:59Z",
+   "at": "2026-11-19T15:16:55Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1080500": {
    "url": null,
-   "at": "2026-11-19T14:15:59Z",
+   "at": "2026-11-19T15:16:55Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1080800": {
    "url": null,
-   "at": "2026-11-19T14:15:59Z",
+   "at": "2026-11-19T15:16:55Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1081100": {
    "url": null,
-   "at": "2026-11-19T14:15:59Z",
+   "at": "2026-11-19T15:16:55Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1081505": {
    "url": null,
-   "at": "2026-11-19T14:15:59Z",
+   "at": "2026-11-19T15:16:55Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d0": {
    "url": null,
-   "at": "2026-11-19T14:15:59Z",
+   "at": "2026-11-19T15:16:55Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d1": {
    "url": null,
-   "at": "2026-11-19T14:15:59Z",
+   "at": "2026-11-19T15:16:55Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d2": {
    "url": null,
-   "at": "2026-11-19T14:15:59Z",
+   "at": "2026-11-19T15:16:55Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "uv": {
    "url": null,
-   "at": "2026-11-19T14:15:59Z",
+   "at": "2026-11-19T15:16:55Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "sea-forecast-d0": {
    "url": null,
-   "at": "2026-11-19T14:15:59Z",
+   "at": "2026-11-19T15:16:55Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "adsb": {
    "url": "https://api.adsb.lol/v2/point/37.0144/-7.9659/40",
-   "at": "2026-11-19T14:16:02Z",
+   "at": "2026-11-19T15:16:58Z",
    "status": 200
   }
  }

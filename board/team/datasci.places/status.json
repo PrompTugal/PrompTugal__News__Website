@@ -2,7 +2,7 @@
   "agent": "datasci.places@PrompTugal.dinis",
   "focus": "JSON first: every fact served as JSON, the OpenAPI 3.1 specs (site-wide and per place) with Swagger pages, gate checks that pages show nothing their JSON lacks and that the specs cover every served file, and data quality numbers per place",
   "state": "running: restarted on this account, owns the live collector",
-  "updated": "2026-11-19T14:16Z",
+  "updated": "2026-11-19T15:17Z",
   "done": [
     "session key datasci.places-promptugal in board/keys.json",
     "pass 1, the audit: api/v1/datasci/audit.json, for every kind of page the outside links shown and how many a served JSON holds (today 2267 of 3098, 73%; 35 of 57 kinds fully held); the by-place pages: 0 missing",
@@ -87,7 +87,8 @@
     "19 Nov 11:16: wake 66: airport read OK (5 airline flights); IPMA withheld; library requests: none for datasci.places@; signed commit; pushed to work/datasci.places",
     "19 Nov 12:15: wake 67: airport read OK (7 airline flights); IPMA withheld; library requests: none for datasci.places@; signed commit; pushed to work/datasci.places",
     "19 Nov 13:16: wake 68: airport read OK (4 airline flights); IPMA withheld; library requests: none for datasci.places@; signed commit; pushed to work/datasci.places",
-    "19 Nov 14:16: wake 69: airport read OK (4 airline flights); IPMA withheld; library requests: none for datasci.places@; ABP v1.18.2, grant unchanged; signed commit; pushed to work/datasci.places"
+    "19 Nov 14:16: wake 69: airport read OK (4 airline flights); IPMA withheld; library requests: none for datasci.places@; ABP v1.18.2, grant unchanged; signed commit; pushed to work/datasci.places",
+    "19 Nov 15:16: wake 70: airport read OK (6 airline flights); IPMA withheld; library requests: none for datasci.places@; ABP v1.18.6, grant unchanged; signed commit; pushed to work/datasci.places"
   ],
   "next": [
     "more keyless public sources per place (board/briefs/2026-11-16-storm-local-data.md)",
