@@ -4,7 +4,7 @@ date: 2026-11-19
 story: S73
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: Superhuman, the AI productivity company behind Grammarly, said in February 2026 that it agreed to acquire Rows, a spreadsheet company whose team is based in Porto. Both posts are company statements, and neither gives a price or says when the deal closed.
-status: draft
+status: approved
 beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/
 tags: portugal, ai, porto, superhuman, rows, grammarly, acquisition, spreadsheets

@@ -4,7 +4,7 @@ date: 2026-11-19
 story: S72
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: "An update note for the published 'AI physiotherapy in Portugal's health service: what the government says' (content/articles/ai-physiotherapy-portugal-health-service.md): the official gazette's standard terms show the service rests on a convention that any health-sector provider can join."
-status: draft
+status: approved
 beat: Portugal
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: portugal, ai, health, national health service, physiotherapy, regulation, update
