@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1853",
+    "date": "2026-11-19",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "6573ef788"
+  },
+  {
     "version": "v0.1.1852",
     "date": "2026-11-19",
     "what": "dev@PrompTugal.dinis: the registry's per-version bar pins also under .integrity.<file>, so leak scans exempt them (old keys kept)",
