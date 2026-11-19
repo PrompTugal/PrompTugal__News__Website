@@ -6,9 +6,8 @@
 //   read  the first time the tab is hidden or closed: seconds the page was visible and the deepest scroll (percent).
 // Each says: the page, the referring site (host only), the time to the minute, the site version, a random id that
 // ends with the tab, the screen size class, the browser's language and time zone, an automation class if a bot
-// declares itself, and the country, region and city from the browser's own lookup (the PHP newsroom's and
-// newsroom.sgit.ai's way, at Dinis's word of 6 November: obs.json `geo`, ipapi.co then ipwho.is, once per tab, 2.5 s
-// timeout; only those three fields are read, the IP in the answer never is). No IP address, no cookie, no user-agent
+// declares itself, and the country, from the browser's own time zone through a fixed table (no network call; the
+// ipapi.co and ipwho.is lookup was removed at Dinis's word, 19 November 2026, about 03:15 UTC). No IP address, no cookie, no user-agent
 // string, no browser fingerprint. Sealed here to the drain key (sgit hybrid
 // envelope v2: RSA-OAEP-SHA256 + AES-256-GCM) and written to a write-only append lane; on 507 (a lane full) the next.
 // Do Not Track, Global Privacy Control and the footer's Pause switch stop it. Never blocks, never shows an error.
@@ -31,7 +30,7 @@
             if (dnt) { s.append(' · Page views: off (Do Not Track or Global Privacy Control is on). ', a); row.appendChild(s); return }
             const b = document.createElement('button'); b.type = 'button'; b.style.cssText = 'font:inherit;background:none;border:0;padding:0;text-decoration:underline;cursor:pointer;color:inherit'
             const t = document.createTextNode('')
-            const draw = () => { t.textContent = paused() ? ' · Page views: paused on this device. ' : ' · Page views, reading time and your town are counted, publicly. To find the town your browser asks ipapi.co or ipwho.is, which see your IP address; we keep no IP and set no cookie. '; b.textContent = paused() ? 'Resume' : 'Pause' }
+            const draw = () => { t.textContent = paused() ? ' · Page views: paused on this device. ' : ' · Page views, reading time and your country (from your browser\'s time zone, never your IP address) are counted, publicly. No cookie. '; b.textContent = paused() ? 'Resume' : 'Pause' }
             b.onclick = () => { LS.set('off', paused() ? null : '1'); draw() }
             s.append(t, b, ' · ', a); draw(); row.appendChild(s)
         }
@@ -59,26 +58,16 @@
             : /Googlebot/i.test(ua) ? 'googlebot' : /bingbot/i.test(ua) ? 'bingbot' : /bot|crawl|spider|slurp/i.test(ua) ? 'bot' : ''
         const w = window.innerWidth || 1024
         let ref = ''; try { ref = document.referrer ? new URL(document.referrer).host : '' } catch { }
-        // the place, once per tab: country, region and city only (the IP field of the answer is never read)
-        const place = async c => {
-            // no lookup on the pages that take a person's details (security@'s S34, 9 November: /contribute/)
-            if (/\/contribute\//.test(location.pathname)) return { country: '', country_code: '', region: '', city: '' }
-            const had = SS.get('geo'); if (had) { try { return JSON.parse(had) } catch { } }
-            for (const url of (c.geo || [])) {
-                try {
-                    const ac = new AbortController(), t = setTimeout(() => ac.abort(), 2500)
-                    const r = await fetch(url, { signal: ac.signal, credentials: 'omit', referrerPolicy: 'no-referrer' }); clearTimeout(t)
-                    if (!r.ok) continue
-                    const j = await r.json(); if (j.success === false || j.error) continue
-                    const g = { country: String(j.country_name || j.country || '').slice(0, 60), country_code: String(j.country_code || '').slice(0, 2).toUpperCase(),
-                        region: String(j.region || '').slice(0, 60), city: String(j.city || '').slice(0, 60) }
-                    // the city's position for the world map, rounded to 0.1 degree (about 10 km): a town, never a street
-                    const la = +(j.latitude ?? j.lat), lo = +(j.longitude ?? j.lon)
-                    if (isFinite(la) && isFinite(lo) && (la || lo)) { g.lat = Math.round(la * 10) / 10; g.lon = Math.round(lo * 10) / 10 }
-                    SS.set('geo', JSON.stringify(g)); return g
-                } catch { }
-            }
-            const g = { country: '', country_code: '', region: '', city: '' }; SS.set('geo', JSON.stringify(g)); return g
+        // the country only, from the browser's own time zone through a fixed table: no network call, no IP seen by anyone,
+        // no region, city or map position (Dinis, 19 November 2026, about 03:15 UTC: "remove the IP base. So we're going to
+        // keep the country still"; board/guidance/2026-11-19-no-ip-lookup-predictions-and-small-decisions.md). A zone not in
+        // the table sends no country.
+        const TZ = {"Europe/Lisbon":"PT","Atlantic/Madeira":"PT","Atlantic/Azores":"PT","Europe/Madrid":"ES","Atlantic/Canary":"ES","Africa/Ceuta":"ES","Europe/London":"GB","Europe/Dublin":"IE","Europe/Paris":"FR","Europe/Brussels":"BE","Europe/Amsterdam":"NL","Europe/Luxembourg":"LU","Europe/Berlin":"DE","Europe/Zurich":"CH","Europe/Vienna":"AT","Europe/Rome":"IT","Europe/Malta":"MT","Europe/Copenhagen":"DK","Europe/Oslo":"NO","Europe/Stockholm":"SE","Europe/Helsinki":"FI","Atlantic/Reykjavik":"IS","Europe/Warsaw":"PL","Europe/Prague":"CZ","Europe/Bratislava":"SK","Europe/Budapest":"HU","Europe/Ljubljana":"SI","Europe/Zagreb":"HR","Europe/Belgrade":"RS","Europe/Sarajevo":"BA","Europe/Podgorica":"ME","Europe/Skopje":"MK","Europe/Tirane":"AL","Europe/Athens":"GR","Europe/Sofia":"BG","Europe/Bucharest":"RO","Europe/Chisinau":"MD","Europe/Kyiv":"UA","Europe/Kiev":"UA","Europe/Vilnius":"LT","Europe/Riga":"LV","Europe/Tallinn":"EE","Europe/Istanbul":"TR","Asia/Nicosia":"CY","Europe/Monaco":"MC","Europe/Andorra":"AD","Europe/Gibraltar":"GI","Europe/Moscow":"RU","Europe/Minsk":"BY","America/New_York":"US","America/Chicago":"US","America/Denver":"US","America/Los_Angeles":"US","America/Phoenix":"US","America/Anchorage":"US","Pacific/Honolulu":"US","America/Detroit":"US","America/Toronto":"CA","America/Vancouver":"CA","America/Edmonton":"CA","America/Winnipeg":"CA","America/Halifax":"CA","America/St_Johns":"CA","America/Mexico_City":"MX","America/Sao_Paulo":"BR","America/Fortaleza":"BR","America/Recife":"BR","America/Bahia":"BR","America/Manaus":"BR","America/Belem":"BR","America/Argentina/Buenos_Aires":"AR","America/Santiago":"CL","America/Bogota":"CO","America/Lima":"PE","America/Caracas":"VE","America/Montevideo":"UY","America/Asuncion":"PY","America/La_Paz":"BO","America/Guayaquil":"EC","America/Panama":"PA","America/Costa_Rica":"CR","America/Havana":"CU","America/Santo_Domingo":"DO","America/Puerto_Rico":"PR","America/Guatemala":"GT","Africa/Luanda":"AO","Africa/Maputo":"MZ","Atlantic/Cape_Verde":"CV","Africa/Bissau":"GW","Africa/Sao_Tome":"ST","Africa/Lagos":"NG","Africa/Cairo":"EG","Africa/Johannesburg":"ZA","Africa/Nairobi":"KE","Africa/Casablanca":"MA","Africa/Algiers":"DZ","Africa/Tunis":"TN","Africa/Accra":"GH","Africa/Dakar":"SN","Africa/Addis_Ababa":"ET","Africa/Kigali":"RW","Africa/Kampala":"UG","Africa/Dar_es_Salaam":"TZ","Asia/Dubai":"AE","Asia/Riyadh":"SA","Asia/Qatar":"QA","Asia/Jerusalem":"IL","Asia/Tel_Aviv":"IL","Asia/Beirut":"LB","Asia/Amman":"JO","Asia/Tehran":"IR","Asia/Karachi":"PK","Asia/Kolkata":"IN","Asia/Calcutta":"IN","Asia/Dhaka":"BD","Asia/Kathmandu":"NP","Asia/Colombo":"LK","Asia/Bangkok":"TH","Asia/Ho_Chi_Minh":"VN","Asia/Jakarta":"ID","Asia/Kuala_Lumpur":"MY","Asia/Singapore":"SG","Asia/Manila":"PH","Asia/Hong_Kong":"HK","Asia/Macau":"MO","Asia/Shanghai":"CN","Asia/Taipei":"TW","Asia/Seoul":"KR","Asia/Tokyo":"JP","Asia/Almaty":"KZ","Asia/Tbilisi":"GE","Asia/Yerevan":"AM","Asia/Baku":"AZ","Asia/Dili":"TL","Australia/Sydney":"AU","Australia/Melbourne":"AU","Australia/Brisbane":"AU","Australia/Perth":"AU","Australia/Adelaide":"AU","Australia/Darwin":"AU","Australia/Hobart":"AU","Pacific/Auckland":"NZ","Pacific/Fiji":"FJ"}
+        const NAMES = (() => { try { return new Intl.DisplayNames(['en'], { type: 'region' }) } catch { return null } })()
+        const place = async () => {
+            const cc = TZ[(Intl.DateTimeFormat().resolvedOptions().timeZone || '')] || ''
+            let name = ''; try { name = cc && NAMES ? String(NAMES.of(cc) || '') : '' } catch { }
+            return { country: name.slice(0, 60), country_code: cc, region: '', city: '' }
         }
         // a link's tag (Dinis, 6 November: "I just sent a link to somebody ... I would like to see if they open it ... and
         // forward it"): ?via=<tag> (or utm_source / utm_campaign) on the link you send. Kept for the tab, so the pages read
@@ -107,7 +96,7 @@
         const send = async ev => {
             if (paused()) return false
             const c = await cfg(); if (!c.enabled || !c.lanes || !c.lanes.site || !c.lanes.site.length) return false
-            if (!('country' in ev)) Object.assign(ev, await place(c))
+            if (!('country' in ev)) Object.assign(ev, await place())
             const payload = await seal(c.recipient.encrypt, JSON.stringify(ev))
             const L = c.lanes.site, start = Math.floor(Math.random() * L.length)   // a random first lane spreads the load
             for (const token of L.map((_, i) => L[(start + i) % L.length])) {
