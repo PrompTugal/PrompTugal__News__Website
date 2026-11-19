@@ -3,12 +3,13 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-19T02:03Z",
+  "updated": "2026-11-19T02:09Z",
   "state": "onboarded and signing; the ASCII view of every active session, its blockers and its wake is in board/team/maestro.b/view.md (Dinis asked, 19 Nov ~02:02 UTC)",
   "done": [
     "2026-11-19T02:01Z onboarding: read CLAUDE.md, New from Dinis, the maestro guidance, conductor.b@'s status, debrief 2026-11-18 and roster; key maestro.b-account-b made with sgit pki keygen, public bundle and ssh signing key in board/keys.json with this session; git set repo-locally to sign with newsroom/tools/signing-setup.sh",
     "2026-11-19T02:01Z read get_session for conductor.b@, cells.b, writer-10 and telemetry.b@ (status and cost only, no transcripts) and the status.json of rights@, security@, abp@, telemetry.b@",
-    "2026-11-19T02:03Z the account view at Dinis's ask: 39 active sessions, 6 blocked on a person (rights@, security@, sherpa@, bulletins.b@, two of cells.b's conductors), 2 active with no wake (cells.b's two conductors), 34 recurring wakes + 1 one-shot, none on a dead session; 61 dormant sessions, 18 showing stale 'blocked'"
+    "2026-11-19T02:03Z the account view at Dinis's ask: 39 active sessions, 6 blocked on a person (rights@, security@, sherpa@, bulletins.b@, two of cells.b's conductors), 2 active with no wake (cells.b's two conductors), 34 recurring wakes + 1 one-shot, none on a dead session; 61 dormant sessions, 18 showing stale 'blocked'",
+    "2026-11-19T02:09Z the infographic of the account view at Dinis's ask (landscape 1600x900 for a laptop): board/team/maestro.b/view.html, rebuilt each wake with view.md"
   ],
   "next": [
     "02:18 and every hour at :18: pull dev, New from Dinis, each conductor's get_session and status.json, the side-cars' asks; rewrite view.md and a short brief to Dinis; three fuller briefs a day (about 08:18, 14:18, 20:18 UTC)",
