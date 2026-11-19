@@ -19,3 +19,8 @@ Aljezur, Vila do Bispo and Sagres, Lagos (events only), Lagoa, Monchique, Silves
 
 ## Gaps
 cm-aljezur.pt, cm-monchique.pt, cm-silves.pt and postal.pt/algarve not opened. vivaportimao.pt lists no dates. No AI, energy or summit-related local item in the window.
+
+## Update, 19 Nov midday
+- Venue and agenda: Wednesday 25 Nov at TEMPO, Pequeno Auditorio. Opening 14:30, conference 15:00 (speakers from the Portimao council, Infraquinta and ACRAL), coffee 15:45, presentations 16:15, close 17:45, sharing session from 18:00. The article says 14:00 as the start, which does not match its own agenda: use the agenda times only after checking the organiser's page. Free entry by online form.
+- The 12 projects are not named anywhere found. Sectors are listed collectively: tourism, technology and innovation, trade and services, restaurants, health and wellbeing, fashion. No AI mention. Still open: the organiser's registration or announcement page (Territorios Criativos, TEMPO).
+- Barlavento dates were inferred from page layout, so confirm 18 Nov before printing a date.
