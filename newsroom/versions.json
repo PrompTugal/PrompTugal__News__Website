@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1892",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: the signature check to security@'s third ruling: run from BEFORE, fail closed, skip by ancestry only; ten tests",
+    "by": "dev@PrompTugal.dinis",
+    "from": "99cbcaba4"
+  },
+  {
     "version": "v0.1.1891",
     "date": "2026-11-19",
     "what": "dev@PrompTugal.dinis: the signature check meets security@'s controls 6 and 7, with their tests",
