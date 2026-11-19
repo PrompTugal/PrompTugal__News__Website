@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1933",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 22:18 wake: SAW's hosted-site request path built; its first run waits on Dinis",
+    "by": "maestro.b (account-b)",
+    "from": "2b205da4b"
+  },
+  {
     "version": "v0.1.1932",
     "date": "2026-11-19",
     "what": "maestro.b (account-b): 21:18 wake: SAW's Portuguese and designs live; AgentiCCells waits on the agent-name answer",
