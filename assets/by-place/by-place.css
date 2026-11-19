@@ -350,3 +350,8 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 .bp-frame nav.bp-jump a { display: inline-flex; gap: .4rem; align-items: baseline; padding: .3rem .75rem; border: 1px solid color-mix(in srgb, currentColor 30%, transparent); border-radius: 999px; font: 600 .85rem var(--sans); text-decoration: none; color: inherit; }
 .bp-frame nav.bp-jump a span { font: 500 .72rem var(--mono); opacity: .7; }
 .bp-frame nav.bp-jump a:hover { background: color-mix(in srgb, var(--accent) 14%, transparent); }
+
+/* A band with one value only (a town with no airport reading): a slim row, not a tall block (designer.places@, 19 Nov 2026) */
+.bp-frame .bp-nowband ul.bp-now > li:only-child { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem .7rem; padding: 8px 0 12px; font-size: 15px; }
+.bp-frame .bp-nowband ul.bp-now > li:only-child > strong:first-child { display: inline; margin: 0; }
+.bp-frame .bp-nowband:has(ul.bp-now > li:only-child) .mini-h { margin-bottom: 6px; }

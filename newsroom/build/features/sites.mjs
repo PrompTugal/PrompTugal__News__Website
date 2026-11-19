@@ -9,10 +9,11 @@ import { readFileSync } from 'node:fs'
 import { createHash } from 'node:crypto'
 import { ledger } from './payments.mjs'
 export const order = 992
-export const BAR = '1.1.0'
+export const BAR = '1.1.1'
 const ROOT = new URL('../../../', import.meta.url)
 const R = p => readFileSync(new URL(p, ROOT))
-const sha = p => createHash('sha256').update(R(p)).digest('hex')
+// pins in SRI form (sha256-<base64>): what browsers use, and no long hex run for the sites' leak scans (1.1.1)
+const sha = p => 'sha256-' + createHash('sha256').update(R(p)).digest('base64')
 const x = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 const JS = `assets/sites-bar/${BAR}/sites-bar.js`, CSS = `assets/sites-bar/${BAR}/sites-bar.css`, RENDER = `assets/sites-bar/${BAR}/sites-bar-render.mjs`
 const { render } = await import(`../../../${RENDER}`)
@@ -44,9 +45,11 @@ export function api(ctx) {
     const S = reg()
     return [{ path: 'api/v1/sites.json', schema: null, data: {
         about: S.about, version: ctx.VERSION, sites: registry().sites,
-        bar: { version: BAR, js: `https://promptugal.news/${JS}`, css: `https://promptugal.news/${CSS}`, sha256: { js: sha(JS), css: sha(CSS), render: sha(RENDER) }, render: `https://promptugal.news/${RENDER}`, spec: 'https://github.com/promptugal/promptugal__news__website/blob/dev/board/spec-the-sites-bar.md',
+        bar: { version: BAR, js: `https://promptugal.news/${JS}`, css: `https://promptugal.news/${CSS}`, integrity: { js: sha(JS), css: sha(CSS), render: sha(RENDER) }, render: `https://promptugal.news/${RENDER}`, spec: 'https://github.com/promptugal/promptugal__news__website/blob/dev/board/spec-the-sites-bar.md',
             install: S.bar_install },
-        preview_spec: S.preview_spec } }, ...previewFiles(ctx)]
+        preview_spec: S.preview_spec,
+        // the one time-zone-to-country table for every site's page views (Dinis, 19 Nov 03:15: no IP lookup)
+        obs_tz: { file: 'https://promptugal.news/assets/obs/tz-country.json', integrity: sha('assets/obs/tz-country.json'), version: JSON.parse(R('assets/obs/tz-country.json')).version, zones: Object.keys(JSON.parse(R('assets/obs/tz-country.json')).zones).length, install: S.obs_tz_install } } }, ...previewFiles(ctx)]
 }
 
 const TPL = () => R('design/sites-bar/preview-template.svg.txt').toString()
@@ -72,8 +75,11 @@ function previewFiles(ctx) {
 export function validate(gate) {
     let d; try { d = gate.json('api/v1/sites.json') } catch { return ['api/v1/sites.json is missing'] }
     const p = []
-    if (d.bar.sha256.js !== sha(JS) || d.bar.sha256.css !== sha(CSS) || d.bar.sha256.render !== sha(RENDER)) p.push('the sites bar\'s published sha256 does not match its files')
+    if (d.bar.integrity.js !== sha(JS) || d.bar.integrity.css !== sha(CSS) || d.bar.integrity.render !== sha(RENDER)) p.push('the sites bar\'s published integrity does not match its files')
     if (!render(d, { here: 'promptugal.news' })) p.push('sites.json: the bar\'s renderer refuses the registry (an entry fails its checks)')
+    // the page-view script's built-in table is the published one
+    const T = JSON.parse(R('assets/obs/tz-country.json')).zones, js = R('assets/obs/obs.js').toString(), m = js.match(/const TZ = Object\.assign\(Object\.create\(null\), (\{[^}]*\})\)/)
+    if (!m || JSON.stringify(Object.entries(JSON.parse(m[1])).sort()) !== JSON.stringify(Object.entries(T).sort())) p.push('assets/obs/obs.js: its time-zone table is not assets/obs/tz-country.json')
     // our own preview (the spec's Safety 5): no script, no foreignObject, no event attribute, no outside reference
     let svg = ''; try { svg = gate.text('api/v1/preview.svg') } catch { p.push('api/v1/preview.svg is missing') }
     if (/<script|<foreignObject|\son\w+\s*=|(href|src)\s*=\s*["'](?!#)/i.test(svg)) p.push('api/v1/preview.svg has a script, a foreignObject, an event attribute or an outside reference')
