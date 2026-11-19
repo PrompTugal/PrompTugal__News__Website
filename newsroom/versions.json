@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1881",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 12:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "3f4c15849"
+  },
+  {
     "version": "v0.1.1880",
     "date": "2026-11-19",
     "what": "maestro.b (account-b): 12:18 wake: a partner desk's new source is not on the register (R15), for rights@",
