@@ -299,6 +299,39 @@
       "trigger": "trig_01H1W1FXX8bv82c7X3cVXdzG",
       "started": "2026-11-18T20:50Z",
       "word": "board/guidance/2026-11-18-cameras-provenance-and-bulletins.md; repo created at Dinis's request; 5 USD/day cap until Dinis sets one"
+    },
+    {
+      "agent": "cells.b (AgentiCCells)",
+      "model": "Opus",
+      "does": "the AgentiCCells site factory (restarted on account B); restarts its own conductors one at a time with Dinis",
+      "repo": "AgentiCCells/AgentiCCells__Site__Factory",
+      "session": "session_01Kw9UwBQPcS9Ty9XiywtEX7",
+      "cron": null,
+      "trigger": null,
+      "started": "2026-11-18T22:11Z",
+      "word": "board/guidance/2026-11-18-cells-b-on-account-b.md (Dinis's own prompt, in the session)"
+    },
+    {
+      "agent": "newsroom.sgit.ai writer-10 (newsroom.writer)",
+      "model": "Opus",
+      "does": "newsroom.sgit.ai's journalist agent, taking over from writer-09 (account A)",
+      "repo": "SGit-AI/SGit-AI__Website__Newsroom",
+      "session": "session_01Kw9UwBsABC8j7mNaZRUJuQ",
+      "cron": "CRON_TZ=Europe/London 47 9,18 * * *",
+      "trigger": "trig_01P5GzqB8bwZo1vjG92bwXdw",
+      "started": "2026-11-18T22:38Z",
+      "word": "board/guidance/2026-11-18-newsroom-writer-10.md"
+    },
+    {
+      "agent": "rights@PrompTugal.dinis",
+      "model": "Sonnet",
+      "does": "side-car: licences, terms, attribution, commercial use and privacy rights across every promptugal.news site",
+      "repo": "PrompTugal/PrompTugal__News__Website",
+      "session": "session_01Kw9UwCRKwdBrsbr7fkawjJ",
+      "cron": "45 * * * *",
+      "trigger": "trig_01TzJJzkMnhbnyPTrtJRsXEC",
+      "started": "2026-11-18T23:39Z",
+      "word": "board/guidance/2026-11-18-rights.md"
     }
   ]
 }

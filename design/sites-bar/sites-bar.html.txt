@@ -1,0 +1,52 @@
+<!-- the bar, its pop-up and the phone sheet; CSS in the <style>. designer@, 18 Nov 2026 -->
+<style>
+@font-face{font-family:Newsreader;src:url(http://localhost:8765/assets/fonts/newsreader-variable.woff2) format('woff2');font-weight:200 800}
+@font-face{font-family:'IBM Plex Sans';src:url(http://localhost:8765/assets/fonts/plex-sans-variable.woff2) format('woff2');font-weight:100 700}
+@font-face{font-family:'IBM Plex Mono';src:url(http://localhost:8765/assets/fonts/plex-mono-400.woff2) format('woff2')}
+:root{--paper:#f6f3ec;--ink:#121317;--rule:#d8d4cb;--muted:#666860;--green:#006600;--bar:#121317;--bar-ink:#f6f3ec;--bar-mute:#a9aba3;--chip:#26272d;--pop:#fff}
+[data-theme=dark]{--paper:#121317;--ink:#f6f3ec;--rule:#44453f;--muted:#b4b6ad;--green:#6dbb7e;--bar:#0b0c0f;--bar-ink:#f6f3ec;--bar-mute:#8e9088;--chip:#22232a;--pop:#1c1d22}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.5 Newsreader,Georgia,serif}
+/* the bar: 36 px, ink, above every site's own masthead */
+.ptsb{background:var(--bar);color:var(--bar-ink);font:500 12.5px/1 'IBM Plex Sans',Arial,sans-serif;position:relative;z-index:40}
+.ptsb-w{max-width:1152px;margin:0 auto;padding:0 16px;display:flex;align-items:center;gap:2px;height:36px}
+.ptsb-mark{font:600 13px Newsreader,Georgia,serif;margin-right:10px;white-space:nowrap}.ptsb-mark b{color:#e0575d}.ptsb-mark i{font-style:normal;color:#6dbb7e}
+.ptsb ul{list-style:none;margin:0;padding:0;display:flex;gap:2px;overflow:hidden}
+.ptsb a{color:var(--bar-mute);text-decoration:none;padding:6px 9px;border-radius:4px;display:block;white-space:nowrap}
+.ptsb a:hover,.ptsb a:focus-visible{color:var(--bar-ink);background:var(--chip);outline:none}
+.ptsb a[aria-current=page]{color:var(--bar-ink);box-shadow:inset 0 -2px 0 #6dbb7e}
+.ptsb .ptsb-all{margin-left:auto;display:none}
+/* the pop-up: 340 px, under the hovered name, with the site's own preview */
+.ptsb-pop{position:absolute;top:40px;width:340px;background:var(--pop);color:var(--ink);border:1px solid var(--rule);border-radius:8px;box-shadow:0 16px 36px rgba(0,0,0,.18);padding:10px 10px 12px;font-family:'IBM Plex Sans',Arial,sans-serif}
+.ptsb-pop:before{content:"";position:absolute;top:-6px;left:28px;width:10px;height:10px;background:var(--pop);border-left:1px solid var(--rule);border-top:1px solid var(--rule);transform:rotate(45deg)}
+.ptsb-pop svg{display:block;width:100%;height:auto;border-radius:6px}
+.ptsb-pop h4{font:600 17px Newsreader,Georgia,serif;margin:10px 4px 2px}.ptsb-pop p{margin:0 4px;font-size:13px;color:var(--muted)}
+.ptsb-pop .go{display:flex;justify-content:space-between;align-items:center;margin:10px 4px 0;font-size:12px;color:var(--muted)}.ptsb-pop .go a{color:var(--ink);font-weight:600;font-size:13px;text-decoration:none}
+/* a phone: one "Sites" button; the list as a sheet from the bottom */
+.sheet{position:fixed;left:0;right:0;bottom:0;background:var(--pop);color:var(--ink);border-radius:14px 14px 0 0;box-shadow:0 -12px 30px rgba(0,0,0,.25);padding:8px 16px 18px;font-family:'IBM Plex Sans',Arial,sans-serif;max-height:78vh;overflow:auto}
+.sheet .grab{width:40px;height:4px;border-radius:2px;background:var(--rule);margin:2px auto 10px}
+.sheet h3{font:600 12px 'IBM Plex Mono',monospace;letter-spacing:.1em;text-transform:uppercase;margin:0 0 6px;color:var(--muted)}
+.sheet ul{list-style:none;margin:0;padding:0}.sheet li a{display:flex;justify-content:space-between;gap:10px;padding:11px 0;border-bottom:1px solid var(--rule);text-decoration:none;color:var(--ink);min-height:44px;align-items:center}
+.sheet li a b{font:600 16px Newsreader,Georgia,serif}.sheet li a span{font-size:12.5px;color:var(--muted);text-align:right}
+.sheet li a[aria-current=page] b:after{content:" · you are here";font:500 11px 'IBM Plex Mono',monospace;color:var(--green)}
+.scrim{position:fixed;inset:0;background:rgba(0,0,0,.35)}
+@media(max-width:760px){.ptsb ul{display:none}.ptsb .ptsb-all{display:block;color:var(--bar-ink)!important;border:1px solid #3a3b42}}
+/* a stand-in for the host site underneath */
+.host{max-width:1152px;margin:0 auto;padding:22px 16px}.host .wm{font:600 40px Newsreader,Georgia,serif;text-align:center;margin:8px 0 14px}.host .wm b{color:#c52830}.host .wm i{color:var(--green);font-style:normal}
+.host p{color:var(--muted);font:15px 'IBM Plex Sans',Arial,sans-serif;max-width:640px}</style>
+<nav class="ptsb" aria-label="The PrompTugal.news sites"><div class="ptsb-w"><span class="ptsb-mark">Promp<b>T</b><i>ugal</i>.news sites</span>
+<ul><li><a href="https://promptugal.news/" data-site="promptugal.news" aria-haspopup="dialog">News</a></li><li><a href="https://data.promptugal.news/" data-site="data" aria-haspopup="dialog">Data</a></li><li><a href="https://weather.promptugal.news/" data-site="weather" aria-haspopup="dialog">Weather</a></li><li><a href="https://civic.promptugal.news/" data-site="civic" aria-haspopup="dialog">Civic</a></li><li><a href="https://startups.promptugal.news/" data-site="startups" aria-haspopup="dialog">Startups</a></li><li><a href="https://travel.promptugal.news/" data-site="travel" aria-haspopup="dialog">Travel</a></li><li><a href="https://events.promptugal.news/" data-site="events" aria-haspopup="dialog">Events</a></li><li><a href="https://signals.promptugal.news/" data-site="signals" aria-haspopup="dialog">Signals</a></li><li><a href="https://library.promptugal.news/" aria-current="page" data-site="library" aria-haspopup="dialog">Library</a></li><li><a href="https://videos.promptugal.news/" data-site="videos" aria-haspopup="dialog">Videos</a></li><li><a href="https://live.promptugal.news/" data-site="live" aria-haspopup="dialog">Live</a></li><li><a href="https://cyber.promptugal.news/" data-site="cyber" aria-haspopup="dialog">Cyber</a></li><li><a href="https://bulletins.promptugal.news/" data-site="bulletins" aria-haspopup="dialog">Bulletins</a></li></ul>
+<a class="ptsb-all" href="#sites" aria-haspopup="dialog">Sites ▾</a></div></nav>
+<div class="ptsb-pop" role="dialog" aria-label="News" style="left:96px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="PrompTugal.news: Portugal's news, town by town">
+  <rect width="320" height="180" rx="6" fill="#f6f3ec"/>
+  <rect x="0" y="0" width="320" height="4" fill="#006600"/>
+  <text x="16" y="30" font-family="IBM Plex Mono, monospace" font-size="10.5" letter-spacing="1.2" fill="#666860">PROMPTUGAL.NEWS · NOW</text>
+  <text x="16" y="84" font-family="Newsreader, Georgia, serif" font-size="46" fill="#121317">98</text>
+  <text x="16" y="104" font-family="IBM Plex Sans, Arial, sans-serif" font-size="12" fill="#3a3b40">articles, each signed</text>
+  <text x="176" y="72" font-family="Newsreader, Georgia, serif" font-size="26" fill="#121317">36</text>
+  <text x="176" y="88" font-family="IBM Plex Sans, Arial, sans-serif" font-size="11" fill="#3a3b40">places with their own page</text>
+  <text x="176" y="120" font-family="Newsreader, Georgia, serif" font-size="26" fill="#121317">17</text>
+  <text x="176" y="136" font-family="IBM Plex Sans, Arial, sans-serif" font-size="11" fill="#3a3b40">Algarve towns</text>
+  <line x1="16" y1="150" x2="304" y2="150" stroke="#d8d4cb"/>
+  <text x="16" y="168" font-family="IBM Plex Mono, monospace" font-size="10" fill="#666860">read 18 Nov, 22:00 UTC · CC BY 4.0</text>
+</svg><h4>News · promptugal.news</h4><p>Portugal's news, town by town</p><p class="go"><span>updated 18 Nov, 21:40 UTC · v0.1.1830</span><a href="https://promptugal.news/">Go →</a></p></div>
+<div class="scrim"></div><div class="sheet" role="dialog" aria-label="The PrompTugal.news sites"><div class="grab"></div><h3>The PrompTugal.news sites</h3><ul><li><a href="https://promptugal.news/"><b>News</b><span>Portugal's news, town by town</span></a></li><li><a href="https://data.promptugal.news/"><b>Data</b><span>the open data behind every site, with APIs</span></a></li><li><a href="https://weather.promptugal.news/"><b>Weather</b><span>warnings, fire risk, sea, place by place</span></a></li><li><a href="https://civic.promptugal.news/"><b>Civic</b><span>public money and public services, explained</span></a></li><li><a href="https://startups.promptugal.news/"><b>Startups</b><span>startups and their funding, by place</span></a></li><li><a href="https://travel.promptugal.news/"><b>Travel</b><span>flights, transport, strikes, events</span></a></li><li><a href="https://events.promptugal.news/"><b>Events</b><span>what is on, and where we found it</span></a></li><li><a href="https://signals.promptugal.news/"><b>Signals</b><span>weak signals from public sources</span></a></li><li><a href="https://library.promptugal.news/" aria-current="page"><b>Library</b><span>the catalogue at the heart of everything</span></a></li><li><a href="https://videos.promptugal.news/"><b>Videos</b><span>talks and replays, by link</span></a></li><li><a href="https://live.promptugal.news/"><b>Live</b><span>what is happening now</span></a></li><li><a href="https://cyber.promptugal.news/"><b>Cyber</b><span>security news and advisories</span></a></li><li><a href="https://bulletins.promptugal.news/"><b>Bulletins</b><span>the daily bulletins</span></a></li></ul></div>

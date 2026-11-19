@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/place.schema.json",
+  "id": "haringey",
+  "type": "place",
+  "name": "Haringey",
+  "kind": "borough",
+  "located_in": "place:london",
+  "country": "GB",
+  "timezone": "Europe/London",
+  "matches": [],
+  "source": "https://www.wikidata.org/wiki/Q213560",
+  "note": "A borough of Greater London.",
+  "wikidata": {
+    "id": "Q213560",
+    "read_at": "2026-11-18T22:40Z",
+    "how": "Wikidata query (instances of London borough, Q211690), read 18 Nov 2026; label \"London Borough of Haringey\""
+  }
+}

@@ -1,7 +1,7 @@
 {
   "agent": "designer.places@PrompTugal.dinis",
   "focus": "designer.places@: each town's look inside brand v2.0 on /algarve/ and /algarve/<town>/, and the demo for Dinis's meeting with Algarve Evolution (16 November)",
-  "updated": "2026-11-18T19:10Z",
+  "updated": "2026-11-18T23:10Z",
   "state": "working (second session, Sonnet)",
   "done": [
     "session key designer.places-promptugal in board/keys.json",
@@ -50,7 +50,9 @@
     "wake 12:52: sweep of 36 place pages clean on dev v0.1.1798; nothing new for me",
     "wake 14:52: sweep of 36 place pages clean on dev v0.1.1805; nothing new for me",
     "wake 16:52: inner passes (guidance 18 Nov): opening and closing passes run by me in-session; no sub-agents spawned because the wake changed no file but my own status (no code or data diff to review; the post-review is that diff: no secret, no personal data, nothing outside my paths). Library requests channel read: nothing addressed to designer.places@. Sweep of 36 place pages clean on dev v0.1.1814; gate green again",
-    "wake 18:52: inner passes: opening and closing in-session, no sub-agents (the only diff is my status file: no secret, no personal data, inside my paths); library requests read: none for designer.places@; sweep of 36 place pages clean on dev v0.1.1818 (dev@ made 'Now in <town>' refresh live from data.promptugal.news: renders fine)"
+    "wake 18:52: inner passes: opening and closing in-session, no sub-agents (the only diff is my status file: no secret, no personal data, inside my paths); library requests read: none for designer.places@; sweep of 36 place pages clean on dev v0.1.1818 (dev@ made 'Now in <town>' refresh live from data.promptugal.news: renders fine)",
+    "wake 20:52: guidance read (cameras, provenance on every item, bulletins: nothing assigned to me; designer@ already shows the licence mark and source on each value); library requests: none for designer.places@; inner passes in-session, no sub-agents (only my status file changed); sweep of 36 place pages clean on dev v0.1.1823",
+    "wake 22:52: library requests: none for designer.places@; inner passes in-session, no sub-agents (only my status file changed); sweep of 36 place pages clean on dev v0.1.1827 (the sites bar included)"
   ],
   "next": [
     "home strip: the variant chosen by designer@ or Dinis, then build it in assets/front-e with designer@",

@@ -1,8 +1,8 @@
 {
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "conducting 19 + 5 site leads; live v0.1.1798",
-  "updated": "2026-11-18T19:50Z",
+  "state": "00:48 wake: sites bar v1.1.0 install note sent to the 12 sites after security@ go; ledger 2026-11-19T0050Z written ($1,575.97 API-equivalent).",
+  "updated": "2026-11-19T00:55Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -140,7 +140,10 @@
     "03:48 wake with the ledger"
   ],
   "asks": [
-    "Dinis: the Google key (a separate project from the Gmail OAuth one; YouTube Data API v3 first; Fact Check Tools, Knowledge Graph Search, PageSpeed Insights, Web Risk, Books as you choose); tell conductor.b@ and data.b@ asks for it via the secure form.",
+    "Dinis: cyber.b@ relays (23:50 UTC) that you said in its session that every agent should publish its public key in the repo it maintains, sign every commit with it and record its session id; cyber.b@ did it (c8fff24: SSH-signed commits, scripts/check-signatures.mjs in release.sh and CI). Shall I roll it out to every site agent? A relay is not your word: say yes here and I write the guidance and send it.",
+    "Dinis: may promptugal.news (the one site that bills) embed YouTube videos? YouTube's API terms forbid charging to watch an embedded player; rights@ holds YouTube commercial_use 'unclear' until you decide (R6).",
+    "Dinis: the sites bar pins (sha256 of public files) trip the sites' leak scans. events.b@ (https://claude.ai/code/session_01Kw9UwFXMRMbjVXqFeQTc4G) and weather.b@ (https://claude.ai/code/session_01Kw9UwB9LVh52kiZLXo5ytn) wait for your yes on a narrow allowlist; dev@ is asked for one standard (SRI form or a standard allowlist line) so you answer once.",
+    "Dinis: add the Google API key as the GitHub Actions secret GOOGLE_API_KEY on the data repo, so data.b@'s /api/v1/youtube-replays/latest.json refreshes in CI and not only from its session.",
     "Dinis: the cameras site: cams.promptugal.news or live.promptugal.news (create the repo).",
     "Dinis: a Meta app for Threads and Instagram; a Shodan or Censys key: both open.",
     "Dinis: cyber sources that forbid commercial use (CNPD, Shadowserver, Cloudflare Radar, RIPEstat, abuse.ch): ask for a licence, run the cyber site non-commercially, or leave them unread.",
@@ -200,5 +203,6 @@
       "answer": "I will look at this later",
       "relayed_to": "kept open below"
     }
-  ]
+  ],
+  "latest_debrief": "board/team/conductor.b/debriefs/2026-11-18-handover.md"
 }
