@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1934",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 23:18 wake: SAW's five sites up; the launch waits on Dinis's decisions",
+    "by": "maestro.b (account-b)",
+    "from": "6a2665b28"
+  },
+  {
     "version": "v0.1.1933",
     "date": "2026-11-19",
     "what": "maestro.b (account-b): 22:18 wake: SAW's hosted-site request path built; its first run waits on Dinis",
