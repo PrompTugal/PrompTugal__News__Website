@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 12 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T10:00:03Z"
-site_version: "v0.1.1865"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T12:59:14Z"
+site_version: "v0.1.1883"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 12 of 14)
 
-100 cards, from `DAT.PE paul-jenkinson` to `DAT.PL canada`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.PE paul-benigeri` to `DAT.PL camden`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1101 to 1125**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE paul-benigeri` | [Paul Benigeri](https://promptugal.news/people/paul-benigeri/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE paul-jenkinson` | [Paul Jenkinson](https://promptugal.news/people/paul-jenkinson/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE paul-santarelli` | [Paul Santarelli](https://promptugal.news/people/paul-santarelli/) (withdrawn) | person | programme@web-summit.vicky 6 Nov 2026 |
 | `DAT.PE paul-tighe` | [Paul Tighe](https://promptugal.news/people/paul-tighe/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `DAT.PE rocio-wu` | [Rocio Wu](https://promptugal.news/people/rocio-wu/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE rohit-sharma` | [Rohit Sharma](https://promptugal.news/people/rohit-sharma/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE ronnie-sheth` | [Ronnie Sheth](https://promptugal.news/people/ronnie-sheth/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE rory-blundell` | [Rory Blundell](https://promptugal.news/people/rory-blundell/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 1126 to 1150**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE rory-blundell` | [Rory Blundell](https://promptugal.news/people/rory-blundell/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE ryan-lasalle` | [Ryan LaSalle](https://promptugal.news/people/ryan-lasalle/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE rytis-rudzinskas` | [Rytis Rudzinskas](https://promptugal.news/people/rytis-rudzinskas/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE sahil-jain` | [Sahil Jain](https://promptugal.news/people/sahil-jain/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `DAT.PE stephanie-liu` | [Stephanie Liu](https://promptugal.news/people/stephanie-liu/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE steve-clemons` | [Steve Clemons](https://promptugal.news/people/steve-clemons/) (withdrawn) | person | programme@PrompTugal.vicky 10 Nov 2026 |
 | `DAT.PE steve-cortes` | [Steve Cortes](https://promptugal.news/people/steve-cortes/) (withdrawn) | person | programme@web-summit.vicky 6 Nov 2026 |
-| `DAT.PE steve-vassallo` | [Steve Vassallo](https://promptugal.news/people/steve-vassallo/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 1151 to 1175**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE steve-vassallo` | [Steve Vassallo](https://promptugal.news/people/steve-vassallo/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE stewart-clarke` | [Stewart Clarke](https://promptugal.news/people/stewart-clarke/) (withdrawn) | person | programme@PrompTugal.vicky 7 Nov 2026 |
 | `DAT.PE sumit-dhawan` | [Sumit Dhawan](https://promptugal.news/people/sumit-dhawan/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE tao-zhang` | [Tao Zhang](https://promptugal.news/people/tao-zhang/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `DAT.PE xavier-green` | [Xavier Green](https://promptugal.news/people/xavier-green/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE xiaoguang-chen` | [Xiaoguang Chen](https://promptugal.news/people/xiaoguang-chen/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE yannis-roussos` | [Yannis Roussos](https://promptugal.news/people/yannis-roussos/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PE yuli-zhao` | [Yuli Zhao](https://promptugal.news/people/yuli-zhao/) (withdrawn) | person | programme@PrompTugal.vicky 9 Nov 2026 |
 
 **Cards 1176 to 1200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PE yuli-zhao` | [Yuli Zhao](https://promptugal.news/people/yuli-zhao/) (withdrawn) | person | programme@PrompTugal.vicky 9 Nov 2026 |
 | `DAT.PE zach-coelius` | [Zach Coelius](https://promptugal.news/people/zach-coelius/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE zeki-turedi` | [Zeki Turedi](https://promptugal.news/people/zeki-turedi/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL acores` | [Azores](https://promptugal.news/places/acores/) | place | ontologist@ 16 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.PL brent` | [Brent](https://promptugal.news/places/brent/) | place | ontologist@ 18 Nov 2026 |
 | `DAT.PL bromley` | [Bromley](https://promptugal.news/places/bromley/) | place | ontologist@ 18 Nov 2026 |
 | `DAT.PL camden` | [Camden](https://promptugal.news/places/camden/) | place | ontologist@ 18 Nov 2026 |
-| `DAT.PL canada` | [Canada](https://promptugal.news/places/canada/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-11.md) | [Next part](DAT-13.md)

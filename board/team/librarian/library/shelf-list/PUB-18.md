@@ -1,19 +1,21 @@
 ---
-title: "Shelf list: PUB, The publication (part 18 of 18)"
+title: "Shelf list: PUB, The publication (part 18 of 19)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T10:00:03Z"
-site_version: "v0.1.1865"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T12:59:14Z"
+site_version: "v0.1.1883"
 source: board/catalogue.json
 ---
 
-# Shelf list: PUB, The publication (part 18 of 18)
+# Shelf list: PUB, The publication (part 18 of 19)
 
-100 cards, from `PUB.SITE vila-do-bispo:16` to `PUB.SITE zap`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE vila-do-bispo:14` to `PUB.SITE who-we-want-to-hear-from:4`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1701 to 1725**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE vila-do-bispo:14` | [Vila do Bispo: the data](https://promptugal.news/query/vila-do-bispo/) | site |  |
+| `PUB.SITE vila-do-bispo:15` | [PrompTugal.news Vila do Bispo](https://promptugal.news/pl-PL/algarve/vila-do-bispo/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE vila-do-bispo:16` | [PrompTugal.news Vila do Bispo](https://promptugal.news/hr-HR/algarve/vila-do-bispo/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE vila-do-bispo:17` | [PrompTugal.news Vila do Bispo](https://promptugal.news/ro-RO/algarve/vila-do-bispo/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE vila-do-bispo:18` | [PrompTugal.news Vila do Bispo](https://promptugal.news/zh-Hans/algarve/vila-do-bispo/) | site | dev@ 6 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `PUB.SITE vila-real-de-santo-antonio:13` | [PrompTugal.news Vila Real de Santo António](https://promptugal.news/pt-PT/algarve/vila-real-de-santo-antonio/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE vila-real-de-santo-antonio:14` | [Vila Real de Santo António: AI in context](https://promptugal.news/query/decks/vila-real-de-santo-antonio/) | site |  |
 | `PUB.SITE vila-real-de-santo-antonio:15` | [Vila Real de Santo António: the data](https://promptugal.news/query/vila-real-de-santo-antonio/) | site |  |
-| `PUB.SITE vila-real-de-santo-antonio:16` | [PrompTugal.news Vila Real de Santo António](https://promptugal.news/pl-PL/algarve/vila-real-de-santo-antonio/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE vila-real-de-santo-antonio:17` | [PrompTugal.news Vila Real de Santo António](https://promptugal.news/hr-HR/algarve/vila-real-de-santo-antonio/) | site | dev@ 6 Nov 2026 |
 
 **Cards 1726 to 1750**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE vila-real-de-santo-antonio:16` | [PrompTugal.news Vila Real de Santo António](https://promptugal.news/pl-PL/algarve/vila-real-de-santo-antonio/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE vila-real-de-santo-antonio:17` | [PrompTugal.news Vila Real de Santo António](https://promptugal.news/hr-HR/algarve/vila-real-de-santo-antonio/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE vila-real-de-santo-antonio:18` | [PrompTugal.news Vila Real de Santo António](https://promptugal.news/ro-RO/algarve/vila-real-de-santo-antonio/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE vila-real-de-santo-antonio:19` | [PrompTugal.news Vila Real de Santo António](https://promptugal.news/zh-Hans/algarve/vila-real-de-santo-antonio/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE vila-real-de-santo-antonio:2` | [PrompTugal.news Vila Real de Santo António](https://promptugal.news/algarve/vila-real-de-santo-antonio/) | site | dev@ 6 Nov 2026 |
@@ -67,13 +69,13 @@ source: board/catalogue.json
 | `PUB.SITE vila-real:16` | [PrompTugal.news Vila Real](https://promptugal.news/pl-PL/portugal/vila-real/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE vila-real:17` | [PrompTugal.news Vila Real](https://promptugal.news/hr-HR/portugal/vila-real/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE vila-real:18` | [PrompTugal.news Vila Real](https://promptugal.news/ro-RO/portugal/vila-real/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE vila-real:19` | [PrompTugal.news Vila Real](https://promptugal.news/zh-Hans/portugal/vila-real/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE vila-real:2` | [PrompTugal.news Vila Real](https://promptugal.news/de-CH/portugal/vila-real/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
 **Cards 1751 to 1775**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE vila-real:19` | [PrompTugal.news Vila Real](https://promptugal.news/zh-Hans/portugal/vila-real/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE vila-real:2` | [PrompTugal.news Vila Real](https://promptugal.news/de-CH/portugal/vila-real/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE vila-real:20` | [PrompTugal.news Vila Real](https://promptugal.news/ja-JP/portugal/vila-real/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE vila-real:21` | [PrompTugal.news Vila Real](https://promptugal.news/ko-KR/portugal/vila-real/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE vila-real:22` | [PrompTugal.news Vila Real](https://promptugal.news/ar/portugal/vila-real/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `PUB.SITE viseu:15` | [Viseu: the data](https://promptugal.news/query/viseu/) | site |  |
 | `PUB.SITE viseu:16` | [PrompTugal.news Viseu](https://promptugal.news/pl-PL/portugal/viseu/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE viseu:17` | [PrompTugal.news Viseu](https://promptugal.news/hr-HR/portugal/viseu/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE viseu:18` | [PrompTugal.news Viseu](https://promptugal.news/ro-RO/portugal/viseu/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE viseu:19` | [PrompTugal.news Viseu](https://promptugal.news/zh-Hans/portugal/viseu/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
 **Cards 1776 to 1800**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE viseu:18` | [PrompTugal.news Viseu](https://promptugal.news/ro-RO/portugal/viseu/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE viseu:19` | [PrompTugal.news Viseu](https://promptugal.news/zh-Hans/portugal/viseu/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE viseu:2` | [PrompTugal.news Viseu](https://promptugal.news/de-CH/portugal/viseu/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE viseu:20` | [PrompTugal.news Viseu](https://promptugal.news/ja-JP/portugal/viseu/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE viseu:21` | [PrompTugal.news Viseu](https://promptugal.news/ko-KR/portugal/viseu/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE who-we-want-to-hear-from:2` | [De quién quiero saber, y por qué ahora](https://promptugal.news/investors/es/articles/who-we-want-to-hear-from/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE who-we-want-to-hear-from:3` | [De qui je veux avoir des nouvelles, et pourquoi maintenant](https://promptugal.news/investors/fr/articles/who-we-want-to-hear-from/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE who-we-want-to-hear-from:4` | [De quem quero ouvir, e porquê agora](https://promptugal.news/investors/pt/articles/who-we-want-to-hear-from/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE world` | [The world map](https://promptugal.news/graph/world/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE zap` | [ZAP](https://promptugal.news/media/zap/) | site | dev.places@ 16 Nov 2026 |
 
-[Back to the shelf list](../shelf-list.md) | [Previous part](PUB-17.md)
+[Back to the shelf list](../shelf-list.md) | [Previous part](PUB-17.md) | [Next part](PUB-19.md)

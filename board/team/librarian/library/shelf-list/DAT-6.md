@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 6 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T10:00:03Z"
-site_version: "v0.1.1865"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T12:59:14Z"
+site_version: "v0.1.1883"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 6 of 14)
 
-100 cards, from `DAT.ORG discord` to `DAT.ORG italian-trade-agency`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG discord` to `DAT.ORG it-insight`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 501 to 525**
 
@@ -116,6 +116,7 @@ source: board/catalogue.json
 | `DAT.ORG idealista-news` | [Idealista News](https://promptugal.news/organisations/idealista-news/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG impact-innovation-fund` | [Impact Innovation Fund](https://promptugal.news/organisations/impact-innovation-fund/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG inc` | [INC](https://promptugal.news/organisations/inc/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG indico-capital` | [Indico Capital](https://promptugal.news/organisations/indico-capital/) | organisation | curator@PrompTugal.vicky 19 Nov 2026 |
 | `DAT.ORG indico-capital-partners` | [Indico Capital Partners](https://promptugal.news/organisations/indico-capital-partners/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG inesc-id` | [INESC-ID](https://promptugal.news/organisations/inesc-id/) | organisation | curator@PrompTugal.vicky 14 Nov 2026 |
 | `DAT.ORG inflect` | [Inflect](https://promptugal.news/organisations/inflect/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.ORG invest-rio` | [Invest.Rio](https://promptugal.news/organisations/invest-rio/) | organisation | ontologist@ 7 Nov 2026 |
 | `DAT.ORG ipma` | [IPMA](https://promptugal.news/organisations/ipma/) | organisation | curator@PrompTugal.vicky 10 Nov 2026 |
 | `DAT.ORG it-insight` | [IT Insight](https://promptugal.news/organisations/it-insight/) | organisation | ontologist@ 17 Nov 2026 |
-| `DAT.ORG italian-trade-agency` | [Italian Trade Agency (ICE)](https://promptugal.news/organisations/italian-trade-agency/) | organisation | curator@web-summit.vicky 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-5.md) | [Next part](DAT-7.md)

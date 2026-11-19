@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 8 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T10:00:03Z"
-site_version: "v0.1.1865"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T12:59:14Z"
+site_version: "v0.1.1883"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 8 of 14)
 
-100 cards, from `DAT.ORG plug-and-play-tech-center` to `DAT.ORG sky-sports-news`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG plug` to `DAT.ORG sky-sports-and-noosphere`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 701 to 725**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG plug` | [Plug](https://promptugal.news/organisations/plug/) (withdrawn) | organisation | programme@PrompTugal.vicky 7 Nov 2026 |
 | `DAT.ORG plug-and-play-tech-center` | [Plug and Play Tech Center](https://promptugal.news/organisations/plug-and-play-tech-center/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG politico` | [POLITICO](https://promptugal.news/organisations/politico/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG pony-ai` | [Pony.ai](https://promptugal.news/organisations/pony-ai/) (withdrawn) | organisation | curator@web-summit.vicky 5 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `DAT.ORG radio-azul` | [Rádio Azul](https://promptugal.news/organisations/radio-azul/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG radio-brigantia` | [Rádio Brigantia](https://promptugal.news/organisations/radio-brigantia/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG radio-cidade-fm-aveiro` | [Cidade FM Aveiro](https://promptugal.news/organisations/radio-cidade-fm-aveiro/) | organisation | ontologist@ 17 Nov 2026 |
-| `DAT.ORG radio-cidade-fm-lisboa` | [Cidade FM Lisboa](https://promptugal.news/organisations/radio-cidade-fm-lisboa/) | organisation | ontologist@ 17 Nov 2026 |
 
 **Cards 726 to 750**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG radio-cidade-fm-lisboa` | [Cidade FM Lisboa](https://promptugal.news/organisations/radio-cidade-fm-lisboa/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG radio-cidade-fm-viseu` | [Cidade FM Viseu](https://promptugal.news/organisations/radio-cidade-fm-viseu/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG radio-cm-90-4` | [CM Rádio 90.4](https://promptugal.news/organisations/radio-cm-90-4/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG radio-cm-94-8` | [CM Rádio 94.8](https://promptugal.news/organisations/radio-cm-94-8/) | organisation | ontologist@ 17 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `DAT.ORG radio-pax` | [Rádio Pax](https://promptugal.news/organisations/radio-pax/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG radio-portalegre` | [Rádio Portalegre](https://promptugal.news/organisations/radio-portalegre/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG radio-rci` | [RCI](https://promptugal.news/organisations/radio-rci/) | organisation | ontologist@ 17 Nov 2026 |
-| `DAT.ORG radio-record-leiria` | [Record Leiria](https://promptugal.news/organisations/radio-record-leiria/) | organisation | ontologist@ 17 Nov 2026 |
 
 **Cards 751 to 775**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG radio-record-leiria` | [Record Leiria](https://promptugal.news/organisations/radio-record-leiria/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG radio-record-santarem` | [Record Santarém](https://promptugal.news/organisations/radio-record-santarem/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG radio-renascenca` | [Rádio Renascença](https://promptugal.news/organisations/radio-renascenca/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG radio-smooth-fm-lisboa` | [Smooth FM Lisboa](https://promptugal.news/organisations/radio-smooth-fm-lisboa/) | organisation | ontologist@ 17 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `DAT.ORG ruc-radio-universidade-de-coimbra` | [RUC - Rádio Universidade de Coimbra](https://promptugal.news/organisations/ruc-radio-universidade-de-coimbra/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG rum-radio-universitaria-do-minho` | [RUM - Rádio Universitária do Minho](https://promptugal.news/organisations/rum-radio-universitaria-do-minho/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG runway` | [Runway](https://promptugal.news/organisations/runway/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG sabado` | [SÁBADO](https://promptugal.news/organisations/sabado/) | organisation | ontologist@ 16 Nov 2026 |
 
 **Cards 776 to 800**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG sabado` | [SÁBADO](https://promptugal.news/organisations/sabado/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG sag-aftra` | [SAG-AFTRA](https://promptugal.news/organisations/sag-aftra/) (withdrawn) | organisation | programme@PrompTugal.vicky 7 Nov 2026 |
 | `DAT.ORG samepage-ai` | [Samepage.ai](https://promptugal.news/organisations/samepage-ai/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG santa-maria-local-health-unit` | [Santa Maria local health unit](https://promptugal.news/organisations/santa-maria-local-health-unit/) | organisation | curator@PrompTugal.vicky 17 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.ORG skild-ai` | [Skild AI](https://promptugal.news/organisations/skild-ai/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG sky-news` | [Sky News](https://promptugal.news/organisations/sky-news/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG sky-sports-and-noosphere` | [Sky Sports & Noosphere](https://promptugal.news/organisations/sky-sports-and-noosphere/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG sky-sports-news` | [Sky Sports News](https://promptugal.news/organisations/sky-sports-news/) (withdrawn) | organisation | programme@web-summit.vicky 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-7.md) | [Next part](DAT-9.md)

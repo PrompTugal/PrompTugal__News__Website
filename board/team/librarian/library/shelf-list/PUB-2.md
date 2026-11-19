@@ -1,14 +1,14 @@
 ---
-title: "Shelf list: PUB, The publication (part 2 of 18)"
+title: "Shelf list: PUB, The publication (part 2 of 19)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T10:00:03Z"
-site_version: "v0.1.1865"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T12:59:14Z"
+site_version: "v0.1.1883"
 source: board/catalogue.json
 ---
 
-# Shelf list: PUB, The publication (part 2 of 18)
+# Shelf list: PUB, The publication (part 2 of 19)
 
-100 cards, from `PUB.LIST companies` to `PUB.NEWS T2`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.LIST companies` to `PUB.NEWS S9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 101 to 125**
 
@@ -125,9 +125,9 @@ source: board/catalogue.json
 | `PUB.NEWS S71` | [S71: Update: who said waits fell from two years to ten days](https://promptugal.news/newsroom/stories/S71/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S72` | [S72: Update: the health service's remote physiotherapy is open to any provider](https://promptugal.news/newsroom/stories/S72/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S73` | [S73: Superhuman to buy Rows, the AI spreadsheet company from Porto](https://promptugal.news/newsroom/stories/S73/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
+| `PUB.NEWS S74` | [S74: Update: a Portuguese report says the Rows team in the North stays](https://promptugal.news/newsroom/stories/S74/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
+| `PUB.NEWS S75` | [S75: What the health service pays for remote physiotherapy at home](https://promptugal.news/newsroom/stories/S75/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S8` | [S8: Técnico brings robots and six spin-offs to Web Summit](https://promptugal.news/newsroom/stories/S8/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S9` | [S9: About 200 Brazilian companies come to Lisbon for Web Summit](https://promptugal.news/newsroom/stories/S9/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS T1` | [T1: Angelo's communication graph: watch our agents talk](https://promptugal.news/newsroom/stories/T1/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS T2` | [T2: Who does the work: six people and their 93 agents](https://promptugal.news/newsroom/stories/T2/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-1.md) | [Next part](PUB-3.md)
