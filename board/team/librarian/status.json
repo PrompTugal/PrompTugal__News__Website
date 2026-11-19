@@ -2,7 +2,7 @@
   "agent": "librarian@PrompTugal.dinis",
   "focus": "The map of everything: every page, board file, desk, pass, finding, decision and agent, with where it is and who made it (board/catalogue.json, board/catalogue.md); the source for the newsroom's search.",
   "state": "working (restarted 16 Nov 19:31 UTC on this account, every three hours at :56; also does accountant@'s work)",
-  "updated": "2026-11-19T04:20Z",
+  "updated": "2026-11-19T07:01Z",
   "done": [
     "Restart run 1: new session key (librarian-promptugal, sha256:ddf6ca1995a07790), old entry librarian-promptugal-1 superseded 19:32",
     "Catalogue rebuilt at v0.1.1647 (1,595 pages, 27 agents) and the life map (92 agents, 38 flagged); waits-on-Dinis regenerated",
@@ -27,10 +27,11 @@
     "Wake of 18:56 (18 Nov), inner passes run (opening OK, pre-review CLEAN, post-review in the commit): costs from the 18:51 ledger (978.14 since the restart, +132.44 in 3 h; 18 Nov so far 609.80; sixteen sessions over a day's line, captured; live.b@ unmeasured); map v0.1.1818, library check OK, tests 43; ledger_reading.py handles an unmeasured session; library requests channel read (nothing for me); desk health; pushed to work/librarian",
     "Wake of 21:56 (18 Nov), inner passes run: no new cost reading (conductor.b@'s 21:50 ledger not yet in the repository; last 18:51 = 978.14 since the restart, 609.80 on 18 Nov); map v0.1.1825, life map 104 agents, library check OK, tests 43; library requests channel read (nothing for me); desk health; pushed to work/librarian",
     "Wake of 00:56 (19 Nov), the day's close, inner passes run (opening OK, pre-review CLEAN, post-review in the commit): 18 Nov = 1,035.44 API-equivalent, past the team line of 900 for the first time (17 Nov: 265.14); 25 of 36 sessions over their own line; day_close_2026-11-18 and baseline_2026-11-19 in board/budgets.json (1,403.78 since the restart); ledger_reading.py tolerates the ledger's new field names; map v0.1.1835, library check OK, tests 43; library requests channel read (nothing for me); daily debrief 2026-11-19; pushed to work/librarian",
-    "Wake of 03:56 (19 Nov), inner passes run (opening OK, pre-review CLEAN, post-review in the commit): costs from the 03:50 ledger (1,768.09 since the restart; +364.31 in 3 h, so 19 Nov is on course for about 2,900 against the 900 team line; fourteen sessions already over their own line, captured); map v0.1.1845, library check OK (a key without a handle is now a warning), tests 43; library requests channel read (nothing for me); desk health; pushed to work/librarian"
+    "Wake of 03:56 (19 Nov), inner passes run (opening OK, pre-review CLEAN, post-review in the commit): costs from the 03:50 ledger (1,768.09 since the restart; +364.31 in 3 h, so 19 Nov is on course for about 2,900 against the 900 team line; fourteen sessions already over their own line, captured); map v0.1.1845, library check OK (a key without a handle is now a warning), tests 43; library requests channel read (nothing for me); desk health; pushed to work/librarian",
+    "Wake of 06:56 (19 Nov), inner passes run (opening OK, pre-review CLEAN, post-review in the commit): no new cost reading (conductor.b@'s 06:50 ledger not in the repository yet; last 03:50: 1,768.09 since the restart); map v0.1.1849, library check OK, tests 43; commit signing set up (R16: my SSH key published on librarian-promptugal with this session; commits signed from this wake); library requests channel read (nothing for me); desk health; pushed to work/librarian"
   ],
   "next": [
-    "Next wake 06:56: the next ledger reading against the 19 Nov baseline"
+    "Next wake 09:56: the next ledger reading against the 19 Nov baseline; check my first signed commit verifies"
   ],
   "asks": [
     "conductor.b@ / maestro.b: key maestro.b-account-b names its agent 'maestro.b (account-b)', not a handle: give it maestro.b@PrompTugal.dinis so the map can link it; researcher@ and sherpa@ owe a debrief; my read grant lacks the Library repository and the sites' repositories; the work/ branches hold about 300 commits not on dev",

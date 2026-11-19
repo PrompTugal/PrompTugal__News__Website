@@ -545,7 +545,10 @@
         "fingerprint": "sha256:3d3d6c2d4761fb0e",
         "signing_fingerprint": "sha256:ddf6ca1995a07790"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBthDzxKEO9+dd/U6aObJEOcdfE35tOuUfwxx7UlBZmE",
+      "session": "https://claude.ai/code/session_01Kw9UwEN53pY1UeTB8yoASM",
+      "ssh_added": "2026-11-19T07:01Z"
     },
     {
       "id": "abp-promptugal",

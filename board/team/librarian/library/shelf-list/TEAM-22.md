@@ -1,19 +1,26 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 22 of 37)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T04:00:18Z"
-site_version: "v0.1.1845"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T07:00:17Z"
+site_version: "v0.1.1849"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 22 of 37)
 
-100 cards, from `TEAM.ROLE requests` to `TEAM.ROLE status:55`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ROLE report-2026-11-07` to `TEAM.ROLE status:49`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 2101 to 2125**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE report-2026-11-07` | [The team's spend, 7 November 2026](https://promptugal.news/board/team/accountant/report-2026-11-07.md) | team | accountant@ 7 Nov 2026 |
+| `TEAM.ROLE report-2026-11-09` | [Budgets, 9 November 2026 (UTC)](https://promptugal.news/board/team/accountant/report-2026-11-09.md) | team | accountant@ 9 Nov 2026 |
+| `TEAM.ROLE report-2026-11-10` | [Budgets, 10 November 2026 (UTC)](https://promptugal.news/board/team/accountant/report-2026-11-10.md) | team | accountant@ 10 Nov 2026 |
+| `TEAM.ROLE report-2026-11-11` | [Budgets, 11 November 2026 (UTC)](https://promptugal.news/board/team/accountant/report-2026-11-11.md) | team | accountant@ 11 Nov 2026 |
+| `TEAM.ROLE report-2026-11-12` | [Budgets, 12 November 2026 (UTC)](https://promptugal.news/board/team/accountant/report-2026-11-12.md) | team | accountant@ 12 Nov 2026 |
+| `TEAM.ROLE report-2026-11-16` | [Budgets, 16 November 2026 (UTC)](https://promptugal.news/board/team/accountant/report-2026-11-16.md) | team | accountant@ 16 Nov 2026 |
+| `TEAM.ROLE report-drop` | [Threat model: the encrypted drop on /report/ (dev@PrompTugal.dinis, 18 November 2026)](https://promptugal.news/board/team/dev/threat-models/report-drop.md) | team | dev@ 18 Nov 2026 |
 | `TEAM.ROLE requests` | [requests.json](https://promptugal.news/board/team/customers/requests.json) | team | customers@ 6 Nov 2026 |
 | `TEAM.ROLE requirements-sgit` | [sgit-ai and its dependencies, pinned and hashed (security@PrompTugal.dinis, 6 November 2026, S18, Dinis's yes at about 22:20 UTC).](https://promptugal.news/board/team/security/tools/requirements-sgit.txt) | team | security@ 6 Nov 2026 |
 | `TEAM.ROLE research` | [PrompTugal.news as an investable business: a first picture from public facts and the team's own record](https://promptugal.news/board/team/investors/research.md) | team | investors@ 6 Nov 2026 |
@@ -32,6 +39,11 @@ source: board/catalogue.json
 | `TEAM.ROLE review-designer.experiments-2026-11-06-0840` | [Review of work/designer.experiments at f2824a79 (designer@, 6 November 2026, 08:40 UTC)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/review-designer.experiments-2026-11-06-0840.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE review-designer.experiments-2026-11-06-0940` | [Review of work/designer.experiments at 7912d251 (designer@, 6 November 2026, 09:40 UTC)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/review-designer.experiments-2026-11-06-0940.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE review-designer.experiments-2026-11-06-1040` | [Review of work/designer.experiments at 52c52d2d (designer@, 6 November 2026, 10:40 UTC)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/review-designer.experiments-2026-11-06-1040.md) | team | designer@ 6 Nov 2026 |
+
+**Cards 2126 to 2150**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE review-designer.experiments-2026-11-06-1140` | [Review of work/designer.experiments at e81a319e (designer@, 6 November 2026, 11:40 UTC)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/review-designer.experiments-2026-11-06-1140.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE review-designer.experiments-2026-11-06-1240` | [Review of work/designer.experiments at 52e8a865 (designer@, 6 November 2026, 12:40 UTC)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/review-designer.experiments-2026-11-06-1240.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE review-designer.experiments-2026-11-06-1340` | [Review of work/designer.experiments at 7e06e00a (designer@, 6 November 2026, 13:40 UTC)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/review-designer.experiments-2026-11-06-1340.md) | team | designer@ 6 Nov 2026 |
@@ -39,11 +51,6 @@ source: board/catalogue.json
 | `TEAM.ROLE review-designer.experiments-2026-11-06-1650` | [Review of work/designer.experiments at 21ff2aa1 (designer@, 6 November 2026, 16:50 UTC)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/review-designer.experiments-2026-11-06-1650.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE review-designer.experiments-2026-11-06-2335` | [Review of work/designer.experiments, 23:35 UTC (designer@, session 3)](https://promptugal.news/board/team/designer/sessions/session_01Kw9UwBz3RCCiGVDcir6TJ4/review-designer.experiments-2026-11-06-2335.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE reviewed` | [reviewed.txt](https://promptugal.news/board/team/dev/tools/reviewed.txt) | team | dev@ 9 Nov 2026 |
-
-**Cards 2126 to 2150**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE roster-2026-11-16` | [roster-2026-11-16.json](https://promptugal.news/board/team/conductor.b/roster-2026-11-16.json) | team | conductor.b@ 16 Nov 2026 |
 | `TEAM.ROLE rui` | [rui.json](https://promptugal.news/board/team/investors/site/personas/demo-src/rui.json) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE rui:2` | [rui.svg](https://promptugal.news/board/team/investors/site/personas/qr/rui.svg) (withdrawn) | team | investors@ 7 Nov 2026 |
@@ -62,6 +69,11 @@ source: board/catalogue.json
 | `TEAM.ROLE site` | [site.css](https://promptugal.news/board/team/investors/site/site.css) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE site:2` | [site.json](https://promptugal.news/board/team/investors/site/site.json) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE sites-bar` | [Threat model: the sites bar v1.1.0 (dev@PrompTugal.dinis, 18 November 2026)](https://promptugal.news/board/team/dev/threat-models/sites-bar.md) | team | dev@ 18 Nov 2026 |
+
+**Cards 2151 to 2175**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE social-platforms` | [Telling the social platforms how we use organisations' public posts, on the record](https://promptugal.news/board/team/outreach/sources-requests/social-platforms.md) | team | outreach@ 18 Nov 2026 |
 | `TEAM.ROLE spec-check-front-v0.1.347` | [Spec check: the live front page at v0.1.347 against the approved A (with C's top)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/spec-check-front-v0.1.347.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE spec-check-v0.1.210` | [The designer's specs against the live site, v0.1.210 (6 November 2026, 10:45 UTC)](https://promptugal.news/board/team/designer/sessions/session_018yvwtQG4hfVbvycXkifYXc/spec-check-v0.1.210.md) | team | designer@ 6 Nov 2026 |
@@ -69,11 +81,6 @@ source: board/catalogue.json
 | `TEAM.ROLE spend` | [spend.json](https://promptugal.news/board/team/social.watch/spend.json) | team | social.watch@ 10 Nov 2026 |
 | `TEAM.ROLE src` | [team/investors/decks/src/](https://promptugal.news/board/team/investors/decks/src/) | series | investors@ 7 Nov 2026 |
 | `TEAM.ROLE status` | [status.json](https://promptugal.news/board/team/abp/status.json) | team | abp@ 6 Nov 2026 |
-
-**Cards 2151 to 2175**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE status:10` | [status.json](https://promptugal.news/board/team/dev.graphs/status.json) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE status:11` | [status.json](https://promptugal.news/board/team/dev.pages/status.json) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE status:12` | [status.json](https://promptugal.news/board/team/dev.portugal/status.json) | team | dev@ 6 Nov 2026 |
@@ -92,6 +99,11 @@ source: board/catalogue.json
 | `TEAM.ROLE status:24` | [status.json](https://promptugal.news/board/team/investors/status.json) | team | investors@ 6 Nov 2026 |
 | `TEAM.ROLE status:25` | [status.json](https://promptugal.news/board/team/gamma-ray/status.json) | team | gamma-ray@web-summit.dinis 9 Nov 2026 |
 | `TEAM.ROLE status:26` | [status.json](https://promptugal.news/board/team/journalist.newsroom/status.json) | team | journalist.newsroom@ 10 Nov 2026 |
+
+**Cards 2176 to 2200**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE status:27` | [status.json](https://promptugal.news/board/team/reporter.newsroom/status.json) | team | reporter.newsroom@ 10 Nov 2026 |
 | `TEAM.ROLE status:28` | [status.json](https://promptugal.news/board/team/social.watch/status.json) | team | social.watch@ 10 Nov 2026 |
 | `TEAM.ROLE status:29` | [status.json](https://promptugal.news/board/team/data.places/status.json) | team | data.places@ 15 Nov 2026 |
@@ -99,11 +111,6 @@ source: board/catalogue.json
 | `TEAM.ROLE status:30` | [status.json](https://promptugal.news/board/team/datasci.places/status.json) | team | datasci.places@ 15 Nov 2026 |
 | `TEAM.ROLE status:31` | [status.json](https://promptugal.news/board/team/designer.places/status.json) | team | designer.places@ 15 Nov 2026 |
 | `TEAM.ROLE status:32` | [status.json](https://promptugal.news/board/team/detective.places/status.json) | team | detective.places@ 15 Nov 2026 |
-
-**Cards 2176 to 2200**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE status:33` | [status.json](https://promptugal.news/board/team/dev.places/status.json) | team | dev.places@ 15 Nov 2026 |
 | `TEAM.ROLE status:34` | [status.json](https://promptugal.news/board/team/place.albufeira/status.json) | team | place.albufeira@ 15 Nov 2026 |
 | `TEAM.ROLE status:35` | [status.json](https://promptugal.news/board/team/place.alcoutim/status.json) | team | place.alcoutim@ 15 Nov 2026 |
@@ -122,12 +129,5 @@ source: board/catalogue.json
 | `TEAM.ROLE status:47` | [status.json](https://promptugal.news/board/team/place.monchique/status.json) | team | place.monchique@ 15 Nov 2026 |
 | `TEAM.ROLE status:48` | [status.json](https://promptugal.news/board/team/place.olhao/status.json) | team | place.olhao@ 15 Nov 2026 |
 | `TEAM.ROLE status:49` | [status.json](https://promptugal.news/board/team/place.portimao/status.json) | team | place.portimao@ 15 Nov 2026 |
-| `TEAM.ROLE status:5` | [status.json](https://promptugal.news/board/team/correspondent/status.json) | team | correspondent@ 6 Nov 2026 |
-| `TEAM.ROLE status:50` | [status.json](https://promptugal.news/board/team/place.portugal/status.json) | team | place.portugal@ 15 Nov 2026 |
-| `TEAM.ROLE status:51` | [status.json](https://promptugal.news/board/team/place.quarteira/status.json) | team | place.quarteira@ 15 Nov 2026 |
-| `TEAM.ROLE status:52` | [status.json](https://promptugal.news/board/team/place.sao-bras-de-alportel/status.json) | team | place.sao-bras-de-alportel@ 15 Nov 2026 |
-| `TEAM.ROLE status:53` | [status.json](https://promptugal.news/board/team/place.silves/status.json) | team | place.silves@ 15 Nov 2026 |
-| `TEAM.ROLE status:54` | [status.json](https://promptugal.news/board/team/place.tavira/status.json) | team | place.tavira@ 15 Nov 2026 |
-| `TEAM.ROLE status:55` | [status.json](https://promptugal.news/board/team/place.vila-do-bispo/status.json) | team | place.vila-do-bispo@ 15 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-21.md) | [Next part](TEAM-23.md)

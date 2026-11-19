@@ -1,19 +1,22 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 15 of 37)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T04:00:18Z"
-site_version: "v0.1.1845"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T07:00:17Z"
+site_version: "v0.1.1849"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 15 of 37)
 
-100 cards, from `TEAM.ROLE 2026-11-16-handover:23` to `TEAM.ROLE 2026-11-18-handover:9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ROLE 2026-11-16-handover:20` to `TEAM.ROLE 2026-11-18-handover:6`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1401 to 1425**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-16-handover:20` | [place.lagos@PrompTugal.dinis: hand-over debrief (night of 15 to 16 November 2026)](https://promptugal.news/board/team/place.lagos/debriefs/2026-11-16-handover.md) | team | place.lagos@ 15 Nov 2026 |
+| `TEAM.ROLE 2026-11-16-handover:21` | [Hand-over debrief: place.loule@PrompTugal.dinis, 16 November 2026 (updated 06:20 UTC, after pass 10)](https://promptugal.news/board/team/place.loule/debriefs/2026-11-16-handover.md) | team | place.loule@ 16 Nov 2026 |
+| `TEAM.ROLE 2026-11-16-handover:22` | [Hand-over debrief: place.monchique@PrompTugal.dinis, night of 15 to 16 November 2026 (final)](https://promptugal.news/board/team/place.monchique/debriefs/2026-11-16-handover.md) | team | place.monchique@ 15 Nov 2026 |
 | `TEAM.ROLE 2026-11-16-handover:23` | [place.olhao@PrompTugal.dinis: hand-over debrief (written 2026-11-15, night)](https://promptugal.news/board/team/place.olhao/debriefs/2026-11-16-handover.md) | team | place.olhao@ 15 Nov 2026 |
 | `TEAM.ROLE 2026-11-16-handover:24` | [place.portimao hand-over debrief (refreshed 16 November 2026, about 04:45 UTC)](https://promptugal.news/board/team/place.portimao/debriefs/2026-11-16-handover.md) | team | place.portimao@ 15 Nov 2026 |
 | `TEAM.ROLE 2026-11-16-handover:25` | [Hand-over debrief: place.portugal@PrompTugal.dinis, 16 November 2026](https://promptugal.news/board/team/place.portugal/debriefs/2026-11-16-handover.md) | team | place.portugal@ 16 Nov 2026 |
@@ -36,14 +39,14 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-16-handover:8` | [Hand-over debrief, journalist@, 16 November 2026](https://promptugal.news/board/team/journalist/debriefs/2026-11-16-handover.md) | team | journalist@ 16 Nov 2026 |
 | `TEAM.ROLE 2026-11-16-handover:9` | [outreach@ hand-over debrief, 16 November 2026](https://promptugal.news/board/team/outreach/debriefs/2026-11-16-handover.md) | team | outreach@ 16 Nov 2026 |
 | `TEAM.ROLE 2026-11-16-restart-handover` | [security@PrompTugal.dinis: hand-over debrief, 16 November 2026 (the first day of the restarted session)](https://promptugal.news/board/team/security/debriefs/2026-11-16-restart-handover.md) | team | security@ 16 Nov 2026 |
-| `TEAM.ROLE 2026-11-16-restart-here` | [Restarting the PrompTugal team on this account: the plan](https://promptugal.news/board/team/conductor.b/plans/2026-11-16-restart-here.md) | team | conductor.b@ 16 Nov 2026 |
-| `TEAM.ROLE 2026-11-16-session2` | [Session 2 debrief, place.districts@PrompTugal.dinis, 16 November 2026](https://promptugal.news/board/team/place.districts/debriefs/2026-11-16-session2.md) | team | place.districts@ 16 Nov 2026 |
-| `TEAM.ROLE 2026-11-17-0005-prereview-outreach-outbox` | [security@ pre-review: the outreach outbox (personalised emails through a vault, sent from Gmail)](https://promptugal.news/board/team/security/reviews/2026-11-17-0005-prereview-outreach-outbox.md) | team | security@ 17 Nov 2026 |
 
 **Cards 1426 to 1450**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-16-restart-here` | [Restarting the PrompTugal team on this account: the plan](https://promptugal.news/board/team/conductor.b/plans/2026-11-16-restart-here.md) | team | conductor.b@ 16 Nov 2026 |
+| `TEAM.ROLE 2026-11-16-session2` | [Session 2 debrief, place.districts@PrompTugal.dinis, 16 November 2026](https://promptugal.news/board/team/place.districts/debriefs/2026-11-16-session2.md) | team | place.districts@ 16 Nov 2026 |
+| `TEAM.ROLE 2026-11-17-0005-prereview-outreach-outbox` | [security@ pre-review: the outreach outbox (personalised emails through a vault, sent from Gmail)](https://promptugal.news/board/team/security/reviews/2026-11-17-0005-prereview-outreach-outbox.md) | team | security@ 17 Nov 2026 |
 | `TEAM.ROLE 2026-11-17-0005-wake` | [security@ wake, 17 November 2026, 00:05 UTC](https://promptugal.news/board/team/security/reviews/2026-11-17-0005-wake.md) | team | security@ 17 Nov 2026 |
 | `TEAM.ROLE 2026-11-17-0205-wake` | [security@ wake, 17 November 2026, 02:05 UTC](https://promptugal.news/board/team/security/reviews/2026-11-17-0205-wake.md) | team | security@ 17 Nov 2026 |
 | `TEAM.ROLE 2026-11-17-0405-wake` | [security@ wake, 17 November 2026, 04:05 UTC](https://promptugal.news/board/team/security/reviews/2026-11-17-0405-wake.md) | team | security@ 17 Nov 2026 |
@@ -66,14 +69,14 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-17-handover:15` | [Hand-over: correspondent@PrompTugal.dinis, 17 November 2026](https://promptugal.news/board/team/correspondent/debriefs/2026-11-17-handover.md) | team | correspondent@ 17 Nov 2026 |
 | `TEAM.ROLE 2026-11-17-handover:16` | [dev@PrompTugal.dinis: hand-over debrief, 17 November 2026](https://promptugal.news/board/team/dev/debriefs/2026-11-17-handover.md) | team | dev@ 17 Nov 2026 |
 | `TEAM.ROLE 2026-11-17-handover:17` | [security@PrompTugal.dinis: hand-over debrief, 17 November 2026](https://promptugal.news/board/team/security/debriefs/2026-11-17-handover.md) | team | security@ 17 Nov 2026 |
-| `TEAM.ROLE 2026-11-17-handover:2` | [abp@ hand-over debrief, 17 November 2026 (session on the restart account, key abp-promptugal-c)](https://promptugal.news/board/team/abp/debriefs/2026-11-17-handover.md) | team | abp@ 17 Nov 2026 |
-| `TEAM.ROLE 2026-11-17-handover:3` | [datasci.places@PrompTugal.dinis: hand-over debrief, 17 November 2026](https://promptugal.news/board/team/datasci.places/debriefs/2026-11-17-handover.md) | team | datasci.places@ 17 Nov 2026 |
-| `TEAM.ROLE 2026-11-17-handover:4` | [designer.places@: hand-over, 17 November](https://promptugal.news/board/team/designer.places/debriefs/2026-11-17-handover.md) | team | designer.places@ 17 Nov 2026 |
 
 **Cards 1451 to 1475**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-17-handover:2` | [abp@ hand-over debrief, 17 November 2026 (session on the restart account, key abp-promptugal-c)](https://promptugal.news/board/team/abp/debriefs/2026-11-17-handover.md) | team | abp@ 17 Nov 2026 |
+| `TEAM.ROLE 2026-11-17-handover:3` | [datasci.places@PrompTugal.dinis: hand-over debrief, 17 November 2026](https://promptugal.news/board/team/datasci.places/debriefs/2026-11-17-handover.md) | team | datasci.places@ 17 Nov 2026 |
+| `TEAM.ROLE 2026-11-17-handover:4` | [designer.places@: hand-over, 17 November](https://promptugal.news/board/team/designer.places/debriefs/2026-11-17-handover.md) | team | designer.places@ 17 Nov 2026 |
 | `TEAM.ROLE 2026-11-17-handover:5` | [dev.places@PrompTugal.dinis: hand-over debrief, 17 November 2026 (session of the 16 November restart)](https://promptugal.news/board/team/dev.places/debriefs/2026-11-17-handover.md) | team | dev.places@ 17 Nov 2026 |
 | `TEAM.ROLE 2026-11-17-handover:6` | [place.algarve.central hand-over, 17 November 2026 (about 01:30 UTC)](https://promptugal.news/board/team/place.algarve.central/debriefs/2026-11-17-handover.md) | team | place.algarve.central@ 17 Nov 2026 |
 | `TEAM.ROLE 2026-11-17-handover:7` | [place.algarve.east hand-over debrief (17 November 2026)](https://promptugal.news/board/team/place.algarve.east/debriefs/2026-11-17-handover.md) | team | place.algarve.east@ 17 Nov 2026 |
@@ -96,14 +99,14 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-18-1605-wake` | [security@ wake, 18 November 2026, 16:05 UTC (hourly, every repository)](https://promptugal.news/board/team/security/reviews/2026-11-18-1605-wake.md) | team | security@ 18 Nov 2026 |
 | `TEAM.ROLE 2026-11-18-1610-appsec` | [security@ wake, 18 November 2026, 16:10 UTC: AppSec across the repositories](https://promptugal.news/board/team/security/reviews/2026-11-18-1610-appsec.md) | team | security@ 18 Nov 2026 |
 | `TEAM.ROLE 2026-11-18-1620-published-log` | [security@: findings for the public log, 18 November 2026, 16:20 UTC](https://promptugal.news/board/team/security/reviews/2026-11-18-1620-published-log.md) | team | security@ 18 Nov 2026 |
-| `TEAM.ROLE 2026-11-18-1705-wake` | [security@ wake, 18 November 2026, 17:05 UTC (hourly, every repository)](https://promptugal.news/board/team/security/reviews/2026-11-18-1705-wake.md) | team | security@ 18 Nov 2026 |
-| `TEAM.ROLE 2026-11-18-1805-wake` | [security@ wake, 18 November 2026, 18:05 UTC (hourly, every repository)](https://promptugal.news/board/team/security/reviews/2026-11-18-1805-wake.md) | team | security@ 18 Nov 2026 |
-| `TEAM.ROLE 2026-11-18-1905-prereview-camera-embeds` | [security@ pre-review: camera embeds (Dinis's 19:00 decision)](https://promptugal.news/board/team/security/reviews/2026-11-18-1905-prereview-camera-embeds.md) | team | security@ 18 Nov 2026 |
 
 **Cards 1476 to 1500**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-18-1705-wake` | [security@ wake, 18 November 2026, 17:05 UTC (hourly, every repository)](https://promptugal.news/board/team/security/reviews/2026-11-18-1705-wake.md) | team | security@ 18 Nov 2026 |
+| `TEAM.ROLE 2026-11-18-1805-wake` | [security@ wake, 18 November 2026, 18:05 UTC (hourly, every repository)](https://promptugal.news/board/team/security/reviews/2026-11-18-1805-wake.md) | team | security@ 18 Nov 2026 |
+| `TEAM.ROLE 2026-11-18-1905-prereview-camera-embeds` | [security@ pre-review: camera embeds (Dinis's 19:00 decision)](https://promptugal.news/board/team/security/reviews/2026-11-18-1905-prereview-camera-embeds.md) | team | security@ 18 Nov 2026 |
 | `TEAM.ROLE 2026-11-18-1905-wake` | [security@ wake, 18 November 2026, 19:05 UTC (hourly, every repository)](https://promptugal.news/board/team/security/reviews/2026-11-18-1905-wake.md) | team | security@ 18 Nov 2026 |
 | `TEAM.ROLE 2026-11-18-2005-wake` | [security@ wake, 18 November 2026, 20:05 UTC (hourly, every repository)](https://promptugal.news/board/team/security/reviews/2026-11-18-2005-wake.md) | team | security@ 18 Nov 2026 |
 | `TEAM.ROLE 2026-11-18-2105-wake` | [security@ wake, 18 November 2026, 21:05 UTC (hourly, every repository)](https://promptugal.news/board/team/security/reviews/2026-11-18-2105-wake.md) | team | security@ 18 Nov 2026 |
@@ -126,8 +129,5 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-18-handover:4` | [outreach@ hand-over debrief, 18 November 2026](https://promptugal.news/board/team/outreach/debriefs/2026-11-18-handover.md) | team | outreach@ 18 Nov 2026 |
 | `TEAM.ROLE 2026-11-18-handover:5` | [place.algarve.central hand-over, 18 November 2026 (about 00:30 UTC)](https://promptugal.news/board/team/place.algarve.central/debriefs/2026-11-18-handover.md) | team | place.algarve.central@ 18 Nov 2026 |
 | `TEAM.ROLE 2026-11-18-handover:6` | [Hand-over debrief, place.districts@PrompTugal.dinis, 18 November 2026](https://promptugal.news/board/team/place.districts/debriefs/2026-11-18-handover.md) | team | place.districts@ 18 Nov 2026 |
-| `TEAM.ROLE 2026-11-18-handover:7` | [abp@ hand-over debrief, 18 November 2026 (session on the restart account, key abp-promptugal-c)](https://promptugal.news/board/team/abp/debriefs/2026-11-18-handover.md) | team | abp@ 18 Nov 2026 |
-| `TEAM.ROLE 2026-11-18-handover:8` | [datasci.places@PrompTugal.dinis: hand-over debrief, 18 November 2026](https://promptugal.news/board/team/datasci.places/debriefs/2026-11-18-handover.md) | team | datasci.places@ 18 Nov 2026 |
-| `TEAM.ROLE 2026-11-18-handover:9` | [designer.places@: hand-over, 18 November](https://promptugal.news/board/team/designer.places/debriefs/2026-11-18-handover.md) | team | designer.places@ 18 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-14.md) | [Next part](TEAM-16.md)
