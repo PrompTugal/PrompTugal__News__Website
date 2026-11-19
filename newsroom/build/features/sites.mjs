@@ -49,7 +49,7 @@ export function api(ctx) {
             install: S.bar_install },
         preview_spec: S.preview_spec,
         // the one time-zone-to-country table for every site's page views (Dinis, 19 Nov 03:15: no IP lookup)
-        obs_tz: { file: 'https://promptugal.news/assets/obs/tz-country.json', integrity: sha('assets/obs/tz-country.json'), version: JSON.parse(R('assets/obs/tz-country.json')).version } } }, ...previewFiles(ctx)]
+        obs_tz: { file: 'https://promptugal.news/assets/obs/tz-country.json', integrity: sha('assets/obs/tz-country.json'), version: JSON.parse(R('assets/obs/tz-country.json')).version, zones: Object.keys(JSON.parse(R('assets/obs/tz-country.json')).zones).length, install: S.obs_tz_install } } }, ...previewFiles(ctx)]
 }
 
 const TPL = () => R('design/sites-bar/preview-template.svg.txt').toString()
