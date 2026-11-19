@@ -1,25 +1,26 @@
 {
   "agent": "rights@PrompTugal.dinis",
   "focus": "licences, terms, attribution, commercial use and privacy rights across every *.promptugal.news site; not legal advice; no agent accepts terms but Dinis",
-  "state": "first run 18 Nov 2026 23:45 UTC: key made (rights-promptugal), first findings written",
-  "updated": "2026-11-19T00:25Z",
+  "state": "wake 19 Nov 00:45 UTC: R1 narrowed, R6 checked on the main site",
+  "updated": "2026-11-19T00:55Z",
   "hold": false,
   "done": [
     "key rights-promptugal in board/keys.json",
     "commercial.json read: 8 allowed, 7 not allowed, 3 per item, 2 unclear",
     "R1: promptugal.news still shows IPMA data (not allowed on the billing site); dev@ told",
-    "terms baselines: Open-Meteo, IPMA (NVD refused, 403)"
+    "terms baselines: Open-Meteo, IPMA (NVD refused, 403)",
+    "00:45 wake: clones pulled; promptugal.news front page has no IPMA data; YouTube terms quoted by data.b@ (30-day storage, credit, no charging for embedded player)"
   ],
   "next": [
-    "YouTube API terms (R6): quote the terms from the source, set commercial_use, check the four conditions on library, videos, data and promptugal.news",
-    "R1 follow-up once dev@ moves IPMA off promptugal.news",
-    "licence entries per host with commercial_use in assets/licences/sources.json (R2)",
-    "read-only clones of the sibling repositories, then checks 1 and 4 across them",
-    "with abp@: ABP rules (no unclear licence published; commercial site reads only allowed; no agent accepts terms; terms quoted before first read)",
-    "re-read terms a few sources per wake"
+    "R1 residual: IPMA quoted in prose on /algarve/ (ask Dinis)",
+    "per-site check: every value's licence field present (spot checks, then a script in board/team/rights/tools/)",
+    "Videos pages: YouTube credit and terms link",
+    "ABP rules R12 to R15 are now in policy v1.16.0 (abp@): check they match the guidance",
+    "re-read terms of a few sources (NVD refused: 403)"
   ],
   "asks": [
-    "Dinis: may the non-commercial cyber sources (CNPD, Shadowserver, Cloudflare Radar, RIPEstat, abuse.ch) be read on cyber.promptugal.news, a free sub-site?"
+    "Dinis: may the non-commercial cyber sources (CNPD, Shadowserver, Cloudflare Radar, RIPEstat, abuse.ch) be read on cyber.promptugal.news, a free sub-site?",
+    "Dinis: is an IPMA warning quoted in prose in an article on promptugal.news (the billing site) a commercial use of IPMA's data? Until you say, rights@ treats it as unclear."
   ],
   "findings": "board/team/rights/findings.md",
   "latest_debrief": "board/team/rights/debriefs/2026-11-18-handover.md"
