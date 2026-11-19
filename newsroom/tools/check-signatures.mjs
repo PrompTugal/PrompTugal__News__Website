@@ -14,7 +14,7 @@ import { fileURLToPath } from 'node:url'
 // from the last release (control 7), so ROOT (the repository checked) can be given apart: CHECK_ROOT
 const TOOLS = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = process.env.CHECK_ROOT ? path.resolve(process.env.CHECK_ROOT) : path.resolve(TOOLS, '../..')
-const git = (...a) => execFileSync('git', a, { cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] })
+const git = (...a) => execFileSync('git', a, { cwd: ROOT, encoding: 'utf8', env: { ...process.env, GIT_NO_REPLACE_OBJECTS: '1' }, stdio: ['ignore', 'pipe', 'pipe'] })   // control 9: no replace objects
 
 // control 8 (security@, 19 Nov): a commit is skipped only by ancestry (an ancestor of the trusted base is outside the
 // range), never by what it changes, its message, date, path or name; CI's version commits are checked like any other

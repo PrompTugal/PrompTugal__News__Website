@@ -63,5 +63,12 @@ fs.writeFileSync(path.join(R, 'e.txt'), 'e'); sh(R, 'add', 'e.txt'); sh(R, 'comm
 r = trusted(C1); ok(r.status !== 0 && r.stdout.includes(dropped.slice(0, 9)), 'an unsigned commit from a dropped run (between A and the last push) fails')
 // a pushed tag on an unverified commit is never used: the launcher reads only ANCHOR
 sh(R, 'tag', '-f', 'v9.9.9', dropped); r = run('check-signatures-trusted.mjs', R, { ANCHOR: '' }); ok(r.status !== 0 && /no anchor/.test(r.stdout), 'a pushed tag is not used as the anchor, and a missing anchor fails')
+// control 9: a checker that is a symlink in the anchor's tree is refused
+reset(); fs.rmSync(path.join(R, 'newsroom/tools/signing.json')); fs.symlinkSync('/etc/hostname', path.join(R, 'newsroom/tools/signing.json')); sh(R, 'add', '-A'); sh(R, 'commit', '-q', '-S', '-m', msg('the config as a symlink'))
+const sym = sh(R, 'rev-parse', 'HEAD').trim(); r = trusted(sym); ok(r.status !== 0 && /symlink/.test(r.stdout), 'an anchor whose checker path is a symlink is refused')
+// control 9: git's replace objects cannot swap a commit under the check
+reset(); fs.writeFileSync(path.join(R, 'f.txt'), 'f'); sh(R, 'add', 'f.txt'); sh(R, '-c', 'commit.gpgsign=false', 'commit', '-q', '-m', msg('unsigned, to be hidden'))
+const bad = sh(R, 'rev-parse', 'HEAD').trim(); sh(R, 'replace', bad, C1)
+r = trusted(C1); ok(r.status !== 0 && r.stdout.includes(bad.slice(0, 9)), 'a replace object does not hide an unsigned commit'); sh(R, 'replace', '-d', bad)
 fs.rmSync(T, { recursive: true, force: true })
 if (fails) { console.log(`${fails} failed`); process.exit(1) } else console.log('signatures.test: all passed')
