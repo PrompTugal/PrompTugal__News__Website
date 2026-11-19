@@ -5,8 +5,8 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-19T11:18Z",
-  "state": "2026-11-19T11:18Z wake: quiet; weekly limit still at warning; $2,302 tracked (+$39.79 in the hour to 10:35)",
+  "updated": "2026-11-19T12:19Z",
+  "state": "2026-11-19T12:19Z wake: weekly limit still at warning; $2,386 tracked (+$84.19 in the hour to 11:35); a partner desk adds a source not on the register",
   "done": [
     "2026-11-19T02:01Z onboarding: read CLAUDE.md, New from Dinis, the maestro guidance, conductor.b@'s status, debrief 2026-11-18 and roster; key maestro.b-account-b made with sgit pki keygen, public bundle and ssh signing key in board/keys.json with this session; git set repo-locally to sign with newsroom/tools/signing-setup.sh",
     "2026-11-19T02:01Z read get_session for conductor.b@, cells.b, writer-10 and telemetry.b@ (status and cost only, no transcripts) and the status.json of rights@, security@, abp@, telemetry.b@",
@@ -25,7 +25,8 @@
     "2026-11-19T08:19Z 08:18 wake: no hold, no new guidance; the account's seven-day limit at allowed_warning (resets 2026-11-26T00:00Z by the rate-limit field); telemetry.b@ $2,178.29 at 07:35 (+$105.57 in an hour); PrompTugal: build 2 min 16 s to 51 s (dev@), sites bar 1.2.1 go, S71 fixed; AgentiCCells: five designs for agenticcells.ai ready, its conductor asks which teams run today on account B",
     "2026-11-19T09:18Z 09:18 wake: no hold, no new guidance; seven-day limit still allowed_warning; telemetry.b@ $2,247.26 at 08:35 (+$68.97); conductor.b@ (PrompTugal) at $368 with 790k of 1M context in use: each hourly wake re-reads it, so a debrief and a fresh session would cut its cost per wake (Dinis's call, CLAUDE.md 'Handing a role to a new session'); Vicky's desk (reviewer@, journalist-portugal@) drafted S72 and S73; AgentiCCells idle since 07:38 waiting on Dinis",
     "2026-11-19T10:18Z 10:18 wake: no hold, no new guidance; quiet across all three projects (PrompTugal desks quiet, security@ clean, Vicky's checker closed S3); AgentiCCells idle on Dinis's decisions; telemetry.b@ $2,262.12 at 09:35 (+$14.86)",
-    "2026-11-19T11:18Z 11:18 wake: no hold, no new guidance; PrompTugal steady (ontologist@ one registry of places for every site; correspondent@ placed Superhuman and Rows in the Portugal beat); AgentiCCells conductor idle on Dinis, each idle wake about $0.75 with 775k context; telemetry.b@ $2,301.91 at 10:35 (+$39.79)"
+    "2026-11-19T11:18Z 11:18 wake: no hold, no new guidance; PrompTugal steady (ontologist@ one registry of places for every site; correspondent@ placed Superhuman and Rows in the Portugal beat); AgentiCCells conductor idle on Dinis, each idle wake about $0.75 with 775k context; telemetry.b@ $2,301.91 at 10:35 (+$39.79)",
+    "2026-11-19T12:19Z 12:18 wake: no hold, no new guidance; sites bar 1.2.1 on all 12 sub-sites, the places registry includes London (conductor.b@); Silvio's jornal@ (03e451de, at Silvio's word) adds AlphaSignal as a leads-only aggregator and a sealed daily digest to Vicky's curator and conductor.b@: AlphaSignal is not on the sources register (R15: terms quoted before first read) and its run report is named 2026-11-12 on a 19 Nov commit (R17); for rights@ and abp@; telemetry.b@ $2,386.10 at 11:35 (+$84.19)"
   ],
   "next": [
     "08:18 wake; the next fuller brief at 13:18",
@@ -44,7 +45,8 @@
     "Dinis (for dev@): newsroom/tools/check-signatures.mjs writes the Agent: name as the allowed_signers principal, so a name with a space ('maestro.b (account-b)') fails with signature U although the signature is good (checked here: G with the key id as principal). Fix: use the key id as the principal, or teach the gate the maestro.b@account-b.dinis form. Until then my commits read FAIL in that (unwired) check.",
     "Dinis: branch protection on dev is asked by cells.b (Factory), writer-10 (newsroom), data.b@ and library.b@ (PrompTugal sites): one decision for every repository, set by you in each repo's Settings, Rules (require signed commits or the signature check as a required status check). Links: https://claude.ai/code/session_01Kw9UwBQPcS9Ty9XiywtEX7 , https://claude.ai/code/session_01Kw9UwBsABC8j7mNaZRUJuQ",
     "Dinis: writer-10 holds an AgentiCCells brief and asks who relays it: conductor.b@AgentiCCells.dinis now exists for that (https://claude.ai/code/session_01Kw9UwFgyMuNDYCnrW1ZKkm); say in writer-10's session to give it there (https://claude.ai/code/session_01Kw9UwBsABC8j7mNaZRUJuQ)",
-    "Dinis: conductor.b@AgentiCCells.dinis says you told it no schedule is needed (~02:50 UTC, in its session); its hourly :06 wake that I made (trig_01JhMC2KKgXhecdBf8QajdqE) still runs. Say 'pause it' here and I disable it."
+    "Dinis: conductor.b@AgentiCCells.dinis says you told it no schedule is needed (~02:50 UTC, in its session); its hourly :06 wake that I made (trig_01JhMC2KKgXhecdBf8QajdqE) still runs. Say 'pause it' here and I disable it.",
+    "rights@ (and Dinis if it needs a yes): Silvio's jornal@ added AlphaSignal (alphasignal.ai) as a leads-only source in desks/jornal-silvio/README.md (03e451de); it is not on the sources register, so its terms are not quoted yet (R15)."
   ],
   "latest_debrief": "board/team/maestro.b/debriefs/2026-11-19-handover.md"
 }
