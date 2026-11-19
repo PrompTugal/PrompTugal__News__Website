@@ -7,5 +7,14 @@
   "located_in": "place:loule",
   "matches": [],
   "source": "data/by-place/places.json",
-  "note": "A city (a freguesia) in the municipality of Loulé, Faro district; it has no municipal border of its own (it is part of the by-place list, data/by-place/places.json). Corrected 19 Nov 2026 on startups.b@'s finding: it was filed under Portugal."
+  "note": "A city (a freguesia) in the municipality of Loulé, Faro district; it has no municipal border of its own (it is part of the by-place list, data/by-place/places.json). Corrected 19 Nov 2026 on startups.b@'s finding: it was filed under Portugal.",
+  "at": [
+    -8.103,
+    37.069
+  ],
+  "at_source": {
+    "url": "data/by-place/places.json",
+    "read_at": "2026-11-19T20:05Z",
+    "how": "the place's seat as the by-place list gives it (the map's own point)"
+  }
 }

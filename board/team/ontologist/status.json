@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account A)",
-  "updated": "2026-11-19T19:00Z",
+  "updated": "2026-11-19T20:15Z",
   "done": [
     "Pass only-websummit-sourced-comes-off, step 2 (conductor.b@, at Dinis's 18:50 word): the inventory data/websummit-only.json, derived by derive.mjs (refs only, counts by kind; schema websummit-only); 239 of 311 company facts, all 285 people, 215 of 248 events, 184 of 269 organisations, 45 of 85 places rest only on websummit.com; 37 of 120 companies left with nothing, 31 of them with their own site on file (22:05)",
     "Websummit-only pass: facts_left per company (59 with no fact, 37 with nothing); shadow sources (Wikipedia, the EU HaDEA event page) for Web Summit, AWS, the summit event, MEO Arena and FIL and Lisbon, so they stay; event and place schemas take sources (00:21 wake, 12 Nov)",
@@ -39,7 +39,8 @@
     "13:50 message from startups.b@ (the registry against its 36 by-place places): three real differences, all mine and now settled: an aliases field (lisbon has lisboa), Quarteira moved under Loule (my generator had filed it under Portugal), the 16 Algarve municipalities are kind municipality (new kind in the schema, ontology and registry); everything else matched; brief section added",
     "16:00 message from conductor.b@ (enrol your SSH signing key; the decision is Dinis's, 19 Nov, board/guidance/2026-11-19-signed-commits-paid-search-and-free-embeds.md, in the repo; the tool newsroom/tools/signing-setup.sh read first): enrolled: ontologist-promptugal now carries its ssh public key and this session in board/keys.json (private half only in ~/.sg-send/ssh/), the checkout signs its commits",
     "17:43 message from conductor.b@ (Dinis ~17:40, the map: Portugal big, London small, the EU small by Brussels; add Brussels and the EU to the registry if missing): added brussels (Q239, BE) and european-union (kind region, seat brussels, Q458; no country code) and a seat field in the place schema and the registry (103 places); its guidance file was not yet in my checkout, said so in the brief; the cameras part is data.b@'s",
-    "18:51 wake (twice-a-day schedule): nothing new from researcher@ or local@, no open request in the library's channel; the 19 November debrief updated with the afternoon's work (registry, aliases, SSH key, Brussels, schedule)"
+    "18:51 wake (twice-a-day schedule): nothing new from researcher@ or local@, no open request in the library's channel; the 19 November debrief updated with the afternoon's work (registry, aliases, SSH key, Brussels, schedule)",
+    "19:35 message from conductor.b@ (designer@'s shared map ptmap 1.0.0 published, commit 9f5ba1d44; the places registry needs coordinates; spec board/spec-the-shared-map.md is in the repo, line 39 asks me): at ([lon, lat]) and at_source on 68 places (34 from the by-place list, 34 from Wikidata P625), the registry carries at (the EU takes its seat's) for 69 of 103; countries left null on purpose; brief section 19 Nov 20:10"
   ],
   "next": [
     "Event kinds for what discovery finds (meetup, conference, festival, market, civic) once data.b@ says which",
