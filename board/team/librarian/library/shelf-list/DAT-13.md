@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 13 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T12:59:14Z"
-site_version: "v0.1.1883"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T15:59:42Z"
+site_version: "v0.1.1901"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 13 of 14)
 
-100 cards, from `DAT.PL canada` to `DAT.PL speed-networking`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.PL camden` to `DAT.PL spain`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1201 to 1225**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL camden` | [Camden](https://promptugal.news/places/camden/) | place | ontologist@ 18 Nov 2026 |
 | `DAT.PL canada` | [Canada](https://promptugal.news/places/canada/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL castelo-branco` | [Castelo Branco](https://promptugal.news/places/castelo-branco/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL castro-marim` | [Castro Marim](https://promptugal.news/places/castro-marim/) | place | ontologist@ 16 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `DAT.PL gale-patio` | [Gale patio](https://promptugal.news/places/gale-patio/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL germany` | [Germany](https://promptugal.news/places/germany/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL greenwich` | [Greenwich](https://promptugal.news/places/greenwich/) | place | ontologist@ 18 Nov 2026 |
-| `DAT.PL guarda` | [Guarda](https://promptugal.news/places/guarda/) | place | ontologist@ 16 Nov 2026 |
 
 **Cards 1226 to 1250**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL guarda` | [Guarda](https://promptugal.news/places/guarda/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL hackney` | [Hackney](https://promptugal.news/places/hackney/) | place | ontologist@ 18 Nov 2026 |
 | `DAT.PL hammersmith-and-fulham` | [Hammersmith and Fulham](https://promptugal.news/places/hammersmith-and-fulham/) | place | ontologist@ 18 Nov 2026 |
 | `DAT.PL haringey` | [Haringey](https://promptugal.news/places/haringey/) | place | ontologist@ 18 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `DAT.PL lambeth` | [Lambeth](https://promptugal.news/places/lambeth/) | place | ontologist@ 18 Nov 2026 |
 | `DAT.PL leiria` | [Leiria](https://promptugal.news/places/leiria/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL lewisham` | [Lewisham](https://promptugal.news/places/lewisham/) | place | ontologist@ 18 Nov 2026 |
-| `DAT.PL lisbon` | [Lisbon](https://promptugal.news/places/lisbon/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 1251 to 1275**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL lisbon` | [Lisbon](https://promptugal.news/places/lisbon/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL lithuania` | [Lithuania](https://promptugal.news/places/lithuania/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL london` | [London](https://promptugal.news/places/london/) | place | ontologist@ 18 Nov 2026 |
 | `DAT.PL loule` | [Loulé](https://promptugal.news/places/loule/) | place | ontologist@ 16 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `DAT.PL olhao` | [Olhão](https://promptugal.news/places/olhao/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL olissippo` | [Olissippo](https://promptugal.news/places/olissippo/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL palacete-dos-condes-de-monte-real` | [Palacete dos Condes de Monte Real](https://promptugal.news/places/palacete-dos-condes-de-monte-real/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL parque-das-nacoes` | [Parque das Nações](https://promptugal.news/places/parque-das-nacoes/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 1276 to 1300**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL parque-das-nacoes` | [Parque das Nações](https://promptugal.news/places/parque-das-nacoes/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL pavilhao-de-portugal` | [Pavilhão de Portugal](https://promptugal.news/places/pavilhao-de-portugal/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL pavilion-5` | [Pavilion 5](https://promptugal.news/places/pavilion-5/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL portalegre` | [Portalegre](https://promptugal.news/places/portalegre/) | place | ontologist@ 16 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.PL southwark` | [Southwark](https://promptugal.news/places/southwark/) | place | ontologist@ 18 Nov 2026 |
 | `DAT.PL spaces-oriente` | [Spaces Oriente](https://promptugal.news/places/spaces-oriente/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL spain` | [Spain](https://promptugal.news/places/spain/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.PL speed-networking` | [Speed Networking](https://promptugal.news/places/speed-networking/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-12.md) | [Next part](DAT-14.md)

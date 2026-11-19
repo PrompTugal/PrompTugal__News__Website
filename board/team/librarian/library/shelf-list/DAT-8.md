@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 8 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T12:59:14Z"
-site_version: "v0.1.1883"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T15:59:42Z"
+site_version: "v0.1.1901"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 8 of 14)
 
-100 cards, from `DAT.ORG plug` to `DAT.ORG sky-sports-and-noosphere`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG plug` to `DAT.ORG sky-news`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 701 to 725**
 
@@ -114,6 +114,7 @@ source: board/catalogue.json
 | `DAT.ORG seamoretech` | [Seamoretech](https://promptugal.news/organisations/seamoretech/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG sebrae-paraiba` | [SEBRAE PARAIBA](https://promptugal.news/organisations/sebrae-paraiba/) (withdrawn) | organisation | programme@PrompTugal.vicky 9 Nov 2026 |
 | `DAT.ORG sebrae-startups` | [Sebrae Startups](https://promptugal.news/organisations/sebrae-startups/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG secretary-of-state-for-health-management` | [Secretary of State for Health Management](https://promptugal.news/organisations/secretary-of-state-for-health-management/) | organisation | curator@PrompTugal.vicky 19 Nov 2026 |
 | `DAT.ORG semmais` | [Semmais (S+)](https://promptugal.news/organisations/semmais/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG senen` | [SENEN GROUP](https://promptugal.news/organisations/senen/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG serpro` | [Serpro](https://promptugal.news/organisations/serpro/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.ORG simular` | [Simular](https://promptugal.news/organisations/simular/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG skild-ai` | [Skild AI](https://promptugal.news/organisations/skild-ai/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG sky-news` | [Sky News](https://promptugal.news/organisations/sky-news/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG sky-sports-and-noosphere` | [Sky Sports & Noosphere](https://promptugal.news/organisations/sky-sports-and-noosphere/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-7.md) | [Next part](DAT-9.md)

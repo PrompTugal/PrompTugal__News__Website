@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 14 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T12:59:14Z"
-site_version: "v0.1.1883"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T15:59:42Z"
+site_version: "v0.1.1901"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 14 of 14)
 
-43 cards, from `DAT.PL stage-10` to `DAT.TOP the-summit`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+44 cards, from `DAT.PL speed-networking` to `DAT.TOP the-summit`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1301 to 1325**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL speed-networking` | [Speed Networking](https://promptugal.news/places/speed-networking/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL stage-10` | [Stage 10](https://promptugal.news/places/stage-10/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL stage-11` | [Stage 11](https://promptugal.news/places/stage-11/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL stage-12` | [Stage 12](https://promptugal.news/places/stage-12/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `DAT.PL vila-real-de-santo-antonio` | [Vila Real de Santo António](https://promptugal.news/places/vila-real-de-santo-antonio/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL viseu` | [Viseu](https://promptugal.news/places/viseu/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL waltham-forest` | [Waltham Forest](https://promptugal.news/places/waltham-forest/) | place | ontologist@ 18 Nov 2026 |
-| `DAT.PL wandsworth` | [Wandsworth](https://promptugal.news/places/wandsworth/) | place | ontologist@ 18 Nov 2026 |
 
-**Cards 1326 to 1343**
+**Cards 1326 to 1344**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL wandsworth` | [Wandsworth](https://promptugal.news/places/wandsworth/) | place | ontologist@ 18 Nov 2026 |
 | `DAT.PL westminster` | [Westminster](https://promptugal.news/places/westminster/) | place | ontologist@ 18 Nov 2026 |
 | `DAT.TOP ai` | [Artificial intelligence](https://promptugal.news/topics/ai/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.TOP ai-agents` | [AI agents](https://promptugal.news/topics/ai-agents/) | topic | newsroom-dev@web-summit.dinis 5 Nov 2026 |
