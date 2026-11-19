@@ -847,7 +847,8 @@
     "On 18 November the 24 November water-cycle conference page on ccdr-alg.pt still showed no registration link. IPMA's feed shows only the yellow sea warning (18 November 12:00 to 20 November 09:00); all other warning types are green through 21 November 03:00. Seen only as headlines: an Olhão teacher's Erasmus+ AI course (Postal, 17 November) and a naval-school exercise on the Guadiana through Mértola, Alcoutim and Vila Real de Santo António (Barlavento).",
     "The CCDR Algarve front page also mentions a third Algarve 2030 water-cycle conference with Público on technology and AI in water management, with no date given.",
     "Correction of 18 November: the Castro Marim dementia congress of 12 and 13 November, with an AI session, is real; the council's own page of 17 November confirms it (see the Castro Marim file). Earlier gaps that said it was unconfirmed were wrong because the council page was not yet readable.",
-    "The afternoon scan of 18 November found no new startup, AI or digital-services item for 17 and 18 November. Seen only as listing lines, not opened: the VRSA Youth Participatory Budget (voting to 13 December), the SamhainBaucogna film festival (24 to 29 November), World Diabetes Day at Monte Gordo, the UAlg participatory budget (9 November) and Longevity Society award (9 November), AMAL's 2027 budget and waste-study contract, and CCDR's 13 November waste conference. Barlavento and Postal were not read in the afternoon scan. The fetch of cm-alcoutim.pt returned no news content again (probably rendered by JavaScript); not retried."
+    "The afternoon scan of 18 November found no new startup, AI or digital-services item for 17 and 18 November. Seen only as listing lines, not opened: the VRSA Youth Participatory Budget (voting to 13 December), the SamhainBaucogna film festival (24 to 29 November), World Diabetes Day at Monte Gordo, the UAlg participatory budget (9 November) and Longevity Society award (9 November), AMAL's 2027 budget and waste-study contract, and CCDR's 13 November waste conference. Barlavento and Postal were not read in the afternoon scan. The fetch of cm-alcoutim.pt returned no news content again (probably rendered by JavaScript); not retried.",
+    "19 November, 06:40 UTC scan: almost nothing new was published overnight; Castro Marim and Alcoutim had no item from 18 or 19 November (cm-alcoutim.pt returned only a skip link again). Every new item above is held under R12 and most are listing only."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
@@ -1169,6 +1170,61 @@
         "url": "https://www.ccdr-alg.pt/"
       },
       "blast_radius": "the Ria Formosa and Guadiana coast, Tavira and Vila Real de Santo António first",
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+    },
+    {
+      "title": "Rede AZul opens a call for Algarve shows to tour in 2027",
+      "summary": "A call for Algarve arts organisations to put shows on more stages in 2027; an earlier headline put the closing date at 16 December. Not about technology, listed as a regional support call. (listing only (body not opened))",
+      "date": "2026-11-17",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/rede-azul-candidaturas-espetaculos-algarvios-2027/",
+      "read_on": "2026-11-19",
+      "significance": "region",
+      "ai_path": "no AI",
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; none stated on the pages read)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+    },
+    {
+      "title": "StartUp Portimão closes its seventh acceleration programme with a showcase of 12 projects",
+      "summary": "The only start-up programme item found this week in the western Algarve; what the 12 projects do, and whether any uses AI, was not read. (listing only (body not opened))",
+      "date": "2026-11-18",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/startup-portimao-programa-aceleracao-mostra-12-projetos/",
+      "read_on": "2026-11-19",
+      "significance": "region",
+      "ai_path": "no AI",
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; none stated on the pages read)",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link",
+      "blast_radius": "Portimão, Lagos, Lagoa"
+    },
+    {
+      "title": "Ciência Viva launches its national 2027 solar-eclipse campaign at the University of Algarve on 23 November",
+      "summary": "The launch session is hosted by the University of Algarve in Faro. (listing only (body not opened))",
+      "date": "2026-11-18",
+      "publisher": "Universidade do Algarve",
+      "url": "https://www.ualg.pt/ciencia-viva-lanca-campanha-nacional-para-o-eclipse-solar-de-2027-na-ualg",
+      "read_on": "2026-11-19",
+      "significance": "region and country",
+      "ai_path": "no AI",
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms (not yet read by this desk; none stated on the pages read)",
+        "url": "https://www.ualg.pt/"
+      },
       "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
       "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     }

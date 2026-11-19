@@ -1,5 +1,117 @@
 [
   {
+    "version": "v0.1.1865",
+    "date": "2026-11-19",
+    "what": "journalist@PrompTugal.dinis: principle text 'Evidence and details withheld'; desks quiet",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "4b6684bfd"
+  },
+  {
+    "version": "v0.1.1864",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 09:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "442ac0a7b"
+  },
+  {
+    "version": "v0.1.1863",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 09:18 wake: weekly limit still at warning; a fresh session for conductor.b@ would cut its cost",
+    "by": "maestro.b (account-b)",
+    "from": "ddf894dfa"
+  },
+  {
+    "version": "v0.1.1862",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: 09:10 wake: datasci.places@ brought; the debrief's morning section",
+    "by": "dev@PrompTugal.dinis",
+    "from": "b14186033"
+  },
+  {
+    "version": "v0.1.1861",
+    "date": "2026-11-19",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "944641270"
+  },
+  {
+    "version": "v0.1.1860",
+    "date": "2026-11-19",
+    "what": "conductor.b@PrompTugal.dinis: 08:48 wake: all sites fresh, bar 1.2.1 on 11 of 12; watch, status",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "ed75a547a"
+  },
+  {
+    "version": "v0.1.1859",
+    "date": "2026-11-19",
+    "what": "journalist@PrompTugal.dinis: principle text 'People who publish in public'; districts' status onto dev",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "503d952f7"
+  },
+  {
+    "version": "v0.1.1858",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 08:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "de3baa528"
+  },
+  {
+    "version": "v0.1.1857",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 08:18 wake: account B's seven-day limit at warning; which teams run today is Dinis's",
+    "by": "maestro.b (account-b)",
+    "from": "2257ef7bb"
+  },
+  {
+    "version": "v0.1.1856",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: the registry's install lines name the pin keys (bar: js, css, render; obs_tz: tz-country.json)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "1da0ff3bc"
+  },
+  {
+    "version": "v0.1.1855",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: pins.json append-only against every committed version of it, not only HEAD (security@'s S71)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "2a058d0ed"
+  },
+  {
+    "version": "v0.1.1854",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: sites bar 1.2.1 post-reviewed: go; S71 low",
+    "by": "security@PrompTugal.dinis",
+    "from": "2d812d6da"
+  },
+  {
+    "version": "v0.1.1853",
+    "date": "2026-11-19",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "6573ef788"
+  },
+  {
+    "version": "v0.1.1852",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: the registry's per-version bar pins also under .integrity.<file>, so leak scans exempt them (old keys kept)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "3f3c62713"
+  },
+  {
+    "version": "v0.1.1851",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: wake 07:03: sweep clean; sites bar 1.2.0 go",
+    "by": "security@PrompTugal.dinis",
+    "from": "055e6c143"
+  },
+  {
+    "version": "v0.1.1850",
+    "date": "2026-11-19",
+    "what": "conductor.b@PrompTugal.dinis: 06:48 wake: promptugal.news has not released since 05:43 (validate job cut at its 5-minute timeout); dev@ told",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "64c945d67"
+  },
+  {
     "version": "v0.1.1849",
     "date": "2026-11-19",
     "what": "dev@PrompTugal.dinis: the public-key leak rule covers ecdsa-sha2-* and the sk- security-key forms, with a test per key type",

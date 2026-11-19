@@ -1,0 +1,238 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-19T07:50Z",
+  "for": "journalist-portugal via newsroom@web-summit.dinis",
+  "covers": {
+    "vault": "41j3e9s9, pulled 19 Nov 2026 at 07:38 UTC: the researcher's 18 Nov 16:33 captures for the conductor's ten-companies task (Superhuman's blog, Rows' own post, UST's release) and the 19 Nov 07:17 capture of the gazette's standard terms (Aviso 3864/2026/2).",
+    "inputs": "Five themes; PrompTugal test; the conductor's task 2026-11-18-1115 (the curator commissions the ones that hold up, with the duplicate check) and the researcher's table of 18 Nov: one of ten holds up (Grammarly, through Superhuman and Rows), UST weak, the rest not identified or no Portugal or Europe link; no connections found. No hold. decisions.md read to standing answer 99 (nothing new for the curator).",
+    "overlap_checked": "19 Nov 07:50: nothing on Superhuman, Rows or Grammarly in articles or drafts; S71 is done (placed as update notes on S69 and S67, 18 Nov 21:00); S69 describes the service as an agreement with Sword Health and does not say that the legal framework is an open convention any provider can join."
+  },
+  "rules": "RULES-11NOV applies. Sources: the companies' own blogs, the official gazette and a company's own letter (an unchecked copy). The curator mentions nowhere how the company names reached the team.",
+  "captures": [
+    {
+      "id": "v-superhuman-acquires-rows",
+      "file": "vault 41j3e9s9, captures/2026-11-18-superhuman-acquires-rows.md",
+      "source_url": "https://blog.superhuman.com/superhuman-to-acquire-rows/",
+      "beat": "Portugal",
+      "names": [
+        "Superhuman",
+        "Rows",
+        "Grammarly",
+        "Coda"
+      ],
+      "what_is_new": "Superhuman's own blog (23 Feb 2026): it has agreed to acquire Rows, whose team will join it from Porto, Portugal, upon completion, expanding its European presence alongside Berlin, Warsaw and Kyiv; the Superhuman Suite brings together Grammarly, Coda, Mail and Go. Plans, not results; whether the deal closed is not stated.",
+      "is_story": true,
+      "group": "S73"
+    },
+    {
+      "id": "v-rows-joining-superhuman",
+      "file": "vault 41j3e9s9, captures/2026-11-18-rows-joining-superhuman.md",
+      "source_url": "https://rows.com/blog/post/rows-is-joining-superhuman",
+      "beat": "Portugal",
+      "names": [
+        "Rows",
+        "Superhuman"
+      ],
+      "what_is_new": "Rows' own post (22 Feb 2026): started in 2017; the company says more than 2.2 million people used it; once the acquisition is finalised it plans to sunset the Rows product over three months, ending 31 May 2026, with customers supported; does not mention Porto; the usage figures are the company's own claims.",
+      "is_story": true,
+      "group": "S73"
+    },
+    {
+      "id": "v-dre-aviso-3864-2026",
+      "file": "vault 41j3e9s9, captures/2026-11-19-dre-aviso-3864-2026-telerehab-terms.md",
+      "source_url": "https://files.diariodarepublica.pt/gratuitos/2s/2026/02/2S037A0000S00.pdf",
+      "beat": "Portugal",
+      "names": [
+        "health-system administration",
+        "national health service"
+      ],
+      "what_is_new": "The official gazette's text of the standard terms (23 February 2026): an accession convention for remote physiotherapy that any health-sector provider can join; for health service patients referred by their doctor who have the digital literacy to use it alone; the services listed; AI regulated only if a provider's platform includes it; clauses 1 to 12, 26 and 27 read, annexes and prices not read.",
+      "is_story": true,
+      "group": "S72"
+    },
+    {
+      "id": "v-acss-letter-sword-convention",
+      "file": "vault 41j3e9s9, captures/2026-11-18-acss-letter-sword-convention.md",
+      "source_url": "https://a.storyblok.com/f/325797/x/37d8fa1adf/autorizacao-celebracao-convencao-sword-health-sa.pdf",
+      "beat": "Portugal",
+      "names": [
+        "Sword Health Physio"
+      ],
+      "what_is_new": "A PDF letter (unchecked copy) dated 1 June 2026 authorising Sword Health Physio to enter that convention for 12 months, renewable; it cites the same notice; no AI mentioned, no price, no users.",
+      "is_story": true,
+      "group": "S72"
+    },
+    {
+      "id": "v-ust-tailwind-release",
+      "file": "vault 41j3e9s9, captures/2026-11-18-ust-tailwind-release.md",
+      "source_url": "https://www.prnewswire.com/pt/comunicados-de-imprensa/ust-acquires-leading-fintech-innovator-tailwind-302664416.html",
+      "beat": "Portugal",
+      "names": [
+        "UST",
+        "Tailwind Business Ventures"
+      ],
+      "what_is_new": "UST's own release (20 January 2026, datelined Lisbon): it acquired a US fintech with a Portugal delivery centre from 2019; ten months old; no UST Portugal detail.",
+      "is_story": false,
+      "group": "Held"
+    }
+  ],
+  "groups": {
+    "S73": [
+      "v-superhuman-acquires-rows",
+      "v-rows-joining-superhuman"
+    ],
+    "S72": [
+      "v-dre-aviso-3864-2026",
+      "v-acss-letter-sword-convention"
+    ],
+    "Held": [
+      "v-ust-tailwind-release"
+    ]
+  },
+  "duplicates_and_noise": [
+    {
+      "item": "The other nine companies of the conductor's list",
+      "verdict": "not commissioned",
+      "why": "The researcher's table: Uplink Labs, Optimized Optics, ISSI and MeeTri not identified (even with a country); Summit Cognitive, Markster, TurboApply and ConnectDevs have no Portugal or Europe link and no hook; no connection stories reach the bar (field links only). Nothing is commissioned for them."
+    },
+    {
+      "item": "UST",
+      "verdict": "held",
+      "why": "Weak: a ten-month-old release with a Lisbon dateline and a firm bought with a Portugal delivery centre; no news, no detail of UST's own Portugal work. Gap routed."
+    }
+  ],
+  "published_check": {
+    "S71": "done: update notes on S69 and S67 (18 Nov 21:00)",
+    "S69": "published"
+  },
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "The summit beat is finished."
+    },
+    "europe": {
+      "no_assignment": true,
+      "reason": "Nothing new on Europe and AI policy."
+    },
+    "portugal": {
+      "assignment": "S72 and S73",
+      "ready": true,
+      "reader_angle": "S72: patients and providers: what the service is in law. S73: Porto's tech scene and AI-product watchers: a Porto-built AI spreadsheet company's team joins a US AI platform.",
+      "source_ids": [
+        "v-dre-aviso-3864-2026",
+        "v-acss-letter-sword-convention",
+        "v-superhuman-acquires-rows",
+        "v-rows-joining-superhuman"
+      ],
+      "duplicate_check": "Run 19 Nov 07:50: no article or draft on Superhuman, Rows or the convention's terms."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "Nothing new on agents in real work or humans and AI beyond the Portugal items."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "The researcher's connection search for the ten companies found only field-level links without shared customers, partners, investors or programmes: below the standing answer 19 bar."
+    }
+  },
+  "story_candidates": [
+    {
+      "id": "S72",
+      "kind": "update",
+      "title": "Update: the health service's remote physiotherapy is open to any provider",
+      "beat": "Portugal",
+      "categories": [
+        "Portugal",
+        "AI"
+      ],
+      "ai_path": {
+        "connection": "One step away: the standard terms regulate AI only 'if and when' a provider's device or platform includes it (documentation of algorithms, accuracy and limits); they do not require AI.",
+        "steps_away": "1.",
+        "places": "Portugal's national health service; the health-system administration; EU medical-device rules as the terms refer to them."
+      },
+      "angle": "A short update note for the published S69: the official gazette's standard terms (23 February 2026) show that the health service's remote physiotherapy is an accession convention any health-sector provider can join, for patients referred by their doctor who have the digital literacy to use it alone, not an agreement exclusive to one company. A letter dated 1 June 2026 authorises Sword Health Physio under it for 12 months. The terms regulate AI only if a provider's platform includes it.",
+      "rests_on": [
+        "v-dre-aviso-3864-2026",
+        "v-acss-letter-sword-convention"
+      ],
+      "ready": true,
+      "note": "For journalist-portugal. Ready. Conditions: standing answer 95 format (a dated intro line with the source, then one to three short points); re-read the gazette PDF yourself (clauses 1 to 12, 26 and 27 were read by the researcher; the annexes, the eligible-conditions list and the prices were not: do not state any of them); the letter is an unchecked copy from a content-delivery site: use it only for 'authorised on 1 June 2026 for 12 months, renewable, under the same notice', attributed, or leave it out; do not say Sword Health is the only provider or that others have joined (no source says either way); do not give prices or numbers of patients; explain 'convention' and 'accession' in plain words at first use; the AI connection is one step (AI is regulated only if present) and goes in the data note; categories Portugal and AI."
+    },
+    {
+      "id": "S73",
+      "kind": "team-desk",
+      "title": "Superhuman to buy Rows, the AI spreadsheet company from Porto",
+      "beat": "Portugal",
+      "categories": [
+        "Portugal",
+        "AI",
+        "Corporate"
+      ],
+      "ai_path": {
+        "connection": "Direct: Rows builds AI inside spreadsheets (an AI analyst answering plain-language questions about data); Superhuman is an AI productivity platform with agents.",
+        "steps_away": "None (0).",
+        "places": "Porto, Portugal (where the Rows team is based); Superhuman's other European hubs in Berlin, Warsaw and Kyiv."
+      },
+      "angle": "Superhuman, the AI productivity platform behind Grammarly, Coda and Mail, said on 23 February 2026 that it had agreed to acquire Rows, an AI spreadsheet company whose team is based in Porto and would join Superhuman from there as part of its European expansion. Rows' own post says it would wind its product down by 31 May 2026 once the deal was final. What each company says, and what neither says: whether the deal closed, how many people join, and what happens in Porto.",
+      "rests_on": [
+        "v-superhuman-acquires-rows",
+        "v-rows-joining-superhuman"
+      ],
+      "ready": true,
+      "note": "For journalist-portugal. Ready. Conditions: re-read both pages yourself; two company sources, no independent report was found, so attribute everything ('Superhuman says', 'Rows says'); the news is about nine months old: give the dates (23 and 22 February 2026) and say the sources do not state whether the deal closed or whether the Rows product ended on 31 May; the figures (2.2 million users, 17 billion functions, 8.3 billion imports, 800,000 AI prompts) are Rows' own claims; Rows' post does not mention Porto, Superhuman's does; no price, no headcount, no Porto hiring plan exists in the sources: say so and do not infer; no founder names, no personal details; do not describe how the company names reached the team; the AI connection (direct, 0 steps; Porto, Superhuman's other hubs) goes in the data note; explain technical terms (AI agent, spreadsheet functions) at first use; length follows the story (standing answer 92); categories Portugal, AI and Corporate."
+    }
+  ],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S72",
+      "what": "Only clauses 1 to 12, 26 and 27 of the standard terms were read; annexes and prices not. The letter is an unchecked copy."
+    },
+    {
+      "item": "S73",
+      "what": "Two company posts from February 2026, neither confirming completion; Rows' post says the product would end on 31 May 2026 once the deal was finalised; no independent report; all figures are the companies' own."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S71",
+      "change": "Done: placed as update notes on S69 and S67 on 18 Nov; off the ready list."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "portugal",
+      "priority": 1,
+      "gap": "Whether the Superhuman and Rows deal closed and when, whether the Rows product ended on 31 May 2026, and any Porto detail (team size, office, hiring), from Superhuman's, Rows' or press pages after February.",
+      "reader_angle": "What happened after the announcement (theme 1).",
+      "sources_wanted": "Superhuman and Rows pages; European tech press.",
+      "why_not_a_duplicate": "Only the two February posts are captured."
+    },
+    {
+      "desk": "portugal",
+      "priority": 2,
+      "gap": "The annexes, eligible conditions and prices of the standard terms; whether other providers joined the convention.",
+      "reader_angle": "Who can offer the service and on what terms.",
+      "sources_wanted": "The gazette notice's annexes, the health-system administration's pages.",
+      "why_not_a_duplicate": "Only clauses 1 to 12, 26 and 27 were read."
+    },
+    {
+      "desk": "portugal",
+      "priority": 3,
+      "gap": "UST's Lisbon activity (its own pages or Portuguese press) and any recent news.",
+      "reader_angle": "An AI and technology services group in Lisbon.",
+      "sources_wanted": "UST's own site, press.",
+      "why_not_a_duplicate": "Only a January release is captured."
+    },
+    {
+      "desk": "ai",
+      "priority": 3,
+      "gap": "Cova da Beira's own account of its result and any São João pilot result; the Center's partner list and close; ARTE's release and the ANIA documents.",
+      "reader_angle": "Primary sources for earlier stories.",
+      "sources_wanted": "The unit's pages; programme or member pages; ARTE, FCT.",
+      "why_not_a_duplicate": "Not captured."
+    }
+  ],
+  "urgent": "None"
+}

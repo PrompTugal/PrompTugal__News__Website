@@ -1,0 +1,70 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S73",
+  "type": "story",
+  "title": "Superhuman to buy Rows, the AI spreadsheet company from Porto",
+  "beat": "Portugal",
+  "topic": null,
+  "status": "published",
+  "rests_on": [
+    "evidence:v-superhuman-acquires-rows",
+    "evidence:v-rows-joining-superhuman"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-19-0750.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-19-0750.json",
+      "desks/journalist-vicky/drafts/S73-superhuman-to-buy-rows-porto.md",
+      "desks/reviewer-vicky/reviews/S73.md",
+      "content/articles/superhuman-to-buy-rows-porto.md"
+    ]
+  },
+  "assignee": "journalist-portugal@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S73-superhuman-to-buy-rows-porto.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S73.md",
+      "verdict": "Ready, published under R-PUB-1",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-19"
+    }
+  ],
+  "article": {
+    "path": "content/articles/superhuman-to-buy-rows-porto.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-19T07:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-19-0750.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-19",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S73-superhuman-to-buy-rows-porto.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-19",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S73.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-19",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "content/articles/superhuman-to-buy-rows-porto.md"
+    }
+  ]
+}
