@@ -39,7 +39,7 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 12   # the gate builds about 2,400 pages; on CI it passed 5 minutes on 19 Nov (dev@; BUILD_PROFILE=1 node newsroom/build/build.mjs shows each feature)
     permissions:
       contents: read
     steps:
