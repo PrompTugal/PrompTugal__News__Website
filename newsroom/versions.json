@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1858",
+    "date": "2026-11-19",
+    "what": "telemetry.b@PrompTugal.dinis: wake 08:26, costs refreshed for 36 sessions",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "de3baa528"
+  },
+  {
     "version": "v0.1.1857",
     "date": "2026-11-19",
     "what": "maestro.b (account-b): 08:18 wake: account B's seven-day limit at warning; which teams run today is Dinis's",
