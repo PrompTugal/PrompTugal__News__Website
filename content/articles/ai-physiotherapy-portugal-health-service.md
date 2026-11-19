@@ -30,21 +30,14 @@ image_alt: "A card: AI physiotherapy at home, in Portugal's national health serv
 >
 > We found no source saying whether any other provider has joined.
 
-> **Update, 18 November 2026.** A launch-day report in [DNOTICIAS](https://www.dnoticias.pt/2026/6/18/496006-medicos-vao-poder-prescrever-fisioterapeuta-em-casa-com-inteligencia-artificial/), published on 18 June 2026, adds two points:
+> **Update, 18 November 2026.** Two reports added to what we knew: a launch-day report in [DNOTICIAS](https://www.dnoticias.pt/2026/6/18/496006-medicos-vao-poder-prescrever-fisioterapeuta-em-casa-com-inteligencia-artificial/), published on 18 June 2026, and a [report from RTP](https://www.rtp.pt/noticias/pais/futura-uls-sao-joao-tera-projeto-piloto-de-telerreabilitacao-pos-cirurgica_n1538412), based on Lusa, dated 21 December 2023, which links an earlier pilot to the [Center for Responsible AI](center-for-responsible-ai-money-partners-goals.html).
 >
-> - **The nine units.** The protocols were signed for the local health units of Santa Maria, Algarve, Alto Ave, Baixo Mondego, Cova da Beira, Matosinhos, São João, Almada Seixal and São José. The report says the model may extend to others that ask.
-> - **The waiting-time figure.** The report says Cova da Beira was the first unit to give patients the devices, in 2025. It says, citing the unit's board president, that the average wait to start physiotherapy there fell from two years to 10 days after hospital referral. Our [update on the Center for Responsible AI article](center-for-responsible-ai-money-partners-goals.html) gave the same figure as the Center's chief executive's claim about a Porto hospital.
+> - **The nine units (DNOTICIAS).** The protocols were signed for the local health units of Santa Maria, Algarve, Alto Ave, Baixo Mondego, Cova da Beira, Matosinhos, São João, Almada Seixal and São José. The report says the model may extend to others that ask.
+> - **The waiting-time figure (DNOTICIAS).** The report says Cova da Beira was the first unit to give patients the devices, in 2025. It says, citing the unit's board president, that the average wait to start physiotherapy there fell from two years to 10 days after hospital referral. Our [update on the Center for Responsible AI article](center-for-responsible-ai-money-partners-goals.html) gave the same figure as the Center's chief executive's claim about a Porto hospital.
+> - **An earlier pilot (RTP).** It describes a different project from the 2026 agreement: a trial at São João in Porto for people recovering from surgery. Treatment was to begin in person and continue with physiotherapy at home. It was planned for six months and about 300 patients. The report says the project "was created out of" the Center. It names the São João hospital centre and Sword Health as members of the consortium.
+> - **The pilot's supervision (RTP).** Progress was to be monitored on a Sword Health online platform, with alerts supervised by a rehabilitation doctor. The report does not say the platform used AI. Neither the government's item nor Observador mentions this pilot.
 >
-> The two accounts differ. We have not checked either, and we do not say which is right.
-
-> **Update, 18 November 2026.** A [report from RTP](https://www.rtp.pt/noticias/pais/futura-uls-sao-joao-tera-projeto-piloto-de-telerreabilitacao-pos-cirurgica_n1538412), based on Lusa, dated 21 December 2023, links an earlier pilot to the [Center for Responsible AI](center-for-responsible-ai-money-partners-goals.html). It describes a different project from the 2026 agreement:
->
-> - **The pilot.** A trial at São João in Porto for people recovering from surgery. Treatment was to begin in person and continue with physiotherapy at home. It was planned for six months and about 300 patients.
-> - **The link.** The report says the project "was created out of" the Center. It names the São João hospital centre and Sword Health as members of the consortium.
-> - **The supervision.** Progress was to be monitored on a Sword Health online platform, with alerts supervised by a rehabilitation doctor. The report does not say the platform used AI.
-> - **The 2026 sources.** Neither the government's item nor Observador mentions this pilot.
->
-> The 2023 report is about a planned pilot. It gives no results and no waiting-time figure. We do not say the pilot became the 2026 service.
+> The two accounts of the waiting-time figure differ. We have not checked either, and we do not say which is right. The 2023 report is about a planned pilot. It gives no results and no waiting-time figure. We do not say the pilot became the 2026 service.
 
 ## In short
 

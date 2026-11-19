@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/data/schemas/places-registry.schema.json",
+  "title": "The registry of places every site reads (data/site/places-registry.json, derived from data/places/)",
+  "type": "object",
+  "required": [
+    "places",
+    "derived"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "common.schema.json#/$defs/schema_link"
+    },
+    "places": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "kind",
+          "parent",
+          "country",
+          "timezone",
+          "wikidata"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/slug"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "country",
+              "region",
+              "city",
+              "district",
+              "borough"
+            ]
+          },
+          "parent": {
+            "anyOf": [
+              {
+                "$ref": "common.schema.json#/$defs/place_ref"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "country": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[A-Z]{2}$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "ISO 3166-1 alpha-2, the place's own or the nearest ancestor's; null where no place up the chain has one yet"
+          },
+          "timezone": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[A-Za-z_]+/[A-Za-z_]+$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "wikidata": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^Q[0-9]+$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "derived": {
+      "$ref": "common.schema.json#/$defs/derived"
+    }
+  },
+  "additionalProperties": false
+}
