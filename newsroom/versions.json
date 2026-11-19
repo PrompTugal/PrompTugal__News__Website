@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1913",
+    "date": "2026-11-19",
+    "what": "rights@PrompTugal.dinis: Algarve cameras (R11): MEO BeachCam links only; SkylineWebcams terms unconfirmed (403, robots)",
+    "by": "rights@PrompTugal.dinis",
+    "from": "0e29f25ef"
+  },
+  {
     "version": "v0.1.1912",
     "date": "2026-11-19",
     "what": "security@PrompTugal.dinis: control 10: paths NUL-separated, exceptions matched as whole strings",
