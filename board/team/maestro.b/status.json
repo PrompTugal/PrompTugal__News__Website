@@ -1,18 +1,22 @@
 {
-  "agent": "maestro.b (account-b)",
+  "agent": "maestro.b@PrompTugal.dinis",
+  "name": "maestro.b (account-b)",
+  "focus": "Dinis's main conductor on account B: one view across the focused conductors (conductor.b@, cells.b, writer-10) and the side-cars; never a conductor's work",
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-19T02:19Z",
+  "updated": "2026-11-19T02:26Z",
   "state": "2026-11-19T02:19Z wake: view rebuilt (view.md, view.html); 6 sessions wait on Dinis; no new guidance since 01:55",
   "done": [
     "2026-11-19T02:01Z onboarding: read CLAUDE.md, New from Dinis, the maestro guidance, conductor.b@'s status, debrief 2026-11-18 and roster; key maestro.b-account-b made with sgit pki keygen, public bundle and ssh signing key in board/keys.json with this session; git set repo-locally to sign with newsroom/tools/signing-setup.sh",
     "2026-11-19T02:01Z read get_session for conductor.b@, cells.b, writer-10 and telemetry.b@ (status and cost only, no transcripts) and the status.json of rights@, security@, abp@, telemetry.b@",
     "2026-11-19T02:03Z the account view at Dinis's ask: 39 active sessions, 6 blocked on a person (rights@, security@, sherpa@, bulletins.b@, two of cells.b's conductors), 2 active with no wake (cells.b's two conductors), 34 recurring wakes + 1 one-shot, none on a dead session; 61 dormant sessions, 18 showing stale 'blocked'",
     "2026-11-19T02:09Z the infographic of the account view at Dinis's ask (landscape 1600x900 for a laptop): board/team/maestro.b/view.html, rebuilt each wake with view.md",
-    "2026-11-19T02:19Z 02:18 wake: no HOLD, no new 'New from Dinis' row; conductor.b@ working ($324), writer-10 releasing ($18), cells.b now waits on Dinis with 6 asks ($17); live.b@ newly waits (MEO BeachCam request); security@ no longer flagged blocked; view.md and view.html rebuilt"
+    "2026-11-19T02:19Z 02:18 wake: no HOLD, no new 'New from Dinis' row; conductor.b@ working ($324), writer-10 releasing ($18), cells.b now waits on Dinis with 6 asks ($17); live.b@ newly waits (MEO BeachCam request); security@ no longer flagged blocked; view.md and view.html rebuilt",
+    "2026-11-19T02:26Z fixed the gate I turned red at 02:09 (security@ and conductor.b@ reported it): status.json now uses the board's agent form (maestro.b@PrompTugal.dinis, as in my ABP) with a focus; view.html taken out of the repository (the gate treats every .html as a page); the infographic stays in my session and is sent to Dinis directly"
   ],
   "next": [
+    "every push through the gate first (node newsroom/build/validate.js until OK, or release.sh); no .html under board/team/",
     "03:18 wake: the same round; the fuller brief at 07:18"
   ],
   "asks": [
