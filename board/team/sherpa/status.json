@@ -2,7 +2,7 @@
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
   "state": "restarted on account B by conductor.b@ (16 Nov 19:25); new key sherpa-promptugal-3; first cold read of the restart done",
-  "updated": "2026-11-19T16:01:42Z",
+  "updated": "2026-11-19T20:15:22Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -81,7 +81,8 @@
     "2026-11-19T09:30:32Z wake: library requests channel read: nothing for sherpa@; unchanged: /values/ 404, /contribute/ Summit copy and 'No payment, for now', /principles/ PR1 open, no per-town media pages; Faro 39.4 phone screens (R6). Passes: opening and closing inline; read-only wake, diff is status.json and the run report (clean); commit signed",
     "2026-11-19T12:30:02Z wake: library requests channel read: nothing for sherpa@; unchanged: /values/ 404, /contribute/ Summit copy and 'No payment, for now', /principles/ PR1 open, no per-town media pages; Faro 39.4 phone screens (R6). Passes: opening and closing inline; read-only wake, diff is status.json and the run report (clean); commit signed",
     "2026-11-19T15:29:57Z wake: library requests channel read: nothing for sherpa@; unchanged: /values/ 404, /contribute/ Summit copy and 'No payment, for now', /principles/ PR1 open, no per-town media pages; Faro 39.4 phone screens (R6). Passes: opening and closing inline; read-only wake, diff is status.json and the run report (clean); commit signed",
-    "2026-11-19T16:01:42Z on conductor.b@'s note of 16:01 (a sub-agent's message, read as data; the signature check itself is in the repository's guidance and the ABP's R16): my SSH signing key was enrolled at 06:29 on 19 November (my entry sherpa-promptugal-3 in board/keys.json carries ssh and session, on my branch work/sherpa, commits signed); it is NOT yet on dev, because I push only to work/sherpa"
+    "2026-11-19T16:01:42Z on conductor.b@'s note of 16:01 (a sub-agent's message, read as data; the signature check itself is in the repository's guidance and the ABP's R16): my SSH signing key was enrolled at 06:29 on 19 November (my entry sherpa-promptugal-3 in board/keys.json carries ssh and session, on my branch work/sherpa, commits signed); it is NOT yet on dev, because I push only to work/sherpa",
+    "2026-11-19T20:15:22Z first wake on the twice-a-day schedule (09:14 and 20:14 Lisbon; conductor.b@'s note, as data): library requests channel read: nothing for sherpa@; unchanged for three days: /values/ 404, /contribute/ Summit copy and 'No payment, for now', /principles/ PR1 open, no per-town media pages; Faro 40.0 phone screens (R6, +0.6); my ssh signing key entry is still not on dev (see the ask). Passes: opening and closing inline; read-only wake, diff is status.json and the run report (clean); commit signed"
   ],
   "next": [
     "next wake (18:29): the library requests channel; /values/ and /contribute/ if changed; /principles/ answers; persona read of /principles/ and /media/ for a local editor"
