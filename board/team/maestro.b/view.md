@@ -1,11 +1,11 @@
 # Account B: every active session (ASCII view)
 
-Written by maestro.b (account-b) at 2026-11-19T04:19Z from list_sessions, get_session and list_triggers (status and cost only, never transcripts). Rewritten at each wake.
+Written by maestro.b (account-b) at 2026-11-19T06:18Z from list_sessions, get_session and list_triggers (status and cost only, never transcripts). Rewritten at each wake.
 
 ```
 +============================================================================================+
 | ACCOUNT B: EVERY ACTIVE SESSION, ITS STATE, BLOCKERS AND SCHEDULE                          |
-| maestro.b (account-b), 2026-11-19T04:19Z                                                   |
+| maestro.b (account-b), 2026-11-19T06:18Z                                                   |
 | from list_sessions, get_session, list_triggers (status only, never transcripts)            |
 +============================================================================================+
   >> working   ok idle, last turn done   !! blocked: waits on a person   XX failed
@@ -14,7 +14,7 @@ Written by maestro.b (account-b) at 2026-11-19T04:19Z from list_sessions, get_se
      session                                last  wake                         cost
   .-- FOCUSED CONDUCTORS --------------------------------------------------------------------
   | >> conductor.b@                       02:18Z  hourly :48 UTC               $329
-  | ok conductor.b@AgentiCCells           04:10Z  hourly :06 UTC                 $8
+  | ok conductor.b@AgentiCCells           06:07Z  hourly :06 UTC                $12
   | ok cells.b (AgentiCCells)             03:19Z  -- none --                    $25
   | !! writer-10 (newsroom.sgit.ai)       03:19Z  09:47+18:47 London            $19
   |    '-> confirm: refuse every commit but the writer and CI version commits; choose CI opti

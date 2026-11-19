@@ -20,7 +20,7 @@ const keyHits = text => KEY_RULES.filter(([re]) => re.test(text)).map(([, what])
 
 const r = (c, n) => c.repeat(n)
 const FIXTURES = {
-    'a private key': ['-----BEGIN ' + 'OPENSSH PRIVATE KEY-----', '-----BEGIN ' + 'ENCRYPTED PRIVATE KEY-----', '-----BEGIN ' + 'DSA PRIVATE KEY-----', '-----BEGIN ' + 'PRIVATE KEY-----'],
+    'a private key': ['-----BEGIN ' + 'OPENSSH PRIVATE KEY-----', '-----BEGIN ' + 'ENCRYPTED PRIVATE KEY-----', '-----BEGIN ' + 'DSA PRIVATE KEY-----', '-----BEGIN ' + 'PRIVATE KEY-----', '-----BEGIN ' + 'RSA PRIVATE KEY-----', '-----BEGIN ' + 'EC PRIVATE KEY-----'],
     'an sgit private key (vault or private read)': ['sgit_private_' + 'vault_Ab1', 'sgit_private_' + 'read_Zz9'],
     'a vault-key-shaped string': [r('A', 24) + ':' + '12345678-abcd-abcd-abcd-1234567890ab'],
     'an API key or token': ['sk-' + 'ant-api03-' + r('a', 30), 'sk-' + r('b', 24), 'ghp' + '_' + r('c', 36), 'gho' + '_' + r('d', 36), 'ghs' + '_' + r('e', 36), 'github' + '_pat_' + r('f', 30), 'AKIA' + r('G', 16), 'xox' + 'b-' + r('1', 12), 'AI' + 'za' + r('h', 35)],
@@ -28,12 +28,34 @@ const FIXTURES = {
 }
 const NOT_SECRETS = ['{"kty":"EC","crv":"P-256","x":"aa","y":"bb"}', 'the risk-mandate-gap video', 'sha256:db7f79fdd87e030a']
 
+// An SSH public key outside its published field (security@'s ruling, 19 November 2026, via conductor.b@: the entropy rule
+// alone missed about 1 in 75). Published means: the "ssh" field of an entry in board/keys.json (or ssh_signing.public_key);
+// anywhere else, in any file, it is flagged.
+const SSH_PUB = /(ssh-ed25519|ssh-rsa|ssh-dss|ecdsa-sha2-nistp(256|384|521)|sk-ecdsa-sha2-nistp256@openssh\.com|sk-ssh-ed25519@openssh\.com) AAAA[A-Za-z0-9+/]{40,}={0,3}/g
+function strayPublicKeys(rel, text) {
+    const found = text.match(SSH_PUB) || []
+    if (!found.length) return []
+    let allowed = new Set()
+    if (rel === 'board/keys.json') try {
+        for (const k of JSON.parse(text).keys || []) for (const v of [k.ssh, k.ssh_signing && k.ssh_signing.public_key]) if (typeof v === 'string') for (const m of v.match(SSH_PUB) || []) allowed.add(m)
+    } catch { }
+    const bad = found.filter(m => !allowed.has(m))
+    return bad.length ? [`an SSH public key outside its published field (${bad.length})`] : []
+}
+
 function selfTest() {
     const errors = []
+    // the public-key rule: flagged anywhere but a key entry's ssh field
+    const pk = 'ssh-' + 'ed25519 AAAA' + r('C', 64)
+    // every key type, each outside its field (library.b@'s LIB-2026-060: ecdsa and the sk- forms do not start "ssh-")
+    for (const t of ['ssh-' + 'ed25519', 'ssh-' + 'rsa', 'ssh-' + 'dss', 'ecdsa-' + 'sha2-nistp256', 'ecdsa-' + 'sha2-nistp384', 'ecdsa-' + 'sha2-nistp521', 'sk-' + 'ecdsa-sha2-nistp256@openssh.com', 'sk-' + 'ssh-ed25519@openssh.com'])
+        if (!strayPublicKeys('notes.md', 'my key: ' + t + ' AAAA' + r('C', 64)).length) errors.push(`secrets.cjs: a stray ${t} public key is not caught`)
+    if (!strayPublicKeys('board/keys.json', JSON.stringify({ keys: [{ id: 'x', note: pk }] })).length) errors.push('secrets.cjs: an SSH public key outside the ssh field is not caught in board/keys.json')
+    if (strayPublicKeys('board/keys.json', JSON.stringify({ keys: [{ id: 'x', ssh: pk }] })).length) errors.push('secrets.cjs: a published SSH public key is flagged')
     for (const [what, samples] of Object.entries(FIXTURES))
         for (const s of samples) if (!keyHits(s).includes(what)) errors.push(`secrets.cjs: ${what} not caught in fixture ${s.slice(0, 14)}…`)
     for (const s of NOT_SECRETS) if (keyHits(s).length) errors.push(`secrets.cjs: a public string is flagged: ${s.slice(0, 20)}`)
     return errors
 }
 
-module.exports = { KEY_RULES, BINARY, keyHits, selfTest }
+module.exports = { KEY_RULES, BINARY, keyHits, strayPublicKeys, selfTest }

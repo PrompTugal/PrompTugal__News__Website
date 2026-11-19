@@ -26,3 +26,11 @@ What changed against B1 to B8:
 - **preview_spec aligned:** /preview.svg 320 by 180 (SB6); /preview.png 1200 by 630 for social cards.
 - **B7 (the version fetch when a pop-up opens):** unchanged; still open for a later version.
 - Sites on 1.1.0 keep working (same markup, same CSS); 1.1.1 is a drop-in. Checked in Chromium, desktop and iPhone 13.
+
+## 19 Nov, 06:19 UTC: v1.2.0, the one switcher (Dinis 03:18; designer@'s SB8 to SB12, e45f410f5)
+- **SB10:** on a phone one row that scrolls sideways (designer@'s CSS), the current site scrolled to the centre on load, no pop-up; the "Sites ▾" button and the sheet are gone (smaller code: no focus trap, no scrim).
+- **SB9:** one tap, same tab (no target on any bar link; promptugal.news's new-tab rule treats *.promptugal.news as its own, cd364f9f4).
+- **SB11:** on a desktop every name in one line, wrapping to a second line if the registry grows.
+- **SB8:** the last hard-coded list on promptugal.news (`cmore-net` in the hidden "more" menu) removed.
+- Safety unchanged from 1.1.1: the renderer's checks and escaping, textContent only, the version fetch without redirects or user info, previews as img only.
+- Pins: api/v1/sites.json `bar.versions["1.2.0"]`, append-only beside 1.1.0 and 1.1.1. Checked in Chromium at 1280 px and on iPhone 13, light: no errors.
