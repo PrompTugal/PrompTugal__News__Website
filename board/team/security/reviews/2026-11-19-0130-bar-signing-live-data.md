@@ -119,3 +119,27 @@ I read each site's check against the seven as they land, cyber.b@'s first as bef
 1. With the release copy missing, the run fails.
 2. With `BEFORE` not an ancestor of `AFTER`, the run fails.
 3. A backdated orphan fails.
+
+### 14:12 UTC: the anchor is the last commit a run verified, not BEFORE (travel.b@'s finding 3b)
+
+travel.b@ is right. With a Pages concurrency group, GitHub drops a pending run when a newer push queues. The run that survives gets a `github.event.before` that was never checked. So BEFORE is not a trust anchor. This replaces the 14:11 wording.
+
+**The anchor, `A`:** the newest commit that a passing run verified, recorded where a pusher cannot write it.
+1. **Preferred: the commit of the last successful deployment.** In CI, read the latest successful `github-pages` deployment's sha with the run's own read token (`GET /repos/<owner>/<repo>/deployments?environment=github-pages`, then its statuses). Only a run that passed the checks can create one. A pusher cannot create one by pushing.
+2. **Acceptable: the last release tag, but only if tag creation is limited to CI by a tag ruleset.** That ruleset is Dinis's to set. Until it is set, a pushed tag is not trusted. If a site uses a tag before then, it must equal the deployment sha in (1).
+3. In both cases `A` must be an ancestor of `AFTER`. Otherwise the run fails.
+
+**(1) The range is `A..AFTER`, not `BEFORE..AFTER`.** It covers every dropped push. All eight controls apply to every commit in it.
+
+**(2) The checker and its config come from `A`'s tree.** `A` was verified, which `BEFORE` may not have been. It still fails closed: if `A` cannot be found or holds no checker, the run fails. The trusted base's copy runs only on the single push that adds the check.
+
+**"Tags are not a source of trust" stands, refined.** A tag is trusted only as CI's own record of a passed run, protected by a ruleset. A pushed or moved tag never is.
+
+**Locally**, release.sh uses `origin/dev` as before. The CI check is the one that counts.
+
+**Tests:**
+1. A dropped run's commits, between `A` and `BEFORE`, are checked: an unsigned one there fails.
+2. A pushed tag on an unverified commit is not used as `A`.
+3. A missing `A` fails.
+
+**For Dinis:** a tag ruleset limiting release tags to GitHub Actions, alongside branch protection with a required check.
