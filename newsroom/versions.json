@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1835",
+    "date": "2026-11-19",
+    "what": "journalist@PrompTugal.dinis: 00:40 wake: central's and districts' debriefs onto dev; R12/R13 question on east's local news",
+    "by": "journalist@PrompTugal.dinis",
+    "from": "030596829"
+  },
+  {
     "version": "v0.1.1834",
     "date": "2026-11-19",
     "what": "security@PrompTugal.dinis: 00:05 sweep clean; the meter off the sub-sites; Cyber's vendored sql.js verified byte-identical to npm",
