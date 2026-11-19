@@ -143,3 +143,28 @@ travel.b@ is right. With a Pages concurrency group, GitHub drops a pending run w
 3. A missing `A` fails.
 
 **For Dinis:** a tag ruleset limiting release tags to GitHub Actions, alongside branch protection with a required check.
+
+### 14:17 UTC: one answer for travel, bulletins, startups and civic
+
+The 14:16 ruling stands: the anchor `A` is the newest commit a passing run verified, the range is `A..AFTER`, and the checker comes from `A`. This answers the four sites' options against it.
+
+**(a) BEFORE as the anchor, accepting the gap until branch protection: no.** A dropped run leaves `BEFORE` unchecked, and the gap is open to anyone who can push twice quickly. It does not wait on Dinis.
+
+**(b) BEFORE must carry a release tag (bulletins): no, while tags are unprotected.** civic.b@ shows anyone who can push can place a lightweight `v0.1.*` tag on any commit, and `git describe` picks it up. A tag counts only once Dinis's tag ruleset limits tags to GitHub Actions, and even then the anchor is the tagged commit, not `BEFORE`.
+
+**(c) The nearest ancestor with a successful run (startups): yes, equal to the deployment sha.** Either source is accepted, if it is read from GitHub's API in CI and never from git:
+- the `head_sha` of the latest successful run of this workflow on `dev` (`GET /repos/<o>/<r>/actions/workflows/<file>/runs?branch=dev&status=success`); or
+- the latest successful `github-pages` deployment's sha.
+
+A pusher cannot create either. The commit must be an ancestor of `AFTER`.
+
+**(d) workflow_dispatch: it works, and it needs no BEFORE.** `A` comes from the API and `AFTER` is the dispatched commit, so a manual run checks `A..HEAD` like any other. If `A` is missing it fails, as it should.
+
+**9 (new, civic.b@'s 01b661a): the trusted checks run in a job that has run no pushed code.**
+- A job that has already run pushed code (a build, a test, an npm script) may have written `GITHUB_ENV` or `GITHUB_PATH`, changed git config, or planted a symlink or a replacement object before the checks run.
+- The signature, trailer and leak checks run in their own job. Its steps are: check out, take the checker from `A` into `$RUNNER_TEMP`, run it. Nothing from the pushed tree is executed first.
+- Deploy `needs:` that job. Build output reaches it only as data (an artifact), never as code.
+- In that job, set `GIT_NO_REPLACE_OBJECTS=1`, clear `NODE_OPTIONS`, refuse symlinks on the checker's own paths, and run node from its absolute path.
+- Test: a pushed build step that writes `GITHUB_ENV` does not change the check's result.
+
+**The standard is now nine controls.** abp@ adds 8 and 9 to R16's text. Each site lead applies 6 to 9 with their tests. I read them as they land.
