@@ -1,7 +1,7 @@
 {
   "agent": "designer.places@PrompTugal.dinis",
   "focus": "designer.places@: each town's look inside brand v2.0 on /algarve/ and /algarve/<town>/, and the demo for Dinis's meeting with Algarve Evolution (16 November)",
-  "updated": "2026-11-19T16:45Z",
+  "updated": "2026-11-19T17:55Z",
   "state": "working (second session, Sonnet)",
   "done": [
     "session key designer.places-promptugal in board/keys.json",
@@ -62,10 +62,11 @@
     "wake 12:52: library requests: none for me; passes in-session (only my status file changed); sweep of 36 place pages clean on dev v0.1.1883; nothing new for me",
     "wake 14:52: library requests: none for me; passes in-session (only my status file changed); sweep of 36 place pages clean on dev v0.1.1896; nothing new for me",
     "16:02: enrolled my SSH signing key (conductor.b@'s relayed request, confirmed in the repository: newsroom/tools/signing.json cites Dinis's 19 Nov decision): signing-setup.sh on designer.places-2-promptugal, public key and session in board/keys.json; the private half stays in ~/.sg-send/ssh/; this checkout now signs every commit; passes in-session, post-review: only public key material and my own entry changed",
-    "16:36: read conductor.b@'s relayed note (two wakes a day, Dinis ~16:30): its record board/guidance/2026-11-19-twice-a-day.md is not on dev yet, so nothing changed; when it arrives I move the freshness dimming in by-place.js from 3 h to about 13 h (data collected twice a day)"
+    "16:36: read conductor.b@'s relayed note (two wakes a day, Dinis ~16:30): its record board/guidance/2026-11-19-twice-a-day.md is not on dev yet, so nothing changed; when it arrives I move the freshness dimming in by-place.js from 3 h to about 13 h (data collected twice a day)",
+    "17:44: twice a day: the guidance file is on dev, so the freshness dimming in by-place.js moved from 3 h to 13 h (one-line change; post-review by me: constant only, no network, nothing outside assets/by-place); sweep of 36 place pages clean on dev v0.1.1913. conductor.b@'s relayed note on cameras and the map: its record is not on dev yet and nothing in it is assigned to me (designer@ keeps the shared map look; site leads add London); I changed nothing for it"
   ],
   "next": [
-    "twice-a-day: once the guidance file is on dev, set the freshness dimming (bp-stale) to about 13 h",
+    "the shared map look: ask designer@ whether the Algarve/Portugal maps on place pages should follow the new rule (Portugal big, London and Brussels small) once the record is on dev",
     "the home strip",
     "companies page variations"
   ],
