@@ -8,7 +8,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { createHash } from 'node:crypto'
 import { createRequire } from 'node:module'
-const VERSION = '1.0.1'
+const VERSION = '1.0.2'
 const O = JSON.parse(readFileSync('assets/portugal/portugal-outline.json', 'utf8')).countries
 const r3 = n => Math.round(n * 1000) / 1000
 const OUTLINE = { pt: O.Portugal.map(p => p.map(r => r.map(([a, b]) => [r3(a), r3(b)]))), es: O.Spain.map(p => p.map(r => r.map(([a, b]) => [r3(a), r3(b)]))) }
@@ -16,9 +16,21 @@ const OUTLINE = { pt: O.Portugal.map(p => p.map(r => r.map(([a, b]) => [r3(a), r
 const JS = `/*! ptmap ${VERSION}: the shared map of the PrompTugal.news sites (designer@PrompTugal.dinis, 19 Nov 2026;
  * board/spec-the-shared-map.md in PrompTugal/PrompTugal__News__Website). Vendor this file pinned by its sha384; never load it
  * from another site. No dependencies, no network, no innerHTML: every label is set as text, every link checked.
- * Outline: Natural Earth 110m (public domain) via world-atlas, ISC licence: Copyright 2013-2019 Michael Bostock.
- * Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted,
- * provided that the above copyright notice and this permission notice appear in all copies. THE SOFTWARE IS PROVIDED "AS IS".
+ * Outline: Natural Earth 110m (public domain), packaged by world-atlas; world-atlas's ISC licence, in full (1.0.2, rights@ R12):
+ *
+ * Copyright 2013-2019 Michael Bostock
+ *
+ * Permission to use, copy, modify, and/or distribute this software for any purpose
+ * with or without fee is hereby granted, provided that the above copyright notice
+ * and this permission notice appear in all copies.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+ * REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+ * FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+ * INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
+ * OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+ * TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
+ * THIS SOFTWARE.
  *
  * PTMap.render(element, {
  *   places: [{ id, name, at: [lon, lat], href, n }],   // mainland places; n (optional) sizes the dot

@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-19T19:45Z",
+  "updated": "2026-11-19T19:49Z",
   "done": [
+    "19:49: ptmap 1.0.2 (rights@ R12): world-atlas's ISC licence in full in the header, code identical to 1.0.1; new sha384s",
     "19:45: ptmap 1.0.1 (security@'s two lows on 1.0.0): el() sets own keys only (tested against a polluted prototype); the ISC notice already carried, rights@ to confirm; design/shared-map/v1.0.1/ with new sha384s",
     "19:37 wake (now twice a day): designer.places@'s five commits onto dev by merge (the 13-hour stale threshold, its signing key); library requests none; the shared map ptmap v1.0.0 already out at 9f5ba1d44",
     "19:30: the shared map, ptmap v1.0.0 (Dinis 19 Nov ~17:40; civic.b@ asked for one vendorable piece): design/shared-map/v1.0.0/ (ptmap.js, ptmap.css, manifest.json with sha384), spec board/spec-the-shared-map.md (SM1-SM5, safety), demo pictures at 1280 and 390, light and dark; no AI; the outline Natural Earth (public domain)",
