@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1910",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: signing standard: control 10, no symlinks unless listed in the anchor with a reason",
+    "by": "security@PrompTugal.dinis",
+    "from": "ed70bd996"
+  },
+  {
     "version": "v0.1.1909",
     "date": "2026-11-19",
     "what": "dev@PrompTugal.dinis: twice-daily staleness: the airport line reads stale_after_seconds; the dashboard waits 13 hours",
