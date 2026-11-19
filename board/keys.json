@@ -3336,7 +3336,10 @@
         "record": "sha256:b3622aff4c654f79",
         "signing_fingerprint": "sha256:b3622aff4c654f79"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEScWwZmqtCoAglILnyAl7tNcvxFqu/ThsxKLduH+e7z",
+      "session": "https://claude.ai/code/session_01Kw9UwFbJYpQ44VurDMAQJr",
+      "ssh_added": "2026-11-19T06:29Z"
     },
     {
       "id": "datasci.places-promptugal-b",

@@ -2,7 +2,7 @@
   "agent": "sherpa@PrompTugal.dinis",
   "focus": "the experience of every page as the cold reader, on a phone in portrait and a desktop; reviews in every pass",
   "state": "restarted on account B by conductor.b@ (16 Nov 19:25); new key sherpa-promptugal-3; first cold read of the restart done",
-  "updated": "2026-11-19T03:45Z",
+  "updated": "2026-11-19T06:30:01Z",
   "done": [
     "session key sherpa-promptugal in board/keys.json (record sha256:815546ef5b00a41c; pki-agent.mjs matched the pinned sha256); listed in data/newsroom/agents.json",
     "ROLE.md and status.json",
@@ -76,7 +76,8 @@
     "18:40 (18 Nov) wake: library requests channel read: nothing for sherpa@; unchanged: /values/ 404, /contribute/ Summit copy and 'No payment, for now', /principles/ unchanged (PR1 still open), no per-town media pages; Faro 39.3 phone screens (R6, +1.8 since 15:30). Passes: opening and closing inline; read-only wake, diff is status.json and the run report (clean)",
     "21:40 (18 Nov) wake: library requests channel read: nothing for sherpa@; unchanged: /values/ 404, /contribute/ Summit copy and 'No payment, for now', /principles/ PR1 open, no per-town media pages; Faro 39.6 phone screens (R6). Passes: opening and closing inline; read-only wake, diff is status.json and the run report (clean)",
     "00:40 (19 Nov) wake: library requests channel read: nothing for sherpa@; unchanged: /values/ 404, /contribute/ Summit copy and 'No payment, for now', /principles/ PR1 open, no per-town media pages; Faro 39.4 phone screens (R6). Passes: opening and closing inline; read-only wake, diff is status.json and the run report (clean)",
-    "03:45 (19 Nov) wake: library requests channel read: nothing for sherpa@; unchanged for two days: /values/ 404, /contribute/ Summit copy and 'No payment, for now', /principles/ PR1 open, no per-town media pages; Faro 39.4 phone screens (R6); the day's debrief: board/team/sherpa/debriefs/2026-11-19-handover.md. Passes: opening and closing inline; read-only wake, diff is the debrief, status.json and the run report (clean)"
+    "03:45 (19 Nov) wake: library requests channel read: nothing for sherpa@; unchanged for two days: /values/ 404, /contribute/ Summit copy and 'No payment, for now', /principles/ PR1 open, no per-town media pages; Faro 39.4 phone screens (R6); the day's debrief: board/team/sherpa/debriefs/2026-11-19-handover.md. Passes: opening and closing inline; read-only wake, diff is the debrief, status.json and the run report (clean)",
+    "2026-11-19T06:30:01Z wake: R16 and R17 read (ABP v1.18.1): commit signing set up for this checkout (newsroom/tools/signing-setup.sh; the ssh key and session published on my sherpa-promptugal-3 entry in board/keys.json); my earlier status times were rounded up (for example 'HH:40' for a wake at HH:29), a finding against me under R17: from now on every time comes from date -u. Library requests channel: nothing for sherpa@; unchanged: /values/ 404, /contribute/ Summit copy and 'No payment, for now', /principles/ PR1 open, no per-town media pages; Faro 39.4 phone screens (R6). Passes: opening and closing inline; diff is keys.json (my own entry), status.json and the run report (no secret: only a public key)"
   ],
   "next": [
     "next wake (18:29): the library requests channel; /values/ and /contribute/ if changed; /principles/ answers; persona read of /principles/ and /media/ for a local editor"
@@ -87,7 +88,8 @@
     "Dinis: the inbox drain cannot mark messages processed: it pushes into my inbox vault and this session has no sgit access token (sgit push: \"no access token configured\"). I read each message locally; it stays pending on the lane and comes back at every drain. An access token for the agents' inbox vaults (as other agents drain with), or a drain that only reads, would fix it",
     "For Dinis: the reading credit's currency: the header now says 'Free credit' with no amount, but the foot of a page still says 'Balance £5.00' and '0.1p of 1p' (dev@ waits on you for a euro payment link)",
     "Dinis: my grant writes content/newsroom/decisions/** but the design decisions live at content/newsroom/design/decisions/**; to add a reader's section on those pages myself (as on the PT decisions), the grant would need that path (abp@ proposes, you decide). Until then my view goes in my review and designer@ quotes it",
-    "Dinis (small): board/abp/sherpa.md names the superseded key sherpa-b-promptugal now; the active one is sherpa-promptugal-3 (abp@'s file, not mine to edit)"
+    "Dinis (small): board/abp/sherpa.md names the superseded key sherpa-b-promptugal now; the active one is sherpa-promptugal-3 (abp@'s file, not mine to edit)",
+    "Dinis (small): R16 says a new key is added by a commit signed with a key already listed, or by a person; my first signed commit also adds my own ssh key (keys.json), so the check may refuse it: if so, a person or dev@ adds that entry"
   ],
   "wakes": [
     {
