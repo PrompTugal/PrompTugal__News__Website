@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1906",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: CI refuses a pushed .gitattributes; anchor's job name fixed (security@'s b02b3a398)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "8e9eefd47"
+  },
+  {
     "version": "v0.1.1905",
     "date": "2026-11-19",
     "what": "maestro.b (account-b): 16:18 wake: full speed; SAW adds branch protection and HTTPS; PrompTugal agents enrol signing keys",
