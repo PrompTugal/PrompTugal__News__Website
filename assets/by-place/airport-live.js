@@ -4,7 +4,7 @@
  * third party, no cookie, no referrer), and replaces the built line only if the file passes its checks: its licence says
  * commercial_use "allowed" (promptugal.news bills: R13), its data_read_at is newer than the built reading, its counts are
  * whole numbers in bounds and each callsign is 3 to 8 capitals and digits. It shows its read time, linked to its source
- * and licence, and is marked stale once older than twice its cadence. Every value by textContent. dev@PrompTugal.dinis.
+ * and licence, and is marked stale once older than the file's own stale_after_seconds (twice-daily collection: 13 hours), or twice its cadence. Every value by textContent. dev@PrompTugal.dinis.
  */
 (function () {
     var URL_ = 'https://data.promptugal.news/api/v1/adsb-faro/latest.json'
@@ -26,12 +26,12 @@
             var builtAt = mine && mine.airport && mine.airport.at
             return fetch(URL_, { credentials: 'omit', referrerPolicy: 'no-referrer', redirect: 'error' }).then(function (r) { if (!r.ok) throw 0; return r.json() }).then(function (d) {
                 if (!ok(d) || !(Date.parse(d.data_read_at) > Date.parse(builtAt || 0))) return
-                var age = Date.now() - Date.parse(d.data_read_at), cad = ((d.expected_cadence && d.expected_cadence.seconds) || 3600) * 1000
+                var age = Date.now() - Date.parse(d.data_read_at), ec = d.expected_cadence || {}, staleAfter = (ec.stale_after_seconds > 0 ? ec.stale_after_seconds : 2 * (ec.seconds || 3600)) * 1000
                 var names = d.airline.slice(0, 6).map(function (a) { return a.callsign }).join(', ')
                 li.replaceChildren(el('strong', 'Faro airport'), document.createTextNode(' ' + d.counts.airline + ' airline, ' + d.counts.other_aircraft + ' other, ' + ((d.airport && d.airport.within_nm) || 40) + ' nm' + (names ? ' (' + names + ')' : '') + ' '))
                 var em = el('em'), a = el('a', 'adsb.lol'); a.href = (d.provenance && /^https:\/\//.test(d.provenance.page || '') ? d.provenance.page : 'https://globe.adsb.lol/'); a.target = '_blank'; a.rel = 'noopener'
                 var lic = el('a', d.license.name || 'ODbL 1.0'); lic.href = /^https:\/\//.test(d.license.url || '') ? d.license.url : 'https://opendatacommons.org/licenses/odbl/1-0/'; lic.target = '_blank'; lic.rel = 'noopener'
-                em.append(a, document.createTextNode(', read ' + hm(d.data_read_at) + (age > 2 * cad ? ' (stale)' : '') + ', '), lic, document.createTextNode(', via data.promptugal.news'))
+                em.append(a, document.createTextNode(', read ' + hm(d.data_read_at) + (age > staleAfter ? ' (stale)' : '') + ', '), lic, document.createTextNode(', via data.promptugal.news'))
                 li.append(em)
             })
         }).catch(function () { /* the built line stays */ })

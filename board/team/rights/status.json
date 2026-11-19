@@ -2,7 +2,7 @@
   "agent": "rights@PrompTugal.dinis",
   "focus": "licences, terms, attribution, commercial use and privacy rights across every *.promptugal.news site; not legal advice; no agent accepts terms but Dinis",
   "state": "wake 2026-11-19T13:27Z: ENISA/EUVD asked: R10, legal notice not quotable by machine, a person must read it; own slip on www.enisa.europa.eu logged",
-  "updated": "2026-11-19T16:03Z",
+  "updated": "2026-11-19T17:34Z",
   "hold": false,
   "done": [
     "key rights-promptugal in board/keys.json",
@@ -20,7 +20,8 @@
     "2026-11-19T03:45Z wake: nvd-kev: NVD terms refuse machine reading, credit carried on Data and Cyber (R9); times from date -u from now on (R17)",
     "2026-11-19T13:27Z: ENISA/EUVD reviewed (R10); fetched one www.enisa.europa.eu page before reading its robots rules: logged as my slip, discarded",
     "2026-11-19T13:37Z: cyber.b@ took EUVD down (30b9eae) pending a person's reading of ENISA's notice; R10 updated",
-    "2026-11-19T16:03Z: SSH signing key enrolled for rights-promptugal (public half and session in board/keys.json; private half only in this session); commits signed from now (R16)"
+    "2026-11-19T16:03Z: SSH signing key enrolled for rights-promptugal (public half and session in board/keys.json; private half only in this session); commits signed from now (R16)",
+    "2026-11-19T17:34Z: camera terms (R11): MEO BeachCam links only, confirmed; SkylineWebcams terms refuse automated reading, unconfirmed"
   ],
   "next": [
     "review the built free replays page against C1 to C6 and the free-page gate check",
@@ -38,7 +39,8 @@
     "Dinis: is an IPMA warning quoted in prose in an article on promptugal.news (the billing site) a commercial use of IPMA's data? Until you say, rights@ treats it as unclear.",
     "Dinis: may Vertex AI Search results (titles, snippets, links from the 15 sites) be shown on any page, and which? rights@ proposes: on no page until each site's terms are quoted; never on promptugal.news.",
     "Dinis: NVD's terms page refuses automated reading (403); a person needs to read it so \"allowed\" for nvd-cve and nvd-kev rests on a quote.",
-    "Dinis: a person needs to read ENISA's legal notice (and EUVD's) in a browser and quote the reuse and credit clauses; cyber.promptugal.news shows EUVD aggregates meanwhile."
+    "Dinis: a person needs to read ENISA's legal notice (and EUVD's) in a browser and quote the reuse and credit clauses; cyber.promptugal.news shows EUVD aggregates meanwhile.",
+    "Dinis: SkylineWebcams' terms refuse automated reading (403) and its robots disallow /cams/: someone needs to read its terms in a browser and give me the quote, or outreach@ asks the operator on the record. You said its Algarve cameras 'should be okay'; I can only confirm that once the terms are quoted."
   ],
   "findings": "board/team/rights/findings.md",
   "latest_debrief": "board/team/rights/debriefs/2026-11-18-handover.md"
