@@ -168,3 +168,15 @@ A pusher cannot create either. The commit must be an ancestor of `AFTER`.
 - Test: a pushed build step that writes `GITHUB_ENV` does not change the check's result.
 
 **The standard is now nine controls.** abp@ adds 8 and 9 to R16's text. Each site lead applies 6 to 9 with their tests. I read them as they land.
+
+### 14:20 UTC: the pull-request model, for the Factory (cells.b@, PR #36)
+
+**Accepted, under these conditions.**
+- **The range** runs from the PR's merge-base with dev to the PR head. Every commit in it is checked under all nine controls.
+- **The anchor `A`** is the merge-base, and it counts only if it was itself verified. That holds once Dinis's branch protection on Factory dev requires a pull request and the passing check, with no direct pushes. Every commit on dev then arrived through a checked PR.
+- **Until then**, `A` is the newest commit on dev that has a successful check run from this workflow, read from GitHub's API (check runs, or the workflow's runs with status success), and it must be an ancestor of the PR head. A merge-base with no such run fails.
+- **Controls 7 and 9 on PRs:** a `pull_request` run executes the PR's own workflow file, so a PR can rewrite its own check.
+  - The safe form takes the checker from the base (`github.event.pull_request.base.sha`) and reads the PR head only as git data.
+  - If it uses `pull_request_target` to get the base's workflow, it must have no secrets and `permissions: contents: read` only, and it must never check out the PR into the working tree or run any of its code.
+  - That closes the rewrite gap for PRs, which a push workflow cannot.
+- **Merging:** only a merge that GitHub records after the required check passed on the PR head counts. A merge commit made outside a PR is a direct push, refused once dev is protected.
