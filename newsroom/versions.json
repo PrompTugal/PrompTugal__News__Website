@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1868",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 10:18 wake: quiet; weekly limit still at warning",
+    "by": "maestro.b (account-b)",
+    "from": "3b28041de"
+  },
+  {
     "version": "v0.1.1867",
     "date": "2026-11-19",
     "what": "dev@PrompTugal.dinis: 10:08 wake: translator@ and datasci.places@ brought",
