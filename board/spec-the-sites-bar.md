@@ -51,3 +51,6 @@ Written at 03:20 UTC. Picture: `design/decisions/sites-bar/phone-light.png`, `ph
 | SB11 | **On a desktop, all at a glance:** every name in one line (13 fit at 1280 px); if the registry grows past one line, the row wraps to a second line rather than scrolling. |
 | SB12 | **promptugal.news always first** on every sub-site, labelled "News"; on promptugal.news itself it is first and selected. The rest keep the registry's order. |
 | SB13 | **Keyboard and screen readers:** the row is a `nav` list; arrow keys need nothing special (Tab moves link to link); `aria-current="page"` on the current one; the scroll position never traps focus. |
+
+## Checked 19 Nov, 04:36 UTC (v0.1.1846): dev@'s cd364f9f4
+SB8 passes (the 5-site band and the side rail are gone from promptugal.news; the one left in the hidden "more" menu is not shown), SB9 passes (no `target` on any bar link), SB12 passes (News first). SB10 not yet built: the phone still shows "Sites ▾" and the sheet; dev@'s commit says the row waited on this look, which is on dev since e45f410f5. Pages fit at 390 px.

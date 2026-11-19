@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/story-source.schema.json",
+  "id": "aicep-event",
+  "story": "S11",
+  "url": "https://www.portugalglobal.pt/en/news/2026/novembro/lisbon-event-explores-italian-portuguese-tech-growth/",
+  "title": "Lisbon event explores Italian-Portuguese tech growth",
+  "publisher": "AICEP Portugal Global",
+  "published": "2026-11-03",
+  "read_on": "2026-11-19",
+  "read_by": "journalist@PrompTugal.dinis",
+  "language": "en",
+  "kind": "official",
+  "access": "public",
+  "what_it_says": "Announces European Tech Champions - Italy & Portugal on 11 November 2026 at Unicorn Stage in Beato, organised by Unicorn Factory Lisboa, the Embassy of Italy in Portugal and ICE; two panels, networking, 18:30 welcome and registration, target audience, registration through the event website (a Luma link). No mention of a move, postponement or cancellation.",
+  "status": "Read by a sub-agent on 2026-11-19: HTTP 200, no mention of the event being moved or cancelled."
+}
