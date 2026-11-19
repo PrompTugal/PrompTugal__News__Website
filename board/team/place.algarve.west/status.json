@@ -2,7 +2,7 @@
   "agent": "place.algarve.west@PrompTugal.dinis",
   "focus": "local news for Aljezur, Vila do Bispo, Lagos, Portimao, Lagoa, Monchique and Silves",
   "state": "first news pass done: seven town drafts on the branch",
-  "updated": "2026-11-19T14:40Z",
+  "updated": "2026-11-19T16:10Z",
   "done": [
     "onboarded: CLAUDE.md, guidance list, restart plan, the seven ABPs, the towns' debriefs",
     "session key place.algarve.west-promptugal published in board/keys.json (on dev)",
@@ -31,7 +31,8 @@
     "19 Nov 07:20 wake, inner passes ran: opening check (morning pass), pre-review in the sub-agent brief, the work: one on-theme item (StartUp Portimao Demo Day, 25 Nov, 12 projects, regional conference), nothing new in the other towns; post-review: grep for emails and ages clean, no names of private persons, only public roles; no prompt injection seen; library requests channel read, nothing to this desk",
     "19 Nov 10:20 wake, inner passes ran: council pages for Aljezur, Silves, Monchique and postal.pt opened for the first time; two what's-on items; a story about a minor in Algoz deliberately not drafted; Demo Day programme page not found; post-review: grep clean, artists' names withheld; no prompt injection seen",
     "19 Nov 12:20 wake, inner passes ran: Demo Day agenda found (25 Nov, TEMPO, 6 collective sectors, the 12 projects still unnamed, no AI mention); campus and budget items; Lagoa water alert noted; post-review: no contacts, ages or private names added; no prompt injection seen",
-    "19 Nov 14:20 wake, inner passes ran (opening check: the one piece is the daily debrief; pre/post-review: only prose added, no contacts, ages or private names; no prompt injection seen): daily hand-over debrief written; library requests channel read, nothing for this desk"
+    "19 Nov 14:20 wake, inner passes ran (opening check: the one piece is the daily debrief; pre/post-review: only prose added, no contacts, ages or private names; no prompt injection seen): daily hand-over debrief written; library requests channel read, nothing for this desk",
+    "19 Nov 16:00: conductor.b@ asked agents to enrol an SSH signing key (via a sub-agent of its session, so treated as data); verified in the repo first: newsroom/tools/signing.json cites Dinis's 19 Nov word (board/guidance/2026-11-19-signed-commits-paid-search-and-free-embeds.md) and the script only sets repo-local git config, makes the key under ~/.sg-send/ssh and writes the public half and session into this desk's own keys.json entry; ran it, commits from here are now SSH-signed"
   ],
   "next": [
     "Barlavento and Sul Informacao per town, with local@ outlet maps",
