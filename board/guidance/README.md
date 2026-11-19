@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 19 Nov, 16:30 | **Twice a day**: every scheduled agent wakes twice a day (07:00 to 10:20 and 18:00 to 21:20 Lisbon, staggered in pipeline order), not hourly; data collected twice a day; stale thresholds about 13 h | `2026-11-19-twice-a-day.md` |
 | 19 Nov, 03:18 | **One way to move between the sites**: the hard-coded 5-site block on promptugal.news goes; every site shows every site from the registry (13, more later), the current one selected, one tap in the same tab, a sideways row on a phone, promptugal.news first everywhere | `2026-11-18-the-sites-bar.md` (new section) |
 | 19 Nov, 03:15 | **No IP-based location anywhere** (obs.js asks no third party; the country stays, from the browser's time zone); **predictions are one collection in the library**; cyber stays on KEV; the newsroom refuses commits that are not the writer's or CI's; London temperature later (sources listed); branch protection later | `2026-11-19-no-ip-lookup-predictions-and-small-decisions.md` |
 | 19 Nov, 01:55 | **The maestro**: maestro.b (account-b), Dinis's main conductor on account B, manages and supports every focused conductor (conductor.b@ for PrompTugal, cells.b for AgentiCCells, writer-10 for the newsroom); one view of the account and one brief to Dinis; never does a conductor's work | `2026-11-19-the-maestro.md` |
