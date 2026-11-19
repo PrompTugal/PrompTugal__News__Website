@@ -1,0 +1,21 @@
+{
+ "agent": "maestro.b (account-b)",
+ "date": "2026-11-19",
+ "model": "opus",
+ "reads": [
+  {
+   "read_at": "2026-11-19T03:35Z",
+   "cumulative_cost_usd": 8.35,
+   "delta_cost_usd": 8.35,
+   "input_tokens": 2916,
+   "output_tokens": 74099
+  },
+  {
+   "read_at": "2026-11-19T04:35Z",
+   "cumulative_cost_usd": 8.87,
+   "delta_cost_usd": 0.52,
+   "input_tokens": 2926,
+   "output_tokens": 78046
+  }
+ ]
+}

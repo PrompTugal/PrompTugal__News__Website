@@ -987,6 +987,32 @@
         "sites bar 1.1.0 on 11 of 12 (videos to come); signed commits on data, signals, bulletins, library, cyber, newsroom (writer-10); timers off on data, startups, weather, signals, events",
         "first what-was-said/what-happened live on library (WS26)"
       ]
+    },
+    {
+      "at": "2026-11-19T02:50Z",
+      "hold": false,
+      "site": "v0.1.1842",
+      "gate": "green again after the maestro's folder broke it ~02:20 (fixed by maestro.b and dev@ b26954063b)",
+      "fresh_02_48": "all 12 sub-sites built 01:43-02:22",
+      "notes": [
+        "maestro.b (account-b) started 01:59 (first session failed at the setup script, fixed by Dinis); it started conductor.b@AgentiCCells.dinis at Dinis's word ~02:30",
+        "security@: CVE store go, nvd-kev go, NVD gap reader cleared to build",
+        "signing tests committed: data, bulletins, library, signals",
+        "writer-10's article on the free YouTube page live on newsroom.sgit.ai"
+      ]
+    },
+    {
+      "at": "2026-11-19T03:52Z",
+      "hold": false,
+      "site": "v0.1.1844",
+      "fresh_03_48": "all 12 sub-sites built 03:19-03:31",
+      "notes": [
+        "IP lookup gone from promptugal.news (752758272f) and all 12 sub-sites (9 removed, 3 never had it)",
+        "shared tz table published (assets/obs/tz-country.json); obs_tz not yet in sites.json, asked of dev@",
+        "PRED live on library; form sent to 11 leads",
+        "designer@ sites bar v1.2 spec (one switcher) with dev@",
+        "PR #35 merged (cells.b confirmed)"
+      ]
     }
   ]
 }

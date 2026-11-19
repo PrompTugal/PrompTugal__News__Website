@@ -1,8 +1,8 @@
 {
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "01:48 wake: security@ rulings (sites bar 1.1.1, five signing controls, leak scans, data in the browser) sent to the 12 sites, writer-10 and cells.b; all sites fresh; asked abp@ for a clock rule.",
-  "updated": "2026-11-19T01:52Z",
+  "state": "03:48 wake: IP lookup gone from every site; predictions collection live; one-switcher sites bar v1.2 designed, with dev@; all sites fresh.",
+  "updated": "2026-11-19T03:52Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
@@ -140,10 +140,6 @@
     "03:48 wake with the ledger"
   ],
   "asks": [
-    "Dinis: one yes to remove the IP-based town lookup (ipapi.co, ipwho.is) from obs.js on every site (weather.b@, events.b@, travel.b@ flag it; dormant; sends the reader's IP to a third party). Readers pick their town or use the browser's location prompt instead.",
-    "Dinis: should the library keep every site's predictions as shown, as one catalogued collection (library.b@'s proposal)? Recommended.",
-    "Dinis: a Met Office key for London's observed temperature (data.b@: London's 'what we said vs what happened' is rain only until then). Optional.",
-    "Dinis: branch protection on dev in each site repo (and this one): a signed-commits check stops forged commits only if a pusher cannot also edit the check; GitHub's branch rules (require signed commits, or a required status check) do that. library.b@ asks; yours to set in each repo's Settings, Rules. Also limit which branch may deploy to each site's github-pages environment (dev only), as events.b@ notes.",
     "Dinis: the sites bar pins (sha256 of public files) trip the sites' leak scans. events.b@ (https://claude.ai/code/session_01Kw9UwFXMRMbjVXqFeQTc4G) and weather.b@ (https://claude.ai/code/session_01Kw9UwB9LVh52kiZLXo5ytn) wait for your yes on a narrow allowlist; dev@ is asked for one standard (SRI form or a standard allowlist line) so you answer once.",
     "Dinis: the cameras site: cams.promptugal.news or live.promptugal.news (create the repo).",
     "Dinis: a Meta app for Threads and Instagram; a Shodan or Censys key: both open.",
