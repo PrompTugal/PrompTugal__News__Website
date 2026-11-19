@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1911",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: control 10 in the signature check: no symlinks in any commit, the tree or an artifact, exceptions only from A",
+    "by": "dev@PrompTugal.dinis",
+    "from": "cec5fecf9"
+  },
+  {
     "version": "v0.1.1910",
     "date": "2026-11-19",
     "what": "security@PrompTugal.dinis: signing standard: control 10, no symlinks unless listed in the anchor with a reason",
