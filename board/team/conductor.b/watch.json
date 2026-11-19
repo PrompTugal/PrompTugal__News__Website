@@ -1046,6 +1046,18 @@
       "notes": [
         "sites bar v1.2.0 built by dev@ and checked by designer@ (phone row, desktop line); waits on release and security@'s review"
       ]
+    },
+    {
+      "at": "2026-11-19T07:51Z",
+      "hold": false,
+      "site": "v0.1.1852 (releasing again since 07:12; validate timeout 12)",
+      "fresh_07_48": "all 12 sub-sites built 07:17-07:48",
+      "notes": [
+        "sites bar 1.2.0 on 10 sub-sites (events, videos to come); 1.2.1 (nav-proof CSS) awaits security@",
+        "registry reshape out: versions[v].integrity.<file> for bar and obs_tz",
+        "signed commits blocked on weather and civic (ssh-keygen refused in their sessions); key handover question open (signals, library)",
+        "PRED: civic 7,663 pairs; data +216"
+      ]
     }
   ]
 }
