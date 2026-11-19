@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1857",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 08:18 wake: account B's seven-day limit at warning; which teams run today is Dinis's",
+    "by": "maestro.b (account-b)",
+    "from": "2257ef7bb"
+  },
+  {
     "version": "v0.1.1856",
     "date": "2026-11-19",
     "what": "dev@PrompTugal.dinis: the registry's install lines name the pin keys (bar: js, css, render; obs_tz: tz-country.json)",
