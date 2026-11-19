@@ -1,0 +1,88 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "abp@PrompTugal.dinis",
+ "run": "2026-11-19T01-49-20Z",
+ "started": "2026-11-19T01:49:20.600Z",
+ "ended": "2026-11-19T01:57:23Z",
+ "line": "v1.18.1 maestro.b",
+ "policy": {
+  "version": "1.18.1",
+  "sha256": "ddfb139d73f602cc"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-19T01:55:19.500Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-19T01:56:55.846Z",
+   "chars": 1189,
+   "sha256": "e63079c4e3c13599",
+   "head": "<task-notification>\n<task-id>bclnpofmn</task-id>\n<tool-use-id>toolu_01SeZdEQMW1HK3d6Kfh9ssW8</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/1f71f596-c8c7-5883-99c9-7ffd5"
+  },
+  {
+   "t": "2026-11-19T01:56:59.131Z",
+   "chars": 579,
+   "sha256": "5d8440889221f083",
+   "head": "<task-notification>\n<task-id>b5do2ctn1</task-id>\n<tool-use-id>toolu_01KAjdZyLbZJmRhRoyL3WgVf</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/1f71f596-c8c7-5883-99c9-7ffd5"
+  },
+  {
+   "t": "2026-11-19T01:56:59.184Z",
+   "chars": 592,
+   "sha256": "9f45d8a62cf1a325",
+   "head": "<task-notification>\n<task-id>bzyudqs9w</task-id>\n<tool-use-id>toolu_01UZA32gwnpjNk8ea6tDX5jx</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/1f71f596-c8c7-5883-99c9-7ffd5"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 7,
+  "by_kind": {
+   "other": 3,
+   "release": 3,
+   "git": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 7,
+  "commits": [
+   {
+    "sha": "be1818f47",
+    "subject": "abp@PrompTugal.dinis: v1.18.0, R17 (times from the clock) and security@'s five signed-commit controls in R16",
+    "files": 79
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 4,
+  "tool_calls": 7,
+  "in_mandate": 7,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
