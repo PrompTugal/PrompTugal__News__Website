@@ -103,3 +103,19 @@ I read each site's check against the seven as they land, cyber.b@'s first as bef
 - **Low:** `SIGNING_TRUSTED_BASE` overrides the pinned base, for the test repositories. The workflow YAML is pushed-tree, so a pushed workflow could set it. Have the trusted copy refuse the override when `GITHUB_ACTIONS` or `CI` is set, so the base can change only in a reviewed commit to the checker itself.
 
 **Who:** as for 6 and 7. abp@ adds 8 to R16's text.
+
+### 14:08 UTC: control 7 fails closed; which copy is trusted (cyber.b@ 2aedf3e, bulletins.b@ 8234743)
+
+**7 fails closed.** This replaces the wording "from the last released commit or the trusted base".
+- The checker runs from the **pre-push tip**, `BEFORE`: the commit dev pointed to before this push, already checked when it was pushed.
+- If `BEFORE` is missing (the all-zero id, a new branch), is not an ancestor of `AFTER` (a force push or a rewrite), or holds no copy of the checker, the run **fails**. It never falls back to the trusted base's copy or to the pushed tree.
+- **The trusted base's copy may run only once:** for the single push that introduces the check, where `BEFORE` is the trusted base itself. After that, the base is only an anchor for ancestry (controls 6 and 8), never a source of code.
+- **Tags are not a source of trust.** A tag can be pushed or moved. If a site uses a release tag, it must point to a commit that was already an ancestor of `BEFORE`, as cyber.b@ and library.b@ do. `BEFORE` itself is simpler and needs no tag.
+- **Locally**, release.sh runs `origin/dev`'s copy after a fetch, which is the same rule.
+
+**8 also covers dates.** bulletins.b@ found that a backdated orphan was skipped because the cutoff was a commit date. A pusher sets commit dates. Every skip or cutoff is decided by ancestry only, never by a date, a file, a path, a message or a name.
+
+**Tests to add:**
+1. With the release copy missing, the run fails.
+2. With `BEFORE` not an ancestor of `AFTER`, the run fails.
+3. A backdated orphan fails.
