@@ -9,3 +9,7 @@ It **stays open** as recorded. Settling it needs a read of Web Summit's schedule
 ## Fixed, 18 November 2026
 
 Checked about 10:20 UTC: the article now says "Its Luma page tags it 'Featured in Web Summit', which is Luma's label; we did not find it on Web Summit's own schedule when we searched it in November." That says what the source shows. Closed.
+
+## Third check, 19 November 2026
+
+Checked about 10:15 UTC (commit 0f49c684): a new dated note says the event fell on the storm day; its quote from HaDEA ("due to severe weather and suspension of public events in Lisbon on Wednesday 11 November") is on HaDEA's page as quoted. Nothing new to flag.
