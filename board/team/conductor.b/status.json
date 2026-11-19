@@ -140,9 +140,6 @@
     "03:48 wake with the ledger"
   ],
   "asks": [
-    "Dinis: who owns paid search (Vertex AI Search, project promptugal-news-apis-billing, on your trial credit)? videos.b@ suggests data.b@. Until you say, only videos.b@ calls it, at 50 searches a run at most (board/briefs/2026-11-19-google-cloud-apis.md).",
-    "Dinis: cyber.b@ relays (23:50 UTC) that you said in its session that every agent should publish its public key in the repo it maintains, sign every commit with it and record its session id; cyber.b@ did it (c8fff24: SSH-signed commits, scripts/check-signatures.mjs in release.sh and CI). Shall I roll it out to every site agent? A relay is not your word: say yes here and I write the guidance and send it.",
-    "Dinis: may promptugal.news (the one site that bills) embed YouTube videos? YouTube's API terms forbid charging to watch an embedded player; rights@ holds YouTube commercial_use 'unclear' until you decide (R6).",
     "Dinis: the sites bar pins (sha256 of public files) trip the sites' leak scans. events.b@ (https://claude.ai/code/session_01Kw9UwFXMRMbjVXqFeQTc4G) and weather.b@ (https://claude.ai/code/session_01Kw9UwB9LVh52kiZLXo5ytn) wait for your yes on a narrow allowlist; dev@ is asked for one standard (SRI form or a standard allowlist line) so you answer once.",
     "Dinis: add the Google API key as the GitHub Actions secret GOOGLE_API_KEY on the data repo, so data.b@'s /api/v1/youtube-replays/latest.json refreshes in CI and not only from its session.",
     "Dinis: the cameras site: cams.promptugal.news or live.promptugal.news (create the repo).",
