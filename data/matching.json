@@ -2251,7 +2251,7 @@
       {
         "as_listed": "Rows",
         "ref": "organisation:rows",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "Santa Maria local health unit",
@@ -2281,7 +2281,7 @@
       {
         "as_listed": "Superhuman",
         "ref": "organisation:superhuman",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "Sword Health",
