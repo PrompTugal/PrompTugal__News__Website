@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Portalegre: AI and technology in Portalegre, the Alto Alentejo capital whose centre of gravity is its polytechnic university and the IoT, agriculture and defence-tech ambitions around it, and what reaches Portalegre from the Alentejo, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -39,6 +39,16 @@
     "motif": "Terracotta and wool dyes, granite walls, a hill town in the Serra de São Mamede with Spain on the doorstep"
   },
   "ai_news": [
+    {
+      "title": "Alto Alentejo councils run AI-tools training for local public administration staff",
+      "summary": "CIMAA, the intermunicipal community, reports on 18 November 2026 on a training course on AI tools in local public administration, held on 28 October and 6 November, covering administrative productivity, institutional communication, citizen service, data analysis and decision support, plus ethics, security and responsible use. The page does not state the venue or the funding.",
+      "date": "2026-11-18",
+      "publisher": "CIMAA",
+      "url": "https://www.cimaa.pt/cimaa-promove-formacao-sobre-ferramentas-de-inteligencia-artificial-na-administracao-publica-local/",
+      "read_on": "2026-11-20",
+      "ai_path": "A course teaching AI tools to municipal staff in the region that includes Portalegre: directly about AI, one step from Portalegre.",
+      "steps": 1
+    },
     {
       "title": "Portalegre's university coordinates InovTechAgro II to modernise agroforestry",
       "summary": "Rádio Portalegre reports on 16 November 2026 that the university leads the project, with an eligible investment of 59,000 euros, 85 percent co-financed by the EU, to boost innovation and digitalisation in the agroforestry sector. The report does not name AI.",
