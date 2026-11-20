@@ -9,5 +9,19 @@
     "Almancil, Algarve (exact place given on sign-up)"
   ],
   "source": "https://www.algarveevolution.pt/event/private-wealth-investment-gathering-180/register",
-  "note": "The exact place is given on sign-up."
+  "note": "The exact place is given on sign-up.",
+  "at": [
+    -8.0308,
+    37.0875
+  ],
+  "at_source": {
+    "url": "https://www.wikidata.org/wiki/Q374030",
+    "read_at": "2026-11-20T10:00Z",
+    "how": "Wikidata coordinate location (P625), read on that item"
+  },
+  "wikidata": {
+    "id": "Q374030",
+    "read_at": "2026-11-20T10:00Z",
+    "how": "read: the item is the Almancil of this record (label and description checked)"
+  }
 }

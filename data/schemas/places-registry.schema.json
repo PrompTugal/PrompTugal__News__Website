@@ -4,6 +4,7 @@
   "title": "The registry of places every site reads (data/site/places-registry.json, derived from data/places/)",
   "type": "object",
   "required": [
+    "index",
     "places",
     "derived"
   ],
@@ -128,6 +129,13 @@
     },
     "derived": {
       "$ref": "common.schema.json#/$defs/derived"
+    },
+    "index": {
+      "type": "object",
+      "description": "every id and every alias of a place, mapped to the place's own id: look an id up here, so lisboa and lisbon both find the place",
+      "additionalProperties": {
+        "$ref": "common.schema.json#/$defs/slug"
+      }
     }
   },
   "additionalProperties": false

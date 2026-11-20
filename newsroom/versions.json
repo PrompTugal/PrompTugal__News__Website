@@ -1,5 +1,159 @@
 [
   {
+    "version": "v0.1.1959",
+    "date": "2026-11-20",
+    "what": "jornal@PrompTugal.silvio: daily digest 20 Nov (agents in two intrusions, Muse on Signal, Apple)",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "80b2a79bc"
+  },
+  {
+    "version": "v0.1.1958",
+    "date": "2026-11-20",
+    "what": "journalist-europe@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "06af81dbb"
+  },
+  {
+    "version": "v0.1.1957",
+    "date": "2026-11-20",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "96f1b701d"
+  },
+  {
+    "version": "v0.1.1956",
+    "date": "2026-11-20",
+    "what": "maestro.b (account-b): the email cell runs on account B (cell.email.b, started by the AgentiCCells conductor at Dinis's yes)",
+    "by": "maestro.b (account-b)",
+    "from": "3bcc361ee"
+  },
+  {
+    "version": "v0.1.1955",
+    "date": "2026-11-20",
+    "what": "designer@PrompTugal.vicky: the chart for A1 (people ahead, companies behind), from the analyst's spec with INE's 2026 figures",
+    "by": "designer@PrompTugal.vicky",
+    "from": "cadd9914e"
+  },
+  {
+    "version": "v0.1.1954",
+    "date": "2026-11-20",
+    "what": "maestro.b (account-b): 13:18 fuller brief: SAW's tools and the Algarve move; the email cell waits on Dinis's yes",
+    "by": "maestro.b (account-b)",
+    "from": "26fe1a9a0"
+  },
+  {
+    "version": "v0.1.1953",
+    "date": "2026-11-20",
+    "what": "analyst@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "analyst@PrompTugal.vicky",
+    "from": "ccbaf2ed5"
+  },
+  {
+    "version": "v0.1.1952",
+    "date": "2026-11-20",
+    "what": "maestro.b (account-b): the email cell found on account A; the AgentiCCells conductor restarts it here (Dinis)",
+    "by": "maestro.b (account-b)",
+    "from": "c0b828198"
+  },
+  {
+    "version": "v0.1.1951",
+    "date": "2026-11-20",
+    "what": "maestro.b (account-b): 12:18 wake: the launch conductors coordinated on the Algarve site; both wait on Dinis",
+    "by": "maestro.b (account-b)",
+    "from": "22ae2ea07"
+  },
+  {
+    "version": "v0.1.1950",
+    "date": "2026-11-20",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "24b86d7f9"
+  },
+  {
+    "version": "v0.1.1949",
+    "date": "2026-11-20",
+    "what": "maestro.b (account-b): 11:18 wake: a possible double build of the Algarve site; both conductors told",
+    "by": "maestro.b (account-b)",
+    "from": "9b8f06bb4"
+  },
+  {
+    "version": "v0.1.1948",
+    "date": "2026-11-20",
+    "what": "maestro.b (account-b): 10:18 wake: Dinis's 20 Nov word is in the policies; SAW and AgentiCCells asks refreshed",
+    "by": "maestro.b (account-b)",
+    "from": "3becee6c5"
+  },
+  {
+    "version": "v0.1.1947",
+    "date": "2026-11-20",
+    "what": "conductor.b@PrompTugal.dinis: 09:48 wake: shared map on at nine sites; morning relays batched; status and watch",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "1939002de"
+  },
+  {
+    "version": "v0.1.1946",
+    "date": "2026-11-20",
+    "what": "abp@PrompTugal.dinis: 09:39 wake: R16 follows security@'s ruling on web-flow merges (PR model); policy v1.18.8; Vicky's reviewer publishing again, ask stands",
+    "by": "abp@PrompTugal.dinis",
+    "from": "19a10cb02"
+  },
+  {
+    "version": "v0.1.1945",
+    "date": "2026-11-20",
+    "what": "telemetry.b@PrompTugal.dinis: wake 09:26 (20 Nov), costs refreshed for 36 sessions, debrief",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "79a4c5e9e"
+  },
+  {
+    "version": "v0.1.1944",
+    "date": "2026-11-20",
+    "what": "outreach@PrompTugal.dinis: Portuguese on-the-record requests for 14 public bodies from the register (5 ready, 9 held for a contact page); daily debrief",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "e2ba58426"
+  },
+  {
+    "version": "v0.1.1943",
+    "date": "2026-11-20",
+    "what": "security@PrompTugal.dinis: wake 09:03: 20 repositories clean; control-10 notes fixed; S72 still unwired",
+    "by": "security@PrompTugal.dinis",
+    "from": "1100c3607"
+  },
+  {
+    "version": "v0.1.1942",
+    "date": "2026-11-20",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "2132c8cf7"
+  },
+  {
+    "version": "v0.1.1941",
+    "date": "2026-11-20",
+    "what": "designer@PrompTugal.dinis: merge dev",
+    "by": "designer@PrompTugal.dinis",
+    "from": "2d87eaca7"
+  },
+  {
+    "version": "v0.1.1940",
+    "date": "2026-11-20",
+    "what": "dev@PrompTugal.dinis: merge dev",
+    "by": "dev@PrompTugal.dinis",
+    "from": "8094c3254"
+  },
+  {
+    "version": "v0.1.1939",
+    "date": "2026-11-20",
+    "what": "correspondent@PrompTugal.dinis: remote physiotherapy story placed in the Portugal beat; the day's debrief",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "a956cda44"
+  },
+  {
+    "version": "v0.1.1938",
+    "date": "2026-11-20",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "bafeadff5"
+  },
+  {
     "version": "v0.1.1937",
     "date": "2026-11-20",
     "what": "maestro.b (account-b): 07:18 fuller brief, launch day: a quiet night; the launch waits on Dinis's decisions",

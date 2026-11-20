@@ -1,0 +1,14 @@
+{
+ "agent": "signals.b@PrompTugal.dinis",
+ "date": "2026-11-20",
+ "model": "opus",
+ "reads": [
+  {
+   "read_at": "2026-11-20T09:35Z",
+   "cumulative_cost_usd": 105.35,
+   "delta_cost_usd": 3.97,
+   "input_tokens": 53332,
+   "output_tokens": 519037
+  }
+ ]
+}

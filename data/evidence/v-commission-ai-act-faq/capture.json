@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-commission-ai-act-faq",
+  "type": "evidence",
+  "source_url": "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act",
+  "beat": "Europe",
+  "group": "S77",
+  "names": [
+    {
+      "as_listed": "European Commission",
+      "ref": "company:european-commission"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-20-1550.json",
+  "run": "2026-11-20T15:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-20-1550.json"
+    ]
+  }
+}
