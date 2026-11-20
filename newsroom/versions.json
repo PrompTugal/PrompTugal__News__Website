@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1938",
+    "date": "2026-11-20",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "bafeadff5"
+  },
+  {
     "version": "v0.1.1937",
     "date": "2026-11-20",
     "what": "maestro.b (account-b): 07:18 fuller brief, launch day: a quiet night; the launch waits on Dinis's decisions",
