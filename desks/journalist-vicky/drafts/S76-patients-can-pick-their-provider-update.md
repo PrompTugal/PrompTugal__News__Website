@@ -4,7 +4,7 @@ date: 2026-11-20
 story: S76
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: "An update note for the published 'What the health service pays for remote physiotherapy at home' (content/articles/health-service-pays-remote-physiotherapy.md): more rules from the official gazette's standard terms, on choice of provider, admission, audits, data and ending the convention."
-status: draft
+status: approved
 beat: Portugal
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: portugal, ai, health, national health service, physiotherapy, regulation, update
