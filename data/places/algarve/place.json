@@ -6,5 +6,19 @@
   "kind": "region",
   "located_in": "place:portugal",
   "matches": [],
-  "source": "https://www.algarveevolution.pt/"
+  "source": "https://www.algarveevolution.pt/",
+  "at": [
+    -8.0111,
+    37.2338
+  ],
+  "at_source": {
+    "url": "https://www.wikidata.org/wiki/Q76516549",
+    "read_at": "2026-11-20T10:00Z",
+    "how": "Wikidata coordinate location (P625), read on that item"
+  },
+  "wikidata": {
+    "id": "Q76516549",
+    "read_at": "2026-11-20T10:00Z",
+    "how": "read: the item is the Algarve of this record (label and description checked)"
+  }
 }

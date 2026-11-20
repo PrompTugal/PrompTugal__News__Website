@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "council",
+  "type": "organisation",
+  "name": "Council",
+  "names_as_listed": [
+    "Council"
+  ],
+  "sources": [
+    {
+      "url": "https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai",
+      "read_at": "2026-11-20T15:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}
