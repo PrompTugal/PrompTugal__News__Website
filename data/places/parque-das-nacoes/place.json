@@ -8,5 +8,19 @@
   "matches": [
     "Parque das Nações"
   ],
-  "source": "https://websummit.com/essentials/venue-essentials/"
+  "source": "https://websummit.com/essentials/venue-essentials/",
+  "at": [
+    -9.0953,
+    38.7689
+  ],
+  "at_source": {
+    "url": "https://www.wikidata.org/wiki/Q1428475",
+    "read_at": "2026-11-20T10:00Z",
+    "how": "Wikidata coordinate location (P625), read on that item"
+  },
+  "wikidata": {
+    "id": "Q1428475",
+    "read_at": "2026-11-20T10:00Z",
+    "how": "read: the item is the Parque das Nações of this record (label and description checked)"
+  }
 }

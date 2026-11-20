@@ -4,7 +4,7 @@
   "type": "evidence",
   "source_url": "https://files.diariodarepublica.pt/gratuitos/2s/2026/02/2S037A0000S00.pdf",
   "beat": "Portugal",
-  "group": "S75",
+  "group": "S76",
   "names": [
     {
       "as_listed": "health-system administration",
@@ -15,13 +15,13 @@
       "ref": "organisation:national-health-service"
     }
   ],
-  "desk_file": "desks/curator/2026-11-19-1550.json",
-  "run": "2026-11-19T15:50Z",
+  "desk_file": "desks/curator/2026-11-20-0750.json",
+  "run": "2026-11-20T07:50Z",
   "by": "curator@PrompTugal.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-19-1550.json"
+      "desks/curator/2026-11-20-0750.json"
     ]
   }
 }
