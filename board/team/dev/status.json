@@ -2,8 +2,10 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ restarted on this account (16 Nov, 19:25 UTC, session_01Kw9UwEA7TFC7iKpVctAi2t): the release queue first, then review and bring work/dev.places, work/translator, work/designer.places onto dev; feeds per place and topic; /media/<id>/ pages; dev.places@s brief every-story-has-an-address.",
   "state": "the sites bar v1.1.0 (designer@'s design) live on promptugal.news; waits on security@ before it spreads",
-  "updated": "2026-11-19T20:01Z",
+  "updated": "2026-11-19T20:12Z",
   "done": [
+    "20:12: security@'s 0b49f7742: an artifact's .git is no longer skipped (only the checkout's, test added); release.sh's merge takes Claude-Session from the releasing agent's own key entry in board/keys.json, never from the range; (b) and (c) were in fdb866c1b",
+    "20:09: control 10 hardened from library.b@'s review (LIB-2026-069): names and targets compared as raw bytes; an exception pins its target; the checked commit's own tree is read (ls-tree); a .git symlink at the root is reported; -m was already there. Also: a missing start commit now fails closed instead of passing. 27 tests pass",
     "20:01: ptmap 1.0.2 listed; 1.0.1 and 1.0.2 passed (security@'s d84da3d39, 168c14fc5); map.version now 1.0.2, the version to vendor; hashes rechecked against the files",
     "19:53: ptmap 1.0.1 (designer@'s 5935772b3) listed beside 1.0.0; each version carries its own review (1.0.0 \"passed (security@ b5fc4fdef)\", 1.0.1 \"pending: security@\"); map.version is the newest passed; the gate checks every listed version's files",
     "19:49: ptmap 1.0.0 marked passed in api/v1/sites.json (security@'s go, b5fc4fdef); the install note says vendor now with script-src 'self', and move to 1.0.1 once listed",
@@ -11,12 +13,9 @@
     "19:33: 19:29 wake: three workers by merge: dev.places@'s 'Portugal in Europe' inset on /portugal/ (Iberia big, London and Brussels for the EU as small linked pins; Dinis's map word, 2026-11-19-cameras-as-links-and-the-map.md), translator@'s status, datasci.places@'s now refresh; gate OK; nothing held back; library none",
     "16:58: control 10 reads diff-tree NUL-separated (-z) and matches whole paths (events.b@'s 44d5402); a test for a symlink whose name holds a newline; 23 pass",
     "16:52: control 10, no symlinks (security@ ed70bd996), in the signature check: a mode 120000 entry added or changed by any commit in the range (diff-tree per commit, every parent), a symlink in the checked-out tree, or in a downloaded artifact (CHECK_ARTIFACT) fails; exceptions only from A's newsroom/tools/symlink-exceptions.json (none); 5 new tests, 22 pass; none in the repository or its history today",
-    "16:44: twice a day (Dinis, 2026-11-19-twice-a-day.md): Faro airport's live line judges staleness by the file's stale_after_seconds (data.b@'s 8f6a905; 13 h), the dashboard marks an agent stale after 13 h, not 2 h 15",
-    "16:24: security@'s points on edc8b37b5 (b02b3a398): a pushed .gitattributes is refused (both jobs fail, right after checkout, before any check reads the tree); anchor.mjs's job name is fixed, no ANCHOR_JOB",
-    "16:16: live.b@'s CI review (a4c6fce) checked against promptugal.news: HIGH 1 mostly n/a (no artifact download; the gate refuses symlinks) but the artifact now copies no links; HIGH 2 applied: anchor.mjs takes A only from a run whose job \"signatures\" passed, by name, at that sha; MEDIUM applied: release (tag, deploy) only for refs/heads/dev, so a manual run elsewhere or a push to main no longer deploys"
+    "16:44: twice a day (Dinis, 2026-11-19-twice-a-day.md): Faro airport's live line judges staleness by the file's stale_after_seconds (data.b@'s 8f6a905; 13 h), the dashboard marks an agent stale after 13 h, not 2 h 15"
   ],
   "next": [
-    "control 10 hardening from library.b@'s review (LIB-2026-069): a .git symlink at the root, raw-byte names, HEAD's own tree, targets pinned in exceptions",
     "S72 wiring, when CI's key exists: the signatures job with if: github.ref == 'refs/heads/dev' (security@ b02b3a398 point 1), deploy needs it, anchor.mjs and the launcher from A",
     "once the sites read versions[v].integrity: drop the repeated .js, .css, .render and obs_tz .sha256 keys from the registry (security@'s low note, 2d812d6da)",
     "with signing enforced: bring worker branches by merge, not cherry-pick (release.sh: a merge mode), so each worker's signed commits reach dev unchanged",

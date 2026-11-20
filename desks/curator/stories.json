@@ -2,6 +2,14 @@
  "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`. LINK_OVERRIDES: a source URL as captured mapped to the same address written another way (a digit percent-encoded, which the URL standard treats as the same address) so the team site's phone check does not read a long run of digits and dashes as a phone number.",
  "stories": [
   [
+   "S76",
+   "Update: patients can pick their provider for remote physiotherapy",
+   "Portugal",
+   "A first update note for S75: with the whole gazette notice read, patients may choose their provider freely and pay nothing beyond the convention's prices; a provider with missing device documents is excluded at once; the agency may audit care and the platform; the platform must not block data portability; either side may end it on 60 days' notice after six months.",
+   "20 Nov",
+   "For journalist-portugal, categories Portugal and AI. Short update with a list (standing answers 95 and 100); say 'the gazette says'; no claim about practice."
+  ],
+  [
    "S75",
    "What the health service pays for remote physiotherapy at home",
    "Portugal",
@@ -864,6 +872,9 @@
    "v-dre-despacho-1573-2026",
    "v-observador-sword-sns-launch",
    "v-gov-sns-remote-physio-ai"
+  ],
+  "S76": [
+   "v-dre-aviso-3864-2026"
   ]
  },
  "DROPPED": {
@@ -1029,6 +1040,14 @@
   "S73": [
    "https://promptugal.news/articles/superhuman-to-buy-rows-porto.html",
    "19 Nov"
+  ],
+  "S74": [
+   "https://promptugal.news/articles/superhuman-to-buy-rows-porto.html",
+   "19 Nov"
+  ],
+  "S75": [
+   "https://promptugal.news/articles/health-service-pays-remote-physiotherapy.html",
+   "19 Nov"
   ]
  },
  "WITHDRAWN": [
@@ -1047,8 +1066,7 @@
   "S54"
  ],
  "READY": [
-  "S74",
-  "S75"
+  "S76"
  ],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
@@ -1238,14 +1256,9 @@
  },
  "ASSIGN": [
   [
-   "S74",
+   "S76",
    "the Portugal desk (journalist-portugal)",
-   "ECO (23 Feb 2026) reports that Rows 'has just been bought' by Superhuman for an undisclosed value and that its team of more than ten people in the North 'stays'; write a short update note on S73 (its first note, standing answers 95 and 100); re-read the page yourself; attribute the headcount and the funding figures to ECO; it is a February source, say whether the deal closed and what followed is still not confirmed by a later source; correct S73's no-independent-report and no-headcount lines; record the AI connection (direct, 0 steps) in the data note; categories Portugal, AI and Corporate"
-  ],
-  [
-   "S75",
-   "the Portugal desk (journalist-portugal)",
-   "A follow-up article (S69 is at its update limit) on the official gazette's standard terms for the health service's remote physiotherapy: the base of 200 euros for 12 months per treated patient, unlimited sessions in the year if needed, 100 euros for a later programme in a different body area, seven groups of eligible conditions, service levels, and, where AI is used, human oversight, documented accuracy and limits, no training on patient data without consent or anonymisation; re-read the gazette yourself; the researcher has now read the notice, clauses 1 to 12, the first paragraph of 13, clauses 19 to 23 (clinical team, service requirements, AI validation, insurance, penalties), 26 and 27, annexes III and IV and the price order (Despacho 1573/2026, 9 February 2026, which shows 200.00 and 100.00; the order prints no currency, annex IV says euros): state nothing from the rest of 13, clauses 14 to 18, 24, 25 or annexes I and II; the gazette confirms Observador's 200 euros; no claim about total payments, patient numbers or other providers; explain 'convention', 'accession' and 'class IIa medical device' at first use; AI rules are conditional, do not say more than S69's sources about the service using AI; record the AI connection (one step) in the data note; length follows the story; categories Portugal and AI"
+   "With the whole gazette notice now read, write a short first update note on S75 (standing answers 95 and 100; a dated intro line with the source, then a short list): patients may choose their provider freely and pay nothing beyond the convention's prices; care is at home on an electronic prescription from the health-service doctor; a provider whose device documents (EU conformity declaration, class IIa registration) are missing is excluded at once; the agency may audit care and the platform and ask for statistics on users, response times and functional gains; the platform must work with the health service's systems and not block data portability; either side may end it on 60 days' notice after six months; re-read the gazette yourself, say 'the gazette says', do not say any provider has joined or how many patients are treated; explain 'class IIa', 'conformity declaration' and 'data portability' at first use; repeat nothing S75 says; record the AI connection (one step) in the data note; categories Portugal and AI"
   ]
  ],
  "LINK_OVERRIDES": {
