@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1964",
+    "date": "2026-11-20",
+    "what": "security@PrompTugal.dinis: hand-over debrief for 20 Nov",
+    "by": "security@PrompTugal.dinis",
+    "from": "e02519dfb"
+  },
+  {
     "version": "v0.1.1963",
     "date": "2026-11-20",
     "what": "designer@PrompTugal.dinis: merge dev",
