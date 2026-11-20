@@ -59,5 +59,17 @@ States: proposed, chosen, drafting, with Vicky, published, set aside. The full p
 ## A1: People ahead, companies behind
 
 - **State:** drafting. Updated on 20 Nov 2026 with INE's 2026 results (596 words; draft and data note in `desks/analyst-vicky/`). Framing approved by Vicky on 16 Nov (standing answer 89); published early next week after her look at the update.
-- **New 2026 figures (INE, 20 Nov 2026).** People 16 to 74 using AI tools: 54.4% (38.7% in 2025). For work: 30.7% (19.9%). Algarve: 56.3% (+16.6 points). Companies with 10+ staff: 19.6% (11.5%). EU 2026 figures not yet published; EU 2025: people 32.7%, companies 20.0%.
-- **Sources.** [INE, "Mais de metade da população dos 16 aos 74 anos utilizava inteligência artificial"](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_destaques&DESTAQUESdest_boui=770294261&DESTAQUESmodo=2) and [INE, "Utilização de Inteligência Artificial pelas empresas aumenta para 19,6%"](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_destaques&DESTAQUESdest_boui=770294191&DESTAQUESmodo=2), both read 20 November 2026; Eurostat isoc_ai_iaiu and isoc_eb_ai, read 20 November 2026.
+- **The question.** People in Portugal use AI more than the EU average, but Portuguese companies have used it less. Why the gap, what does each number measure, and is it closing?
+- **AI path.** AI directly, 0 steps. Linked to the Humans and AI series. Places: Portugal, the Algarve (INE's regional figure, 2026), Europe.
+- **Checked figures** (2026 checked on 20 Nov 2026; EU 2025 re-read the same day, unchanged).
+  - People 16 to 74 using AI tools in the last three months: Portugal 54.4% in 2026, 38.7% in 2025. EU 32.7% in 2025 (Portugal 13th of 27). EU 2026 not yet published.
+  - For work: 30.7% in 2026, 19.9% in 2025 (EU 15.4% in 2025).
+  - Regions 2026: Grande Lisboa 63.5%, Península de Setúbal 62.5%, Algarve 56.3% (+16.6 points), Alentejo lowest at 46.7%.
+  - Companies with 10 or more staff using AI: Portugal 19.6% in 2026, 11.5% in 2025. EU 20.0% in 2025 (Portugal 21st of 27).
+  - By size 2026 (2025): 10 to 49 staff 16.3% (9.4%), 50 to 249 staff 32.1% (18.2%), 250+ staff 65.5% (49.1%).
+- **What the data cannot show.** A 2026 comparison with the EU, until Eurostat publishes. Whether workers use AI with their employer's tools. People and companies are different units, so the two shares are never subtracted. Sector comparisons for companies across 2025 and 2026 (INE changed the classification of economic activities). From 2025 the companies' measure counts an eighth kind of AI (pictures, video, sound), so 2025 and 2026 compare with each other but not exactly with 2023 and 2024.
+- **Sources.**
+  - [INE, "Mais de metade da população dos 16 aos 74 anos utilizava inteligência artificial"](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_destaques&DESTAQUESdest_boui=770294261&DESTAQUESmodo=2), published 20 November 2026, read 20 November 2026
+  - [INE, "Utilização de Inteligência Artificial pelas empresas aumenta para 19,6%"](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_destaques&DESTAQUESdest_boui=770294191&DESTAQUESmodo=2), published 20 November 2026, read 20 November 2026
+  - [Eurostat, "Individuals - use of generative AI tools" (isoc_ai_iaiu)](https://ec.europa.eu/eurostat/databrowser/view/isoc_ai_iaiu/default/table), read through Eurostat's data API 20 November 2026
+  - [Eurostat, "Artificial intelligence by size class of enterprise" (isoc_eb_ai)](https://ec.europa.eu/eurostat/databrowser/view/isoc_eb_ai/default/table), read through Eurostat's data API 20 November 2026
