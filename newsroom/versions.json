@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1961",
+    "date": "2026-11-20",
+    "what": "security@PrompTugal.dinis: web-flow key: narrow leak-scan allow; three sources before the key counts",
+    "by": "security@PrompTugal.dinis",
+    "from": "8667c27ce"
+  },
+  {
     "version": "v0.1.1960",
     "date": "2026-11-20",
     "what": "ontologist@PrompTugal.dinis: hand-over debrief for 20 November",
