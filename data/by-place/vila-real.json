@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Vila Real: AI and technology in Vila Real, a university and science-park city whose centre of gravity is the UTAD campus and the Regia Douro Park, and what reaches Vila Real from Trás-os-Montes, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -39,6 +39,16 @@
     "motif": "Marão and Alvão mountains, Douro vineyard terraces, black pottery of Bisalhães, a university town in the hills"
   },
   "ai_news": [
+    {
+      "title": "UTAD seminar looks at technology and AI to get people moving, in the ReFOOD4North project",
+      "summary": "The seminar 'Active Hotspots: Technology, Sustainability and Well-being' at UTAD, part of the ReFOOD4North project, explored how public spaces such as the UTAD Botanical Garden could be adapted to encourage healthier habits using technology and environmental monitoring. The report says it highlights the role of technology and AI in monitoring physical activity.",
+      "date": "2026-11-19",
+      "publisher": "Universidade.fm",
+      "url": "https://www.universidade.fm/utad-estuda-como-a-tecnologia-pode-promover-habitos-de-vida-mais-saudaveis/",
+      "read_on": "2026-11-20",
+      "ai_path": "A seminar at Vila Real's university where AI in monitoring physical activity is named as a theme, within a wider technology and well-being talk: one step from AI.",
+      "steps": 1
+    },
     {
       "title": "Vila Real's council backs school libraries' month on literacy and AI",
       "summary": "The council says Vila Real's school libraries, with its support, ran October's international school libraries month under a theme of literacy and artificial intelligence, with readings, workshops, author visits and theatre for about 300 pupils. The page describes the reading activities and gives no detail of AI content.",
@@ -482,7 +492,8 @@
     "Talent lists only three UTAD people who spoke publicly in UTAD or press reports. Nobody has agreed to be listed here, and no local AI founders were found.",
     "The 2026 EdgeOnVespa report gives no funding amount, and the HUB Digital report does not name its lead institution or any Vila Real base.",
     "People: no talent list yet. Three UTAD researchers appear by name in UTAD news about public AI talks and projects, but we list no named individual until PrompTugal has a rule for who may be shown and a source for their own consent.",
-    "Third pass (17 Nov): no AI news since 16 November. The UTAD feed's only new item (16 Nov, a mentoring network) and the ten Universidade.fm items of 16 Nov (including a UTAD technology, sustainability and wellbeing seminar with no AI stated) do not pass the AI test. The ULS Diário da República notice, agroportal items, DTech organisers, IBM centre and INOV_TECH 2026 edition were not re-opened with new results this pass."
+    "Third pass (17 Nov): no AI news since 16 November. The UTAD feed's only new item (16 Nov, a mentoring network) and the ten Universidade.fm items of 16 Nov (including a UTAD technology, sustainability and wellbeing seminar with no AI stated) do not pass the AI test. The ULS Diário da República notice, agroportal items, DTech organisers, IBM centre and INOV_TECH 2026 edition were not re-opened with new results this pass.",
+    "Fourth pass (20 Nov, window 17 to 20 Nov): one new item added, the UTAD technology and well-being seminar (19 Nov, AI named once). The UTAD feed, Notícias de Vila Real feed and A Voz de Trás-os-Montes feed were read; the UTAD items of 17 to 19 Nov (Gulbenkian maths scholarship, food-safety lab equipment, ageing World Café, pig welfare) have no AI text. The council's own news page (17 to 19 Nov: Estrada Nacional 2 association anniversary, 2027 transport fares, NTUR fair, futsal prize) shows no AI; Universidade.fm headlines of 17 to 19 Nov show no other AI item. The Universidade.fm and council RSS feeds returned 406 to a script this pass, so they were read from their news pages instead; the Douro Interior Jornal feed address redirects (301) and was not followed. Regia Douro Park was not re-tested. Nothing found dated 20 Nov."
   ],
   "voice": {
     "lede": "Vila Real, ó pá: where the Marão keeps the wind out, the vines climb the terraces, and the university quietly teaches the whole North to talk to machines before lunch.",
