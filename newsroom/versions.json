@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1952",
+    "date": "2026-11-20",
+    "what": "maestro.b (account-b): the email cell found on account A; the AgentiCCells conductor restarts it here (Dinis)",
+    "by": "maestro.b (account-b)",
+    "from": "c0b828198"
+  },
+  {
     "version": "v0.1.1951",
     "date": "2026-11-20",
     "what": "maestro.b (account-b): 12:18 wake: the launch conductors coordinated on the Algarve site; both wait on Dinis",
