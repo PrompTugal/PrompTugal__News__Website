@@ -1,6 +1,6 @@
 {
   "about": "The Agent Behaviour Policies of Dinis Cruz's agents, as data: deny by default, one grant per agent. Read by the hooks in .claude/settings.json (.claude/hooks/abp.mjs), which print an agent's ABP back into context at every start, resume and compaction and block what the policy denies; board/abp/<role>.md is generated from this file (node board/abp/tools/abp.mjs build), never edited by hand. Built on RiskMandate's model (Reach, Mandate, Gap, Barriers, Provenance; https://riskmandate.ai/agent-behaviour-policy.html) and the team site's ABPs by abp@web-summit.dinis (content/abp/). Kept by abp@PrompTugal.dinis; relaxations only at Dinis's word.",
-  "version": "1.18.7",
+  "version": "1.19.0",
   "updated": "2026-11-19T01:57Z",
   "operator": "Dinis Cruz",
   "kept_by": "abp@PrompTugal.dinis",
@@ -26,7 +26,7 @@
     },
     {
       "id": "R4",
-      "rule": "No new session, agent, scheduled task, trigger, wake-up, environment change or workflow without Dinis in his own session. Sub-agents only where the grant says so.",
+      "rule": "No new session, agent, scheduled task, trigger, wake-up, environment change or workflow without Dinis in his own session, except what his word of 20 November 2026 grants: maestro.b@ creates conductor sessions and their wakes only, and a conductor creates sessions and wakes within its own domain, never across domains (each one recorded on its owner's board). Messages between agents' sessions (send_message) are allowed to everyone, logged. Sub-agents only where the grant says so.",
       "barrier": "hook",
       "hook": "pre-tool"
     },
@@ -98,7 +98,7 @@
     },
     {
       "id": "R16",
-      "rule": "Every commit is signed with your own published key (a git SSH signature) and carries the Agent: and Claude-Session: trailers naming you and your session as recorded with your key in the repository's keys.json; the private half stays in your session (R8). The check in release.sh and CI fails an unsigned commit, one signed by someone other than its Agent:, or one naming another session (dev@ builds it; it starts from the commit that adds it, history is never rewritten). The check must (1) never exempt a commit by its author or committer name or address, which anyone can set: CI's own commits are exempt only by something a pusher cannot forge, or not at all; (2) check each commit against the keys in its parent commit's keys.json, never against the keys in the commit itself: a new or rotated key is added by a commit signed with a key already listed, or by a person (signals.b@'s review of its own check, 19 Nov 2026, relayed by conductor.b@). security@'s five controls (a250cc4240, 19 Nov 2026) are the standard for every repository's check: (1) no exemption by name; (2) keys from the parent commit, not the commit; (3) every commit in the pushed range is checked, side branches and merges included (git rev-list over the range, not first-parent only); (4) one failure refuses the whole range; (5) the Claude-Session: trailer equals the session published with the signing key (the full session URL, compared exactly) and the Agent: trailer equals the key's agent; (6) no orphan commit is accepted, including one brought in by a merge of an unrelated history, except the trusted base recorded by its full commit id, and a shallow checkout is refused (fetch-depth 0; git rev-parse --is-shallow-repository must not say true); (7) every security check CI runs (signatures, trailers, the leak scan and their configs) runs from the checker and config in the tree of A, the anchor: the newest commit a passing run verified, recorded where a pusher cannot write it (preferred: the head_sha of the latest workflow run with this workflow's path, head_branch dev, event push and conclusion success, read from GitHub's API in CI and never from git; the github-pages deployment sha is forgeable by anyone with write access until Dinis limits that environment to deployments from dev, so it is acceptable only as a stopgap; a tag counts only once Dinis limits release tags to GitHub Actions with a tag ruleset; BEFORE is never the anchor), and every file that steers a check (exemption lists, allowlists, commit-exemptions.json, .gitattributes) comes from A's tree as well, and A is the head_sha of a run whose security job, by its exact name, has conclusion success (the run's jobs are read, not only its conclusion), and the range checked is A..AFTER, so commits from dropped pushes are covered; it fails closed: A missing, A not an ancestor of AFTER or A without the checker fails the run; the trusted base's copy runs only on the single push that adds the check and the base cannot be overridden when CI or GITHUB_ACTIONS is set; (8) a check skips or cuts off only commits that are ancestors of the trusted base (git merge-base --is-ancestor), decided by ancestry only, never by date, file, path, message or name; (9) the signature, trailer and leak checks run in their own job that has run no pushed code (check out, take the checker from A into RUNNER_TEMP, run it; deploy needs that job; the build output reaches it only as data), with the artifact listed before it is unpacked (plain files and directories only, no absolute paths, no ..) and unpacked before the trusted directory exists, symlinks refused again, the leak scan reading every file as bytes (NUL bytes too) and not following symlinks, and the scanned bytes being the deployed bytes; the artifact downloaded into RUNNER_TEMP, vetted there and only then moved into place, a pushed _site or other output path refused, pushed attributes turned off (GIT_ATTR_SOURCE set to the empty tree on git 2.42 or later, or core.attributesFile=/dev/null with every scanned file read as a blob by git cat-file) and the security, deploy and tag jobs running only for refs/heads/dev; with GIT_NO_REPLACE_OBJECTS=1, NODE_OPTIONS cleared, symlinks on the checker's paths refused and node run by its absolute path; for a pull request the checker comes from the base commit, never from the PR head, and the range runs from the merge-base to the PR head ; (10) no symlinks: every commit of the range is refused if it adds or changes a mode-120000 entry (git diff-tree -r -z -m --raw per commit, each parent of a merge), AFTER's whole tree is listed (git ls-tree -r -z) and any such entry refused, and the checked-out tree and every downloaded artifact are scanned without pruning any directory (.git included) and refused if they hold a symlink, except the paths in an exceptions file read from A's tree, each {path, target, reason} with the link's target pinned, paths compared as raw bytes, NUL-separated and as whole strings; a new exception counts only from the next anchor and security@ reviews each one (security@'s rulings of 19 Nov 2026, board/team/security/reviews/2026-11-19-0130-bar-signing-live-data.md; the workflow YAML still comes from the pushed tree, which only Dinis's branch protection with a required check closes).",
+      "rule": "Every commit is signed with your own published key (a git SSH signature) and carries the Agent: and Claude-Session: trailers naming you and your session as recorded with your key in the repository's keys.json; the private half stays in your session (R8). The check in release.sh and CI fails an unsigned commit, one signed by someone other than its Agent:, or one naming another session (dev@ builds it; it starts from the commit that adds it, history is never rewritten). The check must (1) never exempt a commit by its author or committer name or address, which anyone can set: CI's own commits are exempt only by something a pusher cannot forge, or not at all; (2) check each commit against the keys in its parent commit's keys.json, never against the keys in the commit itself: a new or rotated key is added by a commit signed with a key already listed, or by a person (signals.b@'s review of its own check, 19 Nov 2026, relayed by conductor.b@). security@'s five controls (a250cc4240, 19 Nov 2026) are the standard for every repository's check: (1) no exemption by name; (2) keys from the parent commit, not the commit; (3) every commit in the pushed range is checked, side branches and merges included (git rev-list over the range, not first-parent only); (4) one failure refuses the whole range; (5) the Claude-Session: trailer equals the session published with the signing key (the full session URL, compared exactly) and the Agent: trailer equals the key's agent; (6) no orphan commit is accepted, including one brought in by a merge of an unrelated history, except the trusted base recorded by its full commit id, and a shallow checkout is refused (fetch-depth 0; git rev-parse --is-shallow-repository must not say true); (7) every security check CI runs (signatures, trailers, the leak scan and their configs) runs from the checker and config in the tree of A, the anchor: the newest commit a passing run verified, recorded where a pusher cannot write it (preferred: the head_sha of the latest workflow run with this workflow's path, head_branch dev, event push and conclusion success, read from GitHub's API in CI and never from git; the github-pages deployment sha is forgeable by anyone with write access until Dinis limits that environment to deployments from dev, so it is acceptable only as a stopgap; a tag counts only once Dinis limits release tags to GitHub Actions with a tag ruleset; BEFORE is never the anchor), and every file that steers a check (exemption lists, allowlists, commit-exemptions.json, .gitattributes) comes from A's tree as well, and A is the head_sha of a run whose security job, by its exact name, has conclusion success (the run's jobs are read, not only its conclusion), and the range checked is A..AFTER, so commits from dropped pushes are covered; it fails closed: A missing, A not an ancestor of AFTER or A without the checker fails the run; the trusted base's copy runs only on the single push that adds the check and the base cannot be overridden when CI or GITHUB_ACTIONS is set; (8) a check skips or cuts off only commits that are ancestors of the trusted base (git merge-base --is-ancestor), decided by ancestry only, never by date, file, path, message or name; (9) the signature, trailer and leak checks run in their own job that has run no pushed code (check out, take the checker from A into RUNNER_TEMP, run it; deploy needs that job; the build output reaches it only as data), with the artifact listed before it is unpacked (plain files and directories only, no absolute paths, no ..) and unpacked before the trusted directory exists, symlinks refused again, the leak scan reading every file as bytes (NUL bytes too) and not following symlinks, and the scanned bytes being the deployed bytes; the artifact downloaded into RUNNER_TEMP, vetted there and only then moved into place, a pushed _site or other output path refused, pushed attributes turned off (GIT_ATTR_SOURCE set to the empty tree on git 2.42 or later, or core.attributesFile=/dev/null with every scanned file read as a blob by git cat-file) and the security, deploy and tag jobs running only for refs/heads/dev; with GIT_NO_REPLACE_OBJECTS=1, NODE_OPTIONS cleared, symlinks on the checker's paths refused and node run by its absolute path; for a pull request the checker comes from the base commit, never from the PR head, and the range runs from the merge-base to the PR head ; (10) no symlinks: every commit of the range is refused if it adds or changes a mode-120000 entry (git diff-tree -r -z -m --raw per commit, each parent of a merge), AFTER's whole tree is listed (git ls-tree -r -z) and any such entry refused, and the checked-out tree and every downloaded artifact are scanned without pruning any directory (.git included) and refused if they hold a symlink, except the paths in an exceptions file read from A's tree, each {path, target, reason} with the link's target pinned, paths compared as raw bytes, NUL-separated and as whole strings; a new exception counts only from the next anchor and security@ reviews each one ; in the pull-request model (cells.b@, live.b@, library.b@ and signals.b@ where Dinis agreed to try it) a commit signed by GitHub's web-flow key is accepted only as a merge commit that all of these hold for: the API shows a merged pull request into dev whose merge_commit_sha is that commit and whose head.sha is its second parent, the security check, by job name, completed with success on exactly that head.sha (check-runs API), its first parent is A or a commit already checked in the range, and recomputing the merge with git merge-tree --write-tree (git 2.38 or later) gives the same tree id (a merge with conflicts fails); any other web-flow commit (a web edit, a squash, a rebase merge) fails, and the web-flow key is pinned in the repository, read from A's tree with its fingerprint, source and date read, never fetched at check time (security@'s rulings of 19 Nov 2026, board/team/security/reviews/2026-11-19-0130-bar-signing-live-data.md; the workflow YAML still comes from the pushed tree, which only Dinis's branch protection with a required check closes).",
       "barrier": "rule",
       "hook": "anchor"
     },
@@ -185,7 +185,6 @@
     ],
     "remote_conduct_by_grant": [
       "create_session",
-      "send_message",
       "create_trigger",
       "update_trigger",
       "fire_trigger",
@@ -195,6 +194,20 @@
     "remote_transcripts_by_grant": [
       "list_events",
       "get_event"
+    ],
+    "remote_message_all": [
+      "send_message"
+    ],
+    "gmail_draft_tools": [
+      "create_draft",
+      "update_draft",
+      "get_draft",
+      "list_drafts",
+      "list_labels"
+    ],
+    "gmail_servers": [
+      "Gmail",
+      "a7b6d141-4fda-4c3a-905d-672f50fd92f7"
     ]
   },
   "common": {
@@ -344,7 +357,7 @@
       "subagents": true
     },
     "ontologist": {
-      "focus": "data/ schemas and the derivation, the knowledge graph; with data.places (the data online and queryable: data/query/, the provenance line; its query features and vendored code under security@'s pass) folded in, and the media kind of data/organisations/ (the schema is its own; researcher@ and local@PrompTugal.jose write the outlets); sub-agents allowed; the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json)",
+      "focus": "data/ schemas and the derivation, the knowledge graph; with data.places (the data online and queryable: data/query/, the provenance line; its query features and vendored code under security@'s pass) folded in, and the media kind of data/organisations/ (the schema is its own; researcher@ and local@PrompTugal.jose write the outlets); sub-agents allowed; the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json) ; reads query.wikidata.org and www.wikidata.org for public data (nothing private sent), reviewed OK by abp@ on 20 Nov 2026",
       "writes": [
         "data/**",
         "newsroom/build/lib/derive.mjs",
@@ -355,7 +368,8 @@
         "assets/query/**",
         "assets/vendor/**",
         "data/schemas/data-*.schema.json",
-        "data/schemas/provenance*.schema.json"
+        "data/schemas/provenance*.schema.json",
+        "board/briefs/**"
       ],
       "never": "hand-edits a derived file",
       "relax_candidates": [
@@ -939,7 +953,9 @@
         "data/i18n/README.md"
       ],
       "subagents": true,
-      "never": "hand-writes the queue (data/i18n/queue/ is derived by dev.places@'s build), translates what the glossary keeps in English, changes the English source, writes build code (dev.places@ owns the segmenter and the pages), or gives its sub-agents more than its own grant"
+      "never": "hand-writes the queue (data/i18n/queue/ is derived by dev.places@'s build), translates what the glossary keeps in English, changes the English source, writes build code (dev.places@ owns the segmenter and the pages), or gives its sub-agents more than its own grant",
+      "work_branch": true,
+      "work_branch_why": "observed pushing work/translator and reviewed OK by abp@ (Dinis's workflow, 20 Nov 2026): dev@ brings its work onto dev"
     },
     "place.algarve.west": {
       "focus": "the aggregated Algarve desk (west): the union of its towns' place.<town> grants, each town run as a sub-agent inside this session's own run (aljezur, vila-do-bispo, lagos, portimao, lagoa, monchique, silves), local news by what is happening, each fact sourced with the date read, drafts and articles to the editor-in-chief; Dinis, 16 November 2026: \"aggregate them\"; the restart of 16 November 2026 (Dinis, ~19:25 UTC: board/guidance/2026-11-16-restart-here-go.md; roster board/team/conductor.b/roster-2026-11-16.json); on Sonnet",
@@ -1062,7 +1078,8 @@
       "never": "writes the others' content for them; starts a session, a scheduled task or a trigger without Dinis's word recorded in board/guidance/ (each one cited in its commit); archives a session or deletes a scheduled task (Dinis archives; a handover disables, never deletes); uses an environment or credential tool; gives a sub-agent more than its own grant, or uses one for anything but its own work and the inner passes",
       "remote_conduct": true,
       "releases_to_dev": true,
-      "subagents": true
+      "subagents": true,
+      "remote_conduct_scope": "sessions and wakes within its own domain (PrompTugal.news and its sites), never another conductor's; a need across domains goes to maestro.b@, then to Dinis; each creation recorded on its board with session and wake ids (Dinis, 20 Nov 2026)"
     },
     "telemetry.b": {
       "focus": "the side-car that maps every execution: per agent and per run, tokens and API-equivalent cost by model, every tool called, every host called (from tool inputs), sub-agents, permission refusals and breaches, read from the cloud sessions' transcripts (list_events, get_event); raw detail in an encrypted vault (readable by Dinis and abp@), never in this repository; aggregates in board/runs/stats/ and its page beside the security log; it sends abp@ the per-agent run lists (Dinis, 18 Nov 2026, board/guidance/2026-11-18-telemetry-and-sub-agents.md; on Sonnet, hourly at :26)",
@@ -1208,7 +1225,9 @@
       "subagents": true,
       "lifecycle": "onboarding",
       "onboarded": "2026-11-18",
-      "never": "writes this repository outside board/team/<role>/ and board/runs/<role>/; reads another session's transcript; uses a connector; starts a session or a scheduled task; pushes to main, force-pushes or disables a check; prints or commits a key, a token or a private person's contact; publishes data from a source on the register of sources we do not read; changes .claude/ or its own ABP in its repository without Dinis's yes in its session"
+      "never": "writes this repository outside board/team/<role>/ and board/runs/<role>/; reads another session's transcript; uses a connector; starts a session or a scheduled task; pushes to main, force-pushes or disables a check; prints or commits a key, a token or a private person's contact; publishes data from a source on the register of sources we do not read; changes .claude/ or its own ABP in its repository without Dinis's yes in its session",
+      "gmail_drafts": true,
+      "gmail_drafts_why": "Dinis, 20 November 2026, in abp@'s own session (board/abp/dinis-word-2026-11-20.md): \"I always [do] draft, so just keep it there\" (he sends the email himself); drafts only, never send."
     },
     "cyber.b": {
       "focus": "the lead of the cyber (cyber.promptugal.news): aggregates only, the published limits, only sources whose terms allow commercial reuse until Dinis decides on the rest; an Opus lead running Sonnet sub-agents on account B (PrompTugal/PrompTugal__News__Cyber); onboarding policy (relaxed default, observe): free in its own repository except the protected paths, and here only its own folders; abp@ tightens it wake by wake (board/abp/lifecycle.md); started at Dinis's word (board/guidance/2026-11-18-cameras-provenance-and-bulletins.md)",
@@ -1260,7 +1279,9 @@
       "subagents": true,
       "lifecycle": "onboarding",
       "onboarded": "2026-11-18",
-      "never": "writes this repository outside board/team/<role>/ and board/runs/<role>/; reads another session's transcript; uses a connector; starts a session or a scheduled task; pushes to main, force-pushes or disables a check; prints or commits a key, a token or a private person's contact; publishes data from a source on the register of sources we do not read; changes .claude/ or its own ABP in its repository without Dinis's yes in its session; commits as the writer before Dinis has confirmed in its own session; works while another writer is registered"
+      "never": "writes this repository outside board/team/<role>/ and board/runs/<role>/; reads another session's transcript; uses a connector; starts a session or a scheduled task; pushes to main, force-pushes or disables a check; prints or commits a key, a token or a private person's contact; publishes data from a source on the register of sources we do not read; changes .claude/ or its own ABP in its repository without Dinis's yes in its session; commits as the writer before Dinis has confirmed in its own session; works while another writer is registered",
+      "remote_conduct": true,
+      "remote_conduct_scope": "sessions and wakes within newsroom.sgit.ai's own domain only, never another conductor's; each creation recorded (Dinis, 20 Nov 2026)"
     },
     "rights": {
       "focus": "the licensing side-car across every *.promptugal.news site (a side-car like security@ and abp@): licences, terms of use, attribution, commercial use and privacy rights (people not named where the rules say so; take-down on request); daily checks that every value served carries its licence and provenance, every licence has commercial_use (allowed, not allowed, per item, unclear), promptugal.news shows only data marked allowed, every required credit is shown, terms are re-read on a schedule and changes flagged, refusals respected, and no agent accepted terms; not legal advice; on Sonnet, hourly at :45 (Dinis, 18 Nov 2026 ~23:20-23:40 UTC, board/guidance/2026-11-18-rights.md: \"we should be controlling this also via an agent behavior policy\"); starting data https://data.promptugal.news/api/v1/sources/commercial.json",
@@ -1288,7 +1309,51 @@
       "subagents": true,
       "lifecycle": "onboarding",
       "onboarded": "2026-11-19",
-      "never": "starts a session, a scheduled task, a trigger or a workflow (only Dinis, in its own session); sends a message to a session (send_message): it reaches a conductor through the sealed inbox lanes or the shared board, until Dinis grants send_message in writing; uses a connector; reads another session's transcript (telemetry.b@'s alone); names a private prospect or a project's private material (cells.b's above all) in this repository or in any message; writes a project's content or another agent's files; accepts terms for anyone"
+      "never": "starts a session, a scheduled task, a trigger or a workflow (only Dinis, in its own session); sends a message to a session (send_message): it reaches a conductor through the sealed inbox lanes or the shared board, until Dinis grants send_message in writing; uses a connector; reads another session's transcript (telemetry.b@'s alone); names a private prospect or a project's private material (cells.b's above all) in this repository or in any message; writes a project's content or another agent's files; accepts terms for anyone",
+      "remote_conduct": true,
+      "remote_conduct_scope": "conductor sessions and their scheduled wakes only (a conductor's own domain is the conductor's; never a session inside a conductor's project, and never across domains); each creation recorded on the owner's board with session and wake ids (Dinis, 20 Nov 2026)"
+    },
+    "gamma-ray": {
+      "focus": "the GAMMA-Ray project agent; onboarding grant from abp@ on 20 Nov 2026 (Dinis: every agent has a policy, a flow and a grant); its own folders only until its conductor says retire or keep (board/team/abp/relays/2026-11-20-for-conductors.md)",
+      "writes": [],
+      "lifecycle": "onboarding",
+      "onboarded": "2026-11-20",
+      "never": "writes outside board/team/<role>/ and board/runs/<role>/; uses a connector; starts a session or a scheduled task; pushes to main, force-pushes or disables a check; prints or commits a key, a token or a private person's contact; changes .claude/ or board/abp/"
+    },
+    "investors": {
+      "focus": "investors@: PrompTugal.news as an investable business; onboarding grant from abp@ on 20 Nov 2026 (Dinis: every agent has a policy, a flow and a grant); its own folders only until its conductor says retire or keep (board/team/abp/relays/2026-11-20-for-conductors.md)",
+      "writes": [],
+      "lifecycle": "onboarding",
+      "onboarded": "2026-11-20",
+      "never": "writes outside board/team/<role>/ and board/runs/<role>/; uses a connector; starts a session or a scheduled task; pushes to main, force-pushes or disables a check; prints or commits a key, a token or a private person's contact; changes .claude/ or board/abp/"
+    },
+    "reporter.newsroom": {
+      "focus": "a reporter of the newsroom desk; onboarding grant from abp@ on 20 Nov 2026 (Dinis: every agent has a policy, a flow and a grant); its own folders only until its conductor says retire or keep (board/team/abp/relays/2026-11-20-for-conductors.md)",
+      "writes": [],
+      "lifecycle": "onboarding",
+      "onboarded": "2026-11-20",
+      "never": "writes outside board/team/<role>/ and board/runs/<role>/; uses a connector; starts a session or a scheduled task; pushes to main, force-pushes or disables a check; prints or commits a key, a token or a private person's contact; changes .claude/ or board/abp/"
+    },
+    "social.watch": {
+      "focus": "social watch; onboarding grant from abp@ on 20 Nov 2026 (Dinis: every agent has a policy, a flow and a grant); its own folders only until its conductor says retire or keep (board/team/abp/relays/2026-11-20-for-conductors.md)",
+      "writes": [],
+      "lifecycle": "onboarding",
+      "onboarded": "2026-11-20",
+      "never": "writes outside board/team/<role>/ and board/runs/<role>/; uses a connector; starts a session or a scheduled task; pushes to main, force-pushes or disables a check; prints or commits a key, a token or a private person's contact; changes .claude/ or board/abp/"
+    },
+    "work-desk": {
+      "focus": "the work desk; onboarding grant from abp@ on 20 Nov 2026 (Dinis: every agent has a policy, a flow and a grant); its own folders only until its conductor says retire or keep (board/team/abp/relays/2026-11-20-for-conductors.md)",
+      "writes": [],
+      "lifecycle": "onboarding",
+      "onboarded": "2026-11-20",
+      "never": "writes outside board/team/<role>/ and board/runs/<role>/; uses a connector; starts a session or a scheduled task; pushes to main, force-pushes or disables a check; prints or commits a key, a token or a private person's contact; changes .claude/ or board/abp/"
+    },
+    "journalist.newsroom": {
+      "focus": "a journalist of the newsroom desk; onboarding grant from abp@ on 20 Nov 2026 (Dinis: every agent has a policy, a flow and a grant); its own folders only until its conductor says retire or keep (board/team/abp/relays/2026-11-20-for-conductors.md)",
+      "writes": [],
+      "lifecycle": "onboarding",
+      "onboarded": "2026-11-20",
+      "never": "writes outside board/team/<role>/ and board/runs/<role>/; uses a connector; starts a session or a scheduled task; pushes to main, force-pushes or disables a check; prints or commits a key, a token or a private person's contact; changes .claude/ or board/abp/"
     }
   },
   "external": {
@@ -1313,7 +1378,9 @@
       },
       "reviewer@PrompTugal.vicky": {
         "writes": [
-          "desks/correspondent/front-page.json"
+          "desks/correspondent/front-page.json",
+          "content/articles/**",
+          "articles/**"
         ],
         "only_keys": [
           "lead.standfirst",
@@ -1323,7 +1390,7 @@
           "lead.live"
         ],
         "never": "changes any other key of front-page.json (lead.article, lead.why, top, bands and the rest stay correspondent@'s), or writes any other file under desks/correspondent/",
-        "why": "Dinis, in his own session with conductor@web-summit.dinis, 10 November 2026, about 18:25 UTC, on Vicky's request: \"can you give my reviewer@ permission to write only the five S41 lead fields in front-page.json?\" Values prepared by weather@PrompTugal.vicky (desks/weather-vicky/s41-lead.json), verified by reviewer@ before each write; commits For: correspondent@PrompTugal.dinis. For the S41 story only.",
+        "why": "Dinis, in his own session with conductor@web-summit.dinis, 10 November 2026, about 18:25 UTC, on Vicky's request: \"can you give my reviewer@ permission to write only the five S41 lead fields in front-page.json?\" Values prepared by weather@PrompTugal.vicky (desks/weather-vicky/s41-lead.json), verified by reviewer@ before each write; commits For: correspondent@PrompTugal.dinis. For the S41 story only. | 20 Nov 2026: also publishes and updates articles in content/articles/ with their signatures at Vicky's recorded word (commit 8fcfb9ff), reviewed OK by abp@ under Dinis's workflow; the gate and the signature check still apply; abp@ watches each wake.",
         "granted": "2026-11-10T18:25Z",
         "granted_by": "dinis (relayed and recorded by conductor@web-summit.dinis; board/guidance/2026-11-10-vickys-reviewer-and-security.md)"
       },
@@ -1450,7 +1517,7 @@
       }
     ]
   },
-  "hook_sha256": "41c5adee28b60904",
+  "hook_sha256": "2569b1f345d7e552",
   "hook_sha256_note": "the first 16 hex of sha256(.claude/hooks/abp.mjs) as abp@ released it; the hook checks itself at every session start and logs hook-changed on a mismatch (security@'s S15). Changed only by abp@ with the hook.",
   "open_questions": [
     {

@@ -7,5 +7,19 @@
   "located_in": "place:ireland",
   "matches": [],
   "source": "https://en.wikipedia.org/w/index.php?title=Web_Summit&oldid=1383690798",
-  "note": "Where Web Summit was held from 2010 to 2015, before it moved to Lisbon (past events, 6 November 2026)."
+  "note": "Where Web Summit was held from 2010 to 2015, before it moved to Lisbon (past events, 6 November 2026).",
+  "at": [
+    -6.2603,
+    53.3497
+  ],
+  "at_source": {
+    "url": "https://www.wikidata.org/wiki/Q1761",
+    "read_at": "2026-11-20T10:00Z",
+    "how": "Wikidata coordinate location (P625), read on that item"
+  },
+  "wikidata": {
+    "id": "Q1761",
+    "read_at": "2026-11-20T10:00Z",
+    "how": "read: the item is the Dublin of this record (label and description checked)"
+  }
 }

@@ -5,7 +5,7 @@
   "kind": "region",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "by": "place.algarve@PrompTugal.dinis",
   "mandate": "PrompTugal.news The Algarve: AI and technology across the Algarve and its 17 towns, centred on Faro's university and innovation community and on tourism and health, and what reaches the region from Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -850,7 +850,8 @@
     "The afternoon scan of 18 November found no new startup, AI or digital-services item for 17 and 18 November. Seen only as listing lines, not opened: the VRSA Youth Participatory Budget (voting to 13 December), the SamhainBaucogna film festival (24 to 29 November), World Diabetes Day at Monte Gordo, the UAlg participatory budget (9 November) and Longevity Society award (9 November), AMAL's 2027 budget and waste-study contract, and CCDR's 13 November waste conference. Barlavento and Postal were not read in the afternoon scan. The fetch of cm-alcoutim.pt returned no news content again (probably rendered by JavaScript); not retried.",
     "19 November, 06:40 UTC scan: almost nothing new was published overnight; Castro Marim and Alcoutim had no item from 18 or 19 November (cm-alcoutim.pt returned only a skip link again). Every new item above is held under R12 and most are listing only.",
     "19 November, 11:40 UTC scan: nothing dated 18 or 19 November for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim beyond the items already held; cm-alcoutim.pt returned an empty page and its /pt/noticias a 404, so Alcoutim is unchecked at source. A privately run giant nativity at Monte Francisco (Castro Marim, opens 1 December, Postal 18 November) is not listed: its page gives the private promoter's contact and it is marginal.",
-    "19 November, 16:40 UTC scan: no new item for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim from the councils (cm-alcoutim.pt empty again); the new items are regional. Seen only as headlines: Jornadas Ibéricas de Turismo do Interior (November 2027), a PS budget proposal on linking reservoirs in Beja and Faro, a CCMAR zebrafish study, Santander grants for UAlg teaching students, two VRSA notices (a CPCJ seminar on 25 November, a swimming championship on 21 and 22 November). The IPMA feed fetch returned no Faro entries this time, so no warning content is reported."
+    "19 November, 16:40 UTC scan: no new item for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim from the councils (cm-alcoutim.pt empty again); the new items are regional. Seen only as headlines: Jornadas Ibéricas de Turismo do Interior (November 2027), a PS budget proposal on linking reservoirs in Beja and Faro, a CCMAR zebrafish study, Santander grants for UAlg teaching students, two VRSA notices (a CPCJ seminar on 25 November, a swimming championship on 21 and 22 November). The IPMA feed fetch returned no Faro entries this time, so no warning content is reported.",
+    "20 November, 07:50 UTC scan: almost nothing new in the window for any of the four towns; cm-alcoutim.pt again returned only a skip link and the site title, so Alcoutim is unchecked at source; no AI, funding call or start-up item found."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",

@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-europarl-digital-omnibus-on-ai",
+  "type": "evidence",
+  "source_url": "https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai",
+  "beat": "Europe",
+  "group": "S77",
+  "names": [
+    {
+      "as_listed": "European Parliament",
+      "ref": "organisation:european-parliament"
+    },
+    {
+      "as_listed": "European Commission",
+      "ref": "company:european-commission"
+    },
+    {
+      "as_listed": "Council",
+      "ref": "organisation:council"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-20-1550.json",
+  "run": "2026-11-20T15:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-20-1550.json"
+    ]
+  }
+}
