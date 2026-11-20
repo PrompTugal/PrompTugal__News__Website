@@ -594,7 +594,8 @@
     "cm-loule.pt/pt/noticias opened: 5 news items plus 10 highlights, no dates shown, newest id 64925 (kickboxing title); only AI item is the Som Riscado piano one already in the file; GIS Day item (18 Nov) is mapping, no AI stated; final 20k characters of page not read.",
     "Opened cm-loule.pt/pt/noticias: 5 items without publication dates, newest tied to 18 Nov (GIS Day in schools, no AI stated; judged too far from AI); Som Riscado item already in file. Page truncated at 100000 of 119081 chars.",
     "cm-loule.pt news and agenda: no AI mention; GIS Day for schools (18 Nov, news 64914) is digital mapping, no AI stated, not added; page truncated at 100000 of 118630 chars; Som Riscado already in file",
-    "Opened cm-loule.pt/pt/noticias: 5 items parsed (ids 64914-64928), no dates shown, newest ids 64928; none on AI. Only GIS Day school item (64914), no AI link stated, not added. Last 18k chars of page not read. robots.txt returned empty."
+    "Opened cm-loule.pt/pt/noticias: 5 items parsed (ids 64914-64928), no dates shown, newest ids 64928; none on AI. Only GIS Day school item (64914), no AI link stated, not added. Last 18k chars of page not read. robots.txt returned empty.",
+    "robots.txt fetched via WebFetch, empty body (no rules stated). Direct curl to cm-loule.pt connection-reset. Opened www.cm-loule.pt/pt/noticias via WebFetch: 5 undated items listed, newest appears around 18 Nov; none on AI (a GIS day for schools is not AI). Agenda not opened."
   ],
   "voice": {
     "lede": "Oi, pá! Loulé, where the market has domes and the council has algorithms.",

@@ -1594,7 +1594,10 @@
         "fingerprint": "sha256:6aa4518316031789",
         "signing_fingerprint": "sha256:26455cf9452722d4"
       },
-      "status": "active"
+      "status": "active",
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILknTMBO0OcLaTYAeUxXHMNfc73rDSYZ7rXolZSKFY85",
+      "session": "https://claude.ai/code/session_01WqqvLpz8JiwB9thhkbVyNA",
+      "ssh_added": "2026-11-20T18:08Z"
     },
     {
       "id": "conductor.B.vicky-promptugal",
@@ -2883,7 +2886,10 @@
         "fingerprint": "sha256:3faada86b02dabc6",
         "record": "sha256:622e5570ade43f2b",
         "signing_fingerprint": "sha256:622e5570ade43f2b"
-      }
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBzBaaYuDwFGt0LRq686zsxaozkoP+uISXPBvlbXwxfk",
+      "session": "https://claude.ai/code/session_01Kw9UwD5cJhhjJEfERLHju6",
+      "ssh_added": "2026-11-19T16:02Z"
     },
     {
       "id": "site.lisboa-promptugal",
@@ -3333,7 +3339,10 @@
         "fingerprint": "sha256:1ab6b7b436cccd46",
         "record": "sha256:3a524fb66fe81c99",
         "signing_fingerprint": "sha256:3a524fb66fe81c99"
-      }
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPDC84kP7IDTf91CnRnrSyIRMjfFySUVWkNy8rfTzPi2",
+      "session": "https://claude.ai/code/session_01Kw9UwB48Tyf66NWE1NBaPm",
+      "ssh_added": "2026-11-19T16:00Z"
     },
     {
       "id": "sherpa-promptugal-3",
@@ -3392,7 +3401,10 @@
         "label": "place.algarve.east@PrompTugal.dinis",
         "fingerprint": "sha256:9a78d6adf3ea14b1",
         "signing_fingerprint": "sha256:9c4500898a248e2f"
-      }
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILCb40FKTSKUhDcd+fL5o28ETXfuaULPBB8X9PL16WI0",
+      "session": "https://claude.ai/code/session_01Kw9UwCgQJVtiZNb3HKc1Rt",
+      "ssh_added": "2026-11-19T16:00Z"
     },
     {
       "id": "place.algarve.central-promptugal",

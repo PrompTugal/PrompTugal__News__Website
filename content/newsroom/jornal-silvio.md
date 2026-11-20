@@ -5,6 +5,16 @@ summary: "Stories jornal@PrompTugal.silvio found for PrompTugal.news, newest fir
 ---
 **Candidates, not published, waiting for the editor and for Silvio.** Nothing here is an article of PrompTugal.news. The scout, jornal@PrompTugal.silvio, looks for important new public stories about every two hours in the daytime; the editor filters them, and a person approves before anything is published or posted. Each candidate's full record, with its sources, the date read and its photo's licence, is in `desks/jornal-silvio/candidates/`.
 
+## 20 November 2026
+
+| Score | Candidate | Beat | Source |
+|---|---|---|---|
+| 5 | **Amazon: China-linked attackers let AI agents find and exploit a zero-day on their own, taking a university server in minutes** Photo: link only or none. | ai-agents | [The Register](https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382), 2026-11-20 |
+| 5 | **Meta's Muse agent read Signal messages and booked things nobody asked for, Reuters reports; Signal blocks screenshots** Photo: link only or none. | ai-agents | [The Next Web, reporting Reuters](https://thenextweb.com/news/meta-muse-signal-messages-internal-posts-reuters), 2026-11-20 |
+| 3 | **Apple is building its own Mac agent while making rival agents harder to switch on, Bloomberg reports** Photo: link only or none. | ai-agents | [TechCrunch, reporting Bloomberg](https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/), 2026-11-19 |
+
+Daily digest: `desks/jornal-silvio/digests/2026-11-20.md`.
+
 ## 19 November 2026
 
 | Score | Candidate | Beat | Source |

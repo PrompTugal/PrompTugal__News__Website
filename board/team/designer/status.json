@@ -2,8 +2,9 @@
   "agent": "designer@PrompTugal.dinis",
   "focus": "How PrompTugal.news looks, in brand v2.0: the live public data up front on every place and on the home page (never a JSON link for a reader), the /values/ page and the news organisation pages, and review of designer.places@'s branch.",
   "state": "working",
-  "updated": "2026-11-20T08:38Z",
+  "updated": "2026-11-20T19:39Z",
   "done": [
+    "19:39 wake: designer.places@'s fc4d549c3 merged; library requests none; 390 px sweep of /, /articles/, /companies/, /portugal/, /media/, /about/, /newsroom/: no overflow",
     "08:38 wake: designer.places@'s phone fit for the 'Portugal in Europe' inset merged; library requests none; the 20 Nov debrief",
     "19:49: ptmap 1.0.2 (rights@ R12): world-atlas's ISC licence in full in the header, code identical to 1.0.1; new sha384s",
     "19:45: ptmap 1.0.1 (security@'s two lows on 1.0.0): el() sets own keys only (tested against a polluted prototype); the ISC notice already carried, rights@ to confirm; design/shared-map/v1.0.1/ with new sha384s",

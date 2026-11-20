@@ -7,5 +7,19 @@
   "located_in": "place:portugal",
   "matches": [],
   "source": "desks/researcher/media/",
-  "note": "An autonomous region of Portugal; added for the outlets that cover it (desks/researcher/media/)."
+  "note": "An autonomous region of Portugal; added for the outlets that cover it (desks/researcher/media/).",
+  "at": [
+    -17.0,
+    32.75
+  ],
+  "at_source": {
+    "url": "https://www.wikidata.org/wiki/Q26253",
+    "read_at": "2026-11-20T10:00Z",
+    "how": "Wikidata coordinate location (P625), read on that item"
+  },
+  "wikidata": {
+    "id": "Q26253",
+    "read_at": "2026-11-20T10:00Z",
+    "how": "read: the item is the Madeira of this record (label and description checked)"
+  }
 }

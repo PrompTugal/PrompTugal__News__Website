@@ -31,7 +31,7 @@ function build() {
     const entries = [...Object.entries(P.roles), ...workers.map(wk => [wk, { ...P.roles[wk.split('.')[0]], focus: `a ${wk.split('.')[0]} worker (${wk.split('.').slice(1).join('.')}), on Sonnet: ${P.workers.about.split(': ')[1] || ''}`.replace(/\.$/, ''), relax_candidates: null, never: `pushes to dev or merges its own work (${wk.split('.')[0]}@ reviews it)` }])]
     for (const [role, r] of entries) {
         const g = abp.grantOf({ kind: 'team', role, agent: `${role}@PrompTugal.dinis` }, P)
-        const flags = [g.subagents && 'sub-agents (Agent, SendMessage) inside its own run', g.notify_dinis && 'a push notification to Dinis (PushNotification)', g.remote_read && "reading the cloud sessions' list and status and scheduled tasks (claude-code-remote read tools, no transcripts)", g.remote_transcripts && "reading other sessions' transcripts (list_events, get_event): this agent only (Dinis, 18 Nov 2026)", g.remote_conduct && "conducting the team's sessions and scheduled tasks (claude-code-remote: create_session, send_message, create_trigger, update_trigger, fire_trigger, set_session_title, set_session_tags), only at Dinis's recorded word given in its own session (R4)"].filter(Boolean)
+        const flags = [g.subagents && 'sub-agents (Agent, SendMessage) inside its own run', g.notify_dinis && 'a push notification to Dinis (PushNotification)', g.remote_read && "reading the cloud sessions' list and status and scheduled tasks (claude-code-remote read tools, no transcripts)", g.remote_transcripts && "reading other sessions' transcripts (list_events, get_event): this agent only (Dinis, 18 Nov 2026)", g.remote_conduct && "conducting the team's sessions and scheduled tasks (claude-code-remote: create_session, send_message, create_trigger, update_trigger, fire_trigger, set_session_title, set_session_tags), within this scope only: " + (g.remote_conduct_scope || "at Dinis's recorded word given in its own session (R4)"), g.gmail_drafts && "drafts on the Gmail connector (create, update, get, list), never send, forward, reply, trash or label: Dinis sends (20 Nov 2026)", "messages to other agents' sessions (send_message), allowed to every agent and logged (Dinis, 20 Nov 2026)"].filter(Boolean)
         const md = `---
 title: "ABP: ${role}@PrompTugal.dinis"
 agent: ${role}@PrompTugal.dinis
@@ -129,7 +129,10 @@ function test() {
         [T('conductor'), { tool_name: 'mcp__claude-code-remote__create_session', tool_input: {} }, 'deny', 'create a session'],
         [T('conductor'), { tool_name: 'mcp__claude-code-remote__create_trigger', tool_input: {} }, 'deny', 'create a trigger'],
         [T('conductor'), { tool_name: 'mcp__claude-code-remote__update_trigger', tool_input: {} }, 'deny', 'update a trigger'],
-        [T('dev'), { tool_name: 'mcp__claude-code-remote__send_message', tool_input: {} }, 'deny', 'message a session'],
+        [T('dev'), { tool_name: 'mcp__claude-code-remote__send_message', tool_input: {} }, 'allow', 'messages between agents are allowed to everyone (Dinis, 20 Nov 2026)'],
+        [T('live.b'), { tool_name: 'mcp__Gmail__create_draft', tool_input: {} }, 'allow', 'live.b drafts the MEO email, never sends'],
+        [T('live.b'), { tool_name: 'mcp__Gmail__send_message', tool_input: {} }, 'deny', 'live.b never sends'],
+        [T('dev'), { tool_name: 'mcp__Gmail__create_draft', tool_input: {} }, 'deny', 'only live.b has Gmail drafts'],
         [T('dev'), { tool_name: 'mcp__claude-code-remote__send_later', tool_input: {} }, 'deny', 'send_later'],
         [T('dev'), { tool_name: 'mcp__claude-code-remote__request_credential', tool_input: {} }, 'deny', 'credential'],
         [T('dev'), { tool_name: 'mcp__claude-code-remote__read_documentation', tool_input: {} }, 'allow', 'documentation'],
@@ -159,8 +162,9 @@ function test() {
         [T('maestro.b'), w('content/articles/x.md'), 'deny', 'maestro.b writes no content'],
         [T('maestro.b'), { tool_name: 'mcp__claude-code-remote__get_session', tool_input: {} }, 'allow', 'maestro.b reads session status'],
         [T('maestro.b'), { tool_name: 'mcp__claude-code-remote__list_events', tool_input: {} }, 'deny', 'maestro.b reads no transcript'],
-        [T('maestro.b'), { tool_name: 'mcp__claude-code-remote__send_message', tool_input: {} }, 'deny', 'maestro.b has no send_message until Dinis grants it'],
-        [T('maestro.b'), { tool_name: 'mcp__claude-code-remote__create_session', tool_input: {} }, 'deny', 'maestro.b starts no session'],
+        [T('maestro.b'), { tool_name: 'mcp__claude-code-remote__send_message', tool_input: {} }, 'allow', 'maestro.b messages like every agent'],
+        [T('maestro.b'), { tool_name: 'mcp__claude-code-remote__create_session', tool_input: {} }, 'allow', 'maestro.b creates conductor sessions (Dinis, 20 Nov 2026)'],
+        [T('dev'), { tool_name: 'mcp__claude-code-remote__create_session', tool_input: {} }, 'deny', 'only conductors and maestro.b create sessions'],
         [T('civic.b'), w('content/articles/x.md'), 'deny', 'a site lead writes this repository outside its folders'],
         [T('civic.b'), w('board/team/civic.b/status.json'), 'allow', 'a site lead writes its own folder here'],
         [T('civic.b'), { tool_name: 'Agent', tool_input: {} }, 'allow', 'a site lead runs sub-agents'],
@@ -515,9 +519,38 @@ function hourly() {
     return result
 }
 
+
+// ---------- the repository map (Dinis, 20 Nov 2026: each agent only connects and works on the repo it is meant to) ----------
+function repoMap() {
+    const P = abp.loadPolicy()
+    const HOME = 'promptugal/promptugal__news__website'
+    const rows = []
+    for (const [role, r] of Object.entries(P.roles)) {
+        const own = r.repo || null
+        const writesHere = !!(own ? (r.writes || []).length || role : true)
+        rows.push({
+            role, agent: `${role}@PrompTugal.dinis`,
+            home_repository: own || HOME,
+            writes_home: own ? (r.repo_writes || []) : ['by the path grant in policies.json (' + ((r.writes || []).length) + ' path pattern(s)) and its own board folders'],
+            writes_this_repository: own ? 'only board/team/' + role + '/** and board/runs/' + role + '/** (and what it releases through release.sh)' : 'by the path grant',
+            reads_github: [...P.tools.github_repos],
+            sends_to: [...P.common.send_hosts, ...(r.send_hosts || [])],
+            lifecycle: r.lifecycle || 'settled'
+        })
+    }
+    for (const [agent, e] of Object.entries(P.external.by_agent || {})) rows.push({ role: agent, agent, home_repository: 'its operator\'s own checkout; writes here only: ' + (e.writes || []).join(', '), kind: 'external operator agent' })
+    const out = { generated: new Date().toISOString(), policy: P.version, about: 'DECLARED access, from board/abp/policies.json. The ACTUAL access (which repositories a session can really reach through its GitHub App installation, tokens and environment) is security@\'s to read and add under "actual" (board/abp/repo-map.md). A difference between declared and actual is a finding for abp@ and security@.', repositories: [...new Set(rows.map(r => r.home_repository))].sort(), agents: rows }
+    fs.writeFileSync(path.join(ROOT, 'board', 'abp', 'repo-map.json'), JSON.stringify(out, null, 1) + '\n')
+    const by = {}; for (const r of rows) (by[r.home_repository] ||= []).push(r.role)
+    const md = ['# The repository map', '', `Declared, from board/abp/policies.json v${P.version}, generated by \`node board/abp/tools/abp.mjs repo-map\`. Dinis, 20 Nov 2026: each agent connects only to the repository it is meant to. The full table is repo-map.json.`, '', '| Repository | Agents whose home it is |', '|---|---|', ...Object.entries(by).sort().map(([k, v]) => `| ${k} | ${v.join(', ')} |`), '', '## Actual access (security@ to complete)', '', 'security@ reads what each session can really reach (GitHub App installations, tokens, the environment), writes it below as "actual", and the two are compared at each wake. A session that reaches a repository that is not its own home is a finding.', '', '## Declared reads on GitHub', '', ...P.tools.github_repos.map(r => '- ' + r + ' (read tools only, every agent)')].join('\n') + '\n'
+    fs.writeFileSync(path.join(ROOT, 'board', 'abp', 'repo-map.md'), md)
+    console.log(`abp repo-map: ${rows.length} agents, ${out.repositories.length} repositories`)
+}
+
 const cmd = process.argv[2]
 if (cmd === 'build') build()
 else if (cmd === 'test') test()
 else if (cmd === 'run-report') runReport()
 else if (cmd === 'report') hourly()
+else if (cmd === 'repo-map') repoMap()
 else { console.log('usage: node board/abp/tools/abp.mjs build | test | run-report [--role R] [--line L] | report [--since ISO] [--out F]'); process.exitCode = 1 }

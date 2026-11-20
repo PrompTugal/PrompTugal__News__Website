@@ -2,6 +2,14 @@
  "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`. LINK_OVERRIDES: a source URL as captured mapped to the same address written another way (a digit percent-encoded, which the URL standard treats as the same address) so the team site's phone check does not read a long run of digits and dashes as a phone number.",
  "stories": [
   [
+   "S77",
+   "How the EU simplified the AI Act: what changed and when",
+   "Europe",
+   "The Digital Omnibus on AI (Regulation (EU) 2026/1744), by the Parliament's and the Commission's own pages: high-risk rules from 2 December 2027 (2 August 2028 for AI in products), the marking duty moved to 2 December 2026 for older systems, a new ban on AI practices generating non-consensual intimate content and child sexual abuse material, lighter registration and documentation, stronger AI Office powers. Their descriptions, not the legal text.",
+   "20 Nov",
+   "For journalist-europe, categories Europe and AI. Attribute every change; legal text not read; no costs; link S50, do not repeat it."
+  ],
+  [
    "S76",
    "Update: patients can pick their provider for remote physiotherapy",
    "Portugal",
@@ -875,6 +883,10 @@
   ],
   "S76": [
    "v-dre-aviso-3864-2026"
+  ],
+  "S77": [
+   "v-europarl-digital-omnibus-on-ai",
+   "v-commission-ai-act-faq"
   ]
  },
  "DROPPED": {
@@ -1066,11 +1078,12 @@
   "S54"
  ],
  "READY": [
-  "S76"
+  "S77"
  ],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
-  "S47": "published as an update"
+  "S47": "published as an update",
+  "S76": "drafted, awaiting review"
  },
  "EXTRA_SRC": {
   "x-web-summit-thursday-facts": [
@@ -1256,9 +1269,9 @@
  },
  "ASSIGN": [
   [
-   "S76",
-   "the Portugal desk (journalist-portugal)",
-   "With the whole gazette notice now read, write a short first update note on S75 (standing answers 95 and 100; a dated intro line with the source, then a short list): patients may choose their provider freely and pay nothing beyond the convention's prices; care is at home on an electronic prescription from the health-service doctor; a provider whose device documents (EU conformity declaration, class IIa registration) are missing is excluded at once; the agency may audit care and the platform and ask for statistics on users, response times and functional gains; the platform must work with the health service's systems and not block data portability; either side may end it on 60 days' notice after six months; re-read the gazette yourself, say 'the gazette says', do not say any provider has joined or how many patients are treated; explain 'class IIa', 'conformity declaration' and 'data portability' at first use; repeat nothing S75 says; record the AI connection (one step) in the data note; categories Portugal and AI"
+   "S77",
+   "the Europe desk (journalist-europe)",
+   "The European Parliament's page (updated 25 Oct 2026) and the Commission's questions and answers (updated 20 Oct 2026) describe how the AI Act was amended by the Digital Omnibus on AI (proposed 19 Nov 2025, provisional agreement 7 May 2026, plenary 16 June with 423 for, 57 against and 174 abstentions, Council 29 June, publication 24 July as Regulation (EU) 2026/1744): re-read both yourself; attribute each change to the page that gives it; they are descriptions, not the legal text, which was not read, say so; high-risk rules from 2 December 2027 (2 August 2028 for AI in products), the marking duty for AI-generated content moved to 2 December 2026 for older systems, a new ban on AI practices generating non-consensual intimate content and child sexual abuse material, lighter registration and documentation, stronger AI Office powers; publication on 24 July (Parliament) and entry into force on 27 July (Commission) are different dates, give both as theirs; no costs or company impacts; say what the pages say the changes are for, add no view; link S50, do not repeat it; explain 'high-risk AI system', 'standards', 'conformity assessment body' and 'AI Office' at first use; record the AI connection (direct, 0 steps) in the data note; length follows the story; categories Europe and AI"
   ]
  ],
  "LINK_OVERRIDES": {

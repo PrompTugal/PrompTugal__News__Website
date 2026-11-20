@@ -2,7 +2,7 @@
   "agent": "journalist@PrompTugal.dinis",
   "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
   "state": "working (the restart of 16 November, this account; hourly at :40)",
-  "updated": "2026-11-20T08:29Z",
+  "updated": "2026-11-20T19:31Z",
   "done": [
     "checker@PrompTugal.vicky's findings on five Algarve articles (Faro, Olhão, Lagos, Alcoutim, Almancil) all taken: corrected, a dated Corrections note on each, sources made links, re-signed. Answer: desks/journalist-promptugal/checks/2026-11-17-checker-findings-answer.md.",
     "11:40 wake: central's two older Faro AI items brought onto dev; conductor@'s two articles of this morning (the ATM mark-up, the payment desk) reviewed after publication: both stand, the 13.6% re-checked against the ECB rate.",
@@ -45,14 +45,15 @@
     "15:40 wake: central's recheck onto dev (holds intact); nothing to publish.",
     "16:35 (19 Nov): conductor.b@ relayed (16:35 UTC) that Dinis moved every scheduled agent to two wakes a day; its record, board/guidance/2026-11-19-twice-a-day.md, was not yet on dev at 16:35, so not verified here. Whatever the schedule, each wake finishes and releases one whole piece.",
     "19:22 wake: eleven desk commits reviewed; nine onto dev; districts' two data commits held (R12: seven items with no licence); west's Portimão CCTV draft held until diariodarepublica.pt is on the register (R15). Twice-a-day schedule verified on dev.",
-    "08:22 wake (20 Nov): six desk commits onto dev; districts' c18fcf160 and d5b54c39a held (R12, four items with no licence); west's cm-silves.pt injection report passed to security@ with a note that it may be the fetch tool's own text."
+    "08:22 wake (20 Nov): six desk commits onto dev; districts' c18fcf160 and d5b54c39a held (R12, four items with no licence); west's cm-silves.pt injection report passed to security@ with a note that it may be the fetch tool's own text.",
+    "19:22 wake (20 Nov): the three desks' SSH key enrolments of 19 Nov, missed by my time-window review, brought onto dev; five evening commits onto dev; districts' Portalegre, Beja and Santarém commits held (R12); the 20 November debrief."
   ],
   "next": [
     "REQ-2026-0007: ask the partner desks' owners for their articles' claims files",
     "one principle text for dev@"
   ],
   "asks": [
-    "place.districts (through conductor.b@): four commits held under R12 (8fad53633, cb31be261, c18fcf160, d5b54c39a): eleven new ai_news and event items with no licence or hold. Put a licence or a hold on each, as central and east do, and they come on.",
+    "place.districts (through conductor.b@): seven commits held under R12 (8fad53633, cb31be261, c18fcf160, d5b54c39a, 88952f6e0, d10dc1416, b0ec324c0): 18 new items with no licence or hold. A licence or a hold on each, and they come on.",
     "security@ (through conductor.b@): place.algarve.west reports instruction-like text at the end of cm-silves.pt's front page (20 Nov); it may be the fetch tool's own summarising instructions rather than the site's. The site resets connections to this desk, so not checked here.",
     "rights@ (through conductor.b@): put diariodarepublica.pt on the sources register with its terms quoted (R15), so this desk can write Portimão's CCTV expansion from Despacho 14189/2026 itself.",
     "place.algarve.west, place.algarve.east and place.districts (through conductor.b@): R12 reaches ai_news as well as local_news. Central has put licences and holds on all of its own; 247 ai_news items in 29 other place files still carry neither.",
@@ -397,7 +398,7 @@
       "at": "2026-11-07T04:50Z"
     }
   ],
-  "debrief": "board/team/journalist/debriefs/2026-11-19-handover.md",
+  "debrief": "board/team/journalist/debriefs/2026-11-20-handover.md",
   "session": "session_01Kw9UwFKhT1TCw8TU2SWTrR (notes: board/team/journalist/sessions/session_01Kw9UwFKhT1TCw8TU2SWTrR/)",
   "answers": [
     {

@@ -95,7 +95,7 @@ export function grantOf(who, P = loadPolicy()) {
         g.worker = (!!base && !(P.roles[who.role] && P.roles[who.role].releases_to_dev)) || !!(P.roles[who.role] && P.roles[who.role].work_branch)   // work_branch (v1.14.0): a writer of the restart pushes work/<role>; a reviewer brings it onto dev
         g.writes = [...P.common.writes, ...(r.writes || [])]
         g.send.push(...(r.send_hosts || []))
-        g.subagents = !!r.subagents; g.notify_dinis = !!r.notify_dinis; g.remote_read = !!r.remote_read; g.remote_conduct = !!r.remote_conduct; g.remote_transcripts = !!r.remote_transcripts
+        g.subagents = !!r.subagents; g.notify_dinis = !!r.notify_dinis; g.remote_read = !!r.remote_read; g.remote_conduct = !!r.remote_conduct; g.remote_transcripts = !!r.remote_transcripts; g.gmail_drafts = !!r.gmail_drafts; g.remote_conduct_scope = r.remote_conduct_scope || ''
         g.known = !!P.roles[who.role]
     } else if (who.kind === 'external') {
         const own = (P.external.by_agent || {})[who.agent]
@@ -312,6 +312,10 @@ export function decide(input, who = whoAmI(), P = loadPolicy()) {
     // MCP: deny by default; GitHub reads and the cloud session's own documentation only
     if (tool.startsWith('mcp__')) {
         const [, server, ...rest] = tool.split('__'); const name = rest.join('__')
+        if ((P.tools.gmail_servers || []).includes(server)) {   // v1.19.0: live.b@ drafts, never sends (Dinis, 20 Nov 2026)
+            if (!g.gmail_drafts) return deny('R3', `${tool} is a connector (${server}): no agent uses a connector unless Dinis grants it in writing in board/abp/policies.json`, 'connector')
+            return (P.tools.gmail_draft_tools || []).includes(name) ? allow('gmail-draft') : deny('R7', `${name}: only drafts are granted on Gmail (create, update, get, list); sending, forwarding, replying, trashing and labels stay with Dinis`, 'connector')
+        }
         if (!P.tools.mcp_servers_allowed.includes(server)) return deny('R3', `${tool} is a connector (${server}): no agent uses a connector unless Dinis grants it in writing in board/abp/policies.json`, 'connector')
         if (server === 'github') {
             const repo = ti.owner && ti.repo ? `${ti.owner}/${ti.repo}`.toLowerCase() : null
@@ -324,6 +328,7 @@ export function decide(input, who = whoAmI(), P = loadPolicy()) {
             if (name === 'add_repo' && ti.access === 'push') return deny('R2', 'add_repo with push access: only this repository, already attached', 'remote')
             if (P.tools.remote_allowed_all.includes(name)) return allow('remote-read')
             if ((P.tools.remote_transcripts_by_grant || []).includes(name)) return g.remote_transcripts ? allow('remote-transcripts') : deny('R2', `${name} reads another session's transcript: only telemetry.b@ may (Dinis, 18 Nov 2026, board/guidance/2026-11-18-telemetry-and-sub-agents.md)`, 'remote')
+            if ((P.tools.remote_message_all || []).includes(name)) return allow('agent-message')   // v1.19.0: messages between agents' sessions are allowed to every agent (Dinis, 20 Nov 2026)
             if (P.tools.remote_read_by_grant.includes(name)) return (g.remote_read || who.kind === 'unidentified') ? allow('remote-read') : deny('R2', `${name} reads other sessions: not in ${who.agent || 'this session'}'s grant`, 'remote')
             if ((P.tools.remote_conduct_by_grant || []).includes(name) && g.remote_conduct) return allow('remote-conduct')
             return deny('R4', `${name}: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session`, 'session')

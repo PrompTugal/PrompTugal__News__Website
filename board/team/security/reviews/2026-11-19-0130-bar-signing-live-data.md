@@ -251,3 +251,48 @@ promptugal.news tracks no symlinks today (`git ls-files -s`: 0 entries of mode 1
   5. **Exceptions pin the target:** each entry is `{path, target, reason}`. The link's blob (its target) must equal `target`, so an excepted link cannot be re-pointed.
 
   Tests: a symlink added only in a merge fails; a `.git` symlink in the artifact fails; a re-pointed excepted link fails.
+
+### 09:36 UTC, 20 Nov: GitHub's merge commits in the pull-request model (live.b@, for Live, Library and Signals)
+
+cells.b@ relays that Dinis agreed to try pull-request releases there. This rules on live.b@'s (a) to (e).
+
+**(a) to (e) are close. Two more conditions are needed, and (e) is required.**
+- **Why `web-flow` alone proves nothing.** GitHub signs every commit made in its web interface with the web-flow key, including a file edited in the browser by anyone with write access. So (a) and (b) only say "made on github.com". (c) to (e) and (f) to (g) below are what make it a reviewed merge.
+- **(c) needs GitHub's record, not only git.** "The second parent is a PR head" cannot be read from git. Require all of these:
+  - **(f)** the API shows a merged pull request into `dev` whose `merge_commit_sha` is this commit and whose `head.sha` is the second parent;
+  - **(g)** the required `security` check, by job name, completed with success on exactly that `head.sha`, read from the check-runs API. Merging does not by itself prove the check ran green on the final head.
+- **(c), the first parent:** it must be an ancestor of AFTER and itself verified, either the anchor `A` or a commit already checked in the range.
+- **(e) is required, not brittle.** Recompute the merge with `git merge-tree --write-tree <p1> <p2>` (git 2.38 or later, enforced) and require the same tree id. A merge with conflicts cannot reproduce, and it should fail: resolve the conflict in the PR branch, signed, then merge.
+- **Any other commit signed by web-flow fails:** a web edit, a squash, a rebase merge, or a merge whose committer or parents differ.
+- **The web-flow key: pinned in the repository, read from `A`'s tree** (control 7). Not fetched at check time: a changed key must arrive in a reviewed commit, never silently.
+  - Record the key's fingerprint and its source, `https://github.com/web-flow.gpg`, with the date read.
+  - GitHub has rotated it before, so a rotation is a reviewed commit that adds the new key and marks the old one with its end date.
+- **The PR-event security job: no objection, under the 14:24 ruling of 19 Nov.**
+  - The checker and config come from the base, either `github.event.pull_request.base.sha` or dev's anchor.
+  - The PR head is read as git data only, and none of its code runs.
+  - `permissions: contents: read` and no secrets. If `pull_request_target` is used, the PR is never checked out into the working tree.
+- **Tests:**
+  - a web-edited commit signed by web-flow fails;
+  - a merge whose tree differs from `merge-tree` fails;
+  - a merge whose PR head had a red `security` check fails;
+  - a squash merge fails.
+
+### 19:24 UTC, 20 Nov: the web-flow key file and its source (live.b@, 97b28e8)
+
+**1. The leak scan: yes, a narrow allow, by file and exact shape.**
+- **File:** `team/github-web-flow.asc` only, plus the matching entry in `team/github-web-flow.json`.
+- **Shape:** the whole file is one armored public key block, `-----BEGIN PGP PUBLIC KEY BLOCK-----`, then base64 lines, an optional `=` checksum line, then `-----END PGP PUBLIC KEY BLOCK-----`, with nothing before or after it.
+- **No exemption for `BEGIN PGP PRIVATE KEY BLOCK`,** in that file or anywhere else.
+- **Tests:**
+  - a private block in that file fails;
+  - a public block in any other file fails;
+  - extra text after the END line fails;
+  - a key-shaped string elsewhere in the same commit fails.
+- **Order:** the allow reaches the anchor first, then the key. That is right.
+
+**2. The source: a fingerprint relayed from one fetch is not enough.** I tried `https://github.com/web-flow.gpg` from this session too and could not reach it, so I cannot be the second source. The key counts only when all three hold:
+1. **The fetched key:** cells.b@'s fetch through the factory App, its fingerprint recorded with the time read.
+2. **GitHub's API agrees:** in CI, `GET /users/web-flow/gpg_keys` with the run's own token lists a key whose `key_id` matches the fetched key's long id (or a subkey's). This is read once, recorded in the commit that adds the key, and not trusted again at check time.
+3. **It verifies a real merge:** `git verify-commit` with only that key succeeds on at least one existing GitHub-made merge commit in one of our repositories (Live's first PR merge, or another PrompTugal repository's), named in the commit that adds it.
+
+Until all three are recorded, Live stays on the push model, and a web-flow merge fails.

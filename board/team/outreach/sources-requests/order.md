@@ -18,3 +18,7 @@ A second template, `organiser-nudge.md` (English and Portuguese): for an event s
 ## The social platforms (18 November 2026, ~14:45 UTC)
 
 `social-platforms.md`: one note on use, with a fill-in per platform (Bluesky, Mastodon, YouTube, Meta, X, LinkedIn, TikTok). Organisations only. Bluesky and Mastodon first; YouTube and Meta wait on Dinis; X, LinkedIn and TikTok before any link to their posts is shown.
+
+## Official bodies (20 November 2026)
+
+The register on data.promptugal.news now lists 129 sources as not-read. `official/` holds a Portuguese request for 14 of the public bodies and councils among them, written by `make-official.mjs` from each register entry (what we would show, where, what the register records, the interface we ask for) and a channel read from the body's own official site: ready for **visitlisboa** (its press page), **ccdr-algarve**, **ansr**, **ualg** (its press-notes page; a person checks it carries a contact), **cm-portimao**; **HELD** for the nine where this desk found no contact page (the site answered a reset, a 403 or showed no contact link): turismo-portugal, visitalgarve, cp, aps-algarve, cm-faro, cm-loule, lisboa-pt, cm-silves, cm-albufeira. A person finds each missing channel in a browser and records the page URL and the date read in the request, then sends. Castro Marim's is `castro-marim.md`. Not yet drafted: the other public bodies on the register (the water and reservoir bodies, the London bodies, the airport and open-data sources) and the news and blog sources.

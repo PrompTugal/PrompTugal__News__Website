@@ -1,21 +1,21 @@
 {
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "working: 20:48 evening wake (twice a day); ledger; the map and control 10 rolled out",
-  "updated": "2026-11-19T20:52Z",
+  "state": "working: 09:48 morning wake; relays batched into wakes only (to keep the twice-a-day saving)",
+  "updated": "2026-11-20T09:52Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
+    "Overnight and this morning: ptmap 1.0.2 on at weather, startups, events, live, cyber, signals, library, travel, bulletins (9 sites); videos' /cameras/ live with 21 credited links; startups' London page; bulletins' first judged day (Faro 19 Nov: temperature held, rain missed)",
+    "09:50: batched relays sent: Contracts Finder empty read to data.b@ (civic), places registry asks to ontologist@ (signals, startups, bulletins), 19-not-21 answer to videos.b@",
     "16:30: Dinis's twice a day: 37 schedules moved (guidance 2026-11-19-twice-a-day.md); maestro.b and the SAW and AgentiCCells conductors back to hourly at his word to maestro.b (~17:25)",
     "17:40: Dinis's cameras and map word recorded (2026-11-19-cameras-as-links-and-the-map.md): MEO and SkylineWebcams credited links on videos, live, weather; embed only what we have full right to use; every site Portugal big, London and the EU (Brussels) small",
-    "Signing: control 10 (no symlinks, security@ ed70bd996, refined 1b549b48a and 7b0410111) on startups, signals, data, events, live, cyber, civic, library, videos, bulletins, travel; weather partly; promptugal.news and the Factory wait on Dinis",
-    "The shared map ptmap: designer@ 1.0.0 to 1.0.2 (758810f86), security@ go (168c14fc5), rights@ R12 closed, dev@ registry a81b20325 (v0.1.1924); on at weather, startups, events; vendored at data and bulletins",
-    "Signing enrolment: 17 agents now carry an ssh key in board/keys.json (was 8 at 16:00)"
+    "Signing: control 10 (no symlinks, security@ ed70bd996, refined 1b549b48a and 7b0410111) on startups, signals, data, events, live, cyber, civic, library, videos, bulletins, travel; weather partly; promptugal.news and the Factory wait on Dinis"
   ],
   "next": [
-    "09:48 Lisbon wake",
-    "Relay the trailing-newline pitfall to live, cyber, bulletins, the Factory, dev@, data, security@ if Dinis says yes (a helper's send was refused)",
-    "Watch the map switch on at the remaining sites"
+    "20:48 wake with the ledger",
+    "data, civic and videos switch the map on",
+    "Hold relays until wakes unless urgent"
   ],
   "asks": [
     "Dinis: one setting closes the last signing gap on every repo: branch protection on dev with the CI check required (no direct pushes), a tag ruleset limiting v* tags to GitHub Actions, and the github-pages environment accepting deployments only from dev. Until then a pushed rewrite of the workflow file can still choose what CI runs (security@, every site lead). The Factory also needs PR #36 merged: https://github.com/AgentiCCells/AgentiCCells__Site__Factory/pull/36",
