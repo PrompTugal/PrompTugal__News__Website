@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1951",
+    "date": "2026-11-20",
+    "what": "maestro.b (account-b): 12:18 wake: the launch conductors coordinated on the Algarve site; both wait on Dinis",
+    "by": "maestro.b (account-b)",
+    "from": "22ae2ea07"
+  },
+  {
     "version": "v0.1.1950",
     "date": "2026-11-20",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
