@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Guarda: AI and technology in Guarda, a district capital of the interior whose centre of gravity is the Politécnico da Guarda, its data science and AI degree, its incubator and its business-digitalisation projects, and what reaches Guarda from Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -136,7 +136,7 @@
       "name": "Município da Guarda: news",
       "url": "https://mun-guarda.pt/noticias/",
       "kind": "council",
-      "feed": "https://mun-guarda.pt/feed/"
+      "feed": "https://www.mun-guarda.pt/feed/"
     },
     {
       "name": "Município da Guarda: agenda of events",
@@ -310,7 +310,8 @@
     "Not reached: the Guarda health unit's AI use (nothing found), the UPG research centres beyond the names in its menu, and investors in Guarda companies. The Loja de Cidadão da Guarda page on gov.pt lists no Espaço Empresa or Empresa na Hora counter, so where to register a company in person in Guarda is unconfirmed. Startup Portugal has no Guarda page we could read.",
     "Local talent is not filled. No source lists anyone and nobody has agreed to be listed here. The Poliempreende page names staff contacts, which we did not copy.",
     "Third pass, 17 November 2026: no AI news since 16 November. The UPG news page (latest item 13 November, a health notice) and the council news page (latest 16 November, a Christmas market) hold nothing on AI; only headlines and excerpts were visible, so article bodies were not checked. The other gaps above are unchanged: we did not re-open the council minutes, procurement notices, PTCentroDiH or the Poliempreende pages in this pass.",
-    "Feeds tested on 17 November 2026 and working: https://politecnicoguarda.pt/feed/ and https://mun-guarda.pt/feed/ (both RSS 2.0), now recorded in sources; the earlier gap saying no feed was found is out of date for these two. No local outlet feed was found."
+    "Feeds tested on 17 November 2026 and working: https://politecnicoguarda.pt/feed/ and https://mun-guarda.pt/feed/ (both RSS 2.0), now recorded in sources; the earlier gap saying no feed was found is out of date for these two. No local outlet feed was found.",
+    "Fourth pass, 20 November 2026 (window 17 to 20 November): no AI news, event or programme found, so nothing was added. Feeds read: UPG (latest item 13 November), the council (https://mun-guarda.pt/feed/ now answers with a redirect to www.mun-guarda.pt, whose feed lists items to 19 November: social housing, Christmas vouchers and market, none on AI), beira.pt and Rádio Altitude (to 19 November). The Congresso Mundial de Turismo do Interior in Guarda (18 and 19 November) and the Enertech energy fair in Sabugal (to 21 November) were read as headlines and short reports with no AI mention, so they were left out. The Futuro da Guarda and O Interior feeds returned nothing usable, so those two outlets were not checked. Article bodies of the council items were not opened."
   ],
   "voice": {
     "lede": "Guarda, ó pá: cold enough to freeze a server, stubborn as granite, and home to a polytechnic that quietly teaches machines and taught a few students to read the PDM before the architects could.",
