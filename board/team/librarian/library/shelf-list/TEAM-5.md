@@ -1,19 +1,29 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 5 of 38)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T10:00:10Z"
-site_version: "v0.1.1946"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T21:00:27Z"
+site_version: "v0.1.1966"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 5 of 38)
 
-100 cards, from `TEAM.INBOX weather-vicky` to `TEAM.ROLE 03:13`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.INBOX site.tavira` to `TEAM.ROLE 02:40`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 401 to 425**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.INBOX site.tavira` | [site.tavira.json](https://promptugal.news/board/inboxes/site.tavira.json) | board | conductor@ 15 Nov 2026 |
+| `TEAM.INBOX site.viana-do-castelo` | [site.viana-do-castelo.json](https://promptugal.news/board/inboxes/site.viana-do-castelo.json) | board | conductor@ 16 Nov 2026 |
+| `TEAM.INBOX site.vila-do-bispo` | [site.vila-do-bispo.json](https://promptugal.news/board/inboxes/site.vila-do-bispo.json) | board | conductor@ 15 Nov 2026 |
+| `TEAM.INBOX site.vila-real` | [site.vila-real.json](https://promptugal.news/board/inboxes/site.vila-real.json) | board | conductor@ 16 Nov 2026 |
+| `TEAM.INBOX site.vila-real-de-santo-antonio` | [site.vila-real-de-santo-antonio.json](https://promptugal.news/board/inboxes/site.vila-real-de-santo-antonio.json) | board | conductor@ 15 Nov 2026 |
+| `TEAM.INBOX site.viseu` | [site.viseu.json](https://promptugal.news/board/inboxes/site.viseu.json) | board | conductor@ 16 Nov 2026 |
+| `TEAM.INBOX social-watch` | [social-watch.json](https://promptugal.news/board/inboxes/social-watch.json) | board | conductor@ 10 Nov 2026 |
+| `TEAM.INBOX synthetic` | [synthetic.json](https://promptugal.news/board/inboxes/synthetic.json) | board | conductor@ 6 Nov 2026 |
+| `TEAM.INBOX translator` | [translator.json](https://promptugal.news/board/inboxes/translator.json) | board | conductor@ 16 Nov 2026 |
+| `TEAM.INBOX viz.places` | [viz.places.json](https://promptugal.news/board/inboxes/viz.places.json) | board | conductor@ 16 Nov 2026 |
 | `TEAM.INBOX weather-vicky` | [weather-vicky.json](https://promptugal.news/board/inboxes/weather-vicky.json) | board | conductor@ 10 Nov 2026 |
 | `TEAM.INBOX writer-angelo` | [writer-angelo.json](https://promptugal.news/board/inboxes/writer-angelo.json) | board | conductor@ 6 Nov 2026 |
 | `TEAM.INBOX writer-jose` | [writer-jose.json](https://promptugal.news/board/inboxes/writer-jose.json) | board | conductor@ 8 Nov 2026 |
@@ -29,6 +39,11 @@ source: board/catalogue.json
 | `TEAM.ROLE 0-the-map.pt` | [0-the-map.pt.pdf](https://promptugal.news/board/team/investors/decks/0-the-map.pt.pdf) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 0-the-map.pt:2` | [0-the-map.pt.jpg](https://promptugal.news/board/team/investors/site/img/covers/0-the-map.pt.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 0-the-map:2` | [0-the-map.tpl](https://promptugal.news/board/team/investors/decks/src/0-the-map.tpl) (withdrawn) | team | investors@ 7 Nov 2026 |
+
+**Cards 426 to 450**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE 01` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/0-the-map/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:10` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/9-the-tour/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:11` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/0-the-map/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
@@ -39,11 +54,6 @@ source: board/catalogue.json
 | `TEAM.ROLE 01:16` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/5-the-investment/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:17` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/6-the-technology/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:18` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/7-join-us/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-
-**Cards 426 to 450**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE 01:19` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/8-do-it-yourself/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:2` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/1-the-investment-case/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:20` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/9-the-tour/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
@@ -59,6 +69,11 @@ source: board/catalogue.json
 | `TEAM.ROLE 01:3` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/2-the-industry/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:30` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/fr/9-the-tour/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:31` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/0-the-map/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
+
+**Cards 451 to 475**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE 01:32` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/1-the-investment-case/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:33` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/2-the-industry/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:34` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/3-the-platform/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
@@ -69,11 +84,6 @@ source: board/catalogue.json
 | `TEAM.ROLE 01:39` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/8-do-it-yourself/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:4` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/3-the-platform/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:40` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/9-the-tour/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-
-**Cards 451 to 475**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE 01:5` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/4-the-algarve/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:6` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/5-the-investment/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 01:7` | [01.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/6-the-technology/01.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
@@ -89,6 +99,11 @@ source: board/catalogue.json
 | `TEAM.ROLE 02:16` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/5-the-investment/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 02:17` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/6-the-technology/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 02:18` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/7-join-us/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
+
+**Cards 476 to 500**
+
+| Call number | Title | Kind | Made |
+|---|---|---|---|
 | `TEAM.ROLE 02:19` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/8-do-it-yourself/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 02:2` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/1-the-investment-case/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 02:20` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/9-the-tour/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
@@ -99,11 +114,6 @@ source: board/catalogue.json
 | `TEAM.ROLE 02:25` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/fr/4-the-algarve/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 02:26` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/fr/5-the-investment/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 02:27` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/fr/6-the-technology/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-
-**Cards 476 to 500**
-
-| Call number | Title | Kind | Made |
-|---|---|---|---|
 | `TEAM.ROLE 02:28` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/fr/7-join-us/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 02:29` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/fr/8-do-it-yourself/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 02:3` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/2-the-industry/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
@@ -119,15 +129,5 @@ source: board/catalogue.json
 | `TEAM.ROLE 02:39` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/8-do-it-yourself/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 02:4` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/3-the-platform/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 02:40` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/9-the-tour/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 02:5` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/4-the-algarve/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 02:6` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/5-the-investment/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 02:7` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/6-the-technology/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 02:8` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/7-join-us/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 02:9` | [02.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/8-do-it-yourself/02.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 03` | [03.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/0-the-map/03.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 03:10` | [03.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/9-the-tour/03.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 03:11` | [03.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/0-the-map/03.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 03:12` | [03.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/1-the-investment-case/03.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 03:13` | [03.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/2-the-industry/03.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-4.md) | [Next part](TEAM-6.md)

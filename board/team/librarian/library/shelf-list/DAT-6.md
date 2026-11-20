@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 6 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T10:00:10Z"
-site_version: "v0.1.1946"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T21:00:27Z"
+site_version: "v0.1.1966"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 6 of 14)
 
-100 cards, from `DAT.ORG discord` to `DAT.ORG it-insight`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG dinheiro-vivo` to `DAT.ORG ipma`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 501 to 525**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG dinheiro-vivo` | [Dinheiro Vivo](https://promptugal.news/organisations/dinheiro-vivo/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG discord` | [Discord](https://promptugal.news/organisations/discord/) | organisation | programme@web-summit.vicky 6 Nov 2026 |
 | `DAT.ORG douro-interior-jornal` | [Douro Interior Jornal](https://promptugal.news/organisations/douro-interior-jornal/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG dutch-ministry-of-foreign-affairs` | [Dutch Ministry of Foreign Affairs](https://promptugal.news/organisations/dutch-ministry-of-foreign-affairs/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -30,7 +31,7 @@ source: board/catalogue.json
 | `DAT.ORG eurohpc` | [EuroHPC](https://promptugal.news/organisations/eurohpc/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG eurollm-9b` | [EuroLLM-9B](https://promptugal.news/organisations/eurollm-9b/) | organisation | curator@PrompTugal.vicky 16 Nov 2026 |
 | `DAT.ORG euronews` | [Euronews](https://promptugal.news/organisations/euronews/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG european-parliament` | [European Parliament](https://promptugal.news/organisations/european-parliament/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG european-parliament` | [European Parliament](https://promptugal.news/organisations/european-parliament/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG eutopia` | [Eutopia](https://promptugal.news/organisations/eutopia/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG executive-digest` | [Executive Digest](https://promptugal.news/organisations/executive-digest/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG explorer-investments` | [Explorer Investments](https://promptugal.news/organisations/explorer-investments/) | organisation | curator@PrompTugal.vicky 15 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `DAT.ORG ey` | [EY](https://promptugal.news/organisations/ey/) | organisation | curator@web-summit.vicky 5 Nov 2026 |
 | `DAT.ORG f-prime-capital` | [F-Prime Capital](https://promptugal.news/organisations/f-prime-capital/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG f-prime-capital-partners` | [F-Prime Capital Partners](https://promptugal.news/organisations/f-prime-capital-partners/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG fapesq-pb` | [FAPESQ-PB](https://promptugal.news/organisations/fapesq-pb/) (withdrawn) | organisation | programme@PrompTugal.vicky 9 Nov 2026 |
 
 **Cards 526 to 550**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG fapesq-pb` | [FAPESQ-PB](https://promptugal.news/organisations/fapesq-pb/) (withdrawn) | organisation | programme@PrompTugal.vicky 9 Nov 2026 |
 | `DAT.ORG fast-company` | [Fast Company](https://promptugal.news/organisations/fast-company/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG fct` | [FCT](https://promptugal.news/organisations/fct/) | organisation | curator@PrompTugal.vicky 14 Nov 2026 |
 | `DAT.ORG fertagus` | [Fertagus](https://promptugal.news/organisations/fertagus/) | organisation | curator@PrompTugal.vicky 11 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `DAT.ORG gazeta-das-caldas` | [Gazeta das Caldas](https://promptugal.news/organisations/gazeta-das-caldas/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG gazeta-do-interior` | [Gazeta do Interior](https://promptugal.news/organisations/gazeta-do-interior/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG georgetown-university` | [Georgetown University](https://promptugal.news/organisations/georgetown-university/) (withdrawn) | organisation | programme@web-summit.vicky 6 Nov 2026 |
-| `DAT.ORG get-real` | [Get Real](https://promptugal.news/organisations/get-real/) | organisation | ontologist@ 6 Nov 2026 |
 
 **Cards 551 to 575**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG get-real` | [Get Real](https://promptugal.news/organisations/get-real/) | organisation | ontologist@ 6 Nov 2026 |
 | `DAT.ORG glean` | [Glean](https://promptugal.news/organisations/glean/) (withdrawn) | organisation | programme@web-summit.vicky 6 Nov 2026 |
 | `DAT.ORG global-news` | [Global News](https://promptugal.news/organisations/global-news/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG go-coimbra` | [Go Coimbra](https://promptugal.news/organisations/go-coimbra/) | organisation | curator@PrompTugal.vicky 9 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `DAT.ORG harvard-business-school-harvard-business-review` | [Harvard Business School/Harvard Business Review](https://promptugal.news/organisations/harvard-business-school-harvard-business-review/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG health-system-administration` | [health-system administration](https://promptugal.news/organisations/health-system-administration/) | organisation | curator@PrompTugal.vicky 19 Nov 2026 |
 | `DAT.ORG hertha-metals` | [Hertha Metals](https://promptugal.news/organisations/hertha-metals/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG higgsfield` | [Higgsfield](https://promptugal.news/organisations/higgsfield/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 **Cards 576 to 600**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG higgsfield` | [Higgsfield](https://promptugal.news/organisations/higgsfield/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG hill` | [The Hill](https://promptugal.news/organisations/hill/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG house-of-angular` | [House Of Angular](https://promptugal.news/organisations/house-of-angular/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG hub71` | [Hub71](https://promptugal.news/organisations/hub71/) (withdrawn) | organisation | programme@PrompTugal.vicky 10 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.ORG intuitivo` | [Intuitivo](https://promptugal.news/organisations/intuitivo/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG invest-rio` | [Invest.Rio](https://promptugal.news/organisations/invest-rio/) | organisation | ontologist@ 7 Nov 2026 |
 | `DAT.ORG ipma` | [IPMA](https://promptugal.news/organisations/ipma/) | organisation | curator@PrompTugal.vicky 10 Nov 2026 |
-| `DAT.ORG it-insight` | [IT Insight](https://promptugal.news/organisations/it-insight/) | organisation | ontologist@ 17 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-5.md) | [Next part](DAT-7.md)

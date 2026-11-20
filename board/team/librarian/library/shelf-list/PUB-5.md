@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: PUB, The publication (part 5 of 19)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T10:00:10Z"
-site_version: "v0.1.1946"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T21:00:27Z"
+site_version: "v0.1.1966"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 5 of 19)
 
-100 cards, from `PUB.SITE alcoutim:20` to `PUB.SITE api:34`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE alcoutim:2` to `PUB.SITE api:33`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 401 to 425**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE alcoutim:2` | [PrompTugal.news Alcoutim](https://promptugal.news/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE alcoutim:20` | [PrompTugal.news Alcoutim](https://promptugal.news/ja-JP/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE alcoutim:21` | [PrompTugal.news Alcoutim](https://promptugal.news/ko-KR/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE alcoutim:22` | [PrompTugal.news Alcoutim](https://promptugal.news/ar/algarve/alcoutim/) | site | dev@ 6 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `PUB.SITE algarve:14` | [PrompTugal.news The Algarve](https://promptugal.news/it-IT/algarve/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE algarve:15` | [PrompTugal.news The Algarve](https://promptugal.news/nl-NL/algarve/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE algarve:16` | [PrompTugal.news The Algarve](https://promptugal.news/pt-BR/algarve/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE algarve:17` | [PrompTugal.news The Algarve](https://promptugal.news/pt-PT/algarve/) | site | dev@ 6 Nov 2026 |
 
 **Cards 426 to 450**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE algarve:17` | [PrompTugal.news The Algarve](https://promptugal.news/pt-PT/algarve/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE algarve:18` | [The Algarve: the data](https://promptugal.news/query/algarve/) | site |  |
 | `PUB.SITE algarve:19` | [The Algarve: AI in context](https://promptugal.news/query/decks/algarve/) | site |  |
 | `PUB.SITE algarve:2` | [Una empresa del Algarve, en Portugal, en la Unión Europea](https://promptugal.news/investors/es/algarve/) | site | investors@ 7 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `PUB.SITE aljezur:12` | [PrompTugal.news Aljezur](https://promptugal.news/pt-BR/algarve/aljezur/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE aljezur:13` | [PrompTugal.news Aljezur](https://promptugal.news/pt-PT/algarve/aljezur/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE aljezur:14` | [Aljezur: the data](https://promptugal.news/query/aljezur/) | site |  |
-| `PUB.SITE aljezur:15` | [Aljezur: AI in context](https://promptugal.news/query/decks/aljezur/) | site |  |
 
 **Cards 451 to 475**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE aljezur:15` | [Aljezur: AI in context](https://promptugal.news/query/decks/aljezur/) | site |  |
 | `PUB.SITE aljezur:16` | [PrompTugal.news Aljezur](https://promptugal.news/pl-PL/algarve/aljezur/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE aljezur:17` | [PrompTugal.news Aljezur](https://promptugal.news/hr-HR/algarve/aljezur/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE aljezur:18` | [PrompTugal.news Aljezur](https://promptugal.news/ro-RO/algarve/aljezur/) | site | dev@ 6 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `PUB.SITE antena-minho` | [Antena Minho](https://promptugal.news/media/antena-minho/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE api` | [The data, as JSON](https://promptugal.news/api/) | site | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE api:10` | [Loulé: the data API](https://promptugal.news/algarve/loule/api/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE api:11` | [Monchique: the data API](https://promptugal.news/algarve/monchique/api/) | site | dev@ 6 Nov 2026 |
 
 **Cards 476 to 500**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE api:11` | [Monchique: the data API](https://promptugal.news/algarve/monchique/api/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE api:12` | [Olhão: the data API](https://promptugal.news/algarve/olhao/api/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE api:13` | [Portimão: the data API](https://promptugal.news/algarve/portimao/api/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE api:14` | [Quarteira: the data API](https://promptugal.news/algarve/quarteira/api/) | site | dev@ 6 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE api:31` | [Portalegre: the data API](https://promptugal.news/portugal/portalegre/api/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE api:32` | [Porto: the data API](https://promptugal.news/portugal/porto/api/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE api:33` | [Santarém: the data API](https://promptugal.news/portugal/santarem/api/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE api:34` | [Setúbal: the data API](https://promptugal.news/portugal/setubal/api/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-4.md) | [Next part](PUB-6.md)

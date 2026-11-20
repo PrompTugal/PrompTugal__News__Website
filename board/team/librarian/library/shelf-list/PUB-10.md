@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: PUB, The publication (part 10 of 19)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T10:00:10Z"
-site_version: "v0.1.1946"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T21:00:27Z"
+site_version: "v0.1.1966"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 10 of 19)
 
-100 cards, from `PUB.SITE gravity` to `PUB.SITE lagos:17`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE graph` to `PUB.SITE lagos:16`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 901 to 925**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE graph` | [The graph](https://promptugal.news/graph/) | site | newsroom-graph@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE gravity` | [Centres of gravity](https://promptugal.news/graph/gravity/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE guarda` | [The proof layer: Guarda](https://promptugal.news/agentic-system/proof/guarda/) | site |  |
 | `PUB.SITE guarda:10` | [PrompTugal.news Guarda](https://promptugal.news/nl-NL/portugal/guarda/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `PUB.SITE guarda:7` | [PrompTugal.news Guarda](https://promptugal.news/fr-CA/portugal/guarda/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE guarda:8` | [PrompTugal.news Guarda](https://promptugal.news/fr-FR/portugal/guarda/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE guarda:9` | [PrompTugal.news Guarda](https://promptugal.news/it-IT/portugal/guarda/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE guy-ben-zvi` | [Guy Ben Zvi, Buzz Messaging AI: interview at Web Summit's opening night](https://promptugal.news/interviews/buzz-messaging-ai/guy-ben-zvi/) | site | journalist@ 10 Nov 2026 |
 
 **Cards 926 to 950**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE guy-ben-zvi` | [Guy Ben Zvi, Buzz Messaging AI: interview at Web Summit's opening night](https://promptugal.news/interviews/buzz-messaging-ai/guy-ben-zvi/) | site | journalist@ 10 Nov 2026 |
 | `PUB.SITE historian` | [historian@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/historian/) | site |  |
 | `PUB.SITE how-we-got-here` | [How we got here](https://promptugal.news/investors/how-we-got-here/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE how-we-got-here:2` | [Cómo llegamos hasta aquí](https://promptugal.news/investors/es/how-we-got-here/) | site | investors@ 7 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `PUB.SITE jm` | [JM](https://promptugal.news/media/jm/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE join` | [Join us](https://promptugal.news/investors/join/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE join:2` | [Únase](https://promptugal.news/investors/es/join/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE join:3` | [Rejoignez-nous](https://promptugal.news/investors/fr/join/) | site | investors@ 7 Nov 2026 |
 
 **Cards 951 to 975**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE join:3` | [Rejoignez-nous](https://promptugal.news/investors/fr/join/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE join:4` | [Junte-se a nós](https://promptugal.news/investors/pt/join/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE jornal-da-beira` | [Jornal da Beira](https://promptugal.news/media/jornal-da-beira/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE jornal-das-caldas` | [Jornal das Caldas](https://promptugal.news/media/jornal-das-caldas/) | site | dev.places@ 16 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `PUB.SITE lagoa:12` | [PrompTugal.news Lagoa](https://promptugal.news/pt-BR/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE lagoa:13` | [PrompTugal.news Lagoa](https://promptugal.news/pt-PT/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE lagoa:14` | [Lagoa: AI in context](https://promptugal.news/query/decks/lagoa/) | site |  |
-| `PUB.SITE lagoa:15` | [Lagoa: the data](https://promptugal.news/query/lagoa/) | site |  |
 
 **Cards 976 to 1000**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE lagoa:15` | [Lagoa: the data](https://promptugal.news/query/lagoa/) | site |  |
 | `PUB.SITE lagoa:16` | [PrompTugal.news Lagoa](https://promptugal.news/pl-PL/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE lagoa:17` | [PrompTugal.news Lagoa](https://promptugal.news/hr-HR/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE lagoa:18` | [PrompTugal.news Lagoa](https://promptugal.news/ro-RO/algarve/lagoa/) | site | dev@ 6 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE lagos:14` | [Lagos: AI in context](https://promptugal.news/query/decks/lagos/) | site |  |
 | `PUB.SITE lagos:15` | [Lagos: the data](https://promptugal.news/query/lagos/) | site |  |
 | `PUB.SITE lagos:16` | [PrompTugal.news Lagos](https://promptugal.news/pl-PL/algarve/lagos/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE lagos:17` | [PrompTugal.news Lagos](https://promptugal.news/hr-HR/algarve/lagos/) | site | dev@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-9.md) | [Next part](PUB-11.md)

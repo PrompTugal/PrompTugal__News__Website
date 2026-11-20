@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 5 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T10:00:10Z"
-site_version: "v0.1.1946"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T21:00:27Z"
+site_version: "v0.1.1966"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 5 of 14)
 
-100 cards, from `DAT.ORG aicep-portugal-global` to `DAT.ORG dinheiro-vivo`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG aicep-portugal-global` to `DAT.ORG digital-inside`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 401 to 425**
 
@@ -98,12 +98,13 @@ source: board/catalogue.json
 | `DAT.ORG correio-do-minho` | [Correio do Minho](https://promptugal.news/organisations/correio-do-minho/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG correio-do-ribatejo` | [Correio do Ribatejo](https://promptugal.news/organisations/correio-do-ribatejo/) | organisation | ontologist@ 17 Nov 2026 |
 | `DAT.ORG correio-dos-acores` | [Correio dos Açores](https://promptugal.news/organisations/correio-dos-acores/) | organisation | ontologist@ 16 Nov 2026 |
-| `DAT.ORG council-of-europe` | [Council of Europe](https://promptugal.news/organisations/council-of-europe/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG council` | [Council](https://promptugal.news/organisations/council/) | organisation | curator@PrompTugal.vicky 20 Nov 2026 |
 
 **Cards 476 to 500**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.ORG council-of-europe` | [Council of Europe](https://promptugal.news/organisations/council-of-europe/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG coval` | [Coval](https://promptugal.news/organisations/coval/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG cp` | [CP](https://promptugal.news/organisations/cp/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG current-affairs` | [Current Affairs](https://promptugal.news/organisations/current-affairs/) (withdrawn) | organisation | programme@PrompTugal.vicky 9 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.ORG diario-do-sul` | [Diário do Sul](https://promptugal.news/organisations/diario-do-sul/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG diario-dos-acores` | [Diário dos Açores](https://promptugal.news/organisations/diario-dos-acores/) | organisation | ontologist@ 16 Nov 2026 |
 | `DAT.ORG digital-inside` | [Digital Inside](https://promptugal.news/organisations/digital-inside/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
-| `DAT.ORG dinheiro-vivo` | [Dinheiro Vivo](https://promptugal.news/organisations/dinheiro-vivo/) | organisation | ontologist@ 17 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-4.md) | [Next part](DAT-6.md)

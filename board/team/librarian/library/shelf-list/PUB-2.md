@@ -1,8 +1,8 @@
 ---
 title: "Shelf list: PUB, The publication (part 2 of 19)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T10:00:10Z"
-site_version: "v0.1.1946"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T21:00:27Z"
+site_version: "v0.1.1966"
 source: board/catalogue.json
 ---
 
@@ -23,7 +23,7 @@ source: board/catalogue.json
 | `PUB.LIST topics` | [Topics](https://promptugal.news/topics/) | list | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS 2026-11-06-made-to-outlive-the-summit` | [Made to outlive the summit: what PrompTugal.news was meant to become, from the record](https://promptugal.news/newsroom/notes/2026-11-06-made-to-outlive-the-summit/) | newsroom | historian@ 6 Nov 2026 |
 | `PUB.NEWS 2026-11-06-the-sign-in` | [The sign-in: a key in a QR code, and what it is for](https://promptugal.news/newsroom/notes/2026-11-06-the-sign-in/) | newsroom | dev@ 6 Nov 2026 |
-| `PUB.NEWS A1` | [A1: Analysis: Portuguese people above the EU average on AI, companies below](https://promptugal.news/newsroom/stories/A1/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
+| `PUB.NEWS A1` | [A1: Analysis: AI use in Portugal jumps in 2026, for people and companies](https://promptugal.news/newsroom/stories/A1/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS A3` | [A3: Analysis: Portugal has 60 MW of computing power and wants 1,000](https://promptugal.news/newsroom/stories/A3/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS AG1` | [AG1: The agent conversation the storm postponed](https://promptugal.news/newsroom/stories/AG1/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS AI1` | [AI1: The agent sessions at Web Summit, day by day](https://promptugal.news/newsroom/stories/AI1/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |

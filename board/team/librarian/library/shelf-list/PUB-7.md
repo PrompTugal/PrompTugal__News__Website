@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: PUB, The publication (part 7 of 19)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T10:00:10Z"
-site_version: "v0.1.1946"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T21:00:27Z"
+site_version: "v0.1.1966"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 7 of 19)
 
-100 cards, from `PUB.SITE braganca:15` to `PUB.SITE coimbra:21`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE braganca:14` to `PUB.SITE coimbra:20`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 601 to 625**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE braganca:14` | [Bragança: the data](https://promptugal.news/query/braganca/) | site |  |
 | `PUB.SITE braganca:15` | [Bragança: AI in context](https://promptugal.news/query/decks/braganca/) | site |  |
 | `PUB.SITE braganca:16` | [PrompTugal.news Bragança](https://promptugal.news/pl-PL/portugal/braganca/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE braganca:17` | [PrompTugal.news Bragança](https://promptugal.news/hr-HR/portugal/braganca/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `PUB.SITE bulletins.b` | [bulletins.b@promptugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/bulletins.b/) | site |  |
 | `PUB.SITE business-plan` | [The business plan](https://promptugal.news/investors/business-plan/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE business-plan:2` | [El plan de negocio](https://promptugal.news/investors/es/business-plan/) | site | investors@ 7 Nov 2026 |
-| `PUB.SITE business-plan:3` | [Le business plan](https://promptugal.news/investors/fr/business-plan/) | site | investors@ 7 Nov 2026 |
 
 **Cards 626 to 650**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE business-plan:3` | [Le business plan](https://promptugal.news/investors/fr/business-plan/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE business-plan:4` | [O plano de negócio](https://promptugal.news/investors/pt/business-plan/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE campeao-das-provincias` | [Campeão das Províncias](https://promptugal.news/media/campeao-das-provincias/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE canal-alentejo` | [Canal Alentejo](https://promptugal.news/media/canal-alentejo/) | site | dev.places@ 16 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `PUB.SITE castelo-branco:4` | [PrompTugal.news Castelo Branco](https://promptugal.news/es-AR/portugal/castelo-branco/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE castelo-branco:5` | [PrompTugal.news Castelo Branco](https://promptugal.news/es-ES/portugal/castelo-branco/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE castelo-branco:6` | [PrompTugal.news Castelo Branco](https://promptugal.news/es-MX/portugal/castelo-branco/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE castelo-branco:7` | [PrompTugal.news Castelo Branco](https://promptugal.news/fr-CA/portugal/castelo-branco/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
 **Cards 651 to 675**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE castelo-branco:7` | [PrompTugal.news Castelo Branco](https://promptugal.news/fr-CA/portugal/castelo-branco/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE castelo-branco:8` | [PrompTugal.news Castelo Branco](https://promptugal.news/fr-FR/portugal/castelo-branco/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE castelo-branco:9` | [PrompTugal.news Castelo Branco](https://promptugal.news/it-IT/portugal/castelo-branco/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE castro-marim` | [The proof layer: Castro Marim](https://promptugal.news/agentic-system/proof/castro-marim/) | site |  |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `PUB.SITE castro-marim:6` | [PrompTugal.news Castro Marim](https://promptugal.news/es-ES/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE castro-marim:7` | [PrompTugal.news Castro Marim](https://promptugal.news/es-MX/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE castro-marim:8` | [PrompTugal.news Castro Marim](https://promptugal.news/fr-CA/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE castro-marim:9` | [PrompTugal.news Castro Marim](https://promptugal.news/fr-FR/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
 
 **Cards 676 to 700**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE castro-marim:9` | [PrompTugal.news Castro Marim](https://promptugal.news/fr-FR/algarve/castro-marim/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE central-press` | [Central Press](https://promptugal.news/media/central-press/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE changelog` | [What changed in the decks](https://promptugal.news/investors/changelog/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE changelog:2` | [Qué ha cambiado en las presentaciones](https://promptugal.news/investors/es/changelog/) | site | investors@ 7 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE coimbra:19` | [PrompTugal.news Coimbra](https://promptugal.news/zh-Hans/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE coimbra:2` | [PrompTugal.news Coimbra](https://promptugal.news/de-CH/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE coimbra:20` | [PrompTugal.news Coimbra](https://promptugal.news/ja-JP/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE coimbra:21` | [PrompTugal.news Coimbra](https://promptugal.news/ko-KR/portugal/coimbra/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-6.md) | [Next part](PUB-8.md)

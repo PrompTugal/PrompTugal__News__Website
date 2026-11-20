@@ -27,28 +27,28 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-3769 cards (1480 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-20T10:00:10Z at site v0.1.1946; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+3795 cards (1506 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-20T21:00:27Z at site v0.1.1966; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `RDR.SHERPA` | 31 |
 | `RDR.SYN` | 5 |
-| `TEAM.ABP` | 212 |
+| `TEAM.ABP` | 222 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
 | `TEAM.INBOX` | 162 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 2115 |
+| `TEAM.ROLE` | 2131 |
 | `TEAM.RUN` | 1212 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261120-0035` [visitlisboa.md](https://promptugal.news/board/team/outreach/sources-requests/official/visitlisboa.md) (`TEAM.ROLE visitlisboa`)
-- `ACC-20261120-0034` [visitalgarve.md](https://promptugal.news/board/team/outreach/sources-requests/official/visitalgarve.md) (`TEAM.ROLE visitalgarve`)
-- `ACC-20261120-0033` [ualg.md](https://promptugal.news/board/team/outreach/sources-requests/official/ualg.md) (`TEAM.ROLE ualg`)
-- `ACC-20261120-0032` [turismo-portugal.md](https://promptugal.news/board/team/outreach/sources-requests/official/turismo-portugal.md) (`TEAM.ROLE turismo-portugal`)
-- `ACC-20261120-0031` [Morning pass, 20 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-20/morning-items.md) (`TEAM.ROLE morning-items`)
+- `ACC-20261120-0063` [snirh-apa.md](https://promptugal.news/board/team/outreach/sources-requests/official/snirh-apa.md) (`TEAM.ROLE snirh-apa`)
+- `ACC-20261120-0062` [Evening pass, 20 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-20/evening-items.md) (`TEAM.ROLE evening-items:3`)
+- `ACC-20261120-0061` [edia-alqueva-dados.md](https://promptugal.news/board/team/outreach/sources-requests/official/edia-alqueva-dados.md) (`TEAM.ROLE edia-alqueva-dados`)
+- `ACC-20261120-0060` [dgadr-albufeiras-hidroagricolas.md](https://promptugal.news/board/team/outreach/sources-requests/official/dgadr-albufeiras-hidroagricolas.md) (`TEAM.ROLE dgadr-albufeiras-hidroagricolas`)
+- `ACC-20261120-0059` [apa-monitorizacao-agrometeorologica-hidrologica.md](https://promptugal.news/board/team/outreach/sources-requests/official/apa-monitorizacao-agrometeorologica-hidrologica.md) (`TEAM.ROLE apa-monitorizacao-agrometeorologica-hidrologica`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).
