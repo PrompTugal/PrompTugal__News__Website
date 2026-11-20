@@ -1,5 +1,111 @@
 {
   "$schema": "../schemas/places-registry.schema.json",
+  "index": {
+    "acores": "acores",
+    "albufeira": "albufeira",
+    "alcoutim": "alcoutim",
+    "algarve": "algarve",
+    "aljezur": "aljezur",
+    "almancil": "almancil",
+    "armenia": "armenia",
+    "australia": "australia",
+    "austria": "austria",
+    "aveiro": "aveiro",
+    "barking-and-dagenham": "barking-and-dagenham",
+    "barnet": "barnet",
+    "beato-innovation-district": "beato-innovation-district",
+    "beja": "beja",
+    "belgium": "belgium",
+    "bexley": "bexley",
+    "braga": "braga",
+    "braganca": "braganca",
+    "brazil": "brazil",
+    "brent": "brent",
+    "bromley": "bromley",
+    "brussels": "brussels",
+    "camden": "camden",
+    "canada": "canada",
+    "castelo-branco": "castelo-branco",
+    "castro-marim": "castro-marim",
+    "china": "china",
+    "coimbra": "coimbra",
+    "colombia": "colombia",
+    "croydon": "croydon",
+    "czechia": "czechia",
+    "dublin": "dublin",
+    "ealing": "ealing",
+    "enfield": "enfield",
+    "european-union": "european-union",
+    "evora": "evora",
+    "faro": "faro",
+    "france": "france",
+    "germany": "germany",
+    "greenwich": "greenwich",
+    "guarda": "guarda",
+    "hackney": "hackney",
+    "hammersmith-and-fulham": "hammersmith-and-fulham",
+    "haringey": "haringey",
+    "harrow": "harrow",
+    "havering": "havering",
+    "hillingdon": "hillingdon",
+    "hounslow": "hounslow",
+    "hungary": "hungary",
+    "india": "india",
+    "ireland": "ireland",
+    "islington": "islington",
+    "israel": "israel",
+    "italy": "italy",
+    "kensington-and-chelsea": "kensington-and-chelsea",
+    "kingston-upon-thames": "kingston-upon-thames",
+    "lagoa": "lagoa",
+    "lagos": "lagos",
+    "lambeth": "lambeth",
+    "leiria": "leiria",
+    "lewisham": "lewisham",
+    "lisboa": "lisbon",
+    "lisbon": "lisbon",
+    "lithuania": "lithuania",
+    "london": "london",
+    "loule": "loule",
+    "luxembourg": "luxembourg",
+    "madeira": "madeira",
+    "merton": "merton",
+    "monchique": "monchique",
+    "netherlands": "netherlands",
+    "new-zealand": "new-zealand",
+    "newham": "newham",
+    "olhao": "olhao",
+    "parque-das-nacoes": "parque-das-nacoes",
+    "portalegre": "portalegre",
+    "portimao": "portimao",
+    "porto": "porto",
+    "portugal": "portugal",
+    "quarteira": "quarteira",
+    "redbridge": "redbridge",
+    "richmond-upon-thames": "richmond-upon-thames",
+    "santarem": "santarem",
+    "sao-bras-de-alportel": "sao-bras-de-alportel",
+    "setubal": "setubal",
+    "silves": "silves",
+    "singapore": "singapore",
+    "southwark": "southwark",
+    "spain": "spain",
+    "sutton": "sutton",
+    "sweden": "sweden",
+    "switzerland": "switzerland",
+    "tavira": "tavira",
+    "tower-hamlets": "tower-hamlets",
+    "united-kingdom": "united-kingdom",
+    "united-states": "united-states",
+    "viana-do-castelo": "viana-do-castelo",
+    "vila-do-bispo": "vila-do-bispo",
+    "vila-real": "vila-real",
+    "vila-real-de-santo-antonio": "vila-real-de-santo-antonio",
+    "viseu": "viseu",
+    "waltham-forest": "waltham-forest",
+    "wandsworth": "wandsworth",
+    "westminster": "westminster"
+  },
   "places": [
     {
       "id": "acores",
@@ -10,8 +116,11 @@
       "timezone": null,
       "aliases": [],
       "seat": null,
-      "at": null,
-      "wikidata": null
+      "at": [
+        -28.031,
+        38.624
+      ],
+      "wikidata": "Q25263"
     },
     {
       "id": "albufeira",
@@ -52,8 +161,11 @@
       "timezone": null,
       "aliases": [],
       "seat": null,
-      "at": null,
-      "wikidata": null
+      "at": [
+        -8.0111,
+        37.2338
+      ],
+      "wikidata": "Q76516549"
     },
     {
       "id": "aljezur",
@@ -79,8 +191,11 @@
       "timezone": null,
       "aliases": [],
       "seat": null,
-      "at": null,
-      "wikidata": null
+      "at": [
+        -8.0308,
+        37.0875
+      ],
+      "wikidata": "Q374030"
     },
     {
       "id": "armenia",
@@ -436,8 +551,11 @@
       "timezone": null,
       "aliases": [],
       "seat": null,
-      "at": null,
-      "wikidata": null
+      "at": [
+        -6.2603,
+        53.3497
+      ],
+      "wikidata": "Q1761"
     },
     {
       "id": "ealing",
@@ -933,8 +1051,11 @@
       "timezone": null,
       "aliases": [],
       "seat": null,
-      "at": null,
-      "wikidata": null
+      "at": [
+        -17,
+        32.75
+      ],
+      "wikidata": "Q26253"
     },
     {
       "id": "merton",
@@ -1029,8 +1150,11 @@
       "timezone": null,
       "aliases": [],
       "seat": null,
-      "at": null,
-      "wikidata": null
+      "at": [
+        -9.0953,
+        38.7689
+      ],
+      "wikidata": "Q1428475"
     },
     {
       "id": "portalegre",

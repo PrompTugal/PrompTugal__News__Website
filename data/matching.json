@@ -1719,7 +1719,7 @@
       {
         "as_listed": "European Commission",
         "ref": "company:european-commission",
-        "count": 6
+        "count": 8
       },
       {
         "as_listed": "European Commission (DG CONNECT, DG GROW)",
@@ -1904,6 +1904,11 @@
         "count": 1
       },
       {
+        "as_listed": "Council",
+        "ref": "organisation:council",
+        "count": 1
+      },
+      {
         "as_listed": "Dealroom",
         "ref": "organisation:dealroom",
         "count": 1
@@ -1956,6 +1961,11 @@
       {
         "as_listed": "EuroLLM-9B",
         "ref": "organisation:eurollm-9b",
+        "count": 1
+      },
+      {
+        "as_listed": "European Parliament",
+        "ref": "organisation:european-parliament",
         "count": 1
       },
       {
@@ -2251,7 +2261,7 @@
       {
         "as_listed": "Rows",
         "ref": "organisation:rows",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "Santa Maria local health unit",
@@ -2281,7 +2291,7 @@
       {
         "as_listed": "Superhuman",
         "ref": "organisation:superhuman",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "Sword Health",
@@ -2431,7 +2441,7 @@
       {
         "as_listed": "health-system administration",
         "ref": "organisation:health-system-administration",
-        "count": 3
+        "count": 4
       },
       {
         "as_listed": "knok",
@@ -2441,7 +2451,7 @@
       {
         "as_listed": "national health service",
         "ref": "organisation:national-health-service",
-        "count": 5
+        "count": 6
       },
       {
         "as_listed": "norriv",

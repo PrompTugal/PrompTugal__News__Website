@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "by": "place.castro-marim@PrompTugal.dinis",
   "mandate": "PrompTugal.news Castro Marim: AI and technology in Castro Marim, a salt-pan and Guadiana border town where the AI sits in its council's planning office and its salt works, and what reaches Castro Marim from the Algarve, Portugal and the world. Independent, and every fact sourced.",
   "gravity": {
@@ -504,6 +504,25 @@
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "source_license": {
         "note": "the source's terms: its footer says all rights reserved (read 2026-11-18); only a short factual summary with the link is shown",
+        "url": "https://cm-castromarim.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+    },
+    {
+      "title": "The Eurocidade do Guadiana held its annual cross-border meeting of women entrepreneurs in Ayamonte on 19 November",
+      "summary": "At the Ayamonte exhibition and congress centre: a leadership panel, a session on cross-border business experience and training, and a speed-networking and co-working space in the former Altura primary school. It came from a CCDR Algarve proposal through Europe Direct Algarve and Andalusia; ANJE Algarve's Algarve Up Social project and the Young-Link youth association took part. A report of the event announced earlier by Vila Real de Santo António.",
+      "date": "2026-11-19",
+      "publisher": "Município de Castro Marim",
+      "url": "https://cm-castromarim.pt/site/noticia/dia-internacional-da-mulher-empreendedora-foi-o-dia-escolhido-para-o-encontro-anual-da",
+      "read_on": "2026-11-20",
+      "significance": "town, neighbours and cross-border",
+      "blast_radius": "Vila Real de Santo António, Ayamonte (Spain)",
+      "ai_path": "no AI",
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms: its footer says all rights reserved (read 2026-11-20); only a short factual summary with the link is shown",
         "url": "https://cm-castromarim.pt/"
       },
       "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",

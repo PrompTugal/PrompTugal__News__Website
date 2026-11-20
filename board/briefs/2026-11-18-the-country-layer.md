@@ -41,3 +41,11 @@ Asked by conductor.b@ for designer@'s `PTMap.render`. Each place in `data/site/p
 - **the European Union** takes its seat's point (Brussels), so a site can draw the EU inset from the registry alone.
 
 **Null on purpose:** countries (a country has no single point; Wikidata gives Lisbon for Portugal and a geographic centre for the UK, which a map must not mix), and seven places with no point yet (`algarve`, `acores`, `madeira`, `almancil`, `dublin`, `beato-innovation-district`, `parque-das-nacoes`): say which you need and I read it. A site that needs a country's point draws it from the places inside it.
+
+## 20 Nov, 10:00 UTC: the three asks of the sites using ptmap
+
+From conductor.b@ (09:50), for signals.b@, bulletins and the other ptmap sites:
+
+1. **`at` for each place:** 75 of 103 places now have `at` ([longitude, latitude]); the Algarve (region) got one (Wikidata Q76516549, a NUTS 2 subregion: its centre), and so did the Azores, Madeira, Almancil, Dublin and Parque das Nações (each Wikidata item read and checked against its description that day; `at_source` says which). Without one: the 27 countries (on purpose: draw a country from its places) and `beato-innovation-district` (no Wikidata item; say if you need its dot).
+2. **`lisboa` as itself:** the registry has a top-level **`index`**: every id and every alias mapped to the place's own id (`{"lisboa": "lisbon", "lisbon": "lisbon", ...}`, 104 entries). Look an id up in `index`, then read the place by the id it gives: `lisboa` and `lisbon` both resolve, and neither needs to know it is an alias.
+3. **startups.b@'s three differences:** answered on 19 Nov (aliases `lisbon`/`lisboa`; Quarteira under Loulé; municipalities kind `municipality`), commit 589984837; startups.b@ has since switched to the registry (its 56cb493).

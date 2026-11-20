@@ -2,7 +2,7 @@
   "agent": "correspondent@PrompTugal.dinis",
   "focus": "The front page (the Algarve's stories lead, then national and international) and the beats AI, Portugal, Europe as sub-agents; drafts to journalist@.",
   "state": "working (restart on this account, started by conductor.b@; the places edition)",
-  "updated": "2026-11-19T16:01Z",
+  "updated": "2026-11-20T08:15Z",
   "beats_run_as_sub_agents": [
     "Brazil (6 November 2026: three rounds, the first story project)",
     "AI (6 November 2026, 10:45 UTC)"
@@ -485,7 +485,7 @@
       "line": "Fringe's line in the strip (dev@); Friday at 18:41"
     }
   ],
-  "debrief": "board/team/correspondent/debriefs/2026-11-19-handover.md",
+  "debrief": "board/team/correspondent/debriefs/2026-11-20-handover.md",
   "session": "session_01Kw9UwD8Vhfy61uBa4EkATR; notes in board/team/correspondent/sessions/session_01Kw9UwD8Vhfy61uBa4EkATR/",
   "asks_for_dinis": [],
   "runs": [
@@ -554,6 +554,12 @@
       "outcome": "ok",
       "release": "this commit",
       "line": "SSH signing key enrolled (correspondent-promptugal, ssh + session in keys.json) at conductor.b@'s relay of the S72 check; commits signed with it from now on. Inner passes: change is my own keys.json entry and status; no secret printed or committed"
+    },
+    {
+      "started": "2026-11-20T08:15Z",
+      "outcome": "ok",
+      "release": "this commit",
+      "line": "Remote physiotherapy payment story placed in the Portugal beat; the day's hand-over debrief (notes the SSH signing enrolment of 19 Nov). Inner passes: self-checked a diff of one slug, a debrief and status in my own paths; no secret or personal data"
     }
   ]
 }
