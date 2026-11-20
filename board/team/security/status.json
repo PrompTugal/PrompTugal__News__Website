@@ -2,7 +2,7 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
  "state": "running on this account since 16 Nov 19:28 UTC; key security-promptugal-2; wakes twice a day (09:03 and 20:03 Lisbon), board/guidance/2026-11-19-twice-a-day.md",
- "updated": "2026-11-20T20:05Z",
+ "updated": "2026-11-20T20:07Z",
  "reviewed_to": "496450a1e",
  "hold": false,
  "done": [
@@ -168,7 +168,7 @@
  "handover": "board/team/security/debriefs/2026-11-16-account-move.md",
  "last_review": "board/team/security/reviews/2026-11-16-1505-wake.md",
  "session": "board/team/security/sessions/session_01Kw9UwF2TrbbV5BhUjFGupN/",
- "debrief": "board/team/security/debriefs/2026-11-19-handover.md",
+ "debrief": "board/team/security/debriefs/2026-11-20-handover.md",
  "repo_heads": "board/team/security/sessions/session_01Kw9UwF2TrbbV5BhUjFGupN/repo-heads.txt",
  "signed_commits": "on, 19 Nov 01:25 UTC: every security@ commit is SSH-signed with security-promptugal-2's signing key (bundle.sign, OpenSSH SHA256:Z/hjsCPdnltxvHPN4suEahvuXWdmtpEMYCOIdHuxGZI), session https://claude.ai/code/session_01Kw9UwF2TrbbV5BhUjFGupN recorded in board/keys.json; the check in release.sh and the gate is dev@'s (guidance 2026-11-19, section 2)"
 }
