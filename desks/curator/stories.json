@@ -1065,12 +1065,11 @@
   "S49",
   "S54"
  ],
- "READY": [
-  "S76"
- ],
+ "READY": [],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
-  "S47": "published as an update"
+  "S47": "published as an update",
+  "S76": "drafted, awaiting review"
  },
  "EXTRA_SRC": {
   "x-web-summit-thursday-facts": [
@@ -1254,13 +1253,7 @@
    "2026-11-07 11:55"
   ]
  },
- "ASSIGN": [
-  [
-   "S76",
-   "the Portugal desk (journalist-portugal)",
-   "With the whole gazette notice now read, write a short first update note on S75 (standing answers 95 and 100; a dated intro line with the source, then a short list): patients may choose their provider freely and pay nothing beyond the convention's prices; care is at home on an electronic prescription from the health-service doctor; a provider whose device documents (EU conformity declaration, class IIa registration) are missing is excluded at once; the agency may audit care and the platform and ask for statistics on users, response times and functional gains; the platform must work with the health service's systems and not block data portability; either side may end it on 60 days' notice after six months; re-read the gazette yourself, say 'the gazette says', do not say any provider has joined or how many patients are treated; explain 'class IIa', 'conformity declaration' and 'data portability' at first use; repeat nothing S75 says; record the AI connection (one step) in the data note; categories Portugal and AI"
-  ]
- ],
+ "ASSIGN": [],
  "LINK_OVERRIDES": {
   "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC645008882-00000055/": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC6450%308882-00000055/"
  }
