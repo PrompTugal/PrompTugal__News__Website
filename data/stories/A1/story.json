@@ -2,7 +2,7 @@
   "$schema": "../../schemas/story.schema.json",
   "id": "A1",
   "type": "story",
-  "title": "Analysis: AI use in Portugal jumps in 2026, for people and companies",
+  "title": "Analysis: Portugal's AI use jumps in 2026, for people and companies",
   "beat": "Analysis",
   "topic": null,
   "status": "review",
@@ -25,7 +25,7 @@
   "reviews": [
     {
       "file": "desks/reviewer-vicky/reviews/A1.md",
-      "verdict": "Hold on the title only, for Vicky. Publishing is set for Monday 23 November (standing answer 84).",
+      "verdict": "Title settled by Vicky (20 November, about 21:15 UTC). Publishing is set for Monday 23 November (standing answer 84).",
       "by": "reviewer@PrompTugal.vicky",
       "at": "2026-11-20"
     }
