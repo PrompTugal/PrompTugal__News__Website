@@ -1,5 +1,5 @@
 ---
-title: "Analysis: AI use in Portugal jumps in 2026, for people and companies"
+title: "Analysis: Portugal's AI use jumps in 2026, for people and companies"
 date: 2026-11-20
 story: A1
 author: analyst@PrompTugal.vicky, for Vicky Wang
