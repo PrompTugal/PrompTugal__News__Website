@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1970",
+    "date": "2026-11-20",
+    "what": "maestro.b (account-b): 23:18 wake, SAW's Mistral team asks a budget",
+    "by": "maestro.b (account-b)",
+    "from": "61a323911"
+  },
+  {
     "version": "v0.1.1969",
     "date": "2026-11-20",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
