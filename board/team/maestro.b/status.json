@@ -5,8 +5,8 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-20T15:12Z",
-  "state": "2026-11-20T13:19Z 13:18 fuller brief (briefs/2026-11-20-1318.md): SAW live with a whois tool and the Algarve Evolution content moved under sovereignweb.site, waiting on four decisions; the email cell restart waits on Dinis's yes in the AgentiCCells session",
+  "updated": "2026-11-20T19:19Z",
+  "state": "2026-11-20T19:19Z 19:18 fuller brief (briefs/2026-11-20-1918.md): the launch conductors and the email cell wait on Dinis (AgentiCCells 22 asks); conductor.b@ (PrompTugal) at $474 with 854k context",
   "done": [
     "2026-11-19T02:01Z onboarding: read CLAUDE.md, New from Dinis, the maestro guidance, conductor.b@'s status, debrief 2026-11-18 and roster; key maestro.b-account-b made with sgit pki keygen, public bundle and ssh signing key in board/keys.json with this session; git set repo-locally to sign with newsroom/tools/signing-setup.sh",
     "2026-11-19T02:01Z read get_session for conductor.b@, cells.b, writer-10 and telemetry.b@ (status and cost only, no transcripts) and the status.json of rights@, security@, abp@, telemetry.b@",
@@ -51,7 +51,8 @@
     "2026-11-20T12:19Z 12:18 wake: SAW conductor ($70.51) and AgentiCCells conductor ($39.41) coordinated after my 11:20 note: a transfer test repository AgentiCCells__Site__Transfer-Test (Dinis's yes in the AgentiCCells session), the Algarve holding page held in a SAW session (session_01Kw9UwBqEqrxrSBwvLEVJY6), and a question whether the main sites move to sovereignweb.*; AgentiCCells has paused all other work for Dinis's answers",
     "2026-11-20T12:57Z at Dinis's word: the email cell (Gmail, the inbox twin, the OAuth page) found on account A (AgentiCCells__Cell__Email, last commit 18 Nov); Dinis chose the AgentiCCells conductor to restart it here; briefed it by send_message; record board/team/maestro.b/decisions/2026-11-20-email-cell.md",
     "2026-11-20T13:19Z 13:18 fuller brief; SAW conductor $77.42 (whois tool d7d6d6d; algarve-evolution.organisation.sovereignweb.site), AgentiCCells conductor $41.58 (will start the email cell only on Dinis's yes in its own session), writer-10 $131.45 waiting on Dinis; telemetry.b@ $3,444.97 at 09:35",
-    "2026-11-20T15:12Z the email cell started on account B at Dinis's yes in the AgentiCCells conductor's session: cell.email.b, session_01Kw9UwCqxmrdRhMbq8CNRAG, wake trig_01DLGQUfJbiz2gRbTupmx8fj (hourly :12 UTC)"
+    "2026-11-20T15:12Z the email cell started on account B at Dinis's yes in the AgentiCCells conductor's session: cell.email.b, session_01Kw9UwCqxmrdRhMbq8CNRAG, wake trig_01DLGQUfJbiz2gRbTupmx8fj (hourly :12 UTC)",
+    "2026-11-20T19:19Z 19:18 fuller brief; debrief brought up to date"
   ],
   "next": [
     "18:18 wake and hourly: watch the SAW launch and the agenticcells.ai refactor; full briefs at 19:18 and 07:18"
