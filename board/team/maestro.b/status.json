@@ -5,7 +5,7 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-20T13:19Z",
+  "updated": "2026-11-20T15:12Z",
   "state": "2026-11-20T13:19Z 13:18 fuller brief (briefs/2026-11-20-1318.md): SAW live with a whois tool and the Algarve Evolution content moved under sovereignweb.site, waiting on four decisions; the email cell restart waits on Dinis's yes in the AgentiCCells session",
   "done": [
     "2026-11-19T02:01Z onboarding: read CLAUDE.md, New from Dinis, the maestro guidance, conductor.b@'s status, debrief 2026-11-18 and roster; key maestro.b-account-b made with sgit pki keygen, public bundle and ssh signing key in board/keys.json with this session; git set repo-locally to sign with newsroom/tools/signing-setup.sh",
@@ -50,14 +50,14 @@
     "2026-11-20T11:19Z 11:18 wake: SAW conductor ($64.37) made algarve.b's key and asks Dinis where 'Algarve Revolution' lives, design.b's policy entry, and a TRANSFER_USER_TOKEN in the factory's transfer environment; AgentiCCells conductor ($37.52) waits on PR #45 and six sessions; sent both conductors (send_message, now in my grant, policy v1.19.0) the likely match, AgentiCCells/AgentiCCells__Site__Algarve-Evolution, to agree ownership before building twice",
     "2026-11-20T12:19Z 12:18 wake: SAW conductor ($70.51) and AgentiCCells conductor ($39.41) coordinated after my 11:20 note: a transfer test repository AgentiCCells__Site__Transfer-Test (Dinis's yes in the AgentiCCells session), the Algarve holding page held in a SAW session (session_01Kw9UwBqEqrxrSBwvLEVJY6), and a question whether the main sites move to sovereignweb.*; AgentiCCells has paused all other work for Dinis's answers",
     "2026-11-20T12:57Z at Dinis's word: the email cell (Gmail, the inbox twin, the OAuth page) found on account A (AgentiCCells__Cell__Email, last commit 18 Nov); Dinis chose the AgentiCCells conductor to restart it here; briefed it by send_message; record board/team/maestro.b/decisions/2026-11-20-email-cell.md",
-    "2026-11-20T13:19Z 13:18 fuller brief; SAW conductor $77.42 (whois tool d7d6d6d; algarve-evolution.organisation.sovereignweb.site), AgentiCCells conductor $41.58 (will start the email cell only on Dinis's yes in its own session), writer-10 $131.45 waiting on Dinis; telemetry.b@ $3,444.97 at 09:35"
+    "2026-11-20T13:19Z 13:18 fuller brief; SAW conductor $77.42 (whois tool d7d6d6d; algarve-evolution.organisation.sovereignweb.site), AgentiCCells conductor $41.58 (will start the email cell only on Dinis's yes in its own session), writer-10 $131.45 waiting on Dinis; telemetry.b@ $3,444.97 at 09:35",
+    "2026-11-20T15:12Z the email cell started on account B at Dinis's yes in the AgentiCCells conductor's session: cell.email.b, session_01Kw9UwCqxmrdRhMbq8CNRAG, wake trig_01DLGQUfJbiz2gRbTupmx8fj (hourly :12 UTC)"
   ],
   "next": [
     "18:18 wake and hourly: watch the SAW launch and the agenticcells.ai refactor; full briefs at 19:18 and 07:18"
   ],
   "asks": [
     "Dinis: SAW's four: a budget for the librarian's first run over 500+ articles (or accountant.b proposes one); yes to factory.b creating accountant.agents.sovereignweb.site; who keeps sovereignwebsite.ai, .org and .site (sites.b or a new agent); open algarve-evolution.organisation.sovereignweb.site with your key, check it, and say whether the old site comes down: https://claude.ai/code/session_01Kw9UwDCS5Px4dXRJUGP9Qu",
-    "Dinis: say yes in the AgentiCCells conductor's own session to start the email cell (cell.email.b) and how often it wakes: https://claude.ai/code/session_01Kw9UwFgyMuNDYCnrW1ZKkm",
     "Dinis: stop the email cell's account A session (session_018yvwtND8YqRZyrrZ428ie7) once cell.email.b runs here (one role, one session); the AgentiCCells conductor is starting it: https://claude.ai/code/session_01Kw9UwFgyMuNDYCnrW1ZKkm",
     "Dinis: AgentiCCells: merge PR #45; decide agenticcells.ai's commit-name check and its launch; merge migration.b's key and policy entry; answers for the hub, cells.b, your site's conductor and the evals site: https://claude.ai/code/session_01Kw9UwFgyMuNDYCnrW1ZKkm",
     "Dinis: overnight, keep the three hourly wakes (maestro.b, SAW, AgentiCCells) or pause them until you are back? Idle, each costs well under $1 an hour; the SAW conductor asks the same: https://claude.ai/code/session_01Kw9UwDCS5Px4dXRJUGP9Qu",
