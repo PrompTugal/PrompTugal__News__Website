@@ -1719,7 +1719,7 @@
       {
         "as_listed": "European Commission",
         "ref": "company:european-commission",
-        "count": 6
+        "count": 8
       },
       {
         "as_listed": "European Commission (DG CONNECT, DG GROW)",
@@ -1904,6 +1904,11 @@
         "count": 1
       },
       {
+        "as_listed": "Council",
+        "ref": "organisation:council",
+        "count": 1
+      },
+      {
         "as_listed": "Dealroom",
         "ref": "organisation:dealroom",
         "count": 1
@@ -1956,6 +1961,11 @@
       {
         "as_listed": "EuroLLM-9B",
         "ref": "organisation:eurollm-9b",
+        "count": 1
+      },
+      {
+        "as_listed": "European Parliament",
+        "ref": "organisation:european-parliament",
         "count": 1
       },
       {
