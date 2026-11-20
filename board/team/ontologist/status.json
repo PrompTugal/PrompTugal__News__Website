@@ -2,7 +2,7 @@
   "agent": "ontologist@PrompTugal.dinis",
   "focus": "data/ schemas and the derivation, the knowledge graph and its links to the team CRM; every fact sourced.",
   "state": "working (account A)",
-  "updated": "2026-11-20T10:10Z",
+  "updated": "2026-11-20T19:00Z",
   "done": [
     "Pass only-websummit-sourced-comes-off, step 2 (conductor.b@, at Dinis's 18:50 word): the inventory data/websummit-only.json, derived by derive.mjs (refs only, counts by kind; schema websummit-only); 239 of 311 company facts, all 285 people, 215 of 248 events, 184 of 269 organisations, 45 of 85 places rest only on websummit.com; 37 of 120 companies left with nothing, 31 of them with their own site on file (22:05)",
     "Websummit-only pass: facts_left per company (59 with no fact, 37 with nothing); shadow sources (Wikipedia, the EU HaDEA event page) for Web Summit, AWS, the summit event, MEO Arena and FIL and Lisbon, so they stay; event and place schemas take sources (00:21 wake, 12 Nov)",
@@ -42,7 +42,8 @@
     "18:51 wake (twice-a-day schedule): nothing new from researcher@ or local@, no open request in the library's channel; the 19 November debrief updated with the afternoon's work (registry, aliases, SSH key, Brussels, schedule)",
     "19:35 message from conductor.b@ (designer@'s shared map ptmap 1.0.0 published, commit 9f5ba1d44; the places registry needs coordinates; spec board/spec-the-shared-map.md is in the repo, line 39 asks me): at ([lon, lat]) and at_source on 68 places (34 from the by-place list, 34 from Wikidata P625), the registry carries at (the EU takes its seat's) for 69 of 103; countries left null on purpose; brief section 19 Nov 20:10",
     "19:46 message from conductor.b@ (startups.b@ still waiting; add at): all already on dev (589984837, c51707366, e2a97608b); the direct answer written for startups.b@ in board/team/ontologist/replies/2026-11-19-to-startups-b.md and the commit ids sent to conductor.b@ (my earlier note to it did not reach startups.b@: I have no lane to site leads)",
-    "09:50 message from conductor.b@ (the ptmap sites' three asks): at on 6 more places (algarve Q76516549, acores, madeira, almancil, dublin, parque-das-nacoes; 75 of 103 have one; countries and beato-innovation-district not), a top-level index in the registry mapping every id and alias to the place's own id (lisboa resolves as itself), and the third (startups.b@'s differences) already answered 19 Nov; brief section 20 Nov 10:00. startups.b@ switched to the registry (its 56cb493)"
+    "09:50 message from conductor.b@ (the ptmap sites' three asks): at on 6 more places (algarve Q76516549, acores, madeira, almancil, dublin, parque-das-nacoes; 75 of 103 have one; countries and beato-innovation-district not), a top-level index in the registry mapping every id and alias to the place's own id (lisboa resolves as itself), and the third (startups.b@'s differences) already answered 19 Nov; brief section 20 Nov 10:00. startups.b@ switched to the registry (its 56cb493)",
+    "18:51 wake (twice-a-day schedule): nothing new from researcher@ or local@, no open request in the library's channel; hand-over debrief board/team/ontologist/debriefs/2026-11-20-handover.md"
   ],
   "next": [
     "Event kinds for what discovery finds (meetup, conference, festival, market, civic) once data.b@ says which",
@@ -566,6 +567,6 @@
       "at": "2026-11-06T17:40Z"
     }
   ],
-  "debrief": "board/team/ontologist/debriefs/2026-11-19-handover.md",
+  "debrief": "board/team/ontologist/debriefs/2026-11-20-handover.md",
   "session": "board/team/ontologist/sessions/01Kw9UwBtpQ2smdiLE2DEkEc/notes.md"
 }

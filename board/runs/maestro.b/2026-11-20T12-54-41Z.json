@@ -1,0 +1,72 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "maestro.b@PrompTugal.dinis",
+ "run": "2026-11-20T12-54-41Z",
+ "started": "2026-11-20T12:54:41.615Z",
+ "ended": "2026-11-20T12:57:23Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.0",
+  "sha256": "4d4ad5f84b52b126"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-20T12:54:58.272Z",
+   "chars": 213,
+   "sha256": "ad47569ea7d6f761",
+   "head": "Hi. I need to go back to work into that Gmail integration with the digital twin and the OAuth workflow. Do we have that agent here, or is it on the other account? And do you know about it, or can you "
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-20T12:54:41.615Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 12,
+  "by_kind": {
+   "shell": 4,
+   "remote-read": 2,
+   "git": 3,
+   "other": 1,
+   "agent-message": 1,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 12,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 12,
+  "in_mandate": 12,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

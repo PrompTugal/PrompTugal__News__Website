@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-20T09:39:40Z",
+  "updated": "2026-11-20T20:39:23Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -100,50 +100,17 @@
     "19 Nov 01:49 v1.18.0: R17 (times from date -u; abp@'s own earlier reports rounded up) and security@'s five controls in R16 (board/abp/reports/2026-11-19-0150.md)",
     "19 Nov 01:57 v1.18.1: ABP for maestro.b (Dinis's maestro guidance); no send_message, run-report works",
     "19 Nov 02:39 fifty-fifth hourly wake: maestro.b@ create_session and create_trigger (R4) asked of Dinis; its 'maestro.b (account-b):' commit subjects now attributed in the report; rights@ and security@ send_message again (board/abp/reports/2026-11-19-0239.md)",
-    "16:02 UTC: enrolled my SSH signing key (abp-promptugal-c) with newsroom/tools/signing-setup.sh, which needs no ssh-keygen; every commit of this checkout is signed from now on; the entry is in board/keys.json with this session."
+    "16:02 UTC: enrolled my SSH signing key (abp-promptugal-c) with newsroom/tools/signing-setup.sh, which needs no ssh-keygen; every commit of this checkout is signed from now on; the entry is in board/keys.json with this session.",
+    "10:14 UTC 20 Nov: Dinis answered in my session (board/abp/dinis-word-2026-11-20.md): policy v1.19.0: live.b@ Gmail drafts only; maestro.b@ conductor sessions only and conductors sessions in their domain; send_message for everyone; translator@ work branch, ontologist@ board/briefs and wikidata reads, Vicky's reviewer@ articles, six new onboarding grants; repo map started (board/abp/repo-map.md); asks pruned from 37 to 4; relay to the conductors in board/team/abp/relays/."
   ],
   "next": [
-    "Hourly review of run reports at :37 (board/abp/reports/); check the new desks re-key their site keys and sites pass (34 of 36 now)",
-    "Daily hand-over debrief"
+    "Next wake (20:37 UTC): read security@'s part of the repo map (actual access vs declared) and the conductors' retire-or-keep answers; fold anything new in security@'s signing ruling into R16 once; the unpruned older asks are answered by the 20 Nov word and removed."
   ],
   "asks": [
-    "Dinis: live.b@ is said to have put the MEO permission email in Gmail drafts. Its grant has no connector and I found no yes of yours for it (R3). Proposal: the draft is a file in its repository (the recipient's public official channel, with the page and date read) and a person sends it; or tell me the yes and I record it for drafts only, never send.",
-    "Dinis: jornal@PrompTugal.silvio (Silvio's news scout) has no ABP and no grant. Proposal: onboard it like Jose's operator agents (writes desks/jornal-silvio/**, content/newsroom/jornal-silvio.md and board/runs/jornal-silvio/**, reads public feeds only, no send_message, no connector), tightened wake by wake. Its AlphaSignal source is not on the register (R15) and its run report carries a wrong date (R17). Say yes and I add the grant.",
-    "Dinis: maestro.b@ relays your word (19 Nov 02:43) that conductors may create sessions and wakes inside their own domain. It is a file by another agent, not in board/guidance/, so I have changed no grant. Say it in guidance (or confirm) and I grant create_session/create_trigger to conductor.b@ and maestro.b@ within their domains, with each creation recorded.",
-    "Dinis: maestro.b@ tried create_session and create_trigger in its first hours. Your maestro guidance says only you, in its own session. If you told it to, say so here; abp@ cannot see it, keeps the ABP strict and logs it",
     "Dinis: how should the ABPs and hooks carry the inner passes (your 15:05 yes)? abp@ proposes a `passes` field in each run report, an 'Inner passes' section in every ABP, and a logged (not blocked) AppSec check on code commits; and sub-agents for outreach@, researcher@ and correspondent@, who cannot run the passes without them (board/abp/reports/2026-11-18-1510.md)",
     "Dinis: a circuit breaker for R8's two patterns (printing the environment; reading a private key or credentials file), or a push notification to you from the hook within minutes, so a repeat of S53 is not found hours late? abp@ recommends the breaker on those two patterns only (board/abp/reports/2026-11-18-1400.md)",
-    "Dinis/security@: the S53 guidance says conductor-promptugal 'stays marked superseded', but board/keys.json has it active; one is wrong",
-    "Dinis: conductor@ (account A) did 41 archive_session, 18 send_message, 9 unarchive_session, 6 create_session, 6 update_trigger and 1 create_trigger since 16 Nov 15:42 (R4, no grant). Were these your word (the account move)? If so, say so here; abp@ cannot verify",
-    "Dinis: conductor@ (account A) wrote stories and articles itself (three by 13:37: 1d2464c24, bed0d4c7f, af3933569, 548811168: data/stories/the-payment-desk-that-could-not-take-payment, its article): outside its grant, which never lets it write the others' content. Did you ask it to? If yes, say so here and abp@ grants it; if not, it routes them to journalist@; also assets/top/top.css and top.tmpl (69dc40999, 1ee279988). One standing line from you would settle it: 'conductor@ may write any path when I ask it in its own session, each commit citing my word'",
-    "Dinis: conductor.b@ asks (message, 23:52 UTC 16 Nov) that datasci.places@ release live data (local-now.mjs, data/by-place/now/**) straight to dev, not work/datasci.places. A session's message is not your word, so abp@ held it; dev@ is bringing the branch meanwhile. Say yes here or in guidance and abp@ grants it next wake",
-    "Dinis: translator@ pushed work/translator and conductor.b@ ran sub-agents; neither is in the v1.14.0 grant (work_branch for translator@, sub-agents for conductor.b@). Say yes and abp@ grants them; until then they are logged",
     "Dinis: translator@ and ontologist@ ask for openrouter.ai for translations; spec-translations.md says Claude sub-agents, no paid API unless you say so. Say yes (and a USD line for accountant@) or it stays out",
-    "Dinis: should Jose's conductor and local@ push work/<role> (reviewed) like our writers, or release.sh to dev like Vicky's agents?",
-    "Dinis: a standing grant for the conductor (the home page and the by-place frame), or \"at your word, each time\"? And confirm its 04:25 words: the Now data (IPMA, flights) and its article about the site (da4a556)",
-    "Dinis: did you give accountant@ data/billing/** and the costs pages (content/newsroom/costs/, a page per place) at about 01:00? Say yes here and abp@ writes it into its grant",
-    "Dinis: place.loule@'s three articles at your request say where three team members live; please confirm each agrees, or it comes out (personal, not professional)",
-    "Dinis: may the conductor send_message the sessions it started at your word, for routing (11 this hour)?",
-    "Dinis: may place agents write data/stories/<slug>/ for their own articles (place.faro@ did)? (board/abp/reports/2026-11-16-00.md)",
-    "Dinis: relaxations proposed at 23:30: data.places@ content/query/**, (detective.places@'s withdrawn) (board/abp/reports/2026-11-15-23b.md)",
-    "Dinis: ios.places@ works in PrompTugal__App__iOS, which this ABP and its hooks do not reach; should abp@ put its ABP and hooks in that repository too?",
-    "Dinis: may dev.places@ write data/by-place/places.json (the list: map coordinates, labels), never a place's own file? It already did three times (board/abp/reports/2026-11-15-22b.md)",
-    "Dinis: gamma-ray, investors, reporter.newsroom, social.watch and work-desk (board/team/, since 14 November) have no ABP; should they?",
-    "Dinis: board/team/conductor.b/ and board/team/journalist.newsroom/ look like dotted workers to the ABP generator; are they workers (work/<name> only) or roles of their own? Until you say, they have no ABP of their own",
-    "Dinis: when should the site-identity check fail the gate instead of warning (after the demo on 16 November?)",
-    "Dinis: conductor@'s by-place frame (87730aa) wrote 27 files in dev@'s, ontologist@'s and now the place agents' paths, at your word; may the conductor write such a frame again, or route it to dev?",
-    "Dinis: this session's worker kept restarting and missed thirteen wakes (7 Nov 18:37 to 8 Nov 18:37); if it continues, hand abp@ to a fresh session (the hand-over is ready)",
-    "Dinis: allow abp@ to edit .claude/** and board/abp/** in its session (refused as self-modification at 13:5x), or apply the pending grants yourself: backup@ Google Drive (your 'Go'), Vicky's agents publishing (12:00), dev.pages the index pages (13:20)",
-    "Dinis: who may change newsroom/build/ (CI runs it with write tokens)? investors@ added investors-site.mjs (558c7f81); dev@PrompTugal.vicky added how-we-publish.mjs (d187fc32)",
-    "Dinis: may every other operator's agents publish here, or Vicky's only? writer@PrompTugal.angelo published and signed an article (222e196e)",
-    "Dinis: open relaxations (board/abp/reports/2026-11-06-13.md): synthetic@, security@, customers@, the conductor, accountant@, librarian@",
-    "Dinis: a breaker for push to main, force-push, printing a key?",
-    "Dinis: may ontologist@ write board/briefs/** (its media-kind brief, 5e26412aa)? Proposed, not granted",
-    "Dinis: ontologist@ read query.wikidata.org and www.wikidata.org (neighbours check, 061a27785): not in its grant; may it, for reads of public data (nothing private sent)?",
-    "Dinis: the five site teams you started on account B (data.b@, weather.b@, civic.b@, startups.b@, travel.b@) and observability.b@ work in other repositories, outside this repository's ABP and hooks. May abp@ write their ABPs and put the hooks in each repository once they are reachable from this account (as the ios.places@ ask)?",
-    "Dinis: telemetry.b@ tried send_message to reach abp@ with its run lists. abp@ proposes the sealed inbox lanes (agent_inboxes.py) or board/runs/stats/ files instead, which need no new grant; or say if you want session messages for it",
-    "Dinis: three agents (telemetry.b@, designer@, rights@) tried send_message to reach another session. May abp@ add one line to every ABP naming the channel (sealed inbox lanes for agents, status.json asks for you)? It restates existing rules, no new grant (board/abp/reports/2026-11-19-0037.md) (Now seven agents try it: dev@, security@, designer@, rights@, telemetry.b@, maestro.b@, translator@.)",
-    "Dinis: maestro.b may not send_message (the only flag that grants it also grants create_session and triggers). Do you want it to message conductors' sessions? abp@ would add a narrower send_message-only grant; until then it uses the sealed inbox lanes"
+    "Dinis: your standing workflow (observe, watch, allow what is OK, escalate what is not) is now how I work; to make 'never' absolute, tell me which paths and actions you want closed to every agent whatever the review says (my list: .claude/**, board/abp/**, the hook and policies, newsroom/tools/release.sh and the signature check, version.txt, versions.json, board/HOLD.md, design/brand/, keys of other agents)."
   ],
   "wakes": [
     {

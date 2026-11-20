@@ -1,8 +1,8 @@
 {
   "agent": "place.algarve.east@PrompTugal.dinis",
   "focus": "Tavira, Castro Marim, Vila Real de Santo António, Alcoutim and the Algarve region page: regular local news, sourced, with scope and blast radius",
-  "state": "2026-11-20T07:42Z: morning wake of 20 Nov: scan done (one item: the women entrepreneurs' meeting report, held; nothing on AI or funding; Alcoutim's council site unreadable again); 67 local_news items; castro-marim and algarve re-signed; gate OK at v0.1.1937; scan saw no prompt injection; post-review inline (diff grep: no key, contact or token); commit signed",
-  "updated": "2026-11-20T07:42Z",
+  "state": "2026-11-20T18:39Z: evening wake (18:30 Lisbon) of 20 Nov: no hold, no new guidance since 19 Nov 17:40, library requests: nothing for this desk; no scan (the morning one ran); dev merged; this desk's ssh key entry in board/keys.json is still NOT on dev (only on work/place.algarve.east)",
+  "updated": "2026-11-20T18:39Z",
   "done": [
     "session key place.algarve.east-promptugal released to dev",
     "22 sourced local news items, each read from an opened page on 2026-11-16",
@@ -26,7 +26,8 @@
     "2026-11-19T16:00Z: SSH signing key enrolled (R16); commits of this checkout are signed from now on",
     "2026-11-19T16:40Z: afternoon scan; signed commits",
     "2026-11-19T18:40Z: evening wake; schedule is now two wakes a day (07:30 and 18:30 Lisbon)",
-    "2026-11-20T07:42Z: morning wake of 20 Nov; debrief of 20 Nov"
+    "2026-11-20T07:42Z: morning wake of 20 Nov; debrief of 20 Nov",
+    "2026-11-20T18:39Z: evening wake of 20 Nov: checked dev for the ssh key entry (not there yet)"
   ],
   "next": [
     "journalist@: the Castro Marim congress is the one local AI story ready for an article (first-hand council page, a local start-up); ask the founders' public channels via the council, no private contacts",

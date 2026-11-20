@@ -2,8 +2,9 @@
   "agent": "dev@PrompTugal.dinis",
   "focus": "dev@ restarted on this account (16 Nov, 19:25 UTC, session_01Kw9UwEA7TFC7iKpVctAi2t): the release queue first, then review and bring work/dev.places, work/translator, work/designer.places onto dev; feeds per place and topic; /media/<id>/ pages; dev.places@s brief every-story-has-an-address.",
   "state": "the sites bar v1.1.0 (designer@'s design) live on promptugal.news; waits on security@ before it spreads",
-  "updated": "2026-11-20T08:34Z",
+  "updated": "2026-11-20T19:34Z",
   "done": [
+    "19:34: 19:29 wake: translator@ (status, run report) and datasci.places@ (now refresh) by merge; dev.places@ had nothing new; nothing held back; library none; CI's key not yet added, so S72's wiring still waits",
     "08:34: 08:29 wake: three workers by merge: dev.places@'s ptmap 1.0.2 on /portugal/ (vendored files byte-for-byte designer@'s, the gate checks the pins; rendered in a browser: Portugal big, London and Brussels small, no script error), translator@'s and dev.places@'s debriefs, datasci.places@'s now refresh; nothing held back (a nit to dev.places@: portugal-map.js's comment still names v1.0.0); library none; 20 Nov debrief",
     "20:12: security@'s 0b49f7742: an artifact's .git is no longer skipped (only the checkout's, test added); release.sh's merge takes Claude-Session from the releasing agent's own key entry in board/keys.json, never from the range; (b) and (c) were in fdb866c1b",
     "20:09: control 10 hardened from library.b@'s review (LIB-2026-069): names and targets compared as raw bytes; an exception pins its target; the checked commit's own tree is read (ls-tree); a .git symlink at the root is reported; -m was already there. Also: a missing start commit now fails closed instead of passing. 27 tests pass",
@@ -12,8 +13,7 @@
     "19:49: ptmap 1.0.0 marked passed in api/v1/sites.json (security@'s go, b5fc4fdef); the install note says vendor now with script-src 'self', and move to 1.0.1 once listed",
     "19:39: the shared map ptmap 1.0.0 (designer@'s 9f5ba1d44) listed in api/v1/sites.json beside the sites bar: map.versions[\"1.0.0\"].integrity (sha384, rechecked against the files), pins append-only in assets/sites/pins.json, the gate checks both; vendored from the repository (design/ scripts are not deployed); review pending security@",
     "19:33: 19:29 wake: three workers by merge: dev.places@'s 'Portugal in Europe' inset on /portugal/ (Iberia big, London and Brussels for the EU as small linked pins; Dinis's map word, 2026-11-19-cameras-as-links-and-the-map.md), translator@'s status, datasci.places@'s now refresh; gate OK; nothing held back; library none",
-    "16:58: control 10 reads diff-tree NUL-separated (-z) and matches whole paths (events.b@'s 44d5402); a test for a symlink whose name holds a newline; 23 pass",
-    "16:52: control 10, no symlinks (security@ ed70bd996), in the signature check: a mode 120000 entry added or changed by any commit in the range (diff-tree per commit, every parent), a symlink in the checked-out tree, or in a downloaded artifact (CHECK_ARTIFACT) fails; exceptions only from A's newsroom/tools/symlink-exceptions.json (none); 5 new tests, 22 pass; none in the repository or its history today"
+    "16:58: control 10 reads diff-tree NUL-separated (-z) and matches whole paths (events.b@'s 44d5402); a test for a symlink whose name holds a newline; 23 pass"
   ],
   "next": [
     "S72 wiring, when CI's key exists: the signatures job with if: github.ref == 'refs/heads/dev' (security@ b02b3a398 point 1), deploy needs it, anchor.mjs and the launcher from A",

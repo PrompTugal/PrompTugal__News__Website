@@ -8,9 +8,9 @@
   "rule": "board/guidance/2026-11-11-only-websummit-sourced-comes-off.md",
   "counts": {
     "evidence": {
-      "total": 125,
+      "total": 127,
       "websummit_only": 31,
-      "other_source": 94,
+      "other_source": 96,
       "no_source": 0
     },
     "companies": {
@@ -62,9 +62,9 @@
       "no_source": 0
     },
     "organisations": {
-      "total": 494,
-      "websummit_only": 178,
-      "other_source": 316,
+      "total": 495,
+      "websummit_only": 177,
+      "other_source": 318,
       "no_source": 0
     },
     "places": {
@@ -8124,9 +8124,6 @@
     },
     {
       "organisation": "organisation:euronews"
-    },
-    {
-      "organisation": "organisation:european-parliament"
     },
     {
       "organisation": "organisation:eutopia"

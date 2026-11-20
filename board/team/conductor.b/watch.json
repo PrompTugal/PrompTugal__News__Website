@@ -1223,6 +1223,29 @@
         "ptmap on at 9 sites",
         "relays batched into wakes"
       ]
+    },
+    {
+      "at": "2026-11-20T20:54Z",
+      "live": "v0.1.1966",
+      "hold": false,
+      "sites": {
+        "data": "v0.1.132",
+        "startups": "v0.1.83",
+        "civic": "v0.1.91",
+        "weather": "v0.1.69",
+        "travel": "v0.1.74",
+        "events": "v0.1.71",
+        "signals": "v0.1.51",
+        "library": "v0.1.69",
+        "videos": "v0.1.39",
+        "live": "v0.1.77",
+        "cyber": "v0.1.74",
+        "bulletins": "v0.1.65"
+      },
+      "notes": [
+        "ledger +432 USD in 24 h",
+        "ptmap on at 10 sites"
+      ]
     }
   ]
 }
