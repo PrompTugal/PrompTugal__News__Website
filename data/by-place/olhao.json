@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "by": "place.olhao@PrompTugal.dinis",
   "mandate": "PrompTugal.news Olhão: AI and technology in Olhão, a fishing port and Ria Formosa town where the sea, aquaculture and biotech lead, and what reaches Olhão from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -559,7 +559,8 @@
     "26 Oct 2026 AI book: WebSearch found no Olhão AI book in Oct 2026; the AI and arbitration book is a Lisbon seminar, Oct 2025; rejected.",
     "cm-olhao.pt homepage opened: only a loading shell, no news list (JavaScript-rendered); /pt/noticias returned 404. No council news read.",
     "Opened cm-olhao.pt homepage: JavaScript shell only (Aguarde...), no items; /pt/noticias returned 404. Gap.",
-    "cm-olhao.pt homepage is JS-rendered, WebFetch got only navigation, no news list readable"
+    "cm-olhao.pt homepage is JS-rendered, WebFetch got only navigation, no news list readable",
+    "Opened cm-olhao.pt homepage: rendered only navigation, no news items (JS-loaded). Not pursued further. robots.txt allows all except /private/."
   ],
   "voice": {
     "lede": "Olhão, where the fish are smarter than the brochures and the algorithms are still learning to gut a sardine.",
