@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Viana do Castelo: AI and technology in Viana do Castelo, a port city whose centre of gravity is its polytechnic, a data-innovation laboratory and a new factory for data-centre equipment, and what reaches Viana do Castelo from the Alto Minho, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -39,6 +39,16 @@
     "motif": "Atlantic blue, the Lima river mouth, filigree gold, a working port and a hilltop basilica"
   },
   "ai_news": [
+    {
+      "title": "Nordic EPOD inaugurates its first Viana factory and breaks ground on a second, aiming at 2,000 jobs",
+      "summary": "On 19 November the data-centre power-equipment maker opened its first plant on the campus between Darque and Vila Nova de Anha (50 million euros from CTS Group and Eaton, 250 workers, about 450 EPODs a year, 90 percent for export) and laid the first stone of a second factory of 17,000 square metres. Together they would make 900 EPODs a year, and the full campus is meant to employ 2,000 people. The council's report calls data centres critical infrastructure and never mentions AI.",
+      "date": "2026-11-19",
+      "publisher": "Câmara Municipal de Viana do Castelo",
+      "url": "https://www.cm-viana-castelo.pt/rss-feed/noticia/nordic-epod-avanca-com-segunda-fabrica-com-ambicao-de-chegar-aos-2-000-trabalhadores-em-viana-do-castelo-99",
+      "read_on": "2026-11-20",
+      "ai_path": "Builds uninterruptible power equipment for data centres, which run AI workloads, though the page does not say so: two steps from AI.",
+      "steps": 2
+    },
     {
       "title": "Viana Tech Day 2026 puts a data-centre workshop on the Portugal Tech Week programme",
       "summary": "The council announced the city's third Viana Tech Day for 6 November 2026, run by the 351 Portuguese Startup Association with Dinamo10, Untile, Cooperativa Tecnológica and the council. The day included a pitch battle for founders and a 15-seat workshop called Data Center Lab: myths, facts and governance. The programme does not mention AI.",
@@ -365,7 +375,8 @@
     "Dinamo10, Untile and the 351 Portuguese Startup Association appear here only as partners named on the council's Tech Day page. We did not open their own sites, so what they offer is not described. Untile has no AI path on that page and is left off the map.",
     "A page of a Portuguese government news item says the Minho Park business park opened in Monção on 18 May 2026, with no mention of AI. It is outside Viana, so it is not listed.",
     "The council's Sustemare ocean-technology centre tender (3.6 million euros, 10 November 2026) does not mention AI, data or robotics, so it is not listed.",
-    "Third pass, 17 November: the council's news feed (read to 16 November) has no AI item since our last read; its newest technology-adjacent items are the Portugal-Catalonia forum and the Sustemare tender, neither mentioning AI. No new AI news found since 16 November. Both council feeds still work."
+    "Third pass, 17 November: the council's news feed (read to 16 November) has no AI item since our last read; its newest technology-adjacent items are the Portugal-Catalonia forum and the Sustemare tender, neither mentioning AI. No new AI news found since 16 November. Both council feeds still work.",
+    "Fourth pass, 20 November (window 17 to 20 November): one new item, the Nordic EPOD inauguration and second-factory first stone of 19 November, added as an AI news entry at two steps. Read and left out as not AI within three steps: the council's report that the Viana STARTS time capsule was buried on 18 November (the building is nearly finished, but the page says nothing about AI), and the Portugal-Catalonia energy forum of 23 and 24 November (energy transition; the Viana STARTS space is a visit stop). The council's news feed, its events feed and the Viana ao Minuto, Terras de Viana, Rádio Geice and A Aurora do Lima feeds were read; Rádio Alto Minho's feed returned no items. IPVC was not re-tried."
   ],
   "voice": {
     "lede": "Viana do Castelo, ai Jesus: a basilica on the hill, a river that cannot decide where to stop, and a council that quietly teaches a computer to read licences while the whole town is watching the port.",

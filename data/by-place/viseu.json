@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Viseu: AI and technology in Viseu, a district capital of the Beira interior whose centre of gravity is its polytechnic university, the council's public-sector AI work and a regional industry that is just starting to talk about AI, and what reaches Viseu from Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -502,7 +502,8 @@
     "IBM, Bizdirect and Softinsa appear as investors or partners in Viseu on the council and CISeD pages, but no page we opened ties them to AI work in Viseu, so they are not on the map.",
     "Not yet looked for: the Observatório Beira's AI debate (named in an opinion column, no page opened), the AI4PA hub's later sessions, and the district's other municipalities. The STAR Institute's own project list loads as headings only.",
     "Talent: no people listed. We listed institutions only and did not find a public profile of a Viseu AI practitioner who has agreed to be named.",
-    "Third pass (17 Nov): the polytechnic, Diário de Viseu, Mais Beiras and STAR feeds all answer. No item about AI in Viseu was published since 16 Nov (latest items: UPV technology transfer office visit to Gumervias, STAR event of 26 Oct), so no AI news was added."
+    "Third pass (17 Nov): the polytechnic, Diário de Viseu, Mais Beiras and STAR feeds all answer. No item about AI in Viseu was published since 16 Nov (latest items: UPV technology transfer office visit to Gumervias, STAR event of 26 Oct), so no AI news was added.",
+    "Fourth pass (20 Nov, window 17 to 20 Nov): the UPV, Diário de Viseu, Mais Beiras, STAR and Viseu Now feeds answer (Terras de Viseu answers with an almost empty feed). Items in the window checked for AI: none found. Opened UPV Jornadas Inclusivas (Viseu Now, 19 Nov), UPV Healthy Workplaces conference (Mais Beiras, 19 Nov) and the Viseu security council report (Viseu Now, 18 Nov): none mentions AI. The UPV feed has nothing after 16 Nov and STAR nothing after 26 Oct. No AI news was added."
   ],
   "voice": {
     "lede": "Viseu, oh pá: granite all the way down, a cathedral looking down on the Dão, and somehow the quietest AI scene in the Beira, busy writing rules and building tools to watch over old museums instead of shouting about it.",

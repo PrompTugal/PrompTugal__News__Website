@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Bragança: AI and technology in Bragança, a northeastern district capital whose centre of gravity is its polytechnic and its science park, Brigantia EcoPark, and what reaches Bragança from Portugal, Europe and the world. Independent; every fact sourced.",
   "gravity": {
@@ -39,6 +39,26 @@
     "motif": "Granite walls, chestnut woods and chestnut brown, a mountain city at the far northeast of Portugal"
   },
   "ai_news": [
+    {
+      "title": "Over 420 Trás-os-Montes firms got digital-transformation support, with Bragança's trade association as a host",
+      "summary": "The PRR-funded Acelerar o Norte project, launched in March 2024, supported more than 420 businesses in the Terras de Trás-os-Montes with digital-maturity tools, transition plans and vouchers of up to 2,000 euros. Bragança's commercial association (ACISB) and Mirandela's (ACIM) each hosted a digital-commerce accelerator. The report never mentions AI.",
+      "date": "2026-11-19",
+      "publisher": "Canal N",
+      "url": "https://www.canaln.tv/mais-de-420-empresas-de-tras-os-montes-receberam-apoio-para-a-transformacao-digital/",
+      "read_on": "2026-11-20",
+      "ai_path": "A public programme digitalising small businesses in Bragança and its sub-region, the groundwork any AI tool needs; the page never says AI: two steps from AI.",
+      "steps": 2
+    },
+    {
+      "title": "Mogadouro launches a patient-transport booking platform built with the polytechnic",
+      "summary": "SATURNU, a booking service for non-urgent patient transport, comes from a partnership between the Mogadouro council and the Universidade Politécnica de Bragança and was built by a master's student as an internship project. It replaces paper and phone booking. The page does not say AI. Mogadouro is a neighbouring council in the Bragança district, not the city.",
+      "date": "2026-11-18",
+      "publisher": "Jornal Nordeste",
+      "url": "https://jornalnordeste.com/noticias/mogadouro-aposta-em-plataforma-digital-para-agilizar-transporte-de-doentes-nao-urgentes",
+      "read_on": "2026-11-20",
+      "ai_path": "A software project from the Bragança polytechnic's students for a council, with no AI in the text: three steps from AI, through the polytechnic's engineering teaching.",
+      "steps": 3
+    },
     {
       "title": "Bragança's economy week hears that AI will change skills, not just headcount",
       "summary": "At the opening of Bragança's economy and innovation week, an executive of the IT services firm Inetum, which has a service centre in the city, said AI will change which skills employers need and that its main risk is people stopping to think critically. The mayor reported export growth and the science park's director linked skilled jobs to business innovation.",
@@ -455,7 +475,8 @@
     "Not read: the CeDRI PRR sheet beyond what we could extract, the SmartProduce agriculture project of MORE CoLAB (its page does not say whether it uses AI), and the IBM Seminars events other than numbers 37 and 45. We found no 2026 edition of the AI and courts meeting.",
     "Events: the only AI events found after 17 November 2026 are the two ESTiG Open Lectures on 3 and 17 December. Added on 17 November: the 19 November Silver Economy pre-event at Brigantia EcoPark, which names digital inclusion but not AI. The council agenda shows only an olive week and a digital cinema month.",
     "Local talent: no public body page we read lists a person to show for AI, so none are listed. The investor office page names its division head, who we do not name here.",
-    "Third pass, 17 November 2026: no AI news dated after 16 November found in the two press feeds. A Jornal Nordeste item of 11 November on a digital transport platform for Mogadouro, presented by the polytechnic (UPB) and the Mogadouro council, was seen only in the feed and not opened or used; the page we read does not say AI. The council's Contactos page loads and publishes a general channel, so the contact entry stands. The council's pages and the other gaps above (startups, investors, Brigantia counts, polytechnic name) could not be closed from sources opened today."
+    "Third pass, 17 November 2026: no AI news dated after 16 November found in the two press feeds. A Jornal Nordeste item of 11 November on a digital transport platform for Mogadouro, presented by the polytechnic (UPB) and the Mogadouro council, was seen only in the feed and not opened or used; the page we read does not say AI. The council's Contactos page loads and publishes a general channel, so the contact entry stands. The council's pages and the other gaps above (startups, investors, Brigantia counts, polytechnic name) could not be closed from sources opened today.",
+    "Fourth pass, 20 November 2026 (window 17 to 20 November): the Jornal Nordeste and Canal N feeds worked (read 20 November; they held items to 19 November) and none of their items in the window is about AI directly. Two weak entries were added (digital transformation support and the SATURNU platform, neither mentioning AI). The Jornal Nordeste article of 18 November on SATURNU (the Mogadouro platform the third pass saw only in the feed, dated 11 November there) is now opened. No new event found in the window; the council agenda and polytechnic pages were not re-read."
   ],
   "voice": {
     "lede": "Bragança, ó pá: where the keep stands guard over the chestnuts, the winters bite and the polytechnic quietly teaches the whole north to talk to machines, while the science park keeps a supercomputer on speed dial.",
