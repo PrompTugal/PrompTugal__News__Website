@@ -1200,6 +1200,29 @@
         "ptmap 1.0.2 passed; on at weather, startups, events",
         "17 agents enrolled for signing"
       ]
+    },
+    {
+      "at": "2026-11-20T09:52Z",
+      "live": "v0.1.1946",
+      "hold": false,
+      "sites": {
+        "data": "v0.1.130",
+        "startups": "v0.1.80",
+        "civic": "v0.1.90",
+        "weather": "v0.1.67",
+        "travel": "v0.1.74",
+        "events": "v0.1.70",
+        "signals": "v0.1.50",
+        "library": "v0.1.68",
+        "videos": "v0.1.38",
+        "live": "v0.1.72",
+        "cyber": "v0.1.72",
+        "bulletins": "v0.1.60"
+      },
+      "notes": [
+        "ptmap on at 9 sites",
+        "relays batched into wakes"
+      ]
     }
   ]
 }
