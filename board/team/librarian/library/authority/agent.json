@@ -188,7 +188,7 @@
     "from": [
      "board/keys.json"
     ],
-    "on": "2026-11-19"
+    "on": "2026-11-20"
    },
    "forms": [
     "bulletins.b-promptugal",
@@ -4743,7 +4743,7 @@
     "from": [
      "board/keys.json"
     ],
-    "on": "2026-11-19"
+    "on": "2026-11-20"
    },
    "forms": [
     "rights-promptugal",
@@ -5216,7 +5216,7 @@
     "from": [
      "board/keys.json"
     ],
-    "on": "2026-11-19"
+    "on": "2026-11-20"
    },
    "forms": [
     "videos.b-promptugal",

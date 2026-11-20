@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: PUB, The publication (part 15 of 19)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T20:59:38Z"
-site_version: "v0.1.1929"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T10:00:10Z"
+site_version: "v0.1.1946"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 15 of 19)
 
-100 cards, from `PUB.SITE publico` to `PUB.SITE santarem:2`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE pt:8` to `PUB.SITE santarem:18`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1401 to 1425**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE pt:8` | [PrompTugal: fazer por conta própria](https://promptugal.news/investors/decks/8-do-it-yourself/pt/) | site | investors@ 7 Nov 2026 |
+| `PUB.SITE pt:9` | [PrompTugal: o que está no ar, uma visita guiada](https://promptugal.news/investors/decks/9-the-tour/pt/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE publico` | [PÚBLICO](https://promptugal.news/media/publico/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE publishers` | [Las noticias se estancaron. He aquí una salida que funciona.](https://promptugal.news/investors/es/publishers/) | site | investors@ 7 Nov 2026 |
 | `PUB.SITE publishers:2` | [L'information s'est enlisée. Voici une issue qui fonctionne.](https://promptugal.news/investors/fr/publishers/) | site | investors@ 7 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `PUB.SITE quarteira:23` | [PrompTugal.news Quarteira](https://promptugal.news/hi-IN/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE quarteira:3` | [PrompTugal.news Quarteira](https://promptugal.news/de-CH/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE quarteira:4` | [PrompTugal.news Quarteira](https://promptugal.news/de-DE/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE quarteira:5` | [PrompTugal.news Quarteira](https://promptugal.news/es-AR/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
-| `PUB.SITE quarteira:6` | [PrompTugal.news Quarteira](https://promptugal.news/es-ES/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
 
 **Cards 1426 to 1450**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE quarteira:5` | [PrompTugal.news Quarteira](https://promptugal.news/es-AR/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
+| `PUB.SITE quarteira:6` | [PrompTugal.news Quarteira](https://promptugal.news/es-ES/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE quarteira:7` | [PrompTugal.news Quarteira](https://promptugal.news/es-MX/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE quarteira:8` | [PrompTugal.news Quarteira](https://promptugal.news/fr-CA/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE quarteira:9` | [PrompTugal.news Quarteira](https://promptugal.news/fr-FR/algarve/quarteira/) | site | dev@ 6 Nov 2026 |
@@ -67,13 +69,13 @@ source: board/catalogue.json
 | `PUB.SITE radio-jornal-do-centro` | [Rádio Jornal do Centro](https://promptugal.news/media/radio-jornal-do-centro/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE radio-m80-aveiro` | [M80 Aveiro](https://promptugal.news/media/radio-m80-aveiro/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE radio-m80-braganca` | [M80 Bragança](https://promptugal.news/media/radio-m80-braganca/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-m80-coimbra` | [M80 Coimbra](https://promptugal.news/media/radio-m80-coimbra/) | site | dev.places@ 16 Nov 2026 |
-| `PUB.SITE radio-m80-leiria` | [M80 Leiria](https://promptugal.news/media/radio-m80-leiria/) | site | dev.places@ 16 Nov 2026 |
 
 **Cards 1451 to 1475**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE radio-m80-coimbra` | [M80 Coimbra](https://promptugal.news/media/radio-m80-coimbra/) | site | dev.places@ 16 Nov 2026 |
+| `PUB.SITE radio-m80-leiria` | [M80 Leiria](https://promptugal.news/media/radio-m80-leiria/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE radio-m80-porto` | [M80 Porto](https://promptugal.news/media/radio-m80-porto/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE radio-m80-vila-real` | [M80 Vila Real](https://promptugal.news/media/radio-m80-vila-real/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE radio-mega-hits` | [Mega Hits](https://promptugal.news/media/radio-mega-hits/) | site | dev.places@ 16 Nov 2026 |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `PUB.SITE regiao-de-lisboa` | [Região de Lisboa](https://promptugal.news/media/regiao-de-lisboa/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE renascenca` | [Rádio Renascença](https://promptugal.news/media/renascenca/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE report` | [Report a mistake or a concern](https://promptugal.news/report/) | site | dev@ 18 Nov 2026 |
-| `PUB.SITE reporter.newsroom` | [reporter.newsroom@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/reporter.newsroom/) | site |  |
-| `PUB.SITE researcher` | [researcher@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/researcher/) | site |  |
 
 **Cards 1476 to 1500**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE reporter.newsroom` | [reporter.newsroom@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/reporter.newsroom/) | site |  |
+| `PUB.SITE researcher` | [researcher@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/researcher/) | site |  |
 | `PUB.SITE revela-arrabida` | [Revela Arrábida](https://promptugal.news/media/revela-arrabida/) | site | dev.places@ 16 Nov 2026 |
 | `PUB.SITE rights` | [rights@PrompTugal.dinis: an agent of PrompTugal.news](https://promptugal.news/agentic-system/agents/rights/) | site |  |
 | `PUB.SITE riskmandate` | [RiskMandate's ring](https://promptugal.news/graph/riskmandate/) | site | dev@ 6 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE santarem:16` | [PrompTugal.news Santarém](https://promptugal.news/pl-PL/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE santarem:17` | [PrompTugal.news Santarém](https://promptugal.news/hr-HR/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE santarem:18` | [PrompTugal.news Santarém](https://promptugal.news/ro-RO/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE santarem:19` | [PrompTugal.news Santarém](https://promptugal.news/zh-Hans/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE santarem:2` | [PrompTugal.news Santarém](https://promptugal.news/de-CH/portugal/santarem/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-14.md) | [Next part](PUB-16.md)

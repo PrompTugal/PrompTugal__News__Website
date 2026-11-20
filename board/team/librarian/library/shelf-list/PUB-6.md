@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: PUB, The publication (part 6 of 19)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T20:59:38Z"
-site_version: "v0.1.1929"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T10:00:10Z"
+site_version: "v0.1.1946"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 6 of 19)
 
-100 cards, from `PUB.SITE api:37` to `PUB.SITE braganca:16`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.SITE api:35` to `PUB.SITE braganca:14`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 501 to 525**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE api:35` | [Viana do Castelo: the data API](https://promptugal.news/portugal/viana-do-castelo/api/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE api:36` | [Vila Real: the data API](https://promptugal.news/portugal/vila-real/api/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE api:37` | [Viseu: the data API](https://promptugal.news/portugal/viseu/api/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE api:4` | [Aljezur: the data API](https://promptugal.news/algarve/aljezur/api/) | site | dev@ 6 Nov 2026 |
 | `PUB.SITE api:5` | [The Algarve: the data API](https://promptugal.news/algarve/api/) | site | dev@ 6 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `PUB.SITE aveiro:14` | [Aveiro: the data](https://promptugal.news/query/aveiro/) | site |  |
 | `PUB.SITE aveiro:15` | [Aveiro: AI in context](https://promptugal.news/query/decks/aveiro/) | site |  |
 | `PUB.SITE aveiro:16` | [PrompTugal.news Aveiro](https://promptugal.news/pl-PL/portugal/aveiro/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE aveiro:17` | [PrompTugal.news Aveiro](https://promptugal.news/hr-HR/portugal/aveiro/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE aveiro:18` | [PrompTugal.news Aveiro](https://promptugal.news/ro-RO/portugal/aveiro/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
 **Cards 526 to 550**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE aveiro:17` | [PrompTugal.news Aveiro](https://promptugal.news/hr-HR/portugal/aveiro/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE aveiro:18` | [PrompTugal.news Aveiro](https://promptugal.news/ro-RO/portugal/aveiro/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE aveiro:19` | [PrompTugal.news Aveiro](https://promptugal.news/zh-Hans/portugal/aveiro/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE aveiro:2` | [PrompTugal.news Aveiro](https://promptugal.news/de-CH/portugal/aveiro/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE aveiro:20` | [PrompTugal.news Aveiro](https://promptugal.news/ja-JP/portugal/aveiro/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -67,13 +69,13 @@ source: board/catalogue.json
 | `PUB.SITE beja:11` | [PrompTugal.news Beja](https://promptugal.news/portugal/beja/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE beja:12` | [PrompTugal.news Beja](https://promptugal.news/pt-BR/portugal/beja/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE beja:13` | [PrompTugal.news Beja](https://promptugal.news/pt-PT/portugal/beja/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE beja:14` | [Beja: the data](https://promptugal.news/query/beja/) | site |  |
-| `PUB.SITE beja:15` | [Beja: AI in context](https://promptugal.news/query/decks/beja/) | site |  |
 
 **Cards 551 to 575**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE beja:14` | [Beja: the data](https://promptugal.news/query/beja/) | site |  |
+| `PUB.SITE beja:15` | [Beja: AI in context](https://promptugal.news/query/decks/beja/) | site |  |
 | `PUB.SITE beja:16` | [PrompTugal.news Beja](https://promptugal.news/pl-PL/portugal/beja/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE beja:17` | [PrompTugal.news Beja](https://promptugal.news/hr-HR/portugal/beja/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE beja:18` | [PrompTugal.news Beja](https://promptugal.news/ro-RO/portugal/beja/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `PUB.SITE braga:10` | [PrompTugal.news Braga](https://promptugal.news/nl-NL/portugal/braga/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE braga:11` | [PrompTugal.news Braga](https://promptugal.news/portugal/braga/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE braga:12` | [PrompTugal.news Braga](https://promptugal.news/pt-BR/portugal/braga/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE braga:13` | [PrompTugal.news Braga](https://promptugal.news/pt-PT/portugal/braga/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
-| `PUB.SITE braga:14` | [Braga: the data](https://promptugal.news/query/braga/) | site |  |
 
 **Cards 576 to 600**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.SITE braga:13` | [PrompTugal.news Braga](https://promptugal.news/pt-PT/portugal/braga/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
+| `PUB.SITE braga:14` | [Braga: the data](https://promptugal.news/query/braga/) | site |  |
 | `PUB.SITE braga:15` | [Braga: AI in context](https://promptugal.news/query/decks/braga/) | site |  |
 | `PUB.SITE braga:16` | [PrompTugal.news Braga](https://promptugal.news/pl-PL/portugal/braga/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE braga:17` | [PrompTugal.news Braga](https://promptugal.news/hr-HR/portugal/braga/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `PUB.SITE braganca:12` | [PrompTugal.news Bragança](https://promptugal.news/pt-BR/portugal/braganca/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE braganca:13` | [PrompTugal.news Bragança](https://promptugal.news/pt-PT/portugal/braganca/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 | `PUB.SITE braganca:14` | [Bragança: the data](https://promptugal.news/query/braganca/) | site |  |
-| `PUB.SITE braganca:15` | [Bragança: AI in context](https://promptugal.news/query/decks/braganca/) | site |  |
-| `PUB.SITE braganca:16` | [PrompTugal.news Bragança](https://promptugal.news/pl-PL/portugal/braganca/) | site | newsroom-designer@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-5.md) | [Next part](PUB-7.md)

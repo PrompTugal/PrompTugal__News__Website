@@ -27,28 +27,28 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-3737 cards (1448 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-19T20:59:38Z at site v0.1.1929; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+3769 cards (1480 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-20T10:00:10Z at site v0.1.1946; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `RDR.SHERPA` | 31 |
 | `RDR.SYN` | 5 |
-| `TEAM.ABP` | 211 |
+| `TEAM.ABP` | 212 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
 | `TEAM.INBOX` | 162 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 2084 |
+| `TEAM.ROLE` | 2115 |
 | `TEAM.RUN` | 1212 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261119-0178` [Evening pass, 19 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-19/evening-items.md) (`TEAM.ROLE evening-items:2`)
-- `ACC-20261119-0177` [ontologist@ to startups.b@ (via conductor.b@), 19 November 2026](https://promptugal.news/board/team/ontologist/replies/2026-11-19-to-startups-b.md) (`TEAM.ROLE 2026-11-19-to-startups-b`)
-- `ACC-20261119-0176` [abp@PrompTugal.dinis, hand-over debrief, 2026-11-19 20:38 UTC (second of the day)](https://promptugal.news/board/team/abp/debriefs/2026-11-19-handover-2.md) (`TEAM.ROLE 2026-11-19-handover-2`)
-- `ACC-20261119-0175` [security@PrompTugal.dinis: hand-over debrief, 19 November 2026 (written 16:36 UTC)](https://promptugal.news/board/team/security/debriefs/2026-11-19-handover.md) (`TEAM.ROLE 2026-11-19-handover:17`)
-- `ACC-20261119-0174` [dev.places@PrompTugal.dinis: hand-over debrief, 19 November 2026](https://promptugal.news/board/team/dev.places/debriefs/2026-11-19-handover.md) (`TEAM.ROLE 2026-11-19-handover:16`)
+- `ACC-20261120-0035` [visitlisboa.md](https://promptugal.news/board/team/outreach/sources-requests/official/visitlisboa.md) (`TEAM.ROLE visitlisboa`)
+- `ACC-20261120-0034` [visitalgarve.md](https://promptugal.news/board/team/outreach/sources-requests/official/visitalgarve.md) (`TEAM.ROLE visitalgarve`)
+- `ACC-20261120-0033` [ualg.md](https://promptugal.news/board/team/outreach/sources-requests/official/ualg.md) (`TEAM.ROLE ualg`)
+- `ACC-20261120-0032` [turismo-portugal.md](https://promptugal.news/board/team/outreach/sources-requests/official/turismo-portugal.md) (`TEAM.ROLE turismo-portugal`)
+- `ACC-20261120-0031` [Morning pass, 20 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-20/morning-items.md) (`TEAM.ROLE morning-items`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

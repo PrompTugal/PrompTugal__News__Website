@@ -1,19 +1,21 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 10 of 38)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T20:59:38Z"
-site_version: "v0.1.1929"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T10:00:10Z"
+site_version: "v0.1.1946"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 10 of 38)
 
-100 cards, from `TEAM.ROLE 12:8` to `TEAM.ROLE 15:25`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ROLE 12:6` to `TEAM.ROLE 15:23`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 901 to 925**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 12:6` | [12.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/5-the-investment/12.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE 12:7` | [12.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/6-the-technology/12.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 12:8` | [12.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/7-join-us/12.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 12:9` | [12.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/8-do-it-yourself/12.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 13` | [13.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/0-the-map/13.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
@@ -37,13 +39,13 @@ source: board/catalogue.json
 | `TEAM.ROLE 13:26` | [13.jpg](https://promptugal.news/board/team/investors/site/img/slides/fr/5-the-investment/13.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 13:27` | [13.jpg](https://promptugal.news/board/team/investors/site/img/slides/fr/6-the-technology/13.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 13:28` | [13.jpg](https://promptugal.news/board/team/investors/site/img/slides/fr/7-join-us/13.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 13:29` | [13.jpg](https://promptugal.news/board/team/investors/site/img/slides/fr/8-do-it-yourself/13.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 13:3` | [13.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/2-the-industry/13.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 
 **Cards 926 to 950**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 13:29` | [13.jpg](https://promptugal.news/board/team/investors/site/img/slides/fr/8-do-it-yourself/13.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE 13:3` | [13.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/2-the-industry/13.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 13:30` | [13.jpg](https://promptugal.news/board/team/investors/site/img/slides/fr/9-the-tour/13.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 13:31` | [13.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/0-the-map/13.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 13:32` | [13.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/1-the-investment-case/13.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
@@ -67,13 +69,13 @@ source: board/catalogue.json
 | `TEAM.ROLE 14:12` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/1-the-investment-case/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 14:13` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/2-the-industry/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 14:14` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/3-the-platform/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 14:15` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/4-the-algarve/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 14:16` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/5-the-investment/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 
 **Cards 951 to 975**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 14:15` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/4-the-algarve/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE 14:16` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/5-the-investment/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 14:17` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/6-the-technology/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 14:18` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/7-join-us/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 14:19` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/es/8-do-it-yourself/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
@@ -97,13 +99,13 @@ source: board/catalogue.json
 | `TEAM.ROLE 14:35` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/4-the-algarve/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 14:36` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/5-the-investment/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 14:37` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/6-the-technology/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 14:38` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/7-join-us/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 14:39` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/8-do-it-yourself/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 
 **Cards 976 to 1000**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 14:38` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/7-join-us/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
+| `TEAM.ROLE 14:39` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/8-do-it-yourself/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 14:4` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/3-the-platform/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 14:40` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/9-the-tour/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 14:5` | [14.jpg](https://promptugal.news/board/team/investors/site/img/slides/en/4-the-algarve/14.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
@@ -127,7 +129,5 @@ source: board/catalogue.json
 | `TEAM.ROLE 15:21` | [15.jpg](https://promptugal.news/board/team/investors/site/img/slides/fr/5-the-investment/15.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 15:22` | [15.jpg](https://promptugal.news/board/team/investors/site/img/slides/fr/6-the-technology/15.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 | `TEAM.ROLE 15:23` | [15.jpg](https://promptugal.news/board/team/investors/site/img/slides/fr/8-do-it-yourself/15.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 15:24` | [15.jpg](https://promptugal.news/board/team/investors/site/img/slides/fr/9-the-tour/15.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
-| `TEAM.ROLE 15:25` | [15.jpg](https://promptugal.news/board/team/investors/site/img/slides/pt/1-the-investment-case/15.jpg) (withdrawn) | team | investors@ 7 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-9.md) | [Next part](TEAM-11.md)

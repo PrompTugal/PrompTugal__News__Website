@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: PUB, The publication (part 2 of 19)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-19T20:59:38Z"
-site_version: "v0.1.1929"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T10:00:10Z"
+site_version: "v0.1.1946"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 2 of 19)
 
-100 cards, from `PUB.LIST companies` to `PUB.NEWS S9`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.FRONT home` to `PUB.NEWS S76`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 101 to 125**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.FRONT home` | [PrompTugal.news, Portugal town by town](https://promptugal.news/) | site | newsroom@web-summit.dinis 4 Nov 2026 |
 | `PUB.LIST companies` | [Companies at the summit](https://promptugal.news/companies/) | list | newsroom@web-summit.dinis 5 Nov 2026 |
 | `PUB.LIST events` | [Events](https://promptugal.news/events/) | list | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `PUB.LIST organisations` | [Organisations](https://promptugal.news/organisations/) | list | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `PUB.NEWS BR6` | [BR6: Portugal as Brazil's door to Europe: an office, an incubator, a soft landing in Aveiro](https://promptugal.news/newsroom/stories/BR6/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS BR7` | [BR7: 236 Brazilian startups on Web Summit's own list, and 32 of them in AI](https://promptugal.news/newsroom/stories/BR7/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS IG1` | [IG1: Web Summit Lisbon 2026: your questions, answered](https://promptugal.news/newsroom/stories/IG1/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS JW1` | [JW1: One door: running a dozen AI agents without being the middleman](https://promptugal.news/newsroom/stories/JW1/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 
 **Cards 126 to 150**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.NEWS JW1` | [JW1: One door: running a dozen AI agents without being the middleman](https://promptugal.news/newsroom/stories/JW1/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S1` | [S1: Web Summit Lisbon: your first day, from airport to arena](https://promptugal.news/newsroom/stories/S1/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S10` | [S10: Lisbon's universities at Web Summit: two stands and a pitch day](https://promptugal.news/newsroom/stories/S10/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S11` | [S11: Italy and Portugal meet in Beato on how European tech scales](https://promptugal.news/newsroom/stories/S11/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `PUB.NEWS S29` | [S29: Who builds the parts of an AI agent? Startups at Web Summit](https://promptugal.news/newsroom/stories/S29/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S3` | [S3: Road 2 Web Summit: Portugal's startups head for Lisbon](https://promptugal.news/newsroom/stories/S3/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S30` | [S30: Eleven health startups at Web Summit, by the problem they tackle](https://promptugal.news/newsroom/stories/S30/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS S31` | [S31: Beyond Lisbon: where Road 2 Web Summit's 78 startups come from](https://promptugal.news/newsroom/stories/S31/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 
 **Cards 151 to 175**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.NEWS S31` | [S31: Beyond Lisbon: where Road 2 Web Summit's 78 startups come from](https://promptugal.news/newsroom/stories/S31/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S32` | [S32: Rehab beyond the clinic: three Portuguese startups at Web Summit](https://promptugal.news/newsroom/stories/S32/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S33` | [S33: Sports tech at Web Summit: IBM's startup challenge ends in Lisbon](https://promptugal.news/newsroom/stories/S33/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S34` | [S34: Where to find Portugal at Web Summit: Pavilion 1, stand E145](https://promptugal.news/newsroom/stories/S34/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `PUB.NEWS S51` | [S51: Getting around Lisbon on Wednesday: what Carris and Fertagus have said, and what the government has closed](https://promptugal.news/newsroom/stories/S51/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S52` | [S52: Konecta chooses Lisbon for a global delivery centre, with 700 new jobs by the end of 2027](https://promptugal.news/newsroom/stories/S52/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S53` | [S53: The EU asks for views on updating its election rules for the age of generative AI](https://promptugal.news/newsroom/stories/S53/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS S54` | [S54: Four startups pitch on Thursday's Centre Stage: what each says it does](https://promptugal.news/newsroom/stories/S54/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 
 **Cards 176 to 200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.NEWS S54` | [S54: Four startups pitch on Thursday's Centre Stage: what each says it does](https://promptugal.news/newsroom/stories/S54/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S55` | [S55: The EU says TikTok's For You feed may breach its platform law: what it found, and what happens next](https://promptugal.news/newsroom/stories/S55/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S56` | [S56: The EU proposes a Digital Fairness Act: what it would change for online shoppers, including those using AI agents](https://promptugal.news/newsroom/stories/S56/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S57` | [S57: Wednesday's side events: which have been postponed, moved or taken online](https://promptugal.news/newsroom/stories/S57/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
@@ -127,7 +128,6 @@ source: board/catalogue.json
 | `PUB.NEWS S73` | [S73: Superhuman to buy Rows, the AI spreadsheet company from Porto](https://promptugal.news/newsroom/stories/S73/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S74` | [S74: Update: a Portuguese report says the Rows team in the North stays](https://promptugal.news/newsroom/stories/S74/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 | `PUB.NEWS S75` | [S75: What the health service pays for remote physiotherapy at home](https://promptugal.news/newsroom/stories/S75/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS S8` | [S8: Técnico brings robots and six spin-offs to Web Summit](https://promptugal.news/newsroom/stories/S8/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
-| `PUB.NEWS S9` | [S9: About 200 Brazilian companies come to Lisbon for Web Summit](https://promptugal.news/newsroom/stories/S9/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
+| `PUB.NEWS S76` | [S76: Update: patients can pick their provider for remote physiotherapy](https://promptugal.news/newsroom/stories/S76/) | newsroom | newsroom-admin@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](PUB-1.md) | [Next part](PUB-3.md)
