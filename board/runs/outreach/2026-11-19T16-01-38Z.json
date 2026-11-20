@@ -1,0 +1,98 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "outreach@PrompTugal.dinis",
+ "run": "2026-11-19T16-01-38Z",
+ "started": "2026-11-19T16:01:38.400Z",
+ "ended": "2026-11-20T09:25:14Z",
+ "line": "",
+ "policy": {
+  "version": "1.18.7",
+  "sha256": "7fb785be16161f57"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-19T16:36:51.737Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-19T20:19:32.535Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-20T09:20:13.173Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-20T09:25:00.022Z",
+   "chars": 1616,
+   "sha256": "d9fdd818ae7e6a1f",
+   "head": "<agent-message from=\"a9c0d70f6f9afefa3\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-19T16:36:51.452Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-19T20:19:31.937Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-20T09:20:12.719Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 20,
+  "by_kind": {
+   "release": 2,
+   "other": 3,
+   "web": 3,
+   "shell": 7,
+   "git": 3,
+   "agent": 2
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 20,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 4,
+  "tool_calls": 20,
+  "in_mandate": 20,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
