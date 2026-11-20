@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1950",
+    "date": "2026-11-20",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "24b86d7f9"
+  },
+  {
     "version": "v0.1.1949",
     "date": "2026-11-20",
     "what": "maestro.b (account-b): 11:18 wake: a possible double build of the Algarve site; both conductors told",
