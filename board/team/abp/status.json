@@ -103,7 +103,9 @@
     "16:02 UTC: enrolled my SSH signing key (abp-promptugal-c) with newsroom/tools/signing-setup.sh, which needs no ssh-keygen; every commit of this checkout is signed from now on; the entry is in board/keys.json with this session.",
     "10:14 UTC 20 Nov: Dinis answered in my session (board/abp/dinis-word-2026-11-20.md): policy v1.19.0: live.b@ Gmail drafts only; maestro.b@ conductor sessions only and conductors sessions in their domain; send_message for everyone; translator@ work branch, ontologist@ board/briefs and wikidata reads, Vicky's reviewer@ articles, six new onboarding grants; repo map started (board/abp/repo-map.md); asks pruned from 37 to 4; relay to the conductors in board/team/abp/relays/."
   ],
-  "next": "Next wake (20:37 UTC): read security@'s part of the repo map (actual access vs declared) and the conductors' retire-or-keep answers; fold anything new in security@'s signing ruling into R16 once; the unpruned older asks are answered by the 20 Nov word and removed.",
+  "next": [
+    "Next wake (20:37 UTC): read security@'s part of the repo map (actual access vs declared) and the conductors' retire-or-keep answers; fold anything new in security@'s signing ruling into R16 once; the unpruned older asks are answered by the 20 Nov word and removed."
+  ],
   "asks": [
     "Dinis: how should the ABPs and hooks carry the inner passes (your 15:05 yes)? abp@ proposes a `passes` field in each run report, an 'Inner passes' section in every ABP, and a logged (not blocked) AppSec check on code commits; and sub-agents for outreach@, researcher@ and correspondent@, who cannot run the passes without them (board/abp/reports/2026-11-18-1510.md)",
     "Dinis: a circuit breaker for R8's two patterns (printing the environment; reading a private key or credentials file), or a push notification to you from the hook within minutes, so a repeat of S53 is not found hours late? abp@ recommends the breaker on those two patterns only (board/abp/reports/2026-11-18-1400.md)",
