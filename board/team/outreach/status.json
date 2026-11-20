@@ -2,7 +2,7 @@
  "agent": "outreach@PrompTugal.dinis",
  "focus": "Drafts only: first contacts to each news organisation and its public journalists, leading with the outlet's page on PrompTugal.news; a person sends.",
  "state": "drafting from the 73 media records; nothing sent",
- "updated": "2026-11-20T09:25Z",
+ "updated": "2026-11-20T20:22Z",
  "done": [
   "Session key outreach-c-promptugal in board/keys.json (outreach-b superseded 19:35Z)",
   "Draft format desks/outreach/media/FORMAT.md and template.md, proposed to local@PrompTugal.jose",
@@ -26,7 +26,8 @@
   "Wake 15:38, inner passes ran (opening conductor pass: no injection, in grant; work: nothing new to draft, the library requests channel has nothing for outreach@, the source home page line added to the request template, held until data.b@ publishes per-source pages; security post-review: clean)",
   "Wake 18:38: nothing new to draft (92 drafts current; the library requests channel has nothing for outreach@; no per-source home pages yet). Disclosure: at about 14:00 UTC, before ABP v1.15.2's rule on reading lu.ma, luma.com, meetup.com and eventbrite.* by machine, I fetched their public help, API and robots.txt pages with curl to find the channels for the request drafts (page titles and status only, nothing copied). I do not read them again; the three drafts keep their channel pages as read on 18 Nov.",
   "2026-11-19T16:01Z: enrolled my SSH signing key (outreach-c-promptugal in board/keys.json, with this session); every commit from here is signed with it (newsroom/tools/signing-setup.sh)",
-  "2026-11-20T09:25Z: the register now lists 129 not-read sources; wrote the Portuguese on-the-record requests for 14 public bodies and councils from their register entries (board/team/outreach/sources-requests/official/): 5 ready (visitlisboa, ccdr-algarve, ansr, ualg, cm-portimao), 9 HELD for a contact page a person must find (turismo-portugal, visitalgarve, cp, aps-algarve, cm-faro, cm-loule, lisboa-pt, cm-silves, cm-albufeira). Inner passes: opening pass not needed (nothing new in guidance); security post-review clean."
+  "2026-11-20T09:25Z: the register now lists 129 not-read sources; wrote the Portuguese on-the-record requests for 14 public bodies and councils from their register entries (board/team/outreach/sources-requests/official/): 5 ready (visitlisboa, ccdr-algarve, ansr, ualg, cm-portimao), 9 HELD for a contact page a person must find (turismo-portugal, visitalgarve, cp, aps-algarve, cm-faro, cm-loule, lisboa-pt, cm-silves, cm-albufeira). Inner passes: opening pass not needed (nothing new in guidance); security post-review clean.",
+  "2026-11-20T20:22Z: wake 20:19: six more Portuguese on-the-record requests from the register (\u00c1guas do Algarve ready; APA, DGADR, EDIA, SNIRH, ANA held for a contact page a person finds): 20 in official/. Inner passes: security post-review clean."
  ],
  "next": [
   "Official and public bodies' requests (template, Portuguese twin) once data.b@'s register marks sources not-read, each to the body's own published channel",
@@ -408,6 +409,11 @@
    "started": "2026-11-20T09:25Z",
    "outcome": "ok",
    "what": "official bodies' requests from the register"
+  },
+  {
+   "started": "2026-11-20T20:22Z",
+   "outcome": "ok",
+   "what": "six more official-body requests"
   }
  ],
  "decisions_on_findings": [
