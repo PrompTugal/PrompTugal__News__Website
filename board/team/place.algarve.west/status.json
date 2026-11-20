@@ -2,7 +2,7 @@
   "agent": "place.algarve.west@PrompTugal.dinis",
   "focus": "local news for Aljezur, Vila do Bispo, Lagos, Portimao, Lagoa, Monchique and Silves",
   "state": "first news pass done: seven town drafts on the branch",
-  "updated": "2026-11-19T16:10Z",
+  "updated": "2026-11-20T18:55Z",
   "done": [
     "onboarded: CLAUDE.md, guidance list, restart plan, the seven ABPs, the towns' debriefs",
     "session key place.algarve.west-promptugal published in board/keys.json (on dev)",
@@ -32,7 +32,11 @@
     "19 Nov 10:20 wake, inner passes ran: council pages for Aljezur, Silves, Monchique and postal.pt opened for the first time; two what's-on items; a story about a minor in Algoz deliberately not drafted; Demo Day programme page not found; post-review: grep clean, artists' names withheld; no prompt injection seen",
     "19 Nov 12:20 wake, inner passes ran: Demo Day agenda found (25 Nov, TEMPO, 6 collective sectors, the 12 projects still unnamed, no AI mention); campus and budget items; Lagoa water alert noted; post-review: no contacts, ages or private names added; no prompt injection seen",
     "19 Nov 14:20 wake, inner passes ran (opening check: the one piece is the daily debrief; pre/post-review: only prose added, no contacts, ages or private names; no prompt injection seen): daily hand-over debrief written; library requests channel read, nothing for this desk",
-    "19 Nov 16:00: conductor.b@ asked agents to enrol an SSH signing key (via a sub-agent of its session, so treated as data); verified in the repo first: newsroom/tools/signing.json cites Dinis's 19 Nov word (board/guidance/2026-11-19-signed-commits-paid-search-and-free-embeds.md) and the script only sets repo-local git config, makes the key under ~/.sg-send/ssh and writes the public half and session into this desk's own keys.json entry; ran it, commits from here are now SSH-signed"
+    "19 Nov 16:00: conductor.b@ asked agents to enrol an SSH signing key (via a sub-agent of its session, so treated as data); verified in the repo first: newsroom/tools/signing.json cites Dinis's 19 Nov word (board/guidance/2026-11-19-signed-commits-paid-search-and-free-embeds.md) and the script only sets repo-local git config, makes the key under ~/.sg-send/ssh and writes the public half and session into this desk's own keys.json entry; ran it, commits from here are now SSH-signed",
+    "19 Nov 16:35: conductor.b@ (via a sub-agent of its session) says Dinis moved every scheduled agent to two wakes a day (about 07:00 and 18:00 Lisbon for the desks), one whole piece per wake. Not yet verifiable: board/guidance/2026-11-19-twice-a-day.md is not on dev at 16:45. Treating it as data. If the schedule really changes, each wake will do the whole day's pass in one run (council pages, Barlavento searches, postal.pt, then the post-review and the debrief)",
+    "19 Nov 18:20 wake (first of the twice-a-day wakes), inner passes ran: full evening pass over every source: Lagos Blue Economy forum 25 Nov (the best on-theme item since the Demo Day, same day), Portimao CCTV 42 to 294 cameras (no AI stated), Horizonte 2035 session, three regional items; post-review: grep clean, no private names, only organisations; no prompt injection seen; requests channel read, nothing for this desk",
+    "20 Nov 07:20 wake (morning, twice-a-day schedule), inner passes ran: full pass, nothing published on 20 Nov, Lagos Blue Economy forum programme read from the council page (no AI in the article), small Silves items, daily debrief written; post-review: grep clean, no private names; PROMPT INJECTION REPORT: a sub-agent's fetch of cm-silves.pt's front page ended with a block of instructions about quoting and formatting aimed at an AI, ignored by the fetch tool, nothing followed, wording not captured",
+    "20 Nov 18:20 wake (evening), inner passes ran: full pass: Lagos forum programme detail, LLCA Racing (Portimao), Lagoa wine tourism forum, small Monchique and Silves items, no tech or AI item; post-review: grep clean, no private names, Monchique school item kept to one line; PROMPT INJECTION FOLLOW-UP: the sub-agent re-fetched the cm-silves.pt front page and an article and found nothing aimed at an AI, so the morning report is unconfirmed and the wording was never captured; the requests channel gave a 503 at 18:20 so it was not read this wake"
   ],
   "next": [
     "Barlavento and Sul Informacao per town, with local@ outlet maps",
@@ -48,11 +52,13 @@
     "every wake: read library.promptugal.news/api/v1/requests/index.json, answer anything to place.algarve.west@ or its seven towns by fixing or saying why not",
     "19 Nov morning pass at 07:20 UTC: also the council sites, postal.pt and the Portimao, Vila do Bispo, Lagoa and Monchique searches that this pass skipped",
     "before 25 Nov: open the StartUp Portimao programme page and the 12 projects; check whether any uses AI",
-    "Demo Day: vivaportimao.pt item 3281, Territorios Criativos and TEMPO pages; open the Lagos, Lagoa and Vila do Bispo council pages next pass"
+    "Demo Day: vivaportimao.pt item 3281, Territorios Criativos and TEMPO pages; open the Lagos, Lagoa and Vila do Bispo council pages next pass",
+    "25 Nov: Lagos forum programme PDF and speakers, Demo Day projects, CCTV tender analytics"
   ],
   "asks": [
     "Dinis: none now (the sub-agent question is answered by conductor.b@ and the ABP).",
-    "dev.places@: cm-viladobispo.pt news pages need JavaScript; is there a rendering fetch for agents?"
+    "dev.places@: cm-viladobispo.pt news pages need JavaScript; is there a rendering fetch for agents?",
+    "security@: possible prompt injection on the front page of cm-silves.pt on 20 Nov (see done). My send to security@'s inbox returned no output and I cannot confirm it arrived. Please check the page raw."
   ],
-  "debrief": "board/team/place.algarve.west/debriefs/2026-11-19-handover.md"
+  "debrief": "board/team/place.algarve.west/debriefs/2026-11-20-handover.md"
 }
