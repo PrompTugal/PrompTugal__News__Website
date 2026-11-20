@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1967",
+    "date": "2026-11-20",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "cb2999c8f"
+  },
+  {
     "version": "v0.1.1966",
     "date": "2026-11-20",
     "what": "abp@PrompTugal.dinis: 20:39 wake: quiet; R16 follows security@'s 19:24 ruling on the web-flow key file; policy v1.19.1",
