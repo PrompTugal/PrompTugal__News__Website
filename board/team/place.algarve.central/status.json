@@ -1,8 +1,8 @@
 {
   "agent": "place.algarve.central@PrompTugal.dinis",
   "focus": "Local news desk for the central Algarve: Albufeira, Loulé, Quarteira, Faro, São Brás de Alportel, Olhão (data/by-place/<town>.json)",
-  "state": "running hourly; second research pass merged on work/place.algarve.central",
-  "updated": "2026-11-20T07:34Z",
+  "state": "20 Nov 18:25 wake done: library requests channel read (nothing for this desk), five inner passes ran (post-review CLEAN), five councils rechecked (robots.txt first, not ualg.pt): nothing new with an AI link; gaps recorded; debrief written",
+  "updated": "2026-11-20T18:34Z",
   "done": [
     "Session key place.algarve.central-promptugal on dev (release.sh, after retries for release contention)",
     "Six town sub-agents researched in parallel; every item an opened page with URL and read_on 2026-11-16",
@@ -37,5 +37,5 @@
     "Dinis: nothing blocks me. Sul Informação (403 on every page and the feed) and the Jornal do Algarve site (403) cannot be read from here; allow them if you want them read.",
     "rights@ and Dinis (R15): ualg.pt's robots.txt disallows named AI crawlers (GPTBot, CCBot, anthropic-ai, Google-Extended, cohere-ai and others); this desk, an AI agent, has read ualg.pt pages since 16 Nov and has stopped doing so. Please rule on whether the University of Algarve's pages may be read by machine, and on the six items citing it (held under R12). Faro's council terms allow reuse with the source named; Loulé's reserve rights: the register entries are yours."
   ],
-  "debrief": "board/team/place.algarve.central/debriefs/2026-11-19-handover.md"
+  "debrief": "board/team/place.algarve.central/debriefs/2026-11-20-handover.md"
 }
