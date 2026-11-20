@@ -14,5 +14,14 @@
     "id": "Q239",
     "read_at": "2026-11-19T17:55Z",
     "how": "Special:EntityData/Q239 read: Brussels, municipality in the Brussels-Capital Region and capital of Belgium"
+  },
+  "at": [
+    4.3517,
+    50.8467
+  ],
+  "at_source": {
+    "url": "https://www.wikidata.org/wiki/Q239",
+    "read_at": "2026-11-19T20:05Z",
+    "how": "Wikidata coordinate location (P625), read by query"
   }
 }

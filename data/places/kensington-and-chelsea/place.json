@@ -14,5 +14,14 @@
     "id": "Q188801",
     "read_at": "2026-11-18T22:40Z",
     "how": "Wikidata query (instances of London borough, Q211690), read 18 Nov 2026; label \"Royal Borough of Kensington and Chelsea\""
+  },
+  "at": [
+    -0.1953,
+    51.5022
+  ],
+  "at_source": {
+    "url": "https://www.wikidata.org/wiki/Q188801",
+    "read_at": "2026-11-19T20:05Z",
+    "how": "Wikidata coordinate location (P625), read by query"
   }
 }

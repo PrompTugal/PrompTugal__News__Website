@@ -4361,6 +4361,62 @@
     "source": "desks/reviewer-vicky/covers/superhuman-to-buy-rows-porto/superhuman-to-buy-rows-porto--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
     "checked": "more than 2.2 million people used Rows since 2017, Rows' own claim, against the article and Rows' post of 22 February 2026 (read 19 November 2026); every line measured inside its limit; 19 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
    }
+  },
+  {
+   "slug": "health-service-pays-remote-physiotherapy",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "card",
+   "file": "health-service-pays-remote-physiotherapy--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-19",
+    "source": "desks/reviewer-vicky/covers/health-service-pays-remote-physiotherapy/health-service-pays-remote-physiotherapy--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "200 euros for 12 months per patient treated against the article, Aviso n.º 3864/2026/2 (clause on prices) and Despacho n.º 1573/2026 (read 19 November 2026); every line measured inside its limit; 19 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "health-service-pays-remote-physiotherapy",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "card",
+   "file": "health-service-pays-remote-physiotherapy--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-19",
+    "source": "desks/reviewer-vicky/covers/health-service-pays-remote-physiotherapy/health-service-pays-remote-physiotherapy--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "200 euros for 12 months per patient treated against the article, Aviso n.º 3864/2026/2 (clause on prices) and Despacho n.º 1573/2026 (read 19 November 2026); every line measured inside its limit; 19 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "health-service-pays-remote-physiotherapy",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "health-service-pays-remote-physiotherapy--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-19",
+    "source": "desks/reviewer-vicky/covers/health-service-pays-remote-physiotherapy/health-service-pays-remote-physiotherapy--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "200 euros for 12 months per patient treated against the article, Aviso n.º 3864/2026/2 (clause on prices) and Despacho n.º 1573/2026 (read 19 November 2026); every line measured inside its limit; 19 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "health-service-pays-remote-physiotherapy",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "health-service-pays-remote-physiotherapy--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-19",
+    "source": "desks/reviewer-vicky/covers/health-service-pays-remote-physiotherapy/health-service-pays-remote-physiotherapy--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "200 euros for 12 months per patient treated against the article, Aviso n.º 3864/2026/2 (clause on prices) and Despacho n.º 1573/2026 (read 19 November 2026); every line measured inside its limit; 19 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
   }
  ]
 }

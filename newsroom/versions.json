@@ -1,5 +1,152 @@
 [
   {
+    "version": "v0.1.1936",
+    "date": "2026-11-20",
+    "what": "maestro.b (account-b): 01:18 wake: sovereignwebsite.ai on design 1 in EN and PT",
+    "by": "maestro.b (account-b)",
+    "from": "da1ea1e49"
+  },
+  {
+    "version": "v0.1.1935",
+    "date": "2026-11-20",
+    "what": "maestro.b (account-b): 00:18 wake: quiet night; the 20 November hand-over debrief",
+    "by": "maestro.b (account-b)",
+    "from": "cf01f38de"
+  },
+  {
+    "version": "v0.1.1934",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 23:18 wake: SAW's five sites up; the launch waits on Dinis's decisions",
+    "by": "maestro.b (account-b)",
+    "from": "6a2665b28"
+  },
+  {
+    "version": "v0.1.1933",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 22:18 wake: SAW's hosted-site request path built; its first run waits on Dinis",
+    "by": "maestro.b (account-b)",
+    "from": "2b205da4b"
+  },
+  {
+    "version": "v0.1.1932",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 21:18 wake: SAW's Portuguese and designs live; AgentiCCells waits on the agent-name answer",
+    "by": "maestro.b (account-b)",
+    "from": "c9292459b"
+  },
+  {
+    "version": "v0.1.1931",
+    "date": "2026-11-19",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "78e75ba02"
+  },
+  {
+    "version": "v0.1.1930",
+    "date": "2026-11-19",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "92eaf9637"
+  },
+  {
+    "version": "v0.1.1929",
+    "date": "2026-11-19",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "adf69bdb1"
+  },
+  {
+    "version": "v0.1.1928",
+    "date": "2026-11-19",
+    "what": "abp@PrompTugal.dinis: 20:38 wake: R16 follows security@'s ruling to 19:47 (controls 8 to 10); hand-over debrief; policy v1.18.7",
+    "by": "abp@PrompTugal.dinis",
+    "from": "b2e463d9b"
+  },
+  {
+    "version": "v0.1.1927",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 20:18 wake: SAW in Portuguese; a site lead's Gmail draft flagged by abp@ (R3)",
+    "by": "maestro.b (account-b)",
+    "from": "394bbdcf2"
+  },
+  {
+    "version": "v0.1.1926",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: an artifact's .git is checked; release.sh's merge takes the session from the agent's own key (security@ 0b49f7742)",
+    "by": "dev@PrompTugal.dinis",
+    "from": "139b3664f"
+  },
+  {
+    "version": "v0.1.1925",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: wake 20:03: 20 repositories clean; S72 progress read, still unwired",
+    "by": "security@PrompTugal.dinis",
+    "from": "0b49f7742"
+  },
+  {
+    "version": "v0.1.1924",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: ptmap 1.0.2 listed; 1.0.1 and 1.0.2 passed (security@): 1.0.2 is the version to vendor",
+    "by": "dev@PrompTugal.dinis",
+    "from": "a81b20325"
+  },
+  {
+    "version": "v0.1.1923",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: ptmap 1.0.2 post-reviewed: go, the version to vendor",
+    "by": "security@PrompTugal.dinis",
+    "from": "168c14fc5"
+  },
+  {
+    "version": "v0.1.1922",
+    "date": "2026-11-19",
+    "what": "security@PrompTugal.dinis: ptmap 1.0.1 post-reviewed: go",
+    "by": "security@PrompTugal.dinis",
+    "from": "d84da3d39"
+  },
+  {
+    "version": "v0.1.1921",
+    "date": "2026-11-19",
+    "what": "ontologist@PrompTugal.dinis: the answer for startups.b@ on the places registry, with the commit ids",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "92e095622"
+  },
+  {
+    "version": "v0.1.1920",
+    "date": "2026-11-19",
+    "what": "designer@PrompTugal.dinis: merge dev",
+    "by": "designer@PrompTugal.dinis",
+    "from": "c644a7831"
+  },
+  {
+    "version": "v0.1.1919",
+    "date": "2026-11-19",
+    "what": "dev@PrompTugal.dinis: merge dev",
+    "by": "dev@PrompTugal.dinis",
+    "from": "fba7c43df"
+  },
+  {
+    "version": "v0.1.1918",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 19:18 fuller brief: SAW on HTTPS with five home designs to pick; agenticcells.ai refactored",
+    "by": "maestro.b (account-b)",
+    "from": "a2d51a856"
+  },
+  {
+    "version": "v0.1.1917",
+    "date": "2026-11-19",
+    "what": "ontologist@PrompTugal.dinis: the 19 November debrief brought up to date",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "4ebca903e"
+  },
+  {
+    "version": "v0.1.1916",
+    "date": "2026-11-19",
+    "what": "jornal@PrompTugal.silvio: daily wake 19 Nov evening (Commission hit by ARTEX; Daybreak for NATO)",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "d6c7eb405"
+  },
+  {
     "version": "v0.1.1915",
     "date": "2026-11-19",
     "what": "conductor.b@PrompTugal.dinis: twice-a-day guidance: maestro.b and the SAW and AgentiCCells conductors back to hourly (Dinis, ~17:25 UTC)",

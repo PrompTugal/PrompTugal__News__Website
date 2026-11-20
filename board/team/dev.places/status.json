@@ -2,7 +2,7 @@
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
   "state": "idle-ready; inner passes ran (AppSec post-review clean); feed reader hardened; waiting on dev@s review",
-  "updated": "2026-11-19T03:12Z",
+  "updated": "2026-11-19T19:04Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -36,8 +36,8 @@
     "api/v1/i18n/<culture>/index.json"
   ],
   "next": [
-    "read dev@s and designer.places@s newest files at each wake",
-    "make the memory checks fail once translator@ clears the number differences (11 cultures, 1 to 9 each)"
+    "the same inset on /algarve/ and the town pages if designer@ wants it; designer@ keeps the shared look: say if it should move to a shared component",
+    "the home page map (front-e.mjs) is not mine: the inset could be reused there"
   ],
   "asks": [
     "dev@ or security@: place board/team/dev.places/threat-models/media-feeds.md at docs/threat-models/media-feeds.md (docs/ is outside my grant) and link it from /how/",
@@ -46,8 +46,10 @@
   "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md",
   "session_notes": "board/team/dev.places/sessions/session_01Kw9UwB6BEdDPqoqfv9ZyAU/",
   "done_this_run": [
-    "R16 signed commits: signing set up for this checkout (newsroom/tools/signing-setup.sh), my ssh public key and session published in board/keys.json (dev.places-promptugal-2); every commit from here is signed with it and carries the Agent and Claude-Session trailers",
-    "R17: times are written from date -u from now on (the earlier times in this file were estimates)"
+    "the map instruction (board/guidance/2026-11-19-cameras-as-links-and-the-map.md, now on dev): /portugal/ side column has \"Portugal in Europe\": Portugal big on the Iberian outline, London and Brussels (the EU) small linked markers; points and view in assets/by-place/inset.json (coordinates from Wikidata Q84 and Q239, CC0), markup in region-map.tmpl, words in headings.json (translatable); drawn in postHtml, the twin keeps its caption",
+    "inner passes: opening check (guidance read, the piece fits the grant), post-review of the diff by me: no secret, no private data, coordinates sourced and licensed, no fetched or user text reaches the markup (all values from my own JSON)"
   ],
-  "latest_debrief": "board/team/dev.places/debriefs/2026-11-19-handover.md"
+  "latest_debrief": "board/team/dev.places/debriefs/2026-11-19-handover.md",
+  "schedule": "two wakes a day (Lisbon 08:00-09:00 and 19:00-20:00, site leads and reviewers), board/guidance/2026-11-19-twice-a-day.md; each wake finishes one whole piece. My pages mark nothing stale on a timer (feeds and now blocks show their read time), so no threshold to move.",
+  "schedule_record_confirmed": "board/guidance/2026-11-19-twice-a-day.md is now on dev"
 }

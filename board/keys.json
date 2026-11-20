@@ -3533,7 +3533,10 @@
         "label": "designer.places@PrompTugal.dinis",
         "fingerprint": "sha256:bbdbf4500817e1bf",
         "signing_fingerprint": "sha256:3401e4d953c46e6b"
-      }
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIM9BkSaLTebn6oA58Og+alcVMuU7bQw44P8L1zECwUz6",
+      "session": "https://claude.ai/code/session_01Kw9UwBYDu2r96UdBWpHX4p",
+      "ssh_added": "2026-11-19T16:02Z"
     },
     {
       "id": "site.albufeira-promptugal",

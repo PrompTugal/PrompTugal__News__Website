@@ -196,6 +196,22 @@ function aroundBlock(ctx, p, items) {
         items.map(i => `- \`${esc(ctx, i.distance)}\`${i.adjacent ? ` · ${w.next_door}` : ''} **[${esc(ctx, i.title)}](${url(i.url)})** *${esc(ctx, [i.publisher || host(i.url), dmy(i.date)].filter(Boolean).join(', '))}*`).join('\n') + '\n\n'
 }
 
+// "Portugal in Europe" (Dinis, 19 Nov: Portugal big, London and the EU small): Iberia from the Natural Earth outline, London and
+// Brussels (the EU) as small linked markers; points and view in assets/by-place/inset.json, markup in region-map.tmpl
+function insetSvg(ctx, L, rel) {
+    let I, O; try { I = ctx.readJSON('assets/by-place/inset.json'); O = ctx.readJSON('assets/portugal/portugal-outline.json') } catch { return '' }
+    if (!TMPL) loadTmpl(ctx)
+    const V = I.view, k = Math.cos(44 * Math.PI / 180), W0 = 300, sc = W0 / ((V.lon1 - V.lon0) * k), H0 = Math.round((V.lat1 - V.lat0) * sc)
+    const X = lo => ((lo - V.lon0) * k * sc).toFixed(1), Y = la => ((V.lat1 - la) * sc).toFixed(1)
+    const ring = r => 'M' + r.map(([lo, la]) => `${X(lo)},${Y(la)}`).join('L') + 'Z'
+    const land = (name, cls) => ((O.countries || {})[name] || []).map(poly => fillT(TMPL.land, { cls, d: poly.map(ring).join('') })).join('')
+    const pins = (I.points || []).filter(q => Array.isArray(q.at)).map(q => {
+        const x = +X(q.at[0]), y = +Y(q.at[1]), west = q.side === 'w'
+        return fillT(TMPL['inset-pin'], { href: ctx.link(rel, `places/${q.id}/index.html`).replace(/\.md(#|$)/, '.html$1'), title: xmlEsc(q.kind === 'eu' ? `${q.name}: ${W(L, 'inset_eu')}` : q.name), x, y, lx: (west ? x - 8 : x + 8).toFixed(1), ly: (y + 4).toFixed(1), anchor: west ? 'end' : 'start', name: xmlEsc(q.kind === 'eu' ? `${q.name} (${W(L, 'inset_eu')})` : q.name) })
+    }).join('')
+    return fillT(TMPL.inset, { w: W0, h: H0, aria: xmlEsc(W(L, 'inset_aria')), land: land('Spain', 'es') + land('Portugal', 'pt'), pins })
+}
+
 function townPage(ctx, L, p) {
     const rel = `${p.path}index.html`
     const parent = L.byId.get(p.parent)
@@ -428,7 +444,7 @@ function portugalLens(ctx, L, rel) {
     md += `## ${W(L, 'by_place_h')} {#by-place}\n\n${W(L, 'by_place_intro', { region: ctx.link(rel, 'algarve/index.html'), news: n(regionNews, 'local AI story', 'local AI stories'), map: n(regionMap, 'organisation'), count: T.length })}\n\n${fill['by-place:towns']({ rel }, ctx)}\n\n`
     if (ours.length) md += `{.mini-h}\n${W(L, 'articles_h', { name: 'the places' })}\n\n${articleList(ctx, rel, ours)}`
     md += `## The national AI map {#map}\n\n${W(L, 'map_intro', { name: 'Portugal' })}\n\n` + (mapRows(ctx, p.ai_map) || `{.bp-empty}\nBeing mapped.`) + '\n\n'
-    md += `:::\n::: col\n` + sideCol(ctx, L, p, rel, [])
+    md += `:::\n::: col\n{.mini-h}\n${W(L, 'inset_h')}\n\n{.bp-svgmap .bp-inset}\n${W(L, 'inset_note')}\n\n` + sideCol(ctx, L, p, rel, [])
     md += `:::\n:::\n${identityNote(ctx, L, p)}\n\n{.bp-note .bp-id}\n${W(L, 'json_note', { json: ctx.link(rel, 'api/v1/by-place/portugal.json'), index: ctx.link(rel, 'api/v1/by-place/index.json') })}\n:::\n`
     return md
 }
@@ -580,4 +596,12 @@ export function validate(gate) {
         } catch {}
     }
     return out
+}
+
+// the inset's drawing goes into /portugal/ after the markdown (raw SVG is escaped by the markdown); the twin keeps its caption
+export function decorate(page, ctx) {
+    if (page.rel !== 'portugal/index.html' || page.insetDone) return
+    page.insetDone = true
+    const prev = page.postHtml
+    page.postHtml = html => { const h = prev ? prev(html) : html; return h.replace(/<p class="bp-svgmap bp-inset">([\s\S]*?)<\/p>/, (m, cap) => `<figure class="bp-svgmap bp-inset">${insetSvg(ctx, load(ctx), page.rel)}<figcaption>${cap}</figcaption></figure>`) }
 }

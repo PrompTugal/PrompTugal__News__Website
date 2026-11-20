@@ -21,6 +21,8 @@ image_width: 1200
 image_height: 630
 image_alt: "A card: AI physiotherapy at home, in Portugal's national health service, free to patients. A 97% shorter wait to start treatment, a government estimate, from portugal.gov.pt."
 ---
+> **Follow-up, 19 November 2026.** The gazette's terms set the price and the rules: [What the health service pays for remote physiotherapy at home](health-service-pays-remote-physiotherapy.html).
+
 > **Update, 19 November 2026.** The [official gazette](https://files.diariodarepublica.pt/gratuitos/2s/2026/02/2S037A0000S00.pdf) published the standard terms of the service on 23 February 2026 (Aviso 3864/2026/2). They show it works through a convention, a standard contract between the health system's central administration and a provider, which any provider that meets its terms can join:
 >
 > - **Open to join.** Any person or company, with or without profit, that provides this kind of rehabilitation care and meets the terms can join, by applying with the forms attached to them. Joining a convention means accepting its published terms as they stand.
