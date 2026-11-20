@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1943",
+    "date": "2026-11-20",
+    "what": "security@PrompTugal.dinis: wake 09:03: 20 repositories clean; control-10 notes fixed; S72 still unwired",
+    "by": "security@PrompTugal.dinis",
+    "from": "1100c3607"
+  },
+  {
     "version": "v0.1.1942",
     "date": "2026-11-20",
     "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
