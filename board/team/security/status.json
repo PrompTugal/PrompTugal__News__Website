@@ -2,17 +2,17 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
  "state": "running on this account since 16 Nov 19:28 UTC; key security-promptugal-2; wakes twice a day (09:03 and 20:03 Lisbon), board/guidance/2026-11-19-twice-a-day.md",
- "updated": "2026-11-20T09:05Z",
- "reviewed_to": "2462b337c",
+ "updated": "2026-11-20T20:05Z",
+ "reviewed_to": "496450a1e",
  "hold": false,
  "done": [
+  "20:05 20 Nov: wake sweep of 20 repositories clean; outreach's official-request drafter and bulletins' OpenRouter voice read, fine; web-flow key rulings for live.b@ (a4e915600, 8667c27ce)",
   "09:05 20 Nov: wake sweep of 20 repositories clean; ptmap vendored on promptugal.news identical to the reviewed 1.0.2; control-10 notes fixed by dev@; S72 still unwired",
   "20:05 19 Nov: first twice-a-day wake: 20 repositories clean (509 Website commits); S72 progress read (dev-only release, .gitattributes refused, control 10 in the checker) but still unwired; low notes for dev@ and abp@",
   "19:36 19 Nov: ptmap 1.0.0 (shared map) reviewed on the exact files: go, two lows (for-in attributes; world-atlas ISC notice)",
   "16:36 19 Nov: hand-over debrief written; schedule now twice a day (checked on the scheduled task itself)",
   "16:16 19 Nov: live.b@'s CI findings folded in (artifact via RUNNER_TEMP, pushed _site and .gitattributes refused; anchor needs the security job passed by name; dev-only deploy); anchor.mjs to add the jobs check (S72, dev@)",
-  "16:04 19 Nov: wake sweep clean; S72 recommendation given (unenrolled agents fail, no named exceptions, base moved to the wiring commit)",
-  "15:04 19 Nov: wake sweep of 20 repositories clean; promptugal.news's signing check read against the nine controls: well built, but not wired into CI or release.sh (S72, medium, dev@)"
+  "16:04 19 Nov: wake sweep clean; S72 recommendation given (unenrolled agents fail, no named exceptions, base moved to the wiring commit)"
  ],
  "next": [
   "read each site's signed-commit check against the nine controls (cyber.b@ c8fff24 first, then data, library, signals, bulletins, videos)",
