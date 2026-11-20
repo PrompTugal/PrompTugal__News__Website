@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Beja: AI and technology in Beja, the Baixo Alentejo's district capital, whose centre of gravity is its polytechnic university and the farming and health AI work around it, and what reaches Beja from the Alentejo, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -220,6 +220,20 @@
       "url": "https://cm-beja.pt/pt/pt/agenda.aspx",
       "read_on": "2026-11-17",
       "ai_path": null
+    },
+    {
+      "title": "Agrifood Open Day 2026 (5th edition), biotechnology for resilient agriculture, 10:00 to 18:00, at CIBT-NERBE in Beja; organised by BGI Sustainable Ventures with EIT Food, in partnership with Beja council; registration on the organiser's site",
+      "date": "2026-12-11",
+      "url": "https://www.oatual.pt/noticias/comunidade-de-biotecnologia-agroalimentar-reune-se-em-beja-a-11-de-dezembro",
+      "read_on": "2026-11-20",
+      "ai_path": null
+    },
+    {
+      "title": "Semana da Ciência e Tecnologia, workshops on science, health, technology, sustainability, food, sport and culture, run by UPBeja with Ciência Viva; the article's dates are inconsistent ('de 23 a 19 de novembro') and it gives no venue",
+      "date": "2026-11-23",
+      "url": "https://jornaldebeja.sapo.pt/noticias/upbeja-e-ciencia-viva-promovem-semana-da-ciencia-e-tecnologia",
+      "read_on": "2026-11-20",
+      "ai_path": null
     }
   ],
   "ai_map": [
@@ -322,7 +336,10 @@
     "InnoWave's 2026 article says only that it has a Beja hub. We have no page on the hub's current size, staff or whether its work now includes AI, so the next step is InnoWave's own site and its Beja announcements.",
     "The council's Espaço Empresa page lists no incubator and no Balcão Empresa na Hora by name. Its contact details are on that page, and its general Contactos page shows none in the text we could read.",
     "NERBE's contact details and the CIBT form and regulation are published on its own site, but NERBE is an association, not a public body, so we link its pages and do not list a contact. PACT, which ran the AI robotics programme, is based in Évora.",
-    "Startup Portugal's homepage does not mention Beja, and we could not read the Startup Visa certified incubators list, so we do not say whether CIBT NERBE is certified."
+    "Startup Portugal's homepage does not mention Beja, and we could not read the Startup Visa certified incubators list, so we do not say whether CIBT NERBE is certified.",
+    "Fourth pass, 20 November 2026: the feeds of Correio Alentejo, O Atual, Jornal de Beja, Lidador and Rádio Pax were read for 18 to 20 November and no item in the window is about AI in Beja. Jornal de Beja's feed text was read only to its first 100,000 characters, which covered the whole window.",
+    "UPBeja's 47th anniversary (O Atual, 18 November 2026) mentions a regional network for agricultural innovation and technology transfer and the digital and climate transitions, but not AI, so it is not added as AI news. The Agrifood Open Day (11 December) and the UPBeja and Ciência Viva science week are listed as events with no AI link in their articles.",
+    "MIRAR, a 36-month COMPETE 2030 project that uses optical sensors, multispectral imaging, IoT and AI tools to monitor water in the Alqueva irrigation area, with EDIA taking part (O Atual, 17 November 2026), is outside the 18 to 20 November window and the article names no Beja location, so it is not placed in Beja."
   ],
   "voice": {
     "lede": "Beja, pá: where the plain runs flat to the horizon, the heat sits down for the afternoon, and a polytechnic quietly teaches robots to count sheep and cheeses to behave.",
