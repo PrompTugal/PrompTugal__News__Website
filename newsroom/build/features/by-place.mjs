@@ -580,8 +580,18 @@ export function warn(gate) {
     return [...checkSites(gate.ROOT).filter(r => !r.ok).map(r => `site-identity: ${r.id}: ${r.problems.join('; ')}`), ...memoryChecks(gate)]
 }
 
+// the vendored shared map must be byte-for-byte designer@'s files at the pins of its manifest (never a changed copy)
+function ptmapCheck(gate) {
+    const out = [], dir = `assets/vendor/ptmap/v${PTMAP}/`, sri = rel => { try { return 'sha384-' + crypto.createHash('sha384').update(fs.readFileSync(path.join(gate.ROOT, rel))).digest('base64') } catch { return null } }
+    const Wd = JSON.parse(gate.text('assets/by-place/queue.json')).check
+    let pins; try { pins = JSON.parse(gate.text(`design/shared-map/v${PTMAP}/manifest.json`)).files } catch { return [Wd.ptmap_manifest] }
+    for (const [f, pin] of Object.entries(pins)) if (sri(dir + f) !== pin) out.push(Wd.ptmap_pin.replace('{file}', dir + f).replace('{pin}', pin))
+    return out
+}
+
 export function validate(gate) {
     const out = []
+    out.push(...ptmapCheck(gate))
     let L
     try { L = JSON.parse(gate.text(LIST)) } catch { return [`${LIST} unreadable`] }
     for (const p of L.places) {
@@ -598,10 +608,16 @@ export function validate(gate) {
     return out
 }
 
-// the inset's drawing goes into /portugal/ after the markdown (raw SVG is escaped by the markdown); the twin keeps its caption
+const PTMAP = '1.0.2'   // the shared map's version: vendored under assets/vendor/ptmap/, pinned by the registry (api/v1/sites.json, map)
+// the shared map (designer@'s ptmap, vendored under assets/vendor/ptmap/ and checked by the gate against its pins) draws
+// /portugal/'s map from the places that have a seat; my own drawing stays inside as the no-JavaScript fallback. The raw
+// markup goes in after the markdown (it is escaped there); the twin keeps its caption.
 export function decorate(page, ctx) {
     if (page.rel !== 'portugal/index.html' || page.insetDone) return
     page.insetDone = true
-    const prev = page.postHtml
-    page.postHtml = html => { const h = prev ? prev(html) : html; return h.replace(/<p class="bp-svgmap bp-inset">([\s\S]*?)<\/p>/, (m, cap) => `<figure class="bp-svgmap bp-inset">${insetSvg(ctx, load(ctx), page.rel)}<figcaption>${cap}</figcaption></figure>`) }
+    const L = load(ctx), prev = page.postHtml, V = `assets/vendor/ptmap/v${PTMAP}/`
+    page.assets = { css: [...(page.assets?.css || []), `${V}ptmap.css`], js: [...(page.assets?.js || []), `${V}ptmap.js`, 'assets/by-place/portugal-map.js'] }
+    const cfg = { label: W(L, 'inset_aria'), places: L.list.filter(t => Array.isArray(t.at) && t.kind !== 'country').map(t => ({ id: t.id, name: t.name, at: t.at, href: `${SITE_URL}${t.path}`, n: (t.ai_news || []).length })),
+        london: { href: `${SITE_URL}places/london/` }, eu: { href: `${SITE_URL}places/european-union/` } }
+    page.postHtml = html => { const h = prev ? prev(html) : html; return h.replace(/<p class="bp-svgmap bp-inset">([\s\S]*?)<\/p>/, (m, cap) => { if (!TMPL) loadTmpl(ctx); return fillT(TMPL['inset-host'], { cfg: xmlEsc(JSON.stringify(cfg)), svg: insetSvg(ctx, L, page.rel), cap }) }) }
 }

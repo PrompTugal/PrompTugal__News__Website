@@ -1,10 +1,10 @@
 {
  "date": "2026-11-19",
- "read_at": "2026-11-19T16:35Z",
+ "read_at": "2026-11-19T20:35Z",
  "kind": "aggregate, counts and costs only",
  "source": "claude-code-remote get_session usage (cumulative since each session was created, 6 Nov to 18 Nov; API-equivalent cost)",
  "sessions": 36,
- "total_cumulative_cost_usd": 2868.69,
+ "total_cumulative_cost_usd": 3241.66,
  "by_model": {
   "opus": 650.21,
   "sonnet": 308.08
@@ -18,393 +18,394 @@
   {
    "agent": "journalist@PrompTugal.dinis",
    "model": "opus",
-   "cumulative_cost_usd": 69.74,
-   "input_tokens": 6041,
-   "output_tokens": 346527,
+   "cumulative_cost_usd": 73.04,
+   "input_tokens": 6071,
+   "output_tokens": 354565,
    "status": "idle",
-   "previous_cost_usd": 69.27,
+   "previous_cost_usd": 69.74,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 0.47
+   "delta_cost_usd": 3.3
   },
   {
    "agent": "dev@PrompTugal.dinis",
    "model": "opus",
-   "cumulative_cost_usd": 116.57,
-   "input_tokens": 10706,
-   "output_tokens": 607360,
+   "cumulative_cost_usd": 123.08,
+   "input_tokens": 11881,
+   "output_tokens": 649847,
    "status": "idle",
-   "previous_cost_usd": 114.87,
+   "previous_cost_usd": 116.57,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 1.7
+   "delta_cost_usd": 6.51
   },
   {
    "agent": "designer@PrompTugal.dinis",
    "model": "opus",
-   "cumulative_cost_usd": 139.73,
-   "input_tokens": 2441,
-   "output_tokens": 236339,
+   "cumulative_cost_usd": 164.06,
+   "input_tokens": 4059,
+   "output_tokens": 266951,
    "status": "idle",
    "previous_cost_usd": 139.73,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 0.0
+   "delta_cost_usd": 24.33
   },
   {
    "agent": "security@PrompTugal.dinis",
    "model": "opus",
-   "cumulative_cost_usd": 117.52,
-   "input_tokens": 6324,
-   "output_tokens": 366587,
+   "cumulative_cost_usd": 124.9,
+   "input_tokens": 7426,
+   "output_tokens": 388806,
    "status": "idle",
-   "previous_cost_usd": 116.06,
+   "previous_cost_usd": 117.52,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 1.46
+   "delta_cost_usd": 7.38
   },
   {
    "agent": "place.algarve.west@PrompTugal.dinis",
    "model": "sonnet",
-   "cumulative_cost_usd": 30.96,
-   "input_tokens": 3755689,
-   "output_tokens": 582311,
+   "cumulative_cost_usd": 34.64,
+   "input_tokens": 4059207,
+   "output_tokens": 633651,
    "status": "idle",
-   "previous_cost_usd": 30.17,
+   "previous_cost_usd": 30.96,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 0.79
+   "delta_cost_usd": 3.68
   },
   {
    "agent": "place.algarve.central@PrompTugal.dinis",
    "model": "sonnet",
-   "cumulative_cost_usd": 40.3,
-   "input_tokens": 5723254,
-   "output_tokens": 825972,
+   "cumulative_cost_usd": 44.98,
+   "input_tokens": 6119841,
+   "output_tokens": 881028,
    "status": "running",
-   "previous_cost_usd": 36.86,
+   "previous_cost_usd": 40.3,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 3.44
+   "delta_cost_usd": 4.68
   },
   {
    "agent": "place.algarve.east@PrompTugal.dinis",
    "model": "sonnet",
-   "cumulative_cost_usd": 29.52,
-   "input_tokens": 3048446,
-   "output_tokens": 486334,
+   "cumulative_cost_usd": 33.56,
+   "input_tokens": 3345232,
+   "output_tokens": 527947,
    "status": "idle",
-   "previous_cost_usd": 28.81,
+   "previous_cost_usd": 29.52,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 0.71
+   "delta_cost_usd": 4.04
   },
   {
    "agent": "place.districts@PrompTugal.dinis",
    "model": "sonnet",
-   "cumulative_cost_usd": 48.88,
-   "input_tokens": 1376538,
-   "output_tokens": 249715,
+   "cumulative_cost_usd": 53.53,
+   "input_tokens": 1475011,
+   "output_tokens": 289308,
    "status": "idle",
-   "previous_cost_usd": 47.15,
+   "previous_cost_usd": 48.88,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 1.73
+   "delta_cost_usd": 4.65
   },
   {
    "agent": "correspondent@PrompTugal.dinis",
    "model": "sonnet",
-   "cumulative_cost_usd": 28.66,
-   "input_tokens": 801,
-   "output_tokens": 41028,
+   "cumulative_cost_usd": 30.01,
+   "input_tokens": 810,
+   "output_tokens": 41893,
    "status": "idle",
-   "previous_cost_usd": 26.95,
+   "previous_cost_usd": 28.66,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 1.71
+   "delta_cost_usd": 1.35
   },
   {
    "agent": "datasci.places@PrompTugal.dinis",
    "model": "sonnet",
-   "cumulative_cost_usd": 21.41,
-   "input_tokens": 927,
-   "output_tokens": 99250,
+   "cumulative_cost_usd": 24.59,
+   "input_tokens": 967,
+   "output_tokens": 103467,
    "status": "idle",
-   "previous_cost_usd": 21.02,
+   "previous_cost_usd": 21.41,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 0.39
+   "delta_cost_usd": 3.18
   },
   {
    "agent": "researcher@PrompTugal.dinis",
    "model": "sonnet",
-   "cumulative_cost_usd": 29.69,
-   "input_tokens": 717883,
-   "output_tokens": 355664,
+   "cumulative_cost_usd": 32.08,
+   "input_tokens": 717892,
+   "output_tokens": 356799,
    "status": "idle",
-   "previous_cost_usd": 28.85,
+   "previous_cost_usd": 29.69,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 0.84
+   "delta_cost_usd": 2.39
   },
   {
    "agent": "ontologist@PrompTugal.dinis",
    "model": "sonnet",
-   "cumulative_cost_usd": 57.55,
-   "input_tokens": 25662,
-   "output_tokens": 148720,
+   "cumulative_cost_usd": 62.55,
+   "input_tokens": 29792,
+   "output_tokens": 163981,
    "status": "idle",
-   "previous_cost_usd": 54.3,
+   "previous_cost_usd": 57.55,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 3.25
+   "delta_cost_usd": 5.0
   },
   {
    "agent": "dev.places@PrompTugal.dinis",
    "model": "sonnet",
-   "cumulative_cost_usd": 25.79,
-   "input_tokens": 1297,
-   "output_tokens": 141325,
+   "cumulative_cost_usd": 34.36,
+   "input_tokens": 1895,
+   "output_tokens": 170377,
    "status": "idle",
-   "previous_cost_usd": 25.35,
+   "previous_cost_usd": 25.79,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 0.44
+   "delta_cost_usd": 8.57
   },
   {
    "agent": "designer.places@PrompTugal.dinis",
    "model": "sonnet",
-   "cumulative_cost_usd": 34.31,
-   "input_tokens": 425,
-   "output_tokens": 82042,
+   "cumulative_cost_usd": 37.53,
+   "input_tokens": 454,
+   "output_tokens": 87589,
    "status": "idle",
-   "previous_cost_usd": 32.75,
+   "previous_cost_usd": 34.31,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 1.56
+   "delta_cost_usd": 3.22
   },
   {
    "agent": "translator@PrompTugal.dinis",
    "model": "sonnet",
-   "cumulative_cost_usd": 56.88,
-   "input_tokens": 13802,
-   "output_tokens": 1156418,
+   "cumulative_cost_usd": 58.87,
+   "input_tokens": 13821,
+   "output_tokens": 1158489,
    "status": "idle",
-   "previous_cost_usd": 54.47,
+   "previous_cost_usd": 56.88,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 2.41
+   "delta_cost_usd": 1.99
   },
   {
    "agent": "outreach@PrompTugal.dinis",
    "model": "sonnet",
-   "cumulative_cost_usd": 27.99,
-   "input_tokens": 5002,
-   "output_tokens": 92724,
+   "cumulative_cost_usd": 29.59,
+   "input_tokens": 5012,
+   "output_tokens": 93653,
    "status": "idle",
-   "previous_cost_usd": 26.29,
+   "previous_cost_usd": 27.99,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 1.7
+   "delta_cost_usd": 1.6
   },
   {
    "agent": "sherpa@PrompTugal.dinis",
    "model": "sonnet",
-   "cumulative_cost_usd": 21.83,
-   "input_tokens": 796,
-   "output_tokens": 58676,
+   "cumulative_cost_usd": 23.23,
+   "input_tokens": 807,
+   "output_tokens": 60594,
    "status": "idle",
-   "previous_cost_usd": 20.42,
+   "previous_cost_usd": 21.83,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 1.41
+   "delta_cost_usd": 1.4
   },
   {
    "agent": "librarian@PrompTugal.dinis",
    "model": "sonnet",
-   "cumulative_cost_usd": 41.9,
-   "input_tokens": 3833,
-   "output_tokens": 196796,
+   "cumulative_cost_usd": 42.08,
+   "input_tokens": 3840,
+   "output_tokens": 197100,
    "status": "idle",
-   "previous_cost_usd": 38.82,
+   "previous_cost_usd": 41.9,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 3.08
+   "delta_cost_usd": 0.18
   },
   {
    "agent": "abp@PrompTugal.dinis",
    "model": "sonnet",
-   "cumulative_cost_usd": 36.31,
-   "input_tokens": 26704,
-   "output_tokens": 281490,
+   "cumulative_cost_usd": 37.88,
+   "input_tokens": 27757,
+   "output_tokens": 288400,
    "status": "idle",
-   "previous_cost_usd": 35.53,
+   "previous_cost_usd": 36.31,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 0.78
+   "delta_cost_usd": 1.57
   },
   {
    "agent": "data.b@PrompTugal.dinis",
    "model": "opus",
-   "cumulative_cost_usd": 182.23,
-   "input_tokens": 1603265,
-   "output_tokens": 1812717,
+   "cumulative_cost_usd": 213.53,
+   "input_tokens": 1608183,
+   "output_tokens": 1920937,
    "status": "running",
-   "previous_cost_usd": 179.3,
+   "previous_cost_usd": 182.23,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 2.93
+   "delta_cost_usd": 31.3
   },
   {
    "agent": "weather.b@PrompTugal.dinis",
    "model": "opus",
-   "cumulative_cost_usd": 116.4,
-   "input_tokens": 15456,
-   "output_tokens": 554205,
+   "cumulative_cost_usd": 136.6,
+   "input_tokens": 21350,
+   "output_tokens": 637214,
    "status": "idle",
-   "previous_cost_usd": 109.38,
+   "previous_cost_usd": 116.4,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 7.02
+   "delta_cost_usd": 20.2
   },
   {
    "agent": "civic.b@PrompTugal.dinis",
    "model": "opus",
-   "cumulative_cost_usd": 120.12,
-   "input_tokens": 219508,
-   "output_tokens": 634391,
+   "cumulative_cost_usd": 144.43,
+   "input_tokens": 227294,
+   "output_tokens": 741906,
    "status": "idle",
-   "previous_cost_usd": 114.6,
+   "previous_cost_usd": 120.12,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 5.52
+   "delta_cost_usd": 24.31
   },
   {
    "agent": "startups.b@PrompTugal.dinis",
    "model": "opus",
-   "cumulative_cost_usd": 122.46,
-   "input_tokens": 3322853,
-   "output_tokens": 909474,
+   "cumulative_cost_usd": 139.81,
+   "input_tokens": 3324518,
+   "output_tokens": 960093,
    "status": "idle",
-   "previous_cost_usd": 117.26,
+   "previous_cost_usd": 122.46,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 5.2
+   "delta_cost_usd": 17.35
   },
   {
    "agent": "travel.b@PrompTugal.dinis",
    "model": "opus",
-   "cumulative_cost_usd": 114.87,
-   "input_tokens": 906894,
-   "output_tokens": 680539,
+   "cumulative_cost_usd": 129.02,
+   "input_tokens": 909612,
+   "output_tokens": 767665,
    "status": "idle",
-   "previous_cost_usd": 111.49,
+   "previous_cost_usd": 114.87,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 3.38
+   "delta_cost_usd": 14.15
   },
   {
    "agent": "events.b@PrompTugal.dinis",
    "model": "opus",
-   "cumulative_cost_usd": 114.34,
-   "input_tokens": 51596,
-   "output_tokens": 548092,
+   "cumulative_cost_usd": 129.59,
+   "input_tokens": 53957,
+   "output_tokens": 685870,
    "status": "idle",
-   "previous_cost_usd": 105.11,
+   "previous_cost_usd": 114.34,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 9.23
+   "delta_cost_usd": 15.25
   },
   {
    "agent": "signals.b@PrompTugal.dinis",
    "model": "opus",
-   "cumulative_cost_usd": 86.54,
-   "input_tokens": 46186,
-   "output_tokens": 455421,
+   "cumulative_cost_usd": 101.38,
+   "input_tokens": 52191,
+   "output_tokens": 479177,
    "status": "running",
-   "previous_cost_usd": 79.51,
+   "previous_cost_usd": 86.54,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 7.03
+   "delta_cost_usd": 14.84
   },
   {
    "agent": "library.b@PrompTugal.dinis",
    "model": "opus",
-   "cumulative_cost_usd": 121.09,
-   "input_tokens": 156324,
-   "output_tokens": 712905,
+   "cumulative_cost_usd": 131.02,
+   "input_tokens": 158512,
+   "output_tokens": 753531,
    "status": "running (just started)",
-   "previous_cost_usd": 117.03,
+   "previous_cost_usd": 121.09,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 4.06
+   "delta_cost_usd": 9.93
   },
   {
    "agent": "videos.b@PrompTugal.dinis",
    "model": "opus",
-   "cumulative_cost_usd": 91.24,
-   "input_tokens": 107958,
-   "output_tokens": 614152,
+   "cumulative_cost_usd": 106.39,
+   "input_tokens": 111177,
+   "output_tokens": 674799,
    "status": "running (just started)",
-   "previous_cost_usd": 84.89,
+   "previous_cost_usd": 91.24,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 6.35
+   "delta_cost_usd": 15.15
   },
   {
    "agent": "conductor.b@PrompTugal.dinis",
    "model": "opus",
-   "cumulative_cost_usd": 409.31,
-   "input_tokens": 151673,
-   "output_tokens": 2018205,
+   "cumulative_cost_usd": 452.02,
+   "input_tokens": 182344,
+   "output_tokens": 2192838,
    "status": "running",
-   "previous_cost_usd": 400.15,
+   "previous_cost_usd": 409.31,
    "previous_read_at": "2026-11-18T15:30Z",
-   "delta_cost_usd": 9.16
+   "delta_cost_usd": 42.71
   },
   {
    "agent": "live.b@PrompTugal.dinis",
    "model": "opus",
-   "cumulative_cost_usd": 101.73,
+   "cumulative_cost_usd": 118.39,
    "status": "new this wake",
-   "previous_cost_usd": 92.08,
-   "delta_cost_usd": 9.65,
-   "input_tokens": 48135,
-   "output_tokens": 520847
+   "previous_cost_usd": 101.73,
+   "delta_cost_usd": 16.66,
+   "input_tokens": 58069,
+   "output_tokens": 659935
   },
   {
    "agent": "cyber.b@PrompTugal.dinis",
    "model": "opus",
-   "cumulative_cost_usd": 89.49,
+   "cumulative_cost_usd": 102.55,
    "status": "new this wake",
-   "previous_cost_usd": 79.42,
-   "delta_cost_usd": 10.07,
-   "input_tokens": 14502,
-   "output_tokens": 536221
+   "previous_cost_usd": 89.49,
+   "delta_cost_usd": 13.06,
+   "input_tokens": 54169,
+   "output_tokens": 596178
   },
   {
    "agent": "bulletins.b@PrompTugal.dinis",
    "model": "opus",
-   "cumulative_cost_usd": 73.21,
+   "cumulative_cost_usd": 85.8,
    "status": "new this wake",
-   "previous_cost_usd": 63.19,
-   "delta_cost_usd": 10.02,
-   "input_tokens": 40820,
-   "output_tokens": 323377
+   "previous_cost_usd": 73.21,
+   "delta_cost_usd": 12.59,
+   "input_tokens": 45724,
+   "output_tokens": 391207
   },
   {
    "agent": "cells.b (AgentiCCells team)",
    "model": "opus",
-   "cumulative_cost_usd": 50.36,
+   "cumulative_cost_usd": 62.48,
    "status": "new this wake",
-   "previous_cost_usd": 48.02,
-   "delta_cost_usd": 2.34,
-   "input_tokens": 14102,
-   "output_tokens": 163318
+   "previous_cost_usd": 50.36,
+   "delta_cost_usd": 12.12,
+   "input_tokens": 16280,
+   "output_tokens": 206493
   },
   {
    "agent": "newsroom.writer (newsroom.sgit.ai team)",
    "model": "unknown",
-   "cumulative_cost_usd": 76.9,
+   "cumulative_cost_usd": 95.86,
    "status": "new this wake",
-   "previous_cost_usd": 75.56,
-   "delta_cost_usd": 1.34,
-   "input_tokens": 2312133,
-   "output_tokens": 591401
+   "previous_cost_usd": 76.9,
+   "delta_cost_usd": 18.96,
+   "input_tokens": 3893025,
+   "output_tokens": 828630
   },
   {
    "agent": "rights@PrompTugal.dinis",
    "model": "unknown",
-   "cumulative_cost_usd": 4.58,
+   "cumulative_cost_usd": 6.48,
    "status": "new this wake",
-   "previous_cost_usd": 4.23,
-   "delta_cost_usd": 0.35,
-   "input_tokens": 1757,
-   "output_tokens": 62474
+   "previous_cost_usd": 4.58,
+   "delta_cost_usd": 1.9,
+   "input_tokens": 2307,
+   "output_tokens": 74129
   },
   {
    "agent": "maestro.b (account-b)",
    "model": "opus",
-   "cumulative_cost_usd": 18.28,
+   "cumulative_cost_usd": 21.75,
    "status": "new this wake",
-   "previous_cost_usd": 16.45,
-   "delta_cost_usd": 1.83,
-   "input_tokens": 3084,
-   "output_tokens": 131931
+   "previous_cost_usd": 18.28,
+   "delta_cost_usd": 3.47,
+   "input_tokens": 3132,
+   "output_tokens": 150596
   }
  ],
- "previous_read_at": "2026-11-19T15:35Z",
- "delta_cost_usd_since_previous_read": 123.35
+ "previous_read_at": "2026-11-19T16:35Z",
+ "delta_cost_usd_since_previous_read": 372.97,
+ "note": "From 19 Nov the wakes are twice a day (09:26 and 20:26 Lisbon): a delta now covers about 4 hours here, about 13 hours between regular wakes"
 }

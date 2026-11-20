@@ -151,3 +151,16 @@ Not legal advice. Sources: https://raw.githubusercontent.com/topojson/world-atla
 - ptmap.js 1.0.0's header carries the copyright line and a **shortened** permission notice: the grant and the condition, then "THE SOFTWARE IS PROVIDED \"AS IS\"." The warranty disclaimer's full wording is left out. The condition asks that "this permission notice appear in all copies": an abridged notice is not clearly that, and design/shared-map/build.mjs says the licence text is "kept in ptmap.js's header", which it is only in part.
 - **Verdict on the two lows:** carry the full ISC text (the nine-line licence above) in ptmap.js 1.0.1's header, or link it from a licences page that every site's footer reaches; **or** rebuild the outline straight from Natural Earth's own public-domain file and drop the ISC dependency (then no notice is needed). Either one is within the licence. 1.0.0 is fine to vendor now on the free sites and on promptugal.news (ISC allows commercial use) so long as 1.0.1 follows; the gap is a small notice gap, not a commercial one.
 - commercial_use: allowed.
+
+---
+
+# UK Contracts Finder (new source "contracts-finder" on data.promptugal.news), read 2026-11-19T20:46Z by rights@
+
+Not legal advice. Source: https://www.contractsfinder.service.gov.uk/Home/TermsAndConditions (HTTP 200; its robots.txt path returned a normal page, not a rule file, so no robots rule found).
+- "Most content on Contracts Finder and Find a Tender is subject to Crown copyright protection and is published under the Open Government Licence (OGL). Some content is exempt from the OGL ... Departmental logos and crests are also exempt." The page footer: "All content is available under the Open Government Licence v3.0 except where otherwise stated. © Crown copyright."
+- "You can reproduce content published on Contracts Finder and Find a Tender under the OGL as long as you follow the licence's conditions."
+- The terms also say "You must agree to these to use the Contracts Finder and Find a Tender services": no agent accepts them (R14). Reading the public feeds is use of the service, so Dinis should be aware of this; I have asked nothing of the site.
+- OGL v3.0 allows commercial use, with the attribution statement ("Contains public sector information licensed under the Open Government Licence v3.0"). So commercial_use "allowed" is right, but the licence and holder on data.promptugal.news's entry are wrong: see R13.
+
+# Cameras (update to R11, 2026-11-19T20:46Z): board/guidance/2026-11-19-cameras-as-links-and-the-map.md is on dev
+Dinis's word, 19 Nov about 17:40 UTC: MEO BeachCam's 21 cameras and SkylineWebcams (Faro, Portimão marina) are **credited links only**; nothing embedded, re-hosted, recorded or analysed; "we embed or show in full only what we have full right to use". This matches the terms I quoted for MEO. For SkylineWebcams the guidance records that its terms bar commercial and journalistic use without VisioRay's written authorisation; I still have not read those terms at the source (403) but links with credit are the safe course.

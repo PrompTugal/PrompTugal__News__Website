@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-19T20:09:45Z",
+  "updated": "2026-11-19T20:38:41Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -142,7 +142,7 @@
     "Dinis: ontologist@ read query.wikidata.org and www.wikidata.org (neighbours check, 061a27785): not in its grant; may it, for reads of public data (nothing private sent)?",
     "Dinis: the five site teams you started on account B (data.b@, weather.b@, civic.b@, startups.b@, travel.b@) and observability.b@ work in other repositories, outside this repository's ABP and hooks. May abp@ write their ABPs and put the hooks in each repository once they are reachable from this account (as the ios.places@ ask)?",
     "Dinis: telemetry.b@ tried send_message to reach abp@ with its run lists. abp@ proposes the sealed inbox lanes (agent_inboxes.py) or board/runs/stats/ files instead, which need no new grant; or say if you want session messages for it",
-    "Dinis: three agents (telemetry.b@, designer@, rights@) tried send_message to reach another session. May abp@ add one line to every ABP naming the channel (sealed inbox lanes for agents, status.json asks for you)? It restates existing rules, no new grant (board/abp/reports/2026-11-19-0037.md)",
+    "Dinis: three agents (telemetry.b@, designer@, rights@) tried send_message to reach another session. May abp@ add one line to every ABP naming the channel (sealed inbox lanes for agents, status.json asks for you)? It restates existing rules, no new grant (board/abp/reports/2026-11-19-0037.md) (Now seven agents try it: dev@, security@, designer@, rights@, telemetry.b@, maestro.b@, translator@.)",
     "Dinis: maestro.b may not send_message (the only flag that grants it also grants create_session and triggers). Do you want it to message conductors' sessions? abp@ would add a narrower send_message-only grant; until then it uses the sealed inbox lanes"
   ],
   "wakes": [

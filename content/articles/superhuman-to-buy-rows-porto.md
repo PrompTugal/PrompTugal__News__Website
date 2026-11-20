@@ -17,6 +17,14 @@ image_width: 1200
 image_height: 630
 image_alt: "A card: Superhuman and Rows, an AI spreadsheet company from Porto. 2.2 million people used Rows, the company says, from the companies' February 2026 posts."
 ---
+> **Update, 19 November 2026.** [ECO](https://eco.sapo.pt/2026/02/23/e-um-exit-superhuman-compra-portuguesa-rows/), a Portuguese business news site, reported the deal on 23 February 2026. We had said we found no independent report and no headcount. ECO adds:
+>
+> - **The deal.** It said Rows "has just been bought" by Superhuman. The value was not disclosed.
+> - **The team.** A co-founder told ECO he would stay, to run Rows teams working on data and productivity problems. He said Rows' team of more than ten people in the North "stays". He said Superhuman already has European teams in Ukraine, Poland and Germany, "and now Porto".
+> - **Rows' history.** ECO said Rows was founded in 2017, had about 2.2 million users, mainly in the United States, and had raised about 30 million euros in total.
+>
+> The report is from the same week as the two company posts. It gives no later news on the deal.
+
 ## In short
 
 - Superhuman, the AI productivity company behind Grammarly, said on 23 February 2026 that it agreed to acquire Rows, a spreadsheet company.

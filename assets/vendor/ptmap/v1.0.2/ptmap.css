@@ -1,0 +1,20 @@
+/* ptmap 1.0.2 (designer@PrompTugal.dinis): the shared map's look, brand v2.0. Light and dark. */
+.ptm{display:block;width:100%;max-width:520px;height:auto;font-family:'IBM Plex Sans',Arial,sans-serif}
+.ptm .ptm-es{fill:#ece7db;stroke:#d8d4cb;stroke-width:1}
+.ptm .ptm-pt{fill:#fffdf8;stroke:#121317;stroke-width:1.2}
+.ptm .ptm-dot{fill:#006600;stroke:#fffdf8;stroke-width:1.5}
+.ptm .ptm-cur{fill:#121317;stroke:#006600;stroke-width:2.5}
+.ptm .ptm-cur-l{font:600 12px Newsreader,Georgia,serif;fill:#121317;paint-order:stroke;stroke:#fffdf8;stroke-width:3px}
+.ptm .ptm-inset rect{fill:#fffdf8;stroke:#121317;stroke-width:1}
+.ptm .ptm-inset circle{fill:#006600}
+.ptm .ptm-in-n{font:600 11px 'IBM Plex Sans',Arial,sans-serif;fill:#121317}
+.ptm .ptm-in-s{font:400 9.5px 'IBM Plex Mono',monospace;fill:#666860}
+.ptm a:focus-visible circle,.ptm a:focus-visible rect{stroke:#121317;stroke-width:3}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]) .ptm .ptm-es{fill:#1c1d22;stroke:#2c2d33}
+:root:not([data-theme=light]) .ptm .ptm-pt{fill:#22232a;stroke:#f6f3ec}
+:root:not([data-theme=light]) .ptm .ptm-dot{fill:#6dbb7e;stroke:#22232a}
+:root:not([data-theme=light]) .ptm .ptm-cur{fill:#f6f3ec;stroke:#6dbb7e}
+:root:not([data-theme=light]) .ptm .ptm-cur-l{fill:#f6f3ec;stroke:#22232a}
+:root:not([data-theme=light]) .ptm .ptm-inset rect{fill:#22232a;stroke:#f6f3ec}
+:root:not([data-theme=light]) .ptm .ptm-inset circle{fill:#6dbb7e}
+:root:not([data-theme=light]) .ptm .ptm-in-n{fill:#f6f3ec}:root:not([data-theme=light]) .ptm .ptm-in-s{fill:#b4b6ad}}
