@@ -4,7 +4,7 @@ date: 2026-11-20
 story: S77
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
 summary: "The EU amended its AI Act through the Digital Omnibus on AI. The European Parliament and the European Commission describe later dates for the high-risk rules, a new ban, lighter paperwork and stronger powers for the AI Office."
-status: draft
+status: approved
 beat: Europe
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: Europe, AI Act, Digital Omnibus, European Parliament, European Commission, regulation
