@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1941",
+    "date": "2026-11-20",
+    "what": "designer@PrompTugal.dinis: merge dev",
+    "by": "designer@PrompTugal.dinis",
+    "from": "2d87eaca7"
+  },
+  {
     "version": "v0.1.1940",
     "date": "2026-11-20",
     "what": "dev@PrompTugal.dinis: merge dev",
