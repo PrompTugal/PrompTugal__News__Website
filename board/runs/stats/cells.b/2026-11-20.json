@@ -1,0 +1,14 @@
+{
+ "agent": "cells.b (AgentiCCells team)",
+ "date": "2026-11-20",
+ "model": "opus",
+ "reads": [
+  {
+   "read_at": "2026-11-20T09:35Z",
+   "cumulative_cost_usd": 84.27,
+   "delta_cost_usd": 21.79,
+   "input_tokens": 17904,
+   "output_tokens": 224444
+  }
+ ]
+}
