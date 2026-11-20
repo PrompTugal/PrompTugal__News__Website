@@ -1,0 +1,81 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "abp@PrompTugal.dinis",
+ "run": "2026-11-20T09-47-08Z",
+ "started": "2026-11-20T09:47:08.151Z",
+ "ended": "2026-11-20T10:14:27Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.0",
+  "sha256": "4d4ad5f84b52b126"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-20T09:47:08.151Z",
+   "chars": 542,
+   "sha256": "714676a181e6628a",
+   "head": "<task-notification>\n<task-id>b9vcxycex</task-id>\n<tool-use-id>toolu_01A8YmVu2QZocfUKYFn7BMXC</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/1f71f596-c8c7-5883-99c9-7ffd5"
+  },
+  {
+   "t": "2026-11-20T10:07:06.607Z",
+   "chars": 30,
+   "sha256": "5f819c980fe14f1d",
+   "head": "Hi, you had a question for me?"
+  },
+  {
+   "t": "2026-11-20T10:11:56.933Z",
+   "chars": 2806,
+   "sha256": "9f77b6e84304df6c",
+   "head": "And let me answer these questions. Yeah, I'll send the email later. I always for draft, so just keep it there. Yes, conductors can create sessions within their own domain, never outside the domain. So"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-20T10:06:55.591Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 17,
+  "by_kind": {
+   "shell": 14,
+   "git": 2,
+   "message": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 17,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 17,
+  "in_mandate": 17,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

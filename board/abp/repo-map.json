@@ -1,0 +1,1320 @@
+{
+ "generated": "2026-11-20T10:14:42.781Z",
+ "policy": "1.19.0",
+ "about": "DECLARED access, from board/abp/policies.json. The ACTUAL access (which repositories a session can really reach through its GitHub App installation, tokens and environment) is security@'s to read and add under \"actual\" (board/abp/repo-map.md). A difference between declared and actual is a finding for abp@ and security@.",
+ "repositories": [
+  "AgentiCCells/AgentiCCells__Site__Factory",
+  "PrompTugal/PrompTugal__News__Bulletins",
+  "PrompTugal/PrompTugal__News__Civic",
+  "PrompTugal/PrompTugal__News__Cyber",
+  "PrompTugal/PrompTugal__News__Data",
+  "PrompTugal/PrompTugal__News__Events",
+  "PrompTugal/PrompTugal__News__Library",
+  "PrompTugal/PrompTugal__News__Live",
+  "PrompTugal/PrompTugal__News__Signals",
+  "PrompTugal/PrompTugal__News__Startups",
+  "PrompTugal/PrompTugal__News__Travel",
+  "PrompTugal/PrompTugal__News__Videos",
+  "PrompTugal/PrompTugal__News__Weather",
+  "SGit-AI/SGit-AI__Website__Newsroom",
+  "its operator's own checkout; writes here only: board/guidance/**, CLAUDE.md",
+  "its operator's own checkout; writes here only: desks/conductor-jose/**, board/runs/conductor-jose/**",
+  "its operator's own checkout; writes here only: desks/correspondent/front-page.json, content/articles/**, articles/**",
+  "its operator's own checkout; writes here only: desks/local-jose/**, board/runs/local-jose/**, data/organisations/*/organisation.json",
+  "promptugal/promptugal__news__website"
+ ],
+ "agents": [
+  {
+   "role": "conductor",
+   "agent": "conductor@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (20 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "journalist",
+   "agent": "journalist@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "dev",
+   "agent": "dev@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (14 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "ontologist",
+   "agent": "ontologist@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (11 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai",
+    "openrouter.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "outreach",
+   "agent": "outreach@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (1 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "designer",
+   "agent": "designer@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (7 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai",
+    "openrouter.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "observability",
+   "agent": "observability@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (6 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "historian",
+   "agent": "historian@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (2 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "correspondent",
+   "agent": "correspondent@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "devops",
+   "agent": "devops@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (3 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "accountant",
+   "agent": "accountant@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (2 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "security",
+   "agent": "security@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (2 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "sherpa",
+   "agent": "sherpa@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (3 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "librarian",
+   "agent": "librarian@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "synthetic",
+   "agent": "synthetic@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (2 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "abp",
+   "agent": "abp@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (5 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "customers",
+   "agent": "customers@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (0 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "backup",
+   "agent": "backup@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (0 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "researcher",
+   "agent": "researcher@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (2 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.portugal",
+   "agent": "place.portugal@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.algarve",
+   "agent": "place.algarve@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.faro",
+   "agent": "place.faro@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.loule",
+   "agent": "place.loule@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.quarteira",
+   "agent": "place.quarteira@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.silves",
+   "agent": "place.silves@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.tavira",
+   "agent": "place.tavira@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.vila-real-de-santo-antonio",
+   "agent": "place.vila-real-de-santo-antonio@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.portimao",
+   "agent": "place.portimao@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.lagos",
+   "agent": "place.lagos@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.olhao",
+   "agent": "place.olhao@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.albufeira",
+   "agent": "place.albufeira@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.lagoa",
+   "agent": "place.lagoa@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.monchique",
+   "agent": "place.monchique@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.aljezur",
+   "agent": "place.aljezur@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.vila-do-bispo",
+   "agent": "place.vila-do-bispo@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.castro-marim",
+   "agent": "place.castro-marim@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.alcoutim",
+   "agent": "place.alcoutim@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.sao-bras-de-alportel",
+   "agent": "place.sao-bras-de-alportel@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "dev.places",
+   "agent": "dev.places@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (9 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai",
+    "openrouter.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "designer.places",
+   "agent": "designer.places@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (2 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai",
+    "openrouter.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "viz.places",
+   "agent": "viz.places@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (4 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai",
+    "openrouter.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "data.places",
+   "agent": "data.places@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (6 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai",
+    "openrouter.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "detective.places",
+   "agent": "detective.places@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (2 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai",
+    "openrouter.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "ios.places",
+   "agent": "ios.places@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (0 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai",
+    "openrouter.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "datasci.places",
+   "agent": "datasci.places@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (9 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai",
+    "api.ipma.pt",
+    "api.adsb.lol"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.districts",
+   "agent": "place.districts@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (39 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "translator",
+   "agent": "translator@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (3 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.algarve.west",
+   "agent": "place.algarve.west@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (16 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.algarve.central",
+   "agent": "place.algarve.central@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (14 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "place.algarve.east",
+   "agent": "place.algarve.east@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (12 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "conductor.b",
+   "agent": "conductor.b@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (20 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "telemetry.b",
+   "agent": "telemetry.b@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (6 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "data.b",
+   "agent": "data.b@PrompTugal.dinis",
+   "home_repository": "PrompTugal/PrompTugal__News__Data",
+   "writes_home": [
+    "**"
+   ],
+   "writes_this_repository": "only board/team/data.b/** and board/runs/data.b/** (and what it releases through release.sh)",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "weather.b",
+   "agent": "weather.b@PrompTugal.dinis",
+   "home_repository": "PrompTugal/PrompTugal__News__Weather",
+   "writes_home": [
+    "**"
+   ],
+   "writes_this_repository": "only board/team/weather.b/** and board/runs/weather.b/** (and what it releases through release.sh)",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "civic.b",
+   "agent": "civic.b@PrompTugal.dinis",
+   "home_repository": "PrompTugal/PrompTugal__News__Civic",
+   "writes_home": [
+    "**"
+   ],
+   "writes_this_repository": "only board/team/civic.b/** and board/runs/civic.b/** (and what it releases through release.sh)",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "startups.b",
+   "agent": "startups.b@PrompTugal.dinis",
+   "home_repository": "PrompTugal/PrompTugal__News__Startups",
+   "writes_home": [
+    "**"
+   ],
+   "writes_this_repository": "only board/team/startups.b/** and board/runs/startups.b/** (and what it releases through release.sh)",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "travel.b",
+   "agent": "travel.b@PrompTugal.dinis",
+   "home_repository": "PrompTugal/PrompTugal__News__Travel",
+   "writes_home": [
+    "**"
+   ],
+   "writes_this_repository": "only board/team/travel.b/** and board/runs/travel.b/** (and what it releases through release.sh)",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "events.b",
+   "agent": "events.b@PrompTugal.dinis",
+   "home_repository": "PrompTugal/PrompTugal__News__Events",
+   "writes_home": [
+    "**"
+   ],
+   "writes_this_repository": "only board/team/events.b/** and board/runs/events.b/** (and what it releases through release.sh)",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "signals.b",
+   "agent": "signals.b@PrompTugal.dinis",
+   "home_repository": "PrompTugal/PrompTugal__News__Signals",
+   "writes_home": [
+    "**"
+   ],
+   "writes_this_repository": "only board/team/signals.b/** and board/runs/signals.b/** (and what it releases through release.sh)",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "library.b",
+   "agent": "library.b@PrompTugal.dinis",
+   "home_repository": "PrompTugal/PrompTugal__News__Library",
+   "writes_home": [
+    "**"
+   ],
+   "writes_this_repository": "only board/team/library.b/** and board/runs/library.b/** (and what it releases through release.sh)",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "videos.b",
+   "agent": "videos.b@PrompTugal.dinis",
+   "home_repository": "PrompTugal/PrompTugal__News__Videos",
+   "writes_home": [
+    "**"
+   ],
+   "writes_this_repository": "only board/team/videos.b/** and board/runs/videos.b/** (and what it releases through release.sh)",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "live.b",
+   "agent": "live.b@PrompTugal.dinis",
+   "home_repository": "PrompTugal/PrompTugal__News__Live",
+   "writes_home": [
+    "**"
+   ],
+   "writes_this_repository": "only board/team/live.b/** and board/runs/live.b/** (and what it releases through release.sh)",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "cyber.b",
+   "agent": "cyber.b@PrompTugal.dinis",
+   "home_repository": "PrompTugal/PrompTugal__News__Cyber",
+   "writes_home": [
+    "**"
+   ],
+   "writes_this_repository": "only board/team/cyber.b/** and board/runs/cyber.b/** (and what it releases through release.sh)",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "bulletins.b",
+   "agent": "bulletins.b@PrompTugal.dinis",
+   "home_repository": "PrompTugal/PrompTugal__News__Bulletins",
+   "writes_home": [
+    "**"
+   ],
+   "writes_this_repository": "only board/team/bulletins.b/** and board/runs/bulletins.b/** (and what it releases through release.sh)",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "cells.b",
+   "agent": "cells.b@PrompTugal.dinis",
+   "home_repository": "AgentiCCells/AgentiCCells__Site__Factory",
+   "writes_home": [
+    "**"
+   ],
+   "writes_this_repository": "only board/team/cells.b/** and board/runs/cells.b/** (and what it releases through release.sh)",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "writer-10",
+   "agent": "writer-10@PrompTugal.dinis",
+   "home_repository": "SGit-AI/SGit-AI__Website__Newsroom",
+   "writes_home": [
+    "**"
+   ],
+   "writes_this_repository": "only board/team/writer-10/** and board/runs/writer-10/** (and what it releases through release.sh)",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "rights",
+   "agent": "rights@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (6 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "settled"
+  },
+  {
+   "role": "maestro.b",
+   "agent": "maestro.b@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (2 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "gamma-ray",
+   "agent": "gamma-ray@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (0 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "investors",
+   "agent": "investors@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (0 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "reporter.newsroom",
+   "agent": "reporter.newsroom@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (0 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "social.watch",
+   "agent": "social.watch@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (0 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "work-desk",
+   "agent": "work-desk@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (0 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "journalist.newsroom",
+   "agent": "journalist.newsroom@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (0 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "conductor@web-summit.dinis",
+   "agent": "conductor@web-summit.dinis",
+   "home_repository": "its operator's own checkout; writes here only: board/guidance/**, CLAUDE.md",
+   "kind": "external operator agent"
+  },
+  {
+   "role": "reviewer@PrompTugal.vicky",
+   "agent": "reviewer@PrompTugal.vicky",
+   "home_repository": "its operator's own checkout; writes here only: desks/correspondent/front-page.json, content/articles/**, articles/**",
+   "kind": "external operator agent"
+  },
+  {
+   "role": "conductor@PrompTugal.jose",
+   "agent": "conductor@PrompTugal.jose",
+   "home_repository": "its operator's own checkout; writes here only: desks/conductor-jose/**, board/runs/conductor-jose/**",
+   "kind": "external operator agent"
+  },
+  {
+   "role": "local@PrompTugal.jose",
+   "agent": "local@PrompTugal.jose",
+   "home_repository": "its operator's own checkout; writes here only: desks/local-jose/**, board/runs/local-jose/**, data/organisations/*/organisation.json",
+   "kind": "external operator agent"
+  }
+ ]
+}
