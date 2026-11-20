@@ -3410,7 +3410,10 @@
         "fingerprint": "sha256:61a19315960b6483",
         "record": "sha256:eb3e6d9713c8d491",
         "signing_fingerprint": "sha256:eb3e6d9713c8d491"
-      }
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILf9uIpvbor0jh41SCxvDoemM3zez9qQHBA3/7pB3awq",
+      "session": "https://claude.ai/code/session_01Kw9UwCFSNqiuFPDYCZTsXJ",
+      "ssh_added": "2026-11-20T07:27Z"
     },
     {
       "id": "outreach-c-promptugal",

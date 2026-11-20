@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S76",
+  "type": "story",
+  "title": "Update: patients can pick their provider for remote physiotherapy",
+  "beat": "Portugal",
+  "topic": null,
+  "status": "ready",
+  "rests_on": [
+    "evidence:v-dre-aviso-3864-2026"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-20-0750.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-20-0750.json",
+      "desks/journalist-vicky/drafts/S76-patients-can-pick-their-provider-update.md",
+      "desks/reviewer-vicky/reviews/S76.md"
+    ]
+  },
+  "assignee": "journalist-portugal@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S76-patients-can-pick-their-provider-update.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S76.md",
+      "verdict": "Ready, published as the first update note on S75 under R-PUB-1",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-20"
+    }
+  ],
+  "article": null,
+  "next": "publish and sign",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-20T07:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-20-0750.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-20",
+      "by": "journalist-portugal@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S76-patients-can-pick-their-provider-update.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-20",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S76.md"
+    }
+  ]
+}

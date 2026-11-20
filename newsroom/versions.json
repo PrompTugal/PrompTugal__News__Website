@@ -1,5 +1,124 @@
 [
   {
+    "version": "v0.1.1946",
+    "date": "2026-11-20",
+    "what": "abp@PrompTugal.dinis: 09:39 wake: R16 follows security@'s ruling on web-flow merges (PR model); policy v1.18.8; Vicky's reviewer publishing again, ask stands",
+    "by": "abp@PrompTugal.dinis",
+    "from": "19a10cb02"
+  },
+  {
+    "version": "v0.1.1945",
+    "date": "2026-11-20",
+    "what": "telemetry.b@PrompTugal.dinis: wake 09:26 (20 Nov), costs refreshed for 36 sessions, debrief",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "79a4c5e9e"
+  },
+  {
+    "version": "v0.1.1944",
+    "date": "2026-11-20",
+    "what": "outreach@PrompTugal.dinis: Portuguese on-the-record requests for 14 public bodies from the register (5 ready, 9 held for a contact page); daily debrief",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "e2ba58426"
+  },
+  {
+    "version": "v0.1.1943",
+    "date": "2026-11-20",
+    "what": "security@PrompTugal.dinis: wake 09:03: 20 repositories clean; control-10 notes fixed; S72 still unwired",
+    "by": "security@PrompTugal.dinis",
+    "from": "1100c3607"
+  },
+  {
+    "version": "v0.1.1942",
+    "date": "2026-11-20",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "2132c8cf7"
+  },
+  {
+    "version": "v0.1.1941",
+    "date": "2026-11-20",
+    "what": "designer@PrompTugal.dinis: merge dev",
+    "by": "designer@PrompTugal.dinis",
+    "from": "2d87eaca7"
+  },
+  {
+    "version": "v0.1.1940",
+    "date": "2026-11-20",
+    "what": "dev@PrompTugal.dinis: merge dev",
+    "by": "dev@PrompTugal.dinis",
+    "from": "8094c3254"
+  },
+  {
+    "version": "v0.1.1939",
+    "date": "2026-11-20",
+    "what": "correspondent@PrompTugal.dinis: remote physiotherapy story placed in the Portugal beat; the day's debrief",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "a956cda44"
+  },
+  {
+    "version": "v0.1.1938",
+    "date": "2026-11-20",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "bafeadff5"
+  },
+  {
+    "version": "v0.1.1937",
+    "date": "2026-11-20",
+    "what": "maestro.b (account-b): 07:18 fuller brief, launch day: a quiet night; the launch waits on Dinis's decisions",
+    "by": "maestro.b (account-b)",
+    "from": "c49317c08"
+  },
+  {
+    "version": "v0.1.1936",
+    "date": "2026-11-20",
+    "what": "maestro.b (account-b): 01:18 wake: sovereignwebsite.ai on design 1 in EN and PT",
+    "by": "maestro.b (account-b)",
+    "from": "da1ea1e49"
+  },
+  {
+    "version": "v0.1.1935",
+    "date": "2026-11-20",
+    "what": "maestro.b (account-b): 00:18 wake: quiet night; the 20 November hand-over debrief",
+    "by": "maestro.b (account-b)",
+    "from": "cf01f38de"
+  },
+  {
+    "version": "v0.1.1934",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 23:18 wake: SAW's five sites up; the launch waits on Dinis's decisions",
+    "by": "maestro.b (account-b)",
+    "from": "6a2665b28"
+  },
+  {
+    "version": "v0.1.1933",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 22:18 wake: SAW's hosted-site request path built; its first run waits on Dinis",
+    "by": "maestro.b (account-b)",
+    "from": "2b205da4b"
+  },
+  {
+    "version": "v0.1.1932",
+    "date": "2026-11-19",
+    "what": "maestro.b (account-b): 21:18 wake: SAW's Portuguese and designs live; AgentiCCells waits on the agent-name answer",
+    "by": "maestro.b (account-b)",
+    "from": "c9292459b"
+  },
+  {
+    "version": "v0.1.1931",
+    "date": "2026-11-19",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "78e75ba02"
+  },
+  {
+    "version": "v0.1.1930",
+    "date": "2026-11-19",
+    "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-portugal@PrompTugal.vicky",
+    "from": "92eaf9637"
+  },
+  {
     "version": "v0.1.1929",
     "date": "2026-11-19",
     "what": "journalist-portugal@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",

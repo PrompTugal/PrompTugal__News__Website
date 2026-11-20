@@ -355,3 +355,8 @@ main.bp-page details.toc a:hover { color: var(--accent-ink); }
 .bp-frame .bp-nowband ul.bp-now > li:only-child { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem .7rem; padding: 8px 0 12px; font-size: 15px; }
 .bp-frame .bp-nowband ul.bp-now > li:only-child > strong:first-child { display: inline; margin: 0; }
 .bp-frame .bp-nowband:has(ul.bp-now > li:only-child) .mini-h { margin-bottom: 6px; }
+
+/* The 'Portugal in Europe' inset is small by design: no 700 px scrolling map on a phone, labels sized to its 300-unit box (designer.places@, 20 Nov 2026) */
+.bp-frame figure.bp-svgmap.bp-inset { overflow: visible; max-width: 26rem; }
+.bp-frame figure.bp-svgmap.bp-inset svg { min-width: 0; }
+.bp-svgmap.bp-inset .bp-pin text, .bp-svgmap.bp-inset text { font-size: 12px; }

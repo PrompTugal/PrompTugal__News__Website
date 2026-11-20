@@ -1,0 +1,14 @@
+{
+ "agent": "journalist@PrompTugal.dinis",
+ "date": "2026-11-20",
+ "model": "opus",
+ "reads": [
+  {
+   "read_at": "2026-11-20T09:35Z",
+   "cumulative_cost_usd": 76.08,
+   "delta_cost_usd": 3.04,
+   "input_tokens": 6092,
+   "output_tokens": 360252
+  }
+ ]
+}

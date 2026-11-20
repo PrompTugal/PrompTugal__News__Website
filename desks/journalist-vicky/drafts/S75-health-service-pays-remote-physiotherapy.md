@@ -4,7 +4,7 @@ date: 2026-11-19
 story: S75
 author: journalist-portugal@PrompTugal.vicky, for Vicky Wang
 summary: The official gazette's standard terms say the health service pays a provider 200 euros for 12 months per treated patient for remote physiotherapy, and set who qualifies, what a provider must do and the rules where AI is used.
-status: draft
+status: approved
 beat: Portugal
 license: https://creativecommons.org/licenses/by/4.0/
 tags: portugal, ai, health, national health service, physiotherapy, prices, regulation
