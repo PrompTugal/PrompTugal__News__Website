@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1954",
+    "date": "2026-11-20",
+    "what": "maestro.b (account-b): 13:18 fuller brief: SAW's tools and the Algarve move; the email cell waits on Dinis's yes",
+    "by": "maestro.b (account-b)",
+    "from": "26fe1a9a0"
+  },
+  {
     "version": "v0.1.1953",
     "date": "2026-11-20",
     "what": "analyst@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
