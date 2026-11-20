@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Évora: AI and technology in Évora, a university city in the Alentejo whose centre of gravity is the Universidade de Évora, the PACT science park and the public hospital, and what reaches Évora from the Alentejo, Portugal and the world. Independent. Every fact sourced.",
   "gravity": {
@@ -343,7 +343,8 @@
     "The Universidade de Évora's executive course 'AI for Business' with Microsoft Portugal dates from 2022, the HPC chair article from 2021 and PACT's Master ChatGPT course from October 2024, so we treat them as background and could not confirm they are running.",
     "Investors are thin: no venture fund or business angel network tied to Évora was found on a page we opened. The amounts for the EIT Deep Tech Talent grant behind AIRA are not on the pages we read.",
     "Local talent is not filled: no source lists anyone and nobody has agreed to be listed here. PACT runs a Talent Pool of CVs open to its partner companies, which is not public.",
-    "Third pass, 17 Nov 2026: no Évora AI news dated after 16 November turned up in a web search or on PACT's news page (its newest item, a CarbonWise Forum, shows only NOV.2026 and no AI). PACT's feed at pact.pt/feed/ is valid RSS 2.0 (last built 13 November 2026) but held no items when read, so it is listed as a feed that is not yet useful. The council's news page returned only menu text in the first 200,000 characters of 442,727 and no dated AI item; the rest is unread. Gaps above otherwise stand unchanged."
+    "Third pass, 17 Nov 2026: no Évora AI news dated after 16 November turned up in a web search or on PACT's news page (its newest item, a CarbonWise Forum, shows only NOV.2026 and no AI). PACT's feed at pact.pt/feed/ is valid RSS 2.0 (last built 13 November 2026) but held no items when read, so it is listed as a feed that is not yet useful. The council's news page returned only menu text in the first 200,000 characters of 442,727 and no dated AI item; the rest is unread. Gaps above otherwise stand unchanged.",
+    "Fourth pass, 20 Nov 2026: nothing new for the 18 to 20 Nov window. A Voz de Évora (feed read to 2 November; 18 to 20 Nov items are culture, sport, police and waste collection), Diário do Sul (10 items, 19 to 20 Nov, none on AI or technology) and PACT's news page (four November items, no day shown, none on AI) held no AI item. PACT's feed at pact.pt/feed/ is valid but still empty (last built 20 Nov 2026). The university's news page and the council's news were not reread."
   ],
   "voice": {
     "lede": "Évora, ó pá: a city of whitewash, cork oaks and old stones where the machines are learning to speak Portuguese, slowly, calminha, as one does in the Alentejo.",
