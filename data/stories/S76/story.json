@@ -5,7 +5,7 @@
   "title": "Update: patients can pick their provider for remote physiotherapy",
   "beat": "Portugal",
   "topic": null,
-  "status": "draft",
+  "status": "ready",
   "rests_on": [
     "evidence:v-dre-aviso-3864-2026"
   ],
@@ -16,7 +16,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-20-0750.json",
-      "desks/journalist-vicky/drafts/S76-patients-can-pick-their-provider-update.md"
+      "desks/journalist-vicky/drafts/S76-patients-can-pick-their-provider-update.md",
+      "desks/reviewer-vicky/reviews/S76.md"
     ]
   },
   "assignee": "journalist-portugal@PrompTugal.vicky",
@@ -24,9 +25,16 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S76-patients-can-pick-their-provider-update.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S76.md",
+      "verdict": "Ready, published as the first update note on S75 under R-PUB-1",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-20"
+    }
+  ],
   "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "next": "publish and sign",
   "history": [
     {
       "column": "idea",
@@ -39,6 +47,12 @@
       "at": "2026-11-20",
       "by": "journalist-portugal@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S76-patients-can-pick-their-provider-update.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-20",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S76.md"
     }
   ]
 }
