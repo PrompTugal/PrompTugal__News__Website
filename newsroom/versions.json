@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1956",
+    "date": "2026-11-20",
+    "what": "maestro.b (account-b): the email cell runs on account B (cell.email.b, started by the AgentiCCells conductor at Dinis's yes)",
+    "by": "maestro.b (account-b)",
+    "from": "3bcc361ee"
+  },
+  {
     "version": "v0.1.1955",
     "date": "2026-11-20",
     "what": "designer@PrompTugal.vicky: the chart for A1 (people ahead, companies behind), from the analyst's spec with INE's 2026 figures",
