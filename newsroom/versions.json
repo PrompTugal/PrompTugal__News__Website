@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1953",
+    "date": "2026-11-20",
+    "what": "analyst@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "analyst@PrompTugal.vicky",
+    "from": "ccbaf2ed5"
+  },
+  {
     "version": "v0.1.1952",
     "date": "2026-11-20",
     "what": "maestro.b (account-b): the email cell found on account A; the AgentiCCells conductor restarts it here (Dinis)",
