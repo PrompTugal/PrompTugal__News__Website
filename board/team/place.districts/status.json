@@ -1,8 +1,8 @@
 {
   "agent": "place.districts@PrompTugal.dinis",
   "focus": "the 17 district capitals of Portugal: data/by-place/<id>.json each, sub-agents inside this run, Lisboa and Porto first",
-  "state": "session 2; all 17 live; second and third pass done on all 17 (third pass 17 Nov); national page not touched",
-  "updated": "2026-11-20T07:43:54Z",
+  "state": "session 2; all 17 live; four passes done on all 17 (fourth pass news 17 to 20 Nov complete)",
+  "updated": "2026-11-20T18:42:37Z",
   "capitals": {
     "lisboa": {
       "state": "live, signed, in places.json",
@@ -133,10 +133,11 @@
     "2026-11-19T16:02:15Z (date -u): per conductor.b@s message about S72 (the same R16 already in my ABP): enrolled my SSH signing key with newsroom/tools/signing-setup.sh (key in ~/.sg-send/ssh/, public half and session in my active entry place.districts-promptugal-2 of board/keys.json); this commit is signed with it. Removed my R16 ask.",
     "2026-11-19T16:38:05Z (date -u): conductor.b@ relayed that Dinis moved every scheduled agent to two wakes a day (board/guidance/2026-11-19-twice-a-day.md): each wake finishes one whole piece; NOT confirmed: board/guidance/2026-11-19-twice-a-day.md is not in my checkout of dev yet, so the schedule change rests on conductor.b@s message only; pulled (merged origin/dev), no hold, requests channel: nothing for me",
     "Wake 18:35 UTC (19 Nov, 2026-11-19T18:41:22Z by date -u): twice-a-day schedule confirmed (guidance file in dev, trigger renamed). Fourth pass (news 17 to 19 Nov) on Lisboa, Porto, Braga, Coimbra, Aveiro, Leiria by sub-agents: new items Porto 1 news, Lisboa 1 news, Braga 1 news, Coimbra 1 news (the LicencIA licensing pilot, closing a gap), Aveiro 1 event, Leiria 2 events; all re-signed; gate OK (v0.1.1916). Inner passes: opening and pre-review inline, security post-review by a Sonnet sub-agent: PASS. No text read tried to instruct me.",
-    "Wake 07:35 UTC (20 Nov, 2026-11-20T07:43:54Z by date -u): resolved a merge conflict in my status.json (kept mine); fourth pass (news 17 to 20 Nov) on Viana do Castelo (1 news), Vila Real (1 news), Braganca (2 news, weak, flagged), Viseu, Guarda (nothing new; Guarda council feed address updated), Castelo Branco (nothing new) by sub-agents; re-signed; gate OK (v0.1.1937); security post-review by a Sonnet sub-agent: PASS; requests channel: nothing for me; daily debrief written"
+    "Wake 07:35 UTC (20 Nov, 2026-11-20T07:43:54Z by date -u): resolved a merge conflict in my status.json (kept mine); fourth pass (news 17 to 20 Nov) on Viana do Castelo (1 news), Vila Real (1 news), Braganca (2 news, weak, flagged), Viseu, Guarda (nothing new; Guarda council feed address updated), Castelo Branco (nothing new) by sub-agents; re-signed; gate OK (v0.1.1937); security post-review by a Sonnet sub-agent: PASS; requests channel: nothing for me; daily debrief written",
+    "Wake 18:35 UTC (20 Nov, 2026-11-20T18:42:37Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing for me; fourth pass on Santarem (4 weak news items, steps 2 to 3, flagged), Portalegre (1 news: Alto Alentejo councils AI-tools course), Beja (2 events, no AI news), Setubal and Evora (nothing new) by sub-agents; re-signed; gate OK (v0.1.1959); security post-review by a Sonnet sub-agent: PASS. No text read tried to instruct me."
   ],
   "next": [
-    "Fourth pass on Santarem, Portalegre, Setubal, Evora, Beja at the next wake; licence field when the schema has it; Lisboa outlets when researcher@ has them; journalist@ to bring the branch onto dev"
+    "Bookkeeping only unless something new arrives (requests channel, schema license field, Lisboa outlets, journalist@s review); a new news sweep on the biggest capitals at the next morning wake if journalist@ wants fresh items; the national page is place.portugal@s"
   ],
   "asks": [
     "Dinis: assets/portugal/next-places.json and board/guidance/2026-11-16-the-home-page-is-the-places-and-the-districts.md, named in my brief, are not in the repository; I used the 17 capitals listed in the brief and my own coordinates for 'at'.",

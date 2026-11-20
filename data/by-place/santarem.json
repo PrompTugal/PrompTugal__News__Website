@@ -5,7 +5,7 @@
   "kind": "city",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "by": "place.districts@PrompTugal.dinis",
   "mandate": "PrompTugal.news Santarém: AI and technology in Santarém, a district capital on the Tejo whose centre of gravity is agri-food science and the new Campus Tejo, and what reaches Santarém from Portugal, Europe and the world. Independent; every fact sourced.",
   "gravity": {
@@ -39,6 +39,46 @@
     "motif": "Gothic stone, wheat gold, the Tejo floodplain, bulls and horses at the fair, a capital of agriculture"
   },
   "ai_news": [
+    {
+      "title": "Santarém's university presents the first five firms of its innovation ecosystem, to build labs in robotics, health and agrifood",
+      "summary": "At the III Meeting of Innovation Environments of the Portuguese-Speaking Countries, held on 13 November 2026 at CNEMA in Santarém and reported by the Universidade Politécnica de Santarém on 18 November, the university presented the first five companies of its Innovation Ecosystem, which will allow three laboratories in robotics, health and agrifood, tied to Campus Tejo. Organised by RIAL and NGUZU with the university and the municipality.",
+      "date": "2026-11-18",
+      "publisher": "Universidade Politécnica de Santarém",
+      "url": "https://www.ipsantarem.pt/universidade-politecnica-de-santarem-promove-iii-encontro-de-ambientes-de-inovacao-dos-paises-de-lingua-portuguesa/",
+      "read_on": "2026-11-20",
+      "ai_path": "Robotics and health labs in a university innovation ecosystem tied to Campus Tejo; AI is not named in the post, so two steps from AI. The event took place on 13 November; the date is the post date.",
+      "steps": 2
+    },
+    {
+      "title": "Santarém's university takes its Lusophone innovation network to Aveiro TechWeek and plans a March 2027 mission to Recife and a Web Summit spotlight in Paraíba",
+      "summary": "The Universidade Politécnica de Santarém and the RIAL network met a Pernambuco state government delegation at Aveiro TechWeek and visited the Porto Digital hub in Aveiro. A delegation from Santarém, RIAL and NGUZU plans to go to Recife and Paraíba in March 2027, to visit Porto Digital and take part in Web Summit Spotlight Paraíba 2027.",
+      "date": "2026-11-19",
+      "publisher": "Universidade Politécnica de Santarém",
+      "url": "https://www.ipsantarem.pt/universidade-politecnica-de-santarem-reforca-ligacao-a-inovacao-brasileira-na-aveiro-techweek/",
+      "read_on": "2026-11-20",
+      "ai_path": "Tech and innovation ecosystem links, with a Web Summit spotlight event in Brazil planned; AI is not named: three steps from AI.",
+      "steps": 3
+    },
+    {
+      "title": "IN.OVATE, the polytechnics' advanced-training association, is presented in Tomar, Santarém and Caldas da Rainha with 26 programmes including digital transformation",
+      "summary": "The association created by the Universidades Politécnicas of Santarém and Tomar was presented on 16, 17 and 18 November. It starts with 26 programmes (postgraduate courses, executive programmes and micro-credentials) in areas including business management, agriculture, industry, digital transformation and health, with physical hubs in Tomar, Santarém and Caldas da Rainha.",
+      "date": "2026-11-20",
+      "publisher": "Comércio e Notícias",
+      "url": "https://comercioenoticias.pt/in-ovate-apresentada-oficialmente-em-tomar-santarem-e-caldas-da-rainha/",
+      "read_on": "2026-11-20",
+      "ai_path": "Regional advanced training that includes digital transformation; AI is not named, so three steps from AI.",
+      "steps": 3
+    },
+    {
+      "title": "First national 'PRR no Terreno' session on digital transformation in health is held in Santarém",
+      "summary": "SPMS, with ULS Lezíria and local partners, held the first session of the national cycle 'PRR no Terreno: Digital Transformation in Health' on 20 November at the Santarém District Hospital auditorium. The council's health councillor spoke of the 300 million euros of national PRR investment in health's digital transition and of the myULS Lezíria app's usability gold seal.",
+      "date": "2026-11-20",
+      "publisher": "Jornal de Santarém",
+      "url": "https://jornaldesantarem.sapo.pt/noticias/spms-promove-primeira-sessao-nacional-do-prr-no-terreno",
+      "read_on": "2026-11-20",
+      "ai_path": "Digital health systems in a local health unit already linked to a WHO AI-in-health conference (see earlier entry); AI is not named in the article, so two steps from AI.",
+      "steps": 2
+    },
     {
       "title": "Santarém's education school opens a class on text, AI and meaning-making",
       "summary": "The Escola Superior de Educação of the Universidade Politécnica de Santarém held an open class on 7 October 2026, open to the whole community, on how texts produced with AI generate meaning and argument, from the Brazilian textual linguistics perspective, for first-year social education students.",
