@@ -600,6 +600,24 @@
       },
       "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
       "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+    },
+    {
+      "title": "Alcoutim had 49.24 hectares burned in the Algarve's 2026 rural-fire balance",
+      "summary": "Part of the provisional DECIR balance for 1 January to 31 October presented on 18 November: 370 fires across the Algarve (+56%) but a smaller burned area than in 2025. Alcoutim is named in the article.",
+      "date": "2026-11-19",
+      "publisher": "Barlavento",
+      "url": "https://www.barlavento.pt/incendios-rurais-algarve-aumento-area-ardida-2026/",
+      "read_on": "2026-11-19",
+      "significance": "town and region",
+      "ai_path": "no AI",
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms: its footer says all rights reserved (read 2026-11-19); only a short factual summary with the link is shown",
+        "url": "https://www.barlavento.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     }
   ]
 }

@@ -14,5 +14,14 @@
     "id": "Q208201",
     "read_at": "2026-11-18T22:40Z",
     "how": "Wikidata query (instances of London borough, Q211690), read 18 Nov 2026; label \"London Borough of Bromley\""
+  },
+  "at": [
+    0.02,
+    51.4044
+  ],
+  "at_source": {
+    "url": "https://www.wikidata.org/wiki/Q208201",
+    "read_at": "2026-11-19T20:05Z",
+    "how": "Wikidata coordinate location (P625), read by query"
   }
 }

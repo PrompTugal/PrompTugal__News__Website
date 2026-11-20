@@ -71,10 +71,10 @@ reset(); fs.writeFileSync(path.join(R, 'f.txt'), 'f'); sh(R, 'add', 'f.txt'); sh
 const bad = sh(R, 'rev-parse', 'HEAD').trim(); sh(R, 'replace', bad, C1)
 r = trusted(C1); ok(r.status !== 0 && r.stdout.includes(bad.slice(0, 9)), 'a replace object does not hide an unsigned commit'); sh(R, 'replace', '-d', bad)
 // control 10 (security@, ed70bd996): no symlinks, except those listed in A's symlink-exceptions.json
-const EXC = path.join(R, 'newsroom/tools/symlink-exceptions.json'), exc = paths => fs.writeFileSync(EXC, JSON.stringify({ exceptions: paths.map(p => ({ path: p, reason: 'a test' })) }))
+const EXC = path.join(R, 'newsroom/tools/symlink-exceptions.json'), exc = (paths, target = 'a.txt') => fs.writeFileSync(EXC, JSON.stringify({ exceptions: paths.map(p => ({ path: p, target, reason: 'a test' })) }))
 const link = (name, msgText) => { fs.symlinkSync('a.txt', path.join(R, name)); sh(R, 'add', '-A'); sh(R, 'commit', '-q', '-S', '-m', msg(msgText)) }
 reset(); link('pushed-link', 'a pushed symlink')
-r = trusted(C1); ok(r.status !== 0 && /pushed-link \(control 10\)/.test(r.stdout), 'a pushed symlink fails (control 10)')
+r = trusted(C1); ok(r.status !== 0 && /"pushed-link" \(control 10\)/.test(r.stdout), 'a pushed symlink fails (control 10)')
 reset(); fs.symlinkSync('a.txt', path.join(R, 'gone-link')); sh(R, 'add', '-A'); sh(R, 'commit', '-q', '-S', '-m', msg('a symlink, removed in the next commit'))
 fs.rmSync(path.join(R, 'gone-link')); sh(R, 'add', '-A'); sh(R, 'commit', '-q', '-S', '-m', msg('remove it'))
 r = trusted(C1); ok(r.status !== 0 && /gone-link/.test(r.stdout), 'a symlink added and removed again still fails: every commit is read, not only the final tree')
@@ -82,11 +82,20 @@ reset(); exc(['ok-link']); sh(R, 'add', '-A'); sh(R, 'commit', '-q', '-S', '-m',
 link('ok-link', 'the listed symlink')
 r = trusted(X); ok(r.status === 0, 'a symlink listed in the anchor\'s exceptions passes')
 reset(); exc(['ok-link']); fs.symlinkSync('a.txt', path.join(R, 'ok-link')); sh(R, 'add', '-A'); sh(R, 'commit', '-q', '-S', '-m', msg('list it and add it in one push'))
-r = trusted(C1); ok(r.status !== 0 && /ok-link \(control 10\)/.test(r.stdout), 'a symlink listed only in the pushed tree fails (it counts from the next anchor)')
+r = trusted(C1); ok(r.status !== 0 && /"ok-link" \(control 10\)/.test(r.stdout), 'a symlink listed only in the pushed tree fails (it counts from the next anchor)')
 reset(); exc(['nl']); sh(R, 'add', '-A'); sh(R, 'commit', '-q', '-S', '-m', msg('list nl')); const XN = sh(R, 'rev-parse', 'HEAD').trim()
 fs.symlinkSync('a.txt', path.join(R, 'nl\nnl')); sh(R, 'add', '-A'); sh(R, 'commit', '-q', '-S', '-m', msg('a symlink whose name holds a newline'))
 r = trusted(XN); ok(r.status !== 0 && /nl\\nnl/.test(r.stdout), 'a symlink whose name holds a newline is not matched to a listed path line by line')
+reset(); exc(['ok-link']); sh(R, 'add', '-A'); sh(R, 'commit', '-q', '-S', '-m', msg('list ok-link -> a.txt')); const XP = sh(R, 'rev-parse', 'HEAD').trim()
+fs.symlinkSync('/etc/hostname', path.join(R, 'ok-link')); sh(R, 'add', '-A'); sh(R, 'commit', '-q', '-S', '-m', msg('the listed path, pointed elsewhere'))
+r = trusted(XP); ok(r.status !== 0 && /ok-link/.test(r.stdout), 'a listed path pointed at another target fails (the target is pinned)')
+reset(); { const raw = Buffer.from([0x62, 0xe9, 0x2e, 0x74]); fs.symlinkSync('a.txt', Buffer.concat([Buffer.from(R + '/'), raw])); sh(R, 'add', '-A'); sh(R, 'commit', '-q', '-S', '-m', msg('a symlink with a non-UTF-8 name')) }
+r = trusted(C1); ok(r.status !== 0 && /control 10/.test(r.stdout), 'a symlink with a non-UTF-8 name fails')
+reset(); { const W = path.join(T, 'wt'); sh(T, 'clone', '-q', `file://${R}`, W); fs.renameSync(path.join(W, '.git'), path.join(T, 'wt.git')); fs.symlinkSync(path.join(T, 'wt.git'), path.join(W, '.git'))
+  const rr = spawnSync(process.execPath, [path.join(W, 'newsroom/tools/check-signatures.mjs')], { cwd: W, encoding: 'utf8', env: { ...process.env, CHECK_ROOT: W } }); ok(rr.status !== 0 && /"\.git"/.test(rr.stdout), 'a .git that is a symlink at the root is reported, not skipped') }
 reset(); const ART = path.join(T, 'artifact'); fs.mkdirSync(ART); fs.symlinkSync('/etc/hostname', path.join(ART, 'index.html'))
+{ const A2 = path.join(T, 'artifact2'); fs.mkdirSync(path.join(A2, '.git'), { recursive: true }); fs.symlinkSync('/etc/hostname', path.join(A2, '.git', 'config'))
+  const r2 = run('check-signatures-trusted.mjs', R, { ANCHOR: C1, CHECK_ARTIFACT: A2 }); ok(r2.status !== 0 && /artifact holds a symlink, "\.git\/config"/.test(r2.stdout), 'a symlink under a .git folder in an artifact fails (.git is skipped only in the checkout)') }
 r = run('check-signatures-trusted.mjs', R, { ANCHOR: C1, CHECK_ARTIFACT: ART }); ok(r.status !== 0 && /artifact holds a symlink/.test(r.stdout), 'a symlink in a downloaded artifact fails')
 fs.rmSync(T, { recursive: true, force: true })
 if (fails) { console.log(`${fails} failed`); process.exit(1) } else console.log('signatures.test: all passed')

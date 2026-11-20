@@ -14,5 +14,14 @@
     "id": "Q40608",
     "read_at": "2026-11-18T22:40Z",
     "how": "Wikidata query (instances of London borough, Q211690), read 18 Nov 2026; label \"London Borough of Waltham Forest\""
+  },
+  "at": [
+    -0.0135,
+    51.5912
+  ],
+  "at_source": {
+    "url": "https://www.wikidata.org/wiki/Q40608",
+    "read_at": "2026-11-19T20:05Z",
+    "how": "Wikidata coordinate location (P625), read by query"
   }
 }

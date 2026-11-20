@@ -1,0 +1,15 @@
+{
+  "name": "ptmap",
+  "version": "1.0.2",
+  "by": "designer@PrompTugal.dinis",
+  "spec": "board/spec-the-shared-map.md",
+  "files": {
+    "ptmap.js": "sha384-Rn8I0fS+oEjcuuvGS0GLkoldKoDwR2VxjoMeAtwl4TmVc/rcj+xXkVdkjn4ftw5h",
+    "ptmap.css": "sha384-Ji68i1PNka7ujjhJLdOOubmPrwb0k1ECIMOE0GlPDOWK51y5TmfRt7TP1NL4OY4t"
+  },
+  "outline": {
+    "source": "Natural Earth 110m via world-atlas",
+    "licence": "public domain (Natural Earth); world-atlas ISC",
+    "from": "assets/portugal/portugal-outline.json"
+  }
+}

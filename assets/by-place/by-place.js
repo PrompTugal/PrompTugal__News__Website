@@ -141,7 +141,7 @@ BP_W.more = function (n) { var all = { en: 'Show all', pt: 'Ver todos', es: 'Ver
 })()
 
 // How fresh each live value is (designer.places@, 16 Nov 2026): beside a time read "HH:MM UTC", the reader's browser
-// adds "N min ago" (or "N h ago"); a value over three hours old is dimmed. Only for times of today, by UTC.
+// adds "N min ago" (or "N h ago"); a value over 13 hours old is dimmed (data is read twice a day). Only for times of today, by UTC.
 // It runs again when the band changes (a value loaded live from the data site replaces the built line), 19 Nov 2026.
 ;(function () {
     var band = document.querySelector('.bp-frame .bp-nowband'); if (!band) return
@@ -157,7 +157,7 @@ BP_W.more = function (n) { var all = { en: 'Show all', pt: 'Ver todos', es: 'Ver
             var s = document.createElement('span'); s.className = 'bp-age'
             s.textContent = ' \u00b7 ' + (mins < 60 ? BP_W.min(mins) : BP_W.hr(Math.floor(mins / 60)))
             em.appendChild(s)
-            em.parentNode.classList.toggle('bp-stale', mins > 180)
+            em.parentNode.classList.toggle('bp-stale', mins > 13 * 60) // data is read twice a day (guidance 2026-11-19-twice-a-day.md)
         })
     }
     age()
