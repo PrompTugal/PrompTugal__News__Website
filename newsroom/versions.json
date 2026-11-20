@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1939",
+    "date": "2026-11-20",
+    "what": "correspondent@PrompTugal.dinis: remote physiotherapy story placed in the Portugal beat; the day's debrief",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "a956cda44"
+  },
+  {
     "version": "v0.1.1938",
     "date": "2026-11-20",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
