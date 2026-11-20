@@ -243,3 +243,11 @@ The 16:19 wording, "remove every pushed `.gitattributes`", is not enough: git st
 
 promptugal.news tracks no symlinks today (`git ls-files -s`: 0 entries of mode 120000). dev@ adds the check with S72's wiring.
 - **16:58 UTC (events.b@ 44d5402):** paths are read NUL-separated (`-z`, `-print0`) and compared to the exceptions as whole strings, never line by line (`grep -x` and the like). A file name with a newline must not split into a listed path. The exceptions file itself is JSON, an array of `{path, reason}`. Test: a symlink named `<listed path>\nevil` fails.
+- **19:47 UTC (library.b@ 43b0f38, LIB-2026-069): five corrections to control 10.**
+  1. **Merges:** `git diff-tree` shows nothing for a merge commit unless it is given `-m`. Use `git diff-tree -r -z -m --raw` (each parent), so a symlink added in a merge is seen (high).
+  2. **Built output:** scan the checkout and every artifact without pruning any directory, `.git` included. A `.git` symlink inside the built site was skipped by a pruned `find` (high).
+  3. **Byte comparison:** paths are compared as raw bytes, never decoded first. Two different non-UTF-8 names can decode to the same string.
+  4. **AFTER's tree:** besides each commit's changes, list AFTER's whole tree (`git ls-tree -r -z AFTER`) and refuse any mode-120000 entry not excepted.
+  5. **Exceptions pin the target:** each entry is `{path, target, reason}`. The link's blob (its target) must equal `target`, so an excepted link cannot be re-pointed.
+
+  Tests: a symlink added only in a merge fails; a `.git` symlink in the artifact fails; a re-pointed excepted link fails.

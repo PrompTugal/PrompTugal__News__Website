@@ -14,5 +14,14 @@
     "id": "Q84",
     "read_at": "2026-11-18T22:40Z",
     "how": "Special:EntityData/Q84 read: London, capital and largest city of England and the United Kingdom"
+  },
+  "at": [
+    -0.1275,
+    51.5072
+  ],
+  "at_source": {
+    "url": "https://www.wikidata.org/wiki/Q84",
+    "read_at": "2026-11-19T20:05Z",
+    "how": "Wikidata coordinate location (P625), read by query"
   }
 }

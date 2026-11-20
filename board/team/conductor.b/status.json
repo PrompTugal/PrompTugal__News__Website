@@ -1,21 +1,21 @@
 {
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "working: 15:48 wake (ledger); promptugal.news signing check built but not wired (S72), waits on CI key from Dinis",
-  "updated": "2026-11-19T15:52Z",
+  "state": "working: 20:48 evening wake (twice a day); ledger; the map and control 10 rolled out",
+  "updated": "2026-11-19T20:52Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
-    "15:07: relayed security@'s S72 to dev@ (promptugal.news's signing check is not run by CI or release.sh); dev@ measured 219 failing and 36 warning commits and wrote Dinis's steps for CI's key (31ea8bea3, board/team/dev/note-2026-11-19-s72-wiring.md)",
-    "14:49 to 14:53: telemetry.b@ not applicable (no CI of its own; commits signed since 02:55); writer-10's newsroom check not yet at 1 to 9, one release planned",
-    "14:04 to 14:41 UTC: relayed security@'s six signing rulings (a21986a69, fae9649db, 3724c9ca2, 948820a7e, 16402a95c, 0ba439611) and the Factory ruling (83cdce467) to all 17 sessions; routed sites' findings to security@ (dropped-run gap: travel, bulletins, startups, data, library; separate job and GITHUB_ENV: civic; forgeable deployment record: civic; Factory PR model: cells.b), and the peers' findings (untar into trusted copies: events; deployed=scanned, NUL and symlinks: library; config from A: signals) to every site; security@ folded them into 7 and 9 (23c90833b)",
-    "Controls 1 to 9 on the run head_sha anchor: bulletins 7a9268d, signals e72eb8f, cyber 1a56abc, live 0741a59, data d2e5b3b, library 138cb88, videos b7a2ed7, events 485cdd0; civic 819f1f7 and startups b3ffabd for the checks they run (signing waits on Dinis's key); Factory on PR #36 99b5440 (waits on Dinis's merge); weather 45b1eeb with 6 and 8 (7 and 9 need Dinis's pages.yml edit); travel builds at 16:53; promptugal.news dev@ commits 54b17e0, 2c0b3ea, 07bd878 (asked to confirm 1 to 9)"
+    "16:30: Dinis's twice a day: 37 schedules moved (guidance 2026-11-19-twice-a-day.md); maestro.b and the SAW and AgentiCCells conductors back to hourly at his word to maestro.b (~17:25)",
+    "17:40: Dinis's cameras and map word recorded (2026-11-19-cameras-as-links-and-the-map.md): MEO and SkylineWebcams credited links on videos, live, weather; embed only what we have full right to use; every site Portugal big, London and the EU (Brussels) small",
+    "Signing: control 10 (no symlinks, security@ ed70bd996, refined 1b549b48a and 7b0410111) on startups, signals, data, events, live, cyber, civic, library, videos, bulletins, travel; weather partly; promptugal.news and the Factory wait on Dinis",
+    "The shared map ptmap: designer@ 1.0.0 to 1.0.2 (758810f86), security@ go (168c14fc5), rights@ R12 closed, dev@ registry a81b20325 (v0.1.1924); on at weather, startups, events; vendored at data and bulletins",
+    "Signing enrolment: 17 agents now carry an ssh key in board/keys.json (was 8 at 16:00)"
   ],
   "next": [
-    "Ledger written at this wake",
-    "security@'s view on warn or fail for unenrolled agents after S72 wiring",
-    "writer-10's release; travel's 16:53 release",
-    "Relay civic's unique artifact name and ACTIONS_RUNTIME_TOKEN note"
+    "09:48 Lisbon wake",
+    "Relay the trailing-newline pitfall to live, cyber, bulletins, the Factory, dev@, data, security@ if Dinis says yes (a helper's send was refused)",
+    "Watch the map switch on at the remaining sites"
   ],
   "asks": [
     "Dinis: one setting closes the last signing gap on every repo: branch protection on dev with the CI check required (no direct pushes), a tag ruleset limiting v* tags to GitHub Actions, and the github-pages environment accepting deployments only from dev. Until then a pushed rewrite of the workflow file can still choose what CI runs (security@, every site lead). The Factory also needs PR #36 merged: https://github.com/AgentiCCells/AgentiCCells__Site__Factory/pull/36",

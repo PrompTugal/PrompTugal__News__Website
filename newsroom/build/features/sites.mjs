@@ -32,6 +32,12 @@ export function decorate(p) {
 const reg = () => JSON.parse(R('assets/sites/sites.json'))
 // every version's pin, append-only (assets/sites/pins.json; security@, 19 Nov): a site checks its own version's pin
 const PINS = () => JSON.parse(R('assets/sites/pins.json'))
+// the shared map's current version and its files' sha384 (the SRI designer@ published in its manifest)
+const MAPREV = () => reg().map_review || {}
+const MAPV = () => Object.keys(PINS().map || {}).filter(v => /^passed\b/.test(MAPREV()[v] || '')).sort((a, b) => a.localeCompare(b, 'en', { numeric: true })).pop() || null
+const GH = 'https://github.com/promptugal/promptugal__news__website'
+const mapDir = v => `design/shared-map/v${v}`
+const sha384 = p => 'sha384-' + createHash('sha384').update(R(p)).digest('base64')
 // the registry as served: each site's version_url and preview (promptugal.news's under api/v1/ until the root paths are in .gitignore)
 const registry = () => ({ sites: reg().sites.map(s => s.id === 'news' ? { ...s, version_url: `${s.url}api/v1/version.json`, preview: `${s.url}api/v1/preview.svg` }
     : { ...s, version_url: `${s.url}version.json`, preview: `${s.url}preview.svg` }) })
@@ -56,7 +62,12 @@ export function api(ctx) {
         // the one time-zone-to-country table for every site's page views (Dinis, 19 Nov 03:15: no IP lookup)
         obs_tz: { file: 'https://promptugal.news/assets/obs/tz-country.json', integrity: sha('assets/obs/tz-country.json'), version: JSON.parse(R('assets/obs/tz-country.json')).version, zones: Object.keys(JSON.parse(R('assets/obs/tz-country.json')).zones).length, install: S.obs_tz_install,
             // the same shape as bar.versions: versions[v].integrity.<file>; the bare sha256 kept until the sites move
-            versions: Object.fromEntries(Object.entries(PINS().obs_tz).map(([v, x]) => [v, { integrity: { 'tz-country.json': x.integrity }, sha256: x.integrity }])) } } }, ...previewFiles(ctx)]
+            versions: Object.fromEntries(Object.entries(PINS().obs_tz).map(([v, x]) => [v, { integrity: { 'tz-country.json': x.integrity }, sha256: x.integrity }])) },
+        // the shared map, ptmap (designer@'s design/shared-map/; Dinis, 19 Nov 17:40): vendored from this repository, never
+        // loaded from promptugal.news (design/ scripts are not deployed); review: security@'s, before any site vendors it
+        map: { version: MAPV(), files: MAPV() && `${GH}/tree/dev/${mapDir(MAPV())}`, spec: `${GH}/blob/dev/board/spec-the-shared-map.md`,
+            review: MAPV() && MAPREV()[MAPV()], review_note: S.map_review_note, install: S.map_install,
+            versions: Object.fromEntries(Object.entries(PINS().map || {}).map(([v, x]) => [v, { files: `${GH}/tree/dev/${mapDir(v)}`, review: MAPREV()[v] || 'pending: security@', integrity: { ...x } }])) } } }, ...previewFiles(ctx)]
 }
 
 const TPL = () => R('design/sites-bar/preview-template.svg.txt').toString()
@@ -88,12 +99,15 @@ export function validate(gate) {
     const P = PINS(), TZV = JSON.parse(R('assets/obs/tz-country.json')).version
     if (JSON.stringify(P.bar[BAR]) !== JSON.stringify({ js: sha(JS), css: sha(CSS), render: sha(RENDER) })) p.push(`assets/sites/pins.json: the sites bar ${BAR} is not listed with its files' integrity (a new version needs a new number)`)
     if (!P.obs_tz[TZV] || P.obs_tz[TZV].integrity !== sha('assets/obs/tz-country.json')) p.push(`assets/sites/pins.json: tz-country ${TZV} is not listed with its integrity (a new version needs a new number)`)
+    // every listed version of the shared map matches its files (a version never changes bytes)
+    for (const [v, MP] of Object.entries(P.map || {})) for (const f of ['ptmap.js', 'ptmap.css']) { let h = null; try { h = sha384(`${mapDir(v)}/${f}`) } catch { }
+        if (MP[f] !== h) p.push(`assets/sites/pins.json: the shared map ${v}'s ${f} is not listed with its file's integrity (a new version needs a new number)`) }
     // append-only against EVERY committed version of the file, not only HEAD (security@'s S71): an old pin rewritten
     // and committed still fails, however many commits ago
     const ROOT_ = new URL('../../../', import.meta.url).pathname, run = a => execFileSync('git', a, { cwd: ROOT_, stdio: ['ignore', 'pipe', 'ignore'] }).toString()
     let revs = []; try { revs = run(['log', '--format=%H', '--', 'assets/sites/pins.json']).split('\n').filter(Boolean) } catch { }
     for (const h of revs) { let old; try { old = JSON.parse(run(['show', `${h}:assets/sites/pins.json`])) } catch { continue }
-        for (const piece of ['bar', 'obs_tz']) for (const [v, pin] of Object.entries(old[piece] || {})) if (JSON.stringify((P[piece] || {})[v]) !== JSON.stringify(pin)) p.push(`assets/sites/pins.json: ${piece} ${v} differs from its pin in ${h.slice(0, 9)} (the list is append-only)`) }
+        for (const piece of ['bar', 'obs_tz', 'map']) for (const [v, pin] of Object.entries(old[piece] || {})) if (JSON.stringify((P[piece] || {})[v]) !== JSON.stringify(pin)) p.push(`assets/sites/pins.json: ${piece} ${v} differs from its pin in ${h.slice(0, 9)} (the list is append-only)`) }
     // the page-view script's built-in table is the published one
     const T = JSON.parse(R('assets/obs/tz-country.json')).zones, js = R('assets/obs/obs.js').toString(), m = js.match(/const TZ = Object\.assign\(Object\.create\(null\), (\{[^}]*\})\)/)
     if (!m || JSON.stringify(Object.entries(JSON.parse(m[1])).sort()) !== JSON.stringify(Object.entries(T).sort())) p.push('assets/obs/obs.js: its time-zone table is not assets/obs/tz-country.json')

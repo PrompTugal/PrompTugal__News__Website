@@ -93,7 +93,8 @@ for attempt in $(seq 1 "$ATTEMPTS"); do
   elif [ -n "$(git rev-list --merges "origin/$BRANCH..HEAD")" ]; then
     # a worker's branch came in by merge: a rebase would flatten it and re-sign the worker's commits under
     # another key (security@'s S72), so dev is merged in instead, with the releasing agent's trailers
-    SESSION=$(git log -1 --format='%(trailers:key=Claude-Session,valueonly)' --author-date-order "origin/$BRANCH..HEAD" | head -1)
+    # the session published with the releasing agent's own signing key (control 5), never a worker's from the range (security@ 0b49f7742)
+    SESSION=$(AGENT="$AGENT" node -e 'const k=JSON.parse(require("fs").readFileSync("board/keys.json","utf8")).keys.filter(k=>k.agent===process.env.AGENT&&k.ssh&&k.session&&k.status!=="revoked"&&k.status!=="superseded");if(k.length)console.log(k[k.length-1].session)')
     if ! git merge -q --no-ff "origin/$BRANCH" -m "${AGENT}: merge dev
 
 Agent: ${AGENT}${SESSION:+

@@ -1,6 +1,6 @@
 {
  "place": "faro",
- "read_at": "2026-11-19T15:16:58Z",
+ "read_at": "2026-11-19T18:15:49Z",
  "by": "board/tools/local-now.mjs (conductor@PrompTugal.dinis)",
  "about": "Now in this place: (for Faro) adsb.lol (ODbL), with its source and the time read. IPMA weather is on weather.promptugal.news, not here. Not a warning service: follow IPMA (https://www.ipma.pt/) and ANEPC.",
  "station": {
@@ -32,55 +32,87 @@
   "icao": "LPFR",
   "name": "Faro airport",
   "within_nm": 40,
-  "at": "2026-11-19T15:16:58Z",
+  "at": "2026-11-19T18:15:49Z",
   "airline": [
    {
-    "callsign": "AEA89HM",
-    "airline": "AEA",
-    "type": "B789",
-    "alt_ft": 41000,
+    "callsign": "AFR36XY",
+    "airline": "AFR",
+    "type": "A319",
+    "alt_ft": 37000,
     "on_ground": false,
-    "ground_speed_kt": 379.8
+    "ground_speed_kt": 427.2
    },
    {
-    "callsign": "AYR1NG",
-    "airline": "AYR",
-    "type": "P28A",
-    "alt_ft": 10025,
-    "on_ground": false,
-    "ground_speed_kt": 149.1
-   },
-   {
-    "callsign": "CXI8QV",
-    "airline": "CXI",
-    "type": "B738",
-    "alt_ft": 36000,
-    "on_ground": false,
-    "ground_speed_kt": 514.8
-   },
-   {
-    "callsign": "EIN708",
-    "airline": "EIN",
-    "type": "A320",
-    "alt_ft": 36950,
-    "on_ground": false,
-    "ground_speed_kt": 451
-   },
-   {
-    "callsign": "EZY14WU",
-    "airline": "EZY",
-    "type": "A320",
-    "alt_ft": 36000,
-    "on_ground": false,
-    "ground_speed_kt": 460.3
-   },
-   {
-    "callsign": "TOM680",
-    "airline": "TOM",
+    "callsign": "BLX105",
+    "airline": "BLX",
     "type": "B38M",
-    "alt_ft": 39000,
+    "alt_ft": 35000,
     "on_ground": false,
-    "ground_speed_kt": 429.9
+    "ground_speed_kt": 448
+   },
+   {
+    "callsign": "CFG6EH",
+    "airline": "CFG",
+    "type": "A321",
+    "alt_ft": 34000,
+    "on_ground": false,
+    "ground_speed_kt": 489.7
+   },
+   {
+    "callsign": "EJU69GW",
+    "airline": "EJU",
+    "type": "A320",
+    "alt_ft": 38025,
+    "on_ground": false,
+    "ground_speed_kt": 509
+   },
+   {
+    "callsign": "EJU89MC",
+    "airline": "EJU",
+    "type": "A320",
+    "alt_ft": 36050,
+    "on_ground": false,
+    "ground_speed_kt": 496.3
+   },
+   {
+    "callsign": "IBS16SC",
+    "airline": "IBS",
+    "type": "A21N",
+    "alt_ft": 36025,
+    "on_ground": false,
+    "ground_speed_kt": 498.3
+   },
+   {
+    "callsign": "RYR72MQ",
+    "airline": "RYR",
+    "type": "B738",
+    "alt_ft": 34000,
+    "on_ground": false,
+    "ground_speed_kt": 435
+   },
+   {
+    "callsign": "TAP1717",
+    "airline": "TAP",
+    "type": "E190",
+    "alt_ft": 4800,
+    "on_ground": false,
+    "ground_speed_kt": 250.1
+   },
+   {
+    "callsign": "TAY2MN",
+    "airline": "TAY",
+    "type": "B734",
+    "alt_ft": 31975,
+    "on_ground": false,
+    "ground_speed_kt": 351.1
+   },
+   {
+    "callsign": "VLG5MF",
+    "airline": "VLG",
+    "type": "A320",
+    "alt_ft": 35000,
+    "on_ground": false,
+    "ground_speed_kt": 419.4
    }
   ],
   "other_aircraft": 0,
@@ -91,62 +123,62 @@
  "reads": {
   "warnings": {
    "url": null,
-   "at": "2026-11-19T15:16:55Z",
+   "at": "2026-11-19T18:15:46Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "observations": {
    "url": null,
-   "at": "2026-11-19T15:16:55Z",
+   "at": "2026-11-19T18:15:46Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1080500": {
    "url": null,
-   "at": "2026-11-19T15:16:55Z",
+   "at": "2026-11-19T18:15:46Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1080800": {
    "url": null,
-   "at": "2026-11-19T15:16:55Z",
+   "at": "2026-11-19T18:15:46Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1081100": {
    "url": null,
-   "at": "2026-11-19T15:16:55Z",
+   "at": "2026-11-19T18:15:46Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "city-daily-1081505": {
    "url": null,
-   "at": "2026-11-19T15:16:55Z",
+   "at": "2026-11-19T18:15:46Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d0": {
    "url": null,
-   "at": "2026-11-19T15:16:55Z",
+   "at": "2026-11-19T18:15:46Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d1": {
    "url": null,
-   "at": "2026-11-19T15:16:55Z",
+   "at": "2026-11-19T18:15:46Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "fire-risk-d2": {
    "url": null,
-   "at": "2026-11-19T15:16:55Z",
+   "at": "2026-11-19T18:15:46Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "uv": {
    "url": null,
-   "at": "2026-11-19T15:16:55Z",
+   "at": "2026-11-19T18:15:46Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "sea-forecast-d0": {
    "url": null,
-   "at": "2026-11-19T15:16:55Z",
+   "at": "2026-11-19T18:15:46Z",
    "status": "withheld: IPMA is non-commercial use only"
   },
   "adsb": {
    "url": "https://api.adsb.lol/v2/point/37.0144/-7.9659/40",
-   "at": "2026-11-19T15:16:58Z",
+   "at": "2026-11-19T18:15:49Z",
    "status": 200
   }
  }
