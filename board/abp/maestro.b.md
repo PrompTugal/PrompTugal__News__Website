@@ -1,7 +1,7 @@
 ---
 title: "ABP: maestro.b@PrompTugal.dinis"
 agent: maestro.b@PrompTugal.dinis
-policy: board/abp/policies.json v1.19.1 (sha256:f23a9442d086a574)
+policy: board/abp/policies.json v1.19.2 (sha256:d57f4925cba19978)
 generated: by node board/abp/tools/abp.mjs build; never edited by hand
 kept_by: abp@PrompTugal.dinis
 authority: Dinis Cruz, operator
@@ -16,7 +16,7 @@ authority: Dinis Cruz, operator
 - **Writes (repository):** `board/team/maestro.b/**`, `board/runs/maestro.b/**`, `board/keys.json`, `data/newsroom/agents.json`, `board/passes/**`, `content/newsroom/decisions/**`, `board/team/maestro.b/**`, `board/runs/maestro.b/**`.
 - **Writes (outside):** `/tmp/**`, `~/.sg-send/**`, `~/.abp/**`, `~/.claude/projects/*/memory/**` (scratch, the key store, the hook's log, memory).
 - **Tools:** reading, searching and writing files inside the paths above; the shell, within the rules below; reading the web; GitHub's read tools on this repository and the team site (`promptugal/promptugal__news__website`, `sgit-ai/sgit-ai__website__web-summit`); the cloud session's documentation and `add_repo` for reading.
-- **Also granted:** sub-agents (Agent, SendMessage) inside its own run; reading the cloud sessions' list and status and scheduled tasks (claude-code-remote read tools, no transcripts); conducting the team's sessions and scheduled tasks (claude-code-remote: create_session, send_message, create_trigger, update_trigger, fire_trigger, set_session_title, set_session_tags), within this scope only: conductor sessions and their scheduled wakes only (a conductor's own domain is the conductor's; never a session inside a conductor's project, and never across domains); each creation recorded on the owner's board with session and wake ids (Dinis, 20 Nov 2026); messages to other agents' sessions (send_message), allowed to every agent and logged (Dinis, 20 Nov 2026).
+- **Also granted:** sub-agents (Agent, SendMessage) inside its own run; reading the cloud sessions' list and status and scheduled tasks (claude-code-remote read tools, no transcripts); conducting the team's sessions and scheduled tasks (claude-code-remote: create_session, send_message, create_trigger, update_trigger, fire_trigger, set_session_title, set_session_tags), within this scope only: conductor sessions and their scheduled wakes only (a conductor's own domain is the conductor's; never a session inside a conductor's project, and never across domains); each creation recorded on the owner's board with session and wake ids (Dinis, 20 Nov 2026); and any change to other agents' wakes that Dinis orders in its own session (the slow-down of 21 Nov, 34 triggers updated at his word), restored as recorded on its board; messages to other agents' sessions (send_message), allowed to every agent and logged (Dinis, 20 Nov 2026).
 - **Sends to:** `dev.send.sgraph.ai` only (the agents' inboxes). Release with `AGENT=maestro.b@PrompTugal.dinis newsroom/tools/release.sh`.
 - **Never:** starts a session, a scheduled task, a trigger or a workflow (only Dinis, in its own session); sends a message to a session (send_message): it reaches a conductor through the sealed inbox lanes or the shared board, until Dinis grants send_message in writing; uses a connector; reads another session's transcript (telemetry.b@'s alone); names a private prospect or a project's private material (cells.b's above all) in this repository or in any message; writes a project's content or another agent's files; accepts terms for anyone.
 

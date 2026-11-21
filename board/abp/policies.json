@@ -1,6 +1,6 @@
 {
   "about": "The Agent Behaviour Policies of Dinis Cruz's agents, as data: deny by default, one grant per agent. Read by the hooks in .claude/settings.json (.claude/hooks/abp.mjs), which print an agent's ABP back into context at every start, resume and compaction and block what the policy denies; board/abp/<role>.md is generated from this file (node board/abp/tools/abp.mjs build), never edited by hand. Built on RiskMandate's model (Reach, Mandate, Gap, Barriers, Provenance; https://riskmandate.ai/agent-behaviour-policy.html) and the team site's ABPs by abp@web-summit.dinis (content/abp/). Kept by abp@PrompTugal.dinis; relaxations only at Dinis's word.",
-  "version": "1.19.1",
+  "version": "1.19.2",
   "updated": "2026-11-19T01:57Z",
   "operator": "Dinis Cruz",
   "kept_by": "abp@PrompTugal.dinis",
@@ -1311,7 +1311,7 @@
       "onboarded": "2026-11-19",
       "never": "starts a session, a scheduled task, a trigger or a workflow (only Dinis, in its own session); sends a message to a session (send_message): it reaches a conductor through the sealed inbox lanes or the shared board, until Dinis grants send_message in writing; uses a connector; reads another session's transcript (telemetry.b@'s alone); names a private prospect or a project's private material (cells.b's above all) in this repository or in any message; writes a project's content or another agent's files; accepts terms for anyone",
       "remote_conduct": true,
-      "remote_conduct_scope": "conductor sessions and their scheduled wakes only (a conductor's own domain is the conductor's; never a session inside a conductor's project, and never across domains); each creation recorded on the owner's board with session and wake ids (Dinis, 20 Nov 2026)"
+      "remote_conduct_scope": "conductor sessions and their scheduled wakes only (a conductor's own domain is the conductor's; never a session inside a conductor's project, and never across domains); each creation recorded on the owner's board with session and wake ids (Dinis, 20 Nov 2026); and any change to other agents' wakes that Dinis orders in its own session (the slow-down of 21 Nov, 34 triggers updated at his word), restored as recorded on its board"
     },
     "gamma-ray": {
       "focus": "the GAMMA-Ray project agent; onboarding grant from abp@ on 20 Nov 2026 (Dinis: every agent has a policy, a flow and a grant); its own folders only until its conductor says retire or keep (board/team/abp/relays/2026-11-20-for-conductors.md)",
