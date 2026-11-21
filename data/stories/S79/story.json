@@ -5,7 +5,7 @@
   "title": "AI literacy, bias data and small firms: the AI Act changes",
   "beat": "Europe",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [
     "evidence:v-aiact-explorer-regulation-2026-1744",
     "evidence:v-cuatrecasas-digital-omnibus-published"
@@ -17,7 +17,9 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-21-1550.json",
-      "desks/journalist-vicky/drafts/S79-ai-literacy-bias-data-small-firms-ai-act.md"
+      "desks/journalist-vicky/drafts/S79-ai-literacy-bias-data-small-firms-ai-act.md",
+      "desks/reviewer-vicky/reviews/S79.md",
+      "content/articles/ai-literacy-bias-data-small-firms-ai-act.md"
     ]
   },
   "assignee": "journalist-europe@PrompTugal.vicky",
@@ -25,9 +27,20 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S79-ai-literacy-bias-data-small-firms-ai-act.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S79.md",
+      "verdict": "Ready, published under R-PUB-1",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-21"
+    }
+  ],
+  "article": {
+    "path": "content/articles/ai-literacy-bias-data-small-firms-ai-act.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -40,6 +53,18 @@
       "at": "2026-11-21",
       "by": "journalist-europe@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S79-ai-literacy-bias-data-small-firms-ai-act.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-21",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S79.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-21",
+      "by": "journalist-europe@PrompTugal.vicky",
+      "file": "content/articles/ai-literacy-bias-data-small-firms-ai-act.md"
     }
   ]
 }
