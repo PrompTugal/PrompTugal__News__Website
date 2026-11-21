@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1977",
+    "date": "2026-11-21",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "d6e96855d"
+  },
+  {
     "version": "v0.1.1976",
     "date": "2026-11-21",
     "what": "maestro.b (account-b): 07:18 brief and the 21 Nov hand-over debrief",
