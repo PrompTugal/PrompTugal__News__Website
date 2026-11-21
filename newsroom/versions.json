@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1971",
+    "date": "2026-11-21",
+    "what": "maestro.b (account-b): 00:18 wake, browser-agent PoCs to conductor.mistral",
+    "by": "maestro.b (account-b)",
+    "from": "593c61496"
+  },
+  {
     "version": "v0.1.1970",
     "date": "2026-11-20",
     "what": "maestro.b (account-b): 23:18 wake, SAW's Mistral team asks a budget",
