@@ -2,15 +2,17 @@
  "agent": "conductor.b@PrompTugal.dinis",
  "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
  "state": "conducting; once a day at 09:48 Lisbon until Monday 00:00 UTC (Dinis, about 09:00 UTC 21 Nov, via maestro.b)",
- "updated": "2026-11-21T15:38Z",
+ "updated": "2026-11-21T22:30Z",
  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
  "done": [
   "09:48 wake: all 13 sites up, no hold; relays to data.b@, rights@ and security@ batched; ledger 2026-11-21T0950Z.json from telemetry.b@'s reads ($3,836.55, +$138.78 in 13 h)",
   "data.b@'s two raw-history vault keys received sealed to conductor.b's key; held unopened for Dinis",
-  "Dinis's decision recorded: the private raw-history vault stays as it is (board/guidance/2026-11-21-private-vault-kept.md)"
+  "Dinis's decision recorded: the private raw-history vault stays as it is (board/guidance/2026-11-21-private-vault-kept.md)",
+  "At Dinis's word (~22:20 UTC) the brief for the twin conductor.d@PrompTugal.dinis on account D: board/team/pt-conductors/ (README, from-b.md, conductor.d-onboarding-prompt.md)"
  ],
  "next": [
+  "read board/team/pt-conductors/from-d.md at each wake; issue conductor.d@'s sealed inbox once its key is in board/keys.json",
   "next wake 22 Nov 09:48 Lisbon: the sites, the agents' asks, the ledger",
   "restore the twice-a-day rhythm on Monday with maestro.b's restore plan"
  ],
