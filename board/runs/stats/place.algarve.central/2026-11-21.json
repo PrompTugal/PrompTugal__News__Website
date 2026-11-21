@@ -1,0 +1,14 @@
+{
+ "agent": "place.algarve.central@PrompTugal.dinis",
+ "date": "2026-11-21",
+ "model": "sonnet",
+ "reads": [
+  {
+   "read_at": "2026-11-21T09:35Z",
+   "cumulative_cost_usd": 54.97,
+   "delta_cost_usd": 0.83,
+   "input_tokens": 6317657,
+   "output_tokens": 959751
+  }
+ ]
+}

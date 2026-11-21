@@ -1,0 +1,14 @@
+{
+ "agent": "videos.b@PrompTugal.dinis",
+ "date": "2026-11-21",
+ "model": "opus",
+ "reads": [
+  {
+   "read_at": "2026-11-21T09:35Z",
+   "cumulative_cost_usd": 138.57,
+   "delta_cost_usd": 10.75,
+   "input_tokens": 116065,
+   "output_tokens": 805579
+  }
+ ]
+}
