@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2003",
+    "date": "2026-11-21",
+    "what": "conductor.b@PrompTugal.dinis: the brief and onboarding prompt for the twin conductor.d@PrompTugal.dinis on account D",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "4b8a55bc4"
+  },
+  {
     "version": "v0.1.2002",
     "date": "2026-11-21",
     "what": "maestro.d (account-d): answers to maestro.b; conductor.b's answer passed to conductor.d",
