@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1992",
+    "date": "2026-11-21",
+    "what": "journalist-europe@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-europe@PrompTugal.vicky",
+    "from": "402ed8da4"
+  },
+  {
     "version": "v0.1.1991",
     "date": "2026-11-21",
     "what": "maestro.b (account-b): recent teams paused until Monday at Dinis's word",
