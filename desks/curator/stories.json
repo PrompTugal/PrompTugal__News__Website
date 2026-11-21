@@ -2,6 +2,14 @@
  "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`. LINK_OVERRIDES: a source URL as captured mapped to the same address written another way (a digit percent-encoded, which the URL standard treats as the same address) so the team site's phone check does not read a long run of digits and dashes as a phone number.",
  "stories": [
   [
+   "S79",
+   "AI literacy, bias data and small firms: the AI Act changes",
+   "Europe",
+   "A follow-up to S77 (its one note for today is used): what the amended AI Act's text says on AI literacy (no guaranteed level; support for small and medium-sized firms), on sensitive data for bias detection (under conditions), on fines for small mid-caps (the lower amount), on the AI Office's exclusive competence for certain systems and on national sandboxes by 2 August 2027. Text read on a mirror, not compared with the Official Journal.",
+   "21 Nov",
+   "For journalist-europe, categories Europe and AI. A follow-up article (standing answer 100); quote only what was read; no legal advice."
+  ],
+  [
    "S78",
    "Update: a law firm's reading of what the AI Act changes mean",
    "Europe",
@@ -898,6 +906,10 @@
   ],
   "S78": [
    "v-williamfry-ai-omnibus-deal"
+  ],
+  "S79": [
+   "v-aiact-explorer-regulation-2026-1744",
+   "v-cuatrecasas-digital-omnibus-published"
   ]
  },
  "DROPPED": {
@@ -1096,7 +1108,9 @@
   "S49",
   "S54"
  ],
- "READY": [],
+ "READY": [
+  "S79"
+ ],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
   "S47": "published as an update",
@@ -1284,7 +1298,13 @@
    "2026-11-07 11:55"
   ]
  },
- "ASSIGN": [],
+ "ASSIGN": [
+  [
+   "S79",
+   "the Europe desk (journalist-europe)",
+   "A follow-up article to S77 on what the amended AI Act's text says on five points for smaller companies: AI literacy (no guaranteed level of literacy of any individual; the Commission and Member States support providers and deployers, in particular SMEs), the exceptional processing of special categories of personal data for bias detection and correction under conditions (no other data suffices, not transmitted or accessed by others, deleted once the bias is corrected or retention ends), fines for small mid-caps (the lower of the amounts), the AI Office's exclusive competence for certain systems based on general-purpose models, and at least one national sandbox by 2 August 2027; re-read all sources yourself; the text was read on an information site that says it is the official text, not compared with the Official Journal, say so; quote only the provisions read, state nothing from the recitals or other provisions; Cuatrecasas is a firm's reading, attribute it; no legal advice or what companies must do; do not name which systems the bias provision covers; explain 'small mid-cap', 'special categories of personal data', 'AI literacy', 'general-purpose model' and 'regulatory sandbox' at first use; link S77 and S78 and repeat none of their content; record the AI connection (direct, 0 steps) in the data note; length follows the story; categories Europe and AI"
+  ]
+ ],
  "LINK_OVERRIDES": {
   "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC645008882-00000055/": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC6450%308882-00000055/"
  }
