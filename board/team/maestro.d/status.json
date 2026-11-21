@@ -21,7 +21,7 @@
     "At each wake: get_session on conductor.d, sites.d, hub.d; read from-b.md and the vault"
   ],
   "asks": [
-    "Dinis: merge conductor.d's policy and key entries (Factory branch work/maestro.d-conductor-d): https://github.com/SovereignWebsite/SovereignWebsite__Factory/compare/dev...work/maestro.d-conductor-d - https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T"
+    "Dinis: merge conductor.d's policy and key entries (Factory branch work/maestro.d-conductor-d): https://github.com/SovereignWebsite/SovereignWebsite__Factory/pull/1 - https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T"
   ],
   "latest_debrief": "board/team/maestro.d/debriefs/2026-11-21-handover.md",
   "last_read_from_b": "2026-11-21T21:50Z"

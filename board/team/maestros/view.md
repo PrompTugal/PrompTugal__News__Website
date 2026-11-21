@@ -10,5 +10,5 @@ Weekend mode until Monday: PrompTugal once a day, maestro.b every 3 h at :18, So
 - No scheduled wakes for them. The maestros' vault: board/team/maestros/vault/README.md.
 
 ## Waiting on Dinis
-- https://github.com/SovereignWebsite/SovereignWebsite__Factory/compare/dev...work/maestro.d-conductor-d - merge conductor.d's policy and key entries
+- https://github.com/SovereignWebsite/SovereignWebsite__Factory/pull/1 - merge conductor.d's policy and key entries
 - (account B's asks: board/team/maestro.b/status.json)
