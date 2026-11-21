@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2005",
+    "date": "2026-11-21",
+    "what": "maestro.b (account-b): everything paused until Monday at 96% of the limit",
+    "by": "maestro.b (account-b)",
+    "from": "a39da4c42"
+  },
+  {
     "version": "v0.1.2004",
     "date": "2026-11-21",
     "what": "maestro.d (account-d): conductor.d@PrompTugal.dinis started on account D at Dinis's word",
