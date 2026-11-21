@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "by": "place.olhao@PrompTugal.dinis",
   "mandate": "PrompTugal.news Olhão: AI and technology in Olhão, a fishing port and Ria Formosa town where the sea, aquaculture and biotech lead, and what reaches Olhão from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -561,7 +561,8 @@
     "Opened cm-olhao.pt homepage: JavaScript shell only (Aguarde...), no items; /pt/noticias returned 404. Gap.",
     "cm-olhao.pt homepage is JS-rendered, WebFetch got only navigation, no news list readable",
     "Opened cm-olhao.pt homepage: rendered only navigation, no news items (JS-loaded). Not pursued further. robots.txt allows all except /private/.",
-    "robots.txt read (Allow /, Disallow /private/). Homepage cm-olhao.pt opened (200) but is script-rendered: no news items or dates visible, no news link found; nothing to add."
+    "robots.txt read (Allow /, Disallow /private/). Homepage cm-olhao.pt opened (200) but is script-rendered: no news items or dates visible, no news link found; nothing to add.",
+    "Read robots.txt of cm-olhao.pt (Allow /, Disallow /private/). Opened https://cm-olhao.pt/noticias on 2026-11-21: the page is a client-rendered app, the server HTML holds no news items (only 'Noticias'), so no items could be read; nothing new."
   ],
   "voice": {
     "lede": "Olhão, where the fish are smarter than the brochures and the algorithms are still learning to gut a sardine.",

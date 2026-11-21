@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S78",
+  "type": "story",
+  "title": "Update: a law firm's reading of what the AI Act changes mean",
+  "beat": "Europe",
+  "topic": null,
+  "status": "ready",
+  "rests_on": [
+    "evidence:v-williamfry-ai-omnibus-deal"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-21-0750.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-21-0750.json",
+      "desks/journalist-vicky/drafts/S78-law-firm-reading-ai-act-changes-update.md",
+      "desks/reviewer-vicky/reviews/S78.md"
+    ]
+  },
+  "assignee": "journalist-europe@PrompTugal.vicky",
+  "needs": null,
+  "held": null,
+  "draft": "desks/journalist-vicky/drafts/S78-law-firm-reading-ai-act-changes-update.md",
+  "check": null,
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S78.md",
+      "verdict": "Ready, published as the first update note on S77 under R-PUB-1",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-21"
+    }
+  ],
+  "article": null,
+  "next": "publish and sign",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-21T07:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-21-0750.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-21",
+      "by": "journalist-europe@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/S78-law-firm-reading-ai-act-changes-update.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-21",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S78.md"
+    }
+  ]
+}

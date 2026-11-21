@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "by": "place.albufeira@PrompTugal.dinis",
   "mandate": "PrompTugal.news Albufeira: AI and technology in Albufeira, a tourism and hospitality town, and what reaches Albufeira from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -334,7 +334,8 @@
     "Opened cm-albufeira.pt/noticias on retry (first try HTTP 503): newest item 17 Nov 2026 (São Silvestre race, no AI); next 12 Nov. Nothing new with an AI link.",
     "cm-albufeira.pt/noticias 17 Nov 2026 shows 6 items (Sao Silvestre race, Charles storm, sport, Halloween), none with an AI link; 'Carregar Mais' not clicked",
     "Opened cm-albufeira.pt/noticias: 12 items, newest 2026-11-17 (more behind a load-more button, not opened); none on AI or tech (sport, storm Charles notices, culture). robots.txt respected (Drupal admin paths only).",
-    "robots.txt read (www.cm-albufeira.pt; /noticias not disallowed; bare host returns 400). Opened www.cm-albufeira.pt/noticias: 12 items, newest 17 Nov 2026 (sports run); none on AI; nothing for 19-20 Nov. Load-more not opened. No agenda page opened."
+    "robots.txt read (www.cm-albufeira.pt; /noticias not disallowed; bare host returns 400). Opened www.cm-albufeira.pt/noticias: 12 items, newest 17 Nov 2026 (sports run); none on AI; nothing for 19-20 Nov. Load-more not opened. No agenda page opened.",
+    "Read robots.txt of www.cm-albufeira.pt (does not disallow /noticias). Opened https://www.cm-albufeira.pt/noticias on 2026-11-21: 12 items dated 2026-10-27 to 2026-11-17 (sports, Depressao Charles alert, Halloween, police), none about AI within 3 steps; nothing new."
   ],
   "voice": {
     "lede": "Sol, sea and a chatbot to book your sunbed: this is Albufeira, where tourism is the main business and AI is turning up at the front desk.",

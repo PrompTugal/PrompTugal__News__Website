@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "by": "place.faro@PrompTugal.dinis",
   "mandate": "PrompTugal.news Faro: AI and technology in Faro, a university city whose centre of gravity is the Universidade do Algarve, its research and its startup campus, and what reaches Faro from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -1086,7 +1086,8 @@
     "Opened cm-faro.pt/pt/noticias (2 items in window, newest 18 Nov: walkable cities network, diabetes training; no AI) and /pt/agenda/ (titles only; AI events Mentes artificiais and Novembro Digital already in file). ualg.pt/pt/noticias page 1: 10 items 16-19 Nov, newest 19 Nov; opened MetaRed TIC and immersive narratives items, neither mentions AI; Equipa UAlg already in file.",
     "cm-faro.pt news 16-18 Nov (Rede de Cidades que Caminham, diabetes training): no AI; agenda items Mentes artificiais and Novembro Digital already in file; ualg.pt 17-19 Nov items (MetaRed TIC meeting, Walking on Ice immersive film): articles do not mention AI, not added; UAlg news 16 Nov (Equipa UAlg) already present [The ualg.pt items are as read on 19 Nov; ualg.pt was not read on 20 Nov: its robots.txt disallows AI crawlers.]",
     "Opened cm-faro.pt/pt/noticias: 3 items, newest 2026-11-18; none AI. Agenda: 22 events; only two with AI/digital themes, both already in the file (Mentes artificiais, Novembro Digital). Semana dos Artistas, Micro-Folie not AI. robots.txt respected.",
-    "robots.txt read (Disallow only /upload_files/, /upload/). /pt/noticias/: 3 items, newest 18 Nov 2026 (walking cities network), none AI. /pt/agenda/: 22 entries; AI-related ones (Mentes artificiais 1-30 Nov, Novembro Digital 6-30 Nov) already in file; 24, 27, 28 Nov entries (UATI, Promenade, writing club, Moby Dick, repair workshop, organ festival, family Saturday) show no AI link, so not added. Agenda pages carry no descriptions."
+    "robots.txt read (Disallow only /upload_files/, /upload/). /pt/noticias/: 3 items, newest 18 Nov 2026 (walking cities network), none AI. /pt/agenda/: 22 entries; AI-related ones (Mentes artificiais 1-30 Nov, Novembro Digital 6-30 Nov) already in file; 24, 27, 28 Nov entries (UATI, Promenade, writing club, Moby Dick, repair workshop, organ festival, family Saturday) show no AI link, so not added. Agenda pages carry no descriptions.",
+    "www.cm-faro.pt could not open: connection reset by peer on TLS handshake from this environment (robots.txt not readable, so nothing was read)."
   ],
   "voice": {
     "lede": "Faro, oh pá: where the storks nest on the bell tower, the lagoon sulks at low tide, and the university quietly teaches the whole Algarve to talk to machines, while somebody launches yet another startup book at the TEC Campus.",
