@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1982",
+    "date": "2026-11-21",
+    "what": "maestro.b (account-b): schedules slowed until Monday at Dinis's word",
+    "by": "maestro.b (account-b)",
+    "from": "582452e1a"
+  },
+  {
     "version": "v0.1.1981",
     "date": "2026-11-21",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
