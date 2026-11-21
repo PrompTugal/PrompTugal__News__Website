@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1989",
+    "date": "2026-11-21",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "9ec7792e1"
+  },
+  {
     "version": "v0.1.1988",
     "date": "2026-11-21",
     "what": "maestro.b (account-b): 10:18 wake, slow-down working; a vault redaction waits on Dinis",
