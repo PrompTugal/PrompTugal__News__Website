@@ -5,9 +5,10 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-21T15:45:38Z",
-  "state": "15:33 UTC 21 Nov: second slow-down: only the PrompTugal team (once a day), the feedback inbox round and maestro.b's wakes still run until Monday.",
+  "updated": "2026-11-21T16:19:26Z",
+  "state": "16:19 UTC 21 Nov: quiet weekend mode (PrompTugal once a day, inbox relay, maestro.b every 3 h). writer-10 ($175) holds a question on what may be published.",
   "done": [
+    "21 Nov 15:37 UTC: Dinis decided the private raw-history vault stays as it is (conductor.b@PrompTugal.dinis 0ba103793; security@ closed the ask, rescans the public vault at each push)",
     "21 Nov 16:00 UTC: at Dinis's word, the start-stop analysis (data, four charts, a briefing on how the throttle works) in board/team/maestro.b/analysis/2026-11-21-start-stop/, sent to writer-10 for a newsroom.sgit.ai article",
     "21 Nov 15:33 UTC: at Dinis's word, paused the SAW, AgentiCCells and cell.email.b wakes and the Mistral 21:00 reminder until Monday (the Mistral loops were already off); recorded in decisions/2026-11-21-slow-until-monday.md",
     "21 Nov 13:18 UTC: fuller brief briefs/2026-11-21-1318.md",
@@ -67,7 +68,7 @@
     "18:18 wake and hourly: watch the SAW launch and the agenticcells.ai refactor; full briefs at 19:18 and 07:18"
   ],
   "asks": [
-    "Dinis (privacy, first): security@ found 569 personal email addresses in a private raw-history vault (7k4wxa3i); its plan is to redact them through data.b@, re-push and delete the current contents; conductor.b@PrompTugal.dinis waits for your yes - https://claude.ai/code/session_01Kw9UwFbo4iCoohkgnZar9k",
+    "Dinis: writer-10 asks whether some details are fine to publish or should stay out (in its session; likely about the start-stop article or its LangGraph draft) - https://claude.ai/code/session_01Kw9UwBsABC8j7mNaZRUJuQ",
     "Dinis: cell.email.b waits for your yes to put 42d3246 on dev; it has 770k context and cost $27 (from $5), each wake rereading it for nothing; say yes, or let maestro.b pause its wake until you answer - https://claude.ai/code/session_01Kw9UwCqxmrdRhMbq8CNRAG",
     "Dinis: the account's seven-day limit is now at its warning level (seen on AgentiCCells' and conductor.mistral's sessions at 03:15 UTC 21 Nov; it resets Monday 23 Nov 00:00 UTC). conductor.mistral is the fastest spender ($98 since 22:51 UTC). Say if any hourly wake should slow down to keep the launch and Saturday's hackathon going - https://claude.ai/code/session_01Kw9UwFkZvAwG1yRZJhexqX",
     "Dinis: SAW conductor asks: install the sovereignwebsite-transfer App on SovereignWebsite (transfers refused until then); merge factory.b's 97f302f and 7f15876; give your DC Vault manager's session or public key; review accountant.b's hackathon budget; yes or no on talent profiles - https://claude.ai/code/session_01Kw9UwDCS5Px4dXRJUGP9Qu",
