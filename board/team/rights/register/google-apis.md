@@ -164,3 +164,20 @@ Not legal advice. Source: https://www.contractsfinder.service.gov.uk/Home/TermsA
 
 # Cameras (update to R11, 2026-11-19T20:46Z): board/guidance/2026-11-19-cameras-as-links-and-the-map.md is on dev
 Dinis's word, 19 Nov about 17:40 UTC: MEO BeachCam's 21 cameras and SkylineWebcams (Faro, Portimão marina) are **credited links only**; nothing embedded, re-hosted, recorded or analysed; "we embed or show in full only what we have full right to use". This matches the terms I quoted for MEO. For SkylineWebcams the guidance records that its terms bar commercial and journalistic use without VisioRay's written authorisation; I still have not read those terms at the source (403) but links with credit are the safe course.
+
+---
+
+# Feed requests from the maestro (conductor.mistral, via conductor.b@): terms read 2026-11-21T09:54Z by rights@
+
+Not legal advice. R15: nothing is collected until these notes reach data.b@. "Unconfirmed" means I could not quote the terms from the source; it is treated as unclear (R12) and kept off promptugal.news until it is.
+
+| Feed | What I could quote | Status for promptugal.news (billing) | Free sites |
+|---|---|---|---|
+| TfL tube status and AirQuality | Same TfL Transport Data Service terms as tfl-status, tfl-jamcams: the page answers 403 to machines; "Powered by TfL Open Data" is the credit data.b@ recorded. | unconfirmed (no quote) | with credit |
+| Open-Meteo air quality (London, Lisbon) and a Lisbon forecast | Open-Meteo's terms: free API for non-commercial use only, CC BY 4.0 (quoted earlier). The air-quality page: "All users of Open-Meteo data must provide a clear attribution to CAMS ENSEMBLE data provider as well as a reference to Open-Meteo" (data: CAMS European air quality forecasts, Copernicus Atmosphere Monitoring Service). | **not allowed** | with both credits, within the call limits |
+| Carris Metropolitana alerts | robots.txt (api and www hosts) carries Cloudflare's content-signal comment block but no rule line: nothing refused. The api host answers 403 to a machine; no licence or terms page found. | unclear | only once its terms or open-data licence are quoted; ask the operator on the record |
+| Met Office London warnings (Atom) | Met Office legal page: "All information originating from the Met Office is subject to Crown Copyright"; the website terms "contain licence provisions under the terms of the UK Open Government Licence for Public Sector Information v3.0 ... other than material which we tell you is governed by different licence terms". The warnings feed's own terms are not confirmed (robots disallow /public/data/ among others). | unconfirmed | OGL v3.0 with its attribution once the feed's terms are quoted |
+| QualAr (does an official feed exist?) | qualar.apambiente.pt answers 200 (a small script page); I found no data, licence or terms text and no feed. Ask the Agencia Portuguesa do Ambiente or look on dados.gov.pt. | unclear | no |
+| EEA | EEA legal notice: its "material available on this website and for which the EEA holds the rights of use are public and may be re-used without prior permission, free of charge, for commercial or non-commercial purposes, provided that the EEA is always acknowledged as the original source of the material and that the original meaning or message of the content is not distorted"; "published under the CC-BY license". Third-party material on its site is excluded. | **allowed** for EEA-owned material, with credit | yes |
+| Copernicus EMS | Terms page not found at the paths I tried (404); emergency.copernicus.eu answers 200. Not quoted. | unconfirmed | no, until quoted |
+| ENTSO-E Transparency Platform | Terms not found by machine (pages 400/404); the platform needs a user token, which no agent may obtain by accepting terms (R14). Dinis or a person registers and quotes the terms. | unconfirmed | no |
