@@ -2,7 +2,7 @@
   "agent": "place.districts@PrompTugal.dinis",
   "focus": "the 17 district capitals of Portugal: data/by-place/<id>.json each, sub-agents inside this run, Lisboa and Porto first",
   "state": "session 2; all 17 live; four passes done on all 17 (fourth pass news 17 to 20 Nov complete)",
-  "updated": "2026-11-20T18:42:37Z",
+  "updated": "2026-11-21T07:39:41Z",
   "capitals": {
     "lisboa": {
       "state": "live, signed, in places.json",
@@ -134,7 +134,8 @@
     "2026-11-19T16:38:05Z (date -u): conductor.b@ relayed that Dinis moved every scheduled agent to two wakes a day (board/guidance/2026-11-19-twice-a-day.md): each wake finishes one whole piece; NOT confirmed: board/guidance/2026-11-19-twice-a-day.md is not in my checkout of dev yet, so the schedule change rests on conductor.b@s message only; pulled (merged origin/dev), no hold, requests channel: nothing for me",
     "Wake 18:35 UTC (19 Nov, 2026-11-19T18:41:22Z by date -u): twice-a-day schedule confirmed (guidance file in dev, trigger renamed). Fourth pass (news 17 to 19 Nov) on Lisboa, Porto, Braga, Coimbra, Aveiro, Leiria by sub-agents: new items Porto 1 news, Lisboa 1 news, Braga 1 news, Coimbra 1 news (the LicencIA licensing pilot, closing a gap), Aveiro 1 event, Leiria 2 events; all re-signed; gate OK (v0.1.1916). Inner passes: opening and pre-review inline, security post-review by a Sonnet sub-agent: PASS. No text read tried to instruct me.",
     "Wake 07:35 UTC (20 Nov, 2026-11-20T07:43:54Z by date -u): resolved a merge conflict in my status.json (kept mine); fourth pass (news 17 to 20 Nov) on Viana do Castelo (1 news), Vila Real (1 news), Braganca (2 news, weak, flagged), Viseu, Guarda (nothing new; Guarda council feed address updated), Castelo Branco (nothing new) by sub-agents; re-signed; gate OK (v0.1.1937); security post-review by a Sonnet sub-agent: PASS; requests channel: nothing for me; daily debrief written",
-    "Wake 18:35 UTC (20 Nov, 2026-11-20T18:42:37Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing for me; fourth pass on Santarem (4 weak news items, steps 2 to 3, flagged), Portalegre (1 news: Alto Alentejo councils AI-tools course), Beja (2 events, no AI news), Setubal and Evora (nothing new) by sub-agents; re-signed; gate OK (v0.1.1959); security post-review by a Sonnet sub-agent: PASS. No text read tried to instruct me."
+    "Wake 18:35 UTC (20 Nov, 2026-11-20T18:42:37Z by date -u): pulled (merged origin/dev), no hold; requests channel: nothing for me; fourth pass on Santarem (4 weak news items, steps 2 to 3, flagged), Portalegre (1 news: Alto Alentejo councils AI-tools course), Beja (2 events, no AI news), Setubal and Evora (nothing new) by sub-agents; re-signed; gate OK (v0.1.1959); security post-review by a Sonnet sub-agent: PASS. No text read tried to instruct me.",
+    "Wake 07:35 UTC (21 Nov, 2026-11-21T07:39:41Z by date -u): pulled (merged origin/dev; resolved the status.json conflict keeping mine), no hold, gate OK (v0.1.1976); requests channel: nothing for me; nothing new; no sweep (a Saturday, and maestro.b@ reports the seven-day usage limit at warning); daily debrief written (diff is status and debrief only, passes inline)"
   ],
   "next": [
     "Bookkeeping only unless something new arrives (requests channel, schema license field, Lisboa outlets, journalist@s review); a new news sweep on the biggest capitals at the next morning wake if journalist@ wants fresh items; the national page is place.portugal@s"
@@ -150,5 +151,5 @@
     "Dinis: the licence rule of 18 Nov (every item carries a licence link, ours CC BY 4.0, a source's own otherwise) needs a `license` field in data/schemas/by-place.schema.json (not my path) before my 17 files can carry it per item; once ontologist@ or dev@ adds it I will fill it for every news, map, event and source entry (ours: CC BY 4.0; a source: its terms page, linked).",
     "Dinis: R12 and R13 (ABP 1.16.0): my 17 place files carry sources with URLs but no licence link per item, so under R12 the unclear ones should not be published on promptugal.news; please have rights@ review them, or say how my files are to carry licences (the schema has no license field yet)."
   ],
-  "debrief": "board/team/place.districts/debriefs/2026-11-20-handover.md"
+  "debrief": "board/team/place.districts/debriefs/2026-11-21-handover.md"
 }
