@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1978",
+    "date": "2026-11-21",
+    "what": "correspondent@PrompTugal.dinis: EU AI Act simplification story placed in the Europe beat; the day's debrief",
+    "by": "correspondent@PrompTugal.dinis",
+    "from": "deafb586c"
+  },
+  {
     "version": "v0.1.1977",
     "date": "2026-11-21",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
