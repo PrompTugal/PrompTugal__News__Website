@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1974",
+    "date": "2026-11-21",
+    "what": "maestro.b (account-b): 03:18 wake, seven-day limit at warning; data-feed relay",
+    "by": "maestro.b (account-b)",
+    "from": "b36ea8c5c"
+  },
+  {
     "version": "v0.1.1973",
     "date": "2026-11-21",
     "what": "maestro.b (account-b): 02:18 wake, SAW's five asks and a caution on key backups",
