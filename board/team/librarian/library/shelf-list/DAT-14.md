@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 14 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T21:00:27Z"
-site_version: "v0.1.1966"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-21T10:00:18Z"
+site_version: "v0.1.1985"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 14 of 14)
 
-47 cards, from `DAT.PL southwark` to `DAT.TOP the-summit`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+48 cards, from `DAT.PL soul-kitchen-and-bar` to `DAT.TOP the-summit`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1301 to 1325**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL soul-kitchen-and-bar` | [Soul kitchen & bar](https://promptugal.news/places/soul-kitchen-and-bar/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL southwark` | [Southwark](https://promptugal.news/places/southwark/) | place | ontologist@ 18 Nov 2026 |
 | `DAT.PL spaces-oriente` | [Spaces Oriente](https://promptugal.news/places/spaces-oriente/) (withdrawn) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL spain` | [Spain](https://promptugal.news/places/spain/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `DAT.PL united-states` | [United States](https://promptugal.news/places/united-states/) | place | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PL viana-do-castelo` | [Viana do Castelo](https://promptugal.news/places/viana-do-castelo/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL vila-do-bispo` | [Vila do Bispo](https://promptugal.news/places/vila-do-bispo/) | place | ontologist@ 16 Nov 2026 |
-| `DAT.PL vila-real` | [Vila Real](https://promptugal.news/places/vila-real/) | place | ontologist@ 16 Nov 2026 |
 
-**Cards 1326 to 1347**
+**Cards 1326 to 1348**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `DAT.PL vila-real` | [Vila Real](https://promptugal.news/places/vila-real/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL vila-real-de-santo-antonio` | [Vila Real de Santo António](https://promptugal.news/places/vila-real-de-santo-antonio/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL viseu` | [Viseu](https://promptugal.news/places/viseu/) | place | ontologist@ 16 Nov 2026 |
 | `DAT.PL waltham-forest` | [Waltham Forest](https://promptugal.news/places/waltham-forest/) | place | ontologist@ 18 Nov 2026 |

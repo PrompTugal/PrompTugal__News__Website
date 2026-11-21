@@ -21,24 +21,24 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-364 cards (149 current, 0 superseded, 215 withdrawn), from the catalogue generated 2026-11-20T21:00:27Z at site v0.1.1966; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+365 cards (150 current, 0 superseded, 215 withdrawn), from the catalogue generated 2026-11-21T10:00:18Z at site v0.1.1985; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `LIB.AUTH` | 18 |
 | `LIB.CAT` | 81 |
 | `LIB.DESK` | 24 |
-| `LIB.DOC` | 141 |
+| `LIB.DOC` | 142 |
 | `LIB.REAL` | 28 |
 | `LIB.STOCK` | 72 |
 
 Newest five accessions:
 
+- `ACC-20261121-0002` [Hand-over, 20 to 21 November 2026](https://promptugal.news/board/team/librarian/debriefs/2026-11-21-handover.md) (`LIB.DOC 2026-11-21-handover`)
 - `ACC-20261120-0001` [Hand-over, 19 to 20 November 2026](https://promptugal.news/board/team/librarian/debriefs/2026-11-20-handover.md) (`LIB.DOC 2026-11-20-handover`)
 - `ACC-20261119-0077` [Hand-over, 19 November 2026](https://promptugal.news/board/team/librarian/debriefs/2026-11-19-handover.md) (`LIB.DOC 2026-11-19-handover`)
 - `ACC-20261118-0397` [Threat models: the index, and the automations that still lack one (this repository)](https://promptugal.news/board/team/librarian/threat-models-2026-11-18.md) (`LIB.DOC threat-models-2026-11-18`)
 - `ACC-20261118-0396` [Review of library.promptugal.news: its graph schema and anchor ids](https://promptugal.news/board/team/librarian/library-review-2026-11-18.md) (`LIB.DOC library-review-2026-11-18`)
-- `ACC-20261118-0395` [ledger_reading.py](https://promptugal.news/board/team/librarian/ledger_reading.py) (`LIB.DOC ledger_reading`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

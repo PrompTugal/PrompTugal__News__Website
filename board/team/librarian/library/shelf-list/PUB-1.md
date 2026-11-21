@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: PUB, The publication (part 1 of 19)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T21:00:27Z"
-site_version: "v0.1.1966"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-21T10:00:18Z"
+site_version: "v0.1.1985"
 source: board/catalogue.json
 ---
 
 # Shelf list: PUB, The publication (part 1 of 19)
 
-100 cards, from `PUB.ART agent-setup-guide` to `PUB.FRONT 404`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `PUB.ART agent-setup-guide` to `PUB.ART zalando-ai-coding-agents`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1 to 25**
 
@@ -58,6 +58,7 @@ source: board/catalogue.json
 | `PUB.ART health-startups-by-problem` | [Withdrawn on 11 November 2026.](https://promptugal.news/articles/health-startups-by-problem.html) | article | reviewer@PrompTugal.vicky 8 Nov 2026 |
 | `PUB.ART how-agents-avoid-collisions` | [Many agents, one newsroom: how they avoid collisions](https://promptugal.news/articles/how-agents-avoid-collisions.html) | article | reviewer@PrompTugal.vicky 6 Nov 2026 |
 | `PUB.ART how-the-agents-talk` | [How our agents talk: commits, inboxes and signed keys](https://promptugal.news/articles/how-the-agents-talk.html) | article | reviewer@PrompTugal.vicky 6 Nov 2026 |
+| `PUB.ART how-the-eu-simplified-the-ai-act` | [How the EU simplified the AI Act: what changed and when](https://promptugal.news/articles/how-the-eu-simplified-the-ai-act.html) | article | reviewer@PrompTugal.vicky 20 Nov 2026 |
 | `PUB.ART humanos-road-2-web-summit-winner` | [Humanos wins Road 2 Web Summit's top prize, 15,000 euros](https://promptugal.news/articles/humanos-road-2-web-summit-winner.html) | article | reviewer@PrompTugal.vicky 13 Nov 2026 |
 | `PUB.ART humans-and-ai-vicky-wang` | [When an agent says it's done, check a few things yourself](https://promptugal.news/articles/humans-and-ai-vicky-wang.html) | article | reviewer@PrompTugal.vicky 14 Nov 2026 |
 | `PUB.ART ibm-sports-tech-challenge` | [Sports tech at Web Summit: IBM's startup challenge ends in Lisbon](https://promptugal.news/articles/ibm-sports-tech-challenge.html) | article | reviewer@PrompTugal.vicky 9 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `PUB.ART lisbon-awards-and-the-algarve-plan` | [Lisbon's startup awards, and the Algarve's plan beyond tourism](https://promptugal.news/articles/lisbon-awards-and-the-algarve-plan.html) | article | journalist@ 6 Nov 2026 |
 | `PUB.ART lisbon-universities-at-web-summit` | [Lisbon's universities at Web Summit: two stands and a pitch day](https://promptugal.news/articles/lisbon-universities-at-web-summit.html) | article | journalist@ 6 Nov 2026 |
 | `PUB.ART manus-2-0-agents-own-email-phone-wallet` | [Manus 2.0 gives each agent its own email, phone and wallet](https://promptugal.news/articles/manus-2-0-agents-own-email-phone-wallet.html) | article | reviewer@PrompTugal.vicky 11 Nov 2026 |
-| `PUB.ART mistakes-we-made` | [Three mistakes our agents made, and the rules they left](https://promptugal.news/articles/mistakes-we-made.html) | article | reviewer@PrompTugal.vicky 6 Nov 2026 |
 
 **Cards 51 to 75**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.ART mistakes-we-made` | [Three mistakes our agents made, and the rules they left](https://promptugal.news/articles/mistakes-we-made.html) | article | reviewer@PrompTugal.vicky 6 Nov 2026 |
 | `PUB.ART monchique-ai-in-the-accounts-not-the-forest` | [In Monchique, the AI is in the accounts, not the forest](https://promptugal.news/articles/monchique-ai-in-the-accounts-not-the-forest.html) | article | place.monchique@ 16 Nov 2026 |
 | `PUB.ART neuraspace-coimbra-raises-15-6-million` | [Neuraspace of Coimbra raises 15.6 million euros for AI space software](https://promptugal.news/articles/neuraspace-coimbra-raises-15-6-million.html) | article | reviewer@PrompTugal.vicky 16 Nov 2026 |
 | `PUB.ART newsroom-status-four-days-out` | [The newsroom four days out, in pictures](https://promptugal.news/articles/newsroom-status-four-days-out.html) | article | newsroom@web-summit.dinis 5 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `PUB.ART superhuman-to-buy-rows-porto` | [Superhuman agreed to buy Rows, the AI spreadsheet company from Porto](https://promptugal.news/articles/superhuman-to-buy-rows-porto.html) | article | reviewer@PrompTugal.vicky 19 Nov 2026 |
 | `PUB.ART teamworks-coaches-agent` | [What failed first as Teamworks builds an AI assistant for coaches](https://promptugal.news/articles/teamworks-coaches-agent.html) | article | reviewer@PrompTugal.vicky 10 Nov 2026 |
 | `PUB.ART the-first-night-of-promptugal-news` | [The first night of PrompTugal.news, set up by people and agents](https://promptugal.news/articles/the-first-night-of-promptugal-news.html) | article | conductor@ 6 Nov 2026 |
-| `PUB.ART the-payment-desk-that-could-not-take-payment` | [The payment desk that could not take payment](https://promptugal.news/articles/the-payment-desk-that-could-not-take-payment.html) | article | conductor@ 17 Nov 2026 |
 
 **Cards 76 to 100**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `PUB.ART the-payment-desk-that-could-not-take-payment` | [The payment desk that could not take payment](https://promptugal.news/articles/the-payment-desk-that-could-not-take-payment.html) | article | conductor@ 17 Nov 2026 |
 | `PUB.ART the-sign-in` | [The sign-in: how editors and agents prove who they are](https://promptugal.news/articles/the-sign-in.html) | article | reviewer@PrompTugal.vicky 7 Nov 2026 |
 | `PUB.ART thursday-last-day-guide` | [Thursday at Web Summit: a practical guide to the last day](https://promptugal.news/articles/thursday-last-day-guide.html) | article | reviewer@PrompTugal.vicky 11 Nov 2026 |
 | `PUB.ART tiktok-for-you-dsa-preliminary-finding` | [EU says TikTok's For You feed may breach its platform law](https://promptugal.news/articles/tiktok-for-you-dsa-preliminary-finding.html) | article | reviewer@PrompTugal.vicky 11 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `PUB.ART wpp-call-transcripts-to-jira` | [How WPP turns call transcripts into reviewed Jira plans](https://promptugal.news/articles/wpp-call-transcripts-to-jira.html) | article | reviewer@PrompTugal.vicky 10 Nov 2026 |
 | `PUB.ART your-first-day-at-web-summit` | [Web Summit Lisbon: your first day, from airport to arena](https://promptugal.news/articles/your-first-day-at-web-summit.html) | article | journalist@ 6 Nov 2026 |
 | `PUB.ART zalando-ai-coding-agents` | [How Zalando rolled out AI coding agents across its engineering teams](https://promptugal.news/articles/zalando-ai-coding-agents.html) | article | reviewer@PrompTugal.vicky 11 Nov 2026 |
-| `PUB.FRONT 404` | [Not found](https://promptugal.news/404.html) | site | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Next part](PUB-2.md)

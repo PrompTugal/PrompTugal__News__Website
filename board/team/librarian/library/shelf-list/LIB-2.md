@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: LIB, The library (part 2 of 4)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T21:00:27Z"
-site_version: "v0.1.1966"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-21T10:00:18Z"
+site_version: "v0.1.1985"
 source: board/catalogue.json
 ---
 
 # Shelf list: LIB, The library (part 2 of 4)
 
-100 cards, from `LIB.DESK SLIP-20261106-001:2` to `LIB.DOC entities`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `LIB.DESK SLIP-20261106-001:2` to `LIB.DOC desk.test`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 101 to 125**
 
@@ -87,6 +87,7 @@ source: board/catalogue.json
 | `LIB.DOC 2026-11-18-handover` | [Hand-over, 18 November 2026](https://promptugal.news/board/team/librarian/debriefs/2026-11-18-handover.md) | team | librarian@ 18 Nov 2026 |
 | `LIB.DOC 2026-11-19-handover` | [Hand-over, 19 November 2026](https://promptugal.news/board/team/librarian/debriefs/2026-11-19-handover.md) | team | librarian@ 19 Nov 2026 |
 | `LIB.DOC 2026-11-20-handover` | [Hand-over, 19 to 20 November 2026](https://promptugal.news/board/team/librarian/debriefs/2026-11-20-handover.md) | team | librarian@ 19 Nov 2026 |
+| `LIB.DOC 2026-11-21-handover` | [Hand-over, 20 to 21 November 2026](https://promptugal.news/board/team/librarian/debriefs/2026-11-21-handover.md) | team | librarian@ 20 Nov 2026 |
 | `LIB.DOC ARCHITECTURE` | [The architecture of the library of PrompTugal.news](https://promptugal.news/board/team/librarian/library/ARCHITECTURE.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC BLD` | [Finding aid: Build, code and release](https://promptugal.news/board/team/librarian/library/finding-aids/BLD.md) (withdrawn) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC CLAUDE` | [fixture](https://promptugal.news/board/team/librarian/library/tests/fixtures/repo/CLAUDE.md) (withdrawn) | team | librarian@ 6 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `LIB.DOC GDN` | [Finding aid: Guidance (special)](https://promptugal.news/board/team/librarian/library/finding-aids/GDN.md) (withdrawn) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC GEN` | [Finding aid: The repository](https://promptugal.news/board/team/librarian/library/finding-aids/GEN.md) (withdrawn) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC LIB` | [Finding aid: The library](https://promptugal.news/board/team/librarian/library/finding-aids/LIB.md) (withdrawn) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC PUB` | [Finding aid: The publication](https://promptugal.news/board/team/librarian/library/finding-aids/PUB.md) (withdrawn) | team | librarian@ 6 Nov 2026 |
 
 **Cards 176 to 200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `LIB.DOC PUB` | [Finding aid: The publication](https://promptugal.news/board/team/librarian/library/finding-aids/PUB.md) (withdrawn) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC RDR` | [Finding aid: Readers and observability](https://promptugal.news/board/team/librarian/library/finding-aids/RDR.md) (withdrawn) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC READING-ROOM` | [The reading room: how the library of PrompTugal.news is met](https://promptugal.news/board/team/librarian/library/design/READING-ROOM.md) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC README` | [The library of PrompTugal.news: the thirty-second guide](https://promptugal.news/board/team/librarian/library/README.md) | team | librarian@ 6 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `LIB.DOC desk` | [desk.mjs](https://promptugal.news/board/team/librarian/library/build/desk.mjs) | team | librarian@ 6 Nov 2026 |
 | `LIB.DOC desk-health-2026-11-16` | [Desk health, 16 November 2026, 19:40 UTC (first run of the restarted librarian)](https://promptugal.news/board/team/librarian/desk-health-2026-11-16.md) | team | librarian@ 16 Nov 2026 |
 | `LIB.DOC desk.test` | [desk.test.mjs](https://promptugal.news/board/team/librarian/library/tests/desk.test.mjs) | team | librarian@ 6 Nov 2026 |
-| `LIB.DOC entities` | [entities.mjs](https://promptugal.news/board/team/librarian/library/build/lib/entities.mjs) | team | librarian@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](LIB-1.md) | [Next part](LIB-3.md)

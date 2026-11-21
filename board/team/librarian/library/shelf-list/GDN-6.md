@@ -1,8 +1,8 @@
 ---
 title: "Shelf list: GDN, Guidance (special) (part 6 of 7)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T21:00:27Z"
-site_version: "v0.1.1966"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-21T10:00:18Z"
+site_version: "v0.1.1985"
 source: board/catalogue.json
 ---
 

@@ -1,19 +1,20 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 12 of 38)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T21:00:27Z"
-site_version: "v0.1.1966"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-21T10:00:18Z"
+site_version: "v0.1.1985"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 12 of 38)
 
-100 cards, from `TEAM.ROLE 2026-11-06-handover:14` to `TEAM.ROLE 2026-11-08-the-appliance-as-oem`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ROLE 2026-11-06-handover:13` to `TEAM.ROLE 2026-11-08-the-abp-in-every-layer`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 1101 to 1125**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-06-handover:13` | [customers@PrompTugal.dinis, session 1: hand-over debrief, 6 November 2026](https://promptugal.news/board/team/customers/debriefs/2026-11-06-handover.md) | team | customers@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06-handover:14` | [designer@PrompTugal.dinis, session 2: hand-over debrief, 6 November 2026](https://promptugal.news/board/team/designer/debriefs/2026-11-06-handover.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06-handover:15` | [dev.data@PrompTugal.dinis: final hand-over, 6 November 2026](https://promptugal.news/board/team/dev.data/debriefs/2026-11-06-handover.md) | team | dev@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06-handover:16` | [dev.graphs@PrompTugal.dinis: hand-over debrief, 6 November 2026](https://promptugal.news/board/team/dev.graphs/debriefs/2026-11-06-handover.md) | team | dev@ 6 Nov 2026 |
@@ -38,12 +39,12 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-06-library-architecture` | [The library's card and authority file: the ontologist's review](https://promptugal.news/board/team/ontologist/reviews/2026-11-06-library-architecture.md) | team | ontologist@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06-session-1` | [designer@PrompTugal.dinis, session 1: debrief and handover to the next designer session](https://promptugal.news/board/team/designer/debriefs/2026-11-06-session-1.md) | team | designer@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06-the-event-platform` | [Brief: the event personalisation platform, the flagship we could sell for other events](https://promptugal.news/board/team/customers/briefs/2026-11-06-the-event-platform.md) | team | customers@ 6 Nov 2026 |
-| `TEAM.ROLE 2026-11-06-the-personal-newsreel` | [Brief for the conductor: the personal newsreel, and the map of everything published about the summit](https://promptugal.news/board/team/customers/briefs/2026-11-06-the-personal-newsreel.md) | team | customers@ 6 Nov 2026 |
 
 **Cards 1126 to 1150**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-06-the-personal-newsreel` | [Brief for the conductor: the personal newsreel, and the map of everything published about the summit](https://promptugal.news/board/team/customers/briefs/2026-11-06-the-personal-newsreel.md) | team | customers@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06T0345Z` | [2026-11-06T0345Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-06T0345Z.json) (withdrawn) | team | accountant@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06T0650Z` | [2026-11-06T0650Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-06T0650Z.json) (withdrawn) | team | accountant@ 6 Nov 2026 |
 | `TEAM.ROLE 2026-11-06T0950Z` | [2026-11-06T0950Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-06T0950Z.json) (withdrawn) | team | accountant@ 6 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-07-handover:11` | [dev.portugal@PrompTugal.dinis: hand-over debrief, 7 November 2026](https://promptugal.news/board/team/dev.portugal/debriefs/2026-11-07-handover.md) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07-handover:12` | [dev.search hand-over debrief, 7 November 2026 (session 2, account B)](https://promptugal.news/board/team/dev.search/debriefs/2026-11-07-handover.md) | team | dev@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07-handover:13` | [devops@PrompTugal.dinis: hand-over debrief, 7 November 2026](https://promptugal.news/board/team/devops/debriefs/2026-11-07-handover.md) | team | devops@ 7 Nov 2026 |
-| `TEAM.ROLE 2026-11-07-handover:14` | [historian@PrompTugal.dinis, hand-over debrief, 7 November 2026](https://promptugal.news/board/team/historian/debriefs/2026-11-07-handover.md) | team | historian@ 7 Nov 2026 |
 
 **Cards 1151 to 1175**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-07-handover:14` | [historian@PrompTugal.dinis, hand-over debrief, 7 November 2026](https://promptugal.news/board/team/historian/debriefs/2026-11-07-handover.md) | team | historian@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07-handover:15` | [Hand-over: the ontologist, 7 November 2026](https://promptugal.news/board/team/ontologist/debriefs/2026-11-07-handover.md) | team | ontologist@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07-handover:16` | [researcher@PrompTugal.dinis: hand-over debrief, 7 November 2026 (account B session a75a9e23; written 03:25 UTC, refreshed 19:30 UTC)](https://promptugal.news/board/team/researcher/debriefs/2026-11-07-handover.md) | team | researcher@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07-handover:17` | [conductor.b@PrompTugal.dinis: hand-over, 7 November 2026 (session 2, account B)](https://promptugal.news/board/team/conductor.b/debriefs/2026-11-07-handover.md) | team | conductor.b@ 7 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-07T0912Z` | [2026-11-07T0912Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-07T0912Z.json) (withdrawn) | team | conductor.b@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07T0950Z` | [2026-11-07T0950Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-07T0950Z.json) (withdrawn) | team | accountant@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07T1212Z` | [2026-11-07T1212Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-07T1212Z.json) (withdrawn) | team | conductor.b@ 7 Nov 2026 |
-| `TEAM.ROLE 2026-11-07T1250Z` | [2026-11-07T1250Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-07T1250Z.json) (withdrawn) | team | accountant@ 7 Nov 2026 |
 
 **Cards 1176 to 1200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ROLE 2026-11-07T1250Z` | [2026-11-07T1250Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-07T1250Z.json) (withdrawn) | team | accountant@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07T1512Z` | [2026-11-07T1512Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-07T1512Z.json) (withdrawn) | team | conductor.b@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07T1550Z` | [2026-11-07T1550Z.json](https://promptugal.news/board/team/accountant/ledger/2026-11-07T1550Z.json) (withdrawn) | team | accountant@ 7 Nov 2026 |
 | `TEAM.ROLE 2026-11-07T1812Z` | [2026-11-07T1812Z.json](https://promptugal.news/board/team/conductor.b/ledger/2026-11-07T1812Z.json) (withdrawn) | team | conductor.b@ 7 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `TEAM.ROLE 2026-11-08-handover:9` | [Hand-over: dev.verify@PrompTugal.dinis, 8 November 2026](https://promptugal.news/board/team/dev.verify/debriefs/2026-11-08-handover.md) | team | dev@ 8 Nov 2026 |
 | `TEAM.ROLE 2026-11-08-indi-the-budget-focus` | [Memo 1 for conductor@web-summit.indi: the budget focus. RiskMandate's Agent Behaviour Policies shown as cost control, with our own teams as the live case](https://promptugal.news/board/team/conductor.b/memos/2026-11-08-indi-the-budget-focus.md) | team | conductor.b@ 8 Nov 2026 |
 | `TEAM.ROLE 2026-11-08-the-abp-in-every-layer` | [The ABP in every layer, on one Android appliance (draft for Dinis)](https://promptugal.news/board/team/conductor.b/briefs/2026-11-08-the-abp-in-every-layer.md) | team | conductor.b@ 8 Nov 2026 |
-| `TEAM.ROLE 2026-11-08-the-appliance-as-oem` | [Memo 7: the appliance as an OEM and white-label offer for other companies' products](https://promptugal.news/board/team/conductor.b/memos/2026-11-08-the-appliance-as-oem.md) | team | conductor.b@ 8 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-11.md) | [Next part](TEAM-13.md)

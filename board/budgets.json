@@ -2,7 +2,7 @@
  "about": "The budgets of PrompTugal.news: per agent per day, per pass, per loop, kept by accountant@PrompTugal.dinis. Confirmed by Dinis at about 10:15 UTC as a measure; never a reason to stop an agent (about 10:10). Every dollar figure here is API-equivalent: the team runs on a Claude subscription, so it compares runs and agents and is not money spent. Real limits: the subscription's usage limits and the OpenRouter credit (below). Schema: data/schemas/budgets.schema.json (ontologist@).",
  "by": "accountant@PrompTugal.dinis",
  "written": "2026-11-06T03:50Z",
- "updated": "2026-11-20T20:50Z",
+ "updated": "2026-11-21T09:50Z",
  "issue": "WS-177",
  "units": {
   "day": "the UTC day, 00:00 to 24:00; every per_day budget starts again at 00:00 UTC",
@@ -7851,6 +7851,319 @@
      "maestro.b"
     ],
     "new_rows": [],
+    "unmeasured": [],
+    "note": "conductor.b@ share = cumulative minus 172.20; captured, nothing stops; a row new to the readings gets the default line (10; 30 for abp and conductor.b)"
+   },
+   {
+    "read_at": "2026-11-21T09:50Z",
+    "window": "16 Nov 19:28 to 2026-11-21 09:50 UTC (today = since the 2026-11-21 baseline)",
+    "source": "board/team/conductor.b/ledger/2026-11-21T0950Z.json",
+    "total_usd": 3664.35,
+    "since_previous_usd": 138.78,
+    "today_total_usd": 138.78,
+    "rows": [
+     {
+      "agent": "abp",
+      "usd": 43.69,
+      "today_usd": 0.0,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 0.0
+     },
+     {
+      "agent": "bulletins.b",
+      "usd": 123.4,
+      "today_usd": 13.69,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 1.37
+     },
+     {
+      "agent": "cells.b (AgentiCCells team)",
+      "usd": 117.32,
+      "today_usd": 117.32,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 11.73
+     },
+     {
+      "agent": "civic.b",
+      "usd": 159.09,
+      "today_usd": 4.82,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.48
+     },
+     {
+      "agent": "conductor.b",
+      "usd": 329.49,
+      "today_usd": 18.06,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 0.6
+     },
+     {
+      "agent": "correspondent",
+      "usd": 34.44,
+      "today_usd": 1.55,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.15
+     },
+     {
+      "agent": "cyber.b",
+      "usd": 120.2,
+      "today_usd": 6.23,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.62
+     },
+     {
+      "agent": "data.b",
+      "usd": 226.68,
+      "today_usd": 7.23,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.72
+     },
+     {
+      "agent": "datasci.places",
+      "usd": 32.49,
+      "today_usd": 2.49,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.25
+     },
+     {
+      "agent": "designer.places",
+      "usd": 42.38,
+      "today_usd": 1.55,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.15
+     },
+     {
+      "agent": "designer",
+      "usd": 172.75,
+      "today_usd": 0.97,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 0.03
+     },
+     {
+      "agent": "dev.places",
+      "usd": 43.08,
+      "today_usd": 2.9,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.29
+     },
+     {
+      "agent": "dev",
+      "usd": 129.26,
+      "today_usd": 1.97,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 0.07
+     },
+     {
+      "agent": "events.b",
+      "usd": 147.2,
+      "today_usd": 5.24,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.52
+     },
+     {
+      "agent": "journalist",
+      "usd": 82.38,
+      "today_usd": 2.96,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 0.1
+     },
+     {
+      "agent": "librarian",
+      "usd": 51.51,
+      "today_usd": 3.14,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.31
+     },
+     {
+      "agent": "library.b",
+      "usd": 152.8,
+      "today_usd": 5.95,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.59
+     },
+     {
+      "agent": "live.b",
+      "usd": 156.48,
+      "today_usd": 11.5,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 1.15
+     },
+     {
+      "agent": "maestro.b (account-b)",
+      "usd": 50.4,
+      "today_usd": 50.4,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 5.04
+     },
+     {
+      "agent": "newsroom.writer (newsroom.sgit.ai team)",
+      "usd": 146.65,
+      "today_usd": 146.65,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 14.67
+     },
+     {
+      "agent": "ontologist",
+      "usd": 73.31,
+      "today_usd": 2.45,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.25
+     },
+     {
+      "agent": "outreach",
+      "usd": 36.62,
+      "today_usd": 2.16,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.22
+     },
+     {
+      "agent": "place.algarve.central",
+      "usd": 54.97,
+      "today_usd": 0.83,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.08
+     },
+     {
+      "agent": "place.algarve.east",
+      "usd": 44.08,
+      "today_usd": 3.84,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.38
+     },
+     {
+      "agent": "place.algarve.west",
+      "usd": 45.2,
+      "today_usd": 3.51,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.35
+     },
+     {
+      "agent": "place.districts",
+      "usd": 64.72,
+      "today_usd": 2.13,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.21
+     },
+     {
+      "agent": "researcher",
+      "usd": 38.88,
+      "today_usd": 2.31,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.23
+     },
+     {
+      "agent": "rights",
+      "usd": 9.35,
+      "today_usd": 0.0,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.0
+     },
+     {
+      "agent": "security",
+      "usd": 138.03,
+      "today_usd": 4.63,
+      "output_tokens": null,
+      "line_per_day": 30,
+      "used_today": 0.15
+     },
+     {
+      "agent": "sherpa",
+      "usd": 27.29,
+      "today_usd": 1.38,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.14
+     },
+     {
+      "agent": "signals.b",
+      "usd": 113.65,
+      "today_usd": 4.21,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.42
+     },
+     {
+      "agent": "startups.b",
+      "usd": 154.48,
+      "today_usd": 2.79,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.28
+     },
+     {
+      "agent": "translator",
+      "usd": 64.23,
+      "today_usd": 1.81,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.18
+     },
+     {
+      "agent": "travel.b",
+      "usd": 152.18,
+      "today_usd": 7.58,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.76
+     },
+     {
+      "agent": "videos.b",
+      "usd": 138.57,
+      "today_usd": 10.75,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 1.07
+     },
+     {
+      "agent": "weather.b",
+      "usd": 147.1,
+      "today_usd": 4.61,
+      "output_tokens": null,
+      "line_per_day": 10,
+      "used_today": 0.46
+     }
+    ],
+    "over_a_day_line_today": [
+     "bulletins.b",
+     "cells.b (AgentiCCells team)",
+     "live.b",
+     "maestro.b (account-b)",
+     "newsroom.writer (newsroom.sgit.ai team)",
+     "videos.b"
+    ],
+    "new_rows": [
+     "cells.b (AgentiCCells team)",
+     "maestro.b (account-b)",
+     "newsroom.writer (newsroom.sgit.ai team)"
+    ],
     "unmeasured": [],
     "note": "conductor.b@ share = cumulative minus 172.20; captured, nothing stops; a row new to the readings gets the default line (10; 30 for abp and conductor.b)"
    }

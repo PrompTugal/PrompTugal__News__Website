@@ -27,28 +27,28 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-3795 cards (1506 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-20T21:00:27Z at site v0.1.1966; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+3819 cards (1530 current, 2 superseded, 2287 withdrawn), from the catalogue generated 2026-11-21T10:00:18Z at site v0.1.1985; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
 | `RDR.SHERPA` | 31 |
 | `RDR.SYN` | 5 |
-| `TEAM.ABP` | 222 |
+| `TEAM.ABP` | 223 |
 | `TEAM.AGENT` | 27 |
 | `TEAM.BUDGET` | 2 |
 | `TEAM.INBOX` | 162 |
 | `TEAM.KEY` | 2 |
-| `TEAM.ROLE` | 2131 |
+| `TEAM.ROLE` | 2154 |
 | `TEAM.RUN` | 1212 |
 | `TEAM.SCHED` | 1 |
 
 Newest five accessions:
 
-- `ACC-20261120-0063` [snirh-apa.md](https://promptugal.news/board/team/outreach/sources-requests/official/snirh-apa.md) (`TEAM.ROLE snirh-apa`)
-- `ACC-20261120-0062` [Evening pass, 20 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-20/evening-items.md) (`TEAM.ROLE evening-items:3`)
-- `ACC-20261120-0061` [edia-alqueva-dados.md](https://promptugal.news/board/team/outreach/sources-requests/official/edia-alqueva-dados.md) (`TEAM.ROLE edia-alqueva-dados`)
-- `ACC-20261120-0060` [dgadr-albufeiras-hidroagricolas.md](https://promptugal.news/board/team/outreach/sources-requests/official/dgadr-albufeiras-hidroagricolas.md) (`TEAM.ROLE dgadr-albufeiras-hidroagricolas`)
-- `ACC-20261120-0059` [apa-monitorizacao-agrometeorologica-hidrologica.md](https://promptugal.news/board/team/outreach/sources-requests/official/apa-monitorizacao-agrometeorologica-hidrologica.md) (`TEAM.ROLE apa-monitorizacao-agrometeorologica-hidrologica`)
+- `ACC-20261121-0028` [thames-water-reservoir-levels.md](https://promptugal.news/board/team/outreach/sources-requests/official/thames-water-reservoir-levels.md) (`TEAM.ROLE thames-water-reservoir-levels`)
+- `ACC-20261121-0027` [southbank-centre.md](https://promptugal.news/board/team/outreach/sources-requests/official/southbank-centre.md) (`TEAM.ROLE southbank-centre`)
+- `ACC-20261121-0026` [Morning pass, 21 November 2026](https://promptugal.news/board/team/place.algarve.west/drafts/2026-11-21/morning-items.md) (`TEAM.ROLE morning-items:2`)
+- `ACC-20261121-0025` [london-gov-uk-events.md](https://promptugal.news/board/team/outreach/sources-requests/official/london-gov-uk-events.md) (`TEAM.ROLE london-gov-uk-events`)
+- `ACC-20261121-0024` [city-of-london-corporation.md](https://promptugal.news/board/team/outreach/sources-requests/official/city-of-london-corporation.md) (`TEAM.ROLE city-of-london-corporation`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

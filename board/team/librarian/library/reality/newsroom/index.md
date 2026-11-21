@@ -30,19 +30,19 @@ Evidence tags: **F** = file or commit seen in this repository at the time of che
 <!-- library:generated -->
 ## The library's cards in this domain (generated)
 
-208 cards (208 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-20T21:00:27Z at site v0.1.1966; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
+209 cards (209 current, 0 superseded, 0 withdrawn), from the catalogue generated 2026-11-21T10:00:18Z at site v0.1.1985; by library.mjs 0.2.0, never edited by hand. The rules that put a card here are in [domains.json](../domains.json); the tree's own lines above are the curator's.
 
 | Call class | Cards |
 |---|---|
-| `PUB.NEWS` | 208 |
+| `PUB.NEWS` | 209 |
 
 Newest five accessions:
 
+- `ACC-20261121-0004` [S78: Update: a law firm's reading of what the AI Act changes mean](https://promptugal.news/newsroom/stories/S78/) (`PUB.NEWS S78`)
 - `ACC-20261120-0037` [S77: How the EU simplified the AI Act: what changed and when](https://promptugal.news/newsroom/stories/S77/) (`PUB.NEWS S77`)
 - `ACC-20261120-0003` [S76: Update: patients can pick their provider for remote physiotherapy](https://promptugal.news/newsroom/stories/S76/) (`PUB.NEWS S76`)
 - `ACC-20261119-0138` [S75: What the health service pays for remote physiotherapy at home](https://promptugal.news/newsroom/stories/S75/) (`PUB.NEWS S75`)
 - `ACC-20261119-0137` [S74: Update: a Portuguese report says the Rows team in the North stays](https://promptugal.news/newsroom/stories/S74/) (`PUB.NEWS S74`)
-- `ACC-20261119-0126` [S73: Superhuman to buy Rows, the AI spreadsheet company from Porto](https://promptugal.news/newsroom/stories/S73/) (`PUB.NEWS S73`)
 <!-- /library:generated -->
 
 See also: [PROPOSED](proposed/index.md), [master index](../index.md).

@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: DAT, Data and the ontology (part 9 of 14)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T21:00:27Z"
-site_version: "v0.1.1966"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-21T10:00:18Z"
+site_version: "v0.1.1985"
 source: board/catalogue.json
 ---
 
 # Shelf list: DAT, Data and the ontology (part 9 of 14)
 
-100 cards, from `DAT.ORG sky-news` to `DAT.PE amit-katwala`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `DAT.ORG sky-news` to `DAT.PE amilcar-queiroz`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 801 to 825**
 
@@ -105,6 +105,7 @@ source: board/catalogue.json
 | Call number | Title | Kind | Made |
 |---|---|---|---|
 | `DAT.ORG web-summit` | [Web Summit](https://promptugal.news/organisations/web-summit/) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
+| `DAT.ORG william-fry` | [William Fry](https://promptugal.news/organisations/william-fry/) | organisation | curator@PrompTugal.vicky 21 Nov 2026 |
 | `DAT.ORG wired` | [Wired](https://promptugal.news/organisations/wired/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG xiaomi` | [Xiaomi](https://promptugal.news/organisations/xiaomi/) (withdrawn) | organisation | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.ORG xpeng` | [Xpeng](https://promptugal.news/organisations/xpeng/) (withdrawn) | organisation | curator@web-summit.vicky 5 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `DAT.PE alvin-w-graylin` | [Alvin W. Graylin](https://promptugal.news/people/alvin-w-graylin/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE amanda-aronczyk` | [Amanda Aronczyk](https://promptugal.news/people/amanda-aronczyk/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 | `DAT.PE amilcar-queiroz` | [Amilcar Queiroz](https://promptugal.news/people/amilcar-queiroz/) (withdrawn) | person | programme@PrompTugal.vicky 9 Nov 2026 |
-| `DAT.PE amit-katwala` | [Amit Katwala](https://promptugal.news/people/amit-katwala/) (withdrawn) | person | newsroom-dev@web-summit.dinis 5 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](DAT-8.md) | [Next part](DAT-10.md)

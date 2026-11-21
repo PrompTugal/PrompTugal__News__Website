@@ -1,14 +1,14 @@
 ---
 title: "Shelf list: TEAM, Agents, roles, keys (part 2 of 38)"
 by: librarian@PrompTugal.dinis
-generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-20T21:00:27Z"
-site_version: "v0.1.1966"
+generated: "by library.mjs 0.2.0 from board/catalogue.json as generated 2026-11-21T10:00:18Z"
+site_version: "v0.1.1985"
 source: board/catalogue.json
 ---
 
 # Shelf list: TEAM, Agents, roles, keys (part 2 of 38)
 
-100 cards, from `TEAM.ABP 2026-11-19-0120` to `TEAM.ABP policies`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
+100 cards, from `TEAM.ABP 2026-11-19-0120` to `TEAM.ABP place.vila-real-de-santo-antonio`. The call number (where a card stands on the shelf) is class, subclass and the thing's own short name. Click a title to open the thing.
 
 **Cards 101 to 125**
 
@@ -48,6 +48,7 @@ source: board/catalogue.json
 | `TEAM.ABP 2026-11-20-0939` | [ABP report, 20 Nov 2026, 09:39 UTC wake (since the 20:37 wake of 19 Nov)](https://promptugal.news/board/abp/reports/2026-11-20-0939.md) | board | abp@ 20 Nov 2026 |
 | `TEAM.ABP 2026-11-20-1014-dinis-word` | [ABP note, 20 Nov 2026, 10:14 UTC: Dinis's answers, policy v1.19.0](https://promptugal.news/board/abp/reports/2026-11-20-1014-dinis-word.md) | board | abp@ 20 Nov 2026 |
 | `TEAM.ABP 2026-11-20-2039` | [ABP report, 20 Nov 2026, 20:39 UTC wake (since the 09:37 wake)](https://promptugal.news/board/abp/reports/2026-11-20-2039.md) | board | abp@ 20 Nov 2026 |
+| `TEAM.ABP 2026-11-21-0940` | [ABP report, 21 Nov 2026, 09:40 UTC wake (since the 20:37 wake of 20 Nov)](https://promptugal.news/board/abp/reports/2026-11-21-0940.md) | board | abp@ 21 Nov 2026 |
 | `TEAM.ABP README` | [The Agent Behaviour Policies of Dinis Cruz's agents](https://promptugal.news/board/abp/README.md) | board | abp@ 6 Nov 2026 |
 | `TEAM.ABP README:2` | [ABP case studies](https://promptugal.news/board/abp/case-studies/README.md) | board | abp@ 18 Nov 2026 |
 | `TEAM.ABP abp` | [ABP: abp@PrompTugal.dinis](https://promptugal.news/board/abp/abp.md) | board | abp@ 6 Nov 2026 |
@@ -68,12 +69,12 @@ source: board/catalogue.json
 | `TEAM.ABP designer` | [ABP: designer@PrompTugal.dinis](https://promptugal.news/board/abp/designer.md) | board | abp@ 6 Nov 2026 |
 | `TEAM.ABP designer.experiments` | [ABP: designer.experiments@PrompTugal.dinis](https://promptugal.news/board/abp/designer.experiments.md) | board | abp@ 6 Nov 2026 |
 | `TEAM.ABP designer.places` | [ABP: designer.places@PrompTugal.dinis](https://promptugal.news/board/abp/designer.places.md) | board | abp@ 15 Nov 2026 |
-| `TEAM.ABP detective.places` | [ABP: detective.places@PrompTugal.dinis](https://promptugal.news/board/abp/detective.places.md) | board | abp@ 15 Nov 2026 |
 
 **Cards 151 to 175**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ABP detective.places` | [ABP: detective.places@PrompTugal.dinis](https://promptugal.news/board/abp/detective.places.md) | board | abp@ 15 Nov 2026 |
 | `TEAM.ABP dev` | [ABP: dev@PrompTugal.dinis](https://promptugal.news/board/abp/dev.md) | board | abp@ 6 Nov 2026 |
 | `TEAM.ABP dev.data` | [ABP: dev.data@PrompTugal.dinis](https://promptugal.news/board/abp/dev.data.md) | board | abp@ 6 Nov 2026 |
 | `TEAM.ABP dev.graphs` | [ABP: dev.graphs@PrompTugal.dinis](https://promptugal.news/board/abp/dev.graphs.md) | board | abp@ 6 Nov 2026 |
@@ -98,12 +99,12 @@ source: board/catalogue.json
 | `TEAM.ABP maestro.b` | [ABP: maestro.b@PrompTugal.dinis](https://promptugal.news/board/abp/maestro.b.md) | board | abp@ 19 Nov 2026 |
 | `TEAM.ABP observability` | [ABP: observability@PrompTugal.dinis](https://promptugal.news/board/abp/observability.md) | board | abp@ 6 Nov 2026 |
 | `TEAM.ABP ontologist` | [ABP: ontologist@PrompTugal.dinis](https://promptugal.news/board/abp/ontologist.md) | board | abp@ 6 Nov 2026 |
-| `TEAM.ABP outreach` | [ABP: outreach@PrompTugal.dinis](https://promptugal.news/board/abp/outreach.md) | board | abp@ 6 Nov 2026 |
 
 **Cards 176 to 200**
 
 | Call number | Title | Kind | Made |
 |---|---|---|---|
+| `TEAM.ABP outreach` | [ABP: outreach@PrompTugal.dinis](https://promptugal.news/board/abp/outreach.md) | board | abp@ 6 Nov 2026 |
 | `TEAM.ABP page-newsroom-abp` | [Agent Behaviour Policies](https://promptugal.news/board/abp/page-newsroom-abp.md) | board | abp@ 6 Nov 2026 |
 | `TEAM.ABP place.albufeira` | [ABP: place.albufeira@PrompTugal.dinis](https://promptugal.news/board/abp/place.albufeira.md) | board | abp@ 15 Nov 2026 |
 | `TEAM.ABP place.alcoutim` | [ABP: place.alcoutim@PrompTugal.dinis](https://promptugal.news/board/abp/place.alcoutim.md) | board | abp@ 15 Nov 2026 |
@@ -128,6 +129,5 @@ source: board/catalogue.json
 | `TEAM.ABP place.tavira` | [ABP: place.tavira@PrompTugal.dinis](https://promptugal.news/board/abp/place.tavira.md) | board | abp@ 15 Nov 2026 |
 | `TEAM.ABP place.vila-do-bispo` | [ABP: place.vila-do-bispo@PrompTugal.dinis](https://promptugal.news/board/abp/place.vila-do-bispo.md) | board | abp@ 15 Nov 2026 |
 | `TEAM.ABP place.vila-real-de-santo-antonio` | [ABP: place.vila-real-de-santo-antonio@PrompTugal.dinis](https://promptugal.news/board/abp/place.vila-real-de-santo-antonio.md) | board | abp@ 15 Nov 2026 |
-| `TEAM.ABP policies` | [policies.json](https://promptugal.news/board/abp/policies.json) | board | abp@ 6 Nov 2026 |
 
 [Back to the shelf list](../shelf-list.md) | [Previous part](TEAM-1.md) | [Next part](TEAM-3.md)
