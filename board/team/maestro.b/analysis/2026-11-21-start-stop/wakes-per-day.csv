@@ -1,0 +1,12 @@
+from_utc,regime,wakes_per_day,how_counted
+2026-11-06T22:00Z,account B's first team (12 agents hourly to every 4 h plus its conductor),172,estimate from the stop report's list
+2026-11-09T23:36Z,THE BIG STOP (one conductor every 2 h),12,stop report
+2026-11-10T02:40Z,THE RESTART,172,estimate (same schedules back on)
+2026-11-16T15:26Z,paused for the account move,0,34 tasks disabled on account A
+2026-11-16T19:25Z,restarted on account B and grown to 37 tasks,560,twice-a-day guidance (before figure)
+2026-11-19T16:30Z,twice a day,76,twice-a-day guidance (after figure)
+2026-11-19T17:25Z,full speed for three conductors,142,76 less 6 plus 3 hourly
+2026-11-20T15:12Z,plus the email cell hourly,166,list_triggers
+2026-11-21T01:00Z,plus the Mistral loops and the feedback inbox overnight,254,estimate: 166 plus three hourly Mistral loops and about 16 inbox rounds
+2026-11-21T09:08Z,slow until Monday,83,list_triggers after the change
+2026-11-21T15:33Z,second step,59,list_triggers after the change
