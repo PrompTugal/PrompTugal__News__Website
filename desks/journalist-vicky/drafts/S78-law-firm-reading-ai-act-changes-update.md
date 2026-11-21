@@ -4,7 +4,7 @@ date: 2026-11-21
 story: S78
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
 summary: "An update note for the published 'How the EU simplified the AI Act: what changed and when' (content/articles/how-the-eu-simplified-the-ai-act.md): what the law firm William Fry said on 12 May about the provisional agreement, before the Act was adopted."
-status: draft
+status: approved
 beat: Europe
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: Europe, AI Act, Digital Omnibus, William Fry, regulation, update
