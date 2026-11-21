@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "by": "place.sao-bras-de-alportel@PrompTugal.dinis",
   "mandate": "PrompTugal.news São Brás de Alportel: AI and technology in São Brás de Alportel, a hill town of cork heritage, a costume museum and a municipal push to digitise, and what reaches São Brás de Alportel from the Algarve, Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -480,7 +480,8 @@
     "Opened cm-sbras.pt/pt/noticias-listagem.aspx page 1 of 5: 6 items, newest 16 Nov, none AI; CCDR visit already in file. Other pages not seen.",
     "cm-sbras.pt listing 6-16 Nov: nothing with AI; the 16 Nov CCDR item already in file",
     "Opened cm-sbras.pt/pt/noticias-listagem.aspx page 1: 6 items, newest 2026-11-16; none new with AI link (the 16 Nov CCDR item already in file). robots.txt 404 (no restrictions stated).",
-    "robots.txt returns 404 (no rules). /pt/noticias-listagem.aspx page 1: 6 items, newest 16 Nov 2026; none AI; the 16 Nov CCDR visit is already in file. Pages 2-5 not opened. No agenda opened."
+    "robots.txt returns 404 (no rules). /pt/noticias-listagem.aspx page 1: 6 items, newest 16 Nov 2026; none AI; the 16 Nov CCDR visit is already in file. Pages 2-5 not opened. No agenda opened.",
+    "www.cm-sbras.pt could not open: connection reset by peer on TLS handshake from this environment (robots.txt not readable, so nothing was read)."
   ],
   "voice": {
     "lede": "Cork, costumes and a quiet pinch of artificial intelligence, aqui na serra, com calma.",
