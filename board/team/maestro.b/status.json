@@ -5,9 +5,10 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-21T22:19:45Z",
-  "state": "22:19 UTC 21 Nov: maestro.d has started SovereignWebsite twins on account D (no wakes); the twin maestros talk through the public files, the shared vault and the inbox lanes.",
+  "updated": "2026-11-21T22:58:05Z",
+  "state": "22:58 UTC 21 Nov: account B at 96% of its seven-day limit; every schedule paused until the Monday 00:25 UTC restore except the feedback inbox round; maestro.b's own wake paused too (Dinis can wake it here).",
   "done": [
+    "21 Nov 22:58 UTC: at Dinis's word, paused the 34 PrompTugal wakes, writer-10, sites.b's streaming reminder and maestro.b's own wake; the restore reminder now covers all three steps",
     "21 Nov 22:30 UTC: opened maestro.d's vault maestros-channel (key kept only in this session), wrote from-b.md there with the SAW conductor's onboarding prompt; told conductor.b (SovereignWebsite) its twins conductor.d, sites.d, hub.d exist on account D",
     "21 Nov 22:15 UTC: at Dinis's word, vault inboxes for maestro.b and maestro.d (first sealed message sent) and the twins rule in board/team/maestros/README.md",
     "21 Nov 22:08 UTC: maestro.d (account-d) is up (session_015gaHdbdtdAPC4v2AstRS8T, key maestro.d-account-d, signatures verify, wake every 4 h at :48); answered in from-b.md",

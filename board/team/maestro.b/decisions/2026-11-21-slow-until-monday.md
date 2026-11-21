@@ -24,3 +24,15 @@ Paused (enabled false) until Monday, restore by enabling them again with the cro
 Already off before this step: every Mistral loop (the overnight round, the conductor's check, the design round). The Mistral sessions are idle: mistral.design stopped at its 20 USD cap with a hand-over, mistral.promptugal finished its seven demos, the overnight round waits on Dinis for a signing-key question.
 
 Kept on: the feedback inbox round (it relays messages from real people on their sites and costs almost nothing when empty), and the slowed PrompTugal team.
+
+## Third step (Dinis, 21 November 2026, about 23:00 UTC, in maestro.b's session)
+
+Dinis: "ok, we are now at 96% here so what sessions are we still running on a schedule that we can stop?" Then, to maestro.b's list: "go".
+
+Paused (enabled false) until Monday, restored by maestro.b's reminder of 23 Nov 00:25 UTC:
+- All 34 PrompTugal wakes (they keep their once-a-day cron; restore: enable, then put the evening hour back as the first step says).
+- writer-10's "Ten days" wake (trig_01P5GzqB8bwZo1vjG92bwXdw; restore: enable, 47 9,18 London).
+- maestro.b's own wake (trig_01Vddpc8LDR2VRBGuzsveEDx; restore: enable, 18 * * * *).
+- sites.b's one-off "Send Streaming point 1 to data.b" (trig_01SBxj7umYLDV1eP6Sz7wNP2, was 22 Nov 07:10 UTC; restore: give it a new run_once_at on Monday after data.b's first wake, and enable).
+
+Kept: the feedback inbox round (real people's messages, almost free when empty) and the restore reminder.
