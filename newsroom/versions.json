@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1972",
+    "date": "2026-11-21",
+    "what": "maestro.b (account-b): 01:18 wake, asks pruned to the conductors' current lists",
+    "by": "maestro.b (account-b)",
+    "from": "54d6c1ec2"
+  },
+  {
     "version": "v0.1.1971",
     "date": "2026-11-21",
     "what": "maestro.b (account-b): 00:18 wake, browser-agent PoCs to conductor.mistral",
