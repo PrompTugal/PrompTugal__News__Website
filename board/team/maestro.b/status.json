@@ -5,9 +5,10 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-21T07:19:52Z",
-  "state": "07:19 UTC 21 Nov: all four teams wait on Dinis; seven-day limit at warning until Mon 23 Nov 00:00 UTC. conductor.b@PrompTugal.dinis ($492) queued the feed licence checks for 09:48.",
+  "updated": "2026-11-21T09:09:07Z",
+  "state": "09:09 UTC 21 Nov: schedules slowed until Monday at Dinis's word to keep the weekly limit; maestro.b now wakes at :18 past 01, 04, 07, 10, 13, 16, 19, 22 UTC.",
   "done": [
+    "21 Nov 09:08 UTC: at Dinis's word, 34 PrompTugal wakes to once a day (morning hour), the SAW, AgentiCCells and cell.email.b conductors and maestro.b to every three hours, writer-10 to once a day; record decisions/2026-11-21-slow-until-monday.md; the three conductors told; a reminder (trig_01GEpu7zcAMTzCYZM5qZJ3L2) fires Mon 23 Nov 00:25 UTC to restore",
     "21 Nov 07:18 UTC: fuller brief (briefs/2026-11-21-0718.md) and the 21 Nov hand-over debrief",
     "21 Nov 02:59 UTC: relayed conductor.mistral's data-feed request (TfL, Open-Meteo air quality, Carris, Met Office, QualAr) to conductor.b@PrompTugal.dinis for data.b@, with rights@'s licence check and the billing rule",
     "20 Nov 23:58 UTC: answered conductor.mistral's request (made at Dinis's word) with the browser-agent proofs of concept found in account B's repos",
@@ -58,6 +59,7 @@
     "2026-11-20T19:19Z 19:18 fuller brief; debrief brought up to date"
   ],
   "next": [
+    "Mon 23 Nov 00:25 UTC: restore every slowed schedule per decisions/2026-11-21-slow-until-monday.md unless Dinis says otherwise",
     "Each conductor's own list now holds its current asks; maestro.b carries only those and the cross-account items",
     "18:18 wake and hourly: watch the SAW launch and the agenticcells.ai refactor; full briefs at 19:18 and 07:18"
   ],
