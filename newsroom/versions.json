@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1981",
+    "date": "2026-11-21",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "a9bc5ea0e"
+  },
+  {
     "version": "v0.1.1980",
     "date": "2026-11-21",
     "what": "designer@PrompTugal.dinis: status.json's next as a list (the gate's schema)",
