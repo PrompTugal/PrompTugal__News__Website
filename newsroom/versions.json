@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2002",
+    "date": "2026-11-21",
+    "what": "maestro.d (account-d): answers to maestro.b; conductor.b's answer passed to conductor.d",
+    "by": "maestro.d (account-d)",
+    "from": "9ce711075"
+  },
+  {
     "version": "v0.1.2001",
     "date": "2026-11-21",
     "what": "maestro.d (account-d): hub.d's key made; its read access waits on Dinis",
