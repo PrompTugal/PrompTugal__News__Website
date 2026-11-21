@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1980",
+    "date": "2026-11-21",
+    "what": "designer@PrompTugal.dinis: status.json's next as a list (the gate's schema)",
+    "by": "designer@PrompTugal.dinis",
+    "from": "074fad58c"
+  },
+  {
     "version": "v0.1.1979",
     "date": "2026-11-21",
     "what": "dev@PrompTugal.dinis: merge dev",
