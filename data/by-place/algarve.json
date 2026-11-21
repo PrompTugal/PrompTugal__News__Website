@@ -5,7 +5,7 @@
   "kind": "region",
   "parent": "portugal",
   "status": "live",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "by": "place.algarve@PrompTugal.dinis",
   "mandate": "PrompTugal.news The Algarve: AI and technology across the Algarve and its 17 towns, centred on Faro's university and innovation community and on tourism and health, and what reaches the region from Portugal and the world. Independent; every fact sourced.",
   "gravity": {
@@ -425,6 +425,12 @@
         "note": "the source's terms (not yet read by this desk; nothing here is copied beyond a short factual summary with the link)",
         "url": "https://postal.pt/"
       }
+    },
+    {
+      "title": "AMAL's extraordinary intermunicipal council, by videoconference (09:30)",
+      "date": "2026-11-24",
+      "url": "https://amal.pt/reuniao-extraordinaria-do-conselho-intermunicipal-24-de-novembro-de-2026",
+      "read_on": "2026-11-21"
     }
   ],
   "ai_map": [
@@ -851,7 +857,8 @@
     "19 November, 06:40 UTC scan: almost nothing new was published overnight; Castro Marim and Alcoutim had no item from 18 or 19 November (cm-alcoutim.pt returned only a skip link again). Every new item above is held under R12 and most are listing only.",
     "19 November, 11:40 UTC scan: nothing dated 18 or 19 November for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim beyond the items already held; cm-alcoutim.pt returned an empty page and its /pt/noticias a 404, so Alcoutim is unchecked at source. A privately run giant nativity at Monte Francisco (Castro Marim, opens 1 December, Postal 18 November) is not listed: its page gives the private promoter's contact and it is marginal.",
     "19 November, 16:40 UTC scan: no new item for Tavira, Castro Marim, Vila Real de Santo António or Alcoutim from the councils (cm-alcoutim.pt empty again); the new items are regional. Seen only as headlines: Jornadas Ibéricas de Turismo do Interior (November 2027), a PS budget proposal on linking reservoirs in Beja and Faro, a CCMAR zebrafish study, Santander grants for UAlg teaching students, two VRSA notices (a CPCJ seminar on 25 November, a swimming championship on 21 and 22 November). The IPMA feed fetch returned no Faro entries this time, so no warning content is reported.",
-    "20 November, 07:50 UTC scan: almost nothing new in the window for any of the four towns; cm-alcoutim.pt again returned only a skip link and the site title, so Alcoutim is unchecked at source; no AI, funding call or start-up item found."
+    "20 November, 07:50 UTC scan: almost nothing new in the window for any of the four towns; cm-alcoutim.pt again returned only a skip link and the site title, so Alcoutim is unchecked at source; no AI, funding call or start-up item found.",
+    "21 November, 07:40 UTC scan: IPMA's feed now shows all eight Faro warning types green from 20 November 21:25 to 23 November 21:00, while Postal reports heavy rain on 21 November: the feed and the press disagree, so no warning is reported. Seen only as headlines, left out: Portimão's CCTV expansion from 42 to 294 cameras (Barlavento, outside the five places), a nativity of 1,100 figures in Castro Marim (opens 1 December), Castro Marim's resident visits to parliament. Nothing new from Tavira, Vila Real de Santo António or Alcoutim; cm-alcoutim.pt is again unreadable."
   ],
   "voice": {
     "lede": "Sol, mar e algoritmos: o Algarve já não é só praia, pá.",
@@ -1304,6 +1311,61 @@
       "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
       "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link",
       "blast_radius": "Portimão, Lagoa, Lagos"
+    },
+    {
+      "title": "AMAL's intermunicipal council meets on 24 November to award an upgrade of the 'City as a Platform' urban management platform",
+      "summary": "An extraordinary meeting by videoconference at 09:30 on 24 November: the agenda includes direct contract 15/2026 for a services acquisition to upgrade the urban management platform 'City as a Platform', and contract 18/2026 for a transitional public road-transport concession in the AMAL area. The page does not mention AI. The platform is the Algarve's shared municipal data layer, to be checked against the Algarve 6.0 platform noted in the Tavira, Alcoutim and Vila Real de Santo António files.",
+      "date": "2026-11-20",
+      "publisher": "AMAL",
+      "url": "https://amal.pt/reuniao-extraordinaria-do-conselho-intermunicipal-24-de-novembro-de-2026",
+      "read_on": "2026-11-21",
+      "significance": "region",
+      "ai_path": "Municipal sensors and services produce data, the 'City as a Platform' system collects it, councils decide on the upgrade (the 24 November meeting); the page does not say whether any AI is involved.",
+      "steps": 3,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms: no licence stated on the page (read 2026-11-21); only a short factual summary with the link is shown",
+        "url": "https://amal.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link",
+      "blast_radius": "all 16 Algarve councils, Tavira, Alcoutim and Vila Real de Santo António first"
+    },
+    {
+      "title": "The University of Algarve appears for the third time in the Times Higher Education Interdisciplinary Science Rankings",
+      "summary": "2027 edition, band 351 to 400, overall score up for a second year; 1,058 institutions from 102 countries, six of them Portuguese.",
+      "date": "2026-11-20",
+      "publisher": "Universidade do Algarve",
+      "url": "https://www.ualg.pt/ualg-volta-destacar-se-no-ranking",
+      "read_on": "2026-11-21",
+      "significance": "region and country",
+      "ai_path": "no AI",
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms: no licence stated on the page (read 2026-11-21); only a short factual summary with the link is shown",
+        "url": "https://www.ualg.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+    },
+    {
+      "title": "Parliament approves a public gamete-collection centre in the Algarve or Alentejo in 2027",
+      "summary": "A Livre proposal, location unspecified; PSD and CDS-PP voted against and IL abstained. Collection is today only in Porto, Coimbra and Lisbon. A national decision with a regional effect.",
+      "date": "2026-11-20",
+      "publisher": "Postal",
+      "url": "https://postal.pt/algarve/parlamento-aprova-criacao-de-centro-publico-de-colheita-de-gametas-no-algarve-ou-alentejo-em-2027/",
+      "read_on": "2026-11-21",
+      "significance": "region and country",
+      "ai_path": "no AI",
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms: no licence stated on the page (read 2026-11-21); only a short factual summary with the link is shown",
+        "url": "https://postal.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
     }
   ],
   "contacts": [

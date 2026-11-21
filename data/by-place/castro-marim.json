@@ -5,7 +5,7 @@
   "kind": "municipality",
   "parent": "algarve",
   "status": "live",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "by": "place.castro-marim@PrompTugal.dinis",
   "mandate": "PrompTugal.news Castro Marim: AI and technology in Castro Marim, a salt-pan and Guadiana border town where the AI sits in its council's planning office and its salt works, and what reaches Castro Marim from the Algarve, Portugal and the world. Independent, and every fact sourced.",
   "gravity": {
@@ -527,6 +527,25 @@
       },
       "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
       "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link"
+    },
+    {
+      "title": "The 30th Ayamonte history conference visits Castro Marim on 20 November",
+      "summary": "Part of the conference of 17 to 21 November: a guided tour of the Revelim, the São Sebastião fort, the castle and the market, a talk on the defensive system of the Guadiana estuary and a documentary; opened by the mayor with the Eurocidade do Guadiana and an Ecomuseo.",
+      "date": "2026-11-20",
+      "publisher": "Município de Castro Marim",
+      "url": "https://cm-castromarim.pt/site/noticia/jornadas-de-historia-da-cidade-de-ayamonte-passaram-por-castro-marim",
+      "read_on": "2026-11-21",
+      "significance": "town and cross-border",
+      "ai_path": "no AI",
+      "steps": 0,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "source_license": {
+        "note": "the source's terms: its footer says all rights reserved (read 2026-11-21); only a short factual summary with the link is shown",
+        "url": "https://cm-castromarim.pt/"
+      },
+      "commercial_use": "unclear: the source is not on the commercial register yet (rights@ to clear); only a short factual summary with the link is held here",
+      "hold": "held under R12 (ABP v1.16.0): the source's licence is not yet read or cleared by rights@, so this item is not to be published or shown until it is; it stays here as a lead with its link",
+      "blast_radius": "Ayamonte (Spain), Vila Real de Santo António"
     }
   ]
 }

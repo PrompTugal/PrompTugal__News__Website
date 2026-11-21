@@ -1,0 +1,77 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "place.algarve.east@PrompTugal.dinis",
+ "run": "2026-11-21T07-38-51Z",
+ "started": "2026-11-21T07:38:51.819Z",
+ "ended": "2026-11-21T07:44:03Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.1",
+  "sha256": "f23a9442d086a574"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-21T07:38:52.181Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-21T07:42:00.060Z",
+   "chars": 8597,
+   "sha256": "5927cd080eebfc26",
+   "head": "<agent-message from=\"a578388cd449f5216\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-21T07:38:51.819Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 28,
+  "by_kind": {
+   "other": 2,
+   "web": 21,
+   "agent": 2,
+   "git-push": 2,
+   "git": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 28,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 28,
+  "in_mandate": 28,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
