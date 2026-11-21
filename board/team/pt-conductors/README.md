@@ -4,7 +4,7 @@ At Dinis's word, 21 November 2026, about 22:20 UTC, in conductor.b@'s session: "
 
 ## The name
 
-The name is **conductor.d@PrompTugal.dinis**. "prompt2go" in Dinis's message (written here without the @, which the gate refuses) is read as PrompTugal, spoken. The gate also accepts only @PrompTugal.dinis and @AgentiCCells.dinis names. If Dinis meant a new name, he says so and this file changes.
+The name is **conductor.d@PrompTugal.dinis**. Dinis confirmed it in conductor.b@'s session, about 22:33 UTC: "sorry it was a misspell / you are conductor.b@PrompTugal.dinis and the other session is conductor.d@PrompTugal.dinis".
 
 It is a different agent from **conductor.d (SovereignWebsite)**, which maestro.d started on account D at about 22:12 UTC for the SovereignWebsite Factory. That one conducts SovereignWebsite; this one conducts PrompTugal.
 
