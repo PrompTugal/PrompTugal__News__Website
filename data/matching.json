@@ -1779,6 +1779,11 @@
         "count": 1
       },
       {
+        "as_listed": "AI Act information site",
+        "ref": "organisation:ai-act-information-site",
+        "count": 1
+      },
+      {
         "as_listed": "AICEP Portugal Global",
         "ref": "organisation:aicep-portugal-global",
         "count": 5
@@ -1911,7 +1916,7 @@
       {
         "as_listed": "Cuatrecasas",
         "ref": "organisation:cuatrecasas",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Dealroom",
@@ -2411,7 +2416,7 @@
       {
         "as_listed": "William Fry",
         "ref": "organisation:william-fry",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Xiaomi",

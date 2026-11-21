@@ -4,20 +4,20 @@
   "type": "evidence",
   "source_url": "https://www.williamfry.com/knowledge/eu-ai-act-omnibus-deal-reached-postponed-deadlines-watermarking-compromise-and-the-nudificiation-prohibition/",
   "beat": "Europe",
-  "group": "S78",
+  "group": "context",
   "names": [
     {
       "as_listed": "William Fry",
       "ref": "organisation:william-fry"
     }
   ],
-  "desk_file": "desks/curator/2026-11-21-0750.json",
-  "run": "2026-11-21T07:50Z",
+  "desk_file": "desks/curator/2026-11-21-1550.json",
+  "run": "2026-11-21T15:50Z",
   "by": "curator@PrompTugal.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-21-0750.json"
+      "desks/curator/2026-11-21-1550.json"
     ]
   }
 }

@@ -4,20 +4,20 @@
   "type": "evidence",
   "source_url": "https://www.cuatrecasas.com/en/portugal/intellectual-property/art/digital-omnibus-ai-has-been-published",
   "beat": "Europe",
-  "group": "Held for tomorrow",
+  "group": "S79",
   "names": [
     {
       "as_listed": "Cuatrecasas",
       "ref": "organisation:cuatrecasas"
     }
   ],
-  "desk_file": "desks/curator/2026-11-21-1150.json",
-  "run": "2026-11-21T11:50Z",
+  "desk_file": "desks/curator/2026-11-21-1550.json",
+  "run": "2026-11-21T15:50Z",
   "by": "curator@PrompTugal.vicky",
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-21-1150.json"
+      "desks/curator/2026-11-21-1550.json"
     ]
   }
 }

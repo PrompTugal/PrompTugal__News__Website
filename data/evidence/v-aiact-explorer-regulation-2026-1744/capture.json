@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-aiact-explorer-regulation-2026-1744",
+  "type": "evidence",
+  "source_url": "https://artificialintelligenceact.eu/ai-act-explorer/digital-omnibus/",
+  "beat": "Europe",
+  "group": "S79",
+  "names": [
+    {
+      "as_listed": "AI Act information site",
+      "ref": "organisation:ai-act-information-site"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-21-1550.json",
+  "run": "2026-11-21T15:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-21-1550.json"
+    ]
+  }
+}

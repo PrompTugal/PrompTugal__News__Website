@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "ai-act-information-site",
+  "type": "organisation",
+  "name": "AI Act information site",
+  "names_as_listed": [
+    "AI Act information site"
+  ],
+  "sources": [
+    {
+      "url": "https://artificialintelligenceact.eu/ai-act-explorer/digital-omnibus/",
+      "read_at": "2026-11-21T15:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}
