@@ -2886,7 +2886,10 @@
         "fingerprint": "sha256:3faada86b02dabc6",
         "record": "sha256:622e5570ade43f2b",
         "signing_fingerprint": "sha256:622e5570ade43f2b"
-      }
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBzBaaYuDwFGt0LRq686zsxaozkoP+uISXPBvlbXwxfk",
+      "session": "https://claude.ai/code/session_01Kw9UwD5cJhhjJEfERLHju6",
+      "ssh_added": "2026-11-19T16:02Z"
     },
     {
       "id": "site.lisboa-promptugal",
@@ -3336,7 +3339,10 @@
         "fingerprint": "sha256:1ab6b7b436cccd46",
         "record": "sha256:3a524fb66fe81c99",
         "signing_fingerprint": "sha256:3a524fb66fe81c99"
-      }
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPDC84kP7IDTf91CnRnrSyIRMjfFySUVWkNy8rfTzPi2",
+      "session": "https://claude.ai/code/session_01Kw9UwB48Tyf66NWE1NBaPm",
+      "ssh_added": "2026-11-19T16:00Z"
     },
     {
       "id": "sherpa-promptugal-3",
