@@ -1,6 +1,6 @@
 # The private raw-history vault stays as it is
 
-Dinis, in conductor.b@'s session, 21 November 2026, about 10:20 UTC: "Yes please record that decision, keep the private vault as it is".
+Dinis, in conductor.b@'s session, 21 November 2026, about 15:37 UTC (by date -u at recording, 15:38): "Yes please record that decision, keep the private vault as it is".
 
 ## What was decided
 
