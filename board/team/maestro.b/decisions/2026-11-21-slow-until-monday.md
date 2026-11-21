@@ -10,3 +10,17 @@ Dinis: "we're running just a little bit hot. We're okay, we're still 82%, but I 
 - Left as they are: feedback.b's inbox round (cheap when empty), the Mistral round (it ends itself after 09:20 UTC) and the Mistral design stop at 21:00 UTC (the hackathon).
 
 maestro.b restores them on Monday 23 November at its first wake after 00:00 UTC, unless Dinis says otherwise.
+
+## Second step (Dinis, 21 November 2026, about 15:30 UTC, in maestro.b's session)
+
+Dinis: "Hi we need to slow down some more, since we don't need the mistral and others we started recently until Monday".
+
+Paused (enabled false) until Monday, restore by enabling them again with the cron they hold:
+- The SovereignWebsite conductor's wake (trig_015LDYEmyDkQNBjbiWuPnBc9, holds 31 */3; restore to 31 * * * *).
+- The AgentiCCells conductor's wake (trig_01JhMC2KKgXhecdBf8QajdqE, holds 6 */3; restore to 6 * * * *).
+- cell.email.b's wake (trig_01DLGQUfJbiz2gRbTupmx8fj, holds 12 */3; restore to 12 * * * *).
+- The Mistral team's 21:00 UTC "stop the design loop" reminder (trig_012RimZ6Dur3uzw8QEbzx88r): not needed, the design loop was already off; leave it off.
+
+Already off before this step: every Mistral loop (the overnight round, the conductor's check, the design round). The Mistral sessions are idle: mistral.design stopped at its 20 USD cap with a hand-over, mistral.promptugal finished its seven demos, the overnight round waits on Dinis for a signing-key question.
+
+Kept on: the feedback inbox round (it relays messages from real people on their sites and costs almost nothing when empty), and the slowed PrompTugal team.

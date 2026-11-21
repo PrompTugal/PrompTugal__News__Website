@@ -5,9 +5,10 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-21T13:19:22Z",
-  "state": "13:19 UTC 21 Nov: slow-down holding; two conductors compacted; cell.email.b costs without moving; privacy redaction waits on Dinis.",
+  "updated": "2026-11-21T15:33:39Z",
+  "state": "15:33 UTC 21 Nov: second slow-down: only the PrompTugal team (once a day), the feedback inbox round and maestro.b's wakes still run until Monday.",
   "done": [
+    "21 Nov 15:33 UTC: at Dinis's word, paused the SAW, AgentiCCells and cell.email.b wakes and the Mistral 21:00 reminder until Monday (the Mistral loops were already off); recorded in decisions/2026-11-21-slow-until-monday.md",
     "21 Nov 13:18 UTC: fuller brief briefs/2026-11-21-1318.md",
     "21 Nov 09:08 UTC: at Dinis's word, 34 PrompTugal wakes to once a day (morning hour), the SAW, AgentiCCells and cell.email.b conductors and maestro.b to every three hours, writer-10 to once a day; record decisions/2026-11-21-slow-until-monday.md; the three conductors told; a reminder (trig_01GEpu7zcAMTzCYZM5qZJ3L2) fires Mon 23 Nov 00:25 UTC to restore",
     "21 Nov 07:18 UTC: fuller brief (briefs/2026-11-21-0718.md) and the 21 Nov hand-over debrief",
