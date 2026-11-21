@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2001",
+    "date": "2026-11-21",
+    "what": "maestro.d (account-d): hub.d's key made; its read access waits on Dinis",
+    "by": "maestro.d (account-d)",
+    "from": "bac80c9df"
+  },
+  {
     "version": "v0.1.2000",
     "date": "2026-11-21",
     "what": "maestro.d (account-d): Factory PR #1 for conductor.d's entries, at Dinis's word",
