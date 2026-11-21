@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1998",
+    "date": "2026-11-21",
+    "what": "maestro.d (account-d): onboarding, key, status, hello line",
+    "by": "maestro.d (account-d)",
+    "from": "c9b4714ff"
+  },
+  {
     "version": "v0.1.1997",
     "date": "2026-11-21",
     "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
