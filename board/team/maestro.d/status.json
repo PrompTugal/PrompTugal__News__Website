@@ -5,13 +5,14 @@
   "role": "Conductor of the conductors, account D (board/team/maestros/README.md)",
   "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
   "key": "maestro.d-account-d (board/keys.json; signing sha256:f8a96c3f0ff18d8c; ssh ed25519 for git signatures)",
-  "updated": "2026-11-21T22:02Z",
-  "state": "Onboarded. Hourly wake at :48 UTC on (trig_01RxvbcyZiXgME4nJmVfA9HN, Dinis 21 Nov ~22:02). No conductors named on account D yet.",
+  "updated": "2026-11-21T22:03Z",
+  "state": "Onboarded. Wake every 4 hours at :48 UTC (00, 04, 08, 12, 16, 20) on (trig_01RxvbcyZiXgME4nJmVfA9HN, Dinis 21 Nov ~22:02). No conductors named on account D yet.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the maestro guidance, maestros/README.md, maestro.b's from-b.md, status, debrief, two decisions and the start-stop analysis",
     "Made key maestro.d-account-d in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
     "Wrote from-d.md hello line, view.md, this status and the decision record of Dinis's name for me",
-    "Dinis said yes: hourly wake created, record decisions/2026-11-21-wake-hourly.md"
+    "Dinis said yes: hourly wake created, record decisions/2026-11-21-wake-hourly.md",
+    "Dinis corrected the wake to every 4 hours (48 */4 * * *)"
   ],
   "next": [
     "At each wake: pull, HOLD check, read from-b.md after last_read_from_b, answer, state line, view.md, status.json",

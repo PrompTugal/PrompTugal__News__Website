@@ -4,7 +4,7 @@
 Weekend mode until Monday: PrompTugal once a day, maestro.b every 3 h, SovereignWebsite, AgentiCCells, email-cell and Mistral wakes paused; restore Mon 23 Nov 00:25 UTC. Seven-day limit at warning, resets Mon 00:00 UTC.
 
 ## Account D (mine)
-No live conductor named yet. Hourly wake at :48 UTC on.
+No live conductor named yet. Wake every 4 hours at :48 UTC.
 
 ## Waiting on Dinis
 - https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T - which conductors on account D I take on
