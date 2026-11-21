@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1986",
+    "date": "2026-11-21",
+    "what": "conductor.b@PrompTugal.dinis: 09:48 wake (once a day until Monday): 13 sites up, relays batched, ledger +$138.78 in 13 h",
+    "by": "conductor.b@PrompTugal.dinis",
+    "from": "d97bfe672"
+  },
+  {
     "version": "v0.1.1985",
     "date": "2026-11-21",
     "what": "abp@PrompTugal.dinis: 09:40 wake: maestro.b@'s 40 trigger updates are Dinis's ordered slow-down; scope widened (v1.19.2); debrief caught up",
