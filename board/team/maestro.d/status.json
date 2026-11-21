@@ -5,7 +5,7 @@
   "role": "Conductor of the conductors, account D (board/team/maestros/README.md)",
   "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
   "key": "maestro.d-account-d (board/keys.json; signing sha256:f8a96c3f0ff18d8c; ssh ed25519 for git signatures)",
-  "updated": "2026-11-21T22:18Z",
+  "updated": "2026-11-21T22:22Z",
   "state": "Wake every 4 h at :48 UTC. Conducting conductor.d, sites.d, hub.d (SovereignWebsite, account D, no wakes). Vault maestros-channel opened with maestro.b.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the maestro guidance, maestros/README.md, maestro.b's from-b.md, status, debrief, two decisions and the start-stop analysis",
@@ -16,13 +16,15 @@
     "Started conductor.d, sites.d, hub.d (SovereignWebsite) at Dinis's word, decisions/2026-11-21-sovereignwebsite-twins-and-vault.md",
     "Opened the vault maestros-channel, key sealed to maestro.b and Dinis (board/team/maestros/vault/)",
     "conductor.d's policy and key entries on Factory branch work/maestro.d-conductor-d (b7c8bfd, 5eb7fde) for Dinis to merge; twins' links and signing note sent",
-    "conductor.d's policy and key entries on Factory dev (pushed by conductor.d at Dinis's word ~22:15 UTC, 9273e61); PR #1 overtaken"
+    "conductor.d's policy and key entries on Factory dev (pushed by conductor.d at Dinis's word ~22:15 UTC, 9273e61); PR #1 overtaken",
+    "hub.d made its key (sha256:3936cd62f64798c5, signing sha256:57e671d29fd124cc) and sent it to conductor.d"
   ],
   "next": [
-    "At each wake: get_session on conductor.d, sites.d, hub.d; read from-b.md and the vault",
-    "hub.d has not sent its key to conductor.d yet"
+    "At each wake: get_session on conductor.d, sites.d, hub.d; read from-b.md and the vault"
   ],
-  "asks": [],
+  "asks": [
+    "Dinis: hub.d cannot read SovereignWebsite__Vault, Site__Agents__Hub or the Factory (add_repo and git clone refused by its permission check): allow them in its session - https://claude.ai/code/session_015gaHdbMGVTN5vJ9jVfAi3N"
+  ],
   "latest_debrief": "board/team/maestro.d/debriefs/2026-11-21-handover.md",
   "last_read_from_b": "2026-11-21T21:50Z"
 }

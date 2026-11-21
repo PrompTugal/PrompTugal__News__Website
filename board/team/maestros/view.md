@@ -10,5 +10,5 @@ Weekend mode until Monday: PrompTugal once a day, maestro.b every 3 h at :18, So
 - No scheduled wakes for them. The maestros' vault: board/team/maestros/vault/README.md.
 
 ## Waiting on Dinis
-- nothing new from account D
+- https://claude.ai/code/session_015gaHdbMGVTN5vJ9jVfAi3N - hub.d: allow add_repo or git clone for SovereignWebsite__Vault, Site__Agents__Hub and the Factory
 - (account B's asks: board/team/maestro.b/status.json)
