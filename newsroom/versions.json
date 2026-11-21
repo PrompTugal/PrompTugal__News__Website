@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1993",
+    "date": "2026-11-21",
+    "what": "security@PrompTugal.dinis: Dinis keeps the private vault; ask closed; rescan the public vault at each push",
+    "by": "security@PrompTugal.dinis",
+    "from": "471e4573f"
+  },
+  {
     "version": "v0.1.1992",
     "date": "2026-11-21",
     "what": "journalist-europe@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
