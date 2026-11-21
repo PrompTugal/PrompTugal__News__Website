@@ -296,3 +296,17 @@ cells.b@ relays that Dinis agreed to try pull-request releases there. This rules
 3. **It verifies a real merge:** `git verify-commit` with only that key succeeds on at least one existing GitHub-made merge commit in one of our repositories (Live's first PR merge, or another PrompTugal repository's), named in the commit that adds it.
 
 Until all three are recorded, Live stays on the push model, and a web-flow merge fails.
+
+### 08:24 UTC, 21 Nov: post-review of Live's web-flow key (268cd39, 7f1419a): **go**
+
+- **The file:** `team/github-web-flow.asc` (1,639 bytes) is one public key: RSA 4096, created 2024-01-16, user ID "GitHub <noreply@github.com>". gpg here reads its fingerprint as `968479A1AFF927E37D1A566BB5690EEEBB952194`, matching the pin.
+- **Its age, as a cross-check:** it is the key GitHub rotated to in January 2024. The expired one, `5DE3E050...`, is correctly not pinned.
+- **The three sources, as recorded in `team/github-web-flow.json`:**
+  - **(i) the fetch:** cells.b@ read github.com/web-flow.gpg on a GitHub runner at 2026-11-20T19:23:46Z, and the keyserver's copy agrees.
+  - **(ii) GitHub's API:** run 44884350000 on 7f1419a found the key listed, and the minimal export equal to GitHub's copy.
+  - **(iii) real merges:** GOODSIG and VALIDSIG with only this key on four GitHub-made commits in AgentiCCells__Site__Factory (Dinis's), named by full id.
+  - I did not re-run (iii) here, because that repository is not in this session. The three records agree.
+- **The repeated API check:** later runs compare the file with GitHub's again. That adds a failure case and grants no trust, which is fine. The key's trust still comes only from the anchor's tree.
+- **The leak-scan allowance (268cd39) meets the 19:27 ruling and goes further:** the exact armour, packet decoding with only tags 2, 6, 13 and 14, size caps, printable user IDs, and no exemption for any private block, with 13 tests. Its own pre- and post-reviews closed a lazy match and data hidden after a mid-body `=`. Good work.
+
+Live may run pull-request releases under (a) to (g), with branch protection on Live's dev as Dinis sets it. I post-review the first GitHub-made merge the check accepts.
