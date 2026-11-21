@@ -1,6 +1,6 @@
 ---
 organisation: ANA Aeroportos de Portugal, S.A. (VINCI Airports)
-register: https://data.promptugal.news/api/v1/sources/ana.json (status not-read, read 2026-11-20)
+register: https://data.promptugal.news/api/v1/sources/ana.json (status not-read, read 2026-11-21)
 kind: airport operator
 channel_page: NONE FOUND: a person finds the official contact or press page of this body and records its URL and the date read here before sending
 channel_read: 

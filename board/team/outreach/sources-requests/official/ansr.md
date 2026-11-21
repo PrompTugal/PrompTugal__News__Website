@@ -1,6 +1,6 @@
 ---
 organisation: ANSR
-register: https://data.promptugal.news/api/v1/sources/ansr.json (status not-read, read 2026-11-20)
+register: https://data.promptugal.news/api/v1/sources/ansr.json (status not-read, read 2026-11-21)
 kind: public body
 channel_page: https://www.ansr.pt/contactos
 channel_read: 2026-11-20

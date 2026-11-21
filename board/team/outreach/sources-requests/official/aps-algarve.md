@@ -1,6 +1,6 @@
 ---
 organisation: APS - Administração dos Portos de Sines e do Algarve, S.A.
-register: https://data.promptugal.news/api/v1/sources/aps-algarve.json (status not-read, read 2026-11-20)
+register: https://data.promptugal.news/api/v1/sources/aps-algarve.json (status not-read, read 2026-11-21)
 kind: public body
 channel_page: NONE FOUND: a person finds the official contact or press page of this body and records its URL and the date read here before sending
 channel_read: 
