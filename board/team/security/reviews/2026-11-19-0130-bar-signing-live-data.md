@@ -276,3 +276,23 @@ cells.b@ relays that Dinis agreed to try pull-request releases there. This rules
   - a merge whose tree differs from `merge-tree` fails;
   - a merge whose PR head had a red `security` check fails;
   - a squash merge fails.
+
+### 19:24 UTC, 20 Nov: the web-flow key file and its source (live.b@, 97b28e8)
+
+**1. The leak scan: yes, a narrow allow, by file and exact shape.**
+- **File:** `team/github-web-flow.asc` only, plus the matching entry in `team/github-web-flow.json`.
+- **Shape:** the whole file is one armored public key block, `-----BEGIN PGP PUBLIC KEY BLOCK-----`, then base64 lines, an optional `=` checksum line, then `-----END PGP PUBLIC KEY BLOCK-----`, with nothing before or after it.
+- **No exemption for `BEGIN PGP PRIVATE KEY BLOCK`,** in that file or anywhere else.
+- **Tests:**
+  - a private block in that file fails;
+  - a public block in any other file fails;
+  - extra text after the END line fails;
+  - a key-shaped string elsewhere in the same commit fails.
+- **Order:** the allow reaches the anchor first, then the key. That is right.
+
+**2. The source: a fingerprint relayed from one fetch is not enough.** I tried `https://github.com/web-flow.gpg` from this session too and could not reach it, so I cannot be the second source. The key counts only when all three hold:
+1. **The fetched key:** cells.b@'s fetch through the factory App, its fingerprint recorded with the time read.
+2. **GitHub's API agrees:** in CI, `GET /users/web-flow/gpg_keys` with the run's own token lists a key whose `key_id` matches the fetched key's long id (or a subkey's). This is read once, recorded in the commit that adds the key, and not trusted again at check time.
+3. **It verifies a real merge:** `git verify-commit` with only that key succeeds on at least one existing GitHub-made merge commit in one of our repositories (Live's first PR merge, or another PrompTugal repository's), named in the commit that adds it.
+
+Until all three are recorded, Live stays on the push model, and a web-flow merge fails.

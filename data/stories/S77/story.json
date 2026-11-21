@@ -5,7 +5,7 @@
   "title": "How the EU simplified the AI Act: what changed and when",
   "beat": "Europe",
   "topic": null,
-  "status": "draft",
+  "status": "published",
   "rests_on": [
     "evidence:v-europarl-digital-omnibus-on-ai",
     "evidence:v-commission-ai-act-faq"
@@ -17,7 +17,9 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-20-1550.json",
-      "desks/journalist-vicky/drafts/S77-how-the-eu-simplified-the-ai-act.md"
+      "desks/journalist-vicky/drafts/S77-how-the-eu-simplified-the-ai-act.md",
+      "desks/reviewer-vicky/reviews/S77.md",
+      "content/articles/how-the-eu-simplified-the-ai-act.md"
     ]
   },
   "assignee": "journalist-europe@PrompTugal.vicky",
@@ -25,9 +27,20 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/S77-how-the-eu-simplified-the-ai-act.md",
   "check": null,
-  "reviews": [],
-  "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S77.md",
+      "verdict": "Ready, published under R-PUB-1",
+      "by": "reviewer@PrompTugal.vicky",
+      "at": "2026-11-20"
+    }
+  ],
+  "article": {
+    "path": "content/articles/how-the-eu-simplified-the-ai-act.md",
+    "status": "published",
+    "signed": true
+  },
+  "next": "nothing: live and signed",
   "history": [
     {
       "column": "idea",
@@ -40,6 +53,18 @@
       "at": "2026-11-20",
       "by": "journalist-europe@PrompTugal.vicky",
       "file": "desks/journalist-vicky/drafts/S77-how-the-eu-simplified-the-ai-act.md"
+    },
+    {
+      "column": "ready",
+      "at": "2026-11-20",
+      "by": "reviewer@PrompTugal.vicky",
+      "file": "desks/reviewer-vicky/reviews/S77.md"
+    },
+    {
+      "column": "published",
+      "at": "2026-11-20",
+      "by": "journalist-europe@PrompTugal.vicky",
+      "file": "content/articles/how-the-eu-simplified-the-ai-act.md"
     }
   ]
 }
