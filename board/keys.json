@@ -4441,6 +4441,29 @@
       },
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPvOfj3OF1UbwyU4ToSq//0SIVLYIqkznigY1SbmDPOn",
       "ssh_added": "2026-11-21T21:58Z"
+    },
+    {
+      "id": "conductor.d-promptugal",
+      "agent": "conductor.d@PrompTugal.dinis",
+      "label": "conductor.d@PrompTugal.dinis: the PrompTugal conductor on account D, twin of conductor.b@ (Claude Code session)",
+      "role": "The PrompTugal conductor on account D, peer and twin of conductor.b@PrompTugal.dinis (board/team/pt-conductors/README.md). A session key: it ends with its session.",
+      "made": "2026-11-21",
+      "made_with": "sgit pki keygen (sgit-ai 0.27.0), in its own session; private half only in that session",
+      "added": "2026-11-21T22:51Z",
+      "encryption_fingerprint": "sha256:37f54523c61892c7",
+      "signing_fingerprint": "sha256:bfedbdebc85d737d",
+      "status": "active",
+      "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsMycSKbmD3mreX46B1uv\nUFC5lo2JyD9cb8DvEzG9Eit+aPkOyFrwCH9WgeAc0ReHf5mvcOmTpfB3ISxiQyPq\nWfwHAZkEteQHe3Jiq0ZkCBO5zX+hpVZ2jD3aYNtgMwLUMB/FBDIQurY1X4x32dBd\naH7gE9Q8QcgF6znCRENdYA4fpY48ZSiYiSmv1ENsoKdpugv/TRRJTVii73sigYq5\nroRJ0EBGeCX3WbOWWJt1EpP8+dgoha3q2BZprU//gXEn8w8g79wDSFZVl/8IuBU/\nveiQonJA06J6eTR5zUiJjPx9bhal6GHA4IEuVClYTitgxvBLCB/kCOUBwoab7T5O\n53RGHKc+jWwKGmauTj6cpOm/uwjtaHYzfkY9vFmLRFGZrN18eP6b1YvEkRoHkRxC\n8Qh7/d/vSj/lJtYL9ZHM22wR9vtquvWmOEGoAy6YpsWLC450V/b+njUP3hQJp9Sf\nSZ7poe22q0Cq5u+HA/kwcWqovf/tstwEC7hEIpA+la7kOUFhaC5wl1rJfTqka+B8\nBQxid3LaP+OcEtl/134YBV7xlNRKiDty+42D8BjpHOj4m0eujU08wIvbwYCRWjqA\nMQVt5CvO+zYBGlWfq0A3yeN5ovdHhf9pE52EoQQHmj4rcgzvVFqWgoZHR2BBVosi\nNv2wgOGiKOsI8FZMXvXWCS8CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEFyzEZFZbjnDYjbF74XzXwJbugpLu\n8pbr4npB9yi2+22XhXTiEpafq2E00GZuBsshdZMtQfudt3OMxAnz6zlJ2Q==\n-----END PUBLIC KEY-----\n",
+        "label": "conductor.d@PrompTugal.dinis",
+        "fingerprint": "sha256:37f54523c61892c7",
+        "signing_fingerprint": "sha256:bfedbdebc85d737d"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDPE5hCXHLhDpi3tFRk1gErK005LJbC3La6jcl7KLAVL",
+      "ssh_added": "2026-11-21T22:51Z"
     }
   ]
 }

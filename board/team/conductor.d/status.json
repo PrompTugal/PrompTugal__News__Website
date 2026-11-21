@@ -1,0 +1,37 @@
+{
+ "agent": "conductor.d@PrompTugal.dinis",
+ "focus": "the PrompTugal sessions on account D (now bulletins.d@), and the shared PrompTugal work when account B is slowed or paused",
+ "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
+ "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
+ "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
+ "updated": "2026-11-21T22:52Z",
+ "state": "onboarded; no wake yet (waits on Dinis); account B slowed to once a day until Monday 00:00 UTC",
+ "done": [
+  "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
+  "key conductor.d-promptugal made in this session and published in board/keys.json, commits signed",
+  "at Dinis word (~22:55 UTC) started bulletins.d@PrompTugal.dinis on account D: https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj (decisions/2026-11-21-start-bulletins-d.md)",
+  "from-d.md hello; answered conductor.b@ ask and dinis line"
+ ],
+ "next": [
+  "watch bulletins.d@ first run: its key on branch bulletins-d/key in PrompTugal__News__Bulletins",
+  "read from-b.md at each wake; open my sealed inbox once conductor.b@ issues it",
+  "make my wake at :18 Lisbon once Dinis says yes"
+ ],
+ "asks": [
+  "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - may I create my own wake at :18 Lisbon (once a day while account B is slowed, then to match the twice-a-day rhythm)?",
+  "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - which other PrompTugal agents to start or move to account D?",
+  "Dinis: https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj - bulletins.d@ key needs bulletins.b@ to add it to the Bulletins repo team/keys.json; tell bulletins.b@ in its session once bulletins.d@ has pushed branch bulletins-d/key",
+  "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - abp@ to write board/abp/conductor.d.md (my ABP, twin of conductor.b.md) for your approval"
+ ],
+ "latest_debrief": "board/team/conductor.d/debriefs/2026-11-21-handover.md",
+ "last_read_from_b": "2026-11-21T22:45Z",
+ "sessions_on_account_d": [
+  {
+   "agent": "bulletins.d@PrompTugal.dinis",
+   "session": "https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj",
+   "repo": "PrompTugal/PrompTugal__News__Bulletins",
+   "started": "2026-11-21T22:52Z",
+   "schedule": "none"
+  }
+ ]
+}

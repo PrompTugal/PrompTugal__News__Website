@@ -1,0 +1,94 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.d@PrompTugal.dinis",
+ "run": "2026-11-21T22-50-09Z",
+ "started": "2026-11-21T22:50:09.858Z",
+ "ended": "2026-11-21T22:52:17Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-21T22:50:10.397Z",
+   "chars": 4518,
+   "sha256": "a954a1c2406642ba",
+   "head": "You are conductor.d@PrompTugal.dinis: the PrompTugal conductor on account D, and the twin of conductor.b@PrompTugal.dinis on account B. You are peers, both active at the same time. Dinis Cruz is your "
+  },
+  {
+   "t": "2026-11-21T22:51:07.750Z",
+   "chars": 142,
+   "sha256": "52adad9101f0f54b",
+   "head": "@\"/root/.claude/uploads/878bd6fb-1820-5cd1-bb30-71853d2fe689/0f33449c-2026-11-21-bulletins-d.md\" when you are all onboarded can you start this"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-21T22:50:09.858Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 24,
+  "by_kind": {
+   "git": 6,
+   "shell": 16,
+   "release": 1,
+   "session": 1
+  }
+ },
+ "policies_executed": {
+  "R5": 1,
+  "R4": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 22,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-21T22:51:14.208Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "conductor.d@PrompTugal.dinis is a writer: push work/conductor.d only; its reviewer brings the work onto dev",
+    "target": "date -u +%Y-%m-%dT%H:%MZ; ls board/runs/conductor.b | tail -2; node board/abp/tools/abp.mjs 2>&1 | head -5; ls board/abp/conductor.d.md 2>&1; cat newsroom/tools/release.sh | head -30"
+   },
+   {
+    "t": "2026-11-21T22:52:00.780Z",
+    "tool": "mcp__claude-code-remote__create_session",
+    "rule": "R4",
+    "what": "create_session: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 24,
+  "in_mandate": 22,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 0
+ }
+}
