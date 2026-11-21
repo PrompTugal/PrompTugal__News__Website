@@ -1,22 +1,134 @@
 [
- {"at":"2026-11-06T10:10Z","kind":"rule","what":"Budgets are captured and adjusted, never used to block an agent; the dollars are API-equivalent, not money paid","source":"board/guidance/2026-11-06-budgets-capture-not-block.md"},
- {"at":"2026-11-06T21:05Z","kind":"move","what":"Running hot: a second account (B) and its own conductor; 15 agents on account A hand over and stop, 10 stay on A at every two hours","source":"board/guidance/2026-11-06-account-b.md"},
- {"at":"2026-11-08T21:10Z","kind":"limit","what":"Account B's seven-day limit reaches its warning (read in the ledger)","source":"board/team/conductor.b/ledger/2026-11-08T2110Z.json"},
- {"at":"2026-11-09T23:30Z","kind":"stop","what":"THE BIG STOP: stop all work unless critical until the strategy is realigned; also a test of stopping every agent; one conductor per account left on, every two hours","source":"board/guidance/2026-11-09-the-big-stop.md; board/team/conductor.b/stop-report-2026-11-09.md"},
- {"at":"2026-11-10T02:40Z","kind":"start","what":"THE RESTART: accelerate every team on one theme; stopping is the main risk","source":"board/guidance/2026-11-10-the-restart.md"},
- {"at":"2026-11-16T15:25Z","kind":"stop","what":"Pause every PrompTugal agent for the move to other accounts; each writes a detailed debrief first; 34 scheduled tasks disabled on account A","source":"board/guidance/2026-11-16-pause-all-agents-for-the-account-move.md"},
- {"at":"2026-11-16T19:25Z","kind":"start","what":"Go: every agent restarts on account B from its debrief, each with a new key","source":"board/guidance/2026-11-16-restart-here-go.md"},
- {"at":"2026-11-18T02:30Z","kind":"start","what":"Five sub-sites' teams start on account B (.b agents)","source":"board/guidance/2026-11-18-five-sites-on-account-b.md"},
- {"at":"2026-11-19T01:55Z","kind":"rule","what":"The maestro: one main conductor on account B over the focused conductors","source":"board/guidance/2026-11-19-the-maestro.md"},
- {"at":"2026-11-19T13:05Z","kind":"start","what":"Sovereign Website pivot: a new conductor and team","source":"board/team/maestro.b/decisions/2026-11-19-sovereign-website.md"},
- {"at":"2026-11-19T15:50Z","kind":"limit","what":"About 90 USD an hour (API-equivalent) across about 560 wakes a day; the weekly limit warns; Dinis uses the available reset about 16:00","source":"board/guidance/2026-11-19-twice-a-day.md; maestro.b's session"},
- {"at":"2026-11-19T16:30Z","kind":"slow","what":"Twice a day: every scheduled agent wakes twice a day (about 560 wakes a day to about 76)","source":"board/guidance/2026-11-19-twice-a-day.md"},
- {"at":"2026-11-19T17:25Z","kind":"start","what":"Full speed for the launch: maestro.b, the SovereignWebsite and AgentiCCells conductors back to hourly; PrompTugal stays twice a day","source":"board/team/maestro.b/decisions/2026-11-19-full-speed-and-the-refactor.md"},
- {"at":"2026-11-20T15:10Z","kind":"start","what":"The email cell restarts on account B, hourly","source":"board/team/maestro.b/decisions/2026-11-20-email-cell.md"},
- {"at":"2026-11-20T22:51Z","kind":"start","what":"A Mistral team (a conductor and three agents) for Saturday's hackathon, hourly loops overnight","source":"maestro.b's status.json, 20 Nov 23:18"},
- {"at":"2026-11-21T03:15Z","kind":"limit","what":"The seven-day limit warns again (resets Monday 23 Nov 00:00 UTC)","source":"get_session rate_limit_info, maestro.b's status.json"},
- {"at":"2026-11-21T04:22Z","kind":"stop","what":"The Mistral loops stop themselves: design at its 20 USD cap, the conductor's checks at 09:20","source":"list_triggers, 21 Nov 15:32"},
- {"at":"2026-11-21T09:08Z","kind":"slow","what":"Slow until Monday: 34 PrompTugal wakes to once a day; four hourly conductors to every three hours; writer-10 to once a day (39 schedules in about 30 seconds)","source":"board/team/maestro.b/decisions/2026-11-21-slow-until-monday.md"},
- {"at":"2026-11-21T15:33Z","kind":"stop","what":"Second step: the SovereignWebsite, AgentiCCells and email-cell wakes paused until Monday; only PrompTugal (once a day), the feedback inbox and maestro.b run","source":"board/team/maestro.b/decisions/2026-11-21-slow-until-monday.md"},
- {"at":"2026-11-23T00:25Z","kind":"start","what":"Scheduled: maestro.b restores every slowed schedule after the weekly reset","source":"scheduled reminder in maestro.b's session"}
+ {
+  "at": "2026-11-06T10:10Z",
+  "kind": "rule",
+  "what": "Budgets are captured and adjusted, never used to block an agent; the dollars are API-equivalent, not money paid",
+  "source": "board/guidance/2026-11-06-budgets-capture-not-block.md"
+ },
+ {
+  "at": "2026-11-06T21:05Z",
+  "kind": "move",
+  "what": "Running hot: a second account (B) and its own conductor; 15 agents on account A hand over and stop, 10 stay on A at every two hours",
+  "source": "board/guidance/2026-11-06-account-b.md"
+ },
+ {
+  "at": "2026-11-08T21:10Z",
+  "kind": "limit",
+  "what": "Account B's seven-day limit reaches its warning (read in the ledger)",
+  "source": "board/team/conductor.b/ledger/2026-11-08T2110Z.json"
+ },
+ {
+  "at": "2026-11-09T23:30Z",
+  "kind": "stop",
+  "what": "THE BIG STOP: stop all work unless critical until the strategy is realigned; also a test of stopping every agent; one conductor per account left on, every two hours",
+  "source": "board/guidance/2026-11-09-the-big-stop.md; board/team/conductor.b/stop-report-2026-11-09.md"
+ },
+ {
+  "at": "2026-11-10T02:40Z",
+  "kind": "start",
+  "what": "THE RESTART: accelerate every team on one theme; stopping is the main risk",
+  "source": "board/guidance/2026-11-10-the-restart.md"
+ },
+ {
+  "at": "2026-11-12T15:15Z",
+  "kind": "stop",
+  "what": "THE HAND BRAKE: Dinis puts board/HOLD.md on every agent across all accounts; 20 scheduled tasks disabled; a 'team paused' banner on every page; observability excepted",
+  "source": "git f6a2c429a, 1d9536925 (board/HOLD.md)"
+ },
+ {
+  "at": "2026-11-13T14:31Z",
+  "kind": "start",
+  "what": "The hold is lifted (after one exception to recover each session's local data); the banner comes down",
+  "source": "git d0c16ef38, f2687c2a5"
+ },
+ {
+  "at": "2026-11-16T15:25Z",
+  "kind": "stop",
+  "what": "Pause every PrompTugal agent for the move to other accounts; each writes a detailed debrief first; 34 scheduled tasks disabled on account A",
+  "source": "board/guidance/2026-11-16-pause-all-agents-for-the-account-move.md"
+ },
+ {
+  "at": "2026-11-16T19:25Z",
+  "kind": "start",
+  "what": "Go: every agent restarts on account B from its debrief, each with a new key",
+  "source": "board/guidance/2026-11-16-restart-here-go.md"
+ },
+ {
+  "at": "2026-11-18T02:30Z",
+  "kind": "start",
+  "what": "Five sub-sites' teams start on account B (.b agents)",
+  "source": "board/guidance/2026-11-18-five-sites-on-account-b.md"
+ },
+ {
+  "at": "2026-11-19T01:55Z",
+  "kind": "rule",
+  "what": "The maestro: one main conductor on account B over the focused conductors",
+  "source": "board/guidance/2026-11-19-the-maestro.md"
+ },
+ {
+  "at": "2026-11-19T13:05Z",
+  "kind": "start",
+  "what": "Sovereign Website pivot: a new conductor and team",
+  "source": "board/team/maestro.b/decisions/2026-11-19-sovereign-website.md"
+ },
+ {
+  "at": "2026-11-19T15:50Z",
+  "kind": "limit",
+  "what": "About 90 USD an hour (API-equivalent) across about 560 wakes a day; the weekly limit warns; Dinis uses the available reset about 16:00",
+  "source": "board/guidance/2026-11-19-twice-a-day.md; maestro.b's session"
+ },
+ {
+  "at": "2026-11-19T16:30Z",
+  "kind": "slow",
+  "what": "Twice a day: every scheduled agent wakes twice a day (about 560 wakes a day to about 76)",
+  "source": "board/guidance/2026-11-19-twice-a-day.md"
+ },
+ {
+  "at": "2026-11-19T17:25Z",
+  "kind": "start",
+  "what": "Full speed for the launch: maestro.b, the SovereignWebsite and AgentiCCells conductors back to hourly; PrompTugal stays twice a day",
+  "source": "board/team/maestro.b/decisions/2026-11-19-full-speed-and-the-refactor.md"
+ },
+ {
+  "at": "2026-11-20T15:10Z",
+  "kind": "start",
+  "what": "The email cell restarts on account B, hourly",
+  "source": "board/team/maestro.b/decisions/2026-11-20-email-cell.md"
+ },
+ {
+  "at": "2026-11-20T22:51Z",
+  "kind": "start",
+  "what": "A Mistral team (a conductor and three agents) for Saturday's hackathon, hourly loops overnight",
+  "source": "maestro.b's status.json, 20 Nov 23:18"
+ },
+ {
+  "at": "2026-11-21T03:15Z",
+  "kind": "limit",
+  "what": "The seven-day limit warns again (resets Monday 23 Nov 00:00 UTC)",
+  "source": "get_session rate_limit_info, maestro.b's status.json"
+ },
+ {
+  "at": "2026-11-21T04:22Z",
+  "kind": "stop",
+  "what": "The Mistral loops stop themselves: design at its 20 USD cap, the conductor's checks at 09:20",
+  "source": "list_triggers, 21 Nov 15:32"
+ },
+ {
+  "at": "2026-11-21T09:08Z",
+  "kind": "slow",
+  "what": "Slow until Monday: 34 PrompTugal wakes to once a day; four hourly conductors to every three hours; writer-10 to once a day (39 schedules in about 30 seconds)",
+  "source": "board/team/maestro.b/decisions/2026-11-21-slow-until-monday.md"
+ },
+ {
+  "at": "2026-11-21T15:33Z",
+  "kind": "stop",
+  "what": "Second step: the SovereignWebsite, AgentiCCells and email-cell wakes paused until Monday; only PrompTugal (once a day), the feedback inbox and maestro.b run",
+  "source": "board/team/maestro.b/decisions/2026-11-21-slow-until-monday.md"
+ },
+ {
+  "at": "2026-11-23T00:25Z",
+  "kind": "start",
+  "what": "Scheduled: maestro.b restores every slowed schedule after the weekly reset",
+  "source": "scheduled reminder in maestro.b's session"
+ }
 ]

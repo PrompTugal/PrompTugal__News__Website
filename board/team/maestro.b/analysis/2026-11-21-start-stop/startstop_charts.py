@@ -43,11 +43,11 @@ for r in rows:
 markers(s,x0,x1,y0,y1)
 ly=760
 for i,e in enumerate(ev,1):
-    col=(i-1)//7; row=(i-1)%7
-    xx=L+col*500; yy=ly+row*18
+    col=(i-1)//8; row=(i-1)%8
+    xx=L+col*500; yy=ly+row*16.5
     s.append(f'<circle cx="{xx+6}" cy="{yy-4}" r="7" fill="{KC[e["kind"]]}"/><text x="{xx+6}" y="{yy-1}" font-size="9" fill="#fff" text-anchor="middle" font-weight="700">{i}</text>')
     s.append(f'<text x="{xx+18}" y="{yy}" font-size="12" fill="{INK}">{html.escape(e["at"][5:10].replace("-","/")+" "+e["at"][11:16]+"  "+e["what"][:62]+("..." if len(e["what"])>62 else ""))}</text>')
-s.append(f'<text x="{W-R}" y="80" font-size="13" fill="{MUT}" text-anchor="end">dark: agents, light: CI release commits</text>')
+s.append(f'<text x="{W-R}" y="112" font-size="13" fill="{MUT}" text-anchor="end">dark: agents, light: CI release commits</text>')
 s.append('</svg>'); open(f'{A}/1-commits-per-hour.svg','w').write('\n'.join(s))
 # 2 ledger
 led=json.load(open(f'{A}/ledger.json'))

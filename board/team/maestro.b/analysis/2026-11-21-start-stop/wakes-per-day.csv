@@ -2,6 +2,8 @@ from_utc,regime,wakes_per_day,how_counted
 2026-11-06T22:00Z,account B's first team (12 agents hourly to every 4 h plus its conductor),172,estimate from the stop report's list
 2026-11-09T23:36Z,THE BIG STOP (one conductor every 2 h),12,stop report
 2026-11-10T02:40Z,THE RESTART,172,estimate (same schedules back on)
+2026-11-12T15:15Z,THE HAND BRAKE (board/HOLD.md; observability excepted),2,hold file: every scheduled task disabled but the observability drain
+2026-11-13T14:31Z,hold lifted,172,estimate
 2026-11-16T15:26Z,paused for the account move,0,34 tasks disabled on account A
 2026-11-16T19:25Z,restarted on account B and grown to 37 tasks,560,twice-a-day guidance (before figure)
 2026-11-19T16:30Z,twice a day,76,twice-a-day guidance (after figure)

@@ -53,8 +53,12 @@
 <text x="318.2" y="485.0" font-size="13" font-weight="700" fill="#1d2433">172</text>
 <rect x="551.9" y="611.0" width="9.9" height="9.0" fill="#cbd5e1" stroke="#475569"/>
 <text x="554.9" y="605.0" font-size="13" font-weight="700" fill="#1d2433">12</text>
-<rect x="561.8" y="491.0" width="504.3" height="129.0" fill="#cbd5e1" stroke="#475569"/>
+<rect x="561.8" y="491.0" width="194.9" height="129.0" fill="#cbd5e1" stroke="#475569"/>
 <text x="564.8" y="485.0" font-size="13" font-weight="700" fill="#1d2433">172</text>
+<rect x="756.6" y="618.5" width="74.8" height="1.5" fill="#cbd5e1" stroke="#475569"/>
+<text x="759.6" y="612.5" font-size="13" font-weight="700" fill="#1d2433">2</text>
+<rect x="831.5" y="491.0" width="234.5" height="129.0" fill="#cbd5e1" stroke="#475569"/>
+<text x="834.5" y="485.0" font-size="13" font-weight="700" fill="#1d2433">172</text>
 <rect x="1066.0" y="620.0" width="12.8" height="0.0" fill="#cbd5e1" stroke="#475569"/>
 <text x="1069.0" y="614.0" font-size="13" font-weight="700" fill="#1d2433">0</text>
 <rect x="1078.8" y="200.0" width="222.2" height="420.0" fill="#cbd5e1" stroke="#475569"/>
@@ -75,12 +79,14 @@
 <text x="90" y="680" font-size="13" fill="#1d2433">11/06 22:00   172 a day  account B&#x27;s first team (12 agents hourly to every 4 h plus its conductor)</text>
 <text x="90" y="699" font-size="13" fill="#1d2433">11/09 23:36    12 a day  THE BIG STOP (one conductor every 2 h)</text>
 <text x="90" y="718" font-size="13" fill="#1d2433">11/10 02:40   172 a day  THE RESTART</text>
-<text x="90" y="737" font-size="13" fill="#1d2433">11/16 15:26     0 a day  paused for the account move</text>
-<text x="90" y="756" font-size="13" fill="#1d2433">11/16 19:25   560 a day  restarted on account B and grown to 37 tasks</text>
-<text x="90" y="775" font-size="13" fill="#1d2433">11/19 16:30    76 a day  twice a day</text>
-<text x="90" y="794" font-size="13" fill="#1d2433">11/19 17:25   142 a day  full speed for three conductors</text>
-<text x="90" y="813" font-size="13" fill="#1d2433">11/20 15:12   166 a day  plus the email cell hourly</text>
-<text x="90" y="832" font-size="13" fill="#1d2433">11/21 01:00   254 a day  plus the Mistral loops and the feedback inbox overnight</text>
-<text x="90" y="851" font-size="13" fill="#1d2433">11/21 09:08    83 a day  slow until Monday</text>
-<text x="90" y="870" font-size="13" fill="#1d2433">11/21 15:33    59 a day  second step</text>
+<text x="90" y="737" font-size="13" fill="#1d2433">11/12 15:15     2 a day  THE HAND BRAKE (board/HOLD.md; observability excepted)</text>
+<text x="90" y="756" font-size="13" fill="#1d2433">11/13 14:31   172 a day  hold lifted</text>
+<text x="90" y="775" font-size="13" fill="#1d2433">11/16 15:26     0 a day  paused for the account move</text>
+<text x="90" y="794" font-size="13" fill="#1d2433">11/16 19:25   560 a day  restarted on account B and grown to 37 tasks</text>
+<text x="90" y="813" font-size="13" fill="#1d2433">11/19 16:30    76 a day  twice a day</text>
+<text x="90" y="832" font-size="13" fill="#1d2433">11/19 17:25   142 a day  full speed for three conductors</text>
+<text x="90" y="851" font-size="13" fill="#1d2433">11/20 15:12   166 a day  plus the email cell hourly</text>
+<text x="90" y="870" font-size="13" fill="#1d2433">11/21 01:00   254 a day  plus the Mistral loops and the feedback inbox overnight</text>
+<text x="90" y="889" font-size="13" fill="#1d2433">11/21 09:08    83 a day  slow until Monday</text>
+<text x="90" y="908" font-size="13" fill="#1d2433">11/21 15:33    59 a day  second step</text>
 </svg>
