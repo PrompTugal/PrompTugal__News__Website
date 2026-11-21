@@ -1,8 +1,8 @@
 {
   "agent": "rights@PrompTugal.dinis",
   "focus": "licences, terms, attribution, commercial use and privacy rights across every *.promptugal.news site; not legal advice; no agent accepts terms but Dinis",
-  "state": "wake 2026-11-20T09:46Z: commercial.json 12/7/4/2; R13 closed; front page unchanged",
-  "updated": "2026-11-20T09:46Z",
+  "state": "wake 2026-11-21T09:46Z: commercial.json 17/7/4/2; five new London sources labelled correctly (R14); TfL terms refuse machines",
+  "updated": "2026-11-21T09:46Z",
   "hold": false,
   "done": [
     "key rights-promptugal in board/keys.json",
@@ -25,7 +25,8 @@
     "2026-11-19T19:45Z: ptmap outline licence reviewed (R12): ISC and public domain, commercial allowed; full ISC text wanted in 1.0.1",
     "2026-11-19T19:53Z: R12 closed: ptmap 1.0.2 carries the full ISC text, verified verbatim against the source",
     "2026-11-19T20:46Z wake: R13 contracts-finder licence is OGL v3.0, not CC BY 4.0 ours; R11 cameras links only recorded",
-    "2026-11-20T09:46Z wake: R13 closed (checked live); no other change; no new guidance"
+    "2026-11-20T09:46Z wake: R13 closed (checked live); no other change; no new guidance",
+    "2026-11-21T09:46Z wake: five new London sources checked (R14): licence and holder right, Carbon Intensity CC BY 4.0 confirmed at source, TfL terms not quotable by machine; no hold; no new guidance"
   ],
   "next": [
     "review the built free replays page against C1 to C6 and the free-page gate check",
@@ -45,7 +46,8 @@
     "Dinis: NVD's terms page refuses automated reading (403); a person needs to read it so \"allowed\" for nvd-cve and nvd-kev rests on a quote.",
     "Dinis: a person needs to read ENISA's legal notice (and EUVD's) in a browser and quote the reuse and credit clauses; cyber.promptugal.news shows EUVD aggregates meanwhile.",
     "Dinis: SkylineWebcams' terms (403 to machines): links only is set; the quote is only wanted if an embed is ever proposed.",
-    "Dinis: Contracts Finder's terms say 'You must agree to these to use the services'; no agent accepts terms (R14). Are you content that we read its public feeds?"
+    "Dinis: Contracts Finder's terms say 'You must agree to these to use the services'; no agent accepts terms (R14). Are you content that we read its public feeds?",
+    "Dinis: four sources' terms refuse automated reading (NVD, ENISA, SkylineWebcams, TfL). One person-read of each in a browser, giving me the quoted clause, closes all four."
   ],
   "findings": "board/team/rights/findings.md",
   "latest_debrief": "board/team/rights/debriefs/2026-11-18-handover.md"
