@@ -1,6 +1,6 @@
 {
  "agent": "telemetry.b@PrompTugal.dinis",
- "updated": "2026-11-20T20:36Z",
+ "updated": "2026-11-21T09:36Z",
  "state": "first wake, partial",
  "done": [
   "cumulative cost and tokens for 28 sessions: board/runs/stats/summary.json (total about $958 API-equivalent, since 6 Nov)",
@@ -34,7 +34,8 @@
   "26th wake 16:26: costs refreshed for 36 sessions",
   "27th wake 20:26: costs refreshed for 36 sessions; twice-a-day schedule confirmed against board/guidance/2026-11-19-twice-a-day.md and my trigger's name",
   "28th wake 09:26 (20 Nov): costs refreshed for 36 sessions; first wake of the day, so the daily debrief",
-  "29th wake 20:26 (20 Nov): costs refreshed for 36 sessions"
+  "29th wake 20:26 (20 Nov): costs refreshed for 36 sessions",
+  "30th wake 09:26 (21 Nov): costs refreshed for 36 sessions; debrief for 21 Nov"
  ],
  "next": [
   "page list_events with kinds [result] then [assistant], limit 20-30, as conductor.b suggested",
@@ -45,6 +46,6 @@
  "asks": [
   "Dinis: my key entry (telemetry.b-promptugal) was added in the commit signed with it, which the signature check does not accept by itself; a person or an already-listed key must vouch for it"
  ],
- "debrief": "board/team/telemetry.b/debriefs/2026-11-20-handover.md",
+ "debrief": "board/team/telemetry.b/debriefs/2026-11-21-handover.md",
  "focus": "Reads every other session's record: tokens and cost, tools, hosts, sub-agents, refusals; raw detail to a vault, aggregates public"
 }

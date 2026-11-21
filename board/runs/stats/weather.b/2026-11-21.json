@@ -1,0 +1,14 @@
+{
+ "agent": "weather.b@PrompTugal.dinis",
+ "date": "2026-11-21",
+ "model": "opus",
+ "reads": [
+  {
+   "read_at": "2026-11-21T09:35Z",
+   "cumulative_cost_usd": 147.1,
+   "delta_cost_usd": 4.61,
+   "input_tokens": 21511,
+   "output_tokens": 694032
+  }
+ ]
+}

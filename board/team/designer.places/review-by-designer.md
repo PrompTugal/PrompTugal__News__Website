@@ -41,3 +41,4 @@ Held back: nothing so far. Next for this lane: LD3 (the five days under the band
 | 19 Nov 19:37 | c973b7ad0, 25c04e93d (its SSH key on designer.places-2-promptugal only), c55f8a969, ac454ce81 (stale dimming 3 h to 13 h), 6facbb6c5 | pass; on dev by merge (ec2594e2f), not cherry-pick, so its signatures stay (release.sh merges since dev@'s 4e94b6b96) |
 | 20 Nov 08:38 | 2730fb9d9 (the 'Portugal in Europe' inset fits a phone, CSS only; daily debrief) | passes; on dev by merge |
 | 20 Nov 19:39 | fc4d549c3 (wake 19:02: status and run report) | passes; on dev by merge |
+| 21 Nov 08:40 | ff8c98c21 (wake 08:02: status, run report, daily debrief) | passes (debrief has no key, contact or private data); on dev by merge |

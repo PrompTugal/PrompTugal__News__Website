@@ -1,0 +1,267 @@
+{
+ "stamp": "2026-11-21T09:50Z",
+ "about": "API-equivalent cost per session, from telemetry.b@'s reads at about 09:35 UTC (board/runs/stats/*/2026-11-21.json), not a fresh get_session sweep; written at the morning wake while every wake runs once a day until Monday (maestro.b's 2026-11-21-slow-until-monday.md). Telemetry's set of sessions may differ from the earlier ledgers', so only the totals compare, and loosely.",
+ "rows": [
+  {
+   "agent": "abp@PrompTugal.dinis",
+   "model": "sonnet",
+   "cumulative_usd": 43.69,
+   "delta_usd": 1.52,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "bulletins.b@PrompTugal.dinis",
+   "model": "opus",
+   "cumulative_usd": 123.4,
+   "delta_usd": 13.69,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "cells.b (AgentiCCells team)",
+   "model": "opus",
+   "cumulative_usd": 117.32,
+   "delta_usd": 13.65,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "civic.b@PrompTugal.dinis",
+   "model": "opus",
+   "cumulative_usd": 159.09,
+   "delta_usd": 4.82,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "conductor.b@PrompTugal.dinis",
+   "model": "opus",
+   "cumulative_usd": 501.69,
+   "delta_usd": 18.06,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "correspondent@PrompTugal.dinis",
+   "model": "sonnet",
+   "cumulative_usd": 34.44,
+   "delta_usd": 1.55,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "cyber.b@PrompTugal.dinis",
+   "model": "opus",
+   "cumulative_usd": 120.2,
+   "delta_usd": 6.23,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "data.b@PrompTugal.dinis",
+   "model": "opus",
+   "cumulative_usd": 226.68,
+   "delta_usd": 7.23,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "datasci.places@PrompTugal.dinis",
+   "model": "sonnet",
+   "cumulative_usd": 32.49,
+   "delta_usd": 2.49,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "designer.places@PrompTugal.dinis",
+   "model": "sonnet",
+   "cumulative_usd": 42.38,
+   "delta_usd": 1.55,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "designer@PrompTugal.dinis",
+   "model": "opus",
+   "cumulative_usd": 172.75,
+   "delta_usd": 0.97,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "dev.places@PrompTugal.dinis",
+   "model": "sonnet",
+   "cumulative_usd": 43.08,
+   "delta_usd": 2.9,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "dev@PrompTugal.dinis",
+   "model": "opus",
+   "cumulative_usd": 129.26,
+   "delta_usd": 1.97,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "events.b@PrompTugal.dinis",
+   "model": "opus",
+   "cumulative_usd": 147.2,
+   "delta_usd": 5.24,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "journalist@PrompTugal.dinis",
+   "model": "opus",
+   "cumulative_usd": 82.38,
+   "delta_usd": 2.96,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "librarian@PrompTugal.dinis",
+   "model": "sonnet",
+   "cumulative_usd": 51.51,
+   "delta_usd": 3.14,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "library.b@PrompTugal.dinis",
+   "model": "opus",
+   "cumulative_usd": 152.8,
+   "delta_usd": 5.95,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "live.b@PrompTugal.dinis",
+   "model": "opus",
+   "cumulative_usd": 156.48,
+   "delta_usd": 11.5,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "maestro.b (account-b)",
+   "model": "opus",
+   "cumulative_usd": 50.4,
+   "delta_usd": 6.79,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "newsroom.writer (newsroom.sgit.ai team)",
+   "model": "unknown",
+   "cumulative_usd": 146.65,
+   "delta_usd": 1.57,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "ontologist@PrompTugal.dinis",
+   "model": "sonnet",
+   "cumulative_usd": 73.31,
+   "delta_usd": 2.45,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "outreach@PrompTugal.dinis",
+   "model": "sonnet",
+   "cumulative_usd": 36.62,
+   "delta_usd": 2.28,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "place.algarve.central@PrompTugal.dinis",
+   "model": "sonnet",
+   "cumulative_usd": 54.97,
+   "delta_usd": 0.83,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "place.algarve.east@PrompTugal.dinis",
+   "model": "sonnet",
+   "cumulative_usd": 44.08,
+   "delta_usd": 3.84,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "place.algarve.west@PrompTugal.dinis",
+   "model": "sonnet",
+   "cumulative_usd": 45.2,
+   "delta_usd": 3.51,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "place.districts@PrompTugal.dinis",
+   "model": "sonnet",
+   "cumulative_usd": 64.72,
+   "delta_usd": 2.13,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "researcher@PrompTugal.dinis",
+   "model": "sonnet",
+   "cumulative_usd": 38.88,
+   "delta_usd": 2.31,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "rights@PrompTugal.dinis",
+   "model": "unknown",
+   "cumulative_usd": 9.35,
+   "delta_usd": 1.17,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "security@PrompTugal.dinis",
+   "model": "opus",
+   "cumulative_usd": 138.03,
+   "delta_usd": 4.63,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "sherpa@PrompTugal.dinis",
+   "model": "sonnet",
+   "cumulative_usd": 27.29,
+   "delta_usd": 1.38,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "signals.b@PrompTugal.dinis",
+   "model": "opus",
+   "cumulative_usd": 113.65,
+   "delta_usd": 4.21,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "startups.b@PrompTugal.dinis",
+   "model": "opus",
+   "cumulative_usd": 154.48,
+   "delta_usd": 2.79,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "translator@PrompTugal.dinis",
+   "model": "sonnet",
+   "cumulative_usd": 64.23,
+   "delta_usd": 1.81,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "travel.b@PrompTugal.dinis",
+   "model": "opus",
+   "cumulative_usd": 152.18,
+   "delta_usd": 7.58,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "videos.b@PrompTugal.dinis",
+   "model": "opus",
+   "cumulative_usd": 138.57,
+   "delta_usd": 10.75,
+   "read_at": "2026-11-21T09:35Z"
+  },
+  {
+   "agent": "weather.b@PrompTugal.dinis",
+   "model": "opus",
+   "cumulative_usd": 147.1,
+   "delta_usd": 4.61,
+   "read_at": "2026-11-21T09:35Z"
+  }
+ ],
+ "sessions": 36,
+ "all_total_usd": 3836.55,
+ "previous": {
+  "file": "2026-11-20T2050Z.json",
+  "all_total_usd": 3697.77
+ },
+ "change_since_previous_usd": 138.78,
+ "hours_since_previous": 13,
+ "sum_of_telemetry_deltas_usd": 170.06
+}

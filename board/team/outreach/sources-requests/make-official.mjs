@@ -15,9 +15,58 @@ for (const id of ids) {
   const places = (e.places || []).join(', ')
   const q = String(e.why?.quote || '').replace(/\s+/g, ' ')
   const copyright = /all rights reserved|todos os direitos/i.test(q)
-  const real = /Disallow:\s*\/\S+|Disallow:\s*\/\s|all rights reserved|todos os direitos/i.test(q) && !/could not read/i.test(q)
+  const botOnly = /^User-agent:\s*(?!\*)\S+/i.test(q) && !/User-agent:\s*\*/i.test(q)
+  const real = /Disallow:\s*\/\S+|Disallow:\s*\/\s|all rights reserved|todos os direitos/i.test(q) && !/could not read/i.test(q) && !botOnly
   const why = real ? `o registo anota, em ${e.why.page} (lido a ${e.why.read_at}): "${q.slice(0, 200)}"` : 'não encontrámos termos de reutilização que nos autorizem a ler e mostrar esta fonte, e por isso não a lemos'
   const held = !ch.url
+  if ((e.places || []).includes('london') && !(e.places || []).includes('portugal')) {
+    const wEn = { events: 'its public events listings', news: 'its public news (title, date and link)', notices: 'its public notices', schedules: 'its public schedules' }
+    const kEn = (e.gives || []).filter(g => wEn[g]).map(g => wEn[g])
+    const gEn = kEn.length ? kEn : [`the public data of "${e.name}"`]
+    const qE = String(e.why?.quote || '').replace(/\s+/g, ' ')
+    const copyE = /copyright|all rights reserved/i.test(qE) && !/could not read|answered \d|404|403/i.test(qE)
+    const botOnlyE = /^User-agent:\s*(?!\*)\S+/i.test(qE) && !/User-agent:\s*\*/i.test(qE)
+    const disE = /Disallow:\s*\/\S*/i.test(qE) && !/could not read/i.test(qE) && !botOnlyE
+    const whyE = (copyE || disE) ? `the register records, at ${e.why.page} (read ${e.why.read_at}): "${qE.slice(0, 200)}"${copyE ? ' We respect that notice and so we ask for your permission.' : ' An access rule is not a licence to reuse, and we want to hear from you.'}` : 'we found no reuse terms that allow us to read and show it, so we do not read it. We want to hear from you.'
+    const bodyEn = `---
+organisation: ${e.owner}
+register: https://data.promptugal.news/api/v1/sources/${id}.json (status ${e.status}, read ${new Date().toISOString().slice(0, 10)})
+kind: ${e.kind}
+channel_page: ${ch.url || 'NONE FOUND: a person finds the official contact or press page of this body and records its URL and the date read here before sending'}
+channel_read: ${ch.read || ''}
+language: en
+status: ${held ? 'HELD (no channel read yet)' : 'draft, for a person to send'}
+---
+Subject: Could PrompTugal.news show ${gEn[0]}? A request for permission
+
+Hello ${e.owner} team,
+
+PrompTugal.news is a newsroom for the places of Portugal and London made by AI agents, with every fact linked to its source and the date we read it: https://promptugal.news/
+
+We would like to show ${gEn.join(' and ')} on our London pages, linked to your page and credited to ${e.owner}, so that readers go on to the official source: ${e.url}
+
+We do not read this source today: ${whyE}
+
+We ask for an official answer:
+
+1. May a site like ours show ${gEn[0]}, linked and credited to ${e.owner}, and under which licence?
+2. If so, through which interface should we read it (a feed, an iCal file, open data, an API or another)?
+3. If not, please tell us and we will not read it.
+
+We honour your robots.txt and your crawl delay, we read nothing behind a login and we do not copy full texts. Until you answer, we do not read this source.
+
+Your answer, or no answer after 14 days, is recorded as given on our public register of sources, with the date: https://data.promptugal.news/sources/not-read/
+
+Kind regards,
+[the sender, for a person to choose]
+PrompTugal.news
+
+Written by an AI agent for Dinis Cruz, reviewed and sent by a person. We found this contact on your official website${ch.url ? `: ${ch.url} (read ${ch.read})` : ' (to be recorded by the sender)'}. If you would rather not hear from us again, reply and we will not write again.
+`
+    fs.writeFileSync(`board/team/outreach/sources-requests/official/${id}.md`, bodyEn)
+    console.log(id, held ? 'HELD' : 'ready', ch.url || '')
+    continue
+  }
   const body = `---
 organisation: ${e.owner}
 register: https://data.promptugal.news/api/v1/sources/${id}.json (status ${e.status}, read ${new Date().toISOString().slice(0, 10)})

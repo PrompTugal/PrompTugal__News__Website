@@ -22,5 +22,25 @@
  "aguasdoalgarve-disponibilidades-hidricas": {
   "url": "https://www.aguasdoalgarve.pt/content/contactos",
   "read": "2026-11-20"
+ },
+ "london-gov-uk-events": {
+  "url": "https://www.london.gov.uk/who-we-are/press-and-public-affairs",
+  "read": "2026-11-21"
+ },
+ "city-of-london-corporation": {
+  "url": "https://www.cityoflondon.gov.uk/footer/contact-the-city-corporation",
+  "read": "2026-11-21"
+ },
+ "barbican": {
+  "url": "https://www.barbican.org.uk/your-visit/general-info/contact-us",
+  "read": "2026-11-21"
+ },
+ "camden-council": {
+  "url": "https://www.camden.gov.uk/contact-camden",
+  "read": "2026-11-21"
+ },
+ "thames-water-reservoir-levels": {
+  "url": "https://www.thameswater.co.uk/contact-us",
+  "read": "2026-11-21"
  }
 }

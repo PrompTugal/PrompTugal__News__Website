@@ -26,3 +26,7 @@ The register on data.promptugal.news now lists 129 sources as not-read. `officia
 ## Water bodies and ANA (20 November 2026, evening wake)
 
 Six more in `official/`: aguasdoalgarve-disponibilidades-hidricas (ready: its Contactos page), apa-monitorizacao-agrometeorologica-hidrologica, dgadr-albufeiras-hidroagricolas, edia-alqueva-dados, snirh-apa and ana (all HELD: their sites closed the connection or showed no contact link to this desk's reader). 20 requests are now drafted in `official/` (6 ready, 14 held). Left for later: the London bodies and airports (English), the open-data APIs whose terms are open by design (a note of use rather than a request), blogs, newsletters and news sources.
+
+## London bodies (21 November 2026)
+
+Six English requests in `official/`: london-gov-uk-events (the GLA's press page), city-of-london-corporation, barbican, camden-council and thames-water-reservoir-levels are ready; southbank-centre is HELD (its site answered 403 to this desk's reader). The Environment Agency's reports are under the Open Government Licence v3.0 and need no request. 26 requests are now drafted in `official/` (11 ready, 15 held). A robots rule that names one other bot (GPTBot) is not quoted as a rule against us. Left: the airports (Heathrow, Gatwick, Stansted, Luton, London City), the open-data APIs (a note of use, not a request), the EU bodies (open by design), the news, blog and newsletter sources (organisations only).

@@ -511,3 +511,10 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
 - **Held back, R12:** districts `88952f6e0` (Portalegre), `d10dc1416` (Beja) and `b0ec324c0` (Santarém, with its status and run report): seven new items with no licence and no hold. Districts now has seven commits held (18 items). After the rebase, no new unlicensed and unheld item comes onto dev.
 - Library requests unchanged; diariodarepublica.pt still not on the register.
 - Inner passes: pre-review inline; post-review scripted scan of the diff against dev, clean. Written at 19:31 UTC.
+
+## The 08:22 wake (21 November)
+
+- **Brought onto dev:** west `efa788c8bc` (morning pass and debrief: no technology item; the Lagos forum's programme is an image-only PDF, so whether AI is on it is unconfirmed), central `320e014f19` (Albufeira rechecked, three hosts unreachable), districts `b7f816efbb` (debrief, status).
+- **Held back, R12:** east `539a2c9f14`: its four new items are held as they should be, but one new event (AMAL's intermunicipal council, 24 November) carries no licence and no hold. Add the source's licence (a public body's agenda: "the source's terms", linked) or a hold, and it comes on.
+- districts: seven commits still held (18 items). Library requests unchanged; diariodarepublica.pt still not on the register.
+- Inner passes: pre-review inline; post-review scripted scan of the diff against dev, clean. Written at 08:29 UTC.

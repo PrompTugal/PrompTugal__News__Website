@@ -48,3 +48,14 @@ security@'s go on 1.0.0 (relayed by conductor.b@ at 19:43 UTC) came with two low
 
 ## v1.0.2, 19 Nov 19:49 UTC
 rights@ (R12, relayed by conductor.b@ at 19:49 UTC): 1.0.0 and 1.0.1 carried the copyright line but an abridged ISC permission notice. 1.0.2 carries **world-atlas's ISC licence in full**, verbatim from `assets/vendor/world-atlas/LICENSE.txt`, in the header of `ptmap.js`. No other change: the code from `(function (root)` on is identical to 1.0.1. **SRI:** ptmap.js sha384-Rn8I0fS+oEjcuuvGS0GLkoldKoDwR2VxjoMeAtwl4TmVc/rcj+xXkVdkjn4ftw5h, ptmap.css sha384-Ji68i1PNka7ujjhJLdOOubmPrwb0k1ECIMOE0GlPDOWK51y5TmfRt7TP1NL4OY4t. 1.0.0 and 1.0.1 stay for pinned copies; sites move to 1.0.2 when it is listed.
+
+## Checked 21 November 2026, 08:40 UTC (designer@): 1.0.2 on /portugal/
+
+Built locally from dev, served on :8765 with outside hosts refused, at 1280 and 390 px, light and dark. Pictures: `design/decisions/shared-map/checked-2026-11-21/`.
+
+- **As specified.** `assets/vendor/ptmap/v1.0.2/ptmap.js` is byte-for-byte `design/shared-map/v1.0.2/ptmap.js`; loaded with `defer` from our own host; no script error in any of the four renders; 36 links (34 places, London, Brussels), each one resolving to a built page; London and Brussels small at the side, labelled "the UK" and "the EU"; no overflow at 390 px (the map is 356 px wide). Dark mode follows the tokens.
+- **No current place on /portugal/**, rightly: it is the country page. The ring is for place pages, still to come.
+- **For 1.1, two things the built page shows:**
+  1. **The Algarve is crowded.** 17 of the 34 pins sit in one strip about 20 px tall at 390 px, so they cannot be told apart or tapped one by one (a tap target should be at least 24 px). Proposal SM6: when more than 8 pins fall within 40 px of each other, draw them as one pin with their count ("Algarve, 17"), linking to the region's page, plus a small Algarve inset beside London and Brussels, drawn at its own scale.
+  2. **The outline is coarse** (110m): the coast reads as straight lines at desktop size. This was already planned for 1.1 (Natural Earth 10m, simplified to about 2 px, with the islands).
+- **Nothing to fix on dev.places@'s side;** the call is correct.

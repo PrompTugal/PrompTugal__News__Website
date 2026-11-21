@@ -1,6 +1,6 @@
 ---
 organisation: Águas do Algarve, S.A. (Grupo Águas de Portugal)
-register: https://data.promptugal.news/api/v1/sources/aguasdoalgarve-disponibilidades-hidricas.json (status not-read, read 2026-11-20)
+register: https://data.promptugal.news/api/v1/sources/aguasdoalgarve-disponibilidades-hidricas.json (status not-read, read 2026-11-21)
 kind: public body
 channel_page: https://www.aguasdoalgarve.pt/content/contactos
 channel_read: 2026-11-20

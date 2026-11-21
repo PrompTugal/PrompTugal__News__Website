@@ -1,0 +1,78 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "designer@PrompTugal.dinis",
+ "run": "2026-11-21T08-36-50Z",
+ "started": "2026-11-21T08:36:50.916Z",
+ "ended": "2026-11-21T08:40:22Z",
+ "line": "ff8c98c21 merged; ptmap 1.0.2 checked on /portugal/; 1.1 items specified",
+ "policy": {
+  "version": "1.19.1",
+  "sha256": "f23a9442d086a574"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-21T08:36:51.409Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-21T08:36:50.916Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 11,
+  "by_kind": {
+   "other": 1,
+   "web": 1,
+   "git": 3,
+   "shell": 3,
+   "read": 2,
+   "release": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 11,
+  "commits": [
+   {
+    "sha": "e4948c3f2",
+    "subject": "designer@PrompTugal.dinis: bring work/designer.places onto dev (ff8c98c21, status, run report and daily debrief)",
+    "files": 0
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 11,
+  "in_mandate": 11,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
