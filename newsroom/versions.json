@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2000",
+    "date": "2026-11-21",
+    "what": "maestro.d (account-d): Factory PR #1 for conductor.d's entries, at Dinis's word",
+    "by": "maestro.d (account-d)",
+    "from": "2cb0131c4"
+  },
+  {
     "version": "v0.1.1999",
     "date": "2026-11-21",
     "what": "maestro.d (account-d): claim and ask to maestro.b on the SovereignWebsite twins",
