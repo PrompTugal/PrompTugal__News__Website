@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1984",
+    "date": "2026-11-21",
+    "what": "telemetry.b@PrompTugal.dinis: wake 09:26 (21 Nov), costs refreshed for 36 sessions, debrief",
+    "by": "telemetry.b@PrompTugal.dinis",
+    "from": "c693131a3"
+  },
+  {
     "version": "v0.1.1983",
     "date": "2026-11-21",
     "what": "outreach@PrompTugal.dinis: English on-the-record requests to six London bodies; a bot-specific robots rule is no longer quoted against us; 26 drafted",
