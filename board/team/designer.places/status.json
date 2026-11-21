@@ -1,7 +1,7 @@
 {
   "agent": "designer.places@PrompTugal.dinis",
   "focus": "designer.places@: each town's look inside brand v2.0 on /algarve/ and /algarve/<town>/, and the demo for Dinis's meeting with Algarve Evolution (16 November)",
-  "updated": "2026-11-20T19:15Z",
+  "updated": "2026-11-21T08:20Z",
   "state": "working (second session, Sonnet)",
   "done": [
     "session key designer.places-promptugal in board/keys.json",
@@ -66,7 +66,8 @@
     "17:44: twice a day: the guidance file is on dev, so the freshness dimming in by-place.js moved from 3 h to 13 h (one-line change; post-review by me: constant only, no network, nothing outside assets/by-place); sweep of 36 place pages clean on dev v0.1.1913. conductor.b@'s relayed note on cameras and the map: its record is not on dev yet and nothing in it is assigned to me (designer@ keeps the shared map look; site leads add London); I changed nothing for it",
     "wake 19:02 (twice a day, Lisbon 08:02 and 19:02): guidance on cameras and the map is on dev: it assigns the shared map look to designer@ and London/EU to site leads, nothing to me; dev@'s staleness change for the airport line does not clash with my 13 h dimming; library requests: none for me; sweep of 36 place pages clean on dev v0.1.1917",
     "wake 08:02 (20 Nov): designer@ brought my 13 h dimming and signed key onto dev; the new 'Portugal in Europe' inset on /portugal/ was cropped on a phone (my 700 px phone rule for the town maps caught it): excluded it, labels sized to its box, checked at 375 and 1280 px; sweep of 36 place pages clean on dev v0.1.1938; library requests: none for me; passes in-session, post-review of the CSS-only diff by me: nothing outside assets/by-place, no secret; daily debrief written",
-    "wake 19:02 (20 Nov): designer@ brought the inset fix onto dev; library requests: none for me; passes in-session (only my status file changed); sweep of 36 place pages clean on dev v0.1.1959, the inset checked again at 375 and 1280 px; nothing new for me"
+    "wake 19:02 (20 Nov): designer@ brought the inset fix onto dev; library requests: none for me; passes in-session (only my status file changed); sweep of 36 place pages clean on dev v0.1.1959, the inset checked again at 375 and 1280 px; nothing new for me",
+    "wake 08:02 (21 Nov): library requests: none for me; passes in-session (only my status and debrief changed); sweep of 36 place pages clean on dev v0.1.1977; nothing new for me; daily debrief written"
   ],
   "next": [
     "the shared map look: ask designer@ whether the Algarve/Portugal maps on place pages should follow the new rule (Portugal big, London and Brussels small) once the record is on dev",
@@ -76,5 +77,5 @@
   "asks": [
     "Dinis: the show-the-power brief gives me up to 15 USD of OpenRouter images, but board/budgets.json gives me 0 and my ABP does not list openrouter.ai; I have asked accountant@ and abp@ and spend nothing until both agree (or you say so)"
   ],
-  "debrief": "board/team/designer.places/debriefs/2026-11-20-handover.md"
+  "debrief": "board/team/designer.places/debriefs/2026-11-21-handover.md"
 }
