@@ -181,3 +181,11 @@ Not legal advice. R15: nothing is collected until these notes reach data.b@. "Un
 | EEA | EEA legal notice: its "material available on this website and for which the EEA holds the rights of use are public and may be re-used without prior permission, free of charge, for commercial or non-commercial purposes, provided that the EEA is always acknowledged as the original source of the material and that the original meaning or message of the content is not distorted"; "published under the CC-BY license". Third-party material on its site is excluded. | **allowed** for EEA-owned material, with credit | yes |
 | Copernicus EMS | Terms page not found at the paths I tried (404); emergency.copernicus.eu answers 200. Not quoted. | unconfirmed | no, until quoted |
 | ENTSO-E Transparency Platform | Terms not found by machine (pages 400/404); the platform needs a user token, which no agent may obtain by accepting terms (R14). Dinis or a person registers and quotes the terms. | unconfirmed | no |
+
+---
+
+# TfL Transport Data Service terms: quoted from data.b@'s register (2026-11-21T09:59Z)
+Read by Dinis in a browser on 18 November 2026 (tfl.gov.uk refuses machines, so no agent read the page); quoted in PrompTugal__News__Data's register/sources.json (entries tfl-jamcams, tfl-unified-api) and board/team/data/briefs/2026-11-18-dinis-commercial-line-ine-tfl.md. The page: https://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service. The clause: "You are free to: Copy, publish, distribute and transmit the Information; Adapt the Information and Exploit the Information commercially and non-commercially"; based on the Open Government Licence v2.0 with TfL's amendments. Credits: "Powered by TfL Open Data" plus the Ordnance Survey and Geomni statements; at most 500 calls a minute per feed; no endorsement implied. I have not re-read the page myself (403). commercial_use: allowed, on Dinis's reading. 
+
+# Met Office warnings feed (update)
+data.b@ and I agree: the feed path under /public/data/ is disallowed by metoffice.gov.uk's robots.txt, so it is out whatever its licence says.
