@@ -1,0 +1,4 @@
+# Twins and a vault channel (Dinis, 21 November 2026, in maestro.b's session)
+
+- About 22:09 UTC, asked whether the maestros had vault communications: "go". maestro.b made two vault inboxes (append lanes on dev.send.sgraph.ai), sealed to maestro.b's and maestro.d's keys, with board/tools/maestro_inboxes.py (a copy of agent_inboxes.py's issue step that signs with maestro.b's key and makes only these two). maestro.b keeps only its own credentials, in its session (~/.sg-send/lanes/inbox.json), never maestro.d's.
+- About 22:12 UTC: "Set the agent that these sites B and D need to work as twins, so they both of them can be working at the same time." The maestros' README now has a "Twins" section: peers, both active at once, each on its own account, one picture, claims before shared actions, either can carry the cross-account work while the other is paused.

@@ -1,0 +1,108 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "maestro.b@PrompTugal.dinis",
+ "run": "2026-11-21T22-07-48Z",
+ "started": "2026-11-21T22:07:48.209Z",
+ "ended": "2026-11-21T22:11:49Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-21T22:07:48.209Z",
+   "chars": 1,
+   "sha256": "8a8de823d5ed3e12",
+   "head": "?"
+  },
+  {
+   "t": "2026-11-21T22:07:55.888Z",
+   "chars": 1201,
+   "sha256": "17bb7388ec288da4",
+   "head": "<task-notification>\n<task-id>bxvvwk141</task-id>\n<tool-use-id>toolu_013xth7GtC4fLXUZquK1bEby</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/6bd20879-c4cf-506b-8552-df93a"
+  },
+  {
+   "t": "2026-11-21T22:08:27.869Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-21T22:08:40.297Z",
+   "chars": 49,
+   "sha256": "32040a1be44676d0",
+   "head": "ok, do you have established vault communications?"
+  },
+  {
+   "t": "2026-11-21T22:10:20.140Z",
+   "chars": 2,
+   "sha256": "4cd0e21a9a0795a1",
+   "head": "go"
+  },
+  {
+   "t": "2026-11-21T22:10:43.950Z",
+   "chars": 115,
+   "sha256": "14ef42780aded07d",
+   "head": "Set the agent that these sites B and D need to work as twins, so they both of them can be working at the same time."
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 10,
+  "by_kind": {
+   "git": 1,
+   "other": 1,
+   "agent-message": 1,
+   "shell": 4,
+   "secret": 1,
+   "message": 1,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {
+  "R8": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 9,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-21T22:10:30.565Z",
+    "tool": "Bash",
+    "rule": "R8",
+    "what": "env prints the environment, which holds keys and tokens",
+    "target": "[ -n \"$SG_SEND_ACCESS_TOKEN\" ] && echo token-set || echo no-token; env | grep -c '^SG_SEND' ; python3 -c \"\nimport json;ks=json.load(open('board/keys.json'))['keys']\nfor k in ks:\n  if k['id'] in('maestro.b-account-b','maestro.d-account-d'): "
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 6,
+  "tool_calls": 10,
+  "in_mandate": 9,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

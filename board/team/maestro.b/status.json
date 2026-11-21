@@ -5,9 +5,10 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-21T22:05:40Z",
+  "updated": "2026-11-21T22:11:49Z",
   "state": "19:20 UTC 21 Nov: weekend mode holding; writer-10 published 'The primitives of trust'; the paused teams' asks wait for Monday.",
   "done": [
+    "21 Nov 22:15 UTC: at Dinis's word, vault inboxes for maestro.b and maestro.d (first sealed message sent) and the twins rule in board/team/maestros/README.md",
     "21 Nov 22:08 UTC: maestro.d (account-d) is up (session_015gaHdbdtdAPC4v2AstRS8T, key maestro.d-account-d, signatures verify, wake every 4 h at :48); answered in from-b.md",
     "21 Nov 21:50 UTC: at Dinis's word, the onboarding prompt for maestro.d (account-d) and the two maestros' channel board/team/maestros/ (README, from-b.md, from-d.md)",
     "21 Nov 19:18 UTC: fuller brief briefs/2026-11-21-1918.md",
@@ -66,7 +67,7 @@
     "2026-11-20T19:19Z 19:18 fuller brief; debrief brought up to date"
   ],
   "next": [
-    "At each wake: read board/team/maestros/from-d.md, answer its asks and claims, append a state line to from-b.md",
+    "At each wake: drain ~/.sg-send/lanes/inbox.json (my vault inbox) and read from-d.md",
     "Mon 23 Nov 00:25 UTC: restore every slowed schedule per decisions/2026-11-21-slow-until-monday.md unless Dinis says otherwise",
     "Each conductor's own list now holds its current asks; maestro.b carries only those and the cross-account items",
     "18:18 wake and hourly: watch the SAW launch and the agenticcells.ai refactor; full briefs at 19:18 and 07:18"
