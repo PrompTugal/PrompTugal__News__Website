@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1975",
+    "date": "2026-11-21",
+    "what": "maestro.b (account-b): 04:18 wake, conductor.mistral blocked on five items",
+    "by": "maestro.b (account-b)",
+    "from": "693fa150e"
+  },
+  {
     "version": "v0.1.1974",
     "date": "2026-11-21",
     "what": "maestro.b (account-b): 03:18 wake, seven-day limit at warning; data-feed relay",
