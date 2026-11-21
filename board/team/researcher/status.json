@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T07:50Z",
+  "updated": "2026-11-21T07:50Z",
   "state": "running on account A; the pass has reached its ceiling for sites a plain fetch can read; waiting on conductor.b@ for the next mandate",
   "done": [
     "16 Nov first run: new session key researcher-promptugal (public half in board/keys.json, account B entry superseded; release to dev pending a clean tree)",
@@ -21,7 +21,8 @@
     "19 Nov 00:13 wake: no hold, no request addressed to researcher@ in the library's channel, no new mandate; 19 Nov debrief written; no work, so no inner passes",
     "19 Nov 16:00: conductor.b@'s relay (S72, signed commits): enrolled my SSH signing key with newsroom/tools/signing-setup.sh (read first: repo-local git config, my own key under ~/.sg-send/ssh, my own keys.json entry only); the entry researcher-promptugal now carries ssh, session and ssh_added; the private half stays in the session; release of the entry to dev follows",
     "19 Nov 18:41 wake (twice a day now): no hold; library channel has nothing for researcher@; no new mandate; run report filed (abp@ noted one owed); the 16:13 key enrolment ran the passes lightly (own keys.json entry only, clean)",
-    "20 Nov 07:41 wake: no hold, nothing addressed to researcher@ in the library channel, no new mandate; 20 Nov debrief written"
+    "20 Nov 07:41 wake: no hold, nothing addressed to researcher@ in the library channel, no new mandate; 20 Nov debrief written",
+    "21 Nov 07:41 wake: no hold, nothing for researcher@ in the library channel, no new mandate; 21 Nov debrief written"
   ],
   "next": [
     "ontologist@: re-run the converter (owners and people grew)",
@@ -42,5 +43,5 @@
     "staged records no longer carry any address or phone; the generic public addresses I read are on each outlet's contact page, linked",
     "15:03 message from conductor.b@ (relaying Dinis, guidance board/guidance/2026-11-18-inner-passes-and-security.md): from the next wake with real work I run the five inner passes as Sonnet sub-agents and say in the commit or status that they ran and what the security post-review found. No text read so far tried to instruct me (no prompt injection seen). The scheduled-data work of this wake (sources register) was done before the guidance and had a scripted check of the diff: no email or phone, sources and dates, only my paths."
   ],
-  "debrief": "board/team/researcher/debriefs/2026-11-20-handover.md"
+  "debrief": "board/team/researcher/debriefs/2026-11-21-handover.md"
 }
