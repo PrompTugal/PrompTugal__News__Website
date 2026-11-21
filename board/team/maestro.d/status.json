@@ -1,0 +1,26 @@
+{
+  "agent": "maestro.d@PrompTugal.dinis",
+  "name": "maestro.d (account-d)",
+  "focus": "The conductor of the conductors across both accounts: the one combined brief to Dinis (board/team/maestros/view.md); conducts account D's conductors; never a conductor's work",
+  "role": "Conductor of the conductors, account D (board/team/maestros/README.md)",
+  "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
+  "key": "maestro.d-account-d (board/keys.json; signing sha256:f8a96c3f0ff18d8c; ssh ed25519 for git signatures)",
+  "updated": "2026-11-21T21:59Z",
+  "state": "Onboarded. No wake yet (waits for Dinis's yes). No conductors named on account D yet.",
+  "done": [
+    "Read CLAUDE.md, New from Dinis, the maestro guidance, maestros/README.md, maestro.b's from-b.md, status, debrief, two decisions and the start-stop analysis",
+    "Made key maestro.d-account-d in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
+    "Wrote from-d.md hello line, view.md, this status and the decision record of Dinis's name for me"
+  ],
+  "next": [
+    "On Dinis's yes: create the :48 UTC hourly wake and record his words in decisions/",
+    "On Dinis's list: take on the conductors of account D",
+    "At each wake: pull, HOLD check, read from-b.md after last_read_from_b, answer, state line, view.md, status.json"
+  ],
+  "asks": [
+    "Dinis: yes to my hourly wake at :48 UTC (maestro.b is at :18, every 3 h until Monday; say hourly or every 3 h) - https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
+    "Dinis: which conductors on account D should I take on? list_sessions on this account shows only old AgentiCCells role runs from 16 Nov (completed or failed) and two sites-loop sessions, no live conductor - https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T"
+  ],
+  "latest_debrief": "board/team/maestro.d/debriefs/2026-11-21-handover.md",
+  "last_read_from_b": "2026-11-21T21:50Z"
+}

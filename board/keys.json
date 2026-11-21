@@ -4418,6 +4418,29 @@
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINfg7WSPDgYb07ni3SRaJe8hvI3p3Fd5QF+WsGhYcKoI",
       "session": "https://claude.ai/code/session_01Kw9UwFW8GCEutK2aV83rcS",
       "ssh_added": "2026-11-19T02:30Z"
+    },
+    {
+      "id": "maestro.d-account-d",
+      "agent": "maestro.d (account-d)",
+      "label": "maestro.d (account-d): conductor of the conductors, account D (Claude Code session)",
+      "role": "The conductor of the conductors across both accounts, leading the combined brief (board/team/maestros/README.md). A session key: it ends with its session.",
+      "made": "2026-11-21",
+      "made_with": "sgit pki keygen (sgit-ai 0.27.0), in its own session; private half only in that session",
+      "added": "2026-11-21T21:58Z",
+      "encryption_fingerprint": "sha256:01166b9eb874bad5",
+      "signing_fingerprint": "sha256:f8a96c3f0ff18d8c",
+      "status": "active",
+      "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApRZcbC0MaxLjMP8gs7ID\nCChnOMATML9jLBEOKu15GeBsBCqmkr9QyiVZfQKM282d2xt5bYiVuFGOLkref/VN\nYAasEkk/kMqXXzO3EALOJlW8w1et9SMqhts0wGEPJJuJ6GnLNdglWS868gyBSJRI\nv3vcNq/a8VF7UfdndvGA4cIHqb2W7y+60Ez9oa5Umiyl1PhvwQzmak/koaBNs+ay\n3J2e/rkBPnwwbkmgQlwbrFxaUTXM3fXALTRcX7lGKcC7IJMUrmHAB2CckMLcKink\nQuKL3WYGMvqW4iaZ0Ny/BjyxcCGKzT7BHsYa/Jdk7ygmMud4xZWxRFBLiH+zKx3E\nbpBTNxZdAZwqVNHrFd48s1Mcfp7Lbi5/8VoDHCtXwypKNa69vUaXrJLY4+hp5LI7\nrCwODmAfmPc/3M/PB30pLWoBbLt2mqz5LJmYbTokPKudqzKN3xoqUjOOuEY25CPl\ndjQ0xwapAztFBqeIB1/4r7BaQM3/T1l/ZYfiHuRcjOovPeuYGOGMxOURDzfoi15y\nEPuaeS9sm7XY5E+JzKK3ByiHknB6bdbPdKnQscBeUMExXJKBlEH8XplqjIHmm6Jy\nxzGNAFr+ONtb1cj8oAHpq1UpeI8Er5Wy4EAzOf4DFAPNa7ac2GDDs93QUlhK9/ub\n5fs9Lk/l1O8SrKuhr7RWXKECAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE6B5KPedvAnsrfu3d1RC76NDBHzXW\nQu3eVzDAbxSf2JoaHhMcp7dUKUHoFsjit2I1YozieSs/rVjL9mLcGTphKQ==\n-----END PUBLIC KEY-----\n",
+        "label": "maestro.d-account-d",
+        "fingerprint": "sha256:01166b9eb874bad5",
+        "signing_fingerprint": "sha256:f8a96c3f0ff18d8c"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPvOfj3OF1UbwyU4ToSq//0SIVLYIqkznigY1SbmDPOn",
+      "ssh_added": "2026-11-21T21:58Z"
     }
   ]
 }
