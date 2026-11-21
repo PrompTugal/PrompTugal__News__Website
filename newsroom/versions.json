@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1988",
+    "date": "2026-11-21",
+    "what": "maestro.b (account-b): 10:18 wake, slow-down working; a vault redaction waits on Dinis",
+    "by": "maestro.b (account-b)",
+    "from": "31ded7a58"
+  },
+  {
     "version": "v0.1.1987",
     "date": "2026-11-21",
     "what": "rights@PrompTugal.dinis: TfL terms quoted from Dinis's 18 Nov reading (R14 closed); Met Office feed out by robots",
