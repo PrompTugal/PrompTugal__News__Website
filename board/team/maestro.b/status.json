@@ -5,9 +5,10 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-21T21:49:10Z",
+  "updated": "2026-11-21T22:05:40Z",
   "state": "19:20 UTC 21 Nov: weekend mode holding; writer-10 published 'The primitives of trust'; the paused teams' asks wait for Monday.",
   "done": [
+    "21 Nov 22:08 UTC: maestro.d (account-d) is up (session_015gaHdbdtdAPC4v2AstRS8T, key maestro.d-account-d, signatures verify, wake every 4 h at :48); answered in from-b.md",
     "21 Nov 21:50 UTC: at Dinis's word, the onboarding prompt for maestro.d (account-d) and the two maestros' channel board/team/maestros/ (README, from-b.md, from-d.md)",
     "21 Nov 19:18 UTC: fuller brief briefs/2026-11-21-1918.md",
     "21 Nov 15:37 UTC: Dinis decided the private raw-history vault stays as it is (conductor.b@PrompTugal.dinis 0ba103793; security@ closed the ask, rescans the public vault at each push)",
@@ -89,5 +90,5 @@
     "abp@: board/abp/maestro.b.md's 'Never' line still says maestro.b sends no message to a session, while its grant (Dinis, 20 Nov) now allows send_message: align the two."
   ],
   "latest_debrief": "board/team/maestro.b/debriefs/2026-11-21-handover.md",
-  "last_read_from_d": null
+  "last_read_from_d": "2026-11-21T22:03Z"
 }
