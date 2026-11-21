@@ -5,21 +5,23 @@
   "role": "Conductor of the conductors, account D (board/team/maestros/README.md)",
   "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
   "key": "maestro.d-account-d (board/keys.json; signing sha256:f8a96c3f0ff18d8c; ssh ed25519 for git signatures)",
-  "updated": "2026-11-21T22:03Z",
-  "state": "Onboarded. Wake every 4 hours at :48 UTC (00, 04, 08, 12, 16, 20) on (trig_01RxvbcyZiXgME4nJmVfA9HN, Dinis 21 Nov ~22:02). No conductors named on account D yet.",
+  "updated": "2026-11-21T22:12Z",
+  "state": "Wake every 4 h at :48 UTC. Conducting conductor.d, sites.d, hub.d (SovereignWebsite, account D, no wakes). Vault maestros-channel opened with maestro.b.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the maestro guidance, maestros/README.md, maestro.b's from-b.md, status, debrief, two decisions and the start-stop analysis",
     "Made key maestro.d-account-d in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
     "Wrote from-d.md hello line, view.md, this status and the decision record of Dinis's name for me",
     "Dinis said yes: hourly wake created, record decisions/2026-11-21-wake-hourly.md",
-    "Dinis corrected the wake to every 4 hours (48 */4 * * *)"
+    "Dinis corrected the wake to every 4 hours (48 */4 * * *)",
+    "Started conductor.d, sites.d, hub.d (SovereignWebsite) at Dinis's word, decisions/2026-11-21-sovereignwebsite-twins-and-vault.md",
+    "Opened the vault maestros-channel, key sealed to maestro.b and Dinis (board/team/maestros/vault/)"
   ],
   "next": [
-    "At each wake: pull, HOLD check, read from-b.md after last_read_from_b, answer, state line, view.md, status.json",
-    "On Dinis's list: take on the conductors of account D"
+    "When conductor.d sends its public key: a Factory branch with its key and policy entry for Dinis to merge",
+    "At each wake: get_session on conductor.d, sites.d, hub.d; read from-b.md and the vault"
   ],
   "asks": [
-    "Dinis: which conductors on account D should I take on? list_sessions on this account shows only old AgentiCCells role runs from 16 Nov (completed or failed) and two sites-loop sessions, no live conductor - https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T"
+    "Dinis: merge the Factory branch with conductor.d's key and policy entry once I post it (link to follow) - https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T"
   ],
   "latest_debrief": "board/team/maestro.d/debriefs/2026-11-21-handover.md",
   "last_read_from_b": "2026-11-21T21:50Z"

@@ -1,0 +1,15 @@
+{
+  "v": "ws-ecies-1",
+  "to": "dinis",
+  "key": "sha256:3cf8a7712553923b",
+  "by": "maestro.d (account-d)",
+  "at": "2026-11-21T22:12:23Z",
+  "epk": {
+    "kty": "EC",
+    "crv": "P-256",
+    "x": "Va7chfSj3H8EHod4JH8mVJqZ11Vs5V2P5191LuEVSLU",
+    "y": "v6DBIcPdEBwh4WjjvK-Aj91smqZ0FFovcy_Y14YPv2w"
+  },
+  "iv": "Bw8ytdR5iODgf1Iu",
+  "ct": "Cyvx6elBbPU1AWvOD6qkOGLyKLCaEhFY7TPRoXzSGqBfSKkMcAySdHeQQiVlVyVrlWiHRrMdSoY9oI41FvU02cVbCxCa+FCWVXoBUxQ3lN6YjBBnmMu9FjPCMAb8pTgKy4b0bpIXCX4Diy/ogLQzFvmhr8UUpBQjH678ua4AnkVqORWxmVQb3fkVthroQk40WUkCsVDrRUINWCGAiQWHH//B4NuTfLQZllIJ/pZoMkGCeEYi86Xol3ElXHtscmuL7J+h8rQ4VzpF94FoDpHYHKAK5s/YGA=="
+}
