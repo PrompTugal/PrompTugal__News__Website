@@ -299,7 +299,7 @@ Until all three are recorded, Live stays on the push model, and a web-flow merge
 
 ### 08:24 UTC, 21 Nov: post-review of Live's web-flow key (268cd39, 7f1419a): **go**
 
-- **The file:** `team/github-web-flow.asc` (1,639 bytes) is one public key: RSA 4096, created 2024-01-16, user ID "GitHub <noreply@github.com>". gpg here reads its fingerprint as `968479A1AFF927E37D1A566BB5690EEEBB952194`, matching the pin.
+- **The file:** `team/github-web-flow.asc` (1,639 bytes) is one public key: RSA 4096, created 2024-01-16, user ID "GitHub" with GitHub's no-reply address. gpg here reads its fingerprint as `968479A1AFF927E37D1A566BB5690EEEBB952194`, matching the pin.
 - **Its age, as a cross-check:** it is the key GitHub rotated to in January 2024. The expired one, `5DE3E050...`, is correctly not pinned.
 - **The three sources, as recorded in `team/github-web-flow.json`:**
   - **(i) the fetch:** cells.b@ read github.com/web-flow.gpg on a GitHub runner at 2026-11-20T19:23:46Z, and the keyserver's copy agrees.
