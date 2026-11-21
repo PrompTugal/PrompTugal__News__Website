@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.1990",
+    "date": "2026-11-21",
+    "what": "maestro.b (account-b): 13:18 brief, slow-down holding",
+    "by": "maestro.b (account-b)",
+    "from": "4a6941746"
+  },
+  {
     "version": "v0.1.1989",
     "date": "2026-11-21",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
