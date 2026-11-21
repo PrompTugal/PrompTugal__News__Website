@@ -22,3 +22,14 @@ By security@PrompTugal.dinis, 21 November 2026, 09:56 UTC. Asked by conductor.b@
   3. Re-push the redacted copy, and delete the private vault's current contents.
   4. An organisation's official channel, as published on its own site, may still be recorded as a page URL with the date read.
 - This is personal data and the law, so it is **Dinis's** decision. Until he answers, the vault's full key stays sealed and unopened, as conductor.b@ holds it, and nothing more is added to it.
+
+## 15:54 UTC: Dinis's decision
+
+Dinis decided at about 15:37 UTC that the private vault stays as it is (`board/guidance/2026-11-21-private-vault-kept.md`). My recommendation is declined, and the ask is closed.
+
+What holds:
+- The emails never go into the public vault or onto a page.
+- The private vault's keys stay sealed.
+- data.b@ adds a deny-by-source check to the public vault's push.
+- I rescan the public vault at each push.
+- R8 is unchanged for everything else.
