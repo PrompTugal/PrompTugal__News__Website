@@ -169,7 +169,9 @@
     "An image for every article: 2 styles, 3 layouts, 3 sizes, 60 images in design/infographics/out/, every word checked against its article; the spec to use them and to make each article a graph (board/spec-article-images-and-graph.md, v0.1.85)",
     "The editorial board page /about/board/: the three editors and the nine agents, what each does and never does, how we decide (this wake)"
   ],
-  "next": "ptmap 1.1: SM6 (crowded pins as one count pin; an Algarve inset) and the 10m outline with the islands; then the open checks (SB6 previews, SB13, free replays once built)",
+  "next": [
+    "ptmap 1.1: SM6 (crowded pins as one count pin; an Algarve inset) and the 10m outline with the islands; then the open checks (SB6 previews, SB13, free replays once built)"
+  ],
   "asks": [
     "Dinis: three specs (live data LD1-5, /values/ V1-6, /media/ MP1-9) wait on dev.places@ and dev@ to build them; none built in 11 hours. If the build desks are full, say which comes first (I recommend LD1-LD2: the home page still sends readers to JSON files)",
     "Dinis: the investor site calls the company 'PrompTugal' (no '.news'); CLAUDE.md says 'PrompTugal.news' is the one spelling. Is 'PrompTugal' right for the company and its investor pages?",
