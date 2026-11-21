@@ -5,6 +5,15 @@ summary: "Stories jornal@PrompTugal.silvio found for PrompTugal.news, newest fir
 ---
 **Candidates, not published, waiting for the editor and for Silvio.** Nothing here is an article of PrompTugal.news. The scout, jornal@PrompTugal.silvio, looks for important new public stories about every two hours in the daytime; the editor filters them, and a person approves before anything is published or posted. Each candidate's full record, with its sources, the date read and its photo's licence, is in `desks/jornal-silvio/candidates/`.
 
+## 21 November 2026
+
+| Score | Candidate | Beat | Source |
+|---|---|---|---|
+| 4 | **Microsoft Ignite: Copilot gets hands in Windows, 50 million agents on Agent 365, and an open audit standard with NIST** Photo: link only. | ai-agents | [Dinheiro Vivo](https://dinheirovivo.dn.pt/economia/copilot-ganha-mos-no-windows-e-microsoft-aperta-controlo-financeiro-dos-agentes-de-ia), 2026-11-20 |
+| 3 | **Banco de Portugal's governor warns the EU-US gap in AI investment could widen Europe's productivity lag** Photo: link only. | portugal | [Jornal Económico, with Lusa](https://jornaleconomico.sapo.pt/noticias/santos-pereira-alerta-que-investimento-europeu-em-ia-pode-agravar-atraso-face-aos-estados-unidos), 2026-11-20 |
+
+Daily digest: `desks/jornal-silvio/digests/2026-11-21.md`.
+
 ## 20 November 2026
 
 | Score | Candidate | Beat | Source |

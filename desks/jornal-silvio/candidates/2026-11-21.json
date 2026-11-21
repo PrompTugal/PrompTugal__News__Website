@@ -1,0 +1,93 @@
+{
+  "desk": "jornal-silvio",
+  "kept_by": "jornal@PrompTugal.silvio",
+  "date": "2026-11-21",
+  "status": "candidates, not published, waiting for the editor and for Silvio",
+  "candidates": [
+    {
+      "id": "js-2026-11-21-01",
+      "title": "Microsoft Ignite: Copilot gets hands in Windows, 50 million agents on Agent 365, and an open audit standard with NIST",
+      "summary": "At Ignite 2026 in San Francisco, Microsoft let Copilot act locally on Copilot+ PCs (finding, moving and renaming files, diagnosing the system) and merged Chat, Cowork, Code and Autopilot, a round-the-clock agent, into one experience. It says more than 50 million agents are registered on its Agent 365 management platform, launched Agent 365 Business Analytics to tie agents' costs to results, made Perception (agent teams for security testing under human supervision) generally available, and started an AI Transparency Initiative with NIST and 40 organisations toward open, auditable standards for agents.",
+      "why_it_matters": "Fifty million registered agents is the scale at which mandates have to be managed like identities; an auditable standard with NIST is the first try at a common language for checking them.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://dinheirovivo.dn.pt/economia/copilot-ganha-mos-no-windows-e-microsoft-aperta-controlo-financeiro-dos-agentes-de-ia",
+          "publisher": "Dinheiro Vivo",
+          "published": "2026-11-20",
+          "read": "2026-11-21T18:09Z"
+        }
+      ],
+      "claims_to_check": [
+        "Microsoft's own Ignite announcements (the 50 million figure, the NIST initiative)",
+        "The headline's 'tightens financial control' goes beyond the body: it is cost analytics, not spending limits"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "The largest platform's agent governance moves, one day old."
+      },
+      "photo": {
+        "url": "https://dinheirovivo.dn.pt/economia/copilot-ganha-mos-no-windows-e-microsoft-aperta-controlo-financeiro-dos-agentes-de-ia",
+        "description": "Satya Nadella at Ignite",
+        "credit": "Microsoft",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
+    },
+    {
+      "id": "js-2026-11-21-02",
+      "title": "Banco de Portugal's governor warns the EU-US gap in AI investment could widen Europe's productivity lag",
+      "summary": "At the Grande Encontro Banca do Futuro in Lisbon on 20 November, Banco de Portugal's governor Álvaro Santos Pereira said the gap in the size of AI investment between Europe and the United States is worrying and could deepen the productivity gap; Europe and Portugal need to attract more capital, and banks should help finance intangible capital such as data centres, software and data. He cited about 43% of US workers using AI at work against 32% in Europe, and euro-area banks' generative AI adoption rising from 46% in 2024 to 86%; the central bank has begun work on post-quantum encryption.",
+      "why_it_matters": "Portugal's central bank framing AI as a capital and sovereignty question, the same week as the AI gigafactory deadlines and Europe's agentic payment rails.",
+      "beat": "portugal",
+      "sources": [
+        {
+          "url": "https://jornaleconomico.sapo.pt/noticias/santos-pereira-alerta-que-investimento-europeu-em-ia-pode-agravar-atraso-face-aos-estados-unidos",
+          "publisher": "Jornal Económico, with Lusa",
+          "published": "2026-11-20",
+          "read": "2026-11-21T18:09Z"
+        }
+      ],
+      "quote": {
+        "text": "A diferença de magnitude de investimento na Europa e nos Estados Unidos é preocupante.",
+        "by": "Álvaro Santos Pereira, Governor of Banco de Portugal, as reported by Jornal Económico",
+        "source": "https://jornaleconomico.sapo.pt/noticias/santos-pereira-alerta-que-investimento-europeu-em-ia-pode-agravar-atraso-face-aos-estados-unidos"
+      },
+      "claims_to_check": [
+        "Banco de Portugal's own text of the speech, if published"
+      ],
+      "importance": {
+        "score": 3,
+        "reason": "Portuguese, authoritative, one day old; context rather than agentic news."
+      },
+      "photo": {
+        "url": "https://jornaleconomico.sapo.pt/noticias/santos-pereira-alerta-que-investimento-europeu-em-ia-pode-agravar-atraso-face-aos-estados-unidos",
+        "description": "the governor at a Banco de Portugal press conference, 15 June 2026",
+        "credit": "ANTÓNIO COTRIM/LUSA",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "what": "IBM study: 75% expect autonomous agents by 2027, 37% governance ready (Jornal Económico)",
+      "why": "dated 28 October 2026; Portugal not in the sample"
+    },
+    {
+      "what": "Anthropic's shares fall after its market debut (CNBC)",
+      "why": "business news outside the beats"
+    },
+    {
+      "what": "ByteDance's Axion 1.0 open agent model (The Decoder)",
+      "why": "below the bar"
+    }
+  ],
+  "wakes": [
+    {
+      "at": "2026-11-21T18:09Z",
+      "added": 2,
+      "note": "daily wake (18:07 Lisbon)"
+    }
+  ]
+}
