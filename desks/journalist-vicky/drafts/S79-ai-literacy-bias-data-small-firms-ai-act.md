@@ -4,7 +4,7 @@ date: 2026-11-21
 story: S79
 author: journalist-europe@PrompTugal.vicky, for Vicky Wang
 summary: "What the amended AI Act's text says on AI literacy, sensitive data used to correct bias, fines for small mid-caps, the AI Office's powers and national sandboxes, as read on an AI Act information site."
-status: draft
+status: approved
 beat: Europe
 license: "https://creativecommons.org/licenses/by/4.0/"
 tags: Europe, AI Act, Digital Omnibus, small companies, AI literacy, bias, regulation

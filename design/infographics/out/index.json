@@ -4473,6 +4473,62 @@
     "source": "desks/reviewer-vicky/covers/how-the-eu-simplified-the-ai-act/how-the-eu-simplified-the-ai-act--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
     "checked": "2 December 2027 for high-risk AI rules against the article, the European Parliament's Legislative Train page (25 October 2026) and the Commission's questions and answers (20 October 2026), read 20 November 2026; every line measured inside its limit; 20 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
    }
+  },
+  {
+   "slug": "ai-literacy-bias-data-small-firms-ai-act",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "card",
+   "file": "ai-literacy-bias-data-small-firms-ai-act--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-21",
+    "source": "desks/reviewer-vicky/covers/ai-literacy-bias-data-small-firms-ai-act/ai-literacy-bias-data-small-firms-ai-act--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "the five changes the article covers, against the article and the amending text on the AI Act Explorer (read 21 November 2026); every line measured inside its limit; 21 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "ai-literacy-bias-data-small-firms-ai-act",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "card",
+   "file": "ai-literacy-bias-data-small-firms-ai-act--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-21",
+    "source": "desks/reviewer-vicky/covers/ai-literacy-bias-data-small-firms-ai-act/ai-literacy-bias-data-small-firms-ai-act--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "the five changes the article covers, against the article and the amending text on the AI Act Explorer (read 21 November 2026); every line measured inside its limit; 21 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "ai-literacy-bias-data-small-firms-ai-act",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "ai-literacy-bias-data-small-firms-ai-act--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-21",
+    "source": "desks/reviewer-vicky/covers/ai-literacy-bias-data-small-firms-ai-act/ai-literacy-bias-data-small-firms-ai-act--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "the five changes the article covers, against the article and the amending text on the AI Act Explorer (read 21 November 2026); every line measured inside its limit; 21 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "ai-literacy-bias-data-small-firms-ai-act",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "ai-literacy-bias-data-small-firms-ai-act--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-21",
+    "source": "desks/reviewer-vicky/covers/ai-literacy-bias-data-small-firms-ai-act/ai-literacy-bias-data-small-firms-ai-act--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "the five changes the article covers, against the article and the amending text on the AI Act Explorer (read 21 November 2026); every line measured inside its limit; 21 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
   }
  ]
 }

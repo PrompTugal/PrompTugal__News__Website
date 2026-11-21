@@ -139,5 +139,19 @@
    "AI Act"
   ],
   "tfig": "2027"
+ },
+ {
+  "slug": "ai-literacy-bias-data-small-firms-ai-act",
+  "title": "The AI Act's small print",
+  "sub": "Literacy, bias data and small firms",
+  "fig": "5 changes",
+  "line": "in the amended text that touch small firms",
+  "src": "Text: Regulation (EU) 2026/1744",
+  "alt": "A card: the AI Act's small print. Five changes in the amended text, on AI literacy, bias data and small firms, from Regulation (EU) 2026/1744.",
+  "ttitle": [
+   "AI Act",
+   "small print"
+  ],
+  "tfig": "5"
  }
 ]

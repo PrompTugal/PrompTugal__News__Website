@@ -17,6 +17,8 @@ image_width: 1200
 image_height: 630
 image_alt: "A card: the AI Act, simplified by the EU's Digital Omnibus on AI. High-risk AI rules apply from 2 December 2027, as the European Parliament and Commission say."
 ---
+> **Follow-up, 21 November 2026.** What the amended text says on AI literacy, bias data and small firms: [AI literacy, bias data and small firms: the AI Act changes](ai-literacy-bias-data-small-firms-ai-act.html).
+
 > **Update, 21 November 2026.** This article gave the Parliament's and the Commission's descriptions. On 12 May 2026, the law firm [William Fry](https://www.williamfry.com/knowledge/eu-ai-act-omnibus-deal-reached-postponed-deadlines-watermarking-compromise-and-the-nudificiation-prohibition/) wrote its reading of the provisional agreement of 7 May, before the Act was adopted. William Fry says:
 >
 > - **Why the delay.** The reason is operational, not political. The standards that providers rely on were not expected to be complete until late 2026, and some Member States were slow to name their national authorities.
