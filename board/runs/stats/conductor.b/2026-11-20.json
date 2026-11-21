@@ -9,6 +9,13 @@
    "delta_cost_usd": 12.62,
    "input_tokens": 185964,
    "output_tokens": 2213055
+  },
+  {
+   "read_at": "2026-11-20T20:35Z",
+   "cumulative_cost_usd": 483.63,
+   "delta_cost_usd": 18.99,
+   "input_tokens": 187550,
+   "output_tokens": 2237135
   }
  ]
 }

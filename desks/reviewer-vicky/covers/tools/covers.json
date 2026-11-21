@@ -126,5 +126,18 @@
    "physio"
   ],
   "tfig": "€200"
+ },
+ {
+  "slug": "how-the-eu-simplified-the-ai-act",
+  "title": "The AI Act, simplified",
+  "sub": "What the EU's Digital Omnibus on AI changed",
+  "fig": "2 Dec 2027",
+  "line": "when high-risk AI rules apply, the EU says",
+  "src": "Dates: European Parliament and Commission",
+  "alt": "A card: the AI Act, simplified by the EU's Digital Omnibus on AI. High-risk AI rules apply from 2 December 2027, as the European Parliament and Commission say.",
+  "ttitle": [
+   "AI Act"
+  ],
+  "tfig": "2027"
  }
 ]

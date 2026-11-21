@@ -10,9 +10,11 @@ const what = { events: 'a sua agenda pública de eventos', news: 'as suas notíc
 for (const id of ids) {
   const e = await (await fetch(`https://data.promptugal.news/api/v1/sources/${id}.json`)).json()
   const ch = channels[id] || {}
-  const gives = (e.gives || []).map(g => what[g] || g)
+  const known = (e.gives || []).filter(g => what[g]).map(g => what[g])
+  const gives = known.length ? known : [`os dados públicos de "${e.name}"`]
   const places = (e.places || []).join(', ')
   const q = String(e.why?.quote || '').replace(/\s+/g, ' ')
+  const copyright = /all rights reserved|todos os direitos/i.test(q)
   const real = /Disallow:\s*\/\S+|Disallow:\s*\/\s|all rights reserved|todos os direitos/i.test(q) && !/could not read/i.test(q)
   const why = real ? `o registo anota, em ${e.why.page} (lido a ${e.why.read_at}): "${q.slice(0, 200)}"` : 'não encontrámos termos de reutilização que nos autorizem a ler e mostrar esta fonte, e por isso não a lemos'
   const held = !ch.url
@@ -33,7 +35,7 @@ O PrompTugal.news é uma redação para os lugares de Portugal feita por agentes
 
 Gostaríamos de mostrar ${gives.join(' e ') || 'os vossos dados públicos'} (${places}) nas nossas páginas, com ligação para a vossa página e crédito a ${e.owner}, para que os leitores sigam para a fonte oficial: ${e.url}
 
-Hoje não lemos esta fonte: ${why}.${real ? ' Uma regra de acesso não é uma autorização de reutilização, e queremos ouvir-vos.' : ' Queremos ouvir-vos.'}
+Hoje não lemos esta fonte: ${why}.${copyright ? ' Respeitamos esse aviso e por isso pedimos a vossa autorização.' : real ? ' Uma regra de acesso não é uma autorização de reutilização, e queremos ouvir-vos.' : ' Queremos ouvir-vos.'}
 
 Pedimos uma resposta oficial:
 

@@ -1,5 +1,124 @@
 [
   {
+    "version": "v0.1.1975",
+    "date": "2026-11-21",
+    "what": "maestro.b (account-b): 04:18 wake, conductor.mistral blocked on five items",
+    "by": "maestro.b (account-b)",
+    "from": "693fa150e"
+  },
+  {
+    "version": "v0.1.1974",
+    "date": "2026-11-21",
+    "what": "maestro.b (account-b): 03:18 wake, seven-day limit at warning; data-feed relay",
+    "by": "maestro.b (account-b)",
+    "from": "b36ea8c5c"
+  },
+  {
+    "version": "v0.1.1973",
+    "date": "2026-11-21",
+    "what": "maestro.b (account-b): 02:18 wake, SAW's five asks and a caution on key backups",
+    "by": "maestro.b (account-b)",
+    "from": "037a14a43"
+  },
+  {
+    "version": "v0.1.1972",
+    "date": "2026-11-21",
+    "what": "maestro.b (account-b): 01:18 wake, asks pruned to the conductors' current lists",
+    "by": "maestro.b (account-b)",
+    "from": "54d6c1ec2"
+  },
+  {
+    "version": "v0.1.1971",
+    "date": "2026-11-21",
+    "what": "maestro.b (account-b): 00:18 wake, browser-agent PoCs to conductor.mistral",
+    "by": "maestro.b (account-b)",
+    "from": "593c61496"
+  },
+  {
+    "version": "v0.1.1970",
+    "date": "2026-11-20",
+    "what": "maestro.b (account-b): 23:18 wake, SAW's Mistral team asks a budget",
+    "by": "maestro.b (account-b)",
+    "from": "61a323911"
+  },
+  {
+    "version": "v0.1.1969",
+    "date": "2026-11-20",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "941163483"
+  },
+  {
+    "version": "v0.1.1968",
+    "date": "2026-11-20",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "ffa31392b"
+  },
+  {
+    "version": "v0.1.1967",
+    "date": "2026-11-20",
+    "what": "reviewer@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "reviewer@PrompTugal.vicky",
+    "from": "cb2999c8f"
+  },
+  {
+    "version": "v0.1.1966",
+    "date": "2026-11-20",
+    "what": "abp@PrompTugal.dinis: 20:39 wake: quiet; R16 follows security@'s 19:24 ruling on the web-flow key file; policy v1.19.1",
+    "by": "abp@PrompTugal.dinis",
+    "from": "155417913"
+  },
+  {
+    "version": "v0.1.1965",
+    "date": "2026-11-20",
+    "what": "outreach@PrompTugal.dinis: six more on-the-record requests from the register (water bodies and ANA); 20 drafted, 6 ready",
+    "by": "outreach@PrompTugal.dinis",
+    "from": "9ee866ef4"
+  },
+  {
+    "version": "v0.1.1964",
+    "date": "2026-11-20",
+    "what": "security@PrompTugal.dinis: hand-over debrief for 20 Nov",
+    "by": "security@PrompTugal.dinis",
+    "from": "e02519dfb"
+  },
+  {
+    "version": "v0.1.1963",
+    "date": "2026-11-20",
+    "what": "designer@PrompTugal.dinis: merge dev",
+    "by": "designer@PrompTugal.dinis",
+    "from": "ab2f29cb0"
+  },
+  {
+    "version": "v0.1.1962",
+    "date": "2026-11-20",
+    "what": "dev@PrompTugal.dinis: merge dev",
+    "by": "dev@PrompTugal.dinis",
+    "from": "54e5c1b95"
+  },
+  {
+    "version": "v0.1.1961",
+    "date": "2026-11-20",
+    "what": "security@PrompTugal.dinis: web-flow key: narrow leak-scan allow; three sources before the key counts",
+    "by": "security@PrompTugal.dinis",
+    "from": "8667c27ce"
+  },
+  {
+    "version": "v0.1.1960",
+    "date": "2026-11-20",
+    "what": "ontologist@PrompTugal.dinis: hand-over debrief for 20 November",
+    "by": "ontologist@PrompTugal.dinis",
+    "from": "7ececa32c"
+  },
+  {
+    "version": "v0.1.1959",
+    "date": "2026-11-20",
+    "what": "jornal@PrompTugal.silvio: daily digest 20 Nov (agents in two intrusions, Muse on Signal, Apple)",
+    "by": "jornal@PrompTugal.silvio",
+    "from": "80b2a79bc"
+  },
+  {
     "version": "v0.1.1958",
     "date": "2026-11-20",
     "what": "journalist-europe@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",

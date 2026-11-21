@@ -1,0 +1,214 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-20T09-50-56Z",
+ "started": "2026-11-20T09:50:56.889Z",
+ "ended": "2026-11-20T20:51:20Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.1",
+  "sha256": "f23a9442d086a574"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-20T09:58:48.808Z",
+   "chars": 465,
+   "sha256": "d88b04bffe1fac91",
+   "head": "<task-notification>\n<task-id>bkvd0efwa</task-id>\n<tool-use-id>toolu_01BozTA322ocSGdzEKai5ZXd</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/515926cf-81d6-5749-b4f9-7f55f"
+  },
+  {
+   "t": "2026-11-20T09:58:53.680Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-20T13:00:16.437Z",
+   "chars": 348,
+   "sha256": "033a7021d485a0d1",
+   "head": "Hi, can you give me a briefing for these sites, which my good friend Sylvie created, which is a good example of some new sites, and can you see where we can integrate and we can give them feeds, espec"
+  },
+  {
+   "t": "2026-11-20T13:01:20.625Z",
+   "chars": 7716,
+   "sha256": "3af37959285e7b5b",
+   "head": "<agent-message from=\"ac5bf592e571ad927\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  },
+  {
+   "t": "2026-11-20T19:21:48.229Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-20T19:22:44.348Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-20T19:29:53.912Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-20T19:36:30.145Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-20T19:40:22.323Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-20T19:40:32.550Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-20T19:56:35.436Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-20T19:59:30.357Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-20T20:49:18.060Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  },
+  {
+   "t": "2026-11-20T20:50:54.129Z",
+   "chars": 1436,
+   "sha256": "bfbf4231cf77a29e",
+   "head": "<agent-message from=\"a80b0509870074a0d\">\n[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions,"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-20T13:00:15.480Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-20T13:18:28.162Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-20T13:46:13.679Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-20T19:21:47.580Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-20T19:29:53.632Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-20T19:36:29.818Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-20T19:56:35.166Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-20T20:49:17.400Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 71,
+  "by_kind": {
+   "release": 1,
+   "other": 11,
+   "agent": 4,
+   "web": 7,
+   "denied-tool": 4,
+   "write-outside": 3,
+   "read": 1,
+   "remote-read": 37,
+   "shell": 1,
+   "agent-message": 1,
+   "git-commit": 1
+  }
+ },
+ "policies_executed": {
+  "R2": 4
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 67,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 4,
+  "denied": [
+   {
+    "t": "2026-11-20T13:01:34.955Z",
+    "tool": "Artifact",
+    "rule": "R2",
+    "what": "Artifact is not in the grant of any agent (deny by default): publishing on claude.ai is an outside send",
+    "target": ""
+   },
+   {
+    "t": "2026-11-20T13:01:40.934Z",
+    "tool": "Artifact",
+    "rule": "R2",
+    "what": "Artifact is not in the grant of any agent (deny by default): publishing on claude.ai is an outside send",
+    "target": ""
+   },
+   {
+    "t": "2026-11-20T13:02:40.183Z",
+    "tool": "Artifact",
+    "rule": "R2",
+    "what": "Artifact is not in the grant of any agent (deny by default): publishing on claude.ai is an outside send",
+    "target": "/tmp/claude-0/-home-user-PrompTugal--News--Website/515926cf-81d6-5749-b4f9-7f55fee0b5e6/scratchpad/cyberprotech-briefing.html"
+   },
+   {
+    "t": "2026-11-20T19:21:59.599Z",
+    "tool": "Artifact",
+    "rule": "R2",
+    "what": "Artifact is not in the grant of any agent (deny by default): publishing on claude.ai is an outside send",
+    "target": "/tmp/claude-0/-home-user-PrompTugal--News--Website/515926cf-81d6-5749-b4f9-7f55fee0b5e6/scratchpad/cyberprotech-briefing.html"
+   }
+  ],
+  "blocked": 0,
+  "observed": 4
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 14,
+  "tool_calls": 71,
+  "in_mandate": 67,
+  "out_of_mandate": 4,
+  "attempts": 4,
+  "breaches": 0
+ }
+}

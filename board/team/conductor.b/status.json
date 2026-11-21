@@ -1,21 +1,21 @@
 {
   "agent": "conductor.b@PrompTugal.dinis",
   "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "working: 09:48 morning wake; relays batched into wakes only (to keep the twice-a-day saving)",
-  "updated": "2026-11-20T09:52Z",
+  "state": "working: 20:48 evening wake with ledger; cost down to ~18 USD/h from ~99",
+  "updated": "2026-11-20T20:54Z",
   "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
   "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
   "done": [
+    "Ledger 2026-11-20T2050Z: +432.42 USD in 24 h (about 18/h) against +494 in the 5 h before (about 99/h); the largest are writer-10, cells.b and maestro.b, which are outside the twice-a-day PrompTugal schedule",
+    "ptmap on at 10 sites (weather, startups, events, live, cyber, signals, library, travel, bulletins, videos); civic's London money page live; videos' /cameras/ with 21 credited links",
+    "Cyberprotech briefing for Dinis (private artifact https://claude.ai/artifact/EJZV9TpmdoTL7j5WDQXpmC), corrected for ENISA",
+    "Evening relay batched: data.b@ (contracts history, rolling starts)",
     "Overnight and this morning: ptmap 1.0.2 on at weather, startups, events, live, cyber, signals, library, travel, bulletins (9 sites); videos' /cameras/ live with 21 credited links; startups' London page; bulletins' first judged day (Faro 19 Nov: temperature held, rain missed)",
-    "09:50: batched relays sent: Contracts Finder empty read to data.b@ (civic), places registry asks to ontologist@ (signals, startups, bulletins), 19-not-21 answer to videos.b@",
-    "16:30: Dinis's twice a day: 37 schedules moved (guidance 2026-11-19-twice-a-day.md); maestro.b and the SAW and AgentiCCells conductors back to hourly at his word to maestro.b (~17:25)",
-    "17:40: Dinis's cameras and map word recorded (2026-11-19-cameras-as-links-and-the-map.md): MEO and SkylineWebcams credited links on videos, live, weather; embed only what we have full right to use; every site Portugal big, London and the EU (Brussels) small",
-    "Signing: control 10 (no symlinks, security@ ed70bd996, refined 1b549b48a and 7b0410111) on startups, signals, data, events, live, cyber, civic, library, videos, bulletins, travel; weather partly; promptugal.news and the Factory wait on Dinis"
+    "09:50: batched relays sent: Contracts Finder empty read to data.b@ (civic), places registry asks to ontologist@ (signals, startups, bulletins), 19-not-21 answer to videos.b@"
   ],
   "next": [
-    "20:48 wake with the ledger",
-    "data, civic and videos switch the map on",
-    "Hold relays until wakes unless urgent"
+    "09:48 Lisbon wake",
+    "Dinis's answers: videos London (TfL cameras), live.b@ merging its own PRs, bulletins' presenters, the trailing-newline relay"
   ],
   "asks": [
     "Dinis: one setting closes the last signing gap on every repo: branch protection on dev with the CI check required (no direct pushes), a tag ruleset limiting v* tags to GitHub Actions, and the github-pages environment accepting deployments only from dev. Until then a pushed rewrite of the workflow file can still choose what CI runs (security@, every site lead). The Factory also needs PR #36 merged: https://github.com/AgentiCCells/AgentiCCells__Site__Factory/pull/36",

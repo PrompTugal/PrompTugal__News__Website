@@ -503,3 +503,11 @@ Inner passes inline (status and gap notes only): clean. Dinis's 19:00 row read: 
 - **West's report of a possible prompt injection on cm-silves.pt:** a sub-agent said the fetched front page "ended with a block of instructions about quoting and formatting aimed at an AI"; nothing was followed and the wording was not kept. A note for security@: that description also fits the instructions a fetch tool itself adds when it summarises a page for a model (limits on quoting, how to format), so this may be the tool's own text, not the site's. I tried once to read the page raw to check: the site reset the connection, and I did not try again. In that try I first set a browser user agent; that is against our own rule (no other user agent), it fetched nothing, and I did not repeat it. Logged here as my slip.
 - West's Portimão CCTV lead still waits on diariodarepublica.pt's terms on the register. Library requests unchanged.
 - Inner passes: pre-review inline; post-review scripted scan of the diff against dev, clean. Written at 08:29 UTC.
+
+## The 19:22 wake (20 November)
+
+- **Missed, now brought:** the three desks' SSH key enrolments of 19 November, 16:00 to 16:02 UTC (west `b20909255`, east `e8d9e9402`, districts `a6b3d2b70`). I review each desk by a time window and these fell between my wakes; east had said so in its status. keys.json merged by id, no duplicate; all three entries now carry their ssh key. My fault, now fixed; from here I review by what is not yet on dev, not by time.
+- **Brought onto dev:** west `4c0a747e4` (evening pass), central `70e9085df` (councils rechecked, its debrief), east `9eecd2f45`, districts `94a66401d` and `8ffb5cb3a` (Évora, Setúbal: nothing new).
+- **Held back, R12:** districts `88952f6e0` (Portalegre), `d10dc1416` (Beja) and `b0ec324c0` (Santarém, with its status and run report): seven new items with no licence and no hold. Districts now has seven commits held (18 items). After the rebase, no new unlicensed and unheld item comes onto dev.
+- Library requests unchanged; diariodarepublica.pt still not on the register.
+- Inner passes: pre-review inline; post-review scripted scan of the diff against dev, clean. Written at 19:31 UTC.
