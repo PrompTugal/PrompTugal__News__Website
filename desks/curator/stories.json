@@ -1075,6 +1075,10 @@
   "S77": [
    "https://promptugal.news/articles/how-the-eu-simplified-the-ai-act.html",
    "20 Nov"
+  ],
+  "S78": [
+   "https://promptugal.news/articles/how-the-eu-simplified-the-ai-act.html",
+   "21 Nov"
   ]
  },
  "WITHDRAWN": [
@@ -1092,9 +1096,7 @@
   "S49",
   "S54"
  ],
- "READY": [
-  "S78"
- ],
+ "READY": [],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
   "S47": "published as an update",
@@ -1282,13 +1284,7 @@
    "2026-11-07 11:55"
   ]
  },
- "ASSIGN": [
-  [
-   "S78",
-   "the Europe desk (journalist-europe)",
-   "A law firm, William Fry, wrote on 12 May 2026 about the provisional agreement on the AI Act amendment; write a short first update note on S77 (standing answers 95 and 100; a dated intro line with the source, then a short list, the caveat once at the end); re-read the page yourself; it is a law firm's reading of a provisional text before adoption, say so and that the final text of Regulation (EU) 2026/1744 was not read; attribute each reading to the firm; the points: the postponement is operational, the standards providers rely on are not expected to be complete until late 2026 (as of May), only machinery leaves the high-risk regime while medical devices and toys stay in it, the marking obligations for generative AI start on 2 December 2026 with the code of practice still a draft (as of May), providers and deployers of generative image and video systems are expected to evidence controls, high-risk registration is reinstated even for providers who consider themselves exempt, the deadline for national sandboxes is postponed; do not present the products point as a contradiction of S77; no legal advice; explain 'Article 50', 'code of practice' and 'EU database' at first use; record the AI connection (direct, 0 steps) in the data note; categories Europe and AI"
-  ]
- ],
+ "ASSIGN": [],
  "LINK_OVERRIDES": {
   "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC645008882-00000055/": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC6450%308882-00000055/"
  }
