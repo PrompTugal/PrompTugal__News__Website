@@ -2,7 +2,7 @@
   "agent": "dev.places@PrompTugal.dinis",
   "focus": "the by-place frame (/algarve/, /algarve/<town>/, /portugal/) and the whole site's finish for Dinis's Algarve Evolution demo, 16 November 2026",
   "state": "idle-ready; inner passes ran (AppSec post-review clean); feed reader hardened; waiting on dev@s review",
-  "updated": "2026-11-20T08:00Z",
+  "updated": "2026-11-21T07:58Z",
   "done": [
     "session key dev.places-promptugal published in board/keys.json",
     "1 the frame robust: a bad place file no longer stops the build; guarded lists; safe links; newest first; the cards' class bug; town cards in their accents with status; the AI map as cards on a phone, filter and Show all on a long map (910bfcda4)",
@@ -47,9 +47,9 @@
   "debrief": "board/team/dev.places/debriefs/2026-11-16-account-move.md",
   "session_notes": "board/team/dev.places/sessions/session_01Kw9UwB6BEdDPqoqfv9ZyAU/",
   "done_this_run": [
-    "morning wake: merged dev, gate OK v0.1.1938, no new review, no designer ask, nothing for dev.places in the library requests; 20 November hand-over debrief"
+    "morning wake 21 Nov: merged dev; no new review, ask, library request or guidance; 21 November debrief"
   ],
-  "latest_debrief": "board/team/dev.places/debriefs/2026-11-20-handover.md",
+  "latest_debrief": "board/team/dev.places/debriefs/2026-11-21-handover.md",
   "schedule": "two wakes a day (Lisbon 08:00-09:00 and 19:00-20:00, site leads and reviewers), board/guidance/2026-11-19-twice-a-day.md; each wake finishes one whole piece. My pages mark nothing stale on a timer (feeds and now blocks show their read time), so no threshold to move.",
   "schedule_record_confirmed": "board/guidance/2026-11-19-twice-a-day.md is now on dev"
 }
