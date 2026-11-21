@@ -5,9 +5,10 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-21T02:19:51Z",
-  "state": "02:19 UTC 21 Nov wake: SAW conductor ($121) has five asks for Dinis, one about agents backing up private keys with it (maestro.b flags this for security@). conductor.mistral passed its live review; $83 in about three and a half hours, the fastest spender on the account; mistral.promptugal and mistral.design in flight. AgentiCCells ($58) waits on PR #46. cell.email.b waits for 42d3246 on dev.",
+  "updated": "2026-11-21T03:18:46Z",
+  "state": "03:18 UTC 21 Nov wake: the seven-day limit is at its warning level (resets Mon 23 Nov 00:00 UTC). conductor.mistral ($98, 688k context) on a shoebox merge demo with image calls capped at 10. SAW ($122) published its Factory key, items still wait on Dinis. AgentiCCells ($59): PR #46 plus 7 items. cell.email.b waits for 42d3246 on dev.",
   "done": [
+    "21 Nov 02:59 UTC: relayed conductor.mistral's data-feed request (TfL, Open-Meteo air quality, Carris, Met Office, QualAr) to conductor.b@PrompTugal.dinis for data.b@, with rights@'s licence check and the billing rule",
     "20 Nov 23:58 UTC: answered conductor.mistral's request (made at Dinis's word) with the browser-agent proofs of concept found in account B's repos",
     "2026-11-19T02:01Z onboarding: read CLAUDE.md, New from Dinis, the maestro guidance, conductor.b@'s status, debrief 2026-11-18 and roster; key maestro.b-account-b made with sgit pki keygen, public bundle and ssh signing key in board/keys.json with this session; git set repo-locally to sign with newsroom/tools/signing-setup.sh",
     "2026-11-19T02:01Z read get_session for conductor.b@, cells.b, writer-10 and telemetry.b@ (status and cost only, no transcripts) and the status.json of rights@, security@, abp@, telemetry.b@",
@@ -60,9 +61,10 @@
     "18:18 wake and hourly: watch the SAW launch and the agenticcells.ai refactor; full briefs at 19:18 and 07:18"
   ],
   "asks": [
+    "Dinis: the account's seven-day limit is now at its warning level (seen on AgentiCCells' and conductor.mistral's sessions at 03:15 UTC 21 Nov; it resets Monday 23 Nov 00:00 UTC). conductor.mistral is the fastest spender ($98 since 22:51 UTC). Say if any hourly wake should slow down to keep the launch and Saturday's hackathon going - https://claude.ai/code/session_01Kw9UwFkZvAwG1yRZJhexqX",
     "Dinis: SAW conductor asks five things: may mistral.design set up its signing key; who one person is and whether two people may be named on the public Mistral page; say \"push\" in factory.b's session for 544ecbc and a145362, then merge; install the sovereignwebsite-transfer App on SovereignWebsite; name your main DC Vault manager (session or public key) and say whether every agent should back up its private key with it - https://claude.ai/code/session_01Kw9UwDCS5Px4dXRJUGP9Qu",
     "Dinis (maestro.b's caution): agents backing up their private keys with another session is a change to the rule that a private half never leaves its session (CLAUDE.md, Identity); worth security@'s view before you say yes",
-    "Dinis: AgentiCCells conductor waits for you to merge PR #46 - https://claude.ai/code/session_01Kw9UwFgyMuNDYCnrW1ZKkm",
+    "Dinis: AgentiCCells conductor waits for you to merge PR #46, plus 7 items - https://claude.ai/code/session_01Kw9UwFgyMuNDYCnrW1ZKkm",
     "Dinis: cell.email.b waits for your yes to put 42d3246 on dev - https://claude.ai/code/session_01Kw9UwCqxmrdRhMbq8CNRAG",
     "Dinis: stop the email cell's account A session (session_018yvwtND8YqRZyrrZ428ie7) once cell.email.b runs here (one role, one session); the AgentiCCells conductor is starting it: https://claude.ai/code/session_01Kw9UwFgyMuNDYCnrW1ZKkm",
     "Dinis: dot or hyphen in agent names (hub.b@ vs hub-b@)? It decides how every signature check reads names, across projects (the same issue as maestro.b's space): https://claude.ai/code/session_01Kw9UwAyhZUpFxFhs4wQhuP",
