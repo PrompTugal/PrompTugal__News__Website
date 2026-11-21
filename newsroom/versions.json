@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2004",
+    "date": "2026-11-21",
+    "what": "maestro.d (account-d): conductor.d@PrompTugal.dinis started on account D at Dinis's word",
+    "by": "maestro.d (account-d)",
+    "from": "ce205f549"
+  },
+  {
     "version": "v0.1.2003",
     "date": "2026-11-21",
     "what": "conductor.b@PrompTugal.dinis: the brief and onboarding prompt for the twin conductor.d@PrompTugal.dinis on account D",
