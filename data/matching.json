@@ -2404,6 +2404,11 @@
         "count": 42
       },
       {
+        "as_listed": "William Fry",
+        "ref": "organisation:william-fry",
+        "count": 1
+      },
+      {
         "as_listed": "Xiaomi",
         "ref": "organisation:xiaomi",
         "count": 2

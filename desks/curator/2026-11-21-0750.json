@@ -1,0 +1,117 @@
+{
+  "desk": "curator",
+  "agent": "curator@PrompTugal.vicky",
+  "run": "2026-11-21T07:50Z",
+  "for": "journalist-europe via newsroom@web-summit.dinis (an update to the published S77)",
+  "covers": {
+    "vault": "41j3e9s9, pulled 21 Nov 2026 at 07:38 UTC: the researcher's 07:15 capture of William Fry's article on the AI Act amendment (a law firm; published 12 May 2026, about the provisional agreement of 7 May). The researcher notes the EU law site and other pages block automated reads, so the legal text stays unread.",
+    "inputs": "Five themes; PrompTugal test; standing answers 95, 100 and 101. No hold. decisions.md has nothing new for the curator.",
+    "overlap_checked": "21 Nov 07:50: S77 (how-the-eu-simplified-the-ai-act) was published on 20 Nov 20:55 and has no update notes; it uses the Parliament's and the Commission's pages only and carries no independent analysis, and does not say that the standards and the transparency code of practice were still expected or in draft."
+  },
+  "rules": "RULES-11NOV applies. Source: a law firm's own article (its Knowledge section), about a provisional agreement. The curator added no fact.",
+  "captures": [
+    {
+      "id": "v-williamfry-ai-omnibus-deal",
+      "file": "vault 41j3e9s9, captures/2026-11-21-williamfry-ai-omnibus-deal.md",
+      "source_url": "https://www.williamfry.com/knowledge/eu-ai-act-omnibus-deal-reached-postponed-deadlines-watermarking-compromise-and-the-nudificiation-prohibition/",
+      "beat": "Europe",
+      "names": [
+        "William Fry"
+      ],
+      "what_is_new": "A law firm's reading (12 May 2026, of the 7 May provisional agreement, 'subject to formal endorsement and legal-linguistic revision'): the postponement rationale is operational rather than political; the harmonised standards are not expected to be complete until late 2026; of products only machinery leaves the horizontal regime, medical devices, toys and other product categories stay within it; generative AI marking obligations from 2 December 2026 (a four-month deadline) with the Code of Practice on Transparency of AI-Generated Content still in draft; providers and deployers of generative image and video systems are expected to evidence design-stage and deployment-stage controls; registration of high-risk systems in the EU database reinstated even where a provider thinks it is exempt; the deadline for national AI sandboxes postponed. Only this article's captured part.",
+      "is_story": true,
+      "group": "S78"
+    }
+  ],
+  "groups": {
+    "S78": [
+      "v-williamfry-ai-omnibus-deal"
+    ]
+  },
+  "duplicates_and_noise": [],
+  "published_check": {
+    "S77": "published (how-the-eu-simplified-the-ai-act), no notes"
+  },
+  "desk_review": {
+    "summit": {
+      "no_assignment": true,
+      "reason": "The summit beat is finished."
+    },
+    "europe": {
+      "assignment": "S78",
+      "ready": true,
+      "reader_angle": "Readers of S77, especially companies: an independent legal reading of the same changes, with what it adds about standards, transparency obligations and registration.",
+      "source_ids": [
+        "v-williamfry-ai-omnibus-deal"
+      ],
+      "duplicate_check": "Run 21 Nov 07:50: S77 carries only the institutions' pages and no notes."
+    },
+    "portugal": {
+      "no_assignment": true,
+      "reason": "Nothing new on Portugal; other providers, the Rows closing and UST are still not found."
+    },
+    "ai": {
+      "no_assignment": true,
+      "reason": "Nothing new on agents in real work or humans and AI."
+    },
+    "connections": {
+      "no_assignment": true,
+      "reason": "No new cross-cutting theme."
+    }
+  },
+  "story_candidates": [
+    {
+      "id": "S78",
+      "kind": "update",
+      "title": "Update: a law firm's reading of what the AI Act changes mean",
+      "beat": "Europe",
+      "categories": [
+        "Europe",
+        "AI"
+      ],
+      "ai_path": {
+        "connection": "Direct: the EU's AI regulation and its effect on AI providers and deployers.",
+        "steps_away": "None (0).",
+        "places": "The European Union."
+      },
+      "angle": "A first update note for the published S77, in the standing answer 95 format with a short list: a law firm, William Fry, wrote on 12 May about the provisional agreement that the postponement is operational, that the standards providers will rely on are not expected to be complete until late 2026, that only machinery leaves the high-risk regime while medical devices and toys stay in it, that the marking obligations for generative AI start on 2 December 2026 while the code of practice is still a draft, and that high-risk registration is reinstated even for providers who think they are exempt. It reads a provisional text, not the law as published.",
+      "rests_on": [
+        "v-williamfry-ai-omnibus-deal"
+      ],
+      "ready": true,
+      "note": "For journalist-europe. Ready. Conditions: standing answers 95 and 100 (S77's first note; a dated intro line with the source, a short list, the caveat once at the end); re-read the page yourself; it is a law firm's reading of the 7 May provisional agreement, written 12 May before adoption: say so, and that the final text of Regulation (EU) 2026/1744 was not read; the firm's readings are the firm's ('William Fry says'); the 'standards late 2026' and 'code of practice still in draft' statements are as of May and may have changed: do not say they still hold; S77 says AI embedded in products moves to 2 August 2028, which is not in conflict with the firm's point that medical devices and toys remain in the high-risk regime: do not present them as a contradiction; do not give legal advice or say what companies must do beyond what the firm says providers are 'expected' to do; explain 'Article 50', 'code of practice' and 'EU database' in plain words at first use; the AI connection (direct, 0 steps) goes in the data note; categories Europe and AI."
+    }
+  ],
+  "connections_priority": [],
+  "for_the_fact_checker": [
+    {
+      "item": "S78",
+      "what": "A law firm's article about a provisional text, dated 12 May, only the captured part read; the Parliament and Commission pages used by S77 are from October. Where they differ in date or detail, the later institutional pages govern."
+    }
+  ],
+  "revisions": [
+    {
+      "candidate": "S77",
+      "change": "Published 20 Nov (how-the-eu-simplified-the-ai-act); off the ready list."
+    }
+  ],
+  "gaps_for_the_researcher": [
+    {
+      "desk": "europe",
+      "priority": 1,
+      "gap": "The legal text of Regulation (EU) 2026/1744 (the EU law site blocks automated reads: a person's browser check or a mirror), and an independent analysis written after the 24 July publication.",
+      "reader_angle": "Whether the provisional readings held in the final text.",
+      "sources_wanted": "The Official Journal text; a law firm or think tank after publication.",
+      "why_not_a_duplicate": "Only the institutions' summaries and a May firm article are captured."
+    },
+    {
+      "desk": "portugal",
+      "priority": 2,
+      "gap": "Whether other providers joined the physiotherapy convention; a dated report of the Rows closing; UST's Lisbon activity; Cova da Beira's own account.",
+      "reader_angle": "What happened after earlier stories.",
+      "sources_wanted": "The health-system administration; Superhuman and Rows; UST; the unit's pages.",
+      "why_not_a_duplicate": "Not captured."
+    }
+  ],
+  "urgent": "None"
+}
