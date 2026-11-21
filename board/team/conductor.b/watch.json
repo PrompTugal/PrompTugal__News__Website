@@ -1,1251 +1,1255 @@
 {
-  "about": "conductor.b@'s watch lines (the conductors' rota, board/the-conductors.md), kept in its own grant because board/conductor-watch.json is outside it (ABP R6, breach in run 2026-11-09T15-49-35Z). The main conductor may copy them across; abp@ is asked to add board/conductor-watch.json to conductor.b@'s grant.",
-  "lines": [
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-09T23:59Z",
-      "SGit-AI__Website__Web-Summit": "8232c109",
-      "PrompTugal__News__Website": "1ecd1178",
-      "PrompTugal__App__Android": "9bfd28b0",
-      "PrompTugal__App__iOS": "87211d14",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "THE BIG STOP applied on account B: twelve wakes paused 23:49:31-35, conductor.b@ every 2 h; the iOS conductor's :00 wake is not visible to me, its session told at 23:50. Stop report board/team/conductor.b/stop-report-2026-11-09.md."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T00:52Z",
-      "SGit-AI__Website__Web-Summit": "d88895ee",
-      "PrompTugal__News__Website": "ed7bd6e1",
-      "PrompTugal__App__Android": "9bfd28b0",
-      "PrompTugal__App__iOS": "3dcc0b13",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "THE BIG STOP holds on account B: only conductor.b@'s wake is enabled; no account-B agent committed since 23:49. The iOS conductor's :00 wake paused at 00:03 (its own report). Still active on dev: writer@PrompTugal.angelo (Angelo's agent, not on account B) and gamma-ray@web-summit.dinis (the stop's one exception). Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T02:52Z",
-      "SGit-AI__Website__Web-Summit": "900eea80",
-      "PrompTugal__News__Website": "c1209558",
-      "PrompTugal__App__Android": "9bfd28b0",
-      "PrompTugal__App__iOS": "3dcc0b13",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "THE BIG STOP holds on account B: only conductor.b@'s wake enabled; every account-B session idle. journalist@PrompTugal.dinis committed at 02:33 (a vault video experiment) but NOT from account B's journalist session (idle since 22:34): another session runs under that name, outside account B (any person may override the stop; Dinis to confirm who). Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T04:55Z",
-      "SGit-AI__Website__Web-Summit": "843af9c7",
-      "PrompTugal__News__Website": "d5aede6d",
-      "PrompTugal__App__Android": "521dd2cb",
-      "PrompTugal__App__iOS": "b7d17d14",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "THE RESTART (Dinis 02:40, relayed 03:58, For: conductor.b@) read at 04:49. Account B: designer, ontologist, dev.graphs, dev.data, correspondent, sherpa, librarian back on at 04:51; dev@ and dev.pages@ still paused (re-enabling refused by this session's safety check, waiting for Dinis); journalist@, dev.verify@, dev.portugal@ kept paused. conductor.b@ back to hourly at :48."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T05:52Z",
-      "SGit-AI__Website__Web-Summit": "10ed6822",
-      "PrompTugal__News__Website": "6ffa8458",
-      "PrompTugal__App__Android": "29a6389e",
-      "PrompTugal__App__iOS": "bd4eab05",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B after the restart: the seven are on; their first wakes fall 06:17 to 06:56 (none due yet). dev@ and dev.pages@ wait for Dinis's word in this session. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T06:56Z",
-      "SGit-AI__Website__Web-Summit": "335f7f28",
-      "PrompTugal__News__Website": "56e1edc5",
-      "PrompTugal__App__Android": "d65e6de4",
-      "PrompTugal__App__iOS": "787e2fe9",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "All seven restarted agents woke and committed (06:17 to 06:44: designer's design flip round 1, ontologist's GAMMA-Ray card link, correspondent's agentic front page, sherpa, dev.graphs, dev.data). Read 'Go and confirmed' (Dinis 05:45, dev@ and dev.pages@ back on): re-enabling them refused AGAIN by this session's safety check (06:52, 'Auto-Mode Bypass'): it needs Dinis in this session or a permission rule. Ledger 1018.21 (+55.15 since 21:52, across the stop)."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T07:52Z",
-      "SGit-AI__Website__Web-Summit": "e5855da3",
-      "PrompTugal__News__Website": "03d91b33",
-      "PrompTugal__App__Android": "81b0ee0c",
-      "PrompTugal__App__iOS": "6312b5e8",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "All seven restarted agents have now run (librarian 06:57 the last); the 2 h ones are between wakes. dev@ and dev.pages@ still off: they need Dinis's word in this session (the safety check). Inbox: 1 held."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T08:52Z",
-      "SGit-AI__Website__Web-Summit": "b4a29b78",
-      "PrompTugal__News__Website": "7e84182d",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "6312b5e8",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: designer (design flip round 2), ontologist (products in the graph), correspondent (Wednesday's agentic edition), dev.graphs, dev.data (second interview's folder) ran since 07:52. dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T09:52Z",
-      "SGit-AI__Website__Web-Summit": "d1eef4a2",
-      "PrompTugal__News__Website": "ae7960d5",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "6312b5e8",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Read Dinis's 'go: restart dev@ and dev.pages@' (08:45, relayed 09:00): not retried, since the safety check refused the same relayed word at 04:51 and 06:52; it needs Dinis in conductor.b@'s own session. Seven agents running; ledger 1041.91 (+23.7 in three hours)."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T10:57Z",
-      "SGit-AI__Website__Web-Summit": "a2fd23aa",
-      "PrompTugal__News__Website": "eb8c1382",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "6312b5e8",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: designer decided the design flip (B, round 3); ontologist 24 products; correspondent, librarian, dev.data ran; dev.graphs had nothing assigned (nothing for it without dev@ building). dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T11:52Z",
-      "SGit-AI__Website__Web-Summit": "99afc3dd",
-      "PrompTugal__News__Website": "e85a1ea0",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "a483a020",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Quiet hour on account B (the 2 h and 3 h agents between wakes). dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T12:56Z",
-      "SGit-AI__Website__Web-Summit": "c36c4967",
-      "PrompTugal__News__Website": "aa8aca96",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "450656b1",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Read Dinis's 12:40 brief (pt.news is about agents; the visual newsroom): nudged dev.graphs@ to lead the visual newsroom on its branch; dev@ and dev.pages@ still off (Dinis's word needed in this session). Rota: conductor.B@PrompTugal.vicky also took :48 (12:37), the same minute as conductor.b@; main conductor to re-slot one of us (the names differ only by owner, easy to confuse). Ledger 1080.11 (+38.2 in three hours)."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T13:54Z",
-      "SGit-AI__Website__Web-Summit": "2a6d2b1a",
-      "PrompTugal__News__Website": "04e3adb9",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "421d0090",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev.graphs@ started the visual newsroom (round 1, a workflow graph per piece, on work/dev.graphs, 12:56); librarian@ gave each published piece's flow from the record (13:02). It waits on dev@ to reach the site: dev@ and dev.pages@ still off (Dinis's word needed here). Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T14:53Z",
-      "SGit-AI__Website__Web-Summit": "28c91c35",
-      "PrompTugal__News__Website": "9a6f3cd2",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "421d0090",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: designer round 4 of the redesign (interviews, summit now, scores); ontologist keyed products to GAMMA-Ray's cards; correspondent led with Wednesday's red wind warning. dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T15:52Z",
-      "SGit-AI__Website__Web-Summit": "3c07ce24",
-      "PrompTugal__News__Website": "30621d55",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "42f785b0",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: sherpa read redesign round 4 on a phone. The Front Page (design E) became the home default at Dinis's direct word (conductor@PrompTugal.dinis, 15:42). dev@ and dev.pages@ still off: Dinis's word needed in this session. Ledger 1108.46 (+28.35 in three hours). Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T16:52Z",
-      "SGit-AI__Website__Web-Summit": "420db680",
-      "PrompTugal__News__Website": "1caaf8e2",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "0aad83fd",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: designer specified The Front Page (E) as the whole site's theme (T1 to T8); ontologist added related companies; correspondent and librarian ran. The theme needs dev@ to build it: dev@ and dev.pages@ still off (Dinis's word needed in this session). Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T17:53Z",
-      "SGit-AI__Website__Web-Summit": "c929e800",
-      "PrompTugal__News__Website": "ab15dbdb",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "74883a0b",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Quiet hour for account B's agents (between wakes). Read Dinis's 17:11 baseline (every team: a conductor, a security agent, a developer): account B has conductor.b@ only; dev@ waits for Dinis in this session; security@ runs on account A. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T18:52Z",
-      "SGit-AI__Website__Web-Summit": "58ab6770",
-      "PrompTugal__News__Website": "27bda568",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "74883a0b",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: designer checked D6 and E's theme live; sherpa read the home page in E on a phone (v0.1.1054); ontologist linked AISLE and GetVocal AI to GAMMA-Ray cards; correspondent kept the storm lead. dev@ and dev.pages@ on since 18:35 (first wakes 19:08, 19:11). Note: conductor.B@PrompTugal.vicky asked account B's dev.graphs@ and designer@ for a storm-page preview (18:13), then stood them down (18:20); cross-team asks to B's agents should come through conductor.b@. Ledger 1156.59 (+48.13 in three hours)."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T19:52Z",
-      "SGit-AI__Website__Web-Summit": "14017559",
-      "PrompTugal__News__Website": "b23e8461",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "74883a0b",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "dev@ back and working (19:08 wake): The Front Page's masthead on every page (designer's T1 to T7) and the work of dev.pages@, dev.graphs@ and dev.data@ brought onto dev; dev.pages@ ran (19:11: past-day slips, the theme's section heads). Account B: nine agents running, nothing blocked but dev.verify@'s credit. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T20:52Z",
-      "SGit-AI__Website__Web-Summit": "8250dae3",
-      "PrompTugal__News__Website": "3e169093",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "74883a0b",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev@ shipped the GAMMA-Ray cards (/agentic/, the home page strip, each rated company's card) and brought dev.pages@'s work on; designer checked E's masthead live (T1 to T8 pass); ontologist checked the cards against our ids; correspondent: Day 2 cancelled, the front page follows. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T21:52Z",
-      "SGit-AI__Website__Web-Summit": "bd6f2013",
-      "PrompTugal__News__Website": "9d13f95d",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "74883a0b",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev@ marked Wednesday as not taking place on the site, /agentic/ A to Z, three workers' branches brought on; sherpa read Day 2 called off as an attendee would. security@ 21:05: 23 commits clean. Ledger 1194.58 (+37.99 in three hours, nine agents). Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T22:55Z",
-      "SGit-AI__Website__Web-Summit": "104304a6",
-      "PrompTugal__News__Website": "2f5b8b04",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "daa6ed4a",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev@ put Wednesday 'called off' first and struck it in the days strip; designer re-checked /agentic/ and the Spectrum block (pass); ontologist linked Manus AI; correspondent: refunds for the cancelled day lead. Inbox empty. The 10 November debrief written."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-10T23:52Z",
-      "SGit-AI__Website__Web-Summit": "7d4e1cb0",
-      "PrompTugal__News__Website": "dddc1a8d",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "4fc8285b",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev@ (23:08) let an article's tag reach a company by name or alias (ontologist's ask) and brought three workers' branches on; the 2 h and 3 h agents between wakes. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T00:52Z",
-      "SGit-AI__Website__Web-Summit": "c4b4c41e",
-      "PrompTugal__News__Website": "636bf179",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "3ce861bf",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev@ reviewed and kept seven outside commits; ontologist confirmed dev@'s tag matching; designer drew images for two articles from their own tables; sherpa re-checked Day 2; correspondent aligned beat names to categories. Ledger 1246.36 (+51.78 in three hours). Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T01:52Z",
-      "SGit-AI__Website__Web-Summit": "c5a400f7",
-      "PrompTugal__News__Website": "72e749b6",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "3ce861bf",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev@ (01:08) made the app skip the called-off day and show the notice first (sherpa's ask), brought three workers' branches on; librarian ran. Nothing new from Dinis for B."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T02:52Z",
-      "SGit-AI__Website__Web-Summit": "25eeafb9",
-      "PrompTugal__News__Website": "cfa4548c",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "3ce861bf",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev@ put products in the graph and on company pages (ontologist's ask), ontologist confirmed them live; designer asked for a product mark in the graph; correspondent placed Zalando's AI coding agents. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T03:52Z",
-      "SGit-AI__Website__Web-Summit": "eb66c844",
-      "PrompTugal__News__Website": "bde8df5d",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "3ce861bf",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev@ made a product's evidence its cited page and drew products as diamonds (designer's ask), three branches on; sherpa closed its called-off-day findings. Ledger 1282.44 (+36.08 in three hours). Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T04:52Z",
-      "SGit-AI__Website__Web-Summit": "285c0561",
-      "PrompTugal__News__Website": "b14a4629",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "3ce861bf",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev@ put the site's menus in 21 cultures (the app's globe, saved choice); designer re-checked the product diamonds (pass); ontologist: nothing open but Dinis's asks; correspondent and librarian ran. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T05:52Z",
-      "SGit-AI__Website__Web-Summit": "9896c5c3",
-      "PrompTugal__News__Website": "e76a84fd",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "3ce861bf",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev@ put the live bar in 21 cultures, wrote its 11 Nov debrief, brought three branches on; the others between wakes. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T06:53Z",
-      "SGit-AI__Website__Web-Summit": "40f041b8",
-      "PrompTugal__News__Website": "ada9ad82",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "3ce861bf",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev@ put the footer in 21 cultures and linked the app to the beta sign-up; designer gave four polish notes on /storm/charles/ for Vicky's dev@; sherpa read the storm page and /agentic/ on a phone; ontologist: nothing new (two rated companies outside our map); correspondent placed the EU's election rules for generative AI. Ledger 1334.34 (+51.9 in three hours). Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T07:52Z",
-      "SGit-AI__Website__Web-Summit": "d55c5a79",
-      "PrompTugal__News__Website": "a990b081",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "3ce861bf",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev@ finished translating the site's own words into 21 cultures (the reading credit last), three branches on; librarian green. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T08:52Z",
-      "SGit-AI__Website__Web-Summit": "e8eafd3f",
-      "PrompTugal__News__Website": "b2479718",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "3ce861bf",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: a lean hour (dev@ lean wake, one branch on; designer and ontologist wrote their 11 Nov debriefs; correspondent placed Thursday's breakout startups). Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T09:57Z",
-      "SGit-AI__Website__Web-Summit": "d4383449",
-      "PrompTugal__News__Website": "d83f7435",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "3ce861bf",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev@ fixed the stale home page (the offline worker answers from its newest copy; Vicky's request via her conductor, live), three branches on; sherpa dated the storm page to the latest IPMA read. Ledger 1366.21 (+31.87 in three hours). Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T10:52Z",
-      "SGit-AI__Website__Web-Summit": "616de3e7",
-      "PrompTugal__News__Website": "0ced7148",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "0d2182bc",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Read Dinis's 10:22 guidance (pt.news follows the storm, links the storm site as a main source): already in hand on account B (designer's live-sources strip with the storm site at the top of the home page; correspondent recorded the live sources). dev@ made a page from a kept copy say so and offer the newer one. ontologist: nothing new again (third time). Inbox: 2 held (unregistered signer)."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T11:52Z",
-      "SGit-AI__Website__Web-Summit": "6c36d73e",
-      "PrompTugal__News__Website": "b42b121d",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "0d2182bc",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev@ shipped the live-sources strip (the storm site and Lisbon Fringe at the top of the home page), two branches on. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T12:53Z",
-      "SGit-AI__Website__Web-Summit": "39330503",
-      "PrompTugal__News__Website": "d81a2cd1",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "afe48428",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev@ got security@'s pass on the offline fix; designer checked the live-sources strip (pass); correspondent: Thursday back on, the plan follows; sherpa and ontologist ran. Noted: weather@PrompTugal.vicky found websummit.com's terms forbid machine reads (12:46): account B's agents that read it (correspondent, dev's schedule build) may need the same check; put to Dinis. Ledger 1421.47 (+55.26 in three hours). Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T13:52Z",
-      "SGit-AI__Website__Web-Summit": "daf40389",
-      "PrompTugal__News__Website": "e2762aec",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "a5d19915",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev@ lean wake, three branches on; librarian sent the life map's flags to the conductors. Vicky's desks adopted 'no machine reads of websummit.com' (13:23 to 13:46); account B's own answer still waits on Dinis. Inbox: 1 held."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T14:52Z",
-      "SGit-AI__Website__Web-Summit": "1816cf1b",
-      "PrompTugal__News__Website": "ce4544c1",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "a5d19915",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: a quiet hour (dev@ lean; designer and ontologist nothing new; correspondent's Thursday edition waits). librarian's life map flags nothing on conductor.b@ (its note 'works on work/conductor.b' is wrong: conductor.b@ releases to dev itself). Vicky's desks hold 'no machine reads of websummit.com' on Vicky's word until Dinis decides; account B's answer still with Dinis. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T15:52Z",
-      "SGit-AI__Website__Web-Summit": "6b0d3351",
-      "PrompTugal__News__Website": "8882699c",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "eb113986",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "security@ 15:05: 134 commits clean, no websummit.com reader left in the code (account B's agents included); S39 (data read before the terms were known) for Dinis. Account B: dev@ lean, three branches on; sherpa confirmed Thursday in the lead. Ledger 1453.63 (+32.16 in three hours, the slowest yet). Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T16:52Z",
-      "SGit-AI__Website__Web-Summit": "713aa7d9",
-      "PrompTugal__News__Website": "14a2a51d",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "eb113986",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: correspondent: the storm easing, Thursday's front-page swap set for 18:41; ontologist linked Emergence AI; librarian fixed the life map's dotted workers; dev@ lean, one branch on; designer quiet. Inbox: 1 held."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T17:52Z",
-      "SGit-AI__Website__Web-Summit": "7c754281",
-      "PrompTugal__News__Website": "771bd633",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "eb113986",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "The Fringe link fixed: correspondent@ (17:24) and dev@ (17:26) point it at lisbontechfringe.com, three minutes after conductor.fringe@'s note; the old host's redirect stays with Dinis or an org admin. dev@'s 17:08 wake brought three branches on. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T18:59Z",
-      "SGit-AI__Website__Web-Summit": "1c22cb11",
-      "PrompTugal__News__Website": "4064adb4",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "d5eae8b1",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: correspondent put Thursday's edition in (S41 keeps the lead); designer's live-sources spec follows the Fringe's new name; sherpa and dev@ ran; ontologist nothing new again. Ledger 1508.1 (+54.47 in three hours). Inbox: 1 held."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T19:52Z",
-      "SGit-AI__Website__Web-Summit": "30b42c5a",
-      "PrompTugal__News__Website": "7373a379",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "c907c8bc",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: dev@ linked the storm page from the live-sources strip, re-pulled GAMMA-Ray, three branches on; librarian refreshed its 11 Nov debrief. Vicky's conductor handed her agents to her team account (twin wakes disabled). Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T20:52Z",
-      "SGit-AI__Website__Web-Summit": "79c12c95",
-      "PrompTugal__News__Website": "35ff94f5",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "c907c8bc",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Account B: correspondent moved the lead to Thursday (the storm to the top three); designer, ontologist quiet; dev@ lean. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T21:55Z",
-      "SGit-AI__Website__Web-Summit": "efb86993",
-      "PrompTugal__News__Website": "cedd474b",
-      "PrompTugal__App__Android": "653320a6",
-      "PrompTugal__App__iOS": "c529d49d",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "Read Dinis's ruling (~18:50, recorded 21:23): what rests only on websummit.com comes off with a note; shadow sources bring it back; the pass names seven account-B agents. Pointed ontologist@ (step 2, the inventory) and dev@ (step 3) at it; the others read it from the guidance at their wakes. sherpa: Thursday leads. Ledger 1546.68 (+38.58 in three hours). Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T22:58Z",
-      "SGit-AI__Website__Web-Summit": "5030ec28",
-      "PrompTugal__News__Website": "33e350aa",
-      "PrompTugal__App__Android": "683f9f7d",
-      "PrompTugal__App__iOS": "bf76d293",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "The websummit-only pass on account B: ontologist's inventory done (21:55, facts_left per company 22:22); dev@'s groundwork in the gate with the switch off (22:12); designer's note and recovery page designed (22:37); all wait on security@'s pre-review before anything comes off. correspondent: S58 leads Thursday. Inbox empty. The 11 Nov debrief written."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-11T23:52Z",
-      "SGit-AI__Website__Web-Summit": "b3e1d6fd",
-      "PrompTugal__News__Website": "f211bbb5",
-      "PrompTugal__App__Android": "5badadaa",
-      "PrompTugal__App__iOS": "bf76d293",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "The websummit-only pass on account B: dev@ built the filter behind its switch (still off, 23:20/23:40), three branches on; all of account B's steps now wait on security@'s pre-review and the switch. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-12T00:53Z",
-      "SGit-AI__Website__Web-Summit": "cb66b3d6",
-      "PrompTugal__News__Website": "471c0ba1",
-      "PrompTugal__App__Android": "b35f185d",
-      "PrompTugal__App__iOS": "bf76d293",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "The websummit-only pass: security@'s pre-review a go (00:07, conditions); dev@ met its side, switch off; designer revised the note after sherpa's cold read; ontologist added shadow sources for core entities. The switch waits on ontologist's re-try, journalist@'s twins and dev.graphs@'s cloud-centres.json: dev.graphs@ messaged (next wake 02:17). correspondent drafted Friday's edition. Ledger 1602.9 (+56.22 in three hours, the pass's busiest). Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-12T01:52Z",
-      "SGit-AI__Website__Web-Summit": "7cee3ddc",
-      "PrompTugal__News__Website": "2d0a09b0",
-      "PrompTugal__App__Android": "2cd4cd75",
-      "PrompTugal__App__iOS": "bf76d293",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "The websummit-only pass, 01:30: dev@ 'nearly ready', brought dev.pages@'s note and recovery page, dev.graphs@'s cloud-centres fix and dev.data@'s story inventory; evidence captures sourced on websummit.com come off by the host rule; switch still off. Inbox empty."
-    },
-    {
-      "conductor": "conductor.b@PrompTugal.dinis",
-      "at": "2026-11-12T02:52Z",
-      "SGit-AI__Website__Web-Summit": "af4a941d",
-      "PrompTugal__News__Website": "ef4fa83e",
-      "PrompTugal__App__Android": "2cd4cd75",
-      "PrompTugal__App__iOS": "bf76d293",
-      "PrompTugal__App__Mobile": "7f59d911",
-      "note": "The websummit-only pass: the switch still waits on four items (journalist@'s three signed twins, outside account B, and company:pitchbook for ontologist@, who added evidence captures to the inventory at 02:33). dev@ held dev.pages@'s latest for merge conflicts (dev.pages@ rebases at its hourly wake). correspondent: S58 leads the final day. Inbox empty."
-    },
-    {
-      "at": "2026-11-12T03:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "heads": {
-        "SGit-AI__Website__Web-Summit": "609af92a",
-        "PrompTugal__News__Website": "a0f6fb4b",
-        "PrompTugal__App__Android": "2cd4cd75",
-        "PrompTugal__App__iOS": "bf76d293",
-        "PrompTugal__App__Mobile": "7f59d911"
-      },
-      "note": "ledger wake: B total 1635.37 (+32.47 in 3h); dev@ brought dev.data/dev.graphs/dev.pages 03:10-03:12; switch waits on journalist@'s 3 twins (outside B) and company:pitchbook; inbox empty"
-    },
-    {
-      "at": "2026-11-12T04:52Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "heads": {
-        "SGit-AI__Website__Web-Summit": "0e2425bc",
-        "PrompTugal__News__Website": "663d9fc8",
-        "PrompTugal__App__Android": "2cd4cd75",
-        "PrompTugal__App__iOS": "bf76d293",
-        "PrompTugal__App__Mobile": "7f59d911"
-      },
-      "note": "the websummit-only switch is on (dev@ 04:13); ontologist@ kept PitchBook from a Morningstar SEC exhibit (04:23); designer@ checked it live, three gaps (04:36); dev.data@ split S9 (work branch 04:34); all nine B agents active; inbox empty"
-    },
-    {
-      "at": "2026-11-12T05:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "heads": {
-        "SGit-AI__Website__Web-Summit": "490bc9b7",
-        "PrompTugal__News__Website": "cd7c7a3f",
-        "PrompTugal__App__Android": "2cd4cd75",
-        "PrompTugal__App__iOS": "bf76d293",
-        "PrompTugal__App__Mobile": "7f59d911"
-      },
-      "note": "quiet hour: dev@ brought dev.data/dev.graphs/dev.pages 05:10-05:11; dev.pages@ on the recovery page showcase (work branch 05:13); nothing from the other conductors or Dinis; inbox empty"
-    },
-    {
-      "at": "2026-11-12T06:51Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "heads": {
-        "SGit-AI__Website__Web-Summit": "f0afca6f",
-        "PrompTugal__News__Website": "a11d9efd",
-        "PrompTugal__App__Android": "2cd4cd75",
-        "PrompTugal__App__iOS": "bf76d293",
-        "PrompTugal__App__Mobile": "7f59d911"
-      },
-      "note": "ledger wake: B total 1676.73 (+41.36 in 3h); the websummit-only takedown live and post-reviewed by security@ (conductor@ 06:39); ontologist@ brought 31 companies back from their own home pages; inbox empty"
-    },
-    {
-      "at": "2026-11-12T07:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "heads": {
-        "SGit-AI__Website__Web-Summit": "87282d3e",
-        "PrompTugal__News__Website": "3c9ac7ca",
-        "PrompTugal__App__Android": "2cd4cd75",
-        "PrompTugal__App__iOS": "bf76d293",
-        "PrompTugal__App__Mobile": "7f59d911"
-      },
-      "note": "quiet hour: dev@ brought the three workers 07:11-07:13 and split company fields by source; librarian@ recorded the takedown; nothing from the other conductors or Dinis; inbox empty"
-    },
-    {
-      "at": "2026-11-12T08:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "heads": {
-        "SGit-AI__Website__Web-Summit": "433ad5f9",
-        "PrompTugal__News__Website": "5ab23318",
-        "PrompTugal__App__Android": "2cd4cd75",
-        "PrompTugal__App__iOS": "bf76d293",
-        "PrompTugal__App__Mobile": "7f59d911"
-      },
-      "note": "correspondent@ cleared the takedown's day picks, Discord's Lisbon hub to the top three; designer@ NE3-NE5 pass live; ontologist@ handed the last 5 companies to researcher@ (not running on B: noted to Dinis); inbox empty"
-    },
-    {
-      "at": "2026-11-12T09:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "heads": {
-        "SGit-AI__Website__Web-Summit": "f324d90c",
-        "PrompTugal__News__Website": "5352f660",
-        "PrompTugal__App__Android": "2cd4cd75",
-        "PrompTugal__App__iOS": "bf76d293",
-        "PrompTugal__App__Mobile": "7f59d911"
-      },
-      "note": "ledger wake: B total 1705.21 (+28.48 in 3h); the takedown holds and its follow-ups shipped (conductor@ 09:40); sherpa@ NE4/NE5 done; dev@ brought the three workers; inbox empty"
-    },
-    {
-      "at": "2026-11-12T10:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "heads": {
-        "SGit-AI__Website__Web-Summit": "4324b300",
-        "PrompTugal__News__Website": "4fc70be4",
-        "PrompTugal__App__Android": "2cd4cd75",
-        "PrompTugal__App__iOS": "bf76d293",
-        "PrompTugal__App__Mobile": "7f59d911"
-      },
-      "note": "lean hour: dev@, dev.pages@, dev.graphs@, ontologist@ report nothing new; correspondent@ and designer@ wrote their 12 Nov debriefs; librarian@ green; inbox empty"
-    },
-    {
-      "at": "2026-11-12T11:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "heads": {
-        "SGit-AI__Website__Web-Summit": "8be39526",
-        "PrompTugal__News__Website": "fd0e8b18",
-        "PrompTugal__App__Android": "2cd4cd75",
-        "PrompTugal__App__iOS": "bf76d293",
-        "PrompTugal__App__Mobile": "7f59d911"
-      },
-      "note": "quiet hour: dev@ brought the three workers and fixed 11 Nov reading as called off (the build keeps its own record); dev.pages@ wrote its 12 Nov debrief; nothing from the other conductors or Dinis; inbox empty"
-    },
-    {
-      "at": "2026-11-12T12:51Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "heads": {
-        "SGit-AI__Website__Web-Summit": "101a237b",
-        "PrompTugal__News__Website": "b217fa4a",
-        "PrompTugal__App__Android": "2cd4cd75",
-        "PrompTugal__App__iOS": "bf76d293",
-        "PrompTugal__App__Mobile": "7f59d911"
-      },
-      "note": "ledger wake: B total 1745.48 (+40.27 in 3h); dev@, dev.pages@, dev.graphs@, ontologist@ lean again; correspondent@ PagerDuty to the top three; sherpa@ G1 scrolls sideways, X1 open; conductor.android@ Android unchanged; inbox empty"
-    },
-    {
-      "at": "2026-11-12T13:51Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "heads": {
-        "SGit-AI__Website__Web-Summit": "920748f6",
-        "PrompTugal__News__Website": "7b3a66dd",
-        "PrompTugal__App__Android": "2cd4cd75",
-        "PrompTugal__App__iOS": "bf76d293",
-        "PrompTugal__App__Mobile": "7f59d911"
-      },
-      "note": "correspondent@ carried Lisbon Tech Fringe's line for tonight, without a number (13:26), after my relay; dev@ lean, brought the three workers; librarian@ asked the conductors whether the three Fringe conductors work in another repository; inbox: 2 messages held unread (signed by a key not on the keys page)"
-    },
-    {
-      "at": "2026-11-12T14:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "heads": {
-        "SGit-AI__Website__Web-Summit": "b0fc64cd",
-        "PrompTugal__News__Website": "fcb92667",
-        "PrompTugal__App__Android": "2cd4cd75",
-        "PrompTugal__App__iOS": "bf76d293",
-        "PrompTugal__App__Mobile": "7f59d911"
-      },
-      "note": "dev@ gave the live sources strip a timed line: the Fringe's last evening until 23:59 UTC; designer@ re-checked, passes; correspondent@ moved the Fringe line into the strip; ontologist@, dev.pages@, dev.graphs@ idle; inbox empty"
-    },
-    {
-      "at": "2026-11-16T19:52Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "first wake of the restart: all 18 ran their first run (keys, statuses); journalist@ published JW1 and the /values/ draft; dev@ made release.sh a queue; ontologist@ shipped the media kind; outreach@ the draft format; correspondent@ reset the front page to the places edition; datasci.places@ IPMA live for 18 places (airport retry); researcher@ staged the South; translator@ it-IT half; abp@ started (19:49) for the grants; Jose's conductor answered in board/team/conductor.b/answers/; live v0.1.1650"
-    },
-    {
-      "at": "2026-11-16T20:54Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 1 of the restart: about 50 commits from 19 agents; live v0.1.1658. Local news: west 7 towns drafted, central 19 items, east 22 items, districts 2nd pass; journalist@ brought west, central and districts onto dev; correspondent@ an Algarve beat on the front page. Media map: 73 outlets in the graph (researcher@ to ontologist@), local@PrompTugal.jose Faro and Loule outlets with feeds. Live data: IPMA and Faro airport for 18 places. dev@: search index 415 to 320 KB; translator@ it-IT complete. abp@ fixing media paths in grants. Old account-A town agents only rewrote pause debriefs. The old conductor@ (account A) is alive (App Store subtitle 20:31); I cannot reach it across accounts: lanes wait on Dinis. Nudged dev.places, dev, outreach."
-    },
-    {
-      "at": "2026-11-16T21:51Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 2: live v0.1.1664. dev@ feeds out (RSS and JSON Feed per place, 36 places, 322 items); outreach@ 10 first-contact drafts (Aveiro, Leiria, Braga, Setubal, a national + the first five); west follow-ups (Portimao hospital, EMARP); journalist@ brought west's follow-ups, held central's key redo; sherpa@ subtitle decided, two synthetic readers on /values/; Vicky's reviewer@ published S67. Review backlog: dev.places 10 ahead, researcher 7, central 5, districts 5, east 4, designer.places 4, translator 2: nudged dev@ to review first. Lanes still wait on Dinis."
-    },
-    {
-      "at": "2026-11-16T22:52Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 3: live v0.1.1669. dev@ feeds per topic (17 topics) and brought Around <town> and translator; /media/ and it-IT were already on dev (the 'ahead' counts were cherry-picks: no real backlog but dev.places' outlet feeds-in 22:17). ontologist@ 80 outlets in the graph. journalist@ brought east's 7 items. correspondent@ placed four articles. old conductor@ (account A) wrote the outreach outbox spec (vault promptugal-outreach, Dinis approves, sends from the RiskMandate mailbox). security@ 78 commits clean; S47 old sessions still committing. Jose's conductor: five questions for Dinis, carried; Faro's outlets answered (local@)."
-    },
-    {
-      "at": "2026-11-16T23:53Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 4: live v0.1.1672. Local news: west's Barlavento pass (Aljezur, Monchique, Silves), central rechecks (Loule AI recital, Faro 24 Nov conference), east key rotation; journalist@ brought all three. dev@ made outside feed text safe (feeds-in). Found: ABP v1.14.0 kept datasci.places@ on its work branch, so the live data has not reached the site since 20:16: asked abp@ to grant release to dev, dev@ to bring the branch at 00:08, datasci@ to retry adsb with backoff. Jose's conductor now orchestrates his agents (J10)."
-    },
-    {
-      "at": "2026-11-17T00:51Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 5 (ledger): 19 restarted sessions 88.04 USD API-equivalent in 5h20 (conductor.b 15.16 more); live v0.1.1677. Live data back on dev (dev@ brought datasci's branch, 23:51; collector retries adsb and keeps the last read, 'last read' shown). ontologist@ 110 outlets; outreach@ 15 drafts (say how we got the data, ask for an API); designer.places@ Local media as cards; dev.places@ the story rail; the old conductor@ extended the outbox spec (review app, first batch); security@ pre-reviewed the outbox (outside sends wait on a signed word). abp@ held datasci's release-to-dev for Dinis. East quiet overnight; journalist@ held districts' third pass."
-    },
-    {
-      "at": "2026-11-17T01:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 6, night: live v0.1.1680. place.districts@ third pass (Lisboa, Porto/ScaleUp Porto, Braga, Coimbra), fixed and brought by journalist@; dev.places@ coverage map (where local journalism is and is missing, /media/ and api/v1/media/coverage.json); dev@ search snippets clipped (docs.json 333 KB); central and east daily debriefs. Live data on dev lags up to ~1 h: datasci runs at :15, dev@ brings it at :08 (waits on Dinis's word for direct release)."
-    },
-    {
-      "at": "2026-11-17T02:52Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 7, night: live v0.1.1684. place.districts@ third pass for Guarda, Braganca, Vila Real and two more, brought by journalist@; ontologist@ 138 outlets (capital-city radio); security@ 38 commits clean, S43 recurred: nine district site key ids doubled in keys.json (superseded + active under one id): place.districts@ asked to use suffixed ids and re-sign. Quiet wakes with no commit: sherpa, librarian, correspondent (nothing new overnight). Live data 01:17 on dev."
-    },
-    {
-      "at": "2026-11-17T03:52Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 8 (ledger): 19 sessions 111.96 USD API-equivalent (+23.92 in 3h); live v0.1.1687. S43 fixed: place.districts@ gave nine site keys unique -2 ids, journalist@ brought it (0 duplicate ids). outreach@ 25 drafts; dev@ search index 333 to 214 KB; dev.places@ derived translation queue per culture. Live data 02:17 on dev."
-    },
-    {
-      "at": "2026-11-17T04:53Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 9: live v0.1.1692. place.districts@ third pass for Setubal, Beja, Castelo Branco, Portalegre, Evora (+1), brought by journalist@; ontologist@ 177 outlets (41 regional periodicals, people depth); dev@ the gate checks all 106 outgoing feeds; dev.places@ translatable town headings; designer.places@ 'Show all' in the page's language. Correction: S43 is half fixed (security@ 04:05): four public bundles overwritten 16 Nov 19:31 still missing; routed to place.districts@ (3) and researcher@ (1). Live data 03:17 on dev."
-    },
-    {
-      "at": "2026-11-17T05:51Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 10, quiet: live v0.1.1695. S43's second half done: place.districts@ restored its three overwritten public bundles (superseded), researcher@ its own as researcher-promptugal-1; journalist@ brought them; security@ to confirm at 06:05. dev.places@ translation queue scope. Live data 04:17 on dev."
-    },
-    {
-      "at": "2026-11-17T06:53Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 11 (ledger): 19 sessions 145.12 USD API-equivalent since the restart (+33.16 in 3h); live v0.1.1699. West's morning pass (Portimao hospital figures flagged); districts linked researcher@'s media map in 16 capitals (111 outlets); outreach@ 37 drafts; ontologist@ mastheads (33 outlets); designer.places@ two home live-strip variants for Dinis; dev.places@ gate warnings for the translation memory; security@ S43 key data restored byte-identical (a gate check still owed). My own hand-over debrief for 17 Nov written."
-    },
-    {
-      "at": "2026-11-17T07:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 12: live v0.1.1702. West: UAlg schools talks, hospital figures compared; central: morning recheck, no new AI news, gaps recorded; journalist@ brought both. Vicky's curator@ S68 (update to S67 from the Center's chief executive interview). dev.places@ translation-memory checks. Live data 06:18 on dev."
-    },
-    {
-      "at": "2026-11-17T08:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 13: live v0.1.1706. East's morning scan, ten more sourced items, brought by journalist@; dev.places@ distance to the beat on town article lists; ontologist@ feed re-check (10 outlets); security@ 32 commits clean, S68's company claim to check on publication. Live data 07:19 on dev."
-    },
-    {
-      "at": "2026-11-17T09:51Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 14 (ledger): 19 sessions 166.27 USD API-equivalent since the restart (+21.15 in 3h); live v0.1.1709. Central: Faro, NERA brings 25 businesswomen to explore AI tools, brought by journalist@; outreach@ 52 drafts; Vicky's reviewer@ published S68 (dated update to S67). Live data 08:16 on dev."
-    },
-    {
-      "at": "2026-11-17T10:53Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 15: live v0.1.1712. Vicky's checker@ fact-checked 5 of our published Algarve articles (Faro, Olhao, Lagos, Alcoutim, Algar/Almancil): figures, partners, a pilot, sources not links: routed to journalist@ for corrections at 11:40. West and districts quiet passes; ontologist@ eco, jornal-economico, tvi media records; the old conductor@ wrote a spec for one reader across devices. Live data 09:16 on dev."
-    },
-    {
-      "at": "2026-11-17T11:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 16: live v0.1.1717. journalist@ corrected and re-signed the five Algarve articles at 10:55 (checker@'s findings), reviewed the old conductor@'s two new articles (an ATM's 13.6% conversion mark-up; the payment desk that could not take payment). Central: two older Faro AI items from Postal. dev.places@ the /media/ look hooks. Vicky's curator@ S69 (AI physiotherapy). Live data 10:16."
-    },
-    {
-      "at": "2026-11-17T12:53Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 17 (ledger): 19 sessions 202.18 USD API-equivalent since the restart (+35.91 in 3h); live v0.1.1721. Midday passes on all three Algarve desks (east 7 items, central second sources for SIPRS and Som Riscado, west MACA agenda), journalist@ brought four desks; correspondent@ two articles in the Portugal beat; outreach@ 67 drafts; dev@ pairing step 1 (one reader across devices); the old conductor@ wrote the agentic cells onboarding plan (board/spec-agentic-cells-onboarding.md). Jose: local@ paused new outlet data because Jose wants outlet and staff data private, against Dinis's guidance: carried to Dinis."
-    },
-    {
-      "at": "2026-11-17T13:51Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 18: live v0.1.1725. The old conductor@ (account A) wrote the provenance and review model (type, five axes, ladder P0-P5, signed responses) with Dinis's opinion piece, and its For Dinis page; journalist@ labelled every article with type and provenance (step 1) and opened a correction queue of 20; central recorded outlets opened and refused per town; dev@ pairing step 1 page (dry run) after security@'s post-review; local@PrompTugal.jose: resumes if Dinis says outlet data is public. Live data 12:18."
-    },
-    {
-      "at": "2026-11-17T14:51Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 19: live v0.1.1727. The old conductor@ (account A) put a green 'Support us £5' button at the top of every page to the top-up, at Dinis's word. journalist@ corrected BR1 and BR6 (checker@), brought west's afternoon pass (Monchique, Lagos, Silves) and districts; correspondent@ one article in the newsroom beat; ontologist@ Postal do Algarve and A Voz do Algarve from local@'s readings, no people; designer.places@ outlet page facts band; dev@ the pairing page live as a dry run (security@ passed). Live data 13:21."
-    },
-    {
-      "at": "2026-11-17T15:51Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 20 (ledger): 19 sessions 235.2 USD API-equivalent since the restart (+33.02 in 3h); live v0.1.1731. dev@ the provenance strip under every article headline; the old conductor@ made the reading credit a statement in the masthead ('Pay for what you read: £5 of credit to start'); journalist@ S11 corrected; outreach@ 87 drafts; Vicky's curator@ S69 updated. Live data 14:19."
-    },
-    {
-      "at": "2026-11-17T16:53Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 21: live v0.1.1735. dev@ provenance filters and api/v1/articles/provenance.json; ontologist@ provenance and claims schema (step 2); journalist@ BR2 corrected, 15 queue items given owners; translator@ pl-PL half; designer.places@ /media/ kind chips. east read Sul Informacao's feed once: its robots.txt disallows ClaudeBot/Claude-Web/anthropic-ai: told east to stop and link only, journalist@ to hold items resting on it, until Dinis rules. security@ S50 for Dinis: the GBP5 support button takes real payment whose credit lands on newsroom.sgit.ai, not here."
-    },
-    {
-      "at": "2026-11-17T17:51Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 22: live v0.1.1737. east stopped reading sulinformacao.pt and removed the item (16:52); evening passes: west (Lagos police operation, Portimao housing debate), central (Olhao teacher's Erasmus+ AI course), east addendum; journalist@ brought all three. The old conductor@ (account A): the data site and focused newsrooms brief (newsroom.sgit.ai's writer, at Dinis's request) and the provenance model's steering/background inside origin (endorsed by Dinis). Live data 16:17."
-    },
-    {
-      "at": "2026-11-17T17:54Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "Sul Informacao: I missed the 13:50 guidance row (Dinis via the old conductor@: collect its feed hourly, keep every item, use its search page, never work around a refusal) when I told east to stop at 16:52. My correction to east was refused by the auto-mode safety check (directing an agent to read a site whose robots.txt disallows Claude agents by name); not retried. East stays stopped; journalist@ told items under the brief need not be held. Put to Dinis: confirm in this session, knowing robots.txt names ClaudeBot/Claude-Web/anthropic-ai, or stand the stop."
-    },
-    {
-      "at": "2026-11-17T18:52Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 23 (ledger): 19 sessions 274.04 USD API-equivalent since the restart (+38.84 in 3h); live v0.1.1741. Dinis's yes (to the old conductor@) for data.promptugal.news and observability on newsroom.sgit.ai; observability@ session 2 started there (waits on sealed vault keys): my observability ask is withdrawn. outreach@ 92 drafts (every outlet with a contact page and feed); ontologist@ who covers which place (data/media/by-place.json); dev@ api/v1/since.json; security@ 56 feed hosts checked against robots.txt, none disallows us. A quiet hour for the desks. Live data 17:16."
-    },
-    {
-      "at": "2026-11-17T19:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 24, quiet evening: live v0.1.1742. dev@ 'Since your last visit' on the You page (place, region, country, from the browser's own reading record); the old conductor@ wrote the five sites brief (data, weather, civic, startups, travel); journalist@: nothing new from any desk. One day since the restart. Live data 18:16."
-    },
-    {
-      "at": "2026-11-17T20:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 25, quiet: live v0.1.1746. ontologist@ the Algarve municipalities' neighbours checked against Wikidata (14 of 16 agree with the draft); dev@ search ranks a town's page above its data views, search tests from 6 failures to 1; security@ 27 commits clean, 'Since your last visit' keeps the profile in the browser. Live data 19:18."
-    },
-    {
-      "at": "2026-11-17T21:51Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 26 (ledger): 19 sessions 300.81 USD API-equivalent since the restart (+26.77 in 3h); live v0.1.1750. Vicky's reviewer@ published S69 (AI physiotherapy), journalist@ labelled it (news, P2); dev@ search shards split so no typical query loads over 40 KB. Quiet desks. Live data 20:17."
-    },
-    {
-      "at": "2026-11-17T22:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 27, quiet: live v0.1.1754. ontologist@ the 16 Algarve municipalities' neighbours from DGT's CAOP 2025 with border lengths; translator@ hr-HR half; correspondent@ AI physiotherapy story in the Portugal beat; security@ 27 commits clean, its 17 Nov debrief. Live data 21:17."
-    },
-    {
-      "at": "2026-11-17T23:53Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 28: live v0.1.1759. The old conductor@ (account A) handed over to B (board/briefs/2026-11-17-handover-to-account-b.md, guidance 23:00): no PrompTugal schedules left on A; conductor.b@ to start observability@ and the five sites' teams (data, weather, civic, startups, travel) from their debriefs; vault keys sealed in sgit vault 5qzpmf4m to Dinis and to the old conductor's key; fixes listed (keygen, the repos' commit check, design picks, IPMA non-profit terms). Asked Dinis for a go in this session before starting six sessions on five new repositories. The old conductor@ also put the balance in the top bar, prices from 1p, a reading graph. journalist@ asked if the Algarve desks are paused: answered no, quiet evening. Live data 22:16."
-    },
-    {
-      "at": "2026-11-18T00:52Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 29 (ledger): 19 sessions 336.34 USD API-equivalent since the restart (+35.53 in 3h); live v0.1.1763. Daily debriefs for 18 Nov (journalist@, central, outreach@ with 92 drafts and nothing new to draft, ontologist@). security@ 33 commits clean; S51 for Dinis (the meter raises readers' past charges after the fact). Hand-over go still asked. Live data 23:16."
-    },
-    {
-      "at": "2026-11-18T01:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 30, night: live v0.1.1765. observability@ session 1 took over again at 01:35 (key 1 reinstated, session 2 archived and its key retired), drain and run log resumed: observability no longer needs starting. The old conductor@ put the five PrompTugal.news sites in the home page's band. translator@ ro-RO done half; debriefs from datasci.places@, dev.places@, translator@. Live data 00:16. The five sites still wait on Dinis's go."
-    },
-    {
-      "at": "2026-11-18T02:53Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 31: live v0.1.1769. Five sites still blocked: the five repos are not in this account's Claude GitHub App installation (list_repos shows only Website, Fringe, Swarm, Swarm Runs). Observability reconciled with account A's 02:23 hand-over: site teams add obs.js lanes, observability@ on A drains; no observability.b@ here. observability@ (A) fixed tab counting, votes, per-place stats; security@ 30 commits clean, S52 (observability's first session back with its key and a schedule, not in guidance). The old conductor@ evened the site cards."
-    },
-    {
-      "at": "2026-11-18T03:51Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 32 (ledger): 19 sessions 365.15 USD API-equivalent since the restart (+28.81 in 3h); live v0.1.1771. Night, quiet. The old conductor@: observability's schedule stays on account A (Dinis), hourly drain re-enabled. Five site repos still not in this account's GitHub App installation."
-    },
-    {
-      "at": "2026-11-18T04:51Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 33, night: live v0.1.1774. dev@ builds language tags with a script or no region (zh-Hans was silently skipped); security@ 26 commits clean, S52 closed. Five site repos still not in this account's GitHub App installation."
-    },
-    {
-      "at": "2026-11-18T05:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 34, night, quiet: live v0.1.1777; only abp@ and the live data committed. Five site repos still not in this account's GitHub App installation."
-    },
-    {
-      "at": "2026-11-18T06:52Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 35 (ledger): 19 sessions 404.71 USD API-equivalent since the restart (+39.56 in 3h); live v0.1.1781. Quiet night: security@ 21 commits clean; dev.places@ number check for languages counting in ten thousands. Five site repos still not connected."
-    },
-    {
-      "at": "2026-11-18T07:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 36, morning: live v0.1.1783. Morning passes: east five sourced items, west the Portimao TMCT conference, central nothing new; journalist@ brought all three. translator@ ja-JP half. Vicky's curator@ S70 (update to S69 from the 2023 Sao Joao pilot report). Five site repos still not connected."
-    },
-    {
-      "at": "2026-11-18T08:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 37: live v0.1.1786. Quiet: security@ 28 commits clean; abp@ hourly; live data 07:19. One unsigned feedback message held. Five site repos still not connected."
-    },
-    {
-      "at": "2026-11-18T09:31Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "At Dinis's word in this session (09:2x, repos now connected): started data.b@, weather.b@, civic.b@, startups.b@, travel.b@ (Opus leads, Sonnet sub-agents) on their five repos, each with a wake every 3 h 07:00-22:00 Lisbon (:03/:13/:23/:43/:53). Each does the fixes first (key, commit check, masthead and sites rail, IPMA free, obs.js lane); data.b@ carries Dinis's Storm brief (2026-11-18-data-site-and-the-storm.md, relayed by the old conductor@ at 08:49). Observability for the sites drains on account A."
-    },
-    {
-      "at": "2026-11-18T09:53Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 38 (ledger): main 19 sessions 435.64 USD API-equivalent; five site leads 28.24 USD in their first runs. First runs: data.b@ Storm map (94 items, 20 moved), 140 Storm files at /api/v1/storm/charles/ with OpenAPI, three-layer source pages, 19 charts; weather.b@ 17 district capital pages, masthead, obs lane; startups.b@ v0.1.9, 497 facts, masthead, obs lane; civic.b@ and travel.b@ ran. All five: the auto-mode check refused keygen --session and the commit-check change: nothing signed, commits carry  (AgentiCCells) trailers. Decisions for Dinis listed in my update."
-    },
-    {
-      "at": "2026-11-18T10:51Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 39: live v0.1.1792. Site leads' second runs: data.b@ the Storm flight maps (Lisbon, Madeira) on /storm/; weather.b@ a warnings timeline by district; civic.b@ the Civic API with OpenAPI 3.1; startups.b@ open calls closing soonest; travel.b@ disruptions re-checked. Main site: west MotoGP at Portimao; Vicky's checker@ checked the old conductor@'s three pieces (ATM piece 6 findings, lowered to P1 by journalist@), and 9 earlier findings confirmed fixed. security@ S53 (high, for Dinis): account A's conductor@ printed the environment (env) and its signing private key into its transcript on 16 Nov; rotate the environment secrets and supersede conductor-promptugal."
-    },
-    {
-      "at": "2026-11-18T11:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 40: live v0.1.1795. east's midday scan (the Castro Marim dementia congress as the AI story), brought by journalist@; Vicky's curator@ S71. Sites: startups.b@ thin Algarve places research (26 facts, 18 gaps); travel.b@ What's on, 24 Algarve events from the councils' agendas. S53 and the site leads' keygen still wait on Dinis."
-    },
-    {
-      "at": "2026-11-18T12:52Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 41 (ledger): main 19 sessions 474.93 USD API-equivalent (+39.29 in 3h), five site leads 41.11 USD (+12.87); live v0.1.1797. West: Portimao MEO store, Monchique council items; journalist@ brought west and districts; correspondent@ its daily debrief; security@ 33 commits clean, S53 still open (five articles signed by the exposed key, to re-sign after rotation). Sites quiet since their 10:xx runs (next wakes 13:03-13:53 Lisbon = 13:03-13:53 UTC)."
-    },
-    {
-      "at": "2026-11-18T13:50Z",
-      "by": "conductor.b@PrompTugal.dinis",
-      "note": "hour 42: live v0.1.1798. Central: Faro AI4YouthWork launch and the Estadio Algarve technology centre (journalist@ re-read the tender figure); translator@ hi-IN. Sites, third runs: data.b@ three Storm charts on /storm/ (residents by hour, warned against observed, forecast); weather.b@ UV for the capitals; civic.b@ the councils' municipal companies and contracts; startups.b@ investors as a section; travel.b@ wakes at 13:53."
-    },
-    {
-      "at": "2026-11-18T14:55Z",
-      "line": "14:48 wake: main site v0.1.1804; place desks and datasci, dev.places, researcher active on their work branches; central quiet by plan (next 16:25); events.b@ started 14:32, events.promptugal.news live v0.1.3; keygen refused after Dinis's yes in data, weather, travel, startups (and weather's rebuild cron); sources register, gaps, licences and disclaimers shipped on the sites; inbox drain tool not in this container (team site clone missing), drained by send_message instead"
-    },
-    {
-      "at": "2026-11-18T15:55Z",
-      "line": "15:48 wake: main site v0.1.1810, gate green; 10 site leads live (data, weather, civic, startups, travel, events, signals, library, videos) plus telemetry.b@; keys for all site leads listed; obs lanes for data, civic, events, startups, travel, signals; security pages on 8 sites; ledger 1,017.87 USD API-equivalent (main 559.17, sites 210.89, conductor.b 247.81)"
-    },
-    {
-      "at": "2026-11-18T16:50Z",
-      "line": "16:48 wake: main site v0.1.1814; every desk and work branch active (designer.places on its 2-hourly cadence); site leads: civic live contracts per place, events data gate and 4 threat models, signals links the library, library graph aligned with the ontology and requests channel two-way, videos titles corrected, data per-place contracts and OpenAPI; telemetry.b@ refreshing costs hourly; nothing new blocked; open asks with Dinis unchanged"
-    },
-    {
-      "at": "2026-11-18T17:50Z",
-      "line": "17:48 wake: main site v0.1.1816; quieter hour on dev (2 releases), place desks and datasci/dev.places/researcher active on work branches, translator and districts on their slower cadences; no library requests for conductor.b@; videos.b@ published the YouTube key how-to; Dinis creating the Google key (separate project advised); cams/live site awaiting his choice"
-    },
-    {
-      "at": "2026-11-18T18:55Z",
-      "line": "18:48 wake: main site v0.1.1818 (dev@: Now in <town> live from data.promptugal.news); live.b@ started on PrompTugal__News__Live; weather's scheduled runs still not firing (pages now load live); ledger 2026-11-18T1851Z"
-    },
-    {
-      "at": "2026-11-18T19:50Z",
-      "line": "19:48 wake: main site v0.1.1820; desks and work branches active; library fact-checker first pass (97 articles; 71 claims in 2 articles rest only on websummit.com, sent to journalist@ for its 20:40 wake); live.b@ first version and coastline; events no open findings; signals provenance everywhere; weather's scheduled runs still not firing (Dinis to check Actions settings)"
-    },
-    {
-      "at": "2026-11-18T21:52Z",
-      "line": "21:48 wake: main site v0.1.1825; journalist@ did REQ-0007 (S7 claims) but not REQ-0008 (websummit-only claims), nudged for its 21:40 wake; cyber.b@ and bulletins.b@ first runs live (cyber empty until collectors land; seven bulletin pages, 0.017 USD); Vicky's reviewer@ and journalist-portugal@ active; site leads wake ~22:00"
-    },
-    {
-      "at": "2026-11-18T22:55Z",
-      "line": "22:48 wake: main site v0.1.1827, gate green; sites bar v1.0.0 and registry live on promptugal.news, install held for security@'s review of the built files; all 12 previews done; London under way (UK sources registering); writer-10 and cells.b waiting on Dinis; library corrected its websummit finding (withdrawn articles); debrief written"
-    },
-    {
-      "at": "2026-11-18T23:55Z",
-      "hold": false,
-      "commits_since_22_48": {
-        "conductor.b": 5,
-        "dev": 3,
-        "security": 2,
-        "datasci.places": 2,
-        "abp": 2,
-        "translator": 1,
-        "telemetry.b": 1,
-        "rights": 1,
-        "place.districts": 1,
-        "journalist": 1
-      },
-      "site": "v0.1.1830",
-      "notes": [
-        "security@ go on sites bar v1.0.0, but dev@ replaced it with v1.1.0 at 22:50; asked security@ to post-review v1.1.0; install note held",
-        "dev@ took IPMA off the place pages (4c0785e352): rights@ R1 in progress",
-        "gate green again (v0.1.1828-1830 deployed)"
-      ]
-    },
-    {
-      "at": "2026-11-19T00:55Z",
-      "hold": false,
-      "site": "v0.1.1834",
-      "commits_since_23_48": {
-        "dev": 4,
-        "conductor.b": 3,
-        "security": 2,
-        "rights": 2,
-        "ontologist": 2,
-        "journalist": 2,
-        "datasci.places": 2,
-        "designer": 1,
-        "outreach": 1,
-        "correspondent": 1,
-        "abp": 1,
-        "telemetry.b": 1,
-        "place.*": 3,
-        "designer.places": 1
-      },
-      "notes": [
-        "security@ go on sites bar v1.1.0 (90dfdd3baf), hashes checked; install note sent to the 12 site leads",
-        "Google key live (videos.b@); data.b@ serves YouTube replays, no chapters; rights@ R6 for YouTube's API terms",
-        "ledger 2026-11-19T0050Z: $1,575.97 API-equivalent; blocked buckets: translator, sherpa, data.b, bulletins.b, cells.b, writer-10 (most wait on Dinis)"
-      ]
-    },
-    {
-      "at": "2026-11-19T01:52Z",
-      "hold": false,
-      "site": "v0.1.1840",
-      "commits_since_00_48": {
-        "conductor.b": 15,
-        "rights": 7,
-        "dev": 6,
-        "designer": 4,
-        "security": 3,
-        "abp": 3,
-        "journalist": 2,
-        "datasci.places": 2,
-        "translator": 1,
-        "telemetry.b": 1
-      },
-      "freshness_01_48": {
-        "data": "v0.1.71 built 01:39",
-        "weather": "v0.1.39, data read 01:28",
-        "civic": "v0.1.40",
-        "startups": "v0.1.34",
-        "travel": "v0.1.47, data read 00:51",
-        "events": "v0.1.30, data read 01:34",
-        "signals": "v0.1.20",
-        "library": "v0.1.25",
-        "videos": "v0.1.19 built 00:12",
-        "live": "v0.1.24",
-        "cyber": "v0.1.23",
-        "bulletins": "v0.1.19",
-        "promptugal.news": "no /version.json at root (known open, dev@)"
-      },
-      "notes": [
-        "Dinis 01:05-01:22: signed commits for all, paid search with videos.b@, YouTube only on a free page, load data in the browser, every run from a commit (data.b@ hourly 24h), show the past, keep and check every prediction",
-        "security@ go: sites bar 1.1.1, five signing controls, leak-scan ruling, data in the browser (cyber)",
-        "sites bar 1.1.0 on 11 of 12 (videos to come); signed commits on data, signals, bulletins, library, cyber, newsroom (writer-10); timers off on data, startups, weather, signals, events",
-        "first what-was-said/what-happened live on library (WS26)"
-      ]
-    },
-    {
-      "at": "2026-11-19T02:50Z",
-      "hold": false,
-      "site": "v0.1.1842",
-      "gate": "green again after the maestro's folder broke it ~02:20 (fixed by maestro.b and dev@ b26954063b)",
-      "fresh_02_48": "all 12 sub-sites built 01:43-02:22",
-      "notes": [
-        "maestro.b (account-b) started 01:59 (first session failed at the setup script, fixed by Dinis); it started conductor.b@AgentiCCells.dinis at Dinis's word ~02:30",
-        "security@: CVE store go, nvd-kev go, NVD gap reader cleared to build",
-        "signing tests committed: data, bulletins, library, signals",
-        "writer-10's article on the free YouTube page live on newsroom.sgit.ai"
-      ]
-    },
-    {
-      "at": "2026-11-19T03:52Z",
-      "hold": false,
-      "site": "v0.1.1844",
-      "fresh_03_48": "all 12 sub-sites built 03:19-03:31",
-      "notes": [
-        "IP lookup gone from promptugal.news (752758272f) and all 12 sub-sites (9 removed, 3 never had it)",
-        "shared tz table published (assets/obs/tz-country.json); obs_tz not yet in sites.json, asked of dev@",
-        "PRED live on library; form sent to 11 leads",
-        "designer@ sites bar v1.2 spec (one switcher) with dev@",
-        "PR #35 merged (cells.b confirmed)"
-      ]
-    },
-    {
-      "at": "2026-11-19T04:51Z",
-      "hold": false,
-      "site": "v0.1.1846",
-      "notes": [
-        "quiet night hour; site leads wake from 07:00 Lisbon; data.b@ hourly (built 04:10)",
-        "dev@: the 5-site blocks removed, sites bar opens in the same tab (cd364f9f46); phone row SB10 to come",
-        "obs_tz live in the registry (143 zones); sent to the 8 sites with obs.js",
-        "maestro.b 04:18: quiet; abp@ needs Dinis's own line for the domain rule"
-      ]
-    },
-    {
-      "at": "2026-11-19T05:50Z",
-      "hold": false,
-      "site": "v0.1.1849",
-      "fresh_05_48": "11 sites built 04:51-05:18; videos 03:19 (no change since)",
-      "notes": [
-        "security@: one SRI ruling (registry compare preferred; narrow exact-pattern exemption), key rules (private headers always fail; public keys only in their field), degrade on version bumps",
-        "tz table 1.1.0 (487 zones) on data, startups, live, signals, civic, travel; weather on 1.0.0",
-        "ECDSA and sk- key forms: library, startups, data fixed; bulletins, cyber, signals, live already covered",
-        "dev@: per-version pins in the registry; Faro airport live on place pages"
-      ]
-    },
-    {
-      "at": "2026-11-19T06:54Z",
-      "hold": false,
-      "site": "v0.1.1849 (no release since 05:43)",
-      "alert": "deploy-pages validate job cancelled at its 5-minute timeout on every run since 05:43 (build+gate now just over 5 min); told dev@ to raise timeout-minutes and look at the gate's growth",
-      "fresh_06_48": "data built 06:16; other sub-sites 04:51-05:18 (quiet before their 07:00 Lisbon wakes)",
-      "notes": [
-        "sites bar v1.2.0 built by dev@ and checked by designer@ (phone row, desktop line); waits on release and security@'s review"
-      ]
-    },
-    {
-      "at": "2026-11-19T07:51Z",
-      "hold": false,
-      "site": "v0.1.1852 (releasing again since 07:12; validate timeout 12)",
-      "fresh_07_48": "all 12 sub-sites built 07:17-07:48",
-      "notes": [
-        "sites bar 1.2.0 on 10 sub-sites (events, videos to come); 1.2.1 (nav-proof CSS) awaits security@",
-        "registry reshape out: versions[v].integrity.<file> for bar and obs_tz",
-        "signed commits blocked on weather and civic (ssh-keygen refused in their sessions); key handover question open (signals, library)",
-        "PRED: civic 7,663 pairs; data +216"
-      ]
-    },
-    {
-      "at": "2026-11-19T08:50Z",
-      "hold": false,
-      "site": "v0.1.1859",
-      "fresh_08_48": "all 12 sub-sites built 07:54-08:09",
-      "notes": [
-        "sites bar 1.2.1 on 11 of 12 sub-sites (videos to come), security@ go 07:56",
-        "registry reshaped (versions[v].integrity.<file>)",
-        "signed commits blocked on weather, civic, startups (ssh-keygen refused); key handover question open (signals wants to hand over)",
-        "PRED: civic 7,663, startups 18, bulletins 3, data +216; travel's London rain chart (first what-we-said chart on a site)",
-        "videos: YouTube thumbnails with text credit; icon waits on Dinis"
-      ]
-    },
-    {
-      "at": "2026-11-19T09:50Z",
-      "hold": false,
-      "site": "v0.1.1865",
-      "notes": [
-        "quiet hour: sub-sites idle between their 3-hourly wakes (next 10:00 Lisbon); data hourly (09:12)",
-        "Vicky's desk active (journalist-portugal, reviewer)",
-        "nothing new from Dinis; asks unchanged"
-      ]
-    },
-    {
-      "at": "2026-11-19T10:50Z",
-      "hold": false,
-      "site": "v0.1.1870",
-      "fresh_10_48": "9 sub-sites built 10:10-10:47; travel 08:02, signals 07:54 (handed over), videos 07:55, bulletins 08:03",
-      "notes": [
-        "live: signed commits on (24 tests); residual risks need branch protection",
-        "events: tz 1.1.0, all 8 obs.js sites on the shared table",
-        "library: a page per prediction series; civic's first 9 forward predictions",
-        "cyber: new-CVE daily history on the pulse",
-        "signals idle after handing over, waiting on the key-handover choice"
-      ]
-    },
-    {
-      "at": "2026-11-19T11:52Z",
-      "hold": false,
-      "site": "v0.1.1876",
-      "fresh_11_48": "10 sub-sites built 10:17-11:11; signals 07:54 (handed over)",
-      "notes": [
-        "sites bar 1.2.1 on all 12 sub-sites (videos last, 10:58)",
-        "ontologist@: data/site/places-registry.json with London, the UK, ISO countries, for every site",
-        "bulletins: first outcomes (Faro held, London rain missed twice); held/missed rule waits on Dinis",
-        "library: requests channel fixed (case-sensitive filenames)",
-        "London forecast 6-hourly by design (Open-Meteo 429 on hourly); file now carries its own cadence",
-        "missed the 06:48 and 09:48 ledgers; catching up at 11:48"
-      ]
-    },
-    {
-      "at": "2026-11-19T12:50Z",
-      "hold": false,
-      "site": "v0.1.1882",
-      "notes": [
-        "quiet hour: sub-sites between their 3-hourly wakes (next 13:00 Lisbon); data hourly (12:24)",
-        "place desks and security, abp, telemetry active",
-        "asks for Dinis unchanged"
-      ]
-    },
-    {
-      "at": "2026-11-19T13:50Z",
-      "hold": false,
-      "notes": [
-        "signed commits on events (8 sites with signing incl. newsroom); civic, weather, startups blocked on ssh-keygen; travel, videos to come",
-        "cyber: ENISA EUVD view taken down (rights@ R10: legal notice must be read by a person)",
-        "live: licence beside every loaded figure",
-        "startups pointed to data/site/places-registry.json (London)",
-        "library hand-over written; signals idle; both wait on the key-handover choice"
-      ]
-    },
-    {
-      "at": "2026-11-19T14:50Z",
-      "live": "v0.1.1896",
-      "hold": false,
-      "sites": {
-        "data": "v0.1.110",
-        "startups": "v0.1.65",
-        "civic": "v0.1.72",
-        "weather": "v0.1.53",
-        "travel": "v0.1.70",
-        "events": "v0.1.59",
-        "signals": "v0.1.42",
-        "library": "v0.1.56",
-        "videos": "v0.1.33",
-        "live": "v0.1.46",
-        "cyber": "v0.1.58",
-        "bulletins": "v0.1.46"
-      },
-      "notes": [
-        "signing controls 1 to 9 on ten sites through six security@ rulings, anchor = latest successful push run on dev",
-        "waits on Dinis: branch protection, tag ruleset, dev-only github-pages environment; Factory PR #36",
-        "asked dev@, writer-10, telemetry.b@ to confirm"
-      ]
-    },
-    {
-      "at": "2026-11-19T15:52Z",
-      "live": "v0.1.1901",
-      "hold": false,
-      "sites": {
-        "data": "v0.1.111",
-        "startups": "v0.1.65",
-        "civic": "v0.1.72",
-        "weather": "v0.1.53",
-        "travel": "v0.1.70",
-        "events": "v0.1.59",
-        "signals": "v0.1.42",
-        "library": "v0.1.56",
-        "videos": "v0.1.33",
-        "live": "v0.1.46",
-        "cyber": "v0.1.58",
-        "bulletins": "v0.1.46"
-      },
-      "notes": [
-        "S72: promptugal.news's signing check not wired; CI key is Dinis's",
-        "site sites unchanged since 14:50 except data"
-      ]
-    },
-    {
-      "at": "2026-11-19T20:52Z",
-      "live": "v0.1.1928",
-      "hold": false,
-      "sites": {
-        "data": "v0.1.127",
-        "startups": "v0.1.78",
-        "civic": "v0.1.89",
-        "weather": "v0.1.65",
-        "travel": "v0.1.72",
-        "events": "v0.1.69",
-        "signals": "v0.1.49",
-        "library": "v0.1.66",
-        "videos": "v0.1.37",
-        "live": "v0.1.65",
-        "cyber": "v0.1.71",
-        "bulletins": "v0.1.59"
-      },
-      "notes": [
-        "control 10 on 11 sites",
-        "ptmap 1.0.2 passed; on at weather, startups, events",
-        "17 agents enrolled for signing"
-      ]
-    },
-    {
-      "at": "2026-11-20T09:52Z",
-      "live": "v0.1.1946",
-      "hold": false,
-      "sites": {
-        "data": "v0.1.130",
-        "startups": "v0.1.80",
-        "civic": "v0.1.90",
-        "weather": "v0.1.67",
-        "travel": "v0.1.74",
-        "events": "v0.1.70",
-        "signals": "v0.1.50",
-        "library": "v0.1.68",
-        "videos": "v0.1.38",
-        "live": "v0.1.72",
-        "cyber": "v0.1.72",
-        "bulletins": "v0.1.60"
-      },
-      "notes": [
-        "ptmap on at 9 sites",
-        "relays batched into wakes"
-      ]
-    },
-    {
-      "at": "2026-11-20T20:54Z",
-      "live": "v0.1.1966",
-      "hold": false,
-      "sites": {
-        "data": "v0.1.132",
-        "startups": "v0.1.83",
-        "civic": "v0.1.91",
-        "weather": "v0.1.69",
-        "travel": "v0.1.74",
-        "events": "v0.1.71",
-        "signals": "v0.1.51",
-        "library": "v0.1.69",
-        "videos": "v0.1.39",
-        "live": "v0.1.77",
-        "cyber": "v0.1.74",
-        "bulletins": "v0.1.65"
-      },
-      "notes": [
-        "ledger +432 USD in 24 h",
-        "ptmap on at 10 sites"
-      ]
-    }
-  ]
+ "about": "conductor.b@'s watch lines (the conductors' rota, board/the-conductors.md), kept in its own grant because board/conductor-watch.json is outside it (ABP R6, breach in run 2026-11-09T15-49-35Z). The main conductor may copy them across; abp@ is asked to add board/conductor-watch.json to conductor.b@'s grant.",
+ "lines": [
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-09T23:59Z",
+   "SGit-AI__Website__Web-Summit": "8232c109",
+   "PrompTugal__News__Website": "1ecd1178",
+   "PrompTugal__App__Android": "9bfd28b0",
+   "PrompTugal__App__iOS": "87211d14",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "THE BIG STOP applied on account B: twelve wakes paused 23:49:31-35, conductor.b@ every 2 h; the iOS conductor's :00 wake is not visible to me, its session told at 23:50. Stop report board/team/conductor.b/stop-report-2026-11-09.md."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T00:52Z",
+   "SGit-AI__Website__Web-Summit": "d88895ee",
+   "PrompTugal__News__Website": "ed7bd6e1",
+   "PrompTugal__App__Android": "9bfd28b0",
+   "PrompTugal__App__iOS": "3dcc0b13",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "THE BIG STOP holds on account B: only conductor.b@'s wake is enabled; no account-B agent committed since 23:49. The iOS conductor's :00 wake paused at 00:03 (its own report). Still active on dev: writer@PrompTugal.angelo (Angelo's agent, not on account B) and gamma-ray@web-summit.dinis (the stop's one exception). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T02:52Z",
+   "SGit-AI__Website__Web-Summit": "900eea80",
+   "PrompTugal__News__Website": "c1209558",
+   "PrompTugal__App__Android": "9bfd28b0",
+   "PrompTugal__App__iOS": "3dcc0b13",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "THE BIG STOP holds on account B: only conductor.b@'s wake enabled; every account-B session idle. journalist@PrompTugal.dinis committed at 02:33 (a vault video experiment) but NOT from account B's journalist session (idle since 22:34): another session runs under that name, outside account B (any person may override the stop; Dinis to confirm who). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T04:55Z",
+   "SGit-AI__Website__Web-Summit": "843af9c7",
+   "PrompTugal__News__Website": "d5aede6d",
+   "PrompTugal__App__Android": "521dd2cb",
+   "PrompTugal__App__iOS": "b7d17d14",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "THE RESTART (Dinis 02:40, relayed 03:58, For: conductor.b@) read at 04:49. Account B: designer, ontologist, dev.graphs, dev.data, correspondent, sherpa, librarian back on at 04:51; dev@ and dev.pages@ still paused (re-enabling refused by this session's safety check, waiting for Dinis); journalist@, dev.verify@, dev.portugal@ kept paused. conductor.b@ back to hourly at :48."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T05:52Z",
+   "SGit-AI__Website__Web-Summit": "10ed6822",
+   "PrompTugal__News__Website": "6ffa8458",
+   "PrompTugal__App__Android": "29a6389e",
+   "PrompTugal__App__iOS": "bd4eab05",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B after the restart: the seven are on; their first wakes fall 06:17 to 06:56 (none due yet). dev@ and dev.pages@ wait for Dinis's word in this session. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T06:56Z",
+   "SGit-AI__Website__Web-Summit": "335f7f28",
+   "PrompTugal__News__Website": "56e1edc5",
+   "PrompTugal__App__Android": "d65e6de4",
+   "PrompTugal__App__iOS": "787e2fe9",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "All seven restarted agents woke and committed (06:17 to 06:44: designer's design flip round 1, ontologist's GAMMA-Ray card link, correspondent's agentic front page, sherpa, dev.graphs, dev.data). Read 'Go and confirmed' (Dinis 05:45, dev@ and dev.pages@ back on): re-enabling them refused AGAIN by this session's safety check (06:52, 'Auto-Mode Bypass'): it needs Dinis in this session or a permission rule. Ledger 1018.21 (+55.15 since 21:52, across the stop)."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T07:52Z",
+   "SGit-AI__Website__Web-Summit": "e5855da3",
+   "PrompTugal__News__Website": "03d91b33",
+   "PrompTugal__App__Android": "81b0ee0c",
+   "PrompTugal__App__iOS": "6312b5e8",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "All seven restarted agents have now run (librarian 06:57 the last); the 2 h ones are between wakes. dev@ and dev.pages@ still off: they need Dinis's word in this session (the safety check). Inbox: 1 held."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T08:52Z",
+   "SGit-AI__Website__Web-Summit": "b4a29b78",
+   "PrompTugal__News__Website": "7e84182d",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "6312b5e8",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: designer (design flip round 2), ontologist (products in the graph), correspondent (Wednesday's agentic edition), dev.graphs, dev.data (second interview's folder) ran since 07:52. dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T09:52Z",
+   "SGit-AI__Website__Web-Summit": "d1eef4a2",
+   "PrompTugal__News__Website": "ae7960d5",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "6312b5e8",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Read Dinis's 'go: restart dev@ and dev.pages@' (08:45, relayed 09:00): not retried, since the safety check refused the same relayed word at 04:51 and 06:52; it needs Dinis in conductor.b@'s own session. Seven agents running; ledger 1041.91 (+23.7 in three hours)."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T10:57Z",
+   "SGit-AI__Website__Web-Summit": "a2fd23aa",
+   "PrompTugal__News__Website": "eb8c1382",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "6312b5e8",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: designer decided the design flip (B, round 3); ontologist 24 products; correspondent, librarian, dev.data ran; dev.graphs had nothing assigned (nothing for it without dev@ building). dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T11:52Z",
+   "SGit-AI__Website__Web-Summit": "99afc3dd",
+   "PrompTugal__News__Website": "e85a1ea0",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "a483a020",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Quiet hour on account B (the 2 h and 3 h agents between wakes). dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T12:56Z",
+   "SGit-AI__Website__Web-Summit": "c36c4967",
+   "PrompTugal__News__Website": "aa8aca96",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "450656b1",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Read Dinis's 12:40 brief (pt.news is about agents; the visual newsroom): nudged dev.graphs@ to lead the visual newsroom on its branch; dev@ and dev.pages@ still off (Dinis's word needed in this session). Rota: conductor.B@PrompTugal.vicky also took :48 (12:37), the same minute as conductor.b@; main conductor to re-slot one of us (the names differ only by owner, easy to confuse). Ledger 1080.11 (+38.2 in three hours)."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T13:54Z",
+   "SGit-AI__Website__Web-Summit": "2a6d2b1a",
+   "PrompTugal__News__Website": "04e3adb9",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "421d0090",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev.graphs@ started the visual newsroom (round 1, a workflow graph per piece, on work/dev.graphs, 12:56); librarian@ gave each published piece's flow from the record (13:02). It waits on dev@ to reach the site: dev@ and dev.pages@ still off (Dinis's word needed here). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T14:53Z",
+   "SGit-AI__Website__Web-Summit": "28c91c35",
+   "PrompTugal__News__Website": "9a6f3cd2",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "421d0090",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: designer round 4 of the redesign (interviews, summit now, scores); ontologist keyed products to GAMMA-Ray's cards; correspondent led with Wednesday's red wind warning. dev@ and dev.pages@ still off: Dinis's word needed in this session. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T15:52Z",
+   "SGit-AI__Website__Web-Summit": "3c07ce24",
+   "PrompTugal__News__Website": "30621d55",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "42f785b0",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: sherpa read redesign round 4 on a phone. The Front Page (design E) became the home default at Dinis's direct word (conductor@PrompTugal.dinis, 15:42). dev@ and dev.pages@ still off: Dinis's word needed in this session. Ledger 1108.46 (+28.35 in three hours). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T16:52Z",
+   "SGit-AI__Website__Web-Summit": "420db680",
+   "PrompTugal__News__Website": "1caaf8e2",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "0aad83fd",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: designer specified The Front Page (E) as the whole site's theme (T1 to T8); ontologist added related companies; correspondent and librarian ran. The theme needs dev@ to build it: dev@ and dev.pages@ still off (Dinis's word needed in this session). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T17:53Z",
+   "SGit-AI__Website__Web-Summit": "c929e800",
+   "PrompTugal__News__Website": "ab15dbdb",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "74883a0b",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Quiet hour for account B's agents (between wakes). Read Dinis's 17:11 baseline (every team: a conductor, a security agent, a developer): account B has conductor.b@ only; dev@ waits for Dinis in this session; security@ runs on account A. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T18:52Z",
+   "SGit-AI__Website__Web-Summit": "58ab6770",
+   "PrompTugal__News__Website": "27bda568",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "74883a0b",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: designer checked D6 and E's theme live; sherpa read the home page in E on a phone (v0.1.1054); ontologist linked AISLE and GetVocal AI to GAMMA-Ray cards; correspondent kept the storm lead. dev@ and dev.pages@ on since 18:35 (first wakes 19:08, 19:11). Note: conductor.B@PrompTugal.vicky asked account B's dev.graphs@ and designer@ for a storm-page preview (18:13), then stood them down (18:20); cross-team asks to B's agents should come through conductor.b@. Ledger 1156.59 (+48.13 in three hours)."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T19:52Z",
+   "SGit-AI__Website__Web-Summit": "14017559",
+   "PrompTugal__News__Website": "b23e8461",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "74883a0b",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "dev@ back and working (19:08 wake): The Front Page's masthead on every page (designer's T1 to T7) and the work of dev.pages@, dev.graphs@ and dev.data@ brought onto dev; dev.pages@ ran (19:11: past-day slips, the theme's section heads). Account B: nine agents running, nothing blocked but dev.verify@'s credit. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T20:52Z",
+   "SGit-AI__Website__Web-Summit": "8250dae3",
+   "PrompTugal__News__Website": "3e169093",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "74883a0b",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ shipped the GAMMA-Ray cards (/agentic/, the home page strip, each rated company's card) and brought dev.pages@'s work on; designer checked E's masthead live (T1 to T8 pass); ontologist checked the cards against our ids; correspondent: Day 2 cancelled, the front page follows. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T21:52Z",
+   "SGit-AI__Website__Web-Summit": "bd6f2013",
+   "PrompTugal__News__Website": "9d13f95d",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "74883a0b",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ marked Wednesday as not taking place on the site, /agentic/ A to Z, three workers' branches brought on; sherpa read Day 2 called off as an attendee would. security@ 21:05: 23 commits clean. Ledger 1194.58 (+37.99 in three hours, nine agents). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T22:55Z",
+   "SGit-AI__Website__Web-Summit": "104304a6",
+   "PrompTugal__News__Website": "2f5b8b04",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "daa6ed4a",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ put Wednesday 'called off' first and struck it in the days strip; designer re-checked /agentic/ and the Spectrum block (pass); ontologist linked Manus AI; correspondent: refunds for the cancelled day lead. Inbox empty. The 10 November debrief written."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-10T23:52Z",
+   "SGit-AI__Website__Web-Summit": "7d4e1cb0",
+   "PrompTugal__News__Website": "dddc1a8d",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "4fc8285b",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ (23:08) let an article's tag reach a company by name or alias (ontologist's ask) and brought three workers' branches on; the 2 h and 3 h agents between wakes. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T00:52Z",
+   "SGit-AI__Website__Web-Summit": "c4b4c41e",
+   "PrompTugal__News__Website": "636bf179",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "3ce861bf",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ reviewed and kept seven outside commits; ontologist confirmed dev@'s tag matching; designer drew images for two articles from their own tables; sherpa re-checked Day 2; correspondent aligned beat names to categories. Ledger 1246.36 (+51.78 in three hours). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T01:52Z",
+   "SGit-AI__Website__Web-Summit": "c5a400f7",
+   "PrompTugal__News__Website": "72e749b6",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "3ce861bf",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ (01:08) made the app skip the called-off day and show the notice first (sherpa's ask), brought three workers' branches on; librarian ran. Nothing new from Dinis for B."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T02:52Z",
+   "SGit-AI__Website__Web-Summit": "25eeafb9",
+   "PrompTugal__News__Website": "cfa4548c",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "3ce861bf",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ put products in the graph and on company pages (ontologist's ask), ontologist confirmed them live; designer asked for a product mark in the graph; correspondent placed Zalando's AI coding agents. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T03:52Z",
+   "SGit-AI__Website__Web-Summit": "eb66c844",
+   "PrompTugal__News__Website": "bde8df5d",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "3ce861bf",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ made a product's evidence its cited page and drew products as diamonds (designer's ask), three branches on; sherpa closed its called-off-day findings. Ledger 1282.44 (+36.08 in three hours). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T04:52Z",
+   "SGit-AI__Website__Web-Summit": "285c0561",
+   "PrompTugal__News__Website": "b14a4629",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "3ce861bf",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ put the site's menus in 21 cultures (the app's globe, saved choice); designer re-checked the product diamonds (pass); ontologist: nothing open but Dinis's asks; correspondent and librarian ran. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T05:52Z",
+   "SGit-AI__Website__Web-Summit": "9896c5c3",
+   "PrompTugal__News__Website": "e76a84fd",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "3ce861bf",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ put the live bar in 21 cultures, wrote its 11 Nov debrief, brought three branches on; the others between wakes. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T06:53Z",
+   "SGit-AI__Website__Web-Summit": "40f041b8",
+   "PrompTugal__News__Website": "ada9ad82",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "3ce861bf",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ put the footer in 21 cultures and linked the app to the beta sign-up; designer gave four polish notes on /storm/charles/ for Vicky's dev@; sherpa read the storm page and /agentic/ on a phone; ontologist: nothing new (two rated companies outside our map); correspondent placed the EU's election rules for generative AI. Ledger 1334.34 (+51.9 in three hours). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T07:52Z",
+   "SGit-AI__Website__Web-Summit": "d55c5a79",
+   "PrompTugal__News__Website": "a990b081",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "3ce861bf",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ finished translating the site's own words into 21 cultures (the reading credit last), three branches on; librarian green. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T08:52Z",
+   "SGit-AI__Website__Web-Summit": "e8eafd3f",
+   "PrompTugal__News__Website": "b2479718",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "3ce861bf",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: a lean hour (dev@ lean wake, one branch on; designer and ontologist wrote their 11 Nov debriefs; correspondent placed Thursday's breakout startups). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T09:57Z",
+   "SGit-AI__Website__Web-Summit": "d4383449",
+   "PrompTugal__News__Website": "d83f7435",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "3ce861bf",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ fixed the stale home page (the offline worker answers from its newest copy; Vicky's request via her conductor, live), three branches on; sherpa dated the storm page to the latest IPMA read. Ledger 1366.21 (+31.87 in three hours). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T10:52Z",
+   "SGit-AI__Website__Web-Summit": "616de3e7",
+   "PrompTugal__News__Website": "0ced7148",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "0d2182bc",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Read Dinis's 10:22 guidance (pt.news follows the storm, links the storm site as a main source): already in hand on account B (designer's live-sources strip with the storm site at the top of the home page; correspondent recorded the live sources). dev@ made a page from a kept copy say so and offer the newer one. ontologist: nothing new again (third time). Inbox: 2 held (unregistered signer)."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T11:52Z",
+   "SGit-AI__Website__Web-Summit": "6c36d73e",
+   "PrompTugal__News__Website": "b42b121d",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "0d2182bc",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ shipped the live-sources strip (the storm site and Lisbon Fringe at the top of the home page), two branches on. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T12:53Z",
+   "SGit-AI__Website__Web-Summit": "39330503",
+   "PrompTugal__News__Website": "d81a2cd1",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "afe48428",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ got security@'s pass on the offline fix; designer checked the live-sources strip (pass); correspondent: Thursday back on, the plan follows; sherpa and ontologist ran. Noted: weather@PrompTugal.vicky found websummit.com's terms forbid machine reads (12:46): account B's agents that read it (correspondent, dev's schedule build) may need the same check; put to Dinis. Ledger 1421.47 (+55.26 in three hours). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T13:52Z",
+   "SGit-AI__Website__Web-Summit": "daf40389",
+   "PrompTugal__News__Website": "e2762aec",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "a5d19915",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ lean wake, three branches on; librarian sent the life map's flags to the conductors. Vicky's desks adopted 'no machine reads of websummit.com' (13:23 to 13:46); account B's own answer still waits on Dinis. Inbox: 1 held."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T14:52Z",
+   "SGit-AI__Website__Web-Summit": "1816cf1b",
+   "PrompTugal__News__Website": "ce4544c1",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "a5d19915",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: a quiet hour (dev@ lean; designer and ontologist nothing new; correspondent's Thursday edition waits). librarian's life map flags nothing on conductor.b@ (its note 'works on work/conductor.b' is wrong: conductor.b@ releases to dev itself). Vicky's desks hold 'no machine reads of websummit.com' on Vicky's word until Dinis decides; account B's answer still with Dinis. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T15:52Z",
+   "SGit-AI__Website__Web-Summit": "6b0d3351",
+   "PrompTugal__News__Website": "8882699c",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "eb113986",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "security@ 15:05: 134 commits clean, no websummit.com reader left in the code (account B's agents included); S39 (data read before the terms were known) for Dinis. Account B: dev@ lean, three branches on; sherpa confirmed Thursday in the lead. Ledger 1453.63 (+32.16 in three hours, the slowest yet). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T16:52Z",
+   "SGit-AI__Website__Web-Summit": "713aa7d9",
+   "PrompTugal__News__Website": "14a2a51d",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "eb113986",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: correspondent: the storm easing, Thursday's front-page swap set for 18:41; ontologist linked Emergence AI; librarian fixed the life map's dotted workers; dev@ lean, one branch on; designer quiet. Inbox: 1 held."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T17:52Z",
+   "SGit-AI__Website__Web-Summit": "7c754281",
+   "PrompTugal__News__Website": "771bd633",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "eb113986",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "The Fringe link fixed: correspondent@ (17:24) and dev@ (17:26) point it at lisbontechfringe.com, three minutes after conductor.fringe@'s note; the old host's redirect stays with Dinis or an org admin. dev@'s 17:08 wake brought three branches on. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T18:59Z",
+   "SGit-AI__Website__Web-Summit": "1c22cb11",
+   "PrompTugal__News__Website": "4064adb4",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "d5eae8b1",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: correspondent put Thursday's edition in (S41 keeps the lead); designer's live-sources spec follows the Fringe's new name; sherpa and dev@ ran; ontologist nothing new again. Ledger 1508.1 (+54.47 in three hours). Inbox: 1 held."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T19:52Z",
+   "SGit-AI__Website__Web-Summit": "30b42c5a",
+   "PrompTugal__News__Website": "7373a379",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "c907c8bc",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: dev@ linked the storm page from the live-sources strip, re-pulled GAMMA-Ray, three branches on; librarian refreshed its 11 Nov debrief. Vicky's conductor handed her agents to her team account (twin wakes disabled). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T20:52Z",
+   "SGit-AI__Website__Web-Summit": "79c12c95",
+   "PrompTugal__News__Website": "35ff94f5",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "c907c8bc",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Account B: correspondent moved the lead to Thursday (the storm to the top three); designer, ontologist quiet; dev@ lean. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T21:55Z",
+   "SGit-AI__Website__Web-Summit": "efb86993",
+   "PrompTugal__News__Website": "cedd474b",
+   "PrompTugal__App__Android": "653320a6",
+   "PrompTugal__App__iOS": "c529d49d",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "Read Dinis's ruling (~18:50, recorded 21:23): what rests only on websummit.com comes off with a note; shadow sources bring it back; the pass names seven account-B agents. Pointed ontologist@ (step 2, the inventory) and dev@ (step 3) at it; the others read it from the guidance at their wakes. sherpa: Thursday leads. Ledger 1546.68 (+38.58 in three hours). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T22:58Z",
+   "SGit-AI__Website__Web-Summit": "5030ec28",
+   "PrompTugal__News__Website": "33e350aa",
+   "PrompTugal__App__Android": "683f9f7d",
+   "PrompTugal__App__iOS": "bf76d293",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "The websummit-only pass on account B: ontologist's inventory done (21:55, facts_left per company 22:22); dev@'s groundwork in the gate with the switch off (22:12); designer's note and recovery page designed (22:37); all wait on security@'s pre-review before anything comes off. correspondent: S58 leads Thursday. Inbox empty. The 11 Nov debrief written."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-11T23:52Z",
+   "SGit-AI__Website__Web-Summit": "b3e1d6fd",
+   "PrompTugal__News__Website": "f211bbb5",
+   "PrompTugal__App__Android": "5badadaa",
+   "PrompTugal__App__iOS": "bf76d293",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "The websummit-only pass on account B: dev@ built the filter behind its switch (still off, 23:20/23:40), three branches on; all of account B's steps now wait on security@'s pre-review and the switch. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-12T00:53Z",
+   "SGit-AI__Website__Web-Summit": "cb66b3d6",
+   "PrompTugal__News__Website": "471c0ba1",
+   "PrompTugal__App__Android": "b35f185d",
+   "PrompTugal__App__iOS": "bf76d293",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "The websummit-only pass: security@'s pre-review a go (00:07, conditions); dev@ met its side, switch off; designer revised the note after sherpa's cold read; ontologist added shadow sources for core entities. The switch waits on ontologist's re-try, journalist@'s twins and dev.graphs@'s cloud-centres.json: dev.graphs@ messaged (next wake 02:17). correspondent drafted Friday's edition. Ledger 1602.9 (+56.22 in three hours, the pass's busiest). Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-12T01:52Z",
+   "SGit-AI__Website__Web-Summit": "7cee3ddc",
+   "PrompTugal__News__Website": "2d0a09b0",
+   "PrompTugal__App__Android": "2cd4cd75",
+   "PrompTugal__App__iOS": "bf76d293",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "The websummit-only pass, 01:30: dev@ 'nearly ready', brought dev.pages@'s note and recovery page, dev.graphs@'s cloud-centres fix and dev.data@'s story inventory; evidence captures sourced on websummit.com come off by the host rule; switch still off. Inbox empty."
+  },
+  {
+   "conductor": "conductor.b@PrompTugal.dinis",
+   "at": "2026-11-12T02:52Z",
+   "SGit-AI__Website__Web-Summit": "af4a941d",
+   "PrompTugal__News__Website": "ef4fa83e",
+   "PrompTugal__App__Android": "2cd4cd75",
+   "PrompTugal__App__iOS": "bf76d293",
+   "PrompTugal__App__Mobile": "7f59d911",
+   "note": "The websummit-only pass: the switch still waits on four items (journalist@'s three signed twins, outside account B, and company:pitchbook for ontologist@, who added evidence captures to the inventory at 02:33). dev@ held dev.pages@'s latest for merge conflicts (dev.pages@ rebases at its hourly wake). correspondent: S58 leads the final day. Inbox empty."
+  },
+  {
+   "at": "2026-11-12T03:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "heads": {
+    "SGit-AI__Website__Web-Summit": "609af92a",
+    "PrompTugal__News__Website": "a0f6fb4b",
+    "PrompTugal__App__Android": "2cd4cd75",
+    "PrompTugal__App__iOS": "bf76d293",
+    "PrompTugal__App__Mobile": "7f59d911"
+   },
+   "note": "ledger wake: B total 1635.37 (+32.47 in 3h); dev@ brought dev.data/dev.graphs/dev.pages 03:10-03:12; switch waits on journalist@'s 3 twins (outside B) and company:pitchbook; inbox empty"
+  },
+  {
+   "at": "2026-11-12T04:52Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "heads": {
+    "SGit-AI__Website__Web-Summit": "0e2425bc",
+    "PrompTugal__News__Website": "663d9fc8",
+    "PrompTugal__App__Android": "2cd4cd75",
+    "PrompTugal__App__iOS": "bf76d293",
+    "PrompTugal__App__Mobile": "7f59d911"
+   },
+   "note": "the websummit-only switch is on (dev@ 04:13); ontologist@ kept PitchBook from a Morningstar SEC exhibit (04:23); designer@ checked it live, three gaps (04:36); dev.data@ split S9 (work branch 04:34); all nine B agents active; inbox empty"
+  },
+  {
+   "at": "2026-11-12T05:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "heads": {
+    "SGit-AI__Website__Web-Summit": "490bc9b7",
+    "PrompTugal__News__Website": "cd7c7a3f",
+    "PrompTugal__App__Android": "2cd4cd75",
+    "PrompTugal__App__iOS": "bf76d293",
+    "PrompTugal__App__Mobile": "7f59d911"
+   },
+   "note": "quiet hour: dev@ brought dev.data/dev.graphs/dev.pages 05:10-05:11; dev.pages@ on the recovery page showcase (work branch 05:13); nothing from the other conductors or Dinis; inbox empty"
+  },
+  {
+   "at": "2026-11-12T06:51Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "heads": {
+    "SGit-AI__Website__Web-Summit": "f0afca6f",
+    "PrompTugal__News__Website": "a11d9efd",
+    "PrompTugal__App__Android": "2cd4cd75",
+    "PrompTugal__App__iOS": "bf76d293",
+    "PrompTugal__App__Mobile": "7f59d911"
+   },
+   "note": "ledger wake: B total 1676.73 (+41.36 in 3h); the websummit-only takedown live and post-reviewed by security@ (conductor@ 06:39); ontologist@ brought 31 companies back from their own home pages; inbox empty"
+  },
+  {
+   "at": "2026-11-12T07:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "heads": {
+    "SGit-AI__Website__Web-Summit": "87282d3e",
+    "PrompTugal__News__Website": "3c9ac7ca",
+    "PrompTugal__App__Android": "2cd4cd75",
+    "PrompTugal__App__iOS": "bf76d293",
+    "PrompTugal__App__Mobile": "7f59d911"
+   },
+   "note": "quiet hour: dev@ brought the three workers 07:11-07:13 and split company fields by source; librarian@ recorded the takedown; nothing from the other conductors or Dinis; inbox empty"
+  },
+  {
+   "at": "2026-11-12T08:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "heads": {
+    "SGit-AI__Website__Web-Summit": "433ad5f9",
+    "PrompTugal__News__Website": "5ab23318",
+    "PrompTugal__App__Android": "2cd4cd75",
+    "PrompTugal__App__iOS": "bf76d293",
+    "PrompTugal__App__Mobile": "7f59d911"
+   },
+   "note": "correspondent@ cleared the takedown's day picks, Discord's Lisbon hub to the top three; designer@ NE3-NE5 pass live; ontologist@ handed the last 5 companies to researcher@ (not running on B: noted to Dinis); inbox empty"
+  },
+  {
+   "at": "2026-11-12T09:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "heads": {
+    "SGit-AI__Website__Web-Summit": "f324d90c",
+    "PrompTugal__News__Website": "5352f660",
+    "PrompTugal__App__Android": "2cd4cd75",
+    "PrompTugal__App__iOS": "bf76d293",
+    "PrompTugal__App__Mobile": "7f59d911"
+   },
+   "note": "ledger wake: B total 1705.21 (+28.48 in 3h); the takedown holds and its follow-ups shipped (conductor@ 09:40); sherpa@ NE4/NE5 done; dev@ brought the three workers; inbox empty"
+  },
+  {
+   "at": "2026-11-12T10:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "heads": {
+    "SGit-AI__Website__Web-Summit": "4324b300",
+    "PrompTugal__News__Website": "4fc70be4",
+    "PrompTugal__App__Android": "2cd4cd75",
+    "PrompTugal__App__iOS": "bf76d293",
+    "PrompTugal__App__Mobile": "7f59d911"
+   },
+   "note": "lean hour: dev@, dev.pages@, dev.graphs@, ontologist@ report nothing new; correspondent@ and designer@ wrote their 12 Nov debriefs; librarian@ green; inbox empty"
+  },
+  {
+   "at": "2026-11-12T11:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "heads": {
+    "SGit-AI__Website__Web-Summit": "8be39526",
+    "PrompTugal__News__Website": "fd0e8b18",
+    "PrompTugal__App__Android": "2cd4cd75",
+    "PrompTugal__App__iOS": "bf76d293",
+    "PrompTugal__App__Mobile": "7f59d911"
+   },
+   "note": "quiet hour: dev@ brought the three workers and fixed 11 Nov reading as called off (the build keeps its own record); dev.pages@ wrote its 12 Nov debrief; nothing from the other conductors or Dinis; inbox empty"
+  },
+  {
+   "at": "2026-11-12T12:51Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "heads": {
+    "SGit-AI__Website__Web-Summit": "101a237b",
+    "PrompTugal__News__Website": "b217fa4a",
+    "PrompTugal__App__Android": "2cd4cd75",
+    "PrompTugal__App__iOS": "bf76d293",
+    "PrompTugal__App__Mobile": "7f59d911"
+   },
+   "note": "ledger wake: B total 1745.48 (+40.27 in 3h); dev@, dev.pages@, dev.graphs@, ontologist@ lean again; correspondent@ PagerDuty to the top three; sherpa@ G1 scrolls sideways, X1 open; conductor.android@ Android unchanged; inbox empty"
+  },
+  {
+   "at": "2026-11-12T13:51Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "heads": {
+    "SGit-AI__Website__Web-Summit": "920748f6",
+    "PrompTugal__News__Website": "7b3a66dd",
+    "PrompTugal__App__Android": "2cd4cd75",
+    "PrompTugal__App__iOS": "bf76d293",
+    "PrompTugal__App__Mobile": "7f59d911"
+   },
+   "note": "correspondent@ carried Lisbon Tech Fringe's line for tonight, without a number (13:26), after my relay; dev@ lean, brought the three workers; librarian@ asked the conductors whether the three Fringe conductors work in another repository; inbox: 2 messages held unread (signed by a key not on the keys page)"
+  },
+  {
+   "at": "2026-11-12T14:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "heads": {
+    "SGit-AI__Website__Web-Summit": "b0fc64cd",
+    "PrompTugal__News__Website": "fcb92667",
+    "PrompTugal__App__Android": "2cd4cd75",
+    "PrompTugal__App__iOS": "bf76d293",
+    "PrompTugal__App__Mobile": "7f59d911"
+   },
+   "note": "dev@ gave the live sources strip a timed line: the Fringe's last evening until 23:59 UTC; designer@ re-checked, passes; correspondent@ moved the Fringe line into the strip; ontologist@, dev.pages@, dev.graphs@ idle; inbox empty"
+  },
+  {
+   "at": "2026-11-16T19:52Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "first wake of the restart: all 18 ran their first run (keys, statuses); journalist@ published JW1 and the /values/ draft; dev@ made release.sh a queue; ontologist@ shipped the media kind; outreach@ the draft format; correspondent@ reset the front page to the places edition; datasci.places@ IPMA live for 18 places (airport retry); researcher@ staged the South; translator@ it-IT half; abp@ started (19:49) for the grants; Jose's conductor answered in board/team/conductor.b/answers/; live v0.1.1650"
+  },
+  {
+   "at": "2026-11-16T20:54Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 1 of the restart: about 50 commits from 19 agents; live v0.1.1658. Local news: west 7 towns drafted, central 19 items, east 22 items, districts 2nd pass; journalist@ brought west, central and districts onto dev; correspondent@ an Algarve beat on the front page. Media map: 73 outlets in the graph (researcher@ to ontologist@), local@PrompTugal.jose Faro and Loule outlets with feeds. Live data: IPMA and Faro airport for 18 places. dev@: search index 415 to 320 KB; translator@ it-IT complete. abp@ fixing media paths in grants. Old account-A town agents only rewrote pause debriefs. The old conductor@ (account A) is alive (App Store subtitle 20:31); I cannot reach it across accounts: lanes wait on Dinis. Nudged dev.places, dev, outreach."
+  },
+  {
+   "at": "2026-11-16T21:51Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 2: live v0.1.1664. dev@ feeds out (RSS and JSON Feed per place, 36 places, 322 items); outreach@ 10 first-contact drafts (Aveiro, Leiria, Braga, Setubal, a national + the first five); west follow-ups (Portimao hospital, EMARP); journalist@ brought west's follow-ups, held central's key redo; sherpa@ subtitle decided, two synthetic readers on /values/; Vicky's reviewer@ published S67. Review backlog: dev.places 10 ahead, researcher 7, central 5, districts 5, east 4, designer.places 4, translator 2: nudged dev@ to review first. Lanes still wait on Dinis."
+  },
+  {
+   "at": "2026-11-16T22:52Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 3: live v0.1.1669. dev@ feeds per topic (17 topics) and brought Around <town> and translator; /media/ and it-IT were already on dev (the 'ahead' counts were cherry-picks: no real backlog but dev.places' outlet feeds-in 22:17). ontologist@ 80 outlets in the graph. journalist@ brought east's 7 items. correspondent@ placed four articles. old conductor@ (account A) wrote the outreach outbox spec (vault promptugal-outreach, Dinis approves, sends from the RiskMandate mailbox). security@ 78 commits clean; S47 old sessions still committing. Jose's conductor: five questions for Dinis, carried; Faro's outlets answered (local@)."
+  },
+  {
+   "at": "2026-11-16T23:53Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 4: live v0.1.1672. Local news: west's Barlavento pass (Aljezur, Monchique, Silves), central rechecks (Loule AI recital, Faro 24 Nov conference), east key rotation; journalist@ brought all three. dev@ made outside feed text safe (feeds-in). Found: ABP v1.14.0 kept datasci.places@ on its work branch, so the live data has not reached the site since 20:16: asked abp@ to grant release to dev, dev@ to bring the branch at 00:08, datasci@ to retry adsb with backoff. Jose's conductor now orchestrates his agents (J10)."
+  },
+  {
+   "at": "2026-11-17T00:51Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 5 (ledger): 19 restarted sessions 88.04 USD API-equivalent in 5h20 (conductor.b 15.16 more); live v0.1.1677. Live data back on dev (dev@ brought datasci's branch, 23:51; collector retries adsb and keeps the last read, 'last read' shown). ontologist@ 110 outlets; outreach@ 15 drafts (say how we got the data, ask for an API); designer.places@ Local media as cards; dev.places@ the story rail; the old conductor@ extended the outbox spec (review app, first batch); security@ pre-reviewed the outbox (outside sends wait on a signed word). abp@ held datasci's release-to-dev for Dinis. East quiet overnight; journalist@ held districts' third pass."
+  },
+  {
+   "at": "2026-11-17T01:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 6, night: live v0.1.1680. place.districts@ third pass (Lisboa, Porto/ScaleUp Porto, Braga, Coimbra), fixed and brought by journalist@; dev.places@ coverage map (where local journalism is and is missing, /media/ and api/v1/media/coverage.json); dev@ search snippets clipped (docs.json 333 KB); central and east daily debriefs. Live data on dev lags up to ~1 h: datasci runs at :15, dev@ brings it at :08 (waits on Dinis's word for direct release)."
+  },
+  {
+   "at": "2026-11-17T02:52Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 7, night: live v0.1.1684. place.districts@ third pass for Guarda, Braganca, Vila Real and two more, brought by journalist@; ontologist@ 138 outlets (capital-city radio); security@ 38 commits clean, S43 recurred: nine district site key ids doubled in keys.json (superseded + active under one id): place.districts@ asked to use suffixed ids and re-sign. Quiet wakes with no commit: sherpa, librarian, correspondent (nothing new overnight). Live data 01:17 on dev."
+  },
+  {
+   "at": "2026-11-17T03:52Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 8 (ledger): 19 sessions 111.96 USD API-equivalent (+23.92 in 3h); live v0.1.1687. S43 fixed: place.districts@ gave nine site keys unique -2 ids, journalist@ brought it (0 duplicate ids). outreach@ 25 drafts; dev@ search index 333 to 214 KB; dev.places@ derived translation queue per culture. Live data 02:17 on dev."
+  },
+  {
+   "at": "2026-11-17T04:53Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 9: live v0.1.1692. place.districts@ third pass for Setubal, Beja, Castelo Branco, Portalegre, Evora (+1), brought by journalist@; ontologist@ 177 outlets (41 regional periodicals, people depth); dev@ the gate checks all 106 outgoing feeds; dev.places@ translatable town headings; designer.places@ 'Show all' in the page's language. Correction: S43 is half fixed (security@ 04:05): four public bundles overwritten 16 Nov 19:31 still missing; routed to place.districts@ (3) and researcher@ (1). Live data 03:17 on dev."
+  },
+  {
+   "at": "2026-11-17T05:51Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 10, quiet: live v0.1.1695. S43's second half done: place.districts@ restored its three overwritten public bundles (superseded), researcher@ its own as researcher-promptugal-1; journalist@ brought them; security@ to confirm at 06:05. dev.places@ translation queue scope. Live data 04:17 on dev."
+  },
+  {
+   "at": "2026-11-17T06:53Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 11 (ledger): 19 sessions 145.12 USD API-equivalent since the restart (+33.16 in 3h); live v0.1.1699. West's morning pass (Portimao hospital figures flagged); districts linked researcher@'s media map in 16 capitals (111 outlets); outreach@ 37 drafts; ontologist@ mastheads (33 outlets); designer.places@ two home live-strip variants for Dinis; dev.places@ gate warnings for the translation memory; security@ S43 key data restored byte-identical (a gate check still owed). My own hand-over debrief for 17 Nov written."
+  },
+  {
+   "at": "2026-11-17T07:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 12: live v0.1.1702. West: UAlg schools talks, hospital figures compared; central: morning recheck, no new AI news, gaps recorded; journalist@ brought both. Vicky's curator@ S68 (update to S67 from the Center's chief executive interview). dev.places@ translation-memory checks. Live data 06:18 on dev."
+  },
+  {
+   "at": "2026-11-17T08:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 13: live v0.1.1706. East's morning scan, ten more sourced items, brought by journalist@; dev.places@ distance to the beat on town article lists; ontologist@ feed re-check (10 outlets); security@ 32 commits clean, S68's company claim to check on publication. Live data 07:19 on dev."
+  },
+  {
+   "at": "2026-11-17T09:51Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 14 (ledger): 19 sessions 166.27 USD API-equivalent since the restart (+21.15 in 3h); live v0.1.1709. Central: Faro, NERA brings 25 businesswomen to explore AI tools, brought by journalist@; outreach@ 52 drafts; Vicky's reviewer@ published S68 (dated update to S67). Live data 08:16 on dev."
+  },
+  {
+   "at": "2026-11-17T10:53Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 15: live v0.1.1712. Vicky's checker@ fact-checked 5 of our published Algarve articles (Faro, Olhao, Lagos, Alcoutim, Algar/Almancil): figures, partners, a pilot, sources not links: routed to journalist@ for corrections at 11:40. West and districts quiet passes; ontologist@ eco, jornal-economico, tvi media records; the old conductor@ wrote a spec for one reader across devices. Live data 09:16 on dev."
+  },
+  {
+   "at": "2026-11-17T11:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 16: live v0.1.1717. journalist@ corrected and re-signed the five Algarve articles at 10:55 (checker@'s findings), reviewed the old conductor@'s two new articles (an ATM's 13.6% conversion mark-up; the payment desk that could not take payment). Central: two older Faro AI items from Postal. dev.places@ the /media/ look hooks. Vicky's curator@ S69 (AI physiotherapy). Live data 10:16."
+  },
+  {
+   "at": "2026-11-17T12:53Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 17 (ledger): 19 sessions 202.18 USD API-equivalent since the restart (+35.91 in 3h); live v0.1.1721. Midday passes on all three Algarve desks (east 7 items, central second sources for SIPRS and Som Riscado, west MACA agenda), journalist@ brought four desks; correspondent@ two articles in the Portugal beat; outreach@ 67 drafts; dev@ pairing step 1 (one reader across devices); the old conductor@ wrote the agentic cells onboarding plan (board/spec-agentic-cells-onboarding.md). Jose: local@ paused new outlet data because Jose wants outlet and staff data private, against Dinis's guidance: carried to Dinis."
+  },
+  {
+   "at": "2026-11-17T13:51Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 18: live v0.1.1725. The old conductor@ (account A) wrote the provenance and review model (type, five axes, ladder P0-P5, signed responses) with Dinis's opinion piece, and its For Dinis page; journalist@ labelled every article with type and provenance (step 1) and opened a correction queue of 20; central recorded outlets opened and refused per town; dev@ pairing step 1 page (dry run) after security@'s post-review; local@PrompTugal.jose: resumes if Dinis says outlet data is public. Live data 12:18."
+  },
+  {
+   "at": "2026-11-17T14:51Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 19: live v0.1.1727. The old conductor@ (account A) put a green 'Support us \u00a35' button at the top of every page to the top-up, at Dinis's word. journalist@ corrected BR1 and BR6 (checker@), brought west's afternoon pass (Monchique, Lagos, Silves) and districts; correspondent@ one article in the newsroom beat; ontologist@ Postal do Algarve and A Voz do Algarve from local@'s readings, no people; designer.places@ outlet page facts band; dev@ the pairing page live as a dry run (security@ passed). Live data 13:21."
+  },
+  {
+   "at": "2026-11-17T15:51Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 20 (ledger): 19 sessions 235.2 USD API-equivalent since the restart (+33.02 in 3h); live v0.1.1731. dev@ the provenance strip under every article headline; the old conductor@ made the reading credit a statement in the masthead ('Pay for what you read: \u00a35 of credit to start'); journalist@ S11 corrected; outreach@ 87 drafts; Vicky's curator@ S69 updated. Live data 14:19."
+  },
+  {
+   "at": "2026-11-17T16:53Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 21: live v0.1.1735. dev@ provenance filters and api/v1/articles/provenance.json; ontologist@ provenance and claims schema (step 2); journalist@ BR2 corrected, 15 queue items given owners; translator@ pl-PL half; designer.places@ /media/ kind chips. east read Sul Informacao's feed once: its robots.txt disallows ClaudeBot/Claude-Web/anthropic-ai: told east to stop and link only, journalist@ to hold items resting on it, until Dinis rules. security@ S50 for Dinis: the GBP5 support button takes real payment whose credit lands on newsroom.sgit.ai, not here."
+  },
+  {
+   "at": "2026-11-17T17:51Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 22: live v0.1.1737. east stopped reading sulinformacao.pt and removed the item (16:52); evening passes: west (Lagos police operation, Portimao housing debate), central (Olhao teacher's Erasmus+ AI course), east addendum; journalist@ brought all three. The old conductor@ (account A): the data site and focused newsrooms brief (newsroom.sgit.ai's writer, at Dinis's request) and the provenance model's steering/background inside origin (endorsed by Dinis). Live data 16:17."
+  },
+  {
+   "at": "2026-11-17T17:54Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "Sul Informacao: I missed the 13:50 guidance row (Dinis via the old conductor@: collect its feed hourly, keep every item, use its search page, never work around a refusal) when I told east to stop at 16:52. My correction to east was refused by the auto-mode safety check (directing an agent to read a site whose robots.txt disallows Claude agents by name); not retried. East stays stopped; journalist@ told items under the brief need not be held. Put to Dinis: confirm in this session, knowing robots.txt names ClaudeBot/Claude-Web/anthropic-ai, or stand the stop."
+  },
+  {
+   "at": "2026-11-17T18:52Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 23 (ledger): 19 sessions 274.04 USD API-equivalent since the restart (+38.84 in 3h); live v0.1.1741. Dinis's yes (to the old conductor@) for data.promptugal.news and observability on newsroom.sgit.ai; observability@ session 2 started there (waits on sealed vault keys): my observability ask is withdrawn. outreach@ 92 drafts (every outlet with a contact page and feed); ontologist@ who covers which place (data/media/by-place.json); dev@ api/v1/since.json; security@ 56 feed hosts checked against robots.txt, none disallows us. A quiet hour for the desks. Live data 17:16."
+  },
+  {
+   "at": "2026-11-17T19:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 24, quiet evening: live v0.1.1742. dev@ 'Since your last visit' on the You page (place, region, country, from the browser's own reading record); the old conductor@ wrote the five sites brief (data, weather, civic, startups, travel); journalist@: nothing new from any desk. One day since the restart. Live data 18:16."
+  },
+  {
+   "at": "2026-11-17T20:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 25, quiet: live v0.1.1746. ontologist@ the Algarve municipalities' neighbours checked against Wikidata (14 of 16 agree with the draft); dev@ search ranks a town's page above its data views, search tests from 6 failures to 1; security@ 27 commits clean, 'Since your last visit' keeps the profile in the browser. Live data 19:18."
+  },
+  {
+   "at": "2026-11-17T21:51Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 26 (ledger): 19 sessions 300.81 USD API-equivalent since the restart (+26.77 in 3h); live v0.1.1750. Vicky's reviewer@ published S69 (AI physiotherapy), journalist@ labelled it (news, P2); dev@ search shards split so no typical query loads over 40 KB. Quiet desks. Live data 20:17."
+  },
+  {
+   "at": "2026-11-17T22:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 27, quiet: live v0.1.1754. ontologist@ the 16 Algarve municipalities' neighbours from DGT's CAOP 2025 with border lengths; translator@ hr-HR half; correspondent@ AI physiotherapy story in the Portugal beat; security@ 27 commits clean, its 17 Nov debrief. Live data 21:17."
+  },
+  {
+   "at": "2026-11-17T23:53Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 28: live v0.1.1759. The old conductor@ (account A) handed over to B (board/briefs/2026-11-17-handover-to-account-b.md, guidance 23:00): no PrompTugal schedules left on A; conductor.b@ to start observability@ and the five sites' teams (data, weather, civic, startups, travel) from their debriefs; vault keys sealed in sgit vault 5qzpmf4m to Dinis and to the old conductor's key; fixes listed (keygen, the repos' commit check, design picks, IPMA non-profit terms). Asked Dinis for a go in this session before starting six sessions on five new repositories. The old conductor@ also put the balance in the top bar, prices from 1p, a reading graph. journalist@ asked if the Algarve desks are paused: answered no, quiet evening. Live data 22:16."
+  },
+  {
+   "at": "2026-11-18T00:52Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 29 (ledger): 19 sessions 336.34 USD API-equivalent since the restart (+35.53 in 3h); live v0.1.1763. Daily debriefs for 18 Nov (journalist@, central, outreach@ with 92 drafts and nothing new to draft, ontologist@). security@ 33 commits clean; S51 for Dinis (the meter raises readers' past charges after the fact). Hand-over go still asked. Live data 23:16."
+  },
+  {
+   "at": "2026-11-18T01:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 30, night: live v0.1.1765. observability@ session 1 took over again at 01:35 (key 1 reinstated, session 2 archived and its key retired), drain and run log resumed: observability no longer needs starting. The old conductor@ put the five PrompTugal.news sites in the home page's band. translator@ ro-RO done half; debriefs from datasci.places@, dev.places@, translator@. Live data 00:16. The five sites still wait on Dinis's go."
+  },
+  {
+   "at": "2026-11-18T02:53Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 31: live v0.1.1769. Five sites still blocked: the five repos are not in this account's Claude GitHub App installation (list_repos shows only Website, Fringe, Swarm, Swarm Runs). Observability reconciled with account A's 02:23 hand-over: site teams add obs.js lanes, observability@ on A drains; no observability.b@ here. observability@ (A) fixed tab counting, votes, per-place stats; security@ 30 commits clean, S52 (observability's first session back with its key and a schedule, not in guidance). The old conductor@ evened the site cards."
+  },
+  {
+   "at": "2026-11-18T03:51Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 32 (ledger): 19 sessions 365.15 USD API-equivalent since the restart (+28.81 in 3h); live v0.1.1771. Night, quiet. The old conductor@: observability's schedule stays on account A (Dinis), hourly drain re-enabled. Five site repos still not in this account's GitHub App installation."
+  },
+  {
+   "at": "2026-11-18T04:51Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 33, night: live v0.1.1774. dev@ builds language tags with a script or no region (zh-Hans was silently skipped); security@ 26 commits clean, S52 closed. Five site repos still not in this account's GitHub App installation."
+  },
+  {
+   "at": "2026-11-18T05:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 34, night, quiet: live v0.1.1777; only abp@ and the live data committed. Five site repos still not in this account's GitHub App installation."
+  },
+  {
+   "at": "2026-11-18T06:52Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 35 (ledger): 19 sessions 404.71 USD API-equivalent since the restart (+39.56 in 3h); live v0.1.1781. Quiet night: security@ 21 commits clean; dev.places@ number check for languages counting in ten thousands. Five site repos still not connected."
+  },
+  {
+   "at": "2026-11-18T07:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 36, morning: live v0.1.1783. Morning passes: east five sourced items, west the Portimao TMCT conference, central nothing new; journalist@ brought all three. translator@ ja-JP half. Vicky's curator@ S70 (update to S69 from the 2023 Sao Joao pilot report). Five site repos still not connected."
+  },
+  {
+   "at": "2026-11-18T08:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 37: live v0.1.1786. Quiet: security@ 28 commits clean; abp@ hourly; live data 07:19. One unsigned feedback message held. Five site repos still not connected."
+  },
+  {
+   "at": "2026-11-18T09:31Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "At Dinis's word in this session (09:2x, repos now connected): started data.b@, weather.b@, civic.b@, startups.b@, travel.b@ (Opus leads, Sonnet sub-agents) on their five repos, each with a wake every 3 h 07:00-22:00 Lisbon (:03/:13/:23/:43/:53). Each does the fixes first (key, commit check, masthead and sites rail, IPMA free, obs.js lane); data.b@ carries Dinis's Storm brief (2026-11-18-data-site-and-the-storm.md, relayed by the old conductor@ at 08:49). Observability for the sites drains on account A."
+  },
+  {
+   "at": "2026-11-18T09:53Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 38 (ledger): main 19 sessions 435.64 USD API-equivalent; five site leads 28.24 USD in their first runs. First runs: data.b@ Storm map (94 items, 20 moved), 140 Storm files at /api/v1/storm/charles/ with OpenAPI, three-layer source pages, 19 charts; weather.b@ 17 district capital pages, masthead, obs lane; startups.b@ v0.1.9, 497 facts, masthead, obs lane; civic.b@ and travel.b@ ran. All five: the auto-mode check refused keygen --session and the commit-check change: nothing signed, commits carry  (AgentiCCells) trailers. Decisions for Dinis listed in my update."
+  },
+  {
+   "at": "2026-11-18T10:51Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 39: live v0.1.1792. Site leads' second runs: data.b@ the Storm flight maps (Lisbon, Madeira) on /storm/; weather.b@ a warnings timeline by district; civic.b@ the Civic API with OpenAPI 3.1; startups.b@ open calls closing soonest; travel.b@ disruptions re-checked. Main site: west MotoGP at Portimao; Vicky's checker@ checked the old conductor@'s three pieces (ATM piece 6 findings, lowered to P1 by journalist@), and 9 earlier findings confirmed fixed. security@ S53 (high, for Dinis): account A's conductor@ printed the environment (env) and its signing private key into its transcript on 16 Nov; rotate the environment secrets and supersede conductor-promptugal."
+  },
+  {
+   "at": "2026-11-18T11:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 40: live v0.1.1795. east's midday scan (the Castro Marim dementia congress as the AI story), brought by journalist@; Vicky's curator@ S71. Sites: startups.b@ thin Algarve places research (26 facts, 18 gaps); travel.b@ What's on, 24 Algarve events from the councils' agendas. S53 and the site leads' keygen still wait on Dinis."
+  },
+  {
+   "at": "2026-11-18T12:52Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 41 (ledger): main 19 sessions 474.93 USD API-equivalent (+39.29 in 3h), five site leads 41.11 USD (+12.87); live v0.1.1797. West: Portimao MEO store, Monchique council items; journalist@ brought west and districts; correspondent@ its daily debrief; security@ 33 commits clean, S53 still open (five articles signed by the exposed key, to re-sign after rotation). Sites quiet since their 10:xx runs (next wakes 13:03-13:53 Lisbon = 13:03-13:53 UTC)."
+  },
+  {
+   "at": "2026-11-18T13:50Z",
+   "by": "conductor.b@PrompTugal.dinis",
+   "note": "hour 42: live v0.1.1798. Central: Faro AI4YouthWork launch and the Estadio Algarve technology centre (journalist@ re-read the tender figure); translator@ hi-IN. Sites, third runs: data.b@ three Storm charts on /storm/ (residents by hour, warned against observed, forecast); weather.b@ UV for the capitals; civic.b@ the councils' municipal companies and contracts; startups.b@ investors as a section; travel.b@ wakes at 13:53."
+  },
+  {
+   "at": "2026-11-18T14:55Z",
+   "line": "14:48 wake: main site v0.1.1804; place desks and datasci, dev.places, researcher active on their work branches; central quiet by plan (next 16:25); events.b@ started 14:32, events.promptugal.news live v0.1.3; keygen refused after Dinis's yes in data, weather, travel, startups (and weather's rebuild cron); sources register, gaps, licences and disclaimers shipped on the sites; inbox drain tool not in this container (team site clone missing), drained by send_message instead"
+  },
+  {
+   "at": "2026-11-18T15:55Z",
+   "line": "15:48 wake: main site v0.1.1810, gate green; 10 site leads live (data, weather, civic, startups, travel, events, signals, library, videos) plus telemetry.b@; keys for all site leads listed; obs lanes for data, civic, events, startups, travel, signals; security pages on 8 sites; ledger 1,017.87 USD API-equivalent (main 559.17, sites 210.89, conductor.b 247.81)"
+  },
+  {
+   "at": "2026-11-18T16:50Z",
+   "line": "16:48 wake: main site v0.1.1814; every desk and work branch active (designer.places on its 2-hourly cadence); site leads: civic live contracts per place, events data gate and 4 threat models, signals links the library, library graph aligned with the ontology and requests channel two-way, videos titles corrected, data per-place contracts and OpenAPI; telemetry.b@ refreshing costs hourly; nothing new blocked; open asks with Dinis unchanged"
+  },
+  {
+   "at": "2026-11-18T17:50Z",
+   "line": "17:48 wake: main site v0.1.1816; quieter hour on dev (2 releases), place desks and datasci/dev.places/researcher active on work branches, translator and districts on their slower cadences; no library requests for conductor.b@; videos.b@ published the YouTube key how-to; Dinis creating the Google key (separate project advised); cams/live site awaiting his choice"
+  },
+  {
+   "at": "2026-11-18T18:55Z",
+   "line": "18:48 wake: main site v0.1.1818 (dev@: Now in <town> live from data.promptugal.news); live.b@ started on PrompTugal__News__Live; weather's scheduled runs still not firing (pages now load live); ledger 2026-11-18T1851Z"
+  },
+  {
+   "at": "2026-11-18T19:50Z",
+   "line": "19:48 wake: main site v0.1.1820; desks and work branches active; library fact-checker first pass (97 articles; 71 claims in 2 articles rest only on websummit.com, sent to journalist@ for its 20:40 wake); live.b@ first version and coastline; events no open findings; signals provenance everywhere; weather's scheduled runs still not firing (Dinis to check Actions settings)"
+  },
+  {
+   "at": "2026-11-18T21:52Z",
+   "line": "21:48 wake: main site v0.1.1825; journalist@ did REQ-0007 (S7 claims) but not REQ-0008 (websummit-only claims), nudged for its 21:40 wake; cyber.b@ and bulletins.b@ first runs live (cyber empty until collectors land; seven bulletin pages, 0.017 USD); Vicky's reviewer@ and journalist-portugal@ active; site leads wake ~22:00"
+  },
+  {
+   "at": "2026-11-18T22:55Z",
+   "line": "22:48 wake: main site v0.1.1827, gate green; sites bar v1.0.0 and registry live on promptugal.news, install held for security@'s review of the built files; all 12 previews done; London under way (UK sources registering); writer-10 and cells.b waiting on Dinis; library corrected its websummit finding (withdrawn articles); debrief written"
+  },
+  {
+   "at": "2026-11-18T23:55Z",
+   "hold": false,
+   "commits_since_22_48": {
+    "conductor.b": 5,
+    "dev": 3,
+    "security": 2,
+    "datasci.places": 2,
+    "abp": 2,
+    "translator": 1,
+    "telemetry.b": 1,
+    "rights": 1,
+    "place.districts": 1,
+    "journalist": 1
+   },
+   "site": "v0.1.1830",
+   "notes": [
+    "security@ go on sites bar v1.0.0, but dev@ replaced it with v1.1.0 at 22:50; asked security@ to post-review v1.1.0; install note held",
+    "dev@ took IPMA off the place pages (4c0785e352): rights@ R1 in progress",
+    "gate green again (v0.1.1828-1830 deployed)"
+   ]
+  },
+  {
+   "at": "2026-11-19T00:55Z",
+   "hold": false,
+   "site": "v0.1.1834",
+   "commits_since_23_48": {
+    "dev": 4,
+    "conductor.b": 3,
+    "security": 2,
+    "rights": 2,
+    "ontologist": 2,
+    "journalist": 2,
+    "datasci.places": 2,
+    "designer": 1,
+    "outreach": 1,
+    "correspondent": 1,
+    "abp": 1,
+    "telemetry.b": 1,
+    "place.*": 3,
+    "designer.places": 1
+   },
+   "notes": [
+    "security@ go on sites bar v1.1.0 (90dfdd3baf), hashes checked; install note sent to the 12 site leads",
+    "Google key live (videos.b@); data.b@ serves YouTube replays, no chapters; rights@ R6 for YouTube's API terms",
+    "ledger 2026-11-19T0050Z: $1,575.97 API-equivalent; blocked buckets: translator, sherpa, data.b, bulletins.b, cells.b, writer-10 (most wait on Dinis)"
+   ]
+  },
+  {
+   "at": "2026-11-19T01:52Z",
+   "hold": false,
+   "site": "v0.1.1840",
+   "commits_since_00_48": {
+    "conductor.b": 15,
+    "rights": 7,
+    "dev": 6,
+    "designer": 4,
+    "security": 3,
+    "abp": 3,
+    "journalist": 2,
+    "datasci.places": 2,
+    "translator": 1,
+    "telemetry.b": 1
+   },
+   "freshness_01_48": {
+    "data": "v0.1.71 built 01:39",
+    "weather": "v0.1.39, data read 01:28",
+    "civic": "v0.1.40",
+    "startups": "v0.1.34",
+    "travel": "v0.1.47, data read 00:51",
+    "events": "v0.1.30, data read 01:34",
+    "signals": "v0.1.20",
+    "library": "v0.1.25",
+    "videos": "v0.1.19 built 00:12",
+    "live": "v0.1.24",
+    "cyber": "v0.1.23",
+    "bulletins": "v0.1.19",
+    "promptugal.news": "no /version.json at root (known open, dev@)"
+   },
+   "notes": [
+    "Dinis 01:05-01:22: signed commits for all, paid search with videos.b@, YouTube only on a free page, load data in the browser, every run from a commit (data.b@ hourly 24h), show the past, keep and check every prediction",
+    "security@ go: sites bar 1.1.1, five signing controls, leak-scan ruling, data in the browser (cyber)",
+    "sites bar 1.1.0 on 11 of 12 (videos to come); signed commits on data, signals, bulletins, library, cyber, newsroom (writer-10); timers off on data, startups, weather, signals, events",
+    "first what-was-said/what-happened live on library (WS26)"
+   ]
+  },
+  {
+   "at": "2026-11-19T02:50Z",
+   "hold": false,
+   "site": "v0.1.1842",
+   "gate": "green again after the maestro's folder broke it ~02:20 (fixed by maestro.b and dev@ b26954063b)",
+   "fresh_02_48": "all 12 sub-sites built 01:43-02:22",
+   "notes": [
+    "maestro.b (account-b) started 01:59 (first session failed at the setup script, fixed by Dinis); it started conductor.b@AgentiCCells.dinis at Dinis's word ~02:30",
+    "security@: CVE store go, nvd-kev go, NVD gap reader cleared to build",
+    "signing tests committed: data, bulletins, library, signals",
+    "writer-10's article on the free YouTube page live on newsroom.sgit.ai"
+   ]
+  },
+  {
+   "at": "2026-11-19T03:52Z",
+   "hold": false,
+   "site": "v0.1.1844",
+   "fresh_03_48": "all 12 sub-sites built 03:19-03:31",
+   "notes": [
+    "IP lookup gone from promptugal.news (752758272f) and all 12 sub-sites (9 removed, 3 never had it)",
+    "shared tz table published (assets/obs/tz-country.json); obs_tz not yet in sites.json, asked of dev@",
+    "PRED live on library; form sent to 11 leads",
+    "designer@ sites bar v1.2 spec (one switcher) with dev@",
+    "PR #35 merged (cells.b confirmed)"
+   ]
+  },
+  {
+   "at": "2026-11-19T04:51Z",
+   "hold": false,
+   "site": "v0.1.1846",
+   "notes": [
+    "quiet night hour; site leads wake from 07:00 Lisbon; data.b@ hourly (built 04:10)",
+    "dev@: the 5-site blocks removed, sites bar opens in the same tab (cd364f9f46); phone row SB10 to come",
+    "obs_tz live in the registry (143 zones); sent to the 8 sites with obs.js",
+    "maestro.b 04:18: quiet; abp@ needs Dinis's own line for the domain rule"
+   ]
+  },
+  {
+   "at": "2026-11-19T05:50Z",
+   "hold": false,
+   "site": "v0.1.1849",
+   "fresh_05_48": "11 sites built 04:51-05:18; videos 03:19 (no change since)",
+   "notes": [
+    "security@: one SRI ruling (registry compare preferred; narrow exact-pattern exemption), key rules (private headers always fail; public keys only in their field), degrade on version bumps",
+    "tz table 1.1.0 (487 zones) on data, startups, live, signals, civic, travel; weather on 1.0.0",
+    "ECDSA and sk- key forms: library, startups, data fixed; bulletins, cyber, signals, live already covered",
+    "dev@: per-version pins in the registry; Faro airport live on place pages"
+   ]
+  },
+  {
+   "at": "2026-11-19T06:54Z",
+   "hold": false,
+   "site": "v0.1.1849 (no release since 05:43)",
+   "alert": "deploy-pages validate job cancelled at its 5-minute timeout on every run since 05:43 (build+gate now just over 5 min); told dev@ to raise timeout-minutes and look at the gate's growth",
+   "fresh_06_48": "data built 06:16; other sub-sites 04:51-05:18 (quiet before their 07:00 Lisbon wakes)",
+   "notes": [
+    "sites bar v1.2.0 built by dev@ and checked by designer@ (phone row, desktop line); waits on release and security@'s review"
+   ]
+  },
+  {
+   "at": "2026-11-19T07:51Z",
+   "hold": false,
+   "site": "v0.1.1852 (releasing again since 07:12; validate timeout 12)",
+   "fresh_07_48": "all 12 sub-sites built 07:17-07:48",
+   "notes": [
+    "sites bar 1.2.0 on 10 sub-sites (events, videos to come); 1.2.1 (nav-proof CSS) awaits security@",
+    "registry reshape out: versions[v].integrity.<file> for bar and obs_tz",
+    "signed commits blocked on weather and civic (ssh-keygen refused in their sessions); key handover question open (signals, library)",
+    "PRED: civic 7,663 pairs; data +216"
+   ]
+  },
+  {
+   "at": "2026-11-19T08:50Z",
+   "hold": false,
+   "site": "v0.1.1859",
+   "fresh_08_48": "all 12 sub-sites built 07:54-08:09",
+   "notes": [
+    "sites bar 1.2.1 on 11 of 12 sub-sites (videos to come), security@ go 07:56",
+    "registry reshaped (versions[v].integrity.<file>)",
+    "signed commits blocked on weather, civic, startups (ssh-keygen refused); key handover question open (signals wants to hand over)",
+    "PRED: civic 7,663, startups 18, bulletins 3, data +216; travel's London rain chart (first what-we-said chart on a site)",
+    "videos: YouTube thumbnails with text credit; icon waits on Dinis"
+   ]
+  },
+  {
+   "at": "2026-11-19T09:50Z",
+   "hold": false,
+   "site": "v0.1.1865",
+   "notes": [
+    "quiet hour: sub-sites idle between their 3-hourly wakes (next 10:00 Lisbon); data hourly (09:12)",
+    "Vicky's desk active (journalist-portugal, reviewer)",
+    "nothing new from Dinis; asks unchanged"
+   ]
+  },
+  {
+   "at": "2026-11-19T10:50Z",
+   "hold": false,
+   "site": "v0.1.1870",
+   "fresh_10_48": "9 sub-sites built 10:10-10:47; travel 08:02, signals 07:54 (handed over), videos 07:55, bulletins 08:03",
+   "notes": [
+    "live: signed commits on (24 tests); residual risks need branch protection",
+    "events: tz 1.1.0, all 8 obs.js sites on the shared table",
+    "library: a page per prediction series; civic's first 9 forward predictions",
+    "cyber: new-CVE daily history on the pulse",
+    "signals idle after handing over, waiting on the key-handover choice"
+   ]
+  },
+  {
+   "at": "2026-11-19T11:52Z",
+   "hold": false,
+   "site": "v0.1.1876",
+   "fresh_11_48": "10 sub-sites built 10:17-11:11; signals 07:54 (handed over)",
+   "notes": [
+    "sites bar 1.2.1 on all 12 sub-sites (videos last, 10:58)",
+    "ontologist@: data/site/places-registry.json with London, the UK, ISO countries, for every site",
+    "bulletins: first outcomes (Faro held, London rain missed twice); held/missed rule waits on Dinis",
+    "library: requests channel fixed (case-sensitive filenames)",
+    "London forecast 6-hourly by design (Open-Meteo 429 on hourly); file now carries its own cadence",
+    "missed the 06:48 and 09:48 ledgers; catching up at 11:48"
+   ]
+  },
+  {
+   "at": "2026-11-19T12:50Z",
+   "hold": false,
+   "site": "v0.1.1882",
+   "notes": [
+    "quiet hour: sub-sites between their 3-hourly wakes (next 13:00 Lisbon); data hourly (12:24)",
+    "place desks and security, abp, telemetry active",
+    "asks for Dinis unchanged"
+   ]
+  },
+  {
+   "at": "2026-11-19T13:50Z",
+   "hold": false,
+   "notes": [
+    "signed commits on events (8 sites with signing incl. newsroom); civic, weather, startups blocked on ssh-keygen; travel, videos to come",
+    "cyber: ENISA EUVD view taken down (rights@ R10: legal notice must be read by a person)",
+    "live: licence beside every loaded figure",
+    "startups pointed to data/site/places-registry.json (London)",
+    "library hand-over written; signals idle; both wait on the key-handover choice"
+   ]
+  },
+  {
+   "at": "2026-11-19T14:50Z",
+   "live": "v0.1.1896",
+   "hold": false,
+   "sites": {
+    "data": "v0.1.110",
+    "startups": "v0.1.65",
+    "civic": "v0.1.72",
+    "weather": "v0.1.53",
+    "travel": "v0.1.70",
+    "events": "v0.1.59",
+    "signals": "v0.1.42",
+    "library": "v0.1.56",
+    "videos": "v0.1.33",
+    "live": "v0.1.46",
+    "cyber": "v0.1.58",
+    "bulletins": "v0.1.46"
+   },
+   "notes": [
+    "signing controls 1 to 9 on ten sites through six security@ rulings, anchor = latest successful push run on dev",
+    "waits on Dinis: branch protection, tag ruleset, dev-only github-pages environment; Factory PR #36",
+    "asked dev@, writer-10, telemetry.b@ to confirm"
+   ]
+  },
+  {
+   "at": "2026-11-19T15:52Z",
+   "live": "v0.1.1901",
+   "hold": false,
+   "sites": {
+    "data": "v0.1.111",
+    "startups": "v0.1.65",
+    "civic": "v0.1.72",
+    "weather": "v0.1.53",
+    "travel": "v0.1.70",
+    "events": "v0.1.59",
+    "signals": "v0.1.42",
+    "library": "v0.1.56",
+    "videos": "v0.1.33",
+    "live": "v0.1.46",
+    "cyber": "v0.1.58",
+    "bulletins": "v0.1.46"
+   },
+   "notes": [
+    "S72: promptugal.news's signing check not wired; CI key is Dinis's",
+    "site sites unchanged since 14:50 except data"
+   ]
+  },
+  {
+   "at": "2026-11-19T20:52Z",
+   "live": "v0.1.1928",
+   "hold": false,
+   "sites": {
+    "data": "v0.1.127",
+    "startups": "v0.1.78",
+    "civic": "v0.1.89",
+    "weather": "v0.1.65",
+    "travel": "v0.1.72",
+    "events": "v0.1.69",
+    "signals": "v0.1.49",
+    "library": "v0.1.66",
+    "videos": "v0.1.37",
+    "live": "v0.1.65",
+    "cyber": "v0.1.71",
+    "bulletins": "v0.1.59"
+   },
+   "notes": [
+    "control 10 on 11 sites",
+    "ptmap 1.0.2 passed; on at weather, startups, events",
+    "17 agents enrolled for signing"
+   ]
+  },
+  {
+   "at": "2026-11-20T09:52Z",
+   "live": "v0.1.1946",
+   "hold": false,
+   "sites": {
+    "data": "v0.1.130",
+    "startups": "v0.1.80",
+    "civic": "v0.1.90",
+    "weather": "v0.1.67",
+    "travel": "v0.1.74",
+    "events": "v0.1.70",
+    "signals": "v0.1.50",
+    "library": "v0.1.68",
+    "videos": "v0.1.38",
+    "live": "v0.1.72",
+    "cyber": "v0.1.72",
+    "bulletins": "v0.1.60"
+   },
+   "notes": [
+    "ptmap on at 9 sites",
+    "relays batched into wakes"
+   ]
+  },
+  {
+   "at": "2026-11-20T20:54Z",
+   "live": "v0.1.1966",
+   "hold": false,
+   "sites": {
+    "data": "v0.1.132",
+    "startups": "v0.1.83",
+    "civic": "v0.1.91",
+    "weather": "v0.1.69",
+    "travel": "v0.1.74",
+    "events": "v0.1.71",
+    "signals": "v0.1.51",
+    "library": "v0.1.69",
+    "videos": "v0.1.39",
+    "live": "v0.1.77",
+    "cyber": "v0.1.74",
+    "bulletins": "v0.1.65"
+   },
+   "notes": [
+    "ledger +432 USD in 24 h",
+    "ptmap on at 10 sites"
+   ]
+  },
+  {
+   "at": "2026-11-21T09:49Z",
+   "line": "Morning wake, once a day until Monday at Dinis's word (maestro.b). No hold. promptugal.news v0.1.1984; data v0.1.140, weather 71, startups 85, events 72, live 83, cyber 77, signals 52, civic 92, library 70, videos 41, bulletins 73, travel 76: all 13 up. Relays batched: data.b@ (Faro 20 Nov incomplete, youtube chapters 0, Bluesky 403, Agenda LX next_date, feeds wait for rights@), rights@ (licence check of the feed list), security@ (the two raw-history vaults, 569 email fields in the private one). Vault keys held sealed, unopened. Ledger: $3,836.55, +$138.78 in 13 h (about $11/h)."
+  }
+ ]
 }

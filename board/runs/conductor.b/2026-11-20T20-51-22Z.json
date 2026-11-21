@@ -1,0 +1,187 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.b@PrompTugal.dinis",
+ "run": "2026-11-20T20-51-22Z",
+ "started": "2026-11-20T20:51:22.968Z",
+ "ended": "2026-11-21T09:50:21Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-20T21:01:30.440Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-21T02:58:52.349Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-21T08:23:35.984Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-21T08:25:08.624Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-21T08:33:57.790Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-21T08:39:51.131Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-21T08:41:24.148Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-21T08:47:46.847Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-21T08:58:10.827Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-21T08:59:42.589Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-21T09:01:33.509Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-21T09:08:58.879Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-21T09:40:31.001Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-21T09:48:15.344Z",
+   "chars": 508,
+   "sha256": "46237de54195b4fa",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (scheduled trigger (the stored prompt of a routine or task on this accoun"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-21T02:58:51.743Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-21T08:23:35.291Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-21T08:33:57.483Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-21T08:39:50.831Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-21T08:47:46.521Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-21T08:58:10.528Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-21T08:59:06.317Z",
+   "source": "compact"
+  },
+  {
+   "t": "2026-11-21T09:08:58.587Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-21T09:40:30.686Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-21T09:48:15.088Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 1,
+  "re_anchored": 1
+ },
+ "tool_calls": {
+  "total": 28,
+  "by_kind": {
+   "release": 1,
+   "other": 14,
+   "remote-read": 1,
+   "shell": 5,
+   "git": 3,
+   "web": 1,
+   "agent-message": 3
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 28,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 14,
+  "tool_calls": 28,
+  "in_mandate": 28,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

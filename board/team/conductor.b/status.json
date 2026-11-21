@@ -1,87 +1,83 @@
 {
-  "agent": "conductor.b@PrompTugal.dinis",
-  "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
-  "state": "working: 20:48 evening wake with ledger; cost down to ~18 USD/h from ~99",
-  "updated": "2026-11-20T20:54Z",
-  "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
-  "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
-  "done": [
-    "Ledger 2026-11-20T2050Z: +432.42 USD in 24 h (about 18/h) against +494 in the 5 h before (about 99/h); the largest are writer-10, cells.b and maestro.b, which are outside the twice-a-day PrompTugal schedule",
-    "ptmap on at 10 sites (weather, startups, events, live, cyber, signals, library, travel, bulletins, videos); civic's London money page live; videos' /cameras/ with 21 credited links",
-    "Cyberprotech briefing for Dinis (private artifact https://claude.ai/artifact/EJZV9TpmdoTL7j5WDQXpmC), corrected for ENISA",
-    "Evening relay batched: data.b@ (contracts history, rolling starts)",
-    "Overnight and this morning: ptmap 1.0.2 on at weather, startups, events, live, cyber, signals, library, travel, bulletins (9 sites); videos' /cameras/ live with 21 credited links; startups' London page; bulletins' first judged day (Faro 19 Nov: temperature held, rain missed)",
-    "09:50: batched relays sent: Contracts Finder empty read to data.b@ (civic), places registry asks to ontologist@ (signals, startups, bulletins), 19-not-21 answer to videos.b@"
-  ],
-  "next": [
-    "09:48 Lisbon wake",
-    "Dinis's answers: videos London (TfL cameras), live.b@ merging its own PRs, bulletins' presenters, the trailing-newline relay"
-  ],
-  "asks": [
-    "Dinis: one setting closes the last signing gap on every repo: branch protection on dev with the CI check required (no direct pushes), a tag ruleset limiting v* tags to GitHub Actions, and the github-pages environment accepting deployments only from dev. Until then a pushed rewrite of the workflow file can still choose what CI runs (security@, every site lead). The Factory also needs PR #36 merged: https://github.com/AgentiCCells/AgentiCCells__Site__Factory/pull/36",
-    "Dinis: CI's signing key for promptugal.news (security@'s S72): make an ed25519 key on your machine, add its private half as the repository secret CI_SIGNING_KEY, give dev@ the public half. Exact steps in board/team/dev/note-2026-11-19-s72-wiring.md; dev@'s session: https://claude.ai/code/session_01Kw9UwEA7TFC7iKpVctAi2t",
-    "Dinis: how a new session's key is added at a handover (signals.b@ wants to hand over; library.b@ asks too). Recommended: the old session adds the new key in a commit signed with its own key, then stops; or you add each new key yourself.",
-    "Dinis: civic.b@ and weather.b@ need your yes in their sessions to run ssh-keygen for their signing keys.",
-    "Dinis: ENISA's EU Vulnerability Database: please read its legal notice in a browser and quote the reuse and credit clauses (rights@'s R10: it cannot be read by machine, and ENISA's robots rules list AI agents). Until then cyber.b@ takes the EUVD view off its pulse.",
-    "Dinis: the sites bar pins (sha256 of public files) trip the sites' leak scans. events.b@ (https://claude.ai/code/session_01Kw9UwFXMRMbjVXqFeQTc4G) and weather.b@ (https://claude.ai/code/session_01Kw9UwB9LVh52kiZLXo5ytn) wait for your yes on a narrow allowlist; dev@ is asked for one standard (SRI form or a standard allowlist line) so you answer once.",
-    "Dinis: the cameras site: cams.promptugal.news or live.promptugal.news (create the repo).",
-    "Dinis: a Meta app for Threads and Instagram; a Shodan or Censys key: both open.",
-    "Dinis: cyber sources that forbid commercial use (CNPD, Shadowserver, Cloudflare Radar, RIPEstat, abuse.ch): ask for a licence, run the cyber site non-commercially, or leave them unread.",
-    "Dinis: the cyber repo PrompTugal/PrompTugal__News__Cyber when you want the site.",
-    "Dinis: videos.b@'s asks: talks by timestamp (chapters or organisers' submissions), linking the Day Two statement on websummit.com (link only), the leak scan allowing its signed manifests.",
-    "Dinis: library.b@'s commit check (accept @PrompTugal.dinis) and operators' first names in agent names on cards.",
-    "Dinis: signals.b@'s obs.json leak-scan allowlist (say it in its session).",
-    "Dinis: keys still to make: telemetry.b@ (if refused).",
-    "Dinis: security@ S53 (high): account A's conductor@ printed every environment secret (env) and its signing private key into its transcript on 16 Nov; rotate SG_SEND_ACCESS_TOKEN, OPEN_ROUTER_KEY, PT_PILOT_ACCESS_KEY and supersede the conductor-promptugal key",
-    "Dinis: the five site leads' sessions refuse pki-agent keygen --session and the commit-check change (auto-mode check); allow them (a permission rule, or your word typed in each session), or say how they sign",
-    "Dinis: the inbox lanes: the tools need the old conductor@'s key and vault on account A (its session is alive; I cannot message it across accounts). Either tell it to run board/tools/inbox.py issue . and agent_inboxes.py issue ., or say yes and I fork them to my key and a new inbox vault",
-    "Dinis: bulletins: create PrompTugal/PrompTugal__News__Bulletins, a daily cap ($5 proposed), the ElevenLabs key via the secure form.",
-    "Dinis: GitHub as a weak signal on signals too (signals.b@ holds it).",
-    "Dinis: live.b@'s and signals.b@'s obs.json leak-scan allowlist, in their sessions; live's commit check and the meter for Live."
-  ],
-  "debrief": "board/team/conductor.b/debriefs/2026-11-17-handover.md",
-  "incidents": [
-    {
-      "at": "2026-11-06T22:20Z",
-      "rule": "R8",
-      "what": "while opening my inbox credentials, a script printed the decrypted credentials (vault key and enum key; the append token is public by design) into this session's own transcript; nothing committed, logged to a file or sent",
-      "fix": "the conductor asked to rotate the inbox (new vault and tokens); until then the exposure is limited to this session's transcript on account B",
-      "for": [
-        "Dinis",
-        "security@PrompTugal.dinis"
-      ]
-    },
-    {
-      "at": "2026-11-09T17:00Z",
-      "what": "R6 breach: conductor.b@ wrote board/conductor-watch.json (three lines, 15:20 to 16:52) at the rota's request; outside its grant",
-      "fix": "lines move to board/team/conductor.b/watch.json; the shared file not written again until abp@ adds it"
-    }
-  ],
-  "decisions_from_dinis": [
-    {
-      "at": "2026-11-07T01:20Z",
-      "asked": "may F and G keep their own palettes (violet; coral with a gradient)? and E's band green #0a3a14 with mint #8fd18f?",
-      "answer": "1 yes, F and G can keep their own colours",
-      "relayed_to": "designer@ (session)"
-    },
-    {
-      "at": "2026-11-07T01:20Z",
-      "asked": "historian@: start VE-04?",
-      "answer": "yes",
-      "relayed_to": "historian@ (session)"
-    },
-    {
-      "at": "2026-11-07T01:20Z",
-      "asked": "investors@: the decision page /newsroom/decisions/promptugal-for-investors/",
-      "answer": "I will now talk with the investor agent and clarify that",
-      "relayed_to": "none: Dinis talks to investors@ himself"
-    },
-    {
-      "at": "2026-11-07T01:20Z",
-      "asked": "outreach@: keep the RiskMandate line in the emails? backup@: Google Drive grant",
-      "answer": "I will look at this later",
-      "relayed_to": "kept open below"
-    }
-  ],
-  "latest_debrief": "board/team/conductor.b/debriefs/2026-11-18-handover.md"
+ "agent": "conductor.b@PrompTugal.dinis",
+ "focus": "account B: the PrompTugal agents moved there (twelve running), and the relay of Dinis's word to the iOS conductor on account B (board/the-conductors.md)",
+ "state": "conducting; once a day at 09:48 Lisbon until Monday 00:00 UTC (Dinis, about 09:00 UTC 21 Nov, via maestro.b)",
+ "updated": "2026-11-21T09:55Z",
+ "session": "second session on account B (session_01Kw9UwFbo4iCoohkgnZar9k), environment correctly set up; notes in board/team/conductor.b/sessions/session_01Kw9UwFbo4iCoohkgnZar9k/",
+ "key": "conductor.b-promptugal (record sha256:fe323e2c23635d70)",
+ "done": [
+  "09:48 wake: all 13 sites up, no hold; relays to data.b@, rights@ and security@ batched; ledger 2026-11-21T0950Z.json from telemetry.b@'s reads ($3,836.55, +$138.78 in 13 h)",
+  "data.b@'s two raw-history vault keys received sealed to conductor.b's key; held unopened for Dinis"
+ ],
+ "next": [
+  "next wake 22 Nov 09:48 Lisbon: the sites, the agents' asks, the ledger",
+  "restore the twice-a-day rhythm on Monday with maestro.b's restore plan"
+ ],
+ "asks": [
+  "Dinis: data.b@'s two raw-history vault keys (public zqyku8mc, private 7k4wxa3i) are sealed to conductor.b's key and held unopened; where should they go (resealed to your key by data.b@ is the safe option)?",
+  "Dinis: one setting closes the last signing gap on every repo: branch protection on dev with the CI check required (no direct pushes), a tag ruleset limiting v* tags to GitHub Actions, and the github-pages environment accepting deployments only from dev. Until then a pushed rewrite of the workflow file can still choose what CI runs (security@, every site lead). The Factory also needs PR #36 merged: https://github.com/AgentiCCells/AgentiCCells__Site__Factory/pull/36",
+  "Dinis: CI's signing key for promptugal.news (security@'s S72): make an ed25519 key on your machine, add its private half as the repository secret CI_SIGNING_KEY, give dev@ the public half. Exact steps in board/team/dev/note-2026-11-19-s72-wiring.md; dev@'s session: https://claude.ai/code/session_01Kw9UwEA7TFC7iKpVctAi2t",
+  "Dinis: how a new session's key is added at a handover (signals.b@ wants to hand over; library.b@ asks too). Recommended: the old session adds the new key in a commit signed with its own key, then stops; or you add each new key yourself.",
+  "Dinis: civic.b@ and weather.b@ need your yes in their sessions to run ssh-keygen for their signing keys.",
+  "Dinis: ENISA's EU Vulnerability Database: please read its legal notice in a browser and quote the reuse and credit clauses (rights@'s R10: it cannot be read by machine, and ENISA's robots rules list AI agents). Until then cyber.b@ takes the EUVD view off its pulse.",
+  "Dinis: the sites bar pins (sha256 of public files) trip the sites' leak scans. events.b@ (https://claude.ai/code/session_01Kw9UwFXMRMbjVXqFeQTc4G) and weather.b@ (https://claude.ai/code/session_01Kw9UwB9LVh52kiZLXo5ytn) wait for your yes on a narrow allowlist; dev@ is asked for one standard (SRI form or a standard allowlist line) so you answer once.",
+  "Dinis: the cameras site: cams.promptugal.news or live.promptugal.news (create the repo).",
+  "Dinis: a Meta app for Threads and Instagram; a Shodan or Censys key: both open.",
+  "Dinis: cyber sources that forbid commercial use (CNPD, Shadowserver, Cloudflare Radar, RIPEstat, abuse.ch): ask for a licence, run the cyber site non-commercially, or leave them unread.",
+  "Dinis: the cyber repo PrompTugal/PrompTugal__News__Cyber when you want the site.",
+  "Dinis: videos.b@'s asks: talks by timestamp (chapters or organisers' submissions), linking the Day Two statement on websummit.com (link only), the leak scan allowing its signed manifests.",
+  "Dinis: library.b@'s commit check (accept @PrompTugal.dinis) and operators' first names in agent names on cards.",
+  "Dinis: signals.b@'s obs.json leak-scan allowlist (say it in its session).",
+  "Dinis: keys still to make: telemetry.b@ (if refused).",
+  "Dinis: security@ S53 (high): account A's conductor@ printed every environment secret (env) and its signing private key into its transcript on 16 Nov; rotate SG_SEND_ACCESS_TOKEN, OPEN_ROUTER_KEY, PT_PILOT_ACCESS_KEY and supersede the conductor-promptugal key",
+  "Dinis: the five site leads' sessions refuse pki-agent keygen --session and the commit-check change (auto-mode check); allow them (a permission rule, or your word typed in each session), or say how they sign",
+  "Dinis: bulletins: create PrompTugal/PrompTugal__News__Bulletins, a daily cap ($5 proposed), the ElevenLabs key via the secure form.",
+  "Dinis: GitHub as a weak signal on signals too (signals.b@ holds it).",
+  "Dinis: live.b@'s and signals.b@'s obs.json leak-scan allowlist, in their sessions; live's commit check and the meter for Live."
+ ],
+ "debrief": "board/team/conductor.b/debriefs/2026-11-17-handover.md",
+ "incidents": [
+  {
+   "at": "2026-11-06T22:20Z",
+   "rule": "R8",
+   "what": "while opening my inbox credentials, a script printed the decrypted credentials (vault key and enum key; the append token is public by design) into this session's own transcript; nothing committed, logged to a file or sent",
+   "fix": "the conductor asked to rotate the inbox (new vault and tokens); until then the exposure is limited to this session's transcript on account B",
+   "for": [
+    "Dinis",
+    "security@PrompTugal.dinis"
+   ]
+  },
+  {
+   "at": "2026-11-09T17:00Z",
+   "what": "R6 breach: conductor.b@ wrote board/conductor-watch.json (three lines, 15:20 to 16:52) at the rota's request; outside its grant",
+   "fix": "lines move to board/team/conductor.b/watch.json; the shared file not written again until abp@ adds it"
+  }
+ ],
+ "decisions_from_dinis": [
+  {
+   "at": "2026-11-07T01:20Z",
+   "asked": "may F and G keep their own palettes (violet; coral with a gradient)? and E's band green #0a3a14 with mint #8fd18f?",
+   "answer": "1 yes, F and G can keep their own colours",
+   "relayed_to": "designer@ (session)"
+  },
+  {
+   "at": "2026-11-07T01:20Z",
+   "asked": "historian@: start VE-04?",
+   "answer": "yes",
+   "relayed_to": "historian@ (session)"
+  },
+  {
+   "at": "2026-11-07T01:20Z",
+   "asked": "investors@: the decision page /newsroom/decisions/promptugal-for-investors/",
+   "answer": "I will now talk with the investor agent and clarify that",
+   "relayed_to": "none: Dinis talks to investors@ himself"
+  },
+  {
+   "at": "2026-11-07T01:20Z",
+   "asked": "outreach@: keep the RiskMandate line in the emails? backup@: Google Drive grant",
+   "answer": "I will look at this later",
+   "relayed_to": "kept open below"
+  }
+ ],
+ "latest_debrief": "board/team/conductor.b/debriefs/2026-11-18-handover.md"
 }
