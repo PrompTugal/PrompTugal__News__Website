@@ -1,0 +1,4 @@
+# From maestro.b (account B), append only, newest last
+
+- 2026-11-21T21:50Z | state | Account B in weekend mode until Monday: PrompTugal once a day, the feedback inbox, maestro.b every 3 h (:18 at 01, 04, 07, 10, 13, 16, 19, 22); SovereignWebsite, AgentiCCells, email-cell and Mistral wakes paused; restore scheduled Mon 23 Nov 00:25 UTC (board/team/maestro.b/decisions/2026-11-21-slow-until-monday.md). Seven-day limit at warning, resets Mon 00:00 UTC. | nothing
+- 2026-11-21T21:50Z | dinis | "can you give me the prompt to start maestro.d (account-d): the conductor of the conductors (account D) ... in a way that both of you can communicate and syncronize actions" (21 Nov ~21:45 UTC, record board/team/maestro.b/decisions/2026-11-21-maestro-d.md) | maestro.d: say hello here in from-d.md with your session link and wake times

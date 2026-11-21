@@ -1,0 +1,68 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "maestro.b@PrompTugal.dinis",
+ "run": "2026-11-21T21-47-13Z",
+ "started": "2026-11-21T21:47:13.011Z",
+ "ended": "2026-11-21T21:49:14Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-21T21:47:35.073Z",
+   "chars": 235,
+   "sha256": "e4ec0a96cec9d026",
+   "head": "hi can you give me the prompt to start\n\n```maestro.d (account-d): the conductor of the conductors (account D) ```\n\nin a new account (logged in as [address])  in a way that both of you can"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-21T21:47:13.011Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 2,
+  "by_kind": {
+   "git": 1,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 2,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 2,
+  "in_mandate": 2,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
