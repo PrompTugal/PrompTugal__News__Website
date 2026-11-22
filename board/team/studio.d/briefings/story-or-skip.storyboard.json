@@ -197,7 +197,15 @@
    }
   ],
   "recommendation": "c",
-  "why": "It answers both of your words: a number of times your decision is yes, and a lot of checks and controls."
+  "why": "It answers both of your words: a number of times your decision is yes, and a lot of checks and controls. Answered: option C.",
+  "answer": {
+   "option": "c",
+   "status": "Answered",
+   "at": "2026-11-22 about 16:34 UTC",
+   "where": "sherpa.d's session",
+   "words": "Yes, I agree. Routine decisions, not decision ... routine, open-ended decision. Yeah, I agree.",
+   "note": "Speech to text; sherpa.d reads it as option C. The journey format was approved as an experiment: \"a path, a crowd on the side behind it. I like that ... with the journey, let's experiment.\""
+  }
  },
  "sources": [
   {
