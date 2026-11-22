@@ -37,3 +37,18 @@ Repository names below follow the existing pattern (Site__Organisation__*, Site_
 
 ## 5. An observability agent for these sites
 - Dinis: "There should be an agent here that draws the observability lane." A new session is Dinis's (ABP R4). Proposed: observability.d on account D, starting from observability@'s debriefs (account A), one lane per site and one report.
+
+## Update (16:30 UTC), from Dinis in my session
+
+Verbatim: "Yes, let's start with the agent ... I'll check with the other agent what we are going to, how it's going there, because I think that's already running, and I think you need a case where you need to be given the vault via the conductor of how is going to work here."
+
+As I read it (for Dinis to correct):
+- **Order: the agent first.** The OpenRouter agent (agent-with-tools, from SGraph-AI__Tools) is the first piece to port, ahead of the rest of section 2 and the other sites.
+- **AWS joins the list (yes to my question):**
+
+## 6. AWS: SovereignWebsite/Site__Platform__AWS (proposed)
+- A better UI on the owner's own AWS account: budgets and costs, services, start only named things, an S3 browser.
+- Browser-direct: Cost Explorer, Budgets, STS, Cognito Identity, Lambda and EC2 allow any origin (CORS preflight checked 22 Nov 16:22 UTC); S3 needs a CORS rule per bucket.
+- Credentials: short-lived tokens (Cognito identity pool or STS web identity) limited by an IAM role the owner writes; or a key in the owner's vault, encrypted on the device with a passkey or PKI key. Never a long-lived key on our hosts. Unofficial, not AWS's logo.
+- **Dinis is checking with an agent already running** how this work stands; nothing here starts until he or that agent's conductor says so.
+- **The vault:** strategy.d needs to be given access to the vault by its conductor, to see how keys and tokens are kept, before writing more of this design. Asked in status.json.

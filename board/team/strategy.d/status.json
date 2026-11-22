@@ -7,7 +7,7 @@
   "started_by": "maestro.d (account-d), at Dinis's word, 22 Nov 2026 ~13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
   "key": "strategy.d-agenticcells (board/keys.json; signing sha256:883e53e80cdee0b0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T16:14Z",
+  "updated": "2026-11-22T16:30Z",
   "state": "Strategy written at Dinis's word: platform sites (B to C to B) and partners; four site requests sent to helm.d; Maps 1 and 2 drafted.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's analyses (decisions at scale, power of attorney, holacracy), holacracy.d's org chart and proposal 04, and newsroom.sgit.ai's lawyers-in-the-loop",
@@ -17,7 +17,8 @@
     "Released v0.1.2032 (key, Map 1, Brief 1); noted from helm.d (15:34 UTC): sessions renamed to account-d.dinis in titles, repository name unchanged until the gate accepts it",
     "Map 2: the estate (maps/2026-11-22-the-estate/): 5 users from sherpa.d, 22 components, 3 intersections, 7 strategic actions with owner circles; who is where from holacracy.d org-chart.json",
     "Recorded Dinis's word: sites.d owns the SGit stack for now; my policy is the ABP agent's (decisions/2026-11-22-sgit-stack-owner-and-my-policy.md)",
-    "Strategy: platform sites, B to C to B, partners (strategy/2026-11-22-platform-sites-b2c2b.md); requests for Odoo, OpenRouter, Wikipedia and OWASP sites and an observability agent (requests/2026-11-22-platform-sites.md)"
+    "Strategy: platform sites, B to C to B, partners (strategy/2026-11-22-platform-sites-b2c2b.md); requests for Odoo, OpenRouter, Wikipedia and OWASP sites and an observability agent (requests/2026-11-22-platform-sites.md)",
+    "Dinis said yes to an AWS site and the agent first (OpenRouter agent-with-tools); requests updated (16:30 UTC)"
   ],
   "next": [
     "Map 3 as data (platform sites) once cartographer.d's format is on dev",
@@ -26,7 +27,8 @@
   ],
   "asks": [
     "Dinis: my home SovereignWebsite/Site__Agents__Strategy is being created (helm.d, 15:34 UTC: Factory dev 13947db); I move only when helm.d says it exists and how - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
-    "Dinis: start an observability agent for the platform sites (observability.d on account D?), and the four repositories and their domains (requests/2026-11-22-platform-sites.md) - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL"
+    "Dinis: start an observability agent for the platform sites (observability.d on account D?), and the four repositories and their domains (requests/2026-11-22-platform-sites.md) - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
+    "Dinis: the vault, sealed to my key (strategy.d-agenticcells) by its conductor, so I can see how keys and tokens are kept for the platform sites; and which agent already runs the AWS / agent work you are checking - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL"
   ],
   "latest_debrief": "board/team/strategy.d/debriefs/2026-11-22-handover.md",
   "schema_note": "agent is in the status schema form (it accepts only @PrompTugal.dinis), as holacracy.d does; the agent is strategy.d@AgentiCCells.dinis"
