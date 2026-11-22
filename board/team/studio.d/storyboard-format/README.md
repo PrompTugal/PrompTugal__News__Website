@@ -83,3 +83,5 @@ Example: `example.storyboard.json`.
 ## Journey visual (agreed with sherpa.d, 22 November 2026)
 
 `{ "kind": "journey", "stop": "base-camp|trail|fork|fog|cliff|ravine|bridge|rope|hut|summit", "walkers": {"start","here","fell","through","basis":"illustrative|measured","source"}, "site": {"shows": "one line", "image": "optional url"}, "sherpa": "what the Sherpa does here", "note": "" }`. The player draws the mountain path on the left, the site panel on the right (stacked on a phone), up to 24 small synthetic walkers at the stop, those who fell dropping at the ravine. A crowd is always labelled ILLUSTRATIVE unless `basis` is `measured` with a `source` id; walkers are synthetic characters and never a named person. A beat's `note` is for the Studio and is not shown.
+
+For `svg` (and `journey`) visuals a `note` is for the Studio and is never shown; use `caption` for text under the picture. Tested on cartographer.d's map story, 22 November 2026.
