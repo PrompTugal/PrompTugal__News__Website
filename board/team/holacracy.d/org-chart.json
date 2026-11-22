@@ -1,6 +1,6 @@
 {
  "about": "The governance record of Dinis's agents, kept by holacracy.d@AgentiCCells.dinis. First draft, 22 November 2026. Account D from list_sessions, get_session (status, model, cost, parent; never transcripts) and the status.json files; account B reported, not seen.",
- "generated": "2026-11-22T15:40Z",
+ "generated": "2026-11-22T16:00Z",
  "schema": "circles[], roles(=agents)[], tensions in proposals/. Roles' domains come from the ABP grant where one exists (none yet for the .d agents, see T4).",
  "sources": [
   "board/team/maestro.d/status.json",
@@ -233,7 +233,8 @@
    "configured": "sonnet",
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
-   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)"
+   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
+   "conductor": "conductor.d (SovereignWebsite) (relayed: Dinis to helm.d ~15:47Z); the tree still shows who started it"
   },
   {
    "id": "hub.d",
@@ -251,7 +252,8 @@
    "configured": "sonnet",
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
-   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)"
+   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
+   "conductor": "conductor.d (SovereignWebsite) (relayed: Dinis to helm.d ~15:47Z); the tree still shows who started it"
   },
   {
    "id": "design.d",
@@ -341,7 +343,8 @@
    "twin": "streaming.b?",
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
-   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)"
+   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
+   "conductor": "conductor.d (SovereignWebsite) (relayed: Dinis to helm.d ~15:47Z); the tree still shows who started it"
   },
   {
    "id": "conductor.d@AgentiCCells",
@@ -399,7 +402,8 @@
    "twin": "writer-10 (newsroom.b), reported",
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
-   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)"
+   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
+   "conductor": "none; sits under sgit.ai (relayed: Dinis to helm.d ~15:47Z); no circle or lead written for sgit.ai yet"
   },
   {
    "id": "helm.d",
@@ -431,12 +435,9 @@
     "decisions.d",
     "studio.d",
     "landscape.d",
-    "holacracy.d",
-    "sites.d (with streaming.d)",
-    "hub.d",
-    "newsroom.d"
+    "holacracy.d"
    ],
-   "span_note": "helm.d's list, checked against this chart: it equals every account D agent whose parent is maestro.d and which is not a conductor. Open for Dinis (decision page /newsroom/decisions/the-central-circle/): whether sites.d, hub.d and newsroom.d stay in the span or move to a conductor (proposal 03).",
+   "span_note": "The helm's span is the central circle only (Dinis to helm.d ~15:47Z, relayed; helm.d's file board/team/helm.d/decisions/2026-11-22-dinis-answers-1547.md was not yet on dev when I recorded this). sites.d, hub.d and streaming.d are conducted by conductor.d (SovereignWebsite); newsroom.d sits under sgit.ai.",
    "name_before": "helm.d@AgentiCCells.dinis",
    "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },

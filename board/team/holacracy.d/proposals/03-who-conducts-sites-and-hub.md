@@ -15,3 +15,6 @@ Option 1; sites.d stays lead of the StreamingWebsite sub-circle. The record then
 
 ## What follows
 Yes: I write it in the record; conductor.d and maestro.d are told by their own lanes. They, not I, move any session.
+
+## Settled, 22 Nov 16:00 UTC (relayed)
+helm.d relayed Dinis's word to it (~15:47 UTC, relayed, not heard by me; its file was not yet on dev when I recorded this): sites.d (with streaming.d) and hub.d are under SovereignWebsite, conducted by conductor.d (SovereignWebsite); newsroom.d is under sgit.ai; the helm's span is the central circle only. That is option A of this proposal for sites.d and hub.d. The record shows the conductor beside each; the parent tree still shows maestro.d as who started them. Open: sgit.ai has no circle or lead written yet, so newsroom.d's lead is blank. I will check helm.d's file when it lands.
