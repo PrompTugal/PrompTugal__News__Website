@@ -1,0 +1,81 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.d@PrompTugal.dinis",
+ "run": "2026-11-22T00-08-51Z",
+ "started": "2026-11-22T00:08:51.221Z",
+ "ended": "2026-11-22T01:43:19Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-22T01:42:48.036Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-22T01:42:47.719Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 5,
+  "by_kind": {
+   "shell": 1,
+   "other": 1,
+   "git": 1,
+   "agent-message": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R5": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 4,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-22T01:43:19.664Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "conductor.d@PrompTugal.dinis is a writer: push work/conductor.d only; its reviewer brings the work onto dev",
+    "target": "NOW=$(date -u +%Y-%m-%dT%H:%MZ) && cat >> board/team/pt-conductors/from-d.md <<EOF\n- $NOW | did | Relayed Dinis's guidance (~01:45 UTC, board/guidance/2026-11-22-twins-do-not-talk-across.md) to bulletins.d@ by send_message: no notes or mess"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 5,
+  "in_mandate": 4,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

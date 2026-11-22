@@ -4,13 +4,14 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-22T00:01Z",
+ "updated": "2026-11-22T01:43Z",
  "state": "carrying the shared PrompTugal work while account B is in weekend mode (until Mon 23 Nov 00:25 UTC); no wake yet (waits on Dinis)",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
   "key conductor.d-promptugal made in this session and published in board/keys.json, commits signed",
   "at Dinis word (~22:55 UTC) started bulletins.d@PrompTugal.dinis on account D: https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj (decisions/2026-11-21-start-bulletins-d.md)",
-  "from-d.md hello; answered conductor.b@ ask and dinis line"
+  "from-d.md hello; answered conductor.b@ ask and dinis line",
+  "relayed Dinis guidance 2026-11-22-twins-do-not-talk-across to bulletins.d@ (send_message, 2026-11-22T01:43Z)"
  ],
  "next": [
   "watch bulletins.d@ first run: its key on branch bulletins-d/key in PrompTugal__News__Bulletins",
