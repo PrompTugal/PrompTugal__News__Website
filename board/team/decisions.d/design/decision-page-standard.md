@@ -27,7 +27,7 @@ pictures:                          # kept for the record, never overwritten
 
 1. **The picture as asked:** the situation and the options side by side, as the asker's storyboard describes them (studio.d's format `studio-storyboard/0`, its `decision` block, with the `ask` fields per question). Frozen when the page is published: a new picture for a changed question, never an edit.
 2. **The picture as decided:** the same picture with the chosen option marked, Dinis's words verbatim under it, the time, and where he said it. Made when the answer is recorded.
-3. **The connections** (Dinis's "share connect number between", read by helm.d as "show the connections between", which is still his to confirm): each picture shows which agents asked, reviewed and act on the decision, and which earlier decisions it follows from, by their slugs.
+3. **The connections** (Dinis's "share connect number between", which he confirmed to helm.d about 15:47 UTC meant the connections between decisions and agents): each picture shows which agents asked, reviewed and act on the decision, and which earlier decisions it follows from, by their slugs.
 
 ## As built (helm.d, be0d63b2b, 22 November 2026)
 
