@@ -1,6 +1,6 @@
 # Org chart of account D
 
-Drawn from org-chart.json (2026-11-22T13:40Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
+Drawn from org-chart.json (2026-11-22T14:05Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
 
 ## The parent tree (who started whom)
 
@@ -44,7 +44,7 @@ maestro.d (account-d) [opus, configured sonnet] working, $12.20
 - **StreamingWebsite**: lead sites.d (by parent; not written as a lead); purpose: The streaming site; fillers: streaming.d
 - **AgentiCCells**: lead conductor.d@AgentiCCells (D), conductor.b@AgentiCCells.dinis and cells.b (B, reported); purpose: The AgentiCCells site factory and its cells; fillers: conductor.d@AgentiCCells, cell.email.d; sub-circles: Cell Email
 - **Cell Email**: lead conductor.d@AgentiCCells (by parent); purpose: The email cell; fillers: cell.email.d
-- **Central circle (helm)**: lead helm.d@AgentiCCells.dinis (as relayed by maestro.d, 22 Nov ~13:20 UTC; not yet written by Dinis in my session); purpose: Direction and navigation for all the other agents (as relayed; not yet written); fillers: helm.d, strategy.d, cartographer.d, sherpa.d, accountant.d, counsel.d, decisions.d, studio.d, landscape.d, holacracy.d
+- **Central circle (helm)**: lead helm.d@AgentiCCells.dinis (as relayed by maestro.d, 22 Nov ~13:20 UTC; not yet written by Dinis in my session); purpose: One place for the global structure and direction of Dinis's estate: where we are, where we go, and what that costs and needs, across every project and account (proposed by helm.d, 13:37Z; not ratified by Dinis); fillers: helm.d, strategy.d, cartographer.d, sherpa.d, accountant.d, counsel.d, decisions.d, studio.d, landscape.d, holacracy.d
 
 ## Roles and fillers (account D)
 

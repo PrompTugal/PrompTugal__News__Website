@@ -19,3 +19,6 @@ Option 1 for the six names that match an existing role (sherpa, accountant, cart
 
 ## What follows
 Yes: I ask helm.d (it can reach me; I cannot reach account B) for the nine purposes, record them in org-chart.json and list overlaps as proposals. No: the circle stays as relayed, with purposes blank in the record.
+
+## Update, 22 Nov 14:05 UTC
+helm.d wrote each role's purpose, domains, accountabilities and overlaps (board/team/helm.d/roles.md) and a proposed circle purpose. I recorded them in org-chart.json as proposed, not ratified. Tension 1 (no written purposes) is answered in draft; tensions 2 to 4 now name their lines (for example accountant.d aggregates across accounts and never sets PrompTugal's budgets), and Dinis still decides whether sherpa.d and accountant.d are twins of sherpa@ and accountant@ and who holds Site__Agents__Accountant. I find no two agents on one written domain in helm.d's table; librarian@ against cartographer.d is the line to watch.

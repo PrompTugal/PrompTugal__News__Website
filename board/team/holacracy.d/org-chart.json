@@ -1,6 +1,6 @@
 {
  "about": "The governance record of Dinis's agents, kept by holacracy.d@AgentiCCells.dinis. First draft, 22 November 2026. Account D from list_sessions, get_session (status, model, cost, parent; never transcripts) and the status.json files; account B reported, not seen.",
- "generated": "2026-11-22T13:40Z",
+ "generated": "2026-11-22T14:05Z",
  "schema": "circles[], roles(=agents)[], tensions in proposals/. Roles' domains come from the ABP grant where one exists (none yet for the .d agents, see T4).",
  "sources": [
   "board/team/maestro.d/status.json",
@@ -97,7 +97,7 @@
    "id": "central",
    "name": "Central circle (helm)",
    "lead": "helm.d@AgentiCCells.dinis (as relayed by maestro.d, 22 Nov ~13:20 UTC; not yet written by Dinis in my session)",
-   "purpose": "Direction and navigation for all the other agents (as relayed; not yet written)",
+   "purpose": "One place for the global structure and direction of Dinis's estate: where we are, where we go, and what that costs and needs, across every project and account (proposed by helm.d, 13:37Z; not ratified by Dinis)",
    "fillers": [
     "helm.d",
     "strategy.d",
@@ -381,9 +381,13 @@
    "cost": null,
    "wake": "none",
    "repo": "Site__Agents__Helm (to be requested)",
-   "purpose": "Leads the central circle: direction and navigation; draws up the role-home list with me (as relayed by maestro.d)",
+   "purpose": "Dinis's single entry point for the global structure and direction of travel",
    "twin": "none yet",
-   "account": "D"
+   "account": "D",
+   "domains": "board/team/helm.d/; the circle's list of roles and homes",
+   "accountabilities": "brief Dinis on structure and direction; keep the circle's roles written; route each question to the role that owns it; report to the maestros by the board",
+   "overlap": "maestros execute, helm.d sets the map and direction",
+   "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis"
   },
   {
    "id": "strategy.d",
@@ -397,9 +401,13 @@
    "cost": null,
    "wake": "none",
    "repo": "home to be requested: Site__Agents__<Name>",
-   "purpose": "Role named by maestro.d's relay; purpose not yet written (strategy)",
+   "purpose": "Show where each area and the estate stand and what to do next",
    "twin": "none yet",
-   "account": "D"
+   "account": "D",
+   "domains": "board/team/strategy.d/",
+   "accountabilities": "a Wardley map per area and the estate; strategic concepts and actions; context briefs",
+   "overlap": "cartographer.d draws the maps; strategy.d decides what they say",
+   "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis"
   },
   {
    "id": "cartographer.d",
@@ -413,9 +421,13 @@
    "cost": null,
    "wake": "none",
    "repo": "home to be requested: Site__Agents__<Name>",
-   "purpose": "Role named by maestro.d's relay; purpose not yet written (mapping)",
+   "purpose": "The maps as data and pages, kept current",
    "twin": "none yet",
-   "account": "D"
+   "account": "D",
+   "domains": "board/team/cartographer.d/",
+   "accountabilities": "turn strategy.d's and sherpa.d's maps into JSON and pages, dated and sourced",
+   "overlap": "librarian@ (B) maps what is where; cartographer.d maps strategy",
+   "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis"
   },
   {
    "id": "sherpa.d",
@@ -429,9 +441,13 @@
    "cost": null,
    "wake": "none",
    "repo": "home to be requested: Site__Agents__<Name>",
-   "purpose": "Role named by maestro.d's relay; purpose not yet written (the reader's guide)",
+   "purpose": "User needs and journeys, the anchor of every map",
    "twin": "none yet",
-   "account": "D"
+   "account": "D",
+   "domains": "board/team/sherpa.d/",
+   "accountabilities": "users and needs per area; journeys; the top of each map",
+   "overlap": "sherpa@ (B) reviews one site's pages as a cold reader: twins or two roles is Dinis's",
+   "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis"
   },
   {
    "id": "accountant.d",
@@ -445,9 +461,13 @@
    "cost": null,
    "wake": "none",
    "repo": "home to be requested: Site__Agents__<Name>",
-   "purpose": "Role named by maestro.d's relay; purpose not yet written (budgets)",
+   "purpose": "What every agent costs and is made of, across accounts",
    "twin": "none yet",
-   "account": "D"
+   "account": "D",
+   "domains": "board/team/accountant.d/; the primitives catalogue",
+   "accountabilities": "primitives catalogue; budgets across every agent and account; spend against them",
+   "overlap": "accountant@ (B) budgets one team; whose home Site__Agents__Accountant is, Dinis's",
+   "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis"
   },
   {
    "id": "counsel.d",
@@ -461,9 +481,13 @@
    "cost": null,
    "wake": "none",
    "repo": "home to be requested: Site__Agents__<Name>",
-   "purpose": "Role named by maestro.d's relay; purpose not yet written (counsel)",
+   "purpose": "Draft and test the power of attorney and other instruments",
    "twin": "none yet",
-   "account": "D"
+   "account": "D",
+   "domains": "board/team/counsel.d/",
+   "accountabilities": "drafts; tests against cases; risks; never legal advice",
+   "overlap": "rights@ (B) checks licences and terms of data; counsel.d drafts Dinis's own instruments",
+   "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis"
   },
   {
    "id": "decisions.d",
@@ -477,9 +501,13 @@
    "cost": null,
    "wake": "none",
    "repo": "home to be requested: Site__Agents__<Name>",
-   "purpose": "Role named by maestro.d's relay; purpose not yet written (decisions)",
+   "purpose": "Take decisions within a limited power of attorney Dinis signs",
    "twin": "none yet",
-   "account": "D"
+   "account": "D",
+   "domains": "board/team/decisions.d/; nothing else until the power is issued",
+   "accountabilities": "hold the power; decide only inside it, each decision signed and recorded; refer the rest to Dinis",
+   "overlap": "the decision pages: owners still propose and decide PT decisions",
+   "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis"
   },
   {
    "id": "studio.d",
@@ -493,9 +521,13 @@
    "cost": null,
    "wake": "none",
    "repo": "home to be requested: Site__Agents__<Name>",
-   "purpose": "Role named by maestro.d's relay; purpose not yet written (studio)",
+   "purpose": "Briefings made from storyboards, published on a site",
    "twin": "none yet",
-   "account": "D"
+   "account": "D",
+   "domains": "board/team/studio.d/ (with studio.director, .storyboard, .presenters as sub-agents)",
+   "accountabilities": "storyboard, script, presenters; every briefing published; sources shown",
+   "overlap": "bulletins.d/.b make news summaries from data; studio.d makes briefings on the estate's own topics",
+   "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis"
   },
   {
    "id": "landscape.d",
@@ -509,9 +541,13 @@
    "cost": null,
    "wake": "none",
    "repo": "home to be requested: Site__Agents__<Name>",
-   "purpose": "Role named by maestro.d's relay; purpose not yet written (landscape)",
+   "purpose": "The market around each project, to recommendations and site variants",
    "twin": "none yet",
-   "account": "D"
+   "account": "D",
+   "domains": "board/team/landscape.d/",
+   "accountabilities": "market research; recommendations; site variants; first: Sovereign Website",
+   "overlap": "designer.experiments@ (B) varies PrompTugal pages; landscape.d starts from the market",
+   "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis"
   },
   {
    "id": "email.workflows.d",
