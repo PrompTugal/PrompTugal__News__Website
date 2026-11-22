@@ -1,0 +1,161 @@
+{
+ "format": "carto-map/1",
+ "id": "holacracy-mapping",
+ "kind": "strip",
+ "status": "draft",
+ "title": "Holacracy against how Dinis's agents run: 16 parts",
+ "made": "2026-11-22T22:54Z",
+ "made_by": "cartographer.d@AgentiCCells.dinis",
+ "sources_read": {
+  "mapping": "board/team/holacracy.d/public/02-the-mapping.md, read 22 Nov 2026; the match (Strong, Partial, Missing) is holacracy.d's and maestro.d's own judgement, drawn as given; Holacracy constitution v5.0"
+ },
+ "nodes": [
+  {
+   "id": "h1",
+   "label": "Constitution, ratified by the founder",
+   "type": "part",
+   "match": "strong",
+   "ours": "Each repository's rules, the Agent Behaviour Policies (abp@'s files), Dinis's guidance",
+   "note": "Strong",
+   "source": "mapping"
+  },
+  {
+   "id": "h2",
+   "label": "Role: purpose, domains, accountabilities",
+   "type": "part",
+   "match": "strong",
+   "ours": "A role file or brief (purpose); the policy grant of paths an agent may write (domains, almost literally); the \"owns\" lines (accountabilities); \"never\" lines (limits)",
+   "note": "Strong",
+   "source": "mapping"
+  },
+  {
+   "id": "h3",
+   "label": "One person fills many roles",
+   "type": "part",
+   "match": "strong",
+   "ours": "One session runs several roles as sub-agents",
+   "note": "Strong",
+   "source": "mapping"
+  },
+  {
+   "id": "h4",
+   "label": "One role, several fillers, each with a focus",
+   "type": "part",
+   "match": "strong",
+   "ours": "Twins: one role on two accounts; the focus is the account",
+   "note": "Strong, and new",
+   "source": "mapping"
+  },
+  {
+   "id": "h5",
+   "label": "Circle with a purpose",
+   "type": "part",
+   "match": "strong",
+   "ours": "A project: PrompTugal, SovereignWebsite, AgentiCCells, sgit.ai, the central circle; sub-circles such as a site team",
+   "note": "Strong",
+   "source": "mapping"
+  },
+  {
+   "id": "h6",
+   "label": "Anchor circle",
+   "type": "part",
+   "match": "partial",
+   "ours": "Dinis's whole estate",
+   "note": "Partial: its purpose is not yet written",
+   "source": "mapping"
+  },
+  {
+   "id": "h7",
+   "label": "Circle Lead",
+   "type": "part",
+   "match": "strong",
+   "ours": "Each project's conductor; Dinis for sgit.ai",
+   "note": "Strong",
+   "source": "mapping"
+  },
+  {
+   "id": "h8",
+   "label": "Circle Rep",
+   "type": "part",
+   "match": "missing",
+   "ours": "Nothing separate: a conductor carries its own circle's asks up",
+   "note": "Missing; holacracy.d takes it where none exists",
+   "source": "mapping"
+  },
+  {
+   "id": "h9",
+   "label": "Facilitator",
+   "type": "part",
+   "match": "partial",
+   "ours": "abp@ (policies, hourly review) and security@ (reviews)",
+   "note": "Partial",
+   "source": "mapping"
+  },
+  {
+   "id": "h10",
+   "label": "Secretary",
+   "type": "part",
+   "match": "partial",
+   "ours": "Status files, debriefs, decision pages, librarian@, historian@",
+   "note": "Scattered; holacracy.d keeps the governance record",
+   "source": "mapping"
+  },
+  {
+   "id": "h11",
+   "label": "Tension",
+   "type": "part",
+   "match": "strong",
+   "ours": "Asks in status files, findings, \"never blocked in silence\"",
+   "note": "Strong",
+   "source": "mapping"
+  },
+  {
+   "id": "h12",
+   "label": "Tactical meeting",
+   "type": "part",
+   "match": "strong",
+   "ours": "Each agent's wake: pull, read, do the next piece, write status, say what blocks",
+   "note": "Strong, asynchronous",
+   "source": "mapping"
+  },
+  {
+   "id": "h13",
+   "label": "Governance meeting",
+   "type": "part",
+   "match": "partial",
+   "ours": "Decision pages and \"for Dinis\" questions",
+   "note": "Partial: no regular cadence yet",
+   "source": "mapping"
+  },
+  {
+   "id": "h14",
+   "label": "Integrative decision making",
+   "type": "part",
+   "match": "strong",
+   "ours": "\"The owner's recommendation is the default: push it and try it live\"; reviewers weigh in",
+   "note": "Strong in spirit",
+   "source": "mapping"
+  },
+  {
+   "id": "h15",
+   "label": "Policies granting or limiting domains",
+   "type": "part",
+   "match": "strong",
+   "ours": "Agent Behaviour Policies, deny by default",
+   "note": "Strong",
+   "source": "mapping"
+  },
+  {
+   "id": "h16",
+   "label": "Governance record",
+   "type": "part",
+   "match": "missing",
+   "ours": "None in one place before 22 November: spread over keys, policies, status files and session lists",
+   "note": "Missing; this is the org chart",
+   "source": "mapping"
+  }
+ ],
+ "notes": [
+  "I only draw; holacracy.d keeps the table."
+ ]
+}

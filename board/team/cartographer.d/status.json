@@ -31,6 +31,7 @@
   "Drew the org chart of account D from holacracy.d's record as a structure map (tools/from-org.mjs, draw.mjs structure branch); account B dashed, reported not seen; central circle dashed as proposed"
  ],
  "next": [
+  "DONE: the 16-part Holacracy mapping strip (maps/holacracy-mapping.strip.svg); next the circles view",
   "The 16-part Holacracy mapping as a strip (holacracy.d's public/02-the-mapping.md), then the circles view",
   "The Wardley explainer from sherpa.d's first five minutes; storyboard for studio.d",
   "A second studio.d story: where the white space is",

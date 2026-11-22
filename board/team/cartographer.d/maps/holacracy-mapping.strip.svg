@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 846" role="img" aria-label="Holacracy against how Dinis's agents run: 16 parts" font-family="system-ui, sans-serif"><rect width="1400" height="846" fill="#fff"/>
+<text x="30" y="36" font-size="24" font-weight="600" fill="#111">Holacracy against how Dinis's agents run: 16 parts</text>
+<text x="30" y="62" font-size="14" fill="#444">strip, draft, made 2026-11-22T22:54Z by cartographer.d@AgentiCCells.dinis; the match is holacracy.d's and maestro.d's own judgement (Holacracy constitution v5.0)</text>
+<text x="30" y="90" font-size="15" fill="#111">Strong: 10   Partial: 4   Missing: 2   (green, amber, red)</text>
+<rect x="30" y="120" width="330" height="150" rx="6" fill="#cfe9d6" stroke="#666"><title>Constitution, ratified by the founder: Each repository's rules, the Agent Behaviour Policies (abp@'s files), Dinis's guidance (Strong)</title></rect>
+<text x="40" y="142" font-size="15" font-weight="600" fill="#111">Constitution, ratified by the</text>
+<text x="40" y="160" font-size="15" font-weight="600" fill="#111">founder</text>
+<text x="40" y="188" font-size="12" fill="#222">Each repository's rules, the Agent Behaviour</text>
+<text x="40" y="203" font-size="12" fill="#222">Policies (abp@'s files), Dinis's guidance</text>
+<text x="40" y="262" font-size="12" font-weight="600" fill="#333">Strong</text>
+<rect x="374" y="120" width="330" height="150" rx="6" fill="#cfe9d6" stroke="#666"><title>Role: purpose, domains, accountabilities: A role file or brief (purpose); the policy grant of paths an agent may write (domains, almost literally); the "owns" lines (accountabilities); "never" lines (limits) (Strong)</title></rect>
+<text x="384" y="142" font-size="15" font-weight="600" fill="#111">Role: purpose, domains,</text>
+<text x="384" y="160" font-size="15" font-weight="600" fill="#111">accountabilities</text>
+<text x="384" y="188" font-size="12" fill="#222">A role file or brief (purpose); the policy</text>
+<text x="384" y="203" font-size="12" fill="#222">grant of paths an agent may write (domains,</text>
+<text x="384" y="218" font-size="12" fill="#222">almost literally); the "owns" lines</text>
+<text x="384" y="233" font-size="12" fill="#222">(accountabilities); "never" lines (limits)</text>
+<text x="384" y="262" font-size="12" font-weight="600" fill="#333">Strong</text>
+<rect x="718" y="120" width="330" height="150" rx="6" fill="#cfe9d6" stroke="#666"><title>One person fills many roles: One session runs several roles as sub-agents (Strong)</title></rect>
+<text x="728" y="142" font-size="15" font-weight="600" fill="#111">One person fills many roles</text>
+<text x="728" y="188" font-size="12" fill="#222">One session runs several roles as sub-agents</text>
+<text x="728" y="262" font-size="12" font-weight="600" fill="#333">Strong</text>
+<rect x="1062" y="120" width="330" height="150" rx="6" fill="#cfe9d6" stroke="#666"><title>One role, several fillers, each with a focus: Twins: one role on two accounts; the focus is the account (Strong, and new)</title></rect>
+<text x="1072" y="142" font-size="15" font-weight="600" fill="#111">One role, several fillers, each</text>
+<text x="1072" y="160" font-size="15" font-weight="600" fill="#111">with a focus</text>
+<text x="1072" y="188" font-size="12" fill="#222">Twins: one role on two accounts; the focus</text>
+<text x="1072" y="203" font-size="12" fill="#222">is the account</text>
+<text x="1072" y="262" font-size="12" font-weight="600" fill="#333">Strong, and new</text>
+<rect x="30" y="284" width="330" height="150" rx="6" fill="#cfe9d6" stroke="#666"><title>Circle with a purpose: A project: PrompTugal, SovereignWebsite, AgentiCCells, sgit.ai, the central circle; sub-circles such as a site team (Strong)</title></rect>
+<text x="40" y="306" font-size="15" font-weight="600" fill="#111">Circle with a purpose</text>
+<text x="40" y="352" font-size="12" fill="#222">A project: PrompTugal, SovereignWebsite,</text>
+<text x="40" y="367" font-size="12" fill="#222">AgentiCCells, sgit.ai, the central circle;</text>
+<text x="40" y="382" font-size="12" fill="#222">sub-circles such as a site team</text>
+<text x="40" y="426" font-size="12" font-weight="600" fill="#333">Strong</text>
+<rect x="374" y="284" width="330" height="150" rx="6" fill="#fdebc8" stroke="#666"><title>Anchor circle: Dinis's whole estate (Partial: its purpose is not yet written)</title></rect>
+<text x="384" y="306" font-size="15" font-weight="600" fill="#111">Anchor circle</text>
+<text x="384" y="352" font-size="12" fill="#222">Dinis's whole estate</text>
+<text x="384" y="426" font-size="12" font-weight="600" fill="#333">Partial: its purpose is not yet written</text>
+<rect x="718" y="284" width="330" height="150" rx="6" fill="#cfe9d6" stroke="#666"><title>Circle Lead: Each project's conductor; Dinis for sgit.ai (Strong)</title></rect>
+<text x="728" y="306" font-size="15" font-weight="600" fill="#111">Circle Lead</text>
+<text x="728" y="352" font-size="12" fill="#222">Each project's conductor; Dinis for sgit.ai</text>
+<text x="728" y="426" font-size="12" font-weight="600" fill="#333">Strong</text>
+<rect x="1062" y="284" width="330" height="150" rx="6" fill="#f6cfcb" stroke="#666"><title>Circle Rep: Nothing separate: a conductor carries its own circle's asks up (Missing; holacracy.d takes it where none exists)</title></rect>
+<text x="1072" y="306" font-size="15" font-weight="600" fill="#111">Circle Rep</text>
+<text x="1072" y="352" font-size="12" fill="#222">Nothing separate: a conductor carries its</text>
+<text x="1072" y="367" font-size="12" fill="#222">own circle's asks up</text>
+<text x="1072" y="411" font-size="12" font-weight="600" fill="#333">Missing; holacracy.d takes it where none</text>
+<text x="1072" y="426" font-size="12" font-weight="600" fill="#333">exists</text>
+<rect x="30" y="448" width="330" height="150" rx="6" fill="#fdebc8" stroke="#666"><title>Facilitator: abp@ (policies, hourly review) and security@ (reviews) (Partial)</title></rect>
+<text x="40" y="470" font-size="15" font-weight="600" fill="#111">Facilitator</text>
+<text x="40" y="516" font-size="12" fill="#222">abp@ (policies, hourly review) and security@</text>
+<text x="40" y="531" font-size="12" fill="#222">(reviews)</text>
+<text x="40" y="590" font-size="12" font-weight="600" fill="#333">Partial</text>
+<rect x="374" y="448" width="330" height="150" rx="6" fill="#fdebc8" stroke="#666"><title>Secretary: Status files, debriefs, decision pages, librarian@, historian@ (Scattered; holacracy.d keeps the governance record)</title></rect>
+<text x="384" y="470" font-size="15" font-weight="600" fill="#111">Secretary</text>
+<text x="384" y="516" font-size="12" fill="#222">Status files, debriefs, decision pages,</text>
+<text x="384" y="531" font-size="12" fill="#222">librarian@, historian@</text>
+<text x="384" y="575" font-size="12" font-weight="600" fill="#333">Scattered; holacracy.d keeps the governance</text>
+<text x="384" y="590" font-size="12" font-weight="600" fill="#333">record</text>
+<rect x="718" y="448" width="330" height="150" rx="6" fill="#cfe9d6" stroke="#666"><title>Tension: Asks in status files, findings, "never blocked in silence" (Strong)</title></rect>
+<text x="728" y="470" font-size="15" font-weight="600" fill="#111">Tension</text>
+<text x="728" y="516" font-size="12" fill="#222">Asks in status files, findings, "never</text>
+<text x="728" y="531" font-size="12" fill="#222">blocked in silence"</text>
+<text x="728" y="590" font-size="12" font-weight="600" fill="#333">Strong</text>
+<rect x="1062" y="448" width="330" height="150" rx="6" fill="#cfe9d6" stroke="#666"><title>Tactical meeting: Each agent's wake: pull, read, do the next piece, write status, say what blocks (Strong, asynchronous)</title></rect>
+<text x="1072" y="470" font-size="15" font-weight="600" fill="#111">Tactical meeting</text>
+<text x="1072" y="516" font-size="12" fill="#222">Each agent's wake: pull, read, do the next</text>
+<text x="1072" y="531" font-size="12" fill="#222">piece, write status, say what blocks</text>
+<text x="1072" y="590" font-size="12" font-weight="600" fill="#333">Strong, asynchronous</text>
+<rect x="30" y="612" width="330" height="150" rx="6" fill="#fdebc8" stroke="#666"><title>Governance meeting: Decision pages and "for Dinis" questions (Partial: no regular cadence yet)</title></rect>
+<text x="40" y="634" font-size="15" font-weight="600" fill="#111">Governance meeting</text>
+<text x="40" y="680" font-size="12" fill="#222">Decision pages and "for Dinis" questions</text>
+<text x="40" y="754" font-size="12" font-weight="600" fill="#333">Partial: no regular cadence yet</text>
+<rect x="374" y="612" width="330" height="150" rx="6" fill="#cfe9d6" stroke="#666"><title>Integrative decision making: "The owner's recommendation is the default: push it and try it live"; reviewers weigh in (Strong in spirit)</title></rect>
+<text x="384" y="634" font-size="15" font-weight="600" fill="#111">Integrative decision making</text>
+<text x="384" y="680" font-size="12" fill="#222">"The owner's recommendation is the default:</text>
+<text x="384" y="695" font-size="12" fill="#222">push it and try it live"; reviewers weigh in</text>
+<text x="384" y="754" font-size="12" font-weight="600" fill="#333">Strong in spirit</text>
+<rect x="718" y="612" width="330" height="150" rx="6" fill="#cfe9d6" stroke="#666"><title>Policies granting or limiting domains: Agent Behaviour Policies, deny by default (Strong)</title></rect>
+<text x="728" y="634" font-size="15" font-weight="600" fill="#111">Policies granting or limiting</text>
+<text x="728" y="652" font-size="15" font-weight="600" fill="#111">domains</text>
+<text x="728" y="680" font-size="12" fill="#222">Agent Behaviour Policies, deny by default</text>
+<text x="728" y="754" font-size="12" font-weight="600" fill="#333">Strong</text>
+<rect x="1062" y="612" width="330" height="150" rx="6" fill="#f6cfcb" stroke="#666"><title>Governance record: None in one place before 22 November: spread over keys, policies, status files and session lists (Missing; this is the org chart)</title></rect>
+<text x="1072" y="634" font-size="15" font-weight="600" fill="#111">Governance record</text>
+<text x="1072" y="680" font-size="12" fill="#222">None in one place before 22 November: spread</text>
+<text x="1072" y="695" font-size="12" fill="#222">over keys, policies, status files and</text>
+<text x="1072" y="710" font-size="12" fill="#222">session lists</text>
+<text x="1072" y="754" font-size="12" font-weight="600" fill="#333">Missing; this is the org chart</text>
+</svg>
