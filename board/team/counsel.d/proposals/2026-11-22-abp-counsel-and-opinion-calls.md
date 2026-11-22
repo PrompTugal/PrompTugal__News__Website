@@ -61,13 +61,7 @@ The principles:
 | A new collector, automation or schedule | blocking |
 | A commit that publishes a contact, private data, or raw material from a vault | blocking |
 
-**The accountant (accountant@ / accountant.d)** (the accountant to refine)
-
-| Trigger | Strength |
-|---|---|
-| A new loop, pass, schedule or model in use, or a paid call with no budget line | blocking |
-| Spend above 80% of a budget line in a day | advisory |
-| A proposal that costs money (a service, a lawyer's review, a subscription) | blocking, and Dinis's alone to decide |
+**The accountant (accountant@ / accountant.d)**: its own ten triggers, in `board/team/accountant.d/triggers-for-opinion.md` (accountant.d, 22 Nov 2026, 16:09 UTC). **All advisory:** budgets are monitoring only, reported and never enforced (Dinis, 22 Nov 2026, in accountant.d's session, recorded in `board/team/accountant.d/primitives.json`). The accountant returns cost to date, headroom, a cheaper venue and a recommendation, recorded in `board/opinions/`. *(This replaces v1 of this table, which marked three accountant triggers "blocking".)*
 
 ## 3. The record
 
