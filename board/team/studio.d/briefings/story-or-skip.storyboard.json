@@ -1,0 +1,210 @@
+{
+ "format": "studio-storyboard/0",
+ "slug": "story-or-skip",
+ "title": "Do you play the story, or skip to the decision?",
+ "audience": "Dinis: it is his own experience as the user, not a reserved decision",
+ "requested_by": "sherpa.d@AgentiCCells.dinis",
+ "summary": "Every decision brief can play its story first or open on the decision. Which should be the default, and for which decisions? One decision for Dinis, from sherpa.d's reading of his words.",
+ "beats": [
+  {
+   "id": "b1",
+   "narration": "You asked whether a brief should play its story, or skip to the decision, and wanted to decide it from an animation. Only your own use can show which is right, so it is asked of you.",
+   "visual": {
+    "kind": "title",
+    "text": "Story first, or the decision first?"
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b2",
+   "narration": "Two paths lead into the same choice. You notice a decision, open its brief, and either let the story play before the decision, or skip straight to it. Then you answer and get a receipt.",
+   "visual": {
+    "kind": "flow",
+    "nodes": [
+     {
+      "id": "n",
+      "label": "Notice a decision"
+     },
+     {
+      "id": "o",
+      "label": "Open its brief"
+     },
+     {
+      "id": "s",
+      "label": "Story plays"
+     },
+     {
+      "id": "d",
+      "label": "Decision"
+     },
+     {
+      "id": "a",
+      "label": "Answer"
+     },
+     {
+      "id": "r",
+      "label": "Receipt"
+     }
+    ],
+    "edges": [
+     {
+      "from": "n",
+      "to": "o"
+     },
+     {
+      "from": "o",
+      "to": "s",
+      "label": "play"
+     },
+     {
+      "from": "s",
+      "to": "d"
+     },
+     {
+      "from": "o",
+      "to": "d",
+      "label": "skip"
+     },
+     {
+      "from": "d",
+      "to": "a"
+     },
+     {
+      "from": "a",
+      "to": "r"
+     }
+    ]
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b3",
+   "narration": "Option A, today: the story plays first and the decision comes at the end. Context is always seen once, but the story costs time when your answer is a plain yes, and it is the same length for a small yes and for a key decision.",
+   "visual": {
+    "kind": "compare",
+    "left": {
+     "title": "A. Story first (today)",
+     "points": [
+      "Does well: context seen once; matches your 12:40 word",
+      "Does badly: slow when the answer is yes"
+     ]
+    },
+    "right": {
+     "title": "B. Decision first",
+     "points": [
+      "Does well: fastest for routine yeses",
+      "Does badly: context easy to skip when it was needed"
+     ]
+    }
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b4",
+   "narration": "Option C, recommended: it depends on the kind of decision. Routine ones open on the decision. Your reserved ones, money, law, brand, people, keys and what RiskMandate is, play the story first.",
+   "visual": {
+    "kind": "list",
+    "items": [
+     "Routine: opens on the decision, story one tap away",
+     "Reserved (money, law, brand, people, keys, what RiskMandate is): story first",
+     "Needs each decision tagged routine or reserved, checked by helm.d",
+     "A wrong tag misleads"
+    ]
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b5",
+   "narration": "How we will know: your own use. Which stories you play to the end, which you skip, and which decisions you answer without playing. A week of that settles it better than any review.",
+   "visual": {
+    "kind": "list",
+    "items": [
+     "Stories played to the end",
+     "Stories skipped",
+     "Decisions answered without playing"
+    ]
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b6",
+   "narration": "One caveat. This is sherpa.d's reading of your words and two pages. It is not a test with you, and the diagram is a sketch, not a design.",
+   "visual": {
+    "kind": "title",
+    "text": "A reading, not a test"
+   },
+   "facts": [
+    "s1"
+   ]
+  }
+ ],
+ "decision": {
+  "question": "Should a brief play its story first, or open on the decision?",
+  "options": [
+   {
+    "id": "a",
+    "label": "A. Story first, decision at the end (today)",
+    "good": [
+     "Context is always seen once",
+     "The decision is informed",
+     "Matches your 12:40 UTC word"
+    ],
+    "bad": [
+     "Costs time where your decision is yes",
+     "The story is the same length for a small yes and a key decision"
+    ],
+    "blocks": []
+   },
+   {
+    "id": "b",
+    "label": "B. Decision first, story one tap away",
+    "good": [
+     "Fastest for routine yeses",
+     "Context stays one tap away"
+    ],
+    "bad": [
+     "Context is easy to skip on a decision that needed it",
+     "Against your earlier wish for the decision only at the end"
+    ],
+    "blocks": [
+     "The briefs reorder: question on top, story below"
+    ]
+   },
+   {
+    "id": "c",
+    "label": "C. By kind of decision",
+    "good": [
+     "Fast where yes is safe, careful where it is not",
+     "Uses the reserved list"
+    ],
+    "bad": [
+     "Needs each decision tagged routine or reserved",
+     "A wrong tag misleads"
+    ],
+    "blocks": [
+     "The reserved marker (finding J4), which maestro.d has put in the next batch"
+    ]
+   }
+  ],
+  "recommendation": "c",
+  "why": "It answers both of your words: a number of times your decision is yes, and a lot of checks and controls."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "title": "sherpa.d: decision brief, play the story first or open on the decision (the file holds the options in full)",
+   "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/sherpa.d/needs/decision-story-or-skip.md",
+   "read": "2026-11-22"
+  }
+ ]
+}
