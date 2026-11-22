@@ -1,0 +1,33 @@
+{
+ "agent": "router.c@PrompTugal.dinis",
+ "name": "router.c (AgentiCCells)",
+ "account": "c",
+ "focus": "the cross-account ledger (board/routers/ledger/), requests addressed to account C, account C's headroom, the vault plan",
+ "session": "https://claude.ai/code/session_01Kw9UwDYfkJVqAXDG67nuW9",
+ "started_by": "maestro.c (account-c), https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
+ "key": {
+  "id": "router.c-account-c",
+  "encryption": "sha256:cca71ac2454de0bf",
+  "signing": "sha256:2d10ae1640ecbb1b"
+ },
+ "state": "set up; waiting for Dinis: the pin, and the wake. The status schema accepts only @PrompTugal.dinis in agent; name carries the real identity (as accountant.c does).",
+ "pinned_issuer": null,
+ "last_ledger_read": "2026-11-22T21:30Z",
+ "done": [
+  "key made in this session, entry in board/keys.json (signing sha256:2d10ae1640ecbb1b); commits signed with ssh key router.c-account-c",
+  "board/routers/ledger/tools/ledger.mjs: open, claims, receipts, index, check (the receiver's mechanical checks, fail closed), selftest (9 cases pass)",
+  "board/routers/ledger/index.json written (empty ledger: 0 requests)",
+  "board/routers/capacity/c.json: account C five-hour allowed, resets 01:20 UTC 23 Nov; weekly unknown",
+  "board/routers/vaults-plan.md: the comms and task-ledger vaults, for Dinis's yes"
+ ],
+ "next": [
+  "at each wake (once Dinis sets it): pull, stop on HOLD, ledger index, check requests to account c, claim, act within v0, receipt; capacity row"
+ ],
+ "asks": [
+  "Dinis: decisions.c's signing fingerprint (no decisions.c key is in board/keys.json yet); until pinned, router.c acts on no request",
+  "Dinis: the wake: hourly at :08? created only on your yes in this session",
+  "Dinis: account C's weekly percent, when you can (no session can read it)",
+  "Dinis: yes or changes to board/routers/vaults-plan.md"
+ ],
+ "updated": "2026-11-22T21:40Z"
+}

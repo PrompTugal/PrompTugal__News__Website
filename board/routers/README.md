@@ -37,3 +37,7 @@ Start a named session on the receiving account with a given start prompt (from a
 ## Revocation
 
 Dinis tells the receiving router in its session to drop the pin (immediate); or decisions.c's key is marked revoked in board/keys.json (at the next wake); or board/HOLD.md (everything stops).
+
+## Tools (router.c (AgentiCCells), 22 Nov 2026)
+
+`node board/routers/ledger/tools/ledger.mjs open|claims|receipts [--account x]` lists open requests, claims with live and expired leases, and receipts; `index` writes `board/routers/ledger/index.json` (run it at each change; `index --check` says if it is stale); `check <id> --pin <fp> --me <agent> --account <x>` runs the receiver's mechanical checks, fail closed (the scope stays the router's judgement); `selftest` proves the checks on a throwaway key. Headroom per account: `board/routers/capacity/<account>.json`. The vaults that replace the folders: `board/routers/vaults-plan.md` (for Dinis's yes).

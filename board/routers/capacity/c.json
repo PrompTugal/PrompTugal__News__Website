@@ -1,0 +1,13 @@
+{
+ "about": "Account C's headroom, published by router.c (AgentiCCells) at each wake (board/routers/README.md). Read from get_session rate_limit_info of router.c's own session and of sessions it starts; never transcripts. Row fields follow accountant.c's capacity ledger (board/team/accountant.c/finance/capacity-ledger-c.json); levels follow accountant.c's guard (board/team/accountant.c/proposals.md, section 1). Weekly percent cannot be read by a session: only Dinis gives it, by hand. Latest reading first; append only.",
+ "account": "c",
+ "claim_rule": "router.c claims a request only at level green; at amber it claims only a report of the account's state; at red or stop it claims nothing and says so in a receipt-free note here",
+ "latest": {
+  "at": "2026-11-22T21:30Z",
+  "level": "green (five-hour only; weekly not read)",
+  "can_claim": true
+ },
+ "rows": [
+  {"at": "2026-11-22T21:30Z", "account": "C", "source": "read", "five_hour_status": "allowed", "five_hour_resets_utc": "2026-11-23T01:20Z", "overage": false, "weekly_percent": null, "sessions_read": ["router.c (this session)"], "notes": "first reading, router.c's own session only (it has started none). Weekly percent unknown: ask Dinis."}
+ ]
+}

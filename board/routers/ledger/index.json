@@ -1,0 +1,13 @@
+{
+ "about": "Index of the cross-account ledger (board/routers/README.md, v0). Written by board/routers/ledger/tools/ledger.mjs index; never edit by hand.",
+ "protocol": "v0",
+ "counts": {
+  "requests": 0,
+  "claims": 0,
+  "receipts": 0
+ },
+ "by_account": {},
+ "requests": [],
+ "claims": [],
+ "receipts": []
+}
