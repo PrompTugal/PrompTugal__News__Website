@@ -6,7 +6,7 @@
  "session": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
  "key": "cartographer.d-agenticcells (board/keys.json; encryption sha256:c0e836126944f1c2; signing sha256:2ddae8692c5043c6; ssh ed25519 for git signatures)",
  "updated": "2026-11-22T18:14Z",
- "state": "Maps: decision-making, estate, Sovereign Website (strategy and landscape), Wardley-tools landscape, org chart of account D (a structure map), and a history. Drafts. Format now draws structure maps. Holacracy site: holacracy.d's to run, asking Dinis.",
+ "state": "ABP grant requested (abp-grant-request.json, for Monday). Maps: decision-making, estate, Sovereign Website (strategy and landscape), Wardley-tools landscape, org chart of account D (a structure map), and a history. Drafts. Format now draws structure maps. Holacracy site: holacracy.d's to run, asking Dinis.",
  "done": [
   "Read CLAUDE.md, New from Dinis, maestro.d's Holacracy analysis, holacracy.d's org-chart.json and draw tool, the library brief",
   "Key made in this session and published in board/keys.json; commit signed",
