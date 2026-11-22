@@ -38,7 +38,7 @@ for (const [id, ks] of Object.entries(state)) {
   const kts = keyT.map(kt).join(';')
   o.push(`<g opacity="0"><animate attributeName="opacity" values="${op.join(';')}" keyTimes="${kts}" dur="${TOTAL}s" repeatCount="indefinite"/>`)
   o.push(`<g><animateTransform attributeName="transform" type="translate" values="${pos.map(p => `${p} ${y}`).join(';')}" keyTimes="${kts}" dur="${TOTAL}s" repeatCount="indefinite"/>`)
-  o.push(`<circle r="7" fill="#1f3a5f"/><text x="12" y="4" font-size="12" fill="#111">${esc(c.label)}</text></g></g>`)
+  o.push(`<circle r="7" fill="#1f3a5f"/><text x="12" y="5" font-size="16" fill="#111">${esc(c.label)}</text></g></g>`)
 }
 // captions: each shows for its step; the first starts visible, the last holds to the end
 const cap = (i) => {
@@ -50,8 +50,8 @@ const cap = (i) => {
   return `opacity="${vs[0]}"><animate attributeName="opacity" values="${vs.join(';')}" keyTimes="${ts.map(kt).join(';')}" dur="${TOTAL}s" repeatCount="indefinite"/>`
 }
 j.steps.forEach((s, i) => {
-  o.push(`<text x="${L}" y="${H - 70}" font-size="15" fill="#111" ${cap(i)}${esc(s.caption)}</text>`)
-  o.push(`<text x="${L}" y="${H - 48}" font-size="12" fill="#666" ${cap(i)}${esc(s.date)}; source: ${esc(s.source)} (see sources_read in the JSON)</text>`)
+  o.push(`<text x="${L}" y="${H - 70}" font-size="19" fill="#111" ${cap(i)}${esc(s.caption)}</text>`)
+  o.push(`<text x="${L}" y="${H - 46}" font-size="14" fill="#666" ${cap(i)}${esc(s.date)}; source: ${esc(s.source)} (see sources_read in the JSON)</text>`)
 })
 o.push(`<text x="${L}" y="${H - 14}" font-size="11" fill="#555">Evolution, left to right. Visible to the user, bottom to top. A circle appears when the sources first record the component and slides as it matures.</text>`)
 o.push('</svg>')

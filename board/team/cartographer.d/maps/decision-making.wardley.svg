@@ -57,91 +57,91 @@
 <line x1="460" y1="811.6" x2="785" y2="811.6" stroke="#d98200" stroke-width="2" stroke-dasharray="2 3" marker-end="url(#a)"/>
 <line x1="174" y1="541" x2="460" y2="541" stroke="#d98200" stroke-width="2" stroke-dasharray="2 3" marker-end="url(#a)"/>
 <circle cx="473" cy="90" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>Decide many things in one place, with the context and the owner's r... (source: sherpa) Dinis; his own words; Dinis, in maestro.d's session, 22 Nov ~09:00 UTC (relayed; board/team/maestro.d/analysis/2026-11-22-decisions-at-scale/README.md, read 22 Nov 13:35 UTC)</title></circle>
-<text text-anchor="start" x="483" y="94" font-size="11" fill="#111">Decide many things in one</text>
-<text text-anchor="start" x="483" y="106" font-size="11" fill="#111">place, with the context</text>
-<text text-anchor="start" x="483" y="118" font-size="11" fill="#111">and the owner's r...</text>
+<text text-anchor="start" x="483" y="94" font-size="13" fill="#111">Decide many things in one</text>
+<text text-anchor="start" x="483" y="106" font-size="13" fill="#111">place, with the context</text>
+<text text-anchor="start" x="483" y="118" font-size="13" fill="#111">and the owner's r...</text>
 <circle cx="304" cy="90" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>Answer without leaving for another session, and come back easily to... (source: sherpa) Dinis; his own words; Dinis, in maestro.d's session, 22 Nov ~09:00 UTC (relayed; same file)</title></circle>
-<text text-anchor="start" x="314" y="94" font-size="11" fill="#111">Answer without leaving for</text>
-<text text-anchor="start" x="314" y="106" font-size="11" fill="#111">another session, and come</text>
-<text text-anchor="start" x="314" y="118" font-size="11" fill="#111">back easily to...</text>
+<text text-anchor="start" x="314" y="94" font-size="13" fill="#111">Answer without leaving for</text>
+<text text-anchor="start" x="314" y="106" font-size="13" fill="#111">another session, and come</text>
+<text text-anchor="start" x="314" y="118" font-size="13" fill="#111">back easily to...</text>
 <circle cx="642" cy="90" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>Know that my answer reached the agent that asked, and what it did. (source: sherpa) Dinis; a hypothesis; sherpa.d journey, board/team/sherpa.d/needs/journey-dinis-deciding.md (findings J1, J2), 22 Nov</title></circle>
-<text text-anchor="start" x="652" y="94" font-size="11" fill="#111">Know that my answer</text>
-<text text-anchor="start" x="652" y="106" font-size="11" fill="#111">reached the agent that</text>
-<text text-anchor="start" x="652" y="118" font-size="11" fill="#111">asked, and what it did.</text>
+<text text-anchor="start" x="652" y="94" font-size="13" fill="#111">Know that my answer</text>
+<text text-anchor="start" x="652" y="106" font-size="13" fill="#111">reached the agent that</text>
+<text text-anchor="start" x="652" y="118" font-size="13" fill="#111">asked, and what it did.</text>
 <circle cx="850" cy="90" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>Receive an answer I can verify as Dinis's word, and act on it. (source: sherpa) any agent that waits on a decision; a hypothesis; board/abp/README.md and ABP rule R1 (a message is Dinis's word only with his verified signature), read 22 Nov</title></circle>
-<text text-anchor="start" x="860" y="94" font-size="11" fill="#111">Receive an answer I can</text>
-<text text-anchor="start" x="860" y="106" font-size="11" fill="#111">verify as Dinis's word,</text>
-<text text-anchor="start" x="860" y="118" font-size="11" fill="#111">and act on it.</text>
+<text text-anchor="start" x="860" y="94" font-size="13" fill="#111">Receive an answer I can</text>
+<text text-anchor="start" x="860" y="106" font-size="13" fill="#111">verify as Dinis's word,</text>
+<text text-anchor="start" x="860" y="118" font-size="13" fill="#111">and act on it.</text>
 <circle cx="1084" cy="90" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>Be able to say I am blocked, and have Dinis know at once. (source: sherpa) any agent blocked by its environment; his own words; CLAUDE.md, 'Never blocked in silence' (Dinis, 6 Nov 2026), read 22 Nov</title></circle>
-<text text-anchor="start" x="1094" y="94" font-size="11" fill="#111">Be able to say I am</text>
-<text text-anchor="start" x="1094" y="106" font-size="11" fill="#111">blocked, and have Dinis</text>
-<text text-anchor="start" x="1094" y="118" font-size="11" fill="#111">know at once.</text>
+<text text-anchor="start" x="1094" y="94" font-size="13" fill="#111">Be able to say I am</text>
+<text text-anchor="start" x="1094" y="106" font-size="13" fill="#111">blocked, and have Dinis</text>
+<text text-anchor="start" x="1094" y="118" font-size="13" fill="#111">know at once.</text>
 <circle cx="460" cy="172" r="6" fill="#5b2a86" stroke="#5b2a86" stroke-width="2"><title>Good decisions, made at the right level (source: strategy) maestro.d decisions-at-scale, Dinis's words 22 Nov ~09:00 UTC</title></circle>
-<text text-anchor="start" x="470" y="176" font-size="11" fill="#111">Good decisions, made at</text>
-<text text-anchor="start" x="470" y="188" font-size="11" fill="#111">the right level</text>
+<text text-anchor="start" x="470" y="176" font-size="13" fill="#111">Good decisions, made at</text>
+<text text-anchor="start" x="470" y="188" font-size="13" fill="#111">the right level</text>
 <circle cx="655" cy="213" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Decision page (options, recommendation, what follows) (source: strategy) CLAUDE.md 'Decisions are pages'; /newsroom/decisions/</title></circle>
-<text text-anchor="start" x="665" y="217" font-size="11" fill="#111">Decision page (options,</text>
-<text text-anchor="start" x="665" y="229" font-size="11" fill="#111">recommendation, what</text>
-<text text-anchor="start" x="665" y="241" font-size="11" fill="#111">follows)</text>
+<text text-anchor="start" x="665" y="217" font-size="13" fill="#111">Decision page (options,</text>
+<text text-anchor="start" x="665" y="229" font-size="13" fill="#111">recommendation, what</text>
+<text text-anchor="start" x="665" y="241" font-size="13" fill="#111">follows)</text>
 <circle cx="200" cy="188.4" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Playable decision brief (presenter, answer box, sign and send) (source: strategy) decisions-at-scale section 2; bulletins.d asked to prototype ~09:05 UTC</title></circle>
-<text text-anchor="start" x="210" y="192.4" font-size="11" fill="#111">Playable decision brief</text>
-<text text-anchor="start" x="210" y="204.4" font-size="11" fill="#111">(presenter, answer box,</text>
-<text text-anchor="start" x="210" y="216.4" font-size="11" fill="#111">sign and send)</text>
+<text text-anchor="start" x="210" y="192.4" font-size="13" fill="#111">Playable decision brief</text>
+<text text-anchor="start" x="210" y="204.4" font-size="13" fill="#111">(presenter, answer box,</text>
+<text text-anchor="start" x="210" y="216.4" font-size="13" fill="#111">sign and send)</text>
 <circle cx="226" cy="336" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Context brief (the map's slice for one area) (source: strategy) this role's brief from maestro.d, 22 Nov ~13:25 UTC</title></circle>
-<text text-anchor="start" x="236" y="340" font-size="11" fill="#111">Context brief (the map's</text>
-<text text-anchor="start" x="236" y="352" font-size="11" fill="#111">slice for one area)</text>
+<text text-anchor="start" x="236" y="340" font-size="13" fill="#111">Context brief (the map's</text>
+<text text-anchor="start" x="236" y="352" font-size="13" fill="#111">slice for one area)</text>
 <circle cx="330" cy="401.6" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Default-yes window (safe enough to try) (source: strategy) decisions-at-scale section 3; Holacracy integrative decision making</title></circle>
-<text text-anchor="start" x="340" y="405.6" font-size="11" fill="#111">Default-yes window (safe</text>
-<text text-anchor="start" x="340" y="417.6" font-size="11" fill="#111">enough to try)</text>
+<text text-anchor="start" x="340" y="405.6" font-size="13" fill="#111">Default-yes window (safe</text>
+<text text-anchor="start" x="340" y="417.6" font-size="13" fill="#111">enough to try)</text>
 <circle cx="590" cy="368.8" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Dinis's reserved list (money, law, brand, people, keys, RiskMandate) (source: strategy) CLAUDE.md 'Decisions are pages' (For Dinis)</title></circle>
-<text text-anchor="start" x="600" y="372.8" font-size="11" fill="#111">Dinis's reserved list</text>
-<text text-anchor="start" x="600" y="384.8" font-size="11" fill="#111">(money, law, brand,</text>
-<text text-anchor="start" x="600" y="396.8" font-size="11" fill="#111">people, keys, RiskMandate)</text>
+<text text-anchor="start" x="600" y="372.8" font-size="13" fill="#111">Dinis's reserved list</text>
+<text text-anchor="start" x="600" y="384.8" font-size="13" fill="#111">(money, law, brand,</text>
+<text text-anchor="start" x="600" y="396.8" font-size="13" fill="#111">people, keys, RiskMandate)</text>
 <circle cx="460" cy="459" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Roles and circles record (who owns what) (source: strategy) holacracy.d org-chart.json and proposals</title></circle>
-<text text-anchor="start" x="470" y="463" font-size="11" fill="#111">Roles and circles record</text>
-<text text-anchor="start" x="470" y="475" font-size="11" fill="#111">(who owns what)</text>
+<text text-anchor="start" x="470" y="463" font-size="13" fill="#111">Roles and circles record</text>
+<text text-anchor="start" x="470" y="475" font-size="13" fill="#111">(who owns what)</text>
 <circle cx="135" cy="483.6" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>decisions.d (the attorney) (source: strategy) decisions-at-scale section 7; lawyers-in-the-loop (newsroom.sgit.ai, read 22 Nov)</title></circle>
-<text text-anchor="start" x="145" y="487.6" font-size="11" fill="#111">decisions.d (the attorney)</text>
+<text text-anchor="start" x="145" y="487.6" font-size="13" fill="#111">decisions.d (the attorney)</text>
 <circle cx="174" cy="541" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Limited, expiring delegation (power of attorney) (source: strategy) power-of-attorney analysis</title></circle>
-<text text-anchor="start" x="184" y="545" font-size="11" fill="#111">Limited, expiring</text>
-<text text-anchor="start" x="184" y="557" font-size="11" fill="#111">delegation (power of</text>
-<text text-anchor="start" x="184" y="569" font-size="11" fill="#111">attorney)</text>
+<text text-anchor="start" x="184" y="545" font-size="13" fill="#111">Limited, expiring</text>
+<text text-anchor="start" x="184" y="557" font-size="13" fill="#111">delegation (power of</text>
+<text text-anchor="start" x="184" y="569" font-size="13" fill="#111">attorney)</text>
 <circle cx="265" cy="582" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>ABP powers section (what each receiver accepts) (source: strategy) power-of-attorney analysis; ABP v1.19.2 R1</title></circle>
-<text text-anchor="start" x="275" y="586" font-size="11" fill="#111">ABP powers section (what</text>
-<text text-anchor="start" x="275" y="598" font-size="11" fill="#111">each receiver accepts)</text>
+<text text-anchor="start" x="275" y="586" font-size="13" fill="#111">ABP powers section (what</text>
+<text text-anchor="start" x="275" y="598" font-size="13" fill="#111">each receiver accepts)</text>
 <circle cx="135" cy="565.6" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>counsel.d (drafts, simulates, multi-model checks) (source: strategy) power-of-attorney analysis</title></circle>
-<text text-anchor="start" x="145" y="569.6" font-size="11" fill="#111">counsel.d (drafts,</text>
-<text text-anchor="start" x="145" y="581.6" font-size="11" fill="#111">simulates, multi-model</text>
-<text text-anchor="start" x="145" y="593.6" font-size="11" fill="#111">checks)</text>
+<text text-anchor="start" x="145" y="569.6" font-size="13" fill="#111">counsel.d (drafts,</text>
+<text text-anchor="start" x="145" y="581.6" font-size="13" fill="#111">simulates, multi-model</text>
+<text text-anchor="start" x="145" y="593.6" font-size="13" fill="#111">checks)</text>
 <circle cx="1175" cy="516.4" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Named lawyer or firm who signs and certifies (source: strategy) lawyers-in-the-loop: professional review is an established, paid service</title></circle>
-<text text-anchor="end" x="1165" y="520.4" font-size="11" fill="#111">Named lawyer or firm who</text>
-<text text-anchor="end" x="1165" y="532.4" font-size="11" fill="#111">signs and certifies</text>
+<text text-anchor="end" x="1165" y="520.4" font-size="13" fill="#111">Named lawyer or firm who</text>
+<text text-anchor="end" x="1165" y="532.4" font-size="13" fill="#111">signs and certifies</text>
 <circle cx="395" cy="623" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Public decision log and register (hashes, revocations) (source: strategy) maestro.d decisions/, holacracy.d decisions/, power-of-attorney 'register'</title></circle>
-<text text-anchor="start" x="405" y="627" font-size="11" fill="#111">Public decision log and</text>
-<text text-anchor="start" x="405" y="639" font-size="11" fill="#111">register (hashes,</text>
-<text text-anchor="start" x="405" y="651" font-size="11" fill="#111">revocations)</text>
+<text text-anchor="start" x="405" y="627" font-size="13" fill="#111">Public decision log and</text>
+<text text-anchor="start" x="405" y="639" font-size="13" fill="#111">register (hashes,</text>
+<text text-anchor="start" x="405" y="651" font-size="13" fill="#111">revocations)</text>
 <circle cx="330" cy="664" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Receiver's chain check (signature, expiry, revocation, scope) (source: strategy) decisions-at-scale section 7</title></circle>
-<text text-anchor="start" x="340" y="668" font-size="11" fill="#111">Receiver's chain check</text>
-<text text-anchor="start" x="340" y="680" font-size="11" fill="#111">(signature, expiry,</text>
-<text text-anchor="start" x="340" y="692" font-size="11" fill="#111">revocation, scope)</text>
+<text text-anchor="start" x="340" y="668" font-size="13" fill="#111">Receiver's chain check</text>
+<text text-anchor="start" x="340" y="680" font-size="13" fill="#111">(signature, expiry,</text>
+<text text-anchor="start" x="340" y="692" font-size="13" fill="#111">revocation, scope)</text>
 <circle cx="655" cy="729.6" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Append-only inbox lanes (source: strategy) CLAUDE.md 'Identity'; board/inboxes/</title></circle>
-<text text-anchor="start" x="665" y="733.6" font-size="11" fill="#111">Append-only inbox lanes</text>
+<text text-anchor="start" x="665" y="733.6" font-size="13" fill="#111">Append-only inbox lanes</text>
 <circle cx="785" cy="762.4" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Agent session keys and board/keys.json (source: strategy) board/keys.json; signing-setup.sh</title></circle>
-<text text-anchor="start" x="795" y="766.4" font-size="11" fill="#111">Agent session keys and</text>
-<text text-anchor="start" x="795" y="778.4" font-size="11" fill="#111">board/keys.json</text>
+<text text-anchor="start" x="795" y="766.4" font-size="13" fill="#111">Agent session keys and</text>
+<text text-anchor="start" x="795" y="778.4" font-size="13" fill="#111">board/keys.json</text>
 <circle cx="590" cy="787" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>pki.sgit.ai (Dinis signs here) (source: strategy) Dinis ~12:00 UTC, decisions-at-scale section 7</title></circle>
-<text text-anchor="start" x="600" y="791" font-size="11" fill="#111">pki.sgit.ai (Dinis signs</text>
-<text text-anchor="start" x="600" y="803" font-size="11" fill="#111">here)</text>
+<text text-anchor="start" x="600" y="791" font-size="13" fill="#111">pki.sgit.ai (Dinis signs</text>
+<text text-anchor="start" x="600" y="803" font-size="13" fill="#111">here)</text>
 <circle cx="460" cy="811.6" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Dinis's device key (non-extractable / passkey) (source: strategy) decisions-at-scale section 1: the key in person-keys.json was agent-issued</title></circle>
-<text text-anchor="start" x="470" y="815.6" font-size="11" fill="#111">Dinis's device key</text>
-<text text-anchor="start" x="470" y="827.6" font-size="11" fill="#111">(non-extractable /</text>
-<text text-anchor="start" x="470" y="839.6" font-size="11" fill="#111">passkey)</text>
+<text text-anchor="start" x="470" y="815.6" font-size="13" fill="#111">Dinis's device key</text>
+<text text-anchor="start" x="470" y="827.6" font-size="13" fill="#111">(non-extractable /</text>
+<text text-anchor="start" x="470" y="839.6" font-size="13" fill="#111">passkey)</text>
 <circle cx="980" cy="828" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Signed commits and CI signature check (source: strategy) guidance 2026-11-19 signed commits</title></circle>
-<text text-anchor="start" x="990" y="832" font-size="11" fill="#111">Signed commits and CI</text>
-<text text-anchor="start" x="990" y="844" font-size="11" fill="#111">signature check</text>
+<text text-anchor="start" x="990" y="832" font-size="13" fill="#111">Signed commits and CI</text>
+<text text-anchor="start" x="990" y="844" font-size="13" fill="#111">signature check</text>
 <circle cx="1305" cy="885.4" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Public-key cryptography (WebCrypto, ed25519, P-256) (source: strategy) commodity</title></circle>
-<text text-anchor="end" x="1295" y="889.4" font-size="11" fill="#111">Public-key cryptography</text>
-<text text-anchor="end" x="1295" y="901.4" font-size="11" fill="#111">(WebCrypto, ed25519,</text>
-<text text-anchor="end" x="1295" y="913.4" font-size="11" fill="#111">P-256)</text>
-<text x="70" y="986" font-size="11" fill="#555">Green: user need. Purple: the shared goal. Blue: component. Red ring: a gap (named as missing in the sources). Orange arrow: a suggested move, for strategy.d. Positions are a reading of the sources.</text>
+<text text-anchor="end" x="1295" y="889.4" font-size="13" fill="#111">Public-key cryptography</text>
+<text text-anchor="end" x="1295" y="901.4" font-size="13" fill="#111">(WebCrypto, ed25519,</text>
+<text text-anchor="end" x="1295" y="913.4" font-size="13" fill="#111">P-256)</text>
+<text x="70" y="986" font-size="11" fill="#555">Green: user need. Purple: the shared goal. Blue: component. Red ring: a gap (named as missing in the sources). Orange arrow: a suggested move, for strategy.d. Faint dashed: low confidence. Positions are a reading of the sources.</text>
 </svg>

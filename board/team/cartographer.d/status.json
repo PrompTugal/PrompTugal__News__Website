@@ -5,8 +5,8 @@
  "role": "The cartographer: draws and keeps the maps as data and pages; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
  "session": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
  "key": "cartographer.d-agenticcells (board/keys.json; encryption sha256:c0e836126944f1c2; signing sha256:2ddae8692c5043c6; ssh ed25519 for git signatures)",
- "updated": "2026-11-22T16:31Z",
- "state": "Brief written for the best Wardley Maps website and the frameworks behind it (briefs/2026-11-22-wardley-maps-site.md). Maps: decision-making, its history, the Sovereign Website landscape. Draft.",
+ "updated": "2026-11-22T16:45Z",
+ "state": "Landscape of Sovereign Website redrawn for rings 1 to 4 (31 players plus us, low-confidence rows drawn faint); larger labels for phones; Wardley Maps site brief on dev. Drafts.",
  "done": [
   "Read CLAUDE.md, New from Dinis, maestro.d's Holacracy analysis, holacracy.d's org-chart.json and draw tool, the library brief",
   "Key made in this session and published in board/keys.json; commit signed",
@@ -20,12 +20,15 @@
   "Landscape map of Sovereign Website from landscape.d's 17 players, with the white space (own it and move it with no technical skill) shown as a gap, drawn by tools/from-landscape.mjs",
   "Answered landscape.d: node field player and link types accepted; I draw from its folder into my maps/",
   "Storyboard now uses studio.d's svg visual with seek and play",
-  "Dinis (~17:15 UTC): everything is public, relayed to maestro.d and helm.d for the core instructions; a Wardley Maps website with a research mandate, frameworks beyond Wardley (Cynefin, Holacracy, Scrum, SWOT, RACI), explanation with sherpa.d, studio.d and a designer; brief written, team messaged"
+  "Dinis (~17:15 UTC): everything is public, relayed to maestro.d and helm.d for the core instructions; a Wardley Maps website with a research mandate, frameworks beyond Wardley (Cynefin, Holacracy, Scrum, SWOT, RACI), explanation with sherpa.d, studio.d and a designer; brief written, team messaged",
+  "Redrew the Sovereign Website landscape from landscape.d's 31 rows: hosts as the lower layer, the gap computed from the rows (no player serves all three of: no technical skill, own and move it, know who holds it; 10Web is closest), flagged rows faint",
+  "Larger labels in the drawings and the animation (studio.d: small on a phone)"
  ],
  "next": [
-  "On Dinis's word the researcher starts (I cannot start a session); I give it the five tasks in the brief and take its output in carto-map/1",
+  "The Wardley explainer storyboard for studio.d, once sherpa.d's first five minutes arrive (25 to 30 beats of 35 to 45 words, each an svg step)",
   "strategy.d's second map (the estate), then the org chart and the flow of a decision",
-  "landscape.d's map of the Wardley-tool landscape; rings 2 and 4 of Sovereign Website"
+  "A second studio.d test story: where the white space is (landscape)",
+  "Priority from helm.d (sherpa.d, Dinis ~16:18 UTC): Sovereign Website first, AgentiCCells and SGit later"
  ],
  "asks": [
   "Dinis: https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH - the word for these things (frameworks, ways of thinking, methods or models; my recommendation: frameworks), the site's name, a pointer to the code and articles of yours on Wardley maps, and who starts the researcher; all in briefs/2026-11-22-wardley-maps-site.md"
