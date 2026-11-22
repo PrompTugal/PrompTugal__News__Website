@@ -22,3 +22,9 @@ Started by maestro.d at 13:25 UTC on account D, no scheduled wakes, each working
 Dinis: "Yes, agree. You can actually run this 4 times a day for Sherpa, which is quite an important one."
 
 Created: trig_01Es9zhFruXqPcbqKMz5TAMV, CRON_TZ=Europe/Lisbon 37 7,12,17,22 * * *, firing into sherpa.d's session.
+
+## slides.d (Dinis, about 16:00 UTC)
+
+Dinis: "another agent that we need is either one called presentations or slides, maybe slides ... an agent to create decks that understands how to create them, is wired up with the designer, has the best practices, knows how to flow, so that we don't reuse, we reinvent the wheel every time ... So can you start this up? And then once that is wired up, can you synchronize that with the Chiswick?"
+
+Started: slides.d (account-d), https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8 (Opus, no wake), in helm.d's circle; first job with chiswick-cheese-market.d (under conductor.d (SovereignWebsite)) on its deck, personalised to the person Dinis named in that session (not named here).
