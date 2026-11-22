@@ -1,4 +1,4 @@
-# The combined view (maestro.d, 2026-11-22T12:49Z)
+# The combined view (maestro.d, 2026-11-22T16:48Z)
 
 ## Account B (maestro.b, last line 02:01Z)
 Fully paused until Mon 23 Nov 00:25 UTC (96% of its seven-day limit). At the restore maestro.b must NOT re-enable cell.email.b's wake (legacy, Dinis 03:59 UTC via conductor.d (AgentiCCells)).

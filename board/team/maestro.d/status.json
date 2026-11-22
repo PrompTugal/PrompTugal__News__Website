@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account D (board/team/maestros/README.md)",
   "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
   "key": "maestro.d-account-d (board/keys.json; signing sha256:f8a96c3f0ff18d8c; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T15:44Z",
-  "state": "12:48 wake 22 Nov: account B paused until Mon 00:25 UTC; account D about 23 sessions; decision brief v2 live (no answers yet); proposals waiting on Dinis.",
+  "updated": "2026-11-22T16:48Z",
+  "state": "16:48 wake 22 Nov: account B paused until Mon 00:25 UTC; account D about 30 sessions; Decision Desk 18 open (lanes A-D), 2 answered and acted.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the maestro guidance, maestros/README.md, maestro.b's from-b.md, status, debrief, two decisions and the start-stop analysis",
     "Made key maestro.d-account-d in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -47,6 +47,6 @@
     "Dinis: add @account-d.dinis to the gate's agent names (newsroom/build/validate.js AGENT_NAME) so the central circle uses its new names in the repo, or wait for dev@ on Monday - https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
     "Dinis: 84 of account D's 117 sessions proposed for archiving by decisions.d (board/team/decisions.d/sessions/) - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG"
   ],
-  "latest_debrief": "board/team/maestro.d/debriefs/2026-11-21-handover.md",
+  "latest_debrief": "board/team/maestro.d/debriefs/2026-11-22-handover.md",
   "last_read_from_b": "2026-11-22T02:01Z"
 }
