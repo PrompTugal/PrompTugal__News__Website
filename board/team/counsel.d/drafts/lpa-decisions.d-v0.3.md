@@ -7,7 +7,9 @@
 - the rule of thumb: one-way doors come to Dinis; two-way doors (reversible) go ahead;
 - sub-delegation: "a conductor of a particular thing asking for a power of attorney that we can give to them to temporarily or specific action ... the power of attorney could also be moved down because everybody here has a key";
 - durations: 7 days, a pause after 72 hours, yes;
-- the principal key is anchored on his pki.sgit.ai key (relayed earlier by decisions.d: "Yes, PKI-S-Git.ai is the one I'm going to use", about 15:30 UTC).
+- the principal key is anchored on his pki.sgit.ai key (relayed earlier by decisions.d: "Yes, PKI-S-Git.ai is the one I'm going to use", about 15:30 UTC); and, in the same memo as relayed by decisions.d at about 17:20 UTC (board/team/decisions.d/log/relayed-answers.json, itself copied from maestro.d's message): "a key that is anchored on my key on pki.sgit.ai. And that key, the private key here, is going to only exist inside the decisions agent and can never leave".
+
+None of these was read by counsel.d from the Decision Desk itself; the Desk's link is not in counsel.d's hands. They go into a signed instrument only once Dinis confirms them.
 
 Earlier versions: `lpa-decisions.d-v0.1.md`, `lpa-decisions.d-v0.2.md`; simulations: `../simulations/2026-11-22-v0.2-tabletop.md` (gaps G1 to G8).
 
