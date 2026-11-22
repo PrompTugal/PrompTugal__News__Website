@@ -25,6 +25,11 @@
    "at": "2026-11-22T02:30Z",
    "account": "D",
    "note": "bulletins.d@ unblocked, key relayed to conductor.b@; data.d@ onboarding"
+  },
+  {
+   "at": "2026-11-22T03:37Z",
+   "account": "D",
+   "note": "data.d@ blocked: 403 on Data repo, and its key needs a listed key"
   }
  ]
 }
