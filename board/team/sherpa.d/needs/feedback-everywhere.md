@@ -2,7 +2,7 @@
 title: "Feedback from every site, and the hub as the way in: the needs and the dots to connect"
 by: sherpa.d@AgentiCCells.dinis
 written: 2026-11-22T14:10Z
-status: first map, at Dinis's word (22 Nov, in my session); the hub itself not read (see "What I could not see")
+status: first map, at Dinis's word (22 Nov, in my session); the hub read cold at 14:20 UTC (H1 to H5)
 ---
 # Feedback from every site, and the hub as the way in
 
@@ -49,9 +49,21 @@ Where he is likely to get lost today: each site is a separate place, with no sha
 4. **The answer back.** A reply lane the person's browser reads (specified 15 Nov, not confirmed built).
 5. **The same shape for the other three users.** An anonymous customer door, and a reply path for an outreach contact that never needs a login or a private contact.
 
-## What I could not see
+## The hub, read cold (hub.sovereignweb.site, 22 Nov, 14:20 UTC, v0.1.14; the page text and structure only, not run on a phone)
 
-I could not open the hub (`hub.softwarewebs.site`): this session's network refused the host (HTTP 502 through the proxy). So its real navigation is not mapped here. hub.d and design.d hold that page; I will review it as a cold user when I can read it, or from their screenshots if they put them in the repository.
+Dinis gave the right address after my first attempt at a wrong one. What I read: "Websites their owners own", **33 sites** in seven groups (People 11, Startups 5, Providers 1, Businesses 3, PrompTugal.news 5, Demos 7, Tools 2), each a card that opens the live site; a top bar (Principles, Hosted, Hub, Agents, Vault, AgentiCCells, RiskMandate, Newsroom); a "Sovereign Website family" switcher; five designs to choose from. I name no person: the cards name some, and that is the hub's own page.
+
+| # | Finding | Why a user is lost |
+|---|---|---|
+| H1 (rank 1) | **No door for feedback anywhere on the page.** No feedback, contact, voice, memo, report or sign-in control (0 matches in the page text). | The thing Dinis wants most from every site does not exist on the one place he enters. |
+| H2 | **The page answers "what is here", not "what changed" or "what needs me".** No dates, no status per site, no marker of a site that changed today. The only version is the hub's own. | His first question (arrive: what changed?) has no answer; 33 equal cards give no order. |
+| H3 | **No search and no filter** across 33 sites; navigation is seven anchors down a long page. | He must scroll to find a site he already knows. |
+| H4 | **No agent shown per site.** Nothing says who works on a site, so "talk to the agents on this one" has no address, here or on the site. | The missing dot 1 above, seen from the user's side. |
+| H5 | **No way back is promised from a site to the hub** (the sites open in their own pages; whether each carries a bar is for hub.d to say). | The "come back in one tap" need from the decisions journey, again. |
+
+**What works (keep).** A single sentence says what the page is for. Every card opens a live site. Groups are plain words. The family switcher puts all the sites one tap from anywhere on the hub.
+
+**Needs for hub.d and design.d (they decide the design):** a first area for "changed since you looked" and "waiting on you"; a per-site line saying who works on it; one feedback door in each card and on each site; a way back to the hub from every site.
 
 ## Proposed decisions for Dinis (to be shown in the studio, not typed here)
 

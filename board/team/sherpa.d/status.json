@@ -4,7 +4,7 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-22T14:12Z",
+  "updated": "2026-11-22T14:24Z",
   "state": "On dev (four commits, gate OK at v0.1.2031). At Dinis's word (22 Nov ~14:00) mapping four kinds of user, the hub journey and feedback from every site; a schedule proposed, not created (Dinis's yes and cadence first). No scheduled wake yet.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
@@ -14,13 +14,16 @@
     "part 2: brief v2 and maestro.d's Decision Desk read side by side (read-only, answers empty): 9 findings J1 to J9, rank 1 a receipt that says the asking agent hears when only maestro.d does",
     "needs.json for cartographer.d (four kinds of user, hypotheses marked) and README updated",
     "needs/feedback-everywhere.md: users, hub journey, 7 dots that exist, 5 missing, decisions D1 to D3 with what follows each",
-    "told cartographer.d (value-chain shape asked) and studio.d (brief to build from the file); I could not open hub.softwarewebs.site (proxy 502)"
+    "told cartographer.d (value-chain shape asked) and studio.d (brief to build from the file); I could not open hub.softwarewebs.site (proxy 502; Dinis gave the right address hub.sovereignweb.site, read at 14:20 UTC)",
+    "Hub read cold: H1 to H5 in needs/feedback-everywhere.md, rank 1 no feedback door anywhere",
+    "Relayed D1 to D3 to helm.d and maestro.d at Dinis's word"
   ],
   "next": [
     "Create my scheduled wake once Dinis says yes to D1 (in his session)",
-    "Review the hub as a cold user when hub.d or design.d make it readable to me",
     "Add the value-chain shape cartographer.d asks for",
-    "Daily debrief in debriefs/"
+    "Daily debrief in debriefs/",
+    "Send H1 to H5 to hub.d and design.d (the hub's owners) once helm.d says how decisions route",
+    "Re-read the hub on a phone with Playwright if the grant allows"
   ],
   "asks": [
     "Dinis: D1 (a twice-a-day wake for sherpa.d), D2 (a site's feedback lands at its lead agent's lane), D3 (voice memos keep the transcript only): in the studio once studio.d builds it - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
