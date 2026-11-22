@@ -32,3 +32,8 @@ Dinis: "can you start the feedback agent? Can you archive the old sessions? And 
 ## Fifth word (about 19:00 UTC)
 Dinis: "can you create the newsroom.c (sgit.dinis), which is my newsroom that's going to write articles. So it needs to know how to write as me, because I have a new article for it to write." With a source document (a Raspberry Pi set-up guide, from a Mac) and: "the first article to write ... based on the conversation we had before on creating appliances and for the Raspberry Pi for the idea of doing a Kickstarter ... this is how we can set it up so that it just works out of the box and it scales."
 - newsroom.c (sgit.ai), on SGit-AI__Website__Newsroom: https://claude.ai/code/session_01Kw9UwDDEwnjqeLVyqkUjpm (account C's one writer, beside writer-10 on B and newsroom.d on D); the guide was given in its start prompt; it drafts, shows Dinis, publishes on his yes.
+
+## Sixth word (about 19:05 UTC)
+Dinis: "can you now build it here? So I'm really keen for us to be able to collaborate across accounts ... let's use this account C to build OWASP. And also we see here that we talked about the idea of the router and renaming the factory agent."
+- owasp.c (SovereignWebsite), on Site__Platform__Owasp: https://claude.ai/code/session_01Kw9UwE69pr5bPeaQ4tYqir. An exception to the split at Dinis's word: account D (sites.d) holds the four platform sites on paper and had not started OWASP's content; conductor.c claims it in the Factory and tells conductor.d through board/conductor.c/to-d.md.
+- The router design and the rename of the Factory to the Platform (analysis/2026-11-22-routers/README.md) go to the other maestros as claims in from-c.md, so all three accounts see them.
