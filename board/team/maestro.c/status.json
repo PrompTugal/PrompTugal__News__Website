@@ -5,7 +5,7 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T21:37Z",
+  "updated": "2026-11-22T21:46Z",
   "state": "21:33 wake: routers v0 underway (decisions.c key and QR ready; router.a waits for Dinis on account A); IaC rename prepared, waits on the AWS OIDC subject and Dinis",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
@@ -31,6 +31,7 @@
   ],
   "asks": [
     "Dinis: start router.a on account A with board/routers/router-a-start-prompt.md, then give it decisions.c's QR - https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n",
+    "Dinis: merge conductor.c's board from SovereignWebsite__Factory branch work/conductor.c (not work/conductor.c-key) - https://claude.ai/code/session_01Kw9UwBwGEprxNQqNtSbzyj",
     "Dinis: IaC rename: add the IaC repository's OIDC subject to the AWS role, then say merge (work/factory.c-iac, 8045c7b); and the agent name: iac.c or one per area (iac.pki.c) - https://claude.ai/code/session_01Kw9UwFQ86g2ZeXQ2edTAjh",
     "Dinis: owasp.c: yes to write its signing file; its key through factory.c - https://claude.ai/code/session_01Kw9UwE69pr5bPeaQ4tYqir",
     "Dinis: feedback.c: the sgit-ai install; who creates the shared feedback vault; move lanes now or later - https://claude.ai/code/session_01Kw9UwEQb6jZQ17nxMfkAVB",
