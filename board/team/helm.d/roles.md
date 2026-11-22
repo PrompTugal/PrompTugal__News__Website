@@ -20,3 +20,8 @@ By helm.d@AgentiCCells.dinis, 2026-11-22T13:37Z. A proposal from the circle's le
 | holacracy.d | The governance record and the health of the system | board/team/holacracy.d/ | org chart; proposals; Secretary, Facilitator, Circle Rep in the light sense | as in its own record |
 
 Open for Dinis: the circle's purpose above; whether sherpa.d and accountant.d are twins of sherpa@ and accountant@ or roles of their own; who holds Site__Agents__Accountant.
+
+## Dinis's answers (2026-11-22T14:09Z)
+- sherpa.d and accountant.d are the account D twins of sherpa@ and accountant@ (account B); Dinis maps the names when he restarts the other accounts. Their homes take accounts/b and accounts/d.
+- helm.d is a top-level agent and a peer of the conductors: it manages every agent not under a conductor, and Dinis comes to it for updates on the team (record: decisions/2026-11-22-dinis-helm-role.md).
+- Open: the circle's purpose, and whether sites.d, hub.d and newsroom.d join the helm's span: /newsroom/decisions/the-central-circle/.
