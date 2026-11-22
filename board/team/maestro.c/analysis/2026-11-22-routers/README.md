@@ -47,4 +47,15 @@ This is a draft for Dinis to correct. Nothing here is built.
 
 What the SovereignWebsite repository called the Factory does today is infrastructure as code and a pipeline: organisation, DNS, repositories, policy, keys, CI. That is a platform, not a factory. A factory is the whole of what we have built here: a set of agents (router, maestro, conductors, site agents), vaults, policies and the platform, that can stand up another of itself. So for a customer who says "set one of these up for me", the first agent in is the factory agent, and what it builds is a factory like ours, spread over several sessions and accounts.
 
-Proposal: rename today's Factory to the **Platform** (SovereignWebsite__Platform; platform.b/c/d for factory.b/c/d), and keep **factory** for the agent and the recipe that builds a whole new operation. A rename touches many links, keys and agent names, and factory.b (account B) holds the repository, so it is a decision page for Dinis, done in one move (as the newsroom move was), after B is back.
+Proposal (first draft, 19:10 UTC): rename it the Platform. Superseded by Dinis's word below.
+
+## Dinis's word (about 19:20 UTC, maestro.c's session)
+
+"I think it should be called IaC (for Infrastructure as Code), and we should split it per target. AWS, GitHub, {next one we add}."
+
+So today's Factory becomes IaC, one repository per target, for example:
+- SovereignWebsite__IaC__GitHub: the organisation, repositories, rulesets, team access, external collaborators, the org-apply workflow;
+- SovereignWebsite__IaC__AWS: DNS (Route 53) and anything else on AWS, the DNS-apply workflow;
+- the next target gets its own when it is added.
+
+What the Factory holds that is not infrastructure for a target (policy/abp.json and its checks, team/keys.json, requests/, seed/, the board) needs a home of its own; to settle in the decision page (maestro.c's view: keys and policy in one repository every IaC repository reads, requests and seed with the factory agent, which keeps the name "factory" for the agent and recipe that builds a whole new operation). Agent names follow the targets (iac.github, iac.aws, with the account letter). A one-way door: a decision page, then one move, after account B is back.
