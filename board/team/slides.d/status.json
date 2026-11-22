@@ -5,7 +5,7 @@
   "role": "The slide-deck agent of Dinis Cruz's central circle, account D, led by helm.d; started by maestro.d (account-d) at Dinis's word, 22 Nov 2026 ~16:05 UTC",
   "session": "https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
   "key": "slides.d-account-d (board/keys.json; signing sha256:67eb883c794d3b83; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T16:35Z",
+  "updated": "2026-11-22T21:57Z",
   "state": "Chiswick briefing: ten changes applied by its owner, last check sent (three small fixes); method, library, template on dev",
   "done": [
     "Read CLAUDE.md, studio.d's and maestro.d's status, the investor decks' record (by a sub-agent)",
@@ -19,15 +19,16 @@
     "Last check of the rebuilt Chiswick PDF (16 pages): ready after three small fixes",
     "Cloned Algarve Evolution and the Factory read-only at Dinis's word; library updated (Algarve has no deck of its own; the Factory investment case read)",
     "Chiswick briefing: owner applied the last three fixes (55a699a); ready to send",
-    "Proposed ABP grant written (abp-grant-request.json) and sent to maestro.d to relay to abp@"
+    "Proposed ABP grant written (abp-grant-request.json) and sent to maestro.d to relay to abp@",
+    "Home name corrected to Site__Agent__Slides (singular), from Dinis's home-names answer relayed by maestro.d"
   ],
   "next": [
     "Brand tokens from design.d into the template; agree with studio.d where a briefing needs a deck",
     "A deck-review checker (overflow, type size, source lines, page count) beside pdf.mjs"
   ],
   "asks": [
-    "Dinis: Site__Agents__Slides is requested in the Factory (requests/2026-11-22__slides) but not created yet; it needs the Factory run - https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
-    "Dinis: abp@ is on account B; my proposed grant (board/team/slides.d/abp-grant-request.json) goes to it through maestro.d - https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8"
+    "Dinis: my home is SovereignWebsite/Site__Agent__Slides (singular, your answer home-names, ~17:05 UTC); the Factory request requests/2026-11-22__slides is not created yet - https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
+    "Dinis: my own ABP grant is written (abp-grant-request.json, at your answer abp-grants); abp@ builds it into policies.json at Monday 00:25 UTC restore, relayed by maestro.d - https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8"
   ],
   "debrief": "board/team/slides.d/debriefs/2026-11-22-handover.md"
 }
