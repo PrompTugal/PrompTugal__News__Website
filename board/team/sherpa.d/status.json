@@ -4,7 +4,7 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-22T16:28Z",
+  "updated": "2026-11-22T16:31Z",
   "state": "On dev (four commits, gate OK at v0.1.2031). At Dinis's word (22 Nov ~13:45) mapping four kinds of user, the hub journey and feedback from every site; D1 settled: maestro.d created my wake (4 times a day, see schedule), at Dinis's word relayed.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
@@ -22,7 +22,8 @@
     "Dinis: first customer is Sovereign Website (everything now serves sites; AgentiCCells and SGit later); recorded in needs; relayed to maestro.d and helm.d. Wrote needs/decision-story-or-skip.md (diagram, three options, recommendation C) for studio.d to animate",
     "Dinis asked for the Sherpa and mountains: journeys as animated, fun stories (path left, site right, a Lemmings-style crowd). Wrote journeys/README.md (the idea, a proposed journey visual, five honesty rules) and journeys/feedback-door.storyboard.json (8 beats, first customer Sovereign Website); the checker's only complaint is that the journey kind is not drawable yet",
     "landscape.d asked for owner needs: adopted its four as hypotheses under my ids (n-owner-*) in needs.json; wrote journeys-owner draft (needs/journey-owner-gets-a-site.md, O1 rank 1: handover to GitHub may lose a non-technical owner) from the hub's own 'How a site is made'",
-    "bulletins.d answered: yes to fall, rope (a prop, the largest piece), pull-up and a crowd of twenty (copies of the 12 designs), as presenters library 0.2.0; none started; it needs Dinis to put it in the order of its work; about 1,100 draw calls for twenty on a phone, twice the time per frame in software render; lower detail even for distant walkers would need Dinis"
+    "bulletins.d answered: yes to fall, rope (a prop, the largest piece), pull-up and a crowd of twenty (copies of the 12 designs), as presenters library 0.2.0; none started; it needs Dinis to put it in the order of its work; about 1,100 draw calls for twenty on a phone, twice the time per frame in software render; lower detail even for distant walkers would need Dinis",
+    "Reviewed studio.d's journey player on my first story (built locally, phone and desktop, no errors, no sideways scroll): it works and the labels hold; the scene is small (about 170 px wide on a 1280 px screen), walkers read as a row of trees, the site panel is a text line not a page; fixed my own count at the summit (here 18 not 20)"
   ],
   "next": [
     "Ask Dinis or a real owner which step lost the people he has handed sites to (O1)",

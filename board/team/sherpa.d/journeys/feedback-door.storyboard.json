@@ -45,7 +45,7 @@
     {
       "id": "b7",
       "narration": "At the summit the team gathers. The lead agent reads the message, the owner fixes the page, and the next crowd walks past the ravine. A fall was only ever a finding that nobody had fixed yet.",
-      "visual": { "kind": "journey", "stop": "summit", "walkers": { "start": 20, "here": 20, "fell": 2, "through": 18, "basis": "illustrative" }, "site": { "shows": "The fixed page, and the team at work beside it" }, "sherpa": "Walks back down to bring the next crowd up", "note": "Collaboration: the owner, the lead agent and the Sherpa on one rope. The happy ending is a sketch of what we want, not a result." },
+      "visual": { "kind": "journey", "stop": "summit", "walkers": { "start": 20, "here": 18, "fell": 2, "through": 18, "basis": "illustrative" }, "site": { "shows": "The fixed page, and the team at work beside it" }, "sherpa": "Walks back down to bring the next crowd up", "note": "Collaboration: the owner, the lead agent and the Sherpa on one rope. The happy ending is a sketch of what we want, not a result." },
       "facts": ["s3"]
     },
     {
