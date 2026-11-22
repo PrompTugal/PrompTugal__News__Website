@@ -77,3 +77,27 @@ Decision-making is the intersection Dinis named. It touches every area:
 - Is "an agent deciding in its own area" one user or several (conductor, site lead, desk worker)?
 - Where on evolution does the decision page sit across circles: product in PrompTugal, custom elsewhere?
 - Does the map need a third anchor: the customer who buys a cell and wants the same flow?
+
+## v0.2.0 (16:50 UTC): the decision-making framework as a product
+
+Dinis, in maestro.d's session (~16:30 UTC, relayed to me, verbatim): "from a decision-making point of view, this is one of the most important things we need to do, because we need to provide context to the person making decisions. And that's one of the things I want to sell, because I want to sell the decision-making framework, which I think now we have the ability to do that."
+
+The working example is the Decision Desk (a private claude.ai page, relayed, not read by me) with a triage of four lanes: only you and critical; quick, confident, reversible yeses; your judgement; can wait. Each decision carries who may decide, the recommendation's confidence, timing, whether it is critical, and what it blocks.
+
+So the map gains a third user and a product line:
+
+| Part of the framework | Visibility | Evolution | Exists? |
+|---|---|---|---|
+| **The framework, sold** (to a buyer who decides too much, too slowly) | 0.98 | 0.05 | proposal |
+| Triage into four lanes, with who may decide, confidence, timing, critical, blocks | 0.90 | 0.15 | working example (the Desk) |
+| The Desk (one screen, every decision waiting) | 0.88 | 0.15 | working example, private |
+| Stories (playable decision briefs) | 0.86 | 0.10 | prototype asked of bulletins.d |
+| Context brief per area | 0.70 | 0.12 | Brief 1 written |
+| Default-yes window for the "quick, confident, reversible" lane | 0.62 | 0.20 | proposal |
+| Signed answers | 0.50 | 0.10 | proposal |
+| Power of attorney (limited, expiring delegation) | 0.45 | 0.08 | proposal |
+
+What the map says now:
+- The triage is the hinge: it decides which lane goes to signed answers, which to default-yes, and which must wait for the person. Its lanes map onto Map 1's components: "quick confident reversible" is the default-yes window; "only you and critical" is the reserved list; "your judgement" is the playable brief; "can wait" is the digest.
+- Of the parts, only the triage and the Desk run today, and both privately. The product is genesis: first make the framework public on a Sovereign Website (the first customer) as a page anyone can try with their own decisions, the same B to C to B route as the platform sites.
+- Added strategic action **A9**: a public, forkable Decision Desk on a Sovereign Website, with the four lanes and a sample set of decisions (owner circle: SovereignWebsite with the central circle; studio.d for the stories).

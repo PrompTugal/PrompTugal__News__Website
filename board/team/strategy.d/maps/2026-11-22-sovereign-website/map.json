@@ -1,0 +1,52 @@
+{
+  "$comment": "Wardley map as data, by strategy.d@AgentiCCells.dinis, 22 Nov 2026. Same scales as Maps 1 and 2. Players and gaps from landscape.d (board/team/landscape.d/landscapes/sovereign-website/, v0.1.2049, 31 players, findings sw-g1 to sw-g9); users from sherpa.d (needs.json; journey-the-stand.md). Positions are judgement; each carries its evidence.",
+  "title": "Sovereign Website: the first customer",
+  "version": "0.1.0",
+  "drawn": "2026-11-22T16:45Z",
+  "status": "draft: for cartographer.d to draw, sherpa.d and landscape.d to check; which user leads is Dinis's call",
+  "users": [
+    {"id": "owner", "label": "The owner (person or small organisation)", "needs": ["pn-no-technical-skill", "pn-own-it-move-it", "pn-know-where-it-lives", "pn-pay-once"], "basis": "sherpa.d needs.json"},
+    {"id": "visitor", "label": "The visitor (who has agents, or may)", "need": "enjoy a site on a topic they like, then feel the policies working, with a small first step and no call", "basis": "sherpa.d journey-the-stand.md, finding C1 (Dinis's account of the Web Summit stand)"},
+    {"id": "partner", "label": "The partner (maintainer, agency, freelancer)", "need": "keep the client and the fee, with less effort and more to offer", "basis": "sovereignwebsite.ai/partners.html (read 22 Nov); Dinis in this session ~15:55 UTC"}
+  ],
+  "components": [
+    {"id": "owned-site", "label": "The owner's site (files, history, address theirs)", "visibility": 0.95, "evolution": 0.30, "evidence": "sovereignwebsite.ai: 'The files, the history and the address are yours'"},
+    {"id": "topic-site", "label": "A topic or platform site to try (football, CVEs, Odoo, OpenRouter, AWS...)", "visibility": 0.95, "evolution": 0.10, "evidence": "journey-the-stand.md; strategy/2026-11-22-platform-sites-b2c2b.md"},
+    {"id": "policy-moment", "label": "The policy moment (try to break it, see it caught)", "visibility": 0.88, "evolution": 0.08, "evidence": "C1: 'nowhere to try the policies'"},
+    {"id": "fork-button", "label": "Make it yours (fork, edit, own)", "visibility": 0.85, "evolution": 0.15, "evidence": "Dinis 13:15 UTC 'clones of forks'"},
+    {"id": "five-designs", "label": "Five designs to choose from", "visibility": 0.80, "evolution": 0.25, "evidence": "partners.html deal flow: 'five designs'"},
+    {"id": "partner-offer", "label": "Partner offer (maintain, do not replace; start small)", "visibility": 0.75, "evolution": 0.12, "evidence": "partners.html 'A first draft. No partner has signed yet'"},
+    {"id": "move-out", "label": "Move-out path, stated", "visibility": 0.70, "evolution": 0.20, "evidence": "sw-g1, sw-g6: none of the hosted builders read states one"},
+    {"id": "content-terms", "label": "Owner sets the terms of their content", "visibility": 0.62, "evolution": 0.30, "evidence": "sw-g7: perpetual licences at Squarespace, Lovable"},
+    {"id": "where-it-lives", "label": "Where it lives, stated", "visibility": 0.58, "evolution": 0.35, "evidence": "sw-g8"},
+    {"id": "one-off-price", "label": "One-off price (no subscription from us)", "visibility": 0.66, "evolution": 0.20, "evidence": "sw-g5; sovereignwebsite.ai '£500, one-off'"},
+    {"id": "agent-team", "label": "Agent team with job descriptions and ABP, shown", "visibility": 0.55, "evolution": 0.25, "evidence": "partners.html 'a team, not a template'"},
+    {"id": "observability", "label": "Observability lane per site (no IP, no cookie)", "visibility": 0.40, "evolution": 0.30, "evidence": "obs.js on promptugal.news"},
+    {"id": "factory", "label": "Site factory (repo, address, CLAUDE.md, ABP)", "visibility": 0.35, "evolution": 0.25, "evidence": "partners.html deal flow; SovereignWebsite__Factory"},
+    {"id": "plain-files", "label": "Plain files in a git repository", "visibility": 0.25, "evolution": 0.85, "evidence": "sw-g2: open-source static engines give this free, developer-only"},
+    {"id": "static-hosting", "label": "Static hosting (several hosts)", "visibility": 0.15, "evolution": 0.85, "evidence": "sw-g9; sovereignwebsite.ai Level 5 'deployed on more than one host'"},
+    {"id": "domain", "label": "Domain at the owner's registrar", "visibility": 0.12, "evolution": 0.92, "evidence": "sovereignwebsite.ai Level 4"},
+    {"id": "llm", "label": "LLM capacity", "visibility": 0.08, "evolution": 0.75, "evidence": "Map 2"}
+  ],
+  "players": [
+    {"group": "Hosted builders (Wix, Squarespace, Jimdo, IONOS, Hostinger, Framer...)", "on": "owned-site", "evolution": 0.80, "note": "a site is a commodity for them; lock-in: no stated export (sw-g1, sw-g6), broad content licences (sw-g7), subscription (sw-g5)"},
+    {"group": "AI builders (Lovable, Bolt, v0, Durable, 10Web)", "on": "owned-site", "evolution": 0.55, "note": "moving fast; v0 GitHub sync and 10Web SFTP are partial move-out answers (sw-g6)"},
+    {"group": "Open-source static engines (Hugo, Jekyll, Eleventy, Astro, Zola)", "on": "plain-files", "evolution": 0.85, "note": "free and owned, but developer-only (sw-g2)"},
+    {"group": "Open-source AI builders (bolt.diy, Dyad, tinykit, Totalum)", "on": "owned-site", "evolution": 0.20, "note": "developer setup and own model key (sw-g3)"},
+    {"group": "Hosts (Hetzner, OVHcloud, Scaleway, Cloudflare Pages, GitHub Pages, Netlify)", "on": "static-hosting", "evolution": 0.85, "note": "commodity; regions and commercial terms differ (sw-g8, sw-g9)"}
+  ],
+  "links": [
+    ["owner", "owned-site"], ["owner", "five-designs"], ["owner", "one-off-price"],
+    ["visitor", "topic-site"], ["topic-site", "policy-moment"], ["topic-site", "fork-button"], ["fork-button", "owned-site"],
+    ["partner", "partner-offer"], ["partner-offer", "owned-site"], ["partner-offer", "factory"],
+    ["owned-site", "move-out"], ["owned-site", "content-terms"], ["owned-site", "where-it-lives"], ["owned-site", "agent-team"],
+    ["policy-moment", "agent-team"], ["agent-team", "observability"], ["agent-team", "factory"], ["agent-team", "llm"],
+    ["five-designs", "factory"], ["factory", "plain-files"], ["move-out", "plain-files"], ["plain-files", "static-hosting"], ["where-it-lives", "static-hosting"], ["static-hosting", "domain"]
+  ],
+  "movements": [
+    {"id": "topic-site", "to_evolution": 0.30, "why": "many topic and platform sites from one factory: the volume argument"},
+    {"id": "policy-moment", "to_evolution": 0.30, "why": "one reusable demo on every site"},
+    {"id": "factory", "to_evolution": 0.50, "why": "Map 2 E3"}
+  ],
+  "gaps_we_fill": ["move-out", "content-terms", "where-it-lives", "one-off-price", "agent-team", "policy-moment"]
+}

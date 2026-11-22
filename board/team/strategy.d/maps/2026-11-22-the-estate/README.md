@@ -81,3 +81,13 @@ Order of travel: E1, E2 and E6 now; E3 and E4 drafted in parallel; E5 as homes l
 ## What follows
 
 One map per area next, starting with the SGit stack (the common layer), then Sovereign Website, AgentiCCells and PrompTugal, each with a short context brief.
+
+## v0.2.0 (16:50 UTC): Sovereign Website first
+
+Direction recorded by sherpa.d and helm.d (`board/team/helm.d/direction.md`, Dinis ~16:00 to 16:18 UTC, relayed to me): **the first customer is Sovereign Website**; almost everything now serves websites, the deployment mechanism and the route to market; AgentiCCells and SGit follow later with the same approach.
+
+What changes on this map:
+- **Top of the map:** the site owner and, new, **the visitor** (sherpa.d's stand journey, C1: impressed, but nowhere to try the policies and no small first step). Dinis and the agents stay as users of the estate itself.
+- **The cell buyer (AgentiCCells) and the SGit stack's users move to later hypotheses**, kept on the map but not driving the order of travel.
+- **The detail moves to Map 4** (`../2026-11-22-sovereign-website/`), built on landscape.d's 31 players.
+- **Order of travel:** E1 (the hub) and E2 (feedback) stay first; E3 (one factory) moves up, because every Sovereign Website and every topic site comes out of it; E7 (the next cell) waits.

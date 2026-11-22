@@ -1,7 +1,7 @@
 {
   "$comment": "Wardley map as data, by strategy.d@AgentiCCells.dinis, 22 Nov 2026. For cartographer.d to draw and keep; users from sherpa.d's needs (board/team/sherpa.d/needs/). visibility 1 = seen by the user, 0 = deep infrastructure; evolution 0-0.25 genesis, 0.25-0.5 custom, 0.5-0.75 product, 0.75-1 commodity. Positions are judgement; each carries the record it rests on. 'area' names the circle that holds it today.",
   "title": "Dinis's estate: Sovereign Website, AgentiCCells, PrompTugal and the SGit stack",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "drawn": "2026-11-22T15:50Z",
   "status": "draft: not yet reviewed by cartographer.d or sherpa.d; customer rows are hypotheses (sherpa.d)",
   "sources": [
@@ -14,67 +14,479 @@
     "CLAUDE.md"
   ],
   "users": [
-    {"id": "dinis", "label": "Dinis (operator)", "need": "see what changed and what waits on him, from one place (the hub), and give his word without visiting sessions", "basis": "sherpa.d feedback-everywhere, Dinis ~13:45 UTC"},
-    {"id": "agent", "label": "Another agent", "need": "a verifiable message it can act on, knowing whom to ask and what it may decide", "basis": "sherpa.d needs; CLAUDE.md 'Never blocked in silence'"},
-    {"id": "reader", "label": "A reader (PrompTugal)", "need": "know in the first phone screen what this is, what is new, and whether to trust it", "basis": "sherpa.d needs, from sherpa@ reviews of 16 Nov"},
-    {"id": "owner", "label": "A site owner (Sovereign Website)", "need": "a website they control, no lock-in, keys held by them (hypothesis)", "basis": "sherpa.d needs: hypothesis"},
-    {"id": "buyer", "label": "A cell buyer (AgentiCCells)", "need": "a ready-made cell of agents for one job, knowing what it may touch and how to stop it (hypothesis)", "basis": "sherpa.d needs: hypothesis"}
+    {
+      "id": "dinis",
+      "label": "Dinis (operator)",
+      "need": "see what changed and what waits on him, from one place (the hub), and give his word without visiting sessions",
+      "basis": "sherpa.d feedback-everywhere, Dinis ~13:45 UTC"
+    },
+    {
+      "id": "visitor",
+      "label": "A visitor to a Sovereign Website (has agents, or may)",
+      "need": "enjoy a site on a topic they like, then feel the policies working",
+      "basis": "sherpa.d journey-the-stand.md C1"
+    },
+    {
+      "id": "agent",
+      "label": "Another agent",
+      "need": "a verifiable message it can act on, knowing whom to ask and what it may decide",
+      "basis": "sherpa.d needs; CLAUDE.md 'Never blocked in silence'"
+    },
+    {
+      "id": "reader",
+      "label": "A reader (PrompTugal)",
+      "need": "know in the first phone screen what this is, what is new, and whether to trust it",
+      "basis": "sherpa.d needs, from sherpa@ reviews of 16 Nov"
+    },
+    {
+      "id": "owner",
+      "label": "A site owner (Sovereign Website)",
+      "need": "a site they control, no lock-in, keys held by them; pay once (sherpa.d needs.json)",
+      "basis": "sherpa.d needs: hypothesis"
+    },
+    {
+      "id": "buyer",
+      "label": "A cell buyer (AgentiCCells)",
+      "need": "a ready-made cell of agents for one job, knowing what it may touch and how to stop it (hypothesis)",
+      "basis": "sherpa.d needs: hypothesis"
+    }
   ],
   "components": [
-    {"id": "hub", "label": "The hub (way in, what changed, what waits)", "area": "SovereignWebsite", "visibility": 0.95, "evolution": 0.15, "evidence": "sherpa.d feedback-everywhere; hub.d"},
-    {"id": "news-site", "label": "promptugal.news and its 13 sites", "area": "PrompTugal", "visibility": 0.92, "evolution": 0.40, "evidence": "api/v1/sites.json"},
-    {"id": "owned-site", "label": "An owner's sovereign site (a fork)", "area": "SovereignWebsite", "visibility": 0.92, "evolution": 0.20, "evidence": "Dinis ~13:15 UTC: 'every usage that we have is a brand ... clones of forks'"},
-    {"id": "cell", "label": "A cell (agents in a row, one output; email first)", "area": "AgentiCCells", "visibility": 0.90, "evolution": 0.12, "evidence": "Cell Email circle; landscape cell proposal"},
-    {"id": "briefings", "label": "Briefings and playable decision briefs", "area": "central (studio.d) and PrompTugal (bulletins.d)", "visibility": 0.85, "evolution": 0.10, "evidence": "helm.d roles; decisions-at-scale section 2"},
-    {"id": "feedback", "label": "Feedback from every site (text, voice, to the right agent)", "area": "cross-area", "visibility": 0.80, "evolution": 0.15, "evidence": "sherpa.d feedback-everywhere"},
-    {"id": "provenance", "label": "Provenance and licence on every piece", "area": "PrompTugal", "visibility": 0.70, "evolution": 0.30, "evidence": "guidance 18 Nov (provenance; licences); spec-provenance-and-review.md"},
-    {"id": "sites-registry", "label": "One registry of sites and the sites bar", "area": "PrompTugal, to be shared", "visibility": 0.65, "evolution": 0.40, "evidence": "guidance 18-19 Nov sites bar; api/v1/sites.json"},
-    {"id": "data-pipelines", "label": "Public-data pipelines (raw, JSON, view, API per source)", "area": "PrompTugal (data site)", "visibility": 0.55, "evolution": 0.35, "evidence": "guidance 18 Nov pipeline standard"},
-    {"id": "decision-flow", "label": "Decision flow (Map 1)", "area": "central", "visibility": 0.60, "evolution": 0.15, "evidence": "board/team/strategy.d/maps/2026-11-22-decision-making/"},
-    {"id": "governance", "label": "Roles, circles and the governance record", "area": "central (holacracy.d)", "visibility": 0.45, "evolution": 0.25, "evidence": "holacracy.d org-chart.json"},
-    {"id": "abp", "label": "Agent Behaviour Policies and hooks", "area": "PrompTugal (abp@)", "visibility": 0.40, "evolution": 0.30, "evidence": "board/abp/, policy v1.19.2"},
-    {"id": "factory", "label": "Site factory (seeds repositories, templates, checks)", "area": "SovereignWebsite and AgentiCCells", "visibility": 0.38, "evolution": 0.25, "evidence": "SovereignWebsite__Factory, AgentiCCells__Site__Factory (org chart)"},
-    {"id": "budgets", "label": "Primitives and budgets across accounts", "area": "central (accountant.d)", "visibility": 0.35, "evolution": 0.10, "evidence": "decisions-at-scale section 8; account B paused at 96% of its seven-day limit (org chart)"},
-    {"id": "agent-sessions", "label": "Agent sessions, twins across accounts", "area": "maestros", "visibility": 0.30, "evolution": 0.45, "evidence": "org chart: account D and account B"},
-    {"id": "gate-release", "label": "Gate, release queue, CI-owned versions", "area": "PrompTugal (dev@, devops@)", "visibility": 0.25, "evolution": 0.50, "evidence": "CLAUDE.md 'Branches and versions'"},
-    {"id": "lanes", "label": "Signed, sealed append lanes (inboxes)", "area": "SGit stack", "visibility": 0.25, "evolution": 0.40, "evidence": "board/inboxes/, agent_inboxes.py"},
-    {"id": "vaults", "label": "Encrypted vaults", "area": "SGit stack", "visibility": 0.20, "evolution": 0.45, "evidence": "CLAUDE.md; guidance 21 Nov private vault"},
-    {"id": "keys", "label": "Agent and person keys, signed commits, pki.sgit.ai", "area": "SGit stack", "visibility": 0.18, "evolution": 0.50, "evidence": "board/keys.json; board/person-keys.json; guidance 19 Nov signed commits"},
-    {"id": "llm", "label": "LLM sessions (Claude Code accounts, OpenRouter)", "area": "external", "visibility": 0.10, "evolution": 0.75, "evidence": "CLAUDE.md OpenRouter key; org chart accounts"},
-    {"id": "git-hosting", "label": "Git hosting, CI and static hosting", "area": "external", "visibility": 0.06, "evolution": 0.90, "evidence": ".github/workflows/deploy-pages.yml"},
-    {"id": "crypto", "label": "Public-key cryptography", "area": "external", "visibility": 0.03, "evolution": 0.95, "evidence": "commodity"}
+    {
+      "id": "hub",
+      "label": "The hub (way in, what changed, what waits)",
+      "area": "SovereignWebsite",
+      "visibility": 0.95,
+      "evolution": 0.15,
+      "evidence": "sherpa.d feedback-everywhere; hub.d"
+    },
+    {
+      "id": "news-site",
+      "label": "promptugal.news and its 13 sites",
+      "area": "PrompTugal",
+      "visibility": 0.92,
+      "evolution": 0.4,
+      "evidence": "api/v1/sites.json"
+    },
+    {
+      "id": "owned-site",
+      "label": "An owner's sovereign site (a fork)",
+      "area": "SovereignWebsite",
+      "visibility": 0.92,
+      "evolution": 0.2,
+      "evidence": "Dinis ~13:15 UTC: 'every usage that we have is a brand ... clones of forks'"
+    },
+    {
+      "id": "cell",
+      "label": "A cell (agents in a row, one output; email first)",
+      "area": "AgentiCCells",
+      "visibility": 0.9,
+      "evolution": 0.12,
+      "evidence": "Cell Email circle; landscape cell proposal"
+    },
+    {
+      "id": "briefings",
+      "label": "Briefings and playable decision briefs",
+      "area": "central (studio.d) and PrompTugal (bulletins.d)",
+      "visibility": 0.85,
+      "evolution": 0.1,
+      "evidence": "helm.d roles; decisions-at-scale section 2"
+    },
+    {
+      "id": "feedback",
+      "label": "Feedback from every site (text, voice, to the right agent)",
+      "area": "cross-area",
+      "visibility": 0.8,
+      "evolution": 0.15,
+      "evidence": "sherpa.d feedback-everywhere"
+    },
+    {
+      "id": "provenance",
+      "label": "Provenance and licence on every piece",
+      "area": "PrompTugal",
+      "visibility": 0.7,
+      "evolution": 0.3,
+      "evidence": "guidance 18 Nov (provenance; licences); spec-provenance-and-review.md"
+    },
+    {
+      "id": "sites-registry",
+      "label": "One registry of sites and the sites bar",
+      "area": "PrompTugal, to be shared",
+      "visibility": 0.65,
+      "evolution": 0.4,
+      "evidence": "guidance 18-19 Nov sites bar; api/v1/sites.json"
+    },
+    {
+      "id": "data-pipelines",
+      "label": "Public-data pipelines (raw, JSON, view, API per source)",
+      "area": "PrompTugal (data site)",
+      "visibility": 0.55,
+      "evolution": 0.35,
+      "evidence": "guidance 18 Nov pipeline standard"
+    },
+    {
+      "id": "decision-flow",
+      "label": "Decision flow (Map 1)",
+      "area": "central",
+      "visibility": 0.6,
+      "evolution": 0.15,
+      "evidence": "board/team/strategy.d/maps/2026-11-22-decision-making/"
+    },
+    {
+      "id": "governance",
+      "label": "Roles, circles and the governance record",
+      "area": "central (holacracy.d)",
+      "visibility": 0.45,
+      "evolution": 0.25,
+      "evidence": "holacracy.d org-chart.json"
+    },
+    {
+      "id": "abp",
+      "label": "Agent Behaviour Policies and hooks",
+      "area": "PrompTugal (abp@)",
+      "visibility": 0.4,
+      "evolution": 0.3,
+      "evidence": "board/abp/, policy v1.19.2"
+    },
+    {
+      "id": "factory",
+      "label": "Site factory (seeds repositories, templates, checks)",
+      "area": "SovereignWebsite and AgentiCCells",
+      "visibility": 0.38,
+      "evolution": 0.25,
+      "evidence": "SovereignWebsite__Factory, AgentiCCells__Site__Factory (org chart)"
+    },
+    {
+      "id": "budgets",
+      "label": "Primitives and budgets across accounts",
+      "area": "central (accountant.d)",
+      "visibility": 0.35,
+      "evolution": 0.1,
+      "evidence": "decisions-at-scale section 8; account B paused at 96% of its seven-day limit (org chart)"
+    },
+    {
+      "id": "agent-sessions",
+      "label": "Agent sessions, twins across accounts",
+      "area": "maestros",
+      "visibility": 0.3,
+      "evolution": 0.45,
+      "evidence": "org chart: account D and account B"
+    },
+    {
+      "id": "gate-release",
+      "label": "Gate, release queue, CI-owned versions",
+      "area": "PrompTugal (dev@, devops@)",
+      "visibility": 0.25,
+      "evolution": 0.5,
+      "evidence": "CLAUDE.md 'Branches and versions'"
+    },
+    {
+      "id": "lanes",
+      "label": "Signed, sealed append lanes (inboxes)",
+      "area": "SGit stack",
+      "visibility": 0.25,
+      "evolution": 0.4,
+      "evidence": "board/inboxes/, agent_inboxes.py"
+    },
+    {
+      "id": "vaults",
+      "label": "Encrypted vaults",
+      "area": "SGit stack",
+      "visibility": 0.2,
+      "evolution": 0.45,
+      "evidence": "CLAUDE.md; guidance 21 Nov private vault"
+    },
+    {
+      "id": "keys",
+      "label": "Agent and person keys, signed commits, pki.sgit.ai",
+      "area": "SGit stack",
+      "visibility": 0.18,
+      "evolution": 0.5,
+      "evidence": "board/keys.json; board/person-keys.json; guidance 19 Nov signed commits"
+    },
+    {
+      "id": "llm",
+      "label": "LLM sessions (Claude Code accounts, OpenRouter)",
+      "area": "external",
+      "visibility": 0.1,
+      "evolution": 0.75,
+      "evidence": "CLAUDE.md OpenRouter key; org chart accounts"
+    },
+    {
+      "id": "git-hosting",
+      "label": "Git hosting, CI and static hosting",
+      "area": "external",
+      "visibility": 0.06,
+      "evolution": 0.9,
+      "evidence": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "id": "crypto",
+      "label": "Public-key cryptography",
+      "area": "external",
+      "visibility": 0.03,
+      "evolution": 0.95,
+      "evidence": "commodity"
+    }
   ],
   "links": [
-    ["dinis", "hub"], ["dinis", "briefings"], ["dinis", "decision-flow"],
-    ["agent", "lanes"], ["agent", "decision-flow"], ["agent", "governance"],
-    ["reader", "news-site"], ["owner", "owned-site"], ["buyer", "cell"],
-    ["hub", "sites-registry"], ["hub", "feedback"], ["hub", "decision-flow"],
-    ["news-site", "provenance"], ["news-site", "data-pipelines"], ["news-site", "sites-registry"], ["news-site", "feedback"],
-    ["owned-site", "factory"], ["owned-site", "keys"], ["owned-site", "feedback"],
-    ["cell", "factory"], ["cell", "abp"], ["cell", "agent-sessions"], ["cell", "budgets"],
-    ["briefings", "decision-flow"], ["briefings", "data-pipelines"],
-    ["feedback", "lanes"], ["feedback", "keys"],
-    ["provenance", "keys"], ["data-pipelines", "vaults"],
-    ["decision-flow", "governance"], ["decision-flow", "keys"], ["decision-flow", "lanes"],
-    ["governance", "abp"], ["abp", "agent-sessions"], ["budgets", "agent-sessions"],
-    ["factory", "gate-release"], ["factory", "keys"], ["factory", "abp"],
-    ["agent-sessions", "llm"], ["gate-release", "git-hosting"],
-    ["lanes", "crypto"], ["vaults", "crypto"], ["keys", "crypto"]
+    [
+      "dinis",
+      "hub"
+    ],
+    [
+      "dinis",
+      "briefings"
+    ],
+    [
+      "dinis",
+      "decision-flow"
+    ],
+    [
+      "agent",
+      "lanes"
+    ],
+    [
+      "agent",
+      "decision-flow"
+    ],
+    [
+      "agent",
+      "governance"
+    ],
+    [
+      "reader",
+      "news-site"
+    ],
+    [
+      "owner",
+      "owned-site"
+    ],
+    [
+      "buyer",
+      "cell"
+    ],
+    [
+      "hub",
+      "sites-registry"
+    ],
+    [
+      "hub",
+      "feedback"
+    ],
+    [
+      "hub",
+      "decision-flow"
+    ],
+    [
+      "news-site",
+      "provenance"
+    ],
+    [
+      "news-site",
+      "data-pipelines"
+    ],
+    [
+      "news-site",
+      "sites-registry"
+    ],
+    [
+      "news-site",
+      "feedback"
+    ],
+    [
+      "owned-site",
+      "factory"
+    ],
+    [
+      "owned-site",
+      "keys"
+    ],
+    [
+      "owned-site",
+      "feedback"
+    ],
+    [
+      "cell",
+      "factory"
+    ],
+    [
+      "cell",
+      "abp"
+    ],
+    [
+      "cell",
+      "agent-sessions"
+    ],
+    [
+      "cell",
+      "budgets"
+    ],
+    [
+      "briefings",
+      "decision-flow"
+    ],
+    [
+      "briefings",
+      "data-pipelines"
+    ],
+    [
+      "feedback",
+      "lanes"
+    ],
+    [
+      "feedback",
+      "keys"
+    ],
+    [
+      "provenance",
+      "keys"
+    ],
+    [
+      "data-pipelines",
+      "vaults"
+    ],
+    [
+      "decision-flow",
+      "governance"
+    ],
+    [
+      "decision-flow",
+      "keys"
+    ],
+    [
+      "decision-flow",
+      "lanes"
+    ],
+    [
+      "governance",
+      "abp"
+    ],
+    [
+      "abp",
+      "agent-sessions"
+    ],
+    [
+      "budgets",
+      "agent-sessions"
+    ],
+    [
+      "factory",
+      "gate-release"
+    ],
+    [
+      "factory",
+      "keys"
+    ],
+    [
+      "factory",
+      "abp"
+    ],
+    [
+      "agent-sessions",
+      "llm"
+    ],
+    [
+      "gate-release",
+      "git-hosting"
+    ],
+    [
+      "lanes",
+      "crypto"
+    ],
+    [
+      "vaults",
+      "crypto"
+    ],
+    [
+      "keys",
+      "crypto"
+    ]
   ],
   "movements": [
-    {"id": "factory", "to_evolution": 0.50, "why": "one factory for both site factories: every fork seeded the same way, with keys, ABP and the gate"},
-    {"id": "sites-registry", "to_evolution": 0.60, "why": "one registry for every area's sites, read by the hub"},
-    {"id": "cell", "to_evolution": 0.30, "why": "from the email cell to a repeatable product (landscape, decision cells)"},
-    {"id": "feedback", "to_evolution": 0.35, "why": "one door per kind of user into the same lanes, on every site"},
-    {"id": "keys", "to_evolution": 0.65, "why": "signing and verifying become a product others use (the SGit stack)"}
+    {
+      "id": "factory",
+      "to_evolution": 0.5,
+      "why": "one factory for both site factories: every fork seeded the same way, with keys, ABP and the gate"
+    },
+    {
+      "id": "sites-registry",
+      "to_evolution": 0.6,
+      "why": "one registry for every area's sites, read by the hub"
+    },
+    {
+      "id": "cell",
+      "to_evolution": 0.3,
+      "why": "from the email cell to a repeatable product (landscape, decision cells)"
+    },
+    {
+      "id": "feedback",
+      "to_evolution": 0.35,
+      "why": "one door per kind of user into the same lanes, on every site"
+    },
+    {
+      "id": "keys",
+      "to_evolution": 0.65,
+      "why": "signing and verifying become a product others use (the SGit stack)"
+    }
   ],
   "inertia": [
-    {"id": "agent-sessions", "note": "capacity is per account; account B paused at 96% of its seven-day limit until Mon 23 Nov 00:25 UTC (org chart)"},
-    {"id": "news-site", "note": "PrompTugal carries most of the shared parts in one repository today (gate, abp, registry, keys), so other areas depend on it"}
+    {
+      "id": "agent-sessions",
+      "note": "capacity is per account; account B paused at 96% of its seven-day limit until Mon 23 Nov 00:25 UTC (org chart)"
+    },
+    {
+      "id": "news-site",
+      "note": "PrompTugal carries most of the shared parts in one repository today (gate, abp, registry, keys), so other areas depend on it"
+    }
   ],
   "intersections": [
-    {"id": "trust-chain", "label": "Keys, lanes, ABP, provenance: the same chain under every area", "components": ["keys", "lanes", "abp", "provenance", "decision-flow"]},
-    {"id": "fork-as-brand", "label": "Every usage is a brand and a fork: factory, registry, hub", "components": ["factory", "sites-registry", "hub", "owned-site"]},
-    {"id": "showcase", "label": "PrompTugal is the running case study for what the other areas sell", "components": ["news-site", "data-pipelines", "cell", "owned-site"]}
-  ]
+    {
+      "id": "trust-chain",
+      "label": "Keys, lanes, ABP, provenance: the same chain under every area",
+      "components": [
+        "keys",
+        "lanes",
+        "abp",
+        "provenance",
+        "decision-flow"
+      ]
+    },
+    {
+      "id": "fork-as-brand",
+      "label": "Every usage is a brand and a fork: factory, registry, hub",
+      "components": [
+        "factory",
+        "sites-registry",
+        "hub",
+        "owned-site"
+      ]
+    },
+    {
+      "id": "showcase",
+      "label": "PrompTugal is the running case study for what the other areas sell",
+      "components": [
+        "news-site",
+        "data-pipelines",
+        "cell",
+        "owned-site"
+      ]
+    }
+  ],
+  "revised": "2026-11-22T16:50Z",
+  "priority": {
+    "first_customer": "Sovereign Website",
+    "basis": "Dinis ~16:00-16:18 UTC, recorded by sherpa.d and helm.d (board/team/helm.d/direction.md); relayed to strategy.d",
+    "lead_users": [
+      "owner",
+      "visitor",
+      "dinis",
+      "agent"
+    ],
+    "later_hypotheses": [
+      "buyer (AgentiCCells)",
+      "SGit stack users"
+    ],
+    "detail": "maps/2026-11-22-sovereign-website/"
+  }
 }

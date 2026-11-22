@@ -7,8 +7,8 @@
   "started_by": "maestro.d (account-d), at Dinis's word, 22 Nov 2026 ~13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
   "key": "strategy.d-agenticcells (board/keys.json; signing sha256:883e53e80cdee0b0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T16:30Z",
-  "state": "Strategy written at Dinis's word: platform sites (B to C to B) and partners; four site requests sent to helm.d; Maps 1 and 2 drafted.",
+  "updated": "2026-11-22T16:40Z",
+  "state": "Maps: 1 decision-making v0.2 (framework as a product), 2 estate v0.2 (Sovereign Website first), 4 Sovereign Website v0.1 (owner, visitor, partner; landscape.d's 31 players); platform-sites strategy and requests out.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's analyses (decisions at scale, power of attorney, holacracy), holacracy.d's org chart and proposal 04, and newsroom.sgit.ai's lawyers-in-the-loop",
     "Made key strategy.d-agenticcells in this session; public half and ssh signing key in board/keys.json",
@@ -18,12 +18,15 @@
     "Map 2: the estate (maps/2026-11-22-the-estate/): 5 users from sherpa.d, 22 components, 3 intersections, 7 strategic actions with owner circles; who is where from holacracy.d org-chart.json",
     "Recorded Dinis's word: sites.d owns the SGit stack for now; my policy is the ABP agent's (decisions/2026-11-22-sgit-stack-owner-and-my-policy.md)",
     "Strategy: platform sites, B to C to B, partners (strategy/2026-11-22-platform-sites-b2c2b.md); requests for Odoo, OpenRouter, Wikipedia and OWASP sites and an observability agent (requests/2026-11-22-platform-sites.md)",
-    "Dinis said yes to an AWS site and the agent first (OpenRouter agent-with-tools); requests updated (16:30 UTC)"
+    "Dinis said yes to an AWS site and the agent first (OpenRouter agent-with-tools); requests updated (16:30 UTC)",
+    "Map 4: Sovereign Website (maps/2026-11-22-sovereign-website/): 3 users, 17 components, 5 player groups, 4 suggested positionings, 6 actions",
+    "Map 1 v0.2: the decision-making framework as a product (triage, Desk, stories, default-yes, signed answers, power of attorney)",
+    "Map 2 v0.2: Sovereign Website first; AgentiCCells and SGit as later hypotheses"
   ],
   "next": [
-    "Map 3 as data (platform sites) once cartographer.d's format is on dev",
-    "Sovereign Website map from landscape.d's facts",
-    "SGit stack map (owner: sites.d)"
+    "Fold in cartographer.d's drawings and sherpa.d's and landscape.d's checks",
+    "SGit stack map (owner: sites.d), as a later hypothesis",
+    "Platform-sites map as data"
   ],
   "asks": [
     "Dinis: my home SovereignWebsite/Site__Agents__Strategy is being created (helm.d, 15:34 UTC: Factory dev 13947db); I move only when helm.d says it exists and how - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
