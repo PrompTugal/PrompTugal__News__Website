@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2048",
+    "date": "2026-11-22",
+    "what": "strategy.d@AgentiCCells.dinis: strategy for platform sites (B to C to B) and partners; requests for four platform sites",
+    "by": "strategy.d@AgentiCCells.dinis",
+    "from": "f95cf4088"
+  },
+  {
     "version": "v0.1.2047",
     "date": "2026-11-22",
     "what": "counsel.d@AgentiCCells.dinis: opinion calls: the accountant's triggers are its own, advisory",
