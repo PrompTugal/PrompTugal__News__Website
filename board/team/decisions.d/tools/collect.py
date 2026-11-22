@@ -7,7 +7,7 @@ decisions.d@AgentiCCells.dinis, 22 November 2026. Run from the repository root:
 Writes board/team/decisions.d/log/asks.json and log/README.md. Reads only git and files; no network.
 Not covered: asks kept in other repositories (seen here only where maestro.d relays them) and the decision page's
 "answers" collection (maestro.d reads it; decisions.d does not hold its key)."""
-import json, os, re, subprocess, datetime
+import json, os, re, subprocess, datetime, hashlib
 
 ROOTS = ['maestro.d', 'conductor.d', 'holacracy.d', 'decisions.d']  # account D agents with a folder here
 OUT = 'board/team/decisions.d/log'
@@ -73,7 +73,10 @@ for f in sorted(os.listdir(PD)) if os.path.isdir(PD) else []:
     pages.append({'page': f'/newsroom/decisions/{f[:-3]}/', 'file': f'{PD}/{f}', 'title': fm.get('title'), 'asked_by': fm.get('asked_by'),
                   'state': fm.get('decision'), 'first_seen': log[0] if log else None,
                   'waited': ago(log[0], now) if log and fm.get('decision') == 'open' else None,
-                  'answer': None if fm.get('answer') in (None, 'null') else fm.get('answer'), 'answered_at': None if fm.get('answered_at') in (None, 'null') else fm.get('answered_at')})
+                  'answer': None if fm.get('answer') in (None, 'null') else fm.get('answer'), 'answered_at': None if fm.get('answered_at') in (None, 'null') else fm.get('answered_at'),
+                  'question_id': fm.get('question_id'), 'reserved': fm.get('reserved'), 'answered_where': None if fm.get('answered_where') in (None, 'null') else fm.get('answered_where'),
+                  # the page's ask_sha256 must be the hash of its question as written (UTF-8): a reworded question shows here
+                  'hash_ok': (hashlib.sha256(fm['question'].encode()).hexdigest() == fm.get('ask_sha256')) if fm.get('question') and fm.get('ask_sha256') else None})
 
 asks.sort(key=lambda x: x['first_seen'] or '9')
 stamp = now.strftime('%Y-%m-%dT%H:%MZ')
@@ -85,9 +88,10 @@ md = [f'# The decision log, account D', '', f'Generated {stamp} by `tools/collec
       f'## Open ({len(asks)})', '', '| Agent | First seen (UTC) | Waited | Ask |', '|---|---|---|---|']
 for a in asks:
     md.append(f"| {a['agent']} | {(a['first_seen'] or '')[:16].replace('T', ' ')} | {a['waited']} | {a['ask'].replace('|', '/')} |")
-md += ['', f'## Decision pages asked by account D agents ({len(pages)})', '', '| Page | Asked by | State | First seen (UTC) | Waited |', '|---|---|---|---|---|']
+md += ['', f'## Decision pages asked by account D agents ({len(pages)})', '', '| Page | Question id | Asked by | Reserved | State | First seen (UTC) | Waited | Hash |', '|---|---|---|---|---|---|---|---|']
 for p in pages:
-    md.append(f"| [{p['title']}]({p['page']}) | {p['asked_by']} | {p['state']} | {(p['first_seen'] or '')[:16].replace('T', ' ')} | {p['waited'] or ''} |")
+    hz = {True: 'ok', False: 'DIFFERS: question reworded since hashed', None: 'none'}[p['hash_ok']]
+    md.append(f"| [{p['title']}]({p['page']}) | {p['question_id'] or ''} | {p['asked_by']} | {p['reserved'] or ''} | {p['state']} | {(p['first_seen'] or '')[:16].replace('T', ' ')} | {p['waited'] or ''} | {hz} |")
 md += ['', f'## Answered ({len(answered)})', '']
 for a in answered:
     md.append(f"- **{a['title']}** (`{a['file']}`)")

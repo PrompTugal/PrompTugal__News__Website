@@ -29,6 +29,10 @@ pictures:                          # kept for the record, never overwritten
 2. **The picture as decided:** the same picture with the chosen option marked, Dinis's words verbatim under it, the time, and where he said it. Made when the answer is recorded.
 3. **The connections** (Dinis's "share connect number between", read by helm.d as "show the connections between", which is still his to confirm): each picture shows which agents asked, reviewed and act on the decision, and which earlier decisions it follows from, by their slugs.
 
+## As built (helm.d, be0d63b2b, 22 November 2026)
+
+The build's front matter takes no nested lists, so a page asks **one question** and carries flat fields: `question_id`, `question`, `ask_sha256`, `reserved`, `recommendation`, `answer`, `answered_at`, `answered_where`, `pictures_asked` (and `pictures_decided` once answered). A page with two questions becomes two pages. helm.d confirmed: the owner copies a Desk answer onto the page verbatim; decisions.d checks it in the log, and checks that `ask_sha256` is the hash of `question` as written (a reworded question shows in the log). This supersedes the `questions:` list above.
+
 ## Where it lives
 
 Updated 22 November 2026 after studio.d's answer (14:40 UTC).
