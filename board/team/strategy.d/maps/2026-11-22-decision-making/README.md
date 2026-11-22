@@ -101,3 +101,13 @@ What the map says now:
 - The triage is the hinge: it decides which lane goes to signed answers, which to default-yes, and which must wait for the person. Its lanes map onto Map 1's components: "quick confident reversible" is the default-yes window; "only you and critical" is the reserved list; "your judgement" is the playable brief; "can wait" is the digest.
 - Of the parts, only the triage and the Desk run today, and both privately. The product is genesis: first make the framework public on a Sovereign Website (the first customer) as a page anyone can try with their own decisions, the same B to C to B route as the platform sites.
 - Added strategic action **A9**: a public, forkable Decision Desk on a Sovereign Website, with the four lanes and a sample set of decisions (owner circle: SovereignWebsite with the central circle; studio.d for the stories).
+
+## v0.2.1 (17:00 UTC): thinking in a loop
+
+Dinis, in maestro.d's session (~16:45 UTC; relayed, recorded in `board/team/helm.d/direction.md`): "This is not about human in a loop, it's about thinking in a loop". People should codify their decision-making workflow and how they think, and the framework is something to sell.
+
+What it changes on the map:
+- **A new component at the heart of the product: codified thinking** (a person's decision workflow written down as data: what they look at, in what order, which lane a kind of decision goes to, what makes them say yes). Visibility 0.80, evolution 0.05: genesis.
+- **The triage, default-yes, signed answers and the power of attorney all depend on it.** A delegation is only safe when the attorney follows the principal's written way of thinking; a default-yes window is only safe when the class of decision is written down. So codified thinking sits under the triage and over the signing chain.
+- **The product's message moves** from "a human approves each step" to "your thinking runs in the loop": the agents apply the person's codified workflow, and the person refines the workflow, not each decision.
+- **Added action A10:** codify Dinis's own decision workflow first, from the Desk's four lanes and his answers so far, as the first worked example (owner circle: central, with decisions.d and sherpa.d; counsel.d where it touches the power of attorney).
