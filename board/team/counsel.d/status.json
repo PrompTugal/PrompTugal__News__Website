@@ -5,7 +5,7 @@
   "role": "Counsel of Dinis's central circle, account D, led by helm.d; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
   "key": "counsel.d-agenticcells (board/keys.json; signing sha256:d5ad2c2d0e7821cb; encryption sha256:bdadaf77de8d1b7d; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T15:44Z",
+  "updated": "2026-11-22T15:54Z",
   "state": "v0.2 simulated on paper (8 scenarios, 8 gaps: simulations/2026-11-22-v0.2-tabletop.md); v0.3 next. Unreviewed by models (no budget line). Name in the repo stays counsel.d@AgentiCCells.dinis until the gate accepts account-d.dinis; home repository not moved into until helm.d says. No wake.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's power-of-attorney and decisions-at-scale (sections 1, 6, 7), board/person-keys.json, rights@'s status, newsroom.sgit.ai's lawyers-in-the-loop",
@@ -15,9 +15,11 @@
     "14:06 UTC: maestro.d says P3, expiry and suspension, jurisdiction and the principal key go on your Decision Desk; draft path sent to maestro.d for decisions.d",
     "14:30 UTC: v0.2 from decisions.d's points; its pki.sgit.ai claims checked at the source (anchor record, operates/operated-by links, revocation statements; read 14:20 UTC)",
     "15:40 UTC: tabletop simulations of v0.2: revocation, out of scope, stolen key, Dinis unreachable, replay, twin, pki.sgit.ai down, stale clone; gaps G1 to G8",
-    "15:44 UTC: decisions.d relayed (unsigned) Dinis's words in its session, about 15:30 UTC: \"Yes, PKI-S-Git.ai is the one I'm going to use for Sonnet\" (board/team/decisions.d/decisions/2026-11-22-dinis-in-session.md), read by decisions.d as pki.sgit.ai for signing. Recorded as relayed, not as Dinis's word to counsel.d"
+    "15:44 UTC: decisions.d relayed (unsigned) Dinis's words in its session, about 15:30 UTC: \"Yes, PKI-S-Git.ai is the one I'm going to use for Sonnet\" (board/team/decisions.d/decisions/2026-11-22-dinis-in-session.md), read by decisions.d as pki.sgit.ai for signing. Recorded as relayed, not as Dinis's word to counsel.d",
+    "15:54 UTC: at Dinis's word in this session (an ABP for counsel; counsel, security and the accountant called for opinions, tracked on record): proposal to abp@ in proposals/2026-11-22-abp-counsel-and-opinion-calls.md (counsel.d's role entry; opinion-call triggers, blocking or advisory; board/opinions/ record); routed through maestro.d"
   ],
   "next": [
+    "Opinion calls: answer abp@'s changes; give the first counsel opinions on record once the format is agreed",
     "v0.3 with G1, G2 and G5 to G8",
     "Independent checks of v0.3 by three models from two providers once accountant.d sets a budget line",
     "A powers-section template for the ABPs (for abp@, through maestro.d)"
@@ -27,9 +29,9 @@
     "Dinis: decisions.d relays your words (about 15:30 UTC) that pki.sgit.ai is the key you will use; to put it in the instrument I need it from you here or signed: is anchor record dinis.cruz, sha256:db7f79fdd87e030a, the principal key, and held only by you? - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: v0.1 proposes expiry at most 7 days and suspension after 72 hours without a sign of life from you; your numbers? - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: which jurisdiction, if any, a real lawyer would later be asked about is yours alone; nothing is assumed until you say - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
-    "Dinis: there is no board/abp/counsel.d.md yet, so the ABP hook counts my writes to my own folder board/team/counsel.d/ as outside my grant (4 logged breaches in board/runs/counsel.d-dinis/); abp@ is on account B until Monday 23 Nov; until then I write only in that folder, as maestro.d's brief says - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: a stolen attorney key is seen fastest if you are alerted on every request decisions.d issues, not daily (simulation S3, gap G3): how do you want that alert? - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
-    "Dinis: v0.2 suspends the delegation after 72 hours without a sign of life from you, which also stops adopted defaults while you travel; keep that, or sign a travel variant for named pages (S4, G4)? - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6"
+    "Dinis: v0.2 suspends the delegation after 72 hours without a sign of life from you, which also stops adopted defaults while you travel; keep that, or sign a travel variant for named pages (S4, G4)? - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
+    "Dinis: may counsel.d write to abp@ (account B) directly on the ABP work, or only through maestro.d as the twins rule says? Until you say, through maestro.d - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6"
   ],
   "debrief": "board/team/counsel.d/debriefs/2026-11-22-handover.md"
 }
