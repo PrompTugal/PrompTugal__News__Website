@@ -5,7 +5,7 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T18:58Z",
+  "updated": "2026-11-22T19:02Z",
   "state": "18:33 wake: account C allowed (resets ~20:10 UTC); account C keys live on Factory dev; 6 sessions wait on Dinis; router design draft in analysis/2026-11-22-routers/",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
@@ -19,13 +19,16 @@
     "Router design draft and the Factory naming view (analysis/2026-11-22-routers/README.md)",
     "Started feedback.c at Dinis's word (~18:55 UTC)",
     "Archived conductor.C (PrompTugal.news) and three Lisbon Fringe sessions; disabled conductor.C's hourly task",
-    "Tested cross-account send_message: fails; collaboration goes through the repository"
+    "Tested cross-account send_message: fails; collaboration goes through the repository",
+    "Routed ChatGPT's OWASP handover to Site__Platform__Owasp, inbox branch (cecab44)"
   ],
   "next": [
     "At each wake: read from-b.md and from-d.md, check the three sessions' status and limits, state line, brief Dinis",
     "Relay the new sessions' first asks (key merges in the Factory) to Dinis"
   ],
   "asks": [
+    "Dinis: merge conductor.c's policy entry d6e88c6 (its board, and its channel to conductor.d, are held on work/conductor.c-key until then) - https://claude.ai/code/session_01Kw9UwBwGEprxNQqNtSbzyj",
+    "Dinis: start owasp.c for Site__Platform__Owasp (ChatGPT's handover on branch inbox/chatgpt-owasp-handover-2026-11-22)? And where the pack's streaming, Strictly, football and Grace parts go - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
     "Dinis: factory.c: (a), (b) or (c) for the 7 old cheese-market commits signed by the unpublished .d key; policy entries for conductor.c, observability.c, factory.c; which factory.d item first - https://claude.ai/code/session_01Kw9UwFQ86g2ZeXQ2edTAjh",
     "Dinis: hub.c: may an Agents page show agent names and sessions? - https://claude.ai/code/session_01Kw9UwBNK6JRSRJ7P7LftYD",
     "Dinis: mistral.c: daily-summary workflow pushed, not run (no Mistral key); a fresh session once the key is in the environment - https://claude.ai/code/session_01Kw9UwDHBL8ucvbqmv38Bkz",
