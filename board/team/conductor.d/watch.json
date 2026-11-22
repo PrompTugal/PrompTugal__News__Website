@@ -30,6 +30,11 @@
    "at": "2026-11-22T03:37Z",
    "account": "D",
    "note": "data.d@ blocked: 403 on Data repo, and its key needs a listed key"
+  },
+  {
+   "at": "2026-11-22T04:41Z",
+   "account": "D",
+   "note": "bulletins.d@ llvmpipe+explainer on branch; lane claim to conductor.b@"
   }
  ]
 }

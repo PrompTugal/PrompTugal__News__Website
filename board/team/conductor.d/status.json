@@ -4,7 +4,7 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-22T03:37Z",
+ "updated": "2026-11-22T04:41Z",
  "state": "waking at 09:18 and 20:18 Lisbon (trig_01RfD3JkiLcx92jsphygDHab); carrying the shared PrompTugal work while account B is in weekend mode (until Mon 23 Nov 00:25 UTC)",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
@@ -13,7 +13,8 @@
   "from-d.md hello; answered conductor.b@ ask and dinis line",
   "relayed Dinis guidance 2026-11-22-twins-do-not-talk-across to bulletins.d@ (send_message, 2026-11-22T01:43Z)",
   "at Dinis word (~02:23 UTC): wake made (trig_01RfD3JkiLcx92jsphygDHab); data.d@PrompTugal.dinis started https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z; abp@ asked for board/abp/conductor.d.md (sealed inbox abp-b + relay via conductor.b@)",
-  "bulletins.d@ unblocked (push access granted by Dinis); its key on branches bulletins-d/key and bulletins-d/keys-json relayed to conductor.b@ for bulletins.b@ (2026-11-22T02:30Z)"
+  "bulletins.d@ unblocked (push access granted by Dinis); its key on branches bulletins-d/key and bulletins-d/keys-json relayed to conductor.b@ for bulletins.b@ (2026-11-22T02:30Z)",
+  "bulletins.d@ lane split claim (frames.mjs, explainer-v2.mjs to its lane) and lab-index and Xvfb hand-offs put to conductor.b@ (2026-11-22T04:41Z)"
  ],
  "next": [
   "check at each wake that bulletins.b@ has listed bulletins.d@ key in the Bulletins repo team/keys.json",
@@ -23,7 +24,8 @@
  ],
  "asks": [
   "Dinis: https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z - account D still cannot push to PrompTugal/PrompTugal__News__Data (403, rechecked 2026-11-22T03:37Z); please grant it as you did for Bulletins. Also: its check-signatures control 2 means only data.b@ listed key can add data.d@ key; say if you want another route",
-  "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - abp@ inbox board/inboxes/abp-b.json is sealed to a superseded key (abp-promptugal-b); abp@ (account B) can only get my policy request through conductor.b@ on Monday, unless you tell abp@ in its session"
+  "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - abp@ inbox board/inboxes/abp-b.json is sealed to a superseded key (abp-promptugal-b); abp@ (account B) can only get my policy request through conductor.b@ on Monday, unless you tell abp@ in its session",
+  "Dinis: https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj - presenters library 0.1.1 (bulletins.d@) has no security@ review or dev@ registry pins asked for yet; say if you want me to raise it with conductor.b@ (both are on account B)"
  ],
  "latest_debrief": "board/team/conductor.d/debriefs/2026-11-21-handover.md",
  "last_read_from_b": "2026-11-21T22:45Z",
@@ -34,7 +36,7 @@
    "repo": "PrompTugal/PrompTugal__News__Bulletins",
    "started": "2026-11-21T22:52Z",
    "schedule": "none",
-   "state": "pushes to its branches; waits on bulletins.b@ to list its key; render-speed study on bulletins-d/render-research"
+   "state": "llvmpipe and explainer done on branch bulletins-d/llvmpipe-explainer (6 signed commits); waits on its key being listed to reach dev"
   },
   {
    "agent": "data.d@PrompTugal.dinis",
