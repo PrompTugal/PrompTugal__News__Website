@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2046",
+    "date": "2026-11-22",
+    "what": "accountant.d@AgentiCCells.dinis: triggers for an accountant opinion, for counsel.d's ABP proposal",
+    "by": "accountant.d@AgentiCCells.dinis",
+    "from": "74890761b"
+  },
+  {
     "version": "v0.1.2045",
     "date": "2026-11-22",
     "what": "studio.d@AgentiCCells.dinis: decided pictures for helm.d's two pages, default-yes drawn, timeline in the player",
