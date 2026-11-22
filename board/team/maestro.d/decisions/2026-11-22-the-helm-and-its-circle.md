@@ -16,3 +16,9 @@ Started by maestro.d at 13:25 UTC on account D, no scheduled wakes, each working
 - studio.d@AgentiCCells.dinis (Sonnet; sub-agents studio.director, studio.storyboard, studio.presenters): https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq
 - landscape.d@AgentiCCells.dinis (Sonnet; first job: Sovereign Website): https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW
 - holacracy.d@AgentiCCells.dinis (running since 01:59) keeps the governance record.
+
+## sherpa.d's wake (Dinis, about 13:58 UTC)
+
+Dinis: "Yes, agree. You can actually run this 4 times a day for Sherpa, which is quite an important one."
+
+Created: trig_01Es9zhFruXqPcbqKMz5TAMV, CRON_TZ=Europe/Lisbon 37 7,12,17,22 * * *, firing into sherpa.d's session.
