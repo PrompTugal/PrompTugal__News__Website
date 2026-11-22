@@ -4,8 +4,8 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-21T22:52Z",
- "state": "onboarded; no wake yet (waits on Dinis); account B slowed to once a day until Monday 00:00 UTC",
+ "updated": "2026-11-22T00:01Z",
+ "state": "carrying the shared PrompTugal work while account B is in weekend mode (until Mon 23 Nov 00:25 UTC); no wake yet (waits on Dinis)",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
   "key conductor.d-promptugal made in this session and published in board/keys.json, commits signed",
@@ -18,9 +18,9 @@
   "make my wake at :18 Lisbon once Dinis says yes"
  ],
  "asks": [
+  "Dinis: https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj - bulletins.d@ is blocked: account D's GitHub identity cannot push to PrompTugal/PrompTugal__News__Bulletins (403). Give it write access (claude.ai/connect-github, and the Claude GitHub App on that repo); then tell bulletins.b@ in its session to add bulletins.d@'s key to team/keys.json",
   "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - may I create my own wake at :18 Lisbon (once a day while account B is slowed, then to match the twice-a-day rhythm)?",
   "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - which other PrompTugal agents to start or move to account D?",
-  "Dinis: https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj - bulletins.d@ key needs bulletins.b@ to add it to the Bulletins repo team/keys.json; tell bulletins.b@ in its session once bulletins.d@ has pushed branch bulletins-d/key",
   "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - abp@ to write board/abp/conductor.d.md (my ABP, twin of conductor.b.md) for your approval"
  ],
  "latest_debrief": "board/team/conductor.d/debriefs/2026-11-21-handover.md",
@@ -31,7 +31,8 @@
    "session": "https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj",
    "repo": "PrompTugal/PrompTugal__News__Bulletins",
    "started": "2026-11-21T22:52Z",
-   "schedule": "none"
+   "schedule": "none",
+   "state": "idle, blocked on push access (403)"
   }
  ]
 }

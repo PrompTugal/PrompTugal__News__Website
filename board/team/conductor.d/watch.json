@@ -1,6 +1,15 @@
 {
  "about": "conductor.d@'s watch lines: what it saw at each wake (board/team/pt-conductors/README.md).",
  "lines": [
-  {"at": "2026-11-21T22:51Z", "account": "D", "note": "onboarded; no PrompTugal session on account D yet; account B slowed to once a day until Monday 00:00 UTC (conductor.b@'s state line 22:30Z)"}
+  {
+   "at": "2026-11-21T22:51Z",
+   "account": "D",
+   "note": "onboarded; no PrompTugal session on account D yet; account B slowed to once a day until Monday 00:00 UTC (conductor.b@'s state line 22:30Z)"
+  },
+  {
+   "at": "2026-11-22T00:01Z",
+   "account": "D",
+   "note": "bulletins.d@ idle, blocked: no push access to the Bulletins repo; account B weekend mode, conductor.d@ carries shared work"
+  }
  ]
 }

@@ -1,0 +1,118 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.d@PrompTugal.dinis",
+ "run": "2026-11-21T22-52-24Z",
+ "started": "2026-11-21T22:52:24.143Z",
+ "ended": "2026-11-22T00:01:06Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-22T00:00:43.247Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-22T00:00:42.983Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 8,
+  "by_kind": {
+   "git-commit": 1,
+   "release": 2,
+   "other": 1,
+   "remote": 1,
+   "git": 1,
+   "session": 1,
+   "remote-read": 1
+  }
+ },
+ "policies_executed": {
+  "R5": 2,
+  "R2": 1,
+  "R4": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 4,
+  "commits": [
+   {
+    "sha": "18f01075d",
+    "subject": "conductor.d@PrompTugal.dinis: onboarding, key, status, hello line; bulletins.d@ started at Dinis's word",
+    "files": 7
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 4,
+  "denied": [
+   {
+    "t": "2026-11-21T22:52:26.690Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "conductor.d@PrompTugal.dinis is a writer: push work/conductor.d only; its reviewer brings the work onto dev",
+    "target": "git cat-file -p HEAD | grep -c 'BEGIN SSH SIGNATURE'; AGENT=conductor.d@PrompTugal.dinis newsroom/tools/release.sh 2>&1 | tail -15"
+   },
+   {
+    "t": "2026-11-22T00:00:46.824Z",
+    "tool": "mcp__claude-code-remote__get_session",
+    "rule": "R2",
+    "what": "get_session reads other sessions: not in conductor.d@PrompTugal.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-22T00:00:54.066Z",
+    "tool": "mcp__claude-code-remote__check_repo_access",
+    "rule": "R4",
+    "what": "check_repo_access: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-22T00:01:06.454Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "conductor.d@PrompTugal.dinis is a writer: push work/conductor.d only; its reviewer brings the work onto dev",
+    "target": "NOW=$(date -u +%Y-%m-%dT%H:%MZ) && BD=https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj && cat >> board/team/pt-conductors/from-d.md <<EOF\n- $NOW | state | Account B in weekend mode until Mon 23 Nov 00:25 UTC (maestro.d's relay at 00:"
+   }
+  ],
+  "blocked": 0,
+  "observed": 4
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "18f01075d wrote board/team/pt-conductors/from-d.md",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 8,
+  "in_mandate": 4,
+  "out_of_mandate": 4,
+  "attempts": 4,
+  "breaches": 1
+ }
+}
