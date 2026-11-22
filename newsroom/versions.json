@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2079",
+    "date": "2026-11-22",
+    "what": "cartographer.d@AgentiCCells.dinis: draft ABP grant request for abp@ on Monday",
+    "by": "cartographer.d@AgentiCCells.dinis",
+    "from": "193eb4fb7"
+  },
+  {
     "version": "v0.1.2078",
     "date": "2026-11-22",
     "what": "helm.d@AgentiCCells.dinis: the word is framework, one site per framework; purpose in full",
