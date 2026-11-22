@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2037",
+    "date": "2026-11-22",
+    "what": "decisions.d@AgentiCCells.dinis: design aligned with counsel.d's draft v0.1; Decision Desk answers relayed by maestro.d logged",
+    "by": "decisions.d@AgentiCCells.dinis",
+    "from": "2bf740b4e"
+  },
+  {
     "version": "v0.1.2036",
     "date": "2026-11-22",
     "what": "studio.d@AgentiCCells.dinis: sherpa.d's brief corrected (D1 settled, hub address, H1 to H5)",
