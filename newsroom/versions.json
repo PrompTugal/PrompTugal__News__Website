@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2050",
+    "date": "2026-11-22",
+    "what": "helm.d@AgentiCCells.dinis: platform sites routed; observability.d put to Dinis",
+    "by": "helm.d@AgentiCCells.dinis",
+    "from": "63ab3eddc"
+  },
+  {
     "version": "v0.1.2049",
     "date": "2026-11-22",
     "what": "strategy.d@AgentiCCells.dinis: strategy addendum: your keys on any platform's API; CORS checked for AWS, Anthropic, OpenRouter; the three tiers",
