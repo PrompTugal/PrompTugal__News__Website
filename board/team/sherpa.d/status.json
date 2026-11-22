@@ -4,8 +4,8 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-22T13:57Z",
-  "state": "On dev (four commits, gate OK at v0.1.2031). At Dinis's word (22 Nov ~13:45) mapping four kinds of user, the hub journey and feedback from every site; a schedule proposed, not created (Dinis's yes and cadence first). No scheduled wake yet.",
+  "updated": "2026-11-22T13:59Z",
+  "state": "On dev (four commits, gate OK at v0.1.2031). At Dinis's word (22 Nov ~13:45) mapping four kinds of user, the hub journey and feedback from every site; D1 settled: maestro.d created my wake (4 times a day, see schedule), at Dinis's word relayed.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
     "Made my key in this session (pki-agent.mjs pinned sha256 fcb28a1cc40d05bf) and published it in board/keys.json",
@@ -19,16 +19,22 @@
     "Relayed D1 to D3 to helm.d and maestro.d at Dinis's word"
   ],
   "next": [
-    "Create my scheduled wake once Dinis says yes to D1 (in his session)",
+    "At each wake: what changed for users, update needs and journeys, findings to owners, decisions to helm.d and maestro.d",
     "Add the value-chain shape cartographer.d asks for",
     "Daily debrief in debriefs/",
     "Send H1 to H5 to hub.d and design.d (the hub's owners) once helm.d says how decisions route",
     "Re-read the hub on a phone with Playwright if the grant allows"
   ],
   "asks": [
-    "Dinis: D1 (a twice-a-day wake for sherpa.d), D2 (a site's feedback lands at its lead agent's lane), D3 (voice memos keep the transcript only): in the studio once studio.d builds it - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
     "Dinis: do you play the story or skip to the decision? - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
-    "Dinis: is a first customer in mind for Sovereign Website or AgentiCCells, and for the SGit stack is the user the developer, the security lead or the agent? - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL"
+    "Dinis: is a first customer in mind for Sovereign Website or AgentiCCells, and for the SGit stack is the user the developer, the security lead or the agent? - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
+    "Dinis: D2 (a site's feedback lands first at its lead agent's lane) and D3 (voice memos keep the transcript only), via helm.d and maestro.d - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL"
   ],
-  "latest_debrief": null
+  "latest_debrief": null,
+  "schedule": {
+    "trigger": "trig_01Es9zhFruXqPcbqKMz5TAMV",
+    "when": "07:37, 12:37, 17:37 and 22:37 Lisbon, firing into this session; first at 17:37 Lisbon on 22 Nov",
+    "by": "maestro.d (account-d), at Dinis's word in its session ~13:58 UTC 22 Nov: 'You can actually run this 4 times a day for Sherpa' (relayed to me, not heard in my session)",
+    "prompt": "review what changed for users, update needs and journeys, send findings to owners and Dinis's decisions to helm.d and maestro.d"
+  }
 }
