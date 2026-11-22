@@ -47,6 +47,6 @@ A checklist, scored per slide: one message? headline is a sentence? picture carr
 
 ## 6. Shipping
 
-- **HTML**: published on the owner's site (a static file plays anywhere) or as a private claude.ai artifact for review.
+- **HTML**: published on the owner's own site and repository; there are no private pages (Dinis, voice memo ~17:05 UTC 22 Nov 2026, "studio-publish"). slides.d's own decks and the template publish on SovereignWebsite/Site__Agent__Slides once it exists.
 - **PDF**: `node board/team/slides.d/template/pdf.mjs deck.html deck.pdf [--notes] [--png shots-out/]` (one page per slide, builds shown, notes optional).
 - **PPTX**: only if the reader needs to edit it: the claude.ai Slides artifact type (see `../library.md`, "HTML or Slides artifact").
