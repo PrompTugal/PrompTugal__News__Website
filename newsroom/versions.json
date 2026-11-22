@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2020",
+    "date": "2026-11-22",
+    "what": "maestro.d (account-d): to maestro.b: cell.email.b's wake is legacy, not to be restored Monday",
+    "by": "maestro.d (account-d)",
+    "from": "aba838241"
+  },
+  {
     "version": "v0.1.2019",
     "date": "2026-11-22",
     "what": "holacracy.d@AgentiCCells.dinis: draft the role-repository layout and the AgentiCCells__Roles index",
