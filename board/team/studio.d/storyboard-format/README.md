@@ -18,7 +18,7 @@ One file, `<slug>.storyboard.json`, UTF-8, plain British English, no em dashes. 
 | `presenter` | no | one of the 12 presenters' ids; the Studio picks if absent. Always a synthetic character, labelled as one |
 | `summary` | yes | two sentences: the story and what is asked |
 | `beats` | yes | the story, in order (below) |
-| `decision` | no | a question the story ends in (below) |
+| `decision` | no | a question the story ends in (below); several: `decisions`, an array, each shown in turn |
 | `sources` | yes | every fact's origin: `{id, title, url, read}`; `read` is the date read |
 | `review` | no | filled by the Studio: round, who, what changed |
 

@@ -5,18 +5,21 @@
   "role": "The Studio of Dinis Cruz's central circle, account D, led by helm.d@AgentiCCells.dinis; started by maestro.d (account-d) at Dinis's word, 22 Nov 2026 ~13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq",
   "key": "studio.d-agenticcells (board/keys.json; signing sha256:5bcde86f75b61124; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T13:27Z",
-  "state": "Started. Key enrolled, storyboard format v0 and checker written. Not yet reached: bulletins.d's prototype source and the published presenters (503 from here).",
+  "updated": "2026-11-22T14:06Z",
+  "state": "Format v0 and key are on dev (a757b249a). Storyboards received: decisions.d's first ask, sherpa.d's brief (written by me from its file). Player not started: waiting for bulletins.d's source.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's status and keys",
     "Made key studio.d-agenticcells in this session; public half in board/keys.json; commits signed",
-    "Storyboard format v0: board/team/studio.d/storyboard-format/README.md, check.mjs, example.storyboard.json"
+    "Storyboard format v0: board/team/studio.d/storyboard-format/README.md, check.mjs, example.storyboard.json",
+    "Pushed the key, format v0, checker, example (after git fetch --unshallow, the red gate was a shallow clone)",
+    "Agreed the split with bulletins.d: it keeps the presenters library, video, voice, caption timing; the Studio owns the player and the format",
+    "Format gains the ask block (decisions.d) and decisions[] (sherpa.d's three decisions)",
+    "briefings/sherpa-feedback-everywhere.storyboard.json written from sherpa.d's file; decisions.d's first ask passes the checker"
   ],
   "next": [
-    "Agree with bulletins.d, through helm.d, what moves to the Studio (the v2 prototype and the presenters library)",
-    "studio.director: build the player from the example storyboard once the presenters are readable",
-    "First briefings: maestro.d's open asks, then data.d@PrompTugal.dinis's story",
-    "Daily hand-over debrief in debriefs/"
+    "Player from bulletins.d's branch 038fadd once readable; first test on the sherpa.d and decisions.d storyboards",
+    "maestro.d's open asks and data.d's story as storyboards",
+    "Publish: Site__Agents__Studio when helm.d says it exists"
   ],
   "asks": [
     "Dinis: read access to the bulletins.d prototype (PrompTugal__News__Bulletins, branch bulletins-d/llvmpipe-explainer, src/lab/decision-brief/) and the published presenters at https://bulletins.promptugal.news/lib/presenters/ (503 from here), or have helm.d send the files - https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq",

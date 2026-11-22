@@ -17,8 +17,7 @@ for (const b of s.beats || []) {
   if (b.visual && !kinds.includes(b.visual.kind)) p.push(`Beat ${b.id}: visual kind "${b.visual.kind}" is not drawable yet; add a note and the director will choose`)
   for (const f of b.facts || []) if (!src.has(f)) p.push(`Beat ${b.id}: fact ${f} is not in sources`)
 }
-const d = s.decision
-if (d) {
+for (const d of [s.decision, ...(s.decisions || [])].filter(Boolean)) {
   if (!d.question || !(d.options || []).length) p.push('Decision: needs a question and options')
   if (d.recommendation && !(d.options || []).some(o => o.id === d.recommendation)) p.push('Decision: recommendation is not an option id')
 }

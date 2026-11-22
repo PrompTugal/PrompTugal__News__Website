@@ -1,0 +1,220 @@
+{
+ "format": "studio-storyboard/0",
+ "slug": "sherpa-feedback-everywhere",
+ "title": "Feedback from every site, and the hub as the way in",
+ "audience": "Dinis: what sherpa.d has done, and three decisions for him",
+ "requested_by": "sherpa.d@AgentiCCells.dinis",
+ "summary": "sherpa.d mapped four kinds of user and read the hub cold. Every site needs one door for feedback, and the hub does not have one yet. Three decisions follow, none reserved.",
+ "beats": [
+  {
+   "id": "b1",
+   "narration": "You want to give feedback from every site, by voice or text, to the agents working on it. sherpa.d has mapped what exists and what is missing.",
+   "visual": {
+    "kind": "title",
+    "text": "Feedback from every site"
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b2",
+   "narration": "Four kinds of user need four doors into the same lane: you, another agent, a customer, and a party we wrote to.",
+   "visual": {
+    "kind": "list",
+    "items": [
+     "Dinis: signs, and wants to know who heard",
+     "Another agent: verifies, and must not be blocked in silence",
+     "A customer: anonymous, two taps",
+     "A party we reached out to: replies to a named thread, no private contact"
+    ]
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b3",
+   "narration": "Most of the dots exist: sign-in by QR, sealed agent lanes, anonymous page signals, one registry of sites, and voice and text on a page.",
+   "visual": {
+    "kind": "flow",
+    "nodes": [
+     {
+      "id": "a",
+      "label": "PKI sign-in"
+     },
+     {
+      "id": "b",
+      "label": "Agent lanes"
+     },
+     {
+      "id": "c",
+      "label": "Sites registry"
+     },
+     {
+      "id": "d",
+      "label": "Voice and text"
+     }
+    ],
+    "edges": [
+     {
+      "from": "a",
+      "to": "b"
+     },
+     {
+      "from": "b",
+      "to": "c"
+     },
+     {
+      "from": "c",
+      "to": "d"
+     }
+    ]
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b4",
+   "narration": "Five dots are missing: which agents work on each site, one control on every site, voice to text, the answer back, and doors for the other three users.",
+   "visual": {
+    "kind": "list",
+    "items": [
+     "Which agents work on each site",
+     "One 'Tell the team' control in the sites bar",
+     "Voice to text on the way in",
+     "The answer back to the person",
+     "The same shape for the other users"
+    ]
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b5",
+   "narration": "Read cold, the hub has 33 sites and no door for feedback, no sign of what changed, no search, no agent per site and no promised way back.",
+   "visual": {
+    "kind": "stat",
+    "value": "33",
+    "label": "sites on the hub, 0 feedback doors (read 22 November, 13:50 UTC)"
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b6",
+   "narration": "One caution: sherpa.d could not read hub.softwarewebs.site, so that site's navigation is not yet mapped.",
+   "visual": {
+    "kind": "title",
+    "text": "Not yet mapped: hub.softwarewebs.site"
+   },
+   "facts": [
+    "s1"
+   ]
+  }
+ ],
+ "decisions": [
+  {
+   "question": "D1: put sherpa.d on a schedule?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Twice a day, in step with the other agents",
+     "good": [
+      "Matches the team's rhythm"
+     ],
+     "bad": [
+      "Each wake costs tokens"
+     ],
+     "blocks": []
+    },
+    {
+     "id": "b",
+     "label": "Only when you or maestro.d talk to it",
+     "good": [
+      "No cost between"
+     ],
+     "bad": [
+      "Nothing is watched in between"
+     ],
+     "blocks": [
+      "Regular analysis"
+     ]
+    }
+   ],
+   "recommendation": "a",
+   "why": "The team already wakes twice a day; accountant.d would set the budget."
+  },
+  {
+   "question": "D2: where does a site's feedback land first?",
+   "options": [
+    {
+     "id": "a",
+     "label": "The site's lead agent, who routes it",
+     "good": [
+      "One address per site"
+     ],
+     "bad": [
+      "The lead is a bottleneck"
+     ],
+     "blocks": []
+    },
+    {
+     "id": "b",
+     "label": "One shared inbox",
+     "good": [
+      "Simpler"
+     ],
+     "bad": [
+      "A bottleneck for everything"
+     ],
+     "blocks": []
+    }
+   ],
+   "recommendation": "a",
+   "why": "No agent is asked to guess; needs each site's lead in the registry."
+  },
+  {
+   "question": "D3: voice memos, keep the audio or the transcript only?",
+   "options": [
+    {
+     "id": "a",
+     "label": "Transcript only, audio dropped at once",
+     "good": [
+      "Least private data held"
+     ],
+     "bad": [
+      "A wrong transcript cannot be checked against audio"
+     ],
+     "blocks": []
+    },
+    {
+     "id": "b",
+     "label": "Keep the audio",
+     "good": [
+      "Can re-check"
+     ],
+     "bad": [
+      "Needs a vault, a retention rule and counsel.d's view"
+     ],
+     "blocks": [
+      "The memo feature until a vault exists"
+     ]
+    }
+   ],
+   "recommendation": "a",
+   "why": "A person can add a note if the transcript is wrong."
+  }
+ ],
+ "sources": [
+  {
+   "id": "s1",
+   "title": "sherpa.d: feedback from every site and the hub as the way in (the file holds the options in full)",
+   "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/sherpa.d/needs/feedback-everywhere.md",
+   "read": "2026-11-22"
+  }
+ ]
+}
