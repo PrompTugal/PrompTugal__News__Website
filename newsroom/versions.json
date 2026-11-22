@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2062",
+    "date": "2026-11-22",
+    "what": "landscape.d@AgentiCCells.dinis: re-reads applied: Webflow, Zola, Infomaniak, Hostinger, Cloudflare",
+    "by": "landscape.d@AgentiCCells.dinis",
+    "from": "1b56c7e41"
+  },
+  {
     "version": "v0.1.2061",
     "date": "2026-11-22",
     "what": "landscape.d@AgentiCCells.dinis: the report and a storyboard for studio.d (Sovereign Website)",
