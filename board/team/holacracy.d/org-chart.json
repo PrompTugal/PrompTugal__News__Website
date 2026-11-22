@@ -1,6 +1,6 @@
 {
  "about": "The governance record of Dinis's agents, kept by holacracy.d@AgentiCCells.dinis. First draft, 22 November 2026. Account D from list_sessions, get_session (status, model, cost, parent; never transcripts) and the status.json files; account B reported, not seen.",
- "generated": "2026-11-22T14:30Z",
+ "generated": "2026-11-22T15:40Z",
  "schema": "circles[], roles(=agents)[], tensions in proposals/. Roles' domains come from the ABP grant where one exists (none yet for the .d agents, see T4).",
  "sources": [
   "board/team/maestro.d/status.json",
@@ -96,7 +96,7 @@
   {
    "id": "central",
    "name": "Central circle (helm)",
-   "lead": "helm.d@AgentiCCells.dinis (as relayed by maestro.d, 22 Nov ~13:20 UTC; not yet written by Dinis in my session)",
+   "lead": "helm.d (account-d), a top-level peer of the conductors (relayed)",
    "purpose": "One place for the global structure and direction of Dinis's estate: where we are, where we go, and what that costs and needs, across every project and account (proposed by helm.d, 13:37Z; not ratified by Dinis) | twins: sherpa.d and accountant.d are twins of the account B roles (relayed)",
    "fillers": [
     "helm.d",
@@ -109,7 +109,8 @@
     "studio.d",
     "landscape.d",
     "holacracy.d"
-   ]
+   ],
+   "account_note": "The central circle is account-d's, not AgentiCCells' (Dinis ~15:15Z, relayed by maestro.d)"
   }
  ],
  "agents_account_d": [
@@ -136,7 +137,7 @@
   },
   {
    "id": "holacracy.d",
-   "name": "holacracy.d@AgentiCCells.dinis",
+   "name": "holacracy.d (account-d)",
    "circle": "anchor",
    "parent": "maestro.d",
    "session": "https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
@@ -145,11 +146,13 @@
    "state": "working",
    "cost": null,
    "wake": "none",
-   "repo": "PrompTugal/PrompTugal__News__Website (board/team/holacracy.d/)",
+   "repo": "PrompTugal/PrompTugal__News__Website (board/team/holacracy.d/); home SovereignWebsite/Site__Agent__Holacracy requested (13947db, relayed)",
    "purpose": "The health of the whole system of Dinis's agents: every circle has a lead, every role is written and filled, every structure problem reaches someone who can resolve it",
    "twin": "none yet",
    "account": "D",
-   "state_seen": "13:26Z 22 Nov (list_sessions)"
+   "state_seen": "13:26Z 22 Nov (list_sessions)",
+   "name_before": "holacracy.d@AgentiCCells.dinis",
+   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "conductor.d@PrompTugal",
@@ -400,7 +403,7 @@
   },
   {
    "id": "helm.d",
-   "name": "helm.d@AgentiCCells.dinis",
+   "name": "helm.d (account-d)",
    "circle": "central (helm)",
    "parent": "maestro.d",
    "session": "https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV",
@@ -409,7 +412,7 @@
    "state": "working (started 13:25 UTC)",
    "cost": null,
    "wake": "none",
-   "repo": "Site__Agents__Helm (to be requested)",
+   "repo": "SovereignWebsite/Site__Agents__Helm (agent site requested on SovereignWebsite__Factory dev, 13947db, relayed 15:34Z)",
    "purpose": "Dinis's single entry point for the global structure and direction of travel",
    "twin": "none yet",
    "account": "D",
@@ -433,11 +436,13 @@
     "hub.d",
     "newsroom.d"
    ],
-   "span_note": "helm.d's list, checked against this chart: it equals every account D agent whose parent is maestro.d and which is not a conductor. Open for Dinis (decision page /newsroom/decisions/the-central-circle/): whether sites.d, hub.d and newsroom.d stay in the span or move to a conductor (proposal 03)."
+   "span_note": "helm.d's list, checked against this chart: it equals every account D agent whose parent is maestro.d and which is not a conductor. Open for Dinis (decision page /newsroom/decisions/the-central-circle/): whether sites.d, hub.d and newsroom.d stay in the span or move to a conductor (proposal 03).",
+   "name_before": "helm.d@AgentiCCells.dinis",
+   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "strategy.d",
-   "name": "strategy.d@AgentiCCells.dinis",
+   "name": "strategy.d (account-d)",
    "circle": "central (helm)",
    "parent": "maestro.d",
    "session": "https://claude.ai/code/session_015gaHdddd1qVEaY3EG6feEsL",
@@ -454,11 +459,13 @@
    "accountabilities": "a Wardley map per area and the estate; strategic concepts and actions; context briefs",
    "overlap": "cartographer.d draws the maps; strategy.d decides what they say",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "13:26Z 22 Nov (list_sessions)"
+   "state_seen": "13:26Z 22 Nov (list_sessions)",
+   "name_before": "strategy.d@AgentiCCells.dinis",
+   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "cartographer.d",
-   "name": "cartographer.d@AgentiCCells.dinis",
+   "name": "cartographer.d (account-d)",
    "circle": "central (helm)",
    "parent": "maestro.d",
    "session": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
@@ -475,11 +482,13 @@
    "accountabilities": "turn strategy.d's and sherpa.d's maps into JSON and pages, dated and sourced",
    "overlap": "librarian@ (B) maps what is where; cartographer.d maps strategy",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "13:26Z 22 Nov (list_sessions)"
+   "state_seen": "13:26Z 22 Nov (list_sessions)",
+   "name_before": "cartographer.d@AgentiCCells.dinis",
+   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "sherpa.d",
-   "name": "sherpa.d@AgentiCCells.dinis",
+   "name": "sherpa.d (account-d)",
    "circle": "central (helm)",
    "parent": "maestro.d",
    "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
@@ -496,11 +505,13 @@
    "accountabilities": "users and needs per area; journeys; the top of each map",
    "overlap": "sherpa@ (B) reviews one site's pages as a cold reader: twins or two roles is Dinis's",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "13:26Z 22 Nov (list_sessions)"
+   "state_seen": "13:26Z 22 Nov (list_sessions)",
+   "name_before": "sherpa.d@AgentiCCells.dinis",
+   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "accountant.d",
-   "name": "accountant.d@AgentiCCells.dinis",
+   "name": "accountant.d (account-d)",
    "circle": "central (helm)",
    "parent": "maestro.d",
    "session": "https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK",
@@ -517,11 +528,13 @@
    "accountabilities": "primitives catalogue; budgets across every agent and account; spend against them",
    "overlap": "accountant@ (B) budgets one team; whose home Site__Agents__Accountant is, Dinis's",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "13:26Z 22 Nov (list_sessions)"
+   "state_seen": "13:26Z 22 Nov (list_sessions)",
+   "name_before": "accountant.d@AgentiCCells.dinis",
+   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "counsel.d",
-   "name": "counsel.d@AgentiCCells.dinis",
+   "name": "counsel.d (account-d)",
    "circle": "central (helm)",
    "parent": "maestro.d",
    "session": "https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
@@ -538,11 +551,13 @@
    "accountabilities": "drafts; tests against cases; risks; never legal advice",
    "overlap": "rights@ (B) checks licences and terms of data; counsel.d drafts Dinis's own instruments",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "13:26Z 22 Nov (list_sessions)"
+   "state_seen": "13:26Z 22 Nov (list_sessions)",
+   "name_before": "counsel.d@AgentiCCells.dinis",
+   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "decisions.d",
-   "name": "decisions.d@AgentiCCells.dinis",
+   "name": "decisions.d (account-d)",
    "circle": "central (helm)",
    "parent": "maestro.d",
    "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
@@ -559,11 +574,13 @@
    "accountabilities": "hold the power; decide only inside it, each decision signed and recorded; refer the rest to Dinis",
    "overlap": "the decision pages: owners still propose and decide PT decisions",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "13:26Z 22 Nov (list_sessions)"
+   "state_seen": "13:26Z 22 Nov (list_sessions)",
+   "name_before": "decisions.d@AgentiCCells.dinis",
+   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "studio.d",
-   "name": "studio.d@AgentiCCells.dinis",
+   "name": "studio.d (account-d)",
    "circle": "central (helm)",
    "parent": "maestro.d",
    "session": "https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq",
@@ -580,11 +597,13 @@
    "accountabilities": "storyboard, script, presenters; every briefing published; sources shown",
    "overlap": "bulletins.d/.b make news summaries from data; studio.d makes briefings on the estate's own topics",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "13:26Z 22 Nov (list_sessions)"
+   "state_seen": "13:26Z 22 Nov (list_sessions)",
+   "name_before": "studio.d@AgentiCCells.dinis",
+   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "landscape.d",
-   "name": "landscape.d@AgentiCCells.dinis",
+   "name": "landscape.d (account-d)",
    "circle": "central (helm)",
    "parent": "maestro.d",
    "session": "https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
@@ -601,7 +620,9 @@
    "accountabilities": "market research; recommendations; site variants; first: Sovereign Website",
    "overlap": "designer.experiments@ (B) varies PrompTugal pages; landscape.d starts from the market",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "13:26Z 22 Nov (list_sessions)"
+   "state_seen": "13:26Z 22 Nov (list_sessions)",
+   "name_before": "landscape.d@AgentiCCells.dinis",
+   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "email.workflows.d",
@@ -693,5 +714,6 @@
   "note": "Also listed by list_sessions on this account, older than 16 Nov and not in Dinis's list: about 70 run sessions of the first AgentiCCells team (conductor@AgentiCCells.dinis, jC7yo7HF, completed; its sites, dev, writer, designer, reviewer, dns and other runs of 15 and 16 Nov: completed, failed or blocked) and 12 php.newsroom sessions of 28 Oct. No wake known for any. The listing stopped at 100 rows, so there may be more.",
   "asks": "Dinis: archive or keep (tension T8)"
  },
- "also_seen_not_listed": "email.dev.d (named by conductor.d@AgentiCCells; not in the first 30 rows of list_sessions, so not charted); the listing returns more rows than I read."
+ "also_seen_not_listed": "email.dev.d (named by conductor.d@AgentiCCells; not in the first 30 rows of list_sessions, so not charted); the listing returns more rows than I read.",
+ "requests_relayed": "15:34Z (maestro.d relaying conductor.d (SovereignWebsite)): requests for 11 agent sites on SovereignWebsite__Factory dev (13947db), run 45038885703: Holacracy, Maestro, Helm, Strategy, Cartographer, Sherpa, Decisions, Counsel, Studio, Landscape, Synthetic-Users. Not yet seen by me as repositories."
 }

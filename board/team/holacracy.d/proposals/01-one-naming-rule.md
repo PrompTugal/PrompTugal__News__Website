@@ -15,3 +15,6 @@ Option 1 now, a second session of a role takes `<role>.<account>.2` (so factory.
 
 ## What follows
 Yes: holacracy.d keys the record on that form and lists renames for each owner. No or other: say which, and the record follows.
+
+## Update, 22 Nov 15:40 UTC
+maestro.d relayed Dinis's word (~15:15 UTC): the central circle is account-d's, and its sessions are retitled <name>.d@account-d.dinis; repository names change once the gate accepts that form. So the account-d.dinis form is now in use for ten agents, which is option B's direction for the central circle only. Until the gate accepts it, the record writes "name (account-d)". Still open: whether the other account D agents (conductors, site agents) follow, and the singular or plural for role homes.

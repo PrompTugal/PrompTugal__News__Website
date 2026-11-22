@@ -1,12 +1,12 @@
 # Org chart of account D
 
-Drawn from org-chart.json (2026-11-22T14:30Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
+Drawn from org-chart.json (2026-11-22T15:40Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
 
 ## The parent tree (who started whom)
 
 ```
 maestro.d (account-d) [opus, configured sonnet] working, $12.20
-|-- holacracy.d@AgentiCCells.dinis [sonnet] working
+|-- holacracy.d (account-d) [sonnet] working
 |-- conductor.d@PrompTugal.dinis [opus] waiting on Dinis: push access to PrompTugal__News__Data, how twins' keys get in, $3.42
 |   |-- bulletins.d@PrompTugal.dinis [opus] completed its last turn (story-first player on a branch), $2.48
 |   `-- data.d@PrompTugal.dinis [not fetched] waiting on Dinis: merge factory.d's commit for push access
@@ -24,15 +24,15 @@ maestro.d (account-d) [opus, configured sonnet] working, $12.20
 |   |-- email.design.d@AgentiCCells.dinis [not fetched] completed (commits pushed to its work branch)
 |   `-- email.pm.d@AgentiCCells.dinis [not fetched] review ready
 |-- newsroom.d (sgit.ai) [opus] waiting on Dinis: who holds a decision brief, $9.33
-|-- helm.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
-|-- strategy.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
-|-- cartographer.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
-|-- sherpa.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
-|-- accountant.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
-|-- counsel.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
-|-- decisions.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
-|-- studio.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
-`-- landscape.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
+|-- helm.d (account-d) [not fetched] working (started 13:25 UTC)
+|-- strategy.d (account-d) [not fetched] working (started 13:25 UTC)
+|-- cartographer.d (account-d) [not fetched] working (started 13:25 UTC)
+|-- sherpa.d (account-d) [not fetched] working (started 13:25 UTC)
+|-- accountant.d (account-d) [not fetched] working (started 13:25 UTC)
+|-- counsel.d (account-d) [not fetched] working (started 13:25 UTC)
+|-- decisions.d (account-d) [not fetched] working (started 13:25 UTC)
+|-- studio.d (account-d) [not fetched] working (started 13:25 UTC)
+`-- landscape.d (account-d) [not fetched] working (started 13:25 UTC)
 ```
 
 ## The circles (who holds what purpose)
@@ -44,14 +44,14 @@ maestro.d (account-d) [opus, configured sonnet] working, $12.20
 - **StreamingWebsite**: lead sites.d (by parent; not written as a lead); purpose: The streaming site; fillers: streaming.d
 - **AgentiCCells**: lead conductor.d@AgentiCCells (D), conductor.b@AgentiCCells.dinis and cells.b (B, reported); purpose: The AgentiCCells site factory and its cells; fillers: conductor.d@AgentiCCells, cell.email.d; sub-circles: Cell Email
 - **Cell Email**: lead conductor.d@AgentiCCells (by parent); purpose: The email cell; fillers: cell.email.d
-- **Central circle (helm)**: lead helm.d@AgentiCCells.dinis (as relayed by maestro.d, 22 Nov ~13:20 UTC; not yet written by Dinis in my session); purpose: One place for the global structure and direction of Dinis's estate: where we are, where we go, and what that costs and needs, across every project and account (proposed by helm.d, 13:37Z; not ratified by Dinis) | twins: sherpa.d and accountant.d are twins of the account B roles (relayed); fillers: helm.d, strategy.d, cartographer.d, sherpa.d, accountant.d, counsel.d, decisions.d, studio.d, landscape.d, holacracy.d
+- **Central circle (helm)**: lead helm.d (account-d), a top-level peer of the conductors (relayed); purpose: One place for the global structure and direction of Dinis's estate: where we are, where we go, and what that costs and needs, across every project and account (proposed by helm.d, 13:37Z; not ratified by Dinis) | twins: sherpa.d and accountant.d are twins of the account B roles (relayed); fillers: helm.d, strategy.d, cartographer.d, sherpa.d, accountant.d, counsel.d, decisions.d, studio.d, landscape.d, holacracy.d
 
 ## Roles and fillers (account D)
 
 | Agent | Circle | Parent | Twin | Repository | Wake | Session |
 |---|---|---|---|---|---|---|
 | maestro.d (account-d) | maestros | - | maestro.b (account-b) | PrompTugal/PrompTugal__News__Website | every 4 h at :48 UTC | https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T |
-| holacracy.d@AgentiCCells.dinis | anchor | maestro.d | none yet | PrompTugal/PrompTugal__News__Website (board/team/holacracy.d/) | none | https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q |
+| holacracy.d (account-d) | anchor | maestro.d | none yet | PrompTugal/PrompTugal__News__Website (board/team/holacracy.d/); home SovereignWebsite/Site__Agent__Holacracy requested (13947db, relayed) | none | https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q |
 | conductor.d@PrompTugal.dinis | PrompTugal | maestro.d | conductor.b@PrompTugal.dinis | PrompTugal/PrompTugal__News__Website | none (waits on Dinis) | https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 |
 | bulletins.d@PrompTugal.dinis | PrompTugal | conductor.d@PrompTugal | bulletins.b@PrompTugal.dinis | PrompTugal/PrompTugal__News__Bulletins | none | https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj |
 | conductor.d (SovereignWebsite) | SovereignWebsite | maestro.d | conductor.b (SovereignWebsite) | SovereignWebsite/SovereignWebsite__Factory | none | https://claude.ai/code/session_015gaHdbX954ByXJf8LH5FLL |
@@ -65,15 +65,15 @@ maestro.d (account-d) [opus, configured sonnet] working, $12.20
 | conductor.d@AgentiCCells.dinis | AgentiCCells | maestro.d | conductor.b@AgentiCCells.dinis | AgentiCCells/AgentiCCells__Site__Factory | none | https://claude.ai/code/session_015gaHdcaj9Ta2Tke7pnZ3Q9 |
 | cell.email.d@AgentiCCells.dinis | AgentiCCells | conductor.d@AgentiCCells | cell.email.b | AgentiCCells/AgentiCCells__Cell__Email | none | https://claude.ai/code/session_015gaHde7zcTqMyBWcdpdnR6 |
 | newsroom.d (sgit.ai) | newsroom (sgit.ai, not yet a circle in the record) | maestro.d | writer-10 (newsroom.b), reported | SGit-AI/SGit-AI__Website__Newsroom | none seen | https://claude.ai/code/session_015gaHdb5n5RdwdbHzWijPMS |
-| helm.d@AgentiCCells.dinis | central (helm) | maestro.d | none yet | Site__Agents__Helm (to be requested) | none | https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV |
-| strategy.d@AgentiCCells.dinis | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdddd1qVEaY3EG6feEsL |
-| cartographer.d@AgentiCCells.dinis | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH |
-| sherpa.d@AgentiCCells.dinis | central (helm) | maestro.d | sherpa@PrompTugal.dinis (account B): twins, per Dinis to helm.d ~14:05Z (relayed) | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL |
-| accountant.d@AgentiCCells.dinis | central (helm) | maestro.d | accountant@PrompTugal.dinis (account B): twins, per Dinis to helm.d ~14:05Z (relayed) | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK |
-| counsel.d@AgentiCCells.dinis | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6 |
-| decisions.d@AgentiCCells.dinis | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG |
-| studio.d@AgentiCCells.dinis | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq |
-| landscape.d@AgentiCCells.dinis | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW |
+| helm.d (account-d) | central (helm) | maestro.d | none yet | SovereignWebsite/Site__Agents__Helm (agent site requested on SovereignWebsite__Factory dev, 13947db, relayed 15:34Z) | none | https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV |
+| strategy.d (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdddd1qVEaY3EG6feEsL |
+| cartographer.d (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH |
+| sherpa.d (account-d) | central (helm) | maestro.d | sherpa@PrompTugal.dinis (account B): twins, per Dinis to helm.d ~14:05Z (relayed) | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL |
+| accountant.d (account-d) | central (helm) | maestro.d | accountant@PrompTugal.dinis (account B): twins, per Dinis to helm.d ~14:05Z (relayed) | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK |
+| counsel.d (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6 |
+| decisions.d (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG |
+| studio.d (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq |
+| landscape.d (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW |
 | email.workflows.d@AgentiCCells.dinis | Cell Email | conductor.d@AgentiCCells | none yet | AgentiCCells/AgentiCCells__Cell__Email (assumed) | none | https://claude.ai/code/session_015gaHdbAGDK9xNPDa9znvB9 |
 | email.design.d@AgentiCCells.dinis | Cell Email | conductor.d@AgentiCCells | none yet | AgentiCCells/AgentiCCells__Cell__Email (assumed) | none | https://claude.ai/code/session_015gaHdb5B7vab8KyN7YiDNZ |
 | email.pm.d@AgentiCCells.dinis | Cell Email | conductor.d@AgentiCCells | none yet | AgentiCCells/AgentiCCells__Cell__Email (assumed) | none | https://claude.ai/code/session_015gaHdasKF9YcSA27g5dMPz |
