@@ -1,0 +1,73 @@
+{
+  "format": "studio-storyboard/0",
+  "slug": "sherpa-journey-feedback-door",
+  "title": "The visitor with something to say: a journey up a Sovereign Website",
+  "audience": "Dinis: how a visitor meets a Sovereign Website with no way to say what is wrong, and what the first fix changes; he can say whether the story is the right one to tell",
+  "requested_by": "sherpa.d@AgentiCCells.dinis",
+  "summary": "A crowd of synthetic visitors walks a path while the site on the right shows what they meet. Without a feedback door most fall into a ravine; the Sherpa builds a bridge and the crowd gets through. The counts are illustrative, not measured, and nothing is tested with real users.",
+  "beats": [
+    {
+      "id": "b1",
+      "narration": "Every Sovereign Website is a mountain. Visitors set off on the path on the left, and the site on the right shows what each one meets. Today we follow visitors who have something to tell the team.",
+      "visual": { "kind": "journey", "stop": "base-camp", "walkers": { "start": 20, "here": 20, "fell": 0, "through": 0, "basis": "illustrative" }, "site": { "shows": "A Sovereign Website's home page, as a visitor first sees it" }, "sherpa": "", "note": "Twenty synthetic walkers at base camp, labelled illustrative on screen. The site panel on the right is a real site's first screen." },
+      "facts": ["s1"]
+    },
+    {
+      "id": "b2",
+      "narration": "The trail is easy. They read, they scroll, they like what they see. Then one notices something wrong, or something missing, and wants to say so.",
+      "visual": { "kind": "journey", "stop": "trail", "walkers": { "start": 20, "here": 20, "fell": 0, "through": 0, "basis": "illustrative" }, "site": { "shows": "The page content; a visitor pauses on a detail" }, "sherpa": "", "note": "A light, friendly walk. One walker stops and points." },
+      "facts": ["s1"]
+    },
+    {
+      "id": "b3",
+      "narration": "At the fork they look for a way to tell someone. On the hub, the home of all our sites, we found no feedback control at all in its text. On the sites themselves we have not yet looked. So here the path goes into fog.",
+      "visual": { "kind": "journey", "stop": "fog", "walkers": { "start": 20, "here": 20, "fell": 0, "through": 0, "basis": "illustrative" }, "site": { "shows": "A page with no visible way to give feedback" }, "sherpa": "", "note": "Fog rolls in at the fork. The hub finding H1 is real; whether each site has a door is not yet checked, so the fog stays honest." },
+      "facts": ["s2"]
+    },
+    {
+      "id": "b4",
+      "narration": "Without a door, the walkers wander. Some give up. Some fall into the ravine of the missing thing. In this sketch, fourteen of twenty are lost. The number is made up to show the shape; real counts come from the anonymous lane.",
+      "visual": { "kind": "journey", "stop": "ravine", "walkers": { "start": 20, "here": 6, "fell": 14, "through": 0, "basis": "illustrative" }, "site": { "shows": "The same page; nothing changes, and nothing tells them what to do" }, "sherpa": "", "note": "Lemmings style: the crowd walks on and falls, in good humour, with a label that the count is illustrative." },
+      "facts": ["s2"]
+    },
+    {
+      "id": "b5",
+      "narration": "Enter the Sherpa. A Tell the team control goes into the sites bar that every site already carries: two taps, type or speak, no account. The Sherpa names the need. The site's owner builds the bridge.",
+      "visual": { "kind": "journey", "stop": "bridge", "walkers": { "start": 20, "here": 20, "fell": 0, "through": 0, "basis": "illustrative" }, "site": { "shows": "The site with a Tell the team control in its top bar (a proposal, not built)" }, "sherpa": "Names the need and ties the first rope; the owner role builds the bridge", "note": "Show the control only as a sketch labelled proposal. The sites bar and its registry exist; the control does not." },
+      "facts": ["s1", "s3"]
+    },
+    {
+      "id": "b6",
+      "narration": "Now they cross. A visitor speaks, the words become text, and in this sketch the sound is deleted at once. The message goes to the site's lead agent, who passes it on. Then comes the hut: a note that they were heard.",
+      "visual": { "kind": "journey", "stop": "hut", "walkers": { "start": 20, "here": 19, "fell": 1, "through": 19, "basis": "illustrative" }, "site": { "shows": "A confirmation: received, and who has it" }, "sherpa": "A rope from the message to the lead agent's lane", "note": "The delete-the-audio rule is Dinis's answer for his own memos; for visitors it still needs counsel.d. Say so in a small caption." },
+      "facts": ["s3"]
+    },
+    {
+      "id": "b7",
+      "narration": "At the summit the team gathers. The lead agent reads the message, the owner fixes the page, and the next crowd walks past the ravine. A fall was only ever a finding that nobody had fixed yet.",
+      "visual": { "kind": "journey", "stop": "summit", "walkers": { "start": 20, "here": 20, "fell": 2, "through": 18, "basis": "illustrative" }, "site": { "shows": "The fixed page, and the team at work beside it" }, "sherpa": "Walks back down to bring the next crowd up", "note": "Collaboration: the owner, the lead agent and the Sherpa on one rope. The happy ending is a sketch of what we want, not a result." },
+      "facts": ["s3"]
+    },
+    {
+      "id": "b8",
+      "narration": "A caution: every number here is illustrative, and nothing has been tested with a real user. When the anonymous lane has real counts, the crowd will be measured, and the story will say so.",
+      "visual": { "kind": "title", "text": "Illustrative, not measured. Not tested with real users." },
+      "facts": ["s1"]
+    }
+  ],
+  "decision": {
+    "question": "Is this the right way to tell users' journeys: a path, a crowd and the site beside it, with the Sherpa's help?",
+    "options": [
+      { "id": "a", "label": "Yes, and make one for every ranked journey", "good": ["Each finding becomes a story that points at a fix", "Light enough to enjoy, specific enough to act on"], "bad": ["Needs the Studio to draw a new kind of scene each time", "A fun crowd can look like data unless every count says what it is"], "blocks": [] },
+      { "id": "b", "label": "Yes, but only for the first customer's journeys for now", "good": ["Keeps to Sovereign Website, the first customer", "Fewer stories to review"], "bad": ["The decision and hub journeys wait"], "blocks": [] },
+      { "id": "c", "label": "No, keep plain briefs", "good": ["Cheapest to make"], "bad": ["Loses the picture of where users are lost", "Dinis asked for the fun version"], "blocks": [] }
+    ],
+    "recommendation": "a",
+    "why": "It tells the user's side of the map in a form people want to watch, and every fall maps to a fixable finding. It goes to Dinis because it is his taste and his time."
+  },
+  "sources": [
+    { "id": "s1", "title": "sherpa.d: the Sherpa's journeys (format, rules and the story)", "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/sherpa.d/journeys/README.md", "read": "2026-11-22" },
+    { "id": "s2", "title": "sherpa.d: the hub read cold, findings H1 to H5", "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/sherpa.d/needs/feedback-everywhere.md", "read": "2026-11-22" },
+    { "id": "s3", "title": "sherpa.d: feedback from every site, the dots and the voice-memo requirements", "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/sherpa.d/needs/feedback-everywhere.md", "read": "2026-11-22" }
+  ]
+}
