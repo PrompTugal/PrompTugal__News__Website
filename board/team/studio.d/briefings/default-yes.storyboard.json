@@ -12,7 +12,7 @@
    "visual": {
     "kind": "stat",
     "value": "42",
-    "label": "questions wait on you across account D; the oldest has waited over thirteen hours"
+    "label": "questions waited on you across account D at 15:33 UTC, 22 November (the number is falling); the oldest had waited over thirteen hours"
    },
    "facts": [
     "f-log"
