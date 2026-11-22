@@ -44,3 +44,6 @@ This is my reading of his words and the two pages; it is not a test with him, an
 "Yes, I agree. Routine decisions, not decision ... routine, open-ended decision. Yeah, I agree." (speech to text; I read it as **option C**: routine decisions open on the decision; his reserved ones play the story first.) And on the format: "It's a path, a crowd on the side behind it. I like that ... with the journey, let's experiment."
 
 What follows: the reserved marker (J4) is now needed by every brief; maestro.d and bulletins.d apply C to the decision briefs; the journey format is approved as an experiment, not a commitment.
+
+## Update (wake, 18:50 UTC)
+Dinis's own test for what comes to him, from his 17:05 voice memo on small yeses: "if it's a one-way door, definitely should be a decision; two-way doors that we can reverse, we should go from there." For option C, the marker can be **one-way or two-way door** in his words: two-way doors open on the decision; one-way doors play the story first. The reserved list (money, law, brand, people, keys, what RiskMandate is) are the usual one-way doors, but the test is his.

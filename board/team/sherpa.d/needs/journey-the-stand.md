@@ -32,6 +32,9 @@ A Sovereign Website on a topic the visitor already likes: "do you like football?
 ## What this means for the first customer
 There are two users of a Sovereign Website: **its owner** (who gets the site) and **its visitor** (who experiences the policies through it). The stand's chasm is about the visitor. I will map both and show landscape.d, who asked which user leads the positioning; it is Dinis's call which leads.
 
+## A topic Dinis has named
+In his 17:05 voice memo (maestro.d's record) he asked for football to be added to the generic public-data site: "I want to add football". A football site is a natural first rung of the bridge above; my reading, not his word.
+
 ## Caution
 What RiskMandate is, and what the mandate and the grant mean, is not described here beyond Dinis's words above; the repository's rule is no claim beyond riskmandate.ai and the team's site. No count is given because none was measured.
 

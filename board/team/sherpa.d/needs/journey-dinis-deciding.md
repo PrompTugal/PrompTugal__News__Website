@@ -53,3 +53,14 @@ Read-only, with maestro.d's word: (1) bulletins.d's **decision brief v2** (one p
 **Pains of part 1 against these.** (1) context apart from the decision: fixed in both. (2) a visit to a session per answer: fixed on the page, but the relay still costs one. (3) no order or sense of safety: not fixed (J4, J7). (4) no receipt: partly (J1, J2).
 
 **What I need to learn from Dinis** (the one thing no review can give): does he play the story, or skip to the decision? If he skips, the story is for others (a first-time reader of a decision), and the decision at the top is his need. His first answers will show which.
+
+## Part 3: what happened when he used it (wake of 22 Nov, 18:50 UTC; from the record, not run by me)
+
+At about 17:05 UTC Dinis answered **18 decisions in one sitting by voice memo on phone-sized lane cards** (record: `board/team/maestro.d/decisions/2026-11-22-voice-memo-18-answers.md`). His words afterwards: "Decision workflow worked really well ... you can see how many decisions I made very quickly. Let's work like this." That is the first real measure of this journey, and it is good: 18 decisions in one visit against nine links to nine sessions on the morning's list.
+
+What I can still see from the Desk's answers (read-only, three sampled):
+- **The answers were recorded by maestro.d from the voice memos**, all stamped 17:05:00 UTC, "via voice memo on the lane cards", not written by his own page. So per-answer timing is lost and the answer is a relay, not a signed word (J3 still stands).
+- **His own words give the marker J4 asked for:** "if it's a one-way door, definitely should be a decision; two-way doors that we can reverse, we should go from there." One-way and two-way doors is a plainer test than "reserved".
+- **His limit on default-yes** is a need of its own: tell "nobody looked" apart from "looked and found nothing wrong".
+
+Status of my findings: J1 and J2 fixed (maestro.d, Desk v4); J3 waits on the signing route (decisions.d, his answers on 17:05); J4 can now use his one-way door test; J5 to J7 not re-checked; J8, J9 not re-checked.
