@@ -59,3 +59,17 @@ So today's Factory becomes IaC, one repository per target, for example:
 - the next target gets its own when it is added.
 
 What the Factory holds that is not infrastructure for a target (policy/abp.json and its checks, team/keys.json, requests/, seed/, the board) needs a home of its own; to settle in the decision page (maestro.c's view: keys and policy in one repository every IaC repository reads, requests and seed with the factory agent, which keeps the name "factory" for the agent and recipe that builds a whole new operation). Agent names follow the targets (iac.github, iac.aws, with the account letter). A one-way door: a decision page, then one move, after account B is back.
+
+## Dinis's word (about 19:30 UTC): IaC.<area>, one repository for now
+
+"I agree, and what about splitting those into IaC.PKI for example. For now all going to the same repo."
+
+So the parts that are not a target become areas of the same IaC, named the same way, and everything stays in one repository for now (the split into repositories comes later, area by area):
+- IaC.GitHub: the organisation, repositories, rulesets, team access, external collaborators, org apply (today org/repos.json, org/external-collaborators.json, the org workflows)
+- IaC.AWS: DNS on Route 53 and anything else on AWS, DNS apply (today org/dns.json and its workflow)
+- IaC.PKI: the agents' public keys and the signature checks (today team/keys.json, build/check-signatures.mjs)
+- IaC.Policy: the Agent Behaviour Policies and their checks (today policy/, build/abp.mjs)
+- IaC.Requests and IaC.Seed: new-site requests and the starter files (today requests/, seed/), unless the factory agent takes them
+- the next target or area gets its own IaC.<name>
+
+Agents follow the areas: iac.github, iac.aws, iac.pki, with the account letter (iac.pki.c). Open for the decision page: the repository's new name (SovereignWebsite__IaC), whether the areas become folders now (one move) or only names on the board first, and whether requests and seed stay in IaC.
