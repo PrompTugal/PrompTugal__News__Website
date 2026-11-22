@@ -10,7 +10,8 @@
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's power-of-attorney and decisions-at-scale (sections 1, 6, 7), board/person-keys.json, rights@'s status, newsroom.sgit.ai's lawyers-in-the-loop",
     "Key counsel.d-agenticcells made in this session and published in board/keys.json, commits signed",
-    "drafts/lpa-decisions.d-v0.1.md: P1 to P3 powers, X1 to X10 exclusions, duration, D1 to D7 duties, revocation, receivers' checks, register"
+    "drafts/lpa-decisions.d-v0.1.md: P1 to P3 powers, X1 to X10 exclusions, duration, D1 to D7 duties, revocation, receivers' checks, register",
+    "Gate OK on the full history (the shallow clone made an old commit look like it changed every file); run report filed"
   ],
   "next": [
     "Simulations against v0.1: revocation, act out of scope, stolen attorney key, Dinis unreachable, replay, a twin claiming the delegation, a receiver with a stale revocation list",
@@ -23,7 +24,8 @@
     "Dinis: the delegation needs a principal key that only you hold; board/person-keys.json has none made on your own device yet (the 6 Nov key was issued by conductor@, which also holds its private half). Until you publish one, the draft cannot be signed - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: in draft v0.1, should P3 (routine operations: merge, release, pick an option) be in the first version, or only P1 (your verbatim answers) and P2 (adopted defaults)? Counsel's default: P1 and P2 only - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: v0.1 proposes expiry at most 7 days and suspension after 72 hours without a sign of life from you; your numbers? - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
-    "Dinis: which jurisdiction, if any, a real lawyer would later be asked about is yours alone; nothing is assumed until you say - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6"
+    "Dinis: which jurisdiction, if any, a real lawyer would later be asked about is yours alone; nothing is assumed until you say - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
+    "Dinis: there is no board/abp/counsel.d.md yet, so the ABP hook counts my writes to my own folder board/team/counsel.d/ as outside my grant (4 logged breaches in board/runs/counsel.d-dinis/); abp@ is on account B until Monday 23 Nov; until then I write only in that folder, as maestro.d's brief says - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6"
   ],
   "debrief": "board/team/counsel.d/debriefs/2026-11-22-handover.md"
 }
