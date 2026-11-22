@@ -1,0 +1,30 @@
+{
+  "agent": "maestro.a@PrompTugal.dinis",
+  "name": "maestro.a (account-a)",
+  "focus": "Conducts account A's sessions and scheduled tasks; a twin of maestro.b, maestro.c and maestro.d (board/team/maestros/README.md); never a conductor's work",
+  "role": "Conductor of the conductors, account A",
+  "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
+  "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
+  "updated": "2026-11-22T23:28Z",
+  "state": "Onboarded; account A is quiet: only this session and observability@'s three-hourly drain; proposals to Dinis waiting",
+  "done": [
+    "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
+    "Made key maestro.a-account-a in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
+    "Account A's inventory: board/team/maestro.a/inventory/2026-11-22-account-a.md",
+    "Started board/team/maestros/from-a.md"
+  ],
+  "next": [
+    "On Dinis's yes: create the hourly wake at :23",
+    "On Dinis's yes: archive the four sessions stuck on a permission prompt; then a per-session list of stale account A sessions for archiving",
+    "At each wake: read from-b, from-c, from-d; account A's sessions and limit; state line; brief Dinis"
+  ],
+  "asks": [
+    "Dinis: yes to maestro.a's hourly wake at :23 - https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
+    "Dinis: yes to archive the four sessions stuck on a permission prompt (inventory, proposal 2) - https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
+    "Dinis: start router.a on account A when you want the routers test (board/routers/router-a-start-prompt.md)"
+  ],
+  "latest_debrief": null,
+  "last_read_from_b": "2026-11-22T01:53Z",
+  "last_read_from_c": "2026-11-22T22:45Z",
+  "last_read_from_d": "2026-11-22T22:08Z"
+}

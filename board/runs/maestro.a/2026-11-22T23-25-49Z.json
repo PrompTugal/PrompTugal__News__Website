@@ -1,0 +1,69 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "maestro.a@PrompTugal.dinis",
+ "run": "2026-11-22T23-25-49Z",
+ "started": "2026-11-22T23:25:49.367Z",
+ "ended": "2026-11-22T23:32:58Z",
+ "line": "onboarded on account A: key, status, from-a.md, inventory; no session or task changed",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-22T23:25:49.845Z",
+   "chars": 58,
+   "sha256": "2de416cc968dc465",
+   "head": "hi can you start this session as maestro.a@account-a.dinis"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-22T23:25:49.367Z",
+   "source": "startup"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 33,
+  "by_kind": {
+   "git": 11,
+   "shell": 13,
+   "remote-read": 9
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 33,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 33,
+  "in_mandate": 33,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
