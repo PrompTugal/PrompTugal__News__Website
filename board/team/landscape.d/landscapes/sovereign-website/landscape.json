@@ -7,12 +7,11 @@
  "made_by": "landscape.d@AgentiCCells.dinis",
  "rings_read": [
   1,
-  3
- ],
- "rings_not_yet_read": [
   2,
+  3,
   4
  ],
+ "rings_not_yet_read": [],
  "about": "Data for cartographer.d to draw (carto-map/1) and strategy.d to place on evolution. Positions are NOT given here: this file holds who offers what, with sources. Every fact has its URL and the date it was read; rows flagged in the facts must be re-read. Our own offer: jobs/2026-11-22-sovereign-website/01b-our-offer-relayed.md.",
  "players": [
   {
@@ -524,6 +523,294 @@
      "fact": null
     }
    }
+  },
+  {
+   "player": "Wix",
+   "ring": 2,
+   "readings": {
+    "price": {
+     "status": "stated",
+     "fact": "sw-f079"
+    },
+    "hosting": {
+     "status": "not-found",
+     "fact": "sw-f083"
+    },
+    "export": {
+     "status": "not-found",
+     "fact": "sw-f082"
+    },
+    "ai": {
+     "status": "stated",
+     "fact": "sw-f080"
+    },
+    "ownership": {
+     "status": "not-found",
+     "fact": "sw-f081"
+    }
+   }
+  },
+  {
+   "player": "Squarespace",
+   "ring": 2,
+   "readings": {
+    "price": {
+     "status": "stated",
+     "fact": "sw-f084"
+    },
+    "hosting": {
+     "status": "not-found",
+     "fact": "sw-f088"
+    },
+    "export": {
+     "status": "stated",
+     "fact": "sw-f087"
+    },
+    "ai": {
+     "status": "stated",
+     "fact": "sw-f085"
+    },
+    "ownership": {
+     "status": "stated",
+     "fact": "sw-f086"
+    }
+   }
+  },
+  {
+   "player": "Webflow",
+   "ring": 2,
+   "readings": {
+    "price": {
+     "status": "not-found",
+     "fact": "sw-f089"
+    },
+    "export": {
+     "status": "not-found",
+     "fact": "sw-f090"
+    },
+    "ownership": {
+     "status": "not-found",
+     "fact": "sw-f091"
+    }
+   }
+  },
+  {
+   "player": "Lovable",
+   "ring": 2,
+   "readings": {
+    "price": {
+     "status": "stated",
+     "fact": "sw-f092"
+    },
+    "hosting": {
+     "status": "stated",
+     "fact": "sw-f096"
+    },
+    "export": {
+     "status": "stated",
+     "fact": "sw-f095"
+    },
+    "ownership": {
+     "status": "stated",
+     "fact": "sw-f094"
+    }
+   }
+  },
+  {
+   "player": "Bolt (bolt.new)",
+   "ring": 2,
+   "readings": {
+    "price": {
+     "status": "stated",
+     "fact": "sw-f097"
+    },
+    "hosting": {
+     "status": "stated",
+     "fact": "sw-f099"
+    },
+    "export": {
+     "status": "not-found",
+     "fact": "sw-f100"
+    }
+   }
+  },
+  {
+   "player": "v0 by Vercel",
+   "ring": 2,
+   "readings": {
+    "price": {
+     "status": "stated",
+     "fact": "sw-f101"
+    },
+    "hosting": {
+     "status": "stated",
+     "fact": "sw-f105"
+    },
+    "export": {
+     "status": "stated",
+     "fact": "sw-f104"
+    },
+    "ownership": {
+     "status": "stated",
+     "fact": "sw-f103"
+    }
+   }
+  },
+  {
+   "player": "Durable",
+   "ring": 2,
+   "readings": {
+    "price": {
+     "status": "stated",
+     "fact": "sw-f106"
+    },
+    "hosting": {
+     "status": "stated",
+     "fact": "sw-f108"
+    },
+    "export": {
+     "status": "stated",
+     "fact": "sw-f109"
+    }
+   }
+  },
+  {
+   "player": "10Web",
+   "ring": 2,
+   "readings": {
+    "price": {
+     "status": "stated",
+     "fact": "sw-f110"
+    },
+    "export": {
+     "status": "stated",
+     "fact": "sw-f113"
+    },
+    "licence": {
+     "status": "stated",
+     "fact": "sw-f114"
+    },
+    "ownership": {
+     "status": "stated",
+     "fact": "sw-f112"
+    }
+   }
+  },
+  {
+   "player": "Hetzner",
+   "ring": 4,
+   "readings": {
+    "price": {
+     "status": "stated",
+     "fact": "sw-f116"
+    },
+    "location": {
+     "status": "stated",
+     "fact": "sw-f117"
+    },
+    "sovereignty": {
+     "status": "stated",
+     "fact": "sw-f118"
+    },
+    "domain": {
+     "status": "stated",
+     "fact": "sw-f119"
+    }
+   }
+  },
+  {
+   "player": "OVHcloud",
+   "ring": 4,
+   "readings": {
+    "price": {
+     "status": "not-found",
+     "fact": "sw-f122"
+    },
+    "location": {
+     "status": "stated",
+     "fact": "sw-f123"
+    },
+    "sovereignty": {
+     "status": "stated",
+     "fact": "sw-f124"
+    },
+    "domain": {
+     "status": "stated",
+     "fact": "sw-f125"
+    },
+    "lockin": {
+     "status": "not-found",
+     "fact": "sw-f126"
+    }
+   }
+  },
+  {
+   "player": "Scaleway",
+   "ring": 4,
+   "readings": {
+    "price": {
+     "status": "stated",
+     "fact": "sw-f128"
+    },
+    "location": {
+     "status": "not-found",
+     "fact": "sw-f129"
+    },
+    "sovereignty": {
+     "status": "not-found",
+     "fact": "sw-f130"
+    },
+    "lockin": {
+     "status": "stated",
+     "fact": "sw-f131"
+    }
+   }
+  },
+  {
+   "player": "Cloudflare Pages",
+   "ring": 4,
+   "readings": {
+    "sovereignty": {
+     "status": "stated",
+     "fact": "sw-f133"
+    },
+    "domain": {
+     "status": "stated",
+     "fact": "sw-f135"
+    },
+    "lockin": {
+     "status": "not-found",
+     "fact": "sw-f136"
+    }
+   }
+  },
+  {
+   "player": "GitHub Pages",
+   "ring": 4,
+   "readings": {
+    "location": {
+     "status": "not-found",
+     "fact": "sw-f141"
+    },
+    "domain": {
+     "status": "stated",
+     "fact": "sw-f140"
+    }
+   }
+  },
+  {
+   "player": "Netlify",
+   "ring": 4,
+   "readings": {
+    "location": {
+     "status": "stated",
+     "fact": "sw-f144"
+    },
+    "sovereignty": {
+     "status": "not-found",
+     "fact": "sw-f145"
+    }
+   }
   }
  ],
  "findings": [
@@ -579,6 +866,56 @@
     "sw-f014",
     "sw-f029",
     "sw-f061"
+   ]
+  },
+  {
+   "id": "sw-g6",
+   "kind": "gap",
+   "text": "Of the mass-market and AI-native builders, none read states an export tool for the site on the pages read (Wix, Squarespace, Lovable, Bolt, Durable, 10Web); v0 advertises GitHub sync on its free plan and 10Web lists SFTP/SSH, which are partial answers. Webflow, the builder best known for code export, could not be read at all and must be re-scouted before any claim is made about it.",
+   "facts": [
+    "sw-f082",
+    "sw-f087",
+    "sw-f095",
+    "sw-f100",
+    "sw-f109",
+    "sw-f113",
+    "sw-f104",
+    "sw-f090"
+   ]
+  },
+  {
+   "id": "sw-g7",
+   "kind": "term-conflict",
+   "text": "Several terms keep a broad licence over the customer's content: Squarespace takes a perpetual, irrevocable licence to use, host and distribute it, and Lovable a perpetual licence including for training AI models (with an opt-out for future use). This sits against our test 'you set the terms'. Read as terms, not legal advice.",
+   "facts": [
+    "sw-f086",
+    "sw-f094"
+   ]
+  },
+  {
+   "id": "sw-g8",
+   "kind": "claim-to-check",
+   "text": "Where it lives is rarely stated by the builders (Wix, Squarespace, Bolt, v0, Durable name no region; Lovable says it does not guarantee one), while the hosting layer varies: Hetzner (German, Nuremberg) and OVHcloud (French; cites SecNumCloud and other standards) state a home; Cloudflare offers regional controls but is US-based per its own transfer mechanism; Netlify is a California company. OVHcloud and Cloudflare each say something about foreign-law exposure only in part. Our plan makes no legal or certification claim on sovereignty; the buyer's own check applies.",
+   "facts": [
+    "sw-f117",
+    "sw-f124",
+    "sw-f133",
+    "sw-f134",
+    "sw-f144",
+    "sw-f096"
+   ]
+  },
+  {
+   "id": "sw-g9",
+   "kind": "constraint",
+   "text": "Free static hosts are not equal for a business site: GitHub Pages says it is not meant to run an online business or e-commerce (and sets soft limits of 1 GB and 100 GB a month); Netlify's free plan says commercial use is allowed within its monthly credits; Cloudflare Pages states per-site file and build limits. Hetzner starts at EUR 1.60 a month excluding VAT with domains extra. This decides what 'run it anywhere' costs the owner.",
+   "facts": [
+    "sw-f138",
+    "sw-f139",
+    "sw-f142",
+    "sw-f143",
+    "sw-f132",
+    "sw-f116"
    ]
   }
  ],
@@ -1355,12 +1692,701 @@
    "date_read": "2026-11-22",
    "confidence": "project-page",
    "id": "sw-f077"
+  },
+  {
+   "candidate": "Wix",
+   "ring": 2,
+   "topic": "offer",
+   "fact": "AI builder makes a site from one prompt and lets users switch between AI generation and drag-and-drop editing.",
+   "url": "https://www.wix.com/plans",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f078"
+  },
+  {
+   "candidate": "Wix",
+   "ring": 2,
+   "topic": "price",
+   "fact": "Free $0; Light $17.77 a month, Core $29.77, Business $39.77, Business Elite $159.77, billed yearly; USD shown for reference, varies by location.",
+   "url": "https://www.wix.com/plans",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f079"
+  },
+  {
+   "candidate": "Wix",
+   "ring": 2,
+   "topic": "ai",
+   "fact": "Every plan said to include AI creation tools; per-plan availability of agents unclear.",
+   "url": "https://www.wix.com/plans",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f080"
+  },
+  {
+   "candidate": "Wix",
+   "ring": 2,
+   "topic": "ownership",
+   "fact": "Terms page as retrieved does not state who owns site content.",
+   "url": "https://www.wix.com/about/terms-of-use",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "id": "sw-f081"
+  },
+  {
+   "candidate": "Wix",
+   "ring": 2,
+   "topic": "export",
+   "fact": "No export or move statement found; the help URL tried returned 404.",
+   "url": "https://support.wix.com/en/article/wix-editor-can-i-export-my-site-to-another-host",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "id": "sw-f082"
+  },
+  {
+   "candidate": "Wix",
+   "ring": 2,
+   "topic": "hosting",
+   "fact": "Terms as retrieved do not say where data is hosted; no EU-region claim found.",
+   "url": "https://www.wix.com/about/terms-of-use",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "id": "sw-f083"
+  },
+  {
+   "candidate": "Squarespace",
+   "ring": 2,
+   "topic": "price",
+   "fact": "In $: Basic $25 monthly or $19 annual; Core $39 or $29; Plus $65 or $49; Advanced $139 or $99; 14-day trial, no free plan.",
+   "url": "https://www.squarespace.com/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f084"
+  },
+  {
+   "candidate": "Squarespace",
+   "ring": 2,
+   "topic": "ai",
+   "fact": "All plans include AI tools run on AI credits (10 one-time on Basic, 20/40/120 a month higher).",
+   "url": "https://www.squarespace.com/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f085"
+  },
+  {
+   "candidate": "Squarespace",
+   "ring": 2,
+   "topic": "ownership",
+   "fact": "Terms say content stays the customer's, but grant Squarespace a non-exclusive, worldwide, perpetual, irrevocable, royalty-free licence to use, host and distribute it.",
+   "url": "https://www.squarespace.com/terms-of-service",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f086"
+  },
+  {
+   "candidate": "Squarespace",
+   "ring": 2,
+   "topic": "export",
+   "fact": "Terms describe no export or migration process; the customer may end the agreement any time and Squarespace may suspend or remove sites at its discretion.",
+   "url": "https://www.squarespace.com/terms-of-service",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f087"
+  },
+  {
+   "candidate": "Squarespace",
+   "ring": 2,
+   "topic": "hosting",
+   "fact": "Terms state no hosting location, only third-party hosting providers; no EU-region claim found.",
+   "url": "https://www.squarespace.com/terms-of-service",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "id": "sw-f088"
+  },
+  {
+   "candidate": "Webflow",
+   "ring": 2,
+   "topic": "price",
+   "fact": "Pricing page failed to load (parse error, two URLs tried); no price read.",
+   "url": "https://webflow.com/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "id": "sw-f089",
+   "flag": "page failed to load; re-scout"
+  },
+  {
+   "candidate": "Webflow",
+   "ring": 2,
+   "topic": "export",
+   "fact": "Code-export page failed to load; export policy not verified.",
+   "url": "https://webflow.com/feature/code-export",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "id": "sw-f090",
+   "flag": "page failed to load; re-scout"
+  },
+  {
+   "candidate": "Webflow",
+   "ring": 2,
+   "topic": "ownership",
+   "fact": "Terms page failed to load; ownership clause not read. Webflow could not be read at all: re-scout.",
+   "url": "https://webflow.com/legal/terms",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "id": "sw-f091",
+   "flag": "page failed to load; re-scout"
+  },
+  {
+   "candidate": "Lovable",
+   "ring": 2,
+   "topic": "price",
+   "fact": "In $: Free with 5 daily credits (up to 30 a month); Pro $25 a month with 100 credits; Business $50; Enterprise by quote; yearly gives 2 months free.",
+   "url": "https://lovable.dev/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f092"
+  },
+  {
+   "candidate": "Lovable",
+   "ring": 2,
+   "topic": "offer",
+   "fact": "AI app builder; Pro adds custom domains and badge removal; Git sync listed only under Enterprise.",
+   "url": "https://lovable.dev/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f093"
+  },
+  {
+   "candidate": "Lovable",
+   "ring": 2,
+   "topic": "ownership",
+   "fact": "Customer owns data and AI output (subject to third-party model rights), but grants Lovable a perpetual, royalty-free licence including for training AI models, with an opt-out for future use.",
+   "url": "https://lovable.dev/terms",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f094"
+  },
+  {
+   "candidate": "Lovable",
+   "ring": 2,
+   "topic": "export",
+   "fact": "Terms do not address code export or portability.",
+   "url": "https://lovable.dev/terms",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f095"
+  },
+  {
+   "candidate": "Lovable",
+   "ring": 2,
+   "topic": "hosting",
+   "fact": "Says it does not guarantee data is stored in any country or region unless agreed in writing; may run on third-party infrastructure such as Supabase.",
+   "url": "https://lovable.dev/terms",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f096"
+  },
+  {
+   "candidate": "Bolt (bolt.new)",
+   "ring": 2,
+   "topic": "price",
+   "fact": "In $: Free with 1M tokens a month; Pro $25 with 10M tokens; Teams $30 per member; Enterprise custom.",
+   "url": "https://bolt.new/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f097"
+  },
+  {
+   "candidate": "Bolt (bolt.new)",
+   "ring": 2,
+   "topic": "offer",
+   "fact": "AI app and site builder billed by tokens; hosting included on all plans; free tier puts Bolt branding on sites; Pro adds custom domain.",
+   "url": "https://bolt.new/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f098"
+  },
+  {
+   "candidate": "Bolt (bolt.new)",
+   "ring": 2,
+   "topic": "hosting",
+   "fact": "Enterprise tier mentions SOC 2 Type II and dedicated infrastructure; no region or EU claim found.",
+   "url": "https://bolt.new/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f099"
+  },
+  {
+   "candidate": "Bolt (bolt.new)",
+   "ring": 2,
+   "topic": "export",
+   "fact": "Neither pricing nor the help index states code export; terms page loaded as navigation only.",
+   "url": "https://support.bolt.new/",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "id": "sw-f100"
+  },
+  {
+   "candidate": "v0 by Vercel",
+   "ring": 2,
+   "topic": "price",
+   "fact": "USD: Free (7 messages a day); Plus $30 per user a month with $30 credits; Business $100; Enterprise custom.",
+   "url": "https://v0.app/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f101"
+  },
+  {
+   "candidate": "v0 by Vercel",
+   "ring": 2,
+   "topic": "offer",
+   "fact": "AI UI and app generator; free plan includes deploying to Vercel and GitHub sync; usage metered by model token rates.",
+   "url": "https://v0.app/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f102"
+  },
+  {
+   "candidate": "v0 by Vercel",
+   "ring": 2,
+   "topic": "ownership",
+   "fact": "Customer keeps rights in account information and grants Vercel a worldwide, non-exclusive, sublicensable licence to run the service; terms silent on who owns AI output.",
+   "url": "https://vercel.com/legal/terms",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f103"
+  },
+  {
+   "candidate": "v0 by Vercel",
+   "ring": 2,
+   "topic": "export",
+   "fact": "Terms give no general export right, tell customers to keep their own backups; content may be permanently deleted after termination; free plan advertises GitHub sync.",
+   "url": "https://vercel.com/legal/terms",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f104"
+  },
+  {
+   "candidate": "v0 by Vercel",
+   "ring": 2,
+   "topic": "hosting",
+   "fact": "Terms specify no data location (the DPA was not read).",
+   "url": "https://vercel.com/legal/terms",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f105"
+  },
+  {
+   "candidate": "Durable",
+   "ring": 2,
+   "topic": "price",
+   "fact": "In $: Free (300 AI credits total); Launch $25 a month on the card but $22 in the table; Grow $49 vs $41; yearly saves 15%.",
+   "url": "https://www.durable.com/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f106"
+  },
+  {
+   "candidate": "Durable",
+   "ring": 2,
+   "topic": "offer",
+   "fact": "No-code AI site builder for small businesses with built-in CRM, bookings and blog tools; limited HTML customisation.",
+   "url": "https://www.durable.com/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f107"
+  },
+  {
+   "candidate": "Durable",
+   "ring": 2,
+   "topic": "hosting",
+   "fact": "All plans include hosting and SSL, domains through Cloudflare; no region or GDPR claim found.",
+   "url": "https://www.durable.com/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f108"
+  },
+  {
+   "candidate": "Durable",
+   "ring": 2,
+   "topic": "export",
+   "fact": "Only domain transfer on cancellation is mentioned; no site code or file export stated; its terms page returned an unrelated login page.",
+   "url": "https://www.durable.com/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f109"
+  },
+  {
+   "candidate": "10Web",
+   "ring": 2,
+   "topic": "price",
+   "fact": "USD: Free; AI Starter $10 a month; AI Premium $15; AI Ultimate $22.50; agency plans $42.50 and up; annual listed at 50% off.",
+   "url": "https://10web.io/pricing/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f110"
+  },
+  {
+   "candidate": "10Web",
+   "ring": 2,
+   "topic": "offer",
+   "fact": "AI builder for WordPress sites with managed hosting, daily backups, staging, SFTP/SSH access and automated updates; for individuals and agencies.",
+   "url": "https://10web.io/pricing/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f111"
+  },
+  {
+   "candidate": "10Web",
+   "ring": 2,
+   "topic": "ownership",
+   "fact": "Customer retains rights in their content; 10Web does not claim AI output unless it contains 10Web IP; generated code containing 10Web components stays 10Web's.",
+   "url": "https://10web.io/terms-of-service/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f112"
+  },
+  {
+   "candidate": "10Web",
+   "ring": 2,
+   "topic": "export",
+   "fact": "Terms describe no export tool; deleted projects of ended plans kept about six months; SFTP/SSH listed on the pricing page.",
+   "url": "https://10web.io/terms-of-service/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f113"
+  },
+  {
+   "candidate": "10Web",
+   "ring": 2,
+   "topic": "licence",
+   "fact": "Plugins and themes said to be GPL 2.0; the platform itself is proprietary.",
+   "url": "https://10web.io/terms-of-service/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f114"
+  },
+  {
+   "candidate": "Hetzner",
+   "ring": 4,
+   "topic": "offer",
+   "fact": "Sells shared web hosting; cheapest plan Webhosting S has 10 GB storage; SSH listed only for larger plans; traffic limits not stated.",
+   "url": "https://www.hetzner.com/webhosting/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f115"
+  },
+  {
+   "candidate": "Hetzner",
+   "ring": 4,
+   "topic": "price",
+   "fact": "Webhosting S from EUR 1.60 a month excl. VAT; page ambiguous on a setup fee (shows EUR 8.32 and EUR 0.00).",
+   "url": "https://www.hetzner.com/webhosting/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f116",
+   "flag": "setup fee ambiguous on the page"
+  },
+  {
+   "candidate": "Hetzner",
+   "ring": 4,
+   "topic": "location",
+   "fact": "German company (Hetzner Online GmbH); web hosting in its own data centre park in Nuremberg; wider estate Nuremberg, Falkenstein, Helsinki, Singapore and the US.",
+   "url": "https://www.hetzner.com/unternehmen/rechenzentren/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f117"
+  },
+  {
+   "candidate": "Hetzner",
+   "ring": 4,
+   "topic": "sovereignty",
+   "fact": "Claims GDPR-compliant hosting; lists EMAS and ISO 14001 (environmental, not data protection); ISO 27001 and foreign-law statement not found on pages read.",
+   "url": "https://www.hetzner.com/webhosting/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f118"
+  },
+  {
+   "candidate": "Hetzner",
+   "ring": 4,
+   "topic": "domain",
+   "fact": "Registers domains separately from EUR 4.90 a year excl. VAT; not included in the hosting plan.",
+   "url": "https://www.hetzner.com/webhosting/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f119"
+  },
+  {
+   "candidate": "Hetzner",
+   "ring": 4,
+   "topic": "terms",
+   "fact": "No general ban on commercial use; prohibits infringing, extremist and similar content and spam or crypto mining; backups are the customer's job; 30 days' notice termination either side; no data-export right stated.",
+   "url": "https://www.hetzner.com/legal/terms-and-conditions/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f120"
+  },
+  {
+   "candidate": "OVHcloud",
+   "ring": 4,
+   "topic": "offer",
+   "fact": "Web hosting range Eco, Business, Agencies; page shows no prices or datacentre list; advertises a free domain for the first year.",
+   "url": "https://www.ovhcloud.com/en/web-hosting/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f121"
+  },
+  {
+   "candidate": "OVHcloud",
+   "ring": 4,
+   "topic": "price",
+   "fact": "Cheapest plan price: the Eco plan page returned 404, no price read.",
+   "url": "https://www.ovhcloud.com/en/web-hosting/uk-eco-hosting/",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "id": "sw-f122"
+  },
+  {
+   "candidate": "OVHcloud",
+   "ring": 4,
+   "topic": "location",
+   "fact": "Describes itself as a French company founded in 1999 with over 46 data centres on four continents; locations not listed on the page.",
+   "url": "https://www.ovhcloud.com/en/about-us/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f123"
+  },
+  {
+   "candidate": "OVHcloud",
+   "ring": 4,
+   "topic": "sovereignty",
+   "fact": "Says its mission is data sovereignty; claims GDPR compliance; cites ISO 27001, ISO 27701, HDS and SecNumCloud; does not explain foreign-law exposure, only links a page on non-EU data-protection texts.",
+   "url": "https://www.ovhcloud.com/en/about-us/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f124"
+  },
+  {
+   "candidate": "OVHcloud",
+   "ring": 4,
+   "topic": "domain",
+   "fact": "Sells domains; promotional first-year prices about USD 1.15 to 1.46; .com USD 9.99 first year, USD 16.49 renewal as displayed.",
+   "url": "https://www.ovhcloud.com/en/domains/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f125"
+  },
+  {
+   "candidate": "OVHcloud",
+   "ring": 4,
+   "topic": "lockin",
+   "fact": "Lock-in and commercial-use limits not found on the pages read.",
+   "url": "https://www.ovhcloud.com/en/web-hosting/",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "id": "sw-f126"
+  },
+  {
+   "candidate": "Scaleway",
+   "ring": 4,
+   "topic": "offer",
+   "fact": "Pricing index lists S3-compatible object storage and a web hosting product; no free tier on the index; the object-storage page itself returned 403.",
+   "url": "https://www.scaleway.com/en/pricing/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f127"
+  },
+  {
+   "candidate": "Scaleway",
+   "ring": 4,
+   "topic": "price",
+   "fact": "Prices in euros; lowest figure on the index EUR 4.99 a month (Dedibox servers); static-hosting prices not read.",
+   "url": "https://www.scaleway.com/en/pricing/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f128"
+  },
+  {
+   "candidate": "Scaleway",
+   "ring": 4,
+   "topic": "location",
+   "fact": "Home country, parent and data centre locations: pages returned 403, not read.",
+   "url": "https://www.scaleway.com/en/about-us/",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "id": "sw-f129"
+  },
+  {
+   "candidate": "Scaleway",
+   "ring": 4,
+   "topic": "sovereignty",
+   "fact": "Sovereignty, GDPR and certification claims: page returned 403, not read.",
+   "url": "https://www.scaleway.com/en/sovereignty/",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "id": "sw-f130"
+  },
+  {
+   "candidate": "Scaleway",
+   "ring": 4,
+   "topic": "lockin",
+   "fact": "Object storage described as S3-compatible, a standard protocol that eases moving away.",
+   "url": "https://www.scaleway.com/en/pricing/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f131"
+  },
+  {
+   "candidate": "Cloudflare Pages",
+   "ring": 4,
+   "topic": "offer",
+   "fact": "Free plan limits: 500 builds a month, one build at a time, 20-minute build timeout, 20,000 files per site, 25 MiB per file, 100 custom domains per project; bandwidth limit not mentioned.",
+   "url": "https://developers.cloudflare.com/pages/platform/limits/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f132"
+  },
+  {
+   "candidate": "Cloudflare Pages",
+   "ring": 4,
+   "topic": "sovereignty",
+   "fact": "GDPR page says logs and metadata processed in US and European data centres; offers a Data Localization Suite; relies on EU SCCs and the EU-US Data Privacy Framework; lists ISO 27001, 27701, 27018, SOC 2 and C5.",
+   "url": "https://www.cloudflare.com/trust-hub/gdpr/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f133"
+  },
+  {
+   "candidate": "Cloudflare Pages",
+   "ring": 4,
+   "topic": "sovereignty",
+   "fact": "On foreign-law exposure says it requires legal process for government requests and would challenge ones conflicting with GDPR; HQ country not named on pages read (US-based per the DPF reference).",
+   "url": "https://www.cloudflare.com/trust-hub/gdpr/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f134",
+   "flag": "HQ country inferred from a reference, not named"
+  },
+  {
+   "candidate": "Cloudflare Pages",
+   "ring": 4,
+   "topic": "domain",
+   "fact": "Registrar sells domains at cost with no markup (430+ TLDs incl. .com, .ai), accepts transfers, locks by default.",
+   "url": "https://www.cloudflare.com/products/registrar/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f135"
+  },
+  {
+   "candidate": "Cloudflare Pages",
+   "ring": 4,
+   "topic": "lockin",
+   "fact": "Lock-in statements for Pages not found on pages read.",
+   "url": "https://www.cloudflare.com/products/pages/",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "id": "sw-f136"
+  },
+  {
+   "candidate": "GitHub Pages",
+   "ring": 4,
+   "topic": "offer",
+   "fact": "Static hosting that publishes HTML, CSS and JS from a repository, optionally after a build; one user or org site per account plus one project site per repo.",
+   "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f137"
+  },
+  {
+   "candidate": "GitHub Pages",
+   "ring": 4,
+   "topic": "terms",
+   "fact": "Docs say Pages is not meant as free hosting to run an online business, e-commerce or commercial SaaS site; must not handle passwords or card numbers.",
+   "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f138"
+  },
+  {
+   "candidate": "GitHub Pages",
+   "ring": 4,
+   "topic": "terms",
+   "fact": "Limits: site max 1 GB, 10-minute deployment timeout, soft 10 builds an hour, soft 100 GB a month bandwidth, rate limiting; GitHub may stop serving over-quota sites.",
+   "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f139"
+  },
+  {
+   "candidate": "GitHub Pages",
+   "ring": 4,
+   "topic": "domain",
+   "fact": "Supports apex, www and other custom subdomains for domains you own; does not say GitHub sells domains.",
+   "url": "https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f140"
+  },
+  {
+   "candidate": "GitHub Pages",
+   "ring": 4,
+   "topic": "location",
+   "fact": "Home country, data centre locations and sovereignty claims not stated on the docs pages read.",
+   "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "id": "sw-f141"
+  },
+  {
+   "candidate": "Netlify",
+   "ring": 4,
+   "topic": "offer",
+   "fact": "Free plan USD 0 with a 300-credit monthly limit, bandwidth at 20 credits per GB, custom domains with SSL included.",
+   "url": "https://www.netlify.com/pricing/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f142"
+  },
+  {
+   "candidate": "Netlify",
+   "ring": 4,
+   "topic": "terms",
+   "fact": "Platform page says the Free plan allows commercial use within the monthly credit limit.",
+   "url": "https://www.netlify.com/products/domains/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f143"
+  },
+  {
+   "candidate": "Netlify",
+   "ring": 4,
+   "topic": "location",
+   "fact": "Operated by Netlify, Inc. of San Francisco, California; terms governed by California law; data storage location not specified.",
+   "url": "https://www.netlify.com/legal/terms-of-use/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "id": "sw-f144"
+  },
+  {
+   "candidate": "Netlify",
+   "ring": 4,
+   "topic": "sovereignty",
+   "fact": "No GDPR, EU residency or certification claim read on the pages fetched (privacy policy not read).",
+   "url": "https://www.netlify.com/legal/terms-of-use/",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "id": "sw-f145"
   }
  ],
  "changes": [
   {
    "at": "2026-11-22T16:20Z",
    "what": "first version: rings 1 and 3, 77 facts"
+  },
+  {
+   "at": "2026-11-22T16:50Z",
+   "what": "rings 2 and 4 added: 68 facts, 14 players, findings sw-g6 to sw-g9; Webflow could not be read"
   }
  ]
 }

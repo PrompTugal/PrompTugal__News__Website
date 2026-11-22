@@ -1,11 +1,13 @@
 {
  "format": "landscape-rows/1",
  "for": "cartographer.d@AgentiCCells.dinis",
- "made": "2026-11-22T16:30Z",
+ "made": "2026-11-22T16:50Z",
  "made_by": "landscape.d@AgentiCCells.dinis",
  "rings_read": [
   1,
-  3
+  2,
+  3,
+  4
  ],
  "proposed_needs": [
   {
@@ -434,6 +436,330 @@
     "sw-f077"
    ],
    "note": "serves/lacks are landscape.d's reading from the facts; 'lacks pn-own-it-move-it' for ring 1 means no export path was found on the pages read, not that none exists"
+  },
+  {
+   "id": "sw-p-wix",
+   "name": "Wix",
+   "ring": 2,
+   "what": "AI builder makes a site from one prompt and lets users switch between AI generation and drag-and-drop editing.",
+   "serves_needs": [
+    "pn-no-technical-skill"
+   ],
+   "lacks_needs": [
+    "pn-own-it-move-it",
+    "pn-know-where-it-lives"
+   ],
+   "price_line": "Free $0; Light $17.77 a month, Core $29.77, Business $39.77, Business Elite $159.77, billed yearly; USD shown for reference, varies by location.",
+   "source_url": "https://www.wix.com/plans",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "sw-f078",
+    "sw-f079",
+    "sw-f080",
+    "sw-f081",
+    "sw-f082",
+    "sw-f083"
+   ],
+   "note": "no export or region statement found"
+  },
+  {
+   "id": "sw-p-squarespace",
+   "name": "Squarespace",
+   "ring": 2,
+   "what": "In $: Basic $25 monthly or $19 annual; Core $39 or $29; Plus $65 or $49; Advanced $139 or $99; 14-day trial, no free plan.",
+   "serves_needs": [
+    "pn-no-technical-skill"
+   ],
+   "lacks_needs": [
+    "pn-own-it-move-it",
+    "pn-know-where-it-lives"
+   ],
+   "price_line": "In $: Basic $25 monthly or $19 annual; Core $39 or $29; Plus $65 or $49; Advanced $139 or $99; 14-day trial, no free plan.",
+   "source_url": "https://www.squarespace.com/pricing",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "sw-f084",
+    "sw-f085",
+    "sw-f086",
+    "sw-f087",
+    "sw-f088"
+   ],
+   "note": "perpetual licence in terms"
+  },
+  {
+   "id": "sw-p-webflow",
+   "name": "Webflow",
+   "ring": 2,
+   "what": "Pricing page failed to load (parse error, two URLs tried); no price read.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not found on the page read",
+   "source_url": "https://webflow.com/pricing",
+   "date_read": "2026-11-22",
+   "flagged": true,
+   "fact_ids": [
+    "sw-f089",
+    "sw-f090",
+    "sw-f091"
+   ],
+   "note": "not read: pages failed to load"
+  },
+  {
+   "id": "sw-p-lovable",
+   "name": "Lovable",
+   "ring": 2,
+   "what": "AI app builder; Pro adds custom domains and badge removal; Git sync listed only under Enterprise.",
+   "serves_needs": [
+    "pn-no-technical-skill"
+   ],
+   "lacks_needs": [
+    "pn-own-it-move-it",
+    "pn-know-where-it-lives"
+   ],
+   "price_line": "In $: Free with 5 daily credits (up to 30 a month); Pro $25 a month with 100 credits; Business $50; Enterprise by quote; yearly gives 2 months free.",
+   "source_url": "https://lovable.dev/pricing",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "sw-f092",
+    "sw-f093",
+    "sw-f094",
+    "sw-f095",
+    "sw-f096"
+   ],
+   "note": "git sync only on Enterprise; no region guarantee"
+  },
+  {
+   "id": "sw-p-bolt-boltnew",
+   "name": "Bolt (bolt.new)",
+   "ring": 2,
+   "what": "AI app and site builder billed by tokens; hosting included on all plans; free tier puts Bolt branding on sites; Pro adds custom domain.",
+   "serves_needs": [
+    "pn-no-technical-skill"
+   ],
+   "lacks_needs": [
+    "pn-own-it-move-it",
+    "pn-know-where-it-lives"
+   ],
+   "price_line": "In $: Free with 1M tokens a month; Pro $25 with 10M tokens; Teams $30 per member; Enterprise custom.",
+   "source_url": "https://bolt.new/pricing",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "sw-f097",
+    "sw-f098",
+    "sw-f099",
+    "sw-f100"
+   ],
+   "note": "export not found on pages read"
+  },
+  {
+   "id": "sw-p-v0-by-vercel",
+   "name": "v0 by Vercel",
+   "ring": 2,
+   "what": "AI UI and app generator; free plan includes deploying to Vercel and GitHub sync; usage metered by model token rates.",
+   "serves_needs": [
+    "pn-own-it-move-it"
+   ],
+   "lacks_needs": [
+    "pn-know-where-it-lives"
+   ],
+   "price_line": "USD: Free (7 messages a day); Plus $30 per user a month with $30 credits; Business $100; Enterprise custom.",
+   "source_url": "https://v0.app/pricing",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "sw-f101",
+    "sw-f102",
+    "sw-f103",
+    "sw-f104",
+    "sw-f105"
+   ],
+   "note": "GitHub sync on free plan is a partial move path; developer-leaning"
+  },
+  {
+   "id": "sw-p-durable",
+   "name": "Durable",
+   "ring": 2,
+   "what": "No-code AI site builder for small businesses with built-in CRM, bookings and blog tools; limited HTML customisation.",
+   "serves_needs": [
+    "pn-no-technical-skill"
+   ],
+   "lacks_needs": [
+    "pn-own-it-move-it",
+    "pn-know-where-it-lives"
+   ],
+   "price_line": "In $: Free (300 AI credits total); Launch $25 a month on the card but $22 in the table; Grow $49 vs $41; yearly saves 15%.",
+   "source_url": "https://www.durable.com/pricing",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "sw-f106",
+    "sw-f107",
+    "sw-f108",
+    "sw-f109"
+   ],
+   "note": "only domain transfer mentioned"
+  },
+  {
+   "id": "sw-p-10web",
+   "name": "10Web",
+   "ring": 2,
+   "what": "AI builder for WordPress sites with managed hosting, daily backups, staging, SFTP/SSH access and automated updates; for individuals and agencies.",
+   "serves_needs": [
+    "pn-no-technical-skill",
+    "pn-own-it-move-it"
+   ],
+   "lacks_needs": [
+    "pn-know-where-it-lives"
+   ],
+   "price_line": "USD: Free; AI Starter $10 a month; AI Premium $15; AI Ultimate $22.50; agency plans $42.50 and up; annual listed at 50% off.",
+   "source_url": "https://10web.io/pricing/",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "sw-f110",
+    "sw-f111",
+    "sw-f112",
+    "sw-f113",
+    "sw-f114"
+   ],
+   "note": "SFTP/SSH listed: partial move path; WordPress-based"
+  },
+  {
+   "id": "sw-p-hetzner",
+   "name": "Hetzner",
+   "ring": 4,
+   "what": "Sells shared web hosting; cheapest plan Webhosting S has 10 GB storage; SSH listed only for larger plans; traffic limits not stated.",
+   "serves_needs": [
+    "pn-know-where-it-lives"
+   ],
+   "lacks_needs": [],
+   "price_line": "Webhosting S from EUR 1.60 a month excl. VAT; page ambiguous on a setup fee (shows EUR 8.32 and EUR 0.00).",
+   "source_url": "https://www.hetzner.com/webhosting/",
+   "date_read": "2026-11-22",
+   "flagged": true,
+   "fact_ids": [
+    "sw-f115",
+    "sw-f116",
+    "sw-f117",
+    "sw-f118",
+    "sw-f119",
+    "sw-f120"
+   ],
+   "note": "a host, not a builder; no data-export right stated in terms"
+  },
+  {
+   "id": "sw-p-ovhcloud",
+   "name": "OVHcloud",
+   "ring": 4,
+   "what": "Web hosting range Eco, Business, Agencies; page shows no prices or datacentre list; advertises a free domain for the first year.",
+   "serves_needs": [
+    "pn-know-where-it-lives"
+   ],
+   "lacks_needs": [],
+   "price_line": "not found on the page read",
+   "source_url": "https://www.ovhcloud.com/en/web-hosting/",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "sw-f121",
+    "sw-f122",
+    "sw-f123",
+    "sw-f124",
+    "sw-f125",
+    "sw-f126"
+   ],
+   "note": "a host; price page returned 404"
+  },
+  {
+   "id": "sw-p-scaleway",
+   "name": "Scaleway",
+   "ring": 4,
+   "what": "Pricing index lists S3-compatible object storage and a web hosting product; no free tier on the index; the object-storage page itself returned 403.",
+   "serves_needs": [
+    "pn-own-it-move-it"
+   ],
+   "lacks_needs": [],
+   "price_line": "Prices in euros; lowest figure on the index EUR 4.99 a month (Dedibox servers); static-hosting prices not read.",
+   "source_url": "https://www.scaleway.com/en/pricing/",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "sw-f127",
+    "sw-f128",
+    "sw-f129",
+    "sw-f130",
+    "sw-f131"
+   ],
+   "note": "S3-compatible storage; location pages blocked (403)"
+  },
+  {
+   "id": "sw-p-cloudflare-pages",
+   "name": "Cloudflare Pages",
+   "ring": 4,
+   "what": "Free plan limits: 500 builds a month, one build at a time, 20-minute build timeout, 20,000 files per site, 25 MiB per file, 100 custom domains per project; bandwidth limit not mentioned.",
+   "serves_needs": [],
+   "lacks_needs": [
+    "pn-know-where-it-lives"
+   ],
+   "price_line": "not read",
+   "source_url": "https://developers.cloudflare.com/pages/platform/limits/",
+   "date_read": "2026-11-22",
+   "flagged": true,
+   "fact_ids": [
+    "sw-f132",
+    "sw-f133",
+    "sw-f134",
+    "sw-f135",
+    "sw-f136"
+   ],
+   "note": "regional controls offered; US-based per its own transfer basis"
+  },
+  {
+   "id": "sw-p-github-pages",
+   "name": "GitHub Pages",
+   "ring": 4,
+   "what": "Static hosting that publishes HTML, CSS and JS from a repository, optionally after a build; one user or org site per account plus one project site per repo.",
+   "serves_needs": [
+    "pn-own-it-move-it"
+   ],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "sw-f137",
+    "sw-f138",
+    "sw-f139",
+    "sw-f140",
+    "sw-f141"
+   ],
+   "note": "publishes from a repository; says not for online businesses"
+  },
+  {
+   "id": "sw-p-netlify",
+   "name": "Netlify",
+   "ring": 4,
+   "what": "Free plan USD 0 with a 300-credit monthly limit, bandwidth at 20 credits per GB, custom domains with SSL included.",
+   "serves_needs": [],
+   "lacks_needs": [
+    "pn-know-where-it-lives"
+   ],
+   "price_line": "not read",
+   "source_url": "https://www.netlify.com/pricing/",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "sw-f142",
+    "sw-f143",
+    "sw-f144",
+    "sw-f145"
+   ],
+   "note": "California company; free plan allows commercial use within credits"
   }
  ]
 }
