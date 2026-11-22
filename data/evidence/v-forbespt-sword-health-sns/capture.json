@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-forbespt-sword-health-sns",
+  "type": "evidence",
+  "source_url": "https://www.forbespt.com/?p=189377",
+  "beat": "Portugal",
+  "group": "Held",
+  "names": [
+    {
+      "as_listed": "Sword Health",
+      "ref": "organisation:sword-health"
+    },
+    {
+      "as_listed": "Forbes Portugal",
+      "ref": "organisation:forbes-portugal"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-22-1150.json",
+  "run": "2026-11-22T11:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-22-1150.json"
+    ]
+  }
+}

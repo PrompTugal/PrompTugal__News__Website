@@ -1994,6 +1994,11 @@
         "count": 1
       },
       {
+        "as_listed": "Forbes Portugal",
+        "ref": "organisation:forbes-portugal",
+        "count": 1
+      },
+      {
         "as_listed": "FounderLink",
         "ref": "organisation:founderlink",
         "count": 1
@@ -2306,7 +2311,7 @@
       {
         "as_listed": "Sword Health",
         "ref": "organisation:sword-health",
-        "count": 7
+        "count": 8
       },
       {
         "as_listed": "Sword Health Physio",
