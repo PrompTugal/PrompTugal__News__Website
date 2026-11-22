@@ -11,4 +11,4 @@ Fully paused until Mon 23 Nov 00:25 UTC (96% of its seven-day limit). At the res
 - Newsroom: newsroom.d (sgit.ai) https://claude.ai/code/session_015gaHdb5n5RdwdbHzWijPMS (v0.14.204 released)
 
 ## Waiting on Dinis
-See board/team/maestro.d/status.json asks.
+Decision Desk (private claude.ai page) and board/team/maestro.d/status.json asks. Session map: board/team/decisions.d/sessions/ (decisions.d).
