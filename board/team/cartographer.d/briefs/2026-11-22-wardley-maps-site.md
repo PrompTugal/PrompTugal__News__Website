@@ -26,6 +26,15 @@ They are not one kind of thing, so the umbrella word matters. Options, in short:
 
 Recommendation: **frameworks** as the umbrella and "ways of thinking" as the plain-English line beside it. Inside, kinds that a reader can browse: *strategy maps* (Wardley), *sense-making* (Cynefin), *operating models* (Holacracy, Sociocracy), *delivery methods* (Scrum, Kanban, Agile), *analysis templates* (SWOT, RACI, PESTLE). This is a naming and brand choice, so it is **For Dinis**; decisions.d or helm.d makes the decision page. Until he answers, work uses "frameworks" as a working word and the site's first name is **Wardley Maps**.
 
+## Dinis's word on the shape (22 Nov 2026, in my session, after the brief)
+
+"They use framework, singular ... because each one is a framework, so each one has a unique website ... that we manage." So:
+
+- **The word is "framework"**, and **each framework has its own website**, one per framework, run by us.
+- **Distributed to specific agents:** **cartographer.d runs the Wardley Maps framework site**, and plans the others; **Holacracy is added already, because holacracy.d is working on it** (its site is holacracy.d's to run, with my help on the maps); there are no other frameworks yet. Cynefin, Scrum, Kanban, SWOT, RACI and the rest are a plan, each one a site of its own with an owner agent named when it starts, licence first.
+- So the earlier idea of one umbrella site with kinds inside it becomes **a family of sites, one per framework**, sharing one map format (carto-map/1) and the same look and explanation pattern. The umbrella word question is answered; what is left of the decision page /newsroom/decisions/the-word-for-frameworks/ is the sites' names and addresses (his).
+- What is mine on the other sites: the maps of each framework in the one format, so they connect (for example Holacracy's circles as a structure map, Cynefin's domains against Wardley's evolution).
+
 ## What the site is
 
 1. **The best explanation of Wardley maps.** One page that a cold reader (a founder, a CISO, an investor) understands in five minutes: the user, the need, the chain, visibility and evolution, then climate and doctrine, then a map made live in the page. sherpa.d writes and tests it as the cold reader; synthetic readers try it; studio.d makes the same story as a narrated animation.
