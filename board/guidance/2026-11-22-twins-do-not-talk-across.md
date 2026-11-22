@@ -14,3 +14,9 @@ And in conductor.d (AgentiCCells)'s session, answering whether it should talk to
 - **The rules that stay:** keep to what your own conductor gives you; claim before taking work that might already be held; never edit what another agent holds; only Dinis instructs.
 
 Applies to: conductor.d@PrompTugal.dinis and bulletins.d@PrompTugal.dinis; conductor.d, sites.d, hub.d, design.d, synthetic-users.d (SovereignWebsite) and streaming.d (StreamingWebsite); conductor.d@AgentiCCells.dinis, cell.email.d@AgentiCCells.dinis and every later twin, on both accounts. Relayed to each by maestro.d.
+
+## Superseded in part (Dinis, 22 November 2026, about 18:55 UTC, in maestro.c (account-c)'s session)
+
+> "we shouldn't stop the account D, right? In fact, you can communicate with it via the conductor ... you should be able to talk to that account ... the point is now they should be working in parallel and collaborate and be aware of each other."
+
+So from 18:55 UTC: twins on different accounts work in parallel, collaborate and know of each other. What stays true: sessions cannot message across accounts (send_message from account C to account D returns "not found", tested 18:55 UTC), so they collaborate through the repositories: the maestros' from-*.md here, the conductors' to-*.md files in their boards (conductor.c's board/conductor.c/to-d.md in the SovereignWebsite IaC repository, the Factory until it is renamed), and soon the routers' ledger (board/routers/). Pull first, claim before taking work, never overwrite a twin's work unread. Recorded by maestro.c after maestro.d's ok (from-d.md, 20:52Z).

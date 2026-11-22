@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 22 Nov, 18:55 | **Twins collaborate across accounts**: they work in parallel, collaborate and know of each other, through the repositories (sessions cannot message across accounts); this supersedes the 01:45 note in part | `2026-11-22-twins-do-not-talk-across.md` (new section) |
 | 22 Nov, 01:45 | **Twins do not talk across accounts**: a twin does not worry about, track or message its other twin; cross-account coordination is done at conductor level (and by the maestros); each twin does its own conductor's work | `2026-11-22-twins-do-not-talk-across.md` |
 | 21 Nov, 15:37 | **The private raw-history vault stays as it is**: the 569 email fields in vault 7k4wxa3i are kept, not redacted (security@'s recommendation declined); they never go into the public vault or a page; the private read key is never published; data.b@ adds a check that refuses contracts-finder and events-pt in the public vault | `2026-11-21-private-vault-kept.md` |
 | 19 Nov, 17:40 | **Cameras as links; the map**: MEO's 21 Algarve cameras back as credited links; SkylineWebcams as links for now; on videos, live and weather. Every site adds London, and the map is Portugal big with London and the EU (Brussels) small, where we have the data | `2026-11-19-cameras-as-links-and-the-map.md` |

@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T20:36Z",
-  "state": "20:33 wake: account C window reset at 20:10 UTC; 12 sessions idle, 11 waiting on Dinis; nothing new from B or D",
+  "updated": "2026-11-22T21:37Z",
+  "state": "21:33 wake: routers v0 underway (decisions.c key and QR ready; router.a waits for Dinis on account A); IaC rename prepared, waits on the AWS OIDC subject and Dinis",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -21,26 +21,26 @@
     "Archived conductor.C (PrompTugal.news) and three Lisbon Fringe sessions; disabled conductor.C's hourly task",
     "Tested cross-account send_message: fails; collaboration goes through the repository",
     "Routed ChatGPT's OWASP handover to Site__Platform__Owasp, inbox branch (cecab44)",
-    "Started owasp.c at Dinis's word (~19:05 UTC); router and Platform-rename claims sent to the other maestros"
+    "Started owasp.c at Dinis's word (~19:05 UTC); router and Platform-rename claims sent to the other maestros",
+    "Routers v0: board/routers/ (protocol, ledger, router.a start prompt); decisions.c and router.c started",
+    "Twins guidance updated with Dinis's 18:55 word, after maestro.d's ok"
   ],
   "next": [
     "At each wake: read from-b.md and from-d.md, check the three sessions' status and limits, state line, brief Dinis",
     "Relay the new sessions' first asks (key merges in the Factory) to Dinis"
   ],
   "asks": [
-    "Dinis: add 'pip install sgit-ai==0.27.0' to account C's cloud environment setup script (Full Network Access), so new sessions can make keys without a per-session yes; until then say yes in owasp.c and feedback.c - https://claude.ai/code/session_01Kw9UwE69pr5bPeaQ4tYqir",
-    "Dinis: newsroom.c: register it as writer-12 (raises the limit to three writers), and its 'Out of the box' draft: publish or change? - https://claude.ai/code/session_01Kw9UwDDEwnjqeLVyqkUjpm",
-    "Dinis: feedback.c and chiswick-cheese-market.c: one inbox agent for every site, or a lane per site? And feedback.b's sealed lanes: wait till Monday or reseal to feedback.c? - https://claude.ai/code/session_01Kw9UwEQb6jZQ17nxMfkAVB",
-    "Dinis: accountant.c's proposals are ready to read (board/team/accountant.c/proposals.md) - https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz",
-    "Dinis: merge conductor.c's policy entry d6e88c6 (its board, and its channel to conductor.d, are held on work/conductor.c-key until then) - https://claude.ai/code/session_01Kw9UwBwGEprxNQqNtSbzyj",
-    "Dinis: factory.c: (a), (b) or (c) for the 7 old cheese-market commits signed by the unpublished .d key; policy entries for conductor.c, observability.c, factory.c; which factory.d item first - https://claude.ai/code/session_01Kw9UwFQ86g2ZeXQ2edTAjh",
-    "Dinis: hub.c: may an Agents page show agent names and sessions? - https://claude.ai/code/session_01Kw9UwBNK6JRSRJ7P7LftYD",
-    "Dinis: mistral.c: daily-summary workflow pushed, not run (no Mistral key); a fresh session once the key is in the environment - https://claude.ai/code/session_01Kw9UwDHBL8ucvbqmv38Bkz",
-    "Dinis: conductor.c: fix the template card in the Factory's seed? - https://claude.ai/code/session_01Kw9UwBwGEprxNQqNtSbzyj",
-    "Dinis: routers: the four questions in analysis/2026-11-22-routers/README.md (start router.c now?) - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
-    "Dinis: router.c: start it now on account C (the first router), and yes to a decision page for the Factory to Platform rename? - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp"
+    "Dinis: start router.a on account A with board/routers/router-a-start-prompt.md, then give it decisions.c's QR - https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n",
+    "Dinis: IaC rename: add the IaC repository's OIDC subject to the AWS role, then say merge (work/factory.c-iac, 8045c7b); and the agent name: iac.c or one per area (iac.pki.c) - https://claude.ai/code/session_01Kw9UwFQ86g2ZeXQ2edTAjh",
+    "Dinis: owasp.c: yes to write its signing file; its key through factory.c - https://claude.ai/code/session_01Kw9UwE69pr5bPeaQ4tYqir",
+    "Dinis: feedback.c: the sgit-ai install; who creates the shared feedback vault; move lanes now or later - https://claude.ai/code/session_01Kw9UwEQb6jZQ17nxMfkAVB",
+    "Dinis: hub.c: Latest as the front page? - https://claude.ai/code/session_01Kw9UwBNK6JRSRJ7P7LftYD",
+    "Dinis: chiswick-cheese-market.c: inbox design, then test /send/ - https://claude.ai/code/session_01Kw9UwCvCX638VWVq9UPXsN",
+    "Dinis: observability.c: its policy entry - https://claude.ai/code/session_01Kw9UwBmqCafJ2NtqhQPQwu",
+    "Dinis: accountant.c's proposals to read - https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz",
+    "Dinis: add pip install sgit-ai==0.27.0 to account C's environment setup script"
   ],
   "latest_debrief": null,
   "last_read_from_b": "2026-11-22T02:01Z",
-  "last_read_from_d": "2026-11-22T18:58Z"
+  "last_read_from_d": "2026-11-22T20:52Z"
 }
