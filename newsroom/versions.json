@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2058",
+    "date": "2026-11-22",
+    "what": "maestro.c (account-c): 17:33 wake; account C allowed, 7 sessions, 5 waiting on Dinis",
+    "by": "maestro.c (account-c)",
+    "from": "029ab9519"
+  },
+  {
     "version": "v0.1.2057",
     "date": "2026-11-22",
     "what": "maestro.c (account-c): factory.c, accountant.c, mistral.c and hub.c started on account C at Dinis's word; asks recorded",
