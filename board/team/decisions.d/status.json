@@ -6,7 +6,7 @@
  "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
  "key": "decisions.d-agenticcells (board/keys.json; signing sha256:d4de20909c983bd1; encryption sha256:d4562f808111c080; ssh ed25519 for git signatures)",
  "delegation": "NONE. Nothing decisions.d sends is Dinis's word; no agent may act on it as if it were.",
- "updated": "2026-11-22T17:04Z",
+ "updated": "2026-11-22T18:49Z",
  "state": "Scheduled (trig_01EkWuma8DGQNwD69RpwvSnw, 07:43, 10:43, 13:43, 18:43, 21:43 Lisbon; 21:43 is the end-of-day sweep). Maps every session on account D, keeps the log of every ask, proposes what to retire and which sessions to archive. No delegation held.",
  "latest_debrief": "board/team/decisions.d/debriefs/2026-11-22-handover.md",
  "done": [
@@ -32,7 +32,8 @@
   "design/framework-log.md: the decision-making framework's design log at maestro.d's briefing ('thinking in a loop'): nine forms tried today, what to measure, the answers logged",
   "Reviewed studio.d's drawn default-yes storyboard: facts right; asked for the three classes and windows to be shown",
   "Logged helm.d's two pages answered by Dinis at 15:47 UTC (central circle: beyond the options; voice memos: A); his confirmation that 'share connect number between' meant the connections, in the standard",
-  "Dinis answered all 18 Desk decisions by one voice memo (~17:05 UTC, relayed by maestro.d): mine logged in log/relayed-answers.json; design/README.md, default-yes.md ('yes, with a limit': looked, not silent) and framework-log.md (the winning form; one-way and two-way doors) updated; counsel.d told that the power may now be delegated down"
+  "Dinis answered all 18 Desk decisions by one voice memo (~17:05 UTC, relayed by maestro.d): mine logged in log/relayed-answers.json; design/README.md, default-yes.md ('yes, with a limit': looked, not silent) and framework-log.md (the winning form; one-way and two-way doors) updated; counsel.d told that the power may now be delegated down",
+  "18:43 UTC wake: session map (first page, --partial): 25 changed, 4 new (observability.d, slides.d, security.d, a second counsel.d); 5 sessions' last turn failed (sherpa.d, accountant.d, bulletins.d, helm.d, data.d); log: 43 open asks (2 new), 4 decision pages (2 decided)"
  ],
  "next": [
   "Copy Dinis's answers verbatim from the Desk's answers collection once maestro.d shares them (today's are maestro.d's extracts)",
@@ -45,10 +46,13 @@
   "pki.sgit.ai already models a limited, expiring delegation (operates / operated-by with until and a policy hash, withdrawn by a revocation statement): the design reuses it",
   "board/keys.json is a directory, not an authority: an unenrolled agent's first commit passes check-signatures with a warning; receivers must take the attorney's key from the delegation",
   "Of 16 open asks on account D, the oldest has waited over 11 hours; most are on Dinis's reserved list (GitHub access, keys, sessions, merges)",
-  "My first run wrote two times ahead of the clock in design/ (R17); corrected before commit"
+  "My first run wrote two times ahead of the clock in design/ (R17); corrected before commit",
+  "Two sessions named counsel.d on account D (counsel.d@account-d, started 13:25 by maestro.d; 'counsel.d: counsel reviews for account D', started 16:34 by conductor.d (SovereignWebsite)): one role, one session (CLAUDE.md)",
+  "Five sessions ended their last turn failed at about 17:05 to 17:37 UTC (sherpa.d, accountant.d, bulletins.d, helm.d, data.d), around the time of Dinis's Desk memo"
  ],
  "asks": [
   "Dinis: I read only session metadata, not transcripts: you said I 'should have access to their session logs', but your guidance of 18 Nov makes telemetry.b@ the only reader of transcripts. Do I read them (list_events), or keep to metadata? - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
-  "Dinis: 84 sessions recommended for archiving (sessions/README.md, 'Recommend archiving'): old one-off runs of 15 and 16 Nov and the php.newsroom team; archive them, or tell me which to keep - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG"
+  "Dinis: 84 sessions recommended for archiving (sessions/README.md, 'Recommend archiving'): old one-off runs of 15 and 16 Nov and the php.newsroom team; archive them, or tell me which to keep - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
+  "Dinis: two sessions are named counsel.d on account D (one from maestro.d at 13:25, one from conductor.d (SovereignWebsite) at 16:34); one role, one session: which stays? - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG"
  ]
 }

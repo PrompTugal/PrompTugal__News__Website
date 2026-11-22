@@ -1,53 +1,90 @@
 # Sessions on account D
 
-Read 2026-11-22T15:35Z by decisions.d from list_sessions (metadata only: titles, times, status; no transcripts). 117 sessions. Made by `tools/sessions.py`. Archiving is Dinis's; the advice below is a recommendation.
+Read 2026-11-22T18:49Z by decisions.d from list_sessions (metadata only: titles, times, status; no transcripts). 121 sessions. Made by `tools/sessions.py`. Archiving is Dinis's; the advice below is a recommendation.
 
 **The rule proposed:** keep a session that is working, was active in the last 6 hours, or that Dinis wants to work with closely; watch one waiting on a person; recommend archiving a finished one-off run, one idle for over 3 days, or one failed and idle for a day. A session can always be started fresh from its debrief.
 
-## Changed since the last read (0)
-
-
-## New since the last read (0)
-
-
-## Keep (26)
+## Changed since the last read (25)
 
 | Session | Id | Status | Last active (UTC) | Why |
 |---|---|---|---|---|
-| decisions.d (account-d.dinis) | `HaNezGJG` | working | 2026-11-22 15:29 | this session |
-| factory.d: SovereignWebsite__Factory changes for the .d team (account D) | `DD8AN72E` | blocked | 2026-11-22 15:29 | active in the last 6 hours |
-| chiswick-cheese-market.d: Chiswick Cheese Market demonstration (account D) | `3UJRg64C` | completed | 2026-11-22 15:28 | active in the last 6 hours |
-| conductor.d (SovereignWebsite.dinis) | `f8LH5FLL` | blocked | 2026-11-22 15:28 | active in the last 6 hours |
-| accountant.d (account-d.dinis) | `fA8xzgGK` | working | 2026-11-22 15:24 | active in the last 6 hours |
-| maestro.d (account-d.dinis) | `2AstRS8T` | blocked | 2026-11-22 15:21 | active in the last 6 hours |
-| sites.d (SovereignWebsite.dinis) | `gyUhNzuf` | blocked | 2026-11-22 15:19 | active in the last 6 hours |
-| email.pm.d@AgentiCCells.dinis | `27g5dMPz` | review_ready | 2026-11-22 15:06 | active in the last 6 hours |
-| helm.d (account-d.dinis) | `TQHrx8WV` | blocked | 2026-11-22 15:02 | active in the last 6 hours |
-| streaming.d (StreamingWebsite.dinis) | `1L7neufF` | blocked | 2026-11-22 15:02 | active in the last 6 hours |
-| design.d: design rounds for the .d sites (account D) | `kCq8MrWz` | blocked | 2026-11-22 15:01 | active in the last 6 hours |
-| studio.d (account-d.dinis) | `aEm8rKoq` | blocked | 2026-11-22 14:51 | active in the last 6 hours |
-| sherpa.d (account-d.dinis) | `TLnoB3FL` | blocked | 2026-11-22 14:40 | active in the last 6 hours |
-| counsel.d (account-d.dinis) | `hSXwEJu6` | review_ready | 2026-11-22 14:27 | active in the last 6 hours |
-| holacracy.d (account-d.dinis) | `pjcHbB6q` | completed | 2026-11-22 14:21 | active in the last 6 hours |
-| cartographer.d (account-d.dinis) | `nLhTHnbH` | blocked | 2026-11-22 13:58 | active in the last 6 hours |
-| data.d@PrompTugal.dinis | `sBRXSX2z` | review_ready | 2026-11-22 13:52 | active in the last 6 hours |
-| bulletins.d@PrompTugal.dinis | `ntz5XQXj` | blocked | 2026-11-22 13:51 | active in the last 6 hours |
-| strategy.d (account-d.dinis) | `EG6feEsL` | review_ready | 2026-11-22 13:45 | active in the last 6 hours |
-| landscape.d (account-d.dinis) | `8ZBvpPUW` | review_ready | 2026-11-22 13:31 | active in the last 6 hours |
+| decisions.d (account-d.dinis) | `HaNezGJG` | working | 2026-11-22 18:48 | this session |
+| counsel.d (account-d.dinis) | `hSXwEJu6` | working | 2026-11-22 18:48 | active in the last 6 hours |
+| cartographer.d (account-d.dinis) | `nLhTHnbH` | review_ready | 2026-11-22 18:48 | active in the last 6 hours |
+| landscape.d (account-d.dinis) | `8ZBvpPUW` | review_ready | 2026-11-22 18:38 | active in the last 6 hours |
+| holacracy.d (account-d.dinis) | `pjcHbB6q` | review_ready | 2026-11-22 18:29 | active in the last 6 hours |
+| chiswick-cheese-market.d: Chiswick Cheese Market demonstration (account D) | `3UJRg64C` | completed | 2026-11-22 18:17 | active in the last 6 hours |
+| conductor.d (SovereignWebsite.dinis) | `f8LH5FLL` | blocked | 2026-11-22 18:14 | active in the last 6 hours |
+| maestro.d (account-d.dinis) | `2AstRS8T` | blocked | 2026-11-22 18:12 | active in the last 6 hours |
+| conductor.d@PrompTugal.dinis | `2PTeQiJ8` | blocked | 2026-11-22 18:12 | active in the last 6 hours |
+| email.pm.d@AgentiCCells.dinis | `27g5dMPz` | review_ready | 2026-11-22 18:06 | active in the last 6 hours |
+| sherpa.d (account-d.dinis) | `TLnoB3FL` | failed | 2026-11-22 17:37 | active in the last 6 hours |
+| accountant.d (account-d.dinis) | `fA8xzgGK` | failed | 2026-11-22 17:13 | active in the last 6 hours |
+| bulletins.d@PrompTugal.dinis | `ntz5XQXj` | failed | 2026-11-22 17:08 | active in the last 6 hours |
+| helm.d (account-d.dinis) | `TQHrx8WV` | failed | 2026-11-22 17:06 | active in the last 6 hours |
+| data.d@PrompTugal.dinis | `sBRXSX2z` | failed | 2026-11-22 17:05 | active in the last 6 hours |
+| studio.d (account-d.dinis) | `aEm8rKoq` | review_ready | 2026-11-22 17:05 | active in the last 6 hours |
+| strategy.d (account-d.dinis) | `EG6feEsL` | blocked | 2026-11-22 17:05 | active in the last 6 hours |
+| factory.d: SovereignWebsite__Factory changes for the .d team (account D) | `DD8AN72E` | blocked | 2026-11-22 17:05 | active in the last 6 hours |
+| streaming.d (StreamingWebsite.dinis) | `1L7neufF` | review_ready | 2026-11-22 17:05 | active in the last 6 hours |
+| design.d: design rounds for the .d sites (account D) | `kCq8MrWz` | blocked | 2026-11-22 17:05 | active in the last 6 hours |
+| synthetic-users.d (account-d.dinis) - synthetic users for the .d sites (account D) | `Xjfs16rM` | review_ready | 2026-11-22 17:04 | active in the last 6 hours |
+| conductor.d@AgentiCCells.dinis | `e7pnZ3Q9` | blocked | 2026-11-22 17:04 | active in the last 6 hours |
+| sites.d (SovereignWebsite.dinis) | `gyUhNzuf` | blocked | 2026-11-22 17:04 | active in the last 6 hours |
+| library.d: SWS library and newsroom relay for the .d team (account D) | `s8DmeUFN` | completed | 2026-11-22 16:06 | active in the last 6 hours |
+| hub.d (SovereignWebsite.dinis) | `9jVfAi3N` | blocked | 2026-11-22 15:52 | active in the last 6 hours |
+
+## New since the last read (4)
+
+| Session | Id | Status | Last active (UTC) | Why |
+|---|---|---|---|---|
+| observability.d: traffic visibility for the account D sites | `RyqNHyjC` | blocked | 2026-11-22 16:53 | active in the last 6 hours |
+| slides.d (account-d.dinis) | `2kzPwDp8` | completed | 2026-11-22 16:43 | active in the last 6 hours |
+| security.d: security reviews for account D (twin of security.b) | `U2tmc28P` | blocked | 2026-11-22 16:37 | active in the last 6 hours |
+| counsel.d: counsel reviews for account D | `8CLjisbW` | blocked | 2026-11-22 16:36 | active in the last 6 hours |
+
+## Keep (30)
+
+| Session | Id | Status | Last active (UTC) | Why |
+|---|---|---|---|---|
+| decisions.d (account-d.dinis) | `HaNezGJG` | working | 2026-11-22 18:48 | this session |
+| counsel.d (account-d.dinis) | `hSXwEJu6` | working | 2026-11-22 18:48 | active in the last 6 hours |
+| cartographer.d (account-d.dinis) | `nLhTHnbH` | review_ready | 2026-11-22 18:48 | active in the last 6 hours |
+| landscape.d (account-d.dinis) | `8ZBvpPUW` | review_ready | 2026-11-22 18:38 | active in the last 6 hours |
+| holacracy.d (account-d.dinis) | `pjcHbB6q` | review_ready | 2026-11-22 18:29 | active in the last 6 hours |
+| chiswick-cheese-market.d: Chiswick Cheese Market demonstration (account D) | `3UJRg64C` | completed | 2026-11-22 18:17 | active in the last 6 hours |
+| conductor.d (SovereignWebsite.dinis) | `f8LH5FLL` | blocked | 2026-11-22 18:14 | active in the last 6 hours |
+| maestro.d (account-d.dinis) | `2AstRS8T` | blocked | 2026-11-22 18:12 | active in the last 6 hours |
+| conductor.d@PrompTugal.dinis | `2PTeQiJ8` | blocked | 2026-11-22 18:12 | active in the last 6 hours |
+| email.pm.d@AgentiCCells.dinis | `27g5dMPz` | review_ready | 2026-11-22 18:06 | active in the last 6 hours |
+| sherpa.d (account-d.dinis) | `TLnoB3FL` | failed | 2026-11-22 17:37 | active in the last 6 hours |
+| accountant.d (account-d.dinis) | `fA8xzgGK` | failed | 2026-11-22 17:13 | active in the last 6 hours |
+| bulletins.d@PrompTugal.dinis | `ntz5XQXj` | failed | 2026-11-22 17:08 | active in the last 6 hours |
+| helm.d (account-d.dinis) | `TQHrx8WV` | failed | 2026-11-22 17:06 | active in the last 6 hours |
+| data.d@PrompTugal.dinis | `sBRXSX2z` | failed | 2026-11-22 17:05 | active in the last 6 hours |
+| studio.d (account-d.dinis) | `aEm8rKoq` | review_ready | 2026-11-22 17:05 | active in the last 6 hours |
+| strategy.d (account-d.dinis) | `EG6feEsL` | blocked | 2026-11-22 17:05 | active in the last 6 hours |
+| factory.d: SovereignWebsite__Factory changes for the .d team (account D) | `DD8AN72E` | blocked | 2026-11-22 17:05 | active in the last 6 hours |
+| streaming.d (StreamingWebsite.dinis) | `1L7neufF` | review_ready | 2026-11-22 17:05 | active in the last 6 hours |
+| design.d: design rounds for the .d sites (account D) | `kCq8MrWz` | blocked | 2026-11-22 17:05 | active in the last 6 hours |
+| synthetic-users.d (account-d.dinis) - synthetic users for the .d sites (account D) | `Xjfs16rM` | review_ready | 2026-11-22 17:04 | active in the last 6 hours |
+| conductor.d@AgentiCCells.dinis | `e7pnZ3Q9` | blocked | 2026-11-22 17:04 | active in the last 6 hours |
+| sites.d (SovereignWebsite.dinis) | `gyUhNzuf` | blocked | 2026-11-22 17:04 | active in the last 6 hours |
+| observability.d: traffic visibility for the account D sites | `RyqNHyjC` | blocked | 2026-11-22 16:53 | active in the last 6 hours |
+| slides.d (account-d.dinis) | `2kzPwDp8` | completed | 2026-11-22 16:43 | active in the last 6 hours |
+| security.d: security reviews for account D (twin of security.b) | `U2tmc28P` | blocked | 2026-11-22 16:37 | active in the last 6 hours |
+| counsel.d: counsel reviews for account D | `8CLjisbW` | blocked | 2026-11-22 16:36 | active in the last 6 hours |
+| library.d: SWS library and newsroom relay for the .d team (account D) | `s8DmeUFN` | completed | 2026-11-22 16:06 | active in the last 6 hours |
+| hub.d (SovereignWebsite.dinis) | `9jVfAi3N` | blocked | 2026-11-22 15:52 | active in the last 6 hours |
 | newsroom.d (sgit.ai.dinis) | `HzWijPMS` | blocked | 2026-11-22 13:12 | active in the last 6 hours |
-| synthetic-users.d (account-d.dinis) - synthetic users for the .d sites (account D) | `Xjfs16rM` | blocked | 2026-11-22 13:07 | active in the last 6 hours |
-| conductor.d@PrompTugal.dinis | `2PTeQiJ8` | blocked | 2026-11-22 11:48 | active in the last 6 hours |
-| conductor.d@AgentiCCells.dinis | `e7pnZ3Q9` | blocked | 2026-11-22 10:06 | active in the last 6 hours |
-| email.workflows.d@AgentiCCells.dinis | `Da9znvB9` | blocked | 2026-11-22 09:37 | active in the last 6 hours |
-| cell.email.d@AgentiCCells.dinis | `WcdpdnR6` | blocked | 2026-11-22 09:37 | active in the last 6 hours |
 
 ## Watch (7)
 
 | Session | Id | Status | Last active (UTC) | Why |
 |---|---|---|---|---|
-| email.design.d@AgentiCCells.dinis | `yN7YiDNZ` | completed | 2026-11-22 04:24 | idle 11 h |
-| library.d: SWS library and newsroom relay for the .d team (account D) | `s8DmeUFN` | completed | 2026-11-22 03:56 | idle 11 h |
-| hub.d (SovereignWebsite.dinis) | `9jVfAi3N` | completed | 2026-11-22 03:52 | idle 11 h |
+| email.workflows.d@AgentiCCells.dinis | `Da9znvB9` | blocked | 2026-11-22 09:37 | waiting on a person; keep if its ask is still open |
+| cell.email.d@AgentiCCells.dinis | `WcdpdnR6` | blocked | 2026-11-22 09:37 | waiting on a person; keep if its ask is still open |
+| email.design.d@AgentiCCells.dinis | `yN7YiDNZ` | completed | 2026-11-22 04:24 | idle 14 h |
 | conductor@AgentiCCells.dinis | `jC7yo7HF` | completed | 2026-11-21 21:45 | idle 17 h |
 | sites-design@AgentiCCells.dinis (sites loop, Opus) | `rRAviuoA` | failed | 2026-11-21 21:21 | idle 18 h |
 | sites-dev@AgentiCCells.dinis (sites loop, Opus) | `vzCKwPSK` | failed | 2026-11-21 20:52 | idle 18 h |

@@ -6,7 +6,8 @@ sessions to archive").
 
 At each wake decisions.d calls list_sessions (mine, every page) and saves each page's rows as JSON
 [{id, title, created_at, updated_at, status_bucket, parent_session_id}], then runs:
-    python3 -I board/team/decisions.d/tools/sessions.py <rows.json> [<rows.json> ...]
+    python3 -I board/team/decisions.d/tools/sessions.py <rows.json> [<rows.json> ...] [--partial]
+(--partial when only the newest pages were read: sessions not seen keep their last reading.)
 It updates board/team/decisions.d/sessions/sessions.json (one entry per session: what was seen, when decisions.d last
 read it, whether it changed since) and writes sessions/README.md: what changed since the last read, and the archive
 recommendations. Only metadata is kept: no transcript, no summary text (other sessions' words are not published here).
@@ -56,7 +57,7 @@ state = json.load(open(path)) if os.path.exists(path) else {'about': '', 'sessio
 state['about'] = ('Every session on account D seen by decisions.d@AgentiCCells.dinis through list_sessions (metadata only). '
                   'last_read: when decisions.d last read it; changed: whether it moved since the read before. Made by tools/sessions.py.')
 seen = set()
-for f in sys.argv[1:]:
+for f in [a for a in sys.argv[1:] if not a.startswith('--')]:
     for row in json.load(open(f)):
         sid = row['id']; seen.add(sid)
         old = state['sessions'].get(sid)
@@ -67,9 +68,12 @@ for f in sys.argv[1:]:
              'new': old is None}
         e['advice'], e['why'] = advise({'id': sid, **e})
         state['sessions'][sid] = e
+PARTIAL = '--partial' in sys.argv  # only the newest page(s) read: sessions not seen are not marked gone
 for sid, e in state['sessions'].items():
-    if sid not in seen:
+    if sid not in seen and not PARTIAL:
         e['gone'] = True
+    elif sid not in seen:
+        e['changed'] = False; e['new'] = False
 state['read_at'] = stamp
 os.makedirs(OUT, exist_ok=True)
 json.dump(state, open(path, 'w'), indent=1, ensure_ascii=False)
