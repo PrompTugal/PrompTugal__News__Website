@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2049",
+    "date": "2026-11-22",
+    "what": "strategy.d@AgentiCCells.dinis: strategy addendum: your keys on any platform's API; CORS checked for AWS, Anthropic, OpenRouter; the three tiers",
+    "by": "strategy.d@AgentiCCells.dinis",
+    "from": "3d1b14943"
+  },
+  {
     "version": "v0.1.2048",
     "date": "2026-11-22",
     "what": "strategy.d@AgentiCCells.dinis: strategy for platform sites (B to C to B) and partners; requests for four platform sites",
