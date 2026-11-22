@@ -37,8 +37,9 @@ ul.rv{list-style:none;padding:0;margin:0}ul.rv li{padding:10px 12px;margin:8px 0
 <nav><button id="back" aria-label="Back">&#9664;</button><button id="play" class="p" aria-label="Play">&#9654; Play</button><button id="fwd" aria-label="Forward">&#9654;&#9654;</button><div id="dots"></div><button id="voice" aria-pressed="false" title="Read aloud with this device's voice">Voice off</button></nav>
 <div class="src" id="src"></div>
 <script id="sb" type="application/json">__JSON__</script>
+<script id="svgs" type="application/json">__SVGS__</script>
 <script>
-const SB=JSON.parse(document.getElementById('sb').textContent),B=SB.beats,decs=SB.decisions||(SB.decision?[SB.decision]:[]);
+const SVGS=JSON.parse(document.getElementById('svgs').textContent),SB=JSON.parse(document.getElementById('sb').textContent),B=SB.beats,decs=SB.decisions||(SB.decision?[SB.decision]:[]);
 const $=id=>document.getElementById(id),el=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.textContent=h;return e};
 $('ttl').textContent=SB.title;$('aud').textContent='For: '+SB.audience+' · asked by '+SB.requested_by;
 const total=B.length+decs.length;let i=0,playing=false,voice=false,timer=null,mt=null;
@@ -59,6 +60,7 @@ function draw(st,v){const k=v.kind;
   (v.edges||[]).forEach(e=>{add(e.from);const a=el('span','ar','→ '+(e.label||''));f.append(a);setTimeout(()=>a.classList.add('show'),400*n++);add(e.to)});v.nodes.forEach(x=>add(x.id));st.append(f)}
  else if(k=='timeline'){const u=el('ul','rv');v.items.forEach((t,j)=>{const li=el('li');li.append(el('b','',t.when+': '),document.createTextNode(t.what));u.append(li);setTimeout(()=>li.classList.add('show'),400*j+80)});st.append(u)}
  else if(k=='compare'){const c=el('div','cmp');[v.left,v.right].forEach((s,j)=>{const d=el('div');d.append(el('h3','',s.title));const u=el('ul');u.style.paddingLeft='18px';s.points.forEach(p=>u.append(el('li','',p)));d.append(u);c.append(d);setTimeout(()=>d.style.opacity=1,500*j+80)});st.append(c)}
+ else if(k=='svg'||(k=='image'&&v.seek!=null&&SVGS[v.src||v.url])){const t=SVGS[v.src||v.url];if(!t){st.append(el('div','lab','(SVG not inlined: '+(v.src||v.url)+')'));return}const h=el('div');h.innerHTML=t;const sv=h.querySelector('svg');if(sv){sv.style.width='100%';sv.style.height='auto';st.append(h);const at=v.at!=null?v.at:(v.seek||0);try{sv.pauseAnimations();sv.setCurrentTime(at);if(v.play){setTimeout(()=>{try{sv.unpauseAnimations();setTimeout(()=>sv.pauseAnimations(),v.play*1000)}catch(e){}},400)}}catch(e){}}if(v.note)st.append(el('div','lab',v.note))}
  else if(k=='image'){const im=el('img');im.src=v.url;im.alt=v.alt||'';im.style.maxWidth='100%';st.append(im,el('div','lab',v.credit||''))}
  else st.append(el('div','lab',v.note||'(a visual the player cannot draw yet)'))}
 function decision(st,d,n){st.append(el('h2','',d.question));d.options.forEach(o=>{const c=el('div','opt'+(o.id==d.recommendation?' rec':''));c.append(el('b','',o.label+(o.id==d.recommendation?'  (recommended)':'')));

@@ -75,3 +75,7 @@ Valid JSON; required fields present; every `facts` id exists in `sources`; every
 Presenter small on the right, talking, subtitles always on; the main area is the visual; back and forward buttons and keyboard arrows move between beats; a progress bar with a dot per beat; the decision appears only at its beat; works on an iPhone in portrait.
 
 Example: `example.storyboard.json`.
+
+## Animated SVG visual (agreed with cartographer.d, 22 November 2026)
+
+`{ "kind": "svg", "src": "<repo path to an .svg>", "at": <seconds>, "play": <seconds>, "note": "..." }`: the build inlines the SVG (run `build.mjs` from the repository root), pauses its SMIL animation, seeks to `at`, and plays `play` seconds forward, then pauses. `kind: "image"` with `src` or `url` to a repo .svg and `seek` works the same way. Scripts inside an SVG are not run; use SMIL or CSS animation.
