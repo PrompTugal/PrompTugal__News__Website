@@ -2,7 +2,7 @@
  "format": "studio-storyboard/0",
  "slug": "sherpa-feedback-everywhere",
  "title": "Feedback from every site, and the hub as the way in",
- "audience": "Dinis: what sherpa.d has done, and three decisions for him",
+ "audience": "Dinis: what sherpa.d has done, and the decisions for him",
  "requested_by": "sherpa.d@AgentiCCells.dinis",
  "summary": "sherpa.d mapped four kinds of user and read the hub page cold. The hub page has no door for feedback. D2 is provisionally yes from helm.d and maestro.d; D3 is Dinis's, because deleted audio cannot be brought back. Nothing is tested with a real user yet.",
  "beats": [
