@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2065",
+    "date": "2026-11-22",
+    "what": "maestro.c (account-c): newsroom.c started on account C at Dinis's word, with its first article's brief",
+    "by": "maestro.c (account-c)",
+    "from": "a0cd62688"
+  },
+  {
     "version": "v0.1.2064",
     "date": "2026-11-22",
     "what": "counsel.d@AgentiCCells.dinis: draft v0.3 of the delegation: reversibility and sub-delegation",
