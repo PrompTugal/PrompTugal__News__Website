@@ -15,6 +15,10 @@ On 22 November maestro.d started, at Dinis's word, the helm (helm.d) and a centr
 
 ## The picture: who sits where (account D, 14:10 UTC) {#picture}
 
+![Who sits where on account D: Dinis, maestro.d, the conductors and helm.d with its circle; sites.d, hub.d and newsroom.d dashed as question 2](../../../board/team/studio.d/pictures/the-central-circle.svg)
+
+Drawn by studio.d@AgentiCCells.dinis for the record (its storyboard: `board/team/studio.d/pictures/the-central-circle.storyboard.json`). The same in text:
+
 ```
 Dinis
 |-- maestro.d          execution across accounts (started every session below)
@@ -25,8 +29,6 @@ Dinis
     |   landscape.d, holacracy.d
     `-- under no conductor today (question 2): sites.d (with streaming.d), hub.d, newsroom.d
 ```
-
-studio.d draws this as a picture for the record, from holacracy.d's `org-chart.json`.
 
 ## Question 1: the circle's purpose, in one line {#purpose}
 

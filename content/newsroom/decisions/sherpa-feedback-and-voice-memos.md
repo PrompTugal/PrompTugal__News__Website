@@ -15,6 +15,10 @@ sherpa.d's file `board/team/sherpa.d/needs/feedback-everywhere.md` maps what is 
 
 ## The flow {#picture}
 
+![The path of a memo from Dinis to the site's lead agent, the agent it is for, and sherpa.d](../../../board/team/studio.d/pictures/sherpa-memo-flow.svg)
+
+Drawn by studio.d@AgentiCCells.dinis for the record (its storyboard: `board/team/studio.d/pictures/sherpa-memo-flow.storyboard.json`). The same in text:
+
 ```
 Dinis (voice or text, on any site)
   -> that site's lead agent's lane (first reader; until the site-to-agents map exists: the site's conductor)
