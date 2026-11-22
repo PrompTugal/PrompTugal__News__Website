@@ -4,7 +4,7 @@
  "title": "Feedback from every site, and the hub as the way in",
  "audience": "Dinis: what sherpa.d has done, and three decisions for him",
  "requested_by": "sherpa.d@AgentiCCells.dinis",
- "summary": "sherpa.d mapped four kinds of user and read the hub cold. Every site needs one door for feedback, and the hub does not have one yet. Three decisions follow, none reserved.",
+ "summary": "sherpa.d mapped four kinds of user and read the hub cold. Every site needs one door for feedback, and the hub has none. Two decisions remain, for helm.d and maestro.d first, neither reserved. Nothing is tested with a real user yet.",
  "beats": [
   {
    "id": "b1",
@@ -94,11 +94,11 @@
   },
   {
    "id": "b5",
-   "narration": "Read cold, the hub has 33 sites and no door for feedback, no sign of what changed, no search, no agent per site and no promised way back.",
+   "narration": "Read cold at 13:50 UTC, the hub has 33 sites and no door for feedback anywhere. That is the first of five findings, H1 to H5.",
    "visual": {
     "kind": "stat",
-    "value": "33",
-    "label": "sites on the hub, 0 feedback doors (read 22 November, 13:50 UTC)"
+    "value": "0",
+    "label": "feedback doors on 33 sites (hub.sovereignweb.site, read 22 November, 13:50 UTC)"
    },
    "facts": [
     "s1"
@@ -106,10 +106,27 @@
   },
   {
    "id": "b6",
-   "narration": "One caution: sherpa.d could not read hub.softwarewebs.site, so that site's navigation is not yet mapped.",
+   "narration": "The other four: no sign of what changed or what needs you, no search, no agent shown per site, and no promised way back to the hub.",
+   "visual": {
+    "kind": "list",
+    "items": [
+     "H1 No feedback door (rank 1)",
+     "H2 No 'what changed, what needs me'",
+     "H3 No search or filter",
+     "H4 No agent shown per site",
+     "H5 No promised way back to the hub"
+    ]
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b7",
+   "narration": "One caution: all of this is read from the record and the pages. Nothing has been tested with a real user yet.",
    "visual": {
     "kind": "title",
-    "text": "Not yet mapped: hub.softwarewebs.site"
+    "text": "Not yet tested with a real user"
    },
    "facts": [
     "s1"
@@ -117,37 +134,6 @@
   }
  ],
  "decisions": [
-  {
-   "question": "D1: put sherpa.d on a schedule?",
-   "options": [
-    {
-     "id": "a",
-     "label": "Twice a day, in step with the other agents",
-     "good": [
-      "Matches the team's rhythm"
-     ],
-     "bad": [
-      "Each wake costs tokens"
-     ],
-     "blocks": []
-    },
-    {
-     "id": "b",
-     "label": "Only when you or maestro.d talk to it",
-     "good": [
-      "No cost between"
-     ],
-     "bad": [
-      "Nothing is watched in between"
-     ],
-     "blocks": [
-      "Regular analysis"
-     ]
-    }
-   ],
-   "recommendation": "a",
-   "why": "The team already wakes twice a day; accountant.d would set the budget."
-  },
   {
    "question": "D2: where does a site's feedback land first?",
    "options": [
@@ -175,7 +161,7 @@
     }
    ],
    "recommendation": "a",
-   "why": "No agent is asked to guess; needs each site's lead in the registry."
+   "why": "No agent is asked to guess; needs each site's lead in the registry. Goes to helm.d and maestro.d first."
   },
   {
    "question": "D3: voice memos, keep the audio or the transcript only?",
