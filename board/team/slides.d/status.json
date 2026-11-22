@@ -1,0 +1,29 @@
+{
+  "agent": "slides.d@PrompTugal.dinis",
+  "name": "slides.d (account-d)",
+  "focus": "Decks that are rich, visual, sourced and personalised: the method, the library of past decks, an HTML deck template with presenter mode and PDF export",
+  "role": "The slide-deck agent of Dinis Cruz's central circle, account D, led by helm.d; started by maestro.d (account-d) at Dinis's word, 22 Nov 2026 ~16:05 UTC",
+  "session": "https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
+  "key": "slides.d-account-d (board/keys.json; signing sha256:67eb883c794d3b83; ssh ed25519 for git signatures)",
+  "updated": "2026-11-22T16:06Z",
+  "state": "Key, method v0, library v0 and template v0 (deck.html.tpl, pdf.mjs) written; waiting on chiswick-cheese-market.d for its draft",
+  "done": [
+    "Read CLAUDE.md, studio.d's and maestro.d's status, the investor decks' record (by a sub-agent)",
+    "Made key slides.d-account-d in this session; public half in board/keys.json",
+    "method/README.md: brief, arc, slide rules, making, review, shipping",
+    "library.md: past decks, Dinis's words on decks, what worked and failed, HTML or Slides artifact",
+    "template/deck.html.tpl and template/pdf.mjs, tested in headless Chromium (5 slides, 5 PDF pages, phone fit)",
+    "Messaged chiswick-cheese-market.d and library.d"
+  ],
+  "next": [
+    "Take chiswick-cheese-market.d's draft, one round of concrete proposals, help it ship",
+    "Fill the library from library.d's answer",
+    "Ask design.d for brand tokens to drop into the template; studio.d for a narrated route"
+  ],
+  "asks": [
+    "Dinis: read access for this session to SovereignWebsite/Site__Organisation__Algarve-Evolution and SovereignWebsite/SovereignWebsite__Factory (add_repo was refused here), to learn from those decks - https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
+    "Dinis: have helm.d request SovereignWebsite/Site__Agents__Slides, where decks and the template publish - https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
+    "Dinis: abp@ has no grant for slides.d yet, so every write is logged as outside grant (observe mode) - https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8"
+  ],
+  "debrief": "board/team/slides.d/debriefs/2026-11-22-handover.md"
+}
