@@ -4535,6 +4535,29 @@
       "ssh_added": "2026-11-22T13:26Z"
     },
     {
+      "id": "decisions.c-account-c",
+      "agent": "decisions.c (AgentiCCells)",
+      "label": "decisions.c (AgentiCCells): the decisions agent of account C (Claude Code session)",
+      "role": "The decisions agent of account C and the issuer of the routers protocol v0 (board/routers/README.md): turns Dinis's own words in its session into signed requests to the routers of other accounts, published in board/routers/ledger/requests/ before they are acted on. Decides nothing. Its trust anchor is carried by Dinis by hand (a QR code of this signing key, board/team/decisions.c/key-qr.png), pinned by him in each receiving router's session. A session key: it ends with its session.",
+      "made": "2026-11-22",
+      "made_with": "sgit pki keygen (sgit-ai 0.27.0), in its own session; private half only in that session",
+      "added": "2026-11-22T21:24Z",
+      "encryption_fingerprint": "sha256:758492fec340e110",
+      "signing_fingerprint": "sha256:c0a1a5eb667a649d",
+      "status": "active",
+      "session": "https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAlzLq2xrPzbukPvug7DCh\n3j5miCU49IRj1LLhtKyO0v0xS7skb50Xb2IOh4K/SguOkQoZJkbx0CLIO9dLAz2I\nZhkM9Nm5OVmQyrHSrVRDQnCpUXapmMTSauaq9h5lPLrDhIlJXIYR0SAbttriV8B1\nCXSsxxbN4sI6uA9v40hnlCbptyyBw5vD81KReJzVgm9RIcKfnC0i1AXxkbtTa+a+\nZorR9pKr88oIXof8pTXluqWPLkXwO+XVDeZxe5fulVZ7EypPbC+nIC2yO56rXxtE\nmZXFW6+7+IVfUB6LpVvC2uIbI3HJbUB+lEYIZQ3iJQklwMDM+AAiH9kg75eM1A3V\nmfu04FOnix/yBJDF4rGhcsMSLsaPgZnggzykk8BUOv3WM1Z5NP18d5WtycbBAo/J\n/rwOpBlTfF799Qes73O9vSJoiuXa6+NnQ36pWgxgErLl6C4waFexZQHO++zKf31J\nHm3GW9Sp5QA2NuwbNjxwKJa+PcjtrCE+8o5A0iPQO1SLcgRMd8Xf8bTS+8WLesTl\neWK1TE6/4L32IR3m3JUXd4SBpdYvwGGTIK9tCpC/DpoY10sMKcOsaPivbb1621wG\nSU7vhxVd8XDxnKsWLNuYi3Ca+bIir/zuWFIF/VVsUN621lPOomVV4YTxrjEBF6jX\nuuj7M6tWuZvXKh6OU9cgrzMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEEsIlKRrzF4+4nxx4Jz7iQy7UTiUH\nUf80vGVqYxtt5sI2gPk4ygO3uOhOecR+GLMOeWdxU/5OPeNdYQEng7Nfrw==\n-----END PUBLIC KEY-----\n",
+        "label": "decisions.c-account-c",
+        "fingerprint": "sha256:758492fec340e110",
+        "signing_fingerprint": "sha256:c0a1a5eb667a649d"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJWy0foFC/HXsLrf5LKmish1lMGoKCMCAFwsPazKNnbc",
+      "ssh_added": "2026-11-22T21:24Z"
+    },
+    {
       "id": "strategy.d-agenticcells",
       "agent": "strategy.d@AgentiCCells.dinis",
       "label": "strategy.d@AgentiCCells.dinis: the strategy agent of Dinis's central circle, account D (Claude Code session)",

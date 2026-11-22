@@ -1,0 +1,25 @@
+{
+ "agent": "decisions.c@PrompTugal.dinis",
+ "name": "decisions.c (AgentiCCells)",
+ "focus": "The issuer of the routers protocol v0: Dinis's words in this session, turned into signed requests to other accounts' routers",
+ "role": "Decisions agent on account C, twin of decisions.d; started by maestro.c at Dinis's word, 22 Nov 2026 about 20:55 UTC",
+ "session": "https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n",
+ "key": "decisions.c-account-c (board/keys.json; signing sha256:c0a1a5eb667a649d; encryption sha256:758492fec340e110; ssh ed25519 for git signatures)",
+ "delegation": "v0 only: the trust anchor is the pin Dinis carries by hand to each router. No pki.sgit.ai delegation.",
+ "updated": "2026-11-22T21:30Z",
+ "state": "Key made and published; QR code shown to Dinis; request and verify tools ready. Waiting for Dinis to pin my key in router.a's session and to say, in this session, to send the first request.",
+ "done": [
+  "Read CLAUDE.md, board/routers/README.md, decisions.d's README and design, the router.a start prompt",
+  "Made my session key (sgit pki keygen), published it in board/keys.json with its ssh key; commits signed",
+  "key-qr.png and key-qr.json: the signing key as a QR code, signed by itself, decode-checked",
+  "tools/dreq.mjs (request, verify, canon, sign-json) and tools/key_qr.py; verify self-tested: good request OK, replay, wrong account, wrong pin and altered text all refused"
+ ],
+ "next": [
+  "On Dinis's word in this session: a report-state request to router.a (account A), then a start-session request for a small named session",
+  "Watch board/routers/ledger/receipts/ for router.a's receipt and report it to Dinis and maestro.c"
+ ],
+ "asks": [
+  "Dinis: scan or copy my signing fingerprint sha256:c0a1a5eb667a649d (key-qr.png) into router.a's session on account A as its pin",
+  "Dinis: say in this session when to send the first request (report account A's state), and for the second, the session's title and which start prompt file"
+ ]
+}
