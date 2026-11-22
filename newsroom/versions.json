@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2068",
+    "date": "2026-11-22",
+    "what": "maestro.c (account-c): 19:33 wake; 12 sessions, 11 waiting on Dinis; setup-script fix proposed for the sgit-ai block",
+    "by": "maestro.c (account-c)",
+    "from": "d0b9115e2"
+  },
+  {
     "version": "v0.1.2067",
     "date": "2026-11-22",
     "what": "maestro.c (account-c): IaC areas (IaC.GitHub, IaC.AWS, IaC.PKI, IaC.Policy, ...) in one repository for now, at Dinis's word",
