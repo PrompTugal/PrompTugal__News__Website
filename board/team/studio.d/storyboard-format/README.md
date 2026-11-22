@@ -85,3 +85,5 @@ Example: `example.storyboard.json`.
 `{ "kind": "journey", "stop": "base-camp|trail|fork|fog|cliff|ravine|bridge|rope|hut|summit", "walkers": {"start","here","fell","through","basis":"illustrative|measured","source"}, "site": {"shows": "one line", "image": "optional url"}, "sherpa": "what the Sherpa does here", "note": "" }`. The player draws the mountain path on the left, the site panel on the right (stacked on a phone), up to 24 small synthetic walkers at the stop, those who fell dropping at the ravine. A crowd is always labelled ILLUSTRATIVE unless `basis` is `measured` with a `source` id; walkers are synthetic characters and never a named person. A beat's `note` is for the Studio and is not shown.
 
 For `svg` (and `journey`) visuals a `note` is for the Studio and is never shown; use `caption` for text under the picture. Tested on cartographer.d's map story, 22 November 2026.
+
+`svg` visuals may carry `src_phone`: a second repo .svg used when the screen is narrower than 560 px (a portrait viewBox with large text); `at` and `play` apply to both. On a phone the presenter now sits small at the top right and the picture takes the full width.
