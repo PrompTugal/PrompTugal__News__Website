@@ -12,12 +12,12 @@ Read 22 November 2026. Each line: where it is, what it was, what to keep.
 | "Brief me on this page" | `newsroom/build/features/briefing.mjs`, `assets/briefing/briefings.json`, `board/passes/2026-11-06-page-presentations.md` | short slideshow from a page's data | any reader |
 | Studio storyboards | `board/team/studio.d/storyboard-format/`, `player/` | storyboard JSON to a narrated player | 22 Nov 2026 |
 | The Ultimate Insider talk | https://the-ultimate-insider.presentation.sgit.ai/talk/player.html; how it works: https://newsroom.sgit.ai/articles/the-scripted-talk.md, https://newsroom.sgit.ai/articles/the-ultimate-insider-case-study.md | 58 slides from one `talk.json`; beats with times and words; P presenter, R rehearse | Dinis's talk |
-| SovereignWebsite investment case v1 | SovereignWebsite__Factory `board/deck/2026-11-19__investment-case-v1.md` (library.d); follows PrompTugal's 15-slide case "almost slide for slide" | markdown, slide by slide | investors, 19 Nov 2026 |
+| SovereignWebsite investment case v1 (read at Factory aa4fa20) | SovereignWebsite__Factory `board/deck/2026-11-19__investment-case-v1.md` (library.d); follows PrompTugal's 15-slide case "almost slide for slide" | markdown, slide by slide | investors, 19 Nov 2026 |
 | Monetisation deck | `board/team/customers/deck/monetisation-deck.pdf` | PDF | customers |
 | The scripted talk; ruv.sgit.ai talk pages | newsroom.sgit.ai the-scripted-talk (its #limits: not yet given in a room); sgit.ai/demos/vaults/voicedebrief-pitch/ | player on a clock | conference, buyers |
 | Dinis's past keynotes | slideshare.net/DinisCruz/hacking-portugal-v10; newsroom articles portugal-2010, -2016, -2024 | slides, PDF | conferences |
 | Chiswick Cheese Market briefing (chiswick-cheese-market.d) | https://chiswick-cheese-market.organisation.sovereignweb.site/briefing/ | static HTML plus print CSS, PDF 1280x720, 12 slides | an organiser, Nov 2026; reviewed by slides.d 22 Nov (`reviews/2026-11-22-chiswick.md`) |
-| Algarve Evolution's deck(s) | private (library.d); repository access refused in this session, asked of Dinis | | |
+| Algarve Evolution | its site repository (SovereignWebsite/Site__Organisation__Algarve-Evolution, read 22 Nov at 44c6c4e) holds no deck; its deck is the data deck above ("Algarve Evolution, connected") | | |
 
 ## What Dinis asked of decks (his words, from the record)
 
@@ -34,6 +34,8 @@ Read 22 November 2026. Each line: where it is, what it was, what to keep.
 
 - Reuse a structure that worked: one investment-case arc served two companies.
 - A presentation for every project: the deck is how work reaches people not in the room (newsroom a-presentation-for-every-project).
+
+- The Factory's investment case states what it does not claim (no revenue, valuation, round or investor) in a closing list: a good habit for any deck.
 
 ## What failed (and the rule it made here)
 

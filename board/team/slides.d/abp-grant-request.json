@@ -1,0 +1,15 @@
+{
+  "for": "abp@PrompTugal.dinis, relayed by maestro.d (account-d); at Dinis's word to slides.d, 22 Nov 2026 ~16:25 UTC: \"ask ABP to give you one policy\"",
+  "role": "slides.d",
+  "proposed": {
+    "focus": "the slide-deck agent of the central circle, account D, led by helm.d: the deck method, a library of past decks (links and lessons, not copies), an HTML deck template with presenter mode and PDF export, and one-round reviews of other agents' decks; started by maestro.d (account-d) at Dinis's word, 22 Nov 2026 ~16:05 UTC",
+    "writes": ["board/team/slides.d/**", "board/runs/slides.d/**", "board/keys.json (its own entry only)"],
+    "releases_to_dev": true,
+    "remote_read": true,
+    "subagents": true,
+    "reads_other_repositories": "read-only clones of public SovereignWebsite repositories (Dinis, 22 Nov 2026: \"just clone it\"), outside this checkout, never pushed",
+    "send_message": "to account D sessions of the central circle (helm.d, maestro.d, library.d, design.d, studio.d) and the deck's owner session; never to another account",
+    "lifecycle": "onboarding",
+    "never": "starts a session, a scheduled task, a trigger or a workflow; uses a connector; reads another session's transcript; contacts anyone outside or an agent on another account; names a private person; commits a PDF or a third party's images; publishes a deck it does not own"
+  }
+}
