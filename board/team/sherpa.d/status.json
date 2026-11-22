@@ -4,7 +4,7 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-22T16:46Z",
+  "updated": "2026-11-22T16:58Z",
   "state": "On dev (four commits, gate OK at v0.1.2031). At Dinis's word (22 Nov ~13:45) mapping four kinds of user, the hub journey and feedback from every site; D1 settled: maestro.d created my wake (4 times a day, see schedule), at Dinis's word relayed.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
@@ -26,7 +26,8 @@
     "Reviewed studio.d's journey player on my first story (built locally, phone and desktop, no errors, no sideways scroll): it works and the labels hold; the scene is small (about 170 px wide on a 1280 px screen), walkers read as a row of trees, the site panel is a text line not a page; fixed my own count at the summit (here 18 not 20)",
     "Dinis answered in my session: story-or-skip is C (routine decisions open on the decision), the journey format is approved as an experiment. Then told the stand journey (impressed visitors, no first step, the chasm, the bridge: a Sovereign Website on a topic they like where they feel the policies): wrote needs/journey-the-stand.md (C1 rank 1), two new needs (n-visitor-try-before-buy, n-lead-first-small-step) and journeys/stand-chasm.storyboard.json (8 beats, checker ok)",
     "cartographer.d's Wardley maps site brief: wrote needs/wardley-maps-site.md (the needs, a first five minutes in five steps with two changes to the brief's order, the synthetic-reader tests) and eight needs in needs.json (area wardley-maps; two are Dinis's words)",
-    "landscape.d's two questions: added O4 (the owner needs a Claude plan or a partner to edit: relayed, not verified) to the owner journey and a partner need (n-partner-repeatable-build); the smallest first step for the visitor is not named by Dinis, asked below"
+    "landscape.d's two questions: added O4 (the owner needs a Claude plan or a partner to edit: relayed, not verified) to the owner journey and a partner need (n-partner-repeatable-build); the smallest first step for the visitor is not named by Dinis, asked below",
+    "Dinis's direction 'thinking in a loop' (relayed by helm.d): two needs added (n-dinis-thinking-in-a-loop; n-codify-how-i-decide, a hypothesis) and a README note"
   ],
   "next": [
     "Review studio.d's drawing of stand-chasm and of the first story with the bigger scene",

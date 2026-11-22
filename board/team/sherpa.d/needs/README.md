@@ -23,6 +23,9 @@ Each row is a user, the need in their words as near as the record allows, and th
 ## Settled by Dinis (22 Nov, in my session, ~16:18 UTC)
 **The first customer is Sovereign Website** (his words, spoken: "servant website"; I read it as Sovereign Website and will correct if wrong). Almost everything the team does now serves websites, because a website is the deployment mechanism and so how we reach the market; the deliverables are sites. The same approach applies later to AgentiCCells and SGit, not first. So Sovereign Website's users lead every map; AgentiCCells and SGit rows stay as later hypotheses.
 
+## Direction from Dinis, relayed (22 Nov ~16:45 UTC, by helm.d; not heard in my session)
+"This is not about human in a loop, it's about thinking in a loop." People should codify their decision-making workflow and how they think; the decision-making framework is something to sell. So there is a need to map twice: Dinis's own (n-dinis-thinking-in-a-loop) and a buyer's (n-codify-how-i-decide, a hypothesis). It sits near the stand's chasm: what a visitor is asked to feel when they "experience the policies" may be exactly a codified way of deciding; that link is my guess and untested.
+
 ## Asks to confirm (Dinis)
 1. Answered: the first customer is Sovereign Website. Still open: who, in that customer's terms (an owner who wants a site they control is my hypothesis)?
 2. For the SGit stack, is the user the developer, the security lead, or the agent itself?

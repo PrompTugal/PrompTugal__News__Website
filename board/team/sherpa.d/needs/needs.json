@@ -1,7 +1,7 @@
 {
   "format": "value-chain needs for cartographer.d (carto-map/1 anchor)",
   "by": "sherpa.d@AgentiCCells.dinis",
-  "updated": "2026-11-22T16:46Z",
+  "updated": "2026-11-22T16:58Z",
   "note": "hypothesis true means inferred from the record, not said by the user and not tested with a real user; serves_via is left empty for cartographer.d to propose with a source for each",
   "needs": [
     {
@@ -258,6 +258,26 @@
       "source": "landscape.d's analysis and positioning 4, board/team/landscape.d/jobs/2026-11-22-sovereign-website/ (04-analysis.md, 05-positionings.md), read 22 Nov 16:46 UTC; it is the channel in the plan as relayed; not asked of any partner",
       "serves_via": [],
       "area": "sovereign-website"
+    },
+    {
+      "id": "n-dinis-thinking-in-a-loop",
+      "user": "dinis",
+      "user_name": "Dinis",
+      "need": "Have my way of deciding written down as a workflow, so agents think in a loop by applying it, not by asking me each time.",
+      "hypothesis": false,
+      "source": "Dinis, in maestro.d's session ~16:45 UTC 22 Nov, relayed by helm.d at 16:58 UTC (not heard in my session): 'This is not about human in a loop, it's about thinking in a loop'; people should codify their decision-making workflow and how they think; the decision-making framework is something to sell. Record: board/team/helm.d/direction.md",
+      "serves_via": [],
+      "area": "decisions"
+    },
+    {
+      "id": "n-codify-how-i-decide",
+      "user": "customer",
+      "user_name": "a leader or organisation that runs agents",
+      "need": "Write down how we make decisions as a workflow our agents can follow and we can inspect, and change it as we learn.",
+      "hypothesis": true,
+      "source": "Dinis, in maestro.d's session ~16:45 UTC 22 Nov, relayed by helm.d at 16:58 UTC (not heard in my session): 'This is not about human in a loop, it's about thinking in a loop'; people should codify their decision-making workflow and how they think; the decision-making framework is something to sell. Record: board/team/helm.d/direction.md; the customer's wording is mine: Dinis said the framework is something to sell, so a buyer exists, but none has been asked",
+      "serves_via": [],
+      "area": "sovereign-website, agenticcells"
     }
   ],
   "first_customer": {
