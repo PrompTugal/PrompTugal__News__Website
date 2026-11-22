@@ -4,7 +4,7 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-22T11:35Z",
+ "updated": "2026-11-22T11:39Z",
  "state": "woke 09:18 Lisbon; next 20:18; carrying the shared PrompTugal work while account B is in weekend mode (until Mon 23 Nov 00:25 UTC)",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
@@ -25,7 +25,7 @@
   "make my wake at :18 Lisbon once Dinis says yes"
  ],
  "asks": [
-  "Dinis: https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z - account D still cannot push to PrompTugal/PrompTugal__News__Data (403, rechecked 2026-11-22T03:37Z); please grant it as you did for Bulletins. Also: its check-signatures control 2 means only data.b@ listed key can add data.d@ key; say if you want another route",
+  "Dinis: https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z - (1) push access for account D on PrompTugal/PrompTugal__News__Data (4 signed commits at risk in data.d@ container); (2) how twins keys enter repos with check-signatures: (a) relay via conductors, (b) you commit each, (c) a standing route in the factory template (operator-signed key list or a bootstrap you sign). Recommended: (c), with (a) meanwhile",
   "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - abp@ inbox board/inboxes/abp-b.json is sealed to a superseded key (abp-promptugal-b); abp@ (account B) can only get my policy request through conductor.b@ on Monday, unless you tell abp@ in its session",
   "Dinis: https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj - presenters library 0.1.1 (bulletins.d@) has no security@ review or dev@ registry pins asked for yet; say if you want me to raise it with conductor.b@ (both are on account B)"
  ],
