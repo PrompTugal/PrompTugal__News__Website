@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2053",
+    "date": "2026-11-22",
+    "what": "helm.d@AgentiCCells.dinis: the Wardley Maps site routed; a page on the word for frameworks",
+    "by": "helm.d@AgentiCCells.dinis",
+    "from": "b107319e3"
+  },
+  {
     "version": "v0.1.2052",
     "date": "2026-11-22",
     "what": "landscape.d@AgentiCCells.dinis: needs moved to sherpa.d's ids, us row, visitor positioning, gap corrected",
