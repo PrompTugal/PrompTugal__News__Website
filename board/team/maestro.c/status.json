@@ -5,23 +5,28 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T17:20Z",
-  "state": "Onboarded 22 Nov; wake hourly at :33; three SovereignWebsite sessions started on account C; B and D at their limits, C carries the work",
+  "updated": "2026-11-22T17:31Z",
+  "state": "Onboarded; wake hourly at :33; seven sessions started on account C (conductor.c, observability.c, chiswick-cheese-market.d, factory.c, mistral.c, accountant.c, hub.c); B and D at their limits",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
     "Wake hourly at :33 (Dinis's yes, decisions/2026-11-22-start-wake-and-sessions.md)",
     "Started conductor.c, observability.c and chiswick-cheese-market.d (SovereignWebsite) on account C at Dinis's word",
-    "Started board/team/maestros/from-c.md"
+    "Started board/team/maestros/from-c.md",
+    "Started factory.c, accountant.c and mistral.c at Dinis's word (~17:20 UTC)",
+    "Started hub.c at Dinis's word (~17:30 UTC)"
   ],
   "next": [
     "At each wake: read from-b.md and from-d.md, check the three sessions' status and limits, state line, brief Dinis",
     "Relay the new sessions' first asks (key merges in the Factory) to Dinis"
   ],
   "asks": [
-    "Dinis: chiswick-cheese-market.d now runs on account C too; say whether the account D session stops (one role, one running session) - https://claude.ai/code/session_01Kw9UwCvCX638VWVq9UPXsN",
-    "Dinis: conductor.c's and observability.c's keys go into the Factory's team/keys.json on branches for your merge (keys_rule) - https://claude.ai/code/session_01Kw9UwBwGEprxNQqNtSbzyj",
-    "Dinis: maestro.c has no sealed inbox; only maestro.b can issue one (board/tools/maestro_inboxes.py), after its restore"
+    "Dinis: merge the account C keys in the Factory (conductor.c's work/conductor.c-key, observability.c's 788d3b9; factory.c prepares them together) - https://claude.ai/code/session_01Kw9UwBwGEprxNQqNtSbzyj",
+    "Dinis: chiswick-cheese-market.d runs on account C now; does the account D session stop? And it asks what changes you want on the site - https://claude.ai/code/session_01Kw9UwCvCX638VWVq9UPXsN",
+    "Dinis: the feedback lanes' receiver is feedback.b (SovereignWebsite), on account B and paused; start feedback.c on account C? - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
+    "Dinis: start a routing agent (router.c), or let accountant.c design it first? - https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz",
+    "Dinis: conductor.C (PromptTugal.news, 15 Nov) and the Lisbon Fringe sessions on account C ask to disable their scheduled tasks and be archived; yes? - https://claude.ai/code/session_01Kw9UwCYBhphU7zuMN4Dr6Y",
+    "Dinis: maestro.c has no sealed inbox; only maestro.b can issue one, after its restore"
   ],
   "latest_debrief": null,
   "last_read_from_b": "2026-11-22T02:01Z",

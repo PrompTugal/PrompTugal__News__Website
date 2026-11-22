@@ -10,3 +10,14 @@ Context he gave: account D hit its limit (resets at 18:00), accounts A and B res
 - observability.c (SovereignWebsite), on SovereignWebsite__Factory: https://claude.ai/code/session_01Kw9UwBmqCafJ2NtqhQPQwu
 - chiswick-cheese-market.d (SovereignWebsite), on Site__Organisation__Chiswick-Cheese-Market: https://claude.ai/code/session_01Kw9UwCvCX638VWVq9UPXsN (the role carried on account C while D is out; one role, one running session: Dinis says which session goes on)
 - Each makes its own key in its session; no wakes for them until Dinis says so in their sessions.
+
+## Second word (about 17:20 UTC)
+Dinis: "we will also need the factory.c (SovereignWebsite) since that one is doing key changes and workflows at the moment"; "Can you also start an accountant agent here?"; "can you start the Mistral? ... maybe just rename it to Mistral.c so that we have the workflow here". No Mistral session exists on account C (the Mistral agents run on account B), so mistral.c was started new rather than renamed. His brief for the accountant, summarised: never let any account max out again; track costs and tell a good cost story; check every hour that agents are scheduled and triggered with the right model; Opus as much as we can, but try Sonnet, Haiku and third-party models (OpenRouter, Qwen, Mistral) and review quality; move many workflows to Mistral (credits). Ideas recorded, not yet started: a routing agent "kind of like Kubernetes" that decides which agent runs what and where; once four accounts are up, observability and monitoring agents in 15-minute blocks across them (Sonnet first, maybe Haiku) that drain the lanes, trigger a security review and workflows, and route each message to the right agent.
+
+- factory.c (SovereignWebsite), on SovereignWebsite__Factory: https://claude.ai/code/session_01Kw9UwFQ86g2ZeXQ2edTAjh
+- accountant.c (AgentiCCells), on this repository: https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz
+- mistral.c (SovereignWebsite), on Site__Provider__Mistral: https://claude.ai/code/session_01Kw9UwDHBL8ucvbqmv38Bkz
+
+## Third word (about 17:30 UTC)
+Dinis: "can You also start a hub.c agent here, because we really need to change how this thing works": the hub to navigate the entire universe (bar a very few sites he keeps off), the agents now and historically and how they connect, and a newsroom-like list of the latest sites, where every new site and customer arrives first.
+- hub.c (SovereignWebsite), on SovereignWebsite__Hub: https://claude.ai/code/session_01Kw9UwBNK6JRSRJ7P7LftYD
