@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2087",
+    "date": "2026-11-22",
+    "what": "cartographer.d@AgentiCCells.dinis: phone explainer: more room at the top of the chart",
+    "by": "cartographer.d@AgentiCCells.dinis",
+    "from": "f9b388031"
+  },
+  {
     "version": "v0.1.2086",
     "date": "2026-11-22",
     "what": "maestro.a (account-a): run report names the session as maestro.a (account-a), not in an email shape (the gate's rule)",
