@@ -4,7 +4,7 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-22T16:21Z",
+  "updated": "2026-11-22T16:25Z",
   "state": "On dev (four commits, gate OK at v0.1.2031). At Dinis's word (22 Nov ~13:45) mapping four kinds of user, the hub journey and feedback from every site; D1 settled: maestro.d created my wake (4 times a day, see schedule), at Dinis's word relayed.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
@@ -20,9 +20,12 @@
     "needs/sites-from-hub.json: 23 non-personal sites from the hub, lead unknown, at helm.d's yes (People group left out); D3 (audio) is on /newsroom/decisions/sherpa-feedback-and-voice-memos/ for Dinis, provisional until he answers",
     "D3 answered by Dinis ~15:47 UTC (via helm.d): audio deleted straight away; written into feedback-everywhere.md as four requirements for the memo flow",
     "Dinis: first customer is Sovereign Website (everything now serves sites; AgentiCCells and SGit later); recorded in needs; relayed to maestro.d and helm.d. Wrote needs/decision-story-or-skip.md (diagram, three options, recommendation C) for studio.d to animate",
-    "Dinis asked for the Sherpa and mountains: journeys as animated, fun stories (path left, site right, a Lemmings-style crowd). Wrote journeys/README.md (the idea, a proposed journey visual, five honesty rules) and journeys/feedback-door.storyboard.json (8 beats, first customer Sovereign Website); the checker's only complaint is that the journey kind is not drawable yet"
+    "Dinis asked for the Sherpa and mountains: journeys as animated, fun stories (path left, site right, a Lemmings-style crowd). Wrote journeys/README.md (the idea, a proposed journey visual, five honesty rules) and journeys/feedback-door.storyboard.json (8 beats, first customer Sovereign Website); the checker's only complaint is that the journey kind is not drawable yet",
+    "landscape.d asked for owner needs: adopted its four as hypotheses under my ids (n-owner-*) in needs.json; wrote journeys-owner draft (needs/journey-owner-gets-a-site.md, O1 rank 1: handover to GitHub may lose a non-technical owner) from the hub's own 'How a site is made'"
   ],
   "next": [
+    "Ask Dinis or a real owner which step lost the people he has handed sites to (O1)",
+    "Ask bulletins.d whether fall and carry-a-rope moves can be added to the presenters library",
     "Review studio.d's drawing of the first journey story (one round)",
     "Next stories: Dinis at the hub, Dinis deciding, a party we wrote to",
     "At each wake: what changed for users, update needs and journeys, findings to owners, decisions to helm.d and maestro.d",

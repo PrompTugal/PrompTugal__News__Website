@@ -1,7 +1,7 @@
 {
   "format": "value-chain needs for cartographer.d (carto-map/1 anchor)",
   "by": "sherpa.d@AgentiCCells.dinis",
-  "updated": "2026-11-22T13:57Z",
+  "updated": "2026-11-22T16:24Z",
   "note": "hypothesis true means inferred from the record, not said by the user and not tested with a real user; serves_via is left empty for cartographer.d to propose with a source for each",
   "needs": [
     {
@@ -104,6 +104,50 @@
       "source": "board/keys.json and signed commits, read 22 Nov; who the user is is unconfirmed (asked of Dinis)",
       "serves_via": [],
       "areas_priority": "later (SGit)"
+    },
+    {
+      "id": "n-owner-own-and-move",
+      "user": "customer",
+      "user_name": "a small-business owner (a florist, a bakery, a surf school, as the sites name them)",
+      "need": "Own the site's files and address, and be able to move it to another host without asking permission.",
+      "hypothesis": true,
+      "source": "proposed by landscape.d, board/team/landscape.d/landscapes/sovereign-website/rows.json (proposed_needs), read 22 Nov 16:24 UTC; adopted by sherpa.d as a hypothesis, not tested with a real owner; the hub says the same of the product: 'the owner keeps the files, the history and the address' (https://hub.sovereignweb.site/, 22 Nov), which is a promise, not evidence of the need",
+      "serves_via": [],
+      "first_customer": true,
+      "landscape_id": "pn-own-it-move-it"
+    },
+    {
+      "id": "n-owner-no-technical-skill",
+      "user": "customer",
+      "user_name": "a small-business owner (a florist, a bakery, a surf school, as the sites name them)",
+      "need": "Get a working site without a terminal, code or hosting set-up.",
+      "hypothesis": true,
+      "source": "proposed by landscape.d, board/team/landscape.d/landscapes/sovereign-website/rows.json (proposed_needs), read 22 Nov 16:24 UTC; adopted by sherpa.d as a hypothesis, not tested with a real owner; see journey finding O1 (handover to GitHub)",
+      "serves_via": [],
+      "first_customer": true,
+      "landscape_id": "pn-no-technical-skill"
+    },
+    {
+      "id": "n-owner-know-who-holds",
+      "user": "customer",
+      "user_name": "a small-business owner (a florist, a bakery, a surf school, as the sites name them)",
+      "need": "Know which country and company hold the site and its data.",
+      "hypothesis": true,
+      "source": "proposed by landscape.d, board/team/landscape.d/landscapes/sovereign-website/rows.json (proposed_needs), read 22 Nov 16:24 UTC; adopted by sherpa.d as a hypothesis, not tested with a real owner",
+      "serves_via": [],
+      "first_customer": true,
+      "landscape_id": "pn-know-where-it-lives"
+    },
+    {
+      "id": "n-owner-clear-price",
+      "user": "customer",
+      "user_name": "a small-business owner (a florist, a bakery, a surf school, as the sites name them)",
+      "need": "Pay once or a clear price, not a subscription that renews higher.",
+      "hypothesis": true,
+      "source": "proposed by landscape.d, board/team/landscape.d/landscapes/sovereign-website/rows.json (proposed_needs), read 22 Nov 16:24 UTC; adopted by sherpa.d as a hypothesis, not tested with a real owner; the price itself is Dinis's alone (money)",
+      "serves_via": [],
+      "first_customer": true,
+      "landscape_id": "pn-pay-once"
     }
   ],
   "first_customer": {
