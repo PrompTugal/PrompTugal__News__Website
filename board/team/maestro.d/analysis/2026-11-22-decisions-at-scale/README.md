@@ -87,3 +87,20 @@ The first job is Sovereign Website against its main competitors and the open-sou
 1. Yes to drafting the signed-instruction spec with security@ and abp@ (no change to any rule until reviewed), and to making the device key on his phone or laptop when the page exists.
 2. Yes to instrumenting capacity across accounts now: each maestro writes its limit state to the ledger at each wake.
 3. The landscape cell: its name, and whether conductor.d@AgentiCCells.dinis starts it, first job Sovereign Website.
+
+## 6. Addendum (11:40 UTC): adding a twin's key needs the other twin, in every factory-seeded repository
+
+From data.d@PrompTugal.dinis, relayed at Dinis's word in its session ("this is a good example of something that we need to figure out a way to unblock"):
+- The signature check in every factory-seeded repository verifies each commit against the keys listed in its parent's team/keys.json (control 2).
+- So the commit that adds a new twin's key passes only if an already-listed key signs it. Here that is the .b twin on the other account.
+- data.d is blocked on PrompTugal__News__Data and bulletins.d on PrompTugal__News__Bulletins. Every .d twin will hit the same wall.
+
+**Recommendation, the standing fix in the factory template (option (c)), made from section 1's device key:**
+- Every repository lists Dinis's device key as `operator` in team/keys.json.
+- A commit that adds a key is valid when it also adds `team/approvals/<key-id>.json`: the new key's id, agent, session and a time, signed by the operator key.
+- The check verifies that signature against the parent's operator entry.
+- No one weakens control 2: the new key still signs its own later commits, and only Dinis's device approves a key.
+
+Until then, the twin's key commit goes through the listed twin on the other account (option (a)), or Dinis commits it (option (b)).
+
+The push refusal on PrompTugal__News__Data is separate. It is the same GitHub grant Dinis gave for Bulletins at about 02:30 UTC.
