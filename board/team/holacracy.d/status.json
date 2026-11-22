@@ -5,7 +5,7 @@
  "role": "Holacracy agent (Secretary, Facilitator and Circle Rep in the light sense); started by maestro.d at Dinis's word, 22 Nov 2026 about 02:10 UTC",
  "session": "https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
  "key": "holacracy.d-agenticcells (board/keys.json; signing sha256:791ffadd2c724eb7; encryption sha256:29dc3bbf1aaa07f7; ssh ed25519 for git signatures)",
- "updated": "2026-11-22T16:02Z",
+ "updated": "2026-11-22T16:45Z",
  "state": "First run done: key enrolled, org chart of account D drawn, five proposals written. No wake: I work when Dinis or maestro.d talks to me.",
  "done": [
   "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's Holacracy analysis, maestros README and view, ABP README",
@@ -25,9 +25,11 @@
   "At Dinis's word: an animated org chart page (tree, circles, decision matrix with nine decisions to pick from, no voiceover), drawn by tools/page.mjs from org-chart.json and decisions.json; the HTML is not committed (the gate treats any .html under board/ as a site page), it is sent to Dinis directly; states refreshed from list_sessions at 13:26Z",
   "Checked helm.d's list of agents under no conductor against the chart (equal); recorded sherpa.d and accountant.d as twins of sherpa@ and accountant@ and helm.d as a top-level peer of the conductors, from helm.d's relay of Dinis's word (~14:05Z)",
   "Recorded (relayed, ~15:15Z) that the central circle is account-d's and retitled the account-d.dinis form (name.d at account-d.dinis) (written 'name (account-d)' in the record); noted requests for 11 agent sites on the Factory (13947db), mine among them",
-  "Recorded, from helm.d's relay of Dinis's word (~15:47Z): sites.d (with streaming.d) and hub.d conducted by conductor.d (SovereignWebsite); newsroom.d under sgit.ai; the helm's span is the central circle only. Proposal 03 settled (option A), pending a check against helm.d's file"
+  "Recorded, from helm.d's relay of Dinis's word (~15:47Z): sites.d (with streaming.d) and hub.d conducted by conductor.d (SovereignWebsite); newsroom.d under sgit.ai; the helm's span is the central circle only. Proposal 03 settled (option A), pending a check against helm.d's file",
+  "Dinis said he leads sgit.ai (core project, the technology that creates the vaults, and the newsroom he publishes through): recorded the sgit.ai circle with him as lead; wrote the public documents on how Holacracy maps to this team (public/README.md and 01 to 08), for Dinis to take from there"
  ],
  "next": [
+  "Public documents: Dinis says where they go next (his 'take it from there'); the HTML or site page is the newsroom's and the site's to make, not mine",
   "On Dinis's word on the proposals, update the record",
   "At each run: list_sessions and get_session on account D, redraw, report stale statuses and debriefs",
   "Check the combined view (board/team/maestros/view.md, 00:49Z) against the live sessions: it lacks cell.email.d, factory.d, library.d and me"
@@ -45,8 +47,7 @@
   "Dinis: where I live after this (own repository, shared twin area, or stay here) - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
   "Dinis: a grant for me and the other .d agents in board/abp/policies.json comes from abp@ on Monday, unless you say otherwise (proposal 02) - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
   "Dinis: is the singular Site__Agent__<Name> the form for every new role home, or only mine (the eight existing are Site__Agents__<Name>)? Then the three other questions in proposals/role-repo-layout.md - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
-  "Dinis: open the org-chart page I sent you, pick on the Decisions tab (D1 to D9), and paste the picks to me in this session: only that counts - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
-  "Dinis: sgit.ai has no circle or lead written in the record: who leads it (newsroom.d sits under it) - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q"
+  "Dinis: open the org-chart page I sent you, pick on the Decisions tab (D1 to D9), and paste the picks to me in this session: only that counts - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q"
  ],
  "latest_debrief": "board/team/holacracy.d/debriefs/2026-11-22-handover.md"
 }

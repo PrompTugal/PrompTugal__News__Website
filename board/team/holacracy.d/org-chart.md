@@ -1,6 +1,6 @@
 # Org chart of account D
 
-Drawn from org-chart.json (2026-11-22T16:00Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
+Drawn from org-chart.json (2026-11-22T16:20Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
 
 ## The parent tree (who started whom)
 
@@ -37,7 +37,7 @@ maestro.d (account-d) [opus, configured sonnet] working, $12.20
 
 ## The circles (who holds what purpose)
 
-- **Dinis's estate (anchor circle)**: lead Dinis; purpose: NOT WRITTEN; fillers: none; sub-circles: maestros, PrompTugal, SovereignWebsite, AgentiCCells, central
+- **Dinis's estate (anchor circle)**: lead Dinis; purpose: NOT WRITTEN; fillers: none; sub-circles: maestros, PrompTugal, SovereignWebsite, AgentiCCells, central, sgit.ai
 - **The maestros**: lead none named (peers); purpose: One combined view of both accounts, one brief to Dinis (board/team/maestros/README.md); fillers: maestro.d, maestro.b (reported)
 - **PrompTugal**: lead conductor.d@PrompTugal (D), conductor.b@PrompTugal.dinis (B, reported); purpose: PrompTugal.news and its sites (CLAUDE.md); fillers: conductor.d@PrompTugal, bulletins.d
 - **SovereignWebsite**: lead conductor.d@SovereignWebsite (D), conductor.b (B, reported); purpose: The SovereignWebsite Factory and its sites; fillers: conductor.d@SovereignWebsite, sites.d, hub.d, design.d, synthetic-users.d, factory.d, library.d; sub-circles: StreamingWebsite
@@ -45,6 +45,7 @@ maestro.d (account-d) [opus, configured sonnet] working, $12.20
 - **AgentiCCells**: lead conductor.d@AgentiCCells (D), conductor.b@AgentiCCells.dinis and cells.b (B, reported); purpose: The AgentiCCells site factory and its cells; fillers: conductor.d@AgentiCCells, cell.email.d; sub-circles: Cell Email
 - **Cell Email**: lead conductor.d@AgentiCCells (by parent); purpose: The email cell; fillers: cell.email.d
 - **Central circle (helm)**: lead helm.d (account-d), a top-level peer of the conductors (relayed); purpose: One place for the global structure and direction of Dinis's estate: where we are, where we go, and what that costs and needs, across every project and account (proposed by helm.d, 13:37Z; not ratified by Dinis) | twins: sherpa.d and accountant.d are twins of the account B roles (relayed); fillers: helm.d, strategy.d, cartographer.d, sherpa.d, accountant.d, counsel.d, decisions.d, studio.d, landscape.d, holacracy.d
+- **sgit.ai**: lead Dinis (his word, in my session, 22 Nov 2026); purpose: Dinis: "one of my core projects. And sgit is the one that creates the vaults and is the underlying technology of all of this. It's also the newsroom that is currently I use to publish a lot of my articles because it really has my voice and it has a lot of good learnings and it works really, really well."; fillers: newsroom.d; sub-circles: 
 
 ## Roles and fillers (account D)
 
@@ -64,7 +65,7 @@ maestro.d (account-d) [opus, configured sonnet] working, $12.20
 | streaming.d (StreamingWebsite) | StreamingWebsite | sites.d | streaming.b? | SovereignWebsite/Site__Tool__Streaming | none | https://claude.ai/code/session_015gaHdbE7t4XNf21L7neufF |
 | conductor.d@AgentiCCells.dinis | AgentiCCells | maestro.d | conductor.b@AgentiCCells.dinis | AgentiCCells/AgentiCCells__Site__Factory | none | https://claude.ai/code/session_015gaHdcaj9Ta2Tke7pnZ3Q9 |
 | cell.email.d@AgentiCCells.dinis | AgentiCCells | conductor.d@AgentiCCells | cell.email.b | AgentiCCells/AgentiCCells__Cell__Email | none | https://claude.ai/code/session_015gaHde7zcTqMyBWcdpdnR6 |
-| newsroom.d (sgit.ai) | newsroom (sgit.ai, not yet a circle in the record) | maestro.d | writer-10 (newsroom.b), reported | SGit-AI/SGit-AI__Website__Newsroom | none seen | https://claude.ai/code/session_015gaHdb5n5RdwdbHzWijPMS |
+| newsroom.d (sgit.ai) | sgit.ai | maestro.d | writer-10 (newsroom.b), reported | SGit-AI/SGit-AI__Website__Newsroom | none seen | https://claude.ai/code/session_015gaHdb5n5RdwdbHzWijPMS |
 | helm.d (account-d) | central (helm) | maestro.d | none yet | SovereignWebsite/Site__Agents__Helm (agent site requested on SovereignWebsite__Factory dev, 13947db, relayed 15:34Z) | none | https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV |
 | strategy.d (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdddd1qVEaY3EG6feEsL |
 | cartographer.d (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH |
