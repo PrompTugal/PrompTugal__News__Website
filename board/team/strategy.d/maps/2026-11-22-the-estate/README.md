@@ -91,3 +91,7 @@ What changes on this map:
 - **The cell buyer (AgentiCCells) and the SGit stack's users move to later hypotheses**, kept on the map but not driving the order of travel.
 - **The detail moves to Map 4** (`../2026-11-22-sovereign-website/`), built on landscape.d's 31 players.
 - **Order of travel:** E1 (the hub) and E2 (feedback) stay first; E3 (one factory) moves up, because every Sovereign Website and every topic site comes out of it; E7 (the next cell) waits.
+
+## v0.2.1 (22:15 UTC): the SGit stack's user
+
+Dinis's Desk answer (voice memo ~17:05 UTC, relayed by helm.d): the SGit stack's user is "anybody who needs a vault". Added as a user (a later hypothesis, after Sovereign Website), anchored on vaults and keys. It answers Map 2's open question and sherpa.d's ask; owner of the area: sites.d, for now.

@@ -1,7 +1,7 @@
 {
   "$comment": "Wardley map as data, by strategy.d@AgentiCCells.dinis, 22 Nov 2026. For cartographer.d to draw and keep; users from sherpa.d's needs (board/team/sherpa.d/needs/). visibility 1 = seen by the user, 0 = deep infrastructure; evolution 0-0.25 genesis, 0.25-0.5 custom, 0.5-0.75 product, 0.75-1 commodity. Positions are judgement; each carries the record it rests on. 'area' names the circle that holds it today.",
   "title": "Dinis's estate: Sovereign Website, AgentiCCells, PrompTugal and the SGit stack",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "drawn": "2026-11-22T15:50Z",
   "status": "draft: not yet reviewed by cartographer.d or sherpa.d; customer rows are hypotheses (sherpa.d)",
   "sources": [
@@ -49,6 +49,13 @@
       "label": "A cell buyer (AgentiCCells)",
       "need": "a ready-made cell of agents for one job, knowing what it may touch and how to stop it (hypothesis)",
       "basis": "sherpa.d needs: hypothesis"
+    },
+    {
+      "id": "vault-user",
+      "label": "Anybody who needs a vault (the SGit stack's user)",
+      "need": "keep data and keys safe, owned and verifiable",
+      "basis": "Dinis, Desk voice memo ~17:05 UTC (relayed by helm.d; board/team/maestro.d/decisions/2026-11-22-voice-memo-18-answers.md)",
+      "priority": "later hypothesis, after Sovereign Website"
     }
   ],
   "components": [
@@ -401,6 +408,14 @@
     [
       "keys",
       "crypto"
+    ],
+    [
+      "vault-user",
+      "vaults"
+    ],
+    [
+      "vault-user",
+      "keys"
     ]
   ],
   "movements": [
@@ -473,7 +488,7 @@
       ]
     }
   ],
-  "revised": "2026-11-22T16:50Z",
+  "revised": "2026-11-22T22:15Z",
   "priority": {
     "first_customer": "Sovereign Website",
     "basis": "Dinis ~16:00-16:18 UTC, recorded by sherpa.d and helm.d (board/team/helm.d/direction.md); relayed to strategy.d",
