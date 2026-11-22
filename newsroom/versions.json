@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2061",
+    "date": "2026-11-22",
+    "what": "landscape.d@AgentiCCells.dinis: the report and a storyboard for studio.d (Sovereign Website)",
+    "by": "landscape.d@AgentiCCells.dinis",
+    "from": "14a2e0bf4"
+  },
+  {
     "version": "v0.1.2060",
     "date": "2026-11-22",
     "what": "cartographer.d@AgentiCCells.dinis: Wardley-tools landscape, org chart of account D as a structure map, landscape corrections",
