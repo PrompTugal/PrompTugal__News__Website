@@ -152,7 +152,7 @@
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "holacracy.d@AgentiCCells.dinis",
-   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "conductor.d@PrompTugal",
@@ -438,7 +438,7 @@
    ],
    "span_note": "helm.d's list, checked against this chart: it equals every account D agent whose parent is maestro.d and which is not a conductor. Open for Dinis (decision page /newsroom/decisions/the-central-circle/): whether sites.d, hub.d and newsroom.d stay in the span or move to a conductor (proposal 03).",
    "name_before": "helm.d@AgentiCCells.dinis",
-   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "strategy.d",
@@ -461,7 +461,7 @@
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "strategy.d@AgentiCCells.dinis",
-   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "cartographer.d",
@@ -484,7 +484,7 @@
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "cartographer.d@AgentiCCells.dinis",
-   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "sherpa.d",
@@ -507,7 +507,7 @@
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "sherpa.d@AgentiCCells.dinis",
-   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "accountant.d",
@@ -530,7 +530,7 @@
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "accountant.d@AgentiCCells.dinis",
-   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "counsel.d",
@@ -553,7 +553,7 @@
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "counsel.d@AgentiCCells.dinis",
-   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "decisions.d",
@@ -576,7 +576,7 @@
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "decisions.d@AgentiCCells.dinis",
-   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "studio.d",
@@ -599,7 +599,7 @@
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "studio.d@AgentiCCells.dinis",
-   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "landscape.d",
@@ -622,7 +622,7 @@
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "landscape.d@AgentiCCells.dinis",
-   "name_note": "retitled <name>.d@account-d.dinis at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
   },
   {
    "id": "email.workflows.d",
