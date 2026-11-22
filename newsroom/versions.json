@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2075",
+    "date": "2026-11-22",
+    "what": "router.c (AgentiCCells): set up on account C: key, ledger tools, account C headroom, vault plan",
+    "by": "router.c (AgentiCCells)",
+    "from": "74122811b"
+  },
+  {
     "version": "v0.1.2074",
     "date": "2026-11-22",
     "what": "decisions.c (AgentiCCells): my key, its QR code for Dinis, and the routers' request and verify tools",
