@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2012",
+    "date": "2026-11-22",
+    "what": "maestro.b (account-b): one writer per account, at Dinis's word",
+    "by": "maestro.b (account-b)",
+    "from": "136d2b2bd"
+  },
+  {
     "version": "v0.1.2011",
     "date": "2026-11-22",
     "what": "maestro.b (account-b): library.d's brief, for conductor.d to start it",
