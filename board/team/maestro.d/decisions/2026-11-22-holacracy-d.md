@@ -9,3 +9,9 @@ Made: holacracy.d@AgentiCCells.dinis, https://claude.ai/code/session_015gaHdeitb
 Dinis: "yes, one repo with a folder per role, AgentiCCells__Team (inside we will have an area for each account (a,b,c,d,...) which will also be great examples of how it will work in practice".
 
 AgentiCCells/AgentiCCells__Team does not exist yet; Dinis creates it (maestro.d cannot create repositories). holacracy.d drafts the layout as a proposal meanwhile.
+
+## One repository per role, and AgentiCCells__Roles (Dinis, about 02:20 to 02:30 UTC)
+
+Dinis: "should it be AgentiCCells/AgentiCCells__Role__Holacracy and AgentiCCells/AgentiCCells__Role__Dev AgentiCCells/AgentiCCells__Role__Conductor AgentiCCells/AgentiCCells__Role__Maestro .... etc..//" Then: "Yes, I agree. I think let's go for all now. And what you can do is create, and we've done this pattern before, you can create a repo call, agentic sales __ roles, and then that is also the one that links for everyone that we have. And that means that every agent here is then connected to one of those role repos, and you will be connected to the maestro role, correct?"
+
+This replaces AgentiCCells__Team. Done the way it was done before (the specialist repositories of 16 Nov): 26 requests in the AgentiCCells Factory, https://github.com/AgentiCCells/AgentiCCells__Site__Factory/pull/53, for Dinis to merge: AgentiCCells__Roles and 25 AgentiCCells__Role__<Name>; the six specialist repositories are linked as their roles' homes. maestro.d's own record moves to AgentiCCells__Role__Maestro (accounts/d/) once it exists.
