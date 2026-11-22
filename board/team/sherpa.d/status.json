@@ -1,5 +1,6 @@
 {
-  "agent": "sherpa.d@AgentiCCells.dinis",
+  "agent": "sherpa.d@PrompTugal.dinis",
+  "name": "sherpa.d@AgentiCCells.dinis",
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",

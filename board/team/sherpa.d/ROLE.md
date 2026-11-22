@@ -1,5 +1,6 @@
 ---
-agent: sherpa.d@AgentiCCells.dinis
+agent: sherpa.d@PrompTugal.dinis
+name: sherpa.d@AgentiCCells.dinis
 focus: the users and their needs in every area, their journeys and where they get lost; the anchor at the top of every map
 writes: board/team/sherpa.d/ (until SovereignWebsite/Site__Agents__Sherpa exists)
 issue: WS-14
