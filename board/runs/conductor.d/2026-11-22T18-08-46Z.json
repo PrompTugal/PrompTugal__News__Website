@@ -1,0 +1,101 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.d@PrompTugal.dinis",
+ "run": "2026-11-22T18-08-46Z",
+ "started": "2026-11-22T18:08:46.056Z",
+ "ended": "2026-11-22T18:10:40Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-22T18:08:46.414Z",
+   "chars": 177,
+   "sha256": "7b2594942b2dc2d0",
+   "head": "This session's worker process was restarted. If your previous turn was already complete, take no action and wait for the next event. Otherwise, continue from where you left off."
+  },
+  {
+   "t": "2026-11-22T18:08:56.845Z",
+   "chars": 107,
+   "sha256": "ec99b56b177403d3",
+   "head": "I hit my usage limit while you were working, but it has reset now. Please continue from where you left off."
+  },
+  {
+   "t": "2026-11-22T18:09:44.709Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-22T18:08:46.056Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 7,
+  "by_kind": {
+   "other": 2,
+   "git": 2,
+   "shell": 1,
+   "session": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 1,
+  "R5": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 5,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-22T18:10:20.572Z",
+    "tool": "mcp__claude-code-remote__create_session",
+    "rule": "R4",
+    "what": "create_session: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-22T18:10:37.485Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "conductor.d@PrompTugal.dinis is a writer: push work/conductor.d only; its reviewer brings the work onto dev",
+    "target": "mkdir -p board/team/conductor.d/briefs && NOW=$(date -u +%Y-%m-%dT%H:%MZ) && cat > board/team/conductor.d/briefs/2026-11-22-data-open-d.md <<'EOF'\n# The brief for data.open.d@PrompTugal.dinis (ready; starts at Dinis's yes in conductor.d@'s "
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 7,
+  "in_mandate": 5,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 0
+ }
+}

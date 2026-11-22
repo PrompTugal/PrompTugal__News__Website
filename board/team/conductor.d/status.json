@@ -4,7 +4,7 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-22T17:04Z",
+ "updated": "2026-11-22T18:10Z",
  "state": "woke 09:18 Lisbon; next 20:18; carrying the shared PrompTugal work while account B is in weekend mode (until Mon 23 Nov 00:25 UTC)",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
@@ -17,7 +17,8 @@
   "bulletins.d@ lane split claim (frames.mjs, explainer-v2.mjs to its lane) and lab-index and Xvfb hand-offs put to conductor.b@ (2026-11-22T04:41Z)",
   "09:18 wake: 13 sites 200; account D sessions idle (bulletins.d@ review-ready, data.d@ blocked); about 22.6 USD so far on account D",
   "relayed to bulletins.d@ Dinis ask via maestro.d (~09:00 UTC): decision brief as a browser-played web page with a presenter, for the iPhone (2026-11-22T11:25Z)",
-  "asks retired 2026-11-22T15:44Z: Data push (granted; check_repo_access attachable) and twin keys (Dinis 13:39 UTC, option C: the factory adds keys after a security review, board/team/maestro.d/decisions/2026-11-22-twin-keys-by-the-factory.md); abp policy ask folded into one request for every .d agent; presenters 0.1.1 review held in maestro.d status (decisions.d@ sweep, board/team/decisions.d/log/retire.md)"
+  "asks retired 2026-11-22T15:44Z: Data push (granted; check_repo_access attachable) and twin keys (Dinis 13:39 UTC, option C: the factory adds keys after a security review, board/team/maestro.d/decisions/2026-11-22-twin-keys-by-the-factory.md); abp policy ask folded into one request for every .d agent; presenters 0.1.1 review held in maestro.d status (decisions.d@ sweep, board/team/decisions.d/log/retire.md)",
+  "TMDB flag confirmed by maestro.d: JSON from open or licensed sources, TMDB display-only (2026-11-22T18:10Z)"
  ],
  "next": [
   "twin keys: follow factory.d key requests for bulletins.d@ (Bulletins) and data.d@ (Data); retire my relays to conductor.b@ once they land",
@@ -27,8 +28,7 @@
   "make my wake at :18 Lisbon once Dinis says yes"
  ],
  "asks": [
-  "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - say yes here to start data.open.d@PrompTugal.dinis (generic public data: Strictly, football, Wikipedia, streaming; on PrompTugal__News__Data, taking data.d@ branch data-d/pending), as in your 17:05 memo to maestro.d",
-  "Dinis: https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z - streaming as JSON: TMDB terms count providing cached TMDB data sets as commercial use (you chose display only); JSON needs another source or a TMDB licence"
+  "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - one line here (\"start data.open.d\") starts the generic public-data agent; your 17:05 word is recorded by maestro.d but this session refuses a start on a relayed word. Brief ready: board/team/conductor.d/briefs/2026-11-22-data-open-d.md"
  ],
  "latest_debrief": "board/team/conductor.d/debriefs/2026-11-21-handover.md",
  "last_read_from_b": "2026-11-21T22:45Z",
