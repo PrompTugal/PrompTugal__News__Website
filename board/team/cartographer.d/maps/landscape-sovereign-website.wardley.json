@@ -5,11 +5,11 @@
  "status": "draft",
  "title": "Landscape: sovereign-website, rings 1, 2, 3, 4",
  "version": "0.1.0",
- "made": "2026-11-22T18:10Z",
+ "made": "2026-11-22T18:38Z",
  "made_by": "cartographer.d@AgentiCCells.dinis",
  "for": "landscape.d and strategy.d (what it means); the players are landscape.d's findings, the positions are my reading",
  "sources_read": {
-  "landscape": "board/team/landscape.d/landscapes/sovereign-website/rows.json (landscape-rows/1, made 2026-11-22T16:45Z), read 22 Nov 2026; each row's facts and URLs are in landscape.json beside it",
+  "landscape": "board/team/landscape.d/landscapes/sovereign-website/rows.json (landscape-rows/1, made 2026-11-22T18:40Z), read 22 Nov 2026; each row's facts and URLs are in landscape.json beside it",
   "cartographer": "cartographer.d's reading: where each group of players stands on visibility and evolution, and the gap. A judgement, not a measurement; strategy.d may move any node with a reason"
  },
  "draw": {
@@ -76,9 +76,9 @@
    "group": "builder",
    "visibility": 0.86,
    "evolution": 0.58,
-   "flagged": true,
+   "flagged": false,
    "source": "landscape",
-   "evidence": "Drag-and-drop builder for showcase sites, blogs and shops, 50+ themes, AI-assisted creation (read via search snippet; page body did not load). Price: Tiers: free (1 page, no custom domain, ads), Lite (6 pages, 15 GB), Pro (unlimited pages, 50 GB, e-commerce); currency and billing period not found; included free with a hosting plan.. https://www.infomaniak.com/en/create-a-website/site-creator (read 2026-11-22); flagged for re-read by landscape.d"
+   "evidence": "Drag-and-drop builder for showcase sites, blogs and shops, 50+ themes, AI-assisted creation (read via search snippet; page body did not load). Price: Tiers: free (1 page, no custom domain, ads), Lite (6 pages, 15 GB), Pro (unlimited pages, 50 GB, e-commerce); currency and billing period not found; included free with a hosting plan.. https://www.infomaniak.com/en/create-a-website/site-creator (read 2026-11-22)"
   },
   {
    "id": "sw-p-saldiabuild",
@@ -128,9 +128,9 @@
    "group": "builder",
    "visibility": 0.74,
    "evolution": 0.82,
-   "flagged": true,
+   "flagged": false,
    "source": "landscape",
-   "evidence": "Drag-and-drop builder with templates, AI site generation, hosting, domain, ecommerce and marketing tools, 14-day free trial. Price: USD, paid over 48 months: Premium $1.99/mo (renews $10.99), Unlimited $2.79 (renews $16.99), Cloud Startup $7.99 (renews $25.99); 30-day money-back.. https://www.hostinger.com/website-builder (read 2026-11-22); flagged for re-read by landscape.d"
+   "evidence": "Drag-and-drop builder with templates, AI site generation, hosting, domain, ecommerce and marketing tools, 14-day free trial. Price: USD, paid over 48 months: Premium $1.99/mo (renews $10.99), Unlimited $2.79 (renews $16.99), Cloud Startup $7.99 (renews $25.99); 30-day money-back.. https://www.hostinger.com/website-builder (read 2026-11-22)"
   },
   {
    "id": "sw-p-framer",
@@ -206,9 +206,9 @@
    "group": "engine",
    "visibility": 0.14,
    "evolution": 0.63,
-   "flagged": true,
+   "flagged": false,
    "source": "landscape",
-   "evidence": "Static site engine as one executable with Sass and syntax highlighting built in. Price: software free (see licence fact); hosting and any AI key cost extra. https://www.getzola.org/ (read 2026-11-22); flagged for re-read by landscape.d"
+   "evidence": "Static site engine as one executable with Sass and syntax highlighting built in. Price: software free (see licence fact); hosting and any AI key cost extra. https://www.getzola.org/ (read 2026-11-22)"
   },
   {
    "id": "sw-p-wordpress",
@@ -325,7 +325,7 @@
    "evolution": 0.82,
    "flagged": true,
    "source": "landscape",
-   "evidence": "UNREAD: every Webflow page failed to load; its band and position come from general knowledge, not from landscape.d's reading. Pricing page failed to load (parse error, two URLs tried); no price read. Price: not found on the page read. https://webflow.com/pricing (read 2026-11-22); flagged for re-read by landscape.d"
+   "evidence": "Re-read by landscape.d: US dollar prices, US processing stated, proprietary; code-export pages returned 403 or a challenge, so export is unverified (no reading either way); stays faint. Its band and position are my reading. Hosted site plans on an AI-native visual platform; free Starter tier, paid Basic and Premium site plans Price: US dollars: Basic $15 a month, Premium $25, billed yearly; Team $2,500 a month annual. https://webflow.com/pricing (read 2026-11-22); flagged for re-read by landscape.d"
   },
   {
    "id": "sw-p-lovable",
@@ -440,9 +440,9 @@
    "group": "host",
    "visibility": 0.03,
    "evolution": 0.6,
-   "flagged": true,
+   "flagged": false,
    "source": "landscape",
-   "evidence": "Free plan limits: 500 builds a month, one build at a time, 20-minute build timeout, 20,000 files per site, 25 MiB per file, 100 custom domains per project; bandwidth limit not mentioned. Price: not read. https://developers.cloudflare.com/pages/platform/limits/ (read 2026-11-22); flagged for re-read by landscape.d"
+   "evidence": "Free plan limits: 500 builds a month, one build at a time, 20-minute build timeout, 20,000 files per site, 25 MiB per file, 100 custom domains per project; bandwidth limit not mentioned. Price: not read. https://developers.cloudflare.com/pages/platform/limits/ (read 2026-11-22)"
   },
   {
    "id": "sw-p-github-pages",
@@ -767,6 +767,18 @@
   {
    "from": "n-owner-know-who-holds",
    "to": "sw-p-squarespace",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "n-owner-no-technical-skill",
+   "to": "sw-p-webflow",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "n-owner-know-who-holds",
+   "to": "sw-p-webflow",
    "type": "lacks",
    "source": "landscape"
   },
