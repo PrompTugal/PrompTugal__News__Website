@@ -4,8 +4,8 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-22T04:41Z",
- "state": "waking at 09:18 and 20:18 Lisbon (trig_01RfD3JkiLcx92jsphygDHab); carrying the shared PrompTugal work while account B is in weekend mode (until Mon 23 Nov 00:25 UTC)",
+ "updated": "2026-11-22T09:19Z",
+ "state": "woke 09:18 Lisbon; next 20:18; carrying the shared PrompTugal work while account B is in weekend mode (until Mon 23 Nov 00:25 UTC)",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
   "key conductor.d-promptugal made in this session and published in board/keys.json, commits signed",
@@ -14,7 +14,8 @@
   "relayed Dinis guidance 2026-11-22-twins-do-not-talk-across to bulletins.d@ (send_message, 2026-11-22T01:43Z)",
   "at Dinis word (~02:23 UTC): wake made (trig_01RfD3JkiLcx92jsphygDHab); data.d@PrompTugal.dinis started https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z; abp@ asked for board/abp/conductor.d.md (sealed inbox abp-b + relay via conductor.b@)",
   "bulletins.d@ unblocked (push access granted by Dinis); its key on branches bulletins-d/key and bulletins-d/keys-json relayed to conductor.b@ for bulletins.b@ (2026-11-22T02:30Z)",
-  "bulletins.d@ lane split claim (frames.mjs, explainer-v2.mjs to its lane) and lab-index and Xvfb hand-offs put to conductor.b@ (2026-11-22T04:41Z)"
+  "bulletins.d@ lane split claim (frames.mjs, explainer-v2.mjs to its lane) and lab-index and Xvfb hand-offs put to conductor.b@ (2026-11-22T04:41Z)",
+  "09:18 wake: 13 sites 200; account D sessions idle (bulletins.d@ review-ready, data.d@ blocked); about 22.6 USD so far on account D"
  ],
  "next": [
   "check at each wake that bulletins.b@ has listed bulletins.d@ key in the Bulletins repo team/keys.json",
@@ -36,7 +37,8 @@
    "repo": "PrompTugal/PrompTugal__News__Bulletins",
    "started": "2026-11-21T22:52Z",
    "schedule": "none",
-   "state": "llvmpipe and explainer done on branch bulletins-d/llvmpipe-explainer (6 signed commits); waits on its key being listed to reach dev"
+   "state": "llvmpipe and explainer done on branch bulletins-d/llvmpipe-explainer (6 signed commits); waits on its key being listed to reach dev",
+   "cost_usd": 19.33
   },
   {
    "agent": "data.d@PrompTugal.dinis",
@@ -44,7 +46,8 @@
    "repo": "PrompTugal/PrompTugal__News__Data",
    "started": "2026-11-22T02:24Z",
    "schedule": "none",
-   "state": "onboarded; key and status committed locally; blocked on push (403) and on a listed key to add its key"
+   "state": "onboarded; key and status committed locally; blocked on push (403) and on a listed key to add its key",
+   "cost_usd": 3.3
   }
  ],
  "wake": {

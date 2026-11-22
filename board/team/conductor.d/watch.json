@@ -35,6 +35,12 @@
    "at": "2026-11-22T04:41Z",
    "account": "D",
    "note": "bulletins.d@ llvmpipe+explainer on branch; lane claim to conductor.b@"
+  },
+  {
+   "at": "2026-11-22T09:19Z",
+   "account": "D",
+   "sites": "13/13 up; promptugal.news v0.1.2023",
+   "note": "bulletins.d@ review-ready (waits on key); data.d@ blocked (403, key route); ~22.6 USD"
   }
  ]
 }
