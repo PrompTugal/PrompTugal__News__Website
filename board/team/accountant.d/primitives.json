@@ -1,0 +1,363 @@
+{
+ "agent": "accountant.d@AgentiCCells.dinis",
+ "version": "0.1",
+ "written": "2026-11-22T13:45Z",
+ "rules": [
+  "Measured from records, never transcripts.",
+  "Dollars are API-equivalent, not money paid; the real limit is each account's usage limit.",
+  "A role may add its own domain primitive by a commit to this file's domain group, named owner.name.",
+  "Budgets only after the data is trusted; this file defines what is measured, not a limit."
+ ],
+ "groups": {
+  "common": "every agent",
+  "governance": "Dinis's decisions, requests, policy",
+  "domain": "defined by each role"
+ },
+ "gaps": [
+  "pulls, hosts called and sub-agent counts need a field in abp.mjs run-report (abp@ owns it; proposed, not requested by me)",
+  "get_session reaches only account D's own sessions; account B comes as its files report it, marked 'reported'",
+  "git history reaches this repository; the SovereignWebsite and AgentiCCells repositories are outside my GitHub scope, so their commits come from their agents' reports"
+ ],
+ "primitives": [
+  {
+   "name": "cost_usd_api_equivalent",
+   "group": "common",
+   "unit": "USD (API-equivalent, not money paid)",
+   "how_measured": "cumulative usage.cost_usd per session; day spend = reading minus the day's baseline reading",
+   "source": "get_session usage.cost_usd",
+   "emitted_by": "platform, per session",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "output_tokens",
+   "group": "common",
+   "unit": "tokens",
+   "how_measured": "cumulative usage.output_tokens; delta per day",
+   "source": "get_session usage.output_tokens",
+   "emitted_by": "platform",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "input_tokens",
+   "group": "common",
+   "unit": "tokens",
+   "how_measured": "cumulative usage.input_tokens",
+   "source": "get_session usage.input_tokens",
+   "emitted_by": "platform",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "cache_read_tokens",
+   "group": "common",
+   "unit": "tokens",
+   "how_measured": "cumulative; shows the cost of waking a large context",
+   "source": "get_session usage.cache_read_tokens",
+   "emitted_by": "platform",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "cache_write_tokens",
+   "group": "common",
+   "unit": "tokens",
+   "how_measured": "cumulative",
+   "source": "get_session usage.cache_write_tokens",
+   "emitted_by": "platform",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "context_used_tokens",
+   "group": "common",
+   "unit": "tokens (of max 1,000,000)",
+   "how_measured": "point reading; predicts the cost of the next wake",
+   "source": "get_session external_metadata.context_usage",
+   "emitted_by": "platform",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "model",
+   "group": "common",
+   "unit": "model id",
+   "how_measured": "last_served_model against configured_model; flags sessions switched to a dearer model",
+   "source": "get_session",
+   "emitted_by": "platform",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "sessions_open",
+   "group": "common",
+   "unit": "count",
+   "how_measured": "list_sessions grouped by status_bucket (working, blocked, review_ready, completed, failed)",
+   "source": "list_sessions",
+   "emitted_by": "platform",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "blocked_share",
+   "group": "common",
+   "unit": "ratio",
+   "how_measured": "blocked sessions over open sessions; capacity idle waiting on Dinis",
+   "source": "list_sessions status_bucket",
+   "emitted_by": "platform",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "wakes",
+   "group": "common",
+   "unit": "count per day",
+   "how_measured": "scheduled-task firings per agent",
+   "source": "list_triggers last_run (not allowed to this role: read via board/schedule.json and run reports)",
+   "emitted_by": "scheduler",
+   "status": "partly: schedule.json only",
+   "note": "Dinis's no-schedule rule for me; I only read."
+  },
+  {
+   "name": "commits",
+   "group": "common",
+   "unit": "count per agent per repo per day",
+   "how_measured": "git log, author identity from the Agent trailer or subject prefix",
+   "source": "git history; this repo directly, other repos via GitHub read tools where in scope",
+   "emitted_by": "each agent",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "pushes",
+   "group": "common",
+   "unit": "count per agent per repo per day",
+   "how_measured": "commits that reach dev (CI 'site vX.Y.Z' rows name the agent in the subject)",
+   "source": "git log on dev",
+   "emitted_by": "each agent",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "pulls",
+   "group": "common",
+   "unit": "count",
+   "how_measured": "not recorded by git; counted from run reports where the agent states it",
+   "source": "board/runs/<role>/*.json",
+   "emitted_by": "each agent via abp.mjs run-report",
+   "status": "needs a field",
+   "note": "Proposal: abp@ adds pulls to the run report."
+  },
+  {
+   "name": "files_changed",
+   "group": "common",
+   "unit": "files, lines added, lines removed per agent per day",
+   "how_measured": "git log --numstat",
+   "source": "git history",
+   "emitted_by": "each agent",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "hosts_called",
+   "group": "common",
+   "unit": "distinct hosts and call count",
+   "how_measured": "from the agent's run report network field",
+   "source": "board/runs/<role>/*.json",
+   "emitted_by": "each agent via run-report",
+   "status": "needs a field",
+   "note": "Network is the proxy's knowledge; only the run report can carry it without reading transcripts."
+  },
+  {
+   "name": "sub_agents",
+   "group": "common",
+   "unit": "count per run",
+   "how_measured": "run report field",
+   "source": "board/runs/<role>/*.json",
+   "emitted_by": "each agent via run-report",
+   "status": "needs a field",
+   "note": ""
+  },
+  {
+   "name": "tool_calls_by_kind",
+   "group": "common",
+   "unit": "count",
+   "how_measured": "run report (abp.mjs run-report)",
+   "source": "board/runs/<role>/*.json",
+   "emitted_by": "abp@ hook",
+   "status": "as reported by abp@",
+   "note": ""
+  },
+  {
+   "name": "decisions_asked",
+   "group": "governance",
+   "unit": "count per day, per owner",
+   "how_measured": "decision records created",
+   "source": "board/team/*/decisions/ and content/newsroom/decisions/",
+   "emitted_by": "each owner",
+   "status": "measurable now (this repo)",
+   "note": ""
+  },
+  {
+   "name": "decisions_answered",
+   "group": "governance",
+   "unit": "count per day",
+   "how_measured": "records carrying Dinis's answer",
+   "source": "same",
+   "emitted_by": "conductors, maestros",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "decision_wait_time",
+   "group": "governance",
+   "unit": "hours from asked to answered; open ones as age now",
+   "how_measured": "timestamps in the decision record",
+   "source": "same",
+   "emitted_by": "derived by me",
+   "status": "measurable once records carry both stamps",
+   "note": "Waiting on Dinis is the scarcest capacity of all; today it is read from post_turn_summary needs_action as a proxy."
+  },
+  {
+   "name": "asks_open_for_dinis",
+   "group": "governance",
+   "unit": "count and age",
+   "how_measured": "status.json asks starting 'Dinis:' plus get_session post_turn_summary.needs_action",
+   "source": "board/team/*/status.json; get_session",
+   "emitted_by": "each agent",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "requests_issued",
+   "group": "governance",
+   "unit": "count per agent per day",
+   "how_measured": "signed requests/messages sent to other agents",
+   "source": "board/inboxes/*.json and run reports",
+   "emitted_by": "each agent",
+   "status": "measurable for the inbox part",
+   "note": ""
+  },
+  {
+   "name": "abp_violations",
+   "group": "governance",
+   "unit": "count per agent per day, by rule",
+   "how_measured": "ABP hourly reports; logged out-of-grant calls",
+   "source": "board/abp/reports/, board/runs/abp/",
+   "emitted_by": "abp@",
+   "status": "measurable now (observe mode logs, does not block)",
+   "note": ""
+  },
+  {
+   "name": "abp_refusals",
+   "group": "governance",
+   "unit": "count",
+   "how_measured": "denials in enforce mode",
+   "source": "board/abp/reports/",
+   "emitted_by": "abp@",
+   "status": "zero by design while in observe mode",
+   "note": ""
+  },
+  {
+   "name": "security_findings",
+   "group": "governance",
+   "unit": "count by severity, open and closed",
+   "how_measured": "security@ reports",
+   "source": "board/team/security/",
+   "emitted_by": "security@",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "hold_events",
+   "group": "governance",
+   "unit": "count, minutes held",
+   "how_measured": "board/HOLD.md written and deleted",
+   "source": "git history of board/HOLD.md",
+   "emitted_by": "security@, Dinis",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "articles_published",
+   "group": "domain",
+   "unit": "count",
+   "how_measured": "content/articles files with status published",
+   "source": "this repo",
+   "emitted_by": "journalist@",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "pages_released",
+   "group": "domain",
+   "unit": "count",
+   "how_measured": "CI release rows by agent",
+   "source": "git log 'site vX.Y.Z'",
+   "emitted_by": "dev roles",
+   "status": "measurable now",
+   "note": ""
+  },
+  {
+   "name": "sources_read",
+   "group": "domain",
+   "unit": "count",
+   "how_measured": "run report field defined by researcher roles",
+   "source": "board/runs/",
+   "emitted_by": "researcher roles",
+   "status": "defined by owner",
+   "note": ""
+  },
+  {
+   "name": "sites_created",
+   "group": "domain",
+   "unit": "count",
+   "how_measured": "registry of sites",
+   "source": "sites registry",
+   "emitted_by": "sites.d, factory.d",
+   "status": "defined by owner",
+   "note": ""
+  },
+  {
+   "name": "briefings_made",
+   "group": "domain",
+   "unit": "count",
+   "how_measured": "bulletins produced",
+   "source": "bulletins repo",
+   "emitted_by": "bulletins.d",
+   "status": "defined by owner",
+   "note": ""
+  },
+  {
+   "name": "emails_drafted_vs_sent",
+   "group": "domain",
+   "unit": "count",
+   "how_measured": "drafts made; sends are by a person only",
+   "source": "email cell records",
+   "emitted_by": "email.* roles",
+   "status": "defined by owner",
+   "note": ""
+  },
+  {
+   "name": "design_rounds",
+   "group": "domain",
+   "unit": "count and score per round",
+   "how_measured": "design.d and synthetic-users.d rounds",
+   "source": "SovereignWebsite design repo",
+   "emitted_by": "design.d, synthetic-users.d",
+   "status": "defined by owner",
+   "note": ""
+  },
+  {
+   "name": "rate_limit_status",
+   "group": "common",
+   "unit": "status, type, resetsAt, isUsingOverage",
+   "how_measured": "point reading per account; the real constraint (seven-day limit; five-hour seen here)",
+   "source": "get_session external_metadata.rate_limit_info",
+   "emitted_by": "platform, per account",
+   "status": "measurable now",
+   "note": "Account D shows five_hour only so far; seven_day not exposed in these readings."
+  }
+ ]
+}
