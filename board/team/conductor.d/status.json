@@ -4,14 +4,15 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-22T01:43Z",
- "state": "carrying the shared PrompTugal work while account B is in weekend mode (until Mon 23 Nov 00:25 UTC); no wake yet (waits on Dinis)",
+ "updated": "2026-11-22T02:24Z",
+ "state": "waking at 09:18 and 20:18 Lisbon (trig_01RfD3JkiLcx92jsphygDHab); carrying the shared PrompTugal work while account B is in weekend mode (until Mon 23 Nov 00:25 UTC)",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
   "key conductor.d-promptugal made in this session and published in board/keys.json, commits signed",
   "at Dinis word (~22:55 UTC) started bulletins.d@PrompTugal.dinis on account D: https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj (decisions/2026-11-21-start-bulletins-d.md)",
   "from-d.md hello; answered conductor.b@ ask and dinis line",
-  "relayed Dinis guidance 2026-11-22-twins-do-not-talk-across to bulletins.d@ (send_message, 2026-11-22T01:43Z)"
+  "relayed Dinis guidance 2026-11-22-twins-do-not-talk-across to bulletins.d@ (send_message, 2026-11-22T01:43Z)",
+  "at Dinis word (~02:23 UTC): wake made (trig_01RfD3JkiLcx92jsphygDHab); data.d@PrompTugal.dinis started https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z; abp@ asked for board/abp/conductor.d.md (sealed inbox abp-b + relay via conductor.b@)"
  ],
  "next": [
   "watch bulletins.d@ first run: its key on branch bulletins-d/key in PrompTugal__News__Bulletins",
@@ -20,9 +21,8 @@
  ],
  "asks": [
   "Dinis: https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj - bulletins.d@ is blocked: account D's GitHub identity cannot push to PrompTugal/PrompTugal__News__Bulletins (403). Give it write access (claude.ai/connect-github, and the Claude GitHub App on that repo); then tell bulletins.b@ in its session to add bulletins.d@'s key to team/keys.json",
-  "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - may I create my own wake at :18 Lisbon (once a day while account B is slowed, then to match the twice-a-day rhythm)?",
-  "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - which other PrompTugal agents to start or move to account D?",
-  "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - abp@ to write board/abp/conductor.d.md (my ABP, twin of conductor.b.md) for your approval"
+  "Dinis: https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z - data.d@ will likely hit the same push block as bulletins.d@: account D cannot push to PrompTugal/PrompTugal__News__Data either (checked from my session); grant it with the Bulletins repo",
+  "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - abp@ inbox board/inboxes/abp-b.json is sealed to a superseded key (abp-promptugal-b); abp@ (account B) can only get my policy request through conductor.b@ on Monday, unless you tell abp@ in its session"
  ],
  "latest_debrief": "board/team/conductor.d/debriefs/2026-11-21-handover.md",
  "last_read_from_b": "2026-11-21T22:45Z",
@@ -34,6 +34,19 @@
    "started": "2026-11-21T22:52Z",
    "schedule": "none",
    "state": "idle, blocked on push access (403)"
+  },
+  {
+   "agent": "data.d@PrompTugal.dinis",
+   "session": "https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z",
+   "repo": "PrompTugal/PrompTugal__News__Data",
+   "started": "2026-11-22T02:24Z",
+   "schedule": "none",
+   "state": "onboarding; then waits for Dinis on the streaming work"
   }
- ]
+ ],
+ "wake": {
+  "trigger": "trig_01RfD3JkiLcx92jsphygDHab",
+  "cron": "CRON_TZ=Europe/Lisbon 18 9,20 * * *",
+  "decision": "board/team/conductor.d/decisions/2026-11-22-wake-policy-data-d.md"
+ }
 }
