@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T17:31Z",
-  "state": "Onboarded; wake hourly at :33; seven sessions started on account C (conductor.c, observability.c, chiswick-cheese-market.d, factory.c, mistral.c, accountant.c, hub.c); B and D at their limits",
+  "updated": "2026-11-22T17:36Z",
+  "state": "17:33 wake: account C allowed (five-hour resets ~20:10 UTC); 7 sessions, 2 working, 5 waiting on Dinis; the Factory key merge unblocks most of them",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -21,8 +21,11 @@
     "Relay the new sessions' first asks (key merges in the Factory) to Dinis"
   ],
   "asks": [
+    "Dinis: yes to factory.c's merge plan (fast-forward Factory dev to work/factory.c, merge the four key branches) and choose mistral.c's key route - https://claude.ai/code/session_01Kw9UwFQ86g2ZeXQ2edTAjh",
+    "Dinis: hub.c asks which sites stay off the hub, Latest as front page or second, whether agent names may show, push to the Hub's dev - https://claude.ai/code/session_01Kw9UwBNK6JRSRJ7P7LftYD",
+    "Dinis: Mistral API key for the environment, and the 2 USD first cap - https://claude.ai/code/session_01Kw9UwDHBL8ucvbqmv38Bkz",
     "Dinis: merge the account C keys in the Factory (conductor.c's work/conductor.c-key, observability.c's 788d3b9; factory.c prepares them together) - https://claude.ai/code/session_01Kw9UwBwGEprxNQqNtSbzyj",
-    "Dinis: chiswick-cheese-market.d runs on account C now; does the account D session stop? And it asks what changes you want on the site - https://claude.ai/code/session_01Kw9UwCvCX638VWVq9UPXsN",
+    "Dinis: chiswick-cheese-market.c (renamed at your word in its session): does the account D .d session stop? - https://claude.ai/code/session_01Kw9UwCvCX638VWVq9UPXsN",
     "Dinis: the feedback lanes' receiver is feedback.b (SovereignWebsite), on account B and paused; start feedback.c on account C? - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
     "Dinis: start a routing agent (router.c), or let accountant.c design it first? - https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz",
     "Dinis: conductor.C (PromptTugal.news, 15 Nov) and the Lisbon Fringe sessions on account C ask to disable their scheduled tasks and be archived; yes? - https://claude.ai/code/session_01Kw9UwCYBhphU7zuMN4Dr6Y",
