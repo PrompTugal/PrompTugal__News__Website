@@ -1,0 +1,27 @@
+{
+ "about": "Account C snapshot by accountant.c@AgentiCCells.dinis: get_session metadata only (status, model, context size, usage, rate_limit_info); no transcript was read. Cost is API-equivalent USD as get_session reports it: a yardstick for comparing sessions, not money paid (the account is a fixed-price seat).",
+ "at": "2026-11-22T17:22Z",
+ "account": "C",
+ "five_hour_window": {"status": "allowed", "resets_utc": "2026-11-22T20:10Z", "overage": false},
+ "weekly_percent": null,
+ "weekly_note": "not readable by a session; Dinis gives it by hand",
+ "models_in_use": {"claude-opus-5-5": "every session on the account; no Sonnet, Haiku or third-party model runs here today"},
+ "scheduled": [
+  {"trigger": "trig_01SiYSbRvnk9Vp5pSWdLTDRc", "what": "maestro.c wake", "cadence": "hourly at :33", "model": "session default (Opus 5.5, effort medium)", "since": "2026-11-22T17:15Z"},
+  {"trigger": "trig_01Dqi53Bzf6iVEh11bf89TnS", "what": "conductor.C@PrompTugal.news wake", "cadence": "hourly at :13", "model": "Opus 5.5", "since": "2026-11-15", "note": "the session's own summary asks for this task to be disabled and the session archived (it has no job); still fired at 17:14Z"},
+  {"trigger": "trig_015AohEMex7enfhArKu2kTBQ", "what": "a cowork inbox session's self-booked run (RM @inbox)", "cadence": "every 2 h, rebooked by the run itself (next 18:23Z)", "model": "Opus 5.5, effort medium", "note": "outside this repository's teams; the dominant cost on account C"}
+ ],
+ "sessions": [
+  {"name": "RM @inbox (cowork)", "state": "idle, review_ready", "context_k": 285, "api_equiv_usd_lifetime": 1502.92, "output_tokens": 5212328, "scheduled": true},
+  {"name": "conductor.C@PrompTugal.news", "id": "session_01Kw9UwCYBhphU7zuMN4Dr6Y", "state": "blocked: asks to be stopped", "context_k": 240, "api_equiv_usd_lifetime": 94.47, "output_tokens": 66040, "scheduled": true},
+  {"name": "observability.c (SovereignWebsite)", "id": "session_01Kw9UwBmqCafJ2NtqhQPQwu", "state": "blocked on Dinis", "context_k": 118, "api_equiv_usd_lifetime": 1.45, "scheduled": false},
+  {"name": "conductor.c (SovereignWebsite)", "id": "session_01Kw9UwBwGEprxNQqNtSbzyj", "state": "blocked on Dinis", "context_k": 116, "api_equiv_usd_lifetime": 1.42, "scheduled": false},
+  {"name": "chiswick-cheese-market.d (on C)", "id": "session_01Kw9UwCvCX638VWVq9UPXsN", "state": "blocked on Dinis", "context_k": 90, "api_equiv_usd_lifetime": 0.49, "scheduled": false},
+  {"name": "maestro.c", "id": "session_01Kw9UwEYkVCthc5KiVo3bAp", "state": "working", "context_k": 90, "api_equiv_usd_lifetime": 0.42, "scheduled": true},
+  {"name": "mistral.c (SovereignWebsite)", "id": "session_01Kw9UwDHBL8ucvbqmv38Bkz", "state": "working (first turn)", "api_equiv_usd_lifetime": 0, "scheduled": false},
+  {"name": "factory.c (SovereignWebsite)", "id": "session_01Kw9UwFQ86g2ZeXQ2edTAjh", "state": "working (first turn)", "api_equiv_usd_lifetime": 0, "scheduled": false},
+  {"name": "accountant.c (this session)", "id": "session_01Kw9UwEkLVQY1oruMpEJkWz", "state": "working", "note": "a session cannot read its own usage", "scheduled": false}
+ ],
+ "dormant": "about 40 older sessions (the book team, cold-read, iOS .B team, Lisbon Fringe), all idle with their wakes disabled: no spend",
+ "totals": {"api_equiv_usd_lifetime_read": 1601.17, "share_rm_inbox": "93.9%", "share_conductor_C": "5.9%", "share_new_account_c_team": "0.2%"}
+}

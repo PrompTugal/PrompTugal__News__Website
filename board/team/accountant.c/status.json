@@ -1,0 +1,28 @@
+{
+ "agent": "accountant.c@PrompTugal.dinis",
+ "name": "accountant.c@AgentiCCells.dinis (account C)",
+ "focus": "costs, usage limits and model routing for account C; the guard that stops any account maxing out; measures, reports and proposes, stops nothing",
+ "session": "https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz",
+ "key": "accountant.c-account-c (board/keys.json; encryption sha256:db0739023e73f480, signing sha256:460cf5ac58adf6de)",
+ "updated": "2026-11-22T17:30Z",
+ "state": "first run: key enrolled, account C snapshot, guard proposal and model-routing table written. No scheduled wake (none without Dinis's word). The status schema accepts only @PrompTugal.dinis in 'agent'; the name field carries the real identity.",
+ "done": [
+  "Read CLAUDE.md, guidance README (twins rule of 22 Nov), accountant.d's status, debrief, finance README, ledgers, accounts.json, proposals; maestros README and view",
+  "Key accountant.c-account-c made in this session; entry and ssh half in board/keys.json, signed commit",
+  "snapshots/2026-11-22T1722Z.json and reports/2026-11-22-first-snapshot.md: 1,601 API-equivalent lifetime on C, 94% one cowork inbox run, all Opus",
+  "finance/capacity-ledger-c.json (account C rows, accountant.d's format)",
+  "proposals.md: the guard (levels Green/Amber/Red/Stop, who acts), model routing with quality measures, Mistral first moves, the routing agent's design"
+ ],
+ "next": [
+  "A reading at each maestro.c wake if Dinis allows it as my trigger; else when Dinis talks to me",
+  "With mistral.c: credit, prices, first workflow (translation, no-news wake check)",
+  "First A/B: one job on Opus and Sonnet (or Mistral), results in finance/routing-results.json"
+ ],
+ "asks": [
+  "Dinis: https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz - standing rule for the guard: may maestro.c slow or pause account C's wakes at the Amber/Red/Stop levels in proposals.md without asking each time (each change recorded and told to you)?",
+  "Dinis: https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz - account C's weekly percent now, by hand ('account C, weekly n%')",
+  "Dinis: https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz - disable conductor.C@PrompTugal.news's hourly wake (trig_01Dqi53Bzf6iVEh11bf89TnS, no job, 240k context); and move the cowork inbox run (94% of C's spend, 285k context every 2 h) off Opus for its checks or compact it",
+  "Dinis: https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz - Mistral credit amount and expiry, and yes or no to translation as the first workflow moved there"
+ ],
+ "debrief": "board/team/accountant.c/debriefs/2026-11-22-handover.md"
+}

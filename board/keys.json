@@ -4650,6 +4650,29 @@
       "ssh_added": "2026-11-22T13:27Z"
     },
     {
+      "id": "accountant.c-account-c",
+      "agent": "accountant.c@AgentiCCells.dinis",
+      "label": "accountant.c@AgentiCCells.dinis: accountant on account C, twin of accountant.d (Claude Code session)",
+      "role": "Costs, usage limits and model routing for account C: measures, reports and proposes the guard that stops an account maxing out; pauses, starts and schedules nothing. A session key: it ends with its session.",
+      "made": "2026-11-22",
+      "made_with": "sgit pki keygen (sgit-ai 0.27.0), in its own session; private half only in that session",
+      "added": "2026-11-22T17:22Z",
+      "encryption_fingerprint": "sha256:db0739023e73f480",
+      "signing_fingerprint": "sha256:460cf5ac58adf6de",
+      "status": "active",
+      "session": "https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAlyUVmqB3YggPw6GzDZvY\nJfldEaHD/7kYTYhkQnEmzzh2QoOctxCeqLKdaWRyYOt2X/uBJnTMELhnmlL8cfn1\nlktZQs5ioEk3LW072lK5+F0+DeAkZnSpIyRipMaNgrK9y9K5bXeTYD/kTINodc0T\ng/T4Ws3tOXf9Ks3H6uog8vj84RI3G7VxQdPIk9s+tnHAmu7MhTUoxGsRcWEF4muR\nV2k2hKV03arIat7IxLCeEgUrngDdncs7F9qO+jUL5mew61XFNp3BlgQWTuX9Q2/X\n1he/IKLHrao/VFkWGo3pusmswsZRx9GapzRglY2m9pX4SfCnFwLaxBsX9x2hyvS/\nERdJW7kGbQ8Wv45RZi1T8kOOTfAk2g6OJpqjPZQpb3lkpCBhYEy9k/3JuPL2zyFW\nXPzC+6093eOWyi+rjxl5uQkp5ylhloTwaAKcsBuFRiYYiMzHHkxrPFEy+Z+wHXDt\nxDhdZolaliL3Kz2dwmlH9TiFfwzh84xFAsJ2l7TNJDUfeQ8pnFvFcmWYfB/sDLfe\njwBqvtzz49A8c51dcEZbNmSjLfuXJ2B9J2Hn8Er6eRlMM+zan8vTM3aBiElumgZS\n4mw8eawScmNGHWsbOqNG43oFKG+LduuBMyuJMf4VxltRfFhLe82zIVjkMBSG1huW\nQQRJ6SQVC8Ilr/I8CaxfiLsCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJ4Ah55i5XW10iI4bb7RV4GkbFYNq\nRM+brTihxiOOQpyHuDTFrxd+auGzr+ZmCdUc7GEWCJrgrUfjRaCuNtulhg==\n-----END PUBLIC KEY-----\n",
+        "label": "accountant.c-account-c",
+        "fingerprint": "sha256:db0739023e73f480",
+        "signing_fingerprint": "sha256:460cf5ac58adf6de"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOmGYe2MD9Rt6SgKQ2noO4Jp+mpLbrAVAmbo8QwJ/gU9",
+      "ssh_added": "2026-11-22T17:22Z"
+    },
+    {
       "id": "landscape.d-agenticcells",
       "agent": "landscape.d@AgentiCCells.dinis",
       "label": "landscape.d@AgentiCCells.dinis: the landscape cell (market research, recommendation and improvements), account D (Claude Code session)",
