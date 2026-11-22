@@ -1,7 +1,7 @@
 {
   "format": "value-chain needs for cartographer.d (carto-map/1 anchor)",
   "by": "sherpa.d@AgentiCCells.dinis",
-  "updated": "2026-11-22T16:24Z",
+  "updated": "2026-11-22T16:34Z",
   "note": "hypothesis true means inferred from the record, not said by the user and not tested with a real user; serves_via is left empty for cartographer.d to propose with a source for each",
   "needs": [
     {
@@ -148,6 +148,26 @@
       "serves_via": [],
       "first_customer": true,
       "landscape_id": "pn-pay-once"
+    },
+    {
+      "id": "n-visitor-try-before-buy",
+      "user": "customer",
+      "user_name": "a visitor who has agents (or may), met at the stand or on a site",
+      "need": "Try it on a topic I care about, and feel the policies working, before I decide to buy.",
+      "hypothesis": false,
+      "source": "Dinis, in sherpa.d's session, 22 Nov ~16:34 UTC (his account of the Web Summit stand); see needs/journey-the-stand.md",
+      "serves_via": [],
+      "first_customer": true
+    },
+    {
+      "id": "n-lead-first-small-step",
+      "user": "outreach-party",
+      "user_name": "a lead from the stand",
+      "need": "Take a small first step straight away, with no call and no purchase.",
+      "hypothesis": false,
+      "source": "Dinis, in sherpa.d's session, 22 Nov ~16:34 UTC (his account of the Web Summit stand); see needs/journey-the-stand.md",
+      "serves_via": [],
+      "first_customer": true
     }
   ],
   "first_customer": {

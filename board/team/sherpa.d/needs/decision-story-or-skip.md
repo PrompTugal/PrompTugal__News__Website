@@ -38,3 +38,9 @@ His own use: which stories he plays to the end, which he skips, which decision h
 
 ## Caveat
 This is my reading of his words and the two pages; it is not a test with him, and the diagram is a sketch, not a design.
+
+## Answered (Dinis, in sherpa.d's session, 22 Nov ~16:34 UTC)
+
+"Yes, I agree. Routine decisions, not decision ... routine, open-ended decision. Yeah, I agree." (speech to text; I read it as **option C**: routine decisions open on the decision; his reserved ones play the story first.) And on the format: "It's a path, a crowd on the side behind it. I like that ... with the journey, let's experiment."
+
+What follows: the reserved marker (J4) is now needed by every brief; maestro.d and bulletins.d apply C to the decision briefs; the journey format is approved as an experiment, not a commitment.

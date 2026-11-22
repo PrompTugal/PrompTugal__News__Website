@@ -4,7 +4,7 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-22T16:31Z",
+  "updated": "2026-11-22T16:35Z",
   "state": "On dev (four commits, gate OK at v0.1.2031). At Dinis's word (22 Nov ~13:45) mapping four kinds of user, the hub journey and feedback from every site; D1 settled: maestro.d created my wake (4 times a day, see schedule), at Dinis's word relayed.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
@@ -23,12 +23,15 @@
     "Dinis asked for the Sherpa and mountains: journeys as animated, fun stories (path left, site right, a Lemmings-style crowd). Wrote journeys/README.md (the idea, a proposed journey visual, five honesty rules) and journeys/feedback-door.storyboard.json (8 beats, first customer Sovereign Website); the checker's only complaint is that the journey kind is not drawable yet",
     "landscape.d asked for owner needs: adopted its four as hypotheses under my ids (n-owner-*) in needs.json; wrote journeys-owner draft (needs/journey-owner-gets-a-site.md, O1 rank 1: handover to GitHub may lose a non-technical owner) from the hub's own 'How a site is made'",
     "bulletins.d answered: yes to fall, rope (a prop, the largest piece), pull-up and a crowd of twenty (copies of the 12 designs), as presenters library 0.2.0; none started; it needs Dinis to put it in the order of its work; about 1,100 draw calls for twenty on a phone, twice the time per frame in software render; lower detail even for distant walkers would need Dinis",
-    "Reviewed studio.d's journey player on my first story (built locally, phone and desktop, no errors, no sideways scroll): it works and the labels hold; the scene is small (about 170 px wide on a 1280 px screen), walkers read as a row of trees, the site panel is a text line not a page; fixed my own count at the summit (here 18 not 20)"
+    "Reviewed studio.d's journey player on my first story (built locally, phone and desktop, no errors, no sideways scroll): it works and the labels hold; the scene is small (about 170 px wide on a 1280 px screen), walkers read as a row of trees, the site panel is a text line not a page; fixed my own count at the summit (here 18 not 20)",
+    "Dinis answered in my session: story-or-skip is C (routine decisions open on the decision), the journey format is approved as an experiment. Then told the stand journey (impressed visitors, no first step, the chasm, the bridge: a Sovereign Website on a topic they like where they feel the policies): wrote needs/journey-the-stand.md (C1 rank 1), two new needs (n-visitor-try-before-buy, n-lead-first-small-step) and journeys/stand-chasm.storyboard.json (8 beats, checker ok)"
   ],
   "next": [
+    "Review studio.d's drawing of stand-chasm and of the first story with the bigger scene",
+    "Map the owner and the visitor as the two users of a Sovereign Website for landscape.d",
+    "Propose a real test: ask a handful of people from the stand, through Dinis, what they would have done if a site had been there to try",
     "Ask Dinis or a real owner which step lost the people he has handed sites to (O1)",
     "Ask bulletins.d whether fall and carry-a-rope moves can be added to the presenters library",
-    "Review studio.d's drawing of the first journey story (one round)",
     "Next stories: Dinis at the hub, Dinis deciding, a party we wrote to",
     "At each wake: what changed for users, update needs and journeys, findings to owners, decisions to helm.d and maestro.d",
     "Add the value-chain shape cartographer.d asks for",
@@ -37,8 +40,6 @@
     "Re-read the hub on a phone with Playwright if the grant allows"
   ],
   "asks": [
-    "Dinis: play the story first, or open on the decision? An animation is coming from studio.d (source needs/decision-story-or-skip.md; I recommend C, by kind of decision) - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
-    "Dinis: is the journey story (a path, a crowd, the site beside it, the Sherpa's help) the right way to tell users' journeys? A recommendation is in the storyboard, option A - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
     "Dinis: do you want presenters library 0.2.0 (fall, rope, pull-up, crowd of twenty) put in bulletins.d's order of work? My recommendation: not yet. studio.d's own walkers already play the first story; decide after you have seen it and said yes to the format. Lower detail for distant walkers is yours to allow - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL"
   ],
   "latest_debrief": null,

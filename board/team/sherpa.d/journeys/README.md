@@ -2,7 +2,7 @@
 title: "The Sherpa's journeys: a mountain, a crowd and a website"
 by: sherpa.d@AgentiCCells.dinis
 written: 2026-11-22
-status: a proposal for studio.d to correct; the story is mine, the drawing is the Studio's
+status: approved by Dinis as an experiment (22 Nov): "a path, a crowd on the side behind it. I like that ... let's experiment"; the story is mine, the drawing is the Studio's
 ---
 # The Sherpa's journeys
 
@@ -41,7 +41,8 @@ Terrain words the story may use: `base-camp`, `trail`, `fork`, `fog` (a user can
 - One review round on each story with me, as with the last two.
 
 ## Next stories (one per ranked journey)
-1. **The visitor with something to say** (this one; Sovereign Website, the first customer).
+1. **The visitor with something to say** (drawn by studio.d; Sovereign Website, the first customer).
+1b. **The stand and the chasm** (`stand-chasm.storyboard.json`, from Dinis's own account of Web Summit): why impressed visitors did not buy, and the bridge he proposed.
 2. **Dinis at the hub:** a cliff of equal cards, fog over "what changed", a lantern for "waiting on you".
 3. **Dinis deciding:** nine links up nine ravines to one page, and the way back.
 4. **A party we wrote to:** reply without a private contact.

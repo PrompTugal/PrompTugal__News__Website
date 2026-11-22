@@ -1,0 +1,62 @@
+{
+  "format": "studio-storyboard/0",
+  "slug": "sherpa-journey-stand-chasm",
+  "title": "The stand, and the chasm after it: why impressed visitors did not buy",
+  "audience": "Dinis: his own account of the Web Summit stand told as a journey, ending in the bridge he proposed (a site on a topic the visitor likes, where they feel the policies); he can say whether it is the story to build the first Sovereign Websites around",
+  "requested_by": "sherpa.d@AgentiCCells.dinis",
+  "summary": "Visitors walk past the stand, are impressed by the agents and their policies, and are shown the price points, then reach a chasm: nothing small to do next. Dinis's bridge is a Sovereign Website on a topic they like, where they experiment and then feel the policies. The crowd is illustrative; the account is his, not measured.",
+  "beats": [
+    {
+      "id": "b1",
+      "narration": "Web Summit, 9 to 12 November. Tons of people came to the stand, and they liked it. This is the journey you described, told as a climb. The crowd is a sketch, and the account is yours, not a measurement.",
+      "visual": { "kind": "journey", "stop": "base-camp", "walkers": { "start": 20, "here": 20, "fell": 0, "through": 0, "basis": "illustrative" }, "site": { "shows": "The stand: a screen showing a galaxy of our agents at work" }, "sherpa": "", "note": "Twenty synthetic walkers. The right panel is the stand's screen, drawn as a simple wireframe of a galaxy of dots." },
+      "facts": ["s1"]
+    },
+    {
+      "id": "b2",
+      "narration": "They walk by and see the galaxy. Ooh, what is that? We tell them it is all our agents working, and they say, interesting.",
+      "visual": { "kind": "journey", "stop": "trail", "walkers": { "start": 20, "here": 20, "fell": 0, "through": 0, "basis": "illustrative" }, "site": { "shows": "The galaxy of agents; one dot highlighted" }, "sherpa": "", "note": "Walkers slow down and look up." },
+      "facts": ["s1"]
+    },
+    {
+      "id": "b3",
+      "narration": "Then comes why it holds. The agents work because of the risk policies that keep them under control. Ooh, that is cool. They ask what the policies are, and we explain the mandate and the grant.",
+      "visual": { "kind": "journey", "stop": "hut", "walkers": { "start": 20, "here": 20, "fell": 0, "through": 0, "basis": "illustrative" }, "site": { "shows": "Two cards side by side: mandate and grant, in Dinis's words only" }, "sherpa": "Listens and notes where they say ooh", "note": "Do not define the mandate or the grant beyond what Dinis said; show the two words only." },
+      "facts": ["s1"]
+    },
+    {
+      "id": "b4",
+      "narration": "If you have agents, we can help you control them. We even show the full price points. They are impressed. This is the high point of the climb.",
+      "visual": { "kind": "journey", "stop": "cliff", "walkers": { "start": 20, "here": 20, "fell": 0, "through": 0, "basis": "illustrative" }, "site": { "shows": "The price points, on the stand's screen" }, "sherpa": "", "note": "A cliff edge: the walkers are at the top step, looking across." },
+      "facts": ["s1"]
+    },
+    {
+      "id": "b5",
+      "narration": "Then we got stuck. A lot of good leads, but nobody bought directly. There was no small thing to do straight away, and nowhere to try the policies. A chasm, with no bridge across.",
+      "visual": { "kind": "journey", "stop": "ravine", "walkers": { "start": 20, "here": 20, "fell": 0, "through": 0, "basis": "illustrative" }, "site": { "shows": "Nothing to click: no next step on the stand's screen" }, "sherpa": "Names the gap: no first step, no place to experiment", "note": "They do not fall: they wait at the edge, interested and stuck. The only non-illustrative fact here is Dinis's: nobody bought directly. Show it as his words." },
+      "facts": ["s1"]
+    },
+    {
+      "id": "b6",
+      "narration": "Now the bridge you proposed. Do you like football? Do you want to know about CVEs? Almost any topic. A Sovereign Website on something they already care about, where they come in and experiment.",
+      "visual": { "kind": "journey", "stop": "bridge", "walkers": { "start": 20, "here": 20, "fell": 0, "through": 20, "basis": "illustrative" }, "site": { "shows": "A topic site: a football page, a CVE page, a few cards of what they could explore (a sketch, not built)" }, "sherpa": "Lays the first plank: a topic they like", "note": "Walkers cross, some towards football, some towards CVEs. A sketch labelled proposal." },
+      "facts": ["s1", "s2"]
+    },
+    {
+      "id": "b7",
+      "narration": "They say, ooh, I really like that. And then they experience the policies at hand, on a site they chose. Having felt it, the next step to buy is a small one, and we have a way to let them take it.",
+      "visual": { "kind": "journey", "stop": "summit", "walkers": { "start": 20, "here": 20, "fell": 0, "through": 20, "basis": "illustrative" }, "site": { "shows": "The same topic site, with its policies visible and in use" }, "sherpa": "Walks back down to bring the next crowd up", "note": "The happy ending is a sketch of what Dinis wants, not a result." },
+      "facts": ["s1", "s2"]
+    },
+    {
+      "id": "b8",
+      "narration": "A caution. This is your account of what you saw, not a measurement, and the crowd is illustrative. What the mandate and the grant are is not described here beyond your words. The real test is to ask some of the people who came.",
+      "visual": { "kind": "title", "text": "His account, not a measurement. Not tested with real visitors." },
+      "facts": ["s1"]
+    }
+  ],
+  "sources": [
+    { "id": "s1", "title": "sherpa.d: the stand and the chasm (Dinis's own account, 22 November)", "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/sherpa.d/needs/journey-the-stand.md", "read": "2026-11-22" },
+    { "id": "s2", "title": "sherpa.d: the Sherpa's journeys (format and honesty rules)", "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/sherpa.d/journeys/README.md", "read": "2026-11-22" }
+  ]
+}
