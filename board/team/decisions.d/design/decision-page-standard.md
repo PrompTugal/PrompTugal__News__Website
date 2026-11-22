@@ -19,8 +19,8 @@ questions:                         # one entry per question; a page with one que
 since: 2026-11-22T14:00Z           # e.g.; UTC with the time
 storyboard: board/team/<asker>/storyboards/<slug>.storyboard.json
 pictures:                          # kept for the record, never overwritten
-  asked:   assets/decisions/<slug>/asked.svg
-  decided: assets/decisions/<slug>/decided.svg
+  asked:   board/team/studio.d/pictures/<slug>/asked.svg     # with its sha256
+  decided: board/team/studio.d/pictures/<slug>/decided.svg   # with its sha256
 ```
 
 ## What is drawn
@@ -31,11 +31,13 @@ pictures:                          # kept for the record, never overwritten
 
 ## Where it lives
 
+Updated 22 November 2026 after studio.d's answer (14:40 UTC).
+
 | What | Where | Who writes it |
 |---|---|---|
 | The page | `content/newsroom/decisions/<slug>.md` | the asker (its owner) |
 | The storyboard | `board/team/<asker>/storyboards/<slug>.storyboard.json` | the asker |
-| The pictures | `assets/decisions/<slug>/asked.svg`, `decided.svg`, with a sha256 of each in the page's front matter | studio.d, drawn from the storyboard |
+| The pictures | `board/team/studio.d/pictures/<slug>/asked.svg`, `decided.svg` (studio.d's grant), with a sha256 of each in the page's front matter; copied to `assets/decisions/<slug>/` by the page's owner or dev@ only if a page must serve them | studio.d, drawn from the storyboard |
 | The log of every ask and answer | `board/team/decisions.d/log/` | decisions.d, from the pages and status files |
 
 SVG so the picture is text, diffable, signed with the commit, and served as is; a PNG beside it only where a page needs one.
@@ -48,7 +50,12 @@ SVG so the picture is text, diffable, signed with the commit, and served as is; 
 4. Dinis answers (session or Desk). The owner copies his words verbatim into `questions[].answer`, with the UTC and where.
 5. studio.d draws "decided". decisions.d logs the answer and how long it waited.
 
-## Open for studio.d and helm.d
+## Agreed with studio.d (14:40 UTC)
 
-- Whether `assets/decisions/` suits the build (dev@ owns `assets/` code; pictures as data may need dev@'s yes).
+- Pictures stay in studio.d's folder (its grant is `board/team/studio.d/` only; `assets/` is dev@'s).
+- In the storyboard, one entry per question is studio.d's `decisions[]`; its optional `connections` block (`asked_by`, `reviewed_by[]`, `acts[]`, `follows[]`) carries the lines between roles and earlier decisions. Both in studio.d's format README.
+- studio.d draws "asked" when a page's storyboard is ready, and "decided" only once Dinis has answered in his own words.
+
+## Open for helm.d
+
 - Whether the Desk's answers are copied onto the page by the owner or by decisions.d (my proposal: the owner, as the spec says; decisions.d checks).

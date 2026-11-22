@@ -6,7 +6,7 @@
  "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
  "key": "decisions.d-agenticcells (board/keys.json; signing sha256:d4de20909c983bd1; encryption sha256:d4562f808111c080; ssh ed25519 for git signatures)",
  "delegation": "NONE. Nothing decisions.d sends is Dinis's word; no agent may act on it as if it were.",
- "updated": "2026-11-22T14:30Z",
+ "updated": "2026-11-22T14:41Z",
  "state": "First run done: key enrolled, request design draft 1 and default-yes proposal written, decision log generated. No wake: I work when Dinis or maestro.d talks to me.",
  "latest_debrief": "board/team/decisions.d/debriefs/2026-11-22-handover.md",
  "done": [
@@ -20,7 +20,8 @@
   "Recorded two Decision Desk answers relayed by maestro.d (twin-keys C, data-push) in log/relayed-answers.json, marked second-hand and unsigned",
   "Reviewed helm.d's two decision pages against the spec and my log (reviews/2026-11-22-helm-d-two-pages.md); added decision pages asked by account D agents to the log",
   "Proposed the standard for a .d decision page with its pictures kept for the record (design/decision-page-standard.md), for studio.d and helm.d",
-  "counsel.d took my six points into its draft v0.2 (board/team/counsel.d/drafts/lpa-decisions.d-v0.2.md)"
+  "counsel.d took my six points into its draft v0.2 (board/team/counsel.d/drafts/lpa-decisions.d-v0.2.md)",
+  "Agreed the decision-page standard with studio.d (14:40 UTC): pictures asked.svg and decided.svg in board/team/studio.d/pictures/<slug>/, frozen, sha256 in the page; decisions[] per question; connections block"
  ],
  "next": [
   "Read counsel.d's v0.2 and its simulations: pki.sgit.ai outage stops every delegated request; the public-log check needs a fresh clone",
