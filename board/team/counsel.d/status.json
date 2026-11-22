@@ -5,19 +5,20 @@
   "role": "Counsel of Dinis's central circle, account D, led by helm.d; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
   "key": "counsel.d-agenticcells (board/keys.json; signing sha256:d5ad2c2d0e7821cb; encryption sha256:bdadaf77de8d1b7d; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T14:19Z",
-  "state": "Draft v0.2 of the limited delegation to decisions.d (after decisions.d's six points): principal named by pki.sgit.ai anchor sha256:db7f79fdd87e030a, signing is pki.sgit.ai's operates link, revocation checked there and fails closed, P1 and P2 only. Unreviewed by models (no budget line). No wake.",
+  "updated": "2026-11-22T15:34Z",
+  "state": "v0.2 simulated on paper (8 scenarios, 8 gaps: simulations/2026-11-22-v0.2-tabletop.md); v0.3 next. Unreviewed by models (no budget line). Name in the repo stays counsel.d@AgentiCCells.dinis until the gate accepts account-d.dinis; home repository not moved into until helm.d says. No wake.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's power-of-attorney and decisions-at-scale (sections 1, 6, 7), board/person-keys.json, rights@'s status, newsroom.sgit.ai's lawyers-in-the-loop",
     "Key counsel.d-agenticcells made in this session and published in board/keys.json, commits signed",
     "drafts/lpa-decisions.d-v0.1.md: P1 to P3 powers, X1 to X10 exclusions, duration, D1 to D7 duties, revocation, receivers' checks, register",
     "Gate OK on the full history (the shallow clone made an old commit look like it changed every file); run report filed",
     "14:06 UTC: maestro.d says P3, expiry and suspension, jurisdiction and the principal key go on your Decision Desk; draft path sent to maestro.d for decisions.d",
-    "14:30 UTC: v0.2 from decisions.d's points; its pki.sgit.ai claims checked at the source (anchor record, operates/operated-by links, revocation statements; read 14:20 UTC)"
+    "14:30 UTC: v0.2 from decisions.d's points; its pki.sgit.ai claims checked at the source (anchor record, operates/operated-by links, revocation statements; read 14:20 UTC)",
+    "15:40 UTC: tabletop simulations of v0.2: revocation, out of scope, stolen key, Dinis unreachable, replay, twin, pki.sgit.ai down, stale clone; gaps G1 to G8"
   ],
   "next": [
-    "Simulations against v0.2: revocation, act out of scope, stolen attorney key, Dinis unreachable, replay, a twin claiming the delegation, pki.sgit.ai unreachable (fail closed), a receiver with a stale clone of dev",
-    "Independent checks of v0.2 by three models from two providers once accountant.d sets a budget line",
+    "v0.3 with G1, G2 and G5 to G8",
+    "Independent checks of v0.3 by three models from two providers once accountant.d sets a budget line",
     "A powers-section template for the ABPs (for abp@, through maestro.d)"
   ],
   "asks": [
@@ -25,7 +26,9 @@
     "Dinis: is pki.sgit.ai's anchor record dinis.cruz, sha256:db7f79fdd87e030a, a key only you hold (made on your own device)? v0.2 names it as the principal; nothing is signed until you confirm (on your Decision Desk via maestro.d) - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: v0.1 proposes expiry at most 7 days and suspension after 72 hours without a sign of life from you; your numbers? - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: which jurisdiction, if any, a real lawyer would later be asked about is yours alone; nothing is assumed until you say - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
-    "Dinis: there is no board/abp/counsel.d.md yet, so the ABP hook counts my writes to my own folder board/team/counsel.d/ as outside my grant (4 logged breaches in board/runs/counsel.d-dinis/); abp@ is on account B until Monday 23 Nov; until then I write only in that folder, as maestro.d's brief says - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6"
+    "Dinis: there is no board/abp/counsel.d.md yet, so the ABP hook counts my writes to my own folder board/team/counsel.d/ as outside my grant (4 logged breaches in board/runs/counsel.d-dinis/); abp@ is on account B until Monday 23 Nov; until then I write only in that folder, as maestro.d's brief says - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
+    "Dinis: a stolen attorney key is seen fastest if you are alerted on every request decisions.d issues, not daily (simulation S3, gap G3): how do you want that alert? - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
+    "Dinis: v0.2 suspends the delegation after 72 hours without a sign of life from you, which also stops adopted defaults while you travel; keep that, or sign a travel variant for named pages (S4, G4)? - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6"
   ],
   "debrief": "board/team/counsel.d/debriefs/2026-11-22-handover.md"
 }
