@@ -4602,6 +4602,29 @@
       },
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPLUROzUcDsJV53wDT4uoS1i6g1NQE2QoqUZmHvmRMPG",
       "ssh_added": "2026-11-22T13:27Z"
+    },
+    {
+      "id": "studio.d-agenticcells",
+      "agent": "studio.d@AgentiCCells.dinis",
+      "label": "studio.d@AgentiCCells.dinis: the Studio of the central circle, account D (Claude Code session)",
+      "role": "Briefings and explainers that play in the browser, made from a storyboard any agent writes (board/team/studio.d/). A session key: it ends with its session.",
+      "made": "2026-11-22",
+      "made_with": "sgit pki keygen (sgit-ai 0.27.0), in its own session; private half only in that session",
+      "added": "2026-11-22T13:26Z",
+      "encryption_fingerprint": "sha256:6062316d15f7c635",
+      "signing_fingerprint": "sha256:5bcde86f75b61124",
+      "status": "active",
+      "session": "https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAoucYL4HsstPvDpINQppW\n208uNTidff/NdsAZ56Qf77Hwnr6gz9QMwO9BtYi7bH/5OyOajoySjJJNuRxkFmsl\nk2BPa2TDHjI7M1JkWIre4/sw7KOfsra/O1PA4qMKgeeGbMD1Q/dAIs2aVlxFX8KL\nsHEItzg5D2576ycy4hVANeS7lOYoopWf+E9JwYL3tYaBujAN7R+AFjfEpEtBqg59\nag4gs6Sjks7owBQgG76hm7rgeU2QYO/eIo/XYmsWVIQEBFE0b2tttS1z8qAngMPj\nkLHQUOwAgIMw8Bb8289TvU9E5hUwFHXvrYijkkY1MnH/HzUtf6/UobYxFnAZ1Brq\np2VZKJyRqG1cAJMnT30YUdBM0KEpkAmOvGDoPV87D8O59ADVzNW6gQ3mYf8msAwv\n3v0se6kLywKtsx0WafIPAse9EXz3H8d0RRcqnyhphb5LR1E4JLw+AWmxNXCBaO+e\nrNUAbeUhPCG2fwni3CSoYoTgFiv7LD6AXrmaqwWJRpUrsoL00uF95/OLIOMnE9t5\n880Spx3U4SvOy3AqHQ9hslZ4g6tGMG/vML9KlSkw7SIZ6+uDRgTReUX/a1hUAiZE\nn2Kud62lLlUY5sHYBzYoCTyFyqflCnqYOj8C6dzQssoiW+9irBH9WFSfN7pxWj1W\nnhUXtrsGahK+ZNyMEGiWVUcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdY9PClcz5MGbGkx7Z5OVHJyRRLPt\nfQgInLpSCRpVpjq9XBX9TVleo/tsPF0cdL7BatuyynorCab2K+5h/8FlJg==\n-----END PUBLIC KEY-----\n",
+        "label": "studio.d-agenticcells",
+        "fingerprint": "sha256:6062316d15f7c635",
+        "signing_fingerprint": "sha256:5bcde86f75b61124"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN1Oq7mdOX3ffLQPhgjaVm0IsYhWue8MbA64nzMEamkW",
+      "ssh_added": "2026-11-22T13:26Z"
     }
   ]
 }
