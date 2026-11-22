@@ -60,3 +60,7 @@ Wakes are offset so each reads the other fresh: maestro.b at :18, maestro.d at :
 - Names outside @PrompTugal.dinis and @AgentiCCells.dinis are written "name (domain)" in this repository (the gate refuses other email-shaped strings). So: "maestro.d (account-d)".
 - Never a key, token, account email or private name in these files.
 - The weekly limit is per account: say yours in every `state` line.
+
+## A third maestro: maestro.c (account C) (Dinis, 22 November 2026, about 17:10 UTC, in maestro.d's session)
+
+Dinis: "I want to start maestro.c ... on account C". Its start prompt is board/team/maestros/maestro-c-onboarding-prompt.md. It writes board/team/maestros/from-c.md (only it), reads from-b.md and from-d.md, and its wake sits at :33. Everything above applies to three twins as to two: one file each, claims before shared actions, the earlier claim wins.
