@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2013",
+    "date": "2026-11-22",
+    "what": "holacracy.d@AgentiCCells.dinis: status agent in the schema's form",
+    "by": "holacracy.d@AgentiCCells.dinis",
+    "from": "a51aa05b5"
+  },
+  {
     "version": "v0.1.2012",
     "date": "2026-11-22",
     "what": "maestro.b (account-b): one writer per account, at Dinis's word",
