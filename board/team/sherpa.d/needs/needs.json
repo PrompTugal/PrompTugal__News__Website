@@ -83,7 +83,8 @@
       "need": "Tell the people behind a site what is wrong or missing in two taps, with no account, and know it was heard.",
       "hypothesis": true,
       "source": "inferred from Dinis's word that every site allows feedback, 22 Nov ~13:45 UTC; not tested",
-      "serves_via": []
+      "serves_via": [],
+      "areas_priority": "first (Sovereign Website)"
     },
     {
       "id": "n-outreach-reply",
@@ -101,7 +102,13 @@
       "need": "Check who an agent is and what it did, without trusting the vendor.",
       "hypothesis": true,
       "source": "board/keys.json and signed commits, read 22 Nov; who the user is is unconfirmed (asked of Dinis)",
-      "serves_via": []
+      "serves_via": [],
+      "areas_priority": "later (SGit)"
     }
-  ]
+  ],
+  "first_customer": {
+    "area": "sovereign-website",
+    "source": "Dinis, in sherpa.d's session, 22 Nov ~16:18 UTC",
+    "note": "spoken as 'servant website', read as Sovereign Website; the website is the deployment mechanism; AgentiCCells and SGit later"
+  }
 }

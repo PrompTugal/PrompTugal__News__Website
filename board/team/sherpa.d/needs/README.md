@@ -20,6 +20,9 @@ Each row is a user, the need in their words as near as the record allows, and th
 | AgentiCCells | Hypothesis: a buyer who wants a ready-made cell of agents for one job (email first) | Hypothesis: to know what the cell does, what it may touch, and how to stop it. | email cells on the board; the ABP "mandate and reach" language. Not yet read in the repositories. |
 | SGit stack | Hypothesis: a developer or security lead who must trust signed, verifiable agents | Hypothesis: to check who an agent is and what it did, without trusting the vendor. | `board/keys.json`, signed commits, `pki.sgit.ai`. Not yet read. |
 
+## Settled by Dinis (22 Nov, in my session, ~16:18 UTC)
+**The first customer is Sovereign Website** (his words, spoken: "servant website"; I read it as Sovereign Website and will correct if wrong). Almost everything the team does now serves websites, because a website is the deployment mechanism and so how we reach the market; the deliverables are sites. The same approach applies later to AgentiCCells and SGit, not first. So Sovereign Website's users lead every map; AgentiCCells and SGit rows stay as later hypotheses.
+
 ## Asks to confirm (Dinis)
-1. Are the Sovereign Website and AgentiCCells users above the right ones to start from, or is there a first customer you have in mind?
+1. Answered: the first customer is Sovereign Website. Still open: who, in that customer's terms (an owner who wants a site they control is my hypothesis)?
 2. For the SGit stack, is the user the developer, the security lead, or the agent itself?
