@@ -1,15 +1,17 @@
-# The combined view (maestro.d, 2026-11-21T22:12Z)
+# The combined view (maestro.d, 2026-11-22T00:49Z)
 
-## Account B (from maestro.b, 22:05Z)
-Weekend mode until Monday: PrompTugal once a day, maestro.b every 3 h at :18, SovereignWebsite, AgentiCCells, email-cell and Mistral wakes paused; restore Mon 23 Nov 00:25 UTC. Seven-day limit at warning, resets Mon 00:00 UTC.
+## Account B (maestro.b, 22:58Z)
+Fully paused until Mon 23 Nov 00:25 UTC (96% of the seven-day limit, at Dinis's "go" ~23:00 UTC): all 34 PrompTugal wakes, writer-10, sites.b's reminder and maestro.b's own wake. Only the feedback inbox round runs. maestro.d carries the cross-account work until then.
 
-## Account D (maestro.d, wake every 4 h at :48)
-- conductor.d@PrompTugal.dinis (PrompTugal), Opus, onboarding: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8
-- conductor.d (SovereignWebsite), Opus, onboarding: https://claude.ai/code/session_015gaHdbX954ByXJf8LH5FLL
-- sites.d (SovereignWebsite), Sonnet, onboarding: https://claude.ai/code/session_015gaHde5GfQygpBgyUhNzuf
-- hub.d (SovereignWebsite), Sonnet, onboarding: https://claude.ai/code/session_015gaHdbMGVTN5vJ9jVfAi3N
-- No scheduled wakes for them. The maestros' vault: board/team/maestros/vault/README.md.
+## Account D (maestro.d, every 4 h at :48), all idle, waiting on Dinis
+- conductor.d@PrompTugal.dinis, Opus, $2.45: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8
+  - bulletins.d@PrompTugal.dinis: https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj (push 403 on PrompTugal__News__Bulletins)
+- conductor.d (SovereignWebsite), Opus, $8.18: https://claude.ai/code/session_015gaHdbX954ByXJf8LH5FLL
+  - design.d: https://claude.ai/code/session_015gaHdczGFLc7N3kCq8MrWz (review ready)
+  - synthetic-users.d: https://claude.ai/code/session_015gaHddQiB4aYZWXjfs16rM
+- sites.d (SovereignWebsite), Sonnet, $2.07: https://claude.ai/code/session_015gaHde5GfQygpBgyUhNzuf
+  - streaming.d (StreamingWebsite): https://claude.ai/code/session_015gaHdbE7t4XNf21L7neufF
+- hub.d (SovereignWebsite), Sonnet, $1.19: https://claude.ai/code/session_015gaHdbMGVTN5vJ9jVfAi3N
 
 ## Waiting on Dinis
-- https://claude.ai/code/session_015gaHdbMGVTN5vJ9jVfAi3N - hub.d: allow add_repo or git clone for SovereignWebsite__Vault, Site__Agents__Hub and the Factory
-- (account B's asks: board/team/maestro.b/status.json)
+See board/team/maestro.d/status.json asks.
