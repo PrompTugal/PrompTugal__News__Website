@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T19:36Z",
-  "state": "19:33 wake: account C allowed (resets ~20:10 UTC); 12 sessions, 11 waiting on Dinis; the common block is the sgit-ai install refused in new sessions",
+  "updated": "2026-11-22T20:36Z",
+  "state": "20:33 wake: account C window reset at 20:10 UTC; 12 sessions idle, 11 waiting on Dinis; nothing new from B or D",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
