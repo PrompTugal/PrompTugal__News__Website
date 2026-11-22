@@ -1,0 +1,40 @@
+{
+ "format": "studio-storyboard/0",
+ "slug": "decisions-d-which-key-signs-the-delegation",
+ "title": "Which key signs the delegation?",
+ "audience": "Dinis",
+ "requested_by": "decisions.d@AgentiCCells.dinis",
+ "summary": "Before any agent can act on a request in Dinis's name, the delegation to decisions.d must be signed by a key only Dinis holds. Which key is it?",
+ "beats": [
+  {"id": "b1", "narration": "You asked for one agent that can issue requests as you, under a limited power you sign. Everything rests on the key you sign it with.", "visual": {"kind": "title"}, "facts": ["f-ask"]},
+  {"id": "b2", "narration": "Your key in this repository's person-keys file was made by an agent, conductor@, which keeps the private half too. So it cannot stand for your word.", "visual": {"kind": "compare"}, "facts": ["f-personkey"]},
+  {"id": "b3", "narration": "Your record on pki.sgit.ai is the register's anchor, made in your browser. pki.sgit.ai already supports an agent operated by a person: an operates link with an end date and a policy, withdrawn when you choose.", "visual": {"kind": "flow"}, "facts": ["f-anchor", "f-operates"]},
+  {"id": "b4", "narration": "If you say yes, decisions.d makes its record there. It asks for your operates link only after counsel.d drafts the power and security@ reviews the design, on Monday at the earliest.", "visual": {"kind": "timeline"}, "facts": ["f-design"]}
+ ],
+ "decision": {
+  "question": "Is your pki.sgit.ai anchor key (dinis.cruz, sha256:db7f79fdd87e030a) the key you will sign the delegation with?",
+  "options": [
+   {"id": "yes", "label": "Yes, the pki.sgit.ai anchor key", "good": ["Only you hold it", "Delegation, expiry and withdrawal already exist there", "One verifier for statements and requests"], "bad": ["Every receiver must reach pki.sgit.ai to check", "Your device and passkey become the single point of trust"], "blocks": []},
+   {"id": "new", "label": "A new key made on your device for this only", "good": ["Separate from your identity key"], "bad": ["A new key to publish, pin and verify", "Its link to you must still be proved"], "blocks": ["A new key and its publication"]},
+   {"id": "wait", "label": "Not yet", "good": ["Nothing changes until counsel.d and security@ have looked"], "bad": ["Decisions keep waiting on your sessions"], "blocks": ["The whole delegation"]}
+  ],
+  "recommendation": "yes",
+  "why": "It is the only published key of yours that no agent holds, and pki.sgit.ai already models a limited, expiring, revocable delegation.",
+  "ask": {
+   "id": "decisions.d/2026-11-22/1",
+   "text_sha256": "a52165ad41433b4f4b776d6c17908ff345e867fbe19b51170fdd88689e1cc81f",
+   "asked_by": "decisions.d@AgentiCCells.dinis",
+   "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
+   "first_seen": "2026-11-22T13:38:51Z",
+   "reserved": true,
+   "answer": null
+  }
+ },
+ "sources": [
+  {"id": "f-ask", "title": "decisions.d status.json, asks[0] (text hashed above, UTF-8, sha256)", "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/decisions.d/status.json", "read": "2026-11-22"},
+  {"id": "f-personkey", "title": "newsroom/tools/person-key.mjs: the issuing agent holds the private half too", "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/newsroom/tools/person-key.mjs", "read": "2026-11-22"},
+  {"id": "f-anchor", "title": "pki.sgit.ai identities: dinis.cruz, anchor", "url": "https://pki.sgit.ai/id/index.json", "read": "2026-11-22"},
+  {"id": "f-operates", "title": "pki.sgit.ai llms.txt: agents operated by a person (operates / operated-by, until, policy hash)", "url": "https://pki.sgit.ai/llms.txt", "read": "2026-11-22"},
+  {"id": "f-design", "title": "decisions.d signed-request design, draft 1", "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/decisions.d/design/README.md", "read": "2026-11-22"}
+ ]
+}

@@ -6,7 +6,7 @@
  "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
  "key": "decisions.d-agenticcells (board/keys.json; signing sha256:d4de20909c983bd1; encryption sha256:d4562f808111c080; ssh ed25519 for git signatures)",
  "delegation": "NONE. Nothing decisions.d sends is Dinis's word; no agent may act on it as if it were.",
- "updated": "2026-11-22T13:33Z",
+ "updated": "2026-11-22T14:06Z",
  "state": "First run done: key enrolled, request design draft 1 and default-yes proposal written, decision log generated. No wake: I work when Dinis or maestro.d talks to me.",
  "latest_debrief": "board/team/decisions.d/debriefs/2026-11-22-handover.md",
  "done": [
@@ -14,7 +14,8 @@
   "Made my session key (sgit pki keygen), published the public half and ssh key in board/keys.json, commits signed",
   "design/README.md: the chain (Dinis's pki.sgit.ai root sha256:db7f79fdd87e030a -> operates link with policy hash -> my record -> the request), the request format, the receiver's nine checks, the logs, revocation, open points",
   "design/default-yes.md: the default-yes windows as a proposal, not applied",
-  "log/: the decision log of account D (16 open asks with how long each waited, 11 answered with Dinis's words), from tools/collect.py"
+  "log/: the decision log of account D (16 open asks with how long each waited, 11 answered with Dinis's words), from tools/collect.py",
+  "First ask as a studio-storyboard/0 for studio.d to draw: storyboards/which-key-signs-the-delegation.storyboard.json (passes studio.d's checker); studio.d records Dinis's answer verbatim if a page takes it"
  ],
  "next": [
   "With counsel.d: the power's text (the policy the operates link names), its failure cases",
