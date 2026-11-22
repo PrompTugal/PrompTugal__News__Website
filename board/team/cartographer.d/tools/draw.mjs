@@ -63,14 +63,17 @@ function drawStructure(j, f) {
   const o = [`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${Wd} ${Hd}" role="img" aria-label="${esc(j.title)}" font-family="system-ui, sans-serif"><rect width="${Wd}" height="${Hd}" fill="#fff"/>`]
   o.push(`<text x="${X0}" y="34" font-size="22" font-weight="600" fill="#111">${esc(j.title)}</text>`)
   o.push(`<text x="${X0}" y="58" font-size="13" fill="#444">structure map, ${esc(j.status)}, made ${esc(j.made)} by ${esc(j.made_by)}; drawn from holacracy.d's org-chart.json</text>`)
-  o.push(`<text x="${X0}" y="80" font-size="13" fill="#444">Green: working. Amber: waiting on Dinis. Grey: completed or in review. Dashed border: a role proposed, not ratified. Reading: the line from a role goes to the role that started it.</text>`)
+  o.push(`<text x="${X0}" y="80" font-size="13" fill="#444">Green: working. Amber: waiting on Dinis. Grey: completed or in review. Dashed border: proposed, not ratified. Blue bar: relayed. Dotted blue line: conducts. Reading: the line from a role goes to the role that started it.</text>`)
   const xy = n => ({ x: X0 + n.depth * (BW + 40), y: Y0 + n.row * (BH + 8) })
   for (const n of j.nodes) { const p = by[n.parent]; if (!p) continue; const a = xy(p), b = xy(n)
     o.push(`<path d="M${a.x + 14} ${a.y + BH} V${b.y + BH / 2} H${b.x}" fill="none" stroke="#999"/>`) }
+  for (const l of j.links.filter(l => l.type === 'conducts')) { const a = by[l.from], b = by[l.to]; if (!a || !b) continue; const p = xy(a), q = xy(b)
+    o.push(`<path d="M${p.x + BW} ${p.y + BH / 2} C${p.x + BW + 36} ${p.y + BH / 2} ${q.x + BW + 36} ${q.y + BH / 2} ${q.x + BW} ${q.y + BH / 2}" fill="none" stroke="#2a6fdb" stroke-dasharray="2 3" stroke-width="1.6"/>`) }
   for (const n of j.nodes) { const { x, y } = xy(n)
     o.push(`<rect x="${x}" y="${y}" width="${BW}" height="${BH}" rx="4" fill="${col(n.state)}" stroke="#555"${n.proposed ? ' stroke-dasharray="5 3"' : ''}><title>${esc(n.label)}; ${esc(n.state)}; ${esc(n.source)}</title></rect>`)
-    o.push(`<text x="${x + 8}" y="${y + 14}" font-size="13" font-weight="600" fill="#111">${esc(n.label)}</text>`)
-    o.push(`<text x="${x + 8}" y="${y + 28}" font-size="11" fill="#444">${esc((n.circle || '') + ' | ' + (n.state || '').slice(0, 48))}</text>`) }
+    if (n.relayed) o.push(`<rect x="${x}" y="${y}" width="6" height="${BH}" fill="#2a6fdb"/>`)
+    o.push(`<text x="${x + 12}" y="${y + 14}" font-size="13" font-weight="600" fill="#111">${esc(n.label)}${n.relayed ? ' (relayed)' : ''}</text>`)
+    o.push(`<text x="${x + 12}" y="${y + 28}" font-size="11" fill="#444">${esc((n.circle || '') + ' | ' + (n.state || '').slice(0, 48))}</text>`) }
   const by0 = Y0 + row * (BH + 8) + 20
   o.push(`<rect x="${X0}" y="${by0}" width="${Wd - X0 * 2}" height="90" fill="none" stroke="#777" stroke-dasharray="6 4"/>`)
   o.push(`<text x="${X0 + 10}" y="${by0 + 22}" font-size="14" font-weight="600" fill="#333">Account B (reported, not seen)</text>`)

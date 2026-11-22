@@ -4,7 +4,7 @@
  "kind": "structure",
  "status": "draft",
  "title": "Who started whom: the agents of account D",
- "made": "2026-11-22T18:11Z",
+ "made": "2026-11-22T18:23Z",
  "made_by": "cartographer.d@AgentiCCells.dinis",
  "for": "holacracy.d keeps the record; this is a picture of it",
  "sources_read": {
@@ -19,6 +19,8 @@
    "parent": null,
    "state": "working",
    "proposed": false,
+   "relayed": false,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: One combined view of both accounts and one brief to Dinis; conducts account D's conductors; never a conductor's work; model opus (configured sonnet); state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -30,6 +32,8 @@
    "parent": "maestro.d",
    "state": "working",
    "proposed": false,
+   "relayed": true,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: The health of the whole system of Dinis's agents: every circle has a lead, every role is written and filled, every structure problem reaches someone who can resolve it; model sonnet; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -41,6 +45,8 @@
    "parent": "maestro.d",
    "state": "waiting on Dinis: push access to PrompTugal__News__Data, how twins' keys get in",
    "proposed": false,
+   "relayed": false,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: Conduct the PrompTugal sessions on account D and carry the shared PrompTugal work; model opus; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -52,6 +58,8 @@
    "parent": "conductor.d@PrompTugal",
    "state": "completed its last turn (story-first player on a branch)",
    "proposed": false,
+   "relayed": false,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: Bulletins (text, audio, video summaries from the data) on account D; model opus; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -63,6 +71,8 @@
    "parent": "maestro.d",
    "state": "waiting on Dinis: a yes in factory.d's session",
    "proposed": false,
+   "relayed": false,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: Conduct SovereignWebsite on account D; model opus; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -74,6 +84,8 @@
    "parent": "maestro.d",
    "state": "waiting on Dinis: a yes to factory.d",
    "proposed": false,
+   "relayed": true,
+   "conductor": "conductor.d@SovereignWebsite",
    "source": "org",
    "evidence": "purpose: Run the sites of SovereignWebsite on account D; model sonnet; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -85,6 +97,8 @@
    "parent": "maestro.d",
    "state": "completed, idle (no first task)",
    "proposed": false,
+   "relayed": true,
+   "conductor": "conductor.d@SovereignWebsite",
    "source": "org",
    "evidence": "purpose: The Hub of SovereignWebsite on account D; model sonnet; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -96,6 +110,8 @@
    "parent": "conductor.d@SovereignWebsite",
    "state": "waiting on Dinis: contrast fix, /accounts/d/ move, key",
    "proposed": false,
+   "relayed": false,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: Design rounds for the .d sites; model opus; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -107,6 +123,8 @@
    "parent": "conductor.d@SovereignWebsite",
    "state": "waiting on Dinis: say go on the chip fix",
    "proposed": false,
+   "relayed": false,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: Synthetic users for the .d sites; model opus; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -118,6 +136,8 @@
    "parent": "conductor.d@SovereignWebsite",
    "state": "waiting on Dinis: pick A, B or C, merge 7c755a8",
    "proposed": false,
+   "relayed": false,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: SovereignWebsite__Factory changes for the .d team; model opus; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -129,6 +149,8 @@
    "parent": "conductor.d@SovereignWebsite",
    "state": "completed (moved to /accounts/d/)",
    "proposed": false,
+   "relayed": false,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: The library and the relay of the newsroom writing for the .d team; model opus; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -140,6 +162,8 @@
    "parent": "sites.d",
    "state": "review ready",
    "proposed": false,
+   "relayed": true,
+   "conductor": "conductor.d@SovereignWebsite",
    "source": "org",
    "evidence": "purpose: The streaming site; model opus (configured sonnet); state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -151,6 +175,8 @@
    "parent": "maestro.d",
    "state": "waiting on Dinis: which email fixes to build",
    "proposed": false,
+   "relayed": false,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: Conduct AgentiCCells on account D; model opus; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -162,6 +188,8 @@
    "parent": "conductor.d@AgentiCCells",
    "state": "waiting on Dinis: push release/next2, approver option, leak-scan exception",
    "proposed": false,
+   "relayed": false,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: The email cell, twin of cell.email.b; model opus; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -173,6 +201,8 @@
    "parent": "maestro.d",
    "state": "waiting on Dinis: who holds a decision brief",
    "proposed": false,
+   "relayed": true,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: The newsroom writer on account D, twin of writer-10 (becoming newsroom.b); received my brief as material; model opus; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -184,6 +214,8 @@
    "parent": "maestro.d",
    "state": "working (started 13:25 UTC)",
    "proposed": true,
+   "relayed": true,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: Dinis's single entry point for the global structure and direction of travel; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -195,6 +227,8 @@
    "parent": "maestro.d",
    "state": "working (started 13:25 UTC)",
    "proposed": true,
+   "relayed": true,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: Show where each area and the estate stand and what to do next; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -206,6 +240,8 @@
    "parent": "maestro.d",
    "state": "working (started 13:25 UTC)",
    "proposed": true,
+   "relayed": true,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: The maps as data and pages, kept current; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -217,6 +253,8 @@
    "parent": "maestro.d",
    "state": "working (started 13:25 UTC)",
    "proposed": true,
+   "relayed": true,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: User needs and journeys, the anchor of every map; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -228,6 +266,8 @@
    "parent": "maestro.d",
    "state": "working (started 13:25 UTC)",
    "proposed": true,
+   "relayed": true,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: What every agent costs and is made of, across accounts; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -239,6 +279,8 @@
    "parent": "maestro.d",
    "state": "working (started 13:25 UTC)",
    "proposed": true,
+   "relayed": true,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: Draft and test the power of attorney and other instruments; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -250,6 +292,8 @@
    "parent": "maestro.d",
    "state": "working (started 13:25 UTC)",
    "proposed": true,
+   "relayed": true,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: Take decisions within a limited power of attorney Dinis signs; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -261,6 +305,8 @@
    "parent": "maestro.d",
    "state": "working (started 13:25 UTC)",
    "proposed": true,
+   "relayed": true,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: Briefings made from storyboards, published on a site; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -272,6 +318,8 @@
    "parent": "maestro.d",
    "state": "working (started 13:25 UTC)",
    "proposed": true,
+   "relayed": true,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: The market around each project, to recommendations and site variants; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -283,6 +331,8 @@
    "parent": "conductor.d@AgentiCCells",
    "state": "waiting on Dinis (W9, W13, W17)",
    "proposed": false,
+   "relayed": false,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: Email cell workflows; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -294,6 +344,8 @@
    "parent": "conductor.d@AgentiCCells",
    "state": "completed (commits pushed to its work branch)",
    "proposed": false,
+   "relayed": false,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: Email cell design; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -305,6 +357,8 @@
    "parent": "conductor.d@AgentiCCells",
    "state": "review ready",
    "proposed": false,
+   "relayed": false,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: Email cell product management; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -316,6 +370,8 @@
    "parent": "conductor.d@PrompTugal",
    "state": "waiting on Dinis: merge factory.d's commit for push access",
    "proposed": false,
+   "relayed": false,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: Data for PrompTugal on account D (twin of data.b); model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
   },
@@ -327,6 +383,8 @@
    "parent": "maestro.d",
    "state": "working (started about 16:05Z)",
    "proposed": true,
+   "relayed": false,
+   "conductor": null,
    "source": "org",
    "evidence": "purpose: Role written in board/team/helm.d/roles.md (see there); not yet copied here; model opus; state seen 2026-11-22T16:20Z"
   }
@@ -499,12 +557,31 @@
    "to": "slides.d",
    "type": "started",
    "source": "org"
+  },
+  {
+   "from": "conductor.d@SovereignWebsite",
+   "to": "sites.d",
+   "type": "conducts",
+   "source": "org"
+  },
+  {
+   "from": "conductor.d@SovereignWebsite",
+   "to": "hub.d",
+   "type": "conducts",
+   "source": "org"
+  },
+  {
+   "from": "conductor.d@SovereignWebsite",
+   "to": "streaming.d",
+   "type": "conducts",
+   "source": "org"
   }
  ],
  "account_b": "reported, not seen: from repository files only (board/team/maestro.b/view.md of 19 Nov 07:19Z, board/team/conductor.b/roster-2026-11-16.json and account-b.json, board/keys.json, board/team/maestros/from-b.md to 22 Nov 01:56Z). I cannot see account B's sessions.",
  "notes": [
   "The central circle's roles are shown as proposed, not ratified, as holacracy.d records them.",
-  "No role is marked relayed in the record; if holacracy.d adds one, it is drawn.",
+  "Relayed means holacracy.d marks the role, its twin, its level or its conductor as relayed (heard from another session, not from Dinis in this one); drawn with a blue bar, a different mark from proposed.",
+  "A dotted line is a second link, conducts, for roles whose conductor differs from the role that started them.",
   "Account B is reported, not seen."
  ]
 }
