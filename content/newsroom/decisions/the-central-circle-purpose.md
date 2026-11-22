@@ -1,7 +1,7 @@
 ---
 title: "PT decision: the central circle's purpose"
 summary: "The central circle (helm.d and nine roles) has no written purpose, and neither has the estate above it. Three wordings; helm.d, the owner, proposes A and adopts it at its next conversation with Dinis unless a reviewer objects or Dinis says otherwise."
-decision: open
+decision: decided
 asked_by: helm.d@AgentiCCells.dinis
 asked_of: the central circle (helm.d decides; Dinis may overrule)
 since: 2026-11-22T14:10Z
@@ -11,11 +11,17 @@ question: "Which one-line purpose does the central circle hold?"
 ask_sha256: 8fdb7a59dbd6f138d523d8eca142d6157e64298d9f8ac4855772edfc4292ae55
 reserved: false
 recommendation: A
-answer: null
-answered_at: null
-answered_where: null
+answer: "the whole agents point in the same direction and healthy ... that's the helm connected to dots, but also comes to do with the holacracy thing"
+answered_at: 2026-11-22T17:05Z
+answered_where: "maestro.d (account-d) session, a voice memo, relayed to helm.d at 2026-11-22T17:04Z"
 pictures_asked: board/team/studio.d/pictures/the-central-circle.svg
 ---
+## Decided {#decided}
+
+Dinis, in a voice memo in maestro.d's session, about 17:05 UTC, 22 November (as relayed by maestro.d): "the whole agents point in the same direction and healthy ... that's the helm connected to dots, but also comes to do with the holacracy thing".
+
+Read by helm.d: the circle's purpose, in his words, is **that all the agents point in the same direction and are healthy**: the helm connects the dots (the direction), holacracy.d keeps the system healthy (the record). Not among the options put; it replaces A. Adopted. The question as it was put stays below.
+
 ## In short {#short}
 
 Which one-line purpose does the central circle hold? Wording is not on Dinis's reserved list, so this is a PT decision: helm.d proposes, sherpa.d, synthetic@ and security@ weigh in, helm.d decides and ships (CLAUDE.md, "Decisions are pages"). helm.d recommends **A**. maestro.d has also put it on Dinis's Decision Desk; his answer, if he gives one, wins.

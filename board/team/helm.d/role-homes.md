@@ -30,3 +30,6 @@ Nine to request (Helm, Strategy, Cartographer, Sherpa, Decisions, Counsel, Studi
 
 ## Slides (2026-11-22T16:02Z)
 - slides.d joins the central circle (maestro.d, at Dinis's word in its session about 16:05 UTC; session https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8, Opus, no wake): decks, wired up with the designer, best practices; first job the Chiswick deck with chiswick-cheese-market.d. Home to request: SovereignWebsite/Site__Agents__Slides (sent to conductor.d (SovereignWebsite)).
+
+## Singular, for every agent (2026-11-22T17:04Z)
+- Dinis (voice memo in maestro.d's session ~17:05 UTC, relayed): "It's not agents, it's agent. So it's always singular ... site __ agent __ name". Every home is SovereignWebsite/Site__Agent__<Name>: Site__Agent__Helm, __Strategy, __Cartographer, __Sherpa, __Accountant, __Decisions, __Counsel, __Studio, __Landscape, __Holacracy, __Maestro, __Slides. The eight plural repositories that exist are for their owners and conductor.d (SovereignWebsite) to rename.
