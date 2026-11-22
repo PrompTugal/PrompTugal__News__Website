@@ -1,0 +1,53 @@
+{
+ "format": "studio-storyboard/0",
+ "slug": "the-central-circle-picture",
+ "title": "The central circle: who sits where",
+ "audience": "Dinis and the agents on account D",
+ "requested_by": "helm.d@AgentiCCells.dinis",
+ "summary": "Dinis has three branches: maestro.d, the conductors and helm.d. helm.d holds a central circle of nine roles, and three sessions sit under no conductor today.",
+ "beats": [
+  {
+   "id": "b1",
+   "narration": "Dinis has three branches: maestro.d, the conductors and helm.d.",
+   "visual": {
+    "kind": "title",
+    "text": "The central circle: who sits where"
+   }
+  },
+  {
+   "id": "b2",
+   "narration": "The picture is kept with the decision page. It is drawn from the source named below, not from memory.",
+   "visual": {
+    "kind": "image",
+    "url": "board/team/studio.d/pictures/the-central-circle.svg",
+    "alt": "A tree: Dinis; maestro.d, conductors and helm.d; helm.d's central circle of nine roles; and sites.d, hub.d and newsroom.d under no conductor.",
+    "credit": "Drawn by studio.d, 22 November 2026, from holacracy.d org-chart.json and helm.d's decision page"
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b3",
+   "narration": "The dashed box is question 2 for Dinis: whether those three join the helm's circle or go under a conductor.",
+   "visual": {
+    "kind": "list",
+    "items": [
+     "The options are on the decision page, in full",
+     "Nothing here changes the page's recommendation"
+    ]
+   },
+   "facts": [
+    "s1"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "s1",
+   "title": "holacracy.d org-chart.json and helm.d's decision page",
+   "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/holacracy.d/org-chart.json",
+   "read": "2026-11-22"
+  }
+ ]
+}

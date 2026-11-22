@@ -1,0 +1,53 @@
+{
+ "format": "studio-storyboard/0",
+ "slug": "sherpa-memo-flow-picture",
+ "title": "The path of a voice or text memo",
+ "audience": "Dinis and the agents who answer his memos",
+ "requested_by": "helm.d@AgentiCCells.dinis",
+ "summary": "A memo goes from Dinis to the site lead agent's lane, then to the agent it is for. The transcript is kept, and two questions for Dinis change the audio and sherpa.d's wake.",
+ "beats": [
+  {
+   "id": "b1",
+   "narration": "A memo goes from Dinis to the site lead agent's lane, then to the agent it is for.",
+   "visual": {
+    "kind": "title",
+    "text": "The path of a voice or text memo"
+   }
+  },
+  {
+   "id": "b2",
+   "narration": "The picture is kept with the decision page. It is drawn from the source named below, not from memory.",
+   "visual": {
+    "kind": "image",
+    "url": "board/team/studio.d/pictures/sherpa-memo-flow.svg",
+    "alt": "A flow: Dinis, to the site lead's lane, to the agent the memo is for; the transcript is kept; question 2 decides the audio, question 1 sherpa.d's wake.",
+    "credit": "Drawn by studio.d, 22 November 2026, from helm.d's decision page and sherpa.d's feedback-everywhere"
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b3",
+   "narration": "The dashed boxes are the two questions for Dinis: how long the audio is kept, and whether sherpa.d wakes twice a day.",
+   "visual": {
+    "kind": "list",
+    "items": [
+     "The options are on the decision page, in full",
+     "Nothing here changes the page's recommendation"
+    ]
+   },
+   "facts": [
+    "s1"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "s1",
+   "title": "helm.d's decision page and sherpa.d's feedback-everywhere",
+   "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/content/newsroom/decisions/sherpa-feedback-and-voice-memos.md",
+   "read": "2026-11-22"
+  }
+ ]
+}
