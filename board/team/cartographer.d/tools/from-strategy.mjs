@@ -25,12 +25,14 @@ const out = {
   users: S.users.map(u => ({ id: u.id, label: u.label, source: 'strategy' })),
   nodes: [
     ...needs.map(n => ({ id: n.id, label: n.need.length > 70 ? n.need.slice(0, 67) + '...' : n.need, type: 'need', visibility: 1.0, evolution: pos[n.id], hypothesis: n.hypothesis, source: 'sherpa', evidence: `${n.user_name}; ${n.hypothesis ? 'a hypothesis' : 'his own words'}; ${n.source}` })),
+    ...S.users.filter(u => !['dinis', 'agent'].includes(u.id)).map(u => ({ id: 'need-' + u.id, label: (u.need || u.label).slice(0, 72), type: 'need', visibility: 1.0, evolution: 0.92, source: 'strategy', evidence: u.label + '; strategy.d\'s user, added in its v' + S.version })),
     ...S.components.map(c => ({ id: c.id, label: c.label, type: c.id === 'good-decisions' ? 'goal' : (c.evolution < 0.2 ? 'component' : 'component'), visibility: c.id === 'good-decisions' ? 0.9 : c.visibility, evolution: c.evolution, source: 'strategy', evidence: c.evidence }))
   ],
   links: [
     ...needs.map(n => ({ from: n.user === 'dinis' ? 'dinis' : 'agent', to: n.id, type: 'has', source: 'sherpa' })),
     ...needs.flatMap(n => serves[n.id].map(t => ({ from: n.id, to: t, type: 'needs', source: 'cartographer' }))),
-    ...S.links.filter(([a]) => a !== 'dinis' && a !== 'agent').map(([a, b]) => ({ from: a, to: b, type: 'needs', source: 'strategy' }))
+    ...S.links.filter(([a, b]) => !['dinis', 'agent'].includes(a) && S.users.some(u => u.id === a)).map(([a, b]) => ({ from: 'need-' + a, to: b, type: 'needs', source: 'strategy' })),
+    ...S.links.filter(([a]) => !S.users.some(u => u.id === a)).map(([a, b]) => ({ from: a, to: b, type: 'needs', source: 'strategy' }))
   ],
   moves: (S.movements || []).filter(m => m.component || m.id).map(m => ({ node: m.component || m.id, to: m.to_evolution ?? m.to, why: m.why || m.text || '', source: 'strategy', kind: 'strategy.d\'s movement' })),
   notes: ['Positions are strategy.d\'s judgement, drawn as given, except the shared goal, lowered from 0.97 to 0.9 so it does not sit on the needs. strategy.d decides what the map means.',

@@ -1,0 +1,474 @@
+{
+ "format": "carto-map/1",
+ "id": "sovereign-website-strategy",
+ "kind": "wardley",
+ "status": "draft",
+ "title": "Sovereign Website: the first customer",
+ "version": "0.1.0",
+ "made": "2026-11-22T16:51Z",
+ "made_by": "cartographer.d@AgentiCCells.dinis",
+ "for": "strategy.d decides what the map means; positions are strategy.d's judgement, drawn as given",
+ "sources_read": {
+  "strategy": "board/team/strategy.d/maps/2026-11-22-sovereign-website/map.json v0.1.0, drawn 2026-11-22T16:45Z, read 22 Nov 2026 (components, positions, evidence, links, users)",
+  "sherpa": "board/team/sherpa.d/needs/needs.json where a user's needs are named there"
+ },
+ "axes": {
+  "y": "visibility to the user (1 = the user sees it)",
+  "x": "evolution: genesis 0, custom 0.25, product 0.5, commodity 0.75 to 1"
+ },
+ "users": [
+  {
+   "id": "owner",
+   "label": "The owner (person or small organisation)",
+   "source": "strategy"
+  },
+  {
+   "id": "visitor",
+   "label": "The visitor (who has agents, or may)",
+   "source": "strategy"
+  },
+  {
+   "id": "partner",
+   "label": "The partner (maintainer, agency, freelancer)",
+   "source": "strategy"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "need-owner",
+   "label": "Get a working site without a terminal, code or hosting set-up.; Own t...",
+   "type": "need",
+   "visibility": 1,
+   "evolution": 0.12,
+   "hypothesis": true,
+   "source": "strategy",
+   "evidence": "The owner (person or small organisation); sherpa.d needs.json"
+  },
+  {
+   "id": "need-visitor",
+   "label": "enjoy a site on a topic they like, then feel the policies working, wi...",
+   "type": "need",
+   "visibility": 0.92,
+   "evolution": 0.52,
+   "hypothesis": true,
+   "source": "strategy",
+   "evidence": "The visitor (who has agents, or may); sherpa.d journey-the-stand.md, finding C1 (Dinis's account of the Web Summit stand)"
+  },
+  {
+   "id": "need-partner",
+   "label": "keep the client and the fee, with less effort and more to offer",
+   "type": "need",
+   "visibility": 1,
+   "evolution": 0.92,
+   "hypothesis": true,
+   "source": "strategy",
+   "evidence": "The partner (maintainer, agency, freelancer); sovereignwebsite.ai/partners.html (read 22 Nov); Dinis in this session ~15:55 UTC"
+  },
+  {
+   "id": "owned-site",
+   "label": "The owner's site (files, history, address theirs)",
+   "type": "component",
+   "visibility": 0.95,
+   "evolution": 0.3,
+   "source": "strategy",
+   "evidence": "sovereignwebsite.ai: 'The files, the history and the address are yours'"
+  },
+  {
+   "id": "topic-site",
+   "label": "A topic or platform site to try (football, CVEs, Odoo, OpenRouter, AWS...)",
+   "type": "component",
+   "visibility": 0.95,
+   "evolution": 0.1,
+   "source": "strategy",
+   "evidence": "journey-the-stand.md; strategy/2026-11-22-platform-sites-b2c2b.md"
+  },
+  {
+   "id": "policy-moment",
+   "label": "The policy moment (try to break it, see it caught)",
+   "type": "component",
+   "visibility": 0.88,
+   "evolution": 0.08,
+   "source": "strategy",
+   "evidence": "C1: 'nowhere to try the policies'"
+  },
+  {
+   "id": "fork-button",
+   "label": "Make it yours (fork, edit, own)",
+   "type": "component",
+   "visibility": 0.85,
+   "evolution": 0.15,
+   "source": "strategy",
+   "evidence": "Dinis 13:15 UTC 'clones of forks'"
+  },
+  {
+   "id": "five-designs",
+   "label": "Five designs to choose from",
+   "type": "component",
+   "visibility": 0.8,
+   "evolution": 0.25,
+   "source": "strategy",
+   "evidence": "partners.html deal flow: 'five designs'"
+  },
+  {
+   "id": "partner-offer",
+   "label": "Partner offer (maintain, do not replace; start small)",
+   "type": "component",
+   "visibility": 0.75,
+   "evolution": 0.12,
+   "source": "strategy",
+   "evidence": "partners.html 'A first draft. No partner has signed yet'"
+  },
+  {
+   "id": "move-out",
+   "label": "Move-out path, stated",
+   "type": "component",
+   "visibility": 0.7,
+   "evolution": 0.2,
+   "source": "strategy",
+   "evidence": "sw-g1, sw-g6: none of the hosted builders read states one"
+  },
+  {
+   "id": "content-terms",
+   "label": "Owner sets the terms of their content",
+   "type": "component",
+   "visibility": 0.62,
+   "evolution": 0.3,
+   "source": "strategy",
+   "evidence": "sw-g7: perpetual licences at Squarespace, Lovable"
+  },
+  {
+   "id": "where-it-lives",
+   "label": "Where it lives, stated",
+   "type": "component",
+   "visibility": 0.58,
+   "evolution": 0.35,
+   "source": "strategy",
+   "evidence": "sw-g8"
+  },
+  {
+   "id": "one-off-price",
+   "label": "One-off price (no subscription from us)",
+   "type": "component",
+   "visibility": 0.66,
+   "evolution": 0.2,
+   "source": "strategy",
+   "evidence": "sw-g5; sovereignwebsite.ai '£500, one-off'"
+  },
+  {
+   "id": "agent-team",
+   "label": "Agent team with job descriptions and ABP, shown",
+   "type": "component",
+   "visibility": 0.55,
+   "evolution": 0.25,
+   "source": "strategy",
+   "evidence": "partners.html 'a team, not a template'"
+  },
+  {
+   "id": "observability",
+   "label": "Observability lane per site (no IP, no cookie)",
+   "type": "component",
+   "visibility": 0.4,
+   "evolution": 0.3,
+   "source": "strategy",
+   "evidence": "obs.js on promptugal.news"
+  },
+  {
+   "id": "factory",
+   "label": "Site factory (repo, address, CLAUDE.md, ABP)",
+   "type": "component",
+   "visibility": 0.35,
+   "evolution": 0.25,
+   "source": "strategy",
+   "evidence": "partners.html deal flow; SovereignWebsite__Factory"
+  },
+  {
+   "id": "plain-files",
+   "label": "Plain files in a git repository",
+   "type": "component",
+   "visibility": 0.25,
+   "evolution": 0.85,
+   "source": "strategy",
+   "evidence": "sw-g2: open-source static engines give this free, developer-only"
+  },
+  {
+   "id": "static-hosting",
+   "label": "Static hosting (several hosts)",
+   "type": "component",
+   "visibility": 0.15,
+   "evolution": 0.85,
+   "source": "strategy",
+   "evidence": "sw-g9; sovereignwebsite.ai Level 5 'deployed on more than one host'"
+  },
+  {
+   "id": "domain",
+   "label": "Domain at the owner's registrar",
+   "type": "component",
+   "visibility": 0.12,
+   "evolution": 0.92,
+   "source": "strategy",
+   "evidence": "sovereignwebsite.ai Level 4"
+  },
+  {
+   "id": "llm",
+   "label": "LLM capacity",
+   "type": "component",
+   "visibility": 0.08,
+   "evolution": 0.75,
+   "source": "strategy",
+   "evidence": "Map 2"
+  },
+  {
+   "id": "player-hosted-builders-wix-squarespac",
+   "label": "Hosted builders (players)",
+   "player": "Hosted builders (Wix, Squarespace, Jimdo, IONOS, Hostinger, Framer...)",
+   "type": "player",
+   "visibility": 0.91,
+   "evolution": 0.8,
+   "source": "strategy",
+   "evidence": "a site is a commodity for them; lock-in: no stated export (sw-g1, sw-g6), broad content licences (sw-g7), subscription (sw-g5)"
+  },
+  {
+   "id": "player-ai-builders-lovable-bolt-v0-du",
+   "label": "AI builders (players)",
+   "player": "AI builders (Lovable, Bolt, v0, Durable, 10Web)",
+   "type": "player",
+   "visibility": 0.91,
+   "evolution": 0.55,
+   "source": "strategy",
+   "evidence": "moving fast; v0 GitHub sync and 10Web SFTP are partial move-out answers (sw-g6)"
+  },
+  {
+   "id": "player-open-source-static-engines-hug",
+   "label": "Open-source static engines (players)",
+   "player": "Open-source static engines (Hugo, Jekyll, Eleventy, Astro, Zola)",
+   "type": "player",
+   "visibility": 0.21,
+   "evolution": 0.85,
+   "source": "strategy",
+   "evidence": "free and owned, but developer-only (sw-g2)"
+  },
+  {
+   "id": "player-open-source-ai-builders-bolt-d",
+   "label": "Open-source AI builders (players)",
+   "player": "Open-source AI builders (bolt.diy, Dyad, tinykit, Totalum)",
+   "type": "player",
+   "visibility": 0.91,
+   "evolution": 0.2,
+   "source": "strategy",
+   "evidence": "developer setup and own model key (sw-g3)"
+  },
+  {
+   "id": "player-hosts-hetzner-ovhcloud-scalewa",
+   "label": "Hosts (players)",
+   "player": "Hosts (Hetzner, OVHcloud, Scaleway, Cloudflare Pages, GitHub Pages, Netlify)",
+   "type": "player",
+   "visibility": 0.11,
+   "evolution": 0.85,
+   "source": "strategy",
+   "evidence": "commodity; regions and commercial terms differ (sw-g8, sw-g9)"
+  }
+ ],
+ "links": [
+  {
+   "from": "need-owner",
+   "to": "owned-site",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "need-owner",
+   "to": "five-designs",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "need-owner",
+   "to": "one-off-price",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "need-visitor",
+   "to": "topic-site",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "topic-site",
+   "to": "policy-moment",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "topic-site",
+   "to": "fork-button",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "fork-button",
+   "to": "owned-site",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "need-partner",
+   "to": "partner-offer",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "partner-offer",
+   "to": "owned-site",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "partner-offer",
+   "to": "factory",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "owned-site",
+   "to": "move-out",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "owned-site",
+   "to": "content-terms",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "owned-site",
+   "to": "where-it-lives",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "owned-site",
+   "to": "agent-team",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "policy-moment",
+   "to": "agent-team",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "agent-team",
+   "to": "observability",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "agent-team",
+   "to": "factory",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "agent-team",
+   "to": "llm",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "five-designs",
+   "to": "factory",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "factory",
+   "to": "plain-files",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "move-out",
+   "to": "plain-files",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "plain-files",
+   "to": "static-hosting",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "where-it-lives",
+   "to": "static-hosting",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "static-hosting",
+   "to": "domain",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "owned-site",
+   "to": "player-hosted-builders-wix-squarespac",
+   "type": "offered-by",
+   "source": "strategy"
+  },
+  {
+   "from": "owned-site",
+   "to": "player-ai-builders-lovable-bolt-v0-du",
+   "type": "offered-by",
+   "source": "strategy"
+  },
+  {
+   "from": "plain-files",
+   "to": "player-open-source-static-engines-hug",
+   "type": "offered-by",
+   "source": "strategy"
+  },
+  {
+   "from": "owned-site",
+   "to": "player-open-source-ai-builders-bolt-d",
+   "type": "offered-by",
+   "source": "strategy"
+  },
+  {
+   "from": "static-hosting",
+   "to": "player-hosts-hetzner-ovhcloud-scalewa",
+   "type": "offered-by",
+   "source": "strategy"
+  }
+ ],
+ "moves": [
+  {
+   "node": "topic-site",
+   "to": 0.3,
+   "why": "many topic and platform sites from one factory: the volume argument",
+   "source": "strategy",
+   "kind": "strategy.d's movement"
+  },
+  {
+   "node": "policy-moment",
+   "to": 0.3,
+   "why": "one reusable demo on every site",
+   "source": "strategy",
+   "kind": "strategy.d's movement"
+  },
+  {
+   "node": "factory",
+   "to": 0.5,
+   "why": "Map 2 E3",
+   "source": "strategy",
+   "kind": "strategy.d's movement"
+  }
+ ],
+ "notes": [
+  "Positions are strategy.d's judgement, drawn as given; I have moved none. strategy.d decides what the map means.",
+  "One need per user, at the top, from strategy.d's users; sherpa.d's needs are used where the user names them."
+ ]
+}

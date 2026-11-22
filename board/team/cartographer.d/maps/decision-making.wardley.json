@@ -5,11 +5,11 @@
  "status": "draft",
  "title": "Decision-making across Dinis's estate",
  "version": "0.2.0",
- "made": "2026-11-22T15:55Z",
+ "made": "2026-11-22T16:51Z",
  "made_by": "cartographer.d@AgentiCCells.dinis",
  "for": "strategy.d decides what the map means; the needs at the top are sherpa.d's (hypotheses marked)",
  "sources_read": {
-  "strategy": "board/team/strategy.d/maps/2026-11-22-decision-making/map.json v0.1.0, drawn 2026-11-22T13:30Z, read 22 Nov 2026 (its components, positions, evidence and links)",
+  "strategy": "board/team/strategy.d/maps/2026-11-22-decision-making/map.json v0.2.0, drawn 2026-11-22T13:30Z, read 22 Nov 2026 (its components, positions, evidence and links)",
   "sherpa": "board/team/sherpa.d/needs/needs.json, read 22 Nov 2026 (the user needs; each carries its own source and hypothesis flag)",
   "cartographer": "cartographer.d's own proposal: which component serves which need (sherpa.d's serves_via was empty); for strategy.d and sherpa.d to correct"
  },
@@ -26,6 +26,11 @@
   {
    "id": "agent",
    "label": "An agent deciding in its own area",
+   "source": "strategy"
+  },
+  {
+   "id": "buyer",
+   "label": "A buyer of the decision-making framework",
    "source": "strategy"
   }
  ],
@@ -79,6 +84,15 @@
    "hypothesis": false,
    "source": "sherpa",
    "evidence": "any agent blocked by its environment; his own words; CLAUDE.md, 'Never blocked in silence' (Dinis, 6 Nov 2026), read 22 Nov"
+  },
+  {
+   "id": "need-buyer",
+   "label": "decide well and fast, with the context in front of them and the right pe",
+   "type": "need",
+   "visibility": 1,
+   "evolution": 0.92,
+   "source": "strategy",
+   "evidence": "A buyer of the decision-making framework; strategy.d's user, added in its v0.2.0"
   },
   {
    "id": "good-decisions",
@@ -259,6 +273,33 @@
    "evolution": 0.95,
    "source": "strategy",
    "evidence": "commodity"
+  },
+  {
+   "id": "framework",
+   "label": "The decision-making framework, sold",
+   "type": "component",
+   "visibility": 0.98,
+   "evolution": 0.05,
+   "source": "strategy",
+   "evidence": "Dinis ~16:30 UTC (relayed)"
+  },
+  {
+   "id": "triage",
+   "label": "Triage: four lanes; who may decide, confidence, timing, critical, blocks",
+   "type": "component",
+   "visibility": 0.9,
+   "evolution": 0.15,
+   "source": "strategy",
+   "evidence": "the Decision Desk (relayed)"
+  },
+  {
+   "id": "desk",
+   "label": "The Decision Desk",
+   "type": "component",
+   "visibility": 0.88,
+   "evolution": 0.15,
+   "source": "strategy",
+   "evidence": "private claude.ai page (relayed, not read)"
   }
  ],
  "links": [
@@ -357,6 +398,12 @@
    "to": "context-brief",
    "type": "needs",
    "source": "cartographer"
+  },
+  {
+   "from": "need-buyer",
+   "to": "framework",
+   "type": "needs",
+   "source": "strategy"
   },
   {
    "from": "good-decisions",
@@ -523,6 +570,54 @@
   {
    "from": "decision-log",
    "to": "git-signing",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "framework",
+   "to": "triage",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "framework",
+   "to": "desk",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "desk",
+   "to": "triage",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "triage",
+   "to": "default-yes",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "triage",
+   "to": "reserved-list",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "triage",
+   "to": "playable-brief",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "desk",
+   "to": "decision-page",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "framework",
+   "to": "context-brief",
    "type": "needs",
    "source": "strategy"
   }

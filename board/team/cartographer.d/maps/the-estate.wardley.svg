@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-label="Dinis's estate: Sovereign Website, AgentiCCells, PrompTugal and the SGit stack" font-family="system-ui, sans-serif">
+<rect width="1400" height="1000" fill="#fff"/>
+<text x="70" y="30" font-size="20" font-weight="600" fill="#111">Dinis's estate: Sovereign Website, AgentiCCells, PrompTugal and the SGit stack</text>
+<text x="70" y="50" font-size="12" fill="#444">wardley map, draft, made 2026-11-22T16:51Z by cartographer.d@AgentiCCells.dinis from 2 sources (see the JSON)</text>
+<rect x="70" y="90" width="1300" height="820" fill="none" stroke="#999"/>
+<text x="76" y="928" font-size="12" fill="#555">Genesis</text>
+<line x1="395" y1="90" x2="395" y2="910" stroke="#ccc" stroke-dasharray="4 4"/>
+<text x="401" y="928" font-size="12" fill="#555">Custom-built</text>
+<line x1="720" y1="90" x2="720" y2="910" stroke="#ccc" stroke-dasharray="4 4"/>
+<text x="726" y="928" font-size="12" fill="#555">Product (+ rental)</text>
+<line x1="1045" y1="90" x2="1045" y2="910" stroke="#ccc" stroke-dasharray="4 4"/>
+<text x="1051" y="928" font-size="12" fill="#555">Commodity (+ utility)</text>
+<text x="70" y="960" font-size="12" fill="#555">Evolution, left to right</text>
+<text transform="translate(22 290) rotate(-90)" font-size="12" fill="#555">Visible to the user</text>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8z" fill="#888"/></marker></defs>
+<line x1="226" y1="96" x2="265" y2="125" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="226" y1="96" x2="200" y2="207" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="226" y1="96" x2="265" y2="412" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="642" y1="96" x2="590" y2="699" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="642" y1="96" x2="265" y2="412" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="642" y1="96" x2="395" y2="535" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="850" y1="161.6" x2="590" y2="149.6" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="1058" y1="96" x2="330" y2="149.6" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="1266" y1="161.6" x2="226" y2="166" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="265" y1="137" x2="590" y2="371" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="265" y1="137" x2="265" y2="248" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="265" y1="137" x2="265" y2="412" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="590" y1="161.6" x2="460" y2="330" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="590" y1="161.6" x2="525" y2="453" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="590" y1="161.6" x2="590" y2="371" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="590" y1="161.6" x2="265" y2="248" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="330" y1="161.6" x2="395" y2="592.4" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="330" y1="161.6" x2="720" y2="756.4" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="330" y1="161.6" x2="265" y2="248" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="226" y1="178" x2="395" y2="592.4" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="226" y1="178" x2="460" y2="576" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="226" y1="178" x2="655" y2="658" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="226" y1="178" x2="200" y2="617" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="200" y1="219" x2="265" y2="412" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="200" y1="219" x2="525" y2="453" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="265" y1="260" x2="590" y2="699" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="265" y1="260" x2="720" y2="756.4" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="460" y1="342" x2="720" y2="756.4" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="525" y1="465" x2="655" y2="740" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="265" y1="424" x2="395" y2="535" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="265" y1="424" x2="720" y2="756.4" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="265" y1="424" x2="590" y2="699" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="395" y1="547" x2="460" y2="576" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="460" y1="588" x2="655" y2="658" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="200" y1="629" x2="655" y2="658" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="395" y1="604.4" x2="720" y2="699" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="395" y1="604.4" x2="720" y2="756.4" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="395" y1="604.4" x2="460" y2="576" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="655" y1="670" x2="1045" y2="822" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="720" y1="711" x2="1240" y2="854.8" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="590" y1="711" x2="1305" y2="879.4" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="655" y1="752" x2="1305" y2="879.4" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="720" y1="768.4" x2="1305" y2="879.4" stroke="#888" stroke-width="1.2" marker-end="url(#a)"/>
+<line x1="395" y1="598.4" x2="720" y2="598.4" stroke="#d98200" stroke-width="2" stroke-dasharray="2 3" marker-end="url(#a)"/>
+<line x1="590" y1="377" x2="850" y2="377" stroke="#d98200" stroke-width="2" stroke-dasharray="2 3" marker-end="url(#a)"/>
+<line x1="226" y1="172" x2="460" y2="172" stroke="#d98200" stroke-width="2" stroke-dasharray="2 3" marker-end="url(#a)"/>
+<line x1="265" y1="254" x2="525" y2="254" stroke="#d98200" stroke-width="2" stroke-dasharray="2 3" marker-end="url(#a)"/>
+<line x1="720" y1="762.4" x2="915" y2="762.4" stroke="#d98200" stroke-width="2" stroke-dasharray="2 3" marker-end="url(#a)"/>
+<circle cx="226" cy="90" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>see what changed and what waits on him, from one place (the hub), and... (source: strategy) Dinis (operator); sherpa.d feedback-everywhere, Dinis ~13:45 UTC</title></circle>
+<text text-anchor="start" x="236" y="94" font-size="13" fill="#111">see what changed and what</text>
+<text text-anchor="start" x="236" y="106" font-size="13" fill="#111">waits on him, from one</text>
+<text text-anchor="start" x="236" y="118" font-size="13" fill="#111">place (the hub), and...</text>
+<circle cx="434" cy="155.6" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>enjoy a site on a topic they like, then feel the policies working (source: strategy) A visitor to a Sovereign Website (has agents, or may); sherpa.d journey-the-stand.md C1</title></circle>
+<text text-anchor="start" x="444" y="159.6" font-size="13" fill="#111">enjoy a site on a topic</text>
+<text text-anchor="start" x="444" y="171.6" font-size="13" fill="#111">they like, then feel the</text>
+<text text-anchor="start" x="444" y="183.6" font-size="13" fill="#111">policies working</text>
+<circle cx="642" cy="90" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>a verifiable message it can act on, knowing whom to ask and what it m... (source: strategy) Another agent; sherpa.d needs; CLAUDE.md 'Never blocked in silence'</title></circle>
+<text text-anchor="start" x="652" y="94" font-size="13" fill="#111">a verifiable message it</text>
+<text text-anchor="start" x="652" y="106" font-size="13" fill="#111">can act on, knowing whom</text>
+<text text-anchor="start" x="652" y="118" font-size="13" fill="#111">to ask and what it m...</text>
+<circle cx="850" cy="155.6" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>know in the first phone screen what this is, what is new, and whether... (source: strategy) A reader (PrompTugal); sherpa.d needs, from sherpa@ reviews of 16 Nov</title></circle>
+<text text-anchor="start" x="860" y="159.6" font-size="13" fill="#111">know in the first phone</text>
+<text text-anchor="start" x="860" y="171.6" font-size="13" fill="#111">screen what this is, what</text>
+<text text-anchor="start" x="860" y="183.6" font-size="13" fill="#111">is new, and whether...</text>
+<circle cx="1058" cy="90" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>a site they control, no lock-in, keys held by them; pay once (sherpa.... (source: strategy) A site owner (Sovereign Website); sherpa.d needs: hypothesis</title></circle>
+<text text-anchor="start" x="1068" y="94" font-size="13" fill="#111">a site they control, no</text>
+<text text-anchor="start" x="1068" y="106" font-size="13" fill="#111">lock-in, keys held by</text>
+<text text-anchor="start" x="1068" y="118" font-size="13" fill="#111">them; pay once (sherpa....</text>
+<circle cx="1266" cy="155.6" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>a ready-made cell of agents for one job, knowing what it may touch an... (source: strategy) A cell buyer (AgentiCCells); sherpa.d needs: hypothesis</title></circle>
+<text text-anchor="end" x="1256" y="159.6" font-size="13" fill="#111">a ready-made cell of</text>
+<text text-anchor="end" x="1256" y="171.6" font-size="13" fill="#111">agents for one job,</text>
+<text text-anchor="end" x="1256" y="183.6" font-size="13" fill="#111">knowing what it may touch</text>
+<text text-anchor="end" x="1256" y="195.6" font-size="13" fill="#111">an...</text>
+<circle cx="265" cy="131" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>The hub (way in, what changed, what waits) (source: strategy) sherpa.d feedback-everywhere; hub.d</title></circle>
+<text text-anchor="start" x="275" y="135" font-size="13" fill="#111">The hub (way in, what</text>
+<text text-anchor="start" x="275" y="147" font-size="13" fill="#111">changed, what waits)</text>
+<circle cx="590" cy="155.6" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>promptugal.news and its 13 sites (source: strategy) api/v1/sites.json</title></circle>
+<text text-anchor="start" x="600" y="159.6" font-size="13" fill="#111">promptugal.news and its 13</text>
+<text text-anchor="start" x="600" y="171.6" font-size="13" fill="#111">sites</text>
+<circle cx="330" cy="155.6" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>An owner's sovereign site (a fork) (source: strategy) Dinis ~13:15 UTC: 'every usage that we have is a brand ... clones of forks'</title></circle>
+<text text-anchor="start" x="340" y="159.6" font-size="13" fill="#111">An owner's sovereign site</text>
+<text text-anchor="start" x="340" y="171.6" font-size="13" fill="#111">(a fork)</text>
+<circle cx="226" cy="172" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>A cell (agents in a row, one output; email first) (source: strategy) Cell Email circle; landscape cell proposal</title></circle>
+<text text-anchor="start" x="236" y="176" font-size="13" fill="#111">A cell (agents in a row,</text>
+<text text-anchor="start" x="236" y="188" font-size="13" fill="#111">one output; email first)</text>
+<circle cx="200" cy="213" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Briefings and playable decision briefs (source: strategy) helm.d roles; decisions-at-scale section 2</title></circle>
+<text text-anchor="start" x="210" y="217" font-size="13" fill="#111">Briefings and playable</text>
+<text text-anchor="start" x="210" y="229" font-size="13" fill="#111">decision briefs</text>
+<circle cx="265" cy="254" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Feedback from every site (text, voice, to the right agent) (source: strategy) sherpa.d feedback-everywhere</title></circle>
+<text text-anchor="start" x="275" y="258" font-size="13" fill="#111">Feedback from every site</text>
+<text text-anchor="start" x="275" y="270" font-size="13" fill="#111">(text, voice, to the right</text>
+<text text-anchor="start" x="275" y="282" font-size="13" fill="#111">agent)</text>
+<circle cx="460" cy="336" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Provenance and licence on every piece (source: strategy) guidance 18 Nov (provenance; licences); spec-provenance-and-review.md</title></circle>
+<text text-anchor="start" x="470" y="340" font-size="13" fill="#111">Provenance and licence on</text>
+<text text-anchor="start" x="470" y="352" font-size="13" fill="#111">every piece</text>
+<circle cx="590" cy="377" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>One registry of sites and the sites bar (source: strategy) guidance 18-19 Nov sites bar; api/v1/sites.json</title></circle>
+<text text-anchor="start" x="600" y="381" font-size="13" fill="#111">One registry of sites and</text>
+<text text-anchor="start" x="600" y="393" font-size="13" fill="#111">the sites bar</text>
+<circle cx="525" cy="459" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Public-data pipelines (raw, JSON, view, API per source) (source: strategy) guidance 18 Nov pipeline standard</title></circle>
+<text text-anchor="start" x="535" y="463" font-size="13" fill="#111">Public-data pipelines</text>
+<text text-anchor="start" x="535" y="475" font-size="13" fill="#111">(raw, JSON, view, API per</text>
+<text text-anchor="start" x="535" y="487" font-size="13" fill="#111">source)</text>
+<circle cx="265" cy="418" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Decision flow (Map 1) (source: strategy) board/team/strategy.d/maps/2026-11-22-decision-making/</title></circle>
+<text text-anchor="start" x="275" y="422" font-size="13" fill="#111">Decision flow (Map 1)</text>
+<circle cx="395" cy="541" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Roles, circles and the governance record (source: strategy) holacracy.d org-chart.json</title></circle>
+<text text-anchor="start" x="405" y="545" font-size="13" fill="#111">Roles, circles and the</text>
+<text text-anchor="start" x="405" y="557" font-size="13" fill="#111">governance record</text>
+<circle cx="460" cy="582" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Agent Behaviour Policies and hooks (source: strategy) board/abp/, policy v1.19.2</title></circle>
+<text text-anchor="start" x="470" y="586" font-size="13" fill="#111">Agent Behaviour Policies</text>
+<text text-anchor="start" x="470" y="598" font-size="13" fill="#111">and hooks</text>
+<circle cx="395" cy="598.4" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Site factory (seeds repositories, templates, checks) (source: strategy) SovereignWebsite__Factory, AgentiCCells__Site__Factory (org chart)</title></circle>
+<text text-anchor="start" x="405" y="602.4" font-size="13" fill="#111">Site factory (seeds</text>
+<text text-anchor="start" x="405" y="614.4" font-size="13" fill="#111">repositories, templates,</text>
+<text text-anchor="start" x="405" y="626.4" font-size="13" fill="#111">checks)</text>
+<circle cx="200" cy="623" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Primitives and budgets across accounts (source: strategy) decisions-at-scale section 8; account B paused at 96% of its seven-day limit (org chart)</title></circle>
+<text text-anchor="start" x="210" y="627" font-size="13" fill="#111">Primitives and budgets</text>
+<text text-anchor="start" x="210" y="639" font-size="13" fill="#111">across accounts</text>
+<circle cx="655" cy="664" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Agent sessions, twins across accounts (source: strategy) org chart: account D and account B</title></circle>
+<text text-anchor="start" x="665" y="668" font-size="13" fill="#111">Agent sessions, twins</text>
+<text text-anchor="start" x="665" y="680" font-size="13" fill="#111">across accounts</text>
+<circle cx="720" cy="705" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Gate, release queue, CI-owned versions (source: strategy) CLAUDE.md 'Branches and versions'</title></circle>
+<text text-anchor="start" x="730" y="709" font-size="13" fill="#111">Gate, release queue,</text>
+<text text-anchor="start" x="730" y="721" font-size="13" fill="#111">CI-owned versions</text>
+<circle cx="590" cy="705" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Signed, sealed append lanes (inboxes) (source: strategy) board/inboxes/, agent_inboxes.py</title></circle>
+<text text-anchor="start" x="600" y="709" font-size="13" fill="#111">Signed, sealed append</text>
+<text text-anchor="start" x="600" y="721" font-size="13" fill="#111">lanes (inboxes)</text>
+<circle cx="655" cy="746" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Encrypted vaults (source: strategy) CLAUDE.md; guidance 21 Nov private vault</title></circle>
+<text text-anchor="start" x="665" y="750" font-size="13" fill="#111">Encrypted vaults</text>
+<circle cx="720" cy="762.4" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Agent and person keys, signed commits, pki.sgit.ai (source: strategy) board/keys.json; board/person-keys.json; guidance 19 Nov signed commits</title></circle>
+<text text-anchor="start" x="730" y="766.4" font-size="13" fill="#111">Agent and person keys,</text>
+<text text-anchor="start" x="730" y="778.4" font-size="13" fill="#111">signed commits,</text>
+<text text-anchor="start" x="730" y="790.4" font-size="13" fill="#111">pki.sgit.ai</text>
+<circle cx="1045" cy="828" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>LLM sessions (Claude Code accounts, OpenRouter) (source: strategy) CLAUDE.md OpenRouter key; org chart accounts</title></circle>
+<text text-anchor="start" x="1055" y="832" font-size="13" fill="#111">LLM sessions (Claude Code</text>
+<text text-anchor="start" x="1055" y="844" font-size="13" fill="#111">accounts, OpenRouter)</text>
+<circle cx="1240" cy="860.8" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Git hosting, CI and static hosting (source: strategy) .github/workflows/deploy-pages.yml</title></circle>
+<text text-anchor="end" x="1230" y="864.8" font-size="13" fill="#111">Git hosting, CI and static</text>
+<text text-anchor="end" x="1230" y="876.8" font-size="13" fill="#111">hosting</text>
+<circle cx="1305" cy="885.4" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Public-key cryptography (source: strategy) commodity</title></circle>
+<text text-anchor="end" x="1295" y="889.4" font-size="13" fill="#111">Public-key cryptography</text>
+<text x="70" y="986" font-size="11" fill="#555">Green: user need. Purple: the shared goal. Blue: component. Red ring: a gap (named as missing in the sources). Orange arrow: a suggested move, for strategy.d. Faint dashed: low confidence. Positions are a reading of the sources.</text>
+</svg>

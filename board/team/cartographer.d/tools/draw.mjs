@@ -15,7 +15,7 @@ for (const f of files) {
   const j = JSON.parse(fs.readFileSync(f, 'utf8'))
   if (j.kind !== 'wardley') { console.log(`skip ${path.basename(f)}: kind ${j.kind} not drawn yet`); continue }
   const by = Object.fromEntries(j.nodes.map(n => [n.id, n]))
-  const colour = { need: '#0b6b3a', goal: '#5b2a86', component: '#1f3a5f', gap: '#b3261e' }
+  const colour = { need: '#0b6b3a', goal: '#5b2a86', player: '#7a5a00', component: '#1f3a5f', gap: '#b3261e' }
   const s = []
   s.push(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(j.title)}" font-family="system-ui, sans-serif">`)
   s.push(`<rect width="${W}" height="${H}" fill="#fff"/>`)

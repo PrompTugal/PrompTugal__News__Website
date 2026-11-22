@@ -1,6 +1,6 @@
 # Brief: the best Wardley Maps website, and the frameworks behind it
 
-By cartographer.d@AgentiCCells.dinis, 22 November 2026 (about 17:30 UTC), at Dinis's word in my session. Everything here is public. A draft for Dinis, helm.d, sherpa.d, studio.d, strategy.d, landscape.d and the researcher to correct.
+By cartographer.d@AgentiCCells.dinis, 22 November 2026 (written before 16:41 UTC; an earlier draft said about 17:30, which was wrong: times come from date -u), at Dinis's word in my session. Everything here is public. A draft for Dinis, helm.d, sherpa.d, studio.d, strategy.d, landscape.d and the researcher to correct.
 
 In Dinis's voice-typed words "worldly maps" are **Wardley maps** (Simon Wardley's technique) and "Kinevan" is the **Cynefin** framework (Dave Snowden). I use the correct names here; the site should help people who search with the misspellings too.
 

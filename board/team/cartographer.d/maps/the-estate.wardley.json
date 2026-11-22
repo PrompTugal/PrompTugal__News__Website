@@ -1,0 +1,612 @@
+{
+ "format": "carto-map/1",
+ "id": "the-estate",
+ "kind": "wardley",
+ "status": "draft",
+ "title": "Dinis's estate: Sovereign Website, AgentiCCells, PrompTugal and the SGit stack",
+ "version": "0.2.0",
+ "made": "2026-11-22T16:51Z",
+ "made_by": "cartographer.d@AgentiCCells.dinis",
+ "for": "strategy.d decides what the map means; positions are strategy.d's judgement, drawn as given",
+ "sources_read": {
+  "strategy": "board/team/strategy.d/maps/2026-11-22-the-estate/map.json v0.2.0, drawn 2026-11-22T15:50Z, read 22 Nov 2026 (components, positions, evidence, links, users)",
+  "sherpa": "board/team/sherpa.d/needs/needs.json where a user's needs are named there"
+ },
+ "axes": {
+  "y": "visibility to the user (1 = the user sees it)",
+  "x": "evolution: genesis 0, custom 0.25, product 0.5, commodity 0.75 to 1"
+ },
+ "users": [
+  {
+   "id": "dinis",
+   "label": "Dinis (operator)",
+   "source": "strategy"
+  },
+  {
+   "id": "visitor",
+   "label": "A visitor to a Sovereign Website (has agents, or may)",
+   "source": "strategy"
+  },
+  {
+   "id": "agent",
+   "label": "Another agent",
+   "source": "strategy"
+  },
+  {
+   "id": "reader",
+   "label": "A reader (PrompTugal)",
+   "source": "strategy"
+  },
+  {
+   "id": "owner",
+   "label": "A site owner (Sovereign Website)",
+   "source": "strategy"
+  },
+  {
+   "id": "buyer",
+   "label": "A cell buyer (AgentiCCells)",
+   "source": "strategy"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "need-dinis",
+   "label": "see what changed and what waits on him, from one place (the hub), and...",
+   "type": "need",
+   "visibility": 1,
+   "evolution": 0.12,
+   "hypothesis": true,
+   "source": "strategy",
+   "evidence": "Dinis (operator); sherpa.d feedback-everywhere, Dinis ~13:45 UTC"
+  },
+  {
+   "id": "need-visitor",
+   "label": "enjoy a site on a topic they like, then feel the policies working",
+   "type": "need",
+   "visibility": 0.92,
+   "evolution": 0.28,
+   "hypothesis": true,
+   "source": "strategy",
+   "evidence": "A visitor to a Sovereign Website (has agents, or may); sherpa.d journey-the-stand.md C1"
+  },
+  {
+   "id": "need-agent",
+   "label": "a verifiable message it can act on, knowing whom to ask and what it m...",
+   "type": "need",
+   "visibility": 1,
+   "evolution": 0.44,
+   "hypothesis": true,
+   "source": "strategy",
+   "evidence": "Another agent; sherpa.d needs; CLAUDE.md 'Never blocked in silence'"
+  },
+  {
+   "id": "need-reader",
+   "label": "know in the first phone screen what this is, what is new, and whether...",
+   "type": "need",
+   "visibility": 0.92,
+   "evolution": 0.6,
+   "hypothesis": true,
+   "source": "strategy",
+   "evidence": "A reader (PrompTugal); sherpa.d needs, from sherpa@ reviews of 16 Nov"
+  },
+  {
+   "id": "need-owner",
+   "label": "a site they control, no lock-in, keys held by them; pay once (sherpa....",
+   "type": "need",
+   "visibility": 1,
+   "evolution": 0.76,
+   "hypothesis": true,
+   "source": "strategy",
+   "evidence": "A site owner (Sovereign Website); sherpa.d needs: hypothesis"
+  },
+  {
+   "id": "need-buyer",
+   "label": "a ready-made cell of agents for one job, knowing what it may touch an...",
+   "type": "need",
+   "visibility": 0.92,
+   "evolution": 0.92,
+   "hypothesis": true,
+   "source": "strategy",
+   "evidence": "A cell buyer (AgentiCCells); sherpa.d needs: hypothesis"
+  },
+  {
+   "id": "hub",
+   "label": "The hub (way in, what changed, what waits)",
+   "type": "component",
+   "visibility": 0.95,
+   "evolution": 0.15,
+   "source": "strategy",
+   "evidence": "sherpa.d feedback-everywhere; hub.d"
+  },
+  {
+   "id": "news-site",
+   "label": "promptugal.news and its 13 sites",
+   "type": "component",
+   "visibility": 0.92,
+   "evolution": 0.4,
+   "source": "strategy",
+   "evidence": "api/v1/sites.json"
+  },
+  {
+   "id": "owned-site",
+   "label": "An owner's sovereign site (a fork)",
+   "type": "component",
+   "visibility": 0.92,
+   "evolution": 0.2,
+   "source": "strategy",
+   "evidence": "Dinis ~13:15 UTC: 'every usage that we have is a brand ... clones of forks'"
+  },
+  {
+   "id": "cell",
+   "label": "A cell (agents in a row, one output; email first)",
+   "type": "component",
+   "visibility": 0.9,
+   "evolution": 0.12,
+   "source": "strategy",
+   "evidence": "Cell Email circle; landscape cell proposal"
+  },
+  {
+   "id": "briefings",
+   "label": "Briefings and playable decision briefs",
+   "type": "component",
+   "visibility": 0.85,
+   "evolution": 0.1,
+   "source": "strategy",
+   "evidence": "helm.d roles; decisions-at-scale section 2"
+  },
+  {
+   "id": "feedback",
+   "label": "Feedback from every site (text, voice, to the right agent)",
+   "type": "component",
+   "visibility": 0.8,
+   "evolution": 0.15,
+   "source": "strategy",
+   "evidence": "sherpa.d feedback-everywhere"
+  },
+  {
+   "id": "provenance",
+   "label": "Provenance and licence on every piece",
+   "type": "component",
+   "visibility": 0.7,
+   "evolution": 0.3,
+   "source": "strategy",
+   "evidence": "guidance 18 Nov (provenance; licences); spec-provenance-and-review.md"
+  },
+  {
+   "id": "sites-registry",
+   "label": "One registry of sites and the sites bar",
+   "type": "component",
+   "visibility": 0.65,
+   "evolution": 0.4,
+   "source": "strategy",
+   "evidence": "guidance 18-19 Nov sites bar; api/v1/sites.json"
+  },
+  {
+   "id": "data-pipelines",
+   "label": "Public-data pipelines (raw, JSON, view, API per source)",
+   "type": "component",
+   "visibility": 0.55,
+   "evolution": 0.35,
+   "source": "strategy",
+   "evidence": "guidance 18 Nov pipeline standard"
+  },
+  {
+   "id": "decision-flow",
+   "label": "Decision flow (Map 1)",
+   "type": "component",
+   "visibility": 0.6,
+   "evolution": 0.15,
+   "source": "strategy",
+   "evidence": "board/team/strategy.d/maps/2026-11-22-decision-making/"
+  },
+  {
+   "id": "governance",
+   "label": "Roles, circles and the governance record",
+   "type": "component",
+   "visibility": 0.45,
+   "evolution": 0.25,
+   "source": "strategy",
+   "evidence": "holacracy.d org-chart.json"
+  },
+  {
+   "id": "abp",
+   "label": "Agent Behaviour Policies and hooks",
+   "type": "component",
+   "visibility": 0.4,
+   "evolution": 0.3,
+   "source": "strategy",
+   "evidence": "board/abp/, policy v1.19.2"
+  },
+  {
+   "id": "factory",
+   "label": "Site factory (seeds repositories, templates, checks)",
+   "type": "component",
+   "visibility": 0.38,
+   "evolution": 0.25,
+   "source": "strategy",
+   "evidence": "SovereignWebsite__Factory, AgentiCCells__Site__Factory (org chart)"
+  },
+  {
+   "id": "budgets",
+   "label": "Primitives and budgets across accounts",
+   "type": "component",
+   "visibility": 0.35,
+   "evolution": 0.1,
+   "source": "strategy",
+   "evidence": "decisions-at-scale section 8; account B paused at 96% of its seven-day limit (org chart)"
+  },
+  {
+   "id": "agent-sessions",
+   "label": "Agent sessions, twins across accounts",
+   "type": "component",
+   "visibility": 0.3,
+   "evolution": 0.45,
+   "source": "strategy",
+   "evidence": "org chart: account D and account B"
+  },
+  {
+   "id": "gate-release",
+   "label": "Gate, release queue, CI-owned versions",
+   "type": "component",
+   "visibility": 0.25,
+   "evolution": 0.5,
+   "source": "strategy",
+   "evidence": "CLAUDE.md 'Branches and versions'"
+  },
+  {
+   "id": "lanes",
+   "label": "Signed, sealed append lanes (inboxes)",
+   "type": "component",
+   "visibility": 0.25,
+   "evolution": 0.4,
+   "source": "strategy",
+   "evidence": "board/inboxes/, agent_inboxes.py"
+  },
+  {
+   "id": "vaults",
+   "label": "Encrypted vaults",
+   "type": "component",
+   "visibility": 0.2,
+   "evolution": 0.45,
+   "source": "strategy",
+   "evidence": "CLAUDE.md; guidance 21 Nov private vault"
+  },
+  {
+   "id": "keys",
+   "label": "Agent and person keys, signed commits, pki.sgit.ai",
+   "type": "component",
+   "visibility": 0.18,
+   "evolution": 0.5,
+   "source": "strategy",
+   "evidence": "board/keys.json; board/person-keys.json; guidance 19 Nov signed commits"
+  },
+  {
+   "id": "llm",
+   "label": "LLM sessions (Claude Code accounts, OpenRouter)",
+   "type": "component",
+   "visibility": 0.1,
+   "evolution": 0.75,
+   "source": "strategy",
+   "evidence": "CLAUDE.md OpenRouter key; org chart accounts"
+  },
+  {
+   "id": "git-hosting",
+   "label": "Git hosting, CI and static hosting",
+   "type": "component",
+   "visibility": 0.06,
+   "evolution": 0.9,
+   "source": "strategy",
+   "evidence": ".github/workflows/deploy-pages.yml"
+  },
+  {
+   "id": "crypto",
+   "label": "Public-key cryptography",
+   "type": "component",
+   "visibility": 0.03,
+   "evolution": 0.95,
+   "source": "strategy",
+   "evidence": "commodity"
+  }
+ ],
+ "links": [
+  {
+   "from": "need-dinis",
+   "to": "hub",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "need-dinis",
+   "to": "briefings",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "need-dinis",
+   "to": "decision-flow",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "need-agent",
+   "to": "lanes",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "need-agent",
+   "to": "decision-flow",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "need-agent",
+   "to": "governance",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "need-reader",
+   "to": "news-site",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "need-owner",
+   "to": "owned-site",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "need-buyer",
+   "to": "cell",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "hub",
+   "to": "sites-registry",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "hub",
+   "to": "feedback",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "hub",
+   "to": "decision-flow",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "news-site",
+   "to": "provenance",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "news-site",
+   "to": "data-pipelines",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "news-site",
+   "to": "sites-registry",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "news-site",
+   "to": "feedback",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "owned-site",
+   "to": "factory",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "owned-site",
+   "to": "keys",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "owned-site",
+   "to": "feedback",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "cell",
+   "to": "factory",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "cell",
+   "to": "abp",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "cell",
+   "to": "agent-sessions",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "cell",
+   "to": "budgets",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "briefings",
+   "to": "decision-flow",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "briefings",
+   "to": "data-pipelines",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "feedback",
+   "to": "lanes",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "feedback",
+   "to": "keys",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "provenance",
+   "to": "keys",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "data-pipelines",
+   "to": "vaults",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "decision-flow",
+   "to": "governance",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "decision-flow",
+   "to": "keys",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "decision-flow",
+   "to": "lanes",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "governance",
+   "to": "abp",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "abp",
+   "to": "agent-sessions",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "budgets",
+   "to": "agent-sessions",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "factory",
+   "to": "gate-release",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "factory",
+   "to": "keys",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "factory",
+   "to": "abp",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "agent-sessions",
+   "to": "llm",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "gate-release",
+   "to": "git-hosting",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "lanes",
+   "to": "crypto",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "vaults",
+   "to": "crypto",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "keys",
+   "to": "crypto",
+   "type": "needs",
+   "source": "strategy"
+  }
+ ],
+ "moves": [
+  {
+   "node": "factory",
+   "to": 0.5,
+   "why": "one factory for both site factories: every fork seeded the same way, with keys, ABP and the gate",
+   "source": "strategy",
+   "kind": "strategy.d's movement"
+  },
+  {
+   "node": "sites-registry",
+   "to": 0.6,
+   "why": "one registry for every area's sites, read by the hub",
+   "source": "strategy",
+   "kind": "strategy.d's movement"
+  },
+  {
+   "node": "cell",
+   "to": 0.3,
+   "why": "from the email cell to a repeatable product (landscape, decision cells)",
+   "source": "strategy",
+   "kind": "strategy.d's movement"
+  },
+  {
+   "node": "feedback",
+   "to": 0.35,
+   "why": "one door per kind of user into the same lanes, on every site",
+   "source": "strategy",
+   "kind": "strategy.d's movement"
+  },
+  {
+   "node": "keys",
+   "to": 0.65,
+   "why": "signing and verifying become a product others use (the SGit stack)",
+   "source": "strategy",
+   "kind": "strategy.d's movement"
+  }
+ ],
+ "notes": [
+  "Positions are strategy.d's judgement, drawn as given; I have moved none. strategy.d decides what the map means.",
+  "One need per user, at the top, from strategy.d's users; sherpa.d's needs are used where the user names them."
+ ]
+}
