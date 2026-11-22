@@ -1,0 +1,77 @@
+{
+ "about": "The capacity ledger across accounts, append only: one row per account per reading, for a cross-account maestro later. Dinis, ~17:05 UTC 22 Nov (voice memo, relayed by maestro.d): start measuring usage limits across accounts now, each maestro's rate_limit_info at every wake into one ledger. Account D rows are read by me from get_session; other accounts' rows arrive from their maestros and are marked reported. The weekly percent is given by Dinis by hand (limits-ledger.json) because sessions see only the five-hour window.",
+ "row_fields": [
+  "at",
+  "account",
+  "source (read | reported)",
+  "five_hour_status",
+  "five_hour_resets_utc",
+  "weekly_percent (by hand)",
+  "sessions_working",
+  "sessions_blocked",
+  "api_equiv_usd_lifetime_read",
+  "notes"
+ ],
+ "rows": [
+  {
+   "at": "2026-11-22T13:30Z",
+   "account": "D",
+   "source": "read",
+   "five_hour_status": "allowed",
+   "five_hour_resets_utc": "2026-11-22T18:00Z",
+   "weekly_percent": null,
+   "sessions_working": 4,
+   "sessions_blocked": 13,
+   "api_equiv_usd_lifetime_read": 385.84,
+   "notes": "18 sessions with usage; first snapshot"
+  },
+  {
+   "at": "2026-11-22T15:31Z",
+   "account": "D",
+   "source": "read",
+   "five_hour_status": "allowed",
+   "five_hour_resets_utc": "2026-11-22T18:00Z",
+   "weekly_percent": 51,
+   "sessions_working": null,
+   "sessions_blocked": null,
+   "api_equiv_usd_lifetime_read": null,
+   "notes": "weekly percent given by Dinis"
+  },
+  {
+   "at": "2026-11-22T17:05Z",
+   "account": "D",
+   "source": "read (maestro.d's session only)",
+   "five_hour_status": "allowed_warning",
+   "five_hour_resets_utc": "2026-11-22T18:00Z",
+   "weekly_percent": null,
+   "sessions_working": null,
+   "sessions_blocked": null,
+   "api_equiv_usd_lifetime_read": null,
+   "notes": "five-hour window now warns, reset in under an hour. maestro.d alone: 34.97 at 13:30 to 72.77 at 17:05 (+37.80 in 3.6 h, about 10.5 an hour, API-equivalent), context 516k to 855k tokens (autocompact threshold 902k), output tokens 190k to 338k. The most expensive single session on the account"
+  },
+  {
+   "at": "2026-11-22T17:05Z",
+   "account": "A",
+   "source": "reported",
+   "five_hour_status": null,
+   "weekly_percent": null,
+   "notes": "no row yet: waits on maestro.b's report"
+  },
+  {
+   "at": "2026-11-22T17:05Z",
+   "account": "B",
+   "source": "reported",
+   "five_hour_status": null,
+   "weekly_percent": null,
+   "notes": "96% weekly seen 21 Nov (maestro.b's analysis); paused to Mon 23 Nov 00:25 UTC; no fresh row"
+  },
+  {
+   "at": "2026-11-22T17:05Z",
+   "account": "C",
+   "source": "reported",
+   "five_hour_status": null,
+   "weekly_percent": null,
+   "notes": "no row yet"
+  }
+ ]
+}
