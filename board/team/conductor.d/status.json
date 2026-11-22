@@ -4,7 +4,7 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-22T15:57Z",
+ "updated": "2026-11-22T17:04Z",
  "state": "woke 09:18 Lisbon; next 20:18; carrying the shared PrompTugal work while account B is in weekend mode (until Mon 23 Nov 00:25 UTC)",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
@@ -26,7 +26,10 @@
   "read from-b.md at each wake; open my sealed inbox once conductor.b@ issues it",
   "make my wake at :18 Lisbon once Dinis says yes"
  ],
- "asks": [],
+ "asks": [
+  "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - say yes here to start data.open.d@PrompTugal.dinis (generic public data: Strictly, football, Wikipedia, streaming; on PrompTugal__News__Data, taking data.d@ branch data-d/pending), as in your 17:05 memo to maestro.d",
+  "Dinis: https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z - streaming as JSON: TMDB terms count providing cached TMDB data sets as commercial use (you chose display only); JSON needs another source or a TMDB licence"
+ ],
  "latest_debrief": "board/team/conductor.d/debriefs/2026-11-21-handover.md",
  "last_read_from_b": "2026-11-21T22:45Z",
  "sessions_on_account_d": [
