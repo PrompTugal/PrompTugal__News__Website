@@ -1,0 +1,548 @@
+{
+ "format": "carto-map/1",
+ "id": "landscape-sovereign-website",
+ "kind": "wardley",
+ "status": "draft",
+ "title": "Landscape: sovereign-website, rings 1,3",
+ "version": "0.1.0",
+ "made": "2026-11-22T16:22Z",
+ "made_by": "cartographer.d@AgentiCCells.dinis",
+ "for": "landscape.d and strategy.d (what it means); the players are landscape.d's findings, the positions are my reading",
+ "sources_read": {
+  "landscape": "board/team/landscape.d/landscapes/sovereign-website/rows.json (landscape-rows/1, made 2026-11-22T16:30Z), read 22 Nov 2026; each row's facts and URLs are in landscape.json beside it",
+  "cartographer": "cartographer.d's reading: where each group of players stands on visibility and evolution, and the gap. A judgement, not a measurement; strategy.d may move any node with a reason"
+ },
+ "draw": {
+  "links": "none"
+ },
+ "axes": {
+  "y": "visibility to the user (1 = the user sees it)",
+  "x": "evolution: genesis 0, custom 0.25, product 0.5, commodity 0.75 to 1"
+ },
+ "users": [
+  {
+   "id": "u-owner",
+   "label": "A small-business owner who wants a site",
+   "source": "landscape"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "pn-own-it-move-it",
+   "label": "Own the site's files and address, and move it freely",
+   "type": "need",
+   "visibility": 1,
+   "evolution": 0.18,
+   "hypothesis": true,
+   "source": "landscape",
+   "evidence": "proposed by landscape.d, marked as its own and not sherpa.d's"
+  },
+  {
+   "id": "pn-no-technical-skill",
+   "label": "Get a working site without a terminal, code or hosting set-up.",
+   "type": "need",
+   "visibility": 1,
+   "evolution": 0.4,
+   "hypothesis": true,
+   "source": "landscape",
+   "evidence": "proposed by landscape.d, marked as its own and not sherpa.d's"
+  },
+  {
+   "id": "pn-know-where-it-lives",
+   "label": "Know which country and company hold the site and its data.",
+   "type": "need",
+   "visibility": 1,
+   "evolution": 0.62,
+   "hypothesis": true,
+   "source": "landscape",
+   "evidence": "proposed by landscape.d, marked as its own and not sherpa.d's"
+  },
+  {
+   "id": "pn-pay-once",
+   "label": "Pay once or a clear price, not a subscription that renews higher.",
+   "type": "need",
+   "visibility": 1,
+   "evolution": 0.84,
+   "hypothesis": true,
+   "source": "landscape",
+   "evidence": "proposed by landscape.d, marked as its own and not sherpa.d's"
+  },
+  {
+   "id": "sw-p-infomaniak-site-creator",
+   "label": "Infomaniak Site Creator",
+   "player": "Infomaniak Site Creator",
+   "type": "component",
+   "ring": 1,
+   "group": "builder",
+   "visibility": 0.82,
+   "evolution": 0.65,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Drag-and-drop builder for showcase sites, blogs and shops, 50+ themes, AI-assisted creation (read via search snippet; page body did not load). Price: Tiers: free (1 page, no custom domain, ads), Lite (6 pages, 15 GB), Pro (unlimited pages, 50 GB, e-commerce); currency and billing period not found; included free with a hosting plan.. https://www.infomaniak.com/en/create-a-website/site-creator (read 2026-11-22); flagged for re-read by landscape.d"
+  },
+  {
+   "id": "sw-p-saldiabuild",
+   "label": "saldiaBuild",
+   "player": "saldiaBuild",
+   "type": "component",
+   "ring": 1,
+   "group": "ai-closed",
+   "visibility": 0.86,
+   "evolution": 0.31,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "AI website builder: describe the site in plain words and the AI builds the pages; sold as hosted in Switzerland. Price: not found on the page read. https://www.saldia.ch/en (read 2026-11-22)"
+  },
+  {
+   "id": "sw-p-ionos-mywebsite",
+   "label": "IONOS MyWebsite",
+   "player": "IONOS MyWebsite",
+   "type": "component",
+   "ring": 1,
+   "group": "builder",
+   "visibility": 0.77,
+   "evolution": 0.72,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Builder (MyWebsite Now) in Starter, Plus and Pro plus store variants; domain, SSL and email included. Price: Shown in $ on the .com page, monthly on a 1-year term: Starter $6 then $14, Plus $1 then $20, Pro $17; stores higher; 30-day money-back.. https://www.ionos.com/websites/website-builder (read 2026-11-22)"
+  },
+  {
+   "id": "sw-p-jimdo",
+   "label": "Jimdo",
+   "player": "Jimdo",
+   "type": "component",
+   "ring": 1,
+   "group": "builder",
+   "visibility": 0.72,
+   "evolution": 0.79,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Website and store builder with add-ons (listings, bookings, forms, payments, invoicing) and the Companion AI assistant; free start without a card. Price: Plans Free, Start, Grow, Complete, Unlimited; per-plan prices not shown on the page read; terms monthly, 12 or 24 months, auto-renewing, EUR incl. VAT; domain EUR 26/yr after first term; 0% sales commission.. https://www.jimdo.com/ (read 2026-11-22)"
+  },
+  {
+   "id": "sw-p-hostinger-website-builder",
+   "label": "Hostinger Website Builder",
+   "player": "Hostinger Website Builder",
+   "type": "component",
+   "ring": 1,
+   "group": "builder",
+   "visibility": 0.67,
+   "evolution": 0.69,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Drag-and-drop builder with templates, AI site generation, hosting, domain, ecommerce and marketing tools, 14-day free trial. Price: USD, paid over 48 months: Premium $1.99/mo (renews $10.99), Unlimited $2.79 (renews $16.99), Cloud Startup $7.99 (renews $25.99); 30-day money-back.. https://www.hostinger.com/website-builder (read 2026-11-22); flagged for re-read by landscape.d"
+  },
+  {
+   "id": "sw-p-framer",
+   "label": "Framer",
+   "player": "Framer",
+   "type": "component",
+   "ring": 1,
+   "group": "builder",
+   "visibility": 0.62,
+   "evolution": 0.76,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "In $ (currency unnamed): Free $0, Basic $10/mo, Pro $30/mo, Enterprise custom; overages per unit (e.g. $50 per 100 GB bandwidth, $20 per extra editor). Price: In $ (currency unnamed): Free $0, Basic $10/mo, Pro $30/mo, Enterprise custom; overages per unit (e.g. $50 per 100 GB bandwidth, $20 per extra editor).. https://www.framer.com/pricing (read 2026-11-22)"
+  },
+  {
+   "id": "sw-p-hugo",
+   "label": "Hugo",
+   "player": "Hugo",
+   "type": "component",
+   "ring": 3,
+   "group": "engine",
+   "visibility": 0.34,
+   "evolution": 0.73,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Open-source static site generator in Go, says it is very fast. Price: Software free; no hosting product or price on the homepage.. https://gohugo.io/ (read 2026-11-22)"
+  },
+  {
+   "id": "sw-p-jekyll",
+   "label": "Jekyll",
+   "player": "Jekyll",
+   "type": "component",
+   "ring": 3,
+   "group": "engine",
+   "visibility": 0.29,
+   "evolution": 0.8,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Turns Markdown, Liquid, HTML and CSS into a static site; no database. Price: software free (see licence fact); hosting and any AI key cost extra. https://jekyllrb.com/ (read 2026-11-22)"
+  },
+  {
+   "id": "sw-p-eleventy",
+   "label": "Eleventy",
+   "player": "Eleventy",
+   "type": "component",
+   "ring": 3,
+   "group": "engine",
+   "visibility": 0.24,
+   "evolution": 0.87,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Static site generator from a folder of Markdown, HTML or custom files; calls itself stable, secure and privacy-focused. Price: No price; sponsor-funded.. https://www.11ty.dev/ (read 2026-11-22)"
+  },
+  {
+   "id": "sw-p-astro",
+   "label": "Astro",
+   "player": "Astro",
+   "type": "component",
+   "ring": 3,
+   "group": "engine",
+   "visibility": 0.19,
+   "evolution": 0.77,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "JavaScript framework for content-driven sites sending light HTML. Price: software free (see licence fact); hosting and any AI key cost extra. https://astro.build/ (read 2026-11-22)"
+  },
+  {
+   "id": "sw-p-zola",
+   "label": "Zola",
+   "player": "Zola",
+   "type": "component",
+   "ring": 3,
+   "group": "engine",
+   "visibility": 0.14,
+   "evolution": 0.84,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Static site engine as one executable with Sass and syntax highlighting built in. Price: software free (see licence fact); hosting and any AI key cost extra. https://www.getzola.org/ (read 2026-11-22); flagged for re-read by landscape.d"
+  },
+  {
+   "id": "sw-p-wordpress",
+   "label": "WordPress",
+   "player": "WordPress",
+   "type": "component",
+   "ring": 3,
+   "group": "cms",
+   "visibility": 0.54,
+   "evolution": 0.71,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Open-source publishing software on PHP and MariaDB behind millions of sites. Price: software free; hosting extra. https://wordpress.org/about/ (read 2026-11-22)"
+  },
+  {
+   "id": "sw-p-ghost",
+   "label": "Ghost",
+   "player": "Ghost",
+   "type": "component",
+   "ring": 3,
+   "group": "cms",
+   "visibility": 0.49,
+   "evolution": 0.78,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "MIT. Price: Managed Ghost(Pro), billed yearly, in $: Starter $18/mo, Publisher $29/mo, Business $199/mo, Custom.. https://raw.githubusercontent.com/TryGhost/Ghost/main/LICENSE (read 2026-11-22)"
+  },
+  {
+   "id": "sw-p-boltdiy",
+   "label": "bolt.diy",
+   "player": "bolt.diy",
+   "type": "component",
+   "ring": 3,
+   "group": "ai-open",
+   "visibility": 0.66,
+   "evolution": 0.15,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Community fork of bolt.new: browser workspace to prompt, edit, run and deploy full-stack apps with any LLM. Price: Software free; you pay your LLM provider or use local models.. https://github.com/stackblitz-labs/bolt.diy (read 2026-11-22)"
+  },
+  {
+   "id": "sw-p-dyad",
+   "label": "Dyad",
+   "player": "Dyad",
+   "type": "component",
+   "ring": 3,
+   "group": "ai-open",
+   "visibility": 0.61,
+   "evolution": 0.22,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Local open-source AI app builder positioned against Lovable, v0 and Bolt; for power users. Price: Free download; bring your own AI API keys.. https://github.com/dyad-sh/dyad (read 2026-11-22)"
+  },
+  {
+   "id": "sw-p-tinykit",
+   "label": "tinykit",
+   "player": "tinykit",
+   "type": "component",
+   "ring": 3,
+   "group": "ai-open",
+   "visibility": 0.56,
+   "evolution": 0.29,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Self-hostable AI app builder on PocketBase, billed as a Lovable/v0 alternative with built-in database. Price: software free (see licence fact); hosting and any AI key cost extra. https://github.com/tinykit-studio/tinykit (read 2026-11-22)"
+  },
+  {
+   "id": "sw-p-ai-app-builder-open-totalum",
+   "label": "AI App Builder Open (Totalum)",
+   "player": "AI App Builder Open (Totalum)",
+   "type": "component",
+   "ring": 3,
+   "group": "ai-open",
+   "visibility": 0.51,
+   "evolution": 0.19,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Prompt-to-Next.js app builder with live preview, GitHub sync and custom domains. Price: Code free; Totalum key free to start with 50 AI credits, then usage-based.. https://github.com/totalumlabs/ai-app-builder-open (read 2026-11-22)"
+  },
+  {
+   "id": "gap-own-it-without-skill",
+   "label": "Own it and move it, with no technical skill (nobody found in rings 1 and 3)",
+   "type": "gap",
+   "visibility": 0.92,
+   "evolution": 0.08,
+   "source": "cartographer",
+   "evidence": "In rows.json no player serves both pn-own-it-move-it and pn-no-technical-skill: ring 1 builders lack the first, ring 3 tools lack the second. Absence in rings 1 and 3 only; rings 2 and 4 are not yet read, and \"lacks\" means no export path found on the pages read, not proof none exists"
+  }
+ ],
+ "links": [
+  {
+   "from": "pn-no-technical-skill",
+   "to": "sw-p-infomaniak-site-creator",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-know-where-it-lives",
+   "to": "sw-p-infomaniak-site-creator",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-own-it-move-it",
+   "to": "sw-p-infomaniak-site-creator",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-no-technical-skill",
+   "to": "sw-p-saldiabuild",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-know-where-it-lives",
+   "to": "sw-p-saldiabuild",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-own-it-move-it",
+   "to": "sw-p-saldiabuild",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-no-technical-skill",
+   "to": "sw-p-ionos-mywebsite",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-know-where-it-lives",
+   "to": "sw-p-ionos-mywebsite",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-own-it-move-it",
+   "to": "sw-p-ionos-mywebsite",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-no-technical-skill",
+   "to": "sw-p-jimdo",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-know-where-it-lives",
+   "to": "sw-p-jimdo",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-own-it-move-it",
+   "to": "sw-p-jimdo",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-no-technical-skill",
+   "to": "sw-p-hostinger-website-builder",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-know-where-it-lives",
+   "to": "sw-p-hostinger-website-builder",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-own-it-move-it",
+   "to": "sw-p-hostinger-website-builder",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-no-technical-skill",
+   "to": "sw-p-framer",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-know-where-it-lives",
+   "to": "sw-p-framer",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-own-it-move-it",
+   "to": "sw-p-framer",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-own-it-move-it",
+   "to": "sw-p-hugo",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-no-technical-skill",
+   "to": "sw-p-hugo",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-own-it-move-it",
+   "to": "sw-p-jekyll",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-no-technical-skill",
+   "to": "sw-p-jekyll",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-own-it-move-it",
+   "to": "sw-p-eleventy",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-no-technical-skill",
+   "to": "sw-p-eleventy",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-own-it-move-it",
+   "to": "sw-p-astro",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-no-technical-skill",
+   "to": "sw-p-astro",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-own-it-move-it",
+   "to": "sw-p-zola",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-no-technical-skill",
+   "to": "sw-p-zola",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-own-it-move-it",
+   "to": "sw-p-wordpress",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-no-technical-skill",
+   "to": "sw-p-wordpress",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-own-it-move-it",
+   "to": "sw-p-ghost",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-no-technical-skill",
+   "to": "sw-p-ghost",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-own-it-move-it",
+   "to": "sw-p-boltdiy",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-no-technical-skill",
+   "to": "sw-p-boltdiy",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-own-it-move-it",
+   "to": "sw-p-dyad",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-no-technical-skill",
+   "to": "sw-p-dyad",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-own-it-move-it",
+   "to": "sw-p-tinykit",
+   "type": "served-by",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-no-technical-skill",
+   "to": "sw-p-tinykit",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-no-technical-skill",
+   "to": "sw-p-ai-app-builder-open-totalum",
+   "type": "lacks",
+   "source": "landscape"
+  },
+  {
+   "from": "pn-own-it-move-it",
+   "to": "sw-p-ai-app-builder-open-totalum",
+   "type": "lacks",
+   "source": "landscape"
+  }
+ ],
+ "notes": [
+  "Positions of players are my reading by group (closed builders, closed AI builder, static engines, CMS, open AI builders); the facts behind each player are landscape.d's, with URL and date.",
+  "The needs are landscape.d's proposals, not sherpa.d's.",
+  "Rings 2 (Wix, Squarespace, Webflow, Lovable, Bolt, v0) and 4 (hosting) are not read yet; the gap may close when they are."
+ ]
+}

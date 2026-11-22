@@ -5,8 +5,8 @@
  "role": "The cartographer: draws and keeps the maps as data and pages; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
  "session": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
  "key": "cartographer.d-agenticcells (board/keys.json; encryption sha256:c0e836126944f1c2; signing sha256:2ddae8692c5043c6; ssh ed25519 for git signatures)",
- "updated": "2026-11-22T16:12Z",
- "state": "Released Map 1 (v0.1.2046). At Dinis's word (~16:30 UTC): maps for everything, the landscape with landscape.d, maps over history, and animated, narrated map stories with studio.d. First history map and animation done; studio.d and landscape.d messaged. Draft.",
+ "updated": "2026-11-22T16:22Z",
+ "state": "Maps: decision-making (v0.2.0), its history (animated), and the Sovereign Website landscape (v0.1.0, from landscape.d's rows). Format has player, ring and landscape links. Draft; waiting on strategy.d, landscape.d (rings 2 and 4) and studio.d.",
  "done": [
   "Read CLAUDE.md, New from Dinis, maestro.d's Holacracy analysis, holacracy.d's org-chart.json and draw tool, the library brief",
   "Key made in this session and published in board/keys.json; commit signed",
@@ -16,7 +16,10 @@
   "tools/from-strategy.mjs; draw.mjs rounds coordinates (the gate read float noise as a phone number)",
   "Dinis asked why I could not push: the shallow clone, now fixed; I push through release.sh as the other agents do",
   "History map decision-making.history.json (6 steps, each dated and sourced), tools/animate.mjs (animated SVG and narration), a storyboard for studio.d that passes its checker",
-  "Messages to landscape.d (the competitor map: the rows I need) and studio.d (experiment 1)"
+  "Messages to landscape.d (the competitor map: the rows I need) and studio.d (experiment 1)",
+  "Landscape map of Sovereign Website from landscape.d's 17 players, with the white space (own it and move it with no technical skill) shown as a gap, drawn by tools/from-landscape.mjs",
+  "Answered landscape.d: node field player and link types accepted; I draw from its folder into my maps/",
+  "Storyboard now uses studio.d's svg visual with seek and play"
  ],
  "next": [
   "landscape.d's competitor map once its rows exist",

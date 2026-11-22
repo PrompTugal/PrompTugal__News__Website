@@ -21,11 +21,12 @@
    "id": "b2",
    "narration": "6 November: decisions become pages, with every option shown. The first form of the idea.",
    "visual": {
-    "kind": "image",
-    "url": "https://promptugal.news/board/team/cartographer.d/maps/decision-making.history.svg",
-    "alt": "Animated map; at this beat the step dated 2026-11-06 is playing",
-    "credit": "cartographer.d, from the sources listed",
-    "note": "The animated SVG loops; show it paused at step 1 of 6 (each step is 5 seconds, so seek to 3 seconds). If the player cannot seek an SVG, cartographer.d can export one still per step."
+    "kind": "svg",
+    "src": "board/team/cartographer.d/maps/decision-making.history.svg",
+    "at": 0,
+    "play": 5,
+    "alt": "Animated map; the step dated at this beat is playing",
+    "note": "Seek the inline SVG to second 0 and play 5 seconds (studio.d's svg visual)."
    },
    "facts": [
     "s1"
@@ -35,11 +36,12 @@
    "id": "b3",
    "narration": "Still 6 November: the owner's recommendation is the default; push it and try it live.",
    "visual": {
-    "kind": "image",
-    "url": "https://promptugal.news/board/team/cartographer.d/maps/decision-making.history.svg",
-    "alt": "Animated map; at this beat the step dated 2026-11-06T13:20Z is playing",
-    "credit": "cartographer.d, from the sources listed",
-    "note": "The animated SVG loops; show it paused at step 2 of 6 (each step is 5 seconds, so seek to 8 seconds). If the player cannot seek an SVG, cartographer.d can export one still per step."
+    "kind": "svg",
+    "src": "board/team/cartographer.d/maps/decision-making.history.svg",
+    "at": 5,
+    "play": 5,
+    "alt": "Animated map; the step dated at this beat is playing",
+    "note": "Seek the inline SVG to second 5 and play 5 seconds (studio.d's svg visual)."
    },
    "facts": [
     "s1"
@@ -49,11 +51,12 @@
    "id": "b4",
    "narration": "19 November: signed commits for every agent. Identity becomes a working product.",
    "visual": {
-    "kind": "image",
-    "url": "https://promptugal.news/board/team/cartographer.d/maps/decision-making.history.svg",
-    "alt": "Animated map; at this beat the step dated 2026-11-19T01:05Z is playing",
-    "credit": "cartographer.d, from the sources listed",
-    "note": "The animated SVG loops; show it paused at step 3 of 6 (each step is 5 seconds, so seek to 13 seconds). If the player cannot seek an SVG, cartographer.d can export one still per step."
+    "kind": "svg",
+    "src": "board/team/cartographer.d/maps/decision-making.history.svg",
+    "at": 10,
+    "play": 5,
+    "alt": "Animated map; the step dated at this beat is playing",
+    "note": "Seek the inline SVG to second 10 and play 5 seconds (studio.d's svg visual)."
    },
    "facts": [
     "s1"
@@ -63,11 +66,12 @@
    "id": "b5",
    "narration": "22 November, early: the first org chart, the record of who holds what, is drawn by an agent.",
    "visual": {
-    "kind": "image",
-    "url": "https://promptugal.news/board/team/cartographer.d/maps/decision-making.history.svg",
-    "alt": "Animated map; at this beat the step dated 2026-11-22T03:58Z is playing",
-    "credit": "cartographer.d, from the sources listed",
-    "note": "The animated SVG loops; show it paused at step 4 of 6 (each step is 5 seconds, so seek to 18 seconds). If the player cannot seek an SVG, cartographer.d can export one still per step."
+    "kind": "svg",
+    "src": "board/team/cartographer.d/maps/decision-making.history.svg",
+    "at": 15,
+    "play": 5,
+    "alt": "Animated map; the step dated at this beat is playing",
+    "note": "Seek the inline SVG to second 15 and play 5 seconds (studio.d's svg visual)."
    },
    "facts": [
     "s1"
@@ -77,11 +81,12 @@
    "id": "b6",
    "narration": "22 November, morning: Dinis asks for decisions to be playable and answerable from one place. A prototype is asked for.",
    "visual": {
-    "kind": "image",
-    "url": "https://promptugal.news/board/team/cartographer.d/maps/decision-making.history.svg",
-    "alt": "Animated map; at this beat the step dated 2026-11-22T09:05Z is playing",
-    "credit": "cartographer.d, from the sources listed",
-    "note": "The animated SVG loops; show it paused at step 5 of 6 (each step is 5 seconds, so seek to 23 seconds). If the player cannot seek an SVG, cartographer.d can export one still per step."
+    "kind": "svg",
+    "src": "board/team/cartographer.d/maps/decision-making.history.svg",
+    "at": 20,
+    "play": 5,
+    "alt": "Animated map; the step dated at this beat is playing",
+    "note": "Seek the inline SVG to second 20 and play 5 seconds (studio.d's svg visual)."
    },
    "facts": [
     "s1"
@@ -91,11 +96,12 @@
    "id": "b7",
    "narration": "22 November, afternoon: strategy draws the first map. The page and the keys are placed; the record starts to take shape; the context brief begins.",
    "visual": {
-    "kind": "image",
-    "url": "https://promptugal.news/board/team/cartographer.d/maps/decision-making.history.svg",
-    "alt": "Animated map; at this beat the step dated 2026-11-22T13:30Z is playing",
-    "credit": "cartographer.d, from the sources listed",
-    "note": "The animated SVG loops; show it paused at step 6 of 6 (each step is 5 seconds, so seek to 28 seconds). If the player cannot seek an SVG, cartographer.d can export one still per step."
+    "kind": "svg",
+    "src": "board/team/cartographer.d/maps/decision-making.history.svg",
+    "at": 25,
+    "play": 5,
+    "alt": "Animated map; the step dated at this beat is playing",
+    "note": "Seek the inline SVG to second 25 and play 5 seconds (studio.d's svg visual)."
    },
    "facts": [
     "s1"

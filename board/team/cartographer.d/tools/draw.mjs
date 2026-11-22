@@ -30,7 +30,7 @@ for (const f of files) {
   s.push(`<text x="${L}" y="${H - B + 50}" font-size="12" fill="#555">Evolution, left to right</text>`)
   s.push(`<text transform="translate(22 ${T + 200}) rotate(-90)" font-size="12" fill="#555">Visible to the user</text>`)
   s.push(`<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8z" fill="#888"/></marker></defs>`)
-  for (const l of j.links) {
+  for (const l of (j.draw?.links === 'none' ? [] : j.links)) {
     const a = by[l.from], b = by[l.to]; if (!a || !b) continue
     const dash = l.type === 'lacks' ? ' stroke-dasharray="5 4" stroke="#b3261e"' : ' stroke="#888"'
     s.push(`<line x1="${px(a.evolution)}" y1="${py(a.visibility) + 6}" x2="${px(b.evolution)}" y2="${py(b.visibility) - 6}"${dash} stroke-width="1.2" marker-end="url(#a)"/>`)

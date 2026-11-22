@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-label="Landscape: sovereign-website, rings 1,3" font-family="system-ui, sans-serif">
+<rect width="1400" height="1000" fill="#fff"/>
+<text x="70" y="30" font-size="20" font-weight="600" fill="#111">Landscape: sovereign-website, rings 1,3</text>
+<text x="70" y="50" font-size="12" fill="#444">wardley map, draft, made 2026-11-22T16:22Z by cartographer.d@AgentiCCells.dinis from 2 sources (see the JSON)</text>
+<rect x="70" y="90" width="1300" height="820" fill="none" stroke="#999"/>
+<text x="76" y="928" font-size="12" fill="#555">Genesis</text>
+<line x1="395" y1="90" x2="395" y2="910" stroke="#ccc" stroke-dasharray="4 4"/>
+<text x="401" y="928" font-size="12" fill="#555">Custom-built</text>
+<line x1="720" y1="90" x2="720" y2="910" stroke="#ccc" stroke-dasharray="4 4"/>
+<text x="726" y="928" font-size="12" fill="#555">Product (+ rental)</text>
+<line x1="1045" y1="90" x2="1045" y2="910" stroke="#ccc" stroke-dasharray="4 4"/>
+<text x="1051" y="928" font-size="12" fill="#555">Commodity (+ utility)</text>
+<text x="70" y="960" font-size="12" fill="#555">Evolution, left to right</text>
+<text transform="translate(22 290) rotate(-90)" font-size="12" fill="#555">Visible to the user</text>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8z" fill="#888"/></marker></defs>
+<circle cx="304" cy="90" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>Own the site's files and address, and move it freely (source: landscape) proposed by landscape.d, marked as its own and not sherpa.d's</title></circle>
+<text text-anchor="start" x="314" y="94" font-size="11" fill="#111">Own the site's files and</text>
+<text text-anchor="start" x="314" y="106" font-size="11" fill="#111">address, and move it</text>
+<text text-anchor="start" x="314" y="118" font-size="11" fill="#111">freely</text>
+<circle cx="590" cy="90" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>Get a working site without a terminal, code or hosting set-up. (source: landscape) proposed by landscape.d, marked as its own and not sherpa.d's</title></circle>
+<text text-anchor="start" x="600" y="94" font-size="11" fill="#111">Get a working site without</text>
+<text text-anchor="start" x="600" y="106" font-size="11" fill="#111">a terminal, code or</text>
+<text text-anchor="start" x="600" y="118" font-size="11" fill="#111">hosting set-up.</text>
+<circle cx="876" cy="90" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>Know which country and company hold the site and its data. (source: landscape) proposed by landscape.d, marked as its own and not sherpa.d's</title></circle>
+<text text-anchor="start" x="886" y="94" font-size="11" fill="#111">Know which country and</text>
+<text text-anchor="start" x="886" y="106" font-size="11" fill="#111">company hold the site and</text>
+<text text-anchor="start" x="886" y="118" font-size="11" fill="#111">its data.</text>
+<circle cx="1162" cy="90" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>Pay once or a clear price, not a subscription that renews higher. (source: landscape) proposed by landscape.d, marked as its own and not sherpa.d's</title></circle>
+<text text-anchor="end" x="1152" y="94" font-size="11" fill="#111">Pay once or a clear price,</text>
+<text text-anchor="end" x="1152" y="106" font-size="11" fill="#111">not a subscription that</text>
+<text text-anchor="end" x="1152" y="118" font-size="11" fill="#111">renews higher.</text>
+<circle cx="915" cy="237.6" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Infomaniak Site Creator (source: landscape) Drag-and-drop builder for showcase sites, blogs and shops, 50+ themes, AI-assisted creation (read via search snippet; page body did not load). Price: Tiers: free (1 page, no custom domain, ads), Lite (6 pages, 15 GB), Pro (unlimited pages, 50 GB, e-commerce); currency and billing period not found; included free with a hosting plan.. https://www.infomaniak.com/en/create-a-website/site-creator (read 2026-11-22); flagged for re-read by landscape.d</title></circle>
+<text text-anchor="start" x="925" y="241.6" font-size="11" fill="#111">Infomaniak Site Creator</text>
+<circle cx="473" cy="204.8" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>saldiaBuild (source: landscape) AI website builder: describe the site in plain words and the AI builds the pages; sold as hosted in Switzerland. Price: not found on the page read. https://www.saldia.ch/en (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="483" y="208.8" font-size="11" fill="#111">saldiaBuild</text>
+<circle cx="1006" cy="278.6" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>IONOS MyWebsite (source: landscape) Builder (MyWebsite Now) in Starter, Plus and Pro plus store variants; domain, SSL and email included. Price: Shown in $ on the .com page, monthly on a 1-year term: Starter $6 then $14, Plus $1 then $20, Pro $17; stores higher; 30-day money-back.. https://www.ionos.com/websites/website-builder (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="1016" y="282.6" font-size="11" fill="#111">IONOS MyWebsite</text>
+<circle cx="1097" cy="319.6" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Jimdo (source: landscape) Website and store builder with add-ons (listings, bookings, forms, payments, invoicing) and the Companion AI assistant; free start without a card. Price: Plans Free, Start, Grow, Complete, Unlimited; per-plan prices not shown on the page read; terms monthly, 12 or 24 months, auto-renewing, EUR incl. VAT; domain EUR 26/yr after first term; 0% sales commission.. https://www.jimdo.com/ (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="1107" y="323.6" font-size="11" fill="#111">Jimdo</text>
+<circle cx="967" cy="360.6" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Hostinger Website Builder (source: landscape) Drag-and-drop builder with templates, AI site generation, hosting, domain, ecommerce and marketing tools, 14-day free trial. Price: USD, paid over 48 months: Premium $1.99/mo (renews $10.99), Unlimited $2.79 (renews $16.99), Cloud Startup $7.99 (renews $25.99); 30-day money-back.. https://www.hostinger.com/website-builder (read 2026-11-22); flagged for re-read by landscape.d</title></circle>
+<text text-anchor="start" x="977" y="364.6" font-size="11" fill="#111">Hostinger Website Builder</text>
+<circle cx="1058" cy="401.6" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Framer (source: landscape) In $ (currency unnamed): Free $0, Basic $10/mo, Pro $30/mo, Enterprise custom; overages per unit (e.g. $50 per 100 GB bandwidth, $20 per extra editor). Price: In $ (currency unnamed): Free $0, Basic $10/mo, Pro $30/mo, Enterprise custom; overages per unit (e.g. $50 per 100 GB bandwidth, $20 per extra editor).. https://www.framer.com/pricing (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="1068" y="405.6" font-size="11" fill="#111">Framer</text>
+<circle cx="1019" cy="631.2" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Hugo (source: landscape) Open-source static site generator in Go, says it is very fast. Price: Software free; no hosting product or price on the homepage.. https://gohugo.io/ (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="1029" y="635.2" font-size="11" fill="#111">Hugo</text>
+<circle cx="1110" cy="672.2" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Jekyll (source: landscape) Turns Markdown, Liquid, HTML and CSS into a static site; no database. Price: software free (see licence fact); hosting and any AI key cost extra. https://jekyllrb.com/ (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="1120" y="676.2" font-size="11" fill="#111">Jekyll</text>
+<circle cx="1201" cy="713.2" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Eleventy (source: landscape) Static site generator from a folder of Markdown, HTML or custom files; calls itself stable, secure and privacy-focused. Price: No price; sponsor-funded.. https://www.11ty.dev/ (read 2026-11-22)</title></circle>
+<text text-anchor="end" x="1191" y="717.2" font-size="11" fill="#111">Eleventy</text>
+<circle cx="1071" cy="754.2" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Astro (source: landscape) JavaScript framework for content-driven sites sending light HTML. Price: software free (see licence fact); hosting and any AI key cost extra. https://astro.build/ (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="1081" y="758.2" font-size="11" fill="#111">Astro</text>
+<circle cx="1162" cy="795.2" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Zola (source: landscape) Static site engine as one executable with Sass and syntax highlighting built in. Price: software free (see licence fact); hosting and any AI key cost extra. https://www.getzola.org/ (read 2026-11-22); flagged for re-read by landscape.d</title></circle>
+<text text-anchor="end" x="1152" y="799.2" font-size="11" fill="#111">Zola</text>
+<circle cx="993" cy="467.2" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>WordPress (source: landscape) Open-source publishing software on PHP and MariaDB behind millions of sites. Price: software free; hosting extra. https://wordpress.org/about/ (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="1003" y="471.2" font-size="11" fill="#111">WordPress</text>
+<circle cx="1084" cy="508.2" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Ghost (source: landscape) MIT. Price: Managed Ghost(Pro), billed yearly, in $: Starter $18/mo, Publisher $29/mo, Business $199/mo, Custom.. https://raw.githubusercontent.com/TryGhost/Ghost/main/LICENSE (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="1094" y="512.2" font-size="11" fill="#111">Ghost</text>
+<circle cx="265" cy="368.8" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>bolt.diy (source: landscape) Community fork of bolt.new: browser workspace to prompt, edit, run and deploy full-stack apps with any LLM. Price: Software free; you pay your LLM provider or use local models.. https://github.com/stackblitz-labs/bolt.diy (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="275" y="372.8" font-size="11" fill="#111">bolt.diy</text>
+<circle cx="356" cy="409.8" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Dyad (source: landscape) Local open-source AI app builder positioned against Lovable, v0 and Bolt; for power users. Price: Free download; bring your own AI API keys.. https://github.com/dyad-sh/dyad (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="366" y="413.8" font-size="11" fill="#111">Dyad</text>
+<circle cx="447" cy="450.8" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>tinykit (source: landscape) Self-hostable AI app builder on PocketBase, billed as a Lovable/v0 alternative with built-in database. Price: software free (see licence fact); hosting and any AI key cost extra. https://github.com/tinykit-studio/tinykit (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="457" y="454.8" font-size="11" fill="#111">tinykit</text>
+<circle cx="317" cy="491.8" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>AI App Builder Open (Totalum) (source: landscape) Prompt-to-Next.js app builder with live preview, GitHub sync and custom domains. Price: Code free; Totalum key free to start with 50 AI credits, then usage-based.. https://github.com/totalumlabs/ai-app-builder-open (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="327" y="495.8" font-size="11" fill="#111">AI App Builder Open</text>
+<text text-anchor="start" x="327" y="507.8" font-size="11" fill="#111">(Totalum)</text>
+<circle cx="174" cy="155.6" r="6" fill="#fff" stroke="#b3261e" stroke-width="2"><title>Own it and move it, with no technical skill (nobody found in rings 1 and 3) (source: cartographer) In rows.json no player serves both pn-own-it-move-it and pn-no-technical-skill: ring 1 builders lack the first, ring 3 tools lack the second. Absence in rings 1 and 3 only; rings 2 and 4 are not yet read, and &quot;lacks&quot; means no export path found on the pages read, not proof none exists</title></circle>
+<text text-anchor="start" x="184" y="159.6" font-size="11" fill="#111">Own it and move it, with</text>
+<text text-anchor="start" x="184" y="171.6" font-size="11" fill="#111">no technical skill (nobody</text>
+<text text-anchor="start" x="184" y="183.6" font-size="11" fill="#111">found in rings 1 and 3)</text>
+<text x="70" y="986" font-size="11" fill="#555">Green: user need. Purple: the shared goal. Blue: component. Red ring: a gap (named as missing in the sources). Orange arrow: a suggested move, for strategy.d. Positions are a reading of the sources.</text>
+</svg>

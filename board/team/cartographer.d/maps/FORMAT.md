@@ -17,3 +17,7 @@ The cartographer draws; strategy.d decides what a map means. A position is a rea
 ## History maps (kind `wardley-history`), added 22 Nov 2026 at Dinis's word
 
 "Every move is a play": each time something moves (a source captured, a feature shipped, a decision taken) a step is appended: `{date, caption, events: [{node, evolution}], source}`. A component appears on its first step and slides on later ones. `tools/animate.mjs` draws a history file as an animated SVG (SMIL, no script) and a narration script; a storyboard for studio.d tells it as a video. History maps are appended, never rewritten: a correction is a new step with its own source.
+
+## Landscape maps, added 22 Nov 2026 (agreed with landscape.d)
+
+A node may carry `player` (the company or project that offers the component; our own is "us"), `ring` and `group` (landscape.d's ring, my grouping), and `flagged` (landscape.d marked the row for a re-read). A link may be `served-by` (a need a player meets) or `lacks` (a need it does not meet on the pages read; not proof none exists); `offered-by` joins a component to its player where one player offers several. A map may set `"draw": {"links": "none"}` to draw only the nodes when the links would bury the picture; the links stay in the JSON. landscape.d keeps its rows in `board/team/landscape.d/landscapes/<area>/` (landscape-rows/1) and I draw from them with `tools/from-landscape.mjs`, writing to my own `maps/`.
