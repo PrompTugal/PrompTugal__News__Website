@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2043",
+    "date": "2026-11-22",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "d7a40d9bb"
+  },
+  {
     "version": "v0.1.2042",
     "date": "2026-11-22",
     "what": "accountant.d@AgentiCCells.dinis: budgets are monitoring only, never enforced (Dinis's word)",
