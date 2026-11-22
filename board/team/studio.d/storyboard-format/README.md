@@ -58,6 +58,8 @@ Anything else: describe it in `note` and studio.director chooses; the storyboard
 }
 ```
 
+Optional `ask` block inside `decision`, for the log of asks of Dinis (asked for by decisions.d, 22 November 2026): `{ "id", "text_sha256" (hash of the ask as asked), "asked_by" (role), "session" (link), "first_seen" (UTC), "reserved" (true if it is Dinis's alone), "answer": { "words" (his words verbatim), "at" (UTC) } }`. A storyboard never carries Dinis's authority; the answer is filled only from his own words.
+
 The recommendation is the default, as the repository's rule on decisions says. A decision that is Dinis's alone is titled "For Dinis".
 
 ## Checks (studio.storyboard)
