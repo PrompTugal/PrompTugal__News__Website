@@ -4,7 +4,7 @@
  "title": "Feedback from every site, and the hub as the way in",
  "audience": "Dinis: what sherpa.d has done, and three decisions for him",
  "requested_by": "sherpa.d@AgentiCCells.dinis",
- "summary": "sherpa.d mapped four kinds of user and read the hub cold. Every site needs one door for feedback, and the hub has none. Two decisions remain, for helm.d and maestro.d first, neither reserved. Nothing is tested with a real user yet.",
+ "summary": "sherpa.d mapped four kinds of user and read the hub page cold. The hub page has no door for feedback. D2 is provisionally yes from helm.d and maestro.d; D3 is Dinis's, because deleted audio cannot be brought back. Nothing is tested with a real user yet.",
  "beats": [
   {
    "id": "b1",
@@ -35,40 +35,15 @@
   },
   {
    "id": "b3",
-   "narration": "Most of the dots exist: sign-in by QR, sealed agent lanes, anonymous page signals, one registry of sites, and voice and text on a page.",
+   "narration": "Some parts exist, separately and not connected: sign-in by QR, sealed agent lanes, anonymous page signals, one registry of sites, and voice and text inside the Decision Desk. Each is still to be re-checked by its owner.",
    "visual": {
-    "kind": "flow",
-    "nodes": [
-     {
-      "id": "a",
-      "label": "PKI sign-in"
-     },
-     {
-      "id": "b",
-      "label": "Agent lanes"
-     },
-     {
-      "id": "c",
-      "label": "Sites registry"
-     },
-     {
-      "id": "d",
-      "label": "Voice and text"
-     }
-    ],
-    "edges": [
-     {
-      "from": "a",
-      "to": "b"
-     },
-     {
-      "from": "b",
-      "to": "c"
-     },
-     {
-      "from": "c",
-      "to": "d"
-     }
+    "kind": "list",
+    "items": [
+     "PKI sign-in by QR or link",
+     "Sealed agent lanes",
+     "Anonymous page signals",
+     "One registry of sites",
+     "Voice and text, only inside the Decision Desk (a claude.ai page, not a site)"
     ]
    },
    "facts": [
@@ -94,11 +69,11 @@
   },
   {
    "id": "b5",
-   "narration": "Read cold at 13:50 UTC, the hub has 33 sites and no door for feedback anywhere. That is the first of five findings, H1 to H5.",
+   "narration": "Read cold at 13:50 UTC, the hub page has no feedback control anywhere. That is the first of five findings, H1 to H5.",
    "visual": {
     "kind": "stat",
     "value": "0",
-    "label": "feedback doors on 33 sites (hub.sovereignweb.site, read 22 November, 13:50 UTC)"
+    "label": "feedback controls on the hub page (hub.sovereignweb.site, read 22 November, 13:50 UTC; the sites themselves not read)"
    },
    "facts": [
     "s1"
@@ -161,10 +136,10 @@
     }
    ],
    "recommendation": "a",
-   "why": "No agent is asked to guess; needs each site's lead in the registry. Goes to helm.d and maestro.d first."
+   "why": "No agent is asked to guess; needs each site's lead in the registry. helm.d and maestro.d have said yes provisionally."
   },
   {
-   "question": "D3: voice memos, keep the audio or the transcript only?",
+   "question": "D3 (Dinis decides): voice memos, what happens to the audio?",
    "options": [
     {
      "id": "a",
@@ -173,17 +148,30 @@
       "Least private data held"
      ],
      "bad": [
-      "A wrong transcript cannot be checked against audio"
+      "A wrong transcript cannot be checked against audio",
+      "The deletion is irreversible"
      ],
      "blocks": []
     },
     {
      "id": "b",
-     "label": "Keep the audio",
+     "label": "Transcript kept; audio kept 7 days in a private vault, then deleted",
      "good": [
-      "Can re-check"
+      "A wrong transcript can be checked within a week"
      ],
      "bad": [
+      "A private vault to keep and a deletion to run"
+     ],
+     "blocks": []
+    },
+    {
+     "id": "c",
+     "label": "Transcript and audio both kept",
+     "good": [
+      "The full record"
+     ],
+     "bad": [
+      "Dinis's voice stored indefinitely",
       "Needs a vault, a retention rule and counsel.d's view"
      ],
      "blocks": [
@@ -192,7 +180,7 @@
     }
    ],
    "recommendation": "a",
-   "why": "A person can add a note if the transcript is wrong."
+   "why": "sherpa.d's file recommends transcript only; helm.d's decision page recommends option b (7 days) because a mis-heard word could then be checked. The page holds both views. Source s2."
   }
  ],
  "sources": [
@@ -200,6 +188,12 @@
    "id": "s1",
    "title": "sherpa.d: feedback from every site and the hub as the way in (the file holds the options in full)",
    "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/sherpa.d/needs/feedback-everywhere.md",
+   "read": "2026-11-22"
+  },
+  {
+   "id": "s2",
+   "title": "helm.d's decision page for D3 (options in full)",
+   "url": "https://promptugal.news/newsroom/decisions/sherpa-feedback-and-voice-memos/",
    "read": "2026-11-22"
   }
  ]
