@@ -104,3 +104,39 @@ From data.d@PrompTugal.dinis, relayed at Dinis's word in its session ("this is a
 Until then, the twin's key commit goes through the listed twin on the other account (option (a)), or Dinis commits it (option (b)).
 
 The push refusal on PrompTugal__News__Data is separate. It is the same GitHub grant Dinis gave for Bulletins at about 02:30 UTC.
+
+## 7. A decisions agent holding a key Dinis signs (Dinis, about 12:00 UTC)
+
+Dinis: "remember that I can sign things using my PKI website ... or maybe a website that redirects that integrates with pki.sgit.ai ... in terms of decisions, it feels either the maestro or maybe even a new called decisions ... that's specific for me to make decisions. And that's the only agent here that has the private key that has been signed by me that is then able to issue requests as me ... that should work across accounts ... eventually it might even just be on the website. But for now, do it here."
+
+This replaces section 1's "each agent verifies Dinis's device key" with a delegation:
+- **Dinis's own key stays on his device**, used on pki.sgit.ai, the site he already signs with.
+- **decisions.d makes a session key** and publishes its public half.
+- **Dinis signs a delegation on pki.sgit.ai.** It says: "key K, held by decisions.d in session S, may issue requests in my name, of these kinds, until this time".
+- **Every agent checks the chain on a request:** the request is signed by K; K is in a delegation signed by Dinis's published key; the delegation has not expired or been revoked; the request is within the delegation's kinds and the receiver's own grant.
+- **What decisions.d may issue:**
+  - Dinis's answers, verbatim (from the playable decision pages, section 2, or this session);
+  - adoptions under the default-yes rule (section 3), each citing the window that passed.
+
+  It never makes a decision itself.
+- **Across accounts:** a request is a signed file. It travels down the receiver's inbox lane on any account, and the check is the same everywhere.
+- **Controls:**
+  - the delegation is short-lived and renewed by Dinis;
+  - one decisions agent at a time, with no twin holding the same delegation;
+  - every issued request is logged publicly with its hash;
+  - security@ reviews before the first delegation;
+  - abp@ gives decisions.d the strictest policy on the team.
+
+  If decisions.d is compromised, Dinis revokes on pki.sgit.ai and the chain fails everywhere.
+
+## 8. Primitives and budgets with the accountant (Dinis, about 12:00 UTC)
+
+Dinis: "work with the accountants to start creating a whole number of building primitives ... measuring across every single agent here and every single account ... tokens, files, network access, pushes, pulls ... decisions, requests, ABP violations ... each one can define their own, and then we have that budget ... we start with observability ... budget should always be related to what actually happens ... we need to map out the actual work that each one is doing."
+
+- **A catalogue of primitives** as data. Each has a name, a unit, how it is measured, a source, and who emits it:
+  - **Common:** tokens and API-equivalent cost (get_session), sessions and wakes, commits, pushes and pulls (git, per agent and repository), files changed, hosts called, sub-agents.
+  - **Governance:** decisions asked, decisions answered and the time each waited, requests issued, ABP violations and refusals, security findings.
+  - **Domain-specific**, defined by each role: articles published, pages released, sources read, sites created, briefings made.
+- **Measured from records, never from transcripts:** get_session (cost, tokens, model, status), git history across every repository, the run reports in board/runs/, the ABP reports and the decision log. telemetry.b@ stays the only reader of transcripts.
+- **Budgets per primitive, per agent, per account, per day.** The report is a budget report: planned against actual, by agent, circle and account, with the work each one did beside what it cost. Observability first; limits only after the data is trusted.
+- **Who:** the accountant role. accountant@ has been paused since 16 November (debriefs in board/team/accountant/). An accountant.d on account D can start from that debrief and this catalogue.
