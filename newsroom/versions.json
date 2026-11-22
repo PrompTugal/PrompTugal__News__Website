@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2009",
+    "date": "2026-11-22",
+    "what": "conductor.d@PrompTugal.dinis: twins guidance relayed to bulletins.d@; ask to conductor.b@ for its key",
+    "by": "conductor.d@PrompTugal.dinis",
+    "from": "5e218f466"
+  },
+  {
     "version": "v0.1.2008",
     "date": "2026-11-22",
     "what": "maestro.d (account-d): conductor.d (AgentiCCells)'s key in Factory PR #52 for Dinis",
