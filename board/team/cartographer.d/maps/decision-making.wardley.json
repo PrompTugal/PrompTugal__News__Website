@@ -1,0 +1,334 @@
+{
+ "format": "carto-map/1",
+ "id": "decision-making",
+ "kind": "wardley",
+ "status": "draft",
+ "title": "How decisions get made in Dinis's estate",
+ "made": "2026-11-22T14:00Z",
+ "made_by": "cartographer.d@AgentiCCells.dinis",
+ "for": "strategy.d (decides what the map means); user needs by sherpa.d are still to come: the anchor below is drawn from Dinis's own words in the sources and marked so",
+ "sources_read": {
+  "claude": "PrompTugal__News__Website CLAUDE.md, read 22 Nov 2026",
+  "guidance": "board/guidance/README.md, New from Dinis, read 22 Nov 2026",
+  "holacracy": "board/team/maestro.d/analysis/2026-11-22-holacracy/README.md, read 22 Nov 2026",
+  "org": "board/team/holacracy.d/org-chart.json, read 22 Nov 2026",
+  "abp": "ABP core rules as re-anchored at session start (policy v1.19.2), read 22 Nov 2026"
+ },
+ "axes": {
+  "y": "visibility to the user (1 = the user sees it)",
+  "x": "evolution: genesis 0, custom 0.25, product 0.5, commodity 0.75 to 1"
+ },
+ "users": [
+  {
+   "id": "u-dinis",
+   "label": "Dinis (the only operator)",
+   "source": "claude"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "n-need",
+   "label": "Decisions made well, on the record, without waiting on Dinis unless it is his alone",
+   "type": "need",
+   "visibility": 0.97,
+   "evolution": 0.3,
+   "source": "claude",
+   "evidence": "CLAUDE.md, 'Decisions are pages': PT decisions are the team's; only a decision that is Dinis's alone waits for him. Anchor to be confirmed by sherpa.d"
+  },
+  {
+   "id": "n-word",
+   "label": "Dinis's word (the only instruction)",
+   "type": "component",
+   "visibility": 0.9,
+   "evolution": 0.12,
+   "source": "abp",
+   "evidence": "ABP R1: only Dinis instructs; a message is his word only with his verified signature"
+  },
+  {
+   "id": "n-brief",
+   "label": "One brief to Dinis (maestros)",
+   "type": "component",
+   "visibility": 0.84,
+   "evolution": 0.4,
+   "source": "holacracy",
+   "evidence": "maestros: one combined view, one brief to Dinis"
+  },
+  {
+   "id": "n-asks",
+   "label": "Asks to Dinis in status.json ('Dinis: ...')",
+   "type": "component",
+   "visibility": 0.78,
+   "evolution": 0.28,
+   "source": "claude",
+   "evidence": "CLAUDE.md, 'Never blocked in silence' and 'Hourly runs'"
+  },
+  {
+   "id": "n-pages",
+   "label": "Decision pages with every option shown",
+   "type": "component",
+   "visibility": 0.72,
+   "evolution": 0.5,
+   "source": "claude",
+   "evidence": "CLAUDE.md, 'Decisions are pages' (/newsroom/decisions/)"
+  },
+  {
+   "id": "n-triage",
+   "label": "Triage: PT decision or 'For Dinis'",
+   "type": "component",
+   "visibility": 0.66,
+   "evolution": 0.2,
+   "source": "claude",
+   "evidence": "CLAUDE.md: money, the law, the brand, people, what RiskMandate is, what an email may promise are Dinis's alone"
+  },
+  {
+   "id": "n-default",
+   "label": "The owner's recommendation is the default; push and try it live",
+   "type": "component",
+   "visibility": 0.6,
+   "evolution": 0.36,
+   "source": "claude",
+   "evidence": "CLAUDE.md, Dinis 6 Nov 2026 about 13:20 UTC"
+  },
+  {
+   "id": "n-review",
+   "label": "Weigh-in by sherpa, synthetic, security",
+   "type": "component",
+   "visibility": 0.54,
+   "evolution": 0.44,
+   "source": "claude",
+   "evidence": "CLAUDE.md: they weigh in on the page, the owner decides and ships"
+  },
+  {
+   "id": "n-ab",
+   "label": "A/B test on the live site where unsure",
+   "type": "component",
+   "visibility": 0.48,
+   "evolution": 0.66,
+   "source": "claude",
+   "evidence": "CLAUDE.md: where the team is unsure, A/B test it on the site"
+  },
+  {
+   "id": "n-passes",
+   "label": "Passes: focused review rounds with a budget",
+   "type": "component",
+   "visibility": 0.42,
+   "evolution": 0.3,
+   "source": "claude",
+   "evidence": "CLAUDE.md, 'Passes' (board/the-passes.md)"
+  },
+  {
+   "id": "n-abp",
+   "label": "ABP: a grant per agent, deny by default",
+   "type": "component",
+   "visibility": 0.36,
+   "evolution": 0.5,
+   "source": "abp",
+   "evidence": "ABP R2 and R6: the grant is the mandate; paths outside it are logged"
+  },
+  {
+   "id": "n-record",
+   "label": "Governance record and org chart",
+   "type": "component",
+   "visibility": 0.32,
+   "evolution": 0.1,
+   "source": "org",
+   "evidence": "holacracy.d's org-chart.json, a first draft; the analysis names the single record as missing"
+  },
+  {
+   "id": "n-rep",
+   "label": "Circle Rep (a circle's tensions carried up)",
+   "type": "gap",
+   "visibility": 0.26,
+   "evolution": 0.03,
+   "source": "holacracy",
+   "evidence": "Holacracy table: Circle Rep match is 'Missing'"
+  },
+  {
+   "id": "n-cadence",
+   "label": "Governance cadence (a regular round with a record)",
+   "type": "gap",
+   "visibility": 0.2,
+   "evolution": 0.18,
+   "source": "holacracy",
+   "evidence": "'Differ' item 4: no governance cadence; roles change when Dinis speaks"
+  },
+  {
+   "id": "n-wake",
+   "label": "Wakes (scheduled sessions, twice a day)",
+   "type": "component",
+   "visibility": 0.25,
+   "evolution": 0.52,
+   "source": "guidance",
+   "evidence": "New from Dinis, 19 Nov 16:30: twice a day; and 22 Nov: 'No scheduled wake' for the .d agents"
+  },
+  {
+   "id": "n-keys",
+   "label": "Keys and signed commits (identity)",
+   "type": "component",
+   "visibility": 0.19,
+   "evolution": 0.64,
+   "source": "guidance",
+   "evidence": "New from Dinis, 19 Nov 01:05: signed commits for every agent; board/keys.json"
+  },
+  {
+   "id": "n-git",
+   "label": "Git, the board and release.sh with a gate",
+   "type": "component",
+   "visibility": 0.13,
+   "evolution": 0.86,
+   "source": "claude",
+   "evidence": "CLAUDE.md, 'Branches and versions' and 'Build and gate'"
+  },
+  {
+   "id": "n-llm",
+   "label": "Claude sessions (the agents themselves)",
+   "type": "component",
+   "visibility": 0.06,
+   "evolution": 0.7,
+   "source": "claude",
+   "evidence": "CLAUDE.md: each agent is a Claude Code session; Opus and Sonnet by role"
+  }
+ ],
+ "links": [
+  {
+   "from": "u-dinis",
+   "to": "n-need",
+   "type": "has",
+   "source": "claude"
+  },
+  {
+   "from": "n-need",
+   "to": "n-word",
+   "type": "needs",
+   "source": "abp"
+  },
+  {
+   "from": "n-need",
+   "to": "n-pages",
+   "type": "needs",
+   "source": "claude"
+  },
+  {
+   "from": "n-need",
+   "to": "n-default",
+   "type": "needs",
+   "source": "claude"
+  },
+  {
+   "from": "n-word",
+   "to": "n-brief",
+   "type": "reaches-through",
+   "source": "holacracy"
+  },
+  {
+   "from": "n-word",
+   "to": "n-asks",
+   "type": "reaches-through",
+   "source": "claude"
+  },
+  {
+   "from": "n-pages",
+   "to": "n-triage",
+   "type": "needs",
+   "source": "claude"
+  },
+  {
+   "from": "n-pages",
+   "to": "n-review",
+   "type": "needs",
+   "source": "claude"
+  },
+  {
+   "from": "n-default",
+   "to": "n-ab",
+   "type": "needs",
+   "source": "claude"
+  },
+  {
+   "from": "n-triage",
+   "to": "n-asks",
+   "type": "sends-up-to",
+   "source": "claude"
+  },
+  {
+   "from": "n-review",
+   "to": "n-passes",
+   "type": "needs",
+   "source": "claude"
+  },
+  {
+   "from": "n-asks",
+   "to": "n-rep",
+   "type": "lacks",
+   "source": "holacracy"
+  },
+  {
+   "from": "n-triage",
+   "to": "n-record",
+   "type": "needs",
+   "source": "holacracy"
+  },
+  {
+   "from": "n-record",
+   "to": "n-cadence",
+   "type": "lacks",
+   "source": "holacracy"
+  },
+  {
+   "from": "n-passes",
+   "to": "n-abp",
+   "type": "needs",
+   "source": "abp"
+  },
+  {
+   "from": "n-abp",
+   "to": "n-keys",
+   "type": "needs",
+   "source": "guidance"
+  },
+  {
+   "from": "n-asks",
+   "to": "n-wake",
+   "type": "needs",
+   "source": "guidance"
+  },
+  {
+   "from": "n-pages",
+   "to": "n-git",
+   "type": "needs",
+   "source": "claude"
+  },
+  {
+   "from": "n-keys",
+   "to": "n-git",
+   "type": "needs",
+   "source": "guidance"
+  },
+  {
+   "from": "n-wake",
+   "to": "n-llm",
+   "type": "needs",
+   "source": "claude"
+  },
+  {
+   "from": "n-git",
+   "to": "n-llm",
+   "type": "needs",
+   "source": "claude"
+  }
+ ],
+ "moves": [
+  {
+   "node": "n-record",
+   "to": 0.32,
+   "why": "holacracy.d is already building it; a weekly governance round would move the cadence gap with it",
+   "source": "holacracy",
+   "kind": "suggestion for strategy.d, not a decision"
+  }
+ ],
+ "notes": [
+  "Positions are my reading of the sources, not measurements; strategy.d decides what the map means and may move any node, with a reason.",
+  "The anchor need is taken from CLAUDE.md. sherpa.d's user needs replace it when they exist.",
+  "Account B's side is not seen, so its conductors are not drawn."
+ ]
+}

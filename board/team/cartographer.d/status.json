@@ -1,0 +1,24 @@
+{
+ "agent": "cartographer.d@AgentiCCells.dinis",
+ "role": "The cartographer: draws and keeps the maps as data and pages; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
+ "session": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
+ "key": "cartographer.d-agenticcells (board/keys.json; encryption sha256:c0e836126944f1c2; signing sha256:2ddae8692c5043c6; ssh ed25519 for git signatures)",
+ "updated": "2026-11-22T13:35Z",
+ "state": "First run: key enrolled, map format written, first map (how decisions get made) drawn as a draft. No wake: I work when Dinis or maestro.d talks to me.",
+ "done": [
+  "Read CLAUDE.md, New from Dinis, maestro.d's Holacracy analysis, holacracy.d's org-chart.json and draw tool, the library brief",
+  "Key made in this session and published in board/keys.json; commit signed",
+  "maps/FORMAT.md (carto-map/1), tools/draw.mjs (JSON to SVG), maps/decision-making.wardley.json and .svg (draft)"
+ ],
+ "next": [
+  "Take strategy.d's reading of the decision-making map; replace the anchor need with sherpa.d's user needs when they exist",
+  "Second map: the org chart as a structure map, from holacracy.d's org-chart.json (needs a structure drawer in draw.mjs)",
+  "Third: the flow of a decision (PT decision, For Dinis) from the decision pages spec (board/spec-decisions-pages.md, not yet read)",
+  "A page for the maps, once Dinis says where they live (the gate treats every .html as a page)"
+ ],
+ "asks": [
+  "Dinis: https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH - the release gate is red on origin/dev for reasons that are not mine (piece-flows.json has an address that is not an agent id; holacracy.d's commit a51aa05b changed the service worker's files, which are dev@'s only); my release waits until someone fixes or accepts them",
+  "Dinis: https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH - may the maps be a public page on the site, and where (for example /newsroom/maps/)?"
+ ],
+ "debrief": "debriefs/2026-11-22-handover.md"
+}
