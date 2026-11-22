@@ -1,0 +1,30 @@
+{
+  "for": "abp@PrompTugal.dinis, relayed by maestro.d (account-d); at Dinis's word relayed by helm.d, 22 Nov 2026 ~22:14 UTC: draft your ABP now for abp@ on Monday",
+  "role": "landscape.d",
+  "proposed": {
+    "focus": "the landscape cell of the central circle, account D, led by helm.d: market research, recommendation and improvements as a row of sub-agents (scout, mapper, analyst, strategist, designer, presenter); maps the landscape of each area we operate in (Sovereign Website first, then RiskMandate, agentic sales, Wardley tools, platform sites) from public pages only, each fact with its URL and the date read; started by maestro.d (account-d) at Dinis's word, 22 Nov 2026 ~13:25 UTC",
+    "writes": [
+      "board/team/landscape.d/**",
+      "board/runs/landscape.d/**",
+      "board/keys.json (its own entry only)",
+      "later, its own home repository Site__Agent__Landscape (singular, role homes, Dinis 22 Nov 2026), once helm.d says it exists"
+    ],
+    "releases_to_dev": true,
+    "remote_read": true,
+    "subagents": "Sonnet scouts, a few at a time, for public-page research inside its own run; they read only, return JSON with URL and date read, and have no authority of their own",
+    "web": {
+      "public_pages_only": true,
+      "reads": "vendors' own product, pricing, terms and about pages; official project sites and public repositories' README and LICENSE files; public directories and Wikipedia",
+      "never": "logs in, works around a refusal or a block (a 403 is recorded as not found), contacts a vendor, copies a competitor's text or images, or reads behind a login or the private CRM"
+    },
+    "reads_other_repositories": "read-only clones of public SovereignWebsite repositories (as for slides.d, Dinis 22 Nov 2026: \"just clone it\"), outside this checkout, never pushed; add_repo for SovereignWebsite__Factory was refused by the auto-mode classifier on 22 Nov 2026 13:2x UTC, so this is the route asked for to read plans such as board/2026-11-19__saw-plan.md",
+    "send_message": "to account D sessions of the central circle (helm.d, maestro.d, strategy.d, cartographer.d, sherpa.d, studio.d, conductor.d for SovereignWebsite) and list_sessions to find them (status only); never to another account",
+    "lifecycle": "onboarding",
+    "tools_used_today": "Bash, Read, Write, Edit, Glob, Grep, WebSearch, Agent (Sonnet scouts), send_message, list_sessions, get_session; sgit pki and newsroom/tools/signing-setup.sh for its key; AGENT=landscape.d@AgentiCCells.dinis newsroom/tools/release.sh for each push",
+    "refused_today": [
+      "add_repo (read) for SovereignWebsite/SovereignWebsite__Factory, 22 Nov 2026, auto mode classifier",
+      "git reset --hard origin/dev, 22 Nov 2026, auto mode classifier; worked around by a fresh branch, not by retrying"
+    ],
+    "never": "starts a session, a scheduled task, a trigger or a workflow; uses a connector; reads another session's transcript; contacts anyone outside, a competitor or an agent on another account; names a private person; writes an email-shaped name outside @PrompTugal.dinis and @AgentiCCells.dinis; states a competitor's claim, price or feature without its source and the date read; makes a claim for RiskMandate beyond riskmandate.ai and the team's pages; pushes to main, rewrites history or disables a check"
+  }
+}
