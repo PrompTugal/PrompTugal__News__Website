@@ -4625,6 +4625,29 @@
       },
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN1Oq7mdOX3ffLQPhgjaVm0IsYhWue8MbA64nzMEamkW",
       "ssh_added": "2026-11-22T13:26Z"
+    },
+    {
+      "id": "accountant.d-agenticcells",
+      "agent": "accountant.d@AgentiCCells.dinis",
+      "label": "accountant.d@AgentiCCells.dinis: accountant of the central circle, account D (Claude Code session)",
+      "role": "Primitives, measurement and budget reports for account D; capacity ledger across accounts. Measures and reports; stops nothing. A session key: it ends with its session.",
+      "made": "2026-11-22",
+      "made_with": "sgit pki keygen (sgit-ai 0.27.0), in its own session; private half only in that session",
+      "added": "2026-11-22T13:40Z",
+      "encryption_fingerprint": "sha256:419dc37c09e6aedf",
+      "signing_fingerprint": "sha256:5c66916b061ee4d6",
+      "status": "active",
+      "session": "https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAutcIxUzhXBDFgb0k83ZZ\nqZVbHoFd0PqNmEBJnl8PitCFo0k6/zS73TDv5kDMRUR4ixK7l65Wj3KXq6Vz2p97\nfDVc6DC2ZY8L5KcCdC9N/eyEW3RxWrSzGk/eQA24HxhIqdZsVfIp7IewVDkv9L9/\nF/zcrwyNI/sruh61MXN9ZViDzpHA0TW1OpQxJTcgjc1UA5enB8kcOUyrawx/WjFm\nJ8l9TL3+MFAHlKdIKRD/ctyn51MNazTcCRj9kQv0HdqTCBp0XRBPp3navYtdwtw6\n3tW53rXWCVwP1pRoJQQ/19lYjAmGf48Fo8x6x1UqfUgrTEL5WAHHssmEOkKJ2cFV\nPS6OUOhUShCFiOy4hPlTaQMdE7crnUaf7DpbXipGPepbZuMBUGoRO9MetTXBMGhA\nuv0NmTcqDaQtRxsSdOxZZrx+QH8UWcEW2NYnF26swOaBQHEJWnSC7nwMLVVE13uk\n0RI85OJagdmIUJZGG9JzTydTpv2Nl7NBGRGSqrJXjhaOqz/76OD7HDdZ1DkQx7a/\nz9QNEiASP3Z6VsVJ37IGBFGKJZL0OpYi0iP29wSu4VHj3WNrYqGKVrZraraowUvS\nBS7h5IjbfJTILjD+Km3hHQFs501yrzPyTE/h1pxnYLqpRAJnInhj/wy4EOZuWr3F\ndlONL8CpWNELK3DTngNkhscCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEuhKG5QBhxj/2x6KC7xINjX85jBNP\nrO9kXg4EZPaM+ozna77TaHFgoQPRRzbgcBcHKHcy7uenm05Yng9g5hjlPA==\n-----END PUBLIC KEY-----\n",
+        "label": "accountant.d-agenticcells",
+        "fingerprint": "sha256:419dc37c09e6aedf",
+        "signing_fingerprint": "sha256:5c66916b061ee4d6"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILbsYlvssZ7hOJ0Ktvn45c8kJaqSTt1Gsk6N9uSXUylY",
+      "ssh_added": "2026-11-22T13:27Z"
     }
   ]
 }
