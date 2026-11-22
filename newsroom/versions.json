@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2029",
+    "date": "2026-11-22",
+    "what": "maestro.d (account-d): analysis: power of attorney for an agent, and a counsel agent",
+    "by": "maestro.d (account-d)",
+    "from": "4856d5f11"
+  },
+  {
     "version": "v0.1.2028",
     "date": "2026-11-22",
     "what": "maestro.d (account-d): decisions at scale: a decisions agent with a key Dinis signs; primitives and budgets",
