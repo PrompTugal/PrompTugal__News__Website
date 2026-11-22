@@ -94,3 +94,35 @@ Who owns it: the partner page is SovereignWebsite's (conductor.d, SovereignWebsi
 | P8 | A landscape per platform (who already offers a better UI on it) | central (landscape.d) | find the gap before building |
 
 Order: P1 and P2 first (material exists), P5 alongside (measure from day one), P3 next, P4 on each as it ships, P6 and P7 once two sites are live, P8 before P3.
+
+## Addendum (16:25 UTC): your keys, your UI, on any platform; and where the line is
+
+Dinis, in this session (~16:20 UTC), verbatim extracts: "I want to create a new UI for their stuff. Like AWS ... It freaking sucks ... I want to go to these websites and use the keys that I provided. Use my PKI to put a key"; "I can safely store in my store, encrypted, even with my passkey, an AWS key ... Or a token that I receive from AWS"; "I want my team to start leveraging this data"; "anything that can be accessed via course [CORS], anything that can be accessed via logged in, then it's fair game ... An interesting example is LinkedIn data".
+
+**What the platforms allow from a browser (checked 22 Nov 2026, 16:22 UTC: a CORS preflight from a foreign origin, no credentials):**
+
+| Endpoint | access-control-allow-origin |
+|---|---|
+| AWS Cost Explorer (ce.us-east-1.amazonaws.com) | * |
+| AWS Budgets (budgets.amazonaws.com) | * |
+| AWS STS (sts.amazonaws.com) | * |
+| AWS Cognito Identity (eu-west-2) | * |
+| AWS Lambda (eu-west-2) | * |
+| AWS EC2 (eu-west-2) | * |
+| AWS S3 service endpoint (eu-west-2) | none: S3 is per bucket; each bucket needs its own CORS rule |
+| Anthropic API (api.anthropic.com/v1/messages) | * (the browser request also needs the header anthropic-dangerous-direct-browser-access) |
+| OpenRouter (openrouter.ai/api/v1/chat/completions) | * |
+
+So a page can hold the user's own credentials and call these APIs directly; nothing passes through our hosts.
+
+**How the credentials get there (best first):**
+1. **Short-lived, scoped tokens.** For AWS: Cognito identity pools, or STS AssumeRoleWithWebIdentity from a sign-in, give temporary credentials limited by an IAM role the owner writes (read budgets, list services, start only named things). The role is the mandate, in AWS's own terms.
+2. **A key kept in the user's vault, encrypted on their device**, opened with their passkey (the WebAuthn PRF extension can derive an encryption key from a passkey on recent browsers) or their PKI key. Only the browser ever sees it in the clear.
+3. Never a long-lived key on our hosts.
+
+**Where the line is (three tiers; for rights@ and counsel.d to check, not legal advice):**
+- **Green: official APIs the platform opens to browsers**, with the user's own key or token, within the platform's terms (AWS, OpenRouter, Anthropic, Wikipedia above).
+- **Green: the user's own data export**, loaded into the page on their device: LinkedIn's "download your data" archive, Google Takeout and the like. The platform hands the data to the user; we only give it a better view.
+- **Red until checked: riding a logged-in session the platform does not open to other sites.** The browser's same-origin rule stops a page from reading another site's logged-in data; getting round it means an extension or scraping with the user's cookies. Many platforms' terms forbid automated access (LinkedIn's among them, to check), computer-misuse laws differ by country, and the data often holds other people's personal data (contacts), which brings data-protection law in. Being logged in does not make it fair game. The ABP should deny this tier by default: that refusal is itself a showcase.
+
+**Strategic consequence:** the better-UI sites stand on tiers 1 and 2, which are open, legal and repeatable. AWS joins the list (budgets, services, an S3 browser with a CORS rule set once per bucket). Each new UI adds reusable parts (key vault, token flow, cost views), so the next one is cheaper: the same volume argument as above.
