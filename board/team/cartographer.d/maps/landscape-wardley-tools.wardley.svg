@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-label="Landscape: Wardley map tools, now and before" font-family="system-ui, sans-serif">
+<rect width="1400" height="1000" fill="#fff"/>
+<text x="70" y="30" font-size="20" font-weight="600" fill="#111">Landscape: Wardley map tools, now and before</text>
+<text x="70" y="50" font-size="12" fill="#444">wardley map, draft, made 2026-11-22T18:11Z by cartographer.d@AgentiCCells.dinis from 3 sources (see the JSON)</text>
+<rect x="70" y="90" width="1300" height="820" fill="none" stroke="#999"/>
+<text x="76" y="928" font-size="12" fill="#555">Genesis</text>
+<line x1="395" y1="90" x2="395" y2="910" stroke="#ccc" stroke-dasharray="4 4"/>
+<text x="401" y="928" font-size="12" fill="#555">Custom-built</text>
+<line x1="720" y1="90" x2="720" y2="910" stroke="#ccc" stroke-dasharray="4 4"/>
+<text x="726" y="928" font-size="12" fill="#555">Product (+ rental)</text>
+<line x1="1045" y1="90" x2="1045" y2="910" stroke="#ccc" stroke-dasharray="4 4"/>
+<text x="1051" y="928" font-size="12" fill="#555">Commodity (+ utility)</text>
+<text x="70" y="960" font-size="12" fill="#555">Evolution, left to right</text>
+<text transform="translate(22 290) rotate(-90)" font-size="12" fill="#555">Visible to the user</text>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8z" fill="#888"/></marker></defs>
+<circle cx="200" cy="90" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>Send someone one page that makes them understand a Wardley map, so I s (source: sherpa) Dinis, as quoted in the brief: 'I still don't have a good website to find ... I struggle to explain'</title></circle>
+<text text-anchor="start" x="210" y="94" font-size="13" fill="#111">Send someone one page that</text>
+<text text-anchor="start" x="210" y="106" font-size="13" fill="#111">makes them understand a</text>
+<text text-anchor="start" x="210" y="118" font-size="13" fill="#111">Wardley map, so I s</text>
+<circle cx="525" cy="147.4" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>Make a map of my own situation quickly, with no install and no lesson, (source: sherpa) cartographer.d's brief board/team/cartographer.d/briefs/2026-11-22-wardley-maps-site.md, read 22 Nov 16:42 UTC; see needs/wardley-maps-site.md</title></circle>
+<text text-anchor="start" x="535" y="151.4" font-size="13" fill="#111">Make a map of my own</text>
+<text text-anchor="start" x="535" y="163.4" font-size="13" fill="#111">situation quickly, with no</text>
+<text text-anchor="start" x="535" y="175.4" font-size="13" fill="#111">install and no lesson,</text>
+<circle cx="850" cy="90" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>See what is sourced, what is a reading, and who made it, so I know wha (source: sherpa) cartographer.d's brief board/team/cartographer.d/briefs/2026-11-22-wardley-maps-site.md, read 22 Nov 16:42 UTC; see needs/wardley-maps-site.md</title></circle>
+<text text-anchor="start" x="860" y="94" font-size="13" fill="#111">See what is sourced, what</text>
+<text text-anchor="start" x="860" y="106" font-size="13" fill="#111">is a reading, and who made</text>
+<text text-anchor="start" x="860" y="118" font-size="13" fill="#111">it, so I know wha</text>
+<circle cx="1175" cy="147.4" r="6" fill="#0b6b3a" stroke="#0b6b3a" stroke-width="2"><title>See how a map changed over time. (source: sherpa) Dinis, as quoted in the brief: 'every move is a play'</title></circle>
+<text text-anchor="end" x="1165" y="151.4" font-size="13" fill="#111">See how a map changed over</text>
+<text text-anchor="end" x="1165" y="163.4" font-size="13" fill="#111">time.</text>
+<circle cx="200" cy="336" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Online Wardley Maps (damonsk) (source: landscape) Free browser tool drawing Wardley maps from a text DSL with an interactive editor and submaps; text-first with a visual layer; the hosted page showed only Loading to the fetch. Kind: text-first + visual. Openness: open (MIT). Status: active-looking: no dates read. https://github.com/damonsk/onlinewardleymaps (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="210" y="340" font-size="13" fill="#111">Online Wardley Maps</text>
+<text text-anchor="start" x="210" y="352" font-size="13" fill="#111">(damonsk)</text>
+<circle cx="538" cy="336" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Mermaid Wardley diagram (source: landscape) Text-based Wardley diagram type (keyword wardley-beta) with components, anchors, links, evolve arrows, pipelines, notes, sourcing decorators and accelerators. Kind: text-first. Openness: open (MIT). Status: beta. https://mermaid.js.org/syntax/wardley.html (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="548" y="340" font-size="13" fill="#111">Mermaid Wardley diagram</text>
+<circle cx="200" cy="445.1" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Wardley Maps for VS Code (source: landscape) Extension to render and edit maps in VS Code using the Online Wardley Maps engine; text-first, reads .wm and .owm. Kind: text-first plugin. Openness: open (MIT, text not seen). Status: no dates read. https://github.com/damonsk/vscode-wardley-maps (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="210" y="449.1" font-size="13" fill="#111">Wardley Maps for VS Code</text>
+<circle cx="538" cy="445.1" r="6" fill="#fff" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="3 2" opacity="0.6"><title>Wardley Maps for Obsidian (source: landscape) Obsidian community plugin rendering and editing maps in the Online Wardley Maps format inside a code block; text-first. Kind: text-first plugin. Openness: open (AGPL-3.0). Status: last push Nov 2024 per an aggregator snippet. https://github.com/damonsk/obsidian-wardley-maps (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="548" y="449.1" font-size="13" fill="#111">Wardley Maps for Obsidian</text>
+<circle cx="200" cy="554.9" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Go-Wardley (source: landscape) Go program generating a Wardley map as SVG from an HCL text description, with hover details and a local web server; text-first. Kind: text-first CLI. Openness: open (MPL-2.0). Status: no dates read. https://github.com/DavidGamba/go-wardley (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="210" y="558.9" font-size="13" fill="#111">Go-Wardley</text>
+<circle cx="538" cy="554.9" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>wardleyToGo (source: landscape) Go library and toolset defining maps as code or data and rendering SVG; supports the onlinewardleymap syntax and its own WTG2 language; browser playground. Kind: text-first library. Openness: open (MIT). Status: no dates read. https://github.com/owulveryck/wardleyToGo (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="548" y="558.9" font-size="13" fill="#111">wardleyToGo</text>
+<circle cx="200" cy="664" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>cli-owm (source: landscape) Command-line renderer turning Online Wardley Maps DSL into SVG, with five themes. Kind: text-first CLI. Openness: open (MIT). Status: no dates read. https://github.com/monkeypants/cli-owm (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="210" y="668" font-size="13" fill="#111">cli-owm</text>
+<circle cx="538" cy="664" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>ipywardley (source: landscape) Jupyter extension adding a %%wardley cell magic drawing maps from a subset of the Online Wardley Maps syntax. Kind: text-first notebook. Openness: open (GPL-3.0). Status: no dates read. https://github.com/anjackson/ipywardley (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="548" y="668" font-size="13" fill="#111">ipywardley</text>
+<circle cx="850" cy="705" r="6" fill="#fff" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="3 2" opacity="0.6"><title>Map (macOS, Linux, wmap CLI) (source: landscape) Community list names a native macOS app, a GTK4 Linux app and a wmap CLI using a text syntax called wmap; the CLI renders PNG or SVG. Kind: text-first apps. Openness: open (GPLv3 / AGPLv3, per a list). Status: own site 403. https://list.wardleymaps.com/ (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="860" y="709" font-size="13" fill="#111">Map (macOS, Linux, wmap</text>
+<text text-anchor="start" x="860" y="721" font-size="13" fill="#111">CLI)</text>
+<circle cx="824" cy="188.4" r="6" fill="#fff" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="3 2" opacity="0.6"><title>MapScript (source: landscape) Map-as-code tool built on Observable notebooks with a hosted version at mapscript.org. Kind: text-first, hosted. Openness: not read. Status: listed Discontinued, reason not stated. https://list.wardleymaps.com/ (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="834" y="192.4" font-size="13" fill="#111">MapScript</text>
+<circle cx="1110" cy="188.4" r="6" fill="#fff" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="3 2" opacity="0.6"><title>Mapkeep (source: landscape) Described as a multiplayer Wardley map editor with free map hosting. Kind: drag-and-drop, collaborative, hosted. Openness: not read. Status: listed Discontinued, reason not stated. https://list.wardleymaps.com/ (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="1120" y="192.4" font-size="13" fill="#111">Mapkeep</text>
+<circle cx="824" cy="336" r="6" fill="#fff" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="3 2" opacity="0.6"><title>MapAware (source: landscape) Browser-based collaborative Wardley mapping with keyboard-first controls and real-time editing, labelled beta; account required; price and licence not stated. Kind: drag-and-drop, collaborative, hosted. Openness: closed? not stated. Status: beta; status unverified. https://learnwardleymapping.com/portfolio/mapaware/ (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="834" y="340" font-size="13" fill="#111">MapAware</text>
+<circle cx="1110" cy="336" r="6" fill="#fff" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="3 2" opacity="0.6"><title>SharpCloud (Wardley use) (source: landscape) Commercial visualisation platform that offered a route to Wardley maps. Kind: commercial platform. Openness: closed? not stated. Status: listed Discontinued for Wardley use, reason not stated. https://learnwardleymapping.com/portfolio/sharpcloud/ (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="1120" y="340" font-size="13" fill="#111">SharpCloud (Wardley use)</text>
+<circle cx="1006" cy="459" r="6" fill="#fff" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="3 2" opacity="0.6"><title>Miro Wardley template (source: landscape) General online whiteboard with a Wardley Map template; drag-and-drop; no price or licence read. Kind: whiteboard template. Openness: closed? not stated. Status: no dates read. https://learnwardleymapping.com/portfolio/miro/ (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="1016" y="463" font-size="13" fill="#111">Miro Wardley template</text>
+<circle cx="1006" cy="520.5" r="6" fill="#fff" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="3 2" opacity="0.6"><title>Excalidraw with Wardley library (source: landscape) Free whiteboard needing no account with community Wardley symbol libraries; drag-and-drop. Kind: whiteboard + symbol library. Openness: open (MIT). Status: no dates read. https://learnwardleymapping.com/portfolio/excalidraw/ (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="1016" y="524.5" font-size="13" fill="#111">Excalidraw with Wardley</text>
+<text text-anchor="start" x="1016" y="536.5" font-size="13" fill="#111">library</text>
+<circle cx="1006" cy="582" r="6" fill="#fff" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="3 2" opacity="0.6"><title>Glamorous Toolkit (source: landscape) Moldable development environment; the community list says it combines maps with notebooks; its own product page does not mention Wardley maps. Kind: development environment. Openness: open (MIT). Status: Wardley not on its own page. https://gtoolkit.com (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="1016" y="586" font-size="13" fill="#111">Glamorous Toolkit</text>
+<circle cx="200" cy="221.2" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Create Maps (wardleymaps.ai) (source: landscape) AI-assisted Wardley map creation tool listed on wardleymaps.ai; only the listing page was read, not the tool; price, licence and formats not stated. Kind: AI-assisted. Openness: not stated. Status: only the listing read. https://www.wardleymaps.ai (read 2026-11-22)</title></circle>
+<text text-anchor="start" x="210" y="225.2" font-size="13" fill="#111">Create Maps</text>
+<text text-anchor="start" x="210" y="237.2" font-size="13" fill="#111">(wardleymaps.ai)</text>
+<circle cx="590" cy="270.4" r="6" fill="#fff" stroke="#b3261e" stroke-width="2"><title>Dated history played over time, and a source on every node: no page read mentions either (to verify) (source: cartographer) landscape.d finding wt-g4: possible gap, to verify before any claim; its gaps wt-g5: most commit dates are not visible, three sites were unreachable, the AI map creator was read as a listing only. Not a claim that nobody does this</title></circle>
+<text text-anchor="start" x="600" y="274.4" font-size="13" fill="#111">Dated history played over</text>
+<text text-anchor="start" x="600" y="286.4" font-size="13" fill="#111">time, and a source on</text>
+<text text-anchor="start" x="600" y="298.4" font-size="13" fill="#111">every node: no page read</text>
+<text text-anchor="start" x="600" y="310.4" font-size="13" fill="#111">mentions either (to</text>
+<text text-anchor="start" x="600" y="322.4" font-size="13" fill="#111">verify)</text>
+<text x="70" y="986" font-size="11" fill="#555">Green: user need. Purple: the shared goal. Blue: component. Red ring: a gap (named as missing in the sources). Orange arrow: a suggested move, for strategy.d. Faint dashed: low confidence. Positions are a reading of the sources.</text>
+</svg>

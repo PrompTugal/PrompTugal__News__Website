@@ -4,7 +4,7 @@ import fs from 'node:fs'
 const area = process.argv[2] || 'sovereign-website'
 const R = JSON.parse(fs.readFileSync(`board/team/landscape.d/landscapes/${area}/rows.json`, 'utf8'))
 // my reading of where each group stands (visibility to a small-business owner; evolution); not landscape.d's, not a measurement
-const group = (id, ring) => ring === 4 ? 'host' : /infomaniak|ionos|jimdo|hostinger|framer|wix|squarespace|webflow|durable/.test(id) ? 'builder' : /sovereign-website|-us$|-us-/.test(id) ? 'us' : /10web/.test(id) ? 'ai-wp' : /saldia|lovable|bolt-boltnew|v0-by/.test(id) ? 'ai-closed' : /hugo|jekyll|eleventy|astro|zola/.test(id) ? 'engine' : /wordpress|ghost/.test(id) ? 'cms' : 'ai-open'
+const group = (id, ring) => ring === 4 ? 'host' : /infomaniak|ionos|jimdo|hostinger|framer|wix|squarespace|webflow/.test(id) ? 'builder' : /sovereign-website|-us$|-us-/.test(id) ? 'us' : /10web|durable/.test(id) ? 'ai-wp' : /saldia|lovable|bolt-boltnew|v0-by/.test(id) ? 'ai-closed' : /hugo|jekyll|eleventy|astro|zola/.test(id) ? 'engine' : /wordpress|ghost/.test(id) ? 'cms' : 'ai-open'
 const base = { builder: [0.8, 0.72], 'ai-closed': [0.84, 0.36], 'ai-wp': [0.7, 0.5], engine: [0.34, 0.8], cms: [0.5, 0.78], 'ai-open': [0.62, 0.2], host: [0.2, 0.86], us: [0.5, 0.3] }
 const seen = {}
 const needs = R.proposed_needs
@@ -13,7 +13,7 @@ const nodes = [...needNodes], links = []
 for (const p of R.rows) {
   const g = group(p.id, p.ring), k = (seen[g] = (seen[g] || 0) + 1) - 1
   const [v, e] = base[g]
-  nodes.push({ id: p.id, label: p.name, player: p.name, type: 'component', ring: p.ring, group: g, visibility: Math.round((v + 0.04 - k * 0.05) * 100) / 100, evolution: Math.round(Math.min(0.97, Math.max(0.03, e + ((k * 7) % 5 - 2) * 0.035)) * 100) / 100, flagged: p.flagged, source: 'landscape', evidence: `${p.what} Price: ${p.price_line}. ${p.source_url} (read ${p.date_read})${p.flagged ? '; flagged for re-read by landscape.d' : ''}` })
+  nodes.push({ id: p.id, label: p.name, player: p.name, type: 'component', ring: p.ring, group: g, visibility: Math.round((v + 0.04 - k * 0.05) * 100) / 100, evolution: Math.round(Math.min(0.97, Math.max(0.03, e + ((k * 7) % 5 - 2) * 0.035)) * 100) / 100, flagged: p.flagged, source: 'landscape', evidence: `${/webflow/.test(p.id) ? 'UNREAD: every Webflow page failed to load; its band and position come from general knowledge, not from landscape.d\'s reading. ' : ''}${/dyad/.test(p.id) ? 'Open only in part (Apache 2.0 outside src/pro, which is under the Functional Source License). ' : ''}${/totalum/.test(p.id) ? 'Totalum\'s open builder hosts the generated apps itself. ' : ''}${p.what} Price: ${p.price_line}. ${p.source_url} (read ${p.date_read})${p.flagged ? '; flagged for re-read by landscape.d' : ''}` })
   for (const n of p.serves_needs) links.push({ from: n, to: p.id, type: 'served-by', source: 'landscape' })
   for (const n of p.lacks_needs) links.push({ from: n, to: p.id, type: 'lacks', source: 'landscape' })
 }

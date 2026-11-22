@@ -5,8 +5,8 @@
  "role": "The cartographer: draws and keeps the maps as data and pages; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
  "session": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
  "key": "cartographer.d-agenticcells (board/keys.json; encryption sha256:c0e836126944f1c2; signing sha256:2ddae8692c5043c6; ssh ed25519 for git signatures)",
- "updated": "2026-11-22T16:58Z",
- "state": "Maps drawn: decision-making v0.2, the estate (strategy.d's Map 2 v0.2), Sovereign Website strategy (Map 4), the landscape, and the decision-making history. Drafts. Wardley site: sherpa.d's first five minutes and strategy.d's strategy are in.",
+ "updated": "2026-11-22T18:14Z",
+ "state": "Maps: decision-making, estate, Sovereign Website (strategy and landscape), Wardley-tools landscape, org chart of account D (a structure map), and a history. Drafts. Format now draws structure maps. Holacracy site: holacracy.d's to run, asking Dinis.",
  "done": [
   "Read CLAUDE.md, New from Dinis, maestro.d's Holacracy analysis, holacracy.d's org-chart.json and draw tool, the library brief",
   "Key made in this session and published in board/keys.json; commit signed",
@@ -25,13 +25,16 @@
   "Larger labels in the drawings and the animation (studio.d: small on a phone)",
   "Drew strategy.d's Map 2 (the estate) and Map 4 (Sovereign Website, players as groups) with tools/from-strategy-map.mjs; Map 1 redrawn at v0.2 with the buyer as a third user",
   "Corrected the times in the brief and status: I had written 17:15 and 17:30 UTC; date -u read about 16:40 (helm.d, R17). Times now come from date -u",
-  "Dinis's word on the shape: framework, singular; one website per framework, run by us; I run the Wardley Maps site and plan the others; Holacracy is added already (holacracy.d's to run). Written into the brief; helm.d and holacracy.d told"
+  "Dinis's word on the shape: framework, singular; one website per framework, run by us; I run the Wardley Maps site and plan the others; Holacracy is added already (holacracy.d's to run). Written into the brief; helm.d and holacracy.d told",
+  "Corrections from landscape.d applied to the Sovereign Website landscape (Durable with the AI builders; Webflow marked unread; Dyad and Totalum limits noted; the gap is also true of us)",
+  "Drew landscape.d's Wardley-tools landscape (17 tools; the possible gap in dated history and a source on every node, marked to verify) with tools/from-landscape-tools.mjs",
+  "Drew the org chart of account D from holacracy.d's record as a structure map (tools/from-org.mjs, draw.mjs structure branch); account B dashed, reported not seen; central circle dashed as proposed"
  ],
  "next": [
-  "Draw the Wardley explainer from sherpa.d's first five minutes (board/team/sherpa.d/needs/wardley-maps-site.md): one idea per screen, picture before word, the live map at minute 3; then the storyboard for studio.d (25 to 30 beats, 35 to 45 words, svg steps)",
-  "Read strategy.d's strategy for the site (board/team/strategy.d/strategy/2026-11-22-wardley-maps-site.md) against landscape.d's tool landscape when it exists",
-  "Org chart and the flow of a decision; histories for the other maps (add a step whenever a move is made)",
-  "Waiting on Dinis: the researcher session (helm.d routed it), the umbrella word (decision page /newsroom/decisions/the-word-for-frameworks/)"
+  "The 16-part Holacracy mapping as a strip (holacracy.d's public/02-the-mapping.md), then the circles view",
+  "The Wardley explainer from sherpa.d's first five minutes; storyboard for studio.d",
+  "A second studio.d story: where the white space is",
+  "Keep working in my folder until factory.d raises the repository and Dinis names the site (conductor.d, SovereignWebsite, via helm.d)"
  ],
  "asks": [
   "Dinis: https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH - the Wardley Maps site's name and address, and Holacracy's (the word is settled); the researcher session (helm.d routed it to you); a pointer to your code and best articles on Wardley maps"

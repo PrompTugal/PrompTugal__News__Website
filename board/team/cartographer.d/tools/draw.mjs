@@ -13,6 +13,7 @@ const r1 = x => Math.round(x * 10) / 10
 const px = e => r1(L + e * (W - L - R)), py = v => r1(T + (1 - v) * (H - T - B))
 for (const f of files) {
   const j = JSON.parse(fs.readFileSync(f, 'utf8'))
+  if (j.kind === 'structure') { drawStructure(j, f); continue }
   if (j.kind !== 'wardley') { console.log(`skip ${path.basename(f)}: kind ${j.kind} not drawn yet`); continue }
   const by = Object.fromEntries(j.nodes.map(n => [n.id, n]))
   const colour = { need: '#0b6b3a', goal: '#5b2a86', player: '#7a5a00', component: '#1f3a5f', gap: '#b3261e' }
@@ -46,4 +47,34 @@ for (const f of files) {
   const out = f.replace(/\.json$/, '.svg')
   fs.writeFileSync(out, s.join('\n') + '\n')
   console.log('wrote', path.relative(process.cwd(), out))
+}
+
+// structure maps: a parent tree, left to right, one row per role; colour by state; dashed where the role is proposed, not ratified
+function drawStructure(j, f) {
+  const by = Object.fromEntries(j.nodes.map(n => [n.id, n]))
+  const kids = id => j.nodes.filter(n => n.parent === id)
+  const roots = j.nodes.filter(n => !n.parent || !by[n.parent])
+  let row = 0
+  const place = (n, depth) => { n.depth = depth; n.row = row++; kids(n.id).forEach(k => place(k, depth + 1)) }
+  roots.forEach(r => place(r, 0))
+  const maxDepth = Math.max(...j.nodes.map(n => n.depth)), BW = 330, BH = 34, GAP = 22, X0 = 30, Y0 = 110
+  const Wd = X0 * 2 + (maxDepth + 1) * (BW + 40) + 20, Hd = Y0 + row * (BH + 8) + 150
+  const col = s => /working/.test(s) ? '#d8f0df' : /waiting/.test(s) ? '#fdebc8' : /completed|review/.test(s) ? '#e4e4e4' : '#fff'
+  const o = [`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${Wd} ${Hd}" role="img" aria-label="${esc(j.title)}" font-family="system-ui, sans-serif"><rect width="${Wd}" height="${Hd}" fill="#fff"/>`]
+  o.push(`<text x="${X0}" y="34" font-size="22" font-weight="600" fill="#111">${esc(j.title)}</text>`)
+  o.push(`<text x="${X0}" y="58" font-size="13" fill="#444">structure map, ${esc(j.status)}, made ${esc(j.made)} by ${esc(j.made_by)}; drawn from holacracy.d's org-chart.json</text>`)
+  o.push(`<text x="${X0}" y="80" font-size="13" fill="#444">Green: working. Amber: waiting on Dinis. Grey: completed or in review. Dashed border: a role proposed, not ratified. Reading: the line from a role goes to the role that started it.</text>`)
+  const xy = n => ({ x: X0 + n.depth * (BW + 40), y: Y0 + n.row * (BH + 8) })
+  for (const n of j.nodes) { const p = by[n.parent]; if (!p) continue; const a = xy(p), b = xy(n)
+    o.push(`<path d="M${a.x + 14} ${a.y + BH} V${b.y + BH / 2} H${b.x}" fill="none" stroke="#999"/>`) }
+  for (const n of j.nodes) { const { x, y } = xy(n)
+    o.push(`<rect x="${x}" y="${y}" width="${BW}" height="${BH}" rx="4" fill="${col(n.state)}" stroke="#555"${n.proposed ? ' stroke-dasharray="5 3"' : ''}><title>${esc(n.label)}; ${esc(n.state)}; ${esc(n.source)}</title></rect>`)
+    o.push(`<text x="${x + 8}" y="${y + 14}" font-size="13" font-weight="600" fill="#111">${esc(n.label)}</text>`)
+    o.push(`<text x="${x + 8}" y="${y + 28}" font-size="11" fill="#444">${esc((n.circle || '') + ' | ' + (n.state || '').slice(0, 48))}</text>`) }
+  const by0 = Y0 + row * (BH + 8) + 20
+  o.push(`<rect x="${X0}" y="${by0}" width="${Wd - X0 * 2}" height="90" fill="none" stroke="#777" stroke-dasharray="6 4"/>`)
+  o.push(`<text x="${X0 + 10}" y="${by0 + 22}" font-size="14" font-weight="600" fill="#333">Account B (reported, not seen)</text>`)
+  wrap(j.account_b || '', 150).slice(0, 3).forEach((t, i) => o.push(`<text x="${X0 + 10}" y="${by0 + 42 + i * 16}" font-size="12" fill="#444">${esc(t)}</text>`))
+  o.push('</svg>')
+  const out = f.replace(/\.json$/, '.svg'); fs.writeFileSync(out, o.join('\n') + '\n'); console.log('wrote', path.relative(process.cwd(), out))
 }

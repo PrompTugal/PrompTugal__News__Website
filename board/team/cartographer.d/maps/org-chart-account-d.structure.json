@@ -1,0 +1,510 @@
+{
+ "format": "carto-map/1",
+ "id": "org-chart-account-d",
+ "kind": "structure",
+ "status": "draft",
+ "title": "Who started whom: the agents of account D",
+ "made": "2026-11-22T18:11Z",
+ "made_by": "cartographer.d@AgentiCCells.dinis",
+ "for": "holacracy.d keeps the record; this is a picture of it",
+ "sources_read": {
+  "org": "board/team/holacracy.d/org-chart.json (generated 2026-11-22T16:20Z), read 22 Nov 2026; states are as holacracy.d last read them, not refreshed by me"
+ },
+ "nodes": [
+  {
+   "id": "maestro.d",
+   "label": "maestro.d",
+   "type": "role",
+   "circle": "maestros",
+   "parent": null,
+   "state": "working",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: One combined view of both accounts and one brief to Dinis; conducts account D's conductors; never a conductor's work; model opus (configured sonnet); state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "holacracy.d",
+   "label": "holacracy.d",
+   "type": "role",
+   "circle": "anchor",
+   "parent": "maestro.d",
+   "state": "working",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: The health of the whole system of Dinis's agents: every circle has a lead, every role is written and filled, every structure problem reaches someone who can resolve it; model sonnet; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "conductor.d@PrompTugal",
+   "label": "conductor.d (PrompTugal)",
+   "type": "role",
+   "circle": "PrompTugal",
+   "parent": "maestro.d",
+   "state": "waiting on Dinis: push access to PrompTugal__News__Data, how twins' keys get in",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: Conduct the PrompTugal sessions on account D and carry the shared PrompTugal work; model opus; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "bulletins.d",
+   "label": "bulletins.d",
+   "type": "role",
+   "circle": "PrompTugal",
+   "parent": "conductor.d@PrompTugal",
+   "state": "completed its last turn (story-first player on a branch)",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: Bulletins (text, audio, video summaries from the data) on account D; model opus; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "conductor.d@SovereignWebsite",
+   "label": "conductor.d (SovereignWebsite)",
+   "type": "role",
+   "circle": "SovereignWebsite",
+   "parent": "maestro.d",
+   "state": "waiting on Dinis: a yes in factory.d's session",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: Conduct SovereignWebsite on account D; model opus; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "sites.d",
+   "label": "sites.d",
+   "type": "role",
+   "circle": "SovereignWebsite",
+   "parent": "maestro.d",
+   "state": "waiting on Dinis: a yes to factory.d",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: Run the sites of SovereignWebsite on account D; model sonnet; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "hub.d",
+   "label": "hub.d",
+   "type": "role",
+   "circle": "SovereignWebsite",
+   "parent": "maestro.d",
+   "state": "completed, idle (no first task)",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: The Hub of SovereignWebsite on account D; model sonnet; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "design.d",
+   "label": "design.d",
+   "type": "role",
+   "circle": "SovereignWebsite",
+   "parent": "conductor.d@SovereignWebsite",
+   "state": "waiting on Dinis: contrast fix, /accounts/d/ move, key",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: Design rounds for the .d sites; model opus; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "synthetic-users.d",
+   "label": "synthetic-users.d",
+   "type": "role",
+   "circle": "SovereignWebsite",
+   "parent": "conductor.d@SovereignWebsite",
+   "state": "waiting on Dinis: say go on the chip fix",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: Synthetic users for the .d sites; model opus; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "factory.d",
+   "label": "factory.d",
+   "type": "role",
+   "circle": "SovereignWebsite",
+   "parent": "conductor.d@SovereignWebsite",
+   "state": "waiting on Dinis: pick A, B or C, merge 7c755a8",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: SovereignWebsite__Factory changes for the .d team; model opus; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "library.d",
+   "label": "library.d",
+   "type": "role",
+   "circle": "SovereignWebsite",
+   "parent": "conductor.d@SovereignWebsite",
+   "state": "completed (moved to /accounts/d/)",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: The library and the relay of the newsroom writing for the .d team; model opus; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "streaming.d",
+   "label": "streaming.d",
+   "type": "role",
+   "circle": "StreamingWebsite",
+   "parent": "sites.d",
+   "state": "review ready",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: The streaming site; model opus (configured sonnet); state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "conductor.d@AgentiCCells",
+   "label": "conductor.d (AgentiCCells)",
+   "type": "role",
+   "circle": "AgentiCCells",
+   "parent": "maestro.d",
+   "state": "waiting on Dinis: which email fixes to build",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: Conduct AgentiCCells on account D; model opus; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "cell.email.d",
+   "label": "cell.email.d",
+   "type": "role",
+   "circle": "AgentiCCells",
+   "parent": "conductor.d@AgentiCCells",
+   "state": "waiting on Dinis: push release/next2, approver option, leak-scan exception",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: The email cell, twin of cell.email.b; model opus; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "newsroom.d",
+   "label": "newsroom.d",
+   "type": "role",
+   "circle": "sgit.ai",
+   "parent": "maestro.d",
+   "state": "waiting on Dinis: who holds a decision brief",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: The newsroom writer on account D, twin of writer-10 (becoming newsroom.b); received my brief as material; model opus; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "helm.d",
+   "label": "helm.d",
+   "type": "role",
+   "circle": "central (helm)",
+   "parent": "maestro.d",
+   "state": "working (started 13:25 UTC)",
+   "proposed": true,
+   "source": "org",
+   "evidence": "purpose: Dinis's single entry point for the global structure and direction of travel; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "strategy.d",
+   "label": "strategy.d",
+   "type": "role",
+   "circle": "central (helm)",
+   "parent": "maestro.d",
+   "state": "working (started 13:25 UTC)",
+   "proposed": true,
+   "source": "org",
+   "evidence": "purpose: Show where each area and the estate stand and what to do next; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "cartographer.d",
+   "label": "cartographer.d",
+   "type": "role",
+   "circle": "central (helm)",
+   "parent": "maestro.d",
+   "state": "working (started 13:25 UTC)",
+   "proposed": true,
+   "source": "org",
+   "evidence": "purpose: The maps as data and pages, kept current; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "sherpa.d",
+   "label": "sherpa.d",
+   "type": "role",
+   "circle": "central (helm)",
+   "parent": "maestro.d",
+   "state": "working (started 13:25 UTC)",
+   "proposed": true,
+   "source": "org",
+   "evidence": "purpose: User needs and journeys, the anchor of every map; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "accountant.d",
+   "label": "accountant.d",
+   "type": "role",
+   "circle": "central (helm)",
+   "parent": "maestro.d",
+   "state": "working (started 13:25 UTC)",
+   "proposed": true,
+   "source": "org",
+   "evidence": "purpose: What every agent costs and is made of, across accounts; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "counsel.d",
+   "label": "counsel.d",
+   "type": "role",
+   "circle": "central (helm)",
+   "parent": "maestro.d",
+   "state": "working (started 13:25 UTC)",
+   "proposed": true,
+   "source": "org",
+   "evidence": "purpose: Draft and test the power of attorney and other instruments; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "decisions.d",
+   "label": "decisions.d",
+   "type": "role",
+   "circle": "central (helm)",
+   "parent": "maestro.d",
+   "state": "working (started 13:25 UTC)",
+   "proposed": true,
+   "source": "org",
+   "evidence": "purpose: Take decisions within a limited power of attorney Dinis signs; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "studio.d",
+   "label": "studio.d",
+   "type": "role",
+   "circle": "central (helm)",
+   "parent": "maestro.d",
+   "state": "working (started 13:25 UTC)",
+   "proposed": true,
+   "source": "org",
+   "evidence": "purpose: Briefings made from storyboards, published on a site; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "landscape.d",
+   "label": "landscape.d",
+   "type": "role",
+   "circle": "central (helm)",
+   "parent": "maestro.d",
+   "state": "working (started 13:25 UTC)",
+   "proposed": true,
+   "source": "org",
+   "evidence": "purpose: The market around each project, to recommendations and site variants; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "email.workflows.d",
+   "label": "email.workflows.d",
+   "type": "role",
+   "circle": "Cell Email",
+   "parent": "conductor.d@AgentiCCells",
+   "state": "waiting on Dinis (W9, W13, W17)",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: Email cell workflows; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "email.design.d",
+   "label": "email.design.d",
+   "type": "role",
+   "circle": "Cell Email",
+   "parent": "conductor.d@AgentiCCells",
+   "state": "completed (commits pushed to its work branch)",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: Email cell design; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "email.pm.d",
+   "label": "email.pm.d",
+   "type": "role",
+   "circle": "Cell Email",
+   "parent": "conductor.d@AgentiCCells",
+   "state": "review ready",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: Email cell product management; model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "data.d",
+   "label": "data.d",
+   "type": "role",
+   "circle": "PrompTugal",
+   "parent": "conductor.d@PrompTugal",
+   "state": "waiting on Dinis: merge factory.d's commit for push access",
+   "proposed": false,
+   "source": "org",
+   "evidence": "purpose: Data for PrompTugal on account D (twin of data.b); model not fetched; state seen 13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "slides.d",
+   "label": "slides.d",
+   "type": "role",
+   "circle": "central (helm)",
+   "parent": "maestro.d",
+   "state": "working (started about 16:05Z)",
+   "proposed": true,
+   "source": "org",
+   "evidence": "purpose: Role written in board/team/helm.d/roles.md (see there); not yet copied here; model opus; state seen 2026-11-22T16:20Z"
+  }
+ ],
+ "links": [
+  {
+   "from": "maestro.d",
+   "to": "holacracy.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "maestro.d",
+   "to": "conductor.d@PrompTugal",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "conductor.d@PrompTugal",
+   "to": "bulletins.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "maestro.d",
+   "to": "conductor.d@SovereignWebsite",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "maestro.d",
+   "to": "sites.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "maestro.d",
+   "to": "hub.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "conductor.d@SovereignWebsite",
+   "to": "design.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "conductor.d@SovereignWebsite",
+   "to": "synthetic-users.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "conductor.d@SovereignWebsite",
+   "to": "factory.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "conductor.d@SovereignWebsite",
+   "to": "library.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "sites.d",
+   "to": "streaming.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "maestro.d",
+   "to": "conductor.d@AgentiCCells",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "conductor.d@AgentiCCells",
+   "to": "cell.email.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "maestro.d",
+   "to": "newsroom.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "maestro.d",
+   "to": "helm.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "maestro.d",
+   "to": "strategy.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "maestro.d",
+   "to": "cartographer.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "maestro.d",
+   "to": "sherpa.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "maestro.d",
+   "to": "accountant.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "maestro.d",
+   "to": "counsel.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "maestro.d",
+   "to": "decisions.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "maestro.d",
+   "to": "studio.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "maestro.d",
+   "to": "landscape.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "conductor.d@AgentiCCells",
+   "to": "email.workflows.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "conductor.d@AgentiCCells",
+   "to": "email.design.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "conductor.d@AgentiCCells",
+   "to": "email.pm.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "conductor.d@PrompTugal",
+   "to": "data.d",
+   "type": "started",
+   "source": "org"
+  },
+  {
+   "from": "maestro.d",
+   "to": "slides.d",
+   "type": "started",
+   "source": "org"
+  }
+ ],
+ "account_b": "reported, not seen: from repository files only (board/team/maestro.b/view.md of 19 Nov 07:19Z, board/team/conductor.b/roster-2026-11-16.json and account-b.json, board/keys.json, board/team/maestros/from-b.md to 22 Nov 01:56Z). I cannot see account B's sessions.",
+ "notes": [
+  "The central circle's roles are shown as proposed, not ratified, as holacracy.d records them.",
+  "No role is marked relayed in the record; if holacracy.d adds one, it is drawn.",
+  "Account B is reported, not seen."
+ ]
+}

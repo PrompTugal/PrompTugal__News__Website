@@ -5,7 +5,7 @@
  "status": "draft",
  "title": "Landscape: sovereign-website, rings 1, 2, 3, 4",
  "version": "0.1.0",
- "made": "2026-11-22T16:42Z",
+ "made": "2026-11-22T18:10Z",
  "made_by": "cartographer.d@AgentiCCells.dinis",
  "for": "landscape.d and strategy.d (what it means); the players are landscape.d's findings, the positions are my reading",
  "sources_read": {
@@ -113,7 +113,7 @@
    "type": "component",
    "ring": 1,
    "group": "builder",
-   "visibility": 0.77,
+   "visibility": 0.74,
    "evolution": 0.58,
    "flagged": false,
    "source": "landscape",
@@ -126,7 +126,7 @@
    "type": "component",
    "ring": 1,
    "group": "builder",
-   "visibility": 0.77,
+   "visibility": 0.74,
    "evolution": 0.82,
    "flagged": true,
    "source": "landscape",
@@ -139,7 +139,7 @@
    "type": "component",
    "ring": 1,
    "group": "builder",
-   "visibility": 0.68,
+   "visibility": 0.62,
    "evolution": 0.58,
    "flagged": false,
    "source": "landscape",
@@ -260,7 +260,7 @@
    "evolution": 0.34,
    "flagged": false,
    "source": "landscape",
-   "evidence": "Local open-source AI app builder positioned against Lovable, v0 and Bolt; for power users. Price: Free download; bring your own AI API keys.. https://github.com/dyad-sh/dyad (read 2026-11-22)"
+   "evidence": "Open only in part (Apache 2.0 outside src/pro, which is under the Functional Source License). Local open-source AI app builder positioned against Lovable, v0 and Bolt; for power users. Price: Free download; bring your own AI API keys.. https://github.com/dyad-sh/dyad (read 2026-11-22)"
   },
   {
    "id": "sw-p-tinykit",
@@ -286,7 +286,7 @@
    "evolution": 0.34,
    "flagged": false,
    "source": "landscape",
-   "evidence": "Prompt-to-Next.js app builder with live preview, GitHub sync and custom domains. Price: Code free; Totalum key free to start with 50 AI credits, then usage-based.. https://github.com/totalumlabs/ai-app-builder-open (read 2026-11-22)"
+   "evidence": "Totalum's open builder hosts the generated apps itself. Prompt-to-Next.js app builder with live preview, GitHub sync and custom domains. Price: Code free; Totalum key free to start with 50 AI credits, then usage-based.. https://github.com/totalumlabs/ai-app-builder-open (read 2026-11-22)"
   },
   {
    "id": "sw-p-wix",
@@ -295,7 +295,7 @@
    "type": "component",
    "ring": 2,
    "group": "builder",
-   "visibility": 0.68,
+   "visibility": 0.62,
    "evolution": 0.82,
    "flagged": false,
    "source": "landscape",
@@ -308,7 +308,7 @@
    "type": "component",
    "ring": 2,
    "group": "builder",
-   "visibility": 0.59,
+   "visibility": 0.5,
    "evolution": 0.58,
    "flagged": false,
    "source": "landscape",
@@ -321,11 +321,11 @@
    "type": "component",
    "ring": 2,
    "group": "builder",
-   "visibility": 0.59,
+   "visibility": 0.5,
    "evolution": 0.82,
    "flagged": true,
    "source": "landscape",
-   "evidence": "Pricing page failed to load (parse error, two URLs tried); no price read. Price: not found on the page read. https://webflow.com/pricing (read 2026-11-22); flagged for re-read by landscape.d"
+   "evidence": "UNREAD: every Webflow page failed to load; its band and position come from general knowledge, not from landscape.d's reading. Pricing page failed to load (parse error, two URLs tried); no price read. Price: not found on the page read. https://webflow.com/pricing (read 2026-11-22); flagged for re-read by landscape.d"
   },
   {
    "id": "sw-p-lovable",
@@ -372,9 +372,9 @@
    "player": "Durable",
    "type": "component",
    "ring": 2,
-   "group": "builder",
-   "visibility": 0.5,
-   "evolution": 0.58,
+   "group": "ai-wp",
+   "visibility": 0.58,
+   "evolution": 0.12,
    "flagged": false,
    "source": "landscape",
    "evidence": "No-code AI site builder for small businesses with built-in CRM, bookings and blog tools; limited HTML customisation. Price: In $: Free (300 AI credits total); Launch $25 a month on the card but $22 in the table; Grow $49 vs $41; yearly saves 15%.. https://www.durable.com/pricing (read 2026-11-22)"
@@ -387,7 +387,7 @@
    "ring": 2,
    "group": "ai-wp",
    "visibility": 0.58,
-   "evolution": 0.12,
+   "evolution": 0.42,
    "flagged": false,
    "source": "landscape",
    "evidence": "AI builder for WordPress sites with managed hosting, daily backups, staging, SFTP/SSH access and automated updates; for individuals and agencies. Price: USD: Free; AI Starter $10 a month; AI Premium $15; AI Ultimate $22.50; agency plans $42.50 and up; annual listed at 50% off.. https://10web.io/pricing/ (read 2026-11-22)"

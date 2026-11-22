@@ -1,0 +1,291 @@
+{
+ "format": "carto-map/1",
+ "id": "landscape-wardley-tools",
+ "kind": "wardley",
+ "status": "draft",
+ "title": "Landscape: Wardley map tools, now and before",
+ "version": "0.1.0",
+ "made": "2026-11-22T18:11Z",
+ "made_by": "cartographer.d@AgentiCCells.dinis",
+ "for": "strategy.d and landscape.d (what it means); the tools are landscape.d's findings, the bands are my reading",
+ "sources_read": {
+  "landscape": "board/team/landscape.d/landscapes/wardley-tools/rows.json (landscape-rows/1, made 2026-11-22T17:35Z), read 22 Nov 2026; the facts and URLs are in landscape.json beside it",
+  "sherpa": "board/team/sherpa.d/needs/needs.json, the Wardley site needs shown at the top",
+  "cartographer": "cartographer.d's reading of each group's band; where a tool sits inside its band means nothing"
+ },
+ "draw": {
+  "links": "none"
+ },
+ "axes": {
+  "y": "visibility to a map maker (1 = what they see first)",
+  "x": "evolution: genesis 0, custom 0.25, product 0.5, commodity 0.75 to 1"
+ },
+ "users": [
+  {
+   "id": "u-mapper",
+   "label": "Someone who wants to make or explain a Wardley map",
+   "source": "sherpa"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "n-wm-explain-to-others",
+   "label": "Send someone one page that makes them understand a Wardley map, so I s",
+   "type": "need",
+   "visibility": 1,
+   "evolution": 0.1,
+   "hypothesis": false,
+   "source": "sherpa",
+   "evidence": "Dinis, as quoted in the brief: 'I still don't have a good website to find ... I struggle to explain'"
+  },
+  {
+   "id": "n-wm-try-my-own",
+   "label": "Make a map of my own situation quickly, with no install and no lesson,",
+   "type": "need",
+   "visibility": 0.93,
+   "evolution": 0.35,
+   "hypothesis": true,
+   "source": "sherpa",
+   "evidence": "cartographer.d's brief board/team/cartographer.d/briefs/2026-11-22-wardley-maps-site.md, read 22 Nov 16:42 UTC; see needs/wardley-maps-site.md"
+  },
+  {
+   "id": "n-wm-trust",
+   "label": "See what is sourced, what is a reading, and who made it, so I know wha",
+   "type": "need",
+   "visibility": 1,
+   "evolution": 0.6,
+   "hypothesis": true,
+   "source": "sherpa",
+   "evidence": "cartographer.d's brief board/team/cartographer.d/briefs/2026-11-22-wardley-maps-site.md, read 22 Nov 16:42 UTC; see needs/wardley-maps-site.md"
+  },
+  {
+   "id": "n-wm-see-history",
+   "label": "See how a map changed over time.",
+   "type": "need",
+   "visibility": 0.93,
+   "evolution": 0.85,
+   "hypothesis": false,
+   "source": "sherpa",
+   "evidence": "Dinis, as quoted in the brief: 'every move is a play'"
+  },
+  {
+   "id": "wt-p-online-wardley-maps--damonsk",
+   "label": "Online Wardley Maps (damonsk)",
+   "player": "Online Wardley Maps (damonsk)",
+   "type": "component",
+   "group": "text",
+   "visibility": 0.7,
+   "evolution": 0.1,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Free browser tool drawing Wardley maps from a text DSL with an interactive editor and submaps; text-first with a visual layer; the hosted page showed only Loading to the fetch. Kind: text-first + visual. Openness: open (MIT). Status: active-looking: no dates read. https://github.com/damonsk/onlinewardleymaps (read 2026-11-22)"
+  },
+  {
+   "id": "wt-p-mermaid-wardley-diagram",
+   "label": "Mermaid Wardley diagram",
+   "player": "Mermaid Wardley diagram",
+   "type": "component",
+   "group": "text",
+   "visibility": 0.7,
+   "evolution": 0.36,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Text-based Wardley diagram type (keyword wardley-beta) with components, anchors, links, evolve arrows, pipelines, notes, sourcing decorators and accelerators. Kind: text-first. Openness: open (MIT). Status: beta. https://mermaid.js.org/syntax/wardley.html (read 2026-11-22)"
+  },
+  {
+   "id": "wt-p-wardley-maps-for-vs-code",
+   "label": "Wardley Maps for VS Code",
+   "player": "Wardley Maps for VS Code",
+   "type": "component",
+   "group": "text",
+   "visibility": 0.567,
+   "evolution": 0.1,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Extension to render and edit maps in VS Code using the Online Wardley Maps engine; text-first, reads .wm and .owm. Kind: text-first plugin. Openness: open (MIT, text not seen). Status: no dates read. https://github.com/damonsk/vscode-wardley-maps (read 2026-11-22)"
+  },
+  {
+   "id": "wt-p-wardley-maps-for-obsidian",
+   "label": "Wardley Maps for Obsidian",
+   "player": "Wardley Maps for Obsidian",
+   "type": "component",
+   "group": "text",
+   "visibility": 0.567,
+   "evolution": 0.36,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Obsidian community plugin rendering and editing maps in the Online Wardley Maps format inside a code block; text-first. Kind: text-first plugin. Openness: open (AGPL-3.0). Status: last push Nov 2024 per an aggregator snippet. https://github.com/damonsk/obsidian-wardley-maps (read 2026-11-22)"
+  },
+  {
+   "id": "wt-p-go-wardley",
+   "label": "Go-Wardley",
+   "player": "Go-Wardley",
+   "type": "component",
+   "group": "text",
+   "visibility": 0.433,
+   "evolution": 0.1,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Go program generating a Wardley map as SVG from an HCL text description, with hover details and a local web server; text-first. Kind: text-first CLI. Openness: open (MPL-2.0). Status: no dates read. https://github.com/DavidGamba/go-wardley (read 2026-11-22)"
+  },
+  {
+   "id": "wt-p-wardleytogo",
+   "label": "wardleyToGo",
+   "player": "wardleyToGo",
+   "type": "component",
+   "group": "text",
+   "visibility": 0.433,
+   "evolution": 0.36,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Go library and toolset defining maps as code or data and rendering SVG; supports the onlinewardleymap syntax and its own WTG2 language; browser playground. Kind: text-first library. Openness: open (MIT). Status: no dates read. https://github.com/owulveryck/wardleyToGo (read 2026-11-22)"
+  },
+  {
+   "id": "wt-p-cli-owm",
+   "label": "cli-owm",
+   "player": "cli-owm",
+   "type": "component",
+   "group": "text",
+   "visibility": 0.3,
+   "evolution": 0.1,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Command-line renderer turning Online Wardley Maps DSL into SVG, with five themes. Kind: text-first CLI. Openness: open (MIT). Status: no dates read. https://github.com/monkeypants/cli-owm (read 2026-11-22)"
+  },
+  {
+   "id": "wt-p-ipywardley",
+   "label": "ipywardley",
+   "player": "ipywardley",
+   "type": "component",
+   "group": "text",
+   "visibility": 0.3,
+   "evolution": 0.36,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Jupyter extension adding a %%wardley cell magic drawing maps from a subset of the Online Wardley Maps syntax. Kind: text-first notebook. Openness: open (GPL-3.0). Status: no dates read. https://github.com/anjackson/ipywardley (read 2026-11-22)"
+  },
+  {
+   "id": "wt-p-map--macos--linux--wmap-cli",
+   "label": "Map (macOS, Linux, wmap CLI)",
+   "player": "Map (macOS, Linux, wmap CLI)",
+   "type": "component",
+   "group": "native",
+   "visibility": 0.25,
+   "evolution": 0.6,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Community list names a native macOS app, a GTK4 Linux app and a wmap CLI using a text syntax called wmap; the CLI renders PNG or SVG. Kind: text-first apps. Openness: open (GPLv3 / AGPLv3, per a list). Status: own site 403. https://list.wardleymaps.com/ (read 2026-11-22)"
+  },
+  {
+   "id": "wt-p-mapscript",
+   "label": "MapScript",
+   "player": "MapScript",
+   "type": "component",
+   "group": "hosted",
+   "visibility": 0.88,
+   "evolution": 0.58,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Map-as-code tool built on Observable notebooks with a hosted version at mapscript.org. Kind: text-first, hosted. Openness: not read. Status: listed Discontinued, reason not stated. https://list.wardleymaps.com/ (read 2026-11-22)"
+  },
+  {
+   "id": "wt-p-mapkeep",
+   "label": "Mapkeep",
+   "player": "Mapkeep",
+   "type": "component",
+   "group": "hosted",
+   "visibility": 0.88,
+   "evolution": 0.8,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Described as a multiplayer Wardley map editor with free map hosting. Kind: drag-and-drop, collaborative, hosted. Openness: not read. Status: listed Discontinued, reason not stated. https://list.wardleymaps.com/ (read 2026-11-22)"
+  },
+  {
+   "id": "wt-p-mapaware",
+   "label": "MapAware",
+   "player": "MapAware",
+   "type": "component",
+   "group": "hosted",
+   "visibility": 0.7,
+   "evolution": 0.58,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Browser-based collaborative Wardley mapping with keyboard-first controls and real-time editing, labelled beta; account required; price and licence not stated. Kind: drag-and-drop, collaborative, hosted. Openness: closed? not stated. Status: beta; status unverified. https://learnwardleymapping.com/portfolio/mapaware/ (read 2026-11-22)"
+  },
+  {
+   "id": "wt-p-sharpcloud--wardley-use",
+   "label": "SharpCloud (Wardley use)",
+   "player": "SharpCloud (Wardley use)",
+   "type": "component",
+   "group": "hosted",
+   "visibility": 0.7,
+   "evolution": 0.8,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Commercial visualisation platform that offered a route to Wardley maps. Kind: commercial platform. Openness: closed? not stated. Status: listed Discontinued for Wardley use, reason not stated. https://learnwardleymapping.com/portfolio/sharpcloud/ (read 2026-11-22)"
+  },
+  {
+   "id": "wt-p-miro-wardley-template",
+   "label": "Miro Wardley template",
+   "player": "Miro Wardley template",
+   "type": "component",
+   "group": "general",
+   "visibility": 0.55,
+   "evolution": 0.72,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "General online whiteboard with a Wardley Map template; drag-and-drop; no price or licence read. Kind: whiteboard template. Openness: closed? not stated. Status: no dates read. https://learnwardleymapping.com/portfolio/miro/ (read 2026-11-22)"
+  },
+  {
+   "id": "wt-p-excalidraw-with-wardley-library",
+   "label": "Excalidraw with Wardley library",
+   "player": "Excalidraw with Wardley library",
+   "type": "component",
+   "group": "general",
+   "visibility": 0.475,
+   "evolution": 0.72,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Free whiteboard needing no account with community Wardley symbol libraries; drag-and-drop. Kind: whiteboard + symbol library. Openness: open (MIT). Status: no dates read. https://learnwardleymapping.com/portfolio/excalidraw/ (read 2026-11-22)"
+  },
+  {
+   "id": "wt-p-glamorous-toolkit",
+   "label": "Glamorous Toolkit",
+   "player": "Glamorous Toolkit",
+   "type": "component",
+   "group": "general",
+   "visibility": 0.4,
+   "evolution": 0.72,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Moldable development environment; the community list says it combines maps with notebooks; its own product page does not mention Wardley maps. Kind: development environment. Openness: open (MIT). Status: Wardley not on its own page. https://gtoolkit.com (read 2026-11-22)"
+  },
+  {
+   "id": "wt-p-create-maps--wardleymaps-ai",
+   "label": "Create Maps (wardleymaps.ai)",
+   "player": "Create Maps (wardleymaps.ai)",
+   "type": "component",
+   "group": "ai",
+   "visibility": 0.84,
+   "evolution": 0.1,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "AI-assisted Wardley map creation tool listed on wardleymaps.ai; only the listing page was read, not the tool; price, licence and formats not stated. Kind: AI-assisted. Openness: not stated. Status: only the listing read. https://www.wardleymaps.ai (read 2026-11-22)"
+  },
+  {
+   "id": "gap-history-and-sources",
+   "label": "Dated history played over time, and a source on every node: no page read mentions either (to verify)",
+   "type": "gap",
+   "visibility": 0.78,
+   "evolution": 0.4,
+   "source": "cartographer",
+   "evidence": "landscape.d finding wt-g4: possible gap, to verify before any claim; its gaps wt-g5: most commit dates are not visible, three sites were unreachable, the AI map creator was read as a listing only. Not a claim that nobody does this"
+  }
+ ],
+ "links": [],
+ "notes": [
+  "Bands: text-first tools (the .owm family and the others, mostly open), hosted collaborative tools (MapScript, Mapkeep, MapAware, SharpCloud: a third-party listing marks three discontinued; no page read says why), general whiteboards and toolkits, a native app, an AI creator.",
+  "Faint dashed rows are flagged by landscape.d as low confidence.",
+  "The gap is a reading to verify, not a claim."
+ ]
+}
