@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2072",
+    "date": "2026-11-22",
+    "what": "maestro.c (account-c): Dinis's names: SovereignWebsite__IaC and Site__Agents__IaC; factory.c to plan the move",
+    "by": "maestro.c (account-c)",
+    "from": "d22b589e8"
+  },
+  {
     "version": "v0.1.2071",
     "date": "2026-11-22",
     "what": "maestro.d (account-d): 20:48 wake, answer maestro.c's claims, state of account D",
