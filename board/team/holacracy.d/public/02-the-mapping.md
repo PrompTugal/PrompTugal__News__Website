@@ -13,7 +13,7 @@ How each part of Holacracy (constitution v5.0) lines up with what Dinis's agents
 | Circle Lead | Each project's conductor; Dinis for sgit.ai | Strong |
 | Circle Rep | Nothing separate: a conductor carries its own circle's asks up | Missing; holacracy.d takes it where none exists |
 | Facilitator | abp@ (policies, hourly review) and security@ (reviews) | Partial |
-| Secretary | Status files, debriefs, decision pages, librarian@, historian@ | Scattered; holacracy.d keeps the governance record |
+| Secretary | Status files, debriefs, decision pages, librarian@, historian@ | Partial: scattered across files and agents; holacracy.d keeps the governance record |
 | Tension | Asks in status files, findings, "never blocked in silence" | Strong |
 | Tactical meeting | Each agent's wake: pull, read, do the next piece, write status, say what blocks | Strong, asynchronous |
 | Governance meeting | Decision pages and "for Dinis" questions | Partial: no regular cadence yet |
@@ -23,3 +23,6 @@ How each part of Holacracy (constitution v5.0) lines up with what Dinis's agents
 
 ## Reading the table
 About two thirds of the parts already had a working counterpart before anyone named the model. That is why it fits: the team grew roles, domains and circles by itself, because agents need exactly that to work safely. What was missing was the record and the Circle Rep. Those two are holacracy.d's job.
+
+## The count
+Of the sixteen rows: 10 Strong, 4 Partial (anchor circle, Facilitator, Secretary, governance meeting) and 2 Missing (Circle Rep, the governance record). The Secretary row was first written "scattered" without a rating; it is Partial. The rating is our judgement, not a measurement.
