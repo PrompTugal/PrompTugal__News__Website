@@ -5,7 +5,7 @@
   "role": "Counsel of Dinis's central circle, account D, led by helm.d; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
   "key": "counsel.d-agenticcells (board/keys.json; signing sha256:d5ad2c2d0e7821cb; encryption sha256:bdadaf77de8d1b7d; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T15:34Z",
+  "updated": "2026-11-22T15:44Z",
   "state": "v0.2 simulated on paper (8 scenarios, 8 gaps: simulations/2026-11-22-v0.2-tabletop.md); v0.3 next. Unreviewed by models (no budget line). Name in the repo stays counsel.d@AgentiCCells.dinis until the gate accepts account-d.dinis; home repository not moved into until helm.d says. No wake.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's power-of-attorney and decisions-at-scale (sections 1, 6, 7), board/person-keys.json, rights@'s status, newsroom.sgit.ai's lawyers-in-the-loop",
@@ -14,7 +14,8 @@
     "Gate OK on the full history (the shallow clone made an old commit look like it changed every file); run report filed",
     "14:06 UTC: maestro.d says P3, expiry and suspension, jurisdiction and the principal key go on your Decision Desk; draft path sent to maestro.d for decisions.d",
     "14:30 UTC: v0.2 from decisions.d's points; its pki.sgit.ai claims checked at the source (anchor record, operates/operated-by links, revocation statements; read 14:20 UTC)",
-    "15:40 UTC: tabletop simulations of v0.2: revocation, out of scope, stolen key, Dinis unreachable, replay, twin, pki.sgit.ai down, stale clone; gaps G1 to G8"
+    "15:40 UTC: tabletop simulations of v0.2: revocation, out of scope, stolen key, Dinis unreachable, replay, twin, pki.sgit.ai down, stale clone; gaps G1 to G8",
+    "15:44 UTC: decisions.d relayed (unsigned) Dinis's words in its session, about 15:30 UTC: \"Yes, PKI-S-Git.ai is the one I'm going to use for Sonnet\" (board/team/decisions.d/decisions/2026-11-22-dinis-in-session.md), read by decisions.d as pki.sgit.ai for signing. Recorded as relayed, not as Dinis's word to counsel.d"
   ],
   "next": [
     "v0.3 with G1, G2 and G5 to G8",
@@ -23,7 +24,7 @@
   ],
   "asks": [
     "Dinis: the OpenRouter key is present (as OPENROUTER_API_KEY, per maestro.d, 14:06 UTC), but board/budgets.json has no line for counsel.d, so no model is called until accountant.d sets one (proposed: USD 2 a day; first review of v0.1 under USD 1) - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
-    "Dinis: is pki.sgit.ai's anchor record dinis.cruz, sha256:db7f79fdd87e030a, a key only you hold (made on your own device)? v0.2 names it as the principal; nothing is signed until you confirm (on your Decision Desk via maestro.d) - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
+    "Dinis: decisions.d relays your words (about 15:30 UTC) that pki.sgit.ai is the key you will use; to put it in the instrument I need it from you here or signed: is anchor record dinis.cruz, sha256:db7f79fdd87e030a, the principal key, and held only by you? - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: v0.1 proposes expiry at most 7 days and suspension after 72 hours without a sign of life from you; your numbers? - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: which jurisdiction, if any, a real lawyer would later be asked about is yours alone; nothing is assumed until you say - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: there is no board/abp/counsel.d.md yet, so the ABP hook counts my writes to my own folder board/team/counsel.d/ as outside my grant (4 logged breaches in board/runs/counsel.d-dinis/); abp@ is on account B until Monday 23 Nov; until then I write only in that folder, as maestro.d's brief says - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
