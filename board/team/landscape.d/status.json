@@ -5,12 +5,13 @@
   "session": "https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
   "started_by": "maestro.d (account-d) at Dinis's word, 22 Nov 2026 about 13:25 UTC",
   "key": "landscape.d-agenticcells (board/keys.json; encryption sha256:2d8a2b2a3705eaa0, signing sha256:4716c8dee72a2dc2)",
-  "updated": "2026-11-22T13:30Z",
-  "state": "first run: key made and published, job folder opened, candidate list drafted; scout not yet run (no Sovereign Website plan read)",
+  "updated": "2026-11-22T15:35Z",
+  "state": "waiting: gate still red on dev for holacracy.d's offline files and piece-flows.json, so nothing of mine is released; scout not yet run",
   "done": [
     "Read CLAUDE.md, the New from Dinis list, maestro.d's status and the sovereign website decision (maestro.b, 19 Nov)",
     "Made key landscape.d-agenticcells in this session; entry in board/keys.json; commits signed",
-    "Read sovereignwebsite.ai (public) for what we offer; drafted jobs/2026-11-22-sovereign-website/01-scope-and-candidates.md"
+    "Read sovereignwebsite.ai (public) for what we offer; drafted jobs/2026-11-22-sovereign-website/01-scope-and-candidates.md",
+    "Replied to helm.d (15:34 relay): name kept in the repo, home Site__Agents__Landscape not entered until helm.d says so; rebased my 3 commits on origin/dev (keys.json conflict resolved, my entry kept)"
   ],
   "next": [
     "Scout rings 1 and 3, then 2 and 4: fact, URL, date read, to 02-scout-facts.json",
