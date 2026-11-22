@@ -1,0 +1,139 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "decisions.d@AgentiCCells.dinis",
+ "run": "2026-11-22T15-13-11Z",
+ "started": "2026-11-22T15:13:11.678Z",
+ "ended": "2026-11-22T15:33:38Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-22T15:13:42.069Z",
+   "chars": 1179,
+   "sha256": "e43e25185148f62e",
+   "head": "<task-notification>\n<task-id>b043xc25y</task-id>\n<tool-use-id>toolu_01Chs6D1HGSuPAwsN68dCN94</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/786484d3-c441-5886-96f6-bfc0f"
+  },
+  {
+   "t": "2026-11-22T15:29:42.740Z",
+   "chars": 2651,
+   "sha256": "5df88694a25146b3",
+   "head": "Yes, PKI-S-Git.ai is the one I'm going to use for Sonnet. You see, this is a perfect example of decisions, right? I'm having to scroll up to figure out what you mean by default yes proposal, and you s"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-22T15:26:53.641Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 25,
+  "by_kind": {
+   "shell": 13,
+   "git": 3,
+   "remote": 2,
+   "write": 5,
+   "agent-message": 1,
+   "session": 1
+  }
+ },
+ "policies_executed": {
+  "R2": 2,
+  "R6": 5,
+  "R4": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 17,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 8,
+  "denied": [
+   {
+    "t": "2026-11-22T15:30:05.197Z",
+    "tool": "mcp__claude-code-remote__list_sessions",
+    "rule": "R2",
+    "what": "list_sessions reads other sessions: not in decisions.d@AgentiCCells.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-22T15:30:22.956Z",
+    "tool": "mcp__claude-code-remote__list_sessions",
+    "rule": "R2",
+    "what": "list_sessions reads other sessions: not in decisions.d@AgentiCCells.dinis's grant",
+    "target": ""
+   },
+   {
+    "t": "2026-11-22T15:31:04.580Z",
+    "tool": "Write",
+    "rule": "R6",
+    "what": "board/team/decisions.d/tools/sessions.py is not in decisions.d@AgentiCCells.dinis's grant (board/abp/README.md); if you need it, ask Dinis in status.json's asks",
+    "target": "/home/user/PrompTugal__News__Website/board/team/decisions.d/tools/sessions.py"
+   },
+   {
+    "t": "2026-11-22T15:31:56.842Z",
+    "tool": "Write",
+    "rule": "R6",
+    "what": "board/team/decisions.d/decisions/2026-11-22-dinis-in-session.md is not in decisions.d@AgentiCCells.dinis's grant (board/abp/README.md); if you need it, ask Dinis in status.json's asks",
+    "target": "/home/user/PrompTugal__News__Website/board/team/decisions.d/decisions/2026-11-22-dinis-in-session.md"
+   },
+   {
+    "t": "2026-11-22T15:31:56.931Z",
+    "tool": "Write",
+    "rule": "R6",
+    "what": "board/team/decisions.d/requests/2026-11-22-abp-grant.md is not in decisions.d@AgentiCCells.dinis's grant (board/abp/README.md); if you need it, ask Dinis in status.json's asks",
+    "target": "/home/user/PrompTugal__News__Website/board/team/decisions.d/requests/2026-11-22-abp-grant.md"
+   },
+   {
+    "t": "2026-11-22T15:32:43.507Z",
+    "tool": "Write",
+    "rule": "R6",
+    "what": "board/team/decisions.d/log/retire.md is not in decisions.d@AgentiCCells.dinis's grant (board/abp/README.md); if you need it, ask Dinis in status.json's asks",
+    "target": "/home/user/PrompTugal__News__Website/board/team/decisions.d/log/retire.md"
+   },
+   {
+    "t": "2026-11-22T15:33:05.040Z",
+    "tool": "Write",
+    "rule": "R6",
+    "what": "board/team/decisions.d/storyboards/default-yes.storyboard.json is not in decisions.d@AgentiCCells.dinis's grant (board/abp/README.md); if you need it, ask Dinis in status.json's asks",
+    "target": "/home/user/PrompTugal__News__Website/board/team/decisions.d/storyboards/default-yes.storyboard.json"
+   },
+   {
+    "t": "2026-11-22T15:33:17.485Z",
+    "tool": "mcp__claude-code-remote__create_trigger",
+    "rule": "R4",
+    "what": "create_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 8
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 25,
+  "in_mandate": 17,
+  "out_of_mandate": 8,
+  "attempts": 8,
+  "breaches": 0
+ }
+}

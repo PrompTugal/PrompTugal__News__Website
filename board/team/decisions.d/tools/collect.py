@@ -9,7 +9,7 @@ Not covered: asks kept in other repositories (seen here only where maestro.d rel
 "answers" collection (maestro.d reads it; decisions.d does not hold its key)."""
 import json, os, re, subprocess, datetime, hashlib
 
-ROOTS = ['maestro.d', 'conductor.d', 'holacracy.d', 'decisions.d']  # account D agents with a folder here
+ROOTS = sorted(d for d in os.listdir('board/team') if d.endswith('.d') and os.path.isdir(f'board/team/{d}'))  # every account D agent with a folder here
 OUT = 'board/team/decisions.d/log'
 
 

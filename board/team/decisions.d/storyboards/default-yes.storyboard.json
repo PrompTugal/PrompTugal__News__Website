@@ -1,0 +1,46 @@
+{
+ "format": "studio-storyboard/0",
+ "slug": "decisions-d-default-yes",
+ "title": "Should routine questions answer themselves when nobody objects?",
+ "audience": "Dinis",
+ "requested_by": "decisions.d@AgentiCCells.dinis",
+ "summary": "Account D has 42 open asks of Dinis; many are routine and already well thought through. Should a routine ask be adopted on the owner's recommendation when nobody objects within a set time, leaving Dinis only what is his alone?",
+ "beats": [
+  {"id": "b1", "narration": "Today 42 questions wait on you across account D. The oldest has waited over thirteen hours. Many are routine: an order of work, a layout, which of an agent's own options to build first.", "visual": {"kind": "stat"}, "facts": ["f-log"]},
+  {"id": "b2", "narration": "You said it yourself: often your answer is yes, because by the time a question reaches you it is already well thought through. The team's rules already say the owner's recommendation is the default.", "visual": {"kind": "list"}, "facts": ["f-maestro", "f-claude"]},
+  {"id": "b3", "narration": "The proposal: a routine question carries its owner's recommendation and a deadline. If no valid objection comes from the circle lead, security, the policies agent or holacracy by then, it is adopted, and you see it in a daily digest.", "visual": {"kind": "flow"}, "facts": ["f-proposal"]},
+  {"id": "b4", "narration": "What never adopts itself: keys, secrets, money, the law, the brand, people, what RiskMandate is, what an email may promise, access, connectors, new sessions, deletions, relaxing a policy. Those still come to you.", "visual": {"kind": "list"}, "facts": ["f-proposal", "f-claude"]},
+  {"id": "b5", "narration": "You can reverse any adoption afterwards, and the reversal is recorded like any answer. Until you say yes, nothing is adopted: every question still waits for you.", "visual": {"kind": "timeline"}, "facts": ["f-proposal"]}
+ ],
+ "decision": {
+  "question": "Do routine questions adopt their owner's recommendation when no valid objection comes by a deadline?",
+  "options": [
+   {"id": "yes", "label": "Yes, with the three classes and windows proposed", "good": ["Fewer questions reach you; the ones that do are yours alone", "Work stops waiting overnight on routine choices", "Every adoption is logged and reversible"], "bad": ["A wrong default can run for hours before you see it", "The objectors must actually read in time"], "blocks": []},
+   {"id": "narrow", "label": "Yes, but only class A (within one agent's own domain) at first", "good": ["The smallest risk; a trial to learn from"], "bad": ["Most of today's queue is not class A"], "blocks": ["Classes B and C wait"]},
+   {"id": "no", "label": "No: every question waits for you", "good": ["Nothing happens without you"], "bad": ["The queue keeps growing; you remain the bottleneck"], "blocks": ["The digest; the adoptions"]}
+  ],
+  "recommendation": "narrow",
+  "why": "Start where an error costs least, measure a week of adoptions and objections, then widen to classes B and C with the evidence.",
+  "ask": {
+   "id": "decisions.d/2026-11-22/2",
+   "text_sha256": "53420a0042f1e84be0ab731123e6c8b864b75cb6176db191503bd1e2dcdbbac6",
+   "asked_by": "decisions.d@AgentiCCells.dinis",
+   "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
+   "first_seen": "2026-11-22T13:38:51Z",
+   "reserved": true,
+   "answer": null
+  }
+ },
+ "connections": {
+  "asked_by": "decisions.d@AgentiCCells.dinis",
+  "reviewed_by": [],
+  "acts": ["decisions.d@AgentiCCells.dinis", "maestro.d (account-d)", "security@PrompTugal.dinis", "abp@PrompTugal.dinis", "holacracy.d@AgentiCCells.dinis"],
+  "follows": ["maestro.d decisions-at-scale, section 3", "CLAUDE.md, Decisions are pages"]
+ },
+ "sources": [
+  {"id": "f-log", "title": "decisions.d's log of account D: 42 open asks at 15:33 UTC", "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/decisions.d/log/README.md", "read": "2026-11-22"},
+  {"id": "f-maestro", "title": "maestro.d, decisions at scale: Dinis's words and section 3", "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/maestro.d/analysis/2026-11-22-decisions-at-scale/README.md", "read": "2026-11-22"},
+  {"id": "f-claude", "title": "CLAUDE.md, Decisions are pages: the owner's recommendation is the default; what is Dinis's alone", "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/CLAUDE.md", "read": "2026-11-22"},
+  {"id": "f-proposal", "title": "decisions.d, default-yes windows: the proposal", "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/decisions.d/design/default-yes.md", "read": "2026-11-22"}
+ ]
+}
