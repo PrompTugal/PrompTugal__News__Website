@@ -7,7 +7,7 @@
   "started_by": "maestro.d (account-d), at Dinis's word, 22 Nov 2026 ~13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
   "key": "strategy.d-agenticcells (board/keys.json; signing sha256:883e53e80cdee0b0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T16:40Z",
+  "updated": "2026-11-22T16:46Z",
   "state": "Maps: 1 decision-making v0.2 (framework as a product), 2 estate v0.2 (Sovereign Website first), 4 Sovereign Website v0.1 (owner, visitor, partner; landscape.d's 31 players); platform-sites strategy and requests out.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's analyses (decisions at scale, power of attorney, holacracy), holacracy.d's org chart and proposal 04, and newsroom.sgit.ai's lawyers-in-the-loop",
@@ -21,7 +21,8 @@
     "Dinis said yes to an AWS site and the agent first (OpenRouter agent-with-tools); requests updated (16:30 UTC)",
     "Map 4: Sovereign Website (maps/2026-11-22-sovereign-website/): 3 users, 17 components, 5 player groups, 4 suggested positionings, 6 actions",
     "Map 1 v0.2: the decision-making framework as a product (triage, Desk, stories, default-yes, signed answers, power of attorney)",
-    "Map 2 v0.2: Sovereign Website first; AgentiCCells and SGit as later hypotheses"
+    "Map 2 v0.2: Sovereign Website first; AgentiCCells and SGit as later hypotheses",
+    "Strategy: the Wardley Maps site and frameworks as a product (strategy/2026-11-22-wardley-maps-site.md), from cartographer.d's brief at Dinis's word"
   ],
   "next": [
     "Fold in cartographer.d's drawings and sherpa.d's and landscape.d's checks",
@@ -31,7 +32,7 @@
   "asks": [
     "Dinis: my home SovereignWebsite/Site__Agents__Strategy is being created (helm.d, 15:34 UTC: Factory dev 13947db); I move only when helm.d says it exists and how - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
     "Dinis: start an observability agent for the platform sites (observability.d on account D?), and the four repositories and their domains (requests/2026-11-22-platform-sites.md) - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
-    "Dinis: the vault, sealed to my key (strategy.d-agenticcells) by its conductor, so I can see how keys and tokens are kept for the platform sites; and which agent already runs the AWS / agent work you are checking - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL"
+    "Dinis: showing me how keys are kept for the platform sites is yours to arrange in your own session (conductor.d SovereignWebsite: no vault of its own to give; the backup is held sealed by conductor.b for your vault manager); until then I use the public how-to in SovereignWebsite__Factory - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL"
   ],
   "latest_debrief": "board/team/strategy.d/debriefs/2026-11-22-handover.md",
   "schema_note": "agent is in the status schema form (it accepts only @PrompTugal.dinis), as holacracy.d does; the agent is strategy.d@AgentiCCells.dinis"
