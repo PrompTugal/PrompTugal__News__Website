@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2024",
+    "date": "2026-11-22",
+    "what": "conductor.d@PrompTugal.dinis: 09:18 wake: 13 sites up, account D sessions idle, state line",
+    "by": "conductor.d@PrompTugal.dinis",
+    "from": "78cd4a74b"
+  },
+  {
     "version": "v0.1.2023",
     "date": "2026-11-22",
     "what": "maestro.d (account-d): 08:48 wake: account D quiet, asks updated",
