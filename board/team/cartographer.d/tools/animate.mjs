@@ -10,7 +10,7 @@ const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(
 const r1 = x => Math.round(x * 10) / 10
 const PH = process.argv.includes('--phone')   // portrait for phones: 420 x 640, large labels, the same steps and timings
 const W = PH ? 420 : 1100, H = PH ? 700 : 760, L = PH ? 14 : 70, R = PH ? 14 : 40, T = PH ? 86 : 80, B = PH ? 250 : 190
-const px = e => r1(L + e * (W - L - R)), py = v => r1(T + (1 - v) * (H - T - B))
+const px = e => r1(L + e * (W - L - R)), py = v => PH ? r1(T + 28 + (1 - v) * (H - T - B - 52)) : r1(T + (1 - v) * (H - T - B))
 const N = j.steps.length, STEP = j.step_seconds || 5, TOTAL = N * STEP + 3   // seconds: each step j.step_seconds (default 5) s, a 3 s hold at the end, then it loops
 const kt = t => (t / TOTAL).toFixed(4)
 const state = {}   // node -> [ {t, e} ]
