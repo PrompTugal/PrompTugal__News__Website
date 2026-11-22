@@ -1,0 +1,706 @@
+{
+ "about": "Scout output, ring 1 and 3, 22 Nov 2026. Taken verbatim from the scout sub-agents' reports, condensed in wording; each fact a public page read on the date given. Not yet independently re-checked; flagged rows must be re-read. Ghost offer, Hugo audience/hosting/skill and several 'not found' rows dropped here for brevity (kept as gaps).",
+ "gaps": [
+  "Export or move-out terms not found for Infomaniak, saldiaBuild, IONOS, Jimdo, Hostinger; Framer describes none",
+  "No saldiaBuild price found",
+  "IONOS and Jimdo hosting location not stated on pages read"
+ ],
+ "facts": [
+  {
+   "candidate": "Infomaniak Site Creator",
+   "ring": 1,
+   "topic": "offer",
+   "fact": "Drag-and-drop builder for showcase sites, blogs and shops, 50+ themes, AI-assisted creation (read via search snippet; page body did not load).",
+   "url": "https://www.infomaniak.com/en/create-a-website/site-creator",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "flag": "read from a search snippet; page body did not load; re-read"
+  },
+  {
+   "candidate": "Infomaniak Site Creator",
+   "ring": 1,
+   "topic": "price",
+   "fact": "Tiers: free (1 page, no custom domain, ads), Lite (6 pages, 15 GB), Pro (unlimited pages, 50 GB, e-commerce); currency and billing period not found; included free with a hosting plan.",
+   "url": "https://www.infomaniak.com/en/create-a-website/site-creator",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "Infomaniak Site Creator",
+   "ring": 1,
+   "topic": "hosting",
+   "fact": "Site and customer data stated as hosted in Switzerland; Infomaniak handles updates and security.",
+   "url": "https://www.infomaniak.com/en/create-a-website/site-creator",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "Infomaniak Site Creator",
+   "ring": 1,
+   "topic": "ai",
+   "fact": "Whole-site translation uses Google Translate; AI-assisted creation claimed, details not found.",
+   "url": "https://www.infomaniak.com/en/create-a-website/site-creator",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "Infomaniak Site Creator",
+   "ring": 1,
+   "topic": "export",
+   "fact": "Export or move-out terms not found.",
+   "url": "https://www.infomaniak.com/en/create-a-website/site-creator",
+   "date_read": "2026-11-22",
+   "confidence": "not-found"
+  },
+  {
+   "candidate": "Infomaniak Site Creator",
+   "ring": 1,
+   "topic": "licence",
+   "fact": "Licence, open-source status and parent ownership not found.",
+   "url": "https://www.infomaniak.com/en/create-a-website/site-creator",
+   "date_read": "2026-11-22",
+   "confidence": "not-found"
+  },
+  {
+   "candidate": "saldiaBuild",
+   "ring": 1,
+   "topic": "offer",
+   "fact": "AI website builder: describe the site in plain words and the AI builds the pages; sold as hosted in Switzerland.",
+   "url": "https://www.saldia.ch/en",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "saldiaBuild",
+   "ring": 1,
+   "topic": "audience",
+   "fact": "Aimed at Swiss SMEs, online merchants, self-employed people and agencies wanting no-code sites; larger catalogues go to saldiaShop, done-for-you to saldiaServices.",
+   "url": "https://www.saldia.ch/en",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "saldiaBuild",
+   "ring": 1,
+   "topic": "hosting",
+   "fact": "Claims AI websites run on Swiss servers with SSL and daily backups; no data centre or provider named.",
+   "url": "https://www.saldia.ch/en",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "saldiaBuild",
+   "ring": 1,
+   "topic": "price",
+   "fact": "No price for saldiaBuild on the page read.",
+   "url": "https://www.saldia.ch/en",
+   "date_read": "2026-11-22",
+   "confidence": "not-found"
+  },
+  {
+   "candidate": "saldiaBuild",
+   "ring": 1,
+   "topic": "export",
+   "fact": "Only migration into saldia is described; export not found.",
+   "url": "https://www.saldia.ch/en",
+   "date_read": "2026-11-22",
+   "confidence": "not-found"
+  },
+  {
+   "candidate": "saldiaBuild",
+   "ring": 1,
+   "topic": "ownership",
+   "fact": "Company ownership and content ownership not found.",
+   "url": "https://www.saldia.ch/en",
+   "date_read": "2026-11-22",
+   "confidence": "not-found"
+  },
+  {
+   "candidate": "IONOS MyWebsite",
+   "ring": 1,
+   "topic": "offer",
+   "fact": "Builder (MyWebsite Now) in Starter, Plus and Pro plus store variants; domain, SSL and email included.",
+   "url": "https://www.ionos.com/websites/website-builder",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "IONOS MyWebsite",
+   "ring": 1,
+   "topic": "price",
+   "fact": "Shown in $ on the .com page, monthly on a 1-year term: Starter $6 then $14, Plus $1 then $20, Pro $17; stores higher; 30-day money-back.",
+   "url": "https://www.ionos.com/websites/website-builder",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "IONOS MyWebsite",
+   "ring": 1,
+   "topic": "ai",
+   "fact": "Claims AI site builder, text, image and logo generators, SEO text and AI Search Manager (Pro); models and training use not stated.",
+   "url": "https://www.ionos.com/websites/website-builder",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "IONOS MyWebsite",
+   "ring": 1,
+   "topic": "hosting",
+   "fact": "Calls sites GDPR-compliant with an optional cookie notice; hosting location not stated on this page.",
+   "url": "https://www.ionos.com/websites/website-builder",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "IONOS MyWebsite",
+   "ring": 1,
+   "topic": "export",
+   "fact": "Export not described; only a separate migration service is mentioned.",
+   "url": "https://www.ionos.com/websites/website-builder",
+   "date_read": "2026-11-22",
+   "confidence": "not-found"
+  },
+  {
+   "candidate": "Jimdo",
+   "ring": 1,
+   "topic": "offer",
+   "fact": "Website and store builder with add-ons (listings, bookings, forms, payments, invoicing) and the Companion AI assistant; free start without a card.",
+   "url": "https://www.jimdo.com/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "Jimdo",
+   "ring": 1,
+   "topic": "audience",
+   "fact": "Self-employed people and small businesses (restaurants, coaches, musicians, practices, portfolios).",
+   "url": "https://www.jimdo.com/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "Jimdo",
+   "ring": 1,
+   "topic": "hosting",
+   "fact": "States EU hosting and GDPR compliance from day one; based in Hamburg since 2007; no data centres or owners named.",
+   "url": "https://www.jimdo.com/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "Jimdo",
+   "ring": 1,
+   "topic": "price",
+   "fact": "Plans Free, Start, Grow, Complete, Unlimited; per-plan prices not shown on the page read; terms monthly, 12 or 24 months, auto-renewing, EUR incl. VAT; domain EUR 26/yr after first term; 0% sales commission.",
+   "url": "https://www.jimdo.com/pricing/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "Jimdo",
+   "ring": 1,
+   "topic": "ai",
+   "fact": "Companion AI in every plan incl. Free (50 messages a day on Free), acts only after user approval, no credits to buy.",
+   "url": "https://www.jimdo.com/pricing/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "Jimdo",
+   "ring": 1,
+   "topic": "export",
+   "fact": "Export or data portability not found.",
+   "url": "https://www.jimdo.com/",
+   "date_read": "2026-11-22",
+   "confidence": "not-found"
+  },
+  {
+   "candidate": "Hostinger Website Builder",
+   "ring": 1,
+   "topic": "offer",
+   "fact": "Drag-and-drop builder with templates, AI site generation, hosting, domain, ecommerce and marketing tools, 14-day free trial.",
+   "url": "https://www.hostinger.com/website-builder",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "Hostinger Website Builder",
+   "ring": 1,
+   "topic": "price",
+   "fact": "USD, paid over 48 months: Premium $1.99/mo (renews $10.99), Unlimited $2.79 (renews $16.99), Cloud Startup $7.99 (renews $25.99); 30-day money-back.",
+   "url": "https://www.hostinger.com/website-builder",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "Hostinger Website Builder",
+   "ring": 1,
+   "topic": "ai",
+   "fact": "Claims AI generator, writer, logo maker, images, SEO and store assistants, AI email marketing and an agentic prompt-to-site mode; models not stated.",
+   "url": "https://www.hostinger.com/website-builder",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "Hostinger Website Builder",
+   "ring": 1,
+   "topic": "hosting",
+   "fact": "Privacy policy (via search summary) says data is processed under GDPR but some servers are outside the EU/EEA, transfers via SCCs; AI Builder sites use a CDN so server location cannot be changed.",
+   "url": "https://www.hostinger.com/legal/privacy-policy",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "flag": "from a search summary of the policy; re-read"
+  },
+  {
+   "candidate": "Hostinger Website Builder",
+   "ring": 1,
+   "topic": "export",
+   "fact": "Builder site export not found.",
+   "url": "https://www.hostinger.com/website-builder",
+   "date_read": "2026-11-22",
+   "confidence": "not-found"
+  },
+  {
+   "candidate": "Framer",
+   "ring": 1,
+   "topic": "price",
+   "fact": "In $ (currency unnamed): Free $0, Basic $10/mo, Pro $30/mo, Enterprise custom; overages per unit (e.g. $50 per 100 GB bandwidth, $20 per extra editor).",
+   "url": "https://www.framer.com/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "Framer",
+   "ring": 1,
+   "topic": "ai",
+   "fact": "AI credits power Agents and localisation (Free 500, Basic about 1,000, Pro about 3,000 a month); Agents and an MCP server in preview.",
+   "url": "https://www.framer.com/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "Framer",
+   "ring": 1,
+   "topic": "hosting",
+   "fact": "Global CDN included; no data-residency or EU-hosting claim found on the pricing page.",
+   "url": "https://www.framer.com/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "Framer",
+   "ring": 1,
+   "topic": "ownership",
+   "fact": "Operated by Framer B.V., Dutch; customer keeps content ownership and grants a hosting licence; Dutch law, Amsterdam courts.",
+   "url": "https://www.framer.com/legal/terms-of-service/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "Framer",
+   "ring": 1,
+   "topic": "export",
+   "fact": "Terms describe no export tool, only encourage customers to archive their own content; cancel anytime at period end.",
+   "url": "https://www.framer.com/legal/terms-of-service/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "Framer",
+   "ring": 1,
+   "topic": "licence",
+   "fact": "Proprietary; no open-source licence stated.",
+   "url": "https://www.framer.com/legal/terms-of-service/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page"
+  },
+  {
+   "candidate": "Hugo",
+   "ring": 3,
+   "topic": "offer",
+   "fact": "Open-source static site generator in Go, says it is very fast.",
+   "url": "https://gohugo.io/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Hugo",
+   "ring": 3,
+   "topic": "licence",
+   "fact": "Apache License 2.0, permissive.",
+   "url": "https://raw.githubusercontent.com/gohugoio/hugo/master/LICENSE",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Hugo",
+   "ring": 3,
+   "topic": "price",
+   "fact": "Software free; no hosting product or price on the homepage.",
+   "url": "https://gohugo.io/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Hugo",
+   "ring": 3,
+   "topic": "ai",
+   "fact": "No AI features claimed.",
+   "url": "https://gohugo.io/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Jekyll",
+   "ring": 3,
+   "topic": "offer",
+   "fact": "Turns Markdown, Liquid, HTML and CSS into a static site; no database.",
+   "url": "https://jekyllrb.com/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Jekyll",
+   "ring": 3,
+   "topic": "licence",
+   "fact": "MIT licence.",
+   "url": "https://raw.githubusercontent.com/jekyll/jekyll/master/LICENSE",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Jekyll",
+   "ring": 3,
+   "topic": "hosting",
+   "fact": "Powers GitHub Pages, described as free hosting with a custom domain.",
+   "url": "https://jekyllrb.com/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Jekyll",
+   "ring": 3,
+   "topic": "skill",
+   "fact": "Quick start uses the command line and Ruby gems; some terminal comfort implied.",
+   "url": "https://jekyllrb.com/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Eleventy",
+   "ring": 3,
+   "topic": "offer",
+   "fact": "Static site generator from a folder of Markdown, HTML or custom files; calls itself stable, secure and privacy-focused.",
+   "url": "https://www.11ty.dev/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Eleventy",
+   "ring": 3,
+   "topic": "licence",
+   "fact": "MIT licence.",
+   "url": "https://raw.githubusercontent.com/11ty/eleventy/main/LICENSE",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Eleventy",
+   "ring": 3,
+   "topic": "skill",
+   "fact": "Needs Node.js 18+ and a terminal; addressed to developers.",
+   "url": "https://www.11ty.dev/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Eleventy",
+   "ring": 3,
+   "topic": "price",
+   "fact": "No price; sponsor-funded.",
+   "url": "https://www.11ty.dev/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Astro",
+   "ring": 3,
+   "topic": "offer",
+   "fact": "JavaScript framework for content-driven sites sending light HTML.",
+   "url": "https://astro.build/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Astro",
+   "ring": 3,
+   "topic": "licence",
+   "fact": "MIT with extra MIT-style notices for parts derived from SvelteKit and Vite.",
+   "url": "https://raw.githubusercontent.com/withastro/astro/main/LICENSE",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Astro",
+   "ring": 3,
+   "topic": "hosting",
+   "fact": "Adapters for Netlify, Vercel, Cloudflare, AWS, Deno and Node.js.",
+   "url": "https://astro.build/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Astro",
+   "ring": 3,
+   "topic": "skill",
+   "fact": "Says knowing HTML is enough for a first component.",
+   "url": "https://astro.build/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Astro",
+   "ring": 3,
+   "topic": "ai",
+   "fact": "Official MCP server and context files for AI tools.",
+   "url": "https://astro.build/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Zola",
+   "ring": 3,
+   "topic": "offer",
+   "fact": "Static site engine as one executable with Sass and syntax highlighting built in.",
+   "url": "https://www.getzola.org/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Zola",
+   "ring": 3,
+   "topic": "licence",
+   "fact": "SCOUT READ the master LICENSE as EUPL 1.2 (copyleft); UNVERIFIED and doubtful, re-read before use.",
+   "url": "https://raw.githubusercontent.com/getzola/zola/master/LICENSE",
+   "date_read": "2026-11-22",
+   "confidence": "project-page",
+   "flag": "doubtful: re-read before any use"
+  },
+  {
+   "candidate": "Zola",
+   "ring": 3,
+   "topic": "hosting",
+   "fact": "Static output, no server or database; no hosts or prices given.",
+   "url": "https://www.getzola.org/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "WordPress",
+   "ring": 3,
+   "topic": "offer",
+   "fact": "Open-source publishing software on PHP and MariaDB behind millions of sites.",
+   "url": "https://wordpress.org/about/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "WordPress",
+   "ring": 3,
+   "topic": "audience",
+   "fact": "Says it is for everyone: usable out of the box, extensible for technical users.",
+   "url": "https://wordpress.org/about/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "WordPress",
+   "ring": 3,
+   "topic": "licence",
+   "fact": "GPLv2 or later; plugins and themes treated as derivatives inheriting the GPL.",
+   "url": "https://wordpress.org/about/license/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "WordPress",
+   "ring": 3,
+   "topic": "hosting",
+   "fact": "Self-install needs your own hosting with PHP 8.3+ and MySQL 8.4+ or MariaDB 10.11+.",
+   "url": "https://wordpress.org/download/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "WordPress",
+   "ring": 3,
+   "topic": "skill",
+   "fact": "Self-installing suits people comfortable arranging hosting and a domain; a hosted option is pitched as easiest.",
+   "url": "https://wordpress.org/download/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Ghost",
+   "ring": 3,
+   "topic": "licence",
+   "fact": "MIT.",
+   "url": "https://raw.githubusercontent.com/TryGhost/Ghost/main/LICENSE",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Ghost",
+   "ring": 3,
+   "topic": "price",
+   "fact": "Managed Ghost(Pro), billed yearly, in $: Starter $18/mo, Publisher $29/mo, Business $199/mo, Custom.",
+   "url": "https://ghost.org/pricing/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Ghost",
+   "ring": 3,
+   "topic": "hosting",
+   "fact": "Self-hosting recommended on an Ubuntu server with 1GB+ memory; Docker and VPS images listed.",
+   "url": "https://docs.ghost.org/install",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Ghost",
+   "ring": 3,
+   "topic": "skill",
+   "fact": "Warns self-hosters carry outages and attacks themselves.",
+   "url": "https://ghost.org/pricing/",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "bolt.diy",
+   "ring": 3,
+   "topic": "offer",
+   "fact": "Community fork of bolt.new: browser workspace to prompt, edit, run and deploy full-stack apps with any LLM.",
+   "url": "https://github.com/stackblitz-labs/bolt.diy",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "bolt.diy",
+   "ring": 3,
+   "topic": "licence",
+   "fact": "MIT; the WebContainers API it uses has separate commercial terms for enterprise.",
+   "url": "https://github.com/stackblitz-labs/bolt.diy",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "bolt.diy",
+   "ring": 3,
+   "topic": "skill",
+   "fact": "Needs Node.js 22.12+, pnpm and the command line.",
+   "url": "https://github.com/stackblitz-labs/bolt.diy",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "bolt.diy",
+   "ring": 3,
+   "topic": "price",
+   "fact": "Software free; you pay your LLM provider or use local models.",
+   "url": "https://github.com/stackblitz-labs/bolt.diy",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Dyad",
+   "ring": 3,
+   "topic": "offer",
+   "fact": "Local open-source AI app builder positioned against Lovable, v0 and Bolt; for power users.",
+   "url": "https://github.com/dyad-sh/dyad",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Dyad",
+   "ring": 3,
+   "topic": "licence",
+   "fact": "Apache 2.0 except src/pro under the Functional Source License (fair-source).",
+   "url": "https://github.com/dyad-sh/dyad",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "Dyad",
+   "ring": 3,
+   "topic": "price",
+   "fact": "Free download; bring your own AI API keys.",
+   "url": "https://github.com/dyad-sh/dyad",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "tinykit",
+   "ring": 3,
+   "topic": "offer",
+   "fact": "Self-hostable AI app builder on PocketBase, billed as a Lovable/v0 alternative with built-in database.",
+   "url": "https://github.com/tinykit-studio/tinykit",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "tinykit",
+   "ring": 3,
+   "topic": "licence",
+   "fact": "MIT.",
+   "url": "https://github.com/tinykit-studio/tinykit",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "tinykit",
+   "ring": 3,
+   "topic": "hosting",
+   "fact": "Deploy on Railway, Docker or a VPS, or run locally.",
+   "url": "https://github.com/tinykit-studio/tinykit",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "AI App Builder Open (Totalum)",
+   "ring": 3,
+   "topic": "offer",
+   "fact": "Prompt-to-Next.js app builder with live preview, GitHub sync and custom domains.",
+   "url": "https://github.com/totalumlabs/ai-app-builder-open",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "AI App Builder Open (Totalum)",
+   "ring": 3,
+   "topic": "licence",
+   "fact": "MIT file in the repo; says free for personal and commercial use.",
+   "url": "https://github.com/totalumlabs/ai-app-builder-open",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "AI App Builder Open (Totalum)",
+   "ring": 3,
+   "topic": "hosting",
+   "fact": "Generated apps are hosted by Totalum and a Totalum API key is required, so lock-in is high.",
+   "url": "https://github.com/totalumlabs/ai-app-builder-open",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "candidate": "AI App Builder Open (Totalum)",
+   "ring": 3,
+   "topic": "price",
+   "fact": "Code free; Totalum key free to start with 50 AI credits, then usage-based.",
+   "url": "https://github.com/totalumlabs/ai-app-builder-open",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  }
+ ]
+}
