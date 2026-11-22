@@ -1,7 +1,7 @@
 {
  "format": "landscape-rows/1",
  "for": "cartographer.d@AgentiCCells.dinis",
- "made": "2026-11-22T16:45Z",
+ "made": "2026-11-22T18:40Z",
  "made_by": "landscape.d@AgentiCCells.dinis",
  "rings_read": [
   1,
@@ -51,14 +51,18 @@
    "price_line": "Tiers: free (1 page, no custom domain, ads), Lite (6 pages, 15 GB), Pro (unlimited pages, 50 GB, e-commerce); currency and billing period not found; included free with a hosting plan.",
    "source_url": "https://www.infomaniak.com/en/create-a-website/site-creator",
    "date_read": "2026-11-22",
-   "flagged": true,
+   "flagged": false,
    "fact_ids": [
     "sw-f001",
     "sw-f002",
     "sw-f003",
     "sw-f004",
     "sw-f005",
-    "sw-f006"
+    "sw-f006",
+    "sw-f154",
+    "sw-f155",
+    "sw-f156",
+    "sw-f157"
    ],
    "note": "serves/lacks are landscape.d's reading from the facts; 'lacks pn-own-it-move-it' for ring 1 means no export path was found on the pages read, not that none exists"
   },
@@ -154,13 +158,14 @@
    "price_line": "USD, paid over 48 months: Premium $1.99/mo (renews $10.99), Unlimited $2.79 (renews $16.99), Cloud Startup $7.99 (renews $25.99); 30-day money-back.",
    "source_url": "https://www.hostinger.com/website-builder",
    "date_read": "2026-11-22",
-   "flagged": true,
+   "flagged": false,
    "fact_ids": [
     "sw-f024",
     "sw-f025",
     "sw-f026",
     "sw-f027",
-    "sw-f028"
+    "sw-f028",
+    "sw-f158"
    ],
    "note": "serves/lacks are landscape.d's reading from the facts; 'lacks pn-own-it-move-it' for ring 1 means no export path was found on the pages read, not that none exists"
   },
@@ -297,11 +302,12 @@
    "price_line": "software free (see licence fact); hosting and any AI key cost extra",
    "source_url": "https://www.getzola.org/",
    "date_read": "2026-11-22",
-   "flagged": true,
+   "flagged": false,
    "fact_ids": [
     "sw-f052",
     "sw-f053",
-    "sw-f054"
+    "sw-f054",
+    "sw-f153"
    ],
    "note": "serves/lacks are landscape.d's reading from the facts; 'lacks pn-own-it-move-it' for ring 1 means no export path was found on the pages read, not that none exists"
   },
@@ -496,19 +502,30 @@
    "id": "sw-p-webflow",
    "name": "Webflow",
    "ring": 2,
-   "what": "Pricing page failed to load (parse error, two URLs tried); no price read.",
-   "serves_needs": [],
-   "lacks_needs": [],
-   "price_line": "not found on the page read",
+   "what": "Hosted site plans on an AI-native visual platform; free Starter tier, paid Basic and Premium site plans",
+   "serves_needs": [
+    "n-owner-no-technical-skill"
+   ],
+   "lacks_needs": [
+    "n-owner-know-who-holds"
+   ],
+   "price_line": "US dollars: Basic $15 a month, Premium $25, billed yearly; Team $2,500 a month annual",
    "source_url": "https://webflow.com/pricing",
    "date_read": "2026-11-22",
    "flagged": true,
    "fact_ids": [
     "sw-f089",
     "sw-f090",
-    "sw-f091"
+    "sw-f091",
+    "sw-f146",
+    "sw-f147",
+    "sw-f148",
+    "sw-f149",
+    "sw-f150",
+    "sw-f151",
+    "sw-f152"
    ],
-   "note": "not read: pages failed to load"
+   "note": "re-read 22 Nov: terms say personal information is processed in the US (so it lacks a stated EU home); code export NOT verified (pages returned 403 or a challenge), so no move-out reading is made either way"
   },
   {
    "id": "sw-p-lovable",
@@ -712,13 +729,14 @@
    "price_line": "not read",
    "source_url": "https://developers.cloudflare.com/pages/platform/limits/",
    "date_read": "2026-11-22",
-   "flagged": true,
+   "flagged": false,
    "fact_ids": [
     "sw-f132",
     "sw-f133",
     "sw-f134",
     "sw-f135",
-    "sw-f136"
+    "sw-f136",
+    "sw-f159"
    ],
    "note": "regional controls offered; US-based per its own transfer basis"
   },

@@ -581,16 +581,28 @@
    "ring": 2,
    "readings": {
     "price": {
-     "status": "not-found",
-     "fact": "sw-f089"
+     "status": "stated",
+     "fact": "sw-f147"
     },
     "export": {
      "status": "not-found",
-     "fact": "sw-f090"
+     "fact": "sw-f148"
     },
     "ownership": {
-     "status": "not-found",
-     "fact": "sw-f091"
+     "status": "stated",
+     "fact": "sw-f149"
+    },
+    "hosting": {
+     "status": "stated",
+     "fact": "sw-f150"
+    },
+    "ai": {
+     "status": "stated",
+     "fact": "sw-f151"
+    },
+    "licence": {
+     "status": "stated",
+     "fact": "sw-f152"
     }
    }
   },
@@ -871,7 +883,7 @@
   {
    "id": "sw-g6",
    "kind": "gap",
-   "text": "Of the mass-market and AI-native builders, none read states an export tool for the site on the pages read (Wix, Squarespace, Lovable, Bolt, Durable, 10Web); v0 advertises GitHub sync on its free plan and 10Web lists SFTP/SSH, which are partial answers. Webflow, the builder best known for code export, could not be read at all and must be re-scouted before any claim is made about it.",
+   "text": "Of the mass-market and AI-native builders, none read states an export tool for the site on the pages read (Wix, Squarespace, Lovable, Bolt, Durable, 10Web); v0 advertises GitHub sync on its free plan and 10Web lists SFTP/SSH, which are partial answers. Webflow, re-read later on 22 Nov, shows price and terms but its code-export pages returned 403 or a challenge, so whether it exports is still unverified: no claim is made.",
    "facts": [
     "sw-f082",
     "sw-f087",
@@ -880,29 +892,34 @@
     "sw-f109",
     "sw-f113",
     "sw-f104",
-    "sw-f090"
+    "sw-f090",
+    "sw-f148"
    ]
   },
   {
    "id": "sw-g7",
    "kind": "term-conflict",
-   "text": "Several terms keep a broad licence over the customer's content: Squarespace takes a perpetual, irrevocable licence to use, host and distribute it, and Lovable a perpetual licence including for training AI models (with an opt-out for future use). This sits against our test 'you set the terms'. Read as terms, not legal advice.",
+   "text": "Several terms keep a broad licence over the customer's content: Squarespace takes a perpetual, irrevocable licence to use, host and distribute it, and Lovable a perpetual licence including for training AI models (with an opt-out for future use). This sits against our test 'you set the terms'. Read as terms, not legal advice. Webflow's terms (re-read) differ: the customer keeps ownership and Webflow takes a revocable licence to show published content for its own marketing, with a right to decide ownership disputes and take content down.",
    "facts": [
     "sw-f086",
-    "sw-f094"
+    "sw-f094",
+    "sw-f149"
    ]
   },
   {
    "id": "sw-g8",
    "kind": "claim-to-check",
-   "text": "Where it lives is rarely stated by the builders (Wix, Squarespace, Bolt, v0, Durable name no region; Lovable says it does not guarantee one), while the hosting layer varies: Hetzner (German, Nuremberg) and OVHcloud (French; cites SecNumCloud and other standards) state a home; Cloudflare offers regional controls but is US-based per its own transfer mechanism; Netlify is a California company. OVHcloud and Cloudflare each say something about foreign-law exposure only in part. Our plan makes no legal or certification claim on sovereignty; the buyer's own check applies.",
+   "text": "Where it lives is rarely stated by the builders (Wix, Squarespace, Bolt, v0, Durable name no region; Lovable says it does not guarantee one), while the hosting layer varies: Hetzner (German, Nuremberg) and OVHcloud (French; cites SecNumCloud and other standards) state a home; Cloudflare offers regional controls but is US-based per its own transfer mechanism; Netlify is a California company. OVHcloud and Cloudflare each say something about foreign-law exposure only in part. Our plan makes no legal or certification claim on sovereignty; the buyer's own check applies. Webflow's terms say personal information is processed in the United States; Hostinger's policy was re-read and confirms servers outside the EU and EEA; Cloudflare, Inc. is a California company per its own terms.",
    "facts": [
     "sw-f117",
     "sw-f124",
     "sw-f133",
     "sw-f134",
     "sw-f144",
-    "sw-f096"
+    "sw-f096",
+    "sw-f150",
+    "sw-f158",
+    "sw-f159"
    ]
   },
   {
@@ -944,8 +961,8 @@
    "url": "https://www.infomaniak.com/en/create-a-website/site-creator",
    "date_read": "2026-11-22",
    "confidence": "vendor-page",
-   "flag": "read from a search snippet; page body did not load; re-read",
-   "id": "sw-f001"
+   "id": "sw-f001",
+   "superseded_by": "re-read of 22 Nov 2026 (see facts marked reread)"
   },
   {
    "candidate": "Infomaniak Site Creator",
@@ -1205,8 +1222,8 @@
    "url": "https://www.hostinger.com/legal/privacy-policy",
    "date_read": "2026-11-22",
    "confidence": "vendor-page",
-   "flag": "from a search summary of the policy; re-read",
-   "id": "sw-f027"
+   "id": "sw-f027",
+   "superseded_by": "re-read of 22 Nov 2026 (see facts marked reread)"
   },
   {
    "candidate": "Hostinger Website Builder",
@@ -1462,12 +1479,12 @@
    "candidate": "Zola",
    "ring": 3,
    "topic": "licence",
-   "fact": "SCOUT READ the master LICENSE as EUPL 1.2 (copyleft); UNVERIFIED and doubtful, re-read before use.",
+   "fact": "Scout read the LICENSE on 22 Nov as EUPL 1.2; confirmed by the re-read.",
    "url": "https://raw.githubusercontent.com/getzola/zola/master/LICENSE",
    "date_read": "2026-11-22",
    "confidence": "project-page",
-   "flag": "doubtful: re-read before any use",
-   "id": "sw-f053"
+   "id": "sw-f053",
+   "superseded_by": "re-read of 22 Nov 2026 (see facts marked reread)"
   },
   {
    "candidate": "Zola",
@@ -1828,7 +1845,7 @@
    "date_read": "2026-11-22",
    "confidence": "not-found",
    "id": "sw-f089",
-   "flag": "page failed to load; re-scout"
+   "superseded_by": "re-read of 22 Nov 2026 (see facts marked reread)"
   },
   {
    "candidate": "Webflow",
@@ -1839,7 +1856,7 @@
    "date_read": "2026-11-22",
    "confidence": "not-found",
    "id": "sw-f090",
-   "flag": "page failed to load; re-scout"
+   "superseded_by": "re-read of 22 Nov 2026 (see facts marked reread)"
   },
   {
    "candidate": "Webflow",
@@ -1850,7 +1867,7 @@
    "date_read": "2026-11-22",
    "confidence": "not-found",
    "id": "sw-f091",
-   "flag": "page failed to load; re-scout"
+   "superseded_by": "re-read of 22 Nov 2026 (see facts marked reread)"
   },
   {
    "candidate": "Lovable",
@@ -2282,7 +2299,7 @@
    "date_read": "2026-11-22",
    "confidence": "vendor-page",
    "id": "sw-f134",
-   "flag": "HQ country inferred from a reference, not named"
+   "superseded_by": "re-read of 22 Nov 2026 (see facts marked reread)"
   },
   {
    "candidate": "Cloudflare Pages",
@@ -2393,6 +2410,160 @@
    "date_read": "2026-11-22",
    "confidence": "not-found",
    "id": "sw-f145"
+  },
+  {
+   "id": "sw-f146",
+   "candidate": "Webflow",
+   "ring": 2,
+   "topic": "offer",
+   "fact": "Sells hosted site plans on its AI-native visual platform: a free Starter tier (2 static pages, limited CMS), paid Basic (no CMS) and Premium (with CMS) site plans, and platform plans for teams.",
+   "url": "https://webflow.com/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "reread": true
+  },
+  {
+   "id": "sw-f147",
+   "candidate": "Webflow",
+   "ring": 2,
+   "topic": "price",
+   "fact": "In US dollars: Basic $15 a month and Premium $25, billed yearly (monthly toggle figures not extracted); Team platform plan $2,500 a month on an annual contract.",
+   "url": "https://webflow.com/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "reread": true
+  },
+  {
+   "id": "sw-f148",
+   "candidate": "Webflow",
+   "ring": 2,
+   "topic": "export",
+   "fact": "Code export not verified: the help-centre and University code-export pages returned 403 or a Cloudflare challenge to automated reads.",
+   "url": "https://help.webflow.com/hc/en-us/articles/33961386739347",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "reread": true
+  },
+  {
+   "id": "sw-f149",
+   "candidate": "Webflow",
+   "ring": 2,
+   "topic": "ownership",
+   "fact": "Terms say the customer keeps ownership of Website Content, while granting Webflow a revocable licence to show published content for its own marketing; Webflow reserves the right to decide ownership disputes and take content down.",
+   "url": "https://webflow.com/legal/terms",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "reread": true
+  },
+  {
+   "id": "sw-f150",
+   "candidate": "Webflow",
+   "ring": 2,
+   "topic": "hosting",
+   "fact": "Terms state users' personal information is collected, used, transferred to and processed in the United States; no EU hosting region stated on the pages read.",
+   "url": "https://webflow.com/legal/terms",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "reread": true
+  },
+  {
+   "id": "sw-f151",
+   "candidate": "Webflow",
+   "ring": 2,
+   "topic": "ai",
+   "fact": "Pricing page lists Webflow AI, an MCP server, AI-driven search visibility, agents on the Team tier and generation of code components.",
+   "url": "https://webflow.com/pricing",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "reread": true
+  },
+  {
+   "id": "sw-f152",
+   "candidate": "Webflow",
+   "ring": 2,
+   "topic": "licence",
+   "fact": "Proprietary hosted platform governed by its terms; no open-source licence offered for the platform.",
+   "url": "https://webflow.com/legal/terms",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "reread": true
+  },
+  {
+   "id": "sw-f153",
+   "candidate": "Zola",
+   "ring": 3,
+   "topic": "licence",
+   "fact": "Re-read: the LICENSE file on the default branch begins 'EUROPEAN UNION PUBLIC LICENCE v. 1.2', so Zola is EUPL v1.2 (copyleft); the earlier doubt was wrong.",
+   "url": "https://raw.githubusercontent.com/getzola/zola/master/LICENSE",
+   "date_read": "2026-11-22",
+   "confidence": "project-page",
+   "reread": true
+  },
+  {
+   "id": "sw-f154",
+   "candidate": "Infomaniak Site Creator",
+   "ring": 1,
+   "topic": "offer",
+   "fact": "Re-read: no-code builder with AI help (Euria) in three tiers: Free (1 page, 5 GB), Lite (6 pages, 15 GB), Pro (unlimited pages, 50 GB, e-commerce), each with a free domain for 1 year.",
+   "url": "https://www.infomaniak.com/en/create-a-website/site-creator",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "reread": true
+  },
+  {
+   "id": "sw-f155",
+   "candidate": "Infomaniak Site Creator",
+   "ring": 1,
+   "topic": "price",
+   "fact": "Paid tiers priced in CHF, monthly with a lower promotional price for the first months, terms monthly, 2 years or 4 years; exact amounts not in the static page text.",
+   "url": "https://www.infomaniak.com/en/create-a-website/site-creator",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "reread": true
+  },
+  {
+   "id": "sw-f156",
+   "candidate": "Infomaniak Site Creator",
+   "ring": 1,
+   "topic": "hosting",
+   "fact": "Page says it is developed by an independent Swiss company and hosted and developed in Switzerland, with data centres and software in Europe.",
+   "url": "https://www.infomaniak.com/en/create-a-website/site-creator",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "reread": true
+  },
+  {
+   "id": "sw-f157",
+   "candidate": "Infomaniak Site Creator",
+   "ring": 1,
+   "topic": "export",
+   "fact": "No statement about exporting the site on the page, though it lists custom HTML blocks as a module.",
+   "url": "https://www.infomaniak.com/en/create-a-website/site-creator",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "reread": true
+  },
+  {
+   "id": "sw-f158",
+   "candidate": "Hostinger Website Builder",
+   "ring": 1,
+   "topic": "hosting",
+   "fact": "Re-read of the privacy policy itself: some servers are outside the EU and EEA (including the US, Brazil, Singapore and Indonesia); data may be held in the UK, Netherlands, Lithuania or Cyprus; transfers rely on a GDPR basis such as standard contractual clauses.",
+   "url": "https://www.hostinger.com/legal/privacy-policy",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "reread": true
+  },
+  {
+   "id": "sw-f159",
+   "candidate": "Cloudflare Pages",
+   "ring": 4,
+   "topic": "location",
+   "fact": "Terms name Cloudflare, Inc. at 101 Townsend St., San Francisco, California and are governed by California law; no country written explicitly, so the United States is implied.",
+   "url": "https://www.cloudflare.com/terms/",
+   "date_read": "2026-11-22",
+   "confidence": "vendor-page",
+   "reread": true
   }
  ],
  "changes": [
@@ -2407,6 +2578,10 @@
   {
    "at": "2026-11-22T16:45Z",
    "what": "need ids moved to sherpa.d's (n-owner-*); 'us' row added; finding sw-g10 (try-first is the norm)"
+  },
+  {
+   "at": "2026-11-22T18:40Z",
+   "what": "re-read: Webflow now read (price, terms, US processing; export still unverified); Zola licence confirmed EUPL 1.2; Infomaniak, Hostinger and Cloudflare confirmed; flags cleared on those rows"
   }
  ]
 }
