@@ -1,6 +1,6 @@
 {
  "about": "The governance record of Dinis's agents, kept by holacracy.d@AgentiCCells.dinis. First draft, 22 November 2026. Account D from list_sessions, get_session (status, model, cost, parent; never transcripts) and the status.json files; account B reported, not seen.",
- "generated": "2026-11-22T02:25Z",
+ "generated": "2026-11-22T03:58Z",
  "schema": "circles[], roles(=agents)[], tensions in proposals/. Roles' domains come from the ABP grant where one exists (none yet for the .d agents, see T4).",
  "sources": [
   "board/team/maestro.d/status.json",
@@ -332,6 +332,22 @@
    "purpose": "The email cell, twin of cell.email.b",
    "twin": "cell.email.b",
    "configured": "opus",
+   "account": "D"
+  },
+  {
+   "id": "newsroom.d",
+   "name": "newsroom.d (sgit.ai)",
+   "circle": "newsroom (sgit.ai, not yet a circle in the record)",
+   "parent": "maestro.d",
+   "session": "https://claude.ai/code/session_015gaHdb5n5RdwdbHzWijPMS",
+   "model": "opus",
+   "configured": "opus",
+   "state": "working, review ready",
+   "cost": 9.33,
+   "wake": "none seen",
+   "repo": "SGit-AI/SGit-AI__Website__Newsroom",
+   "purpose": "The newsroom writer on account D, twin of writer-10 (becoming newsroom.b); received my brief as material",
+   "twin": "writer-10 (newsroom.b), reported",
    "account": "D"
   }
  ],

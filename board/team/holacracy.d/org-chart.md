@@ -1,6 +1,6 @@
 # Org chart of account D
 
-Drawn from org-chart.json (2026-11-22T02:25Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
+Drawn from org-chart.json (2026-11-22T03:58Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
 
 ## The parent tree (who started whom)
 
@@ -17,8 +17,9 @@ maestro.d (account-d) [opus, configured sonnet] working, $12.20
 |-- sites.d (SovereignWebsite) [sonnet] idle, needs input, $2.18
 |   `-- streaming.d (StreamingWebsite) [opus, configured sonnet] idle, needs input, $7.72
 |-- hub.d (SovereignWebsite) [sonnet] idle, completed, $1.44
-`-- conductor.d@AgentiCCells.dinis [opus] idle, needs input, $3.66
-    `-- cell.email.d@AgentiCCells.dinis [opus] idle, needs input, $3.97
+|-- conductor.d@AgentiCCells.dinis [opus] idle, needs input, $3.66
+|   `-- cell.email.d@AgentiCCells.dinis [opus] idle, needs input, $3.97
+`-- newsroom.d (sgit.ai) [opus] working, review ready, $9.33
 ```
 
 ## The circles (who holds what purpose)
@@ -49,6 +50,7 @@ maestro.d (account-d) [opus, configured sonnet] working, $12.20
 | streaming.d (StreamingWebsite) | StreamingWebsite | sites.d | streaming.b? | SovereignWebsite/Site__Tool__Streaming | none | https://claude.ai/code/session_015gaHdbE7t4XNf21L7neufF |
 | conductor.d@AgentiCCells.dinis | AgentiCCells | maestro.d | conductor.b@AgentiCCells.dinis | AgentiCCells/AgentiCCells__Site__Factory | none | https://claude.ai/code/session_015gaHdcaj9Ta2Tke7pnZ3Q9 |
 | cell.email.d@AgentiCCells.dinis | AgentiCCells | conductor.d@AgentiCCells | cell.email.b | AgentiCCells/AgentiCCells__Cell__Email | none | https://claude.ai/code/session_015gaHde7zcTqMyBWcdpdnR6 |
+| newsroom.d (sgit.ai) | newsroom (sgit.ai, not yet a circle in the record) | maestro.d | writer-10 (newsroom.b), reported | SGit-AI/SGit-AI__Website__Newsroom | none seen | https://claude.ai/code/session_015gaHdb5n5RdwdbHzWijPMS |
 
 ## Account B (reported, not seen)
 
