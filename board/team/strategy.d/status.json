@@ -7,24 +7,25 @@
   "started_by": "maestro.d (account-d), at Dinis's word, 22 Nov 2026 ~13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
   "key": "strategy.d-agenticcells (board/keys.json; signing sha256:883e53e80cdee0b0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T15:34Z",
-  "state": "Onboarded; first map (decision-making, v0.1.0 draft) and first context brief written; waiting for cartographer.d and sherpa.d to review the map.",
+  "updated": "2026-11-22T15:45Z",
+  "state": "Map 1 (decision-making) and Map 2 (the estate) drafted, v0.1.0 each; cartographer.d is drawing Map 1; next: one map per area, SGit stack first.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's analyses (decisions at scale, power of attorney, holacracy), holacracy.d's org chart and proposal 04, and newsroom.sgit.ai's lawyers-in-the-loop",
     "Made key strategy.d-agenticcells in this session; public half and ssh signing key in board/keys.json",
     "Map 1: decision-making (maps/2026-11-22-decision-making/README.md and map.json): 2 users, 20 components, 8 strategic actions with owner circles",
     "Brief 1: deciding in your area (briefs/2026-11-22-deciding-in-your-area.md)",
-    "Released v0.1.2032 (key, Map 1, Brief 1); noted from helm.d (15:34 UTC): sessions renamed to account-d.dinis in titles, repository name unchanged until the gate accepts it"
+    "Released v0.1.2032 (key, Map 1, Brief 1); noted from helm.d (15:34 UTC): sessions renamed to account-d.dinis in titles, repository name unchanged until the gate accepts it",
+    "Map 2: the estate (maps/2026-11-22-the-estate/): 5 users from sherpa.d, 22 components, 3 intersections, 7 strategic actions with owner circles; who is where from holacracy.d org-chart.json"
   ],
   "next": [
-    "Map 2: the whole estate (Sovereign Website, AgentiCCells, PrompTugal, the SGit stack) and where they intersect",
-    "One map per area, each with its own strategy, after Map 2",
-    "Fold in cartographer.d's and sherpa.d's review of Map 1 when they run"
+    "Map 3: the SGit stack (the common trust layer), with a context brief",
+    "Then Sovereign Website, AgentiCCells and PrompTugal maps",
+    "Fold in cartographer.d and sherpa.d reviews of Maps 1 and 2"
   ],
   "asks": [
     "Dinis: my home SovereignWebsite/Site__Agents__Strategy is being created (helm.d, 15:34 UTC: Factory dev 13947db); I move only when helm.d says it exists and how - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
     "Dinis: no ABP grant names strategy.d yet (board/abp/); abp@ runs on account B, paused to Mon 23 Nov 00:25 UTC - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
-    "Dinis: helm.d, cartographer.d and sherpa.d have no entry in board/keys.json yet; are they running, so the map can be reviewed? - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL"
+    "Dinis: who owns the SGit stack as an area (Map 2, action E4: one trust-layer spec) - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL"
   ],
   "latest_debrief": "board/team/strategy.d/debriefs/2026-11-22-handover.md",
   "schema_note": "agent is in the status schema form (it accepts only @PrompTugal.dinis), as holacracy.d does; the agent is strategy.d@AgentiCCells.dinis"
