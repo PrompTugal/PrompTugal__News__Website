@@ -11,7 +11,7 @@ const r1 = x => Math.round(x * 10) / 10
 const PH = process.argv.includes('--phone')   // portrait for phones: 420 x 640, large labels, the same steps and timings
 const W = PH ? 420 : 1100, H = PH ? 700 : 760, L = PH ? 14 : 70, R = PH ? 14 : 40, T = PH ? 86 : 80, B = PH ? 250 : 190
 const px = e => r1(L + e * (W - L - R)), py = v => r1(T + (1 - v) * (H - T - B))
-const N = j.steps.length, STEP = 5, TOTAL = N * STEP + 3   // seconds: each step 5 s, a 3 s hold at the end, then it loops
+const N = j.steps.length, STEP = j.step_seconds || 5, TOTAL = N * STEP + 3   // seconds: each step j.step_seconds (default 5) s, a 3 s hold at the end, then it loops
 const kt = t => (t / TOTAL).toFixed(4)
 const state = {}   // node -> [ {t, e} ]
 j.steps.forEach((s, i) => { for (const ev of s.events) (state[ev.node] ||= []).push({ t: i * STEP, e: ev.evolution, first: !state[ev.node] }) })
@@ -21,20 +21,24 @@ o.push(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" role="im
 o.push(`<rect width="${W}" height="${H}" fill="#fff"/>`)
 if (PH) wrapc0(j.title, 30).forEach((t, k) => o.push(`<text x="${L}" y="${22 + k * 20}" font-size="18" font-weight="600" fill="#111">${esc(t)}</text>`))
 else o.push(`<text x="${L}" y="32" font-size="20" font-weight="600" fill="#111">${esc(j.title)}</text>`)
-if (!PH) o.push(`<text x="${L}" y="54" font-size="12" fill="#444">history map, ${esc(j.status)}, made ${esc(j.made)} by ${esc(j.made_by)}; plays in a loop of ${TOTAL} seconds; positions are a reading of the sources</text>`)
+if (!PH && j.subtitle) o.push(`<text x="${L}" y="54" font-size="14" fill="#444">${esc(j.subtitle)}</text>`)
+else if (!PH) o.push(`<text x="${L}" y="54" font-size="12" fill="#444">history map, ${esc(j.status)}, made ${esc(j.made)} by ${esc(j.made_by)}; plays in a loop of ${TOTAL} seconds; positions are a reading of the sources</text>`)
 o.push(`<rect x="${L}" y="${T}" width="${W - L - R}" height="${H - T - B}" fill="none" stroke="#999"/>`)
+const axisAt = j.axis_from_step ? (j.axis_from_step - 1) * STEP : 0
+if (axisAt) o.push(`<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="${[0, axisAt, axisAt + 0.8, TOTAL].map(kt).join(';')}" dur="${TOTAL}s" repeatCount="indefinite"/>`)
 ;['Genesis', 'Custom-built', 'Product (+ rental)', 'Commodity (+ utility)'].forEach((n, i) => {
   const x = r1(L + i * (W - L - R) / 4)
   if (i) o.push(`<line x1="${x}" y1="${T}" x2="${x}" y2="${H - B}" stroke="#ccc" stroke-dasharray="4 4"/>`)
   o.push(`<text x="${r1(x + 6)}" y="${H - B + 18}" font-size="${PH ? 10 : 12}" fill="#555">${PH ? n.split(' ')[0] : n}</text>`)
 })
+if (axisAt) o.push('</g>')
 // nodes
 for (const [id, ks] of Object.entries(state)) {
   const c = j.components[id], y = py(c.visibility)
   const keyT = [], pos = [], op = []
   ks.forEach((k, i) => {
     if (i === 0) { keyT.push(0); pos.push(px(k.e)); op.push(0); keyT.push(Math.max(k.t, 0.01)); pos.push(px(k.e)); op.push(0) ; keyT.push(k.t + 0.8); pos.push(px(k.e)); op.push(1) }
-    else { keyT.push(k.t + 0.8); pos.push(px(ks[i - 1].e)); op.push(1); keyT.push(k.t + 3.2); pos.push(px(k.e)); op.push(1) }
+    else { keyT.push(k.t + 0.8); pos.push(px(ks[i - 1].e)); op.push(1); keyT.push(k.t + (STEP > 8 ? 4.8 : 3.2)); pos.push(px(k.e)); op.push(1) }
   })
   keyT.push(TOTAL); pos.push(pos[pos.length - 1]); op.push(1)
   // the node loops: start hidden at 0
@@ -56,9 +60,10 @@ const cap = (i) => {
 j.steps.forEach((s, i) => {
   const lines = wrapc(s.caption, PH ? 40 : 88)
   lines.slice(0, PH ? 7 : 3).forEach((t, k) => o.push(`<text x="${L}" y="${PH ? H - 196 + k * 24 : H - 96 + k * 23}" font-size="${PH ? 18 : 19}" fill="#111" ${cap(i)}${esc(t)}</text>`))
-  o.push(`<text x="${L}" y="${H - (PH ? 8 : 26)}" font-size="${PH ? 13 : 14}" fill="#666" ${cap(i)}${esc(s.date)}; source: ${esc(s.source)}${PH ? '' : ' (see sources_read in the JSON)'}</text>`)
+  o.push(`<text x="${L}" y="${H - (PH ? 8 : 26)}" font-size="${PH ? 13 : 14}" fill="#666" ${cap(i)}${j.show_sources === false ? 'Step ' + (i + 1) + ' of ' + N : esc(s.date) + '; source: ' + esc(s.source) + (PH ? '' : ' (see sources_read in the JSON)')}</text>`)
 })
-if (!PH) o.push(`<text x="${L}" y="${H - 6}" font-size="11" fill="#555">Evolution, left to right. Visible to the user, bottom to top. A circle appears when the sources first record the component and slides as it matures.</text>`)
+if (j.footnote) o.push(`<text x="${L}" y="${H - (PH ? 30 : 6)}" font-size="${PH ? 12 : 12}" fill="#555">${esc(j.footnote)}</text>`)
+else if (!PH) o.push(`<text x="${L}" y="${H - 6}" font-size="11" fill="#555">Evolution, left to right. Visible to the user, bottom to top. A circle appears when the sources first record the component and slides as it matures.</text>`)
 o.push('</svg>')
 const out = f.replace(/\.json$/, PH ? '.phone.svg' : '.svg')
 fs.writeFileSync(out, o.join('\n') + '\n')

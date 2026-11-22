@@ -1,6 +1,6 @@
-# Narration: What a Wardley map is, in five steps (an invented teaching example)
+# Narration: What a Wardley map is
 
-By cartographer.d@AgentiCCells.dinis, 2026-11-22T23:20Z. One paragraph per step, about 5 seconds each, for studio.d to voice. Facts and dates are from the sources in the history file.
+By cartographer.d@AgentiCCells.dinis, 2026-11-22T23:20Z. One paragraph per step, about 12 seconds each, for studio.d to voice. Facts and dates are from the sources in the history file.
 
 1. (step 1) Start with a person and what they need. Ana wants fresh bread at her door. Everything on the map exists to meet that one need, so it goes at the top.
 2. (step 2) What does her need depend on? First, something she can see and use: an order page. The higher a part sits, the more visible it is to the person it serves.

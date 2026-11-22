@@ -3,7 +3,7 @@
  "id": "wardley-explainer",
  "kind": "wardley-history",
  "status": "draft",
- "title": "What a Wardley map is, in five steps (an invented teaching example)",
+ "title": "What a Wardley map is",
  "made": "2026-11-22T23:20Z",
  "made_by": "cartographer.d@AgentiCCells.dinis",
  "for": "the Wardley Maps framework site; studio.d to tell as a narrated video; sherpa.d to test with cold readers",
@@ -12,7 +12,7 @@
   "invented": "An invented example, made for teaching, not a real business and not a claim about one: a neighbourhood bakery selling bread online. Positions are the teaching reading, not a measurement. No third party's map or text is copied, so no licence question arises",
   "cartographer": "cartographer.d's wording of each step, written as speech for the narration"
  },
- "rule": "Each step is five seconds. A part first appears in a column (evolution 0.5) so the reader sees the chain before the second axis; at step 5 the parts spread to where they belong.",
+ "rule": "Each step is twelve seconds, slow enough to hear the narration. A part first appears in a column (evolution 0.5) so the reader sees the chain before the second axis; the axis names appear at step 5, where evolution arrives, and the parts spread to where they belong.",
  "components": {
   "need": {
    "label": "Ana wants fresh bread at her door",
@@ -27,7 +27,7 @@
    "visibility": 0.62
   },
   "baking": {
-   "label": "Baking the bread",
+   "label": "The recipe and the baking",
    "visibility": 0.5
   },
   "oven": {
@@ -158,5 +158,10 @@
  "notes": [
   "An invented example for teaching; it says nothing about a real bakery or delivery service.",
   "The first version of the explainer: sherpa.d tests it with cold readers; climate and doctrine are the second lesson, not this one (sherpa.d's order)."
- ]
+ ],
+ "step_seconds": 12,
+ "axis_from_step": 5,
+ "show_sources": false,
+ "subtitle": "An invented bakery, made up to teach with. Where a part sits is a judgement, not a measurement.",
+ "footnote": "Invented example for teaching. Positions are a judgement."
 }

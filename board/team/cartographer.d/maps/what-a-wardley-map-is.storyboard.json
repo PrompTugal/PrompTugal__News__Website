@@ -1,14 +1,14 @@
 {
  "format": "studio-storyboard/0",
  "slug": "what-a-wardley-map-is",
- "title": "What a Wardley map is, in five steps",
+ "title": "What a Wardley map is",
  "audience": "A cold reader (a founder, a CISO, an investor) who has heard of Wardley maps and cannot yet explain one; afterwards they can name the two axes and say what a map is for",
  "requested_by": "cartographer.d",
  "summary": "An invented bakery, drawn up one idea at a time: the user and a need, the chain down from it, then evolution left to right, one part drifting, and a decision the map changes. First version for sherpa.d to test with cold readers.",
  "beats": [
   {
    "id": "b1",
-   "narration": "A Wardley map shows what something is made of, and how mature each part is. In five short steps you will see how to read one, using a made-up bakery.",
+   "narration": "A Wardley map shows what something is made of, and how mature each part is. In eight short steps you will see how to read one, using a made-up bakery.",
    "visual": {
     "kind": "title",
     "text": "What a Wardley map is"
@@ -24,9 +24,9 @@
     "kind": "svg",
     "src": "board/team/cartographer.d/maps/wardley-explainer.history.svg",
     "at": 0,
-    "play": 5,
+    "play": 12,
     "alt": "Animated map of an invented bakery; step 1 of 8",
-    "note": "Seek the inline SVG to second 0 and play 5 seconds; the text inside the picture is large for a phone.",
+    "note": "Seek the inline SVG to second 0 and play 12 seconds; each step is 12 seconds so the narration can be heard.",
     "src_phone": "board/team/cartographer.d/maps/wardley-explainer.history.phone.svg"
    },
    "facts": [
@@ -39,10 +39,10 @@
    "visual": {
     "kind": "svg",
     "src": "board/team/cartographer.d/maps/wardley-explainer.history.svg",
-    "at": 5,
-    "play": 5,
+    "at": 12,
+    "play": 12,
     "alt": "Animated map of an invented bakery; step 2 of 8",
-    "note": "Seek the inline SVG to second 5 and play 5 seconds; the text inside the picture is large for a phone.",
+    "note": "Seek the inline SVG to second 12 and play 12 seconds; each step is 12 seconds so the narration can be heard.",
     "src_phone": "board/team/cartographer.d/maps/wardley-explainer.history.phone.svg"
    },
    "facts": [
@@ -55,10 +55,10 @@
    "visual": {
     "kind": "svg",
     "src": "board/team/cartographer.d/maps/wardley-explainer.history.svg",
-    "at": 10,
-    "play": 5,
+    "at": 24,
+    "play": 12,
     "alt": "Animated map of an invented bakery; step 3 of 8",
-    "note": "Seek the inline SVG to second 10 and play 5 seconds; the text inside the picture is large for a phone.",
+    "note": "Seek the inline SVG to second 24 and play 12 seconds; each step is 12 seconds so the narration can be heard.",
     "src_phone": "board/team/cartographer.d/maps/wardley-explainer.history.phone.svg"
    },
    "facts": [
@@ -71,10 +71,10 @@
    "visual": {
     "kind": "svg",
     "src": "board/team/cartographer.d/maps/wardley-explainer.history.svg",
-    "at": 15,
-    "play": 5,
+    "at": 36,
+    "play": 12,
     "alt": "Animated map of an invented bakery; step 4 of 8",
-    "note": "Seek the inline SVG to second 15 and play 5 seconds; the text inside the picture is large for a phone.",
+    "note": "Seek the inline SVG to second 36 and play 12 seconds; each step is 12 seconds so the narration can be heard.",
     "src_phone": "board/team/cartographer.d/maps/wardley-explainer.history.phone.svg"
    },
    "facts": [
@@ -87,10 +87,10 @@
    "visual": {
     "kind": "svg",
     "src": "board/team/cartographer.d/maps/wardley-explainer.history.svg",
-    "at": 20,
-    "play": 5,
+    "at": 48,
+    "play": 12,
     "alt": "Animated map of an invented bakery; step 5 of 8",
-    "note": "Seek the inline SVG to second 20 and play 5 seconds; the text inside the picture is large for a phone.",
+    "note": "Seek the inline SVG to second 48 and play 12 seconds; each step is 12 seconds so the narration can be heard.",
     "src_phone": "board/team/cartographer.d/maps/wardley-explainer.history.phone.svg"
    },
    "facts": [
@@ -103,10 +103,10 @@
    "visual": {
     "kind": "svg",
     "src": "board/team/cartographer.d/maps/wardley-explainer.history.svg",
-    "at": 25,
-    "play": 5,
+    "at": 60,
+    "play": 12,
     "alt": "Animated map of an invented bakery; step 6 of 8",
-    "note": "Seek the inline SVG to second 25 and play 5 seconds; the text inside the picture is large for a phone.",
+    "note": "Seek the inline SVG to second 60 and play 12 seconds; each step is 12 seconds so the narration can be heard.",
     "src_phone": "board/team/cartographer.d/maps/wardley-explainer.history.phone.svg"
    },
    "facts": [
@@ -119,10 +119,10 @@
    "visual": {
     "kind": "svg",
     "src": "board/team/cartographer.d/maps/wardley-explainer.history.svg",
-    "at": 30,
-    "play": 5,
+    "at": 72,
+    "play": 12,
     "alt": "Animated map of an invented bakery; step 7 of 8",
-    "note": "Seek the inline SVG to second 30 and play 5 seconds; the text inside the picture is large for a phone.",
+    "note": "Seek the inline SVG to second 72 and play 12 seconds; each step is 12 seconds so the narration can be heard.",
     "src_phone": "board/team/cartographer.d/maps/wardley-explainer.history.phone.svg"
    },
    "facts": [
@@ -135,10 +135,10 @@
    "visual": {
     "kind": "svg",
     "src": "board/team/cartographer.d/maps/wardley-explainer.history.svg",
-    "at": 35,
-    "play": 5,
+    "at": 84,
+    "play": 12,
     "alt": "Animated map of an invented bakery; step 8 of 8",
-    "note": "Seek the inline SVG to second 35 and play 5 seconds; the text inside the picture is large for a phone.",
+    "note": "Seek the inline SVG to second 84 and play 12 seconds; each step is 12 seconds so the narration can be heard.",
     "src_phone": "board/team/cartographer.d/maps/wardley-explainer.history.phone.svg"
    },
    "facts": [
