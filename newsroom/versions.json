@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2078",
+    "date": "2026-11-22",
+    "what": "helm.d@AgentiCCells.dinis: the word is framework, one site per framework; purpose in full",
+    "by": "helm.d@AgentiCCells.dinis",
+    "from": "ccf3ad629"
+  },
+  {
     "version": "v0.1.2077",
     "date": "2026-11-22",
     "what": "landscape.d@AgentiCCells.dinis: debrief: no email-shaped name outside the allowed domains",
