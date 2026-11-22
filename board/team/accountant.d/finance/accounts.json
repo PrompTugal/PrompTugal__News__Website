@@ -1,0 +1,70 @@
+{
+ "about": "The register of Claude accounts, from Dinis's words in accountant.d's session on 22 Nov 2026. Everything here is his belief, to be double-checked by him (he said so); nothing is confirmed from a bill. Prices are per month, in his words, and are the fixed cost of the account, not a per-token price. Dinis's team members' seats are counted, not named, in this public repository.",
+ "source": "Dinis, in session, 22 Nov 2026 ~15:50 UTC",
+ "status_of_data": "unconfirmed: Dinis will double-check",
+ "accounts": [
+  {
+   "id": "A",
+   "plan": "Ultra (Max)",
+   "monthly_cost": "about 200 (GBP or USD, he said 'quid or $200')",
+   "state": "active",
+   "use": "the original PrompTugal team (until the 16 Nov move)",
+   "weekly_limit_readings": "none yet",
+   "confirmed": false
+  },
+  {
+   "id": "B",
+   "plan": "Ultra",
+   "monthly_cost": "about 200 (same)",
+   "state": "active",
+   "use": "PrompTugal conductors and .b sites; paused until Mon 23 Nov 00:25 UTC per maestro.d's record",
+   "note": "Dinis described it as running under the agent-risk-mandate setup; he said the Ultra is on a personal user. Not detailed here.",
+   "weekly_limit_readings": "96% seen on 21 Nov (maestro.b's analysis, a file report)",
+   "confirmed": false
+  },
+  {
+   "id": "C",
+   "plan": "Teams, premium seat",
+   "monthly_cost": "about 60 GBP",
+   "state": "active",
+   "use": "unknown to me: to be mapped",
+   "weekly_limit_readings": "none",
+   "confirmed": false
+  },
+  {
+   "id": "D",
+   "plan": "Teams, premium seat (he believes)",
+   "monthly_cost": "about 60 GBP (assumed same as C)",
+   "state": "active",
+   "use": "the .d circles: maestro.d, helm.d and the central circle, conductors .d, bulletins.d",
+   "weekly_limit_readings": "51% weekly at 2026-11-22T15:31Z (limits-ledger.json)",
+   "confirmed": false
+  },
+  {
+   "id": "E",
+   "plan": "personal account, not activated",
+   "monthly_cost": "none yet",
+   "state": "inactive",
+   "use": "reserved for the personal one",
+   "weekly_limit_readings": "n/a",
+   "confirmed": false
+  },
+  {
+   "id": "team-seats",
+   "plan": "standard user accounts for Web Summit team members (six, per Dinis)",
+   "monthly_cost": "unknown",
+   "state": "created; not active work yet",
+   "use": "to be given delegated tasks later; first the active accounts",
+   "note": "names are in Dinis's session, not here",
+   "confirmed": false
+  }
+ ],
+ "fixed_cost_per_month_if_all_as_stated": "A 200 + B 200 + C 60 + D 60 = about 520 (currencies as Dinis gave them: treat as GBP until he says otherwise); team seats and E excluded",
+ "first_use": "subscription share in the P&L (README section 3): each account's monthly cost spread over its entities by token share; and a cost per percent of weekly limit once two readings exist",
+ "open": [
+  "Confirm each plan and price from the billing pages",
+  "What each of A and C does today",
+  "Currency of the 200",
+  "Who holds which seat count on the Teams plans"
+ ]
+}

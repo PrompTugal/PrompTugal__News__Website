@@ -4,19 +4,21 @@
  "focus": "primitives, measurement and budget reports for account D, and the capacity ledger across accounts; measures and reports, stops nothing",
  "session": "https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK",
  "key": "accountant.d-agenticcells (board/keys.json; encryption sha256:419dc37c09e6aedf, signing sha256:5c66916b061ee4d6)",
- "updated": "2026-11-22T15:45Z",
+ "updated": "2026-11-22T16:00Z",
  "state": "first run: key enrolled, primitives catalogue v0.1 (34 primitives), first account D snapshot and report written. No scheduled wake (Dinis's rule). The status schema accepts only @PrompTugal.dinis in 'agent', so that is the field value; the name field carries the real identity.",
  "done": [
   "Read CLAUDE.md, guidance README, maestro.d's decisions-at-scale (sections 4, 8), the earlier accountant's ROLE.md, status and 16 Nov debrief, budgets.json, maestro.b's start-stop analysis",
   "Key accountant.d-agenticcells made in this session; entry in board/keys.json, signed commit",
   "primitives.json v0.1: 34 primitives in common, governance and domain groups, with gaps named",
   "snapshots/2026-11-22T1330Z.json: 18 account D sessions with usage, 385.84 API-equivalent lifetime; reports/2026-11-22-first-snapshot.md",
-  "15:45: finance/README.md (P&L design, units, venues), finance/limits-ledger.json (account D weekly 51% at 15:31Z, given by Dinis), tokens-by-model first cut"
+  "15:45: finance/README.md (P&L design, units, venues), finance/limits-ledger.json (account D weekly 51% at 15:31Z, given by Dinis), tokens-by-model first cut",
+  "16:00: finance/accounts.json (A to E and team seats, from Dinis's words, unconfirmed); README section 8"
  ],
  "next": [
   "Next reading of all account D sessions: baseline for per-day tokens by model",
   "Second weekly-limit reading from Dinis gives tokens per percent",
-  "finance/entities.json: sessions to agent, circle, account, product"
+  "finance/entities.json: sessions to agent, circle, account, product",
+  "Ask maestro.d to carry a weekly-limit and token reading for accounts A, B, C into the capacity ledger as reported"
  ],
  "asks": [
   "Dinis: https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK - may I read maestro.d's wake as my trigger, i.e. take one reading each time maestro.d asks me? I schedule nothing myself.",

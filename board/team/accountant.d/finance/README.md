@@ -60,3 +60,9 @@ Candidate venues for work that does not need the dearest model: Sonnet instead o
 - The price of each account's subscription per period, so a subscription share can be shown in money.
 - Which entity first: the Decision Desk, the email cell, or one circle.
 - Whether Dinis's own attention (decisions waited) should carry a cost line or stay a memo.
+
+## 8. The accounts (Dinis, 22 Nov, unconfirmed; `accounts.json`)
+
+Active: A (Ultra, about 200 a month), B (Ultra, about 200), C (Teams premium, about 60), D (Teams premium, about 60). E (personal) not activated. Six standard user accounts exist for Web Summit team members: tasks to be delegated to them later; first the active accounts. If all stated, the fixed subscription cost is about 520 a month for A to D. That figure is the denominator of the subscription share, and the base for "what does a percent of weekly limit cost". Each account gets: a monthly cost, a weekly-limit reading (by hand), tokens by model (get_session where I can reach it; account B as its files report, C as reported), the entities it hosts, and its headroom. Delegation then becomes a choice on data: send the job to the account with the most headroom per pound.
+
+What I can and cannot reach: get_session reaches account D only. A, B and C reach me only as reports from their maestros or conductors, marked "reported". I do not contact other accounts (twins rule); the maestros carry it.
