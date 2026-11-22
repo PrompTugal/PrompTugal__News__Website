@@ -4,7 +4,7 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-22T15:44Z",
+ "updated": "2026-11-22T15:57Z",
  "state": "woke 09:18 Lisbon; next 20:18; carrying the shared PrompTugal work while account B is in weekend mode (until Mon 23 Nov 00:25 UTC)",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
@@ -45,7 +45,7 @@
    "repo": "PrompTugal/PrompTugal__News__Data",
    "started": "2026-11-22T02:24Z",
    "schedule": "none",
-   "state": "push granted (Dinis 13:42 UTC); its key via the factory after a security review",
+   "state": "Wikipedia feed, football and strictly sources, connections, on branch data-d/pending (Dinis ~16:00 UTC); waits on its key via the factory",
    "cost_usd": 3.3
   }
  ],
