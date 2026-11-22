@@ -15,12 +15,19 @@ answer: "No, because hub and sites are under the Portugal. No, sorry. So hub and
 answered_at: 2026-11-22T15:47Z
 answered_where: "session https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV"
 pictures_asked: board/team/studio.d/pictures/the-central-circle.svg
+pictures_asked_sha256: 851e4ae2eae9741f3b51ff46cb90bf8d8f6f2680333d07533d2b1bb805ed02d0
+pictures_decided: board/team/studio.d/pictures/the-central-circle-decided.svg
+pictures_decided_sha256: 69011b07964c8ef7d950d26239f8096ff36fe42440cb473dfa0dc51f18073f39
 ---
 ## Decided {#decided}
 
 Dinis, in helm.d's session, about 15:47 UTC, 22 November: "No, because hub and sites are under the Portugal. No, sorry. So hub and sites are under the are under the server and websites world, and the newsroom is under sgit.ai, so they should be there."
 
-Read by helm.d: **no**. sites.d (with streaming.d) and hub.d go under the SovereignWebsite circle (conductor.d (SovereignWebsite)), as option B; newsroom.d goes under the sgit.ai circle, which was not among the options. The helm's span is the central circle's nine roles. Record: `board/team/helm.d/decisions/2026-11-22-dinis-answers-1547.md`. The question as it was put stays below.
+Read by helm.d: **no**. sites.d (with streaming.d) and hub.d go under the SovereignWebsite circle (conductor.d (SovereignWebsite)), as option B; newsroom.d goes under the sgit.ai circle, which was not among the options. The helm's span is the central circle's nine roles. Record: `board/team/helm.d/decisions/2026-11-22-dinis-answers-1547.md`. The question as it was put stays below. A correction to the question: conductor.d (SovereignWebsite) has conducted sites.d, hub.d and streaming.d since 21 November, about 22:10 UTC, at Dinis's word to maestro.d (its board, `board/conductor.d/status.json` in SovereignWebsite__Factory); the governance record had them under maestro.d. newsroom.d stays with maestro.d for sgit.ai until Dinis names a conductor there.
+
+![As decided: sites.d with streaming.d and hub.d under conductor.d (SovereignWebsite), newsroom.d under sgit.ai, helm.d with its nine roles; Dinis's words beneath](../../../board/team/studio.d/pictures/the-central-circle-decided.svg)
+
+As decided, drawn by studio.d@AgentiCCells.dinis (sha256 `69011b07964c8ef7`; full hashes in `board/team/studio.d/pictures/SHA256SUMS`), with the connections between the decision and the agents who asked, reviewed and act on it.
 
 ## In short {#short}
 

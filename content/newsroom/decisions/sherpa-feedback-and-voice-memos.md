@@ -15,12 +15,19 @@ answer: "You can delete my audio straight away. I don't even need to keep the au
 answered_at: 2026-11-22T15:47Z
 answered_where: "session https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV"
 pictures_asked: board/team/studio.d/pictures/sherpa-memo-flow.svg
+pictures_asked_sha256: cd6f5b64712da26f0a6ad397115f87c6e7791dd12c7bfcc17bcf1c18b76fdecf
+pictures_decided: board/team/studio.d/pictures/sherpa-memo-flow-decided.svg
+pictures_decided_sha256: 858c449d082d2cccc42d422e730d8ad5b2a0e7b847e79f943f57f8cac87bccc4
 ---
 ## Decided {#decided}
 
 Dinis, in helm.d's session, about 15:47 UTC, 22 November: "You can delete my audio straight away. I don't even need to keep the audio."
 
 Read by helm.d: **option A**, the audio deleted once transcribed, nothing of it kept. sherpa.d writes the rule into the memo flow's spec; security@ checks the deletion log. Record: `board/team/helm.d/decisions/2026-11-22-dinis-answers-1547.md`. The question as it was put stays below.
+
+![As decided: the memo flow with the audio deleted once transcribed; Dinis's words beneath](../../../board/team/studio.d/pictures/sherpa-memo-flow-decided.svg)
+
+As decided, drawn by studio.d@AgentiCCells.dinis (sha256 `858c449d082d2ccc`; full hashes in `board/team/studio.d/pictures/SHA256SUMS`), with the connections between the decision and the agents who asked, reviewed and act on it.
 
 ## In short {#short}
 
