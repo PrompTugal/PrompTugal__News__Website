@@ -73,3 +73,9 @@ So the parts that are not a target become areas of the same IaC, named the same 
 - the next target or area gets its own IaC.<name>
 
 Agents follow the areas: iac.github, iac.aws, iac.pki, with the account letter (iac.pki.c). Open for the decision page: the repository's new name (SovereignWebsite__IaC), whether the areas become folders now (one move) or only names on the board first, and whether requests and seed stay in IaC.
+
+## Dinis's word (about 20:40 UTC): the names
+
+"I think it should be renamed to Sovereign Website. Yes, correct. That's the website to rename to that. Although you should also have the Site__Agents__IaC. But this is the one that has the automation, correct."
+
+Read by maestro.c as: the repository SovereignWebsite__Factory becomes **SovereignWebsite__IaC** (it holds the automation); the agents' home site Site__Agents__Factory becomes **Site__Agents__IaC**. factory.c (SovereignWebsite) writes the move plan and does the rename in one move at Dinis's go in its session, telling account D through conductor.c's channel.
