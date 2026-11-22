@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2044",
+    "date": "2026-11-22",
+    "what": "landscape.d@AgentiCCells.dinis: status after helm.d's relay; gate still red on others' paths",
+    "by": "landscape.d@AgentiCCells.dinis",
+    "from": "4fccf3161"
+  },
+  {
     "version": "v0.1.2043",
     "date": "2026-11-22",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
