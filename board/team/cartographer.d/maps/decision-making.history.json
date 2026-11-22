@@ -1,0 +1,46 @@
+{
+ "format": "carto-map/1",
+ "id": "decision-making-history",
+ "kind": "wardley-history",
+ "status": "draft",
+ "title": "How decision-making moved, 6 to 22 November 2026",
+ "made": "2026-11-22T16:30Z",
+ "made_by": "cartographer.d@AgentiCCells.dinis",
+ "for": "strategy.d (what it means); studio.d (to tell as a story); Dinis (to see the play)",
+ "sources_read": {
+  "claude": "PrompTugal__News__Website CLAUDE.md, 'Decisions are pages' (Dinis's word, 6 Nov 2026) and 'When in doubt, push to production' (6 Nov), read 22 Nov 2026",
+  "guidance": "board/guidance/README.md, New from Dinis: signed commits (19 Nov 01:05) and twins do not talk across accounts (22 Nov 01:45), read 22 Nov 2026",
+  "holacracy": "board/team/holacracy.d/status.json: org chart first drawn about 22 Nov 03:58Z; and maestro.d's Holacracy analysis (22 Nov about 02:00 UTC), read 22 Nov 2026",
+  "strategy": "board/team/strategy.d/maps/2026-11-22-decision-making/map.json v0.1.0: the end positions, and the evidence for playable brief (about 09:05 UTC), context brief (13:25 UTC) and decisions.d, read 22 Nov 2026",
+  "cartographer": "cartographer.d's reading: where a component stood when it began. These are my judgement, not measurements, and strategy.d may correct them"
+ },
+ "rule": "A step is a dated event that moves or creates a component. Evolution: 0 genesis, 0.25 custom, 0.5 product, 0.75 commodity. A component with no step yet is not drawn.",
+ "components": {
+  "decision-page": { "label": "Decision page", "visibility": 0.85 },
+  "owner-default": { "label": "Owner's recommendation is the default", "visibility": 0.7 },
+  "agent-keys": { "label": "Agent keys and signed commits", "visibility": 0.25 },
+  "roles-record": { "label": "Roles and circles record", "visibility": 0.55 },
+  "playable-brief": { "label": "Playable decision brief", "visibility": 0.88 },
+  "context-brief": { "label": "Context brief", "visibility": 0.7 },
+  "decisions-agent": { "label": "decisions.d (the attorney)", "visibility": 0.52 }
+ },
+ "steps": [
+  { "date": "2026-11-06", "caption": "6 November: decisions become pages, with every option shown. The first form of the idea.",
+    "events": [ { "node": "decision-page", "evolution": 0.3 }, { "node": "owner-default", "evolution": 0.3 } ], "source": "claude" },
+  { "date": "2026-11-06T13:20Z", "caption": "Still 6 November: the owner's recommendation is the default; push it and try it live.",
+    "events": [ { "node": "owner-default", "evolution": 0.38 } ], "source": "claude" },
+  { "date": "2026-11-19T01:05Z", "caption": "19 November: signed commits for every agent. Identity becomes a working product.",
+    "events": [ { "node": "agent-keys", "evolution": 0.45 } ], "source": "guidance" },
+  { "date": "2026-11-22T03:58Z", "caption": "22 November, early: the first org chart, the record of who holds what, is drawn by an agent.",
+    "events": [ { "node": "roles-record", "evolution": 0.12 } ], "source": "holacracy" },
+  { "date": "2026-11-22T09:05Z", "caption": "22 November, morning: Dinis asks for decisions to be playable and answerable from one place. A prototype is asked for.",
+    "events": [ { "node": "playable-brief", "evolution": 0.1 }, { "node": "decisions-agent", "evolution": 0.05 } ], "source": "strategy" },
+  { "date": "2026-11-22T13:30Z", "caption": "22 November, afternoon: strategy draws the first map. The page and the keys are placed; the record starts to take shape; the context brief begins.",
+    "events": [ { "node": "decision-page", "evolution": 0.45 }, { "node": "owner-default", "evolution": 0.35 }, { "node": "agent-keys", "evolution": 0.55 }, { "node": "roles-record", "evolution": 0.3 }, { "node": "context-brief", "evolution": 0.12 } ], "source": "strategy" }
+ ],
+ "notes": [
+  "Dates and what happened come from the sources named on each step; positions are my reading.",
+  "Only the components with a dated source are shown. The full map is decision-making.wardley.json.",
+  "The next step to add is whatever moves next: each time a move is made, a step is appended here with its source."
+ ]
+}

@@ -13,3 +13,7 @@ Every map carries:
 - `notes[]`: what the reader must not over-read.
 
 The cartographer draws; strategy.d decides what a map means. A position is a reading of the sources, never a measurement. The library team's cartographer role (SGraph Send, `team/roles/cartographer/ROLE.md`) was not readable from this session, so nothing was reused from it yet; the format is kept simple enough to map onto it.
+
+## History maps (kind `wardley-history`), added 22 Nov 2026 at Dinis's word
+
+"Every move is a play": each time something moves (a source captured, a feature shipped, a decision taken) a step is appended: `{date, caption, events: [{node, evolution}], source}`. A component appears on its first step and slides on later ones. `tools/animate.mjs` draws a history file as an animated SVG (SMIL, no script) and a narration script; a storyboard for studio.d tells it as a video. History maps are appended, never rewritten: a correction is a new step with its own source.

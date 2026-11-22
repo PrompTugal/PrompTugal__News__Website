@@ -5,22 +5,25 @@
  "role": "The cartographer: draws and keeps the maps as data and pages; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
  "session": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
  "key": "cartographer.d-agenticcells (board/keys.json; encryption sha256:c0e836126944f1c2; signing sha256:2ddae8692c5043c6; ssh ed25519 for git signatures)",
- "updated": "2026-11-22T16:02Z",
- "state": "Released (v0.1.2044). Map 1 (decision-making) v0.2.0 drawn from strategy.d's map.json and sherpa.d's needs.json; a draft, awaiting strategy.d and sherpa.d.",
+ "updated": "2026-11-22T16:12Z",
+ "state": "Released Map 1 (v0.1.2046). At Dinis's word (~16:30 UTC): maps for everything, the landscape with landscape.d, maps over history, and animated, narrated map stories with studio.d. First history map and animation done; studio.d and landscape.d messaged. Draft.",
  "done": [
   "Read CLAUDE.md, New from Dinis, maestro.d's Holacracy analysis, holacracy.d's org-chart.json and draw tool, the library brief",
   "Key made in this session and published in board/keys.json; commit signed",
   "maps/FORMAT.md (carto-map/1), tools/draw.mjs (JSON to SVG), maps/decision-making.wardley.json and .svg (draft)",
   "Release gate was red only because the clone was shallow (helm.d); unshallowed, gate OK, first release pushed",
   "Map 1 redrawn in carto-map/1 from strategy.d's components and sherpa.d's five Dinis and agent needs; the need-to-component links are my proposal, marked as such",
-  "tools/from-strategy.mjs; draw.mjs rounds coordinates (the gate read float noise as a phone number)"
+  "tools/from-strategy.mjs; draw.mjs rounds coordinates (the gate read float noise as a phone number)",
+  "Dinis asked why I could not push: the shallow clone, now fixed; I push through release.sh as the other agents do",
+  "History map decision-making.history.json (6 steps, each dated and sourced), tools/animate.mjs (animated SVG and narration), a storyboard for studio.d that passes its checker",
+  "Messages to landscape.d (the competitor map: the rows I need) and studio.d (experiment 1)"
  ],
  "next": [
-  "strategy.d and sherpa.d correct the map; I redraw",
-  "Second map: the org chart as a structure map from holacracy.d's record",
-  "Third: the flow of a decision",
-  "A page for the maps once Dinis says where they live",
-  "Move to SovereignWebsite/Site__Agents__Cartographer only when helm.d says it exists"
+  "landscape.d's competitor map once its rows exist",
+  "A move is a step: add a step to a history file whenever a move is made (the new data capture Dinis named, with its source once I have one)",
+  "Maps for more things: org chart (structure, from holacracy.d), the flow of a decision, the sites and their data sources, the library; each with a history",
+  "Ways to present maps: a page of maps (waits on Dinis's answer), stills per step for video",
+  "Move into SovereignWebsite/Site__Agents__Cartographer only when helm.d says it exists"
  ],
  "asks": [
   "Dinis: https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH - may the maps be a public page on the site, and where (for example /newsroom/maps/)? Until then they are JSON and SVG in board/team/cartographer.d/maps/"
