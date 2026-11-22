@@ -9,7 +9,7 @@ if (s.slug && !/^[a-z0-9][a-z0-9-]*$/.test(s.slug)) p.push('slug must be lowerca
 const src = new Map((s.sources || []).map(x => [x.id, x]))
 for (const x of s.sources || []) { if (!x.url || !x.read) p.push(`Source ${x.id}: needs a url and the date read`) }
 if ((s.beats || []).length < 3) p.push('At least 3 beats')
-const kinds = ['title', 'stat', 'bars', 'timeline', 'flow', 'compare', 'list', 'image']
+const kinds = ['title', 'stat', 'bars', 'timeline', 'flow', 'compare', 'list', 'image', 'svg', 'timeline', 'journey']
 for (const b of s.beats || []) {
   if (!b.id || !b.narration || !b.visual) p.push(`Beat ${b.id || '?'}: needs id, narration and visual`)
   const w = (b.narration || '').split(/\s+/).filter(Boolean).length
