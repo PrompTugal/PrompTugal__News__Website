@@ -1,7 +1,7 @@
 {
   "format": "value-chain needs for cartographer.d (carto-map/1 anchor)",
   "by": "sherpa.d@AgentiCCells.dinis",
-  "updated": "2026-11-22T16:34Z",
+  "updated": "2026-11-22T16:42Z",
   "note": "hypothesis true means inferred from the record, not said by the user and not tested with a real user; serves_via is left empty for cartographer.d to propose with a source for each",
   "needs": [
     {
@@ -168,6 +168,86 @@
       "source": "Dinis, in sherpa.d's session, 22 Nov ~16:34 UTC (his account of the Web Summit stand); see needs/journey-the-stand.md",
       "serves_via": [],
       "first_customer": true
+    },
+    {
+      "id": "n-wm-explain-to-others",
+      "user": "dinis",
+      "user_name": "Dinis",
+      "need": "Send someone one page that makes them understand a Wardley map, so I stop struggling to explain.",
+      "hypothesis": false,
+      "source": "Dinis, as quoted in the brief: 'I still don't have a good website to find ... I struggle to explain'",
+      "serves_via": [],
+      "area": "wardley-maps"
+    },
+    {
+      "id": "n-wm-what-is-it",
+      "user": "customer",
+      "user_name": "a founder, CISO or investor who has heard the name Wardley map",
+      "need": "Know in a few minutes what it is and whether it is for me, in plain words, before any jargon.",
+      "hypothesis": true,
+      "source": "cartographer.d's brief board/team/cartographer.d/briefs/2026-11-22-wardley-maps-site.md, read 22 Nov 16:42 UTC; see needs/wardley-maps-site.md",
+      "serves_via": [],
+      "area": "wardley-maps"
+    },
+    {
+      "id": "n-wm-see-one-built",
+      "user": "customer",
+      "user_name": "the same reader",
+      "need": "Watch one real map being built, step by step, on something I know.",
+      "hypothesis": true,
+      "source": "cartographer.d's brief board/team/cartographer.d/briefs/2026-11-22-wardley-maps-site.md, read 22 Nov 16:42 UTC; see needs/wardley-maps-site.md",
+      "serves_via": [],
+      "area": "wardley-maps"
+    },
+    {
+      "id": "n-wm-try-my-own",
+      "user": "customer",
+      "user_name": "the same reader",
+      "need": "Make a map of my own situation quickly, with no install and no lesson, and keep it as a file.",
+      "hypothesis": true,
+      "source": "cartographer.d's brief board/team/cartographer.d/briefs/2026-11-22-wardley-maps-site.md, read 22 Nov 16:42 UTC; see needs/wardley-maps-site.md",
+      "serves_via": [],
+      "area": "wardley-maps"
+    },
+    {
+      "id": "n-wm-trust",
+      "user": "customer",
+      "user_name": "the same reader",
+      "need": "See what is sourced, what is a reading, and who made it, so I know what to believe.",
+      "hypothesis": true,
+      "source": "cartographer.d's brief board/team/cartographer.d/briefs/2026-11-22-wardley-maps-site.md, read 22 Nov 16:42 UTC; see needs/wardley-maps-site.md",
+      "serves_via": [],
+      "area": "wardley-maps"
+    },
+    {
+      "id": "n-wm-find-like-mine",
+      "user": "customer",
+      "user_name": "the same reader",
+      "need": "Find an example near my own sector, with its source and date.",
+      "hypothesis": true,
+      "source": "cartographer.d's brief board/team/cartographer.d/briefs/2026-11-22-wardley-maps-site.md, read 22 Nov 16:42 UTC; see needs/wardley-maps-site.md",
+      "serves_via": [],
+      "area": "wardley-maps"
+    },
+    {
+      "id": "n-wm-see-history",
+      "user": "dinis",
+      "user_name": "Dinis, and the reader",
+      "need": "See how a map changed over time.",
+      "hypothesis": false,
+      "source": "Dinis, as quoted in the brief: 'every move is a play'",
+      "serves_via": [],
+      "area": "wardley-maps"
+    },
+    {
+      "id": "n-wm-search-spellings",
+      "user": "customer",
+      "user_name": "someone who types a misspelling such as 'worldly maps'",
+      "need": "Land on the right page anyway.",
+      "hypothesis": false,
+      "source": "Dinis's own voice-typed spelling in the brief, read 22 Nov",
+      "serves_via": [],
+      "area": "wardley-maps"
     }
   ],
   "first_customer": {
