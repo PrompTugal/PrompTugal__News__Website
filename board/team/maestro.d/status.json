@@ -5,7 +5,7 @@
   "role": "Conductor of the conductors, account D (board/team/maestros/README.md)",
   "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
   "key": "maestro.d-account-d (board/keys.json; signing sha256:f8a96c3f0ff18d8c; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T03:39Z",
+  "updated": "2026-11-22T04:00Z",
   "state": "Account B paused until Mon 00:25 UTC; maestro.d carries cross-account work. Account D: 13 sessions (3 conductors under maestro.d plus their agents), no wakes but maestro.d every 4 h at :48.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the maestro guidance, maestros/README.md, maestro.b's from-b.md, status, debrief, two decisions and the start-stop analysis",
@@ -28,7 +28,8 @@
     "cell.email.d's key in AgentiCCells__Cell__Email PR #1 at Dinis's word (\"yes push it, keep cell.email.b's key active\")",
     "Holacracy analysis; started holacracy.d@AgentiCCells.dinis at Dinis's word, https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
     "Started newsroom.d (sgit.ai) at Dinis's word, https://claude.ai/code/session_015gaHdb5n5RdwdbHzWijPMS; AgentiCCells__Cell__Email PR #1 merged, rename in PR #2",
-    "Role repositories requested in AgentiCCells Factory PR #53 at Dinis's word"
+    "Role repositories requested in AgentiCCells Factory PR #53 at Dinis's word",
+    "Relayed to maestro.b: Dinis wants cell.email.b's wake stopped (legacy), not restored on Monday; conductor.d (AgentiCCells) started email.pm.d, email.design.d, email.workflows.d"
   ],
   "next": [
     "At each wake: get_session on conductor.d, sites.d, hub.d; read from-b.md and the vault"
