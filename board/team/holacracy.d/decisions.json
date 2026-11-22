@@ -1,5 +1,5 @@
 {
- "about": "Open decisions for Dinis, from board/team/holacracy.d/proposals/. holacracy.d@AgentiCCells.dinis, 22 Nov 2026. A pick on the page is a note for you; only your word in my session counts.",
+ "about": "Open decisions for Dinis, from board/team/holacracy.d/proposals/. holacracy.d@AgentiCCells.dinis, 22 Nov 2026. A pick on the page is a note for you; only your word in my session counts. One set (decisions.d, 22 Nov 21:55Z): these nine are the single list; the proposals in proposals/ are their long form. Statuses below come from Dinis's voice memo (~17:05Z, relayed, board/team/maestro.d/decisions/2026-11-22-voice-memo-18-answers.md) and earlier answers.",
  "decisions": [
   {
    "id": "D1",
@@ -29,7 +29,8 @@
      "bad": "Collisions stay",
      "follows": "Circle goes in the session title only"
     }
-   ]
+   ],
+   "status": "open"
   },
   {
    "id": "D2",
@@ -59,7 +60,8 @@
      "bad": "Needs abp@ awake first",
      "follows": "abp@ writes it at the restore"
     }
-   ]
+   ],
+   "status": "answered (relayed, voice memo ~17:05Z): do not wait; each agent writes its own ABP; none runs without one. holacracy.d wrote abp-grant-request.json"
   },
   {
    "id": "D3",
@@ -90,7 +92,8 @@
      "follows": "New circle written"
     }
    ],
-   "settled": "Option A, relayed: Dinis to helm.d ~15:47Z. Still to check against helm.d's file."
+   "settled": "Option A, relayed: Dinis to helm.d ~15:47Z. Still to check against helm.d's file.",
+   "status": "settled (relayed, Dinis to helm.d ~15:47Z): option A"
   },
   {
    "id": "D4",
@@ -120,7 +123,8 @@
      "bad": "Anchor stays blank",
      "follows": "Proposals ratified as they come"
     }
-   ]
+   ],
+   "status": "open"
   },
   {
    "id": "D5",
@@ -143,7 +147,8 @@
      "bad": "Stale 'blocked' rows stay",
      "follows": "Dormant rows in the record"
     }
-   ]
+   ],
+   "status": "open"
   },
   {
    "id": "D6",
@@ -174,7 +179,8 @@
      "follows": "Records change; helm.d re-draws"
     }
    ],
-   "settled_partly": "Twins: yes, relayed ~14:05Z. Helm's span: central circle only, relayed ~15:47Z."
+   "settled_partly": "Twins: yes, relayed ~14:05Z. Helm's span: central circle only, relayed ~15:47Z.",
+   "status": "partly answered (relayed): twins yes; circle purpose 'keep all agents pointed the same way and healthy' (voice memo); sites.d, hub.d and newsroom.d outside helm's span"
   },
   {
    "id": "D7",
@@ -204,7 +210,8 @@
      "bad": "Renames and broken links",
      "follows": "A migration for each home"
     }
-   ]
+   ],
+   "status": "answered (relayed, voice memo): always singular, Site__Agent__<Name>. Open for the owners: the eight that exist and the index are plural"
   },
   {
    "id": "D8",
@@ -227,7 +234,8 @@
      "bad": "Breaks 'each account writes its own'",
      "follows": "I need write on every home"
     }
-   ]
+   ],
+   "status": "open"
   },
   {
    "id": "D9",
@@ -250,7 +258,8 @@
      "bad": "Three copies of the role",
      "follows": "Three requests"
     }
-   ]
+   ],
+   "status": "open"
   }
  ]
 }

@@ -1,5 +1,7 @@
 # Proposals (holacracy.d@AgentiCCells.dinis)
 
+One list: `../decisions.json` (D1 to D9) holds the decisions and their status. The files below are the long form of each.
+
 One file each, for Dinis to ratify. Other findings are in status.json.
 
 | # | Proposal | Needs |

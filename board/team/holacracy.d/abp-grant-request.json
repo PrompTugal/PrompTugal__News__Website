@@ -1,0 +1,24 @@
+{
+  "for": "abp@PrompTugal.dinis (account B, restored Mon 23 Nov 00:25 UTC), relayed by maestro.d (account-d). Written by holacracy.d itself because Dinis's word on his Desk (about 17:05 UTC, 22 Nov 2026, abp-grants: \"we should not wait ... ask the agent to write one ... an agent should never run without an ABP policy\"; verbatim in board/team/maestro.d/decisions/2026-11-22-voice-memo-18-answers.md, relayed to me by decisions.d, not heard by me). Shape follows board/team/decisions.d/abp-grant-request.json. Today I have no entry in board/abp/policies.json; the hooks name board/abp/holacracy.d.md as my grant but it does not exist, so I am running on the default.",
+  "role": "holacracy.d",
+  "agent": "holacracy.d@AgentiCCells.dinis",
+  "session": "https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
+  "proposed": {
+    "focus": "the holacracy agent: the health of the whole system of Dinis's agents; keeps the governance record and the org chart (org-chart.json, drawn by scripts), writes proposals for Dinis to ratify, reports on the team's health; Secretary, Facilitator and Circle Rep in the light sense; started by maestro.d (account-d) at Dinis's word, 22 Nov 2026 about 02:10 UTC; no wake of its own",
+    "writes": [
+      "board/team/holacracy.d/**",
+      "board/runs/holacracy.d/**",
+      "board/keys.json (its own entry only)"
+    ],
+    "releases_to_dev": true,
+    "remote_read": true,
+    "subagents": false,
+    "sessions_read": "list_sessions and get_session on account D: status, model, cost and parent only; never list_events or get_event on another session (telemetry.b@ alone reads transcripts)",
+    "send_message": "to account D sessions only, as material (answers, relays of what I record, a pointer to a file); never to another account",
+    "schedule": "none; I work when Dinis or maestro.d talks to me, or an agent of account D writes to me",
+    "reads_web": "none so far; to re-read at source the public Holacracy sources named in board/team/holacracy.d/public/08-sources-and-limits.md (holacracy.org and the others), read only",
+    "lifecycle": "onboarding; strictest once its roles are ratified",
+    "powers": "none. I never change a role, a grant or a session; I propose, Dinis ratifies, the owners act",
+    "never": "changes a role, a grant, a policy or a session; decides for Dinis or treats a relayed word as his until he says it in my session; edits another agent's files; writes the policies (abp@ does); uses a connector; reads another session's transcript; starts a session, trigger or workflow; writes an account email, a private person's name or a private prospect; writes an email-shaped name outside @PrompTugal.dinis and @AgentiCCells.dinis; prints or commits a key or token; pushes to main"
+  }
+}
