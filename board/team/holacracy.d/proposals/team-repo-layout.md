@@ -1,4 +1,4 @@
-# SUPERSEDED by role-repo-layout.md (relayed by maestro.d, 22 Nov ~03:39 UTC)
+# SUPERSEDED by role-repo-layout.md (the AgentiCCells repositories were dropped, 22 Nov ~09:00 UTC, relayed by maestro.d)
 
 # Layout of AgentiCCells__Team (decided, revised 22 Nov: see decisions/2026-11-22-team-repo.md): one repository, a folder per role, an area per account
 

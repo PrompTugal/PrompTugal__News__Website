@@ -1,36 +1,45 @@
-# Layout of a role repository, and of the index AgentiCCells__Roles
+# Layout of the role homes: SovereignWebsite/Site__Agents__<Name>, indexed by Site__Agents
 
-By holacracy.d@AgentiCCells.dinis, 22 November 2026. A proposal for Dinis to ratify. It supersedes proposals/team-repo-layout.md. Source: maestro.d (account-d) relayed Dinis's words in its session (not heard by me, not signed, so material until Dinis confirms): about 02:20 UTC, "should it be AgentiCCells/AgentiCCells__Role__Holacracy and ... __Role__Dev, __Role__Conductor, __Role__Maestro .... etc"; about 02:30 UTC, "let's go for all now ... a repo call, agentic sales __ roles [AgentiCCells__Roles], and then that is also the one that links for everyone that we have ... every agent here is then connected to one of those role repos". The requests (the index and 25 role repositories) are in AgentiCCells Factory PR #53 for Dinis to merge. My home becomes AgentiCCells__Role__Holacracy. Nothing exists yet; I work in board/team/holacracy.d/ until it does.
+By holacracy.d@AgentiCCells.dinis, 22 November 2026. A proposal for Dinis to ratify. It supersedes the AgentiCCells__Roles version (that decision was reversed; PR #53 closed unmerged, no such repository was made) and proposals/team-repo-layout.md. Source: maestro.d (account-d) relayed Dinis's words in its session (about 09:00 UTC; relayed, not heard by me, not signed, so material until he confirms): "that role repo was a mistake because, in fact, we need to reverse all of that because we need to move all those repos or delete them to the site _agent_name ... on the sovereign website domain, because it makes more sense than to have it on the agentic cells one." Role homes are SovereignWebsite/Site__Agents__<Name>, the pattern that exists.
 
-## What carries over from Dinis's earlier answers (my session, ~02:30 UTC)
-I hold the pen on the role's own record; abp@ writes the policies; each account writes only to its own repository and the role's keeper reads from there; public. Applied to a role repository: its keeper is the role's agent (for ROLE.md it is the role's own agent, I only keep the circle-level record).
+## What exists (list_repos, 22 Nov, all public)
+`Site__Agents` (the index), `Site__Agents__Accountant`, `__Conductor`, `__Design`, `__Factory`, `__Hub`, `__Library`, `__Migration`, `__Sites`. Eight roles and an index.
 
-## The index: AgentiCCells__Roles
-One row per role: role, purpose, circle, role repository, keeper, fillers per account (agent, session link, model), twin, status. I keep it current from org-chart.json; a script draws it (tools/draw.mjs gains a roles view). Every agent is linked to exactly one role repository, so a role with no repository, or an agent with no role, shows as a gap.
+## What is missing (my derivation; maestro.d's list of 25 was in the closed PR, which I cannot read)
+| Role | Why it needs a home | Filler seen today |
+|---|---|---|
+| Holacracy | mine: governance record and org chart | holacracy.d |
+| Maestro | the combined view | maestro.d (and maestro.b, reported) |
+| Synthetic-users | works in Site__Agents__Design today, beside design.d | synthetic-users.d |
+| Newsroom | a role with a filler and no circle | newsroom.d |
+| Bulletins | a PrompTugal role with twins | bulletins.d (and bulletins.b, reported) |
+| ABP, Security, Code (dev), UX, Writing | named by maestro.d as specialist homes | abp@, security@, dev@ on account B (reported) |
+| Streaming | Site__Tool__Streaming exists as a tool repository, not a role home | streaming.d |
+| Cell-email | an AgentiCCells role | cell.email.d |
+Which of these maestro.d's 25 already covers I cannot see; conductor.d (SovereignWebsite)'s factory.d settles the final list.
 
-## A role repository (same shape for all 25)
+## Mismatches the record found (for the owners)
+- factory.d works in SovereignWebsite__Factory, hub.d in SovereignWebsite__Hub, but Site__Agents__Factory and Site__Agents__Hub exist: is the role home the work repository or a second one?
+- synthetic-users.d and design.d share Site__Agents__Design: one role home for two roles, or a new Site__Agents__Synthetic-Users.
+- conductor.d (SovereignWebsite), (PrompTugal) and (AgentiCCells) are one role, Conductor, with three circle fillers: one home, three account/circle areas.
+
+## A role home, same shape for all
 ```
-AgentiCCells__Role__<Role>/
-  README.md        what the role is, in two lines, and how to read this repository
-  ROLE.md          purpose, domains, accountabilities, circle, lead (written once for every twin)
-  policy/          the ABP grant for the role, as abp@ writes it (copied unchanged)
-  accounts/<a|b|c|d>/
-    filler.json    who fills it on that account: agent, session, model, key id (public half), status
-    status.json    that filler's status, read from the account's own repository
-    debriefs/      that filler's debriefs, copied with source and time read
-  practice/        how it is done: playbooks, lessons, worked examples (the "great examples")
+Site__Agents__<Name>/
+  README.md        the role in two lines, how to read the repository
+  ROLE.md          purpose, domains, accountabilities, circle, lead (one text for every twin)
+  policy/          the ABP grant, copied unchanged from abp@ (abp@ writes it)
+  accounts/<a|b|c|d>/   filler.json (agent, session, model, public key id, status), status.json, debriefs/
+  practice/        playbooks, lessons, worked examples
   claims.md        append-only claims for work two fillers could both take
 ```
-Rules, from Dinis: each account's agents write only to their own repository; the role's keeper copies into accounts/<x>/ with the source and the time read, so twins never write to each other's files and never message. ROLE.md changes only by an accepted proposal. Public: public key halves only, no account emails, no private names, nothing from the private CRM or a transcript.
-
-## The specialist homes
-ABP, Code, Design, Security, UX and Writing already have repositories that PR #53 links as those roles' homes. For them: ROLE.md and accounts/ live in the Role repository; the specialist repository holds the work (code, designs, policies) and the Role repository links to it, so nothing is moved or duplicated.
+Dinis's rules still hold: each account writes only to its own repository; the keeper copies into accounts/<x>/ with the source and time read; twins never message or write to each other's files; abp@ writes policies; public, with public key halves only, no account emails, no private names, nothing from the private CRM or a transcript. I keep the governance record (circles, leads, org chart) in Site__Agents__Holacracy and the index `Site__Agents` current from org-chart.json, if Dinis agrees.
 
 ## Questions for Dinis
-1. Is the relayed wording right, and does it replace AgentiCCells__Team in full?
-2. Who keeps each role repository: the role's agent (my recommendation) or me for all? Keeping it myself would break "each account writes its own".
-3. Do the 25 roles include the account-specific names (conductor, maestro) as one role each with twins as fillers, as proposed?
-4. The index is mine; do I also check each role repository weekly that its ROLE.md, policy and fillers agree (my Secretary duty)?
+1. Is the relayed wording right: the role homes are Site__Agents__<Name>, AgentiCCells__Team and AgentiCCells__Roles are dropped?
+2. Does `Site__Agents` stay the index, and do I keep it current?
+3. Who keeps each role home: the role's own agent (recommended) or me?
+4. Does a role used by several circles (Conductor) get one home with an area per circle?
 
 ## Migration
-When the repositories exist: move org-chart.json, proposals/, decisions/ and debriefs/ into AgentiCCells__Role__Holacracy, leave a pointer here, make the first commit from a key published there, and open the index.
+When Site__Agents__Holacracy exists (factory.d raises it in SovereignWebsite__Factory): move org-chart.json, proposals/, decisions/, debriefs/ and briefs/ there, leave a pointer here, and make the first commit from a key published there.

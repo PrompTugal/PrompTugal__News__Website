@@ -5,7 +5,7 @@
  "role": "Holacracy agent (Secretary, Facilitator and Circle Rep in the light sense); started by maestro.d at Dinis's word, 22 Nov 2026 about 02:10 UTC",
  "session": "https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
  "key": "holacracy.d-agenticcells (board/keys.json; signing sha256:791ffadd2c724eb7; encryption sha256:29dc3bbf1aaa07f7; ssh ed25519 for git signatures)",
- "updated": "2026-11-22T03:58Z",
+ "updated": "2026-11-22T11:40Z",
  "state": "First run done: key enrolled, org chart of account D drawn, five proposals written. No wake: I work when Dinis or maestro.d talks to me.",
  "done": [
   "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's Holacracy analysis, maestros README and view, ABP README",
@@ -16,7 +16,8 @@
   "Dinis answered the four layout questions (decisions/2026-11-22-team-repo.md): I hold the pen on ROLE.md; abp@ writes policies; each account writes only its own repository and I read from there; public",
   "Wrote briefs/2026-11-22-newsroom-holacracy-article.md (how I work, the Holacracy mapping, infographic data) and research/README.md at Dinis's word; asked maestro.d to relay to the newsroom (I cannot message other accounts)",
   "maestro.d relayed Dinis's later words: roles repositories (AgentiCCells__Roles index, a repository per role, mine AgentiCCells__Role__Holacracy; Factory PR #53); drafted proposals/role-repo-layout.md, superseding the team-repo layout; unconfirmed in my session",
-  "maestro.d relayed my newsroom brief to newsroom.d; maestro.d agreed I copy its analysis into the role repository with its by-line; added newsroom.d to org-chart.json (a circle for the newsroom is still to be written: tension for Dinis)"
+  "maestro.d relayed my newsroom brief to newsroom.d; maestro.d agreed I copy its analysis into the role repository with its by-line; added newsroom.d to org-chart.json (a circle for the newsroom is still to be written: tension for Dinis)",
+  "maestro.d relayed Dinis's word (~09:00 UTC): role homes are SovereignWebsite/Site__Agents__<Name>, AgentiCCells role repositories dropped (PR #53 closed unmerged); redid proposals/role-repo-layout.md with what exists (8 role repositories and the index) and what is missing; list sent to conductor.d (SovereignWebsite)"
  ],
  "next": [
   "On Dinis's word on the proposals, update the record",
@@ -34,7 +35,7 @@
   "Dinis: ratify or change the five proposals in board/team/holacracy.d/proposals/ (README there) - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
   "Dinis: where I live after this (own repository, shared twin area, or stay here) - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
   "Dinis: a grant for me and the other .d agents in board/abp/policies.json comes from abp@ on Monday, unless you say otherwise (proposal 02) - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
-  "Dinis: confirm in this session the role-repository decision relayed by maestro.d, merge Factory PR #53, and answer the four questions in proposals/role-repo-layout.md - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q"
+  "Dinis: confirm in this session that role homes are SovereignWebsite/Site__Agents__<Name> (relayed by maestro.d), and answer the four questions in proposals/role-repo-layout.md - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q"
  ],
  "latest_debrief": "board/team/holacracy.d/debriefs/2026-11-22-handover.md"
 }

@@ -10,4 +10,4 @@ One file each, for Dinis to ratify. Other findings are in status.json.
 | 04 | [Anchor purpose and a Circle Rep](04-anchor-purpose-and-circle-rep.md) | Dinis's wording |
 | 05 | [Old sessions on this account](05-old-sessions-on-this-account.md) | Dinis (optional) |
 | - | [Layout of AgentiCCells__Team](team-repo-layout.md) (Dinis agreed the repository, 22 Nov ~02:05 UTC, via maestro.d) | decided 22 Nov; one question left |
-| - | [Role repositories and the index AgentiCCells__Roles](role-repo-layout.md) (supersedes the line above; relayed by maestro.d, not yet confirmed in my session) | Dinis: four questions |
+| - | [Role homes: Site__Agents__<Name>](role-repo-layout.md) (supersedes the two lines above; relayed by maestro.d, not yet confirmed in my session) | Dinis: four questions |
