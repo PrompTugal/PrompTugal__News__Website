@@ -4533,6 +4533,29 @@
       },
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHaf0FzHoap8ruZJrEhn20aFoTMtkJJxvkfUIDKmFB5w",
       "ssh_added": "2026-11-22T13:26Z"
+    },
+    {
+      "id": "strategy.d-agenticcells",
+      "agent": "strategy.d@AgentiCCells.dinis",
+      "label": "strategy.d@AgentiCCells.dinis: the strategy agent of Dinis's central circle, account D (Claude Code session)",
+      "role": "The strategy agent: Wardley maps of each area and the whole estate, strategic concepts and actions with their owner circles, short context briefs for agents deciding in their area (board/team/strategy.d/). Advises; the conductors run the work. A session key: it ends with its session.",
+      "made": "2026-11-22",
+      "made_with": "sgit pki keygen (sgit-ai 0.27.0), in its own session; private half only in that session",
+      "added": "2026-11-22T13:26Z",
+      "encryption_fingerprint": "sha256:46b19c52bcd6e778",
+      "signing_fingerprint": "sha256:883e53e80cdee0b0",
+      "status": "active",
+      "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAuL8cB1DbnY+NIX4jHpMv\nDY5S/v4u4gIoegZW9MPgHzlFHZACKzu69V0DCUcRND9rQ70Kcx5njbqD8iHk0wPf\n86Y1sK/AzgcHDWBGmM4ozBpJH3aCwDiWndNMGLl3Z3YhM+UELRzioqytAiXRPZHg\nlnJTpZw6RAInAA7mhwsNulf1eJecz626LumbWqmUgbUGN0zFSxp0JtJVOmAIAAd/\nE9/jn5ocsOGfWnVtq8rocX/tHZBjFpszrnjouEIHcLkPHqLKepAo7rmH4Aw1qSHt\nTcrN01NoAwalis18ZdPHiS4ImcYwLF+ut8haO0XkQ3rtmy1vKiBUyi/HNPts0Po3\nG71DUJk1jyActfhNppy3SIIZBH5ZLfDJA++YlbKr6DkpMKDXUy/hCfnBCLKZVPl4\nerMmmxLAj2DuTk83hbgH1BOBtaCgi9oyTrKVHHUTJLt/TXi9X9hniYtQ9vPUgRVR\nzd6QPkBqCj2NJBn6b0dNsLZqaq5e7z/3QgMqwookxNv7jxThPDM4t3po8bFKHYKs\nHIgXiL2WBzk7pqGkTjMo7twwzuc9N7uaGOzIn6e4MqA7yZdIz7Uy0goVZduuJQm9\n9If1Xj7bmIg8PFULapfnw9xAz0qPXa7Y3vKlIr+v0J48WfVpE20vtUfwJtdwMmCV\nHAWAhCvVJoBLe0JtH38US5UCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEZSULAv4P0NZADVsZnRi83NDSz0A+\nkHlSrQdAS1tM5wiBBkOvRzQuf0hAd3mDlsQPEuMmM/5g1SD1GXssGPB/0Q==\n-----END PUBLIC KEY-----\n",
+        "label": "strategy.d@AgentiCCells.dinis",
+        "fingerprint": "sha256:46b19c52bcd6e778",
+        "signing_fingerprint": "sha256:883e53e80cdee0b0"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPlSrTJvCrWw3y9hdlmd1hKY/Fju/GTDQvJaEEH6qfCU",
+      "ssh_added": "2026-11-22T13:26Z"
     }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "agent": "strategy.d@AgentiCCells.dinis",
+  "name": "strategy.d (account-d)",
+  "role": "The strategy agent of Dinis's central circle: Wardley maps of each area and the whole estate, strategic concepts and actions with owner circles, short context briefs; advises, the conductors run the work",
+  "lead": "helm.d@AgentiCCells.dinis",
+  "started_by": "maestro.d (account-d), at Dinis's word, 22 Nov 2026 ~13:25 UTC",
+  "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
+  "key": "strategy.d-agenticcells (board/keys.json; signing sha256:883e53e80cdee0b0; ssh ed25519 for git signatures)",
+  "updated": "2026-11-22T13:28Z",
+  "state": "Onboarded; first map (decision-making, v0.1.0 draft) and first context brief written; waiting for cartographer.d and sherpa.d to review the map.",
+  "done": [
+    "Read CLAUDE.md, New from Dinis, maestro.d's analyses (decisions at scale, power of attorney, holacracy), holacracy.d's org chart and proposal 04, and newsroom.sgit.ai's lawyers-in-the-loop",
+    "Made key strategy.d-agenticcells in this session; public half and ssh signing key in board/keys.json",
+    "Map 1: decision-making (maps/2026-11-22-decision-making/README.md and map.json): 2 users, 20 components, 8 strategic actions with owner circles",
+    "Brief 1: deciding in your area (briefs/2026-11-22-deciding-in-your-area.md)"
+  ],
+  "next": [
+    "Map 2: the whole estate (Sovereign Website, AgentiCCells, PrompTugal, the SGit stack) and where they intersect",
+    "One map per area, each with its own strategy, after Map 2",
+    "Fold in cartographer.d's and sherpa.d's review of Map 1 when they run"
+  ],
+  "asks": [
+    "Dinis: my home repository SovereignWebsite/Site__Agents__Strategy (helm.d requests it); until then I work only in board/team/strategy.d/ - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
+    "Dinis: no ABP grant names strategy.d yet (board/abp/); abp@ runs on account B, paused to Mon 23 Nov 00:25 UTC - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
+    "Dinis: helm.d, cartographer.d and sherpa.d have no entry in board/keys.json yet; are they running, so the map can be reviewed? - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL"
+  ],
+  "latest_debrief": "board/team/strategy.d/debriefs/2026-11-22-handover.md"
+}

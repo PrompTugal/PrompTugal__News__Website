@@ -1,0 +1,58 @@
+{
+  "$comment": "Wardley map as data, by strategy.d@AgentiCCells.dinis, 22 Nov 2026. A first draft for cartographer.d to draw and keep, and for sherpa.d to check the user needs. visibility: 1 = seen by the user, 0 = deep infrastructure. evolution: 0-0.25 genesis, 0.25-0.5 custom, 0.5-0.75 product, 0.75-1 commodity. Positions are judgement, not measurement; each carries the record it rests on.",
+  "title": "Decision-making across Dinis's estate",
+  "version": "0.1.0",
+  "drawn": "2026-11-22T13:30Z",
+  "status": "draft: not yet reviewed by cartographer.d or sherpa.d",
+  "users": [
+    {"id": "dinis", "label": "Dinis (the principal)", "need": "give his word on what matters, fast, from one place, without giving his authority away"},
+    {"id": "agent", "label": "An agent deciding in its own area", "need": "know what it may decide alone, with the context to decide well, and get a yes quickly when it may not"}
+  ],
+  "components": [
+    {"id": "good-decisions", "label": "Good decisions, made at the right level", "visibility": 0.97, "evolution": 0.30, "evidence": "maestro.d decisions-at-scale, Dinis's words 22 Nov ~09:00 UTC"},
+    {"id": "decision-page", "label": "Decision page (options, recommendation, what follows)", "visibility": 0.85, "evolution": 0.45, "evidence": "CLAUDE.md 'Decisions are pages'; /newsroom/decisions/"},
+    {"id": "playable-brief", "label": "Playable decision brief (presenter, answer box, sign and send)", "visibility": 0.88, "evolution": 0.10, "evidence": "decisions-at-scale section 2; bulletins.d asked to prototype ~09:05 UTC"},
+    {"id": "context-brief", "label": "Context brief (the map's slice for one area)", "visibility": 0.70, "evolution": 0.12, "evidence": "this role's brief from maestro.d, 22 Nov ~13:25 UTC"},
+    {"id": "default-yes", "label": "Default-yes window (safe enough to try)", "visibility": 0.62, "evolution": 0.20, "evidence": "decisions-at-scale section 3; Holacracy integrative decision making"},
+    {"id": "reserved-list", "label": "Dinis's reserved list (money, law, brand, people, keys, RiskMandate)", "visibility": 0.66, "evolution": 0.40, "evidence": "CLAUDE.md 'Decisions are pages' (For Dinis)"},
+    {"id": "roles-record", "label": "Roles and circles record (who owns what)", "visibility": 0.55, "evolution": 0.30, "evidence": "holacracy.d org-chart.json and proposals"},
+    {"id": "decisions-agent", "label": "decisions.d (the attorney)", "visibility": 0.52, "evolution": 0.05, "evidence": "decisions-at-scale section 7; lawyers-in-the-loop (newsroom.sgit.ai, read 22 Nov)"},
+    {"id": "delegation", "label": "Limited, expiring delegation (power of attorney)", "visibility": 0.45, "evolution": 0.08, "evidence": "power-of-attorney analysis"},
+    {"id": "abp-powers", "label": "ABP powers section (what each receiver accepts)", "visibility": 0.40, "evolution": 0.15, "evidence": "power-of-attorney analysis; ABP v1.19.2 R1"},
+    {"id": "counsel", "label": "counsel.d (drafts, simulates, multi-model checks)", "visibility": 0.42, "evolution": 0.05, "evidence": "power-of-attorney analysis"},
+    {"id": "human-signer", "label": "Named lawyer or firm who signs and certifies", "visibility": 0.48, "evolution": 0.85, "evidence": "lawyers-in-the-loop: professional review is an established, paid service"},
+    {"id": "decision-log", "label": "Public decision log and register (hashes, revocations)", "visibility": 0.35, "evolution": 0.25, "evidence": "maestro.d decisions/, holacracy.d decisions/, power-of-attorney 'register'"},
+    {"id": "chain-check", "label": "Receiver's chain check (signature, expiry, revocation, scope)", "visibility": 0.30, "evolution": 0.20, "evidence": "decisions-at-scale section 7"},
+    {"id": "inbox-lanes", "label": "Append-only inbox lanes", "visibility": 0.22, "evolution": 0.45, "evidence": "CLAUDE.md 'Identity'; board/inboxes/"},
+    {"id": "agent-keys", "label": "Agent session keys and board/keys.json", "visibility": 0.18, "evolution": 0.55, "evidence": "board/keys.json; signing-setup.sh"},
+    {"id": "pki-site", "label": "pki.sgit.ai (Dinis signs here)", "visibility": 0.15, "evolution": 0.40, "evidence": "Dinis ~12:00 UTC, decisions-at-scale section 7"},
+    {"id": "device-key", "label": "Dinis's device key (non-extractable / passkey)", "visibility": 0.12, "evolution": 0.30, "evidence": "decisions-at-scale section 1: the key in person-keys.json was agent-issued"},
+    {"id": "git-signing", "label": "Signed commits and CI signature check", "visibility": 0.10, "evolution": 0.70, "evidence": "guidance 2026-11-19 signed commits"},
+    {"id": "crypto", "label": "Public-key cryptography (WebCrypto, ed25519, P-256)", "visibility": 0.03, "evolution": 0.95, "evidence": "commodity"}
+  ],
+  "links": [
+    ["dinis", "good-decisions"], ["agent", "good-decisions"],
+    ["good-decisions", "decision-page"], ["good-decisions", "context-brief"], ["good-decisions", "reserved-list"], ["good-decisions", "default-yes"],
+    ["dinis", "playable-brief"], ["playable-brief", "decision-page"], ["playable-brief", "device-key"],
+    ["agent", "context-brief"], ["context-brief", "roles-record"],
+    ["default-yes", "roles-record"], ["default-yes", "decision-log"],
+    ["decision-page", "decision-log"],
+    ["playable-brief", "decisions-agent"], ["default-yes", "decisions-agent"],
+    ["decisions-agent", "delegation"], ["decisions-agent", "agent-keys"], ["decisions-agent", "inbox-lanes"],
+    ["delegation", "pki-site"], ["delegation", "abp-powers"], ["delegation", "counsel"], ["counsel", "human-signer"],
+    ["agent", "chain-check"], ["chain-check", "abp-powers"], ["chain-check", "delegation"], ["chain-check", "decision-log"], ["chain-check", "agent-keys"],
+    ["pki-site", "device-key"], ["device-key", "crypto"], ["agent-keys", "crypto"], ["git-signing", "agent-keys"], ["decision-log", "git-signing"]
+  ],
+  "movements": [
+    {"id": "decision-page", "to_evolution": 0.60, "why": "one template across PrompTugal, AgentiCCells, SovereignWebsite"},
+    {"id": "playable-brief", "to_evolution": 0.35, "why": "from prototype to the default way Dinis answers"},
+    {"id": "device-key", "to_evolution": 0.55, "why": "WebCrypto and passkeys are products; use them, do not build"},
+    {"id": "delegation", "to_evolution": 0.30, "why": "a written format, reused by every circle and sellable as part of a cell"}
+  ],
+  "inertia": [
+    {"id": "reserved-list", "note": "R1 (only Dinis instructs, in-session) is the control that works; any change goes through security@, abp@ and Dinis"}
+  ],
+  "pipelines": [
+    {"id": "decision-flow", "label": "context -> options -> recommendation -> objection window -> answer -> signed request -> chain check -> act -> log", "components": ["context-brief", "decision-page", "default-yes", "playable-brief", "decisions-agent", "chain-check", "decision-log"]}
+  ]
+}
