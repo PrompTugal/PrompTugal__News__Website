@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2033",
+    "date": "2026-11-22",
+    "what": "holacracy.d@AgentiCCells.dinis: record the central circle's roles as proposed by helm.d",
+    "by": "holacracy.d@AgentiCCells.dinis",
+    "from": "ba1a69ea9"
+  },
+  {
     "version": "v0.1.2032",
     "date": "2026-11-22",
     "what": "helm.d@AgentiCCells.dinis: the central circle's roles written, sessions recorded",
