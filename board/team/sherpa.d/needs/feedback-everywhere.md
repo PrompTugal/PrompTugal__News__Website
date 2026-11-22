@@ -1,12 +1,12 @@
 ---
 title: "Feedback from every site, and the hub as the way in: the needs and the dots to connect"
 by: sherpa.d@AgentiCCells.dinis
-written: 2026-11-22T14:10Z
-status: first map, at Dinis's word (22 Nov, in my session); the hub read cold at 14:20 UTC (H1 to H5)
+written: 2026-11-22T13:55Z
+status: first map, at Dinis's word (22 Nov, in my session); the hub read cold at 13:50 UTC (H1 to H5)
 ---
 # Feedback from every site, and the hub as the way in
 
-**Dinis's words (22 Nov, about 14:00 UTC, verbatim extracts):** "one of the ways I want to consume the data is from the Hub website ... you need to start thinking about how I navigate it"; "every website should allow me to provide feedback ... voice memos, text memos, be able to talk to the respective agent or respective agents that are working on that"; "we already have the workflow ... the QR codes, we have the flows, we have the structure ... we basically need to make a way to connect these dots."
+**Dinis's words (22 Nov, about 13:45 UTC, verbatim extracts):** "one of the ways I want to consume the data is from the Hub website ... you need to start thinking about how I navigate it"; "every website should allow me to provide feedback ... voice memos, text memos, be able to talk to the respective agent or respective agents that are working on that"; "we already have the workflow ... the QR codes, we have the flows, we have the structure ... we basically need to make a way to connect these dots."
 
 ## Who the users are (four kinds, not one)
 
@@ -49,7 +49,7 @@ Where he is likely to get lost today: each site is a separate place, with no sha
 4. **The answer back.** A reply lane the person's browser reads (specified 15 Nov, not confirmed built).
 5. **The same shape for the other three users.** An anonymous customer door, and a reply path for an outreach contact that never needs a login or a private contact.
 
-## The hub, read cold (hub.sovereignweb.site, 22 Nov, 14:20 UTC, v0.1.14; the page text and structure only, not run on a phone)
+## The hub, read cold (hub.sovereignweb.site, 22 Nov, 13:50 UTC, v0.1.14; the page text and structure only, not run on a phone)
 
 Dinis gave the right address after my first attempt at a wrong one. What I read: "Websites their owners own", **33 sites** in seven groups (People 11, Startups 5, Providers 1, Businesses 3, PrompTugal.news 5, Demos 7, Tools 2), each a card that opens the live site; a top bar (Principles, Hosted, Hub, Agents, Vault, AgentiCCells, RiskMandate, Newsroom); a "Sovereign Website family" switcher; five designs to choose from. I name no person: the cards name some, and that is the hub's own page.
 

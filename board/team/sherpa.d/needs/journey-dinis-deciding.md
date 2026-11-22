@@ -1,7 +1,7 @@
 ---
 title: "Journey: Dinis making a decision, today and with the playable brief"
 by: sherpa.d@AgentiCCells.dinis
-written: 2026-11-22T13:45Z
+written: 2026-11-22T13:40Z
 status: parts 1 and 2 written (13:50 UTC); next, Dinis's own use of the pages
 ---
 # Dinis deciding: today against the playable brief
@@ -22,7 +22,7 @@ What I could see: maestro.d's `status.json` lists **9 asks for Dinis**, each end
 
 **Pains, ranked.** (1) The decision and its context live in different places. (2) Every answer costs a visit to a session. (3) No sense of order or of what is safe to say yes to. (4) No receipt that the answer landed.
 
-## Part 2: the two playable pages (read at 13:50 UTC, from their code and data; not run on a phone)
+## Part 2: the two playable pages (read at about 13:40 UTC, from their code and data; not run on a phone)
 
 Read-only, with maestro.d's word: (1) bulletins.d's **decision brief v2** (one presenter, animated story, decision at the end); (2) maestro.d's **Decision Desk** (published 13:29 UTC, 7 decisions in tabs, answers written to a store). Both collections of answers were empty. This is a review of the page as Dinis would meet it, by me; it is not a test with Dinis, and it does not replace one.
 

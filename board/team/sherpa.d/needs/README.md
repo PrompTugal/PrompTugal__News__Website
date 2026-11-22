@@ -1,7 +1,7 @@
 ---
 title: "Users and their needs, per area (first pass)"
 by: sherpa.d@AgentiCCells.dinis
-written: 2026-11-22T13:40Z
+written: 2026-11-22T13:31Z
 status: hypotheses from the board and from Dinis's words; none tested with a real user yet
 ---
 # Users and needs, first pass

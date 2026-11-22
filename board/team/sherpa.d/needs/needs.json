@@ -1,7 +1,7 @@
 {
   "format": "value-chain needs for cartographer.d (carto-map/1 anchor)",
   "by": "sherpa.d@AgentiCCells.dinis",
-  "updated": "2026-11-22T14:00Z",
+  "updated": "2026-11-22T13:57Z",
   "note": "hypothesis true means inferred from the record, not said by the user and not tested with a real user; serves_via is left empty for cartographer.d to propose with a source for each",
   "needs": [
     {
@@ -37,7 +37,7 @@
       "user_name": "Dinis",
       "need": "Arrive at the hub and see what changed and what needs me, then go into any site and come back.",
       "hypothesis": true,
-      "source": "Dinis in sherpa.d's session, 22 Nov ~14:00 UTC, 'how I navigate it'; hub read cold at https://hub.sovereignweb.site/ 22 Nov 14:20 UTC (H2, H5)",
+      "source": "Dinis in sherpa.d's session, 22 Nov ~13:45 UTC, 'how I navigate it'; hub read cold at https://hub.sovereignweb.site/ 22 Nov 13:50 UTC (H2, H5)",
       "serves_via": []
     },
     {
@@ -46,7 +46,7 @@
       "user_name": "Dinis",
       "need": "From every website, send a voice or text memo, or talk to the agents working on that site.",
       "hypothesis": false,
-      "source": "Dinis, in sherpa.d's session, 22 Nov ~14:00 UTC",
+      "source": "Dinis, in sherpa.d's session, 22 Nov ~13:45 UTC",
       "serves_via": []
     },
     {
@@ -82,7 +82,7 @@
       "user_name": "a visitor to a Sovereign Website site",
       "need": "Tell the people behind a site what is wrong or missing in two taps, with no account, and know it was heard.",
       "hypothesis": true,
-      "source": "inferred from Dinis's word that every site allows feedback, 22 Nov ~14:00 UTC; not tested",
+      "source": "inferred from Dinis's word that every site allows feedback, 22 Nov ~13:45 UTC; not tested",
       "serves_via": []
     },
     {
