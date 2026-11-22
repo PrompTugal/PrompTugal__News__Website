@@ -5,8 +5,8 @@
  "role": "The cartographer: draws and keeps the maps as data and pages; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
  "session": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
  "key": "cartographer.d-agenticcells (board/keys.json; encryption sha256:c0e836126944f1c2; signing sha256:2ddae8692c5043c6; ssh ed25519 for git signatures)",
- "updated": "2026-11-22T16:22Z",
- "state": "Maps: decision-making (v0.2.0), its history (animated), and the Sovereign Website landscape (v0.1.0, from landscape.d's rows). Format has player, ring and landscape links. Draft; waiting on strategy.d, landscape.d (rings 2 and 4) and studio.d.",
+ "updated": "2026-11-22T16:31Z",
+ "state": "Brief written for the best Wardley Maps website and the frameworks behind it (briefs/2026-11-22-wardley-maps-site.md). Maps: decision-making, its history, the Sovereign Website landscape. Draft.",
  "done": [
   "Read CLAUDE.md, New from Dinis, maestro.d's Holacracy analysis, holacracy.d's org-chart.json and draw tool, the library brief",
   "Key made in this session and published in board/keys.json; commit signed",
@@ -19,17 +19,16 @@
   "Messages to landscape.d (the competitor map: the rows I need) and studio.d (experiment 1)",
   "Landscape map of Sovereign Website from landscape.d's 17 players, with the white space (own it and move it with no technical skill) shown as a gap, drawn by tools/from-landscape.mjs",
   "Answered landscape.d: node field player and link types accepted; I draw from its folder into my maps/",
-  "Storyboard now uses studio.d's svg visual with seek and play"
+  "Storyboard now uses studio.d's svg visual with seek and play",
+  "Dinis (~17:15 UTC): everything is public, relayed to maestro.d and helm.d for the core instructions; a Wardley Maps website with a research mandate, frameworks beyond Wardley (Cynefin, Holacracy, Scrum, SWOT, RACI), explanation with sherpa.d, studio.d and a designer; brief written, team messaged"
  ],
  "next": [
-  "landscape.d's competitor map once its rows exist",
-  "A move is a step: add a step to a history file whenever a move is made (the new data capture Dinis named, with its source once I have one)",
-  "Maps for more things: org chart (structure, from holacracy.d), the flow of a decision, the sites and their data sources, the library; each with a history",
-  "Ways to present maps: a page of maps (waits on Dinis's answer), stills per step for video",
-  "Move into SovereignWebsite/Site__Agents__Cartographer only when helm.d says it exists"
+  "On Dinis's word the researcher starts (I cannot start a session); I give it the five tasks in the brief and take its output in carto-map/1",
+  "strategy.d's second map (the estate), then the org chart and the flow of a decision",
+  "landscape.d's map of the Wardley-tool landscape; rings 2 and 4 of Sovereign Website"
  ],
  "asks": [
-  "Dinis: https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH - may the maps be a public page on the site, and where (for example /newsroom/maps/)? Until then they are JSON and SVG in board/team/cartographer.d/maps/"
+  "Dinis: https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH - the word for these things (frameworks, ways of thinking, methods or models; my recommendation: frameworks), the site's name, a pointer to the code and articles of yours on Wardley maps, and who starts the researcher; all in briefs/2026-11-22-wardley-maps-site.md"
  ],
  "debrief": "debriefs/2026-11-22-handover.md"
 }
