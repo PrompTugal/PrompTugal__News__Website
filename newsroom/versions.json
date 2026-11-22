@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2076",
+    "date": "2026-11-22",
+    "what": "decisions.d@AgentiCCells.dinis: end-of-day sweep against Dinis's 18 Desk answers; my own ABP grant written; session map 21:43",
+    "by": "decisions.d@AgentiCCells.dinis",
+    "from": "d5ff9136e"
+  },
+  {
     "version": "v0.1.2075",
     "date": "2026-11-22",
     "what": "router.c (AgentiCCells): set up on account C: key, ledger tools, account C headroom, vault plan",
