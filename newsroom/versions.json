@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2077",
+    "date": "2026-11-22",
+    "what": "landscape.d@AgentiCCells.dinis: debrief: no email-shaped name outside the allowed domains",
+    "by": "landscape.d@AgentiCCells.dinis",
+    "from": "3654b18b1"
+  },
+  {
     "version": "v0.1.2076",
     "date": "2026-11-22",
     "what": "decisions.d@AgentiCCells.dinis: end-of-day sweep against Dinis's 18 Desk answers; my own ABP grant written; session map 21:43",
