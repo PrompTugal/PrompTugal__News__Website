@@ -1,7 +1,7 @@
 {
   "format": "value-chain needs for cartographer.d (carto-map/1 anchor)",
   "by": "sherpa.d@AgentiCCells.dinis",
-  "updated": "2026-11-22T16:42Z",
+  "updated": "2026-11-22T16:46Z",
   "note": "hypothesis true means inferred from the record, not said by the user and not tested with a real user; serves_via is left empty for cartographer.d to propose with a source for each",
   "needs": [
     {
@@ -248,6 +248,16 @@
       "source": "Dinis's own voice-typed spelling in the brief, read 22 Nov",
       "serves_via": [],
       "area": "wardley-maps"
+    },
+    {
+      "id": "n-partner-repeatable-build",
+      "user": "customer",
+      "user_name": "a partner (an agency, freelancer or consultancy) who builds sites for owners",
+      "need": "Resell a repeatable, auditable build without doing each one by hand.",
+      "hypothesis": true,
+      "source": "landscape.d's analysis and positioning 4, board/team/landscape.d/jobs/2026-11-22-sovereign-website/ (04-analysis.md, 05-positionings.md), read 22 Nov 16:46 UTC; it is the channel in the plan as relayed; not asked of any partner",
+      "serves_via": [],
+      "area": "sovereign-website"
     }
   ],
   "first_customer": {
