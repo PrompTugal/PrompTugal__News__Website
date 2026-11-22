@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2086",
+    "date": "2026-11-22",
+    "what": "maestro.a (account-a): run report names the session as maestro.a (account-a), not in an email shape (the gate's rule)",
+    "by": "maestro.a (account-a)",
+    "from": "64a7d47d4"
+  },
+  {
     "version": "v0.1.2085",
     "date": "2026-11-22",
     "what": "cartographer.d@AgentiCCells.dinis: portrait version of the Wardley explainer for phones (src_phone)",
