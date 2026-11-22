@@ -5,7 +5,7 @@
   "role": "Conductor of the conductors, account D (board/team/maestros/README.md)",
   "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
   "key": "maestro.d-account-d (board/keys.json; signing sha256:f8a96c3f0ff18d8c; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T08:49Z",
+  "updated": "2026-11-22T11:27Z",
   "state": "08:48 wake 22 Nov: account B paused until Mon 00:25 UTC; account D 22 sessions, quiet, most waiting on Dinis.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the maestro guidance, maestros/README.md, maestro.b's from-b.md, status, debrief, two decisions and the start-stop analysis",
@@ -31,13 +31,16 @@
     "Role repositories requested in AgentiCCells Factory PR #53 at Dinis's word",
     "Relayed to maestro.b: Dinis wants cell.email.b's wake stopped (legacy), not restored on Monday; conductor.d (AgentiCCells) started email.pm.d, email.design.d, email.workflows.d",
     "04:48 wake: list_sessions on account D; view.md rewritten",
-    "08:48 wake: list_sessions on account D; no change to the plan"
+    "08:48 wake: list_sessions on account D; no change to the plan",
+    "Closed AgentiCCells Factory PR #53 at Dinis's word (role homes move to SovereignWebsite Site__Agents__<Name>); told holacracy.d and conductor.d (SovereignWebsite)",
+    "Asked bulletins.d (via conductor.d@PrompTugal.dinis) to prototype a playable decision brief page for the iPhone, at Dinis's word",
+    "Proposal: decisions at scale (signed answers, playable briefs, default-yes windows, cross-account maestro, landscape cell)"
   ],
   "next": [
     "At each wake: get_session on conductor.d, sites.d, hub.d; read from-b.md and the vault"
   ],
   "asks": [
-    "Dinis: merge the role repositories' requests (AgentiCCells__Roles and 25 AgentiCCells__Role__<Name>): https://github.com/AgentiCCells/AgentiCCells__Site__Factory/pull/53 - https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
+    "Dinis: decisions at scale (board/team/maestro.d/analysis/2026-11-22-decisions-at-scale/README.md): yes to drafting the signed-instruction spec with security@ and abp@; yes to instrumenting capacity across accounts; the landscape cell's name and who starts it - https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
     "Dinis: GitHub App access: PrompTugal__News__Data (data.d, factory.d's 7c755a8) and PrompTugal__News__Bulletins (bulletins.d push 403) - https://claude.ai/code/session_015gaHdbX954ByXJf8LH5FLL",
     "Dinis: conductor.d (PrompTugal): who raises the presenters 0.1.1 review with conductor.b@, and bulletins.d's key on account B - https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
     "Dinis: conductor.d (AgentiCCells): start email.twins.d, email.contacts.d, email.crm.d? email.dev.d asks 'push to dev', approver keys, a leak-scan exception, an inbox concept - https://claude.ai/code/session_015gaHdcaj9Ta2Tke7pnZ3Q9",
