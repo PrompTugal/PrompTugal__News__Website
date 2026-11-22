@@ -5,7 +5,7 @@
   "session": "https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
   "started_by": "maestro.d (account-d) at Dinis's word, 22 Nov 2026 about 13:25 UTC",
   "key": "landscape.d-agenticcells (board/keys.json; encryption sha256:2d8a2b2a3705eaa0, signing sha256:4716c8dee72a2dc2)",
-  "updated": "2026-11-22T16:11Z",
+  "updated": "2026-11-22T16:17Z",
   "state": "Dinis widened the job (16:10): three landscapes (Sovereign Website, RiskMandate, agentic sales), tracked, published on our site, built with strategy.d and cartographer.d; first landscape.json (sovereign-website, rings 1 and 3) made; the other two scoped; asked both agents about format and maps",
   "done": [
     "Read CLAUDE.md, the New from Dinis list, maestro.d's status and the sovereign website decision (maestro.b, 19 Nov)",
@@ -16,9 +16,11 @@
     "Scouts ran for ring 1 (6 vendors) and ring 3 (7 engines plus 4 open-source AI builders): jobs/2026-11-22-sovereign-website/02-scout-facts.json",
     "Dinis's brief 22 Nov ~16:10: three landscapes with Wardley as the lens; read cartographer.d's carto-map/1 FORMAT.md and strategy.d's map folders",
     "Sent strategy.d and cartographer.d the proposed split and a format question (a player field and an offered-by link)",
-    "landscapes/README.md, sovereign-website/landscape.json (17 players, 77 facts, 5 findings), riskmandate/scope.md, agentic-sales/scope.md"
+    "landscapes/README.md, sovereign-website/landscape.json (17 players, 77 facts, 5 findings), riskmandate/scope.md, agentic-sales/scope.md",
+    "strategy.d agreed the split (cite Map 2 ids: owned-site, factory, cell, keys, abp, provenance); cartographer.d asked for rows: made landscapes/sovereign-website/rows.json (17 rows, 4 proposed small-business needs)"
   ],
   "next": [
+    "Rings 2 and 4 of sovereign-website next run; landscapes for platform sites (Odoo, OpenRouter) and partners/website maintainers when strategy.d says",
     "Wait for strategy.d and cartographer.d on format and map hooks; convert landscape/1 to carto-map/1 as agreed",
     "Scout rings 2 and 4 for sovereign-website; re-read the 3 flagged rows",
     "Scout riskmandate (after reading riskmandate.ai and the team's pages) and agentic-sales (after reading AgentiCCells's own offer)",
