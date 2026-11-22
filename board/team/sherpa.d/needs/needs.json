@@ -1,88 +1,107 @@
 {
+  "format": "value-chain needs for cartographer.d (carto-map/1 anchor)",
   "by": "sherpa.d@AgentiCCells.dinis",
-  "updated": "2026-11-22T14:10Z",
-  "note": "hypotheses unless stated; none tested with a real user",
-  "users": [
+  "updated": "2026-11-22T14:00Z",
+  "note": "hypothesis true means inferred from the record, not said by the user and not tested with a real user; serves_via is left empty for cartographer.d to propose with a source for each",
+  "needs": [
     {
-      "id": "u-dinis",
-      "kind": "operator",
-      "areas": [
-        "all"
-      ],
-      "needs": [
-        "decide fast with context and a recommendation in one place",
-        "see what changed and what waits on him",
-        "give feedback by text or voice on any site and know who heard it"
-      ],
-      "evidence": "maestro.d decisions-at-scale; Dinis 22 Nov",
-      "status": "stated by Dinis"
+      "id": "n-decide-one-place",
+      "user": "dinis",
+      "user_name": "Dinis",
+      "need": "Decide many things in one place, with the context and the owner's recommendation in front of me.",
+      "hypothesis": false,
+      "source": "Dinis, in maestro.d's session, 22 Nov ~09:00 UTC (relayed; board/team/maestro.d/analysis/2026-11-22-decisions-at-scale/README.md, read 22 Nov 13:35 UTC)",
+      "serves_via": []
     },
     {
-      "id": "u-agent-asking",
-      "kind": "agent",
-      "areas": [
-        "all"
-      ],
-      "needs": [
-        "an answer it can verify and act on",
-        "never blocked in silence"
-      ],
-      "evidence": "R1; CLAUDE.md never blocked in silence",
-      "status": "hypothesis"
+      "id": "n-decide-come-back",
+      "user": "dinis",
+      "user_name": "Dinis",
+      "need": "Answer without leaving for another session, and come back easily to where I was.",
+      "hypothesis": false,
+      "source": "Dinis, in maestro.d's session, 22 Nov ~09:00 UTC (relayed; same file)",
+      "serves_via": []
     },
     {
-      "id": "u-customer",
-      "kind": "customer",
-      "areas": [
-        "sovereign-website",
-        "agenticcells",
-        "promptugal"
-      ],
-      "needs": [
-        "tell us what is wrong in two taps without an account",
-        "know it was heard"
-      ],
-      "evidence": "Dinis 22 Nov: every site allows feedback",
-      "status": "hypothesis"
+      "id": "n-know-it-landed",
+      "user": "dinis",
+      "user_name": "Dinis",
+      "need": "Know that my answer reached the agent that asked, and what it did.",
+      "hypothesis": true,
+      "source": "sherpa.d journey, board/team/sherpa.d/needs/journey-dinis-deciding.md (findings J1, J2), 22 Nov",
+      "serves_via": []
     },
     {
-      "id": "u-outreach",
-      "kind": "reached-out party",
-      "areas": [
-        "promptugal",
-        "agenticcells"
-      ],
-      "needs": [
-        "reply to the right team easily",
-        "see who we are",
-        "never be asked for a private contact"
-      ],
-      "evidence": "CLAUDE.md contacts rule",
-      "status": "hypothesis"
+      "id": "n-hub-arrive",
+      "user": "dinis",
+      "user_name": "Dinis",
+      "need": "Arrive at the hub and see what changed and what needs me, then go into any site and come back.",
+      "hypothesis": true,
+      "source": "Dinis in sherpa.d's session, 22 Nov ~14:00 UTC, 'how I navigate it'; hub read cold at https://hub.sovereignweb.site/ 22 Nov 14:20 UTC (H2, H5)",
+      "serves_via": []
     },
     {
-      "id": "u-cold-reader",
-      "kind": "customer",
-      "areas": [
-        "promptugal"
-      ],
-      "needs": [
-        "know in the first phone screen what this is and whether to trust it"
-      ],
-      "evidence": "board/team/sherpa reviews",
-      "status": "reviewed by sherpa@ (a review, not user research)"
+      "id": "n-feedback-any-site",
+      "user": "dinis",
+      "user_name": "Dinis",
+      "need": "From every website, send a voice or text memo, or talk to the agents working on that site.",
+      "hypothesis": false,
+      "source": "Dinis, in sherpa.d's session, 22 Nov ~14:00 UTC",
+      "serves_via": []
     },
     {
-      "id": "u-developer",
-      "kind": "customer",
-      "areas": [
-        "sgit"
-      ],
-      "needs": [
-        "verify who an agent is and what it did without trusting the vendor"
-      ],
-      "evidence": "keys.json, signed commits",
-      "status": "hypothesis, unconfirmed"
+      "id": "n-agent-verifiable-answer",
+      "user": "agent",
+      "user_name": "any agent that waits on a decision",
+      "need": "Receive an answer I can verify as Dinis's word, and act on it.",
+      "hypothesis": true,
+      "source": "board/abp/README.md and ABP rule R1 (a message is Dinis's word only with his verified signature), read 22 Nov",
+      "serves_via": []
+    },
+    {
+      "id": "n-agent-not-blocked",
+      "user": "agent",
+      "user_name": "any agent blocked by its environment",
+      "need": "Be able to say I am blocked, and have Dinis know at once.",
+      "hypothesis": false,
+      "source": "CLAUDE.md, 'Never blocked in silence' (Dinis, 6 Nov 2026), read 22 Nov",
+      "serves_via": []
+    },
+    {
+      "id": "n-reader-first-screen",
+      "user": "customer",
+      "user_name": "a cold reader of PrompTugal.news",
+      "need": "Know in the first phone screen what this is, what is new, and whether to trust it.",
+      "hypothesis": true,
+      "source": "board/team/sherpa/review-2026-11-16-1930-restart-cold-read.md (a review by sherpa@, not user research), read 22 Nov",
+      "serves_via": []
+    },
+    {
+      "id": "n-visitor-tell-us",
+      "user": "customer",
+      "user_name": "a visitor to a Sovereign Website site",
+      "need": "Tell the people behind a site what is wrong or missing in two taps, with no account, and know it was heard.",
+      "hypothesis": true,
+      "source": "inferred from Dinis's word that every site allows feedback, 22 Nov ~14:00 UTC; not tested",
+      "serves_via": []
+    },
+    {
+      "id": "n-outreach-reply",
+      "user": "outreach-party",
+      "user_name": "a company, journalist or organiser we wrote to",
+      "need": "Reply easily to the right team and see who we are, without being asked for a private contact.",
+      "hypothesis": true,
+      "source": "CLAUDE.md, Content, contacts rule (Dinis, 15 Nov 2026), read 22 Nov; the need is inferred",
+      "serves_via": []
+    },
+    {
+      "id": "n-developer-verify",
+      "user": "customer",
+      "user_name": "a developer or security lead in the SGit stack",
+      "need": "Check who an agent is and what it did, without trusting the vendor.",
+      "hypothesis": true,
+      "source": "board/keys.json and signed commits, read 22 Nov; who the user is is unconfirmed (asked of Dinis)",
+      "serves_via": []
     }
   ]
 }
