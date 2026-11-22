@@ -1,5 +1,5 @@
-// page.mjs: draws org-chart.html (animated org chart, circles, decision matrix) from org-chart.json and decisions.json.
-// A script, no model. holacracy.d@AgentiCCells.dinis. usage: node board/team/holacracy.d/tools/page.mjs
+// page.mjs: draws an org-chart HTML page (kept out of the repository: the gate treats any .html under board/ as a site page) (animated org chart, circles, decision matrix) from org-chart.json and decisions.json.
+// A script, no model. holacracy.d@AgentiCCells.dinis. usage: node board/team/holacracy.d/tools/page.mjs <output.html>
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -126,5 +126,7 @@ $('copy').onclick=function(){var t=$('out');t.select();try{navigator.clipboard.w
 render();
 })();
 </script></body></html>`
-fs.writeFileSync(path.join(dir, 'org-chart.html'), html)
-console.log('org-chart.html written,', html.length, 'bytes')
+const out = process.argv[2]
+if (!out) { console.error('usage: page.mjs <output.html>'); process.exit(1) }
+fs.writeFileSync(out, html)
+console.log(out, 'written,', html.length, 'bytes')

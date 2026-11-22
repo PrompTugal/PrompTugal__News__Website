@@ -4,7 +4,7 @@
   {"id":"D1","title":"One naming rule for agents","tension":"Names drift: @account-d.dinis in titles, bare names elsewhere, three agents all called conductor.d. The gate knows only two domains.","source":"proposals/01-one-naming-rule.md","rec":"A",
    "options":[
     {"k":"A","label":"Role.account (circle)","good":"Matches the files today; no gate change","bad":"PrompTugal and AgentiCCells conductors keep two forms","follows":"A second session of a role is <role>.<account>.2; holacracy.d keys the record on <role>@<circle>"},
-    {"k":"B","label":"One form for all: role.account@Circle.dinis","good":"One unique rule","bad":"Gate change and key renames","follows":"Gate learns the circle domains; owners rename"},
+    {"k":"B","label":"One form for all: role.account plus a circle domain","good":"One unique rule","bad":"Gate change and key renames","follows":"Gate learns the circle domains; owners rename"},
     {"k":"C","label":"Leave it","good":"Cheapest","bad":"Collisions stay","follows":"Circle goes in the session title only"}]},
   {"id":"D2","title":"A grant for every account D agent","tension":"policies.json has no role for maestro.d, conductor.d (PrompTugal), bulletins.d or holacracy.d; abp@ is on account B, paused to Monday.","source":"proposals/02-abp-grants-for-the-d-agents.md","rec":"A",
    "options":[
