@@ -4,8 +4,8 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-22T18:10Z",
- "state": "woke 09:18 Lisbon; next 20:18; carrying the shared PrompTugal work while account B is in weekend mode (until Mon 23 Nov 00:25 UTC)",
+ "updated": "2026-11-22T20:19Z",
+ "state": "woke 20:18 Lisbon; next 09:18; carrying the shared PrompTugal work while account B is in weekend mode (until Mon 23 Nov 00:25 UTC)",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
   "key conductor.d-promptugal made in this session and published in board/keys.json, commits signed",
@@ -18,7 +18,8 @@
   "09:18 wake: 13 sites 200; account D sessions idle (bulletins.d@ review-ready, data.d@ blocked); about 22.6 USD so far on account D",
   "relayed to bulletins.d@ Dinis ask via maestro.d (~09:00 UTC): decision brief as a browser-played web page with a presenter, for the iPhone (2026-11-22T11:25Z)",
   "asks retired 2026-11-22T15:44Z: Data push (granted; check_repo_access attachable) and twin keys (Dinis 13:39 UTC, option C: the factory adds keys after a security review, board/team/maestro.d/decisions/2026-11-22-twin-keys-by-the-factory.md); abp policy ask folded into one request for every .d agent; presenters 0.1.1 review held in maestro.d status (decisions.d@ sweep, board/team/decisions.d/log/retire.md)",
-  "TMDB flag confirmed by maestro.d: JSON from open or licensed sources, TMDB display-only (2026-11-22T18:10Z)"
+  "TMDB flag confirmed by maestro.d: JSON from open or licensed sources, TMDB display-only (2026-11-22T18:10Z)",
+  "20:18 wake: 13 sites 200 (ten not rebuilt since 21 Nov morning); bulletins.d@ hit its usage limit 17:08 UTC; account D cost 87.1 USD (53.75 + 33.39)"
  ],
  "next": [
   "twin keys: follow factory.d key requests for bulletins.d@ (Bulletins) and data.d@ (Data); retire my relays to conductor.b@ once they land",
@@ -28,7 +29,9 @@
   "make my wake at :18 Lisbon once Dinis says yes"
  ],
  "asks": [
-  "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - one line here (\"start data.open.d\") starts the generic public-data agent; your 17:05 word is recorded by maestro.d but this session refuses a start on a relayed word. Brief ready: board/team/conductor.d/briefs/2026-11-22-data-open-d.md"
+  "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - one line here (\"start data.open.d\") starts the generic public-data agent; your 17:05 word is recorded by maestro.d but this session refuses a start on a relayed word. Brief ready: board/team/conductor.d/briefs/2026-11-22-data-open-d.md",
+  "Dinis: https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj - your message at 17:08 UTC hit the usage limit and was not run; send it again if it still matters. It also waits on you for: the Studio taking the player, presenters 0.2.0 for the journey stories, lower detail for far figures",
+  "Dinis: https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z - a Wikimedia credential for the Wikipedia feed"
  ],
  "latest_debrief": "board/team/conductor.d/debriefs/2026-11-21-handover.md",
  "last_read_from_b": "2026-11-21T22:45Z",
@@ -39,8 +42,8 @@
    "repo": "PrompTugal/PrompTugal__News__Bulletins",
    "started": "2026-11-21T22:52Z",
    "schedule": "none",
-   "state": "decision-brief prototype ready (private claude.ai page; src/lab/decision-brief/ on branch, 8b71a21); waits on key for the site copy",
-   "cost_usd": 19.33
+   "state": "idle; hit the five-hour limit 17:08 UTC (reset 18:00), a 17:08 message unanswered; holds Dinis questions on the Studio player, presenters 0.2.0, Kokoro, captions",
+   "cost_usd": 53.75
   },
   {
    "agent": "data.d@PrompTugal.dinis",
@@ -48,8 +51,8 @@
    "repo": "PrompTugal/PrompTugal__News__Data",
    "started": "2026-11-22T02:24Z",
    "schedule": "none",
-   "state": "Wikipedia feed, football and strictly sources, connections, on branch data-d/pending (Dinis ~16:00 UTC); waits on its key via the factory",
-   "cost_usd": 3.3
+   "state": "idle; waits on a Wikimedia credential and its key (factory route); generic sources go to data.open.d@ once started",
+   "cost_usd": 33.39
   }
  ],
  "wake": {

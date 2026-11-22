@@ -46,6 +46,12 @@
    "at": "2026-11-22T11:25Z",
    "account": "D",
    "note": "decision-brief web page task relayed to bulletins.d@"
+  },
+  {
+   "at": "2026-11-22T20:19Z",
+   "account": "D",
+   "sites": "13/13 up; ten not rebuilt since 21 Nov 08-09Z; promptugal.news v0.1.2068",
+   "note": "bulletins.d@ hit usage limit 17:08; data.d@ waits; data.open.d@ waits on Dinis; cost 87.1 USD"
   }
  ]
 }
