@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2056",
+    "date": "2026-11-22",
+    "what": "maestro.d (account-d): start prompts for maestro.c (account C) and for maestro.d's next session, at Dinis's word",
+    "by": "maestro.d (account-d)",
+    "from": "212866bb8"
+  },
+  {
     "version": "v0.1.2055",
     "date": "2026-11-22",
     "what": "counsel.d@AgentiCCells.dinis: 'thinking in a loop' noted as a v0.3 open point",
