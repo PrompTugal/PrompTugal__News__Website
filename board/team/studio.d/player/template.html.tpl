@@ -57,6 +57,7 @@ function draw(st,v){const k=v.kind;
  else if(k=='flow'){const f=el('div','fl');const lab=Object.fromEntries(v.nodes.map(n=>[n.id,n.label]));let n=0;
   const seen=new Set();const add=id=>{if(seen.has(id))return;seen.add(id);const d=el('div','nd',lab[id]||id);f.append(d);setTimeout(()=>d.classList.add('show'),400*n++)};
   (v.edges||[]).forEach(e=>{add(e.from);const a=el('span','ar','→ '+(e.label||''));f.append(a);setTimeout(()=>a.classList.add('show'),400*n++);add(e.to)});v.nodes.forEach(x=>add(x.id));st.append(f)}
+ else if(k=='timeline'){const u=el('ul','rv');v.items.forEach((t,j)=>{const li=el('li');li.append(el('b','',t.when+': '),document.createTextNode(t.what));u.append(li);setTimeout(()=>li.classList.add('show'),400*j+80)});st.append(u)}
  else if(k=='compare'){const c=el('div','cmp');[v.left,v.right].forEach((s,j)=>{const d=el('div');d.append(el('h3','',s.title));const u=el('ul');u.style.paddingLeft='18px';s.points.forEach(p=>u.append(el('li','',p)));d.append(u);c.append(d);setTimeout(()=>d.style.opacity=1,500*j+80)});st.append(c)}
  else if(k=='image'){const im=el('img');im.src=v.url;im.alt=v.alt||'';im.style.maxWidth='100%';st.append(im,el('div','lab',v.credit||''))}
  else st.append(el('div','lab',v.note||'(a visual the player cannot draw yet)'))}
