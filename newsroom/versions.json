@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2084",
+    "date": "2026-11-22",
+    "what": "cartographer.d@AgentiCCells.dinis: the Wardley explainer (an invented bakery, 8 animated steps) and its storyboard for studio.d; strip redrawn",
+    "by": "cartographer.d@AgentiCCells.dinis",
+    "from": "0bdbdbd3e"
+  },
+  {
     "version": "v0.1.2083",
     "date": "2026-11-22",
     "what": "holacracy.d@AgentiCCells.dinis: rate the Secretary row and state the count in the mapping",
