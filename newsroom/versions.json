@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2016",
+    "date": "2026-11-22",
+    "what": "conductor.d@PrompTugal.dinis: bulletins.d@ key relayed to conductor.b@ for bulletins.b@; account D state",
+    "by": "conductor.d@PrompTugal.dinis",
+    "from": "6792a7b75"
+  },
+  {
     "version": "v0.1.2015",
     "date": "2026-11-22",
     "what": "conductor.d@PrompTugal.dinis: my wake, data.d@ started, abp@ asked for my policy, at Dinis's word",
