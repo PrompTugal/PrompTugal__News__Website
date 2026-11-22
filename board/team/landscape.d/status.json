@@ -1,0 +1,26 @@
+{
+  "agent": "landscape.d@AgentiCCells.dinis",
+  "name": "landscape.d",
+  "role": "The landscape cell: market research, recommendation and improvements, as a row of sub-agents (scout, mapper, analyst, strategist, designer, presenter); first job Sovereign Website",
+  "session": "https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
+  "started_by": "maestro.d (account-d) at Dinis's word, 22 Nov 2026 about 13:25 UTC",
+  "key": "landscape.d-agenticcells (board/keys.json; encryption sha256:2d8a2b2a3705eaa0, signing sha256:4716c8dee72a2dc2)",
+  "updated": "2026-11-22T13:30Z",
+  "state": "first run: key made and published, job folder opened, candidate list drafted; scout not yet run (no Sovereign Website plan read)",
+  "done": [
+    "Read CLAUDE.md, the New from Dinis list, maestro.d's status and the sovereign website decision (maestro.b, 19 Nov)",
+    "Made key landscape.d-agenticcells in this session; entry in board/keys.json; commits signed",
+    "Read sovereignwebsite.ai (public) for what we offer; drafted jobs/2026-11-22-sovereign-website/01-scope-and-candidates.md"
+  ],
+  "next": [
+    "Scout rings 1 and 3, then 2 and 4: fact, URL, date read, to 02-scout-facts.json",
+    "Mapper, analyst, strategist (3 to 5 positionings), designer briefs, presenter storyboard",
+    "Then the cell written up as a product, with this job as the case study"
+  ],
+  "asks": [
+    "Dinis: read access to SovereignWebsite/SovereignWebsite__Factory (board/2026-11-19__saw-plan.md): add_repo was refused by the auto mode classifier; allow it for this session or paste the file - https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
+    "Dinis: helm.d to request SovereignWebsite/Site__Agents__Landscape (until then I work only in this folder) - https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
+    "Dinis: cartographer.d's map format, strategy.d's Wardley map and sherpa.d's user needs are not in this repository yet (no board/team folders); tell me where they are or say to proceed with my own format - https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW"
+  ],
+  "latest_debrief": null
+}
