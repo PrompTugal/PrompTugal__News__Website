@@ -4694,6 +4694,29 @@
       },
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH/iItCRp/CAfMNwb5qvMu9d4VfSIZO/qJ61q9StGJfv",
       "ssh_added": "2026-11-22T13:26Z"
+    },
+    {
+      "id": "slides.d-account-d",
+      "agent": "slides.d (account-d)",
+      "label": "slides.d (account-d): the slide-deck agent of the central circle, account D (Claude Code session)",
+      "role": "Decks: the method, the library of past decks, the HTML deck template and PDF export (board/team/slides.d/). Led by helm.d. A session key: it ends with its session.",
+      "made": "2026-11-22",
+      "made_with": "sgit pki keygen (sgit-ai 0.27.0), in its own session; private half only in that session",
+      "added": "2026-11-22T16:03Z",
+      "encryption_fingerprint": "sha256:cccb9a7d1992a2eb",
+      "signing_fingerprint": "sha256:67eb883c794d3b83",
+      "status": "active",
+      "session": "https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAkrIoWXePjzGGHer5vwQ9\n6qdTfr9qGsYVdNseOGP1VHgbo10VKR0ud79D1uelMIVnf4FWFGPJcuKYkloj+w01\nXsWfPIQWL582GAfKLsHTZ6Du1bumm7lBkaPOqohdcCfcOSQN+BW4NEkoL9VdC4lL\n63gcU8RZJAvyHxK4sUqGAZ9kv6yh1OqhnnPtGeinMZaGWKVuLU0CeB7Rv0W15Yo4\naSfBQdev2iuvVR1HhWBxIas/reaOQTRlpmlEE/LKAmJXmd3slVyEKTJaaEEMJsWv\nJkvnLXh62UUS4VN04SCYhwKwsszQaeK7zLQfSmHK0DYZ3QlWRiZkluFGtkhUaFBT\nVRzXB1Pz23NCiHUcPK9jWtnZeh0DlxFEegfPNHANgsxsjBxC1iubPI7SupuDDD7O\nU1yOH3RnabCDTzkcHzZ5Dzy6CSvWfT/ghzjrqTpsU8Vy5t9cIrYqnC46fgF0IQdn\n5ol/g9WowdUtHALzF6F74VqS9UmDnJdflT1bnKqDboO2jNwf7NblqYgrMz0ITPaT\n20olIKfxOQODyCOPtcegciUhVR3QNjfeGDDFYYmvuKeIniGch4GnndBjtSuzfPlG\niQZyQeY3f8DRq86eEXU4wmlto5l+tK1r33S7py0DeToZGBjAVwWcMC7ffeFmgvol\n9NGOFMRzpO+k2/XRWKkuTXkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEeZVqc8514Xn227S4CXOXD3YmLBOp\nv2IFsvJI9kyVFm+r3/1WFUgJS05FsNBgNDKPTueF/3htR4SWdqpu6BRL8g==\n-----END PUBLIC KEY-----\n",
+        "label": "slides.d-account-d",
+        "fingerprint": "sha256:cccb9a7d1992a2eb",
+        "signing_fingerprint": "sha256:67eb883c794d3b83"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOPsb9CL6TqtXJSGEEMXu740N8CxD9crH9CYGr8Czp6g",
+      "ssh_added": "2026-11-22T16:03Z"
     }
   ]
 }
