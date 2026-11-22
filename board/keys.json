@@ -4579,6 +4579,29 @@
       },
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHBjjFRRMDjATO2n3VaJXl0l2qaylo6EwxGYqDxZAIwF",
       "ssh_added": "2026-11-22T13:26Z"
+    },
+    {
+      "id": "sherpa.d-agenticcells",
+      "agent": "sherpa.d@AgentiCCells.dinis",
+      "label": "sherpa.d@AgentiCCells.dinis: the user-needs agent of Dinis's central circle (Claude Code session)",
+      "role": "The Sherpa of account D: the users and their needs in every area, their journeys and where they get lost; reviews and reports, never redesigns (board/team/sherpa.d/). A session key: it ends with its session.",
+      "made": "2026-11-22",
+      "made_with": "pki-agent.mjs keygen --session (sha256 fcb28a1cc40d05bf), in its own session; private half only in that session",
+      "added": "2026-11-22T13:27Z",
+      "encryption_fingerprint": "sha256:df7c7a5d803eb533",
+      "signing_fingerprint": "sha256:e8a1808f3313f949",
+      "status": "active",
+      "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1tKgwg/oXTZfS2N6xPWr\nPtwGMJxAE3lsPHYcVASA1eTGNl93jJf1pNknFOqbYWmFCG56vi2A0h9lAinLoIU4\nzRuzrQrd34O8wf8hIzJIlRjegSGvJ18RZmDxNJEWWs/X5TjVJDDVjRGVlPz3K7rr\nxfH9JnjDolgvo9HqRuelW9ST/Tk3wmXMrciRzIaheBQHB5O0pN64R1O3mBp8tcES\nsL+8zaBFbAjQ22heDbBTsofwcvVr72t23LLeow10BPSw3kDoDsjGrQmningLPzZ7\na75LvwBo7r4ZkLY5nJHnEZ2GgmZqpebEvkiwosMINZ1fYwlH9D93fbL4OrVpWo7j\ntUcQzJNw4jmZ8ybWpwXJ1Hl4Btp+cQVSWXobPiDo+VgB+i3dKhMTFo1UPu9J6pdI\nc12XfiH9AFhgU/DPErupLjMzXyAcs9oF6g0kYGIvhdVCZDYQMas+qrLh3BZLpw3c\nVem9alfFsZ4S9jdgz1bb7woseqwE4VVzq7wP23t2lClAD6gJcDbxIRaM6V2GNX2o\njSMGBeB5FMJMeaMiDDObwkEANJgWnBlUEGshz9WgE80kFR+xJIb5Jq5GkyYTpgjl\nbQq0t1MZMGonsg+m87MrhOtzrjW8v1jBPBQVfdHMj+FEf2ONKBbinE8iJH6bljCP\ntj/BktDUq77+bAy2zJt9RMcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE3zwg+NmUb/T4i9YbMndPE0FJ0Nq9\n5tpNvGn6rm2+hFR0OD2hXcCWU8HwuTQE74IdC8LIsBCw1I8RQDRHyBasNQ==\n-----END PUBLIC KEY-----\n",
+        "label": "sherpa.d@AgentiCCells.dinis",
+        "fingerprint": "sha256:df7c7a5d803eb533",
+        "signing_fingerprint": "sha256:e8a1808f3313f949"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPLUROzUcDsJV53wDT4uoS1i6g1NQE2QoqUZmHvmRMPG",
+      "ssh_added": "2026-11-22T13:27Z"
     }
   ]
 }
