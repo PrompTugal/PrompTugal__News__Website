@@ -12,6 +12,10 @@ And earlier (about 16:30 UTC): "we need to provide context to the person making 
 
 So: the person is not a checkpoint the agents pass through ("human in the loop"). Each decision is a moment of thinking, and the framework's job is to give that thinking its context, capture it verbatim, and carry it to the agents that act.
 
+## The second principle: one-way and two-way doors
+
+From Dinis's answers of about 17:05 UTC, as maestro.d summarised them: **one-way doors come to him; two-way doors go ahead.** A decision that cannot be undone (keys, money, the law, deletions, people) waits for him; one that can be reversed is taken by the agent or adopted by default, and he sees it after. Default-yes (`default-yes.md`) and the power of attorney (`README.md`) are the two ways two-way doors go ahead.
+
 ## What was tried, 22 November 2026 (in order)
 
 | # | Form | What it did well | What it did badly | Source |
@@ -24,6 +28,7 @@ So: the person is not a checkpoint the agents pass through ("human in the loop")
 | 6 | One large infographic per lane, readable in chat on a phone, answered by number in a voice memo | in the place he already is; answered by voice | being tried now | maestro.d |
 | 7 | Studio storyboards beside each decision page, a picture "asked" and a frozen picture "decided", connections between decisions and agents | the history kept; one format for every asker | the player's built pages cannot be committed here yet | `design/decision-page-standard.md`; studio.d |
 | 8 | Default-yes windows (proposal, not in force) | fewer questions reach him | a wrong default runs until seen | `design/default-yes.md` |
+| 10 | **The winner so far:** phone-sized lane cards (form 6), all 18 Desk decisions answered in one voice memo | Dinis: "Decision workflow worked really well ... Let's work like this, because you can see how many decisions I made very quickly" (relayed by maestro.d, about 17:05 UTC) | every answer is second-hand until it is copied verbatim from the Desk's "answers" | maestro.d's session; `log/relayed-answers.json` |
 | 9 | Retirement sweeps: answered, duplicate, overtaken | 42 asks became about 22 questions; conductor.d cleared all its asks within 15 minutes | needs each owner to act | `log/retire.md` |
 
 ## What to measure
@@ -53,3 +58,4 @@ From the record only (status files, decision pages, the Desk's answers as relaye
 | the signing key | about 15:30 UTC | decisions.d's session | no |
 | who leads sites.d, hub.d, newsroom.d | 15:47 UTC | helm.d's session | yes (SovereignWebsite and sgit.ai) |
 | voice memos' audio | 15:47 UTC | helm.d's session | no (A, deleted at once) |
+| 18 Desk decisions, five of them decisions.d's (the signing key, what the power covers, 7 days and 72 hours, signed answers, default-yes) | about 17:05 UTC | one voice memo on the lane cards | the power: yes, wider (delegated down) |

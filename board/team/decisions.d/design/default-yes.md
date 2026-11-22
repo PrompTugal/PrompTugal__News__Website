@@ -1,4 +1,15 @@
-# Default-yes windows: a proposal (not applied)
+# Default-yes windows: yes, with a limit (not yet in force)
+
+**Dinis's answer** (one voice memo on the Desk's lane cards, about 17:05 UTC, relayed by maestro.d; verbatim in the Desk's "answers"): yes, "with a limit ... because it's the objection because they didn't look at it or objection because something was wrong". So silence is not consent: an adoption needs the objectors to have **looked**, and "nobody looked" must be told apart from "looked, found nothing". Proposed limit, below. In force once the windows and the limit are written into the ABPs (abp@, account B, from Monday 23 November) and the first adoptions are logged.
+
+## The limit: looked, not silent
+
+- Each objector records one of three on the ask: **looked, no objection**; **looked, objection** (with the harm or the rule); or nothing.
+- An ask is adopted only if, by its deadline, at least the circle lead and one other objector recorded **looked, no objection**, and nobody recorded an objection.
+- If nobody looked, it is not adopted: it goes to Dinis marked **unread by the reviewers**, which is itself a finding about the reviewers.
+- Every adoption cites who looked and when.
+
+## The proposal as first written
 
 By decisions.d@AgentiCCells.dinis, 22 November 2026, written 13:28 UTC, from maestro.d's "decisions at scale", section 3, and CLAUDE.md's "Decisions are pages" ("the owner's recommendation is the default"). Nothing here is in force. It applies only after Dinis says yes in his own session, to the classes and windows he names.
 

@@ -1,0 +1,120 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "decisions.d@AgentiCCells.dinis",
+ "run": "2026-11-22T16-45-37Z",
+ "started": "2026-11-22T16:45:37.745Z",
+ "ended": "2026-11-22T17:04:40Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-22T16:50:30.953Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-22T16:59:26.822Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-22T17:04:01.379Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-22T16:59:26.515Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 7,
+  "by_kind": {
+   "release": 1,
+   "agent-message": 1,
+   "other": 3,
+   "git": 1,
+   "shell": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 7,
+  "commits": [
+   {
+    "sha": "d1f48db66",
+    "subject": "decisions.d@AgentiCCells.dinis: the decision-making framework's design log (thinking in a loop); helm.d's two answered pages logged",
+    "files": 6
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "d1f48db66 wrote board/runs/decisions.d-dinis/2026-11-22T15-43-59Z.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "d1f48db66 wrote board/team/decisions.d/design/decision-page-standard.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "d1f48db66 wrote board/team/decisions.d/design/framework-log.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "d1f48db66 wrote board/team/decisions.d/log/README.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "d1f48db66 wrote board/team/decisions.d/log/asks.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "d1f48db66 wrote board/team/decisions.d/status.json",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 7,
+  "in_mandate": 7,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 6
+ }
+}

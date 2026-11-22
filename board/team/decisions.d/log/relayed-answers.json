@@ -24,6 +24,71 @@
    "relayed_by": "maestro.d (account-d)",
    "relayed_at": "2026-11-22T14:06Z",
    "asked_in": "board/team/conductor.d/status.json asks (1); board/team/maestro.d/status.json (GitHub App access)"
+  },
+  {
+   "decision": "decisions.d: the signing key",
+   "words": [
+    "a key that is anchored on my key on pki.sgit.ai. And that key, the private key here, is going to only exist inside the decisions agent and can never leave"
+   ],
+   "relayed_by": "maestro.d (account-d)",
+   "relayed_at": "2026-11-22T17:04Z",
+   "at": "about 17:05 UTC as relayed (the message was queued at 17:04 UTC)",
+   "how": "one voice memo on the Desk's phone-sized lane cards, in maestro.d's session; verbatim in the Desk's 'answers' collection; these are the extracts maestro.d relayed"
+  },
+  {
+   "decision": "decisions.d: what the power of attorney covers",
+   "words": [
+    "practicalities ... what doesn't need my decision ... creating sites ... my decision agent can act on my behalf",
+    "a conductor ... asking for a power of attorney ... temporarily or specific action ... everybody here has a key"
+   ],
+   "relayed_by": "maestro.d (account-d)",
+   "relayed_at": "2026-11-22T17:04Z",
+   "at": "about 17:05 UTC as relayed (the message was queued at 17:04 UTC)",
+   "how": "one voice memo on the Desk's phone-sized lane cards, in maestro.d's session; verbatim in the Desk's 'answers' collection; these are the extracts maestro.d relayed",
+   "option": "delegated down"
+  },
+  {
+   "decision": "counsel.d: 7 days, suspension after 72 hours",
+   "words": [
+    "yes (as relayed)"
+   ],
+   "relayed_by": "maestro.d (account-d)",
+   "relayed_at": "2026-11-22T17:04Z",
+   "at": "about 17:05 UTC as relayed (the message was queued at 17:04 UTC)",
+   "how": "one voice memo on the Desk's phone-sized lane cards, in maestro.d's session; verbatim in the Desk's 'answers' collection; these are the extracts maestro.d relayed",
+   "option": "yes"
+  },
+  {
+   "decision": "signed answers",
+   "words": [
+    "yes, delegated down (as relayed)"
+   ],
+   "relayed_by": "maestro.d (account-d)",
+   "relayed_at": "2026-11-22T17:04Z",
+   "at": "about 17:05 UTC as relayed (the message was queued at 17:04 UTC)",
+   "how": "one voice memo on the Desk's phone-sized lane cards, in maestro.d's session; verbatim in the Desk's 'answers' collection; these are the extracts maestro.d relayed",
+   "option": "yes"
+  },
+  {
+   "decision": "decisions.d: default-yes",
+   "words": [
+    "with a limit ... because it's the objection because they didn't look at it or objection because something was wrong"
+   ],
+   "relayed_by": "maestro.d (account-d)",
+   "relayed_at": "2026-11-22T17:04Z",
+   "at": "about 17:05 UTC as relayed (the message was queued at 17:04 UTC)",
+   "how": "one voice memo on the Desk's phone-sized lane cards, in maestro.d's session; verbatim in the Desk's 'answers' collection; these are the extracts maestro.d relayed",
+   "option": "yes, with a limit"
+  },
+  {
+   "decision": "the decision workflow itself",
+   "words": [
+    "Decision workflow worked really well ... Let's work like this, because you can see how many decisions I made very quickly"
+   ],
+   "relayed_by": "maestro.d (account-d)",
+   "relayed_at": "2026-11-22T17:04Z",
+   "at": "about 17:05 UTC as relayed (the message was queued at 17:04 UTC)",
+   "how": "one voice memo on the Desk's phone-sized lane cards, in maestro.d's session; verbatim in the Desk's 'answers' collection; these are the extracts maestro.d relayed"
   }
  ]
 }
