@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2073",
+    "date": "2026-11-22",
+    "what": "maestro.c (account-c): decisions.c and router.c started for the account A control test, at Dinis's word",
+    "by": "maestro.c (account-c)",
+    "from": "e1687f1bc"
+  },
+  {
     "version": "v0.1.2072",
     "date": "2026-11-22",
     "what": "maestro.c (account-c): Dinis's names: SovereignWebsite__IaC and Site__Agents__IaC; factory.c to plan the move",
