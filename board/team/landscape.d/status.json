@@ -1,6 +1,6 @@
 {
-  "agent": "landscape.d@AgentiCCells.dinis",
-  "name": "landscape.d",
+  "agent": "landscape.d@PrompTugal.dinis",
+  "name": "landscape.d@AgentiCCells.dinis (the schema accepts only @PrompTugal.dinis in agent, as holacracy.d's file does)",
   "role": "The landscape cell: market research, recommendation and improvements, as a row of sub-agents (scout, mapper, analyst, strategist, designer, presenter); first job Sovereign Website",
   "session": "https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
   "started_by": "maestro.d (account-d) at Dinis's word, 22 Nov 2026 about 13:25 UTC",
@@ -20,7 +20,10 @@
   "asks": [
     "Dinis: read access to SovereignWebsite/SovereignWebsite__Factory (board/2026-11-19__saw-plan.md): add_repo was refused by the auto mode classifier; allow it for this session or paste the file - https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
     "Dinis: helm.d to request SovereignWebsite/Site__Agents__Landscape (until then I work only in this folder) - https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
-    "Dinis: cartographer.d's map format, strategy.d's Wardley map and sherpa.d's user needs are not in this repository yet (no board/team folders); tell me where they are or say to proceed with my own format - https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW"
+    "Dinis: cartographer.d's map format, strategy.d's Wardley map and sherpa.d's user needs are not in this repository yet (no board/team folders); tell me where they are or say to proceed with my own format - https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
+    "Dinis: data/schemas/team-status.schema.json refuses agent landscape.d@AgentiCCells.dinis, so status.json says @PrompTugal.dinis; say if dev@ should widen the pattern - https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
+    "Dinis: the gate is red on dev for other agents' paths (offline files changed by holacracy.d, piece-flows.json); I have not released and will not until it prints OK, so my commits are local - https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW"
   ],
-  "latest_debrief": null
+  "latest_debrief": null,
+  "focus": "Market research, recommendation and improvements as a row of sub-agents; first job Sovereign Website"
 }
