@@ -1,0 +1,115 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "decisions.d@AgentiCCells.dinis",
+ "run": "2026-11-22T14-08-45Z",
+ "started": "2026-11-22T14:08:45.361Z",
+ "ended": "2026-11-22T14:18:26Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-22T14:08:50.611Z",
+   "chars": 1175,
+   "sha256": "77f099ee792bd686",
+   "head": "<task-notification>\n<task-id>bwbwnftrl</task-id>\n<tool-use-id>toolu_01QLLDxLtn1EUvtXnu5VVFea</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/786484d3-c441-5886-96f6-bfc0f"
+  },
+  {
+   "t": "2026-11-22T14:17:36.275Z",
+   "chars": 470,
+   "sha256": "76b8cd2a82a7bc8b",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>2 unread notifications (message from another Claude session: 2)</summary>\nNotifications are que"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 10,
+  "by_kind": {
+   "shell": 5,
+   "release": 1,
+   "other": 1,
+   "git": 1,
+   "agent-message": 1,
+   "write": 1
+  }
+ },
+ "policies_executed": {
+  "R6": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 9,
+  "commits": [
+   {
+    "sha": "98a4e36cc",
+    "subject": "decisions.d@AgentiCCells.dinis: first ask as a studio storyboard; decision log refreshed (23 open, 13 answered)",
+    "files": 5
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-22T14:18:24.290Z",
+    "tool": "Edit",
+    "rule": "R6",
+    "what": "board/team/decisions.d/tools/collect.py is not in decisions.d@AgentiCCells.dinis's grant (board/abp/README.md); if you need it, ask Dinis in status.json's asks",
+    "target": "/home/user/PrompTugal__News__Website/board/team/decisions.d/tools/collect.py"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "98a4e36cc wrote board/runs/decisions.d-dinis/2026-11-22T13-35-56Z.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "98a4e36cc wrote board/team/decisions.d/log/README.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "98a4e36cc wrote board/team/decisions.d/log/asks.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "98a4e36cc wrote board/team/decisions.d/status.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "98a4e36cc wrote board/team/decisions.d/storyboards/which-key-signs-the-delegation.storyboard.json",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 10,
+  "in_mandate": 9,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 5
+ }
+}

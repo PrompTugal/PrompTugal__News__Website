@@ -1,0 +1,29 @@
+{
+ "about": "Dinis's answers on the Decision Desk (maestro.d's artifact; collections 'decisions' by maestro.d, 'answers' by Dinis), as relayed to decisions.d by maestro.d (account-d). Second-hand: copied from maestro.d's message, not read from the Desk by decisions.d, and unsigned. Words verbatim as relayed.",
+ "desk": "https://claude.ai/artifact/333S1Xt9XMimGP2UhcwNRr",
+ "answers": [
+  {
+   "decision": "twin-keys",
+   "option": "C",
+   "words": [
+    "I like factory doing it because that leaves a full track record and if infrastructure as code, but the factory agent should merge it after a security review",
+    "For tasks like this I should not be the bottleneck"
+   ],
+   "at": "2026-11-22T13:39Z",
+   "relayed_by": "maestro.d (account-d)",
+   "relayed_at": "2026-11-22T14:06Z",
+   "asked_in": "board/team/conductor.d/status.json asks (2); maestro.d decisions-at-scale section 6"
+  },
+  {
+   "decision": "data-push",
+   "words": [
+    "Merge it",
+    "Yes and factory should do it"
+   ],
+   "at": "2026-11-22T13:42Z",
+   "relayed_by": "maestro.d (account-d)",
+   "relayed_at": "2026-11-22T14:06Z",
+   "asked_in": "board/team/conductor.d/status.json asks (1); board/team/maestro.d/status.json (GitHub App access)"
+  }
+ ]
+}

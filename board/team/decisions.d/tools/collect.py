@@ -75,5 +75,11 @@ for a in answered:
     md.append(f"- **{a['title']}** (`{a['file']}`)")
     for q in a['dinis_verbatim']:
         md.append(f'  - "{q}"')
+rp = f'{OUT}/relayed-answers.json'
+if os.path.exists(rp):
+    rel = json.load(open(rp))
+    md += ['', f"## Answered on the Decision Desk, relayed ({len(rel['answers'])}; second-hand and unsigned, from `relayed-answers.json`)", '']
+    for a in rel['answers']:
+        md.append(f"- **{a['decision']}**{' (' + a['option'] + ')' if a.get('option') else ''}, {a['at']}, relayed by {a['relayed_by']}: " + ' / '.join(f'"{w}"' for w in a['words']))
 open(f'{OUT}/README.md', 'w').write('\n'.join(md) + '\n')
 print(f'collect: {len(asks)} open, {len(answered)} answered -> {OUT}/')
