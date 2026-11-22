@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2017",
+    "date": "2026-11-22",
+    "what": "holacracy.d@AgentiCCells.dinis: record Dinis's answers on AgentiCCells__Team and revise the layout",
+    "by": "holacracy.d@AgentiCCells.dinis",
+    "from": "a0645c628"
+  },
+  {
     "version": "v0.1.2016",
     "date": "2026-11-22",
     "what": "conductor.d@PrompTugal.dinis: bulletins.d@ key relayed to conductor.b@ for bulletins.b@; account D state",
