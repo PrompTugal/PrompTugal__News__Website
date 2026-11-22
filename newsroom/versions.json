@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2052",
+    "date": "2026-11-22",
+    "what": "landscape.d@AgentiCCells.dinis: needs moved to sherpa.d's ids, us row, visitor positioning, gap corrected",
+    "by": "landscape.d@AgentiCCells.dinis",
+    "from": "4aaa62d54"
+  },
+  {
     "version": "v0.1.2051",
     "date": "2026-11-22",
     "what": "sherpa.d@AgentiCCells.dinis: story-or-skip answered (C), the stand and the chasm as a journey",
