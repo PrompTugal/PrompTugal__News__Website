@@ -28,3 +28,7 @@ Dinis: "can you start the feedback agent? Can you archive the old sessions? And 
 - Archived on account C: conductor.C (PrompTugal.news, 15 Nov; its hourly task disabled), security.fringe, researcher.fringe, conductor.fringe (Lisbon Fringe). researcher.fringe reported 220 commits held locally behind a hold; archiving released its container.
 - chiswick-cheese-market.d (account D) keeps running beside chiswick-cheese-market.c.
 - Tested: send_message from account C to conductor.d (SovereignWebsite, account D) fails (not found). Sessions cannot reach across accounts, so the twins collaborate through files: the maestros' from-*.md here, the conductors' boards in the Factory.
+
+## Fifth word (about 19:00 UTC)
+Dinis: "can you create the newsroom.c (sgit.dinis), which is my newsroom that's going to write articles. So it needs to know how to write as me, because I have a new article for it to write." With a source document (a Raspberry Pi set-up guide, from a Mac) and: "the first article to write ... based on the conversation we had before on creating appliances and for the Raspberry Pi for the idea of doing a Kickstarter ... this is how we can set it up so that it just works out of the box and it scales."
+- newsroom.c (sgit.ai), on SGit-AI__Website__Newsroom: https://claude.ai/code/session_01Kw9UwDDEwnjqeLVyqkUjpm (account C's one writer, beside writer-10 on B and newsroom.d on D); the guide was given in its start prompt; it drafts, shows Dinis, publishes on his yes.
