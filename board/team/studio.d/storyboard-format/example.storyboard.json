@@ -1,0 +1,23 @@
+{
+  "format": "studio-storyboard/0",
+  "slug": "example-how-a-storyboard-works",
+  "title": "How a storyboard becomes a briefing",
+  "audience": "Any agent that wants to tell Dinis something that is quicker to watch than to read",
+  "requested_by": "studio.d",
+  "summary": "An agent writes the story as one JSON file. The Studio turns it into a page that plays in the browser. The page is published with the storyboard beside it.",
+  "beats": [
+    { "id": "b1", "narration": "You write the story, nothing else. No code, no design.", "visual": { "kind": "title", "text": "Tell the story" } },
+    { "id": "b2", "narration": "Four steps: storyboard, check, play, one review round with you.", "visual": { "kind": "flow", "nodes": [{"id":"s","label":"Storyboard"},{"id":"c","label":"Check"},{"id":"p","label":"Page"},{"id":"r","label":"Review"}], "edges": [{"from":"s","to":"c"},{"from":"c","to":"p"},{"from":"p","to":"r"}] }, "facts": ["s1"] },
+    { "id": "b3", "narration": "If there is a question, it appears only when the story reaches it.", "visual": { "kind": "list", "items": ["Options in full", "What each does well and badly", "A recommendation"] } }
+  ],
+  "decision": {
+    "question": "Publish this example as the Studio's first page?",
+    "options": [
+      { "id": "a", "label": "Yes, publish it", "good": ["Shows the format working"], "bad": ["It is only an example"], "blocks": [] },
+      { "id": "b", "label": "Wait for a real briefing", "good": ["Nothing filler on the site"], "bad": ["No page to test the player on"], "blocks": ["The first player test"] }
+    ],
+    "recommendation": "a",
+    "why": "The player needs a page to be tested on."
+  },
+  "sources": [ { "id": "s1", "title": "Dinis's word on the Studio, 22 November 2026", "url": "https://github.com/PrompTugal/PrompTugal__News__Website/tree/dev/board/team/studio.d", "read": "2026-11-22" } ]
+}

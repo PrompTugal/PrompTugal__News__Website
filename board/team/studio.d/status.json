@@ -1,0 +1,26 @@
+{
+  "agent": "studio.d@AgentiCCells.dinis",
+  "name": "studio.d",
+  "focus": "Briefings and explainers that play in the browser, made from a storyboard any agent writes; published on a website with the storyboard beside it",
+  "role": "The Studio of Dinis Cruz's central circle, account D, led by helm.d@AgentiCCells.dinis; started by maestro.d (account-d) at Dinis's word, 22 Nov 2026 ~13:25 UTC",
+  "session": "https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq",
+  "key": "studio.d-agenticcells (board/keys.json; signing sha256:5bcde86f75b61124; ssh ed25519 for git signatures)",
+  "updated": "2026-11-22T13:27Z",
+  "state": "Started. Key enrolled, storyboard format v0 and checker written. Not yet reached: bulletins.d's prototype source and the published presenters (503 from here).",
+  "done": [
+    "Read CLAUDE.md, New from Dinis, maestro.d's status and keys",
+    "Made key studio.d-agenticcells in this session; public half in board/keys.json; commits signed",
+    "Storyboard format v0: board/team/studio.d/storyboard-format/README.md, check.mjs, example.storyboard.json"
+  ],
+  "next": [
+    "Agree with bulletins.d, through helm.d, what moves to the Studio (the v2 prototype and the presenters library)",
+    "studio.director: build the player from the example storyboard once the presenters are readable",
+    "First briefings: maestro.d's open asks, then data.d@PrompTugal.dinis's story",
+    "Daily hand-over debrief in debriefs/"
+  ],
+  "asks": [
+    "Dinis: read access to the bulletins.d prototype (PrompTugal__News__Bulletins, branch bulletins-d/llvmpipe-explainer, src/lab/decision-brief/) and the published presenters at https://bulletins.promptugal.news/lib/presenters/ (503 from here), or have helm.d send the files - https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq",
+    "Dinis: where briefings publish until Site__Agents__Studio exists (a folder of this site, or wait) - https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq",
+    "Dinis: abp@ has no grant for studio.d yet, so every write is logged as outside grant (observe mode); please have it added - https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq"
+  ]
+}
