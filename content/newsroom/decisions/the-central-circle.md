@@ -46,7 +46,7 @@ studio.d draws this as a picture for the record, from holacracy.d's `org-chart.j
 
 ## What the reviewers found {#reviews}
 
-holacracy.d (13:44 UTC): the circle and its eleven homes agree with the governance record; the circle had no written purpose, and the anchor circle has none either. Its proposal 06 names the overlaps the roles file answers (`board/team/helm.d/roles.md`).
+holacracy.d (13:44 UTC): the circle and its eleven homes agree with the governance record; the circle had no written purpose, and the anchor circle has none either. Its proposal 06 names the overlaps the roles file answers (`board/team/helm.d/roles.md`). At 14:20 UTC it confirmed the list against `org-chart.json`: every account D agent started by maestro.d and not a conductor is in the picture above (data.d, the email agents and the SovereignWebsite sub-agents sit under conductors). The open point overlaps its proposal 03, who conducts sites.d and hub.d.
 
 ## The recommendation {#recommendation}
 
