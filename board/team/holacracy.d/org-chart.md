@@ -1,6 +1,6 @@
 # Org chart of account D
 
-Drawn from org-chart.json (2026-11-22T03:58Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
+Drawn from org-chart.json (2026-11-22T13:40Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
 
 ## The parent tree (who started whom)
 
@@ -8,7 +8,8 @@ Drawn from org-chart.json (2026-11-22T03:58Z) by holacracy.d@AgentiCCells.dinis.
 maestro.d (account-d) [opus, configured sonnet] working, $12.20
 |-- holacracy.d@AgentiCCells.dinis [sonnet] working
 |-- conductor.d@PrompTugal.dinis [opus] idle, needs input, $3.42
-|   `-- bulletins.d@PrompTugal.dinis [opus] working (blocked on push access, 403), $2.48
+|   |-- bulletins.d@PrompTugal.dinis [opus] working (blocked on push access, 403), $2.48
+|   `-- data.d@PrompTugal.dinis [not fetched] idle, blocked on push access to PrompTugal__News__Data
 |-- conductor.d (SovereignWebsite) [opus] idle, needs input, $19.48
 |   |-- design.d (SovereignWebsite) [opus] idle, review ready, $6.49
 |   |-- synthetic-users.d (SovereignWebsite) [opus] idle, needs input, $7.05
@@ -18,19 +19,32 @@ maestro.d (account-d) [opus, configured sonnet] working, $12.20
 |   `-- streaming.d (StreamingWebsite) [opus, configured sonnet] idle, needs input, $7.72
 |-- hub.d (SovereignWebsite) [sonnet] idle, completed, $1.44
 |-- conductor.d@AgentiCCells.dinis [opus] idle, needs input, $3.66
-|   `-- cell.email.d@AgentiCCells.dinis [opus] idle, needs input, $3.97
-`-- newsroom.d (sgit.ai) [opus] working, review ready, $9.33
+|   |-- cell.email.d@AgentiCCells.dinis [opus] idle, needs input, $3.97
+|   |-- email.workflows.d@AgentiCCells.dinis [not fetched] idle, blocked
+|   |-- email.design.d@AgentiCCells.dinis [not fetched] idle, completed
+|   `-- email.pm.d@AgentiCCells.dinis [not fetched] idle, review ready
+|-- newsroom.d (sgit.ai) [opus] idle, blocked (a question for Dinis), $9.33
+|-- helm.d@AgentiCCells.dinis [not fetched] working
+|-- strategy.d@AgentiCCells.dinis [not fetched] working (just started)
+|-- cartographer.d@AgentiCCells.dinis [not fetched] working (just started)
+|-- sherpa.d@AgentiCCells.dinis [not fetched] working (just started)
+|-- accountant.d@AgentiCCells.dinis [not fetched] working (just started)
+|-- counsel.d@AgentiCCells.dinis [not fetched] working (just started)
+|-- decisions.d@AgentiCCells.dinis [not fetched] working (just started)
+|-- studio.d@AgentiCCells.dinis [not fetched] working (just started)
+`-- landscape.d@AgentiCCells.dinis [not fetched] working (just started)
 ```
 
 ## The circles (who holds what purpose)
 
-- **Dinis's estate (anchor circle)**: lead Dinis; purpose: NOT WRITTEN; fillers: none; sub-circles: maestros, PrompTugal, SovereignWebsite, AgentiCCells
+- **Dinis's estate (anchor circle)**: lead Dinis; purpose: NOT WRITTEN; fillers: none; sub-circles: maestros, PrompTugal, SovereignWebsite, AgentiCCells, central
 - **The maestros**: lead none named (peers); purpose: One combined view of both accounts, one brief to Dinis (board/team/maestros/README.md); fillers: maestro.d, maestro.b (reported)
 - **PrompTugal**: lead conductor.d@PrompTugal (D), conductor.b@PrompTugal.dinis (B, reported); purpose: PrompTugal.news and its sites (CLAUDE.md); fillers: conductor.d@PrompTugal, bulletins.d
 - **SovereignWebsite**: lead conductor.d@SovereignWebsite (D), conductor.b (B, reported); purpose: The SovereignWebsite Factory and its sites; fillers: conductor.d@SovereignWebsite, sites.d, hub.d, design.d, synthetic-users.d, factory.d, library.d; sub-circles: StreamingWebsite
 - **StreamingWebsite**: lead sites.d (by parent; not written as a lead); purpose: The streaming site; fillers: streaming.d
 - **AgentiCCells**: lead conductor.d@AgentiCCells (D), conductor.b@AgentiCCells.dinis and cells.b (B, reported); purpose: The AgentiCCells site factory and its cells; fillers: conductor.d@AgentiCCells, cell.email.d; sub-circles: Cell Email
 - **Cell Email**: lead conductor.d@AgentiCCells (by parent); purpose: The email cell; fillers: cell.email.d
+- **Central circle (helm)**: lead helm.d@AgentiCCells.dinis (as relayed by maestro.d, 22 Nov ~13:20 UTC; not yet written by Dinis in my session); purpose: Direction and navigation for all the other agents (as relayed; not yet written); fillers: helm.d, strategy.d, cartographer.d, sherpa.d, accountant.d, counsel.d, decisions.d, studio.d, landscape.d, holacracy.d
 
 ## Roles and fillers (account D)
 
@@ -51,6 +65,19 @@ maestro.d (account-d) [opus, configured sonnet] working, $12.20
 | conductor.d@AgentiCCells.dinis | AgentiCCells | maestro.d | conductor.b@AgentiCCells.dinis | AgentiCCells/AgentiCCells__Site__Factory | none | https://claude.ai/code/session_015gaHdcaj9Ta2Tke7pnZ3Q9 |
 | cell.email.d@AgentiCCells.dinis | AgentiCCells | conductor.d@AgentiCCells | cell.email.b | AgentiCCells/AgentiCCells__Cell__Email | none | https://claude.ai/code/session_015gaHde7zcTqMyBWcdpdnR6 |
 | newsroom.d (sgit.ai) | newsroom (sgit.ai, not yet a circle in the record) | maestro.d | writer-10 (newsroom.b), reported | SGit-AI/SGit-AI__Website__Newsroom | none seen | https://claude.ai/code/session_015gaHdb5n5RdwdbHzWijPMS |
+| helm.d@AgentiCCells.dinis | central (helm) | maestro.d | none yet | Site__Agents__Helm (to be requested) | none | https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV |
+| strategy.d@AgentiCCells.dinis | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdddd1qVEaY3EG6feEsL |
+| cartographer.d@AgentiCCells.dinis | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH |
+| sherpa.d@AgentiCCells.dinis | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL |
+| accountant.d@AgentiCCells.dinis | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK |
+| counsel.d@AgentiCCells.dinis | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6 |
+| decisions.d@AgentiCCells.dinis | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG |
+| studio.d@AgentiCCells.dinis | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq |
+| landscape.d@AgentiCCells.dinis | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW |
+| email.workflows.d@AgentiCCells.dinis | Cell Email | conductor.d@AgentiCCells | none yet | AgentiCCells/AgentiCCells__Cell__Email (assumed) | none | https://claude.ai/code/session_015gaHdbAGDK9xNPDa9znvB9 |
+| email.design.d@AgentiCCells.dinis | Cell Email | conductor.d@AgentiCCells | none yet | AgentiCCells/AgentiCCells__Cell__Email (assumed) | none | https://claude.ai/code/session_015gaHdb5B7vab8KyN7YiDNZ |
+| email.pm.d@AgentiCCells.dinis | Cell Email | conductor.d@AgentiCCells | none yet | AgentiCCells/AgentiCCells__Cell__Email (assumed) | none | https://claude.ai/code/session_015gaHdasKF9YcSA27g5dMPz |
+| data.d@PrompTugal.dinis | PrompTugal | conductor.d@PrompTugal | none yet | PrompTugal/PrompTugal__News__Data | none | https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z |
 
 ## Account B (reported, not seen)
 
