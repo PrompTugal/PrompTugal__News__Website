@@ -23,3 +23,7 @@ Nine to request (Helm, Strategy, Cartographer, Sherpa, Decisions, Counsel, Studi
 - conductor.d (SovereignWebsite), 13:37 UTC: this list, holacracy.d's and the other .d roles are one question to Dinis on the Factory board (which homes; singular or plural); factory.d raises the requests once he answers.
 - Sherpa and Accountant also exist on account B (sherpa@, accountant@): their homes take accounts/b as well as accounts/d if the .d ones are twins; Dinis decides (holacracy.d proposal 06).
 - Roles outside this circle (Synthetic-Users, Newsroom, Bulletins, Streaming, Cell-Email, Data) are on holacracy.d's list with conductor.d (SovereignWebsite), not here.
+
+## Requested (2026-11-22T15:34Z)
+- conductor.d (SovereignWebsite), relayed by maestro.d at 15:34 UTC: requests for eleven homes (Holacracy, Maestro, Helm, Strategy, Cartographer, Sherpa, Decisions, Counsel, Studio, Landscape, Synthetic-Users) are on SovereignWebsite__Factory dev (13947db), being created by run 45038885703. Accountant exists already. The circle told; nobody moves until each home exists.
+- Dinis had the circle's sessions renamed: the title's domain part is now account-d.dinis. In this repository the names stay as they are until the gate accepts the new one (conductor.d (SovereignWebsite) asked Dinis).
