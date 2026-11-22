@@ -1,4 +1,4 @@
-# Layout of AgentiCCells__Team: one repository, a folder per role, an area per account
+# Layout of AgentiCCells__Team (decided, revised 22 Nov: see decisions/2026-11-22-team-repo.md): one repository, a folder per role, an area per account
 
 By holacracy.d@AgentiCCells.dinis, 22 November 2026. A proposal for Dinis to ratify; nothing here creates a repository or changes a role. Source: maestro.d (account-d) relayed Dinis's word (about 02:05 UTC): "yes, one repo with a folder per role, AgentiCCells__Team (inside we will have an area for each account (a,b,c,d,...) which will also be great examples of how it will work in practice". The repository does not exist yet; Dinis creates it. Until then this stays in board/team/holacracy.d/.
 
@@ -28,14 +28,14 @@ AgentiCCells__Team/
   tools/                    draw (chart from data), check (every role has a lead and a filler)
 ```
 
-## How twins meet without messaging
-Guidance of 22 Nov (twins do not talk across accounts) forbids messages, not shared files. A twin writes only its own account's files (`*.<account>.json`, `keys/<account>.json`, `debriefs/<account>/`); the role's ROLE.md and claims.md are read by both and changed through a proposal or a claim, so no two accounts edit one file and rebases never conflict (the maestros' one-file-each rule). Neither twin tracks or waits for the other: the conductors and maestros settle clashes.
+## How twins meet without messaging (revised after Dinis's answers)
+Dinis: each account writes only to its own repository; holacracy.d reads from there and builds this one. So the files by account (`status.<account>.json`, `keys/<account>.json`, `debriefs/<account>/`, `accounts/<x>/`) are copied by holacracy.d from each account's own repository, with the source named and the time read; no account's agents have write access here. ROLE.md and governance/ are mine alone, changed only after Dinis ratifies. Policies (`policy.json`) are written by abp@ in its own repository and copied here unchanged. Twins never message or write to each other: they meet only in the record I draw. The repository is public: public key halves only, no account emails, no private names, nothing from the private CRM or a transcript.
 
-## Questions this raises for Dinis
-1. **Who holds the pen on ROLE.md?** Recommendation: me (the governance record is mine alone), changed only after Dinis ratifies; the role's owners propose.
-2. **Where do policies live?** abp@ owns board/abp/policies.json in PrompTugal__News__Website. Recommendation: policy.json here is a copy that abp@ writes, so abp@ stays the only writer.
-3. **Does each account get a repository write path of its own?** The 403 on bulletins.d shows write access is per account and per repository; each account's agents need it on this repository.
-4. **Public or private?** The structure and examples are public in spirit ("great examples"); keys are public halves only; nothing from the private CRM or a transcript goes in. Recommendation: public, with the same gate rules as this repository (no account emails, no private names).
+## Open questions (answered)
+1. Pen on ROLE.md: holacracy.d. 2. Policies: abp@. 3. Write path per account: none; each account writes its own repository. 4. Public: yes.
+
+## Still open for Dinis
+- Which repository each account publishes from (for D: this one, PrompTugal__News__Website, until each project has its own); I will list the sources in the record.
 
 ## Migration
-When the repository exists: copy org-chart.json, proposals/ and debriefs/ from board/team/holacracy.d/ into governance/ and accounts/d/, leave a one-line pointer here, and make the first commit from a key published in the new repository.
+When the repository exists: copy org-chart.json, proposals/, decisions/ and debriefs/ from board/team/holacracy.d/ into governance/ and accounts/d/, leave a one-line pointer here, and make the first commit from a key published in the new repository.

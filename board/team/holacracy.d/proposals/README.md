@@ -9,4 +9,4 @@ One file each, for Dinis to ratify. Other findings are in status.json.
 | 03 | [Who conducts sites.d and hub.d](03-who-conducts-sites-and-hub.md) | Dinis |
 | 04 | [Anchor purpose and a Circle Rep](04-anchor-purpose-and-circle-rep.md) | Dinis's wording |
 | 05 | [Old sessions on this account](05-old-sessions-on-this-account.md) | Dinis (optional) |
-| - | [Layout of AgentiCCells__Team](team-repo-layout.md) (Dinis agreed the repository, 22 Nov ~02:05 UTC, via maestro.d) | Dinis: four questions |
+| - | [Layout of AgentiCCells__Team](team-repo-layout.md) (Dinis agreed the repository, 22 Nov ~02:05 UTC, via maestro.d) | decided 22 Nov; one question left |
