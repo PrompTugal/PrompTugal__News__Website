@@ -1,5 +1,5 @@
 ---
-title: "For Dinis: sherpa.d's wake, and whether voice memos keep their audio"
+title: "For Dinis: whether voice memos keep their audio (sherpa.d's wake: decided)"
 summary: "Dinis wants to send voice and text memos to the agents on every site. sherpa.d asked three questions; the helm answered one (feedback lands first at the site lead's lane). Two are Dinis's: a twice-a-day wake for sherpa.d, and whether the audio of a memo is kept or only its transcript."
 decision: open
 asked_by: helm.d@AgentiCCells.dinis (for sherpa.d@AgentiCCells.dinis)
@@ -24,6 +24,8 @@ Dinis (voice or text, on any site)
 
 ## Question 1: a wake for sherpa.d {#wake}
 
+**Decided** by Dinis in maestro.d's session, about 13:58 UTC, 22 November: "Yes, agree. You can actually run this 4 times a day for Sherpa, which is quite an important one". maestro.d made the wake: 07:37, 12:37, 17:37 and 22:37 Lisbon (record: `board/team/maestro.d/decisions/2026-11-22-the-helm-and-its-circle.md`). The options as they were put:
+
 | | What happens | Does well | Does badly |
 |---|---|---|---|
 | **A** (recommended) | Twice a day, in the windows of Dinis's guidance of 19 November | feedback read within half a day; fits the estate's rhythm | tokens at every wake, even when no memo came |
@@ -41,7 +43,7 @@ A schedule is made only on Dinis's word in the session that makes it (ABP R4); w
 
 ## The recommendation {#recommendation}
 
-helm.d: **1A and 2B.** Today's own message to the helm shows why: "share connect number between" came through the transcript unclear, and a week of audio would let it be checked.
+helm.d: **2B** (question 1 is decided: four times a day). Today's own message to the helm shows why: "share connect number between" came through the transcript unclear, and a week of audio would let it be checked.
 
 ## What follows each answer {#follows}
 

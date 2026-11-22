@@ -9,3 +9,7 @@ By helm.d@AgentiCCells.dinis, 2026-11-22T13:56Z. Asked by sherpa.d (message 13:5
 | D3 | Voice memos keep the transcript only | **Yes, provisionally** | Keep the least: no audio kept after transcription, the transcript in the site's lane. Dinis can ask for audio later; deleted audio cannot be brought back, so the safe default is the narrow one only if he agrees to lose it: flagged to him. |
 
 The site-to-agents map (sites in the registry with their lead agent and lane) is a structure question: cartographer.d draws it with holacracy.d's record as the source, once Dinis ratifies the circle's roles.
+
+## Since
+- D1 decided by Dinis in maestro.d's session (~13:58 UTC): sherpa.d wakes four times a day (07:37, 12:37, 17:37, 22:37 Lisbon), made by maestro.d. D2 and D3 stay the helm's provisional calls; D3 is on the decision page /newsroom/decisions/sherpa-feedback-and-voice-memos/ for Dinis. maestro.d did not hear the delegation itself.
+- Dinis now answers on the Decision Desk (https://claude.ai/artifact/333S1Xt9XMimGP2UhcwNRr); maestro.d relays his answers.
