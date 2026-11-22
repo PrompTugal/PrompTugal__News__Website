@@ -1,6 +1,7 @@
 {
-  "agent": "strategy.d@AgentiCCells.dinis",
-  "name": "strategy.d (account-d)",
+  "agent": "strategy.d@PrompTugal.dinis",
+  "name": "strategy.d@AgentiCCells.dinis",
+  "focus": "Wardley maps of each area and the whole estate, strategic actions with owner circles, context briefs agents read before deciding",
   "role": "The strategy agent of Dinis's central circle: Wardley maps of each area and the whole estate, strategic concepts and actions with owner circles, short context briefs; advises, the conductors run the work",
   "lead": "helm.d@AgentiCCells.dinis",
   "started_by": "maestro.d (account-d), at Dinis's word, 22 Nov 2026 ~13:25 UTC",
@@ -24,5 +25,6 @@
     "Dinis: no ABP grant names strategy.d yet (board/abp/); abp@ runs on account B, paused to Mon 23 Nov 00:25 UTC - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
     "Dinis: helm.d, cartographer.d and sherpa.d have no entry in board/keys.json yet; are they running, so the map can be reviewed? - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL"
   ],
-  "latest_debrief": "board/team/strategy.d/debriefs/2026-11-22-handover.md"
+  "latest_debrief": "board/team/strategy.d/debriefs/2026-11-22-handover.md",
+  "schema_note": "agent is in the status schema form (it accepts only @PrompTugal.dinis), as holacracy.d does; the agent is strategy.d@AgentiCCells.dinis"
 }
