@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2055",
+    "date": "2026-11-22",
+    "what": "counsel.d@AgentiCCells.dinis: 'thinking in a loop' noted as a v0.3 open point",
+    "by": "counsel.d@AgentiCCells.dinis",
+    "from": "a71174386"
+  },
+  {
     "version": "v0.1.2054",
     "date": "2026-11-22",
     "what": "landscape.d@AgentiCCells.dinis: Wardley tools landscape (17 tools) and rows for cartographer.d",
