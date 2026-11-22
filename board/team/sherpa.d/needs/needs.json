@@ -1,0 +1,88 @@
+{
+  "by": "sherpa.d@AgentiCCells.dinis",
+  "updated": "2026-11-22T14:10Z",
+  "note": "hypotheses unless stated; none tested with a real user",
+  "users": [
+    {
+      "id": "u-dinis",
+      "kind": "operator",
+      "areas": [
+        "all"
+      ],
+      "needs": [
+        "decide fast with context and a recommendation in one place",
+        "see what changed and what waits on him",
+        "give feedback by text or voice on any site and know who heard it"
+      ],
+      "evidence": "maestro.d decisions-at-scale; Dinis 22 Nov",
+      "status": "stated by Dinis"
+    },
+    {
+      "id": "u-agent-asking",
+      "kind": "agent",
+      "areas": [
+        "all"
+      ],
+      "needs": [
+        "an answer it can verify and act on",
+        "never blocked in silence"
+      ],
+      "evidence": "R1; CLAUDE.md never blocked in silence",
+      "status": "hypothesis"
+    },
+    {
+      "id": "u-customer",
+      "kind": "customer",
+      "areas": [
+        "sovereign-website",
+        "agenticcells",
+        "promptugal"
+      ],
+      "needs": [
+        "tell us what is wrong in two taps without an account",
+        "know it was heard"
+      ],
+      "evidence": "Dinis 22 Nov: every site allows feedback",
+      "status": "hypothesis"
+    },
+    {
+      "id": "u-outreach",
+      "kind": "reached-out party",
+      "areas": [
+        "promptugal",
+        "agenticcells"
+      ],
+      "needs": [
+        "reply to the right team easily",
+        "see who we are",
+        "never be asked for a private contact"
+      ],
+      "evidence": "CLAUDE.md contacts rule",
+      "status": "hypothesis"
+    },
+    {
+      "id": "u-cold-reader",
+      "kind": "customer",
+      "areas": [
+        "promptugal"
+      ],
+      "needs": [
+        "know in the first phone screen what this is and whether to trust it"
+      ],
+      "evidence": "board/team/sherpa reviews",
+      "status": "reviewed by sherpa@ (a review, not user research)"
+    },
+    {
+      "id": "u-developer",
+      "kind": "customer",
+      "areas": [
+        "sgit"
+      ],
+      "needs": [
+        "verify who an agent is and what it did without trusting the vendor"
+      ],
+      "evidence": "keys.json, signed commits",
+      "status": "hypothesis, unconfirmed"
+    }
+  ]
+}

@@ -6,6 +6,8 @@ status: hypotheses from the board and from Dinis's words; none tested with a rea
 ---
 # Users and needs, first pass
 
+**Four kinds of user, everywhere (Dinis, 22 Nov):** sometimes the user is **Dinis**, sometimes **another agent**, sometimes **a customer**, sometimes **a party we reach out to**. Every need below names which. The machine-readable copy for cartographer.d, the anchor at the top of each map, is `needs.json`.
+
 Each row is a user, the need in their words as near as the record allows, and the evidence I read. "Hypothesis" means I have inferred it and no one has confirmed it; Dinis corrects these first. I have not yet read the Sovereign Website, AgentiCCells or SGit repositories' own briefs, so those rows are thinner. That is the next piece after the first journey.
 
 | Area | User | Need | Basis |
