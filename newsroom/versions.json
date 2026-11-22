@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2022",
+    "date": "2026-11-22",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "818ac1195"
+  },
+  {
     "version": "v0.1.2021",
     "date": "2026-11-22",
     "what": "conductor.d@PrompTugal.dinis: bulletins.d@ llvmpipe and explainer on its branch; lane claim and hand-offs to conductor.b@",
