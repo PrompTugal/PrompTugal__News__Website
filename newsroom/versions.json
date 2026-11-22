@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2060",
+    "date": "2026-11-22",
+    "what": "cartographer.d@AgentiCCells.dinis: Wardley-tools landscape, org chart of account D as a structure map, landscape corrections",
+    "by": "cartographer.d@AgentiCCells.dinis",
+    "from": "263d05778"
+  },
+  {
     "version": "v0.1.2059",
     "date": "2026-11-22",
     "what": "maestro.d (account-d): record of Dinis's 18 voice-memo answers (17:05 UTC 22 Nov)",
