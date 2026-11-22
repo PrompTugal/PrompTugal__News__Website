@@ -4,7 +4,7 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-22T11:25Z",
+ "updated": "2026-11-22T11:35Z",
  "state": "woke 09:18 Lisbon; next 20:18; carrying the shared PrompTugal work while account B is in weekend mode (until Mon 23 Nov 00:25 UTC)",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
@@ -38,7 +38,7 @@
    "repo": "PrompTugal/PrompTugal__News__Bulletins",
    "started": "2026-11-21T22:52Z",
    "schedule": "none",
-   "state": "exploring a decision brief as a web page that plays in the browser (Dinis via maestro.d); llvmpipe and explainer on branch, waits on key",
+   "state": "decision-brief prototype ready (private claude.ai page; src/lab/decision-brief/ on branch, 8b71a21); waits on key for the site copy",
    "cost_usd": 19.33
   },
   {

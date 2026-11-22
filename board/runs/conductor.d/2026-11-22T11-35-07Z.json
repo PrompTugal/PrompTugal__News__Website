@@ -1,0 +1,73 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "conductor.d@PrompTugal.dinis",
+ "run": "2026-11-22T11-35-07Z",
+ "started": "2026-11-22T11:35:07.278Z",
+ "ended": "2026-11-22T11:35:17Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-22T11:35:07.278Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 2,
+  "by_kind": {
+   "other": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R5": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 1,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-22T11:35:15.947Z",
+    "tool": "Bash",
+    "rule": "R5",
+    "what": "conductor.d@PrompTugal.dinis is a writer: push work/conductor.d only; its reviewer brings the work onto dev",
+    "target": "git pull -q --rebase origin dev; ls board/HOLD.md 2>/dev/null; NOW=$(date -u +%Y-%m-%dT%H:%MZ) && echo \"- $NOW | state | bulletins.d@'s decision-brief prototype is ready as a private claude.ai page for Dinis's phone; source src/lab/decision"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 2,
+  "in_mandate": 1,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}
