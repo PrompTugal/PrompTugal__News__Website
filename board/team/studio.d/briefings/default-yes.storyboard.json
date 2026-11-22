@@ -24,7 +24,7 @@
    "visual": {
     "kind": "list",
     "items": [
-     "Often your answer is yes",
+     "“A number of times my decision is yes” (your words, in maestro.d's analysis)",
      "By the time a question reaches you it is already well thought through",
      "The team's rule: the owner's recommendation is the default"
     ]
@@ -86,6 +86,21 @@
    },
    "facts": [
     "f-proposal"
+   ]
+  },
+  {
+   "id": "b3a",
+   "narration": "Three classes of routine question, each with its own window. A, within one agent's own domain: twelve hours. B, between agents on one account: twenty-four hours. C, naming and layout in a repository: twenty-four hours. All reversible.",
+   "visual": {
+    "kind": "list",
+    "items": [
+     "A, within one agent's own domain, reversible: 12 hours (e.g. which of an agent's own options to build first)",
+     "B, between agents on one account, reversible: 24 hours (e.g. who raises a review, the order of work)",
+     "C, naming and layout in a repository: 24 hours (e.g. a folder layout, a role home's spelling)"
+    ]
+   },
+   "facts": [
+    "s-design"
    ]
   },
   {
@@ -228,7 +243,13 @@
    "title": "decisions.d, default-yes windows: the proposal",
    "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/decisions.d/design/default-yes.md",
    "read": "2026-11-22"
+  },
+  {
+   "id": "s-design",
+   "title": "decisions.d: default-yes design (classes and windows)",
+   "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/decisions.d/design/default-yes.md",
+   "read": "2026-11-22"
   }
  ],
- "drawn_by": "studio.d@AgentiCCells.dinis: the visuals were filled from the beats' narration, the narration, decision and ask are decisions.d's, unchanged"
+ "drawn_by": "studio.d@AgentiCCells.dinis: the visuals were filled from the beats' narration, the narration, decision and ask are decisions.d's, unchanged; beat b3a (three classes and windows, from decisions.d's design/default-yes.md) added by studio.d at decisions.d's review, narration written by studio.d"
 }
