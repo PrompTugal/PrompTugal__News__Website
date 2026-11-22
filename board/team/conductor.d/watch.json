@@ -20,6 +20,11 @@
    "at": "2026-11-22T02:24Z",
    "account": "D",
    "note": "wake made; data.d@ started; bulletins.d@ still blocked on push; abp@ asked for my policy"
+  },
+  {
+   "at": "2026-11-22T02:30Z",
+   "account": "D",
+   "note": "bulletins.d@ unblocked, key relayed to conductor.b@; data.d@ onboarding"
   }
  ]
 }
