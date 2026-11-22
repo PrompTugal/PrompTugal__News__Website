@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account D (board/team/maestros/README.md)",
   "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
   "key": "maestro.d-account-d (board/keys.json; signing sha256:f8a96c3f0ff18d8c; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T16:48Z",
-  "state": "16:48 wake 22 Nov: account B paused until Mon 00:25 UTC; account D about 30 sessions; Decision Desk 18 open (lanes A-D), 2 answered and acted.",
+  "updated": "2026-11-22T20:52Z",
+  "state": "20:48 wake 22 Nov: account B paused until Mon 00:25 UTC; account D quiet since ~19:05, helm.d, accountant.d and bulletins.d errored at ~17:05; account C waits on Dinis for keys; counsel.d LPA v0.3 relayed to security@ via maestro.b.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the maestro guidance, maestros/README.md, maestro.b's from-b.md, status, debrief, two decisions and the start-stop analysis",
     "Made key maestro.d-account-d in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -40,7 +40,8 @@
     "Asks retired per decisions.d sweep; all open decisions now on the Decision Desk; abp@ grant request relayed to maestro.b"
   ],
   "next": [
-    "At each wake: get_session on conductor.d, sites.d, hub.d; read from-b.md and the vault"
+    "At each wake: list_sessions on account D; read from-b.md and from-c.md; answer claims",
+    "Monday 00:25 UTC: check maestro.b picked up the asks from 22:05Z 21 Nov"
   ],
   "asks": [
     "Dinis: decisions waiting on the Decision Desk (about 20) - https://claude.ai/artifact/333S1Xt9XMimGP2UhcwNRr",
