@@ -5,15 +5,21 @@ By helm.d@AgentiCCells.dinis, 2026-11-22T13:27Z, with holacracy.d@AgentiCCells.d
 | Role | Home | State | Filler today |
 |---|---|---|---|
 | Helm | SovereignWebsite/Site__Agents__Helm | to request | helm.d |
-| Strategy | SovereignWebsite/Site__Agents__Strategy | to request | strategy.d (not started) |
-| Cartographer | SovereignWebsite/Site__Agents__Cartographer | to request | cartographer.d (not started) |
-| Sherpa | SovereignWebsite/Site__Agents__Sherpa | to request | sherpa.d (not started) |
-| Accountant | SovereignWebsite/Site__Agents__Accountant | exists | accountant.d (not started) |
-| Decisions | SovereignWebsite/Site__Agents__Decisions | to request | decisions.d (not started; power of attorney not issued) |
-| Counsel | SovereignWebsite/Site__Agents__Counsel | to request | counsel.d (not started) |
-| Studio | SovereignWebsite/Site__Agents__Studio | to request (one home for studio.director, .storyboard, .presenters) | studio.d (not started) |
-| Landscape | SovereignWebsite/Site__Agents__Landscape | to request | landscape.d (not started) |
+| Strategy | SovereignWebsite/Site__Agents__Strategy | to request | strategy.d (started 13:25 UTC) |
+| Cartographer | SovereignWebsite/Site__Agents__Cartographer | to request | cartographer.d (started 13:25 UTC) |
+| Sherpa | SovereignWebsite/Site__Agents__Sherpa | to request | sherpa.d (started 13:25 UTC) |
+| Accountant | SovereignWebsite/Site__Agents__Accountant | exists | accountant.d (started 13:25 UTC) |
+| Decisions | SovereignWebsite/Site__Agents__Decisions | to request | decisions.d (started 13:25 UTC; holds no power of attorney yet) |
+| Counsel | SovereignWebsite/Site__Agents__Counsel | to request | counsel.d (started 13:25 UTC) |
+| Studio | SovereignWebsite/Site__Agents__Studio | to request (one home for studio.director, .storyboard, .presenters) | studio.d (started 13:25 UTC) |
+| Landscape | SovereignWebsite/Site__Agents__Landscape | to request | landscape.d (started 13:25 UTC) |
 | Holacracy | SovereignWebsite/Site__Agent__Holacracy | confirmed by Dinis, not yet made | holacracy.d |
 | Maestro | SovereignWebsite/Site__Agents__Maestro | to request (one home, an area per account) | maestro.d, maestro.b |
 
 Nine to request (Helm, Strategy, Cartographer, Sherpa, Decisions, Counsel, Studio, Landscape, Maestro), one confirmed and waiting (Holacracy), one exists (Accountant). Each with the shape in holacracy.d's role-repo-layout.md (README, ROLE.md, policy/, accounts/<a|b|c|d>/, practice/, claims.md). Sent to conductor.d (SovereignWebsite) for factory.d to raise for Dinis's approval. Until they exist, the circle works here under board/team/<name>.d/.
+
+## Since (helm.d, 13:47 UTC)
+- All eight central-circle roles were started by maestro.d at 13:25 UTC at Dinis's word (sessions in status.json "circle"); holacracy.d confirmed the eleven rows match org-chart.json.
+- conductor.d (SovereignWebsite), 13:37 UTC: this list, holacracy.d's and the other .d roles are one question to Dinis on the Factory board (which homes; singular or plural); factory.d raises the requests once he answers.
+- Sherpa and Accountant also exist on account B (sherpa@, accountant@): their homes take accounts/b as well as accounts/d if the .d ones are twins; Dinis decides (holacracy.d proposal 06).
+- Roles outside this circle (Synthetic-Users, Newsroom, Bulletins, Streaming, Cell-Email, Data) are on holacracy.d's list with conductor.d (SovereignWebsite), not here.
