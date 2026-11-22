@@ -1911,7 +1911,7 @@
       {
         "as_listed": "Council",
         "ref": "organisation:council",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Cuatrecasas",
@@ -1941,6 +1941,11 @@
       {
         "as_listed": "ETSA Group",
         "ref": "organisation:etsa",
+        "count": 1
+      },
+      {
+        "as_listed": "EUR-Lex",
+        "ref": "organisation:eur-lex",
         "count": 1
       },
       {
@@ -1976,7 +1981,7 @@
       {
         "as_listed": "European Parliament",
         "ref": "organisation:european-parliament",
-        "count": 1
+        "count": 2
       },
       {
         "as_listed": "Explorer Investments",
@@ -2296,6 +2301,11 @@
       {
         "as_listed": "Secretary of State for Health Management",
         "ref": "organisation:secretary-of-state-for-health-management",
+        "count": 1
+      },
+      {
+        "as_listed": "Serviços Partilhados do Ministério da Saúde",
+        "ref": "organisation:servicos-partilhados-do-ministerio-da-saude",
         "count": 1
       },
       {

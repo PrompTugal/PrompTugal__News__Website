@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "servicos-partilhados-do-ministerio-da-saude",
+  "type": "organisation",
+  "name": "Serviços Partilhados do Ministério da Saúde",
+  "names_as_listed": [
+    "Serviços Partilhados do Ministério da Saúde"
+  ],
+  "sources": [
+    {
+      "url": "https://ordemdosmedicos.pt/files/pdfs/X4EN-Manual_TelerreabilitacaoPrescricao_V1.pdf",
+      "read_at": "2026-11-22T15:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

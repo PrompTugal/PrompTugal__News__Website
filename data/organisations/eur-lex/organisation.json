@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "eur-lex",
+  "type": "organisation",
+  "name": "EUR-Lex",
+  "names_as_listed": [
+    "EUR-Lex"
+  ],
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+      "read_at": "2026-11-22T15:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

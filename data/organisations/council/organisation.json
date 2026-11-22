@@ -8,6 +8,12 @@
   ],
   "sources": [
     {
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+      "read_at": "2026-11-22T15:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    },
+    {
       "url": "https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai",
       "read_at": "2026-11-20T15:50Z",
       "by": "curator@PrompTugal.vicky",

@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-eurlex-regulation-2026-1744-browser-check",
+  "type": "evidence",
+  "source_url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+  "beat": "Europe",
+  "group": "Held",
+  "names": [
+    {
+      "as_listed": "EUR-Lex",
+      "ref": "organisation:eur-lex"
+    },
+    {
+      "as_listed": "European Parliament",
+      "ref": "organisation:european-parliament"
+    },
+    {
+      "as_listed": "Council",
+      "ref": "organisation:council"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-22-1550.json",
+  "run": "2026-11-22T15:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-22-1550.json"
+    ]
+  }
+}
