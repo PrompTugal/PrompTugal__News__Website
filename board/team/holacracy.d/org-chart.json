@@ -1,0 +1,359 @@
+{
+ "about": "The governance record of Dinis's agents, kept by holacracy.d@AgentiCCells.dinis. First draft, 22 November 2026. Account D from list_sessions, get_session (status, model, cost, parent; never transcripts) and the status.json files; account B reported, not seen.",
+ "generated": "2026-11-22T02:25Z",
+ "schema": "circles[], roles(=agents)[], tensions in proposals/. Roles' domains come from the ABP grant where one exists (none yet for the .d agents, see T4).",
+ "sources": [
+  "board/team/maestro.d/status.json",
+  "board/team/conductor.d/status.json",
+  "board/team/maestros/view.md",
+  "board/abp/policies.json",
+  "board/keys.json",
+  "list_sessions and get_session on account D at 02:0x UTC"
+ ],
+ "circles": [
+  {
+   "id": "anchor",
+   "name": "Dinis's estate (anchor circle)",
+   "lead": "Dinis",
+   "purpose": null,
+   "sub": [
+    "maestros",
+    "PrompTugal",
+    "SovereignWebsite",
+    "AgentiCCells"
+   ]
+  },
+  {
+   "id": "maestros",
+   "name": "The maestros",
+   "lead": "none named (peers)",
+   "purpose": "One combined view of both accounts, one brief to Dinis (board/team/maestros/README.md)",
+   "fillers": [
+    "maestro.d",
+    "maestro.b (reported)"
+   ]
+  },
+  {
+   "id": "PrompTugal",
+   "name": "PrompTugal",
+   "lead": "conductor.d@PrompTugal (D), conductor.b@PrompTugal.dinis (B, reported)",
+   "purpose": "PrompTugal.news and its sites (CLAUDE.md)",
+   "fillers": [
+    "conductor.d@PrompTugal",
+    "bulletins.d"
+   ]
+  },
+  {
+   "id": "SovereignWebsite",
+   "name": "SovereignWebsite",
+   "lead": "conductor.d@SovereignWebsite (D), conductor.b (B, reported)",
+   "purpose": "The SovereignWebsite Factory and its sites",
+   "fillers": [
+    "conductor.d@SovereignWebsite",
+    "sites.d",
+    "hub.d",
+    "design.d",
+    "synthetic-users.d",
+    "factory.d",
+    "library.d"
+   ],
+   "sub": [
+    "StreamingWebsite"
+   ]
+  },
+  {
+   "id": "StreamingWebsite",
+   "name": "StreamingWebsite",
+   "lead": "sites.d (by parent; not written as a lead)",
+   "purpose": "The streaming site",
+   "fillers": [
+    "streaming.d"
+   ]
+  },
+  {
+   "id": "AgentiCCells",
+   "name": "AgentiCCells",
+   "lead": "conductor.d@AgentiCCells (D), conductor.b@AgentiCCells.dinis and cells.b (B, reported)",
+   "purpose": "The AgentiCCells site factory and its cells",
+   "fillers": [
+    "conductor.d@AgentiCCells",
+    "cell.email.d"
+   ],
+   "sub": [
+    "Cell Email"
+   ]
+  },
+  {
+   "id": "Cell Email",
+   "name": "Cell Email",
+   "lead": "conductor.d@AgentiCCells (by parent)",
+   "purpose": "The email cell",
+   "fillers": [
+    "cell.email.d"
+   ]
+  }
+ ],
+ "agents_account_d": [
+  {
+   "id": "maestro.d",
+   "name": "maestro.d (account-d)",
+   "circle": "maestros",
+   "parent": null,
+   "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
+   "model": "opus",
+   "configured": "sonnet",
+   "state": "working",
+   "cost": 12.2,
+   "wake": "every 4 h at :48 UTC",
+   "repo": "PrompTugal/PrompTugal__News__Website",
+   "purpose": "One combined view of both accounts and one brief to Dinis; conducts account D's conductors; never a conductor's work",
+   "twin": "maestro.b (account-b)",
+   "lead_of": [
+    "maestros (account D side)"
+   ],
+   "account": "D"
+  },
+  {
+   "id": "holacracy.d",
+   "name": "holacracy.d@AgentiCCells.dinis",
+   "circle": "anchor",
+   "parent": "maestro.d",
+   "session": "https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
+   "model": "sonnet",
+   "configured": "sonnet",
+   "state": "working",
+   "cost": null,
+   "wake": "none",
+   "repo": "PrompTugal/PrompTugal__News__Website (board/team/holacracy.d/)",
+   "purpose": "The health of the whole system of Dinis's agents: every circle has a lead, every role is written and filled, every structure problem reaches someone who can resolve it",
+   "twin": "none yet",
+   "account": "D"
+  },
+  {
+   "id": "conductor.d@PrompTugal",
+   "name": "conductor.d@PrompTugal.dinis",
+   "circle": "PrompTugal",
+   "parent": "maestro.d",
+   "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
+   "model": "opus",
+   "state": "idle, needs input",
+   "cost": 3.42,
+   "wake": "none (waits on Dinis)",
+   "repo": "PrompTugal/PrompTugal__News__Website",
+   "purpose": "Conduct the PrompTugal sessions on account D and carry the shared PrompTugal work",
+   "twin": "conductor.b@PrompTugal.dinis",
+   "lead_of": [
+    "PrompTugal (account D side)"
+   ],
+   "configured": "opus",
+   "account": "D"
+  },
+  {
+   "id": "bulletins.d",
+   "name": "bulletins.d@PrompTugal.dinis",
+   "circle": "PrompTugal",
+   "parent": "conductor.d@PrompTugal",
+   "session": "https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj",
+   "model": "opus",
+   "state": "working (blocked on push access, 403)",
+   "cost": 2.48,
+   "wake": "none",
+   "repo": "PrompTugal/PrompTugal__News__Bulletins",
+   "purpose": "Bulletins (text, audio, video summaries from the data) on account D",
+   "twin": "bulletins.b@PrompTugal.dinis",
+   "configured": "opus",
+   "account": "D"
+  },
+  {
+   "id": "conductor.d@SovereignWebsite",
+   "name": "conductor.d (SovereignWebsite)",
+   "circle": "SovereignWebsite",
+   "parent": "maestro.d",
+   "session": "https://claude.ai/code/session_015gaHdbX954ByXJf8LH5FLL",
+   "model": "opus",
+   "state": "idle, needs input",
+   "cost": 19.48,
+   "wake": "none",
+   "repo": "SovereignWebsite/SovereignWebsite__Factory",
+   "purpose": "Conduct SovereignWebsite on account D",
+   "twin": "conductor.b (SovereignWebsite)",
+   "lead_of": [
+    "SovereignWebsite (account D side)"
+   ],
+   "configured": "opus",
+   "account": "D"
+  },
+  {
+   "id": "sites.d",
+   "name": "sites.d (SovereignWebsite)",
+   "circle": "SovereignWebsite",
+   "parent": "maestro.d",
+   "session": "https://claude.ai/code/session_015gaHde5GfQygpBgyUhNzuf",
+   "model": "sonnet",
+   "state": "idle, needs input",
+   "cost": 2.18,
+   "wake": "none",
+   "repo": "SovereignWebsite/Site__Agents__Sites",
+   "purpose": "Run the sites of SovereignWebsite on account D",
+   "twin": "sites.b",
+   "lead_of": [
+    "StreamingWebsite (sub-circle)"
+   ],
+   "configured": "sonnet",
+   "account": "D"
+  },
+  {
+   "id": "hub.d",
+   "name": "hub.d (SovereignWebsite)",
+   "circle": "SovereignWebsite",
+   "parent": "maestro.d",
+   "session": "https://claude.ai/code/session_015gaHdbMGVTN5vJ9jVfAi3N",
+   "model": "sonnet",
+   "state": "idle, completed",
+   "cost": 1.44,
+   "wake": "none",
+   "repo": "SovereignWebsite/SovereignWebsite__Hub",
+   "purpose": "The Hub of SovereignWebsite on account D",
+   "twin": "hub.b",
+   "configured": "sonnet",
+   "account": "D"
+  },
+  {
+   "id": "design.d",
+   "name": "design.d (SovereignWebsite)",
+   "circle": "SovereignWebsite",
+   "parent": "conductor.d@SovereignWebsite",
+   "session": "https://claude.ai/code/session_015gaHdczGFLc7N3kCq8MrWz",
+   "model": "opus",
+   "state": "idle, review ready",
+   "cost": 6.49,
+   "wake": "own round at 02:59 UTC (set inside its session, not seen as a scheduled task here)",
+   "repo": "SovereignWebsite/Site__Agents__Design",
+   "purpose": "Design rounds for the .d sites",
+   "twin": "design.b?",
+   "configured": "opus",
+   "account": "D"
+  },
+  {
+   "id": "synthetic-users.d",
+   "name": "synthetic-users.d (SovereignWebsite)",
+   "circle": "SovereignWebsite",
+   "parent": "conductor.d@SovereignWebsite",
+   "session": "https://claude.ai/code/session_015gaHdddQiB4aYZWXjfs16rM",
+   "model": "opus",
+   "state": "idle, needs input",
+   "cost": 7.05,
+   "wake": "none",
+   "repo": "SovereignWebsite/Site__Agents__Design",
+   "purpose": "Synthetic users for the .d sites",
+   "twin": "synthetic-users.b?",
+   "configured": "opus",
+   "account": "D"
+  },
+  {
+   "id": "factory.d",
+   "name": "factory.d (SovereignWebsite)",
+   "circle": "SovereignWebsite",
+   "parent": "conductor.d@SovereignWebsite",
+   "session": "https://claude.ai/code/session_015gaHde6kToHbUHDD8AN72E",
+   "model": "opus",
+   "state": "idle, needs input",
+   "cost": 3.41,
+   "wake": "none",
+   "repo": "SovereignWebsite/SovereignWebsite__Factory",
+   "purpose": "SovereignWebsite__Factory changes for the .d team",
+   "twin": "factory.b",
+   "configured": "opus",
+   "account": "D"
+  },
+  {
+   "id": "library.d",
+   "name": "library.d (SovereignWebsite)",
+   "circle": "SovereignWebsite",
+   "parent": "conductor.d@SovereignWebsite",
+   "session": "https://claude.ai/code/session_015gaHdecGUXfFRDs8DmeUFN",
+   "model": "opus",
+   "state": "idle, needs input",
+   "cost": 10.24,
+   "wake": "none",
+   "repo": "SovereignWebsite/Site__Agents__Library",
+   "purpose": "The library and the relay of the newsroom writing for the .d team",
+   "twin": "librarian.b (SovereignWebsite)",
+   "configured": "opus",
+   "account": "D"
+  },
+  {
+   "id": "streaming.d",
+   "name": "streaming.d (StreamingWebsite)",
+   "circle": "StreamingWebsite",
+   "parent": "sites.d",
+   "session": "https://claude.ai/code/session_015gaHdbE7t4XNf21L7neufF",
+   "model": "opus",
+   "configured": "sonnet",
+   "state": "idle, needs input",
+   "cost": 7.72,
+   "wake": "none",
+   "repo": "SovereignWebsite/Site__Tool__Streaming",
+   "purpose": "The streaming site",
+   "twin": "streaming.b?",
+   "account": "D"
+  },
+  {
+   "id": "conductor.d@AgentiCCells",
+   "name": "conductor.d@AgentiCCells.dinis",
+   "circle": "AgentiCCells",
+   "parent": "maestro.d",
+   "session": "https://claude.ai/code/session_015gaHdcaj9Ta2Tke7pnZ3Q9",
+   "model": "opus",
+   "state": "idle, needs input",
+   "cost": 3.66,
+   "wake": "none",
+   "repo": "AgentiCCells/AgentiCCells__Site__Factory",
+   "purpose": "Conduct AgentiCCells on account D",
+   "twin": "conductor.b@AgentiCCells.dinis",
+   "lead_of": [
+    "AgentiCCells (account D side)",
+    "Cell Email (sub-circle)"
+   ],
+   "configured": "opus",
+   "account": "D"
+  },
+  {
+   "id": "cell.email.d",
+   "name": "cell.email.d@AgentiCCells.dinis",
+   "circle": "AgentiCCells",
+   "parent": "conductor.d@AgentiCCells",
+   "session": "https://claude.ai/code/session_015gaHde7zcTqMyBWcdpdnR6",
+   "model": "opus",
+   "state": "idle, needs input",
+   "cost": 3.97,
+   "wake": "none",
+   "repo": "AgentiCCells/AgentiCCells__Cell__Email",
+   "purpose": "The email cell, twin of cell.email.b",
+   "twin": "cell.email.b",
+   "configured": "opus",
+   "account": "D"
+  }
+ ],
+ "account_b": {
+  "status": "reported, not seen: from repository files only (board/team/maestro.b/view.md of 19 Nov 07:19Z, board/team/conductor.b/roster-2026-11-16.json and account-b.json, board/keys.json, board/team/maestros/from-b.md to 22 Nov 01:56Z). I cannot see account B's sessions.",
+  "stale_as_of": "2026-11-19T07:19Z for the full list; 2026-11-21T22:58Z for the state",
+  "state": "paused until Mon 23 Nov 00:25 UTC (96% of the seven-day limit): all 34 PrompTugal wakes, writer-10, sites.b's reminder and maestro.b's own wake",
+  "tree": {
+   "maestro.b (account-b)": {
+    "conductors": [
+     "conductor.b@PrompTugal.dinis (PrompTugal main team: journalist, dev, designer, security, abp, rights, correspondent, ontologist, researcher, datasci.places, dev.places, designer.places, translator, outreach, sherpa, librarian, place.algarve.*, place.districts; site leads data.b, weather.b, civic.b, startups.b, travel.b, events.b, signals.b, library.b, videos.b, live.b, cyber.b, bulletins.b; side-car telemetry.b)",
+     "conductor.b (SovereignWebsite) with sites.b, hub.b, factory.b, librarian.b and others",
+     "conductor.b@AgentiCCells.dinis and cells.b, with conductor.agenticcells-ai, hub.b, conductor.evals and cell.email.b",
+     "writer-10 (newsroom.sgit.ai), to become newsroom.b"
+    ],
+    "dormant": "57 sessions idle since before 18 Nov (view.md)"
+   }
+  },
+  "counted": "43 active, 7 blocked on a person at 19 Nov 07:19Z"
+ },
+ "legacy_visible_on_account_d": {
+  "note": "Also listed by list_sessions on this account, older than 16 Nov and not in Dinis's list: about 70 run sessions of the first AgentiCCells team (conductor@AgentiCCells.dinis, jC7yo7HF, completed; its sites, dev, writer, designer, reviewer, dns and other runs of 15 and 16 Nov: completed, failed or blocked) and 12 php.newsroom sessions of 28 Oct. No wake known for any. The listing stopped at 100 rows, so there may be more.",
+  "asks": "Dinis: archive or keep (tension T8)"
+ }
+}
