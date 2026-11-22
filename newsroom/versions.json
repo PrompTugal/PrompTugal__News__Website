@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2057",
+    "date": "2026-11-22",
+    "what": "maestro.c (account-c): factory.c, accountant.c, mistral.c and hub.c started on account C at Dinis's word; asks recorded",
+    "by": "maestro.c (account-c)",
+    "from": "ea0f6435f"
+  },
+  {
     "version": "v0.1.2056",
     "date": "2026-11-22",
     "what": "maestro.d (account-d): start prompts for maestro.c (account C) and for maestro.d's next session, at Dinis's word",
