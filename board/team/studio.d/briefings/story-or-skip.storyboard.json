@@ -45,7 +45,7 @@
      },
      {
       "id": "r",
-      "label": "Receipt"
+      "label": "Receipt (stored, then confirmed)"
      }
     ],
     "edges": [
