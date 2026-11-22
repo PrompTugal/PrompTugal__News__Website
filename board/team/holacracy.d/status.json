@@ -1,6 +1,6 @@
 {
- "agent": "holacracy.d@AgentiCCells.dinis",
- "name": "holacracy.d (account-d)",
+ "agent": "holacracy.d@PrompTugal.dinis",
+ "name": "holacracy.d@AgentiCCells.dinis",
  "focus": "The health of the whole system of Dinis's agents: governance record, org chart, structure proposals for Dinis to ratify, health report",
  "role": "Holacracy agent (Secretary, Facilitator and Circle Rep in the light sense); started by maestro.d at Dinis's word, 22 Nov 2026 about 02:10 UTC",
  "session": "https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
@@ -22,7 +22,8 @@
   "9 of 14 other sessions on account D are blocked on a person; none has a wake",
   "maestro.d and streaming.d run Opus though configured Sonnet (Dinis switched them); the record keeps both",
   "maestro.d status.json says 13 sessions; live count is 14 besides me",
-  "hub.d reads completed, idle, waiting for a first task"
+  "hub.d reads completed, idle, waiting for a first task",
+  "status.json's schema accepts only @PrompTugal.dinis in agent, so my real name sits in name (as maestro.d did): extends proposal 01"
  ],
  "asks": [
   "Dinis: ratify or change the five proposals in board/team/holacracy.d/proposals/ (README there) - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
