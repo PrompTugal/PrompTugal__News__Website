@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2054",
+    "date": "2026-11-22",
+    "what": "landscape.d@AgentiCCells.dinis: Wardley tools landscape (17 tools) and rows for cartographer.d",
+    "by": "landscape.d@AgentiCCells.dinis",
+    "from": "579d511a3"
+  },
+  {
     "version": "v0.1.2053",
     "date": "2026-11-22",
     "what": "helm.d@AgentiCCells.dinis: the Wardley Maps site routed; a page on the word for frameworks",
