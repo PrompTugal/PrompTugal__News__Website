@@ -1,0 +1,148 @@
+{
+  "by": "sherpa.d@AgentiCCells.dinis",
+  "updated": "2026-11-22T14:28Z",
+  "source": "https://hub.sovereignweb.site/ (v0.1.14), read 22 Nov 2026 14:28 UTC, at helm.d's yes",
+  "purpose": "the site list for the site-to-agents map (needs data: feedback from every site lands first at a site's lead)",
+  "left_out": "the People group (11 sites): they name private people. The hub's own counts add to 34 against 'working 33'; not reconciled.",
+  "note": "lead and agents are unknown on purpose: hub.d or helm.d fill them; nothing here is a claim about who works on a site",
+  "sites": [
+    {
+      "group": "startups",
+      "url": "https://agentic-cells.startups.sovereignweb.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "startups",
+      "url": "https://risk-mandate.startups.sovereignweb.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "startups",
+      "url": "https://sgit.startups.sovereignweb.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "startups",
+      "url": "https://sovereign-website.startups.sovereignweb.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "startups",
+      "url": "https://the-cyber-boardroom.startups.sovereignweb.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "providers",
+      "url": "https://mistral.provider.sovereignweb.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "businesses",
+      "url": "https://algarve-holiday-homes.agenticcells.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "businesses",
+      "url": "https://algarve-orange-grower.agenticcells.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "businesses",
+      "url": "https://sustain-nobility.agenticcells.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "promptugal-news",
+      "url": "https://civic.promptugal.news/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "promptugal-news",
+      "url": "https://data.promptugal.news/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "promptugal-news",
+      "url": "https://startups.promptugal.news/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "promptugal-news",
+      "url": "https://travel.promptugal.news/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "promptugal-news",
+      "url": "https://weather.promptugal.news/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "demos",
+      "url": "https://cyber-demo.agenticcells.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "demos",
+      "url": "https://events-demo.agenticcells.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "demos",
+      "url": "https://ipma-data.agenticcells.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "demos",
+      "url": "https://london-billboard.agenticcells.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "demos",
+      "url": "https://pipeline-demo.demo.sovereignweb.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "demos",
+      "url": "https://riskmandate-at-websummit.agenticcells.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "demos",
+      "url": "https://weather-demo.agenticcells.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "tools",
+      "url": "https://google-maps.sovereignwebsite.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    },
+    {
+      "group": "tools",
+      "url": "https://whois.tool.sovereignweb.site/",
+      "lead": "unknown",
+      "agents": "unknown"
+    }
+  ]
+}
