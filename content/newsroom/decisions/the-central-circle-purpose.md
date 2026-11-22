@@ -11,14 +11,14 @@ question: "Which one-line purpose does the central circle hold?"
 ask_sha256: 8fdb7a59dbd6f138d523d8eca142d6157e64298d9f8ac4855772edfc4292ae55
 reserved: false
 recommendation: A
-answer: "the whole agents point in the same direction and healthy ... that's the helm connected to dots, but also comes to do with the holacracy thing"
+answer: "I agree with the whole agents point in the same direction and healthy ... that's the helm connected to dots, but also comes to do with the holacracy thing."
 answered_at: 2026-11-22T17:05Z
-answered_where: "maestro.d (account-d) session, a voice memo, relayed to helm.d at 2026-11-22T17:04Z"
+answered_where: "maestro.d (account-d) session, a voice memo (record: board/team/maestro.d/decisions/2026-11-22-voice-memo-18-answers.md, circle-purpose), relayed to helm.d at 2026-11-22T17:04Z"
 pictures_asked: board/team/studio.d/pictures/the-central-circle.svg
 ---
 ## Decided {#decided}
 
-Dinis, in a voice memo in maestro.d's session, about 17:05 UTC, 22 November (as relayed by maestro.d): "the whole agents point in the same direction and healthy ... that's the helm connected to dots, but also comes to do with the holacracy thing".
+Dinis, in a voice memo in maestro.d's session, about 17:05 UTC, 22 November (record: `board/team/maestro.d/decisions/2026-11-22-voice-memo-18-answers.md`): "I agree with the whole agents point in the same direction and healthy ... that's the helm connected to dots, but also comes to do with the holacracy thing."
 
 Read by helm.d: the circle's purpose, in his words, is **that all the agents point in the same direction and are healthy**: the helm connects the dots (the direction), holacracy.d keeps the system healthy (the record). Not among the options put; it replaces A. Adopted. The question as it was put stays below.
 

@@ -1,7 +1,7 @@
 ---
 title: "For Dinis: what we call Wardley maps, Cynefin, Holacracy and the rest"
 summary: "Dinis asked for the best Wardley Maps website, then the other open ways of thinking (Cynefin, Holacracy, Scrum, Agile, SWOT, RACI). The umbrella word is a brand choice: frameworks, ways of thinking, methods or models. cartographer.d recommends frameworks, with 'ways of thinking' as the plain line beside it."
-decision: open
+decision: decided
 asked_by: helm.d@AgentiCCells.dinis (for cartographer.d@AgentiCCells.dinis)
 asked_of: Dinis Cruz (the brand)
 since: 2026-11-22T16:45Z
@@ -11,10 +11,16 @@ question: "Which umbrella word does the Wardley Maps site use for Wardley maps, 
 ask_sha256: 87169a1946206755e48068871a680c8927f66c3a092568655c64f2f9020bc08d
 reserved: true
 recommendation: A
-answer: null
-answered_at: null
-answered_where: null
+answer: "They use framework, singular ... because each one is a framework, so each one has a unique website ... that we manage."
+answered_at: 2026-11-22T16:57Z
+answered_where: "cartographer.d session (record: board/team/cartographer.d/briefs/2026-11-22-wardley-maps-site.md), relayed to helm.d at 2026-11-22T22:05Z"
 ---
+## Decided {#decided}
+
+Dinis, in cartographer.d's session, about 16:57 UTC, 22 November (record: `board/team/cartographer.d/briefs/2026-11-22-wardley-maps-site.md`): "They use framework, singular ... because each one is a framework, so each one has a unique website ... that we manage."
+
+Read by helm.d: **framework**, singular, close to A, but with no umbrella site: **one website per framework**, each run by a named agent. cartographer.d runs the Wardley Maps site; holacracy.d runs the Holacracy site; the others (Cynefin, Scrum, Kanban, SWOT, RACI) are a plan, each with an owner named when it starts, licence first. What is left is each site's name and address, Dinis's. The question as it was put stays below.
+
 ## In short {#short}
 
 Which umbrella word does the Wardley Maps site use for Wardley maps, Cynefin, Holacracy, Scrum, SWOT, RACI and the like? Dinis asked cartographer.d, in its session on 22 November, for "a website for Wardley maps", then the other big ways of thinking: "Cynefin, Holacracy, Scrum, Agile, SWOT, RACI". The umbrella word names the site's sections and how readers search, so it is a brand choice, For Dinis. The brief: `board/team/cartographer.d/briefs/2026-11-22-wardley-maps-site.md`. helm.d and cartographer.d recommend **A**. Until he answers, the work uses "frameworks" as a working word, and the site's first name is Wardley Maps.
