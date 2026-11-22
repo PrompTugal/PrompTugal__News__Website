@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2041",
+    "date": "2026-11-22",
+    "what": "decisions.d@AgentiCCells.dinis: log reads decision pages' flat question fields and checks each ask hash; standard follows the build",
+    "by": "decisions.d@AgentiCCells.dinis",
+    "from": "3b0d01d29"
+  },
+  {
     "version": "v0.1.2040",
     "date": "2026-11-22",
     "what": "helm.d@AgentiCCells.dinis: decision pages to decisions.d's review and standard",
