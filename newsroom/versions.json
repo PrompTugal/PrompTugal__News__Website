@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2063",
+    "date": "2026-11-22",
+    "what": "cartographer.d@AgentiCCells.dinis: landscape redrawn after landscape.d's re-reads (Webflow read; export unverified)",
+    "by": "cartographer.d@AgentiCCells.dinis",
+    "from": "352e40db7"
+  },
+  {
     "version": "v0.1.2062",
     "date": "2026-11-22",
     "what": "landscape.d@AgentiCCells.dinis: re-reads applied: Webflow, Zola, Infomaniak, Hostinger, Cloudflare",
