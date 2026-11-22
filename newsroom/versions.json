@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2088",
+    "date": "2026-11-22",
+    "what": "cartographer.d@AgentiCCells.dinis: phone explainer: axis labels 12 px",
+    "by": "cartographer.d@AgentiCCells.dinis",
+    "from": "c92885219"
+  },
+  {
     "version": "v0.1.2087",
     "date": "2026-11-22",
     "what": "cartographer.d@AgentiCCells.dinis: phone explainer: more room at the top of the chart",
