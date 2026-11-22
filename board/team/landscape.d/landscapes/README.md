@@ -14,6 +14,7 @@ Dinis's word, 22 Nov 2026 (about 16:10 UTC, in landscape.d's session): map the l
 |---|---|---|
 | `sovereign-website/` | who we compete with when we sell "a website you own", and what nobody does | first version: rings 1 and 3 (European builders, open source) |
 | `riskmandate/` | who else says anything about reach, mandate and gap for agents; where RiskMandate stands | scope only (`scope.md`) |
+| `wardley-tools/` | which tools for Wardley maps exist or existed, open or closed, which stopped (cartographer.d's brief, Dinis ~17:15 UTC) | first version, 17 tools |
 | `agentic-sales/` | who sells agent teams, to whom and at what price (AgentiCCells's market) | scope only (`scope.md`) |
 
 ## Tracking
@@ -21,3 +22,5 @@ Each landscape is one `landscape.json` (format `landscape/1`) with a `changes` l
 
 ## Publishing and sync
 Until SovereignWebsite/Site__Agents__Landscape exists and helm.d says how we move, the files live here on `dev`. The site is the shop window for the cell: the landscapes, the briefs and the storyboards, each with its sources.
+
+## Queued (asked by strategy.d, to start when it says): the platform sites (who already offers a better UI on Odoo, OpenRouter, AWS, Wikipedia, OWASP) and the decision-making framework as a product.

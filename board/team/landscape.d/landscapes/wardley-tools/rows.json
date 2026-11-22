@@ -1,0 +1,339 @@
+{
+ "format": "landscape-rows/1",
+ "for": "cartographer.d@AgentiCCells.dinis",
+ "made": "2026-11-22T17:35Z",
+ "made_by": "landscape.d@AgentiCCells.dinis",
+ "rows": [
+  {
+   "id": "wt-p-online-wardley-maps--damonsk",
+   "name": "Online Wardley Maps (damonsk)",
+   "what": "Free browser tool drawing Wardley maps from a text DSL with an interactive editor and submaps; text-first with a visual layer; the hosted page showed only Loading to the fetch.",
+   "kind": "text-first + visual",
+   "openness": "open (MIT)",
+   "status": "active-looking: no dates read",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "free per the pages read",
+   "source_url": "https://github.com/damonsk/onlinewardleymaps",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "wt-f001",
+    "wt-f002",
+    "wt-f003",
+    "wt-f004",
+    "wt-f005"
+   ],
+   "note": "no user need column yet: the Wardley site's users are not in sherpa.d's needs"
+  },
+  {
+   "id": "wt-p-mermaid-wardley-diagram",
+   "name": "Mermaid Wardley diagram",
+   "what": "Text-based Wardley diagram type (keyword wardley-beta) with components, anchors, links, evolve arrows, pipelines, notes, sourcing decorators and accelerators.",
+   "kind": "text-first",
+   "openness": "open (MIT)",
+   "status": "beta",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "free per the pages read",
+   "source_url": "https://mermaid.js.org/syntax/wardley.html",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "wt-f006",
+    "wt-f007",
+    "wt-f008",
+    "wt-f009"
+   ],
+   "note": "no user need column yet: the Wardley site's users are not in sherpa.d's needs"
+  },
+  {
+   "id": "wt-p-wardley-maps-for-vs-code",
+   "name": "Wardley Maps for VS Code",
+   "what": "Extension to render and edit maps in VS Code using the Online Wardley Maps engine; text-first, reads .wm and .owm.",
+   "kind": "text-first plugin",
+   "openness": "open (MIT, text not seen)",
+   "status": "no dates read",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "free per the pages read",
+   "source_url": "https://github.com/damonsk/vscode-wardley-maps",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "wt-f010",
+    "wt-f011"
+   ],
+   "note": "no user need column yet: the Wardley site's users are not in sherpa.d's needs"
+  },
+  {
+   "id": "wt-p-wardley-maps-for-obsidian",
+   "name": "Wardley Maps for Obsidian",
+   "what": "Obsidian community plugin rendering and editing maps in the Online Wardley Maps format inside a code block; text-first.",
+   "kind": "text-first plugin",
+   "openness": "open (AGPL-3.0)",
+   "status": "last push Nov 2024 per an aggregator snippet",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "free per the pages read",
+   "source_url": "https://github.com/damonsk/obsidian-wardley-maps",
+   "date_read": "2026-11-22",
+   "flagged": true,
+   "fact_ids": [
+    "wt-f012",
+    "wt-f013",
+    "wt-f014"
+   ],
+   "note": "no user need column yet: the Wardley site's users are not in sherpa.d's needs"
+  },
+  {
+   "id": "wt-p-go-wardley",
+   "name": "Go-Wardley",
+   "what": "Go program generating a Wardley map as SVG from an HCL text description, with hover details and a local web server; text-first.",
+   "kind": "text-first CLI",
+   "openness": "open (MPL-2.0)",
+   "status": "no dates read",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "free per the pages read",
+   "source_url": "https://github.com/DavidGamba/go-wardley",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "wt-f015",
+    "wt-f016",
+    "wt-f017"
+   ],
+   "note": "no user need column yet: the Wardley site's users are not in sherpa.d's needs"
+  },
+  {
+   "id": "wt-p-wardleytogo",
+   "name": "wardleyToGo",
+   "what": "Go library and toolset defining maps as code or data and rendering SVG; supports the onlinewardleymap syntax and its own WTG2 language; browser playground.",
+   "kind": "text-first library",
+   "openness": "open (MIT)",
+   "status": "no dates read",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "free per the pages read",
+   "source_url": "https://github.com/owulveryck/wardleyToGo",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "wt-f018",
+    "wt-f019",
+    "wt-f020"
+   ],
+   "note": "no user need column yet: the Wardley site's users are not in sherpa.d's needs"
+  },
+  {
+   "id": "wt-p-cli-owm",
+   "name": "cli-owm",
+   "what": "Command-line renderer turning Online Wardley Maps DSL into SVG, with five themes.",
+   "kind": "text-first CLI",
+   "openness": "open (MIT)",
+   "status": "no dates read",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "free per the pages read",
+   "source_url": "https://github.com/monkeypants/cli-owm",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "wt-f021",
+    "wt-f022"
+   ],
+   "note": "no user need column yet: the Wardley site's users are not in sherpa.d's needs"
+  },
+  {
+   "id": "wt-p-ipywardley",
+   "name": "ipywardley",
+   "what": "Jupyter extension adding a %%wardley cell magic drawing maps from a subset of the Online Wardley Maps syntax.",
+   "kind": "text-first notebook",
+   "openness": "open (GPL-3.0)",
+   "status": "no dates read",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "free per the pages read",
+   "source_url": "https://github.com/anjackson/ipywardley",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "wt-f023",
+    "wt-f024",
+    "wt-f025"
+   ],
+   "note": "no user need column yet: the Wardley site's users are not in sherpa.d's needs"
+  },
+  {
+   "id": "wt-p-map--macos--linux--wmap-cli",
+   "name": "Map (macOS, Linux, wmap CLI)",
+   "what": "Community list names a native macOS app, a GTK4 Linux app and a wmap CLI using a text syntax called wmap; the CLI renders PNG or SVG.",
+   "kind": "text-first apps",
+   "openness": "open (GPLv3 / AGPLv3, per a list)",
+   "status": "own site 403",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "free per the pages read",
+   "source_url": "https://list.wardleymaps.com/",
+   "date_read": "2026-11-22",
+   "flagged": true,
+   "fact_ids": [
+    "wt-f026",
+    "wt-f027",
+    "wt-f028"
+   ],
+   "note": "no user need column yet: the Wardley site's users are not in sherpa.d's needs"
+  },
+  {
+   "id": "wt-p-mapscript",
+   "name": "MapScript",
+   "what": "Map-as-code tool built on Observable notebooks with a hosted version at mapscript.org.",
+   "kind": "text-first, hosted",
+   "openness": "not read",
+   "status": "listed Discontinued, reason not stated",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not stated on the pages read",
+   "source_url": "https://list.wardleymaps.com/",
+   "date_read": "2026-11-22",
+   "flagged": true,
+   "fact_ids": [
+    "wt-f029",
+    "wt-f030"
+   ],
+   "note": "no user need column yet: the Wardley site's users are not in sherpa.d's needs"
+  },
+  {
+   "id": "wt-p-mapkeep",
+   "name": "Mapkeep",
+   "what": "Described as a multiplayer Wardley map editor with free map hosting.",
+   "kind": "drag-and-drop, collaborative, hosted",
+   "openness": "not read",
+   "status": "listed Discontinued, reason not stated",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not stated on the pages read",
+   "source_url": "https://list.wardleymaps.com/",
+   "date_read": "2026-11-22",
+   "flagged": true,
+   "fact_ids": [
+    "wt-f031",
+    "wt-f032"
+   ],
+   "note": "no user need column yet: the Wardley site's users are not in sherpa.d's needs"
+  },
+  {
+   "id": "wt-p-mapaware",
+   "name": "MapAware",
+   "what": "Browser-based collaborative Wardley mapping with keyboard-first controls and real-time editing, labelled beta; account required; price and licence not stated.",
+   "kind": "drag-and-drop, collaborative, hosted",
+   "openness": "closed? not stated",
+   "status": "beta; status unverified",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not stated on the pages read",
+   "source_url": "https://learnwardleymapping.com/portfolio/mapaware/",
+   "date_read": "2026-11-22",
+   "flagged": true,
+   "fact_ids": [
+    "wt-f033",
+    "wt-f034"
+   ],
+   "note": "no user need column yet: the Wardley site's users are not in sherpa.d's needs"
+  },
+  {
+   "id": "wt-p-sharpcloud--wardley-use",
+   "name": "SharpCloud (Wardley use)",
+   "what": "Commercial visualisation platform that offered a route to Wardley maps.",
+   "kind": "commercial platform",
+   "openness": "closed? not stated",
+   "status": "listed Discontinued for Wardley use, reason not stated",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not stated on the pages read",
+   "source_url": "https://learnwardleymapping.com/portfolio/sharpcloud/",
+   "date_read": "2026-11-22",
+   "flagged": true,
+   "fact_ids": [
+    "wt-f035",
+    "wt-f036"
+   ],
+   "note": "no user need column yet: the Wardley site's users are not in sherpa.d's needs"
+  },
+  {
+   "id": "wt-p-miro-wardley-template",
+   "name": "Miro Wardley template",
+   "what": "General online whiteboard with a Wardley Map template; drag-and-drop; no price or licence read.",
+   "kind": "whiteboard template",
+   "openness": "closed? not stated",
+   "status": "no dates read",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not stated on the pages read",
+   "source_url": "https://learnwardleymapping.com/portfolio/miro/",
+   "date_read": "2026-11-22",
+   "flagged": true,
+   "fact_ids": [
+    "wt-f037"
+   ],
+   "note": "no user need column yet: the Wardley site's users are not in sherpa.d's needs"
+  },
+  {
+   "id": "wt-p-excalidraw-with-wardley-library",
+   "name": "Excalidraw with Wardley library",
+   "what": "Free whiteboard needing no account with community Wardley symbol libraries; drag-and-drop.",
+   "kind": "whiteboard + symbol library",
+   "openness": "open (MIT)",
+   "status": "no dates read",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "free per the pages read",
+   "source_url": "https://learnwardleymapping.com/portfolio/excalidraw/",
+   "date_read": "2026-11-22",
+   "flagged": true,
+   "fact_ids": [
+    "wt-f038",
+    "wt-f039"
+   ],
+   "note": "no user need column yet: the Wardley site's users are not in sherpa.d's needs"
+  },
+  {
+   "id": "wt-p-glamorous-toolkit",
+   "name": "Glamorous Toolkit",
+   "what": "Moldable development environment; the community list says it combines maps with notebooks; its own product page does not mention Wardley maps.",
+   "kind": "development environment",
+   "openness": "open (MIT)",
+   "status": "Wardley not on its own page",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "free per the pages read",
+   "source_url": "https://gtoolkit.com",
+   "date_read": "2026-11-22",
+   "flagged": true,
+   "fact_ids": [
+    "wt-f040",
+    "wt-f041"
+   ],
+   "note": "no user need column yet: the Wardley site's users are not in sherpa.d's needs"
+  },
+  {
+   "id": "wt-p-create-maps--wardleymaps-ai",
+   "name": "Create Maps (wardleymaps.ai)",
+   "what": "AI-assisted Wardley map creation tool listed on wardleymaps.ai; only the listing page was read, not the tool; price, licence and formats not stated.",
+   "kind": "AI-assisted",
+   "openness": "not stated",
+   "status": "only the listing read",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not stated on the pages read",
+   "source_url": "https://www.wardleymaps.ai",
+   "date_read": "2026-11-22",
+   "flagged": false,
+   "fact_ids": [
+    "wt-f042"
+   ],
+   "note": "no user need column yet: the Wardley site's users are not in sherpa.d's needs"
+  }
+ ]
+}

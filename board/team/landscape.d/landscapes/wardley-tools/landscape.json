@@ -1,0 +1,702 @@
+{
+ "format": "landscape/1",
+ "id": "wardley-tools",
+ "title": "Wardley map tools: past and present",
+ "status": "draft",
+ "made": "2026-11-22T17:35Z",
+ "made_by": "landscape.d@AgentiCCells.dinis",
+ "for": "cartographer.d@AgentiCCells.dinis (brief board/team/cartographer.d/briefs/2026-11-22-wardley-maps-site.md, at Dinis's word ~17:15 UTC)",
+ "about": "First read, public pages only, 22 Nov 2026. Positions are not given. Where no reason, date or price was visible it is recorded as not found. The tools named in the brief were checked: Online Wardley Maps and Mermaid exist and are read; others the scout found are added. The scout returned about 70 facts; 44 are kept here in condensed wording (duplicates and minor rows dropped), none changed in meaning.",
+ "players": [
+  {
+   "player": "Online Wardley Maps (damonsk)",
+   "kind": "text-first + visual",
+   "openness": "open (MIT)",
+   "status": "active-looking: no dates read",
+   "fact_ids": [
+    "wt-f001",
+    "wt-f002",
+    "wt-f003",
+    "wt-f004",
+    "wt-f005"
+   ]
+  },
+  {
+   "player": "Mermaid Wardley diagram",
+   "kind": "text-first",
+   "openness": "open (MIT)",
+   "status": "beta",
+   "fact_ids": [
+    "wt-f006",
+    "wt-f007",
+    "wt-f008",
+    "wt-f009"
+   ]
+  },
+  {
+   "player": "Wardley Maps for VS Code",
+   "kind": "text-first plugin",
+   "openness": "open (MIT, text not seen)",
+   "status": "no dates read",
+   "fact_ids": [
+    "wt-f010",
+    "wt-f011"
+   ]
+  },
+  {
+   "player": "Wardley Maps for Obsidian",
+   "kind": "text-first plugin",
+   "openness": "open (AGPL-3.0)",
+   "status": "last push Nov 2024 per an aggregator snippet",
+   "fact_ids": [
+    "wt-f012",
+    "wt-f013",
+    "wt-f014"
+   ]
+  },
+  {
+   "player": "Go-Wardley",
+   "kind": "text-first CLI",
+   "openness": "open (MPL-2.0)",
+   "status": "no dates read",
+   "fact_ids": [
+    "wt-f015",
+    "wt-f016",
+    "wt-f017"
+   ]
+  },
+  {
+   "player": "wardleyToGo",
+   "kind": "text-first library",
+   "openness": "open (MIT)",
+   "status": "no dates read",
+   "fact_ids": [
+    "wt-f018",
+    "wt-f019",
+    "wt-f020"
+   ]
+  },
+  {
+   "player": "cli-owm",
+   "kind": "text-first CLI",
+   "openness": "open (MIT)",
+   "status": "no dates read",
+   "fact_ids": [
+    "wt-f021",
+    "wt-f022"
+   ]
+  },
+  {
+   "player": "ipywardley",
+   "kind": "text-first notebook",
+   "openness": "open (GPL-3.0)",
+   "status": "no dates read",
+   "fact_ids": [
+    "wt-f023",
+    "wt-f024",
+    "wt-f025"
+   ]
+  },
+  {
+   "player": "Map (macOS, Linux, wmap CLI)",
+   "kind": "text-first apps",
+   "openness": "open (GPLv3 / AGPLv3, per a list)",
+   "status": "own site 403",
+   "fact_ids": [
+    "wt-f026",
+    "wt-f027",
+    "wt-f028"
+   ]
+  },
+  {
+   "player": "MapScript",
+   "kind": "text-first, hosted",
+   "openness": "not read",
+   "status": "listed Discontinued, reason not stated",
+   "fact_ids": [
+    "wt-f029",
+    "wt-f030"
+   ]
+  },
+  {
+   "player": "Mapkeep",
+   "kind": "drag-and-drop, collaborative, hosted",
+   "openness": "not read",
+   "status": "listed Discontinued, reason not stated",
+   "fact_ids": [
+    "wt-f031",
+    "wt-f032"
+   ]
+  },
+  {
+   "player": "MapAware",
+   "kind": "drag-and-drop, collaborative, hosted",
+   "openness": "closed? not stated",
+   "status": "beta; status unverified",
+   "fact_ids": [
+    "wt-f033",
+    "wt-f034"
+   ]
+  },
+  {
+   "player": "SharpCloud (Wardley use)",
+   "kind": "commercial platform",
+   "openness": "closed? not stated",
+   "status": "listed Discontinued for Wardley use, reason not stated",
+   "fact_ids": [
+    "wt-f035",
+    "wt-f036"
+   ]
+  },
+  {
+   "player": "Miro Wardley template",
+   "kind": "whiteboard template",
+   "openness": "closed? not stated",
+   "status": "no dates read",
+   "fact_ids": [
+    "wt-f037"
+   ]
+  },
+  {
+   "player": "Excalidraw with Wardley library",
+   "kind": "whiteboard + symbol library",
+   "openness": "open (MIT)",
+   "status": "no dates read",
+   "fact_ids": [
+    "wt-f038",
+    "wt-f039"
+   ]
+  },
+  {
+   "player": "Glamorous Toolkit",
+   "kind": "development environment",
+   "openness": "open (MIT)",
+   "status": "Wardley not on its own page",
+   "fact_ids": [
+    "wt-f040",
+    "wt-f041"
+   ]
+  },
+  {
+   "player": "Create Maps (wardleymaps.ai)",
+   "kind": "AI-assisted",
+   "openness": "not stated",
+   "status": "only the listing read",
+   "fact_ids": [
+    "wt-f042"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "id": "wt-g1",
+   "kind": "de-facto-format",
+   "text": "One text format is the hub of the open text-first tools: the Online Wardley Maps syntax (.owm) is read by its VS Code and Obsidian plugins, cli-owm, ipywardley (a subset) and wardleyToGo; Mermaid, Go-Wardley (HCL), wardleyToGo (WTG2) and the wmap tools each have their own syntax. Mermaid's wardley-beta uses explicit visibility and evolution coordinates. A converter exists (OWM to JSON, TOML, JSON Graph, Cypher) per the community list. So formats are many and interchange is thin.",
+   "facts": [
+    "wt-f005",
+    "wt-f009",
+    "wt-f018",
+    "wt-f021",
+    "wt-f043",
+    "wt-f044"
+   ]
+  },
+  {
+   "id": "wt-g2",
+   "kind": "stopped",
+   "text": "Which stopped: a third-party listing marks five tools Discontinued, including three the scout read about (MapScript, Mapkeep, SharpCloud for Wardley use). Both MapScript and Mapkeep were hosted tools. NO reason is stated on any page read, so why they stopped is not known from this reading; any explanation would be a guess and none is offered here. The open text-first tools show no archive notice, but most dates were not visible.",
+   "facts": [
+    "wt-f030",
+    "wt-f032",
+    "wt-f036",
+    "wt-f043"
+   ]
+  },
+  {
+   "id": "wt-g3",
+   "kind": "licence",
+   "text": "Licences are mixed: MIT for the Online Wardley Maps editor, Mermaid, wardleyToGo, cli-owm and Excalidraw; copyleft for the Obsidian plugin (AGPL-3.0), ipywardley (GPL-3.0), Go-Wardley (MPL-2.0) and the wmap apps (GPLv3 and AGPLv3 per a list). What may be reused or merged depends on this; rights@ checks before any reuse.",
+   "facts": [
+    "wt-f013",
+    "wt-f024",
+    "wt-f016",
+    "wt-f027",
+    "wt-f002"
+   ]
+  },
+  {
+   "id": "wt-g4",
+   "kind": "gap-to-check",
+   "text": "In the pages read, no tool is described as keeping a map's history as dated steps played over time, or a source on every node; Mermaid has evolve arrows (movement) but no mention of sources or dated history. This is absence on the pages read, not proof, and the tools' own docs were not read in full; it is the one gap cartographer.d's design (history, sources) would fill, to verify before any claim.",
+   "facts": [
+    "wt-f006",
+    "wt-f001"
+   ]
+  },
+  {
+   "id": "wt-g5",
+   "kind": "gap-in-my-reading",
+   "text": "Activity dates were mostly not visible in the fetches (commit and release dates absent for most repositories), the tools' own sites were unreachable for Map, Mapkeep and MapAware, and the AI-assisted creator (wardleymaps.ai) was read only as a listing. 'Still alive' and 'stopped' therefore rest on listings and absence of an archive notice, and need a second read with dates (the repository's commit page).",
+   "facts": [
+    "wt-f028",
+    "wt-f032",
+    "wt-f034",
+    "wt-f042"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "id": "wt-f001",
+   "candidate": "Online Wardley Maps (damonsk)",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "Free browser tool drawing Wardley maps from a text DSL with an interactive editor and submaps; text-first with a visual layer; the hosted page showed only Loading to the fetch.",
+   "url": "https://github.com/damonsk/onlinewardleymaps",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f002",
+   "candidate": "Online Wardley Maps (damonsk)",
+   "ring": "tool",
+   "topic": "licence",
+   "fact": "MIT, per the repository page.",
+   "url": "https://github.com/damonsk/onlinewardleymaps",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f003",
+   "candidate": "Online Wardley Maps (damonsk)",
+   "ring": "tool",
+   "topic": "maker",
+   "fact": "Developed by the GitHub account damonsk; docs link a Patreon for voluntary support, no price stated.",
+   "url": "https://docs.onlinewardleymaps.com/docs/intro",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f004",
+   "candidate": "Online Wardley Maps (damonsk)",
+   "ring": "tool",
+   "topic": "activity",
+   "fact": "1,445 commits on main, 25 open issues, 24 open pull requests, no archive notice, empty Releases; no commit dates visible.",
+   "url": "https://github.com/damonsk/onlinewardleymaps",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f005",
+   "candidate": "Online Wardley Maps (damonsk)",
+   "ring": "tool",
+   "topic": "formats",
+   "fact": "Maps stored as .owm text; same format feeds the VS Code and Obsidian plugins and several third-party renderers; export formats not listed on pages read.",
+   "url": "https://docs.onlinewardleymaps.com/docs/intro",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f006",
+   "candidate": "Mermaid Wardley diagram",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "Text-based Wardley diagram type (keyword wardley-beta) with components, anchors, links, evolve arrows, pipelines, notes, sourcing decorators and accelerators.",
+   "url": "https://mermaid.js.org/syntax/wardley.html",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f007",
+   "candidate": "Mermaid Wardley diagram",
+   "ring": "tool",
+   "topic": "activity",
+   "fact": "Docs say v11.14.0+ and that Wardley maps are in beta, syntax may change in backwards-incompatible ways.",
+   "url": "https://mermaid.js.org/syntax/wardley.html",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f008",
+   "candidate": "Mermaid Wardley diagram",
+   "ring": "tool",
+   "topic": "licence",
+   "fact": "MIT.",
+   "url": "https://github.com/mermaid-js/mermaid/blob/develop/LICENSE",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f009",
+   "candidate": "Mermaid Wardley diagram",
+   "ring": "tool",
+   "topic": "formats",
+   "fact": "Own text syntax with explicit visibility and evolution coordinates 0 to 1; nothing on export on the page.",
+   "url": "https://mermaid.js.org/syntax/wardley.html",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f010",
+   "candidate": "Wardley Maps for VS Code",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "Extension to render and edit maps in VS Code using the Online Wardley Maps engine; text-first, reads .wm and .owm.",
+   "url": "https://github.com/damonsk/vscode-wardley-maps",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f011",
+   "candidate": "Wardley Maps for VS Code",
+   "ring": "tool",
+   "topic": "licence",
+   "fact": "Repository resources list MIT; licence text not seen.",
+   "url": "https://github.com/damonsk/vscode-wardley-maps",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f012",
+   "candidate": "Wardley Maps for Obsidian",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "Obsidian community plugin rendering and editing maps in the Online Wardley Maps format inside a code block; text-first.",
+   "url": "https://github.com/damonsk/obsidian-wardley-maps",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f013",
+   "candidate": "Wardley Maps for Obsidian",
+   "ring": "tool",
+   "topic": "licence",
+   "fact": "AGPL-3.0, in the LICENSE file and README.",
+   "url": "https://github.com/damonsk/obsidian-wardley-maps",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f014",
+   "candidate": "Wardley Maps for Obsidian",
+   "ring": "tool",
+   "topic": "activity",
+   "fact": "27 commits, no archive notice; an aggregator snippet showed a last push in November 2024.",
+   "url": "https://github.com/damonsk/obsidian-wardley-maps",
+   "date_read": "2026-11-22",
+   "confidence": "third-party",
+   "flag": "re-read at the tool's own site"
+  },
+  {
+   "id": "wt-f015",
+   "candidate": "Go-Wardley",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "Go program generating a Wardley map as SVG from an HCL text description, with hover details and a local web server; text-first.",
+   "url": "https://github.com/DavidGamba/go-wardley",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f016",
+   "candidate": "Go-Wardley",
+   "ring": "tool",
+   "topic": "licence",
+   "fact": "Mozilla Public License 2.0.",
+   "url": "https://github.com/DavidGamba/go-wardley",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f017",
+   "candidate": "Go-Wardley",
+   "ring": "tool",
+   "topic": "activity",
+   "fact": "10 commits, 36 stars, no releases, no archive notice; no dates visible.",
+   "url": "https://github.com/DavidGamba/go-wardley",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f018",
+   "candidate": "wardleyToGo",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "Go library and toolset defining maps as code or data and rendering SVG; supports the onlinewardleymap syntax and its own WTG2 language; browser playground.",
+   "url": "https://github.com/owulveryck/wardleyToGo",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f019",
+   "candidate": "wardleyToGo",
+   "ring": "tool",
+   "topic": "licence",
+   "fact": "MIT.",
+   "url": "https://github.com/owulveryck/wardleyToGo",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f020",
+   "candidate": "wardleyToGo",
+   "ring": "tool",
+   "topic": "activity",
+   "fact": "518 commits, Sponsor button, no archive notice; last commit date not visible.",
+   "url": "https://github.com/owulveryck/wardleyToGo",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f021",
+   "candidate": "cli-owm",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "Command-line renderer turning Online Wardley Maps DSL into SVG, with five themes.",
+   "url": "https://github.com/monkeypants/cli-owm",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f022",
+   "candidate": "cli-owm",
+   "ring": "tool",
+   "topic": "licence",
+   "fact": "MIT; its parser is vendored from the MIT-licensed onlinewardleymaps project.",
+   "url": "https://github.com/monkeypants/cli-owm",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f023",
+   "candidate": "ipywardley",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "Jupyter extension adding a %%wardley cell magic drawing maps from a subset of the Online Wardley Maps syntax.",
+   "url": "https://github.com/anjackson/ipywardley",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f024",
+   "candidate": "ipywardley",
+   "ring": "tool",
+   "topic": "licence",
+   "fact": "GPL-3.0.",
+   "url": "https://github.com/anjackson/ipywardley",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f025",
+   "candidate": "ipywardley",
+   "ring": "tool",
+   "topic": "activity",
+   "fact": "Newest change-log entry 0.0.7, no date; public, no archive notice; on PyPI.",
+   "url": "https://github.com/anjackson/ipywardley",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f026",
+   "candidate": "Map (macOS, Linux, wmap CLI)",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "Community list names a native macOS app, a GTK4 Linux app and a wmap CLI using a text syntax called wmap; the CLI renders PNG or SVG.",
+   "url": "https://list.wardleymaps.com/",
+   "date_read": "2026-11-22",
+   "confidence": "third-party"
+  },
+  {
+   "id": "wt-f027",
+   "candidate": "Map (macOS, Linux, wmap CLI)",
+   "ring": "tool",
+   "topic": "licence",
+   "fact": "List states the macOS app is GPLv3 and the Linux app AGPLv3.",
+   "url": "https://list.wardleymaps.com/",
+   "date_read": "2026-11-22",
+   "confidence": "third-party"
+  },
+  {
+   "id": "wt-f028",
+   "candidate": "Map (macOS, Linux, wmap CLI)",
+   "ring": "tool",
+   "topic": "activity",
+   "fact": "The project's own site returned HTTP 403; dates and price not read.",
+   "url": "https://map.tranquil.systems",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "flag": "re-read at the tool's own site"
+  },
+  {
+   "id": "wt-f029",
+   "candidate": "MapScript",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "Map-as-code tool built on Observable notebooks with a hosted version at mapscript.org.",
+   "url": "https://list.wardleymaps.com/",
+   "date_read": "2026-11-22",
+   "confidence": "third-party"
+  },
+  {
+   "id": "wt-f030",
+   "candidate": "MapScript",
+   "ring": "tool",
+   "topic": "stopped",
+   "fact": "Learn Wardley Mapping marks it Discontinued (no longer maintained, available or confirmed working); no reason or date given.",
+   "url": "https://learnwardleymapping.com/portfolio/mapscript/",
+   "date_read": "2026-11-22",
+   "confidence": "third-party",
+   "flag": "re-read at the tool's own site"
+  },
+  {
+   "id": "wt-f031",
+   "candidate": "Mapkeep",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "Described as a multiplayer Wardley map editor with free map hosting.",
+   "url": "https://list.wardleymaps.com/",
+   "date_read": "2026-11-22",
+   "confidence": "third-party"
+  },
+  {
+   "id": "wt-f032",
+   "candidate": "Mapkeep",
+   "ring": "tool",
+   "topic": "stopped",
+   "fact": "Marked Discontinued by the same listing; no reason or date stated; its own site could not be resolved from this session.",
+   "url": "https://learnwardleymapping.com/portfolio/mapkeep/",
+   "date_read": "2026-11-22",
+   "confidence": "third-party",
+   "flag": "re-read at the tool's own site"
+  },
+  {
+   "id": "wt-f033",
+   "candidate": "MapAware",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "Browser-based collaborative Wardley mapping with keyboard-first controls and real-time editing, labelled beta; account required; price and licence not stated.",
+   "url": "https://learnwardleymapping.com/portfolio/mapaware/",
+   "date_read": "2026-11-22",
+   "confidence": "third-party"
+  },
+  {
+   "id": "wt-f034",
+   "candidate": "MapAware",
+   "ring": "tool",
+   "topic": "activity",
+   "fact": "Listing shows no date; the vendor's own site was not read, so status and export are unverified.",
+   "url": "https://learnwardleymapping.com/portfolio/mapaware/",
+   "date_read": "2026-11-22",
+   "confidence": "not-found",
+   "flag": "re-read at the tool's own site"
+  },
+  {
+   "id": "wt-f035",
+   "candidate": "SharpCloud (Wardley use)",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "Commercial visualisation platform that offered a route to Wardley maps.",
+   "url": "https://learnwardleymapping.com/portfolio/sharpcloud/",
+   "date_read": "2026-11-22",
+   "confidence": "third-party"
+  },
+  {
+   "id": "wt-f036",
+   "candidate": "SharpCloud (Wardley use)",
+   "ring": "tool",
+   "topic": "stopped",
+   "fact": "Marked Discontinued for Wardley use by the same listing; reason not stated.",
+   "url": "https://learnwardleymapping.com/portfolio/sharpcloud/",
+   "date_read": "2026-11-22",
+   "confidence": "third-party",
+   "flag": "re-read at the tool's own site"
+  },
+  {
+   "id": "wt-f037",
+   "candidate": "Miro Wardley template",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "General online whiteboard with a Wardley Map template; drag-and-drop; no price or licence read.",
+   "url": "https://learnwardleymapping.com/portfolio/miro/",
+   "date_read": "2026-11-22",
+   "confidence": "third-party"
+  },
+  {
+   "id": "wt-f038",
+   "candidate": "Excalidraw with Wardley library",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "Free whiteboard needing no account with community Wardley symbol libraries; drag-and-drop.",
+   "url": "https://learnwardleymapping.com/portfolio/excalidraw/",
+   "date_read": "2026-11-22",
+   "confidence": "third-party"
+  },
+  {
+   "id": "wt-f039",
+   "candidate": "Excalidraw with Wardley library",
+   "ring": "tool",
+   "topic": "licence",
+   "fact": "MIT.",
+   "url": "https://github.com/excalidraw/excalidraw/blob/master/LICENSE",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f040",
+   "candidate": "Glamorous Toolkit",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "Moldable development environment; the community list says it combines maps with notebooks; its own product page does not mention Wardley maps.",
+   "url": "https://gtoolkit.com",
+   "date_read": "2026-11-22",
+   "confidence": "third-party"
+  },
+  {
+   "id": "wt-f041",
+   "candidate": "Glamorous Toolkit",
+   "ring": "tool",
+   "topic": "licence",
+   "fact": "Free and open source under MIT, by feenk.",
+   "url": "https://gtoolkit.com",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f042",
+   "candidate": "Create Maps (wardleymaps.ai)",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "AI-assisted Wardley map creation tool listed on wardleymaps.ai; only the listing page was read, not the tool; price, licence and formats not stated.",
+   "url": "https://www.wardleymaps.ai",
+   "date_read": "2026-11-22",
+   "confidence": "project-page"
+  },
+  {
+   "id": "wt-f043",
+   "candidate": "Directories (context)",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "Learn Wardley Mapping lists 24 tools in categories (maps as code, diagramming templates, print template, assessment software); five marked discontinued.",
+   "url": "https://learnwardleymapping.com/tools/",
+   "date_read": "2026-11-22",
+   "confidence": "third-party"
+  },
+  {
+   "id": "wt-f044",
+   "candidate": "Directories (context)",
+   "ring": "tool",
+   "topic": "offer",
+   "fact": "Community Awesome list also names a doctrine assessment app, a Streamlit converter from OWM to JSON, TOML, JSON Graph and Cypher, and a federated-wiki plugin.",
+   "url": "https://list.wardleymaps.com/",
+   "date_read": "2026-11-22",
+   "confidence": "third-party"
+  }
+ ],
+ "changes": [
+  {
+   "at": "2026-11-22T17:35Z",
+   "what": "first version: 17 tools, 44 facts, findings wt-g1 to wt-g5"
+  }
+ ]
+}
