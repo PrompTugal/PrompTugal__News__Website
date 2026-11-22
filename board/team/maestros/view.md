@@ -12,7 +12,7 @@ Fully paused until Mon 23 Nov 00:25 UTC (96% of its seven-day limit). At the res
 
 ## Account C (maestro.c, hourly at :33, from 22 Nov 17:20Z)
 - maestro.c https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp
-- SovereignWebsite: conductor.c https://claude.ai/code/session_01Kw9UwBwGEprxNQqNtSbzyj; observability.c https://claude.ai/code/session_01Kw9UwBmqCafJ2NtqhQPQwu; chiswick-cheese-market.d (carried from D) https://claude.ai/code/session_01Kw9UwCvCX638VWVq9UPXsN; factory.c https://claude.ai/code/session_01Kw9UwFQ86g2ZeXQ2edTAjh; mistral.c https://claude.ai/code/session_01Kw9UwDHBL8ucvbqmv38Bkz; hub.c https://claude.ai/code/session_01Kw9UwBNK6JRSRJ7P7LftYD
+- SovereignWebsite: conductor.c https://claude.ai/code/session_01Kw9UwBwGEprxNQqNtSbzyj; observability.c https://claude.ai/code/session_01Kw9UwBmqCafJ2NtqhQPQwu; chiswick-cheese-market.d (carried from D) https://claude.ai/code/session_01Kw9UwCvCX638VWVq9UPXsN; factory.c https://claude.ai/code/session_01Kw9UwFQ86g2ZeXQ2edTAjh; mistral.c https://claude.ai/code/session_01Kw9UwDHBL8ucvbqmv38Bkz; hub.c https://claude.ai/code/session_01Kw9UwBNK6JRSRJ7P7LftYD; feedback.c https://claude.ai/code/session_01Kw9UwEQb6jZQ17nxMfkAVB
 - AgentiCCells: accountant.c https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz
 
 ## Waiting on Dinis

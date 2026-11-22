@@ -21,3 +21,10 @@ Dinis: "we will also need the factory.c (SovereignWebsite) since that one is doi
 ## Third word (about 17:30 UTC)
 Dinis: "can You also start a hub.c agent here, because we really need to change how this thing works": the hub to navigate the entire universe (bar a very few sites he keeps off), the agents now and historically and how they connect, and a newsroom-like list of the latest sites, where every new site and customer arrives first.
 - hub.c (SovereignWebsite), on SovereignWebsite__Hub: https://claude.ai/code/session_01Kw9UwBNK6JRSRJ7P7LftYD
+
+## Fourth word (about 18:55 UTC)
+Dinis: "can you start the feedback agent? Can you archive the old sessions? And no, we shouldn't stop the account D, right? In fact, you can communicate with it via the conductor ... you should be able to talk to that account ... the point is now they should be working in parallel and collaborate and be aware of each other."
+- feedback.c (SovereignWebsite), on SovereignWebsite__Factory: https://claude.ai/code/session_01Kw9UwEQb6jZQ17nxMfkAVB (receiver of the feedback lanes while feedback.b is paused)
+- Archived on account C: conductor.C (PrompTugal.news, 15 Nov; its hourly task disabled), security.fringe, researcher.fringe, conductor.fringe (Lisbon Fringe). researcher.fringe reported 220 commits held locally behind a hold; archiving released its container.
+- chiswick-cheese-market.d (account D) keeps running beside chiswick-cheese-market.c.
+- Tested: send_message from account C to conductor.d (SovereignWebsite, account D) fails (not found). Sessions cannot reach across accounts, so the twins collaborate through files: the maestros' from-*.md here, the conductors' boards in the Factory.

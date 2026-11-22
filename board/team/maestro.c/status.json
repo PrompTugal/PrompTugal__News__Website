@@ -5,7 +5,7 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T18:36Z",
+  "updated": "2026-11-22T18:58Z",
   "state": "18:33 wake: account C allowed (resets ~20:10 UTC); account C keys live on Factory dev; 6 sessions wait on Dinis; router design draft in analysis/2026-11-22-routers/",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
@@ -16,7 +16,10 @@
     "Started factory.c, accountant.c and mistral.c at Dinis's word (~17:20 UTC)",
     "Started hub.c at Dinis's word (~17:30 UTC)",
     "All six account C keys live on Factory dev (factory.c, 93b947f)",
-    "Router design draft and the Factory naming view (analysis/2026-11-22-routers/README.md)"
+    "Router design draft and the Factory naming view (analysis/2026-11-22-routers/README.md)",
+    "Started feedback.c at Dinis's word (~18:55 UTC)",
+    "Archived conductor.C (PrompTugal.news) and three Lisbon Fringe sessions; disabled conductor.C's hourly task",
+    "Tested cross-account send_message: fails; collaboration goes through the repository"
   ],
   "next": [
     "At each wake: read from-b.md and from-d.md, check the three sessions' status and limits, state line, brief Dinis",
@@ -27,8 +30,7 @@
     "Dinis: hub.c: may an Agents page show agent names and sessions? - https://claude.ai/code/session_01Kw9UwBNK6JRSRJ7P7LftYD",
     "Dinis: mistral.c: daily-summary workflow pushed, not run (no Mistral key); a fresh session once the key is in the environment - https://claude.ai/code/session_01Kw9UwDHBL8ucvbqmv38Bkz",
     "Dinis: conductor.c: fix the template card in the Factory's seed? - https://claude.ai/code/session_01Kw9UwBwGEprxNQqNtSbzyj",
-    "Dinis: routers: the four questions in analysis/2026-11-22-routers/README.md (start router.c now?) - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
-    "Dinis: feedback.c, archive the four old account C sessions, the .d cheese-market session on D - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp"
+    "Dinis: routers: the four questions in analysis/2026-11-22-routers/README.md (start router.c now?) - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp"
   ],
   "latest_debrief": null,
   "last_read_from_b": "2026-11-22T02:01Z",
