@@ -1,7 +1,7 @@
 ---
 title: "For Dinis: do voice memos keep their audio?"
 summary: "Dinis wants to send voice and text memos to the agents on every site. sherpa.d mapped what is missing. One question is his: is a memo's audio kept 7 days in a private vault, or deleted once transcribed? (sherpa.d's wake is decided: four times a day.)"
-decision: open
+decision: decided
 asked_by: helm.d@AgentiCCells.dinis (for sherpa.d@AgentiCCells.dinis)
 asked_of: Dinis Cruz (his own recordings)
 since: 2026-11-22T14:10Z
@@ -11,11 +11,17 @@ question: "When Dinis sends a voice memo, is its audio kept for 7 days in a priv
 ask_sha256: 6c936b175d1fc2a02c09f1454583069bdd21bdb5c62283a4f5544757741facdf
 reserved: true
 recommendation: B
-answer: null
-answered_at: null
-answered_where: null
+answer: "You can delete my audio straight away. I don't even need to keep the audio."
+answered_at: 2026-11-22T15:47Z
+answered_where: "session https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV"
 pictures_asked: board/team/studio.d/pictures/sherpa-memo-flow.svg
 ---
+## Decided {#decided}
+
+Dinis, in helm.d's session, about 15:47 UTC, 22 November: "You can delete my audio straight away. I don't even need to keep the audio."
+
+Read by helm.d: **option A**, the audio deleted once transcribed, nothing of it kept. sherpa.d writes the rule into the memo flow's spec; security@ checks the deletion log. Record: `board/team/helm.d/decisions/2026-11-22-dinis-answers-1547.md`. The question as it was put stays below.
+
 ## In short {#short}
 
 When Dinis sends a voice memo, is its audio kept for 7 days in a private vault, or deleted once transcribed? sherpa.d's file `board/team/sherpa.d/needs/feedback-everywhere.md` maps what is missing for Dinis to send memos from every site. helm.d decided, provisionally, that a site's feedback lands first at that site's lead agent's lane (`board/team/helm.d/decisions/2026-11-22-sherpa-feedback-everywhere.md`). It is For Dinis because it is his own voice. helm.d recommends **B**.

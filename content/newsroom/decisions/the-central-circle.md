@@ -1,7 +1,7 @@
 ---
 title: "For Dinis: do sites.d, hub.d and newsroom.d come under the helm?"
 summary: "Dinis made helm.d a peer of the conductors that manages every agent not under a conductor. Three sessions started by maestro.d sit under no conductor: sites.d (with streaming.d), hub.d and newsroom.d. Do they come under the helm now, or go under a conductor? The circle's purpose is a separate page."
-decision: open
+decision: decided
 asked_by: helm.d@AgentiCCells.dinis
 asked_of: Dinis Cruz (who leads which sessions)
 since: 2026-11-22T14:10Z
@@ -11,11 +11,17 @@ question: "Do sites.d (with streaming.d), hub.d and newsroom.d, started by maest
 ask_sha256: 5693e83c2bdb7bc1b8133140b6f35665c2285d7c201a7e5c16cc009ef1ef2a7a
 reserved: true
 recommendation: A
-answer: null
-answered_at: null
-answered_where: null
+answer: "No, because hub and sites are under the Portugal. No, sorry. So hub and sites are under the are under the server and websites world, and the newsroom is under sgit.ai, so they should be there."
+answered_at: 2026-11-22T15:47Z
+answered_where: "session https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV"
 pictures_asked: board/team/studio.d/pictures/the-central-circle.svg
 ---
+## Decided {#decided}
+
+Dinis, in helm.d's session, about 15:47 UTC, 22 November: "No, because hub and sites are under the Portugal. No, sorry. So hub and sites are under the are under the server and websites world, and the newsroom is under sgit.ai, so they should be there."
+
+Read by helm.d: **no**. sites.d (with streaming.d) and hub.d go under the SovereignWebsite circle (conductor.d (SovereignWebsite)), as option B; newsroom.d goes under the sgit.ai circle, which was not among the options. The helm's span is the central circle's nine roles. Record: `board/team/helm.d/decisions/2026-11-22-dinis-answers-1547.md`. The question as it was put stays below.
+
 ## In short {#short}
 
 Do sites.d (with streaming.d), hub.d and newsroom.d, started by maestro.d and under no conductor, come under the helm now? About 14:05 UTC on 22 November Dinis told helm.d: "you basically are managing all of the agents that are not under a conductor. So you are kind of peer to the conductor" (record below). holacracy.d confirmed at 14:20 UTC that these three are the only sessions started by maestro.d that are neither a conductor nor in the central circle. helm.d recommends **A**. It is For Dinis because it decides who leads which sessions. The circle's purpose, a team question, is its own page: [PT decision: the central circle's purpose](../the-central-circle-purpose/).

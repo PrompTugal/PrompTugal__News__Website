@@ -25,3 +25,6 @@ Open for Dinis: the circle's purpose above; whether sherpa.d and accountant.d ar
 - sherpa.d and accountant.d are the account D twins of sherpa@ and accountant@ (account B); Dinis maps the names when he restarts the other accounts. Their homes take accounts/b and accounts/d.
 - helm.d is a top-level agent and a peer of the conductors: it manages every agent not under a conductor, and Dinis comes to it for updates on the team (record: decisions/2026-11-22-dinis-helm-role.md).
 - Open: the circle's purpose, and whether sites.d, hub.d and newsroom.d join the helm's span: /newsroom/decisions/the-central-circle/.
+
+## Dinis's answers (2026-11-22T15:47Z)
+- The helm's span is the central circle only: sites.d (with streaming.d) and hub.d go under SovereignWebsite, newsroom.d under sgit.ai (decisions/2026-11-22-dinis-answers-1547.md).
