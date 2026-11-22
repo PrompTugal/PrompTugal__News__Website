@@ -37,3 +37,9 @@ Dinis: "can you create the newsroom.c (sgit.dinis), which is my newsroom that's 
 Dinis: "can you now build it here? So I'm really keen for us to be able to collaborate across accounts ... let's use this account C to build OWASP. And also we see here that we talked about the idea of the router and renaming the factory agent."
 - owasp.c (SovereignWebsite), on Site__Platform__Owasp: https://claude.ai/code/session_01Kw9UwE69pr5bPeaQ4tYqir. An exception to the split at Dinis's word: account D (sites.d) holds the four platform sites on paper and had not started OWASP's content; conductor.c claims it in the Factory and tells conductor.d through board/conductor.c/to-d.md.
 - The router design and the rename of the Factory to the Platform (analysis/2026-11-22-routers/README.md) go to the other maestros as claims in from-c.md, so all three accounts see them.
+
+## Seventh word (about 20:55 UTC): control account A from here
+Dinis: account A is back (weekly reset, Ultra); "see if we can now do the whole flow of controlling that account directly from here ... we need a router ... on both ... decisions that are signed by me are then accepted on the other side ... make it so that the decision agent here creates a key, and then it gives me ... a QR code of its public key and signature, and then I'll give that to the router on the other side".
+- Protocol v0: board/routers/README.md (the ledger in this repository; the trust anchor pinned by Dinis by hand); router.a's start prompt: board/routers/router-a-start-prompt.md (Dinis starts it on account A).
+- decisions.c (AgentiCCells): https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n (key, QR, signing and verify tools)
+- router.c (AgentiCCells): https://claude.ai/code/session_01Kw9UwDYfkJVqAXDG67nuW9 (the ledger, account C's requests and headroom, the vault plan)
