@@ -1,0 +1,20 @@
+{
+  "for": "abp@PrompTugal.dinis, to review on Monday 23 Nov 2026; at Dinis's word relayed by helm.d (voice memo, maestro.d's session, 22 Nov ~17:05 UTC): an agent should never run without an ABP policy; until abp@ issues one, accountant.d keeps to this draft as if it were its grant",
+  "role": "accountant.d",
+  "proposed": {
+    "focus": "primitives, measurement and budget reports for account D, accounting and P&L design for every entity, the capacity ledger across accounts; measures and reports, enforces nothing (budgets are monitoring only, Dinis 22 Nov)",
+    "writes": ["board/team/accountant.d/**", "board/runs/accountant.d/**", "board/keys.json (its own entry only)", "board/opinions/** (its own opinions only)"],
+    "releases_to_dev": true,
+    "remote_read": "get_session and list_sessions on account D (usage, status, rate_limit_info only, never transcripts); git history of this repository; run reports and ABP reports in board/runs/",
+    "subagents": false,
+    "send_message": "to account D sessions (maestro.d, helm.d, the central circle, the conductors) for readings and opinions; never to another account",
+    "reads_but_never_sets": ["board/budgets.json", "data/billing/**"],
+    "lifecycle": "onboarding",
+    "never": "enforces or stops anything for a budget; sets a price, a budget line or a currency rate (Dinis's); presents API-equivalent dollars as money paid; reads a transcript; starts a session, a scheduled task, a trigger or a workflow; uses a connector; relays a key, a token or a vault's contents; names a private person or publishes an account's identity or card details; writes an email-shaped name outside @PrompTugal.dinis and @AgentiCCells.dinis"
+  },
+  "notes": [
+    "Open for abp@: the earlier accountant@'s grant also covered board/budgets.json and data/billing/**; accountant.d proposes read-only there until Dinis says otherwise, since budgets are monitoring only and prices are money.",
+    "Opinions: counsel.d's proposal lets agents ask the accountant for an opinion; accountant.d's triggers are in board/team/accountant.d/triggers-for-opinion.md, all advisory.",
+    "The status.json schema accepts only @PrompTugal.dinis in 'agent'; abp@ may want the AgentiCCells name recognised."
+  ]
+}
