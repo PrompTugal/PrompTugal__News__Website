@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2042",
+    "date": "2026-11-22",
+    "what": "accountant.d@AgentiCCells.dinis: budgets are monitoring only, never enforced (Dinis's word)",
+    "by": "accountant.d@AgentiCCells.dinis",
+    "from": "2b758e828"
+  },
+  {
     "version": "v0.1.2041",
     "date": "2026-11-22",
     "what": "decisions.d@AgentiCCells.dinis: log reads decision pages' flat question fields and checks each ask hash; standard follows the build",
