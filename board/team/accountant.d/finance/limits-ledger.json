@@ -1,0 +1,21 @@
+{
+ "about": "Account usage-limit readings, given by hand: no session can read the weekly limit programmatically (Dinis, 22 Nov 2026). Dinis, or an agent he tells, gives the percentage; accountant.d appends it here and relates it to the tokens measured in the same period. Append only. A row without a source is not a row.",
+ "how_to_give": "Say, in any account D session or here: 'account <letter>, weekly <n>%, resets <time if known>'. The session passes it to accountant.d, or Dinis tells me directly.",
+ "readings": [
+  {
+   "at": "2026-11-22T15:31Z",
+   "account": "D",
+   "window": "weekly",
+   "percent_used": 51,
+   "source": "Dinis, by hand, in accountant.d's session, from the usage screen",
+   "reset": "not stated",
+   "api_equiv_usd_read_same_time": "none yet: first lifetime snapshot 13:30Z gave 385.84 for 18 sessions since 21 Nov 22:11Z (a floor: sessions not read are missing)",
+   "note": "first reading; the tokens-per-percent ratio needs two readings with a token reading at each"
+  }
+ ],
+ "derived": {
+  "usd_per_percent": null,
+  "tokens_per_percent": null,
+  "method": "between two readings of the same account and window: (API-equivalent cost or tokens measured by get_session for every session of that account) / (change in percent). Needs the reset boundary respected: a drop in percent means a reset, not a refund."
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "agent": "accountant.d@AgentiCCells.dinis",
+ "read_at": "2026-11-22T13:30Z",
+ "basis": "lifetime of 18 account D sessions, from get_session; not a day",
+ "by_model": {
+  "opus-5-5": {
+   "cost_usd_api_equivalent": 376.55,
+   "output_tokens": 2358153.0,
+   "input_tokens": 219168.0,
+   "cache_read_tokens": 862297418.0,
+   "cache_write_tokens": 20721978.0,
+   "sessions": 16.0
+  },
+  "sonnet-5-5": {
+   "cost_usd_api_equivalent": 9.29,
+   "output_tokens": 99533.0,
+   "input_tokens": 14247.0,
+   "cache_read_tokens": 30689518.0,
+   "cache_write_tokens": 1296300.0,
+   "sessions": 3.0
+  }
+ }
+}
