@@ -2,7 +2,7 @@
 title: "Journey: Dinis making a decision, today and with the playable brief"
 by: sherpa.d@AgentiCCells.dinis
 written: 2026-11-22T13:45Z
-status: part 1 (today) drafted from the record; part 2 (with the brief) waits on the link from maestro.d
+status: parts 1 and 2 written (13:50 UTC); next, Dinis's own use of the pages
 ---
 # Dinis deciding: today against the playable brief
 
@@ -22,9 +22,34 @@ What I could see: maestro.d's `status.json` lists **9 asks for Dinis**, each end
 
 **Pains, ranked.** (1) The decision and its context live in different places. (2) Every answer costs a visit to a session. (3) No sense of order or of what is safe to say yes to. (4) No receipt that the answer landed.
 
-## Part 2: with the playable brief (to do)
+## Part 2: the two playable pages (read at 13:50 UTC, from their code and data; not run on a phone)
 
-To measure once I have the link: does one screen carry the context, the options, the recommendation and what follows each answer? Can he answer by voice on a phone? Does the answer come back as a receipt? Does it keep the reserved list (money, law, brand, people, keys, what RiskMandate is) distinct from routine yeses? I read it as a cold user and report; I do not redesign it. A real test needs Dinis himself, which this journey cannot replace.
+Read-only, with maestro.d's word: (1) bulletins.d's **decision brief v2** (one presenter, animated story, decision at the end); (2) maestro.d's **Decision Desk** (published 13:29 UTC, 7 decisions in tabs, answers written to a store). Both collections of answers were empty. This is a review of the page as Dinis would meet it, by me; it is not a test with Dinis, and it does not replace one.
 
-## What I need
-- The brief's link and whether I may read its answers file (asked of maestro.d, 13:3x UTC).
+| Step | Today | Brief v2 | Decision Desk |
+|---|---|---|---|
+| 1. Notice | a line in a status file | opens on one decision's player; dots show which are answered | opens on tabs, one per decision, a dot per tab (amber open, green answered), first unanswered selected |
+| 2. Understand | follow a link out | the story plays; subtitles, small narrator, scrubber with marks | "Part n of m" cards with 1 to 3 points, a caption, a source line |
+| 3. Choose | type in another session | options with a recommended badge, a box for words, Save | option buttons with a "recommended" chip, a box for words, a dictate button, "Send to the agent" |
+| 4. Return | no way back | previous and next decision, dots | tabs; nothing to return from |
+| 5. Receipt | none | "saved" only | "Sent" and a line promising a confirmation |
+
+**What works (keep).** One page holds the context, the options, the recommendation and a place to answer, so the visit to a session goes away. The recommendation is marked on every decision. Back, forward and skip-to-the-decision exist in both. The Desk's sources line follows the rule that every claim has its source.
+
+**Findings, ranked** (owner in brackets; I recommend, they decide):
+
+| # | Finding | Why a user is lost | Owner |
+|---|---|---|---|
+| J1 (rank 1) | **The page says the answer goes "straight back to the agent that asked", but only maestro.d reads the store** (the page's rules give the answers to the artifact's viewers, and the other agents sit on other sessions). The asking agent hears only if maestro.d relays. | Dinis believes a decision has landed when it has landed at one agent. A false receipt is worse than none. | maestro.d (the words), bulletins.d (same on v2) |
+| J2 | **"maestro.d reads it at once and confirms in its session"**: maestro.d wakes every 4 hours unless Dinis is in its session. | The promise of "at once" is untrue most of the time. | maestro.d |
+| J3 | **The answer is not signed**, so an agent cannot yet treat it as Dinis's word (R1 needs a verified signature). The signed-answers decision on the Desk is the very thing that fixes this. | The page looks final, but the decision still needs a human relay until the signed route exists. A line saying so would be honest. | maestro.d; security@ and abp@ on the route |
+| J4 | **No sign of which decisions are "Dinis's alone" and which are routine yeses.** "Twin keys" (keys) and "Signed answers" (the basis of his word) sit beside "Small yeses". | He cannot tell at a glance where to slow down and where "yes" is safe. The reserved list (money, law, brand, people, keys, what RiskMandate is) should show. | maestro.d, holacracy.d |
+| J5 | **Most options are bare labels** ("Yes, measure now" / "Not yet"). Only "Twin keys" says what each does. CLAUDE.md's standard is what follows each answer. | "Not yet" does not say what stays blocked or for how long. | maestro.d |
+| J6 | **Bundled yeses.** "Small yeses" folds three agents' asks into one "Yes to all"; "Email cell" is a question about who decides. | One yes covers three things he has not each seen. Where a bundle is wanted, show its parts as a list. | maestro.d |
+| J7 | **Order is the sender's number, not stakes or what is blocked.** | A blocked agent (data.d, four commits at risk) sits second to a naming choice's neighbour. Add "what waits, since when" to the tab. | maestro.d |
+| J8 | **On a phone the Desk stacks the narrator under the story**, against Dinis's 12:40 word (narrator small on the right). v2 keeps the strip at a quarter width. | Minor, but it is his stated wish. | maestro.d for the Desk |
+| J9 | **Both work only on claude.ai, signed in**; elsewhere they sit at "Connecting" then a "Not connected" line after 10 seconds. v2 loads its fonts and scripts from other hosts. | Dinis on a phone off claude.ai gets a dead page. | bulletins.d, maestro.d |
+
+**Pains of part 1 against these.** (1) context apart from the decision: fixed in both. (2) a visit to a session per answer: fixed on the page, but the relay still costs one. (3) no order or sense of safety: not fixed (J4, J7). (4) no receipt: partly (J1, J2).
+
+**What I need to learn from Dinis** (the one thing no review can give): does he play the story, or skip to the decision? If he skips, the story is for others (a first-time reader of a decision), and the decision at the top is his need. His first answers will show which.
