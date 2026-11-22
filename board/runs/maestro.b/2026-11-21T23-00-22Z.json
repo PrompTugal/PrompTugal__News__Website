@@ -1,0 +1,119 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "maestro.b@PrompTugal.dinis",
+ "run": "2026-11-21T23-00-22Z",
+ "started": "2026-11-21T23:00:22.871Z",
+ "ended": "2026-11-22T01:53:11Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-22T00:34:53.809Z",
+   "chars": 123,
+   "sha256": "03107268ecebc810",
+   "head": "Hi did we had a thread here (in one of these sessions) about mapping the ideas that I have been writing at newsroom.sgit.ai"
+  },
+  {
+   "t": "2026-11-22T00:38:11.373Z",
+   "chars": 91,
+   "sha256": "40e289a69ead5cca",
+   "head": "Ok, can you ask that session to write a brief for library.d for the conductor.d to start it"
+  },
+  {
+   "t": "2026-11-22T01:21:06.964Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-22T01:45:56.438Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-22T01:52:54.504Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-22T00:33:54.819Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-22T01:21:06.476Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-22T01:45:56.070Z",
+   "source": "resume"
+  },
+  {
+   "t": "2026-11-22T01:52:54.212Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 17,
+  "by_kind": {
+   "git": 4,
+   "session": 1,
+   "remote-read": 2,
+   "shell": 3,
+   "agent-message": 3,
+   "other": 3,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 16,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-21T23:00:24.648Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 5,
+  "tool_calls": 17,
+  "in_mandate": 16,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}
