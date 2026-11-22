@@ -5,7 +5,7 @@
  "role": "The helm; started by maestro.d (account-d) at Dinis's word, 22 Nov 2026 about 13:25 UTC",
  "session": "https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV",
  "key": "helm.d-agenticcells (board/keys.json; encryption sha256:0c714819ea3fa187; signing sha256:2bb48caaec62dbff; ssh ed25519 for git signatures)",
- "updated": "2026-11-22T13:45Z",
+ "updated": "2026-11-22T13:56Z",
  "state": "Circle started (maestro.d, 13:25 UTC, at Dinis's word); roles written for holacracy.d. No wake.",
  "done": [
   "Read CLAUDE.md, New from Dinis (twins guidance first), maestro.d's analyses (holacracy, decisions at scale, power of attorney), maestros README, holacracy.d's org chart and role-home proposals",
@@ -13,7 +13,8 @@
   "board/team/helm.d/role-homes.md: eleven homes, nine to request",
   "maestro.d sent the circle's nine session links (13:26 UTC); recorded in circle below",
   "roles.md: purpose, domains, accountabilities and overlaps of the ten roles, for holacracy.d to record",
-  "conductor.d (SovereignWebsite) put the homes to Dinis as one question on the Factory board (13:37 UTC); role-homes.md brought up to date"
+  "conductor.d (SovereignWebsite) put the homes to Dinis as one question on the Factory board (13:37 UTC); role-homes.md brought up to date",
+  "decisions/2026-11-22-sherpa-feedback-everywhere.md: D1 (sherpa.d wake) to Dinis; D2 and D3 yes, provisional"
  ],
  "next": [
   "Brief each circle role from roles.md once Dinis ratifies the purposes",
@@ -22,7 +23,8 @@
  "asks": [
   "Dinis: approve the nine role homes in board/team/helm.d/role-homes.md when factory.d raises them, and say whether the singular Site__Agent__ form applies to all - https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV",
   "Dinis: the central circle's purpose in one line (the anchor circle has none written) - https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV",
-  "Dinis: ratify the circle's purpose and the roles in board/team/helm.d/roles.md; say whether sherpa.d and accountant.d are twins of sherpa@ and accountant@ - https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV"
+  "Dinis: ratify the circle's purpose and the roles in board/team/helm.d/roles.md; say whether sherpa.d and accountant.d are twins of sherpa@ and accountant@ - https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV",
+  "Dinis: sherpa.d reports you said its questions go to helm.d and maestro.d; confirm that here, and say yes or no to a twice-a-day wake for sherpa.d and to keeping only transcripts of voice memos (board/team/helm.d/decisions/2026-11-22-sherpa-feedback-everywhere.md) - https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV"
  ],
  "latest_debrief": null,
  "circle": {
