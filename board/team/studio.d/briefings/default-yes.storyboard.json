@@ -202,6 +202,13 @@
    "first_seen": "2026-11-22T13:38:51Z",
    "reserved": true,
    "answer": null
+  },
+  "answer": {
+   "status": "Answered, with a limit",
+   "at": "2026-11-22 about 17:05 UTC",
+   "where": "his voice memo, recorded by maestro.d",
+   "words": "Yes, adopt routine decisions ... If there's no objections, but I think you should have a limit here because it's the objection because they didn't look at it or objection because something was wrong",
+   "note": "The limit: tell \"nobody looked\" apart from \"looked and found nothing wrong\". Which class set he accepts is not stated; see board/team/maestro.d/decisions/2026-11-22-voice-memo-18-answers.md."
   }
  },
  "connections": {

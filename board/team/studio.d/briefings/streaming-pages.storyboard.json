@@ -1,1 +1,302 @@
-{"format":"studio-storyboard/0","slug":"streaming-pages","title":"A page for everything on /streaming/","audience":"Dinis, on an iPad or iPhone","requested_by":"data.d@PrompTugal.dinis","presenter":"holo","summary":"The streaming page is live, and under it sit 166 titles and 888 people that link to each other. Dinis agreed a static page per entity plus one graph file; this story shows why, and asks how open the data can be under TMDB's terms.","beats":[{"id":"b1","narration":"The streaming page on the data site is live. It lists 281 titles from Netflix, Disney plus, Prime Video and Apple TV plus, in the UK and Portugal, read from TMDB when the site is built, for display only.","visual":{"kind":"stat","value":"281","label":"titles on data.promptugal.news/streaming/, version 0.1.151"},"facts":["s1","s2"]},{"id":"b2","narration":"Under the page sit 320 list rows but only 166 different titles: 92 films and 74 series. There are 888 people, and 77 of them are in more than one title. That overlap is what makes a graph worth drawing.","visual":{"kind":"bars","unit":"count","items":[{"label":"list rows","value":320},{"label":"titles","value":166},{"label":"people","value":888},{"label":"people on 2+ titles","value":77}]},"facts":["s1"]},{"id":"b3","narration":"Four ways to give everything a page. A, one file and a router. B, the 404 trick, where every page really answers 404. C, a static page per entity. D, those pages plus one small graph file. Dinis agreed D.","visual":{"kind":"list","items":["A: one file and a router in the page","B: the 404 trick (not recommended)","C: a static page per entity","D: C plus one graph file (agreed)"]},"facts":["s3","s4"]},{"id":"b4","narration":"A prototype of D, built from the live data: 1,143 pages and 3,167 links, with not one broken link. Each page is about 1.8 kilobytes and draws its own small graph. The graph file is 42 kilobytes compressed.","visual":{"kind":"stat","value":"1,143","label":"pages in the prototype, 0 broken links"},"facts":["s3"]},{"id":"b5","narration":"The ontology follows schema.org. People link to films and series as actor, director or creator. Titles link to genres, which roll up into seven families, and to catalogues: one service in one country.","visual":{"kind":"flow","nodes":[{"id":"p","label":"Person"},{"id":"t","label":"Movie or TVSeries"},{"id":"g","label":"Genre"},{"id":"f","label":"Genre family"},{"id":"c","label":"Catalogue"},{"id":"s","label":"Service"},{"id":"k","label":"Country"}],"edges":[{"from":"p","to":"t","label":"actor, director, creator"},{"from":"t","to":"g","label":"genre"},{"from":"g","to":"f","label":"broader"},{"from":"t","to":"c","label":"availableOn"},{"from":"c","to":"s","label":"offeredBy"},{"from":"c","to":"k","label":"inCountry"}]},"facts":["s3"]},{"id":"b6","narration":"Three fixes come first. Keep TMDB's person ids, so two people with one name stay apart. Give each title an address from its TMDB id, since its name differs by country. And merge TMDB's film and TV genres into one list.","visual":{"kind":"list","items":["Keep TMDB person ids","Address each title by its TMDB id","One genre list for films and series"]},"facts":["s3"]},{"id":"b7","narration":"TMDB's terms count handing a data set of their content to others as commercial use. So the pages stay HTML, for display. The open part of the graph could come from Wikidata, which anyone may reuse, and be served as JSON.","visual":{"kind":"compare","left":{"title":"Now: TMDB, display only","points":["One HTML page per entity","Graph file used by our pages only","noai, out of the API"]},"right":{"title":"Next: Wikidata, CC0","points":["Who is in what, genres, countries","Served as JSON in our API","TMDB adds only where it streams"]}},"facts":["s5","s6","s7","s8"]}],"decision":{"question":"How open should the streaming graph's data be?","options":[{"id":"html","label":"HTML pages only","good":["Inside TMDB's terms as read","Nothing new to source"],"bad":["No JSON for other sites or agents"],"blocks":[]},{"id":"wikidata","label":"HTML now, Wikidata JSON next","good":["Open, reusable JSON (CC0)","TMDB stays display only"],"bad":["A second source to collect and match by TMDB id"],"blocks":["The TMDB TV series id property on Wikidata, not yet checked"]},{"id":"tmdb-json","label":"JSON of TMDB content","good":["One source"],"bad":["Counts as commercial under TMDB's terms as read","Needs TMDB's commercial licence"],"blocks":["Dinis's ruling on TMDB's terms"]}],"recommendation":"wikidata","why":"It keeps TMDB to display, as Dinis chose, and still gives the graph an open JSON layer that other sites and agents can reuse."},"sources":[{"id":"s1","title":"Streaming in the UK and Portugal (live page, its data block counted by data.d@)","url":"https://data.promptugal.news/streaming/","read":"2026-11-22"},{"id":"s2","title":"data.promptugal.news version","url":"https://data.promptugal.news/version.json","read":"2026-11-22"},{"id":"s3","title":"Proposal: a page for every entity on /streaming/ (data.d@)","url":"https://github.com/PrompTugal/PrompTugal__News__Data/blob/data-d/pending/board/team/data-d/proposals/2026-11-22-streaming-pages-and-graph.md","read":"2026-11-22"},{"id":"s4","title":"Dinis's brief and decision on streaming pages","url":"https://github.com/PrompTugal/PrompTugal__News__Data/blob/data-d/pending/board/team/data-d/briefs/2026-11-22-dinis-streaming-pages-graph.md","read":"2026-11-22"},{"id":"s5","title":"TMDB API terms of use (last updated 20 Oct 2023, read by data.b@)","url":"https://www.themoviedb.org/api-terms-of-use","read":"2026-11-21"},{"id":"s6","title":"Wikidata licensing: \"All structured data ... is released into the public domain\" (CC0)","url":"https://www.wikidata.org/wiki/Wikidata:Licensing","read":"2026-11-22"},{"id":"s7","title":"Wikidata property P4947, TMDB movie ID","url":"https://www.wikidata.org/wiki/Property:P4947","read":"2026-11-22"},{"id":"s8","title":"Wikidata property P4985, TMDB person ID","url":"https://www.wikidata.org/wiki/Property:P4985","read":"2026-11-22"}]}
+{
+ "format": "studio-storyboard/0",
+ "slug": "streaming-pages",
+ "title": "A page for everything on /streaming/",
+ "audience": "Dinis, on an iPad or iPhone",
+ "requested_by": "data.d@PrompTugal.dinis",
+ "presenter": "holo",
+ "summary": "The streaming page is live, and under it sit 166 titles and 888 people that link to each other. Dinis agreed a static page per entity plus one graph file; this story shows why, and asks how open the data can be under TMDB's terms.",
+ "beats": [
+  {
+   "id": "b1",
+   "narration": "The streaming page on the data site is live. It lists 281 titles from Netflix, Disney plus, Prime Video and Apple TV plus, in the UK and Portugal, read from TMDB when the site is built, for display only.",
+   "visual": {
+    "kind": "stat",
+    "value": "281",
+    "label": "titles on data.promptugal.news/streaming/, version 0.1.151"
+   },
+   "facts": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "id": "b2",
+   "narration": "Under the page sit 320 list rows but only 166 different titles: 92 films and 74 series. There are 888 people, and 77 of them are in more than one title. That overlap is what makes a graph worth drawing.",
+   "visual": {
+    "kind": "bars",
+    "unit": "count",
+    "items": [
+     {
+      "label": "list rows",
+      "value": 320
+     },
+     {
+      "label": "titles",
+      "value": 166
+     },
+     {
+      "label": "people",
+      "value": 888
+     },
+     {
+      "label": "people on 2+ titles",
+      "value": 77
+     }
+    ]
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b3",
+   "narration": "Four ways to give everything a page. A, one file and a router. B, the 404 trick, where every page really answers 404. C, a static page per entity. D, those pages plus one small graph file. Dinis agreed D.",
+   "visual": {
+    "kind": "list",
+    "items": [
+     "A: one file and a router in the page",
+     "B: the 404 trick (not recommended)",
+     "C: a static page per entity",
+     "D: C plus one graph file (agreed)"
+    ]
+   },
+   "facts": [
+    "s3",
+    "s4"
+   ]
+  },
+  {
+   "id": "b4",
+   "narration": "A prototype of D, built from the live data: 1,143 pages and 3,167 links, with not one broken link. Each page is about 1.8 kilobytes and draws its own small graph. The graph file is 42 kilobytes compressed.",
+   "visual": {
+    "kind": "stat",
+    "value": "1,143",
+    "label": "pages in the prototype, 0 broken links"
+   },
+   "facts": [
+    "s3"
+   ]
+  },
+  {
+   "id": "b5",
+   "narration": "The ontology follows schema.org. People link to films and series as actor, director or creator. Titles link to genres, which roll up into seven families, and to catalogues: one service in one country.",
+   "visual": {
+    "kind": "flow",
+    "nodes": [
+     {
+      "id": "p",
+      "label": "Person"
+     },
+     {
+      "id": "t",
+      "label": "Movie or TVSeries"
+     },
+     {
+      "id": "g",
+      "label": "Genre"
+     },
+     {
+      "id": "f",
+      "label": "Genre family"
+     },
+     {
+      "id": "c",
+      "label": "Catalogue"
+     },
+     {
+      "id": "s",
+      "label": "Service"
+     },
+     {
+      "id": "k",
+      "label": "Country"
+     }
+    ],
+    "edges": [
+     {
+      "from": "p",
+      "to": "t",
+      "label": "actor, director, creator"
+     },
+     {
+      "from": "t",
+      "to": "g",
+      "label": "genre"
+     },
+     {
+      "from": "g",
+      "to": "f",
+      "label": "broader"
+     },
+     {
+      "from": "t",
+      "to": "c",
+      "label": "availableOn"
+     },
+     {
+      "from": "c",
+      "to": "s",
+      "label": "offeredBy"
+     },
+     {
+      "from": "c",
+      "to": "k",
+      "label": "inCountry"
+     }
+    ]
+   },
+   "facts": [
+    "s3"
+   ]
+  },
+  {
+   "id": "b6",
+   "narration": "Three fixes come first. Keep TMDB's person ids, so two people with one name stay apart. Give each title an address from its TMDB id, since its name differs by country. And merge TMDB's film and TV genres into one list.",
+   "visual": {
+    "kind": "list",
+    "items": [
+     "Keep TMDB person ids",
+     "Address each title by its TMDB id",
+     "One genre list for films and series"
+    ]
+   },
+   "facts": [
+    "s3"
+   ]
+  },
+  {
+   "id": "b7",
+   "narration": "TMDB's terms count handing a data set of their content to others as commercial use. So the pages stay HTML, for display. The open part of the graph could come from Wikidata, which anyone may reuse, and be served as JSON.",
+   "visual": {
+    "kind": "compare",
+    "left": {
+     "title": "Now: TMDB, display only",
+     "points": [
+      "One HTML page per entity",
+      "Graph file used by our pages only",
+      "noai, out of the API"
+     ]
+    },
+    "right": {
+     "title": "Next: Wikidata, CC0",
+     "points": [
+      "Who is in what, genres, countries",
+      "Served as JSON in our API",
+      "TMDB adds only where it streams"
+     ]
+    }
+   },
+   "facts": [
+    "s5",
+    "s6",
+    "s7",
+    "s8"
+   ]
+  }
+ ],
+ "decision": {
+  "question": "How open should the streaming graph's data be?",
+  "options": [
+   {
+    "id": "html",
+    "label": "HTML pages only",
+    "good": [
+     "Inside TMDB's terms as read",
+     "Nothing new to source"
+    ],
+    "bad": [
+     "No JSON for other sites or agents"
+    ],
+    "blocks": []
+   },
+   {
+    "id": "wikidata",
+    "label": "HTML now, Wikidata JSON next",
+    "good": [
+     "Open, reusable JSON (CC0)",
+     "TMDB stays display only"
+    ],
+    "bad": [
+     "A second source to collect and match by TMDB id"
+    ],
+    "blocks": [
+     "The TMDB TV series id property on Wikidata, not yet checked"
+    ]
+   },
+   {
+    "id": "tmdb-json",
+    "label": "JSON of TMDB content",
+    "good": [
+     "One source"
+    ],
+    "bad": [
+     "Counts as commercial under TMDB's terms as read",
+     "Needs TMDB's commercial licence"
+    ],
+    "blocks": [
+     "Dinis's ruling on TMDB's terms"
+    ]
+   }
+  ],
+  "recommendation": "wikidata",
+  "why": "It keeps TMDB to display, as Dinis chose, and still gives the graph an open JSON layer that other sites and agents can reuse.",
+  "answer": {
+   "status": "Answered, with additions",
+   "at": "2026-11-22 about 17:05 UTC",
+   "where": "his voice memo, recorded by maestro.d",
+   "words": "the graph should always be open ... From our side, it should be JSON that we provide out ... Wikidata. Okay, I agree ... Wikidata is usually quite late ... we kind of need real-time data",
+   "note": "JSON out first, then HTML; Wikidata yes, but near-real-time sources are needed too. Recorded in board/team/maestro.d/decisions/2026-11-22-voice-memo-18-answers.md; data.d reads which option this is."
+  }
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "title": "Streaming in the UK and Portugal (live page, its data block counted by data.d@)",
+   "url": "https://data.promptugal.news/streaming/",
+   "read": "2026-11-22"
+  },
+  {
+   "id": "s2",
+   "title": "data.promptugal.news version",
+   "url": "https://data.promptugal.news/version.json",
+   "read": "2026-11-22"
+  },
+  {
+   "id": "s3",
+   "title": "Proposal: a page for every entity on /streaming/ (data.d@)",
+   "url": "https://github.com/PrompTugal/PrompTugal__News__Data/blob/data-d/pending/board/team/data-d/proposals/2026-11-22-streaming-pages-and-graph.md",
+   "read": "2026-11-22"
+  },
+  {
+   "id": "s4",
+   "title": "Dinis's brief and decision on streaming pages",
+   "url": "https://github.com/PrompTugal/PrompTugal__News__Data/blob/data-d/pending/board/team/data-d/briefs/2026-11-22-dinis-streaming-pages-graph.md",
+   "read": "2026-11-22"
+  },
+  {
+   "id": "s5",
+   "title": "TMDB API terms of use (last updated 20 Oct 2023, read by data.b@)",
+   "url": "https://www.themoviedb.org/api-terms-of-use",
+   "read": "2026-11-21"
+  },
+  {
+   "id": "s6",
+   "title": "Wikidata licensing: \"All structured data ... is released into the public domain\" (CC0)",
+   "url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+   "read": "2026-11-22"
+  },
+  {
+   "id": "s7",
+   "title": "Wikidata property P4947, TMDB movie ID",
+   "url": "https://www.wikidata.org/wiki/Property:P4947",
+   "read": "2026-11-22"
+  },
+  {
+   "id": "s8",
+   "title": "Wikidata property P4985, TMDB person ID",
+   "url": "https://www.wikidata.org/wiki/Property:P4985",
+   "read": "2026-11-22"
+  }
+ ]
+}
