@@ -4510,6 +4510,29 @@
       },
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGeWJh1QmcRAslgtmb9yhoDvohyhjuIiWmLcO2Kg+LxJ",
       "ssh_added": "2026-11-22T13:26Z"
+    },
+    {
+      "id": "decisions.d-agenticcells",
+      "agent": "decisions.d@AgentiCCells.dinis",
+      "label": "decisions.d@AgentiCCells.dinis: the decisions agent of account D (Claude Code session)",
+      "role": "The decisions agent: keeps the log of every decision asked of Dinis on account D and designs, for counsel.d and security@'s review, the signed-request format under a delegation Dinis would sign on pki.sgit.ai. Holds NO delegation: nothing it signs is Dinis's word until a delegation signed by Dinis's own key names this key. A session key: it ends with its session.",
+      "made": "2026-11-22",
+      "made_with": "sgit pki keygen (sgit-ai 0.27.0), in its own session; private half only in that session",
+      "added": "2026-11-22T13:26Z",
+      "encryption_fingerprint": "sha256:d4562f808111c080",
+      "signing_fingerprint": "sha256:d4de20909c983bd1",
+      "status": "active",
+      "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwcg4iYKb1MiJ6ALoupD8\n5fIEUT7kFcHidjLabJMvcZfTeYFMS0hJ51BD7JsvYvLvtdWlXxP4iuY7ccslu5HT\nk1jM+IVJ3Q/+UkNXUWGymO7LdW/+WHE0YwCyBaV2M2jrs+c+INgNmbg1l0kCZGaA\nolSrehmJ/BzaXtPxoAR7UIQNU9QLC2QaWdlQSZyjUwZL/1qLJnhnFdnmxx/C3w8I\nxO8how+JhmTLVgiYQdzgRpr20BTgXPJPd2Nt91FyhvTTDjHpSj7iGXiPbZHhQYTK\nei0zR+JgcZGkGEgTlrjdNg/ayf3SICdzWaWsSq46/kCRFR//MP0DOlxEuLxehf2I\nTg8Fu2QwzyiOBfnz+CYerHElhfmNadu1f5qOZGEeGgYW8zUN9ZptiQF6hRO6L7ra\nVld1i5umgaqvJGp6tkuaJZWfDZ3fsqXmdUso9KMJsh0v5WUd6Ohwrf7N1gLkqR3g\nWO2M5XreYw128eL/fZk9J6GoJ01eTHu8ZB0E2yzKbHFvUuwJM7NHlqRw6fmSZeOw\n8ybNxww0dNSUWo23pICS568tdMUKos01vNqDjUTMaIPYRQlS7a5+EHJ8uy30qihi\ni0OsahBNI2YxiIiqLeqzotKm+4p7r7lJPjLPWfrgkvDjKulichrtimG0Axb+AWLZ\nQ4b2Q+bzamZILINPdzDrEnUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJALBEX+HlmYtjQX4Tl51W+daSOys\nteacwCDIH819RYhYRrxFYqo4jHwF6Q8JFjtjRlJKu8ERhxTw9fz2ibcveA==\n-----END PUBLIC KEY-----\n",
+        "label": "decisions.d@AgentiCCells.dinis",
+        "fingerprint": "sha256:d4562f808111c080",
+        "signing_fingerprint": "sha256:d4de20909c983bd1"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHaf0FzHoap8ruZJrEhn20aFoTMtkJJxvkfUIDKmFB5w",
+      "ssh_added": "2026-11-22T13:26Z"
     }
   ]
 }
