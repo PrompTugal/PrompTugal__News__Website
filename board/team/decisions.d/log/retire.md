@@ -1,4 +1,51 @@
-# Retire, merge or keep: the first sweep of account D's asks (22 November 2026)
+# Retire, merge or keep: the end-of-day sweep, 22 November 2026, 21:44 UTC
+
+By decisions.d@AgentiCCells.dinis at its 21:43 wake, for Dinis to clear. From `log/README.md` (45 open asks in the account D agents' status files, numbered as in `log/asks.json` at this sweep) against Dinis's 18 answers by voice memo (about 17:05 UTC, in maestro.d's session; verbatim in `board/team/maestro.d/decisions/2026-11-22-voice-memo-18-answers.md`) and his earlier answers today. An ask leaves when its owner removes it from its status.json, or when Dinis says so; decisions.d edits no other agent's file. **45 asks: 14 answered, 9 merged into 4, 2 overtaken; about 23 distinct questions remain.**
+
+## Answered: the owner can remove them now
+
+| # | Owner | The ask | Dinis's answer (17:05 memo unless stated) |
+|---|---|---|---|
+| 3 | holacracy.d | singular or plural role homes | **home-names**: "It's not agents, it's agent. So it's always singular ... site __ agent __ name." Also applies to 13 (strategy.d), 21 (landscape.d), 30 (slides.d): their homes are `Site__Agent__<Name>` |
+| 2, 7, 31 | holacracy.d, studio.d, slides.d | ABP grants from abp@ on Monday | **abp-grants**: "No, we should not wait ... ask the agent to write one ... an agent should never run without an ABP policy". Each agent writes its own policy now (decisions.d too) |
+| 6 | studio.d | where briefings publish | **studio-publish**: "There's no private pages, right? They should publish on their website, on their repo" |
+| 25 | landscape.d | where the landscapes publish first | the same principle (studio-publish): its own website and repository; landscape.d to confirm it reads it so |
+| 17 | maestro.d | about 20 decisions waiting on the Desk | 18 answered by the memo |
+| (earlier) | decisions.d | default-yes (already removed from my status) | **default-yes**: "Yes ... you should have a limit here" (recorded in `design/default-yes.md`) |
+| 20, 41 (in part) | counsel.d | the pki.sgit.ai key; v0.3's relayed answers | **signing-key**, **poa-scope**, **poa-times**, **signed-answers**: given in maestro.d's session, so his word in a session; counsel.d asked for it "here or signed", which is counsel.d's call; v0.3's other questions stay |
+| 39 | holacracy.d | run a Holacracy framework website | cartographer.d records "one website per framework (Dinis's word)" (9420809f3), holacracy.d running Holacracy; holacracy.d to confirm |
+| page | helm.d | `/newsroom/decisions/the-central-circle-purpose/` | **circle-purpose**: "I agree with the whole agents point in the same direction and healthy"; helm.d copies it onto the page |
+
+## Merged: one question asked several times
+
+| One question | Asks | Held by |
+|---|---|---|
+| Archive the 84 sessions | 16 (decisions.d), 19 (maestro.d) | decisions.d |
+| The gate and schema accept the `account-d` names | 18 (maestro.d), 22 (landscape.d) | maestro.d |
+| A researcher session for the Wardley Maps site | 35 (helm.d), 38 part (cartographer.d) | helm.d |
+| holacracy.d's proposals | 0 (five proposals), 8 (D1 to D9 on the org-chart page) | holacracy.d |
+
+## Overtaken
+
+| # | Owner | Why |
+|---|---|---|
+| 26, 29 | strategy.d, helm.d | start observability.d: it was started at 16:46 UTC (session map) |
+
+## Still open and waiting on Dinis
+
+- **Starts a session (his word in that session):** 40 (conductor.d: "start data.open.d"; his 17:05 word is recorded, but the start needs it in conductor.d's session).
+- **His alone:** 4 (jurisdiction), 12 (subscription costs, first P&L), 14 (how he is alerted on each request), 24 (counsel.d's model budget), 33 (the current price), 37 (seeing how platform keys are kept), 42 (which counsel.d stays), 44 (a Wikimedia credential), 15 (mine: transcripts).
+- **Direction:** 27 and 36 (the first customer and the visitor's first step; his sgit-user answer, "the user is anybody who needs a vault", is related but not the same), 32 (which user leads the variants), 34 (the word for frameworks), 28 (presenters 0.2.0), 1 (where holacracy.d lives).
+- **Routine (default-yes once in force):** 9, 10, 11 (accountant.d's trigger and readings), 5 (studio.d's read access), 23 (counsel.d to abp@ directly: the twins guidance of 18:55 UTC now lets twins collaborate through the repositories), 43 (conductor.d: resend a message cut by the usage limit).
+
+## What follows
+
+- decisions.d tells each owner which asks are answered or merged.
+- decisions.d writes its own ABP policy, per the abp-grants answer.
+
+---
+
+# (Earlier) Retire, merge or keep: the first sweep of account D's asks (22 November 2026)
 
 By decisions.d@AgentiCCells.dinis, written 15:33 UTC, at Dinis's word in its session ("retire a lot of decisions that I've already made ... overridden by decisions or other decisions or by time ... clean up all my decisions ... then you just work on the deltas"). From `log/README.md` (42 open asks in the account D agents' status files, numbered as in `log/asks.json` at this sweep). A proposal: an ask leaves the list when its owner removes it from its status.json, or when Dinis says so; decisions.d never edits another agent's file. After this sweep, **42 asks become about 22 questions**, and 6 of those are answered already.
 

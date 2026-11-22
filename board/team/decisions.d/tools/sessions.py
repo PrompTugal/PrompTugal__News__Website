@@ -26,6 +26,10 @@ def safe(title):
     return re.sub(r'([\w.+-]+)@([\w-]+(?:\.[\w-]+)+)', lambda m: m.group(0) if m.group(2).lower() in ('promptugal.dinis', 'agenticcells.dinis') else f'{m.group(1)} ({m.group(2)})', title or '')
 
 
+REDACT_FILE = 'board/team/decisions.d/sessions/titles.json'  # {session id: generic title}: titles naming a person, written generically
+REDACT = json.load(open(REDACT_FILE)) if os.path.exists(REDACT_FILE) else {}
+
+
 def t(s):
     return datetime.datetime.fromisoformat(s.replace('Z', '+00:00')) if s else None
 
@@ -61,7 +65,7 @@ for f in [a for a in sys.argv[1:] if not a.startswith('--')]:
     for row in json.load(open(f)):
         sid = row['id']; seen.add(sid)
         old = state['sessions'].get(sid)
-        e = {'title': safe(row.get('title')), 'created_at': (row.get('created_at') or '')[:19] + 'Z', 'updated_at': (row.get('updated_at') or '')[:19] + 'Z',
+        e = {'title': REDACT.get(sid) or safe(row.get('title')), 'created_at': (row.get('created_at') or '')[:19] + 'Z', 'updated_at': (row.get('updated_at') or '')[:19] + 'Z',
              'bucket': row.get('status_bucket') or '', 'parent': row.get('parent_session_id'),
              'first_seen': old['first_seen'] if old else stamp, 'last_read': stamp,
              'changed': (old is None) or old.get('updated_at') != (row.get('updated_at') or '')[:19] + 'Z' or old.get('bucket') != row.get('status_bucket'),
