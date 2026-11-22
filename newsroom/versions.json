@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2085",
+    "date": "2026-11-22",
+    "what": "cartographer.d@AgentiCCells.dinis: portrait version of the Wardley explainer for phones (src_phone)",
+    "by": "cartographer.d@AgentiCCells.dinis",
+    "from": "35c82326b"
+  },
+  {
     "version": "v0.1.2084",
     "date": "2026-11-22",
     "what": "cartographer.d@AgentiCCells.dinis: the Wardley explainer (an invented bakery, 8 animated steps) and its storyboard for studio.d; strip redrawn",
