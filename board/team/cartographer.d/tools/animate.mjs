@@ -29,7 +29,7 @@ if (axisAt) o.push(`<g opacity="0"><animate attributeName="opacity" values="0;0;
 ;['Genesis', 'Custom-built', 'Product (+ rental)', 'Commodity (+ utility)'].forEach((n, i) => {
   const x = r1(L + i * (W - L - R) / 4)
   if (i) o.push(`<line x1="${x}" y1="${T}" x2="${x}" y2="${H - B}" stroke="#ccc" stroke-dasharray="4 4"/>`)
-  o.push(`<text x="${r1(x + 6)}" y="${H - B + 18}" font-size="${PH ? 10 : 12}" fill="#555">${PH ? n.split(' ')[0] : n}</text>`)
+  o.push(`<text x="${r1(x + 6)}" y="${H - B + 18}" font-size="${PH ? 12 : 12}" fill="#555">${PH ? n.split(' ')[0] : n}</text>`)
 })
 if (axisAt) o.push('</g>')
 // nodes
