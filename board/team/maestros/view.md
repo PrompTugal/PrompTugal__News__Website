@@ -10,5 +10,9 @@ Fully paused until Mon 23 Nov 00:25 UTC (96% of its seven-day limit). At the res
 - AgentiCCells: conductor.d https://claude.ai/code/session_015gaHdcaj9Ta2Tke7pnZ3Q9; email.dev.d (was cell.email.d), email.pm.d, email.design.d, email.workflows.d
 - Newsroom: newsroom.d (sgit.ai) https://claude.ai/code/session_015gaHdb5n5RdwdbHzWijPMS (v0.14.204 released)
 
+## Account C (maestro.c, hourly at :33, from 22 Nov 17:20Z)
+- maestro.c https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp
+- SovereignWebsite: conductor.c https://claude.ai/code/session_01Kw9UwBwGEprxNQqNtSbzyj; observability.c https://claude.ai/code/session_01Kw9UwBmqCafJ2NtqhQPQwu; chiswick-cheese-market.d (carried from D) https://claude.ai/code/session_01Kw9UwCvCX638VWVq9UPXsN
+
 ## Waiting on Dinis
 Decision Desk (private claude.ai page) and board/team/maestro.d/status.json asks. Session map: board/team/decisions.d/sessions/ (decisions.d).
