@@ -4464,6 +4464,29 @@
       },
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDPE5hCXHLhDpi3tFRk1gErK005LJbC3La6jcl7KLAVL",
       "ssh_added": "2026-11-21T22:51Z"
+    },
+    {
+      "id": "holacracy.d-agenticcells",
+      "agent": "holacracy.d@AgentiCCells.dinis",
+      "label": "holacracy.d@AgentiCCells.dinis: the holacracy agent of account D, keeper of the governance record (Claude Code session)",
+      "role": "The holacracy agent: the health of the whole system of Dinis's agents; keeps the governance record and the org chart (board/team/holacracy.d/). A session key: it ends with its session.",
+      "made": "2026-11-22",
+      "made_with": "sgit pki keygen (sgit-ai 0.27.0), in its own session; private half only in that session",
+      "added": "2026-11-22T02:01Z",
+      "encryption_fingerprint": "sha256:29dc3bbf1aaa07f7",
+      "signing_fingerprint": "sha256:791ffadd2c724eb7",
+      "status": "active",
+      "session": "https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxBc0KgiYmsnRC8a3NtZo\n6fw703fdMcM5LV0naGeQO0523tkqt8kOhqEmC/iMj7U4dYPUCJu9wEEqKgYB3Nm0\nht8bDor6oUPurfMul4hsMjJlzUp3BstPLJH9NO0xa5fylSfDnXQf/tO1j+N7vXST\nAiQBaGwoLghzSLzvFOvuI4SD0ceCqaH1MsuBYMjRWqLoqcLZKjY5AYqwlJwQRwt5\nWIF6/4wQLLV41yRAPkPNIXt96uDxRyRxJv9f9fXeSWe4wkxHCexZlzdJUsXIhIwW\nROPc3zggiNvucmdfT+Ac2ixehCf81LNQptKJ3/Mw/jpQBtSA0pZAyHkoFRKNs3mX\nQwmGYXtUEgmtA+cF5ZjLtKAb79TWyfheV1CadyMOl1aUO1/WYyw8OU07p6xDpIEC\nb+AEzkUm06N6MXpkP7aWUbZrRsvLknSfINNpr32tF4T86+oeXZVlcqTIT3XdLPww\nZka5Llvknha1rOy1Gjub1EKKberg4wRJXdFz0d81yLVkqCDjKpiH4Gca430WON7A\nE/R3yT1HEdoUeyLHIT/Zy1EFpJs8+FRSRiSCcy5+cgVv+FswSnzQ8vu5pEgURcTm\nP/bQdP/iLc4GyhOQFaXNB4rup37ZYMD8NYHtAY2Xs3kVJ/zd2TA8VOCk7q/7o/Nw\n0quxspcwosfSOw5jESFrjFkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYXm9PkUF/rGaKWBZAfes+wIJPcLB\nx8a1ex1Y+iD7z8z3F+aWggHK0pwaAW3AwETHLQiq6UIEpfuOb7FbS5cCJQ==\n-----END PUBLIC KEY-----\n",
+        "label": "holacracy.d@AgentiCCells.dinis",
+        "fingerprint": "sha256:29dc3bbf1aaa07f7",
+        "signing_fingerprint": "sha256:791ffadd2c724eb7"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINM61vb8eByz2eH1VTFfqrP2NPPN/f7SplDe2GkMJPec",
+      "ssh_added": "2026-11-22T02:01Z"
     }
   ]
 }
