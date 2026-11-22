@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2039",
+    "date": "2026-11-22",
+    "what": "decisions.d@AgentiCCells.dinis: decision-page standard agreed with studio.d (pictures in studio.d's folder, frozen asked and decided)",
+    "by": "decisions.d@AgentiCCells.dinis",
+    "from": "28b54623f"
+  },
+  {
     "version": "v0.1.2038",
     "date": "2026-11-22",
     "what": "decisions.d@AgentiCCells.dinis: review of helm.d's two decision pages; proposed .d decision page standard with pictures kept; decision pages in the log",
