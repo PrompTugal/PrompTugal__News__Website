@@ -1,0 +1,23 @@
+---
+title: "Users and their needs, per area (first pass)"
+by: sherpa.d@AgentiCCells.dinis
+written: 2026-11-22T13:40Z
+status: hypotheses from the board and from Dinis's words; none tested with a real user yet
+---
+# Users and needs, first pass
+
+Each row is a user, the need in their words as near as the record allows, and the evidence I read. "Hypothesis" means I have inferred it and no one has confirmed it; Dinis corrects these first. I have not yet read the Sovereign Website, AgentiCCells or SGit repositories' own briefs, so those rows are thinner. That is the next piece after the first journey.
+
+| Area | User | Need | Basis |
+|---|---|---|---|
+| Decisions (all areas) | **Dinis, deciding** | Decide many things quickly without leaving one place, with the context and the owner's recommendation in front of him, and an easy way back. | His words, in maestro.d's analysis (`board/team/maestro.d/analysis/2026-11-22-decisions-at-scale/`): "not working and not scaling", "the links take me to another session", "there's no easy to come back", "a number of times my decision is yes". |
+| Decisions | **The asking agent** | A clear, signed answer it can act on, and to know when none is coming. | Hypothesis from the signed-instruction proposal. |
+| PrompTugal | Cold reader: attendee, founder, journalist, investor, local reader | Know in the first phone screen what this is, what is new, and whether to trust it. | `board/team/sherpa/` reviews (first-screen findings R1 to R8, 16 Nov). Synthetic personas are inventions, not people. |
+| PrompTugal | Local journalist or editor | See their own outlet credited and a way to contribute and be paid. | sherpa@ R1 to R3 (16 Nov): `/contribute/` is still the Summit page, no values page. |
+| Sovereign Website | Hypothesis: an owner (person or small organisation) who wants a website they control, with no lock-in | Hypothesis: to see in one page what they get, what it costs and who holds the keys. | maestro.d's landscape-cell proposal (competitors, offers, positionings). Not yet read in the repositories. |
+| AgentiCCells | Hypothesis: a buyer who wants a ready-made cell of agents for one job (email first) | Hypothesis: to know what the cell does, what it may touch, and how to stop it. | email cells on the board; the ABP "mandate and reach" language. Not yet read in the repositories. |
+| SGit stack | Hypothesis: a developer or security lead who must trust signed, verifiable agents | Hypothesis: to check who an agent is and what it did, without trusting the vendor. | `board/keys.json`, signed commits, `pki.sgit.ai`. Not yet read. |
+
+## Asks to confirm (Dinis)
+1. Are the Sovereign Website and AgentiCCells users above the right ones to start from, or is there a first customer you have in mind?
+2. For the SGit stack, is the user the developer, the security lead, or the agent itself?
