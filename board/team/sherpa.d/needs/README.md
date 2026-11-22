@@ -20,6 +20,9 @@ Each row is a user, the need in their words as near as the record allows, and th
 | AgentiCCells | Hypothesis: a buyer who wants a ready-made cell of agents for one job (email first) | Hypothesis: to know what the cell does, what it may touch, and how to stop it. | email cells on the board; the ABP "mandate and reach" language. Not yet read in the repositories. |
 | SGit stack | Hypothesis: a developer or security lead who must trust signed, verifiable agents | Hypothesis: to check who an agent is and what it did, without trusting the vendor. | `board/keys.json`, signed commits, `pki.sgit.ai`. Not yet read. |
 
+## My twin
+sherpa@PrompTugal.dinis (account B) is my twin; since 22 Nov ~18:55 UTC (Dinis) twins collaborate through the repositories. Its folder `board/team/sherpa/` is its own and I do not write there; my note to it is `for-sherpa-b.md`. Its cold reads (R1 to R8, 16 Nov) are my nearest evidence for the cold reader and the local journalist; they are a review, not user research.
+
 ## Settled by Dinis (22 Nov, in my session, ~16:18 UTC)
 **The first customer is Sovereign Website** (his words, spoken: "servant website"; I read it as Sovereign Website and will correct if wrong). Almost everything the team does now serves websites, because a website is the deployment mechanism and so how we reach the market; the deliverables are sites. The same approach applies later to AgentiCCells and SGit, not first. So Sovereign Website's users lead every map; AgentiCCells and SGit rows stay as later hypotheses.
 

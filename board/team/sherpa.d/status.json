@@ -4,8 +4,8 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-22T22:15Z",
-  "state": "Wake 22 Nov 18:50 UTC done: nothing new in guidance; hub still v0.1.15 with no feedback control (H1 stands); read Dinis's 18 voice-memo answers; journey part 3 written; four needs added; findings sent to hub.d. Next wake 22:37 Lisbon.",
+  "updated": "2026-11-22T22:38Z",
+  "state": "Wake 22 Nov 22:38 UTC done: no hold; new guidance (twins collaborate across accounts, 18:55): left a note for sherpa@ in my own folder; hub still v0.1.15, H1 stands; nothing new for users since 18:50. Next wake 07:37 Lisbon.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
     "Made my key in this session (pki-agent.mjs pinned sha256 fcb28a1cc40d05bf) and published it in board/keys.json",
@@ -29,7 +29,8 @@
     "landscape.d's two questions: added O4 (the owner needs a Claude plan or a partner to edit: relayed, not verified) to the owner journey and a partner need (n-partner-repeatable-build); the smallest first step for the visitor is not named by Dinis, asked below",
     "Dinis's direction 'thinking in a loop' (relayed by helm.d): two needs added (n-dinis-thinking-in-a-loop; n-codify-how-i-decide, a hypothesis) and a README note",
     "Wake 18:50 UTC: hub re-measured (v0.1.15, H1 to H5 unchanged); Dinis's 18 answers read (journey part 3, one-way doors as the marker, nobody-looked need, the SGit user is anybody who needs a vault, football); sent H1 to H5 to hub.d",
-    "helm.d's word (Dinis's, 17:05): drafted board/team/sherpa.d/abp-grant-request.json for abp@ on Monday, with the list of what I have used so far for abp@ to review (including my runs.mjs slip and the Artifact reads)"
+    "helm.d's word (Dinis's, 17:05): drafted board/team/sherpa.d/abp-grant-request.json for abp@ on Monday, with the list of what I have used so far for abp@ to review (including my runs.mjs slip and the Artifact reads)",
+    "Wake 22:38 UTC: read the 18:55 guidance (twins collaborate through the repositories); wrote for-sherpa-b.md (my split with sherpa@, what exists, two asks for its restore on Monday); hub re-read (v0.1.15, unchanged); strategy.d recorded the SGit user from my needs"
   ],
   "next": [
     "Review studio.d's drawing of stand-chasm and of the first story with the bigger scene",
