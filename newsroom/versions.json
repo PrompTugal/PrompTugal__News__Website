@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2019",
+    "date": "2026-11-22",
+    "what": "holacracy.d@AgentiCCells.dinis: draft the role-repository layout and the AgentiCCells__Roles index",
+    "by": "holacracy.d@AgentiCCells.dinis",
+    "from": "b740dda56"
+  },
+  {
     "version": "v0.1.2018",
     "date": "2026-11-22",
     "what": "maestro.d (account-d): role repositories requested (Factory PR #53) at Dinis's word",
