@@ -27,3 +27,7 @@ Durable, Wix and Squarespace sell the same small-business customer an AI-made si
 
 ## Who the first customer is (open, sherpa.d)
 The field splits the buyer: the owner fears lock-in and renewals; the partner (freelancer, consultancy) wants a repeatable build; the developer already has the engines. Our plan's channels favour the partner. The positionings below are written so the first two lead for the owner and the fourth for the partner.
+
+## Update, 22 Nov 2026 about 16:50 UTC
+- sherpa.d adopted the four owner needs as hypotheses and added the visitor's (try before buy, a small first step), from Dinis's account of the Web Summit stand: visitors liked the agents and the policies but had no small first step. Which user leads is Dinis's call.
+- Correction to cartographer.d's first picture (rings 1 and 3 only): once rings 2 and 4 are read the gap 'no player serves both own-it-move-it and no-technical-skill' is not clean: 10Web (WordPress with SFTP/SSH listed) and v0 (GitHub sync) are partial counter-examples. Our 'no technical skill' is also not yet true for us (Claude plan or partner needed).

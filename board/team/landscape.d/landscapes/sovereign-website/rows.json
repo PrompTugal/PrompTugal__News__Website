@@ -1,7 +1,7 @@
 {
  "format": "landscape-rows/1",
  "for": "cartographer.d@AgentiCCells.dinis",
- "made": "2026-11-22T16:50Z",
+ "made": "2026-11-22T16:45Z",
  "made_by": "landscape.d@AgentiCCells.dinis",
  "rings_read": [
   1,
@@ -11,24 +11,28 @@
  ],
  "proposed_needs": [
   {
-   "id": "pn-own-it-move-it",
+   "id": "n-owner-own-and-move",
+   "landscape_id": "pn-own-it-move-it",
    "text": "Own the site's files and address, and be able to move it to another host without asking permission.",
-   "status": "proposed by landscape.d, not sherpa.d's"
+   "status": "adopted by sherpa.d as a hypothesis (board/team/sherpa.d/needs/needs.json); not tested with a real owner"
   },
   {
-   "id": "pn-no-technical-skill",
+   "id": "n-owner-no-technical-skill",
+   "landscape_id": "pn-no-technical-skill",
    "text": "Get a working site without a terminal, code or hosting set-up.",
-   "status": "proposed by landscape.d, not sherpa.d's"
+   "status": "adopted by sherpa.d as a hypothesis (board/team/sherpa.d/needs/needs.json); not tested with a real owner"
   },
   {
-   "id": "pn-know-where-it-lives",
+   "id": "n-owner-know-who-holds",
+   "landscape_id": "pn-know-where-it-lives",
    "text": "Know which country and company hold the site and its data.",
-   "status": "proposed by landscape.d, not sherpa.d's"
+   "status": "adopted by sherpa.d as a hypothesis (board/team/sherpa.d/needs/needs.json); not tested with a real owner"
   },
   {
-   "id": "pn-pay-once",
+   "id": "n-owner-clear-price",
+   "landscape_id": "pn-pay-once",
    "text": "Pay once or a clear price, not a subscription that renews higher.",
-   "status": "proposed by landscape.d, not sherpa.d's"
+   "status": "adopted by sherpa.d as a hypothesis (board/team/sherpa.d/needs/needs.json); not tested with a real owner"
   }
  ],
  "rows": [
@@ -38,11 +42,11 @@
    "ring": 1,
    "what": "Drag-and-drop builder for showcase sites, blogs and shops, 50+ themes, AI-assisted creation (read via search snippet; page body did not load).",
    "serves_needs": [
-    "pn-no-technical-skill",
-    "pn-know-where-it-lives"
+    "n-owner-no-technical-skill",
+    "n-owner-know-who-holds"
    ],
    "lacks_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "price_line": "Tiers: free (1 page, no custom domain, ads), Lite (6 pages, 15 GB), Pro (unlimited pages, 50 GB, e-commerce); currency and billing period not found; included free with a hosting plan.",
    "source_url": "https://www.infomaniak.com/en/create-a-website/site-creator",
@@ -64,11 +68,11 @@
    "ring": 1,
    "what": "AI website builder: describe the site in plain words and the AI builds the pages; sold as hosted in Switzerland.",
    "serves_needs": [
-    "pn-no-technical-skill",
-    "pn-know-where-it-lives"
+    "n-owner-no-technical-skill",
+    "n-owner-know-who-holds"
    ],
    "lacks_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "price_line": "not found on the page read",
    "source_url": "https://www.saldia.ch/en",
@@ -90,11 +94,11 @@
    "ring": 1,
    "what": "Builder (MyWebsite Now) in Starter, Plus and Pro plus store variants; domain, SSL and email included.",
    "serves_needs": [
-    "pn-no-technical-skill",
-    "pn-know-where-it-lives"
+    "n-owner-no-technical-skill",
+    "n-owner-know-who-holds"
    ],
    "lacks_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "price_line": "Shown in $ on the .com page, monthly on a 1-year term: Starter $6 then $14, Plus $1 then $20, Pro $17; stores higher; 30-day money-back.",
    "source_url": "https://www.ionos.com/websites/website-builder",
@@ -115,11 +119,11 @@
    "ring": 1,
    "what": "Website and store builder with add-ons (listings, bookings, forms, payments, invoicing) and the Companion AI assistant; free start without a card.",
    "serves_needs": [
-    "pn-no-technical-skill",
-    "pn-know-where-it-lives"
+    "n-owner-no-technical-skill",
+    "n-owner-know-who-holds"
    ],
    "lacks_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "price_line": "Plans Free, Start, Grow, Complete, Unlimited; per-plan prices not shown on the page read; terms monthly, 12 or 24 months, auto-renewing, EUR incl. VAT; domain EUR 26/yr after first term; 0% sales commission.",
    "source_url": "https://www.jimdo.com/",
@@ -141,11 +145,11 @@
    "ring": 1,
    "what": "Drag-and-drop builder with templates, AI site generation, hosting, domain, ecommerce and marketing tools, 14-day free trial.",
    "serves_needs": [
-    "pn-no-technical-skill",
-    "pn-know-where-it-lives"
+    "n-owner-no-technical-skill",
+    "n-owner-know-who-holds"
    ],
    "lacks_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "price_line": "USD, paid over 48 months: Premium $1.99/mo (renews $10.99), Unlimited $2.79 (renews $16.99), Cloud Startup $7.99 (renews $25.99); 30-day money-back.",
    "source_url": "https://www.hostinger.com/website-builder",
@@ -166,11 +170,11 @@
    "ring": 1,
    "what": "In $ (currency unnamed): Free $0, Basic $10/mo, Pro $30/mo, Enterprise custom; overages per unit (e.g. $50 per 100 GB bandwidth, $20 per extra editor).",
    "serves_needs": [
-    "pn-no-technical-skill",
-    "pn-know-where-it-lives"
+    "n-owner-no-technical-skill",
+    "n-owner-know-who-holds"
    ],
    "lacks_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "price_line": "In $ (currency unnamed): Free $0, Basic $10/mo, Pro $30/mo, Enterprise custom; overages per unit (e.g. $50 per 100 GB bandwidth, $20 per extra editor).",
    "source_url": "https://www.framer.com/pricing",
@@ -192,10 +196,10 @@
    "ring": 3,
    "what": "Open-source static site generator in Go, says it is very fast.",
    "serves_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "lacks_needs": [
-    "pn-no-technical-skill"
+    "n-owner-no-technical-skill"
    ],
    "price_line": "Software free; no hosting product or price on the homepage.",
    "source_url": "https://gohugo.io/",
@@ -215,10 +219,10 @@
    "ring": 3,
    "what": "Turns Markdown, Liquid, HTML and CSS into a static site; no database.",
    "serves_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "lacks_needs": [
-    "pn-no-technical-skill"
+    "n-owner-no-technical-skill"
    ],
    "price_line": "software free (see licence fact); hosting and any AI key cost extra",
    "source_url": "https://jekyllrb.com/",
@@ -238,10 +242,10 @@
    "ring": 3,
    "what": "Static site generator from a folder of Markdown, HTML or custom files; calls itself stable, secure and privacy-focused.",
    "serves_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "lacks_needs": [
-    "pn-no-technical-skill"
+    "n-owner-no-technical-skill"
    ],
    "price_line": "No price; sponsor-funded.",
    "source_url": "https://www.11ty.dev/",
@@ -261,10 +265,10 @@
    "ring": 3,
    "what": "JavaScript framework for content-driven sites sending light HTML.",
    "serves_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "lacks_needs": [
-    "pn-no-technical-skill"
+    "n-owner-no-technical-skill"
    ],
    "price_line": "software free (see licence fact); hosting and any AI key cost extra",
    "source_url": "https://astro.build/",
@@ -285,10 +289,10 @@
    "ring": 3,
    "what": "Static site engine as one executable with Sass and syntax highlighting built in.",
    "serves_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "lacks_needs": [
-    "pn-no-technical-skill"
+    "n-owner-no-technical-skill"
    ],
    "price_line": "software free (see licence fact); hosting and any AI key cost extra",
    "source_url": "https://www.getzola.org/",
@@ -307,10 +311,10 @@
    "ring": 3,
    "what": "Open-source publishing software on PHP and MariaDB behind millions of sites.",
    "serves_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "lacks_needs": [
-    "pn-no-technical-skill"
+    "n-owner-no-technical-skill"
    ],
    "price_line": "software free; hosting extra",
    "source_url": "https://wordpress.org/about/",
@@ -331,10 +335,10 @@
    "ring": 3,
    "what": "MIT.",
    "serves_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "lacks_needs": [
-    "pn-no-technical-skill"
+    "n-owner-no-technical-skill"
    ],
    "price_line": "Managed Ghost(Pro), billed yearly, in $: Starter $18/mo, Publisher $29/mo, Business $199/mo, Custom.",
    "source_url": "https://raw.githubusercontent.com/TryGhost/Ghost/main/LICENSE",
@@ -354,10 +358,10 @@
    "ring": 3,
    "what": "Community fork of bolt.new: browser workspace to prompt, edit, run and deploy full-stack apps with any LLM.",
    "serves_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "lacks_needs": [
-    "pn-no-technical-skill"
+    "n-owner-no-technical-skill"
    ],
    "price_line": "Software free; you pay your LLM provider or use local models.",
    "source_url": "https://github.com/stackblitz-labs/bolt.diy",
@@ -377,10 +381,10 @@
    "ring": 3,
    "what": "Local open-source AI app builder positioned against Lovable, v0 and Bolt; for power users.",
    "serves_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "lacks_needs": [
-    "pn-no-technical-skill"
+    "n-owner-no-technical-skill"
    ],
    "price_line": "Free download; bring your own AI API keys.",
    "source_url": "https://github.com/dyad-sh/dyad",
@@ -399,10 +403,10 @@
    "ring": 3,
    "what": "Self-hostable AI app builder on PocketBase, billed as a Lovable/v0 alternative with built-in database.",
    "serves_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "lacks_needs": [
-    "pn-no-technical-skill"
+    "n-owner-no-technical-skill"
    ],
    "price_line": "software free (see licence fact); hosting and any AI key cost extra",
    "source_url": "https://github.com/tinykit-studio/tinykit",
@@ -422,8 +426,8 @@
    "what": "Prompt-to-Next.js app builder with live preview, GitHub sync and custom domains.",
    "serves_needs": [],
    "lacks_needs": [
-    "pn-no-technical-skill",
-    "pn-own-it-move-it"
+    "n-owner-no-technical-skill",
+    "n-owner-own-and-move"
    ],
    "price_line": "Code free; Totalum key free to start with 50 AI credits, then usage-based.",
    "source_url": "https://github.com/totalumlabs/ai-app-builder-open",
@@ -443,11 +447,11 @@
    "ring": 2,
    "what": "AI builder makes a site from one prompt and lets users switch between AI generation and drag-and-drop editing.",
    "serves_needs": [
-    "pn-no-technical-skill"
+    "n-owner-no-technical-skill"
    ],
    "lacks_needs": [
-    "pn-own-it-move-it",
-    "pn-know-where-it-lives"
+    "n-owner-own-and-move",
+    "n-owner-know-who-holds"
    ],
    "price_line": "Free $0; Light $17.77 a month, Core $29.77, Business $39.77, Business Elite $159.77, billed yearly; USD shown for reference, varies by location.",
    "source_url": "https://www.wix.com/plans",
@@ -469,11 +473,11 @@
    "ring": 2,
    "what": "In $: Basic $25 monthly or $19 annual; Core $39 or $29; Plus $65 or $49; Advanced $139 or $99; 14-day trial, no free plan.",
    "serves_needs": [
-    "pn-no-technical-skill"
+    "n-owner-no-technical-skill"
    ],
    "lacks_needs": [
-    "pn-own-it-move-it",
-    "pn-know-where-it-lives"
+    "n-owner-own-and-move",
+    "n-owner-know-who-holds"
    ],
    "price_line": "In $: Basic $25 monthly or $19 annual; Core $39 or $29; Plus $65 or $49; Advanced $139 or $99; 14-day trial, no free plan.",
    "source_url": "https://www.squarespace.com/pricing",
@@ -512,11 +516,11 @@
    "ring": 2,
    "what": "AI app builder; Pro adds custom domains and badge removal; Git sync listed only under Enterprise.",
    "serves_needs": [
-    "pn-no-technical-skill"
+    "n-owner-no-technical-skill"
    ],
    "lacks_needs": [
-    "pn-own-it-move-it",
-    "pn-know-where-it-lives"
+    "n-owner-own-and-move",
+    "n-owner-know-who-holds"
    ],
    "price_line": "In $: Free with 5 daily credits (up to 30 a month); Pro $25 a month with 100 credits; Business $50; Enterprise by quote; yearly gives 2 months free.",
    "source_url": "https://lovable.dev/pricing",
@@ -537,11 +541,11 @@
    "ring": 2,
    "what": "AI app and site builder billed by tokens; hosting included on all plans; free tier puts Bolt branding on sites; Pro adds custom domain.",
    "serves_needs": [
-    "pn-no-technical-skill"
+    "n-owner-no-technical-skill"
    ],
    "lacks_needs": [
-    "pn-own-it-move-it",
-    "pn-know-where-it-lives"
+    "n-owner-own-and-move",
+    "n-owner-know-who-holds"
    ],
    "price_line": "In $: Free with 1M tokens a month; Pro $25 with 10M tokens; Teams $30 per member; Enterprise custom.",
    "source_url": "https://bolt.new/pricing",
@@ -561,10 +565,10 @@
    "ring": 2,
    "what": "AI UI and app generator; free plan includes deploying to Vercel and GitHub sync; usage metered by model token rates.",
    "serves_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "lacks_needs": [
-    "pn-know-where-it-lives"
+    "n-owner-know-who-holds"
    ],
    "price_line": "USD: Free (7 messages a day); Plus $30 per user a month with $30 credits; Business $100; Enterprise custom.",
    "source_url": "https://v0.app/pricing",
@@ -585,11 +589,11 @@
    "ring": 2,
    "what": "No-code AI site builder for small businesses with built-in CRM, bookings and blog tools; limited HTML customisation.",
    "serves_needs": [
-    "pn-no-technical-skill"
+    "n-owner-no-technical-skill"
    ],
    "lacks_needs": [
-    "pn-own-it-move-it",
-    "pn-know-where-it-lives"
+    "n-owner-own-and-move",
+    "n-owner-know-who-holds"
    ],
    "price_line": "In $: Free (300 AI credits total); Launch $25 a month on the card but $22 in the table; Grow $49 vs $41; yearly saves 15%.",
    "source_url": "https://www.durable.com/pricing",
@@ -609,11 +613,11 @@
    "ring": 2,
    "what": "AI builder for WordPress sites with managed hosting, daily backups, staging, SFTP/SSH access and automated updates; for individuals and agencies.",
    "serves_needs": [
-    "pn-no-technical-skill",
-    "pn-own-it-move-it"
+    "n-owner-no-technical-skill",
+    "n-owner-own-and-move"
    ],
    "lacks_needs": [
-    "pn-know-where-it-lives"
+    "n-owner-know-who-holds"
    ],
    "price_line": "USD: Free; AI Starter $10 a month; AI Premium $15; AI Ultimate $22.50; agency plans $42.50 and up; annual listed at 50% off.",
    "source_url": "https://10web.io/pricing/",
@@ -634,7 +638,7 @@
    "ring": 4,
    "what": "Sells shared web hosting; cheapest plan Webhosting S has 10 GB storage; SSH listed only for larger plans; traffic limits not stated.",
    "serves_needs": [
-    "pn-know-where-it-lives"
+    "n-owner-know-who-holds"
    ],
    "lacks_needs": [],
    "price_line": "Webhosting S from EUR 1.60 a month excl. VAT; page ambiguous on a setup fee (shows EUR 8.32 and EUR 0.00).",
@@ -657,7 +661,7 @@
    "ring": 4,
    "what": "Web hosting range Eco, Business, Agencies; page shows no prices or datacentre list; advertises a free domain for the first year.",
    "serves_needs": [
-    "pn-know-where-it-lives"
+    "n-owner-know-who-holds"
    ],
    "lacks_needs": [],
    "price_line": "not found on the page read",
@@ -680,7 +684,7 @@
    "ring": 4,
    "what": "Pricing index lists S3-compatible object storage and a web hosting product; no free tier on the index; the object-storage page itself returned 403.",
    "serves_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "lacks_needs": [],
    "price_line": "Prices in euros; lowest figure on the index EUR 4.99 a month (Dedibox servers); static-hosting prices not read.",
@@ -703,7 +707,7 @@
    "what": "Free plan limits: 500 builds a month, one build at a time, 20-minute build timeout, 20,000 files per site, 25 MiB per file, 100 custom domains per project; bandwidth limit not mentioned.",
    "serves_needs": [],
    "lacks_needs": [
-    "pn-know-where-it-lives"
+    "n-owner-know-who-holds"
    ],
    "price_line": "not read",
    "source_url": "https://developers.cloudflare.com/pages/platform/limits/",
@@ -724,7 +728,7 @@
    "ring": 4,
    "what": "Static hosting that publishes HTML, CSS and JS from a repository, optionally after a build; one user or org site per account plus one project site per repo.",
    "serves_needs": [
-    "pn-own-it-move-it"
+    "n-owner-own-and-move"
    ],
    "lacks_needs": [],
    "price_line": "not read",
@@ -747,7 +751,7 @@
    "what": "Free plan USD 0 with a 300-credit monthly limit, bandwidth at 20 credits per GB, custom domains with SSL included.",
    "serves_needs": [],
    "lacks_needs": [
-    "pn-know-where-it-lives"
+    "n-owner-know-who-holds"
    ],
    "price_line": "not read",
    "source_url": "https://www.netlify.com/pricing/",
@@ -760,6 +764,33 @@
     "sw-f145"
    ],
    "note": "California company; free plan allows commercial use within credits"
+  },
+  {
+   "id": "sw-p-us",
+   "name": "Sovereign Website (us)",
+   "ring": 0,
+   "what": "A team of AI agents builds a website from the customer's photos and words; five designs to choose from; files, change history and address are the customer's; plain static files, no cookies by default; changes by talking to the owner's own AI within a behaviour policy, each a commit that can be undone; an open pattern first, a hosted offer second.",
+   "serves_needs": [
+    "n-owner-own-and-move",
+    "n-owner-clear-price"
+   ],
+   "lacks_needs": [],
+   "price_line": "one-off; published anchor 500 GBP; a launch offer of 50 GBP or EUR is marked 'Proposed, not decided'; a standing 250 GBP is in the relay only; nothing sold yet",
+   "source_url": "https://sovereignwebsite.ai",
+   "date_read": "2026-11-22",
+   "flagged": true,
+   "fact_ids": [],
+   "note": "our own page read 22 Nov 13:27 UTC; relay of the plan from conductor.d 15:49 UTC. n-owner-no-technical-skill is NOT marked as served: the owner needs a Claude plan or a partner to edit, and sherpa.d's first owner journey asks whether the handover to GitHub loses a non-technical owner. n-owner-know-who-holds is not marked: we name no host as ours. Flagged because price and the example are undecided."
+  }
+ ],
+ "visitor_needs": [
+  {
+   "id": "n-visitor-try-before-buy",
+   "status": "sherpa.d, from Dinis's account of the Web Summit stand (22 Nov ~16:34 UTC)"
+  },
+  {
+   "id": "n-lead-first-small-step",
+   "status": "same"
   }
  ]
 }

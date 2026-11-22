@@ -917,6 +917,22 @@
     "sw-f132",
     "sw-f116"
    ]
+  },
+  {
+   "id": "sw-g10",
+   "kind": "norm",
+   "text": "Try-first is the norm for builders: free plans or free trials are stated by Wix, Jimdo, Framer, Lovable, Bolt, v0, Durable, 10Web, Infomaniak and Hostinger (trial). What a visitor cannot try anywhere in the field read is a written agent policy working on a topic they care about, because none of the players read sells one; that comes from Dinis's stand journey, not from this reading, and I have not searched the field for it.",
+   "facts": [
+    "sw-f021",
+    "sw-f029",
+    "sw-f070",
+    "sw-f079",
+    "sw-f092",
+    "sw-f097",
+    "sw-f101",
+    "sw-f106",
+    "sw-f110"
+   ]
   }
  ],
  "facts": [
@@ -2387,6 +2403,10 @@
   {
    "at": "2026-11-22T16:50Z",
    "what": "rings 2 and 4 added: 68 facts, 14 players, findings sw-g6 to sw-g9; Webflow could not be read"
+  },
+  {
+   "at": "2026-11-22T16:45Z",
+   "what": "need ids moved to sherpa.d's (n-owner-*); 'us' row added; finding sw-g10 (try-first is the norm)"
   }
  ]
 }
