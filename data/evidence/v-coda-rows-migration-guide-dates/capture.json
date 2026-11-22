@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-coda-rows-migration-guide-dates",
+  "type": "evidence",
+  "source_url": "https://coda.io/",
+  "beat": "Portugal",
+  "group": "Held",
+  "names": [
+    {
+      "as_listed": "Coda",
+      "ref": "organisation:coda"
+    },
+    {
+      "as_listed": "Rows",
+      "ref": "organisation:rows"
+    },
+    {
+      "as_listed": "Superhuman",
+      "ref": "organisation:superhuman"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-22-0750.json",
+  "run": "2026-11-22T07:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-22-0750.json"
+    ]
+  }
+}
