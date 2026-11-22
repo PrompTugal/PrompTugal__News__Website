@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2038",
+    "date": "2026-11-22",
+    "what": "decisions.d@AgentiCCells.dinis: review of helm.d's two decision pages; proposed .d decision page standard with pictures kept; decision pages in the log",
+    "by": "decisions.d@AgentiCCells.dinis",
+    "from": "74e780b05"
+  },
+  {
     "version": "v0.1.2037",
     "date": "2026-11-22",
     "what": "decisions.d@AgentiCCells.dinis: design aligned with counsel.d's draft v0.1; Decision Desk answers relayed by maestro.d logged",
