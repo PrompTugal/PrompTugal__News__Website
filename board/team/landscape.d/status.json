@@ -5,25 +5,29 @@
   "session": "https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
   "started_by": "maestro.d (account-d) at Dinis's word, 22 Nov 2026 about 13:25 UTC",
   "key": "landscape.d-agenticcells (board/keys.json; encryption sha256:2d8a2b2a3705eaa0, signing sha256:4716c8dee72a2dc2)",
-  "updated": "2026-11-22T16:00Z",
-  "state": "scout done for rings 1 and 3 (77 facts, 3 flagged for re-read); rings 2 and 4 and mapper to follow; offer relayed by conductor.d recorded",
+  "updated": "2026-11-22T16:11Z",
+  "state": "Dinis widened the job (16:10): three landscapes (Sovereign Website, RiskMandate, agentic sales), tracked, published on our site, built with strategy.d and cartographer.d; first landscape.json (sovereign-website, rings 1 and 3) made; the other two scoped; asked both agents about format and maps",
   "done": [
     "Read CLAUDE.md, the New from Dinis list, maestro.d's status and the sovereign website decision (maestro.b, 19 Nov)",
     "Made key landscape.d-agenticcells in this session; entry in board/keys.json; commits signed",
     "Read sovereignwebsite.ai (public) for what we offer; drafted jobs/2026-11-22-sovereign-website/01-scope-and-candidates.md",
     "Replied to helm.d (15:34 relay): name kept in the repo, home Site__Agents__Landscape not entered until helm.d says so; rebased my 3 commits on origin/dev (keys.json conflict resolved, my entry kept)",
     "Released my first 5 commits (v0.1.2045)",
-    "Scouts ran for ring 1 (6 vendors) and ring 3 (7 engines plus 4 open-source AI builders): jobs/2026-11-22-sovereign-website/02-scout-facts.json"
+    "Scouts ran for ring 1 (6 vendors) and ring 3 (7 engines plus 4 open-source AI builders): jobs/2026-11-22-sovereign-website/02-scout-facts.json",
+    "Dinis's brief 22 Nov ~16:10: three landscapes with Wardley as the lens; read cartographer.d's carto-map/1 FORMAT.md and strategy.d's map folders",
+    "Sent strategy.d and cartographer.d the proposed split and a format question (a player field and an offered-by link)",
+    "landscapes/README.md, sovereign-website/landscape.json (17 players, 77 facts, 5 findings), riskmandate/scope.md, agentic-sales/scope.md"
   ],
   "next": [
-    "Scout rings 2 and 4, re-read the 3 flagged rows (Zola licence, Infomaniak offer, Hostinger hosting)",
-    "Mapper, analyst (check our price line: 500, 250, 50 proposal), strategist (3 to 5 positionings), designer briefs, presenter storyboard",
-    "Cell written up as a product"
+    "Wait for strategy.d and cartographer.d on format and map hooks; convert landscape/1 to carto-map/1 as agreed",
+    "Scout rings 2 and 4 for sovereign-website; re-read the 3 flagged rows",
+    "Scout riskmandate (after reading riskmandate.ai and the team's pages) and agentic-sales (after reading AgentiCCells's own offer)",
+    "Strategist positionings and designer briefs for the Sovereign Website variants"
   ],
   "asks": [
     "Dinis: helm.d to request SovereignWebsite/Site__Agents__Landscape (until then I work only in this folder) - https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
-    "Dinis: cartographer.d's map format, strategy.d's Wardley map and sherpa.d's user needs are not in this repository yet (no board/team folders); tell me where they are or say to proceed with my own format - https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
-    "Dinis: data/schemas/team-status.schema.json refuses agent landscape.d@AgentiCCells.dinis, so status.json says @PrompTugal.dinis; say if dev@ should widen the pattern - https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW"
+    "Dinis: data/schemas/team-status.schema.json refuses agent landscape.d@AgentiCCells.dinis, so status.json says @PrompTugal.dinis; say if dev@ should widen the pattern - https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
+    "Dinis: where should the landscapes be published first: on promptugal.news as a section, or wait for Site__Agents__Landscape (helm.d is creating it)? I keep them on dev in my folder meanwhile - https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW"
   ],
   "latest_debrief": null,
   "focus": "Market research, recommendation and improvements as a row of sub-agents; first job Sovereign Website"

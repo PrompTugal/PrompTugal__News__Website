@@ -35,3 +35,6 @@ Tests for inclusion: it is publicly sellable or downloadable today; its offer pa
 
 ## Next
 Scout writes `02-scout-facts.json` (fact, URL, date read) for rings 1 and 3 first, then 2 and 4; mapper then builds the map.
+
+## Update, 22 Nov 2026 about 16:25 UTC
+Rings 1 and 3 scouted (`02-scout-facts.json`) and folded into `../../landscapes/sovereign-website/landscape.json` (landscape/1, with five findings, each pointing to fact ids). Dinis widened the job to three landscapes (`../../landscapes/README.md`). Rings 2 and 4 still to scout.
