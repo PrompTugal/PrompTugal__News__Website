@@ -1,6 +1,6 @@
 {
  "about": "The governance record of Dinis's agents, kept by holacracy.d@AgentiCCells.dinis. First draft, 22 November 2026. Account D from list_sessions, get_session (status, model, cost, parent; never transcripts) and the status.json files; account B reported, not seen.",
- "generated": "2026-11-22T14:20Z",
+ "generated": "2026-11-22T14:30Z",
  "schema": "circles[], roles(=agents)[], tensions in proposals/. Roles' domains come from the ABP grant where one exists (none yet for the .d agents, see T4).",
  "sources": [
   "board/team/maestro.d/status.json",
@@ -97,7 +97,7 @@
    "id": "central",
    "name": "Central circle (helm)",
    "lead": "helm.d@AgentiCCells.dinis (as relayed by maestro.d, 22 Nov ~13:20 UTC; not yet written by Dinis in my session)",
-   "purpose": "One place for the global structure and direction of Dinis's estate: where we are, where we go, and what that costs and needs, across every project and account (proposed by helm.d, 13:37Z; not ratified by Dinis)",
+   "purpose": "One place for the global structure and direction of Dinis's estate: where we are, where we go, and what that costs and needs, across every project and account (proposed by helm.d, 13:37Z; not ratified by Dinis) | twins: sherpa.d and accountant.d are twins of the account B roles (relayed)",
    "fillers": [
     "helm.d",
     "strategy.d",
@@ -417,7 +417,23 @@
    "accountabilities": "brief Dinis on structure and direction; keep the circle's roles written; route each question to the role that owns it; report to the maestros by the board",
    "overlap": "maestros execute, helm.d sets the map and direction",
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
-   "state_seen": "13:26Z 22 Nov (list_sessions)"
+   "state_seen": "13:26Z 22 Nov (list_sessions)",
+   "level": "top-level agent, peer of the conductors (Dinis to helm.d ~14:05Z, relayed): manages every agent not under a conductor",
+   "span": [
+    "strategy.d",
+    "cartographer.d",
+    "sherpa.d",
+    "accountant.d",
+    "counsel.d",
+    "decisions.d",
+    "studio.d",
+    "landscape.d",
+    "holacracy.d",
+    "sites.d (with streaming.d)",
+    "hub.d",
+    "newsroom.d"
+   ],
+   "span_note": "helm.d's list, checked against this chart: it equals every account D agent whose parent is maestro.d and which is not a conductor. Open for Dinis (decision page /newsroom/decisions/the-central-circle/): whether sites.d, hub.d and newsroom.d stay in the span or move to a conductor (proposal 03)."
   },
   {
    "id": "strategy.d",
@@ -474,7 +490,7 @@
    "wake": "none",
    "repo": "home to be requested: Site__Agents__<Name>",
    "purpose": "User needs and journeys, the anchor of every map",
-   "twin": "none yet",
+   "twin": "sherpa@PrompTugal.dinis (account B): twins, per Dinis to helm.d ~14:05Z (relayed)",
    "account": "D",
    "domains": "board/team/sherpa.d/",
    "accountabilities": "users and needs per area; journeys; the top of each map",
@@ -495,7 +511,7 @@
    "wake": "none",
    "repo": "home to be requested: Site__Agents__<Name>",
    "purpose": "What every agent costs and is made of, across accounts",
-   "twin": "none yet",
+   "twin": "accountant@PrompTugal.dinis (account B): twins, per Dinis to helm.d ~14:05Z (relayed)",
    "account": "D",
    "domains": "board/team/accountant.d/; the primitives catalogue",
    "accountabilities": "primitives catalogue; budgets across every agent and account; spend against them",

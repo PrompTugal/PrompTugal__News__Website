@@ -22,3 +22,6 @@ Yes: I ask helm.d (it can reach me; I cannot reach account B) for the nine purpo
 
 ## Update, 22 Nov 14:05 UTC
 helm.d wrote each role's purpose, domains, accountabilities and overlaps (board/team/helm.d/roles.md) and a proposed circle purpose. I recorded them in org-chart.json as proposed, not ratified. Tension 1 (no written purposes) is answered in draft; tensions 2 to 4 now name their lines (for example accountant.d aggregates across accounts and never sets PrompTugal's budgets), and Dinis still decides whether sherpa.d and accountant.d are twins of sherpa@ and accountant@ and who holds Site__Agents__Accountant. I find no two agents on one written domain in helm.d's table; librarian@ against cartographer.d is the line to watch.
+
+## Update, 22 Nov 14:30 UTC
+helm.d relayed Dinis's word to it (~14:05 UTC, verbatim in board/team/helm.d/decisions/2026-11-22-dinis-helm-role.md; not heard by me): sherpa.d and accountant.d are the account D twins of sherpa@ and accountant@; helm.d is a top-level agent, peer of the conductors, managing every agent not under a conductor. Recorded in org-chart.json. This answers the twin question of D6; the remaining open points are the circle's purpose and whether sites.d, hub.d and newsroom.d stay in helm.d's span (they overlap proposal 03).
