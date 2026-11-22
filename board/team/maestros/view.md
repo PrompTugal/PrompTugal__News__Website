@@ -11,6 +11,7 @@ Fully paused until Mon 23 Nov 00:25 UTC (96% of the seven-day limit, at Dinis's 
   - synthetic-users.d: https://claude.ai/code/session_015gaHddQiB4aYZWXjfs16rM
 - sites.d (SovereignWebsite), Sonnet, $2.07: https://claude.ai/code/session_015gaHde5GfQygpBgyUhNzuf
   - streaming.d (StreamingWebsite): https://claude.ai/code/session_015gaHdbE7t4XNf21L7neufF
+- conductor.d (AgentiCCells), Opus, onboarding: https://claude.ai/code/session_015gaHdcaj9Ta2Tke7pnZ3Q9
 - hub.d (SovereignWebsite), Sonnet, $1.19: https://claude.ai/code/session_015gaHdbMGVTN5vJ9jVfAi3N
 
 ## Waiting on Dinis
