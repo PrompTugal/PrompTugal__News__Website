@@ -23,7 +23,7 @@ nav{flex-wrap:wrap}#dots{display:flex;gap:8px;flex:1 1 100%;order:-1;justify-con
 ul.rv{list-style:none;padding:0;margin:0}ul.rv li{padding:10px 12px;margin:8px 0;border:1px solid var(--line);border-radius:10px;opacity:0;transform:translateX(-8px);transition:all .4s}
 .cmp{display:grid;grid-template-columns:1fr 1fr;gap:12px}.cmp>div{border:1px solid var(--line);border-radius:10px;padding:12px;opacity:0;transition:opacity .5s}.cmp h3{margin:0 0 6px;font-size:15px}
 .opt{border:1.5px solid var(--line);border-radius:12px;padding:12px;margin:10px 0}.opt.rec{border-color:var(--acc);background:var(--accb)}.opt .g{color:var(--acc);font-size:14px}.opt .b{color:var(--warn);font-size:14px}.opt button{margin-top:8px}
-.jr{display:grid;grid-template-columns:170px 1fr;gap:12px;align-items:start}.jsvg{width:170px;height:300px}.jbox{border:1.5px dashed var(--line);border-radius:10px;padding:10px;margin:6px 0;min-height:70px}.jsh{margin:6px 0;color:var(--acc);font-weight:600;font-size:14px}.wk{animation:bob 1s ease-in-out infinite alternate}@keyframes bob{to{transform:translateY(-3px)}}.fl2{animation:drop .9s ease-in both}@keyframes drop{from{transform:translateY(-40px);opacity:0}}@media(max-width:560px){.jr{grid-template-columns:1fr}.jsvg{width:150px;height:264px;justify-self:center}}
+.jr{display:grid;grid-template-columns:minmax(220px,360px) minmax(260px,420px);justify-content:center;gap:18px;align-items:start}.jsvg{width:100%;height:auto;max-height:70vh;display:block}.jbox{border:1.5px dashed var(--line);border-radius:10px;padding:10px;margin:6px 0;min-height:70px}.jsh{margin:6px 0;color:var(--acc);font-weight:600;font-size:14px}.wk{animation:bob 1s ease-in-out infinite alternate}@keyframes bob{to{transform:translateY(-3px)}}.fl2{animation:drop .9s ease-in both}@keyframes drop{from{transform:translateY(-40px);opacity:0}}@media(max-width:560px){.jr{grid-template-columns:1fr}.jsvg{max-width:340px;margin:0 auto}}
 .src{font-size:12px;color:var(--mut);margin:6px 16px}.src a{color:var(--mut)}
 @media(max-width:560px){main{grid-template-columns:1fr 96px}#pres{width:90px;height:105px}.big{font-size:48px}.bar span.l{width:90px}.cmp{grid-template-columns:1fr}}
 </style></head><body>
@@ -68,22 +68,40 @@ function draw(st,v){const k=v.kind;
  else st.append(el('div','lab',v.note||'(a visual the player cannot draw yet)'))}
 
 const STOPS=[['base-camp','⛺','Base camp'],['trail','🥾','Trail'],['fork','🔀','Fork'],['fog','🌫️','Fog'],['cliff','🧗','Cliff'],['ravine','🕳️','Ravine'],['bridge','🌉','Bridge'],['rope','🪢','Rope'],['hut','🛖','Hut'],['summit','🏔️','Summit']];
-function journey(st,v){const w=v.walkers||{},wrap=el('div','jr');
- const idx=Math.max(0,STOPS.findIndex(x=>x[0]==v.stop)),NS='http://www.w3.org/2000/svg',H=300,W=170;
- const svg=document.createElementNS(NS,'svg');svg.setAttribute('viewBox','0 0 '+W+' '+H);svg.setAttribute('class','jsvg');svg.setAttribute('role','img');svg.setAttribute('aria-label','The path up the mountain, stop: '+(STOPS[idx][2]));
- const mk=(t,a,x)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(x!=null)e.textContent=x;svg.append(e);return e};
- mk('path',{d:'M0 300 L60 150 L90 190 L130 60 L170 140 L170 300Z',fill:'var(--line)',opacity:.45});
- const pos=i=>({x:36+(i%2?46:0)+(i%3)*8,y:280-i*27});
- let d='';STOPS.forEach((_,i)=>{const q=pos(i);d+=(i?' L':'M')+q.x+' '+q.y});mk('path',{d,fill:'none',stroke:'var(--mut)','stroke-width':2,'stroke-dasharray':'4 4'});
- STOPS.forEach((x,i)=>{const q=pos(i);mk('text',{x:q.x,y:q.y+5,'text-anchor':'middle','font-size':i==idx?20:13,opacity:i==idx?1:.45},x[1])});
+function journey(st,v){const w=v.walkers||{},wrap=el('div','jr'),NS='http://www.w3.org/2000/svg';
+ const idx=Math.max(0,STOPS.findIndex(x=>x[0]==v.stop)),stop=STOPS[idx][0];
+ const mkSvg=(W,H,label)=>{const sv=document.createElementNS(NS,'svg');sv.setAttribute('viewBox','0 0 '+W+' '+H);sv.setAttribute('class','jsvg');sv.setAttribute('role','img');sv.setAttribute('aria-label',label);
+  sv.mk=(t,a,x,par)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(x!=null)e.textContent=x;(par||sv).append(e);return e};return sv};
+ // the path, left
+ const W=260,H=390,svg=mkSvg(W,H,'The path up the mountain; the walkers are at the '+STOPS[idx][2]),mk=svg.mk;
+ mk('path',{d:'M0 390 L70 190 L110 240 L170 70 L260 200 L260 390Z',fill:'var(--line)',opacity:.45});
+ const pos=i=>({x:60+(i%2?64:0)+(i%3)*10,y:360-i*34});
+ let d='';STOPS.forEach((_,i)=>{const q=pos(i);d+=(i?' L':'M')+q.x+' '+q.y});mk('path',{d,fill:'none',stroke:'var(--mut)','stroke-width':2.5,'stroke-dasharray':'5 5'});
+ STOPS.forEach((x,i)=>{const q=pos(i);mk('text',{x:q.x,y:q.y+7,'text-anchor':'middle','font-size':i==idx?28:17,opacity:i==idx?1:.4},x[1])});
+ const lab=(x,y,t,c)=>{const g=mk('g',{});mk('rect',{x:x-2,y:y-13,width:t.length*7.4+8,height:18,rx:5,fill:'var(--card)',stroke:c,'stroke-width':1.5},null,g);mk('text',{x:x+2,y:y,'font-size':13,'font-weight':700,fill:c},t,g)};
  const cur=pos(idx),n=Math.min(24,w.here!=null?w.here:0);
- for(let i=0;i<n;i++){const g=mk('g',{class:'wk',style:'animation-delay:'+(i*70)+'ms'});const x=cur.x-30+(i%8)*8,y=cur.y+16+Math.floor(i/8)*11;[['circle',{cx:x,cy:y,r:3,fill:'var(--acc)'}],['path',{d:`M${x} ${y+3}v5`,stroke:'var(--acc)','stroke-width':1.5}]].forEach(([t,a])=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);g.append(e)});svg.append(g)}
- const f=Math.min(24,w.fell||0);const rav=pos(5);for(let i=0;i<f;i++){const e=mk('circle',{cx:rav.x-24+(i%8)*6,cy:rav.y+16+Math.floor(i/8)*6,r:2.4,fill:'var(--warn)',class:'fl2',style:'animation-delay:'+(i*90)+'ms'})}
- if(f)mk('text',{x:rav.x+28,y:rav.y+22,'font-size':8,fill:'var(--warn)'},'fell');
- const sm=el('div','jsite');const hd=el('b','',v.stop?STOPS[idx][2]:'');sm.append(hd);
- const box=el('div','jbox');box.append(el('div','',(v.site&&v.site.shows)||''));if(v.site&&v.site.image){const im=el('img');im.src=v.site.image;im.alt='';im.style.maxWidth='100%';box.append(im)}sm.append(box);
+ for(let i=0;i<n;i++){const g=mk('g',{class:'wk',style:'animation-delay:'+(i*60)+'ms'}),x=cur.x-52+(i%9)*12,y=cur.y+24+Math.floor(i/9)*18;mk('circle',{cx:x,cy:y,r:4.6,fill:'var(--acc)'},null,g);mk('path',{d:`M${x} ${y+4.6}v8M${x-4} ${y+8}h8`,stroke:'var(--acc)','stroke-width':2,fill:'none'},null,g)}
+ const f=Math.min(24,w.fell||0),rav=pos(5);
+ for(let i=0;i<f;i++){mk('circle',{cx:rav.x-60+(i%8)*9,cy:rav.y+62+Math.floor(i/8)*10,r:3.8,fill:'var(--warn)',class:'fl2',style:'animation-delay:'+(i*90)+'ms'})}
+ if(w.fell)lab(rav.x-60,rav.y+104,w.fell+' fell','var(--warn)');
+ if(w.through)lab(pos(9).x-50,pos(9).y-18,w.through+' through','var(--acc)');
+ // the site, right: a wireframe that changes with the stop
+ const SW=300,SH=330,ws=mkSvg(SW,SH,'A wireframe of the site at this stop: '+((v.site&&v.site.shows)||'')),m=ws.mk;
+ m('rect',{x:2,y:2,width:SW-4,height:SH-4,rx:10,fill:'var(--card)',stroke:'var(--line)','stroke-width':2});
+ m('rect',{x:2,y:2,width:SW-4,height:26,rx:10,fill:'var(--line)'});[16,30,44].forEach(x=>m('circle',{cx:x,cy:15,r:4,fill:'var(--mut)'}));m('rect',{x:62,y:8,width:150,height:14,rx:7,fill:'var(--bg)'});
+ m('rect',{x:12,y:38,width:SW-24,height:26,rx:5,fill:'var(--accb)',stroke:'var(--line)'});[20,70,120].forEach(x=>m('rect',{x:x+4,y:46,width:36,height:10,rx:3,fill:'var(--mut)',opacity:.5}));
+ const ctrl=['bridge','rope','hut','summit'].includes(stop);
+ if(ctrl){m('rect',{x:SW-124,y:41,width:104,height:20,rx:10,fill:stop=='bridge'?'none':'var(--acc)',stroke:'var(--acc)','stroke-width':2,'stroke-dasharray':stop=='bridge'?'4 3':'0'});m('text',{x:SW-72,y:55,'text-anchor':'middle','font-size':12,'font-weight':700,fill:stop=='bridge'?'var(--acc)':'var(--bg)'},'Tell the team')}
+ m('rect',{x:12,y:76,width:SW-24,height:70,rx:6,fill:'var(--bg)',stroke:'var(--line)'});m('rect',{x:24,y:90,width:150,height:12,rx:3,fill:'var(--mut)',opacity:.6});m('rect',{x:24,y:110,width:210,height:8,rx:3,fill:'var(--mut)',opacity:.35});m('rect',{x:24,y:126,width:180,height:8,rx:3,fill:'var(--mut)',opacity:.35});
+ [12,160].forEach(x=>{m('rect',{x:x,y:158,width:128,height:78,rx:6,fill:'var(--bg)',stroke:'var(--line)'});m('rect',{x:x+10,y:170,width:80,height:10,rx:3,fill:'var(--mut)',opacity:.5});m('rect',{x:x+10,y:188,width:100,height:7,rx:3,fill:'var(--mut)',opacity:.3})});
+ if(stop=='fog'){m('rect',{x:2,y:30,width:SW-4,height:SH-34,fill:'var(--card)',opacity:.72});m('text',{x:SW/2,y:130,'text-anchor':'middle','font-size':38},'🌫️');m('text',{x:SW/2,y:170,'text-anchor':'middle','font-size':14,fill:'var(--mut)'},'No visible way to say what is wrong')}
+ if(stop=='ravine'){m('rect',{x:40,y:246,width:220,height:46,rx:8,fill:'var(--fg)',opacity:.85});m('text',{x:SW/2,y:274,'text-anchor':'middle','font-size':12,fill:'var(--bg)'},'Nothing tells them what to do')}
+ if(stop=='bridge'){m('text',{x:SW/2,y:268,'text-anchor':'middle','font-size':12,fill:'var(--acc)','font-weight':700},'Sketch: a proposal, not built')}
+ if(stop=='hut'){m('rect',{x:30,y:246,width:SW-60,height:44,rx:8,fill:'var(--accb)',stroke:'var(--acc)','stroke-width':2});m('text',{x:SW/2,y:272,'text-anchor':'middle','font-size':13,'font-weight':700,fill:'var(--acc)'},'Received. Here is who has it.')}
+ if(stop=='summit'){[110,140,170].forEach((x,i)=>m('circle',{cx:x,cy:272,r:10,fill:['var(--acc)','var(--bar)','var(--warn)'][i]}));m('text',{x:SW/2,y:306,'text-anchor':'middle','font-size':12,fill:'var(--mut)'},'The owner, the lead agent and the Sherpa, on one rope')}
+ const sm=el('div','jsite');sm.append(ws);sm.append(el('div','lab',((v.site&&v.site.shows)||'')));
  if(v.sherpa)sm.append(el('div','jsh','Sherpa: '+v.sherpa));
- const cnt=el('div','tag','Walkers '+(w.here!=null?w.here:'?')+' of '+(w.start!=null?w.start:'?')+(w.fell?', fell '+w.fell:'')+(w.through?', through '+w.through:'')+' · '+(w.basis=='measured'?'measured'+(w.source?' ('+(srcMap[w.source]?srcMap[w.source].title:w.source)+')':''):'ILLUSTRATIVE, not measured')+' · synthetic characters');sm.append(cnt);
+ sm.append(el('div','tag','Walkers '+(w.here!=null?w.here:'?')+' of '+(w.start!=null?w.start:'?')+(w.fell?', fell '+w.fell:'')+(w.through?', through '+w.through:'')+' · '+(w.basis=='measured'?'measured'+(w.source?' ('+(srcMap[w.source]?srcMap[w.source].title:w.source)+')':''):'ILLUSTRATIVE, not measured')+' · synthetic characters · wireframe, not the real page'));
  wrap.append(svg,sm);st.append(wrap)}
 function decision(st,d,n){st.append(el('h2','',d.question));d.options.forEach(o=>{const c=el('div','opt'+(o.id==d.recommendation?' rec':''));c.append(el('b','',o.label+(o.id==d.recommendation?'  (recommended)':'')));
  (o.good||[]).forEach(t=>c.append(el('div','g','+ '+t)));(o.bad||[]).forEach(t=>c.append(el('div','b','− '+t)));(o.blocks||[]).forEach(t=>c.append(el('div','b','Holds up: '+t)));
