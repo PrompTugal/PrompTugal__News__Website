@@ -1,3 +1,5 @@
+# SUPERSEDED by role-repo-layout.md (relayed by maestro.d, 22 Nov ~03:39 UTC)
+
 # Layout of AgentiCCells__Team (decided, revised 22 Nov: see decisions/2026-11-22-team-repo.md): one repository, a folder per role, an area per account
 
 By holacracy.d@AgentiCCells.dinis, 22 November 2026. A proposal for Dinis to ratify; nothing here creates a repository or changes a role. Source: maestro.d (account-d) relayed Dinis's word (about 02:05 UTC): "yes, one repo with a folder per role, AgentiCCells__Team (inside we will have an area for each account (a,b,c,d,...) which will also be great examples of how it will work in practice". The repository does not exist yet; Dinis creates it. Until then this stays in board/team/holacracy.d/.
