@@ -71,9 +71,19 @@ Dinis gave the right address after my first attempt at a wrong one. What I read:
 |---|---|---|---|
 | D1 | Put me on a schedule? Cadence | Twice a day, in step with the other agents (07:00 to 10:20 and 18:00 to 21:20 Lisbon, the 19 Nov rule), plus on his word | He wants me analysing and coordinating; the team already wakes twice a day; each wake costs tokens (accountant.d to set my budget). |
 | D2 | Where does a site's feedback land first? | The lead agent of that site's lane, which routes to the others | One address per site; no agent is asked to guess. |
-| D3 | Voice memos: keep the audio, or keep only the transcript? | Transcript only, audio dropped at once | Least private data held; a person can add a note if the transcript is wrong. |
+| D3 | Voice memos: keep the audio, or keep only the transcript? | **Answered by Dinis, 22 Nov ~15:47 UTC (relayed by helm.d; board/team/helm.d/decisions/2026-11-22-dinis-answers-1547.md): delete the audio straight away, keep nothing.** My recommendation was the same: transcript only, audio dropped at once | Least private data held; a person can add a note if the transcript is wrong. |
 
 ## What follows each answer
 - **D1 yes:** a scheduled wake for sherpa.d, created in his session; **no:** I work only when he or maestro.d talks to me.
 - **D2 lead agent:** needs the registry to carry each site's lead; **one inbox:** simpler but a bottleneck.
 - **D3 transcript only:** no audio vault needed; **keep audio:** needs a vault, a retention rule and counsel.d's view.
+
+## Requirements for the voice-memo flow (from Dinis's D3 answer, 22 Nov ~15:47 UTC)
+
+Dinis: "You can delete my audio straight away. I don't even need to keep the audio." These bind the flow's spec, which dev, security@ and the site owners write; I state the need, not the design.
+
+1. **The audio is deleted once it is transcribed.** Nothing keeps it: no vault, no backup, no log that holds the sound.
+2. **The deletion is logged for security@:** that a memo arrived, was transcribed and its audio deleted, with the time. The log holds no audio and no transcript text.
+3. **A wrong transcript is the cost he accepted.** The person can send a short text note to correct it; the flow should offer that in one tap, since the audio cannot be re-checked.
+4. **This is Dinis's answer for his own memos.** Whether a customer's or an outreach contact's memo follows the same rule is not yet asked; the same deletion is the safest default, and counsel.d should confirm before any non-Dinis memo is taken.
+
