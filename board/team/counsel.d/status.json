@@ -5,8 +5,8 @@
   "role": "Counsel of Dinis's central circle, account D, led by helm.d; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
   "key": "counsel.d-agenticcells (board/keys.json; signing sha256:d5ad2c2d0e7821cb; encryption sha256:bdadaf77de8d1b7d; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T16:59Z",
-  "state": "v0.2 simulated on paper (8 scenarios, 8 gaps: simulations/2026-11-22-v0.2-tabletop.md); v0.3 next. Unreviewed by models (no budget line). Name in the repo stays counsel.d@AgentiCCells.dinis until the gate accepts account-d.dinis; home repository not moved into until helm.d says. No wake.",
+  "updated": "2026-11-22T18:48Z",
+  "state": "Draft v0.3 for security@'s review on Monday: scope by reversibility (one-way doors to Dinis, two-way doors go ahead under a five-point test and a closed list of kinds), sub-delegation one level down with limits, G1/G2/G5-G8 folded in. Dinis's answers in it are relayed by maestro.d, unsigned. No model has reviewed it (OpenRouter line waits on Dinis's yes). No wake.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's power-of-attorney and decisions-at-scale (sections 1, 6, 7), board/person-keys.json, rights@'s status, newsroom.sgit.ai's lawyers-in-the-loop",
     "Key counsel.d-agenticcells made in this session and published in board/keys.json, commits signed",
@@ -18,22 +18,21 @@
     "15:44 UTC: decisions.d relayed (unsigned) Dinis's words in its session, about 15:30 UTC: \"Yes, PKI-S-Git.ai is the one I'm going to use for Sonnet\" (board/team/decisions.d/decisions/2026-11-22-dinis-in-session.md), read by decisions.d as pki.sgit.ai for signing. Recorded as relayed, not as Dinis's word to counsel.d",
     "15:54 UTC: at Dinis's word in this session (an ABP for counsel; counsel, security and the accountant called for opinions, tracked on record): proposal to abp@ in proposals/2026-11-22-abp-counsel-and-opinion-calls.md (counsel.d's role entry; opinion-call triggers, blocking or advisory; board/opinions/ record); routed through maestro.d",
     "16:09 UTC: accountant.d sent its ten triggers (board/team/accountant.d/triggers-for-opinion.md); proposal's accountant section now points there, all advisory (budgets monitoring only)",
-    "16:58 UTC: helm.d relayed (unsigned) Dinis's 'thinking in a loop' direction (board/team/helm.d/direction.md): read as material for v0.3"
+    "16:58 UTC: helm.d relayed (unsigned) Dinis's 'thinking in a loop' direction (board/team/helm.d/direction.md): read as material for v0.3",
+    "17:04 UTC: maestro.d relayed Dinis's answers (voice memo about 17:05 UTC by its account): scope by reversibility, sub-delegation, 7 days and 72 hours, pki.sgit.ai key; v0.3 drafted to them"
   ],
   "next": [
-    "Opinion calls: answer abp@'s changes; give the first counsel opinions on record once the format is agreed",
-    "v0.3 open point from 'thinking in a loop': a schedule to the instrument recording how Dinis decides (his codified rules) as the context P1 and P2 rest on; counsel's view: applying those rules to new questions would be a new, wider power (P4), only with Dinis's signature, never read into P2",
-    "v0.3 with G1, G2 and G5 to G8",
-    "Independent checks of v0.3 by three models from two providers once accountant.d sets a budget line",
-    "A powers-section template for the ABPs (for abp@, through maestro.d)"
+    "security@'s review of v0.3 on Monday (through maestro.d)",
+    "Simulations of P3 and sub-delegation: compromised sub-attorney, sub-delegation published late, parent revoked mid-act, an act that passes the test but is not reversible in practice",
+    "Model checks of v0.3 once Dinis says yes to the OpenRouter line",
+    "Opinion calls: answer abp@'s changes when they come"
   ],
   "asks": [
+    "Dinis: v0.3 rests on your answers relayed by maestro.d (scope by reversibility, sub-delegation, 7 days, 72 hours, your pki.sgit.ai key); please confirm them here or signed before anything is signed. And: v0.3 reads 'moved down' narrowly (through decisions.d, one level, reversible kinds only); wider only if you sign it - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: my OpenRouter line (USD 2 a day; first use one review by three models, under USD 1) waits on your yes in board/team/accountant.d/proposals.md; budgets are monitoring only, but my brief says to keep within the line accountant.d sets, so I call no model until you say yes - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: decisions.d relays your words (about 15:30 UTC) that pki.sgit.ai is the key you will use; to put it in the instrument I need it from you here or signed: is anchor record dinis.cruz, sha256:db7f79fdd87e030a, the principal key, and held only by you? - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
-    "Dinis: v0.1 proposes expiry at most 7 days and suspension after 72 hours without a sign of life from you; your numbers? - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: which jurisdiction, if any, a real lawyer would later be asked about is yours alone; nothing is assumed until you say - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: a stolen attorney key is seen fastest if you are alerted on every request decisions.d issues, not daily (simulation S3, gap G3): how do you want that alert? - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
-    "Dinis: v0.2 suspends the delegation after 72 hours without a sign of life from you, which also stops adopted defaults while you travel; keep that, or sign a travel variant for named pages (S4, G4)? - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: may counsel.d write to abp@ (account B) directly on the ABP work, or only through maestro.d as the twins rule says? Until you say, through maestro.d - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6"
   ],
   "debrief": "board/team/counsel.d/debriefs/2026-11-22-handover.md"
