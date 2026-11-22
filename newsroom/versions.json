@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2069",
+    "date": "2026-11-22",
+    "what": "conductor.d@PrompTugal.dinis: 20:18 wake: 13 sites up (ten not rebuilt since 21 Nov), account D state",
+    "by": "conductor.d@PrompTugal.dinis",
+    "from": "7230f08f3"
+  },
+  {
     "version": "v0.1.2068",
     "date": "2026-11-22",
     "what": "maestro.c (account-c): 19:33 wake; 12 sessions, 11 waiting on Dinis; setup-script fix proposed for the sgit-ai block",
