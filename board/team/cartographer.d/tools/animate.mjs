@@ -4,26 +4,29 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 const dir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
-const f = process.argv[2] ? path.resolve(process.argv[2]) : path.join(dir, 'maps/decision-making.history.json')
+const f = process.argv[2] && !process.argv[2].startsWith('--') ? path.resolve(process.argv[2]) : path.join(dir, 'maps/decision-making.history.json')
 const j = JSON.parse(fs.readFileSync(f, 'utf8'))
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 const r1 = x => Math.round(x * 10) / 10
-const W = 1100, H = 760, L = 70, R = 40, T = 80, B = 190
+const PH = process.argv.includes('--phone')   // portrait for phones: 420 x 640, large labels, the same steps and timings
+const W = PH ? 420 : 1100, H = PH ? 700 : 760, L = PH ? 14 : 70, R = PH ? 14 : 40, T = PH ? 86 : 80, B = PH ? 250 : 190
 const px = e => r1(L + e * (W - L - R)), py = v => r1(T + (1 - v) * (H - T - B))
 const N = j.steps.length, STEP = 5, TOTAL = N * STEP + 3   // seconds: each step 5 s, a 3 s hold at the end, then it loops
 const kt = t => (t / TOTAL).toFixed(4)
 const state = {}   // node -> [ {t, e} ]
 j.steps.forEach((s, i) => { for (const ev of s.events) (state[ev.node] ||= []).push({ t: i * STEP, e: ev.evolution, first: !state[ev.node] }) })
+const wrapc0 = (t, n) => { const out = []; let l = ''; for (const w of t.split(' ')) { if ((l + ' ' + w).trim().length > n) { out.push(l); l = w } else l = (l + ' ' + w).trim() } if (l) out.push(l); return out }
 const o = []
 o.push(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(j.title)}" font-family="system-ui, sans-serif">`)
 o.push(`<rect width="${W}" height="${H}" fill="#fff"/>`)
-o.push(`<text x="${L}" y="32" font-size="20" font-weight="600" fill="#111">${esc(j.title)}</text>`)
-o.push(`<text x="${L}" y="54" font-size="12" fill="#444">history map, ${esc(j.status)}, made ${esc(j.made)} by ${esc(j.made_by)}; plays in a loop of ${TOTAL} seconds; positions are a reading of the sources</text>`)
+if (PH) wrapc0(j.title, 30).forEach((t, k) => o.push(`<text x="${L}" y="${22 + k * 20}" font-size="18" font-weight="600" fill="#111">${esc(t)}</text>`))
+else o.push(`<text x="${L}" y="32" font-size="20" font-weight="600" fill="#111">${esc(j.title)}</text>`)
+if (!PH) o.push(`<text x="${L}" y="54" font-size="12" fill="#444">history map, ${esc(j.status)}, made ${esc(j.made)} by ${esc(j.made_by)}; plays in a loop of ${TOTAL} seconds; positions are a reading of the sources</text>`)
 o.push(`<rect x="${L}" y="${T}" width="${W - L - R}" height="${H - T - B}" fill="none" stroke="#999"/>`)
 ;['Genesis', 'Custom-built', 'Product (+ rental)', 'Commodity (+ utility)'].forEach((n, i) => {
   const x = r1(L + i * (W - L - R) / 4)
   if (i) o.push(`<line x1="${x}" y1="${T}" x2="${x}" y2="${H - B}" stroke="#ccc" stroke-dasharray="4 4"/>`)
-  o.push(`<text x="${r1(x + 6)}" y="${H - B + 18}" font-size="12" fill="#555">${n}</text>`)
+  o.push(`<text x="${r1(x + 6)}" y="${H - B + 18}" font-size="${PH ? 10 : 12}" fill="#555">${PH ? n.split(' ')[0] : n}</text>`)
 })
 // nodes
 for (const [id, ks] of Object.entries(state)) {
@@ -38,7 +41,7 @@ for (const [id, ks] of Object.entries(state)) {
   const kts = keyT.map(kt).join(';')
   o.push(`<g opacity="0"><animate attributeName="opacity" values="${op.join(';')}" keyTimes="${kts}" dur="${TOTAL}s" repeatCount="indefinite"/>`)
   o.push(`<g><animateTransform attributeName="transform" type="translate" values="${pos.map(p => `${p} ${y}`).join(';')}" keyTimes="${kts}" dur="${TOTAL}s" repeatCount="indefinite"/>`)
-  o.push(`<circle r="7" fill="#1f3a5f"/><text x="12" y="5" font-size="16" fill="#111">${esc(c.label)}</text></g></g>`)
+  o.push(`<circle r="${PH ? 8 : 7}" fill="#1f3a5f"/>${PH ? (e => { const ls = wrapc0(c.label, 17), end = e >= 0.45; return `<text text-anchor="${end ? 'end' : 'start'}" font-size="20" fill="#111">${ls.map((t, k) => `<tspan x="${end ? -13 : 13}" y="${7 - (ls.length - 1) * 10 + k * 21}">${esc(t)}</tspan>`).join('')}</text>` })(ks[ks.length - 1].e) : `<text x="12" y="5" font-size="16" fill="#111">${esc(c.label)}</text>`}</g></g>`)
 }
 // captions: each shows for its step; the first starts visible, the last holds to the end
 const wrapc = (t, n) => { const out = []; let l = ''; for (const w of t.split(' ')) { if ((l + ' ' + w).trim().length > n) { out.push(l); l = w } else l = (l + ' ' + w).trim() } if (l) out.push(l); return out }
@@ -51,15 +54,15 @@ const cap = (i) => {
   return `opacity="${vs[0]}"><animate attributeName="opacity" values="${vs.join(';')}" keyTimes="${ts.map(kt).join(';')}" dur="${TOTAL}s" repeatCount="indefinite"/>`
 }
 j.steps.forEach((s, i) => {
-  const lines = wrapc(s.caption, 88)
-  lines.slice(0, 3).forEach((t, k) => o.push(`<text x="${L}" y="${H - 96 + k * 23}" font-size="19" fill="#111" ${cap(i)}${esc(t)}</text>`))
-  o.push(`<text x="${L}" y="${H - 26}" font-size="14" fill="#666" ${cap(i)}${esc(s.date)}; source: ${esc(s.source)} (see sources_read in the JSON)</text>`)
+  const lines = wrapc(s.caption, PH ? 40 : 88)
+  lines.slice(0, PH ? 7 : 3).forEach((t, k) => o.push(`<text x="${L}" y="${PH ? H - 196 + k * 24 : H - 96 + k * 23}" font-size="${PH ? 18 : 19}" fill="#111" ${cap(i)}${esc(t)}</text>`))
+  o.push(`<text x="${L}" y="${H - (PH ? 8 : 26)}" font-size="${PH ? 13 : 14}" fill="#666" ${cap(i)}${esc(s.date)}; source: ${esc(s.source)}${PH ? '' : ' (see sources_read in the JSON)'}</text>`)
 })
-o.push(`<text x="${L}" y="${H - 6}" font-size="11" fill="#555">Evolution, left to right. Visible to the user, bottom to top. A circle appears when the sources first record the component and slides as it matures.</text>`)
+if (!PH) o.push(`<text x="${L}" y="${H - 6}" font-size="11" fill="#555">Evolution, left to right. Visible to the user, bottom to top. A circle appears when the sources first record the component and slides as it matures.</text>`)
 o.push('</svg>')
-const out = f.replace(/\.json$/, '.svg')
+const out = f.replace(/\.json$/, PH ? '.phone.svg' : '.svg')
 fs.writeFileSync(out, o.join('\n') + '\n')
 const narr = ['# Narration: ' + j.title, '', `By cartographer.d@AgentiCCells.dinis, ${j.made}. One paragraph per step, about ${STEP} seconds each, for studio.d to voice. Facts and dates are from the sources in the history file.`, '',
   ...j.steps.map((s, i) => `${i + 1}. (${s.date}) ${s.caption}`), '']
-fs.writeFileSync(f.replace(/\.json$/, '.narration.md'), narr.join('\n'))
+if (!PH) fs.writeFileSync(f.replace(/\.json$/, '.narration.md'), narr.join('\n'))
 console.log('wrote', path.relative(process.cwd(), out), 'and the narration')

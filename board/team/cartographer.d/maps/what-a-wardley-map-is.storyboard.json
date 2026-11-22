@@ -26,7 +26,8 @@
     "at": 0,
     "play": 5,
     "alt": "Animated map of an invented bakery; step 1 of 8",
-    "note": "Seek the inline SVG to second 0 and play 5 seconds; the text inside the picture is large for a phone."
+    "note": "Seek the inline SVG to second 0 and play 5 seconds; the text inside the picture is large for a phone.",
+    "src_phone": "board/team/cartographer.d/maps/wardley-explainer.history.phone.svg"
    },
    "facts": [
     "s1"
@@ -41,7 +42,8 @@
     "at": 5,
     "play": 5,
     "alt": "Animated map of an invented bakery; step 2 of 8",
-    "note": "Seek the inline SVG to second 5 and play 5 seconds; the text inside the picture is large for a phone."
+    "note": "Seek the inline SVG to second 5 and play 5 seconds; the text inside the picture is large for a phone.",
+    "src_phone": "board/team/cartographer.d/maps/wardley-explainer.history.phone.svg"
    },
    "facts": [
     "s1"
@@ -56,7 +58,8 @@
     "at": 10,
     "play": 5,
     "alt": "Animated map of an invented bakery; step 3 of 8",
-    "note": "Seek the inline SVG to second 10 and play 5 seconds; the text inside the picture is large for a phone."
+    "note": "Seek the inline SVG to second 10 and play 5 seconds; the text inside the picture is large for a phone.",
+    "src_phone": "board/team/cartographer.d/maps/wardley-explainer.history.phone.svg"
    },
    "facts": [
     "s1"
@@ -71,7 +74,8 @@
     "at": 15,
     "play": 5,
     "alt": "Animated map of an invented bakery; step 4 of 8",
-    "note": "Seek the inline SVG to second 15 and play 5 seconds; the text inside the picture is large for a phone."
+    "note": "Seek the inline SVG to second 15 and play 5 seconds; the text inside the picture is large for a phone.",
+    "src_phone": "board/team/cartographer.d/maps/wardley-explainer.history.phone.svg"
    },
    "facts": [
     "s1"
@@ -86,7 +90,8 @@
     "at": 20,
     "play": 5,
     "alt": "Animated map of an invented bakery; step 5 of 8",
-    "note": "Seek the inline SVG to second 20 and play 5 seconds; the text inside the picture is large for a phone."
+    "note": "Seek the inline SVG to second 20 and play 5 seconds; the text inside the picture is large for a phone.",
+    "src_phone": "board/team/cartographer.d/maps/wardley-explainer.history.phone.svg"
    },
    "facts": [
     "s1"
@@ -101,7 +106,8 @@
     "at": 25,
     "play": 5,
     "alt": "Animated map of an invented bakery; step 6 of 8",
-    "note": "Seek the inline SVG to second 25 and play 5 seconds; the text inside the picture is large for a phone."
+    "note": "Seek the inline SVG to second 25 and play 5 seconds; the text inside the picture is large for a phone.",
+    "src_phone": "board/team/cartographer.d/maps/wardley-explainer.history.phone.svg"
    },
    "facts": [
     "s1"
@@ -116,7 +122,8 @@
     "at": 30,
     "play": 5,
     "alt": "Animated map of an invented bakery; step 7 of 8",
-    "note": "Seek the inline SVG to second 30 and play 5 seconds; the text inside the picture is large for a phone."
+    "note": "Seek the inline SVG to second 30 and play 5 seconds; the text inside the picture is large for a phone.",
+    "src_phone": "board/team/cartographer.d/maps/wardley-explainer.history.phone.svg"
    },
    "facts": [
     "s1"
@@ -131,7 +138,8 @@
     "at": 35,
     "play": 5,
     "alt": "Animated map of an invented bakery; step 8 of 8",
-    "note": "Seek the inline SVG to second 35 and play 5 seconds; the text inside the picture is large for a phone."
+    "note": "Seek the inline SVG to second 35 and play 5 seconds; the text inside the picture is large for a phone.",
+    "src_phone": "board/team/cartographer.d/maps/wardley-explainer.history.phone.svg"
    },
    "facts": [
     "s1"
