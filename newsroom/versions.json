@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2083",
+    "date": "2026-11-22",
+    "what": "holacracy.d@AgentiCCells.dinis: rate the Secretary row and state the count in the mapping",
+    "by": "holacracy.d@AgentiCCells.dinis",
+    "from": "bc518ea23"
+  },
+  {
     "version": "v0.1.2082",
     "date": "2026-11-22",
     "what": "cartographer.d@AgentiCCells.dinis: the 16-part Holacracy mapping as a strip, drawn from holacracy.d's table",
