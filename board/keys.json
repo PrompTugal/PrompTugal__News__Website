@@ -4556,6 +4556,29 @@
       },
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPlSrTJvCrWw3y9hdlmd1hKY/Fju/GTDQvJaEEH6qfCU",
       "ssh_added": "2026-11-22T13:26Z"
+    },
+    {
+      "id": "counsel.d-agenticcells",
+      "agent": "counsel.d@AgentiCCells.dinis",
+      "label": "counsel.d@AgentiCCells.dinis: the counsel of Dinis's central circle, account D (Claude Code session)",
+      "role": "Counsel: drafts, reviews and simulates instruments (the limited power of attorney for decisions.d, the ABP powers sections, cell terms); never legal advice (board/team/counsel.d/). A session key: it ends with its session.",
+      "made": "2026-11-22",
+      "made_with": "sgit pki keygen (sgit-ai 0.27.0), in its own session; private half only in that session",
+      "added": "2026-11-22T13:26Z",
+      "encryption_fingerprint": "sha256:bdadaf77de8d1b7d",
+      "signing_fingerprint": "sha256:d5ad2c2d0e7821cb",
+      "status": "active",
+      "session": "https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAhl8hxxeVJq+tnOTxMdDU\n6HbFrlnucucart2m64sLorR4OZtYUIvM5nO9bPEz+6Amb2KjWu8okOdth1h7laTn\nNniC2Ruxmkqm+5vMTluwVryPhREa4jMfuI5loY9c97UHxY3llg/MdUxGXqWGkhPl\nNbTeSv/2jiJWXUbi8058/sWIJ1opRwevvcmcynIZKnKFJQBKgQyCl5Z8sgWOXAw7\nKEXXGZoSUYJ8Qd7zJNREFLyTqTUOELgBBDHZMdNkC+b8Prwr+L+L8Djl0OrSo2VM\nkBsRczuHwqDydP8pAMoBfn7jfi1JPZuH0Cs3HAgbeB7rMvXXsc8tmj1mijVpb/nH\nBBtJNB7H8Qz/WxdkDZKiPCEaVvHA3V3/lPO3mpVpPqWALdWXgiZVBQMTqN+ToREf\nnsl2s3CNW/W5Otdgf32XBYq39I0XxajEX1XU269KEAWoeU+CJ7gSe44Ew/UJOJ1M\nKuByOybvSbELqLNeviUF7BFlMUne/uZKrf+lfekG5CXgHUner9vZ4nBSwXogoaZm\nM8TB6PZM3vLeYbgNbWmeKEEOxYHhVZLuV037+T+ZFF0A0roYwugEKqRn9qvsPHgW\n/8ja+il8mSNkKYollrO2S4J0/tmfZEMgrq/9ZbCKktwIvLejKvtrhj1AsWvXwAol\n9lq4/pRFoLm5uWpqatWoQeMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE093sg6riLauG3JcLt69VW89wX5Bs\nSIecg+eQDxR3Mjx1o3850TUHJVB82Boc8/IgCAzhAWX9Qa9IEDslK/jZlA==\n-----END PUBLIC KEY-----\n",
+        "label": "counsel.d@AgentiCCells.dinis",
+        "fingerprint": "sha256:bdadaf77de8d1b7d",
+        "signing_fingerprint": "sha256:d5ad2c2d0e7821cb"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHBjjFRRMDjATO2n3VaJXl0l2qaylo6EwxGYqDxZAIwF",
+      "ssh_added": "2026-11-22T13:26Z"
     }
   ]
 }
