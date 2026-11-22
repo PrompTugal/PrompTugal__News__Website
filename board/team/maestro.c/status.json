@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T19:10Z",
-  "state": "18:33 wake: account C allowed (resets ~20:10 UTC); account C keys live on Factory dev; 6 sessions wait on Dinis; router design draft in analysis/2026-11-22-routers/",
+  "updated": "2026-11-22T19:36Z",
+  "state": "19:33 wake: account C allowed (resets ~20:10 UTC); 12 sessions, 11 waiting on Dinis; the common block is the sgit-ai install refused in new sessions",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -28,6 +28,10 @@
     "Relay the new sessions' first asks (key merges in the Factory) to Dinis"
   ],
   "asks": [
+    "Dinis: add 'pip install sgit-ai==0.27.0' to account C's cloud environment setup script (Full Network Access), so new sessions can make keys without a per-session yes; until then say yes in owasp.c and feedback.c - https://claude.ai/code/session_01Kw9UwE69pr5bPeaQ4tYqir",
+    "Dinis: newsroom.c: register it as writer-12 (raises the limit to three writers), and its 'Out of the box' draft: publish or change? - https://claude.ai/code/session_01Kw9UwDDEwnjqeLVyqkUjpm",
+    "Dinis: feedback.c and chiswick-cheese-market.c: one inbox agent for every site, or a lane per site? And feedback.b's sealed lanes: wait till Monday or reseal to feedback.c? - https://claude.ai/code/session_01Kw9UwEQb6jZQ17nxMfkAVB",
+    "Dinis: accountant.c's proposals are ready to read (board/team/accountant.c/proposals.md) - https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz",
     "Dinis: merge conductor.c's policy entry d6e88c6 (its board, and its channel to conductor.d, are held on work/conductor.c-key until then) - https://claude.ai/code/session_01Kw9UwBwGEprxNQqNtSbzyj",
     "Dinis: factory.c: (a), (b) or (c) for the 7 old cheese-market commits signed by the unpublished .d key; policy entries for conductor.c, observability.c, factory.c; which factory.d item first - https://claude.ai/code/session_01Kw9UwFQ86g2ZeXQ2edTAjh",
     "Dinis: hub.c: may an Agents page show agent names and sessions? - https://claude.ai/code/session_01Kw9UwBNK6JRSRJ7P7LftYD",
@@ -38,5 +42,5 @@
   ],
   "latest_debrief": null,
   "last_read_from_b": "2026-11-22T02:01Z",
-  "last_read_from_d": "2026-11-22T17:04Z"
+  "last_read_from_d": "2026-11-22T18:58Z"
 }
