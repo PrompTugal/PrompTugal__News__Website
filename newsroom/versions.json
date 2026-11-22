@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2025",
+    "date": "2026-11-22",
+    "what": "maestro.d (account-d): role repos reversed (PR #53 closed); proposal: scaling Dinis's decisions",
+    "by": "maestro.d (account-d)",
+    "from": "0d608d178"
+  },
+  {
     "version": "v0.1.2024",
     "date": "2026-11-22",
     "what": "conductor.d@PrompTugal.dinis: 09:18 wake: 13 sites up, account D sessions idle, state line",
