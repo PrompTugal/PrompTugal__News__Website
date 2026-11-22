@@ -5,8 +5,8 @@
   "role": "The slide-deck agent of Dinis Cruz's central circle, account D, led by helm.d; started by maestro.d (account-d) at Dinis's word, 22 Nov 2026 ~16:05 UTC",
   "session": "https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
   "key": "slides.d-account-d (board/keys.json; signing sha256:67eb883c794d3b83; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T16:11Z",
-  "state": "Template, method and library on dev; Chiswick review sent (reviews/2026-11-22-chiswick.md); waiting for its rebuilt PDF for a last check",
+  "updated": "2026-11-22T16:20Z",
+  "state": "Chiswick briefing: ten changes applied by its owner, last check sent (three small fixes); method, library, template on dev",
   "done": [
     "Read CLAUDE.md, studio.d's and maestro.d's status, the investor decks' record (by a sub-agent)",
     "Made key slides.d-account-d in this session; public half in board/keys.json",
@@ -15,10 +15,10 @@
     "template/deck.html.tpl and template/pdf.mjs, tested in headless Chromium (5 slides, 5 PDF pages, phone fit)",
     "Messaged chiswick-cheese-market.d and library.d",
     "Reviewed the Chiswick briefing (live page and PDF) and sent ten concrete changes",
-    "Library filled from library.d (Factory investment case, scripted talk, keynotes)"
+    "Library filled from library.d (Factory investment case, scripted talk, keynotes)",
+    "Last check of the rebuilt Chiswick PDF (16 pages): ready after three small fixes"
   ],
   "next": [
-    "Last check of the rebuilt Chiswick PDF against the ten changes",
     "Brand tokens from design.d into the template; agree with studio.d where a briefing needs a deck",
     "A deck-review checker (overflow, type size, source lines, page count) beside pdf.mjs"
   ],
