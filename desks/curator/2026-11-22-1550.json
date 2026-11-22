@@ -1,0 +1,108 @@
+{
+ "desk": "curator",
+ "agent": "curator@PrompTugal.vicky",
+ "run": "2026-11-22T15:50Z",
+ "for": "the researcher for the gaps; no assignment this run",
+ "covers": {
+  "vault": "41j3e9s9, pulled 22 Nov 2026 at 15:37 UTC: the researcher's 12:09 capture (a person's browser check of Regulation (EU) 2026/1744 on EUR-Lex) and 15:17 capture (the health ministry's shared services body's manual of 8 June on prescribing telerehabilitation).",
+  "inputs": "Five themes; PrompTugal test; standing answers 95, 100 and 101. No hold. decisions.md has nothing new for the curator.",
+  "overlap_checked": "22 Nov 15:50: S77 (how-the-eu-simplified-the-ai-act) already gives 24 July publication and 27 July entry into force from the Parliament and the Commission, has one note (S78) and says the Official Journal text was not read; S75 (health-service-pays-remote-physiotherapy) and S69 already carry the 12-month limit and the open-to-any-provider facts, S75 with one note."
+ },
+ "rules": "RULES-11NOV applies. The curator added no fact.",
+ "captures": [
+  {
+   "id": "v-eurlex-regulation-2026-1744-browser-check",
+   "file": "vault 41j3e9s9, captures/2026-11-22-eurlex-regulation-2026-1744-browser-check.md",
+   "source_url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+   "beat": "Europe",
+   "names": [
+    "EUR-Lex",
+    "European Parliament",
+    "Council"
+   ],
+   "what_is_new": "A person's browser check confirms title, Official Journal reference, 24 July publication, in-force status and the third-day entry into force (27 July). Provisions not covered.",
+   "is_story": false,
+   "group": "Held"
+  },
+  {
+   "id": "v-spms-telerehab-prescription-manual",
+   "file": "vault 41j3e9s9, captures/2026-11-22-spms-telerehab-prescription-manual.md",
+   "source_url": "https://ordemdosmedicos.pt/files/pdfs/X4EN-Manual_TelerreabilitacaoPrescricao_V1.pdf",
+   "beat": "Portugal",
+   "names": [
+    "Serviços Partilhados do Ministério da Saúde"
+   ],
+   "what_is_new": "Prescribing rules: two codes (initial, once per 12 months; subsequent), one unit per request, separate requests from other rehabilitation exams, strong authentication for the prescriber. Rules, not results; the captured quotes do not mention AI (one step away).",
+   "is_story": false,
+   "group": "Held"
+  }
+ ],
+ "groups": {
+  "Held": [
+   "v-eurlex-regulation-2026-1744-browser-check",
+   "v-spms-telerehab-prescription-manual"
+  ]
+ },
+ "duplicates_and_noise": [
+  {
+   "item": "EUR-Lex browser check of 2026/1744",
+   "verdict": "held",
+   "why": "It confirms what S77 already states from the Parliament and the Commission; a second note would use S77's last slot (standing answer 100) for a confirmation only. Better to wait for the provisions to be checked, then write one note or a follow-up."
+  },
+  {
+   "item": "Telerehabilitation prescription manual",
+   "verdict": "held",
+   "why": "S69 and S75 carry the 12-month limit; the codes and request rules are administrative detail with no AI mention in the captured text, so the PrompTugal test passes only one step away and nothing here is a result. Would use S75's last note slot."
+  }
+ ],
+ "published_check": {
+  "S77": "published with one note",
+  "S75": "published with one note",
+  "S69": "published with two notes"
+ },
+ "desk_review": {
+  "summit": {
+   "no_assignment": true,
+   "reason": "The summit beat is finished."
+  },
+  "europe": {
+   "no_assignment": true,
+   "reason": "The browser check confirms what S77 already states; the provisions are still unchecked against the Official Journal."
+  },
+  "portugal": {
+   "no_assignment": true,
+   "reason": "The manual gives prescribing rules, mostly already in S69 and S75, and no results; other Portugal gaps still not found."
+  },
+  "ai": {
+   "no_assignment": true,
+   "reason": "Nothing new on agents in real work or humans and AI."
+  },
+  "connections": {
+   "no_assignment": true,
+   "reason": "No new cross-cutting theme."
+  }
+ },
+ "story_candidates": [],
+ "connections_priority": [],
+ "for_the_fact_checker": [],
+ "revisions": [],
+ "gaps_for_the_researcher": [
+  {
+   "desk": "europe",
+   "priority": 1,
+   "gap": "The amendment's provisions (AI literacy, bias-data, small mid-cap fines, AI Office, sandboxes) checked against the Official Journal by a person's browser check.",
+   "reader_angle": "Whether the mirror's wording matches the law.",
+   "sources_wanted": "The Official Journal page.",
+   "why_not_a_duplicate": "Only title, date and status are checked."
+  },
+  {
+   "desk": "portugal",
+   "priority": 2,
+   "gap": "Health-service or regulator numbers on telerehabilitation (patients enrolled, waiting times); a dated report of the Rows closing; other providers in the convention; UST's Lisbon activity; Cova da Beira's own account.",
+   "reader_angle": "What happened after earlier stories.",
+   "sources_wanted": "The health service, regulator and press.",
+   "why_not_a_duplicate": "Only company estimates and prescribing rules exist."
+  }
+ ],
+ "urgent": "None"
+}
