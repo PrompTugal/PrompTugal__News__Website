@@ -43,3 +43,7 @@ Dinis: account A is back (weekly reset, Ultra); "see if we can now do the whole 
 - Protocol v0: board/routers/README.md (the ledger in this repository; the trust anchor pinned by Dinis by hand); router.a's start prompt: board/routers/router-a-start-prompt.md (Dinis starts it on account A).
 - decisions.c (AgentiCCells): https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n (key, QR, signing and verify tools)
 - router.c (AgentiCCells): https://claude.ai/code/session_01Kw9UwDYfkJVqAXDG67nuW9 (the ledger, account C's requests and headroom, the vault plan)
+
+## Eighth word (about 22:10 UTC): aws.c
+Dinis: "we need a dedicated AWS.c agent ... work through this to fix the IaC change ... this should be one of the last times I need to log in [to] AWS ... log in using my browser, using OAuth ... through our website, aws.platform ... identity access management probably deserves its own site ... I really like the way we did the Google stuff". Inspiration: sg-compute.sgit.ai.
+- aws.c (SovereignWebsite), on SovereignWebsite__Factory: https://claude.ai/code/session_01Kw9UwAzhau7Us55PugP2V2. First job: the IaC rename's AWS change (the DNS role's trust for the new repository's OIDC subject) through a browser sign-in; then Site__Platform__AWS.
