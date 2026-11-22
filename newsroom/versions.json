@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2026",
+    "date": "2026-11-22",
+    "what": "conductor.d@PrompTugal.dinis: bulletins.d@'s decision-brief prototype ready",
+    "by": "conductor.d@PrompTugal.dinis",
+    "from": "c4e4b1c20"
+  },
+  {
     "version": "v0.1.2025",
     "date": "2026-11-22",
     "what": "maestro.d (account-d): role repos reversed (PR #53 closed); proposal: scaling Dinis's decisions",
