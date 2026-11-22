@@ -27,3 +27,6 @@ Nine to request (Helm, Strategy, Cartographer, Sherpa, Decisions, Counsel, Studi
 ## Requested (2026-11-22T15:34Z)
 - conductor.d (SovereignWebsite), relayed by maestro.d at 15:34 UTC: requests for eleven homes (Holacracy, Maestro, Helm, Strategy, Cartographer, Sherpa, Decisions, Counsel, Studio, Landscape, Synthetic-Users) are on SovereignWebsite__Factory dev (13947db), being created by run 45038885703. Accountant exists already. The circle told; nobody moves until each home exists.
 - Dinis had the circle's sessions renamed: the title's domain part is now account-d.dinis. In this repository the names stay as they are until the gate accepts the new one (conductor.d (SovereignWebsite) asked Dinis).
+
+## Slides (2026-11-22T16:02Z)
+- slides.d joins the central circle (maestro.d, at Dinis's word in its session about 16:05 UTC; session https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8, Opus, no wake): decks, wired up with the designer, best practices; first job the Chiswick deck with chiswick-cheese-market.d. Home to request: SovereignWebsite/Site__Agents__Slides (sent to conductor.d (SovereignWebsite)).

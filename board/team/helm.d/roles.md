@@ -28,3 +28,8 @@ Open for Dinis: the circle's purpose above; whether sherpa.d and accountant.d ar
 
 ## Dinis's answers (2026-11-22T15:47Z)
 - The helm's span is the central circle only: sites.d (with streaming.d) and hub.d go under SovereignWebsite, newsroom.d under sgit.ai (decisions/2026-11-22-dinis-answers-1547.md).
+
+## slides.d (2026-11-22T16:02Z)
+| Role | Purpose | Domains (writes only) | Accountabilities | Overlap and the line drawn |
+|---|---|---|---|---|
+| slides.d | Decks that follow best practice, made with the designer | board/team/slides.d/ | decks from a brief; best practice for decks; wired up with the design agents; first: the Chiswick deck with chiswick-cheese-market.d | studio.d makes briefings from storyboards (video, presenters); slides.d makes decks. Where a briefing needs a deck, studio.d asks slides.d |
