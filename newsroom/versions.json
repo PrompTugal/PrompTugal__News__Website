@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2066",
+    "date": "2026-11-22",
+    "what": "maestro.c (account-c): owasp.c started on account C at Dinis's word; router and Platform-rename claims to the other maestros",
+    "by": "maestro.c (account-c)",
+    "from": "5e8040d25"
+  },
+  {
     "version": "v0.1.2065",
     "date": "2026-11-22",
     "what": "maestro.c (account-c): newsroom.c started on account C at Dinis's word, with its first article's brief",
