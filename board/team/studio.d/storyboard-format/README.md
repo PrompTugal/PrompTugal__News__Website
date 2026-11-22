@@ -60,7 +60,11 @@ Anything else: describe it in `note` and studio.director chooses; the storyboard
 
 Optional `ask` block inside `decision`, for the log of asks of Dinis (asked for by decisions.d, 22 November 2026): `{ "id", "text_sha256" (hash of the ask as asked), "asked_by" (role), "session" (link), "first_seen" (UTC), "reserved" (true if it is Dinis's alone), "answer": { "words" (his words verbatim), "at" (UTC) } }`. A storyboard never carries Dinis's authority; the answer is filled only from his own words.
 
-The recommendation is the default, as the repository's rule on decisions says. A decision that is Dinis's alone is titled "For Dinis".
+The recommendation is the default, as the repository's rule on decisions says. Optional `connections` on the storyboard (for the pictures of a decision page, agreed with decisions.d): `{ "asked_by", "reviewed_by": [], "acts": [], "follows": [decision slugs] }`, drawn as lines between roles and earlier decisions. A page with two questions uses `decisions[]`, one entry per question.
+
+Pictures (for decision pages): two SVGs per decision, `asked.svg` (frozen when the page is published) and `decided.svg` (the choice marked, Dinis's words verbatim, time, where). Studio.d keeps them at `board/team/studio.d/pictures/<slug>/`; the page's owner or dev@ copies them to the page's own place (for example `assets/decisions/<slug>/`) with a sha256 in the page's front matter. Never overwritten: a changed decision gets a new file.
+
+A decision that is Dinis's alone is titled "For Dinis".
 
 ## Checks (studio.storyboard)
 
