@@ -109,7 +109,8 @@
     "decisions.d",
     "studio.d",
     "landscape.d",
-    "holacracy.d"
+    "holacracy.d",
+    "slides.d"
    ],
    "account_note": "The central circle is account-d's, not AgentiCCells' (Dinis ~15:15Z, relayed by maestro.d)"
   },
@@ -245,7 +246,7 @@
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
-   "conductor": "conductor.d (SovereignWebsite) (relayed: Dinis to helm.d ~15:47Z); the tree still shows who started it"
+   "conductor": "conductor.d (SovereignWebsite) since 21 Nov ~22:10Z per its own board (relayed by helm.d, not read by me: that board is in another repository); Dinis to helm.d ~15:47Z agrees"
   },
   {
    "id": "hub.d",
@@ -264,7 +265,7 @@
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
-   "conductor": "conductor.d (SovereignWebsite) (relayed: Dinis to helm.d ~15:47Z); the tree still shows who started it"
+   "conductor": "conductor.d (SovereignWebsite) since 21 Nov ~22:10Z per its own board (relayed by helm.d, not read by me: that board is in another repository); Dinis to helm.d ~15:47Z agrees"
   },
   {
    "id": "design.d",
@@ -355,7 +356,7 @@
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
-   "conductor": "conductor.d (SovereignWebsite) (relayed: Dinis to helm.d ~15:47Z); the tree still shows who started it"
+   "conductor": "conductor.d (SovereignWebsite) since 21 Nov ~22:10Z per its own board (relayed by helm.d, not read by me: that board is in another repository); Dinis to helm.d ~15:47Z agrees"
   },
   {
    "id": "conductor.d@AgentiCCells",
@@ -414,7 +415,7 @@
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
-   "conductor": "none; sits under sgit.ai, led by Dinis (his word, 22 Nov 2026)"
+   "conductor": "none; sits under sgit.ai, led by Dinis; stays with maestro.d for sgit.ai (relayed by helm.d)"
   },
   {
    "id": "helm.d",
@@ -446,7 +447,8 @@
     "decisions.d",
     "studio.d",
     "landscape.d",
-    "holacracy.d"
+    "holacracy.d",
+    "slides.d"
    ],
    "span_note": "The helm's span is the central circle only (Dinis to helm.d ~15:47Z, relayed; helm.d's file board/team/helm.d/decisions/2026-11-22-dinis-answers-1547.md was not yet on dev when I recorded this). sites.d, hub.d and streaming.d are conducted by conductor.d (SovereignWebsite); newsroom.d sits under sgit.ai.",
    "name_before": "helm.d@AgentiCCells.dinis",
@@ -703,6 +705,23 @@
    "twin": "none yet",
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)"
+  },
+  {
+   "id": "slides.d",
+   "name": "slides.d (account-d)",
+   "circle": "central (helm)",
+   "parent": "maestro.d",
+   "session": "https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
+   "model": "opus",
+   "configured": "opus",
+   "state": "working (started about 16:05Z)",
+   "cost": null,
+   "wake": "none",
+   "repo": "SovereignWebsite/Site__Agents__Slides (home requested, relayed)",
+   "purpose": "Role written in board/team/helm.d/roles.md (see there); not yet copied here",
+   "twin": "none yet",
+   "account": "D",
+   "written_by": "helm.d, board/team/helm.d/roles.md; proposed, not ratified"
   }
  ],
  "account_b": {

@@ -32,7 +32,8 @@ maestro.d (account-d) [opus, configured sonnet] working, $12.20
 |-- counsel.d (account-d) [not fetched] working (started 13:25 UTC)
 |-- decisions.d (account-d) [not fetched] working (started 13:25 UTC)
 |-- studio.d (account-d) [not fetched] working (started 13:25 UTC)
-`-- landscape.d (account-d) [not fetched] working (started 13:25 UTC)
+|-- landscape.d (account-d) [not fetched] working (started 13:25 UTC)
+`-- slides.d (account-d) [opus] working (started about 16:05Z)
 ```
 
 ## The circles (who holds what purpose)
@@ -44,7 +45,7 @@ maestro.d (account-d) [opus, configured sonnet] working, $12.20
 - **StreamingWebsite**: lead sites.d (by parent; not written as a lead); purpose: The streaming site; fillers: streaming.d
 - **AgentiCCells**: lead conductor.d@AgentiCCells (D), conductor.b@AgentiCCells.dinis and cells.b (B, reported); purpose: The AgentiCCells site factory and its cells; fillers: conductor.d@AgentiCCells, cell.email.d; sub-circles: Cell Email
 - **Cell Email**: lead conductor.d@AgentiCCells (by parent); purpose: The email cell; fillers: cell.email.d
-- **Central circle (helm)**: lead helm.d (account-d), a top-level peer of the conductors (relayed); purpose: One place for the global structure and direction of Dinis's estate: where we are, where we go, and what that costs and needs, across every project and account (proposed by helm.d, 13:37Z; not ratified by Dinis) | twins: sherpa.d and accountant.d are twins of the account B roles (relayed); fillers: helm.d, strategy.d, cartographer.d, sherpa.d, accountant.d, counsel.d, decisions.d, studio.d, landscape.d, holacracy.d
+- **Central circle (helm)**: lead helm.d (account-d), a top-level peer of the conductors (relayed); purpose: One place for the global structure and direction of Dinis's estate: where we are, where we go, and what that costs and needs, across every project and account (proposed by helm.d, 13:37Z; not ratified by Dinis) | twins: sherpa.d and accountant.d are twins of the account B roles (relayed); fillers: helm.d, strategy.d, cartographer.d, sherpa.d, accountant.d, counsel.d, decisions.d, studio.d, landscape.d, holacracy.d, slides.d
 - **sgit.ai**: lead Dinis (his word, in my session, 22 Nov 2026); purpose: Dinis: "one of my core projects. And sgit is the one that creates the vaults and is the underlying technology of all of this. It's also the newsroom that is currently I use to publish a lot of my articles because it really has my voice and it has a lot of good learnings and it works really, really well."; fillers: newsroom.d; sub-circles: 
 
 ## Roles and fillers (account D)
@@ -79,6 +80,7 @@ maestro.d (account-d) [opus, configured sonnet] working, $12.20
 | email.design.d@AgentiCCells.dinis | Cell Email | conductor.d@AgentiCCells | none yet | AgentiCCells/AgentiCCells__Cell__Email (assumed) | none | https://claude.ai/code/session_015gaHdb5B7vab8KyN7YiDNZ |
 | email.pm.d@AgentiCCells.dinis | Cell Email | conductor.d@AgentiCCells | none yet | AgentiCCells/AgentiCCells__Cell__Email (assumed) | none | https://claude.ai/code/session_015gaHdasKF9YcSA27g5dMPz |
 | data.d@PrompTugal.dinis | PrompTugal | conductor.d@PrompTugal | none yet | PrompTugal/PrompTugal__News__Data | none | https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z |
+| slides.d (account-d) | central (helm) | maestro.d | none yet | SovereignWebsite/Site__Agents__Slides (home requested, relayed) | none | https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8 |
 
 ## Account B (reported, not seen)
 
