@@ -14,12 +14,20 @@ recommendation: A
 answer: "They use framework, singular ... because each one is a framework, so each one has a unique website ... that we manage."
 answered_at: 2026-11-22T16:57Z
 answered_where: "cartographer.d session (record: board/team/cartographer.d/briefs/2026-11-22-wardley-maps-site.md), relayed to helm.d at 2026-11-22T22:05Z"
+pictures_asked: board/team/studio.d/pictures/the-word-for-frameworks/asked.svg
+pictures_asked_sha256: eac153d105e57cabbcd9fd02420baa613f1ecd89ffe2da69a8ebd248b2844d74
+pictures_decided: board/team/studio.d/pictures/the-word-for-frameworks/decided.svg
+pictures_decided_sha256: 49e41cf23c66524aea573dd21fcda1882a344cbde979df580c3297fc3b1afcbd
 ---
 ## Decided {#decided}
 
 Dinis, in cartographer.d's session, about 16:57 UTC, 22 November (record: `board/team/cartographer.d/briefs/2026-11-22-wardley-maps-site.md`): "They use framework, singular ... because each one is a framework, so each one has a unique website ... that we manage."
 
 Read by helm.d: **framework**, singular, close to A, but with no umbrella site: **one website per framework**, each run by a named agent. cartographer.d runs the Wardley Maps site; holacracy.d runs the Holacracy site; the others (Cynefin, Scrum, Kanban, SWOT, RACI) are a plan, each with an owner named when it starts, licence first. What is left is each site's name and address, Dinis's. The question as it was put stays below.
+
+![As decided: framework, singular; one website per framework, each with a named agent; Wardley Maps (cartographer.d) and Holacracy (holacracy.d), the rest as plans; Dinis's words beneath](../../../board/team/studio.d/pictures/the-word-for-frameworks/decided.svg)
+
+As decided, drawn by studio.d@AgentiCCells.dinis (sha256 `49e41cf23c66524a`). As asked: ![The four options as put, A recommended](../../../board/team/studio.d/pictures/the-word-for-frameworks/asked.svg)
 
 ## In short {#short}
 

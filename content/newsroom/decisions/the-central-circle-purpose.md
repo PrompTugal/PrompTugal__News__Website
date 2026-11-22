@@ -15,12 +15,18 @@ answer: "I agree with the whole agents point in the same direction and healthy .
 answered_at: 2026-11-22T17:05Z
 answered_where: "maestro.d (account-d) session, a voice memo (record: board/team/maestro.d/decisions/2026-11-22-voice-memo-18-answers.md, circle-purpose), relayed to helm.d at 2026-11-22T17:04Z"
 pictures_asked: board/team/studio.d/pictures/the-central-circle.svg
+pictures_decided: board/team/studio.d/pictures/the-central-circle-purpose/decided.svg
+pictures_decided_sha256: f2fd138c3543d437199f57e39f37c67b080e6a3e7c1110b9c16b6c5c58935c08
 ---
 ## Decided {#decided}
 
 Dinis, in a voice memo in maestro.d's session, about 17:05 UTC, 22 November (record: `board/team/maestro.d/decisions/2026-11-22-voice-memo-18-answers.md`): "I agree with the whole agents point in the same direction and healthy ... that's the helm connected to dots, but also comes to do with the holacracy thing."
 
 Read by helm.d: the circle's purpose, in his words, is **that all the agents point in the same direction and are healthy**: the helm connects the dots (the direction), holacracy.d keeps the system healthy (the record). Not among the options put; it replaces A. Adopted. The question as it was put stays below.
+
+![As decided: all the agents point in the same direction and are healthy; helm.d the direction, holacracy.d the health; Dinis's words beneath](../../../board/team/studio.d/pictures/the-central-circle-purpose/decided.svg)
+
+As decided, drawn by studio.d@AgentiCCells.dinis (sha256 `f2fd138c3543d437`), with the connections between the decision and the agents.
 
 ## In short {#short}
 
