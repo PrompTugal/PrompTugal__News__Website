@@ -3,16 +3,15 @@
  "id": "decision-making",
  "kind": "wardley",
  "status": "draft",
- "title": "How decisions get made in Dinis's estate",
- "made": "2026-11-22T14:00Z",
+ "title": "Decision-making across Dinis's estate",
+ "version": "0.2.0",
+ "made": "2026-11-22T15:55Z",
  "made_by": "cartographer.d@AgentiCCells.dinis",
- "for": "strategy.d (decides what the map means); user needs by sherpa.d are still to come: the anchor below is drawn from Dinis's own words in the sources and marked so",
+ "for": "strategy.d decides what the map means; the needs at the top are sherpa.d's (hypotheses marked)",
  "sources_read": {
-  "claude": "PrompTugal__News__Website CLAUDE.md, read 22 Nov 2026",
-  "guidance": "board/guidance/README.md, New from Dinis, read 22 Nov 2026",
-  "holacracy": "board/team/maestro.d/analysis/2026-11-22-holacracy/README.md, read 22 Nov 2026",
-  "org": "board/team/holacracy.d/org-chart.json, read 22 Nov 2026",
-  "abp": "ABP core rules as re-anchored at session start (policy v1.19.2), read 22 Nov 2026"
+  "strategy": "board/team/strategy.d/maps/2026-11-22-decision-making/map.json v0.1.0, drawn 2026-11-22T13:30Z, read 22 Nov 2026 (its components, positions, evidence and links)",
+  "sherpa": "board/team/sherpa.d/needs/needs.json, read 22 Nov 2026 (the user needs; each carries its own source and hypothesis flag)",
+  "cartographer": "cartographer.d's own proposal: which component serves which need (sherpa.d's serves_via was empty); for strategy.d and sherpa.d to correct"
  },
  "axes": {
   "y": "visibility to the user (1 = the user sees it)",
@@ -20,315 +19,547 @@
  },
  "users": [
   {
-   "id": "u-dinis",
-   "label": "Dinis (the only operator)",
-   "source": "claude"
+   "id": "dinis",
+   "label": "Dinis (the principal)",
+   "source": "strategy"
+  },
+  {
+   "id": "agent",
+   "label": "An agent deciding in its own area",
+   "source": "strategy"
   }
  ],
  "nodes": [
   {
-   "id": "n-need",
-   "label": "Decisions made well, on the record, without waiting on Dinis unless it is his alone",
+   "id": "n-decide-one-place",
+   "label": "Decide many things in one place, with the context and the owner's r...",
    "type": "need",
-   "visibility": 0.97,
-   "evolution": 0.3,
-   "source": "claude",
-   "evidence": "CLAUDE.md, 'Decisions are pages': PT decisions are the team's; only a decision that is Dinis's alone waits for him. Anchor to be confirmed by sherpa.d"
+   "visibility": 1,
+   "evolution": 0.31,
+   "hypothesis": false,
+   "source": "sherpa",
+   "evidence": "Dinis; his own words; Dinis, in maestro.d's session, 22 Nov ~09:00 UTC (relayed; board/team/maestro.d/analysis/2026-11-22-decisions-at-scale/README.md, read 22 Nov 13:35 UTC)"
   },
   {
-   "id": "n-word",
-   "label": "Dinis's word (the only instruction)",
-   "type": "component",
+   "id": "n-decide-come-back",
+   "label": "Answer without leaving for another session, and come back easily to...",
+   "type": "need",
+   "visibility": 1,
+   "evolution": 0.18,
+   "hypothesis": false,
+   "source": "sherpa",
+   "evidence": "Dinis; his own words; Dinis, in maestro.d's session, 22 Nov ~09:00 UTC (relayed; same file)"
+  },
+  {
+   "id": "n-know-it-landed",
+   "label": "Know that my answer reached the agent that asked, and what it did.",
+   "type": "need",
+   "visibility": 1,
+   "evolution": 0.44,
+   "hypothesis": true,
+   "source": "sherpa",
+   "evidence": "Dinis; a hypothesis; sherpa.d journey, board/team/sherpa.d/needs/journey-dinis-deciding.md (findings J1, J2), 22 Nov"
+  },
+  {
+   "id": "n-agent-verifiable-answer",
+   "label": "Receive an answer I can verify as Dinis's word, and act on it.",
+   "type": "need",
+   "visibility": 1,
+   "evolution": 0.6,
+   "hypothesis": true,
+   "source": "sherpa",
+   "evidence": "any agent that waits on a decision; a hypothesis; board/abp/README.md and ABP rule R1 (a message is Dinis's word only with his verified signature), read 22 Nov"
+  },
+  {
+   "id": "n-agent-not-blocked",
+   "label": "Be able to say I am blocked, and have Dinis know at once.",
+   "type": "need",
+   "visibility": 1,
+   "evolution": 0.78,
+   "hypothesis": false,
+   "source": "sherpa",
+   "evidence": "any agent blocked by its environment; his own words; CLAUDE.md, 'Never blocked in silence' (Dinis, 6 Nov 2026), read 22 Nov"
+  },
+  {
+   "id": "good-decisions",
+   "label": "Good decisions, made at the right level",
+   "type": "goal",
    "visibility": 0.9,
+   "evolution": 0.3,
+   "source": "strategy",
+   "evidence": "maestro.d decisions-at-scale, Dinis's words 22 Nov ~09:00 UTC"
+  },
+  {
+   "id": "decision-page",
+   "label": "Decision page (options, recommendation, what follows)",
+   "type": "component",
+   "visibility": 0.85,
+   "evolution": 0.45,
+   "source": "strategy",
+   "evidence": "CLAUDE.md 'Decisions are pages'; /newsroom/decisions/"
+  },
+  {
+   "id": "playable-brief",
+   "label": "Playable decision brief (presenter, answer box, sign and send)",
+   "type": "component",
+   "visibility": 0.88,
+   "evolution": 0.1,
+   "source": "strategy",
+   "evidence": "decisions-at-scale section 2; bulletins.d asked to prototype ~09:05 UTC"
+  },
+  {
+   "id": "context-brief",
+   "label": "Context brief (the map's slice for one area)",
+   "type": "component",
+   "visibility": 0.7,
    "evolution": 0.12,
-   "source": "abp",
-   "evidence": "ABP R1: only Dinis instructs; a message is his word only with his verified signature"
+   "source": "strategy",
+   "evidence": "this role's brief from maestro.d, 22 Nov ~13:25 UTC"
   },
   {
-   "id": "n-brief",
-   "label": "One brief to Dinis (maestros)",
+   "id": "default-yes",
+   "label": "Default-yes window (safe enough to try)",
    "type": "component",
-   "visibility": 0.84,
-   "evolution": 0.4,
-   "source": "holacracy",
-   "evidence": "maestros: one combined view, one brief to Dinis"
+   "visibility": 0.62,
+   "evolution": 0.2,
+   "source": "strategy",
+   "evidence": "decisions-at-scale section 3; Holacracy integrative decision making"
   },
   {
-   "id": "n-asks",
-   "label": "Asks to Dinis in status.json ('Dinis: ...')",
-   "type": "component",
-   "visibility": 0.78,
-   "evolution": 0.28,
-   "source": "claude",
-   "evidence": "CLAUDE.md, 'Never blocked in silence' and 'Hourly runs'"
-  },
-  {
-   "id": "n-pages",
-   "label": "Decision pages with every option shown",
-   "type": "component",
-   "visibility": 0.72,
-   "evolution": 0.5,
-   "source": "claude",
-   "evidence": "CLAUDE.md, 'Decisions are pages' (/newsroom/decisions/)"
-  },
-  {
-   "id": "n-triage",
-   "label": "Triage: PT decision or 'For Dinis'",
+   "id": "reserved-list",
+   "label": "Dinis's reserved list (money, law, brand, people, keys, RiskMandate)",
    "type": "component",
    "visibility": 0.66,
-   "evolution": 0.2,
-   "source": "claude",
-   "evidence": "CLAUDE.md: money, the law, the brand, people, what RiskMandate is, what an email may promise are Dinis's alone"
+   "evolution": 0.4,
+   "source": "strategy",
+   "evidence": "CLAUDE.md 'Decisions are pages' (For Dinis)"
   },
   {
-   "id": "n-default",
-   "label": "The owner's recommendation is the default; push and try it live",
+   "id": "roles-record",
+   "label": "Roles and circles record (who owns what)",
    "type": "component",
-   "visibility": 0.6,
-   "evolution": 0.36,
-   "source": "claude",
-   "evidence": "CLAUDE.md, Dinis 6 Nov 2026 about 13:20 UTC"
+   "visibility": 0.55,
+   "evolution": 0.3,
+   "source": "strategy",
+   "evidence": "holacracy.d org-chart.json and proposals"
   },
   {
-   "id": "n-review",
-   "label": "Weigh-in by sherpa, synthetic, security",
+   "id": "decisions-agent",
+   "label": "decisions.d (the attorney)",
    "type": "component",
-   "visibility": 0.54,
-   "evolution": 0.44,
-   "source": "claude",
-   "evidence": "CLAUDE.md: they weigh in on the page, the owner decides and ships"
+   "visibility": 0.52,
+   "evolution": 0.05,
+   "source": "strategy",
+   "evidence": "decisions-at-scale section 7; lawyers-in-the-loop (newsroom.sgit.ai, read 22 Nov)"
   },
   {
-   "id": "n-ab",
-   "label": "A/B test on the live site where unsure",
+   "id": "delegation",
+   "label": "Limited, expiring delegation (power of attorney)",
    "type": "component",
-   "visibility": 0.48,
-   "evolution": 0.66,
-   "source": "claude",
-   "evidence": "CLAUDE.md: where the team is unsure, A/B test it on the site"
+   "visibility": 0.45,
+   "evolution": 0.08,
+   "source": "strategy",
+   "evidence": "power-of-attorney analysis"
   },
   {
-   "id": "n-passes",
-   "label": "Passes: focused review rounds with a budget",
+   "id": "abp-powers",
+   "label": "ABP powers section (what each receiver accepts)",
+   "type": "component",
+   "visibility": 0.4,
+   "evolution": 0.15,
+   "source": "strategy",
+   "evidence": "power-of-attorney analysis; ABP v1.19.2 R1"
+  },
+  {
+   "id": "counsel",
+   "label": "counsel.d (drafts, simulates, multi-model checks)",
    "type": "component",
    "visibility": 0.42,
+   "evolution": 0.05,
+   "source": "strategy",
+   "evidence": "power-of-attorney analysis"
+  },
+  {
+   "id": "human-signer",
+   "label": "Named lawyer or firm who signs and certifies",
+   "type": "component",
+   "visibility": 0.48,
+   "evolution": 0.85,
+   "source": "strategy",
+   "evidence": "lawyers-in-the-loop: professional review is an established, paid service"
+  },
+  {
+   "id": "decision-log",
+   "label": "Public decision log and register (hashes, revocations)",
+   "type": "component",
+   "visibility": 0.35,
+   "evolution": 0.25,
+   "source": "strategy",
+   "evidence": "maestro.d decisions/, holacracy.d decisions/, power-of-attorney 'register'"
+  },
+  {
+   "id": "chain-check",
+   "label": "Receiver's chain check (signature, expiry, revocation, scope)",
+   "type": "component",
+   "visibility": 0.3,
+   "evolution": 0.2,
+   "source": "strategy",
+   "evidence": "decisions-at-scale section 7"
+  },
+  {
+   "id": "inbox-lanes",
+   "label": "Append-only inbox lanes",
+   "type": "component",
+   "visibility": 0.22,
+   "evolution": 0.45,
+   "source": "strategy",
+   "evidence": "CLAUDE.md 'Identity'; board/inboxes/"
+  },
+  {
+   "id": "agent-keys",
+   "label": "Agent session keys and board/keys.json",
+   "type": "component",
+   "visibility": 0.18,
+   "evolution": 0.55,
+   "source": "strategy",
+   "evidence": "board/keys.json; signing-setup.sh"
+  },
+  {
+   "id": "pki-site",
+   "label": "pki.sgit.ai (Dinis signs here)",
+   "type": "component",
+   "visibility": 0.15,
+   "evolution": 0.4,
+   "source": "strategy",
+   "evidence": "Dinis ~12:00 UTC, decisions-at-scale section 7"
+  },
+  {
+   "id": "device-key",
+   "label": "Dinis's device key (non-extractable / passkey)",
+   "type": "component",
+   "visibility": 0.12,
    "evolution": 0.3,
-   "source": "claude",
-   "evidence": "CLAUDE.md, 'Passes' (board/the-passes.md)"
+   "source": "strategy",
+   "evidence": "decisions-at-scale section 1: the key in person-keys.json was agent-issued"
   },
   {
-   "id": "n-abp",
-   "label": "ABP: a grant per agent, deny by default",
+   "id": "git-signing",
+   "label": "Signed commits and CI signature check",
    "type": "component",
-   "visibility": 0.36,
-   "evolution": 0.5,
-   "source": "abp",
-   "evidence": "ABP R2 and R6: the grant is the mandate; paths outside it are logged"
-  },
-  {
-   "id": "n-record",
-   "label": "Governance record and org chart",
-   "type": "component",
-   "visibility": 0.32,
-   "evolution": 0.1,
-   "source": "org",
-   "evidence": "holacracy.d's org-chart.json, a first draft; the analysis names the single record as missing"
-  },
-  {
-   "id": "n-rep",
-   "label": "Circle Rep (a circle's tensions carried up)",
-   "type": "gap",
-   "visibility": 0.26,
-   "evolution": 0.03,
-   "source": "holacracy",
-   "evidence": "Holacracy table: Circle Rep match is 'Missing'"
-  },
-  {
-   "id": "n-cadence",
-   "label": "Governance cadence (a regular round with a record)",
-   "type": "gap",
-   "visibility": 0.2,
-   "evolution": 0.18,
-   "source": "holacracy",
-   "evidence": "'Differ' item 4: no governance cadence; roles change when Dinis speaks"
-  },
-  {
-   "id": "n-wake",
-   "label": "Wakes (scheduled sessions, twice a day)",
-   "type": "component",
-   "visibility": 0.25,
-   "evolution": 0.52,
-   "source": "guidance",
-   "evidence": "New from Dinis, 19 Nov 16:30: twice a day; and 22 Nov: 'No scheduled wake' for the .d agents"
-  },
-  {
-   "id": "n-keys",
-   "label": "Keys and signed commits (identity)",
-   "type": "component",
-   "visibility": 0.19,
-   "evolution": 0.64,
-   "source": "guidance",
-   "evidence": "New from Dinis, 19 Nov 01:05: signed commits for every agent; board/keys.json"
-  },
-  {
-   "id": "n-git",
-   "label": "Git, the board and release.sh with a gate",
-   "type": "component",
-   "visibility": 0.13,
-   "evolution": 0.86,
-   "source": "claude",
-   "evidence": "CLAUDE.md, 'Branches and versions' and 'Build and gate'"
-  },
-  {
-   "id": "n-llm",
-   "label": "Claude sessions (the agents themselves)",
-   "type": "component",
-   "visibility": 0.06,
+   "visibility": 0.1,
    "evolution": 0.7,
-   "source": "claude",
-   "evidence": "CLAUDE.md: each agent is a Claude Code session; Opus and Sonnet by role"
+   "source": "strategy",
+   "evidence": "guidance 2026-11-19 signed commits"
+  },
+  {
+   "id": "crypto",
+   "label": "Public-key cryptography (WebCrypto, ed25519, P-256)",
+   "type": "component",
+   "visibility": 0.03,
+   "evolution": 0.95,
+   "source": "strategy",
+   "evidence": "commodity"
   }
  ],
  "links": [
   {
-   "from": "u-dinis",
-   "to": "n-need",
+   "from": "dinis",
+   "to": "n-decide-one-place",
    "type": "has",
-   "source": "claude"
+   "source": "sherpa"
   },
   {
-   "from": "n-need",
-   "to": "n-word",
+   "from": "dinis",
+   "to": "n-decide-come-back",
+   "type": "has",
+   "source": "sherpa"
+  },
+  {
+   "from": "dinis",
+   "to": "n-know-it-landed",
+   "type": "has",
+   "source": "sherpa"
+  },
+  {
+   "from": "agent",
+   "to": "n-agent-verifiable-answer",
+   "type": "has",
+   "source": "sherpa"
+  },
+  {
+   "from": "agent",
+   "to": "n-agent-not-blocked",
+   "type": "has",
+   "source": "sherpa"
+  },
+  {
+   "from": "n-decide-one-place",
+   "to": "decision-page",
    "type": "needs",
-   "source": "abp"
+   "source": "cartographer"
   },
   {
-   "from": "n-need",
-   "to": "n-pages",
+   "from": "n-decide-one-place",
+   "to": "context-brief",
    "type": "needs",
-   "source": "claude"
+   "source": "cartographer"
   },
   {
-   "from": "n-need",
-   "to": "n-default",
+   "from": "n-decide-one-place",
+   "to": "playable-brief",
    "type": "needs",
-   "source": "claude"
+   "source": "cartographer"
   },
   {
-   "from": "n-word",
-   "to": "n-brief",
-   "type": "reaches-through",
-   "source": "holacracy"
-  },
-  {
-   "from": "n-word",
-   "to": "n-asks",
-   "type": "reaches-through",
-   "source": "claude"
-  },
-  {
-   "from": "n-pages",
-   "to": "n-triage",
+   "from": "n-decide-come-back",
+   "to": "playable-brief",
    "type": "needs",
-   "source": "claude"
+   "source": "cartographer"
   },
   {
-   "from": "n-pages",
-   "to": "n-review",
+   "from": "n-decide-come-back",
+   "to": "device-key",
    "type": "needs",
-   "source": "claude"
+   "source": "cartographer"
   },
   {
-   "from": "n-default",
-   "to": "n-ab",
+   "from": "n-know-it-landed",
+   "to": "decision-log",
    "type": "needs",
-   "source": "claude"
+   "source": "cartographer"
   },
   {
-   "from": "n-triage",
-   "to": "n-asks",
-   "type": "sends-up-to",
-   "source": "claude"
-  },
-  {
-   "from": "n-review",
-   "to": "n-passes",
+   "from": "n-know-it-landed",
+   "to": "inbox-lanes",
    "type": "needs",
-   "source": "claude"
+   "source": "cartographer"
   },
   {
-   "from": "n-asks",
-   "to": "n-rep",
-   "type": "lacks",
-   "source": "holacracy"
-  },
-  {
-   "from": "n-triage",
-   "to": "n-record",
+   "from": "n-agent-verifiable-answer",
+   "to": "chain-check",
    "type": "needs",
-   "source": "holacracy"
+   "source": "cartographer"
   },
   {
-   "from": "n-record",
-   "to": "n-cadence",
-   "type": "lacks",
-   "source": "holacracy"
-  },
-  {
-   "from": "n-passes",
-   "to": "n-abp",
+   "from": "n-agent-verifiable-answer",
+   "to": "agent-keys",
    "type": "needs",
-   "source": "abp"
+   "source": "cartographer"
   },
   {
-   "from": "n-abp",
-   "to": "n-keys",
+   "from": "n-agent-not-blocked",
+   "to": "inbox-lanes",
    "type": "needs",
-   "source": "guidance"
+   "source": "cartographer"
   },
   {
-   "from": "n-asks",
-   "to": "n-wake",
+   "from": "n-agent-not-blocked",
+   "to": "context-brief",
    "type": "needs",
-   "source": "guidance"
+   "source": "cartographer"
   },
   {
-   "from": "n-pages",
-   "to": "n-git",
+   "from": "good-decisions",
+   "to": "decision-page",
    "type": "needs",
-   "source": "claude"
+   "source": "strategy"
   },
   {
-   "from": "n-keys",
-   "to": "n-git",
+   "from": "good-decisions",
+   "to": "context-brief",
    "type": "needs",
-   "source": "guidance"
+   "source": "strategy"
   },
   {
-   "from": "n-wake",
-   "to": "n-llm",
+   "from": "good-decisions",
+   "to": "reserved-list",
    "type": "needs",
-   "source": "claude"
+   "source": "strategy"
   },
   {
-   "from": "n-git",
-   "to": "n-llm",
+   "from": "good-decisions",
+   "to": "default-yes",
    "type": "needs",
-   "source": "claude"
+   "source": "strategy"
+  },
+  {
+   "from": "playable-brief",
+   "to": "decision-page",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "playable-brief",
+   "to": "device-key",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "context-brief",
+   "to": "roles-record",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "default-yes",
+   "to": "roles-record",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "default-yes",
+   "to": "decision-log",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "decision-page",
+   "to": "decision-log",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "playable-brief",
+   "to": "decisions-agent",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "default-yes",
+   "to": "decisions-agent",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "decisions-agent",
+   "to": "delegation",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "decisions-agent",
+   "to": "agent-keys",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "decisions-agent",
+   "to": "inbox-lanes",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "delegation",
+   "to": "pki-site",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "delegation",
+   "to": "abp-powers",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "delegation",
+   "to": "counsel",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "counsel",
+   "to": "human-signer",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "chain-check",
+   "to": "abp-powers",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "chain-check",
+   "to": "delegation",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "chain-check",
+   "to": "decision-log",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "chain-check",
+   "to": "agent-keys",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "pki-site",
+   "to": "device-key",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "device-key",
+   "to": "crypto",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "agent-keys",
+   "to": "crypto",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "git-signing",
+   "to": "agent-keys",
+   "type": "needs",
+   "source": "strategy"
+  },
+  {
+   "from": "decision-log",
+   "to": "git-signing",
+   "type": "needs",
+   "source": "strategy"
   }
  ],
  "moves": [
   {
-   "node": "n-record",
-   "to": 0.32,
-   "why": "holacracy.d is already building it; a weekly governance round would move the cadence gap with it",
-   "source": "holacracy",
-   "kind": "suggestion for strategy.d, not a decision"
+   "node": "decision-page",
+   "to": 0.6,
+   "why": "one template across PrompTugal, AgentiCCells, SovereignWebsite",
+   "source": "strategy",
+   "kind": "strategy.d's movement"
+  },
+  {
+   "node": "playable-brief",
+   "to": 0.35,
+   "why": "from prototype to the default way Dinis answers",
+   "source": "strategy",
+   "kind": "strategy.d's movement"
+  },
+  {
+   "node": "device-key",
+   "to": 0.55,
+   "why": "WebCrypto and passkeys are products; use them, do not build",
+   "source": "strategy",
+   "kind": "strategy.d's movement"
+  },
+  {
+   "node": "delegation",
+   "to": 0.3,
+   "why": "a written format, reused by every circle and sellable as part of a cell",
+   "source": "strategy",
+   "kind": "strategy.d's movement"
   }
  ],
  "notes": [
-  "Positions are my reading of the sources, not measurements; strategy.d decides what the map means and may move any node, with a reason.",
-  "The anchor need is taken from CLAUDE.md. sherpa.d's user needs replace it when they exist.",
-  "Account B's side is not seen, so its conductors are not drawn."
+  "Positions are strategy.d's judgement, drawn as given, except the shared goal, lowered from 0.97 to 0.9 so it does not sit on the needs. strategy.d decides what the map means.",
+  "The links from needs to components are mine (source: cartographer) because sherpa.d left serves_via empty.",
+  "strategy.d's inertia and pipelines sections are in its map.json and are not redrawn here."
  ]
 }

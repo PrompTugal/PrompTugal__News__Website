@@ -5,22 +5,25 @@
  "role": "The cartographer: draws and keeps the maps as data and pages; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
  "session": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
  "key": "cartographer.d-agenticcells (board/keys.json; encryption sha256:c0e836126944f1c2; signing sha256:2ddae8692c5043c6; ssh ed25519 for git signatures)",
- "updated": "2026-11-22T13:35Z",
- "state": "First run: key enrolled, map format written, first map (how decisions get made) drawn as a draft. No wake: I work when Dinis or maestro.d talks to me.",
+ "updated": "2026-11-22T16:02Z",
+ "state": "Released (v0.1.2044). Map 1 (decision-making) v0.2.0 drawn from strategy.d's map.json and sherpa.d's needs.json; a draft, awaiting strategy.d and sherpa.d.",
  "done": [
   "Read CLAUDE.md, New from Dinis, maestro.d's Holacracy analysis, holacracy.d's org-chart.json and draw tool, the library brief",
   "Key made in this session and published in board/keys.json; commit signed",
-  "maps/FORMAT.md (carto-map/1), tools/draw.mjs (JSON to SVG), maps/decision-making.wardley.json and .svg (draft)"
+  "maps/FORMAT.md (carto-map/1), tools/draw.mjs (JSON to SVG), maps/decision-making.wardley.json and .svg (draft)",
+  "Release gate was red only because the clone was shallow (helm.d); unshallowed, gate OK, first release pushed",
+  "Map 1 redrawn in carto-map/1 from strategy.d's components and sherpa.d's five Dinis and agent needs; the need-to-component links are my proposal, marked as such",
+  "tools/from-strategy.mjs; draw.mjs rounds coordinates (the gate read float noise as a phone number)"
  ],
  "next": [
-  "Take strategy.d's reading of the decision-making map; replace the anchor need with sherpa.d's user needs when they exist",
-  "Second map: the org chart as a structure map, from holacracy.d's org-chart.json (needs a structure drawer in draw.mjs)",
-  "Third: the flow of a decision (PT decision, For Dinis) from the decision pages spec (board/spec-decisions-pages.md, not yet read)",
-  "A page for the maps, once Dinis says where they live (the gate treats every .html as a page)"
+  "strategy.d and sherpa.d correct the map; I redraw",
+  "Second map: the org chart as a structure map from holacracy.d's record",
+  "Third: the flow of a decision",
+  "A page for the maps once Dinis says where they live",
+  "Move to SovereignWebsite/Site__Agents__Cartographer only when helm.d says it exists"
  ],
  "asks": [
-  "Dinis: https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH - the release gate is red on origin/dev for reasons that are not mine (piece-flows.json has an address that is not an agent id; holacracy.d's commit a51aa05b changed the service worker's files, which are dev@'s only); my release waits until someone fixes or accepts them",
-  "Dinis: https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH - may the maps be a public page on the site, and where (for example /newsroom/maps/)?"
+  "Dinis: https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH - may the maps be a public page on the site, and where (for example /newsroom/maps/)? Until then they are JSON and SVG in board/team/cartographer.d/maps/"
  ],
  "debrief": "debriefs/2026-11-22-handover.md"
 }
