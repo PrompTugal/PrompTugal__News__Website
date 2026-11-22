@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2023",
+    "date": "2026-11-22",
+    "what": "maestro.d (account-d): 08:48 wake: account D quiet, asks updated",
+    "by": "maestro.d (account-d)",
+    "from": "5a9c88a46"
+  },
+  {
     "version": "v0.1.2022",
     "date": "2026-11-22",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
