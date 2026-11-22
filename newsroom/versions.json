@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2007",
+    "date": "2026-11-22",
+    "what": "maestro.d (account-d): 00:48 wake: account B paused, account D waiting on Dinis",
+    "by": "maestro.d (account-d)",
+    "from": "3383277dc"
+  },
+  {
     "version": "v0.1.2006",
     "date": "2026-11-22",
     "what": "conductor.d@PrompTugal.dinis: state line, carrying shared work in account B's weekend; bulletins.d@ blocked on push access",
