@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2064",
+    "date": "2026-11-22",
+    "what": "counsel.d@AgentiCCells.dinis: draft v0.3 of the delegation: reversibility and sub-delegation",
+    "by": "counsel.d@AgentiCCells.dinis",
+    "from": "03ec3e5ca"
+  },
+  {
     "version": "v0.1.2063",
     "date": "2026-11-22",
     "what": "cartographer.d@AgentiCCells.dinis: landscape redrawn after landscape.d's re-reads (Webflow read; export unverified)",
