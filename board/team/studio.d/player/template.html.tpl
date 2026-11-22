@@ -23,6 +23,7 @@ nav{flex-wrap:wrap}#dots{display:flex;gap:8px;flex:1 1 100%;order:-1;justify-con
 ul.rv{list-style:none;padding:0;margin:0}ul.rv li{padding:10px 12px;margin:8px 0;border:1px solid var(--line);border-radius:10px;opacity:0;transform:translateX(-8px);transition:all .4s}
 .cmp{display:grid;grid-template-columns:1fr 1fr;gap:12px}.cmp>div{border:1px solid var(--line);border-radius:10px;padding:12px;opacity:0;transition:opacity .5s}.cmp h3{margin:0 0 6px;font-size:15px}
 .opt{border:1.5px solid var(--line);border-radius:12px;padding:12px;margin:10px 0}.opt.rec{border-color:var(--acc);background:var(--accb)}.opt .g{color:var(--acc);font-size:14px}.opt .b{color:var(--warn);font-size:14px}.opt button{margin-top:8px}
+.jr{display:grid;grid-template-columns:170px 1fr;gap:12px;align-items:start}.jsvg{width:170px;height:300px}.jbox{border:1.5px dashed var(--line);border-radius:10px;padding:10px;margin:6px 0;min-height:70px}.jsh{margin:6px 0;color:var(--acc);font-weight:600;font-size:14px}.wk{animation:bob 1s ease-in-out infinite alternate}@keyframes bob{to{transform:translateY(-3px)}}.fl2{animation:drop .9s ease-in both}@keyframes drop{from{transform:translateY(-40px);opacity:0}}@media(max-width:560px){.jr{grid-template-columns:1fr}.jsvg{width:150px;height:264px;justify-self:center}}
 .src{font-size:12px;color:var(--mut);margin:6px 16px}.src a{color:var(--mut)}
 @media(max-width:560px){main{grid-template-columns:1fr 96px}#pres{width:90px;height:105px}.big{font-size:48px}.bar span.l{width:90px}.cmp{grid-template-columns:1fr}}
 </style></head><body>
@@ -58,11 +59,32 @@ function draw(st,v){const k=v.kind;
  else if(k=='flow'){const f=el('div','fl');const lab=Object.fromEntries(v.nodes.map(n=>[n.id,n.label]));let n=0;
   const seen=new Set();const add=id=>{if(seen.has(id))return;seen.add(id);const d=el('div','nd',lab[id]||id);f.append(d);setTimeout(()=>d.classList.add('show'),400*n++)};
   (v.edges||[]).forEach(e=>{add(e.from);const a=el('span','ar','→ '+(e.label||''));f.append(a);setTimeout(()=>a.classList.add('show'),400*n++);add(e.to)});v.nodes.forEach(x=>add(x.id));st.append(f)}
+
+ else if(k=='journey'){journey(st,v)}
  else if(k=='timeline'){const u=el('ul','rv');v.items.forEach((t,j)=>{const li=el('li');li.append(el('b','',t.when+': '),document.createTextNode(t.what));u.append(li);setTimeout(()=>li.classList.add('show'),400*j+80)});st.append(u)}
  else if(k=='compare'){const c=el('div','cmp');[v.left,v.right].forEach((s,j)=>{const d=el('div');d.append(el('h3','',s.title));const u=el('ul');u.style.paddingLeft='18px';s.points.forEach(p=>u.append(el('li','',p)));d.append(u);c.append(d);setTimeout(()=>d.style.opacity=1,500*j+80)});st.append(c)}
  else if(k=='svg'||(k=='image'&&v.seek!=null&&SVGS[v.src||v.url])){const t=SVGS[v.src||v.url];if(!t){st.append(el('div','lab','(SVG not inlined: '+(v.src||v.url)+')'));return}const h=el('div');h.innerHTML=t;const sv=h.querySelector('svg');if(sv){sv.style.width='100%';sv.style.height='auto';st.append(h);const at=v.at!=null?v.at:(v.seek||0);try{sv.pauseAnimations();sv.setCurrentTime(at);if(v.play){setTimeout(()=>{try{sv.unpauseAnimations();setTimeout(()=>sv.pauseAnimations(),v.play*1000)}catch(e){}},400)}}catch(e){}}if(v.note)st.append(el('div','lab',v.note))}
  else if(k=='image'){const im=el('img');im.src=v.url;im.alt=v.alt||'';im.style.maxWidth='100%';st.append(im,el('div','lab',v.credit||''))}
  else st.append(el('div','lab',v.note||'(a visual the player cannot draw yet)'))}
+
+const STOPS=[['base-camp','⛺','Base camp'],['trail','🥾','Trail'],['fork','🔀','Fork'],['fog','🌫️','Fog'],['cliff','🧗','Cliff'],['ravine','🕳️','Ravine'],['bridge','🌉','Bridge'],['rope','🪢','Rope'],['hut','🛖','Hut'],['summit','🏔️','Summit']];
+function journey(st,v){const w=v.walkers||{},wrap=el('div','jr');
+ const idx=Math.max(0,STOPS.findIndex(x=>x[0]==v.stop)),NS='http://www.w3.org/2000/svg',H=300,W=170;
+ const svg=document.createElementNS(NS,'svg');svg.setAttribute('viewBox','0 0 '+W+' '+H);svg.setAttribute('class','jsvg');svg.setAttribute('role','img');svg.setAttribute('aria-label','The path up the mountain, stop: '+(STOPS[idx][2]));
+ const mk=(t,a,x)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(x!=null)e.textContent=x;svg.append(e);return e};
+ mk('path',{d:'M0 300 L60 150 L90 190 L130 60 L170 140 L170 300Z',fill:'var(--line)',opacity:.45});
+ const pos=i=>({x:36+(i%2?46:0)+(i%3)*8,y:280-i*27});
+ let d='';STOPS.forEach((_,i)=>{const q=pos(i);d+=(i?' L':'M')+q.x+' '+q.y});mk('path',{d,fill:'none',stroke:'var(--mut)','stroke-width':2,'stroke-dasharray':'4 4'});
+ STOPS.forEach((x,i)=>{const q=pos(i);mk('text',{x:q.x,y:q.y+5,'text-anchor':'middle','font-size':i==idx?20:13,opacity:i==idx?1:.45},x[1])});
+ const cur=pos(idx),n=Math.min(24,w.here!=null?w.here:0);
+ for(let i=0;i<n;i++){const g=mk('g',{class:'wk',style:'animation-delay:'+(i*70)+'ms'});const x=cur.x-30+(i%8)*8,y=cur.y+16+Math.floor(i/8)*11;[['circle',{cx:x,cy:y,r:3,fill:'var(--acc)'}],['path',{d:`M${x} ${y+3}v5`,stroke:'var(--acc)','stroke-width':1.5}]].forEach(([t,a])=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);g.append(e)});svg.append(g)}
+ const f=Math.min(24,w.fell||0);const rav=pos(5);for(let i=0;i<f;i++){const e=mk('circle',{cx:rav.x-24+(i%8)*6,cy:rav.y+16+Math.floor(i/8)*6,r:2.4,fill:'var(--warn)',class:'fl2',style:'animation-delay:'+(i*90)+'ms'})}
+ if(f)mk('text',{x:rav.x+28,y:rav.y+22,'font-size':8,fill:'var(--warn)'},'fell');
+ const sm=el('div','jsite');const hd=el('b','',v.stop?STOPS[idx][2]:'');sm.append(hd);
+ const box=el('div','jbox');box.append(el('div','',(v.site&&v.site.shows)||''));if(v.site&&v.site.image){const im=el('img');im.src=v.site.image;im.alt='';im.style.maxWidth='100%';box.append(im)}sm.append(box);
+ if(v.sherpa)sm.append(el('div','jsh','Sherpa: '+v.sherpa));
+ const cnt=el('div','tag','Walkers '+(w.here!=null?w.here:'?')+' of '+(w.start!=null?w.start:'?')+(w.fell?', fell '+w.fell:'')+(w.through?', through '+w.through:'')+' · '+(w.basis=='measured'?'measured'+(w.source?' ('+(srcMap[w.source]?srcMap[w.source].title:w.source)+')':''):'ILLUSTRATIVE, not measured')+' · synthetic characters');sm.append(cnt);
+ wrap.append(svg,sm);st.append(wrap)}
 function decision(st,d,n){st.append(el('h2','',d.question));d.options.forEach(o=>{const c=el('div','opt'+(o.id==d.recommendation?' rec':''));c.append(el('b','',o.label+(o.id==d.recommendation?'  (recommended)':'')));
  (o.good||[]).forEach(t=>c.append(el('div','g','+ '+t)));(o.bad||[]).forEach(t=>c.append(el('div','b','− '+t)));(o.blocks||[]).forEach(t=>c.append(el('div','b','Holds up: '+t)));
  const bt=el('button','',o.id==d.recommendation?'Choose this (recommended)':'Choose this');bt.onclick=()=>{try{localStorage.setItem('studio:'+SB.slug+':'+n,o.id+'@'+new Date().toISOString())}catch(e){}document.dispatchEvent(new CustomEvent('studio-answer',{detail:{slug:SB.slug,q:n,option:o.id,at:new Date().toISOString()}}));bt.textContent='Recorded in this browser: '+o.label};c.append(bt);st.append(c)});
