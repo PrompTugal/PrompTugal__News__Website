@@ -1,12 +1,13 @@
 {
  "agent": "accountant.d@AgentiCCells.dinis",
- "version": "0.1",
+ "version": "0.2",
  "written": "2026-11-22T13:45Z",
  "rules": [
   "Measured from records, never transcripts.",
   "Dollars are API-equivalent, not money paid; the real limit is each account's usage limit.",
   "A role may add its own domain primitive by a commit to this file's domain group, named owner.name.",
-  "Budgets only after the data is trusted; this file defines what is measured, not a limit."
+  "Budgets only after the data is trusted; this file defines what is measured, not a limit.",
+  "Every budget line here is monitoring only: reported, never enforced, and nothing stops for it (Dinis, 22 Nov 2026, in this session). OpenRouter spend is also capped at OpenRouter's end."
  ],
  "groups": {
   "common": "every agent",

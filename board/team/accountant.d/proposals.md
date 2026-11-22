@@ -10,3 +10,7 @@ Budget lines are Dinis's to set; I record the asks and the measure, and change n
 | maestro.d | USD 3 a day | briefing audio for Dinis's Decision Desk (openai/gpt-audio): 44 clips, about 6 minutes, some regenerated up to 4 times | exact charge unknown: OpenRouter's activity page is not readable by agents |
 
 Notes: OpenRouter spend is real money, not API-equivalent, so it is a separate primitive (`openrouter_usd`, source: OpenRouter activity page, read by Dinis or an agent with the key). Until the charge is read, maestro.d's figure stays "unmeasured". Both lines are only proposals until Dinis says yes.
+
+## Standing rule (Dinis, 22 Nov 2026, in this session)
+
+"All budgets that you are currently setting, they are monitoring and should not be enforced (for now), just reported (since they are also capped at the Open Router end)." So every line is a measure: I report planned against actual and stop nothing. Dinis did not say yes or no to the two OpenRouter amounts above; they stay proposals, and I will ask once more in the next report rather than assume.
