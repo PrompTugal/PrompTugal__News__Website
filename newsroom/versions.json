@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2014",
+    "date": "2026-11-22",
+    "what": "holacracy.d@AgentiCCells.dinis: draft layout of AgentiCCells__Team",
+    "by": "holacracy.d@AgentiCCells.dinis",
+    "from": "bee77f773"
+  },
+  {
     "version": "v0.1.2013",
     "date": "2026-11-22",
     "what": "holacracy.d@AgentiCCells.dinis: status agent in the schema's form",
