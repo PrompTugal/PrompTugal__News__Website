@@ -1,0 +1,162 @@
+{
+ "format": "carto-map/1",
+ "id": "wardley-explainer",
+ "kind": "wardley-history",
+ "status": "draft",
+ "title": "What a Wardley map is, in five steps (an invented teaching example)",
+ "made": "2026-11-22T23:20Z",
+ "made_by": "cartographer.d@AgentiCCells.dinis",
+ "for": "the Wardley Maps framework site; studio.d to tell as a narrated video; sherpa.d to test with cold readers",
+ "sources_read": {
+  "sherpa": "board/team/sherpa.d/needs/wardley-maps-site.md, the first five minutes: one idea per screen, picture before word; the user and one need, the chain down from it, evolution left to right after the chain, one part drifting right, one decision the map changes, two doors (read 22 Nov 2026)",
+  "invented": "An invented example, made for teaching, not a real business and not a claim about one: a neighbourhood bakery selling bread online. Positions are the teaching reading, not a measurement. No third party's map or text is copied, so no licence question arises",
+  "cartographer": "cartographer.d's wording of each step, written as speech for the narration"
+ },
+ "rule": "Each step is five seconds. A part first appears in a column (evolution 0.5) so the reader sees the chain before the second axis; at step 5 the parts spread to where they belong.",
+ "components": {
+  "need": {
+   "label": "Ana wants fresh bread at her door",
+   "visibility": 0.97
+  },
+  "order": {
+   "label": "An order page she can use",
+   "visibility": 0.82
+  },
+  "delivery": {
+   "label": "Delivery",
+   "visibility": 0.62
+  },
+  "baking": {
+   "label": "Baking the bread",
+   "visibility": 0.5
+  },
+  "oven": {
+   "label": "The oven",
+   "visibility": 0.4
+  },
+  "flour": {
+   "label": "Flour",
+   "visibility": 0.24
+  },
+  "power": {
+   "label": "Electricity",
+   "visibility": 0.08
+  }
+ },
+ "steps": [
+  {
+   "date": "step 1",
+   "caption": "Start with a person and what they need. Ana wants fresh bread at her door. Everything on the map exists to meet that one need, so it goes at the top.",
+   "events": [
+    {
+     "node": "need",
+     "evolution": 0.5
+    }
+   ],
+   "source": "sherpa"
+  },
+  {
+   "date": "step 2",
+   "caption": "What does her need depend on? First, something she can see and use: an order page. The higher a part sits, the more visible it is to the person it serves.",
+   "events": [
+    {
+     "node": "order",
+     "evolution": 0.5
+    }
+   ],
+   "source": "sherpa"
+  },
+  {
+   "date": "step 3",
+   "caption": "The order page depends on delivery, and on bread that is actually baked. Each part depends on the ones below it, and Ana never sees them.",
+   "events": [
+    {
+     "node": "delivery",
+     "evolution": 0.5
+    },
+    {
+     "node": "baking",
+     "evolution": 0.5
+    }
+   ],
+   "source": "sherpa"
+  },
+  {
+   "date": "step 4",
+   "caption": "Baking needs an oven and flour, and the oven needs electricity. Now we have a chain, from what Ana sees at the top to what is hidden at the bottom.",
+   "events": [
+    {
+     "node": "oven",
+     "evolution": 0.5
+    },
+    {
+     "node": "flour",
+     "evolution": 0.5
+    },
+    {
+     "node": "power",
+     "evolution": 0.5
+    }
+   ],
+   "source": "sherpa"
+  },
+  {
+   "date": "step 5",
+   "caption": "Now the second idea, left to right. Parts mature. On the left, new and one of a kind, like this bakery's recipe. On the right, everyday and cheap, like electricity. The map spreads out.",
+   "events": [
+    {
+     "node": "order",
+     "evolution": 0.3
+    },
+    {
+     "node": "delivery",
+     "evolution": 0.55
+    },
+    {
+     "node": "baking",
+     "evolution": 0.2
+    },
+    {
+     "node": "oven",
+     "evolution": 0.7
+    },
+    {
+     "node": "flour",
+     "evolution": 0.82
+    },
+    {
+     "node": "power",
+     "evolution": 0.95
+    }
+   ],
+   "source": "invented"
+  },
+  {
+   "date": "step 6",
+   "caption": "Parts do not stay still. Delivery services become everyday, and delivery drifts to the right. Whatever is already everyday is rarely worth building for yourself.",
+   "events": [
+    {
+     "node": "delivery",
+     "evolution": 0.78
+    }
+   ],
+   "source": "invented"
+  },
+  {
+   "date": "step 7",
+   "caption": "Here is the decision the map changes. Do not build your own delivery. Use an everyday one, and spend your effort on the recipe, the part on the left that only you can do.",
+   "events": [],
+   "source": "invented"
+  },
+  {
+   "date": "step 8",
+   "caption": "That is a Wardley map. Two ways in from here: edit this map and make it your own, or watch how a map changes over time, one dated move at a time.",
+   "events": [],
+   "source": "cartographer"
+  }
+ ],
+ "notes": [
+  "An invented example for teaching; it says nothing about a real bakery or delivery service.",
+  "The first version of the explainer: sherpa.d tests it with cold readers; climate and doctrine are the second lesson, not this one (sherpa.d's order)."
+ ]
+}

@@ -4,7 +4,7 @@
  "kind": "strip",
  "status": "draft",
  "title": "Holacracy against how Dinis's agents run: 16 parts",
- "made": "2026-11-22T22:54Z",
+ "made": "2026-11-22T23:14Z",
  "made_by": "cartographer.d@AgentiCCells.dinis",
  "sources_read": {
   "mapping": "board/team/holacracy.d/public/02-the-mapping.md, read 22 Nov 2026; the match (Strong, Partial, Missing) is holacracy.d's and maestro.d's own judgement, drawn as given; Holacracy constitution v5.0"
@@ -97,7 +97,7 @@
    "type": "part",
    "match": "partial",
    "ours": "Status files, debriefs, decision pages, librarian@, historian@",
-   "note": "Scattered; holacracy.d keeps the governance record",
+   "note": "Partial: scattered across files and agents; holacracy.d keeps the governance record",
    "source": "mapping"
   },
   {

@@ -8,7 +8,7 @@ const f = process.argv[2] ? path.resolve(process.argv[2]) : path.join(dir, 'maps
 const j = JSON.parse(fs.readFileSync(f, 'utf8'))
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 const r1 = x => Math.round(x * 10) / 10
-const W = 1100, H = 700, L = 70, R = 40, T = 80, B = 130
+const W = 1100, H = 760, L = 70, R = 40, T = 80, B = 190
 const px = e => r1(L + e * (W - L - R)), py = v => r1(T + (1 - v) * (H - T - B))
 const N = j.steps.length, STEP = 5, TOTAL = N * STEP + 3   // seconds: each step 5 s, a 3 s hold at the end, then it loops
 const kt = t => (t / TOTAL).toFixed(4)
@@ -41,6 +41,7 @@ for (const [id, ks] of Object.entries(state)) {
   o.push(`<circle r="7" fill="#1f3a5f"/><text x="12" y="5" font-size="16" fill="#111">${esc(c.label)}</text></g></g>`)
 }
 // captions: each shows for its step; the first starts visible, the last holds to the end
+const wrapc = (t, n) => { const out = []; let l = ''; for (const w of t.split(' ')) { if ((l + ' ' + w).trim().length > n) { out.push(l); l = w } else l = (l + ' ' + w).trim() } if (l) out.push(l); return out }
 const cap = (i) => {
   const a = i * STEP, b = a + STEP, last = i === N - 1
   let ts, vs
@@ -50,10 +51,11 @@ const cap = (i) => {
   return `opacity="${vs[0]}"><animate attributeName="opacity" values="${vs.join(';')}" keyTimes="${ts.map(kt).join(';')}" dur="${TOTAL}s" repeatCount="indefinite"/>`
 }
 j.steps.forEach((s, i) => {
-  o.push(`<text x="${L}" y="${H - 70}" font-size="19" fill="#111" ${cap(i)}${esc(s.caption)}</text>`)
-  o.push(`<text x="${L}" y="${H - 46}" font-size="14" fill="#666" ${cap(i)}${esc(s.date)}; source: ${esc(s.source)} (see sources_read in the JSON)</text>`)
+  const lines = wrapc(s.caption, 88)
+  lines.slice(0, 3).forEach((t, k) => o.push(`<text x="${L}" y="${H - 96 + k * 23}" font-size="19" fill="#111" ${cap(i)}${esc(t)}</text>`))
+  o.push(`<text x="${L}" y="${H - 26}" font-size="14" fill="#666" ${cap(i)}${esc(s.date)}; source: ${esc(s.source)} (see sources_read in the JSON)</text>`)
 })
-o.push(`<text x="${L}" y="${H - 14}" font-size="11" fill="#555">Evolution, left to right. Visible to the user, bottom to top. A circle appears when the sources first record the component and slides as it matures.</text>`)
+o.push(`<text x="${L}" y="${H - 6}" font-size="11" fill="#555">Evolution, left to right. Visible to the user, bottom to top. A circle appears when the sources first record the component and slides as it matures.</text>`)
 o.push('</svg>')
 const out = f.replace(/\.json$/, '.svg')
 fs.writeFileSync(out, o.join('\n') + '\n')

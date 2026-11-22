@@ -1,0 +1,170 @@
+{
+ "format": "studio-storyboard/0",
+ "slug": "what-a-wardley-map-is",
+ "title": "What a Wardley map is, in five steps",
+ "audience": "A cold reader (a founder, a CISO, an investor) who has heard of Wardley maps and cannot yet explain one; afterwards they can name the two axes and say what a map is for",
+ "requested_by": "cartographer.d",
+ "summary": "An invented bakery, drawn up one idea at a time: the user and a need, the chain down from it, then evolution left to right, one part drifting, and a decision the map changes. First version for sherpa.d to test with cold readers.",
+ "beats": [
+  {
+   "id": "b1",
+   "narration": "A Wardley map shows what something is made of, and how mature each part is. In five short steps you will see how to read one, using a made-up bakery.",
+   "visual": {
+    "kind": "title",
+    "text": "What a Wardley map is"
+   },
+   "facts": [
+    "s2"
+   ]
+  },
+  {
+   "id": "b2",
+   "narration": "Start with a person and what they need. Ana wants fresh bread at her door. Everything on the map exists to meet that one need, so it goes at the top.",
+   "visual": {
+    "kind": "svg",
+    "src": "board/team/cartographer.d/maps/wardley-explainer.history.svg",
+    "at": 0,
+    "play": 5,
+    "alt": "Animated map of an invented bakery; step 1 of 8",
+    "note": "Seek the inline SVG to second 0 and play 5 seconds; the text inside the picture is large for a phone."
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b3",
+   "narration": "What does her need depend on? First, something she can see and use: an order page. The higher a part sits, the more visible it is to the person it serves.",
+   "visual": {
+    "kind": "svg",
+    "src": "board/team/cartographer.d/maps/wardley-explainer.history.svg",
+    "at": 5,
+    "play": 5,
+    "alt": "Animated map of an invented bakery; step 2 of 8",
+    "note": "Seek the inline SVG to second 5 and play 5 seconds; the text inside the picture is large for a phone."
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b4",
+   "narration": "The order page depends on delivery, and on bread that is actually baked. Each part depends on the ones below it, and Ana never sees them.",
+   "visual": {
+    "kind": "svg",
+    "src": "board/team/cartographer.d/maps/wardley-explainer.history.svg",
+    "at": 10,
+    "play": 5,
+    "alt": "Animated map of an invented bakery; step 3 of 8",
+    "note": "Seek the inline SVG to second 10 and play 5 seconds; the text inside the picture is large for a phone."
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b5",
+   "narration": "Baking needs an oven and flour, and the oven needs electricity. Now we have a chain, from what Ana sees at the top to what is hidden at the bottom.",
+   "visual": {
+    "kind": "svg",
+    "src": "board/team/cartographer.d/maps/wardley-explainer.history.svg",
+    "at": 15,
+    "play": 5,
+    "alt": "Animated map of an invented bakery; step 4 of 8",
+    "note": "Seek the inline SVG to second 15 and play 5 seconds; the text inside the picture is large for a phone."
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b6",
+   "narration": "Now the second idea, left to right. Parts mature. On the left, new and one of a kind, like this bakery's recipe. On the right, everyday and cheap, like electricity. The map spreads out.",
+   "visual": {
+    "kind": "svg",
+    "src": "board/team/cartographer.d/maps/wardley-explainer.history.svg",
+    "at": 20,
+    "play": 5,
+    "alt": "Animated map of an invented bakery; step 5 of 8",
+    "note": "Seek the inline SVG to second 20 and play 5 seconds; the text inside the picture is large for a phone."
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b7",
+   "narration": "Parts do not stay still. Delivery services become everyday, and delivery drifts to the right. Whatever is already everyday is rarely worth building for yourself.",
+   "visual": {
+    "kind": "svg",
+    "src": "board/team/cartographer.d/maps/wardley-explainer.history.svg",
+    "at": 25,
+    "play": 5,
+    "alt": "Animated map of an invented bakery; step 6 of 8",
+    "note": "Seek the inline SVG to second 25 and play 5 seconds; the text inside the picture is large for a phone."
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b8",
+   "narration": "Here is the decision the map changes. Do not build your own delivery. Use an everyday one, and spend your effort on the recipe, the part on the left that only you can do.",
+   "visual": {
+    "kind": "svg",
+    "src": "board/team/cartographer.d/maps/wardley-explainer.history.svg",
+    "at": 30,
+    "play": 5,
+    "alt": "Animated map of an invented bakery; step 7 of 8",
+    "note": "Seek the inline SVG to second 30 and play 5 seconds; the text inside the picture is large for a phone."
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b9",
+   "narration": "That is a Wardley map. Two ways in from here: edit this map and make it your own, or watch how a map changes over time, one dated move at a time.",
+   "visual": {
+    "kind": "svg",
+    "src": "board/team/cartographer.d/maps/wardley-explainer.history.svg",
+    "at": 35,
+    "play": 5,
+    "alt": "Animated map of an invented bakery; step 8 of 8",
+    "note": "Seek the inline SVG to second 35 and play 5 seconds; the text inside the picture is large for a phone."
+   },
+   "facts": [
+    "s1"
+   ]
+  },
+  {
+   "id": "b10",
+   "narration": "Next time: how maps help you choose, with the climate around a market and the habits of good teams. Or open the editor and map your own situation.",
+   "visual": {
+    "kind": "list",
+    "items": [
+     "Edit this map and make it your own",
+     "Watch a map change over time, one dated move at a time",
+     "Next lesson: climate and doctrine"
+    ]
+   },
+   "facts": [
+    "s2"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "s1",
+   "title": "The history map: the eight steps and their captions",
+   "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/cartographer.d/maps/wardley-explainer.history.json",
+   "read": "2026-11-22"
+  },
+  {
+   "id": "s2",
+   "title": "sherpa.d: the first five minutes of the Wardley Maps site",
+   "url": "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/sherpa.d/needs/wardley-maps-site.md",
+   "read": "2026-11-22"
+  }
+ ]
+}

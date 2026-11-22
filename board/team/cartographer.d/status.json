@@ -31,6 +31,7 @@
   "Drew the org chart of account D from holacracy.d's record as a structure map (tools/from-org.mjs, draw.mjs structure branch); account B dashed, reported not seen; central circle dashed as proposed"
  ],
  "next": [
+  "DONE (first version): the Wardley explainer, an invented bakery in 8 steps (maps/wardley-explainer.history.svg) and its storyboard for studio.d (maps/what-a-wardley-map-is.storyboard.json); sherpa.d to test it with cold readers; then the live map at minute 3 on the site",
   "DONE: the 16-part Holacracy mapping strip (maps/holacracy-mapping.strip.svg); next the circles view",
   "The 16-part Holacracy mapping as a strip (holacracy.d's public/02-the-mapping.md), then the circles view",
   "The Wardley explainer from sherpa.d's first five minutes; storyboard for studio.d",

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 846" role="img" aria-label="Holacracy against how Dinis's agents run: 16 parts" font-family="system-ui, sans-serif"><rect width="1400" height="846" fill="#fff"/>
 <text x="30" y="36" font-size="24" font-weight="600" fill="#111">Holacracy against how Dinis's agents run: 16 parts</text>
-<text x="30" y="62" font-size="14" fill="#444">strip, draft, made 2026-11-22T22:54Z by cartographer.d@AgentiCCells.dinis; the match is holacracy.d's and maestro.d's own judgement (Holacracy constitution v5.0)</text>
+<text x="30" y="62" font-size="14" fill="#444">strip, draft, made 2026-11-22T23:14Z by cartographer.d@AgentiCCells.dinis; the match is holacracy.d's and maestro.d's own judgement (Holacracy constitution v5.0)</text>
 <text x="30" y="90" font-size="15" fill="#111">Strong: 10   Partial: 4   Missing: 2   (green, amber, red)</text>
 <rect x="30" y="120" width="330" height="150" rx="6" fill="#cfe9d6" stroke="#666"><title>Constitution, ratified by the founder: Each repository's rules, the Agent Behaviour Policies (abp@'s files), Dinis's guidance (Strong)</title></rect>
 <text x="40" y="142" font-size="15" font-weight="600" fill="#111">Constitution, ratified by the</text>
@@ -51,12 +51,12 @@
 <text x="40" y="516" font-size="12" fill="#222">abp@ (policies, hourly review) and security@</text>
 <text x="40" y="531" font-size="12" fill="#222">(reviews)</text>
 <text x="40" y="590" font-size="12" font-weight="600" fill="#333">Partial</text>
-<rect x="374" y="448" width="330" height="150" rx="6" fill="#fdebc8" stroke="#666"><title>Secretary: Status files, debriefs, decision pages, librarian@, historian@ (Scattered; holacracy.d keeps the governance record)</title></rect>
+<rect x="374" y="448" width="330" height="150" rx="6" fill="#fdebc8" stroke="#666"><title>Secretary: Status files, debriefs, decision pages, librarian@, historian@ (Partial: scattered across files and agents; holacracy.d keeps the governance record)</title></rect>
 <text x="384" y="470" font-size="15" font-weight="600" fill="#111">Secretary</text>
 <text x="384" y="516" font-size="12" fill="#222">Status files, debriefs, decision pages,</text>
 <text x="384" y="531" font-size="12" fill="#222">librarian@, historian@</text>
-<text x="384" y="575" font-size="12" font-weight="600" fill="#333">Scattered; holacracy.d keeps the governance</text>
-<text x="384" y="590" font-size="12" font-weight="600" fill="#333">record</text>
+<text x="384" y="575" font-size="12" font-weight="600" fill="#333">Partial: scattered across files and agents;</text>
+<text x="384" y="590" font-size="12" font-weight="600" fill="#333">holacracy.d keeps the governance record</text>
 <rect x="718" y="448" width="330" height="150" rx="6" fill="#cfe9d6" stroke="#666"><title>Tension: Asks in status files, findings, "never blocked in silence" (Strong)</title></rect>
 <text x="728" y="470" font-size="15" font-weight="600" fill="#111">Tension</text>
 <text x="728" y="516" font-size="12" fill="#222">Asks in status files, findings, "never</text>
