@@ -4487,6 +4487,29 @@
       },
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINM61vb8eByz2eH1VTFfqrP2NPPN/f7SplDe2GkMJPec",
       "ssh_added": "2026-11-22T02:01Z"
+    },
+    {
+      "id": "helm.d-agenticcells",
+      "agent": "helm.d@AgentiCCells.dinis",
+      "label": "helm.d@AgentiCCells.dinis: the helm, lead of the central circle of account D (Claude Code session)",
+      "role": "The helm: Dinis's single entry point for the global structure and direction of travel; leads the central circle (board/team/helm.d/). A session key: it ends with its session.",
+      "made": "2026-11-22",
+      "made_with": "sgit pki keygen (sgit-ai 0.27.0), in its own session; private half only in that session",
+      "added": "2026-11-22T13:26Z",
+      "encryption_fingerprint": "sha256:0c714819ea3fa187",
+      "signing_fingerprint": "sha256:2bb48caaec62dbff",
+      "status": "active",
+      "session": "https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA5x/1djL0eeGZIVL5t0va\n7P3hkgns8WzMei9OvXHeC9WOVcMBbHbPMQrNuzVjRE68LwnC3rYrrhsVAjF32koV\nqiCdrfQ69oPaMBmJZvY+jJnHQ2OhJkBBf+QMGCdhp9s9awcKhmBhWWvoW9vCOY2Q\n3j4QiuNKmF9CNx74EYYANK7GP/vHry/oiHMvCSGtd6hFlBDOeYvCeBTrefoWxygk\nLgxZF+hp42Ae7h/Dx1T3WPNerbFYlDavnJcn7xSIb+JEOFKwvU5bFryyRz7HhLrn\nNECe2FJEBR9ZWsubo6SgZCubYdHUI8mMF8PVpU1sTQyogf82KTlOLrzCxv1CFd1U\nPKXIaea5uw+H6vrnaf7DDlJF3l5D5x4iD12JnKo9+rNQDaDKAr2SbPskuXBJVyuO\ncRYB3qGPdiokjtobUm+TJ9KzFEuOeI1/TQ8/KA25p1bvq1byJtbA7k7/IYJ8VQrw\nC1K3Q/9HhNvqyDOirDPrjgZ2AJUie5N8Ma/R7fWnAz7N9wT/dvGHLlbFHZ12vAo0\nC3gyXR/8Y9fWuOq/37v2Ad1DAmN9FMX1T1oq+zjcu8tw4mCCosYhkNCj7gMkypzw\npjz7JAy5fxaD1uaqIfNuZwFRJMCr+HuPfLgdA01Dkq+Cj3KME4A40k00zOqOU1Ky\nyNo1frYgY8rQ05hOj1aqpxMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAED13Ii02WAs3Gw3VPlixeZEExbSRu\n4Y8yviB12uXo4ZisNH7uUMui5eV9y2nk1EwMRUECuLrBS5aZ94ZR0NTVDg==\n-----END PUBLIC KEY-----\n",
+        "label": "helm.d@AgentiCCells.dinis",
+        "fingerprint": "sha256:0c714819ea3fa187",
+        "signing_fingerprint": "sha256:2bb48caaec62dbff"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGeWJh1QmcRAslgtmb9yhoDvohyhjuIiWmLcO2Kg+LxJ",
+      "ssh_added": "2026-11-22T13:26Z"
     }
   ]
 }
