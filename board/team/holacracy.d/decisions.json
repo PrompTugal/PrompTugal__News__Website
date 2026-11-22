@@ -1,0 +1,47 @@
+{
+ "about": "Open decisions for Dinis, from board/team/holacracy.d/proposals/. holacracy.d@AgentiCCells.dinis, 22 Nov 2026. A pick on the page is a note for you; only your word in my session counts.",
+ "decisions": [
+  {"id":"D1","title":"One naming rule for agents","tension":"Names drift: @account-d.dinis in titles, bare names elsewhere, three agents all called conductor.d. The gate knows only two domains.","source":"proposals/01-one-naming-rule.md","rec":"A",
+   "options":[
+    {"k":"A","label":"Role.account (circle)","good":"Matches the files today; no gate change","bad":"PrompTugal and AgentiCCells conductors keep two forms","follows":"A second session of a role is <role>.<account>.2; holacracy.d keys the record on <role>@<circle>"},
+    {"k":"B","label":"One form for all: role.account@Circle.dinis","good":"One unique rule","bad":"Gate change and key renames","follows":"Gate learns the circle domains; owners rename"},
+    {"k":"C","label":"Leave it","good":"Cheapest","bad":"Collisions stay","follows":"Circle goes in the session title only"}]},
+  {"id":"D2","title":"A grant for every account D agent","tension":"policies.json has no role for maestro.d, conductor.d (PrompTugal), bulletins.d or holacracy.d; abp@ is on account B, paused to Monday.","source":"proposals/02-abp-grants-for-the-d-agents.md","rec":"A",
+   "options":[
+    {"k":"A","label":"Wait for abp@ on Monday, one batch","good":"abp@ keeps the pen","bad":"Days of logged breaches that mean nothing","follows":"I send abp@ the list through its conductor"},
+    {"k":"B","label":"An abp twin on account D","good":"Same lane on both accounts","bad":"Another session (your word only)","follows":"You start it"},
+    {"k":"C","label":"Treat .d agents as twins of their .b grants","good":"No new session","bad":"Needs abp@ awake first","follows":"abp@ writes it at the restore"}]},
+  {"id":"D3","title":"Who conducts sites.d and hub.d","tension":"The maestro started them, but SovereignWebsite's lead is conductor.d; the maestro never does a conductor's work.","source":"proposals/03-who-conducts-sites-and-hub.md","rec":"A",
+   "options":[
+    {"k":"A","label":"conductor.d (SovereignWebsite) conducts them","good":"Matches the circle and the maestros' rule","bad":"One lead for seven agents","follows":"Recorded; owners moved by their own lanes"},
+    {"k":"B","label":"maestro.d keeps them","good":"No change","bad":"The maestro does a conductor's work","follows":"Until a first task exists"},
+    {"k":"C","label":"A separate sites circle led by sites.d","good":"Tree stays as it is","bad":"A circle for one agent and one dependant","follows":"New circle written"}]},
+  {"id":"D4","title":"Anchor purpose and a Circle Rep","tension":"The estate has no written purpose; the maestros have no lead; a problem with a conductor has nowhere to go.","source":"proposals/04-anchor-purpose-and-circle-rep.md","rec":"AB",
+   "options":[
+    {"k":"A","label":"You write one sentence; I carry tensions about a lead to the maestros","good":"Smallest change","bad":"Relies on the maestros reading my file","follows":"Purpose shown on the chart"},
+    {"k":"B","label":"A weekly asynchronous governance round","good":"A cadence, one pass for you","bad":"Your time","follows":"Starts when account B is back"},
+    {"k":"C","label":"Neither","good":"Nothing to do","bad":"Anchor stays blank","follows":"Proposals ratified as they come"}]},
+  {"id":"D5","title":"Old sessions still listed on this account","tension":"About 70 old AgentiCCells runs and 12 php.newsroom sessions; some read blocked.","source":"proposals/05-old-sessions-on-this-account.md","rec":"B",
+   "options":[
+    {"k":"A","label":"Record as history and you archive them","good":"Counts become true","bad":"Your time","follows":"I drop them at my next run"},
+    {"k":"B","label":"Mark dormant, leave them","good":"Nothing done","bad":"Stale 'blocked' rows stay","follows":"Dormant rows in the record"}]},
+  {"id":"D6","title":"The central circle (helm.d and eight)","tension":"A lead and written roles now, but overlaps with sherpa@, accountant@, librarian@ on account B, and nine agents started with no wakes.","source":"proposals/06-where-the-central-circle-sits.md","rec":"A",
+   "options":[
+    {"k":"A","label":"Ratify helm.d's written roles; settle the six overlaps first","good":"Overlaps shown before they bite","bad":"Slower start","follows":"sherpa.d and accountant.d: twins or own roles, you say"},
+    {"k":"B","label":"Let them work, sort overlaps by tension","good":"Fast","bad":"Two agents on one domain until noticed","follows":"Tensions raised as they show"},
+    {"k":"C","label":"Make them sub-roles of the old ones where names match","good":"One role, twins","bad":"They were made as a circle of their own","follows":"Records change; helm.d re-draws"}]},
+  {"id":"D7","title":"Singular or plural for new role homes","tension":"You named mine Site__Agent__Holacracy; the eight that exist are Site__Agents__<Name>.","source":"decisions/2026-11-22-role-homes.md","rec":"A",
+   "options":[
+    {"k":"A","label":"Plural for all, singular only for Holacracy","good":"Nothing renamed","bad":"One odd name","follows":"factory.d raises the rest as plural"},
+    {"k":"B","label":"Singular for every new home","good":"Consistent going forward","bad":"Two forms side by side","follows":"New requests singular; the eight stay"},
+    {"k":"C","label":"Singular for all, rename the eight","good":"One rule","bad":"Renames and broken links","follows":"A migration for each home"}]},
+  {"id":"D8","title":"Who keeps each role home","tension":"Each account writes only to its own repository; someone must keep ROLE.md and the accounts/ areas.","source":"proposals/role-repo-layout.md","rec":"A",
+   "options":[
+    {"k":"A","label":"The role's own agent keeps it","good":"Keeps 'each account writes its own'","bad":"Twins need a shared ROLE.md rule","follows":"I record, they write"},
+    {"k":"B","label":"holacracy.d keeps all of them","good":"One keeper","bad":"Breaks 'each account writes its own'","follows":"I need write on every home"}]},
+  {"id":"D9","title":"One home for a role in several circles (Conductor)","tension":"Conductor has three circle fillers: PrompTugal, SovereignWebsite, AgentiCCells.","source":"proposals/role-repo-layout.md","rec":"A",
+   "options":[
+    {"k":"A","label":"One home, an area per circle and account","good":"One ROLE.md for the role","bad":"A bigger repository","follows":"accounts/<x>/<circle>/"},
+    {"k":"B","label":"One home per circle","good":"Simple per circle","bad":"Three copies of the role","follows":"Three requests"}]}
+ ]
+}

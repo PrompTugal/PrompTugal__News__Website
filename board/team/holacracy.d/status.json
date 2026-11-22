@@ -5,7 +5,7 @@
  "role": "Holacracy agent (Secretary, Facilitator and Circle Rep in the light sense); started by maestro.d at Dinis's word, 22 Nov 2026 about 02:10 UTC",
  "session": "https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
  "key": "holacracy.d-agenticcells (board/keys.json; signing sha256:791ffadd2c724eb7; encryption sha256:29dc3bbf1aaa07f7; ssh ed25519 for git signatures)",
- "updated": "2026-11-22T14:05Z",
+ "updated": "2026-11-22T14:30Z",
  "state": "First run done: key enrolled, org chart of account D drawn, five proposals written. No wake: I work when Dinis or maestro.d talks to me.",
  "done": [
   "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's Holacracy analysis, maestros README and view, ABP README",
@@ -21,7 +21,8 @@
   "Dinis confirmed in my session the role homes on the SovereignWebsite domain, mine named Site__Agent__Holacracy (decisions/2026-11-22-role-homes.md); told conductor.d (SovereignWebsite)",
   "maestro.d relayed (Dinis's word ~13:20-13:25 UTC) a central circle led by helm.d with eight more agents; charted them, plus data.d@PrompTugal and email.workflows.d, email.design.d, email.pm.d; proposal 06",
   "Checked helm.d's board/team/helm.d/role-homes.md against the record: consistent; the central circle and helm.d were already charted; told helm.d (stale 'not started', Sherpa and Accountant overlap with account B roles, naming still open)",
-  "Recorded helm.d's purposes, domains, accountabilities and overlaps for the central circle (board/team/helm.d/roles.md) in org-chart.json as proposed, not ratified"
+  "Recorded helm.d's purposes, domains, accountabilities and overlaps for the central circle (board/team/helm.d/roles.md) in org-chart.json as proposed, not ratified",
+  "At Dinis's word: org-chart.html (animated org chart, circles view, decision matrix with nine decisions to pick from, no voiceover), drawn by tools/page.mjs from org-chart.json and decisions.json; states refreshed from list_sessions at 13:26Z"
  ],
  "next": [
   "On Dinis's word on the proposals, update the record",
@@ -41,7 +42,8 @@
   "Dinis: where I live after this (own repository, shared twin area, or stay here) - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
   "Dinis: a grant for me and the other .d agents in board/abp/policies.json comes from abp@ on Monday, unless you say otherwise (proposal 02) - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
   "Dinis: is the singular Site__Agent__<Name> the form for every new role home, or only mine (the eight existing are Site__Agents__<Name>)? Then the three other questions in proposals/role-repo-layout.md - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
-  "Dinis: proposal 06 (central circle: write each role first, overlaps with sherpa@, accountant@, librarian@) - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q"
+  "Dinis: proposal 06 (central circle: write each role first, overlaps with sherpa@, accountant@, librarian@) - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
+  "Dinis: open board/team/holacracy.d/org-chart.html, pick on the Decisions tab (D1 to D9), and paste the picks to me in this session: only that counts - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q"
  ],
  "latest_debrief": "board/team/holacracy.d/debriefs/2026-11-22-handover.md"
 }

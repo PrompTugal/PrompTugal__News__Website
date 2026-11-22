@@ -1,38 +1,38 @@
 # Org chart of account D
 
-Drawn from org-chart.json (2026-11-22T14:05Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
+Drawn from org-chart.json (2026-11-22T14:20Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
 
 ## The parent tree (who started whom)
 
 ```
 maestro.d (account-d) [opus, configured sonnet] working, $12.20
 |-- holacracy.d@AgentiCCells.dinis [sonnet] working
-|-- conductor.d@PrompTugal.dinis [opus] idle, needs input, $3.42
-|   |-- bulletins.d@PrompTugal.dinis [opus] working (blocked on push access, 403), $2.48
-|   `-- data.d@PrompTugal.dinis [not fetched] idle, blocked on push access to PrompTugal__News__Data
-|-- conductor.d (SovereignWebsite) [opus] idle, needs input, $19.48
-|   |-- design.d (SovereignWebsite) [opus] idle, review ready, $6.49
-|   |-- synthetic-users.d (SovereignWebsite) [opus] idle, needs input, $7.05
-|   |-- factory.d (SovereignWebsite) [opus] idle, needs input, $3.41
-|   `-- library.d (SovereignWebsite) [opus] idle, needs input, $10.24
-|-- sites.d (SovereignWebsite) [sonnet] idle, needs input, $2.18
-|   `-- streaming.d (StreamingWebsite) [opus, configured sonnet] idle, needs input, $7.72
-|-- hub.d (SovereignWebsite) [sonnet] idle, completed, $1.44
-|-- conductor.d@AgentiCCells.dinis [opus] idle, needs input, $3.66
-|   |-- cell.email.d@AgentiCCells.dinis [opus] idle, needs input, $3.97
-|   |-- email.workflows.d@AgentiCCells.dinis [not fetched] idle, blocked
-|   |-- email.design.d@AgentiCCells.dinis [not fetched] idle, completed
-|   `-- email.pm.d@AgentiCCells.dinis [not fetched] idle, review ready
-|-- newsroom.d (sgit.ai) [opus] idle, blocked (a question for Dinis), $9.33
-|-- helm.d@AgentiCCells.dinis [not fetched] working
-|-- strategy.d@AgentiCCells.dinis [not fetched] working (just started)
-|-- cartographer.d@AgentiCCells.dinis [not fetched] working (just started)
-|-- sherpa.d@AgentiCCells.dinis [not fetched] working (just started)
-|-- accountant.d@AgentiCCells.dinis [not fetched] working (just started)
-|-- counsel.d@AgentiCCells.dinis [not fetched] working (just started)
-|-- decisions.d@AgentiCCells.dinis [not fetched] working (just started)
-|-- studio.d@AgentiCCells.dinis [not fetched] working (just started)
-`-- landscape.d@AgentiCCells.dinis [not fetched] working (just started)
+|-- conductor.d@PrompTugal.dinis [opus] waiting on Dinis: push access to PrompTugal__News__Data, how twins' keys get in, $3.42
+|   |-- bulletins.d@PrompTugal.dinis [opus] completed its last turn (story-first player on a branch), $2.48
+|   `-- data.d@PrompTugal.dinis [not fetched] waiting on Dinis: merge factory.d's commit for push access
+|-- conductor.d (SovereignWebsite) [opus] waiting on Dinis: a yes in factory.d's session, $19.48
+|   |-- design.d (SovereignWebsite) [opus] waiting on Dinis: contrast fix, /accounts/d/ move, key, $6.49
+|   |-- synthetic-users.d (SovereignWebsite) [opus] waiting on Dinis: say go on the chip fix, $7.05
+|   |-- factory.d (SovereignWebsite) [opus] waiting on Dinis: pick A, B or C, merge 7c755a8, $3.41
+|   `-- library.d (SovereignWebsite) [opus] completed (moved to /accounts/d/), $10.24
+|-- sites.d (SovereignWebsite) [sonnet] waiting on Dinis: a yes to factory.d, $2.18
+|   `-- streaming.d (StreamingWebsite) [opus, configured sonnet] review ready, $7.72
+|-- hub.d (SovereignWebsite) [sonnet] completed, idle (no first task), $1.44
+|-- conductor.d@AgentiCCells.dinis [opus] waiting on Dinis: which email fixes to build, $3.66
+|   |-- cell.email.d@AgentiCCells.dinis [opus] waiting on Dinis: push release/next2, approver option, leak-scan exception, $3.97
+|   |-- email.workflows.d@AgentiCCells.dinis [not fetched] waiting on Dinis (W9, W13, W17)
+|   |-- email.design.d@AgentiCCells.dinis [not fetched] completed (commits pushed to its work branch)
+|   `-- email.pm.d@AgentiCCells.dinis [not fetched] review ready
+|-- newsroom.d (sgit.ai) [opus] waiting on Dinis: who holds a decision brief, $9.33
+|-- helm.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
+|-- strategy.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
+|-- cartographer.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
+|-- sherpa.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
+|-- accountant.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
+|-- counsel.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
+|-- decisions.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
+|-- studio.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
+`-- landscape.d@AgentiCCells.dinis [not fetched] working (started 13:25 UTC)
 ```
 
 ## The circles (who holds what purpose)
