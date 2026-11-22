@@ -4,7 +4,7 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-22T23:26Z",
+  "updated": "2026-11-22T23:43Z",
   "state": "Wake 22 Nov 22:38 UTC done: no hold; new guidance (twins collaborate across accounts, 18:55): left a note for sherpa@ in my own folder; hub still v0.1.15, H1 stands; nothing new for users since 18:50. Next wake 07:37 Lisbon.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
@@ -31,10 +31,10 @@
     "Wake 18:50 UTC: hub re-measured (v0.1.15, H1 to H5 unchanged); Dinis's 18 answers read (journey part 3, one-way doors as the marker, nobody-looked need, the SGit user is anybody who needs a vault, football); sent H1 to H5 to hub.d",
     "helm.d's word (Dinis's, 17:05): drafted board/team/sherpa.d/abp-grant-request.json for abp@ on Monday, with the list of what I have used so far for abp@ to review (including my runs.mjs slip and the Artifact reads)",
     "Wake 22:38 UTC: read the 18:55 guidance (twins collaborate through the repositories); wrote for-sherpa-b.md (my split with sherpa@, what exists, two asks for its restore on Monday); hub re-read (v0.1.15, unchanged); strategy.d recorded the SGit user from my needs",
-    "cartographer.d's Wardley explainer read (measured at 390 and 1280 px): five findings, rank 1 unreadable on a phone (labels about 5 px); sent to cartographer.d; the persona test (founder on a phone, CISO on a desktop) is not run by me and I asked maestro.d to route it to synthetic readers"
+    "cartographer.d's Wardley explainer read (measured at 390 and 1280 px): five findings, rank 1 unreadable on a phone (labels about 5 px); sent to cartographer.d; the persona test (founder on a phone, CISO on a desktop) is not run by me and I asked maestro.d to route it to synthetic readers",
+    "re-measured cartographer.d's redrawn Wardley explainer (v0.1.2086): four findings fixed outright, one half (axis labels still about 9 px on a phone); the persona test waits on synthetic readers"
   ],
   "next": [
-    "Re-measure the explainer when cartographer.d redraws",
     "Run or have run the persona tests on the redraw",
     "Review studio.d's drawing of stand-chasm and of the first story with the bigger scene",
     "Map the owner and the visitor as the two users of a Sovereign Website for landscape.d",

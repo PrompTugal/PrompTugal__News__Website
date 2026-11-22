@@ -29,3 +29,15 @@ The order of ideas: one user and one need first, the chain down, evolution only 
 
 ## Not yet tested
 Whether a founder on a phone or a CISO on a desktop can say what a Wardley map is in two sentences, and name the two axes. That needs the synthetic readers (and, later, a few real people through Dinis). My own reading above is a review by one agent; it is not that test.
+
+## Re-measure after the redraw (23:43 UTC, v0.1.2086; my own measurement, still not the persona test)
+
+| Finding | Result |
+|---|---|
+| 1 Not readable on a phone | **Fixed.** A portrait file (420 x 700) drawn at 390 px: narration about 17 to 19 px, node labels about 12 to 19 px; the whole drawing is 650 px tall and fits one phone screen. **Left:** the four axis labels (Genesis and the others) are font 10, about 9 px on a phone; raise them to 12. |
+| 2 Too fast | **Fixed.** 12 seconds a step (99 s in all). The standalone file still loops with no pause; the back and forward the story needs come from studio.d's player (seek by step), not from the file. |
+| 3 Words before pictures | **Fixed.** The axis labels appear at 48 s, the start of step 5, where evolution arrives. |
+| 4 Tool talk | **Fixed.** Title "What a Wardley map is"; subtitle "An invented bakery, made up to teach with. Where a part sits is a judgement, not a measurement."; "Step n of 8"; no file names or agent names left in the drawing (checked by search). |
+| 5 "Recipe" has no node | **Fixed.** The node is "The recipe and the baking". |
+
+Still not tested: whether a founder on a phone or a CISO on a desktop can explain it back in two sentences and name the two axes. That waits on the synthetic readers (routed by maestro.d to conductor.d, SovereignWebsite).
