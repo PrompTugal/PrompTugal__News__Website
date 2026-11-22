@@ -24,3 +24,15 @@ Metric per variant: share of visitors who open the proof block and who take the 
 
 ## Open before these are claims
 Which user leads (owner or visitor: Dinis); price settled; one consented example; the Webflow and flagged-row re-reads; conductor.d on who builds the variants.
+
+## Version 2, 22 Nov 2026 about 17:20 UTC: aligned with strategy.d's Map 4
+strategy.d's Map 4 (`board/team/strategy.d/maps/2026-11-22-sovereign-website/`, built on this landscape) reads the five as **one funnel with three lead users**, not five rivals, and treats "pay once" as a price line. I take that reading: it fits the facts better than mine did, because the evidence for 1, 3 and the terms and place proofs all belongs to the owner, and the partner needs a message of their own.
+
+| Lead user | Position (one message) | Carries (from v1) | Evidence |
+|---|---|---|---|
+| **Owner** | Agents build it. You own it, and can move it. | v1 positionings 1 and 3, and the "where it lives" proof | sw-g1, sw-g6, sw-g7, sw-g8 |
+| **Visitor** | Try it on something you love, then try to break it. | v1 positioning 5 | sw-g10; Dinis's stand account (sherpa.d, C1) |
+| **Partner** | Your web person, upgraded: maintain, do not replace. | v1 positioning 4 (the written policy and the commit history are the proof) | sovereignwebsite.ai/partners.html is "a first draft, no partner has signed yet" (per Map 4); no competitor read offers partners a policy-held build |
+| price line, in any variant | Pay once. | v1 positioning 2 | sw-g5; waits on the price decision |
+
+Which user leads is Dinis's call; default order for the first variants: owner, visitor, partner.
