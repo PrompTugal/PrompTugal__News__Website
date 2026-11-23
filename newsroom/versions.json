@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2119",
+    "date": "2026-11-23",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "b7d3f1a50"
+  },
+  {
     "version": "v0.1.2118",
     "date": "2026-11-23",
     "what": "maestro.c (account-c): 07:33 wake; AWS programme on account A, aws.c stays on C",
