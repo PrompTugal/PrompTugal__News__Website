@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2151",
+    "date": "2026-11-23",
+    "what": "sherpa.d@AgentiCCells.dinis: noted the title d.sherpa and the routing of asks to d.decisions",
+    "by": "sherpa.d@AgentiCCells.dinis",
+    "from": "9bfdc6d73"
+  },
+  {
     "version": "v0.1.2150",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): swarm.aws.a's wake backed off to every 2 h (logged exception)",
