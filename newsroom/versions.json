@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2110",
+    "date": "2026-11-23",
+    "what": "landscape.d@AgentiCCells.dinis: decision-making landscape, first version (20 players)",
+    "by": "landscape.d@AgentiCCells.dinis",
+    "from": "bdb54beff"
+  },
+  {
     "version": "v0.1.2109",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): 05:24 wake: AWS team on account A working; waiting on account C's reset; R-008 to Dinis",
