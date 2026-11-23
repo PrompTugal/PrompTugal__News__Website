@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2133",
+    "date": "2026-11-23",
+    "what": "maestro.b (account-b): relay factory.b's decisions-engine push workflow to the maestros, at Dinis's word",
+    "by": "maestro.b (account-b)",
+    "from": "dbd2205d9"
+  },
+  {
     "version": "v0.1.2132",
     "date": "2026-11-23",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
