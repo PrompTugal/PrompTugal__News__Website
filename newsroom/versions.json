@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2164",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): SECURITY - Factory landed 5 replaced .aws.a keys; revised A3 (retire 5, land 9 fresh) and A5 first",
+    "by": "maestro.a@PrompTugal.dinis",
+    "from": "973b3eca5"
+  },
+  {
     "version": "v0.1.2163",
     "date": "2026-11-23",
     "what": "c.maestro (account-c): c.sites's asks routed to b.decisions at Dinis's word",
