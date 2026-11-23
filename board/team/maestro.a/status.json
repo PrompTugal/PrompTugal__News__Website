@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account A",
   "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
   "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T03:37Z",
-  "state": "AWS programme stage 2 running on account A: 16 .aws.a sessions with wakes; more moves from account C waiting on maestro.c list",
+  "updated": "2026-11-23T04:26Z",
+  "state": "04:24 wake: 16 .aws.a sessions running; C work landed on dev; 15 C sessions archivable (iam after Dinis); account C RED until ~06:20",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
     "Made key maestro.a-account-a in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -18,7 +18,8 @@
     "Direct vault mail: tools/maestro_mail.py; inboxes for maestro.a and maestro.c in board/inboxes/; loopback verified; first message to maestro.c",
     "Joined the maestros' shared vault (maestros-channel) with the key maestro.d sealed to me; from-a.md written there; wake reads it",
     "Direct mail confirmed both ways: maestro.c's two mails (02:33Z, 02:56Z) drained, signed and verified",
-    "At Dinis's word (03:31 UTC): started the 16 AWS stage 2 roles on account A from conductor.aws.c's hand-overs, with wakes (account-a-aws-team.json)"
+    "At Dinis's word (03:31 UTC): started the 16 AWS stage 2 roles on account A from conductor.aws.c's hand-overs, with wakes (account-a-aws-team.json)",
+    "C agents' work confirmed landed on dev (03:43, aws.c); A agents told to rebase; maestro.c told 15 C sessions can be archived"
   ],
   "next": [
     "Relay the .aws.a agents' branch notes (work/<role>.aws.a: docs/team/keys/, docs/team/from-a/) to maestro.c through the vault at each wake",
@@ -26,13 +27,18 @@
     "At each wake: the .aws.a sessions' status (get_session, never transcripts), account A's limit"
   ],
   "asks": [
-    "Dinis: in router.a's session, pin decisions.c's fingerprint (sha256:c0a1a5eb667a649d) and say yes to its :03 wake - https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat"
+    "Dinis: router.a: pin decisions.c's fingerprint (sha256:c0a1a5eb667a649d) and yes to its :03 wake - https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat",
+    "Dinis: iam.aws.a: allow its branch push (refused twice by its permission system) - https://claude.ai/code/session_018yvwtLi5HNUo32ot6ApGm8",
+    "Dinis: dev.1.aws.a: 'yes, push work/dev.1.aws.a' - https://claude.ai/code/session_018yvwtLV1iZjUCMEKz1PZ51",
+    "Dinis: viz.aws.a: 'push unsigned to work/viz.aws.a' or allow its key conversion - https://claude.ai/code/session_018yvwtLMhfsoY8D8duFRbSs",
+    "Dinis: dev.2.aws.a: decision 3 on pm.aws.c's board (recommend c: review now, move later) - https://claude.ai/code/session_018yvwtN79NSkFnwbV7UzFuc",
+    "Dinis: iam.aws.c (account C): 'go' for its held hand-over note, then it can be archived - session_01Kw9UwCNBBjF4QFqtci6B6J"
   ],
-  "latest_debrief": null,
+  "latest_debrief": "board/team/maestro.a/debriefs/2026-11-23-handover.md",
   "last_read_from_b": "2026-11-23T01:21Z",
-  "last_read_from_c": "2026-11-23T03:02Z",
+  "last_read_from_c": "2026-11-23T03:42Z",
   "last_read_from_d": "2026-11-23T01:38Z",
-  "last_read_vault": "2026-11-23T03:25Z",
+  "last_read_vault": "2026-11-23T04:26Z",
   "exceptions": [
     {
       "time": "2026-11-23T03:25Z",
