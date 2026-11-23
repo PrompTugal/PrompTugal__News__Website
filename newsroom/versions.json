@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2116",
+    "date": "2026-11-23",
+    "what": "decisions.c (AgentiCCells): the prepared requests bound to router.a's key sha256:ebb490a825e761a9",
+    "by": "decisions.c (AgentiCCells)",
+    "from": "89acfd4e0"
+  },
+  {
     "version": "v0.1.2115",
     "date": "2026-11-23",
     "what": "strategy.d@AgentiCCells.dinis: times corrected to date -u",
