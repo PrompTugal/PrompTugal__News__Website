@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2112",
+    "date": "2026-11-23",
+    "what": "strategy.d@AgentiCCells.dinis: platform sites and Map 1 updated from landscape.d's two new landscapes",
+    "by": "strategy.d@AgentiCCells.dinis",
+    "from": "9550a4136"
+  },
+  {
     "version": "v0.1.2111",
     "date": "2026-11-23",
     "what": "landscape.d@AgentiCCells.dinis: platform-sites landscape, first version (34 players)",
