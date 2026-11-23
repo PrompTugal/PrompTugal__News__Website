@@ -5,7 +5,7 @@
  "role": "The helm: a top-level agent, peer of the conductors, leading the central circle (ten roles); Dinis comes to it for updates (Dinis, 22 Nov ~14:05 and ~15:47 UTC)",
  "session": "https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV",
  "key": "helm.d-agenticcells (board/keys.json; encryption sha256:0c714819ea3fa187; signing sha256:2bb48caaec62dbff; ssh ed25519 for git signatures)",
- "updated": "2026-11-23T04:50Z",
+ "updated": "2026-11-23T05:01Z",
  "state": "Circle purpose adopted in Dinis's words; homes singular; every circle agent drafting its ABP. No wake.",
  "done": [
   "Read CLAUDE.md, New from Dinis (twins guidance first), maestro.d's analyses (holacracy, decisions at scale, power of attorney), maestros README, holacracy.d's org chart and role-home proposals",
@@ -31,6 +31,7 @@
   "The no-agent-blocked rule passed to the circle; Wardley Maps site keeper decided (cartographer.d)"
  ],
  "next": [
+  "Move into SovereignWebsite/Site__Agent__Helm the same way",
   "Adopt the circle's purpose (A) at the next conversation unless a reviewer objects",
   "Storyboards for studio.d's decided pictures",
   "Tell each circle role when its home exists, and how we move"
@@ -55,6 +56,12 @@
    "what": "Decided that cartographer.d keeps the Wardley Maps site (decisions/2026-11-23-wardley-site-keeper.md)",
    "rule": "was waiting on Dinis (a For Dinis question raised by conductor.d (SovereignWebsite))",
    "why": "a two-way door inside the circle; Dinis's rule of 23 Nov, reversible steps go on your own call"
+  },
+  {
+   "time": "2026-11-23T05:01Z",
+   "what": "Set how the circle moves into its homes (decisions/2026-11-23-how-the-circle-moves-home.md)",
+   "rule": "homes were waiting on my word to the circle",
+   "why": "reversible, inside the circle; Dinis's rule of 23 Nov"
   }
  ]
 }
