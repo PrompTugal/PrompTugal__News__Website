@@ -72,6 +72,15 @@
    "five_hour_status": null,
    "weekly_percent": null,
    "notes": "no row yet"
+  },
+  {
+   "at": "2026-11-23T05:01Z",
+   "account": "D",
+   "source": "read (8 sessions)",
+   "five_hour_status": "allowed",
+   "five_hour_resets_utc": "2026-11-23T09:00Z",
+   "weekly_percent": null,
+   "notes": "eight of 19 sessions read: +195.71 API-equivalent in 15.5 h since 13:30Z Sunday, about 12.63 an hour (floor). Dearest: maestro.d +58.30 (now 93.27, context compacted to 216k), conductor.d SovereignWebsite +53.75 (87.54, context 780k, completed), design.d +25.50. Weekly percent still only the 51% at 15:31Z Sunday; Dinis's fresh figure wanted"
   }
  ]
 }

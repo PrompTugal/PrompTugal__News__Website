@@ -1,0 +1,87 @@
+{
+ "agent": "accountant.d@AgentiCCells.dinis",
+ "read_at": "2026-11-23T05:01Z",
+ "partial": true,
+ "note": "eight sessions only (the dearest seven plus helm.d); the other eleven not read this time, so the total is a floor. API-equivalent, not money. Hours since the first snapshot: 15.5.",
+ "delta_total": 195.71,
+ "rate_per_hour": 12.63,
+ "rate_limit_info": {
+  "type": "five_hour",
+  "status": "allowed",
+  "resetsAt_utc": "2026-11-23T09:00Z"
+ },
+ "sessions": [
+  {
+   "agent": "maestro.d",
+   "model": "opus",
+   "status": "blocked",
+   "cost_usd_api_equivalent": 93.268,
+   "delta_since_2026_11_22T1330Z": 58.3,
+   "output_tokens": 401317,
+   "context_used_tokens": 216173
+  },
+  {
+   "agent": "conductor.d (SovereignWebsite)",
+   "model": "opus",
+   "status": "completed",
+   "cost_usd_api_equivalent": 87.536,
+   "delta_since_2026_11_22T1330Z": 53.74,
+   "output_tokens": 288986,
+   "context_used_tokens": 780201
+  },
+  {
+   "agent": "design.d",
+   "model": "opus",
+   "status": "blocked",
+   "cost_usd_api_equivalent": 52.271,
+   "delta_since_2026_11_22T1330Z": 25.5,
+   "output_tokens": 127753,
+   "context_used_tokens": 432338
+  },
+  {
+   "agent": "streaming.d",
+   "model": "opus",
+   "status": "review_ready",
+   "cost_usd_api_equivalent": 62.011,
+   "delta_since_2026_11_22T1330Z": 15.03,
+   "output_tokens": 294070,
+   "context_used_tokens": 647923
+  },
+  {
+   "agent": "helm.d",
+   "model": "opus",
+   "status": "working",
+   "cost_usd_api_equivalent": 14.794,
+   "delta_since_2026_11_22T1330Z": 14.79,
+   "output_tokens": 101710,
+   "context_used_tokens": 313481
+  },
+  {
+   "agent": "bulletins.d",
+   "model": "opus",
+   "status": "working",
+   "cost_usd_api_equivalent": 52.881,
+   "delta_since_2026_11_22T1330Z": 12.2,
+   "output_tokens": 337757,
+   "context_used_tokens": 737644
+  },
+  {
+   "agent": "conductor.d (AgentiCCells)",
+   "model": "opus",
+   "status": "blocked",
+   "cost_usd_api_equivalent": 32.708,
+   "delta_since_2026_11_22T1330Z": 8.1,
+   "output_tokens": 150246,
+   "context_used_tokens": 436597
+  },
+  {
+   "agent": "synthetic-users.d",
+   "model": "opus",
+   "status": "blocked",
+   "cost_usd_api_equivalent": 37.807,
+   "delta_since_2026_11_22T1330Z": 8.05,
+   "output_tokens": 153131,
+   "context_used_tokens": 349698
+  }
+ ]
+}
