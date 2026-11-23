@@ -1,0 +1,86 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "decisions.d@AgentiCCells.dinis",
+ "run": "2026-11-23T10-55-27Z",
+ "started": "2026-11-23T10:55:27.105Z",
+ "ended": "2026-11-23T12:51:15Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-23T10:55:27.105Z",
+   "chars": 1174,
+   "sha256": "77b0ae03028e0d8a",
+   "head": "<task-notification>\n<task-id>b7mdlgx2j</task-id>\n<tool-use-id>toolu_01JTRLWgwvRtD4V2i6DwVLAV</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/786484d3-c441-5886-96f6-bfc0f"
+  },
+  {
+   "t": "2026-11-23T12:50:13.049Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-23T12:50:12.737Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 5,
+  "by_kind": {
+   "git": 2,
+   "other": 1,
+   "write": 1,
+   "release": 1
+  }
+ },
+ "policies_executed": {
+  "R6": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 4,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-23T12:51:08.433Z",
+    "tool": "Write",
+    "rule": "R6",
+    "what": "board/team/decisions.d/design/shared-record.md is not in decisions.d@AgentiCCells.dinis's grant (board/abp/README.md); if you need it, ask Dinis in status.json's asks",
+    "target": "/home/user/PrompTugal__News__Website/board/team/decisions.d/design/shared-record.md"
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 2,
+  "tool_calls": 5,
+  "in_mandate": 4,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}

@@ -6,7 +6,7 @@
  "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
  "key": "decisions.d-agenticcells (board/keys.json; signing sha256:d4de20909c983bd1; encryption sha256:d4562f808111c080; ssh ed25519 for git signatures)",
  "delegation": "NONE. Nothing decisions.d sends is Dinis's word; no agent may act on it as if it were.",
- "updated": "2026-11-23T10:44Z",
+ "updated": "2026-11-23T12:51Z",
  "state": "Scheduled (trig_01EkWuma8DGQNwD69RpwvSnw, 07:43, 10:43, 13:43, 18:43, 21:43 Lisbon; 21:43 is the end-of-day sweep). Maps every session on account D, keeps the log of every ask, proposes what to retire and which sessions to archive. No delegation held.",
  "latest_debrief": "board/team/decisions.d/debriefs/2026-11-22-handover.md",
  "done": [
@@ -40,9 +40,11 @@
   "05:01 UTC: read CLAUDE.md 'No agent blocked' (Dinis 23 Nov ~03:00/03:35 UTC); the log now carries a section of exceptions from every status.json (8 at first read)",
   "Home move: factory.d (05:14 UTC) and helm.d (05:19 UTC): my key must be added by me, in one commit signed by my sgit ECDSA key, to the Factory's team/keys.json; nobody pushes home before that. I stay here and ask, without working around the refused attach",
   "07:43 wake: session map (124; 1 new, pybot.d); design/README.md aligned with counsel.d's v0.3 (P3, kind, test, undo, sub-delegation chain, D6, D8); the Factory push block found to stop at least eight sessions",
-  "10:44 UTC wake: 5 sessions moved, none new; 2 new asks (conductor.d: the Explorer voice; whether account B runs again, ten sites not rebuilt since 21 Nov), 2 gone; no new answer from Dinis; nothing to relay"
+  "10:44 UTC wake: 5 sessions moved, none new; 2 new asks (conductor.d: the Explorer voice; whether account B runs again, ten sites not rebuilt since 21 Nov), 2 gone; no new answer from Dinis; nothing to relay",
+  "Shared decision record, draft 1 (design/shared-record.md), for decisions.b, decisions.c and decisions.d at maestro.d's ask: decisions.b's scoped record as the unit, my request as a record with 'to', supersedes/retires for the retirement workflow; to compare with decisions.b's first record"
  ],
  "next": [
+  "Compare design/shared-record.md with decisions.b's first record in SovereignWebsite__IaC decisions/ when it lands",
   "10:43 wake: deltas; whether the Factory push is allowed; if so, publish my key in the Factory (signed with my sgit ECDSA key) and move home",
   "Monday: abp@ (account B, restored 00:25 UTC) builds my policy; security@ reviews the design and v0.3"
  ],
