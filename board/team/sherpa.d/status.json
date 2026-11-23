@@ -4,7 +4,7 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-23T17:39Z",
+  "updated": "2026-11-23T22:00Z",
   "state": "Wake 23 Nov 17:37 UTC done: no hold; new guidance: every ask for Dinis's yes goes to b.decisions (my three asks stay direct: two one-way doors, one harness setting); hub is v0.1.51, now a product page for owners (O2 sharper: 'I want one' leads to 'There is no request form yet'; O1 concrete: /start/ is a GitHub course; O4 disclosed; H6: the default home hides the 22 sites); Dinis's brief R1 to R9 read: five needs added. Next wake 22:37 Lisbon.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
@@ -39,7 +39,8 @@
     "Wake 12:39 UTC: hub re-read at v0.1.25 (a redesign, six designs; H1 to H5 unchanged); maestro.a's analysis of Dinis's asks (82% need not have reached him) added as journey part 4; n-dinis-batch-video added; my three asks sorted by maestro.a's classes (two one-way doors, one harness prompt)",
     "16:53 UTC: noted the account-letter title (d.sherpa) and the routing of asks for Dinis's yes to d.decisions (session_015gaHdaiX9VvjVwHaNezGJG) with a packet and six checks; my three open asks stay direct to Dinis (two one-way doors, one harness setting), so none are routed",
     "17:05 UTC: d.bulletins published presenters library 0.2.0 (fall, pullUp, carry, hold, a rope prop, crowds to 40; bulletins-d/llvmpipe-explainer 2301f61; not on dev, not security-reviewed); my question to Dinis about prioritising it is overtaken; told d.bulletins which moves my two stories use and that I depend on none until it is on dev and reviewed",
-    "Wake 17:39 UTC: hub v0.1.51 re-read as the owner's page (journey-owner re-read: O2 sharper, O1 concrete, O4 disclosed, H6 new); Dinis's brief R1 to R9 (maestro.a's record) read: five needs added (any agent any request, state always current, browse the team, decisions apart from actions, owner edit by talking) and talk-to-a-page strengthened; findings sent to hub.d, conductor.d (SovereignWebsite) and landscape.d"
+    "Wake 17:39 UTC: hub v0.1.51 re-read as the owner's page (journey-owner re-read: O2 sharper, O1 concrete, O4 disclosed, H6 new); Dinis's brief R1 to R9 (maestro.a's record) read: five needs added (any agent any request, state always current, browse the team, decisions apart from actions, owner edit by talking) and talk-to-a-page strengthened; findings sent to hub.d, conductor.d (SovereignWebsite) and landscape.d",
+    "22:00 UTC: pointed my asks for the Factory key, my home and the price line at d.decisions's list (D1, D2, D22), as d.helm relayed; the stand questions stay direct to Dinis (a one-way door)"
   ],
   "next": [
     "Run or have run the persona tests on the redraw",
@@ -56,8 +57,8 @@
     "Re-read the hub on a phone with Playwright if the grant allows"
   ],
   "asks": [
-    "Dinis: may I ask five people who came to the stand, through you, the five questions in needs/stand-questions.md (prepared, nothing sent; contacting real people is a one-way door and yours) - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
-    "Dinis: allow my session to attach SovereignWebsite/Site__Agent__Sherpa (push), by a permission rule for add_repo in this session's settings, or tell me another way; helm.d asked the circle to move into the homes; until then I stay in board/team/sherpa.d/ - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL"
+    "Dinis: my key (D1), my home push (D2) and the price line on phones (D22) are items on d.decisions's list, board/team/decisions.d/log/asks-for-b-decisions-2026-11-23.md; not repeated here - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
+    "Dinis: may I ask five people who came to the stand, through you, the five questions in needs/stand-questions.md (prepared, nothing sent; contacting real people is a one-way door and yours) - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL"
   ],
   "latest_debrief": null,
   "schedule": {
