@@ -63,3 +63,17 @@ A scheduler, not a worker: it takes a job (type, size, deadline, sensitivity) an
 2. Account C's weekly percent now, by hand.
 3. The two findings: disable conductor.C's hourly wake; move the inbox run's checks off Opus.
 4. Mistral credit amount and expiry (or let mistral.c read it), and yes or no to translation as the first move.
+
+## 5. The AWS Platform programme on account C (asked by conductor.aws.c, 23 Nov 02:41 UTC)
+
+Measured at 02:45 UTC: five-hour window allowed (resets ~06:20); weekly percent unknown (not readable; asked of Dinis). Burn: maestro.c ~2 an hour at a 517k context; the cowork inbox run ~2.3 a run every 2 h at 331k. **A wake's cost follows its context size more than its role.**
+
+| Role | Cadence (stage 1) | Proposed ceiling per wake (API-equivalent) |
+|---|---|---|
+| security.aws.c (AppSec and adversarial in Sonnet sub-agents) | every 2 h for the first 24 h, hourly once it has findings | 1.0 (a quiet wake about 0.2) |
+| architect.aws.c (dev sub-agent) | every 2 h | 1.5 |
+| s3.aws.c | every 2 h | 0.8 |
+| conductor.aws.c | lean, about 6 a day | 0.8 |
+| pm.aws.c | lean, about 4 a day | 0.5 |
+
+About 46 wakes a day, **capped at 40 API-equivalent a day for the first 24 h**: roughly what maestro.c and the inbox run spend together today, so the programme about doubles account C's burn. Kept under 35% of account C's daily spend; at Amber every cadence halves, at Red only the conductor and security remain. Any session over 300k context compacts or hands over before its next wake. First measured per-role figures after 24 h.

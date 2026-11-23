@@ -1,7 +1,41 @@
 {
  "about": "Account C's rows of the capacity ledger, kept here because accountant.d's finance/capacity-ledger.json is append only and its own (same row format). maestro.c or accountant.d may copy these rows across, marked reported. Append only.",
- "row_fields": ["at", "account", "source (read | reported)", "five_hour_status", "five_hour_resets_utc", "weekly_percent (by hand)", "sessions_working", "sessions_blocked", "api_equiv_usd_lifetime_read", "notes"],
+ "row_fields": [
+  "at",
+  "account",
+  "source (read | reported)",
+  "five_hour_status",
+  "five_hour_resets_utc",
+  "weekly_percent (by hand)",
+  "sessions_working",
+  "sessions_blocked",
+  "api_equiv_usd_lifetime_read",
+  "notes"
+ ],
  "rows": [
-  {"at": "2026-11-22T17:22Z", "account": "C", "source": "read", "five_hour_status": "allowed", "five_hour_resets_utc": "2026-11-22T20:10Z", "weekly_percent": null, "sessions_working": 4, "sessions_blocked": 4, "api_equiv_usd_lifetime_read": 1601.17, "notes": "first snapshot (snapshots/2026-11-22T1722Z.json). Three wakes scheduled: maestro.c hourly, conductor.C hourly (unwanted), a cowork inbox run every 2 h (94% of lifetime cost). All Opus 5.5."}
+  {
+   "at": "2026-11-22T17:22Z",
+   "account": "C",
+   "source": "read",
+   "five_hour_status": "allowed",
+   "five_hour_resets_utc": "2026-11-22T20:10Z",
+   "weekly_percent": null,
+   "sessions_working": 4,
+   "sessions_blocked": 4,
+   "api_equiv_usd_lifetime_read": 1601.17,
+   "notes": "first snapshot (snapshots/2026-11-22T1722Z.json). Three wakes scheduled: maestro.c hourly, conductor.C hourly (unwanted), a cowork inbox run every 2 h (94% of lifetime cost). All Opus 5.5."
+  },
+  {
+   "at": "2026-11-23T02:45Z",
+   "account": "C",
+   "source": "read",
+   "five_hour_status": "allowed",
+   "five_hour_resets_utc": "2026-11-23T06:20Z",
+   "weekly_percent": null,
+   "sessions_working": null,
+   "sessions_blocked": null,
+   "api_equiv_usd_lifetime_read": null,
+   "notes": "maestro.c 0.42 (17:21Z) to 20.25 (02:40Z), ~2/h, context 517k; cowork inbox run 1502.92 to 1514.27 (~2.3 per 2-hourly run, context 331k); conductor.C archived, its hourly wake gone; new wakes: router.c :08, design.c :43 (not yet measured). AWS programme (conductor.aws.c) asked for a budget: proposal in proposals.md section 5."
+  }
  ]
 }
