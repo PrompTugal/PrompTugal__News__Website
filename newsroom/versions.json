@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2102",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): 04:24 wake: C AWS work landed on dev, 15 C sessions archivable; .aws.a agents told to rebase; first hand-over debrief",
+    "by": "maestro.a (account-a)",
+    "from": "95e53f3e3"
+  },
+  {
     "version": "v0.1.2101",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): AWS programme stage 2 on account A at Dinis's word: 16 roles from account C's hand-overs started with their wakes; maestro.c asked for the next sessions to move",
