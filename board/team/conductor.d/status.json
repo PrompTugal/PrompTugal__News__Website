@@ -4,8 +4,8 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-23T16:52Z",
- "state": "woke 09:18 Lisbon 23 Nov; next 20:18; account B should be back but is silent here; ten sites not rebuilt in 48 h",
+ "updated": "2026-11-23T20:20Z",
+ "state": "woke 20:18 Lisbon 23 Nov; next 09:18; asks with d.decisions; account B still silent, ten sites stale ~60 h",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
   "key conductor.d-promptugal made in this session and published in board/keys.json, commits signed",
@@ -23,7 +23,8 @@
   "passed Dinis rule No agent blocked to bulletins.d@ and data.d@ (2026-11-23T04:51Z)",
   "sherpa.d front-page findings (P1 to P5) routed to conductor.b@ for correspondent@, dev@, dev.pages@ (2026-11-23T07:44Z)",
   "09:18 wake 23 Nov: 13 sites 200, ten not rebuilt since 21 Nov morning; bulletins.d@ 63.63 USD, data.d@ ~33 USD",
-  "asks moved to d.decisions per Dinis workflow of 23 Nov ~14:30 UTC; name prefix rule passed to d.bulletins and d.data (2026-11-23T16:52Z)"
+  "asks moved to d.decisions per Dinis workflow of 23 Nov ~14:30 UTC; name prefix rule passed to d.bulletins and d.data (2026-11-23T16:52Z)",
+  "20:18 wake 23 Nov: 13 sites 200, ten stale since 21 Nov morning; d.bulletins presenters 0.2.0 relayed to d.studio and d.sherpa; d.data slip noted (fixed)"
  ],
  "next": [
   "twin keys: follow factory.d key requests for bulletins.d@ (Bulletins) and data.d@ (Data); retire my relays to conductor.b@ once they land",
@@ -42,7 +43,7 @@
    "repo": "PrompTugal/PrompTugal__News__Bulletins",
    "started": "2026-11-21T22:52Z",
    "schedule": "none",
-   "state": "lip-sync fixed, caption styles, voice audition, player API plan with studio.d; next presenters 0.2.0; all on branch, waits on key",
+   "state": "presenters 0.2.0 on branch (2301f61); player API next; waits on key",
    "cost_usd": 63.63
   },
   {
@@ -51,7 +52,7 @@
    "repo": "PrompTugal/PrompTugal__News__Data",
    "started": "2026-11-22T02:24Z",
    "schedule": "none",
-   "state": "Wikipedia feed (33 articles), Strictly and football linked, on data-d/pending; waits on key and data.open.d@",
+   "state": "Wikipedia feed ran keyless 33/33; key ask with d.decisions; generic sources wait on data.open.d@",
    "cost_usd": 33.39
   }
  ],

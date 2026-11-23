@@ -58,6 +58,12 @@
    "account": "D",
    "sites": "13/13 up; ten not rebuilt in 48 h; promptugal.news v0.1.2123",
    "note": "bulletins.d@ 63.63 USD, player API with studio.d; data.d@ Wikipedia feed; conductor.b@ silent since 21 Nov 22:45Z"
+  },
+  {
+   "at": "2026-11-23T20:20Z",
+   "account": "D",
+   "sites": "13/13 up; ten stale ~60 h; promptugal.news v0.1.2165",
+   "note": "0.2.0 relayed; d.data slip fixed; conductor.b@ silent"
   }
  ]
 }
