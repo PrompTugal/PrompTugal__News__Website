@@ -4,7 +4,7 @@ date: 2026-11-23
 story: S80
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "CrewAI, a maker of AI-agent software, says its customers start with a person checking every output and reduce that check as the agents prove themselves. Its own blog post, with figures that were not independently checked."
-status: draft
+status: approved
 beat: AI and robotics
 categories: AI, Corporate
 license: https://creativecommons.org/licenses/by/4.0/

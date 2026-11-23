@@ -167,5 +167,21 @@
    "2026"
   ],
   "tfig": "54.4%"
+ },
+ {
+  "slug": "crewai-trust-starts-with-human-review",
+  "title": "Trust before autonomy",
+  "sub": "CrewAI on AI agents and human review",
+  "fig": "100% review first",
+  "line": "then less as agents prove it, CrewAI says",
+  "src": "Source: CrewAI's own blog, Jan 2026",
+  "alt": "A card: trust before autonomy, CrewAI's account of AI agents with human review. Start with 100% review, then less as agents prove themselves, CrewAI says, from its own blog.",
+  "ttitle": [
+   "Trust before",
+   "autonomy"
+  ],
+  "tfig": "AI agents",
+  "tts": 56,
+  "tfs": 64
  }
 ]

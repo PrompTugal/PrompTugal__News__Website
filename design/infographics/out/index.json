@@ -4585,6 +4585,62 @@
     "source": "desks/reviewer-vicky/covers/ai-use-in-portugal-2026/ai-use-in-portugal-2026--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
     "checked": "54.4% of people aged 16 to 74 using AI tools in 2026, against the article, the data note and INE's 2026 report (re-read 23 November 2026); every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky"
    }
+  },
+  {
+   "slug": "crewai-trust-starts-with-human-review",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "card",
+   "file": "crewai-trust-starts-with-human-review--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-23",
+    "source": "desks/reviewer-vicky/covers/crewai-trust-starts-with-human-review/crewai-trust-starts-with-human-review--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "100% human review first, then less, attributed to CrewAI on the card, against the article and CrewAI's post of 24 January 2026 (read 23 November 2026); the thumb carries no claim; every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "crewai-trust-starts-with-human-review",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "card",
+   "file": "crewai-trust-starts-with-human-review--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-23",
+    "source": "desks/reviewer-vicky/covers/crewai-trust-starts-with-human-review/crewai-trust-starts-with-human-review--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "100% human review first, then less, attributed to CrewAI on the card, against the article and CrewAI's post of 24 January 2026 (read 23 November 2026); the thumb carries no claim; every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "crewai-trust-starts-with-human-review",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "crewai-trust-starts-with-human-review--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-23",
+    "source": "desks/reviewer-vicky/covers/crewai-trust-starts-with-human-review/crewai-trust-starts-with-human-review--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "100% human review first, then less, attributed to CrewAI on the card, against the article and CrewAI's post of 24 January 2026 (read 23 November 2026); the thumb carries no claim; every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "crewai-trust-starts-with-human-review",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "crewai-trust-starts-with-human-review--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-23",
+    "source": "desks/reviewer-vicky/covers/crewai-trust-starts-with-human-review/crewai-trust-starts-with-human-review--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "100% human review first, then less, attributed to CrewAI on the card, against the article and CrewAI's post of 24 January 2026 (read 23 November 2026); the thumb carries no claim; every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
   }
  ]
 }
