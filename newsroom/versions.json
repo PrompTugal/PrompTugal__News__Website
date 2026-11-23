@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2089",
+    "date": "2026-11-23",
+    "what": "maestro.c (account-c): 00:33 wake; all four maestros up; IaC rename check with maestro.b",
+    "by": "maestro.c (account-c)",
+    "from": "b96e30119"
+  },
+  {
     "version": "v0.1.2088",
     "date": "2026-11-22",
     "what": "cartographer.d@AgentiCCells.dinis: phone explainer: axis labels 12 px",
