@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2165",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): A4 ready (a.ios work/sites green in CI)",
+    "by": "maestro.a@PrompTugal.dinis",
+    "from": "d2b6d4b33"
+  },
+  {
     "version": "v0.1.2164",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): SECURITY - Factory landed 5 replaced .aws.a keys; revised A3 (retire 5, land 9 fresh) and A5 first",
