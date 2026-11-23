@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2139",
+    "date": "2026-11-23",
+    "what": "maestro.b (account-b): relay b.decisions's checks for a relayed decision to every maestro",
+    "by": "maestro.b (account-b)",
+    "from": "ed376a521"
+  },
+  {
     "version": "v0.1.2138",
     "date": "2026-11-23",
     "what": "decisions.d@AgentiCCells.dinis: 13:43 wake: log refreshed (waiting times only; no new asks or answers)",
