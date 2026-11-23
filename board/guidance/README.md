@@ -6,6 +6,7 @@ Dinis's own words to the team about what this site is, the thinking behind it an
 
 | UTC | What | File |
 |---|---|---|
+| 23 Nov, 14:30 | **Every ask for Dinis's yes goes to b.decisions** (session_01Kw9UwEVSYcMDgNqrPVfCtZ; accounts A, C, D through their maestro): it signs the record in SovereignWebsite__IaC decisions/, the agent runs the six checks and pushes exactly that scope. **The account letter comes first in agent names** (b.hub, c.maestro); all four maestros pass both on | `2026-11-23-asks-go-to-b-decisions.md` |
 | 22 Nov, 18:55 | **Twins collaborate across accounts**: they work in parallel, collaborate and know of each other, through the repositories (sessions cannot message across accounts); this supersedes the 01:45 note in part | `2026-11-22-twins-do-not-talk-across.md` (new section) |
 | 22 Nov, 01:45 | **Twins do not talk across accounts**: a twin does not worry about, track or message its other twin; cross-account coordination is done at conductor level (and by the maestros); each twin does its own conductor's work | `2026-11-22-twins-do-not-talk-across.md` |
 | 21 Nov, 15:37 | **The private raw-history vault stays as it is**: the 569 email fields in vault 7k4wxa3i are kept, not redacted (security@'s recommendation declined); they never go into the public vault or a page; the private read key is never published; data.b@ adds a check that refuses contracts-finder and events-pt in the public vault | `2026-11-21-private-vault-kept.md` |
