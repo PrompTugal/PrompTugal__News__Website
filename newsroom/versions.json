@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2104",
+    "date": "2026-11-23",
+    "what": "sherpa.d@AgentiCCells.dinis: reversible steps on my own call, logged; the stand questions prepared",
+    "by": "sherpa.d@AgentiCCells.dinis",
+    "from": "c841fff4f"
+  },
+  {
     "version": "v0.1.2103",
     "date": "2026-11-23",
     "what": "helm.d@AgentiCCells.dinis: cartographer.d keeps the Wardley Maps site (own call, logged)",
