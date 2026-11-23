@@ -31,7 +31,8 @@
     "Dinis: factory.c (account C): land the .a key commits (conductor.aws.a's table 391e1ab) - via c.maestro",
     "Dinis: the decision desk (keys, pin, R-010, F1-F5) - https://claude.ai/artifact/BNydCaLuhVC8y5UsaLVAAr",
     "Dinis: start a fresh a.maestro from board/team/maestro.a/next-session-prompt.md (this one is past 700k context)",
-    "Dinis: archive the 11 replaced .aws.a sessions (titles start REPLACED)? They are idle, every hand-over is pushed, and messages to their old ids still wake them. a.maestro recommends yes."
+    "Dinis: archive the 11 replaced .aws.a sessions (titles start REPLACED)? They are idle, every hand-over is pushed, and messages to their old ids still wake them. a.maestro recommends yes.",
+    "Dinis: restart a.vaults.aws in a fresh session (A6)? Long context; hand-over docs/vaults/HANDOVER.md; key to the Factory first, old session archived. Recommend yes, after A3."
   ],
   "latest_debrief": "board/team/maestro.a/debriefs/2026-11-23-handover.md",
   "last_read_from_b": "2026-11-23T18:25Z",
@@ -56,5 +57,8 @@
     "2026-11-23T17:31Z | a.ios (VoiceDebrief) started with a 2 h wake, at Dinis's word ('which you can push from here') | none bent | R6 owner mode",
     "2026-11-23T17:54Z | s3.aws.a's wake moved from hourly to every 2 h (trig_01VWcksU5tgpAwMdQF1W3NLT), back-off after a quiet wake, at the old a.conductor.aws's forwarded request | reversible, own area | waits on Factory keys and aws.c (R-010, 44 px targets)",
     "2026-11-23T18:09Z | the 11 replaced .aws.a sessions retitled 'REPLACED ... use session_<fresh>' so agents stop messaging them (old billing pushed 2 old-key commits at 18:06) | reversible; archiving left to Dinis | at conductor.aws.a's report"
+  ],
+  "lessons": [
+    "2026-11-23T19:38Z: a restart needs the fresh key live on the Factory before re-signing, and the replaced session archived; otherwise the Factory may land the old key (R-028) and the old session can still sign."
   ]
 }
