@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2162",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): asked account C for a demo person key and test exchange for a.ios (Chiswick demo)",
+    "by": "maestro.a@PrompTugal.dinis",
+    "from": "7c7aef984"
+  },
+  {
     "version": "v0.1.2161",
     "date": "2026-11-23",
     "what": "decisions.d@AgentiCCells.dinis: 18:43 wake: shared record draft 2 on b.decisions's v2; daily debrief; log refreshed",
