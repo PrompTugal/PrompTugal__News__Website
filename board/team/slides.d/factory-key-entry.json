@@ -1,0 +1,23 @@
+{
+  "id": "slides-d-sovereignwebsite",
+  "agent": "slides.d@SovereignWebsite.dinis",
+  "role": "The slide-deck agent of the central circle, account D, led by helm.d: the deck method, the library of past decks, the HTML deck template and PDF export; home SovereignWebsite/Site__Agent__Slides.",
+  "how": "Made by the agent in its own session on 22 November 2026 with sgit pki keygen (sgit-ai 0.27.0); private half only in that session. The same key is slides.d-account-d in PrompTugal__News__Website board/keys.json.",
+  "created": "2026-11-22",
+  "status": "active",
+  "session": "https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
+  "fingerprint": "sha256:cccb9a7d1992a2eb",
+  "signing_fingerprint": "sha256:67eb883c794d3b83",
+  "bundle": {
+    "v": 1,
+    "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAkrIoWXePjzGGHer5vwQ9\n6qdTfr9qGsYVdNseOGP1VHgbo10VKR0ud79D1uelMIVnf4FWFGPJcuKYkloj+w01\nXsWfPIQWL582GAfKLsHTZ6Du1bumm7lBkaPOqohdcCfcOSQN+BW4NEkoL9VdC4lL\n63gcU8RZJAvyHxK4sUqGAZ9kv6yh1OqhnnPtGeinMZaGWKVuLU0CeB7Rv0W15Yo4\naSfBQdev2iuvVR1HhWBxIas/reaOQTRlpmlEE/LKAmJXmd3slVyEKTJaaEEMJsWv\nJkvnLXh62UUS4VN04SCYhwKwsszQaeK7zLQfSmHK0DYZ3QlWRiZkluFGtkhUaFBT\nVRzXB1Pz23NCiHUcPK9jWtnZeh0DlxFEegfPNHANgsxsjBxC1iubPI7SupuDDD7O\nU1yOH3RnabCDTzkcHzZ5Dzy6CSvWfT/ghzjrqTpsU8Vy5t9cIrYqnC46fgF0IQdn\n5ol/g9WowdUtHALzF6F74VqS9UmDnJdflT1bnKqDboO2jNwf7NblqYgrMz0ITPaT\n20olIKfxOQODyCOPtcegciUhVR3QNjfeGDDFYYmvuKeIniGch4GnndBjtSuzfPlG\niQZyQeY3f8DRq86eEXU4wmlto5l+tK1r33S7py0DeToZGBjAVwWcMC7ffeFmgvol\n9NGOFMRzpO+k2/XRWKkuTXkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+    "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEeZVqc8514Xn227S4CXOXD3YmLBOp\nv2IFsvJI9kyVFm+r3/1WFUgJS05FsNBgNDKPTueF/3htR4SWdqpu6BRL8g==\n-----END PUBLIC KEY-----\n",
+    "label": "slides.d-account-d",
+    "fingerprint": "sha256:cccb9a7d1992a2eb",
+    "signing_fingerprint": "sha256:67eb883c794d3b83"
+  },
+  "ssh_signing": {
+    "from": "bundle.sign",
+    "note": "build/check-signatures.mjs derives the OpenSSH form from bundle.sign and verifies each commit with git verify-commit."
+  }
+}

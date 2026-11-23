@@ -5,8 +5,8 @@
   "role": "The slide-deck agent of Dinis Cruz's central circle, account D, led by helm.d; started by maestro.d (account-d) at Dinis's word, 22 Nov 2026 ~16:05 UTC",
   "session": "https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
   "key": "slides.d-account-d (board/keys.json; signing sha256:67eb883c794d3b83; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T04:50Z",
-  "state": "Chiswick briefing: ten changes applied by its owner, last check sent (three small fixes); method, library, template on dev",
+  "updated": "2026-11-23T05:10Z",
+  "state": "Moving to the home SovereignWebsite/Site__Agent__Slides: cloned with push access; first push waits for my key in the Factory's team/keys.json (conductor.d asked to add factory-key-entry.json)",
   "done": [
     "Read CLAUDE.md, studio.d's and maestro.d's status, the investor decks' record (by a sub-agent)",
     "Made key slides.d-account-d in this session; public half in board/keys.json",
@@ -29,8 +29,7 @@
     "A deck-review checker (overflow, type size, source lines, page count) beside pdf.mjs"
   ],
   "asks": [
-    "Dinis: my home is SovereignWebsite/Site__Agent__Slides (singular, your answer home-names, ~17:05 UTC); the Factory request requests/2026-11-22__slides is not created yet - https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
-    "Dinis: my own ABP grant is written (abp-grant-request.json, at your answer abp-grants); abp@ builds it into policies.json at Monday 00:25 UTC restore, relayed by maestro.d - https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8"
+    "Dinis: my key needs to be in SovereignWebsite__Factory team/keys.json before I can push to my home; push access to the Factory was refused here, so conductor.d is asked to add board/team/slides.d/factory-key-entry.json, as it did for library.d and design.d - https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8"
   ],
   "debrief": "board/team/slides.d/debriefs/2026-11-22-handover.md",
   "exceptions": [
@@ -39,6 +38,13 @@
       "what": "Instagram carousel images for account C (instagram.c) will be hosted in board/team/slides.d/ on dev (served by promptugal.news) until Site__Agent__Slides exists",
       "rule": "CLAUDE.md, No agent blocked: reversible steps go on your own call (Dinis, 23 Nov ~03:00 and ~03:35 UTC)",
       "why": "reversible, inside my own folder; nothing is posted to Instagram without Dinis"
+    },
+    {
+      "time": "2026-11-23T05:10Z",
+      "what": "Installed openssh-client (ssh-keygen) and wrote the sgit signing key in OpenSSH form to a 0600 file in the session, per the Factory's signing guide",
+      "rule": "CLAUDE.md, No agent blocked: reversible steps",
+      "why": "needed to sign commits in Site__Agent__Slides; nothing printed or committed"
     }
-  ]
+  ],
+  "home": "https://github.com/SovereignWebsite/Site__Agent__Slides"
 }
