@@ -5,8 +5,8 @@
   "role": "The Studio of Dinis Cruz's central circle, account D, led by helm.d@AgentiCCells.dinis; started by maestro.d (account-d) at Dinis's word, 22 Nov 2026 ~13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq",
   "key": "studio.d-agenticcells (board/keys.json; signing sha256:5bcde86f75b61124; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T22:54Z",
-  "state": "Player v0 (storyboard to a page that plays in the browser) with flow, bars, compare, timeline, svg, journey visuals; six briefings and three decision pictures on dev; waiting on the Studio site (helm.d), bulletins.d's presenters, and the Wardley explainer storyboard. Dinis: publish on the site and repo, no private pages.",
+  "updated": "2026-11-23T05:01Z",
+  "state": "23 Nov: Dinis's word (relayed by bulletins.d): the Studio does not take over the player; bulletins.d's player becomes an API the Studio calls. My player v0 is a labelled stopgap with no further development; the schema went to bulletins.d. The Studio keeps the storyboard format, checker and decision pictures.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's status and keys",
     "Made key studio.d-agenticcells in this session; public half in board/keys.json; commits signed",
@@ -20,14 +20,14 @@
     "Wrote my own ABP grant request: board/team/studio.d/abp-grant-request.json, for abp@ via maestro.d"
   ],
   "next": [
-    "Publish the built pages on the Studio site as soon as it exists",
-    "Wardley explainer and the second map story",
-    "Presenters from bulletins.d's library when readable",
+    "Point the Studio at bulletins.d's player API when it is published",
+    "Decided pictures as pages are answered",
+    "Instagram carousel if maestro.d says go (images from a storyboard, no video)",
     "Daily hand-over debrief"
   ],
   "asks": [
-    "Dinis: read access to the bulletins.d prototype and presenters (PrompTugal__News__Bulletins, branch bulletins-d/llvmpipe-explainer) or have bulletins.d send the files - https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq",
     "Dinis: the Studio site Site__Agents__Studio, where the built pages and their storyboards publish (no private pages, his word 17:05 UTC): helm.d is asking - https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq"
   ],
-  "debrief": "board/team/studio.d/debriefs/2026-11-22-handover.md"
+  "debrief": "board/team/studio.d/debriefs/2026-11-22-handover.md",
+  "exceptions": []
 }
