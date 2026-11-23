@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account A",
   "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
   "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T06:24Z",
-  "state": "06:23 wake: .aws.a team building on branches; account C has not landed keys/paths yet; maestro.c silent since 03:42",
+  "updated": "2026-11-23T07:26Z",
+  "state": "07:24 wake: wave 2 started (22 .aws.a sessions on A); account C landing the .a work and archiving wave 1 on C",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
     "Made key maestro.a-account-a in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -19,7 +19,8 @@
     "Joined the maestros' shared vault (maestros-channel) with the key maestro.d sealed to me; from-a.md written there; wake reads it",
     "Direct mail confirmed both ways: maestro.c's two mails (02:33Z, 02:56Z) drained, signed and verified",
     "At Dinis's word (03:31 UTC): started the 16 AWS stage 2 roles on account A from conductor.aws.c's hand-overs, with wakes (account-a-aws-team.json)",
-    "C agents' work confirmed landed on dev (03:43, aws.c); A agents told to rebase; maestro.c told 15 C sessions can be archived"
+    "C agents' work confirmed landed on dev (03:43, aws.c); A agents told to rebase; maestro.c told 15 C sessions can be archived",
+    "Wave 2 (conductor, pm, security, architect, s3, sherpa .aws.a) started on account A with wakes (07:25 UTC)"
   ],
   "next": [
     "Relay the .aws.a agents' branch notes (work/<role>.aws.a: docs/team/keys/, docs/team/from-a/) to maestro.c through the vault at each wake",
@@ -38,9 +39,9 @@
   ],
   "latest_debrief": "board/team/maestro.a/debriefs/2026-11-23-handover.md",
   "last_read_from_b": "2026-11-23T01:21Z",
-  "last_read_from_c": "2026-11-23T03:42Z",
+  "last_read_from_c": "2026-11-23T06:36Z",
   "last_read_from_d": "2026-11-23T04:58Z",
-  "last_read_vault": "2026-11-23T06:24Z",
+  "last_read_vault": "2026-11-23T07:26Z",
   "exceptions": [
     {
       "time": "2026-11-23T03:25Z",
