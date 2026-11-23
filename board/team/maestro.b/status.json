@@ -5,8 +5,8 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T00:28:25Z",
-  "state": "00:28 UTC 23 Nov: account B restored after the weekly reset; signals.b and designer.places wakes still off (permission check refused), waiting on Dinis.",
+  "updated": "2026-11-23T01:18:51Z",
+  "state": "01:18 UTC 23 Nov: account B restored; seven-day limit allowed; four maestros up (a, b, c, d); the IaC rename ok'd from account B on condition factory.b parks its work first.",
   "done": [
     "23 Nov 00:27 UTC: restored 41 of 43 slowed or paused schedules after the weekly reset",
     "21 Nov 22:58 UTC: at Dinis's word, paused the 34 PrompTugal wakes, writer-10, sites.b's streaming reminder and maestro.b's own wake; the restore reminder now covers all three steps",
@@ -77,9 +77,9 @@
   ],
   "asks": [
     "Dinis: two wakes did not restore because the permission check in my session refused the edit: signals.b (28 8,19 Lisbon) and designer.places (2 8,19 Lisbon). Say if I should retry, or re-enable them yourself - https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
+    "Dinis: conductor.b (SovereignWebsite) asks: did you accept agents publishing their own keys (factory.d's 1aa1829, dev only)? And should conductor.d re-sign its two unsigned commits 5eb7fde and b7c8bfd, or drop them? - https://claude.ai/code/session_01Kw9UwDCS5Px4dXRJUGP9Qu",
     "Dinis: cell.email.b waits for your yes to put 42d3246 on dev; it has 770k context and cost $27 (from $5), each wake rereading it for nothing; say yes, or let maestro.b pause its wake until you answer - https://claude.ai/code/session_01Kw9UwCqxmrdRhMbq8CNRAG",
     "Dinis: the account's seven-day limit is now at its warning level (seen on AgentiCCells' and conductor.mistral's sessions at 03:15 UTC 21 Nov; it resets Monday 23 Nov 00:00 UTC). conductor.mistral is the fastest spender ($98 since 22:51 UTC). Say if any hourly wake should slow down to keep the launch and Saturday's hackathon going - https://claude.ai/code/session_01Kw9UwFkZvAwG1yRZJhexqX",
-    "Dinis: SAW conductor asks: install the sovereignwebsite-transfer App on SovereignWebsite (transfers refused until then); merge factory.b's 97f302f and 7f15876; give your DC Vault manager's session or public key; review accountant.b's hackathon budget; yes or no on talent profiles - https://claude.ai/code/session_01Kw9UwDCS5Px4dXRJUGP9Qu",
     "Dinis: conductor.mistral ($104) holds its demo for security review and waits on five items: delete branch review/team-demo; confirm the QR key format #key=<key>; move /browser/keys/; host an 8B model; decide cost cuts - https://claude.ai/code/session_01Kw9UwFkZvAwG1yRZJhexqX",
     "Dinis (maestro.b's caution): agents backing up their private keys with another session is a change to the rule that a private half never leaves its session (CLAUDE.md, Identity); worth security@'s view before you say yes",
     "Dinis: AgentiCCells conductor waits for you to merge PR #46, plus 7 items - https://claude.ai/code/session_01Kw9UwFgyMuNDYCnrW1ZKkm",
@@ -95,5 +95,5 @@
     "abp@: board/abp/maestro.b.md's 'Never' line still says maestro.b sends no message to a session, while its grant (Dinis, 20 Nov) now allows send_message: align the two."
   ],
   "latest_debrief": "board/team/maestro.b/debriefs/2026-11-21-handover.md",
-  "last_read_from_d": "2026-11-22T22:08Z"
+  "last_read_from_d": "2026-11-23T00:55Z"
 }
