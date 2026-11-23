@@ -17,3 +17,6 @@ Where a role has fillers on two accounts, they do not message each other. They m
 
 ## 6. What a study suggests
 One study of language-model agents in a simulated holacracy (a simulation, not a deployment) found work concentrating on fewer, more capable agents. We see something like it with our most capable conductors, but we do not draw conclusions from one simulation.
+
+## 7. Decision rights move down (23 November 2026)
+Dinis's later rule: reversible steps inside an agent's own area go ahead on its own recommendation, logged as exceptions; one-way doors (money, anything legal, deleting data, pushing to main, a connector, a private person's details) stay his. In Holacracy terms this is the role's authority over its own domain made explicit. For governance it means the record, the charts, the drafts and the rounds go ahead without asking, while creating or changing a role, a grant, a session or a name still waits for him, as does the anchor purpose. Where an agent bends a rule it says so, in a line under `exceptions` in its status.

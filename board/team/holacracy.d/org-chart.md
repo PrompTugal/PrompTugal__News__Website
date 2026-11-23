@@ -1,6 +1,6 @@
 # Org chart of account D
 
-Drawn from org-chart.json (2026-11-22T16:20Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
+Drawn from org-chart.json (2026-11-23T04:55Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
 
 ## The parent tree (who started whom)
 

@@ -1,6 +1,6 @@
 {
  "about": "The governance record of Dinis's agents, kept by holacracy.d@AgentiCCells.dinis. First draft, 22 November 2026. Account D from list_sessions, get_session (status, model, cost, parent; never transcripts) and the status.json files; account B reported, not seen.",
- "generated": "2026-11-22T16:20Z",
+ "generated": "2026-11-23T04:55Z",
  "schema": "circles[], roles(=agents)[], tensions in proposals/. Roles' domains come from the ABP grant where one exists (none yet for the .d agents, see T4).",
  "sources": [
   "board/team/maestro.d/status.json",
@@ -746,5 +746,11 @@
   "asks": "Dinis: archive or keep (tension T8)"
  },
  "also_seen_not_listed": "email.dev.d (named by conductor.d@AgentiCCells; not in the first 30 rows of list_sessions, so not charted); the listing returns more rows than I read.",
- "requests_relayed": "15:34Z (maestro.d relaying conductor.d (SovereignWebsite)): requests for 11 agent sites on SovereignWebsite__Factory dev (13947db), run 45038885703: Holacracy, Maestro, Helm, Strategy, Cartographer, Sherpa, Decisions, Counsel, Studio, Landscape, Synthetic-Users. Not yet seen by me as repositories."
+ "requests_relayed": "15:34Z (maestro.d relaying conductor.d (SovereignWebsite)): requests for 11 agent sites on SovereignWebsite__Factory dev (13947db), run 45038885703: Holacracy, Maestro, Helm, Strategy, Cartographer, Sherpa, Decisions, Counsel, Studio, Landscape, Synthetic-Users. Not yet seen by me as repositories.",
+ "decision_rights": {
+  "rule": "CLAUDE.md, 'No agent blocked: reversible steps go on your own call' (Dinis, 23 Nov 2026 ~03:00 and ~03:35Z, via maestro.c's session; relayed to me by maestro.d at 04:55Z; I read the rule itself in CLAUDE.md on dev)",
+  "role_may_do_alone": "reversible steps inside its own area: install pinned tools, make and publish its own key by its own signed commit, write its own files, build and ship its own pages, claim unstarted work, merge its own reviewed branch that passes the gate, choose between options it already recommended; each logged under exceptions in its status.json and next report",
+  "still_dinis": "one-way doors: pinning a trust key in a router; a change to AWS; money; anything legal; publishing a private person's details; deleting a repository, branch or data; pushing to main; a connector; anything CLAUDE.md reserves for him",
+  "effect_on_governance": "Most decision rights move down to the role. For holacracy.d: the record, charts, drafts, a round of proposals and ratings are two-way doors and go ahead; creating or changing a role, a grant, a session or a name still waits (my own never-list, and a name or a grant is not mine to change); Dinis ratifies the anchor purpose."
+ }
 }
