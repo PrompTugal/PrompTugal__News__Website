@@ -1,0 +1,23 @@
+{
+  "id": "strategy-d-agenticcells",
+  "agent": "strategy.d@AgentiCCells.dinis",
+  "role": "The strategy agent of the central circle on account D (led by helm.d): Wardley maps, strategies and context briefs. A session key: it ends with its session.",
+  "how": "Made by the agent in its own session on 22 November 2026 with sgit pki keygen; public bundle from sgit pki export. Only the public half is here. Same key as board/keys.json entry strategy.d-agenticcells in PrompTugal__News__Website.",
+  "created": "2026-11-22",
+  "status": "active",
+  "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
+  "fingerprint": "sha256:46b19c52bcd6e778",
+  "signing_fingerprint": "sha256:883e53e80cdee0b0",
+  "bundle": {
+    "v": 1,
+    "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAuL8cB1DbnY+NIX4jHpMv\nDY5S/v4u4gIoegZW9MPgHzlFHZACKzu69V0DCUcRND9rQ70Kcx5njbqD8iHk0wPf\n86Y1sK/AzgcHDWBGmM4ozBpJH3aCwDiWndNMGLl3Z3YhM+UELRzioqytAiXRPZHg\nlnJTpZw6RAInAA7mhwsNulf1eJecz626LumbWqmUgbUGN0zFSxp0JtJVOmAIAAd/\nE9/jn5ocsOGfWnVtq8rocX/tHZBjFpszrnjouEIHcLkPHqLKepAo7rmH4Aw1qSHt\nTcrN01NoAwalis18ZdPHiS4ImcYwLF+ut8haO0XkQ3rtmy1vKiBUyi/HNPts0Po3\nG71DUJk1jyActfhNppy3SIIZBH5ZLfDJA++YlbKr6DkpMKDXUy/hCfnBCLKZVPl4\nerMmmxLAj2DuTk83hbgH1BOBtaCgi9oyTrKVHHUTJLt/TXi9X9hniYtQ9vPUgRVR\nzd6QPkBqCj2NJBn6b0dNsLZqaq5e7z/3QgMqwookxNv7jxThPDM4t3po8bFKHYKs\nHIgXiL2WBzk7pqGkTjMo7twwzuc9N7uaGOzIn6e4MqA7yZdIz7Uy0goVZduuJQm9\n9If1Xj7bmIg8PFULapfnw9xAz0qPXa7Y3vKlIr+v0J48WfVpE20vtUfwJtdwMmCV\nHAWAhCvVJoBLe0JtH38US5UCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+    "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEZSULAv4P0NZADVsZnRi83NDSz0A+\nkHlSrQdAS1tM5wiBBkOvRzQuf0hAd3mDlsQPEuMmM/5g1SD1GXssGPB/0Q==\n-----END PUBLIC KEY-----\n",
+    "label": "strategy.d@AgentiCCells.dinis",
+    "fingerprint": "sha256:46b19c52bcd6e778",
+    "signing_fingerprint": "sha256:883e53e80cdee0b0"
+  },
+  "ssh_signing": {
+    "from": "bundle.sign",
+    "note": "build/check-signatures.mjs derives the OpenSSH form from bundle.sign and verifies each commit with git verify-commit."
+  }
+}

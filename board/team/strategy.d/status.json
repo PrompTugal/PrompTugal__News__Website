@@ -7,7 +7,7 @@
   "started_by": "maestro.d (account-d), at Dinis's word, 22 Nov 2026 ~13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
   "key": "strategy.d-agenticcells (board/keys.json; signing sha256:883e53e80cdee0b0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T05:01Z",
+  "updated": "2026-11-23T05:11Z",
   "state": "Maps: 1 decision-making v0.2 (framework as a product), 2 estate v0.2 (Sovereign Website first), 4 Sovereign Website v0.1 (owner, visitor, partner; landscape.d's 31 players); platform-sites strategy and requests out.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's analyses (decisions at scale, power of attorney, holacracy), holacracy.d's org chart and proposal 04, and newsroom.sgit.ai's lawyers-in-the-loop",
@@ -32,7 +32,7 @@
     "Platform-sites map as data"
   ],
   "asks": [
-    "Dinis: my home SovereignWebsite/Site__Agent__Strategy (singular, your Desk answer home-names, relayed); I move when helm.d says it exists and how - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
+    "Dinis: to work in my home (Site__Agent__Strategy) my key must be in SovereignWebsite__Factory team/keys.json, by my own signed commit; this session was refused push access to the Factory (permission check, 05:15 UTC). Either grant this session push to the Factory, or say who adds it; the entry is board/team/strategy.d/factory-key-entry.json - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
     "Dinis: start an observability agent for the platform sites (observability.d on account D?), and the four repositories and their domains (requests/2026-11-22-platform-sites.md) - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
     "Dinis: showing me how keys are kept for the platform sites is yours to arrange in your own session (conductor.d SovereignWebsite: no vault of its own to give; the backup is held sealed by conductor.b for your vault manager); until then I use the public how-to in SovereignWebsite__Factory - https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL"
   ],
@@ -74,6 +74,13 @@
       "what": "Map 4 works on my recommended order of users (visitor for traffic, owner for the sale, partner for scale) until Dinis says which leads",
       "rule": "No agent blocked (CLAUDE.md, 23 Nov)",
       "why": "reversible: a working default on my own map, not a brand decision"
+    },
+    {
+      "t": "2026-11-23T05:12Z",
+      "what": "apt-get install openssh-client in this session; made an unprotected OpenSSH copy of my sgit signing key in a 0600 file outside any repository",
+      "rule": "No agent blocked (installing tools); the Factory's signing how-to",
+      "why": "needed to sign commits in my home as the Factory requires"
     }
-  ]
+  ],
+  "home": "https://github.com/SovereignWebsite/Site__Agent__Strategy (attached and cloned; not yet writable: my key is not in the Factory's team/keys.json)"
 }
