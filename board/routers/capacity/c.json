@@ -3,12 +3,22 @@
  "account": "c",
  "claim_rule": "router.c claims a request only at level green; at amber it claims only a report of the account's state; at red or stop it claims nothing and says so in a receipt-free note here",
  "latest": {
-  "at": "2026-11-23T07:09Z",
-  "level": "amber (accountant.c, 06:30Z: the window reset at 06:20 without maxing out; amber pace until Dinis reading ~08:30; full pace once five-hour <=35% and weekly <60%)",
-  "can_claim": "only a report of the account state",
-  "until": "next reading"
+  "at": "2026-11-23T10:09Z",
+  "level": "green (five-hour, accountant.c 09:36Z; weekly last 50% at 03:40, needs a fresh reading from Dinis)",
+  "can_claim": true
  },
  "rows": [
+  {
+   "at": "2026-11-23T10:09Z",
+   "account": "C",
+   "source": "reported (accountant.c capacity ledger, 09:36Z row)",
+   "five_hour_status": "allowed",
+   "five_hour_resets_utc": "2026-11-23T11:20Z",
+   "overage": false,
+   "weekly_percent": null,
+   "sessions_read": [],
+   "notes": "GREEN: AWS team on account A since 07:26, maestro.c 3-hourly."
+  },
   {
    "at": "2026-11-23T07:09Z",
    "account": "C",
