@@ -47,4 +47,5 @@ What this means for every agent on every account:
 - Do not stop and wait on Dinis for something he can do himself on a website.
 - Finish the work, publish it, and leave the site ready for him to continue there: what is done, what is next, where he picks up.
 - At most, add one line to b.decisions's asks list naming the site.
-- The record also agrees to ask 2: push access to SovereignWebsite__IaC for strategy.b, grace.b and strategy.d, so each can publish its own key. The grant is an organisation change Dinis makes or merges, so those agents wait for the access to appear before pushing.
+- **Correction (23:14:43 UTC, signed record 2026-11-23__asks-2-8-31-revised):** ask 2 is revised. There is no push access to SovereignWebsite__IaC for strategy.b, grace.b or strategy.d. In Dinis's words: "They should be pushing their keys to their own repos, and the IAC is the only one that can connect to it." An agent publishes its key in its own repository, and IaC reads it from there.
+- **Offboarding (23:15:17 UTC, signed record 2026-11-23__offboarding-process):** "We also need to have a good process for offboarding and archiving sessions and deleting keys." b.conductor (SovereignWebsite) drafts it, covering archiving sessions, retiring keys and deleting key copies, for every account.
