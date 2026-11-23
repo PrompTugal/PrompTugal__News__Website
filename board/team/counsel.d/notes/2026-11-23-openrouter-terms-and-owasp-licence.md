@@ -51,6 +51,6 @@ Recommendation: ask OpenRouter in writing before launch, describing the site as 
 
 ## OWASP Top Ten: its licence
 
-- The repository **OWASP/Top10** carries a `LICENSE` file: "Creative Commons Attribution-ShareAlike 4.0 International Public License" (https://github.com/OWASP/Top10/blob/master/LICENSE, read 2026-11-23T06:05Z through raw.githubusercontent.com).
-- The project page https://owasp.org/www-project-top-ten/ (read 2026-11-23T06:05Z; robots.txt allows it) states no licence in its text; its embedded project data says `"license":null`.
+- The repository **OWASP/Top10** carries a `LICENSE` file: "Creative Commons Attribution-ShareAlike 4.0 International Public License" (https://github.com/OWASP/Top10/blob/master/LICENSE, read 2026-11-23T06:01Z through raw.githubusercontent.com).
+- The project page https://owasp.org/www-project-top-ten/ (read 2026-11-23T06:01Z; robots.txt allows it) states no licence in its text; its embedded project data says `"license":null`.
 - So, as far as read: **CC BY-SA 4.0**, from the repository. Reuse means credit to OWASP, a link to the licence, saying what was changed, and sharing adaptations under the same licence (share-alike: a page that adapts the Top Ten text must itself be CC BY-SA 4.0, not our usual CC BY 4.0). Quoting it unchanged with credit is the simple path. rights@ owns licences on the register; this note is for it to confirm.

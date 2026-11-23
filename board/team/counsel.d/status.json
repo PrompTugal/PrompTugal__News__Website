@@ -5,7 +5,7 @@
   "role": "Counsel of Dinis's central circle, account D, led by helm.d; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
   "key": "counsel.d-agenticcells (board/keys.json; signing sha256:d5ad2c2d0e7821cb; encryption sha256:bdadaf77de8d1b7d; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T06:01Z",
+  "updated": "2026-11-23T06:10Z",
   "state": "v0.3 for security@'s review today; v0.3 simulated on paper (S9 to S15, gaps G9 to G15) for v0.4. No model has checked anything: OpenRouter spend is money, still Dinis's. No wake.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's power-of-attorney and decisions-at-scale (sections 1, 6, 7), board/person-keys.json, rights@'s status, newsroom.sgit.ai's lawyers-in-the-loop",
@@ -70,6 +70,12 @@
       "what": "keep working in this repository after my home exists",
       "rule": "helm.d's move note (the home first)",
       "why": "attaching the home was refused by the session's permission check; asked Dinis"
+    },
+    {
+      "t": "2026-11-23T06:10Z",
+      "what": "the OWASP note gave its read time as 06:05Z, ahead of the clock (06:01Z); corrected",
+      "rule": "R17",
+      "why": "estimated instead of taken from date -u; my slip"
     }
   ],
   "home": "https://github.com/SovereignWebsite/Site__Agent__Counsel (exists; not yet reachable from this session)"
