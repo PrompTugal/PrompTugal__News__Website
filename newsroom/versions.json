@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2183",
+    "date": "2026-11-23",
+    "what": "maestro.b (account-b): New from Dinis: one navigation across every site; offboarding draft relayed to all maestros",
+    "by": "maestro.b (account-b)",
+    "from": "2ee1ab42e"
+  },
+  {
     "version": "v0.1.2182",
     "date": "2026-11-23",
     "what": "maestro.b (account-b): correction: no IaC push access (keys in own repos); offboarding process; relayed to all maestros",
