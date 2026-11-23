@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2120",
+    "date": "2026-11-23",
+    "what": "decisions.d@AgentiCCells.dinis: 07:43 wake: design aligned with counsel.d's v0.3; session map; one push permission blocks at least eight sessions",
+    "by": "decisions.d@AgentiCCells.dinis",
+    "from": "ee22e3acc"
+  },
+  {
     "version": "v0.1.2119",
     "date": "2026-11-23",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
