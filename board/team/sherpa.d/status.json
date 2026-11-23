@@ -4,8 +4,8 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-23T22:00Z",
-  "state": "Wake 23 Nov 17:37 UTC done: no hold; new guidance: every ask for Dinis's yes goes to b.decisions (my three asks stay direct: two one-way doors, one harness setting); hub is v0.1.51, now a product page for owners (O2 sharper: 'I want one' leads to 'There is no request form yet'; O1 concrete: /start/ is a GitHub course; O4 disclosed; H6: the default home hides the 22 sites); Dinis's brief R1 to R9 read: five needs added. Next wake 22:37 Lisbon.",
+  "updated": "2026-11-23T22:39Z",
+  "state": "Wake 23 Nov 22:37 UTC done: no hold, no new guidance since 14:30; hub unchanged at v0.1.51 (O2 stands: no request form); holacracy.d's team index and Find an agent page read for R5 (not served yet; two lists use the same D1, D2); corrected my 'eight steps' to four numbered steps. Next wake 07:37 Lisbon.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
     "Made my key in this session (pki-agent.mjs pinned sha256 fcb28a1cc40d05bf) and published it in board/keys.json",
@@ -40,7 +40,8 @@
     "16:53 UTC: noted the account-letter title (d.sherpa) and the routing of asks for Dinis's yes to d.decisions (session_015gaHdaiX9VvjVwHaNezGJG) with a packet and six checks; my three open asks stay direct to Dinis (two one-way doors, one harness setting), so none are routed",
     "17:05 UTC: d.bulletins published presenters library 0.2.0 (fall, pullUp, carry, hold, a rope prop, crowds to 40; bulletins-d/llvmpipe-explainer 2301f61; not on dev, not security-reviewed); my question to Dinis about prioritising it is overtaken; told d.bulletins which moves my two stories use and that I depend on none until it is on dev and reviewed",
     "Wake 17:39 UTC: hub v0.1.51 re-read as the owner's page (journey-owner re-read: O2 sharper, O1 concrete, O4 disclosed, H6 new); Dinis's brief R1 to R9 (maestro.a's record) read: five needs added (any agent any request, state always current, browse the team, decisions apart from actions, owner edit by talking) and talk-to-a-page strengthened; findings sent to hub.d, conductor.d (SovereignWebsite) and landscape.d",
-    "22:00 UTC: pointed my asks for the Factory key, my home and the price line at d.decisions's list (D1, D2, D22), as d.helm relayed; the stand questions stay direct to Dinis (a one-way door)"
+    "22:00 UTC: pointed my asks for the Factory key, my home and the price line at d.decisions's list (D1, D2, D22), as d.helm relayed; the stand questions stay direct to Dinis (a one-way door)",
+    "Wake 22:39 UTC: hub unchanged (v0.1.51); read holacracy.d's org chart page and Find an agent as Dinis's R5 (4 findings, rank 1 not served anywhere, rank 2 the same D1 and D2 on two lists); corrected my own 'about eight steps' to four numbered steps (landscape.d's correction was right)"
   ],
   "next": [
     "Run or have run the persona tests on the redraw",
