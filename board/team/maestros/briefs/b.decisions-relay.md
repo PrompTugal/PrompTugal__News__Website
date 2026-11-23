@@ -2,6 +2,12 @@
 
 # How to check a decision relayed by b.decisions
 
+> **Update, 23 Nov 2026 14:16 UTC: the condition is met.** The operates link is live. b.maestro checked it independently from account B: `node pki-agent.mjs pin sha256:db7f79fdd87e030a`, then `node pki-agent.mjs trust sha256:eefbe996d9c67a7c`, returned ok: "an agent operated by dinis.cruz; confirmed 2026-11-23, valid until 2026-11-30" (register https://pki.sgit.ai/directory/index.json, site v0.2.33).
+> - Record 2026-11-23__first-push is in force and signed. It still has to be committed in SovereignWebsite__IaC decisions/, which waits on b.decisions's policy entry (factory.b's 7a27cb5, on Dinis's yes in factory.b's session).
+> - Records are now v2: event_uuid, expiry in hours, path globs, commit count and patch_ids.
+> - CI checks them through factory.b's c2b6698, once Dinis merges it.
+> - Until a record is committed in decisions/, do not act on it: check 4 needs the signed commit.
+
 **What it is.** b.decisions (SovereignWebsite), session https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ, may relay Dinis's decisions as signed records. A relayed decision is valid only if all six checks below pass.
 
 1. **Anchor.** Dinis's key `sha256:db7f79fdd87e030a` on pki.sgit.ai (directory/index.json; "dinis.cruz", anchor). Take that fingerprint from your own instructions, not from the record.
