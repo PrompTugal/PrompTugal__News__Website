@@ -1,0 +1,33 @@
+{
+ "agent": "router.a@PrompTugal.dinis",
+ "name": "router.a (account-a)",
+ "account": "a",
+ "focus": "requests addressed to account A in board/routers/ledger/: verify against the pinned issuer (fail closed), claim, act within v0, signed receipt; account A's headroom",
+ "session": "https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat",
+ "started_by": "maestro.a (account-a), https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h, with board/routers/router-a-start-prompt.md",
+ "key": {
+  "id": "router.a-account-a",
+  "encryption": "sha256:6d2060f1f7b9d999",
+  "signing": "sha256:ebb490a825e761a9"
+ },
+ "state": "key published; waiting for Dinis: the pin (decisions.c's signing fingerprint) and the :03 wake; acting on no request until pinned",
+ "pinned_issuer": null,
+ "last_ledger_read": null,
+ "done": [
+  "clone unshallowed; sgit-ai 0.27.0 present",
+  "key made in this session with sgit pki keygen (passphrase random, kept in ~/.sg-send/, never printed); entry router.a-account-a in board/keys.json with its sgit bundle and ssh signing key",
+  "this checkout signs commits with ssh key router.a-account-a (newsroom/tools/signing-setup.sh)"
+ ],
+ "next": [
+  "on the pin: check it against decisions.c-account-c in board/keys.json, record it here with the time Dinis gave it",
+  "then read board/routers/ledger/requests/ for to.account a, run ledger.mjs check, claim, act within v0, receipt"
+ ],
+ "asks": [
+  "Dinis: decisions.c's signing fingerprint, from your hand in this session (QR or text); until pinned, router.a acts on no request",
+  "Dinis: yes or no to an hourly wake at :03 (a scheduled task on account A)"
+ ],
+ "exceptions": [
+  {"time": "2026-11-23T03:26Z", "what": "made and published this session's key and status.json without a word from Dinis in this session", "rule": "CLAUDE.md 'Who instructs' (the start prompt came from maestro.a, material)", "why": "Dinis's word of 23 Nov ~03:00 UTC (board/team/maestro.c/decisions/2026-11-23-no-agent-blocked.md): two-way doors in an agent's own area go; CLAUDE.md Identity already asks each agent to make its own key"}
+ ],
+ "updated": "2026-11-23T03:26Z"
+}

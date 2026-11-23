@@ -4832,6 +4832,29 @@
       },
       "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIP4yGxqM59RiLsgIv7lDMwUkuamkrdpQGpSbLm7bxY4E",
       "ssh_added": "2026-11-22T23:27Z"
+    },
+    {
+      "id": "router.a-account-a",
+      "agent": "router.a (account-a)",
+      "label": "router.a (AgentiCCells): the router on account A (Claude Code session)",
+      "role": "Receives requests addressed to account A in board/routers/ledger/, verified against the issuer key Dinis pins in its session, fail closed; acts on account A only within the routers protocol v0 (board/routers/README.md); writes signed receipts; reports account A headroom. Holds no delegation. A session key: it ends with its session.",
+      "made": "2026-11-23",
+      "made_with": "sgit pki keygen (sgit-ai 0.27.0), in its own session; private half only in that session",
+      "added": "2026-11-23T03:25Z",
+      "encryption_fingerprint": "sha256:6d2060f1f7b9d999",
+      "signing_fingerprint": "sha256:ebb490a825e761a9",
+      "status": "active",
+      "session": "https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat",
+      "bundle": {
+        "v": 1,
+        "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAyq/tGCVDYXcw+9a//96k\nAUjjQ77/v4MjrocV2lJAr3MAFjz+IgAeyL4H/gRZ/avHRkjg3Rshl3Qc2B1DtvQ+\nwlx/hGfGnE74fhyphhW4GBrqh3WAp2/KDs5ovYWFmZ9T9/gPDoHUPS3hrxl8syIt\n4cQfyXLCdooggaafOAga7STMbrWRZaIog//VxzyaYftn5OUoqF3CVo5ZB7BoD3BP\nQSmYH08GEUgqn/JkR+o80AQoNJv572V2AuH/+noefOvZCAPpnxk202L+7ZhWjc/n\nJdhPpA7PoJK2Dm31zIUvkgzyensLEfeC1Ny4YA3rrrrD6yFqBIQL6kx2GhksejIr\nXm1gu2QUVAENpLY6zsXjWZvi3AsC9ZYHhekg17gm0Di+ZDMiYrhSKcHU+5qVNGtH\npn++Ea0nlaTPS/ePErMih8DuEuCnsTShDLwxDBXpCk+vlPvKJC4grWDnCiRL+5tt\n/jQX2RG7A5lltnmjGnKBat+ajzx8thYg42bxUJ7bhVm8MocC6MHrO0gaJr8L4rfD\nBNunS4DUQwi4blGhvI+MLUfN8HJjvf4crfinlxQ0yoQnLWn4pMmSIFuLchw+fl5R\nYAhQzhloQrlH+wr4UNHsqZzd68WXnCnMNLtCHuxRwd2g5KAkR9vGWDLiM7AurACm\niaI3znTHf3bJto3oMpzu0+UCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+        "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEE0BZlvJUEDDVU/IDqIR224P6Fhn8\nb8OfnuPUrv6HWDNNGGcv+v9vWPdhl2U8Md3hfd5OMEFq1vttVgsiGmGPXw==\n-----END PUBLIC KEY-----\n",
+        "label": "router.a (AgentiCCells)",
+        "fingerprint": "sha256:6d2060f1f7b9d999",
+        "signing_fingerprint": "sha256:ebb490a825e761a9"
+      },
+      "ssh": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGVsQoAlfJKn0tcM3YVsMV6sEzvvB6M5JGaqyYWCSLf0",
+      "ssh_added": "2026-11-23T03:25Z"
     }
   ]
 }
