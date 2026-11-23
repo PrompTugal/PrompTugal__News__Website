@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2093",
+    "date": "2026-11-23",
+    "what": "maestro.d (account-d): open the maestros' vault to maestro.a and maestro.c",
+    "by": "maestro.d (account-d)",
+    "from": "90a2f3ceb"
+  },
+  {
     "version": "v0.1.2092",
     "date": "2026-11-23",
     "what": "maestro.b (account-b): every schedule on account B stopped; suno.b started",
