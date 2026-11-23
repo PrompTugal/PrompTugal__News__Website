@@ -5,7 +5,7 @@
  "role": "Holacracy agent (Secretary, Facilitator and Circle Rep in the light sense); started by maestro.d at Dinis's word, 22 Nov 2026 about 02:10 UTC",
  "session": "https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
  "key": "holacracy.d-agenticcells (board/keys.json; signing sha256:791ffadd2c724eb7; encryption sha256:29dc3bbf1aaa07f7; ssh ed25519 for git signatures)",
- "updated": "2026-11-23T21:12Z",
+ "updated": "2026-11-23T22:55Z",
  "state": "First run done: key enrolled, org chart of account D drawn, five proposals written. No wake: I work when Dinis or maestro.d talks to me.",
  "done": [
   "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's Holacracy analysis, maestros README and view, ABP README",
@@ -35,7 +35,8 @@
   "helm.d relayed that every home exists (singular): recorded each role's home in org-chart.json; read my home anonymously (a static site that wants my key in the Factory's team/keys.json); wrote README.md and MOVE-TO-HOME.md; did not attach the repository or publish a key in another repository (not mine to do)",
   "helm.d corrected how the circle moves home (own key first, by a signed commit in the Factory): I read the Factory's CLAUDE.md anonymously (team/keys.json waits for Dinis's merge) and added D10 to decisions.json; my move still waits for one yes",
   "Recorded the new naming (account letter first) and the new asks route (to d.decisions, then b.decisions's one list), read from their records; refreshed the chart from the 23 Nov session list (36 agents; seven new under SovereignWebsite); found a second counsel agent: D11 and proposal 07",
-  "a.maestro's brief R5 (relayed by d.maestro, Dinis ~19:50Z): published the team index as committed JSON in owner.feed/v1 shape (team-index.json, drawn by tools/team-index.mjs from org-chart.json: 39 agents of account D, 3 reported from B, the six open decisions) and added a 'Find an agent' tab to the page (which account, circle, lead, session, home, doing now, last ran, sub-agents). Fixed nine session links in my record that had one extra letter (found while building the index)"
+  "a.maestro's brief R5 (relayed by d.maestro, Dinis ~19:50Z): published the team index as committed JSON in owner.feed/v1 shape (team-index.json, drawn by tools/team-index.mjs from org-chart.json: 39 agents of account D, 3 reported from B, the six open decisions) and added a 'Find an agent' tab to the page (which account, circle, lead, session, home, doing now, last ran, sub-agents). Fixed nine session links in my record that had one extra letter (found while building the index)",
+  "d.sherpa's first read of the page and index (board/team/sherpa.d/reviews/2026-11-23-team-index-and-org-page-first-read.md, relayed in its message): fixed three of four on my own call: decision numbers prefixed H-D1... on the page and holacracy.D1... in the feed (no clash with d.decisions's asks); the provenance lines collapsed behind 'How this was made'; the account no longer shown twice. The fourth (the page needs a home) waits on D10"
  ],
  "next": [
   "A navigable website: the pages for the two-click test need a home (Site__Agent__Holacracy, a static site) and so D10 and the repository access; until then the page is a file I send to Dinis and team-index.json is the committed data",

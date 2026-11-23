@@ -35,8 +35,8 @@ const ids = Object.fromEntries(A.map(a => [a.id, idOf(a)]))
 const agents = A.map(a => {
   const c = String(a.circle || '').replace(/ \(.*$/, '')
   const row = {
-    id: ids[a.id], name: a.name, account: 'D', kind: kindOf(a), status: status(a),
-    doing: a.state, circle: c, lead: leadOf(a),
+    id: ids[a.id], name: a.name.replace(/ \(account-d\)$/, ''), account: 'D', kind: kindOf(a), status: status(a),
+    doing: a.state, circle: c, lead: (leadOf(a) || '').replace(/ \(account-d\)$/, '') || undefined,
     parent: a.parent ? ids[a.parent] : undefined,
     waitingFor: waitingFor(a), session: a.session, model: a.model === 'not fetched' ? undefined : a.model,
     home: a.home || undefined, repo: a.home ? undefined : a.repo, updated: a.last_ran || a.state_seen,
@@ -66,7 +66,7 @@ const feed = {
   ],
   sites: [], videos: [], briefs: [], slides: [],
   decisions: dec.filter(d => d.status === 'open' || /^open/.test(d.status || '') || /open for/.test(d.status || '')).map(d => ({
-    id: d.id, title: d.title, detail: d.tension, options: d.options.map(o => o.k + '. ' + o.label), recommended: d.rec,
+    id: 'holacracy.' + d.id, title: d.title, detail: d.tension, options: d.options.map(o => o.k + '. ' + o.label), recommended: d.rec,
     from: 'd.holacracy', at: chart.generated, evidence: ['board/team/holacracy.d/' + d.source], lane: 'd.decisions' }))
 }
 fs.writeFileSync(path.join(dir, 'team-index.json'), JSON.stringify(feed, null, 1) + '\n')

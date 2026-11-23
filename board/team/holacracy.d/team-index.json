@@ -1,6 +1,6 @@
 {
  "kind": "owner.feed/v1",
- "made": "2026-11-23T20:53:00Z",
+ "made": "2026-11-23T22:43:00Z",
  "by": "d.holacracy (account-d)",
  "twin": false,
  "about": "The team index of account D, from the governance record (org-chart.json), drawn by a script. Account D is seen; the other accounts are reported, not seen. Status and times are as read at the date in each row; they are not live.",
@@ -18,7 +18,7 @@
  "agents": [
   {
    "id": "d.maestro.account-d",
-   "name": "d.maestro (account-d)",
+   "name": "d.maestro",
    "account": "D",
    "kind": "maestro",
    "status": "working",
@@ -33,7 +33,7 @@
   },
   {
    "id": "d.holacracy.account-d",
-   "name": "d.holacracy (account-d)",
+   "name": "d.holacracy",
    "account": "D",
    "kind": "agent",
    "status": "working",
@@ -274,13 +274,13 @@
   },
   {
    "id": "d.helm.account-d",
-   "name": "d.helm (account-d)",
+   "name": "d.helm",
    "account": "D",
    "kind": "agent",
    "status": "working",
    "doing": "working",
    "circle": "central",
-   "lead": "d.helm (account-d)",
+   "lead": "d.helm",
    "parent": "d.maestro.account-d",
    "session": "https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV",
    "home": "SovereignWebsite/Site__Agent__Helm",
@@ -291,13 +291,13 @@
   },
   {
    "id": "d.strategy.account-d",
-   "name": "d.strategy (account-d)",
+   "name": "d.strategy",
    "account": "D",
    "kind": "agent",
    "status": "done",
    "doing": "completed",
    "circle": "central",
-   "lead": "d.helm (account-d)",
+   "lead": "d.helm",
    "parent": "d.maestro.account-d",
    "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
    "home": "SovereignWebsite/Site__Agent__Strategy",
@@ -308,13 +308,13 @@
   },
   {
    "id": "d.cartographer.account-d",
-   "name": "d.cartographer (account-d)",
+   "name": "d.cartographer",
    "account": "D",
    "kind": "agent",
    "status": "waiting",
    "doing": "review ready",
    "circle": "central",
-   "lead": "d.helm (account-d)",
+   "lead": "d.helm",
    "parent": "d.maestro.account-d",
    "waitingFor": "review",
    "session": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
@@ -326,13 +326,13 @@
   },
   {
    "id": "d.sherpa.account-d",
-   "name": "d.sherpa (account-d)",
+   "name": "d.sherpa",
    "account": "D",
    "kind": "agent",
    "status": "waiting",
    "doing": "review ready",
    "circle": "central",
-   "lead": "d.helm (account-d)",
+   "lead": "d.helm",
    "parent": "d.maestro.account-d",
    "waitingFor": "review",
    "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
@@ -344,13 +344,13 @@
   },
   {
    "id": "d.accountant.account-d",
-   "name": "d.accountant (account-d)",
+   "name": "d.accountant",
    "account": "D",
    "kind": "agent",
    "status": "waiting",
    "doing": "waiting on Dinis: each account's plan and price",
    "circle": "central",
-   "lead": "d.helm (account-d)",
+   "lead": "d.helm",
    "parent": "d.maestro.account-d",
    "waitingFor": "Dinis: each account's plan and price",
    "session": "https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK",
@@ -362,13 +362,13 @@
   },
   {
    "id": "d.counsel.account-d",
-   "name": "d.counsel (account-d)",
+   "name": "d.counsel",
    "account": "D",
    "kind": "agent",
    "status": "done",
    "doing": "completed",
    "circle": "central",
-   "lead": "d.helm (account-d)",
+   "lead": "d.helm",
    "parent": "d.maestro.account-d",
    "session": "https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
    "home": "SovereignWebsite/Site__Agent__Counsel",
@@ -379,13 +379,13 @@
   },
   {
    "id": "d.decisions.account-d",
-   "name": "d.decisions (account-d)",
+   "name": "d.decisions",
    "account": "D",
    "kind": "signer",
    "status": "working",
    "doing": "working",
    "circle": "central",
-   "lead": "d.helm (account-d)",
+   "lead": "d.helm",
    "parent": "d.maestro.account-d",
    "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
    "home": "SovereignWebsite/Site__Agent__Decisions",
@@ -396,13 +396,13 @@
   },
   {
    "id": "d.studio.account-d",
-   "name": "d.studio (account-d)",
+   "name": "d.studio",
    "account": "D",
    "kind": "agent",
    "status": "working",
    "doing": "working",
    "circle": "central",
-   "lead": "d.helm (account-d)",
+   "lead": "d.helm",
    "parent": "d.maestro.account-d",
    "session": "https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq",
    "home": "SovereignWebsite/Site__Agent__Studio",
@@ -413,13 +413,13 @@
   },
   {
    "id": "d.landscape.account-d",
-   "name": "d.landscape (account-d)",
+   "name": "d.landscape",
    "account": "D",
    "kind": "agent",
    "status": "waiting",
    "doing": "review ready",
    "circle": "central",
-   "lead": "d.helm (account-d)",
+   "lead": "d.helm",
    "parent": "d.maestro.account-d",
    "waitingFor": "review",
    "session": "https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
@@ -492,13 +492,13 @@
   },
   {
    "id": "d.slides.account-d",
-   "name": "d.slides (account-d)",
+   "name": "d.slides",
    "account": "D",
    "kind": "agent",
    "status": "waiting",
    "doing": "waiting on Dinis: push access to SovereignWebsite__IaC",
    "circle": "central",
-   "lead": "d.helm (account-d)",
+   "lead": "d.helm",
    "parent": "d.maestro.account-d",
    "waitingFor": "Dinis: push access to SovereignWebsite__IaC",
    "session": "https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
@@ -568,7 +568,7 @@
   },
   {
    "id": "d.counsel.account-d",
-   "name": "d.counsel (account-d)",
+   "name": "d.counsel",
    "account": "D",
    "kind": "agent",
    "status": "done",
@@ -678,7 +678,7 @@
  "slides": [],
  "decisions": [
   {
-   "id": "D1",
+   "id": "holacracy.D1",
    "title": "One naming rule for agents",
    "detail": "Names drift: @account-d.dinis in titles, bare names elsewhere, three agents all called conductor.d. The gate knows only two domains.",
    "options": [
@@ -695,7 +695,7 @@
    "lane": "d.decisions"
   },
   {
-   "id": "D4",
+   "id": "holacracy.D4",
    "title": "Anchor purpose and a Circle Rep",
    "detail": "The estate has no written purpose; the maestros have no lead; a problem with a conductor has nowhere to go.",
    "options": [
@@ -712,7 +712,7 @@
    "lane": "d.decisions"
   },
   {
-   "id": "D8",
+   "id": "holacracy.D8",
    "title": "Who keeps each role home",
    "detail": "Each account writes only to its own repository; someone must keep ROLE.md and the accounts/ areas.",
    "options": [
@@ -728,7 +728,7 @@
    "lane": "d.decisions"
   },
   {
-   "id": "D9",
+   "id": "holacracy.D9",
    "title": "One home for a role in several circles (Conductor)",
    "detail": "Conductor has three circle fillers: PrompTugal, SovereignWebsite, AgentiCCells.",
    "options": [
@@ -744,7 +744,7 @@
    "lane": "d.decisions"
   },
   {
-   "id": "D10",
+   "id": "holacracy.D10",
    "title": "How an agent's key reaches its home's Factory key list",
    "detail": "A home asks for a commit signed with a key published in the Factory's team/keys.json. The Factory's own rule says that file waits for Dinis's merge; helm.d relays that each agent publishes its own by a signed commit of its own; CLAUDE.md's no-agent-blocked rule lists 'making and publishing your own key by your own signed commit' as an own-area step.",
    "options": [
@@ -761,7 +761,7 @@
    "lane": "d.decisions"
   },
   {
-   "id": "D11",
+   "id": "holacracy.D11",
    "title": "Two counsel agents",
    "detail": "d.counsel (account-d) in the central circle and d.counsel (SovereignWebsite) both exist on account D; d.counsel (SovereignWebsite) asks which of them keeps the key reviews. Two agents on one role, one of them in a sub-circle. Also d.strategy (account-d) beside b.strategy (SovereignWebsite) on account B (reported).",
    "options": [
