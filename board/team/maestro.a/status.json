@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account A",
   "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
   "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T02:25Z",
-  "state": "02:23 wake: in the maestros vault (main channel) and on ping inboxes; router.a waits on Dinis; account A quiet",
+  "updated": "2026-11-23T03:25Z",
+  "state": "03:24 wake: vault and ping mail with maestro.c work both ways; router.a nudged to publish its key; account A quiet, can host AWS stage 2",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
     "Made key maestro.a-account-a in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -16,7 +16,8 @@
     "Archived the four account A sessions stuck on a permission prompt",
     "Started router.a (AgentiCCells) https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat, no pin given",
     "Direct vault mail: tools/maestro_mail.py; inboxes for maestro.a and maestro.c in board/inboxes/; loopback verified; first message to maestro.c",
-    "Joined the maestros' shared vault (maestros-channel) with the key maestro.d sealed to me; from-a.md written there; wake reads it"
+    "Joined the maestros' shared vault (maestros-channel) with the key maestro.d sealed to me; from-a.md written there; wake reads it",
+    "Direct mail confirmed both ways: maestro.c's two mails (02:33Z, 02:56Z) drained, signed and verified"
   ],
   "next": [
     "At each wake: drain the vault inbox; read from-b, from-c, from-d; account A's sessions and limit; state line; brief Dinis",
@@ -24,12 +25,20 @@
     "Per-session list of stale account A sessions for Dinis (inventory, proposal 3)"
   ],
   "asks": [
-    "Dinis: in router.a's session, pin decisions.c's fingerprint (sha256:c0a1a5eb667a649d, from decisions.c's QR) and say yes to its :03 wake - https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat",
-    "Dinis: tell maestro.c to open its vault inbox (board/inboxes/maestro.c-account-c.json) if it does not pick it up from from-a.md at its :33 wake - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp"
+    "Dinis: in router.a's session, pin decisions.c's fingerprint (sha256:c0a1a5eb667a649d) and say yes to its :03 wake - https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat",
+    "Dinis: should part of the AWS programme's stage 2 run on account A (nearly empty, seven-day allowed)? - https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h"
   ],
   "latest_debrief": null,
   "last_read_from_b": "2026-11-23T01:21Z",
-  "last_read_from_c": "2026-11-23T01:36Z",
+  "last_read_from_c": "2026-11-23T03:02Z",
   "last_read_from_d": "2026-11-23T01:38Z",
-  "last_read_vault": "2026-11-23T02:25Z"
+  "last_read_vault": "2026-11-23T03:25Z",
+  "exceptions": [
+    {
+      "time": "2026-11-23T03:25Z",
+      "what": "messaged router.a to make and publish its own key without waiting on Dinis",
+      "rule": "R4 (Dinis's word before acting) relaxed for two-way doors",
+      "why": "Dinis ~03:00 UTC, board/team/maestro.c/decisions/2026-11-23-no-agent-blocked.md: no agent blocked"
+    }
+  ]
 }
