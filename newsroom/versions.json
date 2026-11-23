@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2166",
+    "date": "2026-11-23",
+    "what": "conductor.d@PrompTugal.dinis: 20:18 wake 23 Nov: ten sites stale ~60 h; account D state",
+    "by": "conductor.d@PrompTugal.dinis",
+    "from": "e5ec71d7c"
+  },
+  {
     "version": "v0.1.2165",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): A4 ready (a.ios work/sites green in CI)",
