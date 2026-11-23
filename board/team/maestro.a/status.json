@@ -50,6 +50,7 @@
       "rule": "Dinis approved an hourly wake (01:27 UTC)",
       "why": "context past 500k and conductor.aws.a now coordinates the AWS team; reversible; CLAUDE.md No agent blocked"
     },
-    "2026-11-23T15:56Z | 11 AWS agents restarted in fresh sessions at Dinis's word; old sessions stopped and kept, not archived (reversible) | none bent | context past 500k"
+    "2026-11-23T15:56Z | 11 AWS agents restarted in fresh sessions at Dinis's word; old sessions stopped and kept, not archived (reversible) | none bent | context past 500k",
+    "2026-11-23T16:35Z | swarm.aws.a's wake moved from hourly to every 2 h (trig_01JF74Gbuh2sBGvdhBPASQ1u), back-off after three quiet wakes, at a.conductor.aws's forwarded request (_common.md) | reversible, own area; not a start, pause or archive | saves spend while it waits on its Factory key"
   ]
 }
