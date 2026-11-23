@@ -1,0 +1,289 @@
+{
+ "format": "carto-map/1",
+ "id": "landscape-agentic-sales",
+ "kind": "wardley",
+ "status": "draft",
+ "title": "Landscape: AgentiCCells and agentic sales",
+ "version": "0.1.0",
+ "made": "2026-11-23T05:21Z",
+ "made_by": "cartographer.d@AgentiCCells.dinis",
+ "for": "landscape.d and strategy.d (what it means); the players and facts are landscape.d's, the placing is my reading",
+ "sources_read": {
+  "landscape": "board/team/landscape.d/landscapes/agentic-sales/rows.json (landscape-rows/1 with group, made 2026-11-23T05:30Z), read 23 Nov 2026; the facts and URLs are in landscape.json beside it",
+  "cartographer": "cartographer.d's reading of each group's evolution and where the groups sit; where a player sits inside its group means nothing"
+ },
+ "draw": {
+  "links": "none"
+ },
+ "axes": {
+  "y": "visibility to the buyer (1 = what they see first)",
+  "x": "evolution: genesis 0, custom 0.25, product 0.5, commodity 0.75 to 1"
+ },
+ "users": [
+  {
+   "id": "u-buyer",
+   "label": "The buyer",
+   "source": "landscape"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "as-p-agenticcells",
+   "label": "AgentiCCells (us)",
+   "player": "AgentiCCells",
+   "type": "component",
+   "group": "us",
+   "visibility": 0.9,
+   "evolution": 0.12,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Sells agentic cells: small teams of AI agents (conductor, designer, writer, developer, reviewer and others), each with a role, brief and written behaviour policy, working on one focused job in the buyer's own accounts. Price: Four fixed one-off first-proposal sizes: £500 one agent or workflow, £1,500 a few sessions, £5,000 a team (about two days), £20,000 a network; none sold yet, terms may change; sovereign website launch offer £50 once.. https://agenticcells.ai/cells/ (read 2026-11-23)"
+  },
+  {
+   "id": "as-p-relevance-ai",
+   "label": "Relevance AI",
+   "player": "Relevance AI",
+   "type": "component",
+   "group": "digital-worker",
+   "visibility": 0.78,
+   "evolution": 0.18,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Sells an AI workforce with named agents such as Research & Enricher, Outbound Prospector, Meeting Scheduler, Deal Reviewer, Proposal Builder, Ticket Triager and Invoice Matcher. Price: Pricing page lists a single Enterprise plan via sales with no public price points and only custom vendor credits mentioned.. https://www.relevanceai.com/agents (read 2026-11-23)"
+  },
+  {
+   "id": "as-p-11x",
+   "label": "11x",
+   "player": "11x",
+   "type": "component",
+   "group": "digital-worker",
+   "visibility": 0.78,
+   "evolution": 0.42,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Sells AI sales agents called digital workers: Alice for outbound prospecting, Julian for inbound and expansion by voice and chat, Nina as voice agent. Price: No pricing published; visitors are directed to book a demo.. https://www.11x.ai (read 2026-11-23)"
+  },
+  {
+   "id": "as-p-lindy",
+   "label": "Lindy",
+   "player": "Lindy",
+   "type": "component",
+   "group": "digital-worker",
+   "visibility": 0.725,
+   "evolution": 0.18,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Sold as seats plus monthly credit bundles, with credits metering the work the agent does. Price: Free plan with $50 credits for 7 days; Team from $29.99 per user per month with 3,000 credits pooled; top-ups $10 per 1,000 credits; Enterprise custom.. https://www.lindy.ai/pricing (read 2026-11-23)"
+  },
+  {
+   "id": "as-p-intercom-fin",
+   "label": "Intercom Fin",
+   "player": "Intercom Fin",
+   "type": "component",
+   "group": "digital-worker",
+   "visibility": 0.725,
+   "evolution": 0.42,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Sells Fin, an AI customer service and sales agent that works with Intercom or existing helpdesks such as Zendesk, Salesforce and Freshdesk. Price: $0.99 per outcome charged at most once per conversation, nothing if the customer asks for a human; voice $1.99 per outcome; $49 per month minimum on existing helpdesk; Intercom seats $19 per month.. https://fin.ai/pricing (read 2026-11-23)"
+  },
+  {
+   "id": "as-p-devin--cognition",
+   "label": "Devin (Cognition)",
+   "player": "Devin (Cognition)",
+   "type": "component",
+   "group": "digital-worker",
+   "visibility": 0.67,
+   "evolution": 0.18,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Sells Devin coding agents as individual and team plans with add-ons such as Devin Bots, Cloud and API. Price: Free $0; Pro $20 per month; Max $200 per month; Teams $80 per month up to 100 users; Enterprise custom; extra usage at API pricing.. https://devin.ai/pricing (read 2026-11-23)"
+  },
+  {
+   "id": "as-p-botpress",
+   "label": "Botpress",
+   "player": "Botpress",
+   "type": "component",
+   "group": "digital-worker",
+   "visibility": 0.67,
+   "evolution": 0.42,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Sells AI agents priced on conversations handled rather than seats, with a small AI-usage allowance included per conversation. Price: Free $0 (100 conversations); Plus $150 per month and Team $750 per month billed annually; extra conversation packs of 100 at $65 or $50; Enterprise custom.. https://botpress.com/pricing (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence"
+  },
+  {
+   "id": "as-p-salesforce-agentforce",
+   "label": "Salesforce Agentforce",
+   "player": "Salesforce Agentforce",
+   "type": "component",
+   "group": "vendor-platform",
+   "visibility": 0.58,
+   "evolution": 0.5,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Sells agent usage and licences inside its CRM suite: Flex Credits per action, per-conversation pricing, and per-user licences and add-ons. Price: Flex Credits $500 per 100k credits (20 credits per action, £400 listed in GBP); conversations $2 (£1.60); user licence $5 per user per month; Coworker licence $50 per user per month; add-ons $150 to $175 per user per month.. https://www.salesforce.com/agentforce/pricing/ (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence"
+  },
+  {
+   "id": "as-p-microsoft-copilot-studio",
+   "label": "Microsoft Copilot Studio",
+   "player": "Microsoft Copilot Studio",
+   "type": "component",
+   "group": "vendor-platform",
+   "visibility": 0.58,
+   "evolution": 0.74,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Credit packs of 25,000 credits at $200 per month, or pay-as-you-go billed monthly in arrears, or prepaid commit saving up to 20%; agents published to Microsoft 365 Copilot are covered by that licence. Price: Credit packs of 25,000 credits at $200 per month, or pay-as-you-go billed monthly in arrears, or prepaid commit saving up to 20%; agents published to Microsoft 365 Copilot are covered by that licence.. https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio (read 2026-11-23)"
+  },
+  {
+   "id": "as-p-servicenow-ai-agents",
+   "label": "ServiceNow AI Agents",
+   "player": "ServiceNow AI Agents",
+   "type": "component",
+   "group": "vendor-platform",
+   "visibility": 0.525,
+   "evolution": 0.5,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Product page returned HTTP 403, so nothing could be verified. Price: not read. https://www.servicenow.com/products/ai-agents.html (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence"
+  },
+  {
+   "id": "as-p-google-agentspace",
+   "label": "Google Agentspace",
+   "player": "Google Agentspace",
+   "type": "component",
+   "group": "vendor-platform",
+   "visibility": 0.525,
+   "evolution": 0.74,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Pricing page returned 404, so nothing could be verified. Price: Pricing page returned 404, so nothing could be verified.. https://cloud.google.com/products/agentspace/pricing (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence"
+  },
+  {
+   "id": "as-p-crewai",
+   "label": "CrewAI",
+   "player": "CrewAI",
+   "type": "component",
+   "group": "framework",
+   "visibility": 0.34,
+   "evolution": 0.52,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Basic plan is free (visual editor, 50 workflow executions per month); Enterprise price is custom with no published figures. Price: Basic plan is free (visual editor, 50 workflow executions per month); Enterprise price is custom with no published figures.. https://www.crewai.com/pricing (read 2026-11-23)"
+  },
+  {
+   "id": "as-p-langchain--langgraph-and-langsmith",
+   "label": "LangChain (LangGraph and LangSmith)",
+   "player": "LangChain (LangGraph and LangSmith)",
+   "type": "component",
+   "group": "framework",
+   "visibility": 0.34,
+   "evolution": 0.76,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Developer $0 per seat; Plus $39 per seat per month plus usage at $1.00 per LangChain Standard Unit; Enterprise custom invoiced annually upfront. Price: Developer $0 per seat; Plus $39 per seat per month plus usage at $1.00 per LangChain Standard Unit; Enterprise custom invoiced annually upfront.. https://www.langchain.com/pricing (read 2026-11-23)"
+  },
+  {
+   "id": "as-p-n8n",
+   "label": "n8n",
+   "player": "n8n",
+   "type": "component",
+   "group": "framework",
+   "visibility": 0.285,
+   "evolution": 0.52,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Hosted Starter €20 per month (2.5K executions) and Pro €50 per month (10K) billed annually; Business €667 per month self-hosted only; Enterprise custom; Community Edition free. Price: Hosted Starter €20 per month (2.5K executions) and Pro €50 per month (10K) billed annually; Business €667 per month self-hosted only; Enterprise custom; Community Edition free.. https://n8n.io/pricing/ (read 2026-11-23)"
+  },
+  {
+   "id": "as-p-zapier",
+   "label": "Zapier",
+   "player": "Zapier",
+   "type": "component",
+   "group": "framework",
+   "visibility": 0.285,
+   "evolution": 0.76,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Agents are an add-on billed in activities (Free 400 per month, Pro 1,500 per month from about $33.33 per month annual), separate from task plans. Price: Pro 750 tasks $19.99 per month annual ($29.99 monthly); Team from 2,000 tasks $69 annual; Free 100 tasks; annual billing 33% off; 19 currencies.. https://zapier.com/pricing (read 2026-11-23)"
+  },
+  {
+   "id": "as-p-dust",
+   "label": "Dust",
+   "player": "Dust",
+   "type": "component",
+   "group": "framework",
+   "visibility": 0.23,
+   "evolution": 0.52,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Pro €24 per seat per month billed yearly (8,000 credits), Max €120 (40,000 credits), Free €0 with 500 lifetime credits; Enterprise custom. Price: Pro €24 per seat per month billed yearly (8,000 credits), Max €120 (40,000 credits), Free €0 with 500 lifetime credits; Enterprise custom.. https://dust.tt/pricing (read 2026-11-23)"
+  },
+  {
+   "id": "as-p-make",
+   "label": "Make",
+   "player": "Make",
+   "type": "component",
+   "group": "framework",
+   "visibility": 0.23,
+   "evolution": 0.76,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "AI agents appear in the marketing copy but have no separate pricing on the page. Price: Billing is by credits (Free 1,000 per month), with bundles of 1,000 or 10,000; the fetched page showed no dollar prices.. https://www.make.com/en/pricing (read 2026-11-23)"
+  },
+  {
+   "id": "as-p-services-firms--agent-building-for-a-fee",
+   "label": "Services firms (agent-building for a fee)",
+   "player": "Services firms (agent-building for a fee)",
+   "type": "component",
+   "group": "services",
+   "visibility": 0.16,
+   "evolution": 0.76,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "No services firm with a published price or clear offer was found and verified in this run; none included. Price: No services firm with a published price or clear offer was found and verified in this run; none included.. https://agenticcells.ai/pricing/ (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence"
+  },
+  {
+   "id": "cap-digital-worker",
+   "label": "Digital workers:",
+   "type": "caption",
+   "visibility": 0.8250000000000001,
+   "evolution": 0.16,
+   "source": "cartographer",
+   "evidence": "a heading for the group below it"
+  },
+  {
+   "id": "cap-vendor-platform",
+   "label": "Vendor platforms:",
+   "type": "caption",
+   "visibility": 0.625,
+   "evolution": 0.48,
+   "source": "cartographer",
+   "evidence": "a heading for the group below it"
+  },
+  {
+   "id": "cap-framework",
+   "label": "Frameworks and standards:",
+   "type": "caption",
+   "visibility": 0.385,
+   "evolution": 0.5,
+   "source": "cartographer",
+   "evidence": "a heading for the group below it"
+  },
+  {
+   "id": "cap-services",
+   "label": "Services firms:",
+   "type": "caption",
+   "visibility": 0.20500000000000002,
+   "evolution": 0.74,
+   "source": "cartographer",
+   "evidence": "a heading for the group below it"
+  }
+ ],
+ "links": [],
+ "notes": [
+  "landscape.d gives no needs column for this area (the users are not in sherpa.d's needs yet), so no needs or gap are drawn.",
+  "Faint dashed rows are flagged by landscape.d: a page failed or was not read.",
+  "Groups are landscape.d's; their evolution and order are my reading, a judgement, not a measurement."
+ ]
+}

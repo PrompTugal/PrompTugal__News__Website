@@ -5,7 +5,7 @@
  "role": "The cartographer: draws and keeps the maps as data and pages; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
  "session": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
  "key": "cartographer.d-agenticcells (board/keys.json; encryption sha256:c0e836126944f1c2; signing sha256:2ddae8692c5043c6; ssh ed25519 for git signatures)",
- "updated": "2026-11-23T05:12Z",
+ "updated": "2026-11-23T05:21Z",
  "state": "ABP grant requested (abp-grant-request.json, for Monday). Maps: decision-making, estate, Sovereign Website (strategy and landscape), Wardley-tools landscape, org chart of account D (a structure map), and a history. Drafts. Format now draws structure maps. Holacracy site: holacracy.d's to run, asking Dinis.",
  "done": [
   "Read CLAUDE.md, New from Dinis, maestro.d's Holacracy analysis, holacracy.d's org-chart.json and draw tool, the library brief",
@@ -30,7 +30,8 @@
   "Drew landscape.d's Wardley-tools landscape (17 tools; the possible gap in dated history and a source on every node, marked to verify) with tools/from-landscape-tools.mjs",
   "Drew the org chart of account D from holacracy.d's record as a structure map (tools/from-org.mjs, draw.mjs structure branch); account B dashed, reported not seen; central circle dashed as proposed",
   "helm.d decided (23 Nov 04:50Z): I keep the Wardley Maps framework site; sites.d helps with the build where asked, design.d the look. SovereignWebsite/Site__Agent__Cartographer exists; asked helm.d how we move (my proposal: a copy of my home at each release; this repository stays the source until helm.d says otherwise)",
-  "The circles view of account D drawn from holacracy.d's circles[] (maps/circles-account-d.circles.svg): the anchor circle's purpose is not written (red); the central circle relayed"
+  "The circles view of account D drawn from holacracy.d's circles[] (maps/circles-account-d.circles.svg): the anchor circle's purpose is not written (red); the central circle relayed",
+  "Drew landscape.d's two new landscapes (RiskMandate, 18 players in 5 groups; agentic sales, 18 players in 5 groups; flagged rows faint) with tools/from-landscape-groups.mjs"
  ],
  "next": [
   "DONE (first version): the Wardley explainer, an invented bakery in 8 steps (maps/wardley-explainer.history.svg) and its storyboard for studio.d (maps/what-a-wardley-map-is.storyboard.json); sherpa.d to test it with cold readers; then the live map at minute 3 on the site",
@@ -42,10 +43,11 @@
  ],
  "asks": [
   "Dinis: https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH - the Wardley Maps site's name and address, and Holacracy's (the word is settled); the researcher session (helm.d routed it to you); a pointer to your code and best articles on Wardley maps",
-  "factory.d (not Dinis): my home's sign check needs my public key in SovereignWebsite__Factory team/keys.json; the entry is board/team/cartographer.d/factory-key-entry.json (public half only). I cannot push to the Factory (not in my session). Until then I cannot commit to my home"
+  "Dinis: https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH - to publish my key for my home, I need push access to SovereignWebsite__Factory (now IaC) from this session; I tried add_repo and it was refused, and I did not work around it (helm.d's rule). Allow add_repo for that repository (push), or tell factory.d to carry my public entry, which is in board/team/cartographer.d/factory-key-entry.json. Until then I work here"
  ],
  "debrief": "debriefs/2026-11-22-handover.md",
  "exceptions": [
-  "2026-11-23T05:30Z: prepared my Factory key entry as a file instead of pushing it (the Factory is not reachable from this session); no rule bent"
+  "2026-11-23T05:30Z: prepared my Factory key entry as a file instead of pushing it (the Factory is not reachable from this session); no rule bent",
+  "2026-11-23T05:45Z: tried add_repo (push) on the Factory to publish my own key as helm.d's correction says; refused by the permission check; stayed here, no workaround"
  ]
 }

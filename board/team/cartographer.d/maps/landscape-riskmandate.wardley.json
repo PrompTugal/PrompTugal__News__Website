@@ -1,0 +1,289 @@
+{
+ "format": "carto-map/1",
+ "id": "landscape-riskmandate",
+ "kind": "wardley",
+ "status": "draft",
+ "title": "Landscape: RiskMandate and who else governs AI agents",
+ "version": "0.1.0",
+ "made": "2026-11-23T05:21Z",
+ "made_by": "cartographer.d@AgentiCCells.dinis",
+ "for": "landscape.d and strategy.d (what it means); the players and facts are landscape.d's, the placing is my reading",
+ "sources_read": {
+  "landscape": "board/team/landscape.d/landscapes/riskmandate/rows.json (landscape-rows/1 with group, made 2026-11-23T05:30Z), read 23 Nov 2026; the facts and URLs are in landscape.json beside it",
+  "cartographer": "cartographer.d's reading of each group's evolution and where the groups sit; where a player sits inside its group means nothing"
+ },
+ "draw": {
+  "links": "none"
+ },
+ "axes": {
+  "y": "visibility to the buyer (1 = what they see first)",
+  "x": "evolution: genesis 0, custom 0.25, product 0.5, commodity 0.75 to 1"
+ },
+ "users": [
+  {
+   "id": "u-buyer",
+   "label": "The buyer",
+   "source": "landscape"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "rm-p-riskmandate",
+   "label": "RiskMandate (us)",
+   "player": "RiskMandate",
+   "type": "component",
+   "group": "us",
+   "visibility": 0.9,
+   "evolution": 0.12,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Sells a behaviour policy per AI agent that shows what the agent can reach, what it was authorised to do, the gap between the two, and the barriers in between; the about page says it is never a score. Price: Four levels stated in GBP: 500 (one agent), 1,500 (worked through with you), 5,000 (about two days, several agents), 20,000 (whole-estate engagement); each currently starts with a conversation as payment links are not yet issued.. https://riskmandate.ai/about.html (read 2026-11-23)"
+  },
+  {
+   "id": "rm-p-microsoft-entra-agent-id",
+   "label": "Microsoft Entra Agent ID",
+   "player": "Microsoft Entra Agent ID",
+   "type": "component",
+   "group": "agent-identity",
+   "visibility": 0.78,
+   "evolution": 0.46,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Gives each AI agent its own identity account in Entra ID so its actions can be told apart from human and workload identities, with autonomous or delegated access via tokens. Price: Agent ID is stated as available to all Entra customers, but extending Entra security features to agents needs a Microsoft Agent 365 licence (in M365 E7 or an add-on to E5/A5/Business Premium).. https://learn.microsoft.com/en-us/entra/agent-id/identity-platform/what-is-agent-id (read 2026-11-23)"
+  },
+  {
+   "id": "rm-p-okta--secure-ai-agents",
+   "label": "Okta (secure AI agents)",
+   "player": "Okta (secure AI agents)",
+   "type": "component",
+   "group": "agent-identity",
+   "visibility": 0.78,
+   "evolution": 0.7,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Covers the agent lifecycle: discovering agents, confirming owners, controlling access, and stopping actions at runtime through an Agent Gateway that checks each tool call. Price: No price is shown; calls to action lead to sales contact or resources.. https://www.okta.com/solutions/secure-ai/ (read 2026-11-23)"
+  },
+  {
+   "id": "rm-p-aembit",
+   "label": "Aembit",
+   "player": "Aembit",
+   "type": "component",
+   "group": "agent-identity",
+   "visibility": 0.725,
+   "evolution": 0.46,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Describes an identity control plane for AI agents and non-human workloads, checking each access request against verified identity, short-lived authorisation and an audit log. Price: The page links to a pricing section but the part read shows no prices or tiers (page only partly read).. https://aembit.io/ (read 2026-11-23)"
+  },
+  {
+   "id": "rm-p-astrix-security",
+   "label": "Astrix Security",
+   "player": "Astrix Security",
+   "type": "component",
+   "group": "agent-identity",
+   "visibility": 0.725,
+   "evolution": 0.7,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "The astrix.security address returned a permanent redirect to a Cisco page and was not followed, so nothing about Astrix could be verified. Price: not read. https://astrix.security/ (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence"
+  },
+  {
+   "id": "rm-p-credo-ai",
+   "label": "Credo AI",
+   "player": "Credo AI",
+   "type": "component",
+   "group": "governance-platform",
+   "visibility": 0.62,
+   "evolution": 0.5,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "A governance platform for agents, applications, models and vendors, with a registry, risk assessment, and a policy engine mapping the EU AI Act, NIST AI RMF and ISO 42001 to controls and audit evidence. Price: No price is listed; only talk-to-an-expert and demo requests.. https://www.credo.ai/ (read 2026-11-23)"
+  },
+  {
+   "id": "rm-p-ibm-watsonx-governance",
+   "label": "IBM watsonx.governance",
+   "player": "IBM watsonx.governance",
+   "type": "component",
+   "group": "governance-platform",
+   "visibility": 0.565,
+   "evolution": 0.5,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Pitched as governing any AI anywhere: mapping the AI estate, enforcing policy, gathering compliance evidence against the EU AI Act, NIST AI and ISO 42001, and detecting shadow AI. Price: No prices on the page; it refers to a separate pricing page, cloud and on-premises options, and AWS and Azure marketplaces.. https://www.ibm.com/products/watsonx-governance (read 2026-11-23)"
+  },
+  {
+   "id": "rm-p-holistic-ai",
+   "label": "Holistic AI",
+   "player": "Holistic AI",
+   "type": "component",
+   "group": "governance-platform",
+   "visibility": 0.51,
+   "evolution": 0.5,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Discovers models, agents and apps across cloud, code and SaaS, keeps an inventory with owners and risk, tests for security, safety, bias and drift, and maps controls to the EU AI Act, NIST AI RMF and ISO 42001. Price: No price is listed; only demo booking.. https://www.holisticai.com/ (read 2026-11-23)"
+  },
+  {
+   "id": "rm-p-open-policy-agent",
+   "label": "Open Policy Agent",
+   "player": "Open Policy Agent",
+   "type": "component",
+   "group": "open-source",
+   "visibility": 0.42,
+   "evolution": 0.52,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "A general policy engine that centralises policy decisions across a technology stack, with examples written in Rego (such as payment rules); the page does not discuss AI agents. Price: not read. https://www.openpolicyagent.org/ (read 2026-11-23)"
+  },
+  {
+   "id": "rm-p-cedar-policy-language",
+   "label": "Cedar policy language",
+   "player": "Cedar policy language",
+   "type": "component",
+   "group": "open-source",
+   "visibility": 0.42,
+   "evolution": 0.76,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Project website https://www.cedarpolicy.com/en returned 404, so its description is not verified. Price: not read. https://www.cedarpolicy.com/en (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence"
+  },
+  {
+   "id": "rm-p-nvidia-nemo-guardrails",
+   "label": "NVIDIA NeMo Guardrails",
+   "player": "NVIDIA NeMo Guardrails",
+   "type": "component",
+   "group": "open-source",
+   "visibility": 0.365,
+   "evolution": 0.52,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "A Python library that checks an LLM or agent application's prompts, responses, tool calls and tool results with rule-based or model-backed rails. Price: not read. https://github.com/NVIDIA/NeMo-Guardrails (read 2026-11-23)"
+  },
+  {
+   "id": "rm-p-guardrails-ai",
+   "label": "Guardrails AI",
+   "player": "Guardrails AI",
+   "type": "component",
+   "group": "open-source",
+   "visibility": 0.365,
+   "evolution": 0.76,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "A Python framework that runs input and output guards built from validators (from a hub) and can steer structured output. Price: not read. https://github.com/guardrails-ai/guardrails (read 2026-11-23)"
+  },
+  {
+   "id": "rm-p-meta-purple-llama",
+   "label": "Meta Purple Llama",
+   "player": "Meta Purple Llama",
+   "type": "component",
+   "group": "open-source",
+   "visibility": 0.31,
+   "evolution": 0.52,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "An umbrella project of model-level safeguards (Llama Guard, Prompt Guard, Code Shield) and cybersecurity benchmarks (CyberSec Eval); it screens inputs and outputs, not agent permissions. Price: not read. https://github.com/meta-llama/PurpleLlama (read 2026-11-23)"
+  },
+  {
+   "id": "rm-p-nist-ai-risk-management-framework",
+   "label": "NIST AI Risk Management Framework",
+   "player": "NIST AI Risk Management Framework",
+   "type": "component",
+   "group": "framework",
+   "visibility": 0.22,
+   "evolution": 0.5,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "A voluntary framework for managing AI risks to individuals, organisations and society, aimed at building trustworthiness into AI design, development, use and evaluation. Price: The page states no price or licence terms; it links a PDF download and a copyright page.. https://www.nist.gov/itl/ai-risk-management-framework (read 2026-11-23)"
+  },
+  {
+   "id": "rm-p-iso-iec-42001",
+   "label": "ISO/IEC 42001",
+   "player": "ISO/IEC 42001",
+   "type": "component",
+   "group": "framework",
+   "visibility": 0.22,
+   "evolution": 0.74,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "The ISO page for the standard returned HTTP 403, so nothing could be verified from it. Price: not read. https://www.iso.org/standard/81230.html (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence"
+  },
+  {
+   "id": "rm-p-eu-ai-act",
+   "label": "EU AI Act",
+   "player": "EU AI Act",
+   "type": "component",
+   "group": "framework",
+   "visibility": 0.165,
+   "evolution": 0.5,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Regulation 2024/1689 sorts AI systems into four risk tiers (banned, high risk, transparency, minimal) with extra duties for general-purpose models. Price: not read. https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai (read 2026-11-23)"
+  },
+  {
+   "id": "rm-p-owasp-agentic-ai-threats-and-mitigations",
+   "label": "OWASP Agentic AI Threats and Mitigations",
+   "player": "OWASP Agentic AI Threats and Mitigations",
+   "type": "component",
+   "group": "framework",
+   "visibility": 0.165,
+   "evolution": 0.74,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "The first document of OWASP's Agentic Security Initiative, mapping threats to autonomous LLM-driven agentic systems and ways to mitigate them. Price: not read. https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/ (read 2026-11-23)"
+  },
+  {
+   "id": "rm-p-owasp-top-10-for-agentic-applications-2026",
+   "label": "OWASP Top 10 for Agentic Applications 2026",
+   "player": "OWASP Top 10 for Agentic Applications 2026",
+   "type": "component",
+   "group": "framework",
+   "visibility": 0.11,
+   "evolution": 0.5,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Names the most serious risks for autonomous AI systems that plan, act and decide across multi-step workflows, built with input from over 100 contributors. Price: not read. https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/ (read 2026-11-23)"
+  },
+  {
+   "id": "cap-agent-identity",
+   "label": "Agent identity:",
+   "type": "caption",
+   "visibility": 0.8250000000000001,
+   "evolution": 0.44,
+   "source": "cartographer",
+   "evidence": "a heading for the group below it"
+  },
+  {
+   "id": "cap-governance-platform",
+   "label": "Governance platforms:",
+   "type": "caption",
+   "visibility": 0.665,
+   "evolution": 0.48,
+   "source": "cartographer",
+   "evidence": "a heading for the group below it"
+  },
+  {
+   "id": "cap-open-source",
+   "label": "Open-source tools:",
+   "type": "caption",
+   "visibility": 0.46499999999999997,
+   "evolution": 0.5,
+   "source": "cartographer",
+   "evidence": "a heading for the group below it"
+  },
+  {
+   "id": "cap-framework",
+   "label": "Frameworks and standards:",
+   "type": "caption",
+   "visibility": 0.265,
+   "evolution": 0.48,
+   "source": "cartographer",
+   "evidence": "a heading for the group below it"
+  }
+ ],
+ "links": [],
+ "notes": [
+  "landscape.d gives no needs column for this area (the users are not in sherpa.d's needs yet), so no needs or gap are drawn.",
+  "Faint dashed rows are flagged by landscape.d: a page failed or was not read.",
+  "Groups are landscape.d's; their evolution and order are my reading, a judgement, not a measurement."
+ ]
+}

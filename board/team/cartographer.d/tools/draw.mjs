@@ -38,6 +38,7 @@ for (const f of files) {
   }
   for (const m of j.moves || []) { const n = by[m.node]; s.push(`<line x1="${px(n.evolution)}" y1="${py(n.visibility)}" x2="${px(m.to)}" y2="${py(n.visibility)}" stroke="#d98200" stroke-width="2" stroke-dasharray="2 3" marker-end="url(#a)"/>`) }
   for (const n of j.nodes) {
+    if (n.type === 'caption') { s.push(`<text x="${px(n.evolution)}" y="${py(n.visibility) + 4}" font-size="13" font-weight="600" fill="#777">${esc(n.label)}</text>`); continue }
     const x = px(n.evolution), y = py(n.visibility), c = colour[n.type] || '#1f3a5f'
     s.push(`<circle cx="${x}" cy="${y}" r="6" fill="${n.type === 'gap' || n.flagged ? '#fff' : c}" stroke="${c}" stroke-width="2"${n.flagged ? ' stroke-dasharray="3 2" opacity="0.6"' : ''}><title>${esc(n.label)} (source: ${esc(n.source)}) ${esc(n.evidence || '')}</title></circle>`)
     wrap(n.label, 26).forEach((t, i) => s.push(`<text text-anchor="${x > W - 260 ? 'end' : 'start'}" x="${x > W - 260 ? x - 10 : x + 10}" y="${y + 4 + i * 12}" font-size="13" fill="#111">${esc(t)}</text>`))
