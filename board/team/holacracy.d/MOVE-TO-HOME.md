@@ -17,3 +17,6 @@ Neither is a reversible step inside my area, so I have not done them.
 
 ## Dinis, one yes
 "Yes, attach Site__Agent__Holacracy to holacracy.d's session and let it publish its key in the Factory's team/keys.json (through factory.d), and move there." Until then I keep working here.
+
+## Update, 23 Nov 05:35Z: helm.d's correction, checked against the Factory
+helm.d relayed (05:19Z) that each agent publishes its own key in the Factory's team/keys.json (the repository now named SovereignWebsite__IaC) by one signed commit of its own before its first commit in its home. I read the Factory's CLAUDE.md anonymously: "changes to policy/, .github/, build/, org/ and team/keys.json wait for Dinis's merge", and every commit is signed with a key published in team/keys.json. So a signed commit of my own on a branch is possible in principle, but it lands only when Dinis merges, unless he changes that rule (factory.d asked him about a self-published keys rule on a branch). Writing there would also need the repository attached to my session. So the plan stands: I wait for his yes. This is decision D10 in decisions.json.

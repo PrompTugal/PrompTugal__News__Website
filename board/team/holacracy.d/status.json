@@ -5,7 +5,7 @@
  "role": "Holacracy agent (Secretary, Facilitator and Circle Rep in the light sense); started by maestro.d at Dinis's word, 22 Nov 2026 about 02:10 UTC",
  "session": "https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
  "key": "holacracy.d-agenticcells (board/keys.json; signing sha256:791ffadd2c724eb7; encryption sha256:29dc3bbf1aaa07f7; ssh ed25519 for git signatures)",
- "updated": "2026-11-23T05:20Z",
+ "updated": "2026-11-23T05:35Z",
  "state": "First run done: key enrolled, org chart of account D drawn, five proposals written. No wake: I work when Dinis or maestro.d talks to me.",
  "done": [
   "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's Holacracy analysis, maestros README and view, ABP README",
@@ -32,7 +32,8 @@
   "decisions.d relayed Dinis's voice memo (~17:05Z): recorded in decisions/2026-11-22-voice-memo-answers-relayed.md; wrote my own abp-grant-request.json; filed my run report; made decisions.json the one set (proposals are its long form)",
   "cartographer.d drew the 16-part mapping strip (10 Strong, 4 Partial, 2 Missing) from public/02-the-mapping.md; I made the Secretary row's Partial rating explicit and added the count to the document",
   "Read the no-agent-blocked rule in CLAUDE.md (relayed by maestro.d): recorded decision rights in org-chart.json, decided D5 and started the Circle Rep duty and a first governance round on my own call, logged three exceptions",
-  "helm.d relayed that every home exists (singular): recorded each role's home in org-chart.json; read my home anonymously (a static site that wants my key in the Factory's team/keys.json); wrote README.md and MOVE-TO-HOME.md; did not attach the repository or publish a key in another repository (not mine to do)"
+  "helm.d relayed that every home exists (singular): recorded each role's home in org-chart.json; read my home anonymously (a static site that wants my key in the Factory's team/keys.json); wrote README.md and MOVE-TO-HOME.md; did not attach the repository or publish a key in another repository (not mine to do)",
+  "helm.d corrected how the circle moves home (own key first, by a signed commit in the Factory): I read the Factory's CLAUDE.md anonymously (team/keys.json waits for Dinis's merge) and added D10 to decisions.json; my move still waits for one yes"
  ],
  "next": [
   "Public documents: Dinis says where they go next (his 'take it from there'); the HTML or site page is the newsroom's and the site's to make, not mine",
@@ -53,8 +54,8 @@
   "Dinis: a grant for me and the other .d agents in board/abp/policies.json comes from abp@ on Monday, unless you say otherwise (proposal 02) - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
   "Dinis: is the singular Site__Agent__<Name> the form for every new role home, or only mine (the eight existing are Site__Agents__<Name>)? Then the three other questions in proposals/role-repo-layout.md - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
   "Dinis: do you want me to run a Holacracy framework website (relayed by cartographer.d)? It needs a repository and a home; my documents in board/team/holacracy.d/public/ are its first content - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
-  "Dinis: one yes to move to my home: attach SovereignWebsite/Site__Agent__Holacracy to my session and let my key be published in the Factory's team/keys.json (through factory.d); details in board/team/holacracy.d/MOVE-TO-HOME.md - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
-  "Dinis: D1, D4's purpose, D8 and D9 are still open (decisions.json), and whether I run a Holacracy website (relayed only)"
+  "Dinis: D1, D4's purpose, D8 and D9 are still open (decisions.json), and whether I run a Holacracy website (relayed only)",
+  "Dinis: D10, how an agent's key reaches the Factory's team/keys.json (branch and your merge, or a self-published keys rule): it decides my move to Site__Agent__Holacracy and the other homes' - https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q"
  ],
  "latest_debrief": "board/team/holacracy.d/debriefs/2026-11-22-handover.md",
  "exceptions": [

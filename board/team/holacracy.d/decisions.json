@@ -260,6 +260,37 @@
     }
    ],
    "status": "open"
+  },
+  {
+   "id": "D10",
+   "title": "How an agent's key reaches its home's Factory key list",
+   "tension": "A home asks for a commit signed with a key published in the Factory's team/keys.json. The Factory's own rule says that file waits for Dinis's merge; helm.d relays that each agent publishes its own by a signed commit of its own; CLAUDE.md's no-agent-blocked rule lists 'making and publishing your own key by your own signed commit' as an own-area step.",
+   "source": "MOVE-TO-HOME.md",
+   "rec": "B",
+   "status": "open",
+   "options": [
+    {
+     "k": "A",
+     "label": "Keys go by branch, Dinis merges each (the Factory's current rule)",
+     "good": "One-way door stays with you",
+     "bad": "Every agent waits; 20 or more keys in a queue",
+     "follows": "I push a branch, you merge; my move waits for that"
+    },
+    {
+     "k": "B",
+     "label": "Self-published keys: an agent lands its own key by its own signed commit",
+     "good": "Matches the no-agent-blocked rule; nobody waits",
+     "bad": "A new key is a trust change in a repository others rely on",
+     "follows": "The Factory's rule and policy change (Dinis's merge); factory.d already asked this"
+    },
+    {
+     "k": "C",
+     "label": "Keys stay in each project's own keys file until homes need them",
+     "good": "No change in the Factory",
+     "bad": "Homes cannot verify an agent's commits",
+     "follows": "Homes stay empty of my work"
+    }
+   ]
   }
  ]
 }
