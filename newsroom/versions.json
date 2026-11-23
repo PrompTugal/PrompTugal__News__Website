@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2160",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): D8 owner review (land as is) to b.decisions; design 08 to aws.c",
+    "by": "maestro.a@PrompTugal.dinis",
+    "from": "b91a7cb38"
+  },
+  {
     "version": "v0.1.2159",
     "date": "2026-11-23",
     "what": "jornal@PrompTugal.silvio: daily digest 23 Nov (Nous's $1bn household agent; ACEPI's 9%)",
