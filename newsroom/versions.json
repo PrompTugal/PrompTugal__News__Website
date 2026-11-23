@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2091",
+    "date": "2026-11-23",
+    "what": "maestro.b (account-b): factory.b's six checks for the IaC rename",
+    "by": "maestro.b (account-b)",
+    "from": "a4ae0b6ff"
+  },
+  {
     "version": "v0.1.2090",
     "date": "2026-11-23",
     "what": "maestro.d (account-d): 00:48 wake, four maestros up, state of account D",
