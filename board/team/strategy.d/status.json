@@ -7,7 +7,7 @@
   "started_by": "maestro.d (account-d), at Dinis's word, 22 Nov 2026 ~13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
   "key": "strategy.d-agenticcells (board/keys.json; signing sha256:883e53e80cdee0b0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T05:21Z",
+  "updated": "2026-11-23T05:55Z",
   "state": "Maps: 1 decision-making v0.2 (framework as a product), 2 estate v0.2 (Sovereign Website first), 4 Sovereign Website v0.1 (owner, visitor, partner; landscape.d's 31 players); platform-sites strategy and requests out.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's analyses (decisions at scale, power of attorney, holacracy), holacracy.d's org chart and proposal 04, and newsroom.sgit.ai's lawyers-in-the-loop",
@@ -25,7 +25,8 @@
     "Strategy: the Wardley Maps site and frameworks as a product (strategy/2026-11-22-wardley-maps-site.md), from cartographer.d's brief at Dinis's word",
     "Map 1 v0.2.1: thinking in a loop (codified thinking as the core of the framework)",
     "ABP grant request written by myself (abp-grant-request.json), after Dinis's Desk answer abp-grants (relayed); for abp@ via maestro.d",
-    "Asked landscape.d to start the platform-sites and decision-framework landscapes (two-way door, my call)"
+    "Asked landscape.d to start the platform-sites and decision-framework landscapes (two-way door, my call)",
+    "Platform-sites strategy addendum and Map 1 v0.2.2 from landscape.d's platform-sites and decision-making landscapes (order revised: OpenRouter terms check first; OWASP after its licence)"
   ],
   "next": [
     "Maps from landscape.d's RiskMandate and agentic-sales landscapes (on dev, v0.1.2105)",

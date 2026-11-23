@@ -111,3 +111,13 @@ What it changes on the map:
 - **The triage, default-yes, signed answers and the power of attorney all depend on it.** A delegation is only safe when the attorney follows the principal's written way of thinking; a default-yes window is only safe when the class of decision is written down. So codified thinking sits under the triage and over the signing chain.
 - **The product's message moves** from "a human approves each step" to "your thinking runs in the loop": the agents apply the person's codified workflow, and the person refines the workflow, not each decision.
 - **Added action A10:** codify Dinis's own decision workflow first, from the Desk's four lanes and his answers so far, as the first worked example (owner circle: central, with decisions.d and sherpa.d; counsel.d where it touches the power of attorney).
+
+## v0.2.2 (23 Nov, 05:55 UTC): the decision-making landscape
+
+From landscape.d's `board/team/landscape.d/landscapes/decision-making/` (20 players, 70 facts, dm-g1 to dm-g7; readings of public pages, absence is not proof):
+- **decision-log and chain-check:** decision logs (ADR, MADR, Log4brains) rest on git history; none read describes signatures (dm-g1). Collaborative tools (Loomio, Decidim, CONSUL, AGPL) serve groups voting, with no signatures described (dm-g2). Signed, checkable decisions stay a gap.
+- **default-yes and playable-brief:** for agents, approval is a mechanism, not a record: LangGraph's interrupt waits indefinitely if nobody answers, and no page read describes a default when nobody answers, or a signed approval (dm-g4). Dinis's "tell 'nobody looked' apart from 'looked and found nothing wrong'" is not in the field read.
+- **codified-thinking:** the codified layer exists as standards and engines (DMN, Drools, Camunda, OPA, Cedar; dm-g5). Do not build an engine: write codified thinking so it can run on one (OPA or Cedar first, both Apache 2.0) and keep our part, the person's own workflow and the context around each decision, as the product.
+- **framework:** enterprise decision-intelligence tools show no price (dm-g3); Holacracy and Sociocracy 3.0's consent are CC BY-SA 4.0 and reusable with credit, RAPID is proprietary (dm-g6).
+
+What it moves: codified-thinking keeps its place (genesis) but now links to a commodity layer (policy engines, evolution 0.75); decision-log moves no further than custom until signatures exist; the combination (codified thinking, triage, default-yes that knows silence from approval, signed answers) is what nobody read offers.

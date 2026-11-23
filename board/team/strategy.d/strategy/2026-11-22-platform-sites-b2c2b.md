@@ -126,3 +126,16 @@ So a page can hold the user's own credentials and call these APIs directly; noth
 - **Red until checked: riding a logged-in session the platform does not open to other sites.** The browser's same-origin rule stops a page from reading another site's logged-in data; getting round it means an extension or scraping with the user's cookies. Many platforms' terms forbid automated access (LinkedIn's among them, to check), computer-misuse laws differ by country, and the data often holds other people's personal data (contacts), which brings data-protection law in. Being logged in does not make it fair game. The ABP should deny this tier by default: that refusal is itself a showcase.
 
 **Strategic consequence:** the better-UI sites stand on tiers 1 and 2, which are open, legal and repeatable. AWS joins the list (budgets, services, an S3 browser with a CORS rule set once per bucket). Each new UI adds reusable parts (key vault, token flow, cost views), so the next one is cheaper: the same volume argument as above.
+
+## Addendum (23 Nov, 05:55 UTC): what the platform-sites landscape changes
+
+From landscape.d's `board/team/landscape.d/landscapes/platform-sites/` (34 players, 86 facts, findings ps-g1 to ps-g7; readings of public pages on 23 Nov, absence on a page is not proof of absence).
+
+1. **The browser-direct model is rare, which is our gap** (ps-g6): the alternatives found are mostly agent layers and desktop apps for technical users; one browser-direct web client was read (RouterChat, for OpenRouter). "Your key stays in your browser, a better UI on your own account" has few precedents.
+2. **Odoo: build the UI, not another agent layer** (ps-g1). The alternatives are MCP servers and modules for developers; none is a better interface for the person using Odoo. Our Odoo site leads with the UI and the plan-then-apply flow, not with "an MCP server".
+3. **OpenRouter: a risk to settle before building** (ps-g2): its terms, as landscape.d read them, bar reselling or a competing service and leave third-party tools to their own terms. The OpenRouter site must be a free client on the user's own key, never a resale of access; rights@ or counsel.d reads the terms before launch. It stays first in the order (Dinis's word), but this check comes first within it.
+4. **AWS: the gap is real** (ps-g3): S3 browsers and cost tools exist (desktop, self-hosted, AWS's own billing MCP server), and none read states it runs browser-direct on the user's own key. Approving any change to AWS stays Dinis's (CLAUDE.md); a read-only budgets and costs view comes first.
+5. **Wikipedia: our rules match its terms** (ps-g4): CC BY-SA 4.0 with credit, a User-Agent that names us, names and logos only under its Trademark Policy, no implied endorsement.
+6. **OWASP: licence unknown for the Top Ten** (ps-g5): the Cheat Sheet Series is CC BY-SA 4.0, with OWASP's note that its Markdown is not meant to be cited externally; the Top Ten page states no licence and the licensing page returned 404. Check with OWASP's licensing before building; until then OWASP moves behind Wikipedia.
+
+Revised order: the OpenRouter agent (after its terms check), Odoo, AWS read-only, Wikipedia, then OWASP once its licence is known.
