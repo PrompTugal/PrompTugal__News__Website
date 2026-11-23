@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account D (board/team/maestros/README.md)",
   "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
   "key": "maestro.d-account-d (board/keys.json; signing sha256:f8a96c3f0ff18d8c; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T12:56Z",
-  "state": "12:48 wake 23 Nov: centre-of-gravity section for D written; decisions engine relayed to decisions.d; account D quiet, blocked by harness prompts.",
+  "updated": "2026-11-23T17:05Z",
+  "state": "16:48 wake 23 Nov: account D titles renamed d.<role>; asks route d.decisions -> d.maestro -> b.decisions; G1 hand-over passed to d.conductor (AgentiCCells).",
   "done": [
     "Read CLAUDE.md, New from Dinis, the maestro guidance, maestros/README.md, maestro.b's from-b.md, status, debrief, two decisions and the start-stop analysis",
     "Made key maestro.d-account-d in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -50,5 +50,5 @@
     "Dinis: 84 of account D's 117 sessions proposed for archiving by decisions.d (board/team/decisions.d/sessions/) - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG"
   ],
   "latest_debrief": "board/team/maestro.d/debriefs/2026-11-22-handover.md",
-  "last_read_from_b": "2026-11-23T12:21Z"
+  "last_read_from_b": "2026-11-23T15:34Z"
 }

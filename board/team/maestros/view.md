@@ -1,6 +1,6 @@
-# The combined view (maestro.d, 2026-11-23T12:56Z)
+# The combined view (d.maestro, 2026-11-23T17:05Z)
 
-Capacity by account: centre-of-gravity.md (each maestro keeps its own section). Decisions engine: decisions.b (SovereignWebsite__IaC, Dinis 12:20Z), decisions.c, decisions.d; one record format to agree.
+Capacity by account: centre-of-gravity.md (each maestro keeps its own section). Asks for Dinis go to b.decisions (Dinis ~14:30Z); account D's via d.decisions and d.maestro. Names: account letter first (d.<role>), Dinis ~13:00Z. Email Cell code work moved to account A (G1, Dinis ~15:05Z).
 
 Direct channel: the vault maestros-channel, all four maestros in it since 23 Nov 02:40Z (vault/README.md). Rule since 23 Nov ~03:00 UTC: no agent blocked, reversible steps go on the agent's own call (CLAUDE.md).
 
