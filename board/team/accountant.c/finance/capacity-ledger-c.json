@@ -84,6 +84,18 @@
    "sessions_blocked": null,
    "api_equiv_usd_lifetime_read": null,
    "notes": "Pace AMBER. maestro.c 30.14 (06:26) to 36.98 (07:33), +6.8/h at 653k context: the largest burn on C. conductor.aws.c 20.40 at 486k. Inbox run 1519.13 at 349k. Advised compaction or hand-over for both conductors."
+  },
+  {
+   "at": "2026-11-23T09:36Z",
+   "account": "C",
+   "source": "read",
+   "five_hour_status": "allowed",
+   "five_hour_resets_utc": "2026-11-23T11:20Z",
+   "weekly_percent": null,
+   "sessions_working": null,
+   "sessions_blocked": null,
+   "api_equiv_usd_lifetime_read": null,
+   "notes": "GREEN for the five-hour window. AWS team on account A since 07:26; maestro.c 3-hourly, 36.98 to 38.60 in 2 h (<1/h), context 674k. Wakes left on C: router.c hourly, design.c 2-hourly (may go hourly), studio.c 4-hourly, inbox run 2-hourly, maestro.c 3-hourly. Weekly last 50% at 03:40; unread since."
   }
  ]
 }
