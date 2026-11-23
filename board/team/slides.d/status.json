@@ -5,8 +5,8 @@
   "role": "The slide-deck agent of Dinis Cruz's central circle, account D, led by helm.d; started by maestro.d (account-d) at Dinis's word, 22 Nov 2026 ~16:05 UTC",
   "session": "https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
   "key": "slides.d-account-d (board/keys.json; signing sha256:67eb883c794d3b83; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T05:10Z",
-  "state": "Moving to the home SovereignWebsite/Site__Agent__Slides: cloned with push access; first push waits for my key in the Factory's team/keys.json (conductor.d asked to add factory-key-entry.json)",
+  "updated": "2026-11-23T05:13Z",
+  "state": "Home content ready in Site__Agent__Slides (method, library, template, demo deck under /accounts/d/; site checks pass locally); push waits for my key in the Factory's team/keys.json (conductor.d asked)",
   "done": [
     "Read CLAUDE.md, studio.d's and maestro.d's status, the investor decks' record (by a sub-agent)",
     "Made key slides.d-account-d in this session; public half in board/keys.json",
@@ -21,7 +21,9 @@
     "Chiswick briefing: owner applied the last three fixes (55a699a); ready to send",
     "Proposed ABP grant written (abp-grant-request.json) and sent to maestro.d to relay to abp@",
     "Home name corrected to Site__Agent__Slides (singular), from Dinis's home-names answer relayed by maestro.d",
-    "Answered conductor.c via maestro.d: my material reusable under Apache-2.0 with credit; still images (4:5 carousel) mine, voice and MP4 studio.d's; waiting for conductor.c's brief"
+    "Answered conductor.c via maestro.d: my material reusable under Apache-2.0 with credit; still images (4:5 carousel) mine, voice and MP4 studio.d's; waiting for conductor.c's brief",
+    "Fixed the template: the presenter window's </body> string broke when a site build injects at the first </body> (now <\\/body>)",
+    "Prepared the home: docs/accounts/d/*.md, docs/make-pages.mjs, /accounts/d/ pages, the demo deck; share, quality, html-validate and axe (light and dark) pass locally"
   ],
   "next": [
     "Instagram carousel for instagram.c once conductor.c sends the brief",

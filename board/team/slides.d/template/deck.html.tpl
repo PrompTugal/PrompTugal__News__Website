@@ -139,7 +139,7 @@
   }
   function openPresenter() {
     presenter = open('', 'presenter', 'width=900,height=600'); if (!presenter) return; t0 = t0 || Date.now()
-    presenter.document.write('<title>Presenter</title><body style="font:20px system-ui;background:#111;color:#eee;padding:24px"><div id="now" style="font-size:28px;font-weight:700"></div><div id="timer" style="color:#ff6b35;margin:8px 0"></div><div id="notes" style="font-size:26px;line-height:1.4;margin:20px 0"></div><div id="next" style="color:#9aa4b2"></div><p style="color:#666">Arrows here move the deck too.</p></body>')
+    presenter.document.write('<title>Presenter</title><body style="font:20px system-ui;background:#111;color:#eee;padding:24px"><div id="now" style="font-size:28px;font-weight:700"></div><div id="timer" style="color:#ff6b35;margin:8px 0"></div><div id="notes" style="font-size:26px;line-height:1.4;margin:20px 0"></div><div id="next" style="color:#9aa4b2"></div><p style="color:#666">Arrows here move the deck too.</p><\/body>')
     presenter.document.close(); presenter.addEventListener('keydown', key)
     const tick = () => { if (presenter.closed) return; const m = Math.floor((Date.now() - t0) / 1000); presenter.document.getElementById('timer').textContent = String(Math.floor(m / 60)).padStart(2, '0') + ':' + String(m % 60).padStart(2, '0'); setTimeout(tick, 1000) }
     tick(); paintPresenter()
