@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2131",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): decision desk for Dinis: 7 open asks, the bottleneck analysis (18 of 22 asks need not have reached him) and five decision-flow choices",
+    "by": "maestro.a (account-a)",
+    "from": "ed92958f9"
+  },
+  {
     "version": "v0.1.2130",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): Dinis's word: account C's AWS sessions are kept, not archived; iam.aws.c writes its hand-over note; relayed",
