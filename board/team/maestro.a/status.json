@@ -5,7 +5,7 @@
   "role": "Conductor of the conductors, account A",
   "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
   "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T10:24Z",
+  "updated": "2026-11-23T11:17Z",
   "state": "10:23 wake: AWS team on A waiting on account C (policy paths, keys) at Dinis word; two agents backed off to 2 h",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
@@ -20,7 +20,8 @@
     "Direct mail confirmed both ways: maestro.c's two mails (02:33Z, 02:56Z) drained, signed and verified",
     "At Dinis's word (03:31 UTC): started the 16 AWS stage 2 roles on account A from conductor.aws.c's hand-overs, with wakes (account-a-aws-team.json)",
     "C agents' work confirmed landed on dev (03:43, aws.c); A agents told to rebase; maestro.c told 15 C sessions can be archived",
-    "Wave 2 (conductor, pm, security, architect, s3, sherpa .aws.a) started on account A with wakes (07:25 UTC)"
+    "Wave 2 (conductor, pm, security, architect, s3, sherpa .aws.a) started on account A with wakes (07:25 UTC)",
+    "Dinis: account C's AWS sessions are kept (not archived); iam.aws.c writes its note; relayed to maestro.c"
   ],
   "next": [
     "Every 2 h: relay conductor.aws.a's and the agents' notes for account C; account A's state; Dinis's decisions",
@@ -32,7 +33,6 @@
     "Dinis: iam.aws.a R-008 (an AWS change, yours): (a) console apply of v2.1 plus permission boundaries (its recommendation), (b) v2.1 now, boundaries later, (c) no boundary - https://claude.ai/code/session_018yvwtLi5HNUo32ot6ApGm8",
     "Dinis: dev.1.aws.a: 'yes, push work/dev.1.aws.a' - https://claude.ai/code/session_018yvwtLV1iZjUCMEKz1PZ51",
     "Dinis: viz.aws.a: 'push unsigned to work/viz.aws.a' or allow its key conversion - https://claude.ai/code/session_018yvwtLMhfsoY8D8duFRbSs",
-    "Dinis: iam.aws.c (account C): 'go' for its held hand-over note, then it can be archived - session_01Kw9UwCNBBjF4QFqtci6B6J",
     "Dinis: billing.aws.a: does the real CloudTrail trail record S3 data events? - https://claude.ai/code/session_018yvwtQWFVjgGwshqcKkxUF",
     "Dinis: dev.2.aws.a decision 3 now sits with pm.aws.a's board (recommend c) - https://claude.ai/code/session_018yvwtN79NSkFnwbV7UzFuc",
     "Dinis: in factory.c's session (account C), 'land the AWS keys' for the .a agents' key commits (dev.2, data, s3 ready; more coming) - via maestro.c",
