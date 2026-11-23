@@ -3,11 +3,24 @@
  "account": "c",
  "claim_rule": "router.c claims a request only at level green; at amber it claims only a report of the account's state; at red or stop it claims nothing and says so in a receipt-free note here",
  "latest": {
-  "at": "2026-11-23T02:09Z",
-  "level": "green (no five-hour reading: the window reset at 01:20 UTC and none has been reported since; weekly not read)",
+  "at": "2026-11-23T03:08Z",
+  "level": "green (five-hour only; weekly not read)",
   "can_claim": true
  },
  "rows": [
+  {
+   "at": "2026-11-23T03:08Z",
+   "account": "C",
+   "source": "read",
+   "five_hour_status": "allowed",
+   "five_hour_resets_utc": "2026-11-23T06:20Z",
+   "overage": false,
+   "weekly_percent": null,
+   "sessions_read": [
+    "router.c (this session)"
+   ],
+   "notes": "a new five-hour window, opened after the 01:20 UTC reset."
+  },
   {
    "at": "2026-11-23T02:09Z",
    "account": "C",

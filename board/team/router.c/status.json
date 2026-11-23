@@ -12,7 +12,7 @@
  },
  "state": "waking hourly at :08 (trigger trig_01YUNpUGf7sWTSo3PzeqTWNS); ledger empty; waiting for Dinis: the pin",
  "pinned_issuer": null,
- "last_ledger_read": "2026-11-23T02:09Z",
+ "last_ledger_read": "2026-11-23T03:08Z",
  "done": [
   "key made in this session, entry in board/keys.json (signing sha256:2d10ae1640ecbb1b); commits signed with ssh key router.c-account-c",
   "board/routers/ledger/tools/ledger.mjs: open, claims, receipts, index, check (the receiver's mechanical checks, fail closed), selftest (9 cases pass)",
@@ -28,6 +28,6 @@
   "Dinis: account C's weekly percent, when you can (no session can read it)",
   "Dinis: yes or changes to board/routers/vaults-plan.md"
  ],
- "updated": "2026-11-23T02:50Z",
+ "updated": "2026-11-23T03:08Z",
  "debrief": "board/team/router.c/debriefs/2026-11-23-handover.md"
 }
