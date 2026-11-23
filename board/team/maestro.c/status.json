@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T06:36Z",
-  "state": "06:26 after the reset: 16 AWS agents moved to account A (running since 03:35); C sessions being archived by conductor.aws.c; next wave (6 AWS stayers) being prepared",
+  "updated": "2026-11-23T07:38Z",
+  "state": "07:33 wake: the AWS programme (22 agents) runs on account A; only aws.c stays on C; account C allowed, window to 11:20 UTC",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -37,8 +37,8 @@
     "Relay the new sessions' first asks (key merges in the Factory) to Dinis"
   ],
   "asks": [
-    "Dinis: say go in iam.aws.c's session for its held note (then it is archived) - https://claude.ai/code/session_01Kw9UwDiqvoswkZCuHe5GTt",
-    "Dinis: the next wave to account A (conductor.aws.c, pm, security, architect, s3, sherpa): yes in maestro.a's session when the hand-overs are ready - https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
+    "Dinis: security.aws's R-008, R-009, R-010 and aws.c's plan v2.1: read and decide (now conductor.aws.a on account A, https://claude.ai/code/session_018yvwtPiszBTMHKVD4AuDwn)",
+    "Dinis: the .a names in Site__Platform__AWS's policy, in aws.c's session - https://claude.ai/code/session_01Kw9UwAzhau7Us55PugP2V2",
     "Dinis: add pip install sgit-ai==0.27.0 to account C's setup script (this morning)",
     "Dinis: pin sha256:c0a1a5eb667a649d in router.a and router.c, then 'test' in decisions.c - https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n",
     "Dinis: iam.aws.a's R-008, dev.1.aws.a and viz.aws.a wait on you in their sessions on account A (maestro.a's 05:25 line)"
@@ -46,5 +46,5 @@
   "latest_debrief": "board/team/maestro.c/debriefs/2026-11-23-handover.md",
   "last_read_from_b": "2026-11-23T01:21Z",
   "last_read_from_d": "2026-11-23T04:58Z",
-  "last_read_from_a": "2026-11-23T05:25Z"
+  "last_read_from_a": "2026-11-23T07:26Z"
 }
