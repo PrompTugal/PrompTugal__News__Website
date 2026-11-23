@@ -1,0 +1,86 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "decisions.d@AgentiCCells.dinis",
+ "run": "2026-11-23T17-06-02Z",
+ "started": "2026-11-23T17:06:02.365Z",
+ "ended": "2026-11-23T17:13:26Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-23T17:13:13.533Z",
+   "chars": 470,
+   "sha256": "76b8cd2a82a7bc8b",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>2 unread notifications (message from another Claude session: 2)</summary>\nNotifications are que"
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 4,
+  "by_kind": {
+   "release": 2,
+   "agent-message": 1,
+   "other": 1
+  }
+ },
+ "policies_executed": {},
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 4,
+  "commits": [
+   {
+    "sha": "d51c225a0",
+    "subject": "decisions.d@AgentiCCells.dinis: account D's list for b.decisions, version 2 (ASK D1 to D31, from the agents' own asks)",
+    "files": 3
+   }
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "denied": [],
+  "blocked": 0,
+  "observed": 0
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "d51c225a0 wrote board/runs/decisions.d-dinis/2026-11-23T17-02-17Z.json",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "d51c225a0 wrote board/team/decisions.d/log/asks-for-b-decisions-2026-11-23.md",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "d51c225a0 wrote board/team/decisions.d/status.json",
+   "rule": "R6"
+  }
+ ],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 4,
+  "in_mandate": 4,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 3
+ }
+}
