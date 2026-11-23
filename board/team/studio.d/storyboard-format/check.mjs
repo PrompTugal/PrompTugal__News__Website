@@ -22,7 +22,7 @@ for (const d of [s.decision, ...(s.decisions || [])].filter(Boolean)) {
   if (d.recommendation && !(d.options || []).some(o => o.id === d.recommendation)) p.push('Decision: recommendation is not an option id')
 }
 const text = JSON.stringify(s)
-if (text.includes('—')) p.push('No em dashes in prose')
+if (text.includes('\u2014')) p.push('No em dashes in prose')
 for (const m of text.match(/[\w.+-]+@[\w.-]+\.[a-z]+/gi) || []) if (!/@(PrompTugal|AgentiCCells)\.dinis$/i.test(m)) p.push(`Email-shaped name outside the allowed domains: ${m}`)
 if (/(sk-[A-Za-z0-9]{16,}|BEGIN [A-Z ]*PRIVATE KEY)/.test(text)) p.push('Looks like a key or token')
 console.log(p.length ? p.join('\n') : 'ok')
