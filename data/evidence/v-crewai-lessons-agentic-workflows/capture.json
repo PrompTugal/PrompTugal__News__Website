@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-crewai-lessons-agentic-workflows",
+  "type": "evidence",
+  "source_url": "https://blog.crewai.com/lessons-from-2-billion-agentic-workflows/",
+  "beat": "AI agents in real work",
+  "group": "AI agents in real work",
+  "names": [
+    {
+      "as_listed": "CrewAI",
+      "ref": "organisation:crewai"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-23-0750.json",
+  "run": "2026-11-23T07:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-23-0750.json"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "crewai",
+  "type": "organisation",
+  "name": "CrewAI",
+  "names_as_listed": [
+    "CrewAI"
+  ],
+  "sources": [
+    {
+      "url": "https://blog.crewai.com/lessons-from-2-billion-agentic-workflows/",
+      "read_at": "2026-11-23T07:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}
