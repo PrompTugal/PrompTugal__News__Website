@@ -70,7 +70,7 @@ States: proposed, chosen, drafting, with Vicky, published, set aside. The full p
 
 ## A1: People ahead, companies behind
 
-- **State:** published on 23 Nov 2026 by the reviewer as \"AI use in Portugal jumps in 2026, for people and companies\" (`content/articles/ai-use-in-portugal-2026.md`), with INE's 2026 figures (updated 20 Nov).
+- **State:** published on 23 Nov 2026 by the reviewer as "AI use in Portugal jumps in 2026, for people and companies" (`content/articles/ai-use-in-portugal-2026.md`), with INE's 2026 figures (updated 20 Nov).
 - **The question.** People in Portugal use AI more than the EU average, but Portuguese companies have used it less. Why the gap, what does each number measure, and is it closing?
 - **AI path.** AI directly, 0 steps. Linked to the Humans and AI series. Places: Portugal, the Algarve (INE's regional figure, 2026), Europe.
 - **Checked figures** (2026 checked on 20 Nov 2026; EU 2025 re-read the same day, unchanged).
