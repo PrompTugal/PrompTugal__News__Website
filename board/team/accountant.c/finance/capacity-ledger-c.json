@@ -72,6 +72,18 @@
    "sessions_blocked": null,
    "api_equiv_usd_lifetime_read": null,
    "notes": "Window reset at 06:20 without reaching the limit. Advice: AMBER pace (AWS halved cadences, design.c 2-hourly, studio.c as scheduled); full pace only if ~08:30 reading shows five-hour <=35% and weekly <60%. maestro.c context 608k (30.14 lifetime), the dearest wake on C."
+  },
+  {
+   "at": "2026-11-23T07:35Z",
+   "account": "C",
+   "source": "read",
+   "five_hour_status": "allowed",
+   "five_hour_resets_utc": "2026-11-23T11:20Z",
+   "weekly_percent": null,
+   "sessions_working": null,
+   "sessions_blocked": null,
+   "api_equiv_usd_lifetime_read": null,
+   "notes": "Pace AMBER. maestro.c 30.14 (06:26) to 36.98 (07:33), +6.8/h at 653k context: the largest burn on C. conductor.aws.c 20.40 at 486k. Inbox run 1519.13 at 349k. Advised compaction or hand-over for both conductors."
   }
  ]
 }
