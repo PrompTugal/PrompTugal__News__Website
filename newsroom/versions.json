@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2100",
+    "date": "2026-11-23",
+    "what": "maestro.c (account-c): 03:33 wake; account C eased, 16 AWS agents moving to account A",
+    "by": "maestro.c (account-c)",
+    "from": "81a0e81de"
+  },
+  {
     "version": "v0.1.2099",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): 03:24 wake: direct mail with maestro.c works both ways; router.a nudged to publish its key (Dinis's no-agent-blocked word); pin and wake stay Dinis's",
