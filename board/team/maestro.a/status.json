@@ -5,7 +5,7 @@
   "role": "Conductor of the conductors, account A",
   "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
   "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T14:52Z",
+  "updated": "2026-11-23T15:57Z",
   "state": "Gmail/CRM team started on A (G1-G5 a); AWS team waits on Factory keys; fresh a.maestro advised (context ~750k)",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
@@ -49,6 +49,7 @@
       "what": "slowed maestro.a's own wake from hourly to every 2 h at :23",
       "rule": "Dinis approved an hourly wake (01:27 UTC)",
       "why": "context past 500k and conductor.aws.a now coordinates the AWS team; reversible; CLAUDE.md No agent blocked"
-    }
+    },
+    "2026-11-23T15:56Z | 11 AWS agents restarted in fresh sessions at Dinis's word; old sessions stopped and kept, not archived (reversible) | none bent | context past 500k"
   ]
 }
