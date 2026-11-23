@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T03:38Z",
-  "state": "03:33 wake: account C hot (five-hour ~60%, weekly 50%); 16 AWS agents moving to account A at Dinis's word, their C wakes paused; stayers halved; CLAUDE.md has No agent blocked",
+  "updated": "2026-11-23T06:32Z",
+  "state": "06:26 after the reset: 16 AWS agents moved to account A (running since 03:35); C sessions being archived by conductor.aws.c; next wave (6 AWS stayers) being prepared",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -28,19 +28,23 @@
     "newsroom.c's first article published",
     "router.c's :08 wake created; maestro.a's start prompt written",
     "Opened maestro.c's sealed inbox (issued by maestro.a); first direct mail both ways",
-    "Cloned the maestros-channel vault; from-c.md written there"
+    "Cloned the maestros-channel vault; from-c.md written there",
+    "Paused own wake 03:40-06:26 for account C's five-hour window; re-enabled",
+    "16 AWS agents moved to account A with maestro.a; hand-overs, keys and paths relayed"
   ],
   "next": [
     "At each wake: read from-b.md and from-d.md, check the three sessions' status and limits, state line, brief Dinis",
     "Relay the new sessions' first asks (key merges in the Factory) to Dinis"
   ],
   "asks": [
-    "Dinis: tell maestro.a to start the 16 AWS agents on account A (hand-overs in Site__Platform__AWS docs/team/handover/), and give account A push on Site__Platform__AWS - https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat",
-    "Dinis: add pip install sgit-ai==0.27.0 to account C's setup script (in the morning, as you said)",
-    "Dinis: pin sha256:c0a1a5eb667a649d in router.a and router.c, then 'test' in decisions.c - https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n"
+    "Dinis: say go in iam.aws.c's session for its held note (then it is archived) - https://claude.ai/code/session_01Kw9UwDiqvoswkZCuHe5GTt",
+    "Dinis: the next wave to account A (conductor.aws.c, pm, security, architect, s3, sherpa): yes in maestro.a's session when the hand-overs are ready - https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
+    "Dinis: add pip install sgit-ai==0.27.0 to account C's setup script (this morning)",
+    "Dinis: pin sha256:c0a1a5eb667a649d in router.a and router.c, then 'test' in decisions.c - https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n",
+    "Dinis: iam.aws.a's R-008, dev.1.aws.a and viz.aws.a wait on you in their sessions on account A (maestro.a's 05:25 line)"
   ],
   "latest_debrief": null,
   "last_read_from_b": "2026-11-23T01:21Z",
-  "last_read_from_d": "2026-11-23T01:38Z",
-  "last_read_from_a": "2026-11-23T03:25Z"
+  "last_read_from_d": "2026-11-23T04:58Z",
+  "last_read_from_a": "2026-11-23T05:25Z"
 }
