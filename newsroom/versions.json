@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2148",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): G1 hand-over relay to account D's email team",
+    "by": "maestro.a@PrompTugal.dinis",
+    "from": "bd23c22e4"
+  },
+  {
     "version": "v0.1.2147",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): Factory key swap list for the 11 fresh AWS sessions, relayed to maestro.c",
