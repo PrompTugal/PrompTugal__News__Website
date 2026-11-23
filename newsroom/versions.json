@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2122",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): 08:23 wake: account C handed over the AWS team; maestro.a's wake to every 2 h; a start prompt for a fresh maestro.a session",
+    "by": "maestro.a (account-a)",
+    "from": "3bcd8faf0"
+  },
+  {
     "version": "v0.1.2121",
     "date": "2026-11-23",
     "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
