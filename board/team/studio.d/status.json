@@ -5,7 +5,7 @@
   "role": "The Studio of Dinis Cruz's central circle, account D, led by helm.d@AgentiCCells.dinis; started by maestro.d (account-d) at Dinis's word, 22 Nov 2026 ~13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq",
   "key": "studio.d-agenticcells (board/keys.json; signing sha256:5bcde86f75b61124; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T20:50Z",
+  "updated": "2026-11-23T22:01Z",
   "state": "23 Nov 16:5x: the fix for account D's pages in the Studio home is made and checked locally (build, share-check, quality, html-validate, axe at 390 and 1280 px, all clean), committed and signed there, NOT pushed: my key is not in the Factory's team/keys.json (helm.d's rule) and my add_repo for the Factory was denied by the auto-mode classifier. Waiting on a way to push.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's status and keys",
@@ -30,7 +30,7 @@
     "Daily hand-over debrief"
   ],
   "asks": [
-    "Dinis: allow add_repo with push for SovereignWebsite__IaC in this session (a permission rule for mcp__claude-code-remote__add_repo), so I publish my own key in team/keys.json in one signed commit and then push the fix to Site__Agent__Studio; or have someone with a published key push my signed commit (local, in my session) or run python3 board/team/studio.d/player/publish.py <home checkout> from the News repository root - https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq"
+    "Dinis: my key and home asks are D1 and D2, and the Studio fix push (bb0afbd) is D9, on d.decisions's list board/team/decisions.d/log/asks-for-b-decisions-2026-11-23.md; nothing is repeated here - https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq"
   ],
   "debrief": "board/team/studio.d/debriefs/2026-11-22-handover.md",
   "exceptions": [
