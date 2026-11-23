@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2179",
+    "date": "2026-11-23",
+    "what": "holacracy.d@AgentiCCells.dinis: answer d.sherpa's first read: prefix decision numbers, collapse provenance, show the account once",
+    "by": "holacracy.d@AgentiCCells.dinis",
+    "from": "ea5b82c38"
+  },
+  {
     "version": "v0.1.2178",
     "date": "2026-11-23",
     "what": "maestro.b (account-b): relay the signed record that b.decisions signs for all accounts",
