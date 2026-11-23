@@ -4,7 +4,7 @@ date: 2026-11-23
 story: S81
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "Intercom says over 19% of its code changes are now approved by an AI agent with no human reviewer. Its own engineering post lists the rules and the results, which were not independently checked."
-status: draft
+status: approved
 beat: AI and robotics
 categories: AI, Corporate
 license: https://creativecommons.org/licenses/by/4.0/

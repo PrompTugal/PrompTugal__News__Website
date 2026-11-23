@@ -4641,6 +4641,118 @@
     "source": "desks/reviewer-vicky/covers/crewai-trust-starts-with-human-review/crewai-trust-starts-with-human-review--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
     "checked": "100% human review first, then less, attributed to CrewAI on the card, against the article and CrewAI's post of 24 January 2026 (read 23 November 2026); the thumb carries no claim; every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
    }
+  },
+  {
+   "slug": "intercom-ai-approves-code-changes",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "card",
+   "file": "intercom-ai-approves-code-changes--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-23",
+    "source": "desks/reviewer-vicky/covers/intercom-ai-approves-code-changes/intercom-ai-approves-code-changes--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "over 19% of changes approved with no human reviewer, attributed to Intercom on the card, against the article and Intercom's post of 21 April 2026 (read 23 November 2026); the thumb carries no claim; every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "intercom-ai-approves-code-changes",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "card",
+   "file": "intercom-ai-approves-code-changes--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-23",
+    "source": "desks/reviewer-vicky/covers/intercom-ai-approves-code-changes/intercom-ai-approves-code-changes--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "over 19% of changes approved with no human reviewer, attributed to Intercom on the card, against the article and Intercom's post of 21 April 2026 (read 23 November 2026); the thumb carries no claim; every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "intercom-ai-approves-code-changes",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "intercom-ai-approves-code-changes--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-23",
+    "source": "desks/reviewer-vicky/covers/intercom-ai-approves-code-changes/intercom-ai-approves-code-changes--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "over 19% of changes approved with no human reviewer, attributed to Intercom on the card, against the article and Intercom's post of 21 April 2026 (read 23 November 2026); the thumb carries no claim; every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "intercom-ai-approves-code-changes",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "intercom-ai-approves-code-changes--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-23",
+    "source": "desks/reviewer-vicky/covers/intercom-ai-approves-code-changes/intercom-ai-approves-code-changes--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "over 19% of changes approved with no human reviewer, attributed to Intercom on the card, against the article and Intercom's post of 21 April 2026 (read 23 November 2026); the thumb carries no claim; every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "spotify-ai-change-outran-checks",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "card",
+   "file": "spotify-ai-change-outran-checks--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-23",
+    "source": "desks/reviewer-vicky/covers/spotify-ai-change-outran-checks/spotify-ai-change-outran-checks--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "roughly 8,100 to 17,000 merged changes a year apart, attributed to Spotify on the card, against the article and Spotify Engineering's post of 16 September 2026 (read 23 November 2026); the thumb carries no claim; every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "spotify-ai-change-outran-checks",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "card",
+   "file": "spotify-ai-change-outran-checks--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-23",
+    "source": "desks/reviewer-vicky/covers/spotify-ai-change-outran-checks/spotify-ai-change-outran-checks--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "roughly 8,100 to 17,000 merged changes a year apart, attributed to Spotify on the card, against the article and Spotify Engineering's post of 16 September 2026 (read 23 November 2026); the thumb carries no claim; every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "spotify-ai-change-outran-checks",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "spotify-ai-change-outran-checks--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-23",
+    "source": "desks/reviewer-vicky/covers/spotify-ai-change-outran-checks/spotify-ai-change-outran-checks--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "roughly 8,100 to 17,000 merged changes a year apart, attributed to Spotify on the card, against the article and Spotify Engineering's post of 16 September 2026 (read 23 November 2026); the thumb carries no claim; every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "spotify-ai-change-outran-checks",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "spotify-ai-change-outran-checks--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-23",
+    "source": "desks/reviewer-vicky/covers/spotify-ai-change-outran-checks/spotify-ai-change-outran-checks--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "roughly 8,100 to 17,000 merged changes a year apart, attributed to Spotify on the card, against the article and Spotify Engineering's post of 16 September 2026 (read 23 November 2026); the thumb carries no claim; every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
   }
  ]
 }

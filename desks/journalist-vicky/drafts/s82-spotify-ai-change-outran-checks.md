@@ -4,7 +4,7 @@ date: 2026-11-23
 story: S82
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "Spotify Engineering says it found no direct AI-written cause in the incidents it reviewed, but that the volume of change grew faster than its checks. Its own post, with figures that were not independently checked."
-status: draft
+status: approved
 beat: AI and robotics
 categories: AI, Corporate
 license: https://creativecommons.org/licenses/by/4.0/

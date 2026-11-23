@@ -379,6 +379,14 @@
     "crewai-trust-starts-with-human-review": [
       "AI",
       "Corporate"
+    ],
+    "intercom-ai-approves-code-changes": [
+      "AI",
+      "Corporate"
+    ],
+    "spotify-ai-change-outran-checks": [
+      "AI",
+      "Corporate"
     ]
   },
   "secondary": {

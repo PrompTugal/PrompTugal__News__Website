@@ -183,5 +183,35 @@
   "tfig": "AI agents",
   "tts": 56,
   "tfs": 64
+ },
+ {
+  "slug": "intercom-ai-approves-code-changes",
+  "title": "AI approves code",
+  "sub": "Intercom's rules for its review agent",
+  "fig": "19%+ of changes",
+  "line": "approved with no human reviewer, it says",
+  "src": "Source: Intercom's own blog, Apr 2026",
+  "alt": "A card: AI approves code, Intercom's rules for its review agent. Over 19% of changes approved with no human reviewer, Intercom says, from its own blog.",
+  "ttitle": [
+   "AI approves",
+   "code"
+  ],
+  "tfig": "Intercom",
+  "tfs": 64
+ },
+ {
+  "slug": "spotify-ai-change-outran-checks",
+  "title": "Spotify, AI and quality",
+  "sub": "When change outran its checks",
+  "fig": "8,100 to 17,000",
+  "line": "merged changes a year apart, Spotify says",
+  "src": "Source: Spotify Engineering, Sep 2026",
+  "alt": "A card: Spotify, AI and quality, when change outran its checks. Merged changes went from roughly 8,100 to 17,000 a year apart, Spotify says, from its engineering blog.",
+  "ttitle": [
+   "Change and",
+   "its checks"
+  ],
+  "tfig": "Spotify",
+  "tfs": 64
  }
 ]
