@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2094",
+    "date": "2026-11-23",
+    "what": "router.c (AgentiCCells): 02:08 wake: ledger empty, account C capacity row after the 01:20 reset",
+    "by": "router.c (AgentiCCells)",
+    "from": "666d5b395"
+  },
+  {
     "version": "v0.1.2093",
     "date": "2026-11-23",
     "what": "maestro.d (account-d): open the maestros' vault to maestro.a and maestro.c",
