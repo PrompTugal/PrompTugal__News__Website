@@ -10,9 +10,9 @@
   "encryption": "sha256:cca71ac2454de0bf",
   "signing": "sha256:2d10ae1640ecbb1b"
  },
- "state": "set up; waiting for Dinis: the pin, and the wake. The status schema accepts only @PrompTugal.dinis in agent; name carries the real identity (as accountant.c does).",
+ "state": "waking hourly at :08 (trigger trig_01YUNpUGf7sWTSo3PzeqTWNS); ledger empty; waiting for Dinis: the pin",
  "pinned_issuer": null,
- "last_ledger_read": "2026-11-22T21:30Z",
+ "last_ledger_read": "2026-11-23T02:09Z",
  "done": [
   "key made in this session, entry in board/keys.json (signing sha256:2d10ae1640ecbb1b); commits signed with ssh key router.c-account-c",
   "board/routers/ledger/tools/ledger.mjs: open, claims, receipts, index, check (the receiver's mechanical checks, fail closed), selftest (9 cases pass)",
@@ -24,10 +24,9 @@
   "at each wake (once Dinis sets it): pull, stop on HOLD, ledger index, check requests to account c, claim, act within v0, receipt; capacity row"
  ],
  "asks": [
-  "Dinis: decisions.c's signing fingerprint (no decisions.c key is in board/keys.json yet); until pinned, router.c acts on no request",
-  "Dinis: the wake: hourly at :08? created only on your yes in this session",
+  "Dinis: decisions.c signing fingerprint, given in this session (decisions.c-account-c is now in board/keys.json, but a pin comes only from your hand); until pinned, router.c acts on no request",
   "Dinis: account C's weekly percent, when you can (no session can read it)",
   "Dinis: yes or changes to board/routers/vaults-plan.md"
  ],
- "updated": "2026-11-22T21:40Z"
+ "updated": "2026-11-23T02:09Z"
 }

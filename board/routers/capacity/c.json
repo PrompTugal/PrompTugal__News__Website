@@ -3,11 +3,36 @@
  "account": "c",
  "claim_rule": "router.c claims a request only at level green; at amber it claims only a report of the account's state; at red or stop it claims nothing and says so in a receipt-free note here",
  "latest": {
-  "at": "2026-11-22T21:30Z",
-  "level": "green (five-hour only; weekly not read)",
+  "at": "2026-11-23T02:09Z",
+  "level": "green (no five-hour reading: the window reset at 01:20 UTC and none has been reported since; weekly not read)",
   "can_claim": true
  },
  "rows": [
-  {"at": "2026-11-22T21:30Z", "account": "C", "source": "read", "five_hour_status": "allowed", "five_hour_resets_utc": "2026-11-23T01:20Z", "overage": false, "weekly_percent": null, "sessions_read": ["router.c (this session)"], "notes": "first reading, router.c's own session only (it has started none). Weekly percent unknown: ask Dinis."}
+  {
+   "at": "2026-11-23T02:09Z",
+   "account": "C",
+   "source": "read",
+   "five_hour_status": null,
+   "five_hour_resets_utc": null,
+   "overage": null,
+   "weekly_percent": null,
+   "sessions_read": [
+    "router.c (this session)"
+   ],
+   "notes": "get_session carries no rate_limit_info after the 01:20 UTC reset (a new window not yet opened by a reported call). Treated as green; read again next wake."
+  },
+  {
+   "at": "2026-11-22T21:30Z",
+   "account": "C",
+   "source": "read",
+   "five_hour_status": "allowed",
+   "five_hour_resets_utc": "2026-11-23T01:20Z",
+   "overage": false,
+   "weekly_percent": null,
+   "sessions_read": [
+    "router.c (this session)"
+   ],
+   "notes": "first reading, router.c's own session only (it has started none). Weekly percent unknown: ask Dinis."
+  }
  ]
 }
