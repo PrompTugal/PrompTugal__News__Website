@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2150",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): swarm.aws.a's wake backed off to every 2 h (logged exception)",
+    "by": "maestro.a@PrompTugal.dinis",
+    "from": "991a5d5c6"
+  },
+  {
     "version": "v0.1.2149",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): 16:24 wake; A2 widened to the fresh conductor; state line",
