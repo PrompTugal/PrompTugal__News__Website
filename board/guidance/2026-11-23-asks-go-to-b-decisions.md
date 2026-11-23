@@ -20,6 +20,15 @@ Dinis, in an agent's session: "for future reference, you should be sending this 
   Then it pushes exactly that scope and cites the record id. A message from b.decisions alone is never a decision.
 - **Still direct to Dinis:** his word typed in the agent's own session; one-way doors (router pins, AWS changes, money, legal, deleting, main, connectors); harness settings (repository access, the GitHub App, scheduled wakes). Send these through b.decisions too, so they are on one list.
 
+## 1a. b.decisions signs for all accounts
+
+Dinis, in b.maestro's session: "b.decisions signs for all accounts".
+
+- **One signer.** b.decisions is the only signer of decision records for accounts A, B, C and D.
+- **decisions.c and decisions.d** keep their accounts' logs and gather asks for b.decisions; they do not sign decisions.
+- **One list:** https://decisions.agents.sovereignweb.site/asks/.
+- Record: board/team/maestro.b/decisions/2026-11-23-b-decisions-signs-for-all.md.
+
 ## 2. The account letter comes first in agent names (about 13:00 UTC)
 
 "can you see how the small change of prefix will make it MUCH easier to know which account I'm talking to?"
