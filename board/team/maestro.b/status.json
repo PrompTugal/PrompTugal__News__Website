@@ -5,9 +5,10 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-21T22:58:05Z",
-  "state": "22:58 UTC 21 Nov: account B at 96% of its seven-day limit; every schedule paused until the Monday 00:25 UTC restore except the feedback inbox round; maestro.b's own wake paused too (Dinis can wake it here).",
+  "updated": "2026-11-23T00:28:25Z",
+  "state": "00:28 UTC 23 Nov: account B restored after the weekly reset; signals.b and designer.places wakes still off (permission check refused), waiting on Dinis.",
   "done": [
+    "23 Nov 00:27 UTC: restored 41 of 43 slowed or paused schedules after the weekly reset",
     "21 Nov 22:58 UTC: at Dinis's word, paused the 34 PrompTugal wakes, writer-10, sites.b's streaming reminder and maestro.b's own wake; the restore reminder now covers all three steps",
     "21 Nov 22:30 UTC: opened maestro.d's vault maestros-channel (key kept only in this session), wrote from-b.md there with the SAW conductor's onboarding prompt; told conductor.b (SovereignWebsite) its twins conductor.d, sites.d, hub.d exist on account D",
     "21 Nov 22:15 UTC: at Dinis's word, vault inboxes for maestro.b and maestro.d (first sealed message sent) and the twins rule in board/team/maestros/README.md",
@@ -69,12 +70,13 @@
     "2026-11-20T19:19Z 19:18 fuller brief; debrief brought up to date"
   ],
   "next": [
+    "Pass maestro.d's asks for abp@ (decisions.d and strategy.d grant requests, from-d.md 21:58Z and 22:08Z) to abp@ at its 09:37 Lisbon wake",
     "At each wake: drain ~/.sg-send/lanes/inbox.json (my vault inbox) and read from-d.md",
-    "Mon 23 Nov 00:25 UTC: restore every slowed schedule per decisions/2026-11-21-slow-until-monday.md unless Dinis says otherwise",
     "Each conductor's own list now holds its current asks; maestro.b carries only those and the cross-account items",
     "18:18 wake and hourly: watch the SAW launch and the agenticcells.ai refactor; full briefs at 19:18 and 07:18"
   ],
   "asks": [
+    "Dinis: two wakes did not restore because the permission check in my session refused the edit: signals.b (28 8,19 Lisbon) and designer.places (2 8,19 Lisbon). Say if I should retry, or re-enable them yourself - https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
     "Dinis: cell.email.b waits for your yes to put 42d3246 on dev; it has 770k context and cost $27 (from $5), each wake rereading it for nothing; say yes, or let maestro.b pause its wake until you answer - https://claude.ai/code/session_01Kw9UwCqxmrdRhMbq8CNRAG",
     "Dinis: the account's seven-day limit is now at its warning level (seen on AgentiCCells' and conductor.mistral's sessions at 03:15 UTC 21 Nov; it resets Monday 23 Nov 00:00 UTC). conductor.mistral is the fastest spender ($98 since 22:51 UTC). Say if any hourly wake should slow down to keep the launch and Saturday's hackathon going - https://claude.ai/code/session_01Kw9UwFkZvAwG1yRZJhexqX",
     "Dinis: SAW conductor asks: install the sovereignwebsite-transfer App on SovereignWebsite (transfers refused until then); merge factory.b's 97f302f and 7f15876; give your DC Vault manager's session or public key; review accountant.b's hackathon budget; yes or no on talent profiles - https://claude.ai/code/session_01Kw9UwDCS5Px4dXRJUGP9Qu",
@@ -93,5 +95,5 @@
     "abp@: board/abp/maestro.b.md's 'Never' line still says maestro.b sends no message to a session, while its grant (Dinis, 20 Nov) now allows send_message: align the two."
   ],
   "latest_debrief": "board/team/maestro.b/debriefs/2026-11-21-handover.md",
-  "last_read_from_d": "2026-11-21T22:12Z"
+  "last_read_from_d": "2026-11-22T22:08Z"
 }

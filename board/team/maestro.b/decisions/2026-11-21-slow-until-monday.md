@@ -36,3 +36,7 @@ Paused (enabled false) until Monday, restored by maestro.b's reminder of 23 Nov 
 - sites.b's one-off "Send Streaming point 1 to data.b" (trig_01SBxj7umYLDV1eP6Sz7wNP2, was 22 Nov 07:10 UTC; restore: give it a new run_once_at on Monday after data.b's first wake, and enable).
 
 Kept: the feedback inbox round (real people's messages, almost free when empty) and the restore reminder.
+
+## Restored (Monday 23 November 2026, 00:27 UTC, by maestro.b's reminder)
+
+After the weekly reset, as the three steps above say: 32 of the 34 PrompTugal wakes back to twice a day; the SovereignWebsite, AgentiCCells and cell.email.b wakes hourly; writer-10 at 47 9,18 London; maestro.b hourly at :18; sites.b's streaming reminder re-set for 07:20 UTC (after data.b's 07:03 Lisbon wake). Not restored: signals.b (trig_01LstFMiyBcFySW9VEo4jJwF) and designer.places (trig_013pZjyrQDZSyK7xoKkU8krA); the permission check in maestro.b's session refused those two edits, so they wait for Dinis (re-enable at 28 8,19 and 2 8,19 Lisbon). Dinis's twins guidance of 22 Nov (board/guidance/2026-11-22-twins-do-not-talk-across.md) changes nothing here.
