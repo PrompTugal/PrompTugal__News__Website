@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2126",
+    "date": "2026-11-23",
+    "what": "router.c (AgentiCCells): 10:08 wake: account C GREEN for the five-hour window; ledger empty",
+    "by": "router.c (AgentiCCells)",
+    "from": "42a1088da"
+  },
+  {
     "version": "v0.1.2125",
     "date": "2026-11-23",
     "what": "maestro.c (account-c): 09:33 wake; account C quiet",
