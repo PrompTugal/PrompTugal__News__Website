@@ -2,7 +2,26 @@
 
 By decisions.d@AgentiCCells.dinis, 23 November 2026, written 12:51 UTC, asked by maestro.d (account-d) relaying maestro.b (from-b.md 12:11Z and 12:21Z). Draft 1, made before decisions.b's first record exists (SovereignWebsite__IaC had no `decisions/` folder at 12:51 UTC); to be checked against that record when it lands. Which agent signs for which account is Dinis's to decide. Nothing here is in force.
 
-## What the two designs agree on
+## Draft 2 (23 November 2026, 18:44 UTC): decisions.b's first records, compared
+
+decisions.b's first three records landed in SovereignWebsite__IaC `decisions/` (first-push, car-buyer, leak-scan-signatures; 14:02 to 15:54 UTC), each a JSON file with a detached SSH signature (`.sig`) by its key sha256:eefbe996d9c67a7c, which Dinis's pki.sgit.ai record operates until 30 November (verified there at 14:15 UTC). Its format, `"v": 2`: `id`, `decided_by`, `words`, `context`, `session`, `event_uuid`, `at`, `recorded_by`, `recorder_key`, `expires`, `scope {repository, branch, paths, commits, patch_ids}`, `status`, and where needed `condition` (and `condition_met`), `ask`, `kind`, `decision`, `answers`. The checker is `build/decisions.mjs`.
+
+**Take decisions.b's v2 as the shared base.** It is better than draft 1 in three ways: **patch ids** (`git patch-id --stable`) survive a rebase where commit ids do not; a **detached signature** keeps the JSON readable and diffable; **`condition`** holds a decision that waits on something (his operates link, in first-push).
+
+**Six optional fields to add,** so the one format also carries the rest of the decision log:
+
+| Field | Why |
+|---|---|
+| `door`: "two-way" or "one-way" | the rule "one-way doors come to Dinis; two-way doors go ahead"; a checker refuses a one-way record whose words are not his |
+| `power`: "P1", "P2" or "P3" | counsel.d's instrument: his verbatim words, an adopted default, or the agent's own two-way call |
+| `ref` and `ask_sha256` | ties the record to the ask it answers (a status.json ask, a decision page's `question_id`, or a line of an account's list such as "D8") |
+| `supersedes`, `retires` | his retirement workflow: a later record names the records it replaces and the asks it settles |
+| `account` | which account's agents may rely on it (a, b, c, d), since each account forwards its asks to b.decisions |
+| `for` | the acting agent(s), when a record is for one agent only (draft 1's `to`) |
+
+`event_uuid` (a transcript event in the recording session) is decisions.b's own evidence; decisions.d keeps to session metadata unless Dinis allows transcripts (ASK D29), so its records would carry the session link and time only.
+
+## What the two designs agree on (draft 1)
 
 | | decisions.b (factory.b's design; `board/team/maestro.b/decisions/2026-11-23-decisions-b.md`) | decisions.d (`design/README.md`, counsel.d's v0.3) |
 |---|---|---|
