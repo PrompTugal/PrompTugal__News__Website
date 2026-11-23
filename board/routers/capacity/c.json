@@ -3,11 +3,23 @@
  "account": "c",
  "claim_rule": "router.c claims a request only at level green; at amber it claims only a report of the account's state; at red or stop it claims nothing and says so in a receipt-free note here",
  "latest": {
-  "at": "2026-11-23T10:09Z",
-  "level": "green (five-hour, accountant.c 09:36Z; weekly last 50% at 03:40, needs a fresh reading from Dinis)",
-  "can_claim": true
+  "at": "2026-11-23T11:09Z",
+  "level": "amber (weekly 61% at ~09:40, Dinis reading via accountant.c; up 11 points in 6 h; red at 75%)",
+  "can_claim": "only a report of the account state",
+  "until": "next reading"
  },
  "rows": [
+  {
+   "at": "2026-11-23T11:09Z",
+   "account": "C",
+   "source": "reported (accountant.c status, Dinis reading ~09:40)",
+   "five_hour_status": "allowed",
+   "five_hour_resets_utc": "2026-11-23T11:20Z",
+   "overage": false,
+   "weekly_percent": 61,
+   "sessions_read": [],
+   "notes": "AMBER on the weekly limit: no new sessions on C, new work elsewhere."
+  },
   {
    "at": "2026-11-23T10:09Z",
    "account": "C",
