@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2163",
+    "date": "2026-11-23",
+    "what": "c.maestro (account-c): c.sites's asks routed to b.decisions at Dinis's word",
+    "by": "maestro.c (account-c)",
+    "from": "f31b9ff0f"
+  },
+  {
     "version": "v0.1.2162",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): asked account C for a demo person key and test exchange for a.ios (Chiswick demo)",
