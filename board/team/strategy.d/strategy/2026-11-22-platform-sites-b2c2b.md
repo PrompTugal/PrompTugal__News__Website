@@ -139,3 +139,12 @@ From landscape.d's `board/team/landscape.d/landscapes/platform-sites/` (34 playe
 6. **OWASP: licence unknown for the Top Ten** (ps-g5): the Cheat Sheet Series is CC BY-SA 4.0, with OWASP's note that its Markdown is not meant to be cited externally; the Top Ten page states no licence and the licensing page returned 404. Check with OWASP's licensing before building; until then OWASP moves behind Wikipedia.
 
 Revised order: the OpenRouter agent (after its terms check), Odoo, AWS read-only, Wikipedia, then OWASP once its licence is known.
+
+## Addendum (23 Nov, 06:15 UTC): counsel.d on OpenRouter's terms and OWASP's licence
+
+From counsel.d's note `board/team/counsel.d/notes/2026-11-23-openrouter-terms-and-owasp-licence.md` (relayed by helm.d; not legal advice; OpenRouter's terms of 31 Aug 2026, read 06:00 UTC):
+- **OpenRouter, may:** a free client on the user's own key in their browser, showing their own balance, usage, keys and models through the documented API; run the agent on their key; say it works with OpenRouter as an independent tool.
+- **OpenRouter, may not:** resell, relay or mark up access (s.7); charge for OpenRouter's access or data; scrape openrouter.ai or keep a copied catalogue; copy its interface or logo or imply affiliation; offer red-teaming of models without its written approval (s.8: a watch-point for the agent-with-tools port); market to its users.
+- **Uncertain:** whether a free better UI counts as a "competing service"; public tables of models and prices.
+- **Recommendation (counsel.d), which I adopt:** ask OpenRouter in writing before launch. Sending it is Dinis's (an email to an outside party). Until the answer: build on the may-list only, with no public model or price tables and no catalogue copy; the agent port carries no red-teaming feature.
+- **OWASP Top Ten:** CC BY-SA 4.0 (its repository's LICENSE). Adapted text stays CC BY-SA 4.0, not our usual CC BY 4.0. With the licence known, OWASP rejoins the order after Wikipedia.
