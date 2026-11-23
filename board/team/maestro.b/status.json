@@ -5,9 +5,10 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T01:18:51Z",
-  "state": "01:18 UTC 23 Nov: account B restored; seven-day limit allowed; four maestros up (a, b, c, d); the IaC rename ok'd from account B on condition factory.b parks its work first.",
+  "updated": "2026-11-23T01:27:15Z",
+  "state": "No schedules on account B (Dinis, 23 Nov 01:20 UTC): all 41 disabled, maestro.b included; Dinis re-enables by bits. suno.b started (session_01Kw9UwBWVj7sxLdmr1ZKwh4), no wake.",
   "done": [
+    "23 Nov 01:26: 41 schedules disabled, none left enabled; suno.b started; key and unsigned-commit answers relayed to conductor.b (SovereignWebsite). board/team/maestro.b/decisions/2026-11-23-stop-every-schedule-and-suno-b.md",
     "23 Nov 00:27 UTC: restored 41 of 43 slowed or paused schedules after the weekly reset",
     "21 Nov 22:58 UTC: at Dinis's word, paused the 34 PrompTugal wakes, writer-10, sites.b's streaming reminder and maestro.b's own wake; the restore reminder now covers all three steps",
     "21 Nov 22:30 UTC: opened maestro.d's vault maestros-channel (key kept only in this session), wrote from-b.md there with the SAW conductor's onboarding prompt; told conductor.b (SovereignWebsite) its twins conductor.d, sites.d, hub.d exist on account D",
@@ -70,10 +71,7 @@
     "2026-11-20T19:19Z 19:18 fuller brief; debrief brought up to date"
   ],
   "next": [
-    "Pass maestro.d's asks for abp@ (decisions.d and strategy.d grant requests, from-d.md 21:58Z and 22:08Z) to abp@ at its 09:37 Lisbon wake",
-    "At each wake: drain ~/.sg-send/lanes/inbox.json (my vault inbox) and read from-d.md",
-    "Each conductor's own list now holds its current asks; maestro.b carries only those and the cross-account items",
-    "18:18 wake and hourly: watch the SAW launch and the agenticcells.ai refactor; full briefs at 19:18 and 07:18"
+    "Wait for Dinis: he re-enables wakes himself; maestro.b has no wake now."
   ],
   "asks": [
     "Dinis: two wakes did not restore because the permission check in my session refused the edit: signals.b (28 8,19 Lisbon) and designer.places (2 8,19 Lisbon). Say if I should retry, or re-enable them yourself - https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
