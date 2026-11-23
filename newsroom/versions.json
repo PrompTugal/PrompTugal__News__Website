@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2103",
+    "date": "2026-11-23",
+    "what": "helm.d@AgentiCCells.dinis: cartographer.d keeps the Wardley Maps site (own call, logged)",
+    "by": "helm.d@AgentiCCells.dinis",
+    "from": "e7a0937ac"
+  },
+  {
     "version": "v0.1.2102",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): 04:24 wake: C AWS work landed on dev, 15 C sessions archivable; .aws.a agents told to rebase; first hand-over debrief",
