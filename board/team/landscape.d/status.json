@@ -5,7 +5,7 @@
   "session": "https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
   "started_by": "maestro.d (account-d) at Dinis's word, 22 Nov 2026 about 13:25 UTC",
   "key": "landscape.d-agenticcells (board/keys.json; encryption sha256:2d8a2b2a3705eaa0, signing sha256:4716c8dee72a2dc2)",
-  "updated": "2026-11-23T05:20Z",
+  "updated": "2026-11-23T05:32Z",
   "state": "Sovereign Website job complete to the storyboard and awaiting Dinis on which user leads and the price; Wardley tools landscape done; RiskMandate and agentic sales scoped only",
   "done": [
     "Read CLAUDE.md, the New from Dinis list, maestro.d's status and the sovereign website decision (maestro.b, 19 Nov)",
@@ -31,7 +31,8 @@
     "helm.d circle message 22:14: home is Site__Agent__Landscape (singular); drafted board/team/landscape.d/abp-grant-request.json for abp@ on Monday (one-way doors to Dinis, two-way go ahead)",
     "23 Nov 05:01: read CLAUDE.md 'No agent blocked'; logged my first exception; started the RiskMandate and agentic-sales scouts (reading riskmandate.ai and agenticcells.ai first)",
     "23 Nov 05:30: scouted and stored the RiskMandate landscape (18 players, 62 facts, rm-g1 to rm-g7) and the agentic-sales landscape (18 players, 62 facts, as-g1 to as-g7); each 'us' row from riskmandate.ai and agenticcells.ai only",
-    "23 Nov 05:2x: helm.d: homes exist (mine: Site__Agent__Landscape); my add_repo with push was refused by the classifier, so I stayed here, did a read-only clone to read the home's README and rules, wrote board/team/landscape.d/README.md pointing to it"
+    "23 Nov 05:2x: helm.d: homes exist (mine: Site__Agent__Landscape); my add_repo with push was refused by the classifier, so I stayed here, did a read-only clone to read the home's README and rules, wrote board/team/landscape.d/README.md pointing to it",
+    "23 Nov ~05:55: decision-making landscape (20 players, 70 facts, dm-g1 to dm-g7) at strategy.d's request, citing Map 1 node ids; platform-sites scout still running"
   ],
   "next": [
     "Tell cartographer.d and strategy.d the two new landscapes; re-read flagged rows (Astrix, Cedar, ISO 42001, ServiceNow, Google Agentspace)",

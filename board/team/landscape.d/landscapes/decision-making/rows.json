@@ -1,0 +1,378 @@
+{
+ "format": "landscape-rows/1",
+ "for": "cartographer.d@AgentiCCells.dinis",
+ "made": "2026-11-23T05:55Z",
+ "made_by": "landscape.d@AgentiCCells.dinis",
+ "rows": [
+  {
+   "id": "dm-p-adr--adr-github-io",
+   "name": "ADR (adr.github.io)",
+   "group": "decision-log",
+   "what": "Community site explaining Architectural Decision Records, each capturing one architecture decision with its rationale and consequences; together they form a decision log.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://adr.github.io/",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "dm-f001",
+    "dm-f002",
+    "dm-f003"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-madr",
+   "name": "MADR",
+   "group": "decision-log",
+   "what": "Markdown ADR template set (four variants: full, minimal, bare, bare-minimal) copied into docs/decisions as nnnn-title.md.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/adr/madr",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "dm-f004",
+    "dm-f005",
+    "dm-f006"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-log4brains",
+   "name": "Log4brains",
+   "group": "decision-log",
+   "what": "Docs-as-code tool for writing and publishing ADRs as Markdown in a git repo, with local preview, search, timeline and a static site build.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/thomvaill/log4brains",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "dm-f007",
+    "dm-f008",
+    "dm-f009",
+    "dm-f010"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-loomio",
+   "name": "Loomio",
+   "group": "collaborative",
+   "what": "Tool for groups to discuss proposals, vote and record outcomes together, keeping reasons with the decision.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "Hosted plans in USD: Starter from about 29 to 39 per month or 299 to 399 per year, Pro about 49 to 99 per month, 14-day trial; the page was ambiguous on which figures apply to commercial or nonprofit; Private Loomio is quote-only.",
+   "source_url": "https://github.com/loomio/loomio",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "dm-f011",
+    "dm-f012",
+    "dm-f013",
+    "dm-f014",
+    "dm-f015"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-decidim",
+   "name": "Decidim",
+   "group": "collaborative",
+   "what": "Participatory democracy framework for cities and organisations with proposals, assemblies, participatory budgets, surveys and accountability components; first built for Barcelona's city government.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/decidim/decidim",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "dm-f016",
+    "dm-f017",
+    "dm-f018",
+    "dm-f019"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-consul-democracy",
+   "name": "CONSUL Democracy",
+   "group": "collaborative",
+   "what": "Open source citizen participation and open government software, first used for Madrid city's decide.madrid.es in 2015, maintained with the CONSUL DEMOCRACY Foundation.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/consuldemocracy/consuldemocracy",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "dm-f020",
+    "dm-f021",
+    "dm-f022"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-cloverpop",
+   "name": "Cloverpop",
+   "group": "enterprise",
+   "what": "Enterprise decision intelligence platform that structures, tracks and improves business decisions with AI assistants; customers listed include Google, General Motors, P&G, J&J and Mondelez.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "No price stated; request-a-demo only.",
+   "source_url": "https://www.cloverpop.com/",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "dm-f023",
+    "dm-f024",
+    "dm-f025",
+    "dm-f026"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-aera-technology",
+   "name": "Aera Technology",
+   "group": "enterprise",
+   "what": "Decision intelligence platform whose Aera Skills automate decisions in supply chain, finance, HR and other functions; customers listed include ExxonMobil, Unilever, Merck and Dell.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "No price or deployment model stated; schedule-a-demo only.",
+   "source_url": "https://www.aeratechnology.com/",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "dm-f027",
+    "dm-f028",
+    "dm-f029",
+    "dm-f030"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-humanlayer",
+   "name": "HumanLayer",
+   "group": "approvals",
+   "what": "Runs coding agents (Claude Code, Codex and others) on a team's machines and lets the team steer tasks, sessions, plans and reviews from one place; repo is tagged human-in-the-loop.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/humanlayer/humanlayer",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "dm-f031",
+    "dm-f032",
+    "dm-f033",
+    "dm-f034"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-langgraph-interrupts",
+   "name": "LangGraph interrupts",
+   "group": "approvals",
+   "what": "An interrupt() call pauses an agent graph, saves state, and resumes with a human's value (for example true or false) on the same thread; it can sit inside a tool so each call needs approval, and the reviewer can edit arguments.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://docs.langchain.com/oss/python/langgraph/interrupts",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "dm-f035",
+    "dm-f036",
+    "dm-f037",
+    "dm-f038"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-permit-io-agent-approvals",
+   "name": "Permit.io agent approvals",
+   "group": "approvals",
+   "what": "Docs page for agent security and approvals returned HTTP 404, so nothing was read.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://docs.permit.io/agent-security/overview",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "dm-f039"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-dmn--omg-standard",
+   "name": "DMN (OMG standard)",
+   "group": "codified",
+   "what": "Decision Model and Notation is OMG's standard for graphical decision models plus an executable expression language, designed to work with BPMN and exchange as XML.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://www.omg.org/spec/DMN/",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "dm-f040",
+    "dm-f041",
+    "dm-f042"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-drools--apache-kie",
+   "name": "Drools (Apache KIE)",
+   "group": "codified",
+   "what": "Java rule engine that also includes a DMN engine running models with FEEL expressions; Kogito can deploy DMN decisions as microservices.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/apache/incubator-kie-drools",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "dm-f043",
+    "dm-f044",
+    "dm-f045"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-camunda-8",
+   "name": "Camunda 8",
+   "group": "codified",
+   "what": "Agentic orchestration platform combining BPMN flows, DMN decisions and AI agent steps, with Tasklist for human tasks and Operate for monitoring.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "No prices shown; 30-day free SaaS trial, then free modeling-only account or paid Enterprise; self-managed is free for development and needs an Enterprise licence in production; enterprise quotes via sales.",
+   "source_url": "https://github.com/camunda/camunda",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "dm-f046",
+    "dm-f047",
+    "dm-f048",
+    "dm-f049"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-open-policy-agent",
+   "name": "Open Policy Agent",
+   "group": "codified",
+   "what": "General-purpose policy engine: services send queries, OPA evaluates rules against data and returns allow or deny decisions for the service to enforce.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/open-policy-agent/opa",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "dm-f050",
+    "dm-f051",
+    "dm-f052",
+    "dm-f053"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-cedar",
+   "name": "Cedar",
+   "group": "codified",
+   "what": "Policy language and Rust engine for fine-grained application authorization: a request of principal, action and resource is evaluated against policies and returns allow or deny.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/cedar-policy/cedar",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "dm-f054",
+    "dm-f055",
+    "dm-f056",
+    "dm-f057"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-holacracy-constitution",
+   "name": "Holacracy Constitution",
+   "group": "framework",
+   "what": "Rule set for running an organisation through roles with purposes, domains and accountabilities inside nested circles; current version stated is 5.0.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://www.holacracy.org/constitution",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "dm-f058",
+    "dm-f059",
+    "dm-f060",
+    "dm-f061"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-consent-decision-making--sociocracy-3-0",
+   "name": "Consent decision-making (Sociocracy 3.0)",
+   "group": "framework",
+   "what": "Facilitated process in nine steps where only objections block a proposal; unproven concerns are recorded and revisited with the policy's evaluation criteria.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://patterns.sociocracy30.org/consent-decision-making.html",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "dm-f062",
+    "dm-f063",
+    "dm-f064"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-bain-rapid",
+   "name": "Bain RAPID",
+   "group": "framework",
+   "what": "Bain's decision tool assigning Recommend, Agree, Perform, Input and Decide roles so accountability for each decision is clear.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://www.bain.com/insights/rapid-tool-to-clarify-decision-accountability/",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "dm-f065",
+    "dm-f066",
+    "dm-f067"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  },
+  {
+   "id": "dm-p-raci",
+   "name": "RACI",
+   "group": "framework",
+   "what": "Responsibility matrix technique with Responsible, Accountable, Consulted and Informed roles, often used in cross-department projects.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://en.wikipedia.org/wiki/Responsibility_assignment_matrix",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "dm-f068",
+    "dm-f069",
+    "dm-f070"
+   ],
+   "note": "no user-need column: the users here are sherpa.d's decision needs (n-decide-*), not yet mapped to these players"
+  }
+ ]
+}

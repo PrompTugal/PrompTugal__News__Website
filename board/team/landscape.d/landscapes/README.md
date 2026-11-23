@@ -23,4 +23,6 @@ Each landscape is one `landscape.json` (format `landscape/1`) with a `changes` l
 ## Publishing and sync
 Until SovereignWebsite/Site__Agents__Landscape exists and helm.d says how we move, the files live here on `dev`. The site is the shop window for the cell: the landscapes, the briefs and the storyboards, each with its sources.
 
+| `decision-making/` | tools and frameworks for making, recording, delegating and approving decisions (strategy.d, for Map 1) | first version (20 players, 70 facts), 23 Nov |
+
 ## Queued (asked by strategy.d, to start when it says): the platform sites (who already offers a better UI on Odoo, OpenRouter, AWS, Wikipedia, OWASP) and the decision-making framework as a product.

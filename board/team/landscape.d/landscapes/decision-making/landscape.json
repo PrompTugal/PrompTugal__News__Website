@@ -1,0 +1,1039 @@
+{
+ "format": "landscape/1",
+ "id": "decision-making",
+ "title": "Decision-making as a product: tools and frameworks",
+ "status": "draft",
+ "made": "2026-11-23T05:55Z",
+ "made_by": "landscape.d@AgentiCCells.dinis",
+ "about": "First read, 23 Nov 2026, public pages only; positions are not given. Requested by strategy.d for Map 1 (decision-making), whose node ids are cited in the findings. Facts are exactly as the scout returned them; the Holacracy and consent entries are the frameworks' own pages, RACI's is Wikipedia's description.",
+ "players": [
+  {
+   "player": "ADR (adr.github.io)",
+   "group": "decision-log",
+   "fact_ids": [
+    "dm-f001",
+    "dm-f002",
+    "dm-f003"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "MADR",
+   "group": "decision-log",
+   "fact_ids": [
+    "dm-f004",
+    "dm-f005",
+    "dm-f006"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "Log4brains",
+   "group": "decision-log",
+   "fact_ids": [
+    "dm-f007",
+    "dm-f008",
+    "dm-f009",
+    "dm-f010"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Loomio",
+   "group": "collaborative",
+   "fact_ids": [
+    "dm-f011",
+    "dm-f012",
+    "dm-f013",
+    "dm-f014",
+    "dm-f015"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Decidim",
+   "group": "collaborative",
+   "fact_ids": [
+    "dm-f016",
+    "dm-f017",
+    "dm-f018",
+    "dm-f019"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "CONSUL Democracy",
+   "group": "collaborative",
+   "fact_ids": [
+    "dm-f020",
+    "dm-f021",
+    "dm-f022"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Cloverpop",
+   "group": "enterprise",
+   "fact_ids": [
+    "dm-f023",
+    "dm-f024",
+    "dm-f025",
+    "dm-f026"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Aera Technology",
+   "group": "enterprise",
+   "fact_ids": [
+    "dm-f027",
+    "dm-f028",
+    "dm-f029",
+    "dm-f030"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "HumanLayer",
+   "group": "approvals",
+   "fact_ids": [
+    "dm-f031",
+    "dm-f032",
+    "dm-f033",
+    "dm-f034"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "LangGraph interrupts",
+   "group": "approvals",
+   "fact_ids": [
+    "dm-f035",
+    "dm-f036",
+    "dm-f037",
+    "dm-f038"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "Permit.io agent approvals",
+   "group": "approvals",
+   "fact_ids": [
+    "dm-f039"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "DMN (OMG standard)",
+   "group": "codified",
+   "fact_ids": [
+    "dm-f040",
+    "dm-f041",
+    "dm-f042"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Drools (Apache KIE)",
+   "group": "codified",
+   "fact_ids": [
+    "dm-f043",
+    "dm-f044",
+    "dm-f045"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Camunda 8",
+   "group": "codified",
+   "fact_ids": [
+    "dm-f046",
+    "dm-f047",
+    "dm-f048",
+    "dm-f049"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Open Policy Agent",
+   "group": "codified",
+   "fact_ids": [
+    "dm-f050",
+    "dm-f051",
+    "dm-f052",
+    "dm-f053"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "Cedar",
+   "group": "codified",
+   "fact_ids": [
+    "dm-f054",
+    "dm-f055",
+    "dm-f056",
+    "dm-f057"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Holacracy Constitution",
+   "group": "framework",
+   "fact_ids": [
+    "dm-f058",
+    "dm-f059",
+    "dm-f060",
+    "dm-f061"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Consent decision-making (Sociocracy 3.0)",
+   "group": "framework",
+   "fact_ids": [
+    "dm-f062",
+    "dm-f063",
+    "dm-f064"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Bain RAPID",
+   "group": "framework",
+   "fact_ids": [
+    "dm-f065",
+    "dm-f066",
+    "dm-f067"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "RACI",
+   "group": "framework",
+   "fact_ids": [
+    "dm-f068",
+    "dm-f069",
+    "dm-f070"
+   ],
+   "flagged": false
+  }
+ ],
+ "findings": [
+  {
+   "id": "dm-g1",
+   "kind": "decision-logs",
+   "text": "Decision logs are practices and templates kept in git: ADR (a documentation practice, no licence named on the page read), MADR (MIT or CC0), Log4brains (Apache 2.0, publishes a static site). Authorship rests on git history; none of the pages read describes signatures or an audit trail, and MADR's page did not describe a 'who decided' field. Map 1 nodes: decision-log, human-signer, chain-check.",
+   "facts": [
+    "dm-f001",
+    "dm-f002",
+    "dm-f003",
+    "dm-f004",
+    "dm-f005",
+    "dm-f006",
+    "dm-f008",
+    "dm-f009",
+    "dm-f010"
+   ]
+  },
+  {
+   "id": "dm-g2",
+   "kind": "collaborative",
+   "text": "Collaborative decision tools exist and are open: Loomio (AGPL-3.0; hosted in the USA, EU or Australia; USD plans; exports records as CSV, HTML or JSON), Decidim and CONSUL Democracy (AGPL-3.0, built for cities; verified-user accounts). They serve groups voting on proposals; none of the pages read describes signatures, and Loomio's does not mention delegation. AGPL means a modified production service must publish its source: a reuse constraint for rights@.",
+   "facts": [
+    "dm-f012",
+    "dm-f013",
+    "dm-f014",
+    "dm-f015",
+    "dm-f018",
+    "dm-f019",
+    "dm-f021",
+    "dm-f022"
+   ]
+  },
+  {
+   "id": "dm-g3",
+   "kind": "enterprise",
+   "text": "Enterprise decision-intelligence tools (Cloverpop, Aera Technology) show no price (a demo only). Aera says decisions can execute autonomously within policies the customer sets, with a user approving a recommendation before similar ones are automated; Cloverpop offers decision assistants without stated limits. Neither page read describes signatures or an audit trail beyond 'captures context and outcomes'.",
+   "facts": [
+    "dm-f024",
+    "dm-f025",
+    "dm-f026",
+    "dm-f028",
+    "dm-f029",
+    "dm-f030"
+   ]
+  },
+  {
+   "id": "dm-g4",
+   "kind": "approvals",
+   "text": "For agents, human approval is a mechanism, not a record: LangGraph's interrupt pauses a graph and resumes with a person's value, and if nobody answers it waits indefinitely (no timeout or default described); HumanLayer's page does not describe an approval workflow, who approved or what happens when nobody answers; Permit.io's page returned 404. No page read describes a default when nobody answers or a signed approval, on the pages read. Map 1 nodes: default-yes, signed answers via playable-brief.",
+   "facts": [
+    "dm-f035",
+    "dm-f036",
+    "dm-f038",
+    "dm-f034",
+    "dm-f039"
+   ]
+  },
+  {
+   "id": "dm-g5",
+   "kind": "codified",
+   "text": "Codified decision workflows are standards and engines: DMN (OMG, version 1.6 with a 1.7 beta listed, IPR mode RF-Limited), Drools (Apache 2.0, Apache incubator), Camunda 8 (source-available Camunda License; production self-managed needs an enterprise licence; EU-hosted SaaS), and policy engines Open Policy Agent and Cedar (Apache-2.0; allow or deny; policy kept apart from code). OPA's page read does not describe decision logging. Map 1 node: codified-thinking.",
+   "facts": [
+    "dm-f041",
+    "dm-f042",
+    "dm-f044",
+    "dm-f047",
+    "dm-f048",
+    "dm-f049",
+    "dm-f050",
+    "dm-f052",
+    "dm-f053",
+    "dm-f054",
+    "dm-f055",
+    "dm-f056"
+   ]
+  },
+  {
+   "id": "dm-g6",
+   "kind": "frameworks",
+   "text": "Frameworks differ in what may be reused: the Holacracy Constitution (v5.0) and Sociocracy 3.0's consent pattern are CC BY-SA 4.0; Bain's RAPID is described as proprietary; RACI has no single owner's page (the description read is Wikipedia's, CC BY-SA 4.0). Holacracy has role leads act within purpose and need permission for others' domains and authorisation to spend; RAPID wants one decider and states no default for silence. rights@ checks each licence before reuse.",
+   "facts": [
+    "dm-f059",
+    "dm-f060",
+    "dm-f061",
+    "dm-f063",
+    "dm-f064",
+    "dm-f066",
+    "dm-f067",
+    "dm-f069",
+    "dm-f070"
+   ]
+  },
+  {
+   "id": "dm-g7",
+   "kind": "gap-in-my-reading",
+   "text": "Not verified or missing in this run: Permit.io (404), the licence of the ADR site and of the LangGraph interrupts page (not named), OPA's decision logging (not on the page read), HumanLayer's approval workflow (not described), Camunda and the enterprise tools' prices (none shown). Names were found by search; each player is kept only where its own page was read. Absence on a page is not proof of absence in a product.",
+   "facts": [
+    "dm-f039",
+    "dm-f002",
+    "dm-f037",
+    "dm-f053",
+    "dm-f034"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "id": "dm-f001",
+   "candidate": "ADR (adr.github.io)",
+   "group": "decision-log",
+   "topic": "offer",
+   "fact": "Community site explaining Architectural Decision Records, each capturing one architecture decision with its rationale and consequences; together they form a decision log.",
+   "url": "https://adr.github.io/",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f002",
+   "candidate": "ADR (adr.github.io)",
+   "group": "decision-log",
+   "topic": "licence",
+   "fact": "No licence named on the page; footer says only 'some rights reserved'.",
+   "url": "https://adr.github.io/",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f003",
+   "candidate": "ADR (adr.github.io)",
+   "group": "decision-log",
+   "topic": "how",
+   "fact": "A documentation practice and templates, not software; the page links to a section on capturing tools but names none itself.",
+   "url": "https://adr.github.io/",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f004",
+   "candidate": "MADR",
+   "group": "decision-log",
+   "topic": "how",
+   "fact": "Markdown ADR template set (four variants: full, minimal, bare, bare-minimal) copied into docs/decisions as nnnn-title.md.",
+   "url": "https://github.com/adr/madr",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f005",
+   "candidate": "MADR",
+   "group": "decision-log",
+   "topic": "licence",
+   "fact": "Dual-licensed MIT or CC0-1.0, user's choice.",
+   "url": "https://github.com/adr/madr",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f006",
+   "candidate": "MADR",
+   "group": "decision-log",
+   "topic": "record",
+   "fact": "The repository page did not describe a status field or a 'who decided' field.",
+   "url": "https://github.com/adr/madr",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "dm-f007",
+   "candidate": "Log4brains",
+   "group": "decision-log",
+   "topic": "offer",
+   "fact": "Docs-as-code tool for writing and publishing ADRs as Markdown in a git repo, with local preview, search, timeline and a static site build.",
+   "url": "https://github.com/thomvaill/log4brains",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f008",
+   "candidate": "Log4brains",
+   "group": "decision-log",
+   "topic": "how",
+   "fact": "Open source npm CLI (Node, TypeScript, Next.js) run locally or in CI; publishes to GitHub Pages, GitLab Pages or S3; MADR is the default template.",
+   "url": "https://github.com/thomvaill/log4brains",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f009",
+   "candidate": "Log4brains",
+   "group": "decision-log",
+   "topic": "licence",
+   "fact": "Apache 2.0, copyright 2020 Thomas Vaillant, as stated on the repository page.",
+   "url": "https://github.com/thomvaill/log4brains",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f010",
+   "candidate": "Log4brains",
+   "group": "decision-log",
+   "topic": "record",
+   "fact": "Metadata is guessed from the ADR text and git logs, so authorship rests on git history; no signatures or audit trail are described.",
+   "url": "https://github.com/thomvaill/log4brains",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f011",
+   "candidate": "Loomio",
+   "group": "collaborative",
+   "topic": "offer",
+   "fact": "Tool for groups to discuss proposals, vote and record outcomes together, keeping reasons with the decision.",
+   "url": "https://github.com/loomio/loomio",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f012",
+   "candidate": "Loomio",
+   "group": "collaborative",
+   "topic": "how",
+   "fact": "Open source and self-hostable, or hosted on loomio.com in the USA, EU or Australia; the company is a worker-owned cooperative in New Zealand.",
+   "url": "https://www.loomio.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f013",
+   "candidate": "Loomio",
+   "group": "collaborative",
+   "topic": "price",
+   "fact": "Hosted plans in USD: Starter from about 29 to 39 per month or 299 to 399 per year, Pro about 49 to 99 per month, 14-day trial; the page was ambiguous on which figures apply to commercial or nonprofit; Private Loomio is quote-only.",
+   "url": "https://www.loomio.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f014",
+   "candidate": "Loomio",
+   "group": "collaborative",
+   "topic": "licence",
+   "fact": "Code is AGPL-3.0.",
+   "url": "https://github.com/loomio/loomio",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f015",
+   "candidate": "Loomio",
+   "group": "collaborative",
+   "topic": "record",
+   "fact": "Calls its output a searchable record of what was decided and why, and admins can export records as CSV, HTML or JSON; no signatures or audit trail stated; delegation not mentioned.",
+   "url": "https://www.loomio.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f016",
+   "candidate": "Decidim",
+   "group": "collaborative",
+   "topic": "offer",
+   "fact": "Participatory democracy framework for cities and organisations with proposals, assemblies, participatory budgets, surveys and accountability components; first built for Barcelona's city government.",
+   "url": "https://github.com/decidim/decidim",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f017",
+   "candidate": "Decidim",
+   "group": "collaborative",
+   "topic": "how",
+   "fact": "Free open source Ruby on Rails framework; organisations generate and run their own site; it is cited as a verified Digital Public Good.",
+   "url": "https://github.com/decidim/decidim",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f018",
+   "candidate": "Decidim",
+   "group": "collaborative",
+   "topic": "licence",
+   "fact": "AGPL-3.0; production applications must be published under the same licence.",
+   "url": "https://github.com/decidim/decidim",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f019",
+   "candidate": "Decidim",
+   "group": "collaborative",
+   "topic": "record",
+   "fact": "Has an identity verification and authorization layer for participants; the page does not describe audit trails or signatures.",
+   "url": "https://github.com/decidim/decidim",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f020",
+   "candidate": "CONSUL Democracy",
+   "group": "collaborative",
+   "topic": "offer",
+   "fact": "Open source citizen participation and open government software, first used for Madrid city's decide.madrid.es in 2015, maintained with the CONSUL DEMOCRACY Foundation.",
+   "url": "https://github.com/consuldemocracy/consuldemocracy",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f021",
+   "candidate": "CONSUL Democracy",
+   "group": "collaborative",
+   "topic": "how",
+   "fact": "Self-hosted Ruby on Rails code base; voting actions require a verified user account.",
+   "url": "https://github.com/consuldemocracy/consuldemocracy",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f022",
+   "candidate": "CONSUL Democracy",
+   "group": "collaborative",
+   "topic": "licence",
+   "fact": "AGPL-3.0, with licence text in the repository.",
+   "url": "https://github.com/consuldemocracy/consuldemocracy",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f023",
+   "candidate": "Cloverpop",
+   "group": "enterprise",
+   "topic": "offer",
+   "fact": "Enterprise decision intelligence platform that structures, tracks and improves business decisions with AI assistants; customers listed include Google, General Motors, P&G, J&J and Mondelez.",
+   "url": "https://www.cloverpop.com/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f024",
+   "candidate": "Cloverpop",
+   "group": "enterprise",
+   "topic": "price",
+   "fact": "No price stated; request-a-demo only.",
+   "url": "https://www.cloverpop.com/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f025",
+   "candidate": "Cloverpop",
+   "group": "enterprise",
+   "topic": "record",
+   "fact": "Says it captures decision interactions as structured data; no audit trail or signatures described on the page.",
+   "url": "https://www.cloverpop.com/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f026",
+   "candidate": "Cloverpop",
+   "group": "enterprise",
+   "topic": "delegation",
+   "fact": "Offers Decision AI Assistants that shape decisions and orchestrate action; the page gives no limits or human sign-off rules for the agents.",
+   "url": "https://www.cloverpop.com/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f027",
+   "candidate": "Aera Technology",
+   "group": "enterprise",
+   "topic": "offer",
+   "fact": "Decision intelligence platform whose Aera Skills automate decisions in supply chain, finance, HR and other functions; customers listed include ExxonMobil, Unilever, Merck and Dell.",
+   "url": "https://www.aeratechnology.com/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f028",
+   "candidate": "Aera Technology",
+   "group": "enterprise",
+   "topic": "price",
+   "fact": "No price or deployment model stated; schedule-a-demo only.",
+   "url": "https://www.aeratechnology.com/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f029",
+   "candidate": "Aera Technology",
+   "group": "enterprise",
+   "topic": "record",
+   "fact": "Says it captures context, knowledge and outcomes of every decision and lists a Decision Governance capability, without detail on audit trail or signatures.",
+   "url": "https://www.aeratechnology.com/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f030",
+   "candidate": "Aera Technology",
+   "group": "enterprise",
+   "topic": "delegation",
+   "fact": "States decisions can execute autonomously within policies the customer sets, and its sample shows a user approving a recommendation before similar ones are automated.",
+   "url": "https://www.aeratechnology.com/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f031",
+   "candidate": "HumanLayer",
+   "group": "approvals",
+   "topic": "offer",
+   "fact": "Runs coding agents (Claude Code, Codex and others) on a team's machines and lets the team steer tasks, sessions, plans and reviews from one place; repo is tagged human-in-the-loop.",
+   "url": "https://github.com/humanlayer/humanlayer",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f032",
+   "candidate": "HumanLayer",
+   "group": "approvals",
+   "topic": "how",
+   "fact": "Open source monorepo with a daemon per host, CLI, API, auth proxy and desktop and web apps; a source build sends no data to HumanLayer.",
+   "url": "https://github.com/humanlayer/humanlayer",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f033",
+   "candidate": "HumanLayer",
+   "group": "approvals",
+   "topic": "licence",
+   "fact": "Apache 2.0, with a few vendored folders keeping MIT licences listed in NOTICE.",
+   "url": "https://github.com/humanlayer/humanlayer",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f034",
+   "candidate": "HumanLayer",
+   "group": "approvals",
+   "topic": "delegation",
+   "fact": "The page does not describe an approval workflow, audit logs, who approved, or what happens when no human answers.",
+   "url": "https://github.com/humanlayer/humanlayer",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "dm-f035",
+   "candidate": "LangGraph interrupts",
+   "group": "approvals",
+   "topic": "how",
+   "fact": "An interrupt() call pauses an agent graph, saves state, and resumes with a human's value (for example true or false) on the same thread; it can sit inside a tool so each call needs approval, and the reviewer can edit arguments.",
+   "url": "https://docs.langchain.com/oss/python/langgraph/interrupts",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f036",
+   "candidate": "LangGraph interrupts",
+   "group": "approvals",
+   "topic": "delegation",
+   "fact": "If nobody answers, the graph waits indefinitely with state kept; no timeout or default is described.",
+   "url": "https://docs.langchain.com/oss/python/langgraph/interrupts",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f037",
+   "candidate": "LangGraph interrupts",
+   "group": "approvals",
+   "topic": "licence",
+   "fact": "The docs page states no licence.",
+   "url": "https://docs.langchain.com/oss/python/langgraph/interrupts",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "dm-f038",
+   "candidate": "LangGraph interrupts",
+   "group": "approvals",
+   "topic": "record",
+   "fact": "Page does not say who approved is recorded or signed; only that a checkpointer saves state.",
+   "url": "https://docs.langchain.com/oss/python/langgraph/interrupts",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f039",
+   "candidate": "Permit.io agent approvals",
+   "group": "approvals",
+   "topic": "offer",
+   "fact": "Docs page for agent security and approvals returned HTTP 404, so nothing was read.",
+   "url": "https://docs.permit.io/agent-security/overview",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "dm-f040",
+   "candidate": "DMN (OMG standard)",
+   "group": "codified",
+   "topic": "offer",
+   "fact": "Decision Model and Notation is OMG's standard for graphical decision models plus an executable expression language, designed to work with BPMN and exchange as XML.",
+   "url": "https://www.omg.org/spec/DMN/",
+   "date_read": "2026-11-23",
+   "confidence": "standard-body"
+  },
+  {
+   "id": "dm-f041",
+   "candidate": "DMN (OMG standard)",
+   "group": "codified",
+   "topic": "how",
+   "fact": "Page shows version 1.7 beta (informational, September 2026); latest formal version listed is 1.6; published by the Object Management Group.",
+   "url": "https://www.omg.org/spec/DMN/",
+   "date_read": "2026-11-23",
+   "confidence": "standard-body"
+  },
+  {
+   "id": "dm-f042",
+   "candidate": "DMN (OMG standard)",
+   "group": "codified",
+   "topic": "licence",
+   "fact": "Page states copyright 2026 OMG and an IPR mode of RF-Limited, with no further usage terms.",
+   "url": "https://www.omg.org/spec/DMN/",
+   "date_read": "2026-11-23",
+   "confidence": "standard-body"
+  },
+  {
+   "id": "dm-f043",
+   "candidate": "Drools (Apache KIE)",
+   "group": "codified",
+   "topic": "offer",
+   "fact": "Java rule engine that also includes a DMN engine running models with FEEL expressions; Kogito can deploy DMN decisions as microservices.",
+   "url": "https://github.com/apache/incubator-kie-drools",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f044",
+   "candidate": "Drools (Apache KIE)",
+   "group": "codified",
+   "topic": "licence",
+   "fact": "Apache 2.0; project is still in the Apache Incubator, releases are source with binaries on Maven Central.",
+   "url": "https://github.com/apache/incubator-kie-drools",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f045",
+   "candidate": "Drools (Apache KIE)",
+   "group": "codified",
+   "topic": "how",
+   "fact": "Open source library and runtime embedded in your own Java applications; no hosted offer on the page.",
+   "url": "https://github.com/apache/incubator-kie-drools",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f046",
+   "candidate": "Camunda 8",
+   "group": "codified",
+   "topic": "offer",
+   "fact": "Agentic orchestration platform combining BPMN flows, DMN decisions and AI agent steps, with Tasklist for human tasks and Operate for monitoring.",
+   "url": "https://github.com/camunda/camunda",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f047",
+   "candidate": "Camunda 8",
+   "group": "codified",
+   "topic": "licence",
+   "fact": "Zeebe, Operate and Tasklist are under the Camunda License 1.0 (source-available), with clients and some APIs under Apache 2.0.",
+   "url": "https://github.com/camunda/camunda",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f048",
+   "candidate": "Camunda 8",
+   "group": "codified",
+   "topic": "price",
+   "fact": "No prices shown; 30-day free SaaS trial, then free modeling-only account or paid Enterprise; self-managed is free for development and needs an Enterprise licence in production; enterprise quotes via sales.",
+   "url": "https://www.camunda.com/pricing/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f049",
+   "candidate": "Camunda 8",
+   "group": "codified",
+   "topic": "how",
+   "fact": "Self-managed on your own infrastructure (Docker, Kubernetes) or SaaS hosted by Camunda with EU-hosted Console and Modeler.",
+   "url": "https://www.camunda.com/pricing/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f050",
+   "candidate": "Open Policy Agent",
+   "group": "codified",
+   "topic": "offer",
+   "fact": "General-purpose policy engine: services send queries, OPA evaluates rules against data and returns allow or deny decisions for the service to enforce.",
+   "url": "https://github.com/open-policy-agent/opa",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f051",
+   "candidate": "Open Policy Agent",
+   "group": "codified",
+   "topic": "how",
+   "fact": "Open source, a graduated CNCF project, run beside services; adopters are listed in an ADOPTERS file the page did not expand.",
+   "url": "https://github.com/open-policy-agent/opa",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f052",
+   "candidate": "Open Policy Agent",
+   "group": "codified",
+   "topic": "licence",
+   "fact": "Apache-2.0.",
+   "url": "https://github.com/open-policy-agent/opa",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f053",
+   "candidate": "Open Policy Agent",
+   "group": "codified",
+   "topic": "record",
+   "fact": "The repository page does not describe decision logging or audit; a docs page would be needed.",
+   "url": "https://github.com/open-policy-agent/opa",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "dm-f054",
+   "candidate": "Cedar",
+   "group": "codified",
+   "topic": "offer",
+   "fact": "Policy language and Rust engine for fine-grained application authorization: a request of principal, action and resource is evaluated against policies and returns allow or deny.",
+   "url": "https://github.com/cedar-policy/cedar",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f055",
+   "candidate": "Cedar",
+   "group": "codified",
+   "topic": "how",
+   "fact": "Open source Rust crates with CLI, language server, WASM interface and schema validator; policies are kept apart from code so they can be analysed and audited on their own.",
+   "url": "https://github.com/cedar-policy/cedar",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f056",
+   "candidate": "Cedar",
+   "group": "codified",
+   "topic": "licence",
+   "fact": "Apache-2.0.",
+   "url": "https://github.com/cedar-policy/cedar",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f057",
+   "candidate": "Cedar",
+   "group": "codified",
+   "topic": "delegation",
+   "fact": "Page does not state deny-by-default outright; its example denies for lack of explicit permission.",
+   "url": "https://github.com/cedar-policy/cedar",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f058",
+   "candidate": "Holacracy Constitution",
+   "group": "framework",
+   "topic": "offer",
+   "fact": "Rule set for running an organisation through roles with purposes, domains and accountabilities inside nested circles; current version stated is 5.0.",
+   "url": "https://www.holacracy.org/constitution",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f059",
+   "candidate": "Holacracy Constitution",
+   "group": "framework",
+   "topic": "licence",
+   "fact": "Text is licensed CC BY-SA 4.0; contributions invited through its GitHub repository.",
+   "url": "https://www.holacracy.org/constitution",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f060",
+   "candidate": "Holacracy Constitution",
+   "group": "framework",
+   "topic": "delegation",
+   "fact": "Role leads may act within their role's purpose and accountabilities, but need permission to affect others' domains and authorization to spend; governance changes go through proposals and objections.",
+   "url": "https://www.holacracy.org/constitution",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f061",
+   "candidate": "Holacracy Constitution",
+   "group": "framework",
+   "topic": "delegation",
+   "fact": "If a circle repeatedly breaks the rules, a process breakdown can be declared, temporarily shifting authority to a super-circle's facilitator.",
+   "url": "https://www.holacracy.org/constitution",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f062",
+   "candidate": "Consent decision-making (Sociocracy 3.0)",
+   "group": "framework",
+   "topic": "how",
+   "fact": "Facilitated process in nine steps where only objections block a proposal; unproven concerns are recorded and revisited with the policy's evaluation criteria.",
+   "url": "https://patterns.sociocracy30.org/consent-decision-making.html",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f063",
+   "candidate": "Consent decision-making (Sociocracy 3.0)",
+   "group": "framework",
+   "topic": "licence",
+   "fact": "Page text is CC BY-SA 4.0, authored by Bockelbrink, Priest and David.",
+   "url": "https://patterns.sociocracy30.org/consent-decision-making.html",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f064",
+   "candidate": "Consent decision-making (Sociocracy 3.0)",
+   "group": "framework",
+   "topic": "record",
+   "fact": "Records concerns for later evaluation; names no signed record of who decided.",
+   "url": "https://patterns.sociocracy30.org/consent-decision-making.html",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "dm-f065",
+   "candidate": "Bain RAPID",
+   "group": "framework",
+   "topic": "offer",
+   "fact": "Bain's decision tool assigning Recommend, Agree, Perform, Input and Decide roles so accountability for each decision is clear.",
+   "url": "https://www.bain.com/insights/rapid-tool-to-clarify-decision-accountability/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f066",
+   "candidate": "Bain RAPID",
+   "group": "framework",
+   "topic": "licence",
+   "fact": "Described as proprietary, copyright 1996-2026 Bain & Company; no reuse licence stated on the page.",
+   "url": "https://www.bain.com/insights/rapid-tool-to-clarify-decision-accountability/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f067",
+   "candidate": "Bain RAPID",
+   "group": "framework",
+   "topic": "delegation",
+   "fact": "Ideally one decider; a group decider should agree in advance how to decide (for example majority or chair's call); the decider settles any recommender and agreer disagreement; no default for silence stated.",
+   "url": "https://www.bain.com/insights/rapid-tool-to-clarify-decision-accountability/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "dm-f068",
+   "candidate": "RACI",
+   "group": "framework",
+   "topic": "offer",
+   "fact": "Responsibility matrix technique with Responsible, Accountable, Consulted and Informed roles, often used in cross-department projects.",
+   "url": "https://en.wikipedia.org/wiki/Responsibility_assignment_matrix",
+   "date_read": "2026-11-23",
+   "confidence": "third-party"
+  },
+  {
+   "id": "dm-f069",
+   "candidate": "RACI",
+   "group": "framework",
+   "topic": "delegation",
+   "fact": "The accountable person is answerable for correct completion, delegates the work and signs off; some theories want exactly one accountable person per task.",
+   "url": "https://en.wikipedia.org/wiki/Responsibility_assignment_matrix",
+   "date_read": "2026-11-23",
+   "confidence": "third-party"
+  },
+  {
+   "id": "dm-f070",
+   "candidate": "RACI",
+   "group": "framework",
+   "topic": "licence",
+   "fact": "No single owner's licence: this is Wikipedia's description, whose text is CC BY-SA 4.0; RACI itself has no official publisher page read.",
+   "url": "https://en.wikipedia.org/wiki/Responsibility_assignment_matrix",
+   "date_read": "2026-11-23",
+   "confidence": "third-party"
+  }
+ ],
+ "changes": [
+  {
+   "at": "2026-11-23T05:55Z",
+   "what": "first version: 20 players, 70 facts"
+  }
+ ]
+}
