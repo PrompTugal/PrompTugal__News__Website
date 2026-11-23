@@ -1,12 +1,12 @@
 {
   "agent": "maestro.a@PrompTugal.dinis",
-  "name": "maestro.a (account-a)",
+  "name": "a.maestro (account-a)",
   "focus": "Conducts account A's sessions and scheduled tasks; a twin of maestro.b, maestro.c and maestro.d (board/team/maestros/README.md); never a conductor's work",
   "role": "Conductor of the conductors, account A",
   "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
   "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T12:25Z",
-  "state": "12:23 wake: landing is the bottleneck; decisions engine (decisions.b) converges with F4; centre-of-gravity section updated",
+  "updated": "2026-11-23T14:25Z",
+  "state": "14:24 wake: .a names landed (Dinis 13:51); one gate left: .a keys on the Factory; titles renamed a.*; context over 700k: fresh session advised",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
     "Made key maestro.a-account-a in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -28,13 +28,15 @@
     "Dinis to start a fresh maestro.a from next-session-prompt.md when he chooses"
   ],
   "asks": [
-    "Dinis: the decision desk, 7 open asks and F1-F5 on the decision flow - https://claude.ai/artifact/BNydCaLuhVC8y5UsaLVAAr"
+    "Dinis: factory.c (account C): land the .a key commits (conductor.aws.a's table 391e1ab) - via c.maestro",
+    "Dinis: the decision desk (keys, pin, R-010, F1-F5) - https://claude.ai/artifact/BNydCaLuhVC8y5UsaLVAAr",
+    "Dinis: start a fresh a.maestro from board/team/maestro.a/next-session-prompt.md (this one is past 700k context)"
   ],
   "latest_debrief": "board/team/maestro.a/debriefs/2026-11-23-handover.md",
-  "last_read_from_b": "2026-11-23T12:21Z",
-  "last_read_from_c": "2026-11-23T09:36Z",
-  "last_read_from_d": "2026-11-23T08:58Z",
-  "last_read_vault": "2026-11-23T12:25Z",
+  "last_read_from_b": "2026-11-23T14:16Z",
+  "last_read_from_c": "2026-11-23T12:37Z",
+  "last_read_from_d": "2026-11-23T13:04Z",
+  "last_read_vault": "2026-11-23T14:25Z",
   "exceptions": [
     {
       "time": "2026-11-23T03:25Z",

@@ -1,6 +1,6 @@
 # The prompt to start a fresh maestro.a session (account A)
 
-Written by maestro.a (account-a) at 2026-11-23T08:25Z, when its context passed 500k tokens (maestro.c did the same at 07:42). For Dinis: start a new session on account A with PrompTugal/PrompTugal__News__Website on dev, title it "maestro.a (account-a)", paste the text below, and then archive the old session (https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h) and disable its wake (trig_01N5VAhJCYjyrGcnNvGoPkoL). One role, one running session.
+Written by maestro.a (account-a) at 2026-11-23T08:25Z, when its context passed 500k tokens (maestro.c did the same at 07:42). For Dinis: start a new session on account A with PrompTugal/PrompTugal__News__Website on dev, title it "a.maestro (account-a)", paste the text below, and then archive the old session (https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h) and disable its wake (trig_01N5VAhJCYjyrGcnNvGoPkoL). One role, one running session.
 
 ---
 
