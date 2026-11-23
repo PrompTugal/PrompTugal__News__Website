@@ -60,6 +60,18 @@
    "sessions_blocked": null,
    "api_equiv_usd_lifetime_read": null,
    "notes": "RED by forecast: ~27%/h, 100% near 05:00-05:05Z before the reset. Must run at <=14%/h to finish the window. AWS cadences halved and 16 AWS agents moving to account A (maestro.c). Advice sent to conductor.aws.c."
+  },
+  {
+   "at": "2026-11-23T06:30Z",
+   "account": "C",
+   "source": "read",
+   "five_hour_status": "allowed (new window)",
+   "five_hour_resets_utc": "2026-11-23T11:20Z",
+   "weekly_percent": null,
+   "sessions_working": null,
+   "sessions_blocked": null,
+   "api_equiv_usd_lifetime_read": null,
+   "notes": "Window reset at 06:20 without reaching the limit. Advice: AMBER pace (AWS halved cadences, design.c 2-hourly, studio.c as scheduled); full pace only if ~08:30 reading shows five-hour <=35% and weekly <60%. maestro.c context 608k (30.14 lifetime), the dearest wake on C."
   }
  ]
 }

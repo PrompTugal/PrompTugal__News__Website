@@ -4,8 +4,8 @@
  "focus": "costs, usage limits and model routing for account C; the guard that stops any account maxing out; measures, reports and proposes, stops nothing",
  "session": "https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz",
  "key": "accountant.c-account-c (board/keys.json; encryption sha256:db0739023e73f480, signing sha256:460cf5ac58adf6de)",
- "updated": "2026-11-23T03:38Z",
- "state": "Account C RED by forecast at 03:36Z: five-hour window 60% used after ~2h15m (Dinis's reading), would hit 100% near 05:00Z before its 06:20Z reset; weekly 50%. AWS cadences halving and 16 AWS agents moving to account A. I read C at each maestro.c ping (:33).",
+ "updated": "2026-11-23T06:32Z",
+ "state": "Account C's five-hour window reset at 06:20 without maxing out. AMBER pace advised until a fresh reading from Dinis (~08:30): full pace once five-hour <=35% and weekly <60%.",
  "done": [
   "Read CLAUDE.md, guidance README (twins rule of 22 Nov), accountant.d's status, debrief, finance README, ledgers, accounts.json, proposals; maestros README and view",
   "Key accountant.c-account-c made in this session; entry and ssh half in board/keys.json, signed commit",
@@ -14,7 +14,8 @@
   "proposals.md: the guard (levels Green/Amber/Red/Stop, who acts), model routing with quality measures, Mistral first moves, the routing agent's design",
   "02:45: second reading of account C (ledger row); budget proposal for the AWS programme sent to conductor.aws.c and in proposals.md section 5",
   "03:27: reading of account C; AMBER forecast and advice to conductor.aws.c and maestro.c",
-  "03:36: Dinis's readings (five-hour 60%, weekly 50%); RED forecast sent to conductor.aws.c; reading at each maestro.c :33 ping agreed"
+  "03:36: Dinis's readings (five-hour 60%, weekly 50%); RED forecast sent to conductor.aws.c; reading at each maestro.c :33 ping agreed",
+  "06:30: reading after the reset; resume-pace advice to conductor.aws.c and conductor.c"
  ],
  "next": [
   "Measure the AWS programme per role after 24 h; compare with the ceilings",
@@ -28,5 +29,13 @@
   "Dinis: https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz - disable conductor.C@PrompTugal.news's hourly wake (trig_01Dqi53Bzf6iVEh11bf89TnS, no job, 240k context); and move the cowork inbox run (94% of C's spend, 285k context every 2 h) off Opus for its checks or compact it",
   "Dinis: https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz - Mistral credit amount and expiry, and yes or no to translation as the first workflow moved there"
  ],
- "debrief": "board/team/accountant.c/debriefs/2026-11-22-handover.md"
+ "debrief": "board/team/accountant.c/debriefs/2026-11-22-handover.md",
+ "exceptions": [
+  {
+   "at": "2026-11-23T03:30Z",
+   "what": "took readings of account C at maestro.c's pings and sent pace advice to conductors",
+   "rule": "no wake of my own; act only at Dinis's word",
+   "why": "Dinis's 'no agent blocked; reversible steps on your own call' (23 Nov ~03:35, via maestro.c's record); advice only, nothing paused or scheduled by me"
+  }
+ ]
 }
