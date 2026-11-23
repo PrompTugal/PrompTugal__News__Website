@@ -5,7 +5,7 @@
  "role": "The cartographer: draws and keeps the maps as data and pages; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
  "session": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
  "key": "cartographer.d-agenticcells (board/keys.json; encryption sha256:c0e836126944f1c2; signing sha256:2ddae8692c5043c6; ssh ed25519 for git signatures)",
- "updated": "2026-11-23T05:21Z",
+ "updated": "2026-11-23T05:30Z",
  "state": "ABP grant requested (abp-grant-request.json, for Monday). Maps: decision-making, estate, Sovereign Website (strategy and landscape), Wardley-tools landscape, org chart of account D (a structure map), and a history. Drafts. Format now draws structure maps. Holacracy site: holacracy.d's to run, asking Dinis.",
  "done": [
   "Read CLAUDE.md, New from Dinis, maestro.d's Holacracy analysis, holacracy.d's org-chart.json and draw tool, the library brief",
@@ -31,7 +31,8 @@
   "Drew the org chart of account D from holacracy.d's record as a structure map (tools/from-org.mjs, draw.mjs structure branch); account B dashed, reported not seen; central circle dashed as proposed",
   "helm.d decided (23 Nov 04:50Z): I keep the Wardley Maps framework site; sites.d helps with the build where asked, design.d the look. SovereignWebsite/Site__Agent__Cartographer exists; asked helm.d how we move (my proposal: a copy of my home at each release; this repository stays the source until helm.d says otherwise)",
   "The circles view of account D drawn from holacracy.d's circles[] (maps/circles-account-d.circles.svg): the anchor circle's purpose is not written (red); the central circle relayed",
-  "Drew landscape.d's two new landscapes (RiskMandate, 18 players in 5 groups; agentic sales, 18 players in 5 groups; flagged rows faint) with tools/from-landscape-groups.mjs"
+  "Drew landscape.d's two new landscapes (RiskMandate, 18 players in 5 groups; agentic sales, 18 players in 5 groups; flagged rows faint) with tools/from-landscape-groups.mjs",
+  "Withdrew my ask to factory.d (the keys rule: only my own signed commit may add my key; helm.d and factory.d said so); the one ask for the whole circle stays with Dinis and conductor.d (SovereignWebsite)"
  ],
  "next": [
   "DONE (first version): the Wardley explainer, an invented bakery in 8 steps (maps/wardley-explainer.history.svg) and its storyboard for studio.d (maps/what-a-wardley-map-is.storyboard.json); sherpa.d to test it with cold readers; then the live map at minute 3 on the site",
@@ -39,7 +40,8 @@
   "The 16-part Holacracy mapping as a strip (holacracy.d's public/02-the-mapping.md), then the circles view",
   "The Wardley explainer from sherpa.d's first five minutes; storyboard for studio.d",
   "A second studio.d story: where the white space is",
-  "Keep working in my folder until factory.d raises the repository and Dinis names the site (conductor.d, SovereignWebsite, via helm.d)"
+  "Keep working in my folder until factory.d raises the repository and Dinis names the site (conductor.d, SovereignWebsite, via helm.d)",
+  "Redraw the org chart and circles with holacracy.d's new home field and its list of roles with no home"
  ],
  "asks": [
   "Dinis: https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH - the Wardley Maps site's name and address, and Holacracy's (the word is settled); the researcher session (helm.d routed it to you); a pointer to your code and best articles on Wardley maps",
