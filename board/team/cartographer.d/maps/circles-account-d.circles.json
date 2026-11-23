@@ -1,0 +1,162 @@
+{
+ "format": "carto-map/1",
+ "id": "circles-account-d",
+ "kind": "circles",
+ "status": "draft",
+ "title": "The circles of Dinis's estate and who leads them",
+ "made": "2026-11-23T05:01Z",
+ "made_by": "cartographer.d@AgentiCCells.dinis",
+ "sources_read": {
+  "org": "board/team/holacracy.d/org-chart.json circles[] (generated 2026-11-23T04:55Z), read 23 Nov 2026; holacracy.d keeps the record, I draw it"
+ },
+ "nodes": [
+  {
+   "id": "anchor",
+   "label": "Dinis's estate (anchor circle)",
+   "lead": "Dinis",
+   "purpose": null,
+   "fillers": [],
+   "sub": [
+    "maestros",
+    "PrompTugal",
+    "SovereignWebsite",
+    "AgentiCCells",
+    "central",
+    "sgit.ai"
+   ],
+   "relayed": false,
+   "note": null,
+   "source": "org"
+  },
+  {
+   "id": "maestros",
+   "label": "The maestros",
+   "lead": "none named (peers)",
+   "purpose": "One combined view of both accounts, one brief to Dinis (board/team/maestros/README.md)",
+   "fillers": [
+    "maestro.d",
+    "maestro.b (reported)"
+   ],
+   "sub": [],
+   "relayed": false,
+   "note": null,
+   "source": "org"
+  },
+  {
+   "id": "PrompTugal",
+   "label": "PrompTugal",
+   "lead": "conductor.d (PrompTugal) (D), conductor.b (B, reported)",
+   "purpose": "PrompTugal.news and its sites (CLAUDE.md)",
+   "fillers": [
+    "conductor.d (PrompTugal)",
+    "bulletins.d"
+   ],
+   "sub": [],
+   "relayed": false,
+   "note": null,
+   "source": "org"
+  },
+  {
+   "id": "SovereignWebsite",
+   "label": "SovereignWebsite",
+   "lead": "conductor.d (SovereignWebsite) (D), conductor.b (B, reported)",
+   "purpose": "The SovereignWebsite Factory and its sites",
+   "fillers": [
+    "conductor.d (SovereignWebsite)",
+    "sites.d",
+    "hub.d",
+    "design.d",
+    "synthetic-users.d",
+    "factory.d",
+    "library.d"
+   ],
+   "sub": [
+    "StreamingWebsite"
+   ],
+   "relayed": false,
+   "note": null,
+   "source": "org"
+  },
+  {
+   "id": "StreamingWebsite",
+   "label": "StreamingWebsite",
+   "lead": "sites.d (by parent; not written as a lead)",
+   "purpose": "The streaming site",
+   "fillers": [
+    "streaming.d"
+   ],
+   "sub": [],
+   "relayed": false,
+   "note": null,
+   "source": "org"
+  },
+  {
+   "id": "AgentiCCells",
+   "label": "AgentiCCells",
+   "lead": "conductor.d (AgentiCCells) (D), conductor.b and cells.b (B, reported)",
+   "purpose": "The AgentiCCells site factory and its cells",
+   "fillers": [
+    "conductor.d (AgentiCCells)",
+    "cell.email.d"
+   ],
+   "sub": [
+    "Cell Email"
+   ],
+   "relayed": false,
+   "note": null,
+   "source": "org"
+  },
+  {
+   "id": "Cell Email",
+   "label": "Cell Email",
+   "lead": "conductor.d (AgentiCCells) (by parent)",
+   "purpose": "The email cell",
+   "fillers": [
+    "cell.email.d"
+   ],
+   "sub": [],
+   "relayed": false,
+   "note": null,
+   "source": "org"
+  },
+  {
+   "id": "central",
+   "label": "Central circle (helm)",
+   "lead": "helm.d (account-d), a top-level peer of the conductors (relayed)",
+   "purpose": "One place for the global structure and direction of Dinis's estate: where we are, where we go, and what that costs and needs, across every project and account (proposed by helm.d, 13:37Z; not ratified by Dinis) | twins: sherpa.d and accountant.d are twins of the account B roles (relayed)",
+   "fillers": [
+    "helm.d",
+    "strategy.d",
+    "cartographer.d",
+    "sherpa.d",
+    "accountant.d",
+    "counsel.d",
+    "decisions.d",
+    "studio.d",
+    "landscape.d",
+    "holacracy.d",
+    "slides.d"
+   ],
+   "sub": [],
+   "relayed": true,
+   "note": "The central circle is account-d's, not AgentiCCells' (Dinis ~15:15Z, relayed by maestro.d)",
+   "source": "org"
+  },
+  {
+   "id": "sgit.ai",
+   "label": "sgit.ai",
+   "lead": "Dinis (his word, in my session, 22 Nov 2026)",
+   "purpose": "Dinis: \"one of my core projects. And sgit is the one that creates the vaults and is the underlying technology of all of this. It's also the newsroom that is currently I use to publish a lot of my articles because it really has my voice and it has a lot of good learnings and it works really, really well.\"",
+   "fillers": [
+    "newsroom.d"
+   ],
+   "sub": [],
+   "relayed": false,
+   "note": null,
+   "source": "org"
+  }
+ ],
+ "notes": [
+  "Red: a circle whose purpose is not written. Blue bar: holacracy.d marks something about it as relayed. Account B is reported, not seen."
+ ]
+}

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 642" role="img" aria-label="The circles of Dinis's estate and who leads them" font-family="system-ui, sans-serif"><rect width="1400" height="642" fill="#fff"/>
+<text x="24" y="34" font-size="24" font-weight="600" fill="#111">The circles of Dinis's estate and who leads them</text>
+<text x="24" y="60" font-size="13" fill="#444">circles view, draft, made 2026-11-23T05:01Z by cartographer.d@AgentiCCells.dinis; drawn from holacracy.d's record. Red: purpose not written. Blue bar: relayed.</text>
+<rect x="16" y="76" width="1368" height="546" rx="12" fill="none" stroke="#999" stroke-dasharray="6 4"/>
+<text x="28" y="100" font-size="15" font-weight="600" fill="#b3261e">Dinis's estate (anchor circle): lead Dinis; purpose NOT WRITTEN</text>
+<rect x="24" y="130" width="440" height="112" rx="8" fill="#f7f9fc" stroke="#667" stroke-width="1"/>
+<text x="38" y="154" font-size="17" font-weight="600" fill="#111">The maestros</text>
+<text x="38" y="174" font-size="12" fill="#222" font-weight="600">Lead: none named (peers)</text>
+<text x="38" y="190" font-size="12" fill="#222" font-weight="600">Purpose: One combined view of both accounts, one brief to Dinis</text>
+<text x="38" y="206" font-size="12" fill="#222">(board/team/maestros/README.md)</text>
+<text x="38" y="222" font-size="12" fill="#222" font-weight="600">Fillers: maestro.d, maestro.b (reported)</text>
+<rect x="484" y="130" width="440" height="96" rx="8" fill="#f7f9fc" stroke="#667" stroke-width="1"/>
+<text x="498" y="154" font-size="17" font-weight="600" fill="#111">PrompTugal</text>
+<text x="498" y="174" font-size="12" fill="#222" font-weight="600">Lead: conductor.d (PrompTugal) (D), conductor.b (B, reported)</text>
+<text x="498" y="190" font-size="12" fill="#222" font-weight="600">Purpose: PrompTugal.news and its sites (CLAUDE.md)</text>
+<text x="498" y="206" font-size="12" fill="#222" font-weight="600">Fillers: conductor.d (PrompTugal), bulletins.d</text>
+<rect x="944" y="130" width="440" height="234" rx="8" fill="#f7f9fc" stroke="#667" stroke-width="1"/>
+<text x="958" y="154" font-size="17" font-weight="600" fill="#111">SovereignWebsite</text>
+<text x="958" y="174" font-size="12" fill="#222" font-weight="600">Lead: conductor.d (SovereignWebsite) (D), conductor.b (B,</text>
+<text x="958" y="190" font-size="12" fill="#222">reported)</text>
+<text x="958" y="206" font-size="12" fill="#222" font-weight="600">Purpose: The SovereignWebsite Factory and its sites</text>
+<text x="958" y="222" font-size="12" fill="#222" font-weight="600">Fillers: conductor.d (SovereignWebsite), sites.d, hub.d,</text>
+<text x="958" y="238" font-size="12" fill="#222">design.d, synthetic-users.d, factory.d, library.d</text>
+<rect x="960" y="258" width="408" height="96" rx="8" fill="#f7f9fc" stroke="#667" stroke-width="1"/>
+<text x="974" y="282" font-size="15" font-weight="600" fill="#111">StreamingWebsite</text>
+<text x="974" y="302" font-size="12" fill="#222" font-weight="600">Lead: sites.d (by parent; not written as a lead)</text>
+<text x="974" y="318" font-size="12" fill="#222" font-weight="600">Purpose: The streaming site</text>
+<text x="974" y="334" font-size="12" fill="#222" font-weight="600">Fillers: streaming.d</text>
+<rect x="484" y="240" width="440" height="218" rx="8" fill="#f7f9fc" stroke="#667" stroke-width="1"/>
+<text x="498" y="264" font-size="17" font-weight="600" fill="#111">AgentiCCells</text>
+<text x="498" y="284" font-size="12" fill="#222" font-weight="600">Lead: conductor.d (AgentiCCells) (D), conductor.b and cells.b</text>
+<text x="498" y="300" font-size="12" fill="#222">(B, reported)</text>
+<text x="498" y="316" font-size="12" fill="#222" font-weight="600">Purpose: The AgentiCCells site factory and its cells</text>
+<text x="498" y="332" font-size="12" fill="#222" font-weight="600">Fillers: conductor.d (AgentiCCells), cell.email.d</text>
+<rect x="500" y="352" width="408" height="96" rx="8" fill="#f7f9fc" stroke="#667" stroke-width="1"/>
+<text x="514" y="376" font-size="15" font-weight="600" fill="#111">Cell Email</text>
+<text x="514" y="396" font-size="12" fill="#222" font-weight="600">Lead: conductor.d (AgentiCCells) (by parent)</text>
+<text x="514" y="412" font-size="12" fill="#222" font-weight="600">Purpose: The email cell</text>
+<text x="514" y="428" font-size="12" fill="#222" font-weight="600">Fillers: cell.email.d</text>
+<rect x="24" y="256" width="440" height="240" rx="8" fill="#f7f9fc" stroke="#667" stroke-width="1"/>
+<rect x="24" y="256" width="6" height="240" rx="3" fill="#2a6fdb"/>
+<text x="38" y="280" font-size="17" font-weight="600" fill="#111">Central circle (helm) (relayed)</text>
+<text x="38" y="300" font-size="12" fill="#222" font-weight="600">Lead: helm.d (account-d), a top-level peer of the conductors</text>
+<text x="38" y="316" font-size="12" fill="#222">(relayed)</text>
+<text x="38" y="332" font-size="12" fill="#222" font-weight="600">Purpose: One place for the global structure and direction of</text>
+<text x="38" y="348" font-size="12" fill="#222">Dinis's estate: where we are, where we go, and what that costs</text>
+<text x="38" y="364" font-size="12" fill="#222">and needs, across every project and account (proposed by helm.d,</text>
+<text x="38" y="380" font-size="12" fill="#222">13:37Z; not ratified by Dinis) | twins: sherpa.d and</text>
+<text x="38" y="396" font-size="12" fill="#222">accountant.d are twins of the account B roles (relayed)</text>
+<text x="38" y="412" font-size="12" fill="#222" font-weight="600">Fillers: helm.d, strategy.d, cartographer.d, sherpa.d,</text>
+<text x="38" y="428" font-size="12" fill="#222">accountant.d, counsel.d, decisions.d, studio.d, landscape.d,</text>
+<text x="38" y="444" font-size="12" fill="#222">holacracy.d, slides.d</text>
+<text x="38" y="460" font-size="12" fill="#222">Note: The central circle is account-d's, not AgentiCCells'</text>
+<text x="38" y="476" font-size="12" fill="#222">(Dinis ~15:15Z, relayed by maestro.d)</text>
+<rect x="944" y="378" width="440" height="160" rx="8" fill="#f7f9fc" stroke="#667" stroke-width="1"/>
+<text x="958" y="402" font-size="17" font-weight="600" fill="#111">sgit.ai</text>
+<text x="958" y="422" font-size="12" fill="#222" font-weight="600">Lead: Dinis (his word, in my session, 22 Nov 2026)</text>
+<text x="958" y="438" font-size="12" fill="#222" font-weight="600">Purpose: Dinis: "one of my core projects. And sgit is the one</text>
+<text x="958" y="454" font-size="12" fill="#222">that creates the vaults and is the underlying technology of all</text>
+<text x="958" y="470" font-size="12" fill="#222">of this. It's also the newsroom that is currently I use to</text>
+<text x="958" y="486" font-size="12" fill="#222">publish a lot of my articles because it really has my voice and</text>
+<text x="958" y="502" font-size="12" fill="#222">it has a lot of good learnings and it works really, really</text>
+<text x="958" y="518" font-size="12" fill="#222" font-weight="600">Fillers: newsroom.d</text>
+
+<text x="24" y="610" font-size="12" fill="#555">Account B's circles are reported, not seen.</text></svg>
