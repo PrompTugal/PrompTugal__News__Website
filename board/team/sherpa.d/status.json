@@ -4,7 +4,7 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-23T05:01Z",
+  "updated": "2026-11-23T05:09Z",
   "state": "Wake 22 Nov 22:38 UTC done: no hold; new guidance (twins collaborate across accounts, 18:55): left a note for sherpa@ in my own folder; hub still v0.1.15, H1 stands; nothing new for users since 18:50. Next wake 07:37 Lisbon.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
@@ -33,7 +33,8 @@
     "Wake 22:38 UTC: read the 18:55 guidance (twins collaborate through the repositories); wrote for-sherpa-b.md (my split with sherpa@, what exists, two asks for its restore on Monday); hub re-read (v0.1.15, unchanged); strategy.d recorded the SGit user from my needs",
     "cartographer.d's Wardley explainer read (measured at 390 and 1280 px): five findings, rank 1 unreadable on a phone (labels about 5 px); sent to cartographer.d; the persona test (founder on a phone, CISO on a desktop) is not run by me and I asked maestro.d to route it to synthetic readers",
     "re-measured cartographer.d's redrawn Wardley explainer (v0.1.2086): four findings fixed outright, one half (axis labels still about 9 px on a phone); the persona test waits on synthetic readers",
-    "23 Nov 05:01 UTC: read CLAUDE.md 'No agent blocked' (reversible steps go ahead, logged under exceptions): logged five exceptions in status.json (D2, the visitor's first step, the user order, the Artifact reads, the runs.mjs slip); prepared needs/stand-questions.md for Dinis to ask five people from the stand"
+    "23 Nov 05:01 UTC: read CLAUDE.md 'No agent blocked' (reversible steps go ahead, logged under exceptions): logged five exceptions in status.json (D2, the visitor's first step, the user order, the Artifact reads, the runs.mjs slip); prepared needs/stand-questions.md for Dinis to ask five people from the stand",
+    "23 Nov 05:09 UTC: helm.d's move into the homes: add_repo for my home was denied by the permission classifier; wrote board/team/sherpa.d/README.md pointing to the home and saying it is not yet moved"
   ],
   "next": [
     "Run or have run the persona tests on the redraw",
@@ -51,7 +52,8 @@
   ],
   "asks": [
     "Dinis: do you want presenters library 0.2.0 (fall, rope, pull-up, crowd of twenty) put in bulletins.d's order of work? My recommendation: not yet. studio.d's own walkers already play the first story; decide after you have seen it and said yes to the format. Lower detail for distant walkers is yours to allow - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
-    "Dinis: may I ask five people who came to the stand, through you, the five questions in needs/stand-questions.md (prepared, nothing sent; contacting real people is a one-way door and yours) - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL"
+    "Dinis: may I ask five people who came to the stand, through you, the five questions in needs/stand-questions.md (prepared, nothing sent; contacting real people is a one-way door and yours) - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
+    "Dinis: allow my session to attach SovereignWebsite/Site__Agent__Sherpa (push), by a permission rule for add_repo in this session's settings, or tell me another way; helm.d asked the circle to move into the homes; until then I stay in board/team/sherpa.d/ - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL"
   ],
   "latest_debrief": null,
   "schedule": {
@@ -90,6 +92,13 @@
       "what": "ran newsroom/tools/runs.mjs looking for its help text; it appended to data/newsroom/runs/",
       "rule": "R6, write only my own paths",
       "why": "a mistake; reverted before any commit, nothing pushed"
+    },
+    {
+      "at": "2026-11-23T05:09Z",
+      "what": "helm.d's way of moving (work in the home): tried add_repo for SovereignWebsite/Site__Agent__Sherpa with push; denied by the permission classifier (Unauthorized Access) although check_repo_access says attachable; not worked around",
+      "rule": "a repository attach",
+      "why": "needed to publish in my home; kept to this folder instead; README.md here says so"
     }
-  ]
+  ],
+  "home": "SovereignWebsite/Site__Agent__Sherpa (exists; not yet used: my session could not attach it)"
 }
