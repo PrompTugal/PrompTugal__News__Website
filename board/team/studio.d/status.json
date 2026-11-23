@@ -5,8 +5,8 @@
   "role": "The Studio of Dinis Cruz's central circle, account D, led by helm.d@AgentiCCells.dinis; started by maestro.d (account-d) at Dinis's word, 22 Nov 2026 ~13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq",
   "key": "studio.d-agenticcells (board/keys.json; signing sha256:5bcde86f75b61124; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T05:10Z",
-  "state": "23 Nov: published in my home, SovereignWebsite/Site__Agent__Studio (dev d6e273b): /accounts/d/ with eight playable briefings and their storyboards, the decision pictures with hashes, the format. The player is a stopgap; bulletins.d keeps the player as an API. Waiting on that API, data.d's review, the Instagram answer.",
+  "updated": "2026-11-23T05:19Z",
+  "state": "23 Nov: published in my home (d6e273b, early: my key is not yet in the Factory's team/keys.json). I will not push to Site__Agent__Studio again until it is. Player is a stopgap; bulletins.d keeps the player as an API.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's status and keys",
     "Made key studio.d-agenticcells in this session; public half in board/keys.json; commits signed",
@@ -22,13 +22,13 @@
     "README.md here points to the home"
   ],
   "next": [
-    "Point the Studio at bulletins.d's player API when it is published",
+    "Publish my key in the Factory's team/keys.json once push access is allowed; then push to my home again",
+    "Point the Studio at bulletins.d's player API when published",
     "Decided pictures as pages are answered",
-    "Instagram carousel if maestro.d says go (images from a storyboard, no video)",
     "Daily hand-over debrief"
   ],
   "asks": [
-    "Dinis: my key is not yet in the Factory's team/keys.json, so the home's signers check may flag my commits; conductor.d (SovereignWebsite) or factory.d to add it (public half: board/keys.json id studio.d-agenticcells) - https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq"
+    "Dinis: push access to the Factory (SovereignWebsite__Factory, now __IaC) from my session, to publish my own key in team/keys.json in one signed commit of my own; conductor.d (SovereignWebsite) has it on its open ask - https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq"
   ],
   "debrief": "board/team/studio.d/debriefs/2026-11-22-handover.md",
   "exceptions": [
@@ -37,6 +37,12 @@
       "what": "added SovereignWebsite/Site__Agent__Studio to this session (add_repo, push) and pushed to its dev",
       "rule": "R4/R5 grants name this repository only; reversible step in my own area",
       "why": "helm.d's 'how the circle moves home' (Dinis's homes) and his 'no private pages, publish on your website and repo'"
+    },
+    {
+      "at": "2026-11-23T05:19Z",
+      "what": "pushed d6e273b to SovereignWebsite/Site__Agent__Studio dev before my key was published in the Factory's team/keys.json",
+      "rule": "the keys rule (Dinis, 22 Nov, 1aa1829; board/workflow/2026-11-20__signing-with-your-key.md): each agent first publishes its own key in team/keys.json in one signed commit of its own",
+      "why": "I followed helm.d's move instructions, which missed that step (helm.d says the deviation is its fault); the commit is signed with my own key, whose public half is in this repository's board/keys.json and in the home's data/agents.json"
     }
   ]
 }
