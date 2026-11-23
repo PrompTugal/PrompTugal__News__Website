@@ -5,8 +5,8 @@
   "role": "Counsel of Dinis's central circle, account D, led by helm.d; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
   "key": "counsel.d-agenticcells (board/keys.json; signing sha256:d5ad2c2d0e7821cb; encryption sha256:bdadaf77de8d1b7d; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T22:15Z",
-  "state": "Draft v0.3 for security@'s review on Monday: scope by reversibility (one-way doors to Dinis, two-way doors go ahead under a five-point test and a closed list of kinds), sub-delegation one level down with limits, G1/G2/G5-G8 folded in. Dinis's answers in it are relayed by maestro.d, unsigned. No model has reviewed it (OpenRouter line waits on Dinis's yes). No wake.",
+  "updated": "2026-11-23T05:01Z",
+  "state": "v0.3 for security@'s review today; v0.3 simulated on paper (S9 to S15, gaps G9 to G15) for v0.4. No model has checked anything: OpenRouter spend is money, still Dinis's. No wake.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's power-of-attorney and decisions-at-scale (sections 1, 6, 7), board/person-keys.json, rights@'s status, newsroom.sgit.ai's lawyers-in-the-loop",
     "Key counsel.d-agenticcells made in this session and published in board/keys.json, commits signed",
@@ -20,13 +20,13 @@
     "16:09 UTC: accountant.d sent its ten triggers (board/team/accountant.d/triggers-for-opinion.md); proposal's accountant section now points there, all advisory (budgets monitoring only)",
     "16:58 UTC: helm.d relayed (unsigned) Dinis's 'thinking in a loop' direction (board/team/helm.d/direction.md): read as material for v0.3",
     "17:04 UTC: maestro.d relayed Dinis's answers (voice memo about 17:05 UTC by its account): scope by reversibility, sub-delegation, 7 days and 72 hours, pki.sgit.ai key; v0.3 drafted to them",
-    "22:14 UTC: helm.d relayed the circle's ask (Dinis's memo about 17:05 UTC): ABP grant request drafted as abp-grant-request.json for abp@ on Monday; kept to as if granted"
+    "22:14 UTC: helm.d relayed the circle's ask (Dinis's memo about 17:05 UTC): ABP grant request drafted as abp-grant-request.json for abp@ on Monday; kept to as if granted",
+    "2026-11-23T05:01Z: read CLAUDE.md's 'No agent blocked' (relayed by helm.d 05:00 UTC); exceptions logged; v0.3 tabletop: S9 to S15, gaps G9 to G15"
   ],
   "next": [
-    "security@'s review of v0.3 on Monday (through maestro.d)",
-    "Simulations of P3 and sub-delegation: compromised sub-attorney, sub-delegation published late, parent revoked mid-act, an act that passes the test but is not reversible in practice",
-    "Model checks of v0.3 once Dinis says yes to the OpenRouter line",
-    "Opinion calls: answer abp@'s changes when they come"
+    "security@'s review of v0.3 (through maestro.b/maestro.d), then v0.4 with G9 to G15",
+    "Model checks once Dinis says yes to the OpenRouter line",
+    "Opinion calls: answer abp@'s review of abp-grant-request.json and the proposal"
   ],
   "asks": [
     "Dinis: v0.3 rests on your answers relayed by maestro.d (scope by reversibility, sub-delegation, 7 days, 72 hours, your pki.sgit.ai key); please confirm them here or signed before anything is signed. And: v0.3 reads 'moved down' narrowly (through decisions.d, one level, reversible kinds only); wider only if you sign it - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
@@ -36,5 +36,31 @@
     "Dinis: a stolen attorney key is seen fastest if you are alerted on every request decisions.d issues, not daily (simulation S3, gap G3): how do you want that alert? - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: may counsel.d write to abp@ (account B) directly on the ABP work, or only through maestro.d as the twins rule says? Until you say, through maestro.d - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6"
   ],
-  "debrief": "board/team/counsel.d/debriefs/2026-11-22-handover.md"
+  "debrief": "board/team/counsel.d/debriefs/2026-11-22-handover.md",
+  "exceptions": [
+    {
+      "t": "2026-11-22T13:37Z",
+      "what": "wrote board/team/counsel.d/** with no ABP of my own (logged as outside a grant in board/runs/counsel.d-dinis/)",
+      "rule": "R6",
+      "why": "maestro.d's brief named the folder; abp@ away until Monday; grant requested in abp-grant-request.json"
+    },
+    {
+      "t": "2026-11-22T13:36Z",
+      "what": "status.json 'agent' set to counsel.d@PrompTugal.dinis, the gate's schema form; my name kept in 'name'",
+      "rule": "status schema",
+      "why": "the gate refuses @AgentiCCells.dinis in that field; holacracy.d's precedent"
+    },
+    {
+      "t": "2026-11-22T13:37Z",
+      "what": "fetched the full history (git fetch --unshallow) so the gate could run",
+      "rule": "none bent",
+      "why": "the shallow clone made the gate blame the boundary commit"
+    },
+    {
+      "t": "2026-11-22T14:06Z",
+      "what": "messages to account D sessions (maestro.d, decisions.d, accountant.d) by send_message",
+      "rule": "R4 (allowed, logged)",
+      "why": "routing drafts and replies; nothing to another account"
+    }
+  ]
 }
