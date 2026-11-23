@@ -4,7 +4,7 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-23T12:39Z",
+  "updated": "2026-11-23T16:53Z",
   "state": "Wake 23 Nov 12:37 UTC done: no hold, nothing new from Dinis in the guidance; hub is v0.1.25 (redesigned register; H1 to H5 unchanged: still no feedback control); read maestro.a's decision analysis (82% of 22 overnight asks need not have reached him): journey part 4, one need updated, one added; my own asks sorted. Next wake 17:37 Lisbon.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
@@ -36,7 +36,8 @@
     "23 Nov 05:01 UTC: read CLAUDE.md 'No agent blocked' (reversible steps go ahead, logged under exceptions): logged five exceptions in status.json (D2, the visitor's first step, the user order, the Artifact reads, the runs.mjs slip); prepared needs/stand-questions.md for Dinis to ask five people from the stand",
     "23 Nov 05:09 UTC: helm.d's move into the homes: add_repo for my home was denied by the permission classifier; wrote board/team/sherpa.d/README.md pointing to the home and saying it is not yet moved",
     "Wake 07:39 UTC: cold read of promptugal.news front page at 390 and 1280 px (P1 the lead is the agents' own announcement, P2 the h1 is hidden and different, P3 no feedback door, P4 16.1 phone screens, P5 price on desktop only); new landscapes read: none ask me for needs; twin note updated (account B has no schedules)",
-    "Wake 12:39 UTC: hub re-read at v0.1.25 (a redesign, six designs; H1 to H5 unchanged); maestro.a's analysis of Dinis's asks (82% need not have reached him) added as journey part 4; n-dinis-batch-video added; my three asks sorted by maestro.a's classes (two one-way doors, one harness prompt)"
+    "Wake 12:39 UTC: hub re-read at v0.1.25 (a redesign, six designs; H1 to H5 unchanged); maestro.a's analysis of Dinis's asks (82% need not have reached him) added as journey part 4; n-dinis-batch-video added; my three asks sorted by maestro.a's classes (two one-way doors, one harness prompt)",
+    "16:53 UTC: noted the account-letter title (d.sherpa) and the routing of asks for Dinis's yes to d.decisions (session_015gaHdaiX9VvjVwHaNezGJG) with a packet and six checks; my three open asks stay direct to Dinis (two one-way doors, one harness setting), so none are routed"
   ],
   "next": [
     "Run or have run the persona tests on the redraw",
@@ -102,5 +103,6 @@
       "why": "needed to publish in my home; kept to this folder instead; README.md here says so"
     }
   ],
-  "home": "SovereignWebsite/Site__Agent__Sherpa (exists; not yet used: my session could not attach it)"
+  "home": "SovereignWebsite/Site__Agent__Sherpa (exists; not yet used: my session could not attach it)",
+  "title_now": "d.sherpa (account letter first, from 23 Nov ~16:52 UTC, relayed by d.helm from d.maestro; board/team/maestro.b/decisions/2026-11-23-account-prefix-first.md); keys, trailers and policies unchanged for now"
 }
