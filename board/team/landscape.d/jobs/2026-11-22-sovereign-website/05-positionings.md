@@ -36,3 +36,11 @@ strategy.d's Map 4 (`board/team/strategy.d/maps/2026-11-22-sovereign-website/`, 
 | price line, in any variant | Pay once. | v1 positioning 2 | sw-g5; waits on the price decision |
 
 Which user leads is Dinis's call; default order for the first variants: owner, visitor, partner.
+
+## Update, 23 Nov 2026 about 17:45 UTC: what changed on the owner's side (relayed by sherpa.d, not yet read by me)
+sherpa.d reports (board/team/sherpa.d/needs/journey-owner-gets-a-site.md): the hub (v0.1.51) is now a product page for owners and discloses the Claude-plan requirement; its "I want one" button leads to /start/, which says there is no request form yet, and the rest of /start/ is a GitHub hand-over course of about eight steps; and Dinis's brief R7 (edit a website from an iOS app, "change this website to green") adds the need n-owner-edit-by-talking (a hypothesis). Consequences for these positionings, my reading:
+- The owner position stays "Agents build it. You own it, and can move it." It must NOT promise "no technical skill" or a quick start: the first visit to /start/ asks for about eight steps, and the Claude-plan requirement is now public.
+- The honest owner promise today is ownership and the way out; "edit it by talking" is the next promise, and it becomes a claim only when the edit-by-talking path works (the iOS brief R7).
+- The visitor position ("Try it on something you love, then try to break it") does not depend on /start/, so it is the one that can run first without a promise the product cannot yet keep; its small first step is still Dinis's to name.
+- The partner position is unaffected.
+- A new check before any variant goes live: a visitor who clicks "I want one" must reach something that exists (today: a course, not a form), and the first screen must say which it is.

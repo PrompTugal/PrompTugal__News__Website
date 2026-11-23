@@ -31,3 +31,10 @@ For whoever builds the Sovereign Website variants (conductor.d decides; designer
 
 ## Handover to the build
 Needs from the builders: where each variant lives (a path on sovereignwebsite.ai or an evaluation site), a way to measure (no cookies: server-side counts or a privacy-first counter), and the stop rule from accountant@. I review each built variant against its brief and the sources.
+
+## Update, 23 Nov 2026 about 17:45 UTC (from sherpa.d's changed owner journey, relayed; verify on the live pages before building)
+- **Variant A (owner):** the call to action may not say "start" or imply a form: /start/ currently says there is no request form yet and is a GitHub hand-over course of about eight steps. Either the variant links to that course and says so ("a short course, about eight steps"), or it waits for a request form. Keep the Claude-plan-or-partner line on the page; the hub already says it.
+- **Variant A:** do not use "no technical skill" in any headline or proof. Allowed: "plain files you own", "the way out written down", and, once the edit-by-talking path exists, "change it by talking to it".
+- **Variant B (visitor)** needs nothing from /start/ and can go first; its next step ("Make it yours") must point at something that exists on the day.
+- **Variant C (partner)** unchanged.
+- **New need to carry into the briefs:** n-owner-edit-by-talking (hypothesis, from Dinis's brief R7): edit the site from a phone by saying what to change. It belongs in a later proof block, not in a first-screen promise, until it works.
