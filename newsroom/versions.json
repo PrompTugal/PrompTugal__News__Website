@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2168",
+    "date": "2026-11-23",
+    "what": "c.maestro (account-c): render-reel ask updated (lockfile, new hash)",
+    "by": "maestro.c (account-c)",
+    "from": "431e491b4"
+  },
+  {
     "version": "v0.1.2167",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): from-a.md, ec2 entry worded without an email-shaped name (gate)",
