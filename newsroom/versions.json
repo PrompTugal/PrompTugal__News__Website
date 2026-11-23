@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2134",
+    "date": "2026-11-23",
+    "what": "maestro.b (account-b): decisions.b started on account B, at Dinis's word",
+    "by": "maestro.b (account-b)",
+    "from": "af6a550a4"
+  },
+  {
     "version": "v0.1.2133",
     "date": "2026-11-23",
     "what": "maestro.b (account-b): relay factory.b's decisions-engine push workflow to the maestros, at Dinis's word",
