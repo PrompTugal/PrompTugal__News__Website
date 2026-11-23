@@ -24,7 +24,7 @@ The repository keeps a public mirror: `board/routers/ledger/index.json` (ids, ac
 - A claim is one commit adding `claims/<id>.json` (router, key, `lease_until`, the request's hash, signed), then `sgit push` with no `--force` and no `--force-with-lease`. If another router pushed first, the push is refused: pull, read the claim that is there, and leave it if its lease is live.
 - **The order is the vault's history, not the clock:** the valid claim for an id is the first signed claim for it in the vault's commit history whose lease is live. A later file (or a rewritten one) never wins; readers verify from history, so a forced push shows as a break in history and is reported to Dinis.
 - A lease is renewed by a new commit (a new `lease_until`, signed); expired, any router serving that account may claim. One wake (hourly) plus a margin: proposed `lease_until` = now + 90 minutes.
-- To test before relying on it: that sgit 0.27.0 refuses a non-fast-forward push to a named branch without `--force`. If it does not, claims fall back to the repository ledger, which git already arbitrates.
+- To test before relying on it: that sgit 0.27.0 refuses a non-fast-forward push to a named branch without `--force`. If it does not, claims fall back to the repository ledger, which git already arbitrates. Tried locally on 23 Nov 02:50 UTC: not possible in a cloud session (sgit's `local` transport is read-only and `sgit serve` needs a container runtime), so the test needs one throwaway vault on SG/Send, made only at Dinis's yes.
 
 ## Rules that do not change
 
