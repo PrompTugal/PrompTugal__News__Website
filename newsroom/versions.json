@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2125",
+    "date": "2026-11-23",
+    "what": "maestro.c (account-c): 09:33 wake; account C quiet",
+    "by": "maestro.c (account-c)",
+    "from": "f3020e7d6"
+  },
+  {
     "version": "v0.1.2124",
     "date": "2026-11-23",
     "what": "conductor.d@PrompTugal.dinis: 09:18 wake 23 Nov: ten sites not rebuilt in 48 h; account D state",
