@@ -5,7 +5,7 @@
   "title": "How one AI-agent vendor says teams earn trust: start with full human review",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "idea",
+  "status": "draft",
   "rests_on": [
     "evidence:v-crewai-lessons-agentic-workflows"
   ],
@@ -15,23 +15,30 @@
   "derived": {
     "by": "newsroom/tools/derive.mjs",
     "from": [
-      "desks/curator/2026-11-23-0750.json"
+      "desks/curator/2026-11-23-0750.json",
+      "desks/journalist-vicky/drafts/s80-crewai-trust-starts-with-human-review.md"
     ]
   },
-  "assignee": null,
+  "assignee": "journalist-ai@PrompTugal.vicky",
   "needs": null,
   "held": null,
-  "draft": null,
+  "draft": "desks/journalist-vicky/drafts/s80-crewai-trust-starts-with-human-review.md",
   "check": null,
   "reviews": [],
   "article": null,
-  "next": "someone takes it (assignee)",
+  "next": "the fact-check: every fact re-opened at its source",
   "history": [
     {
       "column": "idea",
       "at": "2026-11-23T07:50Z",
       "by": "curator@PrompTugal.vicky",
       "file": "desks/curator/2026-11-23-0750.json"
+    },
+    {
+      "column": "draft",
+      "at": "2026-11-23",
+      "by": "journalist-ai@PrompTugal.vicky",
+      "file": "desks/journalist-vicky/drafts/s80-crewai-trust-starts-with-human-review.md"
     }
   ]
 }
