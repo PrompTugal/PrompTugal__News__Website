@@ -67,7 +67,7 @@ d.maestro (account-d) [opus, configured sonnet] working, $12.20
 | d.sites (SovereignWebsite) | SovereignWebsite | maestro.d | sites.b | SovereignWebsite/Site__Agents__Sites | none | https://claude.ai/code/session_015gaHde5GfQygpBgyUhNzuf |
 | d.hub (SovereignWebsite) | SovereignWebsite | maestro.d | hub.b | SovereignWebsite/SovereignWebsite__Hub | none | https://claude.ai/code/session_015gaHdbMGVTN5vJ9jVfAi3N |
 | d.design (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | design.b? | SovereignWebsite/Site__Agents__Design | own round at 02:59 UTC (set inside its session, not seen as a scheduled task here) | https://claude.ai/code/session_015gaHdczGFLc7N3kCq8MrWz |
-| d.synthetic-users (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | synthetic-users.b? | SovereignWebsite/Site__Agents__Design | none | https://claude.ai/code/session_015gaHdddQiB4aYZWXjfs16rM |
+| d.synthetic-users (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | synthetic-users.b? | SovereignWebsite/Site__Agents__Design | none | https://claude.ai/code/session_015gaHddQiB4aYZWXjfs16rM |
 | d.factory (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | factory.b | SovereignWebsite/SovereignWebsite__Factory | none | https://claude.ai/code/session_015gaHde6kToHbUHDD8AN72E |
 | d.library (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | librarian.b (SovereignWebsite) | SovereignWebsite/Site__Agents__Library | none | https://claude.ai/code/session_015gaHdecGUXfFRDs8DmeUFN |
 | d.streaming (StreamingWebsite) | StreamingWebsite | sites.d | streaming.b? | SovereignWebsite/Site__Tool__Streaming | none | https://claude.ai/code/session_015gaHdbE7t4XNf21L7neufF |
@@ -75,7 +75,7 @@ d.maestro (account-d) [opus, configured sonnet] working, $12.20
 | d.email.dev (AgentiCCells) | AgentiCCells | conductor.d@AgentiCCells | cell.email.b | AgentiCCells/AgentiCCells__Cell__Email | none | https://claude.ai/code/session_015gaHde7zcTqMyBWcdpdnR6 |
 | d.newsroom (sgit.ai) | sgit.ai | maestro.d | writer-10 (newsroom.b), reported | SGit-AI/SGit-AI__Website__Newsroom | none seen | https://claude.ai/code/session_015gaHdb5n5RdwdbHzWijPMS |
 | d.helm (account-d) | central (helm) | maestro.d | none yet | SovereignWebsite/Site__Agents__Helm (agent site requested on SovereignWebsite__Factory dev, 13947db, relayed 15:34Z) | none | https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV |
-| d.strategy (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdddd1qVEaY3EG6feEsL |
+| d.strategy (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL |
 | d.cartographer (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH |
 | d.sherpa (account-d) | central (helm) | maestro.d | sherpa@PrompTugal.dinis (account B): twins, per Dinis to helm.d ~14:05Z (relayed) | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL |
 | d.accountant (account-d) | central (helm) | maestro.d | accountant@PrompTugal.dinis (account B): twins, per Dinis to helm.d ~14:05Z (relayed) | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK |
@@ -88,13 +88,13 @@ d.maestro (account-d) [opus, configured sonnet] working, $12.20
 | d.email.pm (AgentiCCells) | Cell Email | conductor.d@AgentiCCells | none yet | AgentiCCells/AgentiCCells__Cell__Email (assumed) | none | https://claude.ai/code/session_015gaHdasKF9YcSA27g5dMPz |
 | d.data (PrompTugal) | PrompTugal | conductor.d@PrompTugal | none yet | PrompTugal/PrompTugal__News__Data | none | https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z |
 | d.slides (account-d) | central (helm) | maestro.d | none yet | SovereignWebsite/Site__Agents__Slides (home requested, relayed) | none | https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8 |
-| d.pybot (SovereignWebsite) | SovereignWebsite | sites.d | none yet | not recorded | none | https://claude.ai/code/session_015gaHdddy85C9E8oW9YhJ6FK |
-| d.donna-freed (SovereignWebsite) | SovereignWebsite | sites.d | none yet | not recorded | none | https://claude.ai/code/session_015gaHddeh6Sh45Ef2fZFAhLi |
-| d.wordpress (SovereignWebsite) | SovereignWebsite | sites.d | none yet | not recorded | none | https://claude.ai/code/session_015gaHdda1bnbqASo1ed8VUdY |
-| d.observability (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHddayiD5PCvJRyqNHyjC |
-| d.counsel (account-d) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHddaCnEbzJ8Q8CLjisbW |
-| d.security (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHddegs3vxyNtU2tmc28P |
-| d.chiswick-cheese-market (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHddcNSDvpHf63UJRg64C |
+| d.pybot (SovereignWebsite) | SovereignWebsite | sites.d | none yet | not recorded | none | https://claude.ai/code/session_015gaHddy85C9E8oW9YhJ6FK |
+| d.donna-freed (SovereignWebsite) | SovereignWebsite | sites.d | none yet | not recorded | none | https://claude.ai/code/session_015gaHdeh6Sh45Ef2fZFAhLi |
+| d.wordpress (SovereignWebsite) | SovereignWebsite | sites.d | none yet | not recorded | none | https://claude.ai/code/session_015gaHda1bnbqASo1ed8VUdY |
+| d.observability (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHdayiD5PCvJRyqNHyjC |
+| d.counsel (account-d) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHdaCnEbzJ8Q8CLjisbW |
+| d.security (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHdegs3vxyNtU2tmc28P |
+| d.chiswick-cheese-market (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHdcNSDvpHf63UJRg64C |
 
 ## Account B (reported, not seen)
 

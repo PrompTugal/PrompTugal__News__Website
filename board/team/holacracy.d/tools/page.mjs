@@ -6,7 +6,8 @@ import { fileURLToPath } from 'node:url'
 const dir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const chart = JSON.parse(fs.readFileSync(path.join(dir, 'org-chart.json'), 'utf8'))
 const dec = JSON.parse(fs.readFileSync(path.join(dir, 'decisions.json'), 'utf8'))
-const data = JSON.stringify({ chart, dec }).replace(/</g, '\\u003c')
+const idx = JSON.parse(fs.readFileSync(path.join(dir, 'team-index.json'), 'utf8'))
+const data = JSON.stringify({ chart, dec, idx }).replace(/</g, '\\u003c')
 
 const html = `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -52,12 +53,13 @@ svg text{fill:var(--ink);font-size:12px}svg .m{fill:var(--mute);font-size:10.5px
 </style></head><body>
 <header><h1>The agents of account D, and what is waiting for you</h1>
 <div class="sub">Drawn by holacracy.d from the governance record (org-chart.json, <span id="gen"></span>) by a script. Account D is seen, account B is reported, not seen. The central circle's roles are helm.d's proposals, not yet ratified.</div></header>
-<nav role="tablist"><button role="tab" aria-selected="true" data-t="tree">Who started whom</button><button role="tab" aria-selected="false" data-t="circles">Circles</button><button role="tab" aria-selected="false" data-t="dec">Decisions</button><button class="btn" id="theme" style="margin-left:auto">Light / dark</button></nav>
+<nav role="tablist"><button role="tab" aria-selected="true" data-t="tree">Who started whom</button><button role="tab" aria-selected="false" data-t="circles">Circles</button><button role="tab" aria-selected="false" data-t="find">Find an agent</button><button role="tab" aria-selected="false" data-t="dec">Decisions</button><button class="btn" id="theme" style="margin-left:auto">Light / dark</button></nav>
 <main>
 <section id="tree"><div class="stats" id="stats"></div>
 <div class="grid"><div class="card"><div class="legend" id="legend"></div><div id="svgwrap"></div></div><aside class="card det" id="det"><h3>Click an agent</h3><div class="sub">Purpose, domains, repository, state and cost appear here.</div></aside></div>
 <div class="bnote" id="bnote"></div></section>
 <section id="circles" hidden><div class="circles" id="circgrid"></div></section>
+<section id="find" hidden><div class="card"><label for="q"><b>Which account, session, lead and site? Type an agent or a word</b></label><input id="q" type="search" placeholder="studio, counsel, d.helm, SovereignWebsite..." autocomplete="off" style="width:100%;margin-top:8px;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit"><div class="sub" id="fcount" style="margin-top:6px"></div><div id="fres"></div></div><div class="bnote" id="fnote"></div></section>
 <section id="dec" hidden><div class="dl"><div class="dlist card"><div class="bar"><i id="prog"></i></div><div id="plist"></div><div class="row"><button class="btn" id="play">Play the tour</button></div></div>
 <div class="card" id="dmain"></div></div>
 <div class="card" style="margin-top:14px"><b>All decisions at a glance</b> <span class="sub">(your pick is shaded, the recommendation has a green frame)</span><div id="mx"></div>
@@ -106,7 +108,7 @@ var cg='';Object.keys(CIRC).forEach(function(k,n){var m=A.filter(function(a){ret
 cg+='<div class="circ" style="border-top:4px solid '+CIRC[k]+';animation-delay:'+(n*80)+'ms"><h4>'+esc(k)+'</h4><p>Lead: '+esc(meta.lead||'(not written)')+'<br>Purpose: '+esc(meta.purpose||'(not written)')+'</p>'+m.map(function(a){return '<span class="chip" data-id="'+esc(a.id)+'"><i style="background:'+COL[st(a)]+'"></i>'+esc(a.id)+'</span>'}).join('')+'</div>'});
 $('circgrid').innerHTML=cg;$('circgrid').addEventListener('click',function(e){var c=e.target.closest('.chip');if(c){tab('tree');det(c.getAttribute('data-id'));document.getElementById('det').scrollIntoView({behavior:'smooth',block:'nearest'})}});
 // tabs
-function tab(t){['tree','circles','dec'].forEach(function(x){$(x).hidden=x!==t});document.querySelectorAll('nav [role=tab]').forEach(function(b){b.setAttribute('aria-selected',b.getAttribute('data-t')===t)})}
+function tab(t){['tree','circles','find','dec'].forEach(function(x){$(x).hidden=x!==t});document.querySelectorAll('nav [role=tab]').forEach(function(b){b.setAttribute('aria-selected',b.getAttribute('data-t')===t)})}
 document.querySelectorAll('nav [role=tab]').forEach(function(b){b.onclick=function(){tab(b.getAttribute('data-t'))}});
 $('theme').onclick=function(){var r=document.documentElement;r.setAttribute('data-theme',r.getAttribute('data-theme')==='light'?'dark':'light')};
 // decisions
@@ -123,6 +125,17 @@ $('dmain').addEventListener('click',function(e){var o=e.target.closest('.opt');i
 $('plist').addEventListener('click',function(e){var b=e.target.closest('button[data-i]');if(b)go(+b.getAttribute('data-i'))});
 $('play').onclick=function(){if(timer){clearInterval(timer);timer=null;this.textContent='Play the tour';return}this.textContent='Stop the tour';cur=0;show();timer=setInterval(function(){if(cur>=DEC.length-1){clearInterval(timer);timer=null;$('play').textContent='Play the tour';return}go(cur+1)},7000)};
 $('copy').onclick=function(){var t=$('out');t.select();try{navigator.clipboard.writeText(t.value)}catch(e){document.execCommand('copy')}};
+
+// find
+var IDX=D.idx,AG=IDX.agents;
+$('fnote').innerHTML='<b>Not seen:</b> '+IDX.reported_not_seen.map(function(r){return esc(r.name)+' (account '+r.account+', as of '+esc(r.as_of)+')'}).join('; ')+'. '+esc(IDX.about);
+function kidsOf(id){return AG.filter(function(a){return a.parent===id})}
+function card(a){var k=kidsOf(a.id),par=AG.filter(function(x){return x.id===a.parent})[0];
+return '<div class="card" style="margin-top:10px"><b>'+esc(a.name)+'</b> <span class="pill" style="background:'+(a.status==='working'?'var(--work)':a.status==='waiting'?'var(--warn)':a.status==='done'?'var(--ok)':'var(--idle)')+'">'+esc(a.status)+'</span>'+(a.relayed?' <span class="pill" style="background:var(--acc)">relayed</span>':'')+(a.proposed?' <span class="pill" style="background:var(--rev)">proposed</span>':'')+
+'<dl class="det" style="font-size:13px"><dt>Account</dt><dd><b>'+esc(a.account)+'</b></dd><dt>Circle and lead</dt><dd>'+esc(a.circle||'')+(a.lead?', led by '+esc(a.lead):'')+'</dd>'+(par?'<dt>Started by</dt><dd>'+esc(par.name)+'</dd>':'')+(k.length?'<dt>Sub-agents and children</dt><dd>'+k.map(function(x){return esc(x.name)}).join(', ')+'</dd>':'')+'<dt>Doing now</dt><dd>'+esc(a.doing||'')+'</dd>'+(a.waitingFor?'<dt>Waiting for</dt><dd>'+esc(a.waitingFor)+'</dd>':'')+'<dt>Last ran</dt><dd>'+esc(a.updated||'unknown')+'</dd>'+(a.session?'<dt>Session</dt><dd><a href="'+esc(a.session)+'" target="_blank" rel="noopener">open session</a></dd>':'')+(a.homeUrl?'<dt>Home</dt><dd><a href="'+esc(a.homeUrl)+'" target="_blank" rel="noopener">'+esc(a.home)+'</a></dd>':'')+'</dl></div>'}
+function run(){var q=$('q').value.trim().toLowerCase();var r=!q?AG.filter(function(a){return a.kind==='maestro'||a.kind==='signer'}):AG.filter(function(a){return (a.name+' '+a.id+' '+(a.circle||'')+' '+(a.lead||'')+' '+(a.doing||'')+' '+(a.home||'')).toLowerCase().indexOf(q)>=0});
+$('fcount').textContent=q?(r.length+' match'+(r.length===1?'':'es')):'Showing the maestro and the signers; type to search all '+AG.length;$('fres').innerHTML=r.slice(0,12).map(card).join('')+(r.length>12?'<div class="sub">'+(r.length-12)+' more: narrow the search</div>':'')}
+$('q').addEventListener('input',run);run();
 render();
 })();
 </script></body></html>`

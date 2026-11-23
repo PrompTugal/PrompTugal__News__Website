@@ -148,7 +148,8 @@
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": "SovereignWebsite/Site__Agent__Maestro",
    "name_before": "maestro.d (account-d)",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T16:48:55Z"
   },
   {
    "id": "holacracy.d",
@@ -168,7 +169,8 @@
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "holacracy.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "home": "SovereignWebsite/Site__Agent__Holacracy"
+   "home": "SovereignWebsite/Site__Agent__Holacracy",
+   "last_ran": "2026-11-23T16:51:45Z"
   },
   {
    "id": "conductor.d@PrompTugal",
@@ -192,7 +194,8 @@
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": "SovereignWebsite/Site__Agent__Conductor",
    "name_before": "conductor.d@PrompTugal.dinis",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T16:51:42Z"
   },
   {
    "id": "bulletins.d",
@@ -213,7 +216,8 @@
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": null,
    "name_before": "bulletins.d@PrompTugal.dinis",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T05:08:12Z"
   },
   {
    "id": "conductor.d@SovereignWebsite",
@@ -237,7 +241,8 @@
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": "SovereignWebsite/Site__Agent__Conductor",
    "name_before": "conductor.d (SovereignWebsite)",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T16:51:42Z"
   },
   {
    "id": "sites.d",
@@ -262,7 +267,8 @@
    "conductor": "conductor.d (SovereignWebsite) since 21 Nov ~22:10Z per its own board (relayed by helm.d, not read by me: that board is in another repository); Dinis to helm.d ~15:47Z agrees",
    "home": "SovereignWebsite/Site__Agent__Sites",
    "name_before": "sites.d (SovereignWebsite)",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T16:51:44Z"
   },
   {
    "id": "hub.d",
@@ -284,7 +290,8 @@
    "conductor": "conductor.d (SovereignWebsite) since 21 Nov ~22:10Z per its own board (relayed by helm.d, not read by me: that board is in another repository); Dinis to helm.d ~15:47Z agrees",
    "home": "SovereignWebsite/Site__Agent__Hub",
    "name_before": "hub.d (SovereignWebsite)",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T16:51:57Z"
   },
   {
    "id": "design.d",
@@ -305,14 +312,15 @@
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": "SovereignWebsite/Site__Agent__Design",
    "name_before": "design.d (SovereignWebsite)",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T15:00:18Z"
   },
   {
    "id": "synthetic-users.d",
    "name": "d.synthetic-users (SovereignWebsite)",
    "circle": "SovereignWebsite",
    "parent": "conductor.d@SovereignWebsite",
-   "session": "https://claude.ai/code/session_015gaHdddQiB4aYZWXjfs16rM",
+   "session": "https://claude.ai/code/session_015gaHddQiB4aYZWXjfs16rM",
    "model": "opus",
    "state": "waiting on Dinis: policy paths, version-chip fix",
    "cost": 7.05,
@@ -326,7 +334,8 @@
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": "SovereignWebsite/Site__Agent__Synthetic-Users",
    "name_before": "synthetic-users.d (SovereignWebsite)",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T04:52:27Z"
   },
   {
    "id": "factory.d",
@@ -347,7 +356,8 @@
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": "SovereignWebsite/Site__Agent__Factory",
    "name_before": "factory.d (SovereignWebsite)",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T05:39:45Z"
   },
   {
    "id": "library.d",
@@ -368,7 +378,8 @@
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": "SovereignWebsite/Site__Agent__Library",
    "name_before": "library.d (SovereignWebsite)",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T04:52:48Z"
   },
   {
    "id": "streaming.d",
@@ -390,7 +401,8 @@
    "conductor": "conductor.d (SovereignWebsite) since 21 Nov ~22:10Z per its own board (relayed by helm.d, not read by me: that board is in another repository); Dinis to helm.d ~15:47Z agrees",
    "home": null,
    "name_before": "streaming.d (StreamingWebsite)",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T16:52:11Z"
   },
   {
    "id": "conductor.d@AgentiCCells",
@@ -415,7 +427,8 @@
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": "SovereignWebsite/Site__Agent__Conductor",
    "name_before": "conductor.d@AgentiCCells.dinis",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T16:51:43Z"
   },
   {
    "id": "cell.email.d",
@@ -436,7 +449,8 @@
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
    "home": null,
    "name_before": "cell.email.d@AgentiCCells.dinis",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T16:52:01Z"
   },
   {
    "id": "newsroom.d",
@@ -458,7 +472,8 @@
    "conductor": "none; sits under sgit.ai, led by Dinis; stays with maestro.d for sgit.ai (relayed by helm.d)",
    "home": null,
    "name_before": "newsroom.d (sgit.ai)",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T16:52:10Z"
   },
   {
    "id": "helm.d",
@@ -496,14 +511,15 @@
    "span_note": "The helm's span is the central circle only (Dinis to helm.d ~15:47Z, relayed; helm.d's file board/team/helm.d/decisions/2026-11-22-dinis-answers-1547.md was not yet on dev when I recorded this). sites.d, hub.d and streaming.d are conducted by conductor.d (SovereignWebsite); newsroom.d sits under sgit.ai.",
    "name_before": "helm.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "home": "SovereignWebsite/Site__Agent__Helm"
+   "home": "SovereignWebsite/Site__Agent__Helm",
+   "last_ran": "2026-11-23T16:51:54Z"
   },
   {
    "id": "strategy.d",
    "name": "d.strategy (account-d)",
    "circle": "central (helm)",
    "parent": "maestro.d",
-   "session": "https://claude.ai/code/session_015gaHdddd1qVEaY3EG6feEsL",
+   "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
    "model": "not fetched",
    "configured": "not fetched",
    "state": "completed",
@@ -520,7 +536,8 @@
    "state_seen": "23 Nov 17:10Z (list_sessions)",
    "name_before": "strategy.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "home": "SovereignWebsite/Site__Agent__Strategy"
+   "home": "SovereignWebsite/Site__Agent__Strategy",
+   "last_ran": "2026-11-23T06:22:18Z"
   },
   {
    "id": "cartographer.d",
@@ -544,7 +561,8 @@
    "state_seen": "23 Nov 17:10Z (list_sessions)",
    "name_before": "cartographer.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "home": "SovereignWebsite/Site__Agent__Cartographer"
+   "home": "SovereignWebsite/Site__Agent__Cartographer",
+   "last_ran": "2026-11-23T05:47:59Z"
   },
   {
    "id": "sherpa.d",
@@ -568,7 +586,8 @@
    "state_seen": "23 Nov 17:10Z (list_sessions)",
    "name_before": "sherpa.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "home": "SovereignWebsite/Site__Agent__Sherpa"
+   "home": "SovereignWebsite/Site__Agent__Sherpa",
+   "last_ran": "2026-11-23T12:44:38Z"
   },
   {
    "id": "accountant.d",
@@ -592,7 +611,8 @@
    "state_seen": "23 Nov 17:10Z (list_sessions)",
    "name_before": "accountant.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "home": "SovereignWebsite/Site__Agent__Accountant"
+   "home": "SovereignWebsite/Site__Agent__Accountant",
+   "last_ran": "2026-11-23T05:20:14Z"
   },
   {
    "id": "counsel.d",
@@ -616,7 +636,8 @@
    "state_seen": "23 Nov 17:10Z (list_sessions)",
    "name_before": "counsel.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "home": "SovereignWebsite/Site__Agent__Counsel"
+   "home": "SovereignWebsite/Site__Agent__Counsel",
+   "last_ran": "2026-11-23T06:13:25Z"
   },
   {
    "id": "decisions.d",
@@ -640,7 +661,8 @@
    "state_seen": "23 Nov 17:10Z (list_sessions)",
    "name_before": "decisions.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "home": "SovereignWebsite/Site__Agent__Decisions"
+   "home": "SovereignWebsite/Site__Agent__Decisions",
+   "last_ran": "2026-11-23T16:52:18Z"
   },
   {
    "id": "studio.d",
@@ -664,7 +686,8 @@
    "state_seen": "23 Nov 17:10Z (list_sessions)",
    "name_before": "studio.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "home": "SovereignWebsite/Site__Agent__Studio"
+   "home": "SovereignWebsite/Site__Agent__Studio",
+   "last_ran": "2026-11-23T16:51:43Z"
   },
   {
    "id": "landscape.d",
@@ -688,7 +711,8 @@
    "state_seen": "23 Nov 17:10Z (list_sessions)",
    "name_before": "landscape.d@AgentiCCells.dinis",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "home": "SovereignWebsite/Site__Agent__Landscape"
+   "home": "SovereignWebsite/Site__Agent__Landscape",
+   "last_ran": "2026-11-23T05:50:56Z"
   },
   {
    "id": "email.workflows.d",
@@ -708,7 +732,8 @@
    "state_seen": "23 Nov 17:10Z (list_sessions)",
    "home": null,
    "name_before": "email.workflows.d@AgentiCCells.dinis",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T04:51:20Z"
   },
   {
    "id": "email.design.d",
@@ -728,7 +753,8 @@
    "state_seen": "23 Nov 17:10Z (list_sessions)",
    "home": null,
    "name_before": "email.design.d@AgentiCCells.dinis",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T04:51:14Z"
   },
   {
    "id": "email.pm.d",
@@ -748,7 +774,8 @@
    "state_seen": "23 Nov 17:10Z (list_sessions)",
    "home": null,
    "name_before": "email.pm.d@AgentiCCells.dinis",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T16:52:01Z"
   },
   {
    "id": "data.d",
@@ -768,7 +795,8 @@
    "state_seen": "23 Nov 17:10Z (list_sessions)",
    "home": null,
    "name_before": "data.d@PrompTugal.dinis",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)"
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "last_ran": "2026-11-23T04:55:10Z"
   },
   {
    "id": "slides.d",
@@ -789,14 +817,15 @@
    "home": "SovereignWebsite/Site__Agent__Slides",
    "name_before": "slides.d (account-d)",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "state_seen": "23 Nov 17:10Z (list_sessions)"
+   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "last_ran": "2026-11-23T16:52:14Z"
   },
   {
    "id": "pybot.d",
    "name": "d.pybot (SovereignWebsite)",
    "circle": "SovereignWebsite",
    "parent": "sites.d",
-   "session": "https://claude.ai/code/session_015gaHdddy85C9E8oW9YhJ6FK",
+   "session": "https://claude.ai/code/session_015gaHddy85C9E8oW9YhJ6FK",
    "model": "not fetched",
    "configured": "not fetched",
    "state": "working",
@@ -806,14 +835,15 @@
    "purpose": "Not yet written in the record (new since 22 Nov; owner is the SovereignWebsite conductor)",
    "twin": "none yet",
    "account": "D",
-   "first_seen": "2026-11-23T17:10Z"
+   "first_seen": "2026-11-23T17:10Z",
+   "last_ran": "2026-11-23T16:52:12Z"
   },
   {
    "id": "donna-freed.d",
    "name": "d.donna-freed (SovereignWebsite)",
    "circle": "SovereignWebsite",
    "parent": "sites.d",
-   "session": "https://claude.ai/code/session_015gaHddeh6Sh45Ef2fZFAhLi",
+   "session": "https://claude.ai/code/session_015gaHdeh6Sh45Ef2fZFAhLi",
    "model": "not fetched",
    "configured": "not fetched",
    "state": "working",
@@ -823,14 +853,15 @@
    "purpose": "Not yet written in the record (new since 22 Nov; owner is the SovereignWebsite conductor)",
    "twin": "none yet",
    "account": "D",
-   "first_seen": "2026-11-23T17:10Z"
+   "first_seen": "2026-11-23T17:10Z",
+   "last_ran": "2026-11-23T16:52:12Z"
   },
   {
    "id": "wordpress.d",
    "name": "d.wordpress (SovereignWebsite)",
    "circle": "SovereignWebsite",
    "parent": "sites.d",
-   "session": "https://claude.ai/code/session_015gaHdda1bnbqASo1ed8VUdY",
+   "session": "https://claude.ai/code/session_015gaHda1bnbqASo1ed8VUdY",
    "model": "not fetched",
    "configured": "not fetched",
    "state": "working",
@@ -840,14 +871,15 @@
    "purpose": "Not yet written in the record (new since 22 Nov; owner is the SovereignWebsite conductor)",
    "twin": "none yet",
    "account": "D",
-   "first_seen": "2026-11-23T17:10Z"
+   "first_seen": "2026-11-23T17:10Z",
+   "last_ran": "2026-11-23T16:52:11Z"
   },
   {
    "id": "observability.d",
    "name": "d.observability (SovereignWebsite)",
    "circle": "SovereignWebsite",
    "parent": "conductor.d@SovereignWebsite",
-   "session": "https://claude.ai/code/session_015gaHddayiD5PCvJRyqNHyjC",
+   "session": "https://claude.ai/code/session_015gaHdayiD5PCvJRyqNHyjC",
    "model": "not fetched",
    "configured": "not fetched",
    "state": "waiting on Dinis: cookie-free capture, append lanes",
@@ -857,14 +889,15 @@
    "purpose": "Not yet written in the record (new since 22 Nov; owner is the SovereignWebsite conductor)",
    "twin": "none yet",
    "account": "D",
-   "first_seen": "2026-11-23T17:10Z"
+   "first_seen": "2026-11-23T17:10Z",
+   "last_ran": "2026-11-23T04:52:17Z"
   },
   {
    "id": "counsel.d",
    "name": "d.counsel (account-d)",
    "circle": "SovereignWebsite",
    "parent": "conductor.d@SovereignWebsite",
-   "session": "https://claude.ai/code/session_015gaHddaCnEbzJ8Q8CLjisbW",
+   "session": "https://claude.ai/code/session_015gaHdaCnEbzJ8Q8CLjisbW",
    "model": "not fetched",
    "configured": "not fetched",
    "state": "completed",
@@ -877,14 +910,15 @@
    "first_seen": "2026-11-23T17:10Z",
    "name_before": "d.counsel (SovereignWebsite)",
    "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
-   "state_seen": "23 Nov 17:10Z (list_sessions)"
+   "state_seen": "23 Nov 17:10Z (list_sessions)",
+   "last_ran": "2026-11-23T04:52:01Z"
   },
   {
    "id": "security.d",
    "name": "d.security (SovereignWebsite)",
    "circle": "SovereignWebsite",
    "parent": "conductor.d@SovereignWebsite",
-   "session": "https://claude.ai/code/session_015gaHddegs3vxyNtU2tmc28P",
+   "session": "https://claude.ai/code/session_015gaHdegs3vxyNtU2tmc28P",
    "model": "not fetched",
    "configured": "not fetched",
    "state": "waiting on Dinis: confirm the rule, merge key-request commits",
@@ -894,14 +928,15 @@
    "purpose": "Not yet written in the record (new since 22 Nov; owner is the SovereignWebsite conductor)",
    "twin": "none yet",
    "account": "D",
-   "first_seen": "2026-11-23T17:10Z"
+   "first_seen": "2026-11-23T17:10Z",
+   "last_ran": "2026-11-23T04:52:01Z"
   },
   {
    "id": "chiswick-cheese-market.d",
    "name": "d.chiswick-cheese-market (SovereignWebsite)",
    "circle": "SovereignWebsite",
    "parent": "conductor.d@SovereignWebsite",
-   "session": "https://claude.ai/code/session_015gaHddcNSDvpHf63UJRg64C",
+   "session": "https://claude.ai/code/session_015gaHdcNSDvpHf63UJRg64C",
    "model": "not fetched",
    "configured": "not fetched",
    "state": "waiting on Dinis: push access",
@@ -911,7 +946,8 @@
    "purpose": "Not yet written in the record (new since 22 Nov; owner is the SovereignWebsite conductor)",
    "twin": "none yet",
    "account": "D",
-   "first_seen": "2026-11-23T17:10Z"
+   "first_seen": "2026-11-23T17:10Z",
+   "last_ran": "2026-11-23T04:52:09Z"
   }
  ],
  "account_b": {
@@ -964,5 +1000,6 @@
  "rules": {
   "names": "Account letter first: <account>.<role> (Dinis ~13:00Z 23 Nov, relayed by d.maestro; record board/team/maestro.b/decisions/2026-11-23-account-prefix-first.md, which I read). My own title is now d.holacracy (account-d). The record keeps ids as before and shows each session's title in 'name'.",
   "asks": "Asks for Dinis's yes go to d.decisions on account D (session_015gaHdaiX9VvjVwHaNezGJG), which puts them on b.decisions's one list (record board/team/maestro.b/decisions/2026-11-23-asks-go-to-b-decisions.md, which I read). An ask holds who, repository and branch, the exact commits or class of change, what each does and why, the checks passed and the recommendation. A direct word from Dinis in an agent's own session still counts; one-way doors stay direct."
- }
+ },
+ "last_ran_note": "session updated_at from list_sessions on 23 Nov 2026 ~17:10Z; the time of the session's last event, which is when it last ran or was written to"
 }
