@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account A",
   "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
   "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T11:17Z",
-  "state": "10:23 wake: AWS team on A waiting on account C (policy paths, keys) at Dinis word; two agents backed off to 2 h",
+  "updated": "2026-11-23T11:25Z",
+  "state": "Decision page and video for Dinis published (7 open asks; the bottleneck analysis; F1-F5 flow decisions)",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
     "Made key maestro.a-account-a in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -28,16 +28,7 @@
     "Dinis to start a fresh maestro.a from next-session-prompt.md when he chooses"
   ],
   "asks": [
-    "Dinis: router.a: pin decisions.c's fingerprint (sha256:c0a1a5eb667a649d) and yes to its :03 wake - https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat",
-    "Dinis: iam.aws.a: allow its branch push (refused twice by its permission system) - https://claude.ai/code/session_018yvwtLi5HNUo32ot6ApGm8",
-    "Dinis: iam.aws.a R-008 (an AWS change, yours): (a) console apply of v2.1 plus permission boundaries (its recommendation), (b) v2.1 now, boundaries later, (c) no boundary - https://claude.ai/code/session_018yvwtLi5HNUo32ot6ApGm8",
-    "Dinis: dev.1.aws.a: 'yes, push work/dev.1.aws.a' - https://claude.ai/code/session_018yvwtLV1iZjUCMEKz1PZ51",
-    "Dinis: viz.aws.a: 'push unsigned to work/viz.aws.a' or allow its key conversion - https://claude.ai/code/session_018yvwtLMhfsoY8D8duFRbSs",
-    "Dinis: billing.aws.a: does the real CloudTrail trail record S3 data events? - https://claude.ai/code/session_018yvwtQWFVjgGwshqcKkxUF",
-    "Dinis: dev.2.aws.a decision 3 now sits with pm.aws.a's board (recommend c) - https://claude.ai/code/session_018yvwtN79NSkFnwbV7UzFuc",
-    "Dinis: in factory.c's session (account C), 'land the AWS keys' for the .a agents' key commits (dev.2, data, s3 ready; more coming) - via maestro.c",
-    "Dinis: in aws.c's session (account C), yes to add the .a names to site/policy/abp.json - via maestro.c",
-    "Dinis: start a fresh maestro.a from board/team/maestro.a/next-session-prompt.md when convenient (context past 500k)"
+    "Dinis: the decision desk, 7 open asks and F1-F5 on the decision flow - https://claude.ai/artifact/BNydCaLuhVC8y5UsaLVAAr"
   ],
   "latest_debrief": "board/team/maestro.a/debriefs/2026-11-23-handover.md",
   "last_read_from_b": "2026-11-23T01:21Z",
