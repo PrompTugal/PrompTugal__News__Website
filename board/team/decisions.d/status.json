@@ -6,7 +6,7 @@
  "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
  "key": "decisions.d-agenticcells (board/keys.json; signing sha256:d4de20909c983bd1; encryption sha256:d4562f808111c080; ssh ed25519 for git signatures)",
  "delegation": "NONE. Nothing decisions.d sends is Dinis's word; no agent may act on it as if it were.",
- "updated": "2026-11-23T05:12Z",
+ "updated": "2026-11-23T05:20Z",
  "state": "Scheduled (trig_01EkWuma8DGQNwD69RpwvSnw, 07:43, 10:43, 13:43, 18:43, 21:43 Lisbon; 21:43 is the end-of-day sweep). Maps every session on account D, keeps the log of every ask, proposes what to retire and which sessions to archive. No delegation held.",
  "latest_debrief": "board/team/decisions.d/debriefs/2026-11-22-handover.md",
  "done": [
@@ -37,7 +37,8 @@
   "21:43 end-of-day sweep (log/retire.md): 45 open asks against Dinis's 18 Desk answers: 14 answered, 9 merged into 4, 2 overtaken, about 23 distinct questions left; owners told",
   "Wrote my own ABP grant (abp-grant-request.json) at Dinis's Desk answer abp-grants ('ask the agent to write one'); for abp@ to build into policies.json",
   "Session map 21:43: 2 new (wordpress.d, an author site), 12 changed; titles that name a person are written generically (sessions/titles.json)",
-  "05:01 UTC: read CLAUDE.md 'No agent blocked' (Dinis 23 Nov ~03:00/03:35 UTC); the log now carries a section of exceptions from every status.json (8 at first read)"
+  "05:01 UTC: read CLAUDE.md 'No agent blocked' (Dinis 23 Nov ~03:00/03:35 UTC); the log now carries a section of exceptions from every status.json (8 at first read)",
+  "Home move: factory.d (05:14 UTC) and helm.d (05:19 UTC): my key must be added by me, in one commit signed by my sgit ECDSA key, to the Factory's team/keys.json; nobody pushes home before that. I stay here and ask, without working around the refused attach"
  ],
  "next": [
   "07:43 Lisbon wake: deltas since 21:43; owners' replies to the sweep",
@@ -55,7 +56,7 @@
   "conductor.d logged an exception at 04:51 UTC: it tried to start data.open.d on Dinis's 17:05 word recorded by maestro.d, not said in its session; starting a session stays Dinis's in his own session under R4, which 'No agent blocked' does not lift"
  ],
  "asks": [
-  "Dinis: I cannot move into my home SovereignWebsite/Site__Agent__Decisions: this session's permission check refused add_repo (push) at 05:12 UTC, though GitHub says it is attachable. Allow add_repo for this session (or attach it), and I move; my key goes to the Factory's team/keys.json through factory.d (your twin-keys answer, C) - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
+  "Dinis: allow this session to attach, with push, SovereignWebsite/SovereignWebsite__Factory (now __IaC) and SovereignWebsite/Site__Agent__Decisions (add_repo was refused by the session's permission check; GitHub says attachable). Then I publish my own key in the Factory (the keys rule: only I can) and move home - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
   "Dinis: I read only session metadata, not transcripts: you said I 'should have access to their session logs', but your guidance of 18 Nov makes telemetry.b@ the only reader of transcripts. Do I read them (list_events), or keep to metadata? - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
   "Dinis: 84 sessions recommended for archiving (sessions/README.md, 'Recommend archiving'): old one-off runs of 15 and 16 Nov and the php.newsroom team; archive them, or tell me which to keep - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
   "Dinis: two sessions are named counsel.d on account D (one from maestro.d at 13:25, one from conductor.d (SovereignWebsite) at 16:34); one role, one session: which stays? - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
@@ -73,13 +74,7 @@
    "what": "The log now lists every agent's status.json 'exceptions' as decisions taken on their own call, for Dinis to see",
    "rule": "none bent; extends my own tool",
    "why": "Dinis: 'if there's any violations, again, keep track of it'"
-  },
-  {
-   "at": "2026-11-23T05:12Z",
-   "what": "Asked factory.d to add my key to the Factory's team/keys.json so I can sign in my home",
-   "rule": "none bent: Dinis's twin-keys answer (C, the factory merges after a security review)",
-   "why": "helm.d's move to homes (23 Nov 05:01 UTC); reversible"
   }
  ],
- "home": "SovereignWebsite/Site__Agent__Decisions (exists since 23 Nov ~05:01 UTC); not moved yet: attach refused in this session, key not yet in the Factory's team/keys.json"
+ "home": "SovereignWebsite/Site__Agent__Decisions (exists since 23 Nov ~05:01 UTC); not moved: first my own key goes into SovereignWebsite__Factory (now __IaC) team/keys.json, one commit of mine signed with my sgit ECDSA signing key (the Factory's keys rule); both pushes wait on this session being allowed to attach the repositories"
 }
