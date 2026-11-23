@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2130",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): Dinis's word: account C's AWS sessions are kept, not archived; iam.aws.c writes its hand-over note; relayed",
+    "by": "maestro.a (account-a)",
+    "from": "3ec50d85a"
+  },
+  {
     "version": "v0.1.2129",
     "date": "2026-11-23",
     "what": "designer@PrompTugal.vicky: the chart for A5 (why firms that considered AI did not use it), from the analyst's spec",
