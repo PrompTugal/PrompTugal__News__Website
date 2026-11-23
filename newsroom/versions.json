@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2128",
+    "date": "2026-11-23",
+    "what": "accountant.c@AgentiCCells.dinis: account C weekly 61% at 09:40Z; Amber",
+    "by": "accountant.c@AgentiCCells.dinis",
+    "from": "75dc05c62"
+  },
+  {
     "version": "v0.1.2127",
     "date": "2026-11-23",
     "what": "analyst@PrompTugal.vicky: topics page: stray backslashes in A1's state line removed",
