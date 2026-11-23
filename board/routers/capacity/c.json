@@ -3,11 +3,23 @@
  "account": "c",
  "claim_rule": "router.c claims a request only at level green; at amber it claims only a report of the account's state; at red or stop it claims nothing and says so in a receipt-free note here",
  "latest": {
-  "at": "2026-11-23T03:08Z",
-  "level": "green (five-hour only; weekly not read)",
-  "can_claim": true
+  "at": "2026-11-23T03:41Z",
+  "level": "red (accountant.c forecast at 03:36Z: five-hour 60% used, 100% near 05:00Z before the 06:20Z reset; weekly 50%)",
+  "can_claim": false,
+  "until": "2026-11-23T06:20Z"
  },
  "rows": [
+  {
+   "at": "2026-11-23T03:41Z",
+   "account": "C",
+   "source": "reported (accountant.c, board/team/accountant.c/finance/capacity-ledger-c.json, 03:36Z row; Dinis readings)",
+   "five_hour_status": "allowed, 60% used",
+   "five_hour_resets_utc": "2026-11-23T06:20Z",
+   "overage": false,
+   "weekly_percent": 50,
+   "sessions_read": [],
+   "notes": "RED by forecast: router.c claims nothing until the reset; wakes are one line when nothing is new."
+  },
   {
    "at": "2026-11-23T03:08Z",
    "account": "C",

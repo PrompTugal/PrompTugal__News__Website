@@ -10,7 +10,7 @@
   "encryption": "sha256:cca71ac2454de0bf",
   "signing": "sha256:2d10ae1640ecbb1b"
  },
- "state": "waking hourly at :08 (trigger trig_01YUNpUGf7sWTSo3PzeqTWNS); ledger empty; waiting for Dinis: the pin",
+ "state": "account C RED until 06:20Z: claiming nothing; ledger empty; waiting for Dinis: the pin",
  "pinned_issuer": null,
  "last_ledger_read": "2026-11-23T03:08Z",
  "done": [
@@ -28,6 +28,6 @@
   "Dinis: account C's weekly percent, when you can (no session can read it)",
   "Dinis: yes or changes to board/routers/vaults-plan.md"
  ],
- "updated": "2026-11-23T03:08Z",
+ "updated": "2026-11-23T03:41Z",
  "debrief": "board/team/router.c/debriefs/2026-11-23-handover.md"
 }
