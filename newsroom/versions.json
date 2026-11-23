@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2181",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): fresh iam.aws.a key a80f2eb relayed to c.factory (plain append)",
+    "by": "maestro.a@PrompTugal.dinis",
+    "from": "001fba9a0"
+  },
+  {
     "version": "v0.1.2180",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): A10 done, fresh a.iam.aws at Dinis's word; old session archiving",
