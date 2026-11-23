@@ -1,0 +1,89 @@
+{
+  "desk": "jornal-silvio",
+  "kept_by": "jornal@PrompTugal.silvio",
+  "date": "2026-11-23",
+  "status": "candidates, not published, waiting for the editor and for Silvio",
+  "candidates": [
+    {
+      "id": "js-2026-11-23-01",
+      "title": "London's Nous says its household agent now runs $1bn of routine bills 'without constant oversight'",
+      "summary": "Nous, a London company, says its AI agent now manages more than $1bn of routine household spending for over 250,000 UK homes, less than two years after leaving beta: it switches energy, broadband, mobile and insurance contracts, cancels unwanted subscriptions and handles warranties and returns, saving a typical home £734 a year. It calls itself the first UK agent able to handle regulated tasks such as buying insurance, and raised $17mn a month ago to expand beyond the UK. The article does not say what approval users give before the agent acts.",
+      "why_it_matters": "A consumer agent with a standing mandate over a household's contracts at real scale, in Europe: the open question is exactly the one TNW leaves unanswered, what the user approves and what the agent may do alone.",
+      "beat": "ai-agents",
+      "sources": [
+        {
+          "url": "https://thenextweb.com/news/nous-ai-agent-1bn-household-spending",
+          "publisher": "The Next Web",
+          "published": "2026-11-23",
+          "read": "2026-11-23T18:09Z"
+        }
+      ],
+      "quote": {
+        "text": "We built an agent for everyone else; one that gets on with the boring stuff reliably, without constant oversight.",
+        "by": "Greg Marsh, founder and CEO of Nous, quoted by The Next Web",
+        "source": "https://thenextweb.com/news/nous-ai-agent-1bn-household-spending"
+      },
+      "claims_to_check": [
+        "All figures are the company's (TNW attributes them to Nous)",
+        "Nous's own terms for what users approve before a switch or purchase"
+      ],
+      "importance": {
+        "score": 4,
+        "reason": "Same-day, European, an agent with delegated authority over money at scale."
+      },
+      "photo": {
+        "url": "https://thenextweb.com/news/nous-ai-agent-1bn-household-spending",
+        "description": "Greg Marsh",
+        "credit": "Nous",
+        "licence": "none stated on the page",
+        "reuse": "link only"
+      }
+    },
+    {
+      "id": "js-2026-11-23-02",
+      "title": "Only 9% of Portuguese companies turn AI into financial gains, an ACEPI study finds",
+      "summary": "An ACEPI study with GoingNext and Porto Business School, cited by the consultancy ERA Group in Jornal Económico on 23 November, finds that only 9% of Portuguese companies convert their use of AI into effective financial gains, although most recognise productivity benefits. ERA Group's partner in Portugal Pedro Ramalho argues that with tools soon available to almost every company, the difference will come from asking the right questions and acting on the results.",
+      "why_it_matters": "The Portuguese side of the ROI question raised on stage at Web Summit and by Nebuly's round: adoption is not value.",
+      "beat": "portugal",
+      "sources": [
+        {
+          "url": "https://jornaleconomico.sapo.pt/noticias/so-9-das-empresas-portuguesas-transformam-ia-em-ganhos-financeiros-alerta-era-group/",
+          "publisher": "Jornal Económico",
+          "published": "2026-11-23",
+          "read": "2026-11-23T18:09Z"
+        }
+      ],
+      "claims_to_check": [
+        "The ACEPI study itself (sample, method): the article is a consultancy's commentary and gives neither"
+      ],
+      "importance": {
+        "score": 3,
+        "reason": "Portuguese, same-day, but second-hand and without the study's method."
+      },
+      "photo": {
+        "url": null,
+        "description": "no credit shown",
+        "credit": null,
+        "licence": null,
+        "reuse": "link only"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "what": "Levenza's enterprise agents go global (TNW)",
+      "why": "below the bar"
+    },
+    {
+      "what": "AWS Portugal podcast on agents and sovereign cloud (Jornal Económico)",
+      "why": "interview, no news"
+    }
+  ],
+  "wakes": [
+    {
+      "at": "2026-11-23T18:09Z",
+      "added": 2,
+      "note": "daily wake (18:07 Lisbon)"
+    }
+  ]
+}

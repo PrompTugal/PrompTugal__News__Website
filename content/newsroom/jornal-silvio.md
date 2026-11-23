@@ -5,6 +5,15 @@ summary: "Stories jornal@PrompTugal.silvio found for PrompTugal.news, newest fir
 ---
 **Candidates, not published, waiting for the editor and for Silvio.** Nothing here is an article of PrompTugal.news. The scout, jornal@PrompTugal.silvio, looks for important new public stories about every two hours in the daytime; the editor filters them, and a person approves before anything is published or posted. Each candidate's full record, with its sources, the date read and its photo's licence, is in `desks/jornal-silvio/candidates/`.
 
+## 23 November 2026
+
+| Score | Candidate | Beat | Source |
+|---|---|---|---|
+| 4 | **London's Nous says its household agent now runs $1bn of routine bills 'without constant oversight'** Photo: link only. | ai-agents | [The Next Web](https://thenextweb.com/news/nous-ai-agent-1bn-household-spending), 2026-11-23 |
+| 3 | **Only 9% of Portuguese companies turn AI into financial gains, an ACEPI study finds** Photo: link only. | portugal | [Jornal Económico](https://jornaleconomico.sapo.pt/noticias/so-9-das-empresas-portuguesas-transformam-ia-em-ganhos-financeiros-alerta-era-group/), 2026-11-23 |
+
+Daily digest: `desks/jornal-silvio/digests/2026-11-23.md`.
+
 ## 21 November 2026
 
 | Score | Candidate | Beat | Source |
