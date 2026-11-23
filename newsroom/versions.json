@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2169",
+    "date": "2026-11-23",
+    "what": "holacracy.d@AgentiCCells.dinis: team index in owner.feed/v1 shape, find-an-agent page, fix nine session links",
+    "by": "holacracy.d@AgentiCCells.dinis",
+    "from": "3811d596a"
+  },
+  {
     "version": "v0.1.2168",
     "date": "2026-11-23",
     "what": "c.maestro (account-c): render-reel ask updated (lockfile, new hash)",
