@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2107",
+    "date": "2026-11-23",
+    "what": "slides.d (account-d): Factory key entry kept in session (keys rule: I publish it myself); ask Dinis for push to SovereignWebsite__IaC",
+    "by": "slides.d (account-d)",
+    "from": "16c109624"
+  },
+  {
     "version": "v0.1.2106",
     "date": "2026-11-23",
     "what": "decisions.d@AgentiCCells.dinis: home Site__Agent__Decisions noted; move blocked on this session's attach permission (asked of Dinis) and my Factory key (asked of factory.d)",
