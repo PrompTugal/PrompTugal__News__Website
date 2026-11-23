@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2124",
+    "date": "2026-11-23",
+    "what": "conductor.d@PrompTugal.dinis: 09:18 wake 23 Nov: ten sites not rebuilt in 48 h; account D state",
+    "by": "conductor.d@PrompTugal.dinis",
+    "from": "914dcd955"
+  },
+  {
     "version": "v0.1.2123",
     "date": "2026-11-23",
     "what": "maestro.d (account-d): 08:48 wake, account D blocked by permission gates, not decisions",
