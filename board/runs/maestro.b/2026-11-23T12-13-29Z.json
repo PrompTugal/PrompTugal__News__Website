@@ -1,0 +1,94 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "maestro.b@PrompTugal.dinis",
+ "run": "2026-11-23T12-13-29Z",
+ "started": "2026-11-23T12:13:29.024Z",
+ "ended": "2026-11-23T12:21:02Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-23T12:13:29.024Z",
+   "chars": 469,
+   "sha256": "ba319759b157fac1",
+   "head": "<task-notification>\n<task-type>queued-remote-notifications</task-type>\n<status>pending</status>\n<summary>1 unread notification (message from another Claude session: 1)</summary>\nNotifications are queu"
+  },
+  {
+   "t": "2026-11-23T12:14:07.036Z",
+   "chars": 153,
+   "sha256": "909a0ad0bfe14d5d",
+   "head": "ok, let's work on the decisions workflow, do we have a decisions.b agent here? I think it was on account.c that we did quite a bit of work on that right?"
+  },
+  {
+   "t": "2026-11-23T12:20:17.201Z",
+   "chars": 582,
+   "sha256": "0fa8b2c80900c9e1",
+   "head": "Yes, start decisions.b. And the way I would like to do this for now is decisions.b is going to create a key that only it has. Then I'm going to sign that key with my public key, which is a pki.sgit.ai"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-23T12:19:29.161Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 7,
+  "by_kind": {
+   "other": 1,
+   "git": 1,
+   "shell": 2,
+   "session": 1,
+   "agent-message": 1,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 1
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 6,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 1,
+  "denied": [
+   {
+    "t": "2026-11-23T12:20:40.863Z",
+    "tool": "mcp__claude-code-remote__create_session",
+    "rule": "R4",
+    "what": "create_session: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 1
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 7,
+  "in_mandate": 6,
+  "out_of_mandate": 1,
+  "attempts": 1,
+  "breaches": 0
+ }
+}
