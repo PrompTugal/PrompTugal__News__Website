@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account A",
   "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
   "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T15:57Z",
-  "state": "Gmail/CRM team started on A (G1-G5 a); AWS team waits on Factory keys; fresh a.maestro advised (context ~750k)",
+  "updated": "2026-11-23T16:24Z",
+  "state": "11 fresh AWS sessions running; waiting on Dinis for A1 (router.a pin), A2 (decrypt yes for a.conductor.aws and a.ontology.aws) and A3 (fresh .a keys on the Factory), all through b.decisions",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
     "Made key maestro.a-account-a in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -33,10 +33,10 @@
     "Dinis: start a fresh a.maestro from board/team/maestro.a/next-session-prompt.md (this one is past 700k context)"
   ],
   "latest_debrief": "board/team/maestro.a/debriefs/2026-11-23-handover.md",
-  "last_read_from_b": "2026-11-23T14:16Z",
-  "last_read_from_c": "2026-11-23T12:37Z",
-  "last_read_from_d": "2026-11-23T13:04Z",
-  "last_read_vault": "2026-11-23T14:25Z",
+  "last_read_from_b": "2026-11-23T16:24Z",
+  "last_read_from_c": "2026-11-23T16:24Z",
+  "last_read_from_d": "2026-11-23T16:24Z",
+  "last_read_vault": "2026-11-23T16:24Z",
   "exceptions": [
     {
       "time": "2026-11-23T03:25Z",
