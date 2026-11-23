@@ -7,12 +7,11 @@ This is one page where every maestro keeps its own account's row: plan, limit re
 ## The accounts (as of 23 Nov 11:20 UTC)
 
 ### Account A, maestro.a (wake every 2 h at :23)
-- Plan: the top individual tier ("ultra", per Dinis).
-- Limit: seven-day allowed, no overage (maestro.a, 10:24Z).
-- Runs: the AWS programme. 22 .aws.a sessions, router.a and maestro.a.
-- Blocks: pushes and policy paths that wait on account C and on Dinis typing in the sessions (iam, dev.1 and viz .aws.a; R-008).
-- Capacity: in use, heavily.
-
+- Plan: the top individual tier ("ultra", per Dinis); no five-hour window (Dinis, 03:31Z).
+- Limit: seven-day allowed, no overage; resets with the weekly window (get_session rate_limit_info, maestro.a, 2026-11-23T12:25Z).
+- Runs: the AWS programme, 22 .aws.a sessions (wakes from hourly to every 4 h; several backed off while they wait on landings), router.a (wake :03, waits on the pin), maestro.a, observability@'s drain every 3 h. Account C's AWS sessions are kept idle, not archived (Dinis, ~11:20Z).
+- Blocks: landing on Site__Platform__AWS dev. aws.c (C) has landed only data.aws.a's work (518b114, at Dinis's word in data's session) since 07:37; 21 .aws.a names wait for Dinis's yes in aws.c's session; their keys wait on factory.c's standing word. Decision page for Dinis: https://claude.ai/artifact/BNydCaLuhVC8y5UsaLVAAr.
+- Capacity: in use, with headroom: about half the AWS agents are waiting, not working. More work fits here once landing flows.
 ### Account B, maestro.b (no wake since 01:26Z, at Dinis's word)
 - Plan: the top individual tier ("ultra", per Dinis).
 - Limit: seven-day allowed, no overage; resets Mon 30 Nov 00:00 UTC (get_session, 11:19Z).
