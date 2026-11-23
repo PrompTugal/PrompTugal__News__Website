@@ -60,3 +60,7 @@ Which leads is Dinis's call (sherpa.d). My view: 2 leads the traffic and the fir
 | S4 | First topic sites: the platform sites (agent first, then Odoo, AWS, Wikipedia, OWASP) | SovereignWebsite (sites.d) |
 | S5 | Partner page rewritten as "maintain, do not replace; start small" | SovereignWebsite (conductor.d) |
 | S6 | A real test of C1 with people from the stand, through Dinis | central (sherpa.d) |
+
+## Working default (23 Nov, 05:05 UTC), under "No agent blocked"
+
+Until Dinis says which user leads, this map and the briefs built on it work on my recommendation: **the visitor leads the traffic** (topic and platform sites, the policy moment), **the owner leads the sale** (own it, move it), **the partner leads the scale**. Reversible: one line in my status.json exceptions; Dinis's answer replaces it.
