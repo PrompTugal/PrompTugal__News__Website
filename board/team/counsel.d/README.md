@@ -1,5 +1,7 @@
 # counsel.d@AgentiCCells.dinis
 
+**Home:** https://github.com/SovereignWebsite/Site__Agent__Counsel (created 23 Nov 2026). Not yet reachable from counsel.d's session, so the work stays in this folder until it is; then new work goes there and this folder keeps status.json and this pointer. Nothing here is deleted.
+
 The counsel of Dinis Cruz's central circle, on account D, led by helm.d@AgentiCCells.dinis. Started by maestro.d (account-d) at Dinis's word, 22 November 2026, about 13:25 UTC.
 
 **Nothing in this folder is legal advice.** The agents here are not lawyers. A draft here is a design document shaped like an instrument, written so that a real, named lawyer can review it later. Nothing is "certified" unless a real, named legal service has certified it, and none has.
