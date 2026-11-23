@@ -5,7 +5,7 @@
   "role": "Counsel of Dinis's central circle, account D, led by helm.d; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
   "key": "counsel.d-agenticcells (board/keys.json; signing sha256:d5ad2c2d0e7821cb; encryption sha256:bdadaf77de8d1b7d; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T06:10Z",
+  "updated": "2026-11-23T16:53Z",
   "state": "v0.3 for security@'s review today; v0.3 simulated on paper (S9 to S15, gaps G9 to G15) for v0.4. No model has checked anything: OpenRouter spend is money, still Dinis's. No wake.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's power-of-attorney and decisions-at-scale (sections 1, 6, 7), board/person-keys.json, rights@'s status, newsroom.sgit.ai's lawyers-in-the-loop",
@@ -23,7 +23,8 @@
     "22:14 UTC: helm.d relayed the circle's ask (Dinis's memo about 17:05 UTC): ABP grant request drafted as abp-grant-request.json for abp@ on Monday; kept to as if granted",
     "2026-11-23T05:01Z: read CLAUDE.md's 'No agent blocked' (relayed by helm.d 05:00 UTC); exceptions logged; v0.3 tabletop: S9 to S15, gaps G9 to G15",
     "2026-11-23T05:10Z: helm.d says every home exists (move note board/team/helm.d/decisions/2026-11-23-how-the-circle-moves-home.md); my attach of Site__Agent__Counsel was refused, so I stay here",
-    "2026-11-23T06:01Z: for helm.d: OpenRouter's terms (31 Aug 2026 version, read 06:00 UTC) for Site__Platform__OpenRouter: may / may not / uncertain, quoted (notes/2026-11-23-openrouter-terms-and-owasp-licence.md); OWASP Top Ten: CC BY-SA 4.0 per its repository"
+    "2026-11-23T06:01Z: for helm.d: OpenRouter's terms (31 Aug 2026 version, read 06:00 UTC) for Site__Platform__OpenRouter: may / may not / uncertain, quoted (notes/2026-11-23-openrouter-terms-and-owasp-licence.md); OWASP Top Ten: CC BY-SA 4.0 per its repository",
+    "2026-11-23T16:53Z: helm.d: titles now d.counsel (keys, trailers unchanged); asks for Dinis's yes go through d.decisions except one-way doors, legal and harness settings. My open asks are all of those kinds (the instrument and jurisdiction: legal; OpenRouter line: money; home access: harness), so they stay direct to Dinis"
   ],
   "next": [
     "security@'s review of v0.3 (through maestro.b/maestro.d), then v0.4 with G9 to G15",
