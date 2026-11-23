@@ -6,7 +6,7 @@
  "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
  "key": "decisions.d-agenticcells (board/keys.json; signing sha256:d4de20909c983bd1; encryption sha256:d4562f808111c080; ssh ed25519 for git signatures)",
  "delegation": "NONE. Nothing decisions.d sends is Dinis's word; no agent may act on it as if it were.",
- "updated": "2026-11-23T05:20Z",
+ "updated": "2026-11-23T07:45Z",
  "state": "Scheduled (trig_01EkWuma8DGQNwD69RpwvSnw, 07:43, 10:43, 13:43, 18:43, 21:43 Lisbon; 21:43 is the end-of-day sweep). Maps every session on account D, keeps the log of every ask, proposes what to retire and which sessions to archive. No delegation held.",
  "latest_debrief": "board/team/decisions.d/debriefs/2026-11-22-handover.md",
  "done": [
@@ -38,12 +38,12 @@
   "Wrote my own ABP grant (abp-grant-request.json) at Dinis's Desk answer abp-grants ('ask the agent to write one'); for abp@ to build into policies.json",
   "Session map 21:43: 2 new (wordpress.d, an author site), 12 changed; titles that name a person are written generically (sessions/titles.json)",
   "05:01 UTC: read CLAUDE.md 'No agent blocked' (Dinis 23 Nov ~03:00/03:35 UTC); the log now carries a section of exceptions from every status.json (8 at first read)",
-  "Home move: factory.d (05:14 UTC) and helm.d (05:19 UTC): my key must be added by me, in one commit signed by my sgit ECDSA key, to the Factory's team/keys.json; nobody pushes home before that. I stay here and ask, without working around the refused attach"
+  "Home move: factory.d (05:14 UTC) and helm.d (05:19 UTC): my key must be added by me, in one commit signed by my sgit ECDSA key, to the Factory's team/keys.json; nobody pushes home before that. I stay here and ask, without working around the refused attach",
+  "07:43 wake: session map (124; 1 new, pybot.d); design/README.md aligned with counsel.d's v0.3 (P3, kind, test, undo, sub-delegation chain, D6, D8); the Factory push block found to stop at least eight sessions"
  ],
  "next": [
-  "07:43 Lisbon wake: deltas since 21:43; owners' replies to the sweep",
-  "Bring design/README.md up to counsel.d's v0.3 (P3, kind, sub-delegation chain, D6 and D8)",
-  "Monday: abp@ builds my policy; security@ reviews the design and v0.3"
+  "10:43 wake: deltas; whether the Factory push is allowed; if so, publish my key in the Factory (signed with my sgit ECDSA key) and move home",
+  "Monday: abp@ (account B, restored 00:25 UTC) builds my policy; security@ reviews the design and v0.3"
  ],
  "findings": [
   "Dinis's active key in board/person-keys.json was issued by conductor@, which holds the private half too: unfit to sign a delegation; his pki.sgit.ai anchor key is the one",
@@ -53,10 +53,11 @@
   "My first run wrote two times ahead of the clock in design/ (R17); corrected before commit",
   "Two sessions named counsel.d on account D (counsel.d@account-d, started 13:25 by maestro.d; 'counsel.d: counsel reviews for account D', started 16:34 by conductor.d (SovereignWebsite)): one role, one session (CLAUDE.md)",
   "The five failed turns of ~17:05 to 17:37 UTC (sherpa.d, accountant.d, bulletins.d, helm.d, data.d) were the account's usage limit, not faults (maestro.d, 18:56 UTC)",
-  "conductor.d logged an exception at 04:51 UTC: it tried to start data.open.d on Dinis's 17:05 word recorded by maestro.d, not said in its session; starting a session stays Dinis's in his own session under R4, which 'No agent blocked' does not lift"
+  "Push access to the Factory (SovereignWebsite__IaC) is the most common block on account D this morning: at least eight sessions name it in their status (session map 07:45 UTC)",
+  "The 'word for frameworks' page carries Dinis's own words from cartographer.d's session (16:57 UTC, 22 Nov): my concern of 22:14 UTC is withdrawn"
  ],
  "asks": [
-  "Dinis: allow this session to attach, with push, SovereignWebsite/SovereignWebsite__Factory (now __IaC) and SovereignWebsite/Site__Agent__Decisions (add_repo was refused by the session's permission check; GitHub says attachable). Then I publish my own key in the Factory (the keys rule: only I can) and move home - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
+  "Dinis: one decision unblocks at least eight sessions: push access to SovereignWebsite__IaC (the Factory) and each agent's home. Waiting on it at 07:45 UTC: decisions.d, slides.d, studio.d, holacracy.d (its D10), cartographer.d, helm.d, sherpa.d (factory.d's list), chiswick-cheese-market.d and pybot.d; add_repo is refused by each session's permission check while GitHub says attachable. Allowing add_repo for these sessions (or attaching IaC and the homes) lets each publish its own key and move home - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
   "Dinis: I read only session metadata, not transcripts: you said I 'should have access to their session logs', but your guidance of 18 Nov makes telemetry.b@ the only reader of transcripts. Do I read them (list_events), or keep to metadata? - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
   "Dinis: 84 sessions recommended for archiving (sessions/README.md, 'Recommend archiving'): old one-off runs of 15 and 16 Nov and the php.newsroom team; archive them, or tell me which to keep - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
   "Dinis: two sessions are named counsel.d on account D (one from maestro.d at 13:25, one from conductor.d (SovereignWebsite) at 16:34); one role, one session: which stays? - https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",

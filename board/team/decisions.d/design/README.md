@@ -18,6 +18,17 @@ Sources read 22 November 2026: maestro.d's analyses `board/team/maestro.d/analys
 - **Length:** 7 days, suspended after 72 hours without a sign of life from him: yes.
 - **Signed answers:** yes, delegated down.
 
+## 0c. Aligned with counsel.d's v0.3 (23 November 2026)
+
+counsel.d's draft v0.3 (`board/team/counsel.d/drafts/lpa-decisions.d-v0.3.md`) is the instrument this design serves; where they differ, v0.3 governs. What v0.3 changes here:
+
+- **Powers:** P1 (relay a verbatim answer), P2 (adopt a default-yes under his rules, "looked, not silent"), and **P3: a two-way door on decisions.d's own judgement**, only of a kind on v0.3's closed list (`create-site`, `publish-page`, `merge-reviewed` and the rest), only when all five points of its reversibility test hold, each act logged with how it passes and its undo step. Unsure means one-way: it goes to Dinis. P3 is pending Dinis's own confirmation (asked in status.json), since it reverses "never decides" in decisions.d's start-up brief.
+- **The request** gains `kind` (from the closed list) and, for P3, `test` (the five points, each with how it holds) and `undo` (the step that reverses it). `ref.ask_sha256` stays for P1 and P2.
+- **Sub-delegation:** one level, P3 kinds only, at most 24 hours, to an agent with its own published key; a signed JSON (the sub-attorney's fingerprint, the kinds, the end, the instrument's sha256), signed by decisions.d and in its public log before first use. A receiver checks the chain: request, sub-delegation, decisions.d's key, the "operates" link, the pinned root. It falls when decisions.d's power falls.
+- **Receiver's checks (section 4) add:** the kind is on the list; for P3, the test and undo are present; for a sub-attorney, the sub-delegation is published, in date and within its kinds; "could not check" (pki.sgit.ai unreachable) is reported apart from a refusal; the public-log check pulls before refusing.
+- **Duties:** D6, every P3 act and sub-delegation reported to Dinis the same day with its test and undo; D8, undo first when Dinis or the domain's owner asks.
+- **Ends** on the session's end: a restart needs a new instrument signed by Dinis.
+
 ## 0b. counsel.d's draft
 
 counsel.d's limited power, draft v0.1, is `board/team/counsel.d/drafts/lpa-decisions.d-v0.1.md` (on dev since v0.1.2032). This design follows its names (P1, P2; exclusions X1 to X10; duties D1 to D7). Where they differ (sent to counsel.d 14:20 UTC): the principal key is the pki.sgit.ai anchor, not a new entry in `board/person-keys.json`; revocation is checked at pki.sgit.ai, the repository copy being a mirror only, since any pusher can delete a line from a file in the repository; requests carry `to.key` and `ref.ask_sha256`; and a receiver refuses a request not already in the public log.
