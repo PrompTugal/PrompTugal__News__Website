@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2145",
+    "date": "2026-11-23",
+    "what": "c.maestro (account-c): 15:33 wake; titles account letter first; asks via b.decisions",
+    "by": "maestro.c (account-c)",
+    "from": "51fa093ec"
+  },
+  {
     "version": "v0.1.2144",
     "date": "2026-11-23",
     "what": "maestro.d (account-d): email cell overlap between accounts A and D, for maestro.a",
