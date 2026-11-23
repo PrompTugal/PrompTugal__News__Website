@@ -10,21 +10,34 @@
   "encryption": "sha256:6d2060f1f7b9d999",
   "signing": "sha256:ebb490a825e761a9"
  },
- "state": "waking hourly at :03; key published; waiting for Dinis: the pin (decisions.c signing fingerprint); acting on no request until pinned",
- "pinned_issuer": null,
- "last_ledger_read": "2026-11-23T18:04Z",
+ "state": "pinned to b.decisions via pki.sgit.ai; the ledger is empty for account A; b.decisions writes to SovereignWebsite__IaC decisions/, so until a b.router carries its requests into the ledger (ask A2) nothing reaches account A",
+ "pinned_issuer": {
+  "issuer": "decisions.b (SovereignWebsite)",
+  "issuer_signing": "sha256:eefbe996d9c67a7c",
+  "anchor": "sha256:db7f79fdd87e030a",
+  "anchor_name": "dinis.cruz",
+  "method": "pki.sgit.ai chain: anchor (pinned) -> operates -> issuer; checked with pki-agent.mjs pin/trust",
+  "chain_ok_at": "2026-11-23T23:55Z",
+  "until": "2026-11-30",
+  "register": "https://pki.sgit.ai/directory/index.json, site v0.2.36",
+  "given": "Dinis in this session, about 2026-11-23T23:55Z: take the anchor and the b.decisions key from pki.sgit.ai (\"nobody else can edit that\")",
+  "replaces": "the hand-carried pin of decisions.c (never pinned)"
+ },
+ "last_ledger_read": "2026-11-23T23:55Z",
  "done": [
   "clone unshallowed; sgit-ai 0.27.0 present",
   "key made in this session with sgit pki keygen (passphrase random, kept in ~/.sg-send/, never printed); entry router.a-account-a in board/keys.json with its sgit bundle and ssh signing key",
   "this checkout signs commits with ssh key router.a-account-a (newsroom/tools/signing-setup.sh)",
-  "hourly wake at :03 created at Dinis yes in this session (trig_01MozebE3LqFxGGrW5GNRTVq)"
+  "hourly wake at :03 created at Dinis yes in this session (trig_01MozebE3LqFxGGrW5GNRTVq)",
+  "trust root set at Dinis word: anchor sha256:db7f79fdd87e030a on pki.sgit.ai, operates link to b.decisions sha256:eefbe996d9c67a7c verified ok, until 2026-11-30"
  ],
  "next": [
   "on the pin: check it against decisions.c-account-c in board/keys.json, record it here with the time Dinis gave it",
   "then read board/routers/ledger/requests/ for to.account a, run ledger.mjs check, claim, act within v0, receipt"
  ],
  "asks": [
-  "Dinis: decisions.c signing fingerprint, from your hand in this session (also ask A1 for b.decisions in board/team/maestros/from-a.md); until pinned, router.a acts on no request"
+  "Dinis: yes or no to b.router on account B and b.decisions as the single issuer (ask A2, sent via maestro.a)",
+  "Dinis: the gate allowlist fix (newsroom/build/validate.js AGENT_NAME: @account-[a-z].dinis) so the rename to a.router (account-a) can ship; I make it or dev@ does"
  ],
  "exceptions": [
   {
@@ -32,9 +45,15 @@
    "what": "made and published this session's key and status.json without a word from Dinis in this session",
    "rule": "CLAUDE.md 'Who instructs' (the start prompt came from maestro.a, material)",
    "why": "Dinis's word of 23 Nov ~03:00 UTC (board/team/maestro.c/decisions/2026-11-23-no-agent-blocked.md): two-way doors in an agent's own area go; CLAUDE.md Identity already asks each agent to make its own key"
+  },
+  {
+   "time": "2026-11-23T23:55Z",
+   "what": "pinned the issuer from the pki.sgit.ai register rather than a fingerprint typed in session",
+   "rule": "routers README v0 (the pin from Dinis hand); pki-agent.mjs warns not to pin a root read from the register",
+   "why": "Dinis in this session: the register is the stronger source, only he can edit it; the anchor matches the one in board/guidance/2026-11-23-asks-go-to-b-decisions.md"
   }
  ],
- "updated": "2026-11-23T18:04Z",
+ "updated": "2026-11-23T23:55Z",
  "wake": {
   "trigger": "trig_01MozebE3LqFxGGrW5GNRTVq",
   "cron": "3 * * * *",
