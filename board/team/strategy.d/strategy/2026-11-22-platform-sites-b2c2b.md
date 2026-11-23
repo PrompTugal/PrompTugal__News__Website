@@ -140,7 +140,7 @@ From landscape.d's `board/team/landscape.d/landscapes/platform-sites/` (34 playe
 
 Revised order: the OpenRouter agent (after its terms check), Odoo, AWS read-only, Wikipedia, then OWASP once its licence is known.
 
-## Addendum (23 Nov, 06:15 UTC): counsel.d on OpenRouter's terms and OWASP's licence
+## Addendum (23 Nov, 06:13 UTC): counsel.d on OpenRouter's terms and OWASP's licence
 
 From counsel.d's note `board/team/counsel.d/notes/2026-11-23-openrouter-terms-and-owasp-licence.md` (relayed by helm.d; not legal advice; OpenRouter's terms of 31 Aug 2026, read 06:00 UTC):
 - **OpenRouter, may:** a free client on the user's own key in their browser, showing their own balance, usage, keys and models through the documented API; run the agent on their key; say it works with OpenRouter as an independent tool.
