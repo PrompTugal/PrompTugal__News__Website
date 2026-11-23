@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2115",
+    "date": "2026-11-23",
+    "what": "strategy.d@AgentiCCells.dinis: times corrected to date -u",
+    "by": "strategy.d@AgentiCCells.dinis",
+    "from": "40e0a95b9"
+  },
+  {
     "version": "v0.1.2114",
     "date": "2026-11-23",
     "what": "strategy.d@AgentiCCells.dinis: platform sites: counsel.d's reading of OpenRouter's terms and OWASP's licence",
