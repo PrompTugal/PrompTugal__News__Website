@@ -1,39 +1,46 @@
 # Org chart of account D
 
-Drawn from org-chart.json (2026-11-23T05:20Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
+Drawn from org-chart.json (2026-11-23T17:10Z) by holacracy.d@AgentiCCells.dinis. Account D from list_sessions and get_session (status, model, cost, parent); account B reported, not seen.
 
 ## The parent tree (who started whom)
 
 ```
-maestro.d (account-d) [opus, configured sonnet] working, $12.20
-|-- holacracy.d (account-d) [sonnet] working
-|-- conductor.d@PrompTugal.dinis [opus] waiting on Dinis: push access to PrompTugal__News__Data, how twins' keys get in, $3.42
-|   |-- bulletins.d@PrompTugal.dinis [opus] completed its last turn (story-first player on a branch), $2.48
-|   `-- data.d@PrompTugal.dinis [not fetched] waiting on Dinis: merge factory.d's commit for push access
-|-- conductor.d (SovereignWebsite) [opus] waiting on Dinis: a yes in factory.d's session, $19.48
-|   |-- design.d (SovereignWebsite) [opus] waiting on Dinis: contrast fix, /accounts/d/ move, key, $6.49
-|   |-- synthetic-users.d (SovereignWebsite) [opus] waiting on Dinis: say go on the chip fix, $7.05
-|   |-- factory.d (SovereignWebsite) [opus] waiting on Dinis: pick A, B or C, merge 7c755a8, $3.41
-|   `-- library.d (SovereignWebsite) [opus] completed (moved to /accounts/d/), $10.24
-|-- sites.d (SovereignWebsite) [sonnet] waiting on Dinis: a yes to factory.d, $2.18
-|   `-- streaming.d (StreamingWebsite) [opus, configured sonnet] review ready, $7.72
-|-- hub.d (SovereignWebsite) [sonnet] completed, idle (no first task), $1.44
-|-- conductor.d@AgentiCCells.dinis [opus] waiting on Dinis: which email fixes to build, $3.66
-|   |-- cell.email.d@AgentiCCells.dinis [opus] waiting on Dinis: push release/next2, approver option, leak-scan exception, $3.97
-|   |-- email.workflows.d@AgentiCCells.dinis [not fetched] waiting on Dinis (W9, W13, W17)
-|   |-- email.design.d@AgentiCCells.dinis [not fetched] completed (commits pushed to its work branch)
-|   `-- email.pm.d@AgentiCCells.dinis [not fetched] review ready
-|-- newsroom.d (sgit.ai) [opus] waiting on Dinis: who holds a decision brief, $9.33
-|-- helm.d (account-d) [not fetched] working (started 13:25 UTC)
-|-- strategy.d (account-d) [not fetched] working (started 13:25 UTC)
-|-- cartographer.d (account-d) [not fetched] working (started 13:25 UTC)
-|-- sherpa.d (account-d) [not fetched] working (started 13:25 UTC)
-|-- accountant.d (account-d) [not fetched] working (started 13:25 UTC)
-|-- counsel.d (account-d) [not fetched] working (started 13:25 UTC)
-|-- decisions.d (account-d) [not fetched] working (started 13:25 UTC)
-|-- studio.d (account-d) [not fetched] working (started 13:25 UTC)
-|-- landscape.d (account-d) [not fetched] working (started 13:25 UTC)
-`-- slides.d (account-d) [opus] working (started about 16:05Z)
+d.maestro (account-d) [opus, configured sonnet] working, $12.20
+|-- d.holacracy (account-d) [sonnet] working
+|-- d.conductor (PrompTugal) [opus] working, $3.42
+|   |-- d.bulletins (PrompTugal) [opus] review ready, $2.48
+|   `-- d.data (PrompTugal) [not fetched] completed
+|-- d.conductor (SovereignWebsite) [opus] working, $19.48
+|   |-- d.design (SovereignWebsite) [opus] waiting on Dinis: contrast fix, key, files, $6.49
+|   |-- d.synthetic-users (SovereignWebsite) [opus] waiting on Dinis: policy paths, version-chip fix, $7.05
+|   |-- d.factory (SovereignWebsite) [opus] waiting on Dinis: attach IaC to six agents, platform sites, $3.41
+|   |-- d.library (SovereignWebsite) [opus] waiting on Dinis: rename in README and policy, $10.24
+|   |-- d.observability (SovereignWebsite) [not fetched] waiting on Dinis: cookie-free capture, append lanes
+|   |-- d.counsel (account-d) [not fetched] completed
+|   |-- d.security (SovereignWebsite) [not fetched] waiting on Dinis: confirm the rule, merge key-request commits
+|   `-- d.chiswick-cheese-market (SovereignWebsite) [not fetched] waiting on Dinis: push access
+|-- d.sites (SovereignWebsite) [sonnet] working, $2.18
+|   |-- d.streaming (StreamingWebsite) [opus, configured sonnet] working, $7.72
+|   |-- d.pybot (SovereignWebsite) [not fetched] working
+|   |-- d.donna-freed (SovereignWebsite) [not fetched] working
+|   `-- d.wordpress (SovereignWebsite) [not fetched] working
+|-- d.hub (SovereignWebsite) [sonnet] waiting on Dinis: merge work/hub.d-r2?, $1.44
+|-- d.conductor (AgentiCCells) [opus] working, $3.66
+|   |-- d.email.dev (AgentiCCells) [opus] working, $3.97
+|   |-- d.email.workflows (AgentiCCells) [not fetched] waiting on Dinis: confirm the rule text
+|   |-- d.email.design (AgentiCCells) [not fetched] completed
+|   `-- d.email.pm (AgentiCCells) [not fetched] working
+|-- d.newsroom (sgit.ai) [opus] waiting on Dinis: name, asks route, deny list, $9.33
+|-- d.helm (account-d) [not fetched] working
+|-- d.strategy (account-d) [not fetched] completed
+|-- d.cartographer (account-d) [not fetched] review ready
+|-- d.sherpa (account-d) [not fetched] review ready
+|-- d.accountant (account-d) [not fetched] waiting on Dinis: each account's plan and price
+|-- d.counsel (account-d) [not fetched] completed
+|-- d.decisions (account-d) [not fetched] working
+|-- d.studio (account-d) [not fetched] working
+|-- d.landscape (account-d) [not fetched] review ready
+`-- d.slides (account-d) [opus] waiting on Dinis: push access to SovereignWebsite__IaC
 ```
 
 ## The circles (who holds what purpose)
@@ -52,35 +59,42 @@ maestro.d (account-d) [opus, configured sonnet] working, $12.20
 
 | Agent | Circle | Parent | Twin | Repository | Wake | Session |
 |---|---|---|---|---|---|---|
-| maestro.d (account-d) | maestros | - | maestro.b (account-b) | PrompTugal/PrompTugal__News__Website | every 4 h at :48 UTC | https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T |
-| holacracy.d (account-d) | anchor | maestro.d | none yet | PrompTugal/PrompTugal__News__Website (board/team/holacracy.d/); home SovereignWebsite/Site__Agent__Holacracy requested (13947db, relayed) | none | https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q |
-| conductor.d@PrompTugal.dinis | PrompTugal | maestro.d | conductor.b@PrompTugal.dinis | PrompTugal/PrompTugal__News__Website | none (waits on Dinis) | https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 |
-| bulletins.d@PrompTugal.dinis | PrompTugal | conductor.d@PrompTugal | bulletins.b@PrompTugal.dinis | PrompTugal/PrompTugal__News__Bulletins | none | https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj |
-| conductor.d (SovereignWebsite) | SovereignWebsite | maestro.d | conductor.b (SovereignWebsite) | SovereignWebsite/SovereignWebsite__Factory | none | https://claude.ai/code/session_015gaHdbX954ByXJf8LH5FLL |
-| sites.d (SovereignWebsite) | SovereignWebsite | maestro.d | sites.b | SovereignWebsite/Site__Agents__Sites | none | https://claude.ai/code/session_015gaHde5GfQygpBgyUhNzuf |
-| hub.d (SovereignWebsite) | SovereignWebsite | maestro.d | hub.b | SovereignWebsite/SovereignWebsite__Hub | none | https://claude.ai/code/session_015gaHdbMGVTN5vJ9jVfAi3N |
-| design.d (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | design.b? | SovereignWebsite/Site__Agents__Design | own round at 02:59 UTC (set inside its session, not seen as a scheduled task here) | https://claude.ai/code/session_015gaHdczGFLc7N3kCq8MrWz |
-| synthetic-users.d (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | synthetic-users.b? | SovereignWebsite/Site__Agents__Design | none | https://claude.ai/code/session_015gaHdddQiB4aYZWXjfs16rM |
-| factory.d (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | factory.b | SovereignWebsite/SovereignWebsite__Factory | none | https://claude.ai/code/session_015gaHde6kToHbUHDD8AN72E |
-| library.d (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | librarian.b (SovereignWebsite) | SovereignWebsite/Site__Agents__Library | none | https://claude.ai/code/session_015gaHdecGUXfFRDs8DmeUFN |
-| streaming.d (StreamingWebsite) | StreamingWebsite | sites.d | streaming.b? | SovereignWebsite/Site__Tool__Streaming | none | https://claude.ai/code/session_015gaHdbE7t4XNf21L7neufF |
-| conductor.d@AgentiCCells.dinis | AgentiCCells | maestro.d | conductor.b@AgentiCCells.dinis | AgentiCCells/AgentiCCells__Site__Factory | none | https://claude.ai/code/session_015gaHdcaj9Ta2Tke7pnZ3Q9 |
-| cell.email.d@AgentiCCells.dinis | AgentiCCells | conductor.d@AgentiCCells | cell.email.b | AgentiCCells/AgentiCCells__Cell__Email | none | https://claude.ai/code/session_015gaHde7zcTqMyBWcdpdnR6 |
-| newsroom.d (sgit.ai) | sgit.ai | maestro.d | writer-10 (newsroom.b), reported | SGit-AI/SGit-AI__Website__Newsroom | none seen | https://claude.ai/code/session_015gaHdb5n5RdwdbHzWijPMS |
-| helm.d (account-d) | central (helm) | maestro.d | none yet | SovereignWebsite/Site__Agents__Helm (agent site requested on SovereignWebsite__Factory dev, 13947db, relayed 15:34Z) | none | https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV |
-| strategy.d (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdddd1qVEaY3EG6feEsL |
-| cartographer.d (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH |
-| sherpa.d (account-d) | central (helm) | maestro.d | sherpa@PrompTugal.dinis (account B): twins, per Dinis to helm.d ~14:05Z (relayed) | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL |
-| accountant.d (account-d) | central (helm) | maestro.d | accountant@PrompTugal.dinis (account B): twins, per Dinis to helm.d ~14:05Z (relayed) | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK |
-| counsel.d (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6 |
-| decisions.d (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG |
-| studio.d (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq |
-| landscape.d (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW |
-| email.workflows.d@AgentiCCells.dinis | Cell Email | conductor.d@AgentiCCells | none yet | AgentiCCells/AgentiCCells__Cell__Email (assumed) | none | https://claude.ai/code/session_015gaHdbAGDK9xNPDa9znvB9 |
-| email.design.d@AgentiCCells.dinis | Cell Email | conductor.d@AgentiCCells | none yet | AgentiCCells/AgentiCCells__Cell__Email (assumed) | none | https://claude.ai/code/session_015gaHdb5B7vab8KyN7YiDNZ |
-| email.pm.d@AgentiCCells.dinis | Cell Email | conductor.d@AgentiCCells | none yet | AgentiCCells/AgentiCCells__Cell__Email (assumed) | none | https://claude.ai/code/session_015gaHdasKF9YcSA27g5dMPz |
-| data.d@PrompTugal.dinis | PrompTugal | conductor.d@PrompTugal | none yet | PrompTugal/PrompTugal__News__Data | none | https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z |
-| slides.d (account-d) | central (helm) | maestro.d | none yet | SovereignWebsite/Site__Agents__Slides (home requested, relayed) | none | https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8 |
+| d.maestro (account-d) | maestros | - | maestro.b (account-b) | PrompTugal/PrompTugal__News__Website | every 4 h at :48 UTC | https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T |
+| d.holacracy (account-d) | anchor | maestro.d | none yet | PrompTugal/PrompTugal__News__Website (board/team/holacracy.d/); home SovereignWebsite/Site__Agent__Holacracy requested (13947db, relayed) | none | https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q |
+| d.conductor (PrompTugal) | PrompTugal | maestro.d | conductor.b@PrompTugal.dinis | PrompTugal/PrompTugal__News__Website | none (waits on Dinis) | https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 |
+| d.bulletins (PrompTugal) | PrompTugal | conductor.d@PrompTugal | bulletins.b@PrompTugal.dinis | PrompTugal/PrompTugal__News__Bulletins | none | https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj |
+| d.conductor (SovereignWebsite) | SovereignWebsite | maestro.d | conductor.b (SovereignWebsite) | SovereignWebsite/SovereignWebsite__Factory | none | https://claude.ai/code/session_015gaHdbX954ByXJf8LH5FLL |
+| d.sites (SovereignWebsite) | SovereignWebsite | maestro.d | sites.b | SovereignWebsite/Site__Agents__Sites | none | https://claude.ai/code/session_015gaHde5GfQygpBgyUhNzuf |
+| d.hub (SovereignWebsite) | SovereignWebsite | maestro.d | hub.b | SovereignWebsite/SovereignWebsite__Hub | none | https://claude.ai/code/session_015gaHdbMGVTN5vJ9jVfAi3N |
+| d.design (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | design.b? | SovereignWebsite/Site__Agents__Design | own round at 02:59 UTC (set inside its session, not seen as a scheduled task here) | https://claude.ai/code/session_015gaHdczGFLc7N3kCq8MrWz |
+| d.synthetic-users (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | synthetic-users.b? | SovereignWebsite/Site__Agents__Design | none | https://claude.ai/code/session_015gaHdddQiB4aYZWXjfs16rM |
+| d.factory (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | factory.b | SovereignWebsite/SovereignWebsite__Factory | none | https://claude.ai/code/session_015gaHde6kToHbUHDD8AN72E |
+| d.library (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | librarian.b (SovereignWebsite) | SovereignWebsite/Site__Agents__Library | none | https://claude.ai/code/session_015gaHdecGUXfFRDs8DmeUFN |
+| d.streaming (StreamingWebsite) | StreamingWebsite | sites.d | streaming.b? | SovereignWebsite/Site__Tool__Streaming | none | https://claude.ai/code/session_015gaHdbE7t4XNf21L7neufF |
+| d.conductor (AgentiCCells) | AgentiCCells | maestro.d | conductor.b@AgentiCCells.dinis | AgentiCCells/AgentiCCells__Site__Factory | none | https://claude.ai/code/session_015gaHdcaj9Ta2Tke7pnZ3Q9 |
+| d.email.dev (AgentiCCells) | AgentiCCells | conductor.d@AgentiCCells | cell.email.b | AgentiCCells/AgentiCCells__Cell__Email | none | https://claude.ai/code/session_015gaHde7zcTqMyBWcdpdnR6 |
+| d.newsroom (sgit.ai) | sgit.ai | maestro.d | writer-10 (newsroom.b), reported | SGit-AI/SGit-AI__Website__Newsroom | none seen | https://claude.ai/code/session_015gaHdb5n5RdwdbHzWijPMS |
+| d.helm (account-d) | central (helm) | maestro.d | none yet | SovereignWebsite/Site__Agents__Helm (agent site requested on SovereignWebsite__Factory dev, 13947db, relayed 15:34Z) | none | https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV |
+| d.strategy (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdddd1qVEaY3EG6feEsL |
+| d.cartographer (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH |
+| d.sherpa (account-d) | central (helm) | maestro.d | sherpa@PrompTugal.dinis (account B): twins, per Dinis to helm.d ~14:05Z (relayed) | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL |
+| d.accountant (account-d) | central (helm) | maestro.d | accountant@PrompTugal.dinis (account B): twins, per Dinis to helm.d ~14:05Z (relayed) | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK |
+| d.counsel (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6 |
+| d.decisions (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG |
+| d.studio (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq |
+| d.landscape (account-d) | central (helm) | maestro.d | none yet | home to be requested: Site__Agents__<Name> | none | https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW |
+| d.email.workflows (AgentiCCells) | Cell Email | conductor.d@AgentiCCells | none yet | AgentiCCells/AgentiCCells__Cell__Email (assumed) | none | https://claude.ai/code/session_015gaHdbAGDK9xNPDa9znvB9 |
+| d.email.design (AgentiCCells) | Cell Email | conductor.d@AgentiCCells | none yet | AgentiCCells/AgentiCCells__Cell__Email (assumed) | none | https://claude.ai/code/session_015gaHdb5B7vab8KyN7YiDNZ |
+| d.email.pm (AgentiCCells) | Cell Email | conductor.d@AgentiCCells | none yet | AgentiCCells/AgentiCCells__Cell__Email (assumed) | none | https://claude.ai/code/session_015gaHdasKF9YcSA27g5dMPz |
+| d.data (PrompTugal) | PrompTugal | conductor.d@PrompTugal | none yet | PrompTugal/PrompTugal__News__Data | none | https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z |
+| d.slides (account-d) | central (helm) | maestro.d | none yet | SovereignWebsite/Site__Agents__Slides (home requested, relayed) | none | https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8 |
+| d.pybot (SovereignWebsite) | SovereignWebsite | sites.d | none yet | not recorded | none | https://claude.ai/code/session_015gaHdddy85C9E8oW9YhJ6FK |
+| d.donna-freed (SovereignWebsite) | SovereignWebsite | sites.d | none yet | not recorded | none | https://claude.ai/code/session_015gaHddeh6Sh45Ef2fZFAhLi |
+| d.wordpress (SovereignWebsite) | SovereignWebsite | sites.d | none yet | not recorded | none | https://claude.ai/code/session_015gaHdda1bnbqASo1ed8VUdY |
+| d.observability (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHddayiD5PCvJRyqNHyjC |
+| d.counsel (account-d) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHddaCnEbzJ8Q8CLjisbW |
+| d.security (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHddegs3vxyNtU2tmc28P |
+| d.chiswick-cheese-market (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHddcNSDvpHf63UJRg64C |
 
 ## Account B (reported, not seen)
 

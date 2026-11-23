@@ -291,6 +291,37 @@
      "follows": "Homes stay empty of my work"
     }
    ]
+  },
+  {
+   "id": "D11",
+   "title": "Two counsel agents",
+   "tension": "d.counsel (account-d) in the central circle and d.counsel (SovereignWebsite) both exist on account D; d.counsel (SovereignWebsite) asks which of them keeps the key reviews. Two agents on one role, one of them in a sub-circle. Also d.strategy (account-d) beside b.strategy (SovereignWebsite) on account B (reported).",
+   "source": "proposals/07-two-counsel-agents.md",
+   "rec": "A",
+   "status": "open",
+   "options": [
+    {
+     "k": "A",
+     "label": "One Counsel role: the central one holds it; the SovereignWebsite one is the same role's filler scoped to that circle",
+     "good": "One role, one ROLE.md; Holacracy allows a role to be filled in a sub-circle",
+     "bad": "Two sessions to keep in step",
+     "follows": "The record shows one role, two fillers by circle; the central one keeps the key reviews"
+    },
+    {
+     "k": "B",
+     "label": "Two roles: Counsel (central) and Site Counsel (SovereignWebsite), each with its own domain",
+     "good": "Clear lines if their domains differ",
+     "bad": "More roles; the key-review domain still needs one owner",
+     "follows": "Each role is written; the key reviews go to the one named"
+    },
+    {
+     "k": "C",
+     "label": "Retire one",
+     "good": "No overlap",
+     "bad": "Loses the scoped knowledge; stopping a session is Dinis's",
+     "follows": "You stop one; I redraw"
+    }
+   ]
   }
  ]
 }
