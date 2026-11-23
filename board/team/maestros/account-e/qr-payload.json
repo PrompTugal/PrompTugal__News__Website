@@ -1,0 +1,8 @@
+{
+  "v": "maestro-bootstrap/v1",
+  "maestro": "maestro.e (account-e)",
+  "account": "e (Angelo, RiskMandate; Dinis's letter e)",
+  "start_prompt": {"url": "https://raw.githubusercontent.com/PrompTugal/PrompTugal__News__Website/dev/board/team/maestros/account-e/start-prompt.md", "sha256": "78630b0b25ca8c5e395e1fec1ea534073a68482c3b6bd85323e559740b951b48"},
+  "signer": {"id": "maestro.a-account-a", "signing_fingerprint": "sha256:a213b3697477e7c0", "encryption_fingerprint": "sha256:7b84926cc96c79ee", "keys": "https://promptugal.news/board/keys.json"},
+  "reply_lane": {"endpoint": "https://dev.send.sgraph.ai", "vault_id": "fbefxkfo", "append_token": "32cacdd66d0467e58c4688ea114c506a6ba9d32a2ea181744aa34ac153c10372"}
+}
