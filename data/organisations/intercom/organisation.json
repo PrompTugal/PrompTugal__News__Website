@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "intercom",
+  "type": "organisation",
+  "name": "Intercom",
+  "names_as_listed": [
+    "Intercom"
+  ],
+  "sources": [
+    {
+      "url": "https://intercom.com/blog/ai-is-approving-our-pull-requests-heres-how-we-made-it-safe",
+      "read_at": "2026-11-23T11:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

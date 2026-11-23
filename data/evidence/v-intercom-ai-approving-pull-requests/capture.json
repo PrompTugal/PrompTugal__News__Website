@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-intercom-ai-approving-pull-requests",
+  "type": "evidence",
+  "source_url": "https://intercom.com/blog/ai-is-approving-our-pull-requests-heres-how-we-made-it-safe",
+  "beat": "AI agents in real work",
+  "group": "AI agents in real work",
+  "names": [
+    {
+      "as_listed": "Intercom",
+      "ref": "organisation:intercom"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-23-1150.json",
+  "run": "2026-11-23T11:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-23-1150.json"
+    ]
+  }
+}

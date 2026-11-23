@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S81",
+  "type": "story",
+  "title": "Intercom lets AI approve code changes: the rules it says keep humans in charge",
+  "beat": "AI and robotics",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-intercom-ai-approving-pull-requests"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-23-1150.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-23-1150.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-23T11:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-23-1150.json"
+    }
+  ]
+}
