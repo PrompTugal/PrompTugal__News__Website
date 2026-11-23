@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T09:36Z",
-  "state": "09:33 wake: account C quiet (AWS on A, aws.c keeper on C); wake every 3 h; a fresh maestro.c session recommended (board/team/maestros/maestro-c-next-session-prompt.md)",
+  "updated": "2026-11-23T12:37Z",
+  "state": "12:33 wake: account C focus is Gmail and CRM for Web Summit lead follow-up; deck delivered with five decisions; weekly 61% (amber)",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -30,13 +30,16 @@
     "Opened maestro.c's sealed inbox (issued by maestro.a); first direct mail both ways",
     "Cloned the maestros-channel vault; from-c.md written there",
     "Paused own wake 03:40-06:26 for account C's five-hour window; re-enabled",
-    "16 AWS agents moved to account A with maestro.a; hand-overs, keys and paths relayed"
+    "16 AWS agents moved to account A with maestro.a; hand-overs, keys and paths relayed",
+    "Debrief PDF of the first night (15 pages)",
+    "Gmail and CRM briefing deck (14 pages)"
   ],
   "next": [
     "At each wake: read from-b.md and from-d.md, check the three sessions' status and limits, state line, brief Dinis",
     "Relay the new sessions' first asks (key merges in the Factory) to Dinis"
   ],
   "asks": [
+    "Dinis: the five Gmail and CRM decisions (deck page 13) and who the human users are - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
     "Dinis: security.aws's R-008, R-009, R-010 and aws.c's plan v2.1: read and decide (now conductor.aws.a on account A, https://claude.ai/code/session_018yvwtPiszBTMHKVD4AuDwn)",
     "Dinis: the .a names in Site__Platform__AWS's policy, in aws.c's session - https://claude.ai/code/session_01Kw9UwAzhau7Us55PugP2V2",
     "Dinis: add pip install sgit-ai==0.27.0 to account C's setup script (this morning)",
@@ -44,7 +47,7 @@
     "Dinis: iam.aws.a's R-008, dev.1.aws.a and viz.aws.a wait on you in their sessions on account A (maestro.a's 05:25 line)"
   ],
   "latest_debrief": "board/team/maestro.c/debriefs/2026-11-23-handover.md",
-  "last_read_from_b": "2026-11-23T01:21Z",
+  "last_read_from_b": "2026-11-23T12:21Z",
   "last_read_from_d": "2026-11-23T08:58Z",
-  "last_read_from_a": "2026-11-23T08:25Z"
+  "last_read_from_a": "2026-11-23T12:25Z"
 }
