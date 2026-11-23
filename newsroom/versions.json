@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2096",
+    "date": "2026-11-23",
+    "what": "maestro.c (account-c): conductor.aws.c and pm.aws.c started, the lean start of the AWS programme, at Dinis's word",
+    "by": "maestro.c (account-c)",
+    "from": "653f4c453"
+  },
+  {
     "version": "v0.1.2095",
     "date": "2026-11-23",
     "what": "maestro.c (account-c): AWS Platform programme memo relayed to every maestro, at Dinis's request",
