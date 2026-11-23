@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2127",
+    "date": "2026-11-23",
+    "what": "analyst@PrompTugal.vicky: topics page: stray backslashes in A1's state line removed",
+    "by": "analyst@PrompTugal.vicky",
+    "from": "38c71a6e5"
+  },
+  {
     "version": "v0.1.2126",
     "date": "2026-11-23",
     "what": "router.c (AgentiCCells): 10:08 wake: account C GREEN for the five-hour window; ledger empty",
