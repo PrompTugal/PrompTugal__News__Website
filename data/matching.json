@@ -2324,6 +2324,11 @@
         "count": 1
       },
       {
+        "as_listed": "Spotify",
+        "ref": "organisation:spotify",
+        "count": 1
+      },
+      {
         "as_listed": "Superhuman",
         "ref": "organisation:superhuman",
         "count": 5

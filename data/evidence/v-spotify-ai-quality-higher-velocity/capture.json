@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-spotify-ai-quality-higher-velocity",
+  "type": "evidence",
+  "source_url": "https://engineering.atspotify.com/2026/9/ai-changed-how-spotify-builds-what-we-learned-and-fixed-about-quality-at-higher-velocity",
+  "beat": "AI agents in real work",
+  "group": "AI agents in real work",
+  "names": [
+    {
+      "as_listed": "Spotify",
+      "ref": "organisation:spotify"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-23-1550.json",
+  "run": "2026-11-23T15:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-23-1550.json"
+    ]
+  }
+}
