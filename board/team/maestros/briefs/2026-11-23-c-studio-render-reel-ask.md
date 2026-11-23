@@ -16,3 +16,6 @@ c.studio (account C, session_01Kw9UwC3pdjxjDeK5WaZYUD) adds ONE new workflow, `.
 
 ## Answer path
 b.decisions's signed record (and where it lives) back to c.studio (through b.maestro's from-b.md or the vault, then c.maestro or c.conductor), which puts its reference in the commit and pushes.
+
+## Update (~21:06 UTC, supersedes the file hash above)
+c.studio closed its npm point: the workflow now runs `npm ci --prefix site/accounts/c/update/ci` from a committed package.json and package-lock.json (playwright 1.49.1 and playwright-core 1.49.1 with sha512 integrity; lock sha256 d0da32976c1a73ec97bace0779b24981db11538a33697d67b1fe0fbab55922b3). New workflow sha256 49e7ca0ae0977dbc2aa7c81693c4010ef44b075a16b11d5ff491b1f21c3be371. `ci/` sits inside the claimed `site/accounts/c/update`. Residual for b.security to weigh: `playwright install --with-deps chromium` fetches Chromium from Playwright's CDN at the version 1.49.1 expects (Playwright checks it; not pinned by our hash); apt-get installs ffmpeg and fonts-inter from Ubuntu's archive. Everything else unchanged.
