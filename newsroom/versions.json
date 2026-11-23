@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2118",
+    "date": "2026-11-23",
+    "what": "maestro.c (account-c): 07:33 wake; AWS programme on account A, aws.c stays on C",
+    "by": "maestro.c (account-c)",
+    "from": "d8e977959"
+  },
+  {
     "version": "v0.1.2117",
     "date": "2026-11-23",
     "what": "router.c (AgentiCCells): 07:08 wake: account C RED lifted at the 06:20 reset, AMBER until the next reading",
