@@ -1,7 +1,7 @@
 {
   "format": "value-chain needs for cartographer.d (carto-map/1 anchor)",
   "by": "sherpa.d@AgentiCCells.dinis",
-  "updated": "2026-11-22T18:50Z",
+  "updated": "2026-11-23T12:39Z",
   "note": "hypothesis true means inferred from the record, not said by the user and not tested with a real user; serves_via is left empty for cartographer.d to propose with a source for each",
   "needs": [
     {
@@ -298,7 +298,7 @@
       "user_name": "Dinis",
       "need": "Only one-way doors come to me; two-way doors go ahead and I can reverse them.",
       "hypothesis": false,
-      "source": "Dinis, voice memo in maestro.d's session ~17:05 UTC 22 Nov (record board/team/maestro.d/decisions/2026-11-22-voice-memo-18-answers.md, read 18:50 UTC), 'small-yeses'",
+      "source": "Dinis, voice memo in maestro.d's session ~17:05 UTC 22 Nov (record board/team/maestro.d/decisions/2026-11-22-voice-memo-18-answers.md, read 18:50 UTC), 'small-yeses'; evidence 23 Nov: maestro.a classified 22 overnight asks, 4 true one-way doors, 82% need not have reached him (board/team/maestros/from-a.md, 11:25 UTC)",
       "serves_via": [],
       "area": "decisions"
     },
@@ -321,6 +321,16 @@
       "source": "Dinis, voice memo in maestro.d's session ~17:05 UTC 22 Nov (record board/team/maestro.d/decisions/2026-11-22-voice-memo-18-answers.md, read 18:50 UTC), 'strictly-owner': 'I want to add football'; links to the stand's bridge (journey-the-stand.md); whether football is the first visitor topic is my reading",
       "serves_via": [],
       "area": "sovereign-website"
+    },
+    {
+      "id": "n-dinis-batch-video",
+      "user": "dinis",
+      "user_name": "Dinis",
+      "need": "For a batch of decisions, give me a presentation and a decision video.",
+      "hypothesis": false,
+      "source": "Dinis, in maestro.a's session ~11:15 UTC 23 Nov (relayed in board/team/maestros/from-a.md, read 12:39 UTC); the studio.d path",
+      "serves_via": [],
+      "area": "decisions"
     }
   ],
   "first_customer": {

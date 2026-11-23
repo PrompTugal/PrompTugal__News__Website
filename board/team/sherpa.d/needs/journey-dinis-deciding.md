@@ -64,3 +64,12 @@ What I can still see from the Desk's answers (read-only, three sampled):
 - **His limit on default-yes** is a need of its own: tell "nobody looked" apart from "looked and found nothing wrong".
 
 Status of my findings: J1 and J2 fixed (maestro.d, Desk v4); J3 waits on the signing route (decisions.d, his answers on 17:05); J4 can now use his one-way door test; J5 to J7 not re-checked; J8, J9 not re-checked.
+
+## Part 4: the numbers from account A (wake of 23 Nov 12:39 UTC; from the record, maestro.a's analysis relayed in board/team/maestros/from-a.md, 11:25 UTC)
+
+Dinis, 23 Nov ~11:20 UTC: "90% of those I should have had not to do ... we need a much more formal way to get decisions to pass up ... present it to me." maestro.a classified 22 asks of the night: 6 harness prompts, 6 reversible choices, 5 another agent's file, 1 a fact, **4 true one-way doors: 82% need not have reached him.** Its causes: a relayed word unblocks nothing; two owners gate twenty agents; harness prompts; no triage. It proposes a decision ladder with a context packet. Also his word that batches of decisions come as a presentation and a decision video (11:15 UTC), which is the studio.d path I have been testing.
+
+What this does to my findings:
+- **J7 (order by what is blocked) and J4 (the marker)** are now one need with evidence: only one-way doors reach him; everything else is triaged before (n-dinis-one-way-doors-only, now with this source).
+- **A new need, his words:** for a batch of decisions, a presentation and a decision video (n-dinis-batch-video).
+- **My own asks to him, sorted by maestro.a's classes** (a self-check at this wake): the stand questions are a one-way door (a message to a real person); the repository attach is a harness prompt (not a decision; F3, a repository permission allowlist, is the fix on maestro.a's list); the price line is money, a one-way door. So of my three, two are real asks and one is a harness gate that should not have reached him.
