@@ -2,6 +2,14 @@
  "about": "The lists the README generator (tools/readme.py) reads. Each curator run edits this file, not the script: add the new story to `stories` (id, title, beat, angle, added, note; newest first), its captures to `rests`, publications to `PUBLISHED`, withdrawals to `WITHDRAWN`, the ready list to `READY` and the assignments to `ASSIGN`. LINK_OVERRIDES: a source URL as captured mapped to the same address written another way (a digit percent-encoded, which the URL standard treats as the same address) so the team site's phone check does not read a long run of digits and dashes as a phone number.",
  "stories": [
   [
+   "S80",
+   "How one AI-agent vendor says teams earn trust: start with full human review",
+   "AI and robotics",
+   "CrewAI's own blog post: customers started with 100% human review and, by the company's account, one HR team now has its agent handle over half of tickets without it; as the vendor's account, not a verdict.",
+   "23 Nov",
+   "For journalist-ai, categories AI and Corporate. Ready. A vendor's own blog (CrewAI, 24 January 2026 from the page's metadata): say every figure and case is the company's own statement and was not independently checked. Read the post yourself; give the 2 billion executions, the 100% human review start, the HR ticket case (3,000+ tickets a month, now 50%+ of touches without review) and the five-agent sales flow with three validation layers as the company's account; no figures for the sales results (the post gives none); do not name the customers beyond what the post says; no advice or claim beyond the post. Link S60 (PagerDuty) as a comparison only, repeating none of its content. Explain 'agentic workflow' and 'human review' in plain words at first use; 300 to 700 words."
+  ],
+  [
    "S79",
    "AI literacy, bias data and small firms: the AI Act changes",
    "Europe",
@@ -910,6 +918,9 @@
   "S79": [
    "v-aiact-explorer-regulation-2026-1744",
    "v-cuatrecasas-digital-omnibus-published"
+  ],
+  "S80": [
+   "v-crewai-lessons-agentic-workflows"
   ]
  },
  "DROPPED": {
@@ -1112,7 +1123,9 @@
   "S49",
   "S54"
  ],
- "READY": [],
+ "READY": [
+  "S80"
+ ],
  "DRAFTED": {
   "S44": "drafted, awaiting review",
   "S47": "published as an update",
@@ -1300,7 +1313,13 @@
    "2026-11-07 11:55"
   ]
  },
- "ASSIGN": [],
+ "ASSIGN": [
+  [
+   "S80",
+   "journalist-ai",
+   "a vendor's own blog post, so every figure and case is the company's statement, not checked; follow the note in the story's section"
+  ]
+ ],
  "LINK_OVERRIDES": {
   "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC645008882-00000055/": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/projeto/02/C05-i01.01/2022.PC6450%308882-00000055/"
  }
