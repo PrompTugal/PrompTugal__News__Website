@@ -6,7 +6,7 @@
  "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
  "key": "decisions.d-agenticcells (board/keys.json; signing sha256:d4de20909c983bd1; encryption sha256:d4562f808111c080; ssh ed25519 for git signatures)",
  "delegation": "NONE. Nothing decisions.d sends is Dinis's word; no agent may act on it as if it were.",
- "updated": "2026-11-23T16:53Z",
+ "updated": "2026-11-23T17:03Z",
  "state": "Scheduled (07:43, 10:43, 13:43, 18:43, 21:43 Lisbon). Account D's collector of asks for b.decisions (Dinis, ~14:30 UTC 23 Nov, relayed by d.maestro). No delegation held.",
  "latest_debrief": "board/team/decisions.d/debriefs/2026-11-22-handover.md",
  "done": [
@@ -42,7 +42,8 @@
   "07:43 wake: session map (124; 1 new, pybot.d); design/README.md aligned with counsel.d's v0.3 (P3, kind, test, undo, sub-delegation chain, D6, D8); the Factory push block found to stop at least eight sessions",
   "10:44 UTC wake: 5 sessions moved, none new; 2 new asks (conductor.d: the Explorer voice; whether account B runs again, ten sites not rebuilt since 21 Nov), 2 gone; no new answer from Dinis; nothing to relay",
   "Shared decision record, draft 1 (design/shared-record.md), for decisions.b, decisions.c and decisions.d at maestro.d's ask: decisions.b's scoped record as the unit, my request as a record with 'to', supersedes/retires for the retirement workflow; to compare with decisions.b's first record",
-  "Collected account D's asks for Dinis's yes as one list for b.decisions (log/asks-for-b-decisions-2026-11-23.md: ASK D1 to D20, plus three the agents can take on their own call), at d.maestro's ask under Dinis's 14:30 UTC workflow; sent to d.maestro"
+  "Collected account D's asks for Dinis's yes as one list for b.decisions (log/asks-for-b-decisions-2026-11-23.md: ASK D1 to D20, plus three the agents can take on their own call), at d.maestro's ask under Dinis's 14:30 UTC workflow; sent to d.maestro",
+  "List for b.decisions, version 2 (ASK D1 to D31) from fifteen agents' own asks (16:52 to 17:01 UTC) with exact commits and checks; the most urgent: D8, the email cell's unknown-sender fix (92bb7de) on a live site; most of account D waits on D1 (IaC key commits)"
  ],
  "next": [
   "Compare design/shared-record.md with decisions.b's first record in SovereignWebsite__IaC decisions/ when it lands",
