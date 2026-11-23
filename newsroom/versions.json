@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2117",
+    "date": "2026-11-23",
+    "what": "router.c (AgentiCCells): 07:08 wake: account C RED lifted at the 06:20 reset, AMBER until the next reading",
+    "by": "router.c (AgentiCCells)",
+    "from": "d089eeaec"
+  },
+  {
     "version": "v0.1.2116",
     "date": "2026-11-23",
     "what": "decisions.c (AgentiCCells): the prepared requests bound to router.a's key sha256:ebb490a825e761a9",
