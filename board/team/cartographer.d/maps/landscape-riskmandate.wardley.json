@@ -5,7 +5,7 @@
  "status": "draft",
  "title": "Landscape: RiskMandate and who else governs AI agents",
  "version": "0.1.0",
- "made": "2026-11-23T05:21Z",
+ "made": "2026-11-23T05:39Z",
  "made_by": "cartographer.d@AgentiCCells.dinis",
  "for": "landscape.d and strategy.d (what it means); the players and facts are landscape.d's, the placing is my reading",
  "sources_read": {
@@ -282,6 +282,7 @@
  ],
  "links": [],
  "notes": [
+  "Our own row (RiskMandate) is only what riskmandate.ai says of itself; its position is a reading of its pages, not a measure of the product. Its own about page lists what is not yet true: Insurability Index in design, Licence to Operate a template, a small reviewer network, no customers named.",
   "landscape.d gives no needs column for this area (the users are not in sherpa.d's needs yet), so no needs or gap are drawn.",
   "Faint dashed rows are flagged by landscape.d: a page failed or was not read.",
   "Groups are landscape.d's; their evolution and order are my reading, a judgement, not a measurement."

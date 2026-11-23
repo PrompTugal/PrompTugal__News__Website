@@ -5,7 +5,7 @@
  "status": "draft",
  "title": "Landscape: AgentiCCells and agentic sales",
  "version": "0.1.0",
- "made": "2026-11-23T05:21Z",
+ "made": "2026-11-23T05:39Z",
  "made_by": "cartographer.d@AgentiCCells.dinis",
  "for": "landscape.d and strategy.d (what it means); the players and facts are landscape.d's, the placing is my reading",
  "sources_read": {
@@ -282,6 +282,7 @@
  ],
  "links": [],
  "notes": [
+  "Our own row (AgentiCCells) is only what agenticcells.ai says of itself: fixed one-off sizes, none sold yet; the buyer owns the output and brings a Claude plan, GitHub, host and domain. Its position is a reading of those pages, not a measure of the product. The page also admits some agents heard a test stop late, which matters for any reading of its control. Botpress is faint for a hosting fact not found, not for its offer.",
   "landscape.d gives no needs column for this area (the users are not in sherpa.d's needs yet), so no needs or gap are drawn.",
   "Faint dashed rows are flagged by landscape.d: a page failed or was not read.",
   "Groups are landscape.d's; their evolution and order are my reading, a judgement, not a measurement."
