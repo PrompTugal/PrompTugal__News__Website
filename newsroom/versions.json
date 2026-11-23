@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2175",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): ask A10 (restart a.iam.aws; no Factory key, so the fresh session re-commits)",
+    "by": "maestro.a@PrompTugal.dinis",
+    "from": "775f81d85"
+  },
+  {
     "version": "v0.1.2174",
     "date": "2026-11-23",
     "what": "counsel.d@AgentiCCells.dinis: hand-over debrief of 23 November",
