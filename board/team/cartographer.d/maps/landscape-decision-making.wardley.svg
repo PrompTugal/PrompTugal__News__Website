@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-label="Landscape: how decisions are made, tools and standards" font-family="system-ui, sans-serif">
 <rect width="1400" height="1000" fill="#fff"/>
 <text x="70" y="30" font-size="20" font-weight="600" fill="#111">Landscape: how decisions are made, tools and standards</text>
-<text x="70" y="50" font-size="12" fill="#444">wardley map, draft, made 2026-11-23T22:01Z by cartographer.d@AgentiCCells.dinis from 2 sources (see the JSON)</text>
+<text x="70" y="50" font-size="12" fill="#444">wardley map, draft, made 2026-11-23T22:09Z by cartographer.d@AgentiCCells.dinis from 2 sources (see the JSON)</text>
 <rect x="70" y="90" width="1300" height="820" fill="none" stroke="#999"/>
 <text x="76" y="928" font-size="12" fill="#555">Genesis</text>
 <line x1="395" y1="90" x2="395" y2="910" stroke="#ccc" stroke-dasharray="4 4"/>
@@ -54,11 +54,11 @@
 <text text-anchor="start" x="1094" y="914" font-size="13" fill="#111">Open Policy Agent</text>
 <circle cx="824" cy="946.9" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Cedar (source: landscape) Policy language and Rust engine for fine-grained application authorization: a request of principal, action and resource is evaluated against policies and returns allow or deny. Price: not read. https://github.com/cedar-policy/cedar (read 2026-11-23)</title></circle>
 <text text-anchor="start" x="834" y="950.9" font-size="13" fill="#111">Cedar</text>
-<text x="928" y="147.3" font-size="13" font-weight="600" fill="#777">Frameworks and standards:</text>
-<text x="798" y="263.7" font-size="13" font-weight="600" fill="#777">Collaborative platforms:</text>
-<text x="694" y="417.1" font-size="13" font-weight="600" fill="#777">Enterprise decision tools:</text>
-<text x="850" y="533.5" font-size="13" font-weight="600" fill="#777">Decision logs:</text>
-<text x="356" y="686.9" font-size="13" font-weight="600" fill="#777">Approval gates for agents:</text>
-<text x="798" y="840.2" font-size="13" font-weight="600" fill="#777">Codified rules and engines:</text>
+<text x="941" y="147.3" font-size="13" font-weight="600" fill="#777">Frameworks and standards:</text>
+<text x="811" y="263.7" font-size="13" font-weight="600" fill="#777">Collaborative platforms:</text>
+<text x="707" y="417.1" font-size="13" font-weight="600" fill="#777">Enterprise decision tools:</text>
+<text x="863" y="533.5" font-size="13" font-weight="600" fill="#777">Decision logs:</text>
+<text x="369" y="686.9" font-size="13" font-weight="600" fill="#777">Approval gates for agents:</text>
+<text x="811" y="840.2" font-size="13" font-weight="600" fill="#777">Codified rules and engines:</text>
 <text x="70" y="986" font-size="11" fill="#555">Green: user need. Purple: the shared goal. Blue: component. Red ring: a gap (named as missing in the sources). Orange arrow: a suggested move, for strategy.d. Faint dashed: low confidence. Positions are a reading of the sources.</text>
 </svg>

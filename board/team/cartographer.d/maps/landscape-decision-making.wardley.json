@@ -5,7 +5,7 @@
  "status": "draft",
  "title": "Landscape: how decisions are made, tools and standards",
  "version": "0.1.0",
- "made": "2026-11-23T22:01Z",
+ "made": "2026-11-23T22:09Z",
  "made_by": "cartographer.d@AgentiCCells.dinis",
  "for": "landscape.d and strategy.d (what it means); the players and facts are landscape.d's, the placing is my reading",
  "sources_read": {
@@ -272,7 +272,7 @@
    "label": "Frameworks and standards:",
    "type": "caption",
    "visibility": 0.935,
-   "evolution": 0.66,
+   "evolution": 0.67,
    "source": "cartographer",
    "evidence": "a heading for the group below it"
   },
@@ -281,7 +281,7 @@
    "label": "Collaborative platforms:",
    "type": "caption",
    "visibility": 0.793,
-   "evolution": 0.5599999999999999,
+   "evolution": 0.57,
    "source": "cartographer",
    "evidence": "a heading for the group below it"
   },
@@ -290,7 +290,7 @@
    "label": "Enterprise decision tools:",
    "type": "caption",
    "visibility": 0.6060000000000001,
-   "evolution": 0.48,
+   "evolution": 0.49,
    "source": "cartographer",
    "evidence": "a heading for the group below it"
   },
@@ -299,7 +299,7 @@
    "label": "Decision logs:",
    "type": "caption",
    "visibility": 0.46399999999999997,
-   "evolution": 0.6,
+   "evolution": 0.61,
    "source": "cartographer",
    "evidence": "a heading for the group below it"
   },
@@ -308,7 +308,7 @@
    "label": "Approval gates for agents:",
    "type": "caption",
    "visibility": 0.277,
-   "evolution": 0.22,
+   "evolution": 0.22999999999999998,
    "source": "cartographer",
    "evidence": "a heading for the group below it"
   },
@@ -317,13 +317,14 @@
    "label": "Codified rules and engines:",
    "type": "caption",
    "visibility": 0.09,
-   "evolution": 0.5599999999999999,
+   "evolution": 0.57,
    "source": "cartographer",
    "evidence": "a heading for the group below it"
   }
  ],
  "links": [],
  "notes": [
+  "DMN is a standard, not a product, and RACI's row is Wikipedia's description with no owner page; both are frameworks and standards. Open Policy Agent and Cedar also appear in the RiskMandate landscape: the same tools seen from the other side.",
   null,
   "landscape.d gives no needs column for this area (the users are not in sherpa.d's needs yet), so no needs or gap are drawn.",
   "Faint dashed rows are flagged by landscape.d: a page failed or was not read.",
