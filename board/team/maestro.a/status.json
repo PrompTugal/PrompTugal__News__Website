@@ -5,26 +5,29 @@
   "role": "Conductor of the conductors, account A",
   "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
   "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T23:28Z",
-  "state": "Onboarded; account A is quiet: only this session and observability@'s three-hourly drain; proposals to Dinis waiting",
+  "updated": "2026-11-23T01:31Z",
+  "state": "Wake at :23 live; router.a started (waits on Dinis for the pin and its wake); direct vault mail with maestro.c set up and tested",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
     "Made key maestro.a-account-a in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
     "Account A's inventory: board/team/maestro.a/inventory/2026-11-22-account-a.md",
-    "Started board/team/maestros/from-a.md"
+    "Started board/team/maestros/from-a.md",
+    "Wake hourly at :23 (Dinis's yes, 01:27 UTC 23 Nov; decisions/2026-11-23-wake-archives-router-a-and-vault-mail.md)",
+    "Archived the four account A sessions stuck on a permission prompt",
+    "Started router.a (AgentiCCells) https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat, no pin given",
+    "Direct vault mail: tools/maestro_mail.py; inboxes for maestro.a and maestro.c in board/inboxes/; loopback verified; first message to maestro.c"
   ],
   "next": [
-    "On Dinis's yes: create the hourly wake at :23",
-    "On Dinis's yes: archive the four sessions stuck on a permission prompt; then a per-session list of stale account A sessions for archiving",
-    "At each wake: read from-b, from-c, from-d; account A's sessions and limit; state line; brief Dinis"
+    "At each wake: drain the vault inbox; read from-b, from-c, from-d; account A's sessions and limit; state line; brief Dinis",
+    "When maestro.c answers by mail, record that the channel works both ways",
+    "Per-session list of stale account A sessions for Dinis (inventory, proposal 3)"
   ],
   "asks": [
-    "Dinis: yes to maestro.a's hourly wake at :23 - https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
-    "Dinis: yes to archive the four sessions stuck on a permission prompt (inventory, proposal 2) - https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
-    "Dinis: start router.a on account A when you want the routers test (board/routers/router-a-start-prompt.md)"
+    "Dinis: in router.a's session, pin decisions.c's fingerprint (sha256:c0a1a5eb667a649d, from decisions.c's QR) and say yes to its :03 wake - https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat",
+    "Dinis: tell maestro.c to open its vault inbox (board/inboxes/maestro.c-account-c.json) if it does not pick it up from from-a.md at its :33 wake - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp"
   ],
   "latest_debrief": null,
-  "last_read_from_b": "2026-11-22T01:53Z",
-  "last_read_from_c": "2026-11-22T22:45Z",
-  "last_read_from_d": "2026-11-22T22:08Z"
+  "last_read_from_b": "2026-11-23T01:21Z",
+  "last_read_from_c": "2026-11-23T01:22Z",
+  "last_read_from_d": "2026-11-23T00:55Z"
 }

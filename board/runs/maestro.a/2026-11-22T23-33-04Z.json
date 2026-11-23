@@ -1,0 +1,130 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "maestro.a@PrompTugal.dinis",
+ "run": "2026-11-22T23-33-04Z",
+ "started": "2026-11-22T23:33:04.340Z",
+ "ended": "2026-11-23T01:33:26Z",
+ "line": "wake at :23, 4 archives, router.a started, vault mail with maestro.c",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-22T23:37:36.946Z",
+   "chars": 895,
+   "sha256": "81237124536bb1b2",
+   "head": "<task-notification>\n<task-id>bbnd4of7y</task-id>\n<tool-use-id>toolu_01BgMi7TpGZE4cRuv8u2WWyC</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/7e636e1e-b808-5d79-b246-39a5c"
+  },
+  {
+   "t": "2026-11-23T01:27:29.521Z",
+   "chars": 100,
+   "sha256": "1cfc096b95753f90",
+   "head": "yes to the 3 and can you figure out how you and the maestro.c can communicate directly using vaults?"
+  },
+  {
+   "t": "2026-11-23T01:33:20.491Z",
+   "chars": 1170,
+   "sha256": "e128fe32e1b902a1",
+   "head": "<task-notification>\n<task-id>bzgi1jfyd</task-id>\n<tool-use-id>toolu_01KUAgtYmzH1dw3VS6ujGpB8</tool-use-id>\n<output-file>/tmp/claude-0/-home-user-PrompTugal--News--Website/7e636e1e-b808-5d79-b246-39a5c"
+  }
+ ],
+ "session_events": [
+  {
+   "t": "2026-11-23T01:26:46.301Z",
+   "source": "resume"
+  }
+ ],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 28,
+  "by_kind": {
+   "release": 4,
+   "git": 4,
+   "other": 1,
+   "shell": 11,
+   "session": 6,
+   "write-unidentified": 1,
+   "git-commit": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 6
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 22,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 6,
+  "denied": [
+   {
+    "t": "2026-11-23T01:28:29.985Z",
+    "tool": "mcp__claude-code-remote__create_trigger",
+    "rule": "R4",
+    "what": "create_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-23T01:28:36.421Z",
+    "tool": "mcp__claude-code-remote__archive_session",
+    "rule": "R4",
+    "what": "archive_session: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-23T01:28:36.819Z",
+    "tool": "mcp__claude-code-remote__archive_session",
+    "rule": "R4",
+    "what": "archive_session: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-23T01:28:37.199Z",
+    "tool": "mcp__claude-code-remote__archive_session",
+    "rule": "R4",
+    "what": "archive_session: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-23T01:28:37.595Z",
+    "tool": "mcp__claude-code-remote__archive_session",
+    "rule": "R4",
+    "what": "archive_session: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-23T01:29:00.524Z",
+    "tool": "mcp__claude-code-remote__create_session",
+    "rule": "R4",
+    "what": "create_session: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 6
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 3,
+  "tool_calls": 28,
+  "in_mandate": 22,
+  "out_of_mandate": 6,
+  "attempts": 6,
+  "breaches": 0
+ }
+}
