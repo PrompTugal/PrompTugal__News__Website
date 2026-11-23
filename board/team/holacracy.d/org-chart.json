@@ -1,6 +1,6 @@
 {
  "about": "The governance record of Dinis's agents, kept by holacracy.d@AgentiCCells.dinis. First draft, 22 November 2026. Account D from list_sessions, get_session (status, model, cost, parent; never transcripts) and the status.json files; account B reported, not seen.",
- "generated": "2026-11-23T04:55Z",
+ "generated": "2026-11-23T05:20Z",
  "schema": "circles[], roles(=agents)[], tensions in proposals/. Roles' domains come from the ABP grant where one exists (none yet for the .d agents, see T4).",
  "sources": [
   "board/team/maestro.d/status.json",
@@ -145,7 +145,8 @@
    ],
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
-   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)"
+   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
+   "home": "SovereignWebsite/Site__Agent__Maestro"
   },
   {
    "id": "holacracy.d",
@@ -164,7 +165,8 @@
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "holacracy.d@AgentiCCells.dinis",
-   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session",
+   "home": "SovereignWebsite/Site__Agent__Holacracy"
   },
   {
    "id": "conductor.d@PrompTugal",
@@ -185,7 +187,8 @@
    "configured": "opus",
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
-   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)"
+   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
+   "home": "SovereignWebsite/Site__Agent__Conductor"
   },
   {
    "id": "bulletins.d",
@@ -203,7 +206,8 @@
    "configured": "opus",
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
-   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)"
+   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
+   "home": null
   },
   {
    "id": "conductor.d@SovereignWebsite",
@@ -224,7 +228,8 @@
    "configured": "opus",
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
-   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)"
+   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
+   "home": "SovereignWebsite/Site__Agent__Conductor"
   },
   {
    "id": "sites.d",
@@ -246,7 +251,8 @@
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
-   "conductor": "conductor.d (SovereignWebsite) since 21 Nov ~22:10Z per its own board (relayed by helm.d, not read by me: that board is in another repository); Dinis to helm.d ~15:47Z agrees"
+   "conductor": "conductor.d (SovereignWebsite) since 21 Nov ~22:10Z per its own board (relayed by helm.d, not read by me: that board is in another repository); Dinis to helm.d ~15:47Z agrees",
+   "home": "SovereignWebsite/Site__Agent__Sites"
   },
   {
    "id": "hub.d",
@@ -265,7 +271,8 @@
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
-   "conductor": "conductor.d (SovereignWebsite) since 21 Nov ~22:10Z per its own board (relayed by helm.d, not read by me: that board is in another repository); Dinis to helm.d ~15:47Z agrees"
+   "conductor": "conductor.d (SovereignWebsite) since 21 Nov ~22:10Z per its own board (relayed by helm.d, not read by me: that board is in another repository); Dinis to helm.d ~15:47Z agrees",
+   "home": "SovereignWebsite/Site__Agent__Hub"
   },
   {
    "id": "design.d",
@@ -283,7 +290,8 @@
    "configured": "opus",
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
-   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)"
+   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
+   "home": "SovereignWebsite/Site__Agent__Design"
   },
   {
    "id": "synthetic-users.d",
@@ -301,7 +309,8 @@
    "configured": "opus",
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
-   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)"
+   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
+   "home": "SovereignWebsite/Site__Agent__Synthetic-Users"
   },
   {
    "id": "factory.d",
@@ -319,7 +328,8 @@
    "configured": "opus",
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
-   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)"
+   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
+   "home": "SovereignWebsite/Site__Agent__Factory"
   },
   {
    "id": "library.d",
@@ -337,7 +347,8 @@
    "configured": "opus",
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
-   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)"
+   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
+   "home": "SovereignWebsite/Site__Agent__Library"
   },
   {
    "id": "streaming.d",
@@ -356,7 +367,8 @@
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
-   "conductor": "conductor.d (SovereignWebsite) since 21 Nov ~22:10Z per its own board (relayed by helm.d, not read by me: that board is in another repository); Dinis to helm.d ~15:47Z agrees"
+   "conductor": "conductor.d (SovereignWebsite) since 21 Nov ~22:10Z per its own board (relayed by helm.d, not read by me: that board is in another repository); Dinis to helm.d ~15:47Z agrees",
+   "home": null
   },
   {
    "id": "conductor.d@AgentiCCells",
@@ -378,7 +390,8 @@
    "configured": "opus",
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
-   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)"
+   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
+   "home": "SovereignWebsite/Site__Agent__Conductor"
   },
   {
    "id": "cell.email.d",
@@ -396,7 +409,8 @@
    "configured": "opus",
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
-   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)"
+   "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
+   "home": null
   },
   {
    "id": "newsroom.d",
@@ -415,7 +429,8 @@
    "account": "D",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "cost_seen": "about 02:00Z 22 Nov (get_session; not refreshed)",
-   "conductor": "none; sits under sgit.ai, led by Dinis; stays with maestro.d for sgit.ai (relayed by helm.d)"
+   "conductor": "none; sits under sgit.ai, led by Dinis; stays with maestro.d for sgit.ai (relayed by helm.d)",
+   "home": null
   },
   {
    "id": "helm.d",
@@ -452,7 +467,8 @@
    ],
    "span_note": "The helm's span is the central circle only (Dinis to helm.d ~15:47Z, relayed; helm.d's file board/team/helm.d/decisions/2026-11-22-dinis-answers-1547.md was not yet on dev when I recorded this). sites.d, hub.d and streaming.d are conducted by conductor.d (SovereignWebsite); newsroom.d sits under sgit.ai.",
    "name_before": "helm.d@AgentiCCells.dinis",
-   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session",
+   "home": "SovereignWebsite/Site__Agent__Helm"
   },
   {
    "id": "strategy.d",
@@ -475,7 +491,8 @@
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "strategy.d@AgentiCCells.dinis",
-   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session",
+   "home": "SovereignWebsite/Site__Agent__Strategy"
   },
   {
    "id": "cartographer.d",
@@ -498,7 +515,8 @@
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "cartographer.d@AgentiCCells.dinis",
-   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session",
+   "home": "SovereignWebsite/Site__Agent__Cartographer"
   },
   {
    "id": "sherpa.d",
@@ -521,7 +539,8 @@
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "sherpa.d@AgentiCCells.dinis",
-   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session",
+   "home": "SovereignWebsite/Site__Agent__Sherpa"
   },
   {
    "id": "accountant.d",
@@ -544,7 +563,8 @@
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "accountant.d@AgentiCCells.dinis",
-   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session",
+   "home": "SovereignWebsite/Site__Agent__Accountant"
   },
   {
    "id": "counsel.d",
@@ -567,7 +587,8 @@
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "counsel.d@AgentiCCells.dinis",
-   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session",
+   "home": "SovereignWebsite/Site__Agent__Counsel"
   },
   {
    "id": "decisions.d",
@@ -590,7 +611,8 @@
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "decisions.d@AgentiCCells.dinis",
-   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session",
+   "home": "SovereignWebsite/Site__Agent__Decisions"
   },
   {
    "id": "studio.d",
@@ -613,7 +635,8 @@
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "studio.d@AgentiCCells.dinis",
-   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session",
+   "home": "SovereignWebsite/Site__Agent__Studio"
   },
   {
    "id": "landscape.d",
@@ -636,7 +659,8 @@
    "written_by": "helm.d, board/team/helm.d/roles.md, 2026-11-22T13:37Z; proposed, not ratified by Dinis",
    "state_seen": "13:26Z 22 Nov (list_sessions)",
    "name_before": "landscape.d@AgentiCCells.dinis",
-   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session"
+   "name_note": "retitled the account-d.dinis form (name.d at account-d.dinis) at Dinis's word (~15:15Z, relayed by maestro.d); written 'name (account-d)' until the gate accepts the email form; my commits keep my enrolled name until Dinis says so in my session",
+   "home": "SovereignWebsite/Site__Agent__Landscape"
   },
   {
    "id": "email.workflows.d",
@@ -653,7 +677,8 @@
    "purpose": "Email cell workflows",
    "twin": "none yet",
    "account": "D",
-   "state_seen": "13:26Z 22 Nov (list_sessions)"
+   "state_seen": "13:26Z 22 Nov (list_sessions)",
+   "home": null
   },
   {
    "id": "email.design.d",
@@ -670,7 +695,8 @@
    "purpose": "Email cell design",
    "twin": "none yet",
    "account": "D",
-   "state_seen": "13:26Z 22 Nov (list_sessions)"
+   "state_seen": "13:26Z 22 Nov (list_sessions)",
+   "home": null
   },
   {
    "id": "email.pm.d",
@@ -687,7 +713,8 @@
    "purpose": "Email cell product management",
    "twin": "none yet",
    "account": "D",
-   "state_seen": "13:26Z 22 Nov (list_sessions)"
+   "state_seen": "13:26Z 22 Nov (list_sessions)",
+   "home": null
   },
   {
    "id": "data.d",
@@ -704,7 +731,8 @@
    "purpose": "Data for PrompTugal on account D (twin of data.b)",
    "twin": "none yet",
    "account": "D",
-   "state_seen": "13:26Z 22 Nov (list_sessions)"
+   "state_seen": "13:26Z 22 Nov (list_sessions)",
+   "home": null
   },
   {
    "id": "slides.d",
@@ -721,7 +749,8 @@
    "purpose": "Role written in board/team/helm.d/roles.md (see there); not yet copied here",
    "twin": "none yet",
    "account": "D",
-   "written_by": "helm.d, board/team/helm.d/roles.md; proposed, not ratified"
+   "written_by": "helm.d, board/team/helm.d/roles.md; proposed, not ratified",
+   "home": "SovereignWebsite/Site__Agent__Slides"
   }
  ],
  "account_b": {
@@ -752,5 +781,23 @@
   "role_may_do_alone": "reversible steps inside its own area: install pinned tools, make and publish its own key by its own signed commit, write its own files, build and ship its own pages, claim unstarted work, merge its own reviewed branch that passes the gate, choose between options it already recommended; each logged under exceptions in its status.json and next report",
   "still_dinis": "one-way doors: pinning a trust key in a router; a change to AWS; money; anything legal; publishing a private person's details; deleting a repository, branch or data; pushing to main; a connector; anything CLAUDE.md reserves for him",
   "effect_on_governance": "Most decision rights move down to the role. For holacracy.d: the record, charts, drafts, a round of proposals and ratings are two-way doors and go ahead; creating or changing a role, a grant, a session or a name still waits (my own never-list, and a name or a grant is not mine to change); Dinis ratifies the anchor purpose."
+ },
+ "homes": {
+  "seen": "list_repos on 23 Nov 2026 ~05:15Z: 21 repositories SovereignWebsite/Site__Agent__<Name>, all public, all singular (Accountant, Cartographer, Conductor, Counsel, Decisions, Design, Factory, Helm, Holacracy, Hub, IaC, Landscape, Library, Maestro, Migration, Sherpa, Sites, Slides, Strategy, Studio, Synthetic-Users)",
+  "homes_without_a_filler_in_this_chart": [
+   "Migration",
+   "IaC"
+  ],
+  "agents_without_a_home": [
+   "bulletins.d",
+   "data.d",
+   "newsroom.d (sgit.ai)",
+   "streaming.d (Site__Tool__Streaming is a tool repository, not a role home)",
+   "email.workflows.d",
+   "email.design.d",
+   "email.pm.d",
+   "cell.email.d"
+  ],
+  "note": "helm.d (relayed, 05:08Z): work and publish in the home; keep status.json and a pointer README here; nothing deleted. Mine, Site__Agent__Holacracy, is a static site: its CLAUDE.md asks for a signed commit with a key published in the Factory's team/keys.json, which is another repository and not mine to change."
  }
 }
