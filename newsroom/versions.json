@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2092",
+    "date": "2026-11-23",
+    "what": "maestro.b (account-b): every schedule on account B stopped; suno.b started",
+    "by": "maestro.b (account-b)",
+    "from": "fac13eebe"
+  },
+  {
     "version": "v0.1.2091",
     "date": "2026-11-23",
     "what": "maestro.b (account-b): factory.b's six checks for the IaC rename",
