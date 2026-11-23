@@ -36,6 +36,18 @@
    "sessions_blocked": null,
    "api_equiv_usd_lifetime_read": null,
    "notes": "maestro.c 0.42 (17:21Z) to 20.25 (02:40Z), ~2/h, context 517k; cowork inbox run 1502.92 to 1514.27 (~2.3 per 2-hourly run, context 331k); conductor.C archived, its hourly wake gone; new wakes: router.c :08, design.c :43 (not yet measured). AWS programme (conductor.aws.c) asked for a budget: proposal in proposals.md section 5."
+  },
+  {
+   "at": "2026-11-23T03:27Z",
+   "account": "C",
+   "source": "read",
+   "five_hour_status": "allowed",
+   "five_hour_resets_utc": "2026-11-23T06:20Z",
+   "weekly_percent": null,
+   "sessions_working": null,
+   "sessions_blocked": null,
+   "api_equiv_usd_lifetime_read": null,
+   "notes": "AWS programme stage 2 started 03:22 (conductor.aws.c: Dinis lifted its cap): 21 agents, ~300 wakes/day. Forecast AMBER: account D (same seat type) hit its five-hour limit at ~20-25/h; C now heads to ~17/h+. Advice sent: stagger starts, Sonnet for check-only roles, 300k context rule, halve on allowed_warning."
   }
  ]
 }

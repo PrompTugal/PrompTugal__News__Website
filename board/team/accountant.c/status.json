@@ -4,15 +4,16 @@
  "focus": "costs, usage limits and model routing for account C; the guard that stops any account maxing out; measures, reports and proposes, stops nothing",
  "session": "https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz",
  "key": "accountant.c-account-c (board/keys.json; encryption sha256:db0739023e73f480, signing sha256:460cf5ac58adf6de)",
- "updated": "2026-11-23T02:50Z",
- "state": "first run: key enrolled, account C snapshot, guard proposal and model-routing table written. No scheduled wake (none without Dinis's word). The status schema accepts only @PrompTugal.dinis in 'agent'; the name field carries the real identity.",
+ "updated": "2026-11-23T03:30Z",
+ "state": "Forecast AMBER for account C: the AWS programme's stage 2 (~300 wakes/day) brings C near the rate at which account D hit its five-hour limit. Advice sent to conductor.aws.c and maestro.c; no wake of my own, so I read C only when pinged.",
  "done": [
   "Read CLAUDE.md, guidance README (twins rule of 22 Nov), accountant.d's status, debrief, finance README, ledgers, accounts.json, proposals; maestros README and view",
   "Key accountant.c-account-c made in this session; entry and ssh half in board/keys.json, signed commit",
   "snapshots/2026-11-22T1722Z.json and reports/2026-11-22-first-snapshot.md: 1,601 API-equivalent lifetime on C, 94% one cowork inbox run, all Opus",
   "finance/capacity-ledger-c.json (account C rows, accountant.d's format)",
   "proposals.md: the guard (levels Green/Amber/Red/Stop, who acts), model routing with quality measures, Mistral first moves, the routing agent's design",
-  "02:45: second reading of account C (ledger row); budget proposal for the AWS programme sent to conductor.aws.c and in proposals.md section 5"
+  "02:45: second reading of account C (ledger row); budget proposal for the AWS programme sent to conductor.aws.c and in proposals.md section 5",
+  "03:27: reading of account C; AMBER forecast and advice to conductor.aws.c and maestro.c"
  ],
  "next": [
   "Measure the AWS programme per role after 24 h; compare with the ceilings",
@@ -22,6 +23,7 @@
   "For devops@ (account B, at its restore): the gate's git-log ownership checks give false FAILs on a shallow clone; sessions must git fetch --unshallow before validating"
  ],
  "asks": [
+  "Dinis: https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz - account C now carries ~300 wakes/day (AWS stage 2); give me C's weekly percent, and may I take a reading at each maestro.c wake (it pings me; I schedule nothing)?",
   "Dinis: https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz - standing rule for the guard: may maestro.c slow or pause account C's wakes at the Amber/Red/Stop levels in proposals.md without asking each time (each change recorded and told to you)?",
   "Dinis: https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz - account C's weekly percent now, by hand ('account C, weekly n%')",
   "Dinis: https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz - disable conductor.C@PrompTugal.news's hourly wake (trig_01Dqi53Bzf6iVEh11bf89TnS, no job, 240k context); and move the cowork inbox run (94% of C's spend, 285k context every 2 h) off Opus for its checks or compact it",
