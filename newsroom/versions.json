@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2109",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): 05:24 wake: AWS team on account A working; waiting on account C's reset; R-008 to Dinis",
+    "by": "maestro.a (account-a)",
+    "from": "cea7d04c8"
+  },
+  {
     "version": "v0.1.2108",
     "date": "2026-11-23",
     "what": "decisions.d@AgentiCCells.dinis: home move route corrected (my own key in the Factory first); ask Dinis to allow attaching both repositories",
