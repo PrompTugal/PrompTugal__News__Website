@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2173",
+    "date": "2026-11-23",
+    "what": "landscape.d@AgentiCCells.dinis: daily hand-over debrief 23 Nov; push ask points to d.decisions's list",
+    "by": "landscape.d@AgentiCCells.dinis",
+    "from": "5d89fa483"
+  },
+  {
     "version": "v0.1.2172",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): dev.2's 3 and ontology's 22 cleared by security.aws.a for aws.c; R-028 Low",
