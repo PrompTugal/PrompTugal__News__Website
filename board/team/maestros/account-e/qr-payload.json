@@ -1,8 +1,20 @@
 {
-  "v": "maestro-bootstrap/v1",
+  "v": "maestro-bootstrap/v2",
   "maestro": "maestro.e (account-e)",
-  "account": "e (Angelo, RiskMandate; Dinis's letter e)",
-  "start_prompt": {"url": "https://raw.githubusercontent.com/PrompTugal/PrompTugal__News__Website/dev/board/team/maestros/account-e/start-prompt.md", "sha256": "78630b0b25ca8c5e395e1fec1ea534073a68482c3b6bd85323e559740b951b48"},
-  "signer": {"id": "maestro.a-account-a", "signing_fingerprint": "sha256:a213b3697477e7c0", "encryption_fingerprint": "sha256:7b84926cc96c79ee", "keys": "https://promptugal.news/board/keys.json"},
-  "reply_lane": {"endpoint": "https://dev.send.sgraph.ai", "vault_id": "fbefxkfo", "append_token": "32cacdd66d0467e58c4688ea114c506a6ba9d32a2ea181744aa34ac153c10372"}
+  "account": "e (Angelo, RiskMandate; Dinis letter e)",
+  "start_prompt": {
+    "url": "https://raw.githubusercontent.com/PrompTugal/PrompTugal__News__Website/dev/board/team/maestros/account-e/start-prompt.md",
+    "sha256": "99a44203496dee1d72c1d1d950572c1f75f5b8549aa3cecf66d625f43e7385f5"
+  },
+  "signer": {
+    "id": "maestro.a-account-a",
+    "signing_fingerprint": "sha256:a213b3697477e7c0",
+    "sign_public_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/1+czqG3+nwg+CpXWwAhc8UxU8fU\nCUeCyTqr1vsH6vdLTLc6iuHnkYpbKXfk6ZnbmvxLPrau86J2rsxbOzo/kQ==\n-----END PUBLIC KEY-----\n",
+    "note": "verify against this whole key only; never fetch a key"
+  },
+  "reply_lane": {
+    "endpoint": "https://dev.send.sgraph.ai",
+    "vault_id": "fbefxkfo",
+    "append_token": "32cacdd66d0467e58c4688ea114c506a6ba9d32a2ea181744aa34ac153c10372"
+  }
 }
