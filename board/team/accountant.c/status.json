@@ -4,7 +4,7 @@
  "focus": "costs, usage limits and model routing for account C; the guard that stops any account maxing out; measures, reports and proposes, stops nothing",
  "session": "https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz",
  "key": "accountant.c-account-c (board/keys.json; encryption sha256:db0739023e73f480, signing sha256:460cf5ac58adf6de)",
- "updated": "2026-11-23T12:38Z",
+ "updated": "2026-11-23T15:38Z",
  "state": "Account C AMBER on the weekly limit: 61% at ~09:40 (Dinis), up 11 points in 6 h. Advice sent: design.c 2-hourly, no new sessions on C, new work elsewhere. Red at 75%.",
  "done": [
   "Read CLAUDE.md, guidance README (twins rule of 22 Nov), accountant.d's status, debrief, finance README, ledgers, accounts.json, proposals; maestros README and view",
@@ -19,7 +19,8 @@
   "07:35: reading; AMBER kept; maestro.c (+6.8/h, 653k) and conductor.aws.c (486k) advised to compact",
   "09:36: reading; GREEN advised to conductor.c (design.c may go hourly)",
   "10:50: weekly 61% received; AMBER; advice to conductor.c and maestro.c",
-  "12:36: reading; AMBER kept; maestro.c (3.5/h at 711k) advised to hand over to a fresh session"
+  "12:36: reading; AMBER kept; maestro.c (3.5/h at 711k) advised to hand over to a fresh session",
+  "15:36: reading; AMBER kept; maestro.c ~4/h at 730k, hand-over advised"
  ],
  "next": [
   "Measure the AWS programme per role after 24 h; compare with the ceilings",
