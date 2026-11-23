@@ -5,9 +5,10 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T11:36:45Z",
+  "updated": "2026-11-23T13:04:14Z",
   "state": "Account B is the Sovereign Website account (Dinis, 23 Nov ~11:30 UTC). No wakes enabled; strategy.b and suno.b started without wakes; conductor.b (SovereignWebsite) briefed; writer-10 briefed for the article.",
   "done": [
+    "23 Nov 13:04: account prefix first, 45 account-B session titles renamed (b.<role>); decisions.b started 12:20.",
     "23 Nov 11:40: strategy.b started; SovereignWebsite conductor and writer-10 briefed; centre-of-gravity.md started and updated.",
     "23 Nov 01:26: 41 schedules disabled, none left enabled; suno.b started; key and unsigned-commit answers relayed to conductor.b (SovereignWebsite). board/team/maestro.b/decisions/2026-11-23-stop-every-schedule-and-suno-b.md",
     "23 Nov 00:27 UTC: restored 41 of 43 slowed or paused schedules after the weekly reset",
