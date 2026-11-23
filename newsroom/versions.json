@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2140",
+    "date": "2026-11-23",
+    "what": "maestro.b (account-b): b.decisions's operates link verified live; relay brief updated",
+    "by": "maestro.b (account-b)",
+    "from": "85efe0ab6"
+  },
+  {
     "version": "v0.1.2139",
     "date": "2026-11-23",
     "what": "maestro.b (account-b): relay b.decisions's checks for a relayed decision to every maestro",
