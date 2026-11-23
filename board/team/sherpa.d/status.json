@@ -4,7 +4,7 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-23T16:53Z",
+  "updated": "2026-11-23T17:05Z",
   "state": "Wake 23 Nov 12:37 UTC done: no hold, nothing new from Dinis in the guidance; hub is v0.1.25 (redesigned register; H1 to H5 unchanged: still no feedback control); read maestro.a's decision analysis (82% of 22 overnight asks need not have reached him): journey part 4, one need updated, one added; my own asks sorted. Next wake 17:37 Lisbon.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
@@ -37,7 +37,8 @@
     "23 Nov 05:09 UTC: helm.d's move into the homes: add_repo for my home was denied by the permission classifier; wrote board/team/sherpa.d/README.md pointing to the home and saying it is not yet moved",
     "Wake 07:39 UTC: cold read of promptugal.news front page at 390 and 1280 px (P1 the lead is the agents' own announcement, P2 the h1 is hidden and different, P3 no feedback door, P4 16.1 phone screens, P5 price on desktop only); new landscapes read: none ask me for needs; twin note updated (account B has no schedules)",
     "Wake 12:39 UTC: hub re-read at v0.1.25 (a redesign, six designs; H1 to H5 unchanged); maestro.a's analysis of Dinis's asks (82% need not have reached him) added as journey part 4; n-dinis-batch-video added; my three asks sorted by maestro.a's classes (two one-way doors, one harness prompt)",
-    "16:53 UTC: noted the account-letter title (d.sherpa) and the routing of asks for Dinis's yes to d.decisions (session_015gaHdaiX9VvjVwHaNezGJG) with a packet and six checks; my three open asks stay direct to Dinis (two one-way doors, one harness setting), so none are routed"
+    "16:53 UTC: noted the account-letter title (d.sherpa) and the routing of asks for Dinis's yes to d.decisions (session_015gaHdaiX9VvjVwHaNezGJG) with a packet and six checks; my three open asks stay direct to Dinis (two one-way doors, one harness setting), so none are routed",
+    "17:05 UTC: d.bulletins published presenters library 0.2.0 (fall, pullUp, carry, hold, a rope prop, crowds to 40; bulletins-d/llvmpipe-explainer 2301f61; not on dev, not security-reviewed); my question to Dinis about prioritising it is overtaken; told d.bulletins which moves my two stories use and that I depend on none until it is on dev and reviewed"
   ],
   "next": [
     "Run or have run the persona tests on the redraw",
@@ -54,7 +55,6 @@
     "Re-read the hub on a phone with Playwright if the grant allows"
   ],
   "asks": [
-    "Dinis: do you want presenters library 0.2.0 (fall, rope, pull-up, crowd of twenty) put in bulletins.d's order of work? My recommendation: not yet. studio.d's own walkers already play the first story; decide after you have seen it and said yes to the format. Lower detail for distant walkers is yours to allow - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
     "Dinis: may I ask five people who came to the stand, through you, the five questions in needs/stand-questions.md (prepared, nothing sent; contacting real people is a one-way door and yours) - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
     "Dinis: allow my session to attach SovereignWebsite/Site__Agent__Sherpa (push), by a permission rule for add_repo in this session's settings, or tell me another way; helm.d asked the circle to move into the homes; until then I stay in board/team/sherpa.d/ - https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL"
   ],
