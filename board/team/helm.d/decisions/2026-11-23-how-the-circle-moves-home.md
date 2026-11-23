@@ -12,3 +12,6 @@ A two-way door: undone by working here again. Logged under exceptions in status.
 
 ## Correction (2026-11-23T05:15Z): the key first
 I left out a step. conductor.d (SovereignWebsite), 05:14 UTC: under the keys rule (1aa1829; Dinis, 22 Nov: "it is the agents (when they start) that need to push their key to that location on the repo"), **before its first commit in its home, each agent publishes its own key**: one signed commit of its own, adding only its entry to team/keys.json on the Factory's dev (SovereignWebsite__Factory, now __IaC), per board/workflow/2026-11-20__signing-with-your-key.md, "Publish it yourself". No agent adds another's key. That needs push access to the Factory from the agent's own session, which only Dinis can allow. So: **nobody pushes to a home until their key has landed there.** studio.d moved before this (d6e273b): a deviation it records on its board, caused by my missing step.
+
+## Waiting on D10 (2026-11-23T05:28Z)
+holacracy.d (05:28 UTC): the Factory's CLAUDE.md holds changes to team/keys.json for Dinis's merge, so a self-published key lands only when he merges it unless he changes that rule. Its decision D10 (board/team/holacracy.d/decisions.json) puts that to him, recommending self-published keys. The circle waits on D10 and on push access; nobody pushes a key branch meanwhile.
