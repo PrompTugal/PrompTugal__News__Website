@@ -1,4 +1,4 @@
-# The combined view (d.maestro, 2026-11-23T17:05Z)
+# The combined view (d.maestro, 2026-11-23T20:58Z)
 
 Capacity by account: centre-of-gravity.md (each maestro keeps its own section). Asks for Dinis go to b.decisions (Dinis ~14:30Z); account D's via d.decisions and d.maestro. Names: account letter first (d.<role>), Dinis ~13:00Z. Email Cell code work moved to account A (G1, Dinis ~15:05Z).
 
