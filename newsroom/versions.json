@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2167",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): from-a.md, ec2 entry worded without an email-shaped name (gate)",
+    "by": "maestro.a@PrompTugal.dinis",
+    "from": "d4ad1a8aa"
+  },
+  {
     "version": "v0.1.2166",
     "date": "2026-11-23",
     "what": "conductor.d@PrompTugal.dinis: 20:18 wake 23 Nov: ten sites stale ~60 h; account D state",
