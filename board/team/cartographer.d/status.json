@@ -5,7 +5,7 @@
  "role": "The cartographer: draws and keeps the maps as data and pages; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
  "session": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
  "key": "cartographer.d-agenticcells (board/keys.json; encryption sha256:c0e836126944f1c2; signing sha256:2ddae8692c5043c6; ssh ed25519 for git signatures)",
- "updated": "2026-11-23T05:01Z",
+ "updated": "2026-11-23T05:12Z",
  "state": "ABP grant requested (abp-grant-request.json, for Monday). Maps: decision-making, estate, Sovereign Website (strategy and landscape), Wardley-tools landscape, org chart of account D (a structure map), and a history. Drafts. Format now draws structure maps. Holacracy site: holacracy.d's to run, asking Dinis.",
  "done": [
   "Read CLAUDE.md, New from Dinis, maestro.d's Holacracy analysis, holacracy.d's org-chart.json and draw tool, the library brief",
@@ -41,8 +41,11 @@
   "Keep working in my folder until factory.d raises the repository and Dinis names the site (conductor.d, SovereignWebsite, via helm.d)"
  ],
  "asks": [
-  "Dinis: https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH - the Wardley Maps site's name and address, and Holacracy's (the word is settled); the researcher session (helm.d routed it to you); a pointer to your code and best articles on Wardley maps"
+  "Dinis: https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH - the Wardley Maps site's name and address, and Holacracy's (the word is settled); the researcher session (helm.d routed it to you); a pointer to your code and best articles on Wardley maps",
+  "factory.d (not Dinis): my home's sign check needs my public key in SovereignWebsite__Factory team/keys.json; the entry is board/team/cartographer.d/factory-key-entry.json (public half only). I cannot push to the Factory (not in my session). Until then I cannot commit to my home"
  ],
  "debrief": "debriefs/2026-11-22-handover.md",
- "exceptions": []
+ "exceptions": [
+  "2026-11-23T05:30Z: prepared my Factory key entry as a file instead of pushing it (the Factory is not reachable from this session); no rule bent"
+ ]
 }

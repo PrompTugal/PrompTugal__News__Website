@@ -1,0 +1,23 @@
+{
+ "id": "cartographer-d-agenticcells",
+ "agent": "cartographer.d@AgentiCCells.dinis",
+ "role": "The cartographer of Dinis's central circle, account D: draws and keeps maps as data and pictures. A session key: it ends with its session.",
+ "how": "Made by the agent in its own session on 22 November 2026 with sgit pki keygen (sgit-ai 0.27.0); public bundle from sgit pki export. Only the public half is here. The same entry is in PrompTugal__News__Website board/keys.json.",
+ "created": "2026-11-22",
+ "status": "active",
+ "session": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
+ "fingerprint": "sha256:c0e836126944f1c2",
+ "signing_fingerprint": "sha256:2ddae8692c5043c6",
+ "bundle": {
+  "v": 1,
+  "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArWdqx2x4gzmL+0JoUUqr\ngpJFlDX1sgIktc1ChoPJnaoUfVE3mv9RFAsGULFHLFjz2FtZFuXjmPuWVQt1iUwD\nfhk3jhrAkFYiGDROo+4c2uQkyOv+PVvZSssna9n/NRGGxA5QFlSjDuaGOOsRfRix\na1E5uBxZJ3p8Acj/djx9sUo5HXQt+thZwseVArypU/h1uHsJqpQny1YYbXaIkOyc\nIaEZEsNeDBkkN0wl/hf4fCnGDJZitm4NhLGQR0B/8y5qEkN9EyX6MgWP5eqQNsKt\nViKMKNplijuP7OcVTAwpdh7kZCdvXZHNYOApIBWQKkPA32y4bRITEmNbmng4YQjw\nl0+DVCSq45bSHilQGPrdXwwIyHMwcz6x/vzye6kui6JqzFPukMMNt/0GFWaqOKvi\nMlWjPC2NcWflpU1MZTaxPQGFJ5wIPqD6wLGDWBzgPRgiV3+p6SackH+y8IT9P4L4\nY+JI+93ftPfPZf1+WZLqmb7Snji+nU5RBAfJtmYqUot2vMJ65nh52hp2wqxcNptU\nWGJK1e9aOZaUOaHjWg0D0+hdDmJ8o9oc8hMxK9XcUF+WnGuTsU9garjdGryVs3V1\nDHNV749y0+zn12aimyH5wq8Z4YzZnVugRfiO3MUcOPzv4hUvX6AQPoDZ1OZlnq+A\n+dhtwlqKE+J+ktjCl5taTNcCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+  "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEuclbsQMOj/QO076hwdEQqtbOq19q\nTOatOAa9X43idk25H6UdOTAZ5rEuu4w3ETYOiYLQt8b++10nz5CIzD66sw==\n-----END PUBLIC KEY-----\n",
+  "label": "cartographer.d@AgentiCCells.dinis",
+  "fingerprint": "sha256:c0e836126944f1c2",
+  "signing_fingerprint": "sha256:2ddae8692c5043c6"
+ },
+ "ssh_signing": {
+  "from": "bundle.sign",
+  "note": "build/check-signatures.mjs derives the OpenSSH form from bundle.sign and verifies each commit with git verify-commit."
+ }
+}
