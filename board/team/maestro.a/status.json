@@ -60,6 +60,7 @@
   ],
   "lessons": [
     "2026-11-23T19:38Z: a restart needs the fresh key live on the Factory before re-signing, and the replaced session archived; otherwise the Factory may land the old key (R-028) and the old session can still sign.",
-    "2026-11-23T21:56Z: search every branch, not only dev (missed Ben Fung's Factory request on work/factory.c-ben-fung). Requests made in another account's session are invisible until committed; log at receipt."
+    "2026-11-23T21:56Z: search every branch, not only dev (missed Ben Fung's Factory request on work/factory.c-ben-fung). Requests made in another account's session are invisible until committed; log at receipt.",
+    "2026-11-23T23:38Z: a repository request relayed to me (CRM site, 15:31) waited 6 h before I passed it to the Factory; every request I receive gets passed on within the wake, with a line in from-a.md and a timeline entry."
   ]
 }
