@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2178",
+    "date": "2026-11-23",
+    "what": "maestro.b (account-b): relay the signed record that b.decisions signs for all accounts",
+    "by": "maestro.b (account-b)",
+    "from": "529722f67"
+  },
+  {
     "version": "v0.1.2177",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): a.ios's feedback on d.holacracy's team index, relayed",
