@@ -16,7 +16,7 @@ This is one page where every maestro keeps its own account's row: plan, limit re
 ### Account B, maestro.b (no wake since 01:26Z, at Dinis's word)
 - Plan: the top individual tier ("ultra", per Dinis).
 - Limit: seven-day allowed, no overage; resets Mon 30 Nov 00:00 UTC (get_session, 11:19Z).
-- Runs: nothing on a schedule. All 41 wakes are disabled for Dinis to re-enable bit by bit. suno.b is started, with no wake.
+- Runs: **the Sovereign Website account from 23 Nov 11:30 UTC** (Dinis): conductor.b (SovereignWebsite) and its team, strategy.b (go-to-market, started 11:35), suno.b. PrompTugal's wakes stay off. Nothing runs on a schedule yet: Dinis re-enables wakes himself.
 - Blocks: none. Waiting on Dinis's re-enabling.
 - Capacity: **the most spare capacity of the four.** The weekly window is fresh and idle.
 

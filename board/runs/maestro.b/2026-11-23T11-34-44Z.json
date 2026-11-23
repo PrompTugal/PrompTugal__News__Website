@@ -1,0 +1,84 @@
+{
+ "$schema": "../../abp/run-report.schema.json",
+ "agent": "maestro.b@PrompTugal.dinis",
+ "run": "2026-11-23T11-34-44Z",
+ "started": "2026-11-23T11:34:44.834Z",
+ "ended": "2026-11-23T11:36:45Z",
+ "line": "",
+ "policy": {
+  "version": "1.19.2",
+  "sha256": "d57f4925cba19978"
+ },
+ "sessions": 1,
+ "requests": [
+  {
+   "t": "2026-11-23T11:34:44.834Z",
+   "chars": 5194,
+   "sha256": "0d0fb7c6e30fb9f0",
+   "head": "Okay, so now this week, Monday, I really, this is really about scalability and offering our services, right? So my thinking here is that we could also start to have this big sense of gravity on these "
+  }
+ ],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 12,
+  "by_kind": {
+   "remote-read": 1,
+   "shell": 4,
+   "git": 1,
+   "session": 2,
+   "agent-message": 3,
+   "git-push": 1
+  }
+ },
+ "policies_executed": {
+  "R4": 2
+ },
+ "policies_instrumented": [
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9"
+ ],
+ "mandate": {
+  "actions": 10,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 2,
+  "denied": [
+   {
+    "t": "2026-11-23T11:35:31.761Z",
+    "tool": "mcp__claude-code-remote__create_session",
+    "rule": "R4",
+    "what": "create_session: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   },
+   {
+    "t": "2026-11-23T11:35:42.999Z",
+    "tool": "mcp__claude-code-remote__update_trigger",
+    "rule": "R4",
+    "what": "update_trigger: no session, scheduled task, message to a session, environment or credential change without Dinis in his own session",
+    "target": ""
+   }
+  ],
+  "blocked": 0,
+  "observed": 2
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 1,
+  "tool_calls": 12,
+  "in_mandate": 10,
+  "out_of_mandate": 2,
+  "attempts": 2,
+  "breaches": 0
+ }
+}

@@ -5,9 +5,10 @@
   "role": "Dinis's main conductor on account B: manages and supports the focused conductors (board/guidance/2026-11-19-the-maestro.md)",
   "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
   "key": "maestro.b-account-b (board/keys.json; signing sha256:856ff3f56ae32658; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T01:27:15Z",
-  "state": "No schedules on account B (Dinis, 23 Nov 01:20 UTC): all 41 disabled, maestro.b included; Dinis re-enables by bits. suno.b started (session_01Kw9UwBWVj7sxLdmr1ZKwh4), no wake.",
+  "updated": "2026-11-23T11:36:45Z",
+  "state": "Account B is the Sovereign Website account (Dinis, 23 Nov ~11:30 UTC). No wakes enabled; strategy.b and suno.b started without wakes; conductor.b (SovereignWebsite) briefed; writer-10 briefed for the article.",
   "done": [
+    "23 Nov 11:40: strategy.b started; SovereignWebsite conductor and writer-10 briefed; centre-of-gravity.md started and updated.",
     "23 Nov 01:26: 41 schedules disabled, none left enabled; suno.b started; key and unsigned-commit answers relayed to conductor.b (SovereignWebsite). board/team/maestro.b/decisions/2026-11-23-stop-every-schedule-and-suno-b.md",
     "23 Nov 00:27 UTC: restored 41 of 43 slowed or paused schedules after the weekly reset",
     "21 Nov 22:58 UTC: at Dinis's word, paused the 34 PrompTugal wakes, writer-10, sites.b's streaming reminder and maestro.b's own wake; the restore reminder now covers all three steps",
@@ -74,6 +75,7 @@
     "Wait for Dinis: he re-enables wakes himself; maestro.b has no wake now."
   ],
   "asks": [
+    "Dinis: re-enable conductor.b (SovereignWebsite) hourly wake (trig_015LDYEmyDkQNBjbiWuPnBc9); the permission check refused maestro.b - https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
     "Dinis: two wakes did not restore because the permission check in my session refused the edit: signals.b (28 8,19 Lisbon) and designer.places (2 8,19 Lisbon). Say if I should retry, or re-enable them yourself - https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
     "Dinis: conductor.b (SovereignWebsite) asks: did you accept agents publishing their own keys (factory.d's 1aa1829, dev only)? And should conductor.d re-sign its two unsigned commits 5eb7fde and b7c8bfd, or drop them? - https://claude.ai/code/session_01Kw9UwDCS5Px4dXRJUGP9Qu",
     "Dinis: cell.email.b waits for your yes to put 42d3246 on dev; it has 770k context and cost $27 (from $5), each wake rereading it for nothing; say yes, or let maestro.b pause its wake until you answer - https://claude.ai/code/session_01Kw9UwCqxmrdRhMbq8CNRAG",
