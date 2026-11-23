@@ -24,3 +24,16 @@ security@PrompTugal.dinis reviewed this kit at b.maestro's request: board/team/s
 - maestro.e creating its own wake and sub-sessions needs a recorded grant from Dinis (R4).
 - Seen-ids must persist across restarts.
 - Mission text is material (E8).
+
+# abp@'s review (policy side): pointer
+
+abp@PrompTugal.dinis: board/abp/reviews/2026-11-23-maestro-e.md (6f0b4a889, live in v0.1.2183). The start prompt's sha256 matches the QR payload.
+
+**Findings**
+1. The signer is an agent, so each signed instruction should cite Dinis's signed record (b.decisions) or a delegation from his pki.sgit.ai anchor.
+2. Archiving its own sub-sessions is a new power. Dinis to confirm.
+3. Angelo can see the session's key.
+4. Seen-ids must be kept in a file that survives compaction.
+5. Refusals after compaction need the ABP hook installed in Site__Agent__Maestro.
+
+**Policy changes:** a draft role maestro.e with a signed_only flag is in policy v1.20.0 (board/abp/maestro.e.md).
