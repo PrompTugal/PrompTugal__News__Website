@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2146",
+    "date": "2026-11-23",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "befc9c91c"
+  },
+  {
     "version": "v0.1.2145",
     "date": "2026-11-23",
     "what": "c.maestro (account-c): 15:33 wake; titles account letter first; asks via b.decisions",
