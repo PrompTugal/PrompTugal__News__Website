@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-22T23:36Z",
-  "state": "23:33 wake: router.c woke at 23:08 and waits for its pin; maestro.a and router.a not started yet on account A",
+  "updated": "2026-11-23T00:36Z",
+  "state": "00:33 wake 23 Nov: all four accounts up; aws.c waits on a CloudFormation update; IaC rename ready; router.a not started",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -33,12 +33,12 @@
     "Relay the new sessions' first asks (key merges in the Factory) to Dinis"
   ],
   "asks": [
-    "Dinis: pin decisions.c's fingerprint sha256:c0a1a5eb667a649d in router.c's session too - https://claude.ai/code/session_01Kw9UwDYfkJVqAXDG67nuW9",
-    "Dinis: aws.c: create a Google Web OAuth client ID with origin https://aws.platform.sovereignweb.site and paste it; and test/** in its policy? - https://claude.ai/code/session_01Kw9UwAzhau7Us55PugP2V2",
-    "Dinis: start router.a on account A (board/routers/router-a-start-prompt.md), pin sha256:c0a1a5eb667a649d, then 'test' in decisions.c - https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n",
-    "Dinis: router.c: its :08 wake, account C's weekly percent, the vault plan's four questions (board/routers/vaults-plan.md) - https://claude.ai/code/session_01Kw9UwDYfkJVqAXDG67nuW9",
-    "Dinis: factory.c: confirm the name Site__Platform__GitHub, then 'push requests-2 to dev' (1338dba) - https://claude.ai/code/session_01Kw9UwFQ86g2ZeXQ2edTAjh",
-    "Dinis: merge conductor.c's board (work/conductor.c) - https://claude.ai/code/session_01Kw9UwBwGEprxNQqNtSbzyj",
+    "Dinis: aws.c: in CloudFormation, update stack sws-aws-platform with bootstrap.yaml (direct update, acknowledge IAM), wait for UPDATE_COMPLETE, then try the site - https://claude.ai/code/session_01Kw9UwAzhau7Us55PugP2V2",
+    "Dinis: factory.c: the word to push the IaC rename to dev (maestro.b now back; factory.b holds the repository too) - https://claude.ai/code/session_01Kw9UwFQ86g2ZeXQ2edTAjh",
+    "Dinis: newsroom.c: yes to the AWS article (claim, write, show the draft) - https://claude.ai/code/session_01Kw9UwDDEwnjqeLVyqkUjpm",
+    "Dinis: start router.a on account A, pin sha256:c0a1a5eb667a649d there and in router.c, then 'test' in decisions.c - https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n",
+    "Dinis: maestro.a's :23 wake and its inventory (board/team/maestro.a/inventory/2026-11-22-account-a.md) - https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
+    "Dinis: conductor.c: review studio.c's two videos, then yes to Site__Platform__Instagram with push - https://claude.ai/code/session_01Kw9UwBwGEprxNQqNtSbzyj",
     "Dinis: owasp.c: yes to its signing file; key through factory.c - https://claude.ai/code/session_01Kw9UwE69pr5bPeaQ4tYqir",
     "Dinis: feedback.c: sgit-ai install, who makes the shared vault, when lanes move - https://claude.ai/code/session_01Kw9UwEQb6jZQ17nxMfkAVB",
     "Dinis: hub.c: Latest as the front page? - https://claude.ai/code/session_01Kw9UwBNK6JRSRJ7P7LftYD",
@@ -48,6 +48,7 @@
     "Dinis: add pip install sgit-ai==0.27.0 to account C's environment setup script"
   ],
   "latest_debrief": null,
-  "last_read_from_b": "2026-11-22T02:01Z",
-  "last_read_from_d": "2026-11-22T22:08Z"
+  "last_read_from_b": "2026-11-23T00:28Z",
+  "last_read_from_d": "2026-11-22T22:08Z",
+  "last_read_from_a": "2026-11-22T23:28Z"
 }
