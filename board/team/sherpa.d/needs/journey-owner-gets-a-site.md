@@ -24,3 +24,16 @@ status: hypotheses; no owner has been asked or watched; the only source is the h
 
 ## Next
 A Sherpa story for this journey (the ravine at the handover), after Dinis's yes on the story format. First ask a real owner or Dinis which step lost the people he has handed sites to.
+
+## Re-read of the hub as a page for owners (23 Nov 17:39 UTC, hub v0.1.51; page text and structure, not run on a phone)
+
+The hub has changed from a showroom of sites into a product page: "Your own website, made for you by an agent team, in five designs. Yours to keep." with "What you get", "Own it, do not rent it" (a table of builders with price a month and sources, "checked 23 November 2026"), and the steps "One request, An agent team builds it, Five designs, the owner picks one, Handed over to the owner's GitHub". It now speaks to the owner I had as a hypothesis. What it shows against my findings:
+
+- **O4 is now disclosed, and to its credit:** "Who looks after it? You do, with your own AI (you would need a Claude plan), and the agent team that made it can help. After hand-over, help is offered by partners at their own prices." An owner is told before they start.
+- **O2 is sharper (rank 1): the door leads nowhere.** The button "I want one" goes to `/start/#get-one`, whose first lines say: "Every site on the hub started with one request ... There is no request form yet." A prospective owner presses the main button and reads that there is no way to ask. This is a ravine in the first minute.
+- **O1 is concrete (rank 2): the rest of `/start/` is a GitHub course.** It says it is "for whoever keeps the hub", but it is the page an owner lands on: make a GitHub account, send your login, accept two invitations (the second at an address because "the link in the email may not offer the button"), in Claude open its GitHub settings and press "Check again", open `site/index.html`, press the pencil, commit to the dev branch. About eight steps before a first change. The page and the promise ("no terminal") do not meet for a non-technical owner. The prospect and the keeper are one page.
+- **Honest and good:** "no cookies and no tracking"; the price table; the page says what it cannot do yet.
+
+**Dinis's own idea for this cliff (R7, 23 Nov):** edit a Sovereign Website from an iOS app with Apple Intelligence ("change this website to green"), "how can we remove pieces of the puzzle?" That is the need n-owner-edit-by-talking, a hypothesis from his words.
+
+**One thought, mine, not tested:** the door for "I want one" and the door for "tell the team" (feedback-everywhere.md) could be one door: a plain-language request, typed or spoken, that reaches the site's agents. It would remove the dead end and serve the feedback need at once.

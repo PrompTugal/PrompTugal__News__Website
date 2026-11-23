@@ -87,3 +87,10 @@ Dinis: "You can delete my audio straight away. I don't even need to keep the aud
 3. **A wrong transcript is the cost he accepted.** The person can send a short text note to correct it; the flow should offer that in one tap, since the audio cannot be re-checked.
 4. **This is Dinis's answer for his own memos.** Whether a customer's or an outreach contact's memo follows the same rule is not yet asked; the same deletion is the safest default, and counsel.d should confirm before any non-Dinis memo is taken.
 
+
+
+## Hub re-read, 23 Nov 17:39 UTC (v0.1.51, was v0.1.15)
+The hub is now a product page for owners (see journey-owner-gets-a-site.md). Against my findings:
+- **H1 stands:** no feedback, voice, memo or "tell the team" control on the page or on /start/. The only door for a prospect says "There is no request form yet."
+- **H6 (new, for Dinis's own navigation of the estate):** the default home (design 1, "The Line") links **none** of the 23 non-personal sites I listed on 22 Nov. They are on designs 2 and 3 (`/register/` links 22 of 23, `/gallery/` 22 of 23). So the register Dinis used to consume the estate is one design switch away, not the default. One of the 23 is missing on both (the page says 32 sites working, was 33); I did not find which.
+- **H2 to H5** are about the old register; on designs 2 and 3 they are as before (no dates or "what changed", no filter, no agent per site, no promised way back).
