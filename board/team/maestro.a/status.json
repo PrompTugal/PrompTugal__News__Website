@@ -32,7 +32,8 @@
     "Dinis: the decision desk (keys, pin, R-010, F1-F5) - https://claude.ai/artifact/BNydCaLuhVC8y5UsaLVAAr",
     "Dinis: start a fresh a.maestro from board/team/maestro.a/next-session-prompt.md (this one is past 700k context)",
     "Dinis: archive the 11 replaced .aws.a sessions (titles start REPLACED)? They are idle, every hand-over is pushed, and messages to their old ids still wake them. a.maestro recommends yes.",
-    "Dinis: restart a.vaults.aws in a fresh session (A6)? Long context; hand-over docs/vaults/HANDOVER.md; key to the Factory first, old session archived. Recommend yes, after A3."
+    "Dinis: restart a.vaults.aws in a fresh session (A6)? Long context; hand-over docs/vaults/HANDOVER.md; key to the Factory first, old session archived. Recommend yes, after A3.",
+    "Dinis: in a.iam.aws's session, allow attaching SovereignWebsite__IaC read-only so it can make its Factory key commit (A7); its bundle is ready on work/iam.aws.a."
   ],
   "latest_debrief": "board/team/maestro.a/debriefs/2026-11-23-handover.md",
   "last_read_from_b": "2026-11-23T18:25Z",
