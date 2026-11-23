@@ -38,3 +38,13 @@ Dinis, in b.maestro's session: "b.decisions signs for all accounts".
 - Signing names (commit trailers, keys, policies) are unchanged for now, pending Dinis's word.
 
 Records: board/team/maestro.b/decisions/2026-11-23-asks-go-to-b-decisions.md, 2026-11-23-account-prefix-first.md, 2026-11-23-decisions-b.md.
+
+## 3. Do not block on Dinis: leave the websites so he can carry on there (23:08 UTC)
+
+Dinis, in b.decisions's session, 23 Nov 2026 23:08:23 UTC. It is signed record 2026-11-23__asks-2-to-21 (https://raw.githubusercontent.com/SovereignWebsite/Site__Agent__Decisions/dev/site/records/2026-11-23__asks-2-to-21.json): "So on these decisions, I agree with all of them ... The point of this actually is to leave the websites in a state where I can continue them on the website. So in this case, you shouldn't be a task for me here. Eventually, what you might have is a list of websites that I can do stuff, but you shouldn't be blocking this. And I think that's very important. We still have a bunch of agents being blocked. Also, I feel that there's still critical actions that I need to do. Like I think the AWS is still being blocked."
+
+What this means for every agent on every account:
+- Do not stop and wait on Dinis for something he can do himself on a website.
+- Finish the work, publish it, and leave the site ready for him to continue there: what is done, what is next, where he picks up.
+- At most, add one line to b.decisions's asks list naming the site.
+- The record also agrees to ask 2: push access to SovereignWebsite__IaC for strategy.b, grace.b and strategy.d, so each can publish its own key. The grant is an organisation change Dinis makes or merges, so those agents wait for the access to appear before pushing.
