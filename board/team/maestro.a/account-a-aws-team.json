@@ -1,0 +1,23 @@
+{
+  "about": "The AWS Platform programme's stage 2 on account A: 16 roles moved from account C at Dinis's word in maestro.a's session (23 Nov 2026 ~03:31 UTC), from conductor.aws.c's hand-overs (SovereignWebsite/Site__Platform__AWS dev, docs/team/handover/). Kept by maestro.a (account-a). The account C sessions' wakes were paused by conductor.aws.c at 03:35 UTC.",
+  "repository": "SovereignWebsite/Site__Platform__AWS (dev; each agent's branch work/<name>)",
+  "started": "2026-11-23T03:35Z",
+  "agents": [
+    {"name": "iam.aws.a", "session": "session_018yvwtLi5HNUo32ot6ApGm8", "from_c": "session_01Kw9UwCNBBjF4QFqtci6B6J", "cron": "16 * * * *"},
+    {"name": "dev.1.aws.a", "session": "session_018yvwtLV1iZjUCMEKz1PZ51", "from_c": "session_01Kw9UwDM5jdQ2PcHFhrY69L", "cron": "9 * * * *"},
+    {"name": "dev.2.aws.a", "session": "session_018yvwtN79NSkFnwbV7UzFuc", "from_c": "session_01Kw9UwF2SsRwvdTFB77PyjW", "cron": "39 * * * *"},
+    {"name": "journalist.aws.a", "session": "session_018yvwtMXhiyhhFHKYnwfw3q", "from_c": "session_01Kw9UwFKRKfwjNjABzDxUhg", "cron": "6 * * * *"},
+    {"name": "ontology.aws.a", "session": "session_018yvwtPTqbaais5DzZ2eaws", "from_c": "session_01Kw9UwE3CyWyiWSWZt54DGg", "cron": "11 */2 * * *"},
+    {"name": "lambda.aws.a", "session": "session_018yvwtLeVUPVXDaPda9ugLD", "from_c": "session_01Kw9UwFBZ4H4hZJjPwVxwkG", "cron": "21 */2 * * *"},
+    {"name": "cloudformation.aws.a", "session": "session_018yvwtPgweggdc6AykBpQay", "from_c": "session_01Kw9UwBfr3eaLwdWsDzwpVT", "cron": "26 1-23/2 * * *"},
+    {"name": "cloudtrail.aws.a", "session": "session_018yvwtLsVZvQ5dyyKz8ndG2", "from_c": "session_01Kw9UwCr3jpB8Chr1HszjPD", "cron": "31 */2 * * *"},
+    {"name": "vaults.aws.a", "session": "session_018yvwtPEp1ze9LonhajhRdg", "from_c": "session_01Kw9UwCfsZCBz1rXEx4QmRP", "cron": "36 1-23/2 * * *"},
+    {"name": "boto3.aws.a", "session": "session_018yvwtPzXKiXmcnoqEAvURG", "from_c": "session_01Kw9UwF18EchMPCKP9cWeJY", "cron": "41 */2 * * *"},
+    {"name": "ux.aws.a", "session": "session_018yvwtMeymXaphzvsVKJrcU", "from_c": "session_01Kw9UwE6VR9TTCLmpmytWvG", "cron": "46 1-23/2 * * *"},
+    {"name": "data.aws.a", "session": "session_018yvwtNsU9Ax9WMn2h6EhHU", "from_c": "session_01Kw9UwDiMew98cTowNY73Xj", "cron": "51 */2 * * *"},
+    {"name": "billing.aws.a", "session": "session_018yvwtQWFVjgGwshqcKkxUF", "from_c": "session_01Kw9UwEcR1KCF6y3dTPP5vr", "cron": "56 1-23/2 * * *"},
+    {"name": "viz.aws.a", "session": "session_018yvwtLMhfsoY8D8duFRbSs", "from_c": "session_01Kw9UwDDKfdXVnkWK6uEL3v", "cron": "1 1-23/2 * * *"},
+    {"name": "video.aws.a", "session": "session_018yvwtNxNZuWP542UZVDUTa", "from_c": "session_01Kw9UwFgph7DemcF4Kh9ww8", "cron": "4 */4 * * *"},
+    {"name": "swarm.aws.a", "session": "session_018yvwtMJYhTXmX6uJHBKqgJ", "from_c": "session_01Kw9UwCUzTn6tV616HZcjmz", "cron": "34 * * * *"}
+  ]
+}
