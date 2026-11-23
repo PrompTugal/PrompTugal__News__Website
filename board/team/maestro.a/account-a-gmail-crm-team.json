@@ -1,0 +1,24 @@
+{
+ "about": "The Gmail and CRM team on account A, at Dinis's word (23 Nov ~15:05 UTC, G1 a). Kept by a.maestro.",
+ "started": "2026-11-23T14:52Z",
+ "agents": [
+  {
+   "name": "a.mail.conductor",
+   "session": "session_018yvwtMYgkoAUw5KsJTYT8s",
+   "cron": "13 * * * *",
+   "repo": "AgentiCCells/AgentiCCells__Cell__Email"
+  },
+  {
+   "name": "a.mail.dev",
+   "session": "session_018yvwtQtFZjm6Q291BnjYgY",
+   "cron": "29 * * * *",
+   "repo": "AgentiCCells/AgentiCCells__Cell__Email"
+  },
+  {
+   "name": "a.crm.dev",
+   "session": "session_018yvwtNP466yYif3yWt3Ybr",
+   "cron": "43 * * * *",
+   "repo": "AgentiCCells/AgentiCCells__Cell__Email (until the CRM site's repository exists)"
+  }
+ ]
+}

@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account A",
   "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
   "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T14:38Z",
-  "state": "Dinis's scale-phase brief recorded; Gmail/CRM briefing page and G1-G5 published; split claimed with c.maestro",
+  "updated": "2026-11-23T14:52Z",
+  "state": "Gmail/CRM team started on A (G1-G5 a); AWS team waits on Factory keys; fresh a.maestro advised (context ~750k)",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
     "Made key maestro.a-account-a in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -28,7 +28,6 @@
     "Dinis to start a fresh maestro.a from next-session-prompt.md when he chooses"
   ],
   "asks": [
-    "Dinis: Gmail and CRM, G1-G5 - https://claude.ai/artifact/BNqtGyScuXtq8veSV9ZyYj",
     "Dinis: factory.c (account C): land the .a key commits (conductor.aws.a's table 391e1ab) - via c.maestro",
     "Dinis: the decision desk (keys, pin, R-010, F1-F5) - https://claude.ai/artifact/BNydCaLuhVC8y5UsaLVAAr",
     "Dinis: start a fresh a.maestro from board/team/maestro.a/next-session-prompt.md (this one is past 700k context)"
