@@ -12,7 +12,7 @@
  },
  "state": "waking hourly at :03; key published; waiting for Dinis: the pin (decisions.c signing fingerprint); acting on no request until pinned",
  "pinned_issuer": null,
- "last_ledger_read": "2026-11-23T11:12Z",
+ "last_ledger_read": "2026-11-23T18:04Z",
  "done": [
   "clone unshallowed; sgit-ai 0.27.0 present",
   "key made in this session with sgit pki keygen (passphrase random, kept in ~/.sg-send/, never printed); entry router.a-account-a in board/keys.json with its sgit bundle and ssh signing key",
@@ -24,7 +24,7 @@
   "then read board/routers/ledger/requests/ for to.account a, run ledger.mjs check, claim, act within v0, receipt"
  ],
  "asks": [
-  "Dinis: decisions.c's signing fingerprint, from your hand in this session (QR or text); until pinned, router.a acts on no request"
+  "Dinis: decisions.c signing fingerprint, from your hand in this session (also ask A1 for b.decisions in board/team/maestros/from-a.md); until pinned, router.a acts on no request"
  ],
  "exceptions": [
   {
@@ -34,11 +34,12 @@
    "why": "Dinis's word of 23 Nov ~03:00 UTC (board/team/maestro.c/decisions/2026-11-23-no-agent-blocked.md): two-way doors in an agent's own area go; CLAUDE.md Identity already asks each agent to make its own key"
   }
  ],
- "updated": "2026-11-23T11:12Z",
+ "updated": "2026-11-23T18:04Z",
  "wake": {
   "trigger": "trig_01MozebE3LqFxGGrW5GNRTVq",
   "cron": "3 * * * *",
   "created": "2026-11-23T11:12Z",
   "by": "Dinis yes in this session, 2026-11-23T11:12Z"
- }
+ },
+ "debrief": "board/team/router.a/debriefs/2026-11-23-handover.md"
 }
