@@ -5,9 +5,12 @@
   "agents": [
     {
       "name": "iam.aws.a",
-      "session": "session_018yvwtLi5HNUo32ot6ApGm8",
+      "session": "session_018yvwtNPmVvCFyGifHJeMv5",
       "from_c": "session_01Kw9UwCNBBjF4QFqtci6B6J",
-      "cron": "16 * * * *"
+      "cron": "16 * * * *",
+      "replaced": "session_018yvwtLi5HNUo32ot6ApGm8",
+      "trigger": "trig_012TmNfjqJu3nBU75iAZUkRz",
+      "fresh_at": "2026-11-23T22:54Z"
     },
     {
       "name": "dev.1.aws.a",
