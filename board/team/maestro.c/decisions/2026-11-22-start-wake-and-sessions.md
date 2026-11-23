@@ -47,3 +47,8 @@ Dinis: account A is back (weekly reset, Ultra); "see if we can now do the whole 
 ## Eighth word (about 22:10 UTC): aws.c
 Dinis: "we need a dedicated AWS.c agent ... work through this to fix the IaC change ... this should be one of the last times I need to log in [to] AWS ... log in using my browser, using OAuth ... through our website, aws.platform ... identity access management probably deserves its own site ... I really like the way we did the Google stuff". Inspiration: sg-compute.sgit.ai.
 - aws.c (SovereignWebsite), on SovereignWebsite__Factory: https://claude.ai/code/session_01Kw9UwAzhau7Us55PugP2V2. First job: the IaC rename's AWS change (the DNS role's trust for the new repository's OIDC subject) through a browser sign-in; then Site__Platform__AWS.
+
+## Ninth word (23 Nov, about 02:55 UTC): the AWS team, lean start
+aws.c relayed Dinis's word in its session (~02:50 UTC): "you need a conductor to be created ... conductor.aws, and then you start aws.individuals ones. And then you have a PM here"; "you can relay all these requests to the maestro, and the maestro should be able to create them all" (memo parts 1 and 2, Site__Platform__AWS docs/2026-11-23__memo-aws-platform-programme.md, a484694). maestro.c asked Dinis in its own session; he chose the "lean start": maestro.c starts conductor.aws.c and pm.aws.c now; conductor.aws.c starts the rest in stages (stage 1: security with AppSec and adversarial as sub-agents, architect, s3; stage 2 at his word), runs related roles as sub-agents, staggers wakes, and keeps within accountant.c's limits.
+- conductor.aws.c (SovereignWebsite): https://claude.ai/code/session_01Kw9UwDiqvoswkZCuHe5GTt
+- pm.aws.c (SovereignWebsite): https://claude.ai/code/session_01Kw9UwBZAwm6766jrG94uX1
