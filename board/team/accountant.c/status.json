@@ -4,8 +4,8 @@
  "focus": "costs, usage limits and model routing for account C; the guard that stops any account maxing out; measures, reports and proposes, stops nothing",
  "session": "https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz",
  "key": "accountant.c-account-c (board/keys.json; encryption sha256:db0739023e73f480, signing sha256:460cf5ac58adf6de)",
- "updated": "2026-11-23T09:38Z",
- "state": "Account C GREEN for the five-hour window at 09:36Z: the AWS team moved to account A, maestro.c slowed to 3-hourly. Weekly percent last 50% at 03:40; the guard needs a fresh reading from Dinis.",
+ "updated": "2026-11-23T10:52Z",
+ "state": "Account C AMBER on the weekly limit: 61% at ~09:40 (Dinis), up 11 points in 6 h. Advice sent: design.c 2-hourly, no new sessions on C, new work elsewhere. Red at 75%.",
  "done": [
   "Read CLAUDE.md, guidance README (twins rule of 22 Nov), accountant.d's status, debrief, finance README, ledgers, accounts.json, proposals; maestros README and view",
   "Key accountant.c-account-c made in this session; entry and ssh half in board/keys.json, signed commit",
@@ -17,7 +17,8 @@
   "03:36: Dinis's readings (five-hour 60%, weekly 50%); RED forecast sent to conductor.aws.c; reading at each maestro.c :33 ping agreed",
   "06:30: reading after the reset; resume-pace advice to conductor.aws.c and conductor.c",
   "07:35: reading; AMBER kept; maestro.c (+6.8/h, 653k) and conductor.aws.c (486k) advised to compact",
-  "09:36: reading; GREEN advised to conductor.c (design.c may go hourly)"
+  "09:36: reading; GREEN advised to conductor.c (design.c may go hourly)",
+  "10:50: weekly 61% received; AMBER; advice to conductor.c and maestro.c"
  ],
  "next": [
   "Measure the AWS programme per role after 24 h; compare with the ceilings",
@@ -27,7 +28,7 @@
   "For devops@ (account B, at its restore): the gate's git-log ownership checks give false FAILs on a shallow clone; sessions must git fetch --unshallow before validating"
  ],
  "asks": [
-  "Dinis: https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz - account C's weekly percent today (last 50% at 03:40 UTC 23 Nov); it is the one number the guard still lacks",
+  "Dinis: https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz - when does account C's weekly window reset (day and hour UTC)? At 61% and 1.8 points an hour it decides how hard to brake",
   "Dinis: https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz - standing rule for the guard: may maestro.c slow or pause account C's wakes at the Amber/Red/Stop levels in proposals.md without asking each time (each change recorded and told to you)?",
   "Dinis: https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz - disable conductor.C@PrompTugal.news's hourly wake (trig_01Dqi53Bzf6iVEh11bf89TnS, no job, 240k context); and move the cowork inbox run (94% of C's spend, 285k context every 2 h) off Opus for its checks or compact it",
   "Dinis: https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz - Mistral credit amount and expiry, and yes or no to translation as the first workflow moved there"

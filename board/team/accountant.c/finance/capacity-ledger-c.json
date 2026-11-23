@@ -96,6 +96,18 @@
    "sessions_blocked": null,
    "api_equiv_usd_lifetime_read": null,
    "notes": "GREEN for the five-hour window. AWS team on account A since 07:26; maestro.c 3-hourly, 36.98 to 38.60 in 2 h (<1/h), context 674k. Wakes left on C: router.c hourly, design.c 2-hourly (may go hourly), studio.c 4-hourly, inbox run 2-hourly, maestro.c 3-hourly. Weekly last 50% at 03:40; unread since."
+  },
+  {
+   "at": "2026-11-23T09:40Z",
+   "account": "C",
+   "source": "reported (Dinis's reading, relayed by maestro.c)",
+   "five_hour_status": "allowed",
+   "five_hour_resets_utc": "2026-11-23T11:20Z",
+   "weekly_percent": 61,
+   "sessions_working": null,
+   "sessions_blocked": null,
+   "api_equiv_usd_lifetime_read": null,
+   "notes": "AMBER (60-75%). +11 points since 03:40 (1.8 points an hour, mostly the AWS burst); at that pace 100% in ~21 h. Weekly reset time unknown. Advice to conductor.c at 10:50: design.c 2-hourly, no new sessions on C, new work to other accounts."
   }
  ]
 }
