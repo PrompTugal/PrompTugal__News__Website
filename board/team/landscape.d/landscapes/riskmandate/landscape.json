@@ -1,0 +1,920 @@
+{
+ "format": "landscape/1",
+ "id": "riskmandate",
+ "title": "RiskMandate: the field around reach, mandate and gap",
+ "status": "draft",
+ "made": "2026-11-23T05:30Z",
+ "made_by": "landscape.d@AgentiCCells.dinis",
+ "about": "First read, 23 Nov 2026, public pages only; positions are not given. 'Us' rows come only from riskmandate.ai's own pages; nothing beyond them is claimed for RiskMandate. The names of competitors were found by search and each is kept only where its own page was read. Facts are exactly as the scout returned them.",
+ "players": [
+  {
+   "player": "RiskMandate",
+   "group": "us",
+   "fact_ids": [
+    "rm-f001",
+    "rm-f002",
+    "rm-f003",
+    "rm-f004",
+    "rm-f005",
+    "rm-f006"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Microsoft Entra Agent ID",
+   "group": "agent-identity",
+   "fact_ids": [
+    "rm-f007",
+    "rm-f008",
+    "rm-f009",
+    "rm-f010"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Okta (secure AI agents)",
+   "group": "agent-identity",
+   "fact_ids": [
+    "rm-f011",
+    "rm-f012",
+    "rm-f013",
+    "rm-f014"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Aembit",
+   "group": "agent-identity",
+   "fact_ids": [
+    "rm-f015",
+    "rm-f016",
+    "rm-f017",
+    "rm-f018"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Astrix Security",
+   "group": "agent-identity",
+   "fact_ids": [
+    "rm-f019"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "Credo AI",
+   "group": "governance-platform",
+   "fact_ids": [
+    "rm-f020",
+    "rm-f021",
+    "rm-f022",
+    "rm-f023"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "IBM watsonx.governance",
+   "group": "governance-platform",
+   "fact_ids": [
+    "rm-f024",
+    "rm-f025",
+    "rm-f026",
+    "rm-f027"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Holistic AI",
+   "group": "governance-platform",
+   "fact_ids": [
+    "rm-f028",
+    "rm-f029",
+    "rm-f030",
+    "rm-f031"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Open Policy Agent",
+   "group": "open-source",
+   "fact_ids": [
+    "rm-f032",
+    "rm-f033",
+    "rm-f034",
+    "rm-f035"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Cedar policy language",
+   "group": "open-source",
+   "fact_ids": [
+    "rm-f036",
+    "rm-f037"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "NVIDIA NeMo Guardrails",
+   "group": "open-source",
+   "fact_ids": [
+    "rm-f038",
+    "rm-f039",
+    "rm-f040",
+    "rm-f041"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Guardrails AI",
+   "group": "open-source",
+   "fact_ids": [
+    "rm-f042",
+    "rm-f043",
+    "rm-f044"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Meta Purple Llama",
+   "group": "open-source",
+   "fact_ids": [
+    "rm-f045",
+    "rm-f046"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "NIST AI Risk Management Framework",
+   "group": "framework",
+   "fact_ids": [
+    "rm-f047",
+    "rm-f048",
+    "rm-f049",
+    "rm-f050"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "ISO/IEC 42001",
+   "group": "framework",
+   "fact_ids": [
+    "rm-f051"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "EU AI Act",
+   "group": "framework",
+   "fact_ids": [
+    "rm-f052",
+    "rm-f053",
+    "rm-f054",
+    "rm-f055"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "OWASP Agentic AI Threats and Mitigations",
+   "group": "framework",
+   "fact_ids": [
+    "rm-f056",
+    "rm-f057",
+    "rm-f058"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "OWASP Top 10 for Agentic Applications 2026",
+   "group": "framework",
+   "fact_ids": [
+    "rm-f059",
+    "rm-f060",
+    "rm-f061",
+    "rm-f062"
+   ],
+   "flagged": false
+  }
+ ],
+ "findings": [
+  {
+   "id": "rm-g1",
+   "kind": "language",
+   "text": "The agent-identity vendors read (Microsoft Entra Agent ID, Okta, Aembit) speak in access rights, least privilege and per-call authorisation. In the pages read none uses a separate mandate concept next to reach; Okta says an agent should never reach what the delegating user could not. RiskMandate's reach, mandate and gap framing is its own, on the pages read; whether others hold it elsewhere is not shown.",
+   "facts": [
+    "rm-f010",
+    "rm-f014",
+    "rm-f018",
+    "rm-f002"
+   ]
+  },
+  {
+   "id": "rm-g2",
+   "kind": "price-openness",
+   "text": "RiskMandate publishes four prices in GBP (500, 1,500, 5,000, 20,000), each starting with a conversation as payment links are not yet issued. None of the identity or governance vendors read shows a price (Okta, Credo AI, Holistic AI: sales contact or demo; IBM refers to a pricing page; Microsoft ties agent security features to a licence). Published price is a difference, on the pages read.",
+   "facts": [
+    "rm-f004",
+    "rm-f013",
+    "rm-f022",
+    "rm-f030",
+    "rm-f026",
+    "rm-f009"
+   ]
+  },
+  {
+   "id": "rm-g3",
+   "kind": "overlap",
+   "text": "Governance platforms (Credo AI, IBM watsonx.governance, Holistic AI) map AI use to the EU AI Act, NIST AI RMF and ISO 42001 and sell to large enterprises; Credo AI and Holistic AI treat agents as governed entities (registry, risk assessment, runtime checks), while IBM's page does not mention autonomous agents. They are the nearest neighbours for the enterprise buyer.",
+   "facts": [
+    "rm-f020",
+    "rm-f023",
+    "rm-f024",
+    "rm-f027",
+    "rm-f028",
+    "rm-f031"
+   ]
+  },
+  {
+   "id": "rm-g4",
+   "kind": "open-source",
+   "text": "Open-source building blocks exist and are permissive: Open Policy Agent (Apache 2.0, a general policy engine that does not discuss agents), NVIDIA NeMo Guardrails and Guardrails AI (Apache 2.0, input and output and tool-call checks), Meta Purple Llama (MIT and Llama licences, model-level safeguards). They check what goes in and out; none frames an owner's mandate against an agent's reach. Guardrails AI says its checks do not guarantee safety.",
+   "facts": [
+    "rm-f034",
+    "rm-f035",
+    "rm-f038",
+    "rm-f040",
+    "rm-f043",
+    "rm-f044",
+    "rm-f045",
+    "rm-f046"
+   ]
+  },
+  {
+   "id": "rm-g5",
+   "kind": "frameworks",
+   "text": "Public frameworks set the vocabulary buyers will use: NIST AI RMF (voluntary, being revised), the EU AI Act (process duties such as human oversight and logging; the Commission page lists Annex III high-risk rules from 2 December 2027), OWASP's agentic threat work (CC BY-SA 4.0). None read frames reach against mandate per agent; the OWASP Top 10 PDF and the ISO/IEC 42001 page (HTTP 403) were not read.",
+   "facts": [
+    "rm-f047",
+    "rm-f050",
+    "rm-f054",
+    "rm-f055",
+    "rm-f057",
+    "rm-f058",
+    "rm-f062",
+    "rm-f051"
+   ]
+  },
+  {
+   "id": "rm-g6",
+   "kind": "our-own-page",
+   "text": "RiskMandate's own about page, as read, states plainly what is not yet true: the Insurability Index is in design, the Licence to Operate is a template or demo, the reviewer network is small, no customers are named and summit figures are self-reported and unchecked by outsiders. Nothing beyond riskmandate.ai's pages is claimed for RiskMandate here.",
+   "facts": [
+    "rm-f003",
+    "rm-f005",
+    "rm-f006"
+   ]
+  },
+  {
+   "id": "rm-g7",
+   "kind": "gap-in-my-reading",
+   "text": "Not verified in this run: Astrix Security (its address redirected to a Cisco page, not followed), the Cedar project site (404; only its LICENSE read), ISO/IEC 42001 (403), the OWASP Top 10 PDF, Aembit's pricing section (partly read). Absence on a page is not proof of absence in a product. Names were found by search; each player was kept only where its own page was read.",
+   "facts": [
+    "rm-f019",
+    "rm-f037",
+    "rm-f051",
+    "rm-f017"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "id": "rm-f001",
+   "candidate": "RiskMandate",
+   "group": "us",
+   "topic": "offer",
+   "fact": "Sells a behaviour policy per AI agent that shows what the agent can reach, what it was authorised to do, the gap between the two, and the barriers in between; the about page says it is never a score.",
+   "url": "https://riskmandate.ai/about.html",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f002",
+   "candidate": "RiskMandate",
+   "group": "us",
+   "topic": "reach-vs-mandate",
+   "fact": "Defines reach as what an agent can actually do or access, mandate as what the owner authorised, and gap as the difference; controls rise from a written policy, to hooks checked outside the model, to a boundary (SHarness).",
+   "url": "https://riskmandate.ai",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f003",
+   "candidate": "RiskMandate",
+   "group": "us",
+   "topic": "audience",
+   "fact": "Aimed at enterprises deploying agents that must show what agents can do and who approved it; the about page also names insurers (as readers of the evidence) and investors.",
+   "url": "https://riskmandate.ai/about.html",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f004",
+   "candidate": "RiskMandate",
+   "group": "us",
+   "topic": "price",
+   "fact": "Four levels stated in GBP: 500 (one agent), 1,500 (worked through with you), 5,000 (about two days, several agents), 20,000 (whole-estate engagement); each currently starts with a conversation as payment links are not yet issued.",
+   "url": "https://riskmandate.ai/pricing.html",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f005",
+   "candidate": "RiskMandate",
+   "group": "us",
+   "topic": "licence",
+   "fact": "Code is stated as Apache-2.0 and pages and policies as CC BY 4.0.",
+   "url": "https://riskmandate.ai/pricing.html",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f006",
+   "candidate": "RiskMandate",
+   "group": "us",
+   "topic": "gap",
+   "fact": "The site admits the Insurability Index is still in design, the Licence to Operate is a template/demo, the reviewer network is small, no customers are named, and summit figures are self-reported and unchecked by outsiders.",
+   "url": "https://riskmandate.ai/about.html",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f007",
+   "candidate": "Microsoft Entra Agent ID",
+   "group": "agent-identity",
+   "topic": "governs",
+   "fact": "Gives each AI agent its own identity account in Entra ID so its actions can be told apart from human and workload identities, with autonomous or delegated access via tokens.",
+   "url": "https://learn.microsoft.com/en-us/entra/agent-id/identity-platform/what-is-agent-id",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f008",
+   "candidate": "Microsoft Entra Agent ID",
+   "group": "agent-identity",
+   "topic": "audience",
+   "fact": "Aimed at organisations running agents at enterprise scale, including those built in Copilot Studio, where the creating user is recorded as sponsor.",
+   "url": "https://learn.microsoft.com/en-us/entra/agent-id/identity-platform/what-is-agent-id",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f009",
+   "candidate": "Microsoft Entra Agent ID",
+   "group": "agent-identity",
+   "topic": "price",
+   "fact": "Agent ID is stated as available to all Entra customers, but extending Entra security features to agents needs a Microsoft Agent 365 licence (in M365 E7 or an add-on to E5/A5/Business Premium).",
+   "url": "https://learn.microsoft.com/en-us/entra/agent-id/identity-platform/what-is-agent-id",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f010",
+   "candidate": "Microsoft Entra Agent ID",
+   "group": "agent-identity",
+   "topic": "reach-vs-mandate",
+   "fact": "Frames the aim as right-sized access and keeping agents out of the most critical roles, via granted permissions and roles; it speaks in access rights, not a separate mandate concept.",
+   "url": "https://learn.microsoft.com/en-us/entra/agent-id/identity-platform/what-is-agent-id",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f011",
+   "candidate": "Okta (secure AI agents)",
+   "group": "agent-identity",
+   "topic": "governs",
+   "fact": "Covers the agent lifecycle: discovering agents, confirming owners, controlling access, and stopping actions at runtime through an Agent Gateway that checks each tool call.",
+   "url": "https://www.okta.com/solutions/secure-ai/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f012",
+   "candidate": "Okta (secure AI agents)",
+   "group": "agent-identity",
+   "topic": "audience",
+   "fact": "Pitched at security teams wanting to limit blast radius and at builders letting agents act for users; the page cites over 20,000 enterprise customers.",
+   "url": "https://www.okta.com/solutions/secure-ai/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f013",
+   "candidate": "Okta (secure AI agents)",
+   "group": "agent-identity",
+   "topic": "price",
+   "fact": "No price is shown; calls to action lead to sales contact or resources.",
+   "url": "https://www.okta.com/solutions/secure-ai/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f014",
+   "candidate": "Okta (secure AI agents)",
+   "group": "agent-identity",
+   "topic": "reach-vs-mandate",
+   "fact": "Uses least-privilege scoped tokens and fine-grained per-call authorisation, stating agents should never reach what the delegating user could not; this is permissions language, not an explicit mandate-versus-reach gap.",
+   "url": "https://www.okta.com/solutions/secure-ai/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f015",
+   "candidate": "Aembit",
+   "group": "agent-identity",
+   "topic": "governs",
+   "fact": "Describes an identity control plane for AI agents and non-human workloads, checking each access request against verified identity, short-lived authorisation and an audit log.",
+   "url": "https://aembit.io/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f016",
+   "candidate": "Aembit",
+   "group": "agent-identity",
+   "topic": "audience",
+   "fact": "Use cases cited are enterprises deploying agents such as Copilot Studio, Claude and MCP servers, plus CI/CD pipelines and distributed services.",
+   "url": "https://aembit.io/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f017",
+   "candidate": "Aembit",
+   "group": "agent-identity",
+   "topic": "price",
+   "fact": "The page links to a pricing section but the part read shows no prices or tiers (page only partly read).",
+   "url": "https://aembit.io/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f018",
+   "candidate": "Aembit",
+   "group": "agent-identity",
+   "topic": "reach-vs-mandate",
+   "fact": "Enforces access through policy tied to posture and threat signals; no separate mandate concept or policy syntax appeared in the part read.",
+   "url": "https://aembit.io/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f019",
+   "candidate": "Astrix Security",
+   "group": "agent-identity",
+   "topic": "offer",
+   "fact": "The astrix.security address returned a permanent redirect to a Cisco page and was not followed, so nothing about Astrix could be verified.",
+   "url": "https://astrix.security/",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "rm-f020",
+   "candidate": "Credo AI",
+   "group": "governance-platform",
+   "topic": "governs",
+   "fact": "A governance platform for agents, applications, models and vendors, with a registry, risk assessment, and a policy engine mapping the EU AI Act, NIST AI RMF and ISO 42001 to controls and audit evidence.",
+   "url": "https://www.credo.ai/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f021",
+   "candidate": "Credo AI",
+   "group": "governance-platform",
+   "topic": "audience",
+   "fact": "Customers shown are in insurance, financial services, federal and healthcare, suggesting enterprise governance, data and risk teams; no buyer persona is named.",
+   "url": "https://www.credo.ai/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f022",
+   "candidate": "Credo AI",
+   "group": "governance-platform",
+   "topic": "price",
+   "fact": "No price is listed; only talk-to-an-expert and demo requests.",
+   "url": "https://www.credo.ai/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f023",
+   "candidate": "Credo AI",
+   "group": "governance-platform",
+   "topic": "reach-vs-mandate",
+   "fact": "Treats agents as entities to be registered, risk-assessed and sanctioned, with a control library on tool misuse and scope drift; its Agent Governor is a research preview.",
+   "url": "https://www.credo.ai/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f024",
+   "candidate": "IBM watsonx.governance",
+   "group": "governance-platform",
+   "topic": "governs",
+   "fact": "Pitched as governing any AI anywhere: mapping the AI estate, enforcing policy, gathering compliance evidence against the EU AI Act, NIST AI and ISO 42001, and detecting shadow AI.",
+   "url": "https://www.ibm.com/products/watsonx-governance",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f025",
+   "candidate": "IBM watsonx.governance",
+   "group": "governance-platform",
+   "topic": "audience",
+   "fact": "Case studies point to enterprise AI, finance, risk and audit teams in insurance, banking and tech services; no buyer is named.",
+   "url": "https://www.ibm.com/products/watsonx-governance",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f026",
+   "candidate": "IBM watsonx.governance",
+   "group": "governance-platform",
+   "topic": "price",
+   "fact": "No prices on the page; it refers to a separate pricing page, cloud and on-premises options, and AWS and Azure marketplaces.",
+   "url": "https://www.ibm.com/products/watsonx-governance",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f027",
+   "candidate": "IBM watsonx.governance",
+   "group": "governance-platform",
+   "topic": "gap",
+   "fact": "The page does not mention autonomous agents directly, so whether it governs agent actions is not stated.",
+   "url": "https://www.ibm.com/products/watsonx-governance",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f028",
+   "candidate": "Holistic AI",
+   "group": "governance-platform",
+   "topic": "governs",
+   "fact": "Discovers models, agents and apps across cloud, code and SaaS, keeps an inventory with owners and risk, tests for security, safety, bias and drift, and maps controls to the EU AI Act, NIST AI RMF and ISO 42001.",
+   "url": "https://www.holisticai.com/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f029",
+   "candidate": "Holistic AI",
+   "group": "governance-platform",
+   "topic": "audience",
+   "fact": "States buyers are Security, Legal and Boards plus build and deploy teams, at large enterprises across banking, insurance, healthcare and other sectors.",
+   "url": "https://www.holisticai.com/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f030",
+   "candidate": "Holistic AI",
+   "group": "governance-platform",
+   "topic": "price",
+   "fact": "No price is listed; only demo booking.",
+   "url": "https://www.holisticai.com/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f031",
+   "candidate": "Holistic AI",
+   "group": "governance-platform",
+   "topic": "reach-vs-mandate",
+   "fact": "Its Guardian Agents watch each agent's actions, tool calls and data access against policy and can block, pause or escalate; enforcement-speed claims are vendor assertions without evidence.",
+   "url": "https://www.holisticai.com/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "rm-f032",
+   "candidate": "Open Policy Agent",
+   "group": "open-source",
+   "topic": "governs",
+   "fact": "A general policy engine that centralises policy decisions across a technology stack, with examples written in Rego (such as payment rules); the page does not discuss AI agents.",
+   "url": "https://www.openpolicyagent.org/",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "rm-f033",
+   "candidate": "Open Policy Agent",
+   "group": "open-source",
+   "topic": "audience",
+   "fact": "The page shows logos of large firms such as Capital One, Goldman Sachs, Cisco and Bloomberg, though it does not label them users.",
+   "url": "https://www.openpolicyagent.org/",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "rm-f034",
+   "candidate": "Open Policy Agent",
+   "group": "open-source",
+   "topic": "licence",
+   "fact": "The repository LICENSE file is Apache License 2.0.",
+   "url": "https://raw.githubusercontent.com/open-policy-agent/opa/main/LICENSE",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "rm-f035",
+   "candidate": "Open Policy Agent",
+   "group": "open-source",
+   "topic": "reach-vs-mandate",
+   "fact": "Separates policy from the code that enforces it, but does not frame what an agent can reach versus what it is allowed to do.",
+   "url": "https://www.openpolicyagent.org/",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "rm-f036",
+   "candidate": "Cedar policy language",
+   "group": "open-source",
+   "topic": "licence",
+   "fact": "The Cedar repository LICENSE file is Apache License 2.0; the cedarpolicy.com page returned 404, so its purpose could not be verified there.",
+   "url": "https://github.com/cedar-policy/cedar/blob/main/LICENSE",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "rm-f037",
+   "candidate": "Cedar policy language",
+   "group": "open-source",
+   "topic": "offer",
+   "fact": "Project website https://www.cedarpolicy.com/en returned 404, so its description is not verified.",
+   "url": "https://www.cedarpolicy.com/en",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "rm-f038",
+   "candidate": "NVIDIA NeMo Guardrails",
+   "group": "open-source",
+   "topic": "governs",
+   "fact": "A Python library that checks an LLM or agent application's prompts, responses, tool calls and tool results with rule-based or model-backed rails.",
+   "url": "https://github.com/NVIDIA/NeMo-Guardrails",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "rm-f039",
+   "candidate": "NVIDIA NeMo Guardrails",
+   "group": "open-source",
+   "topic": "audience",
+   "fact": "Aimed at developers and platform teams building chat apps, agents, coding assistants and RAG systems.",
+   "url": "https://github.com/NVIDIA/NeMo-Guardrails",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "rm-f040",
+   "candidate": "NVIDIA NeMo Guardrails",
+   "group": "open-source",
+   "topic": "licence",
+   "fact": "Stated as Apache License 2.0.",
+   "url": "https://github.com/NVIDIA/NeMo-Guardrails",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "rm-f041",
+   "candidate": "NVIDIA NeMo Guardrails",
+   "group": "open-source",
+   "topic": "gap",
+   "fact": "Lists limits: rail support varies by engine, model-backed checks add latency, an older API is deprecated, and anonymous telemetry is sent unless disabled.",
+   "url": "https://github.com/NVIDIA/NeMo-Guardrails",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "rm-f042",
+   "candidate": "Guardrails AI",
+   "group": "open-source",
+   "topic": "governs",
+   "fact": "A Python framework that runs input and output guards built from validators (from a hub) and can steer structured output.",
+   "url": "https://github.com/guardrails-ai/guardrails",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "rm-f043",
+   "candidate": "Guardrails AI",
+   "group": "open-source",
+   "topic": "licence",
+   "fact": "Stated as Apache-2.0.",
+   "url": "https://github.com/guardrails-ai/guardrails",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "rm-f044",
+   "candidate": "Guardrails AI",
+   "group": "open-source",
+   "topic": "gap",
+   "fact": "Says its checks reduce risk but do not guarantee outputs are correct or safe, and its hosted inferencing service was planned to end on 25 August 2026.",
+   "url": "https://github.com/guardrails-ai/guardrails",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "rm-f045",
+   "candidate": "Meta Purple Llama",
+   "group": "open-source",
+   "topic": "governs",
+   "fact": "An umbrella project of model-level safeguards (Llama Guard, Prompt Guard, Code Shield) and cybersecurity benchmarks (CyberSec Eval); it screens inputs and outputs, not agent permissions.",
+   "url": "https://github.com/meta-llama/PurpleLlama",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "rm-f046",
+   "candidate": "Meta Purple Llama",
+   "group": "open-source",
+   "topic": "licence",
+   "fact": "Licensing is mixed: MIT for the evals and Code Shield, and Llama community licences for the Llama Guard and Prompt Guard models.",
+   "url": "https://github.com/meta-llama/PurpleLlama",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "rm-f047",
+   "candidate": "NIST AI Risk Management Framework",
+   "group": "framework",
+   "topic": "governs",
+   "fact": "A voluntary framework for managing AI risks to individuals, organisations and society, aimed at building trustworthiness into AI design, development, use and evaluation.",
+   "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+   "date_read": "2026-11-23",
+   "confidence": "standard-body"
+  },
+  {
+   "id": "rm-f048",
+   "candidate": "NIST AI Risk Management Framework",
+   "group": "framework",
+   "topic": "price",
+   "fact": "The page states no price or licence terms; it links a PDF download and a copyright page.",
+   "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+   "date_read": "2026-11-23",
+   "confidence": "standard-body"
+  },
+  {
+   "id": "rm-f049",
+   "candidate": "NIST AI Risk Management Framework",
+   "group": "framework",
+   "topic": "offer",
+   "fact": "Comes with a Playbook, Roadmap and Crosswalk, a Generative AI profile (July 2024), and a critical infrastructure profile concept note (April 2026).",
+   "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+   "date_read": "2026-11-23",
+   "confidence": "standard-body"
+  },
+  {
+   "id": "rm-f050",
+   "candidate": "NIST AI Risk Management Framework",
+   "group": "framework",
+   "topic": "gap",
+   "fact": "The page does not discuss residual risk and says AI RMF 1.0 is being revised under the White House AI Action Plan.",
+   "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+   "date_read": "2026-11-23",
+   "confidence": "standard-body"
+  },
+  {
+   "id": "rm-f051",
+   "candidate": "ISO/IEC 42001",
+   "group": "framework",
+   "topic": "offer",
+   "fact": "The ISO page for the standard returned HTTP 403, so nothing could be verified from it.",
+   "url": "https://www.iso.org/standard/81230.html",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "rm-f052",
+   "candidate": "EU AI Act",
+   "group": "framework",
+   "topic": "governs",
+   "fact": "Regulation 2024/1689 sorts AI systems into four risk tiers (banned, high risk, transparency, minimal) with extra duties for general-purpose models.",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+   "date_read": "2026-11-23",
+   "confidence": "standard-body"
+  },
+  {
+   "id": "rm-f053",
+   "candidate": "EU AI Act",
+   "group": "framework",
+   "topic": "audience",
+   "fact": "Most duties fall on providers of high-risk systems, with fewer on deployers, including non-EU providers whose outputs are used in the EU.",
+   "url": "https://artificialintelligenceact.eu/high-level-summary/",
+   "date_read": "2026-11-23",
+   "confidence": "third-party"
+  },
+  {
+   "id": "rm-f054",
+   "candidate": "EU AI Act",
+   "group": "framework",
+   "topic": "reach-vs-mandate",
+   "fact": "High-risk providers must build in human oversight, risk management across the lifecycle, activity logging and robustness, which is a process duty rather than a per-agent permission model.",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+   "date_read": "2026-11-23",
+   "confidence": "standard-body"
+  },
+  {
+   "id": "rm-f055",
+   "candidate": "EU AI Act",
+   "group": "framework",
+   "topic": "gap",
+   "fact": "The Commission page lists Annex III high-risk rules from 2 December 2027 (extended by the AI Omnibus) and embedded-product rules from 2 August 2028; the third-party summary does not address residual risk directly.",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+   "date_read": "2026-11-23",
+   "confidence": "standard-body"
+  },
+  {
+   "id": "rm-f056",
+   "candidate": "OWASP Agentic AI Threats and Mitigations",
+   "group": "framework",
+   "topic": "governs",
+   "fact": "The first document of OWASP's Agentic Security Initiative, mapping threats to autonomous LLM-driven agentic systems and ways to mitigate them.",
+   "url": "https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/",
+   "date_read": "2026-11-23",
+   "confidence": "standard-body"
+  },
+  {
+   "id": "rm-f057",
+   "candidate": "OWASP Agentic AI Threats and Mitigations",
+   "group": "framework",
+   "topic": "licence",
+   "fact": "No licence on the page itself; the site footer says content is CC BY-SA 4.0 unless stated otherwise.",
+   "url": "https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/",
+   "date_read": "2026-11-23",
+   "confidence": "standard-body"
+  },
+  {
+   "id": "rm-f058",
+   "candidate": "OWASP Agentic AI Threats and Mitigations",
+   "group": "framework",
+   "topic": "reach-vs-mandate",
+   "fact": "The page text does not mention permissions or excessive agency, though it says LLM integration widened agents' reach and risks.",
+   "url": "https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/",
+   "date_read": "2026-11-23",
+   "confidence": "standard-body"
+  },
+  {
+   "id": "rm-f059",
+   "candidate": "OWASP Top 10 for Agentic Applications 2026",
+   "group": "framework",
+   "topic": "governs",
+   "fact": "Names the most serious risks for autonomous AI systems that plan, act and decide across multi-step workflows, built with input from over 100 contributors.",
+   "url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+   "date_read": "2026-11-23",
+   "confidence": "standard-body"
+  },
+  {
+   "id": "rm-f060",
+   "candidate": "OWASP Top 10 for Agentic Applications 2026",
+   "group": "framework",
+   "topic": "audience",
+   "fact": "Aimed at builders, defenders and the leaders who decide on adoption.",
+   "url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+   "date_read": "2026-11-23",
+   "confidence": "standard-body"
+  },
+  {
+   "id": "rm-f061",
+   "candidate": "OWASP Top 10 for Agentic Applications 2026",
+   "group": "framework",
+   "topic": "licence",
+   "fact": "Site footer states CC BY-SA 4.0 unless otherwise noted, provided without warranty.",
+   "url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+   "date_read": "2026-11-23",
+   "confidence": "standard-body"
+  },
+  {
+   "id": "rm-f062",
+   "candidate": "OWASP Top 10 for Agentic Applications 2026",
+   "group": "framework",
+   "topic": "reach-vs-mandate",
+   "fact": "The landing page does not list the individual risks, so whether it covers excessive privilege or least agency is unconfirmed (the PDF was not read).",
+   "url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+   "date_read": "2026-11-23",
+   "confidence": "standard-body"
+  }
+ ],
+ "changes": [
+  {
+   "at": "2026-11-23T05:30Z",
+   "what": "first version: 18 players, 62 facts"
+  }
+ ]
+}

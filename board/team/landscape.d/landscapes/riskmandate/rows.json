@@ -1,0 +1,340 @@
+{
+ "format": "landscape-rows/1",
+ "for": "cartographer.d@AgentiCCells.dinis",
+ "made": "2026-11-23T05:30Z",
+ "made_by": "landscape.d@AgentiCCells.dinis",
+ "rows": [
+  {
+   "id": "rm-p-riskmandate",
+   "name": "RiskMandate",
+   "group": "us",
+   "what": "Sells a behaviour policy per AI agent that shows what the agent can reach, what it was authorised to do, the gap between the two, and the barriers in between; the about page says it is never a score.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "Four levels stated in GBP: 500 (one agent), 1,500 (worked through with you), 5,000 (about two days, several agents), 20,000 (whole-estate engagement); each currently starts with a conversation as payment links are not yet issued.",
+   "source_url": "https://riskmandate.ai/about.html",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "rm-f001",
+    "rm-f002",
+    "rm-f003",
+    "rm-f004",
+    "rm-f005",
+    "rm-f006"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-microsoft-entra-agent-id",
+   "name": "Microsoft Entra Agent ID",
+   "group": "agent-identity",
+   "what": "Gives each AI agent its own identity account in Entra ID so its actions can be told apart from human and workload identities, with autonomous or delegated access via tokens.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "Agent ID is stated as available to all Entra customers, but extending Entra security features to agents needs a Microsoft Agent 365 licence (in M365 E7 or an add-on to E5/A5/Business Premium).",
+   "source_url": "https://learn.microsoft.com/en-us/entra/agent-id/identity-platform/what-is-agent-id",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "rm-f007",
+    "rm-f008",
+    "rm-f009",
+    "rm-f010"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-okta--secure-ai-agents",
+   "name": "Okta (secure AI agents)",
+   "group": "agent-identity",
+   "what": "Covers the agent lifecycle: discovering agents, confirming owners, controlling access, and stopping actions at runtime through an Agent Gateway that checks each tool call.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "No price is shown; calls to action lead to sales contact or resources.",
+   "source_url": "https://www.okta.com/solutions/secure-ai/",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "rm-f011",
+    "rm-f012",
+    "rm-f013",
+    "rm-f014"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-aembit",
+   "name": "Aembit",
+   "group": "agent-identity",
+   "what": "Describes an identity control plane for AI agents and non-human workloads, checking each access request against verified identity, short-lived authorisation and an audit log.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "The page links to a pricing section but the part read shows no prices or tiers (page only partly read).",
+   "source_url": "https://aembit.io/",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "rm-f015",
+    "rm-f016",
+    "rm-f017",
+    "rm-f018"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-astrix-security",
+   "name": "Astrix Security",
+   "group": "agent-identity",
+   "what": "The astrix.security address returned a permanent redirect to a Cisco page and was not followed, so nothing about Astrix could be verified.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://astrix.security/",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "rm-f019"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-credo-ai",
+   "name": "Credo AI",
+   "group": "governance-platform",
+   "what": "A governance platform for agents, applications, models and vendors, with a registry, risk assessment, and a policy engine mapping the EU AI Act, NIST AI RMF and ISO 42001 to controls and audit evidence.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "No price is listed; only talk-to-an-expert and demo requests.",
+   "source_url": "https://www.credo.ai/",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "rm-f020",
+    "rm-f021",
+    "rm-f022",
+    "rm-f023"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-ibm-watsonx-governance",
+   "name": "IBM watsonx.governance",
+   "group": "governance-platform",
+   "what": "Pitched as governing any AI anywhere: mapping the AI estate, enforcing policy, gathering compliance evidence against the EU AI Act, NIST AI and ISO 42001, and detecting shadow AI.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "No prices on the page; it refers to a separate pricing page, cloud and on-premises options, and AWS and Azure marketplaces.",
+   "source_url": "https://www.ibm.com/products/watsonx-governance",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "rm-f024",
+    "rm-f025",
+    "rm-f026",
+    "rm-f027"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-holistic-ai",
+   "name": "Holistic AI",
+   "group": "governance-platform",
+   "what": "Discovers models, agents and apps across cloud, code and SaaS, keeps an inventory with owners and risk, tests for security, safety, bias and drift, and maps controls to the EU AI Act, NIST AI RMF and ISO 42001.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "No price is listed; only demo booking.",
+   "source_url": "https://www.holisticai.com/",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "rm-f028",
+    "rm-f029",
+    "rm-f030",
+    "rm-f031"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-open-policy-agent",
+   "name": "Open Policy Agent",
+   "group": "open-source",
+   "what": "A general policy engine that centralises policy decisions across a technology stack, with examples written in Rego (such as payment rules); the page does not discuss AI agents.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://www.openpolicyagent.org/",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "rm-f032",
+    "rm-f033",
+    "rm-f034",
+    "rm-f035"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-cedar-policy-language",
+   "name": "Cedar policy language",
+   "group": "open-source",
+   "what": "Project website https://www.cedarpolicy.com/en returned 404, so its description is not verified.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://www.cedarpolicy.com/en",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "rm-f036",
+    "rm-f037"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-nvidia-nemo-guardrails",
+   "name": "NVIDIA NeMo Guardrails",
+   "group": "open-source",
+   "what": "A Python library that checks an LLM or agent application's prompts, responses, tool calls and tool results with rule-based or model-backed rails.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/NVIDIA/NeMo-Guardrails",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "rm-f038",
+    "rm-f039",
+    "rm-f040",
+    "rm-f041"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-guardrails-ai",
+   "name": "Guardrails AI",
+   "group": "open-source",
+   "what": "A Python framework that runs input and output guards built from validators (from a hub) and can steer structured output.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/guardrails-ai/guardrails",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "rm-f042",
+    "rm-f043",
+    "rm-f044"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-meta-purple-llama",
+   "name": "Meta Purple Llama",
+   "group": "open-source",
+   "what": "An umbrella project of model-level safeguards (Llama Guard, Prompt Guard, Code Shield) and cybersecurity benchmarks (CyberSec Eval); it screens inputs and outputs, not agent permissions.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/meta-llama/PurpleLlama",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "rm-f045",
+    "rm-f046"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-nist-ai-risk-management-framework",
+   "name": "NIST AI Risk Management Framework",
+   "group": "framework",
+   "what": "A voluntary framework for managing AI risks to individuals, organisations and society, aimed at building trustworthiness into AI design, development, use and evaluation.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "The page states no price or licence terms; it links a PDF download and a copyright page.",
+   "source_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "rm-f047",
+    "rm-f048",
+    "rm-f049",
+    "rm-f050"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-iso-iec-42001",
+   "name": "ISO/IEC 42001",
+   "group": "framework",
+   "what": "The ISO page for the standard returned HTTP 403, so nothing could be verified from it.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://www.iso.org/standard/81230.html",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "rm-f051"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-eu-ai-act",
+   "name": "EU AI Act",
+   "group": "framework",
+   "what": "Regulation 2024/1689 sorts AI systems into four risk tiers (banned, high risk, transparency, minimal) with extra duties for general-purpose models.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "rm-f052",
+    "rm-f053",
+    "rm-f054",
+    "rm-f055"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-owasp-agentic-ai-threats-and-mitigations",
+   "name": "OWASP Agentic AI Threats and Mitigations",
+   "group": "framework",
+   "what": "The first document of OWASP's Agentic Security Initiative, mapping threats to autonomous LLM-driven agentic systems and ways to mitigate them.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "rm-f056",
+    "rm-f057",
+    "rm-f058"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  },
+  {
+   "id": "rm-p-owasp-top-10-for-agentic-applications-2026",
+   "name": "OWASP Top 10 for Agentic Applications 2026",
+   "group": "framework",
+   "what": "Names the most serious risks for autonomous AI systems that plan, act and decide across multi-step workflows, built with input from over 100 contributors.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "rm-f059",
+    "rm-f060",
+    "rm-f061",
+    "rm-f062"
+   ],
+   "note": "no user-need column: RiskMandate's users are not in sherpa.d's needs yet"
+  }
+ ]
+}

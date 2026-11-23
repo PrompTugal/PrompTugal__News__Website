@@ -1,0 +1,921 @@
+{
+ "format": "landscape/1",
+ "id": "agentic-sales",
+ "title": "Agentic sales: who sells agent teams, and how",
+ "status": "draft",
+ "made": "2026-11-23T05:30Z",
+ "made_by": "landscape.d@AgentiCCells.dinis",
+ "about": "First read, 23 Nov 2026, public pages only; positions are not given. 'Us' rows come only from agenticcells.ai's own pages. Facts are exactly as the scout returned them; prices are as displayed on the date read, in the currency shown.",
+ "players": [
+  {
+   "player": "AgentiCCells",
+   "group": "us",
+   "fact_ids": [
+    "as-f001",
+    "as-f002",
+    "as-f003",
+    "as-f004",
+    "as-f005",
+    "as-f006"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Salesforce Agentforce",
+   "group": "vendor-platform",
+   "fact_ids": [
+    "as-f007",
+    "as-f008",
+    "as-f009",
+    "as-f010",
+    "as-f011"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "Microsoft Copilot Studio",
+   "group": "vendor-platform",
+   "fact_ids": [
+    "as-f012",
+    "as-f013",
+    "as-f014",
+    "as-f015"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "ServiceNow AI Agents",
+   "group": "vendor-platform",
+   "fact_ids": [
+    "as-f016"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "Google Agentspace",
+   "group": "vendor-platform",
+   "fact_ids": [
+    "as-f017"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "Relevance AI",
+   "group": "digital-worker",
+   "fact_ids": [
+    "as-f018",
+    "as-f019",
+    "as-f020",
+    "as-f021"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "11x",
+   "group": "digital-worker",
+   "fact_ids": [
+    "as-f022",
+    "as-f023",
+    "as-f024",
+    "as-f025"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Lindy",
+   "group": "digital-worker",
+   "fact_ids": [
+    "as-f026",
+    "as-f027",
+    "as-f028"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Intercom Fin",
+   "group": "digital-worker",
+   "fact_ids": [
+    "as-f029",
+    "as-f030",
+    "as-f031",
+    "as-f032"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Devin (Cognition)",
+   "group": "digital-worker",
+   "fact_ids": [
+    "as-f033",
+    "as-f034",
+    "as-f035",
+    "as-f036"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Botpress",
+   "group": "digital-worker",
+   "fact_ids": [
+    "as-f037",
+    "as-f038",
+    "as-f039",
+    "as-f040"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "CrewAI",
+   "group": "framework",
+   "fact_ids": [
+    "as-f041",
+    "as-f042",
+    "as-f043",
+    "as-f044"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "LangChain (LangGraph and LangSmith)",
+   "group": "framework",
+   "fact_ids": [
+    "as-f045",
+    "as-f046",
+    "as-f047",
+    "as-f048"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "n8n",
+   "group": "framework",
+   "fact_ids": [
+    "as-f049",
+    "as-f050",
+    "as-f051",
+    "as-f052"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Zapier",
+   "group": "framework",
+   "fact_ids": [
+    "as-f053",
+    "as-f054",
+    "as-f055"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Dust",
+   "group": "framework",
+   "fact_ids": [
+    "as-f056",
+    "as-f057",
+    "as-f058"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Make",
+   "group": "framework",
+   "fact_ids": [
+    "as-f059",
+    "as-f060",
+    "as-f061"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Services firms (agent-building for a fee)",
+   "group": "services",
+   "fact_ids": [
+    "as-f062"
+   ],
+   "flagged": true
+  }
+ ],
+ "findings": [
+  {
+   "id": "as-g1",
+   "kind": "price-models",
+   "text": "The field prices agents by use, not by built team: credits per action (Salesforce Agentforce, $500 per 100k Flex Credits), per conversation or outcome (Salesforce $2 per conversation, Intercom Fin $0.99 per outcome, Botpress packs), per seat plus credits (Lindy from $29.99, Dust from EUR 24, Devin $20 to $200), or per task or execution (Zapier, n8n, Make). AgentiCCells publishes four fixed one-off first-proposal sizes in GBP (500, 1,500, 5,000, 20,000), none sold yet and terms may change. No services firm with a published price was found and verified in this run, so 'nobody sells a fixed-price built team' holds only for the set read.",
+   "facts": [
+    "as-f008",
+    "as-f030",
+    "as-f026",
+    "as-f034",
+    "as-f053",
+    "as-f049",
+    "as-f002",
+    "as-f062"
+   ]
+  },
+  {
+   "id": "as-g2",
+   "kind": "price-openness",
+   "text": "Several digital-worker vendors publish no price (11x: book a demo; Relevance AI: one Enterprise plan via sales), against others that do (Lindy, Intercom Fin, Devin, Botpress, Dust, Zapier). A published price list is not unique, but it is not the norm in the named-agent group.",
+   "facts": [
+    "as-f023",
+    "as-f019",
+    "as-f026",
+    "as-f037"
+   ]
+  },
+  {
+   "id": "as-g3",
+   "kind": "ownership-and-hosting",
+   "text": "Most pricing pages read say nothing on who owns the output (Salesforce, Relevance AI, Botpress state none there). AgentiCCells says the buyer owns the output, in the buyer's own accounts, and for the website the repository moves to the buyer's GitHub within three months (a self-set expectation, not yet a term). Hosting: Devin offers customer VPC on Enterprise only, CrewAI the buyer's own VPC or infrastructure, LangChain US or EU cloud or self-hosted, Dust US or EU residency, Copilot Studio a managed runtime with residency alignment.",
+   "facts": [
+    "as-f003",
+    "as-f004",
+    "as-f011",
+    "as-f036",
+    "as-f044",
+    "as-f047",
+    "as-f057",
+    "as-f015"
+   ]
+  },
+  {
+   "id": "as-g4",
+   "kind": "control",
+   "text": "Control features exist but are often tiered: Copilot Studio lists role-based access, approval gates and audit logs; Lindy requires approval for actions with outside impact; Salesforce offers usage monitoring and alerts; at CrewAI, n8n and Dust audit logs, RBAC or SSO sit on Enterprise tiers. AgentiCCells describes a per-agent written behaviour policy, revertible commits, checks and a stop switch at every size, and its own page admits some agents heard a test stop late.",
+   "facts": [
+    "as-f014",
+    "as-f028",
+    "as-f010",
+    "as-f043",
+    "as-f052",
+    "as-f058",
+    "as-f006"
+   ]
+  },
+  {
+   "id": "as-g5",
+   "kind": "licence",
+   "text": "Licences differ: CrewAI and LangGraph are MIT; n8n's source is under the Sustainable Use License (internal business or non-commercial use), not open source in the OSI sense; AgentiCCells states Apache-2.0 for code and CC BY 4.0 for text and images.",
+   "facts": [
+    "as-f042",
+    "as-f046",
+    "as-f050",
+    "as-f005"
+   ]
+  },
+  {
+   "id": "as-g6",
+   "kind": "buyer-supplies",
+   "text": "AgentiCCells asks the buyer to bring a Claude plan, a GitHub account, host and domain where needed, a brief, content and approval, with their own account costs extra; platforms ask for an Azure subscription (Copilot Studio), a helpdesk seat (Intercom Fin) or a licence key that checks in daily (n8n self-hosted Business and Enterprise). The buyer's own accounts are our difference and also our friction.",
+   "facts": [
+    "as-f004",
+    "as-f013",
+    "as-f031",
+    "as-f051"
+   ]
+  },
+  {
+   "id": "as-g7",
+   "kind": "gap-in-my-reading",
+   "text": "Not verified: ServiceNow AI Agents (HTTP 403), Google Agentspace pricing (404); Make shows credits but no price; Artisan and AutoGen were dropped (no usable facts; the AutoGen licence page read was the docs licence, not the code licence). One row had a typo in the scout's output that I corrected to the group digital-worker.",
+   "facts": [
+    "as-f016",
+    "as-f017",
+    "as-f059"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "id": "as-f001",
+   "candidate": "AgentiCCells",
+   "group": "us",
+   "topic": "offer",
+   "fact": "Sells agentic cells: small teams of AI agents (conductor, designer, writer, developer, reviewer and others), each with a role, brief and written behaviour policy, working on one focused job in the buyer's own accounts.",
+   "url": "https://agenticcells.ai/cells/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f002",
+   "candidate": "AgentiCCells",
+   "group": "us",
+   "topic": "price",
+   "fact": "Four fixed one-off first-proposal sizes: £500 one agent or workflow, £1,500 a few sessions, £5,000 a team (about two days), £20,000 a network; none sold yet, terms may change; sovereign website launch offer £50 once.",
+   "url": "https://agenticcells.ai/pricing/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f003",
+   "candidate": "AgentiCCells",
+   "group": "us",
+   "topic": "ownership",
+   "fact": "The buyer owns the output: files, keys and board sit in the buyer's own accounts; for the website the repository and history move to the buyer's GitHub within three months (self-set expectation, not yet a term).",
+   "url": "https://agenticcells.ai/faq/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f004",
+   "candidate": "AgentiCCells",
+   "group": "us",
+   "topic": "buyer-supplies",
+   "fact": "Buyer supplies their own Claude plan, GitHub account, host and domain where needed, a brief in their own words, content, and approval before anything goes live; their account costs are extra.",
+   "url": "https://agenticcells.ai/pricing/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f005",
+   "candidate": "AgentiCCells",
+   "group": "us",
+   "topic": "licence",
+   "fact": "States code under Apache-2.0 and text and images under CC BY 4.0; target market is not named, examples are a consultant portfolio, CV site, event site, holiday-homes business.",
+   "url": "https://agenticcells.ai",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f006",
+   "candidate": "AgentiCCells",
+   "group": "us",
+   "topic": "control",
+   "fact": "Per-agent written behaviour policy, work kept as readable and revertible commits, automated checks before going live, and a stop file and switch; the page admits some agents heard a test stop late.",
+   "url": "https://agenticcells.ai/faq/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f007",
+   "candidate": "Salesforce Agentforce",
+   "group": "vendor-platform",
+   "topic": "offer",
+   "fact": "Sells agent usage and licences inside its CRM suite: Flex Credits per action, per-conversation pricing, and per-user licences and add-ons.",
+   "url": "https://www.salesforce.com/agentforce/pricing/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f008",
+   "candidate": "Salesforce Agentforce",
+   "group": "vendor-platform",
+   "topic": "price",
+   "fact": "Flex Credits $500 per 100k credits (20 credits per action, £400 listed in GBP); conversations $2 (£1.60); user licence $5 per user per month; Coworker licence $50 per user per month; add-ons $150 to $175 per user per month.",
+   "url": "https://www.salesforce.com/agentforce/pricing/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f009",
+   "candidate": "Salesforce Agentforce",
+   "group": "vendor-platform",
+   "topic": "buyer-supplies",
+   "fact": "Buying models are pre-purchase, pre-commit and pay-as-you-go billed monthly in arrears; unused credits do not roll over; Flex Credits and Conversations cannot be used in the same org.",
+   "url": "https://www.salesforce.com/agentforce/pricing/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f010",
+   "candidate": "Salesforce Agentforce",
+   "group": "vendor-platform",
+   "topic": "control",
+   "fact": "Digital Wallet gives near real-time usage monitoring and threshold alerts; Coworker is said to apply Salesforce security, governance and access policies.",
+   "url": "https://www.salesforce.com/agentforce/pricing/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f011",
+   "candidate": "Salesforce Agentforce",
+   "group": "vendor-platform",
+   "topic": "hosting",
+   "fact": "The pricing page does not state where it is hosted; output ownership is not stated on that page.",
+   "url": "https://www.salesforce.com/agentforce/pricing/",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "as-f012",
+   "candidate": "Microsoft Copilot Studio",
+   "group": "vendor-platform",
+   "topic": "price",
+   "fact": "Credit packs of 25,000 credits at $200 per month, or pay-as-you-go billed monthly in arrears, or prepaid commit saving up to 20%; agents published to Microsoft 365 Copilot are covered by that licence.",
+   "url": "https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f013",
+   "candidate": "Microsoft Copilot Studio",
+   "group": "vendor-platform",
+   "topic": "buyer-supplies",
+   "fact": "An Azure subscription is required to use agents and pay-as-you-go billing needs one linked to each environment.",
+   "url": "https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f014",
+   "candidate": "Microsoft Copilot Studio",
+   "group": "vendor-platform",
+   "topic": "control",
+   "fact": "Admins can set budgets and usage limits; role-based access, Entra ID, Dev-Test-Prod lifecycle with approval gates and audit trails, and audit logs into Purview.",
+   "url": "https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f015",
+   "candidate": "Microsoft Copilot Studio",
+   "group": "vendor-platform",
+   "topic": "hosting",
+   "fact": "Copilot Managed Runtime is described as Microsoft's managed hosting and execution layer, with data residency alignment.",
+   "url": "https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f016",
+   "candidate": "ServiceNow AI Agents",
+   "group": "vendor-platform",
+   "topic": "offer",
+   "fact": "Product page returned HTTP 403, so nothing could be verified.",
+   "url": "https://www.servicenow.com/products/ai-agents.html",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "as-f017",
+   "candidate": "Google Agentspace",
+   "group": "vendor-platform",
+   "topic": "price",
+   "fact": "Pricing page returned 404, so nothing could be verified.",
+   "url": "https://cloud.google.com/products/agentspace/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "as-f018",
+   "candidate": "Relevance AI",
+   "group": "digital-worker",
+   "topic": "offer",
+   "fact": "Sells an AI workforce with named agents such as Research & Enricher, Outbound Prospector, Meeting Scheduler, Deal Reviewer, Proposal Builder, Ticket Triager and Invoice Matcher.",
+   "url": "https://www.relevanceai.com/agents",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f019",
+   "candidate": "Relevance AI",
+   "group": "digital-worker",
+   "topic": "price",
+   "fact": "Pricing page lists a single Enterprise plan via sales with no public price points and only custom vendor credits mentioned.",
+   "url": "https://www.relevanceai.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f020",
+   "candidate": "Relevance AI",
+   "group": "digital-worker",
+   "topic": "control",
+   "fact": "Enterprise includes SSO, RBAC and audit logs plus agent evaluations; says it is SOC 2 Type II compliant.",
+   "url": "https://www.relevanceai.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f021",
+   "candidate": "Relevance AI",
+   "group": "digital-worker",
+   "topic": "ownership",
+   "fact": "Pricing page states project information is confidential even from Relevance AI; output ownership terms and hosting are not stated there.",
+   "url": "https://www.relevanceai.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f022",
+   "candidate": "11x",
+   "group": "digital-worker",
+   "topic": "offer",
+   "fact": "Sells AI sales agents called digital workers: Alice for outbound prospecting, Julian for inbound and expansion by voice and chat, Nina as voice agent.",
+   "url": "https://www.11x.ai",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f023",
+   "candidate": "11x",
+   "group": "digital-worker",
+   "topic": "price",
+   "fact": "No pricing published; visitors are directed to book a demo.",
+   "url": "https://www.11x.ai",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f024",
+   "candidate": "11x",
+   "group": "digital-worker",
+   "topic": "audience",
+   "fact": "Targets revenue teams across sales, marketing, growth and RevOps, and states reps own every deal.",
+   "url": "https://www.11x.ai",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f025",
+   "candidate": "11x",
+   "group": "digital-worker",
+   "topic": "control",
+   "fact": "Custom meeting routing rules, handoff to human reps, playbooks and a knowledge base, and agents work from the customer's CRM.",
+   "url": "https://www.11x.ai",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f026",
+   "candidate": "Lindy",
+   "group": "digital-worker",
+   "topic": "price",
+   "fact": "Free plan with $50 credits for 7 days; Team from $29.99 per user per month with 3,000 credits pooled; top-ups $10 per 1,000 credits; Enterprise custom.",
+   "url": "https://www.lindy.ai/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f027",
+   "candidate": "Lindy",
+   "group": "digital-worker",
+   "topic": "offer",
+   "fact": "Sold as seats plus monthly credit bundles, with credits metering the work the agent does.",
+   "url": "https://www.lindy.ai/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f028",
+   "candidate": "Lindy",
+   "group": "digital-worker",
+   "topic": "control",
+   "fact": "Actions with outside impact such as sending email or publishing docs require approval; Enterprise adds audit logs, SSO, SCIM and HIPAA BAA; pool exhaustion pauses actions.",
+   "url": "https://www.lindy.ai/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f029",
+   "candidate": "Intercom Fin",
+   "group": "digital-worker",
+   "topic": "offer",
+   "fact": "Sells Fin, an AI customer service and sales agent that works with Intercom or existing helpdesks such as Zendesk, Salesforce and Freshdesk.",
+   "url": "https://fin.ai/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f030",
+   "candidate": "Intercom Fin",
+   "group": "digital-worker",
+   "topic": "price",
+   "fact": "$0.99 per outcome charged at most once per conversation, nothing if the customer asks for a human; voice $1.99 per outcome; $49 per month minimum on existing helpdesk; Intercom seats $19 per month.",
+   "url": "https://fin.ai/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f031",
+   "candidate": "Intercom Fin",
+   "group": "digital-worker",
+   "topic": "buyer-supplies",
+   "fact": "Buyer needs at least one full helpdesk seat; self-serve plans need no contract, 14-day free trial.",
+   "url": "https://fin.ai/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f032",
+   "candidate": "Intercom Fin",
+   "group": "digital-worker",
+   "topic": "control",
+   "fact": "Monthly spending limits and alerts, with hard limits on Pro credit usage.",
+   "url": "https://fin.ai/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f033",
+   "candidate": "Devin (Cognition)",
+   "group": "digital-worker",
+   "topic": "offer",
+   "fact": "Sells Devin coding agents as individual and team plans with add-ons such as Devin Bots, Cloud and API.",
+   "url": "https://devin.ai/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f034",
+   "candidate": "Devin (Cognition)",
+   "group": "digital-worker",
+   "topic": "price",
+   "fact": "Free $0; Pro $20 per month; Max $200 per month; Teams $80 per month up to 100 users; Enterprise custom; extra usage at API pricing.",
+   "url": "https://devin.ai/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f035",
+   "candidate": "Devin (Cognition)",
+   "group": "digital-worker",
+   "topic": "control",
+   "fact": "Teams get SSO and three cost-control usage tiers; Enterprise adds SCIM, RBAC and usage limits per team and user.",
+   "url": "https://devin.ai/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f036",
+   "candidate": "Devin (Cognition)",
+   "group": "digital-worker",
+   "topic": "hosting",
+   "fact": "Enterprise only: deployment in the customer's VPC or a dedicated deployment.",
+   "url": "https://devin.ai/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f037",
+   "candidate": "Botpress",
+   "group": "digital-worker",
+   "topic": "price",
+   "fact": "Free $0 (100 conversations); Plus $150 per month and Team $750 per month billed annually; extra conversation packs of 100 at $65 or $50; Enterprise custom.",
+   "url": "https://botpress.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f038",
+   "candidate": "Botpress",
+   "group": "digital-worker",
+   "topic": "offer",
+   "fact": "Sells AI agents priced on conversations handled rather than seats, with a small AI-usage allowance included per conversation.",
+   "url": "https://botpress.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f039",
+   "candidate": "Botpress",
+   "group": "digital-worker",
+   "topic": "control",
+   "fact": "Change log, trusted-domain access, custom retention and residency policies; RBAC and routing rules from Team tier.",
+   "url": "https://botpress.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f040",
+   "candidate": "Botpress",
+   "group": "digital-worker",
+   "topic": "hosting",
+   "fact": "The page does not say where data is hosted.",
+   "url": "https://botpress.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "as-f041",
+   "candidate": "CrewAI",
+   "group": "framework",
+   "topic": "price",
+   "fact": "Basic plan is free (visual editor, 50 workflow executions per month); Enterprise price is custom with no published figures.",
+   "url": "https://www.crewai.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f042",
+   "candidate": "CrewAI",
+   "group": "framework",
+   "topic": "licence",
+   "fact": "The open-source repository's LICENSE is MIT.",
+   "url": "https://github.com/crewAIInc/crewAI/blob/main/LICENSE",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "as-f043",
+   "candidate": "CrewAI",
+   "group": "framework",
+   "topic": "control",
+   "fact": "Tracing, OpenTelemetry, guardrails and human-in-the-loop on both plans; RBAC, SSO, policies and PII redaction Enterprise only; audit logging not mentioned.",
+   "url": "https://www.crewai.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f044",
+   "candidate": "CrewAI",
+   "group": "framework",
+   "topic": "hosting",
+   "fact": "Enterprise can run on CrewAI cloud, the buyer's own VPC, or own infrastructure.",
+   "url": "https://www.crewai.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f045",
+   "candidate": "LangChain (LangGraph and LangSmith)",
+   "group": "framework",
+   "topic": "price",
+   "fact": "Developer $0 per seat; Plus $39 per seat per month plus usage at $1.00 per LangChain Standard Unit; Enterprise custom invoiced annually upfront.",
+   "url": "https://www.langchain.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f046",
+   "candidate": "LangChain (LangGraph and LangSmith)",
+   "group": "framework",
+   "topic": "licence",
+   "fact": "The LangGraph repository's LICENSE is MIT.",
+   "url": "https://github.com/langchain-ai/langgraph/blob/main/LICENSE",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "as-f047",
+   "candidate": "LangChain (LangGraph and LangSmith)",
+   "group": "framework",
+   "topic": "hosting",
+   "fact": "Managed cloud in US or EU, hybrid with self-hosted data plane, or fully self-hosted in own VPC (self-hosted and hybrid on Enterprise).",
+   "url": "https://www.langchain.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f048",
+   "candidate": "LangChain (LangGraph and LangSmith)",
+   "group": "framework",
+   "topic": "control",
+   "fact": "RBAC and ABAC on Enterprise; gateway with rate limits, PII and secrets redaction and bring-your-own model keys; states data is not used to train models.",
+   "url": "https://www.langchain.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f049",
+   "candidate": "n8n",
+   "group": "framework",
+   "topic": "price",
+   "fact": "Hosted Starter €20 per month (2.5K executions) and Pro €50 per month (10K) billed annually; Business €667 per month self-hosted only; Enterprise custom; Community Edition free.",
+   "url": "https://n8n.io/pricing/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f050",
+   "candidate": "n8n",
+   "group": "framework",
+   "topic": "licence",
+   "fact": "Source under the Sustainable Use License (internal business or non-commercial use, free redistribution only), with .ee files needing an Enterprise licence; not open source in the OSI sense.",
+   "url": "https://github.com/n8n-io/n8n/blob/master/LICENSE.md",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "as-f051",
+   "candidate": "n8n",
+   "group": "framework",
+   "topic": "buyer-supplies",
+   "fact": "Self-hosted Business and Enterprise need a licence key that pings n8n's licence server daily with execution counts.",
+   "url": "https://n8n.io/pricing/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f052",
+   "candidate": "n8n",
+   "group": "framework",
+   "topic": "control",
+   "fact": "Execution logging and encrypted credentials on all plans; audit logging, SSO, execution data redaction and custom roles Enterprise only.",
+   "url": "https://n8n.io/pricing/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f053",
+   "candidate": "Zapier",
+   "group": "framework",
+   "topic": "price",
+   "fact": "Pro 750 tasks $19.99 per month annual ($29.99 monthly); Team from 2,000 tasks $69 annual; Free 100 tasks; annual billing 33% off; 19 currencies.",
+   "url": "https://zapier.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f054",
+   "candidate": "Zapier",
+   "group": "framework",
+   "topic": "offer",
+   "fact": "Agents are an add-on billed in activities (Free 400 per month, Pro 1,500 per month from about $33.33 per month annual), separate from task plans.",
+   "url": "https://zapier.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f055",
+   "candidate": "Zapier",
+   "group": "framework",
+   "topic": "control",
+   "fact": "Team adds SAML SSO and shared workspaces; Enterprise adds SCIM and data retention; pay-per-task overage capped at 3x subscription.",
+   "url": "https://zapier.com/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f056",
+   "candidate": "Dust",
+   "group": "framework",
+   "topic": "price",
+   "fact": "Pro €24 per seat per month billed yearly (8,000 credits), Max €120 (40,000 credits), Free €0 with 500 lifetime credits; Enterprise custom.",
+   "url": "https://dust.tt/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f057",
+   "candidate": "Dust",
+   "group": "framework",
+   "topic": "hosting",
+   "fact": "Business includes US or EU data residency; Enterprise adds single-tenant deployment.",
+   "url": "https://dust.tt/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f058",
+   "candidate": "Dust",
+   "group": "framework",
+   "topic": "control",
+   "fact": "SOC 2 Type II and SSO on Business; SCIM, audit logs and custom legal terms on Enterprise; admins assign seat types and choose models per agent.",
+   "url": "https://dust.tt/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f059",
+   "candidate": "Make",
+   "group": "framework",
+   "topic": "price",
+   "fact": "Billing is by credits (Free 1,000 per month), with bundles of 1,000 or 10,000; the fetched page showed no dollar prices.",
+   "url": "https://www.make.com/en/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f060",
+   "candidate": "Make",
+   "group": "framework",
+   "topic": "control",
+   "fact": "No agent policy or admin controls described on the pricing page; scenarios stop when credits run out unless auto-purchase is on.",
+   "url": "https://www.make.com/en/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f061",
+   "candidate": "Make",
+   "group": "framework",
+   "topic": "offer",
+   "fact": "AI agents appear in the marketing copy but have no separate pricing on the page.",
+   "url": "https://www.make.com/en/pricing",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "as-f062",
+   "candidate": "Services firms (agent-building for a fee)",
+   "group": "services",
+   "topic": "price",
+   "fact": "No services firm with a published price or clear offer was found and verified in this run; none included.",
+   "url": "https://agenticcells.ai/pricing/",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  }
+ ],
+ "changes": [
+  {
+   "at": "2026-11-23T05:30Z",
+   "what": "first version: 18 players, 62 facts"
+  }
+ ]
+}

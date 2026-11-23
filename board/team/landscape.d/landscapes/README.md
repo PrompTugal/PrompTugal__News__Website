@@ -13,9 +13,9 @@ Dinis's word, 22 Nov 2026 (about 16:10 UTC, in landscape.d's session): map the l
 | Area | Question the landscape answers | State |
 |---|---|---|
 | `sovereign-website/` | who we compete with when we sell "a website you own", and what nobody does | first version: rings 1 and 3 (European builders, open source) |
-| `riskmandate/` | who else says anything about reach, mandate and gap for agents; where RiskMandate stands | scope only (`scope.md`) |
+| `riskmandate/` | who else says anything about reach, mandate and gap for agents; where RiskMandate stands | first version (18 players, 62 facts), 23 Nov |
 | `wardley-tools/` | which tools for Wardley maps exist or existed, open or closed, which stopped (cartographer.d's brief, Dinis ~17:15 UTC) | first version, 17 tools |
-| `agentic-sales/` | who sells agent teams, to whom and at what price (AgentiCCells's market) | scope only (`scope.md`) |
+| `agentic-sales/` | who sells agent teams, to whom and at what price (AgentiCCells's market) | first version (18 players, 62 facts), 23 Nov |
 
 ## Tracking
 Each landscape is one `landscape.json` (format `landscape/1`) with a `changes` log. At each run the scout re-reads the pages whose facts are older than 7 days or flagged, the file is rewritten, and the change is logged with the date; a fact that changed keeps its old reading in the log. Nothing is deleted silently.
