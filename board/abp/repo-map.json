@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-20T10:14:42.781Z",
- "policy": "1.19.0",
+ "generated": "2026-11-23T23:24:04.989Z",
+ "policy": "1.20.0",
  "about": "DECLARED access, from board/abp/policies.json. The ACTUAL access (which repositories a session can really reach through its GitHub App installation, tokens and environment) is security@'s to read and add under \"actual\" (board/abp/repo-map.md). A difference between declared and actual is a finding for abp@ and security@.",
  "repositories": [
   "AgentiCCells/AgentiCCells__Site__Factory",
@@ -17,6 +17,7 @@
   "PrompTugal/PrompTugal__News__Videos",
   "PrompTugal/PrompTugal__News__Weather",
   "SGit-AI/SGit-AI__Website__Newsroom",
+  "SovereignWebsite/Site__Agent__Maestro",
   "its operator's own checkout; writes here only: board/guidance/**, CLAUDE.md",
   "its operator's own checkout; writes here only: desks/conductor-jose/**, board/runs/conductor-jose/**",
   "its operator's own checkout; writes here only: desks/correspondent/front-page.json, content/articles/**, articles/**",
@@ -1283,6 +1284,57 @@
     "by the path grant in policies.json (0 path pattern(s)) and its own board folders"
    ],
    "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "decisions.d",
+   "agent": "decisions.d@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (3 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "strategy.d",
+   "agent": "strategy.d@PrompTugal.dinis",
+   "home_repository": "promptugal/promptugal__news__website",
+   "writes_home": [
+    "by the path grant in policies.json (2 path pattern(s)) and its own board folders"
+   ],
+   "writes_this_repository": "by the path grant",
+   "reads_github": [
+    "promptugal/promptugal__news__website",
+    "sgit-ai/sgit-ai__website__web-summit"
+   ],
+   "sends_to": [
+    "dev.send.sgraph.ai"
+   ],
+   "lifecycle": "onboarding"
+  },
+  {
+   "role": "maestro.e",
+   "agent": "maestro.e@PrompTugal.dinis",
+   "home_repository": "SovereignWebsite/Site__Agent__Maestro",
+   "writes_home": [
+    "accounts/e/**"
+   ],
+   "writes_this_repository": "only board/team/maestro.e/** and board/runs/maestro.e/** (and what it releases through release.sh)",
    "reads_github": [
     "promptugal/promptugal__news__website",
     "sgit-ai/sgit-ai__website__web-summit"
