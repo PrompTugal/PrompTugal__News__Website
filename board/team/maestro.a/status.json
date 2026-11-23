@@ -56,7 +56,8 @@
     "2026-11-23T16:35Z | swarm.aws.a's wake moved from hourly to every 2 h (trig_01JF74Gbuh2sBGvdhBPASQ1u), back-off after three quiet wakes, at a.conductor.aws's forwarded request (_common.md) | reversible, own area; not a start, pause or archive | saves spend while it waits on its Factory key",
     "2026-11-23T17:31Z | a.ios (VoiceDebrief) started with a 2 h wake, at Dinis's word ('which you can push from here') | none bent | R6 owner mode",
     "2026-11-23T17:54Z | s3.aws.a's wake moved from hourly to every 2 h (trig_01VWcksU5tgpAwMdQF1W3NLT), back-off after a quiet wake, at the old a.conductor.aws's forwarded request | reversible, own area | waits on Factory keys and aws.c (R-010, 44 px targets)",
-    "2026-11-23T18:09Z | the 11 replaced .aws.a sessions retitled 'REPLACED ... use session_<fresh>' so agents stop messaging them (old billing pushed 2 old-key commits at 18:06) | reversible; archiving left to Dinis | at conductor.aws.a's report"
+    "2026-11-23T18:09Z | the 11 replaced .aws.a sessions retitled 'REPLACED ... use session_<fresh>' so agents stop messaging them (old billing pushed 2 old-key commits at 18:06) | reversible; archiving left to Dinis | at conductor.aws.a's report",
+    "2026-11-23T23:39Z | a.sites started with a 2 h wake at Dinis's word ('can you create one?') | none bent | site requests on account A"
   ],
   "lessons": [
     "2026-11-23T19:38Z: a restart needs the fresh key live on the Factory before re-signing, and the replaced session archived; otherwise the Factory may land the old key (R-028) and the old session can still sign.",
