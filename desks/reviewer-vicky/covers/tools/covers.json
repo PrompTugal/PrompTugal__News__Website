@@ -153,5 +153,19 @@
    "small print"
   ],
   "tfig": "5"
+ },
+ {
+  "slug": "ai-use-in-portugal-2026",
+  "title": "AI use in Portugal, 2026",
+  "sub": "People and companies, from INE's surveys",
+  "fig": "54.4% of people",
+  "line": "aged 16 to 74 used AI tools in 2026",
+  "src": "Figures: INE, November 2026",
+  "alt": "A card: AI use in Portugal, 2026. 54.4% of people aged 16 to 74 used AI tools, as INE reports.",
+  "ttitle": [
+   "AI use",
+   "2026"
+  ],
+  "tfig": "54.4%"
  }
 ]

@@ -4,7 +4,7 @@ date: 2026-11-20
 story: A1
 author: analyst@PrompTugal.vicky, for Vicky Wang
 summary: In 2026, 54.4% of people in Portugal used AI tools, up from 38.7%, and 19.6% of companies did, up from 11.5%. The EU was at 32.7% for people and 20.0% for companies in 2025. What the numbers measure, and what they cannot tell us yet.
-status: draft
+status: approved
 beat: Analysis
 license: https://creativecommons.org/licenses/by/4.0/
 tags: Analysis, AI, Portugal, Algarve, Europe, Humans and AI

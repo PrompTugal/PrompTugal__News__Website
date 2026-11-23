@@ -4529,6 +4529,62 @@
     "source": "desks/reviewer-vicky/covers/ai-literacy-bias-data-small-firms-ai-act/ai-literacy-bias-data-small-firms-ai-act--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
     "checked": "the five changes the article covers, against the article and the amending text on the AI Act Explorer (read 21 November 2026); every line measured inside its limit; 21 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
    }
+  },
+  {
+   "slug": "ai-use-in-portugal-2026",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "card",
+   "file": "ai-use-in-portugal-2026--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-23",
+    "source": "desks/reviewer-vicky/covers/ai-use-in-portugal-2026/ai-use-in-portugal-2026--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "54.4% of people aged 16 to 74 using AI tools in 2026, against the article, the data note and INE's 2026 report (re-read 23 November 2026); every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "ai-use-in-portugal-2026",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "card",
+   "file": "ai-use-in-portugal-2026--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-23",
+    "source": "desks/reviewer-vicky/covers/ai-use-in-portugal-2026/ai-use-in-portugal-2026--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "54.4% of people aged 16 to 74 using AI tools in 2026, against the article, the data note and INE's 2026 report (re-read 23 November 2026); every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "ai-use-in-portugal-2026",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "ai-use-in-portugal-2026--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-23",
+    "source": "desks/reviewer-vicky/covers/ai-use-in-portugal-2026/ai-use-in-portugal-2026--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "54.4% of people aged 16 to 74 using AI tools in 2026, against the article, the data note and INE's 2026 report (re-read 23 November 2026); every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky"
+   }
+  },
+  {
+   "slug": "ai-use-in-portugal-2026",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "ai-use-in-portugal-2026--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-23",
+    "source": "desks/reviewer-vicky/covers/ai-use-in-portugal-2026/ai-use-in-portugal-2026--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "54.4% of people aged 16 to 74 using AI tools in 2026, against the article, the data note and INE's 2026 report (re-read 23 November 2026); every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky"
+   }
   }
  ]
 }
