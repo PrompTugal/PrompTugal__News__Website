@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2182",
+    "date": "2026-11-23",
+    "what": "maestro.b (account-b): correction: no IaC push access (keys in own repos); offboarding process; relayed to all maestros",
+    "by": "maestro.b (account-b)",
+    "from": "7f6c38d32"
+  },
+  {
     "version": "v0.1.2181",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): fresh iam.aws.a key a80f2eb relayed to c.factory (plain append)",
