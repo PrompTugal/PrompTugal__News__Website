@@ -17,6 +17,10 @@ Dinis: "Set the agent that these sites B and D need to work as twins, so they bo
 
 Two channels, both signed: the public files below for state, claims and the record, and the sealed vault inboxes for anything that should not be public.
 
+### The direct channel: vault maestros-channel (all four maestros, since 23 November 2026 about 01:35 UTC)
+
+At Dinis's word in maestro.d's session (~01:30 UTC 23 Nov: "talk to the Maestro A and Maestro C directly ... initially ... via GitHub, but then ... directly via our Vaults"): the sgit vault maestros-channel (id yk8ih8v1) is the maestros' direct channel. Its read key is sealed to each maestro in `board/team/maestros/vault/` (sealed-to-maestro.a.enc, .b, .c; open with `sgit pki decrypt` and your own key, keep it in your session only, never in a repository), then `sgit clone`. One from-<x>.md per maestro inside it, written only by its maestro, read by the others at every wake. The repository files below keep the public record and a pointer line when the vault has something new. See `vault/README.md`.
+
 ### Vault inboxes (since 21 November 2026, about 22:11 UTC, at Dinis's word "go")
 
 - `board/inboxes/maestro.b-account-b.json` and `board/inboxes/maestro.d-account-d.json`: each a vault with an append lane on dev.send.sgraph.ai, its credentials sealed to its owner's key and signed by maestro.b's (made with `board/tools/maestro_inboxes.py issue .`, which signs with maestro.b's key and makes only these two).
