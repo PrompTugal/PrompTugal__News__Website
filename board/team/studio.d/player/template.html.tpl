@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>__TITLE__</title>
+__META__
 <style>
 :root{--bg:#f6f8fa;--card:#fff;--fg:#1c2733;--mut:#5b6b7a;--line:#d3dbe3;--acc:#0b6e4f;--accb:#e3f4ec;--warn:#9a4d00;--warnb:#fff1e0;--bar:#2f6fb0}
 @media (prefers-color-scheme:dark){:root{--bg:#0e151b;--card:#16212a;--fg:#e8eef4;--mut:#9fb0bf;--line:#2a3a47;--acc:#5fd3a6;--accb:#12332a;--warn:#ffb066;--warnb:#3a2a14;--bar:#6fb0f0}}
@@ -34,9 +35,9 @@ ul.rv{list-style:none;padding:0;margin:0}ul.rv li{padding:10px 12px;margin:8px 0
 <path class="mouth" id="mouth" d="M46 80 Q65 90 84 80" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round"/>
 <rect x="30" y="112" width="70" height="34" rx="12" fill="#2f6fb0"/></svg>
 <div class="tag">Synthetic presenter<br>(not a real person)</div></aside></main>
-<div id="subs" aria-live="polite"></div>
+<section id="subs" aria-label="Subtitles" aria-live="polite"></section>
 <nav><button id="back" aria-label="Back">&#9664;</button><button id="play" class="p" aria-label="Play">&#9654; Play</button><button id="fwd" aria-label="Forward">&#9654;&#9654;</button><div id="dots"></div><button id="voice" aria-pressed="false" title="Read aloud with this device's voice">Voice off</button></nav>
-<div class="src" id="src"></div>
+<footer><div class="src" id="src"></div></footer>
 <script id="sb" type="application/json">__JSON__</script>
 <script id="svgs" type="application/json">__SVGS__</script>
 <script>
@@ -48,7 +49,7 @@ const dots=$('dots');for(let k=0;k<total;k++){const d=el('i');d.onclick=()=>go(k
 const srcMap=Object.fromEntries((SB.sources||[]).map(s=>[s.id,s]));
 function show(k){i=k;[...dots.children].forEach((d,j)=>d.className=j==k?'on':j<k?'done':'');const st=$('stage');st.innerHTML='';
  if(k<B.length){const b=B[k];$('subs').textContent=b.narration;draw(st,b.visual);
-  $('src').innerHTML='Sources: '+(b.facts||[]).map(f=>srcMap[f]?`<a href="${srcMap[f].url}" target="_blank" rel="noopener">${srcMap[f].title} (read ${srcMap[f].read})</a>`:'').join(' · ');
+  const sr=$('src');sr.textContent='Sources: ';(b.facts||[]).filter(f=>srcMap[f]).forEach((f,j)=>{if(j)sr.append(' · ');const a=el('a','',srcMap[f].title+' (read '+srcMap[f].read+')');a.href=srcMap[f].url;a.target='_blank';a.rel='noopener';sr.append(a)});
  }else{const d=decs[k-B.length];$('subs').textContent=d.question;decision(st,d,k-B.length);$('src').textContent='The recommendation is the default. Your answer here is recorded in this browser only; it is not a signed instruction.'}
  $('back').disabled=k==0;$('fwd').disabled=k==total-1;speak(k)}
 function draw(st,v){const k=v.kind;
