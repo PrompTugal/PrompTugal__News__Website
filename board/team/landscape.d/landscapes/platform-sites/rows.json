@@ -1,0 +1,604 @@
+{
+ "format": "landscape-rows/1",
+ "for": "cartographer.d@AgentiCCells.dinis",
+ "made": "2026-11-23T06:10Z",
+ "made_by": "landscape.d@AgentiCCells.dinis",
+ "rows": [
+  {
+   "id": "ps-p-mcp-server-odoo--ivnvxd",
+   "name": "mcp-server-odoo (ivnvxd)",
+   "group": "odoo",
+   "what": "MCP server letting AI assistants search, read, create, update and delete Odoo records, with opt-in workflow calls.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/ivnvxd/mcp-server-odoo",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f001",
+    "ps-f002",
+    "ps-f003",
+    "ps-f004",
+    "ps-f005"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-odoo-mcp--tuanle96---erpipe-author",
+   "name": "Odoo MCP (tuanle96 / ERPipe author)",
+   "group": "odoo",
+   "what": "Python MCP server with 41 tools for reading and aggregating Odoo data, with a gated write workflow; billed as a free AI layer for any Odoo 16+.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/tuanle96/mcp-odoo",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f006",
+    "ps-f007",
+    "ps-f008",
+    "ps-f009",
+    "ps-f010"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-mcp-server-module--much--consulting",
+   "name": "MCP Server module (much. Consulting)",
+   "group": "odoo",
+   "what": "Odoo 19 module adding a /mcp endpoint so Claude, ChatGPT, Copilot or Cursor can work with Odoo records, with 17 built-in tools.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://apps.odoo.com/apps/modules/19.0/mcp_server",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f011",
+    "ps-f012",
+    "ps-f013",
+    "ps-f014",
+    "ps-f015"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-odoo-own-ai---mcp-odoo-comparison",
+   "name": "Odoo own AI / mcp-odoo comparison",
+   "group": "odoo",
+   "what": "The tuanle96 page says Odoo's built-in AI is Enterprise-only (a vendor comparison, not an Odoo page).",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/tuanle96/mcp-odoo",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "ps-f016"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-odoo-ai-product-page",
+   "name": "Odoo AI product page",
+   "group": "odoo",
+   "what": "Odoo's own page at odoo.com/app/ai returned 404, so Odoo's own AI offer is not confirmed here.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://www.odoo.com/app/ai",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "ps-f017"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-odoo",
+   "name": "Odoo",
+   "group": "platform-terms",
+   "what": "Odoo 19 docs show an External JSON-2 API with API keys (manual or programmatic generation) and access rights; plan availability not read (page truncated).",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://www.odoo.com/documentation/19.0/developer/reference/external_api.html",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f018"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-routerchat--aurokin",
+   "name": "RouterChat (aurokin)",
+   "group": "openrouter",
+   "what": "Open-source chat web app for OpenRouter models with model picker, thinking mode, web search and system prompts.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/aurokin/routerchat",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f019",
+    "ps-f020",
+    "ps-f021",
+    "ps-f022",
+    "ps-f023"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-l0-chat",
+   "name": "L0 Chat",
+   "group": "openrouter",
+   "what": "Lightweight chat client for OpenRouter, reported by search to support web search and browser-stored key; the repository page itself returned 404 on fetch.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/dosvic/l0-chat",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "ps-f024"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-openrouter-partner-list",
+   "name": "OpenRouter partner list",
+   "group": "openrouter",
+   "what": "OpenRouter's own page lists many clients and tools (Open WebUI, LibreChat, Chatbox, BoltAI, SillyTavern, Helicone for observability).",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://openrouter.ai/works-with-openrouter",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f025"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-oriveo",
+   "name": "Oriveo",
+   "group": "openrouter",
+   "what": "Multi-model chat app (iOS, Android, web) that shows an estimated cost per reply, per OpenRouter's awesome list; own page not read.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/OpenRouterTeam/awesome-openrouter",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "ps-f026"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-laminar-and-helicone",
+   "name": "Laminar and Helicone",
+   "group": "openrouter",
+   "what": "Listed on OpenRouter's awesome list as tracing and observability tools covering tokens, cost and latency of OpenRouter calls; own pages not read.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/OpenRouterTeam/awesome-openrouter",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "ps-f027"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-all-api-hub",
+   "name": "all-api-hub",
+   "group": "openrouter",
+   "what": "Listed as a browser extension for browsing models and pricing; own page not read.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/OpenRouterTeam/awesome-openrouter",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "ps-f028"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-openrouter-own-tools",
+   "name": "OpenRouter own tools",
+   "group": "openrouter",
+   "what": "OpenRouter's own chat page is a playground that compares several models side by side.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://openrouter.ai/chat",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f029",
+    "ps-f030"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-openrouter",
+   "name": "OpenRouter",
+   "group": "platform-terms",
+   "what": "Terms bar reselling API access or building a competing service; third-party tools fall under their own terms (10.3).",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://openrouter.ai/terms",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f031",
+    "ps-f032",
+    "ps-f033"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-brows3",
+   "name": "Brows3",
+   "group": "aws",
+   "what": "Desktop client for browsing and managing objects in S3 and S3-compatible storage, with search, editor, preview and sync.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/rgcsekaraa/brows3",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f034",
+    "ps-f035",
+    "ps-f036",
+    "ps-f037",
+    "ps-f038"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-filestash",
+   "name": "Filestash",
+   "group": "aws",
+   "what": "Web file manager for S3 and compatible buckets: browse, upload, edit documents, shared links without exposing keys.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://filestash.app/s3-browser.html",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f039",
+    "ps-f040",
+    "ps-f041",
+    "ps-f042",
+    "ps-f043"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-s3ui",
+   "name": "S3UI",
+   "group": "aws",
+   "what": "Search listing says desktop dual-pane S3 manager with cost tracking; the PyPI page was not read in detail.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://pypi.org/project/s3ui/",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "ps-f044"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-opencost",
+   "name": "OpenCost",
+   "group": "aws",
+   "what": "Cost visibility for Kubernetes and cloud spend (AWS, Azure, GCP), broken down by cluster, namespace or pod.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/opencost/opencost",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f045",
+    "ps-f046",
+    "ps-f047",
+    "ps-f048"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-komiser",
+   "name": "Komiser",
+   "group": "aws",
+   "what": "Cloud resource manager for cost, usage, security and idle-resource detection across AWS and other clouds.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/tailwarden/komiser",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f049",
+    "ps-f050",
+    "ps-f051",
+    "ps-f052"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-aws-billing-and-cost-management-mcp-server--awslabs",
+   "name": "AWS Billing and Cost Management MCP server (awslabs)",
+   "group": "aws",
+   "what": "AWS's own MCP server giving AI assistants Cost Explorer, Budgets, anomaly, Savings Plans and Compute Optimizer data.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://awslabs.github.io/mcp/servers/billing-cost-management-mcp-server",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f053",
+    "ps-f054",
+    "ps-f055"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-aws",
+   "name": "AWS",
+   "group": "platform-terms",
+   "what": "AWS legal page links the Customer Agreement, Acceptable Use Policy and Trademark Guidelines; contents not read.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://aws.amazon.com/legal/",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f056"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-wike",
+   "name": "Wike",
+   "group": "wikipedia",
+   "what": "GNOME desktop Wikipedia reader with tabs, 300+ languages, bookmarks and themes.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/hugolabe/Wike",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f057",
+    "ps-f058",
+    "ps-f059",
+    "ps-f060",
+    "ps-f061"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-kiwix-android",
+   "name": "Kiwix Android",
+   "group": "wikipedia",
+   "what": "Offline reader making Wikipedia available from ZIM archives.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/kiwix/kiwix-android",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f062",
+    "ps-f063",
+    "ps-f064",
+    "ps-f065",
+    "ps-f066"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-wikipedia-mcp--rudra-ravi",
+   "name": "wikipedia-mcp (Rudra-ravi)",
+   "group": "wikipedia",
+   "what": "MCP server giving LLMs search, article text, summaries, sections and links from Wikipedia.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/Rudra-ravi/wikipedia-mcp",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f067",
+    "ps-f068",
+    "ps-f069",
+    "ps-f070",
+    "ps-f071"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-wikipedia-android-app--wikimedia",
+   "name": "Wikipedia Android app (Wikimedia)",
+   "group": "wikipedia",
+   "what": "Official Wikipedia Android app source, on Google Play.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/wikimedia/apps-android-wikipedia",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f072",
+    "ps-f073"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-wikiwand",
+   "name": "Wikiwand",
+   "group": "wikipedia",
+   "what": "Alternative reader listed by AlternativeTo as freemium proprietary; its own about page returned 403.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://www.wikiwand.com/en/about",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "ps-f074"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-wikiless",
+   "name": "Wikiless",
+   "group": "wikipedia",
+   "what": "Privacy front-end seen in search; its repository URL returned 404.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/Metastem/Wikiless",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "ps-f075"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-wikipedia",
+   "name": "Wikipedia",
+   "group": "platform-terms",
+   "what": "Text reusable under CC BY-SA 4.0 and GFDL; credit by link to the article or history, or an author list.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f076",
+    "ps-f077",
+    "ps-f078"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-owasp-pentest-guide-knowledge-mcp--sunick2009",
+   "name": "OWASP Pentest Guide Knowledge MCP (sunick2009)",
+   "group": "owasp",
+   "what": "Read-only lookup and search of OWASP testing guides (WSTG, MASTG and others) as an MCP server.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://glama.ai/mcp/servers/integrations/owasp",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "ps-f079",
+    "ps-f080"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-agent-security-mcp--mdfifty50-boop",
+   "name": "Agent Security MCP (mdfifty50-boop)",
+   "group": "owasp",
+   "what": "Provides OWASP LLM Top 10 and Agentic Top 10 resources plus agent-workflow scanning, per the directory listing.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://glama.ai/mcp/servers/integrations/owasp",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "ps-f081",
+    "ps-f082"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-unofficial-owasp-browsers",
+   "name": "Unofficial OWASP browsers",
+   "group": "owasp",
+   "what": "No standalone alternative reader for the Top Ten was found; only MCP wrappers and forks.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://owasp.org/www-project-cheat-sheet-series/",
+   "date_read": "2026-11-23",
+   "flagged": true,
+   "fact_ids": [
+    "ps-f083"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-owasp-cheat-sheet-series",
+   "name": "OWASP Cheat Sheet Series",
+   "group": "platform-terms",
+   "what": "Licensed CC-BY-SA-4.0; OWASP says its Markdown files are not meant to be cited externally, use the official site.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/OWASP/CheatSheetSeries",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f084"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-owasp",
+   "name": "OWASP",
+   "group": "platform-terms",
+   "what": "OWASP and Open Worldwide Application Security Project are registered trademarks of the OWASP Foundation.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://github.com/OWASP/CheatSheetSeries",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f085"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  },
+  {
+   "id": "ps-p-owasp-top-ten",
+   "name": "OWASP Top Ten",
+   "group": "platform-terms",
+   "what": "Top Ten project page states no licence, only an all-rights-reserved footer; the policy licensing page returned 404.",
+   "serves_needs": [],
+   "lacks_needs": [],
+   "price_line": "not read",
+   "source_url": "https://owasp.org/www-project-top-ten/",
+   "date_read": "2026-11-23",
+   "flagged": false,
+   "fact_ids": [
+    "ps-f086"
+   ],
+   "note": "no user-need column yet; the users are the platform sites' users in strategy.d's note"
+  }
+ ]
+}

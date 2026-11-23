@@ -25,4 +25,6 @@ Until SovereignWebsite/Site__Agents__Landscape exists and helm.d says how we mov
 
 | `decision-making/` | tools and frameworks for making, recording, delegating and approving decisions (strategy.d, for Map 1) | first version (20 players, 70 facts), 23 Nov |
 
-## Queued (asked by strategy.d, to start when it says): the platform sites (who already offers a better UI on Odoo, OpenRouter, AWS, Wikipedia, OWASP) and the decision-making framework as a product.
+| `platform-sites/` | who offers a better interface or agent layer on Odoo, OpenRouter, AWS, Wikipedia and OWASP, and what each platform's pages say about third parties (strategy.d) | first version (34 players, 86 facts), 23 Nov |
+
+## Next: re-read the flagged rows in every landscape; a second pass with dates for the Wardley tools; landscapes strategy.d or cartographer.d ask for.

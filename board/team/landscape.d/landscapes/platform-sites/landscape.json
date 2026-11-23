@@ -1,0 +1,1322 @@
+{
+ "format": "landscape/1",
+ "id": "platform-sites",
+ "title": "Platform sites: who offers a better interface or agent layer on Odoo, OpenRouter, AWS, Wikipedia and OWASP",
+ "status": "draft",
+ "made": "2026-11-23T06:10Z",
+ "made_by": "landscape.d@AgentiCCells.dinis",
+ "about": "First read, 23 Nov 2026, public pages only; positions are not given. Requested by strategy.d for its platform-sites strategy (board/team/strategy.d/strategy/2026-11-22-platform-sites-b2c2b.md). Groups are the five platforms plus platform-terms (what each platform's own pages say about third-party clients, licence and name). Facts are exactly as the scout returned them; the platform's trademark and content terms still need rights@ or counsel.d before any site launches.",
+ "players": [
+  {
+   "player": "mcp-server-odoo (ivnvxd)",
+   "group": "odoo",
+   "fact_ids": [
+    "ps-f001",
+    "ps-f002",
+    "ps-f003",
+    "ps-f004",
+    "ps-f005"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Odoo MCP (tuanle96 / ERPipe author)",
+   "group": "odoo",
+   "fact_ids": [
+    "ps-f006",
+    "ps-f007",
+    "ps-f008",
+    "ps-f009",
+    "ps-f010"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "MCP Server module (much. Consulting)",
+   "group": "odoo",
+   "fact_ids": [
+    "ps-f011",
+    "ps-f012",
+    "ps-f013",
+    "ps-f014",
+    "ps-f015"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Odoo own AI / mcp-odoo comparison",
+   "group": "odoo",
+   "fact_ids": [
+    "ps-f016"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Odoo AI product page",
+   "group": "odoo",
+   "fact_ids": [
+    "ps-f017"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "Odoo",
+   "group": "platform-terms",
+   "fact_ids": [
+    "ps-f018"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "RouterChat (aurokin)",
+   "group": "openrouter",
+   "fact_ids": [
+    "ps-f019",
+    "ps-f020",
+    "ps-f021",
+    "ps-f022",
+    "ps-f023"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "L0 Chat",
+   "group": "openrouter",
+   "fact_ids": [
+    "ps-f024"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "OpenRouter partner list",
+   "group": "openrouter",
+   "fact_ids": [
+    "ps-f025"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Oriveo",
+   "group": "openrouter",
+   "fact_ids": [
+    "ps-f026"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Laminar and Helicone",
+   "group": "openrouter",
+   "fact_ids": [
+    "ps-f027"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "all-api-hub",
+   "group": "openrouter",
+   "fact_ids": [
+    "ps-f028"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "OpenRouter own tools",
+   "group": "openrouter",
+   "fact_ids": [
+    "ps-f029",
+    "ps-f030"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "OpenRouter",
+   "group": "platform-terms",
+   "fact_ids": [
+    "ps-f031",
+    "ps-f032",
+    "ps-f033"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Brows3",
+   "group": "aws",
+   "fact_ids": [
+    "ps-f034",
+    "ps-f035",
+    "ps-f036",
+    "ps-f037",
+    "ps-f038"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Filestash",
+   "group": "aws",
+   "fact_ids": [
+    "ps-f039",
+    "ps-f040",
+    "ps-f041",
+    "ps-f042",
+    "ps-f043"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "S3UI",
+   "group": "aws",
+   "fact_ids": [
+    "ps-f044"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "OpenCost",
+   "group": "aws",
+   "fact_ids": [
+    "ps-f045",
+    "ps-f046",
+    "ps-f047",
+    "ps-f048"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Komiser",
+   "group": "aws",
+   "fact_ids": [
+    "ps-f049",
+    "ps-f050",
+    "ps-f051",
+    "ps-f052"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "AWS Billing and Cost Management MCP server (awslabs)",
+   "group": "aws",
+   "fact_ids": [
+    "ps-f053",
+    "ps-f054",
+    "ps-f055"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "AWS",
+   "group": "platform-terms",
+   "fact_ids": [
+    "ps-f056"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Wike",
+   "group": "wikipedia",
+   "fact_ids": [
+    "ps-f057",
+    "ps-f058",
+    "ps-f059",
+    "ps-f060",
+    "ps-f061"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Kiwix Android",
+   "group": "wikipedia",
+   "fact_ids": [
+    "ps-f062",
+    "ps-f063",
+    "ps-f064",
+    "ps-f065",
+    "ps-f066"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "wikipedia-mcp (Rudra-ravi)",
+   "group": "wikipedia",
+   "fact_ids": [
+    "ps-f067",
+    "ps-f068",
+    "ps-f069",
+    "ps-f070",
+    "ps-f071"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Wikipedia Android app (Wikimedia)",
+   "group": "wikipedia",
+   "fact_ids": [
+    "ps-f072",
+    "ps-f073"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Wikiwand",
+   "group": "wikipedia",
+   "fact_ids": [
+    "ps-f074"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "Wikiless",
+   "group": "wikipedia",
+   "fact_ids": [
+    "ps-f075"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "Wikipedia",
+   "group": "platform-terms",
+   "fact_ids": [
+    "ps-f076",
+    "ps-f077",
+    "ps-f078"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "OWASP Pentest Guide Knowledge MCP (sunick2009)",
+   "group": "owasp",
+   "fact_ids": [
+    "ps-f079",
+    "ps-f080"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Agent Security MCP (mdfifty50-boop)",
+   "group": "owasp",
+   "fact_ids": [
+    "ps-f081",
+    "ps-f082"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "Unofficial OWASP browsers",
+   "group": "owasp",
+   "fact_ids": [
+    "ps-f083"
+   ],
+   "flagged": true
+  },
+  {
+   "player": "OWASP Cheat Sheet Series",
+   "group": "platform-terms",
+   "fact_ids": [
+    "ps-f084"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "OWASP",
+   "group": "platform-terms",
+   "fact_ids": [
+    "ps-f085"
+   ],
+   "flagged": false
+  },
+  {
+   "player": "OWASP Top Ten",
+   "group": "platform-terms",
+   "fact_ids": [
+    "ps-f086"
+   ],
+   "flagged": false
+  }
+ ],
+ "findings": [
+  {
+   "id": "ps-g1",
+   "kind": "odoo",
+   "text": "Odoo: the alternatives read are agent layers for developers, not better user interfaces: mcp-server-odoo (MPL-2.0, runs on the user's machine, XML-RPC or JSON-2; its HTTP transport has no client authentication), Odoo MCP by tuanle96 (MIT, writes off by default, a hosted version sold separately), and an Odoo 19 module by much. Consulting (OPL-1 proprietary, third-party listing, OAuth 2.1, calls run as the logged-in user with an audit log). Odoo's own AI page returned 404, so its own offer is not confirmed; a rival's page says Odoo's built-in AI is Enterprise-only (a third-party reading).",
+   "facts": [
+    "ps-f002",
+    "ps-f003",
+    "ps-f005",
+    "ps-f007",
+    "ps-f008",
+    "ps-f010",
+    "ps-f013",
+    "ps-f014",
+    "ps-f015",
+    "ps-f017",
+    "ps-f016",
+    "ps-f018"
+   ]
+  },
+  {
+   "id": "ps-g2",
+   "kind": "openrouter",
+   "text": "OpenRouter: browser-direct open-source clients exist: RouterChat (MIT; the browser calls OpenRouter itself; key, settings and chats stay in the browser by default). OpenRouter's own page lists many clients (Open WebUI, LibreChat, Chatbox, BoltAI, SillyTavern, Helicone), has its own side-by-side chat playground and an activity and analytics API with per-key limits. Its terms bar reselling API access or building a competing service, leave third-party tools to their own terms, do not address its name or logo, and make the user responsible for keeping credentials secret. The awesome-list entries (Oriveo, Laminar, Helicone, all-api-hub) were read only as listings.",
+   "facts": [
+    "ps-f020",
+    "ps-f021",
+    "ps-f023",
+    "ps-f025",
+    "ps-f029",
+    "ps-f030",
+    "ps-f031",
+    "ps-f032",
+    "ps-f033",
+    "ps-f026",
+    "ps-f027"
+   ]
+  },
+  {
+   "id": "ps-g3",
+   "kind": "aws",
+   "text": "AWS: S3 browsers and cost tools exist but none read states that it runs browser-direct on the user's own key (Filestash says only that you log in with S3 keys and does not say where they are stored): Brows3 (desktop, MIT, profiles in the OS keychain), Filestash (web, self-hostable, login with S3 keys, AGPL logo, licence not named in text), OpenCost (Apache-2.0, aimed at Kubernetes spend, opt-in MCP server), Komiser (Elastic License 2.0, which is source-available, though its page calls it open source). AWS has its own Billing and Cost Management MCP server (run locally with the caller's credentials). AWS's legal page links an acceptable use policy and trademark guidelines, which were not read.",
+   "facts": [
+    "ps-f035",
+    "ps-f036",
+    "ps-f038",
+    "ps-f040",
+    "ps-f041",
+    "ps-f043",
+    "ps-f046",
+    "ps-f047",
+    "ps-f051",
+    "ps-f054",
+    "ps-f055",
+    "ps-f056"
+   ]
+  },
+  {
+   "id": "ps-g4",
+   "kind": "wikipedia",
+   "text": "Wikipedia: readers exist as apps and agent layers (Wike, GPLv3, says it is independent and not endorsed by the Wikimedia Foundation; Kiwix Android, GPLv3 or later, offline; wikipedia-mcp, MIT; the Foundation's own Android app, Apache-2.0). Wikiwand (403) and Wikiless (404) could not be read. The Foundation's terms: text reusable under CC BY-SA 4.0 and GFDL with credit by link or author list; API use must follow its User-Agent Policy, Robot Policy and API Etiquette; the Foundation does not endorse third-party sites; its names, logos and domains only under its Trademark Policy. These match the rules in strategy.d's platform-sites note (unofficial label, credit under licence, a User-Agent that names us).",
+   "facts": [
+    "ps-f059",
+    "ps-f060",
+    "ps-f064",
+    "ps-f069",
+    "ps-f073",
+    "ps-f074",
+    "ps-f075",
+    "ps-f076",
+    "ps-f077",
+    "ps-f078"
+   ]
+  },
+  {
+   "id": "ps-g5",
+   "kind": "owasp",
+   "text": "OWASP: no standalone alternative reader for the Top Ten was found; only MCP wrappers (read as directory listings, not their own pages) and forks of the cheat sheets. The Cheat Sheet Series is CC-BY-SA-4.0 and OWASP says its Markdown files are not meant to be cited externally; 'OWASP' is a registered trademark of the OWASP Foundation; the Top Ten project page states no licence, only an all-rights-reserved footer, and the licensing page returned 404. So the Top Ten's reuse terms are unclear and need checking (rights@) before any site is built on it.",
+   "facts": [
+    "ps-f083",
+    "ps-f084",
+    "ps-f085",
+    "ps-f086",
+    "ps-f079",
+    "ps-f080",
+    "ps-f081",
+    "ps-f082"
+   ]
+  },
+  {
+   "id": "ps-g6",
+   "kind": "pattern",
+   "text": "Across the five platforms the alternatives found are mostly agent layers and desktop apps for technical users; one browser-direct web client (RouterChat for OpenRouter) was read where the user's key stays in the browser. The browser-direct model in strategy.d's platform-sites note has few precedents in the set read. This is a reading of the players found by search on 23 Nov 2026, not a survey of everything that exists.",
+   "facts": [
+    "ps-f023",
+    "ps-f035",
+    "ps-f058",
+    "ps-f002"
+   ]
+  },
+  {
+   "id": "ps-g7",
+   "kind": "gap-in-my-reading",
+   "text": "Not verified in this run: L0 Chat (404), Wikiwand (403), Wikiless (404), Odoo's own AI page (404), the pages of Oriveo, Laminar, Helicone, all-api-hub and S3UI (listings only), the OWASP MCP servers (directory listings only), the contents of AWS's acceptable use policy and trademark guidelines, and OWASP's licensing page (404). Names were found by search; each player is kept only where a page was read. Absence on a page is not proof of absence in a product.",
+   "facts": [
+    "ps-f024",
+    "ps-f074",
+    "ps-f075",
+    "ps-f044",
+    "ps-f017",
+    "ps-f086"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "id": "ps-f001",
+   "candidate": "mcp-server-odoo (ivnvxd)",
+   "group": "odoo",
+   "topic": "offer",
+   "fact": "MCP server letting AI assistants search, read, create, update and delete Odoo records, with opt-in workflow calls.",
+   "url": "https://github.com/ivnvxd/mcp-server-odoo",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f002",
+   "candidate": "mcp-server-odoo (ivnvxd)",
+   "group": "odoo",
+   "topic": "how",
+   "fact": "Runs on the user's own machine beside the AI client (uvx, pip, Docker) and talks to Odoo over XML-RPC or JSON-2; stdio by default.",
+   "url": "https://github.com/ivnvxd/mcp-server-odoo",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f003",
+   "candidate": "mcp-server-odoo (ivnvxd)",
+   "group": "odoo",
+   "topic": "licence",
+   "fact": "MPL-2.0 per its LICENSE file.",
+   "url": "https://github.com/ivnvxd/mcp-server-odoo",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f004",
+   "candidate": "mcp-server-odoo (ivnvxd)",
+   "group": "odoo",
+   "topic": "unofficial",
+   "fact": "No disclaimer about affiliation with Odoo on the page; it links to the Odoo MCP module's app listing.",
+   "url": "https://github.com/ivnvxd/mcp-server-odoo",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f005",
+   "candidate": "mcp-server-odoo (ivnvxd)",
+   "group": "odoo",
+   "topic": "key-and-data",
+   "fact": "Odoo API key (or user/password) is set in environment variables or a .env file; the HTTP transport has no client authentication; no price stated.",
+   "url": "https://github.com/ivnvxd/mcp-server-odoo",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f006",
+   "candidate": "Odoo MCP (tuanle96 / ERPipe author)",
+   "group": "odoo",
+   "topic": "offer",
+   "fact": "Python MCP server with 41 tools for reading and aggregating Odoo data, with a gated write workflow; billed as a free AI layer for any Odoo 16+.",
+   "url": "https://github.com/tuanle96/mcp-odoo",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f007",
+   "candidate": "Odoo MCP (tuanle96 / ERPipe author)",
+   "group": "odoo",
+   "topic": "how",
+   "fact": "Self-hosted via uvx, pip or Docker; XML-RPC for Odoo 16-18, JSON-2 for 19+; a managed hosted version (ERPipe) exists separately.",
+   "url": "https://github.com/tuanle96/mcp-odoo",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f008",
+   "candidate": "Odoo MCP (tuanle96 / ERPipe author)",
+   "group": "odoo",
+   "topic": "licence",
+   "fact": "MIT.",
+   "url": "https://github.com/tuanle96/mcp-odoo",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f009",
+   "candidate": "Odoo MCP (tuanle96 / ERPipe author)",
+   "group": "odoo",
+   "topic": "unofficial",
+   "fact": "No explicit statement of non-affiliation with Odoo S.A. on the page.",
+   "url": "https://github.com/tuanle96/mcp-odoo",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f010",
+   "candidate": "Odoo MCP (tuanle96 / ERPipe author)",
+   "group": "odoo",
+   "topic": "key-and-data",
+   "fact": "Credentials come from environment variables or a config file; writes are off by default; the server has no built-in HTTP authentication.",
+   "url": "https://github.com/tuanle96/mcp-odoo",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f011",
+   "candidate": "MCP Server module (much. Consulting)",
+   "group": "odoo",
+   "topic": "offer",
+   "fact": "Odoo 19 module adding a /mcp endpoint so Claude, ChatGPT, Copilot or Cursor can work with Odoo records, with 17 built-in tools.",
+   "url": "https://apps.odoo.com/apps/modules/19.0/mcp_server",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f012",
+   "candidate": "MCP Server module (much. Consulting)",
+   "group": "odoo",
+   "topic": "how",
+   "fact": "Installed inside Odoo as an app; OAuth 2.1 sign-in or API keys limited to MCP only; MCP is off by default.",
+   "url": "https://apps.odoo.com/apps/modules/19.0/mcp_server",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f013",
+   "candidate": "MCP Server module (much. Consulting)",
+   "group": "odoo",
+   "topic": "licence",
+   "fact": "OPL-1 (Odoo Proprietary License), no redistribution; the page states no price.",
+   "url": "https://apps.odoo.com/apps/modules/19.0/mcp_server",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f014",
+   "candidate": "MCP Server module (much. Consulting)",
+   "group": "odoo",
+   "topic": "unofficial",
+   "fact": "Listed on the Odoo app store as Third Party by much. Consulting; no claim Odoo made it.",
+   "url": "https://apps.odoo.com/apps/modules/19.0/mcp_server",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f015",
+   "candidate": "MCP Server module (much. Consulting)",
+   "group": "odoo",
+   "topic": "key-and-data",
+   "fact": "Tokens stored hashed, calls run as the logged-in user under Odoo access rules, audit log kept; cloud assistants need the instance reachable over public HTTPS.",
+   "url": "https://apps.odoo.com/apps/modules/19.0/mcp_server",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f016",
+   "candidate": "Odoo own AI / mcp-odoo comparison",
+   "group": "odoo",
+   "topic": "offer",
+   "fact": "The tuanle96 page says Odoo's built-in AI is Enterprise-only (a vendor comparison, not an Odoo page).",
+   "url": "https://github.com/tuanle96/mcp-odoo",
+   "date_read": "2026-11-23",
+   "confidence": "third-party"
+  },
+  {
+   "id": "ps-f017",
+   "candidate": "Odoo AI product page",
+   "group": "odoo",
+   "topic": "offer",
+   "fact": "Odoo's own page at odoo.com/app/ai returned 404, so Odoo's own AI offer is not confirmed here.",
+   "url": "https://www.odoo.com/app/ai",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "ps-f018",
+   "candidate": "Odoo",
+   "group": "platform-terms",
+   "topic": "platform-terms",
+   "fact": "Odoo 19 docs show an External JSON-2 API with API keys (manual or programmatic generation) and access rights; plan availability not read (page truncated).",
+   "url": "https://www.odoo.com/documentation/19.0/developer/reference/external_api.html",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f019",
+   "candidate": "RouterChat (aurokin)",
+   "group": "openrouter",
+   "topic": "offer",
+   "fact": "Open-source chat web app for OpenRouter models with model picker, thinking mode, web search and system prompts.",
+   "url": "https://github.com/aurokin/routerchat",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f020",
+   "candidate": "RouterChat (aurokin)",
+   "group": "openrouter",
+   "topic": "how",
+   "fact": "Browser-direct: the browser calls OpenRouter itself; run locally with Bun/Next.js; optional cloud sync on your own Convex backend.",
+   "url": "https://github.com/aurokin/routerchat",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f021",
+   "candidate": "RouterChat (aurokin)",
+   "group": "openrouter",
+   "topic": "licence",
+   "fact": "MIT.",
+   "url": "https://github.com/aurokin/routerchat",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f022",
+   "candidate": "RouterChat (aurokin)",
+   "group": "openrouter",
+   "topic": "unofficial",
+   "fact": "Page makes no statement on affiliation with OpenRouter and none on logo use.",
+   "url": "https://github.com/aurokin/routerchat",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f023",
+   "candidate": "RouterChat (aurokin)",
+   "group": "openrouter",
+   "topic": "key-and-data",
+   "fact": "API key, settings and chats stay in the browser (IndexedDB/localStorage) by default; with sync they go encrypted to your own backend; price not stated.",
+   "url": "https://github.com/aurokin/routerchat",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f024",
+   "candidate": "L0 Chat",
+   "group": "openrouter",
+   "topic": "offer",
+   "fact": "Lightweight chat client for OpenRouter, reported by search to support web search and browser-stored key; the repository page itself returned 404 on fetch.",
+   "url": "https://github.com/dosvic/l0-chat",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "ps-f025",
+   "candidate": "OpenRouter partner list",
+   "group": "openrouter",
+   "topic": "offer",
+   "fact": "OpenRouter's own page lists many clients and tools (Open WebUI, LibreChat, Chatbox, BoltAI, SillyTavern, Helicone for observability).",
+   "url": "https://openrouter.ai/works-with-openrouter",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f026",
+   "candidate": "Oriveo",
+   "group": "openrouter",
+   "topic": "offer",
+   "fact": "Multi-model chat app (iOS, Android, web) that shows an estimated cost per reply, per OpenRouter's awesome list; own page not read.",
+   "url": "https://github.com/OpenRouterTeam/awesome-openrouter",
+   "date_read": "2026-11-23",
+   "confidence": "third-party"
+  },
+  {
+   "id": "ps-f027",
+   "candidate": "Laminar and Helicone",
+   "group": "openrouter",
+   "topic": "offer",
+   "fact": "Listed on OpenRouter's awesome list as tracing and observability tools covering tokens, cost and latency of OpenRouter calls; own pages not read.",
+   "url": "https://github.com/OpenRouterTeam/awesome-openrouter",
+   "date_read": "2026-11-23",
+   "confidence": "third-party"
+  },
+  {
+   "id": "ps-f028",
+   "candidate": "all-api-hub",
+   "group": "openrouter",
+   "topic": "offer",
+   "fact": "Listed as a browser extension for browsing models and pricing; own page not read.",
+   "url": "https://github.com/OpenRouterTeam/awesome-openrouter",
+   "date_read": "2026-11-23",
+   "confidence": "third-party"
+  },
+  {
+   "id": "ps-f029",
+   "candidate": "OpenRouter own tools",
+   "group": "openrouter",
+   "topic": "offer",
+   "fact": "OpenRouter's own chat page is a playground that compares several models side by side.",
+   "url": "https://openrouter.ai/chat",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f030",
+   "candidate": "OpenRouter own tools",
+   "group": "openrouter",
+   "topic": "offer",
+   "fact": "OpenRouter docs describe an activity API, analytics query API, per-key usage and spend limits for management keys.",
+   "url": "https://openrouter.ai/docs/guides/overview/auth/provisioning-api-keys",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f031",
+   "candidate": "OpenRouter",
+   "group": "platform-terms",
+   "topic": "platform-terms",
+   "fact": "Terms bar reselling API access or building a competing service; third-party tools fall under their own terms (10.3).",
+   "url": "https://openrouter.ai/terms",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f032",
+   "candidate": "OpenRouter",
+   "group": "platform-terms",
+   "topic": "platform-terms",
+   "fact": "Terms do not specifically address use of the OpenRouter name or logo; interface and design materials belong to OpenRouter (section 12).",
+   "url": "https://openrouter.ai/terms",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f033",
+   "candidate": "OpenRouter",
+   "group": "platform-terms",
+   "topic": "platform-terms",
+   "fact": "User is responsible for keeping API credentials secret; output ownership follows each model's terms.",
+   "url": "https://openrouter.ai/terms",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f034",
+   "candidate": "Brows3",
+   "group": "aws",
+   "topic": "offer",
+   "fact": "Desktop client for browsing and managing objects in S3 and S3-compatible storage, with search, editor, preview and sync.",
+   "url": "https://github.com/rgcsekaraa/brows3",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f035",
+   "candidate": "Brows3",
+   "group": "aws",
+   "topic": "how",
+   "fact": "Desktop app (Rust core, Tauri) for macOS, Windows and Linux; installers or build from source.",
+   "url": "https://github.com/rgcsekaraa/brows3",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f036",
+   "candidate": "Brows3",
+   "group": "aws",
+   "topic": "licence",
+   "fact": "MIT; free, no price stated.",
+   "url": "https://github.com/rgcsekaraa/brows3",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f037",
+   "candidate": "Brows3",
+   "group": "aws",
+   "topic": "unofficial",
+   "fact": "No affiliation claim; uses S3 only to describe API compatibility.",
+   "url": "https://github.com/rgcsekaraa/brows3",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f038",
+   "candidate": "Brows3",
+   "group": "aws",
+   "topic": "key-and-data",
+   "fact": "Profiles stored in the OS keychain, falling back to a 0600 plaintext secrets.json in portable mode; SSO tokens are not copied.",
+   "url": "https://github.com/rgcsekaraa/brows3",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f039",
+   "candidate": "Filestash",
+   "group": "aws",
+   "topic": "offer",
+   "fact": "Web file manager for S3 and compatible buckets: browse, upload, edit documents, shared links without exposing keys.",
+   "url": "https://filestash.app/s3-browser.html",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f040",
+   "candidate": "Filestash",
+   "group": "aws",
+   "topic": "how",
+   "fact": "Runs in the browser (self-hostable); login with S3 access keys; full-text search off by default as crawling can incur Amazon charges.",
+   "url": "https://filestash.app/s3-browser.html",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f041",
+   "candidate": "Filestash",
+   "group": "aws",
+   "topic": "licence",
+   "fact": "Described as open source with an AGPL logo; licence not named in text; pricing page exists but prices not read.",
+   "url": "https://filestash.app/s3-browser.html",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f042",
+   "candidate": "Filestash",
+   "group": "aws",
+   "topic": "unofficial",
+   "fact": "No affiliation claim on the page; mentions Amazon S3 and the AWS CLI as related tools.",
+   "url": "https://filestash.app/s3-browser.html",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f043",
+   "candidate": "Filestash",
+   "group": "aws",
+   "topic": "key-and-data",
+   "fact": "Page does not say where S3 keys are stored.",
+   "url": "https://filestash.app/s3-browser.html",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f044",
+   "candidate": "S3UI",
+   "group": "aws",
+   "topic": "offer",
+   "fact": "Search listing says desktop dual-pane S3 manager with cost tracking; the PyPI page was not read in detail.",
+   "url": "https://pypi.org/project/s3ui/",
+   "date_read": "2026-11-23",
+   "confidence": "third-party"
+  },
+  {
+   "id": "ps-f045",
+   "candidate": "OpenCost",
+   "group": "aws",
+   "topic": "offer",
+   "fact": "Cost visibility for Kubernetes and cloud spend (AWS, Azure, GCP), broken down by cluster, namespace or pod.",
+   "url": "https://github.com/opencost/opencost",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f046",
+   "candidate": "OpenCost",
+   "group": "aws",
+   "topic": "how",
+   "fact": "Self-hosted through the official Helm chart on Kubernetes; exports Prometheus metrics; opt-in MCP server for agents, off by default.",
+   "url": "https://github.com/opencost/opencost",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f047",
+   "candidate": "OpenCost",
+   "group": "aws",
+   "topic": "licence",
+   "fact": "Apache-2.0; free and open source.",
+   "url": "https://github.com/opencost/opencost",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f048",
+   "candidate": "OpenCost",
+   "group": "aws",
+   "topic": "unofficial",
+   "fact": "No AWS affiliation claim; AWS is a supported provider; originally built by Kubecost.",
+   "url": "https://github.com/opencost/opencost",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f049",
+   "candidate": "Komiser",
+   "group": "aws",
+   "topic": "offer",
+   "fact": "Cloud resource manager for cost, usage, security and idle-resource detection across AWS and other clouds.",
+   "url": "https://github.com/tailwarden/komiser",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f050",
+   "candidate": "Komiser",
+   "group": "aws",
+   "topic": "how",
+   "fact": "Go binary for Linux, Windows or macOS, or the hosted Tailwarden Cloud.",
+   "url": "https://github.com/tailwarden/komiser",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f051",
+   "candidate": "Komiser",
+   "group": "aws",
+   "topic": "licence",
+   "fact": "Elastic License 2.0, though the page also calls it open-source; Tailwarden Cloud labelled free, no tiers shown.",
+   "url": "https://github.com/tailwarden/komiser",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f052",
+   "candidate": "Komiser",
+   "group": "aws",
+   "topic": "unofficial",
+   "fact": "No AWS affiliation stated; AWS appears only as a supported provider.",
+   "url": "https://github.com/tailwarden/komiser",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f053",
+   "candidate": "AWS Billing and Cost Management MCP server (awslabs)",
+   "group": "aws",
+   "topic": "offer",
+   "fact": "AWS's own MCP server giving AI assistants Cost Explorer, Budgets, anomaly, Savings Plans and Compute Optimizer data.",
+   "url": "https://awslabs.github.io/mcp/servers/billing-cost-management-mcp-server",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f054",
+   "candidate": "AWS Billing and Cost Management MCP server (awslabs)",
+   "group": "aws",
+   "topic": "how",
+   "fact": "Run locally by the MCP client with uvx or Docker, using the caller's AWS profile.",
+   "url": "https://awslabs.github.io/mcp/servers/billing-cost-management-mcp-server",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f055",
+   "candidate": "AWS Billing and Cost Management MCP server (awslabs)",
+   "group": "aws",
+   "topic": "key-and-data",
+   "fact": "Uses the caller's AWS credentials from profile, environment or .env; IAM permissions listed; licence and price not stated on the page.",
+   "url": "https://awslabs.github.io/mcp/servers/billing-cost-management-mcp-server",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f056",
+   "candidate": "AWS",
+   "group": "platform-terms",
+   "topic": "platform-terms",
+   "fact": "AWS legal page links the Customer Agreement, Acceptable Use Policy and Trademark Guidelines; contents not read.",
+   "url": "https://aws.amazon.com/legal/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f057",
+   "candidate": "Wike",
+   "group": "wikipedia",
+   "topic": "offer",
+   "fact": "GNOME desktop Wikipedia reader with tabs, 300+ languages, bookmarks and themes.",
+   "url": "https://github.com/hugolabe/Wike",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f058",
+   "candidate": "Wike",
+   "group": "wikipedia",
+   "topic": "how",
+   "fact": "Desktop app, packaged on Flathub and Snap.",
+   "url": "https://github.com/hugolabe/Wike",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f059",
+   "candidate": "Wike",
+   "group": "wikipedia",
+   "topic": "licence",
+   "fact": "GPL v3 code; articles under CC BY-SA 4.0; free.",
+   "url": "https://github.com/hugolabe/Wike",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f060",
+   "candidate": "Wike",
+   "group": "wikipedia",
+   "topic": "unofficial",
+   "fact": "States it is independent and not endorsed by or affiliated with the Wikimedia Foundation.",
+   "url": "https://github.com/hugolabe/Wike",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f061",
+   "candidate": "Wike",
+   "group": "wikipedia",
+   "topic": "key-and-data",
+   "fact": "Page does not describe data handling.",
+   "url": "https://github.com/hugolabe/Wike",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f062",
+   "candidate": "Kiwix Android",
+   "group": "wikipedia",
+   "topic": "offer",
+   "fact": "Offline reader making Wikipedia available from ZIM archives.",
+   "url": "https://github.com/kiwix/kiwix-android",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f063",
+   "candidate": "Kiwix Android",
+   "group": "wikipedia",
+   "topic": "how",
+   "fact": "Android app (Play and standalone variants); content read offline.",
+   "url": "https://github.com/kiwix/kiwix-android",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f064",
+   "candidate": "Kiwix Android",
+   "group": "wikipedia",
+   "topic": "licence",
+   "fact": "GPLv3 or later; price not stated.",
+   "url": "https://github.com/kiwix/kiwix-android",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f065",
+   "candidate": "Kiwix Android",
+   "group": "wikipedia",
+   "topic": "unofficial",
+   "fact": "No official-relationship claim and no disclaimer on the page.",
+   "url": "https://github.com/kiwix/kiwix-android",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f066",
+   "candidate": "Kiwix Android",
+   "group": "wikipedia",
+   "topic": "key-and-data",
+   "fact": "No privacy policy on the page; lists Android permissions.",
+   "url": "https://github.com/kiwix/kiwix-android",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f067",
+   "candidate": "wikipedia-mcp (Rudra-ravi)",
+   "group": "wikipedia",
+   "topic": "offer",
+   "fact": "MCP server giving LLMs search, article text, summaries, sections and links from Wikipedia.",
+   "url": "https://github.com/Rudra-ravi/wikipedia-mcp",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f068",
+   "candidate": "wikipedia-mcp (Rudra-ravi)",
+   "group": "wikipedia",
+   "topic": "how",
+   "fact": "Self-run Python server (pipx/pip, Docker) over stdio or HTTP; calls Wikipedia's API; optional cache.",
+   "url": "https://github.com/Rudra-ravi/wikipedia-mcp",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f069",
+   "candidate": "wikipedia-mcp (Rudra-ravi)",
+   "group": "wikipedia",
+   "topic": "licence",
+   "fact": "MIT.",
+   "url": "https://github.com/Rudra-ravi/wikipedia-mcp",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f070",
+   "candidate": "wikipedia-mcp (Rudra-ravi)",
+   "group": "wikipedia",
+   "topic": "unofficial",
+   "fact": "No affiliation statement with Wikipedia or Wikimedia.",
+   "url": "https://github.com/Rudra-ravi/wikipedia-mcp",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f071",
+   "candidate": "wikipedia-mcp (Rudra-ravi)",
+   "group": "wikipedia",
+   "topic": "key-and-data",
+   "fact": "Optional Wikipedia access token to ease rate limits; no privacy policy; free.",
+   "url": "https://github.com/Rudra-ravi/wikipedia-mcp",
+   "date_read": "2026-11-23",
+   "confidence": "project-page"
+  },
+  {
+   "id": "ps-f072",
+   "candidate": "Wikipedia Android app (Wikimedia)",
+   "group": "wikipedia",
+   "topic": "offer",
+   "fact": "Official Wikipedia Android app source, on Google Play.",
+   "url": "https://github.com/wikimedia/apps-android-wikipedia",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f073",
+   "candidate": "Wikipedia Android app (Wikimedia)",
+   "group": "wikipedia",
+   "topic": "licence",
+   "fact": "Apache-2.0.",
+   "url": "https://github.com/wikimedia/apps-android-wikipedia",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f074",
+   "candidate": "Wikiwand",
+   "group": "wikipedia",
+   "topic": "offer",
+   "fact": "Alternative reader listed by AlternativeTo as freemium proprietary; its own about page returned 403.",
+   "url": "https://www.wikiwand.com/en/about",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "ps-f075",
+   "candidate": "Wikiless",
+   "group": "wikipedia",
+   "topic": "offer",
+   "fact": "Privacy front-end seen in search; its repository URL returned 404.",
+   "url": "https://github.com/Metastem/Wikiless",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "ps-f076",
+   "candidate": "Wikipedia",
+   "group": "platform-terms",
+   "topic": "platform-terms",
+   "fact": "Text reusable under CC BY-SA 4.0 and GFDL; credit by link to the article or history, or an author list.",
+   "url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f077",
+   "candidate": "Wikipedia",
+   "group": "platform-terms",
+   "topic": "platform-terms",
+   "fact": "API use must follow the User-Agent Policy, Robot Policy and API Etiquette; the Foundation does not endorse third-party sites.",
+   "url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f078",
+   "candidate": "Wikipedia",
+   "group": "platform-terms",
+   "topic": "platform-terms",
+   "fact": "Wikimedia names, logos and domains may be used only per the Trademark Policy.",
+   "url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f079",
+   "candidate": "OWASP Pentest Guide Knowledge MCP (sunick2009)",
+   "group": "owasp",
+   "topic": "offer",
+   "fact": "Read-only lookup and search of OWASP testing guides (WSTG, MASTG and others) as an MCP server.",
+   "url": "https://glama.ai/mcp/servers/integrations/owasp",
+   "date_read": "2026-11-23",
+   "confidence": "third-party"
+  },
+  {
+   "id": "ps-f080",
+   "candidate": "OWASP Pentest Guide Knowledge MCP (sunick2009)",
+   "group": "owasp",
+   "topic": "licence",
+   "fact": "Listed as Apache 2.0 on the Glama directory; repository itself not read.",
+   "url": "https://glama.ai/mcp/servers/integrations/owasp",
+   "date_read": "2026-11-23",
+   "confidence": "third-party"
+  },
+  {
+   "id": "ps-f081",
+   "candidate": "Agent Security MCP (mdfifty50-boop)",
+   "group": "owasp",
+   "topic": "offer",
+   "fact": "Provides OWASP LLM Top 10 and Agentic Top 10 resources plus agent-workflow scanning, per the directory listing.",
+   "url": "https://glama.ai/mcp/servers/integrations/owasp",
+   "date_read": "2026-11-23",
+   "confidence": "third-party"
+  },
+  {
+   "id": "ps-f082",
+   "candidate": "Agent Security MCP (mdfifty50-boop)",
+   "group": "owasp",
+   "topic": "licence",
+   "fact": "Listed as MIT on the directory; repository not read.",
+   "url": "https://glama.ai/mcp/servers/integrations/owasp",
+   "date_read": "2026-11-23",
+   "confidence": "third-party"
+  },
+  {
+   "id": "ps-f083",
+   "candidate": "Unofficial OWASP browsers",
+   "group": "owasp",
+   "topic": "offer",
+   "fact": "No standalone alternative reader for the Top Ten was found; only MCP wrappers and forks.",
+   "url": "https://owasp.org/www-project-cheat-sheet-series/",
+   "date_read": "2026-11-23",
+   "confidence": "not-found",
+   "flag": "page failed or not found; re-read"
+  },
+  {
+   "id": "ps-f084",
+   "candidate": "OWASP Cheat Sheet Series",
+   "group": "platform-terms",
+   "topic": "platform-terms",
+   "fact": "Licensed CC-BY-SA-4.0; OWASP says its Markdown files are not meant to be cited externally, use the official site.",
+   "url": "https://github.com/OWASP/CheatSheetSeries",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f085",
+   "candidate": "OWASP",
+   "group": "platform-terms",
+   "topic": "platform-terms",
+   "fact": "OWASP and Open Worldwide Application Security Project are registered trademarks of the OWASP Foundation.",
+   "url": "https://github.com/OWASP/CheatSheetSeries",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  },
+  {
+   "id": "ps-f086",
+   "candidate": "OWASP Top Ten",
+   "group": "platform-terms",
+   "topic": "platform-terms",
+   "fact": "Top Ten project page states no licence, only an all-rights-reserved footer; the policy licensing page returned 404.",
+   "url": "https://owasp.org/www-project-top-ten/",
+   "date_read": "2026-11-23",
+   "confidence": "vendor-page"
+  }
+ ],
+ "changes": [
+  {
+   "at": "2026-11-23T06:10Z",
+   "what": "first version: 34 players, 86 facts"
+  }
+ ]
+}
