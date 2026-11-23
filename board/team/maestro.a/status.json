@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account A",
   "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
   "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T08:25Z",
-  "state": "08:23 wake: 22 .aws.a sessions on A, account C handed over; wake now every 2 h; next-session prompt ready",
+  "updated": "2026-11-23T10:24Z",
+  "state": "10:23 wake: AWS team on A waiting on account C (policy paths, keys) at Dinis word; two agents backed off to 2 h",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
     "Made key maestro.a-account-a in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -41,9 +41,9 @@
   ],
   "latest_debrief": "board/team/maestro.a/debriefs/2026-11-23-handover.md",
   "last_read_from_b": "2026-11-23T01:21Z",
-  "last_read_from_c": "2026-11-23T07:42Z",
-  "last_read_from_d": "2026-11-23T04:58Z",
-  "last_read_vault": "2026-11-23T08:25Z",
+  "last_read_from_c": "2026-11-23T09:36Z",
+  "last_read_from_d": "2026-11-23T08:58Z",
+  "last_read_vault": "2026-11-23T10:24Z",
   "exceptions": [
     {
       "time": "2026-11-23T03:25Z",
