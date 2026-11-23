@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2158",
+    "date": "2026-11-23",
+    "what": "router.a (account-a): hand-over debrief; ledger empty for account A; still waiting for Dinis: the pin",
+    "by": "router.a (account-a)",
+    "from": "c22c80f7f"
+  },
+  {
     "version": "v0.1.2157",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): aws.c batch for s3.aws.a and the 9 fresh keys, relayed for conductor.aws.a",
