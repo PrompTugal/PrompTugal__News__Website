@@ -48,6 +48,18 @@
    "sessions_blocked": null,
    "api_equiv_usd_lifetime_read": null,
    "notes": "AWS programme stage 2 started 03:22 (conductor.aws.c: Dinis lifted its cap): 21 agents, ~300 wakes/day. Forecast AMBER: account D (same seat type) hit its five-hour limit at ~20-25/h; C now heads to ~17/h+. Advice sent: stagger starts, Sonnet for check-only roles, 300k context rule, halve on allowed_warning."
+  },
+  {
+   "at": "2026-11-23T03:36Z",
+   "account": "C",
+   "source": "reported (Dinis's readings, relayed by maestro.c)",
+   "five_hour_status": "60% used (window ~01:20 to ~06:20Z)",
+   "five_hour_resets_utc": "2026-11-23T06:20Z",
+   "weekly_percent": 50,
+   "sessions_working": null,
+   "sessions_blocked": null,
+   "api_equiv_usd_lifetime_read": null,
+   "notes": "RED by forecast: ~27%/h, 100% near 05:00-05:05Z before the reset. Must run at <=14%/h to finish the window. AWS cadences halved and 16 AWS agents moving to account A (maestro.c). Advice sent to conductor.aws.c."
   }
  ]
 }
