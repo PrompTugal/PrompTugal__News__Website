@@ -6,7 +6,7 @@
   "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
   "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
   "updated": "2026-11-23T16:24Z",
-  "state": "11 fresh AWS sessions running; waiting on Dinis for A1 (router.a pin), A2 (decrypt yes for a.conductor.aws and a.ontology.aws) and A3 (fresh .a keys on the Factory), all through b.decisions",
+  "state": "Dinis's brief R1-R9 routed (board/team/maestros/briefs/2026-11-23-a-any-agent-routing-chain-of-evidence-ios.md); a.ios started for R6/R7; still waiting on A1-A3 through b.decisions",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
     "Made key maestro.a-account-a in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -51,6 +51,7 @@
       "why": "context past 500k and conductor.aws.a now coordinates the AWS team; reversible; CLAUDE.md No agent blocked"
     },
     "2026-11-23T15:56Z | 11 AWS agents restarted in fresh sessions at Dinis's word; old sessions stopped and kept, not archived (reversible) | none bent | context past 500k",
-    "2026-11-23T16:35Z | swarm.aws.a's wake moved from hourly to every 2 h (trig_01JF74Gbuh2sBGvdhBPASQ1u), back-off after three quiet wakes, at a.conductor.aws's forwarded request (_common.md) | reversible, own area; not a start, pause or archive | saves spend while it waits on its Factory key"
+    "2026-11-23T16:35Z | swarm.aws.a's wake moved from hourly to every 2 h (trig_01JF74Gbuh2sBGvdhBPASQ1u), back-off after three quiet wakes, at a.conductor.aws's forwarded request (_common.md) | reversible, own area; not a start, pause or archive | saves spend while it waits on its Factory key",
+    "2026-11-23T17:31Z | a.ios (VoiceDebrief) started with a 2 h wake, at Dinis's word ('which you can push from here') | none bent | R6 owner mode"
   ]
 }
