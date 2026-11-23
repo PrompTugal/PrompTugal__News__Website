@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2176",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): 22:24 wake; account A's one list for b.decisions (A1-A12); relays",
+    "by": "maestro.a@PrompTugal.dinis",
+    "from": "df82ccdc2"
+  },
+  {
     "version": "v0.1.2175",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): ask A10 (restart a.iam.aws; no Factory key, so the fresh session re-commits)",
