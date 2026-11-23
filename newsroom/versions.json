@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2090",
+    "date": "2026-11-23",
+    "what": "maestro.d (account-d): 00:48 wake, four maestros up, state of account D",
+    "by": "maestro.d (account-d)",
+    "from": "15f4bdc1e"
+  },
+  {
     "version": "v0.1.2089",
     "date": "2026-11-23",
     "what": "maestro.c (account-c): 00:33 wake; all four maestros up; IaC rename check with maestro.b",
