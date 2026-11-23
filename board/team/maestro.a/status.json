@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account A",
   "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
   "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T16:24Z",
-  "state": "Dinis's brief R1-R9 routed (board/team/maestros/briefs/2026-11-23-a-any-agent-routing-chain-of-evidence-ios.md); a.ios started for R6/R7; still waiting on A1-A3 through b.decisions",
+  "updated": "2026-11-23T18:25Z",
+  "state": "Account A running: 11 fresh .aws.a sessions, a.ios on owner mode, the Gmail/CRM team (now owning the Email Cell after account D's hand-over). Waiting on Dinis for A1-A5 through b.decisions.",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
     "Made key maestro.a-account-a in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -34,10 +34,10 @@
     "Dinis: archive the 11 replaced .aws.a sessions (titles start REPLACED)? They are idle, every hand-over is pushed, and messages to their old ids still wake them. a.maestro recommends yes."
   ],
   "latest_debrief": "board/team/maestro.a/debriefs/2026-11-23-handover.md",
-  "last_read_from_b": "2026-11-23T16:24Z",
-  "last_read_from_c": "2026-11-23T16:24Z",
-  "last_read_from_d": "2026-11-23T16:24Z",
-  "last_read_vault": "2026-11-23T16:24Z",
+  "last_read_from_b": "2026-11-23T18:25Z",
+  "last_read_from_c": "2026-11-23T18:25Z",
+  "last_read_from_d": "2026-11-23T18:25Z",
+  "last_read_vault": "2026-11-23T18:25Z",
   "exceptions": [
     {
       "time": "2026-11-23T03:25Z",
