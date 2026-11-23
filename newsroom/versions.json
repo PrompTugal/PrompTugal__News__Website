@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2098",
+    "date": "2026-11-23",
+    "what": "router.c (AgentiCCells): 03:08 wake: account C five-hour allowed, resets 06:20 UTC; ledger empty",
+    "by": "router.c (AgentiCCells)",
+    "from": "d34c4794a"
+  },
+  {
     "version": "v0.1.2097",
     "date": "2026-11-23",
     "what": "decisions.c (AgentiCCells): the first two requests to router.a prepared, and a minimal start prompt for the test session",
