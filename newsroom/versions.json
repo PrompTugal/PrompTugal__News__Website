@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2152",
+    "date": "2026-11-23",
+    "what": "maestro.d (account-d): account D's ask list D1-D20 for b.decisions",
+    "by": "maestro.d (account-d)",
+    "from": "d060f6678"
+  },
+  {
     "version": "v0.1.2151",
     "date": "2026-11-23",
     "what": "sherpa.d@AgentiCCells.dinis: noted the title d.sherpa and the routing of asks to d.decisions",
