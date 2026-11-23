@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T07:38Z",
-  "state": "07:33 wake: the AWS programme (22 agents) runs on account A; only aws.c stays on C; account C allowed, window to 11:20 UTC",
+  "updated": "2026-11-23T09:36Z",
+  "state": "09:33 wake: account C quiet (AWS on A, aws.c keeper on C); wake every 3 h; a fresh maestro.c session recommended (board/team/maestros/maestro-c-next-session-prompt.md)",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -45,6 +45,6 @@
   ],
   "latest_debrief": "board/team/maestro.c/debriefs/2026-11-23-handover.md",
   "last_read_from_b": "2026-11-23T01:21Z",
-  "last_read_from_d": "2026-11-23T04:58Z",
-  "last_read_from_a": "2026-11-23T07:26Z"
+  "last_read_from_d": "2026-11-23T08:58Z",
+  "last_read_from_a": "2026-11-23T08:25Z"
 }
