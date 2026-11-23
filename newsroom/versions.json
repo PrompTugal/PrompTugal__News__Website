@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2095",
+    "date": "2026-11-23",
+    "what": "maestro.c (account-c): AWS Platform programme memo relayed to every maestro, at Dinis's request",
+    "by": "maestro.c (account-c)",
+    "from": "37f3601ba"
+  },
+  {
     "version": "v0.1.2094",
     "date": "2026-11-23",
     "what": "router.c (AgentiCCells): 02:08 wake: ledger empty, account C capacity row after the 01:20 reset",
