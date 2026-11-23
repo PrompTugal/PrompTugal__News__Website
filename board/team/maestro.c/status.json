@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T02:42Z",
-  "state": "02:33 wake: direct sealed channels with the other maestros open (inbox and vault); AWS programme memo relayed; router.a started on account A, pin waits on Dinis",
+  "updated": "2026-11-23T03:38Z",
+  "state": "03:33 wake: account C hot (five-hour ~60%, weekly 50%); 16 AWS agents moving to account A at Dinis's word, their C wakes paused; stayers halved; CLAUDE.md has No agent blocked",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -35,24 +35,12 @@
     "Relay the new sessions' first asks (key merges in the Factory) to Dinis"
   ],
   "asks": [
-    "Dinis: pin sha256:c0a1a5eb667a649d in router.a (account A, https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat) and in router.c, then 'test' in decisions.c - https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n",
-    "Dinis: the AWS programme: split over accounts C and A with fewer sessions and sub-agents, or all on C? - https://claude.ai/code/session_01Kw9UwBwGEprxNQqNtSbzyj",
-    "Dinis: aws.c: reload the site, open Plans, Show the plan, Approve the last-step plan (one red line: the Factory subject) - https://claude.ai/code/session_01Kw9UwAzhau7Us55PugP2V2",
-    "Dinis: the wire: yes to A (observability.c), B (proposal to abp@), C (telemetry.c)? board/team/maestro.c/analysis/2026-11-23-the-wire/README.md - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
-    "Dinis: factory.c: merge work/factory.c-keys-url yourself or allow its push; the IaC rename after factory.b's next wake (B and D ok) - https://claude.ai/code/session_01Kw9UwFQ86g2ZeXQ2edTAjh",
-    "Dinis: hub.c: may it add two links to hub.b's files, or wait for hub.b? - https://claude.ai/code/session_01Kw9UwBNK6JRSRJ7P7LftYD",
-    "Dinis: sites.c: archive suno.c now or after account B picks up the handover? - https://claude.ai/code/session_01Kw9UwEi55Prvc9jXNPGC1a",
-    "Dinis: mistral.c (2): allow it to make a signing key - https://claude.ai/code/session_01Kw9UwE87QCsWenVdtLcxoM",
-    "Dinis: newsroom.c: yes to the AWS article - https://claude.ai/code/session_01Kw9UwDDEwnjqeLVyqkUjpm",
-    "Dinis: owasp.c: yes to its signing file; key through factory.c - https://claude.ai/code/session_01Kw9UwE69pr5bPeaQ4tYqir",
-    "Dinis: feedback.c: sgit-ai install, who makes the shared vault, when lanes move - https://claude.ai/code/session_01Kw9UwEQb6jZQ17nxMfkAVB",
-    "Dinis: chiswick-cheese-market.c: how the inbox is read - https://claude.ai/code/session_01Kw9UwCvCX638VWVq9UPXsN",
-    "Dinis: observability.c: its policy entry - https://claude.ai/code/session_01Kw9UwBmqCafJ2NtqhQPQwu",
-    "Dinis: accountant.c's proposals - https://claude.ai/code/session_01Kw9UwEkLVQY1oruMpEJkWz",
-    "Dinis: add pip install sgit-ai==0.27.0 to account C's environment setup script"
+    "Dinis: tell maestro.a to start the 16 AWS agents on account A (hand-overs in Site__Platform__AWS docs/team/handover/), and give account A push on Site__Platform__AWS - https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat",
+    "Dinis: add pip install sgit-ai==0.27.0 to account C's setup script (in the morning, as you said)",
+    "Dinis: pin sha256:c0a1a5eb667a649d in router.a and router.c, then 'test' in decisions.c - https://claude.ai/code/session_01Kw9UwF13Y5u7V1ArghNb5n"
   ],
   "latest_debrief": null,
   "last_read_from_b": "2026-11-23T01:21Z",
   "last_read_from_d": "2026-11-23T01:38Z",
-  "last_read_from_a": "2026-11-23T02:25Z"
+  "last_read_from_a": "2026-11-23T03:25Z"
 }
