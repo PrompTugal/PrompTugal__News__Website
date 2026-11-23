@@ -1,0 +1,332 @@
+{
+ "format": "carto-map/1",
+ "id": "landscape-decision-making",
+ "kind": "wardley",
+ "status": "draft",
+ "title": "Landscape: how decisions are made, tools and standards",
+ "version": "0.1.0",
+ "made": "2026-11-23T22:01Z",
+ "made_by": "cartographer.d@AgentiCCells.dinis",
+ "for": "landscape.d and strategy.d (what it means); the players and facts are landscape.d's, the placing is my reading",
+ "sources_read": {
+  "landscape": "board/team/landscape.d/landscapes/decision-making/rows.json (landscape-rows/1 with group, made 2026-11-23T05:55Z), read 23 Nov 2026; the facts and URLs are in landscape.json beside it",
+  "cartographer": "cartographer.d's reading of each group's evolution and where the groups sit; where a player sits inside its group means nothing"
+ },
+ "draw": {
+  "links": "none"
+ },
+ "axes": {
+  "y": "visibility to the buyer (1 = what they see first)",
+  "x": "evolution: genesis 0, custom 0.25, product 0.5, commodity 0.75 to 1"
+ },
+ "users": [
+  {
+   "id": "u-buyer",
+   "label": "The buyer",
+   "source": "landscape"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "dm-p-holacracy-constitution",
+   "label": "Holacracy Constitution",
+   "player": "Holacracy Constitution",
+   "type": "component",
+   "group": "framework",
+   "visibility": 0.89,
+   "evolution": 0.68,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Rule set for running an organisation through roles with purposes, domains and accountabilities inside nested circles; current version stated is 5.0. Price: not read. https://www.holacracy.org/constitution (read 2026-11-23)"
+  },
+  {
+   "id": "dm-p-consent-decision-making--sociocracy-3-0",
+   "label": "Consent decision-making (Sociocracy 3.0)",
+   "player": "Consent decision-making (Sociocracy 3.0)",
+   "type": "component",
+   "group": "framework",
+   "visibility": 0.89,
+   "evolution": 0.78,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Facilitated process in nine steps where only objections block a proposal; unproven concerns are recorded and revisited with the policy's evaluation criteria. Price: not read. https://patterns.sociocracy30.org/consent-decision-making.html (read 2026-11-23)"
+  },
+  {
+   "id": "dm-p-bain-rapid",
+   "label": "Bain RAPID",
+   "player": "Bain RAPID",
+   "type": "component",
+   "group": "framework",
+   "visibility": 0.845,
+   "evolution": 0.68,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Bain's decision tool assigning Recommend, Agree, Perform, Input and Decide roles so accountability for each decision is clear. Price: not read. https://www.bain.com/insights/rapid-tool-to-clarify-decision-accountability/ (read 2026-11-23)"
+  },
+  {
+   "id": "dm-p-raci",
+   "label": "RACI",
+   "player": "RACI",
+   "type": "component",
+   "group": "framework",
+   "visibility": 0.845,
+   "evolution": 0.78,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Responsibility matrix technique with Responsible, Accountable, Consulted and Informed roles, often used in cross-department projects. Price: not read. https://en.wikipedia.org/wiki/Responsibility_assignment_matrix (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence"
+  },
+  {
+   "id": "dm-p-loomio",
+   "label": "Loomio",
+   "player": "Loomio",
+   "type": "component",
+   "group": "collaborative",
+   "visibility": 0.748,
+   "evolution": 0.58,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Tool for groups to discuss proposals, vote and record outcomes together, keeping reasons with the decision. Price: Hosted plans in USD: Starter from about 29 to 39 per month or 299 to 399 per year, Pro about 49 to 99 per month, 14-day trial; the page was ambiguous on which figures apply to commercial or nonprofit; Private Loomio is quote-only.. https://github.com/loomio/loomio (read 2026-11-23)"
+  },
+  {
+   "id": "dm-p-decidim",
+   "label": "Decidim",
+   "player": "Decidim",
+   "type": "component",
+   "group": "collaborative",
+   "visibility": 0.703,
+   "evolution": 0.58,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Participatory democracy framework for cities and organisations with proposals, assemblies, participatory budgets, surveys and accountability components; first built for Barcelona's city government. Price: not read. https://github.com/decidim/decidim (read 2026-11-23)"
+  },
+  {
+   "id": "dm-p-consul-democracy",
+   "label": "CONSUL Democracy",
+   "player": "CONSUL Democracy",
+   "type": "component",
+   "group": "collaborative",
+   "visibility": 0.658,
+   "evolution": 0.58,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Open source citizen participation and open government software, first used for Madrid city's decide.madrid.es in 2015, maintained with the CONSUL DEMOCRACY Foundation. Price: not read. https://github.com/consuldemocracy/consuldemocracy (read 2026-11-23)"
+  },
+  {
+   "id": "dm-p-cloverpop",
+   "label": "Cloverpop",
+   "player": "Cloverpop",
+   "type": "component",
+   "group": "enterprise",
+   "visibility": 0.561,
+   "evolution": 0.5,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Enterprise decision intelligence platform that structures, tracks and improves business decisions with AI assistants; customers listed include Google, General Motors, P&G, J&J and Mondelez. Price: No price stated; request-a-demo only.. https://www.cloverpop.com/ (read 2026-11-23)"
+  },
+  {
+   "id": "dm-p-aera-technology",
+   "label": "Aera Technology",
+   "player": "Aera Technology",
+   "type": "component",
+   "group": "enterprise",
+   "visibility": 0.516,
+   "evolution": 0.5,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Decision intelligence platform whose Aera Skills automate decisions in supply chain, finance, HR and other functions; customers listed include ExxonMobil, Unilever, Merck and Dell. Price: No price or deployment model stated; schedule-a-demo only.. https://www.aeratechnology.com/ (read 2026-11-23)"
+  },
+  {
+   "id": "dm-p-adr--adr-github-io",
+   "label": "ADR (adr.github.io)",
+   "player": "ADR (adr.github.io)",
+   "type": "component",
+   "group": "decision-log",
+   "visibility": 0.419,
+   "evolution": 0.62,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Community site explaining Architectural Decision Records, each capturing one architecture decision with its rationale and consequences; together they form a decision log. Price: not read. https://adr.github.io/ (read 2026-11-23)"
+  },
+  {
+   "id": "dm-p-madr",
+   "label": "MADR",
+   "player": "MADR",
+   "type": "component",
+   "group": "decision-log",
+   "visibility": 0.374,
+   "evolution": 0.62,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Markdown ADR template set (four variants: full, minimal, bare, bare-minimal) copied into docs/decisions as nnnn-title.md. Price: not read. https://github.com/adr/madr (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence"
+  },
+  {
+   "id": "dm-p-log4brains",
+   "label": "Log4brains",
+   "player": "Log4brains",
+   "type": "component",
+   "group": "decision-log",
+   "visibility": 0.329,
+   "evolution": 0.62,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Docs-as-code tool for writing and publishing ADRs as Markdown in a git repo, with local preview, search, timeline and a static site build. Price: not read. https://github.com/thomvaill/log4brains (read 2026-11-23)"
+  },
+  {
+   "id": "dm-p-humanlayer",
+   "label": "HumanLayer",
+   "player": "HumanLayer",
+   "type": "component",
+   "group": "approvals",
+   "visibility": 0.232,
+   "evolution": 0.24,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Runs coding agents (Claude Code, Codex and others) on a team's machines and lets the team steer tasks, sessions, plans and reviews from one place; repo is tagged human-in-the-loop. Price: not read. https://github.com/humanlayer/humanlayer (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence"
+  },
+  {
+   "id": "dm-p-langgraph-interrupts",
+   "label": "LangGraph interrupts",
+   "player": "LangGraph interrupts",
+   "type": "component",
+   "group": "approvals",
+   "visibility": 0.187,
+   "evolution": 0.24,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "An interrupt() call pauses an agent graph, saves state, and resumes with a human's value (for example true or false) on the same thread; it can sit inside a tool so each call needs approval, and the reviewer can edit arguments. Price: not read. https://docs.langchain.com/oss/python/langgraph/interrupts (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence"
+  },
+  {
+   "id": "dm-p-permit-io-agent-approvals",
+   "label": "Permit.io agent approvals",
+   "player": "Permit.io agent approvals",
+   "type": "component",
+   "group": "approvals",
+   "visibility": 0.142,
+   "evolution": 0.24,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "Docs page for agent security and approvals returned HTTP 404, so nothing was read. Price: not read. https://docs.permit.io/agent-security/overview (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence"
+  },
+  {
+   "id": "dm-p-dmn--omg-standard",
+   "label": "DMN (OMG standard)",
+   "player": "DMN (OMG standard)",
+   "type": "component",
+   "group": "codified",
+   "visibility": 0.045,
+   "evolution": 0.58,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Decision Model and Notation is OMG's standard for graphical decision models plus an executable expression language, designed to work with BPMN and exchange as XML. Price: not read. https://www.omg.org/spec/DMN/ (read 2026-11-23)"
+  },
+  {
+   "id": "dm-p-drools--apache-kie",
+   "label": "Drools (Apache KIE)",
+   "player": "Drools (Apache KIE)",
+   "type": "component",
+   "group": "codified",
+   "visibility": 0.045,
+   "evolution": 0.78,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Java rule engine that also includes a DMN engine running models with FEEL expressions; Kogito can deploy DMN decisions as microservices. Price: not read. https://github.com/apache/incubator-kie-drools (read 2026-11-23)"
+  },
+  {
+   "id": "dm-p-camunda-8",
+   "label": "Camunda 8",
+   "player": "Camunda 8",
+   "type": "component",
+   "group": "codified",
+   "visibility": 0,
+   "evolution": 0.58,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Agentic orchestration platform combining BPMN flows, DMN decisions and AI agent steps, with Tasklist for human tasks and Operate for monitoring. Price: No prices shown; 30-day free SaaS trial, then free modeling-only account or paid Enterprise; self-managed is free for development and needs an Enterprise licence in production; enterprise quotes via sales.. https://github.com/camunda/camunda (read 2026-11-23)"
+  },
+  {
+   "id": "dm-p-open-policy-agent",
+   "label": "Open Policy Agent",
+   "player": "Open Policy Agent",
+   "type": "component",
+   "group": "codified",
+   "visibility": 0,
+   "evolution": 0.78,
+   "flagged": true,
+   "source": "landscape",
+   "evidence": "General-purpose policy engine: services send queries, OPA evaluates rules against data and returns allow or deny decisions for the service to enforce. Price: not read. https://github.com/open-policy-agent/opa (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence"
+  },
+  {
+   "id": "dm-p-cedar",
+   "label": "Cedar",
+   "player": "Cedar",
+   "type": "component",
+   "group": "codified",
+   "visibility": -0.045,
+   "evolution": 0.58,
+   "flagged": false,
+   "source": "landscape",
+   "evidence": "Policy language and Rust engine for fine-grained application authorization: a request of principal, action and resource is evaluated against policies and returns allow or deny. Price: not read. https://github.com/cedar-policy/cedar (read 2026-11-23)"
+  },
+  {
+   "id": "cap-framework",
+   "label": "Frameworks and standards:",
+   "type": "caption",
+   "visibility": 0.935,
+   "evolution": 0.66,
+   "source": "cartographer",
+   "evidence": "a heading for the group below it"
+  },
+  {
+   "id": "cap-collaborative",
+   "label": "Collaborative platforms:",
+   "type": "caption",
+   "visibility": 0.793,
+   "evolution": 0.5599999999999999,
+   "source": "cartographer",
+   "evidence": "a heading for the group below it"
+  },
+  {
+   "id": "cap-enterprise",
+   "label": "Enterprise decision tools:",
+   "type": "caption",
+   "visibility": 0.6060000000000001,
+   "evolution": 0.48,
+   "source": "cartographer",
+   "evidence": "a heading for the group below it"
+  },
+  {
+   "id": "cap-decision-log",
+   "label": "Decision logs:",
+   "type": "caption",
+   "visibility": 0.46399999999999997,
+   "evolution": 0.6,
+   "source": "cartographer",
+   "evidence": "a heading for the group below it"
+  },
+  {
+   "id": "cap-approvals",
+   "label": "Approval gates for agents:",
+   "type": "caption",
+   "visibility": 0.277,
+   "evolution": 0.22,
+   "source": "cartographer",
+   "evidence": "a heading for the group below it"
+  },
+  {
+   "id": "cap-codified",
+   "label": "Codified rules and engines:",
+   "type": "caption",
+   "visibility": 0.09,
+   "evolution": 0.5599999999999999,
+   "source": "cartographer",
+   "evidence": "a heading for the group below it"
+  }
+ ],
+ "links": [],
+ "notes": [
+  null,
+  "landscape.d gives no needs column for this area (the users are not in sherpa.d's needs yet), so no needs or gap are drawn.",
+  "Faint dashed rows are flagged by landscape.d: a page failed or was not read.",
+  "Groups are landscape.d's; their evolution and order are my reading, a judgement, not a measurement."
+ ]
+}

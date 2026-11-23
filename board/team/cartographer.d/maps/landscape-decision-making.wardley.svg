@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-label="Landscape: how decisions are made, tools and standards" font-family="system-ui, sans-serif">
+<rect width="1400" height="1000" fill="#fff"/>
+<text x="70" y="30" font-size="20" font-weight="600" fill="#111">Landscape: how decisions are made, tools and standards</text>
+<text x="70" y="50" font-size="12" fill="#444">wardley map, draft, made 2026-11-23T22:01Z by cartographer.d@AgentiCCells.dinis from 2 sources (see the JSON)</text>
+<rect x="70" y="90" width="1300" height="820" fill="none" stroke="#999"/>
+<text x="76" y="928" font-size="12" fill="#555">Genesis</text>
+<line x1="395" y1="90" x2="395" y2="910" stroke="#ccc" stroke-dasharray="4 4"/>
+<text x="401" y="928" font-size="12" fill="#555">Custom-built</text>
+<line x1="720" y1="90" x2="720" y2="910" stroke="#ccc" stroke-dasharray="4 4"/>
+<text x="726" y="928" font-size="12" fill="#555">Product (+ rental)</text>
+<line x1="1045" y1="90" x2="1045" y2="910" stroke="#ccc" stroke-dasharray="4 4"/>
+<text x="1051" y="928" font-size="12" fill="#555">Commodity (+ utility)</text>
+<text x="70" y="960" font-size="12" fill="#555">Evolution, left to right</text>
+<text transform="translate(22 290) rotate(-90)" font-size="12" fill="#555">Visible to the user</text>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8z" fill="#888"/></marker></defs>
+<circle cx="954" cy="180.2" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Holacracy Constitution (source: landscape) Rule set for running an organisation through roles with purposes, domains and accountabilities inside nested circles; current version stated is 5.0. Price: not read. https://www.holacracy.org/constitution (read 2026-11-23)</title></circle>
+<text text-anchor="start" x="964" y="184.2" font-size="13" fill="#111">Holacracy Constitution</text>
+<circle cx="1084" cy="180.2" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Consent decision-making (Sociocracy 3.0) (source: landscape) Facilitated process in nine steps where only objections block a proposal; unproven concerns are recorded and revisited with the policy's evaluation criteria. Price: not read. https://patterns.sociocracy30.org/consent-decision-making.html (read 2026-11-23)</title></circle>
+<text text-anchor="start" x="1094" y="184.2" font-size="13" fill="#111">Consent decision-making</text>
+<text text-anchor="start" x="1094" y="196.2" font-size="13" fill="#111">(Sociocracy 3.0)</text>
+<circle cx="954" cy="217.1" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Bain RAPID (source: landscape) Bain's decision tool assigning Recommend, Agree, Perform, Input and Decide roles so accountability for each decision is clear. Price: not read. https://www.bain.com/insights/rapid-tool-to-clarify-decision-accountability/ (read 2026-11-23)</title></circle>
+<text text-anchor="start" x="964" y="221.1" font-size="13" fill="#111">Bain RAPID</text>
+<circle cx="1084" cy="217.1" r="6" fill="#fff" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="3 2" opacity="0.6"><title>RACI (source: landscape) Responsibility matrix technique with Responsible, Accountable, Consulted and Informed roles, often used in cross-department projects. Price: not read. https://en.wikipedia.org/wiki/Responsibility_assignment_matrix (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence</title></circle>
+<text text-anchor="start" x="1094" y="221.1" font-size="13" fill="#111">RACI</text>
+<circle cx="824" cy="296.6" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Loomio (source: landscape) Tool for groups to discuss proposals, vote and record outcomes together, keeping reasons with the decision. Price: Hosted plans in USD: Starter from about 29 to 39 per month or 299 to 399 per year, Pro about 49 to 99 per month, 14-day trial; the page was ambiguous on which figures apply to commercial or nonprofit; Private Loomio is quote-only.. https://github.com/loomio/loomio (read 2026-11-23)</title></circle>
+<text text-anchor="start" x="834" y="300.6" font-size="13" fill="#111">Loomio</text>
+<circle cx="824" cy="333.5" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Decidim (source: landscape) Participatory democracy framework for cities and organisations with proposals, assemblies, participatory budgets, surveys and accountability components; first built for Barcelona's city government. Price: not read. https://github.com/decidim/decidim (read 2026-11-23)</title></circle>
+<text text-anchor="start" x="834" y="337.5" font-size="13" fill="#111">Decidim</text>
+<circle cx="824" cy="370.4" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>CONSUL Democracy (source: landscape) Open source citizen participation and open government software, first used for Madrid city's decide.madrid.es in 2015, maintained with the CONSUL DEMOCRACY Foundation. Price: not read. https://github.com/consuldemocracy/consuldemocracy (read 2026-11-23)</title></circle>
+<text text-anchor="start" x="834" y="374.4" font-size="13" fill="#111">CONSUL Democracy</text>
+<circle cx="720" cy="450" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Cloverpop (source: landscape) Enterprise decision intelligence platform that structures, tracks and improves business decisions with AI assistants; customers listed include Google, General Motors, P&amp;G, J&amp;J and Mondelez. Price: No price stated; request-a-demo only.. https://www.cloverpop.com/ (read 2026-11-23)</title></circle>
+<text text-anchor="start" x="730" y="454" font-size="13" fill="#111">Cloverpop</text>
+<circle cx="720" cy="486.9" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Aera Technology (source: landscape) Decision intelligence platform whose Aera Skills automate decisions in supply chain, finance, HR and other functions; customers listed include ExxonMobil, Unilever, Merck and Dell. Price: No price or deployment model stated; schedule-a-demo only.. https://www.aeratechnology.com/ (read 2026-11-23)</title></circle>
+<text text-anchor="start" x="730" y="490.9" font-size="13" fill="#111">Aera Technology</text>
+<circle cx="876" cy="566.4" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>ADR (adr.github.io) (source: landscape) Community site explaining Architectural Decision Records, each capturing one architecture decision with its rationale and consequences; together they form a decision log. Price: not read. https://adr.github.io/ (read 2026-11-23)</title></circle>
+<text text-anchor="start" x="886" y="570.4" font-size="13" fill="#111">ADR (adr.github.io)</text>
+<circle cx="876" cy="603.3" r="6" fill="#fff" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="3 2" opacity="0.6"><title>MADR (source: landscape) Markdown ADR template set (four variants: full, minimal, bare, bare-minimal) copied into docs/decisions as nnnn-title.md. Price: not read. https://github.com/adr/madr (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence</title></circle>
+<text text-anchor="start" x="886" y="607.3" font-size="13" fill="#111">MADR</text>
+<circle cx="876" cy="640.2" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Log4brains (source: landscape) Docs-as-code tool for writing and publishing ADRs as Markdown in a git repo, with local preview, search, timeline and a static site build. Price: not read. https://github.com/thomvaill/log4brains (read 2026-11-23)</title></circle>
+<text text-anchor="start" x="886" y="644.2" font-size="13" fill="#111">Log4brains</text>
+<circle cx="382" cy="719.8" r="6" fill="#fff" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="3 2" opacity="0.6"><title>HumanLayer (source: landscape) Runs coding agents (Claude Code, Codex and others) on a team's machines and lets the team steer tasks, sessions, plans and reviews from one place; repo is tagged human-in-the-loop. Price: not read. https://github.com/humanlayer/humanlayer (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence</title></circle>
+<text text-anchor="start" x="392" y="723.8" font-size="13" fill="#111">HumanLayer</text>
+<circle cx="382" cy="756.7" r="6" fill="#fff" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="3 2" opacity="0.6"><title>LangGraph interrupts (source: landscape) An interrupt() call pauses an agent graph, saves state, and resumes with a human's value (for example true or false) on the same thread; it can sit inside a tool so each call needs approval, and the reviewer can edit arguments. Price: not read. https://docs.langchain.com/oss/python/langgraph/interrupts (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence</title></circle>
+<text text-anchor="start" x="392" y="760.7" font-size="13" fill="#111">LangGraph interrupts</text>
+<circle cx="382" cy="793.6" r="6" fill="#fff" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="3 2" opacity="0.6"><title>Permit.io agent approvals (source: landscape) Docs page for agent security and approvals returned HTTP 404, so nothing was read. Price: not read. https://docs.permit.io/agent-security/overview (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence</title></circle>
+<text text-anchor="start" x="392" y="797.6" font-size="13" fill="#111">Permit.io agent approvals</text>
+<circle cx="824" cy="873.1" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>DMN (OMG standard) (source: landscape) Decision Model and Notation is OMG's standard for graphical decision models plus an executable expression language, designed to work with BPMN and exchange as XML. Price: not read. https://www.omg.org/spec/DMN/ (read 2026-11-23)</title></circle>
+<text text-anchor="start" x="834" y="877.1" font-size="13" fill="#111">DMN (OMG standard)</text>
+<circle cx="1084" cy="873.1" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Drools (Apache KIE) (source: landscape) Java rule engine that also includes a DMN engine running models with FEEL expressions; Kogito can deploy DMN decisions as microservices. Price: not read. https://github.com/apache/incubator-kie-drools (read 2026-11-23)</title></circle>
+<text text-anchor="start" x="1094" y="877.1" font-size="13" fill="#111">Drools (Apache KIE)</text>
+<circle cx="824" cy="910" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Camunda 8 (source: landscape) Agentic orchestration platform combining BPMN flows, DMN decisions and AI agent steps, with Tasklist for human tasks and Operate for monitoring. Price: No prices shown; 30-day free SaaS trial, then free modeling-only account or paid Enterprise; self-managed is free for development and needs an Enterprise licence in production; enterprise quotes via sales.. https://github.com/camunda/camunda (read 2026-11-23)</title></circle>
+<text text-anchor="start" x="834" y="914" font-size="13" fill="#111">Camunda 8</text>
+<circle cx="1084" cy="910" r="6" fill="#fff" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="3 2" opacity="0.6"><title>Open Policy Agent (source: landscape) General-purpose policy engine: services send queries, OPA evaluates rules against data and returns allow or deny decisions for the service to enforce. Price: not read. https://github.com/open-policy-agent/opa (read 2026-11-23); flagged by landscape.d: a page failed or was not read, low confidence</title></circle>
+<text text-anchor="start" x="1094" y="914" font-size="13" fill="#111">Open Policy Agent</text>
+<circle cx="824" cy="946.9" r="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2"><title>Cedar (source: landscape) Policy language and Rust engine for fine-grained application authorization: a request of principal, action and resource is evaluated against policies and returns allow or deny. Price: not read. https://github.com/cedar-policy/cedar (read 2026-11-23)</title></circle>
+<text text-anchor="start" x="834" y="950.9" font-size="13" fill="#111">Cedar</text>
+<text x="928" y="147.3" font-size="13" font-weight="600" fill="#777">Frameworks and standards:</text>
+<text x="798" y="263.7" font-size="13" font-weight="600" fill="#777">Collaborative platforms:</text>
+<text x="694" y="417.1" font-size="13" font-weight="600" fill="#777">Enterprise decision tools:</text>
+<text x="850" y="533.5" font-size="13" font-weight="600" fill="#777">Decision logs:</text>
+<text x="356" y="686.9" font-size="13" font-weight="600" fill="#777">Approval gates for agents:</text>
+<text x="798" y="840.2" font-size="13" font-weight="600" fill="#777">Codified rules and engines:</text>
+<text x="70" y="986" font-size="11" fill="#555">Green: user need. Purple: the shared goal. Blue: component. Red ring: a gap (named as missing in the sources). Orange arrow: a suggested move, for strategy.d. Faint dashed: low confidence. Positions are a reading of the sources.</text>
+</svg>
