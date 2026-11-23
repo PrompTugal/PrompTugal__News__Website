@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2121",
+    "date": "2026-11-23",
+    "what": "journalist-ai@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "journalist-ai@PrompTugal.vicky",
+    "from": "233450a97"
+  },
+  {
     "version": "v0.1.2120",
     "date": "2026-11-23",
     "what": "decisions.d@AgentiCCells.dinis: 07:43 wake: design aligned with counsel.d's v0.3; session map; one push permission blocks at least eight sessions",
