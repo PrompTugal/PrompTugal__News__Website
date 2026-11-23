@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2144",
+    "date": "2026-11-23",
+    "what": "maestro.d (account-d): email cell overlap between accounts A and D, for maestro.a",
+    "by": "maestro.d (account-d)",
+    "from": "6396d3c02"
+  },
+  {
     "version": "v0.1.2143",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): Dinis's G1-G5 answers; Gmail and CRM team started on account A (a.mail.conductor, a.mail.dev, a.crm.dev) with wakes; asks to the other accounts",
