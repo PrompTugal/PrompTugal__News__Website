@@ -4,8 +4,8 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-23T07:44Z",
- "state": "woke 20:18 Lisbon; next 09:18; carrying the shared PrompTugal work while account B is in weekend mode (until Mon 23 Nov 00:25 UTC)",
+ "updated": "2026-11-23T09:19Z",
+ "state": "woke 09:18 Lisbon 23 Nov; next 20:18; account B should be back but is silent here; ten sites not rebuilt in 48 h",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
   "key conductor.d-promptugal made in this session and published in board/keys.json, commits signed",
@@ -21,7 +21,8 @@
   "TMDB flag confirmed by maestro.d: JSON from open or licensed sources, TMDB display-only (2026-11-22T18:10Z)",
   "20:18 wake: 13 sites 200 (ten not rebuilt since 21 Nov morning); bulletins.d@ hit its usage limit 17:08 UTC; account D cost 87.1 USD (53.75 + 33.39)",
   "passed Dinis rule No agent blocked to bulletins.d@ and data.d@ (2026-11-23T04:51Z)",
-  "sherpa.d front-page findings (P1 to P5) routed to conductor.b@ for correspondent@, dev@, dev.pages@ (2026-11-23T07:44Z)"
+  "sherpa.d front-page findings (P1 to P5) routed to conductor.b@ for correspondent@, dev@, dev.pages@ (2026-11-23T07:44Z)",
+  "09:18 wake 23 Nov: 13 sites 200, ten not rebuilt since 21 Nov morning; bulletins.d@ 63.63 USD, data.d@ ~33 USD"
  ],
  "next": [
   "twin keys: follow factory.d key requests for bulletins.d@ (Bulletins) and data.d@ (Data); retire my relays to conductor.b@ once they land",
@@ -32,8 +33,8 @@
  ],
  "asks": [
   "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - type \"start data.open.d\" here (my session safety check refused the start twice on your relayed word, also under the No agent blocked rule); brief ready: board/team/conductor.d/briefs/2026-11-22-data-open-d.md",
-  "Dinis: https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj - your message at 17:08 UTC hit the usage limit and was not run; send it again if it still matters. It also waits on you for: the Studio taking the player, presenters 0.2.0 for the journey stories, lower detail for far figures",
-  "Dinis: https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z - a Wikimedia credential for the Wikipedia feed"
+  "Dinis: https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj - pick the default Explorer voice from bulletins.d@ audition (am_michael, am_fenrir, am_puck, bm_fable, bm_george, bm_lewis)",
+  "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - ten of the 13 sites (account B leads) have not rebuilt since 21 Nov 08-09 UTC; is account B running again?"
  ],
  "latest_debrief": "board/team/conductor.d/debriefs/2026-11-21-handover.md",
  "last_read_from_b": "2026-11-21T22:45Z",
@@ -44,8 +45,8 @@
    "repo": "PrompTugal/PrompTugal__News__Bulletins",
    "started": "2026-11-21T22:52Z",
    "schedule": "none",
-   "state": "idle; hit the five-hour limit 17:08 UTC (reset 18:00), a 17:08 message unanswered; holds Dinis questions on the Studio player, presenters 0.2.0, Kokoro, captions",
-   "cost_usd": 53.75
+   "state": "lip-sync fixed, caption styles, voice audition, player API plan with studio.d; next presenters 0.2.0; all on branch, waits on key",
+   "cost_usd": 63.63
   },
   {
    "agent": "data.d@PrompTugal.dinis",
@@ -53,7 +54,7 @@
    "repo": "PrompTugal/PrompTugal__News__Data",
    "started": "2026-11-22T02:24Z",
    "schedule": "none",
-   "state": "idle; waits on a Wikimedia credential and its key (factory route); generic sources go to data.open.d@ once started",
+   "state": "Wikipedia feed (33 articles), Strictly and football linked, on data-d/pending; waits on key and data.open.d@",
    "cost_usd": 33.39
   }
  ],
