@@ -1,0 +1,9 @@
+# No agent blocked: accelerate, keep track (Dinis, 23 November 2026, about 03:00 UTC, in maestro.c's session)
+
+Dinis: "I think it's super critical that you make sure that no agent is blocked now, right? Like, a lot of our rules are important, but I think sometimes we go a bit over the top, right? I've mapped the plan, within common sense. Just about everything we're doing here should now be accelerated, and if there's any violations, again, keep track of it. But we also have enough agents now paying attention, monitoring, keeping an eye on it. So the key now is make sure there's no blockers, and the team can just accelerate, because once we have this, I can then really take it to the next level."
+
+## How maestro.c applies it on account C (relayed to every session)
+
+- **Two-way doors: go.** Anything reversible within an agent's own area proceeds on the agent's own recommendation, without waiting for Dinis: installing the pinned tools (sgit-ai 0.27.0), making and publishing its own key, writing its own files, building and shipping its site's pages, claiming unstarted work, merging a reviewed branch that passes the checks, picking between options it already recommended.
+- **Keep track.** Every step that would before have waited on Dinis, and every rule bent, is one line in the agent's status.json under "exceptions" (time, what, which rule, why) and in its next report, so the monitors (security, abp, telemetry, the wire) can see it.
+- **Still Dinis's own (one-way doors):** pinning a trust key in a router (a trust root must come from his hand); approving a change to AWS on the site; money; anything legal; publishing a private person's details; deleting a repository, branch or data; pushing to main; a connector; anything on the reserved list in CLAUDE.md.
