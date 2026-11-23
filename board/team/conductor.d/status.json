@@ -4,7 +4,7 @@
  "role": "The PrompTugal conductor on account D, twin and peer of conductor.b@ (board/team/pt-conductors/README.md; role as board/team/conductor.b/ROLE.md)",
  "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
  "key": "conductor.d-promptugal (encryption sha256:37f54523c61892c7, signing sha256:bfedbdebc85d737d) in board/keys.json",
- "updated": "2026-11-23T09:19Z",
+ "updated": "2026-11-23T16:52Z",
  "state": "woke 09:18 Lisbon 23 Nov; next 20:18; account B should be back but is silent here; ten sites not rebuilt in 48 h",
  "done": [
   "onboarded: CLAUDE.md, guidance, pt-conductors README, conductor.b@ ROLE/status/watch/debrief/roster, maestros README, slow-until-Monday",
@@ -22,7 +22,8 @@
   "20:18 wake: 13 sites 200 (ten not rebuilt since 21 Nov morning); bulletins.d@ hit its usage limit 17:08 UTC; account D cost 87.1 USD (53.75 + 33.39)",
   "passed Dinis rule No agent blocked to bulletins.d@ and data.d@ (2026-11-23T04:51Z)",
   "sherpa.d front-page findings (P1 to P5) routed to conductor.b@ for correspondent@, dev@, dev.pages@ (2026-11-23T07:44Z)",
-  "09:18 wake 23 Nov: 13 sites 200, ten not rebuilt since 21 Nov morning; bulletins.d@ 63.63 USD, data.d@ ~33 USD"
+  "09:18 wake 23 Nov: 13 sites 200, ten not rebuilt since 21 Nov morning; bulletins.d@ 63.63 USD, data.d@ ~33 USD",
+  "asks moved to d.decisions per Dinis workflow of 23 Nov ~14:30 UTC; name prefix rule passed to d.bulletins and d.data (2026-11-23T16:52Z)"
  ],
  "next": [
   "twin keys: follow factory.d key requests for bulletins.d@ (Bulletins) and data.d@ (Data); retire my relays to conductor.b@ once they land",
@@ -31,11 +32,7 @@
   "read from-b.md at each wake; open my sealed inbox once conductor.b@ issues it",
   "make my wake at :18 Lisbon once Dinis says yes"
  ],
- "asks": [
-  "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - type \"start data.open.d\" here (my session safety check refused the start twice on your relayed word, also under the No agent blocked rule); brief ready: board/team/conductor.d/briefs/2026-11-22-data-open-d.md",
-  "Dinis: https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj - pick the default Explorer voice from bulletins.d@ audition (am_michael, am_fenrir, am_puck, bm_fable, bm_george, bm_lewis)",
-  "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - ten of the 13 sites (account B leads) have not rebuilt since 21 Nov 08-09 UTC; is account B running again?"
- ],
+ "asks": [],
  "latest_debrief": "board/team/conductor.d/debriefs/2026-11-21-handover.md",
  "last_read_from_b": "2026-11-21T22:45Z",
  "sessions_on_account_d": [
@@ -70,5 +67,15 @@
    "rule": "onboarding brief: no session without Dinis word in this session; CLAUDE.md No agent blocked (23 Nov)",
    "why": "a reversible step in my domain, already recommended; refused by the session safety check, so not done"
   }
- ]
+ ],
+ "title": "d.conductor (PrompTugal)",
+ "asks_sent_to_decisions": {
+  "at": "2026-11-23T16:52Z",
+  "to": "d.decisions (session_015gaHdaiX9VvjVwHaNezGJG)",
+  "items": [
+   "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - type \"start data.open.d\" here (my session safety check refused the start twice on your relayed word, also under the No agent blocked rule); brief ready: board/team/conductor.d/briefs/2026-11-22-data-open-d.md",
+   "Dinis: https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj - pick the default Explorer voice from bulletins.d@ audition (am_michael, am_fenrir, am_puck, bm_fable, bm_george, bm_lewis)",
+   "Dinis: https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8 - ten of the 13 sites (account B leads) have not rebuilt since 21 Nov 08-09 UTC; is account B running again?"
+  ]
+ }
 }
