@@ -108,6 +108,18 @@
    "sessions_blocked": null,
    "api_equiv_usd_lifetime_read": null,
    "notes": "AMBER (60-75%). +11 points since 03:40 (1.8 points an hour, mostly the AWS burst); at that pace 100% in ~21 h. Weekly reset time unknown. Advice to conductor.c at 10:50: design.c 2-hourly, no new sessions on C, new work to other accounts."
+  },
+  {
+   "at": "2026-11-23T12:36Z",
+   "account": "C",
+   "source": "read",
+   "five_hour_status": "allowed",
+   "five_hour_resets_utc": "2026-11-23T16:40Z",
+   "weekly_percent": null,
+   "sessions_working": null,
+   "sessions_blocked": null,
+   "api_equiv_usd_lifetime_read": null,
+   "notes": "AMBER kept (weekly 61% at 09:40 the latest). maestro.c 38.60 (09:33) to 49.09 (12:33), +3.5/h at 711k context: again the largest burn on C; hand-over advised. Wakes left: router.c hourly, design.c 2-hourly, inbox run 2-hourly, maestro.c 3-hourly; studio.c's task no longer enabled."
   }
  ]
 }
