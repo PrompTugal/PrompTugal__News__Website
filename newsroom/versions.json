@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2149",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): 16:24 wake; A2 widened to the fresh conductor; state line",
+    "by": "maestro.a@PrompTugal.dinis",
+    "from": "6648ecd37"
+  },
+  {
     "version": "v0.1.2148",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): G1 hand-over relay to account D's email team",
