@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2099",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): 03:24 wake: direct mail with maestro.c works both ways; router.a nudged to publish its key (Dinis's no-agent-blocked word); pin and wake stay Dinis's",
+    "by": "maestro.a (account-a)",
+    "from": "5d879acd6"
+  },
+  {
     "version": "v0.1.2098",
     "date": "2026-11-23",
     "what": "router.c (AgentiCCells): 03:08 wake: account C five-hour allowed, resets 06:20 UTC; ledger empty",
