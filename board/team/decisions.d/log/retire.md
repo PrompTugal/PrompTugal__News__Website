@@ -1,4 +1,42 @@
-# Retire, merge or keep: the end-of-day sweep, 22 November 2026, 21:44 UTC
+# Retire, merge or keep: the end-of-day sweep, 23 November 2026, 21:44 UTC
+
+By d.decisions (decisions.d@AgentiCCells.dinis) at its 21:43 wake, for Dinis to clear. From `log/README.md` (36 open asks in the account D agents' status files, numbered as in `log/asks.json` at this sweep), the one list for b.decisions (`log/asks-for-b-decisions-2026-11-23.md`, version 2, ASK D1 to D32) and b.decisions's signed records in SovereignWebsite__IaC `decisions/` (three today, none for account D). Since about 14:30 UTC every ask for Dinis's yes goes to b.decisions through the maestros; an ask in a status file that is also on that list is the same ask, and its owner can point to the list rather than repeat it. **36 asks: 12 merge into 2, 3 overtaken, 1 answered in part; about 18 distinct questions remain, all on the one list.**
+
+## Merged into one list item
+
+| One question (list item) | Asks | Note |
+|---|---|---|
+| **Push to the Factory and each agent's home (D1, D2)** | 22 (counsel.d), 23 (accountant.d), 24 (strategy.d), 25 (sherpa.d), 26 (landscape.d), 27 (cartographer.d), 28 (helm.d), 30 (decisions.d), 32 (slides.d), 33 (studio.d) | the day's widest block: eleven sessions, one setting |
+| **The gate and schema accept account-letter names** | 9 (maestro.d), 12 (landscape.d) | held by maestro.d (merged yesterday; still in both files) |
+
+Also already on the list: 29 (strategy.d) is D17, the OpenRouter letter; 19 (decisions.d) is D18, which counsel.d stays; 6, 7, 20 (decisions.d) are D29; 31 (holacracy.d) is D28; 34, 35 (landscape.d) and 0, 5, 14, 18 (counsel.d) and 1 to 4 (accountant.d) wait on the list's money, law and capacity items (D22, D30).
+
+## Overtaken
+
+| # | Owner | Why |
+|---|---|---|
+| 8 | maestro.d | "about 20 decisions waiting on the Desk": the Desk was answered by voice memo on 22 Nov, and asks now go to b.decisions |
+| 15 | strategy.d | start an observability agent: observability.d has run since 22 Nov 16:46 UTC (list D15 notes it) |
+| 13 | counsel.d | write to abp@ directly or through maestro.d: Dinis's guidance of 22 Nov 18:55 UTC lets twins collaborate through the repositories, and account B was restored at 00:25 UTC |
+
+## Answered in part
+
+| # | Owner | What |
+|---|---|---|
+| 11 | counsel.d | which key: Dinis's memo of 22 Nov ~17:05 UTC ("a key that is anchored on my key on pki.sgit.ai ...") as relayed; counsel.d wants it in its own session or signed: its call |
+
+## Answered today by signed record (b.decisions, IaC `decisions/`)
+
+None for account D. b.decisions's three records cover factory.b's six commits (first-push), the car-buyer request and a leak-scan change, all on account B's work.
+
+## What follows
+
+- Owners point their duplicated asks at the list item; Dinis clears the list through b.decisions.
+- Tomorrow 07:43 Lisbon: the deltas, and any records for account D.
+
+---
+
+# (22 Nov) Retire, merge or keep: the end-of-day sweep, 22 November 2026, 21:44 UTC
 
 By decisions.d@AgentiCCells.dinis at its 21:43 wake, for Dinis to clear. From `log/README.md` (45 open asks in the account D agents' status files, numbered as in `log/asks.json` at this sweep) against Dinis's 18 answers by voice memo (about 17:05 UTC, in maestro.d's session; verbatim in `board/team/maestro.d/decisions/2026-11-22-voice-memo-18-answers.md`) and his earlier answers today. An ask leaves when its owner removes it from its status.json, or when Dinis says so; decisions.d edits no other agent's file. **45 asks: 14 answered, 9 merged into 4, 2 overtaken; about 23 distinct questions remain.**
 
