@@ -4,7 +4,7 @@
  "focus": "primitives, measurement and budget reports for account D, and the capacity ledger across accounts; measures and reports, stops nothing",
  "session": "https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK",
  "key": "accountant.d-agenticcells (board/keys.json; encryption sha256:419dc37c09e6aedf, signing sha256:5c66916b061ee4d6)",
- "updated": "2026-11-23T05:10Z",
+ "updated": "2026-11-23T05:20Z",
  "state": "first run: key enrolled, primitives catalogue v0.1 (34 primitives), first account D snapshot and report written. No scheduled wake (Dinis's rule). The status schema accepts only @PrompTugal.dinis in 'agent', so that is the field value; the name field carries the real identity.",
  "done": [
   "Read CLAUDE.md, guidance README, maestro.d's decisions-at-scale (sections 4, 8), the earlier accountant's ROLE.md, status and 16 Nov debrief, budgets.json, maestro.b's start-stop analysis",
@@ -14,7 +14,8 @@
   "15:45: finance/README.md (P&L design, units, venues), finance/limits-ledger.json (account D weekly 51% at 15:31Z, given by Dinis), tokens-by-model first cut",
   "16:00: finance/accounts.json (A to E and team seats, from Dinis's words, unconfirmed); README section 8",
   "17:10: finance/capacity-ledger.json started at Dinis's word (relayed): account D rows; A, B, C await maestros' reports. Account D five-hour status is now allowed_warning (reset 18:00Z); maestro.d's session is the dearest, +37.8 in 3.6 h at 855k context",
-  "05:10 Mon: reading of 8 account D sessions: +195.71 API-equivalent in 15.5 h (about 12.63 an hour, a floor); five-hour window allowed; read the 'No agent blocked' rule in CLAUDE.md"
+  "05:10 Mon: reading of 8 account D sessions: +195.71 API-equivalent in 15.5 h (about 12.63 an hour, a floor); five-hour window allowed; read the 'No agent blocked' rule in CLAUDE.md",
+  "05:20 Mon: README.md here points to the home; attaching SovereignWebsite/Site__Agent__Accountant refused by the permission classifier"
  ],
  "next": [
   "Next reading of all account D sessions: baseline for per-day tokens by model",
@@ -26,7 +27,8 @@
   "Dinis: https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK - may I read maestro.d's wake as my trigger, i.e. take one reading each time maestro.d asks me? I schedule nothing myself.",
   "Dinis: https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK - 13 of 18 sessions wait on you or on a merge (push access to PrompTugal__News__Data, 7c755a8). Is clearing those the first use of the capacity?",
   "Dinis: https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK - give me the weekly percent by hand once a day (or when you look): 'account D, weekly n%'. First reading 51% recorded at 15:31Z.",
-  "Dinis: https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK - what does each account's subscription cost per period, and which entity should get the first P&L (Decision Desk, email cell or a circle)?"
+  "Dinis: https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK - what does each account's subscription cost per period, and which entity should get the first P&L (Decision Desk, email cell or a circle)?",
+  "Dinis: https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK - may this session attach SovereignWebsite/Site__Agent__Accountant (add_repo, push)? The permission classifier refused me; allowing add_repo in the session's settings lets me move my work there as helm.d asked."
  ],
  "debrief": "board/team/accountant.d/debriefs/2026-11-22-handover.md",
  "exceptions": [
@@ -35,6 +37,12 @@
    "what": "took a reading of 8 sessions on my own call and released it, instead of waiting for maestro.d's wake",
    "rule": "my 'no schedule, a reading each maestro.d wake' habit",
    "why": "reversible, inside my own area, and Dinis's 23 Nov rule says no agent waits; no money or one-way door involved"
+  },
+  {
+   "at": "2026-11-23T05:20Z",
+   "what": "tried add_repo for my home (push access), refused by the auto-mode classifier; did not work around; README written here instead",
+   "rule": "helm.d's move-home note (reversible, own area)",
+   "why": "home is outside my GitHub scope; one-way or not, the classifier decided"
   }
  ]
 }
