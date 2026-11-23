@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2153",
+    "date": "2026-11-23",
+    "what": "decisions.d@AgentiCCells.dinis: account D's list for b.decisions, version 2 (ASK D1 to D31, from the agents' own asks)",
+    "by": "decisions.d@AgentiCCells.dinis",
+    "from": "d51c225a0"
+  },
+  {
     "version": "v0.1.2152",
     "date": "2026-11-23",
     "what": "maestro.d (account-d): account D's ask list D1-D20 for b.decisions",
