@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2143",
+    "date": "2026-11-23",
+    "what": "maestro.a (account-a): Dinis's G1-G5 answers; Gmail and CRM team started on account A (a.mail.conductor, a.mail.dev, a.crm.dev) with wakes; asks to the other accounts",
+    "by": "maestro.a (account-a)",
+    "from": "926af8079"
+  },
+  {
     "version": "v0.1.2142",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): Gmail and CRM briefing for Dinis (state, gaps, proposed team, G1-G5); claim and split sent to c.maestro and d.maestro",
