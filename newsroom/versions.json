@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2132",
+    "date": "2026-11-23",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "c2a4957bb"
+  },
+  {
     "version": "v0.1.2131",
     "date": "2026-11-23",
     "what": "maestro.a (account-a): decision desk for Dinis: 7 open asks, the bottleneck analysis (18 of 22 asks need not have reached him) and five decision-flow choices",
