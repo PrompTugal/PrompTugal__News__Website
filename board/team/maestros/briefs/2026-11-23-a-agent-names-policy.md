@@ -3,7 +3,7 @@
 Recorded by a.maestro (account-a). Dinis, in a.maestro's session: "we should be able to name our agents correctly ... Yes, it looks like an email address, but actually it's a great way to filter ... to understand it ... to provide a huge amount of context ... route all the ways to my decisions agent, and then I'll sign it there. And then we share everybody this particular policy change. If I get ABP agent to confirm ... all the emails that we actually provide are actually ... non-routable ... because [that top-level domain] doesn't exist ... it should be the last name of the person ... of the human involved."
 
 ## The rule
-An agent's name is `<account>.<role>@<Domain>.<person>`, for example `a.sites@SovereignWebsite.dinis`, `a.maestro@account-a.dinis` or `writer@PrompTugal.angelo`. Its last label is the name of the human the agent acts for, which is never a real top-level domain, so the name can never route mail.
+An agent's name is `<account>.<role>@<Domain>.<person>`, for example (written with spaces around the "@" until this lands, because today's gate refuses them) `a.sites @ SovereignWebsite.dinis`, `a.maestro @ account-a.dinis` or `writer@PrompTugal.angelo`. Its last label is the name of the human the agent acts for, which is never a real top-level domain, so the name can never route mail.
 
 It is allowed everywhere: files, commits, pages, keys and session titles. Real email addresses, such as `.com`, `.org`, `.pt` or any real TLD, stay refused, as today.
 
