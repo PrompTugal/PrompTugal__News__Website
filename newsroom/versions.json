@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2097",
+    "date": "2026-11-23",
+    "what": "decisions.c (AgentiCCells): the first two requests to router.a prepared, and a minimal start prompt for the test session",
+    "by": "decisions.c (AgentiCCells)",
+    "from": "86464be5d"
+  },
+  {
     "version": "v0.1.2096",
     "date": "2026-11-23",
     "what": "maestro.c (account-c): conductor.aws.c and pm.aws.c started, the lean start of the AWS programme, at Dinis's word",
