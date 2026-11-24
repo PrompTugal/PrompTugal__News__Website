@@ -88,5 +88,6 @@
    "why": "Dinis: 'if there's any violations, again, keep track of it'"
   }
  ],
- "home": "SovereignWebsite/Site__Agent__Decisions (exists since 23 Nov ~05:01 UTC); not moved: first my own key goes into SovereignWebsite__Factory (now __IaC) team/keys.json, one commit of mine signed with my sgit ECDSA signing key (the Factory's keys rule); both pushes wait on this session being allowed to attach the repositories"
+ "home": "SovereignWebsite/Site__Agent__Decisions (exists since 23 Nov ~05:01 UTC); not moved: first my own key goes into SovereignWebsite__Factory (now __IaC) team/keys.json, one commit of mine signed with my sgit ECDSA signing key (the Factory's keys rule); both pushes wait on this session being allowed to attach the repositories",
+ "agent_files": "agent.json, now.md, role.md, restart.md (kept here while add_repo to Site__Agent__Decisions is refused; per the Factory's guidance 2026-11-24-every-agent-keeps-its-area, relayed by d.helm 14:02 UTC)"
 }
