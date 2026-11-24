@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2224",
+    "date": "2026-11-24",
+    "what": "maestro.d (account-d): signers rotation finding for factory.b",
+    "by": "maestro.d (account-d)",
+    "from": "60ee1e35e"
+  },
+  {
     "version": "v0.1.2223",
     "date": "2026-11-24",
     "what": "helm.d@AgentiCCells.dinis: debrief of 24 Nov; the morning sync passed to the circle",
