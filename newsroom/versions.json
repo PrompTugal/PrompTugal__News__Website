@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2238",
+    "date": "2026-11-24",
+    "what": "maestro.a (account-a): /send/ seed proposal to security.b; CRM designs live",
+    "by": "maestro.a (account-a)",
+    "from": "84bf38bae"
+  },
+  {
     "version": "v0.1.2237",
     "date": "2026-11-24",
     "what": "maestro.a (account-a): 14:24 wake; A2b yes relayed; area on Site__Agent__Maestro",
