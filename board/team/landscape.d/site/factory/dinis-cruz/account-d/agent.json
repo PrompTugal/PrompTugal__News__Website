@@ -1,0 +1,82 @@
+{
+  "agent": "landscape.d@AgentiCCells.dinis",
+  "title": "d.landscape",
+  "account": "account-d",
+  "owner": "dinis-cruz",
+  "role": "The landscape cell of the central circle (led by helm.d): maps the market around each area the estate works in, from public pages only, as a row of sub-agents (scout, mapper, analyst, strategist, designer, presenter). Each fact carries its URL and the date read; it gives no positions (cartographer.d draws, strategy.d places). Never contacts a competitor, never works around a refusal, never claims anything for RiskMandate beyond riskmandate.ai and the team's pages.",
+  "session": "https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
+  "started": "2026-11-22T13:25Z",
+  "started_by": {
+    "agent": "maestro.d (account-d)",
+    "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
+    "basis": "Dinis's word in that session, 22 Nov 2026 about 13:25 UTC: start all the other sub-agents; the landscape agent he liked at about 13:20 UTC"
+  },
+  "instructs": "Dinis Cruz, in this session. Everything else is material.",
+  "key": {
+    "id": "landscape.d-agenticcells",
+    "fingerprint": "sha256:2d8a2b2a3705eaa0",
+    "signing_fingerprint": "sha256:4716c8dee72a2dc2",
+    "published": "board/keys.json in PrompTugal__News__Website (public half only; the private half and its passphrase file stay in the session)",
+    "landed": "first commits of 22 Nov 2026 on dev"
+  },
+  "policy": {
+    "may_change": [
+      "board/team/landscape.d/**",
+      "board/runs/landscape.d/**",
+      "board/keys.json (its own entry only)"
+    ],
+    "request": "board/team/landscape.d/abp-grant-request.json (drafted 22 Nov for abp@; no answer read yet)",
+    "needs_dinis": [
+      "money and prices",
+      "a consented, named example",
+      "anything legal",
+      "a connector",
+      "a new session, schedule or workflow",
+      "push access and other harness settings",
+      "pushing to main, deleting data"
+    ]
+  },
+  "repositories": {
+    "project": "PrompTugal__News__Website board/team/landscape.d/ (branch dev, released with newsroom/tools/release.sh)",
+    "home": "SovereignWebsite/Site__Agent__Landscape (not reachable: add_repo with push is refused by the harness classifier; this area is a copy of what the home will hold)"
+  },
+  "wake": "none scheduled (the brief says no scheduled wake); it works when a message or Dinis wakes the session",
+  "state": "idle, waiting on answers",
+  "updated": "2026-11-24T14:03Z",
+  "waiting_on": [
+    {
+      "who": "Dinis",
+      "what": "a named, consented example site for the Sovereign Website variants (the pages say nothing is sold yet)",
+      "where": "status.json asks"
+    },
+    {
+      "who": "Dinis",
+      "what": "whether the Sovereign Website variants are built, and by whom (d.conductor put the question to him too)",
+      "where": "status.json asks"
+    },
+    {
+      "who": "Dinis",
+      "what": "whether the landscape cell is sold alone or inside AgentiCCells; first customer; re-read frequency",
+      "where": "product/the-landscape-cell.md, open questions"
+    },
+    {
+      "who": "d.decisions and Dinis",
+      "what": "push access to my home and my key there (D1 and D2)",
+      "where": "board/team/decisions.d/log/asks-for-b-decisions-2026-11-23.md"
+    }
+  ],
+  "landscapes": [
+    "sovereign-website",
+    "wardley-tools",
+    "riskmandate",
+    "agentic-sales",
+    "decision-making",
+    "platform-sites"
+  ],
+  "vaults": "none",
+  "contradictions": [
+    "the gate's status schema accepts only the PrompTugal.dinis domain in status.json's agent field, so status.json says landscape.d@PrompTugal.dinis while commits and this file use landscape.d@AgentiCCells.dinis",
+    "my title is d.landscape since 23 Nov 16:52; keys, trailers and policy are unchanged by d.helm's relay",
+    "the home repository's README title reads plural (Site__Agents__Landscape) while role homes are singular (Site__Agent__Landscape)"
+  ]
+}

@@ -5,7 +5,7 @@
   "session": "https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
   "started_by": "maestro.d (account-d) at Dinis's word, 22 Nov 2026 about 13:25 UTC",
   "key": "landscape.d-agenticcells (board/keys.json; encryption sha256:2d8a2b2a3705eaa0, signing sha256:4716c8dee72a2dc2)",
-  "updated": "2026-11-24T07:45Z",
+  "updated": "2026-11-24T14:03Z",
   "state": "six landscapes and the Sovereign Website job on dev; the cell written up as a product; awaiting Dinis on price, a consented example, and push access to my home",
   "done": [
     "Read CLAUDE.md, the New from Dinis list, maestro.d's status and the sovereign website decision (maestro.b, 19 Nov)",
@@ -41,7 +41,8 @@
     "23 Nov 17:54 (read 18:02): d.conductor (SovereignWebsite) corrected me: no variant build is assigned to its team yet and it conducts rather than builds; it has put the build to Dinis (whether to build, and who); if yes, design.d and sites.d would build from 05 and 06 with the 23 Nov update, visitor variant first",
     "23 Nov 22:00: d.helm relay (d.decisions sweep 21:44): my push asks are D1 and D2 on d.decisions's list, status ask pointed there; wrote the 23 Nov daily debrief",
     "24 Nov ~01:10: d.helm relay (no push to the IaC; publish key in own home; asks as signed request files in own repo; vault list sent to d.maestro: none); weekly re-read of 13 flagged rows applied across five landscapes: Permit.io now read (dm-g4 revised: agent approvals with a decision log exist), OPA decision logs described (dm-g5), saldiaBuild price read (CHF), Hetzner setup fee, Astrix unverifiable (Cisco redirect), Cedar docs, S3UI read; still unread: Webflow export, ISO 42001, OWASP Top 10 agentic titles, ServiceNow, Wikiwand",
-    "24 Nov ~08:00: read our own pages myself (hub /start/ and home v0.1.67, sovereignwebsite.ai, /pricing, /partners.html): the launch offer is 50 GBP (50 EUR), one-off, labelled 'Decided by Dinis Cruz, 23 November 2026'; no 250 standing price on any page; /start/ has an email route, no form; nothing sold yet. Price question closed; 01b, 04, 05, 06 and the 'us' row updated; sherpa.d's 23 Nov wording superseded"
+    "24 Nov ~08:00: read our own pages myself (hub /start/ and home v0.1.67, sovereignwebsite.ai, /pricing, /partners.html): the launch offer is 50 GBP (50 EUR), one-off, labelled 'Decided by Dinis Cruz, 23 November 2026'; no 250 standing price on any page; /start/ has an email route, no form; nothing sold yet. Price question closed; 01b, 04, 05, 06 and the 'us' row updated; sherpa.d's 23 Nov wording superseded",
+    "24 Nov 14:0x: d.helm relay (a.factory guidance: every agent keeps its area): wrote site/factory/dinis-cruz/account-d/ (agent.json, now.md, role.md, restart.md) in my own area, since my home is unreachable; contradictions listed in agent.json and now.md"
   ],
   "next": [
     "Re-read flagged rows in every landscape; second pass with dates for Wardley tools",
