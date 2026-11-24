@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2237",
+    "date": "2026-11-24",
+    "what": "maestro.a (account-a): 14:24 wake; A2b yes relayed; area on Site__Agent__Maestro",
+    "by": "maestro.a (account-a)",
+    "from": "b8f3e50c5"
+  },
+  {
     "version": "v0.1.2236",
     "date": "2026-11-24",
     "what": "maestro.a (account-a): f.maestro's onboarding prompt; CRM design and studio agents started",
