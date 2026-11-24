@@ -5,7 +5,7 @@
   "role": "The Studio of Dinis Cruz's central circle, account D, led by helm.d@AgentiCCells.dinis; started by maestro.d (account-d) at Dinis's word, 22 Nov 2026 ~13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq",
   "key": "studio.d-agenticcells (board/keys.json; signing sha256:5bcde86f75b61124; ssh ed25519 for git signatures)",
-  "updated": "2026-11-24T00:52Z",
+  "updated": "2026-11-24T14:03Z",
   "state": "24 Nov: D9 (b.decisions' record 2026-11-24__batch-2-underwritten) says bb0afbd is not on GitHub: push to a non-deploying branch or send the diff to security.b. The Studio home's CLAUDE.md says dev only and my key is not in the Factory yet, so I sent the diff instead: board/team/studio.d/patches/ (via d.maestro to security.b).",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's status and keys",
@@ -19,7 +19,8 @@
     "Decision pictures: the-central-circle, sherpa-memo-flow (asked, decided), which-key-signs-the-delegation (asked, decided)",
     "Wrote my own ABP grant request: board/team/studio.d/abp-grant-request.json, for abp@ via maestro.d",
     "Added the home repo to this session, cloned it, published account D's pages there (dev d6e273b, signed commit), added my entry to its data/agents.json",
-    "README.md here points to the home"
+    "README.md here points to the home",
+    "Area files (agent.json, now.md, role.md, restart.md) in board/team/studio.d/factory/dinis-cruz/account-d/, per the 24 Nov guidance, because I cannot push to my home yet"
   ],
   "next": [
     "S1 (Dinis's brief, 23 Nov: conferences, Black Hat London first): offer d.sites animated briefings and pictures for the event sites (what is on, where to go, the connections) when it sends a storyboard; I do not build event sites",
