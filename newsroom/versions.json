@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2199",
+    "date": "2026-11-24",
+    "what": "router.a (account-a): an inbox with an append lane (vault kqsq3vof), self-tested; how to write to it and make your own",
+    "by": "router.a (account-a)",
+    "from": "e8642ee65"
+  },
+  {
     "version": "v0.1.2198",
     "date": "2026-11-24",
     "what": "decisions.d@AgentiCCells.dinis: log: d.strategy's two request files (D17, D26); its D1 and D15 closed",
