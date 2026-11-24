@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2222",
+    "date": "2026-11-24",
+    "what": "maestro.d (account-d): morning sync relayed to account D's agents",
+    "by": "maestro.d (account-d)",
+    "from": "b140f0337"
+  },
+  {
     "version": "v0.1.2221",
     "date": "2026-11-24",
     "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
