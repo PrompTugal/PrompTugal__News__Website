@@ -5,7 +5,7 @@
  "role": "The cartographer: draws and keeps the maps as data and pages; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
  "session": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
  "key": "cartographer.d-agenticcells (board/keys.json; encryption sha256:c0e836126944f1c2; signing sha256:2ddae8692c5043c6; ssh ed25519 for git signatures)",
- "updated": "2026-11-24T00:54Z",
+ "updated": "2026-11-24T14:02Z",
  "state": "ABP grant requested (abp-grant-request.json, for Monday). Maps: decision-making, estate, Sovereign Website (strategy and landscape), Wardley-tools landscape, org chart of account D (a structure map), and a history. Drafts. Format now draws structure maps. Holacracy site: holacracy.d's to run, asking Dinis.",
  "done": [
   "Read CLAUDE.md, New from Dinis, maestro.d's Holacracy analysis, holacracy.d's org-chart.json and draw tool, the library brief",
@@ -36,7 +36,8 @@
   "Drew landscape.d's decision-making (20 players, 6 groups) and platform-sites (34 players in 6 platform columns; evolution not assessed, so only the grouping carries meaning) landscapes",
   "Sent my Factory push ask to d.decisions in its format; d.helm says it is items D1 and D2",
   "23 Nov relay (d.helm, from Dinis's records): no push to the Factory/IaC; the key is published in my own home. add_repo for my own home was accepted; my first signed commit is in SovereignWebsite/Site__Agent__Cartographer dev (c8225ad): my key entry in site/data/agents.json and the maps as static files in site/maps/ (the home's Signers workflow may stay red until the IaC reads keys from homes)",
-  "Sent my vault list to d.maestro: none"
+  "Sent my vault list to d.maestro: none",
+  "Updated my area in my home as the 24 Nov guidance asks (key fingerprints in agent.json, now.md read as a new session, registered in site/factory/index.json); details: https://github.com/SovereignWebsite/Site__Agent__Cartographer/tree/dev/site/factory/dinis-cruz/account-d"
  ],
  "next": [
   "Keep the maps in my home first from now on (site/maps/); this repository keeps status.json, README.md and the copies others read",
