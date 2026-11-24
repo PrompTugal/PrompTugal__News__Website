@@ -267,7 +267,7 @@
    "tension": "A home asks for a commit signed with a key published in the Factory's team/keys.json. The Factory's own rule says that file waits for Dinis's merge; helm.d relays that each agent publishes its own by a signed commit of its own; CLAUDE.md's no-agent-blocked rule lists 'making and publishing your own key by your own signed commit' as an own-area step.",
    "source": "MOVE-TO-HOME.md",
    "rec": "B",
-   "status": "open",
+   "status": "answered (relayed by d.helm; records read in SovereignWebsite/Site__Agent__Decisions, site/records/2026-11-24__own-keys-principle.json, in force, Dinis ~00:52Z 24 Nov): an agent with access to a repository creates and updates its own keys there; no one edits another's. So my key goes in my own home, not the IaC key list. Remaining step: my session needs access to Site__Agent__Holacracy (D12)",
    "options": [
     {
      "k": "A",
@@ -320,6 +320,37 @@
      "good": "No overlap",
      "bad": "Loses the scoped knowledge; stopping a session is Dinis's",
      "follows": "You stop one; I redraw"
+    }
+   ]
+  },
+  {
+   "id": "D12",
+   "title": "Give d.holacracy access to its own home",
+   "tension": "The own-keys principle lets an agent publish its own key in a repository it has access to. My session cannot reach Site__Agent__Holacracy: attaching it is a session change, and the settings-rules record says no agent adds or widens a rule for itself.",
+   "source": "MOVE-TO-HOME.md",
+   "rec": "A",
+   "status": "open",
+   "options": [
+    {
+     "k": "A",
+     "label": "Attach Site__Agent__Holacracy to my session (a rule in my settings, added by Dinis, or his yes in my session)",
+     "good": "Matches the own-keys principle; I publish my key and move my work and page there",
+     "bad": "One more attached repository",
+     "follows": "I commit my key in the home, then move the record, public documents and page, nothing deleted here"
+    },
+    {
+     "k": "B",
+     "label": "Someone else commits my files to the home",
+     "good": "No new access for me",
+     "bad": "Breaks 'each agent keeps its own repository'",
+     "follows": "Another agent writes in my home"
+    },
+    {
+     "k": "C",
+     "label": "Stay here",
+     "good": "Nothing to do",
+     "bad": "No site, no browsable page",
+     "follows": "The page stays a file sent to Dinis"
     }
    ]
   }

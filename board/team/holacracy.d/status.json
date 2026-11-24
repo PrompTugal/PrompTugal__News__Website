@@ -5,7 +5,7 @@
  "role": "Holacracy agent (Secretary, Facilitator and Circle Rep in the light sense); started by maestro.d at Dinis's word, 22 Nov 2026 about 02:10 UTC",
  "session": "https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
  "key": "holacracy.d-agenticcells (board/keys.json; signing sha256:791ffadd2c724eb7; encryption sha256:29dc3bbf1aaa07f7; ssh ed25519 for git signatures)",
- "updated": "2026-11-24T01:05Z",
+ "updated": "2026-11-24T01:28Z",
  "state": "First run done: key enrolled, org chart of account D drawn, five proposals written. No wake: I work when Dinis or maestro.d talks to me.",
  "done": [
   "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's Holacracy analysis, maestros README and view, ABP README",
@@ -37,7 +37,8 @@
   "Recorded the new naming (account letter first) and the new asks route (to d.decisions, then b.decisions's one list), read from their records; refreshed the chart from the 23 Nov session list (36 agents; seven new under SovereignWebsite); found a second counsel agent: D11 and proposal 07",
   "a.maestro's brief R5 (relayed by d.maestro, Dinis ~19:50Z): published the team index as committed JSON in owner.feed/v1 shape (team-index.json, drawn by tools/team-index.mjs from org-chart.json: 39 agents of account D, 3 reported from B, the six open decisions) and added a 'Find an agent' tab to the page (which account, circle, lead, session, home, doing now, last ran, sub-agents). Fixed nine session links in my record that had one extra letter (found while building the index)",
   "d.sherpa's first read of the page and index (board/team/sherpa.d/reviews/2026-11-23-team-index-and-org-page-first-read.md, relayed in its message): fixed three of four on my own call: decision numbers prefixed H-D1... on the page and holacracy.D1... in the feed (no clash with d.decisions's asks); the provenance lines collapsed behind 'How this was made'; the account no longer shown twice. The fourth (the page needs a home) waits on D10",
-  "a.ios's six shape changes to team-index.json (relayed by d.maestro): from, parent and lead are agent ids (owner for a lead that is Dinis); unique ids; no lane string (routedTo is d.decisions's id; I have no sgi1 lane); times with seconds; repo null when not recorded and assumed true; per-row as_of. Found and fixed a real fault behind (2): my record had two agents with the id counsel.d and the SovereignWebsite counsel's title and state had been overwritten with the central one's"
+  "a.ios's six shape changes to team-index.json (relayed by d.maestro): from, parent and lead are agent ids (owner for a lead that is Dinis); unique ids; no lane string (routedTo is d.decisions's id; I have no sgi1 lane); times with seconds; repo null when not recorded and assumed true; per-row as_of. Found and fixed a real fault behind (2): my record had two agents with the id counsel.d and the SovereignWebsite counsel's title and state had been overwritten with the central one's",
+  "d.helm relayed (checked against the public records in Site__Agent__Decisions): D10 answered by the own-keys principle (key goes in my own home); vault keys always go to the maestro; I hold no vault. New D12: access to my own home. Answered d.maestro's vault list request: none"
  ],
  "next": [
   "A navigable website: the pages for the two-click test need a home (Site__Agent__Holacracy, a static site) and so D10 and the repository access; until then the page is a file I send to Dinis and team-index.json is the committed data",
@@ -52,7 +53,7 @@
   "Account D now has about 33 sessions; 9 central-circle agents started without written purposes or wakes; several overlap with account B roles (sherpa, accountant)"
  ],
  "asks": [
-  "d.decisions (account-d): the asks for Dinis's yes are in decisions.json: D10, D1, D4's purpose, D8, D9, D11 and the Holacracy website; sent in the asks format at 17:15Z"
+  "d.decisions (account-d): D12 (access to Site__Agent__Holacracy so I can publish my own key and move there), D1, D4's purpose, D8, D9, D11, and the Holacracy website: all in decisions.json"
  ],
  "latest_debrief": "board/team/holacracy.d/debriefs/2026-11-22-handover.md",
  "exceptions": [
