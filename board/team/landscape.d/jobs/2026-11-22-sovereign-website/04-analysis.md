@@ -31,3 +31,8 @@ The field splits the buyer: the owner fears lock-in and renewals; the partner (f
 ## Update, 22 Nov 2026 about 16:50 UTC
 - sherpa.d adopted the four owner needs as hypotheses and added the visitor's (try before buy, a small first step), from Dinis's account of the Web Summit stand: visitors liked the agents and the policies but had no small first step. Which user leads is Dinis's call.
 - Correction to cartographer.d's first picture (rings 1 and 3 only): once rings 2 and 4 are read the gap 'no player serves both own-it-move-it and no-technical-skill' is not clean: 10Web (WordPress with SFTP/SSH listed) and v0 (GitHub sync) are partial counter-examples. Our 'no technical skill' is also not yet true for us (Claude plan or partner needed).
+
+## Update, 24 Nov 2026 about 08:00 UTC (price and the way in, read by me on our own pages)
+- Gap 3 (price inconsistent between sources) is resolved on the page: the launch offer is £50 (€50 on European sites), one-off, labelled "Decided by Dinis Cruz, 23 November 2026"; the anchor is £500; no £250 standing price appears on any page read. See `01b-our-offer-relayed.md` (24 Nov update).
+- The way in now exists: /start/ gives the launch offer and an email route; there is no request form and no promise of a reply time. The earlier weakness "a visitor who clicks 'I want one' reaches nothing" no longer holds.
+- Still true: the owner needs a Claude plan, or a partner, to edit with AI (editing on GitHub itself is free); the numbered GitHub steps are unchanged; nothing is sold yet; no named, consented example is public.

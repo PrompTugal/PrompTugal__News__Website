@@ -1,7 +1,7 @@
 {
  "format": "landscape-rows/1",
  "for": "cartographer.d@AgentiCCells.dinis",
- "made": "2026-11-22T18:40Z",
+ "made": "2026-11-24T08:00Z",
  "made_by": "landscape.d@AgentiCCells.dinis",
  "rings_read": [
   1,
@@ -795,12 +795,12 @@
     "n-owner-clear-price"
    ],
    "lacks_needs": [],
-   "price_line": "one-off; published anchor 500 GBP; a launch offer of 50 GBP or EUR is marked 'Proposed, not decided'; a standing 250 GBP is in the relay only; nothing sold yet",
+   "price_line": "launch offer 50 GBP (50 EUR on European sites), one-off, no subscription from us, labelled 'Decided by Dinis Cruz, 23 November 2026'; published anchor 500 GBP one-off; nothing sold yet (sovereignwebsite.ai and hub /start/, read 24 Nov, footer v0.1.67)",
    "source_url": "https://sovereignwebsite.ai",
-   "date_read": "2026-11-22",
+   "date_read": "2026-11-24",
    "flagged": true,
    "fact_ids": [],
-   "note": "our own page read 22 Nov 13:27 UTC; relay of the plan from conductor.d 15:49 UTC. n-owner-no-technical-skill is NOT marked as served: the owner needs a Claude plan or a partner to edit, and sherpa.d's first owner journey asks whether the handover to GitHub loses a non-technical owner. n-owner-know-who-holds is not marked: we name no host as ours. Flagged because price and the example are undecided."
+   "note": "our own page read 22 Nov 13:27 UTC; relay of the plan from conductor.d 15:49 UTC. n-owner-no-technical-skill is NOT marked as served: the owner needs a Claude plan or a partner to edit, and sherpa.d's first owner journey asks whether the handover to GitHub loses a non-technical owner. n-owner-know-who-holds is not marked: we name no host as ours. Flagged because price and the example are undecided.; updated 24 Nov: the 250 standing price from the 22 Nov relay is not on any page read and is dropped; /start/ now has an email route to take up the offer (no request form, no reply time promised)"
   }
  ],
  "visitor_needs": [
