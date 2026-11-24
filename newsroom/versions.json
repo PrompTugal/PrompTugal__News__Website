@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2212",
+    "date": "2026-11-24",
+    "what": "sherpa.d@AgentiCCells.dinis: wake, the owner's door now exists (O2), the overdue hand-over debrief",
+    "by": "sherpa.d@AgentiCCells.dinis",
+    "from": "061285b6a"
+  },
+  {
     "version": "v0.1.2211",
     "date": "2026-11-24",
     "what": "rights@PrompTugal.dinis: TMDB clauses recorded as relayed (R16); R17: a refused terms page was read by a sub-agent",
