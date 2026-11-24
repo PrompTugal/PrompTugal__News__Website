@@ -90,6 +90,22 @@
    "five_hour_resets_utc": "2026-11-23T19:00Z",
    "weekly_percent": null,
    "notes": "five dearest sessions only, a floor: +38.95 API-equivalent in 11.9 h since 05:01Z, about 3.3 an hour (down from 12.6 an hour overnight Sun to Mon). Per session: d.design +16.55 (68.82; idle and blocked at 450k context, yet it ran a turn at 15:00Z), d.bulletins +9.88 (62.76, context 780k, working), d.maestro +6.34 (99.61, context 270k after compaction), d.streaming +4.93 (66.94, 651k), d.conductor SovereignWebsite +1.25 (88.79, context 103k after a handover or compaction). Lifetime top: d.maestro 99.61, d.conductor SovereignWebsite 88.79. No weekly percent since 51% at 15:31Z Sunday"
+  },
+  {
+   "at": "2026-11-24T11:23Z",
+   "account": "D",
+   "source": "reported (Dinis via d.helm)",
+   "five_hour_status": null,
+   "weekly_percent": 30,
+   "notes": "weekly reset passed since 51% on Sun"
+  },
+  {
+   "at": "2026-11-24T11:23Z",
+   "account": "C",
+   "source": "reported (Dinis via d.helm)",
+   "five_hour_status": null,
+   "weekly_percent": 85,
+   "notes": "85% of the week: the account to protect; work should move to accounts with headroom (D 30%) where it can"
   }
  ]
 }

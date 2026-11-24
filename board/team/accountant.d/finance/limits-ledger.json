@@ -11,6 +11,26 @@
    "reset": "not stated",
    "api_equiv_usd_read_same_time": "none yet: first lifetime snapshot 13:30Z gave 385.84 for 18 sessions since 21 Nov 22:11Z (a floor: sessions not read are missing)",
    "note": "first reading; the tokens-per-percent ratio needs two readings with a token reading at each"
+  },
+  {
+   "at": "2026-11-24T11:23Z",
+   "account": "D",
+   "window": "weekly",
+   "percent_used": 30,
+   "source": "Dinis, 24 Nov 11:23 UTC, as relayed by d.helm at 11:50Z (not given to me directly; material until checked)",
+   "reset": "not stated",
+   "reported": true,
+   "note": "down from 51% on Sun 15:31Z: the weekly window has reset since"
+  },
+  {
+   "at": "2026-11-24T11:23Z",
+   "account": "C",
+   "window": "weekly",
+   "percent_used": 85,
+   "source": "Dinis, 24 Nov 11:23 UTC, as relayed by d.helm at 11:50Z (not given to me directly; material until checked)",
+   "reset": "not stated",
+   "reported": true,
+   "note": "first row for account C; close to the limit"
   }
  ],
  "derived": {
