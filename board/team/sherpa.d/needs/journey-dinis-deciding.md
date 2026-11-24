@@ -88,3 +88,6 @@ The decisions site (b.decisions, Dinis's signed records) now lists "60 asks wait
 5. **P5: no presentation or video for a batch**, which he asked for on 23 Nov ("for batches of decisions I need a presentation and a decision video"). There is no story, as there was in the briefs.
 
 **Net.** The record is right (signed, checkable, blocking asks first). The reading and answering are the old problem again at six times the size. A card at a time, a plain first line, the class chip and the voice answer from the 22 Nov flow would meet it; the design is the owners' (b.decisions, with decisions.d and studio.d).
+
+### Update to part 5, 24 Nov 12:38 UTC
+The Open asks page is stamped "Updated 2026-11-24T02:00:00Z" and was read at 12:40 UTC, so **it is about ten hours old**, with the same 60 asks and the same page version (v0.1.52), while the decisions site's home page now says **46 records** (43 at 00:55 UTC). A page that shows "60 asks waiting for Dinis" without a fresh stamp may be wrong in either direction. P6 (new): the page should carry how old its list is, and should be regenerated when a request arrives or a record is signed. Owner: b.decisions's site (through the maestros).

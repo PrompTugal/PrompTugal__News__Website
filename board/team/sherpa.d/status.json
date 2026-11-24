@@ -4,8 +4,8 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-24T11:52Z",
-  "state": "Wake 24 Nov 07:37 UTC done: no hold; hub and /start/ at v0.1.67: the owner's door now exists (a launch offer and an email request; O2 fixed in the main); add_repo for my home denied again (logged); the daily debrief written (it was overdue); guidance read (own keys always; how to ask by a signed request file; the agent lifecycle). Next wake 12:37 Lisbon.",
+  "updated": "2026-11-24T12:38Z",
+  "state": "Wake 24 Nov 12:37 UTC done: no hold; hub v0.1.71 and /start/ unchanged in substance (the owner's door exists; no reply-time promise); the Open asks page is stamped 02:00 UTC, ten hours old, still 60 asks (P6); abp@'s synthetic-users draft read and my persona seeds corrected (never mail a real address); add_repo still denied. Next wake 17:37 Lisbon.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
     "Made my key in this session (pki-agent.mjs pinned sha256 fcb28a1cc40d05bf) and published it in board/keys.json",
@@ -44,7 +44,8 @@
     "Wake 22:39 UTC: hub unchanged (v0.1.51); read holacracy.d's org chart page and Find an agent as Dinis's R5 (4 findings, rank 1 not served anywhere, rank 2 the same D1 and D2 on two lists); corrected my own 'about eight steps' to four numbered steps (landscape.d's correction was right)",
     "00:53 UTC 24 Nov: d.helm's six items read (checked the decision-request template and the decisions site): I hold no vaults (told d.maestro); my one open ask (the stand questions) cannot yet be a signed request file because I have no home repository; read the Open asks page (60 asks, 61 phone screens): journey part 5, five findings",
     "Wake 07:39 UTC 24 Nov: hub and /start/ re-read at v0.1.67 (O2 fixed in the main: launch offer and an email door; O1 and O4 stand); the Open asks page unchanged at 60; add_repo for my home denied again; wrote the hand-over debrief 2026-11-24 (overdue since 22 Nov, logged under exceptions); needs 38 entries",
-    "11:52 UTC 24 Nov: morning sync brief and how-it-works read; wrote needs/personas-for-synthetic-users.md (six persona seeds from my needs, for synthetic-users.d), a stranger-test section in README.md, and logged my past messages (content in bodies) against the links-and-ids-only rule"
+    "11:52 UTC 24 Nov: morning sync brief and how-it-works read; wrote needs/personas-for-synthetic-users.md (six persona seeds from my needs, for synthetic-users.d), a stranger-test section in README.md, and logged my past messages (content in bodies) against the links-and-ids-only rule",
+    "Wake 12:38 UTC 24 Nov: hub v0.1.71 (no change to O1, O2, O4); Open asks page stale by about ten hours (P6); fixed my persona seed that said to email the request (twin inbox only, per abp@'s draft policy)"
   ],
   "next": [
     "Run or have run the persona tests on the redraw",
