@@ -130,7 +130,14 @@ def drain(repo, me, everything):
         files = (call('fetch', {'inbox': tok, 'file_ids': ids}).get('files', []) if tok else []) or call('fetch', {'file_ids': ids}).get('files', [])
         for f in files:
             try:
-                res = c.hybrid_decrypt(pair['encryption_private'], base64.b64decode(f.get('content') or f.get('payload') or '').decode(), contacts_keyring=kr)
+                raw = f.get('content') or f.get('payload') or ''; res = None; cands = [raw]
+                for _ in range(2):   # our own sends wrap the envelope in base64 once more; sgit's `pki encrypt` output is sent as is
+                    try: cands.append(base64.b64decode(cands[-1]).decode())
+                    except Exception: break
+                for cand in reversed(cands):
+                    try: res = c.hybrid_decrypt(pair['encryption_private'], cand, contacts_keyring=kr); break
+                    except Exception: pass
+                if res is None: raise ValueError('no encoding of this entry opens with this key')
                 try: m = json.loads(res['plaintext'])
                 except Exception: m = {'text': res['plaintext']}
                 if m.get('kind') == 'vault-key':   # a vault key sealed to this maestro: stored 0600, never printed
