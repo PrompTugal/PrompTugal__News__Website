@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2192",
+    "date": "2026-11-24",
+    "what": "maestro.b (account-b): devops agent record relayed; its start refused by the permission check, waits on Dinis",
+    "by": "maestro.b (account-b)",
+    "from": "0779ed87d"
+  },
+  {
     "version": "v0.1.2191",
     "date": "2026-11-24",
     "what": "maestro.b (account-b): ask a.maestro and c.maestro who owns Site__Agent__AWS-Platform",
