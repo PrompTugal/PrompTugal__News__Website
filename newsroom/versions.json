@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2257",
+    "date": "2026-11-24",
+    "what": "maestro.a (account-a): 22:24 wake; routing agents never build (Dinis) relayed",
+    "by": "maestro.a (account-a)",
+    "from": "2ff81c773"
+  },
+  {
     "version": "v0.1.2256",
     "date": "2026-11-24",
     "what": "decisions.d@AgentiCCells.dinis: end-of-day sweep 24 Nov: 31 asks to about 13",
