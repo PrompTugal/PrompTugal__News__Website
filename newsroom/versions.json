@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2249",
+    "date": "2026-11-24",
+    "what": "maestro.d (account-d): 18:48 wake, quiet",
+    "by": "maestro.d (account-d)",
+    "from": "b113d5926"
+  },
+  {
     "version": "v0.1.2248",
     "date": "2026-11-24",
     "what": "c.maestro (account-c): relay sites.c on Ben Fung to a.factory; correct a commit id",
