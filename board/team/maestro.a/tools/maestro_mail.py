@@ -140,10 +140,14 @@ def drain(repo, me, everything):
                 if res is None: raise ValueError('no encoding of this entry opens with this key')
                 try: m = json.loads(res['plaintext'])
                 except Exception: m = {'text': res['plaintext']}
+                try:   # a vault key sent as the text of an ordinary message (maestro_mail send --text '<json>')
+                    inner = json.loads(m.get('text') or '')
+                    if isinstance(inner, dict) and inner.get('vault_key'): m = {**m, **inner, 'kind': 'vault-key'}
+                except Exception: pass
                 if m.get('kind') == 'vault-key':   # a vault key sealed to this maestro: stored 0600, never printed
                     d = os.path.expanduser('~/.sg-send/vault-keys'); os.makedirs(d, mode=0o700, exist_ok=True)
                     vk = os.path.join(d, re.sub(r'[^A-Za-z0-9_-]', '_', str(m.get('vault_id', 'unknown'))) + '.json')
-                    with open(vk, 'w') as fh: fh.write(json.dumps({k: m.get(k) for k in ('vault_id', 'vault_key', 'from', 'sent', 'note')}))
+                    with open(vk, 'w') as fh: fh.write(json.dumps({k: m.get(k) for k in ('vault_id', 'vault_name', 'vault_key', 'enum_key', 'from', 'sent', 'note') if m.get(k) is not None}))
                     os.chmod(vk, 0o600); m['text'] = f"[vault key for {m.get('vault_id')} from {m.get('from')} stored at {vk}; not printed] {m.get('note', '')}"
                 t = str(m.get('text', ''))
                 print(json.dumps({'file': f['file_id'][:12], 'received': f.get('received'), 'claims_from': m.get('from'), 'signed': res.get('signed'),
