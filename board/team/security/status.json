@@ -2,17 +2,17 @@
  "agent": "security@PrompTugal.dinis",
  "focus": "the pre-review and post-review of every pass; every commit reviewed for keys, tokens, contact details, private data and harm; who holds which key; board/HOLD.md when something serious must stop the team From 18 Nov 15:05 (Dinis): every PrompTugal repository (Website, Data, Weather, Civic, Startups, Travel, Events, Signals), hourly by day, AppSec on code, threat models for automation, a daily prompt-injection pass.",
  "state": "running on this account since 16 Nov 19:28 UTC; key security-promptugal-2; scheduled wakes off until Dinis re-enables them (b.maestro, 24 Nov); woken by messages",
- "updated": "2026-11-24T11:07Z",
- "reviewed_to": "a9bc5ea0e",
+ "updated": "2026-11-24T11:12Z",
+ "reviewed_to": "edd7f71ef",
  "hold": false,
  "done": [
+  "11:12 24 Nov: catch-up sweep of 20 repositories (933 Website commits) clean; settings.json's pre-allowed session and trigger tools noted (Dinis's own web edit), abp@ to align the ABP; debrief written",
   "11:07 24 Nov: risk notes on the morning sync (summit contacts into the CRM by a person only; Angela's login confirmed exactly, least privilege; twin inboxes on our own domain only; Gmail use needs a written grant)",
   "23:25 23 Nov: account E kit (maestro.e) reviewed: not yet; two must-fix items (pin the whole signer key or Dinis's anchor in the QR; the account holder is root, so the controls must not rely on refusals); delegation recommended",
   "15:54 21 Nov: Dinis decided the private vault stays as it is (board/guidance/2026-11-21-private-vault-kept.md); my ask closed; R8 unchanged elsewhere",
   "09:56 21 Nov: raw-history vaults reviewed: the public one acceptable (role mailboxes of CNAs only, no secrets); the private one's 569 contact fields to be removed at collection (For Dinis)",
   "09:05 21 Nov: wake sweep of 20 repositories clean; Live's web-flow key post-reviewed: go (ae940dda2); bulletins' lab innerHTML low",
-  "20:05 20 Nov: wake sweep of 20 repositories clean; outreach's official-request drafter and bulletins' OpenRouter voice read, fine; web-flow key rulings for live.b@ (a4e915600, 8667c27ce)",
-  "09:05 20 Nov: wake sweep of 20 repositories clean; ptmap vendored on promptugal.news identical to the reviewed 1.0.2; control-10 notes fixed by dev@; S72 still unwired"
+  "20:05 20 Nov: wake sweep of 20 repositories clean; outreach's official-request drafter and bulletins' OpenRouter voice read, fine; web-flow key rulings for live.b@ (a4e915600, 8667c27ce)"
  ],
  "next": [
   "each push of the public raw-history vault zqyku8mc: rescan it for personal contacts (Dinis, 21 Nov), and check data.b@'s deny-by-source rule (contracts-finder, events-pt) once it lands",
@@ -170,7 +170,7 @@
  "handover": "board/team/security/debriefs/2026-11-16-account-move.md",
  "last_review": "board/team/security/reviews/2026-11-16-1505-wake.md",
  "session": "board/team/security/sessions/session_01Kw9UwF2TrbbV5BhUjFGupN/",
- "debrief": "board/team/security/debriefs/2026-11-20-handover.md",
+ "debrief": "board/team/security/debriefs/2026-11-24-handover.md",
  "repo_heads": "board/team/security/sessions/session_01Kw9UwF2TrbbV5BhUjFGupN/repo-heads.txt",
  "signed_commits": "on, 19 Nov 01:25 UTC: every security@ commit is SSH-signed with security-promptugal-2's signing key (bundle.sign, OpenSSH SHA256:Z/hjsCPdnltxvHPN4suEahvuXWdmtpEMYCOIdHuxGZI), session https://claude.ai/code/session_01Kw9UwF2TrbbV5BhUjFGupN recorded in board/keys.json; the check in release.sh and the gate is dev@'s (guidance 2026-11-19, section 2)"
 }
