@@ -5,7 +5,7 @@
   "role": "Counsel of Dinis's central circle, account D, led by helm.d; started by maestro.d at Dinis's word, 22 Nov 2026 about 13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
   "key": "counsel.d-agenticcells (board/keys.json; signing sha256:d5ad2c2d0e7821cb; encryption sha256:bdadaf77de8d1b7d; ssh ed25519 for git signatures)",
-  "updated": "2026-11-24T00:53Z",
+  "updated": "2026-11-24T01:01Z",
   "state": "v0.3 for security@'s review today; v0.3 simulated on paper (S9 to S15, gaps G9 to G15) for v0.4. No model has checked anything: OpenRouter spend is money, still Dinis's. No wake.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's power-of-attorney and decisions-at-scale (sections 1, 6, 7), board/person-keys.json, rights@'s status, newsroom.sgit.ai's lawyers-in-the-loop",
@@ -26,7 +26,8 @@
     "2026-11-23T06:01Z: for helm.d: OpenRouter's terms (31 Aug 2026 version, read 06:00 UTC) for Site__Platform__OpenRouter: may / may not / uncertain, quoted (notes/2026-11-23-openrouter-terms-and-owasp-licence.md); OWASP Top Ten: CC BY-SA 4.0 per its repository",
     "2026-11-23T16:53Z: helm.d: titles now d.counsel (keys, trailers unchanged); asks for Dinis's yes go through d.decisions except one-way doors, legal and harness settings. My open asks are all of those kinds (the instrument and jurisdiction: legal; OpenRouter line: money; home access: harness), so they stay direct to Dinis",
     "2026-11-23T22:01Z: factory-key-entry.json prepared (public half only) for D1; ask pointed at d.decisions's list; 'abp@ directly' ask dropped (twins collaborate through the repositories since 22 Nov 18:55 UTC, per helm.d)",
-    "2026-11-24T00:53Z: opinions for b.decisions (via d.maestro): block-2026-11-24-02 twin backup Google app: agree with conditions on a) and d) (CASA not shown to be escaped; verification is Dinis's act); D32 licences: agree with conditions (notices); D10 platform names in unofficial guides: agree with conditions (no affiliation, no logos, names in product names to counsel first). decision-opinions/"
+    "2026-11-24T00:53Z: opinions for b.decisions (via d.maestro): block-2026-11-24-02 twin backup Google app: agree with conditions on a) and d) (CASA not shown to be escaped; verification is Dinis's act); D32 licences: agree with conditions (notices); D10 platform names in unofficial guides: agree with conditions (no affiliation, no logos, names in product names to counsel first). decision-opinions/",
+    "2026-11-24T01:01Z: helm.d's relay of Dinis's records (23-24 Nov): no Factory push (key goes in the home); vault list to d.maestro: none (counsel.d made no vault)"
   ],
   "next": [
     "security@'s review of v0.3 (through maestro.b/maestro.d), then v0.4 with G9 to G15",
@@ -34,7 +35,7 @@
     "Opinion calls: answer abp@'s review of abp-grant-request.json and the proposal"
   ],
   "asks": [
-    "Dinis: push access to SovereignWebsite__IaC (my key, one signed commit; entry ready in factory-key-entry.json) and to my home Site__Agent__Counsel: on d.decisions's list as ASK D1 and D2 (board/team/decisions.d/log/asks-for-b-decisions-2026-11-23.md); my add_repo was refused at 2026-11-23T05:10Z - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
+    "Dinis: push access to my home SovereignWebsite/Site__Agent__Counsel (d.decisions's ASK D2; the Factory step D1 is gone: the key is published in the home and the IaC reads it there); add_repo was refused at 2026-11-23T05:10Z. Until then I work here, and my asks stay in this file instead of request files in my own repository - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: v0.3 rests on your answers relayed by maestro.d (scope by reversibility, sub-delegation, 7 days, 72 hours, your pki.sgit.ai key); please confirm them here or signed before anything is signed. And: v0.3 reads 'moved down' narrowly (through decisions.d, one level, reversible kinds only); wider only if you sign it - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: my OpenRouter line (USD 2 a day; first use one review by three models, under USD 1) waits on your yes in board/team/accountant.d/proposals.md; budgets are monitoring only, but my brief says to keep within the line accountant.d sets, so I call no model until you say yes - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
     "Dinis: decisions.d relays your words (about 15:30 UTC) that pki.sgit.ai is the key you will use; to put it in the instrument I need it from you here or signed: is anchor record dinis.cruz, sha256:db7f79fdd87e030a, the principal key, and held only by you? - https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
@@ -80,5 +81,6 @@
       "why": "estimated instead of taken from date -u; my slip"
     }
   ],
-  "home": "https://github.com/SovereignWebsite/Site__Agent__Counsel (exists; not yet reachable from this session)"
+  "home": "https://github.com/SovereignWebsite/Site__Agent__Counsel (exists; not yet reachable from this session)",
+  "vaults": []
 }
