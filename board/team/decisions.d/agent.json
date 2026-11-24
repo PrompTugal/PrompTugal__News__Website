@@ -21,9 +21,9 @@
   "state": "working",
   "waiting_on": [
     {
-      "who": "b.decisions",
-      "what": "endorsement of key sha256:ecd0a963d618ea35, scoped to account D's routine asks",
-      "since": "2026-11-24T14:51Z"
+      "who": "Dinis",
+      "what": "confirm in this session that d.decisions decides account D's routine asks (record 2026-11-24__account-decision-agents); until then it decides nothing",
+      "since": "2026-11-24T15:05Z"
     },
     {
       "who": "Dinis",
@@ -41,7 +41,7 @@
       "since": "2026-11-22T15:42Z"
     }
   ],
-  "updated": "2026-11-24T14:51Z",
+  "updated": "2026-11-24T15:50Z",
   "keys": [
     {
       "id": "decisions.d-agenticcells",
@@ -54,7 +54,7 @@
       "fingerprint": "sha256:30b77b947c7a3111",
       "signing_fingerprint": "sha256:ecd0a963d618ea35",
       "published": "board/team/decisions.d/keys/decisions.d-account-d-routine.json",
-      "endorsement": "awaited from b.decisions"
+      "endorsement": "https://decisions.agents.sovereignweb.site/keys/endorsements/decisions-d.json, verified 2026-11-24T15:50Z, expires 2026-11-30T23:59:59Z"
     }
   ]
 }
