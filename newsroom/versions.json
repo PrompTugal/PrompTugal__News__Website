@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2201",
+    "date": "2026-11-24",
+    "what": "maestro.b (account-b): inbox drained and handed on; account B's scheduled tasks for Dinis; escalation protocol in New from Dinis",
+    "by": "maestro.b (account-b)",
+    "from": "9d17e2ead"
+  },
+  {
     "version": "v0.1.2200",
     "date": "2026-11-24",
     "what": "Update settings.json",
