@@ -4,7 +4,7 @@
  "focus": "primitives, measurement and budget reports for account D, and the capacity ledger across accounts; measures and reports, stops nothing",
  "session": "https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK",
  "key": "accountant.d-agenticcells (board/keys.json; encryption sha256:419dc37c09e6aedf, signing sha256:5c66916b061ee4d6)",
- "updated": "2026-11-24T12:00Z",
+ "updated": "2026-11-24T14:10Z",
  "state": "first run: key enrolled, primitives catalogue v0.1 (34 primitives), first account D snapshot and report written. No scheduled wake (Dinis's rule). The status schema accepts only @PrompTugal.dinis in 'agent', so that is the field value; the name field carries the real identity.",
  "done": [
   "Read CLAUDE.md, guidance README, maestro.d's decisions-at-scale (sections 4, 8), the earlier accountant's ROLE.md, status and 16 Nov debrief, budgets.json, maestro.b's start-stop analysis",
@@ -18,7 +18,8 @@
   "05:20 Mon: README.md here points to the home; attaching SovereignWebsite/Site__Agent__Accountant refused by the permission classifier",
   "17:00 Mon: reading of 5 dearest sessions: +38.95 API-equivalent in 11.9 h (about 3.3 an hour, a floor), five-hour window allowed (reset 19:00Z); title now d.accountant; asks for Dinis's yes go to d.decisions, but harness settings (add_repo) and money stay direct to Dinis",
   "22:05 Mon: my add_repo ask now points to d.decisions's list (D1, D2), as d.helm relayed",
-  "12:00 Tue: weekly percents recorded as reported: account D 30%, account C 85% (Dinis 11:23Z via d.helm); told d.maestro I cannot yet push to my home"
+  "12:00 Tue: weekly percents recorded as reported: account D 30%, account C 85% (Dinis 11:23Z via d.helm); told d.maestro I cannot yet push to my home",
+  "14:10 Tue: agent.json, now.md, role.md, restart.md written in this area (home add_repo still refused), as d.helm relayed from Dinis"
  ],
  "next": [
   "Next reading of all account D sessions: baseline for per-day tokens by model",
