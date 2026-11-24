@@ -5,8 +5,8 @@
  "role": "The helm: a top-level agent, peer of the conductors, leading the central circle (ten roles); Dinis comes to it for updates (Dinis, 22 Nov ~14:05 and ~15:47 UTC)",
  "session": "https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV",
  "key": "helm.d-agenticcells (board/keys.json; encryption sha256:0c714819ea3fa187; signing sha256:2bb48caaec62dbff; ssh ed25519 for git signatures)",
- "updated": "2026-11-24T00:53Z",
- "state": "Blocked on one thing: attaching my home SovereignWebsite/Site__Agent__Helm to this session was refused (permission denied). Working here meanwhile.",
+ "updated": "2026-11-24T11:51Z",
+ "state": "The circle works from Dinis's records of 23-24 Nov and the morning sync brief; three home, four blocked on add_repo (me among them). No wake.",
  "done": [
   "Read CLAUDE.md, New from Dinis (twins guidance first), maestro.d's analyses (holacracy, decisions at scale, power of attorney), maestros README, holacracy.d's org chart and role-home proposals",
   "Made my key in this session and published it in board/keys.json, commit signed",
@@ -31,7 +31,8 @@
   "The no-agent-blocked rule passed to the circle; Wardley Maps site keeper decided (cartographer.d)",
   "counsel.d read OpenRouter's terms and OWASP's licence at my ask (board/team/counsel.d/notes/2026-11-23-openrouter-terms-and-owasp-licence.md); passed to strategy.d and conductor.d (SovereignWebsite)",
   "Passed to the circle: titles with the account letter first, and asks for Dinis's yes go through d.decisions; the OpenRouter written-ask sent to d.decisions that way; d.studio told of its home's failed deploy (c.maestro)",
-  "Passed Dinis's records of 23-24 Nov (relayed by d.maestro) to the circle: keys in each own home, no IaC push; do not block on Dinis; b.decisions decides routine asks; vault lists to the maestro; asks as signed request files; areas at /factory/dinis-cruz/account-d/. My vaults: none"
+  "Passed Dinis's records of 23-24 Nov (relayed by d.maestro) to the circle: keys in each own home, no IaC push; do not block on Dinis; b.decisions decides routine asks; vault lists to the maestro; asks as signed request files; areas at /factory/dinis-cruz/account-d/. My vaults: none",
+  "Morning sync brief and checklist passed to the circle; studio delegation to d.studio; debrief 2026-11-24"
  ],
  "next": [
   "Move into SovereignWebsite/Site__Agent__Helm the same way",
@@ -42,7 +43,7 @@
  "asks": [
   "Dinis: attaching my home SovereignWebsite/Site__Agent__Helm (push) is refused in this session, as for d.sherpa and d.counsel; under your record of 23 Nov my key goes in my own home, so this harness setting is the one block left - https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV"
  ],
- "latest_debrief": "board/team/helm.d/debriefs/2026-11-22-handover.md",
+ "latest_debrief": "board/team/helm.d/debriefs/2026-11-24-handover.md",
  "circle": {
   "strategy.d": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
   "cartographer.d": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
@@ -76,6 +77,7 @@
   }
  ],
  "waiting": [
-  "each circle agent's vault list to d.maestro (asked 2026-11-24T00:53Z)"
+  "vault lists from d.sherpa, d.studio, d.landscape, holacracy.d",
+  "each circle agent's area link to d.maestro"
  ]
 }
