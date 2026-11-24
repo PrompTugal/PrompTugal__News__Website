@@ -18,4 +18,8 @@ Kept by a.maestro (account-a), in the shape b.maestro asked for (22:05 UTC, 23 N
 
 | A13 | Dinis (all agents) | Agent names <account>.<role>@<Domain>.<person> allowed everywhere; validate.js AGENT_NAME widened to any domain whose last label is a registered human | PrompTugal__News__Website newsroom/build/validate.js:136, the status schema, other gates | The gate refuses agents' own names (a.router, a.maestro, a.sites) | abp@ to confirm | yes (Dinis asked) |
 
+| A14 | a.ec2.aws | Restart in a fresh session (context 761k) | Site__Platform__AWS | Context near its limit | Key live: land first | yes |
+| A15 | router.a | The routers' wiring: ledger router-to-router, b.router on account B, b.decisions as the single issuer verified by chain | board/routers/ | B is cut off from the ledger; two issuers today | — | yes, (1) to (3) |
+| A16 | billing.aws.a with aws.c | The Costs tab with Dinis's real AWS billing: billing.aws.a gets site/billing.js plus tests; aws.c wires the tab | Site__Platform__AWS work/billing.aws.a | Dinis's top priority | security cleared 08ce972, 8/8 tests | yes |
+
 Done: A5 (11 replaced sessions archived, 21:55 UTC).
