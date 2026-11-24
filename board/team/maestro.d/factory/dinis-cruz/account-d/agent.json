@@ -1,0 +1,16 @@
+{
+  "name": "d.maestro (account-d)",
+  "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
+  "role": "maestro of account D: conducts account D's conductors and central circle, relays between the maestros of accounts A to D, briefs Dinis",
+  "key": {"id": "maestro.d-account-d", "fingerprint": "sha256:01166b9eb874bad5", "signing_fingerprint": "sha256:f8a96c3f0ff18d8c", "published": "PrompTugal__News__Website board/keys.json"},
+  "state": "active",
+  "wake": "hourly at :48 UTC (trig_01RxvbcyZiXgME4nJmVfA9HN), at Dinis's word 24 Nov ~11:23 UTC",
+  "home": "SovereignWebsite/Site__Agent__Maestro site/factory/dinis-cruz/account-d/ (not yet: add_repo with push refused in this session; staged here)",
+  "waiting_on": [
+    {"what": "push access to SovereignWebsite/Site__Agent__Maestro in this session", "from": "Dinis"},
+    {"what": "start data.open.d (record D13 names the maestro)", "from": "Dinis"},
+    {"what": "home-repository access for d.helm, d.sherpa, d.counsel, d.accountant, d.landscape, d.holacracy, d.decisions", "from": "Dinis"}
+  ],
+  "channels": {"maestros_log": "board/team/maestros/from-d.md", "vault": "maestros-channel (yk8ih8v1)", "inbox": "board/inboxes/maestro.d-account-d.json"},
+  "updated": "2026-11-24T13:50Z"
+}
