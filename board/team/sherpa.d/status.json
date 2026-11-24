@@ -4,7 +4,7 @@
   "focus": "the users and their needs in every area, their journeys and where they get lost; the anchor of every map",
   "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
   "key": "sherpa.d-agenticcells (board/keys.json; signing sha256:e8a1808f3313f949, encryption sha256:df7c7a5d803eb533)",
-  "updated": "2026-11-24T07:39Z",
+  "updated": "2026-11-24T11:52Z",
   "state": "Wake 24 Nov 07:37 UTC done: no hold; hub and /start/ at v0.1.67: the owner's door now exists (a launch offer and an email request; O2 fixed in the main); add_repo for my home denied again (logged); the daily debrief written (it was overdue); guidance read (own keys always; how to ask by a signed request file; the agent lifecycle). Next wake 12:37 Lisbon.",
   "done": [
     "Read CLAUDE.md, New from Dinis, the twins guidance, maestro.d's decisions-at-scale proposal, sherpa@'s role and 16 Nov restart read, synthetic@'s debrief, maestro.d's asks",
@@ -43,7 +43,8 @@
     "22:00 UTC: pointed my asks for the Factory key, my home and the price line at d.decisions's list (D1, D2, D22), as d.helm relayed; the stand questions stay direct to Dinis (a one-way door)",
     "Wake 22:39 UTC: hub unchanged (v0.1.51); read holacracy.d's org chart page and Find an agent as Dinis's R5 (4 findings, rank 1 not served anywhere, rank 2 the same D1 and D2 on two lists); corrected my own 'about eight steps' to four numbered steps (landscape.d's correction was right)",
     "00:53 UTC 24 Nov: d.helm's six items read (checked the decision-request template and the decisions site): I hold no vaults (told d.maestro); my one open ask (the stand questions) cannot yet be a signed request file because I have no home repository; read the Open asks page (60 asks, 61 phone screens): journey part 5, five findings",
-    "Wake 07:39 UTC 24 Nov: hub and /start/ re-read at v0.1.67 (O2 fixed in the main: launch offer and an email door; O1 and O4 stand); the Open asks page unchanged at 60; add_repo for my home denied again; wrote the hand-over debrief 2026-11-24 (overdue since 22 Nov, logged under exceptions); needs 38 entries"
+    "Wake 07:39 UTC 24 Nov: hub and /start/ re-read at v0.1.67 (O2 fixed in the main: launch offer and an email door; O1 and O4 stand); the Open asks page unchanged at 60; add_repo for my home denied again; wrote the hand-over debrief 2026-11-24 (overdue since 22 Nov, logged under exceptions); needs 38 entries",
+    "11:52 UTC 24 Nov: morning sync brief and how-it-works read; wrote needs/personas-for-synthetic-users.md (six persona seeds from my needs, for synthetic-users.d), a stranger-test section in README.md, and logged my past messages (content in bodies) against the links-and-ids-only rule"
   ],
   "next": [
     "Run or have run the persona tests on the redraw",
@@ -118,6 +119,12 @@
       "what": "no daily hand-over debrief written on 22 and 23 Nov; written on 24 Nov",
       "rule": "CLAUDE.md, A hand-over debrief every day",
       "why": "I worked from status.json and the notes; I should have written one each day; the next one is due by 25 Nov"
+    },
+    {
+      "at": "2026-11-24T11:52Z",
+      "what": "my messages to other sessions have carried findings in their bodies, not only links and ids",
+      "rule": "record 2026-11-24__decision-requests (messages carry links and ids only), read on how-it-works",
+      "why": "I read the rule at 11:55 UTC today; from now on a message is a link, an id and one line; the content stays in my committed files"
     }
   ],
   "home": "SovereignWebsite/Site__Agent__Sherpa (exists; not yet used: my session could not attach it)",
