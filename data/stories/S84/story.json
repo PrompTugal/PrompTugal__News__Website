@@ -5,7 +5,7 @@
   "title": "Update to S83: how the five-agent study defined a revert, and its limits",
   "beat": "AI and robotics",
   "topic": null,
-  "status": "draft",
+  "status": "review",
   "rests_on": [
     "evidence:v-arxiv-five-agents-full-text"
   ],
@@ -16,7 +16,8 @@
     "by": "newsroom/tools/derive.mjs",
     "from": [
       "desks/curator/2026-11-24-1150.json",
-      "desks/journalist-vicky/drafts/s84-five-coding-agents-update.md"
+      "desks/journalist-vicky/drafts/s84-five-coding-agents-update.md",
+      "desks/reviewer-vicky/reviews/S84.md"
     ]
   },
   "assignee": "journalist-ai@PrompTugal.vicky",
@@ -24,10 +25,23 @@
   "held": null,
   "draft": "desks/journalist-vicky/drafts/s84-five-coding-agents-update.md",
   "check": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "file": "desks/reviewer-vicky/reviews/S84.md",
+      "verdict": null,
+      "by": null,
+      "at": null
+    }
+  ],
   "article": null,
-  "next": "the fact-check: every fact re-opened at its source",
+  "next": "the writer answers the review",
   "history": [
+    {
+      "column": "review",
+      "at": null,
+      "by": null,
+      "file": "desks/reviewer-vicky/reviews/S84.md"
+    },
     {
       "column": "idea",
       "at": "2026-11-24T11:50Z",
