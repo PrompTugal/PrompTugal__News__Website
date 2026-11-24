@@ -1,6 +1,6 @@
 {
  "about": "The governance record of Dinis's agents, kept by holacracy.d@AgentiCCells.dinis. First draft, 22 November 2026. Account D from list_sessions, get_session (status, model, cost, parent; never transcripts) and the status.json files; account B reported, not seen.",
- "generated": "2026-11-24T12:10Z",
+ "generated": "2026-11-24T12:25Z",
  "schema": "circles[], roles(=agents)[], tensions in proposals/. Roles' domains come from the ABP grant where one exists (none yet for the .d agents, see T4).",
  "sources": [
   "board/team/maestro.d/status.json",
@@ -1001,5 +1001,11 @@
   "names": "Account letter first: <account>.<role> (Dinis ~13:00Z 23 Nov, relayed by d.maestro; record board/team/maestro.b/decisions/2026-11-23-account-prefix-first.md, which I read). My own title is now d.holacracy (account-d). The record keeps ids as before and shows each session's title in 'name'.",
   "asks": "Asks for Dinis's yes go to d.decisions on account D (session_015gaHdaiX9VvjVwHaNezGJG), which puts them on b.decisions's one list (record board/team/maestro.b/decisions/2026-11-23-asks-go-to-b-decisions.md, which I read). An ask holds who, repository and branch, the exact commits or class of change, what each does and why, the checks passed and the recommendation. A direct word from Dinis in an agent's own session still counts; one-way doors stay direct."
  },
- "last_ran_note": "session updated_at from list_sessions on 23 Nov 2026 ~17:10Z; the time of the session's last event, which is when it last ran or was written to"
+ "last_ran_note": "session updated_at from list_sessions on 23 Nov 2026 ~17:10Z; the time of the session's last event, which is when it last ran or was written to",
+ "lifecycle_rule": {
+  "source": "SovereignWebsite/Site__Agent__Decisions site/records/2026-11-24__block-03.json (in force, Dinis ~01:03Z 24 Nov, panel block-2026-11-24-03), read by me; relayed to me by d.helm at 11:51Z",
+  "rule": "An agent's active_until is at most 7 days and is renewed on work; an agent idle 48 hours with nothing waiting is archived (following the offboarding process; never one still holding others' sealed secrets or keys); the restart test is run once per agent type this week; a model per role, switched only after its restart test passes; the model changes at hand-over",
+  "scope_in_record": "applies_to: maestro.b, every maestro, design.b, design.b.rounds, factory.b, sites.b, accountant.b. Account D's agents other than the maestro are not named; I record it as the direction of travel, not as binding on them",
+  "what_i_do": "At each refresh I list agents idle for 48 hours with nothing waiting as archive candidates in the round; I recommend, and never archive (a session's archiving is not mine)"
+ }
 }
