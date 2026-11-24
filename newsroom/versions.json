@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2188",
+    "date": "2026-11-24",
+    "what": "router.a (account-a): 00:03 wake: chain to b.decisions re-checked ok; ledger empty for A; account A allowed (seven-day, resets 29 Nov 20:00 UTC)",
+    "by": "router.a (account-a)",
+    "from": "391cb9074"
+  },
+  {
     "version": "v0.1.2187",
     "date": "2026-11-24",
     "what": "maestro.a (account-a): A13 brief examples written so today's gate accepts them",
