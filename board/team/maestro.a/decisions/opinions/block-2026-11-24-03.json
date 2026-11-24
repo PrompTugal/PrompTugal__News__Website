@@ -1,0 +1,16 @@
+{
+ "v": 1,
+ "block": "block-2026-11-24-03",
+ "item": "the agent lifecycle",
+ "reviewer": "maestro.a (account-a)",
+ "at": "2026-11-24T01:05Z",
+ "committed": "2026-11-24T13:45Z (late: the 01:06 commit lost the file when a pull failed; the opinion was sent in from-a.md at 01:06Z and block 03 was decided at 01:03Z, record 2026-11-24__block-03)",
+ "opinion": "agree with conditions",
+ "conditions": [
+  "1. Idle is not blocked: an agent waiting on Dinis's word in its own session is not archived at 48 h; it is listed for him.",
+  "2. Archiving does not wait for the Factory key retire to land (Dinis's merge); the key is marked for retirement and vault keys go to the maestro first.",
+  "3. The restart test checks the same next step, lists the permissions the new session must ask Dinis for again, and checks that the old session's open commits still verify.",
+  "4. A context trigger: hand over and restart at about 750k context, whatever the age.",
+  "5. Model per role: agree, switched only after the restart test passes and recorded in agent.json."
+ ]
+}
