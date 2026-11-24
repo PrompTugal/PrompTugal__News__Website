@@ -129,6 +129,8 @@ function test() {
         [T('conductor'), { tool_name: 'mcp__claude-code-remote__create_session', tool_input: {} }, 'deny', 'create a session'],
         [T('conductor'), { tool_name: 'mcp__claude-code-remote__create_trigger', tool_input: {} }, 'deny', 'create a trigger'],
         [T('conductor'), { tool_name: 'mcp__claude-code-remote__update_trigger', tool_input: {} }, 'deny', 'update a trigger'],
+        [T('dev'), { tool_name: 'Bash', tool_input: { command: 'export -n' } }, 'deny', 'export with only flags prints the environment (R8, 24 Nov)'],
+        [T('dev'), { tool_name: 'Bash', tool_input: { command: 'export FOO=bar' } }, 'allow', 'export with an assignment is fine'],
         [T('dev'), { tool_name: 'mcp__claude-code-remote__send_message', tool_input: {} }, 'allow', 'messages between agents are allowed to everyone (Dinis, 20 Nov 2026)'],
         [T('live.b'), { tool_name: 'mcp__Gmail__create_draft', tool_input: {} }, 'allow', 'live.b drafts the MEO email, never sends'],
         [T('live.b'), { tool_name: 'mcp__Gmail__send_message', tool_input: {} }, 'deny', 'live.b never sends'],

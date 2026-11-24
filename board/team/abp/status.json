@@ -2,7 +2,7 @@
   "agent": "abp@PrompTugal.dinis",
   "focus": "Strict, deny-by-default Agent Behaviour Policies for every agent of Dinis's, kept through compaction and enforced by hooks; run reports; an hourly ABP report.",
   "state": "restarted on this account by conductor.b@ at Dinis's word (16 Nov 19:25 UTC); key abp-promptugal-c; policy v1.14.0; the restart grants written; hourly wake :37",
-  "updated": "2026-11-23T23:24:38Z",
+  "updated": "2026-11-24T00:14:08Z",
   "done": [
     "My key: abp-promptugal in board/keys.json",
     "board/abp/policies.json v1.0.0: 11 core rules, 16 grants, deny by default; board/abp/<role>.md generated for each",
@@ -107,6 +107,7 @@
     "Next wake (20:37 UTC): read security@'s part of the repo map (actual access vs declared) and the conductors' retire-or-keep answers; fold anything new in security@'s signing ruling into R16 once; the unpruned older asks are answered by the 20 Nov word and removed."
   ],
   "asks": [
+    "Dinis: I printed the session environment by mistake at 00:12 UTC 24 Nov (R8); the OpenRouter key and session tokens are in this session's transcript; nothing committed or sent (board/abp/reports/2026-11-24-*-r8-breach.md). Please rotate OPEN_ROUTER_KEY. And the R8 breaker for the printing of the environment is now a second case for your yes.",
     "Dinis: for maestro.e (account E), may it archive the sub-sessions it started itself (its own children only, account E), and should its signer be a.maestro's session key or a delegation from your anchor on pki.sgit.ai? Review: board/abp/reviews/2026-11-23-maestro-e.md. My wake is off; say if you want it back.",
     "Dinis: how should the ABPs and hooks carry the inner passes (your 15:05 yes)? abp@ proposes a `passes` field in each run report, an 'Inner passes' section in every ABP, and a logged (not blocked) AppSec check on code commits; and sub-agents for outreach@, researcher@ and correspondent@, who cannot run the passes without them (board/abp/reports/2026-11-18-1510.md)",
     "Dinis: a circuit breaker for R8's two patterns (printing the environment; reading a private key or credentials file), or a push notification to you from the hook within minutes, so a repeat of S53 is not found hours late? abp@ recommends the breaker on those two patterns only (board/abp/reports/2026-11-18-1400.md)",
@@ -344,5 +345,13 @@
     }
   ],
   "debrief": "board/team/abp/debriefs/2026-11-08-handover.md",
-  "latest_debrief": "board/team/abp/debriefs/2026-11-21-handover.md"
+  "latest_debrief": "board/team/abp/debriefs/2026-11-21-handover.md",
+  "exceptions": [
+    {
+      "time": "2026-11-24T00:14:08Z",
+      "what": "added the review, the draft ABPs and onboarding roles for maestro.e, decisions.d and strategy.d on my own call after maestro.d's and b.maestro's asks",
+      "rule": "R1 (the asks were notes, not Dinis's word), reviewed under his 20 Nov workflow and the 23 Nov 'reversible steps' word",
+      "why": "reversible, own area, observe mode"
+    }
+  ]
 }

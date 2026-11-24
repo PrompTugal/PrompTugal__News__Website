@@ -273,7 +273,7 @@ export function checkBash(who, command, cwd, P = loadPolicy()) {
         }
         if (verb === 'sgit' && /^(share|publish)$/.test(args[0] || '')) return deny('R7', `sgit ${args[0]} publishes outside: not without a person`, 'send')
         // R8: secrets never printed or read into the conversation
-        if (verb === 'printenv' || (verb === 'env' && !args.length) || (verb === 'export' && (args[0] === '-p' || !args.length)) || (verb === 'declare' && /^-[a-z]*[px]/.test(args[0] || '')) || (verb === 'set' && !args.length))
+        if (verb === 'printenv' || (verb === 'env' && !args.length) || (verb === 'export' && args.every(x => /^-/.test(x))) || (verb === 'declare' && /^-[a-z]*[px]/.test(args[0] || '')) || (verb === 'set' && !args.length))
             return deny('R8', `${verb} prints the environment, which holds keys and tokens`, 'secret')
         if (['echo', 'printf'].includes(verb) && SECRET_VAR.test(seg)) return deny('R8', `${verb} of a secret variable`, 'secret')
         if (['cat', 'head', 'tail', 'less', 'more', 'xxd', 'od', 'hexdump', 'base64', 'strings', 'bat', 'nl', 'awk', 'sed', 'grep', 'jq'].includes(verb)) {
