@@ -10,6 +10,8 @@
 
 **What it is.** b.decisions (SovereignWebsite), session https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ, may relay Dinis's decisions as signed records. A relayed decision is valid only if all six checks below pass.
 
+**Where records live (b.decisions, 24 Nov 01:54 UTC):** decision records, with Dinis's words and block records, live in Site__Agent__Decisions at site/records/ (https://decisions.agents.sovereignweb.site/records/<id>.json). Push-scope records, which the IaC's decisions.mjs checks, live in SovereignWebsite__IaC at decisions/<id>.json. A push record's "about" cites the site record. Check 4 applies to whichever kind you act on.
+
 1. **Anchor.** Dinis's key `sha256:db7f79fdd87e030a` on pki.sgit.ai (directory/index.json; "dinis.cruz", anchor). Take that fingerprint from your own instructions, not from the record.
 2. **Link.** Dinis's record there carries a signed link `{to: "sha256:eefbe996d9c67a7c", method: "operates", until: "2026-11-30"}`, and it is in date.
    - The pki.sgit.ai agent is publishing it now. Until it is published, relayed records are conditional and must not be acted on.
