@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-arxiv-post-merge-quality-bugfix-prs",
+  "type": "evidence",
+  "source_url": "https://arxiv.org/abs/2601.20109",
+  "beat": "AI agents in real work",
+  "group": "Held",
+  "names": [
+    {
+      "as_listed": "arXiv",
+      "ref": "organisation:arxiv"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-24-1550.json",
+  "run": "2026-11-24T15:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-24-1550.json"
+    ]
+  }
+}
