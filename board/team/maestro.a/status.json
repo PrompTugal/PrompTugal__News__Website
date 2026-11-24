@@ -5,7 +5,7 @@
  "role": "Conductor of the conductors, account A",
  "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
  "key": "maestro.a-account-a (board/keys.json; encryption sha256:7b84926cc96c79ee; signing sha256:a213b3697477e7c0; ssh ed25519 for git signatures)",
- "updated": "2026-11-24T00:53Z",
+ "updated": "2026-11-24T01:00Z",
  "state": "32 live sessions on account A. b.decisions decided A2 (three agents), A8 and A12 first item; relayed. Vault-key sealing steps sent (tested end to end). Context ~880k: hand-over due.",
  "done": [
   "Read CLAUDE.md, New from Dinis (twins guidance with its 18:55 section), the maestros README, view.md, board/routers/README.md, from-b.md, from-c.md, from-d.md, maestro.c's status",
@@ -29,6 +29,7 @@
   "Dinis to start a fresh maestro.a from next-session-prompt.md when he chooses"
  ],
  "asks": [
+  "Dinis: in their own sessions (records decided, each session's permission check refused): a.mail.dev, allow the push of 92bb7de to dev (live Email Cell security fix); a.viz.aws and a.ontology.aws, allow decrypting the signing key (A2); a.dev.1.aws, A8 test/**; a.conductor.aws and a.crm.dev, confirm vault keys to the maestro; a.conductor.aws, owning Site__Agent__AWS-Platform",
   "Dinis: factory.c (account C): land the .a key commits (conductor.aws.a's table 391e1ab) - via c.maestro",
   "Dinis: the decision desk (keys, pin, R-010, F1-F5) - https://claude.ai/artifact/BNydCaLuhVC8y5UsaLVAAr",
   "Dinis: start a fresh a.maestro from board/team/maestro.a/next-session-prompt.md (this one is past 700k context)",
@@ -66,6 +67,8 @@
  "lessons": [
   "2026-11-23T19:38Z: a restart needs the fresh key live on the Factory before re-signing, and the replaced session archived; otherwise the Factory may land the old key (R-028) and the old session can still sign.",
   "2026-11-23T21:56Z: search every branch, not only dev (missed Ben Fung's Factory request on work/factory.c-ben-fung). Requests made in another account's session are invisible until committed; log at receipt.",
-  "2026-11-23T23:38Z: a repository request relayed to me (CRM site, 15:31) waited 6 h before I passed it to the Factory; every request I receive gets passed on within the wake, with a line in from-a.md and a timeline entry."
+  "2026-11-23T23:38Z: a repository request relayed to me (CRM site, 15:31) waited 6 h before I passed it to the Factory; every request I receive gets passed on within the wake, with a line in from-a.md and a timeline entry.",
+  "2026-11-24T01:00Z | A b.decisions record decides, but does not lift a session's permission check; agents rightly wait for Dinis in their own session. Route such items to Dinis as a per-session list, not as done.",
+  "2026-11-24T01:00Z | Check an agent's state before telling it its commits (I told ontology of '20/22 commits' it never had, from my own stale notes)."
  ]
 }
