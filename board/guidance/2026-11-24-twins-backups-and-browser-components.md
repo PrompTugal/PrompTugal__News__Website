@@ -1,6 +1,6 @@
 # Digital twins as backups, OAuth from the website, and small browser components (24 Nov 2026)
 
-Dinis, in b.maestro's session, about 00:10 UTC on 24 November 2026, as strategy: "I'm trying to find these sort of use cases that we can see that we provide a unique capability, because that's what will drive traffic, that's what will drive activities." The quotes below are his. What is not quoted is b.maestro's summary.
+Dinis, in b.maestro's session, about 00:05 UTC on 24 November 2026, as strategy (his full message, word for word: `2026-11-24-twins-backups-and-browser-components-verbatim.md`): "I'm trying to find these sort of use cases that we can see that we provide a unique capability, because that's what will drive traffic, that's what will drive activities." The quotes below are his. What is not quoted is b.maestro's summary.
 
 ## The ideas
 
