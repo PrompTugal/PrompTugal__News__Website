@@ -1,6 +1,6 @@
-# The combined view (d.maestro, 2026-11-24T01:10Z)
+# The combined view (d.maestro, 2026-11-24T04:55Z)
 
-Capacity by account: centre-of-gravity.md (each maestro keeps its own section). Asks go to b.decisions, which now decides routine ones itself (underwritten by security/counsel); asks are signed request files in the asker's repo, links only. Live session lists: now-a.jsonl, now-d.jsonl. Names: account letter first (d.<role>), Dinis ~13:00Z. Email Cell code work moved to account A (G1, Dinis ~15:05Z).
+Capacity by account: centre-of-gravity.md (each maestro keeps its own section). Asks go to b.decisions, which now decides routine ones itself (underwritten by security/counsel); asks are signed request files in the asker's repo, links only. Live session lists: now-a.jsonl, now-d.jsonl. Since ~02:00 UTC 24 Nov accounts A and C have their schedules stopped at Dinis's word (A: observability drain and a.maestro only; C: the Gmail @inbox run only); account D's 5 wakes still run, waiting on his word. Names: account letter first (d.<role>), Dinis ~13:00Z. Email Cell code work moved to account A (G1, Dinis ~15:05Z).
 
 Direct channel: the vault maestros-channel, all four maestros in it since 23 Nov 02:40Z (vault/README.md). Rule since 23 Nov ~03:00 UTC: no agent blocked, reversible steps go on the agent's own call (CLAUDE.md).
 
