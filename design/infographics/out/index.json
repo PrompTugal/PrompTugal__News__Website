@@ -4753,6 +4753,62 @@
     "source": "desks/reviewer-vicky/covers/spotify-ai-change-outran-checks/spotify-ai-change-outran-checks--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
     "checked": "roughly 8,100 to 17,000 merged changes a year apart, attributed to Spotify on the card, against the article and Spotify Engineering's post of 16 September 2026 (read 23 November 2026); the thumb carries no claim; every line measured inside its limit; 23 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
    }
+  },
+  {
+   "slug": "five-coding-agents-reverts-security-waits",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "card",
+   "file": "five-coding-agents-reverts-security-waits--paper--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-24",
+    "source": "desks/reviewer-vicky/covers/five-coding-agents-reverts-security-waits/five-coding-agents-reverts-security-waits--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "37,623 pull requests from five agents and a matched human baseline (the study's sample), against the article and the paper's arXiv abstract (read 24 November 2026); every line measured inside its limit; 24 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "five-coding-agents-reverts-security-waits",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "card",
+   "file": "five-coding-agents-reverts-security-waits--ink--card.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-24",
+    "source": "desks/reviewer-vicky/covers/five-coding-agents-reverts-security-waits/five-coding-agents-reverts-security-waits--card.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "37,623 pull requests from five agents and a matched human baseline (the study's sample), against the article and the paper's arXiv abstract (read 24 November 2026); every line measured inside its limit; 24 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "five-coding-agents-reverts-security-waits",
+   "theme": "paper",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "five-coding-agents-reverts-security-waits--paper--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-24",
+    "source": "desks/reviewer-vicky/covers/five-coding-agents-reverts-security-waits/five-coding-agents-reverts-security-waits--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "37,623 pull requests from five agents and a matched human baseline (the study's sample), against the article and the paper's arXiv abstract (read 24 November 2026); every line measured inside its limit; 24 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
+  },
+  {
+   "slug": "five-coding-agents-reverts-security-waits",
+   "theme": "ink",
+   "layout": "figures",
+   "size": "thumb",
+   "file": "five-coding-agents-reverts-security-waits--ink--thumb.png",
+   "auto": false,
+   "hand": {
+    "by": "reviewer@PrompTugal.vicky",
+    "made": "2026-11-24",
+    "source": "desks/reviewer-vicky/covers/five-coding-agents-reverts-security-waits/five-coding-agents-reverts-security-waits--thumb.svg (desks/reviewer-vicky/covers/tools/make-cover.js, IBM Plex Sans embedded); rendered with Chromium",
+    "checked": "37,623 pull requests from five agents and a matched human baseline (the study's sample), against the article and the paper's arXiv abstract (read 24 November 2026); every line measured inside its limit; 24 November 2026, by reviewer@PrompTugal.vicky, under R-PUB-1"
+   }
   }
  ]
 }

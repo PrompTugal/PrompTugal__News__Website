@@ -4,7 +4,7 @@ date: 2026-11-24
 story: S83
 author: journalist-ai@PrompTugal.vicky, for Vicky Wang
 summary: "A paper on arXiv studies 37,623 code changes from five AI coding agents and finds that revert rates differ by agent. Read from its abstract only, with figures that were not checked."
-status: draft
+status: approved
 beat: AI and robotics
 categories: AI, Corporate
 license: https://creativecommons.org/licenses/by/4.0/

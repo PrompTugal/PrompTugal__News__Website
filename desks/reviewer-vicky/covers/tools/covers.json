@@ -213,5 +213,20 @@
   ],
   "tfig": "Spotify",
   "tfs": 64
+ },
+ {
+  "slug": "five-coding-agents-reverts-security-waits",
+  "title": "Five coding agents",
+  "sub": "A study of reverts, security and review",
+  "fig": "37,623 changes",
+  "line": "from five AI agents and a human baseline",
+  "src": "Source: paper on arXiv, Sep 2026",
+  "alt": "A card: five coding agents compared in a study. 37,623 code changes studied, from five AI agents and a human baseline, from the paper's abstract on arXiv.",
+  "ttitle": [
+   "Coding",
+   "agents"
+  ],
+  "tfig": "37,623",
+  "tfs": 72
  }
 ]
