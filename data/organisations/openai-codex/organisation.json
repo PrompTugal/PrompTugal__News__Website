@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/organisation.schema.json",
+  "id": "openai-codex",
+  "type": "organisation",
+  "name": "OpenAI Codex",
+  "names_as_listed": [
+    "OpenAI Codex"
+  ],
+  "sources": [
+    {
+      "url": "https://arxiv.org/abs/2609.17598",
+      "read_at": "2026-11-24T07:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "how": "named in a research capture, as the curator mapped it"
+    }
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/programme/agenda.json",
+      "desks/curator/",
+      "data/companies/"
+    ]
+  }
+}

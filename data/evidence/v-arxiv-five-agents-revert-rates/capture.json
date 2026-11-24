@@ -1,0 +1,43 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "v-arxiv-five-agents-revert-rates",
+  "type": "evidence",
+  "source_url": "https://arxiv.org/abs/2609.17598",
+  "beat": "AI agents in real work",
+  "group": "AI agents in real work",
+  "names": [
+    {
+      "as_listed": "arXiv",
+      "ref": "organisation:arxiv"
+    },
+    {
+      "as_listed": "OpenAI Codex",
+      "ref": "organisation:openai-codex"
+    },
+    {
+      "as_listed": "Devin",
+      "ref": "organisation:devin"
+    },
+    {
+      "as_listed": "GitHub Copilot",
+      "ref": "organisation:github-copilot"
+    },
+    {
+      "as_listed": "Cursor",
+      "ref": "organisation:cursor"
+    },
+    {
+      "as_listed": "Claude Code",
+      "ref": "organisation:claude-code"
+    }
+  ],
+  "desk_file": "desks/curator/2026-11-24-0750.json",
+  "run": "2026-11-24T07:50Z",
+  "by": "curator@PrompTugal.vicky",
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-24-0750.json"
+    ]
+  }
+}

@@ -1904,6 +1904,11 @@
         "count": 4
       },
       {
+        "as_listed": "Claude Code",
+        "ref": "organisation:claude-code",
+        "count": 1
+      },
+      {
         "as_listed": "Coda",
         "ref": "organisation:coda",
         "count": 2
@@ -1924,6 +1929,11 @@
         "count": 2
       },
       {
+        "as_listed": "Cursor",
+        "ref": "organisation:cursor",
+        "count": 1
+      },
+      {
         "as_listed": "Dealroom",
         "ref": "organisation:dealroom",
         "count": 1
@@ -1931,6 +1941,11 @@
       {
         "as_listed": "Deel",
         "ref": "organisation:deel",
+        "count": 1
+      },
+      {
+        "as_listed": "Devin",
+        "ref": "organisation:devin",
         "count": 1
       },
       {
@@ -2027,6 +2042,11 @@
         "as_listed": "Galp",
         "ref": "organisation:galp",
         "count": 2
+      },
+      {
+        "as_listed": "GitHub Copilot",
+        "ref": "organisation:github-copilot",
+        "count": 1
       },
       {
         "as_listed": "Go Coimbra",
@@ -2206,6 +2226,11 @@
       {
         "as_listed": "Open Mercato Night",
         "ref": "organisation:open-mercato-night",
+        "count": 1
+      },
+      {
+        "as_listed": "OpenAI Codex",
+        "ref": "organisation:openai-codex",
         "count": 1
       },
       {
@@ -2476,6 +2501,11 @@
       {
         "as_listed": "Zoyk",
         "ref": "organisation:zoyk",
+        "count": 1
+      },
+      {
+        "as_listed": "arXiv",
+        "ref": "organisation:arxiv",
         "count": 1
       },
       {

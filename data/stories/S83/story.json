@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/story.schema.json",
+  "id": "S83",
+  "type": "story",
+  "title": "An independent study of five coding agents: reverts, security and review waits",
+  "beat": "AI and robotics",
+  "topic": null,
+  "status": "idea",
+  "rests_on": [
+    "evidence:v-arxiv-five-agents-revert-rates"
+  ],
+  "desk_files": [
+    "desks/curator/2026-11-24-0750.json"
+  ],
+  "derived": {
+    "by": "newsroom/tools/derive.mjs",
+    "from": [
+      "desks/curator/2026-11-24-0750.json"
+    ]
+  },
+  "assignee": null,
+  "needs": null,
+  "held": null,
+  "draft": null,
+  "check": null,
+  "reviews": [],
+  "article": null,
+  "next": "someone takes it (assignee)",
+  "history": [
+    {
+      "column": "idea",
+      "at": "2026-11-24T07:50Z",
+      "by": "curator@PrompTugal.vicky",
+      "file": "desks/curator/2026-11-24-0750.json"
+    }
+  ]
+}
