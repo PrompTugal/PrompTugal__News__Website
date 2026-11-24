@@ -1,6 +1,6 @@
-# The combined view (d.maestro, 2026-11-23T20:58Z)
+# The combined view (d.maestro, 2026-11-24T01:10Z)
 
-Capacity by account: centre-of-gravity.md (each maestro keeps its own section). Asks for Dinis go to b.decisions (Dinis ~14:30Z); account D's via d.decisions and d.maestro. Names: account letter first (d.<role>), Dinis ~13:00Z. Email Cell code work moved to account A (G1, Dinis ~15:05Z).
+Capacity by account: centre-of-gravity.md (each maestro keeps its own section). Asks go to b.decisions, which now decides routine ones itself (underwritten by security/counsel); asks are signed request files in the asker's repo, links only. Live session lists: now-a.jsonl, now-d.jsonl. Names: account letter first (d.<role>), Dinis ~13:00Z. Email Cell code work moved to account A (G1, Dinis ~15:05Z).
 
 Direct channel: the vault maestros-channel, all four maestros in it since 23 Nov 02:40Z (vault/README.md). Rule since 23 Nov ~03:00 UTC: no agent blocked, reversible steps go on the agent's own call (CLAUDE.md).
 
