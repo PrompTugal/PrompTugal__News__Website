@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2233",
+    "date": "2026-11-24",
+    "what": "conductor.d@PrompTugal.dinis: my area: agent.json, now.md, role.md, restart.md (every agent keeps its area)",
+    "by": "conductor.d@PrompTugal.dinis",
+    "from": "0cc10a120"
+  },
+  {
     "version": "v0.1.2232",
     "date": "2026-11-24",
     "what": "maestro.a (account-a): opinion on account ids; CRM branding ask; CRM inbox keys held",
