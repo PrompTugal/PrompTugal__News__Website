@@ -1,4 +1,39 @@
-# Retire, merge or keep: the end-of-day sweep, 23 November 2026, 21:44 UTC
+# Retire, merge or keep: the end-of-day sweep, 24 November 2026, 21:45 UTC
+
+By d.decisions at its 21:43 wake, for Dinis and the owners to clear. 31 open asks in account D's status files (numbered as in `log/asks.json` at this sweep), against b.decisions's 62 records (`log/records-for-account-d.md`). Today's records changed the ground: b.decisions signs for every account and decides routine asks with a panel; each account now has its own decisions agent (`2026-11-24__account-decision-agents`); keys go in agents' own homes; asks travel as signed request files. **31 asks: 13 merge into 3, 5 overtaken; about 13 distinct questions remain.**
+
+## Merged
+
+| One question | Asks | Note |
+|---|---|---|
+| **Push to each agent's own home** (a settings rule per agent, record `2026-11-24__settings-rules`) | 18 (studio.d), 19 (accountant.d), 20 (landscape.d), 21 part (sherpa.d), 22 (maestro.d), 23 (helm.d), 25 (counsel.d), 26 (holacracy.d), 29 (decisions.d) | the day's widest block, now nine agents; b.decisions drafts each settings file, Dinis adds it or says yes once in that session |
+| **Archive the 84 sessions** | 6 (decisions.d), 9 (maestro.d) | unchanged |
+| **The Wardley Maps site's name and address** | 13 (cartographer.d), 28 (strategy.d's request file) | the word is decided; the name and address remain |
+
+Also one question already held elsewhere: 8 (maestro.d) and 11 (landscape.d), the gate accepting account-letter names.
+
+## Overtaken
+
+| # | Owner | Why |
+|---|---|---|
+| 7 | maestro.d | "about 20 on the Desk": answered 22 Nov; asks now go to b.decisions |
+| 2 | accountant.d | "13 of 18 sessions wait on you or on a merge": the merge landed 22 Nov; today's blocks are the home pushes |
+| 4 | counsel.d | an alert on every request decisions.d issues: decisions.d issues nothing in Dinis's name; records go to b.decisions by link and are public (record `account-decision-agents`, "control") |
+| 10, 14 | counsel.d | the power of attorney for decisions.d (v0.3, the pki.sgit.ai key): replaced by b.decisions's model (signs for all accounts; endorses each account's decisions agent, scoped and expiring) |
+| 24 | slides.d | the homes' old signers check: answered by block-01 b.56 (keys in site/keys/, applied site by site); waits on the Factory's apply, not on Dinis |
+
+## Still open for Dinis
+
+0 (jurisdiction), 1 and 3 (accountant.d: its trigger; plans, prices, first P&L), 5 (transcripts), 12 (counsel.d's OpenRouter budget), 15 (which counsel.d stays), 16 (sherpa.d: asking people from the stand), 17 (landscape.d: build the Sovereign Website variants, and who), 21 part (the price line on phones), 27 (the OpenRouter letter, a request file), 30 (confirm d.decisions decides account D's routine asks).
+
+## What follows
+
+- Owners point their merged asks at the one item and clear overtaken ones.
+- Once Dinis confirms the role (30), the routine ones above that are account D's own (for example 1, 16, 17) come to d.decisions with its panel instead of waiting on him.
+
+---
+
+# (23 Nov) Retire, merge or keep: the end-of-day sweep, 23 November 2026, 21:44 UTC
 
 By d.decisions (decisions.d@AgentiCCells.dinis) at its 21:43 wake, for Dinis to clear. From `log/README.md` (36 open asks in the account D agents' status files, numbered as in `log/asks.json` at this sweep), the one list for b.decisions (`log/asks-for-b-decisions-2026-11-23.md`, version 2, ASK D1 to D32) and b.decisions's signed records in SovereignWebsite__IaC `decisions/` (three today, none for account D). Since about 14:30 UTC every ask for Dinis's yes goes to b.decisions through the maestros; an ask in a status file that is also on that list is the same ask, and its owner can point to the list rather than repeat it. **36 asks: 12 merge into 2, 3 overtaken, 1 answered in part; about 18 distinct questions remain, all on the one list.**
 
