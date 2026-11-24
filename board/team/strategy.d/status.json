@@ -7,7 +7,7 @@
   "started_by": "maestro.d (account-d), at Dinis's word, 22 Nov 2026 ~13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
   "key": "strategy.d-agenticcells (board/keys.json; signing sha256:883e53e80cdee0b0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-24T01:15Z",
+  "updated": "2026-11-24T07:51Z",
   "state": "Maps: 1 decision-making v0.2 (framework as a product), 2 estate v0.2 (Sovereign Website first), 4 Sovereign Website v0.1 (owner, visitor, partner; landscape.d's 31 players); platform-sites strategy and requests out.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's analyses (decisions at scale, power of attorney, holacracy), holacracy.d's org chart and proposal 04, and newsroom.sgit.ai's lawyers-in-the-loop",
@@ -34,7 +34,8 @@
     "Home: account D index page and agents.json entry (Site__Agent__Strategy aa19828)",
     "Platform-sites addendum: twins as backups (Dinis's 24 Nov memo), built on strategy.b's use-case page through the shared home",
     "Home: my area at /factory/dinis-cruz/account-d/ and my asks as signed request files (e38748c); vault list sent to d.maestro (none held)",
-    "Map 1 v0.2.3: d.landscape's corrections (Permit.io logs approvals; OPA has decision logs); our gap narrows to the default when nobody answers and signed approvals"
+    "Map 1 v0.2.3: d.landscape's corrections (Permit.io logs approvals; OPA has decision logs); our gap narrows to the default when nobody answers and signed approvals",
+    "Map 4 v0.1.1: price set (£50 one-off, Dinis 23 Nov, per our page), I-want-one path exists; owner message no longer promises no technical skill"
   ],
   "next": [
     "Move work into the home: pages under site/accounts/d/ (maps, strategies), my entry in site/data/agents.json",

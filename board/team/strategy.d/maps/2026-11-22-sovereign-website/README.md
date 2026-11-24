@@ -64,3 +64,11 @@ Which leads is Dinis's call (sherpa.d). My view: 2 leads the traffic and the fir
 ## Working default (23 Nov, 05:05 UTC), under "No agent blocked"
 
 Until Dinis says which user leads, this map and the briefs built on it work on my recommendation: **the visitor leads the traffic** (topic and platform sites, the policy moment), **the owner leads the sale** (own it, move it), **the partner leads the scale**. Reversible: one line in my status.json exceptions; Dinis's answer replaces it.
+
+## v0.1.1 (24 Nov, 07:51 UTC): the price is set, and one correction to the owner's message
+
+From d.landscape's own reading of our pages on 24 Nov (sovereignwebsite.ai, footer v0.1.67; landscape v0.1.2212):
+- **"Pay once" now has a price:** launch offer £50 (€50 on European sites), one-off, "No subscription from us", labelled "Decided by Dinis Cruz, 23 November 2026"; anchor £500. Tiers on /pricing are labelled planned or proposed. "Nothing is sold yet." The price line in the funnel cites that page and date.
+- **The "I want one" path exists:** /start/ has an email route to take up the offer (no form, no reply time promised) and three ways to edit afterwards. The visitor-to-owner step on this map is no longer genesis-only.
+- **Correction to positioning 1:** the owner's message must not promise "no technical skill needed". Today an owner needs a Claude plan or a partner, and some GitHub steps. That is sherpa.d's need, not yet our offer. The honest line: "Agents build it. You own it and can move it. A partner can run it for you." This strengthens the partner's place in the funnel.
+- **Before any positioning variant goes live:** a named example whose owner has consented to be shown.
