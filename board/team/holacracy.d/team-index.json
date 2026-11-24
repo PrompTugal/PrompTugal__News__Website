@@ -1,19 +1,23 @@
 {
  "kind": "owner.feed/v1",
- "made": "2026-11-23T22:43:00Z",
+ "made": "2026-11-24T00:52:00Z",
  "by": "d.holacracy (account-d)",
  "twin": false,
  "about": "The team index of account D, from the governance record (org-chart.json), drawn by a script. Account D is seen; the other accounts are reported, not seen. Status and times are as read at the date in each row; they are not live.",
  "extra_fields": [
   "circle",
   "lead",
+  "owner",
   "session",
   "model",
   "home",
   "homeUrl",
   "repo",
+  "assumed",
+  "as_of",
   "relayed",
-  "proposed"
+  "proposed",
+  "routedTo"
  ],
  "agents": [
   {
@@ -28,6 +32,7 @@
    "model": "opus",
    "home": "SovereignWebsite/Site__Agent__Maestro",
    "updated": "2026-11-23T16:48:55Z",
+   "as_of": "2026-11-22T13:26:00Z",
    "relayed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Maestro"
   },
@@ -39,12 +44,13 @@
    "status": "working",
    "doing": "working",
    "circle": "anchor",
-   "lead": "Dinis",
+   "owner": "Dinis",
    "parent": "d.maestro.account-d",
    "session": "https://claude.ai/code/session_015gaHdeitbXmvVmpjcHbB6q",
    "model": "sonnet",
    "home": "SovereignWebsite/Site__Agent__Holacracy",
    "updated": "2026-11-23T16:51:45Z",
+   "as_of": "2026-11-22T13:26:00Z",
    "relayed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Holacracy"
   },
@@ -56,12 +62,13 @@
    "status": "working",
    "doing": "working",
    "circle": "PrompTugal",
-   "lead": "d.conductor (PrompTugal)",
+   "lead": "d.conductor.PrompTugal",
    "parent": "d.maestro.account-d",
    "session": "https://claude.ai/code/session_015gaHdeRkCjZyCB2PTeQiJ8",
    "model": "opus",
    "home": "SovereignWebsite/Site__Agent__Conductor",
    "updated": "2026-11-23T16:51:42Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Conductor"
   },
@@ -73,13 +80,14 @@
    "status": "waiting",
    "doing": "review ready",
    "circle": "PrompTugal",
-   "lead": "d.conductor (PrompTugal)",
+   "lead": "d.conductor.PrompTugal",
    "parent": "d.conductor.PrompTugal",
    "waitingFor": "review",
    "session": "https://claude.ai/code/session_015gaHdc5qb6hjqRntz5XQXj",
    "model": "opus",
    "repo": "PrompTugal/PrompTugal__News__Bulletins",
    "updated": "2026-11-23T05:08:12Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true
   },
   {
@@ -90,12 +98,13 @@
    "status": "working",
    "doing": "working",
    "circle": "SovereignWebsite",
-   "lead": "d.conductor (SovereignWebsite)",
+   "lead": "d.conductor.SovereignWebsite",
    "parent": "d.maestro.account-d",
    "session": "https://claude.ai/code/session_015gaHdbX954ByXJf8LH5FLL",
    "model": "opus",
    "home": "SovereignWebsite/Site__Agent__Conductor",
    "updated": "2026-11-23T16:51:42Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Conductor"
   },
@@ -107,12 +116,13 @@
    "status": "working",
    "doing": "working",
    "circle": "SovereignWebsite",
-   "lead": "d.conductor (SovereignWebsite)",
+   "lead": "d.conductor.SovereignWebsite",
    "parent": "d.maestro.account-d",
    "session": "https://claude.ai/code/session_015gaHde5GfQygpBgyUhNzuf",
    "model": "sonnet",
    "home": "SovereignWebsite/Site__Agent__Sites",
    "updated": "2026-11-23T16:51:44Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Sites"
   },
@@ -124,13 +134,14 @@
    "status": "waiting",
    "doing": "waiting on Dinis: merge work/hub.d-r2?",
    "circle": "SovereignWebsite",
-   "lead": "d.conductor (SovereignWebsite)",
+   "lead": "d.conductor.SovereignWebsite",
    "parent": "d.maestro.account-d",
    "waitingFor": "Dinis: merge work/hub.d-r2?",
    "session": "https://claude.ai/code/session_015gaHdbMGVTN5vJ9jVfAi3N",
    "model": "sonnet",
    "home": "SovereignWebsite/Site__Agent__Hub",
    "updated": "2026-11-23T16:51:57Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Hub"
   },
@@ -142,13 +153,14 @@
    "status": "waiting",
    "doing": "waiting on Dinis: contrast fix, key, files",
    "circle": "SovereignWebsite",
-   "lead": "d.conductor (SovereignWebsite)",
+   "lead": "d.conductor.SovereignWebsite",
    "parent": "d.conductor.SovereignWebsite",
    "waitingFor": "Dinis: contrast fix, key, files",
    "session": "https://claude.ai/code/session_015gaHdczGFLc7N3kCq8MrWz",
    "model": "opus",
    "home": "SovereignWebsite/Site__Agent__Design",
    "updated": "2026-11-23T15:00:18Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Design"
   },
@@ -160,13 +172,14 @@
    "status": "waiting",
    "doing": "waiting on Dinis: policy paths, version-chip fix",
    "circle": "SovereignWebsite",
-   "lead": "d.conductor (SovereignWebsite)",
+   "lead": "d.conductor.SovereignWebsite",
    "parent": "d.conductor.SovereignWebsite",
    "waitingFor": "Dinis: policy paths, version-chip fix",
    "session": "https://claude.ai/code/session_015gaHddQiB4aYZWXjfs16rM",
    "model": "opus",
    "home": "SovereignWebsite/Site__Agent__Synthetic-Users",
    "updated": "2026-11-23T04:52:27Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Synthetic-Users"
   },
@@ -178,13 +191,14 @@
    "status": "waiting",
    "doing": "waiting on Dinis: attach IaC to six agents, platform sites",
    "circle": "SovereignWebsite",
-   "lead": "d.conductor (SovereignWebsite)",
+   "lead": "d.conductor.SovereignWebsite",
    "parent": "d.conductor.SovereignWebsite",
    "waitingFor": "Dinis: attach IaC to six agents, platform sites",
    "session": "https://claude.ai/code/session_015gaHde6kToHbUHDD8AN72E",
    "model": "opus",
    "home": "SovereignWebsite/Site__Agent__Factory",
    "updated": "2026-11-23T05:39:45Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Factory"
   },
@@ -196,13 +210,14 @@
    "status": "waiting",
    "doing": "waiting on Dinis: rename in README and policy",
    "circle": "SovereignWebsite",
-   "lead": "d.conductor (SovereignWebsite)",
+   "lead": "d.conductor.SovereignWebsite",
    "parent": "d.conductor.SovereignWebsite",
    "waitingFor": "Dinis: rename in README and policy",
    "session": "https://claude.ai/code/session_015gaHdecGUXfFRDs8DmeUFN",
    "model": "opus",
    "home": "SovereignWebsite/Site__Agent__Library",
    "updated": "2026-11-23T04:52:48Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Library"
   },
@@ -214,12 +229,13 @@
    "status": "working",
    "doing": "working",
    "circle": "StreamingWebsite",
-   "lead": "d.conductor (SovereignWebsite)",
+   "lead": "d.conductor.SovereignWebsite",
    "parent": "d.sites.SovereignWebsite",
    "session": "https://claude.ai/code/session_015gaHdbE7t4XNf21L7neufF",
    "model": "opus",
    "repo": "SovereignWebsite/Site__Tool__Streaming",
    "updated": "2026-11-23T16:52:11Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true
   },
   {
@@ -230,12 +246,13 @@
    "status": "working",
    "doing": "working",
    "circle": "AgentiCCells",
-   "lead": "d.conductor (AgentiCCells)",
+   "lead": "d.conductor.AgentiCCells",
    "parent": "d.maestro.account-d",
    "session": "https://claude.ai/code/session_015gaHdcaj9Ta2Tke7pnZ3Q9",
    "model": "opus",
    "home": "SovereignWebsite/Site__Agent__Conductor",
    "updated": "2026-11-23T16:51:43Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Conductor"
   },
@@ -247,12 +264,13 @@
    "status": "working",
    "doing": "working",
    "circle": "AgentiCCells",
-   "lead": "d.conductor (AgentiCCells)",
+   "lead": "d.conductor.AgentiCCells",
    "parent": "d.conductor.AgentiCCells",
    "session": "https://claude.ai/code/session_015gaHde7zcTqMyBWcdpdnR6",
    "model": "opus",
    "repo": "AgentiCCells/AgentiCCells__Cell__Email",
    "updated": "2026-11-23T16:52:01Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true
   },
   {
@@ -263,13 +281,14 @@
    "status": "waiting",
    "doing": "waiting on Dinis: name, asks route, deny list",
    "circle": "sgit.ai",
-   "lead": "Dinis",
+   "owner": "Dinis",
    "parent": "d.maestro.account-d",
    "waitingFor": "Dinis: name, asks route, deny list",
    "session": "https://claude.ai/code/session_015gaHdb5n5RdwdbHzWijPMS",
    "model": "opus",
    "repo": "SGit-AI/SGit-AI__Website__Newsroom",
    "updated": "2026-11-23T16:52:10Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true
   },
   {
@@ -280,11 +299,12 @@
    "status": "working",
    "doing": "working",
    "circle": "central",
-   "lead": "d.helm",
+   "lead": "d.helm.account-d",
    "parent": "d.maestro.account-d",
    "session": "https://claude.ai/code/session_015gaHdbUFC93JvpTQHrx8WV",
    "home": "SovereignWebsite/Site__Agent__Helm",
    "updated": "2026-11-23T16:51:54Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "proposed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Helm"
@@ -297,11 +317,12 @@
    "status": "done",
    "doing": "completed",
    "circle": "central",
-   "lead": "d.helm",
+   "lead": "d.helm.account-d",
    "parent": "d.maestro.account-d",
    "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
    "home": "SovereignWebsite/Site__Agent__Strategy",
    "updated": "2026-11-23T06:22:18Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "proposed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Strategy"
@@ -314,12 +335,13 @@
    "status": "waiting",
    "doing": "review ready",
    "circle": "central",
-   "lead": "d.helm",
+   "lead": "d.helm.account-d",
    "parent": "d.maestro.account-d",
    "waitingFor": "review",
    "session": "https://claude.ai/code/session_015gaHdbagtmfJeonLhTHnbH",
    "home": "SovereignWebsite/Site__Agent__Cartographer",
    "updated": "2026-11-23T05:47:59Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "proposed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Cartographer"
@@ -332,12 +354,13 @@
    "status": "waiting",
    "doing": "review ready",
    "circle": "central",
-   "lead": "d.helm",
+   "lead": "d.helm.account-d",
    "parent": "d.maestro.account-d",
    "waitingFor": "review",
    "session": "https://claude.ai/code/session_015gaHdacSn5rnCfTLnoB3FL",
    "home": "SovereignWebsite/Site__Agent__Sherpa",
    "updated": "2026-11-23T12:44:38Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "proposed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Sherpa"
@@ -350,12 +373,13 @@
    "status": "waiting",
    "doing": "waiting on Dinis: each account's plan and price",
    "circle": "central",
-   "lead": "d.helm",
+   "lead": "d.helm.account-d",
    "parent": "d.maestro.account-d",
    "waitingFor": "Dinis: each account's plan and price",
    "session": "https://claude.ai/code/session_015gaHdcjs5RkUiSfA8xzgGK",
    "home": "SovereignWebsite/Site__Agent__Accountant",
    "updated": "2026-11-23T05:20:14Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "proposed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Accountant"
@@ -368,11 +392,12 @@
    "status": "done",
    "doing": "completed",
    "circle": "central",
-   "lead": "d.helm",
+   "lead": "d.helm.account-d",
    "parent": "d.maestro.account-d",
    "session": "https://claude.ai/code/session_015gaHddhcfpguWLhSXwEJu6",
    "home": "SovereignWebsite/Site__Agent__Counsel",
    "updated": "2026-11-23T06:13:25Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "proposed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Counsel"
@@ -385,11 +410,12 @@
    "status": "working",
    "doing": "working",
    "circle": "central",
-   "lead": "d.helm",
+   "lead": "d.helm.account-d",
    "parent": "d.maestro.account-d",
    "session": "https://claude.ai/code/session_015gaHdaiX9VvjVwHaNezGJG",
    "home": "SovereignWebsite/Site__Agent__Decisions",
    "updated": "2026-11-23T16:52:18Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "proposed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Decisions"
@@ -402,11 +428,12 @@
    "status": "working",
    "doing": "working",
    "circle": "central",
-   "lead": "d.helm",
+   "lead": "d.helm.account-d",
    "parent": "d.maestro.account-d",
    "session": "https://claude.ai/code/session_015gaHdbwwKT7uSfaEm8rKoq",
    "home": "SovereignWebsite/Site__Agent__Studio",
    "updated": "2026-11-23T16:51:43Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "proposed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Studio"
@@ -419,12 +446,13 @@
    "status": "waiting",
    "doing": "review ready",
    "circle": "central",
-   "lead": "d.helm",
+   "lead": "d.helm.account-d",
    "parent": "d.maestro.account-d",
    "waitingFor": "review",
    "session": "https://claude.ai/code/session_015gaHdcXVgPryjU8ZBvpPUW",
    "home": "SovereignWebsite/Site__Agent__Landscape",
    "updated": "2026-11-23T05:50:56Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "proposed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Landscape"
@@ -437,12 +465,14 @@
    "status": "waiting",
    "doing": "waiting on Dinis: confirm the rule text",
    "circle": "Cell Email",
-   "lead": "d.conductor (AgentiCCells)",
+   "lead": "d.conductor.AgentiCCells",
    "parent": "d.conductor.AgentiCCells",
    "waitingFor": "Dinis: confirm the rule text",
    "session": "https://claude.ai/code/session_015gaHdbAGDK9xNPDa9znvB9",
-   "repo": "AgentiCCells/AgentiCCells__Cell__Email (assumed)",
+   "repo": "AgentiCCells/AgentiCCells__Cell__Email",
+   "assumed": true,
    "updated": "2026-11-23T04:51:20Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true
   },
   {
@@ -453,11 +483,13 @@
    "status": "done",
    "doing": "completed",
    "circle": "Cell Email",
-   "lead": "d.conductor (AgentiCCells)",
+   "lead": "d.conductor.AgentiCCells",
    "parent": "d.conductor.AgentiCCells",
    "session": "https://claude.ai/code/session_015gaHdb5B7vab8KyN7YiDNZ",
-   "repo": "AgentiCCells/AgentiCCells__Cell__Email (assumed)",
+   "repo": "AgentiCCells/AgentiCCells__Cell__Email",
+   "assumed": true,
    "updated": "2026-11-23T04:51:14Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true
   },
   {
@@ -468,11 +500,13 @@
    "status": "working",
    "doing": "working",
    "circle": "Cell Email",
-   "lead": "d.conductor (AgentiCCells)",
+   "lead": "d.conductor.AgentiCCells",
    "parent": "d.conductor.AgentiCCells",
    "session": "https://claude.ai/code/session_015gaHdasKF9YcSA27g5dMPz",
-   "repo": "AgentiCCells/AgentiCCells__Cell__Email (assumed)",
+   "repo": "AgentiCCells/AgentiCCells__Cell__Email",
+   "assumed": true,
    "updated": "2026-11-23T16:52:01Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true
   },
   {
@@ -483,11 +517,12 @@
    "status": "done",
    "doing": "completed",
    "circle": "PrompTugal",
-   "lead": "d.conductor (PrompTugal)",
+   "lead": "d.conductor.PrompTugal",
    "parent": "d.conductor.PrompTugal",
    "session": "https://claude.ai/code/session_015gaHdboMeL96vpsBRXSX2z",
    "repo": "PrompTugal/PrompTugal__News__Data",
    "updated": "2026-11-23T04:55:10Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true
   },
   {
@@ -498,13 +533,14 @@
    "status": "waiting",
    "doing": "waiting on Dinis: push access to SovereignWebsite__IaC",
    "circle": "central",
-   "lead": "d.helm",
+   "lead": "d.helm.account-d",
    "parent": "d.maestro.account-d",
    "waitingFor": "Dinis: push access to SovereignWebsite__IaC",
    "session": "https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
    "model": "opus",
    "home": "SovereignWebsite/Site__Agent__Slides",
    "updated": "2026-11-23T16:52:14Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true,
    "proposed": true,
    "homeUrl": "https://github.com/SovereignWebsite/Site__Agent__Slides"
@@ -517,11 +553,12 @@
    "status": "working",
    "doing": "working",
    "circle": "SovereignWebsite",
-   "lead": "d.conductor (SovereignWebsite)",
+   "lead": "d.conductor.SovereignWebsite",
    "parent": "d.sites.SovereignWebsite",
    "session": "https://claude.ai/code/session_015gaHddy85C9E8oW9YhJ6FK",
-   "repo": "not recorded",
-   "updated": "2026-11-23T16:52:12Z"
+   "repo": null,
+   "updated": "2026-11-23T16:52:12Z",
+   "as_of": "2026-11-23T17:10:00Z"
   },
   {
    "id": "d.donna-freed.SovereignWebsite",
@@ -531,11 +568,12 @@
    "status": "working",
    "doing": "working",
    "circle": "SovereignWebsite",
-   "lead": "d.conductor (SovereignWebsite)",
+   "lead": "d.conductor.SovereignWebsite",
    "parent": "d.sites.SovereignWebsite",
    "session": "https://claude.ai/code/session_015gaHdeh6Sh45Ef2fZFAhLi",
-   "repo": "not recorded",
-   "updated": "2026-11-23T16:52:12Z"
+   "repo": null,
+   "updated": "2026-11-23T16:52:12Z",
+   "as_of": "2026-11-23T17:10:00Z"
   },
   {
    "id": "d.wordpress.SovereignWebsite",
@@ -545,11 +583,12 @@
    "status": "working",
    "doing": "working",
    "circle": "SovereignWebsite",
-   "lead": "d.conductor (SovereignWebsite)",
+   "lead": "d.conductor.SovereignWebsite",
    "parent": "d.sites.SovereignWebsite",
    "session": "https://claude.ai/code/session_015gaHda1bnbqASo1ed8VUdY",
-   "repo": "not recorded",
-   "updated": "2026-11-23T16:52:11Z"
+   "repo": null,
+   "updated": "2026-11-23T16:52:11Z",
+   "as_of": "2026-11-23T17:10:00Z"
   },
   {
    "id": "d.observability.SovereignWebsite",
@@ -559,26 +598,29 @@
    "status": "waiting",
    "doing": "waiting on Dinis: cookie-free capture, append lanes",
    "circle": "SovereignWebsite",
-   "lead": "d.conductor (SovereignWebsite)",
+   "lead": "d.conductor.SovereignWebsite",
    "parent": "d.conductor.SovereignWebsite",
    "waitingFor": "Dinis: cookie-free capture, append lanes",
    "session": "https://claude.ai/code/session_015gaHdayiD5PCvJRyqNHyjC",
-   "repo": "not recorded",
-   "updated": "2026-11-23T04:52:17Z"
+   "repo": null,
+   "updated": "2026-11-23T04:52:17Z",
+   "as_of": "2026-11-23T17:10:00Z"
   },
   {
-   "id": "d.counsel.account-d",
-   "name": "d.counsel",
+   "id": "d.counsel.SovereignWebsite",
+   "name": "d.counsel (SovereignWebsite)",
    "account": "D",
    "kind": "agent",
-   "status": "done",
-   "doing": "completed",
+   "status": "waiting",
+   "doing": "waiting on Dinis: which counsel agent keeps the key reviews",
    "circle": "SovereignWebsite",
-   "lead": "d.conductor (SovereignWebsite)",
+   "lead": "d.conductor.SovereignWebsite",
    "parent": "d.conductor.SovereignWebsite",
+   "waitingFor": "Dinis: which counsel agent keeps the key reviews",
    "session": "https://claude.ai/code/session_015gaHdaCnEbzJ8Q8CLjisbW",
-   "repo": "not recorded",
+   "repo": null,
    "updated": "2026-11-23T04:52:01Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "relayed": true
   },
   {
@@ -589,12 +631,13 @@
    "status": "waiting",
    "doing": "waiting on Dinis: confirm the rule, merge key-request commits",
    "circle": "SovereignWebsite",
-   "lead": "d.conductor (SovereignWebsite)",
+   "lead": "d.conductor.SovereignWebsite",
    "parent": "d.conductor.SovereignWebsite",
    "waitingFor": "Dinis: confirm the rule, merge key-request commits",
    "session": "https://claude.ai/code/session_015gaHdegs3vxyNtU2tmc28P",
-   "repo": "not recorded",
-   "updated": "2026-11-23T04:52:01Z"
+   "repo": null,
+   "updated": "2026-11-23T04:52:01Z",
+   "as_of": "2026-11-23T17:10:00Z"
   },
   {
    "id": "d.chiswick-cheese-market.SovereignWebsite",
@@ -604,12 +647,13 @@
    "status": "waiting",
    "doing": "waiting on Dinis: push access",
    "circle": "SovereignWebsite",
-   "lead": "d.conductor (SovereignWebsite)",
+   "lead": "d.conductor.SovereignWebsite",
    "parent": "d.conductor.SovereignWebsite",
    "waitingFor": "Dinis: push access",
    "session": "https://claude.ai/code/session_015gaHdcNSDvpHf63UJRg64C",
-   "repo": "not recorded",
-   "updated": "2026-11-23T04:52:09Z"
+   "repo": null,
+   "updated": "2026-11-23T04:52:09Z",
+   "as_of": "2026-11-23T17:10:00Z"
   },
   {
    "id": "studio.director.d",
@@ -619,7 +663,8 @@
    "parent": "d.studio.account-d",
    "status": "unknown",
    "doing": "a sub-agent inside d.studio's run (named in helm.d's role file, relayed); not a session of its own",
-   "relayed": true
+   "relayed": true,
+   "as_of": "2026-11-23T17:10:00Z"
   },
   {
    "id": "studio.storyboard.d",
@@ -629,7 +674,8 @@
    "parent": "d.studio.account-d",
    "status": "unknown",
    "doing": "a sub-agent inside d.studio's run (named in helm.d's role file, relayed); not a session of its own",
-   "relayed": true
+   "relayed": true,
+   "as_of": "2026-11-23T17:10:00Z"
   },
   {
    "id": "studio.presenters.d",
@@ -639,7 +685,8 @@
    "parent": "d.studio.account-d",
    "status": "unknown",
    "doing": "a sub-agent inside d.studio's run (named in helm.d's role file, relayed); not a session of its own",
-   "relayed": true
+   "relayed": true,
+   "as_of": "2026-11-23T17:10:00Z"
   }
  ],
  "reported_not_seen": [
@@ -650,7 +697,7 @@
    "kind": "maestro",
    "session": "https://claude.ai/code/session_01Kw9UwEbwyWMbZ7yCr81Dq9",
    "source": "board/team/maestro.b/status.json",
-   "as_of": "2026-11-21T22:58Z"
+   "as_of": "2026-11-21T22:58:00Z"
   },
   {
    "id": "b.conductor@PrompTugal",
@@ -660,7 +707,7 @@
    "parent": "b.maestro",
    "session": "https://claude.ai/code/session_01Kw9UwFbo4iCoohkgnZar9k",
    "source": "board/team/conductor.b/status.json",
-   "as_of": "2026-11-21T22:30Z"
+   "as_of": "2026-11-21T22:30:00Z"
   },
   {
    "id": "b.decisions",
@@ -669,7 +716,7 @@
    "kind": "signer",
    "session": "https://claude.ai/code/session_01Kw9UwEVSYcMDgNqrPVfCtZ",
    "source": "board/team/maestro.b/decisions/2026-11-23-account-prefix-first.md",
-   "as_of": "2026-11-23T13:00Z"
+   "as_of": "2026-11-23T13:00:00Z"
   }
  ],
  "sites": [],
@@ -687,12 +734,13 @@
     "C. Leave it"
    ],
    "recommended": "A",
-   "from": "d.holacracy",
-   "at": "2026-11-23T17:10Z",
+   "from": "d.holacracy.account-d",
+   "at": "2026-11-23T17:10:00Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "evidence": [
     "board/team/holacracy.d/proposals/01-one-naming-rule.md"
    ],
-   "lane": "d.decisions"
+   "routedTo": "d.decisions.account-d"
   },
   {
    "id": "holacracy.D4",
@@ -704,12 +752,13 @@
     "C. Neither"
    ],
    "recommended": "AB",
-   "from": "d.holacracy",
-   "at": "2026-11-23T17:10Z",
+   "from": "d.holacracy.account-d",
+   "at": "2026-11-23T17:10:00Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "evidence": [
     "board/team/holacracy.d/proposals/04-anchor-purpose-and-circle-rep.md"
    ],
-   "lane": "d.decisions"
+   "routedTo": "d.decisions.account-d"
   },
   {
    "id": "holacracy.D8",
@@ -720,12 +769,13 @@
     "B. holacracy.d keeps all of them"
    ],
    "recommended": "A",
-   "from": "d.holacracy",
-   "at": "2026-11-23T17:10Z",
+   "from": "d.holacracy.account-d",
+   "at": "2026-11-23T17:10:00Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "evidence": [
     "board/team/holacracy.d/proposals/role-repo-layout.md"
    ],
-   "lane": "d.decisions"
+   "routedTo": "d.decisions.account-d"
   },
   {
    "id": "holacracy.D9",
@@ -736,12 +786,13 @@
     "B. One home per circle"
    ],
    "recommended": "A",
-   "from": "d.holacracy",
-   "at": "2026-11-23T17:10Z",
+   "from": "d.holacracy.account-d",
+   "at": "2026-11-23T17:10:00Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "evidence": [
     "board/team/holacracy.d/proposals/role-repo-layout.md"
    ],
-   "lane": "d.decisions"
+   "routedTo": "d.decisions.account-d"
   },
   {
    "id": "holacracy.D10",
@@ -753,12 +804,13 @@
     "C. Keys stay in each project's own keys file until homes need them"
    ],
    "recommended": "B",
-   "from": "d.holacracy",
-   "at": "2026-11-23T17:10Z",
+   "from": "d.holacracy.account-d",
+   "at": "2026-11-23T17:10:00Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "evidence": [
     "board/team/holacracy.d/MOVE-TO-HOME.md"
    ],
-   "lane": "d.decisions"
+   "routedTo": "d.decisions.account-d"
   },
   {
    "id": "holacracy.D11",
@@ -770,12 +822,13 @@
     "C. Retire one"
    ],
    "recommended": "A",
-   "from": "d.holacracy",
-   "at": "2026-11-23T17:10Z",
+   "from": "d.holacracy.account-d",
+   "at": "2026-11-23T17:10:00Z",
+   "as_of": "2026-11-23T17:10:00Z",
    "evidence": [
     "board/team/holacracy.d/proposals/07-two-counsel-agents.md"
    ],
-   "lane": "d.decisions"
+   "routedTo": "d.decisions.account-d"
   }
  ]
 }

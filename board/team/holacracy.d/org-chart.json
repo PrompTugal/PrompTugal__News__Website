@@ -893,14 +893,14 @@
    "last_ran": "2026-11-23T04:52:17Z"
   },
   {
-   "id": "counsel.d",
-   "name": "d.counsel (account-d)",
+   "id": "counsel.d@SovereignWebsite",
+   "name": "d.counsel (SovereignWebsite)",
    "circle": "SovereignWebsite",
    "parent": "conductor.d@SovereignWebsite",
    "session": "https://claude.ai/code/session_015gaHdaCnEbzJ8Q8CLjisbW",
    "model": "not fetched",
    "configured": "not fetched",
-   "state": "completed",
+   "state": "waiting on Dinis: which counsel agent keeps the key reviews",
    "cost": null,
    "wake": "none",
    "repo": "not recorded",
@@ -908,8 +908,7 @@
    "twin": "none yet",
    "account": "D",
    "first_seen": "2026-11-23T17:10Z",
-   "name_before": "d.counsel (SovereignWebsite)",
-   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, Dinis ~13:00Z, relayed)",
+   "name_note": "title as the session list shows it on 23 Nov 17:10Z (account letter first, relayed). An earlier pass in this record had overwritten this title and state with the central counsel's; corrected 24 Nov",
    "state_seen": "23 Nov 17:10Z (list_sessions)",
    "last_ran": "2026-11-23T04:52:01Z"
   },

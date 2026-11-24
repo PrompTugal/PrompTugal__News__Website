@@ -16,7 +16,7 @@ d.maestro (account-d) [opus, configured sonnet] working, $12.20
 |   |-- d.factory (SovereignWebsite) [opus] waiting on Dinis: attach IaC to six agents, platform sites, $3.41
 |   |-- d.library (SovereignWebsite) [opus] waiting on Dinis: rename in README and policy, $10.24
 |   |-- d.observability (SovereignWebsite) [not fetched] waiting on Dinis: cookie-free capture, append lanes
-|   |-- d.counsel (account-d) [not fetched] completed
+|   |-- d.counsel (SovereignWebsite) [not fetched] waiting on Dinis: which counsel agent keeps the key reviews
 |   |-- d.security (SovereignWebsite) [not fetched] waiting on Dinis: confirm the rule, merge key-request commits
 |   `-- d.chiswick-cheese-market (SovereignWebsite) [not fetched] waiting on Dinis: push access
 |-- d.sites (SovereignWebsite) [sonnet] working, $2.18
@@ -92,7 +92,7 @@ d.maestro (account-d) [opus, configured sonnet] working, $12.20
 | d.donna-freed (SovereignWebsite) | SovereignWebsite | sites.d | none yet | not recorded | none | https://claude.ai/code/session_015gaHdeh6Sh45Ef2fZFAhLi |
 | d.wordpress (SovereignWebsite) | SovereignWebsite | sites.d | none yet | not recorded | none | https://claude.ai/code/session_015gaHda1bnbqASo1ed8VUdY |
 | d.observability (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHdayiD5PCvJRyqNHyjC |
-| d.counsel (account-d) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHdaCnEbzJ8Q8CLjisbW |
+| d.counsel (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHdaCnEbzJ8Q8CLjisbW |
 | d.security (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHdegs3vxyNtU2tmc28P |
 | d.chiswick-cheese-market (SovereignWebsite) | SovereignWebsite | conductor.d@SovereignWebsite | none yet | not recorded | none | https://claude.ai/code/session_015gaHdcNSDvpHf63UJRg64C |
 
