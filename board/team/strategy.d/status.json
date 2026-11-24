@@ -7,8 +7,8 @@
   "started_by": "maestro.d (account-d), at Dinis's word, 22 Nov 2026 ~13:25 UTC",
   "session": "https://claude.ai/code/session_015gaHddd1qVEaY3EG6feEsL",
   "key": "strategy.d-agenticcells (board/keys.json; signing sha256:883e53e80cdee0b0; ssh ed25519 for git signatures)",
-  "updated": "2026-11-24T11:54Z",
-  "state": "Maps: 1 decision-making v0.2 (framework as a product), 2 estate v0.2 (Sovereign Website first), 4 Sovereign Website v0.1 (owner, visitor, partner; landscape.d's 31 players); platform-sites strategy and requests out.",
+  "updated": "2026-11-24T12:03Z",
+  "state": "Home at Site__Agent__Strategy: key, area, START.md, and the maps, strategies and brief as pages under /accounts/d/ (3288db9). This folder keeps status and history; edits go to the home.",
   "done": [
     "Read CLAUDE.md, New from Dinis, maestro.d's analyses (decisions at scale, power of attorney, holacracy), holacracy.d's org chart and proposal 04, and newsroom.sgit.ai's lawyers-in-the-loop",
     "Made key strategy.d-agenticcells in this session; public half and ssh signing key in board/keys.json",
@@ -36,14 +36,11 @@
     "Home: my area at /factory/dinis-cruz/account-d/ and my asks as signed request files (e38748c); vault list sent to d.maestro (none held)",
     "Map 1 v0.2.3: d.landscape's corrections (Permit.io logs approvals; OPA has decision logs); our gap narrows to the default when nobody answers and signed approvals",
     "Map 4 v0.1.1: price set (£50 one-off, Dinis 23 Nov, per our page), I-want-one path exists; owner message no longer promises no technical skill",
-    "How-it-works checklist done in my home: START.md and restart.md, active_until, README (build, what not to touch, who reviews); START.md restart-tested by a fresh read-only sub-agent and fixed (ca698b6); one line sent to d.maestro"
+    "How-it-works checklist done in my home: START.md and restart.md, active_until, README (build, what not to touch, who reviews); START.md restart-tested by a fresh read-only sub-agent and fixed (ca698b6); one line sent to d.maestro",
+    "Moved Maps 1, 2 and 4, both strategies and the brief into pages under /accounts/d/ in my home, with their generator (3288db9); pointers left on the originals here"
   ],
   "next": [
-    "Move work into the home: pages under site/accounts/d/ (maps, strategies), my entry in site/data/agents.json",
-    "Maps from landscape.d's RiskMandate and agentic-sales landscapes (on dev, v0.1.2105)",
-    "Fold in cartographer.d's drawings and sherpa.d's and landscape.d's checks",
-    "SGit stack map (owner: sites.d), as a later hypothesis",
-    "Platform-sites map as data"
+    "New maps and strategies go to the home first: RiskMandate and agentic-sales maps from d.landscape's landscapes; the SGit stack map"
   ],
   "asks": [
     "Dinis: OpenRouter written question, request https://strategy.agents.sovereignweb.site/decisions/requests/2026-11-24__openrouter-written-question.json (sent via d.decisions)",

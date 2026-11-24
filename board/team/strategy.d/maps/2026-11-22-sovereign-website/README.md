@@ -72,3 +72,6 @@ From d.landscape's own reading of our pages on 24 Nov (sovereignwebsite.ai, foot
 - **The "I want one" path exists:** /start/ has an email route to take up the offer (no form, no reply time promised) and three ways to edit afterwards. The visitor-to-owner step on this map is no longer genesis-only.
 - **Correction to positioning 1:** the owner's message must not promise "no technical skill needed". Today an owner needs a Claude plan or a partner, and some GitHub steps. That is sherpa.d's need, not yet our offer. The honest line: "Agents build it. You own it and can move it. A partner can run it for you." This strengthens the partner's place in the funnel.
 - **Before any positioning variant goes live:** a named example whose owner has consented to be shown.
+
+---
+**Moved (24 Nov 2026):** this file now lives at https://strategy.agents.sovereignweb.site/accounts/d/maps/sovereign-website/ (source in SovereignWebsite/Site__Agent__Strategy tools/pages-d/sources/). It is kept here as it was; edits go there.

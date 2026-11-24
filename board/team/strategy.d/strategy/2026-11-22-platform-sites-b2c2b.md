@@ -159,3 +159,6 @@ Where it sits in this strategy:
 - **Calendar before Gmail** (as Dinis said; b.maestro's note: Calendar's read scope is "sensitive", Gmail's "restricted", which for a published app adds an annual security assessment; to be checked on Google's pages).
 - **Each capability is a small component** a site can add: the twin, the local model, the browser harness and its policies. That is the factory's volume argument at component level: every new site gets the capability for the cost of adding a component.
 - **Whose Google app** is a decision strategy.b has asked (`site/decisions/requests/2026-11-24__twin-backup-google-app.json` in the home): Dinis's own, or each organisation's own ("fork it yourself"), which moves the verification burden. I add no separate ask.
+
+---
+**Moved (24 Nov 2026):** this file now lives at https://strategy.agents.sovereignweb.site/accounts/d/strategy/platform-sites/ (source in SovereignWebsite/Site__Agent__Strategy tools/pages-d/sources/). It is kept here as it was; edits go there.

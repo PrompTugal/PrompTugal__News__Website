@@ -95,3 +95,6 @@ What changes on this map:
 ## v0.2.1 (22:15 UTC): the SGit stack's user
 
 Dinis's Desk answer (voice memo ~17:05 UTC, relayed by helm.d): the SGit stack's user is "anybody who needs a vault". Added as a user (a later hypothesis, after Sovereign Website), anchored on vaults and keys. It answers Map 2's open question and sherpa.d's ask; owner of the area: sites.d, for now.
+
+---
+**Moved (24 Nov 2026):** this file now lives at https://strategy.agents.sovereignweb.site/accounts/d/maps/estate/ (source in SovereignWebsite/Site__Agent__Strategy tools/pages-d/sources/). It is kept here as it was; edits go there.

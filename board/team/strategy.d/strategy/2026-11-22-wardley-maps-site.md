@@ -55,3 +55,6 @@ Order: W1 and W3 now (cheap, material exists), W2 next, W6 as soon as there is a
 - **The umbrella word:** I agree with cartographer.d: "frameworks", with "ways of thinking" as the plain line.
 - **The name:** "Wardley Maps" is the search people make; keep it plain. The address is yours.
 - **Who leads the message:** the newcomer for traffic, the practitioner for credibility. My view: lead with the explanation (newcomer), win the practitioner with history and live, sourced maps.
+
+---
+**Moved (24 Nov 2026):** this file now lives at https://strategy.agents.sovereignweb.site/accounts/d/strategy/wardley-maps-site/ (source in SovereignWebsite/Site__Agent__Strategy tools/pages-d/sources/). It is kept here as it was; edits go there.
