@@ -132,6 +132,19 @@
    "sessions_blocked": null,
    "api_equiv_usd_lifetime_read": null,
    "notes": "AMBER kept. maestro.c 49.09 (12:33) to 61.45 (15:34), ~4/h at 730k context, the main spend on C; hand-over or compact advised before 18:33."
+  },
+  {
+   "at": "2026-11-24T11:25Z",
+   "account": "C",
+   "source": "reported (Dinis) and read (get_session: rateLimitType seven_day, status allowed_warning, resetsAt 2026-11-25T13:00Z)",
+   "five_hour_status": null,
+   "five_hour_resets_utc": null,
+   "weekly_percent": 85,
+   "weekly_resets_utc": "2026-11-25T13:00Z",
+   "sessions_working": null,
+   "sessions_blocked": null,
+   "api_equiv_usd_lifetime_read": null,
+   "notes": "RED (Stop at 88%). 61% Mon 09:40 to 85% Tue 11:20: ~0.93 points/h; at that pace 100% near Wed 03:00-04:00, before the reset. Must average <0.55/h: cut ~40%. Scheduled on C: maestro.c 3-hourly, cowork inbox run 2-hourly; the rest interactive. Advice sent to maestro.c and conductor.c."
   }
  ]
 }

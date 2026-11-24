@@ -77,3 +77,7 @@ Measured at 02:45 UTC: five-hour window allowed (resets ~06:20); weekly percent 
 | pm.aws.c | lean, about 4 a day | 0.5 |
 
 About 46 wakes a day, **capped at 40 API-equivalent a day for the first 24 h**: roughly what maestro.c and the inbox run spend together today, so the programme about doubles account C's burn. Kept under 35% of account C's daily spend; at Amber every cadence halves, at Red only the conductor and security remain. Any session over 300k context compacts or hands over before its next wake. First measured per-role figures after 24 h.
+
+## 6. A signal the guard can read itself (24 Nov 2026)
+
+When the weekly limit is near, `get_session`'s `rate_limit_info` switches from `five_hour` to `rateLimitType: seven_day` with `status: allowed_warning` and the weekly `resetsAt` (seen on account C at 85%, 24 Nov 11:20 UTC; the percentage itself is not exposed). The guard treats it as at least Red: any session's reading shows it, so a maestro's wake can see it without asking Dinis. The percentage by hand still sets Red against Stop.
