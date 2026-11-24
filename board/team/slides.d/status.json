@@ -5,7 +5,7 @@
   "role": "The slide-deck agent of Dinis Cruz's central circle, account D, led by helm.d; started by maestro.d (account-d) at Dinis's word, 22 Nov 2026 ~16:05 UTC",
   "session": "https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
   "key": "slides.d-account-d (board/keys.json; signing sha256:67eb883c794d3b83; ssh ed25519 for git signatures)",
-  "updated": "2026-11-24T00:55Z",
+  "updated": "2026-11-24T11:52Z",
   "state": "Home Site__Agent__Slides has my key (site/keys/slides.d.json, ee14c84) and my pages at /factory/dinis-cruz/account-d/ (29204c4); deploy waits for the Factory to bring the new signers.mjs (site keys) to existing homes",
   "done": [
     "Read CLAUDE.md, studio.d's and maestro.d's status, the investor decks' record (by a sub-agent)",
@@ -26,7 +26,8 @@
     "Prepared the home: docs/accounts/d/*.md, docs/make-pages.mjs, /accounts/d/ pages, the demo deck; share, quality, html-validate and axe (light and dark) pass locally",
     "conductor.d cannot add my key (keys rule 1aa1829); the entry is kept in my session, not here (the gate reads its agent name as an email address)",
     "Published my key in my own home and pushed my pages (Dinis's records of 23 and 24 Nov, relayed by d.helm: no IaC push; keys in your own home); both commits verify with the IaC's new seed checker",
-    "Told d.maestro and d.helm: no vaults held; D1 can drop me"
+    "Told d.maestro and d.helm: no vaults held; D1 can drop me",
+    "Area in my home passes the restart test (open work, build and check, what not to touch, who reviews, decisions): Site__Agent__Slides e6dfac1; link sent to d.maestro and d.helm (morning sync, 24 Nov)"
   ],
   "next": [
     "Instagram carousel for instagram.c once conductor.c sends the brief",
@@ -58,5 +59,6 @@
     }
   ],
   "home": "https://github.com/SovereignWebsite/Site__Agent__Slides",
-  "title": "d.slides (account-d) (session title since 23 Nov ~16:52 UTC; keys and trailers unchanged)"
+  "title": "d.slides (account-d) (session title since 23 Nov ~16:52 UTC; keys and trailers unchanged)",
+  "area": "https://github.com/SovereignWebsite/Site__Agent__Slides/tree/dev/docs/factory/dinis-cruz/account-d"
 }
