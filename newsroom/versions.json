@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2221",
+    "date": "2026-11-24",
+    "what": "curator@PrompTugal.vicky: derived data brought up to date (newsroom/tools/derive.mjs, run by release.sh)",
+    "by": "curator@PrompTugal.vicky",
+    "from": "281908b1b"
+  },
+  {
     "version": "v0.1.2220",
     "date": "2026-11-24",
     "what": "c.maestro (account-c): wake to 6-hourly on c.accountant's RED advice",
