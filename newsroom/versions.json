@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2191",
+    "date": "2026-11-24",
+    "what": "maestro.b (account-b): ask a.maestro and c.maestro who owns Site__Agent__AWS-Platform",
+    "by": "maestro.b (account-b)",
+    "from": "8b7aaced6"
+  },
+  {
     "version": "v0.1.2190",
     "date": "2026-11-24",
     "what": "maestro.b (account-b): New from Dinis: every vault key to the maestro; b.decisions decides routine asks",
