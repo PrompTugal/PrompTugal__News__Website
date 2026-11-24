@@ -34,7 +34,9 @@
     "Debrief PDF of the first night (15 pages)",
     "Gmail and CRM briefing deck (14 pages)"
   ],
-  "next": "next wake 18:33 UTC; after Wed 13:00 UTC propose 3-hourly again",
+  "next": [
+    "next wake 18:33 UTC; after Wed 13:00 UTC propose 3-hourly again"
+  ],
   "asks": [
     "Dinis: the five Gmail and CRM decisions (deck page 13) and who the human users are - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
     "Dinis: security.aws's R-008, R-009, R-010 and aws.c's plan v2.1: read and decide (now conductor.aws.a on account A, https://claude.ai/code/session_018yvwtPiszBTMHKVD4AuDwn)",
