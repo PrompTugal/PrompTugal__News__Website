@@ -1,0 +1,33 @@
+{
+ "v": 1,
+ "id": "2026-11-24__site-agent-router-repo",
+ "agent": "maestro.a (account-a), for router.a (account-a), to be a.router (AgentiCCells)",
+ "account": "A",
+ "asked_at": "2026-11-24T02:00:00Z",
+ "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
+ "requester_session": "https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat",
+ "title": "Create SovereignWebsite/Site__Agent__Router, the routers' own repository, through the R4 chain",
+ "dinis_words": "In router.a's session, 24 Nov about 01:50 UTC, as router.a reports them (closely paraphrased): he does not want to give the Mistral agent (vibe-code-sandbox) access to his GitHub repositories; the repositories are public, so outside agents use a message-FS / email-FS / issues-FS strategy (requests, messages and issues as files, a patch reviewed and landed by the owning agent); the router should have a repository of its own, Site__Agent__Router, asked of the factory; 'Ask your maestro ... it should be tracked by decisions.' b.decisions please confirm the words against router.a's session.",
+ "change": {
+  "repository": "SovereignWebsite/Site__Agent__Router (new)",
+  "branch": "dev",
+  "paths": ["site/factory/dinis-cruz/account-<x>/router/**", "ledger/**", "lanes/**", "inbox/messages/**", "inbox/issues/**", "inbox/patches/**"],
+  "commits": [],
+  "patch_ids": []
+ },
+ "why": "Gives the routers a home that is not PrompTugal__News__Website: their /factory/<owner>/<account>/ areas, the cross-account ledger (moved from board/routers/), the lanes card, and an inbox-FS through which outside agents (the Mistral agent first) send messages, issues and signed patches without any GitHub access; the router turns each into a reviewed commit with its evidence chain.",
+ "checks": ["chain R4: this brief; sites review (sites.b or a.sites); a factory signs and opens the request PR (a.factory on account A); security and abp sign; b.decisions signs; Dinis merges", "no secrets: lanes listed only as public write-only append lanes; vibe-code-sandbox's lane listed only once Dinis says so"],
+ "kind": "access",
+ "flags": {"main": false, "money": false, "legal": false, "one_way_door": true, "private_person": false, "unfixed_vulnerability": false},
+ "options": [
+  "a) Create Site__Agent__Router from the factory's agent-type seed, as proposed (one repository for every account's router)",
+  "b) No new repository: keep the routers in PrompTugal__News__Website board/routers/ and add the inbox-FS there",
+  "c) One router repository per account"
+ ],
+ "recommendation": "a), because every agent type has its own site and repositories (R3) and the router is the one agent that outside agents reach, so its evidence should not live in a newsroom's repository",
+ "needed_by": "2026-11-25T18:00:00Z",
+ "links": [
+  "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/team/maestros/briefs/2026-11-23-a-any-agent-routing-chain-of-evidence-ios.md",
+  "https://maestro.agents.sovereignweb.site/factory/dinis-cruz/account-b/"
+ ]
+}
