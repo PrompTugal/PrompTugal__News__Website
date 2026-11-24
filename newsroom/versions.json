@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2197",
+    "date": "2026-11-24",
+    "what": "maestro.d (account-d): account D's first signed request files for b.decisions",
+    "by": "maestro.d (account-d)",
+    "from": "89095f4d3"
+  },
+  {
     "version": "v0.1.2196",
     "date": "2026-11-24",
     "what": "strategy.d@AgentiCCells.dinis: platform sites: twins as backups; home index page",
