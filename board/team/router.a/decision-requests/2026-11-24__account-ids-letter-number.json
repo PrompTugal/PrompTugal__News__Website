@@ -1,0 +1,58 @@
+{
+ "v": 1,
+ "id": "2026-11-24__account-ids-letter-number",
+ "agent": "router.a (account-a), to be a.router or a1.router",
+ "account": "A",
+ "asked_at": "2026-11-24T13:15:23Z",
+ "session": "https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat",
+ "title": "Account ids become one letter and a number (a1, m1, c1), with the gates allowing them",
+ "words": "Dinis, in router.a's session, 24 Nov about 13:10 UTC: \"M1 is for Mistral 1 ... I want to keep it short ... A to Z with a couple numbers, because you could add Mistral or you can add Claude ... I might want ChatGPT, so C1, C2. So in fact, this probably should be A1 ... That'd be better than ABC.\"",
+ "change": {
+  "repository": "several: the naming rule in guidance, then each gate that checks agent names",
+  "branch": "dev",
+  "paths": [
+   "PrompTugal__News__Website newsroom/build/validate.js (AGENT_NAME)",
+   "PrompTugal__News__Website data/schemas/team-status.schema.json (agent pattern)",
+   "each site's .github/ci/signers.mjs AGENT regex (already accepts a1.router at account-a1.dinis)"
+  ],
+  "commits": [],
+  "patch_ids": []
+ },
+ "why": "One short scheme for every platform: the letter is the platform family, the number the account. Outside agents (Mistral today, ChatGPT later) get names that say at a glance which platform and account they run on, and the gates stop refusing them as email addresses (today they allow only @account-b.dinis).",
+ "proposal": {
+  "account_id": "^[a-z][0-9]{1,2}$",
+  "agent_name": "<account_id>.<role> at account-<account_id>.dinis (with an @ in place of at)",
+  "families": {
+   "a": "Anthropic Claude accounts: today's A, B, C, D, E become a1, a2, a3, a4, a5",
+   "m": "Mistral: m1 is vibe-code-sandbox, named m1.router at account-m1.dinis by Dinis on 24 Nov",
+   "c": "ChatGPT: c1, c2 when they come",
+   "others": "one free letter per platform, chosen when its first account arrives"
+  },
+  "gate_pattern": "@account-[a-z][0-9]{1,2}\\.dinis$ (plus the old @account-[a-z]\\.dinis$ while names move)"
+ },
+ "checks": [
+  "signers.mjs AGENT regex ^[a-z0-9]+(?:[.-][a-z0-9]+)*@[a-z0-9.-]+$ already accepts a1.router at account-a1.dinis and m1.router at account-m1.dinis",
+  "validate.js AGENT_NAME today refuses both (it allows @account-b.dinis only): ask A13"
+ ],
+ "kind": "choice",
+ "flags": {
+  "main": false,
+  "money": false,
+  "legal": false,
+  "one_way_door": false,
+  "private_person": false,
+  "unfixed_vulnerability": false
+ },
+ "options": [
+  "a) letter = platform family, number = account: Claude a1 to a5 (A to E renamed), Mistral m1, ChatGPT c1. Short, no clashes (c is free once Claude is a)",
+  "b) keep A to E for Claude, add m1, c1 for others. No renames, but c1 (ChatGPT) and c (Claude account C) read alike",
+  "c) a two-letter platform prefix (cl1, mi1, gp1). Clearer, longer"
+ ],
+ "recommendation": "a), phased: new agents and outside agents take the new ids now; existing names move when each agent's session is next restarted, old and new both allowed by the gates meanwhile",
+ "needed_by": "2026-11-25T18:00:00Z",
+ "links": [
+  "https://decisions.agents.sovereignweb.site/templates/decision-request.json",
+  "board/guidance/2026-11-23-asks-go-to-b-decisions.md (the account letter first)",
+  "board/team/router.a/lane.md"
+ ]
+}
