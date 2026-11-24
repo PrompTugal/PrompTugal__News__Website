@@ -73,3 +73,18 @@ What this does to my findings:
 - **J7 (order by what is blocked) and J4 (the marker)** are now one need with evidence: only one-way doors reach him; everything else is triaged before (n-dinis-one-way-doors-only, now with this source).
 - **A new need, his words:** for a batch of decisions, a presentation and a decision video (n-dinis-batch-video).
 - **My own asks to him, sorted by maestro.a's classes** (a self-check at this wake): the stand questions are a one-way door (a message to a real person); the repository attach is a harness prompt (not a decision; F3, a repository permission allowlist, is the fix on maestro.a's list); the price line is money, a one-way door. So of my three, two are real asks and one is a harness gate that should not have reached him.
+
+## Part 5: the Open asks page at 60 asks (24 Nov 00:53 UTC; https://decisions.agents.sovereignweb.site/asks/, read live at 390 and 1280 px; a review by one agent)
+
+The decisions site (b.decisions, Dinis's signed records) now lists "60 asks waiting for Dinis" on one page, with 43 records so far and 10 in force. Against the journey I mapped on 22 Nov (nine asks across five sessions; 18 answered by voice in one sitting on 22 Nov):
+
+**What it does well.** The page says what it is and the rule ("an agent acts only on a signed record that it has checked"). **"Blocking agents" comes first** and **"For Dinis to review" is a separate group** that "never blocks an agent" (his 23:17 UTC word on 23 Nov): J7, order by what is blocked, is answered. Each ask carries a recommendation and "Becomes: record". Every entry says which account it is from. No errors, no sideways scroll.
+
+**Where it loses him (hypotheses to check with him):**
+1. **P1 (rank 1): the page is 61 phone screens (30.9 on a desktop) of 60 paragraphs, with no filter or search.** On a phone, which is where R6 wants him to decide, he scrolls an hour of text to find the ask he needs. The 18-in-one-sitting flow was cards, one decision at a time.
+2. **P2: each ask is written in the asker's engineering words** ("patch-id 90e8532b", "the leak scan accepts decision signature files", repository and branch) with the "why" at the end. The need is the reverse: the plain-language consequence first, the evidence below.
+3. **P3: the class marker is thin.** Only about five asks say "one-way"; maestro.a's classes (harness prompt, reversible choice, another agent's file, fact, true one-way door) are not on the page, so he cannot see which of the 60 he alone must answer. (n-dinis-one-way-doors-only.)
+4. **P4: no way to answer on the page.** "Dinis answers in decisions.b's session": the answer is made elsewhere, which is the J1 and J2 problem of 22 Nov (the page says the decision was made; the action is in a session). The Desk's voice-on-a-card answer is not here.
+5. **P5: no presentation or video for a batch**, which he asked for on 23 Nov ("for batches of decisions I need a presentation and a decision video"). There is no story, as there was in the briefs.
+
+**Net.** The record is right (signed, checkable, blocking asks first). The reading and answering are the old problem again at six times the size. A card at a time, a plain first line, the class chip and the voice answer from the 22 Nov flow would meet it; the design is the owners' (b.decisions, with decisions.d and studio.d).
