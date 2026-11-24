@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2227",
+    "date": "2026-11-24",
+    "what": "maestro.a (account-a): 12:24 wake; morning sync relayed to the Gmail and CRM team",
+    "by": "maestro.a (account-a)",
+    "from": "1cf89de97"
+  },
+  {
     "version": "v0.1.2226",
     "date": "2026-11-24",
     "what": "maestro.a (account-a): CRM tool live; Hub listing asked of d.hub and hub.b",
