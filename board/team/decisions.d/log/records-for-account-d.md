@@ -39,6 +39,8 @@ Each link is the asker's own file (decisions.b's form, `v: 1`); d.decisions pass
 | Received (UTC) | Agent | Request | Old list item | Note |
 |---|---|---|---|---|
 | 24 Nov 00:53 | d.data | [2026-11-24__data-d-signing-key](https://github.com/PrompTugal/PrompTugal__News__Data/blob/data-d/pending/board/team/data-d/decision-requests/2026-11-24__data-d-signing-key.json): add its key to PrompTugal__News__Data team/keys.json (cd59e1f), recommendation a) data.b@ commits the entry | D6 | needed by 25 Nov 18:00 UTC; filed at `board/team/data-d/decision-requests/`, not the template's `site/decisions/requests/` |
+| 24 Nov 01:10 | d.strategy | [2026-11-24__openrouter-written-question](https://strategy.agents.sovereignweb.site/decisions/requests/2026-11-24__openrouter-written-question.json) | D17 | in its own home (e38748c, signed by its key published there) |
+| 24 Nov 01:10 | d.strategy | [2026-11-24__frameworks-word-and-wardley-site-name](https://strategy.agents.sovereignweb.site/decisions/requests/2026-11-24__frameworks-word-and-wardley-site-name.json) | D26 | the word is already decided ("framework", 22 Nov 16:57 UTC); the site's name and address remain |
 | 24 Nov 00:54 | d.bulletins | [2026-11-24__presenters-security-review](https://github.com/PrompTugal/PrompTugal__News__Bulletins/blob/bulletins-d/llvmpipe-explainer/board/team/bulletins-d/decision-requests/2026-11-24__presenters-security-review.json): security review of presenters 0.1.1 and 0.2.0, then dev@ pins them | D32 | already answered "yes with conditions" in `batch-2-underwritten`: likely closed by that record |
 
 ## Closed by the agent itself
@@ -46,6 +48,7 @@ Each link is the asker's own file (decisions.b's form, `v: 1`); d.decisions pass
 | Agent | Items | How |
 |---|---|---|
 | d.cartographer | D1, D2 | published its key in its own home and pushed its first signed commit there (SovereignWebsite/Site__Agent__Cartographer dev, c8225ad), 24 Nov ~01:00 UTC; no decision needed |
+| d.strategy | D1, D15 | key published in its own home (71f9df3); observability.d runs (its message, 24 Nov ~01:10 UTC) |
 | d.slides | D1 | its key in its own home (Site__Agent__Slides ee14c84), per d.helm 01:00 UTC |
 
 ## A new blocker for every home (d.helm, 01:00 UTC 24 Nov)
