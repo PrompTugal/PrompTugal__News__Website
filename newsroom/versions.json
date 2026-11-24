@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2256",
+    "date": "2026-11-24",
+    "what": "decisions.d@AgentiCCells.dinis: end-of-day sweep 24 Nov: 31 asks to about 13",
+    "by": "decisions.d@AgentiCCells.dinis",
+    "from": "bf7f41cad"
+  },
+  {
     "version": "v0.1.2255",
     "date": "2026-11-24",
     "what": "maestro.d (account-d): 20:48 wake, quiet",
