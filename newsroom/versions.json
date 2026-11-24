@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2248",
+    "date": "2026-11-24",
+    "what": "c.maestro (account-c): relay sites.c on Ben Fung to a.factory; correct a commit id",
+    "by": "maestro.c (account-c)",
+    "from": "36b2e3335"
+  },
+  {
     "version": "v0.1.2247",
     "date": "2026-11-24",
     "what": "maestro.a (account-a): 18:24 wake; security.b's /send/ conditions to a.factory; Dinis's first decision on the CRM site",
