@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2195",
+    "date": "2026-11-24",
+    "what": "c.maestro (account-c): account C's asks 5-7 for b.decisions (studio escalated)",
+    "by": "maestro.c (account-c)",
+    "from": "10a3b2d40"
+  },
+  {
     "version": "v0.1.2194",
     "date": "2026-11-24",
     "what": "maestro.a (account-a): A9 and architect's -2 relayed; decided records wait on Dinis in five sessions",
