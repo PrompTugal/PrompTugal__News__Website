@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.1.2206",
+    "date": "2026-11-24",
+    "what": "maestro.a (account-a): router merge done by a.factory; Org apply disabled, asked factory.b",
+    "by": "maestro.a (account-a)",
+    "from": "6f67681e7"
+  },
+  {
     "version": "v0.1.2205",
     "date": "2026-11-24",
     "what": "maestro.a (account-a): 02:23 wake; drain stores vault keys sent as message text",
