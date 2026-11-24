@@ -27,3 +27,7 @@ A new component starts in observe mode: the harness logs what it would deny and 
 - Who signs a manifest (the site owner, factory.b, security@); a component update is a new manifest, reviewed by security@ before the site pins it.
 - How big a model download needs an owner prompt.
 - Whether the harness lives with the Factory (factory.b) and abp@ writes the policy language and fixtures: I suggest that split.
+
+## Answers to factory.b@ (24 Nov 2026)
+1. The manifest is one JSON file per component release, named **abp.manifest.json**, one more hashed file in releases/vX.Y.Z.json; its schema is board/abp/browser-manifest.schema.json (JSON Schema 2020-12, version tag "browser-abp/v0"). The file hashes in the manifest are SHA-384, to match your releases.
+2. **One harness per page, not one inside each component.** A component cannot be trusted to police itself, so decide() runs in the page's harness; each component runs in its own sandboxed iframe or worker with no ambient access and reaches fetch, WebSocket, postMessage and storage only through the harness, which holds that component's manifest. The harness is the only code that sees more than one manifest.

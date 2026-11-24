@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptugal.news/board/abp/browser-manifest.schema.json",
+  "title": "A browser component's ABP manifest (abp.manifest.json), v0, a proposal",
+  "type": "object",
+  "required": ["v", "id", "version", "mode", "files", "loads", "may_send", "storage", "permissions", "needs_owner_yes", "never"],
+  "additionalProperties": false,
+  "properties": {
+    "v": { "const": "browser-abp/v0" },
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$" },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "mode": { "enum": ["observe", "enforce"], "description": "observe: log what would be denied, run in a sandbox with loads only; enforce: the manifest is the fence" },
+    "files": { "type": "array", "items": { "type": "object", "required": ["path", "sha384"], "additionalProperties": false, "properties": { "path": { "type": "string" }, "sha384": { "type": "string", "pattern": "^[A-Za-z0-9+/=]{64}$" }, "licence": { "type": "string", "description": "SPDX id or the licence's URL; required for every model or data file (R12 to R15)" } } } },
+    "loads": { "type": "array", "items": { "type": "object", "required": ["origin", "what"], "additionalProperties": false, "properties": { "origin": { "type": "string", "format": "uri" }, "what": { "enum": ["script", "worker", "wasm", "model", "data", "style"] }, "max_bytes": { "type": "integer", "minimum": 0 } } } },
+    "may_send": { "type": "array", "items": { "type": "object", "required": ["host", "purpose"], "additionalProperties": false, "properties": { "host": { "type": "string" }, "purpose": { "type": "string" } } }, "description": "default empty: nothing leaves the browser" },
+    "storage": { "type": "object", "additionalProperties": false, "properties": { "indexeddb_keys": { "type": "array", "items": { "type": "string" } }, "max_bytes": { "type": "integer", "minimum": 0 }, "ttl_days": { "type": "integer", "minimum": 0 } } },
+    "permissions": { "type": "array", "items": { "enum": ["camera", "microphone", "geolocation", "clipboard-read", "clipboard-write", "notifications"] }, "description": "default empty" },
+    "needs_owner_yes": { "type": "array", "items": { "enum": ["model_download_over_max_bytes", "new_host", "any_permission", "manifest_update", "storage_over_max"] } },
+    "never": { "type": "array", "items": { "type": "string" }, "description": "what no yes unlocks, e.g. secrets, another site's storage, cross-origin cookies, eval of fetched code" },
+    "signer": { "type": "object", "required": ["key_id", "fingerprint"], "additionalProperties": false, "properties": { "key_id": { "type": "string" }, "fingerprint": { "type": "string" } } }
+  }
+}
