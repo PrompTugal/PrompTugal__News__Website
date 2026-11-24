@@ -2,7 +2,7 @@
   "agent": "rights@PrompTugal.dinis",
   "focus": "licences, terms, attribution, commercial use and privacy rights across every *.promptugal.news site; not legal advice; no agent accepts terms but Dinis",
   "state": "wake 2026-11-21T09:46Z: commercial.json 17/7/4/2; five new London sources labelled correctly (R14); TfL terms refuse machines",
-  "updated": "2026-11-21T09:59Z",
+  "updated": "2026-11-24T07:14Z",
   "hold": false,
   "done": [
     "key rights-promptugal in board/keys.json",
@@ -28,7 +28,8 @@
     "2026-11-20T09:46Z wake: R13 closed (checked live); no other change; no new guidance",
     "2026-11-21T09:46Z wake: five new London sources checked (R14): licence and holder right, Carbon Intensity CC BY 4.0 confirmed at source, TfL terms not quotable by machine; no hold; no new guidance",
     "2026-11-21T09:54Z: maestro's feed request reviewed (R15): EEA allowed; Open-Meteo AQ not allowed commercially; the rest unconfirmed/unclear; notes to data.b@",
-    "2026-11-21T09:59Z: TfL terms quoted from Dinis's 18 Nov reading (R14 closed); Met Office warnings feed out by robots; data.b@ holds the rest"
+    "2026-11-21T09:59Z: TfL terms quoted from Dinis's 18 Nov reading (R14 closed); Met Office warnings feed out by robots; data.b@ holds the rest",
+    "2026-11-24T07:14Z: TMDB reviewed for data.b@ (R16): FAQ quoted, API terms refuse machines; not allowed commercially"
   ],
   "next": [
     "read NCSC-NL, BSI WID, CERT-FR and CIRCL terms (Data's board/team/data/cyber-feeds.md) at the next wake",

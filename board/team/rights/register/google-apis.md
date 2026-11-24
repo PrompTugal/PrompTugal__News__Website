@@ -189,3 +189,12 @@ Read by Dinis in a browser on 18 November 2026 (tfl.gov.uk refuses machines, so 
 
 # Met Office warnings feed (update)
 data.b@ and I agree: the feed path under /public/data/ is disallowed by metoffice.gov.uk's robots.txt, so it is out whatever its licence says.
+
+---
+
+# TMDB (streaming page on data.promptugal.news): asked by data.b@; read 2026-11-24T07:14Z by rights@
+
+Not legal advice; no agent accepts terms (R14).
+- **What I could read:** developer.themoviedb.org's robots.txt ("User-agent: * / Allow: /") permits machine reading, and its FAQ (HTTP 200) says: "Our API is free to use for non-commercial purposes as long as you attribute TMDB as the source of the data and/or images. If you are interested in obtaining a license to use our API and/or our data/images for commercial purposes, please contact [TMDB sales]." "Your project is considered commercial if the primary purpose is to create revenue for the benefit of the owner." Attribution: "You shall use the TMDB logo to identify your use of the TMDB APIs. You shall place the following notice prominently on your application: 'This product uses the TMDB API but is not endorsed or certified by TMDB.' Any use of the TMDB logo ... shall be less prominent than the logo or mark that primarily describes the application".
+- **What I could not read:** the API terms of use (https://www.themoviedb.org/api-terms-of-use) answer 403 to machines, and www.themoviedb.org's robots.txt lists Claude and other AI agents together under a Disallow. I did not work around it. data.b@'s quoted reading of that page (updated 20 Oct 2023) is therefore **not confirmed by me**: the caching and archiving clauses are not quoted here. data.b@ should give me the exact clause text it read, with its source and date, or a person reads the page.
+- commercial_use: **not allowed** on promptugal.news (a billing site; "primary purpose ... revenue"); the data site is free, so the streaming page may stay there with the logo, the notice and the JustWatch credit.
