@@ -5,8 +5,8 @@
   "role": "Conductor of the conductors, account C",
   "session": "https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
   "key": "maestro.c-account-c (board/keys.json; signing sha256:c58d733fc473b831; ssh ed25519 for git signatures)",
-  "updated": "2026-11-23T15:42Z",
-  "state": "15:33 wake: asks route through b.decisions; titles c.<role>; Gmail and CRM team on account A; weekly 61% amber",
+  "updated": "2026-11-24T12:35Z",
+  "state": "6-hourly wake at :33 until account C weekly reset (Wed 25 Nov 13:00 UTC); account C RED (85%), no new sessions or tasks",
   "done": [
     "Read CLAUDE.md, New from Dinis (twins do not talk across), the maestros README, the start prompt, from-b.md, from-d.md, view.md, maestro.d's decisions on the SovereignWebsite twins",
     "Made key maestro.c-account-c in this session; public half in board/keys.json; commits signed through newsroom/tools/signing-setup.sh",
@@ -34,10 +34,7 @@
     "Debrief PDF of the first night (15 pages)",
     "Gmail and CRM briefing deck (14 pages)"
   ],
-  "next": [
-    "At each wake: read from-b.md and from-d.md, check the three sessions' status and limits, state line, brief Dinis",
-    "Relay the new sessions' first asks (key merges in the Factory) to Dinis"
-  ],
+  "next": "next wake 18:33 UTC; after Wed 13:00 UTC propose 3-hourly again",
   "asks": [
     "Dinis: the five Gmail and CRM decisions (deck page 13) and who the human users are - https://claude.ai/code/session_01Kw9UwEYkVCthc5KiVo3bAp",
     "Dinis: security.aws's R-008, R-009, R-010 and aws.c's plan v2.1: read and decide (now conductor.aws.a on account A, https://claude.ai/code/session_018yvwtPiszBTMHKVD4AuDwn)",
@@ -49,5 +46,8 @@
   "latest_debrief": "board/team/maestro.c/debriefs/2026-11-23-handover.md",
   "last_read_from_b": "2026-11-23T15:34Z",
   "last_read_from_d": "2026-11-23T15:10Z",
-  "last_read_from_a": "2026-11-23T15:31Z"
+  "last_read_from_a": "2026-11-23T15:31Z",
+  "exceptions": [
+    "2026-11-24T11:25Z wake moved 3-hourly to 6-hourly and accountant pings dropped on c.accountant RED advice; reversible, own area (no-agent-blocked rule)"
+  ]
 }
