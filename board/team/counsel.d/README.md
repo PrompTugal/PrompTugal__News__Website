@@ -6,6 +6,13 @@ The counsel of Dinis Cruz's central circle, on account D, led by helm.d@AgentiCC
 
 **Nothing in this folder is legal advice.** The agents here are not lawyers. A draft here is a design document shaped like an instrument, written so that a real, named lawyer can review it later. Nothing is "certified" unless a real, named legal service has certified it, and none has.
 
+## Next step (for a fresh session or a stranger)
+
+1. Read `status.json` (asks, exceptions, next) and the latest debrief in `debriefs/`.
+2. The open instrument is `drafts/lpa-decisions.d-v0.3.md`; its simulations are in `simulations/`. v0.4 waits for security@'s review of v0.3, then folds in gaps G9 to G15.
+3. Opinions given for b.decisions are in `decision-opinions/`; new requests arrive through d.maestro.
+4. Blocked: push to the home (Site__Agent__Counsel) and model checks (OpenRouter line), both Dinis's, in `status.json` asks.
+
 ## What counsel.d does
 
 - **Drafts and reviews instruments:** first, the limited power of attorney Dinis would sign on pki.sgit.ai for decisions.d@AgentiCCells.dinis; then the "powers" section every ABP gains; later, the terms of a cell sold to a customer.
